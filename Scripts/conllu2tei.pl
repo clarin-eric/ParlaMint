@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 # Convert CoNLL-U file to TEI <body>
+# Also encodes USAS semantic information
 # This is a slightly modified script for ParlaMint from
 # https://github.com/clarinsi/TEI-conversions/blob/645dfbece8f52b45a51f159f5874e1038f9f1c12/Scripts/conllu2tei.pl
-# Also encodes USAS semantic information
 
 use warnings;
 use utf8;
@@ -21,6 +21,10 @@ $sem_prefix   = 'sem';      # Prefix for semantic annotation
 $doc_prefix  = 'doc';    # Prefix for document IDs, if they are numeric in source
 $p_prefix    = 'p';      # Prefix for paragraph IDs, if they are numeric in source
 $s_prefix    = 's';      # Prefix for sentence IDs, if they  are numeric or do not exist in source
+
+#All USAS phrases encountered and how many skipped
+$phr_all = 0;
+$phr_skipped = 0;
 
 print "<body xmlns=\"http://www.tei-c.org/ns/1.0\" xml:lang=\"en\">\n";
 $has_div = 0;
@@ -84,6 +88,8 @@ if ($has_p) {print "</p>\n"}
 if ($has_div) {print "</div>\n"}
 print "</body>\n";
 
+print STDERR "INFO: Phrases all: $phr_all, skipped: $phr_skipped\n";
+
 #Convert one sentence into TEI
 sub conllu2tei {
     my $id = shift;
@@ -100,7 +106,7 @@ sub conllu2tei {
     my @ids = ();
     my @toks = ();
     my @deps = ();
-    $tei = "<s xml:id=\"$id\" n=\"$n\">\n";
+    $tei = "<s xml:id=\"$id\" n=\"$n\">";
     @open_elements = ();
     foreach my $line (split(/\n/, $conllu)) {
         next unless $line =~ /^\d+\t/;
@@ -140,12 +146,13 @@ sub conllu2tei {
         if (($sem) = $local =~ /SEMMWE=(.)/) {
 	    if ($sem ne 'I' and $sem_prev ne 'O') {
 		push(@toks, "</phr>");
-		pop(@open_elements);
+		if ($open_elements[0] eq 'phr') {shift(@open_elements)}
+		else {pop(@open_elements)}
 	    }
 	    if ($sem eq 'B') {
 		($semtype) = $local =~ /SEM=([^|]+)/;
-		$semtype =~ s/,/ $sem_prefix:/g;
-		push(@toks, "<phr type=\"sem\" ana=\"$sem_prefix:$semtype\">");
+		$semana = &sem2ana($semtype);
+		push(@toks, "<phr type=\"sem\" function=\"$semtype\" ana=\"$semana\">");
 		push(@open_elements, 'phr');
 	    }
 	    $sem_prev = $sem
@@ -155,7 +162,8 @@ sub conllu2tei {
             if (($type) = $ner =~ /^B-(.+)/) {
                 if ($ner_prev ne 'O') {
                     push(@toks, "</name>");
-		    pop(@open_elements);
+		    if ($open_elements[0] eq 'name') {shift(@open_elements)}
+		    else {pop(@open_elements)}
                 }
                 push(@toks, "<name type=\"$type\">");
 		push(@open_elements, 'name');
@@ -169,7 +177,8 @@ sub conllu2tei {
             }
             elsif ($ner eq 'O' and $ner_prev ne 'O') {
 		push(@toks, "</name>");
-		pop(@open_elements);
+		if ($open_elements[0] eq 'name') {shift(@open_elements)}
+		else {pop(@open_elements)}
             }
             $ner_prev = $ner
         }
@@ -194,21 +203,27 @@ sub conllu2tei {
 	if ($local =~ /SEM=([^|]+)/) {$semtype = $1}
 	else {$semtype = ''}
 	if ($semtype) {
-	    $semtype =~ s/,/ $sem_prefix:/g;
-	    $element =~ s|>| ana="$sem_prefix:$semtype">|;
+	    $semana = &sem2ana($semtype);
+	    $element =~ s|>| function="$semtype" ana="$semana">|;
 	}
         $element =~ s|>| join="right">| unless $space;
         push @ids, $id . '.t' . $n;
         push @toks, $element;
         push @deps, "$link\t$n\t$role" #Only if we have a parse
             if $role ne '_';
-}
+    }
 
-    # If we haven't closed the last semantic phrase or name
+    # If we haven't closed the last semantic phr or name, close them.
+    # NB: the order can be wrong, e.g. <name> <phr> </name> </phr>
     while (@open_elements) {
 	$element = pop(@open_elements);
         push(@toks, '</' . $element . '>')
     }
+
+    # Here we fix the nesting of <name> and <phr>: remove <phr> if crossing but also phr/name or name/phr
+    # So, we have no semantically tagged multi-word expressions inside names, or containing names.
+    @toks = &fix_elements(@toks);
+    
     #Give IDs to tokens
     foreach my $id (@ids) {
 	$element = '';
@@ -222,7 +237,7 @@ sub conllu2tei {
 	$tei .= "$element" if $element;
     }
     # If tags left over, e.g. </name>
-    while (@toks) {$tei .= shift @toks}
+    while (@toks) {$tei .= "\n" . shift(@toks)}
     if (@deps) {
         $tei .= "<linkGrp type=\"$ud_type\" targFunc=\"head argument\" corresp=\"#$id\">\n";
         foreach $dep (@deps) {
@@ -246,4 +261,101 @@ sub xml_encode {
     #Don't really want to do it for content
     #$str =~ s|"|&quot;|g;
     return $str
+}
+
+# Fix the nesting of <name> and <phr> by removing <phr> if crossing with <name>
+# Also removes phr/name or name/phr!
+# So, we have no semantically tagged multi-word expressions inside names, or containing names.
+sub fix_elements {
+    my @in = @_; #List of tokens, with badly nested <name> and <tag>
+    my $i = 0;   #Counter through in array
+    my @tmp;     #Output with empty values for deleted <phr> (and </phr>)
+    my @out;     #Clean output without clasing <phr>
+    my $open_name;  #At current input we are inside <name>
+    my $open_phr;   #At current input we are inside <phr>
+    foreach $item (@in) {
+	# For debugging in case of unexpected input
+	# if ($open_name) {print STDERR "In <name>\n"}
+	# if ($open_phr)  {print STDERR "In <phr>\n"}
+	# print STDERR "Item is $item\n";
+	if ($item =~ m|<phr |) {
+	    $phr_all++;
+	    if ($open_name) { #skip <phr> inside name
+		# print STDERR "Skipping <phr>\n";
+		$phr_skipped++;
+	    } 
+	    elsif (not $open_phr) {
+		push(@tmp, $item);
+		$open_phr = 1;
+	    }
+	    else {die "Strange situation: <phr> but phr already open!\n"}
+	}
+	elsif ($item =~ m|<name |) {
+	    if ($open_phr) {  #remove phr containing name
+		my $i = -1;
+		while (-$i <= $#tmp and $tmp[$i] !~ m|<phr|) {--$i}
+		# print STDERR "$i: <phr>...<name>: $tmp[$i]\n";
+		$tmp[$i] = '';
+		push(@tmp, $item);
+		$open_phr = 0;
+		$open_name = 1;
+		$phr_skipped++;
+	    } 
+	    elsif (not $open_name) {
+		push(@tmp, $item);
+		$open_name = 1;
+	    }
+	    else {die "Strange situation: <name> but name already open!\n"}
+	}
+	elsif ($item =~ m|</phr>|) {
+	    if ($open_name) { # <phr> <name> </phr> -> <name>
+		if ($open_phr) {
+		    my $i = -1;
+		    while (-$i <= $#tmp and $tmp[$i] !~ m|<phr|) {--$i}
+		    # print STDERR "$i: <name>...</phr>: $tmp[$i]\n";
+		    $tmp[$i] = '';
+		    $open_phr = 0;
+		    $phr_skipped++;
+		}
+	    }
+	    elsif ($open_phr) {
+		push(@tmp, $item);
+		$open_phr = 0;
+	    }
+	    else {} # Closing phrase, but phrase not open, was deleted
+	}
+	elsif ($item =~ m|</name>|) {
+	    if ($open_phr) {
+		my $i = -1;
+		while (-$i <= $#tmp and $tmp[$i] !~ m|<phr|) {--$i}
+		# print STDERR "$i: <phr>...</name>: $tmp[$i]\n";
+		$tmp[$i] = '';
+		$open_phr = 0;
+		$phr_skipped++;
+	    }
+	    if ($open_name) {
+		push(@tmp, $item);
+		$open_name = 0;
+	    }
+	    else {die "Strange situation: </name> but name not open!\n"}
+	}
+	else {push(@tmp, $item)}
+    }
+    foreach $item (@tmp) {push(@out, $item) if $item}
+    return @out
+}
+
+# Convert USAS tags to simplified pointers for @ana, cf.
+# https://github.com/clarin-eric/ParlaMint/issues/202
+sub sem2ana {
+    my $semtypes = shift;
+    my @out;
+    $semtypes =~ s/,.+//; #Retain only the first tag
+    foreach my $semtype (split(m|/|, $semtypes)) {
+	$semtype =~ s/[mfnci%\@]//g; #Remove modifiers
+	$semtype =~ s/\-/m/g; #Change - to m
+	$semtype =~ s/\+/p/g; #Change + to p
+	push(@out, "$sem_prefix:$semtype")
+    }
+    return join(' ', @out)
 }

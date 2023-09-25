@@ -33,13 +33,13 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.0</edition>
+            <edition>2.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure unit="speeches" quantity="246" xml:lang="ca">246 intervencions</measure>
-            <measure unit="speeches" quantity="246" xml:lang="en">246 speeches</measure>
-            <measure unit="words" quantity="83137" xml:lang="ca">83,137 paraules</measure>
-            <measure unit="words" quantity="83137" xml:lang="en">83,137 words</measure>
+            <measure unit="speeches" quantity="248" xml:lang="ca">248 intervencions</measure>
+            <measure unit="speeches" quantity="248" xml:lang="en">248 speeches</measure>
+            <measure unit="words" quantity="80174" xml:lang="ca">80174 paraules</measure>
+            <measure unit="words" quantity="80174" xml:lang="en">80174 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -47,41 +47,41 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2023-06-10">2023-06-10</date>
+            <date when="2023-09-20">2023-09-20</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="ca">Parlament de Catalunya diaris de sessions de parlamentaries</title>
                <title type="main" xml:lang="en">Parliament of Catalonia daily sessions</title>
-               <idno type="URI" subtype="parliament">https://www.parlament.cat/</idno>
+               <idno type="URI">https://www.parlament.cat/</idno>
                <date when="2020-09-09">2020-09-09</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="1"/>
-               <tagUsage gi="desc" occurs="33"/>
-               <tagUsage gi="div" occurs="1"/>
-               <tagUsage gi="gap" occurs="3"/>
-               <tagUsage gi="head" occurs="1"/>
-               <tagUsage gi="incident" occurs="4"/>
-               <tagUsage gi="kinesic" occurs="9"/>
-               <tagUsage gi="note" occurs="349"/>
-               <tagUsage gi="seg" occurs="1112"/>
                <tagUsage gi="text" occurs="1"/>
-               <tagUsage gi="u" occurs="246"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="note" occurs="103"/>
+               <tagUsage gi="pb" occurs="0"/>
+               <tagUsage gi="u" occurs="248"/>
+               <tagUsage gi="seg" occurs="1112"/>
+               <tagUsage gi="kinesic" occurs="9"/>
                <tagUsage gi="vocal" occurs="17"/>
+               <tagUsage gi="incident" occurs="4"/>
+               <tagUsage gi="gap" occurs="3"/>
+               <tagUsage gi="desc" occurs="0"/>
+               <tagUsage gi="time" occurs="0"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -96,8 +96,8 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-06-10">
-            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-09-20">
+            <name>GitHub Action</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid">
@@ -105,45 +105,45 @@
          <div type="debateSection">
             <head>Sessió 60.1</head>
             <note type="narrative">La sessió s'obre a les deu del matí i tres minuts. Presideix el president del Parlament, acompanyat del vicepresident primer i les secretàries tercera i quarta. Assisteixen la Mesa el secretari general, el lletrat major i el lletrat Miquel Lluís Palomares Amat.</note>
-            <note type="narrative">Al banc del Govern seu el president de la Generalitat, acompanyat del vicepresident del Govern i conseller d’Economia i Hisenda i els consellers de la Presidència, d’Interior, d’Educació, de Salut, de Territori i Sostenibilitat, de Cultura, de Treball, Afers Socials i Famílies, d’Empresa i Coneixement i d’Agricultura, Ramaderia, Pesca i Alimentació.</note>
+            <note type="narrative">Al banc del Govern seu el president de la Generalitat, acompanyat del vicepresident del Govern i conseller d'Economia i Hisenda i els consellers de la Presidència, d'Interior, d'Educació, de Salut, de Territori i Sostenibilitat, de Cultura, de Treball, Afers Socials i Famílies, d'Empresa i Coneixement i d'Agricultura, Ramaderia, Pesca i Alimentació.</note>
             <note type="narrative">ORDRE DEL DIA DE LA CONVOCATÒRIA</note>
             <note type="narrative">1. Preguntes amb resposta oral.</note>
-            <note type="narrative">2. Decret llei 29/2020, del 28 de juliol, pel qual s’adopten mesures pressupostàries en relació amb el desplegament de les actuacions d’atenció social, ordenació i reforç de determinats serveis socials de caràcter residencial i d’atenció diürna que preveu el Pla de contingència per a residències, per fer front als brots de la pandèmia generada per la Covid-19, pel qual es manté la vigència de preceptes en matèria d’infància i adolescència del Decret llei 11/2020, del 7 d’abril, pel qual s’adopten mesures econòmiques, socials i administratives per pal·liar els efectes de la pandèmia generada per la Covid-19 i altres de complementàries, i pel qual es modifica el Decret llei 21/2020, del 2 de juny, de mesures urgents de caràcter econòmic, cultural i social, sota el títol de mesures de caràcter social (tram. 203-00054/12). Govern de la Generalitat. Debat i votació sobre la validació o derogació del decret llei (text presentat: BOPC 671, 23).</note>
-            <note type="narrative">3. Decret llei 30/2020, del 4 d’agost, pel qual s’estableix el règim sancionador específic per l’incompliment de les mesures de prevenció i contenció sanitàries per fer front a la crisi sanitària provocada per la Covid-19 (tram. 203-00055/12). Govern de la Generalitat Debat i votació sobre la validació o derogació del decret llei (text presentat: BOPC 671, 31).</note>
-            <note type="narrative">4. Proposició de llei de mesures urgents en matèria de contenció de rendes en els contractes d’arrendament d’habitatge (tram. 202-00080/12). Grup Parlamentari de Junts per Catalunya, Grup Parlamentari Republicà, Grup Parlamentari de Catalunya en Comú Podem i Subgrup Parlamentari de la Candidatura d’Unitat Popular - Crida Constituent. Debat i votació de les esmenes presentades en la tramitació en lectura única i de les esmenes presentades subsegüents al dictamen del Consell de Garanties Estatutàries (text presentat: BOPC 651, 27).</note>
-            <note type="narrative">5. Proposta per a presentar a la Mesa del Congrés dels Diputats la Proposició de llei per a garantir el retorn social del rescat bancari (tram. 270-00002/12). Grup Parlamentari Republicà. Debat de totalitat i votació de l’esmena a la totalitat (text presentat: BOPC 472, 164).</note>
-            <note type="narrative">6. Interpel·lació al Govern sobre l’emergència educativa i la planificació del curs escolar 2020-21 (tram. 300-00291/12). Grup Parlamentari Socialistes i Units per Avançar. Substanciació.</note>
-            <note type="narrative">7. Interpel·lació al Govern sobre l’inici del curs escolar 2020-2021 (tram. 300-00292/12). Grup Parlamentari de Ciutadans. Substanciació.</note>
-            <note type="narrative">8. Interpel·lació al Govern sobre l’inici del curs escolar 2020-2021 (tram. 300-00295/12). Subgrup Parlamentari de la Candidatura d’Unitat Popular - Crida Constituent. Substanciació.</note>
-            <note type="narrative">9. Interpel·lació al Govern sobre l’ocupació i les condicions sociolaborals del treball autònom (tram. 300-00293/12). Grup Parlamentari de Ciutadans. Substanciació.</note>
+            <note type="narrative">2. Decret llei 29/2020, del 28 de juliol, pel qual s'adopten mesures pressupostàries en relació amb el desplegament de les actuacions d'atenció social, ordenació i reforç de determinats serveis socials de caràcter residencial i d'atenció diürna que preveu el Pla de contingència per a residències, per fer front als brots de la pandèmia generada per la Covid-19, pel qual es manté la vigència de preceptes en matèria d'infància i adolescència del Decret llei 11/2020, del 7 d'abril, pel qual s'adopten mesures econòmiques, socials i administratives per pal·liar els efectes de la pandèmia generada per la Covid-19 i altres de complementàries, i pel qual es modifica el Decret llei 21/2020, del 2 de juny, de mesures urgents de caràcter econòmic, cultural i social, sota el títol de mesures de caràcter social (tram. 203-00054/12). Govern de la Generalitat. Debat i votació sobre la validació o derogació del decret llei (text presentat: BOPC 671, 23).</note>
+            <note type="narrative">3. Decret llei 30/2020, del 4 d'agost, pel qual s'estableix el règim sancionador específic per l'incompliment de les mesures de prevenció i contenció sanitàries per fer front a la crisi sanitària provocada per la Covid-19 (tram. 203-00055/12). Govern de la Generalitat Debat i votació sobre la validació o derogació del decret llei (text presentat: BOPC 671, 31).</note>
+            <note type="narrative">4. Proposició de llei de mesures urgents en matèria de contenció de rendes en els contractes d'arrendament d'habitatge (tram. 202-00080/12). Grup Parlamentari de Junts per Catalunya, Grup Parlamentari Republicà, Grup Parlamentari de Catalunya en Comú Podem i Subgrup Parlamentari de la Candidatura d'Unitat Popular - Crida Constituent. Debat i votació de les esmenes presentades en la tramitació en lectura única i de les esmenes presentades subsegüents al dictamen del Consell de Garanties Estatutàries (text presentat: BOPC 651, 27).</note>
+            <note type="narrative">5. Proposta per a presentar a la Mesa del Congrés dels Diputats la Proposició de llei per a garantir el retorn social del rescat bancari (tram. 270-00002/12). Grup Parlamentari Republicà. Debat de totalitat i votació de l'esmena a la totalitat (text presentat: BOPC 472, 164).</note>
+            <note type="narrative">6. Interpel·lació al Govern sobre l'emergència educativa i la planificació del curs escolar 2020-21 (tram. 300-00291/12). Grup Parlamentari Socialistes i Units per Avançar. Substanciació.</note>
+            <note type="narrative">7. Interpel·lació al Govern sobre l'inici del curs escolar 2020-2021 (tram. 300-00292/12). Grup Parlamentari de Ciutadans. Substanciació.</note>
+            <note type="narrative">8. Interpel·lació al Govern sobre l'inici del curs escolar 2020-2021 (tram. 300-00295/12). Subgrup Parlamentari de la Candidatura d'Unitat Popular - Crida Constituent. Substanciació.</note>
+            <note type="narrative">9. Interpel·lació al Govern sobre l'ocupació i les condicions sociolaborals del treball autònom (tram. 300-00293/12). Grup Parlamentari de Ciutadans. Substanciació.</note>
             <note type="narrative">10. Interpel·lació al Govern sobre la regularització de persones immigrants (tram. 300-00296/12). Grup Parlamentari Republicà. Substanciació.</note>
-            <note type="narrative">11. Interpel·lació al Govern sobre la necessitat d’un pla de rescat per al sector de la cultura (tram. 300-00294/12). Concepción Abellán Carretero, del Grup Parlamentari de Catalunya en Comú Podem. Substanciació.</note>
-            <note type="narrative">12. Interpel·lació al Govern sobre la defensa de les institucions i l’autogovern (tram. 300-00298/12). Grup Parlamentari de Junts per Catalunya. Substanciació.</note>
-            <note type="narrative">13. Interpel·lació al Govern sobre l’economia productiva (tram. 300-00299/12). Grup Parlamentari de Junts per Catalunya. Substanciació.</note>
+            <note type="narrative">11. Interpel·lació al Govern sobre la necessitat d'un pla de rescat per al sector de la cultura (tram. 300-00294/12). Concepción Abellán Carretero, del Grup Parlamentari de Catalunya en Comú Podem. Substanciació.</note>
+            <note type="narrative">12. Interpel·lació al Govern sobre la defensa de les institucions i l'autogovern (tram. 300-00298/12). Grup Parlamentari de Junts per Catalunya. Substanciació.</note>
+            <note type="narrative">13. Interpel·lació al Govern sobre l'economia productiva (tram. 300-00299/12). Grup Parlamentari de Junts per Catalunya. Substanciació.</note>
             <note type="narrative">14. Interpel·lació al Govern sobre la gestió dels fons Covid-19 per a la recuperació econòmica i social (tram. 300-00297/12). Grup Parlamentari Republicà. Substanciació.</note>
             <note type="narrative">15. Moció subsegüent a la interpel·lació al Govern sobre la política pressupostària de la Generalitat (tram. 302-00228/12). Grup Parlamentari de Ciutadans. Debat i votació.</note>
             <note type="narrative">16. Moció subsegüent a la interpel·lació al Govern sobre la gestió econòmica (tram. 302-00232/12). Grup Parlamentari Socialistes i Units per Avançar. Debat i votació.</note>
-            <note type="narrative">17. Moció subsegüent a la interpel·lació al Govern sobre la desinformació i la manca de transparència en l’actuació de la Generalitat a l’exterior (tram. 302-00229/12). Grup Parlamentari de Ciutadans. Debat i votació.</note>
+            <note type="narrative">17. Moció subsegüent a la interpel·lació al Govern sobre la desinformació i la manca de transparència en l'actuació de la Generalitat a l'exterior (tram. 302-00229/12). Grup Parlamentari de Ciutadans. Debat i votació.</note>
             <note type="narrative">18. Moció subsegüent a la interpel·lació al Govern sobre el balanç de la política general del Govern (tram. 302-00230/12). Subgrup Parlamentari del Partit Popular de Catalunya. Debat i votació.</note>
             <note type="narrative">19. Moció subsegüent a la interpel·lació al Govern sobre el confinament de Lleida i el baix Segrià (tram. 302-00231/12). Grup Parlamentari Socialistes i Units per Avançar. Debat i votació.</note>
             <note type="narrative">20. Moció subsegüent a la interpel·lació al Govern sobre la política industrial (tram. 302-00233/12). Grup Parlamentari de Catalunya en Comú Podem. Debat i votació.</note>
             <note type="speaker">El president</note>
             <u xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0"
-               who="#MuroXavier"
-               ana="#regular"
+               who="#TorrentRoger"
+               ana="#chair"
                xml:lang="ca">
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0.0" xml:lang="ca">Diputats, diputades, comença la sessió.</seg>
-               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0.1" xml:lang="ca">La llista de preguntes a respondre oralment en el Ple està inclosa en el dossier del Ple. D’acord amb l’article 164 del Reglament, se substanciaran aquest matí com a primer punt de l’ordre del dia d’aquesta sessió plenària.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0.1" xml:lang="ca">La llista de preguntes a respondre oralment en el Ple està inclosa en el dossier del Ple. D'acord amb l'article 164 del Reglament, se substanciaran aquest matí com a primer punt de l'ordre del dia d'aquesta sessió plenària.</seg>
                <note>Manifestació de condol i de condemna de la violència masclista</note>
-               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0.2" xml:lang="ca">Abans de començar l’ordre del dia he de comunicar-los que, d’acord amb les dades oficials del Departament d’Interior, malauradament el passat 22 d’agost va morir assassinada a Terrassa, Montserrat, la novena víctima per violència de gènere a Catalunya.</seg>
-               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0.3" xml:lang="ca">En nom de la cambra, lamento i condemno aquest crim i reitero el compromís del Parlament en l’eradicació de qualsevol forma de violència contra les dones i vetllar pel seu record.</seg>
-               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0.4" xml:lang="ca">D’acord amb el protocol de dol del Parlament de Catalunya contra les violències masclistes aprovat pel Grup de Treball en Equitat de Gènere, aquesta Presidència convoca un minut de silenci en suspendre la sessió plenària, avui al migdia, davant de la façana del Palau del Parlament.</seg>
-               <note>Compliment de la Moció 111/XII, sobre les operacions de rescat a la Mediterrània i les polítiques d’acollida de migrants</note>
-               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0.5" xml:lang="ca">Així mateix, els informo que, en compliment d’allò que estableix la Moció 111/XII del Parlament de Catalunya, sobre les operacions de rescat a la Mediterrània i les polítiques d’acollida de migrants, segons les dades oficials de l’Organització Internacional de les Migracions des de l’inici del 2020 hi ha 558 víctimes mortes i desaparegudes a la Mediterrània.</seg>
-               <note>Pregunta al Govern sobre l’inici del curs escolar 2020-2021</note>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0.2" xml:lang="ca">Abans de començar l'ordre del dia he de comunicar-los que, d'acord amb les dades oficials del Departament d'Interior, malauradament el passat 22 d'agost va morir assassinada a Terrassa, Montserrat, la novena víctima per violència de gènere a Catalunya.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0.3" xml:lang="ca">En nom de la cambra, lamento i condemno aquest crim i reitero el compromís del Parlament en l'eradicació de qualsevol forma de violència contra les dones i vetllar pel seu record.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0.4" xml:lang="ca">D'acord amb el protocol de dol del Parlament de Catalunya contra les violències masclistes aprovat pel Grup de Treball en Equitat de Gènere, aquesta Presidència convoca un minut de silenci en suspendre la sessió plenària, avui al migdia, davant de la façana del Palau del Parlament.</seg>
+               <note>Compliment de la Moció 111/XII, sobre les operacions de rescat a la Mediterrània i les polítiques d'acollida de migrants</note>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0.5" xml:lang="ca">Així mateix, els informo que, en compliment d'allò que estableix la Moció 111/XII del Parlament de Catalunya, sobre les operacions de rescat a la Mediterrània i les polítiques d'acollida de migrants, segons les dades oficials de l'Organització Internacional de les Migracions des de l'inici del 2020 hi ha 558 víctimes mortes i desaparegudes a la Mediterrània.</seg>
+               <note>Pregunta al Govern sobre l'inici del curs escolar 2020-2021</note>
                <note>310-00375/12</note>
-               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0.6" xml:lang="ca">Seguim amb el primer punt de l’ordre del dia d’aquesta sessió, que són les preguntes al Govern.</seg>
-               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0.7" xml:lang="ca">I la primera pregunta és sobre l’inici del curs escolar 2020-2021, i la formula, en nom del Subgrup Parlamentari del Partit Popular de Catalunya, el diputat senyor Daniel Serrano. Quan vulgui.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0.6" xml:lang="ca">Seguim amb el primer punt de l'ordre del dia d'aquesta sessió, que són les preguntes al Govern.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0.7" xml:lang="ca">I la primera pregunta és sobre l'inici del curs escolar 2020-2021, i la formula, en nom del Subgrup Parlamentari del Partit Popular de Catalunya, el diputat senyor Daniel Serrano. Quan vulgui.</seg>
             </u>
             <note type="speaker">Daniel Serrano Coronado</note>
             <u xml:id="ParlaMint-ES-CT_2020-09-09-6001.2.0"
@@ -161,32 +161,32 @@
                xml:lang="ca">
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0.0" xml:lang="ca">Diputades, diputats, diputat Riera, en primer lloc... Perdó.</seg>
                <vocal type="murmuring">
-                  <desc>Veus de fons.</desc>
+                  <desc>(Veus de fons.)</desc>
                </vocal>
-               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0.1" xml:lang="ca">Gràcies. En primer lloc, l’escola, l’institut o la llar d’infants seran, a partir de dilluns, el lloc més segur per als infants i els joves fora de casa seva –seran el lloc més segur per als infants i els joves fora de casa seva.</seg>
-               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0.2" xml:lang="ca">Serà un lloc de risc zero? No. Ja hem après que, si mai ha existit el risc zero, que no, ara encara menys. Per tant, això, gràcies a les autoritats sanitàries, gràcies als experts, gràcies als equips dels hospitals, gràcies a les direccions de les escoles, gràcies al professorat, això serà així –això serà així. Perquè de garanties sanitàries hi ha les màximes, no n’hi ha més –no n’hi ha més. Ara no n’hi ha més. Tenim dotze equips a Catalunya que estan investigant. Potser ens en posin alguna més d’aquí a una setmana. La farem. Tenim el pla de cribratges, que començarà el dia 21: 500.000 cribratges en dos mesos a escoles amb tota la seva comunitat. Tenim el Projecte d’escoles sentinelles: cinquanta escoles que se’n farà un seguiment continu per veure l’evolució de la pandèmia respecte als infants i quines mesures hem de prendre, amb la tutela de la Vall d’Hebron i de l’Hospital Sant Joan de Déu. Per tant, mesures sanitàries, totes.</seg>
-               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0.3" xml:lang="ca">Una mesura important són els grups estables, que com més reduïts millor, però no és important el nombre del grup estable, sinó l’estancabilitat del grup, abans que el nombre, i les condicions en les quals es garanteix aquesta estancabilitat.</seg>
-               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0.4" xml:lang="ca">Del que vostè ha comentat, la presencialitat. Hem apostat per la presencialitat. L’ensenyament híbrid fora dels centres es fa en casos molt excepcionals. I en aquest sentit som dels governs d’Europa que més clarament han apostat per la presencialitat.</seg>
-               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0.5" xml:lang="ca">La connectivitat. Un pla digital, en el primer curs, de 106 milions d’euros, amb les xifres que he donat –amb les xifres que he donat– i amb negociació amb qüestions internacionals per si podem aconseguir més material encara.</seg>
-               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0.6" xml:lang="ca">La conciliació. Vostè sap que hem fet propostes des del Govern i, en especial, treballades amb Salut, amb Treball, i Educació, algunes assumint més del que les nostres competències ens obliguen i d’altres demanant a l’Estat que o faci un pas o ens el deixi fer a nosaltres. Perquè els vull recordar que en algun cas el que li hem dit és: «Doncs ja ho farem nosaltres.» Perquè és evident que és el mateix tenir cura de l’aïllament d’un menor d’edat infectat que tenir cura de l’aïllament d’un menor d’edat contacte estret d’un infectat. És el mateix. Socialment i comunitàriament no té cap diferència.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0.1" xml:lang="ca">Gràcies. En primer lloc, l'escola, l'institut o la llar d'infants seran, a partir de dilluns, el lloc més segur per als infants i els joves fora de casa seva –seran el lloc més segur per als infants i els joves fora de casa seva.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0.2" xml:lang="ca">Serà un lloc de risc zero? No. Ja hem après que, si mai ha existit el risc zero, que no, ara encara menys. Per tant, això, gràcies a les autoritats sanitàries, gràcies als experts, gràcies als equips dels hospitals, gràcies a les direccions de les escoles, gràcies al professorat, això serà així –això serà així. Perquè de garanties sanitàries hi ha les màximes, no n'hi ha més –no n'hi ha més. Ara no n'hi ha més. Tenim dotze equips a Catalunya que estan investigant. Potser ens en posin alguna més d'aquí a una setmana. La farem. Tenim el pla de cribratges, que començarà el dia 21: 500.000 cribratges en dos mesos a escoles amb tota la seva comunitat. Tenim el Projecte d'escoles sentinelles: cinquanta escoles que se'n farà un seguiment continu per veure l'evolució de la pandèmia respecte als infants i quines mesures hem de prendre, amb la tutela de la Vall d'Hebron i de l'Hospital Sant Joan de Déu. Per tant, mesures sanitàries, totes.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0.3" xml:lang="ca">Una mesura important són els grups estables, que com més reduïts millor, però no és important el nombre del grup estable, sinó l'estancabilitat del grup, abans que el nombre, i les condicions en les quals es garanteix aquesta estancabilitat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0.4" xml:lang="ca">Del que vostè ha comentat, la presencialitat. Hem apostat per la presencialitat. L'ensenyament híbrid fora dels centres es fa en casos molt excepcionals. I en aquest sentit som dels governs d'Europa que més clarament han apostat per la presencialitat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0.5" xml:lang="ca">La connectivitat. Un pla digital, en el primer curs, de 106 milions d'euros, amb les xifres que he donat –amb les xifres que he donat– i amb negociació amb qüestions internacionals per si podem aconseguir més material encara.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0.6" xml:lang="ca">La conciliació. Vostè sap que hem fet propostes des del Govern i, en especial, treballades amb Salut, amb Treball, i Educació, algunes assumint més del que les nostres competències ens obliguen i d'altres demanant a l'Estat que o faci un pas o ens el deixi fer a nosaltres. Perquè els vull recordar que en algun cas el que li hem dit és: «Doncs ja ho farem nosaltres. Perquè és evident que és el mateix tenir cura de l'aïllament d'un menor d'edat infectat que tenir cura de l'aïllament d'un menor d'edat contacte estret d'un infectat. És el mateix. Socialment i comunitàriament no té cap diferència.</seg>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0.7" xml:lang="ca">Pel que fa a les actuacions amb els alumnes que han patit més vulnerabilitat en aquesta situació, o ja en tenien més d'abans i s'ha agreujat o ja en tenien i es manté, un pla de 45 milions d'euros, amb accions molt concretes, destinats als centres de més complexitat, amb accions molt concretes, la majoria d'elles seguint el pla contra la segregació del Síndic de Greuges, i d'altres noves.</seg>
-               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0.8" xml:lang="ca">Hem fet i farem tots els esforços perquè, com vostè deia, senyor Riera, no siguin només les escoles obertes unes escoles segures, siguin també les escoles obertes unes escoles que continuïn apostant per la millora educativa i facin de l'actual situació una situació perquè aquesta millora tingui més força. I ho farem, hi insisteixo, gràcies a tothom. I gràcies al professorat, gràcies a les direccions, gràcies a la diversitat, gràcies a entendre que un grup estable en una escola rural és una cosa i que un grup estable en segons quin tipus d'escola de segons quin barri d’una ciutat és una altra cosa, i que, per tant, no es pot fer una instrucció única, perquè la diversitat també és la riquesa de la nostra escola.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0.8" xml:lang="ca">Hem fet i farem tots els esforços perquè, com vostè deia, senyor Riera, no siguin només les escoles obertes unes escoles segures, siguin també les escoles obertes unes escoles que continuïn apostant per la millora educativa i facin de l'actual situació una situació perquè aquesta millora tingui més força. I ho farem, hi insisteixo, gràcies a tothom. I gràcies al professorat, gràcies a les direccions, gràcies a la diversitat, gràcies a entendre que un grup estable en una escola rural és una cosa i que un grup estable en segons quin tipus d'escola de segons quin barri d'una ciutat és una altra cosa, i que, per tant, no es pot fer una instrucció única, perquè la diversitat també és la riquesa de la nostra escola.</seg>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0.9" xml:lang="ca">Moltes gràcies.</seg>
             </u>
             <note type="speaker">El president</note>
             <u xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0"
-               who="#MuroXavier"
-               ana="#regular"
+               who="#TorrentRoger"
+               ana="#chair"
                xml:lang="ca">
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.0" xml:lang="ca">Gràcies, conseller.</seg>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.1" xml:lang="ca">Hem cridat a votació. Passarem ara a votar els punts debatuts durant la jornada d'avui.</seg>
                <vocal type="murmuring">
-                  <desc>Veus de fons.</desc>
+                  <desc>(Veus de fons.)</desc>
                </vocal>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.2" xml:lang="ca">Sí, exacte. Em permeto recordar que tots els diputats i diputades seguin, si us plau, a l'escó que tenen assignat; si no, tindrem problemes amb el sistema de votació. Si hi ha algun dubte, ens ho comenten.</seg>
-               <note>Pausa llarga.</note>
+               <note>(Pausa llarga.)</note>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.3" xml:lang="ca">Sí. Estem organitzant de nou el sistema de votacions perquè hi ha hagut alguna retirada d'alguna delegació i per tant hem d'adaptar de nou els escons en els quals es votarà. Per tant, els demano uns minuts. Gràcies.</seg>
-               <note>Pausa llarga.</note>
+               <note>(Pausa llarga.)</note>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.4" xml:lang="ca">Molt bé. Doncs un cop resolt, passem a la votació.</seg>
                <note>Decret llei 29/2020, del 28 de juliol, pel qual s'adopten mesures pressupostàries en relació amb el desplegament de les actuacions d'atenció social, ordenació i reforç de determinats serveis socials de caràcter residencial i d'atenció diürna que preveu el Pla de contingència per a residències, per fer front als brots de la pandèmia generada per la Covid-19, pel qual es manté la vigència de preceptes en matèria d'infància i adolescència del Decret llei 11/2020, del 7 d'abril, pel qual s'adopten mesures econòmiques, socials i administratives per pal·liar els efectes de la pandèmia generada per la Covid-19 i altres de complementàries, i pel qual es modifica el Decret llei 21/2020, del 2 de juny, de mesures urgents de caràcter econòmic, cultural i social, sota el títol de mesures de caràcter social (continuació)</note>
                <note>203-00054/12</note>
@@ -194,7 +194,7 @@
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.6" xml:lang="ca">Comença la votació.</seg>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.7" xml:lang="ca">El Decret 29/2020 ha estat convalidat per 65 vots a favor –corresponents a 42 de presencials o delegats i 23 de telemàtics–, cap en contra, 69 abstencions.</seg>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.8" xml:lang="ca">I ara haig de preguntar a la cambra si algun grup vol que es tramiti com a... –sí?–, com a projecte de llei.</seg>
-               <note>Pausa.</note>
+               <note>(Pausa.)</note>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.9" xml:lang="ca">Doncs passem a votar efectivament si aquest Decret 29/2020 es tramita com a projecte de llei o no.</seg>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.10" xml:lang="ca">Comença la votació.</seg>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.11" xml:lang="ca">Atès que hi han hagut 69 vots favorables, 65 en contra –corresponents a 42 de delegats i presencials i 23 de telemàtics– i cap abstenció, aquest Decret llei 29/2020 es tramitarà com a projecte de llei.</seg>
@@ -204,7 +204,7 @@
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.13" xml:lang="ca">Comença la votació.</seg>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.14" xml:lang="ca">Aquest decret llei ha estat convalidat per 65 vots a favor –corresponents a 42 de delegats i presencials i 23 de telemàtics–, cap en contra, 69 abstencions.</seg>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.15" xml:lang="ca">En aquest cas, algun grup vol tramitar aquest... Sí?</seg>
-               <note>Pausa.</note>
+               <note>(Pausa.)</note>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.16" xml:lang="ca">Doncs votem la tramitació com a projecte de llei d'aquest decret llei.</seg>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.17" xml:lang="ca">Comença la votació.</seg>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.18" xml:lang="ca">Atès que s'han emès 44 vots a favor, 65 en contra –corresponents a 42 de delegats i presencials i 23 de telemàtics– i 25 abstencions, aquest decret llei no es tramitarà com a projecte de llei.</seg>
@@ -232,33 +232,33 @@
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.38" xml:lang="ca">Aquesta esmena transaccional ha estat aprovada per 77 vots a favor –corresponents a 54 de delegats i presencials i 23 de telemàtics–, 57 en contra, cap abstenció.</seg>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.39" xml:lang="ca">I votem ara l'esmena transaccional número 2, entre l'esmena 15, del Grup Parlamentari de Junts per Catalunya, i l'article 7 del text de la proposició de llei...</seg>
                <vocal type="murmuring">
-                  <desc>Veus de fons i pausa llarga.</desc>
+                  <desc>(Veus de fons i pausa llarga.)</desc>
                </vocal>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.40" xml:lang="ca">Disculpin, en la votació anterior he esmentat malament el resultat de les votacions, eh?, i, per tant, reprodueixo, ara sí, bé, els resultats. Estem parlant de l'esmena transaccional número 1, entre l'esmena 11, del Grup Parlamentari de Junts per Catalunya, i l'article 6 del text de la proposició de llei.</seg>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.41" xml:lang="ca">El resultat és 73 vots a favor –corresponents a 54 de delegats i presencials i 19 de telemàtics–, 4 abstencions...</seg>
                <vocal type="murmuring">
-                  <desc>Veus de fons i pausa.</desc>
+                  <desc>(Veus de fons i pausa.)</desc>
                </vocal>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.42" xml:lang="ca">Perdó. No, no, no... Disculpin: 73 vots a favor, 57 en contra i 4 abstencions. Sí?</seg>
-               <note>Pausa.</note>
+               <note>(Pausa.)</note>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.43" xml:lang="ca">Ho torno a repetir: 73 vots a favor –corresponents a 54 de presencials i delegats, 19 de telemàtics–, 57 vots en contra i 4 abstencions –de vots telemàtics. Sí?</seg>
-               <note>Pausa.</note>
+               <note>(Pausa.)</note>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.44" xml:lang="ca">Molt bé.</seg>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.45" xml:lang="ca">Passem ara a votar l'esmena transaccional número 2, entre l'esmena 15, del Grup Parlamentari de Junts per Catalunya, i l'article 7 del text de la proposició de llei. Sí?</seg>
-               <note>Pausa.</note>
+               <note>(Pausa.)</note>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.46" xml:lang="ca">Comença la votació.</seg>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.47" xml:lang="ca">Aquesta esmena transaccional ha estat aprovada per 71 vots a favor –corresponents a 52 de delegats i presencials i 19 de telemàtics–, 57 en contra i 6 abstencions.</seg>
-               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.48" xml:lang="ca">I, finalment, votem la resta del text, que no s’ha esmenat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.48" xml:lang="ca">I, finalment, votem la resta del text, que no s'ha esmenat.</seg>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.49" xml:lang="ca">Comença la votació.</seg>
-               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.50" xml:lang="ca">La Proposició de llei de mesures urgents en matèria de contenció de rendes en els contractes d’arrendament d’habitatge ha estat aprovada per 71 vots a favor –corresponents a 52 de delegats i presencials i 19 de telemàtics–, 59 en..., perdó, 63 en contra –ara sí– i cap abstenció; 71 vots a favor, 63 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.50" xml:lang="ca">La Proposició de llei de mesures urgents en matèria de contenció de rendes en els contractes d'arrendament d'habitatge ha estat aprovada per 71 vots a favor –corresponents a 52 de delegats i presencials i 19 de telemàtics–, 59 en..., perdó, 63 en contra –ara sí– i cap abstenció; 71 vots a favor, 63 en contra, cap abstenció.</seg>
                <kinesic type="applause">
-                  <desc>Aplaudiments.</desc>
+                  <desc>(Aplaudiments.)</desc>
                </kinesic>
-               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.51" xml:lang="ca">I votem, finalment, el punt cinquè de l’ordre del dia, que correspon a l’esmena a la totalitat sobre la Proposta per a presentar a la Mesa del Congrés dels Diputats la proposició...</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.51" xml:lang="ca">I votem, finalment, el punt cinquè de l'ordre del dia, que correspon a l'esmena a la totalitat sobre la Proposta per a presentar a la Mesa del Congrés dels Diputats la proposició...</seg>
                <vocal type="murmuring">
-                  <desc>Veus de fons.</desc>
+                  <desc>(Veus de fons.)</desc>
                </vocal>
-               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.52" xml:lang="ca">Perdó, no s’ha de votar, perquè l’ha retirat, certament, en la seva intervenció, el Subgrup Parlamentari del Partit Popular de Catalunya.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.52" xml:lang="ca">Perdó, no s'ha de votar, perquè l'ha retirat, certament, en la seva intervenció, el Subgrup Parlamentari del Partit Popular de Catalunya.</seg>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.53" xml:lang="ca">Per tant, no hi ha res més, cap més punt a votar.</seg>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.54" xml:lang="ca">Suspenem la sessió fins demà a les nou del matí. Gràcies.</seg>
             </u>

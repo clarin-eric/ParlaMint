@@ -532,6 +532,7 @@
     <choice>
       <ref name="note"/>
       <element name="gap">
+	<ref name="global.atts"/>
         <attribute name="reason">
           <choice>
             <value>editorial</value>
@@ -544,6 +545,7 @@
         </oneOrMore>
       </element>
       <element name="kinesic">
+	<ref name="global.atts"/>
         <optional>
           <attribute name="type">
             <ref name="kinesicType.val"/>
@@ -557,6 +559,7 @@
         </oneOrMore>
       </element>
       <element name="incident">
+	<ref name="global.atts"/>
         <optional>
           <attribute name="type">
             <ref name="incidentType.val"/>
@@ -570,6 +573,7 @@
         </oneOrMore>
       </element>
       <element name="vocal">
+	<ref name="global.atts"/>
         <attribute name="type">
           <ref name="vocalType.val"/>
         </attribute>

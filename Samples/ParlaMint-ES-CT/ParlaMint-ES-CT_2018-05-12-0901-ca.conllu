@@ -16,11 +16,11 @@
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.1.0.1
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.1.0.1.1
-# text = Abans d' iniciar l' ordre del dia, però, em plau saludar en nom de la cambra els expresidents del Parlament , l' expresident de la Generalitat , exdiputats, autoritats que avui ens acompanyen.
+# text = Abans d'iniciar l'ordre del dia, però, em plau saludar en nom de la cambra els expresidents del Parlament , l'expresident de la Generalitat , exdiputats, autoritats que avui ens acompanyen.
 1	Abans	abans	ADV	_	_	13	advmod	_	NER=O
-2	d'	de	ADP	_	AdpType=Prep	3	mark	_	NER=O
+2	d'	de	ADP	_	AdpType=Prep	3	mark	_	NER=O|SpaceAfter=No
 3	iniciar	iniciar	VERB	_	Mood=Inf	1	advcl	_	NER=O
-4	l'	el	DET	_	Number=Sing|PronType=Art	5	det	_	NER=O
+4	l'	el	DET	_	Number=Sing|PronType=Art	5	det	_	NER=O|SpaceAfter=No
 5	ordre	ordre	NOUN	_	Number=Sing	3	obj	_	NER=O
 6-7	del	_	_	_	_	_	_	_	NER=O
 6	de	de	ADP	_	AdpType=Prep	8	case	_	_
@@ -44,7 +44,7 @@
 23	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	Parlament	parlament	PROPN	_	_	21	nmod	_	NER=B-ORG
 25	,	,	PUNCT	_	PunctType=Comm	27	punct	_	NER=O
-26	l'	el	DET	_	Number=Sing|PronType=Art	27	det	_	NER=O
+26	l'	el	DET	_	Number=Sing|PronType=Art	27	det	_	NER=O|SpaceAfter=No
 27	expresident	expresident	NOUN	_	Gender=Masc|Number=Sing	21	appos	_	NER=O
 28	de	de	ADP	_	AdpType=Prep	30	case	_	NER=O
 29	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	30	det	_	NER=O
@@ -63,7 +63,7 @@
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.0
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.0.1
-# text = Esther Niubó Cidoncha : « No. »
+# text = Esther Niubó Cidoncha : « No.
 1	Esther	esther	PROPN	_	_	0	root	_	NER=B-PER
 2	Niubó	niubó	PROPN	_	_	1	flat	_	NER=I-PER
 3	Cidoncha	cidoncha	PROPN	_	_	1	flat	_	NER=I-PER
@@ -71,12 +71,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.1
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.1.1
-# text = Joan Josep Nuet i Pujals : « No. »
+# text = Joan Josep Nuet i Pujals : « No.
 1	Joan	joan	PROPN	_	_	0	root	_	NER=B-PER
 2	Josep	josep	PROPN	_	_	1	flat	_	NER=I-PER
 3	Nuet	nuet	PROPN	_	_	1	flat	_	NER=I-PER
@@ -86,12 +85,11 @@
 7	«	«	PUNCT	_	PunctType=Peri	8	punct	_	NER=O
 8	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 9	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-10	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.2
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.2.1
-# text = Òscar Ordeig i Molist : « No. »
+# text = Òscar Ordeig i Molist : « No.
 1	Òscar	òscar	PROPN	_	_	0	root	_	NER=B-PER
 2	Ordeig	ordeig	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -100,12 +98,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.3
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.3.1
-# text = Mònica Palacín París : « Sí. »
+# text = Mònica Palacín París : « Sí.
 1	Mònica	mònica	PROPN	_	_	0	root	_	NER=B-PER
 2	Palacín	palacín	PROPN	_	_	1	flat	_	NER=I-PER
 3	París	parís	PROPN	_	_	1	flat	_	NER=I-PER
@@ -113,12 +110,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.4
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.4.1
-# text = Teresa Pallarès Piqué : « Sí. »
+# text = Teresa Pallarès Piqué : « Sí.
 1	Teresa	teresa	PROPN	_	_	0	root	_	NER=B-PER
 2	Pallarès	pallarès	PROPN	_	_	1	flat	_	NER=I-PER
 3	Piqué	piqué	PROPN	_	_	1	flat	_	NER=I-PER
@@ -126,12 +122,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.5
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.5.1
-# text = Ferran Pedret i Santos : « No. »
+# text = Ferran Pedret i Santos : « No.
 1	Ferran	ferran	PROPN	_	_	0	root	_	NER=B-PER
 2	Pedret	pedret	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -140,12 +135,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.6
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.6.1
-# text = Òscar Peris i Ròdenas : « Sí. »
+# text = Òscar Peris i Ròdenas : « Sí.
 1	Òscar	òscar	PROPN	_	_	0	root	_	NER=B-PER
 2	Peris	peris	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -154,12 +148,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.7
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1
-# text = Carles Puigdemont i Casamajó . ( Elsa Artadi i Vila diu: « Sí. »)
+# text = Carles Puigdemont i Casamajó . ( Elsa Artadi i Vila diu: « Sí. )
 1	Carles	carles	PROPN	_	_	0	root	_	NER=B-PER
 2	Puigdemont	puigdemont	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -175,13 +168,12 @@
 13	«	«	PUNCT	_	PunctType=Peri	9	punct	_	NER=O
 14	Sí	sí	ADV	_	_	6	advmod	_	NER=O|SpaceAfter=No
 15	.	.	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
-16	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	root	_	NER=O|SpaceAfter=No
-17	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	1	punct	_	NER=O
+16	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.8
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.8.1
-# text = Eduard Pujol i Bonell : « Sí. »
+# text = Eduard Pujol i Bonell : « Sí.
 1	Eduard	eduard	PROPN	_	_	0	root	_	NER=B-PER
 2	Pujol	pujol	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -190,12 +182,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.9
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.9.1
-# text = Xavier Quinquillà Durich : « Sí. »
+# text = Xavier Quinquillà Durich : « Sí.
 1	Xavier	xavier	PROPN	_	_	0	root	_	NER=B-PER
 2	Quinquillà	quinquillà	PROPN	_	_	1	flat	_	NER=I-PER
 3	Durich	durich	PROPN	_	_	1	flat	_	NER=I-PER
@@ -203,12 +194,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.10
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.10.1
-# text = Marta Ribas Frías : « No. »
+# text = Marta Ribas Frías : « No.
 1	Marta	marta	PROPN	_	_	0	root	_	NER=B-PER
 2	Ribas	ribas	PROPN	_	_	1	flat	_	NER=I-PER
 3	Frías	frías	PROPN	_	_	1	flat	_	NER=I-PER
@@ -216,12 +206,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.11
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.11.1
-# text = Rut Ribas i Martí : « Sí. »
+# text = Rut Ribas i Martí : « Sí.
 1	Rut	rut	PROPN	_	_	0	root	_	NER=B-PER
 2	Ribas	ribas	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -230,12 +219,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.12
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.12.1
-# text = Carles Riera Albert : « Abstenció. »
+# text = Carles Riera Albert : « Abstenció.
 1	Carles	carles	PROPN	_	_	0	root	_	NER=B-PER
 2	Riera	riera	PROPN	_	_	1	flat	_	NER=I-PER
 3	Albert	albert	PROPN	_	_	1	flat	_	NER=I-PER
@@ -243,12 +231,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	Abstenció	abstenció	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.13
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.13.1
-# text = Josep Riera i Font : « Sí. »
+# text = Josep Riera i Font : « Sí.
 1	Josep	josep	PROPN	_	_	0	root	_	NER=B-PER
 2	Riera	riera	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -257,12 +244,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.14
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.14.1
-# text = Javier Rivas Escamilla : « No. »
+# text = Javier Rivas Escamilla : « No.
 1	Javier	javier	PROPN	_	_	0	root	_	NER=B-PER
 2	Rivas	rivas	PROPN	_	_	1	flat	_	NER=I-PER
 3	Escamilla	escamilla	PROPN	_	_	1	flat	_	NER=I-PER
@@ -270,16 +256,15 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.15
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.15.1
-# text = Manuel Rodríguez de l' Hotellerie de Fallois : « No. »
+# text = Manuel Rodríguez de l'Hotellerie de Fallois : « No.
 1	Manuel	manuel	PROPN	_	_	0	root	_	NER=B-PER
 2	Rodríguez	rodríguez	PROPN	_	_	1	flat	_	NER=I-PER
 3	de	de	PROPN	_	_	5	case	_	NER=I-PER
-4	l'	l'	PROPN	_	_	5	det	_	NER=I-PER
+4	l'	l'	PROPN	_	_	5	det	_	NER=I-PER|SpaceAfter=No
 5	Hotellerie	hotellerie	PROPN	_	_	1	nmod	_	NER=I-PER
 6	de	de	PROPN	_	_	7	case	_	NER=I-PER
 7	Fallois	fallois	PROPN	_	_	5	flat	_	NER=I-PER
@@ -287,12 +272,11 @@
 9	«	«	PUNCT	_	PunctType=Peri	10	punct	_	NER=O
 10	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 11	.	.	PUNCT	_	PunctType=Peri	10	punct	_	NER=O
-12	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.16
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.16.1
-# text = David Rodríguez i González : « Sí. »
+# text = David Rodríguez i González : « Sí.
 1	David	david	PROPN	_	_	0	root	_	NER=B-PER
 2	Rodríguez	rodríguez	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -301,12 +285,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.17
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.17.1
-# text = Santi Rodríguez i Serra : « No. »
+# text = Santi Rodríguez i Serra : « No.
 1	Santi	santi	PROPN	_	_	0	root	_	NER=B-LOC
 2	Rodríguez	rodríguez	PROPN	_	_	1	flat	_	NER=I-LOC
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -315,12 +298,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.18
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.18.1
-# text = Lorena Roldán Suárez : « No. »
+# text = Lorena Roldán Suárez : « No.
 1	Lorena	lorena	PROPN	_	_	0	root	_	NER=B-PER
 2	Roldán	roldán	PROPN	_	_	1	flat	_	NER=I-PER
 3	Suárez	suárez	PROPN	_	_	1	flat	_	NER=I-PER
@@ -328,12 +310,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.19
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.19.1
-# text = Alícia Romero Llano : « No. »
+# text = Alícia Romero Llano : « No.
 1	Alícia	alícia	PROPN	_	_	0	root	_	NER=B-PER
 2	Romero	romero	PROPN	_	_	1	flat	_	NER=I-PER
 3	Llano	llano	PROPN	_	_	1	flat	_	NER=I-PER
@@ -341,12 +322,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.20
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1
-# text = Raül Romeva i Rueda . ( Sergi Sabrià i Benito diu: « Sí. »)
+# text = Raül Romeva i Rueda . ( Sergi Sabrià i Benito diu: « Sí. )
 1	Raül	raül	PROPN	_	_	0	root	_	NER=B-PER
 2	Romeva	romeva	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -362,13 +342,12 @@
 13	«	«	PUNCT	_	PunctType=Peri	9	punct	_	NER=O
 14	Sí	sí	ADV	_	_	6	advmod	_	NER=O|SpaceAfter=No
 15	.	.	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
-16	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	root	_	NER=O|SpaceAfter=No
-17	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	1	punct	_	NER=O
+16	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.21
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.21.1
-# text = Ferran Roquer i Padrosa : « Sí. »
+# text = Ferran Roquer i Padrosa : « Sí.
 1	Ferran	ferran	PROPN	_	_	0	root	_	NER=B-PER
 2	Roquer	roquer	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -377,12 +356,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.22
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1
-# text = Josep Rull i Andreu . ( Elsa Artadi i Vila diu: « Sí. »)
+# text = Josep Rull i Andreu . ( Elsa Artadi i Vila diu: « Sí. )
 1	Josep	josep	PROPN	_	_	0	root	_	NER=B-PER
 2	Rull	rull	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -398,13 +376,12 @@
 13	«	«	PUNCT	_	PunctType=Peri	9	punct	_	NER=O
 14	Sí	sí	ADV	_	_	6	advmod	_	NER=O|SpaceAfter=No
 15	.	.	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
-16	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	root	_	NER=O|SpaceAfter=No
-17	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	1	punct	_	NER=O
+16	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.23
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.23.1
-# text = Sergi Sabrià i Benito : « Sí. »
+# text = Sergi Sabrià i Benito : « Sí.
 1	Sergi	sergi	PROPN	_	_	0	root	_	NER=B-PER
 2	Sabrià	sabrià	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -413,12 +390,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.24
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.24.1
-# text = Mònica Sales de la Cruz : « Sí. »
+# text = Mònica Sales de la Cruz : « Sí.
 1	Mònica	mònica	PROPN	_	_	0	root	_	NER=B-ORG
 2	Sales	sales	PROPN	_	_	1	flat	_	NER=I-ORG
 3	de	de	PROPN	_	_	5	case	_	NER=I-ORG
@@ -428,12 +404,11 @@
 7	«	«	PUNCT	_	PunctType=Peri	8	punct	_	NER=O
 8	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 9	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-10	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.25
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.25.1
-# text = Josep Lluís Salvadó i Tenesa : « Sí. »
+# text = Josep Lluís Salvadó i Tenesa : « Sí.
 1	Josep	josep	PROPN	_	_	0	root	_	NER=B-PER
 2	Lluís	lluís	PROPN	_	_	1	flat	_	NER=I-PER
 3	Salvadó	salvadó	PROPN	_	_	1	flat	_	NER=I-PER
@@ -443,12 +418,11 @@
 7	«	«	PUNCT	_	PunctType=Peri	8	punct	_	NER=O
 8	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 9	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-10	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.26
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.26.1
-# text = Natàlia Sànchez Dipp : « Abstenció. »
+# text = Natàlia Sànchez Dipp : « Abstenció.
 1	Natàlia	natàlia	PROPN	_	_	0	root	_	NER=B-PER
 2	Sànchez	sànchez	PROPN	_	_	1	flat	_	NER=I-PER
 3	Dipp	dipp	PROPN	_	_	1	flat	_	NER=I-PER
@@ -456,12 +430,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	Abstenció	abstenció	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.27
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.27.1
-# text = Alfonso Sánchez Fisac : « No. »
+# text = Alfonso Sánchez Fisac : « No.
 1	Alfonso	alfonso	PROPN	_	_	0	root	_	NER=B-PER
 2	Sánchez	sánchez	PROPN	_	_	1	flat	_	NER=I-PER
 3	Fisac	fisac	PROPN	_	_	1	flat	_	NER=I-PER
@@ -469,12 +442,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.28
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1
-# text = Jordi Sànchez i Picanyol . ( Elsa Artadi i Vila diu: « Sí. »)
+# text = Jordi Sànchez i Picanyol . ( Elsa Artadi i Vila diu: « Sí. )
 1	Jordi	jordi	PROPN	_	_	0	root	_	NER=B-PER
 2	Sànchez	sànchez	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -490,13 +462,12 @@
 13	«	«	PUNCT	_	PunctType=Peri	9	punct	_	NER=O
 14	Sí	sí	ADV	_	_	6	advmod	_	NER=O|SpaceAfter=No
 15	.	.	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
-16	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	root	_	NER=O|SpaceAfter=No
-17	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	1	punct	_	NER=O
+16	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.29
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.29.1
-# text = Carlos Sánchez Martín : « No. »
+# text = Carlos Sánchez Martín : « No.
 1	Carlos	carlos	PROPN	_	_	0	root	_	NER=B-PER
 2	Sánchez	sánchez	PROPN	_	_	1	flat	_	NER=I-PER
 3	Martín	martín	PROPN	_	_	1	flat	_	NER=I-PER
@@ -504,12 +475,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.30
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.30.1
-# text = Sergio Sanz Jiménez : « No. »
+# text = Sergio Sanz Jiménez : « No.
 1	Sergio	sergio	PROPN	_	_	0	root	_	NER=B-PER
 2	Sanz	sanz	PROPN	_	_	1	flat	_	NER=I-PER
 3	Jiménez	jiménez	PROPN	_	_	1	flat	_	NER=I-PER
@@ -517,12 +487,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.31
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.31.1
-# text = Susana Segovia Sánchez : « No. »
+# text = Susana Segovia Sánchez : « No.
 1	Susana	susana	PROPN	_	_	0	root	_	NER=B-PER
 2	Segovia	segovia	PROPN	_	_	1	flat	_	NER=I-PER
 3	Sánchez	sánchez	PROPN	_	_	1	flat	_	NER=I-PER
@@ -530,12 +499,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.32
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.32.1
-# text = Sonia Sierra Infante : « No. »
+# text = Sonia Sierra Infante : « No.
 1	Sonia	sonia	PROPN	_	_	0	root	_	NER=B-PER
 2	Sierra	sierra	PROPN	_	_	1	flat	_	NER=I-PER
 3	Infante	infante	PROPN	_	_	1	flat	_	NER=I-PER
@@ -543,12 +511,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.33
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.33.1
-# text = Beatriz Silva Gallardo : « No. »
+# text = Beatriz Silva Gallardo : « No.
 1	Beatriz	beatriz	PROPN	_	_	0	root	_	NER=B-PER
 2	Silva	silva	PROPN	_	_	1	flat	_	NER=I-PER
 3	Gallardo	gallardo	PROPN	_	_	1	flat	_	NER=I-PER
@@ -556,12 +523,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.34
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.34.1
-# text = Maria Sirvent Escrig : « Abstenció. »
+# text = Maria Sirvent Escrig : « Abstenció.
 1	Maria	maria	PROPN	_	_	3	nsubj	_	NER=B-PER
 2	Sirvent	sirvent	PROPN	_	_	1	flat	_	NER=I-PER
 3	Escrig	escrig	PROPN	_	_	0	root	_	NER=I-PER
@@ -569,12 +535,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	Abstenció	abstenció	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	3	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.35
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.35.1
-# text = Bernat Solé i Barril : « Sí. »
+# text = Bernat Solé i Barril : « Sí.
 1	Bernat	bernat	PROPN	_	_	0	root	_	NER=B-PER
 2	Solé	solé	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -583,12 +548,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.36
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.36.1
-# text = Jorge Soler González : « No. »
+# text = Jorge Soler González : « No.
 1	Jorge	jorge	PROPN	_	_	0	root	_	NER=B-PER
 2	Soler	soler	PROPN	_	_	1	flat	_	NER=I-PER
 3	González	gonzález	PROPN	_	_	1	flat	_	NER=I-PER
@@ -596,12 +560,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.37
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.37.1
-# text = Marc Solsona i Aixalà : « Sí. »
+# text = Marc Solsona i Aixalà : « Sí.
 1	Marc	marc	PROPN	_	_	0	root	_	NER=B-PER
 2	Solsona	solsona	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -610,12 +573,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.38
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.38.1
-# text = Anna Tarrés i Campà : « Sí. »
+# text = Anna Tarrés i Campà : « Sí.
 1	Anna	anna	PROPN	_	_	0	root	_	NER=B-PER
 2	Tarrés	tarrés	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -624,12 +586,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.39
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.39.1
-# text = Francesc Ten i Costa : « Sí. »
+# text = Francesc Ten i Costa : « Sí.
 1	Francesc	francesc	PROPN	_	_	0	root	_	NER=B-PER
 2	Ten	ten	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -638,12 +599,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.40
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.40.1
-# text = Jordi Terrades i Santacreu : « No. »
+# text = Jordi Terrades i Santacreu : « No.
 1	Jordi	jordi	PROPN	_	_	0	root	_	NER=B-PER
 2	Terrades	terrades	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -652,12 +612,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.41
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.41.1
-# text = Quim Torra i Pla : « Sí. »
+# text = Quim Torra i Pla : « Sí.
 1	Quim	quim	PROPN	_	_	0	root	_	NER=B-PER
 2	Torra	torra	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -666,12 +625,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.42
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1
-# text = Jordi Turull i Negre . ( Elsa Artadi i Vila diu: « Sí. »)
+# text = Jordi Turull i Negre . ( Elsa Artadi i Vila diu: « Sí. )
 1	Jordi	jordi	PROPN	_	_	0	root	_	NER=B-PER
 2	Turull	turull	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -687,13 +645,12 @@
 13	«	«	PUNCT	_	PunctType=Peri	9	punct	_	NER=O
 14	Sí	sí	ADV	_	_	6	advmod	_	NER=O|SpaceAfter=No
 15	.	.	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
-16	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	root	_	NER=O|SpaceAfter=No
-17	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	1	punct	_	NER=O
+16	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.43
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.43.1
-# text = Elisabeth Valencia Mimbrero : « No. »
+# text = Elisabeth Valencia Mimbrero : « No.
 1	Elisabeth	elisabeth	PROPN	_	_	0	root	_	NER=B-PER
 2	Valencia	valencia	PROPN	_	_	1	flat	_	NER=I-PER
 3	Mimbrero	mimbrero	PROPN	_	_	1	flat	_	NER=I-PER
@@ -701,12 +658,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.44
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.44.1
-# text = María Francisca Valle Fuentes : « No. »
+# text = María Francisca Valle Fuentes : « No.
 1	María	maría	PROPN	_	_	0	root	_	NER=B-PER
 2	Francisca	francisca	PROPN	_	_	1	flat	_	NER=I-PER
 3	Valle	valle	PROPN	_	_	1	flat	_	NER=I-PER
@@ -715,12 +671,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.45
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.45.1
-# text = Francesc Viaplana Manresa : « Sí. »
+# text = Francesc Viaplana Manresa : « Sí.
 1	Francesc	francesc	PROPN	_	_	0	root	_	NER=B-PER
 2	Viaplana	viaplana	PROPN	_	_	1	flat	_	NER=I-PER
 3	Manresa	manresa	PROPN	_	_	1	flat	_	NER=I-PER
@@ -728,12 +683,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.46
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.46.1
-# text = Laura Vílchez Sánchez : « No. »
+# text = Laura Vílchez Sánchez : « No.
 1	Laura	laura	PROPN	_	_	0	root	_	NER=B-PER
 2	Vílchez	vílchez	PROPN	_	_	1	flat	_	NER=I-PER
 3	Sánchez	sánchez	PROPN	_	_	1	flat	_	NER=I-PER
@@ -741,12 +695,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.47
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.47.1
-# text = Ruben Wagensberg Ramon : « Sí. »
+# text = Ruben Wagensberg Ramon : « Sí.
 1	Ruben	ruben	PROPN	_	_	0	root	_	NER=B-PER
 2	Wagensberg	wagensberg	PROPN	_	_	1	flat	_	NER=I-PER
 3	Ramon	ramon	PROPN	_	_	1	flat	_	NER=I-PER
@@ -754,12 +707,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.48
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.48.1
-# text = Elisenda Alamany Gutiérrez : « No. »
+# text = Elisenda Alamany Gutiérrez : « No.
 1	Elisenda	elisenda	PROPN	_	_	0	root	_	NER=B-PER
 2	Alamany	alamany	PROPN	_	_	1	flat	_	NER=I-PER
 3	Gutiérrez	gutiérrez	PROPN	_	_	1	flat	_	NER=I-PER
@@ -767,12 +719,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.49
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.49.1
-# text = Jordi Albert i Caballero : « Sí. »
+# text = Jordi Albert i Caballero : « Sí.
 1	Jordi	jordi	PROPN	_	_	0	root	_	NER=B-PER
 2	Albert	albert	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -781,12 +732,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.50
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.50.1
-# text = Jéssica Albiach Satorres : « No. »
+# text = Jéssica Albiach Satorres : « No.
 1	Jéssica	jéssica	PROPN	_	_	0	root	_	NER=B-PER
 2	Albiach	albiach	PROPN	_	_	1	flat	_	NER=I-PER
 3	Satorres	satorres	PROPN	_	_	1	flat	_	NER=I-PER
@@ -794,12 +744,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.51
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.51.1
-# text = Matías Alonso Ruiz : « No. »
+# text = Matías Alonso Ruiz : « No.
 1	Matías	matías	PROPN	_	_	0	root	_	NER=B-PER
 2	Alonso	alonso	PROPN	_	_	1	flat	_	NER=I-PER
 3	Ruiz	ruiz	PROPN	_	_	1	flat	_	NER=I-PER
@@ -807,12 +756,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.52
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.52.1
-# text = Héctor Amelló Montiu : « No. »
+# text = Héctor Amelló Montiu : « No.
 1	Héctor	héctor	PROPN	_	_	0	root	_	NER=B-PER
 2	Amelló	amelló	PROPN	_	_	1	flat	_	NER=I-PER
 3	Montiu	montiu	PROPN	_	_	1	flat	_	NER=I-PER
@@ -820,12 +768,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.53
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.53.1
-# text = Vidal Aragonés Chicharro : « Abstenció. »
+# text = Vidal Aragonés Chicharro : « Abstenció.
 1	Vidal	vidal	PROPN	_	_	0	root	_	NER=B-PER
 2	Aragonés	aragonés	PROPN	_	_	1	flat	_	NER=I-PER
 3	Chicharro	chicharro	PROPN	_	_	1	flat	_	NER=I-PER
@@ -833,12 +780,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	Abstenció	abstenció	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.54
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.54.1
-# text = Inés Arrimadas García : « No. »
+# text = Inés Arrimadas García : « No.
 1	Inés	inés	PROPN	_	_	0	root	_	NER=B-PER
 2	Arrimadas	arrimadas	PROPN	_	_	1	flat	_	NER=I-PER
 3	García	garcía	PROPN	_	_	1	flat	_	NER=I-PER
@@ -846,12 +792,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.55
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.55.1
-# text = Elsa Artadi i Vila : « Sí. »
+# text = Elsa Artadi i Vila : « Sí.
 1	Elsa	elsa	PROPN	_	_	0	root	_	NER=B-PER
 2	Artadi	artadi	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -860,12 +805,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.56
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.56.1
-# text = Eva Baró Ramos : « Sí. »
+# text = Eva Baró Ramos : « Sí.
 1	Eva	eva	PROPN	_	_	0	root	_	NER=B-PER
 2	Baró	baró	PROPN	_	_	1	flat	_	NER=I-PER
 3	Ramos	ramos	PROPN	_	_	1	flat	_	NER=I-PER
@@ -873,12 +817,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.57
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.57.1
-# text = Martín Eusebio Barra López : « No. »
+# text = Martín Eusebio Barra López : « No.
 1	Martín	martín	PROPN	_	_	0	root	_	NER=B-PER
 2	Eusebio	eusebio	PROPN	_	_	1	flat	_	NER=I-PER
 3	Barra	barra	PROPN	_	_	1	flat	_	NER=I-PER
@@ -887,12 +830,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.58
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.58.1
-# text = Albert Batet i Canadell : « Sí. »
+# text = Albert Batet i Canadell : « Sí.
 1	Albert	albert	PROPN	_	_	0	root	_	NER=B-PER
 2	Batet	batet	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -901,12 +843,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.59
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.59.1
-# text = Susana Beltrán García : « No. »
+# text = Susana Beltrán García : « No.
 1	Susana	susana	PROPN	_	_	0	root	_	NER=B-PER
 2	Beltrán	beltrán	PROPN	_	_	1	flat	_	NER=I-PER
 3	García	garcía	PROPN	_	_	1	flat	_	NER=I-PER
@@ -914,12 +855,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.60
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.60.1
-# text = David Bertran Román : « No. »
+# text = David Bertran Román : « No.
 1	David	david	PROPN	_	_	0	root	_	NER=B-PER
 2	Bertran	bertran	PROPN	_	_	1	flat	_	NER=I-PER
 3	Román	román	PROPN	_	_	1	flat	_	NER=I-PER
@@ -927,12 +867,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.61
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.61.1
-# text = Laura Borràs i Castanyer : « Sí. »
+# text = Laura Borràs i Castanyer : « Sí.
 1	Laura	laura	PROPN	_	_	0	root	_	NER=B-PER
 2	Borràs	borràs	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -941,12 +880,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.62
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.62.1
-# text = Marina Bravo Sobrino : « No. »
+# text = Marina Bravo Sobrino : « No.
 1	Marina	marina	PROPN	_	_	0	root	_	NER=B-PER
 2	Bravo	bravo	PROPN	_	_	1	flat	_	NER=I-PER
 3	Sobrino	sobrino	PROPN	_	_	1	flat	_	NER=I-PER
@@ -954,12 +892,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.63
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.63.1
-# text = Rafel Bruguera Batalla : « No. »
+# text = Rafel Bruguera Batalla : « No.
 1	Rafel	rafel	PROPN	_	_	0	root	_	NER=B-PER
 2	Bruguera	bruguera	PROPN	_	_	1	flat	_	NER=I-PER
 3	Batalla	batalla	PROPN	_	_	1	flat	_	NER=I-PER
@@ -967,12 +904,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.64
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.64.1
-# text = José María Cano Navarro : « No. »
+# text = José María Cano Navarro : « No.
 1	José	josé	PROPN	_	_	0	root	_	NER=B-PER
 2	María	maría	PROPN	_	_	1	flat	_	NER=I-PER
 3	Cano	cano	PROPN	_	_	1	flat	_	NER=I-PER
@@ -981,12 +917,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.65
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.65.1
-# text = Carlos Carrizosa Torres : « No. »
+# text = Carlos Carrizosa Torres : « No.
 1	Carlos	carlos	PROPN	_	_	0	root	_	NER=B-PER
 2	Carrizosa	carrizosa	PROPN	_	_	1	flat	_	NER=I-PER
 3	Torres	torres	PROPN	_	_	1	flat	_	NER=I-PER
@@ -994,12 +929,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.66
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.66.1
-# text = Magda Casamitjana i Aguilà : « Sí. »
+# text = Magda Casamitjana i Aguilà : « Sí.
 1	Magda	magda	PROPN	_	_	0	root	_	NER=B-PER
 2	Casamitjana	casamitjana	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -1008,12 +942,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.67
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.67.1
-# text = Alba Vergés i Bosch : « Sí. »
+# text = Alba Vergés i Bosch : « Sí.
 1	Alba	alba	PROPN	_	_	0	root	_	NER=B-LOC
 2	Vergés	vergés	PROPN	_	_	1	flat	_	NER=I-LOC
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -1022,12 +955,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.68
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.68.1
-# text = Joan García González : « No. »
+# text = Joan García González : « No.
 1	Joan	joan	PROPN	_	_	0	root	_	NER=B-PER
 2	García	garcía	PROPN	_	_	1	flat	_	NER=I-PER
 3	González	gonzález	PROPN	_	_	1	flat	_	NER=I-PER
@@ -1035,12 +967,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.69
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.69.1
-# text = David Pérez Ibáñez : « No. »
+# text = David Pérez Ibáñez : « No.
 1	David	david	PROPN	_	_	0	root	_	NER=B-PER
 2	Pérez	pérez	PROPN	_	_	1	flat	_	NER=I-PER
 3	Ibáñez	ibáñez	PROPN	_	_	1	flat	_	NER=I-PER
@@ -1048,12 +979,11 @@
 5	«	«	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 6	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-8	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.70
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.70.1
-# text = Eusebi Campdepadrós i Pucurull : « Sí. »
+# text = Eusebi Campdepadrós i Pucurull : « Sí.
 1	Eusebi	eusebi	PROPN	_	_	0	root	_	NER=B-ORG
 2	Campdepadrós	campdepadrós	PROPN	_	_	1	flat	_	NER=I-ORG
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -1062,12 +992,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.71
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.71.1
-# text = José María Espejo-Saavedra Conesa : « No. »
+# text = José María Espejo-Saavedra Conesa : « No.
 1	José	josé	PROPN	_	_	0	root	_	NER=B-PER
 2	María	maría	PROPN	_	_	1	flat	_	NER=I-PER
 3	Espejo-Saavedra	espejo-saavedra	PROPN	_	_	1	flat	_	NER=I-PER
@@ -1076,12 +1005,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	No	no	ADV	_	Polarity=Neg	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.72
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.72.1
-# text = Josep Costa i Rosselló : « Sí. »
+# text = Josep Costa i Rosselló : « Sí.
 1	Josep	josep	PROPN	_	_	0	root	_	NER=B-PER
 2	Costa	costa	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -1090,12 +1018,11 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.70.0.73
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.70.0.73.1
-# text = Roger Torrent i Ramió : « Sí. »
+# text = Roger Torrent i Ramió : « Sí.
 1	Roger	roger	PROPN	_	_	0	root	_	NER=B-PER
 2	Torrent	torrent	PROPN	_	_	1	flat	_	NER=I-PER
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -1104,13 +1031,12 @@
 6	«	«	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 7	Sí	sí	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
-9	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newdoc id = ParlaMint-ES-CT_2018-05-12-0901.71.0
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.71.0.0
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1
-# text = El resultat de la votació ha estat el següent: 66 vots« sí» ; 65 nos i 4 abstencions.
+# text = El resultat de la votació ha estat el següent: 66 vots« sí; 65 nos i 4 abstencions.
 1	El	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	NER=O
 2	resultat	resultat	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	NER=O
 3	de	de	ADP	_	AdpType=Prep	5	case	_	NER=O
@@ -1125,19 +1051,18 @@
 12	vots	vot	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	NER=O|SpaceAfter=No
 13	«	«	PUNCT	_	PunctType=Peri	14	punct	_	NER=O
 14	sí	sí	ADV	_	_	12	advmod	_	NER=O|SpaceAfter=No
-15	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	14	punct	_	NER=O
-16	;	;	PUNCT	_	PunctType=Semi	18	punct	_	NER=O
-17	65	65	NUM	_	_	12	nummod	_	NER=O
-18	nos	nosegon	NOUN	_	Gender=Masc	12	appos	_	NER=O
-19	i	i	CCONJ	_	_	21	cc	_	NER=O
-20	4	4	NUM	_	_	21	nummod	_	NER=O
-21	abstencions	abstenció	NOUN	_	Gender=Fem|Number=Plur	12	conj	_	NER=O|SpaceAfter=No
-22	.	.	PUNCT	_	PunctType=Peri	9	punct	_	NER=O
+15	;	;	PUNCT	_	PunctType=Semi	16	punct	_	NER=O
+16	65	65	NUM	_	_	12	appos	_	NER=O
+17	nos	nosegon	NOUN	_	Gender=Masc	16	appos	_	NER=O
+18	i	i	CCONJ	_	_	20	cc	_	NER=O
+19	4	4	NUM	_	_	20	nummod	_	NER=O
+20	abstencions	abstenció	NOUN	_	Gender=Fem|Number=Plur	12	conj	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	_	PunctType=Peri	9	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.71.0.1
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.71.0.1.1
-# text = Atès, doncs, que el senyor Quim Torra i Pla en aquesta votació no ha obtingut la majoria absoluta que requereix l' article 4.3 de la Llei de presidència de la Generalitat i del Govern , i d' acord amb l' article 4.4 de l' esmentada llei, el candidat es pot sotmetre a un_segon debat i a una_segona votació, en què bastarà la majoria simple.
+# text = Atès, doncs, que el senyor Quim Torra i Pla en aquesta votació no ha obtingut la majoria absoluta que requereix l'article 4.3 de la Llei de presidència de la Generalitat i del Govern , i d'acord amb l'article 4.4 de l'esmentada llei, el candidat es pot sotmetre a un_segon debat i a una_segona votació, en què bastarà la majoria simple.
 1	Atès	atendre	VERB	_	Gender=Masc|Mood=Par|Number=Sing	17	mark	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	_	PunctType=Comm	3	punct	_	NER=O
 3	doncs	doncs	ADV	_	_	17	advmod	_	NER=O|SpaceAfter=No
@@ -1160,7 +1085,7 @@
 20	absoluta	absolut	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	NER=O
 21	que	que	PRON	_	PronType=Rel	22	obj	_	NER=O
 22	requereix	requerir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	19	acl	_	NER=O
-23	l'	el	DET	_	Number=Sing|PronType=Art	24	det	_	NER=O
+23	l'	el	DET	_	Number=Sing|PronType=Art	24	det	_	NER=O|SpaceAfter=No
 24	article	article	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	NER=O
 25	4.3	4.3	NUM	_	_	24	appos	_	NER=O
 26	de	de	ADP	_	AdpType=Prep	28	case	_	NER=O
@@ -1178,14 +1103,14 @@
 37	Govern	govern	PROPN	_	_	33	conj	_	NER=B-ORG
 38	,	,	PUNCT	_	PunctType=Comm	44	punct	_	NER=O
 39	i	i	CCONJ	_	_	44	cc	_	NER=O
-40	d'	de	ADP	_	AdpType=Prep	44	case	_	NER=O
+40	d'	de	ADP	_	AdpType=Prep	44	case	_	NER=O|SpaceAfter=No
 41	acord	acord	NOUN	_	Gender=Masc|Number=Sing	40	fixed	_	NER=O
 42	amb	amb	ADP	_	AdpType=Prep	40	fixed	_	NER=O
-43	l'	el	DET	_	Number=Sing|PronType=Art	44	det	_	NER=O
+43	l'	el	DET	_	Number=Sing|PronType=Art	44	det	_	NER=O|SpaceAfter=No
 44	article	article	NOUN	_	Gender=Masc|Number=Sing	55	obl	_	NER=O
 45	4.4	4.4	NUM	_	_	44	appos	_	NER=O
 46	de	de	ADP	_	AdpType=Prep	49	case	_	NER=O
-47	l'	el	DET	_	Number=Sing|PronType=Art	49	det	_	NER=O
+47	l'	el	DET	_	Number=Sing|PronType=Art	49	det	_	NER=O|SpaceAfter=No
 48	esmentada	esmentar	VERB	_	Gender=Fem|Mood=Par|Number=Sing	49	amod	_	NER=O
 49	llei	llei	NOUN	_	Gender=Fem|Number=Sing	44	nmod	_	NER=O|SpaceAfter=No
 50	,	,	PUNCT	_	PunctType=Comm	44	punct	_	NER=O
@@ -1244,8 +1169,8 @@
 # newpar id = ParlaMint-ES-CT_2018-05-12-0901.71.0.3
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2018-05-12-0901.71.0.3.1
-# text = S' aixeca la sessió.
-1	S'	es	PRON	_	_	2	obj	_	NER=O
+# text = S'aixeca la sessió.
+1	S'	es	PRON	_	_	2	obj	_	NER=O|SpaceAfter=No
 2	aixeca	aixecar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	NER=O
 3	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER=O
 4	sessió	sessió	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	NER=O|SpaceAfter=No

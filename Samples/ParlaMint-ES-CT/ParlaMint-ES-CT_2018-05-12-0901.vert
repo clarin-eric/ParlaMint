@@ -1,6 +1,10 @@
 <note type="head" content="Sessió 9.1"/>
-<speech id="ParlaMint-ES-CT_2018-05-12-0901.1.0" text_id="ParlaMint-ES-CT_2018-05-12-0901" subcorpus="Reference" body="Unicameralism" term="12" session="" meeting="9" sitting="1" agenda="" date="2018-05-12" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2018-05-12 0901.ana" speaker_role="Chairperson" speaker_id="TorrentRoger" speaker_name="Torrent Ramió, Roger" speaker_mp="MP" speaker_minister="-" speaker_party="JuntsPelSí" speaker_party_name="Junts pel Sí" party_status="" speaker_gender="M" speaker_birth="1979">
-<p id="ParlaMint-ES-CT_2018-05-12-0901.1.0.0" lang="Catalan">
+<note type="narrative" content="La sessió s'obre a les dotze del migdia i dos minuts. Presideix el president del Parlament, acompanyat de tots els membres de la Mesa, la qual és assistida pel secretari general i el lletrat major."/>
+<note type="narrative" content="ORDRE DEL DIA DE LA CONVOCATÒRIA"/>
+<note type="narrative" content="Punt únic: Debat del programa i votació d'investidura del diputat Quim Torra i Pla, candidat proposat a la presidència de la Generalitat (tram. 201-00005/12)."/>
+<note type="speaker" content="El president"/>
+<speech id="ParlaMint-ES-CT_2018-05-12-0901.1.0" text_id="ParlaMint-ES-CT_2018-05-12-0901" subcorpus="de referència" lang="Català" body="Unicameralisme" term="12" session="-" meeting="9" sitting="1" agenda="-" date="2018-05-12" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2018-05-12 0901.ana" speaker_role="Presidència" speaker_id="TorrentRoger" speaker_name="Torrent Ramió, Roger" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JuntsPelSí" speaker_party_name="Junts pel Sí" party_status="-" party_orientation="--" speaker_gender="M" speaker_birth="1979">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.1.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.1.0.0.1">
 Bon	Bon	bo	ADJ	Gender=Masc Number=Sing	1	amod	dia	NOUN	Gender=Masc Number=Sing	2
 dia	dia	dia	NOUN	Gender=Masc Number=Sing	2	obl	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	6
@@ -15,12 +19,14 @@ sessió	sessió	sessió	NOUN	Gender=Fem Number=Sing	8	nsubj	començar	VERB	Mood=
 .	.	.	PUNCT	PunctType=Peri	9	punct	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	6
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.1.0.1" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.1.0.1" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.1.0.1.1">
 Abans	Abans	abans	ADV		1	advmod	plaure	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	14
 d'	d'	de	ADP	AdpType=Prep	2	mark	iniciar	VERB	Mood=Inf	3
+<g/>
 iniciar	iniciar	iniciar	VERB	Mood=Inf	3	advcl	abans	ADV		1
 l'	l'	el	DET	PronType=Art Number=Sing	4	det	ordre	NOUN	Number=Sing	5
+<g/>
 ordre	ordre	ordre	NOUN	Number=Sing	5	obj	iniciar	VERB	Mood=Inf	3
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	6|7	case|det	dia	NOUN	Gender=Masc Number=Sing	9
 dia	dia	dia	NOUN	Gender=Masc Number=Sing	9	nmod	ordre	NOUN	Number=Sing	5
@@ -45,6 +51,7 @@ Parlament	Parlament	parlament	PROPN		26	nmod	expresident	NOUN	Gender=Masc Number
 </name>
 ,	,	,	PUNCT	PunctType=Comm	27	punct	expresident	NOUN	Gender=Masc Number=Sing	29
 l'	l'	el	DET	PronType=Art Number=Sing	28	det	expresident	NOUN	Gender=Masc Number=Sing	29
+<g/>
 expresident	expresident	expresident	NOUN	Gender=Masc Number=Sing	29	appos	expresident	NOUN	Gender=Masc Number=Plur	22
 de	de	de	ADP	AdpType=Prep	30	case	generalitat	PROPN		32
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	31	det	generalitat	PROPN		32
@@ -66,15 +73,17 @@ acompanyen	acompanyen	acompanyar	VERB	Mood=Ind Tense=Pres Person=3 Number=Plur	4
 </p>
 <note type="-" content="Debat del programa i votació d'investidura del diputat Quim Torra i Pla, candidat proposat a la presidència de la Generalitat"/>
 <note type="-" content="201-00005/12"/>
-<note type="-" content="Com saben, l’únic punt de l’ordre del dia d’aquesta sessió plenària és el debat del programa i votació d’investidura del diputat Quim Torra i Pla, candidat proposat a la presidència de la Generalitat de Catalunya."/>
-<note type="-" content="D’acord amb l’article 149.1 del Reglament del Parlament de Catalunya, el debat d’investidura comença amb la lectura de la resolució del president del Parlament en què es proposa el candidat a la presidència de la Generalitat. Prego en aquest cas al secretari primer que doni lectura a aquesta resolució."/>
+<note type="-" content="Com saben, l'únic punt de l'ordre del dia d'aquesta sessió plenària és el debat del programa i votació d'investidura del diputat Quim Torra i Pla, candidat proposat a la presidència de la Generalitat de Catalunya."/>
+<note type="-" content="D'acord amb l'article 149.1 del Reglament del Parlament de Catalunya, el debat d'investidura comença amb la lectura de la resolució del president del Parlament en què es proposa el candidat a la presidència de la Generalitat. Prego en aquest cas al secretari primer que doni lectura a aquesta resolució."/>
 </speech>
-<speech id="ParlaMint-ES-CT_2018-05-12-0901.72.0" text_id="ParlaMint-ES-CT_2018-05-12-0901" subcorpus="Reference" body="Unicameralism" term="12" session="" meeting="9" sitting="1" agenda="" date="2018-05-12" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2018-05-12 0901.ana" speaker_role="Member" speaker_id="CampdepadrósEusebi" speaker_name="Campdepadrós Pucurull, Eusebi" speaker_mp="MP" speaker_minister="-" speaker_party="GP-JxCAT" speaker_party_name="Grup Parlamentari de Junts per Catalunya" party_status="Coalition" speaker_gender="M" speaker_birth="1961">
-<note type="-" content="Senyor president... «Proposta de candidat a la presidència de la Generalitat, presidència del Parlament, d’acord amb l’article 4 de la Llei 13/2008, de 5 de novembre, de la presidència de la Generalitat i del Govern. Havent consultat novament els representants dels grups i subgrups parlamentaris, proposo com a nou candidat a la presidència de la Generalitat el diputat Quim Torra i Pla, i deixo sense efecte la proposta de candidat del dia 9 d’abril de 2018."/>
-<note type="-" content="»El molt honorable president del Parlament de Catalunya, Roger Torrent i Ramió, Palau del Parlament, a 11 de maig de 2018.»"/>
+<note type="speaker" content="El secretari primer"/>
+<speech id="ParlaMint-ES-CT_2018-05-12-0901.2.0" text_id="ParlaMint-ES-CT_2018-05-12-0901" subcorpus="de referència" lang="Espanyol" body="Unicameralisme" term="12" session="-" meeting="9" sitting="1" agenda="-" date="2018-05-12" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2018-05-12 0901.ana" speaker_role="Diputat/da" speaker_id="CampdepadrósEusebi" speaker_name="Campdepadrós Pucurull, Eusebi" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-JxCAT" speaker_party_name="Grup Parlamentari de Junts per Catalunya" party_status="Coalition" party_orientation="---" speaker_gender="M" speaker_birth="1961">
+<note type="-" content="Senyor president... «Proposta de candidat a la presidència de la Generalitat, presidència del Parlament, d'acord amb l'article 4 de la Llei 13/2008, de 5 de novembre, de la presidència de la Generalitat i del Govern. Havent consultat novament els representants dels grups i subgrups parlamentaris, proposo com a nou candidat a la presidència de la Generalitat el diputat Quim Torra i Pla, i deixo sense efecte la proposta de candidat del dia 9 d'abril de 2018."/>
+<note type="-" content="El molt honorable president del Parlament de Catalunya, Roger Torrent i Ramió, Palau del Parlament, a 11 de maig de 2018."/>
 </speech>
-<speech id="ParlaMint-ES-CT_2018-05-12-0901.70.0" text_id="ParlaMint-ES-CT_2018-05-12-0901" subcorpus="Reference" body="Unicameralism" term="12" session="" meeting="9" sitting="1" agenda="" date="2018-05-12" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2018-05-12 0901.ana" speaker_role="Member" speaker_id="PérezDavid" speaker_name="Pérez Ibáñez, David" speaker_mp="MP" speaker_minister="-" speaker_party="GP-PSC-UNITS" speaker_party_name="Grup Parlamentari Socialistes i Units per Avançar" party_status="Opposition" speaker_gender="M" speaker_birth="1960">
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.0" lang="Catalan">
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-ES-CT_2018-05-12-0901.70.0" text_id="ParlaMint-ES-CT_2018-05-12-0901" subcorpus="de referència" lang="Català" body="Unicameralisme" term="12" session="-" meeting="9" sitting="1" agenda="-" date="2018-05-12" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2018-05-12 0901.ana" speaker_role="Diputat/da" speaker_id="PérezDavid" speaker_name="Pérez Ibáñez, David" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PSC-UNITS" speaker_party_name="Grup Parlamentari Socialistes i Units per Avançar" party_status="Opposition" party_orientation="---" speaker_gender="M" speaker_birth="1960">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.0.1">
 <name type="PER">
 Esther	Esther	esther	PROPN		1	root	-	-	-	-
@@ -86,10 +95,9 @@ Cidoncha	Cidoncha	cidoncha	PROPN		3	flat	esther	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	esther	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	esther	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.1" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.1" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.1.1">
 <name type="PER">
 Joan	Joan	joan	PROPN		1	root	-	-	-	-
@@ -105,10 +113,9 @@ Pujals	Pujals	pujals	PROPN		5	conj	joan	PROPN		1
 No	No	no	ADV	Polarity=Neg	8	advmod	joan	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	9	punct	joan	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	10	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.2" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.2" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.2.1">
 <name type="PER">
 Òscar	Òscar	òscar	PROPN		1	root	-	-	-	-
@@ -123,10 +130,9 @@ Molist	Molist	molist	PROPN		4	conj	òscar	PROPN		1
 No	No	no	ADV	Polarity=Neg	7	advmod	òscar	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	òscar	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.3" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.3" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.3.1">
 <name type="PER">
 Mònica	Mònica	mònica	PROPN		1	root	-	-	-	-
@@ -138,10 +144,9 @@ París	París	parís	PROPN		3	flat	mònica	PROPN		1
 Sí	Sí	sí	ADV		6	advmod	mònica	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	mònica	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.4" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.4" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.4.1">
 <name type="PER">
 Teresa	Teresa	teresa	PROPN		1	root	-	-	-	-
@@ -153,10 +158,9 @@ Piqué	Piqué	piqué	PROPN		3	flat	teresa	PROPN		1
 Sí	Sí	sí	ADV		6	advmod	teresa	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	teresa	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.5" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.5" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.5.1">
 <name type="PER">
 Ferran	Ferran	ferran	PROPN		1	root	-	-	-	-
@@ -171,10 +175,9 @@ Santos	Santos	santos	PROPN		4	conj	ferran	PROPN		1
 No	No	no	ADV	Polarity=Neg	7	advmod	ferran	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	ferran	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.6" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.6" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.6.1">
 <name type="PER">
 Òscar	Òscar	òscar	PROPN		1	root	-	-	-	-
@@ -189,10 +192,9 @@ Ròdenas	Ròdenas	ròdenas	PROPN		4	conj	òscar	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	òscar	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	òscar	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.7" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.7" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1">
 <name type="PER">
 Carles	Carles	carles	PROPN		1	root	-	-	-	-
@@ -219,12 +221,10 @@ diu	diu	dir	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	11	root	-	-	-	-
 Sí	Sí	sí	ADV		14	advmod	(	PUNCT	PunctType=Brck	6
 <g/>
 .	.	.	PUNCT	PunctType=Peri	15	punct	(	PUNCT	PunctType=Brck	6
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	16	root	-	-	-	-
-<g/>
-)	)	)	PUNCT	PunctType=Brck PunctSide=Fin	17	punct	carles	PROPN		1
+)	)	)	PUNCT	PunctType=Brck PunctSide=Fin	16	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.8" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.8" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.8.1">
 <name type="PER">
 Eduard	Eduard	eduard	PROPN		1	root	-	-	-	-
@@ -239,10 +239,9 @@ Bonell	Bonell	bonell	PROPN		4	conj	eduard	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	eduard	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	eduard	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.9" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.9" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.9.1">
 <name type="PER">
 Xavier	Xavier	xavier	PROPN		1	root	-	-	-	-
@@ -254,10 +253,9 @@ Durich	Durich	durich	PROPN		3	flat	xavier	PROPN		1
 Sí	Sí	sí	ADV		6	advmod	xavier	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	xavier	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.10" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.10" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.10.1">
 <name type="PER">
 Marta	Marta	marta	PROPN		1	root	-	-	-	-
@@ -269,10 +267,9 @@ Frías	Frías	frías	PROPN		3	flat	marta	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	marta	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	marta	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.11" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.11" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.11.1">
 <name type="PER">
 Rut	Rut	rut	PROPN		1	root	-	-	-	-
@@ -287,10 +284,9 @@ Martí	Martí	martí	PROPN		4	conj	rut	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	rut	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	rut	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.12" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.12" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.12.1">
 <name type="PER">
 Carles	Carles	carles	PROPN		1	root	-	-	-	-
@@ -302,10 +298,9 @@ Albert	Albert	albert	PROPN		3	flat	carles	PROPN		1
 Abstenció	Abstenció	abstenció	NOUN	Gender=Fem Number=Sing	6	appos	carles	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	carles	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.13" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.13" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.13.1">
 <name type="PER">
 Josep	Josep	josep	PROPN		1	root	-	-	-	-
@@ -320,10 +315,9 @@ Font	Font	font	PROPN		4	conj	josep	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	josep	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	josep	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.14" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.14" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.14.1">
 <name type="PER">
 Javier	Javier	javier	PROPN		1	root	-	-	-	-
@@ -335,16 +329,16 @@ Escamilla	Escamilla	escamilla	PROPN		3	flat	javier	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	javier	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	javier	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.15" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.15" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.15.1">
 <name type="PER">
 Manuel	Manuel	manuel	PROPN		1	root	-	-	-	-
 Rodríguez	Rodríguez	rodríguez	PROPN		2	flat	manuel	PROPN		1
 de	de	de	PROPN		3	case	hotellerie	PROPN		5
 l'	l'	l'	PROPN		4	det	hotellerie	PROPN		5
+<g/>
 Hotellerie	Hotellerie	hotellerie	PROPN		5	nmod	manuel	PROPN		1
 de	de	de	PROPN		6	case	fallois	PROPN		7
 Fallois	Fallois	fallois	PROPN		7	flat	hotellerie	PROPN		5
@@ -354,10 +348,9 @@ Fallois	Fallois	fallois	PROPN		7	flat	hotellerie	PROPN		5
 No	No	no	ADV	Polarity=Neg	10	advmod	manuel	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	11	punct	no	ADV	Polarity=Neg	10
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	12	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.16" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.16" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.16.1">
 <name type="PER">
 David	David	david	PROPN		1	root	-	-	-	-
@@ -372,10 +365,9 @@ González	González	gonzález	PROPN		4	conj	david	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	david	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	david	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.17" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.17" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.17.1">
 <name type="LOC">
 Santi	Santi	santi	PROPN		1	root	-	-	-	-
@@ -390,10 +382,9 @@ Serra	Serra	serra	PROPN		4	conj	santi	PROPN		1
 No	No	no	ADV	Polarity=Neg	7	advmod	santi	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	santi	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.18" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.18" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.18.1">
 <name type="PER">
 Lorena	Lorena	lorena	PROPN		1	root	-	-	-	-
@@ -405,10 +396,9 @@ Suárez	Suárez	suárez	PROPN		3	flat	lorena	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	lorena	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	lorena	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.19" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.19" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.19.1">
 <name type="PER">
 Alícia	Alícia	alícia	PROPN		1	root	-	-	-	-
@@ -420,10 +410,9 @@ Llano	Llano	llano	PROPN		3	flat	alícia	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	alícia	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	alícia	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.20" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.20" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1">
 <name type="PER">
 Raül	Raül	raül	PROPN		1	root	-	-	-	-
@@ -450,12 +439,10 @@ diu	diu	dir	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	11	root	-	-	-	-
 Sí	Sí	sí	ADV		14	advmod	(	PUNCT	PunctType=Brck	6
 <g/>
 .	.	.	PUNCT	PunctType=Peri	15	punct	(	PUNCT	PunctType=Brck	6
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	16	root	-	-	-	-
-<g/>
-)	)	)	PUNCT	PunctType=Brck PunctSide=Fin	17	punct	raül	PROPN		1
+)	)	)	PUNCT	PunctType=Brck PunctSide=Fin	16	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.21" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.21" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.21.1">
 <name type="PER">
 Ferran	Ferran	ferran	PROPN		1	root	-	-	-	-
@@ -470,10 +457,9 @@ Padrosa	Padrosa	padrosa	PROPN		4	conj	ferran	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	ferran	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	ferran	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.22" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.22" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1">
 <name type="PER">
 Josep	Josep	josep	PROPN		1	root	-	-	-	-
@@ -500,12 +486,10 @@ diu	diu	dir	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	11	root	-	-	-	-
 Sí	Sí	sí	ADV		14	advmod	(	PUNCT	PunctType=Brck	6
 <g/>
 .	.	.	PUNCT	PunctType=Peri	15	punct	(	PUNCT	PunctType=Brck	6
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	16	root	-	-	-	-
-<g/>
-)	)	)	PUNCT	PunctType=Brck PunctSide=Fin	17	punct	josep	PROPN		1
+)	)	)	PUNCT	PunctType=Brck PunctSide=Fin	16	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.23" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.23" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.23.1">
 <name type="PER">
 Sergi	Sergi	sergi	PROPN		1	root	-	-	-	-
@@ -520,10 +504,9 @@ Benito	Benito	benito	PROPN		4	conj	sergi	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	sergi	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	sergi	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.24" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.24" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.24.1">
 <name type="ORG">
 Mònica	Mònica	mònica	PROPN		1	root	-	-	-	-
@@ -537,10 +520,9 @@ Cruz	Cruz	cruz	PROPN		5	flat	mònica	PROPN		1
 Sí	Sí	sí	ADV		8	advmod	mònica	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	9	punct	mònica	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	10	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.25" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.25" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.25.1">
 <name type="PER">
 Josep	Josep	josep	PROPN		1	root	-	-	-	-
@@ -556,10 +538,9 @@ Tenesa	Tenesa	tenesa	PROPN		5	conj	josep	PROPN		1
 Sí	Sí	sí	ADV		8	advmod	josep	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	9	punct	josep	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	10	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.26" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.26" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.26.1">
 <name type="PER">
 Natàlia	Natàlia	natàlia	PROPN		1	root	-	-	-	-
@@ -571,10 +552,9 @@ Dipp	Dipp	dipp	PROPN		3	flat	natàlia	PROPN		1
 Abstenció	Abstenció	abstenció	NOUN	Gender=Fem Number=Sing	6	appos	natàlia	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	natàlia	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.27" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.27" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.27.1">
 <name type="PER">
 Alfonso	Alfonso	alfonso	PROPN		1	root	-	-	-	-
@@ -586,10 +566,9 @@ Fisac	Fisac	fisac	PROPN		3	flat	alfonso	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	alfonso	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	alfonso	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.28" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.28" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1">
 <name type="PER">
 Jordi	Jordi	jordi	PROPN		1	root	-	-	-	-
@@ -616,12 +595,10 @@ diu	diu	dir	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	11	root	-	-	-	-
 Sí	Sí	sí	ADV		14	advmod	(	PUNCT	PunctType=Brck	6
 <g/>
 .	.	.	PUNCT	PunctType=Peri	15	punct	(	PUNCT	PunctType=Brck	6
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	16	root	-	-	-	-
-<g/>
-)	)	)	PUNCT	PunctType=Brck PunctSide=Fin	17	punct	jordi	PROPN		1
+)	)	)	PUNCT	PunctType=Brck PunctSide=Fin	16	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.29" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.29" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.29.1">
 <name type="PER">
 Carlos	Carlos	carlos	PROPN		1	root	-	-	-	-
@@ -633,10 +610,9 @@ Martín	Martín	martín	PROPN		3	flat	carlos	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	carlos	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	carlos	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.30" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.30" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.30.1">
 <name type="PER">
 Sergio	Sergio	sergio	PROPN		1	root	-	-	-	-
@@ -648,10 +624,9 @@ Jiménez	Jiménez	jiménez	PROPN		3	flat	sergio	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	sergio	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	sergio	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.31" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.31" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.31.1">
 <name type="PER">
 Susana	Susana	susana	PROPN		1	root	-	-	-	-
@@ -663,10 +638,9 @@ Sánchez	Sánchez	sánchez	PROPN		3	flat	susana	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	susana	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	susana	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.32" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.32" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.32.1">
 <name type="PER">
 Sonia	Sonia	sonia	PROPN		1	root	-	-	-	-
@@ -678,10 +652,9 @@ Infante	Infante	infante	PROPN		3	flat	sonia	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	sonia	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	sonia	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.33" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.33" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.33.1">
 <name type="PER">
 Beatriz	Beatriz	beatriz	PROPN		1	root	-	-	-	-
@@ -693,10 +666,9 @@ Gallardo	Gallardo	gallardo	PROPN		3	flat	beatriz	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	beatriz	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	beatriz	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.34" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.34" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.34.1">
 <name type="PER">
 Maria	Maria	maria	PROPN		1	nsubj	escrig	PROPN		3
@@ -708,10 +680,9 @@ Escrig	Escrig	escrig	PROPN		3	root	-	-	-	-
 Abstenció	Abstenció	abstenció	NOUN	Gender=Fem Number=Sing	6	obj	escrig	PROPN		3
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	escrig	PROPN		3
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.35" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.35" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.35.1">
 <name type="PER">
 Bernat	Bernat	bernat	PROPN		1	root	-	-	-	-
@@ -726,10 +697,9 @@ Barril	Barril	barril	PROPN		4	conj	bernat	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	bernat	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	bernat	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.36" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.36" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.36.1">
 <name type="PER">
 Jorge	Jorge	jorge	PROPN		1	root	-	-	-	-
@@ -741,10 +711,9 @@ González	González	gonzález	PROPN		3	flat	jorge	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	jorge	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	jorge	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.37" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.37" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.37.1">
 <name type="PER">
 Marc	Marc	marc	PROPN		1	root	-	-	-	-
@@ -759,10 +728,9 @@ Aixalà	Aixalà	aixalà	PROPN		4	conj	marc	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	marc	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	marc	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.38" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.38" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.38.1">
 <name type="PER">
 Anna	Anna	anna	PROPN		1	root	-	-	-	-
@@ -777,10 +745,9 @@ Campà	Campà	campà	PROPN		4	conj	anna	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	anna	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	anna	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.39" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.39" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.39.1">
 <name type="PER">
 Francesc	Francesc	francesc	PROPN		1	root	-	-	-	-
@@ -795,10 +762,9 @@ Costa	Costa	costa	PROPN		4	conj	francesc	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	francesc	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	francesc	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.40" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.40" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.40.1">
 <name type="PER">
 Jordi	Jordi	jordi	PROPN		1	root	-	-	-	-
@@ -813,10 +779,9 @@ Santacreu	Santacreu	santacreu	PROPN		4	conj	jordi	PROPN		1
 No	No	no	ADV	Polarity=Neg	7	advmod	jordi	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	jordi	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.41" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.41" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.41.1">
 <name type="PER">
 Quim	Quim	quim	PROPN		1	root	-	-	-	-
@@ -831,10 +796,9 @@ Pla	Pla	pla	PROPN		4	conj	quim	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	quim	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	quim	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.42" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.42" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1">
 <name type="PER">
 Jordi	Jordi	jordi	PROPN		1	root	-	-	-	-
@@ -861,12 +825,10 @@ diu	diu	dir	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	11	root	-	-	-	-
 Sí	Sí	sí	ADV		14	advmod	(	PUNCT	PunctType=Brck	6
 <g/>
 .	.	.	PUNCT	PunctType=Peri	15	punct	(	PUNCT	PunctType=Brck	6
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	16	root	-	-	-	-
-<g/>
-)	)	)	PUNCT	PunctType=Brck PunctSide=Fin	17	punct	jordi	PROPN		1
+)	)	)	PUNCT	PunctType=Brck PunctSide=Fin	16	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.43" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.43" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.43.1">
 <name type="PER">
 Elisabeth	Elisabeth	elisabeth	PROPN		1	root	-	-	-	-
@@ -878,10 +840,9 @@ Mimbrero	Mimbrero	mimbrero	PROPN		3	flat	elisabeth	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	elisabeth	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	elisabeth	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.44" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.44" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.44.1">
 <name type="PER">
 María	María	maría	PROPN		1	root	-	-	-	-
@@ -894,10 +855,9 @@ Fuentes	Fuentes	fuentes	PROPN		4	flat	maría	PROPN		1
 No	No	no	ADV	Polarity=Neg	7	advmod	maría	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	maría	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.45" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.45" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.45.1">
 <name type="PER">
 Francesc	Francesc	francesc	PROPN		1	root	-	-	-	-
@@ -909,10 +869,9 @@ Manresa	Manresa	manresa	PROPN		3	flat	francesc	PROPN		1
 Sí	Sí	sí	ADV		6	advmod	francesc	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	francesc	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.46" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.46" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.46.1">
 <name type="PER">
 Laura	Laura	laura	PROPN		1	root	-	-	-	-
@@ -924,10 +883,9 @@ Sánchez	Sánchez	sánchez	PROPN		3	flat	laura	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	laura	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	laura	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.47" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.47" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.47.1">
 <name type="PER">
 Ruben	Ruben	ruben	PROPN		1	root	-	-	-	-
@@ -939,10 +897,9 @@ Ramon	Ramon	ramon	PROPN		3	flat	ruben	PROPN		1
 Sí	Sí	sí	ADV		6	advmod	ruben	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	ruben	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.48" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.48" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.48.1">
 <name type="PER">
 Elisenda	Elisenda	elisenda	PROPN		1	root	-	-	-	-
@@ -954,10 +911,9 @@ Gutiérrez	Gutiérrez	gutiérrez	PROPN		3	flat	elisenda	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	elisenda	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	elisenda	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.49" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.49" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.49.1">
 <name type="PER">
 Jordi	Jordi	jordi	PROPN		1	root	-	-	-	-
@@ -972,10 +928,9 @@ Caballero	Caballero	caballero	PROPN		4	conj	jordi	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	jordi	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	jordi	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.50" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.50" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.50.1">
 <name type="PER">
 Jéssica	Jéssica	jéssica	PROPN		1	root	-	-	-	-
@@ -987,10 +942,9 @@ Satorres	Satorres	satorres	PROPN		3	flat	jéssica	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	jéssica	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	jéssica	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.51" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.51" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.51.1">
 <name type="PER">
 Matías	Matías	matías	PROPN		1	root	-	-	-	-
@@ -1002,10 +956,9 @@ Ruiz	Ruiz	ruiz	PROPN		3	flat	matías	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	matías	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	matías	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.52" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.52" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.52.1">
 <name type="PER">
 Héctor	Héctor	héctor	PROPN		1	root	-	-	-	-
@@ -1017,10 +970,9 @@ Montiu	Montiu	montiu	PROPN		3	flat	héctor	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	héctor	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	héctor	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.53" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.53" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.53.1">
 <name type="PER">
 Vidal	Vidal	vidal	PROPN		1	root	-	-	-	-
@@ -1032,10 +984,9 @@ Chicharro	Chicharro	chicharro	PROPN		3	flat	vidal	PROPN		1
 Abstenció	Abstenció	abstenció	NOUN	Gender=Fem Number=Sing	6	appos	vidal	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	vidal	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.54" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.54" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.54.1">
 <name type="PER">
 Inés	Inés	inés	PROPN		1	root	-	-	-	-
@@ -1047,10 +998,9 @@ García	García	garcía	PROPN		3	flat	inés	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	inés	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	inés	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.55" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.55" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.55.1">
 <name type="PER">
 Elsa	Elsa	elsa	PROPN		1	root	-	-	-	-
@@ -1065,10 +1015,9 @@ Vila	Vila	vila	PROPN		4	conj	elsa	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	elsa	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	elsa	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.56" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.56" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.56.1">
 <name type="PER">
 Eva	Eva	eva	PROPN		1	root	-	-	-	-
@@ -1080,10 +1029,9 @@ Ramos	Ramos	ramos	PROPN		3	flat	eva	PROPN		1
 Sí	Sí	sí	ADV		6	advmod	eva	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	eva	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.57" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.57" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.57.1">
 <name type="PER">
 Martín	Martín	martín	PROPN		1	root	-	-	-	-
@@ -1096,10 +1044,9 @@ López	López	lópez	PROPN		4	flat	martín	PROPN		1
 No	No	no	ADV	Polarity=Neg	7	advmod	martín	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	martín	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.58" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.58" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.58.1">
 <name type="PER">
 Albert	Albert	albert	PROPN		1	root	-	-	-	-
@@ -1114,10 +1061,9 @@ Canadell	Canadell	canadell	PROPN		4	conj	albert	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	albert	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	albert	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.59" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.59" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.59.1">
 <name type="PER">
 Susana	Susana	susana	PROPN		1	root	-	-	-	-
@@ -1129,10 +1075,9 @@ García	García	garcía	PROPN		3	flat	susana	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	susana	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	susana	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.60" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.60" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.60.1">
 <name type="PER">
 David	David	david	PROPN		1	root	-	-	-	-
@@ -1144,10 +1089,9 @@ Román	Román	román	PROPN		3	flat	david	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	david	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	david	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.61" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.61" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.61.1">
 <name type="PER">
 Laura	Laura	laura	PROPN		1	root	-	-	-	-
@@ -1162,10 +1106,9 @@ Castanyer	Castanyer	castanyer	PROPN		4	conj	laura	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	laura	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	laura	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.62" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.62" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.62.1">
 <name type="PER">
 Marina	Marina	marina	PROPN		1	root	-	-	-	-
@@ -1177,10 +1120,9 @@ Sobrino	Sobrino	sobrino	PROPN		3	flat	marina	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	marina	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	marina	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.63" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.63" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.63.1">
 <name type="PER">
 Rafel	Rafel	rafel	PROPN		1	root	-	-	-	-
@@ -1192,10 +1134,9 @@ Batalla	Batalla	batalla	PROPN		3	flat	rafel	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	rafel	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	rafel	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.64" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.64" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.64.1">
 <name type="PER">
 José	José	josé	PROPN		1	root	-	-	-	-
@@ -1208,10 +1149,9 @@ Navarro	Navarro	navarro	PROPN		4	flat	josé	PROPN		1
 No	No	no	ADV	Polarity=Neg	7	advmod	josé	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	josé	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.65" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.65" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.65.1">
 <name type="PER">
 Carlos	Carlos	carlos	PROPN		1	root	-	-	-	-
@@ -1223,10 +1163,9 @@ Torres	Torres	torres	PROPN		3	flat	carlos	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	carlos	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	carlos	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.66" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.66" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.66.1">
 <name type="PER">
 Magda	Magda	magda	PROPN		1	root	-	-	-	-
@@ -1241,10 +1180,9 @@ Aguilà	Aguilà	aguilà	PROPN		4	conj	magda	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	magda	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	magda	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.67" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.67" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.67.1">
 <name type="LOC">
 Alba	Alba	alba	PROPN		1	root	-	-	-	-
@@ -1259,10 +1197,9 @@ Bosch	Bosch	bosch	PROPN		4	conj	alba	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	alba	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	alba	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.68" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.68" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.68.1">
 <name type="PER">
 Joan	Joan	joan	PROPN		1	root	-	-	-	-
@@ -1274,10 +1211,9 @@ González	González	gonzález	PROPN		3	flat	joan	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	joan	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	joan	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.69" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.69" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.69.1">
 <name type="PER">
 David	David	david	PROPN		1	root	-	-	-	-
@@ -1289,10 +1225,9 @@ Ibáñez	Ibáñez	ibáñez	PROPN		3	flat	david	PROPN		1
 No	No	no	ADV	Polarity=Neg	6	advmod	david	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	david	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	8	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.70" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.70" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.70.1">
 <name type="ORG">
 Eusebi	Eusebi	eusebi	PROPN		1	root	-	-	-	-
@@ -1307,10 +1242,9 @@ Pucurull	Pucurull	pucurull	PROPN		4	conj	eusebi	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	eusebi	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	eusebi	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.71" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.71" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.71.1">
 <name type="PER">
 José	José	josé	PROPN		1	root	-	-	-	-
@@ -1323,10 +1257,9 @@ Conesa	Conesa	conesa	PROPN		4	flat	josé	PROPN		1
 No	No	no	ADV	Polarity=Neg	7	advmod	josé	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	josé	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.72" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.72" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.72.1">
 <name type="PER">
 Josep	Josep	josep	PROPN		1	root	-	-	-	-
@@ -1341,10 +1274,9 @@ Rosselló	Rosselló	rosselló	PROPN		4	conj	josep	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	josep	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	josep	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.73" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.70.0.73" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.70.0.73.1">
 <name type="PER">
 Roger	Roger	roger	PROPN		1	root	-	-	-	-
@@ -1359,13 +1291,12 @@ Ramió	Ramió	ramió	PROPN		4	conj	roger	PROPN		1
 Sí	Sí	sí	ADV		7	advmod	roger	PROPN		1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	roger	PROPN		1
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	9	punct	-	-	-	-
 </s>
 </p>
 </speech>
 <note type="speaker" content="El president"/>
-<speech id="ParlaMint-ES-CT_2018-05-12-0901.71.0" text_id="ParlaMint-ES-CT_2018-05-12-0901" subcorpus="Reference" body="Unicameralism" term="12" session="" meeting="9" sitting="1" agenda="" date="2018-05-12" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2018-05-12 0901.ana" speaker_role="Chairperson" speaker_id="TorrentRoger" speaker_name="Torrent Ramió, Roger" speaker_mp="MP" speaker_minister="-" speaker_party="JuntsPelSí" speaker_party_name="Junts pel Sí" party_status="" speaker_gender="M" speaker_birth="1979">
-<p id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0" lang="Catalan">
+<speech id="ParlaMint-ES-CT_2018-05-12-0901.71.0" text_id="ParlaMint-ES-CT_2018-05-12-0901" subcorpus="de referència" lang="Català" body="Unicameralisme" term="12" session="-" meeting="9" sitting="1" agenda="-" date="2018-05-12" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2018-05-12 0901.ana" speaker_role="Presidència" speaker_id="TorrentRoger" speaker_name="Torrent Ramió, Roger" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JuntsPelSí" speaker_party_name="Junts pel Sí" party_status="-" party_orientation="--" speaker_gender="M" speaker_birth="1979">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1">
 El	El	el	DET	PronType=Art Gender=Masc Number=Sing	1	det	resultat	NOUN	Gender=Masc Number=Sing	2
 resultat	resultat	resultat	NOUN	Gender=Masc Number=Sing	2	nsubj	següent	ADJ	Number=Sing	9
@@ -1384,18 +1315,17 @@ vots	vots	vot	NOUN	Gender=Masc Number=Plur	12	obj	següent	ADJ	Number=Sing	9
 «	«	«	PUNCT	PunctType=Peri	13	punct	sí	ADV		14
 sí	sí	sí	ADV		14	advmod	vot	NOUN	Gender=Masc Number=Plur	12
 <g/>
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	15	punct	sí	ADV		14
-;	;	;	PUNCT	PunctType=Semi	16	punct	nosegon	NOUN	Gender=Masc	18
-65	65	65	NUM		17	nummod	vot	NOUN	Gender=Masc Number=Plur	12
-nos	nos	nosegon	NOUN	Gender=Masc	18	appos	vot	NOUN	Gender=Masc Number=Plur	12
-i	i	i	CCONJ		19	cc	abstenció	NOUN	Gender=Fem Number=Plur	21
-4	4	4	NUM		20	nummod	abstenció	NOUN	Gender=Fem Number=Plur	21
-abstencions	abstencions	abstenció	NOUN	Gender=Fem Number=Plur	21	conj	vot	NOUN	Gender=Masc Number=Plur	12
+;	;	;	PUNCT	PunctType=Semi	15	punct	65	NUM		16
+65	65	65	NUM		16	appos	vot	NOUN	Gender=Masc Number=Plur	12
+nos	nos	nosegon	NOUN	Gender=Masc	17	appos	65	NUM		16
+i	i	i	CCONJ		18	cc	abstenció	NOUN	Gender=Fem Number=Plur	20
+4	4	4	NUM		19	nummod	abstenció	NOUN	Gender=Fem Number=Plur	20
+abstencions	abstencions	abstenció	NOUN	Gender=Fem Number=Plur	20	conj	vot	NOUN	Gender=Masc Number=Plur	12
 <g/>
-.	.	.	PUNCT	PunctType=Peri	22	punct	següent	ADJ	Number=Sing	9
+.	.	.	PUNCT	PunctType=Peri	21	punct	següent	ADJ	Number=Sing	9
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.71.0.1" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.71.0.1" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.71.0.1.1">
 Atès	Atès	atendre	VERB	Mood=Par Number=Sing Gender=Masc	1	mark	obtenir	VERB	Mood=Par Number=Sing Gender=Masc	17
 <g/>
@@ -1426,6 +1356,7 @@ absoluta	absoluta	absolut	ADJ	Gender=Fem Number=Sing	20	amod	majoria	NOUN	Gender
 que	que	que	PRON	PronType=Rel	21	obj	requerir	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	22
 requereix	requereix	requerir	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	22	acl	majoria	NOUN	Gender=Fem Number=Sing	19
 l'	l'	el	DET	PronType=Art Number=Sing	23	det	article	NOUN	Gender=Masc Number=Sing	24
+<g/>
 article	article	article	NOUN	Gender=Masc Number=Sing	24	nsubj	requerir	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	22
 4.3	4.3	4.3	NUM		25	appos	article	NOUN	Gender=Masc Number=Sing	24
 de	de	de	ADP	AdpType=Prep	26	case	llei	PROPN		28
@@ -1448,13 +1379,16 @@ Govern	Govern	govern	PROPN		38	conj	generalitat	PROPN		33
 ,	,	,	PUNCT	PunctType=Comm	39	punct	article	NOUN	Gender=Masc Number=Sing	45
 i	i	i	CCONJ		40	cc	article	NOUN	Gender=Masc Number=Sing	45
 d'	d'	de	ADP	AdpType=Prep	41	case	article	NOUN	Gender=Masc Number=Sing	45
+<g/>
 acord	acord	acord	NOUN	Gender=Masc Number=Sing	42	fixed	de	ADP	AdpType=Prep	41
 amb	amb	amb	ADP	AdpType=Prep	43	fixed	de	ADP	AdpType=Prep	41
 l'	l'	el	DET	PronType=Art Number=Sing	44	det	article	NOUN	Gender=Masc Number=Sing	45
+<g/>
 article	article	article	NOUN	Gender=Masc Number=Sing	45	obl	sotmetre	VERB	Mood=Inf	56
 4.4	4.4	4.4	NUM		46	appos	article	NOUN	Gender=Masc Number=Sing	45
 de	de	de	ADP	AdpType=Prep	47	case	llei	NOUN	Gender=Fem Number=Sing	50
 l'	l'	el	DET	PronType=Art Number=Sing	48	det	llei	NOUN	Gender=Fem Number=Sing	50
+<g/>
 esmentada	esmentada	esmentar	VERB	Mood=Par Number=Sing Gender=Fem	49	amod	llei	NOUN	Gender=Fem Number=Sing	50
 llei	llei	llei	NOUN	Gender=Fem Number=Sing	50	nmod	article	NOUN	Gender=Masc Number=Sing	45
 <g/>
@@ -1483,7 +1417,7 @@ simple	simple	simple	ADJ	Number=Sing	70	amod	majoria	NOUN	Gender=Fem Number=Sing
 .	.	.	PUNCT	PunctType=Peri	71	punct	sotmetre	VERB	Mood=Inf	56
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.71.0.2" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.71.0.2" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.71.0.2.1">
 Aquest	Aquest	aquest	DET	PronType=Dem Gender=Masc Number=Sing	1	det	debat	NOUN	Gender=Masc Number=Sing	3
 segon	segon	segon	ADJ	NumType=Ord Gender=Masc Number=Sing	2	amod	debat	NOUN	Gender=Masc Number=Sing	3
@@ -1512,9 +1446,10 @@ matí	matí	matí	NOUN	Gender=Masc Number=Sing	25	compound	10.30	NUM		20
 .	.	.	PUNCT	PunctType=Peri	26	punct	fer	VERB	Mood=Ind Tense=Fut Person=3 Number=Sing	9
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2018-05-12-0901.71.0.3" lang="Catalan">
+<p id="ParlaMint-ES-CT_2018-05-12-0901.71.0.3" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-12-0901.71.0.3.1">
 S'	S'	es	PRON		1	obj	aixecar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	2
+<g/>
 aixeca	aixeca	aixecar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	2	root	-	-	-	-
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	3	det	sessió	NOUN	Gender=Fem Number=Sing	4
 sessió	sessió	sessió	NOUN	Gender=Fem Number=Sing	4	nsubj	aixecar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	2
@@ -1523,4 +1458,4 @@ sessió	sessió	sessió	NOUN	Gender=Fem Number=Sing	4	nsubj	aixecar	VERB	Mood=In
 </s>
 </p>
 </speech>
-<note type="narrative" content="La sessió s’aixeca a un quart de vuit del vespre i dos minuts."/>
+<note type="narrative" content="La sessió s'aixeca a un quart de vuit del vespre i dos minuts."/>
