@@ -303,8 +303,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	elsif ($handleAna) {$handleTxt = $handleAna}
 	else {die "FATAL ERROR: No handle given for TEI or .ana distribution\n"}
 	`rm -fr $outTxtDir; mkdir $outTxtDir`;
-	if ($MT) {$inReadme = "$docsDir/README-$MT.txt.txt"}
-	else {$inReadme = "$docsDir/README.txt.txt"}
+	if ($MT) {$inReadme = "$docsDir/README-$MT.txt"}
+	else {$inReadme = "$docsDir/README.txt"}
 	&cp_readme($countryCode, $handleTxt, $Version, $inReadme, "$outTxtDir/00README.txt");
 	if    (-e $outTeiDir) {`$scriptTexts $outTeiDir $outTxtDir`}
 	elsif (-e $outAnaDir) {`$scriptTexts $outAnaDir $outTxtDir`}
