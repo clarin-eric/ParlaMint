@@ -303,8 +303,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	elsif ($handleAna) {$handleTxt = $handleAna}
 	else {die "FATAL ERROR: No handle given for TEI or .ana distribution\n"}
 	`rm -fr $outTxtDir; mkdir $outTxtDir`;
-	if ($MT) {$inReadme = "$docsDir/README-$MT.txt"}
-	else {$inReadme = "$docsDir/README.txt"}
+	if ($MT) {$inReadme = "$docsDir/README-$MT.text.txt"}
+	else {$inReadme = "$docsDir/README.text.txt"}
 	&cp_readme($countryCode, $handleTxt, $Version, $inReadme, "$outTxtDir/00README.txt");
 	if    (-e $outTeiDir) {`$scriptTexts $outTeiDir $outTxtDir`}
 	elsif (-e $outAnaDir) {`$scriptTexts $outAnaDir $outTxtDir`}
@@ -395,7 +395,7 @@ sub cp_readme_top {
     die "FATAL ERROR: No country for cp_readme_top\n" unless $country;
     die "FATAL ERROR: No handle for cp_readme_top\n" unless $handle or $type eq 'sample';
     die "FATAL ERROR: No version for cp_readme_top\n" unless $version or $type eq 'sample';
-    my $inFile = "$inDir/README-$country.md";
+    my $inFile = "$inDir/README.md/README-$country.md";
     $inFile =~ s|-$mt|| if $mt; #Need to remove e.g. '-en' from input readme, as we don't have such input files
     # Construct output filename: in sample it is just README.md, other types add on a suffix
     my $outFile = "$outDir/README";
