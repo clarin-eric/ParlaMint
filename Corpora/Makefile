@@ -6,14 +6,14 @@
 # CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RS RO SE SI TR UA
 # Missing corpora: FI LT RO ES-PV
 
-######## SUBMITTED CORPORA FOR V 3.1
+######## SUBMITTED CORPORA FOR V 4.0
 #CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
 # Partial runs:
 #CORPORA = GR BG UA
-CORPORA = FI
+CORPORA = BA
 
-######## MTed CORPORA FOR V 3.1
+######## MTed CORPORA FOR V 4.0
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
 
 # Used in test targets:
@@ -30,12 +30,12 @@ SOURCES = ${HERE}/Sources-TEI
 SOURCES-MT = ${HERE}/Sources-Sem
 
 # Version number and PID of next(!) TEI and TEI.ana ParlaMint release
-VERSION = 3.1
+VERSION = 4.0
 HANDLE-TEI = http://hdl.handle.net/11356/1859
 HANDLE-ANA = http://hdl.handle.net/11356/1860
 
 # Version number and PID of next MTed ParlaMint-en.ana release
-VERSION-MT = 3.1
+VERSION-MT = 4.0
 HANDLE-MT = http://hdl.handle.net/11356/1864
 
 #Where the produced corpora are put for inspection
@@ -44,8 +44,15 @@ WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/
 ###### Targets
 
 ###### Tests
+
+test-tei2:
+	${FINALIZE} -valid -codes FI -in ${HERE}/Master -out ${HERE}/Master
 test-tei1:
 	${FINALIZE} -tei -valid -codes FI -in ${HERE}/Temp -out ${HERE}/Temp/Out
+test-vert5:
+	$s meta=../Corpora/Master/ParlaMint-FI.TEI.ana/ParlaMint-FI.ana.xml \
+	-xsl:../Scripts/parlamint2xmlvert.xsl Test/test-FI.ana.xml > Test/test-FI.vert
+	#-xsl:../Scripts/parlamint2xmlvert.xsl Test/ParlaMint-FI_2015-06-02-ps-13.ana.xml > Test/test-FI.vert
 test-vert4:
 	$s meta=${HERE}/Master/ParlaMint-BG.TEI.ana/ParlaMint-BG.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
 	${HERE}/Master/ParlaMint-BG.TEI.ana/2014/ParlaMint-BG_2014-10-27.ana.xml > test.vert
@@ -57,6 +64,9 @@ test-vert2:
 test-vert1:
 	${FINALIZE} -vert -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
 	${FINALIZE} -vert -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
+test-conll4:
+	$s meta=../Corpora/Master/ParlaMint-FI.TEI.ana/ParlaMint-FI.anaxml \
+	-xsl:../Scripts/parlamint2conllu.xsl Test/ParlaMint-FI_2015-06-02-ps-13.ana.xml > Test/test-FI.conllu
 test-conll3:
 	${FINALIZE} -conll -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
 test-conll2:
@@ -110,7 +120,7 @@ merge-taxos:
 	done;
 	${vta} Taxonomies/ParlaMint-taxonomy-*.xml
 
-### Fixes for 3.1-en:
+### Fixes for 4.0-en:
 
 # Instead of TEI-derived CoNLL-U files we release MTed CoNLL-U
 # merged with TEI-derived CoNLL-U because they also contain word alignments 
@@ -165,13 +175,13 @@ source-roots:
 	$s base=${HERE}/Sources-TEI -xsl:../Scripts/parlamint2root.xsl \
 	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Sources-TEI/ParlaMint.ana.xml
 master-roots:
-	$s base=${HERE}/Sources-TEI -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-template.xml > ${HERE}/Sources-TEI/ParlaMint.xml
-	$s base=${HERE}/Sources-TEI -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Sources-TEI/ParlaMint.ana.xml
+	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template.xml > ${HERE}/Master/ParlaMint.xml
+	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Master/ParlaMint.ana.xml
 master-mt-root:
-	$s base=${HERE}/Sources-TEI -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-template-en.ana.xml > ${HERE}/Sources-TEI/ParlaMint-en.ana.xml
+	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template-en.ana.xml > ${HERE}/Master/ParlaMint-en.ana.xml
 
 
 cp-samples:
