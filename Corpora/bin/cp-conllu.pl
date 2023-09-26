@@ -196,7 +196,7 @@ sub merge {
     }
     foreach my $line (split(/\n/, $in)) {
 	if (($this_id) = $line =~ /^# sent_id = (.+)/) {
-	    die "Out of synch: $this_id vs. $sent_id\n"
+	    die "FATAL ERROR: Out of synch: $this_id vs. $sent_id\n"
 		unless $sent_id eq $this_id;
 	    $out .= $meta if $meta;
 	}
