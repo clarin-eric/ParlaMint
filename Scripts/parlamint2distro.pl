@@ -225,7 +225,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	die "FATAL ERROR: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	dircopy($schemaDir, "$outAnaDir/Schema");
 	# Remove unwanted files
-	`rm -f $outAnaDir/Schema/.gitignore`;
+	`rm -f $outAnaDir/Schema/.*`;
 	`rm -f $outAnaDir/Schema/nohup.*`;
 	`rm -f $outAnaDir/Schema/*.log`;
 	`rm -f $outAnaDir/Schema/Makefile`;
@@ -252,8 +252,10 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	&cp_readme($countryCode, $handleTEI, $Version, $inReadme, "$outTeiDir/00README.txt");
 	die "FATAL ERROR: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	dircopy($schemaDir, "$outTeiDir/Schema");
-	`rm -f $outTeiDir/Schema/.gitignore`;
+	`rm -f $outTeiDir/Schema/.*`;
 	`rm -f $outTeiDir/Schema/nohup.*`;
+	`rm -f $outTeiDir/Schema/*.log`;
+	`rm -f $outTeiDir/Schema/Makefile`;
 	my $tmpOutDir = "$tmpDir/release.tei";
 	my $tmpOutTeiDir = "$tmpDir/$teiDir";
 	my $tmpTeiRoot = "$tmpOutDir/$teiRoot";
