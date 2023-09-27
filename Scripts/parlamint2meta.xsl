@@ -63,6 +63,7 @@
     <xsl:text>Speaker_party&#9;</xsl:text>
     <xsl:text>Speaker_party_name&#9;</xsl:text>
     <xsl:text>Party_status&#9;</xsl:text>
+    <xsl:text>Speaker_ID&#9;</xsl:text>
     <xsl:text>Speaker_name&#9;</xsl:text>
     <xsl:text>Speaker_gender&#9;</xsl:text>
     <xsl:text>Speaker_birth</xsl:text>
@@ -95,10 +96,12 @@
         <xsl:text>-&#9;</xsl:text>
         <xsl:text>-&#9;</xsl:text>
         <xsl:text>-&#9;</xsl:text>
+        <xsl:text>-&#9;</xsl:text>
         <xsl:text>-</xsl:text>
       </xsl:when>
       <xsl:when test="not(normalize-space($speaker))">
         <xsl:message select="concat('ERROR: Cant find speaker for ', @who, ' in ', @xml:id)"/>
+        <xsl:text>-&#9;</xsl:text>
         <xsl:text>-&#9;</xsl:text>
         <xsl:text>-&#9;</xsl:text>
         <xsl:text>-&#9;</xsl:text>
@@ -114,6 +117,7 @@
         <xsl:value-of select="concat(et:speaker-party($speaker, 'abb'), '&#9;')"/>
         <xsl:value-of select="concat(et:speaker-party($speaker, 'yes'), '&#9;')"/>
         <xsl:value-of select="concat(et:party-status($speaker), '&#9;')"/>
+        <xsl:value-of select="concat(substring-after(@who, '#'), '&#9;')"/>
         <xsl:value-of select="concat(et:format-name-chrono($speaker//tei:persName, $at-date), '&#9;')"/>
         <xsl:choose>
           <xsl:when test="$speaker/tei:sex">
