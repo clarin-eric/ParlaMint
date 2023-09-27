@@ -8,10 +8,10 @@ use utf8;
 use open ':utf8';
 use FindBin qw($Bin);
 binmode(STDERR, ':utf8');
-$validate = shift;
-$origDir = shift;
-$inDirs = shift;
-$outDir = shift;
+$validate = shift;  # 'validate' = validate CoNLL-U files, any other value = don't validate
+$origDir = shift;   # location of original CoNLL-U files, so newdoc is incorporated into resulting files, can be empty (no merge)
+$inDirs = shift;    # input directories
+$outDir = shift;    # top level output directory
     
 # Change to where tools is installed on local system
 # Source: https://github.com/universaldependencies/tools
@@ -21,13 +21,18 @@ $Valid = "/usr/local/tools/validate.py";
 $min_length = 20;
 $cut_ratio = 3;
 
+#If empty or -, no merge will be performed
+if (not $origDir or $origDir eq '-') {$origDir = ''}
+
 foreach $inDir (glob $inDirs) {
     ($corpus) = $inDir =~ m|(ParlaMint-[A-Z-]+)[\.-]|
 	or die "Strange directory $inDir\n";
     $outCDir = "$outDir/$corpus-en.conllu";
-    $origCDir = "$origDir/$corpus.conllu";
-    die "Can't find directory with original CoNLL-U $origCDir\n"
-	unless -d $origCDir;
+    if ($origDir) {
+	$origCDir = "$origDir/$corpus.conllu";
+	die "Can't find directory with original CoNLL-U $origCDir\n"
+	    unless -d $origCDir;
+    }
     print STDERR "INFO: Doing $corpus ($inDir -> $outCDir)\n";
     unless (-e $outCDir) {
 	print STDERR "INFO: Creating $outCDir\n";
@@ -38,7 +43,7 @@ foreach $inDir (glob $inDirs) {
 	next unless ($year) = $inYDir =~ m|(\d\d\d\d)$|;
 	# print STDERR "INFO: Doing $year\n";
 	$outYDir = "$outCDir/$year";
-	$origYDir = "$origCDir/$year";
+	$origYDir = "$origCDir/$year" if $origDir;
 	if (-e $outYDir) {
 	    #`rm -f $outYDir/*.conllu`
 	}
@@ -50,10 +55,13 @@ foreach $inDir (glob $inDirs) {
 	foreach $inFile (glob "$inYDir/*.conllu") {
 	    ($fName) = $inFile =~ m|/([^/]+\.conllu)$|;
 	    $fName =~ s|_|-en_| unless $fName =~ m|-en_|;
-	    $origFile = "$origYDir/$fName";
-	    $origFile =~ s|-en_|_|;
-	    die "Can't find original CoNLL-U file $origFile\n"
-		unless -e $origFile;
+	    if ($origDir) {
+		$origFile = "$origYDir/$fName";
+		$origFile =~ s|-en_|_|;
+		die "Can't find original CoNLL-U file $origFile\n"
+		    unless -e $origFile;
+	    }
+	    else {$origFile = ''}
 	    $outFile = "$outYDir/$fName";
 	    print STDERR "INFO: Processing $inFile\n";
 	    &cp($inFile, $origFile, $outFile);
@@ -69,19 +77,24 @@ sub cp {
     my $src;
     my $trg;
     open(IN, '<:utf8', $inFile) or die;
-    open(OR, '<:utf8', $origFile) or die;
     open(OUT, '>:utf8', $outFile) or die;
+    if ($origFile) {
+	open(OR, '<:utf8', $origFile) or die;
+    }
     $/ = "\n\n";
     while (<IN>) {
-	$orig_text = <OR>;
+	$orig_text = <OR> if $origFile;
 	$cut_text = &cut($_);
 	$fixed_text = &fix($cut_text);
-	$final_text = &merge($fixed_text, $orig_text);
-	print OUT $final_text;
+	if ($origFile) {
+	    $final_text = &merge($fixed_text, $orig_text);
+	    print OUT $final_text
+	}
+	else {print OUT $fixed_text}
     }
     close IN;
-    close OR;
     close OUT;
+    close OR if $origFile;
 }
 
 sub cut {
