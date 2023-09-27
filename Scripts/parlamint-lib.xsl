@@ -12,7 +12,7 @@
   exclude-result-prefixes="#all"
   version="2.0">
 
-  <!-- Which language the metadata should be output (where there is a choice)
+  <!-- In which language the metadata should be output (where there is a choice)
        Legal values are:
        - xx (language of the corpus or fall-back option)
        - en (English or fall-back option)
@@ -224,7 +224,7 @@
     </xsl:choose>
   </xsl:template>
   
-  <!-- Get @n from appropriate meeting type, e.g.
+  <!-- Output name of meeting with the given $ref in @ana, inputs are e.g.
        <meeting n="7" corresp="#DZ" ana="#parla.term #DZ.7">7. mandat</meeting>
        <meeting n="1" corresp="#DZ" ana="#parla.meeting.regular">Redna</meeting>
        or
@@ -243,12 +243,26 @@
     <xsl:param name="ref"/>
     <xsl:variable name="result">
       <xsl:variable name="idref" select="concat('#', $ref)"/>
-      <xsl:for-each select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:meeting">
-	<!-- Maybe we should ignore @n and use l10n-ed content of the corresponding event content? -->
-        <xsl:variable name="n" select="@n"/>
+      <xsl:variable name="meetings">
+	<xsl:apply-templates mode="XInclude" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:meeting"/>
+      </xsl:variable>
+      <xsl:for-each select="$meetings/tei:meeting">
+        <xsl:variable name="name">
+	  <xsl:choose>
+	    <xsl:when test="normalize-space(.)">
+	      <xsl:value-of select="et:l10n($corpus-language, .)"/>
+	    </xsl:when>
+	    <xsl:when test="@n">
+	      <xsl:value-of select="@n"/>
+	    </xsl:when>
+	    <xsl:otherwise>
+              <xsl:message select="concat('ERROR: no meeting/text() or meeting/@n in ', /tei:TEI/@xml:id)"/>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</xsl:variable>
         <xsl:for-each select="tokenize(@ana, ' ')">
           <xsl:if test="starts-with(., $idref)">
-            <xsl:value-of select="$n"/>
+            <xsl:value-of select="$name"/>
 	    <xsl:text>///</xsl:text>
           </xsl:if>
         </xsl:for-each>
