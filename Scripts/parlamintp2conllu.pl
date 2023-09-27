@@ -111,7 +111,7 @@ foreach my $outLang (@outLangs) {
 	`cat $fileFile | $Para '$command'`;
     }
 }
-`rename 's/\.ana//' $outDir/*-meta.tsv`;
+`rename 's/\.ana//' $outDir/*-meta*.tsv`;
 
 # Produce common CoNLL-U, even if we have more languages in a corpus
 if ($langs !~ /,/) {$checkLang = $langs}
