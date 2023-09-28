@@ -3,15 +3,15 @@
 ### VARIABLES
 
 # All ParlaMint II corpora
-# CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RS RO SE SI TR UA
-# Missing corpora: FI LT RO ES-PV
+# XXXCORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RS RO SE SI TR UA
+# Missing corpora: LT RO ES-PV
 
 ######## SUBMITTED CORPORA FOR V 4.0
-#CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+# CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
 # Partial runs:
 #CORPORA = GR BG UA
-CORPORA = BA
+CORPORA = ES-CT
 
 ######## MTed CORPORA FOR V 4.0
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -74,8 +74,10 @@ test-conll2:
 test-conll1:
 	${FINALIZE} -conll -codes SI -in ${HERE}/Master -out ${HERE}/Master
 test-meta2:
-	$s meta=../Corpora/Master/ParlaMint-BE.TEI/ParlaMint-BE.xml -xsl:../Scripts/parlamint2meta.xsl \
-	../Corpora/Master/ParlaMint-BE.TEI/2014/ParlaMint-BE_2014-06-19-54-plenair-ip001x.xml > test.tsv
+	$s meta=../Corpora/Master/ParlaMint-EE.TEI/ParlaMint-EE.xml -xsl:../Scripts/parlamint2meta.xsl \
+	../Corpora/Master/ParlaMint-EE.TEI/2014/ParlaMint-EE_2014-01-13.xml > test.tsv
+test-text1:
+	${FINALIZE} -txt -codes ES-CT -in ${HERE}/Master -out ${HERE}/Master
 test-meta1:
 	${FINALIZE} -txt -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
 	${FINALIZE} -txt -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp

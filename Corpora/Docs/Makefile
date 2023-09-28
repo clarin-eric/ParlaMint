@@ -19,5 +19,5 @@ cp_regis:
 	rm -f registry/*
 	for CORPUS in ${REGIST_CORPORA}; do \
 	cp /project/clarinsi-cqp/registry/parlamint${REGIST_VERSION}_$${CORPUS} \
-	registry/parlamint${REGIST_VERSION}_$${CORPUS}.regi; \
+	registry/parlamint${REGIST_VERSION}_$${CORPUS}; \
 	done;
