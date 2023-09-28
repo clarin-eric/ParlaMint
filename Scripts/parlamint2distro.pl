@@ -284,6 +284,9 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	    `$scriptConls $outSmpDir $outSmpDir`
 	}
 	else {print STDERR "ERROR: No .ana files for $countryCode samples (needed root file is $outAnaRoot)\n"}
+	#For some reason both ParlaMint-XX_YYY-MM-DD-meta-en.tsv and ParlaMint-XX_YYY-MM-DD.ana-meta-en.tsv
+	#are present in Sample directory, remove the .ana variant:
+	`rm -f $outSmpDir/*.ana-meta-en.tsv`;
 	# Output top level readme but not for $MTed version, as it would overwrite the original
 	# The Sample readme does not have handle or version, as the sample can change irrespective of them
 	&commonTaxonomies($countryCode, $outSmpDir);
