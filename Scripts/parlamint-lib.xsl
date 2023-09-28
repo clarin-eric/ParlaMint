@@ -98,19 +98,11 @@
                       ancestor::tei:taxonomy/tei:desc/tei:term = 'Subcorpora'">
 	  <!-- The category term of the tokenised @ana: -->
           <xsl:value-of select="et:l10n($corpus-language, key('idr', ., $rootHeader)/tei:catDesc)/tei:term"/>
-	  <xsl:text>&#32;</xsl:text>
+	  <xsl:text>,</xsl:text>
 	</xsl:if>
       </xsl:for-each>
     </xsl:variable>
-    <!-- If component belongs to several subcorpora, retain only last one -->
-    <xsl:choose>
-      <xsl:when test="matches(normalize-space($subcorpora), '&#32;')">
-	<xsl:value-of select="substring-after(normalize-space($subcorpora), '&#32;')"/>
-      </xsl:when>
-      <xsl:otherwise>
-	<xsl:value-of select="normalize-space($subcorpora)"/>
-      </xsl:otherwise>
-    </xsl:choose>
+    <xsl:value-of select="replace($subcorpora, ',$', '')"/>
   </xsl:variable>
   
   <xsl:variable name="rootHeader">
