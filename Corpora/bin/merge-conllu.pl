@@ -8,14 +8,18 @@ $inMTDir = shift;
 binmode(STDERR, ':utf8');
 foreach $jointFile (glob "$inJointDir/*/*.conllu") {
     next if $jointFile =~ /-[a-z]+\.conllu$/; #Skip over per-language files
-    ($year, $fileName) = $jointFile =~ m|/(\d\d\d\d)/(.+)\.conllu|;
-    @langFiles = glob("$inMTDir/$year/$fileName-*\.conllu");
-    ($lang1) = $langFiles[0] =~ m|$fileName-(..)\.conllu|;
-    ($lang2) = $langFiles[1] =~ m|$fileName-(..)\.conllu|;
-    die "Huh: ". scalar(@langFiles) . "\n" unless scalar(@langFiles) == 2;
-    $outFile = "$inMTDir/$year/$fileName.conllu";
-    print STDERR "INFO: processing $year/$fileName\n";
-    # die "InFile: $jointFile\nMT1: $langFiles[0]\nMT2: $langFiles[1]\nOut: $outFile\n";
+    ($year, $country, $rest) = $jointFile =~ m|/(\d\d\d\d)/ParlaMint-([A-Z-]+)_(.+)\.conllu|;
+    $inFiles = "$inMTDir/$year/ParlaMint-$country-*\_$rest";
+    @langFiles = glob("$inFiles-*\.conllu");
+    die "FATAL ERROR: can't find any files matching $inFiles-*.conllu\n"
+	unless @langFiles;
+    ($lang1) = $langFiles[0] =~ m|(..)\.conllu$|;
+    ($lang2) = $langFiles[1] =~ m|(..)\.conllu$|;
+    die "FATAL ERROR: number of langauge files for $jointFile is not 2 but ". scalar(@langFiles) . "\n"
+	unless scalar(@langFiles) == 2;
+    print STDERR "INFO: processing $inFiles $lang1, $lang2\n";
+    $outFile = "$inMTDir/$year/ParlaMint-$country-en_$rest.conllu";
+    #die "InFile: $jointFile\nMT1: $langFiles[0]\nMT2: $langFiles[1]\nOut: $outFile\n";
     $/ = "\n\n";
     @ids = ();
     open(TBL, '<:utf8', $jointFile);
