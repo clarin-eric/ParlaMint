@@ -19,8 +19,16 @@ sem-test1:
 	../../Scripts/conllu2tei.pl < test.conllu > test.xml
 	xmllint --noout test.xml
 
+##### Merge per-language annotated CoNLL-Us (BE, ES-CT, UA) to joint CoNLL-Us
+mrg-conll:
+	#../bin/merge-conllu.pl Master/ParlaMint-BE.conllu USAS/ParlaMint-BE-en.conllu
+	../bin/merge-conllu.pl ../Master/ParlaMint-ES-CT.conllu USAS/ParlaMint-ES-CT-en.conllu
+	#../bin/merge-conllu.pl Master/ParlaMint-UA.conllu USAS/ParlaMint-UA-en.conllu
+
+
+
 ###### Copy (and fix) original conllu files to Source-MT directory for 1 corpus
-CORPUS = BA
+CORPUS = ES-CT
 cp-mt-conllu-one:
 	../bin/cp-conllu.pl novalidate ../Master 'USAS/ParlaMint-${CORPUS}-en.conllu' .
 
