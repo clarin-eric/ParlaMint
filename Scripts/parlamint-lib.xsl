@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <!-- Library of templates for import into other ParlaMint scripts -->
-<!-- PARTY AFFILIATION + NAME NEEDS TO BE UPDATED ACCORDING TO V3 ENCODING!!! -->
 <xsl:stylesheet 
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xi="http://www.w3.org/2001/XInclude"
