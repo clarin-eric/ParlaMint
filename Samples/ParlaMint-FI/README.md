@@ -14,6 +14,8 @@ The ParlaMint-FI corpus contains the minutes of the Finnish Parliament's plenary
 
 The minutes of the Finnish Parliament's plenary sessions from parliamentary session 2015 onwards are freely available on the Open Data service of the Parliament of Finland (https://avoindata.eduskunta.fi) via an API in XML format (wrapped in JSON). The minutes were fetched from the API using a Python script.
 
+Biographical information (birth and death dates, sex) of speakers who are not MPs have been fetched from other sources, namely regarding the chancellors of justice and parliamentary ombudsmen are fetched from Wikidata via a SPARQL query.
+
 ### Data encoding process
 
 The original XML data was transformed into TEI-XML using a series of Python and shell scripts (https://github.com/SemanticComputing/semparl-data-transformation).
