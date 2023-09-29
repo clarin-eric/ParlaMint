@@ -310,7 +310,13 @@
 	<xsl:value-of select="normalize-space(
                               string-join(
                               (
-                              string-join($persName/tei:surname[not(@type='patronym')]/normalize-space(.),' '),
+                              string-join(
+                                (
+                                  $persName/tei:surname[not(@type='patronym')]
+                                  |
+                                  $persName/tei:nameLink[following-sibling::tei:*[1][local-name()='surname' or local-name()='nameLink']]
+                                )/normalize-space(.),
+                                ' '),
                               concat(
                               string-join($persName/tei:forename/normalize-space(.),' '),
                               ' ',
