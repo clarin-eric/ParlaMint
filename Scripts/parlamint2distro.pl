@@ -245,7 +245,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	die "FATAL ERROR: Can't find input tei root $inTeiRoot\n" unless -e $inTeiRoot; 
 	die "FATAL ERROR: No handle given for TEI distribution\n" unless $handleTEI;
 	# Output top level readme
-	&cp_readme_top($countryCode, $MT, 'TEI', $handleTEI, $Version, $docsDir, $outDir);
+	&cp_readme_top($countryCode, $MT, 'tei', $handleTEI, $Version, $docsDir, $outDir);
 	`rm -fr $outTeiDir; mkdir $outTeiDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.txt"}
 	else {$inReadme = "$docsDir/README.TEI.txt"}
@@ -402,15 +402,13 @@ sub cp_readme_top {
     die "FATAL ERROR: No version for cp_readme_top\n" unless $version or $type eq 'sample';
     my $inFile = "$inDir/README.md/README-$country.md";
     $inFile =~ s|-$mt|| if $mt; #Need to remove e.g. '-en' from input readme, as we don't have such input files
+
     # Construct output filename: in sample it is just README.md, other types add on a suffix
     my $outFile = "$outDir/README";
     if ($type eq 'sample') {}
-    elsif ($type eq 'ana' or $type eq 'tei') {
-	$outFile .= "-" . $country;
-    }
-    if ($type eq 'ana') {
-        $outFile .= ".ana"
-    }
+    elsif ($type eq 'ana' or $type eq 'tei') {$outFile .= "-" . $country }
+    if ($mt) {$outFile .= "-$mt"}
+    if ($type eq 'ana') {$outFile .= ".ana"}
     $outFile .= ".md";
     
     open IN, '<:utf8', $inFile or die "FATAL ERROR: Can't open input top README $inFile\n";
@@ -429,7 +427,7 @@ sub cp_readme_top {
 	    ($countryCode, $RegionalSuffix, $countryName) = m| ([A-Z]{2}(-[A-Z]{2})?) \((.+)\)$| or die;
 	    die "FATAL ERROR: Bad code $countryCode (!= $country) in $inFile\n" unless $country =~ /$countryCode/;
 	    if    ($type =~ /sample/i) {print OUT "# Samples of the ParlaMint-$countryCode corpus"}
-	    elsif ($type =~ /TEI/i)    {print OUT "# Corpus of parliamentary debates ParlaMint-$countryCode"}
+	    elsif ($type =~ /tei/i)    {print OUT "# Corpus of parliamentary debates ParlaMint-$countryCode"}
 	    elsif ($type =~ /ana/i)    {print OUT "# Linguistically annotated corpus of parliamentary debates ParlaMint-$countryCode"}
 	    else {die "Strange type $type for cp_readme_top\n"}
 	    if ($MT) {print OUT " (translation to English)"}
