@@ -24,13 +24,6 @@
   <xsl:param name="note-open">[</xsl:param>
   <xsl:param name="note-close">]</xsl:param>
 
-  <!-- Label for multilingual utterances -->
-  <!-- Note that this label should be ideally translated into all (or at least those that have multilingual utterances, e.g. BE, UA) 
-       the ParlaMint languages as well, i.e. "mul" should be in their langUsage -->
-  <xsl:param name="multilingual-label">Multilingual</xsl:param>
-  
-  <xsl:variable name="text_id" select="replace(/tei:TEI/@xml:id, '\.ana', '')"/>
-  
   <!-- Store sub title, if it exists, otherwise main title -->
   <xsl:variable name="title">
     <xsl:variable name="titles" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
@@ -79,32 +72,7 @@
   <xsl:template match="tei:div/tei:u">
     <xsl:variable name="speech_id" select="replace(@xml:id, '\.ana', '')"/>
     <xsl:variable name="lang">
-      <xsl:variable name="defaultLang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
-      <!-- Collect all the languages of utterance segments -->
-      <xsl:variable name="langs">
-	<xsl:variable name="lgs">
-	  <xsl:for-each select="tei:seg">
-	    <xsl:value-of select="@xml:lang"/>
-	    <xsl:text>&#32;</xsl:text>
-	  </xsl:for-each>
-	</xsl:variable>
-	<xsl:value-of select="distinct-values(tokenize(normalize-space($lgs)))"/>
-      </xsl:variable>
-      <xsl:choose>
-	<!-- Segments not marked for language, so name of language of utterance -->
-	<xsl:when test="not(normalize-space($langs))">
-	  <xsl:value-of select="et:l10n($corpus-language, 
-				$rootHeader//tei:langUsage/tei:language[@ident = $defaultLang])"/>
-	</xsl:when>
-	<!-- Multilingual content -->
-	<xsl:when test="tokenize($langs)[2]">
-	  <xsl:value-of select="$multilingual-label"/>
-	</xsl:when>
-	<xsl:otherwise>
-	  <xsl:value-of select="et:l10n($corpus-language, 
-				$rootHeader//tei:langUsage/tei:language[@ident = $langs])"/>
-	</xsl:otherwise>
-      </xsl:choose>
+      <xsl:call-template name="u-langs"/>
     </xsl:variable>
     <speech id="{$speech_id}" text_id="{$text_id}"
             subcorpus="{$subcorpus}" lang="{$lang}" body="{$body}"
