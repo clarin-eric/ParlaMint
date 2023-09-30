@@ -225,7 +225,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	die "FATAL ERROR: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	dircopy($schemaDir, "$outAnaDir/Schema");
 	# Remove unwanted files
-	`rm -f $outAnaDir/Schema/.*`;
+	`rm -fr $outAnaDir/Schema/.git*`;
 	`rm -f $outAnaDir/Schema/nohup.*`;
 	`rm -f $outAnaDir/Schema/*.log`;
 	`rm -f $outAnaDir/Schema/Makefile`;
