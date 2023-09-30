@@ -58,7 +58,7 @@
     <xsl:text>Sitting&#9;</xsl:text>
     <xsl:text>Agenda&#9;</xsl:text>
     <xsl:text>Subcorpus&#9;</xsl:text>
-    <xsl:text>Lang</xsl:text>
+    <xsl:text>Lang&#9;</xsl:text>
     <xsl:text>Speaker_role&#9;</xsl:text>
     <xsl:text>Speaker_MP&#9;</xsl:text>
     <xsl:text>Speaker_minister&#9;</xsl:text>
