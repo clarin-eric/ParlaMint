@@ -96,7 +96,7 @@
     <xsl:variable name="speaker" select="key('idr', @who, $rootHeader)"/>
     <xsl:choose>
       <xsl:when test="not(@who or normalize-space($speaker))">
-	<xsl:if test="not(normalize-space($speaker))">
+	<xsl:if test="@who and not(normalize-space($speaker))">
           <xsl:message select="concat('ERROR: Cant find speaker for ', @who, ' in ', @xml:id)"/>
 	</xsl:if>
         <xsl:text>-&#9;</xsl:text>
