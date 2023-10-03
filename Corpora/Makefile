@@ -10,8 +10,9 @@
 # CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
 # Partial runs:
-#CORPORA = GR BG UA
-CORPORA = ES-CT
+#CORPORA = AT BA BE BG CZ DK ES-CT
+CORPORA = EE ES
+#NEXT: DK!!!!
 
 ######## MTed CORPORA FOR V 4.0
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -65,7 +66,7 @@ test-vert1:
 	${FINALIZE} -vert -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
 	${FINALIZE} -vert -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
 test-conll4:
-	$s meta=../Corpora/Master/ParlaMint-FI.TEI.ana/ParlaMint-FI.anaxml \
+	$s meta=../Corpora/Master/ParlaMint-FI.TEI.ana/ParlaMint-FI.ana.xml \
 	-xsl:../Scripts/parlamint2conllu.xsl Test/ParlaMint-FI_2015-06-02-ps-13.ana.xml > Test/test-FI.conllu
 test-conll3:
 	${FINALIZE} -conll -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
@@ -74,7 +75,7 @@ test-conll2:
 test-conll1:
 	${FINALIZE} -conll -codes SI -in ${HERE}/Master -out ${HERE}/Master
 test-meta2:
-	$s meta=../Corpora/Master/ParlaMint-EE.TEI/ParlaMint-EE.xml -xsl:../Scripts/parlamint2meta.xsl \
+	$s out-lang=en meta=../Corpora/Master/ParlaMint-EE.TEI/ParlaMint-EE.xml -xsl:../Scripts/parlamint2meta.xsl \
 	../Corpora/Master/ParlaMint-EE.TEI/2014/ParlaMint-EE_2014-01-13.xml > test.tsv
 test-text1:
 	${FINALIZE} -txt -codes ES-CT -in ${HERE}/Master -out ${HERE}/Master
@@ -214,7 +215,7 @@ nohup:
 nohup2:
 	nice nohup time make all > Logs/ParlaMint.2.log &
 
-all:	final verts
+all:	final verts pack
 xall:	final verts pack
 
 pack:
@@ -305,9 +306,9 @@ mt-test5:
 	${vca} Test/ParlaMint-AT-en.TEI.ana/1996/*.xml
 mt-test4:
 	perl ../Scripts/mt-insert-s.pl \
-	  Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.body.xml \
-	< Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.notes.xml \
-	> Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.ana.xml
+	  ../Scripts/tmp/363a4AJ0Jh/ParlaMint-BA-en_2006-09-18-0.body.xml \
+	< ../Scripts/tmp/363a4AJ0Jh/ParlaMint-BA-en_2006-09-18-0.note.xml\
+	> Test/ParlaMint-BA-en_2006-09-18-0.ana.xml
 mt-test3:
 	$s noteFile=Test/ParlaMint-AT.notes.translated.tsv -xsl:../Scripts/mt-insert-notes.xsl \
 	Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.null.xml \

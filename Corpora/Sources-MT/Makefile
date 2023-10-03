@@ -1,5 +1,5 @@
 ###### Copy (and fix) original conllu files to Source-MT directory for 1 corpus
-CORPUS = UA
+CORPUS = FI
 test1:
 	../bin/cp-conllu.pl validate '-' 'Temp/ParlaMint-${CORPUS}.conllu.translated' Temp/tmp
 
@@ -11,7 +11,7 @@ cp-mt-conllu-add:
 	../bin/cp-conllu.pl validate '' '/home/taja/ParlaMint-${CORPUS}.conllu.translated.additional' .
 # ParlaMint-XX.notes.translated.tsv -> ParlaMint-XX-en-notes.tsv
 cp-mt-notes:
-	cp /home/taja/Notes-translated/ParlaMint-UA.notes.translated.tsv .
+	cp /home/taja/Notes-translated/ParlaMint-${CORPUS}.notes.translated.ana.tsv .
 	rename -f 's/\.notes.translated\.ana/-en-notes/' *.tsv
 
 pack:

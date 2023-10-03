@@ -33,7 +33,7 @@ cp-mt-conllu-one:
 	../bin/cp-conllu.pl novalidate ../Master 'USAS/ParlaMint-${CORPUS}-en.conllu' .
 
 #CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-CORPORA = BA BE BG DK EE ES ES-CT ES-GA ES-PV FR GB GR HR IS IT LV NL NO PL PT RS SE SI
+CORPORA =  AT CZ FI HU UA
 
 nohup:
 	nohup time make cp-mt-conllu > cp-mt-conllu.log &
@@ -57,7 +57,6 @@ get:
 	rm -f ParlaMint-$${CORPUS}-en.conllu.tar.gz; \
 	wget ${URL}/ParlaMint-$${CORPUS}-en.conllu.tar.gz; \
 	tar xfz ParlaMint-$${CORPUS}-en.conllu.tar.gz; \
-	mv mnt/zfs/ucrel-data/ParlaMint-$${CORPUS}-en.conllu . ; \
 	dos2unix ParlaMint-$${CORPUS}-en.conllu/*/*; \
 	done;
 
