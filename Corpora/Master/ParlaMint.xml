@@ -184,6 +184,18 @@
                      corresp="#ParlaMint-ES-GA"
                      ana="#parla.uni-ES-GA #parla.term-ES-GA #PG.11-ES-GA"
                      xml:lang="gl">XI Lexislatura (07 agosto 2020 - )</meeting>
+            <meeting corresp="#ParlaMint-ES-PV"
+                     ana="#parla.uni-ES-PV #parla.term-ES-PV"
+                     n="10"
+                     xml:lang="eu">10. agintaldia</meeting>
+            <meeting corresp="#ParlaMint-ES-PV"
+                     ana="#parla.uni-ES-PV #parla.term-ES-PV"
+                     n="11"
+                     xml:lang="eu">11. agintaldia</meeting>
+            <meeting corresp="#ParlaMint-ES-PV"
+                     ana="#parla.uni-ES-PV #parla.term-ES-PV"
+                     n="12"
+                     xml:lang="eu">12. agintaldia</meeting>
             <meeting n="10"
                      corresp="#ParlaMint-ES"
                      ana="#parla.lower-ES #parla.term-ES #CD.10-ES"
@@ -682,6 +694,38 @@
                <persName>Xosé Luís Regueira</persName>
                <resp>Galician Parliament connection</resp>
             </respStmt>
+            <respStmt corresp="#ParlaMint-ES-PV">
+               <persName>Mikel Iruskieta</persName>
+               <resp>Data retrieval and curation</resp>
+            </respStmt>
+            <respStmt corresp="#ParlaMint-ES-PV">
+               <persName>Manex Agirrezabal</persName>
+               <resp>Data revision and support</resp>
+            </respStmt>
+            <respStmt corresp="#ParlaMint-ES-PV">
+               <persName>Ekain Arrieta</persName>
+               <resp>Technical support and conversion from conll to XML</resp>
+            </respStmt>
+            <respStmt corresp="#ParlaMint-ES-PV">
+               <persName>Rodrigo Agerri</persName>
+               <resp>Train the NER model for Basque and Spanish</resp>
+            </respStmt>
+            <respStmt corresp="#ParlaMint-ES-PV">
+               <persName>Kike Fernandez</persName>
+               <resp>Technical support and conversion to XML</resp>
+            </respStmt>
+            <respStmt corresp="#ParlaMint-ES-PV">
+               <persName>Matyáš Kopp</persName>
+               <resp>Technical support and support for bilingual analysis</resp>
+            </respStmt>
+            <respStmt corresp="#ParlaMint-ES-PV">
+               <persName>Tomaž Erjavec</persName>
+               <resp>Technical support</resp>
+            </respStmt>
+            <respStmt corresp="#ParlaMint-ES-PV">
+               <persName>Jon Alkorta</persName>
+               <resp>Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
             <respStmt corresp="#ParlaMint-ES">
                <persName>María Calzada Pérez</persName>
                <resp>Data retrieval and conversion to XML</resp>
@@ -878,6 +922,9 @@
                <orgName xml:lang="en">Galician Language Institute, University of Santiago de Compostela</orgName>
                <orgName xml:lang="en">Nós: Galician in the society and economy of artificial intelligence (2021-CP080), agreement between Xunta de Galicia and the University of Santiago de Compostela</orgName>
             </funder>
+            <funder corresp="#ParlaMint-ES-PV">
+               <orgName xml:lang="en">HiTZ - Ixa Group (UPV/EHU)</orgName>
+            </funder>
             <funder corresp="#ParlaMint-ES">
                <orgName xml:lang="en">Ministry of Science and Innovation of Spain</orgName>
             </funder>
@@ -906,11 +953,11 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.1</edition>
+            <edition>4.0</edition>
          </editionStmt>
          <extent>
-            <measure unit="corpora" quantity="28">28 corpora</measure>
-            <measure unit="speeches" quantity="7220813">7,220,813 speeches</measure>
+            <measure unit="corpora" quantity="29">29 corpora</measure>
+            <measure unit="speeches" quantity="7259961">7,259,961 speeches</measure>
             <measure unit="speeches" quantity="126252" corresp="#ParlaMint-BA">126,252 speeches</measure>
             <measure xmlns:xi="http://www.w3.org/2001/XInclude"
                      unit="speeches"
@@ -922,6 +969,7 @@
             <measure unit="speeches" quantity="227872" corresp="#ParlaMint-EE">227,872 speeches</measure>
             <measure unit="speeches" quantity="50824" corresp="#ParlaMint-ES-CT">50,824 speeches</measure>
             <measure unit="speeches" quantity="83078" corresp="#ParlaMint-ES-GA">83,078 speeches</measure>
+            <measure unit="speeches" quantity="39148" corresp="#ParlaMint-ES-PV">39,148 speeches</measure>
             <measure unit="speeches" quantity="76369" corresp="#ParlaMint-ES">76,369 speeches</measure>
             <measure unit="speeches" quantity="146858" corresp="#ParlaMint-FI">speeches</measure>
             <measure xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -946,7 +994,7 @@
             <measure unit="speeches" quantity="311354" corresp="#ParlaMint-SI">311,354 speeches</measure>
             <measure unit="speeches" quantity="681052" corresp="#ParlaMint-TR">681,052 speeches</measure>
             <measure unit="speeches" quantity="200849" corresp="#ParlaMint-UA">200,849 speeches</measure>
-            <measure unit="words" quantity="1082576903">1,082,576,903 words</measure>
+            <measure unit="words" quantity="1096113204">1,096,113,204 words</measure>
             <measure unit="words" quantity="18307498" corresp="#ParlaMint-BA">18,307,498 words</measure>
             <measure xmlns:xi="http://www.w3.org/2001/XInclude"
                      unit="words"
@@ -958,6 +1006,7 @@
             <measure unit="words" quantity="22874712" corresp="#ParlaMint-EE">22,874,712 words</measure>
             <measure unit="words" quantity="15947446" corresp="#ParlaMint-ES-CT">15,947,446 words</measure>
             <measure unit="words" quantity="17837709" corresp="#ParlaMint-ES-GA">17,837,709 words</measure>
+            <measure unit="words" quantity="13536301" corresp="#ParlaMint-ES-PV">13,536,301 172462</measure>
             <measure unit="words" quantity="19645025" corresp="#ParlaMint-ES">19,645,025 words</measure>
             <measure unit="words" quantity="13538571" corresp="#ParlaMint-FI">words</measure>
             <measure xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -993,7 +1042,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-09-25">September 25, 2023</date>
+            <date when="2023-10-05">October 5, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <listBibl corresp="#ParlaMint-AT">
@@ -1102,6 +1151,16 @@
                   <title type="main">Minutes of the Galician Parliament</title>
                   <idno type="URI" subtype="parliament">https://www.parlamentodegalicia.gal/</idno>
                   <date from="2015-01-27" to="2022-05-25">27.01.2015 - 25.05.2022</date>
+               </bibl>
+            </listBibl>
+            <listBibl corresp="#ParlaMint-ES-PV">
+               <head>ParlaMint-ES-PV</head>
+               <bibl>
+                  <title type="main" xml:lang="eu">Eusko Legebiltzarreko aktak</title>
+                  <title type="main" xml:lang="es">Actas del Parlamento Vasco</title>
+                  <title type="main">Minutes of the the Basque Parliament</title>
+                  <idno type="URI" subtype="parliament">https://www.legebiltzarra.eus/portal/eu</idno>
+                  <date from="2015-02-01" to="2022-07-01">2015-02-01 - 2022-07-01</date>
                </bibl>
             </listBibl>
             <listBibl corresp="#ParlaMint-FI">
@@ -1303,6 +1362,7 @@
                <p corresp="#ParlaMint-EE">No correction of source texts was performed.</p>
                <p corresp="#ParlaMint-ES-CT">No correction of source texts was performed.</p>
                <p corresp="#ParlaMint-ES-GA">No correction of source texts was performed.</p>
+               <p corresp="#ParlaMint-ES-PV">No correction of source texts was performed.</p>
                <p corresp="#ParlaMint-ES">No correction of source texts was performed.</p>
                <p corresp="#ParlaMint-FI">Some corrections of unambiguous typos on speakers' names in the source text were performed to ensure proper linking.</p>
                <p xmlns:xi="http://www.w3.org/2001/XInclude" corresp="#ParlaMint-FR">No correction of source texts was performed.</p>
@@ -1333,6 +1393,7 @@
                <p corresp="#ParlaMint-EE">Text has not been normalised, except for spacing.</p>
                <p corresp="#ParlaMint-ES-CT">Text has not been normalised, except for spacing.</p>
                <p corresp="#ParlaMint-ES-GA">Text has not been normalised, except for spacing.</p>
+               <p corresp="#ParlaMint-ES-PV">Text has not been normalised, except for spacing.</p>
                <p corresp="#ParlaMint-ES">Text has not been normalised, except for spacing.</p>
                <p corresp="#ParlaMint-FI">Text has not been normalised, except for spacing.</p>
                <p xmlns:xi="http://www.w3.org/2001/XInclude" corresp="#ParlaMint-FR">Text has not been normalised, except for removing non-breaking spaces.</p>
@@ -1363,6 +1424,7 @@
                <p corresp="#ParlaMint-EE">No end-of-line hyphens were present in the source.</p>
                <p corresp="#ParlaMint-ES-CT">No end-of-line hyphens were present in the source.</p>
                <p corresp="#ParlaMint-ES-GA">No end-of-line hyphens were present in the source.</p>
+               <p corresp="#ParlaMint-ES-PV">No end-of-line hyphens were present in the source.</p>
                <p corresp="#ParlaMint-ES">No end-of-line hyphens were present in the source.</p>
                <p corresp="#ParlaMint-FI">No end-of-line hyphens were present in the source.</p>
                <p xmlns:xi="http://www.w3.org/2001/XInclude" corresp="#ParlaMint-FR">No end-of-line hyphens were present in the source.</p>
@@ -1393,6 +1455,7 @@
                <p corresp="#ParlaMint-EE">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p corresp="#ParlaMint-ES-CT">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p corresp="#ParlaMint-ES-GA">Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p corresp="#ParlaMint-ES-PV">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p corresp="#ParlaMint-ES">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p corresp="#ParlaMint-FI">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p xmlns:xi="http://www.w3.org/2001/XInclude" corresp="#ParlaMint-FR">Quotation marks have been left in the text and are not explicitly marked up.</p>
@@ -1424,6 +1487,7 @@
                <p corresp="#ParlaMint-EE">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p corresp="#ParlaMint-ES-CT">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p corresp="#ParlaMint-ES-GA">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p corresp="#ParlaMint-ES-PV">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p corresp="#ParlaMint-ES">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p corresp="#ParlaMint-FI">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p xmlns:xi="http://www.w3.org/2001/XInclude" corresp="#ParlaMint-FR">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
@@ -1447,19 +1511,19 @@
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="43863"/>
+               <tagUsage gi="body" occurs="44201"/>
                <tagUsage gi="desc" occurs="1522515"/>
-               <tagUsage gi="div" occurs="177500"/>
+               <tagUsage gi="div" occurs="177838"/>
                <tagUsage gi="gap" occurs="120310"/>
                <tagUsage gi="head" occurs="146981"/>
                <tagUsage gi="incident" occurs="76014"/>
                <tagUsage gi="kinesic" occurs="889812"/>
-               <tagUsage gi="note" occurs="7599072"/>
+               <tagUsage gi="note" occurs="7646954"/>
                <tagUsage gi="pb" occurs="160325"/>
-               <tagUsage gi="seg" occurs="18687056"/>
-               <tagUsage gi="text" occurs="43863"/>
+               <tagUsage gi="seg" occurs="18965267"/>
+               <tagUsage gi="text" occurs="44201"/>
                <tagUsage gi="time" occurs="349458"/>
-               <tagUsage gi="u" occurs="7623509"/>
+               <tagUsage gi="u" occurs="7662657"/>
                <tagUsage gi="vocal" occurs="421217"/>
                <tagUsage gi="body" occurs="1221" corresp="#ParlaMint-AT"/>
                <tagUsage gi="body" occurs="743" corresp="#ParlaMint-BA"/>
@@ -1473,6 +1537,7 @@
                <tagUsage gi="body" occurs="1317" corresp="#ParlaMint-EE"/>
                <tagUsage gi="body" occurs="283" corresp="#ParlaMint-ES-CT"/>
                <tagUsage gi="body" occurs="302" corresp="#ParlaMint-ES-GA"/>
+               <tagUsage gi="body" occurs="338" corresp="#ParlaMint-ES-PV"/>
                <tagUsage gi="body" occurs="450" corresp="#ParlaMint-ES"/>
                <tagUsage gi="body" occurs="962" corresp="#ParlaMint-FI"/>
                <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1541,6 +1606,7 @@
                <tagUsage gi="div" occurs="1317" corresp="#ParlaMint-EE"/>
                <tagUsage gi="div" occurs="283" corresp="#ParlaMint-ES-CT"/>
                <tagUsage gi="div" occurs="302" corresp="#ParlaMint-ES-GA"/>
+               <tagUsage gi="div" occurs="338" corresp="#ParlaMint-ES-PV"/>
                <tagUsage gi="div" occurs="2716" corresp="#ParlaMint-ES"/>
                <tagUsage gi="div" occurs="6806" corresp="#ParlaMint-FI"/>
                <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1673,6 +1739,7 @@
                <tagUsage gi="note" occurs="233814" corresp="#ParlaMint-EE"/>
                <tagUsage gi="note" occurs="67172" corresp="#ParlaMint-ES-CT"/>
                <tagUsage gi="note" occurs="91441" corresp="#ParlaMint-ES-GA"/>
+               <tagUsage gi="note" occurs="47882" corresp="#ParlaMint-ES-PV"/>
                <tagUsage gi="note" occurs="5886" corresp="#ParlaMint-ES"/>
                <tagUsage gi="note" occurs="10635" corresp="#ParlaMint-FI"/>
                <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1714,6 +1781,7 @@
                <tagUsage gi="seg" occurs="359685" corresp="#ParlaMint-EE"/>
                <tagUsage gi="seg" occurs="246012" corresp="#ParlaMint-ES-CT"/>
                <tagUsage gi="seg" occurs="333750" corresp="#ParlaMint-ES-GA"/>
+               <tagUsage gi="seg" occurs="278211" corresp="#ParlaMint-ES-PV"/>
                <tagUsage gi="seg" occurs="243994" corresp="#ParlaMint-ES"/>
                <tagUsage gi="seg" occurs="333174" corresp="#ParlaMint-FI"/>
                <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1751,6 +1819,7 @@
                <tagUsage gi="text" occurs="1317" corresp="#ParlaMint-EE"/>
                <tagUsage gi="text" occurs="283" corresp="#ParlaMint-ES-CT"/>
                <tagUsage gi="text" occurs="302" corresp="#ParlaMint-ES-GA"/>
+               <tagUsage gi="text" occurs="338" corresp="#ParlaMint-ES-PV"/>
                <tagUsage gi="text" occurs="450" corresp="#ParlaMint-ES"/>
                <tagUsage gi="text" occurs="962" corresp="#ParlaMint-FI"/>
                <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1791,6 +1860,7 @@
                <tagUsage gi="u" occurs="227872" corresp="#ParlaMint-EE"/>
                <tagUsage gi="u" occurs="50824" corresp="#ParlaMint-ES-CT"/>
                <tagUsage gi="u" occurs="83078" corresp="#ParlaMint-ES-GA"/>
+               <tagUsage gi="u" occurs="39148" corresp="#ParlaMint-ES-PV"/>
                <tagUsage gi="u" occurs="76369" corresp="#ParlaMint-ES"/>
                <tagUsage gi="u" occurs="146858" corresp="#ParlaMint-FI"/>
                <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1911,6 +1981,13 @@
                <name type="city">Santiago de Compostela</name>
                <name type="country" key="ES-GA">Galicia</name>
                <date from="2015-01-25" to="2022-05-25">25.01.2015 - 25.05.2022</date>
+            </setting>
+            <setting corresp="#ParlaMint-ES-PV">
+               <name type="org">Eusko Legebiltzarra</name>
+               <name type="address">Becerro de Bengoa kalea</name>
+               <name type="city">Vitoria-Gasteiz</name>
+               <name key="ES-PV" type="country">Basque Country, Spain</name>
+               <date from="2015-02-01" to="2022-07-01">2015eko otsailetik 2022eko uztailera</date>
             </setting>
             <setting corresp="#ParlaMint-ES">
                <name type="address">Calle Floridablanca, s/n. 28071</name>
@@ -2061,6 +2138,9 @@
                     target="#parla.uni"
                     corresp="#ParlaMint-ES-GA"/>
             <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
+                    target="#parla.uni"
+                    corresp="#ParlaMint-ES-PV"/>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
                     target="#parla.bi #parla.lower"
                     corresp="#ParlaMint-ES"/>
             <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
@@ -2186,6 +2266,17 @@
             <language ident="gl" xml:lang="gl">galego</language>
             <language ident="en" xml:lang="gl">inglés</language>
             <language ident="gl" xml:lang="en">Galician</language>
+            <language ident="en" xml:lang="en">English</language>
+         </langUsage>
+         <langUsage corresp="#ParlaMint-ES-PV">
+            <language ident="eu" xml:lang="eu">Euskara</language>
+            <language ident="es" xml:lang="eu">Gaztelania</language>
+            <language ident="en" xml:lang="eu">Ingelesa</language>
+            <language ident="eu" xml:lang="es">Euskera</language>
+            <language ident="es" xml:lang="es">Castellano</language>
+            <language ident="es" xml:lang="es">Inglés</language>
+            <language ident="eu" xml:lang="en">Basque</language>
+            <language ident="es" xml:lang="en">Spanish</language>
             <language ident="en" xml:lang="en">English</language>
          </langUsage>
          <langUsage corresp="#ParlaMint-ES">
@@ -2333,7 +2424,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-09-25">
+         <change when="2023-10-05">
             <name>Tomaž Erjavec</name>: Generate root</change>
       </revisionDesc>
    </teiHeader>
@@ -2355,6 +2446,8 @@
                href="ParlaMint-ES-CT.TEI/ParlaMint-ES-CT.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-ES-GA.TEI/ParlaMint-ES-GA.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-ES-PV.TEI/ParlaMint-ES-PV.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-ES.TEI/ParlaMint-ES.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"

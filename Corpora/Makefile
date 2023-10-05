@@ -10,9 +10,12 @@
 # CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
 # Partial runs:
-#CORPORA = AT BA BE BG CZ DK ES-CT
-CORPORA = EE ES
-#NEXT: DK!!!!
+#DONE:
+#CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA FI
+#DOING:
+#CORPORA = FR GB GR HR
+#NEXT:
+CORPORA = ES-PV
 
 ######## MTed CORPORA FOR V 4.0
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en

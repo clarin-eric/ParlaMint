@@ -2,9 +2,9 @@
 
 cp_all:	cp_readmes cp_regis
 
-README_CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+README_CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 REGIST_VERSION = 40
-REGIST_CORPORA = at ba be bg cz dk ee es es_ct es_ga fi fr gb gr hr hu is it lv nl no pl pt rs se si tr ua
+REGIST_CORPORA = at ba be bg cz dk ee es es_ct es_ga es_pv fi fr gb gr hr hu is it lv nl no pl pt rs se si tr ua
 
 # Main readmes from Data/, store here and rename
 cp_readmes:
