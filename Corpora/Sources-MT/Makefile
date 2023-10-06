@@ -1,11 +1,11 @@
 ###### Copy (and fix) original conllu files to Source-MT directory for 1 corpus
-CORPUS = FI
+CORPUS = ES-CT
 test1:
 	../bin/cp-conllu.pl validate '-' 'Temp/ParlaMint-${CORPUS}.conllu.translated' Temp/tmp
 
 cp-mt:	cp-mt-notes cp-mt-conllu
 cp-mt-conllu:
-	../bin/cp-conllu.pl validate '' '/home/taja/ParlaMint-${CORPUS}.conllu.translated' .
+	../bin/cp-conllu.pl novalidate '' '/home/taja/ParlaMint-${CORPUS}.conllu.translated' .
 cp-mt-conllu-add:
 	#../bin/cp-conllu.pl novalidate '' '/home/taja/ParlaMint-${CORPUS}.conllu.translated' .
 	../bin/cp-conllu.pl validate '' '/home/taja/ParlaMint-${CORPUS}.conllu.translated.additional' .
