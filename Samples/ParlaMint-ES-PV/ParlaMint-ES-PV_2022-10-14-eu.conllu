@@ -1,0 +1,240 @@
+# newdoc id = ParlaMint-ES-PV_2022-10-14.u0
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg2
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg2.s1
+# text = Egun on guztioi.
+1	Egun	egun	NOUN	NOUN	_	0	root	_	NER=O
+2	on	on	ADJ	ADJ	_	1	amod	_	NER=O
+3	guztioi	guzti	NUM	NUM	NumType=Card	1	det	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg2.s2
+# text = Osoko bilkurari hasiera emango diogu.
+1	Osoko	osoko	ADJ	ADJ	_	2	amod	_	NER=O
+2	bilkurari	bilkura	NOUN	NOUN	_	3	nmod	_	NER=O
+3	hasiera	hasiera	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	4	obj	_	NER=O
+4	emango	eman	VERB	VERB	Aspect=Prosp|VerbForm=Part	0	root	_	NER=O
+5	diogu	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Plur|Person[abs]=3|Person[dat]=3|Person[erg]=1	4	aux	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	4	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg3
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg3.s1
+# text = Gai-zerrendako lehenengo puntua:
+1	Gai-zerrendako	Gai-zerrenda	PROPN	PROPN	Case=Loc|Definite=Def|Number=Sing	3	nmod	_	NER=B-ORG
+2	lehenengo	lehenengo	NUM	NUM	NumType=Ord	3	det	_	NER=O
+3	puntua	puntu	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+4	:	:	PUNCT	PUNCT	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg3.s2
+# text = "Galdera, Jon Andoni Atutxa Sainz Euzko Abertzaleak taldeko legebiltzarkideak lehenengo lehendakariorde eta Segurtasuneko sailburuari egina, Ertzaintzak ziberdelinkuentziaren fenomeno gero eta handiagoari aurre egiteko aurreikusi dituen jarduerei buruz".
+1	"	"	PUNCT	PUNCT	_	17	punct	_	NER=O|SpaceAfter=No
+2	Galdera	galdera	NUM	NUM	Case=Abs|Definite=Ind|NumType=Card	17	obl	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	17	punct	_	NER=O
+4	Jon	Jon	PROPN	PROPN	_	9	nmod	_	NER=B-PER
+5	Andoni	Andoni	PROPN	PROPN	_	4	flat	_	NER=I-PER
+6	Atutxa	Atutxa	PROPN	PROPN	_	5	flat	_	NER=I-PER
+7	Sainz	Sainz	PROPN	PROPN	_	6	flat	_	NER=I-PER
+8	Euzko	Eutz	PROPN	PROPN	Case=Loc|Definite=Def|Number=Sing	7	flat	_	NER=B-ORG
+9	Abertzaleak	abertzale	NOUN	NOUN	Case=Abs|Definite=Def|Number=Plur	17	nsubj	_	NER=I-ORG
+10	taldeko	talde	NOUN	NOUN	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	11	nmod	_	NER=O
+11	legebiltzarkideak	legebiltzarkide	NOUN	NOUN	Case=Abs|Definite=Def|Number=Plur	17	obj	_	NER=O
+12	lehenengo	lehenengo	NUM	NUM	NumType=Ord	13	amod	_	NER=O
+13	lehendakariorde	lehendakariorde	NOUN	NOUN	_	17	iobj	_	NER=O
+14	eta	eta	CCONJ	CCONJ	_	16	cc	_	NER=O
+15	Segurtasuneko	Segurtasune	NOUN	NOUN	Case=Loc|Definite=Def|Number=Sing	16	nmod	_	NER=B-ORG
+16	sailburuari	sailburu	NOUN	NOUN	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	13	conj	_	NER=O
+17	egina	egin	VERB	VERB	Case=Abs|Definite=Def|Number=Sing|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	17	punct	_	NER=O
+19	Ertzaintzak	Ertzaintza	PROPN	PROPN	Case=Erg|Definite=Def|Number=Sing	22	nsubj	_	NER=B-ORG
+20	ziberdelinkuentziaren	ziberdelinkuentzi	NOUN	NOUN	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	22	nmod	_	NER=O
+21	fenomeno	fenomeno	NOUN	NOUN	_	22	nmod	_	NER=O
+22	gero	gero	ADV	ADV	_	17	advcl	_	NER=O
+23	eta	eta	CCONJ	CCONJ	_	27	cc	_	NER=O
+24	handiagoari	handiago	ADJ	ADJ	Case=Dat	26	obl	_	NER=O
+25	aurre	aurre	NOUN	NOUN	_	26	compound	_	NER=O
+26	egiteko	egin	VERB	VERB	Case=Abs|Definite=Ind	27	advcl	_	NER=O
+27	aurreikusi	aurreikusi	VERB	VERB	Aspect=Perf|VerbForm=Part	22	conj	_	NER=O
+28	dituen	*edun	AUX	AUX	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	27	aux	_	NER=O
+29	jarduerei	jarduera	NOUN	NOUN	Case=Dat	27	obl	_	NER=O
+30	buruz	buruz	ADP	ADP	Definite=Def|Number=Sing	29	case	_	NER=O|SpaceAfter=No
+31	"	"	PUNCT	PUNCT	_	27	punct	_	NER=O|SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	17	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg4
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg4.s1
+# text = Atutxa jauna, zurea da hitza.
+1	Atutxa	Atutxa	PROPN	PROPN	_	2	nmod	_	NER=O
+2	jauna	jaun	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	4	nsubj	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	NER=O
+4	zurea	zure	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	nsubj	_	NER=O
+5	da	izan	AUX	AUX	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	6	cop	_	NER=O
+6	hitza	hitz	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	6	punct	_	NER=O
+
+# newdoc id = ParlaMint-ES-PV_2022-10-14.u1
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg5
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg5.s1
+# text = Eskerrik asko, legebiltzarburu andrea.
+1	Eskerrik	Esker	NOUN	NOUN	_	0	root	_	NER=O
+2	asko	asko	DET	DET	Case=Abs|Definite=Ind	1	det	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	NER=O
+4	legebiltzarburu	legebiltzarburu	NOUN	NOUN	_	5	nmod	_	NER=O
+5	andrea	andre	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	1	conj	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg5.s2
+# text = Lehendakari, sailburuak, legebiltzarkideok, egun on.
+1	Lehendakari	lehendakari	NOUN	NOUN	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	3	punct	_	NER=O
+3	sailburuak	sailburu	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	1	conj	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	5	punct	_	NER=O
+5	legebiltzarkideok	legebiltzarkide	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	1	conj	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	7	punct	_	NER=O
+7	egun	egun	NOUN	NOUN	_	1	conj	_	NER=O
+8	on	on	ADJ	ADJ	Case=Abs|Definite=Ind	7	amod	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	7	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg7
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg7.s1
+# text = Delitu informatikoak ez dira berriak, baina azken urteotan etengabe ari dira hazten.
+1	Delitu	delitu	NOUN	NOUN	_	5	nsubj	_	NER=O
+2	informatikoak	informatiko	ADJ	ADJ	Case=Abs|Definite=Def|Number=Plur	1	amod	_	NER=O
+3	ez	ez	PART	PART	Polarity=Neg	5	advmod	_	NER=O
+4	dira	izan	AUX	AUX	Mood=Ind|Number[abs]=Plur|Person[abs]=3	5	aux	_	NER=O
+5	berriak	berri	ADJ	ADJ	Case=Abs|Definite=Def|Number=Plur	0	root	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	12	punct	_	NER=O
+7	baina	baina	CCONJ	CCONJ	_	12	cc	_	NER=O
+8	azken	azken	NUM	NUM	NumType=Ord	9	amod	_	NER=O
+9	urteotan	urte	NOUN	NOUN	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	12	obl	_	NER=O
+10	etengabe	etengabe	ADV	ADV	_	12	advmod	_	NER=O
+11	ari	ari	AUX	AUX	_	12	aux	_	NER=O
+12	dira	izan	VERB	VERB	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	5	conj	_	NER=O
+13	hazten	hazi	VERB	VERB	Case=Ine	12	advcl	_	NER=O|SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	5	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg8
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg8.s1
+# text = Erkoreka jauna, zuk zeuk adierazi zenuen bezala, gero eta ingurune digitalizatuagoan gaude, gero eta ingurune digitalizatuagoan bizi eta mugitzen garen heinean, delitua ere digitalizatu egiten da.
+1	Erkoreka	Erkoreka	NOUN	NOUN	_	2	nmod	_	NER=O
+2	jauna	jaun	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	6	punct	_	NER=O
+4	zuk	zu	PRON	PRON	PronType=Prs	5	nmod	_	NER=O
+5	zeuk	zeu	PRON	PRON	Case=Erg|Definite=Def|Number=Sing|Person=2	6	nsubj	_	NER=O
+6	adierazi	adierazi	VERB	VERB	Voice=Cau	2	conj	_	NER=O
+7	zenuen	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=2	6	aux	_	NER=O
+8	bezala	bezala	ADV	ADV	_	6	advcl	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	2	punct	_	NER=O
+10	gero	gero	ADV	ADV	_	6	advmod	_	NER=O
+11	eta	eta	CCONJ	CCONJ	_	14	cc	_	NER=O
+12	ingurune	inguru	PRON	PRON	PronType=Prs	13	nmod	_	NER=O
+13	digitalizatuagoan	digitalizatuago	NOUN	NOUN	Case=Ine|Definite=Def|Number=Sing	14	obl	_	NER=O
+14	gaude	egon	VERB	VERB	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=1	6	conj	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	28	punct	_	NER=O
+16	gero	gero	ADV	ADV	_	6	advmod	_	NER=O
+17	eta	eta	CCONJ	CCONJ	_	28	cc	_	NER=O
+18	ingurune	inguru	NOUN	NOUN	_	19	nmod	_	NER=O
+19	digitalizatuagoan	digitalizatuago	NOUN	NOUN	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	28	obl	_	NER=O
+20	bizi	bizi	ADJ	ADJ	Case=Abs|Definite=Ind	24	compound	_	NER=O
+21	eta	eta	CCONJ	CCONJ	_	22	cc	_	NER=O
+22	mugitzen	mugitu	VERB	VERB	Aspect=Imp|VerbForm=Inf	20	conj	_	NER=O
+23	garen	izan	AUX	AUX	Mood=Ind|Number[abs]=Plur|Person[abs]=1	22	aux	_	NER=O
+24	heinean	heine	NOUN	NOUN	Case=Ine|Definite=Def|Number=Sing	28	obl	_	NER=O|SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	28	punct	_	NER=O
+26	delitua	delitu	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	28	nsubj	_	NER=O
+27	ere	ere	CCONJ	CCONJ	_	28	advmod	_	NER=O
+28	digitalizatu	digitalizatu	VERB	VERB	VerbForm=Part	6	conj	_	NER=O
+29	egiten	egin	VERB	VERB	Aspect=Imp|VerbForm=Inf	28	aux	_	NER=O
+30	da	izan	AUX	AUX	Mood=Ind|Number[abs]=Sing|Person[abs]=3	28	aux	_	NER=O|SpaceAfter=No
+31	.	.	PUNCT	PUNCT	_	2	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg9
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg9.s1
+# text = Erkoreka jauna, egoera horren aurrean, zer jarduketa egiteko asmoa du Ertzaintzak ziberdelinkuentziaren fenomeno gero eta handiagoari aurre egiteko.
+1	Erkoreka	Erkoreka	NOUN	NOUN	_	2	nmod	_	NER=O
+2	jauna	jaun	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	12	nsubj	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	12	punct	_	NER=O
+4	egoera	egoera	NOUN	NOUN	_	12	obl	_	NER=O
+5	horren	hori	DET	DET	Case=Gen|Definite=Def|Number=Sing	4	det	_	NER=O
+6	aurrean	aurre	ADP	ADP	Case=Ine|Definite=Def|Number=Plur	5	case	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	12	punct	_	NER=O
+8	zer	zer	DET	DET	Case=Abs|Definite=Ind	10	obj	_	NER=O
+9	jarduketa	jarduketa	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	10	obj	_	NER=O
+10	egiteko	egin	VERB	VERB	Case=Loc	12	advcl	_	NER=O
+11	asmoa	asmo	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	12	obj	_	NER=O
+12	du	ukan	VERB	VERB	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	0	root	_	NER=O
+13	Ertzaintzak	Ertzaintza	PROPN	PROPN	Case=Erg|Definite=Def|Number=Sing	12	nsubj	_	NER=B-ORG
+14	ziberdelinkuentziaren	ziberdelinkuentzi	NOUN	NOUN	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	15	nmod	_	NER=O
+15	fenomeno	fenomeno	NOUN	NOUN	_	16	nmod	_	NER=O
+16	gero	gero	ADV	ADV	_	12	advmod	_	NER=O
+17	eta	eta	CCONJ	CCONJ	_	20	cc	_	NER=O
+18	handiagoari	handiago	ADJ	ADJ	Case=Dat	20	obl	_	NER=O
+19	aurre	aurre	NOUN	NOUN	_	20	compound	_	NER=O
+20	egiteko	egin	VERB	VERB	Case=Abs|Definite=Ind	12	conj	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	12	punct	_	NER=O|SpaceAfter=No
+
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg9.s2
+# text = ?
+1	?	?	PUNCT	PUNCT	_	0	root	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg10
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg10.s1
+# text = Eskerrik asko.
+1	Eskerrik	Esker	NOUN	NOUN	_	0	root	_	NER=O
+2	asko	asko	DET	DET	Case=Abs|Definite=Ind	1	det	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-ES-PV_2022-10-14.u135
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg697
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg697.s1
+# text = Eskerrik asko.
+1	Eskerrik	Esker	NOUN	NOUN	_	0	root	_	NER=O
+2	asko	asko	DET	DET	Case=Abs|Definite=Ind	1	det	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-ES-PV_2022-10-14.u136
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg698
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg698.s1
+# text = Eskerrik asko, Zupiria jauna.
+1	Eskerrik	Esker	NOUN	NOUN	_	5	nmod	_	NER=O
+2	asko	asko	DET	DET	Case=Abs|Definite=Ind	1	det	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	NER=O
+4	Zupiria	Zupiria	PROPN	PROPN	_	1	conj	_	NER=O
+5	jauna	jaun	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	5	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg699
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg699.s1
+# text = Gai-zerrenda agortu dugunez, osoko bilkurari amaiera ematen diot.
+1	Gai-zerrenda	Gai-zerrenda	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	2	obj	_	NER=O
+2	agortu	agortu	VERB	VERB	Aspect=Perf|VerbForm=Part	8	advcl	_	NER=O
+3	dugunez	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	2	aux	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	2	punct	_	NER=O
+5	osoko	osoko	ADJ	ADJ	_	6	amod	_	NER=O
+6	bilkurari	bilkura	NOUN	NOUN	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	8	iobj	_	NER=O
+7	amaiera	amaiera	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	8	obj	_	NER=O
+8	ematen	eman	VERB	VERB	Aspect=Imp|VerbForm=Inf	0	root	_	NER=O
+9	diot	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Sing|Person[abs]=3|Person[dat]=3|Person[erg]=1	8	aux	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	8	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg699.s2
+# text = Goizeko ordu bata eta zazpian amaitu da bilkura.
+1	Goizeko	goiz	NOUN	NOUN	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	2	nmod	_	NER=O
+2	ordu	ordu	NOUN	NOUN	_	6	obl	_	NER=O
+3	bata	bat	NUM	NUM	NumType=Card	2	nummod	_	NER=O
+4	eta	eta	CCONJ	CCONJ	_	5	cc	_	NER=O
+5	zazpian	zazpi	NOUN	NOUN	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	3	conj	_	NER=O
+6	amaitu	amaitu	VERB	VERB	Aspect=Perf|VerbForm=Part	0	root	_	NER=O
+7	da	izan	AUX	AUX	Mood=Ind|Number[abs]=Sing|Person[abs]=3	6	aux	_	NER=O
+8	bilkura	bilkura	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	nsubj	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	6	punct	_	NER=O
+
