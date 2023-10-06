@@ -1,0 +1,353 @@
+# newdoc id = ParlaMint-ES-PV_2019-12-20.u0
+# newpar id = ParlaMint-ES-PV_2019-12-20.seg1
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg1.s1
+# text = Egun on guztioi.
+1	Egun	egun	NOUN	NOUN	_	0	root	_	NER=O
+2	on	on	ADJ	ADJ	_	1	amod	_	NER=O
+3	guztioi	guzti	NUM	NUM	NumType=Card	1	det	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg1.s2
+# text = Osoko bilkurari hasiera emango diogu.
+1	Osoko	osoko	ADJ	ADJ	_	2	amod	_	NER=O
+2	bilkurari	bilkura	NOUN	NOUN	_	3	nmod	_	NER=O
+3	hasiera	hasiera	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	4	obj	_	NER=O
+4	emango	eman	VERB	VERB	Aspect=Prosp|VerbForm=Part	0	root	_	NER=O
+5	diogu	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Plur|Person[abs]=3|Person[dat]=3|Person[erg]=1	4	aux	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	4	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2019-12-20.seg2
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg2.s1
+# text = Aldez aurreko gaia:
+1	Aldez	alde	NOUN	NOUN	Case=Ins|Definite=Ind	3	nmod	_	NER=O
+2	aurreko	aurre	ADP	ADP	Case=Loc|Definite=Def|Number=Sing	1	case	_	NER=O
+3	gaia	gai	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+4	:	:	PUNCT	PUNCT	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg2.s2
+# text = "Mozioa, Nerea Kortajarena Ibañez EH Bildu taldeko legebiltzarkideak aurkeztua, EAEn gizarte-kohesioan ematen ari den atzerakadari buruz.
+1	"	"	PUNCT	PUNCT	_	8	punct	_	NER=O|SpaceAfter=No
+2	Mozioa	mozio	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	8	nsubj	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	8	punct	_	NER=O
+4	Nerea	Nerea	PROPN	PROPN	_	5	nmod	_	NER=B-PER
+5	Kortajarena	Kortajarena	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	8	nsubj	_	NER=I-PER
+6	Ibañez	Ibañez	PROPN	PROPN	_	8	obj	_	NER=I-PER
+7	EH	EH	PROPN	PROPN	Case=Abs|Definite=Def|Number=Sing	6	flat	_	NER=B-ORG
+8	Bildu	bildu	VERB	VERB	Aspect=Perf|VerbForm=Part	0	root	_	NER=I-ORG
+9	taldeko	talde	NOUN	NOUN	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	10	nmod	_	NER=O
+10	legebiltzarkideak	legebiltzarkide	NOUN	NOUN	Case=Abs|Definite=Def|Number=Plur	11	obj	_	NER=O
+11	aurkeztua	aurkeztu	VERB	VERB	Case=Abs|Definite=Def|Number=Sing|VerbForm=Part	8	advcl	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	8	punct	_	NER=O
+13	EAEn	EAE	PROPN	PROPN	Case=Ine|Definite=Def|Number=Sing	15	obl	_	NER=B-LOC
+14	gizarte-kohesioan	gizarte-kohesio	NOUN	NOUN	Case=Ine|Definite=Def|Number=Sing	15	obl	_	NER=O
+15	ematen	eman	VERB	VERB	Case=Ine	17	advcl	_	NER=O
+16	ari	ari	AUX	AUX	_	17	aux	_	NER=O
+17	den	izan	VERB	VERB	_	8	advcl	_	NER=O
+18	atzerakadari	atzerakada	PROPN	PROPN	Case=Dat	17	obl	_	NER=O
+19	buruz	buruz	ADP	ADP	Definite=Def|Number=Sing	18	case	_	NER=O|SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	8	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg2.s3
+# text = Mozioari dagokionez, behin betiko ebaztea abenduaren 12ko osoko bilkurako bozketan izandako berdinketak, Erregelamenduaren 92.1 artikuluak adierazitakoari jarraituz".
+1	Mozioari	Mozio	NOUN	NOUN	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	2	iobj	_	NER=O
+2	dagokionez	egon	VERB	VERB	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Person[abs]=3|Person[dat]=3	6	advcl	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	6	punct	_	NER=O
+4	behin	behin	ADV	ADV	_	6	advmod	_	NER=O
+5	betiko	betiko	ADV	ADV	_	4	fixed	_	NER=O
+6	ebaztea	ebaztu	VERB	VERB	Case=Abs	19	xcomp	_	NER=O
+7	abenduaren	abendu	NOUN	NOUN	Case=Gen|Definite=Def|Number=Sing	8	nmod	_	NER=O
+8	12ko	12	NUM	NUM	NumType=Card	12	obl	_	NER=O
+9	osoko	osoko	ADJ	ADJ	_	10	amod	_	NER=O
+10	bilkurako	bilkura	NOUN	NOUN	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	11	nmod	_	NER=O
+11	bozketan	bozketa	NOUN	NOUN	Case=Ine|Definite=Def|Number=Sing	12	obl	_	NER=O
+12	izandako	izan	VERB	VERB	Case=Loc|VerbForm=Part	13	advcl	_	NER=O
+13	berdinketak	berdinketa	NOUN	NOUN	Case=Abs|Definite=Ind	19	obl	_	NER=O|SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	19	punct	_	NER=O
+15	Erregelamenduaren	Erregelamendua	NOUN	NOUN	_	17	nmod	_	NER=B-MISC
+16	92.1	92.1	NUM	NUM	NumType=Card	15	nummod	_	NER=O
+17	artikuluak	artikulu	NOUN	NOUN	Animacy=Anim|Case=Abs|Definite=Def|Number=Plur	19	obj	_	NER=O
+18	adierazitakoari	adierazitako	NOUN	NOUN	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	19	iobj	_	NER=O
+19	jarraituz	jarraitu	VERB	VERB	Case=Ins|Definite=Ind|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+20	"	"	PUNCT	PUNCT	_	19	punct	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	19	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2019-12-20.seg3
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg3.s1
+# text = Berdinketa izan zen Euzko Abertzaleak eta Euskal Sozialistak taldeek batera aurkeztutako osoko zuzenketaren bozketan.
+1	Berdinketa	berdinketa	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	5	nsubj	_	NER=O
+2	izan	izan	AUX	AUX	Aspect=Perf|VerbForm=Part	5	cop	_	NER=O
+3	zen	izan	AUX	AUX	Mood=Ind|Number[abs]=Sing|Person[abs]=3	2	aux	_	NER=O
+4	Euzko	Eutz	PROPN	PROPN	Case=Loc|Definite=Def|Number=Sing	5	nmod	_	NER=B-ORG
+5	Abertzaleak	abertzale	NOUN	NOUN	Case=Abs|Definite=Def|Number=Plur	0	root	_	NER=I-ORG
+6	eta	eta	CCONJ	CCONJ	_	14	cc	_	NER=O
+7	Euskal	euskal	NOUN	NOUN	_	14	nsubj	_	NER=B-ORG
+8	Sozialistak	sozialista	ADJ	ADJ	Case=Erg|Definite=Def|Number=Sing	7	amod	_	NER=I-ORG
+9	taldeek	talde	NOUN	NOUN	Animacy=Inan|Case=Erg|Definite=Def|Number=Plur	11	nsubj	_	NER=O
+10	batera	bat	NUM	NUM	NumType=Card	11	obl	_	NER=O
+11	aurkeztutako	aurkeztu	VERB	VERB	Case=Loc|VerbForm=Part	14	advcl	_	NER=O
+12	osoko	osoko	ADJ	ADJ	Case=Loc|Definite=Def|Number=Sing	13	nmod	_	NER=O
+13	zuzenketaren	zuzenketa	NOUN	NOUN	Case=Gen|Definite=Def|Number=Sing	14	nmod	_	NER=O
+14	bozketan	bozketa	NOUN	NOUN	Case=Ine|Definite=Def|Number=Sing	5	conj	_	NER=O|SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	14	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg3.s2
+# text = Erregelamenduaren 92.1 artikuluari jarraituz, berriro egin behar dugu zuzenketa horren bozketa.
+1	Erregelamenduaren	Erregelamendu	NOUN	NOUN	Case=Gen|Definite=Def|Number=Sing	3	nmod	_	NER=B-MISC
+2	92.1	92.1	NUM	NUM	NumType=Card	3	nummod	_	NER=O
+3	artikuluari	artikulu	NOUN	NOUN	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	4	iobj	_	NER=O
+4	jarraituz	jarraitu	VERB	VERB	Case=Ins|Definite=Ind|VerbForm=Part	9	advcl	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	9	punct	_	NER=O
+6	berriro	berriro	ADV	ADV	_	7	advmod	_	NER=O
+7	egin	egin	VERB	VERB	VerbForm=Part	9	xcomp	_	NER=O
+8	behar	behar	NOUN	NOUN	Case=Abs|Definite=Ind	9	compound	_	NER=O
+9	dugu	ukan	VERB	VERB	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	0	root	_	NER=O
+10	zuzenketa	zuzenketa	NOUN	NOUN	_	12	nmod	_	NER=O
+11	horren	hori	DET	DET	Case=Gen|Definite=Def|Number=Sing	10	det	_	NER=O
+12	bozketa	bozketa	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	9	obj	_	NER=O|SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	9	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2019-12-20.seg4
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg4.s1
+# text = Mesedez, begiratu dena ondo dagoela hasi baino lehen.
+1	Mesedez	mesedez	PROPN	PROPN	Case=Abs|Definite=Def|Number=Sing	3	nsubj	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	3	punct	_	NER=O
+3	begiratu	begiratu	VERB	VERB	Aspect=Perf|VerbForm=Part	0	root	_	NER=O
+4	dena	izan	AUX	AUX	Case=Abs|Definite=Def|Mood=Ind|Number=Sing|Number[abs]=Sing|Person[abs]=3	3	aux	_	NER=O
+5	ondo	ondo	ADV	ADV	_	6	advmod	_	NER=O
+6	dagoela	egon	VERB	VERB	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	7	ccomp	_	NER=O
+7	hasi	hasi	VERB	VERB	VerbForm=Part	3	advcl	_	NER=O
+8	baino	baino	X	X	_	7	advcl	_	NER=O
+9	lehen	lehen	ADV	ADV	_	7	advmod	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg4.s2
+# text = Bozkatu dezakegu, orduan.
+1	Bozkatu	bozkatu	VERB	VERB	Aspect=Perf|VerbForm=Part	0	root	_	NER=O
+2	dezakegu	*ezan	AUX	AUX	Mood=Pot|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	1	aux	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	1	punct	_	NER=O
+4	orduan	orduan	ADV	ADV	_	1	advmod	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2019-12-20.seg5
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg5.s1
+# text = Bozketa eginda, hauxe izan da emaitza:
+1	Bozketa	bozketa	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	2	obj	_	NER=O
+2	eginda	egin	VERB	VERB	VerbForm=Part	5	advcl	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	NER=O
+4	hauxe	hauxe	DET	DET	Case=Abs|Definite=Def|Number=Sing	5	nsubj	_	NER=O
+5	izan	izan	VERB	VERB	Aspect=Perf|VerbForm=Part	0	root	_	NER=O
+6	da	izan	AUX	AUX	Mood=Ind|Number[abs]=Sing|Person[abs]=3	5	aux	_	NER=O
+7	emaitza	emaitza	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	5	nsubj	_	NER=O|SpaceAfter=No
+8	:	:	PUNCT	PUNCT	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg5.s2
+# text = emandako botoak, 72; aldekoak, 36; aurkakoak, 36; abstentzioak, 0.
+1	emandako	eman	VERB	VERB	Case=Loc|VerbForm=Part	2	advcl	_	NER=O
+2	botoak	boto	NOUN	NOUN	Case=Abs|Definite=Def|Number=Plur	0	root	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	NER=O
+4	72	72	NUM	NUM	NumType=Card	2	conj	_	NER=O|SpaceAfter=No
+5	;	;	PUNCT	PUNCT	_	6	punct	_	NER=O
+6	aldekoak	aldeko	NOUN	NOUN	Animacy=Anim|Case=Abs|Definite=Def|Number=Plur	2	conj	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	8	punct	_	NER=O
+8	36	36	NUM	NUM	NumType=Card	2	conj	_	NER=O|SpaceAfter=No
+9	;	;	PUNCT	PUNCT	_	10	punct	_	NER=O
+10	aurkakoak	aurkako	NOUN	NOUN	Case=Abs|Definite=Def|Number=Plur	2	conj	_	NER=O|SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	12	punct	_	NER=O
+12	36	36	NUM	NUM	NumType=Card	2	conj	_	NER=O|SpaceAfter=No
+13	;	;	PUNCT	PUNCT	_	14	punct	_	NER=O
+14	abstentzioak	abstentzio	NOUN	NOUN	Case=Abs|Definite=Def|Number=Plur	2	conj	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	16	punct	_	NER=O
+16	0.	0.	NUM	NUM	NumType=Card	2	conj	_	NER=O
+
+# newdoc id = ParlaMint-ES-PV_2019-12-20.u1
+# newpar id = ParlaMint-ES-PV_2019-12-20.seg6
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg6.s1
+# text = Beraz, berdinketa dagoenez, bertan behera geratzen da osoko zuzenketa.
+1	Beraz	beraz	CCONJ	CCONJ	_	8	advmod	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	8	punct	_	NER=O
+3	berdinketa	berdinketa	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	4	obj	_	NER=O
+4	dagoenez	egon	VERB	VERB	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	8	advcl	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	8	punct	_	NER=O
+6	bertan	bertan	ADV	ADV	_	8	advmod	_	NER=O
+7	behera	behe	NOUN	NOUN	Case=All|Definite=Def|Number=Sing	8	obl	_	NER=O
+8	geratzen	geratu	VERB	VERB	Aspect=Imp|VerbForm=Inf	0	root	_	NER=O
+9	da	izan	AUX	AUX	Mood=Ind|Number[abs]=Sing|Person[abs]=3	8	aux	_	NER=O
+10	osoko	osoko	ADJ	ADJ	_	11	amod	_	NER=O
+11	zuzenketa	zuzenketa	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	8	nsubj	_	NER=O|SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	8	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2019-12-20.seg7
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg7.s1
+# text = Gai-zerrendako lehenengo puntua:
+1	Gai-zerrendako	Gai-zerrenda	PROPN	PROPN	Case=Loc|Definite=Def|Number=Sing	3	nmod	_	NER=B-ORG
+2	lehenengo	lehenengo	NUM	NUM	NumType=Ord	3	det	_	NER=O
+3	puntua	puntu	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+4	:	:	PUNCT	PUNCT	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg7.s2
+# text = "Lan eta Justizia Batzordearen irizpena, Euskadiko kooperatiben lege-proiektuaren gainean egindakoa.
+1	"	"	PUNCT	PUNCT	_	12	punct	_	NER=O|SpaceAfter=No
+2	Lan	lan	NOUN	NOUN	_	12	obl	_	NER=B-ORG
+3	eta	eta	CCONJ	CCONJ	_	6	cc	_	NER=I-ORG
+4	Justizia	justizia	NOUN	NOUN	_	5	nmod	_	NER=I-ORG
+5	Batzordearen	batzorde	NOUN	NOUN	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	6	nmod	_	NER=I-ORG
+6	irizpena	irizpen	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	2	conj	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	12	punct	_	NER=O
+8	Euskadiko	Euskadi	PROPN	PROPN	Case=Loc|Definite=Def|Number=Sing	9	nmod	_	NER=B-LOC
+9	kooperatiben	kooperatiba	NOUN	NOUN	Case=Gen	11	nmod	_	NER=O
+10	lege-proiektuaren	lege-proiektu	NOUN	NOUN	Case=Gen	12	obl	_	NER=O
+11	gainean	gain	ADP	ADP	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	10	case	_	NER=O
+12	egindakoa	egin	VERB	VERB	Case=Abs|Definite=Def|Number=Sing|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	12	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg7.s3
+# text = Eztabaida eta behin betiko ebazpena".
+1	Eztabaida	eztabaida	ADV	ADV	_	0	root	_	NER=O
+2	eta	eta	CCONJ	CCONJ	_	5	cc	_	NER=O
+3	behin	behin	ADV	ADV	_	4	advmod	_	NER=O
+4	betiko	betiko	ADJ	ADJ	_	5	amod	_	NER=O
+5	ebazpena	ebazpen	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	1	conj	_	NER=O|SpaceAfter=No
+6	"	"	PUNCT	PUNCT	_	7	punct	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2019-12-20.seg8
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg8.s1
+# text = Jaurlaritzaren ordezkaria den San José andreak dauka hitza, lege-proiektu hau aurkezteko.
+1	Jaurlaritzaren	jaurlaritza	NOUN	NOUN	Case=Gen|Definite=Def|Number=Sing	2	nmod	_	NER=B-ORG
+2	ordezkaria	ordezkari	NOUN	NOUN	Animacy=Anim|Case=Abs|Definite=Def|Number=Sing	7	advcl	_	NER=O
+3	den	izan	AUX	AUX	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	2	cop	_	NER=O
+4	San	san	NOUN	NOUN	_	5	compound	_	NER=B-PER
+5	José	José	NOUN	NOUN	_	6	nmod	_	NER=I-PER
+6	andreak	andre	NOUN	NOUN	Animacy=Anim|Case=Erg|Definite=Def|Number=Sing	7	nsubj	_	NER=O
+7	dauka	eduki	VERB	VERB	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	0	root	_	NER=O
+8	hitza	hitz	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	7	obj	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	7	punct	_	NER=O
+10	lege-proiektu	lege-proiektu	NOUN	NOUN	_	12	obj	_	NER=O
+11	hau	hau	DET	DET	Case=Abs|Definite=Def|Number=Sing	10	det	_	NER=O
+12	aurkezteko	aurkeztu	VERB	VERB	Case=Abs|Definite=Ind	7	advcl	_	NER=O|SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	7	punct	_	NER=O
+
+# newdoc id = ParlaMint-ES-PV_2019-12-20.u97
+# newpar id = ParlaMint-ES-PV_2019-12-20.seg682
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg682.s1
+# text = Beraz, ez da onartu jatorrizko testua.
+1	Beraz	beraz	CCONJ	CCONJ	_	5	advmod	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	5	punct	_	NER=O
+3	ez	ez	PART	PART	Polarity=Neg	5	advmod	_	NER=O
+4	da	izan	AUX	AUX	Mood=Ind|Number[abs]=Sing|Person[abs]=3	5	aux	_	NER=O
+5	onartu	onartu	VERB	VERB	Aspect=Perf|VerbForm=Part	0	root	_	NER=O
+6	jatorrizko	jatorrizko	ADJ	ADJ	_	7	amod	_	NER=O
+7	testua	testu	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	5	obj	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	5	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2019-12-20.seg683
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg683.s1
+# text = Jarraian, Elkarrekin Podemos taldearen osoko zuzenketa bozkatuko dugu.
+1	Jarraian	jarraian	ADV	ADV	_	8	advmod	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	8	punct	_	NER=O
+3	Elkarrekin	elkar	PROPN	PROPN	Case=Com|Definite=Def|Number=Sing	8	obl	_	NER=B-ORG
+4	Podemos	Podemos	PROPN	PROPN	_	5	nmod	_	NER=I-ORG
+5	taldearen	talde	NOUN	NOUN	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	7	nmod	_	NER=O
+6	osoko	osoko	ADJ	ADJ	Case=Loc|Definite=Def|Number=Sing	7	nmod	_	NER=O
+7	zuzenketa	zuzenketa	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	8	obj	_	NER=O
+8	bozkatuko	bozkatu	VERB	VERB	Aspect=Prosp|VerbForm=Part	0	root	_	NER=O
+9	dugu	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	8	aux	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	8	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg683.s2
+# text = Bozkatu dezakegu.
+1	Bozkatu	bozkatu	VERB	VERB	Aspect=Perf|VerbForm=Part	0	root	_	NER=O
+2	dezakegu	*ezan	AUX	AUX	Mood=Pot|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	1	aux	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2019-12-20.seg684
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg684.s1
+# text = Botazioa eginda, hauxe izan da emaitza:
+1	Botazioa	Botazio	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	2	obj	_	NER=O
+2	eginda	egin	VERB	VERB	VerbForm=Part	5	advcl	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	NER=O
+4	hauxe	hauxe	DET	DET	Case=Abs|Definite=Def|Number=Sing	5	nsubj	_	NER=O
+5	izan	izan	VERB	VERB	Aspect=Perf|VerbForm=Part	0	root	_	NER=O
+6	da	izan	AUX	AUX	Mood=Ind|Number[abs]=Sing|Person[abs]=3	5	aux	_	NER=O
+7	emaitza	emaitza	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	5	obj	_	NER=O|SpaceAfter=No
+8	:	:	PUNCT	PUNCT	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg684.s2
+# text = emandako botoak, 75; aldekoak, 29; aurkakoak, 37; abstentzioak, 9.
+1	emandako	eman	VERB	VERB	Case=Loc|VerbForm=Part	2	advcl	_	NER=O
+2	botoak	boto	NOUN	NOUN	Case=Abs|Definite=Def|Number=Plur	0	root	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	NER=O
+4	75	75	NUM	NUM	NumType=Card	2	conj	_	NER=O|SpaceAfter=No
+5	;	;	PUNCT	PUNCT	_	6	punct	_	NER=O
+6	aldekoak	aldeko	NOUN	NOUN	Animacy=Anim|Case=Abs|Definite=Def|Number=Plur	2	conj	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	8	punct	_	NER=O
+8	29	29	NUM	NUM	NumType=Card	2	conj	_	NER=O|SpaceAfter=No
+9	;	;	PUNCT	PUNCT	_	10	punct	_	NER=O
+10	aurkakoak	aurkako	NOUN	NOUN	Case=Abs|Definite=Def|Number=Plur	2	conj	_	NER=O|SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	12	punct	_	NER=O
+12	37	37	NUM	NUM	NumType=Card	2	conj	_	NER=O|SpaceAfter=No
+13	;	;	PUNCT	PUNCT	_	14	punct	_	NER=O
+14	abstentzioak	abstentzio	NOUN	NOUN	Case=Abs|Definite=Def|Number=Plur	2	conj	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	16	punct	_	NER=O
+16	9.	9+garren4	NUM	NUM	NumType=Ord	2	conj	_	NER=O
+
+# newdoc id = ParlaMint-ES-PV_2019-12-20.u98
+# newpar id = ParlaMint-ES-PV_2019-12-20.seg685
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg685.s1
+# text = Beraz, ez da onartu Elkarrekin Podemosen osoko zuzenketa.
+1	Beraz	beraz	CCONJ	CCONJ	_	5	advmod	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	5	punct	_	NER=O
+3	ez	ez	PART	PART	Polarity=Neg	5	advmod	_	NER=O
+4	da	izan	AUX	AUX	Mood=Ind|Number[abs]=Sing|Person[abs]=3	5	aux	_	NER=O
+5	onartu	onartu	VERB	VERB	Aspect=Perf|VerbForm=Part	0	root	_	NER=O
+6	Elkarrekin	elkar	PROPN	PROPN	Case=Com|Definite=Def|Number=Sing	5	obl	_	NER=B-ORG
+7	Podemosen	Podemos	PROPN	PROPN	_	6	flat	_	NER=I-ORG
+8	osoko	osoko	ADJ	ADJ	_	9	amod	_	NER=O
+9	zuzenketa	zuzenketa	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	7	flat	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	5	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2019-12-20.seg686
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg686.s1
+# text = Gai-zerrenda agortu dugunez, osoko bilkurari amaiera ematen diot eta Gabon zoriontsuak opa dizkizuet guzti-guztioi.
+1	Gai-zerrenda	Gai-zerrenda	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	2	obj	_	NER=O
+2	agortu	agortu	VERB	VERB	Aspect=Perf|VerbForm=Part	8	advcl	_	NER=O
+3	dugunez	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	2	aux	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	2	punct	_	NER=O
+5	osoko	osoko	ADJ	ADJ	_	6	amod	_	NER=O
+6	bilkurari	bilkura	NOUN	NOUN	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	8	iobj	_	NER=O
+7	amaiera	amaiera	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	8	obj	_	NER=O
+8	ematen	eman	VERB	VERB	Aspect=Imp|VerbForm=Inf	0	root	_	NER=O
+9	diot	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Sing|Person[abs]=3|Person[dat]=3|Person[erg]=1	8	aux	_	NER=O
+10	eta	eta	CCONJ	CCONJ	_	13	cc	_	NER=O
+11	Gabon	Gabo	PROPN	PROPN	Case=Ine|Definite=Def|Number=Sing	13	obl	_	NER=O
+12	zoriontsuak	zoriontsu	ADJ	ADJ	Case=Abs|Definite=Def|Number=Plur	13	obj	_	NER=O
+13	opa	opatu	VERB	VERB	VerbForm=Inf	8	conj	_	NER=O
+14	dizkizuet	*edun	AUX	AUX	Mood=Ind|Number[abs]=Plur|Number[dat]=Plur|Number[erg]=Sing|Person[abs]=3|Person[dat]=2|Person[erg]=1	13	aux	_	NER=O
+15	guzti-guztioi	guzti-guztioi	ADV	ADV	_	13	advmod	_	NER=O|SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	8	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2019-12-20.seg687
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2019-12-20.seg687.s1
+# text = Eguerdiko ordu biak eta hamazazpi ziren.
+1	Eguerdiko	eguerdi	NOUN	NOUN	Case=Loc|Definite=Def|Number=Sing	2	nmod	_	NER=O
+2	ordu	ordu	NOUN	NOUN	_	0	root	_	NER=O
+3	biak	bi	NUM	NUM	NumType=Card	2	nummod	_	NER=O
+4	eta	eta	CCONJ	CCONJ	_	5	cc	_	NER=O
+5	hamazazpi	hamazazpi	NUM	NUM	NumType=Card	2	conj	_	NER=O
+6	ziren	izan	AUX	AUX	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	2	cop	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	2	punct	_	NER=O
+

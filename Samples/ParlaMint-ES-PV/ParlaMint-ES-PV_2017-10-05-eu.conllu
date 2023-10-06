@@ -1,0 +1,602 @@
+# newdoc id = ParlaMint-ES-PV_2017-10-05.u0
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg1
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg1.s1
+# text = Egun on guztioi…
+1	Egun	egun	NOUN	NOUN	_	0	root	_	NER=O
+2	on	on	ADJ	ADJ	_	1	amod	_	NER=O
+3	guztioi	guzti	NUM	NUM	NumType=Card	1	det	_	NER=O|SpaceAfter=No
+4	…	…	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg1.s2
+# text = Mesedez…
+1	Mesedez	mesedez	PROPN	PROPN	Case=Abs|Definite=Def|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+2	…	…	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg1.s3
+# text = Egun on guztioi.
+1	Egun	egun	NOUN	NOUN	_	0	root	_	NER=O
+2	on	on	ADJ	ADJ	_	1	amod	_	NER=O
+3	guztioi	guzti	NUM	NUM	NumType=Card	1	det	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg2
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg2.s1
+# text = Adierazpen instituzional batekin hasiko naiz, eta minutuko isilune bat egingo dugu atzo izan zen erailketa gaitzesteko asmoz.
+1	Adierazpen	adierazpen	NOUN	NOUN	_	4	obl	_	NER=O
+2	instituzional	instituzional	ADJ	ADJ	_	1	amod	_	NER=O
+3	batekin	bat	NUM	NUM	NumType=Card	1	det	_	NER=O
+4	hasiko	hasi	VERB	VERB	Aspect=Prosp|VerbForm=Part	0	root	_	NER=O
+5	naiz	izan	AUX	AUX	Mood=Ind|Number[abs]=Sing|Person[abs]=1	4	aux	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	11	punct	_	NER=O
+7	eta	eta	CCONJ	CCONJ	_	11	cc	_	NER=O
+8	minutuko	minutu	NOUN	NOUN	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	9	nmod	_	NER=O
+9	isilune	isilune	NOUN	NOUN	_	11	obj	_	NER=O
+10	bat	bat	NUM	NUM	NumType=Card	9	nummod	_	NER=O
+11	egingo	egin	VERB	VERB	Aspect=Prosp|VerbForm=Part	4	conj	_	NER=O
+12	dugu	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	11	aux	_	NER=O
+13	atzo	atzo	ADV	ADV	_	14	advmod	_	NER=O
+14	izan	izan	VERB	VERB	Aspect=Perf|VerbForm=Part	11	ccomp	_	NER=O
+15	zen	izan	AUX	AUX	Mood=Ind|Number[abs]=Sing|Person[abs]=3	14	aux	_	NER=O
+16	erailketa	erailketa	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	17	obj	_	NER=O
+17	gaitzesteko	gaitzetsi	VERB	VERB	Case=Loc	18	advcl	_	NER=O
+18	asmoz	asmo	NOUN	NOUN	Animacy=Inan|Case=Ins|Definite=Ind	14	obl	_	NER=O|SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	4	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg3
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg3.s1
+# text = "Eusko Legebiltzarrak biziki eta erabat gaitzesten du Ana Belén Jiménez Hurtado andrearen erailketa, emakumeen aurkako indarkeriaren beste gertakari baten biktima izan dena.
+1	"	"	PUNCT	PUNCT	_	7	punct	_	NER=O|SpaceAfter=No
+2	Eusko	eusko	NOUN	NOUN	_	3	compound	_	NER=B-ORG
+3	Legebiltzarrak	legebiltzar	NOUN	NOUN	Case=Erg|Definite=Def|Number=Sing	7	nsubj	_	NER=I-ORG
+4	biziki	biziki	ADV	ADV	_	7	advmod	_	NER=O
+5	eta	eta	CCONJ	CCONJ	_	7	cc	_	NER=O
+6	erabat	erabat	ADV	ADV	_	7	advmod	_	NER=O
+7	gaitzesten	gaitzetsi	VERB	VERB	Aspect=Imp|VerbForm=Inf	0	root	_	NER=O
+8	du	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	7	aux	_	NER=O
+9	Ana	Ana	PROPN	PROPN	Case=Abs|Definite=Def|Number=Sing	7	obj	_	NER=B-PER
+10	Belén	Belé	PROPN	PROPN	Case=Ine|Definite=Def|Number=Sing	11	nmod	_	NER=I-PER
+11	Jiménez	Jiménez	NOUN	NOUN	Case=Ins|Definite=Ind	7	obl	_	NER=I-PER
+12	Hurtado	Hurtado	CCONJ	CCONJ	_	22	cc	_	NER=I-PER
+13	andrearen	andre	NOUN	NOUN	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	14	nmod	_	NER=O
+14	erailketa	erailketa	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	22	nsubj	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	22	punct	_	NER=O
+16	emakumeen	emakume	NOUN	NOUN	Animacy=Anim|Case=Gen|Definite=Def|Number=Plur	18	nmod	_	NER=O
+17	aurkako	aurkako	ADP	ADP	Case=Loc|Definite=Def|Number=Plur	16	case	_	NER=O
+18	indarkeriaren	indarkeria	NOUN	NOUN	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	20	nmod	_	NER=O
+19	beste	beste	DET	DET	_	20	det	_	NER=O
+20	gertakari	gertakari	NOUN	NOUN	_	22	nmod	_	NER=O
+21	baten	bat	NUM	NUM	NumType=Card	20	nummod	_	NER=O
+22	biktima	biktima	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	11	conj	_	NER=O
+23	izan	izan	AUX	AUX	Aspect=Perf|VerbForm=Part	22	cop	_	NER=O
+24	dena	izan	AUX	AUX	Mood=Ind|Number[abs]=Sing|Person[abs]=3	23	aux	_	NER=O|SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	11	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg3.s2
+# text = Legebiltzarrak bere laguntza eta dolumina agertzen dizkie biktimaren senideei eta hurrekoei.
+1	Legebiltzarrak	legebiltzar	NOUN	NOUN	Case=Erg|Definite=Def|Number=Sing	6	nsubj	_	NER=O
+2	bere	bera	DET	DET	Case=Gen|Number=Sing	3	nmod	_	NER=O
+3	laguntza	laguntza	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	obj	_	NER=O
+4	eta	eta	CCONJ	CCONJ	_	5	cc	_	NER=O
+5	dolumina	dolumina	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	3	conj	_	NER=O
+6	agertzen	agertu	VERB	VERB	Aspect=Imp|VerbForm=Inf	0	root	_	NER=O
+7	dizkie	*edun	AUX	AUX	Mood=Ind|Number[abs]=Plur|Number[dat]=Plur|Number[erg]=Sing|Person[abs]=3|Person[dat]=3|Person[erg]=3	6	aux	_	NER=O
+8	biktimaren	biktima	NOUN	NOUN	Animacy=Anim|Case=Gen|Definite=Def|Number=Sing	9	nmod	_	NER=O
+9	senideei	senide	NOUN	NOUN	Case=Dat|Definite=Def|Number=Plur	6	iobj	_	NER=O
+10	eta	eta	CCONJ	CCONJ	_	11	cc	_	NER=O
+11	hurrekoei	hurrekoek	NOUN	NOUN	Case=Dat|Definite=Def|Number=Plur	6	conj	_	NER=O|SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	6	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg4
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg4.s1
+# text = "Eusko Legebiltzarrak erailketa hori gaitzesten du, baita emakumeen aurkako indarkeriaren edo sexu-bereizkeriaren agerpen guztiak ere.
+1	"	"	PUNCT	PUNCT	_	6	punct	_	NER=O|SpaceAfter=No
+2	Eusko	eusko	NOUN	NOUN	_	3	compound	_	NER=B-ORG
+3	Legebiltzarrak	legebiltzar	NOUN	NOUN	Case=Erg|Definite=Def|Number=Sing	6	nsubj	_	NER=I-ORG
+4	erailketa	erailketa	NOUN	NOUN	_	6	obj	_	NER=O
+5	hori	hori	DET	DET	Case=Abs|Definite=Def|Number=Sing	4	det	_	NER=O
+6	gaitzesten	gaitzetsi	VERB	VERB	Aspect=Imp|VerbForm=Inf	0	root	_	NER=O
+7	du	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	6	aux	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	6	punct	_	NER=O
+9	baita	baita	CCONJ	CCONJ	_	15	cc	_	NER=O
+10	emakumeen	emakume	NOUN	NOUN	Animacy=Anim|Case=Gen|Definite=Def|Number=Plur	12	nmod	_	NER=O
+11	aurkako	aurkako	ADP	ADP	Case=Loc|Definite=Def|Number=Plur	10	case	_	NER=O
+12	indarkeriaren	indarkeria	NOUN	NOUN	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	15	nmod	_	NER=O
+13	edo	edo	CCONJ	CCONJ	_	14	cc	_	NER=O
+14	sexu-bereizkeriaren	sexu-bereizkeri	NOUN	NOUN	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	12	conj	_	NER=O
+15	agerpen	agerpen	NOUN	NOUN	_	6	conj	_	NER=O
+16	guztiak	guzti	DET	DET	Case=Abs|Definite=Def|Number=Plur	15	det	_	NER=O
+17	ere	ere	CCONJ	CCONJ	_	15	advmod	_	NER=O|SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	6	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg4.s2
+# text = Adierazten dugu sexu-indarkeria dela emakumeen eta gizonen arteko ezberdintasunen agerpenetan larriena eta ezberdintasunok sorburu dutela botere-harremanetan eta emakume menderatzeko harremanetan.
+1	Adierazten	adierazi	VERB	VERB	Aspect=Imp|VerbForm=Inf	0	root	_	NER=O
+2	dugu	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	1	aux	_	NER=O
+3	sexu-indarkeria	sexu-indarkeria	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	1	ccomp	_	NER=O
+4	dela	izan	AUX	AUX	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	3	cop	_	NER=O
+5	emakumeen	emakume	NOUN	NOUN	Animacy=Anim|Case=Gen|Definite=Def|Number=Plur	9	nmod	_	NER=O
+6	eta	eta	CCONJ	CCONJ	_	7	cc	_	NER=O
+7	gizonen	gizon	NOUN	NOUN	Case=Gen	5	conj	_	NER=O
+8	arteko	arte	ADP	ADP	Animacy=Anim|Case=Loc|Definite=Def|Number=Plur	7	case	_	NER=O
+9	ezberdintasunen	ezberdintasun	ADJ	ADJ	Case=Gen|Definite=Def|Number=Plur	10	nmod	_	NER=O
+10	agerpenetan	agerpen	NOUN	NOUN	Case=Ine|Definite=Def|Number=Plur	11	obl	_	NER=O
+11	larriena	larri	ADJ	ADJ	Case=Abs|Definite=Def|Degree=Sup|Number=Sing	3	csubj	_	NER=O
+12	eta	eta	CCONJ	CCONJ	_	15	cc	_	NER=O
+13	ezberdintasunok	ezberdintasun	NOUN	NOUN	Case=Abs|Definite=Def|Number=Plur	15	obj	_	NER=O
+14	sorburu	sorburu	ADV	ADV	_	15	advmod	_	NER=O
+15	dutela	ukan	VERB	VERB	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	11	conj	_	NER=O
+16	botere-harremanetan	botere-harreman	NOUN	NOUN	Case=Ine|Definite=Def|Number=Plur	15	obl	_	NER=O
+17	eta	eta	CCONJ	CCONJ	_	20	cc	_	NER=O
+18	emakume	emakume	NOUN	NOUN	_	19	obl	_	NER=O
+19	menderatzeko	menderatu	VERB	VERB	Case=Loc	20	advcl	_	NER=O
+20	harremanetan	harreman	NOUN	NOUN	Case=Ine|Definite=Def|Number=Plur	15	conj	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg6
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg6.s1
+# text = Jarraian, minutu bateko isilunea egingo dugu.
+1	Jarraian	jarraian	ADV	ADV	_	6	advmod	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	6	punct	_	NER=O
+3	minutu	minutu	NOUN	NOUN	_	5	nmod	_	NER=O
+4	bateko	bat	NUM	NUM	NumType=Card	3	nummod	_	NER=O
+5	isilunea	isilune	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	obj	_	NER=O
+6	egingo	egin	VERB	VERB	Aspect=Prosp|VerbForm=Part	0	root	_	NER=O
+7	dugu	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	6	aux	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	6	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg7
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg7.s1
+# text = Jakinarazten dizuet bosgarren puntua erretiratua izan dela.
+1	Jakinarazten	Jakinaraztu	VERB	VERB	Voice=Cau	0	root	_	NER=O
+2	dizuet	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[dat]=Plur|Number[erg]=Sing|Person[abs]=3|Person[dat]=2|Person[erg]=1	1	aux	_	NER=O
+3	bosgarren	bosgarren	NUM	NUM	NumType=Ord	4	amod	_	NER=O
+4	puntua	puntu	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	5	obj	_	NER=O
+5	erretiratua	erretiratu	VERB	VERB	Case=Abs|Definite=Def|Number=Sing|VerbForm=Part	1	ccomp	_	NER=O
+6	izan	izan	AUX	AUX	Aspect=Perf|VerbForm=Part	5	cop	_	NER=O
+7	dela	izan	AUX	AUX	Mood=Ind|Number[abs]=Sing|Person[abs]=3	6	aux	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg8
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg8.s1
+# text = Gai-zerrendako lehenengo puntua:
+1	Gai-zerrendako	Gai-zerrenda	PROPN	PROPN	Case=Loc|Definite=Def|Number=Sing	3	nmod	_	NER=B-ORG
+2	lehenengo	lehenengo	NUM	NUM	NumType=Ord	3	det	_	NER=O
+3	puntua	puntu	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+4	:	:	PUNCT	PUNCT	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg8.s2
+# text = "Euskal Talde Parlamentario Popularrak egindako lege-proposamena, Lehiaren Euskal Agintaritzari buruzko otsailaren 2ko 1/2012 Legea aldatzeari buruz.
+1	"	"	PUNCT	PUNCT	_	7	punct	_	NER=O|SpaceAfter=No
+2	Euskal	euskal	NOUN	NOUN	_	3	compound	_	NER=B-ORG
+3	Talde	talde	NOUN	NOUN	_	4	nmod	_	NER=I-ORG
+4	Parlamentario	parlamentario	NOUN	NOUN	_	6	nsubj	_	NER=I-ORG
+5	Popularrak	Popular	ADJ	ADJ	Case=Erg|Definite=Def|Number=Sing	4	amod	_	NER=I-ORG
+6	egindako	egin	VERB	VERB	Case=Loc|VerbForm=Part	7	advcl	_	NER=O
+7	lege-proposamena	lege-proposamen	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	7	punct	_	NER=O
+9	Lehiaren	lehia	PROPN	PROPN	Case=Gen|Definite=Def|Number=Sing	12	nmod	_	NER=B-MISC
+10	Euskal	euskal	NOUN	NOUN	_	12	nmod	_	NER=I-MISC
+11	Agintaritzari	Agintaritza	NOUN	NOUN	Case=Dat	13	nmod	_	NER=I-MISC
+12	buruzko	buruz	ADP	ADP	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	11	case	_	NER=O
+13	otsailaren	otsail	NOUN	NOUN	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	14	nmod	_	NER=O
+14	2ko	2	NUM	NUM	NumType=Card	16	nmod	_	NER=O
+15	1/2012	1/2012	NUM	NUM	NumType=Card	16	det	_	NER=O
+16	Legea	lege	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	7	nsubj	_	NER=B-MISC
+17	aldatzeari	aldatu	NOUN	NOUN	Case=Dat	19	obl	_	NER=O
+18	buruz	buruz	ADP	ADP	Animacy=Inan|Definite=Def|Number=Plur	17	case	_	NER=O|SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	16	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg8.s3
+# text = Aintzat hartzeari buruzko eztabaida eta behin betiko ebazpena".
+1	Aintzat	aintzat	ADV	ADV	_	4	nmod	_	NER=O
+2	hartzeari	hartu	NOUN	NOUN	Case=Dat	4	nmod	_	NER=O
+3	buruzko	buru	ADP	ADP	Case=Loc|Definite=Def|Number=Plur	2	case	_	NER=O
+4	eztabaida	eztabaida	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	0	root	_	NER=O
+5	eta	eta	CCONJ	CCONJ	_	8	cc	_	NER=O
+6	behin	behin	ADV	ADV	_	7	advmod	_	NER=O
+7	betiko	betiko	ADJ	ADJ	_	8	amod	_	NER=O
+8	ebazpena	ebazpen	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	4	conj	_	NER=O|SpaceAfter=No
+9	"	"	PUNCT	PUNCT	_	4	punct	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	4	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg9
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg9.s1
+# text = Banatu zaizuen dokumentazioan daukazue Jaurlaritzaren irizpidea eta, besterik gabe, eztabaidari ekingo diogu.
+1	Banatu	banatu	VERB	VERB	Aspect=Perf|VerbForm=Part	0	root	_	NER=O
+2	zaizuen	*edaizun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	1	aux	_	NER=O
+3	dokumentazioan	dokumentazio	NOUN	NOUN	Case=Ine|Definite=Def|Number=Sing	4	obl	_	NER=O
+4	daukazue	eduki	VERB	VERB	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=2	5	acl	_	NER=O
+5	Jaurlaritzaren	jaurlaritza	NOUN	NOUN	Case=Gen|Definite=Ind	6	obl	_	NER=B-ORG
+6	irizpidea	irizpide	VERB	VERB	Case=Abs	1	xcomp	_	NER=O
+7	eta	eta	CCONJ	CCONJ	_	13	cc	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	13	punct	_	NER=O
+9	besterik	beste	DET	DET	Case=Par|Definite=Ind	10	compound	_	NER=O
+10	gabe	gabe	ADV	ADV	_	13	advmod	_	NER=O|SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	13	punct	_	NER=O
+12	eztabaidari	eztabaida	NOUN	NOUN	Animacy=Anim|Case=Abs|Definite=Ind	13	obj	_	NER=O
+13	ekingo	ekin	VERB	VERB	Aspect=Prosp|VerbForm=Part	6	conj	_	NER=O
+14	diogu	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Plur|Person[abs]=3|Person[dat]=3|Person[erg]=1	13	aux	_	NER=O|SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg9.s2
+# text = Aldeko txandan, Alderdi Popularraz gain, beste norbaitek parte hartu nahi du?
+1	Aldeko	aldeko	NOUN	NOUN	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	2	nmod	_	NER=O
+2	txandan	txanda	NOUN	NOUN	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	11	obl	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	11	punct	_	NER=O
+4	Alderdi	alderdi	NOUN	NOUN	_	6	nmod	_	NER=B-ORG
+5	Popularraz	Popularraz	NOUN	NOUN	Case=Ins|Definite=Ind	11	obl	_	NER=I-ORG
+6	gain	gain	ADP	ADP	Case=Abs|Definite=Def|Number=Plur	5	case	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	11	punct	_	NER=O
+8	beste	beste	DET	DET	_	9	det	_	NER=O
+9	norbaitek	norbait	PRON	PRON	Case=Erg|Definite=Ind	11	nsubj	_	NER=O
+10	parte	parte	NOUN	NOUN	Case=Abs|Definite=Ind	11	compound	_	NER=O
+11	hartu	hartu	VERB	VERB	VerbForm=Part	13	xcomp	_	NER=O
+12	nahi	nahi	NOUN	NOUN	Case=Abs|Definite=Ind	13	compound	_	NER=O
+13	du	ukan	VERB	VERB	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	0	root	_	NER=O|SpaceAfter=No
+14	?	?	PUNCT	PUNCT	_	13	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg9.s3
+# text = Beste norbaitek, aldeko txandan…
+1	Beste	beste	DET	DET	_	2	det	_	NER=O
+2	norbaitek	norbait	PRON	PRON	Case=Erg|Definite=Ind	0	root	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	NER=O
+4	aldeko	alde	NOUN	NOUN	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	5	nmod	_	NER=O
+5	txandan	txanda	NOUN	NOUN	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	2	conj	_	NER=O|SpaceAfter=No
+6	…	…	PUNCT	PUNCT	_	2	punct	_	NER=O|SpaceAfter=No
+
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg9.s4
+# text = ?
+1	?	?	PUNCT	PUNCT	_	0	root	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg9.s5
+# text = Kontrako txandan…
+1	Kontrako	kontrako	ADJ	ADJ	_	2	amod	_	NER=O
+2	txandan	txanda	NOUN	NOUN	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+3	…	…	PUNCT	PUNCT	_	2	punct	_	NER=O|SpaceAfter=No
+
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg9.s6
+# text = ?
+1	?	?	PUNCT	PUNCT	_	0	root	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg9.s7
+# text = Bat.
+1	Bat	bat	ADV	ADV	_	0	root	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg9.s8
+# text = Eta Podemosek…
+1	Eta	eta	CCONJ	CCONJ	_	2	cc	_	NER=O
+2	Podemosek	Podemos	PROPN	PROPN	Case=Erg|Definite=Def|Number=Sing	0	root	_	NER=B-ORG|SpaceAfter=No
+3	…	…	PUNCT	PUNCT	_	2	punct	_	NER=O|SpaceAfter=No
+
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg9.s9
+# text = ?
+1	?	?	PUNCT	PUNCT	_	0	root	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg9.s10
+# text = Ez, explicación de voto .
+1	Ez	ez	PART	PART	Polarity=Neg	3	advmod	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	3	punct	_	NER=O
+3	explicación	explicació	VERB	VERB	Aspect=Imp|VerbForm=Inf	0	root	_	NER=O
+4	de	de	X	X	_	3	advmod	_	NER=O
+5	voto	voto	ADV	ADV	_	4	dep	_	NER=O
+6	.	.	PUNCT	PUNCT	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg9.s11
+# text = PSOEk baita, bai, bai.
+1	PSOEk	PSOE	PROPN	PROPN	Case=Erg|Definite=Def|Number=Sing	6	nsubj	_	NER=B-ORG
+2	baita	baita	AUX	AUX	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	6	cop	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	NER=O
+4	bai	bai	PART	PART	Polarity=Pos	2	conj	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	1	punct	_	NER=O
+6	bai	bai	PART	PART	Polarity=Pos	0	root	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	6	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg10
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg10.s1
+# text = Bale, orduan, aldeko txandan, Sémper jauna, zurea da hitza.
+1	Bale	Bale	ADJ	ADJ	Case=Abs|Definite=Ind	0	root	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	13	punct	_	NER=O
+3	orduan	orduan	CCONJ	CCONJ	_	13	cc	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	13	punct	_	NER=O
+5	aldeko	alde	NOUN	NOUN	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	6	nmod	_	NER=O
+6	txandan	txanda	NOUN	NOUN	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	12	obl	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	11	punct	_	NER=O
+8	Sémper	Sémper	PROPN	PROPN	_	9	nmod	_	NER=B-PER
+9	jauna	jaun	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	11	nsubj	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	11	punct	_	NER=O
+11	zurea	zure	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	13	nsubj	_	NER=O
+12	da	izan	AUX	AUX	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	13	cop	_	NER=O
+13	hitza	hitz	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	1	conj	_	NER=O|SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-ES-PV_2017-10-05.u1
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg11
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg11.s1
+# text = Legebiltzarkideok, lehendakari jauna, sailburuok, egun on guztioi.
+1	Legebiltzarkideok	Legebiltzarkide	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	0	root	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	4	punct	_	NER=O
+3	lehendakari	lehendakari	NOUN	NOUN	_	4	nmod	_	NER=O
+4	jauna	jaun	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	1	conj	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	6	punct	_	NER=O
+6	sailburuok	sailburu	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	1	conj	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	11	punct	_	NER=O
+8	egun	egun	NOUN	NOUN	_	11	nmod	_	NER=O
+9	on	on	ADJ	ADJ	_	8	amod	_	NER=O
+10	guztioi	guzti	NUM	NUM	NumType=Card	8	det	_	NER=O|SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-ES-PV_2017-10-05.u110
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg840
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg840.s1
+# text = Eskerrik asko, Otalora anderea.
+1	Eskerrik	Esker	NOUN	NOUN	_	0	root	_	NER=O
+2	asko	asko	DET	DET	Case=Abs|Definite=Ind	1	det	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	NER=O
+4	Otalora	Otalo	PROPN	PROPN	Case=All|Definite=Def|Number=Sing	5	nmod	_	NER=O
+5	anderea	andere	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	1	conj	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg841
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg841.s1
+# text = Eztabaida amaitu denez, bototara jarriko dugu Euskal Talde Popularrak, Euskal Sozialistek eta Euzko Abertzaleek sinatu duten erdibideko zuzenketa.
+1	Eztabaida	eztabaida	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	2	nsubj	_	NER=O
+2	amaitu	amaitu	VERB	VERB	Aspect=Perf|VerbForm=Part	6	advcl	_	NER=O
+3	denez	izan	AUX	AUX	Mood=Ind|Number[abs]=Sing|Person[abs]=3	2	aux	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	6	punct	_	NER=O
+5	bototara	boto	NOUN	NOUN	Animacy=Inan|Case=All|Definite=Def|Number=Sing	6	obl	_	NER=O
+6	jarriko	jarri	VERB	VERB	Aspect=Prosp|VerbForm=Part	0	root	_	NER=O
+7	dugu	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	6	aux	_	NER=O
+8	Euskal	euskal	NOUN	NOUN	_	9	compound	_	NER=B-ORG
+9	Talde	talde	NOUN	NOUN	_	10	nmod	_	NER=I-ORG
+10	Popularrak	Popular	NOUN	NOUN	Case=Erg|Definite=Def|Number=Sing	6	nsubj	_	NER=I-ORG|SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	6	punct	_	NER=O
+12	Euskal	euskal	NOUN	NOUN	_	17	nsubj	_	NER=B-ORG
+13	Sozialistek	Sozialist	ADJ	ADJ	Case=Erg|Definite=Def|Number=Plur	12	amod	_	NER=I-ORG
+14	eta	eta	CCONJ	CCONJ	_	16	cc	_	NER=O
+15	Euzko	Eutz	PROPN	PROPN	Case=Loc|Definite=Def|Number=Sing	16	nmod	_	NER=B-ORG
+16	Abertzaleek	abertzale	NOUN	NOUN	Case=Erg|Definite=Def|Number=Plur	12	conj	_	NER=I-ORG
+17	sinatu	sinatu	VERB	VERB	Aspect=Perf|VerbForm=Part	19	acl	_	NER=O
+18	duten	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	17	aux	_	NER=O
+19	erdibideko	erdibide	NOUN	NOUN	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	20	nmod	_	NER=O
+20	zuzenketa	zuzenketa	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	6	obj	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	6	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg841.s2
+# text = Bozkatu dezakegu.
+1	Bozkatu	bozkatu	VERB	VERB	Aspect=Perf|VerbForm=Part	0	root	_	NER=O
+2	dezakegu	*ezan	AUX	AUX	Mood=Pot|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	1	aux	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg842
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg842.s1
+# text = Bozketa eginda, hauxe izan da emaitza:
+1	Bozketa	bozketa	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	2	obj	_	NER=O
+2	eginda	egin	VERB	VERB	VerbForm=Part	5	advcl	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	NER=O
+4	hauxe	hauxe	DET	DET	Case=Abs|Definite=Def|Number=Sing	5	nsubj	_	NER=O
+5	izan	izan	VERB	VERB	Aspect=Perf|VerbForm=Part	0	root	_	NER=O
+6	da	izan	AUX	AUX	Mood=Ind|Number[abs]=Sing|Person[abs]=3	5	aux	_	NER=O
+7	emaitza	emaitza	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	5	nsubj	_	NER=O|SpaceAfter=No
+8	:	:	PUNCT	PUNCT	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg842.s2
+# text = emandako botoak, 74; aldekoak, 46; aurkakoak, 0; zuriak, 0; abstentzioak, 28.
+1	emandako	eman	VERB	VERB	Case=Loc|VerbForm=Part	2	advcl	_	NER=O
+2	botoak	boto	NOUN	NOUN	Case=Abs|Definite=Def|Number=Plur	0	root	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	NER=O
+4	74	74	NUM	NUM	NumType=Card	2	conj	_	NER=O|SpaceAfter=No
+5	;	;	PUNCT	PUNCT	_	6	punct	_	NER=O
+6	aldekoak	aldeko	NOUN	NOUN	Animacy=Anim|Case=Abs|Definite=Def|Number=Plur	2	conj	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	8	punct	_	NER=O
+8	46	46	NUM	NUM	NumType=Card	2	conj	_	NER=O|SpaceAfter=No
+9	;	;	PUNCT	PUNCT	_	10	punct	_	NER=O
+10	aurkakoak	aurkako	NOUN	NOUN	Case=Abs|Definite=Def|Number=Plur	2	conj	_	NER=O|SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	12	punct	_	NER=O
+12	0	0	NUM	NUM	NumType=Card	2	conj	_	NER=O|SpaceAfter=No
+13	;	;	PUNCT	PUNCT	_	14	punct	_	NER=O
+14	zuriak	zuri	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	2	conj	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	16	punct	_	NER=O
+16	0	0	NUM	NUM	NumType=Card	2	conj	_	NER=O|SpaceAfter=No
+17	;	;	PUNCT	PUNCT	_	18	punct	_	NER=O
+18	abstentzioak	abstentzio	NOUN	NOUN	Case=Abs|Definite=Def|Number=Plur	2	conj	_	NER=O|SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	2	punct	_	NER=O
+20	28.	28.	NUM	NUM	NumType=Card	2	punct	_	NER=O
+
+# newdoc id = ParlaMint-ES-PV_2017-10-05.u111
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg843
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg843.s1
+# text = Beraz, erdibideko zuzenketa onartuta geratu da.
+1	Beraz	beraz	CCONJ	CCONJ	_	6	advmod	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	6	punct	_	NER=O
+3	erdibideko	erdibide	NOUN	NOUN	Case=Loc|Definite=Def|Number=Sing	4	nmod	_	NER=O
+4	zuzenketa	zuzenketa	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	5	nsubj	_	NER=O
+5	onartuta	onartu	VERB	VERB	VerbForm=Part	6	advcl	_	NER=O
+6	geratu	geratu	VERB	VERB	Aspect=Perf|VerbForm=Part	0	root	_	NER=O
+7	da	izan	AUX	AUX	Mood=Ind|Number[abs]=Sing|Person[abs]=3	6	aux	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	6	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg844
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg844.s1
+# text = Jarraian, adierazpen instituzional bat irakurriko dut.
+1	Jarraian	jarraian	ADV	ADV	_	6	advmod	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	6	punct	_	NER=O
+3	adierazpen	adierazpen	NOUN	NOUN	_	6	obj	_	NER=O
+4	instituzional	instituzional	ADJ	ADJ	_	3	amod	_	NER=O
+5	bat	bat	NUM	NUM	NumType=Card	3	nummod	_	NER=O
+6	irakurriko	irakurri	VERB	VERB	Aspect=Prosp|VerbForm=Part	0	root	_	NER=O
+7	dut	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=1	6	aux	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	6	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg845
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg845.s1
+# text = "Eusko Legebiltzarraren adierazpen instituzionala sahararrek errefuxiatu eremuetan bizi duten elikadura-krisiaren aurrean duten laguntza beharra dela eta.
+1	"	"	PUNCT	PUNCT	_	16	punct	_	NER=O|SpaceAfter=No
+2	Eusko	eusko	NOUN	NOUN	_	3	nmod	_	NER=B-ORG
+3	Legebiltzarraren	legebiltzar	NOUN	NOUN	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	4	nmod	_	NER=I-ORG
+4	adierazpen	adierazpen	NOUN	NOUN	_	13	obj	_	NER=O
+5	instituzionala	instituzional	ADJ	ADJ	Case=Abs|Definite=Def|Number=Sing	4	amod	_	NER=O
+6	sahararrek	saharar	NOUN	NOUN	Case=Erg|Definite=Def|Number=Plur	10	nsubj	_	NER=O
+7	errefuxiatu	errefuxiatu	NOUN	NOUN	_	8	nmod	_	NER=O
+8	eremuetan	eremu	NOUN	NOUN	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	10	obl	_	NER=O
+9	bizi	bizi	ADJ	ADJ	Case=Abs|Definite=Ind	10	compound	_	NER=O
+10	duten	ukan	VERB	VERB	_	12	acl	_	NER=O
+11	elikadura-krisiaren	elikadura-krisi	NOUN	NOUN	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	12	nmod	_	NER=O
+12	aurrean	aurre	NOUN	NOUN	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	13	obl	_	NER=O
+13	duten	ukan	VERB	VERB	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	14	acl	_	NER=O
+14	laguntza	laguntza	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	16	obj	_	NER=O
+15	beharra	behar	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	16	nsubj	_	NER=O
+16	dela	izan	VERB	VERB	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	0	root	_	NER=O
+17	eta	eta	CCONJ	CCONJ	_	16	mark	_	NER=O|SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	16	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg846
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg846.s1
+# text = "Eusko Legebiltzarrak Tindufeko errefuxiatu-eremuetako sahararrek bizi duten elikadura-krisi larria dela-eta, are larriagotu baita azkenaldian krisi ekonomikoagatik eta bizi diren lekuko egoera klimatologiko eta geografiko zailengatik, honako hau aldarrikatu nahi du:
+1	"	"	PUNCT	PUNCT	_	14	punct	_	NER=O|SpaceAfter=No
+2	Eusko	eusko	NOUN	NOUN	_	3	compound	_	NER=B-ORG
+3	Legebiltzarrak	legebiltzar	NOUN	NOUN	Case=Erg|Definite=Def|Number=Sing	11	nsubj	_	NER=I-ORG
+4	Tindufeko	Tinduf	PROPN	PROPN	Case=Loc|Definite=Def|Number=Sing	5	nmod	_	NER=B-LOC
+5	errefuxiatu-eremuetako	errefuxiatu-eremu	NOUN	NOUN	Animacy=Anim|Case=Loc|Definite=Def|Number=Plur	6	nmod	_	NER=O
+6	sahararrek	saharar	NOUN	NOUN	Case=Erg|Definite=Def|Number=Plur	8	nsubj	_	NER=O
+7	bizi	bizi	ADJ	ADJ	Case=Abs|Definite=Ind	8	compound	_	NER=O
+8	duten	ukan	VERB	VERB	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	9	acl	_	NER=O
+9	elikadura-krisi	elikadura-krisi	NOUN	NOUN	_	11	obj	_	NER=O
+10	larria	larri	ADJ	ADJ	Case=Abs|Definite=Def|Number=Sing	9	amod	_	NER=O
+11	dela-eta	dela-eta	VERB	VERB	VerbForm=Part	14	advcl	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	14	punct	_	NER=O
+13	are	are	NOUN	NOUN	Case=Abs|Definite=Ind	14	obl	_	NER=O
+14	larriagotu	larriagotu	VERB	VERB	Aspect=Perf|VerbForm=Part	33	advcl	_	NER=O
+15	baita	izan	AUX	AUX	Mood=Ind|Number[abs]=Sing|Person[abs]=3	14	aux	_	NER=O
+16	azkenaldian	azkenaldi	NOUN	NOUN	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	21	obl	_	NER=O
+17	krisi	krisi	NOUN	NOUN	_	22	acl	_	NER=O
+18	ekonomikoagatik	ekonomiko	DET	DET	Case=Cau|Definite=Def|Number=Sing	17	det	_	NER=O
+19	eta	eta	CCONJ	CCONJ	_	20	cc	_	NER=O
+20	bizi	bizi	ADJ	ADJ	Case=Abs|Definite=Ind	17	conj	_	NER=O
+21	diren	izan	AUX	AUX	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	17	cop	_	NER=O
+22	lekuko	lekuko	NOUN	NOUN	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	23	nmod	_	NER=O
+23	egoera	egoera	NOUN	NOUN	_	27	nmod	_	NER=O
+24	klimatologiko	klimatologiko	ADJ	ADJ	_	23	amod	_	NER=O
+25	eta	eta	CCONJ	CCONJ	_	26	cc	_	NER=O
+26	geografiko	geografiko	ADJ	ADJ	_	24	conj	_	NER=O
+27	zailengatik	zail	NOUN	NOUN	Animacy=Inan|Case=Cau|Definite=Def|Number=Plur	14	obl	_	NER=O|SpaceAfter=No
+28	,	,	PUNCT	PUNCT	_	14	punct	_	NER=O
+29	honako	honako	ADJ	ADJ	_	31	obj	_	NER=O
+30	hau	hau	DET	DET	Case=Abs|Definite=Def|Number=Sing	29	det	_	NER=O
+31	aldarrikatu	aldarrikatu	VERB	VERB	VerbForm=Part	33	xcomp	_	NER=O
+32	nahi	nahi	NOUN	NOUN	Case=Abs|Definite=Ind	33	compound	_	NER=O
+33	du	ukan	VERB	VERB	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	0	root	_	NER=O|SpaceAfter=No
+34	:	:	PUNCT	PUNCT	_	33	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg847
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg847.s1
+# text = "Eusko Legebiltzarrak Eusko Jaurlaritzari eta Euskal Fondoari eskatzen die aurrera jarrai dezatela eta, behar izanez gero, indar handiagoz, errefuxiatu sahararrei laguntzeko ahalegin eta planekin, haien beharrizanei erantzunez eta arreta berezia eskainiz egun pairatzen duten elikadura-krisiari.
+1	"	"	PUNCT	PUNCT	_	9	punct	_	NER=O|SpaceAfter=No
+2	Eusko	eusko	NOUN	NOUN	_	3	compound	_	NER=B-ORG
+3	Legebiltzarrak	legebiltzar	NOUN	NOUN	Case=Erg|Definite=Def|Number=Sing	9	nsubj	_	NER=I-ORG
+4	Eusko	eusko	NOUN	NOUN	_	5	compound	_	NER=B-ORG
+5	Jaurlaritzari	jaurlaritza	NOUN	NOUN	Case=Dat|Definite=Def|Number=Sing	9	iobj	_	NER=I-ORG
+6	eta	eta	CCONJ	CCONJ	_	8	cc	_	NER=O
+7	Euskal	euskal	NOUN	NOUN	_	8	compound	_	NER=B-ORG
+8	Fondoari	Fondo	NOUN	NOUN	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	5	conj	_	NER=I-ORG
+9	eskatzen	eskatu	VERB	VERB	Aspect=Imp|VerbForm=Inf	11	acl	_	NER=O
+10	die	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[dat]=Plur|Number[erg]=Sing|Person[abs]=3|Person[dat]=3|Person[erg]=3	9	aux	_	NER=O
+11	aurrera	aurre	NOUN	NOUN	Animacy=Inan|Case=All|Definite=Def|Number=Sing	12	obl	_	NER=O
+12	jarrai	jarraitu	VERB	VERB	VerbForm=Inf	0	root	_	NER=O
+13	dezatela	*edezan	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[dat]=Plur|Number[erg]=Plur|Person[abs]=3|Person[dat]=3|Person[erg]=3	12	aux	_	NER=O
+14	eta	eta	CCONJ	CCONJ	_	31	cc	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	31	punct	_	NER=O
+16	behar	behar	NOUN	NOUN	Case=Abs|Definite=Ind	17	compound	_	NER=O
+17	izanez	izan	VERB	VERB	Case=Ins|Definite=Ind|VerbForm=Part	31	advcl	_	NER=O
+18	gero	gero	ADV	ADV	_	17	advcl	_	NER=O|SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	31	punct	_	NER=O
+20	indar	indar	NOUN	NOUN	_	31	nmod	_	NER=O
+21	handiagoz	handiago	ADJ	ADJ	Case=Ins|Definite=Ind	20	amod	_	NER=O|SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	26	punct	_	NER=O
+23	errefuxiatu	errefuxiatu	NOUN	NOUN	_	25	iobj	_	NER=O
+24	sahararrei	saharar	ADJ	ADJ	Case=Dat|Definite=Def|Number=Plur	23	amod	_	NER=O
+25	laguntzeko	lagundu	VERB	VERB	Case=Abs|Definite=Ind	26	advcl	_	NER=O
+26	ahalegin	ahalegin	NOUN	NOUN	_	20	conj	_	NER=O
+27	eta	eta	CCONJ	CCONJ	_	28	cc	_	NER=O
+28	planekin	plan	NOUN	NOUN	Case=Com|Definite=Def|Number=Plur	20	conj	_	NER=O|SpaceAfter=No
+29	,	,	PUNCT	PUNCT	_	30	punct	_	NER=O
+30	haien	haiek	DET	DET	Case=Gen|Definite=Def|Number=Plur	20	conj	_	NER=O
+31	beharrizanei	beharrizan	NOUN	NOUN	Case=Dat|Definite=Def|Number=Plur	12	conj	_	NER=O
+32	erantzunez	erantzun	NOUN	NOUN	Case=Ins|Definite=Ind	12	obl	_	NER=O
+33	eta	eta	CCONJ	CCONJ	_	40	cc	_	NER=O
+34	arreta	arreta	NOUN	NOUN	_	36	obj	_	NER=O
+35	berezia	berezi	ADJ	ADJ	Case=Abs|Definite=Def|Number=Sing	34	amod	_	NER=O
+36	eskainiz	eskaini	VERB	VERB	Case=Ins|Definite=Ind|VerbForm=Part	38	advcl	_	NER=O
+37	egun	egun	ADV	ADV	_	38	advmod	_	NER=O
+38	pairatzen	pairatu	VERB	VERB	Aspect=Imp|VerbForm=Inf	40	acl	_	NER=O
+39	duten	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	38	aux	_	NER=O
+40	elikadura-krisiari	elikadura-krisi	NOUN	NOUN	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	32	conj	_	NER=O|SpaceAfter=No
+41	.	.	PUNCT	PUNCT	_	31	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg848
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg848.s1
+# text = "Alde horretatik, dei egiten diogu ACNURi bereziki lagundu dezala eremu horietan, krisi hori dela-eta.
+1	"	"	PUNCT	PUNCT	_	6	punct	_	NER=O|SpaceAfter=No
+2	Alde	alde	NOUN	NOUN	_	6	obl	_	NER=O
+3	horretatik	hori	DET	DET	Case=Abl|Definite=Def|Number=Sing	2	det	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	6	punct	_	NER=O
+5	dei	dei	NOUN	NOUN	Animacy=Inan|Case=Dat|Definite=Def|Number=Plur	6	iobj	_	NER=O
+6	egiten	egin	VERB	VERB	Aspect=Imp|VerbForm=Inf	0	root	_	NER=O
+7	diogu	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Plur|Person[abs]=3|Person[dat]=3|Person[erg]=1	6	aux	_	NER=O
+8	ACNURi	ACNURi	PROPN	PROPN	Case=Abs|Definite=Def|Number=Sing	10	obj	_	NER=B-ORG
+9	bereziki	bereziki	ADV	ADV	_	10	advmod	_	NER=O
+10	lagundu	lagundu	VERB	VERB	Aspect=Perf|VerbForm=Part	6	ccomp	_	NER=O
+11	dezala	*ezan	AUX	AUX	Mood=Sub|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	10	aux	_	NER=O
+12	eremu	eremu	NOUN	NOUN	_	10	obl	_	NER=O
+13	horietan	horiek	DET	DET	Case=Ine|Definite=Def|Number=Plur	12	det	_	NER=O|SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	6	punct	_	NER=O
+15	krisi	krisi	NOUN	NOUN	_	17	nmod	_	NER=O
+16	hori	hori	DET	DET	Case=Abs|Definite=Def|Number=Sing	15	det	_	NER=O
+17	dela-eta	dela-eta	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	obj	_	NER=O|SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	6	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg851
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg851.s1
+# text = Gai-zerrenda agortu denez, osoko bilkurari amaiera ematen diot.
+1	Gai-zerrenda	Gai-zerrenda	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	2	nsubj	_	NER=O
+2	agortu	agortu	VERB	VERB	Aspect=Perf|VerbForm=Part	8	advcl	_	NER=O
+3	denez	izan	AUX	AUX	Mood=Ind|Number[abs]=Sing|Person[abs]=3	2	aux	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	2	punct	_	NER=O
+5	osoko	osoko	ADJ	ADJ	_	6	amod	_	NER=O
+6	bilkurari	bilkura	NOUN	NOUN	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	8	iobj	_	NER=O
+7	amaiera	amaiera	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	8	obj	_	NER=O
+8	ematen	eman	VERB	VERB	Aspect=Imp|VerbForm=Inf	0	root	_	NER=O
+9	diot	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Sing|Person[abs]=3|Person[dat]=3|Person[erg]=1	8	aux	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	8	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2017-10-05.seg852
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2017-10-05.seg852.s1
+# text = Arratsaldeko hirurak eta bat ziren.
+1	Arratsaldeko	arratsalde	NOUN	NOUN	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	2	nmod	_	NER=O
+2	hirurak	hiru	NUM	NUM	NumType=Card	5	nsubj	_	NER=O
+3	eta	eta	CCONJ	CCONJ	_	4	cc	_	NER=O
+4	bat	bat	NUM	NUM	NumType=Card	2	conj	_	NER=O
+5	ziren	izan	AUX	AUX	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	0	root	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	5	punct	_	NER=O
+
