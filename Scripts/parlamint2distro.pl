@@ -424,7 +424,8 @@ sub cp_readme_top {
 
     while (<IN>) {
 	if (m|^# ParlaMint|) {
-	    ($countryCode, $RegionalSuffix, $countryName) = m| ([A-Z]{2}(-[A-Z]{2})?) \((.+)\)$| or die;
+	    ($countryCode, $RegionalSuffix, $countryName) = m| ([A-Z]{2}(-[A-Z]{2})?) \((.+)\)$|
+	       or die "FATAL ERROR: Bad line in README.md file: $_";
 	    die "FATAL ERROR: Bad code $countryCode (!= $country) in $inFile\n" unless $country =~ /$countryCode/;
 	    if    ($type =~ /sample/i) {print OUT "# Samples of the ParlaMint-$countryCode corpus"}
 	    elsif ($type =~ /tei/i)    {print OUT "# Corpus of parliamentary debates ParlaMint-$countryCode"}
