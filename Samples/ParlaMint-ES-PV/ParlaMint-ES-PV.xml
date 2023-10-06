@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eu" xml:id="ParlaMint-ES-PV">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="eu">Eusko Legebiltzarreko corpusa ParlaMint-ES-PV [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="es">Corpus del Parlamento Vasco ParlaMint-ES-PV [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Basque parliamentary corpus ParlaMint-ES-PV [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="eu">Eusko Legebiltzarraren aktak, X., XI. eta XII. legegintzaldiak (2015 - 2022)</title>
+            <title type="sub" xml:lang="es">Actas del Parlamento Vasco, legislaturas X, XI y XII (2015 - 2022)</title>
+            <title type="sub" xml:lang="en">Minutes of the Basque Parliament, Term X, XI and XII (2015 - 2022)</title>
+            <meeting corresp="#ES-PV" ana="#parla.uni #parla.term" n="10">10. agintaldia</meeting>
+            <meeting corresp="#ES-PV" ana="#parla.uni #parla.term" n="11">11. agintaldia</meeting>
+            <meeting corresp="#ES-PV" ana="#parla.uni #parla.term" n="12">12. agintaldia</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-6121-3902">Mikel Iruskieta</persName>
+               <resp xml:lang="en">Data retrieval and curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-5909-2745">Manex Agirrezabal</persName>
+               <resp xml:lang="en">Data revision and support</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Ekain Arrieta</persName>
+               <resp xml:lang="en">Technical support and conversion from conll to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Rodrigo Agerri</persName>
+               <resp xml:lang="en">Train the NER model for Basque and Spanish</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Kike Fernandez</persName>
+               <resp xml:lang="en">Technical support and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Matyáš Kopp</persName>
+               <resp xml:lang="en">Technical support and support for bilingual analysis</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tomaž Erjavec</persName>
+               <resp xml:lang="en">Technical support</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Jon Alkorta</persName>
+               <resp xml:lang="eu">Parla-CLARIN TEI XML corpusaren kodeketa</resp>
+               <resp xml:lang="es">Codificación de corpus XML Parla-CLARIN TEI</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="eu">CLARIN ikerketa azpiegitura</orgName>
+               <orgName xml:lang="es">CLARIN infraestructura de investigación científica</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="eu">HiTZ - Ixa Taldea (UPV/EHU)</orgName>
+               <orgName xml:lang="es">HiTZ - Grupo Ixa (UPV/EHU)</orgName>
+               <orgName xml:lang="en">HiTZ - Ixa Group (UPV/EHU)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="39148" xml:lang="eu">39,148 hitzaldiak</measure>
+            <measure unit="speeches" quantity="39148" xml:lang="es">39,148 charlas</measure>
+            <measure unit="speeches" quantity="39148" xml:lang="en">39,148 speeches</measure>
+            <measure unit="words" quantity="13536301" xml:lang="eu">13,536,301 172462</measure>
+            <measure unit="words" quantity="13536301" xml:lang="es">13,536,301 172462</measure>
+            <measure unit="words" quantity="13536301" xml:lang="en">13,536,301 172462</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="eu">CLARIN ikerketa azpiegitura</orgName>
+               <orgName xml:lang="es">Infraestructura de investigación CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1859</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="eu">Lan hau <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Aitortu 4.0 Nazioarteko Lizentzia</ref>pean dago.</p>
+               <p xml:lang="es">Este trabajo tiene la licencia de <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2023-10-05">2023-10-05</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="eu">Eusko Legebiltzarreko aktak</title>
+               <title type="main" xml:lang="es">Actas del Parlamento Vasco</title>
+               <title type="main" xml:lang="en">Minutes of the the Basque Parliament</title>
+               <idno type="URI" subtype="parliament">https://www.legebiltzarra.eus/portal/eu</idno>
+               <date from="2015-02-01" to="2022-07-01">2015-02-01 - 2022-07-01</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="eu"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> proiektuaren helburuak honakoak dira: (1) corpus konparagarrien multzo eleaniztun bat sortzea legebiltzarretako testuekin, kodetzeko prozedura komun eta uniformeak erabiliz (ikus <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN gomendioak</ref>) COVID-19 pandemiaren garaiko testuak bilduz, 2019ko azarotik aurrera. Horrez gain, 2015 ondoren aldia ere bildu da, erreferentziazko corpus gisa erabiltzeko; (2) corpus guztiak modu berean analizatu dira informazio sintaktikoa erantsiz (Universal Dependencies hurbilpena erabiliz) eta baita izen berezien informazioa erantsiz; (3) testuak Parlameter tresnan eta web ingurune batean jarri dira eskuragarri konkordantzia bilaketak egiteko eta (4) Humanitateetarako eta Politika Zientzietarako erabilera-kasuak eraiki nahi dira legebiltzarretako corpuseko datuetan oinarrituta.</p>
+            <p xml:lang="es"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> es un proyecto que tiene como objetivo (1) crear un conjunto multilingüe de corpus comparables de procedimientos parlamentarios codificados uniformemente de acuerdo con las <ref target="https://github.com/clarin-eric/parla-clarin">recomendaciones Parla-CLARIN</ref> y cubriendo la época de la pandemia del COVID-19, desde noviembre de 2019, así como el período anterior desde el año 2015 para que pueda servir como corpus de referencia; (2) procesar todos los corpus lingüísticamente de la misma forma incluyendo la información sintáctica (Universal Dependencies) y la información de nombres propios (o entidades nombradas); (3) poner disponibles con la herramienta Parlameter y un entorno web para realizar búsquedas de concordancias y (4) construir casos de uso para las Humanidades y las Ciencias Políticas basados ​​en los datos del corpus.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p xml:lang="en">No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p xml:lang="en">Text has not been normalised, except for spacing.</p>
+            </normalization>
+            <hyphenation>
+               <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
+            </hyphenation>
+            <quotation>
+               <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="338"/>
+               <tagUsage gi="div" occurs="338"/>
+               <tagUsage gi="note" occurs="47882"/>
+               <tagUsage gi="seg" occurs="278211"/>
+               <tagUsage gi="text" occurs="338"/>
+               <tagUsage gi="u" occurs="39148"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-CHES.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-politicalOrientation.xml"/>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Eusko Legebiltzarra</name>
+               <name type="address">Becerro de Bengoa kalea</name>
+               <name type="city">Vitoria-Gasteiz</name>
+               <name key="ES-PV" type="country">Basque Country, Spain</name>
+               <date from="2015-02-01" to="2022-07-01">2015eko otsailetik 2022eko uztailera</date>
+            </setting>
+         </settingDesc>
+         <textClass>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.uni"/>
+         </textClass>
+         <particDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-ES-PV-listOrg.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-ES-PV-listPerson.xml"/>
+         </particDesc>
+         <langUsage>
+            <language ident="eu" xml:lang="eu">Euskara</language>
+            <language ident="es" xml:lang="eu">Gaztelania</language>
+            <language ident="en" xml:lang="eu">Ingelesa</language>
+            <language ident="eu" xml:lang="es">Euskera</language>
+            <language ident="es" xml:lang="es">Castellano</language>
+            <language ident="es" xml:lang="es">Inglés</language>
+            <language ident="eu" xml:lang="en">Basque</language>
+            <language ident="es" xml:lang="en">Spanish</language>
+            <language ident="en" xml:lang="en">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-10-05">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-10-05">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2021-04-12">
+            <name>Jon Alkorta</name>: Small fixes for ParlaMint.</change>
+         <change when="2022-11-25">
+            <name>Mikel Iruskieta</name>: Fix errors. Made sample. Finalize encoding.</change>
+         <change when="2023-10-05">parlamint-add-common-content script: Adding common content.</change>
+      </revisionDesc>
+   </teiHeader>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-ES-PV_2017-10-05.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-ES-PV_2019-12-20.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-ES-PV_2022-10-14.xml"/>
+</teiCorpus>
+
