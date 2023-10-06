@@ -1,5 +1,5 @@
 ### Testing targets
-MC = PT
+MC = ES-PV
 test-tsv2tei:
 	$s tsv=${HERE}/Orientation-${MC}.enco.tsv -xsl:${RUN}/enco-tsv2tei.xsl \
 	${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml | \

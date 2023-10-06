@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <!-- Library of templates for import into other ParlaMint scripts -->
-<!-- PARTY AFFILIATION + NAME NEEDS TO BE UPDATED ACCORDING TO V3 ENCODING!!! -->
 <xsl:stylesheet 
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -12,7 +11,7 @@
   exclude-result-prefixes="#all"
   version="2.0">
 
-  <!-- Which language the metadata should be output (where there is a choice)
+  <!-- In which language the metadata should be output (where there is a choice)
        Legal values are:
        - xx (language of the corpus or fall-back option)
        - en (English or fall-back option)
@@ -38,11 +37,18 @@
   <xsl:param name="coalition-label">Coalition</xsl:param>
   <xsl:param name="opposition-label">Opposition</xsl:param>
   
+  <!-- Label for multilingual utterances -->
+  <!-- Note that this label should be ideally translated into all (or at least those that have multilingual utterances, e.g. BE, UA) 
+       the ParlaMint languages as well, i.e. "mul" should be in their langUsage -->
+  <xsl:param name="multilingual-label">Multilingual</xsl:param>
+  
   <!-- Key in value of element ID -->
   <xsl:key name="id" match="tei:*" use="@xml:id"/>
   <!-- Key which directly finds local references -->
   <xsl:key name="idr" match="tei:*" use="concat('#', @xml:id)"/>
 
+  <xsl:variable name="text_id" select="replace(/tei:*/@xml:id, '\.ana', '')"/>
+  
   <xsl:variable name="corpus-language" select="/tei:*/@xml:lang"/>
   
   <!-- Current date in ISO format -->
@@ -98,19 +104,11 @@
                       ancestor::tei:taxonomy/tei:desc/tei:term = 'Subcorpora'">
 	  <!-- The category term of the tokenised @ana: -->
           <xsl:value-of select="et:l10n($corpus-language, key('idr', ., $rootHeader)/tei:catDesc)/tei:term"/>
-	  <xsl:text>&#32;</xsl:text>
+	  <xsl:text>,</xsl:text>
 	</xsl:if>
       </xsl:for-each>
     </xsl:variable>
-    <!-- If component belongs to several subcorpora, retain only last one -->
-    <xsl:choose>
-      <xsl:when test="matches(normalize-space($subcorpora), '&#32;')">
-	<xsl:value-of select="substring-after(normalize-space($subcorpora), '&#32;')"/>
-      </xsl:when>
-      <xsl:otherwise>
-	<xsl:value-of select="normalize-space($subcorpora)"/>
-      </xsl:otherwise>
-    </xsl:choose>
+    <xsl:value-of select="replace($subcorpora, ',$', '')"/>
   </xsl:variable>
   
   <xsl:variable name="rootHeader">
@@ -168,6 +166,38 @@
 
   <!-- NAMED TEMPLATES -->
 
+  <!-- Return the name of the langauge that the segments of the utterance are in -->
+  <!-- In case the segments are in serveral langauges, the multilingual-label is output -->
+  <!-- The assumption is that this template is called with tei:u as the context node -->
+  <xsl:template name="u-langs">
+    <xsl:variable name="defaultLang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
+    <!-- Collect all the languages of utterance segments -->
+    <xsl:variable name="langs">
+      <xsl:variable name="lgs">
+	<xsl:for-each select="tei:seg">
+	  <xsl:value-of select="@xml:lang"/>
+	  <xsl:text>&#32;</xsl:text>
+	</xsl:for-each>
+      </xsl:variable>
+      <xsl:value-of select="distinct-values(tokenize(normalize-space($lgs)))"/>
+    </xsl:variable>
+    <xsl:choose>
+      <!-- Segments not marked for language, so name of language of utterance -->
+      <xsl:when test="not(normalize-space($langs))">
+	<xsl:value-of select="et:l10n($corpus-language, 
+			      $rootHeader//tei:langUsage/tei:language[@ident = $defaultLang])"/>
+      </xsl:when>
+      <!-- Multilingual content -->
+      <xsl:when test="tokenize($langs)[2]">
+	<xsl:value-of select="$multilingual-label"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:value-of select="et:l10n($corpus-language, 
+			      $rootHeader//tei:langUsage/tei:language[@ident = $langs])"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
   <!-- Get the name of the parliamentary body from meeting elements, e.g. from this series:
        <meeting ana="#parla.term #parla.lower #parliament.PSP7" n="ps2013">ps2013</meeting>
        <meeting ana="#parla.meeting #parla.lower" n="ps2013/001">ps2013/001</meeting>
@@ -224,7 +254,7 @@
     </xsl:choose>
   </xsl:template>
   
-  <!-- Get @n from appropriate meeting type, e.g.
+  <!-- Output name of meeting with the given $ref in @ana, inputs are e.g.
        <meeting n="7" corresp="#DZ" ana="#parla.term #DZ.7">7. mandat</meeting>
        <meeting n="1" corresp="#DZ" ana="#parla.meeting.regular">Redna</meeting>
        or
@@ -243,12 +273,26 @@
     <xsl:param name="ref"/>
     <xsl:variable name="result">
       <xsl:variable name="idref" select="concat('#', $ref)"/>
-      <xsl:for-each select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:meeting">
-	<!-- Maybe we should ignore @n and use l10n-ed content of the corresponding event content? -->
-        <xsl:variable name="n" select="@n"/>
+      <xsl:variable name="meetings">
+	<xsl:apply-templates mode="XInclude" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:meeting"/>
+      </xsl:variable>
+      <xsl:for-each select="$meetings/tei:meeting">
+        <xsl:variable name="name">
+	  <xsl:choose>
+	    <xsl:when test="normalize-space(.)">
+	      <xsl:value-of select="et:l10n($corpus-language, .)"/>
+	    </xsl:when>
+	    <xsl:when test="@n">
+	      <xsl:value-of select="@n"/>
+	    </xsl:when>
+	    <xsl:otherwise>
+              <xsl:message select="concat('ERROR: no meeting/text() or meeting/@n in ', /tei:TEI/@xml:id)"/>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</xsl:variable>
         <xsl:for-each select="tokenize(@ana, ' ')">
           <xsl:if test="starts-with(., $idref)">
-            <xsl:value-of select="$n"/>
+            <xsl:value-of select="$name"/>
 	    <xsl:text>///</xsl:text>
           </xsl:if>
         </xsl:for-each>
@@ -305,7 +349,13 @@
 	<xsl:value-of select="normalize-space(
                               string-join(
                               (
-                              string-join($persName/tei:surname[not(@type='patronym')]/normalize-space(.),' '),
+                              string-join(
+                                (
+                                  $persName/tei:surname[not(@type='patronym')]
+                                  |
+                                  $persName/tei:nameLink[following-sibling::tei:*[1][local-name()='surname' or local-name()='nameLink']]
+                                )/normalize-space(.),
+                                ' '),
                               concat(
                               string-join($persName/tei:forename/normalize-space(.),' '),
                               ' ',

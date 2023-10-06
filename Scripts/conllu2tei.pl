@@ -37,8 +37,9 @@ $s_n     = 0;
 $/ = "\n\n";
 while (<>) {
     if (m|# newdoc id = (.+)|) {
-        if (m|# newpar id|) {$has_p = 1}
         $doc_id = $1;
+	print STDERR "ERROR: empty doc id: $_\n" unless $doc_id;
+        if (m|# newpar id|) {$has_p = 1}
         $has_div = 1;
         $s_n = 0;
         if ($has_div) {

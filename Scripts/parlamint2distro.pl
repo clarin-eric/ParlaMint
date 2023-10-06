@@ -225,7 +225,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	die "FATAL ERROR: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	dircopy($schemaDir, "$outAnaDir/Schema");
 	# Remove unwanted files
-	`rm -f $outAnaDir/Schema/.gitignore`;
+	`rm -fr $outAnaDir/Schema/.git*`;
 	`rm -f $outAnaDir/Schema/nohup.*`;
 	`rm -f $outAnaDir/Schema/*.log`;
 	`rm -f $outAnaDir/Schema/Makefile`;
@@ -245,15 +245,17 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	die "FATAL ERROR: Can't find input tei root $inTeiRoot\n" unless -e $inTeiRoot; 
 	die "FATAL ERROR: No handle given for TEI distribution\n" unless $handleTEI;
 	# Output top level readme
-	&cp_readme_top($countryCode, $MT, 'TEI', $handleTEI, $Version, $docsDir, $outDir);
+	&cp_readme_top($countryCode, $MT, 'tei', $handleTEI, $Version, $docsDir, $outDir);
 	`rm -fr $outTeiDir; mkdir $outTeiDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.txt"}
 	else {$inReadme = "$docsDir/README.TEI.txt"}
 	&cp_readme($countryCode, $handleTEI, $Version, $inReadme, "$outTeiDir/00README.txt");
 	die "FATAL ERROR: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	dircopy($schemaDir, "$outTeiDir/Schema");
-	`rm -f $outTeiDir/Schema/.gitignore`;
+	`rm -f $outTeiDir/Schema/.*`;
 	`rm -f $outTeiDir/Schema/nohup.*`;
+	`rm -f $outTeiDir/Schema/*.log`;
+	`rm -f $outTeiDir/Schema/Makefile`;
 	my $tmpOutDir = "$tmpDir/release.tei";
 	my $tmpOutTeiDir = "$tmpDir/$teiDir";
 	my $tmpTeiRoot = "$tmpOutDir/$teiRoot";
@@ -282,6 +284,9 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	    `$scriptConls $outSmpDir $outSmpDir`
 	}
 	else {print STDERR "ERROR: No .ana files for $countryCode samples (needed root file is $outAnaRoot)\n"}
+	#For some reason both ParlaMint-XX_YYY-MM-DD-meta-en.tsv and ParlaMint-XX_YYY-MM-DD.ana-meta-en.tsv
+	#are present in Sample directory, remove the .ana variant:
+	`rm -f $outSmpDir/*.ana-meta-en.tsv`;
 	# Output top level readme but not for $MTed version, as it would overwrite the original
 	# The Sample readme does not have handle or version, as the sample can change irrespective of them
 	&commonTaxonomies($countryCode, $outSmpDir);
@@ -303,8 +308,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	elsif ($handleAna) {$handleTxt = $handleAna}
 	else {die "FATAL ERROR: No handle given for TEI or .ana distribution\n"}
 	`rm -fr $outTxtDir; mkdir $outTxtDir`;
-	if ($MT) {$inReadme = "$docsDir/README-$MT.txt.txt"}
-	else {$inReadme = "$docsDir/README.txt.txt"}
+	if ($MT) {$inReadme = "$docsDir/README-$MT.text.txt"}
+	else {$inReadme = "$docsDir/README.text.txt"}
 	&cp_readme($countryCode, $handleTxt, $Version, $inReadme, "$outTxtDir/00README.txt");
 	if    (-e $outTeiDir) {`$scriptTexts $outTeiDir $outTxtDir`}
 	elsif (-e $outAnaDir) {`$scriptTexts $outAnaDir $outTxtDir`}
@@ -395,17 +400,15 @@ sub cp_readme_top {
     die "FATAL ERROR: No country for cp_readme_top\n" unless $country;
     die "FATAL ERROR: No handle for cp_readme_top\n" unless $handle or $type eq 'sample';
     die "FATAL ERROR: No version for cp_readme_top\n" unless $version or $type eq 'sample';
-    my $inFile = "$inDir/README-$country.md";
+    my $inFile = "$inDir/README.md/README-$country.md";
     $inFile =~ s|-$mt|| if $mt; #Need to remove e.g. '-en' from input readme, as we don't have such input files
+
     # Construct output filename: in sample it is just README.md, other types add on a suffix
     my $outFile = "$outDir/README";
     if ($type eq 'sample') {}
-    elsif ($type eq 'ana' or $type eq 'tei') {
-	$outFile .= "-" . $country;
-    }
-    if ($type eq 'ana') {
-        $outFile .= ".ana"
-    }
+    elsif ($type eq 'ana' or $type eq 'tei') {$outFile .= "-" . $country }
+    if ($mt) {$outFile .= "-$mt"}
+    if ($type eq 'ana') {$outFile .= ".ana"}
     $outFile .= ".md";
     
     open IN, '<:utf8', $inFile or die "FATAL ERROR: Can't open input top README $inFile\n";
@@ -424,7 +427,7 @@ sub cp_readme_top {
 	    ($countryCode, $RegionalSuffix, $countryName) = m| ([A-Z]{2}(-[A-Z]{2})?) \((.+)\)$| or die;
 	    die "FATAL ERROR: Bad code $countryCode (!= $country) in $inFile\n" unless $country =~ /$countryCode/;
 	    if    ($type =~ /sample/i) {print OUT "# Samples of the ParlaMint-$countryCode corpus"}
-	    elsif ($type =~ /TEI/i)    {print OUT "# Corpus of parliamentary debates ParlaMint-$countryCode"}
+	    elsif ($type =~ /tei/i)    {print OUT "# Corpus of parliamentary debates ParlaMint-$countryCode"}
 	    elsif ($type =~ /ana/i)    {print OUT "# Linguistically annotated corpus of parliamentary debates ParlaMint-$countryCode"}
 	    else {die "Strange type $type for cp_readme_top\n"}
 	    if ($MT) {print OUT " (translation to English)"}
