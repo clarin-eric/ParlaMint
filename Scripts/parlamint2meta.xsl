@@ -19,7 +19,9 @@
   
     <!-- Store sub title, if it exists, otherwise main title -->
     <xsl:variable name="title">
-      <xsl:variable name="titles" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+      <xsl:variable name="titles">
+	<xsl:apply-templates mode="XInclude" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+      </xsl:variable>
       <xsl:variable name="subtitles" select="et:l10n($corpus-language, $titles[@type='sub'])"/>
       <xsl:choose>
         <xsl:when test="normalize-space($subtitles[2])">
