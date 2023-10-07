@@ -527,11 +527,11 @@
                          ': removing sentence without tokens for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
   </xsl:template>
   
-  <!-- Bug where a name contains no words, but only true punctuation or a transcriber comment: remove <name> tag -->
-  <xsl:template mode="comp" match="tei:body//tei:name[not(.//tei:w or .//tei:pc[not(matches(., '^\p{P}+$'))]]">
+  <!-- Bug where a name contains no words, but only punctuation or a transcriber comment: remove <name> tag -->
+  <xsl:template mode="comp" match="tei:body//tei:name[not(.//tei:w or .//tei:pc[not(matches(., '^\p{P}+$'))])]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
-                         ': removing name tag as name ', normalize-space(.), 
-			 ' contains no words for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+                         ': removing name tag as ', normalize-space(.), 
+			 ' contains no w elements for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
     <xsl:apply-templates mode="comp"/>
   </xsl:template>
   
