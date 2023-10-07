@@ -271,6 +271,7 @@
   -->
   <xsl:template name="meeting">
     <xsl:param name="ref"/>
+    <xsl:variable name="component-id" select="/tei:TEI/@xml:id"/>
     <xsl:variable name="result">
       <xsl:variable name="idref" select="concat('#', $ref)"/>
       <xsl:variable name="meetings">
@@ -286,7 +287,7 @@
 	      <xsl:value-of select="@n"/>
 	    </xsl:when>
 	    <xsl:otherwise>
-              <xsl:message select="concat('ERROR: no meeting/text() or meeting/@n in ', /tei:TEI/@xml:id)"/>
+              <xsl:message select="concat('ERROR: no meeting/text() or meeting/@n for ', $ref, ' in ', $component-id)"/>
 	    </xsl:otherwise>
 	  </xsl:choose>
 	</xsl:variable>
