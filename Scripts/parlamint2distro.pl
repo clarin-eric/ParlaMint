@@ -442,7 +442,7 @@ sub cp_readme_top {
 	    print OUT; # Languages
 	    unless ($type eq 'sample') {
 		print OUT "- Version: $version\n";
-		print OUT "- Handle: $handle\n";
+		print OUT "- Handle: ($handle)[$handle]\n";
 	    }
 	}
 	else {print OUT}
