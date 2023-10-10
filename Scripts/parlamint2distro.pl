@@ -347,6 +347,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 sub commonTaxonomies {
     my $Country = shift;
     my $outDir = shift;
+    # If this is an MTed corpus then fix Country to be without langauge suffix
+    $Country =~ s/-[a-z]{2}$//;
     foreach my $taxonomy (sort keys %taxonomy) {
 	if ($taxonomy !~ /\.ana/ or
 	    ($taxonomy =~ /\.ana/ and ($outDir =~ /\.ana/ or $outDir !~ /\.TEI/))) {
