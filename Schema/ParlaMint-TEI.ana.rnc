@@ -122,7 +122,8 @@ token.atts =
   attribute norm { non-empty.string }?,
   attribute msd { non-empty.string },
   attribute ana { anyURIs }?,
-  attribute pos { non-empty.string }?
+  attribute pos { non-empty.string }?,
+  attribute function { normalized-space.string }?
 
 ## Obligatory attributes of word.
 word.atts =
