@@ -9,16 +9,18 @@
 ######## SUBMITTED CORPORA FOR V 4.0
 # CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
-# Partial runs:
-#DONE: AT BE CZ DK EE ES ES-CT ES-GA FI
-#DOING: GB GR HR HU IS IT
-#REDO:  BA BG ES-PV FR
-#TODO:  LV NL NO PL PT RS SE SI TR UA
+### Partial runs:
+#DONE: AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GR HR HU IS IT LV PL PT SE
+#DOIN: GB(3) NL NO (1) RS (2)
+#REDO: GR(?) ES-PV(?)
+#TODO: RS SI TR UA
 #NEXT:
-CORPORA = BA
+CORPORA = RS
 
 ######## MTed CORPORA FOR V 4.0
+#MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
+MT-CORPORA = LV-en
 
 # Used in test targets:
 CORPUS = UK
@@ -78,13 +80,13 @@ test-conll2:
 test-conll1:
 	${FINALIZE} -conll -codes SI -in ${HERE}/Master -out ${HERE}/Master
 test-meta2:
-	$s out-lang=en meta=../Corpora/Master/ParlaMint-EE.TEI/ParlaMint-EE.xml -xsl:../Scripts/parlamint2meta.xsl \
-	../Corpora/Master/ParlaMint-EE.TEI/2014/ParlaMint-EE_2014-01-13.xml > test.tsv
+	$s out-lang=en meta=../Corpora/Master/ParlaMint-IS.TEI/ParlaMint-IS.xml -xsl:../Scripts/parlamint2meta.xsl \
+	../Corpora/Master/ParlaMint-IS.TEI/2019/ParlaMint-IS_2019-12-17-48.xml > test.tsv
+test-meta1:
+	${FINALIZE} -txt -codes IS -in ${HERE}/Temp -out ${HERE}/Temp
+	#${FINALIZE} -txt -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
 test-text1:
 	${FINALIZE} -txt -codes ES-CT -in ${HERE}/Master -out ${HERE}/Master
-test-meta1:
-	${FINALIZE} -txt -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
-	${FINALIZE} -txt -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
 
 ## Transliteration tests
 test-translit4:
@@ -201,7 +203,7 @@ mt-logs:
 	done;
 
 web-nohup:
-	nice nohup time make web > ParlaMint-web &
+	nice nohup time make web > ParlaMint-Web.log &
 web:
 	rsync -av Logs/*.log ${WEB}/Logs
 	rsync -av Packed/*.tgz ${WEB}/Repo
@@ -213,10 +215,12 @@ FINALIZE = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -teihandle ${
 nohup:
 	nice nohup time make all > Logs/ParlaMint.log &
 
-# Second nohup, in case we want several runs at once
+# More nohups, in case we want several runs at once
 # In which case CORPORA variable needs to be changed first!
 nohup2:
 	nice nohup time make all > Logs/ParlaMint.2.log &
+nohup3:
+	nice nohup time make all > Logs/ParlaMint.3.log &
 
 all:	final verts pack
 xall:	final verts pack
