@@ -26,23 +26,26 @@ include "ParlaMint-TEI.rnc" {
   
   ## The only element that contains analysed text is the segment. It can,
   ##       however, contain transcription commentary.
-  seg =
-    element seg {
-      global.atts
-      >> a:documentation [ "Optional @corresp for MTed corpora." ],
-      corresp.att,
-      (comment | pb | sentence)+
-    }
+  seg = element seg { global.atts, (comment | pb | sentence)+ }
 }
 
 ## A sentence.
 sentence =
   element s {
-    global.atts
-    >> a:documentation [ "Optional @corresp for MTed corpora." ],
-    corresp.att,
-    (comment | pb | ner | word | punct)+,
-    syntax?
+    global.atts, (comment | pb | ner | phr | word | punct)+, syntax?
+  }
+
+## Multi-Word Unit
+phr =
+  element phr {
+    global.atts,
+    attribute function { xsd:token },
+    attribute ana { xsd:anyURI }
+    >> a:documentation [
+         "Currently we only support phrases with semantic markers"
+       ],
+    attribute type { "sem" },
+    mwe_tokens
   }
 
 ## Named entity element
@@ -69,6 +72,9 @@ ner =
 ner.atts =
   global.atts,
   attribute ana { xsd:anyURI }
+
+## Annotations that can appear in a MWE.
+mwe_tokens = (word | punct)+
 
 ## Annotations that can appear in a NE.
 ner_tokens = (word | punct | comment | pb | ner)+
@@ -123,7 +129,12 @@ token.atts =
   attribute msd { non-empty.string },
   attribute ana { anyURIs }?,
   attribute pos { non-empty.string }?,
-  attribute function { normalized-space.string }?
+  attribute function {
+    # This is different from TEI, where it is a name token (which can't contain comma!?)
+    
+    # ref name="normalized-space.string"/
+    xsd:token
+  }?
 
 ## Obligatory attributes of word.
 word.atts =
