@@ -1,4 +1,4 @@
-MC = EE
+MC = ES-PV
 V3  = /project/corpora/Parla/ParlaMint/ParlaMint/Corpora/Master
 OUT = tmp
 

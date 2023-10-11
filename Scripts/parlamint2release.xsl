@@ -455,6 +455,21 @@
     </xsl:copy>
   </xsl:template>
 
+  <!-- EE uses u/@ana = '#deputy_chair', but common taxonomy does not have this category -->
+  <xsl:template mode="comp" match="tei:u/@ana[. = '#deputy_chair']">
+    <xsl:attribute name="ana">#chair</xsl:attribute>
+  </xsl:template>
+
+  <!-- FR uses u/@ana = '#government', but common taxonomy does not have this category -->
+  <xsl:template mode="comp" match="tei:u/@ana[. = '#government']">
+    <xsl:attribute name="ana">#regular</xsl:attribute>
+  </xsl:template>
+
+  <!-- FR uses u/@ana = '#unknown', but common taxonomy does not have this category -->
+  <xsl:template mode="comp" match="tei:u/@ana[. = '#unknown']">
+    <xsl:attribute name="ana">#guest</xsl:attribute>
+  </xsl:template>
+
   <!-- Bug where an utterance contains no elements, remove utterance -->
   <xsl:template mode="comp" match="tei:u">
     <xsl:variable name="segs">

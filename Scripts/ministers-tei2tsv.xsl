@@ -18,7 +18,7 @@
   <xsl:param name="outDir">../Corpora/Ministers</xsl:param>
   
   <!-- Prefix and sufix for output files -->
-  <xsl:param name="outFilePrefix">ParlaMint_ministers-</xsl:param>
+  <xsl:param name="outFilePrefix">Ministers-</xsl:param>
   <xsl:param name="outFileSuffix">.auto.tsv</xsl:param>
   
   <!-- How many template lines to output for corpora without any ministers -->

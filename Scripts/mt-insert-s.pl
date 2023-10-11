@@ -20,9 +20,12 @@ close TBL;
 $/ = "\n";
 while (<>) {
     if (m|<s |) {
-	($id1) = m|<s xml:id="(.+)"|;
-	$sent = shift(@sents);
-	($id2) = $sent =~ m|<s xml:id="(.+?)"|;
+	($id1) = m|<s xml:id="(.+)"|
+	    or die "FATAL ERROR: No sentence ID found in $_";
+	$sent = shift(@sents)
+	    or die "FATAL ERROR: No more sentences for $_";
+	($id2) = $sent =~ m|<s xml:id="(.+?)"|
+	    or die "FATAL ERROR: No sentence ID found in $sent\n";
 	die "FATAL ERROR: Mismatch in IDs between $id1 and $id2\n" unless $id1 eq $id2;
 	$sent =~ s|>| corresp="mt-src:$id1">|;
 	print $sent;

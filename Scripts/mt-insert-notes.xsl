@@ -37,7 +37,7 @@
             <xsl:variable name="trans" select="regex-group(6)"/>
 	    <xsl:if test="$orig != 'content'"> <!-- Skip header row -->
 	      <item n="{replace(mk:normalize-note($orig), '\s', '')}">
-		<xsl:value-of select="mk:normalize-note(et:cut($orig, $trans))"/>
+		<xsl:value-of select="mk:normalize-note(et:fix($orig, $trans))"/>
 	      </item>
 	    </xsl:if>
 	  </xsl:matching-substring>
@@ -94,13 +94,19 @@
     </xsl:copy>
   </xsl:template>
 
-  <!-- Shorten translations that are too long (by factor $factor) than the original
+  <!-- Copy over original if translation is obvious nonsense or shorten it if longer (by factor $factor) than the original
        as this is usually a bug in the translation -->
-  <xsl:function name="et:cut">
+  <xsl:function name="et:fix">
     <xsl:param name="str1"/>
     <xsl:param name="str2"/>
     <xsl:variable name="factor">3</xsl:variable>
     <xsl:choose>
+      <!-- If original note just digits, punctuation and spaces but translated isn't, then just copy over original -->
+      <!-- For cases such as "17:04:02" -> "♪ It's all right, it's all right, it's all right" -->
+      <xsl:when test="matches($str1, '^[\p{N}\p{P}\p{Zs}]+$') and not(matches($str2, '^[\p{N}\p{P}\p{Zs}]+$'))">
+	<xsl:value-of select="$str1"/>
+      </xsl:when>
+      <!-- If translated note is much longer than original, cut translation -->
       <xsl:when test="string-length($str2) &gt; ($factor * string-length($str1))">
 	<!-- Remove the message as the resulting long is huge and it also slows down processing -->
 	<!--xsl:message select="concat('WARN: Shortening too long translation ', $str2)"/-->
