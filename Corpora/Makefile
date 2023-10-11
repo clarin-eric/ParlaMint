@@ -11,11 +11,11 @@
 
 ### Partial runs:
 #DONE: AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GR HR HU IS IT LV PL PT SE
-#DOIN: GB(3) NL NO (1) RS (2)
-#REDO: GR(?) ES-PV(?)
-#TODO: RS SI TR UA
+#DOIN: NL NO (1) RS (2)
+#REDO: GB(!) GR(?) ES-PV(?)
+#TODO: SI TR UA
 #NEXT:
-CORPORA = RS
+CORPORA = SI
 
 ######## MTed CORPORA FOR V 4.0
 #MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
