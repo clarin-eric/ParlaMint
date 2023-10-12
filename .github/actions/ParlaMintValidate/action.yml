@@ -4,9 +4,12 @@ inputs:
   parlas:
     description: 'list of parliament codes'
     required: true
+  requireTaxonomiesTranslations:
+    description: 'require every term in common taxonomies to be translated'
+    default: '1'
 runs:
   using: "composite"
   steps:
     - name: Convert and Validate
-      run: ${{ github.action_path }}/validate.sh '${{inputs.parlas}}'
+      run: ${{ github.action_path }}/validate.sh '${{inputs.parlas}}' '${{inputs.requireTaxonomiesTranslations}}'
       shell: bash

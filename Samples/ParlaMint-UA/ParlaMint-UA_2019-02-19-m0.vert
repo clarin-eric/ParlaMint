@@ -2,7 +2,7 @@
 <note type="time" content="19 лютого 2019 року, 12 година"/>
 <note type="narrative" content="Веде засідання Голова Верховної Ради України ПАРУБІЙ А.В."/>
 <note type="speaker" content="ГОЛОВУЮЧИЙ."/>
-<speech id="ParlaMint-UA_2019-02-19-m0.u1" text_id="ParlaMint-UA_2019-02-19-m0" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="10" meeting="-" sitting="2019-02-19" agenda="-" date="2019-02-19" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 10 сесія, дата пленарного засідання 2019-02-19, номер засідання №0" speaker_role="головуючий" speaker_id="АндрійВолодимировичПарубій.1971" speaker_name="Володимирович Парубій, Андрій" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1971">
+<speech id="ParlaMint-UA_2019-02-19-m0.u1" text_id="ParlaMint-UA_2019-02-19-m0" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="10" meeting="-" sitting="2019-02-19" agenda="-" date="2019-02-19" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 10 сесія, дата пленарного засідання 2019-02-19, номер засідання №0" speaker_role="головуючий" speaker_id="АндрійВолодимировичПарубій.1971" speaker_name="Володимирович Парубій, Андрій" speaker_mp="MP" speaker_minister="notMinister" speaker_party="НФ" speaker_party_name="Політична партія \"Народний фронт\"" party_status="-" party_orientation="--" speaker_gender="M" speaker_birth="1971">
 <p id="ParlaMint-UA_2019-02-19-m0.u1.p1" lang="Українська">
 <s id="ParlaMint-UA_2019-02-19-m0.u1.p1.s1">
 Добрий	Добрий	добрий	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Sing	w1	amod	день	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	w2
@@ -375,7 +375,7 @@
 </p>
 </speech>
 <note type="speaker" content="ГОЛОВУЮЧИЙ."/>
-<speech id="ParlaMint-UA_2019-02-19-m0.u2" text_id="ParlaMint-UA_2019-02-19-m0" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="10" meeting="-" sitting="2019-02-19" agenda="-" date="2019-02-19" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 10 сесія, дата пленарного засідання 2019-02-19, номер засідання №0" speaker_role="головуючий" speaker_id="АндрійВолодимировичПарубій.1971" speaker_name="Володимирович Парубій, Андрій" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1971">
+<speech id="ParlaMint-UA_2019-02-19-m0.u2" text_id="ParlaMint-UA_2019-02-19-m0" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="10" meeting="-" sitting="2019-02-19" agenda="-" date="2019-02-19" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 10 сесія, дата пленарного засідання 2019-02-19, номер засідання №0" speaker_role="головуючий" speaker_id="АндрійВолодимировичПарубій.1971" speaker_name="Володимирович Парубій, Андрій" speaker_mp="MP" speaker_minister="notMinister" speaker_party="НФ" speaker_party_name="Політична партія \"Народний фронт\"" party_status="-" party_orientation="--" speaker_gender="M" speaker_birth="1971">
 <p id="ParlaMint-UA_2019-02-19-m0.u2.p1" lang="Українська">
 <s id="ParlaMint-UA_2019-02-19-m0.u2.p1.s1">
 Слава	Слава	слава	NOUN	Animacy=Inan Case=Nom Gender=Fem Number=Sing	w1	root	-	-	-	-
@@ -388,7 +388,7 @@
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-UA_2019-02-19-m0.u57" text_id="ParlaMint-UA_2019-02-19-m0" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="10" meeting="-" sitting="2019-02-19" agenda="-" date="2019-02-19" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 10 сесія, дата пленарного засідання 2019-02-19, номер засідання №0" speaker_role="головуючий" speaker_id="АндрійВолодимировичПарубій.1971" speaker_name="Володимирович Парубій, Андрій" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1971">
+<speech id="ParlaMint-UA_2019-02-19-m0.u57" text_id="ParlaMint-UA_2019-02-19-m0" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="10" meeting="-" sitting="2019-02-19" agenda="-" date="2019-02-19" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 10 сесія, дата пленарного засідання 2019-02-19, номер засідання №0" speaker_role="головуючий" speaker_id="АндрійВолодимировичПарубій.1971" speaker_name="Володимирович Парубій, Андрій" speaker_mp="MP" speaker_minister="notMinister" speaker_party="НФ" speaker_party_name="Політична партія \"Народний фронт\"" party_status="-" party_orientation="--" speaker_gender="M" speaker_birth="1971">
 <p id="ParlaMint-UA_2019-02-19-m0.u57.p1" lang="Українська">
 <s id="ParlaMint-UA_2019-02-19-m0.u57.p1.s1">
 Шановні	Шановні	шановний	ADJ	Case=Voc Number=Plur	w1	amod	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w2
@@ -773,7 +773,7 @@
 </speech>
 <note type="vocal:shouting" content="ГОЛОСИ ІЗ ЗАЛУ. Слава Україні!"/>
 <note type="speaker" content="ГОЛОВУЮЧИЙ."/>
-<speech id="ParlaMint-UA_2019-02-19-m0.u58" text_id="ParlaMint-UA_2019-02-19-m0" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="10" meeting="-" sitting="2019-02-19" agenda="-" date="2019-02-19" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 10 сесія, дата пленарного засідання 2019-02-19, номер засідання №0" speaker_role="головуючий" speaker_id="АндрійВолодимировичПарубій.1971" speaker_name="Володимирович Парубій, Андрій" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1971">
+<speech id="ParlaMint-UA_2019-02-19-m0.u58" text_id="ParlaMint-UA_2019-02-19-m0" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="10" meeting="-" sitting="2019-02-19" agenda="-" date="2019-02-19" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 10 сесія, дата пленарного засідання 2019-02-19, номер засідання №0" speaker_role="головуючий" speaker_id="АндрійВолодимировичПарубій.1971" speaker_name="Володимирович Парубій, Андрій" speaker_mp="MP" speaker_minister="notMinister" speaker_party="НФ" speaker_party_name="Політична партія \"Народний фронт\"" party_status="-" party_orientation="--" speaker_gender="M" speaker_birth="1971">
 <p id="ParlaMint-UA_2019-02-19-m0.u58.p1" lang="Українська">
 <s id="ParlaMint-UA_2019-02-19-m0.u58.p1.s1">
 Героям	Героям	герой	NOUN	Animacy=Anim Case=Dat Gender=Masc Number=Plur	w1	root	-	-	-	-

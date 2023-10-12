@@ -1,7 +1,5 @@
 #!/usr/bin/perl
-# Pack ParlaMint corpora
-# Tomaž Erjavec <tomaz.erjavec@ijs.si>
-# License: GNU GPL
+# Pack ParlaMint corpora into .tgz files ready for distribution
 
 use warnings;
 use utf8;
@@ -16,8 +14,12 @@ sub usage {
     print STDERR ("pack-parlamint.pl -codes '<Codes>' -in <Input> -out <Output>\n");
     print STDERR ("    Packs ParlaMint corpora into .tgz.\n");
     print STDERR ("    <Codes> is the list of country codes of the corpora to be processed.\n");
-    print STDERR ("    <Input> is the directory where ParlaMint.TEI-XX/ and ParlaMint.TEI.ana-XX/ are.\n");
+    print STDERR ("    <Input> is the directory with input README-XX*.md files and ParlaMint-XX.*/ directories.\n");
     print STDERR ("    <Output> is the directory where output .tgz are written.\n");
+    print STDERR ("\n");
+    print STDERR ("    The script produces two .tgz files:\n");
+    print STDERR ("    - ParlaMint-XX.TEI.tgz (README-XX.md + PalaMint-XX.ParlaMint-XX.TEI/ + ParlaMint-XX.txt\n");
+    print STDERR ("    - ParlaMint-XX.TEI.ana.tgz (README-XX.ana.md + ParlaMint-XX.TEI.ana/ + ParlaMint-XX.conllu/ + ParlaMint-XX.vert/\n");
 }
 
 use Getopt::Long;
@@ -45,36 +47,40 @@ $XX_template = "ParlaMint-XX";
 
 foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     print STDERR "INFO: ***Packing $countryCode\n";
+    $teiReadme = "README-$countryCode.md";
+    $anaReadme = "README-$countryCode.ana.md";
     
     $XX = $XX_template;
     $XX =~ s|XX|$countryCode|g;
-    
     $teiDir  = "$XX.TEI";
     $anaDir  = "$XX.TEI.ana";
-    $TxtDir  = "$XX.txt";
-    $ConlDir = "$XX.conllu";
-    $VertDir = "$XX.vert";
+    $txtDir  = "$XX.txt";
+    $conlDir = "$XX.conllu";
+    $vertDir = "$XX.vert";
 
-    $outTxt = "$XX.tgz";
+    $outTei = "$XX.tgz";
     $outAna = "$XX.ana.tgz";
     
-    unless (-e "$inDir/$teiDir" and -e "$inDir/$TxtDir") {
-	print STDERR "WARN: *Cant find $teiDir or $TxtDir, won't pack .TEI version!\n";
+    unless (-e "$inDir/$teiDir" and -e "$inDir/$txtDir") {
+	print STDERR "WARN: *Cant find $teiDir or $txtDir, won't pack .TEI version!\n";
     }
     else {
-	print STDERR "INFO: *Packing $teiDir, $TxtDir\n";
-	`rm -fr $outDir/$outTxt`;
-	`cd $inDir; tar -czf $outTxt --mode='a+rwX' $teiDir $TxtDir`;
-	move("$inDir/$outTxt", $outDir);
+	print STDERR "INFO: *Packing $teiReadme, $teiDir/, $txtDir/\n";
+	die "FATAL ERROR: Can't find $inDir/$teiReadme\n" unless -e "$inDir/$teiReadme";
+	die "FATAL ERROR: Can't find $inDir/$txtDir\n" unless -e "$inDir/$txtDir";
+	`rm -fr $outDir/$outTei`;
+	`cd $inDir; tar -czf $outTei --mode='a+rwX' $teiReadme $teiDir $txtDir`;
+	move("$inDir/$outTei", $outDir);
     }
     
-    print STDERR "INFO: *Packing $anaDir, $ConlDir, $VertDir\n";
+    print STDERR "INFO: *Packing $anaReadme, $anaDir/, $conlDir/, $vertDir/\n";
     if (-e "$inDir/$anaDir/$XX.ana.xml") {
+	die "FATAL ERROR: Can't find $inDir/$anaReadme\n" unless -e "$inDir/$anaReadme";
+        die "FATAL ERROR: Can't find $inDir/$anaDir\n" unless -e "$inDir/$anaDir"; 
+        die "FATAL ERROR: Can't find $inDir/$conlDir\n" unless -e "$inDir/$conlDir";
+        die "FATAL ERROR: Can't find $inDir/$vertDir\n" unless -e "$inDir/$vertDir";
         `rm -fr $outDir/$outAna`;
-        die "Can't find $inDir/$anaDir\n" unless -e "$inDir/$anaDir"; 
-        die "Can't find $inDir/$ConlDir\n" unless -e "$inDir/$ConlDir";
-        die "Can't find $inDir/$VertDir\n" unless -e "$inDir/$VertDir";
-        `cd $inDir; tar -czf $outAna --mode='a+rwX' $anaDir $ConlDir $VertDir`;
+        `cd $inDir; tar -czf $outAna --mode='a+rwX' $anaDir $anaReadme $conlDir $vertDir`;
         move("$inDir/$outAna", $outDir);
     }
     else {

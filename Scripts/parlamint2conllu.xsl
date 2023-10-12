@@ -240,7 +240,7 @@
         </xsl:call-template>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:text>-1</xsl:text>
+        <xsl:text>0</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
     <xsl:text>&#9;</xsl:text>
@@ -252,7 +252,7 @@
         </xsl:call-template>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:text>-</xsl:text>
+        <xsl:text>_</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
     <xsl:text>&#9;</xsl:text>
@@ -279,16 +279,17 @@
   <xsl:template name="head">
     <xsl:param name="links"/>
     <xsl:param name="id" select="@xml:id"/>
-    <xsl:variable name="link" select="$links//tei:link[matches(@target,concat(' #',$id,'$'))]"/>
-    <xsl:variable name="head_id" select="substring-before($link/@target,' ')"/>
+    <!-- We need to take only the first link, in case of errros in linkGrp (two links with same token in FI) -->
+    <xsl:variable name="link" select="$links//tei:link[matches(@target,concat(' #', $id, '$'))][1]"/>
+    <xsl:variable name="head_id" select="substring-before($link/@target, ' ')"/>
     <xsl:choose>
-      <xsl:when test="key('idr', $head_id)/local-name()= 's'">0</xsl:when>
-      <xsl:when test="key('idr', $head_id)[local-name()='pc' or local-name()='w']">
+      <xsl:when test="key('idr', $head_id)/local-name() = 's'">0</xsl:when>
+      <xsl:when test="key('idr', $head_id)[local-name() = 'pc' or local-name() = 'w']">
         <xsl:apply-templates mode="number" select="key('idr', $head_id)"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:message terminate="no" select="concat('ERROR: syntactic head ', $head_id, ' not found for id ', $id)"/>
-        <xsl:text></xsl:text>
+        <xsl:message select="concat('ERROR: syntactic head ', $head_id, ' not found for token ', $id)"/>
+        <xsl:text>0</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -315,13 +316,20 @@
   <xsl:template name="rel">
     <xsl:param name="links"/>
     <xsl:param name="id" select="@xml:id"/>
+    <!-- We need to take only the first link, in case of errros in linkGrp (two links with same token in FI) -->
     <xsl:variable name="link" select="$links//tei:link
-                                      [matches(@target, concat(' #', $id, '$'))]"/>
+                                      [matches(@target, concat(' #', $id, '$'))][1]"/>
     <!-- In TEI : was changed to _ so it doesn't clash with extended pointer prefixes -->
-    <!-- This is a shorthand way of doing it, should follow the link to the category/term -->
-    <xsl:value-of select="replace(
-                          substring-after($link/@ana, ':'),
-                          '_', ':')"/>
+    <!-- This is a shorthand way of doing it, should really follow the link to the category/term -->
+    <xsl:variable name="rel" select="replace(substring-after($link/@ana, ':'), '_', ':')"/>
+    <xsl:choose>
+      <xsl:when test="normalize-space($rel)">
+	<xsl:value-of select="$rel"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:text>_</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <!-- Output NER feature (for MISC column) -->

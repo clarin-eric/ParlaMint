@@ -6,7 +6,7 @@
 <note type="narrative" content="А.В.ПАРУБІЙ"/>
 <note type="time" content="16:01:32"/>
 <note type="speaker" content="ГОЛОВУЮЧИЙ."/>
-<speech id="ParlaMint-UA_2015-12-08-m1.u1" text_id="ParlaMint-UA_2015-12-08-m1" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="3" meeting="-" sitting="2015-12-08" agenda="-" date="2015-12-08" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 3 сесія, дата пленарного засідання 2015-12-08, номер засідання №1" speaker_role="головуючий" speaker_id="АндрійВолодимировичПарубій.1971" speaker_name="Володимирович Парубій, Андрій" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1971">
+<speech id="ParlaMint-UA_2015-12-08-m1.u1" text_id="ParlaMint-UA_2015-12-08-m1" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="3" meeting="-" sitting="2015-12-08" agenda="-" date="2015-12-08" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 3 сесія, дата пленарного засідання 2015-12-08, номер засідання №1" speaker_role="головуючий" speaker_id="АндрійВолодимировичПарубій.1971" speaker_name="Володимирович Парубій, Андрій" speaker_mp="MP" speaker_minister="notMinister" speaker_party="НФ" speaker_party_name="Політична партія \"Народний фронт\"" party_status="-" party_orientation="--" speaker_gender="M" speaker_birth="1971">
 <p id="ParlaMint-UA_2015-12-08-m1.u1.p1" lang="Українська">
 <s id="ParlaMint-UA_2015-12-08-m1.u1.p1.s1">
 Шановні	Шановні	шановний	ADJ	Case=Nom Number=Plur	w1	amod	колега	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Plur	w2
@@ -639,7 +639,7 @@
 </speech>
 <note type="time" content="16:09:10"/>
 <note type="speaker" content="КУТОВИЙ Т.В."/>
-<speech id="ParlaMint-UA_2015-12-08-m1.u2" text_id="ParlaMint-UA_2015-12-08-m1" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="3" meeting="-" sitting="2015-12-08" agenda="-" date="2015-12-08" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 3 сесія, дата пленарного засідання 2015-12-08, номер засідання №1" speaker_role="регулярний" speaker_id="ТарасВікторовичКутовий.1976" speaker_name="Вікторович Кутовий, Тарас" speaker_mp="MP" speaker_minister="notMinister" speaker_party="фБПП" speaker_party_name="Фракція партії «Блок Петра Порошенка»" party_status="Coalition" party_orientation="--" speaker_gender="M" speaker_birth="1976">
+<speech id="ParlaMint-UA_2015-12-08-m1.u2" text_id="ParlaMint-UA_2015-12-08-m1" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="3" meeting="-" sitting="2015-12-08" agenda="-" date="2015-12-08" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 3 сесія, дата пленарного засідання 2015-12-08, номер засідання №1" speaker_role="регулярний" speaker_id="ТарасВікторовичКутовий.1976" speaker_name="Вікторович Кутовий, Тарас" speaker_mp="MP" speaker_minister="notMinister" speaker_party="фБПП" speaker_party_name="Фракція партії «Блок Петра Порошенка»" party_status="Coalition" party_orientation="---" speaker_gender="M" speaker_birth="1976">
 <p id="ParlaMint-UA_2015-12-08-m1.u2.p1" lang="Українська">
 <s id="ParlaMint-UA_2015-12-08-m1.u2.p1.s1">
 Шановні	Шановні	шановний	ADJ	Case=Voc Number=Plur	w1	amod	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w2
@@ -1127,7 +1127,7 @@
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-UA_2015-12-08-m1.u105" text_id="ParlaMint-UA_2015-12-08-m1" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="3" meeting="-" sitting="2015-12-08" agenda="-" date="2015-12-08" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 3 сесія, дата пленарного засідання 2015-12-08, номер засідання №1" speaker_role="регулярний" speaker_id="ВікторіяПетрівнаСюмар.1977" speaker_name="Петрівна Сюмар, Вікторія" speaker_mp="MP" speaker_minister="notMinister" speaker_party="фНФ" speaker_party_name="Фракція Політичної партії \"Народний фронт\"" party_status="Coalition" party_orientation="--" speaker_gender="F" speaker_birth="1977">
+<speech id="ParlaMint-UA_2015-12-08-m1.u105" text_id="ParlaMint-UA_2015-12-08-m1" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="3" meeting="-" sitting="2015-12-08" agenda="-" date="2015-12-08" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 3 сесія, дата пленарного засідання 2015-12-08, номер засідання №1" speaker_role="регулярний" speaker_id="ВікторіяПетрівнаСюмар.1977" speaker_name="Петрівна Сюмар, Вікторія" speaker_mp="MP" speaker_minister="notMinister" speaker_party="НФ" speaker_party_name="Політична партія \"Народний фронт\"" party_status="-" party_orientation="--" speaker_gender="F" speaker_birth="1977">
 <p id="ParlaMint-UA_2015-12-08-m1.u105.p1" lang="Українська">
 <s id="ParlaMint-UA_2015-12-08-m1.u105.p1.s1">
 Колеги	Колеги	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w1	vocative	говорити	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w6
@@ -1329,7 +1329,7 @@
 </p>
 </speech>
 <note type="speaker" content="ГОЛОВУЮЧИЙ."/>
-<speech id="ParlaMint-UA_2015-12-08-m1.u106" text_id="ParlaMint-UA_2015-12-08-m1" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="3" meeting="-" sitting="2015-12-08" agenda="-" date="2015-12-08" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 3 сесія, дата пленарного засідання 2015-12-08, номер засідання №1" speaker_role="головуючий" speaker_id="АндрійВолодимировичПарубій.1971" speaker_name="Володимирович Парубій, Андрій" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1971">
+<speech id="ParlaMint-UA_2015-12-08-m1.u106" text_id="ParlaMint-UA_2015-12-08-m1" subcorpus="референтний" lang="Українська" body="однопалатний парламент" term="8" session="3" meeting="-" sitting="2015-12-08" agenda="-" date="2015-12-08" title="Корпус Верховної Ради України ParlaMint-UA, 8 скликання, 3 сесія, дата пленарного засідання 2015-12-08, номер засідання №1" speaker_role="головуючий" speaker_id="АндрійВолодимировичПарубій.1971" speaker_name="Володимирович Парубій, Андрій" speaker_mp="MP" speaker_minister="notMinister" speaker_party="НФ" speaker_party_name="Політична партія \"Народний фронт\"" party_status="-" party_orientation="--" speaker_gender="M" speaker_birth="1971">
 <p id="ParlaMint-UA_2015-12-08-m1.u106.p1" lang="Українська">
 <s id="ParlaMint-UA_2015-12-08-m1.u106.p1.s1">
 Дякую	Дякую	дякувати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-

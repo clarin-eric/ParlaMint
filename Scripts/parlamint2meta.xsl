@@ -47,6 +47,7 @@
     
   <xsl:template match="tei:TEI">
     <xsl:message select="concat('INFO: Converting ', @xml:id, ' to metadata TSV')"/>
+    <xsl:text>Text_ID&#9;</xsl:text>
     <xsl:text>ID&#9;</xsl:text>
     <xsl:text>Title&#9;</xsl:text>
     <xsl:text>Date&#9;</xsl:text>
@@ -57,22 +58,28 @@
     <xsl:text>Sitting&#9;</xsl:text>
     <xsl:text>Agenda&#9;</xsl:text>
     <xsl:text>Subcorpus&#9;</xsl:text>
+    <xsl:text>Lang&#9;</xsl:text>
     <xsl:text>Speaker_role&#9;</xsl:text>
     <xsl:text>Speaker_MP&#9;</xsl:text>
-    <xsl:text>Speaker_Minister&#9;</xsl:text>
+    <xsl:text>Speaker_minister&#9;</xsl:text>
     <xsl:text>Speaker_party&#9;</xsl:text>
     <xsl:text>Speaker_party_name&#9;</xsl:text>
     <xsl:text>Party_status&#9;</xsl:text>
+    <xsl:text>Party_orientation&#9;</xsl:text>
+    <xsl:text>Speaker_ID&#9;</xsl:text>
     <xsl:text>Speaker_name&#9;</xsl:text>
     <xsl:text>Speaker_gender&#9;</xsl:text>
     <xsl:text>Speaker_birth</xsl:text>
-    <!--xsl:text>Tokens</xsl:text-->
     <xsl:text>&#10;</xsl:text>
     <xsl:apply-templates select=".//tei:u"/>
   </xsl:template>
   
   <xsl:template match="tei:u">
+    <xsl:variable name="lang">
+      <xsl:call-template name="u-langs"/>
+    </xsl:variable>
     <!-- Text metadata -->
+    <xsl:value-of select="concat($text_id, '&#9;')"/>
     <xsl:value-of select="concat(@xml:id, '&#9;')"/>
     <xsl:value-of select="concat($title, '&#9;')"/>
     <xsl:value-of select="concat($at-date, '&#9;')"/>
@@ -83,22 +90,17 @@
     <xsl:value-of select="concat($sitting, '&#9;')"/>
     <xsl:value-of select="concat($agenda, '&#9;')"/>
     <xsl:value-of select="concat($subcorpus, '&#9;')"/>
+    <xsl:value-of select="concat($lang, '&#9;')"/>
     <!-- Speaker metadata -->
     <xsl:value-of select="concat(et:u-role(@ana), '&#9;')"/>
     <xsl:variable name="speaker" select="key('idr', @who, $rootHeader)"/>
     <xsl:choose>
-      <xsl:when test="not(@who)">
+      <xsl:when test="not(@who or normalize-space($speaker))">
+	<xsl:if test="@who and not(normalize-space($speaker))">
+          <xsl:message select="concat('ERROR: Cant find speaker for ', @who, ' in ', @xml:id)"/>
+	</xsl:if>
         <xsl:text>-&#9;</xsl:text>
         <xsl:text>-&#9;</xsl:text>
-        <xsl:text>-&#9;</xsl:text>
-        <xsl:text>-&#9;</xsl:text>
-        <xsl:text>-&#9;</xsl:text>
-        <xsl:text>-&#9;</xsl:text>
-        <xsl:text>-&#9;</xsl:text>
-        <xsl:text>-</xsl:text>
-      </xsl:when>
-      <xsl:when test="not(normalize-space($speaker))">
-        <xsl:message select="concat('ERROR: Cant find speaker for ', @who, ' in ', @xml:id)"/>
         <xsl:text>-&#9;</xsl:text>
         <xsl:text>-&#9;</xsl:text>
         <xsl:text>-&#9;</xsl:text>
@@ -114,6 +116,8 @@
         <xsl:value-of select="concat(et:speaker-party($speaker, 'abb'), '&#9;')"/>
         <xsl:value-of select="concat(et:speaker-party($speaker, 'yes'), '&#9;')"/>
         <xsl:value-of select="concat(et:party-status($speaker), '&#9;')"/>
+        <xsl:value-of select="concat(et:party-orientation($speaker), '&#9;')"/>
+        <xsl:value-of select="concat(substring-after(@who, '#'), '&#9;')"/>
         <xsl:value-of select="concat(et:format-name-chrono($speaker//tei:persName, $at-date), '&#9;')"/>
         <xsl:choose>
           <xsl:when test="$speaker/tei:sex">

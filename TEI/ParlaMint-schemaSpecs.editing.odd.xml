@@ -521,6 +521,9 @@
           <valItem ident="foreign"/>
         </valList>
       </attDef>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="n"/>
     </attList>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
@@ -566,15 +569,12 @@
     <exemplum xml:lang="en" versionDate="2021-03-15">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <p>Example of <gi>desc</gi> elements for transcriber comments:</p>
-        
         <gap reason="inaudible">
           <desc>speaker spoke too quietly, not understood</desc>
         </gap>
-        
         <kinesic type="applause">
           <desc xml:lang="sl">ploskanje</desc>
         </kinesic>
-        
         <vocal type="interruption">
           <desc>sounds from the chamber</desc>
         </vocal>
