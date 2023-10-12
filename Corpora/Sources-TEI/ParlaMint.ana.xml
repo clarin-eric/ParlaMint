@@ -1005,7 +1005,8 @@
          </editionStmt>
          <extent>
             <measure unit="corpora" quantity="29">29 corpora</measure>
-            <measure unit="speeches" quantity="6166949">6,166,949 speeches</measure>
+            <measure unit="speeches" quantity="6168183">6,168,183 speeches</measure>
+            <measure unit="speeches" quantity="1234" corresp="#ParlaMint-AT.ana">1234 speeches</measure>
             <measure xmlns:ns1="http://www.w3.org/2001/XInclude"
                      unit="speeches"
                      quantity="126252"
@@ -1045,7 +1046,8 @@
             <measure unit="speeches" quantity="622752" corresp="#ParlaMint-SI.ana">622,752 speeches</measure>
             <measure unit="speeches" quantity="739744" corresp="#ParlaMint-TR.ana">739,744 speeches</measure>
             <measure unit="speeches" quantity="200849" corresp="#ParlaMint-UA.ana">200849 speeches</measure>
-            <measure unit="words" quantity="955070492">955,070,492 words</measure>
+            <measure unit="words" quantity="955071726">955,071,726 words</measure>
+            <measure unit="words" quantity="1234" corresp="#ParlaMint-AT.ana">1234 words</measure>
             <measure xmlns:ns1="http://www.w3.org/2001/XInclude"
                      unit="words"
                      quantity="18342890"
@@ -1096,7 +1098,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-10-05">October 5, 2023</date>
+            <date when="2023-10-12">October 12, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <listBibl corresp="#ParlaMint-AT.ana">
@@ -2159,17 +2161,9 @@
             </application>
          </appInfo>
          <appInfo xmlns:ns1="http://www.w3.org/2001/XInclude" corresp="#ParlaMint-BA.ana">
-            <application version="1.0" ident="reldi-tokeniser">
-               <label>ReLDI tokeniser</label>
-               <desc>Tokenisation and sentence segmentation with ReLDI tokeniser, available from <ref target="https://github.com/clarinsi/reldi-tokeniser">https://github.com/clarinsi/reldi-tokeniser</ref>.</desc>
-            </application>
-            <application version="1.0" ident="classla-stanfordnlp">
-               <label>CLASSLA-StanfordNLP</label>
-               <desc>MSD tagging and lemmatisation with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla-stanfordnlp">https://github.com/clarinsi/classla-stanfordnlp</ref>.</desc>
-            </application>
-            <application version="1.0" ident="janes-ner">
-               <label>NER system for South Slavic languages</label>
-               <desc>Named entity recognition done with the Janes NER program, trained for Slovene and available at <ref target="https://github.com/clarinsi/janes-ner">https://github.com/clarinsi/janes-ner</ref>.</desc>
+            <application version="2.0" ident="classla-stanza">
+               <label>CLASSLA-Stanza</label>
+               <desc>Linguistic processing with CLASSLA-Stanza, available from <ref target="https://github.com/clarinsi/classla">https://github.com/clarinsi/classla</ref>.</desc>
             </application>
          </appInfo>
          <appInfo xmlns:xi="http://www.w3.org/2001/XInclude" corresp="#ParlaMint-BE.ana">
@@ -2194,9 +2188,9 @@
             </application>
          </appInfo>
          <appInfo corresp="#ParlaMint-BG.ana">
-            <application version="1.0" ident="classla">
-               <label>CLASSLA-StanfordNLP</label>
-               <desc>Linguistic processing with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla">https://github.com/clarinsi/classla</ref>.</desc>
+            <application version="2.0" ident="classla-stanza">
+               <label>CLASSLA-Stanza</label>
+               <desc>Linguistic processing with CLASSLA-Stanza, available from <ref target="https://github.com/clarinsi/classla">https://github.com/clarinsi/classla</ref>.</desc>
             </application>
          </appInfo>
          <appInfo corresp="#ParlaMint-CZ.ana">
@@ -2324,17 +2318,9 @@
             </application>
          </appInfo>
          <appInfo corresp="#ParlaMint-HR.ana">
-            <application version="1.0" ident="reldi-tokeniser">
-               <label>ReLDI tokeniser</label>
-               <desc>Tokenisation and sentence segmentation with ReLDI tokeniser, available from <ref target="https://github.com/clarinsi/reldi-tokeniser">https://github.com/clarinsi/reldi-tokeniser</ref>.</desc>
-            </application>
-            <application version="1.0" ident="classla-stanfordnlp">
-               <label>CLASSLA-StanfordNLP</label>
-               <desc>MSD tagging and lemmatisation with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla-stanfordnlp">https://github.com/clarinsi/classla-stanfordnlp</ref>.</desc>
-            </application>
-            <application version="1.0" ident="janes-ner">
-               <label>NER system for South Slavic languages</label>
-               <desc>Named entity recognition done with the Janes NER program, trained for Slovene and available at <ref target="https://github.com/clarinsi/janes-ner">https://github.com/clarinsi/janes-ner</ref>.</desc>
+            <application version="2.0" ident="classla-stanza">
+               <label>CLASSLA-Stanza</label>
+               <desc>Linguistic processing with CLASSLA-Stanza, available from <ref target="https://github.com/clarinsi/classla">https://github.com/clarinsi/classla</ref>.</desc>
             </application>
          </appInfo>
          <appInfo corresp="#ParlaMint-HU.ana">
@@ -2464,17 +2450,9 @@
             </application>
          </appInfo>
          <appInfo corresp="#ParlaMint-RS.ana">
-            <application version="1.0" ident="reldi-tokeniser">
-               <label>ReLDI tokeniser</label>
-               <desc>Tokenisation and sentence segmentation with ReLDI tokeniser, available from <ref target="https://github.com/clarinsi/reldi-tokeniser">https://github.com/clarinsi/reldi-tokeniser</ref>.</desc>
-            </application>
-            <application version="1.0" ident="classla-stanfordnlp">
-               <label>CLASSLA-StanfordNLP</label>
-               <desc>MSD tagging and lemmatisation with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla-stanfordnlp">https://github.com/clarinsi/classla-stanfordnlp</ref>.</desc>
-            </application>
-            <application version="1.0" ident="janes-ner">
-               <label>NER system for South Slavic languages</label>
-               <desc>Named entity recognition done with the Janes NER program, trained for Slovene and available at <ref target="https://github.com/clarinsi/janes-ner">https://github.com/clarinsi/janes-ner</ref>.</desc>
+            <application version="2.0" ident="classla-stanza">
+               <label>CLASSLA-Stanza</label>
+               <desc>Linguistic processing with CLASSLA-Stanza, available from <ref target="https://github.com/clarinsi/classla">https://github.com/clarinsi/classla</ref>.</desc>
             </application>
          </appInfo>
          <appInfo corresp="#ParlaMint-SE.ana">
@@ -2484,9 +2462,9 @@
             </application>
          </appInfo>
          <appInfo corresp="#ParlaMint-SI.ana">
-            <application version="1.0" ident="classla">
-               <label>CLASSLA-StanfordNLP</label>
-               <desc>Linguistic processing with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla">https://github.com/clarinsi/classla</ref>.</desc>
+            <application version="2.0" ident="classla-stanza">
+               <label>CLASSLA-Stanza</label>
+               <desc>Linguistic processing with CLASSLA-Stanza, available from <ref target="https://github.com/clarinsi/classla">https://github.com/clarinsi/classla</ref>.</desc>
             </application>
          </appInfo>
          <appInfo corresp="#ParlaMint-TR.ana">
@@ -3015,7 +2993,7 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-10-05">
+         <change when="2023-10-12">
             <name>Tomaž Erjavec</name>: Generate root</change>
       </revisionDesc>
    </teiHeader>

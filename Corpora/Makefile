@@ -2,20 +2,17 @@
 
 ### VARIABLES
 
-# All ParlaMint II corpora
-# XXXCORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RS RO SE SI TR UA
-# Missing corpora: LT RO ES-PV
-
-######## SUBMITTED CORPORA FOR V 4.0
+### ALL ParlaMint II CORPORA
+# Missing corpora: LT RO
+# CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RS RO SE SI TR UA
+### SUBMITTED CORPORA FOR V 4.0
 # CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-
-### Partial runs:
-#DONE: AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GR HR HU IS IT LV PL PT SE
-#DOIN: NL NO (1) RS (2)
+### CURRENT STATE FOR V4:
+#DONE: AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GR HR HU IS IT LV NL PL PT RS SE SI TR UA 
+#DOIN: NO (1) 0 (2) 0 (3)
 #REDO: GB(!) GR(?) ES-PV(?)
-#TODO: SI TR UA
 #NEXT:
-CORPORA = SI
+CORPORA = UA
 
 ######## MTed CORPORA FOR V 4.0
 #MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -60,13 +57,13 @@ test-vert5:
 	-xsl:../Scripts/parlamint2xmlvert.xsl Test/test-FI.ana.xml > Test/test-FI.vert
 	#-xsl:../Scripts/parlamint2xmlvert.xsl Test/ParlaMint-FI_2015-06-02-ps-13.ana.xml > Test/test-FI.vert
 test-vert4:
-	$s meta=${HERE}/Master/ParlaMint-BG.TEI.ana/ParlaMint-BG.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
-	${HERE}/Master/ParlaMint-BG.TEI.ana/2014/ParlaMint-BG_2014-10-27.ana.xml > test.vert
+	$s meta=${HERE}/Master/ParlaMint-GB.TEI.ana/ParlaMint-GB.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
+	${HERE}/Master/ParlaMint-GB.TEI.ana/2015/ParlaMint-GB_2015-01-06-commons.ana.xml > test.vert
 test-vert3:
 	$s meta=${HERE}/Master/ParlaMint-UA.TEI.ana/ParlaMint-UA.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
 	${HERE}/Master/ParlaMint-UA.TEI.ana/2012/ParlaMint-UA_2012-12-04-m0.ana.xml > test.vert
 test-vert2:
-	${FINALIZE} -vert -codes ES-PV -in ${HERE}/Master -out ${HERE}/Master
+	${FINALIZE} -vert -codes GB -in ${HERE}/Master -out ${HERE}/Master
 test-vert1:
 	${FINALIZE} -vert -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
 	${FINALIZE} -vert -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
@@ -328,8 +325,8 @@ mt-test2:
 	> Test/ParlaMint-LV_2015-11-12-PT12-329.body.xml
 	xmllint --noout Test/ParlaMint-LV_2015-11-12-PT12-329.body.xml
 mt-test1:
-	rm -fr Test/ParlaMint-CZ.tmp/*
-	$s outDir=Test/ParlaMint-CZ.tmp -xsl:../Scripts/mt-prepare4mt.xsl ${HERE}/Master/ParlaMint-CZ.TEI.ana/ParlaMint-CZ.ana.xml
+	rm -fr Test/ParlaMint-LV.tmp/*
+	$s outDir=Test/ParlaMint-LV.tmp -xsl:../Scripts/mt-prepare4mt.xsl ${HERE}/Master/ParlaMint-LV.TEI.ana/ParlaMint-LV.ana.xml
 
 ### Some idea, need to think about it!
 #REGIS=at ba be bg cz dk es_ct fr gb gr hr hu is it lv nl no pl pt rs se si tr ua
