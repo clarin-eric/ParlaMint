@@ -69,7 +69,7 @@
     <!-- Localised title of a corpus component: subtitle, if exists, otherwise main title -->
     <xsl:variable name="title">
       <xsl:variable name="titles">
-	<xsl:apply-templates mode="XInclude" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+	<xsl:apply-templates mode="expand" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
       </xsl:variable>
       <xsl:variable name="subtitles" select="et:l10n($corpus-language, $titles[@type='sub'])"/>
       <xsl:choose>
@@ -151,26 +151,26 @@
             <xsl:text> given as "meta" parameter not found !</xsl:text>
           </xsl:message>
         </xsl:if>
-        <xsl:apply-templates mode="XInclude" select="document($meta)//tei:teiHeader">
+        <xsl:apply-templates mode="expand" select="document($meta)//tei:teiHeader">
 	  <xsl:with-param name="lang" select="document($meta)/tei:*/@xml:lang"/>
 	</xsl:apply-templates>
       </xsl:when>
       <xsl:when test="/tei:teiCorpus/tei:teiHeader">
-        <xsl:apply-templates mode="XInclude" select="/tei:teiCorpus/tei:teiHeader"/>
+        <xsl:apply-templates mode="expand" select="/tei:teiCorpus/tei:teiHeader"/>
       </xsl:when>
     </xsl:choose>
   </xsl:variable>
   
   <!-- TEMPLATES WITH SPECIAL MODES -->
 
-  <!-- Copy input element to output with XIncluding the files 
-       ALSO: puts @xml:lang on all elements; the value is taken from the closest ancestor 
-       or given as a paramter if the input does not have ancestor with @xml:lang i.e. root -->
-  <xsl:template mode="XInclude" match="tei:*">
+  <!-- Copy input element to output but XInclude files and 
+       put @xml:lang on all elements; the value is taken from the closest ancestor 
+       or given as a parameter if the input does not have ancestor with @xml:lang -->
+  <xsl:template mode="expand" match="tei:*">
     <xsl:param name="lang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
     <xsl:variable name="thisLang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
     <xsl:copy>
-      <xsl:apply-templates mode="XInclude" select="@*"/>
+      <xsl:apply-templates mode="expand" select="@*"/>
       <!-- Copy over language to every element, so we can immediatelly know which langauge it is in -->
       <xsl:attribute name="xml:lang">
 	<xsl:choose>
@@ -182,15 +182,15 @@
 	  </xsl:otherwise>
 	</xsl:choose>
       </xsl:attribute>
-      <xsl:apply-templates mode="XInclude">
+      <xsl:apply-templates mode="expand">
 	<xsl:with-param name="lang" select="$lang"/>
       </xsl:apply-templates>
     </xsl:copy>
   </xsl:template>
-  <xsl:template mode="XInclude" match="xi:include">
-    <xsl:apply-templates mode="XInclude" select="document(@href)"/>
+  <xsl:template mode="expand" match="xi:include">
+    <xsl:apply-templates mode="expand" select="document(@href)"/>
   </xsl:template>
-  <xsl:template mode="XInclude" match="@*">
+  <xsl:template mode="expand" match="@*">
     <xsl:copy/>
   </xsl:template>
 
@@ -305,7 +305,7 @@
     <xsl:variable name="result">
       <xsl:variable name="idref" select="concat('#', $ref)"/>
       <xsl:variable name="meetings">
-	<xsl:apply-templates mode="XInclude" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:meeting"/>
+	<xsl:apply-templates mode="expand" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:meeting"/>
       </xsl:variable>
       <xsl:for-each select="$meetings/tei:meeting">
         <xsl:variable name="name">
