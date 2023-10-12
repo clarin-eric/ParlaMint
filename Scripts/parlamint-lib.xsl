@@ -66,6 +66,36 @@
     <xsl:value-of select="$date/@when"/>
   </xsl:variable>
   
+    <!-- Localised title of a corpus component: subtitle, if exists, otherwise main title -->
+    <xsl:variable name="title">
+      <xsl:variable name="titles">
+	<xsl:apply-templates mode="XInclude" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+      </xsl:variable>
+      <xsl:variable name="subtitles" select="et:l10n($corpus-language, $titles[@type='sub'])"/>
+      <xsl:choose>
+        <xsl:when test="normalize-space($subtitles[2])">
+	  <xsl:variable name="joined-subtitles">
+	    <xsl:variable name="j-s">
+	      <xsl:for-each select="$subtitles/self::tei:*">
+		<xsl:value-of select="concat(., $body-separator)"/>
+	      </xsl:for-each>
+	    </xsl:variable>
+	    <xsl:value-of select="replace($j-s, concat('\', $body-separator, '$'), '')"/>
+	  </xsl:variable>
+          <xsl:message select="concat('INFO: Joining subtitles: ', $joined-subtitles, ' in ', /tei:*/@xml:id)"/>
+	  <xsl:value-of select="$joined-subtitles"/>
+        </xsl:when>
+        <xsl:when test="normalize-space($subtitles)">
+          <xsl:value-of select="$subtitles"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:variable name="main-title" select="et:l10n($corpus-language, $titles[@type='main'])"/>
+	  <!-- Remove [ParlaMint] stamp -->
+          <xsl:value-of select="replace($main-title, '\s*\[.+\]$', '')"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    
   <!-- Parliamentary body, term, session, meeting, sitting, agenda number or label of a corpus compoment -->
   <xsl:variable name="body">
     <xsl:call-template name="body"/>

@@ -24,36 +24,6 @@
   <xsl:param name="note-open">[</xsl:param>
   <xsl:param name="note-close">]</xsl:param>
 
-  <!-- Store sub title, if it exists, otherwise main title -->
-  <xsl:variable name="title">
-    <xsl:variable name="titles" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
-    <xsl:variable name="subtitles" select="et:l10n($corpus-language, $titles[@type='sub'])"/>
-    <xsl:choose>
-      <xsl:when test="normalize-space($subtitles[2])">
-	<xsl:variable name="joined-subtitles">
-	  <xsl:for-each select="$subtitles/self::tei:*">
-	    <xsl:value-of select="concat(., ' + ')"/>
-	  </xsl:for-each>
-	</xsl:variable>
-        <xsl:message>
-          <xsl:text>INFO: Joining subtitles: </xsl:text>
-          <xsl:value-of select="replace($joined-subtitles, ' \+ $', '')"/>
-          <xsl:text> in </xsl:text>
-          <xsl:value-of select="/tei:*/@xml:id"/>
-        </xsl:message>
-	<xsl:value-of select="replace($joined-subtitles, ' \+ $', '')"/>
-      </xsl:when>
-      <xsl:when test="normalize-space($subtitles)">
-        <xsl:value-of select="$subtitles"/>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:variable name="main-title" select="et:l10n($corpus-language, $titles[@type='main'])"/>
-	<!-- Remove [ParlaMint] stamp -->
-        <xsl:value-of select="replace($main-title, '\s*\[.+\]$', '')"/>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:variable>
-  
   <xsl:template match="@*"/>
   <xsl:template match="text()"/>
   <xsl:template match="tei:*">
