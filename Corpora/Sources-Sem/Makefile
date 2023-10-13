@@ -1,8 +1,7 @@
-find-bug:
-	./find-usas-bug.pl 'USAS/ParlaMint-*-en.conllu/*/*.conllu' > USAS-bug.txt
+fix-taxo:
+	$s -xsl:bin/usas-tsv2taxonomy.xsl tsv=../tags.tsv ../Taxonomies/ParlaMint-taxonomy-USAS.ana.xml  > usas-taxo.xml
 get-tags:
-	get-usas-tags.pl USAS/ParlaMint-*-en.conllu > tags1.txt
-	cut -f1 tags1.txt | perl -pe 's/ /\n/g; s/sem://g' | sort | uniq > tags2.txt
+	bin/get-usas-tags.pl USAS/ParlaMint-*-en.conllu > tags-all.tsv
 
 sem-test4:
 	perl ../../Scripts/conllu2tei.pl \
