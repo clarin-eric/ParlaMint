@@ -1,7 +1,9 @@
 fix-taxo:
 	$s -xsl:bin/usas-tsv2taxonomy.xsl tsv=../tags.tsv ../Taxonomies/ParlaMint-taxonomy-USAS.ana.xml  > usas-taxo.xml
+nohup-tags:
+	nohup time make get-tags > tags.log &
 get-tags:
-	bin/get-usas-tags.pl USAS/ParlaMint-*-en.conllu > tags-all.tsv
+	bin/get-usas-tags.pl 'ParlaMint-*-en.conllu' > tags-all.tsv
 
 sem-test4:
 	perl ../../Scripts/conllu2tei.pl \
