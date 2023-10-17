@@ -52,6 +52,22 @@
       <xsl:choose>
         <xsl:when test="key('idr', @who, $rootHeader)/@xml:id">
           <xsl:variable name="speaker" select="key('idr', @who, $rootHeader)"/>
+          <xsl:variable name="gender">
+	    <xsl:choose>
+	      <xsl:when test="$speaker/tei:sex/@value">
+		<xsl:value-of select="$speaker/tei:sex/@value"/>
+	      </xsl:when>
+	      <xsl:otherwise>-</xsl:otherwise>
+	    </xsl:choose>
+	  </xsl:variable>
+          <xsl:variable name="birth">
+	    <xsl:choose>
+	      <xsl:when test="$speaker/tei:birth/@when">
+		<xsl:value-of select="replace($speaker/tei:birth/@when, '-.+', '')"/>
+	      </xsl:when>
+	      <xsl:otherwise>-</xsl:otherwise>
+	    </xsl:choose>
+	  </xsl:variable>
           <xsl:attribute name="speaker_id" select="$speaker/@xml:id"/>
           <xsl:attribute name="speaker_name" select="et:format-name-chrono(
                                                      $speaker//tei:persName, 
@@ -62,8 +78,8 @@
           <xsl:attribute name="speaker_party_name" select="et:speaker-party($speaker, 'yes')"/>
           <xsl:attribute name="party_status" select="et:party-status($speaker)"/>
           <xsl:attribute name="party_orientation" select="et:party-orientation($speaker)"/>
-          <xsl:attribute name="speaker_gender" select="$speaker/tei:sex/@value"/>
-          <xsl:attribute name="speaker_birth" select="replace($speaker/tei:birth/@when, '-.+', '')"/>
+          <xsl:attribute name="speaker_gender" select="$gender"/>
+          <xsl:attribute name="speaker_birth" select="$birth"/>
         </xsl:when>
 	<!-- A speaker that does not have a corresponding <person> element -->
         <xsl:when test="normalize-space(@who)">
