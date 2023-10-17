@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 # Fix MTed CoNLL-U files:
-# shorten too long sentences vis a vis orignal
-# sort features and take care of SpaceAfter
-#
+# - shorten too long sentences vis a vis orignal
+# - sort features and take care of SpaceAfter
+# - merge metadata with original CoNLL-U files
 use warnings;
 use utf8;
 use open ':utf8';
@@ -26,11 +26,11 @@ if (not $origDir or $origDir eq '-') {$origDir = ''}
 
 foreach $inDir (glob $inDirs) {
     ($corpus) = $inDir =~ m|(ParlaMint-[A-Z-]+)[\.-]|
-	or die "Strange directory $inDir\n";
+	or die "FATAL ERROR: Strange directory $inDir\n";
     $outCDir = "$outDir/$corpus-en.conllu";
     if ($origDir) {
 	$origCDir = "$origDir/$corpus.conllu";
-	die "Can't find directory with original CoNLL-U $origCDir\n"
+	die "FATAL ERROR: Can't find directory with original CoNLL-U $origCDir\n"
 	    unless -d $origCDir;
     }
     print STDERR "INFO: Doing $corpus ($inDir -> $outCDir)\n";
@@ -38,7 +38,7 @@ foreach $inDir (glob $inDirs) {
 	print STDERR "INFO: Creating $outCDir\n";
 	`mkdir $outCDir`
     }
-    die "Can't find $outCDir\n" unless -e $outCDir;
+    die "FATAL ERROR: Can't find $outCDir\n" unless -e $outCDir;
     foreach $inYDir (glob "$inDir/*") {
 	next unless ($year) = $inYDir =~ m|(\d\d\d\d)$|;
 	# print STDERR "INFO: Doing $year\n";
@@ -51,14 +51,14 @@ foreach $inDir (glob $inDirs) {
 	    print STDERR "INFO: Creating $outYDir\n";
 	    `mkdir $outYDir`
 	}
-	die "Can't find $outYDir\n" unless -e $outYDir;
+	die "FATAL ERROR: Can't find $outYDir\n" unless -e $outYDir;
 	foreach $inFile (glob "$inYDir/*.conllu") {
 	    ($fName) = $inFile =~ m|/([^/]+\.conllu)$|;
 	    $fName =~ s|_|-en_| unless $fName =~ m|-en_|;
 	    if ($origDir) {
 		$origFile = "$origYDir/$fName";
 		$origFile =~ s|-en_|_|;
-		die "Can't find original CoNLL-U file $origFile\n"
+		die "FATAL ERROR: Can't find original CoNLL-U file $origFile\n"
 		    unless -e $origFile;
 	    }
 	    else {$origFile = ''}
@@ -76,10 +76,10 @@ sub cp {
     my $outFile = shift;
     my $src;
     my $trg;
-    open(IN, '<:utf8', $inFile) or die;
-    open(OUT, '>:utf8', $outFile) or die;
+    open(IN, '<:utf8', $inFile) or die "FATAL ERROR: can't open input file $inFile\n";
+    open(OUT, '>:utf8', $outFile) or die "FATAL ERROR: can't open output file $inFile\n";
     if ($origFile) {
-	open(OR, '<:utf8', $origFile) or die;
+	open(OR, '<:utf8', $origFile) or die "FATAL ERROR: can't open original file $inFile\n";
     }
     $/ = "\n\n";
     while (<IN>) {
