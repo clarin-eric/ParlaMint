@@ -1,5 +1,6 @@
 fix-taxo:
-	$s -xsl:bin/usas-tsv2taxonomy.xsl tsv=../tags.tsv ../Taxonomies/ParlaMint-taxonomy-USAS.ana.xml  > usas-taxo.xml
+	$s -xsl:bin/usas-tsv2taxonomy.xsl tsv=../tags-all.tsv ../Taxonomies/ParlaMint-taxonomy-USAS.ana.xml  > usas-taxo.xml
+	${vta} usas-taxo.xml
 nohup-tags:
 	nohup time make get-tags > tags.log &
 get-tags:
@@ -66,3 +67,4 @@ get:
 s = java -jar /usr/share/java/saxon.jar
 j = java -jar /usr/share/java/jing.jar
 P = parallel --gnu --halt 2
+vta = $j ../../Schema/ParlaMint-taxonomy.rng		# Corpus TEI taxonomy
