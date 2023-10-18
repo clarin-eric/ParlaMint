@@ -54,9 +54,4 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     $inVertDir  = "$inDir/$XX.vert";
     $outVert    = "$outDir/$XX.$Version.vert";
     `find $inVertDir -type f -name '*.vert' -print | sort -r | xargs cat | gzip > $outVert.gz`;
-    $registry = '*_' . lc($countryCode) . ".regi";
-    $registry =~ s/-/_/g; #Change e.g. es-ct to es_ct
-    $registryFile = $inVertDir . "/" . $registry;
-    if (-e $registryFile) {`cp $registryFile $outDir/`}
-    else {print STDERR "ERROR: Can't find registry file $inVertDir/$registry\n"}
 }
