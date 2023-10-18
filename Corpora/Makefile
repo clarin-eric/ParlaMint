@@ -6,17 +6,14 @@
 # Missing corpora: LT RO
 # CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RS RO SE SI TR UA
 ### SUBMITTED CORPORA FOR V 4.0
-# CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-### CURRENT STATE FOR V4:
-#DONE: AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA 
-#DOIN: 
-#REDO: FI, GR(?) ES-PV(?)
-#NEXT:
-CORPORA = FI
+#CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+# Redo (empty title)
+#CORPORA = ES-PV FI UA NO GB
+CORPORA = ES-PV
 
 ######## MTed CORPORA FOR V 4.0
-#MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
-MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
+#MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en ES-PV-en FI-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
+MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GB-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
 MT-CORPORA = LV-en
 
 # Used in test targets:
@@ -52,6 +49,8 @@ test-tei2:
 	${FINALIZE} -valid -codes FI -in ${HERE}/Master -out ${HERE}/Master
 test-tei1:
 	${FINALIZE} -tei -valid -codes FI -in ${HERE}/Temp -out ${HERE}/Temp/Out
+test-vert6:
+	../Scripts/parlamintp-tei2vert-xx.pl ${HERE}/Master/ParlaMint-LV.TEI.ana Test/ParlaMint-LV-xx.vert
 test-vert5:
 	$s meta=../Corpora/Master/ParlaMint-FI.TEI.ana/ParlaMint-FI.ana.xml \
 	-xsl:../Scripts/parlamint2xmlvert.xsl Test/test-FI.ana.xml > Test/test-FI.vert
@@ -166,12 +165,29 @@ samples:
 	${FINALIZE} -sample -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}-samples.log; \
 	done;
 
+# Make vertical with en metadata, a hack:
+XX-CORPORA = AT-xx BA-xx BE-xx BG-xx CZ-xx DK-xx EE-xx ES-xx ES-xx ES-CT-xx ES-GA-xx ES-PV-xx FI-xx FR-xx GB-xx GR-xx HR-xx HU-xx IS-xx IT-xx LV-xx NL-xx NO-xx PL-xx PT-xx RS-xx SE-xx SI-xx TR-xx UA-xx
+# Test: make make-verts-xx CORPORA='LV ES-CT'
+make-verts-xx-nohup:
+	nohup time make make-verts-xx > Logs/ParlaMint-Verts-xx.log &
+make-verts-xx:
+	for CORPUS in ${CORPORA}; do \
+	../Scripts/parlamintp-tei2vert-xx.pl ${HERE}/Master/ParlaMint-$${CORPUS}.TEI.ana Temp/ParlaMint-$${CORPUS}-xx.vert; \
+	done;
+	perl ../Scripts/join-all-verts.pl -codes '${XX-CORPORA}' -in 'Temp' -out Verts/ParlaMint-XX.${VERSION}.vert
+
 # Make vertical files only
 make-verts:
 	for CORPUS in ${CORPORA}; do \
 	${FINALIZE} -vert -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master; \
 	done;
 	make verts
+
+# Don't make TEI but only text, vert and conllu files only
+make-conll-vert-txt:
+	for CORPUS in ${CORPORA}; do \
+	${FINALIZE} -txt -vert -conll -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master; \
+	done;
 
 # Make overall root(.ana) for ParlaMint in Sources-TEI/ or Master/
 source-roots:
@@ -270,11 +286,11 @@ mt-make-verts:
 
 # Join verts only
 mt-verts:
-	perl ../Scripts/join-all-verts.pl     -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX.3.0.vert
-	perl ../Scripts/join-all-verts.pl -en -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX-en.3.0.vert
+	perl ../Scripts/join-all-verts.pl     -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX.${VERSION}.vert
+	perl ../Scripts/join-all-verts.pl -en -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX-en.${VERSION}.vert
 	# Sanity check
-	zcat Verts/ParlaMint-XX.3.0.vert.gz | grep -c '</s>' 
-	zcat Verts/ParlaMint-XX-en.3.0.vert.gz | grep -c '</s>' 
+	zcat Verts/ParlaMint-XX.${VERSION}.vert.gz | grep -c '</s>' 
+	zcat Verts/ParlaMint-XX-en.${VERSION}.vert.gz | grep -c '</s>' 
 
 # Convert from English CoNLL-U + source .TEI.ana -> -en.TEI.ana 
 mt-convert:
