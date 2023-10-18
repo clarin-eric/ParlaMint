@@ -143,6 +143,24 @@
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
 
+  <!-- MWEs with semantic information -->
+  <xsl:template match="tei:phr[@type = 'sem']">
+    <xsl:copy>
+      <xsl:attribute name="sem_all" select="replace(@function, ',', '|')"/>
+      <xsl:variable name="sem">
+	<xsl:for-each select="tokenize(@ana, ' ')">
+	  <!-- Here we a) assume that the catDesc is only in English and b) that the extended pointer resolves to a local reference -->
+	  <xsl:value-of select="key('id', substring-after(., ':'), $rootHeader)/tei:catDesc/tei:term"/>
+	  <xsl:text>|</xsl:text>
+	</xsl:for-each>
+      </xsl:variable>
+      <xsl:attribute name="sem" select="replace($sem, '\|$', '')"/>
+      <xsl:text>&#10;</xsl:text>
+      <xsl:apply-templates/>
+    </xsl:copy>
+    <xsl:text>&#10;</xsl:text>
+  </xsl:template>
+
   <xsl:template match="tei:name">
     <xsl:choose>
       <xsl:when test="ancestor::tei:name">
@@ -291,9 +309,9 @@
 	  </xsl:when>
 	  <xsl:otherwise>
             <!-- Syntactic relation is the English term in the UD-SYN taxonomy -->
-            <xsl:variable name="relation" select="substring-after($link/@ana,':')"/>
+            <xsl:variable name="relation" select="substring-after($link/@ana, ':')"/>
             <xsl:value-of select="et:l10n($corpus-language, key('id', $relation, $rootHeader)/tei:catDesc)/tei:term"/>
-            <xsl:variable name="target" select="key('id', replace($link/@target,'#(.+?) #.*','$1'))"/>
+            <xsl:variable name="target" select="key('id', replace($link/@target,'#(.+?) #.*', '$1'))"/>
             <xsl:choose>
               <xsl:when test="$target/self::tei:s">
 		<xsl:text>&#9;-&#9;-&#9;-&#9;-</xsl:text>
