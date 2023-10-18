@@ -551,28 +551,54 @@
     <!-- Collect all affiliation references where the speaker is a member and are in 
          the correct time-frame for the speech -->
     <xsl:variable name="refs" select="et:speaker-affiliations-refs($speaker)"/>
-    <xsl:variable name="parliamentaryGroups">
-      <xsl:for-each select="distinct-values(tokenize($refs, ' '))">
-        <xsl:variable name="party" select="key('idr', ., $rootHeader)[@role='parliamentaryGroup']"/>
-        <xsl:call-template name="party-orientation">
-          <xsl:with-param name="party" select="$party"/>
-        </xsl:call-template>
-      </xsl:for-each>
+    <!-- Orientations of all gathered parliamentary groups -->
+    <!-- The speaker should be a member of only one, but in practice sometimes isn't -->
+    <xsl:variable name="parliamentaryGroupOrientations">
+      <xsl:variable name="orientations">
+	<xsl:for-each select="distinct-values(tokenize($refs, ' '))">
+          <xsl:variable name="party" select="key('idr', ., $rootHeader)[@role='parliamentaryGroup']"/>
+          <xsl:call-template name="party-orientation">
+            <xsl:with-param name="party" select="$party"/>
+          </xsl:call-template>
+	  <xsl:text>;</xsl:text>
+	</xsl:for-each>
+      </xsl:variable>
+      <xsl:variable name="uniqOrientations">
+	<xsl:for-each select="distinct-values(tokenize($orientations, ';'))">
+	  <xsl:value-of select="."/>
+	  <xsl:text>;</xsl:text>
+	</xsl:for-each>
+      </xsl:variable>
+      <xsl:value-of select="replace(
+			    replace($uniqOrientations, ';+$', ''),
+			    '^;+', '')"/>
     </xsl:variable>
-    <xsl:variable name="politicalParties">
-      <xsl:for-each select="distinct-values(tokenize($refs, ' '))">
-        <xsl:variable name="party" select="key('idr', ., $rootHeader)[@role='politicalParty']"/>
-        <xsl:call-template name="party-orientation">
-          <xsl:with-param name="party" select="$party"/>
-        </xsl:call-template>
-      </xsl:for-each>
+    <xsl:variable name="politicalPartyOrientation">
+      <xsl:variable name="orientations">
+	<xsl:for-each select="distinct-values(tokenize($refs, ' '))">
+          <xsl:variable name="party" select="key('idr', ., $rootHeader)[@role='politicalParty']"/>
+          <xsl:call-template name="party-orientation">
+            <xsl:with-param name="party" select="$party"/>
+          </xsl:call-template>
+	  <xsl:text>;</xsl:text>
+	</xsl:for-each>
+      </xsl:variable>
+      <xsl:variable name="uniqOrientations">
+	<xsl:for-each select="distinct-values(tokenize($orientations, ';'))">
+	  <xsl:value-of select="."/>
+	  <xsl:text>;</xsl:text>
+	</xsl:for-each>
+      </xsl:variable>
+      <xsl:value-of select="replace(
+			    replace($uniqOrientations, ';+$', ''),
+			    '^;+', '')"/>
     </xsl:variable>
     <xsl:choose>
-      <xsl:when test="normalize-space($parliamentaryGroups)">
-        <xsl:value-of select="replace($parliamentaryGroups, ';$', '')"/>
+      <xsl:when test="normalize-space($parliamentaryGroupOrientations)">
+        <xsl:value-of select="$parliamentaryGroupOrientations"/>
       </xsl:when>
-      <xsl:when test="normalize-space($politicalParties)">
-        <xsl:value-of select="replace($politicalParties, ';$', '')"/>
+      <xsl:when test="normalize-space($politicalPartyOrientation)">
+        <xsl:value-of select="$politicalPartyOrientation"/>
       </xsl:when>
       <xsl:otherwise>
 	<xsl:text>-</xsl:text>
@@ -674,11 +700,13 @@
     <xsl:choose>
       <xsl:when test="$orientation/tei:state[@type = 'Wikipedia']">
 	<xsl:value-of select="et:l10n($corpus-language, 
-			      key('idr', $orientation/tei:state[@type = 'Wikipedia']/@ana, $rootHeader)/tei:catDesc)/tei:term"/>
+			      key('idr', $orientation/tei:state[@type = 'Wikipedia']/@ana, $rootHeader)
+			      /tei:catDesc)/tei:term"/>
       </xsl:when>
       <xsl:when test="$orientation/tei:state[@type = 'encoder']">
 	<xsl:value-of select="et:l10n($corpus-language, 
-			      key('idr', $orientation/tei:state[@type = 'encoder']/@ana, $rootHeader)/tei:catDesc)/tei:term"/>
+			      key('idr', $orientation/tei:state[@type = 'encoder']/@ana, $rootHeader)
+			      /tei:catDesc)/tei:term"/>
       </xsl:when>
     </xsl:choose>
   </xsl:template>
@@ -829,7 +857,14 @@
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-    <xsl:variable name="ud-pos" select="replace(replace($token/@msd, 'UPosTag=', ''), '\|.+', '')"/>
+    <xsl:variable name="ud-pos">
+      <xsl:choose>
+	<xsl:when test="$token/@msd">
+	  <xsl:value-of select="replace(replace($token/@msd, 'UPosTag=', ''), '\|.+', '')"/>
+	</xsl:when>
+	<xsl:otherwise>-</xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
     <xsl:variable name="ud-feats">
       <xsl:variable name="fs" select="replace($token/@msd, 'UPosTag=[^|]+\|?', '')"/>
       <xsl:choose>
@@ -838,19 +873,35 @@
           <xsl:value-of select="replace($fs, '\|', ' ')"/>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:text></xsl:text>
+          <xsl:text>-</xsl:text>
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-    <xsl:choose>
-      <!-- Output token ID only if there is one -->
-      <xsl:when test="normalize-space($n)">
-	<xsl:sequence select="concat($lemma, '&#9;', $ud-pos, '&#9;', $ud-feats, '&#9;', $n)"/>
-      </xsl:when>
-      <xsl:otherwise>
-	<xsl:sequence select="concat($lemma, '&#9;', $ud-pos, '&#9;', $ud-feats)"/>
-      </xsl:otherwise>
-    </xsl:choose>
+    <!-- Part 1 are standard attributes of word -->
+    <xsl:variable name="part1" select="concat($lemma, '&#9;', $ud-pos, '&#9;', $ud-feats, '&#9;')"/>
+    <!-- Part 2 are semantic attributes, but they appear in MTed vert only, so check if they exist and insert only if they do -->
+    <xsl:variable name="part2">
+      <xsl:if test="$token/@function and $token/@ana">
+	<xsl:variable name="sem-all" select="replace($token/@function, ',', '|')"/>
+	<xsl:variable name="sem">
+	  <xsl:for-each select="tokenize($token/@ana, ' ')">
+	    <!-- Here we a) assume that the catDesc is only in English and b) that the extended pointer resolves to a local reference -->
+	    <xsl:value-of select="key('id', substring-after(., ':'), $rootHeader)/tei:catDesc/tei:term"/>
+	    <xsl:text>|</xsl:text>
+	  </xsl:for-each>
+	</xsl:variable>
+	<xsl:value-of select="concat($sem-all, '&#9;', replace($sem, '\|$', ''), '&#9;')"/>
+      </xsl:if>
+    </xsl:variable>
+    <xsl:variable name="part3">
+      <xsl:choose>
+	<xsl:when test="normalize-space($n)">
+	  <xsl:value-of select="$n"/>
+	</xsl:when>
+	<xsl:otherwise>-</xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:value-of select="concat($part1, $part2, $part3)"/>
   </xsl:function>
 
   <!-- Output the sibling element in $elements that is appropriate for output language (global $out-lang) -->
