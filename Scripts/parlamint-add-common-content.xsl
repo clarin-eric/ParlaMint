@@ -10,7 +10,7 @@
      - sets version and handles
      - sets correct top level ID so it is the same as filename
      - sets main title ParlaMint stamp
-     - sets correct references to date-dependent subcorpora (#reference, #COVID, #War)
+     - sets correct references to date-dependent subcorpora (#reference, #covid, #war)
      - sets ParlaMint II English projectDesc
      - gives correct type and subtype to idno
      - calculates speech and word extents
@@ -461,7 +461,7 @@
     <xsl:variable name="ana">
       <!-- Ignore old subcorpus labels (but preserve the other labels) and insert new ones -->
       <xsl:for-each select="tokenize(., ' ')">
-        <xsl:if test=". != '#reference' and  . != '#covid'">
+        <xsl:if test=". != '#reference' and  . != '#covid' and  . != '#war'">
 	  <xsl:value-of select="."/>
 	  <xsl:text>&#32;</xsl:text>
 	</xsl:if>
