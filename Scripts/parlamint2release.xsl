@@ -269,7 +269,8 @@
 	    <xsl:attribute name="ana" select="normalize-space(concat('#parla.upper #parla.lower ', @ana))"/>
 	  </xsl:when>
 	  <!-- Used by IS, but common taxonomy doesn't have this category of meetings -->
-          <xsl:when test="contains(@ana, '#parla.meeting.unregistered')">
+          <xsl:when test="$country-code = 'IS' and
+			  contains(@ana, '#parla.meeting.unregistered')">
 	    <xsl:attribute name="ana" select="replace(@ana, '#parla.meeting.unregistered', '#parla.meeting')"/>
 	  </xsl:when>
 	</xsl:choose>
@@ -363,7 +364,10 @@
     <xsl:copy>
       <xsl:apply-templates mode="comp" select="@*"/>
       <!-- BE uses their own special category for commitee meetings, change to common category -->
-      <xsl:variable name="ana" select="replace(@ana, 'parla\.meeting\.committee', 'parla.committee')"/>
+      <!-- IS uses their own special category for "unregistered" meetings, change to common category -->
+      <xsl:variable name="ana" select="replace(
+				       replace(@ana, 'parla\.meeting\.committee', 'parla.committee'),
+				       'parla\.meeting\.unregistered', 'parla.meeting')"/>
       <xsl:attribute name="ana">
 	<xsl:if test="not(contains($ana, 'parla.upper') or contains($ana, 'parla.lower') or contains($ana, 'parla.committee'))">
 	  <xsl:variable name="title" select="/tei:TEI/tei:teiHeader//tei:titleStmt/
@@ -523,11 +527,11 @@
                          ': removing sentence without tokens for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
   </xsl:template>
   
-  <!-- Bug where a name contains no words, but only a transcriber comment: remove <name> tag -->
-  <xsl:template mode="comp" match="tei:body//tei:name[not(.//tei:w)]">
+  <!-- Bug where a name contains no words, but only punctuation or a transcriber comment: remove <name> tag -->
+  <xsl:template mode="comp" match="tei:body//tei:name[not(.//tei:w or .//tei:pc[not(matches(., '^\p{P}+$'))])]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
-                         ': removing name tag as name ', normalize-space(.), 
-			 ' contains no words for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+                         ': removing name tag as ', normalize-space(.), 
+			 ' contains no w elements for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
     <xsl:apply-templates mode="comp"/>
   </xsl:template>
   
@@ -536,8 +540,8 @@
     <xsl:choose>
       <!-- Bug where punctuation is encoded as a word: change <w> to <pc> -->
       <xsl:when test="contains(@msd, 'UPosTag=PUNCT') and matches(., '^\p{P}+$')">
-	<xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
-                             ': changing word ', ., ' to punctuation for ', @xml:id)"/>
+	<!-- Do not output warning, as there are typically too many of them -->
+	<!--xsl:message select="concat('WARN: changing word ', ., ' to punctuation for ', @xml:id)"/-->
 	<pc>
 	  <xsl:apply-templates mode="comp" select="@*[name() != 'lemma']"/>
 	  <xsl:apply-templates mode="comp"/>

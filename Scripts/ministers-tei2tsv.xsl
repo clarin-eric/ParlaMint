@@ -37,7 +37,7 @@
                                            '$1')"/>
       <xsl:message select="concat('INFO: Reading ', $country)"/>
       <xsl:variable name="teiHeader">
-	<xsl:apply-templates mode="XInclude" select="document($href)//tei:teiHeader">
+	<xsl:apply-templates mode="expand" select="document($href)//tei:teiHeader">
 	  <xsl:with-param name="lang" select="document($href)/tei:*/@xml:lang"/>
 	</xsl:apply-templates>
       </xsl:variable>
@@ -58,7 +58,7 @@
 	<xsl:text>Comment&#10;</xsl:text>
         <xsl:variable name="row">
           <xsl:variable name="rootHeader">
-            <xsl:apply-templates mode="XInclude" select="document($href)//tei:teiHeader"/>
+            <xsl:apply-templates mode="expand" select="document($href)//tei:teiHeader"/>
           </xsl:variable>
           <xsl:apply-templates select="$rootHeader//tei:listPerson/tei:person/
                                        tei:affiliation[@role = 'minister']">

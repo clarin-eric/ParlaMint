@@ -18,7 +18,7 @@
     <xsl:text>Country&#9;Role&#9;ID&#9;From&#9;To&#9;Abb&#9;Name&#10;</xsl:text>
     <xsl:for-each select="//xi:include">
       <xsl:variable name="rootHeader">
-        <xsl:apply-templates mode="XInclude" select="document(@href)//tei:teiHeader"/>
+        <xsl:apply-templates mode="expand" select="document(@href)//tei:teiHeader"/>
       </xsl:variable>
         <!-- Get country of corpus from filename -->
         <xsl:variable name="corpusCountry"
