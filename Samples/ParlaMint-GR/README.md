@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country GR (Greece)
+# Samples of the ParlaMint-GR corpus
 
+- Country: GR (Greece)
 - Languages: el (Greek)
 
 ## Documentation

@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country NO (Norway)
+# Samples of the ParlaMint-NO corpus
 
+- Country: NO (Norway)
 - Language no (Norwegian)
 
 ## Documentation

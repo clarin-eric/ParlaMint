@@ -1,6 +1,9 @@
 <note type="head" content="3. posiedzenie Senatu RP 10. kadencji, dzień 3"/>
-<speech id="ParlaMint-PL_2020-01-17-senat-03-3.u1" text_id="ParlaMint-PL_2020-01-17-senat-03-3" subcorpus="Reference" body="Upper house" term="10-upper" session="3-upper" meeting="" sitting="3-upper" agenda="" date="2020-01-17" title="Report of the session of the Senat of the Republic of Poland, Term 10, Session 3, Day 3 (2020-01-17)" speaker_role="Regular" speaker_id="TomaszGrodzki" speaker_name="Grodzki, Tomasz" speaker_mp="MP" speaker_minister="-" speaker_party="KO" speaker_party_name="Klub Parlamentarny Platforma Obywatelska – Koalicja Obywatelska" party_status="Opposition" speaker_gender="M" speaker_birth="1958">
-<p id="seg971932" lang="Polish">
+<note type="time" content="Wznowienie posiedzenia o godzinie 9 minut 31"/>
+<note type="debate" content="Posiedzeniu przewodniczą marszałek Tomasz Grodzki oraz wicemarszałkowie Michał Kamiński, Bogdan Borusewicz i Gabriela Morawska-Stanecka"/>
+<note type="speaker" content="Marszałek Tomasz Grodzki:"/>
+<speech id="ParlaMint-PL_2020-01-17-senat-03-3.u1" text_id="ParlaMint-PL_2020-01-17-senat-03-3" subcorpus="Referencyjny" lang="Polski" body="Senat" term="10. kadencja Senatu" session="3. sesja Senatu" meeting="-" sitting="3. dzień sesji Senatu" agenda="-" date="2020-01-17" title="Sprawozdanie stenograficzne z obrad Senatu RP, 10.kadencja, 3. posiedzenie, 3. dzień (2020-01-17)" speaker_role="Parlamentarzysta" speaker_id="TomaszGrodzki" speaker_name="Grodzki, Tomasz" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KO" speaker_party_name="Klub Parlamentarny Platforma Obywatelska – Koalicja Obywatelska" party_status="Opposition" party_orientation="-" speaker_gender="M" speaker_birth="1958">
+<p id="seg971932" lang="Polski">
 <s id="seg971932.1">
 Bardzo	Bardzo	bardzo	ADV	Degree=Pos	1	advmod	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 proszę	proszę	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
@@ -11,7 +14,7 @@ miejsc	miejsc	miejsce	NOUN	Case=Gen Gender=Neut Number=Plur	5	obj	zajmować	NOUN
 .	.	.	PUNCT	PunctType=Peri	6	punct	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
 </p>
-<p id="seg971933" lang="Polish">
+<p id="seg971933" lang="Polski">
 <s id="seg971933.1">
 Wznawiam	Wznawiam	wznawiać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 posiedzenie	posiedzenie	posiedzenie	NOUN	Case=Acc Gender=Neut Number=Sing	2	obj	wznawiać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -19,7 +22,7 @@ posiedzenie	posiedzenie	posiedzenie	NOUN	Case=Acc Gender=Neut Number=Sing	2	obj	
 .	.	.	PUNCT	PunctType=Peri	3	punct	wznawiać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="seg971934" lang="Polish">
+<p id="seg971934" lang="Polski">
 <s id="seg971934.1">
 Szanowni	Szanowni	szanowny	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing	1	amod	państwo	NOUN	Case=Nom Gender=Neut Number=Sing	2
 Państwo	Państwo	państwo	NOUN	Case=Nom Gender=Neut Number=Sing	2	vocative	pragnąć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	9
@@ -57,7 +60,7 @@ Seniorów	Seniorów	senior	PROPN	Animacy=Hum Case=Gen Gender=Masc Number=Plur	27
 .	.	.	PUNCT	PunctType=Peri	28	punct	pragnąć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	9
 </s>
 </p>
-<p id="seg971935" lang="Polish">
+<p id="seg971935" lang="Polski">
 <s id="seg971935.1">
 Za	Za	za	ADP	AdpType=Prep	1	case	chwila	NOUN	Case=Acc Gender=Fem Number=Sing	2
 chwilę	chwilę	chwila	NOUN	Case=Acc Gender=Fem Number=Sing	2	obl	przystąpić	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 Tense=Fut VerbForm=Fin Voice=Act	3
@@ -408,7 +411,7 @@ formalna	formalna	formalny	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	5	amod
 .	.	.	PUNCT	PunctType=Peri	6	punct	to	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	2
 </s>
 </p>
-<p id="seg971936" lang="Polish">
+<p id="seg971936" lang="Polski">
 <s id="seg971936.1">
 Od	Od	od	ADP	AdpType=Prep Variant=Short	1	case	siebie	PRON	Case=Gen PronType=Prs Reflex=Yes	2
 siebie	siebie	siebie	PRON	Case=Gen PronType=Prs Reflex=Yes	2	obl:arg	dodać	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
@@ -482,7 +485,7 @@ możliwe	możliwe	możliwy	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing	20	cc
 .	.	.	PUNCT	PunctType=Peri	21	punct	zależeć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
 </p>
-<p id="seg971937" lang="Polish">
+<p id="seg971937" lang="Polski">
 <s id="seg971937.1">
 Zatem	Zatem	zatem	SCONJ		1	mark	przystępować	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 przystępujemy	przystępujemy	przystępować	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
@@ -509,7 +512,7 @@ australijskim	australijskim	australijski	ADJ	Animacy=Inan Case=Ins Degree=Pos Ge
 .	.	.	PUNCT	PunctType=Peri	19	punct	przystępować	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
 </p>
-<p id="seg971938" lang="Polish">
+<p id="seg971938" lang="Polski">
 <s id="seg971938.1">
 Witam	Witam	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 serdecznie	serdecznie	serdecznie	ADV	Degree=Pos	2	advmod	obecny	ADJ	Animacy=Hum Case=Acc Degree=Pos Gender=Masc Number=Sing	3
@@ -537,7 +540,7 @@ Brodricka	Brodricka	Brodricka	PROPN	Animacy=Hum Case=Gen Gender=Masc Number=Sing
 </s>
 </p>
 <note type="kinesic:applause" content="Oklaski"/>
-<p id="seg971939" lang="Polish">
+<p id="seg971939" lang="Polski">
 <s id="seg971939.1">
 Przypominam	Przypominam	przypominać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
@@ -576,7 +579,7 @@ S	S	S	X	Abbr=Yes	16	nmod	numer	X	Abbr=Yes Pun=No	14
 .	.	.	PUNCT	PunctType=Peri	17	punct	zawrzeć	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	2
 </s>
 </p>
-<p id="seg971940" lang="Polish">
+<p id="seg971940" lang="Polski">
 <s id="seg971940.1">
 Proszę	Proszę	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 sprawozdawcę	sprawozdawcę	sprawozdawca	NOUN	Animacy=Hum Case=Acc Gender=Masc Number=Sing	2	obj	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -619,15 +622,15 @@ uchwały	uchwały	uchwała	NOUN	Case=Gen Gender=Fem Number=Sing	25	nmod:arg	proj
 </p>
 </speech>
 <note type="speaker" content="Senator Sprawozdawca Marcin Bosacki:"/>
-<speech id="ParlaMint-PL_2020-01-17-senat-03-3.u2" text_id="ParlaMint-PL_2020-01-17-senat-03-3" subcorpus="Reference" body="Upper house" term="10-upper" session="3-upper" meeting="" sitting="3-upper" agenda="" date="2020-01-17" title="Report of the session of the Senat of the Republic of Poland, Term 10, Session 3, Day 3 (2020-01-17)" speaker_role="Regular" speaker_id="MarcinBosacki" speaker_name="Bosacki, Marcin" speaker_mp="MP" speaker_minister="-" speaker_party="KO" speaker_party_name="Klub Parlamentarny Platforma Obywatelska – Koalicja Obywatelska" party_status="Opposition" speaker_gender="M" speaker_birth="1970">
-<p id="seg971941" lang="Polish">
+<speech id="ParlaMint-PL_2020-01-17-senat-03-3.u2" text_id="ParlaMint-PL_2020-01-17-senat-03-3" subcorpus="Referencyjny" lang="Polski" body="Senat" term="10. kadencja Senatu" session="3. sesja Senatu" meeting="-" sitting="3. dzień sesji Senatu" agenda="-" date="2020-01-17" title="Sprawozdanie stenograficzne z obrad Senatu RP, 10.kadencja, 3. posiedzenie, 3. dzień (2020-01-17)" speaker_role="Parlamentarzysta" speaker_id="MarcinBosacki" speaker_name="Bosacki, Marcin" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KO" speaker_party_name="Klub Parlamentarny Platforma Obywatelska – Koalicja Obywatelska" party_status="Opposition" party_orientation="-" speaker_gender="M" speaker_birth="1970">
+<p id="seg971941" lang="Polski">
 <s id="seg971941.1">
 Dziękuję	Dziękuję	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	PunctType=Peri	2	punct	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="seg971942" lang="Polish">
+<p id="seg971942" lang="Polski">
 <s id="seg971942.1">
 Panie	Panie	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1	root	-	-	-	-
 Marszałku	Marszałku	marszałek	PROPN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	2	appos	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1
@@ -655,7 +658,7 @@ Australijskiego	Australijskiego	australijski	ADJ	Animacy=Inan Case=Gen Degree=Po
 !	!	!	PUNCT	PunctType=Excl	6	punct	ekscelencja	NOUN	Case=Nom Gender=Neut Number=Sing	1
 </s>
 </p>
-<p id="seg971943" lang="Polish">
+<p id="seg971943" lang="Polski">
 <s id="seg971943.1">
 To	To	to	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	1	root	-	-	-	-
 ogromny	ogromny	ogromny	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc Number=Sing	2	amod	honor	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	3
@@ -683,7 +686,7 @@ tragedii	tragedii	tragedia	NOUN	Case=Loc Gender=Fem Number=Sing	18	nmod	naród	N
 .	.	.	PUNCT	PunctType=Peri	19	punct	to	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	1
 </s>
 </p>
-<p id="seg971944" lang="Polish">
+<p id="seg971944" lang="Polski">
 <s id="seg971944.1">
 Wszyscy	Wszyscy	wszyscy	PRON	Animacy=Hum Case=Nom Gender=Masc Number=Ptan PronType=Tot	1	nsubj	wiedzieć	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 wiemy	wiemy	wiedzieć	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
@@ -783,7 +786,7 @@ Australii	Australii	Australia	PROPN	Case=Gen Gender=Fem Number=Sing	20	nmod	hist
 .	.	.	PUNCT	PunctType=Peri	21	punct	trwać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="seg971945" lang="Polish">
+<p id="seg971945" lang="Polski">
 <s id="seg971945.1">
 Podczas	Podczas	podczas	ADP	AdpType=Prep	1	case	obrady	NOUN	Case=Gen Gender=Neut Number=Ptan	2
 obrad	obrad	obrady	NOUN	Case=Gen Gender=Neut Number=Ptan	2	obl	dyskutować	VERB	Aspect=Imp Mood=Ind Person=0 Tense=Past VerbForm=Fin Voice=Act	12
@@ -867,14 +870,14 @@ ustawie	ustawie	ustawa	NOUN	Case=Dat Gender=Fem Number=Sing	20	iobj	przeciwny	AD
 …	…	…	PUNCT	PunctType=Dash	21	punct	powstrzymać	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin Voice=Act	9
 </s>
 </p>
-<p id="seg971946" lang="Polish">
+<p id="seg971946" lang="Polski">
 <s id="seg971946.1">
 Uchwale	Uchwale	uchwała	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	PunctType=Peri	2	punct	uchwała	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="seg971947" lang="Polish">
+<p id="seg971947" lang="Polski">
 <s id="seg971947.1">
 Uchwale	Uchwale	Uchwał	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
@@ -901,7 +904,7 @@ powtórzyć	powtórzyć	powtórzyć	VERB	Aspect=Perf VerbForm=Inf Voice=Act	11	x
 .	.	.	PUNCT	PunctType=Peri	12	punct	móc	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
 </s>
 </p>
-<p id="seg971948" lang="Polish">
+<p id="seg971948" lang="Polski">
 <s id="seg971948.1">
 Pozwolicie	Pozwolicie	pozwolić	VERB	Aspect=Perf Mood=Imp Number=Sing Person=2 VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
@@ -922,7 +925,7 @@ uchwały	uchwały	uchwała	NOUN	Case=Gen Gender=Fem Number=Sing	11	nmod:arg	proj
 .	.	.	PUNCT	PunctType=Peri	12	punct	pozwolić	VERB	Aspect=Perf Mood=Imp Number=Sing Person=2 VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="seg971949" lang="Polish">
+<p id="seg971949" lang="Polski">
 <s id="seg971949.1">
 „	„	„	PUNCT	PunctSide=Ini PunctType=Quot	1	punct	uchwała	NOUN	Case=Nom Gender=Fem Number=Sing	2
 <g/>
@@ -943,7 +946,7 @@ australijskim	australijskim	australijski	ADJ	Animacy=Inan Case=Ins Degree=Pos Ge
 .	.	.	PUNCT	PunctType=Peri	11	punct	uchwała	NOUN	Case=Nom Gender=Fem Number=Sing	2
 </s>
 </p>
-<p id="seg971950" lang="Polish">
+<p id="seg971950" lang="Polski">
 <s id="seg971950.1">
 <name type="ORG">
 Senat	Senat	senat	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	1	nsubj	pragnąć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	4
@@ -977,7 +980,7 @@ historii	historii	historia	NOUN	Case=Loc Gender=Fem Number=Sing	22	obl	duży	ADJ
 .	.	.	PUNCT	PunctType=Peri	23	punct	pragnąć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	4
 </s>
 </p>
-<p id="seg971951" lang="Polish">
+<p id="seg971951" lang="Polski">
 <s id="seg971951.1">
 Przez	Przez	przez	ADP	AdpType=Prep Variant=Short	1	case	miesiąc	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Plur	3
 ostatnie	ostatnie	ostatni	ADJ	Animacy=Inan Case=Acc Degree=Pos Gender=Masc Number=Plur	2	amod	miesiąc	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Plur	3
@@ -1029,7 +1032,7 @@ wyginięcie	wyginięcie	wyginięcie	NOUN	Aspect=Perf Case=Nom Gender=Neut Number
 .	.	.	PUNCT	PunctType=Peri	17	punct	gigantyczny	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	8
 </s>
 </p>
-<p id="seg971952" lang="Polish">
+<p id="seg971952" lang="Polski">
 <s id="seg971952.1">
 <name type="ORG">
 Senat	Senat	senat	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	1	nsubj	przesyłać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	4
@@ -1097,7 +1100,7 @@ Australii	Australii	Australia	PROPN	Case=Loc Gender=Fem Number=Sing	8	obl	mieszk
 .	.	.	PUNCT	PunctType=Peri	9	punct	Australijczyk	NOUN	Animacy=Hum Case=Gen Gender=Masc Number=Plur	1
 </s>
 </p>
-<p id="seg971953" lang="Polish">
+<p id="seg971953" lang="Polski">
 <s id="seg971953.1">
 Wciąż	Wciąż	wciąż	ADV		1	advmod	zwracać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	12
 trwający	trwający	trwać	ADJ	Animacy=Inan Aspect=Imp Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Act	2	amod	kataklizm	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	3
@@ -1160,7 +1163,7 @@ Polski	Polski	Polska	PROPN	Case=Gen Gender=Fem Number=Sing	18	nmod	Europa	PROPN	
 .	.	.	PUNCT	PunctType=Peri	19	punct	wyzwanie	NOUN	Case=Nom Gender=Neut Number=Sing	5
 </s>
 </p>
-<p id="seg971954" lang="Polish">
+<p id="seg971954" lang="Polski">
 <s id="seg971954.1">
 <name type="ORG">
 Senat	Senat	senat	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	1	nsubj	popierać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	4
@@ -1201,7 +1204,7 @@ kataklizmie	kataklizmie	kataklizm	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=
 .	.	.	PUNCT	PunctType=Peri	28	punct	popierać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	4
 </s>
 </p>
-<p id="seg971955" lang="Polish">
+<p id="seg971955" lang="Polski">
 <s id="seg971955.1">
 Uchwała	Uchwała	uchwała	NOUN	Case=Nom Gender=Fem Number=Sing	1	nsubj	podlegać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 podlega	podlega	podlegać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
@@ -1236,8 +1239,8 @@ bardzo	bardzo	bardzo	ADV	Degree=Pos	2	advmod	dziękować	VERB	Aspect=Imp Mood=In
 <note type="kinesic:applause" content="Oklaski"/>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-PL_2020-01-17-senat-03-3.u223" text_id="ParlaMint-PL_2020-01-17-senat-03-3" subcorpus="Reference" body="Upper house" term="10-upper" session="3-upper" meeting="" sitting="3-upper" agenda="" date="2020-01-17" title="Report of the session of the Senat of the Republic of Poland, Term 10, Session 3, Day 3 (2020-01-17)" speaker_role="Regular" speaker_id="StanisławGawłowski" speaker_name="Gawłowski, Stanisław" speaker_mp="MP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1968">
-<p id="seg973674" lang="Polish">
+<speech id="ParlaMint-PL_2020-01-17-senat-03-3.u223" text_id="ParlaMint-PL_2020-01-17-senat-03-3" subcorpus="Referencyjny" lang="Polski" body="Senat" term="10. kadencja Senatu" session="3. sesja Senatu" meeting="-" sitting="3. dzień sesji Senatu" agenda="-" date="2020-01-17" title="Sprawozdanie stenograficzne z obrad Senatu RP, 10.kadencja, 3. posiedzenie, 3. dzień (2020-01-17)" speaker_role="Parlamentarzysta" speaker_id="StanisławGawłowski" speaker_name="Gawłowski, Stanisław" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1968">
+<p id="seg973674" lang="Polski">
 <s id="seg973674.1">
 Panie	Panie	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1	root	-	-	-	-
 Marszałku	Marszałku	marszałek	PROPN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	2	appos	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1
@@ -1253,7 +1256,7 @@ Izbo	Izbo	izba	PROPN	Case=Nom Gender=Neut Number=Sing	2	root	-	-	-	-
 !	!	!	PUNCT	PunctType=Excl	3	punct	izba	PROPN	Case=Nom Gender=Neut Number=Sing	2
 </s>
 </p>
-<p id="seg973675" lang="Polish">
+<p id="seg973675" lang="Polski">
 <s id="seg973675.1">
 Nie	Nie	nie	PART	Polarity=Neg	1	advmod:neg	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 mam	mam	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
@@ -1283,7 +1286,7 @@ Senatu	Senatu	senat	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	21	flat	k
 .	.	.	PUNCT	PunctType=Peri	22	punct	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
 </p>
-<p id="seg973676" lang="Polish">
+<p id="seg973676" lang="Polski">
 <s id="seg973676.1">
 W	W	w	ADP	AdpType=Prep Variant=Short	1	case	oświadczenie	NOUN	Case=Loc Gender=Neut Number=Sing	3
 tym	tym	ten	DET	Case=Loc Gender=Neut Number=Sing PronType=Dem	2	det	oświadczenie	NOUN	Case=Loc Gender=Neut Number=Sing	3
@@ -1313,7 +1316,7 @@ Izbę	Izbę	izba	NOUN	Case=Acc Gender=Fem Number=Sing	18	obj	opuścić	VERB	Anim
 .	.	.	PUNCT	PunctType=Peri	19	punct	chcieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	4
 </s>
 </p>
-<p id="seg973677" lang="Polish">
+<p id="seg973677" lang="Polski">
 <s id="seg973677.1">
 Pan	Pan	pan	NOUN	Animacy=Hum Case=Nom Gender=Masc Number=Sing	1	nsubj	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
 senator	senator	senator	NOUN	Animacy=Hum Case=Nom Gender=Masc Number=Sing	2	appos	pan	NOUN	Animacy=Hum Case=Nom Gender=Masc Number=Sing	1
@@ -1566,8 +1569,8 @@ bardzo	bardzo	bardzo	ADV	Degree=Pos	2	advmod	dziękować	VERB	Aspect=Imp Mood=In
 <note type="kinesic:applause" content="Oklaski"/>
 </speech>
 <note type="speaker" content="Marszałek Tomasz Grodzki:"/>
-<speech id="ParlaMint-PL_2020-01-17-senat-03-3.u224" text_id="ParlaMint-PL_2020-01-17-senat-03-3" subcorpus="Reference" body="Upper house" term="10-upper" session="3-upper" meeting="" sitting="3-upper" agenda="" date="2020-01-17" title="Report of the session of the Senat of the Republic of Poland, Term 10, Session 3, Day 3 (2020-01-17)" speaker_role="Regular" speaker_id="TomaszGrodzki" speaker_name="Grodzki, Tomasz" speaker_mp="MP" speaker_minister="-" speaker_party="KO" speaker_party_name="Klub Parlamentarny Platforma Obywatelska – Koalicja Obywatelska" party_status="Opposition" speaker_gender="M" speaker_birth="1958">
-<p id="seg973678" lang="Polish">
+<speech id="ParlaMint-PL_2020-01-17-senat-03-3.u224" text_id="ParlaMint-PL_2020-01-17-senat-03-3" subcorpus="Referencyjny" lang="Polski" body="Senat" term="10. kadencja Senatu" session="3. sesja Senatu" meeting="-" sitting="3. dzień sesji Senatu" agenda="-" date="2020-01-17" title="Sprawozdanie stenograficzne z obrad Senatu RP, 10.kadencja, 3. posiedzenie, 3. dzień (2020-01-17)" speaker_role="Parlamentarzysta" speaker_id="TomaszGrodzki" speaker_name="Grodzki, Tomasz" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KO" speaker_party_name="Klub Parlamentarny Platforma Obywatelska – Koalicja Obywatelska" party_status="Opposition" party_orientation="-" speaker_gender="M" speaker_birth="1958">
+<p id="seg973678" lang="Polski">
 <s id="seg973678.1">
 Dziękuję	Dziękuję	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 bardzo	bardzo	bardzo	ADV	Degree=Pos	2	advmod	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -1579,7 +1582,7 @@ senatorowi	senatorowi	senator	NOUN	Animacy=Hum Case=Dat Gender=Masc Number=Sing	
 .	.	.	PUNCT	PunctType=Peri	5	punct	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="seg973679" lang="Polish">
+<p id="seg973679" lang="Polski">
 <s id="seg973679.1">
 Więcej	Więcej	więcej	DET	Case=Nom Gender=Neut NumType=Card Number=Plur PronType=Ind	1	det:numgov	oświadczenie	NOUN	Case=Gen Gender=Neut Number=Plur	2
 oświadczeń	oświadczeń	oświadczenie	NOUN	Case=Gen Gender=Neut Number=Plur	2	nsubj	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	4
@@ -1589,7 +1592,7 @@ ma	ma	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fi
 .	.	.	PUNCT	PunctType=Peri	5	punct	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	4
 </s>
 </p>
-<p id="seg973680" lang="Polish">
+<p id="seg973680" lang="Polski">
 <s id="seg973680.1">
 Nie	Nie	nie	PART	Polarity=Neg	1	advmod:neg	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 ma	ma	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
@@ -1599,7 +1602,7 @@ komunikatów	komunikatów	komunikat	NOUN	Animacy=Inan Case=Gen Gender=Masc Numbe
 .	.	.	PUNCT	PunctType=Peri	5	punct	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
 </p>
-<p id="seg973681" lang="Polish">
+<p id="seg973681" lang="Polski">
 <s id="seg973681.1">
 Informuję	Informuję	informować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
@@ -1642,7 +1645,7 @@ nr	nr	numer	X	Abbr=Yes Pun=No	28	nmod	pokój	NOUN	Animacy=Inan Case=Acc Gender=M
 .	.	.	PUNCT	PunctType=Peri	30	punct	informować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="seg973682" lang="Polish">
+<p id="seg973682" lang="Polski">
 <s id="seg973682.1">
 Zamykam	Zamykam	zamykać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 trzecie	trzecie	trzeci	ADJ	Case=Acc Degree=Pos Gender=Neut Number=Sing	2	amod	posiedzenie	NOUN	Case=Acc Gender=Neut Number=Sing	3
@@ -1659,7 +1662,7 @@ kadencji	kadencji	kadencja	NOUN	Case=Gen Gender=Fem Number=Sing	8	nmod	senat	NOU
 </s>
 </p>
 <note type="kinesic:signal" content="Marszałek trzykrotnie uderza laską marszałkowską"/>
-<p id="seg973683" lang="Polish">
+<p id="seg973683" lang="Polski">
 <s id="seg973683.1">
 Dziękuję	Dziękuję	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 bardzo	bardzo	bardzo	ADV	Degree=Pos	2	advmod	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1

@@ -1,6 +1,6 @@
 <note type="time" content="14.01"/>
 <note type="president" content="Nimetullah Erdoğmuş"/>
-<speech id="tbmm-2022-11-17sit01spe0001par0001" text_id="ParlaMint-TR_2022-11-17-tbmm-T27" subcorpus="Savaş" lang="Türkçe" body="Tek meclisli" term="27" session="6" meeting="22" sitting="-" agenda="-" date="2022-11-17" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 6, Birleşim 22" speaker_role="Başkan" speaker_id="Nimetullah.Erdoğmuş" speaker_name="Erdoğmuş, Nimetullah" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDP" speaker_party_name="Halkların Demokratik Partisi" party_status="Opposition" party_orientation="---" speaker_gender="M" speaker_birth="1960">
+<speech id="tbmm-2022-11-17sit01spe0001par0001" text_id="ParlaMint-TR_2022-11-17-tbmm-T27" subcorpus="COVID,Savaş" lang="Türkçe" body="Tek meclisli" term="27" session="6" meeting="22" sitting="-" agenda="-" date="2022-11-17" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 6, Birleşim 22" speaker_role="Başkan" speaker_id="Nimetullah.Erdoğmuş" speaker_name="Erdoğmuş, Nimetullah" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDP" speaker_party_name="Halkların Demokratik Partisi" party_status="Opposition" party_orientation="Merkez sol - sol arası" speaker_gender="M" speaker_birth="1960">
 <p id="tbmm-2022-11-17sit01spe0001par0001.seg0" lang="Türkçe">
 <s id="tbmm-2022-11-17sit01spe0001par0001-000010">
 <name type="ORG">

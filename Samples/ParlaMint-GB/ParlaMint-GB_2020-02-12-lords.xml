@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xml:id="ParlaMint-GB_2020-02-12-lords"
-     xml:lang="en"
-     ana="#parla.sitting #covid">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="ParlaMint-GB_2020-02-12-lords" xml:lang="en" ana="#parla.sitting #covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">Great Britain parliamentary corpus ParlaMint-GB, Lords, 2020-02-12 [ParlaMint SAMPLE]</title>
             <title type="sub">Minutes of the House of Lords, Daily Session 2020-02-12</title>
             <meeting corresp="#parliament.HL" ana="#parla.upper #parla.meeting.regular"/>
-            <meeting n="58"
-                     corresp="#parliament.HL"
-                     ana="#parla.upper #parla.term #PoGB.58"/>
-            <meeting n="2020-02-12"
-                     corresp="#parliament.HL"
-                     ana="#parla.upper #parla.sitting"/>
+            <meeting n="58" corresp="#parliament.HL" ana="#parla.upper #parla.term #PoGB.58"/>
+            <meeting n="2020-02-12" corresp="#parliament.HL" ana="#parla.upper #parla.sitting"/>
             <respStmt>
                <persName>Matthew Coole</persName>
                <resp>TEI corpus encoding</resp>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>3.0</edition>
+            <edition>4.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="174">174 speeches</measure>
@@ -33,13 +25,13 @@
                <orgName>CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1859</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p>This work is also licensed under the <ref target="https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/">Open Parliament Licence v3.0</ref>.</p>
             </availability>
-            <date when="2023-06-18">2023-06-18</date>
+            <date when="2023-10-10">2023-10-10</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -51,10 +43,8 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
-            <p>
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
@@ -81,32 +71,28 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-06-18">
+         <change when="2023-10-10">
             <name>Tomaž Erjavec</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid">
       <body>
          <div type="debateSection">
-            <head>Retirement of a Member: Lord Elystan-Morgan</head>
-            <note>Announcement</note>
-            <u xml:id="ParlaMint-GB_2020-02-12-lords.u1"
-               ana="#regular"
-               who="#PeterFowler">
+            <head xml:id="ParlaMint-GB_2020-02-12-lords.head1">Retirement of a Member: Lord Elystan-Morgan</head>
+            <note xml:id="ParlaMint-GB_2020-02-12-lords.note1">Announcement</note>
+            <u xml:id="ParlaMint-GB_2020-02-12-lords.u1" ana="#regular" who="#PeterFowler">
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg1">My Lords, I notify the House of the retirement with effect from today of the noble Lord, Lord Elystan-Morgan, pursuant to Section 1 of the House of Lords Reform Act 2014. On behalf of the House, I thank the noble Lord for his much-valued service to this House.</seg>
             </u>
-            <note>End of debateSection.</note>
+            <note xml:id="ParlaMint-GB_2020-02-12-lords.note2">End of debateSection.</note>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
          </div>
          <div type="debateSection">
-            <head>Disability Employment Gap</head>
-            <note>Question</note>
-            <note>Asked by</note>
-            <u xml:id="ParlaMint-GB_2020-02-12-lords.u2"
-               ana="#regular"
-               who="#JamesTouhig">
+            <head xml:id="ParlaMint-GB_2020-02-12-lords.head2">Disability Employment Gap</head>
+            <note xml:id="ParlaMint-GB_2020-02-12-lords.note3">Question</note>
+            <note xml:id="ParlaMint-GB_2020-02-12-lords.note4">Asked by</note>
+            <u xml:id="ParlaMint-GB_2020-02-12-lords.u2" ana="#regular" who="#JamesTouhig">
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg2">To ask Her Majesty’s Government what progress has been made in reducing the disability employment gap.</seg>
             </u>
             <gap reason="editorial">
@@ -114,18 +100,14 @@
             </gap>
          </div>
          <div type="debateSection">
-            <u xml:id="ParlaMint-GB_2020-02-12-lords.u173"
-               ana="#regular"
-               who="#LeslieGriffiths">
+            <u xml:id="ParlaMint-GB_2020-02-12-lords.u173" ana="#regular" who="#LeslieGriffiths">
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg372">My Lords, I am only too glad to add my word of thanks to the humble, ordinary, flesh-and-blood noble Lord, Lord Clement-Jones, for our debate this evening. So many points have been raised, many of them the object of concern of more than one contributor to the debate. I am reminded a little of what happened when we had the big bang in the 1980s: finance went global and clever young people knew how to construct products within the financial sector that their superiors and elders had no clue about. Something like that is happening now, which makes it even more important for us to be aware and ready to deal with it</seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg373">I take up the point raised by the noble Lord, Lord Browne of Ladyton, about legislation. He said that it had to be flexible; I would add “nimble”. We must have the general principles of what we want to do to regulate this area available to us, but be ready to act immediately—as and when circumstances require it—instead of taking cumbersome pieces of legislation through all stages in both Houses. The movement is much faster than that in the real world. I recognise what has been said about the exponential scale in the advance of all these methodologies and approaches. We heard ample mention of the Nolan principles; I am glad about that</seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg374">On the right of explanation, I picked up an example that it is worth reminding ourselves of when we ask what it means to have an explanation of what is happening. It comes from Italy; perhaps other Members will be aware of it too. An algorithm was used to decide into which schools to send state schoolteachers. After some dubious decision-making by the algorithm, teachers had to fight through the courts to get some sort of transparency regarding the instructions that the algorithm had originally been given. Although the teachers wanted access to the source code of the algorithm—the building blocks, with all the instructions —the Italian Supreme Court ruled that appropriate transparency constituted only an explanation of its function and the underlying legal rules. In other words, it did not give the way in which the method was evolved or the algorithm formed; it was just descriptive rather than analytical. I believe that, if we want transparency, we have to make available the kind of its nuts-and-bolts aspects that lead to the algorithms that are then the object of our concern</seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg375">On accountability, who can call the shots? The noble Baroness, Lady Rock, was one of those who mentioned that. I have been reading, because it is coming up, the Government’s online harms response and the report of the House of Commons Science and Technology Committee. I am really in double-Dutch land with it all as I look at how they interleave with each other. Each says things separately and yet together. In the report that I think we will be looking at tomorrow, it is recommended that we should continue to use the good offices of the ICO to cover the way in which the online harms process is taken forward. We have also heard that that may be the appropriate body to oversee all the things that we have been discussing. While the Information Commissioner’s Office is undoubtedly brilliant and experienced, is it really the only regulator that can handle this multiplicity of tasks? Is there a need now to look at perhaps adding something in to recognise the speed at which these things are developing—to say nothing of appointing, as the report suggests, a Minister with responsibility for this area</seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg376">I am so glad to see the noble Lord, Lord Ashton, arrive in his new guise as Chief Whip, because, in a previous incarnation, we were eyeball to eyeball like this. He reminds me of course that it was on the Data Protection Bill, as it then was—an enormous, composite, huge thing—that I cut my teeth, swimming against the tide and wondering whether I would drown. It was said then that the Centre for Data Ethics and Innovation was something we should aim at. It needs to happen. Here we are, two years later, and it still has not happened; it is still an aspiration. We must move forward to a competent body that can look at the ethical dimensions of these developments. It must have teeth and it must make recommendations, and it must do so speedily. On that, I am simply repeating what others have said. Let me finish with one word—it will go into Hansard; it will go against my reputation and I will be a finished man after saying it. When I put my computer on with certain of the things that I do—for example, the Guardian quick crossword, which is part of my morning devotions—the advertising that comes up presumably has been put there by an algorithm. But it suggests that I want to buy women’s underwear. I promise noble Lords that I have no experience in that area at all, and I want to know, as a matter of transparency, what building blocks have gone into the algorithm that has told my computer to interest me in these rather recondite aspects of womenswear.</seg>
             </u>
-            <u xml:id="ParlaMint-GB_2020-02-12-lords.u174"
-               ana="#regular"
-               who="#DianaBarran">
+            <u xml:id="ParlaMint-GB_2020-02-12-lords.u174" ana="#regular" who="#DianaBarran">
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg377">My Lords, I am lost for words. I am really not sure how one follows that disclosure</seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg378">I echo other noble Lords in thanking the noble Lord, Lord Clement-Jones, for securing this important and interesting debate. I think that I am with the noble Lord, Lord Browne of Ladyton, in being the only outcasts who were not on any of the committees—the noble Lord, Lord Griffiths, indicates that he was not either—so we are an elite club</seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg379">The noble Lord, Lord Clement-Jones, rightly highlighted the widespread and rapidly growing use of algorithms, which underlines the importance of this debate. As noble Lords are aware, the UK is a world leader in relation to artificial intelligence, in terms of attracting investment, attracting talent and, crucially, in thinking through the practical and ethical challenges that the technology presents</seg>
@@ -142,9 +124,10 @@
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg390">I fear that I will have to write on some of the points raised, but I will do my best to cover as many as I can in the remaining time. The noble Lord, Lord St John, asked about having a duty on public bodies to declare where they are using algorithms. We hope the Centre will be looking at all of these things in the transparency aspect of its work. We are also currently reviewing the future work plan with the Centre, and obviously a number of the issues around accountability will be discussed as part of that</seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg391">In closing, I will go back to two points. One is on the potential of the use of artificial intelligence, which PricewaterhouseCoopers has estimated could contribute almost $16 trillion to the global economy; obviously the UK is one of the top three countries providing that, so that would be a huge boost to our economy. However, I also go back to what the right reverend Prelate the Bishop of Oxford said about what it means to be human. We can harness that potential in a way that enhances, rather than erodes, our humanity.</seg>
             </u>
-            <note>House adjourned at 8.20 pm.</note>
-            <note>End of debateSection.</note>
+            <note xml:id="ParlaMint-GB_2020-02-12-lords.note124">House adjourned at 8.20 pm.</note>
+            <note xml:id="ParlaMint-GB_2020-02-12-lords.note125">End of debateSection.</note>
          </div>
       </body>
    </text>
 </TEI>
+

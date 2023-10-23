@@ -1,4 +1,4 @@
-# ParlaMint directory for samples of country LV (Latvia)
+# Samples of the ParlaMint-LV corpus
 
 -  Language lv (Latvian)
 

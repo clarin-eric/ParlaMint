@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country IS (Iceland)
+# Samples of the ParlaMint-IS corpus
 
+- Country: IS (Iceland)
 - Language is (Icelandic)
 
 ## Documentation

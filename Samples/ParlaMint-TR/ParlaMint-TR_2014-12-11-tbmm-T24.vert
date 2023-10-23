@@ -1,6 +1,6 @@
 <note type="time" content="11.00"/>
 <note type="president" content="Ayşe Nur Bahçekapılı"/>
-<speech id="tbmm-2014-12-11sit01spe0001par0001" text_id="ParlaMint-TR_2014-12-11-tbmm-T24" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="24" session="5" meeting="26" sitting="-" agenda="-" date="2014-12-11" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 24, Yıl 5, Birleşim 26" speaker_role="Başkan" speaker_id="AyşeNur.Bahçekapılı" speaker_name="Bahçekapılı, Ayşe Nur" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="---" speaker_gender="F" speaker_birth="1954">
+<speech id="tbmm-2014-12-11sit01spe0001par0001" text_id="ParlaMint-TR_2014-12-11-tbmm-T24" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="24" session="5" meeting="26" sitting="-" agenda="-" date="2014-12-11" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 24, Yıl 5, Birleşim 26" speaker_role="Başkan" speaker_id="AyşeNur.Bahçekapılı" speaker_name="Bahçekapılı, Ayşe Nur" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="Sağ" speaker_gender="F" speaker_birth="1954">
 <p id="tbmm-2014-12-11sit01spe0001par0001.seg0" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0001-000010">
 <name type="ORG">
@@ -1295,7 +1295,7 @@ dır	dır	i	AUX	Mood=Gen Number=Sing Person=3	t5	cop	dakika	NOUN	Case=Nom Number
 </s>
 </p>
 </speech>
-<speech id="tbmm-2014-12-11sit01spe0002par0064" text_id="ParlaMint-TR_2014-12-11-tbmm-T24" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="24" session="5" meeting="26" sitting="-" agenda="-" date="2014-12-11" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 24, Yıl 5, Birleşim 26" speaker_role="Normal" speaker_id="Atila.Kaya" speaker_name="Kaya, Atila" speaker_mp="MP" speaker_minister="notMinister" speaker_party="MHP" speaker_party_name="Milliyetçi Hareket Partisi" party_status="Opposition" party_orientation="---" speaker_gender="M" speaker_birth="1957">
+<speech id="tbmm-2014-12-11sit01spe0002par0064" text_id="ParlaMint-TR_2014-12-11-tbmm-T24" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="24" session="5" meeting="26" sitting="-" agenda="-" date="2014-12-11" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 24, Yıl 5, Birleşim 26" speaker_role="Normal" speaker_id="Atila.Kaya" speaker_name="Kaya, Atila" speaker_mp="MP" speaker_minister="notMinister" speaker_party="MHP" speaker_party_name="Milliyetçi Hareket Partisi" party_status="Opposition" party_orientation="Sağ - aşırı sağ arası" speaker_gender="M" speaker_birth="1957">
 <p id="tbmm-2014-12-11sit01spe0002par0064.seg0" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0002par0064-000010">
 Sayın	Sayın	sayın	ADJ		t1	amod	başkan	NOUN	Case=Nom Number=Sing	t2
@@ -3181,7 +3181,7 @@ selamlıyorum	selamlıyorum	selamla	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="tbmm-2014-12-11sit05spe0654par0504" text_id="ParlaMint-TR_2014-12-11-tbmm-T24" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="24" session="5" meeting="26" sitting="-" agenda="-" date="2014-12-11" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 24, Yıl 5, Birleşim 26" speaker_role="Normal" speaker_id="Mahmut.Tanal" speaker_name="Tanal, Mahmut" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" party_status="Opposition" party_orientation="---" speaker_gender="M" speaker_birth="1961">
+<speech id="tbmm-2014-12-11sit05spe0654par0504" text_id="ParlaMint-TR_2014-12-11-tbmm-T24" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="24" session="5" meeting="26" sitting="-" agenda="-" date="2014-12-11" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 24, Yıl 5, Birleşim 26" speaker_role="Normal" speaker_id="Mahmut.Tanal" speaker_name="Tanal, Mahmut" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" party_status="Opposition" party_orientation="Merkez sol" speaker_gender="M" speaker_birth="1961">
 <p id="tbmm-2014-12-11sit05spe0654par0504.seg0" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0654par0504-000010">
 <name type="PER">
@@ -3221,7 +3221,7 @@ bakın	bakın	bak	VERB	Mood=Imp Number=Plur Person=2	t22	conj	kabul	NOUN	Case=No
 </s>
 </p>
 </speech>
-<speech id="tbmm-2014-12-11sit05spe0650par0505" text_id="ParlaMint-TR_2014-12-11-tbmm-T24" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="24" session="5" meeting="26" sitting="-" agenda="-" date="2014-12-11" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 24, Yıl 5, Birleşim 26" speaker_role="Başkan" speaker_id="AyşeNur.Bahçekapılı" speaker_name="Bahçekapılı, Ayşe Nur" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="---" speaker_gender="F" speaker_birth="1954">
+<speech id="tbmm-2014-12-11sit05spe0650par0505" text_id="ParlaMint-TR_2014-12-11-tbmm-T24" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="24" session="5" meeting="26" sitting="-" agenda="-" date="2014-12-11" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 24, Yıl 5, Birleşim 26" speaker_role="Başkan" speaker_id="AyşeNur.Bahçekapılı" speaker_name="Bahçekapılı, Ayşe Nur" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="Sağ" speaker_gender="F" speaker_birth="1954">
 <p id="tbmm-2014-12-11sit05spe0650par0505.seg0" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0505-000010">
 Peki	Peki	peki	ADV		t1	root	-	-	-	-

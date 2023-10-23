@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="ParlaMint-TR_2022-11-17-tbmm-T27"
-     xml:lang="tr"
-     ana="#parla.session #covid #war">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-TR_2022-11-17-tbmm-T27" xml:lang="tr" ana="#parla.session #covid #war">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.0</edition>
+            <edition>4.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="1" xml:lang="en">1 speech</measure>
@@ -31,12 +28,12 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1859</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-09-15">2023-09-15</date>
+            <date when="2023-10-11">2023-10-11</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -54,8 +51,7 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
@@ -78,20 +74,16 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-09-15">
-            <name>GitHub Action</name>: Made sample.</change>
-         <change when="2023-06-16">
+         <change when="2023-10-11">
             <name>Tomaž Erjavec</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war" xml:lang="tr">
       <body>
          <div type="debateSection">
-            <note type="time">14.01</note>
-            <note type="president">Nimetullah Erdoğmuş</note>
-            <u ana="#chair"
-               who="#Nimetullah.Erdoğmuş"
-               xml:id="tbmm-2022-11-17sit01spe0001par0001">
+            <note type="time" xml:id="ParlaMint-TR_2022-11-17-tbmm-T27.note1">14.01</note>
+            <note type="president" xml:id="ParlaMint-TR_2022-11-17-tbmm-T27.note2">Nimetullah Erdoğmuş</note>
+            <u ana="#chair" who="#Nimetullah.Erdoğmuş" xml:id="tbmm-2022-11-17sit01spe0001par0001">
                <seg xml:id="tbmm-2022-11-17sit01spe0001par0001.seg0">Türkiye Büyük Millet Meclisinin 22’nci Birleşimini açıyorum.</seg>
                <seg xml:id="tbmm-2022-11-17sit01spe0001par0002.seg1">Başkanlık Divanı teşekkül etmediğinden çalışmalarımıza başlayamıyoruz.</seg>
                <seg xml:id="tbmm-2022-11-17sit01spe0001par0003.seg2">Bu nedenle, alınan karar gereğince kanun teklifleri ile komisyonlardan gelen diğer işleri sırasıyla görüşmek için 22 Kasım 2022 Salı günü saat 15. 00’te toplanmak üzere birleşimi kapatıyorum.</seg>
@@ -103,3 +95,4 @@
       </body>
    </text>
 </TEI>
+

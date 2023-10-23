@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country HR (Croatia)
+# Samples of the ParlaMint-HR corpus
 
+- Country: HR (Croatia)
 - Language hr (Croatian)
 
 ## Documentation

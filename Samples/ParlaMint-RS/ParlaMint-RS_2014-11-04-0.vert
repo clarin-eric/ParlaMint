@@ -1,6 +1,6 @@
 <note type="speaker" content="Gojković, Maja"/>
-<speech id="ParlaMint-RS_2014-11-04-0.u12875" text_id="ParlaMint-RS_2014-11-04-0" subcorpus="Reference" body="Unicameralism" term="10" session="" meeting="7" sitting="2015-12-04" agenda="" date="2014-11-04" title="Term 10, Meeting 7" speaker_role="Chairperson" speaker_id="GojkovićMaja" speaker_name="Gojković, Maja" speaker_mp="MP" speaker_minister="-" speaker_party="SNS" speaker_party_name="Srpska napredna stranka" party_status="Coalition" speaker_gender="F" speaker_birth="1963">
-<p id="ParlaMint-RS_2014-11-04-0.u12875.seg0" lang="Serbian">
+<speech id="ParlaMint-RS_2014-11-04-0.u12875" text_id="ParlaMint-RS_2014-11-04-0" subcorpus="Referenca" lang="srpski" body="Jednodoman" term="10. mandat" session="-" meeting="Zasedanje 7" sitting="2015-12-04" agenda="-" date="2014-11-04" title="Mandat 10, Zasedanje 7" speaker_role="Predsedavajući" speaker_id="GojkovićMaja" speaker_name="Gojković, Maja" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SNS" speaker_party_name="Srpska napredna stranka" party_status="Coalition" party_orientation="Veliki šator" speaker_gender="F" speaker_birth="1963">
+<p id="ParlaMint-RS_2014-11-04-0.u12875.seg0" lang="srpski">
 <s id="ParlaMint-RS_2014-11-04-0.u12875.seg0.1">
 Poštovane	Poštovane	poštovati	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Fem Number=Plur VerbForm=Part Voice=Pass	1	amod	dama	NOUN	Case=Nom Gender=Fem Number=Plur	2
 dame	dame	dama	NOUN	Case=Nom Gender=Fem Number=Plur	2	nsubj	nastavljati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	8
@@ -170,8 +170,8 @@ Aleksandar	Aleksandar	Aleksandar	PROPN	Case=Nom Gender=Masc Number=Sing	8	appos	
 </p>
 </speech>
 <note type="speaker" content="Čotrić, Aleksandar"/>
-<speech id="ParlaMint-RS_2014-11-04-0.u12876" text_id="ParlaMint-RS_2014-11-04-0" subcorpus="Reference" body="Unicameralism" term="10" session="" meeting="7" sitting="2015-12-04" agenda="" date="2014-11-04" title="Term 10, Meeting 7" speaker_role="Regular" speaker_id="ČotrićAleksandar" speaker_name="Čotrić, Aleksandar" speaker_mp="MP" speaker_minister="-" speaker_party="SPO" speaker_party_name="Srpski pokret obnove" party_status="Coalition" speaker_gender="M" speaker_birth="1966">
-<p id="ParlaMint-RS_2014-11-04-0.u12876.seg0" lang="Serbian">
+<speech id="ParlaMint-RS_2014-11-04-0.u12876" text_id="ParlaMint-RS_2014-11-04-0" subcorpus="Referenca" lang="srpski" body="Jednodoman" term="10. mandat" session="-" meeting="Zasedanje 7" sitting="2015-12-04" agenda="-" date="2014-11-04" title="Mandat 10, Zasedanje 7" speaker_role="Redovni" speaker_id="ČotrićAleksandar" speaker_name="Čotrić, Aleksandar" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SPO" speaker_party_name="Srpski pokret obnove" party_status="Coalition" party_orientation="Desni centar" speaker_gender="M" speaker_birth="1966">
+<p id="ParlaMint-RS_2014-11-04-0.u12876.seg0" lang="srpski">
 <s id="ParlaMint-RS_2014-11-04-0.u12876.seg0.1">
 Poštovana	Poštovana	poštovati	ADJ	Case=Voc Definite=Def Degree=Pos Gender=Fem Number=Sing VerbForm=Part Voice=Pass	1	xcomp	zapisati	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Neut Number=Sing VerbForm=Part Voice=Pass	15
 gospođo	gospođo	gospođa	NOUN	Case=Voc Gender=Fem Number=Sing	2	obl	poštovati	ADJ	Case=Voc Definite=Def Degree=Pos Gender=Fem Number=Sing VerbForm=Part Voice=Pass	1
@@ -973,8 +973,8 @@ Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-RS_2014-11-04-0.u12938" text_id="ParlaMint-RS_2014-11-04-0" subcorpus="Reference" body="Unicameralism" term="10" session="" meeting="7" sitting="2015-12-04" agenda="" date="2014-11-04" title="Term 10, Meeting 7" speaker_role="Regular" speaker_id="LončarZlatibor" speaker_name="Lončar, Zlatibor" speaker_mp="notMP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
-<p id="ParlaMint-RS_2014-11-04-0.u12938.seg0" lang="Serbian">
+<speech id="ParlaMint-RS_2014-11-04-0.u12938" text_id="ParlaMint-RS_2014-11-04-0" subcorpus="Referenca" lang="srpski" body="Jednodoman" term="10. mandat" session="-" meeting="Zasedanje 7" sitting="2015-12-04" agenda="-" date="2014-11-04" title="Mandat 10, Zasedanje 7" speaker_role="Redovni" speaker_id="LončarZlatibor" speaker_name="Lončar, Zlatibor" speaker_mp="notMP" speaker_minister="Minister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="" speaker_birth="">
+<p id="ParlaMint-RS_2014-11-04-0.u12938.seg0" lang="srpski">
 <s id="ParlaMint-RS_2014-11-04-0.u12938.seg0.1">
 Prvo	Prvo	prvo	ADV	Degree=Pos	1	advmod	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 se	se	sebe	PRON	Case=Acc PronType=Prs Reflex=Yes	2	compound	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
@@ -2656,8 +2656,8 @@ svima	svima	sav	ADJ	Case=Dat Definite=Def Degree=Pos Gender=Masc Number=Plur	3	n
 </p>
 </speech>
 <note type="speaker" content="Gojković, Maja"/>
-<speech id="ParlaMint-RS_2014-11-04-0.u12939" text_id="ParlaMint-RS_2014-11-04-0" subcorpus="Reference" body="Unicameralism" term="10" session="" meeting="7" sitting="2015-12-04" agenda="" date="2014-11-04" title="Term 10, Meeting 7" speaker_role="Chairperson" speaker_id="GojkovićMaja" speaker_name="Gojković, Maja" speaker_mp="MP" speaker_minister="-" speaker_party="SNS" speaker_party_name="Srpska napredna stranka" party_status="Coalition" speaker_gender="F" speaker_birth="1963">
-<p id="ParlaMint-RS_2014-11-04-0.u12939.seg0" lang="Serbian">
+<speech id="ParlaMint-RS_2014-11-04-0.u12939" text_id="ParlaMint-RS_2014-11-04-0" subcorpus="Referenca" lang="srpski" body="Jednodoman" term="10. mandat" session="-" meeting="Zasedanje 7" sitting="2015-12-04" agenda="-" date="2014-11-04" title="Mandat 10, Zasedanje 7" speaker_role="Predsedavajući" speaker_id="GojkovićMaja" speaker_name="Gojković, Maja" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SNS" speaker_party_name="Srpska napredna stranka" party_status="Coalition" party_orientation="Veliki šator" speaker_gender="F" speaker_birth="1963">
+<p id="ParlaMint-RS_2014-11-04-0.u12939.seg0" lang="srpski">
 <s id="ParlaMint-RS_2014-11-04-0.u12939.seg0.1">
 Zahvaljujem	Zahvaljujem	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 ministru	ministru	ministar	NOUN	Case=Dat Gender=Masc Number=Sing	2	obl	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
@@ -3032,7 +3032,7 @@ reda	reda	red	NOUN	Case=Gen Gender=Masc Number=Sing	16	nmod	tačka	NOUN	Case=Gen
 .	.	.	PUNCT		17	punct	sutra	ADV	Degree=Pos	4
 </s>
 </p>
-<p id="ParlaMint-RS_2014-11-04-0.u12939.seg1" lang="Serbian">
+<p id="ParlaMint-RS_2014-11-04-0.u12939.seg1" lang="srpski">
 <s id="ParlaMint-RS_2014-11-04-0.u12939.seg1.1">
 Poštovane	Poštovane	poštovati	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Fem Number=Plur VerbForm=Part Voice=Pass	1	amod	dama	NOUN	Case=Nom Gender=Fem Number=Plur	2
 dame	dame	dama	NOUN	Case=Nom Gender=Fem Number=Plur	2	nsubj	nastavljati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	8

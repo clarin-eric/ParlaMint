@@ -1,6 +1,6 @@
 <note type="speaker" content="Dačić, Ivica"/>
-<speech id="ParlaMint-RS_2022-02-14-0.u12402" text_id="ParlaMint-RS_2022-02-14-0" subcorpus="COVID" body="Unicameralism" term="12" session="" meeting="v18" sitting="2022-02-14" agenda="" date="2022-02-14" title="Term 12, Meeting v18" speaker_role="Chairperson" speaker_id="DačićIvica" speaker_name="Dačić, Ivica" speaker_mp="MP" speaker_minister="-" speaker_party="SPS" speaker_party_name="Socijalistička partija Srbije" party_status="Coalition" speaker_gender="M" speaker_birth="1966">
-<p id="ParlaMint-RS_2022-02-14-0.u12402.seg0" lang="Serbian">
+<speech id="ParlaMint-RS_2022-02-14-0.u12402" text_id="ParlaMint-RS_2022-02-14-0" subcorpus="COVID" lang="srpski" body="Jednodoman" term="12. mandat" session="-" meeting="Zasedanje v18" sitting="2022-02-14" agenda="-" date="2022-02-14" title="Mandat 12, Zasedanje v18" speaker_role="Predsedavajući" speaker_id="DačićIvica" speaker_name="Dačić, Ivica" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SPS" speaker_party_name="Socijalistička partija Srbije" party_status="Coalition" party_orientation="Levi centar" speaker_gender="M" speaker_birth="1966">
+<p id="ParlaMint-RS_2022-02-14-0.u12402.seg0" lang="srpski">
 <s id="ParlaMint-RS_2022-02-14-0.u12402.seg0.1">
 Poštovane	Poštovane	poštovati	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Fem Number=Plur VerbForm=Part Voice=Pass	1	amod	dama	NOUN	Case=Nom Gender=Fem Number=Plur	2
 dame	dame	dama	NOUN	Case=Nom Gender=Fem Number=Plur	2	nsubj	otvarati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	8
@@ -1061,8 +1061,8 @@ reč	reč	reč	NOUN	Case=Acc Gender=Fem Number=Sing	4	obj	imati	VERB	Mood=Ind Nu
 </p>
 </speech>
 <note type="speaker" content="Mali, Siniša"/>
-<speech id="ParlaMint-RS_2022-02-14-0.u12403" text_id="ParlaMint-RS_2022-02-14-0" subcorpus="COVID" body="Unicameralism" term="12" session="" meeting="v18" sitting="2022-02-14" agenda="" date="2022-02-14" title="Term 12, Meeting v18" speaker_role="Regular" speaker_id="MaliSiniša" speaker_name="Mali, Siniša" speaker_mp="notMP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
-<p id="ParlaMint-RS_2022-02-14-0.u12403.seg0" lang="Serbian">
+<speech id="ParlaMint-RS_2022-02-14-0.u12403" text_id="ParlaMint-RS_2022-02-14-0" subcorpus="COVID" lang="srpski" body="Jednodoman" term="12. mandat" session="-" meeting="Zasedanje v18" sitting="2022-02-14" agenda="-" date="2022-02-14" title="Mandat 12, Zasedanje v18" speaker_role="Redovni" speaker_id="MaliSiniša" speaker_name="Mali, Siniša" speaker_mp="notMP" speaker_minister="Minister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="" speaker_birth="">
+<p id="ParlaMint-RS_2022-02-14-0.u12403.seg0" lang="srpski">
 <s id="ParlaMint-RS_2022-02-14-0.u12403.seg0.1">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 puno	puno	puno	ADV	Degree=Pos	2	det:numgov	predsednik	NOUN	Case=Voc Gender=Masc Number=Sing	4
@@ -3017,8 +3017,8 @@ pitanja	pitanja	pitanje	NOUN	Case=Acc Gender=Neut Number=Plur	6	obl	raspolaganje
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-RS_2022-02-14-0.u12440" text_id="ParlaMint-RS_2022-02-14-0" subcorpus="COVID" body="Unicameralism" term="12" session="" meeting="v18" sitting="2022-02-14" agenda="" date="2022-02-14" title="Term 12, Meeting v18" speaker_role="Chairperson" speaker_id="KovačElvira" speaker_name="Kovač, Elvira" speaker_mp="MP" speaker_minister="-" speaker_party="SVM" speaker_party_name="Savez vojvođanskih Mađara" party_status="Opposition" speaker_gender="F" speaker_birth="1982">
-<p id="ParlaMint-RS_2022-02-14-0.u12440.seg0" lang="Serbian">
+<speech id="ParlaMint-RS_2022-02-14-0.u12440" text_id="ParlaMint-RS_2022-02-14-0" subcorpus="COVID" lang="srpski" body="Jednodoman" term="12. mandat" session="-" meeting="Zasedanje v18" sitting="2022-02-14" agenda="-" date="2022-02-14" title="Mandat 12, Zasedanje v18" speaker_role="Predsedavajući" speaker_id="KovačElvira" speaker_name="Kovač, Elvira" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SVM" speaker_party_name="Savez vojvođanskih Mađara" party_status="Opposition" party_orientation="Desni centar" speaker_gender="F" speaker_birth="1982">
+<p id="ParlaMint-RS_2022-02-14-0.u12440.seg0" lang="srpski">
 <s id="ParlaMint-RS_2022-02-14-0.u12440.seg0.1">
 Zahvaljujem	Zahvaljujem	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
@@ -3141,8 +3141,9 @@ Zahvaljujem	Zahvaljujem	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pr
 </p>
 </speech>
 <note type="time" content="Posle pauze"/>
-<speech id="ParlaMint-RS_2022-02-14-0.u12441" text_id="ParlaMint-RS_2022-02-14-0" subcorpus="COVID" body="Unicameralism" term="12" session="" meeting="v18" sitting="2022-02-14" agenda="" date="2022-02-14" title="Term 12, Meeting v18" speaker_role="Chairperson" speaker_id="DačićIvica" speaker_name="Dačić, Ivica" speaker_mp="MP" speaker_minister="-" speaker_party="SPS" speaker_party_name="Socijalistička partija Srbije" party_status="Coalition" speaker_gender="M" speaker_birth="1966">
-<p id="ParlaMint-RS_2022-02-14-0.u12441.seg0" lang="Serbian">
+<note type="speaker" content="Dačić, Ivica"/>
+<speech id="ParlaMint-RS_2022-02-14-0.u12441" text_id="ParlaMint-RS_2022-02-14-0" subcorpus="COVID" lang="srpski" body="Jednodoman" term="12. mandat" session="-" meeting="Zasedanje v18" sitting="2022-02-14" agenda="-" date="2022-02-14" title="Mandat 12, Zasedanje v18" speaker_role="Predsedavajući" speaker_id="DačićIvica" speaker_name="Dačić, Ivica" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SPS" speaker_party_name="Socijalistička partija Srbije" party_status="Coalition" party_orientation="Levi centar" speaker_gender="M" speaker_birth="1966">
+<p id="ParlaMint-RS_2022-02-14-0.u12441.seg0" lang="srpski">
 <s id="ParlaMint-RS_2022-02-14-0.u12441.seg0.1">
 Poštovane	Poštovane	poštovati	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Fem Number=Plur VerbForm=Part Voice=Pass	1	amod	dama	NOUN	Case=Nom Gender=Fem Number=Plur	2
 dame	dame	dama	NOUN	Case=Nom Gender=Fem Number=Plur	2	nsubj	potreban	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Neut Number=Sing	19

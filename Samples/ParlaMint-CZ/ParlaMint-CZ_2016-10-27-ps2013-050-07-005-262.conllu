@@ -1,0 +1,766 @@
+# newdoc id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1
+# newpar id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1
+# lang = cs
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1.s1
+# text = 262.
+1	262	262	NUM	_	NumForm=Digit|NumType=Card	0	root	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1.s2
+# text = Ústní interpelace
+1	Ústní	ústní	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	_	NER=O
+2	interpelace	interpelace	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	NER=O
+
+# newpar id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p2
+# lang = cs
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p2.s1
+# text = které jsou určeny na předsedu vlády České republiky a ostatní členy vlády.
+1	které	který	DET	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	3	nsubj	_	NER=O
+2	jsou	být	AUX	_	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	NER=O
+3	určeny	určený	ADJ	_	Animacy=Inan|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	NER=O
+4	na	na	ADP	_	AdpType=Prep|Case=Acc	5	case	_	NER=O
+5	předsedu	předseda	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	3	obl:arg	_	NER=O
+6	vlády	vláda	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	5	nmod	_	NER=O
+7	České	český	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	_	NER=B-LOC
+8	republiky	republika	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	6	nmod	_	NER=I-LOC
+9	a	a	CCONJ	_	_	11	cc	_	NER=O
+10	ostatní	ostatní	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	11	amod	_	NER=O
+11	členy	člen	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	5	conj	_	NER=O
+12	vlády	vláda	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	11	nmod	_	NER=O|SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# newpar id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3
+# lang = cs
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s1
+# text = Na začátek mi dovolte, abych přečetl omluvy.
+1	Na	na	ADP	_	AdpType=Prep|Case=Acc	2	case	_	NER=O
+2	začátek	začátek	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	4	obl	_	NER=O
+3	mi	já	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	4	obl:arg	_	NER=O
+4	dovolte	dovolit	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	NER=O
+6-7	abych	_	_	_	_	_	_	_	NER=O
+6	aby	aby	SCONJ	_	_	8	mark	_	_
+7	bych	být	AUX	_	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	8	aux	_	_
+8	přečetl	přečíst	VERB	_	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	ccomp	_	NER=O
+9	omluvy	omluva	NOUN	_	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	8	obj	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s2
+# text = Z celého jednacího dne se omlouvá pan poslanec Zdeněk Soukup, dále dne 27.
+1	Z	z	ADP	_	AdpType=Prep|Case=Gen	4	case	_	NER=O
+2	celého	celý	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	4	amod	_	NER=O
+3	jednacího	jednací	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	4	amod	_	NER=O
+4	dne	den	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	6	obl	_	NER=O
+5	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	6	expl:pv	_	NER=O
+6	omlouvá	omlouvat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+7	pan	pan	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	6	nsubj	_	NER=O
+8	poslanec	poslanec	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	7	flat	_	NER=O
+9	Zdeněk	Zdeněk	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	7	flat	_	NER=B-PER
+10	Soukup	Soukup	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	7	flat	_	NER=I-PER|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	NER=O
+12	dále	dále	ADV	_	_	6	conj	_	NER=O
+13	dne	den	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	12	orphan	_	NER=O
+14	27	27	NUM	_	NumForm=Digit|NumType=Card	13	nummod	_	NER=O|SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s3
+# text = 10. od 14.30 do konce jednání z pracovních důvodů se omlouvá paní poslankyně Berdychová, od 14 hodin z pracovních důvodů se omlouvá po zbytek dne pan poslanec Sedláček, dále od 14.30 hodin do konce jednacího dne z pracovních důvodů se omlouvá pan poslanec Volný, dále dnešního dne od 14.30 do konce jednacího dne se omlouvá paní poslankyně Jaroslava Pokorná Jermanová, od 14.30 do konce jednacího dne z pracovních důvodů se omlouvá paní poslankyně Helena Válková, dnešní den od 14.30 do konce jednacího dne se omlouvá pan poslanec Martin Komárek, od 14.30 hodin do konce jednacího dne ze zdravotních důvodů se omlouvá paní poslankyně Balaštíková a dále z celého odpoledne z pracovních důvodů se omlouvá paní poslankyně Marksová.
+1	10	10	NUM	_	NumForm=Digit|NumType=Card	12	obl	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	_	_	12	punct	_	NER=O
+3	od	od	ADP	_	AdpType=Prep|Case=Gen	4	case	_	NER=O
+4	14.30	14.30	NUM	_	NumForm=Digit|NumType=Card	12	obl	_	NER=O
+5	do	do	ADP	_	AdpType=Prep|Case=Gen	6	case	_	NER=O
+6	konce	konec	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	12	obl	_	NER=O
+7	jednání	jednání	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	6	nmod	_	NER=O
+8	z	z	ADP	_	AdpType=Prep|Case=Gen	10	case	_	NER=O
+9	pracovních	pracovní	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	10	amod	_	NER=O
+10	důvodů	důvod	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	12	obl	_	NER=O
+11	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	12	expl:pv	_	NER=O
+12	omlouvá	omlouvat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+13	paní	paní	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	12	nsubj	_	NER=O
+14	poslankyně	poslankyně	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	13	flat	_	NER=O
+15	Berdychová	Berdychová	PROPN	_	Case=Nom|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	13	flat	_	NER=B-PER|SpaceAfter=No
+16	,	,	PUNCT	_	_	24	punct	_	NER=O
+17	od	od	ADP	_	AdpType=Prep|Case=Gen	19	case	_	NER=O
+18	14	14	NUM	_	NumForm=Digit|NumType=Card	19	nummod	_	NER=O
+19	hodin	hodina	NOUN	_	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	24	obl	_	NER=O
+20	z	z	ADP	_	AdpType=Prep|Case=Gen	22	case	_	NER=O
+21	pracovních	pracovní	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	22	amod	_	NER=O
+22	důvodů	důvod	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	24	obl	_	NER=O
+23	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	24	expl:pv	_	NER=O
+24	omlouvá	omlouvat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	NER=O
+25	po	po	ADP	_	AdpType=Prep|Case=Acc	26	case	_	NER=O
+26	zbytek	zbytek	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	24	obl	_	NER=O
+27	dne	den	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	26	nmod	_	NER=O
+28	pan	pan	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	24	nsubj	_	NER=O
+29	poslanec	poslanec	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	28	flat	_	NER=O
+30	Sedláček	Sedláček	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	28	flat	_	NER=B-PER|SpaceAfter=No
+31	,	,	PUNCT	_	_	44	punct	_	NER=O
+32	dále	dále	ADV	_	_	44	advmod	_	NER=O
+33	od	od	ADP	_	AdpType=Prep|Case=Gen	35	case	_	NER=O
+34	14.30	14.30	NUM	_	NumForm=Digit|NumType=Card	35	nummod:gov	_	NER=O
+35	hodin	hodina	NOUN	_	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	44	obl	_	NER=O
+36	do	do	ADP	_	AdpType=Prep|Case=Gen	37	case	_	NER=O
+37	konce	konec	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	44	obl	_	NER=O
+38	jednacího	jednací	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	39	amod	_	NER=O
+39	dne	den	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	37	nmod	_	NER=O
+40	z	z	ADP	_	AdpType=Prep|Case=Gen	42	case	_	NER=O
+41	pracovních	pracovní	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	42	amod	_	NER=O
+42	důvodů	důvod	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	44	obl	_	NER=O
+43	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	44	expl:pv	_	NER=O
+44	omlouvá	omlouvat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	NER=O
+45	pan	pan	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	44	nsubj	_	NER=O
+46	poslanec	poslanec	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	45	flat	_	NER=O
+47	Volný	Volný	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	45	flat	_	NER=B-PER|SpaceAfter=No
+48	,	,	PUNCT	_	_	59	punct	_	NER=O
+49	dále	dále	ADV	_	_	59	advmod	_	NER=O
+50	dnešního	dnešní	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	51	amod	_	NER=O
+51	dne	den	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	59	obl	_	NER=O
+52	od	od	ADP	_	AdpType=Prep|Case=Gen	53	case	_	NER=O
+53	14.30	14.30	NUM	_	NumForm=Digit|NumType=Card	59	obl	_	NER=O
+54	do	do	ADP	_	AdpType=Prep|Case=Gen	55	case	_	NER=O
+55	konce	konec	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	59	obl	_	NER=O
+56	jednacího	jednací	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	57	amod	_	NER=O
+57	dne	den	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	55	nmod	_	NER=O
+58	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	59	expl:pv	_	NER=O
+59	omlouvá	omlouvat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	NER=O
+60	paní	paní	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	61	nmod	_	NER=O
+61	poslankyně	poslankyně	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	59	nsubj	_	NER=O
+62	Jaroslava	Jaroslava	PROPN	_	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	61	flat	_	NER=B-PER
+63	Pokorná	Pokorná	PROPN	_	Case=Nom|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	61	flat	_	NER=I-PER
+64	Jermanová	Jermanová	PROPN	_	Case=Nom|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	61	flat	_	NER=I-PER|SpaceAfter=No
+65	,	,	PUNCT	_	_	76	punct	_	NER=O
+66	od	od	ADP	_	AdpType=Prep|Case=Gen	67	case	_	NER=O
+67	14.30	14.30	NUM	_	NumForm=Digit|NumType=Card	76	obl	_	NER=O
+68	do	do	ADP	_	AdpType=Prep|Case=Gen	69	case	_	NER=O
+69	konce	konec	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	76	obl	_	NER=O
+70	jednacího	jednací	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	71	amod	_	NER=O
+71	dne	den	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	69	nmod	_	NER=O
+72	z	z	ADP	_	AdpType=Prep|Case=Gen	74	case	_	NER=O
+73	pracovních	pracovní	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	74	amod	_	NER=O
+74	důvodů	důvod	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	76	obl	_	NER=O
+75	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	76	expl:pv	_	NER=O
+76	omlouvá	omlouvat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	NER=O
+77	paní	paní	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	78	nmod	_	NER=O
+78	poslankyně	poslankyně	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	76	nsubj	_	NER=O
+79	Helena	Helena	PROPN	_	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	78	flat	_	NER=B-PER
+80	Válková	Válková	PROPN	_	Case=Nom|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	78	flat	_	NER=I-PER|SpaceAfter=No
+81	,	,	PUNCT	_	_	91	punct	_	NER=O
+82	dnešní	dnešní	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	83	amod	_	NER=O
+83	den	den	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	91	obl	_	NER=O
+84	od	od	ADP	_	AdpType=Prep|Case=Gen	85	case	_	NER=O
+85	14.30	14.30	NUM	_	NumForm=Digit|NumType=Card	91	obl	_	NER=O
+86	do	do	ADP	_	AdpType=Prep|Case=Gen	87	case	_	NER=O
+87	konce	konec	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	91	obl	_	NER=O
+88	jednacího	jednací	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	89	amod	_	NER=O
+89	dne	den	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	87	nmod	_	NER=O
+90	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	91	expl:pv	_	NER=O
+91	omlouvá	omlouvat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	NER=O
+92	pan	pan	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	91	nsubj	_	NER=O
+93	poslanec	poslanec	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	92	flat	_	NER=O
+94	Martin	Martin	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	92	flat	_	NER=B-PER
+95	Komárek	Komárek	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	92	flat	_	NER=I-PER|SpaceAfter=No
+96	,	,	PUNCT	_	_	108	punct	_	NER=O
+97	od	od	ADP	_	AdpType=Prep|Case=Gen	99	case	_	NER=O
+98	14.30	14.30	NUM	_	NumForm=Digit|NumType=Card	99	nummod:gov	_	NER=O
+99	hodin	hodina	NOUN	_	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	108	obl	_	NER=O
+100	do	do	ADP	_	AdpType=Prep|Case=Gen	101	case	_	NER=O
+101	konce	konec	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	108	obl	_	NER=O
+102	jednacího	jednací	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	103	amod	_	NER=O
+103	dne	den	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	101	nmod	_	NER=O
+104	ze	z	ADP	_	AdpType=Voc|Case=Gen	106	case	_	NER=O
+105	zdravotních	zdravotní	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	106	amod	_	NER=O
+106	důvodů	důvod	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	108	obl	_	NER=O
+107	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	108	expl:pv	_	NER=O
+108	omlouvá	omlouvat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	NER=O
+109	paní	paní	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	108	nsubj	_	NER=O
+110	poslankyně	poslankyně	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	109	flat	_	NER=O
+111	Balaštíková	Balaštíková	PROPN	_	Case=Nom|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	109	flat	_	NER=B-PER
+112	a	a	CCONJ	_	_	121	cc	_	NER=O
+113	dále	dále	ADV	_	_	121	advmod	_	NER=O
+114	z	z	ADP	_	AdpType=Prep|Case=Gen	116	case	_	NER=O
+115	celého	celý	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	116	amod	_	NER=O
+116	odpoledne	odpoledne	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	121	obl	_	NER=O
+117	z	z	ADP	_	AdpType=Prep|Case=Gen	119	case	_	NER=O
+118	pracovních	pracovní	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	119	amod	_	NER=O
+119	důvodů	důvod	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	121	obl	_	NER=O
+120	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	121	expl:pv	_	NER=O
+121	omlouvá	omlouvat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	108	conj	_	NER=O
+122	paní	paní	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	121	nsubj	_	NER=O
+123	poslankyně	poslankyně	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	122	flat	_	NER=O
+124	Marksová	Marksová	PROPN	_	Case=Nom|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	122	flat	_	NER=B-PER|SpaceAfter=No
+125	.	.	PUNCT	_	_	12	punct	_	NER=O
+
+# newpar id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4
+# lang = cs
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4.s1
+# text = Dnes jsme za účasti ověřovatelů vylosovali pořadí poslanců, v němž budou vystupovat a podávat ústní interpelace nejprve na předsedu vlády pana Bohuslava Sobotku či na vládu České republiky a poté na ostatní členy vlády.
+1	Dnes	dnes	ADV	_	_	6	advmod	_	NER=O
+2	jsme	být	AUX	_	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	NER=O
+3	za	za	ADP	_	AdpType=Prep|Case=Gen	4	case	_	NER=O
+4	účasti	účast	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	6	obl	_	NER=O
+5	ověřovatelů	ověřovatel	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	4	nmod	_	NER=O
+6	vylosovali	vylosovat	VERB	_	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	NER=O
+7	pořadí	pořadí	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	6	obj	_	NER=O
+8	poslanců	poslanec	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	7	nmod	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	_	_	13	punct	_	NER=O
+10	v	v	ADP	_	AdpType=Prep|Case=Loc	11	case	_	NER=O
+11	němž	jenž	PRON	_	Case=Loc|Gender=Masc,Neut|Number=Sing|PrepCase=Pre|PronType=Rel	13	obl	_	NER=O
+12	budou	být	AUX	_	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	13	aux	_	NER=O
+13	vystupovat	vystupovat	VERB	_	Aspect=Imp|Polarity=Pos|VerbForm=Inf	7	acl:relcl	_	NER=O
+14	a	a	CCONJ	_	_	15	cc	_	NER=O
+15	podávat	podávat	VERB	_	Aspect=Imp|Polarity=Pos|VerbForm=Inf	13	conj	_	NER=O
+16	ústní	ústní	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	17	amod	_	NER=O
+17	interpelace	interpelace	NOUN	_	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	15	obj	_	NER=O
+18	nejprve	nejprve	ADV	_	_	13	advmod	_	NER=O
+19	na	na	ADP	_	AdpType=Prep|Case=Acc	20	case	_	NER=O
+20	předsedu	předseda	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	17	nmod	_	NER=O
+21	vlády	vláda	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	20	nmod	_	NER=O
+22	pana	pan	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	20	flat	_	NER=O
+23	Bohuslava	Bohuslav	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	20	flat	_	NER=B-PER
+24	Sobotku	Sobotka	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	20	flat	_	NER=I-PER
+25	či	či	CCONJ	_	_	27	cc	_	NER=O
+26	na	na	ADP	_	AdpType=Prep|Case=Acc	27	case	_	NER=O
+27	vládu	vláda	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	20	conj	_	NER=O
+28	České	český	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	29	amod	_	NER=B-LOC
+29	republiky	republika	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	27	nmod	_	NER=I-LOC
+30	a	a	CCONJ	_	_	31	cc	_	NER=O
+31	poté	poté	ADV	_	_	13	conj	_	NER=O
+32	na	na	ADP	_	AdpType=Prep|Case=Acc	34	case	_	NER=O
+33	ostatní	ostatní	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	34	amod	_	NER=O
+34	členy	člen	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	31	orphan	_	NER=O
+35	vlády	vláda	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	34	nmod	_	NER=O|SpaceAfter=No
+36	.	.	PUNCT	_	_	6	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4.s2
+# text = Vzhledem k tomu, že premiér Bohuslav Sobotka je omluven, budou ústní interpelace poslanců na ostatní členy vlády následovat bezprostředně po vyčerpání interpelací na předsedu vlády.
+1	Vzhledem	vzhledem	ADP	_	AdpType=Comprep	3	case	_	NER=O
+2	k	k	ADP	_	AdpType=Prep|Case=Dat	1	fixed	_	NER=O
+3	tomu	ten	DET	_	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	20	obl	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	_	_	10	punct	_	NER=O
+5	že	že	SCONJ	_	_	10	mark	_	NER=O
+6	premiér	premiér	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	10	nsubj	_	NER=O
+7	Bohuslav	Bohuslav	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	6	flat	_	NER=B-PER
+8	Sobotka	Sobotka	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	6	flat	_	NER=I-PER
+9	je	být	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	NER=O
+10	omluven	omluvený	ADJ	_	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	3	acl	_	NER=O|SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	NER=O
+12	budou	být	AUX	_	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	20	aux	_	NER=O
+13	ústní	ústní	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	14	amod	_	NER=O
+14	interpelace	interpelace	NOUN	_	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	20	nsubj	_	NER=O
+15	poslanců	poslanec	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	14	nmod	_	NER=O
+16	na	na	ADP	_	AdpType=Prep|Case=Acc	18	case	_	NER=O
+17	ostatní	ostatní	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	18	amod	_	NER=O
+18	členy	člen	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	14	nmod	_	NER=O
+19	vlády	vláda	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	18	nmod	_	NER=O
+20	následovat	následovat	VERB	_	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	NER=O
+21	bezprostředně	bezprostředně	ADV	_	Degree=Pos|Polarity=Pos	20	advmod	_	NER=O
+22	po	po	ADP	_	AdpType=Prep|Case=Loc	23	case	_	NER=O
+23	vyčerpání	vyčerpání	NOUN	_	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	21	obl	_	NER=O
+24	interpelací	interpelace	NOUN	_	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	23	nmod	_	NER=O
+25	na	na	ADP	_	AdpType=Prep|Case=Acc	26	case	_	NER=O
+26	předsedu	předseda	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	24	nmod	_	NER=O
+27	vlády	vláda	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	26	nmod	_	NER=O|SpaceAfter=No
+28	.	.	PUNCT	_	_	20	punct	_	NER=O
+
+# newpar id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5
+# lang = cs
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5.s1
+# text = Nyní dávám slovo poslanci Jiřímu Zlatuškovi, který byl vylosován na prvním místě, aby přednesl ústní interpelaci na předsedu vlády České republiky Bohuslava Sobotku, a připraví se Marek Černoch.
+1	Nyní	nyní	ADV	_	PronType=Dem	2	advmod	_	NER=O
+2	dávám	dávat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	slovo	slovo	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	2	obj	_	NER=O
+4	poslanci	poslanec	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	2	obl:arg	_	NER=O
+5	Jiřímu	Jiří	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	4	flat	_	NER=B-PER
+6	Zlatuškovi	Zlatušek	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	4	flat	_	NER=I-PER|SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	NER=O
+8	který	který	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	10	nsubj:pass	_	NER=O
+9	byl	být	AUX	_	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	10	aux:pass	_	NER=O
+10	vylosován	vylosovaný	ADJ	_	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	4	amod	_	NER=O
+11	na	na	ADP	_	AdpType=Prep|Case=Loc	13	case	_	NER=O
+12	prvním	první	ADJ	_	Case=Loc|Gender=Neut|Number=Sing|NumType=Ord	13	amod	_	NER=O
+13	místě	místo	NOUN	_	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	10	obl	_	NER=O|SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	NER=O
+15-16	aby	_	_	_	_	_	_	_	NER=O
+15	aby	aby	SCONJ	_	_	17	mark	_	_
+16	by	být	AUX	_	Mood=Cnd|Person=3|VerbForm=Fin	17	aux	_	_
+17	přednesl	přednést	VERB	_	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	10	advcl	_	NER=O
+18	ústní	ústní	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	19	amod	_	NER=O
+19	interpelaci	interpelace	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	17	obj	_	NER=O
+20	na	na	ADP	_	AdpType=Prep|Case=Acc	21	case	_	NER=O
+21	předsedu	předseda	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	19	nmod	_	NER=O
+22	vlády	vláda	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	21	nmod	_	NER=O
+23	České	český	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	24	amod	_	NER=B-LOC
+24	republiky	republika	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	22	nmod	_	NER=I-LOC
+25	Bohuslava	Bohuslav	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	21	flat	_	NER=B-PER
+26	Sobotku	Sobotka	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	21	flat	_	NER=I-PER|SpaceAfter=No
+27	,	,	PUNCT	_	_	17	punct	_	NER=O
+28	a	a	CCONJ	_	_	29	cc	_	NER=O
+29	připraví	připravit	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	NER=O
+30	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	29	expl:pv	_	NER=O
+31	Marek	Marek	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	29	nsubj	_	NER=B-PER
+32	Černoch	Černoch	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	31	flat	_	NER=I-PER|SpaceAfter=No
+33	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5.s2
+# text = Prosím, pane poslanče.
+1	Prosím	prosit	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	NER=O
+3	pane	pan	NOUN	_	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing|Polarity=Pos	4	nmod	_	NER=O
+4	poslanče	poslanč	NOUN	_	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing|Polarity=Pos	1	vocative	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2
+# newpar id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1
+# lang = cs
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s1
+# text = Já jsem chtěl pana premiéra interpelovat stran jeho vystupování, ze kterého, pokud by si z nás politiků mládež brala příklad, tak mám trošku obavy, že, jak se vždycky říká, že mládež ztrácí dobré mravy nebo dělá to či ono, tak že by to mohlo být špatné.
+1	Já	já	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	NER=O
+2	jsem	být	AUX	_	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	NER=O
+3	chtěl	chtít	VERB	_	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	NER=O
+4	pana	pan	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	5	nmod	_	NER=O
+5	premiéra	premiér	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	6	obj	_	NER=O
+6	interpelovat	interpelovat	VERB	_	Polarity=Pos|VerbForm=Inf	3	xcomp	_	NER=O
+7	stran	stran	ADP	_	AdpType=Prep|Case=Gen	9	case	_	NER=O
+8	jeho	jeho	DET	_	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	NER=O
+9	vystupování	vystupování	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	6	obl	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	_	_	25	punct	_	NER=O
+11	ze	z	ADP	_	AdpType=Voc|Case=Gen	12	case	_	NER=O
+12	kterého	který	DET	_	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Int,Rel	25	obl	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	_	_	21	punct	_	NER=O
+14	pokud	pokud	SCONJ	_	_	21	mark	_	NER=O
+15	by	být	AUX	_	Mood=Cnd|VerbForm=Fin	21	aux	_	NER=O
+16	si	se	PRON	_	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	21	expl:pv	_	NER=O
+17	z	z	ADP	_	AdpType=Prep|Case=Gen	18	case	_	NER=O
+18	nás	já	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	21	obl:arg	_	NER=O
+19	politiků	politik	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	18	nmod	_	NER=O
+20	mládež	mládež	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	21	nsubj	_	NER=O
+21	brala	brát	VERB	_	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	25	advcl	_	NER=O
+22	příklad	příklad	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	21	obj	_	NER=O|SpaceAfter=No
+23	,	,	PUNCT	_	_	21	punct	_	NER=O
+24	tak	tak	ADV	_	PronType=Dem	25	advmod	_	NER=O
+25	mám	mít	VERB	_	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	NER=O
+26	trošku	trošku	ADV	_	_	25	advmod	_	NER=O
+27	obavy	obava	NOUN	_	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	25	obj	_	NER=O|SpaceAfter=No
+28	,	,	PUNCT	_	_	51	punct	_	NER=O
+29	že	že	SCONJ	_	_	51	mark	_	NER=O|SpaceAfter=No
+30	,	,	PUNCT	_	_	34	punct	_	NER=O
+31	jak	jak	ADV	_	PronType=Int,Rel	34	advmod	_	NER=O
+32	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	34	expl:pass	_	NER=O
+33	vždycky	vždycky	ADV	_	_	34	advmod	_	NER=O
+34	říká	říkat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	25	parataxis	_	NER=O|SpaceAfter=No
+35	,	,	PUNCT	_	_	38	punct	_	NER=O
+36	že	že	SCONJ	_	_	38	mark	_	NER=O
+37	mládež	mládež	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	38	nsubj	_	NER=O
+38	ztrácí	ztrácet	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	34	csubj:pass	_	NER=O
+39	dobré	dobrý	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	40	amod	_	NER=O
+40	mravy	mrav	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	38	obj	_	NER=O
+41	nebo	nebo	CCONJ	_	_	42	cc	_	NER=O
+42	dělá	dělat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	38	conj	_	NER=O
+43	to	ten	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	42	obj	_	NER=O
+44	či	či	CCONJ	_	_	45	cc	_	NER=O
+45	ono	onen	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	43	conj	_	NER=O|SpaceAfter=No
+46	,	,	PUNCT	_	_	34	punct	_	NER=O
+47	tak	tak	ADV	_	PronType=Dem	51	advmod	_	NER=O
+48	že	že	SCONJ	_	_	51	mark	_	NER=O
+49	by	být	AUX	_	Mood=Cnd|VerbForm=Fin	51	aux	_	NER=O
+50	to	ten	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	51	nsubj	_	NER=O
+51	mohlo	moci	VERB	_	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	25	advcl	_	NER=O
+52	být	být	AUX	_	Polarity=Pos|VerbForm=Inf	53	cop	_	NER=O
+53	špatné	špatný	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	51	xcomp	_	NER=O|SpaceAfter=No
+54	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s2
+# text = A jednalo se mi o jistý rozpor v jeho chování v okamžiku, kdy jako jeden z těch čtyř ústavních činitelů podepsal prohlášení, kterým vlastně peskoval jednoho ze svých ministrů za to, že tento ministr, tedy ministr Herman, přivítal v České republice hosta, a na druhou stranu rozpor tady s tímto a nekonáním směrem k jinému panu ministrovi, k ministru Chovancovi, u kterého se nad jakékoliv pochybnosti ukázalo, že opsal svoji práci na Západočeské univerzitě.
+1	A	a	CCONJ	_	_	2	cc	_	NER=O
+2	jednalo	jednat	VERB	_	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	NER=O
+3	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	2	expl:pv	_	NER=O
+4	mi	já	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	2	obl:arg	_	NER=O
+5	o	o	ADP	_	AdpType=Prep|Case=Acc	7	case	_	NER=O
+6	jistý	jistý	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	7	amod	_	NER=O
+7	rozpor	rozpor	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	2	obl:arg	_	NER=O
+8	v	v	ADP	_	AdpType=Prep|Case=Loc	10	case	_	NER=O
+9	jeho	jeho	DET	_	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	NER=O
+10	chování	chování	NOUN	_	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	7	nmod	_	NER=O
+11	v	v	ADP	_	AdpType=Prep|Case=Loc	12	case	_	NER=O
+12	okamžiku	okamžik	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	10	nmod	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	_	_	22	punct	_	NER=O
+14	kdy	kdy	ADV	_	PronType=Int,Rel	22	advmod	_	NER=O
+15	jako	jako	SCONJ	_	_	16	mark	_	NER=O
+16	jeden	jeden	NUM	_	Case=Nom|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	22	xcomp	_	NER=O
+17	z	z	ADP	_	AdpType=Prep|Case=Gen	21	case	_	NER=O
+18	těch	ten	DET	_	Case=Gen|Number=Plur|PronType=Dem	21	det	_	NER=O
+19	čtyř	čtyři	NUM	_	Case=Gen|Number=Plur|NumForm=Word|NumType=Card|NumValue=1,2,3	21	nummod	_	NER=O
+20	ústavních	ústavní	ADJ	_	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	21	amod	_	NER=O
+21	činitelů	činitel	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	16	nmod	_	NER=O
+22	podepsal	podepsat	VERB	_	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	12	acl:relcl	_	NER=O
+23	prohlášení	prohlášení	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	22	obj	_	NER=O|SpaceAfter=No
+24	,	,	PUNCT	_	_	27	punct	_	NER=O
+25	kterým	který	DET	_	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Int,Rel	27	obl	_	NER=O
+26	vlastně	vlastně	ADV	_	_	27	advmod	_	NER=O
+27	peskoval	peskovat	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	23	acl:relcl	_	NER=O
+28	jednoho	jeden	NUM	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	27	obj	_	NER=O
+29	ze	z	ADP	_	AdpType=Voc|Case=Gen	31	case	_	NER=O
+30	svých	svůj	DET	_	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	31	det	_	NER=O
+31	ministrů	ministr	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	28	nmod	_	NER=O
+32	za	za	ADP	_	AdpType=Prep|Case=Acc	33	case	_	NER=O
+33	to	ten	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	27	obl	_	NER=O|SpaceAfter=No
+34	,	,	PUNCT	_	_	43	punct	_	NER=O
+35	že	že	SCONJ	_	_	43	mark	_	NER=O
+36	tento	tento	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	37	det	_	NER=O
+37	ministr	ministr	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	43	nsubj	_	NER=O|SpaceAfter=No
+38	,	,	PUNCT	_	_	40	punct	_	NER=O
+39	tedy	tedy	ADV	_	_	40	cc	_	NER=O
+40	ministr	ministr	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	37	appos	_	NER=O
+41	Herman	Herman	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	40	flat	_	NER=B-PER|SpaceAfter=No
+42	,	,	PUNCT	_	_	40	punct	_	NER=O
+43	přivítal	přivítat	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	33	acl	_	NER=O
+44	v	v	ADP	_	AdpType=Prep|Case=Loc	46	case	_	NER=O
+45	České	český	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	46	amod	_	NER=B-LOC
+46	republice	republika	NOUN	_	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	43	obl	_	NER=I-LOC
+47	hosta	host	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	43	obj	_	NER=O|SpaceAfter=No
+48	,	,	PUNCT	_	_	43	punct	_	NER=O
+49	a	a	CCONJ	_	_	52	cc	_	NER=O
+50	na	na	ADP	_	AdpType=Prep|Case=Acc	52	case	_	NER=O
+51	druhou	druhý	ADJ	_	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	52	amod	_	NER=O
+52	stranu	strana	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	2	conj	_	NER=O
+53	rozpor	rozpor	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	52	orphan	_	NER=O
+54	tady	tady	ADV	_	PronType=Dem	53	advmod	_	NER=O
+55	s	s	ADP	_	AdpType=Prep|Case=Ins	56	case	_	NER=O
+56	tímto	tento	DET	_	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Dem	53	det	_	NER=O
+57	a	a	CCONJ	_	_	58	cc	_	NER=O
+58	nekonáním	nekonání	NOUN	_	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	56	conj	_	NER=O
+59	směrem	směr	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	63	case	_	NER=O
+60	k	k	ADP	_	AdpType=Prep|Case=Dat	59	fixed	_	NER=O
+61	jinému	jiný	ADJ	_	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	63	amod	_	NER=O
+62	panu	pan	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	63	nmod	_	NER=O
+63	ministrovi	ministr	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	53	nmod	_	NER=O|SpaceAfter=No
+64	,	,	PUNCT	_	_	66	punct	_	NER=O
+65	k	k	ADP	_	AdpType=Prep|Case=Dat	66	case	_	NER=O
+66	ministru	ministr	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	63	appos	_	NER=O
+67	Chovancovi	Chovanc	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	66	flat	_	NER=B-PER|SpaceAfter=No
+68	,	,	PUNCT	_	_	75	punct	_	NER=O
+69	u	u	ADP	_	AdpType=Prep|Case=Gen	70	case	_	NER=O
+70	kterého	který	DET	_	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Int,Rel	75	obl	_	NER=O
+71	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	75	expl:pass	_	NER=O
+72	nad	nad	ADP	_	AdpType=Prep|Case=Acc	74	case	_	NER=O
+73	jakékoliv	jakýkoliv	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	74	det	_	NER=O
+74	pochybnosti	pochybnost	NOUN	_	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	75	obl	_	NER=O
+75	ukázalo	ukázat	VERB	_	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	66	acl:relcl	_	NER=O|SpaceAfter=No
+76	,	,	PUNCT	_	_	78	punct	_	NER=O
+77	že	že	SCONJ	_	_	78	mark	_	NER=O
+78	opsal	opsat	VERB	_	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	75	csubj	_	NER=O
+79	svoji	svůj	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	80	det	_	NER=O
+80	práci	práce	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	78	obj	_	NER=O
+81	na	na	ADP	_	AdpType=Prep|Case=Loc	83	case	_	NER=O
+82	Západočeské	západočeský	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	83	amod	_	NER=B-ORG
+83	univerzitě	univerzita	NOUN	_	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	80	nmod	_	NER=I-ORG|SpaceAfter=No
+84	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s3
+# text = Tento rozpor si myslím, že vede k tomu, že mládež si z toho může brát příklad, že nemá zdravit toho, kdo se jí nelíbí, má se třeba chovat nevšímavě k učitelům, a v okamžiku, kdy se jedná o zkoušky a podobně, tak má opsat, co může, jenom aby jí to prošlo.
+1	Tento	tento	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	NER=O
+2	rozpor	rozpor	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	4	nsubj	_	NER=O
+3	si	se	PRON	_	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pv	_	NER=O
+4	myslím	myslit	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	NER=O
+6	že	že	SCONJ	_	_	7	mark	_	NER=O
+7	vede	vést	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	NER=O
+8	k	k	ADP	_	AdpType=Prep|Case=Dat	9	case	_	NER=O
+9	tomu	ten	DET	_	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	7	obl	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	_	_	16	punct	_	NER=O
+11	že	že	SCONJ	_	_	16	mark	_	NER=O
+12	mládež	mládež	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	16	nsubj	_	NER=O
+13	si	se	PRON	_	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	17	obl	_	NER=O
+14	z	z	ADP	_	AdpType=Prep|Case=Gen	15	case	_	NER=O
+15	toho	ten	DET	_	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Dem	17	obl:arg	_	NER=O
+16	může	moci	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl	_	NER=O
+17	brát	brát	VERB	_	Polarity=Pos|VerbForm=Inf	16	xcomp	_	NER=O
+18	příklad	příklad	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	17	obj	_	NER=O|SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	NER=O
+20	že	že	SCONJ	_	_	21	mark	_	NER=O
+21	nemá	mít	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl	_	NER=O
+22	zdravit	zdravit	VERB	_	Aspect=Perf|Polarity=Pos|VerbForm=Inf	21	xcomp	_	NER=O
+23	toho	ten	DET	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	22	obj	_	NER=O|SpaceAfter=No
+24	,	,	PUNCT	_	_	28	punct	_	NER=O
+25	kdo	kdo	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|PronType=Int,Rel	28	nsubj	_	NER=O
+26	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	28	expl:pv	_	NER=O
+27	jí	on	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	28	obl:arg	_	NER=O
+28	nelíbí	líbit	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl:relcl	_	NER=O|SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	NER=O
+30	má	mít	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	21	conj	_	NER=O
+31	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	33	expl:pv	_	NER=O
+32	třeba	třeba	ADV	_	_	33	advmod:emph	_	NER=O
+33	chovat	chovat	VERB	_	Aspect=Imp|Polarity=Pos|VerbForm=Inf	30	xcomp	_	NER=O
+34	nevšímavě	všímavě	ADV	_	Degree=Pos|Polarity=Neg	33	advmod	_	NER=O
+35	k	k	ADP	_	AdpType=Prep|Case=Dat	36	case	_	NER=O
+36	učitelům	učitel	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	33	obl	_	NER=O|SpaceAfter=No
+37	,	,	PUNCT	_	_	51	punct	_	NER=O
+38	a	a	CCONJ	_	_	51	cc	_	NER=O
+39	v	v	ADP	_	AdpType=Prep|Case=Loc	40	case	_	NER=O
+40	okamžiku	okamžik	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	51	obl	_	NER=O|SpaceAfter=No
+41	,	,	PUNCT	_	_	44	punct	_	NER=O
+42	kdy	kdy	ADV	_	PronType=Int,Rel	44	advmod	_	NER=O
+43	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	44	expl:pv	_	NER=O
+44	jedná	jednat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	40	acl:relcl	_	NER=O
+45	o	o	ADP	_	AdpType=Prep|Case=Acc	46	case	_	NER=O
+46	zkoušky	zkouška	NOUN	_	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	44	obl:arg	_	NER=O
+47	a	a	CCONJ	_	_	48	cc	_	NER=O
+48	podobně	podobně	ADV	_	Degree=Pos|Polarity=Pos	46	conj	_	NER=O|SpaceAfter=No
+49	,	,	PUNCT	_	_	44	punct	_	NER=O
+50	tak	tak	ADV	_	PronType=Dem	51	advmod	_	NER=O
+51	má	mít	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	21	conj	_	NER=O
+52	opsat	opsat	VERB	_	Polarity=Pos|VerbForm=Inf	51	xcomp	_	NER=O|SpaceAfter=No
+53	,	,	PUNCT	_	_	55	punct	_	NER=O
+54	co	co	PRON	_	Animacy=Inan|Case=Acc|PronType=Int,Rel	55	obj	_	NER=O
+55	může	moci	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	52	ccomp	_	NER=O|SpaceAfter=No
+56	,	,	PUNCT	_	_	62	punct	_	NER=O
+57	jenom	jenom	PART	_	_	62	advmod:emph	_	NER=O
+58-59	aby	_	_	_	_	_	_	_	NER=O
+58	aby	aby	SCONJ	_	_	62	mark	_	_
+59	by	být	AUX	_	Mood=Cnd|Person=3|VerbForm=Fin	62	aux	_	_
+60	jí	on	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	62	obl:arg	_	NER=O
+61	to	ten	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	62	nsubj	_	NER=O
+62	prošlo	projít	VERB	_	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	55	advcl	_	NER=O|SpaceAfter=No
+63	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s4
+# text = Ale pokud tady pan premiér není, tak tu interpelaci asi nebudu pokládat a nechám si to pro jinou příležitost.
+1	Ale	ale	CCONJ	_	_	13	cc	_	NER=O
+2	pokud	pokud	SCONJ	_	_	6	mark	_	NER=O
+3	tady	tady	ADV	_	PronType=Dem	6	advmod	_	NER=O
+4	pan	pan	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	5	nmod	_	NER=O
+5	premiér	premiér	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	6	nsubj	_	NER=O
+6	není	být	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	NER=O
+8	tak	tak	ADV	_	PronType=Dem	13	advmod	_	NER=O
+9	tu	ten	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	NER=O
+10	interpelaci	interpelace	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	13	obj	_	NER=O
+11	asi	asi	PART	_	_	13	advmod	_	NER=O
+12	nebudu	být	AUX	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Fut|VerbForm=Fin|Voice=Act	13	aux	_	NER=O
+13	pokládat	pokládat	VERB	_	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	NER=O
+14	a	a	CCONJ	_	_	15	cc	_	NER=O
+15	nechám	nechat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	NER=O
+16	si	se	PRON	_	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	15	obl	_	NER=O
+17	to	ten	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	15	obj	_	NER=O
+18	pro	pro	ADP	_	AdpType=Prep|Case=Acc	20	case	_	NER=O
+19	jinou	jiný	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	20	amod	_	NER=O
+20	příležitost	příležitost	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	15	obl	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	_	_	13	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s5
+# text = Děkuji.
+1	Děkuji	děkovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157
+# newpar id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1
+# lang = cs
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s1
+# text = Děkuji, pane předsedající.
+1	Děkuji	děkovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	NER=O
+3	pane	pan	NOUN	_	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing|Polarity=Pos	4	nmod	_	NER=O
+4	předsedající	předsedající	ADJ	_	Animacy=Anim|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	1	vocative	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s2
+# text = Moje otázka je jednoduchá.
+1	Moje	můj	DET	_	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	NER=O
+2	otázka	otázka	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	nsubj	_	NER=O
+3	je	být	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	NER=O
+4	jednoduchá	jednoduchý	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s3
+# text = Mě zajímá celkový stav čerpání evropských fondů, které má Česká republika na léta 2014 až 2020 k dispozici.
+1	Mě	já	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	2	obj	_	NER=O
+2	zajímá	zajímat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	celkový	celkový	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	4	amod	_	NER=O
+4	stav	stav	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	2	nsubj	_	NER=O
+5	čerpání	čerpání	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	4	nmod	_	NER=O
+6	evropských	evropský	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	7	amod	_	NER=O
+7	fondů	fond	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	5	nmod	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	NER=O
+9	které	který	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Int,Rel	10	obj	_	NER=O
+10	má	mít	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	NER=O
+11	Česká	český	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	12	amod	_	NER=B-LOC
+12	republika	republika	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	10	nsubj	_	NER=I-LOC
+13	na	na	ADP	_	AdpType=Prep|Case=Acc	14	case	_	NER=O
+14	léta	rok	NOUN	_	Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos|Style=Arch	10	obl	_	NER=O
+15	2014	2014	NUM	_	NumForm=Digit|NumType=Card	14	nummod	_	NER=O
+16	až	až	CCONJ	_	_	17	cc	_	NER=O
+17	2020	2020	NUM	_	NumForm=Digit|NumType=Card	15	conj	_	NER=O
+18	k	k	ADP	_	AdpType=Prep|Case=Dat	19	case	_	NER=O
+19	dispozici	dispozice	NOUN	_	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	10	obl	_	NER=O|SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s4
+# text = Proto prosím o odpověď na otázku, kolik Česká republika má celkem k dispozici finančních prostředků z EU na léta 2014 až 2020.
+1	Proto	proto	CCONJ	_	_	2	cc	_	NER=O
+2	prosím	prosit	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	o	o	ADP	_	AdpType=Prep|Case=Acc	4	case	_	NER=O
+4	odpověď	odpověď	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	2	obl:arg	_	NER=O
+5	na	na	ADP	_	AdpType=Prep|Case=Acc	6	case	_	NER=O
+6	otázku	otázka	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	4	nmod	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	NER=O
+8	kolik	kolik	DET	_	Case=Acc|NumType=Card|PronType=Int,Rel	11	obj	_	NER=O
+9	Česká	český	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	10	amod	_	NER=B-LOC
+10	republika	republika	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	11	nsubj	_	NER=I-LOC
+11	má	mít	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	_	NER=O
+12	celkem	celkem	ADV	_	_	11	advmod	_	NER=O
+13	k	k	ADP	_	AdpType=Prep|Case=Dat	14	case	_	NER=O
+14	dispozici	dispozice	NOUN	_	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	11	obl	_	NER=O
+15	finančních	finanční	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	16	amod	_	NER=O
+16	prostředků	prostředek	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	14	nmod	_	NER=O
+17	z	z	ADP	_	AdpType=Prep|Case=Gen	18	case	_	NER=O
+18	EU	EU	PROPN	_	Abbr=Yes|Gender=Fem|NameType=Com|Polarity=Pos	16	nmod	_	NER=B-ORG
+19	na	na	ADP	_	AdpType=Prep|Case=Acc	20	case	_	NER=O
+20	léta	rok	NOUN	_	Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos|Style=Arch	16	nmod	_	NER=O
+21	2014	2014	NUM	_	NumForm=Digit|NumType=Card	20	nummod	_	NER=O
+22	až	až	CCONJ	_	_	23	cc	_	NER=O
+23	2020	2020	NUM	_	NumForm=Digit|NumType=Card	21	conj	_	NER=O|SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s5
+# text = Kolik bylo už doposud vyčerpáno a kolik bylo finančních prostředků zesmluvněno?
+1	Kolik	kolik	DET	_	Case=Nom|NumType=Card|PronType=Int,Rel	5	nsubj:pass	_	NER=O
+2	bylo	být	AUX	_	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	aux:pass	_	NER=O
+3	už	už	ADV	_	_	5	advmod	_	NER=O
+4	doposud	doposud	ADV	_	_	5	advmod	_	NER=O
+5	vyčerpáno	vyčerpaný	ADJ	_	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	NER=O
+6	a	a	CCONJ	_	_	11	cc	_	NER=O
+7	kolik	kolik	DET	_	Case=Nom|NumType=Card|PronType=Int,Rel	10	det:numgov	_	NER=O
+8	bylo	být	AUX	_	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	11	aux:pass	_	NER=O
+9	finančních	finanční	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	10	amod	_	NER=O
+10	prostředků	prostředek	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	11	nsubj:pass	_	NER=O
+11	zesmluvněno	zesmluvněný	ADJ	_	Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	NER=O|SpaceAfter=No
+12	?	?	PUNCT	_	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s6
+# text = Dále mě zajímá, kolik finančních prostředků plánovaných v rozpočtu na rok 2016 v jednotlivých kapitolách státního rozpočtu bude proinvestováno a jaký byl plán, to znamená, jakou očekáváte skutečnost ke konci roku 2016 a kolik finančních prostředků do rozpočtu EU měly jednotlivé kapitoly státního rozpočtu v plánu.
+1	Dále	dále	ADV	_	_	3	advmod	_	NER=O
+2	mě	já	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	3	obj	_	NER=O
+3	zajímá	zajímat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	_	_	20	punct	_	NER=O
+5	kolik	kolik	DET	_	Case=Nom|NumType=Card|PronType=Int,Rel	7	det:numgov	_	NER=O
+6	finančních	finanční	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	7	amod	_	NER=O
+7	prostředků	prostředek	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	20	nsubj:pass	_	NER=O
+8	plánovaných	plánovaný	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	7	amod	_	NER=O
+9	v	v	ADP	_	AdpType=Prep|Case=Loc	10	case	_	NER=O
+10	rozpočtu	rozpočet	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	8	obl	_	NER=O
+11	na	na	ADP	_	AdpType=Prep|Case=Acc	12	case	_	NER=O
+12	rok	rok	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	10	nmod	_	NER=O
+13	2016	2016	NUM	_	NumForm=Digit|NumType=Card	12	nummod	_	NER=O
+14	v	v	ADP	_	AdpType=Prep|Case=Loc	16	case	_	NER=O
+15	jednotlivých	jednotlivý	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	16	amod	_	NER=O
+16	kapitolách	kapitola	NOUN	_	Case=Loc|Gender=Fem|Number=Plur|Polarity=Pos	8	obl	_	NER=O
+17	státního	státní	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	18	amod	_	NER=O
+18	rozpočtu	rozpočet	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	16	nmod	_	NER=O
+19	bude	být	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	20	aux:pass	_	NER=O
+20	proinvestováno	proinvestovaný	ADJ	_	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	3	csubj	_	NER=O
+21	a	a	CCONJ	_	_	22	cc	_	NER=O
+22	jaký	jaký	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	20	conj	_	NER=O
+23	byl	být	AUX	_	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	22	cop	_	NER=O
+24	plán	plán	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	22	nsubj	_	NER=O|SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	NER=O
+26	to	ten	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	27	nsubj	_	NER=O
+27	znamená	znamenat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	NER=O|SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	NER=O
+29	jakou	jaký	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	31	det	_	NER=O
+30	očekáváte	očekávat	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	27	ccomp	_	NER=O
+31	skutečnost	skutečnost	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	30	obj	_	NER=O
+32	ke	k	ADP	_	AdpType=Voc|Case=Dat	33	case	_	NER=O
+33	konci	konec	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	31	nmod	_	NER=O
+34	roku	rok	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	33	nmod	_	NER=O
+35	2016	2016	NUM	_	NumForm=Digit|NumType=Card	34	nummod	_	NER=O
+36	a	a	CCONJ	_	_	43	cc	_	NER=O
+37	kolik	kolik	DET	_	Case=Acc|NumType=Card|PronType=Int,Rel	39	det:numgov	_	NER=O
+38	finančních	finanční	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	39	amod	_	NER=O
+39	prostředků	prostředek	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	43	obj	_	NER=O
+40	do	do	ADP	_	AdpType=Prep|Case=Gen	41	case	_	NER=O
+41	rozpočtu	rozpočet	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	39	nmod	_	NER=O
+42	EU	EU	PROPN	_	Abbr=Yes|Gender=Fem|NameType=Com|Polarity=Pos	41	nmod	_	NER=B-ORG
+43	měly	mít	VERB	_	Animacy=Inan|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	30	conj	_	NER=O
+44	jednotlivé	jednotlivý	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	45	amod	_	NER=O
+45	kapitoly	kapitola	NOUN	_	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	43	nsubj	_	NER=O
+46	státního	státní	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	47	amod	_	NER=O
+47	rozpočtu	rozpočet	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	45	nmod	_	NER=O
+48	v	v	ADP	_	AdpType=Prep|Case=Loc	49	case	_	NER=O
+49	plánu	plán	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	43	obl	_	NER=O|SpaceAfter=No
+50	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s7
+# text = Děkuji vám za vaši odpověď.
+1	Děkuji	děkovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	vám	ty	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	1	obl:arg	_	NER=O
+3	za	za	ADP	_	AdpType=Prep|Case=Acc	5	case	_	NER=O
+4	vaši	tvůj	DET	_	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	5	det	_	NER=O
+5	odpověď	odpověď	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	1	obl:arg	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158
+# newpar id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1
+# lang = cs
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s1
+# text = Děkuji.
+1	Děkuji	děkovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s2
+# text = Omlouvám se panu poslanci Hovorkovi, ale dle jednacího řádu musí být přítomen alespoň jeden ministr, což bohužel v tuto chvíli není pravda, takže přerušuji jednání Sněmovny do úterý 8. listopadu, kdy budeme pokračovat pevně zařazenými body dle programu.
+1	Omlouvám	omlouvat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	se	se	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	_	NER=O
+3	panu	pan	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	1	obl:arg	_	NER=O
+4	poslanci	poslanec	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	3	flat	_	NER=O
+5	Hovorkovi	Hovorka	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	3	flat	_	NER=B-PER|SpaceAfter=No
+6	,	,	PUNCT	_	_	11	punct	_	NER=O
+7	ale	ale	CCONJ	_	_	11	cc	_	NER=O
+8	dle	dle	ADP	_	AdpType=Prep|Case=Gen	10	case	_	NER=O
+9	jednacího	jednací	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	10	amod	_	NER=O
+10	řádu	řád	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	11	obl	_	NER=O
+11	musí	muset	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	NER=O
+12	být	být	AUX	_	Polarity=Pos|VerbForm=Inf	13	cop	_	NER=O
+13	přítomen	přítomný	ADJ	_	Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	11	xcomp	_	NER=O
+14	alespoň	alespoň	ADV	_	_	16	advmod:emph	_	NER=O
+15	jeden	jeden	NUM	_	Case=Nom|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	16	nummod	_	NER=O
+16	ministr	ministr	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	11	nsubj	_	NER=O|SpaceAfter=No
+17	,	,	PUNCT	_	_	24	punct	_	NER=O
+18	což	což	PRON	_	Case=Nom|PronType=Rel	24	nsubj	_	NER=O
+19	bohužel	bohužel	PART	_	_	24	advmod	_	NER=O
+20	v	v	ADP	_	AdpType=Prep|Case=Acc	22	case	_	NER=O
+21	tuto	tento	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	22	det	_	NER=O
+22	chvíli	chvíle	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	24	obl	_	NER=O
+23	není	být	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	24	cop	_	NER=O
+24	pravda	pravda	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	11	conj	_	NER=O|SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	NER=O
+26	takže	takže	SCONJ	_	_	27	mark	_	NER=O
+27	přerušuji	přerušovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	24	advcl	_	NER=O
+28	jednání	jednání	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	27	obj	_	NER=O
+29	Sněmovny	sněmovna	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	28	nmod	_	NER=B-ORG
+30	do	do	ADP	_	AdpType=Prep|Case=Gen	31	case	_	NER=O
+31	úterý	úterý	NOUN	_	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	27	obl	_	NER=O
+32	8	8	NUM	_	NumForm=Digit|NumType=Card	34	nummod	_	NER=O|SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	NER=O
+34	listopadu	listopad	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	31	nmod	_	NER=O|SpaceAfter=No
+35	,	,	PUNCT	_	_	38	punct	_	NER=O
+36	kdy	kdy	ADV	_	PronType=Int,Rel	38	advmod	_	NER=O
+37	budeme	být	AUX	_	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	38	aux	_	NER=O
+38	pokračovat	pokračovat	VERB	_	Aspect=Imp|Polarity=Pos|VerbForm=Inf	34	acl:relcl	_	NER=O
+39	pevně	pevně	ADV	_	Degree=Pos|Polarity=Pos	40	advmod	_	NER=O
+40	zařazenými	zařazený	ADJ	_	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	41	amod	_	NER=O
+41	body	bod	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos	38	obl	_	NER=O
+42	dle	dle	ADP	_	AdpType=Prep|Case=Gen	43	case	_	NER=O
+43	programu	program	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	41	nmod	_	NER=O|SpaceAfter=No
+44	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s3
+# text = Děkuji a přeji vám hezký večer.
+1	Děkuji	děkovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	a	a	CCONJ	_	_	3	cc	_	NER=O
+3	přeji	přát	VERB	_	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	NER=O
+4	vám	ty	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	obl:arg	_	NER=O
+5	hezký	hezký	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	_	NER=O
+6	večer	večer	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	3	obj	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	NER=O
+

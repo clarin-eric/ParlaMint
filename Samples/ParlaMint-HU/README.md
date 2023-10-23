@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country HU (Hungary)
+# Samples of the ParlaMint-HU corpus
 
+- Country: HU (Hungary)
 - Languages: hu (Hungarian)
 
 ## Documentation

@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country BG (Bulgaria)
+# Samples of the ParlaMint-BG corpus
 
+- Country: BG (Bulgaria)
 - Language: bg (Bulgarian)
 
 ## Documentation

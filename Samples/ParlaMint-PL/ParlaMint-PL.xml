@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
-           xmlns:xi="http://www.w3.org/2001/XInclude"
-           xml:id="ParlaMint-PL"
-           xml:lang="pl">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ParlaMint-PL" xml:lang="pl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +38,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.0</edition>
+            <edition>4.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="228326" xml:lang="pl">228.326 wypowiedzi</measure>
@@ -55,7 +52,7 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1859</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="pl">Ten utwór jest dostępny na <ref target="http://creativecommons.org/licenses/by/4.0/">międzynarodowej licencji Creative Commons Attribution 4.0</ref>
@@ -63,7 +60,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-06-15">2023-06-15</date>
+            <date when="2023-10-10">2023-10-10</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -84,10 +81,8 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
-            <p xml:lang="pl">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="pl"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
          </projectDesc>
          <editorialDecl>
@@ -127,6 +122,8 @@
             <xi:include href="ParlaMint-taxonomy-parla.legislature.xml"/>
             <xi:include href="ParlaMint-taxonomy-speaker_types.xml"/>
             <xi:include href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include href="ParlaMint-taxonomy-CHES.xml"/>
+            <xi:include href="ParlaMint-taxonomy-politicalOrientation.xml"/>
          </classDecl>
       </encodingDesc>
       <profileDesc>
@@ -139,8 +136,7 @@
             </setting>
          </settingDesc>
          <textClass>
-            <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
-                    target="#parla.bi #parla.lower #parla.upper"/>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.bi #parla.lower #parla.upper"/>
          </textClass>
          <particDesc>
             <xi:include href="ParlaMint-PL-listOrg.xml"/>
@@ -154,15 +150,16 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2023-06-15">
+         <change when="2023-10-10">
             <name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2023-06-15">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2023-10-10">parlamint2release script: Fix some identifiable erros for the release.</change>
          <change when="2023-03-28">
             <name>Michał Rudolf</name>: Generated corpus in Parla-CLARIN.</change>
-         <change when="2023-06-15">parlamint-add-common-content script: Adding common content.</change>
+         <change when="2023-10-10">parlamint-add-common-content script: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include href="ParlaMint-PL_2017-07-20-sejm-46-3.xml"/>
    <xi:include href="ParlaMint-PL_2020-01-17-senat-03-3.xml"/>
    <xi:include href="ParlaMint-PL_2022-06-23-sejm-57-2.xml"/>
 </teiCorpus>
+

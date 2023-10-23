@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country ES-GA (Galicia)
+# Samples of the ParlaMint-ES-GA corpus
 
+- Autonomous region: ES-GA (Galicia)
 - Languages: gl (Galician)
 
 ## Documentation

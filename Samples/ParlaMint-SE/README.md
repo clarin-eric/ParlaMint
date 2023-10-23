@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country SE (Sweden)
+# Samples of the ParlaMint-SE corpus
 
+- Country: SE (Sweden)
 - Languages: sv (Swedish)
 
 ## Documentation

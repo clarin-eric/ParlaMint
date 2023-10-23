@@ -1,5 +1,7 @@
-<speech id="i-BQ8dtftkuwhpor9i8CsgBV" text_id="ParlaMint-SE_2022-05-13-prot-202122--113" subcorpus="War" body="Unicameralism" term="202122" session="" meeting="" sitting="202122--113" agenda="" date="2022-05-13" title="Riksdagens protokoll 2021/22 nr. 113" speaker_role="Regular" speaker_id="Q4980750" speaker_name="Strandhäll, Annika" speaker_mp="notMP" speaker_minister="Minister" speaker_party="S" speaker_party_name="Socialdemokraterna" party_status="Coalition" speaker_gender="F" speaker_birth="">
-<p id="i-KuTV2m1oGj7Vyv89Y5hBGz" lang="Swedish">
+<note type="head" content="§ 8 Svar på interpellation 2021 / 22:439 om hemställan om undantag från biotopskydd i Kalmar län"/>
+<note type="speaker" content="Anf . 1 Klimat- och miljöminister ANNIKA STRANDHÄLL ( S ) :"/>
+<speech id="i-BQ8dtftkuwhpor9i8CsgBV" text_id="ParlaMint-SE_2022-05-13-prot-202122--113" subcorpus="COVID,War" lang="svenska" body="Unicameralism" term="2021/22" session="-" meeting="-" sitting="2021/22--113" agenda="-" date="2022-05-13" title="Riksdagens protokoll 2021/22 nr. 113" speaker_role="Regular" speaker_id="Q4980750" speaker_name="Strandhäll, Annika" speaker_mp="notMP" speaker_minister="Minister" speaker_party="S" speaker_party_name="Socialdemokraterna" party_status="Coalition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="">
+<p id="i-KuTV2m1oGj7Vyv89Y5hBGz" lang="svenska">
 <s id="i-7Gocwwgm1SAsUELPMWzXuE">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7GMQhHUYLe6mmKdJVg86Uk	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7GMRFmYR1c31ALHYXsykSp
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7GMRFmYR1c31ALHYXsykSp	root	-	-	-	-
@@ -43,7 +45,7 @@ län	län	län	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7GMW2JGK96ZN
 .	.	.	PUNCT		i-7GMWAdMmWz5eLH9MnkQima	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GMS1uwXQp6od9HTpG3HDn
 </s>
 </p>
-<p id="i-7TuwixV59krjJApgxupyLo" lang="Swedish">
+<p id="i-7TuwixV59krjJApgxupyLo" lang="svenska">
 <s id="i-7GodHw7T7ZphsKCgv74KaC">
 Länsstyrelsen	Länsstyrelsen	länsstyrelse	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7GMWLd57a3uZXpaWa3Scc4	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GMWyGgiRxbvbUW4mTEE1A
 i	i	i	ADP		i-7GMWVnUWnXaeoEZQ7ttWxL	nmod	länsstyrelse	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7GMWLd57a3uZXpaWa3Scc4
@@ -112,7 +114,7 @@ sakfrågan	sakfrågan	sakfrågan	NOUN	Case=Nom Definite=Def Gender=Com Number=Si
 .	.	.	PUNCT		i-7GMerYYnME9dx26EzdyMzk	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GMcE7vm3UJQAWEBauiyzt
 </s>
 </p>
-<p id="i-Xh7YoaT1NZSsYjxRxn4U4b" lang="Swedish">
+<p id="i-Xh7YoaT1NZSsYjxRxn4U4b" lang="svenska">
 <s id="i-7GodbRcJhw24U1iCnNN8nY">
 <name type="PER">
 Anders	Anders	Anders	PROPN	Case=Nom	i-7GMezseEj7fuHJcsK3qGrp	nsubj	ta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GMfKCT3A525p8aeQkj5ZN
@@ -161,7 +163,7 @@ spannmålsproduktionen	spannmålsproduktionen	spannmålsproduktion	NOUN	Case=Nom
 .	.	.	PUNCT		i-7GMm2hbLaRb1FGoAeKyZ7i	punct	ta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GMfKCT3A525p8aeQkj5ZN
 </s>
 </p>
-<p id="i-FfJ4GhM8a4fHhY8h9FH5Ps" lang="Swedish">
+<p id="i-FfJ4GhM8a4fHhY8h9FH5Ps" lang="svenska">
 <s id="i-7Godi65sQeEfw3LJdu44gC">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7GMmB2gnxK7GaZKnxjqTyn	nsubj	dela	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GMmLC6CAnnMqyJgWbHNL4
 delar	delar	dela	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GMmLC6CAnnMqyJgWbHNL4	root	-	-	-	-
@@ -265,7 +267,7 @@ situation	situation	situation	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	
 .	.	.	PUNCT		i-7GMzDKdHcyHfyEUFPHyRZe	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GMvgRWhY7rNPd5eNmobvk
 </s>
 </p>
-<p id="i-HbaX8q7CKMmmtCiuEiQvFo" lang="Swedish">
+<p id="i-HbaX8q7CKMmmtCiuEiQvFo" lang="svenska">
 <s id="i-7Goe7QkLs8Vp4e1f8FTpHz">
 Biotopskyddet	Biotopskyddet	biotopskydd	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7GMzPKLdg37bAmuQAb1KQ8	nsubj	syfta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GMzXeS63vdrW4S2UzsEGC
 syftar	syftar	syfta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GMzXeS63vdrW4S2UzsEGC	root	-	-	-	-
@@ -368,7 +370,7 @@ antagit	antagit	anta	VERB	VerbForm=Sup Voice=Act	i-7GNDD7dwms1bZXFv7XMQgt	dep	ha
 .	.	.	PUNCT		i-7GNDMSjQ9kXrtonYRwDKYx	punct	bidra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GNAMN4o4gj8qx9ezjjAui
 </s>
 </p>
-<p id="i-WyUEvgKH27LftYxXVcHTnt" lang="Swedish">
+<p id="i-WyUEvgKH27LftYxXVcHTnt" lang="svenska">
 <s id="i-7GoecZaSBjpjj8rrEgyWKE">
 Regeringen	Regeringen	regering	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7GNDWc8oNECxADmRynfDuE	nsubj	anse	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GNDgbr9RJ2sMmCam5h7ji
 anser	anser	anse	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GNDgbr9RJ2sMmCam5h7ji	root	-	-	-	-
@@ -428,7 +430,7 @@ odlingslandskapet	odlingslandskapet	odlingslandskap	NOUN	Case=Nom Definite=Def G
 .	.	.	PUNCT		i-7GNMXNnNpo86uvRyHwgHGg	punct	framgå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GNKXbmxNwyEC4VU5dDWfv
 </s>
 </p>
-<p id="i-Rs2LFJ652TppRcq7QhNHtF" lang="Swedish">
+<p id="i-Rs2LFJ652TppRcq7QhNHtF" lang="svenska">
 <s id="i-7GoepDufuyxJnwCXUsBP88">
 Med	Med	med	ADP		i-7GNMgYBn3GoCBLQrqo8Bcx	advmod	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GNP5LCVJPZMhoLLKayKo2
 den	den	den	DET	Definite=Def Gender=Com Number=Sing	i-7GNMqhbBFkUHSkPkPea5yE	det	regeländring	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7GNMzrzaUE9NiANdwW1zKW
@@ -524,7 +526,7 @@ kilometer	kilometer	kilometer	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	
 .	.	.	PUNCT		i-7GNa1BezpVNGuavBgHxatU	punct	betyda	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GNXWFpV42tUXE8VMXz8GU
 </s>
 </p>
-<p id="i-XQeSiC1pgu8E1BXrtRCyq7" lang="Swedish">
+<p id="i-XQeSiC1pgu8E1BXrtRCyq7" lang="svenska">
 <s id="i-7GofENt6D4NGrfL9CfB8E8">
 Från	Från	från	ADP		i-7GNaC1gHi9M23Fobh2aUDA	advmod	få	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GNaopywjTtZAnGtezn684
 och	och	och	CCONJ		i-7GNaLLmk62sHNYLE1SSP5E	det	från	ADP		i-7GNaC1gHi9M23Fobh2aUDA
@@ -623,7 +625,7 @@ mångfald	mångfald	mångfald	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	
 .	.	.	PUNCT		i-7GNnGVtSFML3uKcTb2T2DA	punct	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GNk3PvtQ5jxFQRkfecPq6
 </s>
 </p>
-<p id="i-NzDc72RYTkV94QL7gKTKrz" lang="Swedish">
+<p id="i-NzDc72RYTkV94QL7gKTKrz" lang="svenska">
 <s id="i-7GofdhYZfYdQzG1Vh1asqv">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7GNnQpytdErKEc95uSJw5E	nsubj	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GNnaphEgJgES9aEgjLpui
 kan	kan	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GNnaphEgJgES9aEgjLpui	root	-	-	-	-
@@ -670,8 +672,8 @@ i	i	i	ADP		i-7GNrn33KJF7YwfnvMYUEv8	nmod	l	PROPN	Case=Nom	i-7GNrTiEWsHmNQqq9FqaS
 </p>
 </speech>
 <note type="speaker" content="Anf . 2 ANDERS ÅKESSON ( C ) :"/>
-<speech id="i-UzqfQX3esdrPWFE4oPzSRh" text_id="ParlaMint-SE_2022-05-13-prot-202122--113" subcorpus="War" body="Unicameralism" term="202122" session="" meeting="" sitting="202122--113" agenda="" date="2022-05-13" title="Riksdagens protokoll 2021/22 nr. 113" speaker_role="Regular" speaker_id="Q6255521" speaker_name="Åkesson, Anders" speaker_mp="MP" speaker_minister="-" speaker_party="C" speaker_party_name="Centerpartiet" party_status="" speaker_gender="M" speaker_birth="">
-<p id="i-PkEaz4iXxPuRsym7ZFipuD" lang="Swedish">
+<speech id="i-UzqfQX3esdrPWFE4oPzSRh" text_id="ParlaMint-SE_2022-05-13-prot-202122--113" subcorpus="COVID,War" lang="svenska" body="Unicameralism" term="2021/22" session="-" meeting="-" sitting="2021/22--113" agenda="-" date="2022-05-13" title="Riksdagens protokoll 2021/22 nr. 113" speaker_role="Regular" speaker_id="Q6255521" speaker_name="Åkesson, Anders" speaker_mp="MP" speaker_minister="notMinister" speaker_party="C" speaker_party_name="Centerpartiet" party_status="-" party_orientation="Centre to centre-right" speaker_gender="M" speaker_birth="">
+<p id="i-PkEaz4iXxPuRsym7ZFipuD" lang="svenska">
 <s id="i-7GofqMsoPnkz44MAwBnkep">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7GNsDrddGVqAseq4YDdxzY	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7GNsP232UyWG94ox655sLp
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7GNsP232UyWG94ox655sLp	root	-	-	-	-
@@ -770,7 +772,7 @@ syn	syn	syn	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7GP3QPzyDyj7YksF
 .	.	.	PUNCT		i-7GP3Yj6RbsFNt3PtAQ1bfJ	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GP26bqvzPsud4fMkqpVYQ
 </s>
 </p>
-<p id="i-9bFHxHX2qfpY55xrgmBV3" lang="Swedish">
+<p id="i-9bFHxHX2qfpY55xrgmBV3" lang="svenska">
 <s id="i-7GogRWZZjvzsKKuwSGpPbJ">
 Samtidigt	Samtidigt	samtidigt	ADV		i-7GP3jZ7iVXE81iHJB8dUyz	advmod	omöjliggöra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GP3tiX7hzuDH8GBiz5PLG
 omöjliggör	omöjliggör	omöjliggöra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GP3tiX7hzuDH8GBiz5PLG	root	-	-	-	-
@@ -823,7 +825,7 @@ livsmedelsproduktion	livsmedelsproduktion	livsmedelsproduktion	NOUN	Case=Nom Def
 .	.	.	PUNCT		i-7GPAXXTvk3D2SVTWnnqJ1r	punct	uppstå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GP5nfMvHizJU62rKDSDXa
 </s>
 </p>
-<p id="i-9eXrdxzThvor53vepD3hwr" lang="Swedish">
+<p id="i-9eXrdxzThvor53vepD3hwr" lang="svenska">
 <s id="i-7GogdAtoUB8SP8FcgT2GQC">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7GPAhXBGo72we2tfa5sBrL	expl	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7GPAqrGjAzZCyKRHtVj6iQ
 finns	finns	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7GPAqrGjAzZCyKRHtVj6iQ	root	-	-	-	-
@@ -878,7 +880,7 @@ kontraproduktivt	kontraproduktivt	kontraproduktiv	ADJ	Case=Nom Definite=Ind Degr
 .	.	.	PUNCT		i-7GPJQoKzfJkjo33h1yaS1S	punct	riskera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GPHdpcwRWY7Q6bWW9vukG
 </s>
 </p>
-<p id="i-Ut6Eg2UBviLyrtWFy7xJsq" lang="Swedish">
+<p id="i-Ut6Eg2UBviLyrtWFy7xJsq" lang="svenska">
 <s id="i-7GogpqE3CRG1SvbHvdE9D6">
 Detta	Detta	detta	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7GPJZxjPsnRq4T2aZq2LMi	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GPJj88o6G6vKs1U7gUEhz
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GPJj88o6G6vKs1U7gUEhz	root	-	-	-	-
@@ -950,7 +952,7 @@ världen	världen	värld	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7GP
 .	.	.	PUNCT		i-7GPTr2cB4AjhwTYEGoccXN	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GPJj88o6G6vKs1U7gUEhz
 </s>
 </p>
-<p id="i-6fUWG8UXbXTaz61qyTyMfJ" lang="Swedish">
+<p id="i-6fUWG8UXbXTaz61qyTyMfJ" lang="svenska">
 <s id="i-7GogwVhbu8UcuxDPn9v56k">
 Länsstyrelsen	Länsstyrelsen	länsstyrelse	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7GPU22KX7EZd8zyP46eWMr	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GPVme4sK58SzgDRKv9Rh6
 i	i	i	ADP		i-7GPUC22sAJPYLYQXqPgQCL	nmod	länsstyrelse	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7GPU22KX7EZd8zyP46eWMr
@@ -1006,7 +1008,7 @@ försörjning	försörjning	försörjning	NOUN	Case=Nom Definite=Ind Gender=Com 
 .	.	.	PUNCT		i-7GPb3KcrmAykVqPoNpEBB2	punct	och	CCONJ		i-7GPXzk2RALiYebQ8FHz45A
 </s>
 </p>
-<p id="i-BS2yC6Uvf58bEs4EW4Kphp" lang="Swedish">
+<p id="i-BS2yC6Uvf58bEs4EW4Kphp" lang="svenska">
 <s id="i-7Goh3KsDmFYQSrPEQF21WC">
 Man	Man	man	PRON	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7GPbDKLCpEofhNpxA7G51W	nsubj	bedöma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GPbNUjc2iUkxnoqhxhyMn
 bedömer	bedömer	bedöma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GPbNUjc2iUkxnoqhxhyMn	root	-	-	-	-
@@ -1093,7 +1095,7 @@ biotopskyddet	biotopskyddet	biotopskydd	NOUN	Case=Nom Definite=Def Gender=Neut N
 .	.	.	PUNCT		i-7GPmjr8EsrMSmZjT2TqaVA	punct	sammanfatta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GPimS5XTxrNay1649XQpL
 </s>
 </p>
-<p id="i-HKvxkE1ZyYerS75ymdZwUV" lang="Swedish">
+<p id="i-HKvxkE1ZyYerS75ymdZwUV" lang="svenska">
 <s id="i-7GohYUhK5rsL7MERWgXhXS">
 På	På	på	ADP		i-7GPmu1Xe6L2Y2yiLaKHUqS	advmod	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GPnXf9ExEiu6ddtmj56EY
 lite	lite	litet	ADV	Degree=Pos	i-7GPn3Ld6UDYoNGExtj9PhW	advmod	lång	ADJ	Case=Nom Definite=Def,Ind Degree=Cmp Gender=Com,Neut Number=Plur,Sing	i-7GPnEAePMsXYVw8NuTmH2C
@@ -1148,7 +1150,7 @@ skydda	skydda	skydda	VERB	VerbForm=Inf Voice=Act	i-7GPtnp3UCy5Dzf4Pp4bEGk	dep	vi
 .	.	.	PUNCT		i-7GPtwySsRSkKG53HMv38d2	punct	försämra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7GPsE2KQtnV9GehmYyiCGC
 </s>
 </p>
-<p id="i-Hnta6qqGGqvgoqqqWDvxMh" lang="Swedish">
+<p id="i-Hnta6qqGGqvgoqqqWDvxMh" lang="svenska">
 <s id="i-7Gohq8tDqdurmvHg9WFXFa">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7GPu78rGdvRQXV2AumV2yJ	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GPuFTwj1owfrmYoEBLwqN
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GPuFTwj1owfrmYoEBLwqN	root	-	-	-	-
@@ -1232,8 +1234,8 @@ biotopskyddet	biotopskyddet	biotopskydd	NOUN	Case=Nom Definite=Def Gender=Neut N
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="i-MRAeSfoAcSUr1LfFxcntf7" text_id="ParlaMint-SE_2022-05-13-prot-202122--113" subcorpus="War" body="Unicameralism" term="202122" session="" meeting="" sitting="202122--113" agenda="" date="2022-05-13" title="Riksdagens protokoll 2021/22 nr. 113" speaker_role="Regular" speaker_id="Q71132178" speaker_name="Johansson, Martina" speaker_mp="MP" speaker_minister="-" speaker_party="C" speaker_party_name="Centerpartiet" party_status="" speaker_gender="F" speaker_birth="">
-<p id="i-Wyy9XPxqh1vvmc51sFTs9r" lang="Swedish">
+<speech id="i-MRAeSfoAcSUr1LfFxcntf7" text_id="ParlaMint-SE_2022-05-13-prot-202122--113" subcorpus="COVID,War" lang="svenska" body="Unicameralism" term="2021/22" session="-" meeting="-" sitting="2021/22--113" agenda="-" date="2022-05-13" title="Riksdagens protokoll 2021/22 nr. 113" speaker_role="Regular" speaker_id="Q71132178" speaker_name="Johansson, Martina" speaker_mp="MP" speaker_minister="notMinister" speaker_party="C" speaker_party_name="Centerpartiet" party_status="-" party_orientation="Centre to centre-right" speaker_gender="F" speaker_birth="">
+<p id="i-Wyy9XPxqh1vvmc51sFTs9r" lang="svenska">
 <s id="i-7GpTJPTBg2ZUisvcdqEiMr">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Gmc6U4QL7tAcesUeyGbfi	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7GmcEo9ri1QRwwQ6yP8WXn
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7GmcEo9ri1QRwwQ6yP8WXn	root	-	-	-	-
@@ -1292,7 +1294,7 @@ många	många	mången	ADJ	Case=Nom Definite=Def,Ind Degree=Pos Gender=Com,Neut N
 .	.	.	PUNCT		i-7Gmi4xmiq5Bxr7Ej4V4uyn	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GmguVi8yNs2FhZTHkbdb2
 </s>
 </p>
-<p id="i-GsiCfoLqYeHGBfxvCh1isb" lang="Swedish">
+<p id="i-GsiCfoLqYeHGBfxvCh1isb" lang="svenska">
 <s id="i-7GpTnhyLA3jaTFKYWqAQtt">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7GmiE8B83Ys47XDccLWpL4	nsubj	ska	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7GmiNTGaRSPKSokEvkNjC8
 skulle	skulle	ska	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7GmiNTGaRSPKSokEvkNjC8	root	-	-	-	-
@@ -1374,7 +1376,7 @@ dag	dag	dag	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Gmsc2DX64EiXRu6
 .	.	.	PUNCT		i-7GmskMJyTwkyriRjFp4wmE	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Gmr8EM8oQZbQCG44xqwor
 </s>
 </p>
-<p id="i-DnjrczmbnZ43aE7hXuGvP7" lang="Swedish">
+<p id="i-DnjrczmbnZ43aE7hXuGvP7" lang="svenska">
 <s id="i-7GpUC2docXziaqzu1BaAWg">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7GmstgQRqqHFBzxMaDvrdJ	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Gmt2BBwP8egbA2ifCCn1A
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Gmt2BBwP8egbA2ifCCn1A	root	-	-	-	-
@@ -1471,7 +1473,7 @@ acceptansen	acceptansen	acceptans	NOUN	Case=Nom Definite=Def Gender=Com Number=S
 .	.	.	PUNCT		i-7Gn53rp4mMXPKqnQdzHyW4	punct	öka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Gn4Ti8JRDHW4aDe8uGLZa
 </s>
 </p>
-<p id="i-EVBQfmTAuQWMBUfYC933Xn" lang="Swedish">
+<p id="i-EVBQfmTAuQWMBUfYC933Xn" lang="svenska">
 <s id="i-7GpUhBTtw9KeFLr67d5rXv">
 I	I	i	ADP		i-7Gn5CBuX9F3ef8K2xQ9tN8	advmod	ersätta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7Gn5VgQNjcF1FppYpfThaU
 dag	dag	dag	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Gn5LWzyX8ZuzQqfGp1oEC	det	i	ADP		i-7Gn5CBuX9F3ef8K2xQ9tN8
@@ -1623,8 +1625,8 @@ markägarna	markägarna	markägare	NOUN	Case=Nom Definite=Def Gender=Com Number=
 </p>
 </speech>
 <note type="speaker" content="Anf . 21 Statsrådet KHASHAYAR FARMANBAR ( S ) :"/>
-<speech id="i-911LSx33iZXn2REsnYV6Za" text_id="ParlaMint-SE_2022-05-13-prot-202122--113" subcorpus="War" body="Unicameralism" term="202122" session="" meeting="" sitting="202122--113" agenda="" date="2022-05-13" title="Riksdagens protokoll 2021/22 nr. 113" speaker_role="Regular" speaker_id="Q63533075" speaker_name="Farmanbar, Khashayar" speaker_mp="notMP" speaker_minister="Minister" speaker_party="S" speaker_party_name="Socialdemokraterna" party_status="Coalition" speaker_gender="M" speaker_birth="">
-<p id="i-NE2HtBko1oA8KoEt1HFiic" lang="Swedish">
+<speech id="i-911LSx33iZXn2REsnYV6Za" text_id="ParlaMint-SE_2022-05-13-prot-202122--113" subcorpus="COVID,War" lang="svenska" body="Unicameralism" term="2021/22" session="-" meeting="-" sitting="2021/22--113" agenda="-" date="2022-05-13" title="Riksdagens protokoll 2021/22 nr. 113" speaker_role="Regular" speaker_id="Q63533075" speaker_name="Farmanbar, Khashayar" speaker_mp="notMP" speaker_minister="Minister" speaker_party="S" speaker_party_name="Socialdemokraterna" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="">
+<p id="i-NE2HtBko1oA8KoEt1HFiic" lang="svenska">
 <s id="i-7GpVPAKH9QdK3WahEoDRsr">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7GnPWAQ1G15MYxdsRrNbRv	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7GnPdfBWoJSnx7iEWpeWon
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7GnPdfBWoJSnx7iEWpeWon	root	-	-	-	-
@@ -1753,7 +1755,7 @@ mer	mer	mycket	ADV	Degree=Cmp	i-7GneXQ2yXvFojNGZqHPL8L	advmod	behöva	VERB	VerbF
 .	.	.	PUNCT		i-7GneetpV5DdF8XLvvFfFWC	punct	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7Gnb3qAAoRRotGh1kXZUSG
 </s>
 </p>
-<p id="i-KBynYp8Dvw5dVTWykP944H" lang="Swedish">
+<p id="i-KBynYp8Dvw5dVTWykP944H" lang="svenska">
 <s id="i-7GpVtK9NU1xEi1RtMEj7u6">
 När	När	när	ADV		i-7GneoDuwT79WTosZEfXANG	advmod	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Gnf5t6rCtC38NvosVEz6Q
 det	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7GnewZ1Ppzfmo6QBZ5P5EL	nsubj	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Gnf5t6rCtC38NvosVEz6Q
@@ -1849,7 +1851,7 @@ kompensation	kompensation	kompensation	NOUN	Case=Nom Definite=Ind Gender=Com Num
 .	.	.	PUNCT		i-7GnrGj8Noajq8UfPQ8n5wa	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GnpomZwMXDXwNUbm8zzLU
 </s>
 </p>
-<p id="i-JLxb5BHVTT7gJVf9QcJy4m" lang="Swedish">
+<p id="i-JLxb5BHVTT7gJVf9QcJy4m" lang="svenska">
 <s id="i-7GpWPTyTndHANWH5TgEovL">
 I	I	i	ADP		i-7GnrR4DqBUG6TmC1iYdzoe	advmod	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7GnrhiQjwFJd8LFGMNMpXn
 dag	dag	dag	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7GnrZPKHZMnMo3ie2xVufi	det	i	ADP		i-7GnrR4DqBUG6TmC1iYdzoe
@@ -1948,7 +1950,7 @@ länder	länder	land	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	i-7Go3Wu
 .	.	.	PUNCT		i-7Go3fEV98XRCCNjeAxX4be	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Go1ucjnvgrNLhVbu929GQ
 </s>
 </p>
-<p id="i-Nk6vyEMyuKwVsvFbNFZFBQ" lang="Swedish">
+<p id="i-Nk6vyEMyuKwVsvFbNFZFBQ" lang="svenska">
 <s id="i-7GpWmxKzQXPUZyWAib4a3v">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Go3pPtYM16HTniXioxxwv	nsubj	tycka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Go3xiyzitcYo5FA3Dpsoz
 tycker	tycker	tycka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Go3xiyzitcYo5FA3Dpsoz	root	-	-	-	-
@@ -2007,7 +2009,7 @@ den	den	den	PRON	Case=Acc,Nom Definite=Def Gender=Com Number=Sing	i-7GoAWY58jQ1Q
 .	.	.	PUNCT		i-7GoAesAb7HXfgxFY2nvkSQ	punct	innebära	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Go8mkdjN9bQS7w8g19ujJ
 </s>
 </p>
-<p id="i-E2RNABTLDd9Q3h2aEYkMYV" lang="Swedish">
+<p id="i-E2RNABTLDd9Q3h2aEYkMYV" lang="svenska">
 <s id="i-7GpX5SpqztaqAg1garNPGG">
 Utredningen	Utredningen	utredning	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7GoAp2ZzKmCkxNERaeNeng	nsubj	presentera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7GoAxMfShej2Hem3u4EZek
 presenteras	presenteras	presentera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7GoAxMfShej2Hem3u4EZek	root	-	-	-	-

@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country FI (Finland)
+# Samples of the ParlaMint-FI corpus
 
+- Country: FI (Finland)
 - Languages: fi (Finnish)
 
 ## Documentation

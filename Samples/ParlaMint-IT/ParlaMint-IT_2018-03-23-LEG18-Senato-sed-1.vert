@@ -1,7 +1,7 @@
 <note type="speaker" content="Presidenza del presidente provvisorio NAPOLITANO"/>
 <note type="-" content="Il senatore Napolitano, presidente provvisorio ai sensi dell'articolo 2, comma 1, del Regolamento, sale al banco presidenziale"/>
 <note type="speaker" content="PRESIDENTE"/>
-<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u1" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="18-upper" session="-" meeting="-" sitting="1-upper" agenda="-" date="2018-03-23" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 1, giorno (2018-03-23)" speaker_role="Presidente" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
+<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u1" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="18 Legislatura" session="-" meeting="-" sitting="1 Seduta" agenda="-" date="2018-03-23" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 1, giorno (2018-03-23)" speaker_role="Presidente" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1.1">
 La	La	il	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	1	det	seduta	NOUN	Gender=Fem Number=Sing	2
@@ -22,7 +22,7 @@ ore	ore	ora	NOUN	Gender=Fem Number=Plur	6	obl	aprire	VERB	Gender=Fem Number=Sing
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="Per l'apertura della XVIII legislatura"/>
 <note type="speaker" content="PRESIDENTE"/>
-<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u2" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="18-upper" session="-" meeting="-" sitting="1-upper" agenda="-" date="2018-03-23" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 1, giorno (2018-03-23)" speaker_role="Presidente" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
+<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u2" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="18 Legislatura" session="-" meeting="-" sitting="1 Seduta" agenda="-" date="2018-03-23" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 1, giorno (2018-03-23)" speaker_role="Presidente" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
 <note type="incident:action" content="Si leva in piedi."/>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg2" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg2.1">
@@ -1540,7 +1540,7 @@ attenzione	attenzione	attenzione	NOUN	Gender=Fem Number=Sing	4	nmod	grazie	NOUN	
 <note type="kinesic:applause" content="Generali applausi."/>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u15" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="18-upper" session="-" meeting="-" sitting="1-upper" agenda="-" date="2018-03-23" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 1, giorno (2018-03-23)" speaker_role="Presidente" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
+<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u15" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="18 Legislatura" session="-" meeting="-" sitting="1 Seduta" agenda="-" date="2018-03-23" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 1, giorno (2018-03-23)" speaker_role="Presidente" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg55" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg55.1">
 Le	Le	il	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	1	det	mozione	NOUN	Gender=Fem Number=Plur	2
@@ -1571,7 +1571,7 @@ odierna	odierna	odierno	ADJ	Gender=Fem Number=Sing	23	amod	seduta	NOUN	Gender=Fe
 </speech>
 <note type="head" content="Ordine del giorno per la seduta di sabato 24 marzo 2018"/>
 <note type="speaker" content="PRESIDENTE"/>
-<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u16" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="18-upper" session="-" meeting="-" sitting="1-upper" agenda="-" date="2018-03-23" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 1, giorno (2018-03-23)" speaker_role="Presidente" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
+<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u16" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="18 Legislatura" session="-" meeting="-" sitting="1 Seduta" agenda="-" date="2018-03-23" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 1, giorno (2018-03-23)" speaker_role="Presidente" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.1">
 Il	Il	il	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	Senato	PROPN		2

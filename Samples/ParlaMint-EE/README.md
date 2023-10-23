@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country EE (Estonia)
+# Samples of the ParlaMint-EE corpus
 
+- Country: EE (Estonia)
 - Languages: et (Estonian)
 
 ## Documentation

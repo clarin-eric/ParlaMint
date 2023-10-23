@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country GB (Great Britain)
+# Samples of the ParlaMint-GB corpus
 
+- Country: GB (Great Britain)
 - Language en (English)
 
 

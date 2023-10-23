@@ -1,5 +1,5 @@
 <note type="speaker" content="O señor PRESIDENTE:"/>
-<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u1" text_id="ParlaMint-ES-GA_2022-05-24-DSPG082" subcorpus="Guerra" lang="galego" body="Unicameralismo" term="011" session="" meeting="082" sitting="2022-05-24" agenda="" date="2022-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u1" text_id="ParlaMint-ES-GA_2022-05-24-DSPG082" subcorpus="COVID,Guerra" lang="galego" body="Unicameralismo" term="XI Lexislatura" session="-" meeting="Número 082" sitting="24.05.2022" agenda="-" date="2022-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg1" lang="galego">
 <s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg1.s1">
 Boa	Boa	bo	ADJ		w1	amod	tarde	NOUN	Gender=Fem Number=Sing	w2
@@ -151,7 +151,7 @@ López	López	lópez	PROPN		w25	nmod	representante	NOUN	Gender=Masc Number=Plur	
 </p>
 </speech>
 <note type="speaker" content="O señor PRESIDENTE:"/>
-<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u2" text_id="ParlaMint-ES-GA_2022-05-24-DSPG082" subcorpus="Guerra" lang="galego" body="Unicameralismo" term="011" session="" meeting="082" sitting="2022-05-24" agenda="" date="2022-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u2" text_id="ParlaMint-ES-GA_2022-05-24-DSPG082" subcorpus="COVID,Guerra" lang="galego" body="Unicameralismo" term="XI Lexislatura" session="-" meeting="Número 082" sitting="24.05.2022" agenda="-" date="2022-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg6" lang="galego">
 <s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg6.s1">
 Polo	Por|o	por|o	ADP|DET	AdpType=Prep|Definite=Def Gender=Masc Number=Sing PronType=Art	t1|t2	case|det	acordo	NOUN	Gender=Masc Number=Sing	w2
@@ -523,7 +523,7 @@ deputadas	deputadas	deputado	NOUN	Gender=Fem Number=Plur	w14	conj	deputado	NOUN	
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u4" text_id="ParlaMint-ES-GA_2022-05-24-DSPG082" subcorpus="Guerra" lang="galego" body="Unicameralismo" term="011" session="" meeting="082" sitting="2022-05-24" agenda="" date="2022-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u4" text_id="ParlaMint-ES-GA_2022-05-24-DSPG082" subcorpus="COVID,Guerra" lang="galego" body="Unicameralismo" term="XI Lexislatura" session="-" meeting="Número 082" sitting="24.05.2022" agenda="-" date="2022-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg13" lang="galego">
 <s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg13.s1">
 Efectuado	Efectuado	efectuar	VERB	Gender=Masc Number=Sing VerbForm=Part	w1	acl	voto	NOUN	Gender=Masc Number=Plur	w11
@@ -639,7 +639,7 @@ Filgueira	Filgueira	filgueira	PROPN		w29	flat	miguel	PROPN		w26
 </speech>
 <note type="kinesic:applause" content="Aplausos."/>
 <note type="speaker" content="O señor PRESIDENTE:"/>
-<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u5" text_id="ParlaMint-ES-GA_2022-05-24-DSPG082" subcorpus="Guerra" lang="galego" body="Unicameralismo" term="011" session="" meeting="082" sitting="2022-05-24" agenda="" date="2022-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u5" text_id="ParlaMint-ES-GA_2022-05-24-DSPG082" subcorpus="COVID,Guerra" lang="galego" body="Unicameralismo" term="XI Lexislatura" session="-" meeting="Número 082" sitting="24.05.2022" agenda="-" date="2022-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg15" lang="galego">
 <s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg15.s1">
 Aquí	Aquí	aquí	ADV		w1	advmod	rematar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w2

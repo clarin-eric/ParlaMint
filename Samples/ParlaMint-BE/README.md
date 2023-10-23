@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country BE (Belgium)
+# Samples of the ParlaMint-BE corpus
 
+- Country: BE (Belgium)
 - Languages: fr (French), nl (Dutch)
 
 
@@ -56,6 +57,7 @@ The dependency parser sometimes trips over long sentences (200 tokens or more, m
 
 The linguistic processing involves universal dependencies PoS and dependency relations, lemma, and four-class (PER, LOC, ORG, MISC) named entity recognition. The process for the BE corpus consists of:
 
+- Country: BE (Belgium)
 - Language identification, consisting of a combination of the Microsoft Office language identification present in the source documents and the python language identification module langdetect (https://pypi.org/project/langdetect/).
 - Tokenization (Dutch and French) and Tagging/Lemmatizing (Dutch only) by means of an INT in-house tagger based on Support Vector Machines, which supports TEI input and output.
 - Dependency parsing and NER, using the trankit (https://github.com/nlp-uoregon/trankit) universal dependencies pipeline.

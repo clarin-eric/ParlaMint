@@ -1,6 +1,6 @@
 <note type="speaker" content="Russo, Aleksander"/>
-<speech id="ParlaMint-HR_2011-05-05-0.u72491" text_id="ParlaMint-HR_2011-05-05-0" subcorpus="Reference" body="Unicameralism" term="6" session="" meeting="23" sitting="2011-07-14" agenda="" date="2011-05-05" title="Minutes of the National Assembly of the Republic of Croatia, Term 6, Session 23" speaker_role="Regular" speaker_id="RussoAleksander" speaker_name="Russo, Aleksander" speaker_mp="notMP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
-<p id="ParlaMint-HR_2011-05-05-0.u72491.seg0" lang="Croatian">
+<speech id="ParlaMint-HR_2011-05-05-0.u72491" text_id="ParlaMint-HR_2011-05-05-0" subcorpus="Referenca" lang="hrvatski" body="Jednodoman" term="6. mandat" session="-" meeting="Zasedanje 23" sitting="2011-07-14" agenda="-" date="2011-05-05" title="Zapisnici sjednica Hrvatskog sabora, mandat 6, sjednica 23" speaker_role="Redovni" speaker_id="RussoAleksander" speaker_name="Russo, Aleksander" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="" speaker_birth="">
+<p id="ParlaMint-HR_2011-05-05-0.u72491.seg0" lang="hrvatski">
 <s id="ParlaMint-HR_2011-05-05-0.u72491.seg0.1">
 Pred	Pred	pred	ADP	Case=Ins	1	case	vi	PRON	Case=Ins Number=Plur Person=2 PronType=Prs	2
 vama	vama	vi	PRON	Case=Ins Number=Plur Person=2 PronType=Prs	2	root	-	-	-	-
@@ -245,8 +245,8 @@ lijepa	lijepa	lijep	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Fem Number=Sing	
 </p>
 </speech>
 <note type="speaker" content="Bebić, Luka"/>
-<speech id="ParlaMint-HR_2011-05-05-0.u72492" text_id="ParlaMint-HR_2011-05-05-0" subcorpus="Reference" body="Unicameralism" term="6" session="" meeting="23" sitting="2011-07-14" agenda="" date="2011-05-05" title="Minutes of the National Assembly of the Republic of Croatia, Term 6, Session 23" speaker_role="Chairperson" speaker_id="BebićLuka" speaker_name="Bebić, Luka" speaker_mp="MP" speaker_minister="-" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Opposition" speaker_gender="M" speaker_birth="1937">
-<p id="ParlaMint-HR_2011-05-05-0.u72492.seg0" lang="Croatian">
+<speech id="ParlaMint-HR_2011-05-05-0.u72492" text_id="ParlaMint-HR_2011-05-05-0" subcorpus="Referenca" lang="hrvatski" body="Jednodoman" term="6. mandat" session="-" meeting="Zasedanje 23" sitting="2011-07-14" agenda="-" date="2011-05-05" title="Zapisnici sjednica Hrvatskog sabora, mandat 6, sjednica 23" speaker_role="Predsjedavajući" speaker_id="BebićLuka" speaker_name="Bebić, Luka" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Opposition" party_orientation="Desni centar" speaker_gender="M" speaker_birth="1937">
+<p id="ParlaMint-HR_2011-05-05-0.u72492.seg0" lang="hrvatski">
 <s id="ParlaMint-HR_2011-05-05-0.u72492.seg0.1">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 <g/>
@@ -297,8 +297,8 @@ Izvolite	Izvolite	izvoljeti	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin	1	ro
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-HR_2011-05-05-0.u72652" text_id="ParlaMint-HR_2011-05-05-0" subcorpus="Reference" body="Unicameralism" term="6" session="" meeting="23" sitting="2011-07-14" agenda="" date="2011-05-05" title="Minutes of the National Assembly of the Republic of Croatia, Term 6, Session 23" speaker_role="Chairperson" speaker_id="FriščićJosip" speaker_name="Friščić, Josip" speaker_mp="MP" speaker_minister="-" speaker_party="HSS" speaker_party_name="Hrvatska seljačka stranka" party_status="Coalition" speaker_gender="M" speaker_birth="1949">
-<p id="ParlaMint-HR_2011-05-05-0.u72652.seg0" lang="Croatian">
+<speech id="ParlaMint-HR_2011-05-05-0.u72652" text_id="ParlaMint-HR_2011-05-05-0" subcorpus="Referenca" lang="hrvatski" body="Jednodoman" term="6. mandat" session="-" meeting="Zasedanje 23" sitting="2011-07-14" agenda="-" date="2011-05-05" title="Zapisnici sjednica Hrvatskog sabora, mandat 6, sjednica 23" speaker_role="Predsjedavajući" speaker_id="FriščićJosip" speaker_name="Friščić, Josip" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HSS" speaker_party_name="Hrvatska seljačka stranka" party_status="Coalition" party_orientation="Centar do desni centar" speaker_gender="M" speaker_birth="1949">
+<p id="ParlaMint-HR_2011-05-05-0.u72652.seg0" lang="hrvatski">
 <s id="ParlaMint-HR_2011-05-05-0.u72652.seg0.1">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 lijepo	lijepo	lijepo	ADV	Degree=Pos	2	advmod	kolega	NOUN	Case=Nom Gender=Masc Number=Sing	3
@@ -454,8 +454,8 @@ sjednicu	sjednicu	sjednica	NOUN	Case=Acc Gender=Fem Number=Sing	3	obj	zaključiv
 </p>
 </speech>
 <note type="speaker" content="Bebić, Luka"/>
-<speech id="ParlaMint-HR_2011-05-05-0.u72653" text_id="ParlaMint-HR_2011-05-05-0" subcorpus="Reference" body="Unicameralism" term="6" session="" meeting="23" sitting="2011-07-14" agenda="" date="2011-05-05" title="Minutes of the National Assembly of the Republic of Croatia, Term 6, Session 23" speaker_role="Regular" speaker_id="BebićLuka" speaker_name="Bebić, Luka" speaker_mp="MP" speaker_minister="-" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Opposition" speaker_gender="M" speaker_birth="1937">
-<p id="ParlaMint-HR_2011-05-05-0.u72653.seg0" lang="Croatian">
+<speech id="ParlaMint-HR_2011-05-05-0.u72653" text_id="ParlaMint-HR_2011-05-05-0" subcorpus="Referenca" lang="hrvatski" body="Jednodoman" term="6. mandat" session="-" meeting="Zasedanje 23" sitting="2011-07-14" agenda="-" date="2011-05-05" title="Zapisnici sjednica Hrvatskog sabora, mandat 6, sjednica 23" speaker_role="Redovni" speaker_id="BebićLuka" speaker_name="Bebić, Luka" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Opposition" party_orientation="Desni centar" speaker_gender="M" speaker_birth="1937">
+<p id="ParlaMint-HR_2011-05-05-0.u72653.seg0" lang="hrvatski">
 <s id="ParlaMint-HR_2011-05-05-0.u72653.seg0.1">
 Prelazimo	Prelazimo	prelaziti	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 na	na	na	ADP	Case=Acc	2	case	prijedlog	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	4
@@ -613,7 +613,7 @@ glasova	glasova	glas	NOUN	Case=Gen Gender=Masc Number=Plur	10	obl	prihvatiti	ADJ
 .	.	.	PUNCT		11	punct	prihvatiti	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part Voice=Pass	5
 </s>
 </p>
-<p id="ParlaMint-HR_2011-05-05-0.u72653.seg1" lang="Croatian">
+<p id="ParlaMint-HR_2011-05-05-0.u72653.seg1" lang="hrvatski">
 <s id="ParlaMint-HR_2011-05-05-0.u72653.seg1.1">
 …	…	…	PUNCT		1	root	-	-	-	-
 </s>

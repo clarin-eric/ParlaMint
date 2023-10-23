@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country AT (Austria)
+# Samples of the ParlaMint-AT corpus
 
+- Country: AT (Austria)
 - Languages: de (German)
 
 ## Documentation

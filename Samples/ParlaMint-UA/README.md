@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country UA (Ukraine)
+# Samples of the ParlaMint-UA corpus
 
+- Country: UA (Ukraine)
 - Languages: uk (Ukrainian), ru (Russian)
 
 ## Documentation

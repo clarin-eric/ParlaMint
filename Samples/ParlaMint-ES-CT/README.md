@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country ES-CT (Catalonia)
+# Samples of the ParlaMint-ES-CT corpus
 
+- Autonomous region: ES-CT (Catalonia)
 - Languages: ca (Catalan), es (Spanish)
 
 ## Documentation

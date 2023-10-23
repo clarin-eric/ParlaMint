@@ -1,4 +1,4 @@
-<speech id="ParlaMint-PT_2022-03-15.u1" text_id="ParlaMint-PT_2022-03-15" subcorpus="War" body="Unicameralism" term="I/XIV" session="3" meeting="36" sitting="2022-03-15" agenda="" date="2022-03-15" title="Minutes of the Assembly of the Portuguese Republic, Session 3, Number 36" speaker_role="Chairperson" speaker_id="EduardoLuísBarretoFerroRodrigues" speaker_name="Luís Barreto Ferro Rodrigues, Eduardo" speaker_mp="MP" speaker_minister="-" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" speaker_gender="M" speaker_birth="1949">
+<speech id="ParlaMint-PT_2022-03-15.u1" text_id="ParlaMint-PT_2022-03-15" subcorpus="COVID,Guerra" lang="Portuguese" body="Unicameralismo" term="Série I - XIV Legislatura" session="Sessão 3" meeting="Número 36" sitting="15.03.2022" agenda="-" date="2022-03-15" title="" speaker_role="Presidente de mesa" speaker_id="EduardoLuísBarretoFerroRodrigues" speaker_name="Luís Barreto Ferro Rodrigues, Eduardo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centro-Esquerda" speaker_gender="M" speaker_birth="1949">
 <p id="ParlaMint-PT_2022-03-15.seg1" lang="Portuguese">
 <s id="ParlaMint-PT_2022-03-15.seg1.s">
 Boa	Boa	bom	ADJ	Gender=Fem Number=Sing	1	cop	tarde	NOUN	Gender=Fem Number=Sing	2
@@ -171,7 +171,7 @@ a	a	a	DET	Gender=Fem Number=Sing	30	det	ênfase	NOUN	Gender=Fem Number=Sing	31
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PT_2022-03-15.u2" text_id="ParlaMint-PT_2022-03-15" subcorpus="War" body="Unicameralism" term="I/XIV" session="3" meeting="36" sitting="2022-03-15" agenda="" date="2022-03-15" title="Minutes of the Assembly of the Portuguese Republic, Session 3, Number 36" speaker_role="Regular" speaker_id="AugustoErnestoSantosSilva" speaker_name="Ernesto Santos Silva, Augusto" speaker_mp="notMP" speaker_minister="Minister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-PT_2022-03-15.u2" text_id="ParlaMint-PT_2022-03-15" subcorpus="COVID,Guerra" lang="Portuguese" body="Unicameralismo" term="Série I - XIV Legislatura" session="Sessão 3" meeting="Número 36" sitting="15.03.2022" agenda="-" date="2022-03-15" title="" speaker_role="Regular" speaker_id="AugustoErnestoSantosSilva" speaker_name="Ernesto Santos Silva, Augusto" speaker_mp="notMP" speaker_minister="Minister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centro-Esquerda" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-PT_2022-03-15.seg4" lang="Portuguese">
 <s id="ParlaMint-PT_2022-03-15.seg4.s">
 <name type="PER">
@@ -1526,7 +1526,7 @@ para	para	para	ADP		142	mark	2030	NUM		143
 <note type="kinesic:applause" content="Aplausos do PS."/>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-PT_2022-03-15.u183" text_id="ParlaMint-PT_2022-03-15" subcorpus="War" body="Unicameralism" term="I/XIV" session="3" meeting="36" sitting="2022-03-15" agenda="" date="2022-03-15" title="Minutes of the Assembly of the Portuguese Republic, Session 3, Number 36" speaker_role="Regular" speaker_id="CecíliaFelgueirasdeMeirelesGraça" speaker_name="Felgueiras Meireles Graça, Cecília" speaker_mp="MP" speaker_minister="-" speaker_party="GP-CDS-PP" speaker_party_name="Grupo Parlamentar do Centro Democrático Social - Partido Popular" party_status="Opposition" speaker_gender="F" speaker_birth="1977">
+<speech id="ParlaMint-PT_2022-03-15.u183" text_id="ParlaMint-PT_2022-03-15" subcorpus="COVID,Guerra" lang="Portuguese" body="Unicameralismo" term="Série I - XIV Legislatura" session="Sessão 3" meeting="Número 36" sitting="15.03.2022" agenda="-" date="2022-03-15" title="" speaker_role="Regular" speaker_id="CecíliaFelgueirasdeMeirelesGraça" speaker_name="Felgueiras de Meireles Graça, Cecília" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-CDS-PP" speaker_party_name="Grupo Parlamentar do Centro Democrático Social - Partido Popular" party_status="Opposition" party_orientation="Centro-direita a direita" speaker_gender="F" speaker_birth="1977">
 <p id="ParlaMint-PT_2022-03-15.seg545" lang="Portuguese">
 <s id="ParlaMint-PT_2022-03-15.seg545.s">
 <name type="PER">
@@ -1574,7 +1574,7 @@ registar	registar	registar	VERB		33	cop	.	PUNCT		35
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PT_2022-03-15.u184" text_id="ParlaMint-PT_2022-03-15" subcorpus="War" body="Unicameralism" term="I/XIV" session="3" meeting="36" sitting="2022-03-15" agenda="" date="2022-03-15" title="Minutes of the Assembly of the Portuguese Republic, Session 3, Number 36" speaker_role="Chairperson" speaker_id="FernandoMimosoNegrão" speaker_name="Mimoso Negrão, Fernando" speaker_mp="MP" speaker_minister="-" speaker_party="GP-PSD" speaker_party_name="Grupo Parlamentar do Partido Social Democrata" party_status="Opposition" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-PT_2022-03-15.u184" text_id="ParlaMint-PT_2022-03-15" subcorpus="COVID,Guerra" lang="Portuguese" body="Unicameralismo" term="Série I - XIV Legislatura" session="Sessão 3" meeting="Número 36" sitting="15.03.2022" agenda="-" date="2022-03-15" title="" speaker_role="Presidente de mesa" speaker_id="FernandoMimosoNegrão" speaker_name="Mimoso Negrão, Fernando" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PSD" speaker_party_name="Grupo Parlamentar do Partido Social Democrata" party_status="Opposition" party_orientation="Centro-direita" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-PT_2022-03-15.seg546" lang="Portuguese">
 <s id="ParlaMint-PT_2022-03-15.seg546.s">
 Fica	Fica	ficar	VERB	Person=3 Number=Sing	1	cop	registar,registado	ADJ	Gender=Masc Number=Sing	2
@@ -1611,3 +1611,6 @@ reunião	reunião	reunião	NOUN	Gender=Fem Number=Sing	23	xcomp	dar	VERB	Person=
 </p>
 <note type="time" content="Eram 17 horas e 51 minutos."/>
 </speech>
+<note type="vote" content="Retificação ao n.º 29 do Diário, de 27 de novembro de 2021"/>
+<note type="vote" content="Na l. 51, pág. 74, onde se lê «tiveram muitas vezes sob ataque», deve ler-se «estiveram muitas vezes sob ataque»."/>
+<note type="debate" content="A DIVISÃO DE REDAÇÃO."/>

@@ -1,6 +1,8 @@
 <note type="head" content="46. posiedzenie Sejmu RP 8. kadencji, dzień 3"/>
-<speech id="ParlaMint-PL_2017-07-20-sejm-46-3.u1" text_id="ParlaMint-PL_2017-07-20-sejm-46-3" subcorpus="Reference" body="Lower house" term="8-lower" session="46-lower" meeting="" sitting="3-lower" agenda="" date="2017-07-20" title="Report of the session of the Sejm of the Republic of Poland, Term 8, Session 46, Day 3 (2017-07-20)" speaker_role="Chairperson" speaker_id="RyszardTerlecki" speaker_name="Terlecki, Ryszard" speaker_mp="MP" speaker_minister="-" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="Coalition" speaker_gender="M" speaker_birth="1949">
-<p id="seg240511" lang="Polish">
+<note type="debate" content="Na posiedzeniu przewodniczą wicemarszałkowie Sejmu Ryszard Terlecki, Stanisław Tyszka, Joachim Brudziński i Barbara Dolniak"/>
+<note type="speaker" content="Wicemarszałek Ryszard Terlecki:"/>
+<speech id="ParlaMint-PL_2017-07-20-sejm-46-3.u1" text_id="ParlaMint-PL_2017-07-20-sejm-46-3" subcorpus="Referencyjny" lang="Polski" body="Sejm" term="8. kadencja Sejmu" session="46. sesja Sejmu" meeting="-" sitting="3. dzień sesji Sejmu" agenda="-" date="2017-07-20" title="Sprawozdanie stenograficzne z obrad Sejmu RP, 8.kadencja, 46. posiedzenie, 3. dzień (2017-07-20)" speaker_role="Przewodniczący" speaker_id="RyszardTerlecki" speaker_name="Terlecki, Ryszard" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="Coalition" party_orientation="Right" speaker_gender="M" speaker_birth="1949">
+<p id="seg240511" lang="Polski">
 <s id="seg240511.1">
 Wznawiam	Wznawiam	wznawiać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 posiedzenie	posiedzenie	posiedzenie	NOUN	Case=Acc Gender=Neut Number=Sing	2	obj	wznawiać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -8,7 +10,7 @@ posiedzenie	posiedzenie	posiedzenie	NOUN	Case=Acc Gender=Neut Number=Sing	2	obj	
 .	.	.	PUNCT	PunctType=Peri	3	punct	wznawiać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="seg240512" lang="Polish">
+<p id="seg240512" lang="Polski">
 <s id="seg240512.1">
 Na	Na	na	ADP	AdpType=Prep	1	case	sekretarz	NOUN	Animacy=Hum Case=Acc Gender=Masc Number=Plur	2
 sekretarzy	sekretarzy	sekretarz	NOUN	Animacy=Hum Case=Acc Gender=Masc Number=Plur	2	obl:arg	powoływać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	5
@@ -41,7 +43,7 @@ Tułajewa	Tułajewa	Tułajewa	PROPN	Animacy=Hum Case=Acc Gender=Masc Number=Sing
 .	.	.	PUNCT	PunctType=Peri	18	punct	powoływać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	5
 </s>
 </p>
-<p id="seg240513" lang="Polish">
+<p id="seg240513" lang="Polski">
 <s id="seg240513.1">
 W	W	w	ADP	AdpType=Prep Variant=Short	1	case	część	NOUN	Case=Loc Gender=Fem Number=Sing	3
 pierwszej	pierwszej	pierwszy	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Sing	2	amod	część	NOUN	Case=Loc Gender=Fem Number=Sing	3
@@ -63,7 +65,7 @@ Soboń	Soboń	Soboń	PROPN	Animacy=Hum Case=Nom Gender=Masc Number=Sing	12	flat	
 .	.	.	PUNCT	PunctType=Peri	13	punct	sekretarz	NOUN	Animacy=Hum Case=Ins Gender=Masc Number=Plur	5
 </s>
 </p>
-<p id="seg240514" lang="Polish">
+<p id="seg240514" lang="Polski">
 <s id="seg240514.1">
 Protokół	Protokół	protokół	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	1	obj	prowadzić	VERB	Aspect=Imp VerbForm=Inf Voice=Act	5
 i	i	i	CCONJ		2	cc	lista	NOUN	Case=Acc Gender=Fem Number=Sing	3
@@ -85,7 +87,7 @@ Duszek	Duszek	Duszek	PROPN	Animacy=Hum Case=Nom Gender=Masc Number=Sing	12	flat	
 .	.	.	PUNCT	PunctType=Peri	13	punct	prowadzić	VERB	Aspect=Imp VerbForm=Inf Voice=Act	5
 </s>
 </p>
-<p id="seg240515" lang="Polish">
+<p id="seg240515" lang="Polski">
 <s id="seg240515.1">
 Panowie	Panowie	pan	NOUN	Animacy=Hum Case=Nom Gender=Masc Number=Plur	1	nsubj	być	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	4
 sekretarze	sekretarze	sekretarz	NOUN	Animacy=Hum Case=Nom Gender=Masc Number=Plur	2	appos	pan	NOUN	Animacy=Hum Case=Nom Gender=Masc Number=Plur	1
@@ -97,7 +99,7 @@ miejscu	miejscu	miejsce	NOUN	Case=Loc Gender=Neut Number=Sing	6	obl	być	VERB	As
 .	.	.	PUNCT	PunctType=Peri	7	punct	być	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	4
 </s>
 </p>
-<p id="seg240516" lang="Polish">
+<p id="seg240516" lang="Polski">
 <s id="seg240516.1">
 Proszę	Proszę	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 pana	pana	pan	NOUN	Animacy=Hum Case=Acc Gender=Masc Number=Sing	2	obj	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -111,8 +113,8 @@ komunikatów	komunikatów	komunikat	NOUN	Animacy=Inan Case=Gen Gender=Masc Numbe
 </p>
 </speech>
 <note type="speaker" content="Sekretarz Poseł Krzysztof Kubów:"/>
-<speech id="ParlaMint-PL_2017-07-20-sejm-46-3.u2" text_id="ParlaMint-PL_2017-07-20-sejm-46-3" subcorpus="Reference" body="Lower house" term="8-lower" session="46-lower" meeting="" sitting="3-lower" agenda="" date="2017-07-20" title="Report of the session of the Sejm of the Republic of Poland, Term 8, Session 46, Day 3 (2017-07-20)" speaker_role="Regular" speaker_id="KrzysztofKubów" speaker_name="Kubów, Krzysztof" speaker_mp="MP" speaker_minister="-" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="Coalition" speaker_gender="M" speaker_birth="1984">
-<p id="seg240517" lang="Polish">
+<speech id="ParlaMint-PL_2017-07-20-sejm-46-3.u2" text_id="ParlaMint-PL_2017-07-20-sejm-46-3" subcorpus="Referencyjny" lang="Polski" body="Sejm" term="8. kadencja Sejmu" session="46. sesja Sejmu" meeting="-" sitting="3. dzień sesji Sejmu" agenda="-" date="2017-07-20" title="Sprawozdanie stenograficzne z obrad Sejmu RP, 8.kadencja, 46. posiedzenie, 3. dzień (2017-07-20)" speaker_role="Parlamentarzysta" speaker_id="KrzysztofKubów" speaker_name="Kubów, Krzysztof" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="Coalition" party_orientation="Right" speaker_gender="M" speaker_birth="1984">
+<p id="seg240517" lang="Polski">
 <s id="seg240517.1">
 Informuję	Informuję	informować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
@@ -131,7 +133,7 @@ Komisji	Komisji	komisja	NOUN	Case=Gen Gender=Fem Number=Sing	10	nmod	posiedzenie
 :	:	:	PUNCT	PunctType=Colo	11	punct	informować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="seg240518" lang="Polish">
+<p id="seg240518" lang="Polski">
 <s id="seg240518.1">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	edukacja	NOUN	Case=Nom Gender=Fem Number=Plur	2
 Edukacji	Edukacji	edukacja	NOUN	Case=Nom Gender=Fem Number=Plur	2	root	-	-	-	-
@@ -151,7 +153,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	8	nmod	edukacja	NOUN	Case=Nom Gender=Fem Nu
 ,	,	,	PUNCT	PunctType=Comm	11	punct	edukacja	NOUN	Case=Nom Gender=Fem Number=Plur	2
 </s>
 </p>
-<p id="seg240519" lang="Polish">
+<p id="seg240519" lang="Polski">
 <s id="seg240519.1">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	etyka	NOUN	Case=Nom Gender=Fem Number=Sing	2
 Etyki	Etyki	etyka	NOUN	Case=Nom Gender=Fem Number=Sing	2	root	-	-	-	-
@@ -165,7 +167,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	5	nmod	etyka	NOUN	Case=Nom Gender=Fem Numbe
 ,	,	,	PUNCT	PunctType=Comm	8	punct	etyka	NOUN	Case=Nom Gender=Fem Number=Sing	2
 </s>
 </p>
-<p id="seg240520" lang="Polish">
+<p id="seg240520" lang="Polski">
 <s id="seg240520.1">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	finanse	NOUN	Case=Gen Gender=Neut Number=Ptan	2
 Finansów	Finansów	finanse	NOUN	Case=Gen Gender=Neut Number=Ptan	2	root	-	-	-	-
@@ -179,7 +181,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	5	nmod	finanse	NOUN	Case=Gen Gender=Neut Nu
 ,	,	,	PUNCT	PunctType=Comm	8	punct	finanse	NOUN	Case=Gen Gender=Neut Number=Ptan	2
 </s>
 </p>
-<p id="seg240521" lang="Polish">
+<p id="seg240521" lang="Polski">
 <s id="seg240521.1">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	infrastruktura	NOUN	Case=Nom Gender=Fem Number=Plur	2
 Infrastruktury	Infrastruktury	infrastruktura	NOUN	Case=Nom Gender=Fem Number=Plur	2	root	-	-	-	-
@@ -202,7 +204,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	12	nmod	infrastruktura	NOUN	Case=Nom Gender
 ,	,	,	PUNCT	PunctType=Comm	15	punct	infrastruktura	NOUN	Case=Nom Gender=Fem Number=Plur	2
 </s>
 </p>
-<p id="seg240522" lang="Polish">
+<p id="seg240522" lang="Polski">
 <s id="seg240522.1">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	polityka	NOUN	Case=Gen Gender=Fem Number=Sing	2
 Polityki	Polityki	polityka	NOUN	Case=Gen Gender=Fem Number=Sing	2	root	-	-	-	-
@@ -218,7 +220,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	7	nmod	polityka	NOUN	Case=Gen Gender=Fem Nu
 ,	,	,	PUNCT	PunctType=Comm	10	punct	polityka	NOUN	Case=Gen Gender=Fem Number=Sing	2
 </s>
 </p>
-<p id="seg240523" lang="Polish">
+<p id="seg240523" lang="Polski">
 <s id="seg240523.1">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	kultura	NOUN	Case=Nom Gender=Fem Number=Plur	2
 Kultury	Kultury	kultura	NOUN	Case=Nom Gender=Fem Number=Plur	2	root	-	-	-	-
@@ -234,7 +236,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	7	nmod	kultura	NOUN	Case=Nom Gender=Fem Num
 ,	,	,	PUNCT	PunctType=Comm	10	punct	kultura	NOUN	Case=Nom Gender=Fem Number=Plur	2
 </s>
 </p>
-<p id="seg240524" lang="Polish">
+<p id="seg240524" lang="Polski">
 <s id="seg240524.1">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	finanse	NOUN	Case=Gen Gender=Neut Number=Ptan	2
 Finansów	Finansów	finanse	NOUN	Case=Gen Gender=Neut Number=Ptan	2	root	-	-	-	-
@@ -279,7 +281,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	28	nmod	komisja	NOUN	Case=Ins Gender=Fem Nu
 ,	,	,	PUNCT	PunctType=Comm	31	punct	finanse	NOUN	Case=Gen Gender=Neut Number=Ptan	2
 </s>
 </p>
-<p id="seg240525" lang="Polish">
+<p id="seg240525" lang="Polski">
 <s id="seg240525.1">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	sprawa	NOUN	Case=Gen Gender=Fem Number=Plur	3
 do	do	do	ADP	AdpType=Prep	2	case	sprawa	NOUN	Case=Gen Gender=Fem Number=Plur	3
@@ -297,7 +299,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	7	nmod	sprawa	NOUN	Case=Gen Gender=Fem Numb
 ,	,	,	PUNCT	PunctType=Comm	10	punct	sprawa	NOUN	Case=Gen Gender=Fem Number=Plur	3
 </s>
 </p>
-<p id="seg240526" lang="Polish">
+<p id="seg240526" lang="Polski">
 <s id="seg240526.1">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	regulaminowy	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	2
 Regulaminowej	Regulaminowej	regulaminowy	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	2	root	-	-	-	-
@@ -318,7 +320,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	9	conj	regulaminowy	ADJ	Case=Gen Degree=Pos
 .	.	.	PUNCT	PunctType=Peri	12	punct	regulaminowy	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	2
 </s>
 </p>
-<p id="seg240527" lang="Polish">
+<p id="seg240527" lang="Polski">
 <s id="seg240527.1">
 Dziękuję	Dziękuję	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
@@ -327,8 +329,8 @@ Dziękuję	Dziękuję	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-PL_2017-07-20-sejm-46-3.u412" text_id="ParlaMint-PL_2017-07-20-sejm-46-3" subcorpus="Reference" body="Lower house" term="8-lower" session="46-lower" meeting="" sitting="3-lower" agenda="" date="2017-07-20" title="Report of the session of the Sejm of the Republic of Poland, Term 8, Session 46, Day 3 (2017-07-20)" speaker_role="Regular" speaker_id="LidiaGądek" speaker_name="Gądek, Lidia" speaker_mp="MP" speaker_minister="-" speaker_party="KO" speaker_party_name="Klub Parlamentarny Platforma Obywatelska – Koalicja Obywatelska" party_status="Opposition" speaker_gender="F" speaker_birth="1967">
-<p id="seg242957" lang="Polish">
+<speech id="ParlaMint-PL_2017-07-20-sejm-46-3.u412" text_id="ParlaMint-PL_2017-07-20-sejm-46-3" subcorpus="Referencyjny" lang="Polski" body="Sejm" term="8. kadencja Sejmu" session="46. sesja Sejmu" meeting="-" sitting="3. dzień sesji Sejmu" agenda="-" date="2017-07-20" title="Sprawozdanie stenograficzne z obrad Sejmu RP, 8.kadencja, 46. posiedzenie, 3. dzień (2017-07-20)" speaker_role="Parlamentarzysta" speaker_id="LidiaGądek" speaker_name="Gądek, Lidia" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KO" speaker_party_name="Klub Parlamentarny Platforma Obywatelska – Koalicja Obywatelska" party_status="Opposition" party_orientation="-" speaker_gender="F" speaker_birth="1967">
+<p id="seg242957" lang="Polski">
 <s id="seg242957.1">
 Pani	Pani	pani	NOUN	Case=Voc Gender=Fem Number=Sing	1	root	-	-	-	-
 Marszałek	Marszałek	Marszałek	PROPN	Case=Nom Gender=Fem Number=Sing	2	appos	pani	NOUN	Case=Voc Gender=Fem Number=Sing	1
@@ -384,7 +386,7 @@ Prezydenckiego	Prezydenckiego	prezydencki	ADJ	Animacy=Inan Case=Gen Degree=Pos G
 .	.	.	PUNCT	PunctType=Peri	17	punct	mieć	VERB	Aspect=Imp Gender=Fem Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="seg242958" lang="Polish">
+<p id="seg242958" lang="Polski">
 <s id="seg242958.1">
 Popieram	Popieram	popierać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 panią	panią	pani	NOUN	Case=Acc Gender=Fem Number=Sing	2	obj	popierać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -444,7 +446,7 @@ okoliczność	okoliczność	okoliczność	NOUN	Case=Acc Gender=Fem Number=Sing	1
 .	.	.	PUNCT	PunctType=Peri	11	punct	chcieć	VERB	Aspect=Imp Gender=Fem Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	4
 </s>
 </p>
-<p id="seg242959" lang="Polish">
+<p id="seg242959" lang="Polski">
 <s id="seg242959.1">
 Szanowni	Szanowni	szanowny	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing	1	amod	państwo	PROPN	Case=Nom Gender=Neut Number=Sing	2
 Państwo	Państwo	państwo	PROPN	Case=Nom Gender=Neut Number=Sing	2	root	-	-	-	-
@@ -498,7 +500,7 @@ powiedzieć	powiedzieć	powiedzieć	VERB	Aspect=Perf VerbForm=Inf Voice=Act	19	x
 .	.	.	PUNCT	PunctType=Peri	20	punct	zgłaszać	VERB	Aspect=Imp VerbForm=Inf Voice=Act	3
 </s>
 </p>
-<p id="seg242960" lang="Polish">
+<p id="seg242960" lang="Polski">
 <s id="seg242960.1">
 Szanowni	Szanowni	szanowny	ADJ	Animacy=Hum Case=Nom Degree=Pos Gender=Masc Number=Sing	1	amod	państwo	NOUN	Animacy=Hum Case=Nom Gender=Neut Number=Sing	2
 państwo	państwo	państwo	NOUN	Animacy=Hum Case=Nom Gender=Neut Number=Sing	2	vocative	być	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	10
@@ -540,7 +542,7 @@ was	was	wy	PRON	Animacy=Hum Case=Acc Gender=Masc Number=Plur Person=2 PronType=P
 </s>
 </p>
 <note type="vocal:speaking" content="Pani poseł, my pracujemy."/>
-<p id="seg242961" lang="Polish">
+<p id="seg242961" lang="Polski">
 <s id="seg242961.1">
 Czekają	Czekają	czekać	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 na	na	na	ADP	AdpType=Prep	2	case	wy	PRON	Animacy=Hum Case=Acc Gender=Masc Number=Plur Person=2 PronType=Prs	3
@@ -671,7 +673,7 @@ dużo	dużo	dużo	DET	Animacy=Inan Case=Acc Gender=Masc NumType=Card Number=Plur
 .	.	.	PUNCT	PunctType=Peri	13	punct	posłuchać	VERB	Aspect=Perf Mood=Imp Number=Plur Person=2 VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="seg242962" lang="Polish">
+<p id="seg242962" lang="Polski">
 <s id="seg242962.1">
 Jak	Jak	jak	SCONJ		1	mark	mówić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 mówię	mówię	mówić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	advcl	wracać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	5
@@ -804,7 +806,7 @@ to	to	to	PRON	Case=Acc Gender=Neut Number=Sing PronType=Dem	5	obl:arg	zgadzać	V
 .	.	.	PUNCT	PunctType=Peri	6	punct	zgadzać	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
 </p>
-<p id="seg242963" lang="Polish">
+<p id="seg242963" lang="Polski">
 <s id="seg242963.1">
 To	To	to	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	1	root	-	-	-	-
 jest	jest	być	AUX	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	aux	to	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	1
@@ -1064,8 +1066,8 @@ raz	raz	raz	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	8	obl	dziękować
 <note type="kinesic:applause" content="Oklaski"/>
 </speech>
 <note type="speaker" content="Wicemarszałek Barbara Dolniak:"/>
-<speech id="ParlaMint-PL_2017-07-20-sejm-46-3.u413" text_id="ParlaMint-PL_2017-07-20-sejm-46-3" subcorpus="Reference" body="Lower house" term="8-lower" session="46-lower" meeting="" sitting="3-lower" agenda="" date="2017-07-20" title="Report of the session of the Sejm of the Republic of Poland, Term 8, Session 46, Day 3 (2017-07-20)" speaker_role="Chairperson" speaker_id="BarbaraDolniak" speaker_name="Dolniak, Barbara" speaker_mp="MP" speaker_minister="-" speaker_party="KO" speaker_party_name="Klub Parlamentarny Platforma Obywatelska – Koalicja Obywatelska" party_status="Opposition" speaker_gender="F" speaker_birth="1960">
-<p id="seg242964" lang="Polish">
+<speech id="ParlaMint-PL_2017-07-20-sejm-46-3.u413" text_id="ParlaMint-PL_2017-07-20-sejm-46-3" subcorpus="Referencyjny" lang="Polski" body="Sejm" term="8. kadencja Sejmu" session="46. sesja Sejmu" meeting="-" sitting="3. dzień sesji Sejmu" agenda="-" date="2017-07-20" title="Sprawozdanie stenograficzne z obrad Sejmu RP, 8.kadencja, 46. posiedzenie, 3. dzień (2017-07-20)" speaker_role="Przewodniczący" speaker_id="BarbaraDolniak" speaker_name="Dolniak, Barbara" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KO" speaker_party_name="Klub Parlamentarny Platforma Obywatelska – Koalicja Obywatelska" party_status="Opposition" party_orientation="-" speaker_gender="F" speaker_birth="1960">
+<p id="seg242964" lang="Polski">
 <s id="seg242964.1">
 Bardzo	Bardzo	bardzo	ADV	Degree=Pos	1	advmod	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 proszę	proszę	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
@@ -1073,7 +1075,7 @@ proszę	proszę	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres
 .	.	.	PUNCT	PunctType=Peri	3	punct	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
 </p>
-<p id="seg242965" lang="Polish">
+<p id="seg242965" lang="Polski">
 <s id="seg242965.1">
 Na	Na	na	ADP	AdpType=Prep	1	case	to	PRON	Case=Loc Gender=Neut Number=Sing PronType=Dem	2
 tym	tym	to	PRON	Case=Loc Gender=Neut Number=Sing PronType=Dem	2	obl	zakończyć	VERB	Animacy=Hum Aspect=Perf Gender=Masc Mood=Ind Number=Plur Tense=Past VerbForm=Fin Voice=Act	3
@@ -1086,7 +1088,7 @@ poselskie	poselskie	poselski	ADJ	Case=Acc Degree=Pos Gender=Neut Number=Plur	6	a
 .	.	.	PUNCT	PunctType=Peri	7	punct	zakończyć	VERB	Animacy=Hum Aspect=Perf Gender=Masc Mood=Ind Number=Plur Tense=Past VerbForm=Fin Voice=Act	3
 </s>
 </p>
-<p id="seg242966" lang="Polish">
+<p id="seg242966" lang="Polski">
 <s id="seg242966.1">
 Informacja	Informacja	informacja	NOUN	Case=Nom Gender=Fem Number=Sing	1	nsubj	dostępny	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	11
 o	o	o	ADP	AdpType=Prep	2	case	wpływ	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	3
@@ -1111,7 +1113,7 @@ Sejmu	Sejmu	sejm	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	16	flat	syst
 .	.	.	PUNCT	PunctType=Peri	17	punct	dostępny	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	11
 </s>
 </p>
-<p id="seg242967" lang="Polish">
+<p id="seg242967" lang="Polski">
 <s id="seg242967.1">
 Na	Na	na	ADP	AdpType=Prep	1	case	to	PRON	Case=Loc Gender=Neut Number=Sing PronType=Dem	2
 tym	tym	to	PRON	Case=Loc Gender=Neut Number=Sing PronType=Dem	2	obl	kończyć	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
@@ -1129,7 +1131,7 @@ Polskiej	Polskiej	polski	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	9	flat	r
 .	.	.	PUNCT	PunctType=Peri	10	punct	kończyć	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
 </s>
 </p>
-<p id="seg242968" lang="Polish">
+<p id="seg242968" lang="Polski">
 <s id="seg242968.1">
 Protokół	Protokół	protokół	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	1	nsubj:pass	wyłożyć	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	4
 posiedzenia	posiedzenia	posiedzenie	NOUN	Case=Gen Gender=Neut Number=Sing	2	nmod:arg	protokół	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	1
@@ -1147,7 +1149,7 @@ Sejmu	Sejmu	sejm	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	10	flat	posi
 .	.	.	PUNCT	PunctType=Peri	11	punct	wyłożyć	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	4
 </s>
 </p>
-<p id="seg242969" lang="Polish">
+<p id="seg242969" lang="Polski">
 <s id="seg242969.1">
 Porządek	Porządek	porządek	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	1	nsubj	pani	NOUN	Case=Dat Gender=Fem Number=Plur	24
 dzienny	dzienny	dzienny	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc Number=Sing	2	amod	porządek	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	1
@@ -1189,7 +1191,7 @@ doręczony	doręczony	doręczyć	ADJ	Aspect=Perf Case=Nom Gender=Fem Number=Plur
 .	.	.	PUNCT	PunctType=Peri	29	punct	pani	NOUN	Case=Dat Gender=Fem Number=Plur	24
 </s>
 </p>
-<p id="seg242970" lang="Polish">
+<p id="seg242970" lang="Polski">
 <s id="seg242970.1">
 Zamykam	Zamykam	zamykać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 posiedzenie	posiedzenie	posiedzenie	NOUN	Case=Acc Gender=Neut Number=Sing	2	obj	zamykać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
