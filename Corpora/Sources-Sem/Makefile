@@ -21,21 +21,13 @@ sem-test1:
 	../../Scripts/conllu2tei.pl < test.conllu > test.xml
 	xmllint --noout test.xml
 
-##### Merge per-language annotated CoNLL-Us (BE, ES-CT, UA) to joint CoNLL-Us
-mrg-conll:
-	#../bin/merge-conllu.pl Master/ParlaMint-BE.conllu USAS/ParlaMint-BE-en.conllu
-	../bin/merge-conllu.pl ../Master/ParlaMint-ES-CT.conllu USAS/ParlaMint-ES-CT-en.conllu
-	#../bin/merge-conllu.pl Master/ParlaMint-UA.conllu USAS/ParlaMint-UA-en.conllu
-
-
-
-###### Copy (and fix) original conllu files to Source-MT directory for 1 corpus
-CORPUS = ES-CT
+###### Copy (and fix) original conllu files from Source-Sem/USAS to Source-Sem directory for 1 corpus
+CORPUS = AT
 cp-mt-conllu-one:
 	../bin/cp-conllu.pl novalidate ../Master 'USAS/ParlaMint-${CORPUS}-en.conllu' .
 
 #CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-CORPORA =  AT CZ FI HU UA
+CORPORA =  BG CZ DK EE ES ES-CT ES-GA ES-PV FI 
 
 nohup:
 	nohup time make cp-mt-conllu > cp-mt-conllu.log &
@@ -48,6 +40,14 @@ cp-mt-conllu:
 cp-mt:	cp-mt-notes cp-mt-conllu
 cp-mt-notes:
 	cp ../Sources-MT/ParlaMint-*-en-notes.tsv .
+
+##### Merge per-language annotated CoNLL-Us (BE, ES-CT, UA) to joint CoNLL-Us
+##### Do after cp-mt-conllu
+##### Should also delete per-language files!?!?
+mrg-conll:
+	../bin/merge-conllu.pl ../Master/ParlaMint-BE.conllu    ParlaMint-BE-en.conllu
+	../bin/merge-conllu.pl ../Master/ParlaMint-ES-CT.conllu ParlaMint-ES-CT-en.conllu
+	../bin/merge-conllu.pl ../Master/ParlaMint-UA.conllu    ParlaMint-UA-en.conllu
 
 #URL = https://ucrel.lancs.ac.uk/paul/parlamint/PyMUSASTagged
 URL = http://ucrel-api-01.lancaster.ac.uk/vidler/

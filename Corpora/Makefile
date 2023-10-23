@@ -5,11 +5,16 @@
 ### ALL ParlaMint II CORPORA
 # Missing corpora: LT RO
 # CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RS RO SE SI TR UA
+
 ### SUBMITTED CORPORA FOR V 4.0
 #CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-# Redo (empty title)
-#CORPORA = ES-PV FI UA NO GB
-CORPORA = ES-PV
+
+# Doing-en:
+# CORPORA = AT BE BG CZ DK EE
+
+# Doing-xx:
+CORPORA = DK
+
 
 ######## MTed CORPORA FOR V 4.0
 #MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en ES-PV-en FI-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -44,11 +49,12 @@ WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/
 ###### Targets
 
 ###### Tests
-
+test:
+	date
 test-tei2:
 	${FINALIZE} -valid -codes FI -in ${HERE}/Master -out ${HERE}/Master
 test-tei1:
-	${FINALIZE} -tei -valid -codes FI -in ${HERE}/Temp -out ${HERE}/Temp/Out
+	${FINALIZE} -tei -valid -codes HU -in ${HERE}/Master -out ${HERE}/Master
 test-vert6:
 	../Scripts/parlamintp-tei2vert-xx.pl ${HERE}/Master/ParlaMint-LV.TEI.ana Test/ParlaMint-LV-xx.vert
 test-vert5:
@@ -58,9 +64,6 @@ test-vert5:
 test-vert4:
 	$s meta=${HERE}/Master/ParlaMint-GB.TEI.ana/ParlaMint-GB.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
 	${HERE}/Master/ParlaMint-GB.TEI.ana/2015/ParlaMint-GB_2015-01-06-commons.ana.xml > test.vert
-test-vert3:
-	$s meta=${HERE}/Master/ParlaMint-UA.TEI.ana/ParlaMint-UA.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
-	${HERE}/Master/ParlaMint-UA.TEI.ana/2012/ParlaMint-UA_2012-12-04-m0.ana.xml > test.vert
 test-vert2:
 	${FINALIZE} -vert -codes GB -in ${HERE}/Master -out ${HERE}/Master
 test-vert1:
@@ -125,12 +128,6 @@ merge-taxos:
 	${vta} Taxonomies/ParlaMint-taxonomy-*.xml
 
 ### Fixes for 4.0-en:
-
-# Instead of TEI-derived CoNLL-U files we release MTed CoNLL-U
-# merged with TEI-derived CoNLL-U because they also contain word alignments 
-# Script also adds -en suffix to filesnames + readme.
-mt-cp-conllu:
-	bin/cp-conllu.pl Master validate '${SOURCES-MT}/ParlaMint-*-en.conllu' 'Master'
 
 # Make txt and tsv files with tsvs
 mt-convert-txt:
@@ -204,7 +201,6 @@ master-mt-root:
 	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
 	../Scripts/ParlaMint-template-en.ana.xml > ${HERE}/Master/ParlaMint-en.ana.xml
 
-
 cp-samples:
 	# bin/cp-samples.pl 'Master/Sample-ParlaMint-*-en' Test
 	bin/cp-samples.pl 'Master/Sample-ParlaMint-*-en' ../Samples
@@ -266,6 +262,10 @@ FINALIZE-MT = perl ../Scripts/parlamint2distro.pl -version ${VERSION-MT} -anahan
 # Targets
 mt-nohup:
 	nice nohup time make mt-all-final > Logs/ParlaMint-en.log &
+mt-nohup2:
+	nice nohup time make mt-all-final > Logs/ParlaMint-en.2.log &
+mt-nohup3:
+	nice nohup time make mt-all-final > Logs/ParlaMint-en.3.log &
 mt-all-final:	mt-convert
 mt-xall-final:	mt-convert mt-verts mt-pack mt-web
 
@@ -286,10 +286,10 @@ mt-make-verts:
 
 # Join verts only
 mt-verts:
-	perl ../Scripts/join-all-verts.pl     -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX.${VERSION}.vert
+	#perl ../Scripts/join-all-verts.pl     -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX.${VERSION}.vert
 	perl ../Scripts/join-all-verts.pl -en -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX-en.${VERSION}.vert
 	# Sanity check
-	zcat Verts/ParlaMint-XX.${VERSION}.vert.gz | grep -c '</s>' 
+	#zcat Verts/ParlaMint-XX.${VERSION}.vert.gz | grep -c '</s>' 
 	zcat Verts/ParlaMint-XX-en.${VERSION}.vert.gz | grep -c '</s>' 
 
 # Convert from English CoNLL-U + source .TEI.ana -> -en.TEI.ana 
@@ -308,6 +308,10 @@ mt-convert:
 
 ### Tests for debugging MT processing
 
+mt-test9:
+	$s nosyntax=true out-lang=en meta=${HERE}/Master/ParlaMint-ES-CT-en.TEI.ana/ParlaMint-ES-CT-en.ana.xml \
+	-xsl:../Scripts/parlamint2xmlvert.xsl \
+	${HERE}/Master/ParlaMint-ES-CT-en.TEI.ana/2015/ParlaMint-ES-CT-en_2015-10-26-0101.ana.xml > test.vert
 mt-test8:
 	$s -xsl:../Scripts/validate-parlamint.xsl \
 	${HERE}/Master/ParlaMint-UA.TEI.ana/ParlaMint-UA.ana.xml
