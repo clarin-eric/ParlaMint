@@ -1,6 +1,6 @@
 <note type="time" content="14.03"/>
 <note type="president" content="Mustafa Şentop"/>
-<speech id="tbmm-2018-11-01sit01spe0001par0001" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 2, Birleşim 13" speaker_role="Başkan" speaker_id="Mustafa.Şentop" speaker_name="Şentop, Mustafa" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="---" speaker_gender="M" speaker_birth="1968">
+<speech id="tbmm-2018-11-01sit01spe0001par0001" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 2, Birleşim 13" speaker_role="Başkan" speaker_id="Mustafa.Şentop" speaker_name="Şentop, Mustafa" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="Sağ" speaker_gender="M" speaker_birth="1968">
 <p id="tbmm-2018-11-01sit01spe0001par0001.seg0" lang="Türkçe">
 <s id="tbmm-2018-11-01sit01spe0001par0001-000010">
 <name type="ORG">
@@ -114,7 +114,7 @@ dır	dır	i	AUX	Mood=Gen Number=Sing Person=3	t4	cop	dakika	NOUN	Case=Nom Number
 </s>
 </p>
 </speech>
-<speech id="tbmm-2018-11-01sit01spe0002par0011" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 2, Birleşim 13" speaker_role="Normal" speaker_id="Zafer.Sırakaya" speaker_name="Sırakaya, Zafer" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="---" speaker_gender="M" speaker_birth="1974">
+<speech id="tbmm-2018-11-01sit01spe0002par0011" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 2, Birleşim 13" speaker_role="Normal" speaker_id="Zafer.Sırakaya" speaker_name="Sırakaya, Zafer" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="Sağ" speaker_gender="M" speaker_birth="1974">
 <p id="tbmm-2018-11-01sit01spe0002par0011.seg0" lang="Türkçe">
 <s id="tbmm-2018-11-01sit01spe0002par0011-000010">
 Sayın	Sayın	sayın	ADJ		t1	amod	başkan	NOUN	Case=Nom Number=Sing	t2
@@ -1066,7 +1066,7 @@ tutulması	tutulması	tut	VERB	Case=Nom Number=Sing Number[psor]=Sing Person[pso
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="tbmm-2018-11-01sit01spe0122par0609" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 2, Birleşim 13" speaker_role="Normal" speaker_id="NazırCihangir.İslam" speaker_name="İslam, Nazır Cihangir" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Saadet" speaker_party_name="Saadet Partisi" party_status="Opposition" party_orientation="--" speaker_gender="M" speaker_birth="1959">
+<speech id="tbmm-2018-11-01sit01spe0122par0609" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 2, Birleşim 13" speaker_role="Normal" speaker_id="NazırCihangir.İslam" speaker_name="İslam, Nazır Cihangir" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Saadet" speaker_party_name="Saadet Partisi" party_status="Opposition" party_orientation="Sağ - aşırı sağ arası" speaker_gender="M" speaker_birth="1959">
 <p id="tbmm-2018-11-01sit01spe0122par0609.seg0" lang="Türkçe">
 <s id="tbmm-2018-11-01sit01spe0122par0609-000010">
 <name type="ORG">
@@ -1086,7 +1086,7 @@ etik	etik	etik	NOUN	Case=Nom Number=Sing	t7	root	-	-	-	-
 </s>
 </p>
 </speech>
-<speech id="tbmm-2018-11-01sit01spe0126par0610" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 2, Birleşim 13" speaker_role="Başkan" speaker_id="Mustafa.Şentop" speaker_name="Şentop, Mustafa" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="---" speaker_gender="M" speaker_birth="1968">
+<speech id="tbmm-2018-11-01sit01spe0126par0610" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 2, Birleşim 13" speaker_role="Başkan" speaker_id="Mustafa.Şentop" speaker_name="Şentop, Mustafa" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="Sağ" speaker_gender="M" speaker_birth="1968">
 <p id="tbmm-2018-11-01sit01spe0126par0610.seg0" lang="Türkçe">
 <s id="tbmm-2018-11-01sit01spe0126par0610-000010">
 Etik	Etik	etik	NOUN	Case=Nom Number=Sing	t1	nsubj	değil	CCONJ	Polarity=Neg	t2

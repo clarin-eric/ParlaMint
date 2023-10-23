@@ -1,6 +1,6 @@
 <note type="speaker" content="Eiki Nestor"/>
-<speech id="ParlaMint-EE_2014-12-02_U1" text_id="ParlaMint-EE_2014-12-02" subcorpus="Reference" body="Unicameralism" term="" session="rs8" meeting="" sitting="2014-12-02" agenda="" date="2014-12-02" title="XII Parliament term, VIII Session, Plenary Assembly regular meeting on Tuesday, 02.12.2014, 10:00" speaker_role="Chairperson" speaker_id="e_nestor_19530905" speaker_name="Nestor, Eiki" speaker_mp="MP" speaker_minister="-" speaker_party="SDE" speaker_party_name="Sotsiaaldemokraatlik erakond" party_status="Coalition" speaker_gender="M" speaker_birth="1953">
-<p id="ParlaMint-EE_2014-12-02_U1-P1" lang="Estonian">
+<speech id="ParlaMint-EE_2014-12-02_U1" text_id="ParlaMint-EE_2014-12-02" subcorpus="Reference" lang="eesti" body="Ühekojaline parlament" term="XII Riigikogu" session="VIII regular session" meeting="-" sitting="2014-12-02" agenda="-" date="2014-12-02" title="XII Riigikogu, VIII Istungjärk, täiskogu korraline istung Teisipäev, 02.12.2014, 10:00" speaker_role="Juhataja" speaker_id="e_nestor_19530905" speaker_name="Nestor, Eiki" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDE" speaker_party_name="Sotsiaaldemokraatlik erakond" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1953">
+<p id="ParlaMint-EE_2014-12-02_U1-P1" lang="eesti">
 <s id="ParlaMint-EE_2014-12-02_U1-P1.1">
 Austatud	Austatud	austa=tud	ADJ	Degree=Pos Tense=Past VerbForm=Part Voice=Pass	1	acl	Riigi_kogu	PROPN	Case=Nom Number=Sing	2
 <name type="ORG">
@@ -38,8 +38,8 @@ Aas	Aas	Aas	PROPN	Case=Nom Number=Sing	4	flat	Arto	PROPN	Case=Nom Number=Sing	3
 </p>
 </speech>
 <note type="speaker" content="Arto Aas"/>
-<speech id="ParlaMint-EE_2014-12-02_U2" text_id="ParlaMint-EE_2014-12-02" subcorpus="Reference" body="Unicameralism" term="" session="rs8" meeting="" sitting="2014-12-02" agenda="" date="2014-12-02" title="XII Parliament term, VIII Session, Plenary Assembly regular meeting on Tuesday, 02.12.2014, 10:00" speaker_role="Regular" speaker_id="a_aas_19800609" speaker_name="Aas, Arto" speaker_mp="MP" speaker_minister="-" speaker_party="RE" speaker_party_name="Reformierakond" party_status="Coalition" speaker_gender="M" speaker_birth="1980">
-<p id="ParlaMint-EE_2014-12-02_U2-P1" lang="Estonian">
+<speech id="ParlaMint-EE_2014-12-02_U2" text_id="ParlaMint-EE_2014-12-02" subcorpus="Reference" lang="eesti" body="Ühekojaline parlament" term="XII Riigikogu" session="VIII regular session" meeting="-" sitting="2014-12-02" agenda="-" date="2014-12-02" title="XII Riigikogu, VIII Istungjärk, täiskogu korraline istung Teisipäev, 02.12.2014, 10:00" speaker_role="Saadik" speaker_id="a_aas_19800609" speaker_name="Aas, Arto" speaker_mp="MP" speaker_minister="notMinister" speaker_party="RE" speaker_party_name="Reformierakond" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1980">
+<p id="ParlaMint-EE_2014-12-02_U2-P1" lang="eesti">
 <s id="ParlaMint-EE_2014-12-02_U2-P1.1">
 Austatud	Austatud	austa=tud	ADJ	Degree=Pos Tense=Past VerbForm=Part Voice=Pass	1	acl	kolleeg	NOUN	Case=Nom Number=Plur	2
 kolleegid	kolleegid	kolleeg	NOUN	Case=Nom Number=Plur	2	root	-	-	-	-
@@ -217,8 +217,8 @@ Aitäh	Aitäh	aitäh	INTJ		1	root	-	-	-	-
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-EE_2014-12-02_U63" text_id="ParlaMint-EE_2014-12-02" subcorpus="Reference" body="Unicameralism" term="" session="rs8" meeting="" sitting="2014-12-02" agenda="" date="2014-12-02" title="XII Parliament term, VIII Session, Plenary Assembly regular meeting on Tuesday, 02.12.2014, 10:00" speaker_role="Regular" speaker_id="r_vakra_19810310" speaker_name="Vakra, Rainer" speaker_mp="MP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1981">
-<p id="ParlaMint-EE_2014-12-02_U63-P1" lang="Estonian">
+<speech id="ParlaMint-EE_2014-12-02_U63" text_id="ParlaMint-EE_2014-12-02" subcorpus="Reference" lang="eesti" body="Ühekojaline parlament" term="XII Riigikogu" session="VIII regular session" meeting="-" sitting="2014-12-02" agenda="-" date="2014-12-02" title="XII Riigikogu, VIII Istungjärk, täiskogu korraline istung Teisipäev, 02.12.2014, 10:00" speaker_role="Saadik" speaker_id="r_vakra_19810310" speaker_name="Vakra, Rainer" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1981">
+<p id="ParlaMint-EE_2014-12-02_U63-P1" lang="eesti">
 <s id="ParlaMint-EE_2014-12-02_U63-P1.1">
 Austatud	Austatud	austa=tud	ADJ	Degree=Pos Tense=Past VerbForm=Part Voice=Pass	1	acl	esi_mees	NOUN	Case=Nom Number=Sing	2
 esimees	esimees	esi_mees	NOUN	Case=Nom Number=Sing	2	root	-	-	-	-
@@ -406,7 +406,7 @@ Valitsus	Valitsus	valitsus	PROPN	Case=Nom Number=Sing	7	nsubj	kiitma	VERB	Tense=
 .	.	.	PUNCT		8	punct	kiitma	VERB	Tense=Past VerbForm=Part Voice=Act	4
 </s>
 </p>
-<p id="ParlaMint-EE_2014-12-02_U63-P2" lang="Estonian">
+<p id="ParlaMint-EE_2014-12-02_U63-P2" lang="eesti">
 <s id="ParlaMint-EE_2014-12-02_U63-P2.1">
 Keskkonnakomisjoni	Keskkonnakomisjoni	keskkonna_komisjon	NOUN	Case=Gen Number=Sing	1	nmod	november	NOUN	Case=Gen Number=Sing	3
 20.	20.	20.	ADJ	Case=Gen NumForm=Digit NumType=Ord Number=Sing	2	amod	november	NOUN	Case=Gen Number=Sing	3
@@ -458,8 +458,8 @@ Aitäh	Aitäh	aitäh	INTJ		1	root	-	-	-	-
 </p>
 </speech>
 <note type="speaker" content="Eiki Nestor"/>
-<speech id="ParlaMint-EE_2014-12-02_U64" text_id="ParlaMint-EE_2014-12-02" subcorpus="Reference" body="Unicameralism" term="" session="rs8" meeting="" sitting="2014-12-02" agenda="" date="2014-12-02" title="XII Parliament term, VIII Session, Plenary Assembly regular meeting on Tuesday, 02.12.2014, 10:00" speaker_role="Chairperson" speaker_id="e_nestor_19530905" speaker_name="Nestor, Eiki" speaker_mp="MP" speaker_minister="-" speaker_party="SDE" speaker_party_name="Sotsiaaldemokraatlik erakond" party_status="Coalition" speaker_gender="M" speaker_birth="1953">
-<p id="ParlaMint-EE_2014-12-02_U64-P1" lang="Estonian">
+<speech id="ParlaMint-EE_2014-12-02_U64" text_id="ParlaMint-EE_2014-12-02" subcorpus="Reference" lang="eesti" body="Ühekojaline parlament" term="XII Riigikogu" session="VIII regular session" meeting="-" sitting="2014-12-02" agenda="-" date="2014-12-02" title="XII Riigikogu, VIII Istungjärk, täiskogu korraline istung Teisipäev, 02.12.2014, 10:00" speaker_role="Juhataja" speaker_id="e_nestor_19530905" speaker_name="Nestor, Eiki" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDE" speaker_party_name="Sotsiaaldemokraatlik erakond" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1953">
+<p id="ParlaMint-EE_2014-12-02_U64-P1" lang="eesti">
 <s id="ParlaMint-EE_2014-12-02_U64-P1.1">
 Aitäh	Aitäh	aitäh	INTJ		1	root	-	-	-	-
 <g/>
@@ -526,7 +526,7 @@ homme	homme	homme	ADV		2	advmod	kohtuma	VERB	Mood=Ind Number=Plur Person=1 Tense
 .	.	.	PUNCT		3	punct	kohtuma	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="ParlaMint-EE_2014-12-02_U64-P2" lang="Estonian">
+<p id="ParlaMint-EE_2014-12-02_U64-P2" lang="eesti">
 <s id="ParlaMint-EE_2014-12-02_U64-P2.1">
 Istungi	Istungi	istung	NOUN	Case=Gen Number=Sing	1	nmod	lõpp	NOUN	Case=Nom Number=Sing	2
 lõpp	lõpp	lõpp	NOUN	Case=Nom Number=Sing	2	root	-	-	-	-

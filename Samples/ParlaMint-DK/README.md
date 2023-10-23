@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country DK (Denmark)
+# Samples of the ParlaMint-DK corpus
 
+- Country: DK (Denmark)
 - Language: da (Danish)
 
 ## Documentation

@@ -1,5 +1,5 @@
-<speech id="ParlaMint-RS_2008-07-18-0.u1393" text_id="ParlaMint-RS_2008-07-18-0" subcorpus="Reference" body="Unicameralism" term="8" session="" meeting="v4" sitting="2010-07-22" agenda="" date="2008-07-18" title="Term 8, Meeting v4" speaker_role="Chairperson" speaker_id="ČomićGordana" speaker_name="Čomić, Gordana" speaker_mp="MP" speaker_minister="-" speaker_party="DS" speaker_party_name="Demokratska stranka" party_status="Coalition" speaker_gender="F" speaker_birth="1958">
-<p id="ParlaMint-RS_2008-07-18-0.u1393.seg0" lang="Serbian">
+<speech id="ParlaMint-RS_2008-07-18-0.u1393" text_id="ParlaMint-RS_2008-07-18-0" subcorpus="Referenca" lang="srpski" body="Jednodoman" term="8. mandat" session="-" meeting="Zasedanje v4" sitting="2010-07-22" agenda="-" date="2008-07-18" title="Mandat 8, Zasedanje v4" speaker_role="Predsedavajući" speaker_id="ČomićGordana" speaker_name="Čomić, Gordana" speaker_mp="MP" speaker_minister="notMinister" speaker_party="DS" speaker_party_name="Demokratska stranka" party_status="Coalition" party_orientation="Levi centar" speaker_gender="F" speaker_birth="1958">
+<p id="ParlaMint-RS_2008-07-18-0.u1393.seg0" lang="srpski">
 <s id="ParlaMint-RS_2008-07-18-0.u1393.seg0.1">
 Poštovane	Poštovane	poštovati	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Fem Number=Plur VerbForm=Part Voice=Pass	1	amod	dama	NOUN	Case=Nom Gender=Fem Number=Plur	2
 dame	dame	dama	NOUN	Case=Nom Gender=Fem Number=Plur	2	nsubj	moliti	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	8
@@ -54,8 +54,8 @@ danu	danu	dan	NOUN	Case=Loc Gender=Masc Number=Sing	21	nmod	rad	NOUN	Animacy=Ina
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-RS_2008-07-18-0.u1394" text_id="ParlaMint-RS_2008-07-18-0" subcorpus="Reference" body="Unicameralism" term="8" session="" meeting="v4" sitting="2010-07-22" agenda="" date="2008-07-18" title="Term 8, Meeting v4" speaker_role="Chairperson" speaker_id="ĐukićDejanovićSlavica" speaker_name="Đukić-Dejanović, Slavica" speaker_mp="MP" speaker_minister="-" speaker_party="SPS" speaker_party_name="Socijalistička partija Srbije" party_status="Coalition" speaker_gender="F" speaker_birth="1951">
-<p id="ParlaMint-RS_2008-07-18-0.u1394.seg0" lang="Serbian">
+<speech id="ParlaMint-RS_2008-07-18-0.u1394" text_id="ParlaMint-RS_2008-07-18-0" subcorpus="Referenca" lang="srpski" body="Jednodoman" term="8. mandat" session="-" meeting="Zasedanje v4" sitting="2010-07-22" agenda="-" date="2008-07-18" title="Mandat 8, Zasedanje v4" speaker_role="Predsedavajući" speaker_id="ĐukićDejanovićSlavica" speaker_name="Đukić-Dejanović, Slavica" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SPS" speaker_party_name="Socijalistička partija Srbije" party_status="Coalition" party_orientation="Levi centar" speaker_gender="F" speaker_birth="1951">
+<p id="ParlaMint-RS_2008-07-18-0.u1394.seg0" lang="srpski">
 <s id="ParlaMint-RS_2008-07-18-0.u1394.seg0.1">
 Obaveštavam	Obaveštavam	obaveštavati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 vas	vas	vi	PRON	Case=Acc Number=Plur Person=2 PronType=Prs	2	obj	obaveštavati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
@@ -448,8 +448,8 @@ Aligrudić	Aligrudić	Aligrudić	PROPN	Case=Nom Gender=Masc Number=Sing	8	flat	g
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-RS_2008-07-18-0.u1518" text_id="ParlaMint-RS_2008-07-18-0" subcorpus="Reference" body="Unicameralism" term="8" session="" meeting="v4" sitting="2010-07-22" agenda="" date="2008-07-18" title="Term 8, Meeting v4" speaker_role="Regular" speaker_id="MarkovićMomir" speaker_name="Marković, Momir" speaker_mp="MP" speaker_minister="-" speaker_party="SRS" speaker_party_name="Srpska radikalna stranka" party_status="Opposition" speaker_gender="M" speaker_birth="1950">
-<p id="ParlaMint-RS_2008-07-18-0.u1518.seg0" lang="Serbian">
+<speech id="ParlaMint-RS_2008-07-18-0.u1518" text_id="ParlaMint-RS_2008-07-18-0" subcorpus="Referenca" lang="srpski" body="Jednodoman" term="8. mandat" session="-" meeting="Zasedanje v4" sitting="2010-07-22" agenda="-" date="2008-07-18" title="Mandat 8, Zasedanje v4" speaker_role="Redovni" speaker_id="MarkovićMomir" speaker_name="Marković, Momir" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SRS" speaker_party_name="Srpska radikalna stranka" party_status="Opposition" party_orientation="Ekstremno desno" speaker_gender="M" speaker_birth="1950">
+<p id="ParlaMint-RS_2008-07-18-0.u1518.seg0" lang="srpski">
 <s id="ParlaMint-RS_2008-07-18-0.u1518.seg0.1">
 Dame	Dame	dama	NOUN	Case=Nom Gender=Fem Number=Plur	1	nsubj	reklamirati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
 i	i	i	CCONJ		2	cc	gospodo	NOUN	Case=Nom Gender=Masc Number=Plur	3
@@ -1062,8 +1062,8 @@ tribunala	tribunala	tribunal	NOUN	Case=Gen Gender=Masc Number=Sing	21	nmod	rad	N
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-RS_2008-07-18-0.u1519" text_id="ParlaMint-RS_2008-07-18-0" subcorpus="Reference" body="Unicameralism" term="8" session="" meeting="v4" sitting="2010-07-22" agenda="" date="2008-07-18" title="Term 8, Meeting v4" speaker_role="Chairperson" speaker_id="ĐukićDejanovićSlavica" speaker_name="Đukić-Dejanović, Slavica" speaker_mp="MP" speaker_minister="-" speaker_party="SPS" speaker_party_name="Socijalistička partija Srbije" party_status="Coalition" speaker_gender="F" speaker_birth="1951">
-<p id="ParlaMint-RS_2008-07-18-0.u1519.seg0" lang="Serbian">
+<speech id="ParlaMint-RS_2008-07-18-0.u1519" text_id="ParlaMint-RS_2008-07-18-0" subcorpus="Referenca" lang="srpski" body="Jednodoman" term="8. mandat" session="-" meeting="Zasedanje v4" sitting="2010-07-22" agenda="-" date="2008-07-18" title="Mandat 8, Zasedanje v4" speaker_role="Predsedavajući" speaker_id="ĐukićDejanovićSlavica" speaker_name="Đukić-Dejanović, Slavica" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SPS" speaker_party_name="Socijalistička partija Srbije" party_status="Coalition" party_orientation="Levi centar" speaker_gender="F" speaker_birth="1951">
+<p id="ParlaMint-RS_2008-07-18-0.u1519.seg0" lang="srpski">
 <s id="ParlaMint-RS_2008-07-18-0.u1519.seg0.1">
 Zahvaljujem	Zahvaljujem	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
@@ -1098,7 +1098,7 @@ u	u	u	ADP	Case=Acc	22	case	čas	NOUN	Case=Gen Gender=Masc Number=Plur	24
 .	.	.	PUNCT		25	punct	konstatovati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 </p>
-<p id="ParlaMint-RS_2008-07-18-0.u1519.seg1" lang="Serbian">
+<p id="ParlaMint-RS_2008-07-18-0.u1519.seg1" lang="srpski">
 <s id="ParlaMint-RS_2008-07-18-0.u1519.seg1.1">
 Poštovane	Poštovane	poštovati	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Fem Number=Plur VerbForm=Part Voice=Pass	1	amod	dama	NOUN	Case=Nom Gender=Fem Number=Plur	2
 dame	dame	dama	NOUN	Case=Nom Gender=Fem Number=Plur	2	nsubj	nastavljati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	8

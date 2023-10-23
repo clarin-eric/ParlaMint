@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country SI (Slovenia)
+# Samples of the ParlaMint-SI corpus
 
+- Country: SI (Slovenia)
 - Language sl (Slovenian)
 
 ## Documentation

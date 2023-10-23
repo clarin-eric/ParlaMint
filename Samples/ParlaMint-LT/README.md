@@ -4,6 +4,8 @@
 
 ## Documentation
 
+(Note that this corpus was not submitted for ParlaMint version 4.0)
+
 ### Characteristics of the national parliament
 
 The Seimas of the Republic of Lithuania (Lithuanian: Lietuvos Respublikos Seimas), or simply the Seimas (Lithuanian: \[sæ̠iˑmɐs\]), is a unicameral parliament of Lithuania. Its 141 members are elected for a four-year term, with 71 elected in single-member constituencies, and 70 elected in a nationwide vote based on open list multi-member proportional representation. Only parties are allowed to nominate lists of candidates for multi-member tier. However, non-party members (celebrities, important non-partisan politicians etc.) are usually included into the lists. Citizens not belonging to parties (independents) are allowed to nominate themselves in single-member districts. Consequently, a sizable share of MPs are independents (do not formally belong to parties). Therefore, parliamentary party groups (factions) are used for identifying MPs’ political affiliations in the corpus.

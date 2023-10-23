@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country PT (Portugal)
+# Samples of the ParlaMint-PT corpus
 
+- Country: PT (Portugal)
 - Languages: pt (Portuguese)
 
 ## Documentation

@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country IT (Italy)
+# Samples of the ParlaMint-IT corpus
 
+- Country: IT (Italy)
 - Language it (Italian)
 
 ## Documentation

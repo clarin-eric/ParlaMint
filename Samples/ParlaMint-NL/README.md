@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country NL (The Netherlands)
+# Samples of the ParlaMint-NL corpus
 
+- Country: NL (The Netherlands)
 - Language nl (Dutch)
 
 ## Documentation

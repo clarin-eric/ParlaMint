@@ -1,6 +1,7 @@
 <note type="head" content="Ouverture de la XVIᵉ législature"/>
-<speech id="ParlaMint-FR_2022-06-28-O1169.u1" text_id="ParlaMint-FR_2022-06-28-O1169" subcorpus="War" body="National parliament|Lower house|Legislative session|Sitting" term="16" session="O1" meeting="" sitting="1" agenda="" date="2022-06-28" title="Proceedings of the debates in plenary sitting of the Assemblée Nationale, sitting: 1, 28/06/2022" speaker_role="Guest" speaker_id="PA606171" speaker_name="Ferrand, Richard" speaker_mp="notMP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1962">
-<p id="ParlaMint-FR_2022-06-28-O1169.u1.1" lang="French">
+<note type="debate" content="TITRE_TEXTE_DISCUSSION"/>
+<speech id="ParlaMint-FR_2022-06-28-O1169.u1" text_id="ParlaMint-FR_2022-06-28-O1169" subcorpus="COVID,War" lang="français" body="Chambre basse" term="16e législature" session="Session ordinaire 2021-2022 (CRSANR5L16S2022O1N169)" meeting="-" sitting="1. séance" agenda="-" date="2022-06-28" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 1, 28/06/2022" speaker_role="Invité" speaker_id="PA606171" speaker_name="Ferrand, Richard" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1962">
+<p id="ParlaMint-FR_2022-06-28-O1169.u1.1" lang="français">
 <s id="ParlaMint-FR_2022-06-28-O1169.s1">
 Je	Je	il	PRON	Number=Sing Person=1 PronType=Prs	w1	nsubj	déclarer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 déclare	déclare	déclarer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
@@ -22,8 +23,9 @@ nationale	nationale	national	ADJ	Gender=Fem Number=Sing	w10	amod	assemblée	NOUN
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="Constitution du bureau d’âge"/>
-<speech id="ParlaMint-FR_2022-06-28-O1169.u2" text_id="ParlaMint-FR_2022-06-28-O1169" subcorpus="War" body="National parliament|Lower house|Legislative session|Sitting" term="16" session="O1" meeting="" sitting="1" agenda="" date="2022-06-28" title="Proceedings of the debates in plenary sitting of the Assemblée Nationale, sitting: 1, 28/06/2022" speaker_role="Guest" speaker_id="PA606171" speaker_name="Ferrand, Richard" speaker_mp="notMP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1962">
-<p id="ParlaMint-FR_2022-06-28-O1169.u2.1" lang="French">
+<note type="debate" content="TITRE_TEXTE_DISCUSSION"/>
+<speech id="ParlaMint-FR_2022-06-28-O1169.u2" text_id="ParlaMint-FR_2022-06-28-O1169" subcorpus="COVID,War" lang="français" body="Chambre basse" term="16e législature" session="Session ordinaire 2021-2022 (CRSANR5L16S2022O1N169)" meeting="-" sitting="1. séance" agenda="-" date="2022-06-28" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 1, 28/06/2022" speaker_role="Invité" speaker_id="PA606171" speaker_name="Ferrand, Richard" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1962">
+<p id="ParlaMint-FR_2022-06-28-O1169.u2.1" lang="français">
 <s id="ParlaMint-FR_2022-06-28-O1169.s2">
 Aux	à|le	à|le	ADP|DET	|Definite=Def Number=Plur PronType=Art	w1|w2	case|det	terme	NOUN	Gender=Masc Number=Plur	w3
 termes	termes	terme	NOUN	Gender=Masc Number=Plur	w3	obl:mod	appeler	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w19
@@ -62,7 +64,7 @@ bureau	bureau	bureau	NOUN	Gender=Masc Number=Sing	w32	nmod	élection	NOUN	Gender
 .	.	.	PUNCT		w33	punct	appeler	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w19
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u2.2" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u2.2" lang="français">
 <s id="ParlaMint-FR_2022-06-28-O1169.s3">
 Ce	Ce	ce	PRON	Gender=Masc Person=3 PronType=Dem	w1	nsubj	Monsieur	NOUN	Gender=Masc Number=Plur	w3
 sont	sont	être	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w2	cop	Monsieur	NOUN	Gender=Masc Number=Plur	w3
@@ -109,7 +111,7 @@ Rodwell	Rodwell	Rodwell	PROPN		w18	flat:name	Charles	PROPN		w17
 .	.	.	PUNCT		w19	punct	Tematai	PROPN		w1
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u2.3" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u2.3" lang="français">
 <s id="ParlaMint-FR_2022-06-28-O1169.s5">
 Le	Le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w1	det	bureau	NOUN	Gender=Masc Number=Sing	w2
 bureau	bureau	bureau	NOUN	Gender=Masc Number=Sing	w2	nsubj:pass	constituer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w10
@@ -131,8 +133,8 @@ constitué	constitué	constituer	VERB	Gender=Masc Number=Sing Tense=Past VerbFor
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-FR_2022-06-28-O1169.u17" text_id="ParlaMint-FR_2022-06-28-O1169" subcorpus="War" body="National parliament|Lower house|Legislative session|Sitting" term="16" session="O1" meeting="" sitting="1" agenda="" date="2022-06-28" title="Proceedings of the debates in plenary sitting of the Assemblée Nationale, sitting: 1, 28/06/2022" speaker_role="Regular" speaker_id="PA721908" speaker_name="Braun-Pivet, Yaël" speaker_mp="MP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1970">
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.1" lang="French">
+<speech id="ParlaMint-FR_2022-06-28-O1169.u17" text_id="ParlaMint-FR_2022-06-28-O1169" subcorpus="COVID,War" lang="français" body="Chambre basse" term="16e législature" session="Session ordinaire 2021-2022 (CRSANR5L16S2022O1N169)" meeting="-" sitting="1. séance" agenda="-" date="2022-06-28" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 1, 28/06/2022" speaker_role="Orateur" speaker_id="PA721908" speaker_name="Braun-Pivet, Yaël" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="F" speaker_birth="1970">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.1" lang="français">
 <s id="ParlaMint-FR_2022-06-28-O1169.s94">
 Mes	Mes	son	DET	Number=Plur Number[psor]=Sing Person[psor]=1 Poss=Yes PronType=Prs	w1	det	collègue	NOUN	Gender=Masc Number=Plur	w3
 chers	chers	cher	ADJ	Gender=Masc Number=Plur	w2	amod	collègue	NOUN	Gender=Masc Number=Plur	w3
@@ -189,7 +191,7 @@ pareil	pareil	pareil	NOUN	Gender=Masc Number=Sing	w41	obl:mod	forger	VERB	Gender
 .	.	.	PUNCT		w42	punct	entrer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w8
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.2" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.2" lang="français">
 <note type="kinesic:applause" content="Applaudissements"/>
 <s id="ParlaMint-FR_2022-06-28-O1169.s95">
 Des	Des	un	DET	Definite=Ind Number=Plur PronType=Art	w1	det	voix	NOUN	Gender=Fem Number=Plur	w2
@@ -262,7 +264,7 @@ droits	droits	droit	NOUN	Gender=Masc Number=Plur	w49	obl:mod	égal	ADJ	Gender=Ma
 »	»	»	PUNCT		w1	root	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.3" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.3" lang="français">
 <s id="ParlaMint-FR_2022-06-28-O1169.s98">
 En	En	en	ADP		w1	mark	porter	VERB	Tense=Pres VerbForm=Part	w3
 me	me	se	PRON	Number=Sing Person=1 PronType=Prs	w2	expl:pv	porter	VERB	Tense=Pres VerbForm=Part	w3
@@ -336,7 +338,7 @@ questionnements	questionnements	questionnement	NOUN	Gender=Masc Number=Plur	w43	
 .	.	.	PUNCT		w44	punct	vouloir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.4" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.4" lang="français">
 <note type="kinesic:applause" content="Applaudissements"/>
 <s id="ParlaMint-FR_2022-06-28-O1169.s100">
 Permettez	Permettez	permettre	VERB	Mood=Imp Number=Plur Person=2 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
@@ -390,7 +392,7 @@ législature	législature	législature	NOUN	Gender=Fem Number=Sing	w20	nmod	vice
 .	.	.	PUNCT		w21	punct	saluer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.5" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.5" lang="français">
 <note type="kinesic:applause" content="Applaudissements"/>
 <note type="kinesic:applause" content="Applaudissements"/>
 <note type="kinesic:applause" content="Applaudissements"/>
@@ -551,7 +553,7 @@ orangers	orangers	oranger	NOUN	Gender=Masc Number=Plur	w33	nmod	odeur	NOUN	Gende
 .	.	.	PUNCT		w34	punct	penser	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.6" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.6" lang="français">
 <note type="kinesic:smiling" content="Sourires"/>
 <s id="ParlaMint-FR_2022-06-28-O1169.s107">
 <name type="MISC">
@@ -702,7 +704,7 @@ légitime	légitime	légitime	ADJ	Gender=Masc Number=Sing	w32	amod	ambition	NOUN
 .	.	.	PUNCT		w33	punct	journaliste	NOUN	Gender=Masc Number=Sing	w3
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.7" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.7" lang="français">
 <s id="ParlaMint-FR_2022-06-28-O1169.s112">
 Il	Il	il	PRON	Gender=Masc Number=Sing Person=3 PronType=Prs	w1	expl:subj	falloir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w3
 aura	aura	avoir	AUX	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w2	aux:tense	falloir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w3
@@ -803,7 +805,7 @@ femmes	femmes	femme	NOUN	Gender=Fem Number=Plur	w28	conj	homme	NOUN	Gender=Masc 
 .	.	.	PUNCT		w29	punct	créer	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w7
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.8" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.8" lang="français">
 <s id="ParlaMint-FR_2022-06-28-O1169.s116">
 Ce	Ce	ce	DET	Gender=Masc Number=Sing PronType=Dem	w1	det	chemin	NOUN	Gender=Masc Number=Sing	w2
 chemin	chemin	chemin	NOUN	Gender=Masc Number=Sing	w2	nsubj:pass	tracer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w4
@@ -942,7 +944,7 @@ désemparés	désemparés	désemparer	VERB	Gender=Masc Number=Plur Tense=Past Ve
 .	.	.	PUNCT		w25	punct	penser	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.9" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.9" lang="français">
 <s id="ParlaMint-FR_2022-06-28-O1169.s121">
 Enfin	Enfin	enfin	ADV		w1	advmod	évoquer	VERB	VerbForm=Inf	w6
 <g/>
@@ -1043,7 +1045,7 @@ avortement	avortement	avortement	NOUN	Gender=Masc Number=Sing	w54	nmod	droit	NOU
 .	.	.	PUNCT		w55	punct	venir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w11
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.10" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.10" lang="français">
 <note type="kinesic:applause" content="Applaudissements"/>
 <s id="ParlaMint-FR_2022-06-28-O1169.s123">
 À	À	à	ADP		w1	case	rebours	NOUN	Gender=Masc Number=Sing	w2
@@ -1172,7 +1174,7 @@ jamais	jamais	jamais	ADV	Polarity=Neg	w25	advmod	rester	VERB	Mood=Ind Number=Sin
 .	.	.	PUNCT		w26	punct	être	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w12
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.11" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.11" lang="français">
 <s id="ParlaMint-FR_2022-06-28-O1169.s128">
 Nous	Nous	il	PRON	Number=Plur Person=1 PronType=Prs	w1	nsubj	naître	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2
 naissons	naissons	naître	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
@@ -1294,7 +1296,7 @@ République	République	république	NOUN	Gender=Fem Number=Sing	w24	nmod	tout	PR
 .	.	.	PUNCT		w25	punct	celui	PRON	Gender=Fem Number=Sing Person=3 PronType=Dem	w11
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.12" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.12" lang="français">
 <note type="kinesic:applause" content="Applaudissements"/>
 <s id="ParlaMint-FR_2022-06-28-O1169.s132">
 Ma	Ma	son	DET	Gender=Fem Number=Sing Number[psor]=Sing Person[psor]=1 Poss=Yes PronType=Prs	w1	det	famille	NOUN	Gender=Fem Number=Sing	w2
@@ -1446,7 +1448,7 @@ battus	battus	battre	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w38	c
 .	.	.	PUNCT		w39	punct	transmettre	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w15
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.13" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.13" lang="français">
 <note type="kinesic:applause" content="Applaudissements"/>
 <s id="ParlaMint-FR_2022-06-28-O1169.s138">
 Ma	Ma	son	DET	Gender=Fem Number=Sing Number[psor]=Sing Person[psor]=1 Poss=Yes PronType=Prs	w1	det	famille	NOUN	Gender=Fem Number=Sing	w2
@@ -1494,7 +1496,7 @@ vous	vous	il	PRON	Number=Plur Person=2 PronType=Prs	w33	obl:mod	tracer	VERB	Gend
 .	.	.	PUNCT		w34	punct	mère	NOUN	Gender=Fem Number=Sing	w8
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.14" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.14" lang="français">
 <note type="kinesic:applause" content="Applaudissements"/>
 <s id="ParlaMint-FR_2022-06-28-O1169.s139">
 Mon	Mon	son	DET	Number=Sing Number[psor]=Sing Person[psor]=1 Poss=Yes PronType=Prs	w1	det	histoire	NOUN	Gender=Fem Number=Sing	w2
@@ -1599,7 +1601,7 @@ enfants	enfants	enfant	NOUN	Number=Plur	w29	nmod	chacun	PRON	Gender=Masc Number=
 .	.	.	PUNCT		w30	punct	ce	PRON	Gender=Masc Person=3 PronType=Dem	w5
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.15" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.15" lang="français">
 <s id="ParlaMint-FR_2022-06-28-O1169.s142">
 Je	Je	il	PRON	Number=Sing Person=1 PronType=Prs	w1	nsubj	livrer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w3
 vous	vous	il	PRON	Number=Plur Person=2 PronType=Prs	w2	nsubj	livrer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w3
@@ -1759,7 +1761,7 @@ culture	culture	culture	NOUN	Gender=Fem Number=Sing	w26	conj	instruction	NOUN	Ge
 »	»	»	PUNCT		w1	root	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.16" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.16" lang="français">
 <s id="ParlaMint-FR_2022-06-28-O1169.s148">
 Voilà	Voilà	voilà	VERB		w1	root	-	-	-	-
 qui	qui	qui	PRON	PronType=Rel	w2	nsubj	résonner	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
@@ -1792,7 +1794,7 @@ s'	s'	se	PRON	Person=3 PronType=Prs Reflex=Yes	w23	expl:pass	élever	VERB	VerbFo
 .	.	.	PUNCT		w25	punct	voilà	VERB		w1
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.17" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.17" lang="français">
 <note type="kinesic:applause" content="Applaudissements"/>
 <s id="ParlaMint-FR_2022-06-28-O1169.s149">
 L'	L'	le	DET	Definite=Def Number=Sing PronType=Art	w1	det	enfant	NOUN	Number=Sing	w2
@@ -1889,7 +1891,7 @@ là	là	là	ADV		w21	conj	soi	PRON	Number=Sing Person=1 PronType=Prs	w14
 .	.	.	PUNCT		w22	punct	soi	PRON	Number=Sing Person=1 PronType=Prs	w14
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.18" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.18" lang="français">
 <note type="kinesic:applause" content="Applaudissements"/>
 <s id="ParlaMint-FR_2022-06-28-O1169.s153">
 Bien	Bien	bien	ADV		w1	advmod	avoir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w6
@@ -2055,7 +2057,7 @@ Français	Français	français	NOUN	Gender=Masc Number=Plur	w31	conj	France	PROPN
 .	.	.	PUNCT		w32	punct	espoir	NOUN	Gender=Masc Number=Sing	w2
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.19" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.19" lang="français">
 <s id="ParlaMint-FR_2022-06-28-O1169.s159">
 Notre	Notre	son	DET	Number=Sing Number[psor]=Plur Person[psor]=1 Poss=Yes PronType=Prs	w1	det	assemblée	NOUN	Gender=Fem Number=Sing	w2
 assemblée	assemblée	assemblée	NOUN	Gender=Fem Number=Sing	w2	nsubj	devoir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w10
@@ -2219,7 +2221,7 @@ renforcé	renforcé	renforcer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=P
 .	.	.	PUNCT		w12	punct	développer	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w4
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.20" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.20" lang="français">
 <s id="ParlaMint-FR_2022-06-28-O1169.s167">
 <name type="MISC">
 Mes	Mes	son	DET	Number=Plur Number[psor]=Sing Person[psor]=1 Poss=Yes PronType=Prs	w1	det	collègue	NOUN	Gender=Masc Number=Plur	w3
@@ -2302,7 +2304,7 @@ vie	vie	vie	NOUN	Gender=Fem Number=Sing	w20	obj	transformer	VERB	VerbForm=Inf	w1
 .	.	.	PUNCT		w21	punct	être	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w7
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.21" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.21" lang="français">
 <s id="ParlaMint-FR_2022-06-28-O1169.s171">
 Notre	Notre	son	DET	Number=Sing Number[psor]=Plur Person[psor]=1 Poss=Yes PronType=Prs	w1	det	assemblée	NOUN	Gender=Fem Number=Sing	w2
 assemblée	assemblée	assemblée	NOUN	Gender=Fem Number=Sing	w2	nsubj	devoir	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w3
@@ -2403,7 +2405,7 @@ faire	faire	faire	VERB	VerbForm=Inf	w16	xcomp	continuer	VERB	Mood=Ind Number=Sin
 .	.	.	PUNCT		w17	punct	président	NOUN	Gender=Fem Number=Sing	w5
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.22" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.22" lang="français">
 <note type="kinesic:applause" content="Applaudissements"/>
 <s id="ParlaMint-FR_2022-06-28-O1169.s175">
 Les	Les	le	DET	Definite=Def Number=Plur PronType=Art	w1	det	outre-mer	NOUN	Gender=Masc Number=Plur	w2
@@ -2502,7 +2504,7 @@ universalité	universalité	universalité	NOUN	Gender=Fem Number=Sing	w38	nmod	r
 .	.	.	PUNCT		w39	punct	faiblir	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w7
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.23" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.23" lang="français">
 <s id="ParlaMint-FR_2022-06-28-O1169.s177">
 Dans	Dans	dans	ADP		w1	case	hémicycle	NOUN	Gender=Masc Number=Sing	w3
 cet	cet	ce	DET	Gender=Masc Number=Sing PronType=Dem	w2	det	hémicycle	NOUN	Gender=Masc Number=Sing	w3
@@ -2530,7 +2532,7 @@ moi	moi	soi	PRON	Number=Sing Person=1 PronType=Prs	w5	obl:mod	compter	VERB	VerbF
 .	.	.	PUNCT		w6	punct	pouvoir	VERB	Mood=Ind Number=Plur Person=2 Tense=Fut VerbForm=Fin	w2
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u17.24" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u17.24" lang="français">
 <note type="kinesic:applause" content="Mmes et MM. les députés se lèvent et applaudissent longuement"/>
 <s id="ParlaMint-FR_2022-06-28-O1169.s179">
 Le	Le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w1	det	temps	NOUN	Gender=Masc Number=Sing	w2
@@ -2603,8 +2605,9 @@ République	République	république	NOUN	Gender=Fem Number=Sing	w41	appos	bien	N
 </p>
 </speech>
 <note type="head" content="Ordre du jour de la prochaine séance"/>
-<speech id="ParlaMint-FR_2022-06-28-O1169.u18" text_id="ParlaMint-FR_2022-06-28-O1169" subcorpus="War" body="National parliament|Lower house|Legislative session|Sitting" term="16" session="O1" meeting="" sitting="1" agenda="" date="2022-06-28" title="Proceedings of the debates in plenary sitting of the Assemblée Nationale, sitting: 1, 28/06/2022" speaker_role="Guest" speaker_id="PA606171" speaker_name="Ferrand, Richard" speaker_mp="notMP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1962">
-<p id="ParlaMint-FR_2022-06-28-O1169.u18.1" lang="French">
+<note type="debate" content="FIN_SEAN_1_2"/>
+<speech id="ParlaMint-FR_2022-06-28-O1169.u18" text_id="ParlaMint-FR_2022-06-28-O1169" subcorpus="COVID,War" lang="français" body="Chambre basse" term="16e législature" session="Session ordinaire 2021-2022 (CRSANR5L16S2022O1N169)" meeting="-" sitting="1. séance" agenda="-" date="2022-06-28" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 1, 28/06/2022" speaker_role="Invité" speaker_id="PA606171" speaker_name="Ferrand, Richard" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1962">
+<p id="ParlaMint-FR_2022-06-28-O1169.u18.1" lang="français">
 <s id="ParlaMint-FR_2022-06-28-O1169.s181">
 Prochaine	Prochaine	prochain	ADJ	Gender=Fem Number=Sing	w1	amod	séance	NOUN	Gender=Fem Number=Sing	w2
 séance	séance	séance	NOUN	Gender=Fem Number=Sing	w2	root	-	-	-	-
@@ -2619,7 +2622,7 @@ heures	heures	heure	NOUN	Gender=Fem Number=Plur	w8	nmod	séance	NOUN	Gender=Fem 
 :	:	:	PUNCT		w9	punct	séance	NOUN	Gender=Fem Number=Sing	w2
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u18.2" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u18.2" lang="français">
 <s id="ParlaMint-FR_2022-06-28-O1169.s182">
 Nomination	Nomination	nomination	NOUN	Gender=Fem Number=Sing	w1	root	-	-	-	-
 <g/>
@@ -2645,7 +2648,7 @@ secrétaires	secrétaires	secrétaire	NOUN	Gender=Masc Number=Plur	w17	conj	nomi
 ;	;	;	PUNCT		w18	punct	nomination	NOUN	Gender=Fem Number=Sing	w1
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u18.3" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u18.3" lang="français">
 <s id="ParlaMint-FR_2022-06-28-O1169.s183">
 Installation	Installation	installation	NOUN	Gender=Fem Number=Sing	w1	root	-	-	-	-
 du	de|le	de|le	ADP|DET	|Definite=Def Gender=Masc Number=Sing PronType=Art	w2|w3	case|det	bureau	NOUN	Gender=Masc Number=Sing	w4
@@ -2654,7 +2657,7 @@ bureau	bureau	bureau	NOUN	Gender=Masc Number=Sing	w4	nmod	installation	NOUN	Gend
 .	.	.	PUNCT		w5	punct	installation	NOUN	Gender=Fem Number=Sing	w1
 </s>
 </p>
-<p id="ParlaMint-FR_2022-06-28-O1169.u18.4" lang="French">
+<p id="ParlaMint-FR_2022-06-28-O1169.u18.4" lang="français">
 <s id="ParlaMint-FR_2022-06-28-O1169.s184">
 La	La	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w1	det	séance	NOUN	Gender=Fem Number=Sing	w2
 séance	séance	séance	NOUN	Gender=Fem Number=Sing	w2	nsubj:pass	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w4

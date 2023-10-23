@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country RS (Serbia)
+# Samples of the ParlaMint-RS corpus
 
+- Country: RS (Serbia)
 - Languages: sr (Serbian)
 
 

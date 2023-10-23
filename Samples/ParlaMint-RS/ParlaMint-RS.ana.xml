@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
-           xml:lang="sr"
-           xml:id="ParlaMint-RS.ana">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sr" xml:id="ParlaMint-RS.ana">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,7 +37,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.0</edition>
+            <edition>4.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="316069" xml:lang="sr">316,069 govora</measure>
@@ -53,7 +51,7 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1810</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1860</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="sr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
@@ -61,7 +59,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-06-16">2023-06-16</date>
+            <date when="2023-10-10">2023-10-10</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -74,10 +72,8 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
-            <p xml:lang="sr">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="sr"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
          </projectDesc>
          <editorialDecl>
@@ -119,21 +115,16 @@
             </namespace>
          </tagsDecl>
          <classDecl>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-parla.legislature.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-speaker_types.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-subcorpus.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-NER.ana.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-NER.ana.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-CHES.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-politicalOrientation.xml"/>
          </classDecl>
          <listPrefixDef>
-            <prefixDef ident="mte"
-                       matchPattern="(.+)"
-                       replacementPattern="http://nl.ijs.si/ME/V6/msd/tables/msd-fslib-hbs.xml#$1">
+            <prefixDef ident="mte" matchPattern="(.+)" replacementPattern="http://nl.ijs.si/ME/V6/msd/tables/msd-fslib-hbs.xml#$1">
                <p xml:lang="en">Private URIs with this prefix point to feature-structure elements defining the Serbocroatian MULTEXT-East Version 6 MSDs.</p>
             </prefixDef>
             <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
@@ -141,17 +132,9 @@
             </prefixDef>
          </listPrefixDef>
          <appInfo>
-            <application version="1.0" ident="reldi-tokeniser">
-               <label>ReLDI tokeniser</label>
-               <desc xml:lang="en">Tokenisation and sentence segmentation with ReLDI tokeniser, available from <ref target="https://github.com/clarinsi/reldi-tokeniser">https://github.com/clarinsi/reldi-tokeniser</ref>.</desc>
-            </application>
-            <application version="1.0" ident="classla-stanfordnlp">
-               <label>CLASSLA-StanfordNLP</label>
-               <desc xml:lang="en">MSD tagging and lemmatisation with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla-stanfordnlp">https://github.com/clarinsi/classla-stanfordnlp</ref>.</desc>
-            </application>
-            <application version="1.0" ident="janes-ner">
-               <label>NER system for South Slavic languages</label>
-               <desc xml:lang="en">Named entity recognition done with the Janes NER program, trained for Slovene and available at <ref target="https://github.com/clarinsi/janes-ner">https://github.com/clarinsi/janes-ner</ref>.</desc>
+            <application version="2.0" ident="classla-stanza">
+               <label>CLASSLA-Stanza</label>
+               <desc xml:lang="en">Linguistic processing with CLASSLA-Stanza, available from <ref target="https://github.com/clarinsi/classla">https://github.com/clarinsi/classla</ref>.</desc>
             </application>
          </appInfo>
       </encodingDesc>
@@ -169,8 +152,7 @@
          </textClass>
          <particDesc>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-RS-listOrg.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-RS-listPerson.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-RS-listPerson.xml"/>
          </particDesc>
          <langUsage>
             <language ident="sr" xml:lang="sr">srpski</language>
@@ -180,18 +162,16 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2023-06-16">
+         <change when="2023-10-10">
             <name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2023-06-16">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2023-10-10">parlamint2release script: Fix some identifiable erros for the release.</change>
          <change when="2022-11-09">
             <name>Peter Rupnik</name> Initial commit</change>
-         <change when="2023-06-16">parlamint-add-common-content script: Adding common content.</change>
+         <change when="2023-10-10">parlamint-add-common-content script: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-RS_2008-07-18-0.ana.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-RS_2014-11-04-0.ana.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-RS_2022-02-14-0.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-RS_2008-07-18-0.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-RS_2014-11-04-0.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-RS_2022-02-14-0.ana.xml"/>
 </teiCorpus>
+

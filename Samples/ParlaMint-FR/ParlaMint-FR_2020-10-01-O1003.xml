@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:ns0="http://schemas.assemblee-nationale.fr/referentiel"
-     xml:id="ParlaMint-FR_2020-10-01-O1003"
-     ana="#parla.sitting #covid"
-     xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns0="http://schemas.assemblee-nationale.fr/referentiel" xml:id="ParlaMint-FR_2020-10-01-O1003" ana="#parla.sitting #covid" xml:lang="fr">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -11,18 +7,9 @@
             <title type="main" xml:lang="en">French parliamentary corpus ParlaMint-FR, ordinary session 01/10/2020 (3) [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="fr">Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 3, 01/10/2020</title>
             <title type="sub" xml:lang="en">Proceedings of the debates in plenary sitting of the Assemblée Nationale, sitting: 3, 01/10/2020</title>
-            <meeting n="15"
-                     corresp="#ParlaMint-FR-LOWER"
-                     ana="#parla.national #parla.lower #parla.term #parla.term.15"
-                     xml:lang="fr">15e législature</meeting>
-            <meeting n="O1"
-                     corresp="#ParlaMint-FR-LOWER"
-                     ana="#parla.session #ParlaMint-FR-LOWER"
-                     xml:lang="fr">session ordinaire 2020-2021 (CRSANR5L15S2021O1N003)</meeting>
-            <meeting n="3"
-                     corresp="#ParlaMint-FR-LOWER"
-                     ana="#parla.sitting #ParlaMint-FR-LOWER"
-                     xml:lang="fr">3. séance</meeting>
+            <meeting n="15" corresp="#ParlaMint-FR-LOWER" ana="#parla.national #parla.lower #parla.term #parla.term.15" xml:lang="fr">15e législature</meeting>
+            <meeting n="O1" corresp="#ParlaMint-FR-LOWER" ana="#parla.session #ParlaMint-FR-LOWER" xml:lang="fr">session ordinaire 2020-2021 (CRSANR5L15S2021O1N003)</meeting>
+            <meeting n="3" corresp="#ParlaMint-FR-LOWER" ana="#parla.sitting #ParlaMint-FR-LOWER" xml:lang="fr">3. séance</meeting>
             <respStmt>
                <persName>Sascha Diwersy</persName>
                <resp xml:lang="fr">Annotation linguistique</resp>
@@ -38,7 +25,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.0</edition>
+            <edition>4.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="432" xml:lang="en">432 speeches</measure>
@@ -48,12 +35,12 @@
          </extent>
          <publicationStmt>
             <publisher>CLARIN research infrastructure</publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1859</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="fr">This work is licensed under the terms of the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2023-06-14">2023-06-14</date>
+            <date when="2023-10-08">2023-10-08</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -66,10 +53,8 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
-            <p xml:lang="fr">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="fr"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
@@ -98,7 +83,7 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-06-14">
+         <change when="2023-10-08">
             <name>Tomaž Erjavec</name>: Made sample.</change>
          <change when="2022-12-26">
             <name>Giancarlo Luxardo</name>: ParlaMint II update, vs 3.0.</change>
@@ -106,40 +91,28 @@
    </teiHeader>
    <text xml:lang="fr" ana="#covid">
       <body>
-         <div xml:id="ParlaMint-FR_2020-10-01-O1003.d2_2"
-              n="1"
-              type="debateSection">
-            <head>Suite de la discussiond’un projet de loi</head>
-            <note type="debate">SOUS_TITRE_TEXTE_DISCUSSION</note>
-            <u who="#PA1592"
-               xml:id="ParlaMint-FR_2020-10-01-O1003.u1"
-               ana="#chair">
+         <div xml:id="ParlaMint-FR_2020-10-01-O1003.d2_2" n="1" type="debateSection">
+            <head xml:id="ParlaMint-FR_2020-10-01-O1003.head1">Suite de la discussiond’un projet de loi</head>
+            <note type="debate" xml:id="ParlaMint-FR_2020-10-01-O1003.note1">SOUS_TITRE_TEXTE_DISCUSSION</note>
+            <u who="#PA1592" xml:id="ParlaMint-FR_2020-10-01-O1003.u1" ana="#chair">
                <seg xml:id="ParlaMint-FR_2020-10-01-O1003.u1.1">L’ordre du jour appelle la suite de la discussion du projet de loi prorogeant le régime transitoire institué à la sortie de l’état d’urgence sanitaire (n° 3340, 3355).</seg>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
          </div>
-         <div xml:id="ParlaMint-FR_2020-10-01-O1003.d2_3"
-              n="2"
-              type="debateSection">
-            <head>Discussion des articles</head>
-            <note type="debate">DISC_ARTICLES_1_1</note>
-            <u who="#PA1592"
-               xml:id="ParlaMint-FR_2020-10-01-O1003.u2"
-               ana="#chair">
+         <div xml:id="ParlaMint-FR_2020-10-01-O1003.d2_3" n="2" type="debateSection">
+            <head xml:id="ParlaMint-FR_2020-10-01-O1003.head2">Discussion des articles</head>
+            <note type="debate" xml:id="ParlaMint-FR_2020-10-01-O1003.note2">DISC_ARTICLES_1_1</note>
+            <u who="#PA1592" xml:id="ParlaMint-FR_2020-10-01-O1003.u2" ana="#chair">
                <seg xml:id="ParlaMint-FR_2020-10-01-O1003.u2.1">Cet après-midi, l’Assemblée a commencé la discussion des articles du projet de loi, s’arrêtant à l’amendement n° 80 à l’article 1ᵉʳ.</seg>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
          </div>
-         <div xml:id="ParlaMint-FR_2020-10-01-O1003.d2_75"
-              n="430"
-              type="debateSection">
-            <u who="#PA1592"
-               xml:id="ParlaMint-FR_2020-10-01-O1003.u431"
-               ana="#chair">
+         <div xml:id="ParlaMint-FR_2020-10-01-O1003.d2_75" n="430" type="debateSection">
+            <u who="#PA1592" xml:id="ParlaMint-FR_2020-10-01-O1003.u431" ana="#chair">
                <seg xml:id="ParlaMint-FR_2020-10-01-O1003.u431.1">Voici le résultat du scrutin :</seg>
                <seg xml:id="ParlaMint-FR_2020-10-01-O1003.u431.2">Nombre de votants 46</seg>
                <seg xml:id="ParlaMint-FR_2020-10-01-O1003.u431.3">Nombre de suffrages exprimés 43</seg>
@@ -148,14 +121,10 @@
                <seg xml:id="ParlaMint-FR_2020-10-01-O1003.u431.6">Contre 17</seg>
             </u>
          </div>
-         <div xml:id="ParlaMint-FR_2020-10-01-O1003.d1_76"
-              n="432"
-              type="debateSection">
-            <head>Ordre du jour de la prochaine séance</head>
-            <note type="debate">FIN_SEAN_1_2</note>
-            <u who="#PA1592"
-               xml:id="ParlaMint-FR_2020-10-01-O1003.u432"
-               ana="#chair">
+         <div xml:id="ParlaMint-FR_2020-10-01-O1003.d1_76" n="432" type="debateSection">
+            <head xml:id="ParlaMint-FR_2020-10-01-O1003.head14">Ordre du jour de la prochaine séance</head>
+            <note type="debate" xml:id="ParlaMint-FR_2020-10-01-O1003.note14">FIN_SEAN_1_2</note>
+            <u who="#PA1592" xml:id="ParlaMint-FR_2020-10-01-O1003.u432" ana="#chair">
                <seg xml:id="ParlaMint-FR_2020-10-01-O1003.u432.1">Prochaine séance à neuf heures :</seg>
                <seg xml:id="ParlaMint-FR_2020-10-01-O1003.u432.2">Suite de la discussion du projet de loi d’accélération et de simplification de l’action publique.</seg>
                <seg xml:id="ParlaMint-FR_2020-10-01-O1003.u432.3">La séance est levée.</seg>
@@ -164,3 +133,4 @@
       </body>
    </text>
 </TEI>
+

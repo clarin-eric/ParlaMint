@@ -1,6 +1,6 @@
 <note type="speaker" content="Špirić, Nikola"/>
-<speech id="ParlaMint-BA_2022-06-30-0.u3743" text_id="ParlaMint-BA_2022-06-30-0" subcorpus="War" body="Unicameralism" term="8" session="" meeting="12h" sitting="2022-06-30" agenda="" date="2022-06-30" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 8, Session 12h" speaker_role="Chairperson" speaker_id="ŠpirićNikola" speaker_name="Špirić, Nikola" speaker_mp="MP" speaker_minister="-" speaker_party="SNSD" speaker_party_name="Savez nezavisnih socijaldemokrata" party_status="Opposition" speaker_gender="M" speaker_birth="1956">
-<p id="ParlaMint-BA_2022-06-30-0.u3743.seg0" lang="Bosnian">
+<speech id="ParlaMint-BA_2022-06-30-0.u3743" text_id="ParlaMint-BA_2022-06-30-0" subcorpus="COVID,Rat" lang="bosanski" body="Jednodoman" term="8. mandat" session="-" meeting="Sjednica 12h" sitting="2022-06-30" agenda="-" date="2022-06-30" title="Zapisnici sjednica parlamentarne skupštine, mandat 8, sjednica 12h" speaker_role="Predsjedavajući" speaker_id="ŠpirićNikola" speaker_name="Špirić, Nikola" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SNSD" speaker_party_name="Savez nezavisnih socijaldemokrata" party_status="Opposition" party_orientation="Sinkretična politika" speaker_gender="M" speaker_birth="1956">
+<p id="ParlaMint-BA_2022-06-30-0.u3743.seg0" lang="bosanski">
 <s id="ParlaMint-BA_2022-06-30-0.u3743.seg0.1">
 Dame	Dame	dama	NOUN	Case=Nom Gender=Fem Number=Plur	1	nsubj	pozdravljati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	10
 i	i	i	CCONJ		2	cc	delegat	NOUN	Case=Nom Gender=Masc Number=Plur	4
@@ -302,8 +302,8 @@ izvolite	izvolite	izvoljeti	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin	4	ro
 </p>
 </speech>
 <note type="speaker" content="Bećirović, Denis"/>
-<speech id="ParlaMint-BA_2022-06-30-0.u3744" text_id="ParlaMint-BA_2022-06-30-0" subcorpus="War" body="Unicameralism" term="8" session="" meeting="12h" sitting="2022-06-30" agenda="" date="2022-06-30" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 8, Session 12h" speaker_role="Regular" speaker_id="BećirovićDenis" speaker_name="Bećirović, Denis" speaker_mp="MP" speaker_minister="-" speaker_party="SDP_BiH" speaker_party_name="Socijaldemokratska partija Bosne i Hercegovine" party_status="Opposition" speaker_gender="M" speaker_birth="1975">
-<p id="ParlaMint-BA_2022-06-30-0.u3744.seg0" lang="Bosnian">
+<speech id="ParlaMint-BA_2022-06-30-0.u3744" text_id="ParlaMint-BA_2022-06-30-0" subcorpus="COVID,Rat" lang="bosanski" body="Jednodoman" term="8. mandat" session="-" meeting="Sjednica 12h" sitting="2022-06-30" agenda="-" date="2022-06-30" title="Zapisnici sjednica parlamentarne skupštine, mandat 8, sjednica 12h" speaker_role="Redovni" speaker_id="BećirovićDenis" speaker_name="Bećirović, Denis" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDP_BiH" speaker_party_name="Socijaldemokratska partija Bosne i Hercegovine" party_status="Opposition" party_orientation="Lijevi centar" speaker_gender="M" speaker_birth="1975">
+<p id="ParlaMint-BA_2022-06-30-0.u3744.seg0" lang="bosanski">
 <s id="ParlaMint-BA_2022-06-30-0.u3744.seg0.1">
 Dame	Dame	dama	NOUN	Case=Nom Gender=Fem Number=Plur	1	nsubj	svjedok	NOUN	Case=Nom Gender=Masc Number=Sing	8
 i	i	i	CCONJ		2	cc	javnost	NOUN	Case=Nom Gender=Fem Number=Sing	6
@@ -656,8 +656,8 @@ nepravdu	nepravdu	nepravda	NOUN	Case=Acc Gender=Fem Number=Sing	39	obj	ispraviti
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-BA_2022-06-30-0.u3837" text_id="ParlaMint-BA_2022-06-30-0" subcorpus="War" body="Unicameralism" term="8" session="" meeting="12h" sitting="2022-06-30" agenda="" date="2022-06-30" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 8, Session 12h" speaker_role="Regular" speaker_id="BećirovićDenis" speaker_name="Bećirović, Denis" speaker_mp="MP" speaker_minister="-" speaker_party="SDP_BiH" speaker_party_name="Socijaldemokratska partija Bosne i Hercegovine" party_status="Opposition" speaker_gender="M" speaker_birth="1975">
-<p id="ParlaMint-BA_2022-06-30-0.u3837.seg0" lang="Bosnian">
+<speech id="ParlaMint-BA_2022-06-30-0.u3837" text_id="ParlaMint-BA_2022-06-30-0" subcorpus="COVID,Rat" lang="bosanski" body="Jednodoman" term="8. mandat" session="-" meeting="Sjednica 12h" sitting="2022-06-30" agenda="-" date="2022-06-30" title="Zapisnici sjednica parlamentarne skupštine, mandat 8, sjednica 12h" speaker_role="Redovni" speaker_id="BećirovićDenis" speaker_name="Bećirović, Denis" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDP_BiH" speaker_party_name="Socijaldemokratska partija Bosne i Hercegovine" party_status="Opposition" party_orientation="Lijevi centar" speaker_gender="M" speaker_birth="1975">
+<p id="ParlaMint-BA_2022-06-30-0.u3837.seg0" lang="bosanski">
 <s id="ParlaMint-BA_2022-06-30-0.u3837.seg0.1">
 Ja	Ja	ja	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	željeti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2
 želim	želim	željeti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
@@ -755,8 +755,8 @@ ispraviti	ispraviti	ispraviti	VERB	VerbForm=Inf	18	nsubj	moguć	ADJ	Case=Nom Def
 </p>
 </speech>
 <note type="speaker" content="Špirić, Nikola"/>
-<speech id="ParlaMint-BA_2022-06-30-0.u3838" text_id="ParlaMint-BA_2022-06-30-0" subcorpus="War" body="Unicameralism" term="8" session="" meeting="12h" sitting="2022-06-30" agenda="" date="2022-06-30" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 8, Session 12h" speaker_role="Chairperson" speaker_id="ŠpirićNikola" speaker_name="Špirić, Nikola" speaker_mp="MP" speaker_minister="-" speaker_party="SNSD" speaker_party_name="Savez nezavisnih socijaldemokrata" party_status="Opposition" speaker_gender="M" speaker_birth="1956">
-<p id="ParlaMint-BA_2022-06-30-0.u3838.seg0" lang="Bosnian">
+<speech id="ParlaMint-BA_2022-06-30-0.u3838" text_id="ParlaMint-BA_2022-06-30-0" subcorpus="COVID,Rat" lang="bosanski" body="Jednodoman" term="8. mandat" session="-" meeting="Sjednica 12h" sitting="2022-06-30" agenda="-" date="2022-06-30" title="Zapisnici sjednica parlamentarne skupštine, mandat 8, sjednica 12h" speaker_role="Predsjedavajući" speaker_id="ŠpirićNikola" speaker_name="Špirić, Nikola" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SNSD" speaker_party_name="Savez nezavisnih socijaldemokrata" party_status="Opposition" party_orientation="Sinkretična politika" speaker_gender="M" speaker_birth="1956">
+<p id="ParlaMint-BA_2022-06-30-0.u3838.seg0" lang="bosanski">
 <s id="ParlaMint-BA_2022-06-30-0.u3838.seg0.1">
 Zahvaljujem	Zahvaljujem	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 kolegi	kolegi	kolega	NOUN	Case=Dat Gender=Masc Number=Sing	2	obj	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     ana="#parla.sitting #covid #war"
-     xml:id="ParlaMint-BG_2022-07-29"
-     xml:lang="bg">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #covid #war" xml:id="ParlaMint-BG_2022-07-29" xml:lang="bg">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -38,7 +35,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.0</edition>
+            <edition>4.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="165" unit="speeches" xml:lang="bg">165 изказвания</measure>
@@ -51,13 +48,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1859</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="bg">Този ресурс е лицензиран под лиценз: <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-06-12">2023-06-12</date>
+            <date when="2023-10-08">2023-10-08</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -69,10 +66,8 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
-            <p xml:lang="bg">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="bg"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
@@ -100,30 +95,24 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-06-12">
+         <change when="2023-10-08">
             <name>Tomaž Erjavec</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war" xml:lang="bg">
       <body>
          <div type="debateSection">
-            <u ana="#chair"
-               n="209854"
-               who="#IvanovMiroslav"
-               xml:id="ParlaMint-BG_2022-07-29.u1">
+            <u ana="#chair" n="209854" who="#IvanovMiroslav" xml:id="ParlaMint-BG_2022-07-29.u1">
                <seg xml:id="ParlaMint-BG_2022-07-29.seg1">Уважаеми колеги, добро утро! Виждам, че залата е пълна в потенциалния последен ден на това Народно събрание. Моля за регистрация.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg2">Имаме регистрирани 132 народни представители.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg3">Имаме кворум.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg4">Откривам днешното пленарно заседание.</seg>
-               <kinesic type="ringing">
+               <kinesic type="ringing" xml:id="ParlaMint-BG_2022-07-29.kinesic1">
                   <desc>Звъни.</desc>
                </kinesic>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg5">Госпожо Анастасова – за процедура, заповядайте.</seg>
             </u>
-            <u ana="#regular"
-               n="209855"
-               who="#AtanasovaDesislava"
-               xml:id="ParlaMint-BG_2022-07-29.u2">
+            <u ana="#regular" n="209855" who="#AtanasovaDesislava" xml:id="ParlaMint-BG_2022-07-29.u2">
                <seg xml:id="ParlaMint-BG_2022-07-29.seg6">Благодаря, господин Председател.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg7">Уважаеми колеги, правя процедурно предложение за пренареждане на Програмата от последния ден на дейността на Четиридесет и седмото народно събрание.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg8">Предлагам в днешния пленарен ден първа точка да бъде продължението от вчера на Първо гласуване на законопроекти за изменение и допълнение на Закона за устройство на територията с вносители Костадин Костадинов и група народни представители; Владислав Панев и група народни представители; Снежанка Траянска и група народни представители.</seg>
@@ -135,17 +124,14 @@
                <seg xml:id="ParlaMint-BG_2022-07-29.seg14">Точка седма да бъде Първо гласуване на законопроекти за допълнение на Закона за обществените поръчки, внесен от Ивайло Мирчев и група народни представители; Настимир Ананиев и група народни представители.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg15">Точка осма да бъде законопроекти за изменение и допълнение на Гражданския процесуален кодекс.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg16">Освен това предлагам да се отмени провеждането на парламентарния контрол в днешния пленарен ден и последния един час от работата на Народното събрание да бъде посветен на заключителни обръщения – декларации от името на парламентарни групи, които пряко да се предават по БНТ и БНР. Благодаря.</seg>
-               <kinesic type="applause">
+               <kinesic type="applause" xml:id="ParlaMint-BG_2022-07-29.kinesic2">
                   <desc>Ръкопляскания от ГЕРБ-СДС.</desc>
                </kinesic>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u ana="#regular"
-               n="210017"
-               who="#KostadinovKostadin"
-               xml:id="ParlaMint-BG_2022-07-29.u164">
+            <u ana="#regular" n="210017" who="#KostadinovKostadin" xml:id="ParlaMint-BG_2022-07-29.u164">
                <seg xml:id="ParlaMint-BG_2022-07-29.seg969">Уважаеми сънародници! Безвремие е думата, която описва най-точно изминалите вече почти осем месеца, период от време, през който нямаше стремежи, идеали и нямаше видимо развитие и прогрес. Време на илюзии и лъжи, фарс и политически машинации. Време на привидна борба с корупцията, а всъщност подмяна на структурата на така наречената политическа бухалка, репресивна бухалка, предадена с недоволство от стария ГЕРБ на новия ГЕРБ в лицето на „Продължаваме Промяната“, „Демократична България“, БСП и други.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg970">Стремежът за власт и борбата за комисиони от държавни сделки направиха четворната коалиция обаче много бързо тройна. Отстранен беше председателят на Народното събрание, а после и самото правителство с активна помощ от нас, от ВЪЗРАЖДАНЕ.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg971">Поведохме битка срещу Вас, защото Вие не само се опитахте да унищожите държавата, но и не спирате да се опитвате да го правите на принципа „след нас и потоп“. Жаждата за власт в комбинация с политическо лицемерие изложи на истински риск физическото оцеляване на милиони българи.</seg>
@@ -167,14 +153,11 @@
                <seg xml:id="ParlaMint-BG_2022-07-29.seg987">Сега е вече време да закрием парламента, а някои от Вас утре сутрин могат да отидат да закусят в американското посолство, за да отчетат своите успехи. Поставям успехи в големи кавички, разбира се, защото Вашият успех не е в съответствие с българския национален интерес, следователно не е интерес на България и на българския народ.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg988">Потопихте държавата в кризи, но не успяхте да я унижите напълно. Ние от ВЪЗРАЖДАНЕ Ви спряхме и ще продължаваме да Ви спираме, а когато след следващите избори българите ни дадат доверието си, прекрачим следващото Народно събрание като мнозинство, България за първи път от 30 години ще бъде за българите – без маски, без мерки, без ограничения и само в съответствие с интересите на българските граждани. Тогава отново ще внесем и ще приемем всички 29 законопроекта, които създадохме, за да работят за българските граждани, както и всички 23 проекторешения в грижа за българите и за българския народ. Тогава новият и старият ГЕРБ ще са в миналото, а 30-те години от така наречения преход ще бъдат мрачен абзац в българската история.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg989">За всичко това се преборихме и ще продължаваме да се борим, защото ние имаме само едно – България и българския народ. Ние сме с него и той е зад нас. Да живее България!</seg>
-               <kinesic type="applause">
+               <kinesic type="applause" xml:id="ParlaMint-BG_2022-07-29.kinesic12">
                   <desc>Продължителни ръкопляскания от ВЪЗРАЖДАНЕ.</desc>
                </kinesic>
             </u>
-            <u ana="#chair"
-               n="210018"
-               who="#IvanovMiroslav"
-               xml:id="ParlaMint-BG_2022-07-29.u165">
+            <u ana="#chair" n="210018" who="#IvanovMiroslav" xml:id="ParlaMint-BG_2022-07-29.u165">
                <seg xml:id="ParlaMint-BG_2022-07-29.seg990">Благодаря Ви, господин Костадинов.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg991">Уважаеми колеги, няколко думи и от мен.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg992">Днес вероятно е последното пленарно заседание на Четиридесет и седмото народно събрание, което след броени минути ще стане част от историята на българския парламентаризъм. Изминаха почти осем месеца от първия звънец. Това бяха интензивни и наситени откъм събития осем месеца.</seg>
@@ -185,7 +168,7 @@
                <seg xml:id="ParlaMint-BG_2022-07-29.seg997">И накрая, благодаря на доцент Силви Кирилов, който с благи думи и хубави пожелания постави началото на работата на Четиридесет и седмото народно събрание. Благодаря на господин Никола Минчев за отличната му по мое мнение работа като председател на Народното събрание. Благодаря на председателите на парламентарните групи и на заместник-председателите на Народното събрание. Благодаря на всички народни представители и на цялата администрация на Народното събрание за това, че Четиридесет и седмото народно събрание все пак даде своите ползотворни резултати.</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg998">Желая на всички вас успех в бъдещите начинания и на добър час!</seg>
                <seg xml:id="ParlaMint-BG_2022-07-29.seg999">Закривам заседанието.</seg>
-               <kinesic type="ringing">
+               <kinesic type="ringing" xml:id="ParlaMint-BG_2022-07-29.kinesic13">
                   <desc>Звъни.</desc>
                </kinesic>
             </u>
@@ -193,3 +176,4 @@
       </body>
    </text>
 </TEI>
+

@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country PL (Poland)
+# Samples of the ParlaMint-PL corpus
 
+- Country: PL (Poland)
 - Language pl (Polish)
 
 ## Documentation

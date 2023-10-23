@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country TR (Turkey)
+# Samples of the ParlaMint-TR corpus
 
+- Country: TR (Turkey)
 - Language tr (Turkish)
 
 

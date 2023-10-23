@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country CZ (Czech Republic)
+# Samples of the ParlaMint-CZ corpus
 
+- Country: CZ (Czech Republic)
 - Language: cs (Czech)
 
 ## Documentation

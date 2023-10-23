@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country FR (France)
+# Samples of the ParlaMint-FR corpus
 
+- Country: FR (France)
 - Language fr (French)
 
 ## Documentation

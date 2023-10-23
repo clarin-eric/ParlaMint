@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:lang="es"
-     xml:id="ParlaMint-ES_2023-02-23-CD230223"
-     ana="#parla.sitting #covid #war">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" xml:id="ParlaMint-ES_2023-02-23-CD230223" ana="#parla.sitting #covid #war">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,13 +46,13 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.0a</edition>
+            <edition>4.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="74" xml:lang="es">74 intervenciones</measure>
             <measure unit="speeches" quantity="74" xml:lang="en">74 speeches</measure>
-            <measure unit="words" quantity="16765" xml:lang="es">16765 palabras</measure>
-            <measure unit="words" quantity="16765" xml:lang="en">16765 words</measure>
+            <measure unit="words" quantity="16765" xml:lang="es">16,765 palabras</measure>
+            <measure unit="words" quantity="16765" xml:lang="en">16,765 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -63,29 +60,27 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1859</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-08-25">2023-08-25</date>
+            <date when="2023-10-19">2023-10-19</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title xml:lang="es" type="main">CORTES GENERALES DIARIO DE SESIONES DEL CONGRESO DE LOS DIPUTADOS PLENO Y DIPUTACIÓN PERMANENTE</title>
-               <idno type="URI">http://www.congreso.es</idno>
+               <idno type="URI" subtype="parliament">http://www.congreso.es</idno>
                <date when="2023-02-23">2023-02-23</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="es">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="es"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
@@ -115,20 +110,20 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-08-25">
-            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2023-10-19">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war">
       <body>
          <div type="debateSection">
-            <head>PALABRAS DE LA PRESIDENCIA</head>
+            <head xml:id="ParlaMint-ES_2023-02-23-CD230223.head1">PALABRAS DE LA PRESIDENCIA</head>
             <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u1" ana="#chair">
                <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p1">Muy buenos días, señorías. Se reanuda la sesión.</seg>
                <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2">Antes de iniciar la sesión, me gustaría pronunciar unas breves palabras: Mañana, 24 de febrero, se cumple un año del comienzo de la guerra en Ucrania, desencadenada por una agresión ilegal y brutal a un país soberano. La guerra, durante este año, ha supuesto un desafío a nuestros valores compartidos como demócratas y como europeos. Rusia no solo ha violado el derecho internacional al invadir el territorio de otro país, lo ha hecho también atacando de forma indiscriminada a la población civil y cometiendo crímenes de guerra en territorio ucraniano. Pese a todo ello, un año después, Ucrania sigue en pie, luchando por su dignidad y su libertad.</seg>
                <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3">En defensa de estos valores y en solidaridad con todas las víctimas de la guerra, especialmente de los niños y las niñas, en nombre del Congreso de los Diputados, representante del pueblo español, quiero reiterar que estamos con el puebloucraniano, compartiendo su dolor y su sufrimiento y confiando en que, lo antes posible, se abra paso una paz justa y podamos dejar atrás la barbarie que estamos viviendo en el corazón de Europa.</seg>
                <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p4">Muchísimas gracias.</seg>
-               <kinesic type="applause">
+               <kinesic type="applause" xml:id="ParlaMint-ES_2023-02-23-CD230223.kinesic1">
                   <desc>Aplausos</desc>
                </kinesic>
             </u>
@@ -137,7 +132,7 @@
             </gap>
          </div>
          <div type="debateSection">
-            <head>TRAMITACIÓN DIRECTA Y EN LECTURA ÚNICA DE INICIATIVAS LEGISLATIVAS - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 28/1990, DE 26 DE DICIEMBRE, POR LA QUE SE APRUEBA EL CONVENIO ECONÓMICO ENTRE EL ESTADO Y LA COMUNIDAD FORAL DE NAVARRA. . - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 12/2002, DE 23 DE MAYO, POR LA QUE SE APRUEBA EL CONCIERTO ECONÓMICO CON LA COMUNIDAD AUTÓNOMA DEL PAÍS VASCO. . - PROYECTO DE LEY POR LA QUE SE APRUEBA LA METODOLOGÍA DE SEÑALAMIENTO DEL CUPO DEL PAÍS VASCO PARA EL QUINQUENIO 2022-2026. .</head>
+            <head xml:id="ParlaMint-ES_2023-02-23-CD230223.head2">TRAMITACIÓN DIRECTA Y EN LECTURA ÚNICA DE INICIATIVAS LEGISLATIVAS - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 28/1990, DE 26 DE DICIEMBRE, POR LA QUE SE APRUEBA EL CONVENIO ECONÓMICO ENTRE EL ESTADO Y LA COMUNIDAD FORAL DE NAVARRA. . - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 12/2002, DE 23 DE MAYO, POR LA QUE SE APRUEBA EL CONCIERTO ECONÓMICO CON LA COMUNIDAD AUTÓNOMA DEL PAÍS VASCO. . - PROYECTO DE LEY POR LA QUE SE APRUEBA LA METODOLOGÍA DE SEÑALAMIENTO DEL CUPO DEL PAÍS VASCO PARA EL QUINQUENIO 2022-2026. .</head>
             <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u2" ana="#chair">
                <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1">Comenzamos con los puntos del orden del día relativos a la tramitación directa y en lectura única de los proyectos de ley por la que se modifica la Ley 28/1990, de 26 de diciembre, por la que se aprueba el Convenio Económico entre el Estado y la Comunidad Foral de Navarra; por la que se modifica la Ley 12/2002, de 23 de mayo, por la que se aprueba el Concierto Económico con la Comunidad Autónoma del País Vasco, y por la que se aprueba la metodología de señalamiento del Cupo del País Vasco para el quinquenio 20222026.</seg>
                <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2">De conformidad con lo acordado por la Junta de Portavoces, estos puntos se debatirán acumuladamente. Les recuerdo que, finalizado este debate, se votarán las enmiendas a la totalidad correspondientes a estas iniciativas. Tiene la palabra,en primer lugar, en nombre del Gobierno, la señora ministra de Hacienda y Función Pública.</seg>
@@ -150,7 +145,7 @@
             <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u73" ana="#chair">
                <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1">Avocación de iniciativas legislativas. Votación de la solicitud de avocación por el Pleno de la Cámara de la deliberación y votación final del Proyecto de Ley de Movilidad Sostenible, presentada por el Grupo Parlamentario Plural, señor Errejón Galván.</seg>
                <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p2">Comienza la votación.</seg>
-               <incident type="pause">
+               <incident type="pause" xml:id="ParlaMint-ES_2023-02-23-CD230223.incident20">
                   <desc>Pausa</desc>
                </incident>
                <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3">Efectuada la votación, dio el siguiente resultado: votos emitidos, 339; a favor, 339.</seg>
@@ -165,3 +160,4 @@
       </body>
    </text>
 </TEI>
+

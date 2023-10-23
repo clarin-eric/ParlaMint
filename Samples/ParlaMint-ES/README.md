@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country ES (Spain)
+# Samples of the ParlaMint-ES corpus
 
+- Country: ES (Spain)
 - Language es (Spanish)
 
 ## Documentation

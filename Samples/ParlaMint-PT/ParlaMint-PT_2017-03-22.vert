@@ -1,4 +1,4 @@
-<speech id="ParlaMint-PT_2017-03-22.u1" text_id="ParlaMint-PT_2017-03-22" subcorpus="Reference" body="Unicameralism" term="I/XIII" session="2" meeting="66" sitting="2017-03-22" agenda="" date="2017-03-22" title="Minutes of the Assembly of the Portuguese Republic, Session 2, Number 66" speaker_role="Chairperson" speaker_id="EduardoLuísBarretoFerroRodrigues" speaker_name="Luís Barreto Ferro Rodrigues, Eduardo" speaker_mp="MP" speaker_minister="-" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" speaker_gender="M" speaker_birth="1949">
+<speech id="ParlaMint-PT_2017-03-22.u1" text_id="ParlaMint-PT_2017-03-22" subcorpus="Referência" lang="Portuguese" body="Unicameralismo" term="Série I - XIII Legislatura" session="Sessão 2" meeting="Número 66" sitting="22.03.2017" agenda="-" date="2017-03-22" title="" speaker_role="Presidente de mesa" speaker_id="EduardoLuísBarretoFerroRodrigues" speaker_name="Luís Barreto Ferro Rodrigues, Eduardo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centro-Esquerda" speaker_gender="M" speaker_birth="1949">
 <p id="ParlaMint-PT_2017-03-22.seg1" lang="Portuguese">
 <s id="ParlaMint-PT_2017-03-22.seg1.s">
 Sr.as	Sr.as	Sr.as	PROPN		1	root	-	-	-	-
@@ -111,7 +111,7 @@ Secretário	Secretário	Secretário	PROPN		5	orphan	sr.	PRON	Gender=Masc Number=
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PT_2017-03-22.u2" text_id="ParlaMint-PT_2017-03-22" subcorpus="Reference" body="Unicameralism" term="I/XIII" session="2" meeting="66" sitting="2017-03-22" agenda="" date="2017-03-22" title="Minutes of the Assembly of the Portuguese Republic, Session 2, Number 66" speaker_role="Regular" speaker_id="DuarteRogérioMatosVenturaPacheco" speaker_name="Rogério Matos Ventura Pacheco, Duarte" speaker_mp="MP" speaker_minister="-" speaker_party="GP-PSD" speaker_party_name="Grupo Parlamentar do Partido Social Democrata" party_status="Opposition" speaker_gender="M" speaker_birth="1965">
+<speech id="ParlaMint-PT_2017-03-22.u2" text_id="ParlaMint-PT_2017-03-22" subcorpus="Referência" lang="Portuguese" body="Unicameralismo" term="Série I - XIII Legislatura" session="Sessão 2" meeting="Número 66" sitting="22.03.2017" agenda="-" date="2017-03-22" title="" speaker_role="Regular" speaker_id="DuarteRogérioMatosVenturaPacheco" speaker_name="Rogério Matos Ventura Pacheco, Duarte" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PSD" speaker_party_name="Grupo Parlamentar do Partido Social Democrata" party_status="Opposition" party_orientation="Centro-direita" speaker_gender="M" speaker_birth="1965">
 <p id="ParlaMint-PT_2017-03-22.seg5" lang="Portuguese">
 <s id="ParlaMint-PT_2017-03-22.seg5.s">
 <name type="PER">
@@ -1405,7 +1405,7 @@ Oliveira	Oliveira	Oliveira	PROPN		32	orphan	Laborda	PROPN		31
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-PT_2017-03-22.u161" text_id="ParlaMint-PT_2017-03-22" subcorpus="Reference" body="Unicameralism" term="I/XIII" session="2" meeting="66" sitting="2017-03-22" agenda="" date="2017-03-22" title="Minutes of the Assembly of the Portuguese Republic, Session 2, Number 66" speaker_role="Regular" speaker_id="AntónioLuísSantosdaCosta" speaker_name="Luís Santos Costa, António" speaker_mp="notMP" speaker_minister="-" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" speaker_gender="M" speaker_birth="1961">
+<speech id="ParlaMint-PT_2017-03-22.u161" text_id="ParlaMint-PT_2017-03-22" subcorpus="Referência" lang="Portuguese" body="Unicameralismo" term="Série I - XIII Legislatura" session="Sessão 2" meeting="Número 66" sitting="22.03.2017" agenda="-" date="2017-03-22" title="" speaker_role="Regular" speaker_id="AntónioLuísSantosdaCosta" speaker_name="Luís Santos da Costa, António" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centro-Esquerda" speaker_gender="M" speaker_birth="1961">
 <p id="ParlaMint-PT_2017-03-22.seg375" lang="Portuguese">
 <s id="ParlaMint-PT_2017-03-22.seg375.s">
 E	E	e	CCONJ		1	root	-	-	-	-
@@ -1501,7 +1501,7 @@ Presidente	Presidente	Presidente	PROPN		8	orphan	sr.	PRON	Gender=Masc Number=Sin
 </p>
 <note type="kinesic:applause" content="Aplausos do PS."/>
 </speech>
-<speech id="ParlaMint-PT_2017-03-22.u162" text_id="ParlaMint-PT_2017-03-22" subcorpus="Reference" body="Unicameralism" term="I/XIII" session="2" meeting="66" sitting="2017-03-22" agenda="" date="2017-03-22" title="Minutes of the Assembly of the Portuguese Republic, Session 2, Number 66" speaker_role="Chairperson" speaker_id="EduardoLuísBarretoFerroRodrigues" speaker_name="Luís Barreto Ferro Rodrigues, Eduardo" speaker_mp="MP" speaker_minister="-" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" speaker_gender="M" speaker_birth="1949">
+<speech id="ParlaMint-PT_2017-03-22.u162" text_id="ParlaMint-PT_2017-03-22" subcorpus="Referência" lang="Portuguese" body="Unicameralismo" term="Série I - XIII Legislatura" session="Sessão 2" meeting="Número 66" sitting="22.03.2017" agenda="-" date="2017-03-22" title="" speaker_role="Presidente de mesa" speaker_id="EduardoLuísBarretoFerroRodrigues" speaker_name="Luís Barreto Ferro Rodrigues, Eduardo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centro-Esquerda" speaker_gender="M" speaker_birth="1949">
 <p id="ParlaMint-PT_2017-03-22.seg377" lang="Portuguese">
 <s id="ParlaMint-PT_2017-03-22.seg377.s">
 <name type="PER">
@@ -2181,3 +2181,5 @@ sessão	sessão	sessão	NOUN	Gender=Fem Number=Sing	4	root	-	-	-	-
 </p>
 <note type="time" content="Eram 17 horas e 1 minuto."/>
 </speech>
+<note type="debate" content="Presenças e faltas dos Deputados à reunião plenária."/>
+<note type="debate" content="A DIVISÃO DE REDAÇÃO E APOIO AUDIOVISUAL."/>

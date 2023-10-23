@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:lang="gl"
-     xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030"
-     ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gl" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030" ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -34,7 +31,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.0</edition>
+            <edition>4.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="376"/>
@@ -44,12 +41,12 @@
             <publisher>
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1859</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2023-09-15">2023-09-15</date>
+            <date when="2023-10-04">2023-10-04</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -62,8 +59,7 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
@@ -91,9 +87,7 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-09-15">
-            <name>GitHub Action</name>: Made sample.</change>
-         <change when="2023-06-10">
+         <change when="2023-10-04">
             <name>Tomaž Erjavec</name>: Made sample.</change>
          <change when="2023-03-24">
             <name>Resp</name> : Made XML-TEI.</change>
@@ -103,46 +97,39 @@
       <body>
          <div type="debateSection">
             <pb source="https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D100030.pdf"/>
-            <note type="time">Retómase a sesión ás dez e dous minutos da mañá.</note>
-            <note type="speaker">O señor PRESIDENTE:</note>
-            <u who="#SantalicesMiguelÁngel"
-               ana="#chair"
-               xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.u1">
+            <note type="time" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.note1">Retómase a sesión ás dez e dous minutos da mañá.</note>
+            <note type="speaker" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.note2">O señor PRESIDENTE:</note>
+            <u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.u1">
                <seg xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1">Bos días, imos dar comezo á sesión.</seg>
                <seg xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg2">Reiniciamos a sesión co punto 6 da orde do día, que se corresponde co de preguntas para resposta oral do presidente da Xunta.</seg>
                <seg xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg3">Pregunta ao Sr. presidente da Xunta de Galicia de Dª Ana Belén Pontón Mondelo, do G. P. do Bloque Nacionalista Galego, sobre as actuacións previstas polo Goberno galego para evitar a venda por Ferroatlántica das centrais hidroeléctricas do río Xallas</seg>
             </u>
-            <note type="speaker">O señor PRESIDENTE:</note>
-            <u who="#SantalicesMiguelÁngel"
-               ana="#chair"
-               xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.u2">
+            <note type="speaker" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.note3">O señor PRESIDENTE:</note>
+            <u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.u2">
                <seg xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg4">Ten a palabra a señora Pontón.</seg>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#RivasJoséLuis"
-               ana="#regular"
-               xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.u375">
+            <u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.u375">
                <seg xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1156">Foron varios.</seg>
             </u>
-            <note type="speaker">O señor PRESIDENTE:</note>
-            <u who="#SantalicesMiguelÁngel"
-               ana="#chair"
-               xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.u376">
-               <seg xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157">Non, un. <vocal type="murmuring">
+            <note type="speaker" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.note397">O señor PRESIDENTE:</note>
+            <u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.u376">
+               <seg xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157">Non, un. <vocal type="murmuring" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.vocal192">
                      <desc>Murmurios.</desc>
-                  </vocal> Non, non, perdón. Non van... Mire... voulle dicir unha cousa, imos terminar isto en paz, voulle dicir o que pasou, porque eu estiven no debate. Exactamente foi que o Grupo Parlamentario Popular estaba disposto a votar a súa proposición non de lei, porque foi un debate acumulado, sempre que non se incluíra a emenda de En Marea. Isto é o que sucedeu. Como se incluíu a emenda de En Marea, non se puido votar a proposta que ía votar o Grupo Parlamentario Popular. <vocal type="murmuring">
+                  </vocal> Non, non, perdón. Non van... Mire... voulle dicir unha cousa, imos terminar isto en paz, voulle dicir o que pasou, porque eu estiven no debate. Exactamente foi que o Grupo Parlamentario Popular estaba disposto a votar a súa proposición non de lei, porque foi un debate acumulado, sempre que non se incluíra a emenda de En Marea. Isto é o que sucedeu. Como se incluíu a emenda de En Marea, non se puido votar a proposta que ía votar o Grupo Parlamentario Popular. <vocal type="murmuring" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.vocal193">
                      <desc>Murmurios.</desc>
-                  </vocal> Non houbo inexactitude, eu estiven atento ao debate. <vocal type="murmuring">
+                  </vocal> Non houbo inexactitude, eu estiven atento ao debate. <vocal type="murmuring" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.vocal194">
                      <desc>Murmurios.</desc>
                   </vocal> É así.</seg>
                <seg xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1158">Suspendemos... Non houbo... De verdade llo digo, non houbo...</seg>
                <seg xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1159">Suspendemos o pleno.</seg>
                <seg xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1160">Ata mañá.</seg>
             </u>
-            <note type="time">Remata a sesión ás cinco e cincuenta e sete minutos da tarde.</note>
+            <note type="time" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.note398">Remata a sesión ás cinco e cincuenta e sete minutos da tarde.</note>
          </div>
       </body>
    </text>
 </TEI>
+

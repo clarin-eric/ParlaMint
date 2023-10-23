@@ -1,6 +1,6 @@
 <note type="speaker" content="Jüri Ratas"/>
-<speech id="ParlaMint-EE_2022-06-17_U1" text_id="ParlaMint-EE_2022-06-17" subcorpus="War" body="Unicameralism" term="" session="exs" meeting="" sitting="2022-06-17" agenda="" date="2022-06-17" title="XIV Parliament term, Extraordinary session of the Parliament term Friday, 17.06.2022, 09:00" speaker_role="Chairperson" speaker_id="j_ratas_19780702" speaker_name="Ratas, Jüri" speaker_mp="MP" speaker_minister="-" speaker_party="KE" speaker_party_name="Keskerakond" party_status="Coalition" speaker_gender="M" speaker_birth="1978">
-<p id="ParlaMint-EE_2022-06-17_U1-P1" lang="Estonian">
+<speech id="ParlaMint-EE_2022-06-17_U1" text_id="ParlaMint-EE_2022-06-17" subcorpus="COVID,War" lang="eesti" body="Ühekojaline parlament" term="XIV Riigikogu" session="extraordinary session" meeting="-" sitting="2022-06-17" agenda="-" date="2022-06-17" title="XIV Riigikogu, Riigikogu erakorraline istungjärk Reede, 17.06.2022, 09:00" speaker_role="Juhataja" speaker_id="j_ratas_19780702" speaker_name="Ratas, Jüri" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KE" speaker_party_name="Keskerakond" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1978">
+<p id="ParlaMint-EE_2022-06-17_U1-P1" lang="eesti">
 <s id="ParlaMint-EE_2022-06-17_U1-P1.1">
 Head	Head	hea	ADJ	Case=Nom Degree=Pos Number=Plur	1	amod	ameti_kaaslane	NOUN	Case=Nom Number=Plur	2
 ametikaaslased	ametikaaslased	ameti_kaaslane	NOUN	Case=Nom Number=Plur	2	root	-	-	-	-
@@ -89,7 +89,7 @@ päevakorraga	päevakorraga	päeva_kord	NOUN	Case=Com Number=Sing	39	conj	aeg	NO
 .	.	.	PUNCT		40	punct	istung_järk	NOUN	Case=Nom Number=Sing	5
 </s>
 </p>
-<p id="ParlaMint-EE_2022-06-17_U1-P2" lang="Estonian">
+<p id="ParlaMint-EE_2022-06-17_U1-P2" lang="eesti">
 <s id="ParlaMint-EE_2022-06-17_U1-P2.1">
 Erakorralise	Erakorralise	era_korraline	ADJ	Case=Gen Degree=Pos Number=Sing	1	amod	istung_järk	NOUN	Case=Gen Number=Sing	2
 istungjärgu	istungjärgu	istung_järk	NOUN	Case=Gen Number=Sing	2	nmod	töö	NOUN	Case=Gen Number=Sing	3
@@ -267,7 +267,7 @@ istungitesse	istungitesse	istung	NOUN	Case=Ill Number=Plur	17	parataxis	komisjon
 .	.	.	PUNCT		19	punct	minema	VERB	Connegative=Yes Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	5
 </s>
 </p>
-<p id="ParlaMint-EE_2022-06-17_U1-P3" lang="Estonian">
+<p id="ParlaMint-EE_2022-06-17_U1-P3" lang="eesti">
 <s id="ParlaMint-EE_2022-06-17_U1-P3.1">
 Nüüd	Nüüd	nüüd	ADV		1	advmod	paluma	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
 ma	ma	mina	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	2	nsubj	paluma	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
@@ -307,8 +307,8 @@ Aas	Aas	Aas	PROPN	Case=Nom Number=Sing	4	flat	Taavi	PROPN	Case=Nom Number=Sing	3
 </p>
 </speech>
 <note type="speaker" content="Taavi Aas"/>
-<speech id="ParlaMint-EE_2022-06-17_U2" text_id="ParlaMint-EE_2022-06-17" subcorpus="War" body="Unicameralism" term="" session="exs" meeting="" sitting="2022-06-17" agenda="" date="2022-06-17" title="XIV Parliament term, Extraordinary session of the Parliament term Friday, 17.06.2022, 09:00" speaker_role="Regular" speaker_id="t_aas_19660110" speaker_name="Aas, Taavi" speaker_mp="MP" speaker_minister="-" speaker_party="KE" speaker_party_name="Keskerakond" party_status="Coalition" speaker_gender="M" speaker_birth="1966">
-<p id="ParlaMint-EE_2022-06-17_U2-P1" lang="Estonian">
+<speech id="ParlaMint-EE_2022-06-17_U2" text_id="ParlaMint-EE_2022-06-17" subcorpus="COVID,War" lang="eesti" body="Ühekojaline parlament" term="XIV Riigikogu" session="extraordinary session" meeting="-" sitting="2022-06-17" agenda="-" date="2022-06-17" title="XIV Riigikogu, Riigikogu erakorraline istungjärk Reede, 17.06.2022, 09:00" speaker_role="Saadik" speaker_id="t_aas_19660110" speaker_name="Aas, Taavi" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KE" speaker_party_name="Keskerakond" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1966">
+<p id="ParlaMint-EE_2022-06-17_U2-P1" lang="eesti">
 <s id="ParlaMint-EE_2022-06-17_U2-P1.1">
 Austatud	Austatud	austa=tud	ADJ	Degree=Pos Tense=Past VerbForm=Part Voice=Pass	1	acl	esi_mees	NOUN	Case=Nom Number=Sing	3
 <name type="ORG">
@@ -428,7 +428,7 @@ kütteperioodiks	kütteperioodiks	kütte_periood	NOUN	Case=Tra Number=Sing	11	xc
 .	.	.	PUNCT		12	punct	mina	PRON	Case=Ade Number=Plur Person=1 PronType=Prs	3
 </s>
 </p>
-<p id="ParlaMint-EE_2022-06-17_U2-P2" lang="Estonian">
+<p id="ParlaMint-EE_2022-06-17_U2-P2" lang="eesti">
 <s id="ParlaMint-EE_2022-06-17_U2-P2.1">
 Nimelt	Nimelt	nimelt	ADV		1	advmod	ette_panek	NOUN	Case=Nom Number=Sing	4
 on	on	olema	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	cop	ette_panek	NOUN	Case=Nom Number=Sing	4
@@ -530,8 +530,8 @@ toetavad	toetavad	toetama	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-EE_2022-06-17_U13" text_id="ParlaMint-EE_2022-06-17" subcorpus="War" body="Unicameralism" term="" session="exs" meeting="" sitting="2022-06-17" agenda="" date="2022-06-17" title="XIV Parliament term, Extraordinary session of the Parliament term Friday, 17.06.2022, 09:00" speaker_role="Chairperson" speaker_id="j_ratas_19780702" speaker_name="Ratas, Jüri" speaker_mp="MP" speaker_minister="-" speaker_party="KE" speaker_party_name="Keskerakond" party_status="Coalition" speaker_gender="M" speaker_birth="1978">
-<p id="ParlaMint-EE_2022-06-17_U13-P1" lang="Estonian">
+<speech id="ParlaMint-EE_2022-06-17_U13" text_id="ParlaMint-EE_2022-06-17" subcorpus="COVID,War" lang="eesti" body="Ühekojaline parlament" term="XIV Riigikogu" session="extraordinary session" meeting="-" sitting="2022-06-17" agenda="-" date="2022-06-17" title="XIV Riigikogu, Riigikogu erakorraline istungjärk Reede, 17.06.2022, 09:00" speaker_role="Juhataja" speaker_id="j_ratas_19780702" speaker_name="Ratas, Jüri" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KE" speaker_party_name="Keskerakond" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1978">
+<p id="ParlaMint-EE_2022-06-17_U13-P1" lang="eesti">
 <s id="ParlaMint-EE_2022-06-17_U13-P1.1">
 Aitäh	Aitäh	aitäh	INTJ		1	root	-	-	-	-
 <g/>
@@ -580,7 +580,7 @@ seda	seda	see	PRON	Case=Par Number=Sing PronType=Dem	24	obj	oskama	VERB	Connegat
 .	.	.	PUNCT		25	punct	puuduma	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	17
 </s>
 </p>
-<p id="ParlaMint-EE_2022-06-17_U13-P2" lang="Estonian">
+<p id="ParlaMint-EE_2022-06-17_U13-P2" lang="eesti">
 <s id="ParlaMint-EE_2022-06-17_U13-P2.1">
 Nii	Nii	nii	ADV		1	root	-	-	-	-
 <g/>
@@ -749,8 +749,8 @@ kontroll	kontroll	kontroll	NOUN	Case=Nom Number=Sing	2	root	-	-	-	-
 </p>
 </speech>
 <note type="speaker" content="Jüri Ratas"/>
-<speech id="ParlaMint-EE_2022-06-17_U14" text_id="ParlaMint-EE_2022-06-17" subcorpus="War" body="Unicameralism" term="" session="exs" meeting="" sitting="2022-06-17" agenda="" date="2022-06-17" title="XIV Parliament term, Extraordinary session of the Parliament term Friday, 17.06.2022, 09:00" speaker_role="Chairperson" speaker_id="j_ratas_19780702" speaker_name="Ratas, Jüri" speaker_mp="MP" speaker_minister="-" speaker_party="KE" speaker_party_name="Keskerakond" party_status="Coalition" speaker_gender="M" speaker_birth="1978">
-<p id="ParlaMint-EE_2022-06-17_U14-P1" lang="Estonian">
+<speech id="ParlaMint-EE_2022-06-17_U14" text_id="ParlaMint-EE_2022-06-17" subcorpus="COVID,War" lang="eesti" body="Ühekojaline parlament" term="XIV Riigikogu" session="extraordinary session" meeting="-" sitting="2022-06-17" agenda="-" date="2022-06-17" title="XIV Riigikogu, Riigikogu erakorraline istungjärk Reede, 17.06.2022, 09:00" speaker_role="Juhataja" speaker_id="j_ratas_19780702" speaker_name="Ratas, Jüri" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KE" speaker_party_name="Keskerakond" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1978">
+<p id="ParlaMint-EE_2022-06-17_U14-P1" lang="eesti">
 <s id="ParlaMint-EE_2022-06-17_U14-P1.1">
 Kohale	Kohale	kohale	ADV		1	advmod	registreeruma	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	2
 registreerus	registreerus	registreeruma	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	2	root	-	-	-	-

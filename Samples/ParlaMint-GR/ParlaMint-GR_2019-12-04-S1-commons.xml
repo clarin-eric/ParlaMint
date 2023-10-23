@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="ParlaMint-GR_2019-12-04-S1-commons"
-     xml:lang="el"
-     ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-GR_2019-12-04-S1-commons" xml:lang="el" ana="#parla.sitting #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -32,7 +29,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.0</edition>
+            <edition>4.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure xml:lang="el" unit="speeches" quantity="52">52 ομιλίες</measure>
@@ -46,13 +43,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1859</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
                <p>Το παρόν έργο διέπεται από την άδεια <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
             </availability>
-            <date when="2023-09-09">2023-09-09</date>
+            <date when="2023-10-07">2023-10-07</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -65,10 +62,8 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
-            <p xml:lang="el">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="el"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
@@ -97,33 +92,27 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-09-09">
-            <name>GitHub Action</name>: Made sample.</change>
-         <change when="2023-09-09">
-            <name>GitHub Action</name>: Made sample.</change>
-         <change when="2023-06-14">
+         <change when="2023-10-07">
             <name>Tomaž Erjavec</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
-            <head>ΠΡΑΚΤΙΚΑ ΒΟΥΛΗΣ</head>
-            <head type="term">ΙΗ ΠΕΡΙΟΔΟΣ</head>
-            <head>ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ</head>
-            <head type="session">ΣΥΝΟΔΟΣ Α'</head>
-            <head type="sitting">ΣΥΝΕΔΡΙΑΣΗ ΞΑ'</head>
-            <head type="date">Τετάρτη 4 Δεκεμβρίου 2019</head>
-            <gap reason="editorial">
+            <head xml:id="ParlaMint-GR_2019-12-04-S1-commons.head1">ΠΡΑΚΤΙΚΑ ΒΟΥΛΗΣ</head>
+            <head type="term" xml:id="ParlaMint-GR_2019-12-04-S1-commons.head2">ΙΗ ΠΕΡΙΟΔΟΣ</head>
+            <head xml:id="ParlaMint-GR_2019-12-04-S1-commons.head3">ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ</head>
+            <head type="session" xml:id="ParlaMint-GR_2019-12-04-S1-commons.head4">ΣΥΝΟΔΟΣ Α'</head>
+            <head type="sitting" xml:id="ParlaMint-GR_2019-12-04-S1-commons.head5">ΣΥΝΕΔΡΙΑΣΗ ΞΑ'</head>
+            <head type="date" xml:id="ParlaMint-GR_2019-12-04-S1-commons.head6">Τετάρτη 4 Δεκεμβρίου 2019</head>
+            <gap reason="editorial" xml:id="ParlaMint-GR_2019-12-04-S1-commons.gap1">
                <desc xml:lang="en">The frontmatter of the document has been removed</desc>
             </gap>
-            <note>Αθήνα, σήμερα στις 4 Δεκεμβρίου 2019, ημέρα Τετάρτη και ώρα 9.08΄, συνήλθε στην Αίθουσα των συνεδριάσεων του Βουλευτηρίου η Βουλή σε ολομέλεια για να συνεδριάσει υπό την προεδρία του Β΄ Αντιπροέδρου αυτής κ. ΧΑΡΑΛΑΜΠΟΥ ΑΘΑΝΑΣΙΟΥ.</note>
-            <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΧΑΡΑΛΑΜΠΟΣ ΑΘΑΝΑΣΙΟΥ):</note>
-            <u xml:id="ParlaMint-GR_2019-12-04-S1-commons.u1"
-               ana="#chair"
-               who="#ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ">
+            <note xml:id="ParlaMint-GR_2019-12-04-S1-commons.note1">Αθήνα, σήμερα στις 4 Δεκεμβρίου 2019, ημέρα Τετάρτη και ώρα 9.08΄, συνήλθε στην Αίθουσα των συνεδριάσεων του Βουλευτηρίου η Βουλή σε ολομέλεια για να συνεδριάσει υπό την προεδρία του Β΄ Αντιπροέδρου αυτής κ. ΧΑΡΑΛΑΜΠΟΥ ΑΘΑΝΑΣΙΟΥ.</note>
+            <note type="speaker" xml:id="ParlaMint-GR_2019-12-04-S1-commons.note2">ΠΡΟΕΔΡΕΥΩΝ (ΧΑΡΑΛΑΜΠΟΣ ΑΘΑΝΑΣΙΟΥ):</note>
+            <u xml:id="ParlaMint-GR_2019-12-04-S1-commons.u1" ana="#chair" who="#ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ">
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg1">Κυρίες και κύριοι συνάδελφοι, αρχίζει η συνεδρίαση.</seg>
-               <note>Σημείωση: Ο παρακάτω πίνακας περιεχομένων δεν αποτελεί το τελικό κείμενο, διότι εκκρεμούν ορθογραφικές και συντακτικές διορθώσεις</note>
+               <note xml:id="ParlaMint-GR_2019-12-04-S1-commons.note3">Σημείωση: Ο παρακάτω πίνακας περιεχομένων δεν αποτελεί το τελικό κείμενο, διότι εκκρεμούν ορθογραφικές και συντακτικές διορθώσεις</note>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg2">Κατ' αρχάς επιτρέψτε μου να ανακοινώσω το δελτίο των επικαίρων ερωτήσεων της Πέμπτης 5 Δεκεμβρίου 2019.</seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg3">Α. ΕΠΙΚΑΙΡΕΣ ΕΡΩΤΗΣΕΙΣ Πρώτου Κύκλου (Άρθρα 130 παράγραφοι 2 και 3 και 132 παράγραφος 2 του Κανονισμού της Βουλής)</seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg4">1. Η με αριθμό 276/2-12-2019 επίκαιρη ερώτηση της Βουλευτού Καρδίτσας της Νέας Δημοκρατίας κ. Ασημίνας Σκόνδρα προς τον Υπουργό Εργασίας και Κοινωνικών Υποθέσεων, με θέμα: «Σοβαρή δυσλειτουργία λόγω υποστελέχωσης των υπηρεσιών του ΕΦΚΑ αγροτών Θεσσαλίας».</seg>
@@ -141,13 +130,11 @@
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg16">Το νομοσχέδιο ψηφίστηκε στη Διαρκή Επιτροπή κατά πλειοψηφία. Εισάγεται προς συζήτηση στη Βουλή με τη διαδικασία του άρθρου 108 του Κανονισμού της Βουλής, δηλαδή μπορούν να λάβουν τον λόγο όσοι έχουν αντίρρηση επί της κυρώσεως αυτής της συμφωνίας.</seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg17">Συμφωνεί το Σώμα;</seg>
             </u>
-            <vocal type="shouting">
+            <vocal type="shouting" xml:id="ParlaMint-GR_2019-12-04-S1-commons.vocal1">
                <desc>Μάλιστα, μάλιστα.</desc>
             </vocal>
-            <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΧΑΡΑΛΑΜΠΟΣ ΑΘΑΝΑΣΙΟΥ):</note>
-            <u xml:id="ParlaMint-GR_2019-12-04-S1-commons.u2"
-               ana="#chair"
-               who="#ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ">
+            <note type="speaker" xml:id="ParlaMint-GR_2019-12-04-S1-commons.note4">ΠΡΟΕΔΡΕΥΩΝ (ΧΑΡΑΛΑΜΠΟΣ ΑΘΑΝΑΣΙΟΥ):</note>
+            <u xml:id="ParlaMint-GR_2019-12-04-S1-commons.u2" ana="#chair" who="#ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ">
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg18">Το Σώμα συνεφώνησε.</seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg19">Υπέρ έχει ψηφίσει η Νέα Δημοκρατία, ο ΣΥΡΙΖΑ και το Κίνημα Αλλαγής.</seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg20">Επιφύλαξη είχε το Κομμουνιστικό Κόμμα Ελλάδας.</seg>
@@ -156,22 +143,19 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u xml:id="ParlaMint-GR_2019-12-04-S1-commons.u51"
-               ana="#chair"
-               who="#ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ">
+            <u xml:id="ParlaMint-GR_2019-12-04-S1-commons.u51" ana="#chair" who="#ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ">
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg212">Συνεπώς η Βουλή ενέκρινε τη ζητηθείσα άδεια.</seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg213">Κύριοι συνάδελφοι, δέχεστε στο σημείο αυτό να λύσουμε τη συνεδρίαση;</seg>
             </u>
-            <vocal type="shouting">
+            <vocal type="shouting" xml:id="ParlaMint-GR_2019-12-04-S1-commons.vocal7">
                <desc>Μάλιστα, μάλιστα.</desc>
             </vocal>
-            <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΧΑΡΑΛΑΜΠΟΣ ΑΘΑΝΑΣΙΟΥ):</note>
-            <u xml:id="ParlaMint-GR_2019-12-04-S1-commons.u52"
-               ana="#chair"
-               who="#ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ">
+            <note type="speaker" xml:id="ParlaMint-GR_2019-12-04-S1-commons.note64">ΠΡΟΕΔΡΕΥΩΝ (ΧΑΡΑΛΑΜΠΟΣ ΑΘΑΝΑΣΙΟΥ):</note>
+            <u xml:id="ParlaMint-GR_2019-12-04-S1-commons.u52" ana="#chair" who="#ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ">
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg214">Με τη συναίνεση του Σώματος και ώρα 10.13΄ λύεται η συνεδρίαση για αύριο, ημέρα Πέμπτη 5 Δεκεμβρίου 2019 και ώρα 9.00΄, με αντικείμενο εργασιών του Σώματος: α) κοινοβουλευτικό έλεγχο, συζήτηση επικαίρων ερωτήσεων και β) νομοθετική εργασία, μόνη συζήτηση και ψήφιση επί της αρχής, των άρθρων και του συνόλου του σχεδίου νόμου του Υπουργείου Οικονομικών: «Φορολογική μεταρρύθμιση με αναπτυξιακή διάσταση για την Ελλάδα του αύριο».</seg>
             </u>
          </div>
       </body>
    </text>
 </TEI>
+

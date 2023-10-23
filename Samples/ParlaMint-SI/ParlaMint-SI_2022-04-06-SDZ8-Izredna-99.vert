@@ -3,7 +3,7 @@
 <note type="head" content="Sejo so vodili predsednik Igor Zorčič in podpredsedniki Tina Heferle, Branko Simonovič in Jože Tanko."/>
 <note type="time" content="Seja se je začela ob 9. uri."/>
 <note type="speaker" content="PODPREDSEDNIK BRANKO SIMONOVIČ:"/>
-<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u1" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="Vojna" lang="slovenski" body="Spodnji dom" term="8" session="" meeting="99" sitting="" agenda="" date="2022-04-06" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 8. mandat, 99. izredna seja (6. 4. 2022)" speaker_role="Predsedujoči" speaker_id="SimonovičBranko" speaker_name="Simonovič, Branko" speaker_mp="MP" speaker_minister="notMinister" speaker_party="DeSUS" speaker_party_name="Demokratična stranka upokojencev Slovenije" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="1953">
+<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u1" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="COVID,Vojna" lang="slovenski" body="Spodnji dom" term="8. mandat" session="-" meeting="Izredna" sitting="-" agenda="-" date="2022-04-06" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 8. mandat, 99. izredna seja (6. 4. 2022)" speaker_role="Predsedujoči" speaker_id="SimonovičBranko" speaker_name="Simonovič, Branko" speaker_mp="MP" speaker_minister="notMinister" speaker_party="DeSUS" speaker_party_name="Demokratična stranka upokojencev Slovenije" party_status="Coalition" party_orientation="Sredinska do levo sredinska" speaker_gender="M" speaker_birth="1953">
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg1" lang="slovenski">
 <s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg1.1">
 Spoštovane	Spoštovane	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	1	amod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
@@ -283,7 +283,7 @@ Izvolite	Izvolite	izvoliti	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin	1	roo
 </p>
 </speech>
 <note type="speaker" content="IGOR ZORČIČ (PS NP):"/>
-<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u2" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="Vojna" lang="slovenski" body="Spodnji dom" term="8" session="" meeting="99" sitting="" agenda="" date="2022-04-06" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 8. mandat, 99. izredna seja (6. 4. 2022)" speaker_role="Navadni" speaker_id="ZorčičIgor" speaker_name="Zorčič, Igor" speaker_mp="MP" speaker_minister="notMinister" speaker_party="NP" speaker_party_name="Poslanska skupina nepovezanih poslancev" party_status="" party_orientation="" speaker_gender="M" speaker_birth="1978">
+<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u2" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="COVID,Vojna" lang="slovenski" body="Spodnji dom" term="8. mandat" session="-" meeting="Izredna" sitting="-" agenda="-" date="2022-04-06" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 8. mandat, 99. izredna seja (6. 4. 2022)" speaker_role="Navadni" speaker_id="ZorčičIgor" speaker_name="Zorčič, Igor" speaker_mp="MP" speaker_minister="notMinister" speaker_party="NP" speaker_party_name="Poslanska skupina nepovezanih poslancev" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1978">
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg8" lang="slovenski">
 <s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg8.1">
 Spoštovane	Spoštovane	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	1	amod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
@@ -1048,7 +1048,7 @@ lepa	lepa	lep	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	2	amod	hvala	NOUN	C
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u229" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="Vojna" lang="slovenski" body="Spodnji dom" term="8" session="" meeting="99" sitting="" agenda="" date="2022-04-06" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 8. mandat, 99. izredna seja (6. 4. 2022)" speaker_role="Navadni" speaker_id="SiterPrimož" speaker_name="Siter, Primož" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Levica" speaker_party_name="Levica" party_status="Opposition" party_orientation="" speaker_gender="M" speaker_birth="1979">
+<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u229" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="COVID,Vojna" lang="slovenski" body="Spodnji dom" term="8. mandat" session="-" meeting="Izredna" sitting="-" agenda="-" date="2022-04-06" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 8. mandat, 99. izredna seja (6. 4. 2022)" speaker_role="Navadni" speaker_id="SiterPrimož" speaker_name="Siter, Primož" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Levica" speaker_party_name="Levica" party_status="Opposition" party_orientation="Leva" speaker_gender="M" speaker_birth="1979">
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg955" lang="slovenski">
 <s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg955.1">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
@@ -1389,7 +1389,7 @@ lepa	lepa	lep	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	2	amod	hvala	NOUN	C
 </p>
 </speech>
 <note type="speaker" content="PREDSEDNIK IGOR ZORČIČ:"/>
-<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u230" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="Vojna" lang="slovenski" body="Spodnji dom" term="8" session="" meeting="99" sitting="" agenda="" date="2022-04-06" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 8. mandat, 99. izredna seja (6. 4. 2022)" speaker_role="Predsedujoči" speaker_id="ZorčičIgor" speaker_name="Zorčič, Igor" speaker_mp="MP" speaker_minister="notMinister" speaker_party="NP" speaker_party_name="Poslanska skupina nepovezanih poslancev" party_status="" party_orientation="" speaker_gender="M" speaker_birth="1978">
+<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u230" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="COVID,Vojna" lang="slovenski" body="Spodnji dom" term="8. mandat" session="-" meeting="Izredna" sitting="-" agenda="-" date="2022-04-06" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 8. mandat, 99. izredna seja (6. 4. 2022)" speaker_role="Predsedujoči" speaker_id="ZorčičIgor" speaker_name="Zorčič, Igor" speaker_mp="MP" speaker_minister="notMinister" speaker_party="NP" speaker_party_name="Poslanska skupina nepovezanih poslancev" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1978">
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg960" lang="slovenski">
 <s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg960.1">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-

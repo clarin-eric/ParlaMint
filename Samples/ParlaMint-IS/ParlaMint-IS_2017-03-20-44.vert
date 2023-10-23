@@ -1,6 +1,6 @@
 <note type="signing" content="Bjarni Jónsson, 3. þm. Norðvest., og Oktavía Hrund Jónsdóttir, 4. þm. Suðurk., undirrituðu drengskaparheit að stjórnarskránni."/>
-<speech id="ParlaMint-IS_2017-03-20-44.u1" text_id="ParlaMint-IS_2017-03-20-44" subcorpus="Reference" body="Unicameralism" term="22" session="146" meeting="44" sitting="" agenda="" date="2017-03-20" title="Speeches in the national parliament of Iceland, 22. term, regular meeting 146-44, 20.03.2017." speaker_role="Chairperson" speaker_id="UnnurKonradsdottir" speaker_name="Konráðsdóttir, Unnur Brá" speaker_mp="MP" speaker_minister="-" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" party_status="Coalition" speaker_gender="F" speaker_birth="1974">
-<p id="ParlaMint-IS_2017-03-20-44.seg1" lang="">
+<speech id="ParlaMint-IS_2017-03-20-44.u1" text_id="ParlaMint-IS_2017-03-20-44" subcorpus="Viðmiðun" lang="Íslenska" body="Þing í einni deild" term="22. kjörtímabil" session="146. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2017-03-20" title="Ræður frá Alþingi Íslendinga, 22. kjörtímabil, hefðbundinn fundur 146-44, 20.03.2017." speaker_role="Þingforseti" speaker_id="UnnurKonradsdottir" speaker_name="Konráðsdóttir, Unnur Brá" speaker_mp="MP" speaker_minister="notMinister" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" party_status="Coalition" party_orientation="Miðja til mið-hægri" speaker_gender="F" speaker_birth="1974">
+<p id="ParlaMint-IS_2017-03-20-44.seg1" lang="Íslenska">
 <s id="ParlaMint-IS_2017-03-20-44.seg1.1">
 Borist	Borist	bera	VERB	Tense=Past VerbForm=Part	1	root	-	-	-	-
 hefur	hefur	hafa	AUX	Mood=Ind Tense=Pres	2	aux	bera	VERB	Tense=Past VerbForm=Part	1
@@ -77,10 +77,10 @@ Jónsdóttir	Jónsdóttir	Jónsdóttir	PROPN		17	dep	Oktavía	PROPN		15
 .	.	.	PUNCT		18	punct	Jónsdóttir	PROPN		17
 </s>
 </p>
-<p id="ParlaMint-IS_2017-03-20-44.seg2" lang="">
+<p id="ParlaMint-IS_2017-03-20-44.seg2" lang="Íslenska">
 <s id="ParlaMint-IS_2017-03-20-44.seg2.1">
 Kjörbréf	Kjörbréf	kjörbréf	NOUN	Case=Nom Definite=Ind Number=Plur	1	nsubj	rannsaka	VERB	Tense=Past VerbForm=Part	12
-þeirra	þeirra	það	PRON	Case=Gen	2	nmod_poss	kjörbréf	NOUN	Case=Nom Definite=Ind Number=Plur	1
+þeirra	þeirra	það	PRON	Case=Gen	2	nmod:poss	kjörbréf	NOUN	Case=Nom Definite=Ind Number=Plur	1
 <name type="PER">
 Bjarna	Bjarna	Bjarni	PROPN		3	appos	það	PRON	Case=Gen	2
 Jónssonar	Jónssonar	Jónsson	PROPN		4	flat:name	Bjarni	PROPN		3
@@ -123,8 +123,8 @@ stjórnarskránni	stjórnarskránni	stjórnarskrá	NOUN	Case=Dat Definite=Ind Nu
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2017-03-20-44.u2" text_id="ParlaMint-IS_2017-03-20-44" subcorpus="Reference" body="Unicameralism" term="22" session="146" meeting="44" sitting="" agenda="" date="2017-03-20" title="Speeches in the national parliament of Iceland, 22. term, regular meeting 146-44, 20.03.2017." speaker_role="Chairperson" speaker_id="UnnurKonradsdottir" speaker_name="Konráðsdóttir, Unnur Brá" speaker_mp="MP" speaker_minister="-" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" party_status="Coalition" speaker_gender="F" speaker_birth="1974">
-<p id="ParlaMint-IS_2017-03-20-44.seg3" lang="">
+<speech id="ParlaMint-IS_2017-03-20-44.u2" text_id="ParlaMint-IS_2017-03-20-44" subcorpus="Viðmiðun" lang="Íslenska" body="Þing í einni deild" term="22. kjörtímabil" session="146. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2017-03-20" title="Ræður frá Alþingi Íslendinga, 22. kjörtímabil, hefðbundinn fundur 146-44, 20.03.2017." speaker_role="Þingforseti" speaker_id="UnnurKonradsdottir" speaker_name="Konráðsdóttir, Unnur Brá" speaker_mp="MP" speaker_minister="notMinister" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" party_status="Coalition" party_orientation="Miðja til mið-hægri" speaker_gender="F" speaker_birth="1974">
+<p id="ParlaMint-IS_2017-03-20-44.seg3" lang="Íslenska">
 <s id="ParlaMint-IS_2017-03-20-44.seg3.1">
 <name type="PER">
 Bjarni	Bjarni	Bjarni	PROPN		1	nsubj	undirskrifa	VERB	Tense=Past VerbForm=Part	8
@@ -155,7 +155,7 @@ Alþingi	Alþingi	Alþingi	PROPN		19	obl	bjóða	VERB	Tense=Past VerbForm=Part	1
 .	.	.	PUNCT		20	punct	Alþingi	PROPN		19
 </s>
 </p>
-<p id="ParlaMint-IS_2017-03-20-44.seg4" lang="">
+<p id="ParlaMint-IS_2017-03-20-44.seg4" lang="Íslenska">
 <s id="ParlaMint-IS_2017-03-20-44.seg4.1">
 Borist	Borist	bera	VERB	Tense=Past VerbForm=Part	1	root	-	-	-	-
 hefur	hefur	hafa	AUX	Mood=Ind Tense=Pres	2	aux	bera	VERB	Tense=Past VerbForm=Part	1
@@ -197,7 +197,7 @@ varamaður	varamaður	varamaður	NOUN	Case=Nom Definite=Ind Number=Sing	9	nsubj	
 lista	lista	listi	NOUN	Case=Dat Definite=Ind Number=Sing	11	obl	varamaður	NOUN	Case=Nom Definite=Ind Number=Sing	9
 <name type="ORG">
 Vinstri	Vinstri	vinstri	ADJ	Case=Gen Degree=Pos	12	amod	hreyfing	PROPN	Case=Gen Definite=Ind	13
-hreyfingarinnar	hreyfingarinnar	hreyfing	PROPN	Case=Gen Definite=Ind	13	nmod_poss	listi	NOUN	Case=Dat Definite=Ind Number=Sing	11
+hreyfingarinnar	hreyfingarinnar	hreyfing	PROPN	Case=Gen Definite=Ind	13	nmod:poss	listi	NOUN	Case=Dat Definite=Ind Number=Sing	11
 –	–	–	PUNCT		14	punct	hreyfing	PROPN	Case=Gen Definite=Ind	13
 græns	græns	grænn	ADJ	Case=Gen Degree=Pos	15	amod	framboð	NOUN	Case=Gen Definite=Ind Number=Sing	16
 framboðs	framboðs	framboð	NOUN	Case=Gen Definite=Ind Number=Sing	16	appos	hreyfing	PROPN	Case=Gen Definite=Ind	13
@@ -215,8 +215,8 @@ Gíslason	Gíslason	Gíslason	PROPN		20	dep	Björn	PROPN		18
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IS_2017-03-20-44.u67" text_id="ParlaMint-IS_2017-03-20-44" subcorpus="Reference" body="Unicameralism" term="22" session="146" meeting="44" sitting="" agenda="" date="2017-03-20" title="Speeches in the national parliament of Iceland, 22. term, regular meeting 146-44, 20.03.2017." speaker_role="Regular" speaker_id="SteinunnArnadottir" speaker_name="Árnadóttir, Steinunn Þóra" speaker_mp="MP" speaker_minister="-" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="" speaker_gender="F" speaker_birth="1977">
-<p id="ParlaMint-IS_2017-03-20-44.seg246" lang="">
+<speech id="ParlaMint-IS_2017-03-20-44.u67" text_id="ParlaMint-IS_2017-03-20-44" subcorpus="Viðmiðun" lang="Íslenska" body="Þing í einni deild" term="22. kjörtímabil" session="146. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2017-03-20" title="Ræður frá Alþingi Íslendinga, 22. kjörtímabil, hefðbundinn fundur 146-44, 20.03.2017." speaker_role="Venjulegur" speaker_id="SteinunnArnadottir" speaker_name="Árnadóttir, Steinunn Þóra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="-" party_orientation="Mið-vinstri til vinstri" speaker_gender="F" speaker_birth="1977">
+<p id="ParlaMint-IS_2017-03-20-44.seg246" lang="Íslenska">
 <s id="ParlaMint-IS_2017-03-20-44.seg246.1">
 Frú	Frú	frú	NOUN	Case=Nom Definite=Ind Number=Sing	1	root	-	-	-	-
 forseti	forseti	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2	conj	frú	NOUN	Case=Nom Definite=Ind Number=Sing	1
@@ -244,7 +244,7 @@ Mogensen	Mogensen	Mogensen	PROPN		16	dep	þm.	PROPN		14
 </name>
 fyrir	fyrir	fyrir	ADP		17	case	innskot	NOUN	Case=Acc Definite=Ind Number=Sing	18
 innskot	innskot	innskot	NOUN	Case=Acc Definite=Ind Number=Sing	18	conj	byrja	VERB	VerbForm=Inf	3
-hennar	hennar	hún	PRON	Case=Gen	19	nmod_poss	innskot	NOUN	Case=Acc Definite=Ind Number=Sing	18
+hennar	hennar	hún	PRON	Case=Gen	19	nmod:poss	innskot	NOUN	Case=Acc Definite=Ind Number=Sing	18
 og	og	og	CCONJ		20	cc	athugasemd	NOUN	Case=Acc Definite=Ind Number=Sing	21
 athugasemd	athugasemd	athugasemd	NOUN	Case=Acc Definite=Ind Number=Sing	21	conj	innskot	NOUN	Case=Acc Definite=Ind Number=Sing	18
 í	í	í	ADP		22	case	umræða	NOUN	Case=Acc Definite=Ind Number=Sing	24
@@ -284,7 +284,7 @@ stutta	stutta	stuttur	ADJ	Case=Nom Degree=Pos	7	amod	samtal	NOUN	Case=Nom Defini
 samtal	samtal	samtal	NOUN	Case=Nom Definite=Ind Number=Sing	8	nsubj	verða	VERB	Mood=Sub Tense=Pres	13
 sem	sem	sem	SCONJ		9	mark	eiga	VERB	Mood=Ind Tense=Pres	11
 við	við	ég	PRON	Case=Nom	10	nsubj	eiga	VERB	Mood=Ind Tense=Pres	11
-eigum	eigum	eiga	VERB	Mood=Ind Tense=Pres	11	acl_relcl	samtal	NOUN	Case=Nom Definite=Ind Number=Sing	8
+eigum	eigum	eiga	VERB	Mood=Ind Tense=Pres	11	acl:relcl	samtal	NOUN	Case=Nom Definite=Ind Number=Sing	8
 hér	hér	hér	ADV	Degree=Pos	12	advmod	eiga	VERB	Mood=Ind Tense=Pres	11
 verði	verði	verða	VERB	Mood=Sub Tense=Pres	13	ccomp	vona	VERB	Mood=Ind Tense=Pres	2
 innlegg	innlegg	innlegg	NOUN	Case=Nom Definite=Ind Number=Sing	14	xcomp	verða	VERB	Mood=Sub Tense=Pres	13
@@ -301,7 +301,7 @@ að	að	að	ADP		24	case	það	PRON	Case=Dat	25
 því	því	það	PRON	Case=Dat	25	obl	verða	VERB	Mood=Sub Tense=Pres	13
 er	er	er	SCONJ		26	mark	telja	VERB	Mood=Ind Tense=Pres	28
 ég	ég	ég	PRON	Case=Nom	27	nsubj	telja	VERB	Mood=Ind Tense=Pres	28
-tel	tel	telja	VERB	Mood=Ind Tense=Pres	28	acl_relcl	það	PRON	Case=Dat	25
+tel	tel	telja	VERB	Mood=Ind Tense=Pres	28	acl:relcl	það	PRON	Case=Dat	25
 að	að	að	SCONJ		29	mark	nálgast	VERB	Mood=Sub Tense=Pres	31
 við	við	ég	PRON	Case=Nom	30	nsubj	nálgast	VERB	Mood=Sub Tense=Pres	31
 nálgumst	nálgumst	nálgast	VERB	Mood=Sub Tense=Pres	31	ccomp	það	PRON	Case=Dat	25
@@ -310,7 +310,7 @@ og	og	og	CCONJ		33	cc	staða	NOUN	Case=Acc Definite=Ind Number=Sing	34
 stöðuna	stöðuna	staða	NOUN	Case=Acc Definite=Ind Number=Sing	34	obj	nálgast	VERB	Mood=Sub Tense=Pres	31
 á	á	á	ADP		35	case	húsnæðismarkaður	NOUN	Case=Dat Definite=Ind Number=Sing	36
 húsnæðismarkaði	húsnæðismarkaði	húsnæðismarkaður	NOUN	Case=Dat Definite=Ind Number=Sing	36	obl	staða	NOUN	Case=Acc Definite=Ind Number=Sing	34
-út	út	út	ADP		37	compound_prt	sjónarmið	NOUN	Case=Dat Definite=Ind Number=Plur	42
+út	út	út	ADP		37	compound:prt	sjónarmið	NOUN	Case=Dat Definite=Ind Number=Plur	42
 frá	frá	frá	ADP		38	case	sjónarmið	NOUN	Case=Dat Definite=Ind Number=Plur	42
 mjög	mjög	mjög	ADV	Degree=Pos	39	advmod	margur	ADV	Case=Dat Degree=Pos	40
 mörgum	mörgum	margur	ADV	Case=Dat Degree=Pos	40	advmod	sjónarmið	NOUN	Case=Dat Definite=Ind Number=Plur	42
@@ -330,7 +330,7 @@ erfiður	erfiður	erfiður	ADJ	Case=Nom Degree=Pos	53	amod	víðtækur	ADJ	Case=
 vandi	vandi	vandi	NOUN	Case=Nom Definite=Ind Number=Sing	54	conj	erfiður	ADJ	Case=Nom Degree=Pos	53
 sem	sem	sem	SCONJ		55	mark	standa	VERB	Mood=Ind Tense=Pres	57
 margir	margir	margur	DET	Case=Nom Degree=Pos	56	nsubj	standa	VERB	Mood=Ind Tense=Pres	57
-standa	standa	standa	VERB	Mood=Ind Tense=Pres	57	acl_relcl	vandi	NOUN	Case=Nom Definite=Ind Number=Sing	54
+standa	standa	standa	VERB	Mood=Ind Tense=Pres	57	acl:relcl	vandi	NOUN	Case=Nom Definite=Ind Number=Sing	54
 frammi	frammi	frammi	ADV	Degree=Pos	58	obl	standa	VERB	Mood=Ind Tense=Pres	57
 fyrir	fyrir	fyrir	ADP		59	case	frammi	ADV	Degree=Pos	58
 <g/>
@@ -348,12 +348,12 @@ einstaklingur	einstaklingur	einstaklingur	NOUN	Case=Nom Definite=Ind Number=Sing
 og	og	og	CCONJ		71	cc	manneskja	NOUN	Case=Nom Definite=Ind Number=Sing	73
 hver	hver	hver	DET	Case=Nom Degree=Pos	72	amod	manneskja	NOUN	Case=Nom Definite=Ind Number=Sing	73
 manneskja	manneskja	manneskja	NOUN	Case=Nom Definite=Ind Number=Sing	73	conj	einstaklingur	NOUN	Case=Nom Definite=Ind Number=Sing	70
-á	á	eiga	VERB	Mood=Ind Tense=Pres	74	acl_relcl	dýrmætur	ADJ	Case=Nom Degree=Sup	67
+á	á	eiga	VERB	Mood=Ind Tense=Pres	74	acl:relcl	dýrmætur	ADJ	Case=Nom Degree=Sup	67
 <g/>
 .	.	.	PUNCT		75	punct	eiga	VERB	Mood=Ind Tense=Pres	74
 </s>
 </p>
-<p id="ParlaMint-IS_2017-03-20-44.seg247" lang="">
+<p id="ParlaMint-IS_2017-03-20-44.seg247" lang="Íslenska">
 <s id="ParlaMint-IS_2017-03-20-44.seg247.1">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	byrja	VERB	VerbForm=Inf	3
 vil	vil	vilja	AUX	Mood=Ind Tense=Pres	2	aux	byrja	VERB	VerbForm=Inf	3
@@ -364,7 +364,7 @@ fagna	fagna	fagna	VERB	VerbForm=Inf	6	obl	byrja	VERB	VerbForm=Inf	3
 fyrra	fyrra	fyrri	ADJ	Case=Dat Degree=Cmp	7	amod	svar	NOUN	Case=Dat Definite=Ind Number=Sing	8
 svari	svari	svar	NOUN	Case=Dat Definite=Ind Number=Sing	8	obj	fagna	VERB	VerbForm=Inf	6
 hæstv.	hæstv.	hæstv.	ADJ	Case=Gen Degree=Pos	9	amod	ráðherra	NOUN	Case=Gen Definite=Ind Number=Sing	10
-ráðherra	ráðherra	ráðherra	NOUN	Case=Gen Definite=Ind Number=Sing	10	nmod_poss	svar	NOUN	Case=Dat Definite=Ind Number=Sing	8
+ráðherra	ráðherra	ráðherra	NOUN	Case=Gen Definite=Ind Number=Sing	10	nmod:poss	svar	NOUN	Case=Dat Definite=Ind Number=Sing	8
 um	um	um	ADP		11	case	smíð	NOUN	Case=Dat Definite=Ind Number=Plur	17
 að	að	að	SCONJ		12	mark	smíð	NOUN	Case=Dat Definite=Ind Number=Plur	17
 það	það	það	PRON	Case=Nom Gender=Neut Number=Sing	13	expl	smíð	NOUN	Case=Dat Definite=Ind Number=Plur	17
@@ -407,7 +407,7 @@ spyrja	spyrja	spyrja	VERB	VerbForm=Inf	5	acl	leyfa	VERB	Mood=Ind Tense=Pres	2
 :	:	:	PUNCT		6	punct	spyrja	VERB	VerbForm=Inf	5
 Er	Er	vera	AUX	Mood=Ind Tense=Pres	7	ccomp	spyrja	VERB	VerbForm=Inf	5
 ráðherrann	ráðherrann	ráðherra	NOUN	Case=Nom Definite=Ind Number=Sing	8	nsubj	vera	AUX	Mood=Ind Tense=Pres	7
-til	til	til	ADP		9	compound_prt	upplýsa	VERB	VerbForm=Inf	12
+til	til	til	ADP		9	compound:prt	upplýsa	VERB	VerbForm=Inf	12
 í	í	í	ADP		10	case	upplýsa	VERB	VerbForm=Inf	12
 að	að	að	PART		11	mark	upplýsa	VERB	VerbForm=Inf	12
 upplýsa	upplýsa	upplýsa	VERB	VerbForm=Inf	12	obl	vera	AUX	Mood=Ind Tense=Pres	7
@@ -433,7 +433,7 @@ vænta	vænta	vænta	VERB	VerbForm=Inf Voice=Act	4	acl	verða	VERB	Mood=Ind Tens
 ?	?	?	PUNCT		6	punct	þar	ADV		5
 </s>
 </p>
-<p id="ParlaMint-IS_2017-03-20-44.seg248" lang="">
+<p id="ParlaMint-IS_2017-03-20-44.seg248" lang="Íslenska">
 <s id="ParlaMint-IS_2017-03-20-44.seg248.1">
 Hvað	Hvað	hver	PRON	Case=Nom	1	obj	varða	VERB	Mood=Ind Tense=Pres	2
 varðar	varðar	varða	VERB	Mood=Ind Tense=Pres	2	obl	finna	VERB	Mood=Ind Tense=Pres	6
@@ -492,7 +492,7 @@ hvaðan	hvaðan	hvaðan	ADV	Degree=Pos	53	advmod	hafa	AUX	Mood=Ind Tense=Pres	55
 það	það	það	PRON	Case=Nom	54	nsubj	hafa	AUX	Mood=Ind Tense=Pres	55
 hefur	hefur	hafa	AUX	Mood=Ind Tense=Pres	55	ccomp	það	PRON	Case=Dat	52
 laun	laun	laun	NOUN	Case=Acc Definite=Ind Number=Plur	56	obj	hafa	AUX	Mood=Ind Tense=Pres	55
-sín	sín	sinn	PRON	Case=Acc	57	nmod_poss	laun	NOUN	Case=Acc Definite=Ind Number=Plur	56
+sín	sín	sinn	PRON	Case=Acc	57	nmod:poss	laun	NOUN	Case=Acc Definite=Ind Number=Plur	56
 <g/>
 .	.	.	PUNCT		58	punct	sinn	PRON	Case=Acc	57
 </s>
@@ -520,7 +520,7 @@ lífeyrisþegar	lífeyrisþegar	lífeyrisþegi	NOUN	Case=Nom Definite=Ind Number
 hafi	hafi	hafa	AUX	Mood=Sub Tense=Pres	18	ccomp	líklegur	ADJ	Case=Nom Degree=Pos	12
 vegna	vegna	vegna	ADP		19	case	fötlun	NOUN	Case=Gen Definite=Ind Number=Sing	20
 fötlunar	fötlunar	fötlun	NOUN	Case=Gen Definite=Ind Number=Sing	20	obl	hafa	AUX	Mood=Sub Tense=Pres	18
-sinnar	sinnar	sinn	PRON	Case=Gen	21	nmod_poss	fötlun	NOUN	Case=Gen Definite=Ind Number=Sing	20
+sinnar	sinnar	sinn	PRON	Case=Gen	21	nmod:poss	fötlun	NOUN	Case=Gen Definite=Ind Number=Sing	20
 háan	háan	hár	ADJ	Case=Acc Degree=Pos	22	amod	lyfjakostnaður	NOUN	Case=Acc Definite=Ind Number=Sing	23
 lyfjakostnað	lyfjakostnað	lyfjakostnaður	NOUN	Case=Acc Definite=Ind Number=Sing	23	obj	hafa	AUX	Mood=Sub Tense=Pres	18
 <g/>
@@ -558,7 +558,7 @@ leið	leið	leið	NOUN	Case=Nom Definite=Ind Number=Sing	11	nsubj	hækka	VERB	Ve
 til	til	til	ADP		12	case	taka	VERB	VerbForm=Inf	14
 að	að	að	PART		13	mark	taka	VERB	VerbForm=Inf	14
 takast	takast	taka	VERB	VerbForm=Inf	14	obl	leið	NOUN	Case=Nom Definite=Ind Number=Sing	11
-á	á	á	ADP		15	compound_prt	taka	VERB	VerbForm=Inf	14
+á	á	á	ADP		15	compound:prt	taka	VERB	VerbForm=Inf	14
 við	við	við	ADP		16	case	vandi	NOUN	Case=Acc Definite=Ind Number=Sing	18
 þann	þann	sá	DET	Case=Acc	17	det	vandi	NOUN	Case=Acc Definite=Ind Number=Sing	18
 vanda	vanda	vandi	NOUN	Case=Acc Definite=Ind Number=Sing	18	obl	taka	VERB	VerbForm=Inf	14
@@ -576,7 +576,7 @@ móts	móts	mót	NOUN	Case=Gen Definite=Ind Number=Sing	28	obl	koma	VERB	VerbFor
 við	við	við	ADP		29	case	sá	DET	Case=Acc	30
 þá	þá	sá	DET	Case=Acc	30	obl	mót	NOUN	Case=Gen Definite=Ind Number=Sing	28
 sem	sem	sem	SCONJ		31	mark	hafa	AUX	Mood=Ind Tense=Pres	32
-hafa	hafa	hafa	AUX	Mood=Ind Tense=Pres	32	acl_relcl	sá	DET	Case=Acc	30
+hafa	hafa	hafa	AUX	Mood=Ind Tense=Pres	32	acl:relcl	sá	DET	Case=Acc	30
 háan	háan	hár	ADJ	Case=Acc Degree=Pos	33	amod	lyfjakostnaður	NOUN	Case=Acc Definite=Ind Number=Sing	34
 lyfjakostnað	lyfjakostnað	lyfjakostnaður	NOUN	Case=Acc Definite=Ind Number=Sing	34	obj	hafa	AUX	Mood=Ind Tense=Pres	32
 <g/>
@@ -584,8 +584,8 @@ lyfjakostnað	lyfjakostnað	lyfjakostnaður	NOUN	Case=Acc Definite=Ind Number=Si
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2017-03-20-44.u68" text_id="ParlaMint-IS_2017-03-20-44" subcorpus="Reference" body="Unicameralism" term="22" session="146" meeting="44" sitting="" agenda="" date="2017-03-20" title="Speeches in the national parliament of Iceland, 22. term, regular meeting 146-44, 20.03.2017." speaker_role="Regular" speaker_id="THorsteinnViglundsson" speaker_name="Víglundsson, Þorsteinn" speaker_mp="MP" speaker_minister="Minister" speaker_party="V" speaker_party_name="Viðreisn" party_status="Coalition" speaker_gender="M" speaker_birth="1969">
-<p id="ParlaMint-IS_2017-03-20-44.seg249" lang="">
+<speech id="ParlaMint-IS_2017-03-20-44.u68" text_id="ParlaMint-IS_2017-03-20-44" subcorpus="Viðmiðun" lang="Íslenska" body="Þing í einni deild" term="22. kjörtímabil" session="146. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2017-03-20" title="Ræður frá Alþingi Íslendinga, 22. kjörtímabil, hefðbundinn fundur 146-44, 20.03.2017." speaker_role="Venjulegur" speaker_id="THorsteinnViglundsson" speaker_name="Víglundsson, Þorsteinn" speaker_mp="MP" speaker_minister="Minister" speaker_party="V" speaker_party_name="Viðreisn" party_status="Coalition" party_orientation="Mið-hægri" speaker_gender="M" speaker_birth="1969">
+<p id="ParlaMint-IS_2017-03-20-44.seg249" lang="Íslenska">
 <s id="ParlaMint-IS_2017-03-20-44.seg249.1">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	þakka	VERB	VerbForm=Inf	6
 vil	vil	vilja	AUX	Mood=Ind Tense=Pres	2	aux	þakka	VERB	VerbForm=Inf	6
@@ -631,7 +631,7 @@ hér	hér	hér	ADV	Degree=Pos	27	advmod	land	NOUN	Case=Dat Definite=Ind Number=S
 landi	landi	land	NOUN	Case=Dat Definite=Ind Number=Sing	29	obl	fátækt	NOUN	Case=Acc Definite=Ind Number=Sing	26
 og	og	og	CCONJ		30	cc	tækifæri	NOUN	Case=Acc Definite=Ind Number=Plur	31
 tækifæri	tækifæri	tækifæri	NOUN	Case=Acc Definite=Ind Number=Plur	31	conj	koma	VERB	Mood=Ind Tense=Pres	22
-fólks	fólks	fólk	NOUN	Case=Gen Definite=Ind Number=Sing	32	nmod_poss	tækifæri	NOUN	Case=Acc Definite=Ind Number=Plur	31
+fólks	fólks	fólk	NOUN	Case=Gen Definite=Ind Number=Sing	32	nmod:poss	tækifæri	NOUN	Case=Acc Definite=Ind Number=Plur	31
 þar	þar	þar	ADV	Degree=Pos	33	obl	lúta	VERB	Tense=Past VerbForm=Part	35
 að	að	að	ADP		34	case	þar	ADV	Degree=Pos	33
 lútandi	lútandi	lúta	VERB	Tense=Past VerbForm=Part	35	acl	tækifæri	NOUN	Case=Acc Definite=Ind Number=Plur	31
@@ -668,7 +668,7 @@ fyrir	fyrir	fyrir	ADP		65	case	það	PRON	Case=Acc	66
 það	það	það	PRON	Case=Acc	66	obl	þakka	VERB	VerbForm=Inf	64
 að	að	að	SCONJ		67	mark	sterkur	ADJ	Case=Nom Degree=Pos	75
 staða	staða	staða	NOUN	Case=Nom Definite=Ind Number=Sing	68	nsubj	sterkur	ADJ	Case=Nom Degree=Pos	75
-okkar	okkar	ég	PRON	Case=Gen	69	nmod_poss	staða	NOUN	Case=Nom Definite=Ind Number=Sing	68
+okkar	okkar	ég	PRON	Case=Gen	69	nmod:poss	staða	NOUN	Case=Nom Definite=Ind Number=Sing	68
 er	er	vera	AUX	Mood=Ind Tense=Pres	70	cop	sterkur	ADJ	Case=Nom Degree=Pos	75
 á	á	á	ADP		71	case	mælikvarði	NOUN	Case=Acc Definite=Ind Number=Plur	73
 alla	alla	allur	DET	Case=Acc Degree=Pos	72	amod	mælikvarði	NOUN	Case=Acc Definite=Ind Number=Plur	73
@@ -700,7 +700,7 @@ hvar	hvar	hvar	ADV	Degree=Pos	11	advmod	bera	ADV	Mood=Ind Tense=Pres	14
 sem	sem	sem	SCONJ		12	mark	bera	ADV	Mood=Ind Tense=Pres	14
 okkur	okkur	ég	PRON	Case=Dat	13	nsubj	bera	ADV	Mood=Ind Tense=Pres	14
 ber	ber	bera	ADV	Mood=Ind Tense=Pres	14	advmod	sjá	VERB	Mood=Ind Tense=Pres	21
-niður	niður	niður	ADP		15	compound_prt	bera	ADV	Mood=Ind Tense=Pres	14
+niður	niður	niður	ADP		15	compound:prt	bera	ADV	Mood=Ind Tense=Pres	14
 þegar	þegar	þegar	ADP		16	case	skoða	VERB	Mood=Ind Tense=Pres	18
 við	við	ég	PRON	Case=Nom	17	nsubj	skoða	VERB	Mood=Ind Tense=Pres	18
 skoðum	skoðum	skoða	VERB	Mood=Ind Tense=Pres	18	obl	sjá	VERB	Mood=Ind Tense=Pres	21
@@ -744,7 +744,7 @@ ríki	ríki	ríki	NOUN	Case=Acc Definite=Ind Number=Plur	49	obl	bera	VERB	Mood=I
 <s id="ParlaMint-IS_2017-03-20-44.seg249.5">
 Kaupmáttur	Kaupmáttur	kaupmáttur	NOUN	Case=Nom Definite=Ind Number=Sing	1	nsubj	hafa	VERB	Mood=Ind Tense=Pres	4
 eldri	eldri	gamall	ADJ	Case=Gen Degree=Cmp	2	amod	borgari	NOUN	Case=Gen Definite=Ind Number=Plur	3
-borgara	borgara	borgari	NOUN	Case=Gen Definite=Ind Number=Plur	3	nmod_poss	kaupmáttur	NOUN	Case=Nom Definite=Ind Number=Sing	1
+borgara	borgara	borgari	NOUN	Case=Gen Definite=Ind Number=Plur	3	nmod:poss	kaupmáttur	NOUN	Case=Nom Definite=Ind Number=Sing	1
 hefur	hefur	hafa	VERB	Mood=Ind Tense=Pres	4	root	-	-	-	-
 heldur	heldur	gjarnan	ADV	Degree=Cmp	5	advmod	hafa	VERB	Mood=Ind Tense=Pres	4
 aldrei	aldrei	aldrei	ADV	Degree=Pos	6	advmod	hafa	VERB	Mood=Ind Tense=Pres	4
@@ -762,7 +762,7 @@ sterkara	sterkara	sterkur	ADJ	Case=Dat Degree=Cmp	16	amod	batnandi	VERB	Tense=Pa
 lífeyriskerfi	lífeyriskerfi	lífeyriskerfi	NOUN	Case=Dat Definite=Ind Number=Sing	17	amod	þökk	ADJ	Case=Nom Degree=Pos	10
 og	og	og	CCONJ		18	cc	samspil	NOUN	Case=Dat Definite=Ind Number=Sing	19
 samspili	samspili	samspil	NOUN	Case=Dat Definite=Ind Number=Sing	19	conj	lífeyriskerfi	NOUN	Case=Dat Definite=Ind Number=Sing	17
-þess	þess	það	PRON	Case=Gen	20	nmod_poss	samspil	NOUN	Case=Dat Definite=Ind Number=Sing	19
+þess	þess	það	PRON	Case=Gen	20	nmod:poss	samspil	NOUN	Case=Dat Definite=Ind Number=Sing	19
 við	við	við	ADP		21	case	almannatrygging	NOUN	Case=Acc Definite=Ind Number=Plur	22
 almannatryggingarnar	almannatryggingarnar	almannatrygging	NOUN	Case=Acc Definite=Ind Number=Plur	22	obl	samspil	NOUN	Case=Dat Definite=Ind Number=Sing	19
 <g/>
@@ -806,7 +806,7 @@ leiðandi	leiðandi	leiða	VERB	Tense=Pres VerbForm=Part	10	ccomp	ljós	ADJ	Case
 að	að	að	PART		11	mark	bæta	VERB	VerbForm=Inf	12
 bæta	bæta	bæta	VERB	VerbForm=Inf	12	ccomp	ljós	ADJ	Case=Nom Degree=Pos	4
 talsvert	talsvert	talsvertr	ADV	Degree=Pos	13	advmod	bæta	VERB	VerbForm=Inf	12
-í	í	í	ADP		14	compound_prt	þar	ADV	Degree=Pos	8
+í	í	í	ADP		14	compound:prt	þar	ADV	Degree=Pos	8
 til	til	til	ADP		15	case	það	PRON	Case=Gen	16
 þess	þess	það	PRON	Case=Gen	16	obl	bæta	VERB	VerbForm=Inf	12
 að	að	að	PART		17	mark	styðja	VERB	VerbForm=Inf	18
@@ -824,7 +824,7 @@ við	við	ég	PRON	Case=Nom	3	nsubj	eiga	VERB	Mood=Ind Tense=Pres	2
 alltaf	alltaf	alltaf	ADV	Degree=Pos	4	advmod	eiga	VERB	Mood=Ind Tense=Pres	2
 að	að	að	PART		5	acl	eiga	VERB	Mood=Ind Tense=Pres	2
 hafa	hafa	hafa	AUX	VerbForm=Inf	6	aux	að	PART		5
-að	að	að	ADP		7	compound_prt	að	PART		5
+að	að	að	ADP		7	compound:prt	að	PART		5
 metnað	metnað	metnaður	NOUN	Case=Acc Definite=Ind Number=Sing	8	obj	að	PART		5
 til	til	til	ADP		9	case	gera	VERB	VerbForm=Inf	11
 að	að	að	PART		10	mark	gera	VERB	VerbForm=Inf	11
@@ -844,7 +844,7 @@ vera	vera	vera	AUX	VerbForm=Inf	22	cop	að	PART		21
 o.s.frv.	o.s.frv.	o.s.frv.	ADV	Degree=Pos	23	advmod	að	PART		21
 </s>
 </p>
-<p id="ParlaMint-IS_2017-03-20-44.seg250" lang="">
+<p id="ParlaMint-IS_2017-03-20-44.seg250" lang="Íslenska">
 <s id="ParlaMint-IS_2017-03-20-44.seg250.1">
 Það	Það	það	PRON	Case=Nom Gender=Neut Number=Sing	1	expl	hafa	VERB	VerbForm=Inf	4
 má	má	mega	AUX	Mood=Ind Tense=Pres	2	aux	hafa	VERB	VerbForm=Inf	4
@@ -859,7 +859,7 @@ ekki	ekki	ekki	ADV		10	advmod	þurfa	VERB	Mood=Ind Tense=Pres	9
 endilega	endilega	endilega	ADV	Degree=Pos	11	advmod	þurfa	VERB	Mood=Ind Tense=Pres	9
 að	að	að	PART		12	mark	rífa	VERB	VerbForm=Inf	13
 rífa	rífa	rífa	VERB	VerbForm=Inf	13	acl	þurfa	VERB	Mood=Ind Tense=Pres	9
-niður	niður	niður	ADP		14	compound_prt	rífa	VERB	VerbForm=Inf	13
+niður	niður	niður	ADP		14	compound:prt	rífa	VERB	VerbForm=Inf	13
 með	með	með	ADP		15	case	umræða	NOUN	Case=Dat Definite=Ind Number=Sing	17
 neikvæðri	neikvæðri	neikvæður	ADJ	Case=Dat Degree=Pos	16	amod	umræða	NOUN	Case=Dat Definite=Ind Number=Sing	17
 umræðu	umræðu	umræða	NOUN	Case=Dat Definite=Ind Number=Sing	17	obl	rífa	VERB	VerbForm=Inf	13
@@ -869,7 +869,7 @@ sem	sem	sem	SCONJ		20	mark	gera	VERB	Tense=Past VerbForm=Part	24
 vel	vel	vel	ADV	Degree=Pos	21	advmod	gera	VERB	Tense=Past VerbForm=Part	24
 hefur	hefur	hafa	AUX	Mood=Ind Tense=Pres	22	aux	gera	VERB	Tense=Past VerbForm=Part	24
 verið	verið	vera	AUX	Tense=Past VerbForm=Part	23	cop	gera	VERB	Tense=Past VerbForm=Part	24
-gert	gert	gera	VERB	Tense=Past VerbForm=Part	24	acl_relcl	allur	DET	Case=Acc Degree=Pos	18
+gert	gert	gera	VERB	Tense=Past VerbForm=Part	24	acl:relcl	allur	DET	Case=Acc Degree=Pos	18
 í	í	í	ADP		25	case	ár	NOUN	Case=Acc Definite=Ind Number=Plur	27
 gegnum	gegnum	gegnum	ADP		26	case	ár	NOUN	Case=Acc Definite=Ind Number=Plur	27
 árin	árin	ár	NOUN	Case=Acc Definite=Ind Number=Plur	27	obl	gera	VERB	Tense=Past VerbForm=Part	24
@@ -877,7 +877,7 @@ gegnum	gegnum	gegnum	ADP		26	case	ár	NOUN	Case=Acc Definite=Ind Number=Plur	27
 ,	,	,	PUNCT		28	punct	ár	NOUN	Case=Acc Definite=Ind Number=Plur	27
 sem	sem	sem	SCONJ		29	mark	finna	VERB	Mood=Ind Tense=Pres	31
 mér	mér	ég	PRON	Case=Dat	30	nsubj	finna	VERB	Mood=Ind Tense=Pres	31
-finnst	finnst	finna	VERB	Mood=Ind Tense=Pres	31	acl_relcl	allur	DET	Case=Acc Degree=Pos	18
+finnst	finnst	finna	VERB	Mood=Ind Tense=Pres	31	acl:relcl	allur	DET	Case=Acc Degree=Pos	18
 alls	alls	allur	DET	Case=Gen Degree=Pos	32	obl	finna	VERB	Mood=Ind Tense=Pres	31
 ekki	ekki	ekki	ADV		33	advmod	gera	VERB	Tense=Past VerbForm=Part	24
 hafa	hafa	hafa	AUX	VerbForm=Inf	34	aux	gera	VERB	Tense=Past VerbForm=Part	36
@@ -886,7 +886,7 @@ gert	gert	gera	VERB	Tense=Past VerbForm=Part	36	acl	finna	VERB	Mood=Ind Tense=Pr
 í	í	í	ADP		37	case	ræða	NOUN	Case=Dat Definite=Ind Number=Plur	38
 ræðum	ræðum	ræða	NOUN	Case=Dat Definite=Ind Number=Plur	38	obl	gera	VERB	Tense=Past VerbForm=Part	36
 hv.	hv.	hv.	ADJ	Case=Gen Degree=Pos	39	amod	þingmaður	NOUN	Case=Gen Definite=Ind Number=Plur	40
-þingmanna	þingmanna	þingmaður	NOUN	Case=Gen Definite=Ind Number=Plur	40	nmod_poss	ræða	NOUN	Case=Dat Definite=Ind Number=Plur	38
+þingmanna	þingmanna	þingmaður	NOUN	Case=Gen Definite=Ind Number=Plur	40	nmod:poss	ræða	NOUN	Case=Dat Definite=Ind Number=Plur	38
 en	en	en	CCONJ		41	cc	þykja	VERB	Mood=Ind Tense=Pres	43
 stundum	stundum	stundum	NOUN	Case=Dat Definite=Ind Number=Plur	42	obl	þykja	VERB	Mood=Ind Tense=Pres	43
 þykir	þykir	þykja	VERB	Mood=Ind Tense=Pres	43	conj	hafa	VERB	VerbForm=Inf	4
@@ -899,7 +899,7 @@ og	og	og	ADP		47	case	bera	VERB	Mood=Ind Tense=Past	53
 og	og	og	CCONJ		49	cc	bera	VERB	Mood=Ind Tense=Past	53
 m.a.	m.a.	m.a.	NUM		50	nummod	umræða	NOUN	Case=Nom Definite=Ind Number=Plur	51
 umræður	umræður	umræða	NOUN	Case=Nom Definite=Ind Number=Plur	51	nsubj	bera	VERB	Mood=Ind Tense=Past	53
-helgarinnar	helgarinnar	helgi	NOUN	Case=Gen Definite=Ind Number=Sing	52	nmod_poss	umræða	NOUN	Case=Nom Definite=Ind Number=Plur	51
+helgarinnar	helgarinnar	helgi	NOUN	Case=Gen Definite=Ind Number=Sing	52	nmod:poss	umræða	NOUN	Case=Nom Definite=Ind Number=Plur	51
 báru	báru	bera	VERB	Mood=Ind Tense=Past	53	conj	eins	ADV	Degree=Cmp	46
 merki	merki	merki	NOUN	Case=Acc Definite=Ind Number=Sing	54	obj	bera	VERB	Mood=Ind Tense=Past	53
 um	um	um	ADP		55	case	það	PRON	Case=Acc	56
@@ -959,7 +959,7 @@ til	til	til	ADP		4	case	það	PRON	Case=Gen	5
 að	að	að	SCONJ		6	mark	glíma	VERB	Mood=Sub Tense=Pres	10
 stór	stór	stór	ADJ	Case=Nom Degree=Pos	7	amod	hluti	NOUN	Case=Nom Definite=Ind Number=Sing	8
 hluti	hluti	hluti	NOUN	Case=Nom Definite=Ind Number=Sing	8	nsubj	glíma	VERB	Mood=Sub Tense=Pres	10
-hans	hans	hann	PRON	Case=Gen	9	nmod_poss	hluti	NOUN	Case=Nom Definite=Ind Number=Sing	8
+hans	hans	hann	PRON	Case=Gen	9	nmod:poss	hluti	NOUN	Case=Nom Definite=Ind Number=Sing	8
 glími	glími	glíma	VERB	Mood=Sub Tense=Pres	10	ccomp	það	PRON	Case=Gen	5
 við	við	við	ADP		11	case	fátækt	NOUN	Case=Acc Definite=Ind Number=Sing	12
 fátækt	fátækt	fátækt	NOUN	Case=Acc Definite=Ind Number=Sing	12	obl	glíma	VERB	Mood=Sub Tense=Pres	10

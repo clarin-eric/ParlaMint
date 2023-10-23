@@ -1,6 +1,8 @@
 <note type="head" content="Verbod op winstuitkering door zorgverzekeraars"/>
-<speech id="ParlaMint-NL_2017-01-26-tweedekamer-4.u1" text_id="ParlaMint-NL_2017-01-26-tweedekamer-4" subcorpus="Reference" body="Lower house" term="28-lower" session="4" meeting="45" sitting="2017-01-26" agenda="" date="2017-01-26" title="Report of the meeting of the Dutch Lower House, Meeting 45, Session 4 (2017-01-26)" speaker_role="Chairperson" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="-" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="Coalition" speaker_gender="F" speaker_birth="1960">
-<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg1" lang="Dutch">
+<note type="comment" content="Zie vergadering van 24 januari 2017."/>
+<note type="speaker" content="De voorzitter"/>
+<speech id="ParlaMint-NL_2017-01-26-tweedekamer-4.u1" text_id="ParlaMint-NL_2017-01-26-tweedekamer-4" subcorpus="Referentie" lang="Nederlands" body="Eerste Kamer" term="Meeting of the 28th Tweede Kamer" session="Session 4" meeting="Meeting 45" sitting="Sitting 2017-01-26" agenda="-" date="2017-01-26" title="Verslag van de vergadering van de Tweede Kamer, Meeting 45, Session 4 (2017-01-26)" speaker_role="Voorzitter" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="Coalition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
+<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg1" lang="Nederlands">
 <s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w11	nsubj	heten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w12
 heet	heet	heten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w12	root	-	-	-	-
@@ -179,8 +181,9 @@ zelfbeperking	zelfbeperking	zelfbeperking	NOUN	Gender=Com Number=Sing	w127	obl	v
 </p>
 </speech>
 <note type="comment" content="De algemene beraadslaging wordt hervat."/>
-<speech id="ParlaMint-NL_2017-01-26-tweedekamer-4.u2" text_id="ParlaMint-NL_2017-01-26-tweedekamer-4" subcorpus="Reference" body="Lower house" term="28-lower" session="4" meeting="45" sitting="2017-01-26" agenda="" date="2017-01-26" title="Report of the meeting of the Dutch Lower House, Meeting 45, Session 4 (2017-01-26)" speaker_role="Regular" speaker_id="LeaBouwmeester" speaker_name="Bouwmeester, Lea" speaker_mp="MP" speaker_minister="-" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="Coalition" speaker_gender="F" speaker_birth="1979">
-<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg2" lang="Dutch">
+<note type="speaker" content="Mevrouw Bouwmeester (PvdA)"/>
+<speech id="ParlaMint-NL_2017-01-26-tweedekamer-4.u2" text_id="ParlaMint-NL_2017-01-26-tweedekamer-4" subcorpus="Referentie" lang="Nederlands" body="Eerste Kamer" term="Meeting of the 28th Tweede Kamer" session="Session 4" meeting="Meeting 45" sitting="Sitting 2017-01-26" agenda="-" date="2017-01-26" title="Verslag van de vergadering van de Tweede Kamer, Meeting 45, Session 4 (2017-01-26)" speaker_role="Vast" speaker_id="LeaBouwmeester" speaker_name="Bouwmeester, Lea" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="Coalition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1979">
+<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg2" lang="Nederlands">
 <s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s13">
 Voorzitter	Voorzitter	voorzitter	NOUN	Gender=Com Number=Sing	w133	root	-	-	-	-
 <g/>
@@ -323,7 +326,7 @@ Kamer	Kamer	kamer	NOUN	Gender=Com Number=Sing	w233	nmod	deel	NOUN	Gender=Neut Nu
 .	.	.	PUNCT		pc31	punct	gedragen	VERB	VerbForm=Part	w216
 </s>
 </p>
-<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg3" lang="Dutch">
+<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg3" lang="Nederlands">
 <s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s18">
 Deze	Deze	deze	DET		w234	det	wet	NOUN	Gender=Com Number=Sing	w235
 wet	wet	wet	NOUN	Gender=Com Number=Sing	w235	nsubj	beogen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w236
@@ -382,7 +385,7 @@ opmerkingen	opmerkingen	opmerking	NOUN	Number=Plur	w272	conj	woord	NOUN	Number=P
 .	.	.	PUNCT		pc38	punct	bedanken	VERB	Number=Plur Tense=Pres VerbForm=Fin	w261
 </s>
 </p>
-<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg4" lang="Dutch">
+<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg4" lang="Nederlands">
 <s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s20">
 In	In	in	ADP		w273	case	vervolg	NOUN	Gender=Neut Number=Sing	w275
 het	het	het	DET	Definite=Def	w274	det	vervolg	NOUN	Gender=Neut Number=Sing	w275
@@ -450,7 +453,7 @@ zorgverzekeraars	zorgverzekeraars	zorgverzekeraar	NOUN	Number=Plur	w320	nmod	gev
 .	.	.	PUNCT		pc41	punct	reageren	VERB	VerbForm=Inf	w314
 </s>
 </p>
-<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg5" lang="Dutch">
+<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg5" lang="Nederlands">
 <s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s23">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w321	nsubj	begin	VERB	Number=Sing Tense=Pres VerbForm=Fin	w322
 begin	begin	begin	VERB	Number=Sing Tense=Pres VerbForm=Fin	w322	root	-	-	-	-
@@ -635,7 +638,7 @@ behoudt	behoudt	behouden	VERB	Number=Sing Tense=Pres VerbForm=Fin	w457	conj	krij
 .	.	.	PUNCT		pc56	punct	lopen	VERB	VerbForm=Inf	w446
 </s>
 </p>
-<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg6" lang="Dutch">
+<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg6" lang="Nederlands">
 <s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s31">
 Zorgverzekeraars	Zorgverzekeraars	zorgverzekeraar	NOUN	Number=Plur	w458	nsubj	zeggen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w459
 zeggen	zeggen	zeggen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w459	root	-	-	-	-
@@ -806,7 +809,7 @@ premiegeld	premiegeld	premiegeld	NOUN	Gender=Neut Number=Sing	w576	nmod	taak	NOU
 .	.	.	PUNCT		pc70	punct	doen	VERB	VerbForm=Inf	w562
 </s>
 </p>
-<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg7" lang="Dutch">
+<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg7" lang="Nederlands">
 <s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s40">
 Dat	Dat	dat	SCONJ		w577	mark	versterken	VERB	VerbForm=Part	w582
 de	de	de	DET	Definite=Def	w578	det	legitimiteit	NOUN	Gender=Com Number=Sing	w579
@@ -921,7 +924,7 @@ doorgaan	doorgaan	doorgaan	VERB	VerbForm=Inf	w663	root	-	-	-	-
 .	.	.	PUNCT		pc81	punct	doorgaan	VERB	VerbForm=Inf	w663
 </s>
 </p>
-<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg8" lang="Dutch">
+<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg8" lang="Nederlands">
 <s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s43">
 En	En	en	CCONJ		w664	mark	zo	ADV		w669
 nee	nee	nee	INTJ		w665	parataxis	zo	ADV		w669
@@ -1051,7 +1054,7 @@ Zorgautoriteit	Zorgautoriteit	zorgautoriteit	NOUN	Gender=Com Number=Sing	w759	fi
 .	.	.	PUNCT		pc90	punct	mening	NOUN	Gender=Com Number=Sing	w743
 </s>
 </p>
-<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg9" lang="Dutch">
+<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg9" lang="Nederlands">
 <s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s48">
 Dit	Dit	dit	DET		w760	det	al	PRON	Person=3 PronType=Ind	w761
 alles	alles	al	PRON	Person=3 PronType=Ind	w761	nsubj:pass	verbeteren	VERB	VerbForm=Part	w778
@@ -1194,7 +1197,7 @@ gaan	gaan	gaan	VERB	VerbForm=Inf	w864	acl	recht	NOUN	Gender=Neut Number=Sing	w85
 .	.	.	PUNCT		pc102	punct	doen	VERB	VerbForm=Inf	w839
 </s>
 </p>
-<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg10" lang="Dutch">
+<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg10" lang="Nederlands">
 <s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s54">
 Draagt	Draagt	dragen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w865	root	-	-	-	-
 het	het	het	DET	Definite=Def	w866	det	uitkeren	VERB	VerbForm=Inf	w867
@@ -1269,8 +1272,8 @@ schiet	schiet	schieten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w921	conj	passen
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-NL_2017-01-26-tweedekamer-4.u242" text_id="ParlaMint-NL_2017-01-26-tweedekamer-4" subcorpus="Reference" body="Lower house" term="28-lower" session="4" meeting="45" sitting="2017-01-26" agenda="" date="2017-01-26" title="Report of the meeting of the Dutch Lower House, Meeting 45, Session 4 (2017-01-26)" speaker_role="Chairperson" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="-" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="Coalition" speaker_gender="F" speaker_birth="1960">
-<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg352" lang="Dutch">
+<speech id="ParlaMint-NL_2017-01-26-tweedekamer-4.u242" text_id="ParlaMint-NL_2017-01-26-tweedekamer-4" subcorpus="Referentie" lang="Nederlands" body="Eerste Kamer" term="Meeting of the 28th Tweede Kamer" session="Session 4" meeting="Meeting 45" sitting="Sitting 2017-01-26" agenda="-" date="2017-01-26" title="Verslag van de vergadering van de Tweede Kamer, Meeting 45, Session 4 (2017-01-26)" speaker_role="Voorzitter" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="Coalition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
+<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg352" lang="Nederlands">
 <s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2086">
 Daarmee	Daarmee	daarmee	ADV		w31135	advmod	komen	VERB	VerbForm=Part	w31138
 zijn	zijn	zijn	AUX	Number=Plur Tense=Pres VerbForm=Fin	w31136	aux	komen	VERB	VerbForm=Part	w31138
@@ -1299,8 +1302,9 @@ gelukt	gelukt	gelukken	VERB	VerbForm=Part	w31151	root	-	-	-	-
 </p>
 </speech>
 <note type="comment" content="De algemene beraadslaging wordt gesloten."/>
-<speech id="ParlaMint-NL_2017-01-26-tweedekamer-4.u243" text_id="ParlaMint-NL_2017-01-26-tweedekamer-4" subcorpus="Reference" body="Lower house" term="28-lower" session="4" meeting="45" sitting="2017-01-26" agenda="" date="2017-01-26" title="Report of the meeting of the Dutch Lower House, Meeting 45, Session 4 (2017-01-26)" speaker_role="Chairperson" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="-" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="Coalition" speaker_gender="F" speaker_birth="1960">
-<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg353" lang="Dutch">
+<note type="speaker" content="De voorzitter"/>
+<speech id="ParlaMint-NL_2017-01-26-tweedekamer-4.u243" text_id="ParlaMint-NL_2017-01-26-tweedekamer-4" subcorpus="Referentie" lang="Nederlands" body="Eerste Kamer" term="Meeting of the 28th Tweede Kamer" session="Session 4" meeting="Meeting 45" sitting="Sitting 2017-01-26" agenda="-" date="2017-01-26" title="Verslag van de vergadering van de Tweede Kamer, Meeting 45, Session 4 (2017-01-26)" speaker_role="Voorzitter" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="Coalition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
+<p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg353" lang="Nederlands">
 <s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2089">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w31157	nsubj	danken	VERB	Number=Sing Tense=Pres VerbForm=Fin	w31158
 dank	dank	danken	VERB	Number=Sing Tense=Pres VerbForm=Fin	w31158	root	-	-	-	-
