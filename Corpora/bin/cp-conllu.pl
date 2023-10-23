@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 # Fix MTed CoNLL-U files:
-# shorten too long sentences vis a vis orignal
-# sort features and take care of SpaceAfter
-#
+# - shorten too long sentences vis a vis orignal
+# - sort features and take care of SpaceAfter
+# - merge metadata with original CoNLL-U files
 use warnings;
 use utf8;
 use open ':utf8';
@@ -26,11 +26,11 @@ if (not $origDir or $origDir eq '-') {$origDir = ''}
 
 foreach $inDir (glob $inDirs) {
     ($corpus) = $inDir =~ m|(ParlaMint-[A-Z-]+)[\.-]|
-	or die "Strange directory $inDir\n";
+	or die "FATAL ERROR: Strange directory $inDir\n";
     $outCDir = "$outDir/$corpus-en.conllu";
     if ($origDir) {
 	$origCDir = "$origDir/$corpus.conllu";
-	die "Can't find directory with original CoNLL-U $origCDir\n"
+	die "FATAL ERROR: Can't find directory with original CoNLL-U $origCDir\n"
 	    unless -d $origCDir;
     }
     print STDERR "INFO: Doing $corpus ($inDir -> $outCDir)\n";
@@ -38,7 +38,7 @@ foreach $inDir (glob $inDirs) {
 	print STDERR "INFO: Creating $outCDir\n";
 	`mkdir $outCDir`
     }
-    die "Can't find $outCDir\n" unless -e $outCDir;
+    die "FATAL ERROR: Can't find $outCDir\n" unless -e $outCDir;
     foreach $inYDir (glob "$inDir/*") {
 	next unless ($year) = $inYDir =~ m|(\d\d\d\d)$|;
 	# print STDERR "INFO: Doing $year\n";
@@ -51,14 +51,14 @@ foreach $inDir (glob $inDirs) {
 	    print STDERR "INFO: Creating $outYDir\n";
 	    `mkdir $outYDir`
 	}
-	die "Can't find $outYDir\n" unless -e $outYDir;
+	die "FATAL ERROR: Can't find $outYDir\n" unless -e $outYDir;
 	foreach $inFile (glob "$inYDir/*.conllu") {
 	    ($fName) = $inFile =~ m|/([^/]+\.conllu)$|;
 	    $fName =~ s|_|-en_| unless $fName =~ m|-en_|;
 	    if ($origDir) {
 		$origFile = "$origYDir/$fName";
 		$origFile =~ s|-en_|_|;
-		die "Can't find original CoNLL-U file $origFile\n"
+		die "FATAL ERROR: Can't find original CoNLL-U file $origFile\n"
 		    unless -e $origFile;
 	    }
 	    else {$origFile = ''}
@@ -76,10 +76,10 @@ sub cp {
     my $outFile = shift;
     my $src;
     my $trg;
-    open(IN, '<:utf8', $inFile) or die;
-    open(OUT, '>:utf8', $outFile) or die;
+    open(IN, '<:utf8', $inFile) or die "FATAL ERROR: can't open input file $inFile\n";
+    open(OUT, '>:utf8', $outFile) or die "FATAL ERROR: can't open output file $inFile\n";
     if ($origFile) {
-	open(OR, '<:utf8', $origFile) or die;
+	open(OR, '<:utf8', $origFile) or die "FATAL ERROR: can't open original file $inFile\n";
     }
     $/ = "\n\n";
     while (<IN>) {
@@ -103,8 +103,6 @@ sub cut {
     $sent =~ s/ +\n/\n/g; # We don't want space at EOL, esp. for # text
     ($src) = $sent =~ /# source = (.+)/;
     ($trg) = $sent =~ /# text = (.+)/;
-    #$src = &fix_usas($src);
-    #$trg = &fix_usas($trg);
     $trg_str = substr($trg, 0, length($src) * $cut_ratio);
     $trg_str =~ s/(.+) .*/$1/;
     if ($trg_str !~ / /) {$out = $sent}
@@ -121,7 +119,6 @@ sub cut {
 	    elsif ($line =~ /^#/) {$out .= "$line\n"}
 	    elsif (($word) = $line =~ /^\d+\t(.+?)\t/) {
 		$word =~ s/ //g;
-		#$word = &fix_usas($word);
 		if (not $trg_str) {$skip = 1}
 		elsif ($trg_str =~ s/^\Q$word\E//) {
 		    $line =~ s/\|?SpaceAfter=No//;
@@ -145,11 +142,6 @@ sub fix {
     my ($id) = $sent =~ /# sent_id = (.+)/;
     my ($source) = $sent =~ /# source = (.+)/;
     my ($text) = $sent =~ /# text = (.+)/;
-    # Fix PyUSAS bugs;
-    #$id = &fix_usas($id);
-    #$source = &fix_usas($source);
-    #$text = &fix_usas($text);
-    
     foreach my $line (split(/\n/, $sent)) {
 	if ($line =~ /^#/) {
 	    if    ($line =~ /# sent_id /) {push(@out, "# sent_id = $id")}
@@ -163,8 +155,6 @@ sub fix {
 	elsif ($line =~ /\t/) {
             my ($n, $token, $lemma, $upos, $xpos, $ufeats, $link, $role, $extra, $local) 
 		= split /\t/, $line;
-	    #$token = &fix_usas($token);
-	    #$lemma = &fix_usas($lemma);
 	    die "FATAL ERROR: Out of synch in fix on $id / $n:$token in $text\n"
 		unless $text =~ s/^\Q$token\E//;
 	    $space = $text =~ s/^\s+//;
@@ -190,6 +180,8 @@ sub fix {
 		    $ufeats = $new_ufeats
 		}
 	    }
+	    # Fix PyUSAS bugs;
+	    $local = &fix_usas($local);
 	    push(@out, join("\t", ($n, $token, $lemma, $upos, $xpos, $ufeats, $link, $role, $extra, $local)));
 	}
     }
@@ -250,16 +242,20 @@ sub validate {
     }
 }
 
-#No longer used, as USAS now produces correct output
+# Chage illegal category "D" to /9 (Trash can)
+# Combos are eg SEM=
+# C1,Df/Q4.3
+# Df
+# Df+++
+# Dfc
+# Df,Df/O2
+# Df,Q1.2/Df
+# X7+,Df/Q4.3c
 sub fix_usas {
-    my $str = shift;
-    $str =~ s/\t//;
-    if ($str eq '""""') {$str = '"'}
-    elsif ($str =~ /""/) {
-	$str =~ s/""/"/g;
-	$str =~ s/^"//;
-	$str =~ s/"$//;
-    }
-    return $str
+    my $local = shift;
+    my ($sem) = $local =~ /SEM=([^|]+)/;
+    $sem =~ s/D[mfncni%@+-]*/Z9/g;
+    $local =~ s/SEM=([^|]+)/SEM=$sem/;
+    return $local
 }
 

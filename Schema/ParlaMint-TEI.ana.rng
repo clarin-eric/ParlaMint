@@ -36,8 +36,6 @@
       however, contain transcription commentary.</a:documentation>
       <element name="seg">
         <ref name="global.atts"/>
-	<a:documentation>Optional @corresp for MTed corpora.</a:documentation>
-	<ref name="corresp.att"/>
         <oneOrMore>
           <choice>
             <ref name="comment"/>
@@ -54,13 +52,12 @@
     <a:documentation>A sentence.</a:documentation>
     <element name="s">
       <ref name="global.atts"/>
-      <a:documentation>Optional @corresp for MTed corpora.</a:documentation>
-      <ref name="corresp.att"/>
       <oneOrMore>
         <choice>
           <ref name="comment"/>
           <ref name="pb"/>
           <ref name="ner"/>
+          <ref name="phr"/>
           <ref name="word"/>
           <ref name="punct"/>
         </choice>
@@ -71,6 +68,24 @@
     </element>
   </define>
 
+  <define name="phr">
+    <a:documentation>Multi-Word Unit</a:documentation>
+    <element name="phr">
+      <ref name="global.atts"/>
+      <attribute name="function">
+        <data type="token"/>
+      </attribute>
+      <attribute name="ana">
+        <data type="anyURI"/>
+      </attribute>
+      <a:documentation>Currently we only support phrases with semantic markers</a:documentation>
+      <attribute name="type">
+        <value>sem</value>
+      </attribute>
+      <ref name="mwe_tokens"/>
+    </element>
+  </define>
+  
   <define name="ner">
     <a:documentation>Named entity element</a:documentation>
     <choice>
@@ -139,6 +154,16 @@
     </attribute>
   </define>
   
+  <define name="mwe_tokens">
+    <a:documentation>Annotations that can appear in a MWE.</a:documentation>
+    <oneOrMore>
+      <choice>
+        <ref name="word"/>
+        <ref name="punct"/>
+      </choice>
+    </oneOrMore>
+  </define>
+
   <define name="ner_tokens">
     <a:documentation>Annotations that can appear in a NE.</a:documentation>
     <oneOrMore>
@@ -257,6 +282,13 @@
     <optional>
       <attribute name="pos">
 	<ref name="non-empty.string"/>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="function">
+	<!-- This is different from TEI, where it is a name token (which can't contain comma!?) -->
+	<!--ref name="normalized-space.string"/-->
+        <data type="token"/>
       </attribute>
     </optional>
   </define>

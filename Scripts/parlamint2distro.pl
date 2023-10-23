@@ -347,6 +347,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 sub commonTaxonomies {
     my $Country = shift;
     my $outDir = shift;
+    # If this is an MTed corpus then fix Country to be without langauge suffix
+    $Country =~ s/-[a-z]{2}$//;
     foreach my $taxonomy (sort keys %taxonomy) {
 	if ($taxonomy !~ /\.ana/ or
 	    ($taxonomy =~ /\.ana/ and ($outDir =~ /\.ana/ or $outDir !~ /\.TEI/))) {
@@ -424,7 +426,8 @@ sub cp_readme_top {
 
     while (<IN>) {
 	if (m|^# ParlaMint|) {
-	    ($countryCode, $RegionalSuffix, $countryName) = m| ([A-Z]{2}(-[A-Z]{2})?) \((.+)\)$| or die;
+	    ($countryCode, $RegionalSuffix, $countryName) = m| ([A-Z]{2}(-[A-Z]{2})?) \((.+)\)$|
+	       or die "FATAL ERROR: Bad line in README.md file: $_";
 	    die "FATAL ERROR: Bad code $countryCode (!= $country) in $inFile\n" unless $country =~ /$countryCode/;
 	    if    ($type =~ /sample/i) {print OUT "# Samples of the ParlaMint-$countryCode corpus"}
 	    elsif ($type =~ /tei/i)    {print OUT "# Corpus of parliamentary debates ParlaMint-$countryCode"}
@@ -441,7 +444,7 @@ sub cp_readme_top {
 	    print OUT; # Languages
 	    unless ($type eq 'sample') {
 		print OUT "- Version: $version\n";
-		print OUT "- Handle: $handle\n";
+		print OUT "- Handle: [$handle]($handle)\n";
 	    }
 	}
 	else {print OUT}

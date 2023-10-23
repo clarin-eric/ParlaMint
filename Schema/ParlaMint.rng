@@ -55,6 +55,11 @@
       <optional>
         <ref name="ana.att"/>
       </optional>
+      <optional>
+	<attribute name="n">
+          <data type="string"/>
+	</attribute>
+      </optional>
       <oneOrMore>
         <element name="catDesc">
           <ref name="lang.att"/>
@@ -549,7 +554,6 @@
     <a:documentation>A page break, possibly with its source URI.</a:documentation>
     <element name="pb">
       <ref name="global.atts"/>
-      <ref name="corresp.att"/>
       <ref name="source.att"/>
       <empty/>
     </element>
@@ -733,6 +737,7 @@
       <ref name="id.att"/>
     </optional>
     <ref name="lang.att"/>
+    <ref name="corresp.att"/>
     <optional>
       <attribute name="n">
         <data type="string"/>

@@ -318,7 +318,6 @@
     <element name="meeting">
       <ref name="global.atts"/>
       <ref name="ana.att"/>
-      <ref name="corresp.att"/>
       <text/>
     </element>
   </define>
@@ -408,8 +407,6 @@
     <a:documentation>The definition of the div element.</a:documentation>
     <element name="div">
       <ref name="global.atts"/>
-      <a:documentation>Optional @corresp for MTed corpora.</a:documentation>
-      <ref name="corresp.att"/>
       <choice>
         <a:documentation>A standard div with utterances.</a:documentation>
         <group>
@@ -479,8 +476,6 @@
           <ref name="anyURIs"/>
         </attribute>
       </optional>
-      <a:documentation>Optional @corresp for MTed corpora.</a:documentation>
-      <ref name="corresp.att"/>
       <oneOrMore>
         <choice>
           <ref name="seg"/>
@@ -495,8 +490,6 @@
     <a:documentation>A segment (i.e paragraph) inside a speech.</a:documentation>
     <element name="seg">
       <ref name="global.atts"/>
-      <a:documentation>Optional @corresp for MTed corpora.</a:documentation>
-      <ref name="corresp.att"/>
       <oneOrMore>
         <choice>
           <ref name="comment"/>

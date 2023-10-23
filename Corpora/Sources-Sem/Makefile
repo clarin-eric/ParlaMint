@@ -1,8 +1,10 @@
-find-bug:
-	./find-usas-bug.pl 'USAS/ParlaMint-*-en.conllu/*/*.conllu' > USAS-bug.txt
+fix-taxo:
+	$s -xsl:bin/usas-tsv2taxonomy.xsl tsv=../tags-all.tsv ../Taxonomies/ParlaMint-taxonomy-USAS.ana.xml  > usas-taxo.xml
+	${vta} usas-taxo.xml
+nohup-tags:
+	nohup time make get-tags > tags.log &
 get-tags:
-	get-usas-tags.pl USAS/ParlaMint-*-en.conllu > tags1.txt
-	cut -f1 tags1.txt | perl -pe 's/ /\n/g; s/sem://g' | sort | uniq > tags2.txt
+	bin/get-usas-tags.pl 'ParlaMint-*-en.conllu' > tags-all.tsv
 
 sem-test4:
 	perl ../../Scripts/conllu2tei.pl \
@@ -65,3 +67,4 @@ get:
 s = java -jar /usr/share/java/saxon.jar
 j = java -jar /usr/share/java/jing.jar
 P = parallel --gnu --halt 2
+vta = $j ../../Schema/ParlaMint-taxonomy.rng		# Corpus TEI taxonomy

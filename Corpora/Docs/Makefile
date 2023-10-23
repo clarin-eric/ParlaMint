@@ -8,7 +8,7 @@ REGIST_CORPORA = at ba be bg cz dk ee es es_ct es_ga es_pv fi fr gb gr hr hu is 
 
 # Main readmes from Data/, store here and rename
 cp_readmes:
-	rm -f README.md/*.md
+	# rm -f README.md/*.md
 	for CORPUS in ${README_CORPORA}; do \
 	cp ../../Samples/ParlaMint-$${CORPUS}/README.md \
 	README.md/README-$${CORPUS}.md; \

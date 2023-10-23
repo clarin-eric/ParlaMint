@@ -354,8 +354,8 @@ sub sem2ana {
     $semtypes =~ s/,.+//; #Retain only the first tag
     foreach my $semtype (split(m|/|, $semtypes)) {
 	$semtype =~ s/[mfnci%\@]//g; #Remove modifiers
-	$semtype =~ s/\-/m/g; #Change - to m
-	$semtype =~ s/\+/p/g; #Change + to p
+	$semtype =~ s/\-/n/g; #Change - to n(egative)
+	$semtype =~ s/\+/p/g; #Change + to p(ositive)
 	push(@out, "$sem_prefix:$semtype")
     }
     return join(' ', @out)

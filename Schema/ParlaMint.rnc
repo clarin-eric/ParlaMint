@@ -38,6 +38,7 @@ category =
   element category {
     id.att,
     ana.att?,
+    attribute n { xsd:string }?,
     element catDesc {
       lang.att
       >> a:documentation [
@@ -267,7 +268,7 @@ head =
   }
 
 ## A page break, possibly with its source URI.
-pb = element pb { global.atts, corresp.att, source.att, empty }
+pb = element pb { global.atts, source.att, empty }
 
 ## A series of paragraphs. Paragraphs are only used in the teiHeader.
 paras = element p { global.atts, annotated.text }+
@@ -339,6 +340,7 @@ corresp.att = attribute corresp { anyURIs }?
 global.atts =
   id.att?,
   lang.att,
+  corresp.att,
   attribute n { xsd:string }?
 
 ## The identifier attribute, giving the unique ID of the

@@ -2,23 +2,19 @@
 
 ### VARIABLES
 
-# All ParlaMint II corpora
-# XXXCORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RS RO SE SI TR UA
-# Missing corpora: LT RO ES-PV
-
-######## SUBMITTED CORPORA FOR V 4.0
-# CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-
-# Partial runs:
-#DONE: AT BE CZ DK EE ES ES-CT ES-GA FI
-#DOING: GB GR HR HU IS IT
-#REDO:  BA BG ES-PV FR
-#TODO:  LV NL NO PL PT RS SE SI TR UA
-#NEXT:
-CORPORA = BA
+### ALL ParlaMint II CORPORA
+# Missing corpora: LT RO
+# CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RS RO SE SI TR UA
+### SUBMITTED CORPORA FOR V 4.0
+#CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+# Redo (empty title)
+#CORPORA = ES-PV FI UA NO GB
+CORPORA = ES-PV
 
 ######## MTed CORPORA FOR V 4.0
-MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
+#MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en ES-PV-en FI-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
+MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GB-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
+MT-CORPORA = LV-en
 
 # Used in test targets:
 CORPUS = UK
@@ -53,18 +49,20 @@ test-tei2:
 	${FINALIZE} -valid -codes FI -in ${HERE}/Master -out ${HERE}/Master
 test-tei1:
 	${FINALIZE} -tei -valid -codes FI -in ${HERE}/Temp -out ${HERE}/Temp/Out
+test-vert6:
+	../Scripts/parlamintp-tei2vert-xx.pl ${HERE}/Master/ParlaMint-LV.TEI.ana Test/ParlaMint-LV-xx.vert
 test-vert5:
 	$s meta=../Corpora/Master/ParlaMint-FI.TEI.ana/ParlaMint-FI.ana.xml \
 	-xsl:../Scripts/parlamint2xmlvert.xsl Test/test-FI.ana.xml > Test/test-FI.vert
 	#-xsl:../Scripts/parlamint2xmlvert.xsl Test/ParlaMint-FI_2015-06-02-ps-13.ana.xml > Test/test-FI.vert
 test-vert4:
-	$s meta=${HERE}/Master/ParlaMint-BG.TEI.ana/ParlaMint-BG.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
-	${HERE}/Master/ParlaMint-BG.TEI.ana/2014/ParlaMint-BG_2014-10-27.ana.xml > test.vert
+	$s meta=${HERE}/Master/ParlaMint-GB.TEI.ana/ParlaMint-GB.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
+	${HERE}/Master/ParlaMint-GB.TEI.ana/2015/ParlaMint-GB_2015-01-06-commons.ana.xml > test.vert
 test-vert3:
 	$s meta=${HERE}/Master/ParlaMint-UA.TEI.ana/ParlaMint-UA.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
 	${HERE}/Master/ParlaMint-UA.TEI.ana/2012/ParlaMint-UA_2012-12-04-m0.ana.xml > test.vert
 test-vert2:
-	${FINALIZE} -vert -codes ES-PV -in ${HERE}/Master -out ${HERE}/Master
+	${FINALIZE} -vert -codes GB -in ${HERE}/Master -out ${HERE}/Master
 test-vert1:
 	${FINALIZE} -vert -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
 	${FINALIZE} -vert -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
@@ -78,13 +76,13 @@ test-conll2:
 test-conll1:
 	${FINALIZE} -conll -codes SI -in ${HERE}/Master -out ${HERE}/Master
 test-meta2:
-	$s out-lang=en meta=../Corpora/Master/ParlaMint-EE.TEI/ParlaMint-EE.xml -xsl:../Scripts/parlamint2meta.xsl \
-	../Corpora/Master/ParlaMint-EE.TEI/2014/ParlaMint-EE_2014-01-13.xml > test.tsv
+	$s out-lang=en meta=../Corpora/Master/ParlaMint-IS.TEI/ParlaMint-IS.xml -xsl:../Scripts/parlamint2meta.xsl \
+	../Corpora/Master/ParlaMint-IS.TEI/2019/ParlaMint-IS_2019-12-17-48.xml > test.tsv
+test-meta1:
+	${FINALIZE} -txt -codes IS -in ${HERE}/Temp -out ${HERE}/Temp
+	#${FINALIZE} -txt -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
 test-text1:
 	${FINALIZE} -txt -codes ES-CT -in ${HERE}/Master -out ${HERE}/Master
-test-meta1:
-	${FINALIZE} -txt -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
-	${FINALIZE} -txt -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
 
 ## Transliteration tests
 test-translit4:
@@ -167,12 +165,29 @@ samples:
 	${FINALIZE} -sample -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}-samples.log; \
 	done;
 
+# Make vertical with en metadata, a hack:
+XX-CORPORA = AT-xx BA-xx BE-xx BG-xx CZ-xx DK-xx EE-xx ES-xx ES-xx ES-CT-xx ES-GA-xx ES-PV-xx FI-xx FR-xx GB-xx GR-xx HR-xx HU-xx IS-xx IT-xx LV-xx NL-xx NO-xx PL-xx PT-xx RS-xx SE-xx SI-xx TR-xx UA-xx
+# Test: make make-verts-xx CORPORA='LV ES-CT'
+make-verts-xx-nohup:
+	nohup time make make-verts-xx > Logs/ParlaMint-Verts-xx.log &
+make-verts-xx:
+	for CORPUS in ${CORPORA}; do \
+	../Scripts/parlamintp-tei2vert-xx.pl ${HERE}/Master/ParlaMint-$${CORPUS}.TEI.ana Temp/ParlaMint-$${CORPUS}-xx.vert; \
+	done;
+	perl ../Scripts/join-all-verts.pl -codes '${XX-CORPORA}' -in 'Temp' -out Verts/ParlaMint-XX.${VERSION}.vert
+
 # Make vertical files only
 make-verts:
 	for CORPUS in ${CORPORA}; do \
 	${FINALIZE} -vert -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master; \
 	done;
 	make verts
+
+# Don't make TEI but only text, vert and conllu files only
+make-conll-vert-txt:
+	for CORPUS in ${CORPORA}; do \
+	${FINALIZE} -txt -vert -conll -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master; \
+	done;
 
 # Make overall root(.ana) for ParlaMint in Sources-TEI/ or Master/
 source-roots:
@@ -201,7 +216,7 @@ mt-logs:
 	done;
 
 web-nohup:
-	nice nohup time make web > ParlaMint-web &
+	nice nohup time make web > ParlaMint-Web.log &
 web:
 	rsync -av Logs/*.log ${WEB}/Logs
 	rsync -av Packed/*.tgz ${WEB}/Repo
@@ -213,10 +228,12 @@ FINALIZE = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -teihandle ${
 nohup:
 	nice nohup time make all > Logs/ParlaMint.log &
 
-# Second nohup, in case we want several runs at once
+# More nohups, in case we want several runs at once
 # In which case CORPORA variable needs to be changed first!
 nohup2:
 	nice nohup time make all > Logs/ParlaMint.2.log &
+nohup3:
+	nice nohup time make all > Logs/ParlaMint.3.log &
 
 all:	final verts pack
 xall:	final verts pack
@@ -269,11 +286,11 @@ mt-make-verts:
 
 # Join verts only
 mt-verts:
-	perl ../Scripts/join-all-verts.pl     -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX.3.0.vert
-	perl ../Scripts/join-all-verts.pl -en -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX-en.3.0.vert
+	perl ../Scripts/join-all-verts.pl     -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX.${VERSION}.vert
+	perl ../Scripts/join-all-verts.pl -en -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX-en.${VERSION}.vert
 	# Sanity check
-	zcat Verts/ParlaMint-XX.3.0.vert.gz | grep -c '</s>' 
-	zcat Verts/ParlaMint-XX-en.3.0.vert.gz | grep -c '</s>' 
+	zcat Verts/ParlaMint-XX.${VERSION}.vert.gz | grep -c '</s>' 
+	zcat Verts/ParlaMint-XX-en.${VERSION}.vert.gz | grep -c '</s>' 
 
 # Convert from English CoNLL-U + source .TEI.ana -> -en.TEI.ana 
 mt-convert:
@@ -324,8 +341,8 @@ mt-test2:
 	> Test/ParlaMint-LV_2015-11-12-PT12-329.body.xml
 	xmllint --noout Test/ParlaMint-LV_2015-11-12-PT12-329.body.xml
 mt-test1:
-	rm -fr Test/ParlaMint-CZ.tmp/*
-	$s outDir=Test/ParlaMint-CZ.tmp -xsl:../Scripts/mt-prepare4mt.xsl ${HERE}/Master/ParlaMint-CZ.TEI.ana/ParlaMint-CZ.ana.xml
+	rm -fr Test/ParlaMint-LV.tmp/*
+	$s outDir=Test/ParlaMint-LV.tmp -xsl:../Scripts/mt-prepare4mt.xsl ${HERE}/Master/ParlaMint-LV.TEI.ana/ParlaMint-LV.ana.xml
 
 ### Some idea, need to think about it!
 #REGIS=at ba be bg cz dk es_ct fr gb gr hr hu is it lv nl no pl pt rs se si tr ua
