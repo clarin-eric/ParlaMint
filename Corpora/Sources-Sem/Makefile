@@ -1,5 +1,5 @@
 fix-taxo:
-	$s -xsl:bin/usas-tsv2taxonomy.xsl tsv=../tags-all.tsv ../Taxonomies/ParlaMint-taxonomy-USAS.ana.xml  > usas-taxo.xml
+	$s -xsl:bin/usas-tsv2taxonomy.xsl tsv=../tags-all.tsv ../Taxonomies/ParlaMint-taxonomy-USAS.ana.template.xml  > usas-taxo.xml
 	${vta} usas-taxo.xml
 nohup-tags:
 	nohup time make get-tags > tags.log &
@@ -27,7 +27,10 @@ cp-mt-conllu-one:
 	../bin/cp-conllu.pl novalidate ../Master 'USAS/ParlaMint-${CORPUS}-en.conllu' .
 
 #CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-CORPORA =  BG CZ DK EE ES ES-CT ES-GA ES-PV FI 
+#DONE:
+#CORPORA =  BG CZ DK EE ES ES-CT ES-GA ES-PV FI 
+#DOING:
+CORPORA = FR GB GR HR HU IS IT LV NL
 
 nohup:
 	nohup time make cp-mt-conllu > cp-mt-conllu.log &

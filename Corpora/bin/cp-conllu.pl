@@ -1,5 +1,6 @@
 #!/usr/bin/perl
-# Fix MTed CoNLL-U files:
+# Fix MTed and USAS semantically annotated CoNLL-U files:
+# - shorten too long sentences vis a vis orignal
 # - shorten too long sentences vis a vis orignal
 # - sort features and take care of SpaceAfter
 # - merge metadata with original CoNLL-U files
@@ -242,7 +243,7 @@ sub validate {
     }
 }
 
-# Chage illegal category "D" to /9 (Trash can)
+# Chage illegal category "D" to Z9 (Trash can)
 # Combos are eg SEM=
 # C1,Df/Q4.3
 # Df

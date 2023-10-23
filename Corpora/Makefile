@@ -366,6 +366,7 @@ j = java -jar /usr/share/java/jing.jar
 P = parallel --gnu --halt 2
 
 pc = -I % $s -xi -xsl:../Scripts/copy.xsl % | $j parla-clarin.rng
+vxx = $j ${SCH}/ParlaMint-TEI.rng 	        # Validated with ParlaMint TEI 
 vrt = $j ${SCH}/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j ${SCH}/ParlaMint-TEI.rng		# Corpus component / text
 vra = $j ${SCH}/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
