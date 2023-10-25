@@ -12,9 +12,9 @@ gen-auto-ministers:
 ## Generate speaker file
 PER = Speakers-${MC}.tsv
 gen-persons:
-	#mv ${PER} ${PER}.tmp
+	mv ${PER} ${PER}.tmp
 	$s -xsl:${RUN}/parlamint2tbl-persons.xsl ${V3}/ParlaMint-${MC}.TEI/ParlaMint-${MC}.xml > ${PER}
-	#diff ${PER} ${PER}.tmp
+	diff ${PER} ${PER}.tmp
 
 insert-ministers:
 	cp ${V3}/ParlaMint-${MC}.TEI/*.xml ${OUT}/ #copy factorised files
