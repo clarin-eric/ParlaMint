@@ -1,7 +1,6 @@
 #!/usr/bin/perl
 # Fix MTed and USAS semantically annotated CoNLL-U files:
 # - shorten too long sentences vis a vis orignal
-# - shorten too long sentences vis a vis orignal
 # - sort features and take care of SpaceAfter
 # - merge metadata with original CoNLL-U files
 use warnings;
@@ -182,7 +181,7 @@ sub fix {
 		}
 	    }
 	    # Fix PyUSAS bugs;
-	    $local = &fix_usas($local);
+	    # $local = &fix_usas($local);
 	    push(@out, join("\t", ($n, $token, $lemma, $upos, $xpos, $ufeats, $link, $role, $extra, $local)));
 	}
     }
@@ -243,6 +242,7 @@ sub validate {
     }
 }
 
+# This will go into further processing!
 # Chage illegal category "D" to Z9 (Trash can)
 # Combos are eg SEM=
 # C1,Df/Q4.3
