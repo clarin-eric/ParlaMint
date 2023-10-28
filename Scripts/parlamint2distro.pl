@@ -409,7 +409,6 @@ sub cp_readme_top {
     my $outFile = "$outDir/README";
     if ($type eq 'sample') {}
     elsif ($type eq 'ana' or $type eq 'tei') {$outFile .= "-" . $country }
-    if ($mt) {$outFile .= "-$mt"}
     if ($type eq 'ana') {$outFile .= ".ana"}
     $outFile .= ".md";
     
