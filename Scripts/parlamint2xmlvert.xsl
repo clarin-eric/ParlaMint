@@ -46,28 +46,28 @@
     </xsl:variable>
     <speech id="{$speech_id}" text_id="{$text_id}"
             subcorpus="{$subcorpus}" lang="{$lang}" body="{$body}"
-	    term="{$term}" session="{$session}" meeting="{$meeting}" sitting="{$sitting}" agenda="{$agenda}"
+            term="{$term}" session="{$session}" meeting="{$meeting}" sitting="{$sitting}" agenda="{$agenda}"
             date="{$at-date}" title="{$title}">
       <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
       <xsl:choose>
         <xsl:when test="key('idr', @who, $rootHeader)/@xml:id">
           <xsl:variable name="speaker" select="key('idr', @who, $rootHeader)"/>
           <xsl:variable name="gender">
-	    <xsl:choose>
-	      <xsl:when test="$speaker/tei:sex/@value">
-		<xsl:value-of select="$speaker/tei:sex/@value"/>
-	      </xsl:when>
-	      <xsl:otherwise>-</xsl:otherwise>
-	    </xsl:choose>
-	  </xsl:variable>
+            <xsl:choose>
+              <xsl:when test="$speaker/tei:sex/@value">
+                <xsl:value-of select="$speaker/tei:sex/@value"/>
+              </xsl:when>
+              <xsl:otherwise>-</xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
           <xsl:variable name="birth">
-	    <xsl:choose>
-	      <xsl:when test="$speaker/tei:birth/@when">
-		<xsl:value-of select="replace($speaker/tei:birth/@when, '-.+', '')"/>
-	      </xsl:when>
-	      <xsl:otherwise>-</xsl:otherwise>
-	    </xsl:choose>
-	  </xsl:variable>
+            <xsl:choose>
+              <xsl:when test="$speaker/tei:birth/@when">
+                <xsl:value-of select="replace($speaker/tei:birth/@when, '-.+', '')"/>
+              </xsl:when>
+              <xsl:otherwise>-</xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
           <xsl:attribute name="speaker_id" select="$speaker/@xml:id"/>
           <xsl:attribute name="speaker_name" select="et:format-name-chrono(
                                                      $speaker//tei:persName, 
@@ -81,11 +81,11 @@
           <xsl:attribute name="speaker_gender" select="$gender"/>
           <xsl:attribute name="speaker_birth" select="$birth"/>
         </xsl:when>
-	<!-- A speaker that does not have a corresponding <person> element -->
+        <!-- A speaker that does not have a corresponding <person> element -->
         <xsl:when test="normalize-space(@who)">
           <xsl:message select="concat('ERROR: cannot find person ', @who, ' for ', $text_id)"/>
-	</xsl:when>
-	<!-- No @who, legit if speaker is unknown -->
+        </xsl:when>
+        <!-- No @who, legit if speaker is unknown -->
         <xsl:otherwise>
           <xsl:attribute name="speaker_id"/>
           <xsl:attribute name="speaker_name"/>
@@ -120,9 +120,9 @@
           <xsl:when test="@reason">
             <xsl:value-of select="concat(name(), '::', @reason)"/>
           </xsl:when>
-	  <xsl:otherwise>
-	    <xsl:value-of select="concat(name(), ':-')"/> 
-	  </xsl:otherwise>	  
+          <xsl:otherwise>
+            <xsl:value-of select="concat(name(), ':-')"/> 
+          </xsl:otherwise>        
         </xsl:choose>
       </xsl:attribute>
       <xsl:attribute name="content">
@@ -136,7 +136,7 @@
     <p id="{@xml:id}">
       <xsl:variable name="lang-code" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
       <xsl:attribute name="lang" select="et:l10n($corpus-language, 
-					 $rootHeader//tei:langUsage/tei:language[@ident = $lang-code])"/>
+                                         $rootHeader//tei:langUsage/tei:language[@ident = $lang-code])"/>
       <xsl:text>&#10;</xsl:text>
       <xsl:apply-templates/>
     </p>
@@ -146,15 +146,9 @@
   <!-- MWEs with semantic information -->
   <xsl:template match="tei:phr[@type = 'sem']">
     <xsl:copy>
-      <xsl:attribute name="sem_all" select="replace(@function, ',', '|')"/>
-      <xsl:variable name="sem">
-	<xsl:for-each select="tokenize(@ana, ' ')">
-	  <!-- Here we a) assume that the catDesc is only in English and b) that the extended pointer resolves to a local reference -->
-	  <xsl:value-of select="key('id', substring-after(., ':'), $rootHeader)/tei:catDesc/tei:term"/>
-	  <xsl:text>|</xsl:text>
-	</xsl:for-each>
-      </xsl:variable>
-      <xsl:attribute name="sem" select="replace($sem, '\|$', '')"/>
+      <xsl:attribute name="usas_tags" select="et:sem('usas', .)"/>
+      <xsl:attribute name="usas_cats" select="et:sem('ids', .)"/>
+      <xsl:attribute name="usas_full" select="et:sem('glosses', .)"/>
       <xsl:text>&#10;</xsl:text>
       <xsl:apply-templates/>
     </xsl:copy>
@@ -249,33 +243,33 @@
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="et:join-annotations($toks)"/>
-	<xsl:if test="not(normalize-space($nosyntax))">
+        <xsl:if test="not(normalize-space($nosyntax))">
           <xsl:variable name="deps">
             <xsl:for-each select="tei:w | tei:pc">
               <list>
-		<xsl:variable name="annots">
+                <xsl:variable name="annots">
                   <xsl:call-template name="deps">
                     <xsl:with-param name="id" select="@xml:id"/>
                   </xsl:call-template>
-		</xsl:variable>
-		<xsl:for-each select="tokenize($annots, '&#9;')">
+                </xsl:variable>
+                <xsl:for-each select="tokenize($annots, '&#9;')">
                   <item>
                     <xsl:value-of select="."/>
                   </item>
-		</xsl:for-each>
+                </xsl:for-each>
               </list>
             </xsl:for-each>
           </xsl:variable>
           <xsl:text>&#9;</xsl:text>
           <xsl:value-of select="et:join-annotations($deps)"/>
-	</xsl:if>
+        </xsl:if>
       </xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="concat(., '&#9;', et:output-annotations(.))"/>
-	<xsl:if test="not(normalize-space($nosyntax))">
-	  <xsl:text>&#9;</xsl:text>
+        <xsl:if test="not(normalize-space($nosyntax))">
+          <xsl:text>&#9;</xsl:text>
           <xsl:call-template name="deps"/>
-	</xsl:if>
+        </xsl:if>
       </xsl:otherwise>
     </xsl:choose>
     <xsl:text>&#10;</xsl:text>
@@ -295,33 +289,33 @@
     <xsl:variable name="s" select="ancestor::tei:s"/>
     <xsl:choose>
       <xsl:when test="$s/tei:linkGrp[@type=$type]">
-	<!-- We need to take only the first link, in case of errros in linkGrp (two links with same token in FI) -->
+        <!-- We need to take only the first link, in case of errros in linkGrp (two links with same token in FI) -->
         <xsl:variable name="link"
                       select="$s/tei:linkGrp[@type=$type]/tei:link
                               [ends-with(@target, concat(' #', $id))][1]"/>
-	<xsl:choose>
+        <xsl:choose>
           <xsl:when test="not(normalize-space($link/@ana))">
             <xsl:message>
               <xsl:text>ERROR: no syntactic link for token </xsl:text>
               <xsl:value-of select="concat(ancestor::tei:TEI/@xml:id, ':', @xml:id)"/>
             </xsl:message>
             <xsl:text>-&#9;-&#9;-&#9;-&#9;-</xsl:text>
-	  </xsl:when>
-	  <xsl:otherwise>
+          </xsl:when>
+          <xsl:otherwise>
             <!-- Syntactic relation is the English term in the UD-SYN taxonomy -->
             <xsl:variable name="relation" select="substring-after($link/@ana, ':')"/>
             <xsl:value-of select="et:l10n($corpus-language, key('id', $relation, $rootHeader)/tei:catDesc)/tei:term"/>
             <xsl:variable name="target" select="key('id', replace($link/@target,'#(.+?) #.*', '$1'))"/>
             <xsl:choose>
               <xsl:when test="$target/self::tei:s">
-		<xsl:text>&#9;-&#9;-&#9;-&#9;-</xsl:text>
+                <xsl:text>&#9;-&#9;-&#9;-&#9;-</xsl:text>
               </xsl:when>
               <xsl:otherwise>
-		<xsl:value-of select="concat('&#9;', et:output-annotations($target))"/>
+                <xsl:value-of select="concat('&#9;', et:output-annotations($target))"/>
               </xsl:otherwise>
             </xsl:choose>
-	  </xsl:otherwise>
-	</xsl:choose>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:when>
       <xsl:otherwise>
         <xsl:message>
