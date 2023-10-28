@@ -2,27 +2,29 @@
 
 ### VARIABLES
 
-### ALL ParlaMint II CORPORA
-# Missing corpora: LT RO
-# CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RS RO SE SI TR UA
-
 ### SUBMITTED CORPORA FOR V 4.0
 #CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
-# Doing-en:
-# CORPORA = AT BE BG CZ DK EE
+# Done-en:
+#CORPORA = ES-CT ES-GA ES-PV FI FR 
 
-# Doing-xx:
-CORPORA = DK
+# ERRORS:
+#CORPORA = 
+# DOINT 4:
+#CORPORA = IT LV NL NO PT
+#DOING 2:
+#CORPORA = GR HR HU IS
 
+# Doing verts-en:
+CORPORA = LV
 
 ######## MTed CORPORA FOR V 4.0
 #MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en ES-PV-en FI-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GB-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
-MT-CORPORA = LV-en
+MT-CORPORA = ES-CT-en ES-GA-en ES-PV-en FI-en
 
 # Used in test targets:
-CORPUS = UK
+CORPUS = LV
 
 #Where things are, as we use several branches: this one (most likely dev), and documentation
 PARLAMINT = /project/corpora/Parla/ParlaMint/ParlaMint
@@ -135,13 +137,14 @@ mt-convert-txt:
 	${FINALIZE-MT} -txt -conll -codes $${CORPUS}-en -out ${HERE}/Master; \
 	done;
 
-### Fixes for 3.0:
-# Merge per-language translated CoNLL-Us (BE, ES-CT, UA) to joint CoNLL-Us
+### Fixes
+# Merge per-language translated CoNLL-Us (BE, ES-CT, ES-PV, UA) to joint CoNLL-Us
 mrg-conll-nohup:
 	nohup time make mrg-conll > Logs/ParlaMint_Merge_CoNLL-U.log &
 mrg-conll:
 	bin/merge-conllu.pl Master/ParlaMint-BE.conllu ${SOURCES-MT}/ParlaMint-BE-en.conllu
 	bin/merge-conllu.pl Master/ParlaMint-ES-CT.conllu ${SOURCES-MT}/ParlaMint-ES-CT-en.conllu
+	bin/merge-conllu.pl Master/ParlaMint-ES-PV.conllu ${SOURCES-MT}/ParlaMint-ES-PV-en.conllu
 	bin/merge-conllu.pl Master/ParlaMint-UA.conllu ${SOURCES-MT}/ParlaMint-UA-en.conllu
 
 # Fix a mistake with handle in corpora
@@ -266,6 +269,9 @@ mt-nohup2:
 	nice nohup time make mt-all-final > Logs/ParlaMint-en.2.log &
 mt-nohup3:
 	nice nohup time make mt-all-final > Logs/ParlaMint-en.3.log &
+mt-nohup4:
+	nice nohup time make mt-all-final > Logs/ParlaMint-en.4.log &
+
 mt-all-final:	mt-convert
 mt-xall-final:	mt-convert mt-verts mt-pack mt-web
 
@@ -273,6 +279,9 @@ mt-web:
 	rsync -av Logs/*-en*.log ${WEB}/Logs
 	rsync -av Packed/*-en*.tgz ${WEB}/Repo
 mt-pack:
+	for CORPUS in ${MT-CORPORA}; do \
+	cp -r ${SOURCES-MT}/ParlaMint-$${CORPUS}.conllu/* Master/ParlaMint-$${CORPUS}.conllu; \
+	done;
 	perl ../Scripts/pack-parlamint.pl -codes '${MT-CORPORA}' -in Master -out Packed
 
 ### Make joint vert for all ParlaMint corpora
@@ -288,9 +297,9 @@ mt-make-verts:
 mt-verts:
 	#perl ../Scripts/join-all-verts.pl     -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX.${VERSION}.vert
 	perl ../Scripts/join-all-verts.pl -en -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX-en.${VERSION}.vert
-	# Sanity check
+	# Sanity check for alignment
 	#zcat Verts/ParlaMint-XX.${VERSION}.vert.gz | grep -c '</s>' 
-	zcat Verts/ParlaMint-XX-en.${VERSION}.vert.gz | grep -c '</s>' 
+	#zcat Verts/ParlaMint-XX-en.${VERSION}.vert.gz | grep -c '</s>' 
 
 # Convert from English CoNLL-U + source .TEI.ana -> -en.TEI.ana 
 mt-convert:
@@ -300,10 +309,17 @@ mt-convert:
 	${SOURCES-MT}/ParlaMint-$${CORPUS}-en-notes.tsv \
 	${SOURCES-MT}/ParlaMint-$${CORPUS}-en.conllu \
 	${TEMP}/ParlaMint-$${CORPUS}-en.TEI.ana 2> Logs/ParlaMint-$${CORPUS}-en.log; \
-	${FINALIZE-MT} -all -notei -noconll -codes $${CORPUS}-en -in ${TEMP} -out ${HERE}/Master \
+	${FINALIZE-MT} -all -notei -codes $${CORPUS}-en -in ${TEMP} -out ${HERE}/Master \
 	2>> Logs/ParlaMint-$${CORPUS}-en.log; \
 	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}-en.log > Logs/ParlaMint-$${CORPUS}-en.error.log;  \
 	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}-en.log > Logs/ParlaMint-$${CORPUS}-en.warn.log;  \
+	done;
+
+### Make CoNLL-U only
+# Convert from English CoNLL-U + source .TEI.ana -> -en.TEI.ana 
+mt-conllu:
+	for CORPUS in ${CORPORA}; do \
+	${FINALIZE-MT} -conll -codes $${CORPUS}-en -in ${TEMP} -out ${HERE}/Master; \
 	done;
 
 ### Tests for debugging MT processing
