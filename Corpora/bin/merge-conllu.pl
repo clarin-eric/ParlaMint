@@ -11,10 +11,22 @@ foreach $jointFile (glob "$inJointDir/*/*.conllu") {
     ($year, $country, $rest) = $jointFile =~ m|/(\d\d\d\d)/ParlaMint-([A-Z-]+)_(.+)\.conllu|;
     $inFiles = "$inMTDir/$year/ParlaMint-$country-*\_$rest";
     @langFiles = glob("$inFiles-*\.conllu");
-    die "FATAL ERROR: can't find any files matching $inFiles-*.conllu\n"
-	unless @langFiles;
-    ($lang1) = $langFiles[0] =~ m|(..)\.conllu$|;
-    ($lang2) = $langFiles[1] =~ m|(..)\.conllu$|;
+    if (@langFiles) {&proc_file(@langFiles)}
+    else {
+        @langFiles = glob("$inFiles\.conllu");
+        if (@langFiles) {
+            my $inFile = $langFiles[0];
+            my $outFile = "$inMTDir/$year/ParlaMint-$country-en_$rest.conllu";
+            print STDERR "WARN: Couldn't find per-langauge files, but found $inFile, assuming it's ok\n";
+        }
+        else {die "FATAL ERROR: can't find any files matching $inFiles-*.conllu nor $inFiles.conllu\n"}
+    }
+}
+
+sub proc_file {
+    my @langFiles = @_;
+    my ($lang1) = $langFiles[0] =~ m|(..)\.conllu$|;
+    my ($lang2) = $langFiles[1] =~ m|(..)\.conllu$|;
     die "FATAL ERROR: number of langauge files for $jointFile is not 2 but ". scalar(@langFiles) . "\n"
 	unless scalar(@langFiles) == 2;
     print STDERR "INFO: processing $inFiles $lang1, $lang2\n";
@@ -84,4 +96,3 @@ foreach $jointFile (glob "$inJointDir/*/*.conllu") {
     die "FATAL: Left over sentences in $langFiles[0]\n" if @in1;
     die "FATAL: Left over sentences in $langFiles[1]\n" if @in2;
 }
-
