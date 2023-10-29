@@ -148,7 +148,7 @@
     <xsl:copy>
       <xsl:attribute name="usas_tags" select="et:sem('usas', .)"/>
       <xsl:attribute name="usas_cats" select="et:sem('ids', .)"/>
-      <xsl:attribute name="usas_full" select="et:sem('glosses', .)"/>
+      <xsl:attribute name="usas_glosses" select="et:sem('glosses', .)"/>
       <xsl:text>&#10;</xsl:text>
       <xsl:apply-templates/>
     </xsl:copy>
