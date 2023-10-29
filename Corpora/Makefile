@@ -6,22 +6,29 @@
 #CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
 # Done-en:
-#CORPORA = ES-CT ES-GA ES-PV FI FR 
+#CORPORA = AT ES-CT ES-GA ES-PV DK FI FR GR HR IT LV UA NO
 
 # ERRORS:
 #CORPORA = 
-# DOINT 4:
-#CORPORA = IT LV NL NO PT
-#DOING 2:
-#CORPORA = GR HR HU IS
+
+# DOING 5:
+#CORPORA = RS SE SI TR
+# DOING 4:
+#CORPORA = NL NO PT
+# DOING 3:
+#CORPORA = GB GR HR
+#DOING 2: 
+#CORPORA = HU IS
+# DOING 1:
+#CORPORA = BE BG CZ DK EE ES
 
 # Doing verts-en:
-CORPORA = LV
+# CORPORA = LV
 
 ######## MTed CORPORA FOR V 4.0
 #MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en ES-PV-en FI-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GB-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
-MT-CORPORA = ES-CT-en ES-GA-en ES-PV-en FI-en
+MT-CORPORA = LV-en
 
 # Used in test targets:
 CORPUS = LV
@@ -271,6 +278,8 @@ mt-nohup3:
 	nice nohup time make mt-all-final > Logs/ParlaMint-en.3.log &
 mt-nohup4:
 	nice nohup time make mt-all-final > Logs/ParlaMint-en.4.log &
+mt-nohup5:
+	nice nohup time make mt-all-final > Logs/ParlaMint-en.5.log &
 
 mt-all-final:	mt-convert
 mt-xall-final:	mt-convert mt-verts mt-pack mt-web
