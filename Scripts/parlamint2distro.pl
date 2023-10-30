@@ -435,7 +435,7 @@ sub cp_readme_top {
 	    if ($MT) {print OUT " (translation to English)"}
 	    print OUT "\n";
 	}
-	elsif (m|- Language|) {
+	elsif (m|- +Language|) {
 	    if    ($countryCode =~ /^..-..$/) {print OUT "- Autonomous region: "}
 	    elsif ($countryCode =~ /^..$/)    {print OUT "- Country: "}
 	    else {die "Strange country code $countryCode for cp_readme_top\n"}
