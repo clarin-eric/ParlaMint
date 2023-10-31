@@ -36,7 +36,7 @@ $USAStaxonomy = "$Bin/../Corpora/Taxonomies/ParlaMint-taxonomy-USAS.ana.xml";
 
 $saxon = "java -jar -Xmx240g /usr/share/java/saxon.jar";
 $scriptStripSents  = "$Bin/mt-prepare4mt.xsl";
-$scriptConllu2Tei   = "$Bin/conllu2tei.pl";
+$scriptConllu2Tei  = "$Bin/conllu2tei.pl";
 $scriptInsertNotes = "$Bin/mt-insert-notes.xsl";
 $scriptInsertSents = "$Bin/mt-insert-s.pl";
 $scriptPolish = "$Bin/polish-xml.pl";
