@@ -2,6 +2,7 @@
 # Fix MTed and USAS semantically annotated CoNLL-U files:
 # - shorten too long sentences vis a vis orignal
 # - sort features and take care of SpaceAfter
+# - remove Spacy analysis if it identical to main analysis (XPoS, UPoS, lemma)
 # - merge metadata with original CoNLL-U files
 use warnings;
 use utf8;
@@ -170,9 +171,9 @@ sub fix {
 		else {$local =~ s/\|SpaceAfter=No//}
 	    }
             # Remove Spacy tags if they are identical to UPoS/XPoS/lemma anyway
-            $local =~ s/\|SpacyLemma=\Q$lemma\E//;
-            $local =~ s/\|SpacyUPoS=\Q$upos\E//;
-            $local =~ s/\|SpacyXPoS=\Q$xpos\E//;
+            $local =~ s/SpacyLemma=\Q$lemma\E\|//;
+            $local =~ s/SpacyUPoS=\Q$upos\E\|//;
+            $local =~ s/SpacyXPoS=\Q$xpos\E\|//;
 	    if ($ufeats ne '_') {
 		my %feats;
 		my @sorted_feats = ();
