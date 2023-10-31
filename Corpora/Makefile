@@ -6,24 +6,22 @@
 #CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
 # Done-en:
-#CORPORA = AT ES-CT ES-GA ES-PV DK FI FR GR HR IT LV UA NO
+#CORPORA = AT BA ES-CT ES-GA ES-PV FI FR GB GR HR HU IT IS LV RS SE SI
 
 # ERRORS:
 #CORPORA = 
-
+# DOING 6:
+#CORPORA = ES
 # DOING 5:
-#CORPORA = RS SE SI TR
+# CORPORA = UA
 # DOING 4:
 #CORPORA = NL NO PT
 # DOING 3:
-#CORPORA = GB GR HR
+#CORPORA = PL
 #DOING 2: 
-#CORPORA = HU IS
+#CORPORA = TR
 # DOING 1:
-#CORPORA = BE BG CZ DK EE ES
-
-# Doing verts-en:
-# CORPORA = LV
+#CORPORA = BE BG CZ DK EE -> ES
 
 ######## MTed CORPORA FOR V 4.0
 #MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en ES-PV-en FI-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -280,6 +278,8 @@ mt-nohup4:
 	nice nohup time make mt-all-final > Logs/ParlaMint-en.4.log &
 mt-nohup5:
 	nice nohup time make mt-all-final > Logs/ParlaMint-en.5.log &
+mt-nohup6:
+	nice nohup time make mt-all-final > Logs/ParlaMint-en.6.log &
 
 mt-all-final:	mt-convert
 mt-xall-final:	mt-convert mt-verts mt-pack mt-web
@@ -333,6 +333,11 @@ mt-conllu:
 
 ### Tests for debugging MT processing
 
+mt-test10:
+	${FINALIZE-MT} -all -notei -codes GB-en -in ${TEMP} -out ${HERE}/Master \
+	2>> Logs/ParlaMint-GB-en.log
+	grep -a -i 'error' Logs/ParlaMint-GB-en.log > Logs/ParlaMint-GB-en.error.log
+	grep -a -i 'warn'  Logs/ParlaMint-GB-en.log > Logs/ParlaMint-GB-en.warn.log
 mt-test9:
 	$s nosyntax=true out-lang=en meta=${HERE}/Master/ParlaMint-ES-CT-en.TEI.ana/ParlaMint-ES-CT-en.ana.xml \
 	-xsl:../Scripts/parlamint2xmlvert.xsl \
@@ -363,12 +368,17 @@ mt-test3:
 	Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.null.xml \
 	> Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.notes.xml
 mt-test2a:
-	perl ../Scripts/conllu2tei.pl < Test/0.conllu > Test/0.body.xml
+	perl ../Scripts/conllu2tei.pl < Test/ParlaMint-TR-en_2011-07-04-tbmm-T24.conllu > Test/0.body.xml
+mt-test2x:
+	perl ../Scripts/conllu2tei.new.pl \
+	< ${SOURCES-MT}/ParlaMint-GB-en.conllu/2022/ParlaMint-GB-en_2022-06-21-commons.conllu \
+	> Test/ParlaMint-GB-en_2022-06-21-commons.body.xml
+	xmllint --noout Test/ParlaMint-GB-en_2022-06-21-commons.body.xml
 mt-test2:
-	perl ../Scripts/conllu2tei.pl \
-	< ${SOURCES-MT}/USAS/ParlaMint-LV-en.conllu/2015/ParlaMint-LV-en_2015-11-12-PT12-329.conllu \
-	> Test/ParlaMint-LV_2015-11-12-PT12-329.body.xml
-	xmllint --noout Test/ParlaMint-LV_2015-11-12-PT12-329.body.xml
+	perl ../Scripts/conllu2tei.new.pl \
+	< ${SOURCES-MT}/ParlaMint-GB-en.conllu/2022/ParlaMint-GB-en_2022-06-22-commons.conllu \
+	> Test/ParlaMint-GB-en_2022-06-22-commons.body.xml
+	xmllint --noout Test/ParlaMint-GB-en_2022-06-22-commons.body.xml
 mt-test1:
 	rm -fr Test/ParlaMint-LV.tmp/*
 	$s outDir=Test/ParlaMint-LV.tmp -xsl:../Scripts/mt-prepare4mt.xsl ${HERE}/Master/ParlaMint-LV.TEI.ana/ParlaMint-LV.ana.xml

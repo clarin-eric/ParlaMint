@@ -57,7 +57,8 @@ mrg-conll:
 	../bin/merge-conllu.pl ../Master/ParlaMint-ES-PV.conllu ParlaMint-ES-PV-en.conllu
 	../bin/merge-conllu.pl ../Master/ParlaMint-UA.conllu    ParlaMint-UA-en.conllu
 
-CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+#CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+CORPORA = TR
 nohup:
 	nohup time make cp-mt-conllu > cp-mt-conllu.log &
 
