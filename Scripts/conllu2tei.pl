@@ -50,7 +50,7 @@ while (<>) {
         if (m|# newpar id|) {$has_p = 1}
         $has_div = 1;
         $s_n = 0;
-        if ($has_div) {
+        if ($has_s != -1) {
             if ($has_p) {print "</p>\n"}
             else {print "</ab>\n"}
             print "</div>\n";
