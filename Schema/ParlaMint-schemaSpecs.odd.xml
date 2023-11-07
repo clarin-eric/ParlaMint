@@ -25,7 +25,7 @@
               include="addName affiliation birth death education event forename listEvent listOrg listPerson listRelation nameLink occupation org orgName persName person placeName relation roleName sex state surname"/>
    <moduleRef key="linking" include="link linkGrp seg"/>
    <moduleRef key="figures" include="figure"/>
-   <moduleRef key="analysis" include="pc s w"/>
+   <moduleRef key="analysis" include="pc s w phr"/>
    <!-- Attributes used in ParlaMint: -->
    <!-- Why isn't u included in att.fragmentable? Issue to tei-c? -->
    <!-- Cannot have xml: in include or except! -->
@@ -2085,7 +2085,7 @@
                   <meeting n="35-upper" ana="#parla.upper #parla.term">35ste Eerste Kamer</meeting>
                   <meeting n="36-upper" ana="#parla.upper #parla.term">36ste Eerste Kamer</meeting>
                   <respStmt>
-                     <persName xml:lang="nl">Ruben van Heusden</persName>
+                     <persName xml:id="RubenvanHeusden" xml:lang="nl">Ruben van Heusden</persName>
                      <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
                   </respStmt>
                   <funder>
@@ -2142,7 +2142,7 @@
                   <meeting ana="#parla.lower #parla.session" corresp="#TK" n="2">Session 2</meeting>
                   <meeting ana="#parla.lower #parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
                   <respStmt>
-                     <persName>Ruben van Heusden</persName>
+                     <persName xml:id="RubenvanHeusden" xml:lang="nl">Ruben van Heusden</persName>
                      <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
                   </respStmt>
                   <funder>
@@ -2474,8 +2474,7 @@
             </alternate>
          </alternate>
       </content>
-      <attList><!--persName/@xml:lang--><!--persName/@ref--><!--persName/@from--><!--persName/@to-->
-         <attDef ident="xml:id" mode="delete"/>
+      <attList><!--persName/@xml:id--><!--persName/@xml:lang--><!--persName/@ref--><!--persName/@from--><!--persName/@to-->
          <attDef ident="n" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>

@@ -2063,17 +2063,28 @@
             </div>
             
             <div xml:id="sec-CHES">
-              <head>Encoding CHES metadata</head>
-              <p>The second type of metadata comies from the <ref target="https://www.chesdata.eu/ches-europe">Chapel
+              <head>Encoding CHES variables</head>
+              <p>The second type of metadata on organisations, in particular on political parties and parliamentary groups comes
+              from the <ref target="https://www.chesdata.eu/ches-europe">Chapel
               Hill Expert Surveys for Europe</ref> (CHES), either from the 1999-2019 edition, of from the 2019 edition. Here the
               top-level <gi>state</gi> element gives the <att>type</att> of the state, i.e. <val>CHES</val> and the URL of
-              the CSV source for the information. Its <gi>label</gi><note>Note that, according to TEI, a label should not appear in a state element in case this element contains subordinate state elements. In other words, this label makes the current encoding of ParlaMint corpora invalid according to TEI. This should be corrected in a future release.</note> gives the abbreviation of the political party name in CHES,
+              the CSV source for the information.
+
+              Its <gi>label</gi><note>Note that, according to TEI, a label should not appear in a state element in case this element
+              contains subordinate state elements. In other words, this label makes the current encoding of ParlaMint corpora invalid
+              according to TEI. This should be corrected in a future release.</note>
+
+              gives the abbreviation of the political party name in CHES,
               which can, and often does, differ from its ParlaMint abbreviation.
+
               Each subordinate <gi>state</gi> (of <att>type</att> <val>variable</val>) then encodes one CHES variable, which is
 	      given, via the <att>ana</att> attribute, as the reference to the appropriate category defined in the <val>CHES</val>
-	      taxonomy. Finally, as CHES gives
-              variables according to years, the third level of <gi>state</gi> (of <att>type</att> <val>value</val>) gives the
-	      time periods of the variable together with its numeric value in the <att>n</att> attribute, as illustrated in the
+	      taxonomy (cf. the Section on <ref target="#sec-classDecl">Class declaration and taxonomies</ref>).
+
+
+              Finally, as CHES gives the values of its variables according to years,
+              the third level of <gi>state</gi> (of <att>type</att> <val>value</val>) stores the
+	      periods of the variable together with its numeric value in the <att>n</att> attribute, as illustrated in the
 	      example below:
               
               <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-ches">
@@ -3007,7 +3018,7 @@
             the categories into the local language - a fixed structure, as follows:
             
             <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-ana-taxonomy-NER">
-              <taxonomy xml:id="NER">
+              <taxonomy xml:id="ParlaMint-taxonomy-NER.ana">
                 <desc xml:lang="en"><term>Named entities</term></desc>
                 <category xml:id="PER">
                   <catDesc xml:lang="sl"><term>oseba</term></catDesc>
@@ -3036,7 +3047,7 @@
             language only. Below we illustrate by giving a few relation definitions:
 
             <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-ana-taxonomy-UD">
-              <taxonomy xml:id="UD-SYN">
+              <taxonomy xml:id="ParlaMint-taxonomy-UD-SYN.ana">
                 <desc xml:lang="en">
                   <term>UD syntactic relations</term>
                 </desc>
@@ -3189,7 +3200,7 @@
           <item>The filenames are extended with the target language code, as described in the
           Section on <ref target="#sec-files">Filenames</ref>, e.g. the linguistically analysed
           English translation of the Latvian corpus would have the root filename
-          <code>ParlaMint-LV-en.ana.xml</code> and a component filename from could be
+          <code>ParlaMint-LV-en.ana.xml</code> and a component filename could be
           <code>ParlaMint-LV_2014-11-04.ana.xml</code>.</item>
           <item>The top-level <att>xml:id</att> of the corpus root and of components must also be changed
           accordingly to e.g. <code>ParlaMint-LV-en.ana</code> or 
@@ -3203,16 +3214,19 @@
         
         <p>The structure of the <gi>text</gi>, inluding the transcriber comments and
         the linguistic analysis is encoded the same as as for the corpora in the source
-        language, with the only difference being that the aligned elements are linked
-        to their corresponding elements in the source corpus. In the current machine translted corpora
-        this alignment is very simple, as we have only sentence alignments, which have, furthermore,
-        always a 1-1 mapping to corresponding source sentences. Therefore the alignment is
-        trivial, simply specifiying the same <att>xml:id</att> value of the sentence in the source corpus,
+        language. The two differences are that the aligned elements are linked
+        to their corresponding elements in the source corpus, and, to simplify processing, the
+        transcriber comments are moved outside sentences in the (rare) cases where they appeared inside them
+        in the original language corpus. In the current machine translated corpora
+        the alignment are given to utterances, segments, sentences, and transcriber comments, which have, furthermore,
+        always a 1-1 mapping to the corresponding source element. Therefore the alignment is
+        trivial, simply specifiying the same <att>xml:id</att> value of the element the source corpus,
         as illustrated in the following example:
         
         <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-mt">
           <div type="debateSection" xml:lang="en">
-            <note type="speaker" xml:lang="en">Head of the sitting.</note>
+            <note type="speaker" xml:id="ParlaMint-LV_2019-01-31-PT13-516.ana.note1"
+                  corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516.ana.note1">Head of the sitting.</note>
             <u who="#ĀboltiņaSolvita" xml:id="ParlaMint-LV_2014-11.u1"
                ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-LV_2014-11.u1">
               <seg xml:id="ParlaMint-LV_2014-11-04.seg1" xml:lang="en" corresp="mt-src:ParlaMint-LV_2014-11-04.seg1">
@@ -3229,9 +3243,8 @@
           </div>
         </egXML>
 
-        As can be seen above, the alignment is specified on the <att>corresp</att> attibute on sentences
-        (<gi>s</gi>), as well as on segments (<gi>seg</gi>) and utterances (<gi>u</gi>).
-        The alignment reference makes use of the TEI extended pointer syntax (cf. the Section on
+        As can be seen above, the alignment is specified on the <att>corresp</att> attibute.
+        The alignment reference makes use of the TEI extended pointer syntax (cf. also the Section on
         <ref target="#sec-ana-prefixDef">Prefix definitions</ref>), to define the <val>mt-src</val> prefix
         which must resolve to the correct component file of the corpus in the source language.</p>
         
@@ -3258,7 +3271,8 @@
         <code>ParlaMint-LV-en.TEI.ana/2014/../../ParlaMint-LV.TEI.ana/2014/ParlaMint-LV_2014.ana.xml</code>
         i.e. to <code>./ParlaMint-LV.TEI.ana/2014/ParlaMint-LV_2014-11-04.xml</code>.</p>
         
-        <p>The final additional element of the transated corpora is the information on the application (<gi>application</gi>),
+        <p>The final additional element of the transated corpora is the information on the application, <gi>application</gi>,
+        (cf. also the Section on <ref target="#sec-ana-appInfo">Application information for linguistic processing</ref>) 
         i.e. on the program that was used to translate the corpora, as illustrated by the following example:
         
         <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-mt-appInfo">
