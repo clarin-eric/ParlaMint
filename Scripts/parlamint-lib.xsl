@@ -196,10 +196,16 @@
     </xsl:copy>
   </xsl:template>
   <xsl:template mode="expand" match="xi:include">
-    <xsl:apply-templates mode="expand" select="document(@href)"/>
+    <xsl:param name="lang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
+    <xsl:apply-templates mode="expand" select="document(@href)">
+      <xsl:with-param name="lang" select="$lang"/>
+    </xsl:apply-templates>
   </xsl:template>
   <xsl:template mode="expand" match="@*">
     <xsl:copy/>
+  </xsl:template>
+  <xsl:template mode="expand" match="text()">
+    <xsl:value-of select="."/>
   </xsl:template>
 
   <!-- NAMED TEMPLATES -->
@@ -309,45 +315,31 @@
   <xsl:template name="meeting">
     <xsl:param name="ref"/>
     <xsl:variable name="component-id" select="/tei:TEI/@xml:id"/>
-    <xsl:variable name="result">
-      <xsl:variable name="idref" select="concat('#', $ref)"/>
-      <xsl:variable name="meetings">
-        <xsl:apply-templates mode="expand" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:meeting"/>
-      </xsl:variable>
-      <xsl:for-each select="$meetings/tei:meeting">
-        <xsl:variable name="name">
-          <xsl:choose>
-            <xsl:when test="normalize-space(.)">
-              <xsl:value-of select="et:l10n($corpus-language, .)"/>
-            </xsl:when>
-            <xsl:when test="@n">
-              <xsl:value-of select="@n"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:message select="concat('ERROR: no meeting/text() or meeting/@n for ', $ref, ' in ', $component-id)"/>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:variable>
-        <xsl:for-each select="tokenize(@ana, ' ')">
-          <xsl:if test="starts-with(., $idref)">
-            <xsl:value-of select="$name"/>
-            <xsl:text>///</xsl:text>
-          </xsl:if>
-        </xsl:for-each>
-      </xsl:for-each>
+    <xsl:variable name="idref" select="concat('#', $ref)"/>
+    <xsl:variable name="meetings">
+      <xsl:apply-templates mode="expand" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/
+                                                 tei:meeting[contains(@ana, $idref)]"/>
     </xsl:variable>
+    <!--xsl:message select="concat('DEBUG: 1 = ', $meetings/tei:meeting[1], ' 2 = ', $meetings/tei:meeting[2] )"/-->
     <xsl:choose>
-      <xsl:when test="normalize-space($result)">
-        <xsl:for-each select="distinct-values(tokenize(replace($result, '///$', ''), '///'))">
-          <xsl:value-of select="."/>
-        </xsl:for-each>
+      <!-- This type of meeting is undefined -->
+      <xsl:when test="not($meetings/tei:meeting)">
+        <xsl:text>-</xsl:text>
       </xsl:when>
+      <xsl:when test="normalize-space($meetings/tei:meeting[1])">
+        <xsl:value-of select="et:l10n($corpus-language, $meetings/tei:meeting)"/>
+      </xsl:when>
+      <xsl:when test="$meetings/tei:meeting[1]/@n">
+        <xsl:value-of select="$meetings/tei:meeting[1]/@n"/>
+      </xsl:when>
+      <!-- Defined, but has neither text nor @n -->
       <xsl:otherwise>
+        <xsl:message select="concat('ERROR: no meeting/text() or meeting/@n for ', $ref, ' in ', $component-id)"/>
         <xsl:text>-</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-    
+  
   <!-- FUNCTIONS -->
 
   <!-- Format the name of a person in a given point in time -->
@@ -981,7 +973,7 @@
     <!-- Note that corpus-langauge can be "en" for MTed corpora, so we need to choose only one result -->
     <xsl:variable name="element-yy" select="$elements[not(@xml:lang = 'en' or
                                             @xml:lang = $corpus-language or ends-with(@xml:lang, '-Latn'))][1]"/>
-    <!-- If nothing else serves... -->
+    <!-- If nothing else serves we take first element as fall-back -->
     <xsl:variable name="element-fb" select="$elements[1]"/>
     <xsl:choose>
       <xsl:when test="$out-lang = 'xx'">
