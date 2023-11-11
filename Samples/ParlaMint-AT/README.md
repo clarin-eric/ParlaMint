@@ -29,3 +29,7 @@ There are no additional TEI elements beyond what’s described in the ParlaMint 
 ### Linguistic annotation
 
 There is no specific linguistic annotation going beyond what’s common for all corpora.
+
+### Disclaimer to the English translation
+
+Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

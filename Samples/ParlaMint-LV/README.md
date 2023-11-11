@@ -24,3 +24,7 @@ The affiliations are only meant to to be used for #member roles. If speaker was 
 All annotation layers are generated using Latvian NLP Tool Pipeline (http://nlp.ailab.lv/)
 
 A. Znotins and E. Cirule, NLP-PIPE: Latvian NLP Tool Pipeline, Human Language Technologies - The Baltic Perspective, IOS Press, 2018,
+
+### Disclaimer to the English translation
+
+Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

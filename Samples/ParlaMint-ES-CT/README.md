@@ -49,3 +49,7 @@ For dependency relations annotation, the Catalan and Spanish modules (version 22
 
 - Lluís Padró and Evgeny Stanilovsky. (2012) FreeLing 3.0: Towards Wider Multilinguality. Proceedings of the Language Resources and Evaluation Conference (LREC 2012) ELRA. Istanbul, Turkey. Tool info:  https://nlp.lsi.upc.edu/freeling/
 - Marilina Pisani. (2022) Árboles, Gráficos y Matrices de Datos. Codificación en TEI de un Corpus de Interacciones Parlamentarias con Python. Final Master Thesis supervised by Núria Bel. Máster en Humanidades y Patrimonio Digitales. Universidad Autónoma de Barcelona.
+
+### Disclaimer to the English translation
+
+Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

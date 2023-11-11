@@ -35,3 +35,7 @@ We did not use any TEI structural elements/attributes going beyond what’s desc
 ### Linguistic annotation
 
 For the UD annotation we did not use any specific linguistic annotation. The text was, on the other hand, also pos-tagged with ABL-tagger (http://hdl.handle.net/20.500.12537/98). The results it gives are sometimes more detailed, and not necessarily the same as the UD-pipe, since the accuracy of the ABL-tagger is quite higher. The tagset used is available at http://hdl.handle.net/20.500.12537/39.
+
+### Disclaimer to the English translation
+
+Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

@@ -46,3 +46,6 @@ Sentence segmentation, tokenization, lemmatization and PoS tagging tasks were ca
 Dependency parsing was done with UDPipe (version 1.3.1-dev) with model https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-3131/galician-treegal-ud-2.5-191206.udpipe?sequence=33&amp;isAllowed=y">galician-ctg-ud-2.5-191206.udpipe.
 
 Named Entity Recognition was performed using the BERT model available at https://github.com/huggingface/transformers/tree/main/examples/pytorch/token-classification, trained with Corpus Técnico do Galego (CTG).
+### Disclaimer to the English translation
+
+Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

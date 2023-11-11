@@ -63,3 +63,7 @@ For linguistic processing we used an NLP toolkit for Greek  (Prokopidis and Pipe
  http://hdl.handle.net/11500/CLARIN-EL-0000-0000-67B2-3   The toolkit integrates modules, models and lexical resources for sentence splitting, tokenization, part of speech tagging, lemmatization, dependency parsing and named entity recognition. The output of the toolkit is in conllu format, extended with information about named entity spans (Person, Organization, Location and MISC NEs).
 
 Prokopis Prokopidis and Stelios Piperidis. 2020. A Neural NLP toolkit for Greek. In 11th Hellenic Conference on Artificial Intelligence (SETN 2020).
+
+### Disclaimer to the English translation
+
+Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

@@ -62,3 +62,7 @@ The linguistic processing involves universal dependencies PoS and dependency rel
 - Tokenization (Dutch and French) and Tagging/Lemmatizing (Dutch only) by means of an INT in-house tagger based on Support Vector Machines, which supports TEI input and output.
 - Dependency parsing and NER, using the trankit (https://github.com/nlp-uoregon/trankit) universal dependencies pipeline.
 - Post-processing to conform to the strict Parlamint Schema, to generate the corpus header from the metadata database and the component files, and to remove incorrectly identified named entities in the first position of sentences for French.
+
+### Disclaimer to the English translation
+
+Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

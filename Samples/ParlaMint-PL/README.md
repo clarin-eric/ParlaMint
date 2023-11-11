@@ -61,3 +61,7 @@ Named entities, originally following the model used by the National Corpus of Po
 | placeName | LOC | subtypes (district, settlement, region, country, bloc) ignored|
 | time | – | ignored |
 
+
+### Disclaimer to the English translation
+
+Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.
