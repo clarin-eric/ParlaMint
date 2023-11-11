@@ -10,10 +10,10 @@ which are a customisation of the [TEI Guidelines](https://tei-c.org/guidelines/p
 should process the common data in any ParlaMint corpus, despite the differing parliamentary
 systems of the countries, the kind of information included in the corpora, and, of course, language.
 
-The latest version of ParlaMint is [3.0](https://github.com/clarin-eric/ParlaMint/releases/tag/v3.0)
-which contains corpora for 26 countries and autonomous regions and is available from the CLARIN.SI
-repository ([http://hdl.handle.net/11356/1486](http://hdl.handle.net/11356/1486)), also with SoA
-linguistic annotations ([http://hdl.handle.net/11356/1488](http://hdl.handle.net/11356/1488)).
+The latest version of ParlaMint is [4.0](https://github.com/clarin-eric/ParlaMint/releases/tag/v4.0)
+which contains corpora for 29 countries and autonomous regions and is available from the CLARIN.SI
+repository ([http://hdl.handle.net/11356/1859](http://hdl.handle.net/11356/1859)), also with SoA
+linguistic annotations ([http://hdl.handle.net/11356/1860](http://hdl.handle.net/11356/1860)).
 
 The most comprehensive publications on ParlaMint corpora describes version 2.1:
 
@@ -26,9 +26,8 @@ The ParlaMint corpora of parliamentary proceedings.
 *Language Resources & Evaluation* 57:415–448 (2023).
 [10.1007/s10579-021-09574-0](https://doi.org/10.1007/s10579-021-09574-0).
    
-We are now working on the ParlaMint II project, cf. the CLARIN ERIC
-[ParlaMint project description](https://www.clarin.eu/content/parlamint-towards-comparable-parliamentary-corpora).
-   
+Other publications are available at the
+[ParlaMint project page](https://www.clarin.eu/parlamint#publications-and%C2%A0presentations).
 ****
 
 This Git repository contains the ParlaMint XML schemas, the scripts used to validate and convert the
