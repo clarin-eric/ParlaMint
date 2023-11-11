@@ -432,7 +432,7 @@ sub cp_readme_top {
 	    elsif ($type =~ /tei/i)    {print OUT "# Corpus of parliamentary debates ParlaMint-$countryCode"}
 	    elsif ($type =~ /ana/i)    {print OUT "# Linguistically annotated corpus of parliamentary debates ParlaMint-$countryCode"}
 	    else {die "Strange type $type for cp_readme_top\n"}
-	    if ($MT) {print OUT " (translation to English)"}
+	    if ($MT) {print OUT "-en (translation to English)"}
 	    print OUT "\n";
 	}
 	elsif (m|- +Language|) {
@@ -440,7 +440,9 @@ sub cp_readme_top {
 	    elsif ($countryCode =~ /^..$/)    {print OUT "- Country: "}
 	    else {die "Strange country code $countryCode for cp_readme_top\n"}
 	    print OUT "$countryCode ($countryName)\n";
-	    print OUT; # Languages
+            # Language
+	    if ($MT) {print OUT "en (English) from "}
+	    print OUT; 
 	    unless ($type eq 'sample') {
 		print OUT "- Version: $version\n";
 		print OUT "- Handle: [$handle]($handle)\n";
