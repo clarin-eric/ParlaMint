@@ -1,3 +1,7 @@
+stats:
+	$s mode=tsv -xsl:../Scripts/parlamint2cnt-particDesc.xsl Master/ParlaMint.xml > Metadata/ParlaMint-participDesc-stats.tsv
+	$s mode=tex -xsl:../Scripts/parlamint2cnt-particDesc.xsl Master/ParlaMint.xml > Metadata/ParlaMint-participDesc-stats.tex
+
 bla:
 	date
 
@@ -124,7 +128,7 @@ merge-taxos:
 
 ### Fixes for 4.0-en:
 
-# Make samples only
+# Make MT samples only
 mt-convert-samples:
 	for CORPUS in ${CORPORA}; do \
 	${FINALIZE-MT} -sample -codes $${CORPUS}-en -out ${HERE}/Master; \
