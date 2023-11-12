@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
-<!-- Make TSV/LaTeX table with overview info on metadata of the ParlaMint corpora -->
+<!-- Make TSV/LaTeX table with overview info on metadata of the ParlaMint corpora: -->
+<!-- stats on particDesc/person and particDesc/org -->
+<!-- Input is main ParlaMint corpus root ParlaMint.xml (with XIncludes to the individial corpus roots) -->
 <xsl:stylesheet 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.tei-c.org/ns/1.0"

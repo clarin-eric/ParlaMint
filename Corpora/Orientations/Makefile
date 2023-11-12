@@ -82,7 +82,7 @@ test-all-ches:
 
 ## Generate TSV files with party information on the basis of the corpus root file.
 generate-parties:
-	$s path=${DATA} outDir=tmp -xsl:${RUN}/parties-tei2tsv.xsl \
+	$s path=${DATA} outDir=tmp -xsl:${RUN}/parlamint2tbl-parties.xsl \
 	${DATA}/ParlaMint.xml 2> ParlaMint_parties.log
 
 ## Dump encoder info on political orientations from TEI to TSV

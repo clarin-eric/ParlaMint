@@ -1,7 +1,16 @@
+tables:
+	$s path=../Corpora/Master outDir=../Corpora/Metadata -xsl:../Scripts/parlamint2tbl-parties.xsl Master/ParlaMint.xml
+	for CORPUS in ${CORPORA}; do \
+	$s -xsl:../Scripts/parlamint2tbl-persons.xsl Master/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}.xml \
+	> Metadata/ParlaMint-speakers-$${CORPUS}.tsv ; \
+	done;
 stats:
 	$s mode=tsv -xsl:../Scripts/parlamint2cnt-particDesc.xsl Master/ParlaMint.xml > Metadata/ParlaMint-participDesc-stats.tsv
 	$s mode=tex -xsl:../Scripts/parlamint2cnt-particDesc.xsl Master/ParlaMint.xml > Metadata/ParlaMint-participDesc-stats.tex
-
+	$s mode=tsv -xsl:../Scripts/parlamint2cnt-overview.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-overview-stats.tsv
+	$s mode=tex -xsl:../Scripts/parlamint2cnt-overview.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-overview-stats.tex
+	$s mode=tsv -xsl:../Scripts/parlamint2cnt-speeches.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-speeches-stats.tsv
+	$s mode=tex -xsl:../Scripts/parlamint2cnt-speeches.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-speeches-stats.tex
 bla:
 	date
 

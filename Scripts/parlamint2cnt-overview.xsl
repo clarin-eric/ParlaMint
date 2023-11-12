@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
-<!-- Make TSV/LaTeX table with overview info of the ParlaMint corpora -->
+<!-- Make TSV/LaTeX table with overview info on metadata of the ParlaMint corpora: -->
+<!-- basic stats on type of parliament, size of corpus-->
+<!-- Input is main ParlaMint corpus root ParlaMint.xml (with XIncludes to the individial corpus roots) -->
 <xsl:stylesheet 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.tei-c.org/ns/1.0"
@@ -102,12 +104,22 @@
     <xsl:variable name="languages">
       <xsl:for-each select=".//tei:langUsage[@corresp=$corpus]/tei:language">
         <xsl:variable name="lang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
-        <xsl:if test="($lang = 'en' and 
+        <xsl:if test="(
+                      $lang = 'en' and 
                       not(@ident = 'en' and $corpus != '#ParlaMint-GB') and
+
                       not(@ident = 'de' and $corpus = '#ParlaMint-BE') and
+                      not(@ident = 'und' and $corpus = '#ParlaMint-BE') and
+
+                      not(@ident = 'bg-Latn' and $corpus = '#ParlaMint-BG') and
                       not(@ident = 'fr' and $corpus = '#ParlaMint-BG') and
-                      not(@ident = 'bg-Latn' and $corpus = '#ParlaMint-BG'))
-                      or (@ident != 'en' and $corpus = '#ParlaMint-HU')
+                      not(@ident = 'es' and $corpus = '#ParlaMint-BG') and
+
+                      not(@ident = 'fr' and $corpus = '#ParlaMint-GR') and
+
+                      not(@ident != 'hu' and $corpus = '#ParlaMint-HU')
+
+                      )
                       or (@ident != 'en' and $corpus = '#ParlaMint-NL')
                       ">
           <xsl:value-of select="@ident"/>
@@ -119,10 +131,13 @@
     <xsl:value-of select="$col-sep"/>
     <!-- Houses -->
     <xsl:variable name="houses">
-      <xsl:for-each select=".//tei:textClass/tei:catRef[@scheme='#parla.legislature'][@corresp=$corpus]
+      <!-- PT has bug, cf. https://github.com/clarin-eric/ParlaMint/issues/828 -->
+      <xsl:for-each select=".//tei:textClass/tei:catRef[
+                            @scheme='#ParlaMint-taxonomy-parla.legislature' or @scheme='#Parliament'
+                            ][@corresp=$corpus]
                             /tokenize(@target, ' ')">
         <xsl:choose>
-          <xsl:when test=". = '#parla.uni'">unicameral</xsl:when>
+          <xsl:when test=". = '#parla.uni'">unica+</xsl:when>
           <xsl:when test=". = '#parla.lower'">lower+</xsl:when>
           <xsl:when test=". = '#parla.upper'">upper+</xsl:when>
         </xsl:choose>
@@ -134,6 +149,8 @@
     <xsl:variable name="terms" select="count(.//tei:titleStmt/tei:meeting[@corresp=$corpus]
                                        [contains(@ana, 'parla.term')])"/>
     <xsl:choose>
+      <!-- DK does not properly list terms, cf. https://github.com/clarin-eric/ParlaMint/issues/828) -->
+      <xsl:when test="$terms = 0 and $corpus = '#ParlaMint-DK'">4</xsl:when>
       <xsl:when test="$terms = 0">-</xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="$terms"/>

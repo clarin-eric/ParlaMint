@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
-<!-- Make TSV/LaTeX table with overview info on data of the ParlaMint corpora -->
+<!-- Make TSV/LaTeX table with overview info on metadata of the ParlaMint corpora: -->
+<!-- basic stats on number of speeches of various types, and of elements inside them -->
+<!-- Input is main ParlaMint corpus root ParlaMint.xml (with XIncludes to the individial corpus roots) -->
 <xsl:stylesheet 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.tei-c.org/ns/1.0"
@@ -49,13 +51,17 @@
     <xsl:value-of select="$col-sep"/>
     <xsl:text>W.NCs</xsl:text>  <!-- Number of speeches by non-chairs -->
     <xsl:value-of select="$col-sep"/>
-    <xsl:text>W.MPs</xsl:text>  <!-- Number of speeches by MPs -->
-    <xsl:value-of select="$col-sep"/>
+    <!--xsl:text>W.MNs</xsl:text-->  <!-- Number of speeches by ministers -->
+    <!--xsl:value-of select="$col-sep"/-->
+    <!--xsl:text>W.MPs</xsl:text-->  <!-- Number of speeches by MPs -->
+    <!--xsl:value-of select="$col-sep"/-->
     <xsl:text>Heads</xsl:text>  <!-- Number of headings -->
     <xsl:value-of select="$col-sep"/>
     <xsl:text>Notes</xsl:text>  <!-- Number of notes -->
     <xsl:value-of select="$col-sep"/>
     <xsl:text>Incidents</xsl:text>  <!-- Number of incidents -->
+    <xsl:value-of select="$col-sep"/>
+    <xsl:text>Gaps</xsl:text>  <!-- Number of gaps -->
     <!--xsl:value-of select="$col-sep"/>
     <xsl:text>Paragraphs</xsl:text-->  <!-- Number of paragraphs -->
     <xsl:value-of select="$line-sep"/>
@@ -118,16 +124,32 @@
       </xsl:for-each>
     </xsl:variable>
     <xsl:value-of select="et:sum($nonchairs/tei:item)"/>
+
     
+    <!-- The following two are wrong, as it also depends on date! -->
+    <!-- This info would be easier to take from metadata TSVs... -->
+    <!--
+    <xsl:value-of select="$col-sep"/>
+    <xsl:variable name="ministers">
+      <xsl:for-each select="document(../xi:include/@href)">
+        <item>
+          <xsl:value-of select="count(//tei:u[key('ref', @who, $head)/tei:affiliation/@role='minister')"/>
+        </item>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:value-of select="et:sum($ministers/tei:item)"/>
+
     <xsl:value-of select="$col-sep"/>
     <xsl:variable name="mps">
       <xsl:for-each select="document(../xi:include/@href)">
         <item>
-          <xsl:value-of select="count(//tei:u[key('ref', @who, $head)/tei:affiliation/@role='MP'])"/>
+          <xsl:value-of select="count(//tei:u[key('ref', @who, $head)/tei:affiliation/@role='member' and
+                                key('ref', @ref)[@role='parliament']])"/>
         </item>
       </xsl:for-each>
     </xsl:variable>
     <xsl:value-of select="et:sum($mps/tei:item)"/>
+    -->
     
     <xsl:value-of select="$col-sep"/>
     <xsl:variable name="heads">
@@ -160,6 +182,16 @@
       </xsl:for-each>
     </xsl:variable>
     <xsl:value-of select="et:sum($incidents/tei:item)"/>
+    
+    <xsl:value-of select="$col-sep"/>
+    <xsl:variable name="gaps">
+      <xsl:for-each select="document(../xi:include/@href)">
+        <item>
+          <xsl:value-of select="count(//tei:gap)"/>
+        </item>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:value-of select="et:sum($gaps/tei:item)"/>
     
     <!--xsl:value-of select="$col-sep"/>
     <xsl:variable name="paragraphs">

@@ -14,7 +14,7 @@
   <!-- Directory where the output TSV files are written to -->
   <xsl:param name="outDir">../Corpora/Metadata</xsl:param>
   <!-- Prefix for output files -->
-  <xsl:param name="outFilePrefix">ParlaMint_parties-</xsl:param>
+  <xsl:param name="outFilePrefix">ParlaMint-parties-</xsl:param>
 
   <xsl:template match="text()"/>
   <xsl:template match="tei:*"/>
