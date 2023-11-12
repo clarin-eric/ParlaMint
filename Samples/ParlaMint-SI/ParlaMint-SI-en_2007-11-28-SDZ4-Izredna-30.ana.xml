@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-SI-en_2007-11-28-SDZ4-Izredna-30.ana" xml:lang="en" ana="#parla.sitting #reference" corresp="../../ParlaMint-SI.TEI.ana/2007/ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="sl">Slovenski parlamentarni korpus ParlaMint-SI-en, 30. izredna seja (28. 11. 2007) [ParlaMint-en.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Slovenian parliamentary corpus ParlaMint-SI-en, Extraordinary Session 30, November 28, 2007 [ParlaMint-en.ana SAMPLE]</title>
+            <title type="sub" xml:lang="sl">Zapisi sej Državnega zbora Republike Slovenije, Izredna 4. mandat, 30. izredna seja (28. 11. 2007)</title>
+            <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Slovenia, Term 4, Extraordinary Session 30, (28. 11. 2007)</title>
+            <meeting n="30" corresp="#DZ" ana="#parla.lower #parla.meeting.extraordinary">Izredna</meeting>
+            <meeting n="4" corresp="#DZ" ana="#parla.lower #parla.term #DZ.4">4. mandat</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <persName ref="https://orcid.org/0000-0002-1560-4099 http://viaf.org/viaf/15145066459666591823">Tomaž Erjavec</persName>
+               <persName ref="https://orcid.org/0000-0001-6143-6877 http://viaf.org/viaf/305936424">Andrej Pančur</persName>
+               <resp xml:lang="sl">Kodiranje TEI</resp>
+               <resp xml:lang="en">TEI corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-6143-6877 http://viaf.org/viaf/305936424">Andrej Pančur</persName>
+               <persName ref="http://viaf.org/viaf/86154440112735340300">Mihael Ojsteršek</persName>
+               <resp xml:lang="sl">Urejanje seznama govornikov</resp>
+               <resp xml:lang="en">Editing a list of speakers</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/305748135">Nikola Ljubešić</persName>
+               <resp xml:lang="sl">Jezikoslovno označevanje</resp>
+               <resp xml:lang="en">Linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="http://viaf.org/viaf/15145066459666591823">Tomaž Erjavec</persName>
+               <resp xml:lang="sl">Popravki strukture TEI</resp>
+               <resp xml:lang="en">TEI encoding corrections</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Taja Kuzman</persName>
+               <persName>Nikola Ljubešić</persName>
+               <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Paul Rayson</persName>
+               <persName>Matthew Coole</persName>
+               <persName>John Vidler</persName>
+               <resp xml:lang="en">Annotating MTed corpora with USAS semantic tags</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="sl">Raziskovalna infrastruktura CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="sl">Slovenska raziskovalna infrastruktura CLARIN.SI</orgName>
+               <orgName xml:lang="en">The Slovenian research infrastructure CLARIN.SI</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="sl">Raziskovalni program ARRS P6-0411 "Jezikovni viri in tehnologije za slovenski jezik"</orgName>
+               <orgName xml:lang="en">Slovenian Research Agency Programme P6-0411 "Language Resources and Technologies for Slovene"</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="717" xml:lang="sl">717 govorov</measure>
+            <measure unit="speeches" quantity="717" xml:lang="en">717 speeches</measure>
+            <measure unit="words" quantity="88889" xml:lang="sl">88.889 besed</measure>
+            <measure unit="words" quantity="88889" xml:lang="en">88,889 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="sl">Raziskovalna infrastruktura CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1864</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
+            </availability>
+            <date when="2023-11-11">2023-11-11</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Minutes of the National Assembly of the Republic of Slovenia</title>
+               <title type="main" xml:lang="sl">Zapisi sej Državnega zbora Republike Slovenije</title>
+               <edition xml:lang="sl">Preverjen zapis seje</edition>
+               <edition xml:lang="en">Verified session record</edition>
+               <idno type="URI" subtype="parliament">https://www.dz-rs.si/wps/portal/Home/deloDZ/seje/evidenca?mandat=IV&amp;type=sz&amp;uid=D7884A3EDA1D0160C12573C60041379D</idno>
+               <date when="2007-11-28">28. 11. 2007</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="sl"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="133"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="133"/>
+               <tagUsage gi="head" occurs="3"/>
+               <tagUsage gi="name" occurs="2321"/>
+               <tagUsage gi="note" occurs="1169"/>
+               <tagUsage gi="pc" occurs="11775"/>
+               <tagUsage gi="phr" occurs="4857"/>
+               <tagUsage gi="s" occurs="5258"/>
+               <tagUsage gi="seg" occurs="1593"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="717"/>
+               <tagUsage gi="w" occurs="88889"/>
+            </namespace>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef ident="mt-src" matchPattern="(.+)" replacementPattern="../../ParlaMint-SI.TEI.ana/2007/ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.xml#$1">
+               <p>Private URIs with this prefix point to aligned source elements of the MTed corpus.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">Ljubljana</name>
+               <name type="country" key="SI">Slovenija</name>
+               <date when="2007-11-28" ana="#parla.sitting">28. 11. 2007</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-11-11">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-10-30">
+            <name>Tomaž Erjavec</name>: Generate TEI version of MTed corpus.</change>
+         <change when="2023-01-11">
+            <name>Katja Meden</name>: Made ana sample</change>
+         <change when="2023-01-10">
+            <name>Tomaž Erjavec</name>: Small fixes of ParlaMint data</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection" xml:lang="en">
+            <head xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.head1" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.head1">DRŽAVNI ZBOR REPUBLIKE SLOVENIJE</head>
+            <head type="session" xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.head2" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.head2">Nadaljevanje 30. izredne seje</head>
+            <head type="chairman" xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.head3" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.head3">Sejo je vodil Sašo Peče, podpredsednik Državnega zbora.</head>
+            <note type="time" xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.note1" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.note1">The meeting started at 9:01 p.m.</note>
+            <note type="speaker" xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.note2" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.note2">The Vice-President of the Commission shall:</note>
+            <u who="#PečeSašo" xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.u1" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.u1">
+               <seg xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1">
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.1" n="1" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.1">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.1.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="dear" function="E2+,I1.3+" ana="sem:E2p">Dear</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.1.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="member" function="S5+/S2mf,B1" ana="sem:S5p sem:S2">Members</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.1.t3" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.1.t4" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="honourable" function="G2.2+" ana="sem:G2.2p">honourable</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.1.t5" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Member" function="S5+/S2mf,B1" ana="sem:S5p sem:S2" join="right">Members</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.1.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">!</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.2" n="2" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.2">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.2.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.2.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="continue" function="A5.4+" ana="sem:A5.4p">continue</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.2.t3" pos="PRP$" msd="UPosTag=PRON|Number=Plur|Person=1|Poss=Yes|PronType=Prs" lemma="we" function="A5.4+" ana="sem:A5.4p">our</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.2.t4" pos="JJ" msd="UPosTag=ADJ|Degree=Pos|NumType=Ord" lemma="30th" function="Z99" ana="sem:Z99">30th</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.2.t5" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="extraordinary" function="A6.2-" ana="sem:A6.2n">extraordinary</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.2.t6" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="meeting" function="S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+" ana="sem:S1.1.3p">meeting</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.2.t7" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.2.t8" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.2.t9" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="National" function="Z1mf,Z3c" ana="sem:Z1">National</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.2.t10" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Assembly" function="Z1mf,Z3c" ana="sem:Z1">Assembly</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.2.t11" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.2.t12" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.2.t13" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Republic" function="S5+/M7" ana="sem:S5p sem:M7">Republic</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.2.t14" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.2.t15" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Slovenia" function="Z2" ana="sem:Z2" join="right">Slovenia</w>
+                     </name>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.2.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2">
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1" n="1" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">am</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="inform" function="X2.2+,X2.4,Q2.1" ana="sem:X2.2p">informed</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t4" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="today" function="T1.1.2" ana="sem:T1.1.2" join="right">today</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t6" pos="POS" msd="UPosTag=PART" lemma="'s" function="Z5" ana="sem:Z5">'s</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="session" function="T1.3" ana="sem:T1.3">session</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t8" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="cannot" function="Z99" ana="sem:Z99">cannot</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t9" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t10" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="attend" function="S1.1.3+,X5.1+" ana="sem:S1.1.3p">attended</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t11" pos="IN" msd="UPosTag=ADP" lemma="by" function="Z5" ana="sem:Z5">by</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t12" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t13" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="follow" function="M1,N4,S7.1-,X2.4,X2.5+,A6.1+,A1.1.1,A2.2,K5.1,X3.4" ana="sem:M1">following</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t14" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Member" function="S5+/S2mf,B1" ana="sem:S5p sem:S2" join="right">Members</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t15" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">:</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t16" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Bogdan" function="Z1mf,Z3c" ana="sem:Z1">Bogdan</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t17" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Barovic" function="Z1mf,Z3c" ana="sem:Z1" join="right">Barovic</w>
+                     </name>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t18" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t19" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Matjaž" function="Z1mf,Z3c" ana="sem:Z1">Matjaž</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t20" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Han" function="Z1mf,Z3c" ana="sem:Z1">Han</w>
+                     </name>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t21" pos="IN" msd="UPosTag=ADP" lemma="from" function="Z5" ana="sem:Z5">from</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t22" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1300" function="N1" ana="sem:N1">1300</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t23" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="hour" function="T1.3" ana="sem:T1.3">hours</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t24" pos="RB" msd="UPosTag=ADV" lemma="away" function="M6,A1.1.1%" ana="sem:M6" join="right">away</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t25" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t26" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Ivan" function="Z1mf,Z3c" ana="sem:Z1">Ivan</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t27" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Jelen" function="Z1mf,Z3c" ana="sem:Z1" join="right">Jelen</w>
+                     </name>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t28" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t29" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Miran" function="Z1mf,Z3c" ana="sem:Z1">Miran</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t30" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Jerič" function="Z1mf,Z3c" ana="sem:Z1" join="right">Jerič</w>
+                     </name>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t31" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t32" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Dušan" function="Z1mf,Z3c" ana="sem:Z1">Dušan</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t33" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Kumer" function="Z1mf,Z3c" ana="sem:Z1" join="right">Kumer</w>
+                     </name>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t34" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t35" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Dr." function="Z1mf,Z3c" ana="sem:Z1">Dr.</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t36" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Marko" function="Z1mf,Z3c" ana="sem:Z1">Marko</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t37" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Pavliha" function="Z1mf,Z3c" ana="sem:Z1" join="right">Pavliha</w>
+                     </name>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t38" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t39" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Breda" function="Z1mf,Z3c" ana="sem:Z1">Breda</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t40" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Pecan" function="Z1mf,Z3c" ana="sem:Z1">Pecan</w>
+                     </name>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t41" pos="IN" msd="UPosTag=ADP" lemma="from" function="Z5" ana="sem:Z5">from</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t42" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="10.00" function="N1" ana="sem:N1">10.00</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t43" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="hour" function="T1.3" ana="sem:T1.3">hours</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t44" pos="RB" msd="UPosTag=ADV" lemma="away" function="M6,A1.1.1%" ana="sem:M6" join="right">away</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t45" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t46" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Dr." function="Z1mf,Z3c" ana="sem:Z1">Dr.</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t47" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Mitja" function="Z1mf,Z3c" ana="sem:Z1">Mitja</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t48" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Slavinec" function="Z1mf,Z3c" ana="sem:Z1" join="right">Slavinec</w>
+                     </name>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t49" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t50" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Janko" function="Z1mf,Z3c" ana="sem:Z1">Janko</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t51" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Weber" function="Z1mf,Z3c" ana="sem:Z1">Weber</w>
+                     </name>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t52" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t53" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Magurday" function="Z1mf,Z3c" ana="sem:Z1">Mag.</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t54" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Anton" function="Z1mf,Z3c" ana="sem:Z1">Anton</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t55" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Rop" function="Z1mf,Z3c" ana="sem:Z1" join="right">Rop</w>
+                     </name>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1.t56" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3">
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1" n="1" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t1" pos="IN" msd="UPosTag=SCONJ" lemma="before" function="Z5" ana="sem:Z5">Before</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t2" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">we</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t3" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="proceed" function="A1.1.1,T2++,M1" ana="sem:A1.1.1">proceed</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t4" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t5" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t6" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="decision" function="X6+" ana="sem:X6p" join="right">decision</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t7" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">-</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t8" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="make" function="A1.1.1,A9+,A2.2,S6+,A3+,A9-,X9.2+,X6+" ana="sem:A1.1.1">making</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t9" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t10" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t11" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="National" function="Z1mf,Z3c" ana="sem:Z1">National</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t12" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Assembly" function="Z1mf,Z3c" ana="sem:Z1" join="right">Assembly</w>
+                     </name>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t13" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t14" pos="UH" msd="UPosTag=INTJ" lemma="please" function="E4.2+,E2+,X7+" ana="sem:E4.2p">please</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t15" pos="VB" msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin" lemma="check" function="X2.4/A5.3,A15,Q1.2,T2-,M5" ana="sem:X2.4 sem:A5.3">check</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t16" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t17" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="functioning" function="A1.1.1" ana="sem:A1.1.1">functioning</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t18" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t19" pos="PRP$" msd="UPosTag=PRON|Person=2|Poss=Yes|PronType=Prs" lemma="you" function="Z8" ana="sem:Z8">your</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t20" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="voting" function="G1.2" ana="sem:G1.2">voting</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t21" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="apparatus" function="O2,S7.1" ana="sem:O2" join="right">apparatus</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1.t22" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2" n="2" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t1" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="give" function="A9-,A1.1.1" ana="sem:A9n">Given</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t2" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t3" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">there</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t4" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t5" pos="DT" msd="UPosTag=DET" lemma="no" function="Z6" ana="sem:Z6">no</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t6" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="comment" function="Q2.1" ana="sem:Q2.1">comments</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t7" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t8" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="operation" function="Df/A5.1+++mfnc" ana="sem:A5.1p">operation</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t10" pos="IN" msd="UPosTag=ADP" lemma="of" function="Df/A5.1+++mfnc" ana="sem:A5.1p">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t11" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Df/A5.1+++mfnc" ana="sem:A5.1p">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t12" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="device" function="Df/A5.1+++mfnc" ana="sem:A5.1p" join="right">devices</w>
+                     </phr>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t13" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t14" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t15" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t16" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t17" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="take" function="A9+,T1.3,C1,A1.1.1,M2,S7.1-,A2.1+,X2.4,S6+,S7.4+,N3,A2.1+,P1,M1,X2.5+,F1@,F2@,Q1.2@,B3@" ana="sem:A9p">take</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t18" pos="DT" msd="UPosTag=DET" lemma="any" function="N5.1+,N5" ana="sem:N5.1p">any</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t19" pos="JJR" msd="UPosTag=ADJ|Degree=Cmp" lemma="further" function="N5++,N3.3++,T2++" ana="sem:N5p">further</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t20" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="complaint" function="Q2.2/E2-,B2-@" ana="sem:Q2.2 sem:E2n">complaints</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t21" pos="IN" msd="UPosTag=ADP" lemma="into" function="Z5" ana="sem:Z5">into</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t22" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="account" function="I1,I1.3,I2.1,Q2.2,Y2" ana="sem:I1" join="right">account</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.2.t23" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4">
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1" n="1" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="continue" function="T2++" ana="sem:T2p">continue</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t3" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t4" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="break" function="A1.1.2,A1.1.1,A1.9,S5-,T2-,E4.1-/A2.2,A2.1+,T1.3,Q2.1@" ana="sem:A1.1.2">break</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t5" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t6" pos="JJ" msd="UPosTag=ADJ|Degree=Pos|NumType=Ord" lemma="1st" function="Z99" ana="sem:Z99">1st</w>
+                     <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="item" function="Df/A5.1+++mfnc" ana="sem:A5.1p">item</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t8" pos="IN" msd="UPosTag=ADP" lemma="of" function="Df/A5.1+++mfnc" ana="sem:A5.1p">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t9" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Df/A5.1+++mfnc" ana="sem:A5.1p">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t10" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="agenda" function="Df/A5.1+++mfnc" ana="sem:A5.1p">agenda</w>
+                     </phr>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t12" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">we</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t13" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t14" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="consider" function="X2.1,X2.4,X6" ana="sem:X2.1">considering</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t15" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t16" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2008" function="N1" ana="sem:N1">2008</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t17" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="draft" function="Q1.2,G3,Q1.2/I1" ana="sem:Q1.2">draft</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t18" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="amend" function="A2.1+" ana="sem:A2.1p">amending</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t19" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t20" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="budget" function="I1,G1.1/I1,I1.3-" ana="sem:I1">budget</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t21" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t22" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="LOC">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t23" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Republic" function="S5+/M7" ana="sem:S5p sem:M7">Republic</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t24" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t25" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Slovenia" function="Z2" ana="sem:Z2" join="right">Slovenia</w>
+                     </name>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1.t26" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5">
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1" n="1" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t3" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="move" function="M2,M1,A2.1+,E1,H4/A2.1" ana="sem:M2">moving</w>
+                     <phr type="sem" function="Z5" ana="sem:Z5">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t4" pos="RP" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t5" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t6" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="decision" function="X6+" ana="sem:X6p">decision</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t8" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t9" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t10" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="general" function="N5+,A4.2-" ana="sem:N5p">general</w>
+                     <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t11" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="part" function="Df/A5.1+++mfnc" ana="sem:A5.1p">part</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t12" pos="IN" msd="UPosTag=ADP" lemma="of" function="Df/A5.1+++mfnc" ana="sem:A5.1p">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t13" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Df/A5.1+++mfnc" ana="sem:A5.1p">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t14" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="proposal" function="Df/A5.1+++mfnc" ana="sem:A5.1p">proposal</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t15" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t16" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="amend" function="A2.1+" ana="sem:A2.1p">amend</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t17" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t18" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="budget" function="I1,G1.1/I1,I1.3-" ana="sem:I1">budget</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t19" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t20" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="LOC">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t21" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Republic" function="S5+/M7" ana="sem:S5p sem:M7">Republic</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t22" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t23" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Slovenia" function="Z2" ana="sem:Z2">Slovenia</w>
+                     </name>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t24" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t25" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2008" function="N1" ana="sem:N1" join="right">2008</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1.t26" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.2" n="2" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.2">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.2.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.2.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">am</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.2.t3" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="open" function="A1.1.1,T2+" ana="sem:A1.1.1">opening</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.2.t4" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.2.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="procedure" function="X4.2" ana="sem:X4.2">procedure</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.2.t6" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.2.t7" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="explanation" function="Q2.2/A7+,A2.2" ana="sem:Q2.2 sem:A7p">explanations</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.2.t8" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.2.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="vote" function="G1.2" ana="sem:G1.2">vote</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.2.t10" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+                     <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.2.t11" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="behalf" function="Df/A5.1+++mfnc" ana="sem:A5.1p">behalf</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.2.t12" pos="IN" msd="UPosTag=ADP" lemma="of" function="Df/A5.1+++mfnc" ana="sem:A5.1p">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.2.t13" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Df/A5.1+++mfnc" ana="sem:A5.1p">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.2.t14" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="group" function="Df/A5.1+++mfnc" ana="sem:A5.1p">groups</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.2.t15" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.2.t16" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Member" function="S5+/S2mf,B1" ana="sem:S5p sem:S2" join="right">Members</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.2.t17" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.3" n="3" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.3">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.3.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8" join="right">I</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.3.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">'m</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.3.t3" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="ask" function="A5.4+" ana="sem:A5.4p">asking</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.3.t4" pos="PRP" msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs" lemma="you" function="A5.4+" ana="sem:A5.4p">you</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.3.t5" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.3.t6" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="sign" function="Q1.2,Q1.1,G2.1,I3.1,S9" ana="sem:Q1.2">sign</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.3.t7" pos="RP" msd="UPosTag=ADP" lemma="up" function="Z5" ana="sem:Z5" join="right">up</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.3.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.4" n="4" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.4">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.4.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Mr" function="Z1m" ana="sem:Z1">Mr</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.4.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Ciril" function="Z1m" ana="sem:Z1">Ciril</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.4.t3" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Testen" function="Z1m" ana="sem:Z1">Testen</w>
+                     </name>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.4.t4" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.4.t5" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="present" function="A9-,A2.2,Q2.2,S1.1.3+,Q4.3,O4.1,K4" ana="sem:A9n">present</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.4.t6" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.4.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="position" function="M6,M7,S7.1,I3.1,N4,S1.1.1,A1.1.1,K5.1%" ana="sem:M6">position</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.4.t8" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.4.t9" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.4.t10" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="New" function="Z1mf,Z3c" ana="sem:Z1">New</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.4.t11" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Slovenia" function="Z1mf,Z3c" ana="sem:Z1">Slovenia</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.4.t12" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Group" function="Z1mf,Z3c" ana="sem:Z1" join="right">Group</w>
+                     </name>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.4.t13" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.5" n="5" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.5">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.5.t1" pos="RB" msd="UPosTag=ADV|PronType=Dem" lemma="here" function="M6,T1.1.2,T1.2" ana="sem:M6">Here</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.5.t2" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8">you</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.5.t3" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin" lemma="go" function="M1,A2.1+,A1.1.1,A9-,A1.8+,Q2.1,N6+,I2.2,A1.1.2,T2-,S3.2,A6.3+,B2-/X1%,B1%" ana="sem:M1" join="right">go</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.5.t4" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.note3" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.note3">CYRILL TESTEN:</note>
+            <u who="#TestenCiril" xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.u2" ana="#regular" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.u2">
+               <seg xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6">
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.1" n="1" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.1">
+                     <phr type="sem" function="Z4,S1.2.4+" ana="sem:Z4">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.1.t1" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="thank" function="Z4,S1.2.4+" ana="sem:Z4">Thank</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.1.t2" pos="PRP" msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs" lemma="you" function="Z4,S1.2.4+" ana="sem:Z4">you</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.1.t3" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.1.t4" pos="PRP$" msd="UPosTag=PRON|Person=2|Poss=Yes|PronType=Prs" lemma="you" function="Z8" ana="sem:Z8">your</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.1.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="word" function="Q3,Q2.1,S9@" ana="sem:Q3" join="right">word</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.1.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.2" n="2" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.2">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.2.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="nice" function="O4.2+,S1.2.1+" ana="sem:O4.2p">Nice</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.2.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="greeting" function="Q2.2/S1.2.4+" ana="sem:Q2.2 sem:S1.2.4p" join="right">greeting</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.2.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+                     <phr type="sem" function="Z1m" ana="sem:Z1">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.2.t4" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Mr" function="Z1m" ana="sem:Z1">Mr</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.2.t5" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="President" function="Z1m" ana="sem:Z1" join="right">President</w>
+                     </phr>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.2.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.2.t7" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Member" function="T1.3" ana="sem:T1.3">Members</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.2.t8" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.2.t9" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Member" function="T1.3" ana="sem:T1.3">Members</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.2.t10" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.2.t11" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Parliament" function="G1.1" ana="sem:G1.1" join="right">Parliament</w>
+                     </name>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.2.t12" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">!</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.3" n="3" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.3">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.3.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">In</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.3.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.3.t3" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="New" function="Z1mf,Z3c" ana="sem:Z1">New</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.3.t4" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Slovenia" function="Z1mf,Z3c" ana="sem:Z1">Slovenia</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.3.t5" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Group" function="Z1mf,Z3c" ana="sem:Z1" join="right">Group</w>
+                     </name>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.3.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.3.t7" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">we</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.3.t8" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.3.t9" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="support" function="S8+,A1.1.1,K5.1,I1.1,A10+" ana="sem:S8p">support</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.3.t10" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.3.t11" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2008" function="N1" ana="sem:N1">2008</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.3.t12" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="budget" function="I1,G1.1/I1,I1.3-" ana="sem:I1">budget</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.3.t13" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="rebalancing" function="Z99" ana="sem:Z99" join="right">rebalancing</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.3.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4" n="4" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="support" function="A5.4+" ana="sem:A5.4p">support</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t4" pos="PRP" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="A5.4+" ana="sem:A5.4p">it</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t5" pos="IN" msd="UPosTag=SCONJ" lemma="because" function="Z5/A2.2" ana="sem:Z5 sem:A2.2">because</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t6" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">we</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t7" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="believe" function="X2.1,S9%" ana="sem:X2.1">believe</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t8" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t9" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t10" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2008" function="N1" ana="sem:N1">2008</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t11" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="budget" function="I1,G1.1/I1,I1.3-" ana="sem:I1" join="right">budget</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t12" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+                     <phr type="sem" function="N5++" ana="sem:N5p">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t13" pos="RB" msd="UPosTag=ADV|ExtPos=CCONJ" lemma="as" function="N5++" ana="sem:N5p">as</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t14" pos="RB" msd="UPosTag=ADV|Degree=Pos" lemma="well" function="N5++" ana="sem:N5p">well</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t15" pos="IN" msd="UPosTag=ADP" lemma="as" function="Z5" ana="sem:Z5">as</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t16" pos="RBR" msd="UPosTag=ADV|Degree=Cmp" lemma="late" function="T4--,T1.1.3,N4" ana="sem:T4n">later</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t17" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t18" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2009" function="N1" ana="sem:N1" join="right">2009</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t20" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t21" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="development" function="A2.1+,A5.1+/A2.1,H1" ana="sem:A2.1p" join="right">development</w>
+                     <phr type="sem" function="Df" ana="sem:Z9">
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t22" pos="Z" msd="UPosTag=PUNCT" function="Df" ana="sem:Z9" join="right">-</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t23" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="orient" function="Df" ana="sem:Z9">oriented</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t24" pos="IN" msd="UPosTag=SCONJ" lemma="because" function="Z5/A2.2" ana="sem:Z5 sem:A2.2">because</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t25" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t26" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="forese" function="Z99" ana="sem:Z99">foresees</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t27" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">an</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t28" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="increase" function="N5+/A2.1" ana="sem:N5p sem:A2.1">increase</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t29" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t30" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="R" function="Z5" ana="sem:Z5">R</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t31" pos="Z" msd="UPosTag=PUNCT" function="Z5" ana="sem:Z5">&amp;</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t32" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="d" function="Z5" ana="sem:Z5">D</w>
+                     </name>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t33" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="resource" function="A9+,W3" ana="sem:A9p">resources</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t34" pos="IN" msd="UPosTag=SCONJ" lemma="because" function="Z5/A2.2" ana="sem:Z5 sem:A2.2">because</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t35" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t36" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="invest" function="I1.1" ana="sem:I1.1">invests</w>
+                     <phr type="sem" function="N5+,N6+,A13.3" ana="sem:N5p">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t37" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="N5+,N6+,A13.3" ana="sem:N5p">a</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t38" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="lot" function="N5+,N6+,A13.3" ana="sem:N5p">lot</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t39" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t40" pos="RBR" msd="UPosTag=ADV|Degree=Cmp" lemma="more" function="A13.3,N6++" ana="sem:A13.3">more</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t41" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="coherent" function="A7+,S1.2.6+,X2.5+" ana="sem:A7p">coherent</w>
+                     <phr type="sem" function="A2.1+/A5.1+/M7" ana="sem:A2.1p sem:A5.1p sem:M7">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t42" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="regional" function="A2.1+/A5.1+/M7" ana="sem:A2.1p sem:A5.1p sem:M7">regional</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t43" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="development" function="A2.1+/A5.1+/M7" ana="sem:A2.1p sem:A5.1p sem:M7">development</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t44" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t45" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="term" function="Q3,T1.3,A4.1,S6+" ana="sem:Q3">terms</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t46" pos="IN" msd="UPosTag=SCONJ" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t47" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="build" function="H1,A1.1.1,A5.1+/A2.1,N3.2+/A2.1" ana="sem:H1">building</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t48" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="local" function="M7" ana="sem:M7">local</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t49" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="infrastructure" function="I2.1/S8+" ana="sem:I2.1 sem:S8p" join="right">infrastructure</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t50" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t51" pos="IN" msd="UPosTag=SCONJ" lemma="as" function="Z5" ana="sem:Z5">as</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t52" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="regional" function="T1.3" ana="sem:T1.3">regional</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t53" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="R" function="T1.3" ana="sem:T1.3">R</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t54" pos="Z" msd="UPosTag=PUNCT" function="Z5" ana="sem:Z5">&amp;</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t55" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="d" function="T1.3" ana="sem:T1.3">D</w>
+                     </name>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t56" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="facilitation" function="T1.3" ana="sem:T1.3">facilitation</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t57" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t58" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="increase" function="N5+/A2.1" ana="sem:N5p sem:A2.1" join="right">increasing</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.4.t59" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5" n="5" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t3" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t4" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="support" function="A5.4+" ana="sem:A5.4p">support</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t5" pos="PRP" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="A5.4+" ana="sem:A5.4p">it</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t6" pos="IN" msd="UPosTag=SCONJ" lemma="because" function="Z5/A2.2" ana="sem:Z5 sem:A2.2">because</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t7" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t8" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="budget" function="I1,G1.1/I1,I1.3-" ana="sem:I1">budget</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t9" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="forese" function="Z99" ana="sem:Z99">foresees</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t10" pos="JJR" msd="UPosTag=ADJ|Degree=Cmp" lemma="low" function="M6,N3.7--,N5--,I1.3--,A5.1--,A11.1--,E4.1--,X3.2--,G2.2--,S7.1--" ana="sem:M6">lower</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t11" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="public" function="S5+,A10+" ana="sem:S5p">public</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t12" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="spending" function="I1.2,A1.5.1,T1.3" ana="sem:I1.2">spending</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t13" pos="IN" msd="UPosTag=ADP" lemma="by" function="Z5" ana="sem:Z5">by</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t14" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="3" function="N1" ana="sem:N1" join="right">3</w>
+                     <phr type="sem" function="Z2,Z3c" ana="sem:Z2">
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t15" pos="Z" msd="UPosTag=PUNCT" function="Z2,Z3c" ana="sem:Z2">%</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t16" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z2,Z3c" ana="sem:Z2">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t17" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="gdp" function="Z2,Z3c" ana="sem:Z2" join="right">GDP</w>
+                     </phr>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t18" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t19" pos="WDT" msd="UPosTag=PRON|PronType=Rel" lemma="which" function="Z5,Z8" ana="sem:Z5">which</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t20" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="represent" function="Q1.1,A6.2+,S1.1.3,A5.4-,K4" ana="sem:Q1.1">represents</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t21" pos="RB" msd="UPosTag=ADV" lemma="about" function="Z5" ana="sem:Z5">about</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t22" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t23" pos="CD" msd="UPosTag=NUM|NumForm=Word|NumType=Card" lemma="billion" function="N1,I1" ana="sem:N1">billion</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t24" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="euro" function="Z99" ana="sem:Z99" join="right">euros</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.5.t25" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6" n="6" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="only" function="A14" ana="sem:A14">only</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="problem" function="A12-,X4.1,N2,B2-" ana="sem:A12n">problem</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t4" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">we</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t5" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="see" function="X3.4,X2.1,S1.1.1,X2.5+,X2.3+,X3,A7+,Z4,S3.2" ana="sem:X3.4">see</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t6" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t7" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t8" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="parliamentary" function="G1.1" ana="sem:G1.1">parliamentary</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="group" function="S5+c,A4.1c,B3%" ana="sem:S5p">group</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t10" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t11" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="inflation" function="I1.3+" ana="sem:I1.3p" join="right">inflation</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t12" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t13" pos="WDT" msd="UPosTag=PRON|PronType=Rel" lemma="which" function="Z5,Z8" ana="sem:Z5">which</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t14" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t15" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="condition" function="B4,P1" ana="sem:B4">conditioned</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t16" pos="IN" msd="UPosTag=ADP" lemma="by" function="Z5" ana="sem:Z5">by</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t17" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t18" pos="JJR" msd="UPosTag=ADJ|Degree=Cmp" lemma="high" function="N3.7++,N5++,A11.1++,S7.1++,A5.1++,T3--,X3.2,G2.2++,E4.1++,I1.3++,O4.2--,O4.6++,S9" ana="sem:N3.7p">higher</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t19" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="price" function="I1.3" ana="sem:I1.3">price</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t20" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t21" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="oil" function="T1.3" ana="sem:T1.3">oil</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t22" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t23" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="food" function="T1.3" ana="sem:T1.3">food</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t24" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t25" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t26" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t27" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="problem" function="A12-,X4.1,N2,B2-" ana="sem:A12n">problem</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t28" pos="WDT" msd="UPosTag=PRON|PronType=Rel" lemma="that" function="A13.3,A6.1+" ana="sem:A13.3">that</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t29" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t30" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t31" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="present" function="T1.1.2,A3+" ana="sem:T1.1.2">present</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t32" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t33" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t34" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="rest" function="Z2,Z3c" ana="sem:Z2">rest</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t35" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z2,Z3c" ana="sem:Z2">of</w>
+                     <name type="LOC">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t36" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Europe" function="Z2,Z3c" ana="sem:Z2" join="right">Europe</w>
+                     </name>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.6.t37" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7" n="7" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7.t1" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">However</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7.t3" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">we</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7.t4" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7.t5" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="confident" function="E6+" ana="sem:E6p">confident</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7.t6" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7.t7" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7.t8" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="problem" function="A12-,X4.1,N2,B2-" ana="sem:A12n">problem</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7.t9" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7.t10" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="inflation" function="I1.3+" ana="sem:I1.3p">inflation</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7.t11" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7.t12" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7.t13" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7.t14" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="resolve" function="X6+,X9.2+" ana="sem:X6p">resolved</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7.t15" pos="IN" msd="UPosTag=ADP" lemma="by" function="Z5" ana="sem:Z5">by</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7.t16" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="spring" function="O2,T1.3,W3/M4" ana="sem:O2">spring</w>
+                     <phr type="sem" function="T1.3,P1/S2mf" ana="sem:T1.3">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7.t17" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="next" function="T1.3,P1/S2mf" ana="sem:T1.3">next</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7.t18" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="year" function="T1.3,P1/S2mf" ana="sem:T1.3" join="right">year</w>
+                     </phr>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.7.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8" n="8" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">have</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t3" pos="VBN" msd="UPosTag=AUX|Tense=Past|VerbForm=Part" lemma="be" function="A3+,Z5" ana="sem:A3p">been</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t4" pos="RB" msd="UPosTag=ADV" lemma="somewhat" function="A13.6" ana="sem:A13.6">somewhat</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t5" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="concerned" function="E6-,A1.8+,A2.2,S1.1.3+" ana="sem:E6n">concerned</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t6" pos="IN" msd="UPosTag=ADP" lemma="about" function="Z5" ana="sem:Z5">about</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t7" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t8" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="use" function="A1.5.1" ana="sem:A1.5.1">use</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t9" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t10" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="European" function="Z2" ana="sem:Z2">European</w>
+                     </name>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t11" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="fund" function="I1.1,N5+" ana="sem:I1.1" join="right">funds</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t12" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t13" pos="CC" msd="UPosTag=CCONJ" lemma="but" function="Z5" ana="sem:Z5">but</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t14" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">we</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t15" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t16" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="convince" function="A7+" ana="sem:A7p">convinced</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t17" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t18" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="European" function="Z2" ana="sem:Z2">European</w>
+                     </name>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t19" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="fund" function="I1.1,N5+" ana="sem:I1.1" join="right">funds</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t20" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t21" pos="VBG" msd="UPosTag=VERB|ExtPos=ADP|VerbForm=Ger" lemma="accord" function="A9-,A6.1+" ana="sem:A9n">according</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t22" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t23" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t24" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="minister" function="G1.1/S2mf,S9/S2mf" ana="sem:G1.1 sem:S2">Minister</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t25" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t26" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="local" function="Z1mf,Z3c" ana="sem:Z1">Local</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t27" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="self" function="Z1mf,Z3c" ana="sem:Z1" join="right">Self</w>
+                     </name>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t28" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">-</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t29" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="government" function="G1.1c" ana="sem:G1.1" join="right">Government</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t30" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t31" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t32" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t33" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t34" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="right" function="A5.3+,A4.2+,A1.2+,G2.2+,M6,N3.2+,A13.3,A13.2" ana="sem:A5.3p">right</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t35" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="track" function="M3,O2,K3,A4.1,X4.1,K5.1/M7" ana="sem:M3" join="right">track</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.8.t36" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7">
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.1" n="1" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.1">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.1.t2" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.1.t3" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="see" function="X3.4,X2.1,S1.1.1,X2.5+,X2.3+,X3,A7+,Z4,S3.2" ana="sem:X3.4">see</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.1.t4" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.1.t5" pos="RB" msd="UPosTag=ADV" lemma="very" function="A13.3" ana="sem:A13.3">very</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.1.t6" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="important" function="A11.1+" ana="sem:A11.1p">important</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.1.t7" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.1.t8" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="positive" function="A5.1+,A7+,N2" ana="sem:A5.1p">positive</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.1.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="budget" function="I1,G1.1/I1,I1.3-" ana="sem:I1">budget</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.1.t10" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.1.t11" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="term" function="Q3,T1.3,A4.1,S6+" ana="sem:Q3">terms</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.1.t12" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.1.t13" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="employment" function="I3.1" ana="sem:I3.1" join="right">employment</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.1.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.2" n="2" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.2">
+                     <phr type="sem" function="Z4" ana="sem:Z4">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.2.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z4" ana="sem:Z4">I</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.2.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="think" function="Z4" ana="sem:Z4">think</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.2.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.2.t4" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="budget" function="I1,G1.1/I1,I1.3-" ana="sem:I1">budget</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.2.t5" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+                     <phr type="sem" function="Z5" ana="sem:Z5">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.2.t6" pos="IN" msd="UPosTag=SCONJ" lemma="so" function="Z5" ana="sem:Z5">so</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.2.t7" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5" ana="sem:Z5">that</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.2.t8" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.2.t9" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="unemployed" function="I3.1-" ana="sem:I3.1n">unemployed</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.2.t10" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.2.t11" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.2.t12" pos="RB" msd="UPosTag=ADV" lemma="even" function="A13.1" ana="sem:A13.1">even</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.2.t13" pos="JJR" msd="UPosTag=ADJ|Degree=Cmp" lemma="less" function="Z5" ana="sem:Z5" join="right">less</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.2.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3" n="3" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="budget" function="I1,G1.1/I1,I1.3-" ana="sem:I1">budget</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t3" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t4" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t5" pos="RB" msd="UPosTag=ADV" lemma="very" function="A13.3" ana="sem:A13.3">very</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t6" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="good" function="A5.1+,G2.2+,O4.2+,A1.5.2+,N3.2+" ana="sem:A5.1p">good</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t7" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t8" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="area" function="M7,A4.1,N3.6" ana="sem:M7">area</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t10" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t11" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="education" function="T1.3" ana="sem:T1.3">education</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t12" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t13" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="education" function="T1.3" ana="sem:T1.3" join="right">education</w>
+                     </phr>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t15" pos="CC" msd="UPosTag=CCONJ" lemma="or" function="Z5" ana="sem:Z5">or</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t16" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t17" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t18" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="field" function="F4,W3,M7,K5.1/M7,G3@,A4.1" ana="sem:F4">field</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t19" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t20" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="family" function="S4c,A4.1c" ana="sem:S4">family</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t21" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="policy" function="X7+,Q1.2" ana="sem:X7p" join="right">policy</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t22" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t23" pos="WRB" msd="UPosTag=SCONJ|PronType=Rel" lemma="where" function="M6" ana="sem:M6">where</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t24" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t25" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="create" function="A1.1.1,A2.2,E1" ana="sem:A1.1.1">creates</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t26" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="condition" function="O4.1,S6+,B2-,B2+,Z7" ana="sem:O4.1">conditions</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t27" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t28" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t29" pos="JJR" msd="UPosTag=ADJ|Degree=Cmp" lemma="good" function="A5.1++,G2.2++,O4.2++" ana="sem:A5.1p">better</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t30" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="demographic" function="S5+" ana="sem:S5p">demographic</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t31" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="picture" function="C1,Q4.3,X4.1" ana="sem:C1" join="right">picture</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.3.t32" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4" n="4" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t3" pos="WRB" msd="UPosTag=SCONJ|PronType=Int" lemma="how" function="Z5,A13.3" ana="sem:Z5">how</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t4" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">we</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t5" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="see" function="X3.4,X2.1,S1.1.1,X2.5+,X2.3+,X3,A7+,Z4,S3.2" ana="sem:X3.4">see</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t6" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t7" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t8" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2008" function="N1" ana="sem:N1">2008</w>
+                     <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="budget" function="Df/A5.1+++mfnc" ana="sem:A5.1p">budget</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t10" pos="IN" msd="UPosTag=ADP" lemma="of" function="Df/A5.1+++mfnc" ana="sem:A5.1p">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t11" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Df/A5.1+++mfnc" ana="sem:A5.1p">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t12" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="rebalancing" function="Df/A5.1+++mfnc" ana="sem:A5.1p">rebalancing</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t13" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t14" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t15" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t16" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2009" function="N1" ana="sem:N1">2009</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t17" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t18" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="positive" function="A5.1+,A7+,N2" ana="sem:A5.1p">positive</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t19" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="picture" function="C1,Q4.3,X4.1" ana="sem:C1" join="right">picture</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t20" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t21" pos="RB" msd="UPosTag=ADV" lemma="so" function="Z5" ana="sem:Z5">so</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t22" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">we</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t23" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t24" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="support" function="A5.4+" ana="sem:A5.4p">support</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t25" pos="PRP" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="A5.4+" ana="sem:A5.4p" join="right">it</w>
+                     </phr>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.4.t26" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#PečeSašo" xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.u716" ana="#regular" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.u716">
+               <seg xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772">
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1" n="1" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1">
+                     <name type="PER">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Bell" function="Z3c" ana="sem:Z3" join="right">Bell</w>
+                     </name>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1.t3" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Leo" function="Z1m,S9/S2mf,S9" ana="sem:Z1" join="right">Leo</w>
+                     </name>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1.t4" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1.t5" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Petrol" function="O1.2" ana="sem:O1.2" join="right">Petrol</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1.t7" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Friday" function="T1.3" ana="sem:T1.3" join="right">Friday</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1.t9" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="lady" function="T1.3" ana="sem:T1.3">ladies</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1.t10" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1.t11" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="gentleman" function="T1.3" ana="sem:T1.3" join="right">gentlemen</w>
+                     </phr>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1.t12" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1.t13" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">this</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1.t14" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1.t15" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1.t16" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="danger" function="A15-,A7+" ana="sem:A15n">danger</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1.t17" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1.t18" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="today" function="T1.1.2" ana="sem:T1.1.2" join="right">today</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.2" n="2" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.2">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.2.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.2.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="do" function="S1.1.3+,A1.1.1" ana="sem:S1.1.3p" join="right">do</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.2.t3" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">n't</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.2.t4" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="mean" function="A5.4+" ana="sem:A5.4p">mean</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.2.t5" pos="PRP" msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs" lemma="you" function="A5.4+" ana="sem:A5.4p" join="right">you</w>
+                     </phr>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.2.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.2.t7" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Mr." function="Z1mf,Z3c" ana="sem:Z1">Mr.</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.2.t8" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Miro" function="Z1mf,Z3c" ana="sem:Z1">Miro</w>
+                     </name>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.2.t9" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Friday" function="Z1mf,Z3c" ana="sem:Z1" join="right">Friday</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.2.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.3" n="3" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.3">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.3.t1" pos="CC" msd="UPosTag=CCONJ" lemma="neither" function="Z6" ana="sem:Z6">Neither</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.3.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin" lemma="do" function="S1.1.3+,A1.1.1" ana="sem:S1.1.3p">do</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.3.t3" pos="PRP" msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8" join="right">you</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.3.t4" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.4" n="4" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.4">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.4.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5" join="right">That</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.4.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A9+,A3+,A2.2,Z5" ana="sem:A9p">'s</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.4.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.4.t4" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="danger" function="A15-,A7+" ana="sem:A15n">danger</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.4.t5" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.4.t6" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="today" function="T1.1.2" ana="sem:T1.1.2" join="right">today</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.4.t7" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5" n="5" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t1" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">And</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t3" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="thing" function="O2,X4.1,A7-,S2mf,L2mf" ana="sem:O2">things</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t4" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8" join="right">you</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t5" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">'re</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t6" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="do" function="A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5" ana="sem:A1.1.1">doing</w>
+                     <phr type="sem" function="Z5" ana="sem:Z5">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t7" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t8" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="that" function="Z5" ana="sem:Z5">that</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="decree" function="Q2.2,G2.1" ana="sem:Q2.2">decree</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t10" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="today" function="T1.1.2" ana="sem:T1.1.2" join="right">today</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t12" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8" join="right">you</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t13" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">'re</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t14" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="give" function="A9-,A1.1.1" ana="sem:A9n">giving</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t15" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t16" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="condition" function="O4.1,S6+,B2-,B2+,Z7" ana="sem:O4.1">condition</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t17" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t18" pos="RB" msd="UPosTag=ADV" lemma="finally" function="N4" ana="sem:N4">finally</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t19" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="customerism" function="Z99" ana="sem:Z99" join="right">customerism</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t20" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t21" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t22" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="corruption" function="G2.2-,G2.1-,Q3" ana="sem:G2.2n">corruption</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t23" pos="WDT" msd="UPosTag=PRON|PronType=Rel" lemma="that" function="A13.3,A6.1+" ana="sem:A13.3">that</w>
+                     <phr type="sem" function="M6,A2.2" ana="sem:M6">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t24" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="come" function="M6,A2.2" ana="sem:M6">comes</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t25" pos="IN" msd="UPosTag=ADP" lemma="from" function="M6,A2.2" ana="sem:M6">from</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t26" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t27" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="cabinet" function="H5,G1.1" ana="sem:H5">cabinet</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t28" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t29" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t30" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="President" function="G1.1/S7.1+/S2mf" ana="sem:G1.1 sem:S7.1p sem:S2">President</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t31" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t32" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t33" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="government" function="G1.1c" ana="sem:G1.1" join="right">Government</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t34" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t35" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t36" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t37" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="grow" function="N3.2+/A2.1,A2.1+,A5.1+/A2.1,F4" ana="sem:N3.2p sem:A2.1">grow</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t38" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t39" pos="DT" msd="UPosTag=DET" lemma="all" function="N5.1+" ana="sem:N5.1p">all</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t40" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t41" pos="PRP$" msd="UPosTag=PRON|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs" lemma="its" function="Z8" ana="sem:Z8">its</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t42" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="barbecue" function="F1" ana="sem:F1" join="right">barbecues</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t43" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t44" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t45" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t46" pos="RB" msd="UPosTag=ADV" lemma="yet" function="T1.1.2" ana="sem:T1.1.2">yet</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t47" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t48" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <phr type="sem" function="T1.1.1" ana="sem:T1.1.1">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t49" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="last" function="T1.1.1" ana="sem:T1.1.1">last</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t50" pos="CD" msd="UPosTag=NUM|NumForm=Word|NumType=Card" lemma="three" function="T1.1.1" ana="sem:T1.1.1">three</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t51" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="year" function="T1.1.1" ana="sem:T1.1.1" join="right">years</w>
+                     </phr>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.5.t52" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.6" n="6" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.6">
+                     <phr type="sem" function="Z4" ana="sem:Z4">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.6.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z4" ana="sem:Z4">I</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.6.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="believe" function="Z4" ana="sem:Z4">believe</w>
+                     </phr>
+                     <phr type="sem" function="Z4" ana="sem:Z4">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.6.t3" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z4" ana="sem:Z4">you</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.6.t4" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin" lemma="know" function="Z4" ana="sem:Z4">know</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.6.t5" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="people" function="S2mfc" ana="sem:S2">people</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.6.t6" pos="IN" msd="UPosTag=ADP" lemma="around" function="Z5" ana="sem:Z5">around</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.6.t7" pos="PRP" msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8" join="right">you</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.6.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.6.t9" pos="CC" msd="UPosTag=CCONJ" lemma="but" function="Z5" ana="sem:Z5">but</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.6.t10" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="do" function="S1.1.3+,A1.1.1" ana="sem:S1.1.3p" join="right">do</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.6.t11" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">n't</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.6.t12" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="close" function="A5.4+" ana="sem:A5.4p">close</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.6.t13" pos="PRP$" msd="UPosTag=PRON|Person=2|Poss=Yes|PronType=Prs" lemma="you" function="A5.4+" ana="sem:A5.4p">your</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.6.t14" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="eye" function="B1,X3.4" ana="sem:B1" join="right">eyes</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.6.t15" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.7" n="7" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.7">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.7.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8" join="right">It</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.7.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A9+,A3+,A2.2,Z5" ana="sem:A9p">'s</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.7.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="state" function="G1.1c,O4.1" ana="sem:G1.1">state</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.7.t4" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="property" function="A9+,H1/H3,O4.1" ana="sem:A9p" join="right">property</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.7.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8" n="8" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t1" pos="VB" msd="UPosTag=AUX|VerbForm=Fin" lemma="do" function="S1.1.3+,A1.1.1" ana="sem:S1.1.3p" join="right">Do</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t2" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">n't</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t3" pos="VB" msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin" lemma="let" function="A5.4+" ana="sem:A5.4p">let</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t4" pos="PRP" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="A5.4+" ana="sem:A5.4p">it</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t5" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="happen" function="A2.1+,A3+,X7-" ana="sem:A2.1p" join="right">happen</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t7" pos="CC" msd="UPosTag=CCONJ" lemma="but" function="Z5" ana="sem:Z5">but</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t8" pos="VB" msd="UPosTag=AUX|Mood=Imp|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t9" pos="RB" msd="UPosTag=ADV" lemma="so" function="Z5,A13.3" ana="sem:Z5">so</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t10" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="brave" function="E5+" ana="sem:E5p">brave</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t11" pos="IN" msd="UPosTag=SCONJ" lemma="if" function="Z7" ana="sem:Z7">if</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t12" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Minister" function="Z1mf,Z3c" ana="sem:Z1">Minister</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t13" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Bajuk" function="Z1mf,Z3c" ana="sem:Z1">Bajuk</w>
+                     </name>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t14" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="do" function="A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5" ana="sem:A1.1.1" join="right">does</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t15" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">n't</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t16" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">have</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t17" pos="PRP" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
+                     <phr type="sem" function="Z5" ana="sem:Z5">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t18" pos="IN" msd="UPosTag=SCONJ" lemma="so" function="Z5" ana="sem:Z5">so</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t19" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5" ana="sem:Z5">that</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t20" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs" lemma="he" function="Z8m" ana="sem:Z8">he</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t21" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="can" function="A7+" ana="sem:A7p">can</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t22" pos="RB" msd="UPosTag=ADV" lemma="finally" function="N4" ana="sem:N4">finally</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t23" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="get" function="A9+,Z5,X9.2+,A2.1+,A2.2,M1,M2,X2.5+,E4.1-" ana="sem:A9p">get</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t24" pos="RP" msd="UPosTag=ADP" lemma="up" function="Z5" ana="sem:Z5" join="right">up</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t25" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t26" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t27" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="know" function="A5.4+" ana="sem:A5.4p">know</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t28" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs" lemma="he" function="A5.4+" ana="sem:A5.4p">he</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t29" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="know" function="X2.2+,S3.2/B1%" ana="sem:X2.2p">knows</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t30" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="thing" function="O2,X4.1,A7-,S2mf,L2mf" ana="sem:O2" join="right">things</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.8.t31" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.9" n="9" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.9">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.9.t1" pos="CC" msd="UPosTag=CCONJ" lemma="but" function="Z5" ana="sem:Z5">But</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.9.t2" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8">you</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.9.t3" pos="DT" msd="UPosTag=DET" lemma="all" function="N5.1+" ana="sem:N5.1p">all</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.9.t4" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin" lemma="keep" function="A5.4+" ana="sem:A5.4p">keep</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.9.t5" pos="PRP$" msd="UPosTag=PRON|Person=2|Poss=Yes|PronType=Prs" lemma="you" function="A5.4+" ana="sem:A5.4p">your</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.9.t6" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="eye" function="B1,X3.4" ana="sem:B1">eyes</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.9.t7" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="close" function="A1.1.1,A10-,T2-" ana="sem:A1.1.1" join="right">closed</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.9.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10" n="10" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8" join="right">You</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">'re</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t3" pos="RB" msd="UPosTag=ADV" lemma="just" function="A14,T3---,T1.3-,N3.3---" ana="sem:A14">just</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t4" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="confirm" function="A7+,Q2.2,S9@" ana="sem:A7p">confirming</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t5" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="thing" function="O2,X4.1,A7-,S2mf,L2mf" ana="sem:O2">things</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t6" pos="WDT" msd="UPosTag=PRON|PronType=Rel" lemma="that" function="A13.3,A6.1+" ana="sem:A13.3" join="right">that</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t7" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t8" pos="IN" msd="UPosTag=ADP" lemma="at" function="Z5" ana="sem:Z5">at</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t9" pos="DT" msd="UPosTag=DET" lemma="some" function="N5,Z5" ana="sem:N5">some</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t10" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="declaration" function="Q2.2" ana="sem:Q2.2">declaration</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t11" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="level" function="N3.7,N5,S5+,A5.1,X9.1,A4.1,S7.1" ana="sem:N3.7" join="right">level</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t12" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t13" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8" join="right">you</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t14" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">'re</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t15" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="say" function="Q2.1,Z4%" ana="sem:Q2.1">saying</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t16" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t17" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="wrong" function="A5.3-,A5.1-,G2.2-,B2-" ana="sem:A5.3n">wrong</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t18" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t19" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="should" function="S6+,A7+" ana="sem:S6p">should</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t20" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t21" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t22" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="happen" function="A2.1+,A3+,X7-" ana="sem:A2.1p">happening</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t23" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t24" pos="PRP$" msd="UPosTag=PRON|Number=Plur|Person=1|Poss=Yes|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">our</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t25" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="country" function="G1.1c,W3,F4/M7,K2" ana="sem:G1.1">country</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t26" pos="CC" msd="UPosTag=CCONJ" lemma="or" function="Z5" ana="sem:Z5">or</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t27" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="society" function="S5+c" ana="sem:S5p" join="right">society</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.10.t28" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11" n="11" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t1" pos="CC" msd="UPosTag=CCONJ" lemma="but" function="Z5" ana="sem:Z5">But</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t2" pos="IN" msd="UPosTag=SCONJ" lemma="by" function="Z5" ana="sem:Z5">by</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t3" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="press" function="A1.1.1,X8+,S7.1+,E6-" ana="sem:A1.1.1">pressing</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t4" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">"</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t5" pos="UH" msd="UPosTag=INTJ" lemma="yes" function="Z4" ana="sem:Z4" join="right">yes</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">"</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t7" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t8" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">this</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="kind" function="A4.1" ana="sem:A4.1">kind</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t10" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t11" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="decree" function="Q2.2,G2.1" ana="sem:Q2.2">decree</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t12" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t13" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="similar" function="A6.1+" ana="sem:A6.1p">similar</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t14" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="decree" function="Q2.2,G2.1" ana="sem:Q2.2" join="right">decrees</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t15" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t16" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="gentleman" function="S2.2m" ana="sem:S2.2" join="right">gentlemen</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t17" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t18" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8">you</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t19" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin" lemma="allow" function="S7.4+,S8+,X2.1" ana="sem:S7.4p">allow</w>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t20" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="customerism" function="T1.3" ana="sem:T1.3">customerism</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t21" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t22" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="corruption" function="T1.3" ana="sem:T1.3" join="right">corruption</w>
+                     </phr>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.11.t23" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12" n="12" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12.t1" pos="PDT" msd="UPosTag=DET" lemma="all" function="N5.1+" ana="sem:N5.1p">All</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12.t2" pos="DT" msd="UPosTag=DET|Number=Plur|PronType=Dem" lemma="this" function="Z5,Z8" ana="sem:Z5">these</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12.t3" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="story" function="Q2.1,X4.1" ana="sem:Q2.1">stories</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12.t4" pos="WDT" msd="UPosTag=PRON|PronType=Rel" lemma="that" function="A13.3,A6.1+" ana="sem:A13.3">that</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12.t5" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12.t6" pos="RB" msd="UPosTag=ADV" lemma="now" function="T1.1.2,Z4" ana="sem:T1.1.2">now</w>
+                     <phr type="sem" function="A1.1.1" ana="sem:A1.1.1">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12.t7" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="take" function="A1.1.1" ana="sem:A1.1.1">taking</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12.t8" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="place" function="A1.1.1" ana="sem:A1.1.1">place</w>
+                     </phr>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12.t9" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12.t10" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12.t11" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="newspaper" function="Q4.2" ana="sem:Q4.2">newspaper</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12.t12" pos="IN" msd="UPosTag=ADP" lemma="around" function="Z5" ana="sem:Z5">around</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12.t13" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="LOC">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12.t14" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Laško" function="Z1mf,Z3c" ana="sem:Z1">Laško</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12.t15" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Brewery" function="Z1mf,Z3c" ana="sem:Z1">Brewery</w>
+                     </name>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12.t16" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12.t17" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">"</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12.t18" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="passenger" function="M3/S2mf,M4/S2mf,M5/S2mf" ana="sem:M3 sem:S2" join="right">passengers</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">"</pc>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.12.t20" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.13" n="13" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.13">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.13.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8" join="right">It</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.13.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A9+,A3+,A2.2,Z5" ana="sem:A9p">'s</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.13.t3" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.13.t4" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="dirty" function="O4.2-,G2.2-,S1.2.4-" ana="sem:O4.2n">dirty</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.13.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="laundry" function="B4,B4/H1" ana="sem:B4">laundry</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.13.t6" pos="RB" msd="UPosTag=ADV" lemma="now" function="T1.1.2,Z4" ana="sem:T1.1.2" join="right">now</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.13.t7" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.14" n="14" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.14">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.14.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="today" function="T1.1.2" ana="sem:T1.1.2">Today</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.14.t2" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.14.t3" pos="RB" msd="UPosTag=ADV|PronType=Dem" lemma="here" function="M6,T1.1.2,T1.2" ana="sem:M6">here</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.14.t4" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.14.t5" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.14.t6" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="story" function="Q2.1,X4.1" ana="sem:Q2.1">stories</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.14.t7" pos="WDT" msd="UPosTag=PRON|PronType=Rel" lemma="that" function="A13.3,A6.1+" ana="sem:A13.3">that</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.14.t8" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.14.t9" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="happen" function="A2.1+,A3+,X7-" ana="sem:A2.1p" join="right">happening</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.14.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.14.t11" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.14.t12" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8" join="right">you</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.14.t13" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">'re</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.14.t14" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="allow" function="A5.4+" ana="sem:A5.4p">allowing</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.14.t15" pos="PRP" msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=3|PronType=Prs" lemma="they" function="A5.4+" ana="sem:A5.4p" join="right">them</w>
+                     </phr>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.14.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.note1166" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.note1166">THE PRESIDENT OF FRANCE CAN DO THIS:</note>
+            <u who="#CukjatiFrance" xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.u717" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.u717">
+               <seg xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773">
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.1" n="1" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.1">
+                     <phr type="sem" function="Z4,S1.2.4+" ana="sem:Z4">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.1.t1" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="thank" function="Z4,S1.2.4+" ana="sem:Z4">Thank</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.1.t2" pos="PRP" msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs" lemma="you" function="Z4,S1.2.4+" ana="sem:Z4" join="right">you</w>
+                     </phr>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.1.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.2" n="2" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.2">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.2.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8" join="right">We</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.2.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">'re</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.2.t3" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="voting" function="G1.2" ana="sem:G1.2" join="right">voting</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.2.t4" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.3" n="3" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.3">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.3.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.3.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.3.t3" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="59" function="N1" ana="sem:N1">59</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.3.t4" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Member" function="S5+/S2mf,B1" ana="sem:S5p sem:S2">Members</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.3.t5" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.3.t6" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Member" function="S5+/S2mf,B1" ana="sem:S5p sem:S2">Members</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.3.t7" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="present" function="A9-,A2.2,Q2.2,S1.1.3+,Q4.3,O4.1,K4" ana="sem:A9n" join="right">present</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.3.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.3.t9" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="45" function="N1" ana="sem:N1">45</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.3.t10" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="vote" function="G1.2" ana="sem:G1.2">votes</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.3.t11" pos="IN" msd="UPosTag=ADP" lemma="against" function="Z5" ana="sem:Z5">against</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.3.t12" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="14" function="N1" ana="sem:N1" join="right">14</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.3.t13" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <note xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.note1167" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.note1167">The vote was 45.</note>
+               <note xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.note1168" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.note1168">Against the 14th.</note>
+               <seg xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1775" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1775">
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1775.1" n="1" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1775.1">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1775.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1775.1.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="understand" function="X2.5+" ana="sem:X2.5p">understand</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1775.1.t3" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1775.1.t4" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1775.1.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="decision" function="X6+" ana="sem:X6p">decision</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1775.1.t6" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">has</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1775.1.t7" pos="VBN" msd="UPosTag=AUX|Tense=Past|VerbForm=Part" lemma="be" function="A3+,Z5" ana="sem:A3p">been</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1775.1.t8" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="take" function="A9+,T1.3,C1,A1.1.1,M2,S7.1-,A2.1+,X2.4,S6+,S7.4+,N3,A2.1+,P1,M1,X2.5+,F1@,F2@,Q1.2@,B3@" ana="sem:A9p" join="right">taken</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1775.1.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776">
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1" n="1" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="conclude" function="X6+,T2-" ana="sem:X6p">conclude</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t3" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">this</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t4" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="agenda" function="Q1.2/X7+" ana="sem:Q1.2 sem:X7p">agenda</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="item" function="O2,Q4,X4.1" ana="sem:O2">item</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t6" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t7" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t8" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="conclude" function="X6+,T2-" ana="sem:X6p">conclude</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t9" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t10" pos="JJ" msd="UPosTag=ADJ|Degree=Pos|NumType=Ord" lemma="30th" function="Z99" ana="sem:Z99">30th</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t11" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="extraordinary" function="A6.2-" ana="sem:A6.2n">extraordinary</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t12" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="meeting" function="S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+" ana="sem:S1.1.3p">meeting</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t13" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t14" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t15" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="National" function="Z1mf,Z3c" ana="sem:Z1">National</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t16" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Assembly" function="Z1mf,Z3c" ana="sem:Z1">Assembly</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t17" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t18" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t19" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Republic" function="S5+/M7" ana="sem:S5p sem:M7">Republic</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t20" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t21" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Slovenia" function="Z2" ana="sem:Z2" join="right">Slovenia</w>
+                     </name>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1.t22" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.2" n="2" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.2">
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.2.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="good" function="A5.1+,G2.2+,O4.2+,A1.5.2+,N3.2+" ana="sem:A5.1p">Good</w>
+<w xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.2.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="night" function="T1.3" ana="sem:T1.3" join="right">night</w>
+<pc xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.2.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">!</pc>
+                  </s>
+               </seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.note1169" xml:lang="en" corresp="mt-src:ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.note1169">The meeting was closed on 28 November 2007 at 23.24 p.m.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-NL-en_2019-05-16-tweedekamer-11.ana" xml:lang="en" ana="#parla.sitting #reference" corresp="../../ParlaMint-NL.TEI.ana/2019/ParlaMint-NL_2019-05-16-tweedekamer-11.ana.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" type="main">Dutch parliamentary corpus ParlaMint-NL-en, Lower House 2019-05-16 [ParlaMint-en.ana SAMPLE]</title>
+            <title xml:lang="nl" type="main">Corpus van het Nederlandse parlement ParlaMint-NL-en, Tweede Kamer 2019-05-16 [ParlaMint-en.ana SAMPLE]</title>
+            <title xml:lang="en" type="sub">Report of the meeting of the Dutch Lower House, Meeting 83, Session 11 (2019-05-16)</title>
+            <title xml:lang="nl" type="sub">Verslag van de vergadering van de Tweede Kamer, Meeting 83, Session 11 (2019-05-16)</title>
+            <meeting n="83" corresp="#TK" ana="#parla.lower #parla.meeting.regular" xml:lang="en">Meeting 83</meeting>
+            <meeting n="11" corresp="#TK" ana="#parla.lower #parla.session" xml:lang="en">Session 11</meeting>
+            <meeting n="29-lower" corresp="#TK" ana="#parla.lower #parla.term #TK.29" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2019-05-16">Sitting 2019-05-16</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Jesse de Does</persName>
+               <resp xml:lang="nl">Taalkundige verrijking</resp>
+               <resp xml:lang="en">Linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Taja Kuzman</persName>
+               <persName>Nikola Ljubešić</persName>
+               <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Paul Rayson</persName>
+               <persName>Matthew Coole</persName>
+               <persName>John Vidler</persName>
+               <resp xml:lang="en">Annotating MTed corpora with USAS semantic tags</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="274" xml:lang="en">274 speeches</measure>
+            <measure unit="speeches" quantity="274" xml:lang="nl">274 spreekbeurten</measure>
+            <measure unit="words" quantity="27003" xml:lang="en">27,003 words</measure>
+            <measure unit="words" quantity="27003" xml:lang="nl">27,003 woorden</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1864</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2023-11-11">2023-11-11</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
+               <date when="2019-05-16">2019-05-16</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="nl"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is een project dat tot doel heeft (1) een meertalige reeks vergelijkbare corpora van parlementaire handelingen te creëren die uniform zijn gecodeerd volgens de <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN aanbevelingen</ref> en die zowel de COVID-19 pandemie vanaf november 2019 als de eerdere periode vanaf 2015 bestrijkt om als referentiecorpus te dienen; (2) de corpora taalkundig te verrijken met syntactische structuren volgens de Universal Dependenciesrichtlijnen, en annotatie van named entities toe te voegen; (3) de corpora beschikbaar te maken via concordancers en Parlameter; en (4) use cases in politieke wetenschappen en digitale geesteswetenschappen te bouwen op basis van de corpusgegevens.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="name" occurs="936"/>
+               <tagUsage gi="note" occurs="391"/>
+               <tagUsage gi="pc" occurs="3210"/>
+               <tagUsage gi="phr" occurs="1252"/>
+               <tagUsage gi="s" occurs="1761"/>
+               <tagUsage gi="seg" occurs="385"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="274"/>
+               <tagUsage gi="w" occurs="27003"/>
+            </namespace>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef ident="mt-src" matchPattern="(.+)" replacementPattern="../../ParlaMint-NL.TEI.ana/2019/ParlaMint-NL_2019-05-16-tweedekamer-11.ana.xml#$1">
+               <p>Private URIs with this prefix point to aligned source elements of the MTed corpus.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name type="country" key="NL">The Netherlands</name>
+               <date when="2019-05-16">2019-05-16</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-11-11">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="nl" ana="#reference">
+      <body>
+         <div type="debateSection" xml:lang="en">
+            <head xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.ana.head1" xml:lang="en" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.ana.head1">Lekken van gifgas door chemiebedrijf Chemours</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.ana.note1" xml:lang="en" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.ana.note1">The President</note>
+            <u xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.u1" who="#KhadijaArib" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.u1">
+               <seg xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg1" xml:lang="en" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.seg1">
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1" n="1" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s1">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="good" function="A5.1+,G2.2+,O4.2+,A1.5.2+,N3.2+" ana="sem:A5.1p">Good</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="evening" function="T1.3" ana="sem:T1.3" join="right">evening</w>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1.t4" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="lady" function="T1.3" ana="sem:T1.3">ladies</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1.t5" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1.t6" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="gentleman" function="T1.3" ana="sem:T1.3" join="right">gentlemen</w>
+                     </phr>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1.t7" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2" n="2" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s2">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2.t3" pos="RB" msd="UPosTag=ADV" lemma="now" function="T1.1.2,Z4" ana="sem:T1.1.2">now</w>
+                     <phr type="sem" function="T1.1.3" ana="sem:T1.1.3">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2.t4" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="go" function="T1.1.3" ana="sem:T1.1.3">going</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2.t5" pos="TO" msd="UPosTag=PART" lemma="to" function="T1.1.3" ana="sem:T1.1.3">to</w>
+                     </phr>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2.t6" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="start" function="T2+,E5-,E3-" ana="sem:T2p">start</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2.t7" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2.t8" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="debate" function="Q2.2" ana="sem:Q2.2">debate</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2.t9" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2.t10" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="poison" function="E3-/O1,A15-/O1" ana="sem:E3n sem:O1">poison</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2.t11" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="leakage" function="A1.7-/O1.2,A1.7-/O1.3,A1.1.2" ana="sem:A1.7n sem:O1.2">leakage</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2.t12" pos="IN" msd="UPosTag=ADP" lemma="at" function="Z5" ana="sem:Z5">at</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2.t13" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2.t14" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="company" function="I2.1/S5+c,S5+c,G3/S5+c,S3.1,K4/S5+c" ana="sem:I2.1 sem:S5p">company</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2.t15" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Chemours" function="Z99" ana="sem:Z99" join="right">Chemours</w>
+                     </name>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3" n="3" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s3">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t1" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5">That</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="debate" function="Q2.2" ana="sem:Q2.2">debate</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t3" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t4" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t5" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="hold" function="M2,A1.1.1,A9+,X2.1,S7.1+/A1.7+" ana="sem:M2">held</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t6" pos="IN" msd="UPosTag=ADP" lemma="by" function="Z5" ana="sem:Z5">by</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t7" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t8" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Chamber" function="H2,S5+c,O2" ana="sem:H2">Chamber</w>
+                     </name>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t9" pos="IN" msd="UPosTag=ADP" lemma="with" function="Z5" ana="sem:Z5">with</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t10" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t11" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Minister" function="G1.1/S2mf,S9/S2mf" ana="sem:G1.1 sem:S2">Minister</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t12" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t13" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t14" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Secretary" function="I3.2/S2mf,S7.1+/S2mf" ana="sem:I3.2 sem:S2">Secretary</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t15" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t16" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="State" function="Q2.1" ana="sem:Q2.1">State</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t17" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t18" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Infrastructure" function="I2.1/S8+" ana="sem:I2.1 sem:S8p">Infrastructure</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t19" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t20" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Water" function="Z1mf,Z3c" ana="sem:Z1">Water</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t21" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="State" function="Z1mf,Z3c" ana="sem:Z1" join="right">State</w>
+                     </name>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t22" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t23" pos="WP" msd="UPosTag=PRON|PronType=Rel" lemma="whom" function="Z8" ana="sem:Z8">whom</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t24" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t25" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="would" function="A7+" ana="sem:A7p">would</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t26" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="like" function="E2+" ana="sem:E2p">like</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t27" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t28" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="welcome" function="Q2.2,S1.1.1" ana="sem:Q2.2" join="right">welcome</w>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3.t29" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s4" n="4" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s4">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s4.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8">You</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s4.t2" pos="DT" msd="UPosTag=DET" lemma="all" function="N5.1+" ana="sem:N5.1p">all</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s4.t3" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">have</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s4.t4" pos="CD" msd="UPosTag=NUM|NumForm=Word|NumType=Card" lemma="four" function="N1,T3,T1.2" ana="sem:N1">four</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s4.t5" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="minute" function="T1.3,Q1.2" ana="sem:T1.3" join="right">minutes</w>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s4.t6" pos="Z" msd="UPosTag=PUNCT" function="Z5" ana="sem:Z5">'</pc>
+                     <phr type="sem" function="G2.1" ana="sem:G2.1">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s4.t7" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="speak" function="G2.1" ana="sem:G2.1">speaking</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s4.t8" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="time" function="G2.1" ana="sem:G2.1" join="right">time</w>
+                     </phr>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s4.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5" n="5" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s5">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="shall" function="T1.1.3" ana="sem:T1.1.3">shall</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5.t3" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5.t4" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5.t5" pos="JJ" msd="UPosTag=ADJ|Degree=Pos|NumType=Ord" lemma="first" function="N4" ana="sem:N4">first</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5.t6" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5.t7" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="give" function="A9-,A1.1.1" ana="sem:A9n">give</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5.t8" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="floor" function="H2,S5+" ana="sem:H2">floor</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5.t10" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5.t11" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Mr" function="Z1m" ana="sem:Z1">Mr</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5.t12" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Laçin" function="Z1m" ana="sem:Z1">Laçin</w>
+                     </name>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5.t13" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5.t14" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5.t15" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="sp" function="Z99" ana="sem:Z99" join="right">SP</w>
+                     </name>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.ana.note2" xml:lang="en" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.ana.note2">Mr Laçin (SP)</note>
+            <u xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.u2" who="#CemLaçin" ana="#regular" xml:lang="en" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.u2">
+               <seg xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg2" xml:lang="en" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.seg2">
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s6" n="1" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s6">
+                     <phr type="sem" function="Z1mf,Z3c" ana="sem:Z1">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s6.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Mr." function="Z1mf,Z3c" ana="sem:Z1">Mr.</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s6.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Chairman" function="Z1mf,Z3c" ana="sem:Z1" join="right">Chairman</w>
+                     </phr>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s6.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7" n="2" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s7">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="tomorrow" function="T1.1.3" ana="sem:T1.1.3" join="right">Tomorrow</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="Z5" ana="sem:Z5">'s</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7.t3" pos="RB" msd="UPosTag=ADV" lemma="exactly" function="A4.2+,A5.3+" ana="sem:A4.2p">exactly</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7.t4" pos="CD" msd="UPosTag=NUM|NumForm=Word|NumType=Card" lemma="two" function="N1,T3,T1.2" ana="sem:N1">two</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7.t5" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="year" function="T1.3" ana="sem:T1.3">years</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7.t6" pos="IN" msd="UPosTag=SCONJ" lemma="since" function="Z5" ana="sem:Z5">since</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7.t7" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+                     <phr type="sem" function="S6+" ana="sem:S6p">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7.t8" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin" lemma="get" function="S6+" ana="sem:S6p">got</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7.t9" pos="TO" msd="UPosTag=PART" lemma="to" function="S6+" ana="sem:S6p">to</w>
+                     </phr>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7.t10" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="make" function="A5.4+" ana="sem:A5.4p">make</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7.t11" pos="PRP$" msd="UPosTag=PRON|Number=Sing|Person=1|Poss=Yes|PronType=Prs" lemma="my" function="A5.4+" ana="sem:A5.4p">my</w>
+                     </phr>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7.t12" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="maiden" function="S2.1f" ana="sem:S2.1">maiden</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7.t13" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="speech" function="Q2.1,Q3" ana="sem:Q2.1">speech</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7.t14" pos="RB" msd="UPosTag=ADV|PronType=Dem" lemma="here" function="M6,T1.1.2,T1.2" ana="sem:M6" join="right">here</w>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7.t15" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8" n="3" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s8">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8.t1" pos="RB" msd="UPosTag=ADV" lemma="even" function="A13.1" ana="sem:A13.1">Even</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8.t2" pos="RB" msd="UPosTag=ADV|PronType=Dem" lemma="then" function="N4,Z5,T1.2" ana="sem:N4" join="right">then</w>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8.t4" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8.t5" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8.t6" pos="IN" msd="UPosTag=ADP" lemma="about" function="Z5" ana="sem:Z5">about</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8.t7" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="discharge" function="A1.7-/M1,B1,O1.2" ana="sem:A1.7n sem:M1">discharges</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8.t8" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8.t9" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="chemical" function="O1" ana="sem:O1">chemical</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8.t10" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8.t11" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="toxic" function="E3-,A15-" ana="sem:E3n">toxic</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8.t12" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="substance" function="O1,A11.1+" ana="sem:O1">substances</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8.t13" pos="IN" msd="UPosTag=ADP" lemma="from" function="Z5" ana="sem:Z5">from</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8.t14" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Chemours" function="Z99" ana="sem:Z99" join="right">Chemours</w>
+                     </name>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8.t15" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9" n="4" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s9">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t1" pos="PRP$" msd="UPosTag=PRON|Number=Sing|Person=1|Poss=Yes|PronType=Prs" lemma="my" function="Z8" ana="sem:Z8">My</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="central" function="A11.1+,M6" ana="sem:A11.1p">central</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="question" function="Q2.2,X4.1" ana="sem:Q2.2">question</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t4" pos="WRB" msd="UPosTag=SCONJ|PronType=Int" lemma="when" function="Z5" ana="sem:Z5">when</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t5" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t6" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="outgoing" function="T1.3" ana="sem:T1.3">outgoing</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t7" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Secretary" function="T1.3" ana="sem:T1.3">Secretary</w>
+                     </phr>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t8" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t9" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="State" function="Q2.1" ana="sem:Q2.1">State</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t10" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p" join="right">was</w>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">:</pc>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t12" pos="WP" msd="UPosTag=PRON|PronType=Int" lemma="what" function="Z8,Z5" ana="sem:Z8">what</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t13" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t14" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8">you</w>
+                     <phr type="sem" function="T1.1.3" ana="sem:T1.1.3">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t15" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="go" function="T1.1.3" ana="sem:T1.1.3">going</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t16" pos="TO" msd="UPosTag=PART" lemma="to" function="T1.1.3" ana="sem:T1.1.3">to</w>
+                     </phr>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t17" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="do" function="S1.1.3+,A1.1.1" ana="sem:S1.1.3p">do</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t18" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t19" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="protect" function="S8+/A15+,A10-" ana="sem:S8p sem:A15p">protect</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t20" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="resident" function="H4/S2mf" ana="sem:H4 sem:S2">residents</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t21" pos="IN" msd="UPosTag=ADP" lemma="from" function="Z5" ana="sem:Z5">from</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t22" pos="DT" msd="UPosTag=DET|Number=Plur|PronType=Dem" lemma="this" function="Z5,Z8" ana="sem:Z5">these</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t23" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="discharge" function="A1.7-/M1,B1,O1.2" ana="sem:A1.7n sem:M1" join="right">discharges</w>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9.t24" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s10" n="5" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s10">
+                     <phr type="sem" function="N5+" ana="sem:N5p">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s10.t1" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="N5+" ana="sem:N5p">A</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s10.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="number" function="N5+" ana="sem:N5p">number</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s10.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="N5+" ana="sem:N5p">of</w>
+                     </phr>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s10.t4" pos="DT" msd="UPosTag=DET|Number=Plur|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5">those</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s10.t5" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="neighbor" function="H3/S2mf,N3.3-/S2mf,M7/N3.3-" ana="sem:H3 sem:S2">neighbors</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s10.t6" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">were</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s10.t7" pos="IN" msd="UPosTag=ADP" lemma="at" function="Z5" ana="sem:Z5">at</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s10.t8" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s10.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="debate" function="Q2.2" ana="sem:Q2.2" join="right">debate</w>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s10.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s10.t11" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="include" function="A1.8+" ana="sem:A1.8p">including</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s10.t12" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Hans" function="Z1m" ana="sem:Z1" join="right">Hans</w>
+                     </name>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s10.t13" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s11" n="6" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s11">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s11.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="tonight" function="T1.1.2" ana="sem:T1.1.2">Tonight</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s11.t2" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">there</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s11.t3" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s11.t4" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s11.t5" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="neighbor" function="H3/S2mf,N3.3-/S2mf,M7/N3.3-" ana="sem:H3 sem:S2" join="right">neighbors</w>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s11.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">:</pc>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s11.t7" pos="UH" msd="UPosTag=INTJ" lemma="welcome" function="Z4" ana="sem:Z4" join="right">welcome</w>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s11.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12" n="7" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s12">
+                     <name type="PER">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Hans" function="Z1m" ana="sem:Z1">Hans</w>
+                     </name>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12.t2" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="many" function="N5+" ana="sem:N5p">many</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12.t4" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="other" function="A6.1-" ana="sem:A6.1n">other</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12.t5" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="resident" function="H4/S2mf" ana="sem:H4 sem:S2">residents</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12.t6" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">have</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12.t7" pos="RB" msd="UPosTag=ADV" lemma="completely" function="A13.2" ana="sem:A13.2">completely</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12.t8" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="lose" function="X9.2-,A9-,M6/A5.3-,L1-" ana="sem:X9.2n">lost</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="faith" function="E6+,S9,X2.1" ana="sem:E6p">faith</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12.t10" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12.t11" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="politics" function="G1.2c" ana="sem:G1.2">politics</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12.t12" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12.t13" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">this</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12.t14" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="area" function="M7,A4.1,N3.6" ana="sem:M7" join="right">area</w>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12.t15" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13" n="8" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s13">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5" join="right">That</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A9+,A3+,A2.2,Z5" ana="sem:A9p">'s</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13.t3" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13.t4" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="crazy" function="B2-/X1,S1.2.6-,X5.2++,A1.1.1/N5+++" ana="sem:B2n sem:X1">crazy</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13.t5" pos="IN" msd="UPosTag=SCONJ" lemma="if" function="Z7" ana="sem:Z7">if</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13.t6" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">we</w>
+                     <phr type="sem" function="M6" ana="sem:M6">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13.t7" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="look" function="M6" ana="sem:M6">look</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13.t8" pos="RB" msd="UPosTag=ADV" lemma="back" function="M6" ana="sem:M6">back</w>
+                     </phr>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13.t9" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13.t10" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">this</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13.t11" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="file" function="O2/Q1.2,O2,Y2,S5+/N4" ana="sem:O2 sem:Q1.2">file</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13.t12" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13.t13" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <phr type="sem" function="T1.1.1" ana="sem:T1.1.1">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13.t14" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="last" function="T1.1.1" ana="sem:T1.1.1">last</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13.t15" pos="CD" msd="UPosTag=NUM|NumForm=Word|NumType=Card" lemma="two" function="T1.1.1" ana="sem:T1.1.1">two</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13.t16" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="year" function="T1.1.1" ana="sem:T1.1.1" join="right">years</w>
+                     </phr>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13.t17" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s14" n="9" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s14">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s14.t1" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">A</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s14.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="few" function="N5-" ana="sem:N5n">few</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s14.t3" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="example" function="A4.1" ana="sem:A4.1" join="right">examples</w>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s14.t4" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15" n="10" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s15">
+                     <name type="ORG">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="GenX" function="Z99" ana="sem:Z99">GenX</w>
+                     </name>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t3" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t4" pos="RB" msd="UPosTag=ADV" lemma="all" function="N5.1+" ana="sem:N5.1p">all</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t5" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+                     <name type="LOC">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t6" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Dordrecht" function="Z99" ana="sem:Z99">Dordrecht</w>
+                     </name>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t7" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t8" pos="PRP$" msd="UPosTag=PRON|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs" lemma="its" function="Z8" ana="sem:Z8">its</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t9" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="surroundings" function="Z99" ana="sem:Z99">surroundings</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t10" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+                     <phr type="sem" function="F2" ana="sem:F2">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t11" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="drinking" function="F2" ana="sem:F2">drinking</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t12" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="water" function="F2" ana="sem:F2" join="right">water</w>
+                     </phr>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t13" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t14" pos="CC" msd="UPosTag=CCONJ" lemma="but" function="Z5" ana="sem:Z5">but</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t15" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t16" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t17" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="other" function="A6.1-" ana="sem:A6.1n">other</w>
+                     <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t18" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="part" function="Df/A5.1+++mfnc" ana="sem:A5.1p">parts</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t19" pos="IN" msd="UPosTag=ADP" lemma="of" function="Df/A5.1+++mfnc" ana="sem:A5.1p">of</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t20" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Df/A5.1+++mfnc" ana="sem:A5.1p">the</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t21" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="country" function="Df/A5.1+++mfnc" ana="sem:A5.1p" join="right">country</w>
+                     </phr>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15.t22" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16" n="11" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s16">
+                     <name type="ORG">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16.t1" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Chemours" function="Z99" ana="sem:Z99">Chemours</w>
+                     </name>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16.t2" pos="RB" msd="UPosTag=ADV" lemma="still" function="T2++,Z4,E3+" ana="sem:T2p">still</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16.t3" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="lose" function="X9.2-,A9-,M6/A5.3-,L1-" ana="sem:X9.2n">loses</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16.t4" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16.t5" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="carcinogenic" function="T1.3" ana="sem:T1.3">carcinogenic</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16.t6" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="pfoa" function="T1.3" ana="sem:T1.3" join="right">PFOA</w>
+                     </name>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16.t7" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16.t8" pos="IN" msd="UPosTag=ADP" lemma="despite" function="Z5" ana="sem:Z5">despite</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16.t9" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="several" function="N5" ana="sem:N5">several</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16.t10" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="periodic" function="N6" ana="sem:N6">periodic</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16.t11" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="penalty" function="G2.1,I1.3,K5.1" ana="sem:G2.1">penalty</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16.t12" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="payment" function="I1.1" ana="sem:I1.1">payments</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16.t13" pos="IN" msd="UPosTag=ADP" lemma="from" function="Z5" ana="sem:Z5">from</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16.t14" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16.t15" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="province" function="M7,A4.1" ana="sem:M7" join="right">province</w>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg3" xml:lang="en" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.seg3">
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17" n="1" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s17">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17.t1" pos="RB" msd="UPosTag=ADV|PronType=Dem" lemma="then" function="N4,Z5,T1.2" ana="sem:N4">Then</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="leak" function="A1.7-,A1.1.2,A10+/Q2.2" ana="sem:A1.7n">leak</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17.t4" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="poison" function="Z2" ana="sem:Z2">poison</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17.t6" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="gas" function="Z2" ana="sem:Z2">gas</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17.t7" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="PFIB" function="Z2" ana="sem:Z2" join="right">PFIB</w>
+                     </name>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17.t9" pos="WDT" msd="UPosTag=PRON|PronType=Rel" lemma="which" function="Z5,Z8" ana="sem:Z5">which</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17.t10" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17.t11" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17.t12" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17.t13" pos="NNP" msd="UPosTag=PROPN|Abbr=Yes|Number=Sing" lemma="NATO" function="T1.3" ana="sem:T1.3">NATO</w>
+                     </name>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17.t14" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="list" function="T1.3" ana="sem:T1.3">list</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17.t15" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+                     <phr type="sem" function="Y1/G3" ana="sem:Y1 sem:G3">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17.t16" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="chemical" function="Y1/G3" ana="sem:Y1 sem:G3">chemical</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17.t17" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="weapon" function="Y1/G3" ana="sem:Y1 sem:G3" join="right">weapons</w>
+                     </phr>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17.t18" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18" n="2" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s18">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="person" function="S2mfc" ana="sem:S2">People</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t2" pos="IN" msd="UPosTag=ADP" lemma="with" function="Z5" ana="sem:Z5">with</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t3" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t4" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="vegetable" function="F1,X9.1-/S2mf" ana="sem:F1">vegetable</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="garden" function="L3/H3,M7/L3" ana="sem:L3 sem:H3">garden</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t6" pos="IN" msd="UPosTag=ADP" lemma="within" function="Z5" ana="sem:Z5">within</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t7" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1" function="N1" ana="sem:N1">1</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t8" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="kilometer" function="Z2,Z3c" ana="sem:Z2">kilometer</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t9" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z2,Z3c" ana="sem:Z2">of</w>
+                     <name type="LOC">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t10" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Chemours" function="Z2,Z3c" ana="sem:Z2">Chemours</w>
+                     </name>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t11" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="should" function="S6+,A7+" ana="sem:S6p">should</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t12" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t13" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="eat" function="F1/B1,A1.5.1/N5+" ana="sem:F1 sem:B1">eat</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t14" pos="RB" msd="UPosTag=ADV" lemma="too" function="N5++,N5.2+,A13.3" ana="sem:N5p">too</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t15" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="much" function="N5+,I1.3+" ana="sem:N5p">much</w>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t16" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="fruit" function="T1.3" ana="sem:T1.3">fruit</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t17" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t18" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="vegetable" function="T1.3" ana="sem:T1.3">vegetables</w>
+                     </phr>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t19" pos="IN" msd="UPosTag=ADP" lemma="from" function="Z5" ana="sem:Z5">from</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t20" pos="PRP$" msd="UPosTag=PRON|Number=Plur|Person=3|Poss=Yes|PronType=Prs" lemma="they" function="Z8" ana="sem:Z8">their</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t21" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="own" function="A9+,S5-" ana="sem:A9p">own</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t22" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="garden" function="L3/H3,M7/L3" ana="sem:L3 sem:H3" join="right">garden</w>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t23" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t24" pos="IN" msd="UPosTag=SCONJ" lemma="because" function="Z5/A2.2" ana="sem:Z5 sem:A2.2">because</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t25" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t26" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="could" function="A7+" ana="sem:A7p">could</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t27" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t28" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="dangerous" function="A15-" ana="sem:A15n" join="right">dangerous</w>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t29" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t30" pos="VBG" msd="UPosTag=VERB|ExtPos=ADP|VerbForm=Ger" lemma="accord" function="A9-,A6.1+" ana="sem:A9n">according</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t31" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t32" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="RIVM" function="Z99" ana="sem:Z99" join="right">RIVM</w>
+                     </name>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18.t33" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.u273" who="#KhadijaArib" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.u273">
+               <seg xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg384" xml:lang="en" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.seg384">
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1886" n="1" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s1886">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1886.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5">That</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1886.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="bring" function="A5.4+" ana="sem:A5.4p">brings</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1886.t3" pos="PRP" msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=1|PronType=Prs" lemma="we" function="A5.4+" ana="sem:A5.4p">us</w>
+                     </phr>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1886.t4" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1886.t5" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1886.t6" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="end" function="Df/A5.1+++mfnc" ana="sem:A5.1p">end</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1886.t7" pos="IN" msd="UPosTag=ADP" lemma="of" function="Df/A5.1+++mfnc" ana="sem:A5.1p">of</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1886.t8" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Df/A5.1+++mfnc" ana="sem:A5.1p">the</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1886.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="debate" function="Df/A5.1+++mfnc" ana="sem:A5.1p" join="right">debate</w>
+                     </phr>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1886.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.ana.note390" xml:lang="en" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.ana.note390">The debate is closed.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.ana.note391" xml:lang="en" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.ana.note391">The President</note>
+            <u xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.u274" who="#KhadijaArib" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.u274">
+               <seg xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg385" xml:lang="en" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.seg385">
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888" n="1" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s1888">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="motion" function="M1,Q1.1" ana="sem:M1">motions</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888.t3" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888.t4" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888.t5" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="put" function="M2,Q2.1,Q2.2,A1.1.1" ana="sem:M2">put</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888.t6" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888.t7" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888.t8" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="vote" function="G1.2" ana="sem:G1.2">vote</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888.t9" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="next" function="N4" ana="sem:N4">next</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888.t10" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Tuesday" function="T1.3" ana="sem:T1.3" join="right">Tuesday</w>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888.t12" pos="RB" msd="UPosTag=ADV" lemma="as" function="A13" ana="sem:A13">as</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888.t13" pos="RB" msd="UPosTag=ADV|Degree=Pos" lemma="long" function="T1.3+" ana="sem:T1.3p">long</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888.t14" pos="IN" msd="UPosTag=SCONJ" lemma="as" function="Z5" ana="sem:Z5">as</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888.t15" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs" lemma="they" function="Z8mfn" ana="sem:Z8">they</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888.t16" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888.t17" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888.t18" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="arrest" function="G2.1,S8-" ana="sem:G2.1" join="right">arrested</w>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1889" n="2" corresp="mt-src:ParlaMint-NL_2019-05-16-tweedekamer-11.s1889">
+                     <phr type="sem" function="Z4,S1.2.4+" ana="sem:Z4">
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1889.t1" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="thank" function="Z4,S1.2.4+" ana="sem:Z4">Thank</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1889.t2" pos="PRP" msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs" lemma="you" function="Z4,S1.2.4+" ana="sem:Z4">you</w>
+                     </phr>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1889.t3" pos="DT" msd="UPosTag=DET" lemma="all" function="N5.1+" ana="sem:N5.1p">all</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1889.t4" pos="IN" msd="UPosTag=SCONJ" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1889.t5" pos="VBG" msd="UPosTag=AUX|VerbForm=Ger" lemma="be" function="A3+,L1" ana="sem:A3p">being</w>
+<w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1889.t6" pos="RB" msd="UPosTag=ADV|PronType=Dem" lemma="here" function="M6,T1.1.2,T1.2" ana="sem:M6" join="right">here</w>
+<pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1889.t7" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+
