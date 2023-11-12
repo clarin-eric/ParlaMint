@@ -216,8 +216,8 @@ master-mt-root:
 	../Scripts/ParlaMint-template-en.ana.xml > ${HERE}/Master/ParlaMint-en.ana.xml
 
 cp-samples:
-	# bin/cp-samples.pl 'Master/Sample-ParlaMint-*-en' Test
-	bin/cp-samples.pl 'Master/Sample-ParlaMint-*-en' ../Samples
+	#bin/cp-samples.pl 'Master/ParlaMint-*-en' Test
+	bin/cp-samples.pl 'Master/ParlaMint-*-en' ../Samples
 
 mt-logs:
 	for CORPUS in ${CORPORA}; do \
