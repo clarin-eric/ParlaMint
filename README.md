@@ -10,12 +10,15 @@ which are a customisation of the [TEI Guidelines](https://tei-c.org/guidelines/p
 should process the common data in any ParlaMint corpus, despite the differing parliamentary
 systems of the countries, the kind of information included in the corpora, and, of course, language.
 
-The latest version of ParlaMint is [4.0](https://github.com/clarin-eric/ParlaMint/releases/tag/v4.0)
-which contains corpora for 29 countries and autonomous regions and is available from the CLARIN.SI
-repository ([http://hdl.handle.net/11356/1859](http://hdl.handle.net/11356/1859)), also with SoA
-linguistic annotations ([http://hdl.handle.net/11356/1860](http://hdl.handle.net/11356/1860)).
+The latest version of ParlaMint is [4.0-en](https://github.com/clarin-eric/ParlaMint/releases/tag/v4.0-en)
+which contains corpora for 29 countries and autonomous regions in original languages as well as machine
+translated to English, and is available from the CLARIN.SI repository:
 
-The most comprehensive publications on ParlaMint corpora describes version 2.1:
+- [ParlaMint-en.ana v4.0](http://hdl.handle.net/11356/1864): linguistically annotated machine translated ParlaMint corpora
+- [ParlaMint.ana v4.0](http://hdl.handle.net/11356/1860): linguistically annotated variant of the ParlaMint corpora in original languages
+- [ParlaMint v4.0](http://hdl.handle.net/11356/1859): "plain text", i.e. linguistically unannotated variant of the ParlaMint corpora in original languages
+
+The most comprehensive publication on ParlaMint corpora describes version 2.1:
 
 Tomaž Erjavec, Maciej Ogrodniczuk, Petya Osenova, Nikola Ljubešić, Kiril Simov, Andrej Pančur,
 Michał Rudolf, Matyáš Kopp, Starkaður Barkarson, Steinþór Steingrímsson, Çağrı Çöltekin, Jesse
@@ -28,6 +31,7 @@ The ParlaMint corpora of parliamentary proceedings.
    
 Other publications are available at the
 [ParlaMint project page](https://www.clarin.eu/parlamint#publications-and%C2%A0presentations).
+
 ****
 
 This Git repository contains the ParlaMint XML schemas, the scripts used to validate and convert the
@@ -54,4 +58,6 @@ Note that there are several branches for different parts of the development.
 * The *[Corpora](Corpora/) folder* contains directories for a particular country or autonomous region
   that should include complete corpora for all variants and formats of the ParlaMint corpora, along with
   the build environemt for a release, and associated data. Note the the complete corpora are too large to
-  store on GitHub, so most data files are gitignored.
+  store on GitHub, so most data files are gitignored. However, the directory or its subdirectories contain
+  various associated resources, e.g. the automatically produced ParlaMint root files, common taxonomies,
+  various metadata on the corpora etc.
