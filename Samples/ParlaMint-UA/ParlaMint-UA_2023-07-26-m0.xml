@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ParlaMint-UA_2023-07-26-m0"
+     xml:lang="uk"
+     ana="#parla.sitting #covid">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Ukrainian parliamentary corpus ParlaMint-UA, term 9, session 9, sitting day 2023-07-26, n0 [ParlaMint]</title>
+            <title type="main" xml:lang="uk">Корпус Верховної Ради України ParlaMint-UA, 9 скликання, 9 сесія, дата пленарного засідання 2023-07-26, номер засідання №0 [ParlaMint]</title>
+            <meeting ana="#parla.term #parla.uni" n="9" corresp="#ВРУ">9</meeting>
+            <meeting ana="#parla.session #parla.uni" n="9" corresp="#ВРУ">9</meeting>
+            <meeting ana="#parla.sitting #parla.uni" n="2023-07-26" corresp="#ВРУ">2023-07-26</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
+               <resp xml:lang="en">Data retrieval</resp>
+               <resp xml:lang="uk">Збирання даних</resp>
+               <resp xml:lang="en">TEI XML corpus encoding</resp>
+               <resp xml:lang="uk">Програмування корпусу у форматі TEI XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Anna Kryvenko</persName>
+               <resp xml:lang="en">Manual metadata retrieval</resp>
+               <resp xml:lang="uk">Ручне збирання метаданих</resp>
+               <resp xml:lang="en">Translations</resp>
+               <resp xml:lang="uk">Переклад</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">CLARIN ERIC</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">Slovenian Research Agency</orgName>
+               <orgName xml:lang="uk">Державне дослідницьке агентство Республіки Словенія</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.0.1</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="91" xml:lang="en">91 speeches</measure>
+            <measure unit="speeches" quantity="91" xml:lang="uk">91 виступів</measure>
+            <measure unit="words" quantity="4959" xml:lang="en">4959 words</measure>
+            <measure unit="words" quantity="4959" xml:lang="uk">4959 слів</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="uk">Цей твір ліцензовано на умовах <ref target="http://creativecommons.org/licenses/by/4.0/">"Міжнародної ліцензії Creative Commons 4.0 із зазначенням авторства"</ref>.</p>
+            </availability>
+            <date when="2023-11-17">2023-11-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="uk">Верховна Рада України</title>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/8156.html</idno>
+               <date when="2023-07-26">2023-07-26</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="uk">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>  — проєкт, цілями якого є: (1) створення багатомовної групи порівняльних корпусів стенограм парламентських пленарних засідань, які охоплюють період між 2015 роком і серединою 2022 року та які було розроблено відповідно до спільних для всіх інструкцій <ref target="https://clarin-eric.github.io/ParlaMint/">Інструкції щодо програмування ParlaMint</ref>; (2) лінгвістичне анотування корпусів текстів та їх машинний переклад англійською мовою; (3) забезпечення вільного доступу до корпусів через конкордансери; і (4) створення на основі корпусних даних варіантів використання в галузях політичних наук і цифрових гуманітарних наук.</p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="59"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="7"/>
+               <tagUsage gi="incident" occurs="2"/>
+               <tagUsage gi="kinesic" occurs="3"/>
+               <tagUsage gi="note" occurs="130"/>
+               <tagUsage gi="seg" occurs="397"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="26"/>
+               <tagUsage gi="u" occurs="91"/>
+               <tagUsage gi="vocal" occurs="47"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Верховна Рада України</name>
+               <name type="address">вулиця Михайла Грушевського, 5</name>
+               <name type="city">Київ</name>
+               <name key="UA" type="country">Україна</name>
+               <date when="2023-07-26">2023-07-26</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div type="debateSection">
+            <note type="date">Засідання 1 (продовження) 26. 07. 2023</note>
+            <note type="comment">ЗАСІДАННЯ ПЕРШЕ</note>
+            <note type="comment">(продовження)</note>
+            <note type="comment">Зал засідань Верховної Ради України</note>
+            <note type="time">26 липня 2023 року, 12 година</note>
+            <note type="narrative">Веде засідання Перший заступник Голови Верховної Ради України КОРНІЄНКО О.С.</note>
+            <note type="time">
+               <time when="2023-07-26T12:05:42">12:05:42</time>
+            </note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u1"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u1.p1" xml:lang="uk">Слава Україні! Шановні колеги! Відповідно до прийнятої нами Постанови "Про деякі питання організації роботи Верховної Ради України дев’ятого скликання під час проведення дев’ятої сесії в умовах воєнного стану" сьогодні ми продовжуємо наше пленарне засідання.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u1.p2" xml:lang="uk">Юлія Володимирівна, ми все-таки гімн давайте проспіваємо, а потім будемо продовжувати.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u1.p3" xml:lang="uk">Звертаю вашу увагу, що згідно з прийнятою Верховною Радою України постановою, всі присутні на пленарному засіданні не повинні поширювати інформацію щодо його початку, перебігу та прийнятих у парламенті рішень раніше ніж через годину після оголошення перерви у пленарному засіданні. Прошу всіх колег: поважати прийняте українським парламентом рішення та відповідально поставитися до забезпечення безпеки єдиного законодавчого органу нашої держави.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u1.p4" xml:lang="uk">У разі оголошення повітряної тривоги буде оголошено перерву в пленарному засіданні і ми всі маємо перейти до безпечних місць відповідно до схеми укриття, яка розміщена на робочому місці кожного з вас.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u1.p5" xml:lang="uk">Шановні колеги, шановні народні депутати, за парламентською традицією пропоную розпочати роботу з виконання Державного Гімну України.</seg>
+            </u>
+            <incident type="action">
+               <desc>(Лунає Державний Гімн України)</desc>
+            </incident>
+            <vocal type="shouting">
+               <desc>ГОЛОСИ ІЗ ЗАЛИ. Слава Україні! Героям слава!</desc>
+            </vocal>
+            <note type="time">
+               <time when="2023-07-26T12:08:20">12:08:20</time>
+            </note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u2"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u2.p1" xml:lang="uk">Триває повномасштабна, збройна агресія Російської Федерації проти України. Сьогодні 518 день повномасштабної збройної агресії. Держава-терорист продовжує нещадно нищити наші мирні міста і села, воювати з усім українським народом. Важко підібрати слова, щоби описати наслідки нещодавніх варварських атак на нашу рідну Одесу. Ворог намагається знищити українську націю та нашу ідентичність, робить все можливе, щоб стерти з лиця землі пам’ятки нашої культурної спадщини.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u2.p2" xml:lang="uk">Так само держава-агресор підриває світову продовольчу безпеку, цілеспрямовано атакує наші термінали, портову інфраструктури, знищує життєдайне українське зерно.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u2.p3" xml:lang="uk">Вся міжнародна спільнота має усвідомити, зупинення рашистського зла – спільна справа всіх відповідальних держав. Перемога України – це перемога справедливості, демократичних цінностей, відновлення фундаментальних засад міжнародного права та глобальної архітектури безпеки.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u2.p4" xml:lang="uk">Давайте вшануємо хвилиною мовчання світлу пам’ять наших захисників і захисниць, які поклали своє життя заради України та її перемогу, а також всіх мирних громадян, які загинули від рук російських загарбників.</seg>
+               <incident type="action">
+                  <desc>(Хвилина мовчання)</desc>
+               </incident>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u2.p5" xml:lang="uk">Дякуємо, колеги.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u2.p6" xml:lang="uk">Хочу повідомити, що сьогодні, крім днів народження народних депутатів, ще святкує день народження командувач сухопутних військ Збройних Сил України генерал-полковник, Герой України Олександр Станіславович Сирський. <kinesic type="applause">
+                     <desc>(Оплески)</desc>
+                  </kinesic> Від імені Верховної Ради бажаємо йому міцного здоров’я, витримки, наснаги, успіхів на полі бою у визволенні наших територій від окупантів. Віримо в наші героїчні Збройні Сили! <kinesic type="applause">
+                     <desc>(Оплески)</desc>
+                  </kinesic> Привітаємо нашого командувача!</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u2.p7" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u2.p8" xml:lang="uk">Також сьогодні день народження нашого колеги народного депутата України Тараса Петровича Тарасенка. Привітаємо колегу! <kinesic type="applause">
+                     <desc>(Оплески)</desc>
+                  </kinesic> Побажаємо міцного здоров’я, плідної праці та перемоги України!</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u2.p9" xml:lang="uk">Переходимо до того, з чого ми. де ми завершили. Пан Пузійчук.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u2.p10" xml:lang="uk">Ми ж питали, Юлія Володимирівна, процедура яка може бути? Ви були проти давати в питанні з процедури.</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u3"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u4"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u4.p1" xml:lang="uk">Так ми в питанні, яке може бути сигнальне голосування? Яка процедура?</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u5"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u6"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u6.p1" xml:lang="uk">Ні. Ми в питанні.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u6.p2" xml:lang="uk">Пане Андрій Пузійчук, будь ласка, ви далі продовжуєте?</seg>
+            </u>
+            <note type="time">
+               <time when="2023-07-26T12:12:08">12:12:08</time>
+            </note>
+            <note type="speaker">ПУЗІЙЧУК А.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u7"
+               who="#АндрійВікторовичПузійчук.1978"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u7.p1" xml:lang="uk">Пане головуючий, ми після перерви продовжуємо наше засідання неперервне і ми зобов’язані, відповідно до Регламенту, провести реєстрацію народних депутатів.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u8"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u8.p1" xml:lang="uk">Де це написано в Регламенті? Покажіть мені, будь ласка. У нас реєстрація відбулася в перший вівторок лютого, ми зареєструвалися. В нас неперервне засідання, ми на ньому зареєстровані. <vocal type="noise">
+                     <desc>(Шум у залі)</desc>
+                  </vocal> В лютому, перший вівторок, я дату не пам’ятаю, вибачте.</seg>
+            </u>
+            <note type="speaker">ПУЗІЙЧУК А.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u9"
+               who="#АндрійВікторовичПузійчук.1978"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u9.p1" xml:lang="uk">Пане головуючий.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u10"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u10.p1" xml:lang="uk">Юлія Володимирівна, з процедури, будь ласка.</seg>
+            </u>
+            <note type="speaker">ПУЗІЙЧУК А.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u11"
+               who="#АндрійВікторовичПузійчук.1978"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u11.p1" xml:lang="uk">Пане головуючий, дозвольте?</seg>
+            </u>
+            <note type="time">
+               <time when="2023-07-26T12:12:45">12:12:45</time>
+            </note>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u12"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u12.p1" xml:lang="uk">Шановні колеги, я хотіла би дати довідочку про те, що, ну, перед тим, як вести засідання Верховної Ради, треба знайомитися з рішеннями Конституційного Суду. Два рішення Конституційного Суду виписали норму, що Верховна Рада України правомочна приймати закони. Це я цитую конкретне рішення Конституційного Суду. І реалізовувати інші конституційно визначені повноваження за умови присутності на її пленарних засіданнях на момент голосування не менше 226 депутатів. Тому ми вимагаємо зараз поставити на реєстрацію кількість депутатів, присутніх в залі, тому що без реєстрації і без наявності 226-и і двома рішеннями Конституційного Суду засідання Верховної Ради не є правомочним і буде визнано таким, що не відповідає Конституції. Ставте на голосування.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u13"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u13.p1" xml:lang="uk">Дякую, Юліє Володимирівно.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u13.p2" xml:lang="uk">Андрію Вікторовичу, будете продовжувати? Будь ласка.</seg>
+            </u>
+            <note type="time">
+               <time when="2023-07-26T12:13:57">12:13:57</time>
+            </note>
+            <note type="speaker">ПУЗІЙЧУК А.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u14"
+               who="#АндрійВікторовичПузійчук.1978"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u14.p1" xml:lang="uk">Шановний головуючий, ви задали запитання, на підставі якої статті Регламенту. Регламент Верховної Ради, стаття 27. Обов’язки головуючого на пленарному засіданні Верховної Ради, пункт перший. Головуючий на пленарному засіданні Верховної Ради, перше, дотримується норм Конституції України та цього Регламенту і вживає заходів щодо їх дотримання всіма присутніми на пленарному засіданні.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u14.p2" xml:lang="uk">Олександре Сергійовичу, пункт другий статті 27, підпункт другий, повідомляє про результати реєстрації народних депутатів та про кількість народних депутатів, відсутніх на пленарному засіданні з поважних причин. Є пряма вимога Регламенту, 27 стаття, пункт один, частина друга, що ви повинні провести реєстрацію і показати кількість присутніх депутатів. Я зачитую вам статтю Регламенту. Будь ласка, поставте на реєстрацію.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u15"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u15.p1" xml:lang="uk">Ви будете правку ставити на голосування, Андрію, пане Андрію? Андрій Вікторович, ви ставите правку на голосування? 261 чи яка? 261, правильно?</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u15.p2" xml:lang="uk">Ставлю на голосування правку народного депутата Пузійчука 261. Комітетом відхилена. Прошу голосувати.</seg>
+               <note type="time">
+                  <time when="2023-07-26T12:15:43">12:15:43</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u15.p3" xml:lang="uk">За-47</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u15.p4" xml:lang="uk">Рішення не прийнято. Правка відхилена.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u15.p5" xml:lang="uk">Пузійчук далі буде.</seg>
+            </u>
+            <note type="time">
+               <time when="2023-07-26T12:15:53">12:15:53</time>
+            </note>
+            <note type="speaker">ПУЗІЙЧУК А.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u16"
+               who="#АндрійВікторовичПузійчук.1978"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u16.p1" xml:lang="uk">Олександре Сергійовичу, ми з вами бачимо, що на даний час в залі відсутні 226 депутатів. Відсутній кворум. Є вимога Регламенту, що головуючий зобов’язаний, це ваш обов’язок, повідомити про результати реєстрації народних депутатів. Зараз фактично першим голосуванням відбулася реєстрація народних депутатів і ми бачимо, що зараз відсутні 226 депутатів.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u16.p2" xml:lang="uk">Пане головуючий, звертаюся до вас, поставте, будь ласка, на голосування реєстрацію народних депутатів. Народні депутати зобов’язані зареєструватися на початку пленарного засідання і підтвердити кворум. У разі відсутності кворуму це засідання є нелегітимним. Ми не маємо права зараз розглядати цей законопроект.</seg>
+            </u>
+            <vocal type="noise">
+               <desc>(Шум у залі)</desc>
+            </vocal>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u17"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u17.p1" xml:lang="uk">Андрію Вікторовичу, будете ставити правку якусь?</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u17.p2" xml:lang="uk">Яку, 262-у?</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u18"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u18.p1" xml:lang="uk">Ми в пустому залі не будемо ставити.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u18.p2" xml:lang="uk">Ми не відмовляємося від правок. Ми будемо ставити тоді, коли 226 в залі.</seg>
+            </u>
+            <vocal type="noise">
+               <desc>(Шум у залі)</desc>
+            </vocal>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u19"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u19.p1" xml:lang="ru">271 правка.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u19.p2" xml:lang="uk">Пузійчук.</seg>
+            </u>
+            <note type="time">
+               <time when="2023-07-26T12:24:15">12:24:15</time>
+            </note>
+            <note type="speaker">ПУЗІЙЧУК А.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u20"
+               who="#АндрійВікторовичПузійчук.1978"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u20.p1" xml:lang="uk">Пане головуючий я в чергове звертаюся до вас, проведіть, будь ласка, реєстрацію народних депутатів відповідно до Регламенту. Це обов’язок головуючого на пленарному засіданні провести реєстрацію народних депутатів. Попереднє голосування показало, що в залі відсутній кворум, немає 226 депутатів. Тому Рада не повноважна зараз проводити засідання. Рада не повноважна ставити поправки на голосування.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u20.p2" xml:lang="uk">Тому, пане головуючий, давайте зараз визначимось, якщо є 226 депутатів в залі, будемо працювати і будемо розглядати, якщо немає, тоді нам потрібно почекати, коли зберуться інші народні депутати. Буде 226 і будемо працювати з вами.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u20.p3" xml:lang="uk">Дякую.</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u21"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u21.p1" xml:lang="uk">Дорогі друзі, це не конституційно! Це не конституційно! Ви не маєте права це робити.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u22"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u22.p1" xml:lang="uk">271 правка. Ставимо на голосування.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u22.p2" xml:lang="uk">Комітетом відхилено. Прошу голосувати.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <note type="time">
+                  <time when="2023-07-26T12:25:51">12:25:51</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u22.p3" xml:lang="uk">За-26</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u22.p4" xml:lang="uk">Рішення не прийнято.</seg>
+            </u>
+            <vocal type="noise">
+               <desc>(Шум у залі)</desc>
+            </vocal>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u23"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u23.p1" xml:lang="uk">280-а, Пузійчук, 280.</seg>
+            </u>
+            <note type="time">
+               <time when="2023-07-26T12:26:09">12:26:09</time>
+            </note>
+            <note type="speaker">ПУЗІЙЧУК А.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u24"
+               who="#АндрійВікторовичПузійчук.1978"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u24.p1" xml:lang="uk">Пане головуючий, ми з вами бачимо, що на даний час в залі за результатами голосування присутні 90 депутатів. Олександр Сергійович, ми ж бачимо, що немає сьогодні кворуму, що Рада не повноважна зараз проводити засідання. Давайте почекаємо інших наших колег, запросіть колег до зали і, коли буде 226 депутатів, давайте зберемося і попрацюємо над цим важливим законопроектом. А на даний час, ще раз я повторююся, Олександр Сергійович, поставте, будь ласка, реєстрацію, проведіть реєстрацію народних депутатів, яку завжди ви робили. То есть кожне пленарне засідання починалося з реєстрації народних депутатів. Проведіть відповідно до 27 статті реєстрацію. Прохання, це ж ваш обов’язок.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u24.p2" xml:lang="uk">Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u25"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u25.p1" xml:lang="uk">Андрій Вікторович, ви будете якусь правку на голосування ставити?</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u26"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u27"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u27.p1" xml:lang="uk">Юлія Володимирівна, я не чую, що каже депутат ваш.</seg>
+            </u>
+            <note type="time">
+               <time when="2023-07-26T12:27:28">12:27:28</time>
+            </note>
+            <note type="speaker">ПУЗІЙЧУК А.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u28"
+               who="#АндрійВікторовичПузійчук.1978"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u28.p1" xml:lang="uk">Олександр Сергійович, я буду наполягати на врахуванні всіх своїх поправок, на розгляді всіх своїх поправок, але за умови легітимності і кворуму Верховної Ради. То есть на даний час відсутні 226. Я для стенограми, для відеозапису заявляю про те, що я не відмовляюся від своїх поправок і я буду наполягати на врахуванні всіх свої поправок, коли Верховна Рада буде мати кворум, коли в залі будуть присутні 226 і Рада буде повноважна розглядати законопроект, в тому числі розглядати і голосувати по всіх поправках.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u28.p2" xml:lang="uk">Олександре Сергійовичу, відповідаю на ваше питання: буду наполягати на всіх поправках за наявності кворуму.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u29"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u29.p1" xml:lang="uk">Зараз не будете, коли кворум – будете, правильно я розумію? Ну з вашої точки зору. Зараз ви не наполягаєте на врахуванні, правильно?</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u29.p2" xml:lang="uk">В кого ще є правки на врахування?</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u29.p3" xml:lang="uk">Пузійчук не наполягає на своїх правках.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u29.p4" xml:lang="uk">Гунько, будь ласка.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u29.p5" xml:lang="uk">Які номери правок? Або дайте лист чи таблицю. <vocal type="noise">
+                     <desc>(Шум у залі)</desc>
+                  </vocal> Ви не будете. Депутат Гунько хоче читати. Ми ж не проти.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u29.p6" xml:lang="uk">Анатолію Григоровичу, яка правка, номер?</seg>
+            </u>
+            <note type="time">
+               <time when="2023-07-26T12:29:12">12:29:12</time>
+            </note>
+            <note type="speaker">ГУНЬКО А.Г.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u30"
+               who="#АнатолійГригоровичГунько.1976"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u30.p1" xml:lang="uk">Шановний головуючий! Анатолій Гунько, 208 округ, Чернігівщина, "Слуга народу". Я не відношусь до активних спікерів, але зараз наполягаю на правках, які в мене були відхилені. Маю 144 невраховані правки. Я наполягатиму на їх врахуванні. Чому? Тому що я представляю своїх виборців, які зараз воюють і боронять нашу землю. Військові, ветерани і сім’ї наших героїв, які поклали життя за нашу землю, звертаються до мене як до народного депутата та до місцевих органів влади з питаннями отримання землі. Що мені говорити? Що парламент. <gap reason="inaudible">
+                     <desc>(нерозбірливо)</desc>
+                  </gap> ці землі? Верховна Рада правомочна приймати закони, реалізовувати свої інші визначені Конституцією повноваження за умови присутності на її пленарних засіданнях не менше як 226 народних депутатів. Наразі сьогодні в залі немає необхідної кількості парламентарів, тому я наполягатиму на них, коли буде кворум.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u30.p2" xml:lang="uk">Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u31"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u31.p1" xml:lang="uk">А зараз є якась правка, на якій ви наполягаєте? Я вам дав слово для правки, а не з процедури.</seg>
+            </u>
+            <note type="speaker">ГУНЬКО А.Г.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u32"
+               who="#АнатолійГригоровичГунько.1976"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u32.p1" xml:lang="uk">В мене є правки, але в парламенті зараз відсутня необхідна кількість депутатів для прийняття рішень.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u32.p2" xml:lang="uk">Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u33"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u33.p1" xml:lang="uk">Хто ще наполягає на своїх правках, на врахуванні?</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u33.p2" xml:lang="uk">Пузійчук не вимагає, Гунько не вимагає.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u33.p3" xml:lang="uk">А є Сергій Віталійович Кальченко? Можна підійти сюди? Голова регламентного комітету, підійдіть сюди, будь ласка, до нас теж.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u33.p4" xml:lang="uk">Відповідно до статті 78 Регламенту України, пункт 11, я вживаю заходів щодо забезпечення присутності народних депутатів на засіданні і прошу всіх народних депутатів, які не присутні на засіданні, тимчасово прибути на засідання, за мірою можливості, з урахуванням безпекових факторів. Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u33.p5" xml:lang="uk">Я вжив заходів щодо присутності депутатів на пленарному засіданні.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u33.p6" xml:lang="uk">Звертаюсь до депутатів фракцій "Слуга народу", "Європейська солідарність", "Батьківщина", "Голос", депутатських груп "Платформа за життя та мир", "Відновлення України", "Довіра", "За майбутнє", я першим назвав цю групу, партію велику монобільшість. Окремо до кожної фракції, групи, а також до позафракційних народних депутатів, з вимогою терміново вжити заходів щодо присутності на пленарному засіданні з врахуванням поточної ситуації та безпекових факторів.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u33.p7" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u33.p8" xml:lang="uk">Чи будуть ще правки на врахування?</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u34"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u35"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u35.p1" xml:lang="uk">Яка номер?</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u36"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u36.p1" xml:lang="uk">Неконституційна. В залі немає 226 голосів. Ми вимагаємо сигнальне голосування.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u37"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u37.p1" xml:lang="uk">2-га, правка 2, Дирдін. Відхилено.</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u38"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u38.p1" xml:lang="uk">Це не відповідає законам України, рішенням Конституційного Суду.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u39"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u39.p1" xml:lang="uk">Будь ласка, Дирдін. Одна хвилина.</seg>
+            </u>
+            <note type="time">
+               <time when="2023-07-26T12:41:07">12:41:07</time>
+            </note>
+            <note type="speaker">ДИРДІН М.Є.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u40"
+               who="#МаксимЄвгеновичДирдін.1982"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u40.p1" xml:lang="uk">Дякую. Дякую, що дали можливість виступити в парламенті щодо даного законопроекту. Я прошу поставити на голосування правку номер 2, стосується. щодо внесення змін до деяких законодавчих актів України щодо удосконалення організаційно-правової форми використання земель сільськогосподарського призначення суб’єктами державного сектору економіки. Назва законопроекту не відповідає його змісту, оскільки охоплює не всі моменти. Тому я прошу цю правку поставити на голосування.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u40.p2" xml:lang="uk">Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u41"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u41.p1" xml:lang="uk">Ставлю на голосування правку номер 2 народного депутата Дирдіна. Комітетом відхилена. Прошу голосувати.</seg>
+               <note type="time">
+                  <time when="2023-07-26T12:42:07">12:42:07</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u41.p2" xml:lang="uk">За-44</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u41.p3" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u41.p4" xml:lang="uk">З процедури Гетманцев.</seg>
+            </u>
+            <note type="time">
+               <time when="2023-07-26T12:42:25">12:42:25</time>
+            </note>
+            <note type="speaker">ГЕТМАНЦЕВ Д.О.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u42"
+               who="#ДанилоОлександровичГетманцев.1978"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u42.p1" xml:lang="uk">Шановні колеги, я звертаюсь до всіх присутніх в залі, дивіться, що відбувається. У нас чітко на табло ми бачимо кількість присутніх депутатів – 308. Замість цього одна фракція намагається зірвати розгляд законопроекту, постійно вимагаючи ставлення на голосування якихось процедурних рішень.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u42.p2" xml:lang="uk">Я вимагаю від першого віцеспікера продовжити розгляд цього законопроекту. Якщо фракція не хоче ставити свої поправки, нехай не ставить і ми тоді перейдемо до результативного голосування за законопроект в цілому. Будь ласка, припиніть ці маніпуляції у війну в країні, яка потребує прийняття важливих рішень. Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u43"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u43.p1" xml:lang="uk">Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u43.p2" xml:lang="uk">Тоді ідемо по правкам.</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u44"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u44.p1" xml:lang="uk">Ми фіксуємо зараз для суду те, що зал пустий. Ми робимо відеофіксацію.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u45"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u45.p1" xml:lang="uk">Я не чую.</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u46"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u46.p1" xml:lang="uk">Ми будемо подавати в суд про кримінальний злочин. В пустому залі.</seg>
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u47"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u47.p1" xml:lang="ruuk">Правка № 1. Грищенко не наполягає?</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u47.p2" xml:lang="uk">№ 2 Дирдін, вже проголосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u47.p3" xml:lang="uk">З процедури Геращенко, будь ласка.</seg>
+            </u>
+            <note type="time">
+               <time when="2023-07-26T12:43:38">12:43:38</time>
+            </note>
+            <note type="speaker">ГЕРАЩЕНКО І.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u48"
+               who="#ІринаВолодимирівнаГеращенко.1971"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u48.p1" xml:lang="uk">Шановні українці, рівно чотири роки тому було обрано цю Верховну Раду України і всі пам’ятають, як нам обіцяли нові обличчя, нові правила, нові принципи. Бачимо, що зараз в сесійній залі немає більше ста депутатів і в основному немає депутатів фракції монобільшості. Абсолютно справедлива регламентна вимога не просто закликати депутатів монобільшості повернутись з Мальдів, а зараз зареєструватись в сесійній залі. Тому я прошу, доєднуючись до інших фракцій опозиції, поставити зараз реєстрацію в залі, тому що, шановний пане Гетманцев.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u49"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u49.p1" xml:lang="uk">Давайте, щоб ми з реєстрацією вирішили вже це питання остаточно, я запросив результати реєстрації. Реєстрація відбулась 07.02.2023 року в перший день засідання дев’ятої сесії. Було зареєстровано 310 народних депутатів. Тому пропоную далі цим питанням не маніпулювати, в нас триває безперервне засідання і 310 депутатів були зареєстровані в перший його день. Дякую.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u49.p2" xml:lang="uk">Щодо сигнального голосування, тепер наступне, щоб ми теж не маніпулювали. Згідно з Регламентом, 28 статті, це право головуючого. Якщо ви хочете в європейській країні, яка вступає в ЄС, спонукати мене скористатись правом, то давайте про це поговоримо в іншій якійсь атмосфері. Своїми правами я буду користуватись так, як вважаю за потрібне і так, як вважаю умісно. Зараз я не вважаю, що треба цим правом користуватись. Дякую.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u49.p3" xml:lang="uk">З процедури Крулько, будь ласка.</seg>
+            </u>
+            <note type="time">
+               <time when="2023-07-26T12:45:37">12:45:37</time>
+            </note>
+            <note type="speaker">КРУЛЬКО І.І.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u50"
+               who="#ІванІвановичКрулько.1981"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u50.p1" xml:lang="uk">Іван Крулько, фракція "Батьківщина". Шановний головуючий і шановні колеги! Я хотів би звернути увагу на один факт, який закріплений не одним рішенням Конституційного Суду. Він передбачає, що під час кожного голосування в залі має знаходитися депутатів не менше, ніж кількість депутатів, яка необхідна для прийняття рішення. Тобто 226 депутатів.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u50.p2" xml:lang="uk">Що вимагає фракція "Батьківщина"? Фракція "Батьківщина" вимагає, щоб відбулася процедура реєстрації депутатів у вигляді сигнального голосування, для того щоб встановити, чи є для прийняття рішення по поправках 226 депутатів у залі, які будуть голосувати "за", "утримався" або "проти". Ось чітка вимога. І це передбачено рішеннями Конституційного Суду. Тому оскільки у нас безперервне засідання, але воно проводиться в різні тижні, в різні дні і в різний час і навіть у вихідні, тому ми вважаємо, що на кожному засіданні ми маємо.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u51"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u51.p1" xml:lang="uk">Дякую. Ну принаймні ми можемо запросити трактування регламентного комітету, що таке безперервне засідання, як воно там відбувається і так далі. Бо це постанова, ми її з вами прийняли, ми по ній працюємо. Тому в ній не написано, що треба реєстрацію проводити щоразу. І ми один раз вже зареєструвались.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u51.p2" xml:lang="uk">Вже було з процедури, Ірино Володимирівно.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u51.p3" xml:lang="ru">3-я правка. Гунько.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u51.p4" xml:lang="uk">Правка номер 6. Плачкова. Відхилено. А Плачкової вже немає. Так.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u51.p5" xml:lang="ru">Гунько, 8-а правка. Відхилено. Будь ласка.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u51.p6" xml:lang="uk">Ми вже всі висловилися по процедурі.</seg>
+            </u>
+            <note type="time">
+               <time when="2023-07-26T12:47:35">12:47:35</time>
+            </note>
+            <note type="speaker">ГУНЬКО А.Г.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u52"
+               who="#АнатолійГригоровичГунько.1976"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u52.p1" xml:lang="uk">Олександре Сергійовичу, я ж сказав, що оскільки відсутній кворум у залі Верховної Ради, я правки не знімаю, але зачитувати їх не буду.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u53"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u53.p1" xml:lang="uk">Ну ми зараз розглядаємо питання. Наступного разу у вас не буде можливості їх поставити. Якщо ви зараз не ставите, вона, далі ми її не будемо двічі ставити.</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u54"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <note>(Без мікрофону)</note>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u54.p1" xml:lang="uk">Це не ви визначаєте.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u55"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u55.p1" xml:lang="uk">Це я визначаю, я головуючий.</seg>
+               <note>(Без мікрофону)</note>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u55.p2" xml:lang="uk">Правку номер 8 я не ставлю. Змініть головуючого.</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u56"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <note>(Без мікрофону)</note>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u56.p1" xml:lang="uk">Головуючому не надано право порушувати Конституцію України.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u57"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u57.p1" xml:lang="uk">Будь ласка, Юліє Володимирівно!</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u58"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <note>(Без мікрофону)</note>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u58.p1" xml:lang="uk">Ви не маєте на це право.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u59"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u59.p1" xml:lang="uk">Ви можете мене зняти.</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u60"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <note>(Без мікрофону)</note>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u60.p1" xml:lang="ru">Це не ваша лавочка.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u61"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u61.p1" xml:lang="uk">Можете мене усунути.</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u62"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <note>(Без мікрофону)</note>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u62.p1" xml:lang="uk">Це парламент України.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u63"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u63.p1" xml:lang="uk">Є регламентні норми.</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u64"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <note>(Без мікрофону)</note>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u64.p1" xml:lang="uk">І тому, будь ласка, зробіть сигнальне голосування.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u65"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u65.p1" xml:lang="uk">Ви ставите 8-у чи ні? Ні, не ставите 8-у. Добре.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u65.p2" xml:lang="uk">Далі.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u65.p3" xml:lang="ru">Климпуш-Цинцадзе з процедури.</seg>
+            </u>
+            <note type="time">
+               <time when="2023-07-26T12:48:25">12:48:25</time>
+            </note>
+            <note type="speaker">КЛИМПУШ-ЦИНЦАДЗЕ І.О.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u66"
+               who="#ІваннаОрестівнаКлимпуш-Цинцадзе.1972"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u66.p1" xml:lang="uk">Шановний пане головуючий, шановний пане Олександре! Ми з вами знаємо про те, що Україна рухається до Європейського Союзу і європейські практики точно не передбачають таке коментування позицій різних депутатів головуючим. Тому я просила би вас від цього утриматися. Це перше.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u66.p2" xml:lang="uk">А друге, я хотіла би звернути увагу на те, що щоразу, коли ми продовжуємо наше безперервне засідання, головуючий на сесії весь час проводить реєстрацію. Ми навіть пам’ятаємо, як красиво це оформлює Голова Верховної Ради України, розказує, якою кнопочкою – зеленою чи якою – треба голосувати. То я не можу зрозуміти, чому сьогодні ми припускаємося подвійних стандартів, і прошу вас провести це голосування.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u66.p3" xml:lang="uk">Дякую.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u67"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u67.p1" xml:lang="uk">Якщо ви звернули увагу, я коментую тільки з посиланням на статті Регламенту. Можу ще раз послатися на 28 статтю пункт 11, що проводити рейтингове сигнальне голосування для прогнозування результатів голосування, до речі, а не для реєстрації депутатів, питання порядку денного пленарного засідання Верховної Ради – це право головуючого на пленарному засіданні.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u67.p2" xml:lang="uk">7-а, 8-а.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u67.p3" xml:lang="uk">10-у Гайду відхилено. Гайду, не наполягаєте?</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u67.p4" xml:lang="uk">13-а, Чорноморов, відхилена. Наполягає Чорноморов?</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u67.p5" xml:lang="uk">Не наполягає.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u67.p6" xml:lang="uk">Воронько, 17 правка. Наполягаєте? Не наполягаєте.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u67.p7" xml:lang="uk">20-а, Павліш, наполягаєте?</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u67.p8" xml:lang="uk">25, Чорноморов.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u67.p9" xml:lang="uk">26, Торохтій.</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u68"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u68.p1" xml:lang="uk">В залі немає 226 голосів.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u69"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u69.p1" xml:lang="uk">27, Богданець.</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u70"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u70.p1" xml:lang="uk">Я прошу вести стенограму, для того щоб ми могли звернутися до суду.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u71"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u71.p1" xml:lang="uk">28, Івченко. Стенограма завжди ведеться, Юлія Володимирівна.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u71.p2" xml:lang="uk">Павліш, 29.</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u72"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u72.p1" xml:lang="uk">Всі абсолютно правки, які зараз ставляться на голосування, ставляться нелегітимно.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u73"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u73.p1" xml:lang="uk">Павліш, 30.</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u74"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u74.p1" xml:lang="uk">Ми наполягаємо, щоб наші 270 правок ставилися в повному залі, коли є 226 голосів.</seg>
+            </u>
+            <vocal type="noise">
+               <desc>(Шум у залі)</desc>
+            </vocal>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u75"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u75.p1" xml:lang="uk">Зуєв, 33. Відхилена. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u75.p2" xml:lang="uk">Бунін, 34-а. Відхилена. Бунін не наполягає.</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u76"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u76.p1" xml:lang="uk">Зараз в залі немає 226 голосів. Правки ставляться нелегітимно.</seg>
+            </u>
+            <vocal type="noise">
+               <desc>(Шум у залі)</desc>
+            </vocal>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u77"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u77.p1" xml:lang="uk">Івченко Вадим Євгенович, наполягаєте? 35-а.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u77.p2" xml:lang="uk">37, Зуєв. Відхилена.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u77.p3" xml:lang="uk">38, Бунін.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u77.p4" xml:lang="uk">39, Пузійчук. Вже ставили.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u77.p5" xml:lang="uk">40, Зуєв.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u77.p6" xml:lang="uk">41, Бунін.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u77.p7" xml:lang="uk">42, Пузійчук. Вже ставили.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u77.p8" xml:lang="uk">Зуєв, 43.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u77.p9" xml:lang="uk">44, Бунін.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u77.p10" xml:lang="uk">45, Пузійчук. Вже ставили.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u77.p11" xml:lang="uk">46, Зуєв.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u77.p12" xml:lang="uk">47, Бунін.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u77.p13" xml:lang="uk">48, Пузійчук. 48, Пузійчук. Ви не ставили минулого разу її. Будете ставити правку? Будь ласка, Пузійчук, 1 хвилина.</seg>
+            </u>
+            <vocal type="noise">
+               <desc>(Шум у залі)</desc>
+            </vocal>
+            <note type="time">
+               <time when="2023-07-26T12:52:12">12:52:12</time>
+            </note>
+            <note type="speaker">ПУЗІЙЧУК А.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u78"
+               who="#АндрійВікторовичПузійчук.1978"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u78.p1" xml:lang="uk">Дякую, шановний головуючий.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u78.p2" xml:lang="uk">Олександре Сергійовичу, ще раз, для стенограми: я наполягаю на всіх своїх поправках. Для стенограми: я буду наполягати на всіх своїх поправках.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u78.p3" xml:lang="uk">І, шановні колеги, Верховна Рада має право, ми повноважні, маємо право проводити голосування, зокрема щодо кожної пропозиції та поправки суб’єкта законодавчої ініціативи лише за умови присутності на відповідному пленарному засіданні на момент голосування народних депутатів у кількості не менше, ніж необхідно для прийняття відповідного рішення. Тобто Рада повноважна приймати рішення, коли є присутні 226 народних депутатів. На даний час в залі відсутні 226 депутатів, тому ми не повноважні проводити розгляд цього законопроекту і приймати рішення.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u78.p4" xml:lang="uk">А на поправках я наполягаю на всіх.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u79"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p1" xml:lang="uk">Чи значить це, що цю поправку треба теж поставити на голосування? Ну якщо ви на ній наполягаєте. Інших можливостей не буде поставити. Ми зараз її проходимо, а далі вже буде врахування, а потім підтвердження буде.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p2" xml:lang="ru">Ви не ставите зараз правку, правильно? Не ставите. Ставите? Добре.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p3" xml:lang="uk">Правка номер 48 Пузійчука, ставлю на голосування на врахування правку. Комітетом відхилена. Прошу голосувати.</seg>
+               <note type="time">
+                  <time when="2023-07-26T12:54:01">12:54:01</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p4" xml:lang="uk">За-32</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p5" xml:lang="uk">Рішення не прийнято. Правка не підтримана.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p6" xml:lang="uk">49-а, Зуєв. Відхилена.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p7" xml:lang="uk">50-а, Бунін.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p8" xml:lang="uk">51-а, Пузійчук. А, минулого разу ми її голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p9" xml:lang="uk">52-а, Зуєв.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p10" xml:lang="uk">53-я, Бунін.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p11" xml:lang="uk">54-а, Пузійчук. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p12" xml:lang="uk">55-а, Зуєв.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p13" xml:lang="uk">56-а, Бунін.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p14" xml:lang="uk">57-а, Пузійчук. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p15" xml:lang="uk">58-а, Зуєв.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p16" xml:lang="uk">59-а, Бунін.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p17" xml:lang="uk">60-а, Пузійчук. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p18" xml:lang="uk">61-а, Зуєв.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p19" xml:lang="uk">62-а, Бунін.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p20" xml:lang="uk">63-я, Пузійчук. Голосували.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p21" xml:lang="uk">64-а, Зуєв.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p22" xml:lang="uk">65-а, Бунін.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p23" xml:lang="uk">66-а, Пузійчук. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p24" xml:lang="uk">67, Зуєв.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p25" xml:lang="uk">68, Бунін.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p26" xml:lang="uk">69, Пузійчук. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p27" xml:lang="uk">70, Зуєв.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p28" xml:lang="uk">71, Бунін.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p29" xml:lang="uk">72, Пузійчук. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p30" xml:lang="uk">73, Зуєв.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p31" xml:lang="uk">74, Бунін.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p32" xml:lang="uk">75, Пузійчук. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p33" xml:lang="uk">76, Зуєв.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p34" xml:lang="uk">77, Бунін.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p35" xml:lang="uk">78, Пузійчук. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p36" xml:lang="uk">79, Зуєв.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p37" xml:lang="uk">80, Бунін.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p38" xml:lang="uk">81, Пузійчук. Голосували.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p39" xml:lang="uk">82, Зуєв.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p40" xml:lang="uk">83, Бунін.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p41" xml:lang="uk">84, Гунько. Будете наполягати, Анатолій Григорович? Десь зник уже. Добре. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p42" xml:lang="uk">85, Юлія Володимирівна, тут є ваша правка 85 з Пузійчуком разом. Андрій Вікторович, ви будете ставити правку? Ви її не ставили.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u79.p43" xml:lang="uk">Андрій Вікторович Пузійчук, 85 правка.</seg>
+            </u>
+            <note type="time">
+               <time when="2023-07-26T12:56:41">12:56:41</time>
+            </note>
+            <note type="speaker">ПУЗІЙЧУК А.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u80"
+               who="#АндрійВікторовичПузійчук.1978"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u80.p1" xml:lang="uk">Шановний головуючий, фракція "Батьківщина" і я особисто наполягаємо на всіх наших поправках, але, на жаль, на даний час в залі відсутній кворум. Рада неповноважна проводити розгляд цього законопроекту. І, пане головуючий, ще раз, то есть Верховна Рада має проводити голосування, зокрема щодо кожної поправки і пропозиції суб’єкта права законодавчої ініціативи лише за умови присутності на відповідному пленарному засіданні на момент голосування народних депутатів України у кількості не менше ніж необхідно для прийняття відповідного рішення.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u80.p2" xml:lang="uk">І, шановний головуючий, якщо я буду зараз розглядати поправки, я буду порушувати Регламент. Ми не можемо цього допустити і ви як головуючий повинні будете припинити порушення мною Регламенту. Тому, пане головуючий, давайте дочекаємося.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u81"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u81.p1" xml:lang="uk">Добре. Ви не ставите її на голосування. Правильно?</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u82"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u82.p1" xml:lang="uk">Ви не маєте права ставити на голосування, тому що в залі немає 226 депутатів.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u83"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p1" xml:lang="uk">Добре. Не ставимо.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p2" xml:lang="uk">86, Бунін.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p3" xml:lang="ru">87, Холодов.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p4" xml:lang="uk">88, Люшняк. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p5" xml:lang="uk">89, Марусяк. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p6" xml:lang="uk">90, Марусяк. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p7" xml:lang="uk">91, Шол. Не наполягає.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p8" xml:lang="uk">92, Шол. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p9" xml:lang="uk">93 – Мамка Григорій Миколайович. Не наполягаєте, я сподіваюся? Є Мамка? Немає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p10" xml:lang="uk">Гунько Анатолій Григорович. Немає. 94.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p11" xml:lang="uk">95, Гайду. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p12" xml:lang="uk">96, Гайду. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p13" xml:lang="uk">97, Гунько. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p14" xml:lang="uk">98, Чорноморов. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p15" xml:lang="uk">Далі, Плачкова. Не.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p16" xml:lang="uk">100, Гунько. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p17" xml:lang="ru">101, Мамка. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p18" xml:lang="uk">102, Чорноморов.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p19" xml:lang="uk">104, Гунько. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p20" xml:lang="uk">105, Гайду. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p21" xml:lang="uk">106, Гунько. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p22" xml:lang="uk">107, Чорноморов.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p23" xml:lang="uk">108, Гунько.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p24" xml:lang="uk">109, Гунько.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p25" xml:lang="uk">110, Гунько.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p26" xml:lang="uk">111, Гайду. А вона врахована, вибачте.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p27" xml:lang="uk">113, Торохтій.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p28" xml:lang="uk">114. Марусяк.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p29" xml:lang="uk">115, Шол.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p30" xml:lang="uk">117, Гунько.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p31" xml:lang="ru">118, Мамка.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p32" xml:lang="uk">119, Бунін.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p33" xml:lang="uk">120, Зуєв.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p34" xml:lang="ru">121, Грищенко.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p35" xml:lang="uk">122, Гунько.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p36" xml:lang="uk">123, Тимошенко, Пузійчук.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p37" xml:lang="uk">124, Батенко.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p38" xml:lang="uk">125, Люшняк.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p39" xml:lang="uk">127, Плачкова.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p40" xml:lang="uk">128, Пузійчук. Вставили її.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p41" xml:lang="uk">129, Гунько.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p42" xml:lang="uk">130, Зуєв.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p43" xml:lang="uk">131, Бунін.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p44" xml:lang="ru">132, Грищенко.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p45" xml:lang="uk">134, Тимошенко, Пузійчук. Голосували її.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p46" xml:lang="ru">136, Холодов. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p47" xml:lang="uk">138, Люшняк. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p48" xml:lang="uk">139, Івченко. Івченко, 139. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p49" xml:lang="uk">Марусяк, 141. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p50" xml:lang="uk">142, Шол. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p51" xml:lang="uk">143, Шол. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p52" xml:lang="uk">144, Пузійчук. Вже голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p53" xml:lang="uk">146, Гунько. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p54" xml:lang="uk">147, Мошенець. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p55" xml:lang="uk">148, Зуєв.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p56" xml:lang="uk">149, Дубінський. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p57" xml:lang="uk">150, Бунін.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p58" xml:lang="uk">151. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p59" xml:lang="uk">152, Люшняк. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p60" xml:lang="uk">153. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p61" xml:lang="ru">154, Грищенко. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p62" xml:lang="uk">155, Гунько. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p63" xml:lang="uk">156, Тимошенко, Пузійчук. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p64" xml:lang="ru">157, Холодов. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p65" xml:lang="uk">158, Люшняк. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p66" xml:lang="uk">159, Марусяк. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p67" xml:lang="uk">160, Шол. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p68" xml:lang="uk">161, Пузійчук. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p69" xml:lang="uk">162, Гунько. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p70" xml:lang="uk">163, Зуєв. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p71" xml:lang="uk">164, Бунін. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p72" xml:lang="ru">165, Грищенко. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p73" xml:lang="uk">166. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p74" xml:lang="uk">167, Бунін. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p75" xml:lang="uk">168, Люшняк. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p76" xml:lang="uk">169, Марусяк. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p77" xml:lang="uk">170, Шол. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p78" xml:lang="uk">171. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p79" xml:lang="uk">172, Гунько. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p80" xml:lang="uk">173, Мошенець. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p81" xml:lang="uk">174, Зуєв. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p82" xml:lang="uk">175, Бунін. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p83" xml:lang="ru">176, Грищенко. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p84" xml:lang="uk">177, Гунько. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p85" xml:lang="uk">178. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p86" xml:lang="ru">179, Холодов. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p87" xml:lang="uk">180, Бунін. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p88" xml:lang="uk">182, Марусяк. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p89" xml:lang="uk">183, Шол. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p90" xml:lang="uk">184, Пузійчук. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p91" xml:lang="uk">185, Гунько. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p92" xml:lang="uk">186, Зуєв. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p93" xml:lang="uk">187, Бунін. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p94" xml:lang="uk">189, Зуєв, Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p95" xml:lang="uk">190, Гайду. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p96" xml:lang="uk">191, Зуєв. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p97" xml:lang="uk">194, Бунін. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p98" xml:lang="uk">195. Не наполягає Чорноморов.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p99" xml:lang="uk">196, Торохтій. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p100" xml:lang="uk">197, Івченко. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p101" xml:lang="uk">198. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p102" xml:lang="uk">199, Гунько. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p103" xml:lang="ru">200, Мамка. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p104" xml:lang="uk">201, Бунін. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p105" xml:lang="ru">203, Грищенко. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p106" xml:lang="uk">204, Гунько. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p107" xml:lang="uk">205, Тимошенко. Голосували вчора, минулого разу.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p108" xml:lang="uk">206, Бунін. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p109" xml:lang="uk">208, Люшняк. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p110" xml:lang="uk">209, Плачкова. Не можливо.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p111" xml:lang="uk">210, Марусяк. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p112" xml:lang="uk">211, Шол. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p113" xml:lang="uk">212. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p114" xml:lang="uk">213, Гунько. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p115" xml:lang="uk">214, Бунін. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p116" xml:lang="uk">215, Івченко. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p117" xml:lang="uk">216, Гунько. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p118" xml:lang="uk">217. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p119" xml:lang="uk">218. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p120" xml:lang="uk">219, Зуєв. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p121" xml:lang="uk">220, Люшняк. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p122" xml:lang="uk">221, Пузійчук. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p123" xml:lang="uk">224, Торохтій. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p124" xml:lang="uk">225, Богданець. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p125" xml:lang="uk">226, Марусяк. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p126" xml:lang="uk">227, Шол. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p127" xml:lang="ru">229, Грищенко. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p128" xml:lang="uk">230, Дирдін. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p129" xml:lang="uk">231, Гунько. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p130" xml:lang="uk">232. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p131" xml:lang="uk">234, Бунін. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p132" xml:lang="uk">235, Люшняк. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p133" xml:lang="uk">236, Бурміч. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p134" xml:lang="uk">237, Шол. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p135" xml:lang="uk">238. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p136" xml:lang="uk">239, Гунько. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p137" xml:lang="ru">240, Мамка. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p138" xml:lang="uk">241, Дубінський. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p139" xml:lang="uk">242, Бунін. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p140" xml:lang="uk">243, Гунько. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p141" xml:lang="uk">244, Мошенець. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p142" xml:lang="uk">245, Івченко. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p143" xml:lang="uk">248, Чорноморов. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p144" xml:lang="uk">249, Торохтій. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p145" xml:lang="uk">250. Мамка. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p146" xml:lang="uk">Дубінський, 251. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p147" xml:lang="uk">Бунін, 252. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p148" xml:lang="uk">254, Зуєв. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p149" xml:lang="uk">256, Зуєв. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p150" xml:lang="uk">257. Голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p151" xml:lang="uk">258, Люшняк. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p152" xml:lang="uk">259, Марусяк. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p153" xml:lang="uk">260. Шол. Не наполягає.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u83.p154" xml:lang="uk">261. Пузійчук. Наполягаєте, да? Будь ласка, Пузійчук. Одна хвилина. Правка номер 261.</seg>
+            </u>
+            <note type="time">
+               <time when="2023-07-26T13:05:52">13:05:52</time>
+            </note>
+            <note type="speaker">ПУЗІЙЧУК А.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u84"
+               who="#АндрійВікторовичПузійчук.1978"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u84.p1" xml:lang="uk">Шановний головуючий, 261 моя поправка, на якій я наполягаю. Але Олександр Сергійович, вчергове зазначаємо про те, що Верховна Рада не може зараз розглядати ми не правомочні, ми не маємо права розглядати законопроект, коли відсутньо 226 депутатів.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u84.p2" xml:lang="uk">Я вам дякую, що ви намагаєтесь вжити всіх заходів для того, щоб депутати були присутні. І, Олександр Сергійович, оголосіть перерву, давайте почекаємо наших колег, коли прийдуть всі до зали і будемо з вами при повноважній Верховній Раді, при наявності кворуму у 226 депутатів розглядати цей законопроект. Тобто на даний час ми не можемо його розглядати.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u84.p3" xml:lang="uk">Але я наполягаю на всіх своїх поправках і наполягаю на їх врахуванні.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u85"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u85.p1" xml:lang="uk">Да, Андрій Вікторович, тільки єдине, що ми цю правку вже проголосували з вами зранку, 261-у, тому можу запропонувати 271-у, наприклад, поставити, якщо ми її не голосували.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u85.p2" xml:lang="uk">Ставлю на голосування правку 271. Комітетом відхилена.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u85.p3" xml:lang="uk">Прошу голосувати.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u85.p4" xml:lang="uk">271-у, теж голосували, я вибачаюсь. Тоді поставимо наступну Пузійчука, 278-у, наприклад. 278-у, да. Правка 278.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u85.p5" xml:lang="uk">Прошу голосувати.</seg>
+               <note type="time">
+                  <time when="2023-07-26T13:07:56">13:07:56</time>
+               </note>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u85.p6" xml:lang="uk">За-27</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u85.p7" xml:lang="uk">Рішення не прийнято.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u85.p8" xml:lang="uk">Будь ласка, пане Гайду, можете звільнити трибуну?</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u85.p9" xml:lang="uk">Юлія Володимирівна Тимошенко, 10 хвилин, будь ласка, з трибуни.</seg>
+            </u>
+            <note type="time">
+               <time when="2023-07-26T13:08:52">13:08:52</time>
+            </note>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u86"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u86.p1" xml:lang="uk">Шановні колеги! Я хочу вам нагадати, що ми будемо от на днях святкувати День державності. Знаєте, що таке державність? Державність – коли при владі відповідальні люди, для яких верховенство права, сила права, Конституція, процедури взагалі чогось в житті варті. Державність – це коли її не руйнують свідомо, нахабно, цинічно, прикриваючись просто беспределом.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u86.p2" xml:lang="uk">І коли ви будете через декілька днів святкувати державність, то згадайте, що при жодній владі, якою би вона не була до того, ніколи в житті так смачно не плювали на Конституцію, як сьогодні плюєте ви, так жорстко і цинічно не попирали закон, Конституцію, а як наслідок не руйнували державу так, як ви це робите.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u86.p3" xml:lang="uk">Я хочу просто зараз не тільки для суду, но і для історії накануне голосування, по суті, за закон, про який я скажу через декілька хвилин показати просто зал. Подивіться, пустий зал, де ледве-ледве набирається 100 людей, де немає уряду, немає нікого. Я хочу сказати, що в цій ситуації в пустому залі прямо заборонена Конституція України рішеннями Конституційного Суду приймати будь-які рішення, голосувати по будь-яким питанням, якщо не проведено зараз сигнальне голосування і не підтверджена наявність 226 голосів. Немає в залі 226.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u86.p4" xml:lang="uk">Все, що буде зараз прийматись, воно не є законним, легітимним, але саме головне не це, саме головне те, що Конституція, права, процедури, регламенти з приходом вашої команди до влади більше не мають в країні значення. Це означає, що ви руйнівники держави, ви її підриваєте з тилу, ви підриваєте фундамент існування України, тому що це говорить про те, що в пустому залі можна прийняти будь-яке рішення без волі народу, так як це робиться зараз. І тому я закликаю зараз головуючого, пана Корнієнка, припиніть цей фарс. Це фарс, який нічого спільного з парламентаризмом не має. Цей фарс вбиває надію українців на правову державу, вбиває віру в цей парламент і в цю владу. Хіба ви не знаєте, що українці сьогодні проклинають цей парламент, тому що кожне рішення, яке ви приймаєте, воно без волі народу, проти національних інтересів, проти прав і свобод людей. Ви нищите державу і кожен з вас є співучасником.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u86.p5" xml:lang="uk">Так ось хочу зараз сказати, чому в пустому залі іде незаконне голосування зараз. Це незаконне голосування іде по закону, який передбачає, що в українців забирають державну землю, до мільйону гектарів, які є оцим незнижуваним запасом, який забезпечує продовольчу безпеку держави. Ви знаєте, як зараз у вас, українців, у всіх нас забирають цю землю. Вони міняють назву - "державне підприємство" на "акціонерне товариство" і забирають землю у науки, у освіти, у наших підприємств державних, навіть у пенітенціарної системи, де вирощують оці скудні продукти харчування для ув’язнених, і то забирають. Забирають сільськогосподарську землю зараз у армії. Уявляєте, до чого докотилася ця свора? І вони все це роблять в пустому залі, так як вони вночі (вночі!) без волі народу голосували право продавати землі без будь-яких порядків, правил і обмежень сільськогосподарські, так зараз в пустому залі вони забирають останній мільйон гектарів як страховий фонд продовольчої безпеки у держави. Після цього у нас, коли наука і освіта будуть без землі, в аграрних вузах без землі, в аграрних середніх технічних закладах без землі, Європейський Союз згідно своїх конвенцій не визнає таку освіту аграрну, яка проводилася в освітніх закладах без землі, без практики, без розуміння студентів, як взагалі вести аграрне підприємництво і аграрну справу.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u86.p6" xml:lang="uk">Ви знаєте, що всі ректори вузів аграрних (або де є аграрні факультети) звернулися до парламенту, до уряду, звернулися до кожного депутата з проханням не голосувати цей закон. Ніхто цього не почув, тому що воля народу в цьому залі, на жаль, з моментом приходу вашого до влади не варта нічого. Проти волі народу ви легалізуєте не медичний канабіс, а максимально масштабне вирощування марихуани на території України приватними наркоструктурами, а потім переробка цими наркоструктурами і ще і продаж без обмежень. А ще і приватні лабораторії, які можуть розробляти наркоту. Це все ви робите проти волі народу.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u86.p7" xml:lang="uk">І подивіться, як вони гарно скомпонували, вони Закон про практично початок наркобізнесу в Україні, який вони скромно прикрили назвою "Легалізація медичної марихуани", це не відповідає дійсності, вони приймають разом з пакетом закони, які у вас, у українців, у всіх нас забирає майже мільйон гектарів державної землі. Я так думаю, для того, щоб потім наркоту ж вирощувати. А інакше навіщо вона їм потрібна, ця земля?</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u86.p8" xml:lang="uk">І тому, руйнуючи зараз всі основи існування держави, волю народу, Конституцію, Регламент, рішення Конституційного Суду, для того щоб подерибанити мільйон гектарів землі, подерибанити, вони зараз антиконституційно проводять ці голосування.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u86.p9" xml:lang="uk">У нас, у нашої команди, більше 200 правок. Зрозуміло, що ці правки про те, щоб залишити землі сільськогосподарські, безцінні, найкращі, які є в Україні, залишити для освіти наших аграріїв, залишити для того, щоб робити правильну, реально сильну аграрну науку, для того щоб тримати ці землі недоторканними, щоб захистити нашу продовольчу безпеку, особливо під час війни. Тому що коли ви будете роздавати останні краплі землі державної наркомафії, у нас не буде, де виростити навіть зерно, ви залишитеся в наркоплантації всередині Європи і народ буде залежати від поставок продовольства по імпорту. От що ви робите.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u86.p10" xml:lang="uk">Що буде наша команда робити? Зараз, безумовно, ми знімаємо свої правки, тому що вже достатньо реєстраційних матеріалів для того, щоб в Конституційному Суді, коли він буде звільнений від цього терору репресій і "іга" цієї влади, в Конституційному Суді все це буде скасовано однозначно, тому що всі рішення, які приймалися в парламенті з порушенням процедури, Конституційним Судом були скасовані. І цей закон буде скасований, я в цьому переконана. Ми маємо зараз всі відеодокази злочину, який творився в цій Верховній Раді. При цьому головуванні і при пустому залі. І ми будемо подавати також заяву про злочин, тому що це є свідоме зловживання законодавством, коли, знаючи, головуючий, знаючи, що він порушує Конституцію і закон, продовжував ведення засідання Верховної Ради. Це безпрецедентні речі.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u86.p11" xml:lang="uk">Тому хотіла би звернутися зараз до тих нещасних там 100 депутатів, які в залі. Я вас прошу, коли будуть ставити завтра цей закон на голосування, знайдіть в собі хоча б краплю совісті, краплю, краплю, тому що з цієї трибуни ви обіцяли не чіпати державну землю. І не голосуйте за цей закон, проголосуйте проти. А наша команда буде в усіх судах боротися проти вашого бєспрєдєлу, який ви робите під прикриттям війни всупереч волі, в тому числі, військових, і робите за зачиненими дверима, без журналістів, без прямої трансляції, прикриваючись війною, забираєте в українського народу все. Вам український народ з часом цього не пробачить. Слава Україні!</seg>
+            </u>
+            <note type="time">
+               <time when="2023-07-26T13:19:39">13:19:39</time>
+            </note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u87"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u87.p1" xml:lang="uk">Героям слава, Юлія Володимирівна.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u87.p2" xml:lang="uk">Добре. В кого ще є правки на врахування, колеги? Більше немає бажаючих ставити правки на врахування, правильно я розумію? Ви відмовились, решта теж відмовились.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u87.p3" xml:lang="uk">За домовленістю, яка на Погоджувальній раді, зараз ми переходимо до запитів, а потім будемо переривати.</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u88"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <gap reason="inaudible">
+                  <desc>(Не чути)</desc>
+               </gap>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u89"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u89.p1" xml:lang="uk">На підтвердження.</seg>
+            </u>
+            <note type="speaker">ТИМОШЕНКО Ю.В.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u90"
+               who="#ЮліяВолодимирівнаТимошенко.1960"
+               ana="#regular">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u90.p1" xml:lang="uk">На підтвердження.</seg>
+            </u>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2023-07-26-m0.u91"
+               who="#ОлександрСергійовичКорнієнко.1984"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u91.p1" xml:lang="uk">Завтра. Завтра, завтра, така домовленість була.</seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u91.p2" xml:lang="uk">Добре, без запитів, окей. Без проблем, це ж ваша вимога була, про запити. Один день почекають, ми ж не проти. <vocal type="noise">
+                     <desc>(Шум у залі)</desc>
+                  </vocal> Ні, Юлія Володимирівна.</seg>
+               <seg xml:id="ParlaMint-UA_2023-07-26-m0.u91.p3" xml:lang="uk">На сьогодні розгляд питань порядку денного завершено. Дякую всім за роботу. Оголошую перерву в нашому пленарному засіданні. Про час і місце його продовження вам буде повідомлено завчасно. Нагадую на необхідності непоширення інформації щодо його початку. Разом переможемо. Слава Україні!</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
