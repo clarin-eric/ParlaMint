@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country HU (Hungary)
+# Samples of the ParlaMint-HU corpus
 
+- Country: HU (Hungary)
 - Languages: hu (Hungarian)
 
 ## Documentation
@@ -48,3 +49,7 @@ For the linguistic annotation of the corpus we used HuSpaCy (https://github.com/
 HuSpaCy was able to create all the four categories of named entities required by ParlaMint II. A small modification was applied to the output of the parser: named entities consisting of only one token were labelled with `1-<category>` instead of `B-<category>`.
 
 In some cases the NER output was erroneous and needed manual correction as it did not pass the validation. Otherwise, HuSpaCy provided us with a largely accurate linguistic analysis of the data.
+
+### Disclaimer to the English translation
+
+Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

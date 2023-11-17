@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<!-- Make TSV table with info on speakers of a ParlaMint corpus -->
+<!-- Make table with basic info on speakers of a set of ParlaMint corpora  -->
+<!-- Expects the auto-generatd ParlaMint root file (ParlaMint.xml) with all the <person> as input, outputs TSV -->
 <xsl:stylesheet 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.tei-c.org/ns/1.0"

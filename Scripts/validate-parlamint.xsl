@@ -69,11 +69,11 @@
       </xsl:call-template>
     </xsl:if>
     <xsl:variable name="rootHeader">
-      <xsl:apply-templates mode="XInclude" select="//tei:teiHeader"/>
+      <xsl:apply-templates mode="expand" select="//tei:teiHeader"/>
     </xsl:variable>
     <xsl:for-each select="./tei:teiHeader//xi:include">
       <xsl:variable name="incl">
-        <xsl:apply-templates mode="XInclude" select="."/>
+        <xsl:apply-templates mode="expand" select="."/>
       </xsl:variable>
       <xsl:variable name="incl-id"><xsl:value-of select="$incl/tei:*/@xml:id"/></xsl:variable>
       <xsl:variable name="incl-lang"><xsl:value-of select="$incl/tei:*/@xml:lang"/></xsl:variable>

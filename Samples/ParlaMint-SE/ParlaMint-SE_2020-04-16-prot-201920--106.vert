@@ -1,5 +1,11 @@
-<speech id="i-19e7640c7a732d9e-1" text_id="ParlaMint-SE_2020-04-16-prot-201920--106" subcorpus="COVID" body="Unicameralism" term="201920" session="" meeting="" sitting="201920--106" agenda="" date="2020-04-16" title="Riksdagens protokoll 2019/20 nr. 106" speaker_role="Regular" speaker_id="Q4936116" speaker_name="Johansson, Acko Ankarberg" speaker_mp="MP" speaker_minister="-" speaker_party="KD" speaker_party_name="Kristdemokraterna" party_status="" speaker_gender="F" speaker_birth="">
-<p id="i-5ruVoChs89sDtBjW1Bf9N9" lang="Swedish">
+<note type="head" content="§ 3 Tillfälliga bemyndiganden i smittskyddslagen med anledning av det virus som orsakar covid-19"/>
+<note type="-" content="Socialutskottets betänkande 2019 / 20:SoU20"/>
+<note type="-" content="Tillfälliga bemyndiganden i smittskyddslagen med anledning av det virus som orsakar covid-19 ( prop 2019 / 20:155 )"/>
+<note type="-" content="föredrogs ."/>
+<note type="-" content="Kammaren biföll utskottets förslag att ärendet fick avgöras trots att det varit tillgängligt kortare tid än två vardagar före den dag då det skulle behandlas ."/>
+<note type="speaker" content="Anf . 1 ACKO ANKARBERG JOHANSSON ( KD ) :"/>
+<speech id="i-19e7640c7a732d9e-1" text_id="ParlaMint-SE_2020-04-16-prot-201920--106" subcorpus="COVID" lang="svenska" body="Unicameralism" term="2019/20" session="-" meeting="-" sitting="2019/20--106" agenda="-" date="2020-04-16" title="Riksdagens protokoll 2019/20 nr. 106" speaker_role="Regular" speaker_id="Q4936116" speaker_name="Johansson, Acko Ankarberg" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KD" speaker_party_name="Kristdemokraterna" party_status="-" party_orientation="Centre-right to right" speaker_gender="F" speaker_birth="">
+<p id="i-5ruVoChs89sDtBjW1Bf9N9" lang="svenska">
 <s id="i-XP8hvgGEBHXAmfWmCkieMJ">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XM6pcGck1LgZLkmjyohKKA	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XM6qHRABP1qQCo45sYEuAt
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XM6qHRABP1qQCo45sYEuAt	root	-	-	-	-
@@ -83,7 +89,7 @@ världen	världen	värld	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-XM7
 .	.	.	PUNCT		i-XM71wSjiyvkcg92wps6L2Q	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM6zpUbydzt9t7iTkTP26G
 </s>
 </p>
-<p id="i-S1oY4d7865RHuD7CX8Jaen" lang="Swedish">
+<p id="i-S1oY4d7865RHuD7CX8Jaen" lang="svenska">
 <s id="i-XP8ifzMPjuS9JM4RFhCBe4">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-XM725mqBMpGt1RZa9GxEtU	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM72GbrUFUFd96SzA1a8DA
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM72GbrUFUFd96SzA1a8DA	root	-	-	-	-
@@ -139,7 +145,7 @@ annorlunda	annorlunda	annorlunda	ADV		i-XM78kFPt52tM33fRfxt8YU	advmod	göra	VERB
 ?	?	?	PUNCT		i-XM78taVLSvQcNLC3zNk3QY	punct	och	CCONJ		i-XM77oGyUnAqoSZn6NrCiSp
 </s>
 </p>
-<p id="i-EbyVUpYMDG9c3zunigRsBj" lang="Swedish">
+<p id="i-EbyVUpYMDG9c3zunigRsBj" lang="svenska">
 <s id="i-XP8j19U91Sw9mJUTaqfypp">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-XM793jtjfQ5hdkAwYEBwkp	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM79Djc5iTucqHc6KXDqbJ
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM79Djc5iTucqHc6KXDqbJ	root	-	-	-	-
@@ -233,7 +239,7 @@ virus	virus	virus	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-XM7Mmi2Ru
 .	.	.	PUNCT		i-XM7MwhjmxAjqh8nmeNTzUc	punct	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-XM7KgwALRir6AxhYG7TP88
 </s>
 </p>
-<p id="i-WXbB8vboAxQBALChQ2zngr" lang="Swedish">
+<p id="i-WXbB8vboAxQBALChQ2zngr" lang="svenska">
 <s id="i-XP8jLJatGzSAEFtVuz9n1a">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-XM7N7hT81EZktgDvRfVtK6	dep	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM7NuWU85cwDDk8NAvjQ4U
 jag	jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-XM7NG2YaP862DxkYk5MoBA	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM7NQMe2m1cHZFHB4VDi3E
@@ -304,7 +310,7 @@ om	om	om	ADP		i-XM7XWRoTtL6FEiMfzAn6NQ	advmod	handla	VERB	Mood=Ind Tense=Pres Ve
 .	.	.	PUNCT		i-XM7XgRWowPvASFnpmTozCt	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM7Wb7zxGeMMWVNs9wGfFA
 </s>
 </p>
-<p id="i-UhYriAYc1VaSjS3TcG3vky" lang="Swedish">
+<p id="i-UhYriAYc1VaSjS3TcG3vky" lang="svenska">
 <s id="i-XP8jgJ1aP85zdLkoUaDZgY">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XM7XqavD9sbFhfmiKKFtZA	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XM7XzkKcNMGLy5kbsAhnuS
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XM7XzkKcNMGLy5kbsAhnuS	root	-	-	-	-
@@ -372,7 +378,7 @@ politiker	politiker	politiker	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	
 .	.	.	PUNCT		i-XM7fwMRTdyRN499q27ntqr	punct	och	CCONJ		i-XM7eBjg7S8rYCTunkJHyWc
 </s>
 </p>
-<p id="i-2MGtXmp13oMwbMz8UJXEjg" lang="Swedish">
+<p id="i-2MGtXmp13oMwbMz8UJXEjg" lang="svenska">
 <s id="i-XP8k87btMNocZKnwfFPHkx">
 Det	Det	den	DET	Definite=Def Gender=Neut Number=Sing	i-XM7g7M8oh3FHFgayoQpngL	det	förslag	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-XM7gGWYCuWvNX6ZsMGGh2c
 förslag	förslag	förslag	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-XM7gGWYCuWvNX6ZsMGGh2c	nsubj	ge	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM7hgyAoqozBupPsHwHpB6
@@ -437,7 +443,7 @@ ramar	ramar	ram	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-XM7pXSSrc6Ra
 .	.	.	PUNCT		i-XM7pgbrFpa6fQPum9mhW1r	punct	och	CCONJ		i-XM7oZdiWUeECcNbH5MzC5i
 </s>
 </p>
-<p id="i-NV2XXgQn7BGBUxkVpEVhBx" lang="Swedish">
+<p id="i-NV2XXgQn7BGBUxkVpEVhBx" lang="svenska">
 <s id="i-XP8kTGidcvJd2HCyzPs5wi">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-XM7pqmFf33mkfotehd9QN8	nsubj	stå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM7qA64TU17wCdrRoL3D4g
 kristdemokrater	kristdemokrater	kristdemokrat	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-XM7pzvf4FXSqwDsYFUbJiQ	nmod	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-XM7pqmFf33mkfotehd9QN8
@@ -480,7 +486,7 @@ förslag	förslag	förslag	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	i-
 .	.	.	PUNCT		i-XM7vDGyGMGgqhsEsNcL6FW	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM7tbA1RgjVTFM5CBm76J8
 </s>
 </p>
-<p id="i-NSE2MK7qsQGPdXXtYDiwDi" lang="Swedish">
+<p id="i-NSE2MK7qsQGPdXXtYDiwDi" lang="svenska">
 <s id="i-XP8kgbfm2LjqxLTBhTEwj2">
 För	För	för	ADP		i-XM7vQ6zZEvfaqY8HPLwyaC	advmod	anse	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM7vsbCktMgrdn4x2uHgd2
 det	det	den	DET	Definite=Def Gender=Neut Number=Sing	i-XM7vZGPxTQLg6x7AwCPsvU	det	första	ADJ	Case=Nom	i-XM7viRoMft1mNN64V3qnGk
@@ -569,7 +575,7 @@ motion	motion	motion	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XM88G6Z
 .	.	.	PUNCT		i-XM88QReybBtV2xfq88ta9A	punct	innebära	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM86pocySR9aNprwdcRYeQ
 </s>
 </p>
-<p id="i-Cw3m4h9eej3BoYfa4vWQ7Y" lang="Swedish">
+<p id="i-Cw3m4h9eej3BoYfa4vWQ7Y" lang="svenska">
 <s id="i-XP8m8RG4zbTTtKVKt8QfoS">
 För	För	för	ADP		i-XM88aRNKeFiQEW6yuRvTye	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM894jtU8GtVxsVunRrAWg
 det	det	den	DET	Definite=Def Gender=Neut Number=Sing	i-XM88jamirjPVVv5sTHNNKv	det	annan	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Com,Neut Number=Sing	i-XM88uaV4uoDQhTX2EaQGAQ
@@ -686,7 +692,7 @@ befogenheter	befogenheter	befogenhet	NOUN	Case=Nom Definite=Ind Gender=Com Numbe
 .	.	.	PUNCT		i-XM8PLfSGqa9ycbax8vPMvL	punct	beskriva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM8KcwJPs4jvuKJw7fbexk
 </s>
 </p>
-<p id="i-Q4LxuQDovmC4XYTFBb7tdJ" lang="Swedish">
+<p id="i-Q4LxuQDovmC4XYTFBb7tdJ" lang="svenska">
 <s id="i-XP8mg51zpyEsMChJgtgLHJ">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-XM8PWf9ctdytp926vDRFkp	nsubj	uppmana	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-XM8Q9JmDkYgFsnwf7dCs9v
 kristdemokrater	kristdemokrater	kristdemokrat	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-XM8PyK3shUrLgFWWLLAyKS	nmod	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-XM8PWf9ctdytp926vDRFkp
@@ -743,7 +749,7 @@ detta	detta	detta	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-XM8X2
 .	.	.	PUNCT		i-XM8XBSNWF5FDAkpLfnNXTJ	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM8UnLhcLjqCKJCUy7W1Ek
 </s>
 </p>
-<p id="i-GEUwvKYttjH26TLmycmJFC" lang="Swedish">
+<p id="i-GEUwvKYttjH26TLmycmJFC" lang="svenska">
 <s id="i-XP8mtZfBPoXGM8VFAWUCaQ">
 I	I	i	ADP		i-XM8XLbmuTYvJSAoEDdpRoa	advmod	skriva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM8XevahtWGUxzm1KLiEW8
 stället	stället	ställe	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-XM8XVmBJg2bPhan7mVGL9r	det	i	ADP		i-XM8XLbmuTYvJSAoEDdpRoa
@@ -876,7 +882,7 @@ inte	inte	inte	ADV		i-XM8pmmPiUPfbQAW3ZBHgCk	dep	duga	VERB	Mood=Ind Tense=Pres V
 .	.	.	PUNCT		i-XM8pv6VArHBrjT2fsb9b4p	punct	duga	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM8pcbzKFuzW8kXA1KqmrU
 </s>
 </p>
-<p id="i-VxmDrp3vFzrSk7NyxXmkW8" lang="Swedish">
+<p id="i-VxmDrp3vFzrSk7NyxXmkW8" lang="svenska">
 <s id="i-XP8nei4Ho1b4owVAStXjMN">
 Den	Den	den	DET	Definite=Def Gender=Com Number=Sing	i-XM8q6vWTjwAbs7v5tKmUPW	det	kris	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-XM8qaQifPNBsfMrkXt7BSL
 rådande	rådande	rådande	VERB	Case=Nom Definite=Def,Ind Gender=Com,Neut Number=Plur,Sing Tense=Pres VerbForm=Part	i-XM8qGvDonzzX4fMEfcoNDz	amod	kris	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-XM8qaQifPNBsfMrkXt7BSL
@@ -1006,7 +1012,7 @@ talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XM98ab4
 .	.	.	PUNCT		i-XM98iv9ZeRtdxnWKEbrc7N	punct	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM96jyT63AtbB425Fiypzp
 </s>
 </p>
-<p id="i-GWLERytzc9SSUZBd1B4ZPT" lang="Swedish">
+<p id="i-GWLERytzc9SSUZBd1B4ZPT" lang="svenska">
 <s id="i-XP8oKrbjAgjufymWLd5KD6">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-XM98sFF22KQuJ52wZ1iWyS	expl	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM993ExN5PEpVcU6LJkQov
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM993ExN5PEpVcU6LJkQov	root	-	-	-	-
@@ -1045,7 +1051,7 @@ möjligt	möjligt	möjlig	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Neut Numbe
 .	.	.	PUNCT		i-XM9EU5ukjxmDGBdMw4H4e8	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM9CVyXDyHuzQabPBczH1n
 </s>
 </p>
-<p id="i-MMQxxeBoB6ecURXwmGDMXv" lang="Swedish">
+<p id="i-MMQxxeBoB6ecURXwmGDMXv" lang="svenska">
 <s id="i-XP8oYMEujX2JfuZSpEsBWC">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-XM9EdFK9xSSJXbcFUuixzQ	nsubj	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM9EnQiZAv7Po1b92mAsLg
 vill	vill	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM9EnQiZAv7Po1b92mAsLg	root	-	-	-	-
@@ -1090,8 +1096,8 @@ betänkandet	betänkandet	betänkande	NOUN	Case=Nom Definite=Def Gender=Neut Num
 </p>
 </speech>
 <note type="speaker" content="Anf . 2 CAMILLA WALTERSSON GRÖNVALL ( M ) :"/>
-<speech id="i-19e7640c7a732d9e-15" text_id="ParlaMint-SE_2020-04-16-prot-201920--106" subcorpus="COVID" body="Unicameralism" term="201920" session="" meeting="" sitting="201920--106" agenda="" date="2020-04-16" title="Riksdagens protokoll 2019/20 nr. 106" speaker_role="Regular" speaker_id="Q4990177" speaker_name="Grönvall, Camilla Waltersson" speaker_mp="MP" speaker_minister="-" speaker_party="M" speaker_party_name="Moderaterna" party_status="" speaker_gender="F" speaker_birth="">
-<p id="i-GNxq4Hmy4c7QoULuLi6qf5" lang="Swedish">
+<speech id="i-19e7640c7a732d9e-15" text_id="ParlaMint-SE_2020-04-16-prot-201920--106" subcorpus="COVID" lang="svenska" body="Unicameralism" term="2019/20" session="-" meeting="-" sitting="2019/20--106" agenda="-" date="2020-04-16" title="Riksdagens protokoll 2019/20 nr. 106" speaker_role="Regular" speaker_id="Q4990177" speaker_name="Grönvall, Camilla Waltersson" speaker_mp="MP" speaker_minister="notMinister" speaker_party="M" speaker_party_name="Moderaterna" party_status="-" party_orientation="Centre-right" speaker_gender="F" speaker_birth="">
+<p id="i-GNxq4Hmy4c7QoULuLi6qf5" lang="svenska">
 <s id="i-XP8of1iUSEEv8wBYfmZ7Pr">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XM9LTQw25WDqRmSsa1fNSQ	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XM9LdQeN8a3kdJt2MJhGGt
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XM9LdQeN8a3kdJt2MJhGGt	root	-	-	-	-
@@ -1179,7 +1185,7 @@ overklig	overklig	overklig	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Com Numbe
 .	.	.	PUNCT		i-XM9YB5QXfzQCxcwAfyt9HE	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM9VsouFdn3ye4V9bQ7ZU8
 </s>
 </p>
-<p id="i-FDSttdmdep1J5bpsyTdqgT" lang="Swedish">
+<p id="i-FDSttdmdep1J5bpsyTdqgT" lang="svenska">
 <s id="i-XP8ozAqDhmjvbtbazv2uac">
 I	I	i	ADP		i-XM9YLEovtU5JE2v4DqL3dW	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM9YyijUaxvVDpHsegheWp
 denna	denna	denna	DET	Definite=Def Gender=Com Number=Sing	i-XM9YVQDL6wkPVStwmgmwyn	det	pandemi	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XM9YpZL5NVFPxQJz6qFkAY
@@ -1263,7 +1269,7 @@ förlorade	förlorade	förlorad	VERB	Case=Nom Definite=Def,Ind Gender=Com,Neut N
 .	.	.	PUNCT		i-XM9jM687S6oB2bDUyBqFeC	punct	men	CCONJ		i-XM9htxscpdRhmcUxZde9XJ
 </s>
 </p>
-<p id="i-RvDGMAvZEssNh4Q1qUwySZ" lang="Swedish">
+<p id="i-RvDGMAvZEssNh4Q1qUwySZ" lang="svenska">
 <s id="i-XP8pRzRXg2TYXsdjBbCdf2">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XM9jVRDZozKSMsk7HbhAWG	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XM9jfQvus49MZRBG4tj4Lk
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XM9jfQvus49MZRBG4tj4Lk	root	-	-	-	-
@@ -1367,7 +1373,7 @@ covid-19	covid-19	covid-19	NUM	Case=Nom	i-XM9zDAMgVYJXwasHpmQ5zL	obj	orsaka	VERB
 .	.	.	PUNCT		i-XM9zNKm5i1ydCzrBNcqzLc	punct	handla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM9rWiWuTvjZiiAXcKGqKS
 </s>
 </p>
-<p id="i-NvkfvsogbpYaY4BZdpWv41" lang="Swedish">
+<p id="i-NvkfvsogbpYaY4BZdpWv41" lang="svenska">
 <s id="i-XP8psp1qeHBATrfsNGNMjS">
 <name type="LOC">
 Sverige	Sverige	Sverige	PROPN	Case=Nom	i-XM9zXVAUvVeiUQq4vUHtgt	nsubj	sakna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XM9zfpFwJPAyohMhEt9oYx
@@ -1418,7 +1424,7 @@ tid	tid	tid	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XMA6dUfJxkKx72Gg
 .	.	.	PUNCT		i-XMA6oUNf1p9sJZhqCFQ2DJ	punct	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-XMA3V4uFVnzxit7AfM24sW
 </s>
 </p>
-<p id="i-9xk4FNm1ymL9Gbr95DVDBc" lang="Swedish">
+<p id="i-9xk4FNm1ymL9Gbr95DVDBc" lang="svenska">
 <s id="i-XP8q5UM5NXJjXf1YcSaEYL">
 Att	Att	att	SCONJ		i-XMA6woU7Phg8drETWfFw5N	dep	och	CCONJ		i-XMA82Gg2Ds67dVC9tkDGYt
 <name type="LOC">
@@ -1535,7 +1541,7 @@ tid	tid	tid	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XMAMWPCprmz8x9Nk
 .	.	.	PUNCT		i-XMAMeiJHEfWQHRuNpPNs5E	punct	vara	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-XMALFvHZyYkEkxyuLbXiuA
 </s>
 </p>
-<p id="i-TfRZhYyyLawH3bweDJdxod" lang="Swedish">
+<p id="i-TfRZhYyyLawH3bweDJdxod" lang="svenska">
 <s id="i-XP8qkctWkCTaPhHtWB7pQ4">
 Detta	Detta	detta	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-XMAMqYKa8KV9R6nnq7zkPv	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMAMysR2WD1QkPKR9XrfFz
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMAMysR2WD1QkPKR9XrfFz	root	-	-	-	-
@@ -1597,7 +1603,7 @@ med	med	med	ADP		i-XMAVYpUHzXCwa6wpH1hzZ2	advmod	komma	VERB	Mood=Ind Tense=Past 
 .	.	.	PUNCT		i-XMAVh9ZkNQjCuPUSbRZuR6	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMAS7kXKmnqRXPj3tae7Ka
 </s>
 </p>
-<p id="i-WNKH7VtXozkU2dxJjsz6gt" lang="Swedish">
+<p id="i-WNKH7VtXozkU2dxJjsz6gt" lang="svenska">
 <s id="i-XP8r5n1G1jxarehvqKbcap">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-XMAVrJy9atQJAoTL9H1omN	expl	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMAW2JgVdxEDNLtUva3hbr
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMAW2JgVdxEDNLtUva3hbr	dep	men	CCONJ		i-XMAXRw19jf9CpwGDdoUqG8
@@ -1645,7 +1651,7 @@ beslut	beslut	beslut	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	i-XMAcNT
 .	.	.	PUNCT		i-XMAcXcqo8hAb8Z1SuQXgua	punct	men	CCONJ		i-XMAXRw19jf9CpwGDdoUqG8
 </s>
 </p>
-<p id="i-Ds5WwC2PZFCMnckgwUAeWv" lang="Swedish">
+<p id="i-Ds5WwC2PZFCMnckgwUAeWv" lang="svenska">
 <s id="i-XP8rCSUpiTBCKgL2grHYUU">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XMAcfwwFWagrTqY5DpPbme	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XMAcq7Lej4MwjFWxmfqW7v
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XMAcq7Lej4MwjFWxmfqW7v	root	-	-	-	-
@@ -1738,7 +1744,7 @@ förslagen	förslagen	förslag	NOUN	Case=Nom Definite=Def Gender=Neut Number=Plu
 .	.	.	PUNCT		i-XMApKSs2v876L3m4AagRBS	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMAm2i1X5HFqcd4v6ZUSp4
 </s>
 </p>
-<p id="i-R5g1ncnzhCpWbzQZW7C3BX" lang="Swedish">
+<p id="i-R5g1ncnzhCpWbzQZW7C3BX" lang="svenska">
 <s id="i-XP8rk6EkYpxbnZY1VcZCxL">
 Moderaterna	Moderaterna	moderat	NOUN	Case=Nom Definite=Def Gender=Com Number=Plur	i-XMApVSaNyBw1XbCCwsiK1v	nsubj	dela	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMApebynBfc6o1B6VjADNC
 delar	delar	dela	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMApebynBfc6o1B6VjADNC	root	-	-	-	-
@@ -1820,7 +1826,7 @@ krisen	krisen	kris	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-XMB1LJBDT
 .	.	.	PUNCT		i-XMB1UdGfqeMETtb7EM3Y4C	punct	innebära	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMAxXsqr6w9p9YmGiuuMMn
 </s>
 </p>
-<p id="i-3z7xYCy2kkWNLTcNMtX1td" lang="Swedish">
+<p id="i-3z7xYCy2kkWNLTcNMtX1td" lang="svenska">
 <s id="i-XP8ryRBsxFPpicnDCfw4je">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XMB1dng5482KjJZznCVSQU	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XMB1onPR7BrEvr19ZVXLEx
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XMB1onPR7BrEvr19ZVXLEx	root	-	-	-	-
@@ -1855,7 +1861,7 @@ dessa	dessa	dessa	PRON	Case=Acc,Nom Definite=Def Gender=Com,Neut Number=Plur	i-X
 .	.	.	PUNCT		i-XMB5mfnNKhrLWJydXFGtU4	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMB2HGbckcsWj5wpD3s3Hn
 </s>
 </p>
-<p id="i-KoWT96PgTXoagTkmyCLYsK" lang="Swedish">
+<p id="i-KoWT96PgTXoagTkmyCLYsK" lang="svenska">
 <s id="i-XP8sBuq4X5gDiYa9gHiw2k">
 Bland	Bland	bland	ADP		i-XMB5vqBmYBXRmixX56inpL	advmod	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMB6EKgd8YinNRU2wN2c2g
 annat	annat	annat	PRON	Case=Acc,Nom Definite=Ind Gender=Neut Number=Sing	i-XMB65AHDv53h71V9PWahgQ	det	bland	ADP		i-XMB5vqBmYBXRmixX56inpL
@@ -1906,7 +1912,7 @@ Kristdemokraterna	Kristdemokraterna	kristdemokrat	NOUN	Case=Nom Definite=Def Gen
 .	.	.	PUNCT		i-XMBCVUarPH57GStXyhYk4t	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMBBFqyYLdz31Pwx3m9WF6
 </s>
 </p>
-<p id="i-WcVYLrVMpm5oLYbXAFjD2J" lang="Swedish">
+<p id="i-WcVYLrVMpm5oLYbXAFjD2J" lang="svenska">
 <s id="i-XP8sQQUF5uxciUN69uWoKr">
 Vidare	Vidare	vidare	ADV	Degree=Cmp	i-XMBCedzFbkkCXrsRXYzeRA	advmod	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMBCny5hyeGTs9Q3qxrZHE
 vill	vill	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMBCny5hyeGTs9Q3qxrZHE	root	-	-	-	-
@@ -1937,7 +1943,7 @@ bemyndigandet	bemyndigandet	bemyndigande	NOUN	Case=Nom Definite=Def Gender=Neut 
 .	.	.	PUNCT		i-XMBGarmK96SeF4wP2RaDfr	punct	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMBCny5hyeGTs9Q3qxrZHE
 </s>
 </p>
-<p id="i-34SkRwTJPcPaGUVJk843xs" lang="Swedish">
+<p id="i-34SkRwTJPcPaGUVJk843xs" lang="svenska">
 <s id="i-XP8sX4wondBEBVzC1SCjDW">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-XMBGk2AiMa7jWUvGaH2828	nsubj	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMBGv1t4Qdwei2MRMa41rc
 vill	vill	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMBGv1t4Qdwei2MRMa41rc	root	-	-	-	-
@@ -2040,7 +2046,7 @@ kommuner	kommuner	kommun	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-XMB
 .	.	.	PUNCT		i-XMBWf7yt89aYpzgk8juYGc	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMBSDkNjGCZBTHmbXRpGzg
 </s>
 </p>
-<p id="i-8f2ygVGbGmNFRoqHvFEkbg" lang="Swedish">
+<p id="i-8f2ygVGbGmNFRoqHvFEkbg" lang="svenska">
 <s id="i-XP8sqPkcDaXQiKwy796Xv4">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-XMBWpHPHLdFe6QfdgbMSct	nsubj	önska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMBWxcUjiWmuRhCG11DMUx
 önskar	önskar	önska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMBWxcUjiWmuRhCG11DMUx	dep	samt	CCONJ		i-XMBYP57LeoqipR2FwgEUdS
@@ -2062,7 +2068,7 @@ yttrande	yttrande	yttrande	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-
 .	.	.	PUNCT		i-XMBZMi9dcrBvH9p7hg5shW	punct	samt	CCONJ		i-XMBYP57LeoqipR2FwgEUdS
 </s>
 </p>
-<p id="i-KxfN3LXJ8fTmGWvyggMZ2x" lang="Swedish">
+<p id="i-KxfN3LXJ8fTmGWvyggMZ2x" lang="svenska">
 <s id="i-XP8sx4EAvHk2BMa4xfnToi">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XMBZWsZ2qKs1YZo1FXXn3n	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XMBZg2xS3oY6oymtoNygQ4
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XMBZg2xS3oY6oymtoNygQ4	root	-	-	-	-
@@ -2170,7 +2176,7 @@ Moderaterna	Moderaterna	moderat	NOUN	Case=Nom Definite=Def Gender=Com Number=Plu
 .	.	.	PUNCT		i-XMBorxeZjZtcrw9MmDzvtU	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMBjSRMMiD25RMgUPMVf6k
 </s>
 </p>
-<p id="i-UbSPX7SfhkqDdH5hRSER56" lang="Swedish">
+<p id="i-UbSPX7SfhkqDdH5hRSER56" lang="svenska">
 <s id="i-XP8tP3WY3xJpBD9wuuNCPv">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XMBp283xx3Zi8M8FK5SqEk	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XMBpBHTNAXEoPm78rvtjb2
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XMBpBHTNAXEoPm78rvtjb2	root	-	-	-	-
@@ -2238,7 +2244,7 @@ ekonomiskt	ekonomiskt	ekonomiskt	ADV	Degree=Pos	i-XMBxWNuk43W8gHjTGnobf2	advmod	
 .	.	.	PUNCT		i-XMBxfYK9GXBDwhiLpeFW1J	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMBuBySLY2ME6c8njtReKE
 </s>
 </p>
-<p id="i-7KZbEnetNoYPmRHqKVhunw" lang="Swedish">
+<p id="i-7KZbEnetNoYPmRHqKVhunw" lang="svenska">
 <s id="i-XP8tiCdHKVopeAZzF3qzag">
 Hur	Hur	hur	ADV		i-XMBxphiYUzrKD7hENVhQMa	advmod	välja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XMBy92XLuxCVjwf1UCbD48
 <name type="LOC">
@@ -2339,8 +2345,8 @@ rummet	rummet	rum	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-XMCB2giCZ
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="i-19e7640c7a732d9e-774" text_id="ParlaMint-SE_2020-04-16-prot-201920--106" subcorpus="COVID" body="Unicameralism" term="201920" session="" meeting="" sitting="201920--106" agenda="" date="2020-04-16" title="Riksdagens protokoll 2019/20 nr. 106" speaker_role="Regular" speaker_id="Q57168687" speaker_name="Berginger, Emma" speaker_mp="MP" speaker_minister="-" speaker_party="MP;Q10585380" speaker_party_name="Miljöpartiet;Miljöpartister i Svenska kyrkan De Gröna" party_status="" speaker_gender="F" speaker_birth="">
-<p id="i-QuEc1AVRae5RnpimjiTHb9" lang="Swedish">
+<speech id="i-19e7640c7a732d9e-774" text_id="ParlaMint-SE_2020-04-16-prot-201920--106" subcorpus="COVID" lang="svenska" body="Unicameralism" term="2019/20" session="-" meeting="-" sitting="2019/20--106" agenda="-" date="2020-04-16" title="Riksdagens protokoll 2019/20 nr. 106" speaker_role="Regular" speaker_id="Q57168687" speaker_name="Berginger, Emma" speaker_mp="MP" speaker_minister="notMinister" speaker_party="MP;Q10585380" speaker_party_name="Miljöpartiet;Miljöpartister i Svenska kyrkan De Gröna" party_status="-" party_orientation="Centre-leftCentre-left" speaker_gender="F" speaker_birth="">
+<p id="i-QuEc1AVRae5RnpimjiTHb9" lang="svenska">
 <s id="i-XPDSUTTt4YtxeGDTgSuKvk">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP2KbKLEaX747zcQzfZ2yr	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP2KjeRgxQdKTH93K5Qwqv
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP2KjeRgxQdKTH93K5Qwqv	root	-	-	-	-
@@ -2387,7 +2393,7 @@ betänkandet	betänkandet	betänkande	NOUN	Case=Nom Definite=Def Gender=Neut Num
 .	.	.	PUNCT		i-XP2QX1TXvVJXE4vVUyZznp	punct	stå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP2PdNGuyysHN6rD7dEYdz
 </s>
 </p>
-<p id="i-TddZZuyxN3FnS2txJXUu6Z" lang="Swedish">
+<p id="i-TddZZuyxN3FnS2txJXUu6Z" lang="svenska">
 <s id="i-XPDSocadL6Py7DdW1bP87W">
 Sjöfarten	Sjöfarten	sjöfart	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-XP2QgArw8xycVUuP2q1u96	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP2QpVxPWrVspmS1MEsp1A
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP2QpVxPWrVspmS1MEsp1A	root	-	-	-	-
@@ -2471,7 +2477,7 @@ helhet	helhet	helhet	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP2aQtd
 .	.	.	PUNCT		i-XP2aZDjRW5gCZtS4ULDojS	punct	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP2XLeRdrBb5X71EZWwno6
 </s>
 </p>
-<p id="i-BFDgN7zhhuK7PwSBTugcmU" lang="Swedish">
+<p id="i-BFDgN7zhhuK7PwSBTugcmU" lang="svenska">
 <s id="i-XPDT8mhNbdtyaB3YLjrvJG">
 Ungefär	Ungefär	ungefär	ADV		i-XP2ahYpssyCTuAxgnk5ibW	advmod	90	NUM	Case=Nom	i-XP2aqsvLFrijETVK79wdTa
 90	90	90	NUM	Case=Nom	i-XP2aqsvLFrijETVK79wdTa	det	procent	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-XP2azD1ndkEzZk1wRZoYKe
@@ -2542,7 +2548,7 @@ kriser	kriser	kris	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-XP2igerZf
 .	.	.	PUNCT		i-XP2ipyx23FLE7uFKxRnhrc	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP2fkjjgmEmNQQM8N2NbnL
 </s>
 </p>
-<p id="i-4pVNp8tJLshfiUD8bJ7ZQL" lang="Swedish">
+<p id="i-4pVNp8tJLshfiUD8bJ7ZQL" lang="svenska">
 <s id="i-XPDTZkyjjJTma2dRHySetU">
 Klimatkrisen	Klimatkrisen	klimatkris	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-XP2iyK3UR8rVTBmxGqecig	nsubj	ställa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP2j7e8vo2NknUJabFWXak
 ställer	ställer	ställa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP2j7e8vo2NknUJabFWXak	root	-	-	-	-
@@ -2589,7 +2595,7 @@ grader	grader	grad	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-XP2pDKyaC
 .	.	.	PUNCT		i-XP2pMf52ZwvQRNaSBGRJ6G	punct	behöva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP2oBMhVsfSdtqSuB6N2DJ
 </s>
 </p>
-<p id="i-3DPFt6jKBXhgd8f85uM2xC" lang="Swedish">
+<p id="i-3DPFt6jKBXhgd8f85uM2xC" lang="svenska">
 <s id="i-XPDTo5vs8itzW5sd12pWfn">
 <name type="LOC">
 Sverige	Sverige	Sverige	PROPN	Case=Nom	i-XP2pVzAUwqSfkf74VgHCxL	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP2peKFwKixw5wdgp697pQ
@@ -2715,7 +2721,7 @@ hantera	hantera	hantera	VERB	VerbForm=Inf Voice=Act	i-XP34jQnT9NFfbzqK9r4RuN	pun
 .	.	.	PUNCT		i-XP34sjsuXFmvwHMwUFvLmS	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP33Z7QvT5mu5Thn9g1A2Q
 </s>
 </p>
-<p id="i-9hrpq3oAwbfG1DzQQiBefN" lang="Swedish">
+<p id="i-9hrpq3oAwbfG1DzQQiBefN" lang="svenska">
 <s id="i-XPDUa4dvNX7cu2KoWrU2vx">
 Tyvärr	Tyvärr	tyvärr	ADV		i-XP3524yMu9JCGZtZnfnFdW	advmod	öka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP35BENm7cyHXysTLXE9yn
 ökar	ökar	öka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP35BENm7cyHXysTLXE9yn	root	-	-	-	-
@@ -2809,7 +2815,7 @@ brytas	brytas	bryta	VERB	VerbForm=Inf Voice=Pass	i-XP3Fnm2UCmS2CwVXbXKcNg	dep	m�
 .	.	.	PUNCT		i-XP3Fw67vaexHYE29uwBXEk	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP3F57ZCKKphYWrQ1U244L
 </s>
 </p>
-<p id="i-MTqCC9F8aiMcwtTFh2WjDS" lang="Swedish">
+<p id="i-MTqCC9F8aiMcwtTFh2WjDS" lang="svenska">
 <s id="i-XPDV6t5uNJkCRn5X6B9hvc">
 I	I	i	ADP		i-XP3G5RDNxYUYsWYnEM3S6p	advmod	framföra	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-XP3GgQD69GsG4uZoxsf4XW
 den	den	den	DET	Definite=Def Gender=Com Number=Sing	i-XP3GDkJqLRzpCo5QYkuLxt	det	handlingsplan	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-XP3GXEogvoCAoVavR2DABE
@@ -2884,7 +2890,7 @@ område	område	område	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-XP3
 .	.	.	PUNCT		i-XP3QrLG4pKTW62DEpt82FE	punct	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP3PEDJE9nG7dW3Ze2u2Hr
 </s>
 </p>
-<p id="i-PJt3ko8VnuVsaQGnVpv7XP" lang="Swedish">
+<p id="i-PJt3ko8VnuVsaQGnVpv7XP" lang="svenska">
 <s id="i-XPDVXsNGVyJzRdfQ3QjSWp">
 Att	Att	att	PART		i-XP3QzfMXCCymRJjs9Hyw7J	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP3RZyjLhm4pkSrNQwRaZa
 sätta	sätta	sätta	VERB	VerbForm=Inf Voice=Act	i-XP3R8zSya6W2kbGVThqqyN	punct	att	PART		i-XP3QzfMXCCymRJjs9Hyw7J
@@ -2990,7 +2996,7 @@ biogas	biogas	biogas	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP3dBp3
 .	.	.	PUNCT		i-XP3dKJpjyRYr9ZFBynpLNp	punct	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP3b1D1X6d3ntsLufmTm5W
 </s>
 </p>
-<p id="i-EUhr3vGnZDBuWYHYZHSBUy" lang="Swedish">
+<p id="i-EUhr3vGnZDBuWYHYZHSBUy" lang="svenska">
 <s id="i-XPDW6MS9AwFDpeKe5cb6Ut">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-XP3dUUE9BuDwQyE5XeGEj6	expl	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-XP3dcoKbZnkCkFkhr489bA
 finns	finns	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-XP3dcoKbZnkCkFkhr489bA	root	-	-	-	-
@@ -3079,7 +3085,7 @@ infrastruktur	infrastruktur	infrastruktur	NOUN	Case=Nom Definite=Ind Gender=Com 
 .	.	.	PUNCT		i-XP3oxW6LjkKEgmmnhg5mk8	punct	tro	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP3mTaFpyHqSJQz6Nv7K88
 </s>
 </p>
-<p id="i-7AAhgM3aHCm6Hk3nU38NiA" lang="Swedish">
+<p id="i-7AAhgM3aHCm6Hk3nU38NiA" lang="svenska">
 <s id="i-XPDWXLiWJbp1pVuX2rAq56">
 Miljöpartiet	Miljöpartiet	miljöparti	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-XP3p6qBo7dqW24JR25wgcC	nsubj	vara	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-XP3pFAHFVXMmMLq3LVobUG
 var	var	vara	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-XP3pFAHFVXMmMLq3LVobUG	root	-	-	-	-
@@ -3160,7 +3166,7 @@ lastbil	lastbil	lastbil	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP3y
 .	.	.	PUNCT		i-XP3ybPhkrrRmtzc1CgKq4x	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP3wPxN6gm9L7LKpkBfBfJ
 </s>
 </p>
-<p id="i-ThkYCq7DS36LUBnnvKzVVF" lang="Swedish">
+<p id="i-ThkYCq7DS36LUBnnvKzVVF" lang="svenska">
 <s id="i-XPDWxKzsSGNopMVPz5kZfJ">
 Samtidigt	Samtidigt	samtidigt	ADV		i-XP3yjioDEjx3EH8dX6Bjw2	advmod	behöva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-XP3yt3tfcdUJZZfFqW3eo6
 behövs	behövs	behöva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-XP3yt3tfcdUJZZfFqW3eo6	root	-	-	-	-
@@ -3274,7 +3280,7 @@ transportsektorn	transportsektorn	transportsektor	NOUN	Case=Nom Definite=Def Gen
 .	.	.	PUNCT		i-XP4BvsUvUf9gZNZbGckDpg	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP4AVaYNhmw3EXHL6W97Bz
 </s>
 </p>
-<p id="i-SdopM5c5ysnD6qCFhnmBR6" lang="Swedish">
+<p id="i-SdopM5c5ysnD6qCFhnmBR6" lang="svenska">
 <s id="i-XPDXdUYJowXegPmjspJ9X2">
 SOFT-myndigheterna	SOFT-myndigheterna	SOFT-myndighet	NOUN	Case=Nom Definite=Def Gender=Com Number=Plur	i-XP4C5CaNrYfwtf6Db2c8gk	nsubj	föreslå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP4CDXfqESCDDwcquSU3Yp
 föreslår	föreslår	föreslå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP4CDXfqESCDDwcquSU3Yp	root	-	-	-	-
@@ -3344,7 +3350,7 @@ klimatpåverkan	klimatpåverkan	klimatpåverkan	NOUN	Case=Nom Definite=Ind Gende
 .	.	.	PUNCT		i-XP4M27LQmPUpJiBpxricfe	punct	konstatera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP4JfWbMNpXHFdvkxWc4ui
 </s>
 </p>
-<p id="i-XSngNuhjvc4Ki3yDszHdKM" lang="Swedish">
+<p id="i-XSngNuhjvc4Ki3yDszHdKM" lang="svenska">
 <s id="i-XPDXqyBVNmp3gKZgMS61p8">
 Även	Även	även	ADV		i-XP4MASRs9H15dziTHGaXXi	advmod	VTI	PROPN	Case=Nom	i-XP4MJmXKXAXLyHF5bgSSPn
 <name type="ORG">
@@ -3462,7 +3468,7 @@ om	om	om	PART		i-XP4aUZFKj85Bm7Tu7CrKMW	dep	ställa	VERB	Mood=Ind Tense=Pres Ver
 .	.	.	PUNCT		i-XP4actLn71bT6PzXRciEDa	punct	behöva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-XP4WgfZiZfu1PBvZvk8ext
 </s>
 </p>
-<p id="i-Ufu13zLPk4g9YwUmkfkYVj" lang="Swedish">
+<p id="i-Ufu13zLPk4g9YwUmkfkYVj" lang="svenska">
 <s id="i-XPDYNndUNZSdD5KPvkmgon">
 <name type="ORG">
 VTI	VTI	VTI	PROPN	Case=Nom	i-XP4amDSEUu7iRgX9k2a95e	nsubj	konstatera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP4auYXgrndyky3n4SS3wi
@@ -3548,7 +3554,7 @@ LBG	LBG	LBG	PROPN	Case=Nom	i-XP4jo83wRGqYSWLLWWCZyn	dep	och	CCONJ		i-XP4jenxV3PK
 .	.	.	PUNCT		i-XP4jvcqSxaCyqfQhbUUVMe	punct	lyfta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP4huBD8qYkTFYZfvGqjnU
 </s>
 </p>
-<p id="i-4J5dVQ1XVxUjZNzV6y2XZc" lang="Swedish">
+<p id="i-4J5dVQ1XVxUjZNzV6y2XZc" lang="svenska">
 <s id="i-XPDYhwkDe6wdg2jSFuFUzY">
 Med	Med	med	ADP		i-XP4k5nErB3t575Pb9KvPhv	advmod	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP4or1JZfKkbck2PruU588
 anledning	anledning	anledning	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP4kE7LJYwQLSMvDTjnJZz	det	med	ADP		i-XP4k5nErB3t575Pb9KvPhv
@@ -3599,7 +3605,7 @@ regeringen	regeringen	regering	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing
 .	.	.	PUNCT		i-XP4rKGXBkbvk8quZinGYmi	punct	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP4or1JZfKkbck2PruU588
 </s>
 </p>
-<p id="i-7RjftfbzHETDL3dbTBY3fT" lang="Swedish">
+<p id="i-7RjftfbzHETDL3dbTBY3fT" lang="svenska">
 <s id="i-XPDYpcDnLpAF94MY7RwQtC">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP4rTbce8VT1U8SC3C8Tdn	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP4rbvi6WNyGoQxpMbzNVr
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP4rbvi6WNyGoQxpMbzNVr	root	-	-	-	-
@@ -3747,7 +3753,7 @@ implementeras	implementeras	implementera	VERB	Mood=Ind Tense=Pres VerbForm=Fin V
 .	.	.	PUNCT		i-XP59kS8zmSg36qcP4KjoAt	punct	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP581ehbQCG3BHpc1wpsKr
 </s>
 </p>
-<p id="i-3kKq1XehHrY9LmdSn7dLca" lang="Swedish">
+<p id="i-3kKq1XehHrY9LmdSn7dLca" lang="svenska">
 <s id="i-XPDZbavqacNsXzoidFaw9N">
 De	De	den	DET	Definite=Def Gender=Com,Neut Number=Plur	i-XP59tmET9LCJS891Njbi2x	det	fartyg	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	i-XP5A36KuXDiZmQfdh9Tcu2
 fartyg	fartyg	fartyg	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	i-XP5A36KuXDiZmQfdh9Tcu2	nsubj	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP5BdYfrWacJMfvnR7Wdsz
@@ -3865,8 +3871,8 @@ sjöfarten	sjöfarten	sjöfart	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing
 </p>
 </speech>
 <note type="speaker" content="Anf . 117 MAGNUS JACOBSSON ( KD ) :"/>
-<speech id="i-19e7640c7a732d9e-791" text_id="ParlaMint-SE_2020-04-16-prot-201920--106" subcorpus="COVID" body="Unicameralism" term="201920" session="" meeting="" sitting="201920--106" agenda="" date="2020-04-16" title="Riksdagens protokoll 2019/20 nr. 106" speaker_role="Regular" speaker_id="Q5826586" speaker_name="Jacobsson, Magnus" speaker_mp="MP" speaker_minister="-" speaker_party="KD" speaker_party_name="Kristdemokraterna" party_status="" speaker_gender="M" speaker_birth="">
-<p id="i-AohgZz4Cnw7M7MU5Pzri1h" lang="Swedish">
+<speech id="i-19e7640c7a732d9e-791" text_id="ParlaMint-SE_2020-04-16-prot-201920--106" subcorpus="COVID" lang="svenska" body="Unicameralism" term="2019/20" session="-" meeting="-" sitting="2019/20--106" agenda="-" date="2020-04-16" title="Riksdagens protokoll 2019/20 nr. 106" speaker_role="Regular" speaker_id="Q5826586" speaker_name="Jacobsson, Magnus" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KD" speaker_party_name="Kristdemokraterna" party_status="-" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="">
+<p id="i-AohgZz4Cnw7M7MU5Pzri1h" lang="svenska">
 <s id="i-XPDa9EgmQzAGzt1hS1rbdE">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP5PUhvseNA7HgVSc41L6g	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP5Pd32L2FgNcy24vTsExk
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP5Pd32L2FgNcy24vTsExk	root	-	-	-	-
@@ -3950,7 +3956,7 @@ välfärdsstat	välfärdsstat	välfärdsstat	NOUN	Case=Nom Definite=Ind Gender=C
 .	.	.	PUNCT		i-XP5YpwMP1hE7qLGQUEXZhN	punct	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP5W2X21esYxrGyCHDFHs2
 </s>
 </p>
-<p id="i-Jca2TPa8CzY1PmkAbFt858" lang="Swedish">
+<p id="i-Jca2TPa8CzY1PmkAbFt858" lang="svenska">
 <s id="i-XPDahike5x6WPtfwUDiFbJ">
 Därför	Därför	därför	ADV		i-XP5YyGSqPakPAco2nePUZS	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP5Z8RrEc4RUS2mvLVqNui
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP5Z8RrEc4RUS2mvLVqNui	root	-	-	-	-
@@ -4008,7 +4014,7 @@ sjöfarten	sjöfarten	sjöfart	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing
 .	.	.	PUNCT		i-XP5fx4pLXki2j4rfR3DAuz	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP5cCg4Zt4zL9Xg7vuFUyz
 </s>
 </p>
-<p id="i-AaewJr9kv3Gp281mVB63er" lang="Swedish">
+<p id="i-AaewJr9kv3Gp281mVB63er" lang="svenska">
 <s id="i-XPDavDPpenNuPpTswqW7tQ">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP5g6PunueEJ4MPHjT55n4	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP5gEj1FHXkZPduv3rvze8
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP5gEj1FHXkZPduv3rvze8	root	-	-	-	-
@@ -4103,7 +4109,7 @@ fram	fram	fram	PART		i-XP5rGwH8s88EjTRV3Daoak	dep	lyfta	VERB	Mood=Ind Tense=Pres
 .	.	.	PUNCT		i-XP5rRGNbF1eW4jx7MdSiSp	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP5qYTVv96N68uL6DihFnC
 </s>
 </p>
-<p id="i-AwW4gjs1JyTA5w5MKoaofW" lang="Swedish">
+<p id="i-AwW4gjs1JyTA5w5MKoaofW" lang="svenska">
 <s id="i-XPDbbMwG2TXkFrkDqa3hk8">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-XP5rZbU3cuAmQ2Ujg3JdJt	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP5rhvZVznh2jK1MzTAYAx
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP5rhvZVznh2jK1MzTAYAx	root	-	-	-	-
@@ -4126,7 +4132,7 @@ regeringen	regeringen	regering	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing
 .	.	.	PUNCT		i-XP5u4XJZPMeZnPGRzoH5vt	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP5rhvZVznh2jK1MzTAYAx
 </s>
 </p>
-<p id="i-XWdPz8f8raTUVMCsoVCiDv" lang="Swedish">
+<p id="i-XWdPz8f8raTUVMCsoVCiDv" lang="svenska">
 <s id="i-XPDbi2QpjAkMitNKh6jddn">
 Det	Det	den	DET	Definite=Def Gender=Neut Number=Sing	i-XP5uDghxbqKf3oFKYeizHA	det	första	ADJ	Case=Nom	i-XP5uN1oQyiqvP5mws4au9E
 första	första	första	ADJ	Case=Nom	i-XP5uN1oQyiqvP5mws4au9E	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP5uVWavX2DMnErJx2rpX6
@@ -4156,7 +4162,7 @@ nuvarande	nuvarande	nuvarande	VERB	Case=Nom Definite=Def,Ind Gender=Com,Neut Num
 .	.	.	PUNCT		i-XP5xi5tiAvJUq2H8rr8qTS	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP5uVWavX2DMnErJx2rpX6
 </s>
 </p>
-<p id="i-FARjtt129mvKzGeHC1crU8" lang="Swedish">
+<p id="i-FARjtt129mvKzGeHC1crU8" lang="svenska">
 <s id="i-XPDboraSbHp9FnYAKBqa3E">
 Det	Det	den	DET	Definite=Def Gender=Neut Number=Sing	i-XP5xrQzAYopkAJomBFzkKW	det	annan	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Com,Neut Number=Sing	i-XP5xyumg67CBZTt8GEGfhN
 andra	andra	annan	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Com,Neut Number=Sing	i-XP5xyumg67CBZTt8GEGfhN	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP5y8Es8TziStkQkae8aZS
@@ -4191,7 +4197,7 @@ transportslag	transportslag	transportslag	NOUN	Case=Nom Definite=Ind Gender=Neut
 .	.	.	PUNCT		i-XP635Hx8qvZiY5vyJxJ9JL	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP5y8Es8TziStkQkae8aZS
 </s>
 </p>
-<p id="i-J3FQ9bPNmKx3XpCReMV8jw" lang="Swedish">
+<p id="i-J3FQ9bPNmKx3XpCReMV8jw" lang="svenska">
 <s id="i-XPDbvX41J12kipAGAiXVvt">
 Detta	Detta	detta	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-XP63Dd3bDp5ysNTbdNA4AQ	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP63Mx93bhcFCezDwn1y2U
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP63Mx93bhcFCezDwn1y2U	root	-	-	-	-
@@ -4274,7 +4280,7 @@ trafik	trafik	trafik	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP6Cp1j
 .	.	.	PUNCT		i-XP6CxLpdD3GJcVTekTW3tg	punct	ska	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-XP6BVPGBkyk1RPGs7TixHa
 </s>
 </p>
-<p id="i-yoTs627xePyAEivSH9Woq" lang="Swedish">
+<p id="i-yoTs627xePyAEivSH9Woq" lang="svenska">
 <s id="i-XPDcMWLNRfbYifk97x7EX6">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP6D6fv5avnZwmzH4sMxkk	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP6DF11XxpJqH4WuPHDscp
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP6DF11XxpJqH4WuPHDscp	root	-	-	-	-
@@ -4409,7 +4415,7 @@ sikt	sikt	sikt	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP6UxDVtSznxF
 .	.	.	PUNCT		i-XP6V5iHPzJAPenxZzre732	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP6SU7yKX8TyoQYmpZyiXN
 </s>
 </p>
-<p id="i-MyXqoMag4BU72WkZF11tUg" lang="Swedish">
+<p id="i-MyXqoMag4BU72WkZF11tUg" lang="svenska">
 <s id="i-XPDd1pZrxkbZeaaDnF4ptc">
 Elektrifiering	Elektrifiering	elektrifiering	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP6VE3NrNBgez5VCKGW1u6	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-XP6WSqgDaEcuJzyX1mKGEg
 av	av	av	ADP		i-XP6VNNUJk5CvKN1pdgMvmA	nmod	elektrifiering	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP6VE3NrNBgez5VCKGW1u6
@@ -4549,7 +4555,7 @@ hamnar	hamnar	hamna	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-XP6mUud8
 .	.	.	PUNCT		i-XP6mcQQeE3Kcph8qjcBuoA	punct	hoppas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-XP6hZXA1yzQZeTSnPCvQep
 </s>
 </p>
-<p id="i-MMLDbGNgfndBRDtWxs7ibE" lang="Swedish">
+<p id="i-MMLDbGNgfndBRDtWxs7ibE" lang="svenska">
 <s id="i-XPDdg8oMVqbaaVQJSY2RG8">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP6mkjW6bvqt9yfU423pfE	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP6mu4bYypN9VGC6NRujXJ
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-XP6mu4bYypN9VGC6NRujXJ	root	-	-	-	-
@@ -4582,3 +4588,4 @@ reservation	reservation	reservation	NOUN	Case=Nom Definite=Ind Gender=Com Number
 </p>
 </speech>
 <note type="-" content="Överläggningen var härmed avslutad ."/>
+<note type="-" content="Beslut skulle fattas den 22 april ."/>

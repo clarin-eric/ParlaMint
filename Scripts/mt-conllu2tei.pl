@@ -1,5 +1,11 @@
 #!/usr/bin/perl
-# Convert CoNLL-U file to TEI <text>
+# Convert one MTed and semantically annotated corpus to TEI given
+# - ParlaMint-XX.ana.xml corpus root of original-language corpus
+# - ParlaMint-XX-en-notes.tsv notes with translations
+# - ParlaMint-XX-en.conllu CoNLL-U of translated speeches and semantic tags
+# and
+# - ParlaMint-XX-en.TEI.ana/ output directory
+#
 use warnings;
 use utf8;
 use FindBin qw($Bin);
@@ -24,9 +30,13 @@ $inTEI     = File::Spec->rel2abs($inDir);
 $conllDir  = File::Spec->rel2abs($conllDir);
 $outDir    = File::Spec->rel2abs($outDir);
 
+# Location of the USAS taxonomy to be copied
+# This probably should be done with the standard taxonomy copying scripts, this is a bit of a hack!
+$USAStaxonomy = "$Bin/../Corpora/Taxonomies/ParlaMint-taxonomy-USAS.ana.xml";
+
 $saxon = "java -jar -Xmx240g /usr/share/java/saxon.jar";
 $scriptStripSents  = "$Bin/mt-prepare4mt.xsl";
-$scriptConllu2Tei   = "$Bin/conllu2tei.pl";
+$scriptConllu2Tei  = "$Bin/conllu2tei.pl";
 $scriptInsertNotes = "$Bin/mt-insert-notes.xsl";
 $scriptInsertSents = "$Bin/mt-insert-s.pl";
 $scriptPolish = "$Bin/polish-xml.pl";
@@ -39,6 +49,9 @@ mkdir $tmpTEI unless -d $tmpTEI;
 `mkdir -p $outDir` unless -d $outDir;
 `rm -r $outDir/*`;
 `cp $tmpTEI/*.xml $outDir`;
+
+print STDERR "INFO: Copying factorised $USAStaxonomy\n";
+`cp $USAStaxonomy $outDir`;
 
 foreach $yearDir (glob "$tmpTEI/*") {
     next unless -d $yearDir;

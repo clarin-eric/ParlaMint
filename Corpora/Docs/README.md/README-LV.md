@@ -1,6 +1,6 @@
-# ParlaMint-LV corpus (), version 3.0
+# ParlaMint directory for samples of country LV (Latvia)
 
--  Language lv (Latvian)
+- Language lv (Latvian)
 
 ## Documentation
 

@@ -30,7 +30,7 @@
   <moduleRef key="figures"
              include="figure"/>
   <moduleRef key="analysis"
-             include="pc s w"/>
+             include="pc s w phr"/>
   
   <!-- Attributes used in ParlaMint: -->
   <classRef key="att.anchoring" include=""/>
@@ -759,6 +759,7 @@
         <elementRef key="w"/>
         <elementRef key="pc"/>
         <elementRef key="name"/>
+        <elementRef key="phr"/>
         <elementRef key="num"/>
         <elementRef key="date"/>
         <elementRef key="time"/>
@@ -790,6 +791,45 @@
              msd="UPosTag=NOUN|Number=Sing" pos="NN" join="right">amendment</w>
           <pc msd="UPosTag=PUNCT" pos=".">.</pc>
          </s>
+      </egXML>
+    </exemplum>
+  </elementSpec>
+  <elementSpec ident="phr" module="analysis" mode="change">
+    <desc versionDate="2023-11-06" xml:lang="en">contains a semantic multi-word unit.</desc>
+    <content>
+      <alternate minOccurs="1" maxOccurs="unbounded">
+        <elementRef key="w"/>
+        <elementRef key="pc"/>
+        <elementRef key="pb"/>
+        <textNode/>
+      </alternate>
+    </content>
+    <attList>
+      <attDef ident="type" mode="replace" usage="opt">
+        <valList type="closed">
+          <valItem ident="sem"/>
+        </valList>
+      </attDef>
+      <attDef ident="function" mode="change" usage="req"/>
+      <attDef ident="ana" mode="change" usage="req"/>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="xml:lang"/>
+    </attList>
+    <exemplum xml:lang="en">
+      <p>The element is used to mark multi-word units (MWEs) which have a semantic interpretation.
+      The <att>type</att> should be set to <val>sem</val>.
+      The MWE should be marked with the <att>function</att> (all semantic tags) and <att>ana</att> (semantic categories) attributes:
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+        ...
+        ...
+        <phr type="sem" function="Z4" ana="sem:Z4">
+          <w pos="IN" msd="UPosTag=ADP" lemma="on" function="Z4" ana="sem:Z4">On</w>
+          <w pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z4" ana="sem:Z4">the</w>
+          <w pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="other" function="Z4" ana="sem:Z4">other</w>
+          <w pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="hand" function="Z4" ana="sem:Z4" join="right">hand</w>
+        </phr>
+        ...
       </egXML>
     </exemplum>
   </elementSpec>
@@ -1004,7 +1044,23 @@
       <pm:attPreserve ident="subtype"/>
     </attList>
     <exemplum xml:lang="en">
-      <p>Element <gi>name</gi> is used in the TEI header to specify location of the parliament:
+      <p>The element is used to mark up Named Entities in the linguistically analysed corpus,
+      in which case it should have the <att>type</att> attribute with one of the allowed values.
+      It can also have a <att>ref</att> attribute to link it a definition:
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+        ...
+        <w lemma="and" msd="UPosTag=CCONJ">and</w>
+        <name type="ORG" ref="https://en.wikipedia.org/wiki/Westminster">
+          <w join="right" lemma="Westminster"
+             msd="UPosTag=PROPN|Number=Sing">Westminster</w>
+        </name>
+        <w lemma="," msd="UPosTag=PUNCT">,</w>
+        ...
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <p>Element <gi>name</gi> is used in the TEI header to specify the location of the parliament:
       </p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <name type="place">Westminster</name>
@@ -1022,22 +1078,6 @@
           <change when="2021-05-28">
           <name>Tomaž Erjavec</name>: Built corpus.</change>
         </revisionDesc>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <p>The element is also used to mark up Named Entities in the linguistically analysed corpus,
-      in which case it should have the <att>type</att> attribute with one of the allowed values.
-      It can also have a <att>ref</att> attribute to link it a definition:
-      </p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-        ...
-        <w lemma="and" msd="UPosTag=CCONJ">and</w>
-        <name type="ORG" ref="https://en.wikipedia.org/wiki/Westminster">
-          <w join="right" lemma="Westminster"
-             msd="UPosTag=PROPN|Number=Sing">Westminster</w>
-        </name>
-        <w lemma="," msd="UPosTag=PUNCT">,</w>
-        ...
       </egXML>
     </exemplum>
   </elementSpec>
@@ -1294,7 +1334,7 @@
             <meeting n="35-upper" ana="#parla.upper #parla.term">35ste Eerste Kamer</meeting>
             <meeting n="36-upper" ana="#parla.upper #parla.term">36ste Eerste Kamer</meeting>
             <respStmt>
-              <persName xml:lang="nl">Ruben van Heusden</persName>
+              <persName xml:id="RubenvanHeusden" xml:lang="nl">Ruben van Heusden</persName>
               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
             </respStmt>
             <funder>
@@ -1351,7 +1391,7 @@
             <meeting ana="#parla.lower #parla.session" corresp="#TK" n="2">Session 2</meeting>
             <meeting ana="#parla.lower #parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
             <respStmt>
-              <persName>Ruben van Heusden</persName>
+              <persName xml:id="RubenvanHeusden" xml:lang="nl">Ruben van Heusden</persName>
               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
             </respStmt>
             <funder>
@@ -1563,6 +1603,7 @@
       </alternate>
     </content>
     <attList>
+      <pm:attPreserve ident="xml:id"/>
       <pm:attPreserve ident="xml:lang"/>
       <pm:attPreserve ident="ref"/>
       <pm:attPreserve ident="from"/>
@@ -2741,6 +2782,7 @@
     <attList>
       <attDef ident="xml:id" mode="change" usage="req"/>
       <attDef ident="ana" mode="change" usage="opt"/>
+      <pm:attPreserve ident="n"/>
     </attList>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">

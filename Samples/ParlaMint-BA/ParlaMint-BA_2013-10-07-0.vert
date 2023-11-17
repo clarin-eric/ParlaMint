@@ -1,6 +1,6 @@
 <note type="speaker" content="Bećirović, Denis"/>
-<speech id="ParlaMint-BA_2013-10-07-0.u17114" text_id="ParlaMint-BA_2013-10-07-0" subcorpus="Reference" body="Unicameralism" term="6" session="" meeting="54" sitting="2013-10-07" agenda="" date="2013-10-07" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 6, Session 54" speaker_role="Chairperson" speaker_id="BećirovićDenis" speaker_name="Bećirović, Denis" speaker_mp="MP" speaker_minister="-" speaker_party="SDP_BiH" speaker_party_name="Socijaldemokratska partija Bosne i Hercegovine" party_status="Coalition" speaker_gender="M" speaker_birth="1975">
-<p id="ParlaMint-BA_2013-10-07-0.u17114.seg0" lang="Bosnian">
+<speech id="ParlaMint-BA_2013-10-07-0.u17114" text_id="ParlaMint-BA_2013-10-07-0" subcorpus="Referenca" lang="bosanski" body="Jednodoman" term="6. mandat" session="-" meeting="Sjednica 54" sitting="2013-10-07" agenda="-" date="2013-10-07" title="Zapisnici sjednica parlamentarne skupštine, mandat 6, sjednica 54" speaker_role="Predsjedavajući" speaker_id="BećirovićDenis" speaker_name="Bećirović, Denis" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDP_BiH" speaker_party_name="Socijaldemokratska partija Bosne i Hercegovine" party_status="Coalition" party_orientation="Lijevi centar" speaker_gender="M" speaker_birth="1975">
+<p id="ParlaMint-BA_2013-10-07-0.u17114.seg0" lang="bosanski">
 <s id="ParlaMint-BA_2013-10-07-0.u17114.seg0.1">
 Dame	Dame	dama	NOUN	Case=Nom Gender=Fem Number=Plur	1	nsubj	otvarati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	8
 i	i	i	CCONJ		2	cc	poslanik	NOUN	Case=Nom Gender=Masc Number=Plur	4
@@ -332,8 +332,8 @@ Izvolite	Izvolite	izvoljeti	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin	1	ro
 </p>
 </speech>
 <note type="speaker" content="Belkić, Beriz"/>
-<speech id="ParlaMint-BA_2013-10-07-0.u17115" text_id="ParlaMint-BA_2013-10-07-0" subcorpus="Reference" body="Unicameralism" term="6" session="" meeting="54" sitting="2013-10-07" agenda="" date="2013-10-07" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 6, Session 54" speaker_role="Regular" speaker_id="BelkićBeriz" speaker_name="Belkić, Beriz" speaker_mp="MP" speaker_minister="-" speaker_party="SBiH" speaker_party_name="Stranka za Bosnu i Hercegovinu" party_status="Opposition" speaker_gender="M" speaker_birth="1946">
-<p id="ParlaMint-BA_2013-10-07-0.u17115.seg0" lang="Bosnian">
+<speech id="ParlaMint-BA_2013-10-07-0.u17115" text_id="ParlaMint-BA_2013-10-07-0" subcorpus="Referenca" lang="bosanski" body="Jednodoman" term="6. mandat" session="-" meeting="Sjednica 54" sitting="2013-10-07" agenda="-" date="2013-10-07" title="Zapisnici sjednica parlamentarne skupštine, mandat 6, sjednica 54" speaker_role="Redovni" speaker_id="BelkićBeriz" speaker_name="Belkić, Beriz" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SBiH" speaker_party_name="Stranka za Bosnu i Hercegovinu" party_status="Opposition" party_orientation="Centar" speaker_gender="M" speaker_birth="1946">
+<p id="ParlaMint-BA_2013-10-07-0.u17115.seg0" lang="bosanski">
 <s id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1">
 Pa	Pa	pa	CCONJ		1	cc	predlagati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	14
 evo	evo	evo	PART		2	discourse	predlagati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	14
@@ -643,8 +643,8 @@ reda	reda	red	NOUN	Case=Gen Gender=Masc Number=Sing	8	nmod	tačka	NOUN	Case=Acc 
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-BA_2013-10-07-0.u17356" text_id="ParlaMint-BA_2013-10-07-0" subcorpus="Reference" body="Unicameralism" term="6" session="" meeting="54" sitting="2013-10-07" agenda="" date="2013-10-07" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 6, Session 54" speaker_role="Regular" speaker_id="ProdanovićLazar" speaker_name="Prodanović, Lazar" speaker_mp="MP" speaker_minister="-" speaker_party="SNSD" speaker_party_name="Savez nezavisnih socijaldemokrata" party_status="Opposition" speaker_gender="M" speaker_birth="1957">
-<p id="ParlaMint-BA_2013-10-07-0.u17356.seg0" lang="Bosnian">
+<speech id="ParlaMint-BA_2013-10-07-0.u17356" text_id="ParlaMint-BA_2013-10-07-0" subcorpus="Referenca" lang="bosanski" body="Jednodoman" term="6. mandat" session="-" meeting="Sjednica 54" sitting="2013-10-07" agenda="-" date="2013-10-07" title="Zapisnici sjednica parlamentarne skupštine, mandat 6, sjednica 54" speaker_role="Redovni" speaker_id="ProdanovićLazar" speaker_name="Prodanović, Lazar" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SNSD" speaker_party_name="Savez nezavisnih socijaldemokrata" party_status="Opposition" party_orientation="Sinkretična politika" speaker_gender="M" speaker_birth="1957">
+<p id="ParlaMint-BA_2013-10-07-0.u17356.seg0" lang="bosanski">
 <s id="ParlaMint-BA_2013-10-07-0.u17356.seg0.1">
 nije	nije	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	1	cop	uključiti	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part Voice=Pass	2
 uključen	uključen	uključiti	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part Voice=Pass	2	root	-	-	-	-
@@ -653,8 +653,8 @@ mikrofon	mikrofon	mikrofon	NOUN	Case=Nom Gender=Masc Number=Sing	3	nsubj	uključ
 </p>
 </speech>
 <note type="speaker" content="Bećirović, Denis"/>
-<speech id="ParlaMint-BA_2013-10-07-0.u17357" text_id="ParlaMint-BA_2013-10-07-0" subcorpus="Reference" body="Unicameralism" term="6" session="" meeting="54" sitting="2013-10-07" agenda="" date="2013-10-07" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 6, Session 54" speaker_role="Chairperson" speaker_id="BećirovićDenis" speaker_name="Bećirović, Denis" speaker_mp="MP" speaker_minister="-" speaker_party="SDP_BiH" speaker_party_name="Socijaldemokratska partija Bosne i Hercegovine" party_status="Coalition" speaker_gender="M" speaker_birth="1975">
-<p id="ParlaMint-BA_2013-10-07-0.u17357.seg0" lang="Bosnian">
+<speech id="ParlaMint-BA_2013-10-07-0.u17357" text_id="ParlaMint-BA_2013-10-07-0" subcorpus="Referenca" lang="bosanski" body="Jednodoman" term="6. mandat" session="-" meeting="Sjednica 54" sitting="2013-10-07" agenda="-" date="2013-10-07" title="Zapisnici sjednica parlamentarne skupštine, mandat 6, sjednica 54" speaker_role="Predsjedavajući" speaker_id="BećirovićDenis" speaker_name="Bećirović, Denis" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDP_BiH" speaker_party_name="Socijaldemokratska partija Bosne i Hercegovine" party_status="Coalition" party_orientation="Lijevi centar" speaker_gender="M" speaker_birth="1975">
+<p id="ParlaMint-BA_2013-10-07-0.u17357.seg0" lang="bosanski">
 <s id="ParlaMint-BA_2013-10-07-0.u17357.seg0.1">
 Molim	Molim	moliti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 vas	vas	vi	PRON	Case=Acc Number=Plur Person=2 PronType=Prs	2	obj	moliti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1

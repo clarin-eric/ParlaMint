@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country GB (Great Britain)
+# Samples of the ParlaMint-GB corpus
 
+- Country: GB (Great Britain)
 - Language en (English)
 
 
@@ -11,7 +12,7 @@ The Parliament of the United Kingdom comprises two houses, commons and lords. Th
 
 ### Data source and acquisition
 
-The source data for the corpus was downloaded from the UK Parliament’s Hansard API. Data for each houses’ meetings was retrieved by date in XML format. Metadata was cross-referenced from this source XML and the Parliamentary Open Data API was used to retrieve data, in RDF (Resource Description Framework) format, on both members and parties. 
+The source data for the corpus was downloaded from the UK Parliament’s Hansard API. Data for each houses’ meetings was retrieved by date in XML format. Metadata was cross-referenced from this source XML and the Parliamentary Open Data API was used to retrieve data, in RDF (Resource Description Framework) format, on both members and parties.
 
 ### Data encoding process
 

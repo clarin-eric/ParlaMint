@@ -1,5 +1,5 @@
-<speech id="ParlaMint-HR_2022-07-14-0.u102963" text_id="ParlaMint-HR_2022-07-14-0" subcorpus="War" body="Unicameralism" term="10" session="" meeting="11" sitting="2022-07-15" agenda="" date="2022-07-14" title="Minutes of the National Assembly of the Republic of Croatia, Term 10, Session 11" speaker_role="Chairperson" speaker_id="SanaderAnte" speaker_name="Sanader, Ante" speaker_mp="MP" speaker_minister="-" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Coalition" speaker_gender="M" speaker_birth="1960">
-<p id="ParlaMint-HR_2022-07-14-0.u102963.seg0" lang="Croatian">
+<speech id="ParlaMint-HR_2022-07-14-0.u102963" text_id="ParlaMint-HR_2022-07-14-0" subcorpus="COVID,Rat" lang="hrvatski" body="Jednodoman" term="10. mandat" session="-" meeting="Zasedanje 11" sitting="2022-07-15" agenda="-" date="2022-07-14" title="Zapisnici sjednica Hrvatskog sabora, mandat 10, sjednica 11" speaker_role="Predsjedavajući" speaker_id="SanaderAnte" speaker_name="Sanader, Ante" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Coalition" party_orientation="Desni centar" speaker_gender="M" speaker_birth="1960">
+<p id="ParlaMint-HR_2022-07-14-0.u102963.seg0" lang="hrvatski">
 <s id="ParlaMint-HR_2022-07-14-0.u102963.seg0.1">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 <g/>
@@ -27,8 +27,8 @@ Kapulica	Kapulica	Kapulica	PROPN	Case=Nom Gender=Masc Number=Sing	12	flat	Mario	
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-HR_2022-07-14-0.u102964" text_id="ParlaMint-HR_2022-07-14-0" subcorpus="War" body="Unicameralism" term="10" session="" meeting="11" sitting="2022-07-15" agenda="" date="2022-07-14" title="Minutes of the National Assembly of the Republic of Croatia, Term 10, Session 11" speaker_role="Regular" speaker_id="KapulicaMario" speaker_name="Kapulica, Mario" speaker_mp="MP" speaker_minister="-" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Coalition" speaker_gender="M" speaker_birth="1969">
-<p id="ParlaMint-HR_2022-07-14-0.u102964.seg0" lang="Croatian">
+<speech id="ParlaMint-HR_2022-07-14-0.u102964" text_id="ParlaMint-HR_2022-07-14-0" subcorpus="COVID,Rat" lang="hrvatski" body="Jednodoman" term="10. mandat" session="-" meeting="Zasedanje 11" sitting="2022-07-15" agenda="-" date="2022-07-14" title="Zapisnici sjednica Hrvatskog sabora, mandat 10, sjednica 11" speaker_role="Redovni" speaker_id="KapulicaMario" speaker_name="Kapulica, Mario" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Coalition" party_orientation="Desni centar" speaker_gender="M" speaker_birth="1969">
+<p id="ParlaMint-HR_2022-07-14-0.u102964.seg0" lang="hrvatski">
 <s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.1">
 Zahvaljujem	Zahvaljujem	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 gospodine	gospodine	gospodin	NOUN	Case=Voc Gender=Masc Number=Sing	2	iobj	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
@@ -911,8 +911,8 @@ Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-HR_2022-07-14-0.u122704" text_id="ParlaMint-HR_2022-07-14-0" subcorpus="War" body="Unicameralism" term="10" session="" meeting="11" sitting="2022-07-15" agenda="" date="2022-07-14" title="Minutes of the National Assembly of the Republic of Croatia, Term 10, Session 11" speaker_role="Regular" speaker_id="PavličekMarijan" speaker_name="Pavliček, Marijan" speaker_mp="MP" speaker_minister="-" speaker_party="DP" speaker_party_name="Domovinski pokret" party_status="Coalition" speaker_gender="M" speaker_birth="1980">
-<p id="ParlaMint-HR_2022-07-14-0.u122704.seg0" lang="Croatian">
+<speech id="ParlaMint-HR_2022-07-14-0.u122704" text_id="ParlaMint-HR_2022-07-14-0" subcorpus="COVID,Rat" lang="hrvatski" body="Jednodoman" term="10. mandat" session="-" meeting="Zasedanje 11" sitting="2022-07-15" agenda="-" date="2022-07-14" title="Zapisnici sjednica Hrvatskog sabora, mandat 10, sjednica 11" speaker_role="Redovni" speaker_id="PavličekMarijan" speaker_name="Pavliček, Marijan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="DP" speaker_party_name="Domovinski pokret" party_status="Coalition" party_orientation="Desno do ekstremno desno" speaker_gender="M" speaker_birth="1980">
+<p id="ParlaMint-HR_2022-07-14-0.u122704.seg0" lang="hrvatski">
 <s id="ParlaMint-HR_2022-07-14-0.u122704.seg0.1">
 Poštovani	Poštovani	Poštovan	ADJ	Case=Voc Definite=Def Degree=Pos Gender=Masc Number=Sing VerbForm=Part Voice=Pass	1	amod	kolega	NOUN	Case=Voc Gender=Masc Number=Sing	2
 kolega	kolega	kolega	NOUN	Case=Voc Gender=Masc Number=Sing	2	vocative	željeti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	6
@@ -1000,8 +1000,8 @@ lijepo	lijepo	lijepo	ADV	Degree=Pos	3	advmod	hvala	NOUN	Case=Nom Gender=Fem Numb
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-HR_2022-07-14-0.u122705" text_id="ParlaMint-HR_2022-07-14-0" subcorpus="War" body="Unicameralism" term="10" session="" meeting="11" sitting="2022-07-15" agenda="" date="2022-07-14" title="Minutes of the National Assembly of the Republic of Croatia, Term 10, Session 11" speaker_role="Chairperson" speaker_id="SanaderAnte" speaker_name="Sanader, Ante" speaker_mp="MP" speaker_minister="-" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Coalition" speaker_gender="M" speaker_birth="1960">
-<p id="ParlaMint-HR_2022-07-14-0.u122705.seg0" lang="Croatian">
+<speech id="ParlaMint-HR_2022-07-14-0.u122705" text_id="ParlaMint-HR_2022-07-14-0" subcorpus="COVID,Rat" lang="hrvatski" body="Jednodoman" term="10. mandat" session="-" meeting="Zasedanje 11" sitting="2022-07-15" agenda="-" date="2022-07-14" title="Zapisnici sjednica Hrvatskog sabora, mandat 10, sjednica 11" speaker_role="Predsjedavajući" speaker_id="SanaderAnte" speaker_name="Sanader, Ante" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Coalition" party_orientation="Desni centar" speaker_gender="M" speaker_birth="1960">
+<p id="ParlaMint-HR_2022-07-14-0.u122705.seg0" lang="hrvatski">
 <s id="ParlaMint-HR_2022-07-14-0.u122705.seg0.1">
 S	S	sa	ADP	Case=Ins	1	case	ovaj	DET	Case=Ins Gender=Masc Number=Sing PronType=Dem	2
 ovim	ovim	ovaj	DET	Case=Ins Gender=Masc Number=Sing PronType=Dem	2	obl	iscrpiti	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	4

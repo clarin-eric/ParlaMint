@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country NO (Norway)
+# Samples of the ParlaMint-NO corpus
 
+- Country: NO (Norway)
 - Language no (Norwegian)
 
 ## Documentation
@@ -45,3 +46,6 @@ NB-BERT-base is a general BERT-base model built on the large digital collection 
 The fine-tuning was performed on two datasets: the Norwegian Dependency Treebank and NorNe - Norwegian Named Entities. The Norwegian Dependency Treebank is a manually annotated corpus that includes morphological features, syntactic functions, and hierarchical structure. The annotation is done using dependency grammar and contains approximately 300,000 tokens each for Bokmål and Nynorsk. The NorNE corpus consists of the same texts as the Norwegian Dependency Treebank but is additionally tagged with named entities.
 
 Finally, the model was deployed with the aid of a Python script that utilized the Spacy library for language processing and the lxml library for handling XML.
+### Disclaimer to the English translation
+
+Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

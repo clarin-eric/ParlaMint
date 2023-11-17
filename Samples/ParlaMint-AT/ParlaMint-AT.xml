@@ -54,12 +54,11 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.0</edition>
+            <edition>4.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure unit="speeches" quantity="227991" xml:lang="de">227,991 speeches</measure>
-            <measure unit="tokens" quantity="1234">1234 words</measure>
-            <measure unit="words" quantity="59916338" xml:lang="de">59,916,338 words</measure>
+            <measure unit="speeches" quantity="231759" xml:lang="en">231,759 speeches</measure>
+            <measure unit="words" quantity="60839145" xml:lang="en">60,839,145 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -67,13 +66,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1859</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-09-18">2023-09-18</date>
+            <date when="2023-10-12">2023-10-12</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -81,16 +80,14 @@
                <title type="main" xml:lang="en">Shorthand records of the plenary sittings of the National Council of the Austrian parliament</title>
                <publisher>Parlamentsdirektion</publisher>
                <idno type="URI" subtype="parliament">https://www.parlament.gv.at/PAKT/STPROT</idno>
-               <date from="1996-01-15" to="2022-05-19">15.01.1996 - 19.05.2022</date>
+               <date xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" from="1996-01-15" to="2022-10-12">15.1.1996 - 12.10.2022</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
-            <p xml:lang="de">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="de"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
          </projectDesc>
          <editorialDecl>
@@ -112,27 +109,26 @@
          </editorialDecl>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="1197"/>
-               <tagUsage gi="desc" occurs="361060"/>
-               <tagUsage gi="div" occurs="1197"/>
-               <tagUsage gi="gap" occurs="14864"/>
-               <tagUsage gi="kinesic" occurs="248599"/>
-               <tagUsage gi="note" occurs="668670"/>
-               <tagUsage gi="pb" occurs="116913"/>
-               <tagUsage gi="seg" occurs="662401"/>
-               <tagUsage gi="text" occurs="1197"/>
-               <tagUsage gi="time" occurs="184662"/>
-               <tagUsage gi="u" occurs="227991"/>
-               <tagUsage gi="vocal" occurs="82733"/>
+               <tagUsage gi="body" occurs="1221"/>
+               <tagUsage gi="desc" occurs="368083"/>
+               <tagUsage gi="div" occurs="1221"/>
+               <tagUsage gi="gap" occurs="15162"/>
+               <tagUsage gi="kinesic" occurs="253015"/>
+               <tagUsage gi="note" occurs="680688"/>
+               <tagUsage gi="pb" occurs="119032"/>
+               <tagUsage gi="seg" occurs="673475"/>
+               <tagUsage gi="text" occurs="1221"/>
+               <tagUsage gi="time" occurs="187824"/>
+               <tagUsage gi="u" occurs="231759"/>
+               <tagUsage gi="vocal" occurs="84744"/>
             </namespace>
          </tagsDecl>
          <classDecl>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-parla.legislature.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-speaker_types.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-CHES.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-politicalOrientation.xml"/>
          </classDecl>
       </encodingDesc>
       <profileDesc>
@@ -142,17 +138,15 @@
                <name type="city" xml:lang="en">Vienna</name>
                <name type="country" xml:lang="de" key="AT">Österreich</name>
                <name type="country" xml:lang="en" key="AT">Austria</name>
-               <date from="1996-01-15" to="2022-04-27"/>
+               <date xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" from="1996-01-15" to="2022-10-12"/>
             </setting>
          </settingDesc>
          <textClass>
-            <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
-                    target="#parla.bi #parla.lower"/>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.bi #parla.lower"/>
          </textClass>
          <particDesc>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-AT-listOrg.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-AT-listPerson.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-AT-listPerson.xml"/>
          </particDesc>
          <langUsage>
             <language ident="de" xml:lang="de">Deutsch</language>
@@ -162,16 +156,12 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-09-18">
-            <name>GitHub Action</name>: Made sample.</change>
-         <change when="2023-06-11">
+         <change when="2023-10-12">
             <name>Tomaž Erjavec</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-AT_2014-09-24-025-XXV-NRSITZ-00042.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178.xml"/>
 </teiCorpus>
+

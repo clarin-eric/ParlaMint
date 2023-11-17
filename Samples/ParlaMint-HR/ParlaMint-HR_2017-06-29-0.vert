@@ -1,5 +1,5 @@
-<speech id="ParlaMint-HR_2017-06-29-0.u38724" text_id="ParlaMint-HR_2017-06-29-0" subcorpus="Reference" body="Unicameralism" term="9" session="" meeting="4" sitting="2017-07-14" agenda="" date="2017-06-29" title="Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 4" speaker_role="Regular" speaker_id="BuljMiro" speaker_name="Bulj, Miro" speaker_mp="MP" speaker_minister="-" speaker_party="MOST" speaker_party_name="Most nezavisnih lista" party_status="Opposition" speaker_gender="M" speaker_birth="1972">
-<p id="ParlaMint-HR_2017-06-29-0.u38724.seg0" lang="Croatian">
+<speech id="ParlaMint-HR_2017-06-29-0.u38724" text_id="ParlaMint-HR_2017-06-29-0" subcorpus="Referenca" lang="hrvatski" body="Jednodoman" term="9. mandat" session="-" meeting="Zasedanje 4" sitting="2017-07-14" agenda="-" date="2017-06-29" title="Zapisnici sjednica Hrvatskog sabora, mandat 9, sjednica 4" speaker_role="Redovni" speaker_id="BuljMiro" speaker_name="Bulj, Miro" speaker_mp="MP" speaker_minister="notMinister" speaker_party="MOST" speaker_party_name="Most nezavisnih lista" party_status="Opposition" party_orientation="Desni centar do desno" speaker_gender="M" speaker_birth="1972">
+<p id="ParlaMint-HR_2017-06-29-0.u38724.seg0" lang="hrvatski">
 <s id="ParlaMint-HR_2017-06-29-0.u38724.seg0.1">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 lijepa	lijepa	lijep	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Fem Number=Sing	2	amod	predsjednik	NOUN	Case=Voc Gender=Masc Number=Sing	3
@@ -38,8 +38,8 @@ Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-HR_2017-06-29-0.u38725" text_id="ParlaMint-HR_2017-06-29-0" subcorpus="Reference" body="Unicameralism" term="9" session="" meeting="4" sitting="2017-07-14" agenda="" date="2017-06-29" title="Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 4" speaker_role="Chairperson" speaker_id="JandrokovićGordan" speaker_name="Jandroković, Gordan" speaker_mp="MP" speaker_minister="-" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Coalition" speaker_gender="M" speaker_birth="1967">
-<p id="ParlaMint-HR_2017-06-29-0.u38725.seg0" lang="Croatian">
+<speech id="ParlaMint-HR_2017-06-29-0.u38725" text_id="ParlaMint-HR_2017-06-29-0" subcorpus="Referenca" lang="hrvatski" body="Jednodoman" term="9. mandat" session="-" meeting="Zasedanje 4" sitting="2017-07-14" agenda="-" date="2017-06-29" title="Zapisnici sjednica Hrvatskog sabora, mandat 9, sjednica 4" speaker_role="Predsjedavajući" speaker_id="JandrokovićGordan" speaker_name="Jandroković, Gordan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Coalition" party_orientation="Desni centar" speaker_gender="M" speaker_birth="1967">
+<p id="ParlaMint-HR_2017-06-29-0.u38725.seg0" lang="hrvatski">
 <s id="ParlaMint-HR_2017-06-29-0.u38725.seg0.1">
 Dobro	Dobro	dobro	ADV	Degree=Pos	1	root	-	-	-	-
 <g/>
@@ -122,7 +122,7 @@ U	U	u	ADP	Case=Acc	2	case	sat	NOUN	Case=Gen Gender=Masc Number=Plur	4
 SATI	SATI	sat	NOUN	Case=Gen Gender=Masc Number=Plur	4	nmod	stanka	PROPN	Case=Nom Gender=Fem Number=Sing	1
 </s>
 </p>
-<p id="ParlaMint-HR_2017-06-29-0.u38725.seg1" lang="Croatian">
+<p id="ParlaMint-HR_2017-06-29-0.u38725.seg1" lang="hrvatski">
 <note type="time" content="NASTAVAK NAKON STANKE U 9,44 SATI"/>
 <s id="ParlaMint-HR_2017-06-29-0.u38725.seg1.2">
 U	U	u	ADP	Case=Acc	1	case	ime	NOUN	Case=Acc Gender=Neut Number=Sing	2
@@ -149,8 +149,8 @@ izvolite	izvolite	izvoljeti	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin	11	r
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-HR_2017-06-29-0.u42795" text_id="ParlaMint-HR_2017-06-29-0" subcorpus="Reference" body="Unicameralism" term="9" session="" meeting="4" sitting="2017-07-14" agenda="" date="2017-06-29" title="Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 4" speaker_role="Chairperson" speaker_id="BrkićMilijan" speaker_name="Brkić, Milijan" speaker_mp="MP" speaker_minister="-" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Coalition" speaker_gender="M" speaker_birth="1970">
-<p id="ParlaMint-HR_2017-06-29-0.u42795.seg0" lang="Croatian">
+<speech id="ParlaMint-HR_2017-06-29-0.u42795" text_id="ParlaMint-HR_2017-06-29-0" subcorpus="Referenca" lang="hrvatski" body="Jednodoman" term="9. mandat" session="-" meeting="Zasedanje 4" sitting="2017-07-14" agenda="-" date="2017-06-29" title="Zapisnici sjednica Hrvatskog sabora, mandat 9, sjednica 4" speaker_role="Predsjedavajući" speaker_id="BrkićMilijan" speaker_name="Brkić, Milijan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Coalition" party_orientation="Desni centar" speaker_gender="M" speaker_birth="1970">
+<p id="ParlaMint-HR_2017-06-29-0.u42795.seg0" lang="hrvatski">
 <s id="ParlaMint-HR_2017-06-29-0.u42795.seg0.1">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 lijepo	lijepo	lijepo	ADV	Degree=Pos	2	advmod	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1
@@ -298,8 +298,8 @@ SATI	SATI	sat	NOUN	Case=Gen Gender=Masc Number=Plur	5	obl	prekinuti	ADJ	Case=Nom
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-HR_2017-06-29-0.u42796" text_id="ParlaMint-HR_2017-06-29-0" subcorpus="Reference" body="Unicameralism" term="9" session="" meeting="4" sitting="2017-07-14" agenda="" date="2017-06-29" title="Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 4" speaker_role="Regular" speaker_id="JandrokovićGordan" speaker_name="Jandroković, Gordan" speaker_mp="MP" speaker_minister="-" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Coalition" speaker_gender="M" speaker_birth="1967">
-<p id="ParlaMint-HR_2017-06-29-0.u42796.seg0" lang="Croatian">
+<speech id="ParlaMint-HR_2017-06-29-0.u42796" text_id="ParlaMint-HR_2017-06-29-0" subcorpus="Referenca" lang="hrvatski" body="Jednodoman" term="9. mandat" session="-" meeting="Zasedanje 4" sitting="2017-07-14" agenda="-" date="2017-06-29" title="Zapisnici sjednica Hrvatskog sabora, mandat 9, sjednica 4" speaker_role="Redovni" speaker_id="JandrokovićGordan" speaker_name="Jandroković, Gordan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Coalition" party_orientation="Desni centar" speaker_gender="M" speaker_birth="1967">
+<p id="ParlaMint-HR_2017-06-29-0.u42796.seg0" lang="hrvatski">
 <s id="ParlaMint-HR_2017-06-29-0.u42796.seg0.1">
 Prijedlog	Prijedlog	prijedlog	NOUN	Case=Nom Gender=Masc Number=Sing	1	root	-	-	-	-
 zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	prijedlog	NOUN	Case=Nom Gender=Masc Number=Sing	1

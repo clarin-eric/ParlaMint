@@ -10,7 +10,7 @@ $outDirs = shift;
 
 foreach $inDir (glob $inDirs) {
     ($corpus) = $inDir =~ m|(ParlaMint-[A-Z]{2}(-[A-Z]{2})?)|;
-    #We copy over only MTed files!!
+    #We currently copy over only MTed files!!
     next unless $inDir =~ m|$corpus-en|;
     $outDir = "$outDirs/$corpus";
     print STDERR "INFO: Doing $corpus ($inDir -> $outDir)\n";
@@ -24,6 +24,7 @@ foreach $inDir (glob $inDirs) {
     # `rm -f $outDir/*.tbl`;   #Chars info, obsolete
     # We don't want to copy everyting, just the MTed files!
     #`cp -f $inDir/* $outDir`;
+    `cp $inDir/ParlaMint-taxonomy-USAS.ana.xml $outDir`;
     `cp $inDir/*-en.* $outDir`;
     `cp $inDir/*-en_* $outDir`;
 }

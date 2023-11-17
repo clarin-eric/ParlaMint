@@ -3,7 +3,7 @@
 <note type="head" content="Sejo so vodili predsednik Državnega zbora dr. Milan Brglez ter podpredsednika Primož Hainz in Andreja Katič."/>
 <note type="time" content="Seja se je začela ob 10.04."/>
 <note type="speaker" content="PREDSEDNIK DR. MILAN BRGLEZ:"/>
-<speech id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.u1" text_id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="7" session="" meeting="5" sitting="" agenda="" date="2015-03-06" title="Zapisi sej Državnega zbora Republike Slovenije, Redna 7. mandat, 5. redna seja (6. 3. 2015)" speaker_role="Predsedujoči" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.u1" text_id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="7. mandat" session="-" meeting="Redna" sitting="-" agenda="-" date="2015-03-06" title="Zapisi sej Državnega zbora Republike Slovenije, Redna 7. mandat, 5. redna seja (6. 3. 2015)" speaker_role="Predsedujoči" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" party_status="Coalition" party_orientation="Sredinska do levo sredinska" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg1" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg1.1">
 Spoštovani	Spoštovani	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	1	amod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
@@ -294,7 +294,7 @@ Mačku	Mačku	Maček	PROPN	Case=Dat Gender=Masc Number=Sing	24	flat:name	Peter	P
 </p>
 </speech>
 <note type="speaker" content="DR. PETER MAČEK:"/>
-<speech id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.u2" text_id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="7" session="" meeting="5" sitting="" agenda="" date="2015-03-06" title="Zapisi sej Državnega zbora Republike Slovenije, Redna 7. mandat, 5. redna seja (6. 3. 2015)" speaker_role="Navadni" speaker_id="MačekPeter" speaker_name="Maček, Peter" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="" speaker_party_name="" party_status="" party_orientation="" speaker_gender="M" speaker_birth="">
+<speech id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.u2" text_id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="7. mandat" session="-" meeting="Redna" sitting="-" agenda="-" date="2015-03-06" title="Zapisi sej Državnega zbora Republike Slovenije, Redna 7. mandat, 5. redna seja (6. 3. 2015)" speaker_role="Navadni" speaker_id="MačekPeter" speaker_name="Maček, Peter" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg7" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg7.1">
 Spoštovani	Spoštovani	spoštovan	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1	amod	gospod	NOUN	Case=Nom Gender=Masc Number=Sing	2
@@ -517,7 +517,7 @@ lepa	lepa	lep	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	2	amod	hvala	NOUN	C
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.u160" text_id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="7" session="" meeting="5" sitting="" agenda="" date="2015-03-06" title="Zapisi sej Državnega zbora Republike Slovenije, Redna 7. mandat, 5. redna seja (6. 3. 2015)" speaker_role="Navadni" speaker_id="KovačičMarijaAntonija" speaker_name="Kovačič, Marija Antonija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="DeSUS" speaker_party_name="Demokratična stranka upokojencev Slovenije" party_status="Coalition" party_orientation="" speaker_gender="F" speaker_birth="1946">
+<speech id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.u160" text_id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="7. mandat" session="-" meeting="Redna" sitting="-" agenda="-" date="2015-03-06" title="Zapisi sej Državnega zbora Republike Slovenije, Redna 7. mandat, 5. redna seja (6. 3. 2015)" speaker_role="Navadni" speaker_id="KovačičMarijaAntonija" speaker_name="Kovačič, Marija Antonija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="DeSUS" speaker_party_name="Demokratična stranka upokojencev Slovenije" party_status="Coalition" party_orientation="Sredinska do levo sredinska" speaker_gender="F" speaker_birth="1946">
 <p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg564" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg564.1">
 Spoštovani	Spoštovani	spoštovan	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1	amod	predsednik	NOUN	Case=Nom Gender=Masc Number=Sing	2
@@ -1218,7 +1218,7 @@ proti	proti	proti	ADV	Degree=Pos	28	advmod	glasovati	VERB	Gender=Neut Number=Sin
 </p>
 </speech>
 <note type="speaker" content="PREDSEDNIK DR. MILAN BRGLEZ:"/>
-<speech id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.u161" text_id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="7" session="" meeting="5" sitting="" agenda="" date="2015-03-06" title="Zapisi sej Državnega zbora Republike Slovenije, Redna 7. mandat, 5. redna seja (6. 3. 2015)" speaker_role="Predsedujoči" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.u161" text_id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="7. mandat" session="-" meeting="Redna" sitting="-" agenda="-" date="2015-03-06" title="Zapisi sej Državnega zbora Republike Slovenije, Redna 7. mandat, 5. redna seja (6. 3. 2015)" speaker_role="Predsedujoči" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" party_status="Coalition" party_orientation="Sredinska do levo sredinska" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg570" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg570.1">
 Končali	Končali	končati	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	1	root	-	-	-	-

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="ParlaMint-TR_2014-12-11-tbmm-T24"
-     xml:lang="tr"
-     ana="#parla.session #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-TR_2014-12-11-tbmm-T24" xml:lang="tr" ana="#parla.session #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,7 +17,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.0</edition>
+            <edition>4.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="1437" xml:lang="en">1,437 speeches</measure>
@@ -31,12 +28,12 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1859</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-09-15">2023-09-15</date>
+            <date when="2023-10-11">2023-10-11</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -54,8 +51,7 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
@@ -81,20 +77,16 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-09-15">
-            <name>GitHub Action</name>: Made sample.</change>
-         <change when="2023-06-16">
+         <change when="2023-10-11">
             <name>Tomaž Erjavec</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference" xml:lang="tr">
       <body>
          <div type="debateSection">
-            <note type="time">11.00</note>
-            <note type="president">Ayşe Nur Bahçekapılı</note>
-            <u ana="#chair"
-               who="#AyşeNur.Bahçekapılı"
-               xml:id="tbmm-2014-12-11sit01spe0001par0001">
+            <note type="time" xml:id="ParlaMint-TR_2014-12-11-tbmm-T24.note1">11.00</note>
+            <note type="president" xml:id="ParlaMint-TR_2014-12-11-tbmm-T24.note2">Ayşe Nur Bahçekapılı</note>
+            <u ana="#chair" who="#AyşeNur.Bahçekapılı" xml:id="tbmm-2014-12-11sit01spe0001par0001">
                <seg xml:id="tbmm-2014-12-11sit01spe0001par0001.seg0">Türkiye Büyük Millet Meclisinin 26’ncı Birleşimini açıyorum.</seg>
                <seg xml:id="tbmm-2014-12-11sit01spe0001par0002.seg1">Toplantı yeter sayısı vardır, gündeme geçiyoruz.</seg>
                <seg xml:id="tbmm-2014-12-11sit01spe0001par0003.seg2">Sayın milletvekilleri, gündemimize göre 2015 Yılı Merkezi Yönetim Bütçe Kanunu Tasarısı ile 2013 Yılı Merkezi Yönetim Kesin Hesap Kanunu Tasarısı üzerindeki görüşmelere devam edeceğiz.</seg>
@@ -141,12 +133,10 @@
                <seg xml:id="tbmm-2014-12-11sit01spe0001par0060.seg43">Şimdi ilk söz Milliyetçi Hareket Partisi Grubu adına İstanbul Milletvekili Sayın Atila Kaya’da.</seg>
                <seg xml:id="tbmm-2014-12-11sit01spe0001par0061.seg44">Buyurun.</seg>
             </u>
-            <kinesic type="applause">
+            <kinesic type="applause" xml:id="ParlaMint-TR_2014-12-11-tbmm-T24.kinesic1">
                <desc xml:lang="tr">MHP sıralarından alkışlar</desc>
             </kinesic>
-            <u ana="#regular"
-               who="#Atila.Kaya"
-               xml:id="tbmm-2014-12-11sit01spe0002par0064">
+            <u ana="#regular" who="#Atila.Kaya" xml:id="tbmm-2014-12-11sit01spe0002par0064">
                <seg xml:id="tbmm-2014-12-11sit01spe0002par0064.seg0">Sayın Başkan, değerli milletvekilleri; Cumhurbaşkanlığı bütçesine ilişkin Milliyetçi Hareket Partisinin görüşlerini dile getirmek üzere söz almış bulunmaktayım. Yüce Meclisi saygıyla selamlıyorum. Görüşmekte olduğumuz 2015 merkezî yönetim bütçesinin milletimiz için, ülkemiz için hayırlara vesile olmasını Cenabıhakk’tan niyaz ediyorum.</seg>
                <seg xml:id="tbmm-2014-12-11sit01spe0002par0065.seg1">Değerli milletvekilleri, şimdiki Cumhurbaşkanının selefini defalarca eleştirmiş, bu eleştirilerimi Cumhurbaşkanlığı bütçesi hakkında yaptığım konuşma ve kamuoyuyla paylaştığım şahsına hitaben yazılmış açık mektupta dile getirmiş bir milletvekiliyim. Yedi yıllık Cumhurbaşkanlığı boyunca “Abdullah Gül Kardeşim” hitabına sadakatin ötesine geçemeyen sabık Cumhurbaşkanından daha kötüsü olamayacağına inanmıştım, bugün ise yanıldığını anlamış bir milletvekili olarak huzurlarınızdayım.</seg>
                <seg xml:id="tbmm-2014-12-11sit01spe0002par0066.seg2">Değerli milletvekilleri, görevinden ayrıldıktan sonra Suudi El Hayat gazetesine bir röportaj veren önceki Cumhurbaşkanı Gül “Hapis de yattınız, muhalefette de bulundunuz, Cumhurbaşkanlığı Köşkü’nde de yaşadınız, hangisi daha zordu?” şeklindeki bir soruya “Cumhurbaşkanlığı Köşkü en zoruydu. Herkesi temsil ediyorsunuz, bunun farkında olursanız Cumhurbaşkanlığı en zorudur; farkında olmazsanız kolaydır.” yanıtını vermişti. Selefi Gül’ün tarafsız Cumhurbaşkanlığının zorluğuyla ilgili uyarılarını dikkate alan Sayın Erdoğan bu zorluğu kendi usulünce ortadan kaldırmıştır yani tarafsız olmayı denemek yerine AKP Genel Başkanı gibi davranmaya devam ederek. Anayasa’nın 103’üncü maddesi gereğince, tarafsız olacağına namusu ve şerefi üzerine yemin etmiş olmayı ise belli ki önemsiz bir teferruat olarak görmüştür.</seg>
@@ -170,14 +160,10 @@
             </gap>
          </div>
          <div type="debateSection">
-            <u ana="#regular"
-               who="#Mahmut.Tanal"
-               xml:id="tbmm-2014-12-11sit05spe0654par0504">
+            <u ana="#regular" who="#Mahmut.Tanal" xml:id="tbmm-2014-12-11sit05spe0654par0504">
                <seg xml:id="tbmm-2014-12-11sit05spe0654par0504.seg0">Sayın Başkanım, “Kabul edenler…” derken Anayasa Mahkemesinin bütçesini biz de kabul ediyoruz, bize de bir bakın.</seg>
             </u>
-            <u ana="#chair"
-               who="#AyşeNur.Bahçekapılı"
-               xml:id="tbmm-2014-12-11sit05spe0650par0505">
+            <u ana="#chair" who="#AyşeNur.Bahçekapılı" xml:id="tbmm-2014-12-11sit05spe0650par0505">
                <seg xml:id="tbmm-2014-12-11sit05spe0650par0505.seg0">Peki.</seg>
                <seg xml:id="tbmm-2014-12-11sit05spe0650par0506.seg1">Kabul edenler… Kabul etmeyenler… Kabul edilmiştir.</seg>
                <seg xml:id="tbmm-2014-12-11sit05spe0650par0507.seg2">GENEL TOPLAM 43.502.000</seg>
@@ -386,3 +372,4 @@
       </body>
    </text>
 </TEI>
+

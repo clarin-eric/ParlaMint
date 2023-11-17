@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
-<!-- Prepare a TEI corpus for insertion of MTed text -->
-<!-- Input is lingustically analysed (.TEI.ana) corpus root file 
-     with XIncludes for all corpus components
+<!-- Prepare a TEI corpus for insertion of MTed and semantically annotated text -->
+<!-- Input is lingustically analysed (.TEI.ana) corpus root file with XIncludes for all corpus components
      Output is the corresponding .TEI.ana:
      - corpus root, 
      - needed factorised taxonomies, listPerson and listOrg
      - components
-     All are in their text-less form (empty <s> elements) ready for insertion of translated sentences
+     Components are in their text-less form (empty <s> elements) ready for insertion of translated sentences
      STDERR gives a detailed log of actions.
      The program:
      - changes the filenames, top-level IDs and main titles
-     - adds MT-related respStmt, appInfo, prefixDef, change
+     - adds MT-related respStmt, appInfo, prefixDefs
+     - adds revisionDesc/change
      - moves notes and incidents out of sentences
      - removes text from sentences
 -->
@@ -29,17 +29,20 @@
   
   <!-- Directories must have absolute paths or relative to the location of this script -->
   <xsl:param name="outDir">.</xsl:param>
-  
+
+  <!-- Parameters that should typically be left as their default values -->
   <!-- Language code to which the corpus has been translated -->
   <xsl:param name="target-lang">en</xsl:param>
-  <!-- Extended TEI prefix for source corpora -->
+  <!-- Extended TEI prefix for aligned source corpora -->
   <xsl:param name="mt-prefix">mt-src</xsl:param>
-  
-  <!-- Country code taken from the teiCorpus ID -->
-  <xsl:param name="country-code" select="replace(/tei:teiCorpus/@xml:id, 
-                                         '.*?-([^._]+).*', '$1')"/>
-  <!-- Name of output corpus -->
-  <xsl:param name="output-name" select="concat('ParlaMint-', $country-code, '-en')"/>
+  <!-- Extended TEI prefix for pointers to the USAS semantic taxonomy -->
+  <xsl:param name="usas-prefix">sem</xsl:param>
+  <!-- Name of USAS taxonomy to be XIncluded -->
+  <xsl:param name="USAStaxonomy">ParlaMint-taxonomy-USAS.ana.xml</xsl:param>
+  <!-- Country code by default taken from the teiCorpus ID -->
+  <xsl:param name="country-code" select="replace(/tei:teiCorpus/@xml:id, '.*?-([^._]+).*', '$1')"/>
+  <!-- Name of output corpus by default constructed as below -->
+  <xsl:param name="output-name" select="concat('ParlaMint-', $country-code, '-', $target-lang)"/>
   
   <xsl:output method="xml" indent="yes"/>
   <xsl:preserve-space elements="catDesc seg note vocal kinesic incident gap"/>
@@ -50,11 +53,18 @@
   <xsl:variable name="outRoot" select="concat($outDir, '/', $output-name, '.ana.xml')"/>
 
   <xsl:variable name="change"><name>Tomaž Erjavec</name>: Generate TEI version of MTed corpus.</xsl:variable>
+
   <xsl:variable name="respStmt">
     <respStmt>
       <persName>Taja Kuzman</persName>
       <persName>Nikola Ljubešić</persName>
       <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
+    </respStmt>
+    <respStmt>
+      <persName>Paul Rayson</persName>
+      <persName>Matthew Coole</persName>
+      <persName>John Vidler</persName>
+      <resp xml:lang="en">Annotating MTed corpora with USAS semantic tags</resp>
     </respStmt>
   </xsl:variable>
 
@@ -66,7 +76,7 @@
 	  <xsl:text>Translation to English done with EasyNMT (</xsl:text>
 	  <ref target="https://github.com/UKPLab/EasyNMT">https://github.com/UKPLab/EasyNMT</ref>
 	  <xsl:text>) with OPUS-MT model </xsl:text>
-	<!-- Used OPUS.MT models used: -->
+	<!-- OPUS.MT models used: -->
 	<xsl:choose>
 	  <xsl:when test="$country-code = 'AT'">gmw</xsl:when>
 	  <xsl:when test="$country-code = 'BA'">zls</xsl:when>
@@ -100,16 +110,26 @@
         <label>Stanza</label>
         <desc>Tokenisation, PoS tagging, lemmatization, and NER annotation done with Stanza (<ref target="https://stanfordnlp.github.io/stanza/">https://stanfordnlp.github.io/stanza/</ref>) with the model for English. For NER the conll03 model with 4 NE classes was used.</desc>
       </application>
+      <application ident="pymusas" version="0.3.0">
+        <label>pymusas</label>
+        <desc>Semantic annotation of words and multi-word units done with pymusas (<ref target="https://pypi.org/project/pymusas/">https://pypi.org/project/pymusas/</ref>). This is a Pyton implementation of the UCREL Semantic Analysis System (<ref target="https://ucrel.lancs.ac.uk/usas/">USAS</ref>).</desc>
+      </application>
     </appInfo>
   </xsl:variable>
     
   <!-- We need to set prefixDef for root, and a different one for each component.
        For root it will be e.g. ../ParlaMint-XX.TEI.ana/ParlaMint-XX.ana.xml#$1
        For component it will be e.g. ../../ParlaMint-XX.TEI.ana/1996/ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001.ana.xml#$1
+       "XXX" is here a placeholder for the correct corresponding file
   -->
-  <xsl:variable name="prefixDef">
+  <xsl:variable name="MTprefixDef">
     <prefixDef ident="{$mt-prefix}" matchPattern="(.+)" replacementPattern="XXX#$1">
       <p>Private URIs with this prefix point to aligned source elements of the MTed corpus.</p>
+    </prefixDef>
+  </xsl:variable>
+  <xsl:variable name="USASprefixDef">
+    <prefixDef ident="{$usas-prefix}" matchPattern="(.+)" replacementPattern="#$1">
+      <p>Private URIs with this prefix point to the taxonomy of semantic categories. In this document they are simply local references into the USAS taxonomy categories XIncluded in the corpus root TEI header.</p>
     </prefixDef>
   </xsl:variable>
   
@@ -237,7 +257,7 @@
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates/>
       <listPrefixDef>
-	<xsl:apply-templates mode="comp" select="$prefixDef">
+	<xsl:apply-templates mode="comp" select="$MTprefixDef">
 	  <xsl:with-param name="corresp" select="$corresp"/>
 	</xsl:apply-templates>
       </listPrefixDef>
@@ -363,8 +383,22 @@
     </xsl:copy>
   </xsl:template>
 
-  <!-- Root listPrefiDef has only the prefixDef for ud-syn, but MTed corpus does not have parses, so we remove it -->
-  <xsl:template match="tei:listPrefixDef"/>
+  <!-- classDecl contains only XInclude statemetns for taxonomies. We copy them over and add XInclude for USAS taxonomy -->
+  <xsl:template match="tei:classDecl">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates/>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="{$USAStaxonomy}"/>
+    </xsl:copy>
+  </xsl:template>
+  
+  <!-- Input root listPrefixDef has only prefixDef for ud-syn, but MTed corpus does not have parses, so we skip it 
+       but include the prefix for the USAS semantic categories -->
+  <xsl:template match="tei:listPrefixDef">
+    <xsl:copy>
+      <xsl:copy-of select="$USASprefixDef"/>
+    </xsl:copy>
+  </xsl:template>
   
   <!-- Fix XIncluded to point to MTed components -->
   <xsl:template match="xi:include">

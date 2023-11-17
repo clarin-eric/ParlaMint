@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country EE (Estonia)
+# Samples of the ParlaMint-EE corpus
 
+- Country: EE (Estonia)
 - Languages: et (Estonian)
 
 ## Documentation
@@ -53,3 +54,7 @@ Example:
 ```
 
 There are no named entities besides persons, organisations, and locations.
+
+### Disclaimer to the English translation
+
+Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

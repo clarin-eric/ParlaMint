@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2023-09-23T09:02:23Z. 2023-10-09.
+Schema generated from ODD source 2023-11-07T06:43:10Z. 2023-11-06.
 TEI Edition: Version 4.6.0a. Last updated on
         5th January 2023, revision 9074b9038
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0a./
@@ -477,6 +477,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       <choice>
          <ref name="tei_seg"/>
          <ref name="tei_s"/>
+         <ref name="tei_phr"/>
          <ref name="tei_w"/>
          <ref name="tei_pc"/>
       </choice>
@@ -485,6 +486,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       <choice>
          <ref name="tei_seg"/>
          <ref name="tei_s"/>
+         <ref name="tei_phr"/>
          <ref name="tei_w"/>
          <ref name="tei_pc"/>
       </choice>
@@ -492,6 +494,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
    <define name="tei_model.segLike_sequence">
       <ref name="tei_seg"/>
       <ref name="tei_s"/>
+      <ref name="tei_phr"/>
       <ref name="tei_w"/>
       <ref name="tei_pc"/>
    </define>
@@ -501,6 +504,9 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       </optional>
       <optional>
          <ref name="tei_s"/>
+      </optional>
+      <optional>
+         <ref name="tei_phr"/>
       </optional>
       <optional>
          <ref name="tei_w"/>
@@ -517,6 +523,9 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_s"/>
       </zeroOrMore>
       <zeroOrMore>
+         <ref name="tei_phr"/>
+      </zeroOrMore>
+      <zeroOrMore>
          <ref name="tei_w"/>
       </zeroOrMore>
       <zeroOrMore>
@@ -529,6 +538,9 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       </oneOrMore>
       <oneOrMore>
          <ref name="tei_s"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_phr"/>
       </oneOrMore>
       <oneOrMore>
          <ref name="tei_w"/>
@@ -2503,6 +2515,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <zeroOrMore>
             <ref name="tei_category"/>
          </zeroOrMore>
+         <ref name="tei_att.global.attribute.n"/>
          <attribute name="xml:id">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) provides a unique identifier for the element bearing the attribute.</a:documentation>
             <data type="ID"/>
@@ -3419,6 +3432,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                <text/>
             </choice>
          </choice>
+         <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <ref name="tei_att.datable.w3c.attribute.from"/>
          <ref name="tei_att.datable.w3c.attribute.to"/>
@@ -4110,6 +4124,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                <ref name="tei_w"/>
                <ref name="tei_pc"/>
                <ref name="tei_name"/>
+               <ref name="tei_phr"/>
                <ref name="tei_num"/>
                <ref name="tei_date"/>
                <ref name="tei_time"/>
@@ -4141,6 +4156,47 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <ref name="tei_att.global.linking.attribute.corresp"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_phr">
+      <element name="phr">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(phrase) contains a semantic multi-word unit. [17.1. Linguistic Segment Categories]</a:documentation>
+         <oneOrMore>
+            <choice>
+               <ref name="tei_w"/>
+               <ref name="tei_pc"/>
+               <ref name="tei_pb"/>
+               <text/>
+            </choice>
+         </oneOrMore>
+         <ref name="tei_att.global.attribute.xmlid"/>
+         <ref name="tei_att.global.attribute.xmllang"/>
+         <attribute name="ana">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(analysis) indicates one or more elements containing interpretations of the element on which the <code xmlns="http://www.w3.org/1999/xhtml">@ana</code> attribute appears.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI">
+                     <param name="pattern">\S+</param>
+                  </data>
+               </oneOrMore>
+            </list>
+         </attribute>
+         <attribute name="function">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(function) characterizes the function of the segment.</a:documentation>
+            <data type="token">
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
+            </data>
+         </attribute>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <choice>
+                  <value>sem</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               </choice>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>

@@ -1,6 +1,6 @@
 <note type="time" content="Retómase a sesión ás dez e dous minutos da mañá."/>
 <note type="speaker" content="O señor PRESIDENTE:"/>
-<speech id="ParlaMint-ES-GA_2017-05-24-DSPG030.u1" text_id="ParlaMint-ES-GA_2017-05-24-DSPG030" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="010" session="" meeting="030" sitting="2017-05-24" agenda="" date="2017-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2017-05-24-DSPG030.u1" text_id="ParlaMint-ES-GA_2017-05-24-DSPG030" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="X Lexislatura" session="-" meeting="Número 030" sitting="24.05.2017" agenda="-" date="2017-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1" lang="galego">
 <s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1.s1">
 Bos	Bos	bo	ADJ		w1	amod	día	NOUN	Gender=Masc Number=Plur	w2
@@ -112,7 +112,7 @@ Xallas	Xallas	xallas	NOUN	Gender=Fem Number=Plur	w41	obj	preguntar	VERB	Mood=Ind
 </p>
 </speech>
 <note type="speaker" content="O señor PRESIDENTE:"/>
-<speech id="ParlaMint-ES-GA_2017-05-24-DSPG030.u2" text_id="ParlaMint-ES-GA_2017-05-24-DSPG030" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="010" session="" meeting="030" sitting="2017-05-24" agenda="" date="2017-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2017-05-24-DSPG030.u2" text_id="ParlaMint-ES-GA_2017-05-24-DSPG030" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="X Lexislatura" session="-" meeting="Número 030" sitting="24.05.2017" agenda="-" date="2017-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg4" lang="galego">
 <s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg4.s1">
 Ten	Ten	ter	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w1	root	-	-	-	-
@@ -129,7 +129,7 @@ Pontón	Pontón	pontón	NOUN	Gender=Masc Number=Sing	w6	obl	ter	VERB	Mood=Ind Nu
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES-GA_2017-05-24-DSPG030.u375" text_id="ParlaMint-ES-GA_2017-05-24-DSPG030" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="010" session="" meeting="030" sitting="2017-05-24" agenda="" date="2017-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Deputado/a" speaker_id="RivasJoséLuis" speaker_name="Rivas Cruz, José Luis" speaker_mp="MP" speaker_minister="notMinister" speaker_party="BNG" speaker_party_name="Bloque Nacionalista Galego" party_status="Opposition" party_orientation="" speaker_gender="M" speaker_birth="1951">
+<speech id="ParlaMint-ES-GA_2017-05-24-DSPG030.u375" text_id="ParlaMint-ES-GA_2017-05-24-DSPG030" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="X Lexislatura" session="-" meeting="Número 030" sitting="24.05.2017" agenda="-" date="2017-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Deputado/a" speaker_id="RivasJoséLuis" speaker_name="Rivas Cruz, José Luis" speaker_mp="MP" speaker_minister="notMinister" speaker_party="BNG" speaker_party_name="Bloque Nacionalista Galego" party_status="Opposition" party_orientation="Esquerda" speaker_gender="M" speaker_birth="1951">
 <p id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1156" lang="galego">
 <s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1156.s1">
 Foron	Foron	ser	AUX	Mood=Ind Number=Plur Person=3 Tense=Past	w1	cop	varios	DET	Definite=Ind Gender=Masc Number=Plur PronType=Art	w2
@@ -140,7 +140,7 @@ varios	varios	varios	DET	Definite=Ind Gender=Masc Number=Plur PronType=Art	w2	ro
 </p>
 </speech>
 <note type="speaker" content="O señor PRESIDENTE:"/>
-<speech id="ParlaMint-ES-GA_2017-05-24-DSPG030.u376" text_id="ParlaMint-ES-GA_2017-05-24-DSPG030" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="010" session="" meeting="030" sitting="2017-05-24" agenda="" date="2017-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2017-05-24-DSPG030.u376" text_id="ParlaMint-ES-GA_2017-05-24-DSPG030" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="X Lexislatura" session="-" meeting="Número 030" sitting="24.05.2017" agenda="-" date="2017-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157" lang="galego">
 <s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s1">
 Non	Non	non	ADV	Polarity=Neg	w1	advmod	un	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	w3

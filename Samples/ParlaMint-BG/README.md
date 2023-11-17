@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country BG (Bulgaria)
+# Samples of the ParlaMint-BG corpus
 
+- Country: BG (Bulgaria)
 - Language: bg (Bulgarian)
 
 ## Documentation
@@ -41,3 +42,7 @@ The corpus followed strictly the TEI elements/attributes that were needed at thi
 ### Linguistic annotation
 
 For annotating the Bulgarian corpus the CLASSLA-Stanza pipeline (https://pypi.org/project/classla/) was used. Thus, it follows the UD morpho-syntactic schema. The NER module includes the traditional NEs: Person, Location, Organization and Misc. We would like to thank Nikola Ljubešić for training and running the tools.
+
+### Disclaimer to the English translation
+
+Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

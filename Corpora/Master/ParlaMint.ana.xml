@@ -243,16 +243,16 @@
                      corresp="#ParlaMint-FR.ana"
                      ana="#parla.national-FR.ana #parla.lower-FR.ana #parla.term-FR.ana #parla.term.16-FR.ana"
                      xml:lang="fr"/>
-            <meeting ana="#parla.term-GB.ana #PoGB.55-GB.ana"
+            <meeting ana="#parla.upper-GB.ana #parla.lower-GB.ana #parla.term-GB.ana #PoGB.55-GB.ana"
                      xml:lang="en"
                      corresp="#ParlaMint-GB.ana"/>
-            <meeting ana="#parla.term-GB.ana #PoGB.56-GB.ana"
+            <meeting ana="#parla.upper-GB.ana #parla.lower-GB.ana #parla.term-GB.ana #PoGB.56-GB.ana"
                      xml:lang="en"
                      corresp="#ParlaMint-GB.ana"/>
-            <meeting ana="#parla.term-GB.ana #PoGB.57-GB.ana"
+            <meeting ana="#parla.upper-GB.ana #parla.lower-GB.ana #parla.term-GB.ana #PoGB.57-GB.ana"
                      xml:lang="en"
                      corresp="#ParlaMint-GB.ana"/>
-            <meeting ana="#parla.term-GB.ana #PoGB.58-GB.ana"
+            <meeting ana="#parla.upper-GB.ana #parla.lower-GB.ana #parla.term-GB.ana #PoGB.58-GB.ana"
                      xml:lang="en"
                      corresp="#ParlaMint-GB.ana"/>
             <meeting n="16"
@@ -1005,7 +1005,8 @@
          </editionStmt>
          <extent>
             <measure unit="corpora" quantity="29">29 corpora</measure>
-            <measure unit="speeches" quantity="6752186">6,752,186 speeches</measure>
+            <measure unit="speeches" quantity="7825794">7,825,794 speeches</measure>
+            <measure unit="speeches" quantity="231759" corresp="#ParlaMint-AT.ana">231,759 speeches</measure>
             <measure xmlns:ns1="http://www.w3.org/2001/XInclude"
                      unit="speeches"
                      quantity="126252"
@@ -1027,7 +1028,7 @@
                      quantity="146901"
                      corresp="#ParlaMint-FI.ana">speeches</measure>
             <measure unit="speeches" quantity="714860" corresp="#ParlaMint-FR.ana">714,860 speeches</measure>
-            <measure unit="speeches" quantity="0" corresp="#ParlaMint-GB.ana">0 speeches</measure>
+            <measure unit="speeches" quantity="670912" corresp="#ParlaMint-GB.ana">670,912 speeches</measure>
             <measure unit="speeches" quantity="342274" corresp="#ParlaMint-GR.ana">342,274 speeches</measure>
             <measure unit="speeches" quantity="504338" corresp="#ParlaMint-HR.ana">504,338 speeches</measure>
             <measure unit="speeches" quantity="116346" corresp="#ParlaMint-HU.ana">116,346 speeches</measure>
@@ -1040,12 +1041,14 @@
                      unit="speeches"
                      quantity="228326"
                      corresp="#ParlaMint-PL.ana">228,326 speeches</measure>
+            <measure unit="speeches" quantity="170937" corresp="#ParlaMint-PT.ana">170,937 speeches</measure>
             <measure unit="speeches" quantity="316069" corresp="#ParlaMint-RS.ana">316,069 speeches</measure>
             <measure unit="speeches" quantity="84662" corresp="#ParlaMint-SE.ana">84,662 speeches</measure>
             <measure unit="speeches" quantity="311354" corresp="#ParlaMint-SI.ana">311,354 speeches</measure>
             <measure unit="speeches" quantity="739744" corresp="#ParlaMint-TR.ana">739,744 speeches</measure>
             <measure unit="speeches" quantity="200849" corresp="#ParlaMint-UA.ana">200,849 speeches</measure>
-            <measure unit="words" quantity="996914589">996,914,589 words</measure>
+            <measure unit="words" quantity="1202106048">1,202,106,048 words</measure>
+            <measure unit="words" quantity="60839145" corresp="#ParlaMint-AT.ana">60,839,145 words</measure>
             <measure xmlns:ns1="http://www.w3.org/2001/XInclude"
                      unit="words"
                      quantity="18307498"
@@ -1067,7 +1070,7 @@
                      quantity="13538571"
                      corresp="#ParlaMint-FI.ana">words</measure>
             <measure unit="words" quantity="49629745" corresp="#ParlaMint-FR.ana">49,629,745 words</measure>
-            <measure unit="words" quantity="0" corresp="#ParlaMint-GB.ana">0 words</measure>
+            <measure unit="words" quantity="126705494" corresp="#ParlaMint-GB.ana">126,705,494 words</measure>
             <measure unit="words" quantity="49697426" corresp="#ParlaMint-GR.ana">49,697,426 words</measure>
             <measure unit="words" quantity="87318666" corresp="#ParlaMint-HR.ana">87,318,666 words</measure>
             <measure unit="words" quantity="30846395" corresp="#ParlaMint-HU.ana">30,846,395 words</measure>
@@ -1080,6 +1083,7 @@
                      unit="words"
                      quantity="36064778"
                      corresp="#ParlaMint-PL.ana">36,064,778 words</measure>
+            <measure unit="words" quantity="17646820" corresp="#ParlaMint-PT.ana">17,646,820 words</measure>
             <measure unit="words" quantity="84568976" corresp="#ParlaMint-RS.ana">84,568,976 words</measure>
             <measure unit="words" quantity="28980081" corresp="#ParlaMint-SE.ana">28,980,081 words</measure>
             <measure unit="words" quantity="69921953" corresp="#ParlaMint-SI.ana">69,921,953 words</measure>
@@ -1096,7 +1100,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-10-05">October 5, 2023</date>
+            <date when="2023-10-23">October 23, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <listBibl corresp="#ParlaMint-AT.ana">
@@ -1249,7 +1253,7 @@
                <bibl>
                   <title type="main">Parliament of Great Britain: Daily sessions</title>
                   <publisher>Houses of Parliament</publisher>
-                  <idno type="URI">https://hansard.parliament.uk/</idno>
+                  <idno type="URI" subtype="parliament">https://hansard.parliament.uk/</idno>
                   <date from="2015-01-05" to="2022-07-21">2015-01-05 - 2022-07-21</date>
                </bibl>
             </listBibl>
@@ -1573,26 +1577,26 @@
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="42507"/>
+               <tagUsage gi="body" occurs="44716"/>
                <tagUsage gi="desc" occurs="1635978"/>
-               <tagUsage gi="div" occurs="147138"/>
+               <tagUsage gi="div" occurs="178353"/>
                <tagUsage gi="gap" occurs="210375"/>
-               <tagUsage gi="head" occurs="115766"/>
+               <tagUsage gi="head" occurs="146981"/>
                <tagUsage gi="incident" occurs="79438"/>
                <tagUsage gi="kinesic" occurs="901713"/>
-               <tagUsage gi="link" occurs="1239228914"/>
-               <tagUsage gi="linkGrp" occurs="60872560"/>
-               <tagUsage gi="name" occurs="33597653"/>
-               <tagUsage gi="note" occurs="7406348"/>
+               <tagUsage gi="link" occurs="1378915316"/>
+               <tagUsage gi="linkGrp" occurs="66195592"/>
+               <tagUsage gi="name" occurs="36250129"/>
+               <tagUsage gi="note" occurs="7598141"/>
                <tagUsage gi="pb" occurs="160325"/>
-               <tagUsage gi="pc" occurs="152480399"/>
-               <tagUsage gi="s" occurs="60872560"/>
-               <tagUsage gi="seg" occurs="17955452"/>
-               <tagUsage gi="text" occurs="42508"/>
+               <tagUsage gi="pc" occurs="165461307"/>
+               <tagUsage gi="s" occurs="66195592"/>
+               <tagUsage gi="seg" occurs="19362414"/>
+               <tagUsage gi="text" occurs="44716"/>
                <tagUsage gi="time" occurs="349458"/>
-               <tagUsage gi="u" occurs="7154882"/>
+               <tagUsage gi="u" occurs="7825794"/>
                <tagUsage gi="vocal" occurs="429290"/>
-               <tagUsage gi="w" occurs="1097340344"/>
+               <tagUsage gi="w" occurs="1224045838"/>
                <tagUsage gi="body" occurs="1221" corresp="#ParlaMint-AT.ana"/>
                <tagUsage xmlns:ns1="http://www.w3.org/2001/XInclude"
                          gi="body"
@@ -1615,6 +1619,7 @@
                          occurs="962"
                          corresp="#ParlaMint-FI.ana"/>
                <tagUsage gi="body" occurs="1564" corresp="#ParlaMint-FR.ana"/>
+               <tagUsage gi="body" occurs="2209" corresp="#ParlaMint-GB.ana"/>
                <tagUsage gi="body" occurs="1263" corresp="#ParlaMint-GR.ana"/>
                <tagUsage gi="body" occurs="1708" corresp="#ParlaMint-HR.ana"/>
                <tagUsage gi="body" occurs="579" corresp="#ParlaMint-HU.ana"/>
@@ -1691,6 +1696,7 @@
                          occurs="6806"
                          corresp="#ParlaMint-FI.ana"/>
                <tagUsage gi="div" occurs="22208" corresp="#ParlaMint-FR.ana"/>
+               <tagUsage gi="div" occurs="31215" corresp="#ParlaMint-GB.ana"/>
                <tagUsage gi="div" occurs="1263" corresp="#ParlaMint-GR.ana"/>
                <tagUsage gi="div" occurs="1708" corresp="#ParlaMint-HR.ana"/>
                <tagUsage gi="div" occurs="579" corresp="#ParlaMint-HU.ana"/>
@@ -1745,6 +1751,7 @@
                          occurs="6806"
                          corresp="#ParlaMint-FI.ana"/>
                <tagUsage gi="head" occurs="22123" corresp="#ParlaMint-FR.ana"/>
+               <tagUsage gi="head" occurs="31215" corresp="#ParlaMint-GB.ana"/>
                <tagUsage gi="head" occurs="7578" corresp="#ParlaMint-GR.ana"/>
                <tagUsage gi="head" occurs="13170" corresp="#ParlaMint-IT.ana"/>
                <tagUsage gi="head" occurs="6100" corresp="#ParlaMint-NL.ana"/>
@@ -1834,6 +1841,7 @@
                          occurs="15780289"
                          corresp="#ParlaMint-FI.ana"/>
                <tagUsage gi="link" occurs="56985731" corresp="#ParlaMint-FR.ana"/>
+               <tagUsage gi="link" occurs="139686402" corresp="#ParlaMint-GB.ana"/>
                <tagUsage gi="link" occurs="58192149" corresp="#ParlaMint-GR.ana"/>
                <tagUsage gi="link" occurs="96467082" corresp="#ParlaMint-HR.ana"/>
                <tagUsage gi="link" occurs="36293453" corresp="#ParlaMint-HU.ana"/>
@@ -1874,6 +1882,7 @@
                          occurs="928303"
                          corresp="#ParlaMint-FI.ana"/>
                <tagUsage gi="linkGrp" occurs="2405054" corresp="#ParlaMint-FR.ana"/>
+               <tagUsage gi="linkGrp" occurs="5323032" corresp="#ParlaMint-GB.ana"/>
                <tagUsage gi="linkGrp" occurs="2816249" corresp="#ParlaMint-GR.ana"/>
                <tagUsage gi="linkGrp" occurs="4212473" corresp="#ParlaMint-HR.ana"/>
                <tagUsage gi="linkGrp" occurs="1730955" corresp="#ParlaMint-HU.ana"/>
@@ -1907,16 +1916,17 @@
                <tagUsage gi="name" occurs="743312" corresp="#ParlaMint-EE.ana"/>
                <tagUsage gi="name" occurs="477509" corresp="#ParlaMint-ES-CT.ana"/>
                <tagUsage gi="name" occurs="663574" corresp="#ParlaMint-ES-GA.ana"/>
-               <tagUsage gi="name" occurs="417592" corresp="#ParlaMint-ES-PV.ana"/>
+               <tagUsage gi="name" occurs="417597" corresp="#ParlaMint-ES-PV.ana"/>
                <tagUsage gi="name" occurs="708957" corresp="#ParlaMint-ES.ana"/>
                <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
                          gi="name"
-                         occurs="92722"
+                         occurs="92723"
                          corresp="#ParlaMint-FI.ana"/>
                <tagUsage gi="name" occurs="1172864" corresp="#ParlaMint-FR.ana"/>
+               <tagUsage gi="name" occurs="2652183" corresp="#ParlaMint-GB.ana"/>
                <tagUsage gi="name" occurs="1381863" corresp="#ParlaMint-GR.ana"/>
                <tagUsage gi="name" occurs="2722097" corresp="#ParlaMint-HR.ana"/>
-               <tagUsage gi="name" occurs="770142" corresp="#ParlaMint-HU.ana"/>
+               <tagUsage gi="name" occurs="770149" corresp="#ParlaMint-HU.ana"/>
                <tagUsage gi="name" occurs="426496" corresp="#ParlaMint-IS.ana"/>
                <tagUsage gi="name" occurs="1003073" corresp="#ParlaMint-IT.ana"/>
                <tagUsage gi="name" occurs="316228" corresp="#ParlaMint-LV.ana"/>
@@ -1924,14 +1934,14 @@
                <tagUsage gi="name" occurs="2615712" corresp="#ParlaMint-NO.ana"/>
                <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
                          gi="name"
-                         occurs="1271131"
+                         occurs="1271150"
                          corresp="#ParlaMint-PL.ana"/>
-               <tagUsage gi="name" occurs="807258" corresp="#ParlaMint-PT.ana"/>
+               <tagUsage gi="name" occurs="807467" corresp="#ParlaMint-PT.ana"/>
                <tagUsage gi="name" occurs="3280115" corresp="#ParlaMint-RS.ana"/>
                <tagUsage gi="name" occurs="500962" corresp="#ParlaMint-SE.ana"/>
                <tagUsage gi="name" occurs="1711705" corresp="#ParlaMint-SI.ana"/>
                <tagUsage gi="name" occurs="3477111" corresp="#ParlaMint-TR.ana"/>
-               <tagUsage gi="name" occurs="860472" corresp="#ParlaMint-UA.ana"/>
+               <tagUsage gi="name" occurs="860524" corresp="#ParlaMint-UA.ana"/>
                <tagUsage gi="note" occurs="680688" corresp="#ParlaMint-AT.ana"/>
                <tagUsage xmlns:ns1="http://www.w3.org/2001/XInclude"
                          gi="note"
@@ -1953,6 +1963,7 @@
                          occurs="10635"
                          corresp="#ParlaMint-FI.ana"/>
                <tagUsage gi="note" occurs="22126" corresp="#ParlaMint-FR.ana"/>
+               <tagUsage gi="note" occurs="191793" corresp="#ParlaMint-GB.ana"/>
                <tagUsage gi="note" occurs="365334" corresp="#ParlaMint-GR.ana"/>
                <tagUsage gi="note" occurs="312659" corresp="#ParlaMint-HR.ana"/>
                <tagUsage gi="note" occurs="154671" corresp="#ParlaMint-HU.ana"/>
@@ -2000,6 +2011,7 @@
                          occurs="2241718"
                          corresp="#ParlaMint-FI.ana"/>
                <tagUsage gi="pc" occurs="5913114" corresp="#ParlaMint-FR.ana"/>
+               <tagUsage gi="pc" occurs="12980908" corresp="#ParlaMint-GB.ana"/>
                <tagUsage gi="pc" occurs="7380853" corresp="#ParlaMint-GR.ana"/>
                <tagUsage gi="pc" occurs="9148416" corresp="#ParlaMint-HR.ana"/>
                <tagUsage gi="pc" occurs="5447058" corresp="#ParlaMint-HU.ana"/>
@@ -2040,6 +2052,7 @@
                          occurs="928303"
                          corresp="#ParlaMint-FI.ana"/>
                <tagUsage gi="s" occurs="2405054" corresp="#ParlaMint-FR.ana"/>
+               <tagUsage gi="s" occurs="5323032" corresp="#ParlaMint-GB.ana"/>
                <tagUsage gi="s" occurs="2816249" corresp="#ParlaMint-GR.ana"/>
                <tagUsage gi="s" occurs="4212473" corresp="#ParlaMint-HR.ana"/>
                <tagUsage gi="s" occurs="1730955" corresp="#ParlaMint-HU.ana"/>
@@ -2080,6 +2093,7 @@
                          occurs="334603"
                          corresp="#ParlaMint-FI.ana"/>
                <tagUsage gi="seg" occurs="1191797" corresp="#ParlaMint-FR.ana"/>
+               <tagUsage gi="seg" occurs="1406962" corresp="#ParlaMint-GB.ana"/>
                <tagUsage gi="seg" occurs="1229320" corresp="#ParlaMint-GR.ana"/>
                <tagUsage gi="seg" occurs="511279" corresp="#ParlaMint-HR.ana"/>
                <tagUsage gi="seg" occurs="486594" corresp="#ParlaMint-HU.ana"/>
@@ -2120,7 +2134,7 @@
                          occurs="962"
                          corresp="#ParlaMint-FI.ana"/>
                <tagUsage gi="text" occurs="1564" corresp="#ParlaMint-FR.ana"/>
-               <tagUsage gi="text" occurs="1" corresp="#ParlaMint-GB.ana"/>
+               <tagUsage gi="text" occurs="2209" corresp="#ParlaMint-GB.ana"/>
                <tagUsage gi="text" occurs="1263" corresp="#ParlaMint-GR.ana"/>
                <tagUsage gi="text" occurs="1708" corresp="#ParlaMint-HR.ana"/>
                <tagUsage gi="text" occurs="579" corresp="#ParlaMint-HU.ana"/>
@@ -2164,6 +2178,7 @@
                          occurs="146901"
                          corresp="#ParlaMint-FI.ana"/>
                <tagUsage gi="u" occurs="714860" corresp="#ParlaMint-FR.ana"/>
+               <tagUsage gi="u" occurs="670912" corresp="#ParlaMint-GB.ana"/>
                <tagUsage gi="u" occurs="342274" corresp="#ParlaMint-GR.ana"/>
                <tagUsage gi="u" occurs="504338" corresp="#ParlaMint-HR.ana"/>
                <tagUsage gi="u" occurs="116346" corresp="#ParlaMint-HU.ana"/>
@@ -2233,6 +2248,7 @@
                          occurs="13538571"
                          corresp="#ParlaMint-FI.ana"/>
                <tagUsage gi="w" occurs="52515489" corresp="#ParlaMint-FR.ana"/>
+               <tagUsage gi="w" occurs="126705494" corresp="#ParlaMint-GB.ana"/>
                <tagUsage gi="w" occurs="51925166" corresp="#ParlaMint-GR.ana"/>
                <tagUsage gi="w" occurs="87318666" corresp="#ParlaMint-HR.ana"/>
                <tagUsage gi="w" occurs="30846395" corresp="#ParlaMint-HU.ana"/>
@@ -2264,17 +2280,9 @@
             </application>
          </appInfo>
          <appInfo xmlns:ns1="http://www.w3.org/2001/XInclude" corresp="#ParlaMint-BA.ana">
-            <application version="1.0" ident="reldi-tokeniser">
-               <label>ReLDI tokeniser</label>
-               <desc>Tokenisation and sentence segmentation with ReLDI tokeniser, available from <ref target="https://github.com/clarinsi/reldi-tokeniser">https://github.com/clarinsi/reldi-tokeniser</ref>.</desc>
-            </application>
-            <application version="1.0" ident="classla-stanfordnlp">
-               <label>CLASSLA-StanfordNLP</label>
-               <desc>MSD tagging and lemmatisation with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla-stanfordnlp">https://github.com/clarinsi/classla-stanfordnlp</ref>.</desc>
-            </application>
-            <application version="1.0" ident="janes-ner">
-               <label>NER system for South Slavic languages</label>
-               <desc>Named entity recognition done with the Janes NER program, trained for Slovene and available at <ref target="https://github.com/clarinsi/janes-ner">https://github.com/clarinsi/janes-ner</ref>.</desc>
+            <application version="2.0" ident="classla-stanza">
+               <label>CLASSLA-Stanza</label>
+               <desc>Linguistic processing with CLASSLA-Stanza, available from <ref target="https://github.com/clarinsi/classla">https://github.com/clarinsi/classla</ref>.</desc>
             </application>
          </appInfo>
          <appInfo xmlns:xi="http://www.w3.org/2001/XInclude" corresp="#ParlaMint-BE.ana">
@@ -2299,9 +2307,9 @@
             </application>
          </appInfo>
          <appInfo corresp="#ParlaMint-BG.ana">
-            <application version="1.0" ident="classla">
-               <label>CLASSLA-StanfordNLP</label>
-               <desc>Linguistic processing with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla">https://github.com/clarinsi/classla</ref>.</desc>
+            <application version="2.0" ident="classla-stanza">
+               <label>CLASSLA-Stanza</label>
+               <desc>Linguistic processing with CLASSLA-Stanza, available from <ref target="https://github.com/clarinsi/classla">https://github.com/clarinsi/classla</ref>.</desc>
             </application>
          </appInfo>
          <appInfo corresp="#ParlaMint-CZ.ana">
@@ -2427,17 +2435,9 @@
             </application>
          </appInfo>
          <appInfo corresp="#ParlaMint-HR.ana">
-            <application version="1.0" ident="reldi-tokeniser">
-               <label>ReLDI tokeniser</label>
-               <desc>Tokenisation and sentence segmentation with ReLDI tokeniser, available from <ref target="https://github.com/clarinsi/reldi-tokeniser">https://github.com/clarinsi/reldi-tokeniser</ref>.</desc>
-            </application>
-            <application version="1.0" ident="classla-stanfordnlp">
-               <label>CLASSLA-StanfordNLP</label>
-               <desc>MSD tagging and lemmatisation with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla-stanfordnlp">https://github.com/clarinsi/classla-stanfordnlp</ref>.</desc>
-            </application>
-            <application version="1.0" ident="janes-ner">
-               <label>NER system for South Slavic languages</label>
-               <desc>Named entity recognition done with the Janes NER program, trained for Slovene and available at <ref target="https://github.com/clarinsi/janes-ner">https://github.com/clarinsi/janes-ner</ref>.</desc>
+            <application version="2.0" ident="classla-stanza">
+               <label>CLASSLA-Stanza</label>
+               <desc>Linguistic processing with CLASSLA-Stanza, available from <ref target="https://github.com/clarinsi/classla">https://github.com/clarinsi/classla</ref>.</desc>
             </application>
          </appInfo>
          <appInfo corresp="#ParlaMint-HU.ana">
@@ -2567,17 +2567,9 @@
             </application>
          </appInfo>
          <appInfo corresp="#ParlaMint-RS.ana">
-            <application version="1.0" ident="reldi-tokeniser">
-               <label>ReLDI tokeniser</label>
-               <desc>Tokenisation and sentence segmentation with ReLDI tokeniser, available from <ref target="https://github.com/clarinsi/reldi-tokeniser">https://github.com/clarinsi/reldi-tokeniser</ref>.</desc>
-            </application>
-            <application version="1.0" ident="classla-stanfordnlp">
-               <label>CLASSLA-StanfordNLP</label>
-               <desc>MSD tagging and lemmatisation with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla-stanfordnlp">https://github.com/clarinsi/classla-stanfordnlp</ref>.</desc>
-            </application>
-            <application version="1.0" ident="janes-ner">
-               <label>NER system for South Slavic languages</label>
-               <desc>Named entity recognition done with the Janes NER program, trained for Slovene and available at <ref target="https://github.com/clarinsi/janes-ner">https://github.com/clarinsi/janes-ner</ref>.</desc>
+            <application version="2.0" ident="classla-stanza">
+               <label>CLASSLA-Stanza</label>
+               <desc>Linguistic processing with CLASSLA-Stanza, available from <ref target="https://github.com/clarinsi/classla">https://github.com/clarinsi/classla</ref>.</desc>
             </application>
          </appInfo>
          <appInfo corresp="#ParlaMint-SE.ana">
@@ -2587,9 +2579,9 @@
             </application>
          </appInfo>
          <appInfo corresp="#ParlaMint-SI.ana">
-            <application version="1.0" ident="classla">
-               <label>CLASSLA-StanfordNLP</label>
-               <desc>Linguistic processing with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla">https://github.com/clarinsi/classla</ref>.</desc>
+            <application version="2.0" ident="classla-stanza">
+               <label>CLASSLA-Stanza</label>
+               <desc>Linguistic processing with CLASSLA-Stanza, available from <ref target="https://github.com/clarinsi/classla">https://github.com/clarinsi/classla</ref>.</desc>
             </application>
          </appInfo>
          <appInfo corresp="#ParlaMint-TR.ana">
@@ -2973,8 +2965,10 @@
             <language ident="mul" xml:lang="en" usage="0">Multilingual</language>
          </langUsage>
          <langUsage corresp="#ParlaMint-IS.ana">
-            <language xml:lang="en" ident="en">English</language>
-            <language xml:lang="en" ident="is">Icelandic</language>
+            <language ident="is" xml:lang="is">Íslenska</language>
+            <language ident="is" xml:lang="en">Icelandic</language>
+            <language ident="en" xml:lang="is">Enska</language>
+            <language ident="en" xml:lang="en">English</language>
          </langUsage>
          <langUsage corresp="#ParlaMint-IT.ana">
             <language ident="it" xml:lang="it">italiano</language>
@@ -3088,6 +3082,9 @@
                     target="#parla.bi #parla.lower"
                     corresp="#ParlaMint-FR.ana"/>
             <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
+                    target="#parla.bi #parla.lower #parla.upper"
+                    corresp="#ParlaMint-GB.ana"/>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
                     target="#parla.uni"
                     corresp="#ParlaMint-GR.ana"/>
             <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
@@ -3136,7 +3133,7 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-10-05">
+         <change when="2023-10-23">
             <name>Tomaž Erjavec</name>: Generate root</change>
       </revisionDesc>
    </teiHeader>

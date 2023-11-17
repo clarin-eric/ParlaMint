@@ -347,6 +347,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 sub commonTaxonomies {
     my $Country = shift;
     my $outDir = shift;
+    # If this is an MTed corpus then fix Country to be without langauge suffix
+    $Country =~ s/-[a-z]{2}$//;
     foreach my $taxonomy (sort keys %taxonomy) {
 	if ($taxonomy !~ /\.ana/ or
 	    ($taxonomy =~ /\.ana/ and ($outDir =~ /\.ana/ or $outDir !~ /\.TEI/))) {
@@ -407,7 +409,6 @@ sub cp_readme_top {
     my $outFile = "$outDir/README";
     if ($type eq 'sample') {}
     elsif ($type eq 'ana' or $type eq 'tei') {$outFile .= "-" . $country }
-    if ($mt) {$outFile .= "-$mt"}
     if ($type eq 'ana') {$outFile .= ".ana"}
     $outFile .= ".md";
     
@@ -424,24 +425,27 @@ sub cp_readme_top {
 
     while (<IN>) {
 	if (m|^# ParlaMint|) {
-	    ($countryCode, $RegionalSuffix, $countryName) = m| ([A-Z]{2}(-[A-Z]{2})?) \((.+)\)$| or die;
+	    ($countryCode, $RegionalSuffix, $countryName) = m| ([A-Z]{2}(-[A-Z]{2})?) \((.+)\)$|
+	       or die "FATAL ERROR: Bad line in README.md file: $_";
 	    die "FATAL ERROR: Bad code $countryCode (!= $country) in $inFile\n" unless $country =~ /$countryCode/;
 	    if    ($type =~ /sample/i) {print OUT "# Samples of the ParlaMint-$countryCode corpus"}
 	    elsif ($type =~ /tei/i)    {print OUT "# Corpus of parliamentary debates ParlaMint-$countryCode"}
 	    elsif ($type =~ /ana/i)    {print OUT "# Linguistically annotated corpus of parliamentary debates ParlaMint-$countryCode"}
 	    else {die "Strange type $type for cp_readme_top\n"}
-	    if ($MT) {print OUT " (translation to English)"}
+	    if ($MT) {print OUT "-en (translation to English)"}
 	    print OUT "\n";
 	}
-	elsif (m|- Language|) {
+	elsif (m|- +Language|) {
 	    if    ($countryCode =~ /^..-..$/) {print OUT "- Autonomous region: "}
 	    elsif ($countryCode =~ /^..$/)    {print OUT "- Country: "}
 	    else {die "Strange country code $countryCode for cp_readme_top\n"}
 	    print OUT "$countryCode ($countryName)\n";
-	    print OUT; # Languages
+            # Language
+	    if ($MT) {print OUT "en (English) from "}
+	    print OUT; 
 	    unless ($type eq 'sample') {
 		print OUT "- Version: $version\n";
-		print OUT "- Handle: $handle\n";
+		print OUT "- Handle: [$handle]($handle)\n";
 	    }
 	}
 	else {print OUT}

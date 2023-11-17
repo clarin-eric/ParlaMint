@@ -1,6 +1,6 @@
 <note type="time" content="Ábrese a sesión ás dez e dous minutos da mañá."/>
 <note type="speaker" content="O señor PRESIDENTE:"/>
-<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u1" text_id="ParlaMint-ES-GA_2019-10-08-DSPG130" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="010" session="" meeting="130" sitting="2019-10-08" agenda="" date="2019-10-08" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u1" text_id="ParlaMint-ES-GA_2019-10-08-DSPG130" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="X Lexislatura" session="-" meeting="Número 130" sitting="08.10.2019" agenda="-" date="2019-10-08" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1" lang="galego">
 <s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1.s1">
 Bos	Bos	bo	ADJ		w1	amod	día	NOUN	Gender=Masc Number=Plur	w2
@@ -136,7 +136,7 @@ sanitario	sanitario	sanitario	ADJ		w23	amod	risco	NOUN	Gender=Masc Number=Sing	w
 </p>
 </speech>
 <note type="speaker" content="O señor PRESIDENTE:"/>
-<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u2" text_id="ParlaMint-ES-GA_2019-10-08-DSPG130" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="010" session="" meeting="130" sitting="2019-10-08" agenda="" date="2019-10-08" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u2" text_id="ParlaMint-ES-GA_2019-10-08-DSPG130" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="X Lexislatura" session="-" meeting="Número 130" sitting="08.10.2019" agenda="-" date="2019-10-08" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8" lang="galego">
 <s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1">
 Presentáronse	Presentaron|se	presentar|se	VERB|PRON	Mood=Ind Number=Plur Person=3 Tense=Past|Gender=Com Person=3 PronType=Prs	t1|t2	root|expl	-|presentar	-|VERB	-|Mood=Ind Number=Plur Person=3 Tense=Past	-|t1
@@ -219,7 +219,7 @@ Mourelle	Mourelle	mourelle	PROPN		w21	flat:name	vázquez	PROPN		w20
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u461" text_id="ParlaMint-ES-GA_2019-10-08-DSPG130" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="010" session="" meeting="130" sitting="2019-10-08" agenda="" date="2019-10-08" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Deputado/a" speaker_id="CondeFranciscoJosé" speaker_name="Conde López, Francisco José" speaker_mp="MP" speaker_minister="Minister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="1968">
+<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u461" text_id="ParlaMint-ES-GA_2019-10-08-DSPG130" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="X Lexislatura" session="-" meeting="Número 130" sitting="08.10.2019" agenda="-" date="2019-10-08" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Deputado/a" speaker_id="CondeFranciscoJosé" speaker_name="Conde López, Francisco José" speaker_mp="MP" speaker_minister="Minister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1968">
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556" lang="galego">
 <s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1">
 <name type="PER">
@@ -972,7 +972,7 @@ grazas	grazas	graza	NOUN	Gender=Fem Number=Plur	w5	conj	nada	PRON	Gender=Neut Pr
 </speech>
 <note type="kinesic:applause" content="Aplausos."/>
 <note type="speaker" content="O señor PRESIDENTE (Calvo Pouso):"/>
-<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u462" text_id="ParlaMint-ES-GA_2019-10-08-DSPG130" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="010" session="" meeting="130" sitting="2019-10-08" agenda="" date="2019-10-08" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="CalvoDiego" speaker_name="Calvo Pouso, Diego" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="1975">
+<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u462" text_id="ParlaMint-ES-GA_2019-10-08-DSPG130" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="X Lexislatura" session="-" meeting="Número 130" sitting="08.10.2019" agenda="-" date="2019-10-08" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="CalvoDiego" speaker_name="Calvo Pouso, Diego" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1975">
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562" lang="galego">
 <s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562.s1">
 Moitas	Moitas	moito	DET	Definite=Ind Gender=Fem Number=Plur PronType=Art	w1	det	graza	NOUN	Gender=Fem Number=Plur	w2

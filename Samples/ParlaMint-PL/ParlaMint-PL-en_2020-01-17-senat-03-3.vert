@@ -1,2110 +1,2125 @@
 <note type="head" content="3. posiedzenie Senatu RP 10. kadencji, dzień 3"/>
-<speech id="ParlaMint-PL_2020-01-17-senat-03-3.u1" text_id="ParlaMint-PL-en_2020-01-17-senat-03-3" subcorpus="Reference" body="Upper house" term="10-upper" session="3-upper" meeting="" sitting="3-upper" agenda="" date="2020-01-17" title="Report of the session of the Senat of the Republic of Poland, Term 10, Session 3, Day 3 (2020-01-17)" wordcount="520" speaker_role="Regular" speaker_id="TomaszGrodzki" speaker_name="Grodzki, Tomasz" speaker_mp="MP" speaker_minister="-" speaker_party="KO" speaker_party_name="Klub Parlamentarny Platforma Obywatelska – Koalicja Obywatelska" party_status="Opposition" speaker_gender="M" speaker_birth="1958">
+<note type="time" content="Resumption of the sitting at 9 minutes 31"/>
+<note type="debate" content="The meeting was chaired by Marshal Tomasz Grodzki and Deputy Marshals Michał Kaminski, Bogdan Borusewicz and Gabriel Morawska-Stanecka."/>
+<note type="speaker" content="Marshal Thomas Grodzki:"/>
+<speech id="ParlaMint-PL_2020-01-17-senat-03-3.u1" text_id="ParlaMint-PL-en_2020-01-17-senat-03-3" subcorpus="Reference" lang="English" body="Upper house" term="10. kadencja Senatu" session="3. sesja Senatu" meeting="-" sitting="3. dzień sesji Senatu" agenda="-" date="2020-01-17" title="Report of the session of the Senat of the Republic of Poland, Term 10, Session 3, Day 3 (2020-01-17)" speaker_role="Regular" speaker_id="TomaszGrodzki" speaker_name="Grodzki, Tomasz" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KO" speaker_party_name="Klub Parlamentarny Platforma Obywatelska – Koalicja Obywatelska" party_status="Opposition" party_orientation="-" speaker_gender="M" speaker_birth="1958">
 <p id="seg971932" lang="English">
 <s id="seg971932.1">
-Please	Please	please	INTJ		t1
-take	take	take	VERB	Mood=Imp VerbForm=Fin	t2
-your	your	you	PRON	Person=2 Poss=Yes PronType=Prs	t3
-seats	seats	seat	NOUN	Number=Plur	t4
+Please	Please	please	INTJ	-	E4.2+,E2+,X7+	E4.2p	E4.2+: Content	t1
+<phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
+take	take	take	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
+your	your	you	PRON	Person=2 Poss=Yes PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t3
+</phr>
+seats	seats	seat	NOUN	Number=Plur	H5,B5,S1.1.3+,S7.1+,M7	H5	H5: Furniture and household fittings	t4
 <g/>
-.	.	.	PUNCT		t5
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
 </p>
 <p id="seg971933" lang="English">
 <s id="seg971933.1">
-Resume	Resume	resume	VERB	Mood=Imp VerbForm=Fin	t1
-session	session	session	NOUN	Number=Sing	t2
+Resume	Resume	resume	VERB	Mood=Imp VerbForm=Fin	Q1.2	Q1.2	Q1.2: Paper documents and writing	t1
+session	session	session	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
 <g/>
-.	.	.	PUNCT		t3
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
 </p>
 <p id="seg971934" lang="English">
 <s id="seg971934.1">
-Dear	Dear	dear	ADJ	Degree=Pos	t1
-Senators	Senators	Senator	PROPN	Number=Plur	t2
+<phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
+Dear	Dear	dear	ADJ	Degree=Pos	T1.3	T1.3	T1.3: Time: Period	t1
+Senators	Senators	Senator	PROPN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t2
 <g/>
-,	,	,	PUNCT		t3
-before	before	before	SCONJ		t4
-we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	t5
-proceed	proceed	proceed	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	t6
+</phr>
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t3
+before	before	before	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t4
+we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t5
+proceed	proceed	proceed	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A1.1.1,T2++,M1	A1.1.1	A1.1.1: General actions / making	t6
 <g/>
-,	,	,	PUNCT		t7
-I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	t8
-would	would	would	AUX	VerbForm=Fin	t9
-like	like	like	VERB	VerbForm=Inf	t10
-to	to	to	PART		t11
-inform	inform	inform	VERB	VerbForm=Inf	t12
-you	you	you	PRON	Case=Acc Person=2 PronType=Prs	t13
-about	about	about	ADP		t14
-the	the	the	DET	Definite=Def PronType=Art	t15
-work	work	work	NOUN	Number=Sing	t16
-of	of	of	ADP		t17
-the	the	the	DET	Definite=Def PronType=Art	t18
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t7
+I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t8
+would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t9
+like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t10
+to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t11
+<phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
+inform	inform	inform	VERB	VerbForm=Inf	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t12
+you	you	you	PRON	Case=Acc Person=2 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t13
+</phr>
+about	about	about	ADP	-	Z5	Z5	Z5: Grammatical bin	t14
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t15
+work	work	work	NOUN	Number=Sing	I3.1,A1.1.1,Q4,K2,C1	I3.1	I3.1: Work and employment: Generally	t16
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t17
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t18
 <name type="ORG">
-Senate	Senate	Senate	PROPN	Number=Sing	t19
+Senate	Senate	Senate	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t19
 </name>
-today	today	today	NOUN	Number=Sing	t20
+today	today	today	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t20
 <g/>
-,	,	,	PUNCT		t21
-and	and	and	CCONJ		t22
-we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	t23
-have	have	have	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	t24
-agreed	agreed	agree	VERB	Tense=Past VerbForm=Part	t25
-in	in	in	ADP		t26
-advance	advance	advance	NOUN	Number=Sing	t27
-in	in	in	ADP		t28
-the	the	the	DET	Definite=Def PronType=Art	t29
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t21
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t22
+we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t23
+have	have	have	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t24
+agreed	agreed	agree	VERB	Tense=Past VerbForm=Part	A6.1+,Q2.2	A6.1p	A6.1+: Comparing: Similar	t25
+<phr usas_tags="T4+" usas_cats="T4p" usas_glosses="T4+: Time: Early">
+in	in	in	ADP	-	T4+	T4p	T4+: Time: Early	t26
+advance	advance	advance	NOUN	Number=Sing	T4+	T4p	T4+: Time: Early	t27
+</phr>
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t28
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t29
 <name type="MISC">
-Senior	Senior	senior	ADJ	Degree=Pos	t30
-Convention	Convention	Convention	PROPN	Number=Sing	t31
+Senior	Senior	senior	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t30
+Convention	Convention	Convention	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t31
 <g/>
 </name>
-.	.	.	PUNCT		t32
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
 </p>
 <p id="seg971935" lang="English">
 <s id="seg971935.1">
-In	In	in	ADP		t1
-a	a	a	DET	Definite=Ind PronType=Art	t2
-moment	moment	moment	NOUN	Number=Sing	t3
-we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	t4
-will	will	will	AUX	VerbForm=Fin	t5
-proceed	proceed	proceed	VERB	VerbForm=Inf	t6
-with	with	with	ADP		t7
-the	the	the	DET	Definite=Def PronType=Art	t8
-examination	examination	examination	NOUN	Number=Sing	t9
-of	of	of	ADP		t10
-the	the	the	DET	Definite=Def PronType=Art	t11
-ninth	ninth	ninth	ADJ	Degree=Pos NumType=Ord	t12
-paragraph	paragraph	paragraph	NOUN	Number=Sing	t13
+In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
+a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
+moment	moment	moment	NOUN	Number=Sing	T1.2,T1.1.2,N3	T1.2	T1.2: Time: Momentary	t3
+we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t4
+will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t5
+proceed	proceed	proceed	VERB	VerbForm=Inf	A1.1.1,T2++,M1	A1.1.1	A1.1.1: General actions / making	t6
+with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t7
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t8
+examination	examination	examination	NOUN	Number=Sing	P1,X2.4,B3	P1	P1: Education in general	t9
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t10
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t11
+ninth	ninth	ninth	ADJ	Degree=Pos NumType=Ord	N1	N1	N1: Numbers	t12
+paragraph	paragraph	paragraph	NOUN	Number=Sing	Q3	Q3	Q3: Language, speech and grammar	t13
 <g/>
-:	:	:	PUNCT		t14
-the	the	the	DET	Definite=Def PronType=Art	t15
-second	second	second	ADJ	Degree=Pos NumType=Ord	t16
-reading	reading	reading	NOUN	Number=Sing	t17
-of	of	of	ADP		t18
-the	the	the	DET	Definite=Def PronType=Art	t19
-draft	draft	draft	NOUN	Number=Sing	t20
-resolution	resolution	resolution	NOUN	Number=Sing	t21
-expressing	expressing	express	VERB	VerbForm=Ger	t22
-solidarity	solidarity	solidarity	NOUN	Number=Sing	t23
-with	with	with	ADP		t24
-the	the	the	DET	Definite=Def PronType=Art	t25
+:	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t14
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t15
+second	second	second	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t16
+<phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
+reading	reading	reading	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t17
+of	of	of	ADP	-	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t18
+the	the	the	DET	Definite=Def PronType=Art	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t19
+draft	draft	draft	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t20
+</phr>
+resolution	resolution	resolution	NOUN	Number=Sing	X6+,X9.2+	X6p	X6+: Decided	t21
+expressing	expressing	express	VERB	VerbForm=Ger	Q1.1,B1%	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t22
+solidarity	solidarity	solidarity	NOUN	Number=Sing	S5+	S5p	S5+: Belonging to a group	t23
+with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t24
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t25
 <name type="MISC">
-Australian	Australian	Australian	ADJ	Degree=Pos	t26
+Australian	Australian	Australian	ADJ	Degree=Pos	Z2	Z2	Z2: Geographical names	t26
 </name>
-people	people	people	NOUN	Number=Plur	t27
+people	people	people	NOUN	Number=Plur	S2mfc	S2	S2: People	t27
 <g/>
-.	.	.	PUNCT		t28
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
 <s id="seg971935.2">
-The	The	the	DET	Definite=Def PronType=Art	t1
-vote	vote	vote	NOUN	Number=Sing	t2
-on	on	on	ADP		t3
-this	this	this	DET	Number=Sing PronType=Dem	t4
-resolution	resolution	resolution	NOUN	Number=Sing	t5
-will	will	will	AUX	VerbForm=Fin	t6
-take	take	take	VERB	VerbForm=Inf	t7
-place	place	place	NOUN	Number=Sing	t8
-immediately	immediately	immediately	ADV		t9
-after	after	after	ADP		t10
-consideration	consideration	consideration	NOUN	Number=Sing	t11
-of	of	of	ADP		t12
-this	this	this	DET	Number=Sing PronType=Dem	t13
-point	point	point	NOUN	Number=Sing	t14
+The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
+vote	vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t2
+on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
+this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t4
+resolution	resolution	resolution	NOUN	Number=Sing	X6+,X9.2+	X6p	X6+: Decided	t5
+will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t6
+<phr usas_tags="A1.1.1" usas_cats="A1.1.1" usas_glosses="A1.1.1: General actions / making">
+take	take	take	VERB	VerbForm=Inf	A1.1.1	A1.1.1	A1.1.1: General actions / making	t7
+place	place	place	NOUN	Number=Sing	A1.1.1	A1.1.1	A1.1.1: General actions / making	t8
+</phr>
+immediately	immediately	immediately	ADV	-	N3.8+,T1.1.2/A11.1+,N4	N3.8p	N3.8+: Speed: Fast	t9
+after	after	after	ADP	-	Z5	Z5	Z5: Grammatical bin	t10
+consideration	consideration	consideration	NOUN	Number=Sing	X2.1,X2.4,S1.2.3-	X2.1	X2.1: Thought, belief	t11
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t12
+this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t13
+point	point	point	NOUN	Number=Sing	Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5	Q2.1	Q2.1: Speech: Communicative	t14
 <g/>
-.	.	.	PUNCT		t15
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
 <s id="seg971935.3">
-After	After	after	ADP		t1
-the	the	the	DET	Definite=Def PronType=Art	t2
-ninth	ninth	ninth	ADJ	Degree=Pos NumType=Ord	t3
-paragraph	paragraph	paragraph	NOUN	Number=Sing	t4
+After	After	after	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
+ninth	ninth	ninth	ADJ	Degree=Pos NumType=Ord	N1	N1	N1: Numbers	t3
+paragraph	paragraph	paragraph	NOUN	Number=Sing	Q3	Q3	Q3: Language, speech and grammar	t4
 <g/>
-,	,	,	PUNCT		t5
-we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	t6
-will	will	will	AUX	VerbForm=Fin	t7
-continue	continue	continue	VERB	VerbForm=Inf	t8
-to	to	to	PART		t9
-consider	consider	consider	VERB	VerbForm=Inf	t10
-the	the	the	DET	Definite=Def PronType=Art	t11
-first	first	first	ADJ	Degree=Pos NumType=Ord	t12
-paragraph	paragraph	paragraph	NOUN	Number=Sing	t13
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t5
+we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t6
+will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t7
+continue	continue	continue	VERB	VerbForm=Inf	T2++	T2p	T2+: Time: Beginning	t8
+to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t9
+consider	consider	consider	VERB	VerbForm=Inf	X2.1,X2.4,X6	X2.1	X2.1: Thought, belief	t10
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t11
+first	first	first	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t12
+paragraph	paragraph	paragraph	NOUN	Number=Sing	Q3	Q3	Q3: Language, speech and grammar	t13
 <g/>
-:	:	:	PUNCT		t14
-the	the	the	DET	Definite=Def PronType=Art	t15
-Law	Law	law	NOUN	Number=Sing	t16
-amending	amending	amend	VERB	VerbForm=Ger	t17
-the	the	the	DET	Definite=Def PronType=Art	t18
-Law	Law	law	NOUN	Number=Sing	t19
-on	on	on	ADP		t20
-the	the	the	DET	Definite=Def PronType=Art	t21
-system	system	system	NOUN	Number=Sing	t22
-of	of	of	ADP		t23
-common	common	common	ADJ	Degree=Pos	t24
-courts	courts	court	NOUN	Number=Plur	t25
+:	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t14
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t15
+Law	Law	law	NOUN	Number=Sing	G2.1,S6+,Y1	G2.1	G2.1: Law and order	t16
+amending	amending	amend	VERB	VerbForm=Ger	A2.1+	A2.1p	A2.1+: Change	t17
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t18
+Law	Law	law	NOUN	Number=Sing	G2.1,S6+,Y1	G2.1	G2.1: Law and order	t19
+on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t20
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t21
+system	system	system	NOUN	Number=Sing	X4.2,O3,M3,M4,Q1.3,Y2,B1,N2,G1.1c	X4.2	X4.2: Mental object: Means, method	t22
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t23
+common	common	common	ADJ	Degree=Pos	A6.2+,N5++,S5+,O4.2-	A6.2p	A6.2+: Comparing: Usual	t24
+courts	courts	court	NOUN	Number=Plur	G2.1,H3,M7/K5.2	G2.1	G2.1: Law and order	t25
 <g/>
-,	,	,	PUNCT		t26
-the	the	the	DET	Definite=Def PronType=Art	t27
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t26
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t27
 <name type="ORG">
-Law	Law	Law	PROPN	Number=Sing	t28
-on	on	on	ADP		t29
-the	the	the	DET	Definite=Def PronType=Art	t30
-Supreme	Supreme	Supreme	ADJ	Degree=Pos	t31
-Court	Court	Court	PROPN	Number=Sing	t32
+Law	Law	Law	PROPN	Number=Sing	G2.1,S6+,Y1	G2.1	G2.1: Law and order	t28
+on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t29
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t30
+Supreme	Supreme	Supreme	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t31
+Court	Court	Court	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t32
 </name>
-and	and	and	CCONJ		t33
-some	some	some	DET		t34
-other	other	other	ADJ	Degree=Pos	t35
-laws	laws	law	NOUN	Number=Plur	t36
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t33
+some	some	some	DET	-	N5,Z5	N5	N5: Quantities	t34
+other	other	other	ADJ	Degree=Pos	A6.1-	A6.1n	A6.1-: Comparing: Different	t35
+laws	laws	law	NOUN	Number=Plur	G2.1,S6+	G2.1	G2.1: Law and order	t36
 <g/>
-.	.	.	PUNCT		t37
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
 </s>
 <s id="seg971935.4">
-An	An	a	DET	Definite=Ind PronType=Art	t1
-hour	hour	hour	NOUN	Number=Sing	t2
+An	An	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
+hour	hour	hour	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
 <g/>
-'s	's	's	PART		t3
-interruption	interruption	interruption	NOUN	Number=Sing	t4
-will	will	will	AUX	VerbForm=Fin	t5
-then	then	then	ADV	PronType=Dem	t6
-be	be	be	AUX	VerbForm=Inf	t7
-announced	announced	announce	VERB	Tense=Past VerbForm=Part Voice=Pass	t8
-for	for	for	ADP		t9
-the	the	the	DET	Definite=Def PronType=Art	t10
-committee	committee	committee	NOUN	Number=Sing	t11
+'s	's	's	PART	-	Z5	Z5	Z5: Grammatical bin	t3
+interruption	interruption	interruption	NOUN	Number=Sing	Q2.2,X7-,T2-	Q2.2	Q2.2: Speech acts	t4
+will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t5
+then	then	then	ADV	PronType=Dem	N4,Z5,T1.2	N4	N4: Linear order	t6
+be	be	be	AUX	VerbForm=Inf	A3+,Z5	A3p	A3+: Existing	t7
+announced	announced	announce	VERB	Tense=Past VerbForm=Part Voice=Pass	Q2.2	Q2.2	Q2.2: Speech acts	t8
+for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t9
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t10
+committee	committee	committee	NOUN	Number=Sing	S7.1+/S5+c	S7.1p S5p	S7.1+: In power|S5+: Belonging to a group	t11
 <g/>
-'s	's	's	PART		t12
-meeting	meeting	meeting	NOUN	Number=Sing	t13
-on	on	on	ADP		t14
-the	the	the	DET	Definite=Def PronType=Art	t15
-examination	examination	examination	NOUN	Number=Sing	t16
-of	of	of	ADP		t17
-the	the	the	DET	Definite=Def PronType=Art	t18
-legislative	legislative	legislative	ADJ	Degree=Pos	t19
-proposals	proposals	proposal	NOUN	Number=Plur	t20
-submitted	submitted	submit	VERB	Tense=Past VerbForm=Part	t21
-to	to	to	ADP		t22
-the	the	the	DET	Definite=Def PronType=Art	t23
+'s	's	's	PART	-	Z5	Z5	Z5: Grammatical bin	t12
+meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t13
+on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t14
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t15
+examination	examination	examination	NOUN	Number=Sing	P1,X2.4,B3	P1	P1: Education in general	t16
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t17
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t18
+legislative	legislative	legislative	ADJ	Degree=Pos	G2.1	G2.1	G2.1: Law and order	t19
+proposals	proposals	proposal	NOUN	Number=Plur	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Speech acts	t20
+submitted	submitted	submit	VERB	Tense=Past VerbForm=Part	A9-,S7.1-	A9n	A9-: Giving	t21
+to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t22
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t23
 <name type="ORG">
-Act	Act	act	NOUN	Number=Sing	t24
+Act	Act	act	NOUN	Number=Sing	A1.1.1,T1.1.2,A8,K4	A1.1.1	A1.1.1: General actions / making	t24
 </name>
-from	from	from	ADP		t25
-the	the	the	DET	Definite=Def PronType=Art	t26
-first	first	first	ADJ	Degree=Pos NumType=Ord	t27
-point	point	point	NOUN	Number=Sing	t28
+from	from	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t25
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t26
+first	first	first	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t27
+point	point	point	NOUN	Number=Sing	Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5	Q2.1	Q2.1: Speech: Communicative	t28
 <g/>
-.	.	.	PUNCT		t29
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
 <s id="seg971935.5">
-After	After	after	ADP		t1
-the	the	the	DET	Definite=Def PronType=Art	t2
-break	break	break	NOUN	Number=Sing	t3
-there	there	there	PRON		t4
-will	will	will	AUX	VerbForm=Fin	t5
-be	be	be	VERB	VerbForm=Inf	t6
-a	a	a	DET	Definite=Ind PronType=Art	t7
-vote	vote	vote	NOUN	Number=Sing	t8
-on	on	on	ADP		t9
-this	this	this	DET	Number=Sing PronType=Dem	t10
-item	item	item	NOUN	Number=Sing	t11
+After	After	after	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
+break	break	break	NOUN	Number=Sing	K1/T1.3,T2-,O2,A1.4,A1.1.2	K1 T1.3	K1: Entertainment generally|T1.3: Time: Period	t3
+there	there	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t4
+will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t5
+be	be	be	VERB	VerbForm=Inf	A3+,Z5	A3p	A3+: Existing	t6
+a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t7
+vote	vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t8
+on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t9
+this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t10
+item	item	item	NOUN	Number=Sing	O2,Q4,X4.1	O2	O2: Objects generally	t11
 <g/>
-.	.	.	PUNCT		t12
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
 <s id="seg971935.6">
-Following	Following	follow	VERB	VerbForm=Ger	t1
-the	the	the	DET	Definite=Def PronType=Art	t2
-vote	vote	vote	NOUN	Number=Sing	t3
+Following	Following	follow	VERB	VerbForm=Ger	M1,N4,S7.1-,X2.4,X2.5+,A6.1+,A1.1.1,A2.2,K5.1,X3.4	M1	M1: Moving, coming and going	t1
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
+vote	vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t3
 <g/>
-,	,	,	PUNCT		t4
-as	as	as	SCONJ		t5
-announced	announced	announce	VERB	Tense=Past VerbForm=Part	t6
-earlier	earlier	early	ADV	Degree=Cmp	t7
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t4
+as	as	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t5
+announced	announced	announce	VERB	Tense=Past VerbForm=Part	Q2.2	Q2.2	Q2.2: Speech acts	t6
+earlier	earlier	early	ADV	Degree=Cmp	N4,T1.1.1,T4++	N4	N4: Linear order	t7
 <g/>
-,	,	,	PUNCT		t8
-a	a	a	DET	Definite=Ind PronType=Art	t9
-proposal	proposal	proposal	NOUN	Number=Sing	t10
-to	to	to	PART		t11
-complete	complete	complete	VERB	VerbForm=Inf	t12
-the	the	the	DET	Definite=Def PronType=Art	t13
-agenda	agenda	agenda	NOUN	Number=Sing	t14
-by	by	by	ADP		t15
-2	2	2	NUM	NumForm=Digit NumType=Card	t16
-points	points	point	NOUN	Number=Plur	t17
-will	will	will	AUX	VerbForm=Fin	t18
-be	be	be	AUX	VerbForm=Inf	t19
-presented	presented	present	VERB	Tense=Past VerbForm=Part Voice=Pass	t20
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t8
+a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t9
+proposal	proposal	proposal	NOUN	Number=Sing	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Speech acts	t10
+to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t11
+complete	complete	complete	VERB	VerbForm=Inf	T2-,Q1.2	T2n	T2-: Time: Ending	t12
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t13
+agenda	agenda	agenda	NOUN	Number=Sing	Q1.2/X7+	Q1.2 X7p	Q1.2: Paper documents and writing|X7+: Wanted	t14
+by	by	by	ADP	-	Z5	Z5	Z5: Grammatical bin	t15
+2	2	2	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t16
+points	points	point	NOUN	Number=Plur	Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5	Q2.1	Q2.1: Speech: Communicative	t17
+will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t18
+be	be	be	AUX	VerbForm=Inf	A3+,Z5	A3p	A3+: Existing	t19
+presented	presented	present	VERB	Tense=Past VerbForm=Part Voice=Pass	A9-,A2.2,Q2.2,S1.1.3+,Q4.3,O4.1,K4	A9n	A9-: Giving	t20
 <g/>
-:	:	:	PUNCT		t21
-the	the	the	DET	Definite=Def PronType=Art	t22
-second	second	second	ADJ	Degree=Pos NumType=Ord	t23
-reading	reading	reading	NOUN	Number=Sing	t24
-of	of	of	ADP		t25
-the	the	the	DET	Definite=Def PronType=Art	t26
-draft	draft	draft	NOUN	Number=Sing	t27
-resolution	resolution	resolution	NOUN	Number=Sing	t28
-on	on	on	ADP		t29
-the	the	the	DET	Definite=Def PronType=Art	t30
-75th	75th	75th	ADJ	Degree=Pos NumType=Ord	t31
-anniversary	anniversary	anniversary	NOUN	Number=Sing	t32
-of	of	of	ADP		t33
-the	the	the	DET	Definite=Def PronType=Art	t34
+:	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t21
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t22
+second	second	second	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t23
+<phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
+reading	reading	reading	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t24
+of	of	of	ADP	-	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t25
+the	the	the	DET	Definite=Def PronType=Art	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t26
+draft	draft	draft	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t27
+</phr>
+resolution	resolution	resolution	NOUN	Number=Sing	X6+,X9.2+	X6p	X6+: Decided	t28
+on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t29
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t30
+75th	75th	75th	ADJ	Degree=Pos NumType=Ord	Z99	Z99	Z99: Unmatched	t31
+anniversary	anniversary	anniversary	NOUN	Number=Sing	T1.2	T1.2	T1.2: Time: Momentary	t32
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t33
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t34
 <name type="MISC">
-Upper	Upper	Upper	ADJ	Degree=Pos	t35
-Silesian	Silesian	Silesian	PROPN	Number=Sing	t36
-Tragedy	Tragedy	Tragedy	PROPN	Number=Sing	t37
+Upper	Upper	Upper	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t35
+Silesian	Silesian	Silesian	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t36
+Tragedy	Tragedy	Tragedy	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t37
 <g/>
 </name>
-,	,	,	PUNCT		t38
-paragraph	paragraph	paragraph	NOUN	Number=Sing	t39
-10	10	10	NUM	NumForm=Digit NumType=Card	t40
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t38
+paragraph	paragraph	paragraph	NOUN	Number=Sing	Q3	Q3	Q3: Language, speech and grammar	t39
+10	10	10	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t40
 <g/>
-;	;	;	PUNCT		t41
-the	the	the	DET	Definite=Def PronType=Art	t42
-second	second	second	ADJ	Degree=Pos NumType=Ord	t43
-reading	reading	reading	NOUN	Number=Sing	t44
-of	of	of	ADP		t45
-the	the	the	DET	Definite=Def PronType=Art	t46
-draft	draft	draft	NOUN	Number=Sing	t47
-resolution	resolution	resolution	NOUN	Number=Sing	t48
-on	on	on	ADP		t49
-the	the	the	DET	Definite=Def PronType=Art	t50
-words	words	word	NOUN	Number=Plur	t51
-of	of	of	ADP		t52
-the	the	the	DET	Definite=Def PronType=Art	t53
-President	President	President	PROPN	Number=Sing	t54
-of	of	of	ADP		t55
-the	the	the	DET	Definite=Def PronType=Art	t56
+;	;	;	PUNCT	-	Z9	Z9	Z9: Trash can	t41
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t42
+second	second	second	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t43
+<phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
+reading	reading	reading	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t44
+of	of	of	ADP	-	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t45
+the	the	the	DET	Definite=Def PronType=Art	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t46
+draft	draft	draft	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t47
+</phr>
+resolution	resolution	resolution	NOUN	Number=Sing	X6+,X9.2+	X6p	X6+: Decided	t48
+on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t49
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t50
+words	words	word	NOUN	Number=Plur	Q3	Q3	Q3: Language, speech and grammar	t51
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t52
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t53
+President	President	President	PROPN	Number=Sing	G1.1/S7.1+/S2mf	G1.1 S7.1p S2	G1.1: Government|S7.1+: In power|S2: People	t54
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t55
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t56
 <name type="LOC">
-Russian	Russian	Russian	ADJ	Degree=Pos	t57
-Federation	Federation	Federation	PROPN	Number=Sing	t58
+Russian	Russian	Russian	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t57
+Federation	Federation	Federation	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t58
 <g/>
 </name>
-,	,	,	PUNCT		t59
-paragraph	paragraph	paragraph	NOUN	Number=Sing	t60
-11	11	11	NUM	NumForm=Digit NumType=Card	t61
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t59
+paragraph	paragraph	paragraph	NOUN	Number=Sing	Q3	Q3	Q3: Language, speech and grammar	t60
+11	11	11	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t61
 <g/>
-.	.	.	PUNCT		t62
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t62
 </s>
 <s id="seg971935.7">
-Then	Then	then	ADV	PronType=Dem	t1
+Then	Then	then	ADV	PronType=Dem	N4,Z5,T1.2	N4	N4: Linear order	t1
 <g/>
-,	,	,	PUNCT		t2
-after	after	after	SCONJ		t3
-considering	considering	consider	VERB	VerbForm=Ger	t4
-requests	requests	request	NOUN	Number=Plur	t5
-for	for	for	ADP		t6
-addition	addition	addition	NOUN	Number=Sing	t7
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
+after	after	after	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t3
+considering	considering	consider	VERB	VerbForm=Ger	X2.1,X2.4,X6	X2.1	X2.1: Thought, belief	t4
+requests	requests	request	NOUN	Number=Plur	Q2.1,Q2.2	Q2.1	Q2.1: Speech: Communicative	t5
+for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t6
+addition	addition	addition	NOUN	Number=Sing	N5++,N2	N5p	N5+: Quantities: many/much	t7
 <g/>
-,	,	,	PUNCT		t8
-the	the	the	DET	Definite=Def PronType=Art	t9
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t8
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t9
 <name type="ORG">
-Senate	Senate	Senate	PROPN	Number=Sing	t10
+Senate	Senate	Senate	PROPN	Number=Sing	S7.1+	S7.1p	S7.1+: In power	t10
 </name>
-will	will	will	AUX	VerbForm=Fin	t11
-proceed	proceed	proceed	VERB	VerbForm=Inf	t12
-with	with	with	ADP		t13
-further	further	further	ADJ	Degree=Cmp	t14
-examination	examination	examination	NOUN	Number=Sing	t15
-of	of	of	ADP		t16
-the	the	the	DET	Definite=Def PronType=Art	t17
-points	points	point	NOUN	Number=Plur	t18
+will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t11
+proceed	proceed	proceed	VERB	VerbForm=Inf	A1.1.1,T2++,M1	A1.1.1	A1.1.1: General actions / making	t12
+with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t13
+further	further	further	ADJ	Degree=Cmp	N5++,N3.3++,T2++	N5p	N5+: Quantities: many/much	t14
+<phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
+examination	examination	examination	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t15
+of	of	of	ADP	-	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t16
+the	the	the	DET	Definite=Def PronType=Art	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t17
+points	points	point	NOUN	Number=Plur	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t18
 <g/>
-:	:	:	PUNCT		t19
-the	the	the	DET	Definite=Def PronType=Art	t20
-Act	Act	act	NOUN	Number=Sing	t21
-amending	amending	amend	VERB	VerbForm=Ger	t22
-certain	certain	certain	ADJ	Degree=Pos	t23
-laws	laws	law	NOUN	Number=Plur	t24
-to	to	to	PART		t25
-facilitate	facilitate	facilitate	VERB	VerbForm=Inf	t26
-the	the	the	DET	Definite=Def PronType=Art	t27
-eradication	eradication	eradication	NOUN	Number=Sing	t28
-of	of	of	ADP		t29
-infectious	infectious	infectious	ADJ	Degree=Pos	t30
-animal	animal	animal	NOUN	Number=Sing	t31
-diseases	diseases	disease	NOUN	Number=Plur	t32
+</phr>
+:	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t19
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t20
+Act	Act	act	NOUN	Number=Sing	A1.1.1,T1.1.2,A8,K4	A1.1.1	A1.1.1: General actions / making	t21
+amending	amending	amend	VERB	VerbForm=Ger	A2.1+	A2.1p	A2.1+: Change	t22
+certain	certain	certain	ADJ	Degree=Pos	A4.2+,A7+	A4.2p	A4.2+: Detailed	t23
+laws	laws	law	NOUN	Number=Plur	G2.1,S6+	G2.1	G2.1: Law and order	t24
+to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t25
+facilitate	facilitate	facilitate	VERB	VerbForm=Inf	S8+	S8p	S8+: Helping	t26
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t27
+eradication	eradication	eradication	NOUN	Number=Sing	A1.1.2,A9-	A1.1.2	A1.1.2: Damaging and destroying	t28
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t29
+infectious	infectious	infectious	ADJ	Degree=Pos	B2-,X5.2+	B2n	B2-: Disease	t30
+<phr usas_tags="B2-" usas_cats="B2n" usas_glosses="B2-: Disease">
+animal	animal	animal	NOUN	Number=Sing	B2-	B2n	B2-: Disease	t31
+diseases	diseases	disease	NOUN	Number=Plur	B2-	B2n	B2-: Disease	t32
 <g/>
-;	;	;	PUNCT		t33
-point	point	point	NOUN	Number=Sing	t34
-5	5	5	NUM	NumForm=Digit NumType=Card	t35
+</phr>
+;	;	;	PUNCT	-	Z9	Z9	Z9: Trash can	t33
+point	point	point	NOUN	Number=Sing	Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5	Q2.1	Q2.1: Speech: Communicative	t34
+5	5	5	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t35
 <g/>
-;	;	;	PUNCT		t36
-the	the	the	DET	Definite=Def PronType=Art	t37
-Act	Act	act	NOUN	Number=Sing	t38
-establishing	establishing	establish	VERB	VerbForm=Ger	t39
-the	the	the	DET	Definite=Def PronType=Art	t40
+;	;	;	PUNCT	-	Z9	Z9	Z9: Trash can	t36
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t37
+Act	Act	act	NOUN	Number=Sing	A1.1.1,T1.1.2,A8,K4	A1.1.1	A1.1.1: General actions / making	t38
+establishing	establishing	establish	VERB	VerbForm=Ger	T2+,X6+	T2p	T2+: Time: Beginning	t39
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t40
 <name type="MISC">
-Polish	Polish	Polish	ADJ	Degree=Pos	t41
-Science	Science	Science	PROPN	Number=Sing	t42
-Day	Day	Day	PROPN	Number=Sing	t43
+Polish	Polish	Polish	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t41
+Science	Science	Science	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t42
+Day	Day	Day	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t43
 </name>
 </s>
 <s id="seg971935.8">
-Point	Point	point	NOUN	Number=Sing	t1
-7	7	7	NUM	NumForm=Digit NumType=Card	t2
+Point	Point	point	NOUN	Number=Sing	Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5	Q2.1	Q2.1: Speech: Communicative	t1
+7	7	7	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
 <g/>
-;	;	;	PUNCT		t3
-second	second	second	ADJ	Degree=Pos NumType=Ord	t4
-reading	reading	reading	NOUN	Number=Sing	t5
-of	of	of	ADP		t6
-the	the	the	DET	Definite=Def PronType=Art	t7
-resolution	resolution	resolution	NOUN	Number=Sing	t8
+;	;	;	PUNCT	-	Z9	Z9	Z9: Trash can	t3
+second	second	second	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t4
+<phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
+reading	reading	reading	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t5
+of	of	of	ADP	-	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t6
+the	the	the	DET	Definite=Def PronType=Art	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t7
+resolution	resolution	resolution	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t8
 <g/>
-,	,	,	PUNCT		t9
-in	in	in	ADP		t10
-short	short	short	ADJ	Degree=Pos	t11
+</phr>
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t9
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t10
+short	short	short	ADJ	Degree=Pos	T1.3-,N3.7-,N3.3-,N5-,S1.2.4-,N3.8+@,F1%	T1.3n	T1.3-: Time period: short	t11
 <g/>
-,	,	,	PUNCT		t12
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 <name type="LOC">
-Upper	Upper	Upper	ADJ	Degree=Pos	t13
-Silesia	Silesia	Silesia	PROPN	Number=Sing	t14
+Upper	Upper	Upper	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t13
+Silesia	Silesia	Silesia	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t14
 <g/>
 </name>
-;	;	;	PUNCT		t15
-second	second	second	ADJ	Degree=Pos NumType=Ord	t16
-reading	reading	reading	NOUN	Number=Sing	t17
-of	of	of	ADP		t18
-the	the	the	DET	Definite=Def PronType=Art	t19
-draft	draft	draft	NOUN	Number=Sing	t20
-resolution	resolution	resolution	NOUN	Number=Sing	t21
-on	on	on	ADP		t22
-the	the	the	DET	Definite=Def PronType=Art	t23
-words	words	word	NOUN	Number=Plur	t24
-of	of	of	ADP		t25
-the	the	the	DET	Definite=Def PronType=Art	t26
-President	President	President	PROPN	Number=Sing	t27
-of	of	of	ADP		t28
-the	the	the	DET	Definite=Def PronType=Art	t29
+;	;	;	PUNCT	-	Z9	Z9	Z9: Trash can	t15
+second	second	second	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t16
+<phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
+reading	reading	reading	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t17
+of	of	of	ADP	-	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t18
+the	the	the	DET	Definite=Def PronType=Art	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t19
+draft	draft	draft	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t20
+</phr>
+resolution	resolution	resolution	NOUN	Number=Sing	X6+,X9.2+	X6p	X6+: Decided	t21
+on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t22
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t23
+words	words	word	NOUN	Number=Plur	Q3	Q3	Q3: Language, speech and grammar	t24
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t25
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t26
+President	President	President	PROPN	Number=Sing	G1.1/S7.1+/S2mf	G1.1 S7.1p S2	G1.1: Government|S7.1+: In power|S2: People	t27
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t28
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t29
 <name type="LOC">
-Russian	Russian	Russian	ADJ	Degree=Pos	t30
-Federation	Federation	Federation	PROPN	Number=Sing	t31
+Russian	Russian	Russian	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t30
+Federation	Federation	Federation	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t31
 <g/>
 </name>
-.	.	.	PUNCT		t32
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
 <s id="seg971935.9">
-After	After	after	SCONJ		t1
-considering	considering	consider	VERB	VerbForm=Ger	t2
-the	the	the	DET	Definite=Def PronType=Art	t3
-draft	draft	draft	NOUN	Number=Sing	t4
-resolution	resolution	resolution	NOUN	Number=Sing	t5
-on	on	on	ADP		t6
-the	the	the	DET	Definite=Def PronType=Art	t7
-words	words	word	NOUN	Number=Plur	t8
-of	of	of	ADP		t9
-the	the	the	DET	Definite=Def PronType=Art	t10
-President	President	President	PROPN	Number=Sing	t11
-of	of	of	ADP		t12
-the	the	the	DET	Definite=Def PronType=Art	t13
+After	After	after	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
+considering	considering	consider	VERB	VerbForm=Ger	X2.1,X2.4,X6	X2.1	X2.1: Thought, belief	t2
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
+draft	draft	draft	NOUN	Number=Sing	Q1.2,G3,Q1.2/I1	Q1.2	Q1.2: Paper documents and writing	t4
+resolution	resolution	resolution	NOUN	Number=Sing	X6+,X9.2+	X6p	X6+: Decided	t5
+on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t6
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t7
+words	words	word	NOUN	Number=Plur	Q3	Q3	Q3: Language, speech and grammar	t8
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t9
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t10
+President	President	President	PROPN	Number=Sing	G1.1/S7.1+/S2mf	G1.1 S7.1p S2	G1.1: Government|S7.1+: In power|S2: People	t11
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t12
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t13
 <name type="LOC">
-Russian	Russian	Russian	ADJ	Degree=Pos	t14
-Federation	Federation	Federation	PROPN	Number=Sing	t15
+Russian	Russian	Russian	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t14
+Federation	Federation	Federation	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t15
 <g/>
 </name>
-,	,	,	PUNCT		t16
-a	a	a	DET	Definite=Ind PronType=Art	t17
-short	short	short	ADJ	Degree=Pos	t18
-interruption	interruption	interruption	NOUN	Number=Sing	t19
-will	will	will	AUX	VerbForm=Fin	t20
-be	be	be	AUX	VerbForm=Inf	t21
-ordered	ordered	order	VERB	Tense=Past VerbForm=Part Voice=Pass	t22
-in	in	in	ADP		t23
-the	the	the	DET	Definite=Def PronType=Art	t24
-deliberations	deliberations	deliberation	NOUN	Number=Plur	t25
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t16
+a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t17
+short	short	short	ADJ	Degree=Pos	T1.3-,N3.7-,N3.3-,N5-,S1.2.4-,N3.8+@,F1%	T1.3n	T1.3-: Time period: short	t18
+interruption	interruption	interruption	NOUN	Number=Sing	Q2.2,X7-,T2-	Q2.2	Q2.2: Speech acts	t19
+will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t20
+be	be	be	AUX	VerbForm=Inf	A3+,Z5	A3p	A3+: Existing	t21
+ordered	ordered	order	VERB	Tense=Past VerbForm=Part Voice=Pass	S7.1+/Q2.2,I2.2/Q2.2	S7.1p Q2.2	S7.1+: In power|Q2.2: Speech acts	t22
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t23
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t24
+deliberations	deliberations	deliberation	NOUN	Number=Plur	X2.1/A1.3+,X2.4,X7+	X2.1 A1.3p	X2.1: Thought, belief|A1.3+: Cautious	t25
 <g/>
-,	,	,	PUNCT		t26
-after	after	after	ADP		t27
-which	which	which	PRON	PronType=Rel	t28
-we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	t29
-will	will	will	AUX	VerbForm=Fin	t30
-join	join	join	VERB	VerbForm=Inf	t31
-the	the	the	DET	Definite=Def PronType=Art	t32
-voting	voting	voting	NOUN	Number=Sing	t33
-block	block	block	NOUN	Number=Sing	t34
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t26
+after	after	after	ADP	-	Z5	Z5	Z5: Grammatical bin	t27
+which	which	which	PRON	PronType=Rel	Z5,Z8	Z5	Z5: Grammatical bin	t28
+we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t29
+will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t30
+join	join	join	VERB	VerbForm=Inf	A2.2,S5+,A1.8+,A1.1.1	A2.2	A2.2: Cause	t31
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t32
+voting	voting	voting	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t33
+block	block	block	NOUN	Number=Sing	O2,H1,N5+,S8-,B3	O2	O2: Objects generally	t34
 <g/>
-.	.	.	PUNCT		t35
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t35
 </s>
 <s id="seg971935.10">
-The	The	the	DET	Definite=Def PronType=Art	t1
-block	block	block	NOUN	Number=Sing	t2
-will	will	will	AUX	VerbForm=Fin	t3
-begin	begin	begin	VERB	VerbForm=Inf	t4
-with	with	with	ADP		t5
-a	a	a	DET	Definite=Ind PronType=Art	t6
-vote	vote	vote	NOUN	Number=Sing	t7
-on	on	on	ADP		t8
-changes	changes	change	NOUN	Number=Plur	t9
-in	in	in	ADP		t10
-the	the	the	DET	Definite=Def PronType=Art	t11
-membership	membership	membership	NOUN	Number=Sing	t12
-of	of	of	ADP		t13
-the	the	the	DET	Definite=Def PronType=Art	t14
+The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
+block	block	block	NOUN	Number=Sing	O2,H1,N5+,S8-,B3	O2	O2: Objects generally	t2
+will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t3
+begin	begin	begin	VERB	VerbForm=Inf	T2+	T2p	T2+: Time: Beginning	t4
+with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t5
+a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t6
+vote	vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t7
+on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t8
+changes	changes	change	NOUN	Number=Plur	A2.1+,I1,B1	A2.1p	A2.1+: Change	t9
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t10
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t11
+membership	membership	membership	NOUN	Number=Sing	S5+c,P1	S5p	S5+: Belonging to a group	t12
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t13
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t14
 <name type="ORG">
-Senate	Senate	Senate	PROPN	Number=Sing	t15
+Senate	Senate	Senate	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t15
 </name>
-committees	committees	committee	NOUN	Number=Plur	t16
+committees	committees	committee	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t16
 <g/>
-.	.	.	PUNCT		t17
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
 <s id="seg971935.11">
-The	The	the	DET	Definite=Def PronType=Art	t1
-point	point	point	NOUN	Number=Sing	t2
-concerning	concerning	concern	VERB	VerbForm=Ger	t3
-the	the	the	DET	Definite=Def PronType=Art	t4
-selection	selection	selection	NOUN	Number=Sing	t5
-of	of	of	ADP		t6
-senators	senators	senator	NOUN	Number=Plur	t7
-for	for	for	ADP		t8
-the	the	the	DET	Definite=Def PronType=Art	t9
-composition	composition	composition	NOUN	Number=Sing	t10
-of	of	of	ADP		t11
-the	the	the	DET	Definite=Def PronType=Art	t12
+The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
+point	point	point	NOUN	Number=Sing	Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5	Q2.1	Q2.1: Speech: Communicative	t2
+concerning	concerning	concern	VERB	VerbForm=Ger	E6-,A1.8+,S1.1.3+	E6n	E6-: Worry	t3
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t4
+selection	selection	selection	NOUN	Number=Sing	X7+	X7p	X7+: Wanted	t5
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t6
+senators	senators	senator	NOUN	Number=Plur	G1.2/S2mf	G1.2 S2	G1.2: Politics|S2: People	t7
+for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t8
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t9
+composition	composition	composition	NOUN	Number=Sing	N5.1+,A1.1.1,Q1.2/P1,K2,Q3,C1	N5.1p	N5.1+: Entire; maximum	t10
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t11
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t12
 <name type="ORG">
-National	National	National	ADJ	Degree=Pos	t13
-Judicial	Judicial	judicial	ADJ	Degree=Pos	t14
-Council	Council	Council	PROPN	Number=Sing	t15
+National	National	National	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t13
+Judicial	Judicial	judicial	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t14
+Council	Council	Council	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t15
 </name>
-will	will	will	AUX	VerbForm=Fin	t16
-be	be	be	AUX	VerbForm=Inf	t17
-considered	considered	consider	VERB	Tense=Past VerbForm=Part Voice=Pass	t18
-at	at	at	ADP		t19
-the	the	the	DET	Definite=Def PronType=Art	t20
-end	end	end	NOUN	Number=Sing	t21
-of	of	of	ADP		t22
-the	the	the	DET	Definite=Def PronType=Art	t23
-voting	voting	voting	NOUN	Number=Sing	t24
-block	block	block	NOUN	Number=Sing	t25
+will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t16
+be	be	be	AUX	VerbForm=Inf	A3+,Z5	A3p	A3+: Existing	t17
+considered	considered	consider	VERB	Tense=Past VerbForm=Part Voice=Pass	X2.1,X2.4,X6	X2.1	X2.1: Thought, belief	t18
+at	at	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t19
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t20
+<phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
+end	end	end	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t21
+of	of	of	ADP	-	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t22
+the	the	the	DET	Definite=Def PronType=Art	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t23
+voting	voting	voting	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t24
+</phr>
+block	block	block	NOUN	Number=Sing	O2,H1,N5+,S8-,B3	O2	O2: Objects generally	t25
 <g/>
-,	,	,	PUNCT		t26
-after	after	after	ADP		t27
-a	a	a	DET	Definite=Ind PronType=Art	t28
-short	short	short	ADJ	Degree=Pos	t29
-technical	technical	technical	ADJ	Degree=Pos	t30
-break	break	break	NOUN	Number=Sing	t31
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t26
+after	after	after	ADP	-	Z5	Z5	Z5: Grammatical bin	t27
+a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t28
+short	short	short	ADJ	Degree=Pos	T1.3-,N3.7-,N3.3-,N5-,S1.2.4-,N3.8+@,F1%	T1.3n	T1.3-: Time period: short	t29
+technical	technical	technical	ADJ	Degree=Pos	Y1,I4,X9.1	Y1	Y1: Science and technology in general	t30
+break	break	break	NOUN	Number=Sing	K1/T1.3,T2-,O2,A1.4,A1.1.2	K1 T1.3	K1: Entertainment generally|T1.3: Time: Period	t31
 <g/>
-,	,	,	PUNCT		t32
-when	when	when	SCONJ	PronType=Int	t33
-we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	t34
-are	are	be	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	t35
-done	done	do	VERB	Tense=Past VerbForm=Part Voice=Pass	t36
-voting	voting	voting	VERB	VerbForm=Ger	t37
-on	on	on	ADP		t38
-the	the	the	DET	Definite=Def PronType=Art	t39
-laws	laws	law	NOUN	Number=Plur	t40
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t32
+when	when	when	SCONJ	PronType=Int	Z5	Z5	Z5: Grammatical bin	t33
+we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t34
+are	are	be	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t35
+done	done	do	VERB	Tense=Past VerbForm=Part Voice=Pass	A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5	A1.1.1	A1.1.1: General actions / making	t36
+voting	voting	voting	VERB	VerbForm=Ger	G1.2	G1.2	G1.2: Politics	t37
+on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t38
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t39
+laws	laws	law	NOUN	Number=Plur	G2.1,S6+	G2.1	G2.1: Law and order	t40
 <g/>
-.	.	.	PUNCT		t41
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t41
 </s>
 <s id="seg971935.12">
-And	And	and	CCONJ		t1
-that	that	that	PRON	Number=Sing PronType=Dem	t2
+And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
+that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 <g/>
-'s	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	t3
-formal	formal	formal	ADJ	Degree=Pos	t4
-information	information	information	NOUN	Number=Sing	t5
+'s	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t3
+formal	formal	formal	ADJ	Degree=Pos	S1.2.1-,G1.1,A6.2+,O4.2	S1.2.1n	S1.2.1-: Formal/Unfriendly	t4
+information	information	information	NOUN	Number=Sing	X2.2+	X2.2p	X2.2+: Knowledgeable	t5
 <g/>
-.	.	.	PUNCT		t6
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
 </p>
 <p id="seg971936" lang="English">
 <s id="seg971936.1">
-I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	t1
-would	would	would	AUX	VerbForm=Fin	t2
-like	like	like	VERB	VerbForm=Inf	t3
-to	to	to	PART		t4
-add	add	add	VERB	VerbForm=Inf	t5
-from	from	from	ADP		t6
-myself	myself	myself	PRON	Case=Acc Number=Sing Person=1 PronType=Prs Reflex=Yes	t7
-that	that	that	SCONJ		t8
-the	the	the	DET	Definite=Def PronType=Art	t9
-senator	senator	senator	PROPN	Number=Sing	t10
+I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
+would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
+like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t3
+to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t4
+add	add	add	VERB	VerbForm=Inf	N5+/A2.1,N2,A1.8+	N5p A2.1	N5+: Quantities: many/much|A2.1: Affect: Modify, change	t5
+from	from	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t6
+myself	myself	myself	PRON	Case=Acc Number=Sing Person=1 PronType=Prs Reflex=Yes	Z8mf	Z8	Z8: Pronouns	t7
+that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t8
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t9
+senator	senator	senator	PROPN	Number=Sing	G1.2/S2mf	G1.2 S2	G1.2: Politics|S2: People	t10
 <g/>
-'s	's	's	PART		t11
-expectations	expectations	expectation	NOUN	Number=Plur	t12
-and	and	and	CCONJ		t13
-senators	senators	senator	NOUN	Number=Plur	t14
+'s	's	's	PART	-	Z5	Z5	Z5: Grammatical bin	t11
+<phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
+expectations	expectations	expectation	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t12
+and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t13
+senators	senators	senator	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t14
 <g/>
-'	'	'	PUNCT		t15
-expectations	expectations	expectation	NOUN	Number=Plur	t16
-are	are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	t17
-that	that	that	SCONJ		t18
+</phr>
+'	'	'	PUNCT	-	Z5	Z5	Z5: Grammatical bin	t15
+expectations	expectations	expectation	NOUN	Number=Plur	X2.6+	X2.6p	X2.6+: Expected	t16
+are	are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t17
+that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t18
 <g/>
-,	,	,	PUNCT		t19
-if	if	if	SCONJ		t20
-possible	possible	possible	ADJ	Degree=Pos	t21
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t19
+if	if	if	SCONJ	-	Z7	Z7	Z7: If	t20
+possible	possible	possible	ADJ	Degree=Pos	A7+	A7p	A7+: Likely	t21
 <g/>
-,	,	,	PUNCT		t22
-we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	t23
-should	should	should	AUX	VerbForm=Fin	t24
-conclude	conclude	conclude	VERB	VerbForm=Inf	t25
-today	today	today	NOUN	Number=Sing	t26
-by	by	by	ADP		t27
-22.00	22.00	22.00	NUM	NumForm=Digit NumType=Card	t28
-at	at	at	ADP		t29
-the	the	the	DET	Definite=Def PronType=Art	t30
-latest	latest	late	ADJ	Degree=Sup	t31
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t22
+we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t23
+should	should	should	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or necessity	t24
+conclude	conclude	conclude	VERB	VerbForm=Inf	X6+,T2-	X6p	X6+: Decided	t25
+today	today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t26
+by	by	by	ADP	-	Z5	Z5	Z5: Grammatical bin	t27
+22.00	22.00	22.00	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t28
+at	at	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t29
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t30
+latest	latest	late	ADJ	Degree=Sup	T3---,T4---	T3n	T3-: Time: New and young	t31
 <g/>
-.	.	.	PUNCT		t32
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
 <s id="seg971936.2">
-This	This	this	PRON	Number=Sing PronType=Dem	t1
+This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 <g/>
-.	.	.	PUNCT		t2
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 <s id="seg971936.3">
-I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	t1
-do	do	do	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	t2
+I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
+do	do	do	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t2
 <g/>
-n't	n't	not	PART		t3
-need	need	need	VERB	VerbForm=Inf	t4
-to	to	to	PART		t5
-remind	remind	remind	VERB	VerbForm=Inf	t6
-you	you	you	PRON	Case=Acc Person=2 PronType=Prs	t7
+n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t3
+need	need	need	VERB	VerbForm=Inf	S6+	S6p	S6+: Strong obligation or necessity	t4
+to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t5
+<phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
+remind	remind	remind	VERB	VerbForm=Inf	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t6
+you	you	you	PRON	Case=Acc Person=2 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t7
 <g/>
-.	.	.	PUNCT		t8
+</phr>
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
 <s id="seg971936.4">
-It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	t1
-depends	depends	depend	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	t2
-on	on	on	ADP		t3
-the	the	the	DET	Definite=Def PronType=Art	t4
-discipline	discipline	discipline	NOUN	Number=Sing	t5
-of	of	of	ADP		t6
-both	both	both	CCONJ		t7
-the	the	the	DET	Definite=Def PronType=Art	t8
-senators	senators	senator	NOUN	Number=Plur	t9
-and	and	and	CCONJ		t10
-the	the	the	DET	Definite=Def PronType=Art	t11
-marshals	marshals	marshal	NOUN	Number=Plur	t12
+It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
+depends	depends	depend	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A2.2,S7.1-	A2.2	A2.2: Cause	t2
+on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t4
+discipline	discipline	discipline	NOUN	Number=Sing	G2.1,A1.7+,P1	G2.1	G2.1: Law and order	t5
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t6
+both	both	both	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t7
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t8
+senators	senators	senator	NOUN	Number=Plur	G1.2/S2mf	G1.2 S2	G1.2: Politics|S2: People	t9
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t10
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t11
+marshals	marshals	marshal	NOUN	Number=Plur	K5.1/S2mf,G2.1/S2mf,G3/S7.1+/S2mf	K5.1 S2	K5.1: Sports|S2: People	t12
 <g/>
-,	,	,	PUNCT		t13
-but	but	but	CCONJ		t14
-I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	t15
-believe	believe	believe	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	t16
-that	that	that	SCONJ		t17
-this	this	this	PRON	Number=Sing PronType=Dem	t18
-is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	t19
-possible	possible	possible	ADJ	Degree=Pos	t20
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t13
+but	but	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t14
+<phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
+I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t15
+believe	believe	believe	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t16
+</phr>
+that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t17
+this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t18
+is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t19
+possible	possible	possible	ADJ	Degree=Pos	A7+	A7p	A7+: Likely	t20
 <g/>
-.	.	.	PUNCT		t21
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
 </p>
 <p id="seg971937" lang="English">
 <s id="seg971937.1">
-We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	t1
-therefore	therefore	therefore	ADV		t2
-proceed	proceed	proceed	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	t3
-with	with	with	ADP		t4
-the	the	the	DET	Definite=Def PronType=Art	t5
-examination	examination	examination	NOUN	Number=Sing	t6
-of	of	of	ADP		t7
-item	item	item	NOUN	Number=Sing	t8
-9	9	9	NUM	NumForm=Digit NumType=Card	t9
-of	of	of	ADP		t10
-the	the	the	DET	Definite=Def PronType=Art	t11
-agenda	agenda	agenda	NOUN	Number=Sing	t12
+We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
+therefore	therefore	therefore	ADV	-	Z5	Z5	Z5: Grammatical bin	t2
+proceed	proceed	proceed	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A1.1.1,T2++,M1	A1.1.1	A1.1.1: General actions / making	t3
+with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t4
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t5
+examination	examination	examination	NOUN	Number=Sing	P1,X2.4,B3	P1	P1: Education in general	t6
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t7
+item	item	item	NOUN	Number=Sing	O2,Q4,X4.1	O2	O2: Objects generally	t8
+9	9	9	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t9
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t10
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t11
+agenda	agenda	agenda	NOUN	Number=Sing	Q1.2/X7+	Q1.2 X7p	Q1.2: Paper documents and writing|X7+: Wanted	t12
 <g/>
-:	:	:	PUNCT		t13
-the	the	the	DET	Definite=Def PronType=Art	t14
-second	second	second	ADJ	Degree=Pos NumType=Ord	t15
-reading	reading	reading	NOUN	Number=Sing	t16
-of	of	of	ADP		t17
-the	the	the	DET	Definite=Def PronType=Art	t18
-draft	draft	draft	NOUN	Number=Sing	t19
-resolution	resolution	resolution	NOUN	Number=Sing	t20
-expressing	expressing	express	VERB	VerbForm=Ger	t21
-solidarity	solidarity	solidarity	NOUN	Number=Sing	t22
-with	with	with	ADP		t23
-the	the	the	DET	Definite=Def PronType=Art	t24
+:	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t13
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t14
+second	second	second	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t15
+<phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
+reading	reading	reading	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t16
+of	of	of	ADP	-	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t17
+the	the	the	DET	Definite=Def PronType=Art	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t18
+draft	draft	draft	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t19
+</phr>
+resolution	resolution	resolution	NOUN	Number=Sing	X6+,X9.2+	X6p	X6+: Decided	t20
+expressing	expressing	express	VERB	VerbForm=Ger	Q1.1,B1%	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t21
+solidarity	solidarity	solidarity	NOUN	Number=Sing	S5+	S5p	S5+: Belonging to a group	t22
+with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t23
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t24
 <name type="MISC">
-Australian	Australian	Australian	ADJ	Degree=Pos	t25
+Australian	Australian	Australian	ADJ	Degree=Pos	Z2	Z2	Z2: Geographical names	t25
 </name>
-people	people	people	NOUN	Number=Plur	t26
+people	people	people	NOUN	Number=Plur	S2mfc	S2	S2: People	t26
 <g/>
-.	.	.	PUNCT		t27
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
 </p>
 <p id="seg971938" lang="English">
 <s id="seg971938.1">
-Welcome	Welcome	welcome	INTJ		t1
-to	to	to	ADP		t2
-the	the	the	DET	Definite=Def PronType=Art	t3
-meeting	meeting	meeting	NOUN	Number=Sing	t4
-of	of	of	ADP		t5
-the	the	the	DET	Definite=Def PronType=Art	t6
+Welcome	Welcome	welcome	INTJ	-	Q2.2,S1.1.1	Q2.2	Q2.2: Speech acts	t1
+to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
+meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t4
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t5
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t6
 <name type="MISC">
-Australian	Australian	Australian	ADJ	Degree=Pos	t7
+Australian	Australian	Australian	ADJ	Degree=Pos	Z2	Z2	Z2: Geographical names	t7
 </name>
-ambassador	ambassador	ambassador	NOUN	Number=Sing	t8
-in	in	in	ADP		t9
+ambassador	ambassador	ambassador	NOUN	Number=Sing	G1.1/S2mf,S1.1.1/S2mf	G1.1 S2	G1.1: Government|S2: People	t8
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t9
 <name type="LOC">
-Poland	Poland	Poland	PROPN	Number=Sing	t10
+Poland	Poland	Poland	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t10
 <g/>
 </name>
-,	,	,	PUNCT		t11
-his	his	he	PRON	Gender=Masc Number=Sing Person=3 Poss=Yes PronType=Prs	t12
-Excellency	Excellency	excellency	NOUN	Number=Sing	t13
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t11
+his	his	he	PRON	Gender=Masc Number=Sing Person=3 Poss=Yes PronType=Prs	Z8m	Z8	Z8: Pronouns	t12
+Excellency	Excellency	excellency	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t13
 <name type="PER">
-Lloyd	Lloyd	Lloyd	PROPN	Number=Sing	t14
-Brodrick	Brodrick	Brodrick	PROPN	Number=Sing	t15
+Lloyd	Lloyd	Lloyd	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t14
+Brodrick	Brodrick	Brodrick	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t15
 <g/>
 </name>
-.	.	.	PUNCT		t16
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
 </p>
 <note type="kinesic:applause" content="Applause"/>
 <p id="seg971939" lang="English">
 <s id="seg971939.1">
-Let	Let	let	VERB	Mood=Imp VerbForm=Fin	t1
-me	me	I	PRON	Case=Acc Number=Sing Person=1 PronType=Prs	t2
-remind	remind	remind	VERB	VerbForm=Inf	t3
-you	you	you	PRON	Case=Acc Person=2 PronType=Prs	t4
-that	that	that	SCONJ		t5
-the	the	the	DET	Definite=Def PronType=Art	t6
-project	project	project	NOUN	Number=Sing	t7
-was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	t8
-brought	brought	bring	VERB	Tense=Past VerbForm=Part Voice=Pass	t9
-in	in	in	ADP		t10
-by	by	by	ADP		t11
-a	a	a	DET	Definite=Ind PronType=Art	t12
-group	group	group	NOUN	Number=Sing	t13
-of	of	of	ADP		t14
-senators	senators	senator	NOUN	Number=Plur	t15
+<phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
+Let	Let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
+me	me	I	PRON	Case=Acc Number=Sing Person=1 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
+</phr>
+<phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
+remind	remind	remind	VERB	VerbForm=Inf	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t3
+you	you	you	PRON	Case=Acc Person=2 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t4
+</phr>
+that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t5
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t6
+project	project	project	NOUN	Number=Sing	A1.1.1,P1	A1.1.1	A1.1.1: General actions / making	t7
+was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t8
+brought	brought	bring	VERB	Tense=Past VerbForm=Part Voice=Pass	M2,A2.2	M2	M2: Putting, pulling, pushing, transporting	t9
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t10
+by	by	by	ADP	-	Z5	Z5	Z5: Grammatical bin	t11
+a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t12
+group	group	group	NOUN	Number=Sing	S5+c,A4.1c,B3%	S5p	S5+: Belonging to a group	t13
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t14
+senators	senators	senator	NOUN	Number=Plur	G1.2/S2mf	G1.2 S2	G1.2: Politics|S2: People	t15
 <g/>
-.	.	.	PUNCT		t16
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
 <s id="seg971939.2">
-The	The	the	DET	Definite=Def PronType=Art	t1
-project	project	project	NOUN	Number=Sing	t2
-is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	t3
-included	included	include	VERB	Tense=Past VerbForm=Part Voice=Pass	t4
-in	in	in	ADP		t5
-print	print	print	NOUN	Number=Sing	t6
+The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
+project	project	project	NOUN	Number=Sing	A1.1.1,P1	A1.1.1	A1.1.1: General actions / making	t2
+is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
+included	included	include	VERB	Tense=Past VerbForm=Part Voice=Pass	A1.8+	A1.8p	A1.8+: Inclusion	t4
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t5
+print	print	print	NOUN	Number=Sing	Q1.2,C1	Q1.2	Q1.2: Paper documents and writing	t6
 <name type="MISC">
-No	No	no	DET		t7
-44	44	44	NUM	NumForm=Digit NumType=Card	t8
+No	No	no	DET	-	Z6	Z6	Z6: Negative	t7
+44	44	44	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t8
 </name>
-and	and	and	CCONJ		t9
-the	the	the	DET	Definite=Def PronType=Art	t10
-report	report	report	NOUN	Number=Sing	t11
-is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	t12
-published	published	publish	VERB	Tense=Past VerbForm=Part Voice=Pass	t13
-in	in	in	ADP		t14
-print	print	print	NOUN	Number=Sing	t15
-No	No	no	DET		t16
-44	44	44	NUM	NumForm=Digit NumType=Card	t17
-S	S	s	NOUN	Number=Sing	t18
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t9
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t10
+report	report	report	NOUN	Number=Sing	Q2.2,X3.2	Q2.2	Q2.2: Speech acts	t11
+is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t12
+published	published	publish	VERB	Tense=Past VerbForm=Part Voice=Pass	Q4	Q4	Q4: The Media	t13
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t14
+print	print	print	NOUN	Number=Sing	Q1.2,C1	Q1.2	Q1.2: Paper documents and writing	t15
+No	No	no	DET	-	Z6	Z6	Z6: Negative	t16
+44	44	44	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t17
+S	S	s	NOUN	Number=Sing	Z5	Z5	Z5: Grammatical bin	t18
 <g/>
-.	.	.	PUNCT		t19
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
 </p>
 <p id="seg971940" lang="English">
 <s id="seg971940.1">
-I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	t1
-would	would	would	AUX	VerbForm=Fin	t2
-like	like	like	VERB	VerbForm=Inf	t3
-to	to	to	PART		t4
-ask	ask	ask	VERB	VerbForm=Inf	t5
-the	the	the	DET	Definite=Def PronType=Art	t6
-rapporteur	rapporteur	rapporteur	NOUN	Number=Sing	t7
-of	of	of	ADP		t8
-the	the	the	DET	Definite=Def PronType=Art	t9
+I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
+would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
+like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t3
+to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t4
+ask	ask	ask	VERB	VerbForm=Inf	Q2.2	Q2.2	Q2.2: Speech acts	t5
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t6
+rapporteur	rapporteur	rapporteur	NOUN	Number=Sing	X2.4/S2mf	X2.4 S2	X2.4: Investigate, examine, test, search|S2: People	t7
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t8
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t9
 <name type="ORG">
-Legislative	Legislative	legislative	ADJ	Degree=Pos	t10
-Commission	Commission	Commission	PROPN	Number=Sing	t11
+Legislative	Legislative	legislative	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t10
+Commission	Commission	Commission	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t11
 </name>
-and	and	and	CCONJ		t12
-the	the	the	DET	Definite=Def PronType=Art	t13
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t12
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t13
 <name type="ORG">
-Committee	Committee	Committee	PROPN	Number=Sing	t14
-on	on	on	ADP		t15
-Foreign	Foreign	foreign	ADJ	Degree=Pos	t16
-Affairs	Affairs	affair	PROPN	Number=Plur	t17
+Committee	Committee	Committee	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t14
+on	on	on	ADP	-	Z2	Z2	Z2: Geographical names	t15
+Foreign	Foreign	foreign	ADJ	Degree=Pos	Z2	Z2	Z2: Geographical names	t16
+Affairs	Affairs	affair	PROPN	Number=Plur	A1.1.1,S1.1.1,S3.2	A1.1.1	A1.1.1: General actions / making	t17
 </name>
-and	and	and	CCONJ		t18
-the	the	the	DET	Definite=Def PronType=Art	t19
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t18
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t19
 <name type="ORG">
-European	European	European	ADJ	Degree=Pos	t20
-Union	Union	Union	PROPN	Number=Sing	t21
+European	European	European	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t20
+Union	Union	Union	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t21
 <g/>
 </name>
-,	,	,	PUNCT		t22
-Senator	Senator	Senator	PROPN	Number=Sing	t23
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t22
+Senator	Senator	Senator	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t23
 <name type="PER">
-Marcin	Marcin	Marcin	PROPN	Number=Sing	t24
-Bosacki	Bosacki	Bosacki	PROPN	Number=Sing	t25
+Marcin	Marcin	Marcin	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t24
+Bosacki	Bosacki	Bosacki	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t25
 <g/>
 </name>
-,	,	,	PUNCT		t26
-to	to	to	PART		t27
-present	present	present	VERB	VerbForm=Inf	t28
-a	a	a	DET	Definite=Ind PronType=Art	t29
-joint	joint	joint	ADJ	Degree=Pos	t30
-report	report	report	NOUN	Number=Sing	t31
-to	to	to	ADP		t32
-the	the	the	DET	Definite=Def PronType=Art	t33
-committee	committee	committee	NOUN	Number=Sing	t34
-on	on	on	ADP		t35
-the	the	the	DET	Definite=Def PronType=Art	t36
-draft	draft	draft	NOUN	Number=Sing	t37
-resolution	resolution	resolution	NOUN	Number=Sing	t38
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t26
+to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t27
+present	present	present	VERB	VerbForm=Inf	A9-,A2.2,Q2.2,S1.1.3+,Q4.3,O4.1,K4	A9n	A9-: Giving	t28
+a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t29
+joint	joint	joint	ADJ	Degree=Pos	S5+	S5p	S5+: Belonging to a group	t30
+report	report	report	NOUN	Number=Sing	Q2.2,X3.2	Q2.2	Q2.2: Speech acts	t31
+to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t32
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t33
+committee	committee	committee	NOUN	Number=Sing	S7.1+/S5+c	S7.1p S5p	S7.1+: In power|S5+: Belonging to a group	t34
+on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t35
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t36
+draft	draft	draft	NOUN	Number=Sing	Q1.2,G3,Q1.2/I1	Q1.2	Q1.2: Paper documents and writing	t37
+resolution	resolution	resolution	NOUN	Number=Sing	X6+,X9.2+	X6p	X6+: Decided	t38
 <g/>
-.	.	.	PUNCT		t39
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t39
 </s>
 </p>
 </speech>
 <note type="speaker" content="Rapporteur Senator Marcin Bosacki:"/>
-<speech id="ParlaMint-PL_2020-01-17-senat-03-3.u2" text_id="ParlaMint-PL-en_2020-01-17-senat-03-3" subcorpus="Reference" body="Upper house" term="10-upper" session="3-upper" meeting="" sitting="3-upper" agenda="" date="2020-01-17" title="Report of the session of the Senat of the Republic of Poland, Term 10, Session 3, Day 3 (2020-01-17)" wordcount="523" speaker_role="Regular" speaker_id="MarcinBosacki" speaker_name="Bosacki, Marcin" speaker_mp="MP" speaker_minister="-" speaker_party="KO" speaker_party_name="Klub Parlamentarny Platforma Obywatelska – Koalicja Obywatelska" party_status="Opposition" speaker_gender="M" speaker_birth="1970">
+<speech id="ParlaMint-PL_2020-01-17-senat-03-3.u2" text_id="ParlaMint-PL-en_2020-01-17-senat-03-3" subcorpus="Reference" lang="English" body="Upper house" term="10. kadencja Senatu" session="3. sesja Senatu" meeting="-" sitting="3. dzień sesji Senatu" agenda="-" date="2020-01-17" title="Report of the session of the Senat of the Republic of Poland, Term 10, Session 3, Day 3 (2020-01-17)" speaker_role="Regular" speaker_id="MarcinBosacki" speaker_name="Bosacki, Marcin" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KO" speaker_party_name="Klub Parlamentarny Platforma Obywatelska – Koalicja Obywatelska" party_status="Opposition" party_orientation="-" speaker_gender="M" speaker_birth="1970">
 <p id="seg971941" lang="English">
 <s id="seg971941.1">
-Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	t1
-you	you	you	PRON	Case=Acc Person=2 PronType=Prs	t2
+<phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
+Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
+you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
 <g/>
-.	.	.	PUNCT		t3
+</phr>
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
 </p>
 <p id="seg971942" lang="English">
 <s id="seg971942.1">
-Mr.	Mr.	Mr.	PROPN	Number=Sing	t1
+Mr.	Mr.	Mr.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 <name type="PER">
-Marshal	Marshal	Marshal	PROPN	Number=Sing	t2
+Marshal	Marshal	Marshal	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 <g/>
 </name>
-!	!	!	PUNCT		t3
+!	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
 <s id="seg971942.2">
-High	High	high	ADJ	Degree=Pos	t1
-Izbo	Izbo	Izbo	PROPN	Number=Sing	t2
+<phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
+High	High	high	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t1
+Izbo	Izbo	Izbo	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 <g/>
-!	!	!	PUNCT		t3
+</phr>
+!	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
 <s id="seg971942.3">
-Excellency	Excellency	excellency	NOUN	Number=Sing	t1
+Excellency	Excellency	excellency	NOUN	Number=Sing	S7.1+/S2.2m	S7.1p S2.2	S7.1+: In power|S2.2: People: Male	t1
 <g/>
-,	,	,	PUNCT		t2
-Ambassador	Ambassador	Ambassador	PROPN	Number=Sing	t3
-of	of	of	ADP		t4
-the	the	the	DET	Definite=Def PronType=Art	t5
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
+Ambassador	Ambassador	Ambassador	PROPN	Number=Sing	G1.1/S2mf,S1.1.1/S2mf	G1.1 S2	G1.1: Government|S2: People	t3
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t4
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t5
 <name type="ORG">
-Australian	Australian	Australian	ADJ	Degree=Pos	t6
-Union	Union	Union	PROPN	Number=Sing	t7
+Australian	Australian	Australian	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t6
+Union	Union	Union	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t7
 <g/>
 </name>
-!	!	!	PUNCT		t8
+!	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
 </p>
 <p id="seg971943" lang="English">
 <s id="seg971943.1">
-It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	t1
-is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	t2
-a	a	a	DET	Definite=Ind PronType=Art	t3
-great	great	great	ADJ	Degree=Pos	t4
-honour	honour	honour	NOUN	Number=Sing	t5
-to	to	to	PART		t6
-present	present	present	VERB	VerbForm=Inf	t7
-a	a	a	DET	Definite=Ind PronType=Art	t8
-draft	draft	draft	NOUN	Number=Sing	t9
-resolution	resolution	resolution	NOUN	Number=Sing	t10
-of	of	of	ADP		t11
-the	the	the	DET	Definite=Def PronType=Art	t12
+It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
+is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
+a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
+great	great	great	ADJ	Degree=Pos	A5.1+,A11.1+,N3.2+,N5+,X5.2+,A13.3	A5.1p	A5.1+: Evaluation: Good	t4
+honour	honour	honour	NOUN	Number=Sing	G2.2+	G2.2p	G2.2+: Ethical	t5
+to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t6
+present	present	present	VERB	VerbForm=Inf	A9-,A2.2,Q2.2,S1.1.3+,Q4.3,O4.1,K4	A9n	A9-: Giving	t7
+a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t8
+draft	draft	draft	NOUN	Number=Sing	Q1.2,G3,Q1.2/I1	Q1.2	Q1.2: Paper documents and writing	t9
+resolution	resolution	resolution	NOUN	Number=Sing	X6+,X9.2+	X6p	X6+: Decided	t10
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t11
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t12
 <name type="ORG">
-Senate	Senate	Senate	PROPN	Number=Sing	t13
-of	of	of	ADP		t14
-the	the	the	DET	Definite=Def PronType=Art	t15
-Republic	Republic	Republic	PROPN	Number=Sing	t16
-of	of	of	ADP		t17
-Poland	Poland	Poland	PROPN	Number=Sing	t18
+Senate	Senate	Senate	PROPN	Number=Sing	S7.1+	S7.1p	S7.1+: In power	t13
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t14
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t15
+Republic	Republic	Republic	PROPN	Number=Sing	S5+/M7	S5p M7	S5+: Belonging to a group|M7: Places	t16
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t17
+Poland	Poland	Poland	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t18
 </name>
-expressing	expressing	express	VERB	VerbForm=Ger	t19
-solidarity	solidarity	solidarity	NOUN	Number=Sing	t20
-with	with	with	ADP		t21
-the	the	the	DET	Definite=Def PronType=Art	t22
+expressing	expressing	express	VERB	VerbForm=Ger	Q1.1,B1%	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t19
+solidarity	solidarity	solidarity	NOUN	Number=Sing	S5+	S5p	S5+: Belonging to a group	t20
+with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t21
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t22
 <name type="MISC">
-Australian	Australian	Australian	ADJ	Degree=Pos	t23
+Australian	Australian	Australian	ADJ	Degree=Pos	Z2	Z2	Z2: Geographical names	t23
 </name>
-people	people	people	NOUN	Number=Plur	t24
-in	in	in	ADP		t25
-this	this	this	DET	Number=Sing PronType=Dem	t26
-huge	huge	huge	ADJ	Degree=Pos	t27
-tragedy	tragedy	tragedy	NOUN	Number=Sing	t28
+people	people	people	NOUN	Number=Plur	S2mfc	S2	S2: People	t24
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t25
+this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t26
+huge	huge	huge	ADJ	Degree=Pos	N3.2+++	N3.2p	N3.2+: Size: Big	t27
+tragedy	tragedy	tragedy	NOUN	Number=Sing	E4.1-,K4	E4.1n	E4.1-: Sad	t28
 <g/>
-.	.	.	PUNCT		t29
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
 </p>
 <p id="seg971944" lang="English">
 <s id="seg971944.1">
-We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	t1
-all	all	all	DET		t2
-know	know	know	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	t3
-that	that	that	SCONJ		t4
-for	for	for	ADP		t5
-months	months	month	NOUN	Number=Plur	t6
-in	in	in	ADP		t7
+We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
+all	all	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t2
+know	know	know	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	X2.2+,S3.2/B1%	X2.2p	X2.2+: Knowledgeable	t3
+that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t4
+for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t5
+months	months	month	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t6
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t7
 <name type="LOC">
-Australia	Australia	Australia	PROPN	Number=Sing	t8
+Australia	Australia	Australia	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t8
 <g/>
 </name>
-,	,	,	PUNCT		t9
-unfortunately	unfortunately	unfortunately	ADV		t10
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t9
+unfortunately	unfortunately	unfortunately	ADV	-	A1.4-,A5.1-,E4.1-	A1.4n	A1.4-: Unlucky	t10
 <g/>
-,	,	,	PUNCT		t11
-there	there	there	PRON		t12
-has	has	have	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	t13
-been	been	be	VERB	Tense=Past VerbForm=Part	t14
-one	one	one	NUM	NumForm=Word NumType=Card	t15
-of	of	of	ADP		t16
-the	the	the	DET	Definite=Def PronType=Art	t17
-biggest	biggest	big	ADJ	Degree=Sup	t18
-fires	fires	fire	NOUN	Number=Plur	t19
-in	in	in	ADP		t20
-history	history	history	NOUN	Number=Sing	t21
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t11
+there	there	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t12
+has	has	have	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t13
+been	been	be	VERB	Tense=Past VerbForm=Part	A3+,Z5	A3p	A3+: Existing	t14
+one	one	one	NUM	NumForm=Word NumType=Card	N1,T3,T1.2	N1	N1: Numbers	t15
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t16
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t17
+biggest	biggest	big	ADJ	Degree=Sup	N3.2+++,N5+++,A11.1+++,S1.2.5+++,X5.2+++	N3.2p	N3.2+: Size: Big	t18
+fires	fires	fire	NOUN	Number=Plur	O4.6+	O4.6p	O4.6+: Temperature: Hot / on fire	t19
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t20
+history	history	history	NOUN	Number=Sing	T1.1.1,P1/T1.1.1,Q2.1,B2	T1.1.1	T1.1.1: Time: Past	t21
 <g/>
-,	,	,	PUNCT		t22
-not	not	not	PART		t23
-only	only	only	ADV		t24
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t22
+<phr usas_tags="Z5" usas_cats="Z5" usas_glosses="Z5: Grammatical bin">
+not	not	not	PART	-	Z5	Z5	Z5: Grammatical bin	t23
+only	only	only	ADV	-	Z5	Z5	Z5: Grammatical bin	t24
+</phr>
 <name type="LOC">
-Australia	Australia	Australia	PROPN	Number=Sing	t25
+Australia	Australia	Australia	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t25
 <g/>
 </name>
-,	,	,	PUNCT		t26
-but	but	but	CCONJ		t27
-also	also	also	ADV		t28
-the	the	the	DET	Definite=Def PronType=Art	t29
-world	world	world	NOUN	Number=Sing	t30
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t26
+but	but	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t27
+also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t28
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t29
+world	world	world	NOUN	Number=Sing	W1,S5+c,A4.1,N5+	W1	W1: The universe	t30
 <g/>
-.	.	.	PUNCT		t31
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t31
 </s>
 <s id="seg971944.2">
-At	At	at	ADP		t1
-least	least	least	ADJ	Degree=Sup	t2
-28	28	28	NUM	NumForm=Digit NumType=Card	t3
-people	people	people	NOUN	Number=Plur	t4
-have	have	have	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	t5
-died	died	die	VERB	Tense=Past VerbForm=Part	t6
-in	in	in	ADP		t7
-it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	t8
-so	so	so	ADV		t9
-far	far	far	ADV	Degree=Pos	t10
+At	At	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
+least	least	least	ADJ	Degree=Sup	N5.1-,A11.1---	N5.1n	N5.1-: Part	t2
+28	28	28	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t3
+people	people	people	NOUN	Number=Plur	S2mfc	S2	S2: People	t4
+have	have	have	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t5
+died	died	die	VERB	Tense=Past VerbForm=Part	L1-,T2-	L1n	L1-: Dead	t6
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t7
+it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t8
+<phr usas_tags="T1.1.2,M6,N5" usas_cats="T1.1.2" usas_glosses="T1.1.2: Time: Present; simultaneous">
+so	so	so	ADV	-	T1.1.2,M6,N5	T1.1.2	T1.1.2: Time: Present; simultaneous	t9
+far	far	far	ADV	Degree=Pos	T1.1.2,M6,N5	T1.1.2	T1.1.2: Time: Present; simultaneous	t10
 <g/>
-.	.	.	PUNCT		t11
+</phr>
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
 <s id="seg971944.3">
-Thousands	Thousands	thousand	NOUN	Number=Plur	t1
-of	of	of	ADP		t2
-houses	houses	house	NOUN	Number=Plur	t3
-and	and	and	CCONJ		t4
-more	more	more	ADJ	Degree=Cmp ExtPos=ADV	t5
-than	than	than	ADP		t6
-10	10	10	NUM	NumForm=Digit NumType=Card	t7
-million	million	million	NUM	NumForm=Word NumType=Card	t8
-hectares	hectares	hectare	NOUN	Number=Plur	t9
-of	of	of	ADP		t10
-forest	forest	forest	NOUN	Number=Sing	t11
-and	and	and	CCONJ		t12
-bush	bush	bush	NOUN	Number=Sing	t13
-burned	burned	burn	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	t14
-down	down	down	ADP		t15
+Thousands	Thousands	thousand	NOUN	Number=Plur	N1,I1	N1	N1: Numbers	t1
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
+houses	houses	house	NOUN	Number=Plur	H1,P1/S5+c,G1.1c	H1	H1: Architecture, houses and buildings	t3
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t4
+more	more	more	ADJ	Degree=Cmp ExtPos=ADV	A13.3,N6++	A13.3	A13.3: Degree: Boosters	t5
+than	than	than	ADP	-	Z5	Z5	Z5: Grammatical bin	t6
+<phr usas_tags="N1,T3,T1.2,T1.3,N3.3,N3.5,I1" usas_cats="N1" usas_glosses="N1: Numbers">
+10	10	10	NUM	NumForm=Digit NumType=Card	N1,T3,T1.2,T1.3,N3.3,N3.5,I1	N1	N1: Numbers	t7
+million	million	million	NUM	NumForm=Word NumType=Card	N1,T3,T1.2,T1.3,N3.3,N3.5,I1	N1	N1: Numbers	t8
+</phr>
+hectares	hectares	hectare	NOUN	Number=Plur	N3.6	N3.6	N3.6: Measurement: Area	t9
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t10
+forest	forest	forest	NOUN	Number=Sing	W3/L3	W3 L3	W3: Geographical terms|L3: Plants	t11
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t12
+bush	bush	bush	NOUN	Number=Sing	L3,W3	L3	L3: Plants	t13
+burned	burned	burn	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	O4.6+,E1,A1.5.1	O4.6p	O4.6+: Temperature: Hot / on fire	t14
+down	down	down	ADP	-	Z5	Z5	Z5: Grammatical bin	t15
 <g/>
-.	.	.	PUNCT		t16
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
 <s id="seg971944.4">
-Millions	Millions	million	NOUN	Number=Plur	t1
-of	of	of	ADP		t2
-people	people	people	NOUN	Number=Plur	t3
-are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	t4
-affected	affected	affect	VERB	Tense=Past VerbForm=Part Voice=Pass	t5
-by	by	by	ADP		t6
-the	the	the	DET	Definite=Def PronType=Art	t7
-disaster	disaster	disaster	NOUN	Number=Sing	t8
+Millions	Millions	million	NOUN	Number=Plur	N1,I1	N1	N1: Numbers	t1
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
+people	people	people	NOUN	Number=Plur	S2mfc	S2	S2: People	t3
+are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t4
+affected	affected	affect	VERB	Tense=Past VerbForm=Part Voice=Pass	A2.1+,A5.4-/A8	A2.1p	A2.1+: Change	t5
+by	by	by	ADP	-	Z5	Z5	Z5: Grammatical bin	t6
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t7
+disaster	disaster	disaster	NOUN	Number=Sing	A5.1---,X9.2-,A1.1.2/W4	A5.1n	A5.1-: Evaluation: Bad	t8
 <g/>
-.	.	.	PUNCT		t9
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
 <s id="seg971944.5">
-It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	t1
-continues	continues	continue	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	t2
-at	at	at	ADP		t3
-the	the	the	DET	Definite=Def PronType=Art	t4
-moment	moment	moment	NOUN	Number=Sing	t5
-when	when	when	SCONJ	PronType=Int	t6
-we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	t7
-are	are	be	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	t8
-dealing	dealing	deal	VERB	Tense=Pres VerbForm=Part	t9
-with	with	with	ADP		t10
-the	the	the	DET	Definite=Def PronType=Art	t11
-greatest	greatest	great	ADJ	Degree=Sup	t12
-drought	drought	drought	NOUN	Number=Sing	t13
-and	and	and	CCONJ		t14
-record	record	record	ADJ	Degree=Pos	t15
-temperatures	temperatures	temperature	NOUN	Number=Plur	t16
-in	in	in	ADP		t17
+It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
+continues	continues	continue	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	T2++	T2p	T2+: Time: Beginning	t2
+at	at	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t4
+moment	moment	moment	NOUN	Number=Sing	T1.2,T1.1.2,N3	T1.2	T1.2: Time: Momentary	t5
+when	when	when	SCONJ	PronType=Int	Z5	Z5	Z5: Grammatical bin	t6
+we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t7
+are	are	be	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t8
+dealing	dealing	deal	VERB	Tense=Pres VerbForm=Part	A1.1.1,I2.2,I2.1,A9-,K5.2,F3/I2.2	A1.1.1	A1.1.1: General actions / making	t9
+with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t10
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t11
+greatest	greatest	great	ADJ	Degree=Sup	A5.1+++,A11.1+++,N3.2+++,N5+++,X5.2+++	A5.1p	A5.1+: Evaluation: Good	t12
+<phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
+drought	drought	drought	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t13
+and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t14
+record	record	record	ADJ	Degree=Pos	T1.3	T1.3	T1.3: Time: Period	t15
+</phr>
+temperatures	temperatures	temperature	NOUN	Number=Plur	O4.6	O4.6	O4.6: Temperature	t16
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t17
 <name type="LOC">
-Australia	Australia	Australia	PROPN	Number=Sing	t18
+Australia	Australia	Australia	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t18
 <g/>
 </name>
-'s	's	's	PART		t19
-history	history	history	NOUN	Number=Sing	t20
+'s	's	's	PART	-	Z5	Z5	Z5: Grammatical bin	t19
+history	history	history	NOUN	Number=Sing	T1.1.1,P1/T1.1.1,Q2.1,B2	T1.1.1	T1.1.1: Time: Past	t20
 <g/>
-.	.	.	PUNCT		t21
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
 </p>
 <p id="seg971945" lang="English">
 <s id="seg971945.1">
-During	During	during	ADP		t1
-the	the	the	DET	Definite=Def PronType=Art	t2
-deliberations	deliberations	deliberation	NOUN	Number=Plur	t3
-of	of	of	ADP		t4
-the	the	the	DET	Definite=Def PronType=Art	t5
+During	During	during	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
+deliberations	deliberations	deliberation	NOUN	Number=Plur	X2.1/A1.3+,X2.4,X7+	X2.1 A1.3p	X2.1: Thought, belief|A1.3+: Cautious	t3
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t4
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t5
 <name type="ORG">
-Legislative	Legislative	legislative	ADJ	Degree=Pos	t6
-Committee	Committee	Committee	PROPN	Number=Sing	t7
+Legislative	Legislative	legislative	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t6
+Committee	Committee	Committee	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t7
 </name>
-and	and	and	CCONJ		t8
-the	the	the	DET	Definite=Def PronType=Art	t9
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t8
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t9
 <name type="ORG">
-Committee	Committee	Committee	PROPN	Number=Sing	t10
-on	on	on	ADP		t11
-Foreign	Foreign	foreign	ADJ	Degree=Pos	t12
-Affairs	Affairs	affair	PROPN	Number=Plur	t13
+Committee	Committee	Committee	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t10
+on	on	on	ADP	-	Z2	Z2	Z2: Geographical names	t11
+Foreign	Foreign	foreign	ADJ	Degree=Pos	Z2	Z2	Z2: Geographical names	t12
+Affairs	Affairs	affair	PROPN	Number=Plur	A1.1.1,S1.1.1,S3.2	A1.1.1	A1.1.1: General actions / making	t13
 </name>
-and	and	and	CCONJ		t14
-the	the	the	DET	Definite=Def PronType=Art	t15
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t14
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t15
 <name type="ORG">
-European	European	European	ADJ	Degree=Pos	t16
-Union	Union	Union	PROPN	Number=Sing	t17
+European	European	European	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t16
+Union	Union	Union	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t17
 <g/>
 </name>
-,	,	,	PUNCT		t18
-this	this	this	DET	Number=Sing PronType=Dem	t19
-draft	draft	draft	NOUN	Number=Sing	t20
-resolution	resolution	resolution	NOUN	Number=Sing	t21
-was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	t22
-discussed	discussed	discuss	VERB	Tense=Past VerbForm=Part Voice=Pass	t23
-for	for	for	ADP		t24
-a	a	a	DET	Definite=Ind PronType=Art	t25
-long	long	long	ADJ	Degree=Pos	t26
-time	time	time	NOUN	Number=Sing	t27
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t18
+this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t19
+draft	draft	draft	NOUN	Number=Sing	Q1.2,G3,Q1.2/I1	Q1.2	Q1.2: Paper documents and writing	t20
+resolution	resolution	resolution	NOUN	Number=Sing	X6+,X9.2+	X6p	X6+: Decided	t21
+was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t22
+discussed	discussed	discuss	VERB	Tense=Past VerbForm=Part Voice=Pass	Q2.1,Q2.2	Q2.1	Q2.1: Speech: Communicative	t23
+for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t24
+a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t25
+<phr usas_tags="T1.3+" usas_cats="T1.3p" usas_glosses="T1.3+: Time period: long">
+long	long	long	ADJ	Degree=Pos	T1.3+	T1.3p	T1.3+: Time period: long	t26
+time	time	time	NOUN	Number=Sing	T1.3+	T1.3p	T1.3+: Time period: long	t27
 <g/>
-.	.	.	PUNCT		t28
+</phr>
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
 <s id="seg971945.2">
-The	The	the	DET	Definite=Def PronType=Art	t1
-result	result	result	NOUN	Number=Sing	t2
-of	of	of	ADP		t3
-the	the	the	DET	Definite=Def PronType=Art	t4
-vote	vote	vote	NOUN	Number=Sing	t5
-was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	t6
-the	the	the	DET	Definite=Def PronType=Art	t7
-following	following	follow	VERB	VerbForm=Ger	t8
+The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
+<phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
+result	result	result	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t2
+of	of	of	ADP	-	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t3
+the	the	the	DET	Definite=Def PronType=Art	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t4
+vote	vote	vote	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t5
+</phr>
+was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t6
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t7
+following	following	follow	VERB	VerbForm=Ger	M1,N4,S7.1-,X2.4,X2.5+,A6.1+,A1.1.1,A2.2,K5.1,X3.4	M1	M1: Moving, coming and going	t8
 <g/>
-:	:	:	PUNCT		t9
-15	15	15	NUM	NumForm=Digit NumType=Card	t10
-senators	senators	senator	NOUN	Number=Plur	t11
-in	in	in	ADP		t12
-favour	favour	favour	NOUN	Number=Sing	t13
+:	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t9
+15	15	15	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t10
+senators	senators	senator	NOUN	Number=Plur	G1.2/S2mf	G1.2 S2	G1.2: Politics|S2: People	t11
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t12
+favour	favour	favour	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t13
 <g/>
-,	,	,	PUNCT		t14
-1	1	1	NUM	NumForm=Digit NumType=Card	t15
-senator	senator	senator	NOUN	Number=Sing	t16
-against	against	against	ADP		t17
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t14
+1	1	1	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t15
+senator	senator	senator	NOUN	Number=Sing	G1.2/S2mf	G1.2 S2	G1.2: Politics|S2: People	t16
+against	against	against	ADP	-	Z5	Z5	Z5: Grammatical bin	t17
 <g/>
-,	,	,	PUNCT		t18
-8	8	8	NUM	NumForm=Digit NumType=Card	t19
-senators	senators	senator	NOUN	Number=Plur	t20
-abstained	abstained	abstain	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	t21
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t18
+8	8	8	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t19
+senators	senators	senator	NOUN	Number=Plur	G1.2/S2mf	G1.2 S2	G1.2: Politics|S2: People	t20
+abstained	abstained	abstain	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	S1.1.3-,A9-	S1.1.3n	S1.1.3-: Non-participating	t21
 <g/>
-.	.	.	PUNCT		t22
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
 <s id="seg971945.3">
-In	In	in	ADP		t1
-view	view	view	NOUN	Number=Sing	t2
-of	of	of	ADP		t3
-the	the	the	DET	Definite=Def PronType=Art	t4
-seriousness	seriousness	seriousness	NOUN	Number=Sing	t5
-of	of	of	ADP		t6
-the	the	the	DET	Definite=Def PronType=Art	t7
+In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
+<phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
+view	view	view	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t2
+of	of	of	ADP	-	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t3
+the	the	the	DET	Definite=Def PronType=Art	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t4
+seriousness	seriousness	seriousness	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t5
+</phr>
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t6
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t7
 <name type="ORG">
-House	House	House	PROPN	Number=Sing	t8
+House	House	House	PROPN	Number=Sing	H4	H4	H4: Residence	t8
 </name>
-and	and	and	CCONJ		t9
-the	the	the	DET	Definite=Def PronType=Art	t10
-seriousness	seriousness	seriousness	NOUN	Number=Sing	t11
-of	of	of	ADP		t12
-the	the	the	DET	Definite=Def PronType=Art	t13
-matter	matter	matter	NOUN	Number=Sing	t14
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t9
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t10
+<phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
+seriousness	seriousness	seriousness	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t11
+of	of	of	ADP	-	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t12
+the	the	the	DET	Definite=Def PronType=Art	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t13
+matter	matter	matter	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t14
 <g/>
-,	,	,	PUNCT		t15
-I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	t16
-will	will	will	AUX	VerbForm=Fin	t17
-refrain	refrain	refrain	VERB	VerbForm=Inf	t18
-from	from	from	SCONJ		t19
-making	making	make	VERB	VerbForm=Ger	t20
-the	the	the	DET	Definite=Def PronType=Art	t21
-arguments	arguments	argument	NOUN	Number=Plur	t22
-of	of	of	ADP		t23
-those	those	that	PRON	Number=Plur PronType=Dem	t24
-opposed	opposed	oppose	VERB	Tense=Past VerbForm=Part	t25
-to	to	to	ADP		t26
-this	this	this	DET	Number=Sing PronType=Dem	t27
-law	law	law	NOUN	Number=Sing	t28
+</phr>
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t15
+I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t16
+will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t17
+refrain	refrain	refrain	VERB	VerbForm=Inf	A1.9	A1.9	A1.9: Avoiding	t18
+from	from	from	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t19
+making	making	make	VERB	VerbForm=Ger	A1.1.1,A9+,A2.2,S6+,A3+,A9-,X9.2+,X6+	A1.1.1	A1.1.1: General actions / making	t20
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t21
+arguments	arguments	argument	NOUN	Number=Plur	Q2.1,Q2.1/A6.1-,Q2.1/E3-	Q2.1	Q2.1: Speech: Communicative	t22
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t23
+those	those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t24
+opposed	opposed	oppose	VERB	Tense=Past VerbForm=Part	S8-/E2-,A6.1-	S8n E2n	S8-: Hindering|E2-: Dislike	t25
+to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t26
+this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t27
+law	law	law	NOUN	Number=Sing	G2.1,S6+,Y1	G2.1	G2.1: Law and order	t28
 <g/>
-...	...	.	PUNCT		t29
+...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
 </p>
 <p id="seg971946" lang="English">
 <s id="seg971946.1">
-A	A	a	DET	Definite=Ind PronType=Art	t1
-resolution	resolution	resolution	NOUN	Number=Sing	t2
+A	A	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
+resolution	resolution	resolution	NOUN	Number=Sing	X6+,X9.2+	X6p	X6+: Decided	t2
 <g/>
-.	.	.	PUNCT		t3
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
 </p>
 <p id="seg971947" lang="English">
 <s id="seg971947.1">
-Okay	Okay	okay	INTJ		t1
+Okay	Okay	okay	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
-,	,	,	PUNCT		t2
-okay	okay	okay	INTJ		t3
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
+okay	okay	okay	INTJ	-	Z4	Z4	Z4: Discourse Bin	t3
 <g/>
-,	,	,	PUNCT		t4
-okay	okay	okay	INTJ		t5
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t4
+okay	okay	okay	INTJ	-	Z4	Z4	Z4: Discourse Bin	t5
 <g/>
-,	,	,	PUNCT		t6
-okay	okay	okay	INTJ		t7
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t6
+okay	okay	okay	INTJ	-	Z4	Z4	Z4: Discourse Bin	t7
 <g/>
-,	,	,	PUNCT		t8
-okay	okay	okay	INTJ		t9
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t8
+okay	okay	okay	INTJ	-	Z4	Z4	Z4: Discourse Bin	t9
 <g/>
-,	,	,	PUNCT		t10
-okay	okay	okay	INTJ		t11
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t10
+okay	okay	okay	INTJ	-	Z4	Z4	Z4: Discourse Bin	t11
 <g/>
-,	,	,	PUNCT		t12
-okay	okay	okay	INTJ		t13
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t12
+okay	okay	okay	INTJ	-	Z4	Z4	Z4: Discourse Bin	t13
 <g/>
-,	,	,	PUNCT		t14
-okay	okay	okay	INTJ		t15
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t14
+okay	okay	okay	INTJ	-	Z4	Z4	Z4: Discourse Bin	t15
 <g/>
-,	,	,	PUNCT		t16
-okay	okay	okay	INTJ		t17
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t16
+okay	okay	okay	INTJ	-	Z4	Z4	Z4: Discourse Bin	t17
 <g/>
-,	,	,	PUNCT		t18
-okay	okay	okay	INTJ		t19
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t18
+okay	okay	okay	INTJ	-	Z4	Z4	Z4: Discourse Bin	t19
 <g/>
-,	,	,	PUNCT		t20
-okay	okay	okay	INTJ		t21
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t20
+okay	okay	okay	INTJ	-	Z4	Z4	Z4: Discourse Bin	t21
 <g/>
-,	,	,	PUNCT		t22
-okay	okay	okay	INTJ		t23
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t22
+okay	okay	okay	INTJ	-	Z4	Z4	Z4: Discourse Bin	t23
 <g/>
-,	,	,	PUNCT		t24
-okay	okay	okay	INTJ		t25
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t24
+okay	okay	okay	INTJ	-	Z4	Z4	Z4: Discourse Bin	t25
 <g/>
-,	,	,	PUNCT		t26
-okay	okay	okay	INTJ		t27
-<g/>
-,	,	,	PUNCT		t28
-okay	okay	okay	INTJ		t29
-<g/>
-,	,	,	PUNCT		t30
-okay	okay	okay	INTJ		t31
-<g/>
-,	,	,	PUNCT		t32
-okay	okay	okay	INTJ		t33
-<g/>
-,	,	,	PUNCT		t34
-okay	okay	okay	INTJ		t35
-<g/>
-,	,	,	PUNCT		t36
-okay	okay	okay	INTJ		t37
-<g/>
-,	,	,	PUNCT		t38
-okay	okay	okay	INTJ		t39
-<g/>
-,	,	,	PUNCT		t40
-okay	okay	okay	INTJ		t41
-<g/>
-,	,	,	PUNCT		t42
-okay	okay	okay	INTJ		t43
-<g/>
-,	,	,	PUNCT		t44
-okay	okay	okay	INTJ		t45
-<g/>
-,	,	,	PUNCT		t46
-okay	okay	okay	INTJ		t47
-<g/>
-,	,	,	PUNCT		t48
-okay	okay	okay	INTJ		t49
-<g/>
-,	,	,	PUNCT		t50
-okay	okay	okay	INTJ		t51
-<g/>
-,	,	,	PUNCT		t52
-okay	okay	okay	INTJ		t53
-<g/>
-,	,	,	PUNCT		t54
-okay	okay	okay	INTJ		t55
-<g/>
-,	,	,	PUNCT		t56
-okay	okay	okay	INTJ		t57
-<g/>
-,	,	,	PUNCT		t58
-okay	okay	okay	INTJ		t59
-<g/>
-,	,	,	PUNCT		t60
-okay	okay	okay	INTJ		t61
-<g/>
-,	,	,	PUNCT		t62
-okay	okay	okay	INTJ		t63
-<g/>
-,	,	,	PUNCT		t64
-okay	okay	okay	INTJ		t65
-<g/>
-,	,	,	PUNCT		t66
-okay	okay	okay	INTJ		t67
-<g/>
-,	,	,	PUNCT		t68
-okay	okay	okay	INTJ		t69
-<g/>
-,	,	,	PUNCT		t70
-okay	okay	okay	INTJ		t71
-<g/>
-,	,	,	PUNCT		t72
-okay	okay	okay	INTJ		t73
-<g/>
-,	,	,	PUNCT		t74
-okay	okay	okay	INTJ		t75
-<g/>
-,	,	,	PUNCT		t76
-okay	okay	okay	INTJ		t77
-<g/>
-,	,	,	PUNCT		t78
-okay	okay	okay	INTJ		t79
-<g/>
-,	,	,	PUNCT		t80
-okay	okay	okay	INTJ		t81
-<g/>
-,	,	,	PUNCT		t82
-okay	okay	okay	INTJ		t83
-<g/>
-,	,	,	PUNCT		t84
-okay	okay	okay	INTJ		t85
-<g/>
-,	,	,	PUNCT		t86
-okay	okay	okay	INTJ		t87
-<g/>
-,	,	,	PUNCT		t88
-okay	okay	okay	INTJ		t89
-<g/>
-,	,	,	PUNCT		t90
-okay	okay	okay	INTJ		t91
-<g/>
-,	,	,	PUNCT		t92
-okay	okay	okay	INTJ		t93
-<g/>
-.	.	.	PUNCT		t94
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
 <s id="seg971947.2">
-If	If	if	SCONJ		t1
-the	the	the	DET	Definite=Def PronType=Art	t2
-senators	senators	senator	NOUN	Number=Plur	t3
-want	want	want	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	t4
+If	If	if	SCONJ	-	Z7	Z7	Z7: If	t1
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
+senators	senators	senator	NOUN	Number=Plur	G1.2/S2mf	G1.2 S2	G1.2: Politics|S2: People	t3
+want	want	want	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	X7+,S6+,A7+,S3.2,A9-	X7p	X7+: Wanted	t4
 <g/>
-,	,	,	PUNCT		t5
-of	of	of	ADP	ExtPos=ADV	t6
-course	course	course	NOUN	Number=Sing	t7
-they	they	they	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	t8
-can	can	can	AUX	VerbForm=Fin	t9
-repeat	repeat	repeat	VERB	VerbForm=Inf	t10
-these	these	this	DET	Number=Plur PronType=Dem	t11
-arguments	arguments	argument	NOUN	Number=Plur	t12
-during	during	during	ADP		t13
-the	the	the	DET	Definite=Def PronType=Art	t14
-discussion	discussion	discussion	NOUN	Number=Sing	t15
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t5
+of	of	of	ADP	ExtPos=ADV	Z5	Z5	Z5: Grammatical bin	t6
+course	course	course	NOUN	Number=Sing	M6,X7+,P1,B3,F1,M7/K5.1,T1.3	M6	M6: Location and direction	t7
+they	they	they	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pronouns	t8
+can	can	can	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t9
+repeat	repeat	repeat	VERB	VerbForm=Inf	N6+,Q2.1/N6+,F1/B1@	N6p	N6+: Frequent	t10
+these	these	this	DET	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t11
+arguments	arguments	argument	NOUN	Number=Plur	Q2.1,Q2.1/A6.1-,Q2.1/E3-	Q2.1	Q2.1: Speech: Communicative	t12
+during	during	during	ADP	-	Z5	Z5	Z5: Grammatical bin	t13
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t14
+discussion	discussion	discussion	NOUN	Number=Sing	Q2.1,Q2.2	Q2.1	Q2.1: Speech: Communicative	t15
 <g/>
-.	.	.	PUNCT		t16
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
 </p>
 <p id="seg971948" lang="English">
 <s id="seg971948.1">
-Ladies	Ladies	lady	NOUN	Number=Plur	t1
-and	and	and	CCONJ		t2
-gentlemen	gentlemen	gentleman	NOUN	Number=Plur	t3
+<phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
+Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
+and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
+gentlemen	gentlemen	gentleman	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t3
 <g/>
-,	,	,	PUNCT		t4
-allow	allow	allow	VERB	Mood=Ind VerbForm=Fin	t5
-me	me	I	PRON	Case=Acc Number=Sing Person=1 PronType=Prs	t6
-to	to	to	PART		t7
-read	read	read	VERB	VerbForm=Inf	t8
-the	the	the	DET	Definite=Def PronType=Art	t9
-draft	draft	draft	NOUN	Number=Sing	t10
-resolution	resolution	resolution	NOUN	Number=Sing	t11
+</phr>
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t4
+<phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
+allow	allow	allow	VERB	Mood=Ind VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t5
+me	me	I	PRON	Case=Acc Number=Sing Person=1 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t6
+</phr>
+to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t7
+read	read	read	VERB	VerbForm=Inf	Q3,Q1.2,X3.2+,X2.5+,P1,A10+	Q3	Q3: Language, speech and grammar	t8
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t9
+draft	draft	draft	NOUN	Number=Sing	Q1.2,G3,Q1.2/I1	Q1.2	Q1.2: Paper documents and writing	t10
+resolution	resolution	resolution	NOUN	Number=Sing	X6+,X9.2+	X6p	X6+: Decided	t11
 <g/>
-.	.	.	PUNCT		t12
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
 </p>
 <p id="seg971949" lang="English">
 <s id="seg971949.1">
-The	The	the	DET	Definite=Def PronType=Art	t1
-resolution	resolution	resolution	NOUN	Number=Sing	t2
-of	of	of	ADP		t3
-the	the	the	DET	Definite=Def PronType=Art	t4
+The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
+resolution	resolution	resolution	NOUN	Number=Sing	X6+,X9.2+	X6p	X6+: Decided	t2
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t4
 <name type="ORG">
-Senate	Senate	Senate	PROPN	Number=Sing	t5
-of	of	of	ADP		t6
-the	the	the	DET	Definite=Def PronType=Art	t7
-Republic	Republic	Republic	PROPN	Number=Sing	t8
-of	of	of	ADP		t9
-Poland	Poland	Poland	PROPN	Number=Sing	t10
+Senate	Senate	Senate	PROPN	Number=Sing	S7.1+	S7.1p	S7.1+: In power	t5
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t6
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t7
+Republic	Republic	Republic	PROPN	Number=Sing	S5+/M7	S5p M7	S5+: Belonging to a group|M7: Places	t8
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t9
+Poland	Poland	Poland	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t10
 </name>
-expressing	expressing	express	VERB	VerbForm=Ger	t11
-solidarity	solidarity	solidarity	NOUN	Number=Sing	t12
-with	with	with	ADP		t13
-the	the	the	DET	Definite=Def PronType=Art	t14
+expressing	expressing	express	VERB	VerbForm=Ger	Q1.1,B1%	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t11
+solidarity	solidarity	solidarity	NOUN	Number=Sing	S5+	S5p	S5+: Belonging to a group	t12
+with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t13
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t14
 <name type="MISC">
-Australian	Australian	Australian	ADJ	Degree=Pos	t15
+Australian	Australian	Australian	ADJ	Degree=Pos	Z2	Z2	Z2: Geographical names	t15
 </name>
-people	people	people	NOUN	Number=Plur	t16
+people	people	people	NOUN	Number=Plur	S2mfc	S2	S2: People	t16
 <g/>
-.	.	.	PUNCT		t17
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
 </p>
 <p id="seg971950" lang="English">
 <s id="seg971950.1">
-The	The	the	DET	Definite=Def PronType=Art	t1
+The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
-Senate	Senate	Senate	PROPN	Number=Sing	t2
-of	of	of	ADP		t3
-the	the	the	DET	Definite=Def PronType=Art	t4
+Senate	Senate	Senate	PROPN	Number=Sing	S7.1+	S7.1p	S7.1+: In power	t2
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t4
 </name>
 <name type="LOC">
-Republic	Republic	Republic	PROPN	Number=Sing	t5
-of	of	of	ADP		t6
-Poland	Poland	Poland	PROPN	Number=Sing	t7
+Republic	Republic	Republic	PROPN	Number=Sing	S5+/M7	S5p M7	S5+: Belonging to a group|M7: Places	t5
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t6
+Poland	Poland	Poland	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t7
 </name>
-wishes	wishes	wish	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	t8
-to	to	to	PART		t9
-express	express	express	VERB	VerbForm=Inf	t10
-solidarity	solidarity	solidarity	NOUN	Number=Sing	t11
-with	with	with	ADP		t12
-the	the	the	DET	Definite=Def PronType=Art	t13
+wishes	wishes	wish	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	X7+	X7p	X7+: Wanted	t8
+to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t9
+express	express	express	VERB	VerbForm=Inf	Q1.1,B1%	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t10
+solidarity	solidarity	solidarity	NOUN	Number=Sing	S5+	S5p	S5+: Belonging to a group	t11
+with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t12
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t13
 <name type="MISC">
-Australian	Australian	Australian	ADJ	Degree=Pos	t14
+Australian	Australian	Australian	ADJ	Degree=Pos	Z2	Z2	Z2: Geographical names	t14
 </name>
-people	people	people	NOUN	Number=Plur	t15
+people	people	people	NOUN	Number=Plur	S2mfc	S2	S2: People	t15
 <g/>
-,	,	,	PUNCT		t16
-who	who	who	PRON	PronType=Rel	t17
-have	have	have	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	t18
-been	been	be	AUX	Tense=Past VerbForm=Part	t19
-fighting	fighting	fight	VERB	Tense=Pres VerbForm=Part	t20
-the	the	the	DET	Definite=Def PronType=Art	t21
-cataclysm	cataclysm	cataclysm	NOUN	Number=Sing	t22
-of	of	of	ADP		t23
-fires	fires	fire	NOUN	Number=Plur	t24
-for	for	for	ADP		t25
-months	months	month	NOUN	Number=Plur	t26
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t16
+who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t17
+have	have	have	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t18
+been	been	be	AUX	Tense=Past VerbForm=Part	A3+,Z5	A3p	A3+: Existing	t19
+fighting	fighting	fight	VERB	Tense=Pres VerbForm=Part	S8-,X8+,E3-,G1.2	S8n	S8-: Hindering	t20
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t21
+cataclysm	cataclysm	cataclysm	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t22
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t23
+fires	fires	fire	NOUN	Number=Plur	O4.6+	O4.6p	O4.6+: Temperature: Hot / on fire	t24
+for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t25
+months	months	month	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t26
 <g/>
-,	,	,	PUNCT		t27
-one	one	one	NUM	NumForm=Word NumType=Card	t28
-of	of	of	ADP		t29
-the	the	the	DET	Definite=Def PronType=Art	t30
-biggest	biggest	big	ADJ	Degree=Sup	t31
-in	in	in	ADP		t32
-history	history	history	NOUN	Number=Sing	t33
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t27
+one	one	one	NUM	NumForm=Word NumType=Card	N1,T3,T1.2	N1	N1: Numbers	t28
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t29
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t30
+biggest	biggest	big	ADJ	Degree=Sup	N3.2+++,N5+++,A11.1+++,S1.2.5+++,X5.2+++	N3.2p	N3.2+: Size: Big	t31
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t32
+history	history	history	NOUN	Number=Sing	T1.1.1,P1/T1.1.1,Q2.1,B2	T1.1.1	T1.1.1: Time: Past	t33
 <g/>
-.	.	.	PUNCT		t34
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t34
 </s>
 </p>
 <p id="seg971951" lang="English">
 <s id="seg971951.1">
-In	In	in	ADP		t1
-recent	recent	recent	ADJ	Degree=Pos	t2
-months	months	month	NOUN	Number=Plur	t3
+In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
+recent	recent	recent	ADJ	Degree=Pos	T3-	T3n	T3-: Time: New and young	t2
+months	months	month	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t3
 <g/>
-,	,	,	PUNCT		t4
-tens	tens	ten	NOUN	Number=Plur	t5
-of	of	of	ADP		t6
-people	people	people	NOUN	Number=Plur	t7
-have	have	have	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	t8
-been	been	be	AUX	Tense=Past VerbForm=Part	t9
-killed	killed	kill	VERB	Tense=Past VerbForm=Part Voice=Pass	t10
-in	in	in	ADP		t11
-fires	fires	fire	NOUN	Number=Plur	t12
-in	in	in	ADP		t13
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t4
+tens	tens	ten	NOUN	Number=Plur	N1	N1	N1: Numbers	t5
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t6
+people	people	people	NOUN	Number=Plur	S2mfc	S2	S2: People	t7
+have	have	have	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t8
+been	been	be	AUX	Tense=Past VerbForm=Part	A3+,Z5	A3p	A3+: Existing	t9
+killed	killed	kill	VERB	Tense=Past VerbForm=Part Voice=Pass	L1-,A12-,A1.5.1,E4.1-/A2.2	L1n	L1-: Dead	t10
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t11
+fires	fires	fire	NOUN	Number=Plur	O4.6+	O4.6p	O4.6+: Temperature: Hot / on fire	t12
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t13
 <name type="LOC">
-Australia	Australia	Australia	PROPN	Number=Sing	t14
+Australia	Australia	Australia	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t14
 <g/>
 </name>
-,	,	,	PUNCT		t15
-thousands	thousands	thousand	NOUN	Number=Plur	t16
-of	of	of	ADP		t17
-homes	homes	home	NOUN	Number=Plur	t18
-and	and	and	CCONJ		t19
-more	more	more	ADJ	Degree=Cmp ExtPos=ADV	t20
-than	than	than	ADP		t21
-10	10	10	NUM	NumForm=Digit NumType=Card	t22
-million	million	million	NUM	NumForm=Word NumType=Card	t23
-hectares	hectares	hectare	NOUN	Number=Plur	t24
-of	of	of	ADP		t25
-forest	forest	forest	NOUN	Number=Sing	t26
-and	and	and	CCONJ		t27
-bush	bush	bush	NOUN	Number=Sing	t28
-have	have	have	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	t29
-been	been	be	AUX	Tense=Past VerbForm=Part	t30
-burned	burned	burn	VERB	Tense=Past VerbForm=Part Voice=Pass	t31
-down	down	down	ADP		t32
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t15
+thousands	thousands	thousand	NOUN	Number=Plur	N1,N5+,I1	N1	N1: Numbers	t16
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t17
+homes	homes	home	NOUN	Number=Plur	H4/H1c,M6	H4 H1	H4: Residence|H1: Architecture, houses and buildings	t18
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t19
+more	more	more	ADJ	Degree=Cmp ExtPos=ADV	A13.3,N6++	A13.3	A13.3: Degree: Boosters	t20
+than	than	than	ADP	-	Z5	Z5	Z5: Grammatical bin	t21
+<phr usas_tags="N1,T3,T1.2,T1.3,N3.3,N3.5,I1" usas_cats="N1" usas_glosses="N1: Numbers">
+10	10	10	NUM	NumForm=Digit NumType=Card	N1,T3,T1.2,T1.3,N3.3,N3.5,I1	N1	N1: Numbers	t22
+million	million	million	NUM	NumForm=Word NumType=Card	N1,T3,T1.2,T1.3,N3.3,N3.5,I1	N1	N1: Numbers	t23
+</phr>
+hectares	hectares	hectare	NOUN	Number=Plur	N3.6	N3.6	N3.6: Measurement: Area	t24
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t25
+forest	forest	forest	NOUN	Number=Sing	W3/L3	W3 L3	W3: Geographical terms|L3: Plants	t26
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t27
+bush	bush	bush	NOUN	Number=Sing	L3,W3	L3	L3: Plants	t28
+have	have	have	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t29
+been	been	be	AUX	Tense=Past VerbForm=Part	A3+,Z5	A3p	A3+: Existing	t30
+burned	burned	burn	VERB	Tense=Past VerbForm=Part Voice=Pass	O4.6+,E1,A1.5.1	O4.6p	O4.6+: Temperature: Hot / on fire	t31
+down	down	down	ADP	-	Z5	Z5	Z5: Grammatical bin	t32
 <g/>
-.	.	.	PUNCT		t33
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t33
 </s>
 <s id="seg971951.2">
-Losses	Losses	loss	NOUN	Number=Plur	t1
-to	to	to	ADP		t2
-the	the	the	DET	Definite=Def PronType=Art	t3
-fauna	fauna	fauna	NOUN	Number=Sing	t4
-and	and	and	CCONJ		t5
-flora	flora	flora	NOUN	Number=Sing	t6
-of	of	of	ADP		t7
-the	the	the	DET	Definite=Def PronType=Art	t8
-continent	continent	continent	NOUN	Number=Sing	t9
-are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	t10
-gigantic	gigantic	gigantic	ADJ	Degree=Pos	t11
+Losses	Losses	loss	NOUN	Number=Plur	I1.2,A9-,S8-,L1-	I1.2	I1.2: Money: Debts	t1
+to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
+fauna	fauna	fauna	NOUN	Number=Sing	L2	L2	L2: Living creatures: animals, birds, etc.	t4
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t5
+<phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
+flora	flora	flora	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t6
+of	of	of	ADP	-	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t7
+the	the	the	DET	Definite=Def PronType=Art	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t8
+continent	continent	continent	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t9
+</phr>
+are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t10
+gigantic	gigantic	gigantic	ADJ	Degree=Pos	N3.2+++	N3.2p	N3.2+: Size: Big	t11
 <g/>
-,	,	,	PUNCT		t12
-some	some	some	DET		t13
-species	species	species	NOUN	Number=Plur	t14
-of	of	of	ADP		t15
-plants	plants	plant	NOUN	Number=Plur	t16
-and	and	and	CCONJ		t17
-animals	animals	animal	NOUN	Number=Plur	t18
-are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	t19
-threatened	threatened	threaten	VERB	Tense=Past VerbForm=Part Voice=Pass	t20
-with	with	with	ADP		t21
-extinction	extinction	extinction	NOUN	Number=Sing	t22
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t12
+some	some	some	DET	-	N5,Z5	N5	N5: Quantities	t13
+species	species	species	NOUN	Number=Plur	A4.1c,L2c	A4.1	A4.1: Generally kinds, groups, examples	t14
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t15
+<phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
+plants	plants	plant	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t16
+and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t17
+animals	animals	animal	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t18
+</phr>
+are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t19
+threatened	threatened	threaten	VERB	Tense=Past VerbForm=Part Voice=Pass	E3-/Q2.2,A15-,X2.6+/O4.2-,A7+	E3n Q2.2	E3-: Violent/Angry|Q2.2: Speech acts	t20
+with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t21
+extinction	extinction	extinction	NOUN	Number=Sing	L1-,A3-	L1n	L1-: Dead	t22
 <g/>
-.	.	.	PUNCT		t23
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
 </p>
 <p id="seg971952" lang="English">
 <s id="seg971952.1">
-The	The	the	DET	Definite=Def PronType=Art	t1
+The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
-Senate	Senate	Senate	PROPN	Number=Sing	t2
-of	of	of	ADP		t3
-the	the	the	DET	Definite=Def PronType=Art	t4
+Senate	Senate	Senate	PROPN	Number=Sing	S7.1+	S7.1p	S7.1+: In power	t2
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t4
 </name>
 <name type="LOC">
-Republic	Republic	Republic	PROPN	Number=Sing	t5
-of	of	of	ADP		t6
-Poland	Poland	Poland	PROPN	Number=Sing	t7
+Republic	Republic	Republic	PROPN	Number=Sing	S5+/M7	S5p M7	S5+: Belonging to a group|M7: Places	t5
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t6
+Poland	Poland	Poland	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t7
 </name>
-sends	sends	send	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	t8
-his	his	he	PRON	Gender=Masc Number=Sing Person=3 Poss=Yes PronType=Prs	t9
-compliments	compliments	compliment	NOUN	Number=Plur	t10
-to	to	to	ADP		t11
-all	all	all	DET		t12
-those	those	that	PRON	Number=Plur PronType=Dem	t13
-fighting	fighting	fight	VERB	VerbForm=Ger	t14
-fires	fires	fire	NOUN	Number=Plur	t15
-and	and	and	CCONJ		t16
-providing	providing	provide	VERB	VerbForm=Ger	t17
-shelter	shelter	shelter	NOUN	Number=Sing	t18
-and	and	and	CCONJ		t19
-assistance	assistance	assistance	NOUN	Number=Sing	t20
-to	to	to	ADP		t21
-those	those	that	PRON	Number=Plur PronType=Dem	t22
-who	who	who	PRON	PronType=Rel	t23
-suffered	suffered	suffer	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	t24
-in	in	in	ADP		t25
-the	the	the	DET	Definite=Def PronType=Art	t26
-fires	fires	fire	NOUN	Number=Plur	t27
+sends	sends	send	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t8
+his	his	he	PRON	Gender=Masc Number=Sing Person=3 Poss=Yes PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t9
+compliments	compliments	compliment	NOUN	Number=Plur	S1.2.4+	S1.2.4p	S1.2.4+: Polite	t10
+to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t11
+all	all	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t12
+those	those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t13
+fighting	fighting	fight	VERB	VerbForm=Ger	S8-,X8+,E3-,G1.2	S8n	S8-: Hindering	t14
+fires	fires	fire	NOUN	Number=Plur	O4.6+	O4.6p	O4.6+: Temperature: Hot / on fire	t15
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t16
+providing	providing	provide	VERB	VerbForm=Ger	A9-	A9n	A9-: Giving	t17
+<phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
+shelter	shelter	shelter	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t18
+and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t19
+assistance	assistance	assistance	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t20
+</phr>
+to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t21
+those	those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t22
+who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t23
+suffered	suffered	suffer	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	E4.1-,B2-,X3,A5.1-/A2.1,S7.4+	E4.1n	E4.1-: Sad	t24
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t25
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t26
+fires	fires	fire	NOUN	Number=Plur	O4.6+	O4.6p	O4.6+: Temperature: Hot / on fire	t27
 <g/>
-.	.	.	PUNCT		t28
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
 <s id="seg971952.2">
-We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	t1
-appreciate	appreciate	appreciate	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	t2
-the	the	the	DET	Definite=Def PronType=Art	t3
-efforts	efforts	effort	NOUN	Number=Plur	t4
-of	of	of	ADP		t5
-firefighters	firefighters	firefighter	NOUN	Number=Plur	t6
+We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
+appreciate	appreciate	appreciate	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	E2+,X2.5+,S1.1.1,I1.1++	E2p	E2+: Like	t2
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
+efforts	efforts	effort	NOUN	Number=Plur	X8+,O2	X8p	X8+: Trying hard	t4
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t5
+firefighters	firefighters	firefighter	NOUN	Number=Plur	O4.6+/S2mf	O4.6p S2	O4.6+: Temperature: Hot / on fire|S2: People	t6
 <g/>
-,	,	,	PUNCT		t7
-police	police	police	NOUN	Number=Plur	t8
-and	and	and	CCONJ		t9
-army	army	army	NOUN	Number=Sing	t10
-and	and	and	CCONJ		t11
-thousands	thousands	thousand	NOUN	Number=Plur	t12
-of	of	of	ADP		t13
-volunteers	volunteers	volunteer	NOUN	Number=Plur	t14
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t7
+<phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
+police	police	police	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t8
+and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t9
+army	army	army	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t10
+</phr>
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t11
+thousands	thousands	thousand	NOUN	Number=Plur	N1,N5+,I1	N1	N1: Numbers	t12
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t13
+volunteers	volunteers	volunteer	NOUN	Number=Plur	I3.1/I1.1-/S2mf,I3.1/X7+/S2mf,G3/S2mf	I3.1 I1.1n S2	I3.1: Work and employment: Generally|I1.1-: Money: Lack|S2: People	t14
 <g/>
-,	,	,	PUNCT		t15
-many	many	many	ADJ	Degree=Pos	t16
-of	of	of	ADP		t17
-whom	whom	whom	PRON	PronType=Rel	t18
-are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	t19
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t15
+many	many	many	ADJ	Degree=Pos	N5+	N5p	N5+: Quantities: many/much	t16
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t17
+whom	whom	whom	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t18
+are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t19
 </s>
 <s id="seg971952.3">
 <name type="MISC">
-Australians	Australians	Australians	PROPN	Number=Plur	t1
+Australians	Australians	Australians	PROPN	Number=Plur	Z2/S2mf,Z2	Z2 S2	Z2: Geographical names|S2: People	t1
 </name>
-of	of	of	ADP		t2
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 <name type="MISC">
-Polish	Polish	Polish	ADJ	Degree=Pos	t3
+Polish	Polish	Polish	ADJ	Degree=Pos	Z2,Z2/Q3,Z2/S2mfnc	Z2	Z2: Geographical names	t3
 </name>
-origin	origin	origin	NOUN	Number=Sing	t4
-and	and	and	CCONJ		t5
+origin	origin	origin	NOUN	Number=Sing	T2+,N2	T2p	T2+: Time: Beginning	t4
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t5
 <name type="MISC">
-Poles	Poles	Poles	PROPN	Number=Plur	t6
+Poles	Poles	Poles	PROPN	Number=Plur	Z2/S2mf,O2	Z2 S2	Z2: Geographical names|S2: People	t6
 </name>
-living	living	live	VERB	VerbForm=Ger	t7
-in	in	in	ADP		t8
+living	living	live	VERB	VerbForm=Ger	H4,L1+	H4	H4: Residence	t7
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t8
 <name type="LOC">
-Australia	Australia	Australia	PROPN	Number=Sing	t9
+Australia	Australia	Australia	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t9
 <g/>
 </name>
-.	.	.	PUNCT		t10
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
 </p>
 <p id="seg971953" lang="English">
 <s id="seg971953.1">
-The	The	the	DET	Definite=Def PronType=Art	t1
-continuing	continuing	continue	VERB	VerbForm=Ger	t2
-disaster	disaster	disaster	NOUN	Number=Sing	t3
-in	in	in	ADP		t4
+The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
+continuing	continuing	continue	VERB	VerbForm=Ger	T2++	T2p	T2+: Time: Beginning	t2
+disaster	disaster	disaster	NOUN	Number=Sing	A5.1---,X9.2-,A1.1.2/W4	A5.1n	A5.1-: Evaluation: Bad	t3
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t4
 <name type="LOC">
-Australia	Australia	Australia	PROPN	Number=Sing	t5
+Australia	Australia	Australia	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t5
 </name>
-once	once	once	ADV	NumType=Mult	t6
-again	again	again	ADV		t7
-tragically	tragically	tragically	ADV		t8
-draws	draws	draw	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	t9
-the	the	the	DET	Definite=Def PronType=Art	t10
-attention	attention	attention	NOUN	Number=Sing	t11
-of	of	of	ADP		t12
-all	all	all	DET		t13
-mankind	mankind	mankind	NOUN	Number=Sing	t14
-to	to	to	ADP		t15
-the	the	the	DET	Definite=Def PronType=Art	t16
-responsibility	responsibility	responsibility	NOUN	Number=Sing	t17
-for	for	for	ADP		t18
-the	the	the	DET	Definite=Def PronType=Art	t19
-environment	environment	environment	NOUN	Number=Sing	t20
-and	and	and	CCONJ		t21
-the	the	the	DET	Definite=Def PronType=Art	t22
-climate	climate	climate	NOUN	Number=Sing	t23
-of	of	of	ADP		t24
-our	our	we	PRON	Number=Plur Person=1 Poss=Yes PronType=Prs	t25
-common	common	common	ADJ	Degree=Pos	t26
-planet	planet	planet	NOUN	Number=Sing	t27
+once	once	once	ADV	NumType=Mult	Z4,N6+	Z4	Z4: Discourse Bin	t6
+again	again	again	ADV	-	Z4,N6+	Z4	Z4: Discourse Bin	t7
+tragically	tragically	tragically	ADV	-	E4.1-	E4.1n	E4.1-: Sad	t8
+draws	draws	draw	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	C1,M2,A9+,X5.1+,I1.2,O4.2+,X2.1,K5.1	C1	C1: Arts and crafts	t9
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t10
+attention	attention	attention	NOUN	Number=Sing	X5.1+,S8+	X5.1p	X5.1+: Attentive	t11
+<phr usas_tags="N6+,T1.2" usas_cats="N6p" usas_glosses="N6+: Frequent">
+of	of	of	ADP	-	N6+,T1.2	N6p	N6+: Frequent	t12
+all	all	all	DET	-	N6+,T1.2	N6p	N6+: Frequent	t13
+mankind	mankind	mankind	NOUN	Number=Sing	N6+,T1.2	N6p	N6+: Frequent	t14
+</phr>
+to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t15
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t16
+responsibility	responsibility	responsibility	NOUN	Number=Sing	S6+,S7.1+,X6+	S6p	S6+: Strong obligation or necessity	t17
+for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t18
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t19
+environment	environment	environment	NOUN	Number=Sing	W5,W3,E1,Y2,O4.1	W5	W5: Green issues	t20
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t21
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t22
+climate	climate	climate	NOUN	Number=Sing	W4,A1.1.1,E1	W4	W4: Weather	t23
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t24
+our	our	we	PRON	Number=Plur Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t25
+common	common	common	ADJ	Degree=Pos	A6.2+,N5++,S5+,O4.2-	A6.2p	A6.2+: Comparing: Usual	t26
+planet	planet	planet	NOUN	Number=Sing	W1	W1	W1: The universe	t27
 <g/>
-.	.	.	PUNCT		t28
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
 <s id="seg971953.2">
-Increasing	Increasing	increase	VERB	VerbForm=Ger	t1
-droughts	droughts	drought	NOUN	Number=Plur	t2
-are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	t3
-a	a	a	DET	Definite=Ind PronType=Art	t4
-challenge	challenge	challenge	NOUN	Number=Sing	t5
-not	not	not	PART		t6
-only	only	only	ADV		t7
-for	for	for	ADP		t8
+Increasing	Increasing	increase	VERB	VerbForm=Ger	N5+/A2.1	N5p A2.1	N5+: Quantities: many/much|A2.1: Affect: Modify, change	t1
+droughts	droughts	drought	NOUN	Number=Plur	W4	W4	W4: Weather	t2
+are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
+a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t4
+challenge	challenge	challenge	NOUN	Number=Sing	A12-,A6.1-,S7.3+,E3-	A12n	A12-: Difficult	t5
+<phr usas_tags="Z5" usas_cats="Z5" usas_glosses="Z5: Grammatical bin">
+not	not	not	PART	-	Z5	Z5	Z5: Grammatical bin	t6
+only	only	only	ADV	-	Z5	Z5	Z5: Grammatical bin	t7
+</phr>
+for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t8
 <name type="LOC">
-Australia	Australia	Australia	PROPN	Number=Sing	t9
+Australia	Australia	Australia	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t9
 <g/>
 </name>
-,	,	,	PUNCT		t10
-but	but	but	CCONJ		t11
-also	also	also	ADV		t12
-for	for	for	ADP		t13
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t10
+but	but	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t11
+also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t12
+for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t13
 <name type="LOC">
-Europe	Europe	Europe	PROPN	Number=Sing	t14
+Europe	Europe	Europe	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t14
 <g/>
 </name>
-,	,	,	PUNCT		t15
-including	including	include	VERB	VerbForm=Ger	t16
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t15
+including	including	include	VERB	VerbForm=Ger	A1.8+	A1.8p	A1.8+: Inclusion	t16
 <name type="LOC">
-Poland	Poland	Poland	PROPN	Number=Sing	t17
+Poland	Poland	Poland	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t17
 <g/>
 </name>
-.	.	.	PUNCT		t18
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
 </p>
 <p id="seg971954" lang="English">
 <s id="seg971954.1">
-The	The	the	DET	Definite=Def PronType=Art	t1
+The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
-Senate	Senate	Senate	PROPN	Number=Sing	t2
-of	of	of	ADP		t3
-the	the	the	DET	Definite=Def PronType=Art	t4
-Republic	Republic	Republic	PROPN	Number=Sing	t5
-of	of	of	ADP		t6
-Poland	Poland	Poland	PROPN	Number=Sing	t7
+Senate	Senate	Senate	PROPN	Number=Sing	S7.1+	S7.1p	S7.1+: In power	t2
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t4
+Republic	Republic	Republic	PROPN	Number=Sing	S5+/M7	S5p M7	S5+: Belonging to a group|M7: Places	t5
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t6
+Poland	Poland	Poland	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t7
 </name>
-supports	supports	support	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	t8
-the	the	the	DET	Definite=Def PronType=Art	t9
-statements	statements	statement	NOUN	Number=Plur	t10
-of	of	of	ADP		t11
-assistance	assistance	assistance	NOUN	Number=Sing	t12
-made	made	make	VERB	Tense=Past VerbForm=Part	t13
-by	by	by	ADP		t14
-the	the	the	DET	Definite=Def PronType=Art	t15
-Prime	Prime	Prime	ADJ	Degree=Pos	t16
-Minister	Minister	Minister	PROPN	Number=Sing	t17
-of	of	of	ADP		t18
-the	the	the	DET	Definite=Def PronType=Art	t19
+supports	supports	support	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	S8+,A1.1.1,K5.1,I1.1,A10+	S8p	S8+: Helping	t8
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t9
+statements	statements	statement	NOUN	Number=Plur	Q2.1,I1/Q1.2	Q2.1	Q2.1: Speech: Communicative	t10
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t11
+assistance	assistance	assistance	NOUN	Number=Sing	S8+	S8p	S8+: Helping	t12
+made	made	make	VERB	Tense=Past VerbForm=Part	A1.1.1,A9+,A2.2,S6+,A3+,A9-,X9.2+,X6+	A1.1.1	A1.1.1: General actions / making	t13
+by	by	by	ADP	-	Z5	Z5	Z5: Grammatical bin	t14
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t15
+<phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
+Prime	Prime	Prime	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t16
+Minister	Minister	Minister	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t17
+</phr>
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t18
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t19
 <name type="ORG">
-Government	Government	Government	PROPN	Number=Sing	t20
-of	of	of	ADP		t21
-the	the	the	DET	Definite=Def PronType=Art	t22
-Republic	Republic	Republic	PROPN	Number=Sing	t23
-of	of	of	ADP		t24
-Poland	Poland	Poland	PROPN	Number=Sing	t25
+Government	Government	Government	PROPN	Number=Sing	G1.1c	G1.1	G1.1: Government	t20
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t21
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t22
+Republic	Republic	Republic	PROPN	Number=Sing	S5+/M7	S5p M7	S5+: Belonging to a group|M7: Places	t23
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t24
+Poland	Poland	Poland	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t25
 </name>
-to	to	to	ADP		t26
-the	the	the	DET	Definite=Def PronType=Art	t27
+to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t26
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t27
 <name type="ORG">
-Government	Government	Government	PROPN	Number=Sing	t28
-of	of	of	ADP		t29
-the	the	the	DET	Definite=Def PronType=Art	t30
-Australian	Australian	Australian	ADJ	Degree=Pos	t31
-Union	Union	Union	PROPN	Number=Sing	t32
+Government	Government	Government	PROPN	Number=Sing	G1.1c	G1.1	G1.1: Government	t28
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t29
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t30
+Australian	Australian	Australian	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t31
+Union	Union	Union	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t32
 </name>
-and	and	and	CCONJ		t33
-individual	individual	individual	ADJ	Degree=Pos	t34
-acts	acts	act	NOUN	Number=Plur	t35
-of	of	of	ADP		t36
-support	support	support	NOUN	Number=Sing	t37
-of	of	of	ADP		t38
-citizens	citizens	citizen	NOUN	Number=Plur	t39
-of	of	of	ADP		t40
-the	the	the	DET	Definite=Def PronType=Art	t41
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t33
+individual	individual	individual	ADJ	Degree=Pos	N5-	N5n	N5-: Quantities: little	t34
+acts	acts	act	NOUN	Number=Plur	A1.1.1,K4	A1.1.1	A1.1.1: General actions / making	t35
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t36
+support	support	support	NOUN	Number=Sing	S8+,O2,I1.1,B5%	S8p	S8+: Helping	t37
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t38
+citizens	citizens	citizen	NOUN	Number=Plur	G1.1/S2mf,S5+/S2mf	G1.1 S2	G1.1: Government|S2: People	t39
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t40
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t41
 <name type="LOC">
-Republic	Republic	Republic	PROPN	Number=Sing	t42
-of	of	of	ADP		t43
-Poland	Poland	Poland	PROPN	Number=Sing	t44
+Republic	Republic	Republic	PROPN	Number=Sing	S5+/M7	S5p M7	S5+: Belonging to a group|M7: Places	t42
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t43
+Poland	Poland	Poland	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t44
 </name>
-for	for	for	ADP		t45
-the	the	the	DET	Definite=Def PronType=Art	t46
-victims	victims	victim	NOUN	Number=Plur	t47
-of	of	of	ADP		t48
-this	this	this	DET	Number=Sing PronType=Dem	t49
-disaster	disaster	disaster	NOUN	Number=Sing	t50
+for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t45
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t46
+victims	victims	victim	NOUN	Number=Plur	A1.1.2/G2.1/S2mf,B2-/S2mf	A1.1.2 G2.1 S2	A1.1.2: Damaging and destroying|G2.1: Law and order|S2: People	t47
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t48
+this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t49
+disaster	disaster	disaster	NOUN	Number=Sing	A5.1---,X9.2-,A1.1.2/W4	A5.1n	A5.1-: Evaluation: Bad	t50
 <g/>
-.	.	.	PUNCT		t51
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t51
 </s>
 </p>
 <p id="seg971955" lang="English">
 <s id="seg971955.1">
-The	The	the	DET	Definite=Def PronType=Art	t1
-resolution	resolution	resolution	NOUN	Number=Sing	t2
-is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	t3
-published	published	publish	VERB	Tense=Past VerbForm=Part Voice=Pass	t4
-in	in	in	ADP		t5
-the	the	the	DET	Definite=Def PronType=Art	t6
+The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
+resolution	resolution	resolution	NOUN	Number=Sing	X6+,X9.2+	X6p	X6+: Decided	t2
+is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
+published	published	publish	VERB	Tense=Past VerbForm=Part Voice=Pass	Q4	Q4	Q4: The Media	t4
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t5
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t6
 <name type="ORG">
-Official	Official	official	ADJ	Degree=Pos	t7
-Journal	Journal	Journal	PROPN	Number=Sing	t8
-of	of	of	ADP		t9
-the	the	the	DET	Definite=Def PronType=Art	t10
-Republic	Republic	Republic	PROPN	Number=Sing	t11
-of	of	of	ADP		t12
-Poland	Poland	Poland	PROPN	Number=Sing	t13
+Official	Official	official	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t7
+Journal	Journal	Journal	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t8
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t9
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t10
+Republic	Republic	Republic	PROPN	Number=Sing	S5+/M7	S5p M7	S5+: Belonging to a group|M7: Places	t11
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t12
+Poland	Poland	Poland	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t13
 <g/>
 </name>
-.	.	.	PUNCT		t14
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
 <s id="seg971955.2">
-Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	t1
-you	you	you	PRON	Case=Acc Person=2 PronType=Prs	t2
-very	very	very	ADV		t3
-much	much	much	ADV		t4
+<phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
+Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
+you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
+</phr>
+<phr usas_tags="A13.3" usas_cats="A13.3" usas_glosses="A13.3: Degree: Boosters">
+very	very	very	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t3
+much	much	much	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t4
 <g/>
-.	.	.	PUNCT		t5
+</phr>
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
 </p>
 <note type="kinesic:applause" content="Applause"/>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-PL_2020-01-17-senat-03-3.u223" text_id="ParlaMint-PL-en_2020-01-17-senat-03-3" subcorpus="Reference" body="Upper house" term="10-upper" session="3-upper" meeting="" sitting="3-upper" agenda="" date="2020-01-17" title="Report of the session of the Senat of the Republic of Poland, Term 10, Session 3, Day 3 (2020-01-17)" wordcount="221" speaker_role="Regular" speaker_id="StanisławGawłowski" speaker_name="Gawłowski, Stanisław" speaker_mp="MP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1968">
+<speech id="ParlaMint-PL_2020-01-17-senat-03-3.u223" text_id="ParlaMint-PL-en_2020-01-17-senat-03-3" subcorpus="Reference" lang="English" body="Upper house" term="10. kadencja Senatu" session="3. sesja Senatu" meeting="-" sitting="3. dzień sesji Senatu" agenda="-" date="2020-01-17" title="Report of the session of the Senat of the Republic of Poland, Term 10, Session 3, Day 3 (2020-01-17)" speaker_role="Regular" speaker_id="StanisławGawłowski" speaker_name="Gawłowski, Stanisław" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1968">
 <p id="seg973674" lang="English">
 <s id="seg973674.1">
-Mr.	Mr.	Mr.	PROPN	Number=Sing	t1
+Mr.	Mr.	Mr.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 <name type="PER">
-Marshal	Marshal	Marshal	PROPN	Number=Sing	t2
+Marshal	Marshal	Marshal	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 <g/>
 </name>
-!	!	!	PUNCT		t3
+!	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
 <s id="seg973674.2">
-High	High	high	ADJ	Degree=Pos	t1
-Izbo	Izbo	Izbo	PROPN	Number=Sing	t2
+<phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
+High	High	high	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t1
+Izbo	Izbo	Izbo	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 <g/>
-!	!	!	PUNCT		t3
+</phr>
+!	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
 </p>
 <p id="seg973675" lang="English">
 <s id="seg973675.1">
-I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	t1
-do	do	do	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	t2
+I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
+do	do	do	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t2
 <g/>
-n't	n't	not	PART		t3
-have	have	have	VERB	VerbForm=Inf	t4
-much	much	much	ADJ	Degree=Pos	t5
-experience	experience	experience	NOUN	Number=Sing	t6
-making	making	make	VERB	VerbForm=Ger	t7
-statements	statements	statement	NOUN	Number=Plur	t8
+n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t3
+have	have	have	VERB	VerbForm=Inf	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t4
+much	much	much	ADJ	Degree=Pos	N5+,I1.3+	N5p	N5+: Quantities: many/much	t5
+experience	experience	experience	NOUN	Number=Sing	X2.2+,X9.1+,I3.2,A2.1+/A3+,X3	X2.2p	X2.2+: Knowledgeable	t6
+making	making	make	VERB	VerbForm=Ger	A1.1.1,A9+,A2.2,S6+,A3+,A9-,X9.2+,X6+	A1.1.1	A1.1.1: General actions / making	t7
+statements	statements	statement	NOUN	Number=Plur	Q2.1,I1/Q1.2	Q2.1	Q2.1: Speech: Communicative	t8
 <g/>
-,	,	,	PUNCT		t9
-so	so	so	ADV		t10
-I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	t11
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t9
+so	so	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t10
+I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t11
 <g/>
-'m	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	t12
-gonna	gonna	gonna	PART		t13
-direct	direct	direct	VERB	VerbForm=Inf	t14
-this	this	this	DET	Number=Sing PronType=Dem	t15
-statement	statement	statement	NOUN	Number=Sing	t16
-to	to	to	ADP		t17
-your	your	you	PRON	Person=2 Poss=Yes PronType=Prs	t18
-marshal	marshal	marshal	NOUN	Number=Sing	t19
-and	and	and	CCONJ		t20
-the	the	the	DET	Definite=Def PronType=Art	t21
+'m	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t12
+gonna	gonna	gonna	PART	-	T1.1.3	T1.1.3	T1.1.3: Time: Future	t13
+direct	direct	direct	VERB	VerbForm=Inf	M6,Q2.2,S7.1+,K4	M6	M6: Location and direction	t14
+this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t15
+statement	statement	statement	NOUN	Number=Sing	Q2.1,I1/Q1.2	Q2.1	Q2.1: Speech: Communicative	t16
+to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t17
+your	your	you	PRON	Person=2 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t18
+marshal	marshal	marshal	NOUN	Number=Sing	K5.1/S2mf,G2.1/S2mf,G3/S7.1+/S2mf	K5.1 S2	K5.1: Sports|S2: People	t19
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t20
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t21
 <name type="ORG">
-Senate	Senate	Senate	PROPN	Number=Sing	t22
+Senate	Senate	Senate	PROPN	Number=Sing	S7.1+	S7.1p	S7.1+: In power	t22
 <g/>
 </name>
-.	.	.	PUNCT		t23
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
 </p>
 <p id="seg973676" lang="English">
 <s id="seg973676.1">
-In	In	in	ADP		t1
-this	this	this	DET	Number=Sing PronType=Dem	t2
-statement	statement	statement	NOUN	Number=Sing	t3
+In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
+this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
+statement	statement	statement	NOUN	Number=Sing	Q2.1,I1/Q1.2	Q2.1	Q2.1: Speech: Communicative	t3
 <g/>
-,	,	,	PUNCT		t4
-I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	t5
-would	would	would	AUX	VerbForm=Fin	t6
-like	like	like	VERB	VerbForm=Inf	t7
-to	to	to	PART		t8
-refer	refer	refer	VERB	VerbForm=Inf	t9
-to	to	to	ADP		t10
-the	the	the	DET	Definite=Def PronType=Art	t11
-words	words	word	NOUN	Number=Plur	t12
-of	of	of	ADP		t13
-the	the	the	DET	Definite=Def PronType=Art	t14
-previous	previous	previous	ADJ	Degree=Pos	t15
-speaker	speaker	speaker	NOUN	Number=Sing	t16
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t4
+I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t5
+would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t6
+like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t7
+to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t8
+refer	refer	refer	VERB	VerbForm=Inf	Q2.2,Q1.2	Q2.2	Q2.2: Speech acts	t9
+to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t10
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t11
+words	words	word	NOUN	Number=Plur	Q3	Q3	Q3: Language, speech and grammar	t12
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t13
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t14
+<phr usas_tags="Q3/S2mf" usas_cats="Q3 S2" usas_glosses="Q3: Language, speech and grammar|S2: People">
+previous	previous	previous	ADJ	Degree=Pos	Q3/S2mf	Q3 S2	Q3: Language, speech and grammar|S2: People	t15
+speaker	speaker	speaker	NOUN	Number=Sing	Q3/S2mf	Q3 S2	Q3: Language, speech and grammar|S2: People	t16
 <g/>
-,	,	,	PUNCT		t17
+</phr>
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 <name type="PER">
-Senator	Senator	Senator	PROPN	Number=Sing	t18
-Czerwiński	Czerwiński	Czerwiński	PROPN	Number=Sing	t19
+Senator	Senator	Senator	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t18
+Czerwiński	Czerwiński	Czerwiński	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t19
 <g/>
 </name>
-,	,	,	PUNCT		t20
-who	who	who	PRON	PronType=Rel	t21
-has	has	have	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	t22
-already	already	already	ADV		t23
-left	left	leave	VERB	Tense=Past VerbForm=Part	t24
-the	the	the	DET	Definite=Def PronType=Art	t25
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t20
+who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t21
+has	has	have	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t22
+already	already	already	ADV	-	T1.1.1	T1.1.1	T1.1.1: Time: Past	t23
+left	left	leave	VERB	Tense=Past VerbForm=Part	M1,M2,A1.1.1,A1.9,A9-,N5.2+,T2-	M1	M1: Moving, coming and going	t24
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t25
 <name type="LOC">
-High	High	high	ADJ	Degree=Pos	t26
-House	House	House	PROPN	Number=Sing	t27
+High	High	high	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t26
+House	House	House	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t27
 <g/>
 </name>
-.	.	.	PUNCT		t28
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
 </p>
 <p id="seg973677" lang="English">
 <s id="seg973677.1">
-The	The	the	DET	Definite=Def PronType=Art	t1
-senator	senator	senator	NOUN	Number=Sing	t2
-has	has	have	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	t3
-serious	serious	serious	ADJ	Degree=Pos	t4
-doubts	doubts	doubt	NOUN	Number=Plur	t5
-about	about	about	ADP		t6
-the	the	the	DET	Definite=Def PronType=Art	t7
-participation	participation	participation	NOUN	Number=Sing	t8
-of	of	of	ADP		t9
-the	the	the	DET	Definite=Def PronType=Art	t10
+The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
+senator	senator	senator	NOUN	Number=Sing	G1.2/S2mf	G1.2 S2	G1.2: Politics|S2: People	t2
+has	has	have	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
+serious	serious	serious	ADJ	Degree=Pos	A11.1+,A15-,E4.1-	A11.1p	A11.1+: Important	t4
+doubts	doubts	doubt	NOUN	Number=Plur	A7-,E6-	A7n	A7-: Unlikely	t5
+about	about	about	ADP	-	Z5	Z5	Z5: Grammatical bin	t6
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t7
+participation	participation	participation	NOUN	Number=Sing	S1.1.3+	S1.1.3p	S1.1.3+: Participating	t8
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t9
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t10
 <name type="ORG">
-Senate	Senate	Senate	PROPN	Number=Sing	t11
-Marshal	Marshal	Marshal	PROPN	Number=Sing	t12
+Senate	Senate	Senate	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t11
+Marshal	Marshal	Marshal	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t12
 <g/>
 </name>
-,	,	,	PUNCT		t13
-representing	representing	represent	VERB	VerbForm=Ger	t14
-the	the	the	DET	Definite=Def PronType=Art	t15
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t13
+representing	representing	represent	VERB	VerbForm=Ger	Q1.1,A6.2+,S1.1.3,A5.4-,K4	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t14
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t15
 <name type="LOC">
-High	High	high	ADJ	Degree=Pos	t16
-House	House	House	PROPN	Number=Sing	t17
+High	High	high	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t16
+House	House	House	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t17
 </name>
-at	at	at	ADP		t18
-various	various	various	ADJ	Degree=Pos	t19
-international	international	international	ADJ	Degree=Pos	t20
-meetings	meetings	meeting	NOUN	Number=Plur	t21
+at	at	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t18
+various	various	various	ADJ	Degree=Pos	A6.3+	A6.3p	A6.3+: Comparing: Varied	t19
+international	international	international	ADJ	Degree=Pos	M7	M7	M7: Places	t20
+meetings	meetings	meeting	NOUN	Number=Plur	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t21
 <g/>
-,	,	,	PUNCT		t22
-in	in	in	ADP		t23
-contacts	contacts	contact	NOUN	Number=Plur	t24
-with	with	with	ADP		t25
-parliaments	parliaments	parliament	NOUN	Number=Plur	t26
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t22
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t23
+contacts	contacts	contact	NOUN	Number=Plur	S1.1.1,S2mf,Q2.2,O3	S1.1.1	S1.1.1: Social Actions, States And Processes	t24
+with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t25
+parliaments	parliaments	parliament	NOUN	Number=Plur	G1.1	G1.1	G1.1: Government	t26
 <g/>
-,	,	,	PUNCT		t27
-including	including	include	VERB	VerbForm=Ger	t28
-the	the	the	DET	Definite=Def PronType=Art	t29
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t27
+including	including	include	VERB	VerbForm=Ger	A1.8+	A1.8p	A1.8+: Inclusion	t28
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t29
 <name type="ORG">
-European	European	European	ADJ	Degree=Pos	t30
-Parliament	Parliament	Parliament	PROPN	Number=Sing	t31
+European	European	European	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t30
+Parliament	Parliament	Parliament	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t31
 <g/>
 </name>
-.	.	.	PUNCT		t32
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
 <s id="seg973677.2">
-I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	t1
-would	would	would	AUX	VerbForm=Fin	t2
-like	like	like	VERB	VerbForm=Inf	t3
-to	to	to	PART		t4
-know	know	know	VERB	VerbForm=Inf	t5
-the	the	the	DET	Definite=Def PronType=Art	t6
-rules	rules	rule	NOUN	Number=Plur	t7
-of	of	of	ADP		t8
-the	the	the	DET	Definite=Def PronType=Art	t9
-meeting	meeting	meeting	NOUN	Number=Sing	t10
-of	of	of	ADP		t11
+I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
+would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
+like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t3
+to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t4
+know	know	know	VERB	VerbForm=Inf	X2.2+,S3.2/B1%	X2.2p	X2.2+: Knowledgeable	t5
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t6
+<phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
+rules	rules	rule	NOUN	Number=Plur	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t7
+of	of	of	ADP	-	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t8
+the	the	the	DET	Definite=Def PronType=Art	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t9
+meeting	meeting	meeting	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t10
+</phr>
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t11
 <name type="PER">
-Marshal	Marshal	Marshal	PROPN	Number=Sing	t12
-Karczewski	Karczewski	Karczewski	PROPN	Number=Sing	t13
+Marshal	Marshal	Marshal	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t12
+Karczewski	Karczewski	Karczewski	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t13
 <g/>
 </name>
-.	.	.	PUNCT		t14
-with	with	with	ADP		t15
-President	President	President	PROPN	Number=Sing	t16
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
+with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t15
+President	President	President	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t16
 <name type="PER">
-Lukashenka	Lukashenka	Lukashenka	PROPN	Number=Sing	t17
+Lukashenka	Lukashenka	Lukashenka	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t17
 <g/>
 </name>
-.	.	.	PUNCT		t18
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
 <s id="seg973677.3">
-As	As	as	ADV		t1
-far	far	far	ADV	Degree=Pos	t2
-as	as	as	SCONJ		t3
-I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	t4
-know	know	know	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	t5
+<phr usas_tags="Z5" usas_cats="Z5" usas_glosses="Z5: Grammatical bin">
+As	As	as	ADV	-	Z5	Z5	Z5: Grammatical bin	t1
+far	far	far	ADV	Degree=Pos	Z5	Z5	Z5: Grammatical bin	t2
+as	as	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t3
+</phr>
+I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t4
+know	know	know	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	X2.2+,S3.2/B1%	X2.2p	X2.2+: Knowledgeable	t5
 <g/>
-,	,	,	PUNCT		t6
-he	he	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	t7
-is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	t8
-not	not	not	PART		t9
-the	the	the	DET	Definite=Def PronType=Art	t10
-head	head	head	NOUN	Number=Sing	t11
-of	of	of	ADP		t12
-the	the	the	DET	Definite=Def PronType=Art	t13
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t6
+he	he	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t7
+is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t8
+not	not	not	PART	-	Z6	Z6	Z6: Negative	t9
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t10
+head	head	head	NOUN	Number=Sing	B1,S7.1+/S2mf,P1/S2mf,X1,M6,A4.1,S2mf,F2,H5/M4%	B1	B1: Anatomy and physiology	t11
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t12
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t13
 <name type="MISC">
-Belarusian	Belarusian	Belarusian	ADJ	Degree=Pos	t14
+Belarusian	Belarusian	Belarusian	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t14
 </name>
-Parliament	Parliament	Parliament	PROPN	Number=Sing	t15
+Parliament	Parliament	Parliament	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t15
 <g/>
-;	;	;	PUNCT		t16
-I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	t17
-am	am	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	t18
-already	already	already	ADV		t19
-overlooking	overlooking	overlook	VERB	Tense=Pres VerbForm=Part	t20
-the	the	the	DET	Definite=Def PronType=Art	t21
-function	function	function	NOUN	Number=Sing	t22
-of	of	of	ADP		t23
+;	;	;	PUNCT	-	Z9	Z9	Z9: Trash can	t16
+I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t17
+am	am	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t18
+already	already	already	ADV	-	T1.1.1	T1.1.1	T1.1.1: Time: Past	t19
+overlooking	overlooking	overlook	VERB	Tense=Pres VerbForm=Part	M6,X3.4-,X3.4	M6	M6: Location and direction	t20
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t21
+function	function	function	NOUN	Number=Sing	A1.5.1,A1.1.1,S1.1.3+,A2.2,N2,Y2	A1.5.1	A1.5.1: Using	t22
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t23
 <g/>
-...	...	.	PUNCT		t24
-how	how	how	SCONJ	PronType=Int	t25
-democratic	democratic	democratic	ADJ	Degree=Pos	t26
-states	states	state	NOUN	Number=Plur	t27
-treat	treat	treat	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	t28
-him	him	he	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PronType=Prs	t29
+...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
+how	how	how	SCONJ	PronType=Int	Z5,A13.3	Z5	Z5: Grammatical bin	t25
+democratic	democratic	democratic	ADJ	Degree=Pos	G1.2	G1.2	G1.2: Politics	t26
+states	states	state	NOUN	Number=Plur	G1.1c,O4.1	G1.1	G1.1: Government	t27
+<phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
+treat	treat	treat	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t28
+him	him	he	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t29
 <g/>
-.	.	.	PUNCT		t30
+</phr>
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t30
 </s>
 <s id="seg973677.4">
-If	If	if	SCONJ		t1
-such	such	such	DET		t2
-a	a	a	DET	Definite=Ind PronType=Art	t3
-question	question	question	NOUN	Number=Sing	t4
-arises	arises	arise	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	t5
+If	If	if	SCONJ	-	Z7	Z7	Z7: If	t1
+<phr usas_tags="A13.3" usas_cats="A13.3" usas_glosses="A13.3: Degree: Boosters">
+such	such	such	DET	-	A13.3	A13.3	A13.3: Degree: Boosters	t2
+a	a	a	DET	Definite=Ind PronType=Art	A13.3	A13.3	A13.3: Degree: Boosters	t3
+</phr>
+question	question	question	NOUN	Number=Sing	Q2.2,X4.1	Q2.2	Q2.2: Speech acts	t4
+arises	arises	arise	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A1.1.1,M1	A1.1.1	A1.1.1: General actions / making	t5
 <g/>
-,	,	,	PUNCT		t6
-let	let	let	VERB	Mood=Imp VerbForm=Fin	t7
-us	us	we	PRON	Case=Acc Number=Plur Person=1 PronType=Prs	t8
-begin	begin	begin	VERB	VerbForm=Inf	t9
-by	by	by	SCONJ		t10
-explaining	explaining	explain	VERB	VerbForm=Ger	t11
-things	things	thing	NOUN	Number=Plur	t12
-that	that	that	PRON	PronType=Rel	t13
-actually	actually	actually	ADV		t14
-took	took	take	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	t15
-place	place	place	NOUN	Number=Sing	t16
-in	in	in	ADP		t17
-a	a	a	DET	Definite=Ind PronType=Art	t18
-not	not	not	PART		t19
-too	too	too	ADV		t20
-distant	distant	distant	ADJ	Degree=Pos	t21
-history	history	history	NOUN	Number=Sing	t22
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t6
+<phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
+let	let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t7
+us	us	we	PRON	Case=Acc Number=Plur Person=1 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t8
+</phr>
+begin	begin	begin	VERB	VerbForm=Inf	T2+	T2p	T2+: Time: Beginning	t9
+by	by	by	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t10
+explaining	explaining	explain	VERB	VerbForm=Ger	Q2.2/A7+,A2.2	Q2.2 A7p	Q2.2: Speech acts|A7+: Likely	t11
+things	things	thing	NOUN	Number=Plur	O2,X4.1,A7-,S2mf,L2mf	O2	O2: Objects generally	t12
+that	that	that	PRON	PronType=Rel	A13.3,A6.1+	A13.3	A13.3: Degree: Boosters	t13
+actually	actually	actually	ADV	-	A5.4+,A14	A5.4p	A5.4+: Evaluation: Authentic	t14
+<phr usas_tags="A1.1.1" usas_cats="A1.1.1" usas_glosses="A1.1.1: General actions / making">
+took	took	take	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	A1.1.1	A1.1.1	A1.1.1: General actions / making	t15
+place	place	place	NOUN	Number=Sing	A1.1.1	A1.1.1	A1.1.1: General actions / making	t16
+</phr>
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t17
+a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t18
+not	not	not	PART	-	Z6	Z6	Z6: Negative	t19
+too	too	too	ADV	-	N5++,N5.2+,A13.3	N5p	N5+: Quantities: many/much	t20
+distant	distant	distant	ADJ	Degree=Pos	N3.3+,S1.2.1-,X5.1-	N3.3p	N3.3+: Distance: Far	t21
+history	history	history	NOUN	Number=Sing	T1.1.1,P1/T1.1.1,Q2.1,B2	T1.1.1	T1.1.1: Time: Past	t22
 <g/>
-.	.	.	PUNCT		t23
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
 <s id="seg973677.5">
-I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	t1
-remember	remember	remember	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	t2
-that	that	that	SCONJ		t3
-during	during	during	ADP		t4
-all	all	all	DET		t5
-these	these	this	DET	Number=Plur PronType=Dem	t6
-years	years	year	NOUN	Number=Plur	t7
-the	the	the	DET	Definite=Def PronType=Art	t8
+I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
+remember	remember	remember	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	X2.2+	X2.2p	X2.2+: Knowledgeable	t2
+that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
+during	during	during	ADP	-	Z5	Z5	Z5: Grammatical bin	t4
+all	all	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t5
+these	these	this	DET	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t6
+years	years	year	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t7
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t8
 <name type="ORG">
-Senate	Senate	Senate	PROPN	Number=Sing	t9
+Senate	Senate	Senate	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t9
 </name>
-marshals	marshals	marshal	NOUN	Number=Plur	t10
+marshals	marshals	marshal	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t10
 <g/>
-,	,	,	PUNCT		t11
-and	and	and	CCONJ		t12
-the	the	the	DET	Definite=Def PronType=Art	t13
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t11
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t12
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t13
 <name type="PER">
-Sejm	Sejm	Sejm	PROPN	Number=Sing	t14
+Sejm	Sejm	Sejm	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t14
 <g/>
 </name>
-,	,	,	PUNCT		t15
-also	also	also	ADV		t16
-actively	actively	actively	ADV		t17
-participated	participated	participate	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	t18
-in	in	in	ADP		t19
-various	various	various	ADJ	Degree=Pos	t20
-international	international	international	ADJ	Degree=Pos	t21
-meetings	meetings	meeting	NOUN	Number=Plur	t22
-with	with	with	ADP		t23
-ambassadors	ambassadors	ambassador	NOUN	Number=Plur	t24
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t15
+also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t16
+actively	actively	actively	ADV	-	X5.2+,A1.1.1	X5.2p	X5.2+: Interested/excited/energetic	t17
+participated	participated	participate	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	S1.1.3+	S1.1.3p	S1.1.3+: Participating	t18
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t19
+various	various	various	ADJ	Degree=Pos	A6.3+	A6.3p	A6.3+: Comparing: Varied	t20
+international	international	international	ADJ	Degree=Pos	M7	M7	M7: Places	t21
+meetings	meetings	meeting	NOUN	Number=Plur	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t22
+with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t23
+ambassadors	ambassadors	ambassador	NOUN	Number=Plur	G1.1/S2mf,S1.1.1/S2mf	G1.1 S2	G1.1: Government|S2: People	t24
 <g/>
-,	,	,	PUNCT		t25
-with	with	with	ADP		t26
-diplomatic	diplomatic	diplomatic	ADJ	Degree=Pos	t27
-corps	corps	corps	NOUN	Number=Sing	t28
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t25
+with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t26
+diplomatic	diplomatic	diplomatic	ADJ	Degree=Pos	G1.1,S1.2.4+	G1.1	G1.1: Government	t27
+corps	corps	corps	NOUN	Number=Sing	G3/S5+c,S5+c	G3 S5p	G3: Warfare, defence and the army; weapons|S5+: Belonging to a group	t28
 <g/>
-,	,	,	PUNCT		t29
-with	with	with	ADP		t30
-representatives	representatives	representative	NOUN	Number=Plur	t31
-of	of	of	ADP		t32
-parliaments	parliaments	parliament	NOUN	Number=Plur	t33
-of	of	of	ADP		t34
-different	different	different	ADJ	Degree=Pos	t35
-countries	countries	country	NOUN	Number=Plur	t36
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t29
+with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t30
+representatives	representatives	representative	NOUN	Number=Plur	Q2.1/S2mf,G1.1/S2mf,I2.2/S2mf,A4.1	Q2.1 S2	Q2.1: Speech: Communicative|S2: People	t31
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t32
+parliaments	parliaments	parliament	NOUN	Number=Plur	G1.1	G1.1	G1.1: Government	t33
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t34
+different	different	different	ADJ	Degree=Pos	A6.1-	A6.1n	A6.1-: Comparing: Different	t35
+countries	countries	country	NOUN	Number=Plur	M7	M7	M7: Places	t36
 <g/>
-.	.	.	PUNCT		t37
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
 </s>
 <s id="seg973677.6">
-So	So	so	ADV		t1
-this	this	this	PRON	Number=Sing PronType=Dem	t2
-is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	t3
-a	a	a	DET	Definite=Ind PronType=Art	t4
-matter	matter	matter	NOUN	Number=Sing	t5
-assigned	assigned	assign	VERB	Tense=Past VerbForm=Part	t6
-to	to	to	ADP		t7
-the	the	the	DET	Definite=Def PronType=Art	t8
-marshal	marshal	marshal	NOUN	Number=Sing	t9
+So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
+this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
+is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
+a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t4
+matter	matter	matter	NOUN	Number=Sing	X4.1,O1	X4.1	X4.1: Mental object: Conceptual object	t5
+assigned	assigned	assign	VERB	Tense=Past VerbForm=Part	A9-,S7.1+	A9n	A9-: Giving	t6
+to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t7
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t8
+marshal	marshal	marshal	NOUN	Number=Sing	K5.1/S2mf,G2.1/S2mf,G3/S7.1+/S2mf	K5.1 S2	K5.1: Sports|S2: People	t9
 <g/>
-,	,	,	PUNCT		t10
-but	but	but	CCONJ		t11
-in	in	in	ADP		t12
-the	the	the	DET	Definite=Def PronType=Art	t13
-event	event	event	NOUN	Number=Sing	t14
-of	of	of	ADP		t15
-a	a	a	DET	Definite=Ind PronType=Art	t16
-meeting	meeting	meeting	NOUN	Number=Sing	t17
-with	with	with	ADP		t18
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t10
+but	but	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t11
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t12
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t13
+event	event	event	NOUN	Number=Sing	A3+/A11.1+,A6.2-,S1.1.1/X7+,K5	A3p A11.1p	A3+: Existing|A11.1+: Important	t14
+<phr usas_tags="N6+,T1.2" usas_cats="N6p" usas_glosses="N6+: Frequent">
+of	of	of	ADP	-	N6+,T1.2	N6p	N6+: Frequent	t15
+a	a	a	DET	Definite=Ind PronType=Art	N6+,T1.2	N6p	N6+: Frequent	t16
+meeting	meeting	meeting	NOUN	Number=Sing	N6+,T1.2	N6p	N6+: Frequent	t17
+</phr>
+with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t18
 <name type="PER">
-Lukashenka	Lukashenka	Lukashenka	PROPN	Number=Sing	t19
+Lukashenka	Lukashenka	Lukashenka	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t19
 </name>
-it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	t20
-is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	t21
-indeed	indeed	indeed	ADV		t22
-extremely	extremely	extremely	ADV		t23
-questionable	questionable	questionable	ADJ	Degree=Pos	t24
+it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t20
+is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t21
+indeed	indeed	indeed	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t22
+extremely	extremely	extremely	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t23
+questionable	questionable	questionable	ADJ	Degree=Pos	A7-	A7n	A7-: Unlikely	t24
 <g/>
-.	.	.	PUNCT		t25
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
 <s id="seg973677.7">
-So	So	so	ADV		t1
-I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	t2
+So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
+I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
-'d	'd	would	AUX	VerbForm=Fin	t3
-like	like	like	VERB	VerbForm=Inf	t4
-an	an	a	DET	Definite=Ind PronType=Art	t5
-opinion	opinion	opinion	NOUN	Number=Sing	t6
-on	on	on	ADP		t7
-this	this	this	DET	Number=Sing PronType=Dem	t8
-case	case	case	NOUN	Number=Sing	t9
-and	and	and	CCONJ		t10
-your	your	you	PRON	Person=2 Poss=Yes PronType=Prs	t11
-marshal	marshal	marshal	NOUN	Number=Sing	t12
+'d	'd	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t3
+like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t4
+an	an	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t5
+opinion	opinion	opinion	NOUN	Number=Sing	X2.1,X2.1/A5,X6+	X2.1	X2.1: Thought, belief	t6
+on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t7
+this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t8
+case	case	case	NOUN	Number=Sing	A4.1,O2,G2.1,B3,X4.1,Q3	A4.1	A4.1: Generally kinds, groups, examples	t9
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t10
+your	your	you	PRON	Person=2 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t11
+marshal	marshal	marshal	NOUN	Number=Sing	K5.1/S2mf,G2.1/S2mf,G3/S7.1+/S2mf	K5.1 S2	K5.1: Sports|S2: People	t12
 <g/>
-,	,	,	PUNCT		t13
-and	and	and	CCONJ		t14
-the	the	the	DET	Definite=Def PronType=Art	t15
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t13
+and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t14
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t15
 <name type="ORG">
-Senate	Senate	Senate	PROPN	Number=Sing	t16
-Office	Office	Office	PROPN	Number=Sing	t17
+Senate	Senate	Senate	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t16
+Office	Office	Office	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t17
 <g/>
 </name>
-.	.	.	PUNCT		t18
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
 <s id="seg973677.8">
-Yes	Yes	yes	INTJ		t1
+Yes	Yes	yes	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
-,	,	,	PUNCT		t2
-such	such	such	ADJ	Degree=Pos	t3
-matters	matters	matter	NOUN	Number=Plur	t4
-are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	t5
-worth	worth	worth	ADJ	Degree=Pos	t6
-explaining	explaining	explain	VERB	VerbForm=Ger	t7
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
+such	such	such	ADJ	Degree=Pos	Z5,Z8	Z5	Z5: Grammatical bin	t3
+matters	matters	matter	NOUN	Number=Plur	X4.1,O1	X4.1	X4.1: Mental object: Conceptual object	t4
+are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t5
+worth	worth	worth	ADJ	Degree=Pos	I1.3,A1.5.2+,S1.1.4+,S1.1.4+	I1.3	I1.3: Money: Cost and price	t6
+explaining	explaining	explain	VERB	VerbForm=Ger	Q2.2/A7+,A2.2	Q2.2 A7p	Q2.2: Speech acts|A7+: Likely	t7
 <g/>
-.	.	.	PUNCT		t8
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
 <s id="seg973677.9">
-Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	t1
-you	you	you	PRON	Case=Acc Person=2 PronType=Prs	t2
-very	very	very	ADV		t3
-much	much	much	ADV		t4
+<phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
+Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
+you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
+</phr>
+<phr usas_tags="A13.3" usas_cats="A13.3" usas_glosses="A13.3: Degree: Boosters">
+very	very	very	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t3
+much	much	much	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t4
 <g/>
-.	.	.	PUNCT		t5
+</phr>
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
 </p>
 <note type="kinesic:applause" content="Applause"/>
 </speech>
 <note type="speaker" content="Marshal Thomas Grodzki:"/>
-<speech id="ParlaMint-PL_2020-01-17-senat-03-3.u224" text_id="ParlaMint-PL-en_2020-01-17-senat-03-3" subcorpus="Reference" body="Upper house" term="10-upper" session="3-upper" meeting="" sitting="3-upper" agenda="" date="2020-01-17" title="Report of the session of the Senat of the Republic of Poland, Term 10, Session 3, Day 3 (2020-01-17)" wordcount="77" speaker_role="Regular" speaker_id="TomaszGrodzki" speaker_name="Grodzki, Tomasz" speaker_mp="MP" speaker_minister="-" speaker_party="KO" speaker_party_name="Klub Parlamentarny Platforma Obywatelska – Koalicja Obywatelska" party_status="Opposition" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-PL_2020-01-17-senat-03-3.u224" text_id="ParlaMint-PL-en_2020-01-17-senat-03-3" subcorpus="Reference" lang="English" body="Upper house" term="10. kadencja Senatu" session="3. sesja Senatu" meeting="-" sitting="3. dzień sesji Senatu" agenda="-" date="2020-01-17" title="Report of the session of the Senat of the Republic of Poland, Term 10, Session 3, Day 3 (2020-01-17)" speaker_role="Regular" speaker_id="TomaszGrodzki" speaker_name="Grodzki, Tomasz" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KO" speaker_party_name="Klub Parlamentarny Platforma Obywatelska – Koalicja Obywatelska" party_status="Opposition" party_orientation="-" speaker_gender="M" speaker_birth="1958">
 <p id="seg973678" lang="English">
 <s id="seg973678.1">
-Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	t1
-you	you	you	PRON	Case=Acc Person=2 PronType=Prs	t2
-very	very	very	ADV		t3
-much	much	much	ADV		t4
+<phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
+Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
+you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
+</phr>
+<phr usas_tags="A13.3" usas_cats="A13.3" usas_glosses="A13.3: Degree: Boosters">
+very	very	very	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t3
+much	much	much	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t4
 <g/>
-,	,	,	PUNCT		t5
-senator	senator	senator	PROPN	Number=Sing	t6
+</phr>
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t5
+senator	senator	senator	PROPN	Number=Sing	G1.2/S2mf	G1.2 S2	G1.2: Politics|S2: People	t6
 <g/>
-.	.	.	PUNCT		t7
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
 </p>
 <p id="seg973679" lang="English">
 <s id="seg973679.1">
-There	There	there	PRON		t1
-are	are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	t2
-no	no	no	DET		t3
-more	more	more	ADJ	Degree=Cmp	t4
-statements	statements	statement	NOUN	Number=Plur	t5
+There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
+are	are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
+no	no	no	DET	-	Z6	Z6	Z6: Negative	t3
+more	more	more	ADJ	Degree=Cmp	A13.3,N6++	A13.3	A13.3: Degree: Boosters	t4
+statements	statements	statement	NOUN	Number=Plur	Q2.1,I1/Q1.2	Q2.1	Q2.1: Speech: Communicative	t5
 <g/>
-.	.	.	PUNCT		t6
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
 </p>
 <p id="seg973680" lang="English">
 <s id="seg973680.1">
-There	There	there	PRON		t1
-are	are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	t2
-no	no	no	DET		t3
-messages	messages	message	NOUN	Number=Plur	t4
-either	either	either	ADV		t5
+There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
+are	are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
+no	no	no	DET	-	Z6	Z6	Z6: Negative	t3
+messages	messages	message	NOUN	Number=Plur	Q1.1,Q1.3/Y2	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t4
+either	either	either	ADV	-	Z5	Z5	Z5: Grammatical bin	t5
 <g/>
-.	.	.	PUNCT		t6
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
 </p>
 <p id="seg973681" lang="English">
 <s id="seg973681.1">
-I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	t1
-would	would	would	AUX	VerbForm=Fin	t2
-like	like	like	VERB	VerbForm=Inf	t3
-to	to	to	PART		t4
-inform	inform	inform	VERB	VerbForm=Inf	t5
-you	you	you	PRON	Case=Acc Person=2 PronType=Prs	t6
-that	that	that	SCONJ		t7
-the	the	the	DET	Definite=Def PronType=Art	t8
-minutes	minutes	minute	NOUN	Number=Plur	t9
-of	of	of	ADP		t10
-the	the	the	DET	Definite=Def PronType=Art	t11
-third	third	third	ADJ	Degree=Pos NumType=Ord	t12
+I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
+would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
+like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t3
+to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t4
+<phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
+inform	inform	inform	VERB	VerbForm=Inf	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t5
+you	you	you	PRON	Case=Acc Person=2 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t6
+</phr>
+that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t7
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t8
+minutes	minutes	minute	NOUN	Number=Plur	T1.3,Q1.2	T1.3	T1.3: Time: Period	t9
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t10
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t11
+third	third	third	ADJ	Degree=Pos NumType=Ord	T1.3	T1.3	T1.3: Time: Period	t12
 <name type="ORG">
-Senate	Senate	Senate	PROPN	Number=Sing	t13
+Senate	Senate	Senate	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t13
 </name>
-meeting	meeting	meeting	NOUN	Number=Sing	t14
-of	of	of	ADP		t15
-the	the	the	DET	Definite=Def PronType=Art	t16
+meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t14
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t15
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t16
 <name type="LOC">
-Republic	Republic	Republic	PROPN	Number=Sing	t17
-of	of	of	ADP		t18
-Poland	Poland	Poland	PROPN	Number=Sing	t19
+Republic	Republic	Republic	PROPN	Number=Sing	S5+/M7	S5p M7	S5+: Belonging to a group|M7: Places	t17
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t18
+Poland	Poland	Poland	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t19
 </name>
-X	X	X	PROPN	Number=Sing	t20
-term	term	term	NOUN	Number=Sing	t21
-will	will	will	AUX	VerbForm=Fin	t22
-be	be	be	AUX	VerbForm=Inf	t23
-made	made	make	VERB	Tense=Past VerbForm=Part Voice=Pass	t24
-available	available	available	ADJ	Degree=Pos	t25
-to	to	to	ADP		t26
-the	the	the	DET	Definite=Def PronType=Art	t27
-senators	senators	senator	NOUN	Number=Plur	t28
-within	within	within	ADP		t29
-30	30	30	NUM	NumForm=Digit NumType=Card	t30
-days	days	day	NOUN	Number=Plur	t31
-of	of	of	ADP		t32
-the	the	the	DET	Definite=Def PronType=Art	t33
+X	X	X	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t20
+term	term	term	NOUN	Number=Sing	Q3,T1.3,S6+	Q3	Q3: Language, speech and grammar	t21
+will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t22
+be	be	be	AUX	VerbForm=Inf	A3+,Z5	A3p	A3+: Existing	t23
+made	made	make	VERB	Tense=Past VerbForm=Part Voice=Pass	A1.1.1,A9+,A2.2,S6+,A3+,A9-,X9.2+,X6+	A1.1.1	A1.1.1: General actions / making	t24
+available	available	available	ADJ	Degree=Pos	A3+,A9+,A1.2+/G1.2,S4	A3p	A3+: Existing	t25
+to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t26
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t27
+senators	senators	senator	NOUN	Number=Plur	G1.2/S2mf	G1.2 S2	G1.2: Politics|S2: People	t28
+within	within	within	ADP	-	Z5	Z5	Z5: Grammatical bin	t29
+30	30	30	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t30
+days	days	day	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t31
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t32
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t33
 <name type="ORG">
-Senate	Senate	Senate	PROPN	Number=Sing	t34
+Senate	Senate	Senate	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t34
 </name>
-meeting	meeting	meeting	NOUN	Number=Sing	t35
-at	at	at	ADP		t36
-the	the	the	DET	Definite=Def PronType=Art	t37
+meeting	meeting	meeting	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t35
+at	at	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t36
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t37
 <name type="ORG">
-Senate	Senate	Senate	PROPN	Number=Sing	t38
-Office	Office	Office	PROPN	Number=Sing	t39
+Senate	Senate	Senate	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t38
+Office	Office	Office	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t39
 <g/>
 </name>
-,	,	,	PUNCT		t40
-room	room	room	NOUN	Number=Sing	t41
-255	255	255	NUM	NumForm=Digit NumType=Card	t42
+,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t40
+room	room	room	NOUN	Number=Sing	H2,N3.6	H2	H2: Parts of buildings	t41
+255	255	255	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t42
 <g/>
-.	.	.	PUNCT		t43
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t43
 </s>
 </p>
 <p id="seg973682" lang="English">
 <s id="seg973682.1">
-The	The	the	DET	Definite=Def PronType=Art	t1
-third	third	third	ADJ	Degree=Pos NumType=Ord	t2
-session	session	session	NOUN	Number=Sing	t3
-of	of	of	ADP		t4
-the	the	the	DET	Definite=Def PronType=Art	t5
+The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
+third	third	third	ADJ	Degree=Pos NumType=Ord	N4,N5,N1	N4	N4: Linear order	t2
+session	session	session	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t3
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t4
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t5
 <name type="ORG">
-Senate	Senate	Senate	PROPN	Number=Sing	t6
-of	of	of	ADP		t7
-the	the	the	DET	Definite=Def PronType=Art	t8
-Republic	Republic	Republic	PROPN	Number=Sing	t9
-of	of	of	ADP		t10
-Poland	Poland	Poland	PROPN	Number=Sing	t11
+Senate	Senate	Senate	PROPN	Number=Sing	S7.1+	S7.1p	S7.1+: In power	t6
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t7
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t8
+Republic	Republic	Republic	PROPN	Number=Sing	S5+/M7	S5p M7	S5+: Belonging to a group|M7: Places	t9
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t10
+Poland	Poland	Poland	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t11
 </name>
-X	X	X	PROPN	Number=Sing	t12
-term	term	term	NOUN	Number=Sing	t13
-of	of	of	ADP		t14
-office	office	office	NOUN	Number=Sing	t15
-is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	t16
-closed	closed	close	VERB	Tense=Past VerbForm=Part Voice=Pass	t17
+X	X	X	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t12
+term	term	term	NOUN	Number=Sing	Q3,T1.3,S6+	Q3	Q3: Language, speech and grammar	t13
+of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t14
+office	office	office	NOUN	Number=Sing	I2.1/H1c,I2.1/H2c,S7.1+,I3.1,S9,S8+	I2.1 H1	I2.1: Business: Generally|H1: Architecture, houses and buildings	t15
+is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t16
+closed	closed	close	VERB	Tense=Past VerbForm=Part Voice=Pass	A1.1.1,A10-,T2-	A1.1.1	A1.1.1: General actions / making	t17
 <g/>
-.	.	.	PUNCT		t18
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
 </p>
 <note type="kinesic:signal" content="Marshal hits Marshal's staff three times."/>
 <p id="seg973683" lang="English">
 <s id="seg973683.1">
-Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	t1
-you	you	you	PRON	Case=Acc Person=2 PronType=Prs	t2
-very	very	very	ADV		t3
-much	much	much	ADV		t4
+<phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
+Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
+you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
+</phr>
+<phr usas_tags="A13.3" usas_cats="A13.3" usas_glosses="A13.3: Degree: Boosters">
+very	very	very	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t3
+much	much	much	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t4
 <g/>
-.	.	.	PUNCT		t5
+</phr>
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
 </p>
 <note type="time" content="End of meeting at 22 minutes 02"/>

@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country PT (Portugal)
+# Samples of the ParlaMint-PT corpus
 
+- Country: PT (Portugal)
 - Languages: pt (Portuguese)
 
 ## Documentation
@@ -49,3 +50,7 @@ For POS-tagging we used the MBT tagger (Daelemans et al., 1996) trained over the
 We lemmatized the corpus with MBLEM (van den Bosch & Daelemans, 1999), that combines a dictionary lookup with a machine learning algorithm to produce lemmas. As a basis for the dictionary we used a list of wordform - POS-tag combinations mapped to lemmas. This list was produced in-house. The dictionary used in MBLEM contains 102,196 word forms combined with 27,860 lemmas, leading to 120,768 wordform-lemma combinations. The adaptation of the MBT tagger and MBLEM lemmatizer are described in Généreux et al. (2012).
 
 Concerning UD syntactic annotations, we used the LX-UD dependency parser (https://portulanclarin.net/workbench/lx-udparser), adapted to the set of POS and relation types used in ParlaMint.
+
+### Disclaimer to the English translation
+
+Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

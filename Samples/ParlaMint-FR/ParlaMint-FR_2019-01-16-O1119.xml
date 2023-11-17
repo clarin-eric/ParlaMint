@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:ns0="http://schemas.assemblee-nationale.fr/referentiel"
-     xml:id="ParlaMint-FR_2019-01-16-O1119"
-     ana="#parla.sitting #reference"
-     xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns0="http://schemas.assemblee-nationale.fr/referentiel" xml:id="ParlaMint-FR_2019-01-16-O1119" ana="#parla.sitting #reference" xml:lang="fr">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -11,18 +7,9 @@
             <title type="main" xml:lang="en">French parliamentary corpus ParlaMint-FR, ordinary session 16/01/2019 (119) [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="fr">Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 119, 16/01/2019</title>
             <title type="sub" xml:lang="en">Proceedings of the debates in plenary sitting of the Assemblée Nationale, sitting: 119, 16/01/2019</title>
-            <meeting n="15"
-                     corresp="#ParlaMint-FR-LOWER"
-                     ana="#parla.national #parla.lower #parla.term #parla.term.15"
-                     xml:lang="fr">15e législature</meeting>
-            <meeting n="O1"
-                     corresp="#ParlaMint-FR-LOWER"
-                     ana="#parla.session #ParlaMint-FR-LOWER"
-                     xml:lang="fr">Session ordinaire 2018-2019 (CRSANR5L15S2019O1N119)</meeting>
-            <meeting n="119"
-                     corresp="#ParlaMint-FR-LOWER"
-                     ana="#parla.sitting #ParlaMint-FR-LOWER"
-                     xml:lang="fr">119. séance</meeting>
+            <meeting n="15" corresp="#ParlaMint-FR-LOWER" ana="#parla.national #parla.lower #parla.term #parla.term.15" xml:lang="fr">15e législature</meeting>
+            <meeting n="O1" corresp="#ParlaMint-FR-LOWER" ana="#parla.session #ParlaMint-FR-LOWER" xml:lang="fr">Session ordinaire 2018-2019 (CRSANR5L15S2019O1N119)</meeting>
+            <meeting n="119" corresp="#ParlaMint-FR-LOWER" ana="#parla.sitting #ParlaMint-FR-LOWER" xml:lang="fr">119. séance</meeting>
             <respStmt>
                <persName>Sascha Diwersy</persName>
                <resp xml:lang="fr">Annotation linguistique</resp>
@@ -38,7 +25,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.0</edition>
+            <edition>4.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="417" xml:lang="en">417 speeches</measure>
@@ -48,12 +35,12 @@
          </extent>
          <publicationStmt>
             <publisher>CLARIN research infrastructure</publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1859</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="fr">This work is licensed under the terms of the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2023-06-14">2023-06-14</date>
+            <date when="2023-10-08">2023-10-08</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -66,10 +53,8 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
-            <p xml:lang="fr">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="fr"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
@@ -98,7 +83,7 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-06-14">
+         <change when="2023-10-08">
             <name>Tomaž Erjavec</name>: Made sample.</change>
          <change when="2022-12-26">
             <name>Giancarlo Luxardo</name>: ParlaMint II update, vs 3.0.</change>
@@ -106,51 +91,35 @@
    </teiHeader>
    <text xml:lang="fr" ana="#reference">
       <body>
-         <div xml:id="ParlaMint-FR_2019-01-16-O1119.d1_1"
-              n="1"
-              type="debateSection">
-            <head>Questions au Gouvernement</head>
-            <note type="debate">TITRE_TEXTE_DISCUSSION</note>
-            <u who="#PA606171"
-               xml:id="ParlaMint-FR_2019-01-16-O1119.u1"
-               ana="#chair">
+         <div xml:id="ParlaMint-FR_2019-01-16-O1119.d1_1" n="1" type="debateSection">
+            <head xml:id="ParlaMint-FR_2019-01-16-O1119.head1">Questions au Gouvernement</head>
+            <note type="debate" xml:id="ParlaMint-FR_2019-01-16-O1119.note1">TITRE_TEXTE_DISCUSSION</note>
+            <u who="#PA606171" xml:id="ParlaMint-FR_2019-01-16-O1119.u1" ana="#chair">
                <seg xml:id="ParlaMint-FR_2019-01-16-O1119.u1.1">L’ordre du jour appelle les questions au Gouvernement.</seg>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
          </div>
-         <div xml:id="ParlaMint-FR_2019-01-16-O1119.d2_2"
-              n="2"
-              type="debateSection">
-            <head>Grand débat national</head>
-            <note type="debate">QG_1_1</note>
-            <u who="#PA606171"
-               xml:id="ParlaMint-FR_2019-01-16-O1119.u2"
-               ana="#regular">
+         <div xml:id="ParlaMint-FR_2019-01-16-O1119.d2_2" n="2" type="debateSection">
+            <head xml:id="ParlaMint-FR_2019-01-16-O1119.head2">Grand débat national</head>
+            <note type="debate" xml:id="ParlaMint-FR_2019-01-16-O1119.note2">QG_1_1</note>
+            <u who="#PA606171" xml:id="ParlaMint-FR_2019-01-16-O1119.u2" ana="#regular">
                <seg xml:id="ParlaMint-FR_2019-01-16-O1119.u2.1">La parole est à M. Sébastien Jumel.</seg>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
          </div>
-         <div xml:id="ParlaMint-FR_2019-01-16-O1119.d3_48"
-              n="396"
-              type="debateSection">
-            <u who="#PA1874"
-               xml:id="ParlaMint-FR_2019-01-16-O1119.u416"
-               ana="#chair">
+         <div xml:id="ParlaMint-FR_2019-01-16-O1119.d3_48" n="396" type="debateSection">
+            <u who="#PA1874" xml:id="ParlaMint-FR_2019-01-16-O1119.u416" ana="#chair">
                <seg xml:id="ParlaMint-FR_2019-01-16-O1119.u416.1">La suite de la discussion est renvoyée à la prochaine séance.</seg>
             </u>
          </div>
-         <div xml:id="ParlaMint-FR_2019-01-16-O1119.d1_49"
-              n="417"
-              type="debateSection">
-            <head>Ordre du jour de la prochaine séance</head>
-            <note type="debate">FIN_SEAN_1_2</note>
-            <u who="#PA1874"
-               xml:id="ParlaMint-FR_2019-01-16-O1119.u417"
-               ana="#chair">
+         <div xml:id="ParlaMint-FR_2019-01-16-O1119.d1_49" n="417" type="debateSection">
+            <head xml:id="ParlaMint-FR_2019-01-16-O1119.head26">Ordre du jour de la prochaine séance</head>
+            <note type="debate" xml:id="ParlaMint-FR_2019-01-16-O1119.note26">FIN_SEAN_1_2</note>
+            <u who="#PA1874" xml:id="ParlaMint-FR_2019-01-16-O1119.u417" ana="#chair">
                <seg xml:id="ParlaMint-FR_2019-01-16-O1119.u417.1">Prochaine séance, ce soir, à vingt et une heures trente :</seg>
                <seg xml:id="ParlaMint-FR_2019-01-16-O1119.u417.2">Suite de la discussion, en nouvelle lecture, du projet de loi de programmation 2018-2022 et de réforme pour la justice, et du projet de loi organique relatif au renforcement de l’organisation des juridictions.</seg>
                <seg xml:id="ParlaMint-FR_2019-01-16-O1119.u417.3">La séance est levée.</seg>
@@ -159,3 +128,4 @@
       </body>
    </text>
 </TEI>
+

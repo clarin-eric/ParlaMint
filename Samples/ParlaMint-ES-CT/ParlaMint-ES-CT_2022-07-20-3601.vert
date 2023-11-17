@@ -26,7 +26,7 @@
 <note type="narrative" content="22. Moció subsegüent a la interpel·lació al Govern sobre l'impacte de la repressió en l'independentisme i en els estàndards democràtics de l'Estat espanyol (tram. 302-00182/13). Grup Parlamentari d'Esquerra Republicana. Debat i votació."/>
 <note type="narrative" content="23. Moció subsegüent a la interpel·lació al Govern sobre les polítiques per a frenar l'ocupació il·legal d'habitatges (tram. 302-00183/13). Grup Parlamentari de VOX en Cataluña. Debat i votació."/>
 <note type="speaker" content="La presidenta"/>
-<speech id="ParlaMint-ES-CT_2022-07-20-3601.1.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="COVID" lang="Català" body="Unicameralisme" term="14" session="-" meeting="36" sitting="1" agenda="-" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Presidència" speaker_id="BorràsLaura" speaker_name="Borràs Castanyer, Laura" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="GP-JxCAT" speaker_party_name="Grup Parlamentari de Junts per Catalunya" party_status="Coalition" party_orientation="--" speaker_gender="F" speaker_birth="1970">
+<speech id="ParlaMint-ES-CT_2022-07-20-3601.1.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="Corpus COVID,Guerra" lang="Català" body="Unicameralisme" term="XIV Legislatura" session="-" meeting="36" sitting="1" agenda="-" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Presidència" speaker_id="BorràsLaura" speaker_name="Borràs i Castanyer, Laura" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="GP-JxCAT" speaker_party_name="Grup Parlamentari de Junts per Catalunya" party_status="Coalition" party_orientation="Entre centredreta i dreta" speaker_gender="F" speaker_birth="1970">
 <p id="ParlaMint-ES-CT_2022-07-20-3601.1.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.1.0.0.1">
 Bon	Bon	bo	ADJ	Gender=Masc Number=Sing	1	root	-	-	-	-
@@ -150,8 +150,7 @@ de	de	de	ADP	AdpType=Prep	33	mark	comunicar	VERB	Mood=Inf	34
 comunicar-los	comunicar|-los	comunicar|els	VERB|PRON	Mood=Inf|PronType=Prs Person=3 Number=Plur	34|35	conj|obj	delegar|comunicar	VERB	Mood=Par Number=Sing Gender=Masc|Mood=Inf	8|34
 un	un	un	DET	PronType=Ind Gender=Masc Number=Sing	37	det	feminicidi	NOUN	Gender=Masc Number=Sing	39
 nou	nou	nou	ADJ	Gender=Masc Number=Sing	38	amod	feminicidi	NOUN	Gender=Masc Number=Sing	39
-feminicidi	feminicidi	feminicidi	NOUN	Gender=Masc Number=Sing	39	obj	
-			36
+feminicidi	feminicidi	feminicidi	NOUN	Gender=Masc Number=Sing	39	obj	c			36
 <g/>
 .	.	.	PUNCT	PunctType=Peri	40	punct	avinent	ADJ	Number=Sing	3
 </s>
@@ -412,10 +411,8 @@ Mediterrània	Mediterrània	mediterrània	PROPN		71	obl	matar	VERB	Mood=Par Numb
 I	I	i	CCONJ		1	advmod	veure	VERB	Mood=Par Number=Sing Gender=Masc	13
 també	també	també	ADV		2	advmod	veure	VERB	Mood=Par Number=Sing Gender=Masc	13
 al	a|el	a|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	3|4	case|det	dia	NOUN	Gender=Masc Number=Plur	11
-llarg	llarg	llarg	ADJ	Gender=Masc Number=Sing	6	fixed	
-			5
-dels	de|els	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Plur	7|8	fixed|det	
-|dia	|NOUN	|Gender=Masc Number=Plur	5|11
+llarg	llarg	llarg	ADJ	Gender=Masc Number=Sing	6	fixed	a			5
+dels	de|els	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Plur	7|8	fixed|det	a|dia	|NOUN	|Gender=Masc Number=Plur	5|11
 darrers	darrers	darrer	ADJ	NumType=Ord Gender=Masc Number=Plur	10	amod	dia	NOUN	Gender=Masc Number=Plur	11
 dies	dies	dia	NOUN	Gender=Masc Number=Plur	11	obl	veure	VERB	Mood=Par Number=Sing Gender=Masc	13
 hem	hem	haver	AUX	Mood=Ind Tense=Pres Person=1 Number=Plur	12	aux	veure	VERB	Mood=Par Number=Sing Gender=Masc	13
@@ -606,13 +603,9 @@ tothom	tothom	tothom	PRON	PronType=Ind Number=Sing	57	appos	bomber	NOUN	Gender=M
 <name type="PER">
 Gràcies	Gràcies	gràcies	PROPN		1	root	-	-	-	-
 </name>
-per	per	per	ADP	AdpType=Prep	2	mark	
-			5
-ser-hi	ser|-hi	ser|hi	AUX|PRON	Mood=Inf|PronType=Prs Person=3	3|4	aux|obj	
-|
-	|	|	5
-sempre	sempre	sempre	ADV		6	advmod	
-			5
+per	per	per	ADP	AdpType=Prep	2	mark	s			5
+ser-hi	ser|-hi	ser|hi	AUX|PRON	Mood=Inf|PronType=Prs Person=3	3|4	aux|obj	s	|	|	5
+sempre	sempre	sempre	ADV		6	advmod	s			5
 <g/>
 ;	;	;	PUNCT	PunctType=Semi	7	punct	gràcia	NOUN	Gender=Fem Number=Plur	8
 gràcies	gràcies	gràcia	NOUN	Gender=Fem Number=Plur	8	conj	gràcies	PROPN		1
@@ -761,7 +754,7 @@ ordre	ordre	ordre	NOUN	Number=Sing	13	nmod	punt	NOUN	Gender=Masc Number=Sing	10
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	14|15	case|det	dia	NOUN	Gender=Masc Number=Sing	17
 dia	dia	dia	NOUN	Gender=Masc Number=Sing	17	nmod	ordre	NOUN	Number=Sing	13
 <g/>
-...	...	...	PUNCT	PunctType=Comm	18	punct	demanar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	28
+...	...	.	PUNCT	PunctType=Comm	18	punct	demanar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	28
 Sí	Sí	sí	ADV		19	advmod	demanar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	28
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	20	punct	sí	ADV		19
@@ -783,7 +776,7 @@ paraula	paraula	paraula	NOUN	Gender=Fem Number=Sing	30	nsubj	demanar	VERB	Mood=I
 </p>
 </speech>
 <note type="speaker" content="Ignacio Martín Blanco"/>
-<speech id="ParlaMint-ES-CT_2022-07-20-3601.2.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="COVID" lang="Espanyol" body="Unicameralisme" term="14" session="-" meeting="36" sitting="1" agenda="-" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Diputat/da" speaker_id="MartínIgnacio" speaker_name="Martín Blanco, Ignacio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-Cs" speaker_party_name="Grup Parlamentari de Ciutadans" party_status="Opposition" party_orientation="---" speaker_gender="M" speaker_birth="1982">
+<speech id="ParlaMint-ES-CT_2022-07-20-3601.2.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="Corpus COVID,Guerra" lang="Espanyol" body="Unicameralisme" term="XIV Legislatura" session="-" meeting="36" sitting="1" agenda="-" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Diputat/da" speaker_id="MartínIgnacio" speaker_name="Martín Blanco, Ignacio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-Cs" speaker_party_name="Grup Parlamentari de Ciutadans" party_status="Opposition" party_orientation="Centredreta" speaker_gender="M" speaker_birth="1982">
 <p id="ParlaMint-ES-CT_2022-07-20-3601.2.0.0" lang="Espanyol">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.2.0.0.1">
 <name type="PER">
@@ -825,12 +818,12 @@ Puig	Puig	puig	PROPN		20	flat	lluís	PROPN		19
 perquè	perquè	perquè	ADJ	Number=Sing	22	case	lògicament	NOUN	Gender=Masc Number=Sing	23
 lògicament	lògicament	lògicament	NOUN	Gender=Masc Number=Sing	23	advmod	senyor	ADJ	Number=Sing	18
 <g/>
-...	...	...	PUNCT	PunctType=Comm	24	punct	confirmi	ADJ		6
+...	...	.	PUNCT	PunctType=Comm	24	punct	confirmi	ADJ		6
 </s>
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES-CT_2022-07-20-3601.267.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="COVID" lang="Català" body="Unicameralisme" term="14" session="-" meeting="36" sitting="1" agenda="-" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Diputat/da" speaker_id="Gonzàlez-CambrayJosep" speaker_name="Gonzàlez-Cambray, Josep" speaker_mp="notMP" speaker_minister="Minister" speaker_party="ERC" speaker_party_name="Esquerra Republicana de Catalunya" party_status="-" party_orientation="--" speaker_gender="M" speaker_birth="1972">
+<speech id="ParlaMint-ES-CT_2022-07-20-3601.267.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="Corpus COVID,Guerra" lang="Català" body="Unicameralisme" term="XIV Legislatura" session="-" meeting="36" sitting="1" agenda="-" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Diputat/da" speaker_id="Gonzàlez-CambrayJosep" speaker_name="Gonzàlez-Cambray, Josep" speaker_mp="notMP" speaker_minister="Minister" speaker_party="ERC" speaker_party_name="Esquerra Republicana de Catalunya" party_status="-" party_orientation="Entre centreesquerra i esquerra" speaker_gender="M" speaker_birth="1972">
 <p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.267.0.0.1">
 <name type="PER">
@@ -866,7 +859,7 @@ objectiu	objectiu	objectiu	NOUN	Gender=Masc Number=Sing	17	advcl	objectiu	NOUN	G
 .	.	.	PUNCT	PunctType=Peri	18	punct	objectiu	NOUN	Gender=Masc Number=Sing	11
 </s>
 </p>
-<note type="vocal:laughter" content="(Remor de veus i rialles.)"/>
+<note type="vocal:laughter" content="Remor de veus i rialles."/>
 <p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.1" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.267.0.1.1">
 En	En	en	ADP	AdpType=Prep	1	advmod	donar	VERB	Mood=Inf	11
@@ -1057,8 +1050,7 @@ que	que	que	PRON	PronType=Rel	31	obj	continuar	VERB	Mood=Sub Tense=Pres Person=3
 continuï	continuï	continuar	VERB	Mood=Sub Tense=Pres Person=3 Number=Sing	32	acl	model	NOUN	Gender=Masc Number=Sing	27
 garantint	garantint	garantir	VERB	Mood=Ger	33	xcomp	continuar	VERB	Mood=Sub Tense=Pres Person=3 Number=Sing	32
 <g/>
-...	...	...	PUNCT	PunctType=Comm	34	punct	
-			38
+...	...	.	PUNCT	PunctType=Comm	34	punct	r			38
 ,	,	,	PUNCT	PunctType=Comm	35	punct	refermar	VERB	Mood=Inf	36
 refermar-lo	refermar|-lo	refermar|el	VERB|PRON	Mood=Inf|PronType=Prs Person=3 Gender=Masc Number=Sing Case=Acc	36|37	advcl|obj	model|refermar	NOUN|VERB	Gender=Masc Number=Sing|Mood=Inf	27|36
 ,	,	,	PUNCT	PunctType=Comm	39	punct	model	NOUN	Gender=Masc Number=Sing	43
@@ -1398,7 +1390,7 @@ naturalitat	naturalitat	naturalitat	NOUN	Gender=Fem Number=Sing	21	conj	naturali
 .	.	.	PUNCT	PunctType=Peri	22	punct	semblar	VERB	Mood=Par Number=Sing Gender=Masc	10
 </s>
 </p>
-<note type="vocal:murmuring" content="(Remor de veus.)"/>
+<note type="vocal:murmuring" content="Remor de veus."/>
 <p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.1">
 Per	Per	per	ADP	AdpType=Prep	1	advmod	tenir	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	5
@@ -1717,7 +1709,7 @@ Gràcies	Gràcies	gràcies	PROPN		1	root	-	-	-	-
 </p>
 </speech>
 <note type="speaker" content="La presidenta"/>
-<speech id="ParlaMint-ES-CT_2022-07-20-3601.268.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="COVID" lang="Català" body="Unicameralisme" term="14" session="-" meeting="36" sitting="1" agenda="-" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Presidència" speaker_id="BorràsLaura" speaker_name="Borràs Castanyer, Laura" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="GP-JxCAT" speaker_party_name="Grup Parlamentari de Junts per Catalunya" party_status="Coalition" party_orientation="--" speaker_gender="F" speaker_birth="1970">
+<speech id="ParlaMint-ES-CT_2022-07-20-3601.268.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="Corpus COVID,Guerra" lang="Català" body="Unicameralisme" term="XIV Legislatura" session="-" meeting="36" sitting="1" agenda="-" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Presidència" speaker_id="BorràsLaura" speaker_name="Borràs i Castanyer, Laura" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="GP-JxCAT" speaker_party_name="Grup Parlamentari de Junts per Catalunya" party_status="Coalition" party_orientation="Entre centredreta i dreta" speaker_gender="F" speaker_birth="1970">
 <p id="ParlaMint-ES-CT_2022-07-20-3601.268.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.268.0.0.1">
 Moltes	Moltes	molt	DET	PronType=Ind Gender=Fem Number=Plur	1	root	-	-	-	-

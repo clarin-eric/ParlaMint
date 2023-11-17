@@ -1,6 +1,6 @@
 <note type="speaker" content="Milojević, Goran"/>
-<speech id="ParlaMint-BA_2006-07-07-0.u6148" text_id="ParlaMint-BA_2006-07-07-0" subcorpus="Reference" body="Unicameralism" term="4" session="" meeting="60" sitting="2006-07-07" agenda="" date="2006-07-07" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 4, Session 60" speaker_role="Chairperson" speaker_id="MilojevićGoran" speaker_name="Milojević, Goran" speaker_mp="MP" speaker_minister="-" speaker_party="PDP" speaker_party_name="Partija demokratskog progresa" party_status="Opposition" speaker_gender="M" speaker_birth="1960">
-<p id="ParlaMint-BA_2006-07-07-0.u6148.seg0" lang="Bosnian">
+<speech id="ParlaMint-BA_2006-07-07-0.u6148" text_id="ParlaMint-BA_2006-07-07-0" subcorpus="Referenca" lang="bosanski" body="Jednodoman" term="4. mandat" session="-" meeting="Sjednica 60" sitting="2006-07-07" agenda="-" date="2006-07-07" title="Zapisnici sjednica parlamentarne skupštine, mandat 4, sjednica 60" speaker_role="Predsjedavajući" speaker_id="MilojevićGoran" speaker_name="Milojević, Goran" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PDP" speaker_party_name="Partija demokratskog progresa" party_status="Opposition" party_orientation="Centar do desni centar" speaker_gender="M" speaker_birth="1960">
+<p id="ParlaMint-BA_2006-07-07-0.u6148.seg0" lang="bosanski">
 <s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.1">
 Pozdravljam	Pozdravljam	pozdravljati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 vas	vas	vi	PRON	Case=Acc Number=Plur Person=2 PronType=Prs	2	obj	pozdravljati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
@@ -1257,7 +1257,7 @@ delegatska	delegatska	delegatski	ADJ	Case=Acc Definite=Def Degree=Pos Gender=Neu
 pitanja	pitanja	pitanje	NOUN	Case=Acc Gender=Neut Number=Plur	20	conj	pitanje	NOUN	Case=Acc Gender=Neut Number=Plur	17
 </s>
 </p>
-<p id="ParlaMint-BA_2006-07-07-0.u6148.seg1" lang="Bosnian">
+<p id="ParlaMint-BA_2006-07-07-0.u6148.seg1" lang="bosanski">
 <s id="ParlaMint-BA_2006-07-07-0.u6148.seg1.1">
 Odgovora	Odgovora	odgovor	NOUN	Case=Gen Gender=Masc Number=Sing	1	obl	dobiti	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	10
 na	na	na	ADP	Case=Acc	2	case	pitanje	NOUN	Case=Acc Gender=Neut Number=Plur	4
@@ -1329,8 +1329,8 @@ naroda	naroda	narod	NOUN	Case=Gen Gender=Masc Number=Sing	21	compound	dom	NOUN	C
 </p>
 </speech>
 <note type="speaker" content="Hurtić, Zlatko"/>
-<speech id="ParlaMint-BA_2006-07-07-0.u6152" text_id="ParlaMint-BA_2006-07-07-0" subcorpus="Reference" body="Unicameralism" term="4" session="" meeting="60" sitting="2006-07-07" agenda="" date="2006-07-07" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 4, Session 60" speaker_role="Regular" speaker_id="HurtićZlatko" speaker_name="Hurtić, Zlatko" speaker_mp="notMP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
-<p id="ParlaMint-BA_2006-07-07-0.u6152.seg0" lang="Bosnian">
+<speech id="ParlaMint-BA_2006-07-07-0.u6152" text_id="ParlaMint-BA_2006-07-07-0" subcorpus="Referenca" lang="bosanski" body="Jednodoman" term="4. mandat" session="-" meeting="Sjednica 60" sitting="2006-07-07" agenda="-" date="2006-07-07" title="Zapisnici sjednica parlamentarne skupštine, mandat 4, sjednica 60" speaker_role="Redovni" speaker_id="HurtićZlatko" speaker_name="Hurtić, Zlatko" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="" speaker_birth="">
+<p id="ParlaMint-BA_2006-07-07-0.u6152.seg0" lang="bosanski">
 <s id="ParlaMint-BA_2006-07-07-0.u6152.seg0.1">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	nsubj	željeti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	12
 gospodine	gospodine	gospodin	NOUN	Case=Voc Gender=Masc Number=Sing	2	nmod	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1
@@ -1666,8 +1666,8 @@ Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-BA_2006-07-07-0.u6206" text_id="ParlaMint-BA_2006-07-07-0" subcorpus="Reference" body="Unicameralism" term="4" session="" meeting="60" sitting="2006-07-07" agenda="" date="2006-07-07" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 4, Session 60" speaker_role="Regular" speaker_id="ČengićHasan" speaker_name="Čengić, Hasan" speaker_mp="MP" speaker_minister="-" speaker_party="SDA" speaker_party_name="Stranka demokratske akcije" party_status="Opposition" speaker_gender="M" speaker_birth="1957">
-<p id="ParlaMint-BA_2006-07-07-0.u6206.seg0" lang="Bosnian">
+<speech id="ParlaMint-BA_2006-07-07-0.u6206" text_id="ParlaMint-BA_2006-07-07-0" subcorpus="Referenca" lang="bosanski" body="Jednodoman" term="4. mandat" session="-" meeting="Sjednica 60" sitting="2006-07-07" agenda="-" date="2006-07-07" title="Zapisnici sjednica parlamentarne skupštine, mandat 4, sjednica 60" speaker_role="Redovni" speaker_id="ČengićHasan" speaker_name="Čengić, Hasan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDA" speaker_party_name="Stranka demokratske akcije" party_status="Opposition" party_orientation="Desni centar do desno" speaker_gender="M" speaker_birth="1957">
+<p id="ParlaMint-BA_2006-07-07-0.u6206.seg0" lang="bosanski">
 <s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.1">
 Uvažavajući	Uvažavajući	uvažavati	ADV	Tense=Pres VerbForm=Conv	1	xcomp	početi	VERB	VerbForm=Inf	16
 sve	sve	sav	ADJ	Case=Acc Definite=Def Degree=Pos Gender=Neut Number=Sing	2	amod	onaj	DET	Case=Acc Gender=Neut Number=Sing PronType=Dem	3
@@ -2410,8 +2410,8 @@ Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 </p>
 </speech>
 <note type="speaker" content="Milojević, Goran"/>
-<speech id="ParlaMint-BA_2006-07-07-0.u6207" text_id="ParlaMint-BA_2006-07-07-0" subcorpus="Reference" body="Unicameralism" term="4" session="" meeting="60" sitting="2006-07-07" agenda="" date="2006-07-07" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 4, Session 60" speaker_role="Chairperson" speaker_id="MilojevićGoran" speaker_name="Milojević, Goran" speaker_mp="MP" speaker_minister="-" speaker_party="PDP" speaker_party_name="Partija demokratskog progresa" party_status="Opposition" speaker_gender="M" speaker_birth="1960">
-<p id="ParlaMint-BA_2006-07-07-0.u6207.seg0" lang="Bosnian">
+<speech id="ParlaMint-BA_2006-07-07-0.u6207" text_id="ParlaMint-BA_2006-07-07-0" subcorpus="Referenca" lang="bosanski" body="Jednodoman" term="4. mandat" session="-" meeting="Sjednica 60" sitting="2006-07-07" agenda="-" date="2006-07-07" title="Zapisnici sjednica parlamentarne skupštine, mandat 4, sjednica 60" speaker_role="Predsjedavajući" speaker_id="MilojevićGoran" speaker_name="Milojević, Goran" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PDP" speaker_party_name="Partija demokratskog progresa" party_status="Opposition" party_orientation="Centar do desni centar" speaker_gender="M" speaker_birth="1960">
+<p id="ParlaMint-BA_2006-07-07-0.u6207.seg0" lang="bosanski">
 <s id="ParlaMint-BA_2006-07-07-0.u6207.seg0.1">
 Zahvaljujem	Zahvaljujem	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 se	se	sebe	PRON	Case=Acc PronType=Prs Reflex=Yes	2	expl:pv	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
@@ -2454,7 +2454,7 @@ se	se	sebe	PRON	Case=Acc PronType=Prs Reflex=Yes	24	expl:pv	čuti	VERB	Mood=Ind 
 /	/	/	PUNCT		26	punct	ići	VERB	VerbForm=Inf	4
 </s>
 </p>
-<p id="ParlaMint-BA_2006-07-07-0.u6207.seg1" lang="Bosnian">
+<p id="ParlaMint-BA_2006-07-07-0.u6207.seg1" lang="bosanski">
 <s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.1">
 Ali	Ali	ali	CCONJ		1	cc	imati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 ima	ima	imati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	root	-	-	-	-

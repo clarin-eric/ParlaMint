@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country FR (France)
+# Samples of the ParlaMint-FR corpus
 
+- Country: FR (France)
 - Language fr (French)
 
 ## Documentation
@@ -38,3 +39,7 @@ Also, in France there is not an official concept of coalition. Instead, each gro
 ### Linguistic annotation
 
 The processing is carried out by means of a Python script combining an XML parser module with the Stanza NLP package (Qi et al. 2020; https://stanfordnlp.github.io/stanza/index.html). The annotation pipeline includes tokenization, sentence segmentation, lemmatization, UD part-of-speech and morphological tagging, UD dependency parsing and named entity recognition.
+
+### Disclaimer to the English translation
+
+Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

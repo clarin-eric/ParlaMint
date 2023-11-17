@@ -1,6 +1,7 @@
 <note type="head" content="Suite de la discussiond’un projet de loi"/>
-<speech id="ParlaMint-FR_2020-10-01-O1003.u1" text_id="ParlaMint-FR_2020-10-01-O1003" subcorpus="COVID" body="National parliament|Lower house|Legislative session|Sitting" term="15" session="O1" meeting="" sitting="3" agenda="" date="2020-10-01" title="Proceedings of the debates in plenary sitting of the Assemblée Nationale, sitting: 3, 01/10/2020" speaker_role="Chairperson" speaker_id="PA1592" speaker_name="Habib, David" speaker_mp="MP" speaker_minister="-" speaker_party="SOC" speaker_party_name="Socialistes et apparentés" party_status="" speaker_gender="M" speaker_birth="1961">
-<p id="ParlaMint-FR_2020-10-01-O1003.u1.1" lang="French">
+<note type="debate" content="SOUS_TITRE_TEXTE_DISCUSSION"/>
+<speech id="ParlaMint-FR_2020-10-01-O1003.u1" text_id="ParlaMint-FR_2020-10-01-O1003" subcorpus="COVID" lang="français" body="Chambre basse" term="15e législature" session="session ordinaire 2020-2021 (CRSANR5L15S2021O1N003)" meeting="-" sitting="3. séance" agenda="-" date="2020-10-01" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 3, 01/10/2020" speaker_role="Président" speaker_id="PA1592" speaker_name="Habib, David" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SOC" speaker_party_name="Socialistes et apparentés" party_status="-" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1961">
+<p id="ParlaMint-FR_2020-10-01-O1003.u1.1" lang="français">
 <s id="ParlaMint-FR_2020-10-01-O1003.s1">
 L'	L'	le	DET	Definite=Def Number=Sing PronType=Art	w1	det	ordre	NOUN	Gender=Masc Number=Sing	w2
 <g/>
@@ -49,8 +50,9 @@ n°	n°	n°	SYM		w32	nmod	état	NOUN	Gender=Masc Number=Sing	w27
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="Discussion des articles"/>
-<speech id="ParlaMint-FR_2020-10-01-O1003.u2" text_id="ParlaMint-FR_2020-10-01-O1003" subcorpus="COVID" body="National parliament|Lower house|Legislative session|Sitting" term="15" session="O1" meeting="" sitting="3" agenda="" date="2020-10-01" title="Proceedings of the debates in plenary sitting of the Assemblée Nationale, sitting: 3, 01/10/2020" speaker_role="Chairperson" speaker_id="PA1592" speaker_name="Habib, David" speaker_mp="MP" speaker_minister="-" speaker_party="SOC" speaker_party_name="Socialistes et apparentés" party_status="" speaker_gender="M" speaker_birth="1961">
-<p id="ParlaMint-FR_2020-10-01-O1003.u2.1" lang="French">
+<note type="debate" content="DISC_ARTICLES_1_1"/>
+<speech id="ParlaMint-FR_2020-10-01-O1003.u2" text_id="ParlaMint-FR_2020-10-01-O1003" subcorpus="COVID" lang="français" body="Chambre basse" term="15e législature" session="session ordinaire 2020-2021 (CRSANR5L15S2021O1N003)" meeting="-" sitting="3. séance" agenda="-" date="2020-10-01" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 3, 01/10/2020" speaker_role="Président" speaker_id="PA1592" speaker_name="Habib, David" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SOC" speaker_party_name="Socialistes et apparentés" party_status="-" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1961">
+<p id="ParlaMint-FR_2020-10-01-O1003.u2.1" lang="français">
 <s id="ParlaMint-FR_2020-10-01-O1003.s2">
 Cet	Cet	ce	DET	Gender=Masc Number=Sing PronType=Dem	w1	det	après-midi	NOUN	Gender=Masc Number=Sing	w2
 après-midi	après-midi	après-midi	NOUN	Gender=Masc Number=Sing	w2	obl:mod	commencer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w7
@@ -93,8 +95,8 @@ article	article	article	NOUN	Gender=Masc Number=Sing	w28	obl:mod	arrêter	VERB	T
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-FR_2020-10-01-O1003.u431" text_id="ParlaMint-FR_2020-10-01-O1003" subcorpus="COVID" body="National parliament|Lower house|Legislative session|Sitting" term="15" session="O1" meeting="" sitting="3" agenda="" date="2020-10-01" title="Proceedings of the debates in plenary sitting of the Assemblée Nationale, sitting: 3, 01/10/2020" speaker_role="Chairperson" speaker_id="PA1592" speaker_name="Habib, David" speaker_mp="MP" speaker_minister="-" speaker_party="SOC" speaker_party_name="Socialistes et apparentés" party_status="" speaker_gender="M" speaker_birth="1961">
-<p id="ParlaMint-FR_2020-10-01-O1003.u431.1" lang="French">
+<speech id="ParlaMint-FR_2020-10-01-O1003.u431" text_id="ParlaMint-FR_2020-10-01-O1003" subcorpus="COVID" lang="français" body="Chambre basse" term="15e législature" session="session ordinaire 2020-2021 (CRSANR5L15S2021O1N003)" meeting="-" sitting="3. séance" agenda="-" date="2020-10-01" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 3, 01/10/2020" speaker_role="Président" speaker_id="PA1592" speaker_name="Habib, David" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SOC" speaker_party_name="Socialistes et apparentés" party_status="-" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1961">
+<p id="ParlaMint-FR_2020-10-01-O1003.u431.1" lang="français">
 <s id="ParlaMint-FR_2020-10-01-O1003.s1208">
 Voici	Voici	voici	VERB		w1	root	-	-	-	-
 le	le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w2	det	résultat	NOUN	Gender=Masc Number=Sing	w3
@@ -104,7 +106,7 @@ scrutin	scrutin	scrutin	NOUN	Gender=Masc Number=Sing	w6	nmod	résultat	NOUN	Gend
 :	:	:	PUNCT		w7	punct	voici	VERB		w1
 </s>
 </p>
-<p id="ParlaMint-FR_2020-10-01-O1003.u431.2" lang="French">
+<p id="ParlaMint-FR_2020-10-01-O1003.u431.2" lang="français">
 <s id="ParlaMint-FR_2020-10-01-O1003.s1209">
 Nombre	Nombre	nombre	NOUN	Gender=Masc Number=Sing	w1	root	-	-	-	-
 de	de	de	ADP		w2	case	votant	NOUN	Gender=Masc Number=Plur	w3
@@ -112,7 +114,7 @@ votants	votants	votant	NOUN	Gender=Masc Number=Plur	w3	nmod	nombre	NOUN	Gender=M
 46	46	46	NUM	Number=Plur	w4	nmod	votant	NOUN	Gender=Masc Number=Plur	w3
 </s>
 </p>
-<p id="ParlaMint-FR_2020-10-01-O1003.u431.3" lang="French">
+<p id="ParlaMint-FR_2020-10-01-O1003.u431.3" lang="français">
 <s id="ParlaMint-FR_2020-10-01-O1003.s1210">
 Nombre	Nombre	nombre	NOUN	Gender=Masc Number=Sing	w1	root	-	-	-	-
 de	de	de	ADP		w2	case	suffrage	NOUN	Gender=Masc Number=Plur	w3
@@ -121,14 +123,14 @@ exprimés	exprimés	exprimer	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Pa
 43	43	43	NUM	Number=Plur	w5	obl:mod	exprimer	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w4
 </s>
 </p>
-<p id="ParlaMint-FR_2020-10-01-O1003.u431.4" lang="French">
+<p id="ParlaMint-FR_2020-10-01-O1003.u431.4" lang="français">
 <s id="ParlaMint-FR_2020-10-01-O1003.s1211">
 Majorité	Majorité	majorité	NOUN	Gender=Fem Number=Sing	w1	root	-	-	-	-
 absolue	absolue	absolu	ADJ	Gender=Fem Number=Sing	w2	amod	majorité	NOUN	Gender=Fem Number=Sing	w1
 22	22	22	NUM	Number=Plur	w3	nmod	majorité	NOUN	Gender=Fem Number=Sing	w1
 </s>
 </p>
-<p id="ParlaMint-FR_2020-10-01-O1003.u431.5" lang="French">
+<p id="ParlaMint-FR_2020-10-01-O1003.u431.5" lang="français">
 <s id="ParlaMint-FR_2020-10-01-O1003.s1212">
 Pour	Pour	pour	ADP		w1	case	adoption	NOUN	Gender=Fem Number=Sing	w3
 l'	l'	le	DET	Definite=Def Number=Sing PronType=Art	w2	det	adoption	NOUN	Gender=Fem Number=Sing	w3
@@ -137,7 +139,7 @@ adoption	adoption	adoption	NOUN	Gender=Fem Number=Sing	w3	root	-	-	-	-
 26	26	26	NUM	Number=Plur	w4	nmod	adoption	NOUN	Gender=Fem Number=Sing	w3
 </s>
 </p>
-<p id="ParlaMint-FR_2020-10-01-O1003.u431.6" lang="French">
+<p id="ParlaMint-FR_2020-10-01-O1003.u431.6" lang="français">
 <s id="ParlaMint-FR_2020-10-01-O1003.s1213">
 Contre	Contre	contre	ADP		w1	case	17	NUM	Number=Plur	w2
 17	17	17	NUM	Number=Plur	w2	root	-	-	-	-
@@ -145,8 +147,9 @@ Contre	Contre	contre	ADP		w1	case	17	NUM	Number=Plur	w2
 </p>
 </speech>
 <note type="head" content="Ordre du jour de la prochaine séance"/>
-<speech id="ParlaMint-FR_2020-10-01-O1003.u432" text_id="ParlaMint-FR_2020-10-01-O1003" subcorpus="COVID" body="National parliament|Lower house|Legislative session|Sitting" term="15" session="O1" meeting="" sitting="3" agenda="" date="2020-10-01" title="Proceedings of the debates in plenary sitting of the Assemblée Nationale, sitting: 3, 01/10/2020" speaker_role="Chairperson" speaker_id="PA1592" speaker_name="Habib, David" speaker_mp="MP" speaker_minister="-" speaker_party="SOC" speaker_party_name="Socialistes et apparentés" party_status="" speaker_gender="M" speaker_birth="1961">
-<p id="ParlaMint-FR_2020-10-01-O1003.u432.1" lang="French">
+<note type="debate" content="FIN_SEAN_1_2"/>
+<speech id="ParlaMint-FR_2020-10-01-O1003.u432" text_id="ParlaMint-FR_2020-10-01-O1003" subcorpus="COVID" lang="français" body="Chambre basse" term="15e législature" session="session ordinaire 2020-2021 (CRSANR5L15S2021O1N003)" meeting="-" sitting="3. séance" agenda="-" date="2020-10-01" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 3, 01/10/2020" speaker_role="Président" speaker_id="PA1592" speaker_name="Habib, David" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SOC" speaker_party_name="Socialistes et apparentés" party_status="-" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1961">
+<p id="ParlaMint-FR_2020-10-01-O1003.u432.1" lang="français">
 <s id="ParlaMint-FR_2020-10-01-O1003.s1214">
 Prochaine	Prochaine	prochain	ADJ	Gender=Fem Number=Sing	w1	amod	séance	NOUN	Gender=Fem Number=Sing	w2
 séance	séance	séance	NOUN	Gender=Fem Number=Sing	w2	root	-	-	-	-
@@ -156,7 +159,7 @@ heures	heures	heure	NOUN	Gender=Fem Number=Plur	w5	nmod	séance	NOUN	Gender=Fem 
 :	:	:	PUNCT		w6	punct	séance	NOUN	Gender=Fem Number=Sing	w2
 </s>
 </p>
-<p id="ParlaMint-FR_2020-10-01-O1003.u432.2" lang="French">
+<p id="ParlaMint-FR_2020-10-01-O1003.u432.2" lang="français">
 <s id="ParlaMint-FR_2020-10-01-O1003.s1215">
 Suite	Suite	suite	NOUN		w1	case	discussion	NOUN	Gender=Fem Number=Sing	w4
 de	de	de	ADP		w2	fixed	suite	NOUN		w1
@@ -181,7 +184,7 @@ publique	publique	public	ADJ	Gender=Fem Number=Sing	w18	amod	action	NOUN	Gender=
 .	.	.	PUNCT		w19	punct	discussion	NOUN	Gender=Fem Number=Sing	w4
 </s>
 </p>
-<p id="ParlaMint-FR_2020-10-01-O1003.u432.3" lang="French">
+<p id="ParlaMint-FR_2020-10-01-O1003.u432.3" lang="français">
 <s id="ParlaMint-FR_2020-10-01-O1003.s1216">
 La	La	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w1	det	séance	NOUN	Gender=Fem Number=Sing	w2
 séance	séance	séance	NOUN	Gender=Fem Number=Sing	w2	nsubj:pass	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w4

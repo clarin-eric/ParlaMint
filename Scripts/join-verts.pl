@@ -54,7 +54,4 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     $inVertDir  = "$inDir/$XX.vert";
     $outVert    = "$outDir/$XX.$Version.vert";
     `find $inVertDir -type f -name '*.vert' -print | sort -r | xargs cat | gzip > $outVert.gz`;
-    $regis = '*_' . lc($countryCode) . ".regi";
-    $regis =~ s/-/_/g; #Change e.g. es-ct to es_ct
-    `cp $inVertDir/$regis $outDir/`
 }

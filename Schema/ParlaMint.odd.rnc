@@ -11,7 +11,7 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2023-09-23T09:02:29Z. 2023-10-09.
+# Schema generated from ODD source 2023-11-07T06:43:14Z. 2023-11-06.
 # TEI Edition: Version 4.6.0a. Last updated on
 #         5th January 2023, revision 9074b9038
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0a./
@@ -377,13 +377,16 @@ tei_model.nameLike.agent_sequenceOptionalRepeatable =
   tei_name*, tei_orgName*, tei_persName*
 tei_model.nameLike.agent_sequenceRepeatable =
   tei_name+, tei_orgName+, tei_persName+
-tei_model.segLike = tei_seg | tei_s | tei_w | tei_pc
-tei_model.segLike_alternation = tei_seg | tei_s | tei_w | tei_pc
-tei_model.segLike_sequence = tei_seg, tei_s, tei_w, tei_pc
-tei_model.segLike_sequenceOptional = tei_seg?, tei_s?, tei_w?, tei_pc?
+tei_model.segLike = tei_seg | tei_s | tei_phr | tei_w | tei_pc
+tei_model.segLike_alternation =
+  tei_seg | tei_s | tei_phr | tei_w | tei_pc
+tei_model.segLike_sequence = tei_seg, tei_s, tei_phr, tei_w, tei_pc
+tei_model.segLike_sequenceOptional =
+  tei_seg?, tei_s?, tei_phr?, tei_w?, tei_pc?
 tei_model.segLike_sequenceOptionalRepeatable =
-  tei_seg*, tei_s*, tei_w*, tei_pc*
-tei_model.segLike_sequenceRepeatable = tei_seg+, tei_s+, tei_w+, tei_pc+
+  tei_seg*, tei_s*, tei_phr*, tei_w*, tei_pc*
+tei_model.segLike_sequenceRepeatable =
+  tei_seg+, tei_s+, tei_phr+, tei_w+, tei_pc+
 tei_model.hiLike = notAllowed
 tei_model.hiLike_alternation = notAllowed
 tei_model.hiLike_sequence = empty
@@ -1434,6 +1437,7 @@ tei_category =
   element category {
     tei_catDesc+,
     tei_category*,
+    tei_att.global.attribute.n,
     
     ## (identifier) provides a unique identifier for the element bearing the attribute.
     attribute xml:id { xsd:ID },
@@ -2101,6 +2105,7 @@ tei_persName =
       | tei_surname+)+
      | (tei_term)+
      | (text)),
+    tei_att.global.attribute.xmlid,
     tei_att.global.attribute.xmllang,
     tei_att.datable.w3c.attribute.from,
     tei_att.datable.w3c.attribute.to,
@@ -2728,6 +2733,7 @@ tei_s =
     (tei_w
      | tei_pc
      | tei_name
+     | tei_phr
      | tei_num
      | tei_date
      | tei_time
@@ -2761,6 +2767,39 @@ tei_s =
     tei_att.global.attribute.n,
     tei_att.global.attribute.xmllang,
     tei_att.global.linking.attribute.corresp,
+    empty
+  }
+tei_phr =
+  
+  ## (phrase) contains a semantic multi-word unit. [17.1. Linguistic Segment Categories]
+  element phr {
+    (tei_w | tei_pc | tei_pb | text)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.xmllang,
+    [
+      a:documentation [
+        "(analysis) indicates one or more elements containing interpretations of the element on which the "
+        ns1:code [ "@ana" ]
+        " attribute appears."
+      ]
+    ]
+    attribute ana {
+      list {
+        xsd:anyURI { pattern = "\S+" }+
+      }
+    },
+    
+    ## (function) characterizes the function of the segment.
+    attribute function {
+      xsd:token { pattern = "[^\p{C}\p{Z}]+" }
+    },
+    
+    ##
+    attribute type {
+      
+      ##
+      "sem"
+    }?,
     empty
   }
 tei_w =

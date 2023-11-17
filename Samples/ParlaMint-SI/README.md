@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country SI (Slovenia)
+# Samples of the ParlaMint-SI corpus
 
+- Country: SI (Slovenia)
 - Language sl (Slovenian)
 
 ## Documentation
@@ -41,3 +42,7 @@ For linguistic annotation of the Slovenian corpus we used the CLASSLA-StanfordNL
 ### Structure
 
 We did not use any TEI elements or attributes outside of the ParlaMint schema.
+
+### Disclaimer to the English translation
+
+Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

@@ -174,7 +174,7 @@ title =
   }
 
 ## A "meeting" (e.g. session) of the parliament.
-meeting = element meeting { global.atts, ana.att, corresp.att, text }
+meeting = element meeting { global.atts, ana.att, text }
 
 ## Publisher of the corpus.
 publisher =
@@ -218,9 +218,7 @@ text-body =
 ## The definition of the div element.
 \div =
   element div {
-    global.atts
-    >> a:documentation [ "Optional @corresp for MTed corpora." ],
-    corresp.att,
+    global.atts,
     
     ## A standard div with utterances.
     ((attribute type { "debateSection" },
@@ -249,18 +247,14 @@ u =
          "Utterance has obligatory @ana, for the role of the speaker."
        ],
     ana.att,
-    (attribute source { anyURIs }?)
-    >> a:documentation [ "Optional @corresp for MTed corpora." ],
-    corresp.att,
+    attribute source { anyURIs }?,
     (seg | comment | pb)+
   }
 
 ## A segment (i.e paragraph) inside a speech.
 seg =
   element seg {
-    global.atts
-    >> a:documentation [ "Optional @corresp for MTed corpora." ],
-    corresp.att,
+    global.atts,
     (comment
      | pb
      | text

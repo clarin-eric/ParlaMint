@@ -17,34 +17,6 @@
     
     <xsl:output method="text" encoding="utf-8"/>
   
-    <!-- Store sub title, if it exists, otherwise main title -->
-    <xsl:variable name="title">
-      <xsl:variable name="titles" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
-      <xsl:variable name="subtitles" select="et:l10n($corpus-language, $titles[@type='sub'])"/>
-      <xsl:choose>
-        <xsl:when test="normalize-space($subtitles[2])">
-	  <xsl:variable name="joined-subtitles">
-	    <xsl:variable name="j-s">
-	      <xsl:for-each select="$subtitles/self::tei:*">
-		<xsl:value-of select="concat(., $body-separator)"/>
-	      </xsl:for-each>
-	    </xsl:variable>
-	    <xsl:value-of select="replace($j-s, concat('\', $body-separator, '$'), '')"/>
-	  </xsl:variable>
-          <xsl:message select="concat('INFO: Joining subtitles: ', $joined-subtitles, ' in ', /tei:*/@xml:id)"/>
-	  <xsl:value-of select="$joined-subtitles"/>
-        </xsl:when>
-        <xsl:when test="normalize-space($subtitles)">
-          <xsl:value-of select="$subtitles"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:variable name="main-title" select="et:l10n($corpus-language, $titles[@type='main'])"/>
-	  <!-- Remove [ParlaMint] stamp -->
-          <xsl:value-of select="replace($main-title, '\s*\[.+\]$', '')"/>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
-    
   <xsl:template match="tei:TEI">
     <xsl:message select="concat('INFO: Converting ', @xml:id, ' to metadata TSV')"/>
     <xsl:text>Text_ID&#9;</xsl:text>

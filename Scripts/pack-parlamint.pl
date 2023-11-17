@@ -19,7 +19,7 @@ sub usage {
     print STDERR ("\n");
     print STDERR ("    The script produces two .tgz files:\n");
     print STDERR ("    - ParlaMint-XX.TEI.tgz (README-XX.md + PalaMint-XX.ParlaMint-XX.TEI/ + ParlaMint-XX.txt\n");
-    print STDERR ("    - ParlaMint-XX.TEI.ana.tgz (README-XX.ana.md + ParlaMint-XX.TEI.ana/ + ParlaMint-XX.conllu/ + ParlaMint-XX.vert/\n");
+    print STDERR ("    - ParlaMint-XX.TEI.ana.tgz (README-XX.ana.md + ParlaMint-XX.TEI.ana/ + ParlaMint-XX.conllu/ + ParlaMint-XX.txt/ + ParlaMint-XX.vert/\n");
 }
 
 use Getopt::Long;
@@ -73,14 +73,15 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	move("$inDir/$outTei", $outDir);
     }
     
-    print STDERR "INFO: *Packing $anaReadme, $anaDir/, $conlDir/, $vertDir/\n";
+    print STDERR "INFO: *Packing $anaReadme, $anaDir/, $conlDir/, $txtDir/, $vertDir/\n";
     if (-e "$inDir/$anaDir/$XX.ana.xml") {
 	die "FATAL ERROR: Can't find $inDir/$anaReadme\n" unless -e "$inDir/$anaReadme";
         die "FATAL ERROR: Can't find $inDir/$anaDir\n" unless -e "$inDir/$anaDir"; 
         die "FATAL ERROR: Can't find $inDir/$conlDir\n" unless -e "$inDir/$conlDir";
+        die "FATAL ERROR: Can't find $inDir/$txtDir\n" unless -e "$inDir/$txtDir";
         die "FATAL ERROR: Can't find $inDir/$vertDir\n" unless -e "$inDir/$vertDir";
         `rm -fr $outDir/$outAna`;
-        `cd $inDir; tar -czf $outAna --mode='a+rwX' $anaDir $anaReadme $conlDir $vertDir`;
+        `cd $inDir; tar -czf $outAna --mode='a+rwX' $anaReadme $anaDir $txtDir $conlDir $vertDir`;
         move("$inDir/$outAna", $outDir);
     }
     else {

@@ -1,6 +1,7 @@
 <note type="head" content="Lekken van gifgas door chemiebedrijf Chemours"/>
-<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u1" text_id="ParlaMint-NL_2019-05-16-tweedekamer-11" subcorpus="Reference" body="Lower house" term="29-lower" session="11" meeting="83" sitting="2019-05-16" agenda="" date="2019-05-16" title="Report of the meeting of the Dutch Lower House, Meeting 83, Session 11 (2019-05-16)" speaker_role="Chairperson" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="-" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="" speaker_gender="F" speaker_birth="1960">
-<p id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg1" lang="Dutch">
+<note type="speaker" content="De voorzitter"/>
+<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u1" text_id="ParlaMint-NL_2019-05-16-tweedekamer-11" subcorpus="Referentie" lang="Nederlands" body="Eerste Kamer" term="Meeting of the 29th Tweede Kamer" session="Session 11" meeting="Meeting 83" sitting="Sitting 2019-05-16" agenda="-" date="2019-05-16" title="Verslag van de vergadering van de Tweede Kamer, Meeting 83, Session 11 (2019-05-16)" speaker_role="Voorzitter" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="-" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
+<p id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg1" lang="Nederlands">
 <s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1">
 Goedenavond	Goedenavond	goedenavond	NOUN	Gender=Com Number=Sing	w6	root	-	-	-	-
 <g/>
@@ -101,8 +102,8 @@ SP	SP	SP	PROPN	Gender=Com Number=Sing	w66	nmod	heer	NOUN	Gender=Com Number=Sing	
 </p>
 </speech>
 <note type="speaker" content="De heer Laçin (SP)"/>
-<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u2" text_id="ParlaMint-NL_2019-05-16-tweedekamer-11" subcorpus="Reference" body="Lower house" term="29-lower" session="11" meeting="83" sitting="2019-05-16" agenda="" date="2019-05-16" title="Report of the meeting of the Dutch Lower House, Meeting 83, Session 11 (2019-05-16)" speaker_role="Regular" speaker_id="CemLaçin" speaker_name="Laçin, Cem" speaker_mp="notMP" speaker_minister="-" speaker_party="SP" speaker_party_name="Socialistische Partij" party_status="Opposition" speaker_gender="M" speaker_birth="1986">
-<p id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg2" lang="Dutch">
+<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u2" text_id="ParlaMint-NL_2019-05-16-tweedekamer-11" subcorpus="Referentie" lang="Nederlands" body="Eerste Kamer" term="Meeting of the 29th Tweede Kamer" session="Session 11" meeting="Meeting 83" sitting="Sitting 2019-05-16" agenda="-" date="2019-05-16" title="Verslag van de vergadering van de Tweede Kamer, Meeting 83, Session 11 (2019-05-16)" speaker_role="Vast" speaker_id="CemLaçin" speaker_name="Laçin, Cem" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="SP" speaker_party_name="Socialistische Partij" party_status="Opposition" party_orientation="Left" speaker_gender="M" speaker_birth="1986">
+<p id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg2" lang="Nederlands">
 <s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s6">
 Voorzitter	Voorzitter	voorzitter	NOUN	Gender=Com Number=Sing	w67	root	-	-	-	-
 <g/>
@@ -310,7 +311,7 @@ provincie	provincie	provincie	NOUN	Gender=Com Number=Sing	w202	nmod	dwangsom	NOU
 .	.	.	PUNCT		pc24	punct	lozen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w191
 </s>
 </p>
-<p id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg3" lang="Dutch">
+<p id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg3" lang="Nederlands">
 <s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17">
 Dan	Dan	dan	ADV		w203	mark	lekken	VERB	VerbForm=Inf	w205
 het	het	het	DET	Definite=Def	w204	det	lekken	VERB	VerbForm=Inf	w205
@@ -383,8 +384,8 @@ RIVM	RIVM	RIVM	NOUN	Gender=Neut Number=Sing	w249	obl	eten	VERB	VerbForm=Inf	w241
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u273" text_id="ParlaMint-NL_2019-05-16-tweedekamer-11" subcorpus="Reference" body="Lower house" term="29-lower" session="11" meeting="83" sitting="2019-05-16" agenda="" date="2019-05-16" title="Report of the meeting of the Dutch Lower House, Meeting 83, Session 11 (2019-05-16)" speaker_role="Chairperson" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="-" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="" speaker_gender="F" speaker_birth="1960">
-<p id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg384" lang="Dutch">
+<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u273" text_id="ParlaMint-NL_2019-05-16-tweedekamer-11" subcorpus="Referentie" lang="Nederlands" body="Eerste Kamer" term="Meeting of the 29th Tweede Kamer" session="Session 11" meeting="Meeting 83" sitting="Sitting 2019-05-16" agenda="-" date="2019-05-16" title="Verslag van de vergadering van de Tweede Kamer, Meeting 83, Session 11 (2019-05-16)" speaker_role="Voorzitter" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="-" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
+<p id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg384" lang="Nederlands">
 <s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1886">
 Daarmee	Daarmee	daarmee	ADV		w28605	advmod	komen	VERB	VerbForm=Part	w28608
 zijn	zijn	zijn	AUX	Number=Plur Tense=Pres VerbForm=Fin	w28606	aux	komen	VERB	VerbForm=Part	w28608
@@ -402,8 +403,9 @@ debat	debat	debat	NOUN	Gender=Neut Number=Sing	w28614	nmod	einde	NOUN	Gender=Neu
 </p>
 </speech>
 <note type="comment" content="De beraadslaging wordt gesloten."/>
-<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u274" text_id="ParlaMint-NL_2019-05-16-tweedekamer-11" subcorpus="Reference" body="Lower house" term="29-lower" session="11" meeting="83" sitting="2019-05-16" agenda="" date="2019-05-16" title="Report of the meeting of the Dutch Lower House, Meeting 83, Session 11 (2019-05-16)" speaker_role="Chairperson" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="-" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="" speaker_gender="F" speaker_birth="1960">
-<p id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg385" lang="Dutch">
+<note type="speaker" content="De voorzitter"/>
+<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u274" text_id="ParlaMint-NL_2019-05-16-tweedekamer-11" subcorpus="Referentie" lang="Nederlands" body="Eerste Kamer" term="Meeting of the 29th Tweede Kamer" session="Session 11" meeting="Meeting 83" sitting="Sitting 2019-05-16" agenda="-" date="2019-05-16" title="Verslag van de vergadering van de Tweede Kamer, Meeting 83, Session 11 (2019-05-16)" speaker_role="Voorzitter" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="-" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
+<p id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg385" lang="Nederlands">
 <s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888">
 De	De	de	DET	Definite=Def	w28619	det	motie	NOUN	Number=Plur	w28620
 moties	moties	motie	NOUN	Number=Plur	w28620	nsubj	komen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w28621

@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country DK (Denmark)
+# Samples of the ParlaMint-DK corpus
 
+- Country: DK (Denmark)
 - Language: da (Danish)
 
 ## Documentation
@@ -31,3 +32,11 @@ The Text Tonsorium is open source software that can be downloaded from https://g
 The tools in Text Tonsorium are run in the following order to process the ParlaMint_DK TEI-files:
 
 - TEI tokenizer, sentence extractor, token extractor, TEI-segmenter, udpipe, Anno-splitter, CSTlemma, Anno-splitter, Anno-splitter, CSTner and TEI annotator.
+
+### Disclaimer to the English translation
+
+Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account. 
+
+In the Danish data the names of the parties and the Parliament (Folketinget) are translated literally, and in different ways. However, the party names are correct in the metadata and these can be used for studies and statistics.
+
+Furthermore, there seem to be problems after some abbreviations ending in punctuation mark, where the MT system inserts unlrelated texts into the translation, e.g. "President. - I call the Group of the European People's Party (ChristianDemocratic Group)" or "by Mr de la Malène and others, on behalf of the Group of the European People's Party (Christian-Democratic Group)".

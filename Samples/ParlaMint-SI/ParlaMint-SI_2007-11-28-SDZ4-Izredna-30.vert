@@ -3,7 +3,7 @@
 <note type="head" content="Sejo je vodil Sašo Peče, podpredsednik Državnega zbora."/>
 <note type="time" content="Seja se je pričela ob 9.01."/>
 <note type="speaker" content="PODPREDSEDNIK SAŠO PEČE:"/>
-<speech id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.u1" text_id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="4" session="" meeting="30" sitting="" agenda="" date="2007-11-28" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 4. mandat, 30. izredna seja (28. 11. 2007)" speaker_role="Predsedujoči" speaker_id="PečeSašo" speaker_name="Peče, Sašo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SNS" speaker_party_name="Slovenska nacionalna stranka" party_status="Opposition" party_orientation="" speaker_gender="M" speaker_birth="1971">
+<speech id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.u1" text_id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="4. mandat" session="-" meeting="Izredna" sitting="-" agenda="-" date="2007-11-28" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 4. mandat, 30. izredna seja (28. 11. 2007)" speaker_role="Predsedujoči" speaker_id="PečeSašo" speaker_name="Peče, Sašo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SNS" speaker_party_name="Slovenska nacionalna stranka" party_status="Opposition" party_orientation="Desna do skrajno desna" speaker_gender="M" speaker_birth="1971">
 <p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1" lang="slovenski">
 <s id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.1">
 Spoštovane	Spoštovane	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	1	amod	poslanka	NOUN	Case=Nom Gender=Fem Number=Plur	2
@@ -260,7 +260,7 @@ Izvolite	Izvolite	izvoliti	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin	1	roo
 </p>
 </speech>
 <note type="speaker" content="CIRIL TESTEN:"/>
-<speech id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.u2" text_id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="4" session="" meeting="30" sitting="" agenda="" date="2007-11-28" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 4. mandat, 30. izredna seja (28. 11. 2007)" speaker_role="Navadni" speaker_id="TestenCiril" speaker_name="Testen, Ciril" speaker_mp="MP" speaker_minister="notMinister" speaker_party="NSi" speaker_party_name="Nova Slovenija – Krščanski demokrati" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="1947">
+<speech id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.u2" text_id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="4. mandat" session="-" meeting="Izredna" sitting="-" agenda="-" date="2007-11-28" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 4. mandat, 30. izredna seja (28. 11. 2007)" speaker_role="Navadni" speaker_id="TestenCiril" speaker_name="Testen, Ciril" speaker_mp="MP" speaker_minister="notMinister" speaker_party="NSi" speaker_party_name="Nova Slovenija – Krščanski demokrati" party_status="Coalition" party_orientation="Desno sredinska" speaker_gender="M" speaker_birth="1947">
 <p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6" lang="slovenski">
 <s id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.1">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
@@ -593,7 +593,7 @@ podprli	podprli	podpreti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.u716" text_id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="4" session="" meeting="30" sitting="" agenda="" date="2007-11-28" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 4. mandat, 30. izredna seja (28. 11. 2007)" speaker_role="Navadni" speaker_id="PečeSašo" speaker_name="Peče, Sašo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SNS" speaker_party_name="Slovenska nacionalna stranka" party_status="Opposition" party_orientation="" speaker_gender="M" speaker_birth="1971">
+<speech id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.u716" text_id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="4. mandat" session="-" meeting="Izredna" sitting="-" agenda="-" date="2007-11-28" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 4. mandat, 30. izredna seja (28. 11. 2007)" speaker_role="Navadni" speaker_id="PečeSašo" speaker_name="Peče, Sašo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SNS" speaker_party_name="Slovenska nacionalna stranka" party_status="Opposition" party_orientation="Desna do skrajno desna" speaker_gender="M" speaker_birth="1971">
 <p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772" lang="slovenski">
 <s id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1">
 Zvon	Zvon	zvon	NOUN	Case=Nom Gender=Masc Number=Sing	1	nsubj	nevarnost	NOUN	Case=Nom Gender=Fem Number=Sing	15
@@ -915,7 +915,7 @@ omogočate	omogočate	omogočati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=2 T
 </p>
 </speech>
 <note type="speaker" content="PREDSEDNIK FRANCE CUKJATI:"/>
-<speech id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.u717" text_id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="4" session="" meeting="30" sitting="" agenda="" date="2007-11-28" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 4. mandat, 30. izredna seja (28. 11. 2007)" speaker_role="Predsedujoči" speaker_id="CukjatiFrance" speaker_name="Cukjati, France" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDS" speaker_party_name="Slovenska demokratska stranka" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="1943">
+<speech id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.u717" text_id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="4. mandat" session="-" meeting="Izredna" sitting="-" agenda="-" date="2007-11-28" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 4. mandat, 30. izredna seja (28. 11. 2007)" speaker_role="Predsedujoči" speaker_id="CukjatiFrance" speaker_name="Cukjati, France" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDS" speaker_party_name="Slovenska demokratska stranka" party_status="Coalition" party_orientation="Desna" speaker_gender="M" speaker_birth="1943">
 <p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773" lang="slovenski">
 <s id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.1">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-

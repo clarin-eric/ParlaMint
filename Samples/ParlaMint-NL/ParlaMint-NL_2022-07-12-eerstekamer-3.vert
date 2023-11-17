@@ -1,6 +1,7 @@
 <note type="head" content="Wijziging begrotingsstaten Justitie en Veiligheid 2022 (Voorjaarsnota)"/>
-<speech id="ParlaMint-NL_2022-07-12-eerstekamer-3.u1" text_id="ParlaMint-NL_2022-07-12-eerstekamer-3" subcorpus="War" body="Upper house" term="36-upper" session="3" meeting="38" sitting="2022-07-12" agenda="" date="2022-07-12" title="Report of the meeting of the Dutch Upper House, Meeting 38, Session 3 (2022-07-12)" speaker_role="Chairperson" speaker_id="JanAnthonieBruijn" speaker_name="Bruijn, Jan Anthonie" speaker_mp="MP" speaker_minister="-" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="Coalition" speaker_gender="M" speaker_birth="1958">
-<p id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg1" lang="Dutch">
+<note type="speaker" content="De voorzitter"/>
+<speech id="ParlaMint-NL_2022-07-12-eerstekamer-3.u1" text_id="ParlaMint-NL_2022-07-12-eerstekamer-3" subcorpus="COVID,War" lang="Nederlands" body="Eerste Kamer" term="Meeting of the 36th Eerste Kamer" session="Session 3" meeting="Meeting 38" sitting="Sitting 2022-07-12" agenda="-" date="2022-07-12" title="Verslag van de vergadering van de Eerste Kamer, Meeting 38, Session 3 (2022-07-12)" speaker_role="Voorzitter" speaker_id="JanAnthonieBruijn" speaker_name="Bruijn, Jan Anthonie" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1958">
+<p id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg1" lang="Nederlands">
 <s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w7	nsubj	heten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8
 heet	heet	heten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8	root	-	-	-	-
@@ -62,8 +63,9 @@ langskomen	langskomen	langskomen	VERB	VerbForm=Inf	w46	csubj	fijn	ADJ	Degree=Pos
 </p>
 </speech>
 <note type="comment" content="De beraadslaging wordt geopend."/>
-<speech id="ParlaMint-NL_2022-07-12-eerstekamer-3.u2" text_id="ParlaMint-NL_2022-07-12-eerstekamer-3" subcorpus="War" body="Upper house" term="36-upper" session="3" meeting="38" sitting="2022-07-12" agenda="" date="2022-07-12" title="Report of the meeting of the Dutch Upper House, Meeting 38, Session 3 (2022-07-12)" speaker_role="Chairperson" speaker_id="JanAnthonieBruijn" speaker_name="Bruijn, Jan Anthonie" speaker_mp="MP" speaker_minister="-" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="Coalition" speaker_gender="M" speaker_birth="1958">
-<p id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg2" lang="Dutch">
+<note type="speaker" content="De voorzitter"/>
+<speech id="ParlaMint-NL_2022-07-12-eerstekamer-3.u2" text_id="ParlaMint-NL_2022-07-12-eerstekamer-3" subcorpus="COVID,War" lang="Nederlands" body="Eerste Kamer" term="Meeting of the 36th Eerste Kamer" session="Session 3" meeting="Meeting 38" sitting="Sitting 2022-07-12" agenda="-" date="2022-07-12" title="Verslag van de vergadering van de Eerste Kamer, Meeting 38, Session 3 (2022-07-12)" speaker_role="Voorzitter" speaker_id="JanAnthonieBruijn" speaker_name="Bruijn, Jan Anthonie" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1958">
+<p id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg2" lang="Nederlands">
 <s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s4">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w51	nsubj	geven	VERB	Number=Sing Tense=Pres VerbForm=Fin	w52
 geef	geef	geven	VERB	Number=Sing Tense=Pres VerbForm=Fin	w52	root	-	-	-	-
@@ -82,8 +84,8 @@ Hattem	Hattem	hattem	PROPN		w59	flat	van	PROPN		w58
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-NL_2022-07-12-eerstekamer-3.u79" text_id="ParlaMint-NL_2022-07-12-eerstekamer-3" subcorpus="War" body="Upper house" term="36-upper" session="3" meeting="38" sitting="2022-07-12" agenda="" date="2022-07-12" title="Report of the meeting of the Dutch Upper House, Meeting 38, Session 3 (2022-07-12)" speaker_role="Chairperson" speaker_id="JanAnthonieBruijn" speaker_name="Bruijn, Jan Anthonie" speaker_mp="MP" speaker_minister="-" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="Coalition" speaker_gender="M" speaker_birth="1958">
-<p id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg116" lang="Dutch">
+<speech id="ParlaMint-NL_2022-07-12-eerstekamer-3.u79" text_id="ParlaMint-NL_2022-07-12-eerstekamer-3" subcorpus="COVID,War" lang="Nederlands" body="Eerste Kamer" term="Meeting of the 36th Eerste Kamer" session="Session 3" meeting="Meeting 38" sitting="Sitting 2022-07-12" agenda="-" date="2022-07-12" title="Verslag van de vergadering van de Eerste Kamer, Meeting 38, Session 3 (2022-07-12)" speaker_role="Voorzitter" speaker_id="JanAnthonieBruijn" speaker_name="Bruijn, Jan Anthonie" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1958">
+<p id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg116" lang="Nederlands">
 <s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s528">
 Dank	Dank	dank	VERB	Gender=Com Number=Sing	w7794	root	-	-	-	-
 u	u	u	PRON	Case=Nom Person=2 PronType=Prs	w7795	fixed	dank	VERB	Gender=Com Number=Sing	w7794
@@ -94,8 +96,9 @@ wel	wel	wel	ADV		w7796	fixed	dank	VERB	Gender=Com Number=Sing	w7794
 </p>
 </speech>
 <note type="comment" content="De beraadslaging wordt gesloten."/>
-<speech id="ParlaMint-NL_2022-07-12-eerstekamer-3.u80" text_id="ParlaMint-NL_2022-07-12-eerstekamer-3" subcorpus="War" body="Upper house" term="36-upper" session="3" meeting="38" sitting="2022-07-12" agenda="" date="2022-07-12" title="Report of the meeting of the Dutch Upper House, Meeting 38, Session 3 (2022-07-12)" speaker_role="Chairperson" speaker_id="JanAnthonieBruijn" speaker_name="Bruijn, Jan Anthonie" speaker_mp="MP" speaker_minister="-" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="Coalition" speaker_gender="M" speaker_birth="1958">
-<p id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg117" lang="Dutch">
+<note type="speaker" content="De voorzitter"/>
+<speech id="ParlaMint-NL_2022-07-12-eerstekamer-3.u80" text_id="ParlaMint-NL_2022-07-12-eerstekamer-3" subcorpus="COVID,War" lang="Nederlands" body="Eerste Kamer" term="Meeting of the 36th Eerste Kamer" session="Session 3" meeting="Meeting 38" sitting="Sitting 2022-07-12" agenda="-" date="2022-07-12" title="Verslag van de vergadering van de Eerste Kamer, Meeting 38, Session 3 (2022-07-12)" speaker_role="Voorzitter" speaker_id="JanAnthonieBruijn" speaker_name="Bruijn, Jan Anthonie" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1958">
+<p id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg117" lang="Nederlands">
 <s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s530">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w7801	nsubj	komen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w7802
 kom	kom	komen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w7802	root	-	-	-	-
@@ -163,7 +166,7 @@ stemmen	stemmen	stemmen	VERB	VerbForm=Inf	w7846	ccomp	stellen	VERB	Number=Sing T
 .	.	.	PUNCT		pc907	punct	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w7837
 </s>
 </p>
-<p id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg118" lang="Dutch">
+<p id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg118" lang="Nederlands">
 <s id="ParlaMint-NL_2022-07-12-eerstekamer-3.s535">
 Dan	Dan	dan	ADV		w7847	advmod	schorsen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w7848
 schors	schors	schorsen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w7848	root	-	-	-	-

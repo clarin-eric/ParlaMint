@@ -1,5 +1,6 @@
-# ParlaMint directory for samples of country TR (Turkey)
+# Samples of the ParlaMint-TR corpus
 
+- Country: TR (Turkey)
 - Language tr (Turkish)
 
 
@@ -29,3 +30,7 @@ Only the standard TEI structure is used.
 ### Linguistic annotation
 
 Tokenization, and morphological processing (lemmatization, PoS tagging, morphology) was done using TRMorph (https://github.com/coltekin/TRmorph), which provides UD-style analysis. The syntactic analyses were done using the Steps parser (https://github.com/boschresearch/steps-parser) trained on the UD_Turkish-BOUN treebank. The named entities are obtained using  a free RNN-based tool on GitHub  (https://github.com/snnclsr/ner).
+
+### Disclaimer to the English translation
+
+Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.
