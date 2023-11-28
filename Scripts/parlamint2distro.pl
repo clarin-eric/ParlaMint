@@ -205,7 +205,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     if ($Version) {
 	$regiDir = $docsDir . '/registry';
 	$vertRegi = 'parlamint' . $Version . '_' . lc $countryCode;
-	$vertRegi =~ s/\.//;   #e.g. 3.1 -> 31, so we will get e.g. parlamint31_at
+	$vertRegi =~ s/\.//g;   #e.g. 3.1 -> 31, so we will get e.g. parlamint31_at
 	$vertRegi =~ s/-/_/g;  #e.g. parlamint31_es-ct.regi to parlamint31_es_ct
 	$regiExt = 'regi'
     }
@@ -424,7 +424,7 @@ sub cp_readme_top {
     # en-ana: # Linguistically annotated corpus of parliamentary debates ParlaMint-AT-en.ana (translation to English)
 
     while (<IN>) {
-	if (m|^# ParlaMint|) {
+	if (m|# ParlaMint|) {
 	    ($countryCode, $RegionalSuffix, $countryName) = m| ([A-Z]{2}(-[A-Z]{2})?) \((.+)\)$|
 	       or die "FATAL ERROR: Bad line in README.md file: $_";
 	    die "FATAL ERROR: Bad code $countryCode (!= $country) in $inFile\n" unless $country =~ /$countryCode/;
