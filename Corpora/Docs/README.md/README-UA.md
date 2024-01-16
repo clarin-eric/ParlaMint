@@ -47,3 +47,7 @@ There are no additional TEI structural elements beyond what is described in the 
 POS tagging, lemmatization and dependency parsing were done with UDPipe 2 (http://ufal.mff.cuni.cz/udpipe/2) with ukrainian-iu-ud-2.10-220711 and russian-syntagrus-ud-2.10-220711 models.
 
 The Ukrainian NER model was trained and deployed as part of the NameTag service (http://lindat.mff.cuni.cz/services/nametag/), with https://github.com/lang-uk/ner-uk dataset (data folder) used for training. We would like to thank [Jana Strakova](https://ufal.mff.cuni.cz/jana-strakova) for training the Ukrainian NER tool.
+
+### Disclaimer to the English translation
+
+Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

@@ -6,6 +6,11 @@ README_CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS 
 REGIST_VERSION = 40
 REGIST_CORPORA = at ba be bg cz dk ee es es_ct es_ga es_pv fi fr gb gr hr hu is it lv nl no pl pt rs se si tr ua
 
+# ParlaMint-UA 4.0.1
+#README_CORPORA = UA
+#REGIST_VERSION = 401
+#REGIST_CORPORA = ua
+
 # Main readmes from Data/, store here and rename
 cp_readmes:
 	# rm -f README.md/*.md
@@ -16,7 +21,7 @@ cp_readmes:
 
 # Registry files 
 cp_regis:
-	rm -f registry/*
+	#rm -f registry/*
 	for CORPUS in ${REGIST_CORPORA}; do \
 	cp /project/clarinsi-cqp/registry/parlamint${REGIST_VERSION}_$${CORPUS} \
 	registry/parlamint${REGIST_VERSION}_$${CORPUS}; \

@@ -21,6 +21,8 @@ bla:
 ### SUBMITTED CORPORA FOR V 4.0
 CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
+### UA V 4.0.1
+CORPORA = UA
 
 ######## MTed CORPORA FOR V 4.0
 #### Used only for pack!
@@ -40,9 +42,14 @@ SOURCES = ${HERE}/Sources-TEI
 SOURCES-MT = ${HERE}/Sources-Sem
 
 # Version number and PID of next(!) TEI and TEI.ana ParlaMint release
-VERSION = 4.0
-HANDLE-TEI = http://hdl.handle.net/11356/1859
-HANDLE-ANA = http://hdl.handle.net/11356/1860
+#VERSION = 4.0
+#HANDLE-TEI = http://hdl.handle.net/11356/1859
+#HANDLE-ANA = http://hdl.handle.net/11356/1860
+
+### UA V 4.0.1
+VERSION = 4.0.1
+HANDLE-TEI = http://hdl.handle.net/11356/1900
+HANDLE-ANA = http://hdl.handle.net/11356/1900
 
 # Version number and PID of next MTed ParlaMint-en.ana release
 VERSION-MT = 4.0
@@ -254,7 +261,7 @@ verts:
 	perl ../Scripts/join-verts.pl -version ${VERSION} -codes '${CORPORA}' -in Master -out Verts
 final:
 	for CORPUS in ${CORPORA}; do \
-	${FINALIZE} -all -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.log; \
+	${FINALIZE} -all -notei -noana -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.log; \
 	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.error.log;  \
 	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.warn.log;  \
 	echo "$${CORPUS}.warn"; \
