@@ -97,8 +97,9 @@
   
   <xsl:template match="tei:teiHeader">
     <xsl:param name="corpus"/>
+    <!--xsl:message select="concat('INFO: Corpus ', $corpus)"/-->
     <!-- Corpus -->
-    <xsl:value-of select="replace($corpus, '.+-', '')"/>
+    <xsl:value-of select="replace($corpus, '^.+?-', '')"/>
     <xsl:value-of select="$col-sep"/>
     <!-- Languages -->
     <xsl:variable name="languages">
@@ -137,9 +138,10 @@
                             ][@corresp=$corpus]
                             /tokenize(@target, ' ')">
         <xsl:choose>
-          <xsl:when test=". = '#parla.uni'">unica+</xsl:when>
-          <xsl:when test=". = '#parla.lower'">lower+</xsl:when>
-          <xsl:when test=". = '#parla.upper'">upper+</xsl:when>
+          <xsl:when test=". = '#parla.uni'">uni+</xsl:when>
+          <xsl:when test=". = '#parla.lower'">low+</xsl:when>
+          <xsl:when test=". = '#parla.upper'">upp+</xsl:when>
+          <xsl:when test=". = '#parla.committee'">com+</xsl:when>
         </xsl:choose>
       </xsl:for-each>
     </xsl:variable>

@@ -93,7 +93,7 @@
   
   <xsl:template match="tei:teiHeader">
     <xsl:variable name="head" select="."/>
-    <xsl:value-of select="ancestor::tei:teiCorpus/replace(@xml:id, '.+-', '')"/>
+    <xsl:value-of select="ancestor::tei:teiCorpus/replace(@xml:id, '.+?-', '')"/>
     
     <xsl:value-of select="$col-sep"/>
     <xsl:variable name="utterances">
