@@ -18,13 +18,10 @@ bla:
 
 ### VARIABLES
 
-### SUBMITTED CORPORA FOR V 4.0
+### SUBMITTED CORPORA FOR V 4.1
 CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
-### UA V 4.0.1
-CORPORA = UA
-
-######## MTed CORPORA FOR V 4.0
+######## MTed CORPORA FOR V 4.1
 #### Used only for pack!
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en ES-PV-en FI-en FR-en GB-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
 
@@ -46,14 +43,13 @@ SOURCES-MT = ${HERE}/Sources-Sem
 #HANDLE-TEI = http://hdl.handle.net/11356/1859
 #HANDLE-ANA = http://hdl.handle.net/11356/1860
 
-### UA V 4.0.1
-VERSION = 4.0.1
-HANDLE-TEI = http://hdl.handle.net/11356/1900
-HANDLE-ANA = http://hdl.handle.net/11356/1900
+VERSION = 4.1
+HANDLE-TEI = http://hdl.handle.net/11356/1912
+HANDLE-ANA = http://hdl.handle.net/11356/1911
 
 # Version number and PID of next MTed ParlaMint-en.ana release
-VERSION-MT = 4.0
-HANDLE-MT = http://hdl.handle.net/11356/1864
+VERSION-MT = 4.1
+HANDLE-MT = http://hdl.handle.net/11356/1910
 
 #Where the produced corpora are put for inspection
 WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/

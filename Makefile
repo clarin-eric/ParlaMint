@@ -1,12 +1,8 @@
 .DEFAULT_GOAL := help
 
-##$PARLIAMENTS##Space separated list of parliaments codes.
-#LT, RO not delivered for 4.0
-#PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR BA RS UA
-#Parliaments for V4.0
+##$PARLIAMENTS: Space separated list of country codes
+#Parliaments for V4.1
 PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT SE SI TR BA RS UA
-#Parliaments for V2.1
-PARLIAMENTS-v2 = BE BG CZ DK ES FR GB HR HU IS IT LT LV NL PL SI TR
 
 ##$JAVA-MEMORY## Set a java memory maxsize in GB
 JAVA-MEMORY =
