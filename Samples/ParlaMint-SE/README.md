@@ -30,7 +30,3 @@ Our corpus did not require any extension to the original proposal.
 For the linguistic annotation process, we used the Sparv Pipeline https://spraakbanken.gu.se/sparv/ by Språkbanken Text https://spraakbanken.gu.se/ . As the output format of Sparv is different from the ParlaMint format, some extra processing was done in Python.
 
 Additionally, some missing functionality was filled in with the Swedish BERT NER tool https://huggingface.co/KB/bert-base-swedish-cased-ner released by Kungliga Biblioteket https://www.kb.se/ . The NER tool did not support multi-word entities, so a heuristic was employed (adjacent named entities were merged if they had the same type).
-
-### Disclaimer to the English translation
-
-Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

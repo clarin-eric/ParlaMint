@@ -66,7 +66,3 @@ The linguistic processing involves universal dependencies PoS and dependency rel
 
 As part of the project, the performance of the Named Entity Recognition system that was used to annotate the meetings with NE labels was evaluated. For this evaluation, roughly 2000 sentences were manually annotated. These sentences contained about 1800 tokens that were labeled as (part of) an entity. For evaluation the BILOU format for annotating NER was used. For the scoring of the model the precision recall and F1, weighted over classes, were reported. The model achieved a precision of 86%, recall of 85% and an F1 score of 86%. When investigating the model’s performance it was found that the MISC category proved difficult for the model to classify, although the amount of samples for MISC in the evaluation dataset was also quite limited, so this low performance may be taken with a grain of salt.
 
-
-### Disclaimer to the English translation
-
-Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

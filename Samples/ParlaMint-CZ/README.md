@@ -45,7 +45,3 @@ We did not use any TEI structural elements/attributes going beyond what’s desc
 - For the UD annotation we used UDPipe 2 with no specifics.
 - For the NER annotation we used NameTag 2 (model czech-cnec2.0-200831) that classifies named-entities according to a two-level hierarchy of nested 46 named entities types and fourth complex container types (address, person name, bibliography citation, temporal expression). This rich taxonomy contains not only proper names but other entity types as well: <date> and <time> for time expressions, <unit> for units, <num> for different types of numbers, <ref> hypertext links, <email> for email addresses.
 - We merged the NameTag categories into the four categories used in ParlaMint (PER/ORG/LOC/MISC). In the ParlaMint-CZ corpus, both categories are available: ParlaMint categories are used for proper names and they are stored in type attribute and the NameTag categories are stored in ana attribute.
-
-### Disclaimer to the English translation
-
-Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.
