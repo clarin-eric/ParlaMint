@@ -38,18 +38,14 @@ TEMP = ${HERE}/Temp
 SOURCES = ${HERE}/Sources-TEI
 SOURCES-MT = ${HERE}/Sources-Sem
 
-# Version number and PID of next(!) TEI and TEI.ana ParlaMint release
-#VERSION = 4.0
-#HANDLE-TEI = http://hdl.handle.net/11356/1859
-#HANDLE-ANA = http://hdl.handle.net/11356/1860
-
+# Version number and PID of next TEI and TEI.ana ParlaMint release
 VERSION = 4.1
 HANDLE-TEI = http://hdl.handle.net/11356/1912
 HANDLE-ANA = http://hdl.handle.net/11356/1911
-
 # Version number and PID of next MTed ParlaMint-en.ana release
 VERSION-MT = 4.1
 HANDLE-MT = http://hdl.handle.net/11356/1910
+
 
 #Where the produced corpora are put for inspection
 WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/
