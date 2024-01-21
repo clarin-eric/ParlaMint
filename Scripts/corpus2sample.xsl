@@ -81,7 +81,7 @@
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates select="tei:teiHeader"/>
       <xsl:for-each select="$components/xi:include">
-        <xi:include href="{replace(@href, '.+/', '')}"/>
+        <xi:include href="{@href}"/>
       </xsl:for-each>
     </xsl:copy>
   </xsl:template>

@@ -188,7 +188,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     
     my $inTeiRoot = "$inDir/$teiRoot" if $inDir;
     my $inAnaRoot = "$inDir/$anaRoot" if $inDir;
-    #In case input dir is for samples
+    #In case input dir is for samples remove .TEI(.ana)
     unless ($inTeiRoot and -e $inTeiRoot) {$inTeiRoot =~ s/\.TEI// if $inTeiRoot}
     unless ($inAnaRoot and -e $inAnaRoot) {$inAnaRoot =~ s/\.TEI\.ana// if $inAnaRoot}
     
@@ -293,6 +293,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	&cp_readme_top($countryCode, '', 'sample', '', '', $docsDir, $outSmpDir)
 	    unless $MT;
 	&polish($outSmpDir);
+        &dirify($outSmpDir);
     }
     if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
 	print STDERR "INFO: ***Validating $countryCode TEI\n";
