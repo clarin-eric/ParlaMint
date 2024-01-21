@@ -43,7 +43,7 @@
   </xsl:variable>
   
   <!-- If LaTeX -->
-  <xsl:variable name="preamble">\begin{tabular}{l|rrr|rrrrrr}&#10;</xsl:variable>
+  <xsl:variable name="preamble">\begin{tabular}{l|rrr|rrrrrrrr}&#10;</xsl:variable>
   <xsl:variable name="header-row">
     <xsl:text>ID</xsl:text> <!-- ISO country code -->
     <xsl:value-of select="$col-sep"/>
@@ -62,6 +62,8 @@
     <xsl:text>MPs</xsl:text>  <!-- Number of MPs -->
     <xsl:value-of select="$col-sep"/>
     <xsl:text>PrtyM</xsl:text>  <!-- Number of speakers affiliated with political parties -->
+    <xsl:value-of select="$col-sep"/>
+    <xsl:text>Sex</xsl:text>  <!-- Speakers with gender -->
     <xsl:value-of select="$col-sep"/>
     <xsl:text>Birth</xsl:text>  <!-- Speakers with birth dates -->
     <xsl:value-of select="$col-sep"/>
@@ -133,6 +135,11 @@
                           tei:affiliation[@role='member' and 
                           key('ref', @ref)[@role='politicalParty' or @role='parliamentaryGroup']]
                           ])"/>
+    <xsl:value-of select="$col-sep"/>
+    <!-- Sex -->
+    <xsl:value-of select="et:cnt($particDesc//tei:person
+                          [tei:sex[@value != 'U']]
+                          )"/>
     <xsl:value-of select="$col-sep"/>
     <!-- Births -->
     <xsl:value-of select="et:cnt($particDesc//tei:person
