@@ -149,6 +149,7 @@ cp-readmes:
 	-docs Docs -out ${HERE}/Master
 
 # Make samples only
+all-samples:	samples mt-samples cp-samples
 samples:
 	for CORPUS in ${CORPORA}; do \
 	${FINALIZE} -sample -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}-samples.log; \
@@ -156,12 +157,14 @@ samples:
 # Make MT samples only
 mt-samples:
 	for CORPUS in ${CORPORA}; do \
-	${FINALIZE-MT} -sample -codes $${CORPUS}-en -out ${HERE}/Master; \
+	${FINALIZE-MT} -sample -codes $${CORPUS}-en -out ${HERE}/Master 2>> Logs/ParlaMint-$${CORPUS}-samples.log; \
 	done;
 #Merge original and MTed samples into official Samples directory
 cp-samples:
-	bin/cp-samples.pl 'Master/ParlaMint-*' Test
-	#bin/cp-samples.pl 'Master/ParlaMint-*-en' ../Samples
+	bin/cp-samples.pl 'Master/ParlaMint-*' ../Samples
+	for CORPUS in ${CORPORA}; do \
+	cp Logs/ParlaMint-$${CORPUS}-samples.log ../Samples/ParlaMint-$${CORPUS}; \
+	done;
 
 
 # Make vertical fine with en metadata, a hack:
@@ -188,7 +191,8 @@ make-conll-vert-txt:
 	${FINALIZE} -txt -vert -conll -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master; \
 	done;
 
-# Make overall root(.ana) for ParlaMint in Sources-TEI/ or Master/
+# Make overall root(.ana) for ParlaMint for Sources-TEI/ and Master/, 
+all-roots:	source-roots master-roots
 source-roots:
 	$s base=${HERE}/Sources-TEI -xsl:../Scripts/parlamint2root.xsl \
 	../Scripts/ParlaMint-template.xml > ${HERE}/Sources-TEI/ParlaMint.xml
@@ -199,7 +203,6 @@ master-roots:
 	../Scripts/ParlaMint-template.xml > ${HERE}/Master/ParlaMint.xml
 	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
 	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Master/ParlaMint.ana.xml
-master-mt-root:
 	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
 	../Scripts/ParlaMint-template-en.ana.xml > ${HERE}/Master/ParlaMint-en.ana.xml
 
