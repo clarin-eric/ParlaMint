@@ -57,7 +57,7 @@
     <xsl:value-of select="$col-sep"/>
     <xsl:text>Affil</xsl:text>   <!-- Number of all (timestamped) affiliations -->
     <xsl:value-of select="$col-sep"/>
-    <xsl:text>Minis</xsl:text>  <!-- Number of speakers with gender -->
+    <xsl:text>Minis</xsl:text>  <!-- Number of speakers that are ministers -->
     <xsl:value-of select="$col-sep"/>
     <xsl:text>MPs</xsl:text>  <!-- Number of MPs -->
     <xsl:value-of select="$col-sep"/>
