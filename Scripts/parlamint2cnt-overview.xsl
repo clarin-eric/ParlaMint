@@ -47,7 +47,7 @@
     <xsl:value-of select="$col-sep"/>
     <xsl:text>Lang</xsl:text> <!-- ISO language code(s) used (predominantly) -->
     <xsl:value-of select="$col-sep"/>
-    <xsl:text>Houses</xsl:text>  <!-- Unicameral, Lower house, Upper house, Both -->
+    <xsl:text>Houses</xsl:text>  <!-- Unicameral, Lower house, Upper house, Committes -->
     <xsl:value-of select="$col-sep"/>
     <xsl:text>Ts</xsl:text>  <!-- Terms -->
     <xsl:value-of select="$col-sep"/>
@@ -105,11 +105,10 @@
     <xsl:variable name="languages">
       <xsl:for-each select=".//tei:langUsage[@corresp=$corpus]/tei:language">
         <xsl:variable name="lang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
-        <xsl:if test="(
-                      $lang = 'en' and 
+        <xsl:if test="$lang = 'en' and 
                       not(@ident = 'en' and $corpus != '#ParlaMint-GB') and
 
-                      not(@ident = 'de' and $corpus = '#ParlaMint-BE') and
+                      not(@ident = 'de'  and $corpus = '#ParlaMint-BE') and
                       not(@ident = 'und' and $corpus = '#ParlaMint-BE') and
 
                       not(@ident = 'bg-Latn' and $corpus = '#ParlaMint-BG') and
@@ -119,9 +118,6 @@
                       not(@ident = 'fr' and $corpus = '#ParlaMint-GR') and
 
                       not(@ident != 'hu' and $corpus = '#ParlaMint-HU')
-
-                      )
-                      or (@ident != 'en' and $corpus = '#ParlaMint-NL')
                       ">
           <xsl:value-of select="@ident"/>
           <xsl:text>+</xsl:text>
