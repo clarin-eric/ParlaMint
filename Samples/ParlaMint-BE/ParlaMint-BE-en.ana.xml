@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en" xml:id="ParlaMint-BE-en.ana" corresp="../ParlaMint-BE.TEI.ana/ParlaMint-BE.ana.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Belgian parliamentary corpus ParlaMint-BE-en [ParlaMint-en.ana SAMPLE]</title>
+            <title type="main" xml:lang="nl">Belgisch parlementair corpus ParlaMint-BE-en [ParlaMint-en.ana SAMPLE]</title>
+            <title type="sub" xml:lang="en">Belgian Federal Parliament: Plenary sessions and committee meetings (2014-06-19 - 2022-07-13)</title>
+            <title type="sub" xml:lang="nl">Belgisch Federaal Parlement: Plenaire zittingen en commissievergaderingen (2014-06-19 - 2022-07-13)</title>
+            <meeting n="54" ana="#parla.lower #parla.term"/>
+            <meeting n="55" ana="#parla.lower #parla.term"/>
+            <respStmt>
+               <persName xml:id="HenkvanderPol">Henk van der Pol</persName>
+               <persName xml:id="GrietDepoorter">Griet Depoorter</persName>
+               <resp xml:lang="nl">Datavergaring en conversie naar TEI</resp>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Jesse de Does</persName>
+               <resp xml:lang="nl">Taalkundige verrijking</resp>
+               <resp xml:lang="en">Linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Taja Kuzman</persName>
+               <persName>Nikola Ljubešić</persName>
+               <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Paul Rayson</persName>
+               <persName>Matthew Coole</persName>
+               <persName>John Vidler</persName>
+               <resp xml:lang="en">Annotating MTed corpora with USAS semantic tags</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="nl">de Europese Commissie</orgName>
+               <orgName xml:lang="en">the European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
+               <orgName xml:lang="en">Dutch Language Institute</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="199305" xml:lang="en">199,305 speeches</measure>
+            <measure unit="speeches" quantity="199305" xml:lang="nl">199,305 spreekbeurten</measure>
+            <measure unit="words" quantity="42383615" xml:lang="en">42,383,615 words</measure>
+            <measure unit="words" quantity="42383615" xml:lang="nl">42,383,615 woorden</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1864</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="nl">Deze bestanden zijn beschikbaar volgens de <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2024-01-22">2024-01-22</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="nl">Federaal Parlement van België: Plenaire zittingen</title>
+               <title type="main" xml:lang="en">Belgian Federal Parliament: Plenary sessions</title>
+               <publisher>Kamer van volksvertegenwoordigers</publisher>
+               <idno type="URI" subtype="parliament">https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&amp;amp;language=nl&amp;amp;cfm=dcricra.cfm?type=plen&amp;amp;cricra=cri&amp;amp;count=all</idno>
+               <date from="2014-06-19" to="2022-07-13">2014-06-19 - 2022-07-13</date>
+            </bibl>
+            <bibl>
+               <title type="main" xml:lang="nl">Federaal Parlement van België: Commissievergaderingen</title>
+               <title type="main" xml:lang="en">Belgian Federal Parliament: committee meetings</title>
+               <publisher>Kamer van volksvertegenwoordigers</publisher>
+               <idno type="URI" subtype="parliament">https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&amp;amp;language=nl&amp;amp;cfm=dcricra.cfm?type=plen&amp;amp;cricra=cri&amp;amp;count=all</idno>
+               <date from="2014-06-19" to="2022-07-13">2014-06-19 - 2022-07-13</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="nl"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is een project dat tot doel heeft (1) een meertalige reeks vergelijkbare corpora van parlementaire handelingen te creëren die uniform zijn gecodeerd volgens de <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN aanbevelingen</ref> en die zowel de COVID-19 pandemie vanaf november 2019 als de eerdere periode vanaf 2015 bestrijkt om als referentiecorpus te dienen; (2) de corpora taalkundig te verrijken met syntactische structuren volgens de Universal Dependenciesrichtlijnen, en annotatie van named entities toe te voegen; (3) de corpora beschikbaar te maken via concordancers en Parlameter; en (4) use cases in politieke wetenschappen en digitale geesteswetenschappen te bouwen op basis van de corpusgegevens.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p xml:lang="en">No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p xml:lang="en">Text has not been normalised, except for spacing.</p>
+            </normalization>
+            <hyphenation>
+               <p xml:lang="en">Hyphenation has not been altered with respect to the source files.</p>
+            </hyphenation>
+            <quotation>
+               <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p xml:lang="en">Non-speaker text (voting results, ...) has been left out</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="2349"/>
+               <tagUsage gi="desc" occurs="5527"/>
+               <tagUsage gi="div" occurs="2349"/>
+               <tagUsage gi="gap" occurs="4535"/>
+               <tagUsage gi="incident" occurs="40"/>
+               <tagUsage gi="kinesic" occurs="388"/>
+               <tagUsage gi="name" occurs="1239771"/>
+               <tagUsage gi="note" occurs="508639"/>
+               <tagUsage gi="pc" occurs="5223267"/>
+               <tagUsage gi="phr" occurs="2055172"/>
+               <tagUsage gi="s" occurs="2486181"/>
+               <tagUsage gi="seg" occurs="966345"/>
+               <tagUsage gi="text" occurs="2349"/>
+               <tagUsage gi="u" occurs="199305"/>
+               <tagUsage gi="vocal" occurs="564"/>
+               <tagUsage gi="w" occurs="42383615"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <xi:include href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include href="ParlaMint-BE-taxonomy-speaker_types.xml"/>
+            <xi:include href="ParlaMint-taxonomy-politicalOrientation.xml"/>
+            <xi:include href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include href="ParlaMint-taxonomy-NER.ana.xml"/>
+            <xi:include href="ParlaMint-taxonomy-CHES.xml"/>
+            <xi:include href="ParlaMint-taxonomy-USAS.ana.xml"/>
+         </classDecl>
+         <listPrefixDef>
+            <prefixDef ident="sem" matchPattern="(.+)" replacementPattern="#$1">
+               <p>Private URIs with this prefix point to the taxonomy of semantic categories. In this document they are simply local references into the USAS taxonomy categories XIncluded in the corpus root TEI header.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <appInfo>
+            <application ident="EasyNMT" version="2.0">
+               <label>EasyNMT (OPUS-MT model)</label>
+               <desc>Translation to English done with EasyNMT (<ref target="https://github.com/UKPLab/EasyNMT">https://github.com/UKPLab/EasyNMT</ref>) with OPUS-MT model (<ref target="https://github.com/Helsinki-NLP/Opus-MT">https://github.com/Helsinki-NLP/Opus-MT</ref>)</desc>
+            </application>
+            <application ident="Stanza" version="1.5">
+               <label>Stanza</label>
+               <desc>Tokenisation, PoS tagging, lemmatization, and NER annotation done with Stanza (<ref target="https://stanfordnlp.github.io/stanza/">https://stanfordnlp.github.io/stanza/</ref>) with the model for English. For NER the conll03 model with 4 NE classes was used.</desc>
+            </application>
+            <application ident="pymusas" version="0.3.0">
+               <label>pymusas</label>
+               <desc>Semantic annotation of words and multi-word units done with pymusas (<ref target="https://pypi.org/project/pymusas/">https://pypi.org/project/pymusas/</ref>). This is a Pyton implementation of the UCREL Semantic Analysis System (<ref target="https://ucrel.lancs.ac.uk/usas/">USAS</ref>).</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">Brussel</name>
+               <name key="BE" type="country">België</name>
+               <date from="2014-06-19" to="2022-07-13">2014-06-19 - 2022-07-13</date>
+            </setting>
+         </settingDesc>
+         <textClass>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.bi #parla.lower #parla.committee"/>
+         </textClass>
+         <particDesc>
+            <xi:include href="ParlaMint-BE-listOrg.xml"/>
+            <xi:include href="ParlaMint-BE-listPerson.xml"/>
+         </particDesc>
+         <langUsage>
+            <language xml:lang="en" ident="und">Undetermined</language>
+            <language xml:lang="nl" ident="und">Onbepaald</language>
+            <language xml:lang="en" ident="fr">French</language>
+            <language xml:lang="nl" ident="fr">Frans</language>
+            <language xml:lang="en" ident="nl">Dutch</language>
+            <language xml:lang="nl" ident="nl">Nederlands</language>
+            <language xml:lang="en" ident="de">German</language>
+            <language xml:lang="nl" ident="de">Duits</language>
+            <language xml:lang="en" ident="en">English</language>
+            <language xml:lang="nl" ident="en">Engels</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-01-22">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-11-01">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2023-10-28">
+            <name>Tomaž Erjavec</name>: Generate TEI version of MTed corpus.</change>
+         <change when="2023-11-01">parlamint-add-common-content script: Adding common content.</change>
+      </revisionDesc>
+   </teiHeader>
+   <xi:include href="2017/ParlaMint-BE-en_2017-04-27-54-plenair-ip165x.ana.xml"/>
+   <xi:include href="2020/ParlaMint-BE-en_2020-06-17-55-commissie-ic210x.ana.xml"/>
+   <xi:include href="2022/ParlaMint-BE-en_2022-07-13-voorlopig-55-commissie-ic862x.ana.xml"/>
+</teiCorpus>
+

@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-BE-en_2017-04-27-54-plenair-ip165x.ana" xml:lang="en" ana="#parla.sitting #reference" corresp="../../ParlaMint-BE.TEI.ana/2017/ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="nl">Belgisch parlementair corpus ParlaMint-BE-en, plenaire zitting van 27-04-2017 [ParlaMint-en.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Belgian parliamentary corpus ParlaMint-BE-en, plenary session of 27-04-2017 [ParlaMint-en.ana SAMPLE]</title>
+            <meeting corresp="#be_federal_parliament" ana="#parla.lower #parla.meeting.regular" n="ip165">Plenaire zitting 165 van 27-04-2017</meeting>
+            <meeting ana="#parla.lower #parla.term #period_54" corresp="#be_federal_parliament" n="54">Zittingperiode 54</meeting>
+            <respStmt>
+               <persName>Henk van der Pol</persName>
+               <persName>Griet Depoorter</persName>
+               <resp xml:lang="nl">Datavergaring en conversie naar TEI</resp>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Jesse de Does</persName>
+               <resp xml:lang="nl">Taalkundige verrijking</resp>
+               <resp xml:lang="en">Linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Taja Kuzman</persName>
+               <persName>Nikola Ljubešić</persName>
+               <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Paul Rayson</persName>
+               <persName>Matthew Coole</persName>
+               <persName>John Vidler</persName>
+               <resp xml:lang="en">Annotating MTed corpora with USAS semantic tags</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="nl">De Europese Commissie</orgName>
+               <orgName xml:lang="en">The European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="nl">Taalunie</orgName>
+               <orgName xml:lang="en">Dutch Language Union</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="173" xml:lang="en">173 speeches</measure>
+            <measure unit="speeches" quantity="173" xml:lang="nl">173 spreekbeurten</measure>
+            <measure unit="words" quantity="37287" xml:lang="en">37,287 words</measure>
+            <measure unit="words" quantity="37287" xml:lang="nl">37,287 woorden</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
+               <orgName xml:lang="en">Dutch Language Institute</orgName>
+               <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1864</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="nl">Deze bestanden zijn beschikbaar volgens de <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2024-01-22">2024-01-22</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="fr">Plenumvergadering van Donderdag 27 april 2017 Namiddag</title>
+               <title type="main" xml:lang="nl">Séance plénière du Jeudi 27 avril 2017 Après-midi</title>
+               <idno type="URI" subtype="parliament">https://www.dekamer.be/doc/PCRI/html/54/ip165x.html</idno>
+               <date when="2017-04-27">2017-04-27</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="nl"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is een project dat tot doel heeft (1) een meertalige reeks vergelijkbare corpora van parlementaire handelingen te creëren die uniform zijn gecodeerd volgens de <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN aanbevelingen</ref> en die zowel de COVID-19 pandemie vanaf november 2019 als de eerdere periode vanaf 2015 bestrijkt om als referentiecorpus te dienen; (2) de corpora taalkundig te verrijken met syntactische structuren volgens de Universal Dependenciesrichtlijnen, en annotatie van named entities toe te voegen; (3) de corpora beschikbaar te maken via concordancers en Parlameter; en (4) use cases in politieke wetenschappen en digitale geesteswetenschappen te bouwen op basis van de corpusgegevens.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="17"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="11"/>
+               <tagUsage gi="kinesic" occurs="2"/>
+               <tagUsage gi="name" occurs="1363"/>
+               <tagUsage gi="note" occurs="525"/>
+               <tagUsage gi="pc" occurs="5209"/>
+               <tagUsage gi="phr" occurs="1855"/>
+               <tagUsage gi="s" occurs="2433"/>
+               <tagUsage gi="seg" occurs="1208"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="173"/>
+               <tagUsage gi="vocal" occurs="4"/>
+               <tagUsage gi="w" occurs="37287"/>
+            </namespace>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef ident="mt-src" matchPattern="(.+)" replacementPattern="../../ParlaMint-BE.TEI.ana/2017/ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.xml#$1">
+               <p>Private URIs with this prefix point to aligned source elements of the MTed corpus.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">Brussel</name>
+               <name key="BE" type="country">België</name>
+               <date ana="#parla.sitting" when="2017-04-27">2017-04-27</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-01-22">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-10-28">
+            <name>Tomaž Erjavec</name>: Generate TEI version of MTed corpus.</change>
+         <change when="2021-02-15">
+            <name>Henk van der Pol</name>: initial version.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection" xml:lang="en">
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note1">The meeting was opened at 2.18 p.m. and chaired by Siegfried Bracke.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note2">The meeting was called to order at 2.18 p.m. and chaired by Mr. Siegfried Bracke.</note>
+            <note type="speaker" xml:lang="en" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note3" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note3">The President shall:</note>
+            <u ana="#chair" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u1" who="#BrackeSiegfried" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.u1">
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s4" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s4">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s4.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s4.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="meeting" function="S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+" ana="sem:S1.1.3p">meeting</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s4.t3" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s4.t4" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="open" function="A10+,S1.2.1+,X6-,X5.2+,A7+" ana="sem:A10p" join="right">open</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s4.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg2" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg2">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s5" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s5">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s5.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s5.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="meeting" function="S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+" ana="sem:S1.1.3p">meeting</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s5.t3" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s5.t4" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="open" function="A1.1.1,T2+" ana="sem:A1.1.1" join="right">opened</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s5.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note4" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note4">A series of communications and decisions must be notified to the Chamber. They shall be included on the website of the Chamber and in the Annex to the integral report of this meeting.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note5" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note5">A series of communications and decisions must be brought to the attention of the House. They will be included on the House's website and included in the annex to the full record of this sitting.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note6" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note6">At the opening of the meeting, the Ministers of the Federal Government:</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note7" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note7">Ministers of the Federal Government present at the opening of the sitting:</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note8" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note8">Charles Michel, Kris Peeters.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note9" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note9">Inhibited messages</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note10" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note10">Apologies</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note11" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note11">Vanessa Matz, Fatma Pehlivan, Sébastian Pirlot, for health reasons/</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note12" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note12">for health reasons;</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note13" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note13">Georges Gilkinet (votes) for duties/</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note14" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note14">for mandate duties;</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note15" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note15">Dirk Van der Maelen, Karolien Grosemans, with shipment abroad /</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note16" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note16">on a mission abroad;</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note17" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note17">Stephanie Thoron, maternity leave/</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note18" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note18">maternity leave;</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note19" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note19">Véronique Caprasse, family affairs /</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note20" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note20">family reasons.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note21" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note21">Federal Government/</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note22" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note22">Federal government:</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note23" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note23">Alexander De Croo, Didier Reyners, with shipment abroad /</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note24" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note24">on a mission abroad;</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note25" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note25">Pieter De Crem, economic mission/</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note26" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note26">economic mission.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note27" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note27">Questions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note28" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note28">Questions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note29" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note29">01 Merged questions from</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note30" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note30">- Mr Wouter De Vriendt to the Prime Minister on "the election of Saudi Arabia as a member of the UN Commission on the Status of Women" (No. P1992)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note31" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note31">- Ms Barbara Pas to the Prime Minister on "the election of Saudi Arabia as a member of the UN Commission on the Status of Women" (No. P1993)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note32" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note32">- Ms Gwenaëlle Grovonius to the Prime Minister on "the election of Saudi Arabia as a member of the UN Commission on the Status of Women" (No. P1994)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note33" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note33">- Mr Olivier Maingain to the Prime Minister on "the election of Saudi Arabia as a member of the UN Commission on the Status of Women" (No. P1995)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note34" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note34">- Mr Jean-Jacques Flahaux to the Prime Minister on "the election of Saudi Arabia as a member of the UN Commission on the Status of Women" (No. P1996)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note35" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note35">- Mr Raoul Hedebouw to the Prime Minister on "the election of Saudi Arabia as a member of the UN Commission on the Status of Women" (No. P1997)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note36" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note36">- Ms Meryame Kitrir to the Prime Minister on "the election of Saudi Arabia as a member of the UN Commission on the Status of Women" (No. P1998)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note37" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note37">- Ms Rita Bellens to the Prime Minister on "the election of Saudi Arabia as a member of the UN Commission on the Status of Women" (No. P1999)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note38" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note38">- Ms Els Van Hoof to the Prime Minister on "the election of Saudi Arabia as a member of the UN Commission on the Status of Women" (No. P2000)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note39" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note39">- Ms Annemie Turtelboom to the Prime Minister on "the election of Saudi Arabia as a member of the UN Commission on the Status of Women" (No. P2001)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note40" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note40">- Ms Catherine Fonck to the Prime Minister on "the election of Saudi Arabia as a member of the UN Commission on the Status of Women" (No. P2002)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note41" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note41">01 Entries of</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note42" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note42">- Mr Wouter De Vriendt to the Prime Minister on "the election of Saudi Arabia to the United Nations Commission on the Status of Women" (P1992 No.)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note43" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note43">- Mrs Barbara Pas to the Prime Minister on "the election of Saudi Arabia to the United Nations Commission on the Status of Women" (P1993 No.)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note44" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note44">- Ms. Gwenaëlle Grovonius to the Prime Minister on "the election of Saudi Arabia to the United Nations Commission on the Status of Women" (No. P1994)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note45" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note45">- Mr Olivier Maingain to the Prime Minister on "the election of Saudi Arabia to the United Nations Commission on the Status of Women" (P1995)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note46" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note46">- Mr. Jean-Jacques Flahaux to the Prime Minister on "the election of Saudi Arabia to the United Nations Commission on the Status of Women" (P1996)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note47" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note47">- Mr. Raoul Hedebouw to the Prime Minister on "the election of Saudi Arabia to the United Nations Commission on the Status of Women" (No. P1997)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note48" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note48">- Ms Meryame Kitir to the Prime Minister on "Saudi Arabia's Election to the United Nations Commission on the Status of Women" (No. P1998)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note49" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note49">- Ms Rita Bellens to the Prime Minister on "the election of Saudi Arabia to the United Nations Commission on the Status of Women" (P1999 No.)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note50" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note50">- Els Van Hoof to the Prime Minister on "Saudi Arabia's Election to the UN Commission on the Status of Women" (P2000 No.)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note51" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note51">- Ms Annemie Turtelboom to the Prime Minister on "Saudi Arabia's Election to the United Nations Commission on the Status of Women" (No. P2001)</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note52" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note52">- Catherine Fonck to the Prime Minister on "Saudi Arabia's Election to the UN Commission on the Status of Women" (P2002 No.)</note>
+            <note type="speaker" xml:lang="en" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note53" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note53">01.01. Wouter De Vriendt (Ecolo-Green):</note>
+            <u ana="#regular" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u2" who="#DeVriendtWouter" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.u2">
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg3" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg3">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69">
+                     <phr type="sem" function="Z1m" ana="sem:Z1">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Mr" function="Z1m" ana="sem:Z1">Mr</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t2" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Prime" function="Z1m" ana="sem:Z1">Prime</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t3" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Minister" function="Z1m" ana="sem:Z1" join="right">Minister</w>
+                     </phr>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t4" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="yesterday" function="T1.1.1" ana="sem:T1.1.1">yesterday</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t6" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t7" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin" lemma="ask" function="A5.4+" ana="sem:A5.4p">asked</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t8" pos="WP" msd="UPosTag=PRON|PronType=Int" lemma="what" function="A5.4+" ana="sem:A5.4p">what</w>
+                     </phr>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t9" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t10" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="Belgian" function="Z1mf,Z3c" ana="sem:Z1">Belgian</w>
+                     </name>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t11" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="government" function="Z1mf,Z3c" ana="sem:Z1">Government</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t12" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t13" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="voting" function="G1.2" ana="sem:G1.2">voting</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t14" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+                     <name type="LOC">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t15" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Saudi" function="Z2" ana="sem:Z2">Saudi</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t16" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Arabia" function="Z2" ana="sem:Z2" join="right">Arabia</w>
+                     </name>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t17" pos="POS" msd="UPosTag=PART" lemma="'s" function="Z5" ana="sem:Z5">'s</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t18" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="candidacy" function="G1.2" ana="sem:G1.2">candidacy</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t19" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t20" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t21" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="UN" function="Z1mf,Z3c" ana="sem:Z1">UN</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t22" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="woman" function="Z1mf,Z3c" ana="sem:Z1" join="right">Women</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t23" pos="POS" msd="UPosTag=PART" lemma="'s" function="Z5" ana="sem:Z5">'s</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t24" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Commission" function="I2.2,G3/S7.1+" ana="sem:I2.2" join="right">Commission</w>
+                     </name>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69.t25" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5">That</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70.t4" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="body" function="B1,O2,S5+c,O4.1,S2mf" ana="sem:B1">body</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70.t5" pos="WDT" msd="UPosTag=PRON|PronType=Rel" lemma="that" function="A13.3,A6.1+" ana="sem:A13.3">that</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70.t6" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="defend" function="S8+,G3,G2.1c,Q2.2,K5.1,S7.3+" ana="sem:S8p">defends</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70.t7" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="woman" function="S2.1f" ana="sem:S2.1" join="right">women</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70.t8" pos="POS" msd="UPosTag=PART" lemma="'s" function="Z5" ana="sem:Z5">'s</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70.t9" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="rights" function="Z99" ana="sem:Z99">rights</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70.t10" pos="RB" msd="UPosTag=ADV" lemma="worldwide" function="W3,M7,A1.8+" ana="sem:W3" join="right">worldwide</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71" n="3" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71">
+                     <name type="PER">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Didier" function="Z1mf,Z3c" ana="sem:Z1">Didier</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Reynder" function="Z1mf,Z3c" ana="sem:Z1">Reynders</w>
+                     </name>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71.t3" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71.t4" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Alexander" function="Z1mf,Z3c" ana="sem:Z1">Alexander</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71.t5" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="De" function="Z1mf,Z3c" ana="sem:Z1">De</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71.t6" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Croo" function="Z1mf,Z3c" ana="sem:Z1">Croo</w>
+                     </name>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71.t7" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="defend" function="S8+,G3,G2.1c,Q2.2,K5.1,S7.3+" ana="sem:S8p">defended</w>
+                     <name type="LOC">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71.t8" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Saudi" function="Z2" ana="sem:Z2">Saudi</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71.t9" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Arabia" function="Z2" ana="sem:Z2" join="right">Arabia</w>
+                     </name>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71.t10" pos="POS" msd="UPosTag=PART" lemma="'s" function="Z5" ana="sem:Z5">'s</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71.t11" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="seat" function="H5,B5,S1.1.3+,S7.1+,M7" ana="sem:H5">seat</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71.t12" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71.t13" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71.t14" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="committee" function="S7.1+/S5+c" ana="sem:S7.1p sem:S5p" join="right">committee</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71.t15" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg4" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg4">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72.t1" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">However</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72.t3" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="woman" function="S2.1f" ana="sem:S2.1">women</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72.t4" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72.t5" pos="RB" msd="UPosTag=ADV" lemma="systematically" function="X4.2" ana="sem:X4.2">systematically</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72.t6" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="discriminate" function="A6.1-/X2.2,S1.1.1" ana="sem:A6.1n sem:X2.2">discriminated</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72.t7" pos="IN" msd="UPosTag=ADP" lemma="against" function="Z5" ana="sem:Z5">against</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72.t8" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+                     <name type="LOC">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72.t9" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Saudi" function="Z2" ana="sem:Z2">Saudi</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72.t10" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Arabia" function="Z2" ana="sem:Z2" join="right">Arabia</w>
+                     </name>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t1" pos="IN" msd="UPosTag=ADP" lemma="without" function="Z5" ana="sem:Z5">Without</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="permission" function="S7.4+" ana="sem:S7.4p">permission</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t4" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t5" pos="PRP$" msd="UPosTag=PRON|Number=Plur|Person=3|Poss=Yes|PronType=Prs" lemma="they" function="Z8" ana="sem:Z8">their</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t6" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="male" function="S2.2" ana="sem:S2.2">male</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="guardian" function="S7.1+/S2mf,S4/S2mf,S8+/A15+/S2mf" ana="sem:S7.1p sem:S2" join="right">guardian</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t9" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs" lemma="they" function="Z8mfn" ana="sem:Z8">they</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t10" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="may" function="A7+" ana="sem:A7p">may</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t11" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t12" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="study" function="P1,X2.4" ana="sem:P1" join="right">study</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t13" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t14" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="travel" function="M1" ana="sem:M1" join="right">travel</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t15" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t16" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="work" function="I3.1,A1.1.1,Q4,K2,C1" ana="sem:I3.1">work</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t17" pos="CC" msd="UPosTag=CCONJ" lemma="or" function="Z5" ana="sem:Z5">or</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t18" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="marry" function="S4,A2.2" ana="sem:S4" join="right">marry</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74" n="3" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="woman" function="S2.1f" ana="sem:S2.1">Women</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="must" function="S6+,A7+" ana="sem:S6p">must</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t3" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t4" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="drive" function="M3,A1.1.1,X5.2+,M2,S7.1+" ana="sem:M3" join="right">drive</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t6" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t7" pos="IN" msd="UPosTag=SCONJ" lemma="if" function="Z7" ana="sem:Z7">if</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t8" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs" lemma="they" function="Z8mfn" ana="sem:Z8">they</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t9" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t10" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="rape" function="G2.1-/S3.2" ana="sem:G2.1n sem:S3.2" join="right">raped</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t12" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs" lemma="they" function="Z8mfn" ana="sem:Z8">they</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t13" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="risk" function="A15-,A1.4" ana="sem:A15n">risk</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t14" pos="VBG" msd="UPosTag=AUX|VerbForm=Ger" lemma="be" function="A3+,L1" ana="sem:A3p">being</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t15" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="stone" function="E3-" ana="sem:E3n">stoned</w>
+                     <phr type="sem" function="A6.1-" ana="sem:A6.1n">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t16" pos="RB" msd="UPosTag=ADV" lemma="instead" function="A6.1-" ana="sem:A6.1n">instead</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t17" pos="IN" msd="UPosTag=ADP" lemma="of" function="A6.1-" ana="sem:A6.1n">of</w>
+                     </phr>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t18" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="protect" function="S8+/A15+,A10-" ana="sem:S8p sem:A15p" join="right">protected</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg5" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg5">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75">
+                     <name type="PER">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Alexander" function="Z1mf,Z3c" ana="sem:Z1">Alexander</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="De" function="Z1mf,Z3c" ana="sem:Z1">De</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75.t3" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Croo" function="Z1mf,Z3c" ana="sem:Z1">Croo</w>
+                     </name>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75.t4" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75.t5" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Didier" function="Z1mf,Z3c" ana="sem:Z1">Didier</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75.t6" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Reynder" function="Z1mf,Z3c" ana="sem:Z1">Reynders</w>
+                     </name>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75.t7" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="defend" function="S8+,G3,G2.1c,Q2.2,K5.1,S7.3+" ana="sem:S8p">defend</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75.t8" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75.t9" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="indefenable" function="Z99" ana="sem:Z99" join="right">indefenable</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg6" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg6">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t1" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="UN" function="Z1mf,Z3c" ana="sem:Z1">UN</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t3" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Commission" function="Z1mf,Z3c" ana="sem:Z1">Commission</w>
+                     </name>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t4" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="must" function="S6+,A7+" ana="sem:S6p">must</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t5" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="set" function="M2,M6,O4.5,O4.1,W4,A1.1.1,B3,B4,X6+,S6+,K2,Q4.3" ana="sem:M2">set</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t6" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">an</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="example" function="A4.1" ana="sem:A4.1">example</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t8" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t9" pos="RB" msd="UPosTag=ADV" lemma="now" function="T1.1.2,Z4" ana="sem:T1.1.2">now</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t10" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t11" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
+                     <phr type="sem" function="T2-" ana="sem:T2n">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t12" pos="RB" msd="UPosTag=ADV" lemma="no" function="T2-" ana="sem:T2n">no</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t13" pos="RBR" msd="UPosTag=ADV|Degree=Cmp" lemma="long" function="T2-" ana="sem:T2n">longer</w>
+                     </phr>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t14" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t15" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="able" function="X9.1+" ana="sem:X9.1p">able</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t16" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t17" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="do" function="S1.1.3+,A1.1.1" ana="sem:S1.1.3p">do</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t18" pos="RB" msd="UPosTag=ADV" lemma="so" function="Z5,A13.3" ana="sem:Z5" join="right">so</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t3" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t4" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="blow" function="S8-,A1.1.1,E3-,E4.1-,B1,W4" ana="sem:S8n">blow</w>
+                     <phr type="sem" function="A10+" ana="sem:A10p">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t5" pos="IN" msd="UPosTag=ADP" lemma="to" function="A10+" ana="sem:A10p">to</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t6" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="A10+" ana="sem:A10p">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="face" function="A10+" ana="sem:A10p">face</w>
+                     </phr>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t8" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t9" pos="PDT" msd="UPosTag=DET" lemma="all" function="N5.1+" ana="sem:N5.1p">all</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t10" pos="DT" msd="UPosTag=PRON|Number=Plur|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5">those</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t11" pos="WP" msd="UPosTag=PRON|PronType=Rel" lemma="who" function="Z8" ana="sem:Z8">who</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t12" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="defend" function="S8+,G3,G2.1c,Q2.2,K5.1,S7.3+" ana="sem:S8p">defend</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t13" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="woman" function="S2.1f" ana="sem:S2.1" join="right">women</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t14" pos="POS" msd="UPosTag=PART" lemma="'s" function="Z5" ana="sem:Z5">'s</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t15" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="rights" function="Z99" ana="sem:Z99" join="right">rights</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t17" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t18" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t19" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t20" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="blow" function="S8-,A1.1.1,E3-,E4.1-,B1,W4" ana="sem:S8n">blow</w>
+                     <phr type="sem" function="A10+" ana="sem:A10p">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t21" pos="IN" msd="UPosTag=ADP" lemma="to" function="A10+" ana="sem:A10p">to</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t22" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="A10+" ana="sem:A10p">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t23" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="face" function="A10+" ana="sem:A10p">face</w>
+                     </phr>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t24" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t25" pos="DT" msd="UPosTag=PRON|Number=Plur|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5">those</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t26" pos="WP" msd="UPosTag=PRON|PronType=Rel" lemma="who" function="Z8" ana="sem:Z8">who</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t27" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="defend" function="S8+,G3,G2.1c,Q2.2,K5.1,S7.3+" ana="sem:S8p">defend</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t28" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="woman" function="S2.1f" ana="sem:S2.1" join="right">women</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t29" pos="POS" msd="UPosTag=PART" lemma="'s" function="Z5" ana="sem:Z5">'s</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t30" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="rights" function="Z99" ana="sem:Z99">rights</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t31" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t32" pos="PRP$" msd="UPosTag=PRON|Number=Plur|Person=3|Poss=Yes|PronType=Prs" lemma="they" function="Z8" ana="sem:Z8">their</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t33" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="own" function="A9+,S5-" ana="sem:A9p">own</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t34" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="country" function="M7" ana="sem:M7" join="right">countries</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t35" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t36" pos="RB" msd="UPosTag=ADV" lemma="worldwide" function="W3,M7,A1.8+" ana="sem:W3">worldwide</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t37" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t38" pos="RB" msd="UPosTag=ADV" lemma="certainly" function="A7+" ana="sem:A7p">certainly</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t39" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+                     <name type="LOC">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t40" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Saudi" function="Z2" ana="sem:Z2">Saudi</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t41" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Arabia" function="Z2" ana="sem:Z2">Arabia</w>
+                     </name>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t42" pos="PRP" msd="UPosTag=PRON|Gender=Neut|Number=Sing|Person=3|PronType=Emp|Reflex=Yes" lemma="itself" function="Z8" ana="sem:Z8" join="right">itself</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77.t43" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg7" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg7">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t1" pos="RB" msd="UPosTag=ADV|PronType=Dem" lemma="here" function="M6,T1.1.2,T1.2" ana="sem:M6" join="right">Here</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+                     <phr type="sem" function="Z1m" ana="sem:Z1">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t3" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Mr" function="Z1m" ana="sem:Z1">Mr</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t4" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Prime" function="Z1m" ana="sem:Z1">Prime</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t5" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Minister" function="Z1m" ana="sem:Z1" join="right">Minister</w>
+                     </phr>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="shame" function="G2.2-" ana="sem:G2.2n">shame</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t8" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t9" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="deep" function="N3.7+,N5+,O4.3,A4.2+,E4.1-,X3.2" ana="sem:N3.7p">deep</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t10" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="disappointment" function="E4.2-" ana="sem:E4.2n">disappointment</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t11" pos="IN" msd="UPosTag=ADP" lemma="about" function="Z5" ana="sem:Z5">about</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t12" pos="PRP$" msd="UPosTag=PRON|Number=Plur|Person=1|Poss=Yes|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">our</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t13" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="country" function="G1.1c,W3,F4/M7,K2" ana="sem:G1.1" join="right">country</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t14" pos="POS" msd="UPosTag=PART" lemma="'s" function="Z5" ana="sem:Z5">'s</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t15" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="attitude" function="X2.1/E1" ana="sem:X2.1 sem:E1">attitude</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t16" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="fit" function="A1.2+,B2+" ana="sem:A1.2p">fit</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t17" pos="RB" msd="UPosTag=ADV" lemma="only" function="A14" ana="sem:A14">only</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t18" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="shame" function="G2.2-" ana="sem:G2.2n" join="right">shame</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg8" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg8">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="colleague" function="Z2,Z3c" ana="sem:Z2">Colleagues</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79.t2" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z2,Z3c" ana="sem:Z2">of</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79.t3" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Open" function="Z2,Z3c" ana="sem:Z2">Open</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79.t4" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Vld" function="Z99" ana="sem:Z99" join="right">Vld</w>
+                     </name>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79.t6" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79.t7" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79.t8" pos="PRP$" msd="UPosTag=PRON|Number=Plur|Person=1|Poss=Yes|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">our</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79.t9" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="western" function="M6,T3-" ana="sem:M6">Western</w>
+                     </name>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79.t10" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="superiority" function="A5.1++,S7.1++,S1.2.3+" ana="sem:A5.1p" join="right">superiority</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80.t1" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="throw" function="M2,A2.2,Q2.2,A1.1.1,X2.5-" ana="sem:M2">Throwing</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="woman" function="S2.1f" ana="sem:S2.1" join="right">women</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80.t3" pos="POS" msd="UPosTag=PART" lemma="'s" function="Z5" ana="sem:Z5">'s</w>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80.t4" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="rights" function="T1.3" ana="sem:T1.3">rights</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80.t5" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80.t6" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="principle" function="T1.3" ana="sem:T1.3">principles</w>
+                     </phr>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80.t7" pos="RB" msd="UPosTag=ADV" lemma="overboard" function="N5.2+,M6" ana="sem:N5.2p">overboard</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80.t8" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80.t9" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="economic" function="I1.3-,I2.1" ana="sem:I1.3n">economic</w>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80.t10" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="interest" function="T1.3" ana="sem:T1.3">interests</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80.t11" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80.t12" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="oil" function="T1.3" ana="sem:T1.3">oil</w>
+                     </phr>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80.t13" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="dollar" function="I1" ana="sem:I1" join="right">dollars</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg9" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg9">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="would" function="A7+" ana="sem:A7p">would</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t3" pos="RB" msd="UPosTag=ADV" lemma="therefore" function="Z5" ana="sem:Z5">therefore</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t4" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="like" function="E2+" ana="sem:E2p">like</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t5" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t6" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="ask" function="Q2.2" ana="sem:Q2.2" join="right">ask</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t7" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+                     <phr type="sem" function="Z1mf,Z3c" ana="sem:Z1">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t8" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Prime" function="Z1mf,Z3c" ana="sem:Z1">Prime</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t9" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Minister" function="Z1mf,Z3c" ana="sem:Z1" join="right">Minister</w>
+                     </phr>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t11" pos="IN" msd="UPosTag=SCONJ" lemma="whether" function="Z5" ana="sem:Z5">whether</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t12" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8">you</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t13" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin" lemma="support" function="S8+,A1.1.1,K5.1,I1.1,A10+" ana="sem:S8p">support</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t14" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t15" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="position" function="M6,M7,S7.1,I3.1,N4,S1.1.1,A1.1.1,K5.1%" ana="sem:M6">position</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t16" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t17" pos="PRP$" msd="UPosTag=PRON|Person=2|Poss=Yes|PronType=Prs" lemma="you" function="Z8" ana="sem:Z8">your</w>
+                     <phr type="sem" function="Z1mf,Z3c" ana="sem:Z1">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t18" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="deputy" function="Z1mf,Z3c" ana="sem:Z1">Deputy</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t19" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Prime" function="Z1mf,Z3c" ana="sem:Z1">Prime</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t20" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Minister" function="Z1mf,Z3c" ana="sem:Z1">Ministers</w>
+                     </phr>
+                     <name type="PER">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t21" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Didier" function="Z1mf,Z3c" ana="sem:Z1">Didier</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t22" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Reynder" function="Z1mf,Z3c" ana="sem:Z1">Reynders</w>
+                     </name>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t23" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t24" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Alexander" function="Z1mf,Z3c" ana="sem:Z1">Alexander</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t25" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="De" function="Z1mf,Z3c" ana="sem:Z1">De</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t26" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Croo" function="Z1mf,Z3c" ana="sem:Z1">Croo</w>
+                     </name>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t27" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t28" pos="IN" msd="UPosTag=SCONJ" lemma="whether" function="Z5" ana="sem:Z5">whether</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t29" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8">you</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t30" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t31" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="defend" function="S8+,G3,G2.1c,Q2.2,K5.1,S7.3+" ana="sem:S8p">defending</w>
+                     <name type="LOC">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t32" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Saudi" function="Z2" ana="sem:Z2">Saudi</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t33" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Arabia" function="Z2" ana="sem:Z2" join="right">Arabia</w>
+                     </name>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t34" pos="POS" msd="UPosTag=PART" lemma="'s" function="Z5" ana="sem:Z5">'s</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t35" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="seat" function="H5,B5,S1.1.3+,S7.1+,M7" ana="sem:H5">seat</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t36" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t37" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t38" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="UN" function="Z1mf,Z3c" ana="sem:Z1">UN</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t39" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="woman" function="Z1mf,Z3c" ana="sem:Z1" join="right">Women</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t40" pos="POS" msd="UPosTag=PART" lemma="'s" function="Z5" ana="sem:Z5">'s</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t41" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Commission" function="I2.2,G3/S7.1+" ana="sem:I2.2" join="right">Commission</w>
+                     </name>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81.t42" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u ana="#chair" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u172" who="#BrackeSiegfried" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.u172">
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1175" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1175">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810.t1" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="do" function="S1.1.3+,A1.1.1" ana="sem:S1.1.3p">Does</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810.t2" pos="NN" msd="UPosTag=PRON|Number=Sing" lemma="anyone" function="Z8mfc" ana="sem:Z8">anyone</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="ask" function="Q2.2" ana="sem:Q2.2">ask</w>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810.t4" pos="IN" msd="UPosTag=ADP" lemma="for" function="T1.3" ana="sem:T1.3">for</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810.t5" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="T1.3" ana="sem:T1.3">an</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810.t6" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="explanation" function="T1.3" ana="sem:T1.3">explanation</w>
+                     </phr>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810.t7" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810.t8" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="vote" function="G1.2" ana="sem:G1.2" join="right">vote</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1176" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1176">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812.t1" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">Is</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812.t2" pos="NN" msd="UPosTag=PRON|Number=Sing" lemma="anyone" function="Z8mfc" ana="sem:Z8">anyone</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812.t3" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="ask" function="Q2.2,I1.3" ana="sem:Q2.2">asking</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812.t4" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812.t5" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812.t6" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="floor" function="H2,S5+" ana="sem:H2">floor</w>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812.t7" pos="IN" msd="UPosTag=ADP" lemma="for" function="T1.3" ana="sem:T1.3">for</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812.t8" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="T1.3" ana="sem:T1.3">a</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="statement" function="T1.3" ana="sem:T1.3">statement</w>
+                     </phr>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812.t10" pos="IN" msd="UPosTag=ADP" lemma="before" function="Z5" ana="sem:Z5">before</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812.t11" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812.t12" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="vote" function="G1.2" ana="sem:G1.2" join="right">vote</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812.t13" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1177" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1177">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2814" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2814">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2814.t1" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="starting" function="T2+" ana="sem:T2p">Starting</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2814.t2" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2814.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2814.t4" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="vote" function="G1.2" ana="sem:G1.2">vote</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2814.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">/</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1178" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1178">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2815" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2815">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2815.t1" pos="VB" msd="UPosTag=VERB|Mood=Imp|Person=2|VerbForm=Fin" lemma="start" function="T2+,E5-,E3-" ana="sem:T2p">Start</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2815.t2" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2815.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="voting" function="G1.2" ana="sem:G1.2" join="right">voting</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2815.t4" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1179" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1179">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816.t1" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="do" function="S1.1.3+,A1.1.1" ana="sem:S1.1.3p">Did</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816.t2" pos="NN" msd="UPosTag=PRON|Number=Sing" lemma="everyone" function="Z8/N5.1+c" ana="sem:Z8 sem:N5.1p">everyone</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="vote" function="G1.2" ana="sem:G1.2">vote</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816.t4" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816.t5" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="check" function="A5.4+" ana="sem:A5.4p">check</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816.t6" pos="PRP$" msd="UPosTag=PRON|Number=Plur|Person=3|Poss=Yes|PronType=Prs" lemma="they" function="A5.4+" ana="sem:A5.4p">their</w>
+                     </phr>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816.t7" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="voice" function="Q2.1,X2.1,Q3" ana="sem:Q2.1" join="right">voices</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2817" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2817">
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2817.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">/</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1180" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1180">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2818" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2818">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2818.t1" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="do" function="S1.1.3+,A1.1.1" ana="sem:S1.1.3p">Did</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2818.t2" pos="NN" msd="UPosTag=PRON|Number=Sing" lemma="everyone" function="Z8/N5.1+c" ana="sem:Z8 sem:N5.1p">everyone</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2818.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="vote" function="G1.2" ana="sem:G1.2">vote</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2818.t4" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2818.t5" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="check" function="A5.4+" ana="sem:A5.4p">check</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2818.t6" pos="PRP$" msd="UPosTag=PRON|Number=Plur|Person=3|Poss=Yes|PronType=Prs" lemma="they" function="A5.4+" ana="sem:A5.4p">their</w>
+                     </phr>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2818.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="vote" function="G1.2" ana="sem:G1.2" join="right">vote</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2818.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1181" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1181">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2819" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2819">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2819.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="end" function="M6,T2-,O2,X7+,N4" ana="sem:M6">End</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2819.t2" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2819.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="vote" function="G1.2" ana="sem:G1.2">vote</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2819.t4" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">/</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1182" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1182">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2820" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2820">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2820.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="end" function="M6,T2-,O2,X7+,N4" ana="sem:M6">End</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2820.t2" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2820.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="voting" function="G1.2" ana="sem:G1.2" join="right">voting</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2820.t4" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1183" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1183">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2821" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2821">
+                     <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2821.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="result" function="Df/A5.1+++mfnc" ana="sem:A5.1p">Result</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2821.t2" pos="IN" msd="UPosTag=ADP" lemma="of" function="Df/A5.1+++mfnc" ana="sem:A5.1p">of</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2821.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Df/A5.1+++mfnc" ana="sem:A5.1p">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2821.t4" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="vote" function="Df/A5.1+++mfnc" ana="sem:A5.1p">vote</w>
+                     </phr>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2821.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">/</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1184" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1184">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2822" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2822">
+                     <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2822.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="result" function="Df/A5.1+++mfnc" ana="sem:A5.1p">Result</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2822.t2" pos="IN" msd="UPosTag=ADP" lemma="of" function="Df/A5.1+++mfnc" ana="sem:A5.1p">of</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2822.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Df/A5.1+++mfnc" ana="sem:A5.1p">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2822.t4" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="vote" function="Df/A5.1+++mfnc" ana="sem:A5.1p" join="right">vote</w>
+                     </phr>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2822.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1185" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1185">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2824" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2824">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2824.t1" pos="UH" msd="UPosTag=INTJ" lemma="yes" function="Z4" ana="sem:Z4">Yes</w>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1186" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1186">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2825" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2825">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2825.t1" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="129" function="N1" ana="sem:N1">129</w>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1187" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1187">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2826" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2826">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2826.t1" pos="UH" msd="UPosTag=INTJ" lemma="yes" function="Z4" ana="sem:Z4">Yes</w>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1188" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1188">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2827" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2827">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2827.t1" pos="UH" msd="UPosTag=INTJ|Polarity=Neg" lemma="no" function="Z4" ana="sem:Z4" join="right">No</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2827.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1189" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1189">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2828" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2828">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2828.t1" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="0" function="Z99" ana="sem:Z99" join="right">0</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2828.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1190" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1190">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2829" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2829">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2829.t1" pos="UH" msd="UPosTag=INTJ" lemma="no" function="Z4" ana="sem:Z4">No</w>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1191" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1191">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2830" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2830">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2830.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="abstention" function="G1.2,S1.1.3-,A9-" ana="sem:G1.2">Abstentions</w>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1192" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1192">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2831" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2831">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2831.t1" pos="LS" msd="UPosTag=X" lemma="0" function="Z9" ana="sem:Z9">0</w>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1193" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1193">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2832" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2832">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2832.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="abstension" function="Z99" ana="sem:Z99">Abstensions</w>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1194" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1194">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2833" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2833">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2833.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="total" function="A13.2,N5.1+" ana="sem:A13.2">Total</w>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1195" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1195">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2834" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2834">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2834.t1" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="129" function="N1" ana="sem:N1">129</w>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1196" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1196">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2835" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2835">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2835.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="total" function="A13.2,N5.1+" ana="sem:A13.2">Total</w>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1197" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1197">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836.t1" pos="RB" msd="UPosTag=ADV" lemma="consequently" function="A2.2" ana="sem:A2.2" join="right">Consequently</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836.t4" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Court" function="S3.2,X7+" ana="sem:S3.2">Court</w>
+                     </name>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836.t5" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="adopt" function="A9+,S4" ana="sem:A9p">adopts</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836.t6" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="motion" function="M1,Q1.1" ana="sem:M1">motion</w>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836.t8" pos="IN" msd="UPosTag=ADP" lemma="for" function="T1.3" ana="sem:T1.3">for</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836.t9" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="T1.3" ana="sem:T1.3">a</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836.t10" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="resolution" function="T1.3" ana="sem:T1.3" join="right">resolution</w>
+                     </phr>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2837" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2837">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2837.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2837.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2837.t3" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2837.t4" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="notify" function="Q2.2" ana="sem:Q2.2">notified</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2837.t5" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2837.t6" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2837.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="government" function="G1.1c" ana="sem:G1.1" join="right">government</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2837.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1198" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1198">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2838" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2838">
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2838.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">(</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2838.t2" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2421/5" function="N1" ana="sem:N1" join="right">2421/5</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2838.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">)</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1199" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1199">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839.t1" pos="RB" msd="UPosTag=ADV" lemma="accordingly" function="A1.2+,A2.2" ana="sem:A1.2p" join="right">Accordingly</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839.t4" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="House" function="H4" ana="sem:H4">House</w>
+                     </name>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839.t5" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="adopt" function="A9+,S4" ana="sem:A9p">adopted</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839.t6" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="motion" function="M1,Q1.1" ana="sem:M1">motion</w>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839.t8" pos="IN" msd="UPosTag=ADP" lemma="for" function="T1.3" ana="sem:T1.3">for</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839.t9" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="T1.3" ana="sem:T1.3">a</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839.t10" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="resolution" function="T1.3" ana="sem:T1.3" join="right">resolution</w>
+                     </phr>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840.t3" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840.t4" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="make" function="A1.1.1,A9+,A2.2,S6+,A3+,A9-,X9.2+,X6+" ana="sem:A1.1.1">made</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840.t5" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="know" function="X2.2+" ana="sem:X2.2p">known</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840.t6" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840.t7" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840.t8" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="government" function="G1.1c" ana="sem:G1.1" join="right">government</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1200" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1200">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2841" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2841">
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2841.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">(</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2841.t2" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2421/5" function="N1" ana="sem:N1" join="right">2421/5</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2841.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">)</pc>
+                  </s>
+               </seg>
+            </u>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note338" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note338">28 Adoption of the agenda</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note339" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note339">28 Adoption of the agenda</note>
+            <u ana="#chair" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u173" who="#BrackeSiegfried" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.u173">
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1201" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1201">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="must" function="S6+,A7+" ana="sem:S6p">must</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="proceed" function="A1.1.1,T2++,M1" ana="sem:A1.1.1">proceed</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844.t4" pos="IN" msd="UPosTag=ADP" lemma="with" function="Z5" ana="sem:Z5">with</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844.t5" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844.t6" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="adoption" function="Df/A5.1+++mfnc" ana="sem:A5.1p">adoption</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844.t7" pos="IN" msd="UPosTag=ADP" lemma="of" function="Df/A5.1+++mfnc" ana="sem:A5.1p">of</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844.t8" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Df/A5.1+++mfnc" ana="sem:A5.1p">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="agenda" function="Df/A5.1+++mfnc" ana="sem:A5.1p">agenda</w>
+                     </phr>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844.t10" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+                     <phr type="sem" function="Z2,Z1mf,T1.3" ana="sem:Z2">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844.t11" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Thursday" function="Z2,Z1mf,T1.3" ana="sem:Z2">Thursday</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844.t12" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="4" function="Z2,Z1mf,T1.3" ana="sem:Z2">4</w>
+                     </phr>
+                     <phr type="sem" function="Z2,Z1mf,T1.3" ana="sem:Z2">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844.t13" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="May" function="Z2,Z1mf,T1.3" ana="sem:Z2">May</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844.t14" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2017" function="Z2,Z1mf,T1.3" ana="sem:Z2" join="right">2017</w>
+                     </phr>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844.t15" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1202" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1202">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="must" function="S6+,A7+" ana="sem:S6p">must</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="proceed" function="A1.1.1,T2++,M1" ana="sem:A1.1.1">proceed</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t4" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t5" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t6" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="approval" function="Df/A5.1+++mfnc" ana="sem:A5.1p">approval</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t7" pos="IN" msd="UPosTag=ADP" lemma="of" function="Df/A5.1+++mfnc" ana="sem:A5.1p">of</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t8" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Df/A5.1+++mfnc" ana="sem:A5.1p">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="agenda" function="Df/A5.1+++mfnc" ana="sem:A5.1p">agenda</w>
+                     </phr>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t10" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t11" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t12" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="sitting" function="M8,C1,P1,G1.1,G2.1,M6,A9+" ana="sem:M8">sitting</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t13" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t14" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Thursday" function="T1.3" ana="sem:T1.3" join="right">Thursday</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t15" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t16" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="4" function="N1" ana="sem:N1">4</w>
+                     <phr type="sem" function="Z2,Z1mf,T1.3" ana="sem:Z2">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t17" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="May" function="Z2,Z1mf,T1.3" ana="sem:Z2">May</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t18" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2017" function="Z2,Z1mf,T1.3" ana="sem:Z2" join="right">2017</w>
+                     </phr>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1203" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1203">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="propose" function="Q2.2/X7+,X4.1,G1.2,Q2.2/S4" ana="sem:Q2.2 sem:X7p">propose</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t3" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t4" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="discussion" function="Df/A5.1+++mfnc" ana="sem:A5.1p">discussion</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t6" pos="IN" msd="UPosTag=ADP" lemma="of" function="Df/A5.1+++mfnc" ana="sem:A5.1p">of</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t7" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Df/A5.1+++mfnc" ana="sem:A5.1p">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t8" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="draft" function="Df/A5.1+++mfnc" ana="sem:A5.1p">draft</w>
+                     </phr>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="law" function="G2.1,S6+,Y1" ana="sem:G2.1">law</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t10" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t11" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t12" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="military" function="G3" ana="sem:G3">military</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t13" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="programming" function="Y2,Q4.3,P1" ana="sem:Y2">programming</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t14" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t15" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="investment" function="I1.1" ana="sem:I1.1">investments</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t16" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t17" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t18" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="period" function="T1.3,B1,Q3,P1/T1.3" ana="sem:T1.3">period</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t19" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2016" function="N1" ana="sem:N1" join="right">2016</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t20" pos="Z" msd="UPosTag=PUNCT" function="Z99" ana="sem:Z99" join="right">-</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t21" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2030" function="N1" ana="sem:N1">2030</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t22" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">(</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t23" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2137/1" function="N1" ana="sem:N1" join="right">2137/1</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t24" pos="Z" msd="UPosTag=PUNCT" function="Z99" ana="sem:Z99" join="right">-</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t25" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="6" function="N1" ana="sem:N1" join="right">6</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t26" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">)</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t27" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t28" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="postpone" function="T1.1.3" ana="sem:T1.1.3">postponed</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t29" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t30" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t31" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="plenary" function="S1.1.3+++" ana="sem:S1.1.3p">plenary</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t32" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="session" function="T1.3" ana="sem:T1.3">session</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t33" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t34" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="11" function="N1" ana="sem:N1">11</w>
+                     <phr type="sem" function="Z2,Z1mf,T1.3" ana="sem:Z2">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t35" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="May" function="Z2,Z1mf,T1.3" ana="sem:Z2">May</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t36" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2017" function="Z2,Z1mf,T1.3" ana="sem:Z2" join="right">2017</w>
+                     </phr>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846.t37" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1204" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1204">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="suggest" function="Q2.2,Q1.1" ana="sem:Q2.2">suggest</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t3" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t4" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8">you</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t5" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin" lemma="defer" function="T1.1.3" ana="sem:T1.1.3">defer</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t6" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="discussion" function="Q2.1,Q2.2" ana="sem:Q2.1">discussion</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t8" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t9" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t10" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="military" function="G3" ana="sem:G3">military</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t11" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="investment" function="I1.1" ana="sem:I1.1">investment</w>
+                     <phr type="sem" function="I1.2/Df" ana="sem:I1.2">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t12" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="programming" function="I1.2/Df" ana="sem:I1.2">programming</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t13" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="bill" function="I1.2/Df" ana="sem:I1.2">bill</w>
+                     </phr>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t14" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t15" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t16" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="period" function="T1.3,B1,Q3,P1/T1.3" ana="sem:T1.3">period</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t17" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2016" function="N1" ana="sem:N1" join="right">2016</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t18" pos="Z" msd="UPosTag=PUNCT" function="Z99" ana="sem:Z99" join="right">-</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t19" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2030" function="N1" ana="sem:N1">2030</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t20" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">(</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t21" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2137/1" function="N1" ana="sem:N1" join="right">2137/1</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t22" pos="Z" msd="UPosTag=PUNCT" function="Z99" ana="sem:Z99" join="right">-</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t23" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="6" function="N1" ana="sem:N1" join="right">6</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t24" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">)</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t25" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t26" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t27" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="plenary" function="S1.1.3+++" ana="sem:S1.1.3p">plenary</w>
+                     <phr type="sem" function="Z2,Z3c" ana="sem:Z2">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t28" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="session" function="Z2,Z3c" ana="sem:Z2">session</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t29" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z2,Z3c" ana="sem:Z2">of</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t30" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="May" function="Z2,Z3c" ana="sem:Z2">May</w>
+                     </phr>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t31" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="11" function="N1" ana="sem:N1" join="right">11</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t32" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t33" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2017" function="N1" ana="sem:N1" join="right">2017</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847.t34" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1205" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1205">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2848" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2848">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2848.t1" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">Are</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2848.t2" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8">you</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2848.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="sure" function="A7+,Z4" ana="sem:A7p">sure</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2848.t4" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8">you</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2848.t5" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin" lemma="do" function="S1.1.3+,A1.1.1" ana="sem:S1.1.3p" join="right">do</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2848.t6" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">n't</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2848.t7" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="mind" function="E6+,E2-,S8+,A1.3" ana="sem:E6p" join="right">mind</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2848.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
+                  </s>
+                  <note type="answer" xml:lang="en" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note340" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note340">No.</note>
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2850" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2850">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2850.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2850.t2" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="amend" function="A2.1+" ana="sem:A2.1p">amended</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2850.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="agenda" function="Q1.2/X7+" ana="sem:Q1.2 sem:X7p">agenda</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2850.t4" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">has</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2850.t5" pos="VBN" msd="UPosTag=AUX|Tense=Past|VerbForm=Part" lemma="be" function="A3+,Z5" ana="sem:A3p">been</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2850.t6" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="adopt" function="A9+,S4" ana="sem:A9p" join="right">adopted</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2850.t7" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1206" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1206">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2851" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2851">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2851.t1" pos="DT" msd="UPosTag=DET" lemma="no" function="Z6" ana="sem:Z6">No</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2851.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="observation" function="X3.4,Q2.1/X2.4,X2.1" ana="sem:X3.4" join="right">observation</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2851.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
+                  </s>
+                  <note type="answer" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note341" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note341">No</note>
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="agenda" function="Q1.2/X7+" ana="sem:Q1.2 sem:X7p" join="right">agenda</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853.t4" pos="IN" msd="UPosTag=SCONJ" lemma="as" function="Z5" ana="sem:Z5">as</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853.t5" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="amend" function="A2.1+" ana="sem:A2.1p" join="right">amended</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853.t7" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853.t8" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="approve" function="S7.4+,E2+,G1.1" ana="sem:S7.4p" join="right">approved</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1207" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1207">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2854" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2854">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2854.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2854.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="sitting" function="M8,C1,P1,G1.1,G2.1,M6,A9+" ana="sem:M8">sitting</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2854.t3" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2854.t4" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="close" function="A10-,T2-" ana="sem:A10n" join="right">closed</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2854.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2855" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2855">
+                     <phr type="sem" function="T1.1.3" ana="sem:T1.1.3">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2855.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="next" function="T1.1.3" ana="sem:T1.1.3">Next</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2855.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="meeting" function="T1.1.3" ana="sem:T1.1.3">meeting</w>
+                     </phr>
+                     <phr type="sem" function="Z2,Z1mf,T1.3" ana="sem:Z2">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2855.t3" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Thursday" function="Z2,Z1mf,T1.3" ana="sem:Z2">Thursday</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2855.t4" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="4" function="Z2,Z1mf,T1.3" ana="sem:Z2">4</w>
+                     </phr>
+                     <phr type="sem" function="Z2,Z1mf,T1.3" ana="sem:Z2">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2855.t5" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="May" function="Z2,Z1mf,T1.3" ana="sem:Z2">May</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2855.t6" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2017" function="Z2,Z1mf,T1.3" ana="sem:Z2">2017</w>
+                     </phr>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2855.t7" pos="IN" msd="UPosTag=ADP" lemma="at" function="Z5" ana="sem:Z5">at</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2855.t8" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2.15" function="N1" ana="sem:N1">2.15</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2855.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="p.m." function="Z99" ana="sem:Z99">p.m.</w>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1208" xml:lang="en" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1208">
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2856" n="1" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2856">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2856.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2856.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="meeting" function="S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+" ana="sem:S1.1.3p">meeting</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2856.t3" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2856.t4" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="adjourn" function="T2-/G2.1" ana="sem:T2n sem:G2.1" join="right">adjourned</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2856.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857" n="2" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857.t1" pos="RB" msd="UPosTag=ADV" lemma="next" function="N4" ana="sem:N4">Next</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857.t2" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="sit" function="M8,C1,P1,G1.1,G2.1,M6,A9+" ana="sem:M8">sitting</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857.t3" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857.t4" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Thursday" function="T1.3" ana="sem:T1.3" join="right">Thursday</w>
+<pc xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857.t6" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="4" function="N1" ana="sem:N1">4</w>
+                     <phr type="sem" function="Z2,Z1mf,T1.3" ana="sem:Z2">
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857.t7" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="May" function="Z2,Z1mf,T1.3" ana="sem:Z2">May</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857.t8" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2017" function="Z2,Z1mf,T1.3" ana="sem:Z2">2017</w>
+                     </phr>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857.t9" pos="IN" msd="UPosTag=ADP" lemma="at" function="Z5" ana="sem:Z5">at</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857.t10" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2.15" function="N1" ana="sem:N1">2.15</w>
+<w xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857.t11" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="p.m." function="Z99" ana="sem:Z99">p.m.</w>
+                  </s>
+               </seg>
+            </u>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note342" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note342">The sitting was closed at 7:23 p.m.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note343" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note343">The meeting rose at 19.2 p.m.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note344" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note344">The Annex is contained in a separate brochure with number CRIV 54 PLEN 165 annex.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note345" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note345">The Annex is reproduced in a separate brochure, CRIV 54 PLEN 165 Annex.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note346" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note346">Detail of the name moods</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note347" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note347">Details of nominative votes</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note348" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note348">Vote nominatif - Voice of name: 001</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note349" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note349">Oui</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note350" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note350">029</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note351" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note351">Yes</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note352" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note352">Ben Hamou Nawal, Blanchart Philippe, Brotcorn Christian, Crusnière Stéphane, Daerden Frédéric, Dallemagne Georges, de Lamotte Michel, Delannois Paul-Olivier, Delizée Jean-Marc, Delpérée Francis, Demeyer Willy, Devin Laurent, Di Rupo Elio, Dispa Benoît, Fernandez Fernandez Julie, Fonck Catherine, Frédéric André, Kir Emir, Laaouej Ahmed, Lalieux Karine, Lutgen Benoît, Maingain Olivier, Massinx Laurette, Özen Özlem, Pontelet Isabelle, Senesael Daniel, Thiébaut Eric, Winckel Fabienne</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note353" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note353">No</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note354" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note354">080</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note355" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note355">No.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note356" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note356">Becq Van Sonja, Beke Wouter, Bogaert Hendrik, Bracke Siegfried, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, De Coninck Inez, de Coster-Bauchau Sybille, De Groote Conseil, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Foret Gilles, Friart Benoît, Gabriëls Katja, Gantois Rita, Goffe Philippe, Gustin Luc, Heeren Veerle, Hufken Renate, Verdin Kattrin, Janssenssen, Janssens Dirk, Klabert, Laht, Laht, Laht, Lahre, Lahre, Lahre</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note357" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note357">Abstensions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note358" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note358">022</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note359" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note359">Abstentions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note360" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note360">Almaci Meyrem, Bonte Hans, Calvo Kristof, Carcaci Aldo, Cheron Marcel, De Coninck Monica, Dedry Anne, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kitrir Meryame, Lambrecht Annick, Nollet Jean-Marc, Temmerman Karin, Top Alain, Vanden Burre Gilles, Van Hecke Stefaan, Van Hees Marco, Vanheste Ann, Vanvelthoven Peter, Willaert Evita</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note361" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note361">Vote nominatif - Name vote: 002</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note362" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note362">Oui</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note363" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note363">020</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note364" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note364">Yes</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note365" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note365">Ben Hamou Nawal, Crusnière Stéphane, Daerden Frédéric, Delannois Paul-Olivier, Delizée Jean-Marc, Demeyer Willy, Devin Laurent, Di Rupo Elio, Fernandez Fernandez Julie, Frédéric André, Kir Emir, Laaouej Ahmed, Lalieux Karine, Maingain Olivier, Massin Eric, Onkelinx Laurette, Özen Özlem, Senesael Daniel, Thiébaut Eric, Winckel Fabienne</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note366" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note366">No</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note367" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note367">079</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note368" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note368">No.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note369" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note369">Becq Sonja, Beke Wouter, Bogaert Hendrik, Bracke Siegfried, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, De Coninck Inez, de Coster-Bauchau Sybille, De groote Conseil, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Foret Gilles, Friart Benoît, Gabriëls Katja, Gantois Rita, Goffe Philippe, Gustin Luc, Heeren Veerle, Hufken Renate, Janssen Werner, Janssens Dirk, Klaps Jobert, Lahter, Laht, Laht, Lahre, Lahre</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note370" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note370">Abstensions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note371" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note371">030</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note372" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note372">Abstentions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note373" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note373">Almaci Meyrem, Bonte Hans, Brotcorne Christian, Calvo Kristof, Carcaci Aldo, Cheron Marcel, Dallemagne Georges, De Coninck Monica, Dedry Anne, de Lamotte Michel, Delpérée Francis, Dispa Benoît, Fonck Catherine, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kitrir Meryame, Lambrecht Annick, Lutgen Benoît, Nollet Jean-Marc, Pontelet Isabelle, Temmerman Karin, Top Alain, Vanden Burre Gilles, Van Hecke Stefaan, Van Hees Marco, Vanheste Ann, Vanvelthoven Peter, Willaert Evitaert</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note374" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note374">Vote nominatif - Voice of name: 003</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note375" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note375">Oui</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note376" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note376">029</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note377" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note377">Yes</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note378" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note378">Ben Hamou Nawal, Blanchart Philippe, Brotcorn Christian, Crusnière Stéphane, Daerden Frédéric, Dallemagne Georges, de Lamotte Michel, Delannois Paul-Olivier, Delizée Jean-Marc, Delpérée Francis, Demeyer Willy, Devin Laurent, Di Rupo Elio, Dispa Benoît, Fernandez Fernandez Julie, Fonck Catherine, Frédéric André, Kir Emir, Laaouej Ahmed, Lalieux Karine, Lutgen Benoît, Maingain Olivier, Massinx Laurette, Özen Özlem, Pontelet Isabelle, Senesael Daniel, Thiébaut Eric, Winckel Fabienne</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note379" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note379">No</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note380" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note380">079</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note381" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note381">No.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note382" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note382">Becq Sonja, Beke Wouter, Bogaert Hendrik, Bracke Siegfried, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, De Coninck Inez, de Coster-Bauchau Sybille, De Groote Conseil, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Foret Gilles, Friart Benoît, Gabriëls Katja, Gantois Rita, Goffe Philippe, Gustin Luc, Heeren Veerle, Hufken Renate, Verdin Kattrin, Janssenssens Dirk, Klabert, Lacques, Laht, Laht, Lahre, Lahre</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note383" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note383">Abstensions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note384" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note384">022</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note385" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note385">Abstentions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note386" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note386">Almaci Meyrem, Bonte Hans, Calvo Kristof, Carcaci Aldo, Cheron Marcel, De Coninck Monica, Dedry Anne, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kitrir Meryame, Lambrecht Annick, Nollet Jean-Marc, Temmerman Karin, Top Alain, Vanden Burre Gilles, Van Hecke Stefaan, Van Hees Marco, Vanheste Ann, Vanvelthoven Peter, Willaert Evita</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note387" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note387">Vote nominatif - Voice of name: 004</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note388" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note388">Oui</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note389" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note389">106</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note390" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note390">Yes</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note391" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note391">Almaci Meyrem, Becq Sonja, Beke Wouter, Bogaert Hendrik, Bonte Hans, Bracke Siegfried, Brotcorne Christian, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Calvo Kristof, Capoen An, Carcaci Aldo, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Cheron Marcel, Clarinval David, Dallemagne Georges, De Coninck Inez, De Coninck Monica, De Coster-Bauchau Sybille, Dedry Anne, Degrote Conseil, de Lamotte Michel, Delpérée Francis, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie Christoph, Die Leen, Diepa Benoît, Ducarme Dumery, Falcon, Falconie, G.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note392" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note392">No</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note393" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note393">023</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note394" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note394">No.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note395" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note395">Ben Hamou Nawal, Blanchart Philippe, Crusnière Stéphane, Daerden Frédéric, Delannois Paul-Olivier, Delizée Jean-Marc, Demeyer Willy, Devin Laurent, Di Rupo Elio, Fernandez Fernandez Julie, Frédéric André, Hedebouw Raoul, Kir Emir, Laaouej Ahmed, Lalieux Karine, Maingain Olivier, Massin Eric, Onkelinx Laurette, Özen Özlem, Senesael Daniel, Thiébaut Eric, Van Hees Marco, Winckel Fabienne</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note396" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note396">Abstensions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note397" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note397">002</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note398" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note398">Abstentions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note399" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note399">Pas Barbara, Penris Jan</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note400" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note400">Vote nominatif - Voice of name: 005</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note401" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note401">Oui</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note402" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note402">129</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note403" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note403">Yes</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note404" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note404">Almaci Meyrem, Becq Sonja, Beke Wouter, Ben Hamou Nawal, Blanchart Philippe, Bogaert Hendrik, Bonte Hans, Bracke Siegfried, Brotcorne Christian, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Calvo Kristof, Carcaci Aldo, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Cheron Marcel, Clarinval David, Crusnière Stéphane, Daerden Frédéric, Dallemagne Georges, De Coninck Inez, De Coninck Monica, De Roover Peter, Deseyn Lauren, Devin Late Conseil, De Lamotte Michel, Delannois Paul-Olivier, Delizée Jean-Marc, Delpérée Francis, Delpérée Franky</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note405" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note405">No</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note406" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note406">000</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note407" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note407">No.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note408" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note408">Abstensions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note409" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note409">000</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note410" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note410">Abstentions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note411" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note411">Vote nominatif - Voice of name: 006</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note412" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note412">Oui</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note413" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note413">041</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note414" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note414">Yes</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note415" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note415">Almaci Meyrem, Ben Hamou Nawal, Blanchart Philippe, Bonte Hans, Calvo Kristof, Cheron Marcel, Crusnière Stéphane, Daerden Frédéric, De Coninck Monica, Dedry Anne, Delannois Paul-Olivier, Delizée Jean-Marc, Demeyer Willy, Devin Laurent, Di Rupo Elio, Fernandez Fernandez Julie, Frédéric André, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kir Emir, Kitir Meryame, Laaouej Ahmed, Lalieux Karine, Lambrecht Annick, Massin Eric, Nollet Jean-Marc, Onkelinx Laurette, Özen Özlem, Senesael Daniel, Temmerman Karin, Thiébaut Eric, Top Alain, Vanden Burre Gilles, Van Hecke Stefaan, Van Hees Stefaan, Van Hees Marco, Van Hetvelte, Van Eyck, Wyck</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note416" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note416">No</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note417" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note417">076</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note418" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note418">No.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note419" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note419">Becq Sonja, Beke Wouter, Bogaert Hendrik, Bracke Siegfried, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, De Coninck Inez, de Coster-Bauchau Sybille, De Groote Conseil, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Foret Gilles, Friart Benoît, Gabriëls Katja, Gantois Rita, Goffippe, Gustin Luc, Heeren Veerle, Hufken Renate, Verdin Kattrin, Janssen Werner, Klaner, Klabert, Lacques, Laht, Lahne, Lahre, Lahre, Lahre</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note420" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note420">Abstensions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note421" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note421">014</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note422" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note422">Abstentions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note423" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note423">Brotcorne Christian, Carcaci Aldo, Dallemagne Georges, de Lamotte Michel, Delperée Francis, Dispa Benoît, Fonck Catherine, Lutgen Benoît, Maingain Olivier, Pas Barbara, Penris Jan, Poncelet Isabelle, Vuye Hendrik, Wouters Veerle</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note424" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note424">Vote nominatif - Name vote: 007</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note425" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note425">Oui</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note426" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note426">041</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note427" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note427">Yes</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note428" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note428">Almaci Meyrem, Ben Hamou Nawal, Blanchart Philippe, Bonte Hans, Calvo Kristof, Cheron Marcel, Crusnière Stéphane, Daerden Frédéric, De Coninck Monica, Dedry Anne, Delannois Paul-Olivier, Delizée Jean-Marc, Demeyer Willy, Devin Laurent, Di Rupo Elio, Fernandez Fernandez Julie, Frédéric André, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kir Emir, Kitir Meryame, Laaouej Ahmed, Lalieux Karine, Lambrecht Annick, Massin Eric, Nollet Jean-Marc, Onkelinx Laurette, Özen Özlem, Senesael Daniel, Temmerman Karin, Thiébaut Eric, Top Alain, Vanden Burre Gilles, Van Hecke Stefaan, Van Hees Stefaan, Van Hees Marco, Van Hetvelte, Van Eyck, Wyck</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note429" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note429">No</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note430" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note430">083</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note431" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note431">No.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note432" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note432">Van Sonja, Bogaert Hendrik, Bracke Siegfried, Brotcorne Christian, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, Dallemagne Georges, De Coninck Inez, de Coster-Bauchau Sybille, De groote Conseil, de Lamotte Michel, Delpérée Francis, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Dispa Benoît, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Fonck Catherine, Foret Gilles, Friart Benoît Katja, Gantois Rita, Goffin Phile, Gus Heeren, Leuwen, Janne, Janne Janne, J.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note433" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note433">Abstensions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note434" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note434">006</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note435" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note435">Abstentions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note436" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note436">Carcaci Aldo, Maingain Olivier, Pas Barbara, Penris Jan, Vuye Hendrik, Wouters Veerle</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note437" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note437">Vote nominatif - Voice of name: 008</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note438" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note438">Oui</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note439" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note439">050</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note440" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note440">Yes</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note441" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note441">Almaci Meyrem, Ben Hamou Nawal, Blanchart Philippe, Bonte Hans, Brotcorne Christian, Calvo Kristof, Cheron Marcel, Crusnière Stéphane, Daerden Frédéric, Dallemagne Georges, De Coninck Monica, Dedry Anne, de Lamotte Michel, Delannois Paul-Olivier, Delizée Jean-Marc, Delpérée Francis, Demeyer Willy, Devin Laurent, Di Rupo Elio, Dispa Benoît, Fernandez Fernandez Julie, Fonck Catherine, Frédéric André, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kir Emir, Kitir Meryame, Laaouej Ahmed, Lalieux Karine, Lambecht Annick, Lutgen Benoît, Maingain Olivier, Massin, Onkelin, Onkelin Öx Laurette, Timmerne, Timmeren, Van Eir Eir Emir, Timmerne, Timmeren, Timmeren, Timmeren, Van Kir Eir Eir Eir Emir, Timmeren, Timmeren, Van Eir, Van Eir.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note442" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note442">No</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note443" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note443">076</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note444" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note444">No.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note445" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note445">Becq Sonja, Beke Wouter, Bogaert Hendrik, Bracke Siegfried, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, De Coninck Inez, de Coster-Bauchau Sybille, De Groote Conseil, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Foret Gilles, Friart Benoît, Gabriëls Katja, Gantois Rita, Goffippe, Gustin Luc, Heeren Veerle, Hufken Renate, Verdin Kattrin, Janssen Werner, Klaner, Klabert, Lacques, Laht, Lahne, Lahre, Lahre, Lahre</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note446" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note446">Abstensions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note447" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note447">005</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note448" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note448">Abstentions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note449" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note449">Carcaci Aldo, Pas Barbara, Penris Jan, Vuye Hendrik, Wouters Veerle</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note450" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note450">Vote nominatif - Voice of name: 009</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note451" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note451">Oui</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note452" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note452">041</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note453" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note453">Yes</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note454" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note454">Almaci Meyrem, Ben Hamou Nawal, Blanchart Philippe, Bonte Hans, Calvo Kristof, Cheron Marcel, Crusnière Stéphane, Daerden Frédéric, De Coninck Monica, Dedry Anne, Delannois Paul-Olivier, Delizée Jean-Marc, Demeyer Willy, Devin Laurent, Di Rupo Elio, Fernandez Fernandez Julie, Frédéric André, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kir Emir, Kitir Meryame, Laaouej Ahmed, Lalieux Karine, Lambrecht Annick, Massin Eric, Nollet Jean-Marc, Onkelinx Laurette, Özen Özlem, Senesael Daniel, Temmerman Karin, Thiébaut Eric, Top Alain, Vanden Burre Gilles, Van Hecke Stefaan, Van Hees Stefaan, Van Hees Marco, Van Hetvelte, Van Eyck, Wyck</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note455" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note455">No</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note456" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note456">084</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note457" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note457">No.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note458" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note458">Becq Van Sonja, Beke Wouter, Bogaert Hendrik, Bracke Siegfried, Brotcorn Christian, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, Dallemagne Georges, De Coninck Inez, de Coster-Bauchau Sybille, De groote Conseil, de Lamotte Michel, Delpérée Francis, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Dispa Benoît, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Fonck Catherine, Foret Gilles, Friart Benoît, Gabriels Katja, Gantois Rita, Gout, Guinneer, Guinneer Janneer, Janne, Leuw, Janne, Leuven</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note459" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note459">Abstensions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note460" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note460">006</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note461" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note461">Abstentions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note462" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note462">Carcaci Aldo, Maingain Olivier, Pas Barbara, Penris Jan, Vuye Hendrik, Wouters Veerle</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note463" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note463">Vote nominatif - Voice of name: 010</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note464" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note464">Oui</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note465" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note465">042</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note466" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note466">Yes</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note467" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note467">Almaci Meyrem, Ben Hamou Nawal, Blanchart Philippe, Bonte Hans, Calvo Kristof, Cheron Marcel, Crusnière Stéphane, Daerden Frédéric, De Coninck Monica, Dedry Anne, Delannois Paul-Olivier, Delizée Jean-Marc, Demeyer Willy, Devin Laurent, Di Rupo Elio, Fernandez Fernandez Julie, Frédéric André, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kir Emir, Kitir Meryame, Laaouej Ahmed, Lalieux Karine, Lambrecht Annick, Maingain Olivier, Massin Eric, Nollet Jean-Marc, Onkelinx Laurette, Özen Özlem, Senesael Daniel, Temmerman Karin, Thiébaut Eric, Top Alain, Vanden Burre Gilles, Van Hecke Stefaan, Van Hecke, Van Hecke Marce, Van Hen, Van Heck, Van Heck, Van Heck, Van Heck, Van Heck</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note468" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note468">No</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note469" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note469">076</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note470" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note470">No.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note471" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note471">Becq Sonja, Beke Wouter, Bogaert Hendrik, Bracke Siegfried, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, De Coninck Inez, de Coster-Bauchau Sybille, De Groote Conseil, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Foret Gilles, Friart Benoît, Gabriëls Katja, Gantois Rita, Goffippe, Gustin Luc, Heeren Veerle, Hufken Renate, Verdin Kattrin, Janssen Werner, Klaner, Klabert, Lacques, Laht, Lahne, Lahre, Lahre, Lahre</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note472" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note472">Abstensions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note473" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note473">013</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note474" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note474">Abstentions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note475" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note475">Brotcorne Christian, Carcaci Aldo, Dallemagne Georges, de Lamotte Michel, Delpérée Francis, Dispa Benoît, Fonck Catherine, Lutgen Benoît, Pas Barbara, Penris Jan, Poncelet Isabelle, Vuye Hendrik, Wouters Veerle</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note476" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note476">Vote nominatif - Voice of name: 011</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note477" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note477">Oui</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note478" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note478">078</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note479" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note479">Yes</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note480" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note480">Becq Sonja, Beke Wouter, Bogaert Hendrik, Bracke Siegfried, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Carcaci Aldo, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, De Coninck Inez, de Coster-Bauchau Sybille, De groote Conseil, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Foret Gilles, Friart Benoît, Gabriels Katja, Gantois Rita, Goffin Philippe, Gustin Luc, Heerle, Hufkens Renate, Jadin Kattrin, Vern, Vern, Janssen Werken, Jogert, Labijnen, Labijnen, Labier, Labier, Labier, J.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note481" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note481">No</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note482" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note482">001</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note483" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note483">No.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note484" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note484">Lanjri Nahima</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note485" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note485">Abstensions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note486" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note486">052</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note487" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note487">Abstentions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note488" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note488">Almaci Meyrem, Ben Hamou Nawal, Blanchart Philippe, Bonte Hans, Brotcorne Christian, Calvo Kristof, Cheron Marcel, Crusnière Stéphane, Daerden Frédéric, Dallemagne Georges, De Coninck Monica, Dedry Anne, de Lamotte Michel, Delannois Paul-Olivier, Delizée Jean-Marc, Delpérée Francis, Demeyer Willy, Devin Laurent, Di Rupo Elio, Dispa Benoît, Fernandez Fernandez Julie, Fonck Catherine, Frédéric André, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kir Emir, Kitrir Meryame, Laaouej Ahmed, Lalieux Karine, Lambecht Annick, Lutgen Benoît, Maingain Olivier, Massin, Onkelin, Onkelin Öx Laurette, Tir Es</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note489" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note489">Vote nominatif - Voice of name: 012</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note490" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note490">Oui</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note491" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note491">050</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note492" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note492">Yes</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note493" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note493">Almaci Meyrem, Ben Hamou Nawal, Blanchart Philippe, Bonte Hans, Brotcorne Christian, Calvo Kristof, Cheron Marcel, Crusnière Stéphane, Daerden Frédéric, Dallemagne Georges, De Coninck Monica, Dedry Anne, de Lamotte Michel, Delannois Paul-Olivier, Delizée Jean-Marc, Delpérée Francis, Demeyer Willy, Devin Laurent, Di Rupo Elio, Dispa Benoît, Fernandez Fernandez Julie, Fonck Catherine, Frédéric André, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kir Emir, Kitir Meryame, Laaouej Ahmed, Lalieux Karine, Lambecht Annick, Lutgen Benoît, Maingain Olivier, Massin, Onkelin, Onkelin Öx Laurette, Timmerne, Timmeren, Van Eir Eir Emir, Timmerne, Timmeren, Timmeren, Timmeren, Van Kir Eir Eir Eir Emir, Timmeren, Timmeren, Van Eir, Van Eir.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note494" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note494">No</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note495" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note495">076</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note496" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note496">No.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note497" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note497">Becq Sonja, Beke Wouter, Bogaert Hendrik, Bracke Siegfried, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, De Coninck Inez, de Coster-Bauchau Sybille, De Groote Conseil, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Foret Gilles, Friart Benoît, Gabriëls Katja, Gantois Rita, Goffippe, Gustin Luc, Heeren Veerle, Hufken Renate, Verdin Kattrin, Janssen Werner, Klaner, Klabert, Lacques, Laht, Lahne, Lahre, Lahre, Lahre</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note498" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note498">Abstensions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note499" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note499">005</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note500" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note500">Abstentions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note501" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note501">Carcaci Aldo, Pas Barbara, Penris Jan, Vuye Hendrik, Wouters Veerle</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note502" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note502">Vote nominatif - Voice of name: 013</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note503" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note503">Oui</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note504" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note504">076</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note505" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note505">Yes</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note506" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note506">Becq Sonja, Beke Wouter, Bogaert Hendrik, Bracke Siegfried, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, De Coninck Inez, de Coster-Bauchau Sybille, De Groote Conseil, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Foret Gilles, Friart Benoît, Gabriëls Katja, Gantois Rita, Goffippe, Gustin Luc, Heeren Veerle, Hufken Renate, Verdin Kattrin, Janssen Werner, Klaner, Klabert, Lacques, Laht, Lahne, Lahre, Lahre, Lahre</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note507" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note507">No</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note508" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note508">050</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note509" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note509">No.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note510" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note510">Almaci Meyrem, Ben Hamou Nawal, Blanchart Philippe, Bonte Hans, Brotcorne Christian, Calvo Kristof, Cheron Marcel, Crusnière Stéphane, Daerden Frédéric, Dallemagne Georges, De Coninck Monica, Dedry Anne, de Lamotte Michel, Delannois Paul-Olivier, Delizée Jean-Marc, Delpérée Francis, Demeyer Willy, Devin Laurent, Di Rupo Elio, Dispa Benoît, Fernandez Fernandez Julie, Fonck Catherine, Frédéric André, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kir Emir, Kitir Meryame, Laaouej Ahmed, Lalieux Karine, Lambecht Annick, Lutgen Benoît, Maingain Olivier, Massin, Onkelin, Onkelin Öx Laurette, Timmerne, Timmeren, Van Eir Eir Emir, Timmerne, Timmeren, Timmeren, Timmeren, Van Kir Eir Eir Eir Emir, Timmeren, Timmeren, Van Eir, Van Eir.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note511" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note511">Abstensions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note512" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note512">005</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note513" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note513">Abstentions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note514" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note514">Carcaci Aldo, Pas Barbara, Penris Jan, Vuye Hendrik, Wouters Veerle</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note515" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note515">Vote nominatif - Voice of name: 014</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note516" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note516">Oui</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note517" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note517">129</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note518" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note518">Yes</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note519" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note519">Almaci Meyrem, Becq Sonja, Beke Wouter, Ben Hamou Nawal, Blanchart Philippe, Bogaert Hendrik, Bonte Hans, Bracke Siegfried, Brotcorne Christian, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Calvo Kristof, Capoen An, Carcaci Aldo, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Cheron Marcel, Clarinval David, Crusnière Stéphane, Daerden Frédéric, Dallemagne Georges, De Coninck Inez, De Coninck Monica, de Coster-Bauchau Sybille, Dedry Anne, Demagote Michel, Delizée Jean-Marc, Delpéré Francis, Demeyer, De Roover Peter, Dezeurs, Witte Wilheren, Degne, Degemeer</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note520" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note520">No</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note521" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note521">000</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note522" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note522">No.</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note523" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note523">Abstensions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note524" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note524">000</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note525" corresp="mt-src:ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.note525">Abstentions</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+
