@@ -41,13 +41,15 @@
   </xsl:variable>
   
   <!-- If LaTeX -->
-  <xsl:param name="preamble">\begin{tabular}{l|c|c|cllr|rr}&#10;</xsl:param>
+  <xsl:param name="preamble">\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lcccllrrr@{}}&#10;</xsl:param>
+  <!-- Either format -->
   <xsl:param name="header-row">
+    <xsl:if test="matches($mode, 'tex', 'i')">\toprule&#10;</xsl:if>
     <xsl:text>ID</xsl:text> <!-- ISO country code -->
     <xsl:value-of select="$col-sep"/>
     <xsl:text>Lang</xsl:text> <!-- ISO language code(s) used (predominantly) -->
     <xsl:value-of select="$col-sep"/>
-    <xsl:text>Houses</xsl:text>  <!-- Unicameral, Lower house, Upper house, Committes -->
+    <xsl:text>Bodies</xsl:text>  <!-- Unicameral, Lower house, Upper house, Committes -->
     <xsl:value-of select="$col-sep"/>
     <xsl:text>Ts</xsl:text>  <!-- Terms -->
     <xsl:value-of select="$col-sep"/>
@@ -61,7 +63,7 @@
     <xsl:value-of select="$col-sep"/>
     <xsl:text>Mw</xsl:text> <!-- Total mill. words -->
     <xsl:value-of select="$line-sep"/>
-    <xsl:if test="matches($mode, 'tex', 'i')">\hline&#10;</xsl:if>
+    <xsl:if test="matches($mode, 'tex', 'i')">\midrule&#10;</xsl:if>
   </xsl:param>
   
   <xsl:template match="tei:teiCorpus">
@@ -91,7 +93,7 @@
       </xsl:apply-templates>
     </xsl:for-each>
     <xsl:if test="matches($mode, 'tex', 'i')">
-      <xsl:text>\end{tabular}&#10;</xsl:text>
+      <xsl:text>\botrule&#10;\end{tabular*}&#10;</xsl:text>
     </xsl:if>
   </xsl:template>
   

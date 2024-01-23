@@ -43,8 +43,14 @@
   </xsl:variable>
   
   <!-- If LaTeX -->
-  <xsl:variable name="preamble">\begin{tabular}{l|rrr|rrrrrrrr}&#10;</xsl:variable>
+  <xsl:variable name="preamble">\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lrrrrrrrrrrr@{}}&#10;</xsl:variable>
+  <!-- Either format -->
   <xsl:variable name="header-row">
+    <xsl:if test="matches($mode, 'tex', 'i')">
+      <xsl:text>\toprule&#10;</xsl:text>
+      <xsl:text>&amp;\multicolumn{3}{@{}c@{}}{Org}&amp;\multicolumn{8}{@{}c@{}}{Person}\\&#10;</xsl:text>
+      <xsl:text>\cmidrule{2-4}\cmidrule{5-12}</xsl:text>
+    </xsl:if>
     <xsl:text>ID</xsl:text> <!-- ISO country code -->
     <xsl:value-of select="$col-sep"/>
     <xsl:text>Org</xsl:text>  <!-- Number of organistations -->
@@ -74,7 +80,7 @@
     <xsl:text>IMG</xsl:text>  
     -->
     <xsl:value-of select="$line-sep"/>
-    <xsl:if test="matches($mode, 'tex', 'i')">\hline&#10;</xsl:if>
+    <xsl:if test="matches($mode, 'tex', 'i')">\midrule&#10;</xsl:if>
   </xsl:variable>
 
   <xsl:key name="ref" match="tei:org" use="concat('#', @xml:id)"/>
@@ -101,7 +107,7 @@
       <xsl:apply-templates select="$teiHeader"/>
     </xsl:for-each>
     <xsl:if test="matches($mode, 'tex', 'i')">
-      <xsl:text>\end{tabular}&#10;</xsl:text>
+      <xsl:text>\botrule&#10;\end{tabular*}&#10;</xsl:text>
     </xsl:if>
   </xsl:template>
   
