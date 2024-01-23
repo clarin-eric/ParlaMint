@@ -3,13 +3,8 @@
 cp_all:	cp_readmes cp_regis
 
 README_CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-REGIST_VERSION = 40
+REGIST_VERSION = 41
 REGIST_CORPORA = at ba be bg cz dk ee es es_ct es_ga es_pv fi fr gb gr hr hu is it lv nl no pl pt rs se si tr ua
-
-# ParlaMint-UA 4.0.1
-#README_CORPORA = UA
-#REGIST_VERSION = 401
-#REGIST_CORPORA = ua
 
 # Main readmes from Data/, store here and rename
 cp_readmes:
