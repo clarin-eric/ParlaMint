@@ -5,7 +5,7 @@
 
 #### Current work for LREV paper:
 #Make TSV and LaTeX tables
-make_stats:
+stats:
 	$s mode=tsv -xsl:../Scripts/parlamint2cnt-overview.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-overview-stats.tsv
 	$s mode=tex -xsl:../Scripts/parlamint2cnt-overview.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-overview-stats.tex
 	$s mode=tsv -xsl:../Scripts/parlamint2cnt-particDesc.xsl Master/ParlaMint.xml > Metadata/ParlaMint-participDesc-stats.tsv
