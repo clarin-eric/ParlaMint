@@ -6,6 +6,11 @@
 use warnings;
 use utf8;
 use open ':utf8';
+
+use File::Temp qw/ tempfile tempdir /;  #creation of tmp files and directory
+my $tempdirroot = "$Bin/tmp";
+my $tmpDir = tempdir(DIR => $tempdirroot, CLEANUP => 1);
+
 binmode(STDIN, ':utf8');
 binmode(STDOUT, ':utf8');
 binmode(STDERR, ':utf8');
@@ -16,6 +21,7 @@ sub usage
     print STDERR ("       Produces a validation report on ParlaMint XML files in the <InputDirectories>:\n");
     print STDERR ("       * validation for illegal characters (like soft hyphen, PUA)\n");
     print STDERR ("       * validation against ParlaMint RNG schemas in <SchemaDirectory> (with jing)\n");
+    print STDERR ("       * validation against ParlaMint ODD schema in <SchemaDirectory> (with jing)\n");
     print STDERR ("       * link (IDREF) checking (with saxon, check-links.xsl)\n");
     print STDERR ("       * content checking (with saxon, validate-parlamint.xsl)\n");
     print STDERR ("       - still separately, Dan's UD validation of CoNLL-U files (cf. Makefile)\n");
@@ -27,10 +33,11 @@ use File::Spec;
 $schemaDir = File::Spec->rel2abs(shift);
 $inDirs = File::Spec->rel2abs(shift);
 
-$Jing  = 'java -jar /usr/share/java/jing.jar';
-$Saxon = 'java -jar /usr/share/java/saxon.jar';
-$Links = "$Bin/check-links.xsl";
-$Valid = "$Bin/validate-parlamint.xsl";
+$Jing    = 'java -jar /usr/share/java/jing.jar';
+$Saxon   = 'java -jar /usr/share/java/saxon.jar';
+$Compose = "$Bin/parlamint-composite-teiHeader.xsl";
+$Links   = "$Bin/check-links.xsl";
+$Valid   = "$Bin/validate-parlamint.xsl";
 $Valid_particDesc = "$Bin/validate-parlamint-particDesc.xsl";
 $Includes = "$Bin/get-includes.xsl";
 
@@ -42,8 +49,14 @@ foreach my $inDir (glob "$inDirs") {
     my @compFiles = ();
     my @compAnaFiles = ();
     foreach $inFile (glob "$inDir/*.xml") {
-        if    ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?\.xml|) {$rootFile = $inFile}
-        elsif ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?\.ana\.xml|) {$rootAnaFile = $inFile}
+        if ($inFile =~ m|(ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?\.xml)|) {
+            $fileName = $1;
+            $rootFile = $inFile;
+        }
+        elsif ($inFile =~ m|(ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?\.ana\.xml)|) {
+            $fileNameAna = $1;
+            $rootAnaFile = $inFile
+        }
     }
     $/ = '>';
     if (not $rootFile and not $rootAnaFile) {
@@ -53,6 +66,8 @@ foreach my $inDir (glob "$inDirs") {
         print STDERR "INFO: Validating TEI root $rootFile\n";
 	&chars($rootFile);
         &run("$Jing $schemaDir/ParlaMint-teiCorpus.rng", $rootFile);
+        &run("$Saxon outDir=$tmpDir -xsl:$Compose", $rootFile);
+        &run("$Jing $schemaDir/ParlaMint.odd.rng", "$tmpDir/$fileName");
         &run("$Saxon -xsl:$Valid", $rootFile);
         &run("$Saxon -xsl:$Valid_particDesc", $rootFile);
         &run("$Saxon -xsl:$Links", $rootFile);
@@ -68,6 +83,7 @@ foreach my $inDir (glob "$inDirs") {
                     print STDERR "INFO: Validating component TEI file $file\n";
 		    &chars($file);
                     &run("$Jing $schemaDir/ParlaMint-TEI.rng", $file);
+                    &run("$Jing $schemaDir/ParlaMint.odd.rng", $file);
                     &run("$Saxon -xsl:$Valid", $file);
                     &run("$Saxon meta=$rootFile -xsl:$Links", $file);
                 }
@@ -82,6 +98,8 @@ foreach my $inDir (glob "$inDirs") {
         print STDERR "INFO: Validating TEI.ana root $rootAnaFile\n";
 	&chars($rootAnaFile);
         &run("$Jing $schemaDir/ParlaMint-teiCorpus.ana.rng", $rootAnaFile);
+        &run("$Saxon outDir=$tmpDir -xsl:$Compose", $rootAnaFile);
+        &run("$Jing $schemaDir/ParlaMint.odd.rng", "$tmpDir/$fileNameAna");
         &run("$Saxon -xsl:$Valid", $rootAnaFile);
         &run("$Saxon -xsl:$Valid_particDesc", $rootAnaFile);
         &run("$Saxon -xsl:$Links", $rootAnaFile);
@@ -98,6 +116,7 @@ foreach my $inDir (glob "$inDirs") {
                     print STDERR "INFO: Validating component TEI.ana file $file\n";
 		    &chars($file);
                     &run("$Jing $schemaDir/ParlaMint-TEI.ana.rng", $file);
+                    &run("$Jing $schemaDir/ParlaMint.odd.rng", $file);
                     &run("$Saxon -xsl:$Valid", $file);
                     &run("$Saxon meta=$rootAnaFile -xsl:$Links", $file);
                 }
@@ -146,6 +165,8 @@ sub run {
         or die "Bad file '$file'\n";
     if ($command =~ /$Jing/) {
         print STDERR "INFO: XML validation for $fName\n"
+    }
+    elsif ($command =~ /$Compose/) {
     }
     elsif ($command =~ /$Valid/) {
         print STDERR "INFO: Content validaton for $fName\n"
