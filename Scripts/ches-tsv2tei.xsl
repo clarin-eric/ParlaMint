@@ -26,10 +26,7 @@
       <orgName full="yes" xml:lang="en">parliamentary group Alliance for the Future of Austria</orgName>
       <orgName full="abb">BZÖ</orgName>
       ...
-      <state type="CHES" source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv">
-         <label>
-            <orgName full="abb" from="2006" to="2018" xml:lang="en">BZO</orgName>
-         </label>
+      <state type="CHES" key="BZO" from="2006" to="2018" source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv">
          <state type="variable" ana="#ches.lrgen">
             <state type="value" from="2006" to="2009" n="8.83"/>
             <state type="value" from="2010" to="2013" n="8.29"/>
@@ -106,12 +103,15 @@
 		  </xsl:if>
 		</xsl:for-each>
               </xsl:attribute>
-	      <!-- CHES time-qualified names of the party -->
-	      <label>
+              <!-- CHES time-qualified name of the party -->
+	      <xsl:variable name="ches_name">
 		<xsl:call-template name="ches-name">
 		  <xsl:with-param name="rows" select="$rows"/>
 		</xsl:call-template>
-              </label>
+              </xsl:variable>
+              <xsl:attribute name="key" select="$ches_name/tei:orgName"/>
+              <xsl:attribute name="from" select="$ches_name/tei:orgName/@from"/>
+              <xsl:attribute name="to" select="$ches_name/tei:orgName/@to"/>
 	      <xsl:for-each select="$rows/tei:cell">
 		<!-- Columns we don't want in <state> -->
 		<xsl:if test="@type != 'country' and @type != 'pm_id' and @type != 'ches_id' and @type != 'year'">
@@ -196,7 +196,7 @@
 
   <!-- Named templates -->
   
-  <!-- Return year-qualified CHES names of party -->
+  <!-- Return year-qualified CHES name of party -->
   <xsl:template name="ches-name">
     <xsl:param name="rows"/>
     <xsl:variable name="names">

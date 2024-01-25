@@ -63,7 +63,7 @@ test:
 test-tei2:
 	${FINALIZE} -valid -codes LV -in ${HERE}/Master -out ${HERE}/Master
 test-tei1:
-	${FINALIZE} -tei -valid -codes HU -in ${HERE}/Master -out ${HERE}/Master
+	${FINALIZE} -tei -valid -codes LV -in ${HERE}/Master -out ${HERE}/Master
 test-vert6:
 	../Scripts/parlamintp-tei2vert-xx.pl ${HERE}/Master/ParlaMint-LV.TEI.ana Test/ParlaMint-LV-xx.vert
 test-vert5:
@@ -342,8 +342,6 @@ mt-convert-yr:
 	${SOURCES-MT}/ParlaMint-NO-en-notes.tsv \
 	${SOURCES-MT}/ParlaMint-NO-en.conllu \
 	Test/ParlaMint-NO-en.TEI.ana 2> Test/ParlaMint-NO-en.$Y.log
-
-
 
 ### Make CoNLL-U only
 # Convert from English CoNLL-U + source .TEI.ana -> -en.TEI.ana 

@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2023-11-06</date>
+        <date>2024-01-25</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,6 +48,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
+      <change when="2024-01-25">Tomaž Erjavec: Change encoding of org/state so it is TEI compliant.</change>
       <change when="2023-11-06">Tomaž Erjavec: Add info on semantic annotations and other small changes.</change>
       <change when="2023-10-09">Tomaž Erjavec: Allow multilingual names.</change>
       <change when="2023-08-22">Tomaž Erjavec: Change description of org/state.</change>
@@ -68,12 +69,11 @@
     <front>
       <titlePage>
         <docTitle>
-          <titlePart type="main">The structure and encoding of <ref
-          target="https://github.com/clarin-eric/ParlaMint">ParlaMint
-          corpora</ref></titlePart>
+          <titlePart type="main">The structure and encoding of
+          <ref target="https://github.com/clarin-eric/ParlaMint">ParlaMint corpora</ref></titlePart>
         </docTitle>
-        <!--docEdition>v3.0</docEdition-->
-        <docDate>2023-11-06</docDate>
+        <!--docEdition>v4.1</docEdition-->
+        <docDate>2024-01-25</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -2068,19 +2068,13 @@
               from the <ref target="https://www.chesdata.eu/ches-europe">Chapel
               Hill Expert Surveys for Europe</ref> (CHES), either from the 1999-2019 edition, of from the 2019 edition. Here the
               top-level <gi>state</gi> element gives the <att>type</att> of the state, i.e. <val>CHES</val> and the URL of
-              the CSV source for the information.
+              the CSV source for the information, as well as the name of the political party in CHES (which typically differs from
+              its name or ID in ParlaMint) in the <att>key</att> attributes and the year span that the CHES information covers
+              in <att>from</att> and <att>to</att> attributes.</p>
 
-              Its <gi>label</gi><note>Note that, according to TEI, a label should not appear in a state element in case this element
-              contains subordinate state elements. In other words, this label makes the current encoding of ParlaMint corpora invalid
-              according to TEI. This should be corrected in a future release.</note>
-
-              gives the abbreviation of the political party name in CHES,
-              which can, and often does, differ from its ParlaMint abbreviation.
-
-              Each subordinate <gi>state</gi> (of <att>type</att> <val>variable</val>) then encodes one CHES variable, which is
+              <p>Each subordinate <gi>state</gi> (of <att>type</att> <val>variable</val>) then encodes one CHES variable, which is
 	      given, via the <att>ana</att> attribute, as the reference to the appropriate category defined in the <val>CHES</val>
 	      taxonomy (cf. the Section on <ref target="#sec-classDecl">Class declaration and taxonomies</ref>).
-
 
               Finally, as CHES gives the values of its variables according to years,
               the third level of <gi>state</gi> (of <att>type</att> <val>value</val>) stores the
@@ -2088,10 +2082,7 @@
 	      example below:
               
               <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-ches">
-                <state type="CHES" source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv">
-                  <label>
-                    <orgName full="abb" from="2002" to="2018" xml:lang="en">MR</orgName>
-                  </label>
+                <state type="CHES" key="MR" from="2002" to="2018" source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv">
                   <state type="variable" ana="#ches-lrgen">
                     <state type="value" from="2002" to="2005" n="6.35"/>
                     <state type="value" from="2006" to="2009" n="6.67"/>

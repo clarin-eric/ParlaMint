@@ -5896,15 +5896,16 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="state" module="namesdates" mode="change">
-      <desc versionDate="2022-10-04" xml:lang="en">defines additional metadata on the political orientation of a political party or parliamentary group, e.g. its political orientation.</desc>
+      <desc versionDate="2024-01-25" xml:lang="en">defines additional metadata on a political party or parliamentary group,
+    e.g. its political orientation.</desc>
       <content>
-         <alternate>
-            <elementRef key="label"/>
+         <sequence>
             <elementRef key="note" minOccurs="0" maxOccurs="unbounded"/>
-         </alternate>
+            <elementRef key="state" minOccurs="0" maxOccurs="unbounded"/>
+         </sequence>
       </content>
       <attList>
-         <attDef ident="type" mode="replace" usage="opt">
+         <attDef ident="type" mode="replace" usage="req">
             <valList type="closed">
                <valItem ident="politicalOrientation"/>
                <valItem ident="encoder"/>
@@ -5920,6 +5921,7 @@
             </datatype>
          </attDef>
          <!--state/@source-->
+         <!--state/@key-->
          <!--state/@from-->
          <!--state/@to-->
          <!--state/@n-->
@@ -5964,7 +5966,6 @@
          <attDef ident="subtype" mode="delete"/>
          <attDef ident="role" mode="delete"/>
          <attDef ident="nymRef" mode="delete"/>
-         <attDef ident="key" mode="delete"/>
          <attDef ident="ref" mode="delete"/>
          <attDef ident="unit" mode="delete"/>
          <attDef ident="quantity" mode="delete"/>
@@ -5978,43 +5979,39 @@
          <attDef ident="confidence" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
+         <p>Encoding political orientation as entered by an encoder:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
-            <state type="politicalOrientation" subtype="unknown" ana="#orientation.L"/>
+            <state type="politicalOrientation">
+               <state type="encoder" source="#GrietDepoorter" ana="#orientation.CRR">
+                  <note xml:lang="en">Orientation determined by encoder, using own knowledge of the parliamentary group.</note>
+               </state>
+            </state>
          </egXML>
       </exemplum>
       <exemplum xml:lang="en">
+         <p>Encoding Wikipedia-sourced political orientation:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
-            <state type="politicalOrientation"
-                   subtype="Wikipedia"
-                   source="https://en.wikipedia.org/wiki/Christian_Democratic_and_Flemish"
-                   ana="#orientation.CCR">
-               <note xml:lang="en">CD&amp;V, CDV, CVP (until 2001)</note>
+            <state type="politicalOrientation">
+               <state type="Wikipedia"
+                      source="https://lv.wikipedia.org/wiki/Attīstībai/Par!"
+                      ana="#orientation.C"/>
             </state>
          </egXML>
       </exemplum>
-      <exemplum versionDate="2008-04-06" xml:lang="fr">
+      <exemplum xml:lang="en">
+         <p>Encoding CHES-sourced variables and their values, with @key containing the CHES name for the political party:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
-            <state type="politicalOrientation"
-                   subtype="CHES"
-                   source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv"
-                   n="2.29"
-                   ana="#orientation.L"
-                   from="2010"
-                   to="2013">
-               <label>
-                  <orgName full="init">Groen</orgName>
-               </label>
-            </state>
-            <state type="politicalOrientation"
-                   subtype="CHES"
-                   source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv"
-                   n="2.20"
-                   ana="#orientation.L"
-                   from="2014"
-                   to="2018">
-               <label>
-                  <orgName full="abb">Groen</orgName>
-               </label>
+            <state type="CHES"
+                   key="AP!"
+                   from="2019"
+                   to="2019"
+                   source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv">
+               <state type="variable" ana="#ches.lrgen">
+                  <state type="value" from="2019" to="2019" n="5.82"/>
+               </state>
+               <state type="variable" ana="#ches.lrecon">
+                  <state type="value" from="2019" to="2019" n="5.90"/>
+               </state>
             </state>
          </egXML>
       </exemplum>
