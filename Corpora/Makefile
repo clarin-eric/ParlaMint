@@ -61,7 +61,7 @@ WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/
 test:
 	date
 test-tei2:
-	${FINALIZE} -valid -codes FI -in ${HERE}/Master -out ${HERE}/Master
+	${FINALIZE} -valid -codes LV -in ${HERE}/Master -out ${HERE}/Master
 test-tei1:
 	${FINALIZE} -tei -valid -codes HU -in ${HERE}/Master -out ${HERE}/Master
 test-vert6:
