@@ -45,8 +45,8 @@
   <!-- Either format -->
   <xsl:variable name="header-row">
     <xsl:if test="matches($mode, 'tex', 'i')">
-      <xsl:text>\toprule&amp;\multicolumn{3}{@{}c@{}}{Speeches overview}&amp;</xsl:text>
-      <xsl:text>\multicolumn{4}{@{}c@{}}{Other mark-up overview}\\\cmidrule{2-4}\cmidrule{5-8}%&#10;</xsl:text>
+      <xsl:text>\toprule&amp;\multicolumn{3}{@{}c@{}}{Speeches}&amp;</xsl:text>
+      <xsl:text>\multicolumn{4}{@{}c@{}}{Other mark-up}\\\cmidrule{2-4}\cmidrule{5-8}%&#10;</xsl:text>
       </xsl:if>
     <xsl:text>ID</xsl:text> <!-- ISO country code -->
     <xsl:value-of select="$col-sep"/>

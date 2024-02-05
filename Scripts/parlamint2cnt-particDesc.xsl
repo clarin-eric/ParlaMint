@@ -48,7 +48,7 @@
   <xsl:variable name="header-row">
     <xsl:if test="matches($mode, 'tex', 'i')">
       <xsl:text>\toprule&#10;</xsl:text>
-      <xsl:text>&amp;\multicolumn{3}{@{}c@{}}{Org}&amp;\multicolumn{4}{@{}c@{}}{Person}&amp;\multicolumn{4}{@{}c@{}}{Affiliation}\\&#10;</xsl:text>
+      <xsl:text>&amp;\multicolumn{3}{@{}c@{}}{Organisation}&amp;\multicolumn{4}{@{}c@{}}{Person}&amp;\multicolumn{4}{@{}c@{}}{Affiliation}\\&#10;</xsl:text>
       <xsl:text>\cmidrule{2-4}\cmidrule{5-12}</xsl:text>
     </xsl:if>
     <xsl:text>ID</xsl:text> <!-- ISO country code -->
