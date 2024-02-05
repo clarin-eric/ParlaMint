@@ -576,20 +576,20 @@
   
   <!-- Bug where lemma is empty or "_": change to @norm, if it exists, else to text() of the word -->
   <xsl:template mode="comp" match="tei:w/@lemma[not(normalize-space(.)) or . = '_']">
-    <xsl:variable name="message" select="concat('WARN ', /tei:TEI/@xml:id,  ': changing bad lemma to ')"/>
+    <xsl:variable name="message" select="concat('WARN ', /tei:TEI/@xml:id,  ': changing bad lemma ', ., ' to ')"/>
     <xsl:variable name="location" select="concat(' in ', ../@xml:id)"/>
     <xsl:attribute name="lemma">
       <xsl:choose>
         <xsl:when test="../@norm">
-          <xsl:message select="concat($message, ' @norm ', ../@norm, $location)"/>
+          <xsl:message select="concat($message, '@norm ', ../@norm, $location)"/>
           <xsl:value-of select="../@norm"/>
         </xsl:when>
         <xsl:when test="../contains(@msd, 'UPosTag=PROPN')">
-          <xsl:message select="concat($message, ' PROPN token ', ../text(), $location)"/>
+          <xsl:message select="concat($message, 'PROPN token ', ../text(), $location)"/>
           <xsl:value-of select="../text()"/>
 	</xsl:when>
         <xsl:otherwise>
-          <xsl:message select="concat($message, ' lower-cased token ', lower-case(../text()), $location)"/>
+          <xsl:message select="concat($message, 'lower-cased token ', lower-case(../text()), $location)"/>
           <xsl:value-of select="lower-case(../text())"/>
         </xsl:otherwise>
       </xsl:choose>
