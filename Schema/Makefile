@@ -7,7 +7,7 @@ list:
 
 nohup:
 	nohup time make all > compile.log &
-all:	rnc
+all:	relax
 xall:	val rnc
 
 val:
@@ -16,7 +16,7 @@ val:
 #Authored, strangely enough, in .rng!
 
 #Convert to RelaxNG compact syntax
-rnc:
+relax:
 	$t ParlaMint-TEI.rng ParlaMint-TEI.rnc
 	$t ParlaMint-TEI.ana.rng ParlaMint-TEI.ana.rnc
 	$t ParlaMint-teiCorpus.rng ParlaMint-teiCorpus.rnc
