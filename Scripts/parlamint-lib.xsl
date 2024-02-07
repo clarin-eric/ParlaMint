@@ -551,10 +551,12 @@
       <xsl:variable name="orientations">
         <xsl:for-each select="distinct-values(tokenize($refs, ' '))">
           <xsl:variable name="party" select="key('idr', ., $rootHeader)[@role='parliamentaryGroup']"/>
-          <xsl:call-template name="party-orientation">
-            <xsl:with-param name="party" select="$party"/>
-          </xsl:call-template>
-          <xsl:text>;</xsl:text>
+          <xsl:if test="normalize-space($party)">
+            <xsl:call-template name="party-orientation">
+              <xsl:with-param name="party" select="$party"/>
+            </xsl:call-template>
+            <xsl:text>;</xsl:text>
+          </xsl:if>
         </xsl:for-each>
       </xsl:variable>
       <xsl:variable name="uniqOrientations">
@@ -571,10 +573,12 @@
       <xsl:variable name="orientations">
         <xsl:for-each select="distinct-values(tokenize($refs, ' '))">
           <xsl:variable name="party" select="key('idr', ., $rootHeader)[@role='politicalParty']"/>
-          <xsl:call-template name="party-orientation">
-            <xsl:with-param name="party" select="$party"/>
-          </xsl:call-template>
-          <xsl:text>;</xsl:text>
+          <xsl:if test="normalize-space($party)">
+            <xsl:call-template name="party-orientation">
+              <xsl:with-param name="party" select="$party"/>
+            </xsl:call-template>
+            <xsl:text>;</xsl:text>
+          </xsl:if>
         </xsl:for-each>
       </xsl:variable>
       <xsl:variable name="uniqOrientations">
@@ -590,9 +594,11 @@
     <xsl:choose>
       <xsl:when test="normalize-space($parliamentaryGroupOrientations)">
         <xsl:value-of select="$parliamentaryGroupOrientations"/>
+        <!--xsl:message select="concat('INFO PG: ', $refs, ' // ', $parliamentaryGroupOrientations)"/-->
       </xsl:when>
       <xsl:when test="normalize-space($politicalPartyOrientation)">
         <xsl:value-of select="$politicalPartyOrientation"/>
+        <!--xsl:message select="concat('INFO PP: ', $refs, ' // ', $parliamentaryGroupOrientations)"/-->
       </xsl:when>
       <xsl:otherwise>
         <xsl:text>-</xsl:text>
