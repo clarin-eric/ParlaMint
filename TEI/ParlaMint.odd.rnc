@@ -11,7 +11,7 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2024-01-25T15:15:19Z. 2024-01-25.
+# Schema generated from ODD source 2024-02-06T14:58:22Z. 2024-01-25.
 # TEI Edition: Version 4.6.0a. Last updated on
 #         5th January 2023, revision 9074b9038
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0a./
@@ -793,7 +793,19 @@ tei_name =
   
   ## (name, proper noun) contains a proper noun or noun phrase. [3.6.1. Referring Strings]
   element name {
-    (tei_w | tei_pc | tei_name | tei_date | tei_num | tei_pb | text)+,
+    (tei_w
+     | tei_pc
+     | tei_name
+     | tei_date
+     | tei_num
+     | tei_time
+     | tei_note
+     | tei_vocal
+     | tei_kinesic
+     | tei_incident
+     | tei_gap
+     | tei_pb
+     | text)+,
     tei_att.global.attribute.xmlid,
     tei_att.global.attribute.xmllang,
     tei_att.global.analytic.attribute.ana,
@@ -2115,7 +2127,23 @@ tei_persName =
 tei_surname =
   
   ## (surname) contains a family (inherited) name, as opposed to a given, baptismal, or nick name. [13.2.1. Personal Names]
-  element surname { text }
+  element surname {
+    text,
+    
+    ##
+    attribute type {
+      
+      ##
+      "birth"
+      | 
+        ##
+        "patronym"
+      | 
+        ##
+        "married"
+    }?,
+    empty
+  }
 tei_forename =
   
   ## (forename) contains a forename, given or baptismal name. [13.2.1. Personal Names]

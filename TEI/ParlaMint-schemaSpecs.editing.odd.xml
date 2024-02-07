@@ -1017,6 +1017,12 @@
         <elementRef key="name"/>
         <elementRef key="date"/>
         <elementRef key="num"/>
+        <elementRef key="time"/>
+        <elementRef key="note"/>
+        <elementRef key="vocal"/>
+        <elementRef key="kinesic"/>
+        <elementRef key="incident"/>
+        <elementRef key="gap"/>
         <elementRef key="pb"/>
         <textNode/>
       </alternate>
@@ -1729,12 +1735,34 @@
     <content>
       <textNode/>
     </content>
-    <attList/>
+    <attList>
+      <attDef ident="type" mode="replace" usage="opt">
+        <valList type="closed">
+          <valItem ident="birth"/>
+          <valItem ident="patronym"/>
+          <valItem ident="married"/>
+        </valList>
+      </attDef>
+    </attList>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <persName>
           <surname>Accetto</surname>
           <forename>Matej</forename>
+        </persName>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+        <persName>
+          <forename>Ірина</forename>
+          <surname type="patronym">Борисівна</surname>
+          <surname>Щеняєва</surname>
+        </persName>
+        <persName xml:lang="uk-Latn">
+          <forename>Iryna</forename>
+          <surname type="patronym">Borysivna</surname>
+          <surname>Ščenjajeva</surname>
         </persName>
       </egXML>
     </exemplum>
