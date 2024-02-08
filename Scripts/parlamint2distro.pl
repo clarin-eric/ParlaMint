@@ -96,9 +96,9 @@ $outDir = File::Spec->rel2abs($outDir) if $outDir;
 
 #Execution
 #$Parallel = "parallel --gnu --halt 2 --jobs 15";
-$Saxon   = "java -jar /usr/share/java/saxon.jar";
+$Saxon   = "java -jar $Bin/bin/saxon.jar";
 # Problem with Out of heap space with TR, NL, GB for ana
-$SaxonX  = "java -Xmx240g -jar /usr/share/java/saxon.jar";
+$SaxonX  = "java -Xmx240g -jar $Bin/bin/saxon.jar";
 
 # For the following taxonomies we substitute the local taxonomy with common one,
 # reduced to the relevant langauges

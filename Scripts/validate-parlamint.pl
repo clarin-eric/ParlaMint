@@ -33,8 +33,9 @@ use File::Spec;
 $schemaDir = File::Spec->rel2abs(shift);
 $inDirs = File::Spec->rel2abs(shift);
 
-$Jing    = 'java -jar /usr/share/java/jing.jar';
-$Saxon   = 'java -jar /usr/share/java/saxon.jar';
+$Jing    = "java -jar $Bin/bin/jing.jar";
+$Saxon   = "java -jar $Bin/bin/saxon.jar";
+
 $Compose = "$Bin/parlamint-composite-teiHeader.xsl";
 $Links   = "$Bin/check-links.xsl";
 $Valid   = "$Bin/validate-parlamint.xsl";
@@ -177,6 +178,6 @@ sub run {
     elsif ($command =~ /$Links/) {
         print STDERR "INFO: Link checking for $fName\n"
     }
-    else {die "Weird command!\n"}
+    else {die "Weird command $command!\n"}
     `$command $file 1>&2`;
 }

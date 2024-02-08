@@ -8,7 +8,7 @@
     version="2.0">
     <!-- import base conversion style -->
     <!--xsl:import href="../default/html/to.xsl"/-->
-    <xsl:import href="../../Stylesheets/profiles/default/html/to.xsl"/>
+    <xsl:import href="../../bin/Stylesheets/profiles/default/html/to.xsl"/>
 
    <!-- Indent only for debugging! -->
    <xsl:output method="xhtml" indent="no" omit-xml-declaration="yes"/>

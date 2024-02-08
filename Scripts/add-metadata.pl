@@ -21,7 +21,7 @@ $miniDir = File::Spec->rel2abs(shift);
 $inDirs  = File::Spec->rel2abs(shift);
 $outDir  = File::Spec->rel2abs(shift);
 
-$Saxon = 'java -jar /usr/share/java/saxon.jar';
+$Saxon   = "java -jar $Bin/bin/saxon.jar";
 
 # Transliteration script for listOrg and listPerson
 $transScript = "$Bin/trans-execute.pl";

@@ -25,7 +25,7 @@ $inDir = File::Spec->rel2abs(shift);
 $outDir = File::Spec->rel2abs(shift);
 
 #$Para  = 'parallel --gnu --halt 2 --jobs 10';
-$Saxon = 'java -jar /usr/share/java/saxon.jar';
+$Saxon   = "java -jar $Bin/bin/saxon.jar";
 $Convert = "$Bin/parlamint2conllu.xsl";
 $Valid = "$Bin/tools/validate.py";
 
