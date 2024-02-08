@@ -117,7 +117,7 @@ test-text1:
 test-translit4:
 	${vlp} ParlaMint-GR-listPerson.xml
 	${vlo} ParlaMint-GR-listOrg.xml
-test-translit3:
+test-translit1:
 	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listPerson.xml ParlaMint-BG-listPerson.xml
 	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listOrg.xml ParlaMint-BG-listOrg.xml
 
@@ -126,11 +126,6 @@ test-translit3:
 
 	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-UA.TEI/ParlaMint-UA-listPerson.xml ParlaMint-UA-listPerson.xml
 	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-UA.TEI/ParlaMint-UA-listOrg.xml ParlaMint-UA-listOrg.xml
-test-translit2:
-	bin/trans-execute.pl Sources-TEI/ParlaMint-GR.TEI/ParlaMint-GR-listOrg.xml ParlaMint-GR-listOrg.xml
-test-translit1:
-	$s -xsl:bin/trans-tei2tsv.xsl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listOrg.xml > ParlaMint-BG-listOrg.tsv
-
 
 # Make MT .txt and CoNLL files
 mt-convert-txt:

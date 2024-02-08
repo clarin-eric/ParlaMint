@@ -1,0 +1,270 @@
+MAINTAINER "CLARIN.SI <info@clarin.si>"
+NAME "ParlaMint-XX 4.1 (European parliaments)"
+INFO "European parliamentary corpora ParlaMint-XX, v4.1"
+ENCODING "UTF-8"
+DEFAULTLOCALE "en_GB.UTF-8"
+LANGUAGE "Multilingual"
+INFOHREF "http://hdl.handle.net/11356/1911"
+TAGSETDOC "https://universaldependencies.org/guidelines.html"
+
+PATH "/data/manatee-data/parlamint41_xx/"
+
+VERTICAL "| zcat /data/vert/ParlaMint-XX.4.1.vert.gz"
+
+DOCSTRUCTURE speech
+MAXDETAIL 10000
+
+SUBCORPATTRS "speech.corpus|speech.lang,speech.subcorpus|speech.body|speech.date,speech.term|speech.session|speech.meeting,speech.sitting|speech.agenda,speech.speaker_mp|speech.speaker_minister|speech.speaker_role,speech.speaker_id|speech.speaker_name|speech.speaker_gender,speech.speaker_birth|speech.speaker_party|speech.speaker_party_name,speech.party_status|speech.party_orientation"
+SHORTREF "=speech.corpus,=speech.date"
+FULLREF "speech.id,speech.title,speech.date,speech.corpus,speech.lang,speech.subcorpus,speech.body,speech.term,speech.session,speech.meeting,speech.sitting,speech.agenda,speech.speaker_name,speech.speaker_gender,speech.speaker_role,speech.speaker_mp,speech.speaker_minister,speech.speaker_party,speech.speaker_party_name,speech.party_status,speech.party_orientation,p.lang,p.id,s.id,name.type"
+
+ALIGNSTRUCT s
+ALIGNED parlamint41_xx_en
+
+SIMPLEQUERY '[lc="%s" | norm="%s" | lemma_lc="%s"]'
+
+STRUCTURE speech {
+    TYPE "file64"
+    DISPLAYTAG 0
+    DISPLAYBEGIN "%(speaker_name): "
+    DISPLAYEND ""
+    ATTRIBUTE id {
+      TYPE "MD_MGD"
+      LABEL "Speech ID"
+      TYPE "UNIQUE"
+    }
+    ATTRIBUTE text_id {
+      TYPE "MD_MGD"
+      LABEL "Text ID"
+    }
+    ATTRIBUTE corpus {
+      TYPE "MD_MGD"
+    }
+    ATTRIBUTE subcorpus {
+      TYPE "MD_MGD"
+    }
+    ATTRIBUTE lang {
+      TYPE "MD_MGD"
+    }
+    ATTRIBUTE title {
+      TYPE "MD_MGD"
+    }
+    ATTRIBUTE body {
+      TYPE "MD_MGD"
+      LABEL "Parliamentary body"
+      MULTIVALUE yes
+      MULTISEP "|"
+    }
+    ATTRIBUTE term {
+      TYPE "MD_MGD"
+    }
+    ATTRIBUTE session {
+      TYPE "MD_MGD"
+      TEXTBOXLENGTH 4
+    }
+    ATTRIBUTE meeting {
+      TYPE "MD_MGD"
+      TEXTBOXLENGTH 4
+    }
+    ATTRIBUTE sitting {
+      TYPE "MD_MGD"
+      TEXTBOXLENGTH 4
+    }
+    ATTRIBUTE agenda {
+      TYPE "MD_MGD"
+      TEXTBOXLENGTH 4
+    }
+    ATTRIBUTE date {
+      TYPE "MD_MGD"
+    }
+    ATTRIBUTE speaker_id {
+      TYPE "MD_MGD"
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE speaker_name {
+      TYPE "MD_MGD"
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE speaker_role {
+      TYPE "MD_MGD"
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE speaker_mp {
+      TYPE "MD_MGD"
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE speaker_minister {
+      TYPE "MD_MGD"
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE speaker_party {
+      TYPE "MD_MGD"
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE speaker_party_name {
+      TYPE "MD_MGD"
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE party_status {
+      TYPE "MD_MGD"
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE party_orientation {
+      TYPE "MD_MGD"
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE speaker_gender {
+      TYPE "MD_MGD"
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE speaker_birth {
+      TYPE "MD_MGD"
+      DEFAULTVALUE "-"
+      TEXTBOXLENGTH 10
+    }
+}
+
+STRUCTURE p {
+    TYPE "file64"
+    DISPLAYTAG 0
+    DISPLAYBEGIN ""
+    DISPLAYEND " ¶ "
+    ATTRIBUTE id {
+      TYPE "MD_MGD"
+      TYPE "UNIQUE"
+    }
+    ATTRIBUTE lang {
+      TYPE "MD_MGD"
+    }
+}
+
+STRUCTURE s {
+    TYPE "file64"
+    ATTRIBUTE id {
+      TYPE "MD_MGD"
+      LABEL "Sentence ID"
+      TYPE "UNIQUE"
+    }
+    DISPLAYTAG 0
+}
+
+STRUCTURE name {
+    TYPE "file64"
+    ATTRIBUTE type {
+      TYPE "MD_MGD"
+    }
+    DISPLAYTAG 0
+    DISPLAYBEGIN "[%(type):"
+    DISPLAYEND "]"
+}
+
+STRUCTURE note {
+    TYPE "file64"
+    DISPLAYTAG 0
+    DISPLAYBEGIN "[%(type): %(content)"
+    DISPLAYEND "]"
+    ATTRIBUTE type {
+      TYPE "MD_MGD"
+    }
+    ATTRIBUTE content {
+      TYPE "MD_MGD"
+    }
+}
+STRUCTURE g {
+    TYPE "file64"
+    DISPLAYTAG 0
+    DISPLAYBEGIN "_EMPTY_"
+}
+
+ATTRIBUTE word{
+    TYPE "MD_MGD"
+}
+ATTRIBUTE lc {
+    LABEL    "word (lowercase)"
+    DYNAMIC  "utf8lowercase"
+    DYNLIB   "internal"
+    ARG1     "C"
+    FUNTYPE  "s"
+    FROMATTR "word"
+    DYNTYPE  "index"
+    TRANSQUERY "yes"
+}
+
+ATTRIBUTE norm {
+    TYPE "MD_MGD"
+    LABEL "syntactic word"
+    MULTIVALUE yes
+    MULTISEP "|"
+}
+
+ATTRIBUTE lemma {
+   TYPE "MD_MGD"
+   MULTIVALUE yes
+   MULTISEP "|"
+}
+ATTRIBUTE lemma_lc {
+   LABEL    "lemma (lowercase)"
+   DYNAMIC  "utf8lowercase"
+   DYNLIB   "internal"
+   ARG1     "C"
+   FUNTYPE  "s"
+   FROMATTR "lemma"
+   TYPE     "index"
+   TRANSQUERY "yes"
+}
+
+ATTRIBUTE pos {
+   TYPE "MD_MGD"
+   LABEL "UD PoS tag"
+   MULTIVALUE yes
+   MULTISEP "|"
+}
+
+ATTRIBUTE feats {
+    TYPE  "MD_MGD"
+    LABEL "UD features"
+    MULTIVALUE yes
+    MULTISEP "|"
+}
+
+ATTRIBUTE id {
+    TYPE "MD_MGD"
+    LABEL "ID of token"
+    MULTIVALUE yes
+    MULTISEP "|"
+}
+
+ATTRIBUTE dep {
+    TYPE "MD_MGD"
+    LABEL "UD dependency label"
+    MULTIVALUE yes
+    MULTISEP "|"
+}
+
+ATTRIBUTE dep_head_lemma {
+    TYPE "MD_MGD"
+    LABEL "Lemma of the dependency head"
+    MULTIVALUE yes
+    MULTISEP "|"
+}
+
+ATTRIBUTE dep_head_pos {
+    TYPE "MD_MGD"
+    LABEL "UD PoS tag of the dependency head"
+    MULTIVALUE yes
+    MULTISEP "|"
+}
+
+ATTRIBUTE dep_head_feats {
+    TYPE "MD_MGD"
+    LABEL "UD features of the dependency head"
+    MULTIVALUE yes
+    MULTISEP "|"
+}
+
+ATTRIBUTE dep_head_id {
+    TYPE "MD_MGD"
+    LABEL "ID of the dependency head"
+    MULTIVALUE yes
+    MULTISEP "|"
+}
