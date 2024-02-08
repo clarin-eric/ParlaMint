@@ -1,3 +1,6 @@
+sp2:
+	$s mode=tsv -xsl:../Scripts/parlamint2cnt-speeches.xsl   Master/ParlaMint.ana.xml > Metadata/ParlaMint-speeches.ana-stats.tsv
+
 ############### Makefile for making a distributable version of the ParlaMint TEI, TEI.ana, -en.TEI.ana corpora
 #### Makefile for making a distribution of the ParlaMint corpora
 #### Variables give the corpora, version, handle, paths and scripts to use
@@ -24,7 +27,8 @@ extract2tsv:
 ### VARIABLES
 
 ### COMPLETE SET OF CORPORA
-CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+#CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+CORPORA = UA
 
 ######## MTed CORPORA. Used only for make pack!
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en ES-PV-en FI-en FR-en GB-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -61,7 +65,7 @@ WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/
 test:
 	date
 test-tei2:
-	${FINALIZE} -valid -codes LV -in ${HERE}/Master -out ${HERE}/Master
+	${FINALIZE} -valid -codes UA -in ${HERE}/Master -out ${HERE}/Master
 test-tei1:
 	${FINALIZE} -tei -valid -codes LV -in ${HERE}/Master -out ${HERE}/Master
 test-vert6:
@@ -87,10 +91,19 @@ test-conll3:
 test-conll2:
 	${FINALIZE} -conll -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
 test-conll1:
-	${FINALIZE} -conll -codes SI -in ${HERE}/Master -out ${HERE}/Master
+	${FINALIZE} -conll -codes UA -in ${HERE}/Master -out ${HERE}/Master
+test-meta5:
+	$s out-lang=en meta=../Corpora/Master/ParlaMint-SE.TEI/ParlaMint-SE.xml -xsl:../Scripts/parlamint2meta.xsl \
+	../Corpora/Master/ParlaMint-SE.TEI/2015/ParlaMint-SE_2015-11-04-prot-201516--21.xml  > test.tsv
+test-meta4:
+	$s out-lang=en meta=../Corpora/Master/ParlaMint-PT.TEI/ParlaMint-PT.xml -xsl:../Scripts/parlamint2meta.xsl \
+	../Corpora/Master/ParlaMint-PT.TEI/2022/ParlaMint-PT_2022-03-22.xml  > test.tsv
+test-meta3:
+	$s out-lang=en meta=../Corpora/Master/ParlaMint-RS.TEI/ParlaMint-RS.xml -xsl:../Scripts/parlamint2meta.xsl \
+	../Corpora/Master/ParlaMint-RS.TEI/2016/ParlaMint-RS_2016-06-03-0.xml  > test.tsv
 test-meta2:
 	$s out-lang=en meta=../Corpora/Master/ParlaMint-IS.TEI/ParlaMint-IS.xml -xsl:../Scripts/parlamint2meta.xsl \
-	../Corpora/Test/test-FI.xml > test-FI.tsv
+	../Corpora/Test/test-IS.xml > test-IS.tsv
 	$s out-lang=en meta=../Corpora/Master/ParlaMint-AT.TEI/ParlaMint-AT.xml -xsl:../Scripts/parlamint2meta.xsl \
 	../Corpora/Test/test-AT.xml > test-AT.tsv
 test-meta1:
@@ -231,7 +244,7 @@ nohup2:
 nohup3:
 	nice nohup time make all > Logs/ParlaMint.3.log &
 
-all:	final verts pack
+all:	final
 xall:	final verts pack
 
 pack:
@@ -240,7 +253,7 @@ verts:
 	perl ../Scripts/join-verts.pl -version ${VERSION} -codes '${CORPORA}' -in Master -out Verts
 final:
 	for CORPUS in ${CORPORA}; do \
-	${FINALIZE} -all -notei -noana -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.log; \
+	${FINALIZE} -all -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.log; \
 	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.error.log;  \
 	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.warn.log;  \
 	echo "$${CORPUS}.warn"; \
