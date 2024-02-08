@@ -86,8 +86,8 @@ get:
 	done;
 
 ###################### SCRIPT VARIABLES
-#s = java -jar -Xmx240g /usr/share/java/saxon.jar
-s = java -jar /usr/share/java/saxon.jar
-j = java -jar /usr/share/java/jing.jar
 P = parallel --gnu --halt 2
+#s = java -jar -Xmx240g ../Scripts/bin/saxon.jar
+s = java -jar ../../Scripts/bin/saxon.jar
+j = java -jar ../../Scripts/bin/jing.jar
 vta = $j ../../Schema/ParlaMint-taxonomy.rng		# Corpus TEI taxonomy

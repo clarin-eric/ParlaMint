@@ -15,6 +15,7 @@ stats:
 	$s mode=tex -xsl:../Scripts/parlamint2cnt-particDesc.xsl Master/ParlaMint.xml > Metadata/ParlaMint-participDesc-stats.tex
 	$s mode=tsv -xsl:../Scripts/parlamint2cnt-speeches.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-speeches-stats.tsv
 	$s mode=tex -xsl:../Scripts/parlamint2cnt-speeches.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-speeches-stats.tex
+
 #Extract the parties and persons into TSV files 
 #Not tested yet for 4.1!
 extract2tsv:
@@ -455,11 +456,10 @@ body:
 	done
 
 ###################### SCRIPT VARIABLES
-#Run java with a huge heap, as a complete corpus needs to be read in!
-s = java -jar -Xmx240g /usr/share/java/saxon.jar
-#s = java -jar /usr/share/java/saxon.jar
-j = java -jar /usr/share/java/jing.jar
-P = parallel --gnu --halt 2
+P = parallel --citation --gnu --halt 2
+#Run java with a large heap, as a complete corpus needs to be read in
+s = java -jar -Xmx240g ../Scripts/bin/saxon.jar
+j = java -jar ../Scripts/bin/jing.jar
 
 pc = -I % $s -xi -xsl:../Scripts/copy.xsl % | $j parla-clarin.rng
 vxx = $j ${SCH}/ParlaMint-TEI.rng 	        # Validated with ParlaMint TEI 

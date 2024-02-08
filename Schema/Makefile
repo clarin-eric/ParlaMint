@@ -46,8 +46,8 @@ vlo = $j ParlaMint-listOrg.rng		# Corpus TEI organisation list
 vlp = $j ParlaMint-listPerson.rng	# Corpus TEI person list
 vta = $j ParlaMint-taxonomy.rng		# Corpus TEI taxonomy
 
-#Prerequisites, change as needed
-s = java -jar /usr/share/java/saxon.jar
-j = java -jar /usr/share/java/jing.jar
-t = java -jar /usr/share/java/trang.jar
+#Prerequisites
 P = parallel --citation --gnu --halt 2
+s = java -jar ../Scripts/bin/saxon.jar
+j = java -jar ../Scripts/bin/jing.jar
+t = java -jar ../Scripts/bin/trang.jar

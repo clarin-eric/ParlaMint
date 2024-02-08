@@ -22,7 +22,7 @@ metadata:
 	../../Scripts/add-metadata.pl ../Orientations ../Ministers "Orig/ParlaMint-*.TEI*" "."
 
 ### Variables
-s = java -jar /usr/share/java/saxon.jar
 P = parallel --gnu --halt 2
+s = java -jar ../../Scripts/bin/saxon.jar
 GIT  = /project/corpora/Parla/ParlaMint/ParlaMint
 HERE = ${GIT}/Corpora/Sources-TEI
