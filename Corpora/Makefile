@@ -6,7 +6,7 @@ sp2:
 #### Variables give the corpora, version, handle, paths and scripts to use
 #### make nohup starts make all and saves the log in Logs/
 
-#### Current work for LREV paper:
+#### For LREV paper:
 #Make TSV and LaTeX tables
 stats:
 	$s mode=tsv -xsl:../Scripts/parlamint2cnt-overview.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-overview-stats.tsv
@@ -29,7 +29,7 @@ extract2tsv:
 
 ### COMPLETE SET OF CORPORA
 #CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-CORPORA = UA
+CORPORA = LV FR FI
 
 ######## MTed CORPORA. Used only for make pack!
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en ES-PV-en FI-en FR-en GB-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -240,7 +240,7 @@ nohup2:
 nohup3:
 	nice nohup time make all > Logs/ParlaMint.3.log &
 
-all:	final
+all:	final verts pack
 xall:	final verts pack
 
 pack:
