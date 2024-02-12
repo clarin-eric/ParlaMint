@@ -90,10 +90,15 @@ orgName =
 ## Element defining political metadata of a politicalParty or parliamentaryGroup.
 state =
   
-  ## The type (source) of state.
+  ## The type (indication of what kind) of contained information.
   element state {
-    attribute type { stateType.val }?,
-    source.att,
+    (attribute type { stateType.val }?)
+    >> a:documentation [ "URI of the source of the given data." ],
+    source.att
+    >> a:documentation [
+         "Optional key containing e.g. the name of the organisation in the source data."
+       ],
+    attribute key { xsd:string }?,
     
     ## The value of a some metadatum.
     (attribute n { xsd:decimal }?)
@@ -101,7 +106,7 @@ state =
          "Optional pointer to the category of a metadatum."
        ],
     (attribute ana { xsd:anyURI }?)
-    >> a:documentation [ "From - to when this information holds." ],
+    >> a:documentation [ "From and to when this information holds." ],
     (temporal.atts?)
     >> a:documentation [
          "Abbreviation(s) of the political party in the source."
