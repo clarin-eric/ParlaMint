@@ -73,50 +73,19 @@ git push
 
 ## Install prerequisites
 
-You can check if all prerequisites are installed with the command `make check-prereq` if all success the output is:
+All prerequisite programs (which are not part of a Unix system) should be installed in [Scripts/bin/](Scripts/bin/).
+See [Scripts/bin/README.md](Scripts/bin/README.md) for installation instructions.
+
+You can check if all prerequisites are installed with the command `make check-prereq`.
+If everything is ok, the output is:
 
 ```
 Saxon: OK
 Jing: OK
 UD tools: OK
-INFO: Maximum java heap size (saxon needs 5-times more than the size of processed xml file)
+INFO: Maximum java heap size (saxon needs 5-times more than the size of processed XML file)
   1.80469 GB
 ```
-
-### Saxon
-
-Saxon is expected to be at this location in your system: `/usr/share/java/saxon.jar`
-You need superuser privileges to do this.
-
-```bash
-# download saxon file into /opt folder
-sudo wget https://search.maven.org/remotecontent?filepath=net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar -O /opt/saxon.jar
-# create a symbolic link to the correct location
-sudo ln -s /opt/saxon.jar /usr/share/java/saxon.jar
-```
-
-**Important note: jing archive below also contains Saxon. But that version of Saxon does not support all features that are needed.**
-
-### Jing
-
-Jing is expected to be at this location in your system: `/usr/share/java/jing.jar`
-You need superuser privileges to do this.
-
-```bash
-# download jing into tmp folder
-wget https://github.com/relaxng/jing-trang/releases/download/V20181222/jing-20181222.zip -O /tmp/jing-20181222.zip
-# extract jinfg into /opt
-sudo unzip /tmp/jing-20181222.zip jing-20181222/bin/* -d /opt
-# create a symbolic link to the correct location
-sudo ln -s /opt/jing-20181222/bin/jing.jar /usr/share/java/jing.jar
-rm /tmp/jing-20181222.zip
-```
-
-### UD tools
-
-- Change directory to `Scripts` folder: `cd Scripts`
-- Clone UD tools repository: `git clone https://github.com/UniversalDependencies/tools.git`
-- Install Python regex library: `pip3 install --user regex`
 
 ## Local validation
 
