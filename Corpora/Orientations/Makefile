@@ -121,8 +121,8 @@ SCH = ../../Schema
 OUT = tmp
 
 #### XML
-s = java -jar /usr/share/java/saxon.jar
-j = java -jar /usr/share/java/jing.jar
+s = java -jar ${RUN}/bin/saxon.jar
+j = java -jar ${RUN}/bin/jing.jar
 # Validate with Parla-CLARIN schema
 pc =  $j ${SCH}/parla-clarin.rng
 # Validate with Parla-CLARIN schema
@@ -135,4 +135,3 @@ vra = $j ${SCH}/ParlaMint-teiCorpus.ana.rng
 vrp = $j ${SCH}/ParlaMint-listPerson.rng
 # Corpus listOrg
 vro = $j ${SCH}/ParlaMint-listOrg.rng
-

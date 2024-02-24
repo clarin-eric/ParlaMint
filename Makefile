@@ -39,15 +39,15 @@ check-prereq:
 	@uname -a|grep -iq ubuntu || \
 	  ( echo -n "WARN: not running on ubuntu-derived system: " && uname -a )
 	@echo -n "Saxon: "
-	@test -f /usr/share/java/saxon.jar && \
-	  unzip -p /usr/share/java/saxon.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'net.sf.saxon.Transform' && \
+	@test -f ./Scripts/bin/saxon.jar && \
+	  unzip -p ./Scripts/bin/saxon.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'net.sf.saxon.Transform' && \
 	  echo "OK" || echo "FAIL"
 	@echo -n "Jing: "
-	@test -f /usr/share/java/jing.jar && \
-	  unzip -p /usr/share/java/jing.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'relaxng' && \
+	@test -f ./Scripts/bin/jing.jar && \
+	  unzip -p ./Scripts/bin/jing.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'relaxng' && \
 	  echo "OK" || echo "FAIL"
 	@echo -n "UD tools: "
-	@test -f Scripts/tools/validate.py && \
+	@test -f Scripts/bin/tools/validate.py && \
 	  python3 -m re && \
 	  echo "OK" || echo "FAIL"
 	@which parallel > /dev/null && \
@@ -601,7 +601,7 @@ $(DEV-attributes-summ-XX): DEV-attributes-summ-%: %
 DEV-speaker_types-in-taxonomy:
 	@echo -n "category_id\tterm_en\tcode\tterm_local\n"
 	@for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-*${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '_'| grep -v '.ana.xml'`; do \
-	  java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive \
+	  java -cp ./Scripts/bin/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive \
 	      -qs:'//*:taxonomy[@xml:id="speaker_types"]//*:category/concat(@xml:id,"|"  ,.//*:term[ancestor-or-self::*[@xml:lang][1]/@xml:lang="en"],"|"   ,/*:teiCorpus/@xml:id,"|"   ,.//*:term[not(ancestor-or-self::*[@xml:lang][1]/@xml:lang="en") ])' \
 	      -s:$${root} ; \
 	  echo;\
@@ -726,9 +726,9 @@ create-taxonomy-UD-SYN:
 	Scripts/create-taxonomy-UD-SYN.pl --in Scripts/UD-docs --out ParlaMint-taxonomy-UD-SYN.ana.xml
 
 ######################VARIABLES
-s = java $(JM) -jar /usr/share/java/saxon.jar
+s = java $(JM) -jar ./Scripts/bin/saxon.jar
 P = parallel --gnu --halt 2
-j = java $(JM) -jar /usr/share/java/jing.jar
+j = java $(JM) -jar ./Scripts/bin/jing.jar
 copy = -I % $s -xi:on -xsl:Scripts/copy.xsl -s:% -o:%.all-in-one.xml
 vlink = -xsl:Scripts/check-links.xsl
 listlink = -xsl:Scripts/list-links.xsl
@@ -736,9 +736,9 @@ listrole = -xsl:Scripts/list-affiliation-org-role-pairs.xsl
 listattr = -xsl:Scripts/list-element-attribute.xsl
 faff = -xsl:Scripts/fixings/fix-overlapping-affiliations.xsl
 vcontent = -xsl:Scripts/validate-parlamint.xsl
-getincludes = -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
-getheaderincludes = -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="teiHeader"]//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
-getcomponentincludes = -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'/*/*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
+getincludes = -I % java -cp ./Scripts/bin/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
+getheaderincludes = -I % java -cp ./Scripts/bin//saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="teiHeader"]//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
+getcomponentincludes = -I % java -cp ./Scripts/bin/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'/*/*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
 pc =  $j Schema/parla-clarin.rng                # Validate with Parla-CLARIN schema
 vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text
