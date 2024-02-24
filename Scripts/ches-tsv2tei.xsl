@@ -112,7 +112,7 @@
               <xsl:attribute name="key" select="$ches_name/tei:orgName"/>
               <xsl:attribute name="from" select="$ches_name/tei:orgName/@from"/>
               <xsl:attribute name="to" select="$ches_name/tei:orgName/@to"/>
-	      <xsl:for-each select="$rows/tei:cell">
+	      <xsl:for-each select="$rows[1]/tei:cell">
 		<!-- Columns we don't want in <state> -->
 		<xsl:if test="@type != 'country' and @type != 'pm_id' and @type != 'ches_id' and @type != 'year'">
 		  <xsl:call-template name="ches-variables">
@@ -130,6 +130,8 @@
   
   <xsl:template match="/">
     <xsl:text>&#10;</xsl:text>
+    <!-- For debugging:
+    <xsl:copy-of select="$data"/-->
     <xsl:apply-templates/>
   </xsl:template>
   
