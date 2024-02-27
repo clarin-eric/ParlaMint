@@ -46,7 +46,8 @@ runs:
         path: |
           ParlaMint/Scripts/bin/tools
           ParlaMint/Scripts/bin/Saxon/saxon-he-12.4.jar
-        key: ${{ runner.os }}-ParlaMint-deps-V7
+          ParlaMint/Scripts/bin/Saxon/lib
+        key: ${{ runner.os }}-ParlaMint-deps-V8
     - name: Cache hit
       if: steps.cache_deps.outputs.cache-hit == 'true'
       run: |
