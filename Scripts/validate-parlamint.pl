@@ -9,6 +9,8 @@ use open ':utf8';
 
 use File::Temp qw/ tempfile tempdir /;  #creation of tmp files and directory
 my $tempdirroot = "$Bin/tmp";
+
+mkdir($tempdirroot) unless(-d $tempdirroot);
 my $tmpDir = tempdir(DIR => $tempdirroot, CLEANUP => 1);
 
 binmode(STDIN, ':utf8');
