@@ -20,7 +20,7 @@ do
   all_parla_changed_size=$(echo "$all_parla_changed_size+$size"|bc)
 done
 
-echo "::notice:: total changed parla tei files size=${parla_changed_size} MB"
+echo "::notice:: total changed parla tei files size=${all_parla_changed_size} MB"
 
 
 parla_changed=$(echo "[\"$parla_changed\"]"|sed 's/  */","/g'| sed 's/^\[""\]$/[]/;s/,""//')
