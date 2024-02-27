@@ -38,7 +38,7 @@ MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en E
 CORPUS = LV
 
 #Absolute paths are needed otherwise problems with XSLT
-PARLAMINT := $(shell realpath .. ) # get real absolute path to ParlaMint directory
+PARLAMINT := $(shell realpath .. | tr -d '\n') # get real absolute path to ParlaMint directory
 HERE = ${PARLAMINT}/Corpora
 TEMP = ${HERE}/Temp
 SCH = ${PARLAMINT}/Schema
