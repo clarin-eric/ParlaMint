@@ -12,6 +12,8 @@ use open ':utf8';
 use FindBin qw($Bin);
 use File::Temp qw/ tempfile tempdir /;  #creation of tmp files and directory
 my $tempdirroot = "$Bin/tmp";
+
+mkdir($tempdirroot) unless(-d $tempdirroot);
 my $tmpDir = tempdir(DIR => $tempdirroot, CLEANUP => 1);
 
 binmode(STDIN, ':utf8');
@@ -158,6 +160,8 @@ $scriptConls   = "$Bin/parlamintp2conllu.pl";
 
 $XX_template = "ParlaMint-XX";
 
+my $cmd;
+
 unless ($countryCodes) {
     print STDERR "Need some country codes.\n";
     print STDERR "For help: parlamint2distro.pl -h\n";
@@ -233,10 +237,14 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	my $tmpOutAnaDir = "$tmpDir/$anaDir";
 	my $tmpAnaRoot = "$tmpOutDir/$anaRoot";
 	print STDERR "INFO: ***Fixing TEI.ana corpus for release\n";
-	`$SaxonX outDir=$tmpOutDir -xsl:$scriptRelease $inAnaRoot`;
+    $cmd = "$SaxonX outDir=$tmpOutDir -xsl:$scriptRelease $inAnaRoot";
+    `$cmd`;
+    print STDERR "FATAL ERROR: $cmd exited with $?\n" if $?;
 	print STDERR "INFO: ***Adding common content to TEI.ana corpus\n";
-	`$SaxonX version=$Version handle-ana=$handleAna anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpAnaRoot`;
-	&commonTaxonomies($countryCode, $outAnaDir);
+	$cmd = "$SaxonX version=$Version handle-ana=$handleAna anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpAnaRoot";
+    `$cmd`;
+    print STDERR "FATAL ERROR: $cmd exited with $?\n" if $?;
+    &commonTaxonomies($countryCode, $outAnaDir);
     	&polish($outAnaDir);
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
@@ -260,10 +268,14 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	my $tmpOutTeiDir = "$tmpDir/$teiDir";
 	my $tmpTeiRoot = "$tmpOutDir/$teiRoot";
 	print STDERR "INFO: ***Fixing TEI corpus for release\n";
-	`$SaxonX anaDir=$outAnaDir outDir=$tmpOutDir -xsl:$scriptRelease $inTeiRoot`;
-	print STDERR "INFO: ***Adding common content to TEI corpus\n";
-	`$SaxonX version=$Version handle-txt=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpTeiRoot`;
-	&commonTaxonomies($countryCode, $outTeiDir);
+	$cmd = "$SaxonX anaDir=$outAnaDir outDir=$tmpOutDir -xsl:$scriptRelease $inTeiRoot";
+	`$cmd`;
+    print STDERR "FATAL ERROR: $cmd exited with $?\n" if $?;
+    print STDERR "INFO: ***Adding common content to TEI corpus\n";
+	$cmd = "$SaxonX version=$Version handle-txt=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpTeiRoot";
+	`$cmd`;
+    print STDERR "FATAL ERROR: $cmd exited with $?\n" if $?;
+    &commonTaxonomies($countryCode, $outTeiDir);
 	&polish($outTeiDir);
     }
     if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
