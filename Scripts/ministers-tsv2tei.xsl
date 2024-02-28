@@ -51,8 +51,8 @@
               <xsl:variable name="to" select="normalize-space(regex-group(5))"/>
               <xsl:variable name="govtTermID" select="normalize-space(regex-group(6))"/>
               <xsl:variable name="ministryID" select="normalize-space(regex-group(7))"/>
-              <xsl:variable name="name-xx" select="normalize-space(regex-group(8))"/>
-              <xsl:variable name="name-en" select="normalize-space(regex-group(9))"/>
+              <xsl:variable name="orgName-xx" select="normalize-space(regex-group(8))"/>
+              <xsl:variable name="orgName-en" select="normalize-space(regex-group(9))"/>
               <xsl:variable name="url" select="normalize-space(regex-group(10))"/>
               <xsl:variable name="comment" select="normalize-space(regex-group(11))"/>
               <xsl:if test = '$country != $corpusCountry'>
@@ -80,8 +80,8 @@
                     <xsl:with-param name="to" select="$to"/>
                     <xsl:with-param name="govtTermID" select="$govtTermID"/>
                     <xsl:with-param name="ministryID" select="$ministryID"/>
-                    <xsl:with-param name="name-xx" select="$name-xx"/>
-                    <xsl:with-param name="name-en" select="$name-en"/>
+                    <xsl:with-param name="orgName-xx" select="$orgName-xx"/>
+                    <xsl:with-param name="orgName-en" select="$orgName-en"/>
                     <xsl:with-param name="url" select="$url"/>
                   </xsl:call-template>
                 </xsl:otherwise>
@@ -143,8 +143,8 @@
     <xsl:param name="to"/>
     <xsl:param name="govtTermID"/>
     <xsl:param name="ministryID"/>
-    <xsl:param name="name-xx"/>
-    <xsl:param name="name-en"/>
+    <xsl:param name="orgName-xx"/>
+    <xsl:param name="orgName-en"/>
     <xsl:param name="url"/>
     <person xml:id="{$personID}">
       <affiliation role="minister">
@@ -207,14 +207,14 @@
         <xsl:if test="et:has-content($url)">
           <xsl:attribute name="source" select="$url"/>
         </xsl:if>
-        <xsl:if test="et:has-content($name-xx)">
+        <xsl:if test="et:has-content($orgName-xx)">
           <orgName full="yes">
-            <xsl:value-of select="$name-xx"/>
+            <xsl:value-of select="$orgName-xx"/>
           </orgName>
         </xsl:if>
-        <xsl:if test="et:has-content($name-en)">
+        <xsl:if test="et:has-content($orgName-en)">
           <orgName full="yes" xml:lang="en">
-            <xsl:value-of select="$name-en"/>
+            <xsl:value-of select="$orgName-en"/>
           </orgName>
         </xsl:if>
 	<xsl:if test="et:has-content($govtTermID) and not(normalize-space($govtEvent))">
