@@ -66,69 +66,53 @@ foreach my $inDir (glob "$inDirs") {
         die "FATAL ERROR: Cannot find root file in $inDir!\n"
     }
     if ($rootFile) {
-        print STDERR "INFO: Validating TEI root $rootFile\n";
-	&chars($rootFile);
-        &run("$Jing $schemaDir/ParlaMint-teiCorpus.rng", $rootFile);
-        &run("$Saxon outDir=$tmpDir -xsl:$Compose", $rootFile);
-        &run("$Jing $schemaDir/ParlaMint.odd.rng", "$tmpDir/$fileName");
-        &run("$Saxon -xsl:$Valid", $rootFile);
-        &run("$Saxon -xsl:$Valid_particDesc", $rootFile);
-        &run("$Saxon -xsl:$Links", $rootFile);
-        @includes = split(/\n/, `$Saxon -xsl:$Includes $rootFile`);
-        while (my $f = shift @includes) {
-            $file = "$inDir/$f";
-            if (-e $file) {
-                if($file =~ m/ParlaMint-(?:[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?)?.?(taxonomy|listPerson|listOrg).*\.xml/){
-                    print STDERR "INFO: Validating file included in teiHeader $file\n";
-		    &chars($file);
-                    &run("$Jing $schemaDir/ParlaMint-$1.rng", $file);
-                } else {
-                    print STDERR "INFO: Validating component TEI file $file\n";
-		    &chars($file);
-                    &run("$Jing $schemaDir/ParlaMint-TEI.rng", $file);
-                    &run("$Jing $schemaDir/ParlaMint.odd.rng", $file);
-                    &run("$Saxon -xsl:$Valid", $file);
-                    &run("$Saxon meta=$rootFile -xsl:$Links", $file);
-                }
-            }
-            else {print STDERR "ERROR: $rootFile XIncluded file $file does not exist!\n"}
-        }
+        validate($inDir,$rootFile,$fileName,'TEI');
     }
     else {
         # print STDERR "WARN: No text root file found in $inDir\n"
     }
     if ($rootAnaFile) {
-        print STDERR "INFO: Validating TEI.ana root $rootAnaFile\n";
-	&chars($rootAnaFile);
-        &run("$Jing $schemaDir/ParlaMint-teiCorpus.ana.rng", $rootAnaFile);
-        &run("$Saxon outDir=$tmpDir -xsl:$Compose", $rootAnaFile);
-        &run("$Jing $schemaDir/ParlaMint.odd.rng", "$tmpDir/$fileNameAna");
-        &run("$Saxon -xsl:$Valid", $rootAnaFile);
-        &run("$Saxon -xsl:$Valid_particDesc", $rootAnaFile);
-        &run("$Saxon -xsl:$Links", $rootAnaFile);
-        @includes = split(/\n/, `$Saxon -xsl:$Includes $rootAnaFile`);
-        while (my $f = shift @includes) {
-            $file = "$inDir/$f";
-            if (-e $file) {
-                if($file =~ m/ParlaMint-(?:[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?)?.?(taxonomy|listPerson|listOrg).*\.xml/){
-                    print STDERR "INFO: Validating file included in teiHeader $file\n";
-		    &chars($file);
-                    &run("$Jing $schemaDir/ParlaMint-$1.rng", $file);
-                    &run("$Saxon meta=$rootAnaFile -xsl:$Links", $file);
-                } else {
-                    print STDERR "INFO: Validating component TEI.ana file $file\n";
-		    &chars($file);
-                    &run("$Jing $schemaDir/ParlaMint-TEI.ana.rng", $file);
-                    &run("$Jing $schemaDir/ParlaMint.odd.rng", $file);
-                    &run("$Saxon -xsl:$Valid", $file);
-                    &run("$Saxon meta=$rootAnaFile -xsl:$Links", $file);
-                }
-            }
-            else {print STDERR "ERROR: $rootAnaFile XIncluded file $file does not exist!\n"}
-        }
+        validate($inDir,$rootAnaFile,$fileNameAna,'TEI.ana');
     }
     else {
         # print STDERR "WARN: No root .ana. file found in $inDir\n"
+    }
+}
+
+sub validate {
+    my $inDir = shift;
+    my $rootFile = shift;
+    my $fileName = shift;
+    my $type = shift;
+    my $interfix = $type;
+    $interfix =~ s/^TEI//;
+    print STDERR "INFO: Validating $type root $rootFile\n";
+    &chars($rootFile);
+    &run("$Jing $schemaDir/ParlaMint-teiCorpus$interfix.rng", $rootFile);
+    &run("$Saxon outDir=$tmpDir -xsl:$Compose", $rootFile);
+    &run("$Jing $schemaDir/ParlaMint.odd.rng", "$tmpDir/$fileName");
+    &run("$Saxon -xsl:$Valid", $rootFile);
+    &run("$Saxon -xsl:$Valid_particDesc", $rootFile);
+    &run("$Saxon -xsl:$Links", $rootFile);
+    @includes = split(/\n/, `$Saxon -xsl:$Includes $rootFile`);
+    while (my $f = shift @includes) {
+        $file = "$inDir/$f";
+        if (-e $file) {
+            if($file =~ m/ParlaMint-(?:[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?)?.?(taxonomy|listPerson|listOrg).*\.xml/){
+                print STDERR "INFO: Validating file included in teiHeader $file\n";
+                &chars($file);
+                &run("$Jing $schemaDir/ParlaMint-$1.rng", $file);
+                &run("$Saxon meta=$rootFile -xsl:$Links", $file);
+            } else {
+                print STDERR "INFO: Validating component $type file $file\n";
+                &chars($file);
+                &run("$Jing $schemaDir/ParlaMint-TEI$interfix.rng", $file);
+                &run("$Jing $schemaDir/ParlaMint.odd.rng", $file);
+                &run("$Saxon -xsl:$Valid", $file);
+                &run("$Saxon meta=$rootFile -xsl:$Links", $file);
+            }
+        }
+        else {print STDERR "ERROR: $rootFile XIncluded file $file does not exist!\n"}
     }
 }
 
@@ -146,19 +130,19 @@ sub chars {
     undef %c;
     for $c (split(//, $txt)) {$c{$c}++}
     for $c (sort keys %c) {
-	if (ord($c) == hex('00A0') or  #NO-BREAK SPACE
-	    ord($c) == hex('2011') or  #NON-BREAKING HYPHEN
-	    ord($c) == hex('00AD') or  #SOFT HYPHEN
-	    ord($c) == hex('FFFD') or  #REPLACEMENT CHAR
-	    (ord($c) >= hex('2000') and ord($c) <= hex('200A')) or #NON-STANDARD SPACES
-	    (ord($c) >= hex('E000') and ord($c) <= hex('F8FF'))    #PUA
-	    ) {
-	    $message = sprintf("U+%X (%dx)", ord($c), $c{$c});
-	    push(@bad, $message)
-	}
+      if (ord($c) == hex('00A0') or  #NO-BREAK SPACE
+          ord($c) == hex('2011') or  #NON-BREAKING HYPHEN
+          ord($c) == hex('00AD') or  #SOFT HYPHEN
+          ord($c) == hex('FFFD') or  #REPLACEMENT CHAR
+          (ord($c) >= hex('2000') and ord($c) <= hex('200A')) or #NON-STANDARD SPACES
+          (ord($c) >= hex('E000') and ord($c) <= hex('F8FF'))    #PUA
+          ) {
+          $message = sprintf("U+%X (%dx)", ord($c), $c{$c});
+          push(@bad, $message)
+      }
     }
     print STDERR "WARN: File $fName contains bad chars: " . join('; ', @bad) . "\n"
-	if @bad
+      if @bad
 }
    
 sub run {
