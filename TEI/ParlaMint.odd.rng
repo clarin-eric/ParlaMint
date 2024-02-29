@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2024-02-08T10:34:24Z. 2024-02-08.
+Schema generated from ODD source 2024-02-29T19:46:06Z. 2024-02-08.
 TEI Edition: Version 4.6.0a. Last updated on
         5th January 2023, revision 9074b9038
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0a./
@@ -3523,14 +3523,18 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="tei_affiliation">
       <element name="affiliation">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(affiliation) contains an informal description of a person's present or past affiliation with some organisation, for example a political party or ministry. [15.2.2. The Participant Description]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(affiliation) optionally contains the role name corresponding to the affiliation, the name of the organisation that the person is affiliated with, and notes giving further informal information about the affiliation. [15.2.2. The Participant Description]</a:documentation>
          <zeroOrMore>
             <ref name="tei_roleName"/>
          </zeroOrMore>
          <zeroOrMore>
             <ref name="tei_orgName"/>
          </zeroOrMore>
+         <zeroOrMore>
+            <ref name="tei_note"/>
+         </zeroOrMore>
          <ref name="tei_att.global.analytic.attribute.ana"/>
+         <ref name="tei_att.global.source.attribute.source"/>
          <ref name="tei_att.datable.w3c.attribute.when"/>
          <ref name="tei_att.datable.w3c.attribute.from"/>
          <ref name="tei_att.datable.w3c.attribute.to"/>
@@ -3538,6 +3542,12 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <attribute name="role">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <choice>
+               <value>head</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>minister</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>member</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>academician</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>alternateOfDelegation</value>
@@ -3551,12 +3561,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                <value>deputyHead</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>deputyMinister</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>head</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>member</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>minister</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>ministerDelegate</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>

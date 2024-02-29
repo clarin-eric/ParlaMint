@@ -11,7 +11,7 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2024-02-08T10:34:28Z. 2024-02-08.
+# Schema generated from ODD source 2024-02-29T19:46:10Z. 2024-02-08.
 # TEI Edition: Version 4.6.0a. Last updated on
 #         5th January 2023, revision 9074b9038
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0a./
@@ -2188,11 +2188,13 @@ tei_placeName =
   }
 tei_affiliation =
   
-  ## (affiliation) contains an informal description of a person's present or past affiliation with some organisation, for example a political party or ministry. [15.2.2. The Participant Description]
+  ## (affiliation) optionally contains the role name corresponding to the affiliation, the name of the organisation that the person is affiliated with, and notes giving further informal information about the affiliation. [15.2.2. The Participant Description]
   element affiliation {
     tei_roleName*,
     tei_orgName*,
+    tei_note*,
     tei_att.global.analytic.attribute.ana,
+    tei_att.global.source.attribute.source,
     tei_att.datable.w3c.attribute.when,
     tei_att.datable.w3c.attribute.from,
     tei_att.datable.w3c.attribute.to,
@@ -2202,7 +2204,16 @@ tei_affiliation =
     attribute role {
       
       ##
-      "academician"
+      "head"
+      | 
+        ##
+        "minister"
+      | 
+        ##
+        "member"
+      | 
+        ##
+        "academician"
       | 
         ##
         "alternateOfDelegation"
@@ -2221,15 +2232,6 @@ tei_affiliation =
       | 
         ##
         "deputyMinister"
-      | 
-        ##
-        "head"
-      | 
-        ##
-        "member"
-      | 
-        ##
-        "minister"
       | 
         ##
         "ministerDelegate"

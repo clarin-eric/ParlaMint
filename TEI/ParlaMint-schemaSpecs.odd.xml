@@ -6479,15 +6479,20 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="affiliation" module="namesdates" mode="change">
-      <desc versionDate="2023-04-06" xml:lang="en">contains an informal description of a person's present or past affiliation with some
-    organisation, for example a political party or ministry.</desc>
+      <desc versionDate="2024-02-29" xml:lang="en">optionally contains the role name corresponding to the affiliation,
+    the name of the organisation that the person is affiliated with, and notes giving further informal information
+    about the affiliation.</desc>
       <content>
          <elementRef key="roleName" minOccurs="0" maxOccurs="unbounded"/>
          <elementRef key="orgName" minOccurs="0" maxOccurs="unbounded"/>
+         <elementRef key="note" minOccurs="0" maxOccurs="unbounded"/>
       </content>
       <attList>
          <attDef ident="role" mode="replace" usage="req">
             <valList type="closed">
+               <valItem ident="head"/>
+               <valItem ident="minister"/>
+               <valItem ident="member"/>
                <valItem ident="academician"/>
                <valItem ident="alternateOfDelegation"/>
                <valItem ident="associateMember"/>
@@ -6495,9 +6500,6 @@
                <valItem ident="constitutionalJudge"/>
                <valItem ident="deputyHead"/>
                <valItem ident="deputyMinister"/>
-               <valItem ident="head"/>
-               <valItem ident="member"/>
-               <valItem ident="minister"/>
                <valItem ident="ministerDelegate"/>
                <valItem ident="nonAttachedMember"/>
                <valItem ident="observer"/>
@@ -6511,32 +6513,14 @@
                <valItem ident="secretaryOfState"/>
                <valItem ident="verifier"/>
                <valItem ident="vicePublicDefenderOfRights"/>
-               <!-- Old roles, no longer valid: -->
-               <!--valItem ident="candidateMP"/-->
-               <!--valItem ident="chairperson"/-->
-               <!--valItem ident="chiefInspector"/-->
-               <!--valItem ident="commander"/-->
-               <!--valItem ident="deputyChief"/-->
-               <!--valItem ident="deputyPrimeMinister"/-->
-               <!--valItem ident="director"/-->
-               <!--valItem ident="headOfDelegation"/-->
-               <!--valItem ident="headOfDepartment"/-->
-               <!--valItem ident="leader"/-->
-               <!--valItem ident="ministerOfState"/-->
-               <!--valItem ident="presidentEP"/-->
-               <!--valItem ident="presidiumMember"/-->
-               <!--valItem ident="primeMinister"/-->
-               <!--valItem ident="substituteMP"/-->
-               <!--valItem ident="viceChairman"/-->
-               <!--valItem ident="viceDirector"/-->
-               <!--valItem ident="vicePresident"/-->
             </valList>
          </attDef>
          <!--affiliation/@ref-->
+         <!--affiliation/@ana-->
          <!--affiliation/@when-->
          <!--affiliation/@from-->
          <!--affiliation/@to-->
-         <!--affiliation/@ana-->
+         <!--affiliation/@source-->
          <attDef ident="type" mode="delete"/>
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
@@ -6558,7 +6542,6 @@
          <attDef ident="change" mode="delete"/>
          <attDef ident="cert" mode="delete"/>
          <attDef ident="resp" mode="delete"/>
-         <attDef ident="source" mode="delete"/>
          <attDef ident="evidence" mode="delete"/>
          <attDef ident="instant" mode="delete"/>
          <attDef ident="calendar" mode="delete"/>
