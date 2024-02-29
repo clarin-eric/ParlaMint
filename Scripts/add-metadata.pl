@@ -63,23 +63,27 @@ foreach $inCorpDir (sort glob $inDirs) {
     &process('Transliteration',
 	     "$inCorpDir/ParlaMint-$country-listOrg.xml",
 	     '',
+	     '',
 	     $transScript,
 	     "$tmpDir/ParlaMint-$country-listOrg.trans.xml"
 	     );
     &process('Encoder orientations',
 	     "$tmpDir/ParlaMint-$country-listOrg.trans.xml",
 	     "$orieDir/$oriePrefix$country$encoSuffix",
+	     '',
 	     $encoScript,
 	     "$tmpDir/ParlaMint-$country-listOrg.enco.xml"
 	     );
     &process('CHES orientations',
 	     "$tmpDir/ParlaMint-$country-listOrg.enco.xml",
 	     "$orieDir/$oriePrefix$country$chesSuffix",
+	     '',
 	     $chesScript,
 	     "$tmpDir/ParlaMint-$country-listOrg.ches.xml");
     &process('Wiki orientations',
 	     "$tmpDir/ParlaMint-$country-listOrg.ches.xml",
 	     "$orieDir/$oriePrefix$country$wikiSuffix",
+	     '',
 	     $wikiScript,
 	     "$tmpDir/ParlaMint-$country-listOrg.wiki.xml");
     `$poliScript < $tmpDir/ParlaMint-$country-listOrg.wiki.xml > $outCorpDir/ParlaMint-$country-listOrg.xml`;
@@ -87,12 +91,14 @@ foreach $inCorpDir (sort glob $inDirs) {
     &process('Transliteration',
 	     "$inCorpDir/ParlaMint-$country-listPerson.xml",
 	     '',
+	     '',
 	     $transScript,
 	     "$tmpDir/ParlaMint-$country-listPerson.trans.xml"
 	     );
     &process('Encoder ministers',
 	     "$tmpDir/ParlaMint-$country-listPerson.trans.xml",
 	     "$miniDir/$miniPrefix$country$miniSuffix",
+             "$outCorpDir/ParlaMint-$country-listOrg.xml",
 	     $miniScript,
 	     "$tmpDir/ParlaMint-$country-listPerson.mini.xml");
     `$poliScript < $tmpDir/ParlaMint-$country-listPerson.mini.xml > $outCorpDir/ParlaMint-$country-listPerson.xml`;
@@ -102,14 +108,21 @@ sub process {
     my $type = shift;
     my $inListFile = shift;
     my $tsvFile  = shift;
+    my $xmlFile  = shift;
     my $script  = shift;
     my $outListFile  = shift;
     my $command;
     die "FATAL ERROR: For $type can't find input file $inListFile\n" unless -e $inListFile;
     if ($tsvFile and -e $tsvFile) {
 	print STDERR "INFO: Adding TSV metadata for $type\n";
-	$command = "$Saxon tsv=$tsvFile -xsl:$script $inListFile > $outListFile";
-	`$command`;
+        if ($xmlFile) {
+            die "FATAL ERROR: For $type can't support XML file $xmlFile\n" unless -e $xmlFile;
+            $command = "$Saxon tsv=$tsvFile xml=$xmlFile -xsl:$script $inListFile > $outListFile";
+        }
+        else {
+            $command = "$Saxon tsv=$tsvFile -xsl:$script $inListFile > $outListFile";
+        }
+        `$command`;
     }
     elsif ($tsvFile) {
 	print STDERR "INFO: No TSV metadata for $type, skipping\n";
