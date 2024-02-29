@@ -214,21 +214,7 @@
           </xsl:if>
           <xsl:text>&#32;</xsl:text>
 
-          <!-- The term of the government, if it exists -->
-          <xsl:if test="et:has-content($govtTermID)">
-            <xsl:choose>
-              <xsl:when test="normalize-space($govtEvent)">
-	        <xsl:value-of select="concat('#', $govtEvent)"/>
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:message select="concat('WARN: Cant find government term with ID &#34;', 
-                                     $govtTermID, '&#34; in listOrg, inserting as note.')"/>
-              </xsl:otherwise>
-            </xsl:choose>
-          </xsl:if>
-          <xsl:text>&#32;</xsl:text>
-          
-          <!-- The term of the government, if it exists -->
+          <!-- Referece to the ministry org, if it exists -->
           <xsl:if test="et:has-content($ministryID)">
 	    <xsl:variable name="miniOrg" select="key('id', $ministryID, $listOrg)/tei:org/@xml:id"/>
 	    <xsl:choose>
@@ -251,6 +237,19 @@
           <xsl:attribute name="source" select="$url"/>
         </xsl:if>
         
+        <!-- The term of the government, if it exists -->
+        <xsl:if test="et:has-content($govtTermID)">
+          <xsl:choose>
+            <xsl:when test="normalize-space($govtEvent)">
+              <xsl:attribute name="ana" select="concat('#', $govtEvent)"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:message select="concat('WARN: Cant find government term with ID &#34;', 
+                                   $govtTermID, '&#34; in listOrg, inserting as note.')"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:if>
+
         <!-- Name of ministry in source language and English, if it exists -->
         <xsl:if test="et:has-content($orgName-xx)">
           <orgName full="yes">
