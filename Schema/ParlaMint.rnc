@@ -107,13 +107,8 @@ state =
        ],
     (attribute ana { xsd:anyURI }?)
     >> a:documentation [ "From and to when this information holds." ],
-    (temporal.atts?)
-    >> a:documentation [
-         "Abbreviation(s) of the political party in the source."
-       ],
-    ((element label { orgName+ }
-      >> a:documentation [ "Optional note(s)." ]
-      | element note { lang.att, normalized-space.string }+)?)
+    (temporal.atts?) >> a:documentation [ "Optional note(s)." ],
+    (element note { lang.att, normalized-space.string }*)
     >> a:documentation [
          "Subsidiary states giving more detailed information, e.g. by type of metadatum or by year."
        ],
