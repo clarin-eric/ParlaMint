@@ -270,17 +270,17 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	print STDERR "INFO: ***Fixing TEI corpus for release\n";
 	$cmd = "$SaxonX anaDir=$outAnaDir outDir=$tmpOutDir -xsl:$scriptRelease $inTeiRoot";
 	`$cmd`;
-    print STDERR "FATAL ERROR: $cmd exited with $?\n" if $?;
-    print STDERR "INFO: ***Adding common content to TEI corpus\n";
+        print STDERR "FATAL ERROR: $cmd exited with $?\n" if $?;
+        print STDERR "INFO: ***Adding common content to TEI corpus\n";
 	$cmd = "$SaxonX version=$Version handle-txt=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpTeiRoot";
 	`$cmd`;
-    print STDERR "FATAL ERROR: $cmd exited with $?\n" if $?;
-    &commonTaxonomies($countryCode, $outTeiDir);
+        print STDERR "FATAL ERROR: $cmd exited with $?\n" if $?;
+        &commonTaxonomies($countryCode, $outTeiDir);
 	&polish($outTeiDir);
     }
     if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
 	print STDERR "INFO: ***Making $countryCode samples\n";
-	`rm -fr $outSmpDir`;
+	`rm -fr $outSmpDir; mkdir $outSmpDir`;
 	if (-e $outTeiRoot) {
 	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outTeiRoot`;
 	    `$scriptTexts $outSmpDir $outSmpDir`;
