@@ -34,6 +34,9 @@ $wikiScript  = "$Bin/wiki-tsv2tei.xsl";
 # Scripts that add info to listPerson
 $miniScript = "$Bin/ministers-tsv2tei.xsl";
 
+# Scripts that remove/merge affiliation overlaps in listPerson
+$affiliationScript = "$Bin/affiliations-remove-overlaps.xsl";
+
 # Script that makes XML prettier
 $poliScript = "$Bin/polish-xml.pl";
 
@@ -101,7 +104,11 @@ foreach $inCorpDir (sort glob $inDirs) {
              "$outCorpDir/ParlaMint-$country-listOrg.xml",
 	     $miniScript,
 	     "$tmpDir/ParlaMint-$country-listPerson.mini.xml");
-    `$poliScript < $tmpDir/ParlaMint-$country-listPerson.mini.xml > $outCorpDir/ParlaMint-$country-listPerson.xml`;
+
+    print STDERR "Merging affiliations overlaps\n";
+    `$Saxon -xsl:$affiliationScript $tmpDir/ParlaMint-$country-listPerson.mini.xml > $tmpDir/ParlaMint-$country-listPerson.aff.xml`;
+
+    `$poliScript < $tmpDir/ParlaMint-$country-listPerson.aff.xml > $outCorpDir/ParlaMint-$country-listPerson.xml`;
 }
 
 sub process {
