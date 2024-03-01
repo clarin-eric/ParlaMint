@@ -139,7 +139,27 @@
 
   <xsl:template match="tei:affiliation" mode="affiliation-merge">
     <xsl:param name="extend"/>
-    <xsl:message>INFO: margin affiliations [<xsl:value-of select="./parent::tei:person/@xml:id"/>] role=<xsl:value-of select="@role"/> ref=<xsl:value-of select="@ref"/> ana=<xsl:value-of select="@ana"/>: (<xsl:value-of select="concat(@from,'--',@to)"/>)  +  (<xsl:value-of select="concat($extend/@from,'--',$extend/@to)"/>)</xsl:message>
+    <xsl:message>
+      <xsl:text>INFO: merging affiliations</xsl:text>
+      <xsl:if test="parent::tei:person/@xml:id">
+        <xsl:text> [</xsl:text>
+        <xsl:value-of select="parent::tei:person/@xml:id"/>
+      </xsl:if>
+      <xsl:text>]</xsl:text>
+      <xsl:text> role=</xsl:text>
+      <xsl:value-of select="@role"/>
+      <xsl:text> ref=</xsl:text>
+      <xsl:value-of select="@ref"/>
+      <xsl:if test="@ana">
+        <xsl:text> ana=</xsl:text>
+        <xsl:value-of select="@ana"/>
+      </xsl:if>
+      <xsl:text>: (</xsl:text>
+      <xsl:value-of select="concat(@from,'--',@to)"/>
+      <xsl:text>)  +  (</xsl:text>
+      <xsl:value-of select="concat($extend/@from,'--',$extend/@to)"/>
+      <xsl:text>)</xsl:text>
+    </xsl:message>
     <xsl:copy>
       <xsl:apply-templates select="@*" mode="affiliation-merge">
         <xsl:with-param name="extend" select="$extend"/>
