@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ParlaMint-PL" xml:lang="pl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="pl">Korpus Dyskursu Parlamentarnego ParlaMint-PL [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Polish parliamentary corpus ParlaMint-PL [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="pl">Sprawozdania stenograficzne Sejmu i Senatu RP (2015-2022)</title>
+            <title type="sub" xml:lang="en">Minutes of the Sejm and Senat of the Republic of Poland (2015-2022)</title>
+            <meeting n="8-lower" ana="#parla.lower #parla.term"/>
+            <meeting n="9-lower" ana="#parla.lower #parla.term"/>
+            <meeting n="9-upper" ana="#parla.upper #parla.term"/>
+            <meeting n="10-upper" ana="#parla.upper #parla.term"/>
+            <respStmt>
+               <persName>Maciej Ogrodniczuk</persName>
+               <persName>Michał Lenart</persName>
+               <persName>Daniel Janus</persName>
+               <persName>Bartłomiej Nitoń</persName>
+               <persName>Michał Rudolf</persName>
+               <resp xml:lang="pl">Pobieranie danych i konwersja do TEI</resp>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="pl">Infrastruktura naukowa CLARIN ERIC</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="pl">Komisja Europejska</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="pl">Instytut Podstaw Informatyki, Polska Akademia Nauk</orgName>
+               <orgName xml:lang="en">Institute of Computer Science, Polish Academy of Sciences</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="pl">Ministerstwo Nauki i Szkolnictwa Wyższego, Polska</orgName>
+               <orgName xml:lang="en">Ministry of Science and Higher Education, Poland</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="228326" xml:lang="pl">228.326 wypowiedzi</measure>
+            <measure unit="speeches" quantity="228326" xml:lang="en">228,326 speeches</measure>
+            <measure unit="words" quantity="36064778" xml:lang="pl">36.064.778 słów</measure>
+            <measure unit="words" quantity="36064778" xml:lang="en">36,064,778 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="pl">Infrastruktura badawcza CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="pl">Ten utwór jest dostępny na <ref target="http://creativecommons.org/licenses/by/4.0/">międzynarodowej licencji Creative Commons Attribution 4.0</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2024-03-02">2024-03-02</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="pl">Sprawozdanie stenograficzne z obrad Sejmu RP</title>
+               <title type="main" xml:lang="en">Minutes of the Sejm of the Republic of Poland</title>
+               <publisher>Kancelaria Sejmu Rzeczypospolitej Polskiej</publisher>
+               <idno type="URI" subtype="parliament">http://www.sejm.gov.pl/Sejm9.nsf/page.xsp/archiwum</idno>
+               <date from="2015-11-12" to="2022-06-30">12.11.2015 - 30.06.2022</date>
+            </bibl>
+            <bibl>
+               <title type="main" xml:lang="pl">Sprawozdanie stenograficzne z obrad Senatu RP</title>
+               <title type="main" xml:lang="en">Minutes of the Senat of the Republic of Poland</title>
+               <publisher>Kancelaria Senatu Rzeczypospolitej Polskiej</publisher>
+               <idno type="URI" subtype="parliament">https://www.senat.gov.pl/poprzednie-kadencje/</idno>
+               <date from="2015-11-12" to="2022-06-30">12.11.2015 - 30.06.2022</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="pl"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p xml:lang="en">No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p xml:lang="en">Text has not been normalised, except for spacing.</p>
+            </normalization>
+            <hyphenation>
+               <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
+            </hyphenation>
+            <quotation>
+               <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="686"/>
+               <tagUsage gi="desc" occurs="250002"/>
+               <tagUsage gi="div" occurs="686"/>
+               <tagUsage gi="gap" occurs="1606"/>
+               <tagUsage gi="head" occurs="686"/>
+               <tagUsage gi="incident" occurs="47417"/>
+               <tagUsage gi="kinesic" occurs="94217"/>
+               <tagUsage gi="note" occurs="241406"/>
+               <tagUsage gi="seg" occurs="1097269"/>
+               <tagUsage gi="text" occurs="686"/>
+               <tagUsage gi="u" occurs="228326"/>
+               <tagUsage gi="vocal" occurs="106762"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <xi:include href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include href="ParlaMint-taxonomy-CHES.xml"/>
+            <xi:include href="ParlaMint-taxonomy-politicalOrientation.xml"/>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">ul. Wiejska 4/6/8</name>
+               <name type="city">Warszawa</name>
+               <name type="country" key="PL">Poland</name>
+               <date from="2015-11-06" to="2022-06-30">12.11.2015 - 30.6.2022</date>
+            </setting>
+         </settingDesc>
+         <textClass>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.bi #parla.lower #parla.upper"/>
+         </textClass>
+         <particDesc>
+            <xi:include href="ParlaMint-PL-listOrg.xml"/>
+            <xi:include href="ParlaMint-PL-listPerson.xml"/>
+         </particDesc>
+         <langUsage>
+            <language ident="pl" xml:lang="pl">Polski</language>
+            <language ident="pl" xml:lang="en">Polish</language>
+            <language ident="en" xml:lang="pl">Angielski</language>
+            <language ident="en" xml:lang="en">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2024-03-02">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2024-03-01">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2023-03-28">
+            <name>Michał Rudolf</name>: Generated corpus in Parla-CLARIN.</change>
+         <change when="2024-03-01">parlamint-add-common-content script: Adding common content.</change>
+      </revisionDesc>
+   </teiHeader>
+   <xi:include href="2017/ParlaMint-PL_2017-07-20-sejm-46-3.xml"/>
+   <xi:include href="2020/ParlaMint-PL_2020-01-17-senat-03-3.xml"/>
+   <xi:include href="2022/ParlaMint-PL_2022-06-23-sejm-57-2.xml"/>
+</teiCorpus>
+

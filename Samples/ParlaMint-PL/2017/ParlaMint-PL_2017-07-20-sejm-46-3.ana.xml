@@ -1,0 +1,2074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.ana" ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="pl">Korpus Dyskursu Parlamentarnego ParlaMint-PL (Sejm 46.3, 2023-03-28) [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Polish parliamentary corpus ParlaMint-PL (Sejm 46.3, 2023-03-28) [ParlaMint.ana SAMPLE]</title>
+            <title type="sub" xml:lang="pl">Sprawozdanie stenograficzne z obrad Sejmu RP, 8.kadencja, 46. posiedzenie, 3. dzień (2017-07-20)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Sejm of the Republic of Poland, Term 8, Session 46, Day 3 (2017-07-20)</title>
+            <meeting ana="#parla.lower">Sejm</meeting>
+            <meeting n="8-lower" ana="#parla.lower #parla.term">8. kadencja Sejmu</meeting>
+            <meeting n="46-lower" ana="#parla.lower #parla.session">46. sesja Sejmu</meeting>
+            <meeting n="3-lower" ana="#parla.lower #parla.sitting">3. dzień sesji Sejmu</meeting>
+            <respStmt>
+               <persName>Maciej Ogrodniczuk</persName>
+               <persName>Michał Lenart</persName>
+               <persName>Daniel Janus</persName>
+               <persName>Bartłomiej Nitoń</persName>
+               <persName>Michał Rudolf</persName>
+               <resp xml:lang="pl">Pobieranie danych i konwersja do TEI</resp>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="pl">Infrastruktura naukowa CLARIN ERIC</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="pl">Komisja Europejska</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="pl">Instytut Podstaw Informatyki, Polska Akademia Nauk</orgName>
+               <orgName xml:lang="en">Institute of Computer Science, Polish Academy of Sciences</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="pl">Ministerstwo Nauki i Szkolnictwa Wyższego, Polska</orgName>
+               <orgName xml:lang="en">Ministry of Science and Higher Education, Poland</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="413" xml:lang="pl">413 wypowiedzi</measure>
+            <measure unit="speeches" quantity="413" xml:lang="en">413 speeches</measure>
+            <measure unit="words" quantity="54294" xml:lang="pl">54.294 słów</measure>
+            <measure unit="words" quantity="54294" xml:lang="en">54,294 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="pl">Infrastruktura badawcza CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="pl">Ten utwór jest dostępny na <ref target="http://creativecommons.org/licenses/by/4.0/">międzynarodowej licencji Creative Commons Attribution 4.0</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-03-02">2024-03-02</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="pl">Sprawozdanie stenograficzne z obrad Sejmu RP</title>
+               <title type="main" xml:lang="en">Minutes of the Sejm of the Republic of Poland</title>
+               <publisher>Sprawozdanie stenograficzne z obrad Sejmu RP</publisher>
+               <idno type="URI" subtype="parliament">https://www.sejm.gov.pl/sejm8.nsf/wypowiedz.xsp?posiedzenie=46&amp;dzien=3&amp;wyp=0</idno>
+               <date when="2017-07-20">20.07.2017</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="pl"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="918"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="6"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="incident" occurs="170"/>
+               <tagUsage gi="kinesic" occurs="329"/>
+               <tagUsage gi="link" occurs="66088"/>
+               <tagUsage gi="linkGrp" occurs="4816"/>
+               <tagUsage gi="name" occurs="2119"/>
+               <tagUsage gi="note" occurs="422"/>
+               <tagUsage gi="pc" occurs="11794"/>
+               <tagUsage gi="s" occurs="4816"/>
+               <tagUsage gi="seg" occurs="2460"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="413"/>
+               <tagUsage gi="vocal" occurs="413"/>
+               <tagUsage gi="w" occurs="54294"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">ul. Wiejska 4/6/8</name>
+               <name type="city">Warszawa</name>
+               <name type="country" key="PL">Poland</name>
+               <date ana="#parla.sitting" when="2017-07-20">20.07.2017</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2024-03-02">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-03-28">
+            <name>Michał Rudolf</name>: Generated corpus in Parla-CLARIN.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="pl" ana="#reference">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.ana.head1">46. posiedzenie Sejmu RP 8. kadencji, dzień 3</head>
+            <note type="debate" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.ana.note1">Na posiedzeniu przewodniczą wicemarszałkowie Sejmu Ryszard Terlecki, Stanisław Tyszka, Joachim Brudziński i Barbara Dolniak</note>
+            <note type="speaker" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.ana.note2">Wicemarszałek Ryszard Terlecki:</note>
+            <u who="#RyszardTerlecki" ana="#chair" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.u1">
+               <seg xml:id="seg240511">
+                  <s xml:id="seg240511.1">
+<w lemma="wznawiać" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg240511.1.1">Wznawiam</w>
+<w join="right" lemma="posiedzenie" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" xml:id="seg240511.1.2">posiedzenie</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg240511.1.3">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#seg240511.1 #seg240511.1.1"/>
+<link ana="ud-syn:obj" target="#seg240511.1.1 #seg240511.1.2"/>
+<link ana="ud-syn:punct" target="#seg240511.1.1 #seg240511.1.3"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg240512">
+                  <s xml:id="seg240512.1">
+<w lemma="na" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg240512.1.1">Na</w>
+<w lemma="sekretarz" msd="UPosTag=NOUN|Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur" xml:id="seg240512.1.2">sekretarzy</w>
+<w lemma="dzisiejszy" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Neut|Number=Plur" xml:id="seg240512.1.3">dzisiejszych</w>
+<w lemma="obrady" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Ptan" xml:id="seg240512.1.4">obrad</w>
+<w lemma="powoływać" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg240512.1.5">powołuję</w>
+<w lemma="poseł" msd="UPosTag=NOUN|Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur" xml:id="seg240512.1.6">posłów</w>
+                     <name type="PER">
+<w lemma="Krzysztof" msd="UPosTag=PROPN|Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg240512.1.7">Krzysztofa</w>
+<w join="right" lemma="Kubów" msd="UPosTag=PROPN|Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg240512.1.8">Kubowa</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg240512.1.9">,</pc>
+                     <name type="PER">
+<w lemma="Artur" msd="UPosTag=PROPN|Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg240512.1.10">Artura</w>
+<w join="right" lemma="Soboń" msd="UPosTag=PROPN|Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg240512.1.11">Sobonia</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg240512.1.12">,</pc>
+                     <name type="PER">
+<w lemma="Marcin" msd="UPosTag=PROPN|Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg240512.1.13">Marcina</w>
+<w lemma="Duszek" msd="UPosTag=PROPN|Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg240512.1.14">Duszka</w>
+                     </name>
+<w lemma="oraz" msd="UPosTag=CCONJ" xml:id="seg240512.1.15">oraz</w>
+                     <name type="PER">
+<w lemma="Sylwester" msd="UPosTag=PROPN|Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg240512.1.16">Sylwestra</w>
+<w join="right" lemma="Tułajewa" msd="UPosTag=PROPN|Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg240512.1.17">Tułajewa</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg240512.1.18">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:case" target="#seg240512.1.2 #seg240512.1.1"/>
+<link ana="ud-syn:obl_arg" target="#seg240512.1.5 #seg240512.1.2"/>
+<link ana="ud-syn:amod" target="#seg240512.1.4 #seg240512.1.3"/>
+<link ana="ud-syn:nmod_arg" target="#seg240512.1.2 #seg240512.1.4"/>
+<link ana="ud-syn:root" target="#seg240512.1 #seg240512.1.5"/>
+<link ana="ud-syn:obj" target="#seg240512.1.5 #seg240512.1.6"/>
+<link ana="ud-syn:appos" target="#seg240512.1.6 #seg240512.1.7"/>
+<link ana="ud-syn:flat" target="#seg240512.1.7 #seg240512.1.8"/>
+<link ana="ud-syn:punct" target="#seg240512.1.10 #seg240512.1.9"/>
+<link ana="ud-syn:conj" target="#seg240512.1.6 #seg240512.1.10"/>
+<link ana="ud-syn:flat" target="#seg240512.1.10 #seg240512.1.11"/>
+<link ana="ud-syn:punct" target="#seg240512.1.13 #seg240512.1.12"/>
+<link ana="ud-syn:conj" target="#seg240512.1.6 #seg240512.1.13"/>
+<link ana="ud-syn:flat" target="#seg240512.1.13 #seg240512.1.14"/>
+<link ana="ud-syn:cc" target="#seg240512.1.16 #seg240512.1.15"/>
+<link ana="ud-syn:conj" target="#seg240512.1.6 #seg240512.1.16"/>
+<link ana="ud-syn:flat" target="#seg240512.1.16 #seg240512.1.17"/>
+<link ana="ud-syn:punct" target="#seg240512.1.5 #seg240512.1.18"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg240513">
+                  <s xml:id="seg240513.1">
+<w lemma="w" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg240513.1.1">W</w>
+<w lemma="pierwszy" msd="UPosTag=ADJ|Case=Loc|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg240513.1.2">pierwszej</w>
+<w lemma="część" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" xml:id="seg240513.1.3">części</w>
+<w lemma="obrady" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Ptan" xml:id="seg240513.1.4">obrad</w>
+<w lemma="sekretarz" msd="UPosTag=NOUN|Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur" xml:id="seg240513.1.5">sekretarzami</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin" xml:id="seg240513.1.6">będą</w>
+<w lemma="poseł" msd="UPosTag=NOUN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur" xml:id="seg240513.1.7">posłowie</w>
+                     <name type="PER">
+<w lemma="Krzysztof" msd="UPosTag=PROPN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg240513.1.8">Krzysztof</w>
+<w lemma="Kubów" msd="UPosTag=PROPN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur" xml:id="seg240513.1.9">Kubów</w>
+                     </name>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg240513.1.10">i</w>
+                     <name type="PER">
+<w lemma="Artur" msd="UPosTag=PROPN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg240513.1.11">Artur</w>
+<w join="right" lemma="Soboń" msd="UPosTag=PROPN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg240513.1.12">Soboń</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg240513.1.13">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:case" target="#seg240513.1.3 #seg240513.1.1"/>
+<link ana="ud-syn:amod" target="#seg240513.1.3 #seg240513.1.2"/>
+<link ana="ud-syn:obl" target="#seg240513.1.5 #seg240513.1.3"/>
+<link ana="ud-syn:nmod_arg" target="#seg240513.1.3 #seg240513.1.4"/>
+<link ana="ud-syn:root" target="#seg240513.1 #seg240513.1.5"/>
+<link ana="ud-syn:cop" target="#seg240513.1.5 #seg240513.1.6"/>
+<link ana="ud-syn:nsubj" target="#seg240513.1.5 #seg240513.1.7"/>
+<link ana="ud-syn:appos" target="#seg240513.1.7 #seg240513.1.8"/>
+<link ana="ud-syn:flat" target="#seg240513.1.8 #seg240513.1.9"/>
+<link ana="ud-syn:cc" target="#seg240513.1.11 #seg240513.1.10"/>
+<link ana="ud-syn:conj" target="#seg240513.1.7 #seg240513.1.11"/>
+<link ana="ud-syn:flat" target="#seg240513.1.11 #seg240513.1.12"/>
+<link ana="ud-syn:punct" target="#seg240513.1.5 #seg240513.1.13"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg240514">
+                  <s xml:id="seg240514.1">
+<w lemma="protokół" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg240514.1.1">Protokół</w>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg240514.1.2">i</w>
+<w lemma="lista" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="seg240514.1.3">listę</w>
+<w lemma="mówca" msd="UPosTag=NOUN|Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur" xml:id="seg240514.1.4">mówców</w>
+<w lemma="prowadzić" msd="UPosTag=VERB|Aspect=Imp|VerbForm=Inf|Voice=Act" xml:id="seg240514.1.5">prowadzić</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin" xml:id="seg240514.1.6">będą</w>
+<w lemma="poseł" msd="UPosTag=NOUN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur" xml:id="seg240514.1.7">posłowie</w>
+                     <name type="PER">
+<w lemma="Krzysztof" msd="UPosTag=PROPN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg240514.1.8">Krzysztof</w>
+<w lemma="Kubów" msd="UPosTag=PROPN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur" xml:id="seg240514.1.9">Kubów</w>
+                     </name>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg240514.1.10">i</w>
+                     <name type="PER">
+<w lemma="Marcin" msd="UPosTag=PROPN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg240514.1.11">Marcin</w>
+<w join="right" lemma="Duszek" msd="UPosTag=PROPN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg240514.1.12">Duszek</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg240514.1.13">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:obj" target="#seg240514.1.5 #seg240514.1.1"/>
+<link ana="ud-syn:cc" target="#seg240514.1.3 #seg240514.1.2"/>
+<link ana="ud-syn:conj" target="#seg240514.1.1 #seg240514.1.3"/>
+<link ana="ud-syn:nmod_arg" target="#seg240514.1.3 #seg240514.1.4"/>
+<link ana="ud-syn:root" target="#seg240514.1 #seg240514.1.5"/>
+<link ana="ud-syn:aux" target="#seg240514.1.5 #seg240514.1.6"/>
+<link ana="ud-syn:nsubj" target="#seg240514.1.5 #seg240514.1.7"/>
+<link ana="ud-syn:appos" target="#seg240514.1.7 #seg240514.1.8"/>
+<link ana="ud-syn:flat" target="#seg240514.1.8 #seg240514.1.9"/>
+<link ana="ud-syn:cc" target="#seg240514.1.11 #seg240514.1.10"/>
+<link ana="ud-syn:conj" target="#seg240514.1.7 #seg240514.1.11"/>
+<link ana="ud-syn:flat" target="#seg240514.1.11 #seg240514.1.12"/>
+<link ana="ud-syn:punct" target="#seg240514.1.5 #seg240514.1.13"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg240515">
+                  <s xml:id="seg240515.1">
+<w lemma="pan" msd="UPosTag=NOUN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur" xml:id="seg240515.1.1">Panowie</w>
+<w lemma="sekretarz" msd="UPosTag=NOUN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur" xml:id="seg240515.1.2">sekretarze</w>
+<w lemma="już" msd="UPosTag=PART" xml:id="seg240515.1.3">już</w>
+<w lemma="być" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg240515.1.4">są</w>
+<w lemma="na" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg240515.1.5">na</w>
+<w join="right" lemma="miejsce" msd="UPosTag=NOUN|Case=Loc|Gender=Neut|Number=Sing" xml:id="seg240515.1.6">miejscu</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg240515.1.7">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:nsubj" target="#seg240515.1.4 #seg240515.1.1"/>
+<link ana="ud-syn:appos" target="#seg240515.1.1 #seg240515.1.2"/>
+<link ana="ud-syn:advmod" target="#seg240515.1.4 #seg240515.1.3"/>
+<link ana="ud-syn:root" target="#seg240515.1 #seg240515.1.4"/>
+<link ana="ud-syn:case" target="#seg240515.1.6 #seg240515.1.5"/>
+<link ana="ud-syn:obl" target="#seg240515.1.4 #seg240515.1.6"/>
+<link ana="ud-syn:punct" target="#seg240515.1.4 #seg240515.1.7"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg240516">
+                  <s xml:id="seg240516.1">
+<w lemma="prosić" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg240516.1.1">Proszę</w>
+<w lemma="pan" msd="UPosTag=NOUN|Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg240516.1.2">pana</w>
+<w lemma="sekretarz" msd="UPosTag=NOUN|Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg240516.1.3">sekretarza</w>
+<w lemma="o" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg240516.1.4">o</w>
+<w lemma="odczytać" msd="UPosTag=NOUN|Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun" xml:id="seg240516.1.5">odczytanie</w>
+<w join="right" lemma="komunikat" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur" xml:id="seg240516.1.6">komunikatów</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg240516.1.7">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#seg240516.1 #seg240516.1.1"/>
+<link ana="ud-syn:obj" target="#seg240516.1.1 #seg240516.1.2"/>
+<link ana="ud-syn:appos" target="#seg240516.1.2 #seg240516.1.3"/>
+<link ana="ud-syn:case" target="#seg240516.1.5 #seg240516.1.4"/>
+<link ana="ud-syn:obl_arg" target="#seg240516.1.1 #seg240516.1.5"/>
+<link ana="ud-syn:obj" target="#seg240516.1.5 #seg240516.1.6"/>
+<link ana="ud-syn:punct" target="#seg240516.1.1 #seg240516.1.7"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.ana.note3">Sekretarz Poseł Krzysztof Kubów:</note>
+            <u who="#KrzysztofKubów" ana="#regular" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.u2">
+               <seg xml:id="seg240517">
+                  <s xml:id="seg240517.1">
+<w join="right" lemma="informować" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg240517.1.1">Informuję</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg240517.1.2">,</pc>
+<w lemma="że" msd="UPosTag=SCONJ" xml:id="seg240517.1.3">że</w>
+<w lemma="w" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg240517.1.4">w</w>
+<w lemma="dzień" msd="UPosTag=NOUN|Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing" xml:id="seg240517.1.5">dniu</w>
+<w lemma="dzisiejszy" msd="UPosTag=ADJ|Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg240517.1.6">dzisiejszym</w>
+<w lemma="odbyć" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act" xml:id="seg240517.1.7">odbędą</w>
+<w lemma="się" msd="UPosTag=PRON|PronType=Prs|Reflex=Yes" xml:id="seg240517.1.8">się</w>
+<w lemma="posiedzenie" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Plur" xml:id="seg240517.1.9">posiedzenia</w>
+                     <name type="ORG">
+<w join="right" lemma="komisja" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg240517.1.10">Komisji</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Colo" xml:id="seg240517.1.11">:</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#seg240517.1 #seg240517.1.1"/>
+<link ana="ud-syn:punct" target="#seg240517.1.7 #seg240517.1.2"/>
+<link ana="ud-syn:mark" target="#seg240517.1.7 #seg240517.1.3"/>
+<link ana="ud-syn:case" target="#seg240517.1.5 #seg240517.1.4"/>
+<link ana="ud-syn:obl" target="#seg240517.1.7 #seg240517.1.5"/>
+<link ana="ud-syn:amod" target="#seg240517.1.5 #seg240517.1.6"/>
+<link ana="ud-syn:ccomp" target="#seg240517.1.1 #seg240517.1.7"/>
+<link ana="ud-syn:expl_pv" target="#seg240517.1.7 #seg240517.1.8"/>
+<link ana="ud-syn:nsubj" target="#seg240517.1.7 #seg240517.1.9"/>
+<link ana="ud-syn:nmod" target="#seg240517.1.9 #seg240517.1.10"/>
+<link ana="ud-syn:punct" target="#seg240517.1.1 #seg240517.1.11"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg240518">
+                  <s xml:id="seg240518.1">
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg240518.1.1">-</pc>
+<w join="right" lemma="edukacja" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" xml:id="seg240518.1.2">Edukacji</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg240518.1.3">,</pc>
+                     <name type="ORG">
+<w lemma="nauka" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" xml:id="seg240518.1.4">Nauki</w>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg240518.1.5">i</w>
+<w lemma="młodzież" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="seg240518.1.6">Młodzieży</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg240518.1.7">-</pc>
+<w join="right" lemma="godzina" msd="UPosTag=X|Abbr=Yes|Pun=Yes" xml:id="seg240518.1.8">godz</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg240518.1.9">.</pc>
+<w join="right" lemma="9.30" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|NumForm=Digit|NumType=Ord|Number=Sing" xml:id="seg240518.1.10">9.30</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg240518.1.11">,</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:punct" target="#seg240518.1.2 #seg240518.1.1"/>
+<link ana="ud-syn:root" target="#seg240518.1 #seg240518.1.2"/>
+<link ana="ud-syn:punct" target="#seg240518.1.4 #seg240518.1.3"/>
+<link ana="ud-syn:conj" target="#seg240518.1.2 #seg240518.1.4"/>
+<link ana="ud-syn:cc" target="#seg240518.1.6 #seg240518.1.5"/>
+<link ana="ud-syn:conj" target="#seg240518.1.2 #seg240518.1.6"/>
+<link ana="ud-syn:punct" target="#seg240518.1.8 #seg240518.1.7"/>
+<link ana="ud-syn:nmod" target="#seg240518.1.2 #seg240518.1.8"/>
+<link ana="ud-syn:punct" target="#seg240518.1.8 #seg240518.1.9"/>
+<link ana="ud-syn:amod" target="#seg240518.1.8 #seg240518.1.10"/>
+<link ana="ud-syn:punct" target="#seg240518.1.2 #seg240518.1.11"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg240519">
+                  <s xml:id="seg240519.1">
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg240519.1.1">-</pc>
+<w lemma="etyka" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="seg240519.1.2">Etyki</w>
+<w lemma="poselski" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg240519.1.3">Poselskiej</w>
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg240519.1.4">-</pc>
+<w join="right" lemma="godzina" msd="UPosTag=X|Abbr=Yes|Pun=Yes" xml:id="seg240519.1.5">godz</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg240519.1.6">.</pc>
+<w join="right" lemma="9.30" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|NumForm=Digit|NumType=Ord|Number=Sing" xml:id="seg240519.1.7">9.30</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg240519.1.8">,</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:punct" target="#seg240519.1.2 #seg240519.1.1"/>
+<link ana="ud-syn:root" target="#seg240519.1 #seg240519.1.2"/>
+<link ana="ud-syn:flat" target="#seg240519.1.2 #seg240519.1.3"/>
+<link ana="ud-syn:punct" target="#seg240519.1.5 #seg240519.1.4"/>
+<link ana="ud-syn:nmod" target="#seg240519.1.2 #seg240519.1.5"/>
+<link ana="ud-syn:punct" target="#seg240519.1.5 #seg240519.1.6"/>
+<link ana="ud-syn:amod" target="#seg240519.1.5 #seg240519.1.7"/>
+<link ana="ud-syn:punct" target="#seg240519.1.2 #seg240519.1.8"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg240520">
+                  <s xml:id="seg240520.1">
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg240520.1.1">-</pc>
+<w lemma="finanse" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Ptan" xml:id="seg240520.1.2">Finansów</w>
+<w lemma="publiczny" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Neut|Number=Plur" xml:id="seg240520.1.3">Publicznych</w>
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg240520.1.4">-</pc>
+<w join="right" lemma="godzina" msd="UPosTag=X|Abbr=Yes|Pun=Yes" xml:id="seg240520.1.5">godz</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg240520.1.6">.</pc>
+<w join="right" lemma="9.30" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|NumForm=Digit|NumType=Ord|Number=Sing" xml:id="seg240520.1.7">9.30</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg240520.1.8">,</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:punct" target="#seg240520.1.2 #seg240520.1.1"/>
+<link ana="ud-syn:root" target="#seg240520.1 #seg240520.1.2"/>
+<link ana="ud-syn:amod" target="#seg240520.1.2 #seg240520.1.3"/>
+<link ana="ud-syn:punct" target="#seg240520.1.5 #seg240520.1.4"/>
+<link ana="ud-syn:nmod" target="#seg240520.1.2 #seg240520.1.5"/>
+<link ana="ud-syn:punct" target="#seg240520.1.5 #seg240520.1.6"/>
+<link ana="ud-syn:amod" target="#seg240520.1.5 #seg240520.1.7"/>
+<link ana="ud-syn:punct" target="#seg240520.1.2 #seg240520.1.8"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg240521">
+                  <s xml:id="seg240521.1">
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg240521.1.1">-</pc>
+<w lemma="infrastruktura" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" xml:id="seg240521.1.2">Infrastruktury</w>
+<w lemma="wspólnie" msd="UPosTag=ADV|Degree=Pos" xml:id="seg240521.1.3">wspólnie</w>
+<w lemma="z" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg240521.1.4">z</w>
+                     <name type="ORG">
+<w lemma="komisja" msd="UPosTag=NOUN|Case=Ins|Gender=Fem|Number=Sing" xml:id="seg240521.1.5">Komisją</w>
+<w lemma="samorząd" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg240521.1.6">Samorządu</w>
+<w lemma="terytorialny" msd="UPosTag=ADJ|Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg240521.1.7">Terytorialnego</w>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg240521.1.8">i</w>
+<w lemma="polityka" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg240521.1.9">Polityki</w>
+<w lemma="regionalny" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg240521.1.10">Regionalnej</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg240521.1.11">-</pc>
+<w join="right" lemma="godzina" msd="UPosTag=X|Abbr=Yes|Pun=Yes" xml:id="seg240521.1.12">godz</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg240521.1.13">.</pc>
+<w join="right" lemma="9.30" msd="UPosTag=X|Gender=Fem|NumForm=Digit" xml:id="seg240521.1.14">9.30</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg240521.1.15">,</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:punct" target="#seg240521.1.2 #seg240521.1.1"/>
+<link ana="ud-syn:root" target="#seg240521.1 #seg240521.1.2"/>
+<link ana="ud-syn:case" target="#seg240521.1.2 #seg240521.1.3"/>
+<link ana="ud-syn:case" target="#seg240521.1.5 #seg240521.1.4"/>
+<link ana="ud-syn:obl_arg" target="#seg240521.1.2 #seg240521.1.5"/>
+<link ana="ud-syn:flat" target="#seg240521.1.5 #seg240521.1.6"/>
+<link ana="ud-syn:flat" target="#seg240521.1.6 #seg240521.1.7"/>
+<link ana="ud-syn:cc" target="#seg240521.1.9 #seg240521.1.8"/>
+<link ana="ud-syn:conj" target="#seg240521.1.6 #seg240521.1.9"/>
+<link ana="ud-syn:flat" target="#seg240521.1.9 #seg240521.1.10"/>
+<link ana="ud-syn:punct" target="#seg240521.1.12 #seg240521.1.11"/>
+<link ana="ud-syn:nmod" target="#seg240521.1.2 #seg240521.1.12"/>
+<link ana="ud-syn:punct" target="#seg240521.1.12 #seg240521.1.13"/>
+<link ana="ud-syn:amod" target="#seg240521.1.12 #seg240521.1.14"/>
+<link ana="ud-syn:punct" target="#seg240521.1.2 #seg240521.1.15"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg240522">
+                  <s xml:id="seg240522.1">
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg240522.1.1">-</pc>
+<w lemma="polityka" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg240522.1.2">Polityki</w>
+<w lemma="społeczny" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg240522.1.3">Społecznej</w>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg240522.1.4">i</w>
+<w lemma="rodzina" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg240522.1.5">Rodziny</w>
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg240522.1.6">-</pc>
+<w join="right" lemma="godzina" msd="UPosTag=X|Abbr=Yes|Pun=Yes" xml:id="seg240522.1.7">godz</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg240522.1.8">.</pc>
+<w join="right" lemma="9.30" msd="UPosTag=ADJ|Degree=Pos|Gender=Fem|NumForm=Digit|NumType=Ord" xml:id="seg240522.1.9">9.30</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg240522.1.10">,</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:punct" target="#seg240522.1.2 #seg240522.1.1"/>
+<link ana="ud-syn:root" target="#seg240522.1 #seg240522.1.2"/>
+<link ana="ud-syn:flat" target="#seg240522.1.2 #seg240522.1.3"/>
+<link ana="ud-syn:cc" target="#seg240522.1.5 #seg240522.1.4"/>
+<link ana="ud-syn:conj" target="#seg240522.1.2 #seg240522.1.5"/>
+<link ana="ud-syn:punct" target="#seg240522.1.7 #seg240522.1.6"/>
+<link ana="ud-syn:nmod" target="#seg240522.1.2 #seg240522.1.7"/>
+<link ana="ud-syn:punct" target="#seg240522.1.7 #seg240522.1.8"/>
+<link ana="ud-syn:amod" target="#seg240522.1.7 #seg240522.1.9"/>
+<link ana="ud-syn:punct" target="#seg240522.1.2 #seg240522.1.10"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg240523">
+                  <s xml:id="seg240523.1">
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg240523.1.1">-</pc>
+<w lemma="kultura" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" xml:id="seg240523.1.2">Kultury</w>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg240523.1.3">i</w>
+<w lemma="środek" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Ptan" xml:id="seg240523.1.4">Środków</w>
+<w lemma="przekaz" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg240523.1.5">Przekazu</w>
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg240523.1.6">-</pc>
+<w join="right" lemma="godzina" msd="UPosTag=X|Abbr=Yes|Pun=Yes" xml:id="seg240523.1.7">godz</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg240523.1.8">.</pc>
+<w join="right" lemma="11" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|NumForm=Digit|NumType=Ord" xml:id="seg240523.1.9">11</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg240523.1.10">,</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:punct" target="#seg240523.1.2 #seg240523.1.1"/>
+<link ana="ud-syn:root" target="#seg240523.1 #seg240523.1.2"/>
+<link ana="ud-syn:cc" target="#seg240523.1.4 #seg240523.1.3"/>
+<link ana="ud-syn:conj" target="#seg240523.1.2 #seg240523.1.4"/>
+<link ana="ud-syn:nmod" target="#seg240523.1.2 #seg240523.1.5"/>
+<link ana="ud-syn:punct" target="#seg240523.1.7 #seg240523.1.6"/>
+<link ana="ud-syn:nmod" target="#seg240523.1.2 #seg240523.1.7"/>
+<link ana="ud-syn:punct" target="#seg240523.1.7 #seg240523.1.8"/>
+<link ana="ud-syn:amod" target="#seg240523.1.7 #seg240523.1.9"/>
+<link ana="ud-syn:punct" target="#seg240523.1.2 #seg240523.1.10"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg240524">
+                  <s xml:id="seg240524.1">
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg240524.1.1">-</pc>
+<w lemma="finanse" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Ptan" xml:id="seg240524.1.2">Finansów</w>
+<w lemma="publiczny" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Neut|Number=Plur" xml:id="seg240524.1.3">Publicznych</w>
+<w lemma="wspólnie" msd="UPosTag=ADV|Degree=Pos" xml:id="seg240524.1.4">wspólnie</w>
+<w lemma="z" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg240524.1.5">z</w>
+                     <name type="ORG">
+<w lemma="komisja" msd="UPosTag=NOUN|Case=Ins|Gender=Fem|Number=Sing" xml:id="seg240524.1.6">Komisją</w>
+<w lemma="gospodarka" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg240524.1.7">Gospodarki</w>
+<w lemma="morski" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg240524.1.8">Morskiej</w>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg240524.1.9">i</w>
+<w lemma="żegluga" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg240524.1.10">Żeglugi</w>
+<w join="right" lemma="śródlądowy" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg240524.1.11">Śródlądowej</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg240524.1.12">,</pc>
+                     <name type="ORG">
+<w lemma="komisja" msd="UPosTag=NOUN|Case=Ins|Gender=Fem|Number=Sing" xml:id="seg240524.1.13">Komisją</w>
+<w lemma="ochrona" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg240524.1.14">Ochrony</w>
+<w join="right" lemma="środowisko" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" xml:id="seg240524.1.15">Środowiska</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg240524.1.16">,</pc>
+<w lemma="zasoby" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur" xml:id="seg240524.1.17">Zasobów</w>
+<w lemma="naturalny" msd="UPosTag=ADJ|Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur" xml:id="seg240524.1.18">Naturalnych</w>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg240524.1.19">i</w>
+<w lemma="leśnictwo" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" xml:id="seg240524.1.20">Leśnictwa</w>
+                     </name>
+<w lemma="oraz" msd="UPosTag=CCONJ" xml:id="seg240524.1.21">oraz</w>
+                     <name type="ORG">
+<w lemma="komisja" msd="UPosTag=NOUN|Case=Ins|Gender=Fem|Number=Sing" xml:id="seg240524.1.22">Komisją</w>
+<w lemma="rolnictwo" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" xml:id="seg240524.1.23">Rolnictwa</w>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg240524.1.24">i</w>
+<w lemma="rozwój" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg240524.1.25">Rozwoju</w>
+<w lemma="wieś" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg240524.1.26">Wsi</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg240524.1.27">-</pc>
+<w join="right" lemma="godzina" msd="UPosTag=X|Abbr=Yes|Pun=Yes" xml:id="seg240524.1.28">godz</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg240524.1.29">.</pc>
+<w join="right" lemma="12" msd="UPosTag=X|NumForm=Digit" xml:id="seg240524.1.30">12</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg240524.1.31">,</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:punct" target="#seg240524.1.2 #seg240524.1.1"/>
+<link ana="ud-syn:root" target="#seg240524.1 #seg240524.1.2"/>
+<link ana="ud-syn:amod" target="#seg240524.1.2 #seg240524.1.3"/>
+<link ana="ud-syn:case" target="#seg240524.1.6 #seg240524.1.4"/>
+<link ana="ud-syn:fixed" target="#seg240524.1.4 #seg240524.1.5"/>
+<link ana="ud-syn:obl_arg" target="#seg240524.1.2 #seg240524.1.6"/>
+<link ana="ud-syn:flat" target="#seg240524.1.6 #seg240524.1.7"/>
+<link ana="ud-syn:flat" target="#seg240524.1.7 #seg240524.1.8"/>
+<link ana="ud-syn:cc" target="#seg240524.1.10 #seg240524.1.9"/>
+<link ana="ud-syn:conj" target="#seg240524.1.7 #seg240524.1.10"/>
+<link ana="ud-syn:flat" target="#seg240524.1.10 #seg240524.1.11"/>
+<link ana="ud-syn:punct" target="#seg240524.1.13 #seg240524.1.12"/>
+<link ana="ud-syn:conj" target="#seg240524.1.6 #seg240524.1.13"/>
+<link ana="ud-syn:flat" target="#seg240524.1.13 #seg240524.1.14"/>
+<link ana="ud-syn:flat" target="#seg240524.1.14 #seg240524.1.15"/>
+<link ana="ud-syn:punct" target="#seg240524.1.17 #seg240524.1.16"/>
+<link ana="ud-syn:conj" target="#seg240524.1.7 #seg240524.1.17"/>
+<link ana="ud-syn:amod" target="#seg240524.1.17 #seg240524.1.18"/>
+<link ana="ud-syn:cc" target="#seg240524.1.20 #seg240524.1.19"/>
+<link ana="ud-syn:conj" target="#seg240524.1.7 #seg240524.1.20"/>
+<link ana="ud-syn:cc" target="#seg240524.1.22 #seg240524.1.21"/>
+<link ana="ud-syn:conj" target="#seg240524.1.6 #seg240524.1.22"/>
+<link ana="ud-syn:flat" target="#seg240524.1.22 #seg240524.1.23"/>
+<link ana="ud-syn:cc" target="#seg240524.1.25 #seg240524.1.24"/>
+<link ana="ud-syn:conj" target="#seg240524.1.23 #seg240524.1.25"/>
+<link ana="ud-syn:flat" target="#seg240524.1.25 #seg240524.1.26"/>
+<link ana="ud-syn:punct" target="#seg240524.1.28 #seg240524.1.27"/>
+<link ana="ud-syn:nmod" target="#seg240524.1.22 #seg240524.1.28"/>
+<link ana="ud-syn:punct" target="#seg240524.1.28 #seg240524.1.29"/>
+<link ana="ud-syn:nmod" target="#seg240524.1.28 #seg240524.1.30"/>
+<link ana="ud-syn:punct" target="#seg240524.1.2 #seg240524.1.31"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg240525">
+                  <s xml:id="seg240525.1">
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg240525.1.1">-</pc>
+<w lemma="do" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg240525.1.2">do</w>
+<w lemma="sprawa" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" xml:id="seg240525.1.3">Spraw</w>
+                     <name type="ORG">
+<w lemma="unia" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg240525.1.4">Unii</w>
+<w lemma="europejski" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg240525.1.5">Europejskiej</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg240525.1.6">-</pc>
+<w join="right" lemma="godzina" msd="UPosTag=X|Abbr=Yes|Pun=Yes" xml:id="seg240525.1.7">godz</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg240525.1.8">.</pc>
+<w join="right" lemma="13" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|NumForm=Digit|NumType=Ord|Number=Sing" xml:id="seg240525.1.9">13</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg240525.1.10">,</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:punct" target="#seg240525.1.3 #seg240525.1.1"/>
+<link ana="ud-syn:case" target="#seg240525.1.3 #seg240525.1.2"/>
+<link ana="ud-syn:root" target="#seg240525.1 #seg240525.1.3"/>
+<link ana="ud-syn:flat" target="#seg240525.1.3 #seg240525.1.4"/>
+<link ana="ud-syn:flat" target="#seg240525.1.4 #seg240525.1.5"/>
+<link ana="ud-syn:punct" target="#seg240525.1.7 #seg240525.1.6"/>
+<link ana="ud-syn:nmod" target="#seg240525.1.3 #seg240525.1.7"/>
+<link ana="ud-syn:punct" target="#seg240525.1.7 #seg240525.1.8"/>
+<link ana="ud-syn:amod" target="#seg240525.1.7 #seg240525.1.9"/>
+<link ana="ud-syn:punct" target="#seg240525.1.3 #seg240525.1.10"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg240526">
+                  <s xml:id="seg240526.1">
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg240526.1.1">-</pc>
+<w join="right" lemma="regulaminowy" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg240526.1.2">Regulaminowej</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg240526.1.3">,</pc>
+                     <name type="ORG">
+<w lemma="sprawa" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" xml:id="seg240526.1.4">Spraw</w>
+<w lemma="poselski" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Plur" xml:id="seg240526.1.5">Poselskich</w>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg240526.1.6">i</w>
+<w lemma="immunitetowy" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Plur" xml:id="seg240526.1.7">Immunitetowych</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg240526.1.8">-</pc>
+<w join="right" lemma="godzina" msd="UPosTag=X|Abbr=Yes|Pun=Yes" xml:id="seg240526.1.9">godz</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg240526.1.10">.</pc>
+<w join="right" lemma="13" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|NumForm=Digit|NumType=Ord|Number=Sing" xml:id="seg240526.1.11">13</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg240526.1.12">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:punct" target="#seg240526.1.2 #seg240526.1.1"/>
+<link ana="ud-syn:root" target="#seg240526.1 #seg240526.1.2"/>
+<link ana="ud-syn:punct" target="#seg240526.1.4 #seg240526.1.3"/>
+<link ana="ud-syn:conj" target="#seg240526.1.2 #seg240526.1.4"/>
+<link ana="ud-syn:flat" target="#seg240526.1.4 #seg240526.1.5"/>
+<link ana="ud-syn:cc" target="#seg240526.1.7 #seg240526.1.6"/>
+<link ana="ud-syn:conj" target="#seg240526.1.5 #seg240526.1.7"/>
+<link ana="ud-syn:punct" target="#seg240526.1.9 #seg240526.1.8"/>
+<link ana="ud-syn:conj" target="#seg240526.1.2 #seg240526.1.9"/>
+<link ana="ud-syn:punct" target="#seg240526.1.9 #seg240526.1.10"/>
+<link ana="ud-syn:amod" target="#seg240526.1.9 #seg240526.1.11"/>
+<link ana="ud-syn:punct" target="#seg240526.1.2 #seg240526.1.12"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg240527">
+                  <s xml:id="seg240527.1">
+<w join="right" lemma="dziękować" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg240527.1.1">Dziękuję</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg240527.1.2">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#seg240527.1 #seg240527.1.1"/>
+<link ana="ud-syn:punct" target="#seg240527.1.1 #seg240527.1.2"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#LidiaGądek" ana="#regular" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.u412">
+               <seg xml:id="seg242957">
+                  <s xml:id="seg242957.1">
+<w lemma="pani" msd="UPosTag=NOUN|Case=Voc|Gender=Fem|Number=Sing" xml:id="seg242957.1.1">Pani</w>
+<w join="right" lemma="Marszałek" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="seg242957.1.2">Marszałek</w>
+<pc msd="UPosTag=PUNCT|PunctType=Excl" xml:id="seg242957.1.3">!</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#seg242957.1 #seg242957.1.1"/>
+<link ana="ud-syn:appos" target="#seg242957.1.1 #seg242957.1.2"/>
+<link ana="ud-syn:punct" target="#seg242957.1.1 #seg242957.1.3"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242957.2">
+                     <name type="ORG">
+<w lemma="wysoki" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg242957.2.1">Wysoka</w>
+<w join="right" lemma="izba" msd="UPosTag=PROPN|Case=Nom|Gender=Neut|Number=Sing" xml:id="seg242957.2.2">Izbo</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Excl" xml:id="seg242957.2.3">!</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:amod" target="#seg242957.2.2 #seg242957.2.1"/>
+<link ana="ud-syn:root" target="#seg242957.2 #seg242957.2.2"/>
+<link ana="ud-syn:punct" target="#seg242957.2.2 #seg242957.2.3"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242957.3">
+<w lemma="przepraszać" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242957.3.1">Przepraszam</w>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg242957.3.2">i</w>
+<w lemma="bardzo" msd="UPosTag=ADV|Degree=Pos" xml:id="seg242957.3.3">bardzo</w>
+<w lemma="serdecznie" msd="UPosTag=ADV|Degree=Pos" xml:id="seg242957.3.4">serdecznie</w>
+<w lemma="dziękować" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242957.3.5">dziękuję</w>
+<w lemma="za" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242957.3.6">za</w>
+<w lemma="dopisać" msd="UPosTag=NOUN|Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun" xml:id="seg242957.3.7">dopisanie</w>
+<w lemma="ja" msd="UPosTag=PRON|Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Long" xml:id="seg242957.3.8">mnie</w>
+<w lemma="do" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242957.3.9">do</w>
+<w lemma="lista" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg242957.3.10">listy</w>
+<w join="right" lemma="mówca" msd="UPosTag=NOUN|Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur" xml:id="seg242957.3.11">mówców</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242957.3.12">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#seg242957.3 #seg242957.3.1"/>
+<link ana="ud-syn:cc" target="#seg242957.3.5 #seg242957.3.2"/>
+<link ana="ud-syn:advmod" target="#seg242957.3.4 #seg242957.3.3"/>
+<link ana="ud-syn:advmod" target="#seg242957.3.5 #seg242957.3.4"/>
+<link ana="ud-syn:conj" target="#seg242957.3.1 #seg242957.3.5"/>
+<link ana="ud-syn:case" target="#seg242957.3.7 #seg242957.3.6"/>
+<link ana="ud-syn:obl_arg" target="#seg242957.3.5 #seg242957.3.7"/>
+<link ana="ud-syn:obj" target="#seg242957.3.7 #seg242957.3.8"/>
+<link ana="ud-syn:case" target="#seg242957.3.10 #seg242957.3.9"/>
+<link ana="ud-syn:obl_arg" target="#seg242957.3.7 #seg242957.3.10"/>
+<link ana="ud-syn:nmod_arg" target="#seg242957.3.10 #seg242957.3.11"/>
+<link ana="ud-syn:punct" target="#seg242957.3.1 #seg242957.3.12"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242957.4">
+<w join="right" lemma="mieć" msd="UPosTag=VERB|Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242957.4.1">Miała</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short" xml:id="seg242957.4.2">m</w>
+<w lemma="taki" msd="UPosTag=DET|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem" xml:id="seg242957.4.3">taki</w>
+<w lemma="zamiar" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg242957.4.4">zamiar</w>
+<w join="right" lemma="wcześnie" msd="UPosTag=ADV|Degree=Cmp" xml:id="seg242957.4.5">wcześniej</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242957.4.6">,</pc>
+<w lemma="ale" msd="UPosTag=CCONJ" xml:id="seg242957.4.7">ale</w>
+<w lemma="niestety" msd="UPosTag=PART" xml:id="seg242957.4.8">niestety</w>
+<w lemma="trochę" msd="UPosTag=ADV" xml:id="seg242957.4.9">trochę</w>
+<w lemma="bieg" msd="UPosTag=NOUN|Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing" xml:id="seg242957.4.10">biegiem</w>
+<w join="right" lemma="musieć" msd="UPosTag=VERB|Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242957.4.11">musiała</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short" xml:id="seg242957.4.12">m</w>
+<w lemma="wracać" msd="UPosTag=VERB|Aspect=Imp|VerbForm=Inf|Voice=Act" xml:id="seg242957.4.13">wracać</w>
+<w lemma="spod" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg242957.4.14">spod</w>
+                     <name type="LOC">
+<w lemma="pałac" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg242957.4.15">Pałacu</w>
+<w join="right" lemma="prezydencki" msd="UPosTag=ADJ|Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg242957.4.16">Prezydenckiego</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242957.4.17">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#seg242957.4 #seg242957.4.1"/>
+<link ana="ud-syn:aux_clitic" target="#seg242957.4.1 #seg242957.4.2"/>
+<link ana="ud-syn:det" target="#seg242957.4.4 #seg242957.4.3"/>
+<link ana="ud-syn:iobj" target="#seg242957.4.1 #seg242957.4.4"/>
+<link ana="ud-syn:advmod" target="#seg242957.4.1 #seg242957.4.5"/>
+<link ana="ud-syn:punct" target="#seg242957.4.11 #seg242957.4.6"/>
+<link ana="ud-syn:cc" target="#seg242957.4.11 #seg242957.4.7"/>
+<link ana="ud-syn:parataxis_insert" target="#seg242957.4.11 #seg242957.4.8"/>
+<link ana="ud-syn:advmod" target="#seg242957.4.10 #seg242957.4.9"/>
+<link ana="ud-syn:obl" target="#seg242957.4.11 #seg242957.4.10"/>
+<link ana="ud-syn:conj" target="#seg242957.4.1 #seg242957.4.11"/>
+<link ana="ud-syn:aux_clitic" target="#seg242957.4.11 #seg242957.4.12"/>
+<link ana="ud-syn:xcomp" target="#seg242957.4.11 #seg242957.4.13"/>
+<link ana="ud-syn:case" target="#seg242957.4.15 #seg242957.4.14"/>
+<link ana="ud-syn:obl" target="#seg242957.4.13 #seg242957.4.15"/>
+<link ana="ud-syn:flat" target="#seg242957.4.15 #seg242957.4.16"/>
+<link ana="ud-syn:punct" target="#seg242957.4.1 #seg242957.4.17"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg242958">
+                  <s xml:id="seg242958.1">
+<w lemma="popierać" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242958.1.1">Popieram</w>
+<w lemma="pani" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="seg242958.1.2">panią</w>
+<w join="right" lemma="poseł" msd="UPosTag=NOUN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg242958.1.3">poseł</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242958.1.4">,</pc>
+<w lemma="wiceprzewodnicząca" msd="UPosTag=NOUN|Case=Ins|Gender=Fem|Number=Sing" xml:id="seg242958.1.5">wiceprzewodniczącą</w>
+<w join="right" lemma="zespół" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg242958.1.6">zespołu</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242958.1.7">,</pc>
+<w lemma="który" msd="UPosTag=DET|Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|PronType=Rel" xml:id="seg242958.1.8">którym</w>
+<w lemma="mieć" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242958.1.9">mam</w>
+<w lemma="zaszczyt" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg242958.1.10">zaszczyt</w>
+<w lemma="kierować" msd="UPosTag=VERB|Aspect=Imp|VerbForm=Inf|Voice=Act" xml:id="seg242958.1.11">kierować</w>
+<w lemma="dzięki" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242958.1.12">dzięki</w>
+<w lemma="wybór" msd="UPosTag=NOUN|Animacy=Hum|Case=Dat|Gender=Masc|Number=Sing" xml:id="seg242958.1.13">wyborowi</w>
+<w join="right" lemma="wspólny" msd="UPosTag=ADJ|Animacy=Hum|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg242958.1.14">wspólnemu</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242958.1.15">,</pc>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg242958.1.16">i</w>
+<w join="right" lemma="chcieć" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242958.1.17">chcę</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242958.1.18">,</pc>
+<w join="right" lemma="aby" msd="UPosTag=SCONJ" xml:id="seg242958.1.19">aby</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Clitic=Yes|Number=Plur|Person=1|Variant=Short" xml:id="seg242958.1.20">śmy</w>
+<w lemma="razem" msd="UPosTag=ADV" xml:id="seg242958.1.21">razem</w>
+<w lemma="dbać" msd="UPosTag=VERB|Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242958.1.22">dbali</w>
+<w lemma="o" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242958.1.23">o</w>
+                     <name type="LOC">
+<w join="right" lemma="Polak" msd="UPosTag=PROPN|Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur" xml:id="seg242958.1.24">Polaków</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242958.1.25">,</pc>
+<w lemma="o" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242958.1.26">o</w>
+<w lemma="zdrowie" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" xml:id="seg242958.1.27">zdrowie</w>
+                     <name type="LOC">
+<w join="right" lemma="Polak" msd="UPosTag=PROPN|Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur" xml:id="seg242958.1.28">Polaków</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242958.1.29">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#seg242958.1 #seg242958.1.1"/>
+<link ana="ud-syn:obj" target="#seg242958.1.1 #seg242958.1.2"/>
+<link ana="ud-syn:appos" target="#seg242958.1.2 #seg242958.1.3"/>
+<link ana="ud-syn:punct" target="#seg242958.1.5 #seg242958.1.4"/>
+<link ana="ud-syn:appos" target="#seg242958.1.2 #seg242958.1.5"/>
+<link ana="ud-syn:nmod_arg" target="#seg242958.1.5 #seg242958.1.6"/>
+<link ana="ud-syn:punct" target="#seg242958.1.9 #seg242958.1.7"/>
+<link ana="ud-syn:iobj" target="#seg242958.1.11 #seg242958.1.8"/>
+<link ana="ud-syn:acl_relcl" target="#seg242958.1.6 #seg242958.1.9"/>
+<link ana="ud-syn:iobj" target="#seg242958.1.9 #seg242958.1.10"/>
+<link ana="ud-syn:xcomp" target="#seg242958.1.9 #seg242958.1.11"/>
+<link ana="ud-syn:case" target="#seg242958.1.13 #seg242958.1.12"/>
+<link ana="ud-syn:obl" target="#seg242958.1.11 #seg242958.1.13"/>
+<link ana="ud-syn:amod" target="#seg242958.1.13 #seg242958.1.14"/>
+<link ana="ud-syn:punct" target="#seg242958.1.17 #seg242958.1.15"/>
+<link ana="ud-syn:cc" target="#seg242958.1.17 #seg242958.1.16"/>
+<link ana="ud-syn:conj" target="#seg242958.1.1 #seg242958.1.17"/>
+<link ana="ud-syn:punct" target="#seg242958.1.22 #seg242958.1.18"/>
+<link ana="ud-syn:mark" target="#seg242958.1.22 #seg242958.1.19"/>
+<link ana="ud-syn:aux_clitic" target="#seg242958.1.22 #seg242958.1.20"/>
+<link ana="ud-syn:advmod" target="#seg242958.1.22 #seg242958.1.21"/>
+<link ana="ud-syn:ccomp" target="#seg242958.1.17 #seg242958.1.22"/>
+<link ana="ud-syn:case" target="#seg242958.1.24 #seg242958.1.23"/>
+<link ana="ud-syn:obl_arg" target="#seg242958.1.22 #seg242958.1.24"/>
+<link ana="ud-syn:punct" target="#seg242958.1.27 #seg242958.1.25"/>
+<link ana="ud-syn:case" target="#seg242958.1.27 #seg242958.1.26"/>
+<link ana="ud-syn:conj" target="#seg242958.1.24 #seg242958.1.27"/>
+<link ana="ud-syn:nmod" target="#seg242958.1.27 #seg242958.1.28"/>
+<link ana="ud-syn:punct" target="#seg242958.1.1 #seg242958.1.29"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242958.2">
+<w lemma="natomiast" msd="UPosTag=CCONJ" xml:id="seg242958.2.1">Natomiast</w>
+<w lemma="mój" msd="UPosTag=DET|Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs" xml:id="seg242958.2.2">moje</w>
+<w lemma="oświadczenie" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" xml:id="seg242958.2.3">oświadczenie</w>
+<w join="right" lemma="chcieć" msd="UPosTag=VERB|Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242958.2.4">chciała</w>
+<w join="right" lemma="by" msd="UPosTag=AUX" xml:id="seg242958.2.5">by</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short" xml:id="seg242958.2.6">m</w>
+<w lemma="wygłosić" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf|Voice=Act" xml:id="seg242958.2.7">wygłosić</w>
+<w lemma="na" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242958.2.8">na</w>
+<w lemma="inny" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg242958.2.9">inną</w>
+<w join="right" lemma="okoliczność" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="seg242958.2.10">okoliczność</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242958.2.11">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:cc" target="#seg242958.2.4 #seg242958.2.1"/>
+<link ana="ud-syn:det_poss" target="#seg242958.2.3 #seg242958.2.2"/>
+<link ana="ud-syn:obj" target="#seg242958.2.7 #seg242958.2.3"/>
+<link ana="ud-syn:root" target="#seg242958.2 #seg242958.2.4"/>
+<link ana="ud-syn:aux_cnd" target="#seg242958.2.4 #seg242958.2.5"/>
+<link ana="ud-syn:aux_clitic" target="#seg242958.2.4 #seg242958.2.6"/>
+<link ana="ud-syn:xcomp" target="#seg242958.2.4 #seg242958.2.7"/>
+<link ana="ud-syn:case" target="#seg242958.2.10 #seg242958.2.8"/>
+<link ana="ud-syn:amod" target="#seg242958.2.10 #seg242958.2.9"/>
+<link ana="ud-syn:obl_arg" target="#seg242958.2.7 #seg242958.2.10"/>
+<link ana="ud-syn:punct" target="#seg242958.2.4 #seg242958.2.11"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg242959">
+                  <s xml:id="seg242959.1">
+<w lemma="szanowny" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing" xml:id="seg242959.1.1">Szanowni</w>
+<w join="right" lemma="państwo" msd="UPosTag=PROPN|Case=Nom|Gender=Neut|Number=Sing" xml:id="seg242959.1.2">Państwo</w>
+<pc msd="UPosTag=PUNCT|PunctType=Excl" xml:id="seg242959.1.3">!</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:amod" target="#seg242959.1.2 #seg242959.1.1"/>
+<link ana="ud-syn:root" target="#seg242959.1 #seg242959.1.2"/>
+<link ana="ud-syn:punct" target="#seg242959.1.2 #seg242959.1.3"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242959.2">
+<w lemma="dzisiaj" msd="UPosTag=ADV" xml:id="seg242959.2.1">Dzisiaj</w>
+<w lemma="być" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242959.2.2">jest</w>
+<w lemma="bardzo" msd="UPosTag=ADV|Degree=Pos" xml:id="seg242959.2.3">bardzo</w>
+<w lemma="smutny" msd="UPosTag=ADJ|Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg242959.2.4">smutny</w>
+<w join="right" lemma="dzień" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg242959.2.5">dzień</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242959.2.6">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:advmod" target="#seg242959.2.2 #seg242959.2.1"/>
+<link ana="ud-syn:root" target="#seg242959.2 #seg242959.2.2"/>
+<link ana="ud-syn:advmod" target="#seg242959.2.4 #seg242959.2.3"/>
+<link ana="ud-syn:amod" target="#seg242959.2.5 #seg242959.2.4"/>
+<link ana="ud-syn:nsubj" target="#seg242959.2.2 #seg242959.2.5"/>
+<link ana="ud-syn:punct" target="#seg242959.2.2 #seg242959.2.6"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242959.3">
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg242959.3.1">I</w>
+<w lemma="ponieważ" msd="UPosTag=SCONJ" xml:id="seg242959.3.2">ponieważ</w>
+<w lemma="marszałek" msd="UPosTag=NOUN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg242959.3.3">marszałek</w>
+                     <name type="PER">
+<w lemma="Brudziński" msd="UPosTag=ADJ|Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg242959.3.4">Brudziński</w>
+                     </name>
+<w lemma="nie" msd="UPosTag=PART|Polarity=Neg" xml:id="seg242959.3.5">nie</w>
+<w lemma="pozwalać" msd="UPosTag=VERB|Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242959.3.6">pozwalał</w>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:cc" target="#seg242959.3.6 #seg242959.3.1"/>
+<link ana="ud-syn:mark" target="#seg242959.3.6 #seg242959.3.2"/>
+<link ana="ud-syn:nsubj" target="#seg242959.3.6 #seg242959.3.3"/>
+<link ana="ud-syn:appos" target="#seg242959.3.3 #seg242959.3.4"/>
+<link ana="ud-syn:advmod_neg" target="#seg242959.3.6 #seg242959.3.5"/>
+<link ana="ud-syn:root" target="#seg242959.3 #seg242959.3.6"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242959.4">
+<w lemma="my" msd="UPosTag=PRON|Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs" xml:id="seg242959.4.1">nam</w>
+<w lemma="ani" msd="UPosTag=CCONJ" xml:id="seg242959.4.2">ani</w>
+<w lemma="zgłaszać" msd="UPosTag=VERB|Aspect=Imp|VerbForm=Inf|Voice=Act" xml:id="seg242959.4.3">zgłaszać</w>
+<w lemma="wniosek" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur" xml:id="seg242959.4.4">wniosków</w>
+<w join="right" lemma="formalny" msd="UPosTag=ADJ|Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur" xml:id="seg242959.4.5">formalnych</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242959.4.6">,</pc>
+<w lemma="ani" msd="UPosTag=CCONJ" xml:id="seg242959.4.7">ani</w>
+<w lemma="zadawać" msd="UPosTag=VERB|Aspect=Imp|VerbForm=Inf|Voice=Act" xml:id="seg242959.4.8">zadawać</w>
+<w join="right" lemma="pytanie" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" xml:id="seg242959.4.9">pytań</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242959.4.10">,</pc>
+<w lemma="więc" msd="UPosTag=SCONJ" xml:id="seg242959.4.11">więc</w>
+<w lemma="teraz" msd="UPosTag=ADV" xml:id="seg242959.4.12">teraz</w>
+<w lemma="w" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg242959.4.13">w</w>
+<w lemma="oświadczenie" msd="UPosTag=NOUN|Case=Loc|Gender=Neut|Number=Sing" xml:id="seg242959.4.14">oświadczeniu</w>
+<w join="right" lemma="chcieć" msd="UPosTag=VERB|Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242959.4.15">chciała</w>
+<w join="right" lemma="by" msd="UPosTag=AUX" xml:id="seg242959.4.16">by</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short" xml:id="seg242959.4.17">m</w>
+<w lemma="to" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem" xml:id="seg242959.4.18">to</w>
+<w join="right" lemma="powiedzieć" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf|Voice=Act" xml:id="seg242959.4.19">powiedzieć</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242959.4.20">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:iobj" target="#seg242959.4.3 #seg242959.4.1"/>
+<link ana="ud-syn:cc_preconj" target="#seg242959.4.3 #seg242959.4.2"/>
+<link ana="ud-syn:root" target="#seg242959.4 #seg242959.4.3"/>
+<link ana="ud-syn:obj" target="#seg242959.4.3 #seg242959.4.4"/>
+<link ana="ud-syn:amod" target="#seg242959.4.4 #seg242959.4.5"/>
+<link ana="ud-syn:punct" target="#seg242959.4.8 #seg242959.4.6"/>
+<link ana="ud-syn:cc" target="#seg242959.4.8 #seg242959.4.7"/>
+<link ana="ud-syn:conj" target="#seg242959.4.3 #seg242959.4.8"/>
+<link ana="ud-syn:obj" target="#seg242959.4.8 #seg242959.4.9"/>
+<link ana="ud-syn:punct" target="#seg242959.4.15 #seg242959.4.10"/>
+<link ana="ud-syn:mark" target="#seg242959.4.15 #seg242959.4.11"/>
+<link ana="ud-syn:advmod" target="#seg242959.4.15 #seg242959.4.12"/>
+<link ana="ud-syn:case" target="#seg242959.4.14 #seg242959.4.13"/>
+<link ana="ud-syn:obl" target="#seg242959.4.15 #seg242959.4.14"/>
+<link ana="ud-syn:advcl" target="#seg242959.4.8 #seg242959.4.15"/>
+<link ana="ud-syn:aux_cnd" target="#seg242959.4.15 #seg242959.4.16"/>
+<link ana="ud-syn:aux_clitic" target="#seg242959.4.15 #seg242959.4.17"/>
+<link ana="ud-syn:obj" target="#seg242959.4.19 #seg242959.4.18"/>
+<link ana="ud-syn:xcomp" target="#seg242959.4.15 #seg242959.4.19"/>
+<link ana="ud-syn:punct" target="#seg242959.4.3 #seg242959.4.20"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg242960">
+                  <s xml:id="seg242960.1">
+<w lemma="szanowny" msd="UPosTag=ADJ|Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg242960.1.1">Szanowni</w>
+<w lemma="państwo" msd="UPosTag=NOUN|Animacy=Hum|Case=Nom|Gender=Neut|Number=Sing" xml:id="seg242960.1.2">państwo</w>
+<w lemma="poseł" msd="UPosTag=NOUN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur" xml:id="seg242960.1.3">posłowie</w>
+<w lemma="z" msd="UPosTag=ADP|AdpType=Prep|Variant=Long" xml:id="seg242960.1.4">ze</w>
+<w lemma="wszystek" msd="UPosTag=DET|Case=Gen|Gender=Fem|Number=Plur|PronType=Tot" xml:id="seg242960.1.5">wszystkich</w>
+<w join="right" lemma="ława" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" xml:id="seg242960.1.6">ław</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242960.1.7">,</pc>
+<w lemma="wasz" msd="UPosTag=DET|Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs" xml:id="seg242960.1.8">wasze</w>
+<w lemma="miejsce" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" xml:id="seg242960.1.9">miejsce</w>
+<w lemma="być" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242960.1.10">jest</w>
+<w lemma="w" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg242960.1.11">w</w>
+<w lemma="ten" msd="UPosTag=DET|Case=Loc|Gender=Fem|Number=Sing|PronType=Dem" xml:id="seg242960.1.12">tej</w>
+<w lemma="chwila" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" xml:id="seg242960.1.13">chwili</w>
+<w lemma="nie" msd="UPosTag=PART|Polarity=Neg" xml:id="seg242960.1.14">nie</w>
+<w join="right" lemma="tutaj" msd="UPosTag=ADV|PronType=Dem" xml:id="seg242960.1.15">tutaj</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242960.1.16">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:amod" target="#seg242960.1.2 #seg242960.1.1"/>
+<link ana="ud-syn:vocative" target="#seg242960.1.10 #seg242960.1.2"/>
+<link ana="ud-syn:appos" target="#seg242960.1.2 #seg242960.1.3"/>
+<link ana="ud-syn:case" target="#seg242960.1.6 #seg242960.1.4"/>
+<link ana="ud-syn:det" target="#seg242960.1.6 #seg242960.1.5"/>
+<link ana="ud-syn:nmod" target="#seg242960.1.3 #seg242960.1.6"/>
+<link ana="ud-syn:punct" target="#seg242960.1.3 #seg242960.1.7"/>
+<link ana="ud-syn:det_poss" target="#seg242960.1.9 #seg242960.1.8"/>
+<link ana="ud-syn:nsubj" target="#seg242960.1.10 #seg242960.1.9"/>
+<link ana="ud-syn:root" target="#seg242960.1 #seg242960.1.10"/>
+<link ana="ud-syn:case" target="#seg242960.1.13 #seg242960.1.11"/>
+<link ana="ud-syn:det" target="#seg242960.1.13 #seg242960.1.12"/>
+<link ana="ud-syn:obl" target="#seg242960.1.10 #seg242960.1.13"/>
+<link ana="ud-syn:advmod_neg" target="#seg242960.1.15 #seg242960.1.14"/>
+<link ana="ud-syn:advmod" target="#seg242960.1.10 #seg242960.1.15"/>
+<link ana="ud-syn:punct" target="#seg242960.1.10 #seg242960.1.16"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242960.2">
+<w lemma="tam" msd="UPosTag=ADV|PronType=Dem" xml:id="seg242960.2.1">Tam</w>
+<w lemma="być" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242960.2.2">jest</w>
+<w lemma="ponad" msd="UPosTag=PART" xml:id="seg242960.2.3">ponad</w>
+<w lemma="100" msd="UPosTag=NUM|Animacy=Inan|Case=Nom|Gender=Masc|NumForm=Digit|NumType=Card|Number=Plur" xml:id="seg242960.2.4">100</w>
+<w join="right" lemma="tysiąc" msd="UPosTag=X|Abbr=Yes|Pun=Yes" xml:id="seg242960.2.5">tys</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242960.2.6">.</pc>
+                     <name type="LOC">
+<w join="right" lemma="Polak" msd="UPosTag=PROPN|Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur" xml:id="seg242960.2.7">Polaków</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242960.2.8">,</pc>
+<w lemma="czekać" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242960.2.9">czekają</w>
+<w lemma="na" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242960.2.10">na</w>
+<w join="right" lemma="wy" msd="UPosTag=PRON|Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|Person=2|PronType=Prs" xml:id="seg242960.2.11">was</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242960.2.12">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:advmod" target="#seg242960.2.2 #seg242960.2.1"/>
+<link ana="ud-syn:root" target="#seg242960.2 #seg242960.2.2"/>
+<link ana="ud-syn:advmod" target="#seg242960.2.7 #seg242960.2.3"/>
+<link ana="ud-syn:nummod_gov" target="#seg242960.2.7 #seg242960.2.4"/>
+<link ana="ud-syn:flat" target="#seg242960.2.4 #seg242960.2.5"/>
+<link ana="ud-syn:punct" target="#seg242960.2.5 #seg242960.2.6"/>
+<link ana="ud-syn:nsubj" target="#seg242960.2.2 #seg242960.2.7"/>
+<link ana="ud-syn:punct" target="#seg242960.2.9 #seg242960.2.8"/>
+<link ana="ud-syn:conj" target="#seg242960.2.2 #seg242960.2.9"/>
+<link ana="ud-syn:case" target="#seg242960.2.11 #seg242960.2.10"/>
+<link ana="ud-syn:obl_arg" target="#seg242960.2.9 #seg242960.2.11"/>
+<link ana="ud-syn:punct" target="#seg242960.2.2 #seg242960.2.12"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <vocal type="speaking" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.ana.vocal413">
+                  <desc>Pani poseł, my pracujemy.</desc>
+               </vocal>
+               <seg xml:id="seg242961">
+                  <s xml:id="seg242961.1">
+<w lemma="czekać" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242961.1.1">Czekają</w>
+<w lemma="na" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242961.1.2">na</w>
+<w join="right" lemma="wy" msd="UPosTag=PRON|Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|Person=2|PronType=Prs" xml:id="seg242961.1.3">was</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242961.1.4">,</pc>
+<w lemma="chcieć" msd="UPosTag=VERB|Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242961.1.5">chcieli</w>
+<w lemma="z" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg242961.1.6">z</w>
+<w lemma="wy" msd="UPosTag=PRON|Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur|Person=2|PronType=Prs" xml:id="seg242961.1.7">wami</w>
+<w join="right" lemma="porozmawiać" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf|Voice=Act" xml:id="seg242961.1.8">porozmawiać</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242961.1.9">,</pc>
+<w lemma="chcieć" msd="UPosTag=VERB|Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242961.1.10">chcieli</w>
+<w lemma="z" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg242961.1.11">z</w>
+<w lemma="my" msd="UPosTag=PRON|Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur|Person=1|PronType=Prs" xml:id="seg242961.1.12">nami</w>
+<w join="right" lemma="porozmawiać" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf|Voice=Act" xml:id="seg242961.1.13">porozmawiać</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242961.1.14">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#seg242961.1 #seg242961.1.1"/>
+<link ana="ud-syn:case" target="#seg242961.1.3 #seg242961.1.2"/>
+<link ana="ud-syn:obl_arg" target="#seg242961.1.1 #seg242961.1.3"/>
+<link ana="ud-syn:punct" target="#seg242961.1.5 #seg242961.1.4"/>
+<link ana="ud-syn:conj" target="#seg242961.1.1 #seg242961.1.5"/>
+<link ana="ud-syn:case" target="#seg242961.1.7 #seg242961.1.6"/>
+<link ana="ud-syn:obl_arg" target="#seg242961.1.8 #seg242961.1.7"/>
+<link ana="ud-syn:xcomp" target="#seg242961.1.5 #seg242961.1.8"/>
+<link ana="ud-syn:punct" target="#seg242961.1.10 #seg242961.1.9"/>
+<link ana="ud-syn:conj" target="#seg242961.1.1 #seg242961.1.10"/>
+<link ana="ud-syn:case" target="#seg242961.1.12 #seg242961.1.11"/>
+<link ana="ud-syn:obl_arg" target="#seg242961.1.13 #seg242961.1.12"/>
+<link ana="ud-syn:xcomp" target="#seg242961.1.10 #seg242961.1.13"/>
+<link ana="ud-syn:punct" target="#seg242961.1.1 #seg242961.1.14"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242961.2">
+<w join="right" lemma="wiedzieć" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242961.2.1">Wiem</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242961.2.2">,</pc>
+<w lemma="że" msd="UPosTag=SCONJ" xml:id="seg242961.2.3">że</w>
+<w lemma="to" msd="UPosTag=PART|Mood=Ind|Tense=Pres|VerbType=Quasi" xml:id="seg242961.2.4">to</w>
+<w lemma="nie" msd="UPosTag=CCONJ|Polarity=Neg" xml:id="seg242961.2.5">nie</w>
+<w join="right" lemma="państwo" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" xml:id="seg242961.2.6">państwo</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242961.2.7">,</pc>
+<w lemma="tylko" msd="UPosTag=CCONJ" xml:id="seg242961.2.8">tylko</w>
+<w lemma="przedstawiciel" msd="UPosTag=NOUN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg242961.2.9">przedstawiciel</w>
+<w lemma="klub" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg242961.2.10">klubu</w>
+                     <name type="ORG">
+<w lemma="Kukiz" msd="UPosTag=PROPN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg242961.2.11">Kukiz</w>
+                     </name>
+<w lemma="zablokować" msd="UPosTag=VERB|Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242961.2.12">zablokował</w>
+<w lemma="przerwa" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="seg242961.2.13">przerwę</w>
+<w lemma="na" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242961.2.14">na</w>
+<w lemma="spotkanie" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" xml:id="seg242961.2.15">spotkanie</w>
+<w lemma="z" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg242961.2.16">z</w>
+<w join="right" lemma="obywatel" msd="UPosTag=NOUN|Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur" xml:id="seg242961.2.17">obywatelami</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242961.2.18">,</pc>
+<w join="right" lemma="człowiek" msd="UPosTag=NOUN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg242961.2.19">człowiek</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242961.2.20">,</pc>
+<w lemma="który" msd="UPosTag=DET|Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel" xml:id="seg242961.2.21">który</w>
+<w lemma="należeć" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242961.2.22">należy</w>
+<w lemma="do" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242961.2.23">do</w>
+<w lemma="klub" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg242961.2.24">klubu</w>
+<w lemma="mienić" msd="UPosTag=ADJ|Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act" xml:id="seg242961.2.25">mieniącego</w>
+<w lemma="się" msd="UPosTag=PRON|PronType=Prs|Reflex=Yes" xml:id="seg242961.2.26">się</w>
+<w lemma="obywatelski" msd="UPosTag=ADJ|Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg242961.2.27">obywatelskim</w>
+<w join="right" lemma="ruch" msd="UPosTag=NOUN|Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing" xml:id="seg242961.2.28">ruchem</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242961.2.29">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#seg242961.2 #seg242961.2.1"/>
+<link ana="ud-syn:punct" target="#seg242961.2.4 #seg242961.2.2"/>
+<link ana="ud-syn:mark" target="#seg242961.2.4 #seg242961.2.3"/>
+<link ana="ud-syn:advmod" target="#seg242961.2.6 #seg242961.2.4"/>
+<link ana="ud-syn:cc_preconj" target="#seg242961.2.6 #seg242961.2.5"/>
+<link ana="ud-syn:nsubj" target="#seg242961.2.1 #seg242961.2.6"/>
+<link ana="ud-syn:punct" target="#seg242961.2.12 #seg242961.2.7"/>
+<link ana="ud-syn:cc" target="#seg242961.2.12 #seg242961.2.8"/>
+<link ana="ud-syn:nsubj" target="#seg242961.2.12 #seg242961.2.9"/>
+<link ana="ud-syn:nmod_arg" target="#seg242961.2.9 #seg242961.2.10"/>
+<link ana="ud-syn:appos" target="#seg242961.2.9 #seg242961.2.11"/>
+<link ana="ud-syn:conj" target="#seg242961.2.1 #seg242961.2.12"/>
+<link ana="ud-syn:obj" target="#seg242961.2.12 #seg242961.2.13"/>
+<link ana="ud-syn:case" target="#seg242961.2.15 #seg242961.2.14"/>
+<link ana="ud-syn:obl_arg" target="#seg242961.2.13 #seg242961.2.15"/>
+<link ana="ud-syn:case" target="#seg242961.2.17 #seg242961.2.16"/>
+<link ana="ud-syn:obl_arg" target="#seg242961.2.15 #seg242961.2.17"/>
+<link ana="ud-syn:punct" target="#seg242961.2.19 #seg242961.2.18"/>
+<link ana="ud-syn:appos" target="#seg242961.2.12 #seg242961.2.19"/>
+<link ana="ud-syn:punct" target="#seg242961.2.22 #seg242961.2.20"/>
+<link ana="ud-syn:nsubj" target="#seg242961.2.22 #seg242961.2.21"/>
+<link ana="ud-syn:acl_relcl" target="#seg242961.2.19 #seg242961.2.22"/>
+<link ana="ud-syn:case" target="#seg242961.2.24 #seg242961.2.23"/>
+<link ana="ud-syn:obl_arg" target="#seg242961.2.22 #seg242961.2.24"/>
+<link ana="ud-syn:amod" target="#seg242961.2.24 #seg242961.2.25"/>
+<link ana="ud-syn:expl_pv" target="#seg242961.2.25 #seg242961.2.26"/>
+<link ana="ud-syn:amod" target="#seg242961.2.28 #seg242961.2.27"/>
+<link ana="ud-syn:iobj" target="#seg242961.2.25 #seg242961.2.28"/>
+<link ana="ud-syn:punct" target="#seg242961.2.1 #seg242961.2.29"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242961.3">
+<w join="right" lemma="bać" msd="UPosTag=VERB|Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242961.3.1">Bali</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Clitic=Yes|Number=Plur|Person=2|Variant=Short" xml:id="seg242961.3.2">ście</w>
+<w lemma="się" msd="UPosTag=PRON|PronType=Prs|Reflex=Yes" xml:id="seg242961.3.3">się</w>
+<w lemma="wyjść" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf|Voice=Act" xml:id="seg242961.3.4">wyjść</w>
+<w lemma="do" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242961.3.5">do</w>
+<w join="right" lemma="obywatel" msd="UPosTag=NOUN|Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur" xml:id="seg242961.3.6">obywateli</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242961.3.7">,</pc>
+<w lemma="żeby" msd="UPosTag=SCONJ" xml:id="seg242961.3.8">żeby</w>
+<w lemma="wy" msd="UPosTag=PRON|Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=2|PronType=Prs" xml:id="seg242961.3.9">wam</w>
+<w join="right" lemma="powiedzieć" msd="UPosTag=VERB|Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242961.3.10">powiedzieli</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242961.3.11">,</pc>
+<w lemma="że" msd="UPosTag=SCONJ" xml:id="seg242961.3.12">że</w>
+<w lemma="dzisiaj" msd="UPosTag=ADV" xml:id="seg242961.3.13">dzisiaj</w>
+<w join="right" lemma="złamać" msd="UPosTag=VERB|Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242961.3.14">złamali</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Clitic=Yes|Number=Plur|Person=2|Variant=Short" xml:id="seg242961.3.15">ście</w>
+<w lemma="wszystek" msd="UPosTag=DET|Case=Acc|Gender=Fem|Number=Plur|PronType=Tot" xml:id="seg242961.3.16">wszystkie</w>
+<w lemma="zasada" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Plur" xml:id="seg242961.3.17">zasady</w>
+<w lemma="demokracja" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg242961.3.18">demokracji</w>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg242961.3.19">i</w>
+<w lemma="wolny" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg242961.3.20">wolnej</w>
+                     <name type="LOC">
+<w join="right" lemma="Polska" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg242961.3.21">Polski</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242961.3.22">,</pc>
+<w join="right" lemma="wszystek" msd="UPosTag=DET|Case=Acc|Gender=Fem|Number=Plur|PronType=Tot" xml:id="seg242961.3.23">wszystkie</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242961.3.24">,</pc>
+<w lemma="jaki" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Plur|PronType=Rel" xml:id="seg242961.3.25">jakie</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242961.3.26">są</w>
+<w join="right" lemma="możliwy" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Plur" xml:id="seg242961.3.27">możliwe</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242961.3.28">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#seg242961.3 #seg242961.3.1"/>
+<link ana="ud-syn:aux_clitic" target="#seg242961.3.1 #seg242961.3.2"/>
+<link ana="ud-syn:expl_pv" target="#seg242961.3.4 #seg242961.3.3"/>
+<link ana="ud-syn:xcomp" target="#seg242961.3.1 #seg242961.3.4"/>
+<link ana="ud-syn:case" target="#seg242961.3.6 #seg242961.3.5"/>
+<link ana="ud-syn:obl" target="#seg242961.3.4 #seg242961.3.6"/>
+<link ana="ud-syn:punct" target="#seg242961.3.10 #seg242961.3.7"/>
+<link ana="ud-syn:mark" target="#seg242961.3.10 #seg242961.3.8"/>
+<link ana="ud-syn:iobj" target="#seg242961.3.10 #seg242961.3.9"/>
+<link ana="ud-syn:advcl" target="#seg242961.3.4 #seg242961.3.10"/>
+<link ana="ud-syn:punct" target="#seg242961.3.14 #seg242961.3.11"/>
+<link ana="ud-syn:mark" target="#seg242961.3.14 #seg242961.3.12"/>
+<link ana="ud-syn:advmod" target="#seg242961.3.14 #seg242961.3.13"/>
+<link ana="ud-syn:ccomp" target="#seg242961.3.10 #seg242961.3.14"/>
+<link ana="ud-syn:aux_clitic" target="#seg242961.3.14 #seg242961.3.15"/>
+<link ana="ud-syn:det" target="#seg242961.3.17 #seg242961.3.16"/>
+<link ana="ud-syn:obj" target="#seg242961.3.14 #seg242961.3.17"/>
+<link ana="ud-syn:nmod_arg" target="#seg242961.3.17 #seg242961.3.18"/>
+<link ana="ud-syn:cc" target="#seg242961.3.21 #seg242961.3.19"/>
+<link ana="ud-syn:amod" target="#seg242961.3.21 #seg242961.3.20"/>
+<link ana="ud-syn:conj" target="#seg242961.3.18 #seg242961.3.21"/>
+<link ana="ud-syn:punct" target="#seg242961.3.23 #seg242961.3.22"/>
+<link ana="ud-syn:det" target="#seg242961.3.17 #seg242961.3.23"/>
+<link ana="ud-syn:punct" target="#seg242961.3.27 #seg242961.3.24"/>
+<link ana="ud-syn:nsubj" target="#seg242961.3.27 #seg242961.3.25"/>
+<link ana="ud-syn:cop" target="#seg242961.3.27 #seg242961.3.26"/>
+<link ana="ud-syn:acl_relcl" target="#seg242961.3.23 #seg242961.3.27"/>
+<link ana="ud-syn:punct" target="#seg242961.3.1 #seg242961.3.28"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242961.4">
+<w lemma="wyjść" msd="UPosTag=VERB|Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act" xml:id="seg242961.4.1">Wyjdźcie</w>
+<w lemma="jeszcze" msd="UPosTag=PART" xml:id="seg242961.4.2">jeszcze</w>
+<w lemma="teraz" msd="UPosTag=ADV" xml:id="seg242961.4.3">teraz</w>
+<w lemma="pod" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg242961.4.4">pod</w>
+                     <name type="ORG">
+<w lemma="sejm" msd="UPosTag=PROPN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg242961.4.5">Sejm</w>
+                     </name>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg242961.4.6">i</w>
+<w join="right" lemma="posłuchać" msd="UPosTag=VERB|Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act" xml:id="seg242961.4.7">posłuchajcie</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242961.4.8">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#seg242961.4 #seg242961.4.1"/>
+<link ana="ud-syn:advmod" target="#seg242961.4.3 #seg242961.4.2"/>
+<link ana="ud-syn:advmod" target="#seg242961.4.1 #seg242961.4.3"/>
+<link ana="ud-syn:case" target="#seg242961.4.5 #seg242961.4.4"/>
+<link ana="ud-syn:obl" target="#seg242961.4.1 #seg242961.4.5"/>
+<link ana="ud-syn:cc" target="#seg242961.4.7 #seg242961.4.6"/>
+<link ana="ud-syn:conj" target="#seg242961.4.1 #seg242961.4.7"/>
+<link ana="ud-syn:punct" target="#seg242961.4.1 #seg242961.4.8"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242961.5">
+<w join="right" lemma="posłuchać" msd="UPosTag=VERB|Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act" xml:id="seg242961.5.1">Posłuchajcie</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242961.5.2">,</pc>
+<w lemma="co" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|PronType=Int" xml:id="seg242961.5.3">co</w>
+                     <name type="LOC">
+<w lemma="Polak" msd="UPosTag=PROPN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur" xml:id="seg242961.5.4">Polacy</w>
+                     </name>
+<w lemma="mieć" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242961.5.5">mają</w>
+<w lemma="wy" msd="UPosTag=PRON|Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=2|PronType=Prs" xml:id="seg242961.5.6">wam</w>
+<w lemma="do" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242961.5.7">do</w>
+<w join="right" lemma="powiedzieć" msd="UPosTag=NOUN|Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun" xml:id="seg242961.5.8">powiedzenia</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242961.5.9">,</pc>
+<w lemma="a" msd="UPosTag=CCONJ" xml:id="seg242961.5.10">a</w>
+<w lemma="mieć" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242961.5.11">mają</w>
+<w join="right" lemma="dużo" msd="UPosTag=DET|Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card|Number=Plur|PronType=Ind" xml:id="seg242961.5.12">dużo</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242961.5.13">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#seg242961.5 #seg242961.5.1"/>
+<link ana="ud-syn:punct" target="#seg242961.5.5 #seg242961.5.2"/>
+<link ana="ud-syn:iobj" target="#seg242961.5.5 #seg242961.5.3"/>
+<link ana="ud-syn:nsubj" target="#seg242961.5.5 #seg242961.5.4"/>
+<link ana="ud-syn:ccomp" target="#seg242961.5.1 #seg242961.5.5"/>
+<link ana="ud-syn:iobj" target="#seg242961.5.5 #seg242961.5.6"/>
+<link ana="ud-syn:case" target="#seg242961.5.8 #seg242961.5.7"/>
+<link ana="ud-syn:obl_arg" target="#seg242961.5.5 #seg242961.5.8"/>
+<link ana="ud-syn:punct" target="#seg242961.5.11 #seg242961.5.9"/>
+<link ana="ud-syn:cc" target="#seg242961.5.11 #seg242961.5.10"/>
+<link ana="ud-syn:conj" target="#seg242961.5.5 #seg242961.5.11"/>
+<link ana="ud-syn:iobj" target="#seg242961.5.11 #seg242961.5.12"/>
+<link ana="ud-syn:punct" target="#seg242961.5.1 #seg242961.5.13"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg242962">
+                  <s xml:id="seg242962.1">
+<w lemma="jak" msd="UPosTag=SCONJ" xml:id="seg242962.1.1">Jak</w>
+<w join="right" lemma="mówić" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242962.1.2">mówię</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242962.1.3">,</pc>
+<w lemma="bieg" msd="UPosTag=NOUN|Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing" xml:id="seg242962.1.4">biegiem</w>
+<w lemma="wracać" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242962.1.5">wracam</w>
+<w lemma="spod" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg242962.1.6">spod</w>
+                     <name type="LOC">
+<w lemma="pałac" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg242962.1.7">Pałacu</w>
+<w join="right" lemma="prezydencki" msd="UPosTag=ADJ|Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg242962.1.8">Prezydenckiego</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242962.1.9">,</pc>
+<w lemma="żeby" msd="UPosTag=SCONJ" xml:id="seg242962.1.10">żeby</w>
+<w lemma="powiedzieć" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf|Voice=Act" xml:id="seg242962.1.11">powiedzieć</w>
+<w lemma="to" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem" xml:id="seg242962.1.12">to</w>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg242962.1.13">i</w>
+<w lemma="żeby" msd="UPosTag=SCONJ" xml:id="seg242962.1.14">żeby</w>
+<w lemma="wybrzmieć" msd="UPosTag=VERB|Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242962.1.15">wybrzmiało</w>
+<w lemma="to" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem" xml:id="seg242962.1.16">to</w>
+<w lemma="z" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg242962.1.17">z</w>
+<w lemma="mównica" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg242962.1.18">mównicy</w>
+<w join="right" lemma="parlamentarny" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg242962.1.19">parlamentarnej</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242962.1.20">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:mark" target="#seg242962.1.2 #seg242962.1.1"/>
+<link ana="ud-syn:advcl" target="#seg242962.1.5 #seg242962.1.2"/>
+<link ana="ud-syn:punct" target="#seg242962.1.2 #seg242962.1.3"/>
+<link ana="ud-syn:obl" target="#seg242962.1.5 #seg242962.1.4"/>
+<link ana="ud-syn:root" target="#seg242962.1 #seg242962.1.5"/>
+<link ana="ud-syn:case" target="#seg242962.1.7 #seg242962.1.6"/>
+<link ana="ud-syn:obl" target="#seg242962.1.5 #seg242962.1.7"/>
+<link ana="ud-syn:flat" target="#seg242962.1.7 #seg242962.1.8"/>
+<link ana="ud-syn:punct" target="#seg242962.1.11 #seg242962.1.9"/>
+<link ana="ud-syn:mark" target="#seg242962.1.11 #seg242962.1.10"/>
+<link ana="ud-syn:advcl" target="#seg242962.1.5 #seg242962.1.11"/>
+<link ana="ud-syn:obj" target="#seg242962.1.11 #seg242962.1.12"/>
+<link ana="ud-syn:cc" target="#seg242962.1.15 #seg242962.1.13"/>
+<link ana="ud-syn:mark" target="#seg242962.1.15 #seg242962.1.14"/>
+<link ana="ud-syn:conj" target="#seg242962.1.11 #seg242962.1.15"/>
+<link ana="ud-syn:obj" target="#seg242962.1.15 #seg242962.1.16"/>
+<link ana="ud-syn:case" target="#seg242962.1.18 #seg242962.1.17"/>
+<link ana="ud-syn:obl_arg" target="#seg242962.1.15 #seg242962.1.18"/>
+<link ana="ud-syn:amod" target="#seg242962.1.18 #seg242962.1.19"/>
+<link ana="ud-syn:punct" target="#seg242962.1.5 #seg242962.1.20"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242962.2">
+                     <name type="LOC">
+<w lemma="Polak" msd="UPosTag=PROPN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur" xml:id="seg242962.2.1">Polacy</w>
+                     </name>
+<w lemma="mieć" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242962.2.2">mają</w>
+<w lemma="wy" msd="UPosTag=PRON|Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=2|PronType=Prs" xml:id="seg242962.2.3">wam</w>
+<w lemma="dużo" msd="UPosTag=DET|Case=Acc|Gender=Neut|NumType=Card|Number=Plur|PronType=Ind" xml:id="seg242962.2.4">dużo</w>
+<w lemma="do" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242962.2.5">do</w>
+<w join="right" lemma="powiedzieć" msd="UPosTag=NOUN|Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun" xml:id="seg242962.2.6">powiedzenia</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242962.2.7">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:nsubj" target="#seg242962.2.2 #seg242962.2.1"/>
+<link ana="ud-syn:root" target="#seg242962.2 #seg242962.2.2"/>
+<link ana="ud-syn:iobj" target="#seg242962.2.2 #seg242962.2.3"/>
+<link ana="ud-syn:iobj" target="#seg242962.2.2 #seg242962.2.4"/>
+<link ana="ud-syn:case" target="#seg242962.2.6 #seg242962.2.5"/>
+<link ana="ud-syn:obl_arg" target="#seg242962.2.2 #seg242962.2.6"/>
+<link ana="ud-syn:punct" target="#seg242962.2.2 #seg242962.2.7"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242962.3">
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg242962.3.1">I</w>
+<w lemma="nie" msd="UPosTag=PART|Polarity=Neg" xml:id="seg242962.3.2">nie</w>
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg242962.3.3">-</pc>
+<w lemma="jak" msd="UPosTag=SCONJ" xml:id="seg242962.3.4">jak</w>
+<w lemma="to" msd="UPosTag=PART" xml:id="seg242962.3.5">to</w>
+<w lemma="niektóry" msd="UPosTag=DET|Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind" xml:id="seg242962.3.6">niektórzy</w>
+<w lemma="mówić" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242962.3.7">mówią</w>
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg242962.3.8">-</pc>
+<w lemma="stary" msd="UPosTag=NOUN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur" xml:id="seg242962.3.9">starzy</w>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg242962.3.10">i</w>
+<w join="right" lemma="koryciarze" msd="UPosTag=NOUN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur" xml:id="seg242962.3.11">koryciarze</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242962.3.12">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:cc" target="#seg242962.3.9 #seg242962.3.1"/>
+<link ana="ud-syn:advmod_neg" target="#seg242962.3.9 #seg242962.3.2"/>
+<link ana="ud-syn:punct" target="#seg242962.3.7 #seg242962.3.3"/>
+<link ana="ud-syn:mark" target="#seg242962.3.7 #seg242962.3.4"/>
+<link ana="ud-syn:advmod" target="#seg242962.3.7 #seg242962.3.5"/>
+<link ana="ud-syn:nsubj" target="#seg242962.3.7 #seg242962.3.6"/>
+<link ana="ud-syn:advcl" target="#seg242962.3.9 #seg242962.3.7"/>
+<link ana="ud-syn:punct" target="#seg242962.3.7 #seg242962.3.8"/>
+<link ana="ud-syn:root" target="#seg242962.3 #seg242962.3.9"/>
+<link ana="ud-syn:cc" target="#seg242962.3.11 #seg242962.3.10"/>
+<link ana="ud-syn:conj" target="#seg242962.3.9 #seg242962.3.11"/>
+<link ana="ud-syn:punct" target="#seg242962.3.9 #seg242962.3.12"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242962.4">
+<w lemma="dzisiaj" msd="UPosTag=ADV" xml:id="seg242962.4.1">Dzisiaj</w>
+<w lemma="na" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242962.4.2">na</w>
+                     <name type="LOC">
+<w lemma="krakowski" msd="UPosTag=ADJ|Case=Loc|Degree=Pos|Gender=Neut|Number=Sing" xml:id="seg242962.4.3">Krakowskim</w>
+<w lemma="przedmieście" msd="UPosTag=NOUN|Case=Loc|Gender=Neut|Number=Sing" xml:id="seg242962.4.4">Przedmieściu</w>
+                     </name>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg242962.4.5">i</w>
+<w lemma="pod" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg242962.4.6">pod</w>
+                     <name type="ORG">
+<w lemma="sejm" msd="UPosTag=PROPN|Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing" xml:id="seg242962.4.7">Sejmem</w>
+                     </name>
+<w lemma="w" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg242962.4.8">w</w>
+<w lemma="ten" msd="UPosTag=DET|Case=Loc|Gender=Fem|Number=Sing|PronType=Dem" xml:id="seg242962.4.9">tej</w>
+<w lemma="chwila" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" xml:id="seg242962.4.10">chwili</w>
+<w lemma="być" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242962.4.11">są</w>
+<w lemma="setka" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" xml:id="seg242962.4.12">setki</w>
+<w lemma="tysiąc" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur" xml:id="seg242962.4.13">tysięcy</w>
+<w lemma="młody" msd="UPosTag=ADJ|Animacy=Hum|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur" xml:id="seg242962.4.14">młodych</w>
+                     <name type="LOC">
+<w join="right" lemma="Polak" msd="UPosTag=PROPN|Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur" xml:id="seg242962.4.15">Polaków</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242962.4.16">,</pc>
+<w lemma="z" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg242962.4.17">z</w>
+<w lemma="mały" msd="UPosTag=ADJ|Case=Ins|Degree=Pos|Gender=Neut|Number=Plur" xml:id="seg242962.4.18">małymi</w>
+<w join="right" lemma="dziecko" msd="UPosTag=NOUN|Case=Ins|Gender=Neut|NumType=Sets|Number=Plur" xml:id="seg242962.4.19">dziećmi</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242962.4.20">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:advmod" target="#seg242962.4.11 #seg242962.4.1"/>
+<link ana="ud-syn:case" target="#seg242962.4.4 #seg242962.4.2"/>
+<link ana="ud-syn:amod_flat" target="#seg242962.4.4 #seg242962.4.3"/>
+<link ana="ud-syn:obl" target="#seg242962.4.11 #seg242962.4.4"/>
+<link ana="ud-syn:cc" target="#seg242962.4.7 #seg242962.4.5"/>
+<link ana="ud-syn:case" target="#seg242962.4.7 #seg242962.4.6"/>
+<link ana="ud-syn:conj" target="#seg242962.4.4 #seg242962.4.7"/>
+<link ana="ud-syn:case" target="#seg242962.4.10 #seg242962.4.8"/>
+<link ana="ud-syn:det" target="#seg242962.4.10 #seg242962.4.9"/>
+<link ana="ud-syn:obl" target="#seg242962.4.11 #seg242962.4.10"/>
+<link ana="ud-syn:root" target="#seg242962.4 #seg242962.4.11"/>
+<link ana="ud-syn:nsubj" target="#seg242962.4.11 #seg242962.4.12"/>
+<link ana="ud-syn:nmod_arg" target="#seg242962.4.12 #seg242962.4.13"/>
+<link ana="ud-syn:amod" target="#seg242962.4.15 #seg242962.4.14"/>
+<link ana="ud-syn:nmod_arg" target="#seg242962.4.13 #seg242962.4.15"/>
+<link ana="ud-syn:punct" target="#seg242962.4.19 #seg242962.4.16"/>
+<link ana="ud-syn:case" target="#seg242962.4.19 #seg242962.4.17"/>
+<link ana="ud-syn:amod" target="#seg242962.4.19 #seg242962.4.18"/>
+<link ana="ud-syn:nmod" target="#seg242962.4.12 #seg242962.4.19"/>
+<link ana="ud-syn:punct" target="#seg242962.4.11 #seg242962.4.20"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242962.5">
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242962.5.1">Są</w>
+<w join="right" lemma="osiemnasty" msd="UPosTag=ADJ|Hyph=Yes" xml:id="seg242962.5.2">osiemnasto</w>
+<pc join="right" msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg242962.5.3">-</pc>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242962.5.4">,</pc>
+<w lemma="kilkunastoletni" msd="UPosTag=ADJ|Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur" xml:id="seg242962.5.5">kilkunastoletni</w>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg242962.5.6">i</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242962.5.7">są</w>
+<w lemma="również" msd="UPosTag=PART" xml:id="seg242962.5.8">również</w>
+<w join="right" lemma="senior" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Plur" xml:id="seg242962.5.9">seniorzy</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242962.5.10">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:cop" target="#seg242962.5.2 #seg242962.5.1"/>
+<link ana="ud-syn:root" target="#seg242962.5 #seg242962.5.2"/>
+<link ana="ud-syn:punct" target="#seg242962.5.5 #seg242962.5.3"/>
+<link ana="ud-syn:punct" target="#seg242962.5.5 #seg242962.5.4"/>
+<link ana="ud-syn:conj" target="#seg242962.5.2 #seg242962.5.5"/>
+<link ana="ud-syn:cc" target="#seg242962.5.9 #seg242962.5.6"/>
+<link ana="ud-syn:cop" target="#seg242962.5.5 #seg242962.5.7"/>
+<link ana="ud-syn:advmod" target="#seg242962.5.9 #seg242962.5.8"/>
+<link ana="ud-syn:nsubj" target="#seg242962.5.2 #seg242962.5.9"/>
+<link ana="ud-syn:punct" target="#seg242962.5.2 #seg242962.5.10"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242962.6">
+<w lemma="cały" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg242962.6.1">Cała</w>
+                     <name type="LOC">
+<w join="right" lemma="Polska" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="seg242962.6.2">Polska</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242962.6.3">,</pc>
+<w lemma="reprezentacja" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="seg242962.6.4">reprezentacja</w>
+<w lemma="cały" msd="UPosTag=ADJ|Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg242962.6.5">całego</w>
+<w lemma="naród" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg242962.6.6">narodu</w>
+<w lemma="przyjść" msd="UPosTag=VERB|Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242962.6.7">przyszła</w>
+<w lemma="wy" msd="UPosTag=PRON|Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=2|PronType=Prs" xml:id="seg242962.6.8">wam</w>
+<w join="right" lemma="powiedzieć" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf|Voice=Act" xml:id="seg242962.6.9">powiedzieć</w>
+<pc msd="UPosTag=PUNCT|PunctType=Colo" xml:id="seg242962.6.10">:</pc>
+<w join="right" lemma="stop" msd="UPosTag=NOUN|Number=Sing" xml:id="seg242962.6.11">stop</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242962.6.12">,</pc>
+<w lemma="stop" msd="UPosTag=NOUN|Animacy=Nhum|Case=Voc|Gender=Masc|Number=Sing" xml:id="seg242962.6.13">stop</w>
+<w join="right" lemma="dyktatura" msd="UPosTag=NOUN|Animacy=Nhum|Case=Voc|Gender=Masc|Number=Sing" xml:id="seg242962.6.14">dyktaturze</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242962.6.15">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:amod" target="#seg242962.6.2 #seg242962.6.1"/>
+<link ana="ud-syn:nsubj" target="#seg242962.6.7 #seg242962.6.2"/>
+<link ana="ud-syn:punct" target="#seg242962.6.2 #seg242962.6.3"/>
+<link ana="ud-syn:nsubj" target="#seg242962.6.7 #seg242962.6.4"/>
+<link ana="ud-syn:amod" target="#seg242962.6.6 #seg242962.6.5"/>
+<link ana="ud-syn:nmod" target="#seg242962.6.4 #seg242962.6.6"/>
+<link ana="ud-syn:root" target="#seg242962.6 #seg242962.6.7"/>
+<link ana="ud-syn:iobj" target="#seg242962.6.7 #seg242962.6.8"/>
+<link ana="ud-syn:xcomp" target="#seg242962.6.7 #seg242962.6.9"/>
+<link ana="ud-syn:punct" target="#seg242962.6.9 #seg242962.6.10"/>
+<link ana="ud-syn:discourse_intj" target="#seg242962.6.9 #seg242962.6.11"/>
+<link ana="ud-syn:punct" target="#seg242962.6.13 #seg242962.6.12"/>
+<link ana="ud-syn:conj" target="#seg242962.6.11 #seg242962.6.13"/>
+<link ana="ud-syn:nmod" target="#seg242962.6.13 #seg242962.6.14"/>
+<link ana="ud-syn:punct" target="#seg242962.6.7 #seg242962.6.15"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242962.7">
+<w lemma="nie" msd="UPosTag=PART|Polarity=Neg" xml:id="seg242962.7.1">Nie</w>
+<w lemma="zgadzać" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242962.7.2">zgadzają</w>
+<w lemma="się" msd="UPosTag=PRON|PronType=Prs|Reflex=Yes" xml:id="seg242962.7.3">się</w>
+<w lemma="na" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242962.7.4">na</w>
+<w join="right" lemma="to" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem" xml:id="seg242962.7.5">to</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242962.7.6">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:advmod_neg" target="#seg242962.7.2 #seg242962.7.1"/>
+<link ana="ud-syn:root" target="#seg242962.7 #seg242962.7.2"/>
+<link ana="ud-syn:expl_pv" target="#seg242962.7.2 #seg242962.7.3"/>
+<link ana="ud-syn:case" target="#seg242962.7.5 #seg242962.7.4"/>
+<link ana="ud-syn:obl_arg" target="#seg242962.7.2 #seg242962.7.5"/>
+<link ana="ud-syn:punct" target="#seg242962.7.2 #seg242962.7.6"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg242963">
+                  <s xml:id="seg242963.1">
+<w lemma="to" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi" xml:id="seg242963.1.1">To</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242963.1.2">jest</w>
+<w lemma="dzisiaj" msd="UPosTag=ADV" xml:id="seg242963.1.3">dzisiaj</w>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg242963.1.4">i</w>
+<w join="right" lemma="smutny" msd="UPosTag=ADJ|Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg242963.1.5">smutny</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242963.1.6">,</pc>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg242963.1.7">i</w>
+<w lemma="wielki" msd="UPosTag=ADJ|Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg242963.1.8">wielki</w>
+<w join="right" lemma="dzień" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg242963.1.9">dzień</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242963.1.10">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#seg242963.1 #seg242963.1.1"/>
+<link ana="ud-syn:aux" target="#seg242963.1.1 #seg242963.1.2"/>
+<link ana="ud-syn:advmod" target="#seg242963.1.1 #seg242963.1.3"/>
+<link ana="ud-syn:cc_preconj" target="#seg242963.1.5 #seg242963.1.4"/>
+<link ana="ud-syn:conj" target="#seg242963.1.9 #seg242963.1.5"/>
+<link ana="ud-syn:punct" target="#seg242963.1.8 #seg242963.1.6"/>
+<link ana="ud-syn:cc" target="#seg242963.1.8 #seg242963.1.7"/>
+<link ana="ud-syn:conj" target="#seg242963.1.5 #seg242963.1.8"/>
+<link ana="ud-syn:nsubj" target="#seg242963.1.1 #seg242963.1.9"/>
+<link ana="ud-syn:punct" target="#seg242963.1.1 #seg242963.1.10"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242963.2">
+<w join="right" lemma="smutny" msd="UPosTag=ADJ|Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg242963.2.1">Smutny</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242963.2.2">,</pc>
+<w lemma="bo" msd="UPosTag=SCONJ" xml:id="seg242963.2.3">bo</w>
+<w lemma="wy" msd="UPosTag=PRON|Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|Person=2|PronType=Prs" xml:id="seg242963.2.4">wy</w>
+<w lemma="dzisiaj" msd="UPosTag=ADV" xml:id="seg242963.2.5">dzisiaj</w>
+<w join="right" lemma="złamać" msd="UPosTag=VERB|Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242963.2.6">złamali</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Clitic=Yes|Number=Plur|Person=2|Variant=Short" xml:id="seg242963.2.7">ście</w>
+<w lemma="wszystek" msd="UPosTag=DET|Case=Acc|Gender=Fem|Number=Plur|PronType=Tot" xml:id="seg242963.2.8">wszystkie</w>
+<w lemma="reguła" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Plur" xml:id="seg242963.2.9">reguły</w>
+<w join="right" lemma="prawny" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur" xml:id="seg242963.2.10">prawne</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242963.2.11">,</pc>
+<w lemma="jaki" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Plur|PronType=Rel" xml:id="seg242963.2.12">jakie</w>
+<w lemma="obowiązywać" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242963.2.13">obowiązują</w>
+<w lemma="w" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg242963.2.14">w</w>
+<w lemma="demokratyczny" msd="UPosTag=ADJ|Case=Loc|Degree=Pos|Gender=Neut|Number=Sing" xml:id="seg242963.2.15">demokratycznym</w>
+<w join="right" lemma="państwo" msd="UPosTag=NOUN|Case=Loc|Gender=Neut|Number=Sing" xml:id="seg242963.2.16">państwie</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242963.2.17">,</pc>
+<w lemma="ale" msd="UPosTag=CCONJ" xml:id="seg242963.2.18">ale</w>
+<w join="right" lemma="wielki" msd="UPosTag=ADJ|Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg242963.2.19">wielki</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242963.2.20">,</pc>
+<w lemma="ponieważ" msd="UPosTag=SCONJ" xml:id="seg242963.2.21">ponieważ</w>
+                     <name type="LOC">
+<w lemma="Polak" msd="UPosTag=PROPN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur" xml:id="seg242963.2.22">Polacy</w>
+                     </name>
+<w lemma="obudzić" msd="UPosTag=VERB|Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242963.2.23">obudzili</w>
+<w join="right" lemma="się" msd="UPosTag=PRON|PronType=Prs|Reflex=Yes" xml:id="seg242963.2.24">się</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242963.2.25">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#seg242963.2 #seg242963.2.1"/>
+<link ana="ud-syn:punct" target="#seg242963.2.6 #seg242963.2.2"/>
+<link ana="ud-syn:mark" target="#seg242963.2.6 #seg242963.2.3"/>
+<link ana="ud-syn:nsubj" target="#seg242963.2.6 #seg242963.2.4"/>
+<link ana="ud-syn:advmod" target="#seg242963.2.6 #seg242963.2.5"/>
+<link ana="ud-syn:advcl" target="#seg242963.2.1 #seg242963.2.6"/>
+<link ana="ud-syn:aux_clitic" target="#seg242963.2.6 #seg242963.2.7"/>
+<link ana="ud-syn:det" target="#seg242963.2.9 #seg242963.2.8"/>
+<link ana="ud-syn:obj" target="#seg242963.2.6 #seg242963.2.9"/>
+<link ana="ud-syn:amod" target="#seg242963.2.9 #seg242963.2.10"/>
+<link ana="ud-syn:punct" target="#seg242963.2.13 #seg242963.2.11"/>
+<link ana="ud-syn:nsubj" target="#seg242963.2.13 #seg242963.2.12"/>
+<link ana="ud-syn:acl_relcl" target="#seg242963.2.9 #seg242963.2.13"/>
+<link ana="ud-syn:case" target="#seg242963.2.16 #seg242963.2.14"/>
+<link ana="ud-syn:amod" target="#seg242963.2.16 #seg242963.2.15"/>
+<link ana="ud-syn:obl" target="#seg242963.2.13 #seg242963.2.16"/>
+<link ana="ud-syn:punct" target="#seg242963.2.19 #seg242963.2.17"/>
+<link ana="ud-syn:cc" target="#seg242963.2.19 #seg242963.2.18"/>
+<link ana="ud-syn:conj" target="#seg242963.2.1 #seg242963.2.19"/>
+<link ana="ud-syn:punct" target="#seg242963.2.23 #seg242963.2.20"/>
+<link ana="ud-syn:mark" target="#seg242963.2.23 #seg242963.2.21"/>
+<link ana="ud-syn:nsubj" target="#seg242963.2.23 #seg242963.2.22"/>
+<link ana="ud-syn:advcl" target="#seg242963.2.19 #seg242963.2.23"/>
+<link ana="ud-syn:expl_pv" target="#seg242963.2.23 #seg242963.2.24"/>
+<link ana="ud-syn:punct" target="#seg242963.2.1 #seg242963.2.25"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242963.3">
+<w lemma="wyjść" msd="UPosTag=VERB|Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act" xml:id="seg242963.3.1">Wyjdźcie</w>
+<w lemma="na" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242963.3.2">na</w>
+<w join="right" lemma="chwila" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="seg242963.3.3">chwilę</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242963.3.4">,</pc>
+<w lemma="stać" msd="UPosTag=VERB|Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act" xml:id="seg242963.3.5">stańcie</w>
+<w lemma="w" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg242963.3.6">w</w>
+<w join="right" lemma="zacisze" msd="UPosTag=PROPN|Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing" xml:id="seg242963.3.7">zaciszu</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242963.3.8">,</pc>
+<w lemma="jeżeli" msd="UPosTag=SCONJ" xml:id="seg242963.3.9">jeżeli</w>
+<w lemma="nie" msd="UPosTag=PART|Polarity=Neg" xml:id="seg242963.3.10">nie</w>
+<w lemma="chcieć" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242963.3.11">chcecie</w>
+<w lemma="się" msd="UPosTag=PRON|PronType=Prs|Reflex=Yes" xml:id="seg242963.3.12">się</w>
+<w join="right" lemma="pokazywać" msd="UPosTag=VERB|Aspect=Imp|VerbForm=Inf|Voice=Act" xml:id="seg242963.3.13">pokazywać</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242963.3.14">,</pc>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg242963.3.15">i</w>
+<w lemma="wysłuchać" msd="UPosTag=VERB|Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act" xml:id="seg242963.3.16">wysłuchajcie</w>
+<w join="right" lemma="to" msd="UPosTag=PRON|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem" xml:id="seg242963.3.17">tego</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242963.3.18">,</pc>
+<w lemma="co" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|PronType=Rel" xml:id="seg242963.3.19">co</w>
+                     <name type="LOC">
+<w lemma="Polak" msd="UPosTag=PROPN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur" xml:id="seg242963.3.20">Polacy</w>
+                     </name>
+<w lemma="mieć" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242963.3.21">mają</w>
+<w lemma="wy" msd="UPosTag=PRON|Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=2|PronType=Prs" xml:id="seg242963.3.22">wam</w>
+<w lemma="do" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242963.3.23">do</w>
+<w join="right" lemma="powiedzieć" msd="UPosTag=NOUN|Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun" xml:id="seg242963.3.24">powiedzenia</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242963.3.25">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#seg242963.3 #seg242963.3.1"/>
+<link ana="ud-syn:case" target="#seg242963.3.3 #seg242963.3.2"/>
+<link ana="ud-syn:obl" target="#seg242963.3.1 #seg242963.3.3"/>
+<link ana="ud-syn:punct" target="#seg242963.3.5 #seg242963.3.4"/>
+<link ana="ud-syn:conj" target="#seg242963.3.1 #seg242963.3.5"/>
+<link ana="ud-syn:case" target="#seg242963.3.7 #seg242963.3.6"/>
+<link ana="ud-syn:obl" target="#seg242963.3.5 #seg242963.3.7"/>
+<link ana="ud-syn:punct" target="#seg242963.3.11 #seg242963.3.8"/>
+<link ana="ud-syn:mark" target="#seg242963.3.11 #seg242963.3.9"/>
+<link ana="ud-syn:advmod_neg" target="#seg242963.3.11 #seg242963.3.10"/>
+<link ana="ud-syn:advcl" target="#seg242963.3.5 #seg242963.3.11"/>
+<link ana="ud-syn:expl_pv" target="#seg242963.3.13 #seg242963.3.12"/>
+<link ana="ud-syn:xcomp" target="#seg242963.3.11 #seg242963.3.13"/>
+<link ana="ud-syn:punct" target="#seg242963.3.16 #seg242963.3.14"/>
+<link ana="ud-syn:cc" target="#seg242963.3.16 #seg242963.3.15"/>
+<link ana="ud-syn:conj" target="#seg242963.3.1 #seg242963.3.16"/>
+<link ana="ud-syn:obj" target="#seg242963.3.16 #seg242963.3.17"/>
+<link ana="ud-syn:punct" target="#seg242963.3.21 #seg242963.3.18"/>
+<link ana="ud-syn:iobj" target="#seg242963.3.21 #seg242963.3.19"/>
+<link ana="ud-syn:nsubj" target="#seg242963.3.21 #seg242963.3.20"/>
+<link ana="ud-syn:acl_relcl" target="#seg242963.3.17 #seg242963.3.21"/>
+<link ana="ud-syn:iobj" target="#seg242963.3.21 #seg242963.3.22"/>
+<link ana="ud-syn:case" target="#seg242963.3.24 #seg242963.3.23"/>
+<link ana="ud-syn:obl_arg" target="#seg242963.3.21 #seg242963.3.24"/>
+<link ana="ud-syn:punct" target="#seg242963.3.1 #seg242963.3.25"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242963.4">
+<w lemma="a" msd="UPosTag=CCONJ" xml:id="seg242963.4.1">A</w>
+<w lemma="warto" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi" xml:id="seg242963.4.2">warto</w>
+<w lemma="to" msd="UPosTag=PRON|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem" xml:id="seg242963.4.3">tego</w>
+<w lemma="posłuchać" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf|Voice=Act" xml:id="seg242963.4.4">posłuchać</w>
+<w join="right" lemma="naprawdę" msd="UPosTag=PART" xml:id="seg242963.4.5">naprawdę</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242963.4.6">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:cc" target="#seg242963.4.2 #seg242963.4.1"/>
+<link ana="ud-syn:root" target="#seg242963.4 #seg242963.4.2"/>
+<link ana="ud-syn:obj" target="#seg242963.4.4 #seg242963.4.3"/>
+<link ana="ud-syn:xcomp" target="#seg242963.4.2 #seg242963.4.4"/>
+<link ana="ud-syn:advmod" target="#seg242963.4.4 #seg242963.4.5"/>
+<link ana="ud-syn:punct" target="#seg242963.4.2 #seg242963.4.6"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242963.5">
+<w lemma="jeżeli" msd="UPosTag=SCONJ" xml:id="seg242963.5.1">Jeżeli</w>
+<w join="right" lemma="mówić" msd="UPosTag=VERB|Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242963.5.2">mówili</w>
+<w join="right" lemma="być" msd="UPosTag=AUX|Aspect=Imp|Clitic=Yes|Number=Plur|Person=2|Variant=Short" xml:id="seg242963.5.3">ście</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242963.5.4">,</pc>
+<w lemma="że" msd="UPosTag=SCONJ" xml:id="seg242963.5.5">że</w>
+                     <name type="LOC">
+<w lemma="Polak" msd="UPosTag=PROPN|Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur" xml:id="seg242963.5.6">Polaków</w>
+                     </name>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin" xml:id="seg242963.5.7">będziecie</w>
+<w join="right" lemma="słuchać" msd="UPosTag=VERB|Aspect=Imp|VerbForm=Inf|Voice=Act" xml:id="seg242963.5.8">słuchać</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242963.5.9">,</pc>
+<w lemma="to" msd="UPosTag=SCONJ" xml:id="seg242963.5.10">to</w>
+<w lemma="dlaczego" msd="UPosTag=ADV|PronType=Int" xml:id="seg242963.5.11">dlaczego</w>
+<w lemma="dzisiaj" msd="UPosTag=ADV" xml:id="seg242963.5.12">dzisiaj</w>
+<w lemma="nie" msd="UPosTag=PART|Polarity=Neg" xml:id="seg242963.5.13">nie</w>
+<w join="right" lemma="pozwolić" msd="UPosTag=VERB|Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242963.5.14">pozwolili</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Clitic=Yes|Number=Plur|Person=2|Variant=Short" xml:id="seg242963.5.15">ście</w>
+<w lemma="ani" msd="UPosTag=CCONJ" xml:id="seg242963.5.16">ani</w>
+<w lemma="my" msd="UPosTag=PRON|Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs" xml:id="seg242963.5.17">nam</w>
+<w lemma="wyjść" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf|Voice=Act" xml:id="seg242963.5.18">wyjść</w>
+<w lemma="na" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242963.5.19">na</w>
+                     <name type="LOC">
+<w lemma="krakowski" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing" xml:id="seg242963.5.20">Krakowskie</w>
+<w join="right" lemma="przedmieście" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" xml:id="seg242963.5.21">Przedmieście</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242963.5.22">,</pc>
+<w lemma="ani" msd="UPosTag=CCONJ" xml:id="seg242963.5.23">ani</w>
+<w lemma="sam" msd="UPosTag=ADJ|Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur" xml:id="seg242963.5.24">sami</w>
+<w lemma="nie" msd="UPosTag=PART|Polarity=Neg" xml:id="seg242963.5.25">nie</w>
+<w join="right" lemma="wyjść" msd="UPosTag=VERB|Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242963.5.26">wyszli</w>
+<w join="right" lemma="być" msd="UPosTag=AUX|Aspect=Imp|Clitic=Yes|Number=Plur|Person=2|Variant=Short" xml:id="seg242963.5.27">ście</w>
+<pc msd="UPosTag=PUNCT|PunctType=Qest" xml:id="seg242963.5.28">?</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:mark" target="#seg242963.5.2 #seg242963.5.1"/>
+<link ana="ud-syn:advcl" target="#seg242963.5.14 #seg242963.5.2"/>
+<link ana="ud-syn:aux_clitic" target="#seg242963.5.2 #seg242963.5.3"/>
+<link ana="ud-syn:punct" target="#seg242963.5.8 #seg242963.5.4"/>
+<link ana="ud-syn:mark" target="#seg242963.5.8 #seg242963.5.5"/>
+<link ana="ud-syn:obj" target="#seg242963.5.8 #seg242963.5.6"/>
+<link ana="ud-syn:aux" target="#seg242963.5.8 #seg242963.5.7"/>
+<link ana="ud-syn:ccomp" target="#seg242963.5.2 #seg242963.5.8"/>
+<link ana="ud-syn:punct" target="#seg242963.5.14 #seg242963.5.9"/>
+<link ana="ud-syn:mark" target="#seg242963.5.14 #seg242963.5.10"/>
+<link ana="ud-syn:advmod" target="#seg242963.5.14 #seg242963.5.11"/>
+<link ana="ud-syn:advmod" target="#seg242963.5.14 #seg242963.5.12"/>
+<link ana="ud-syn:advmod_neg" target="#seg242963.5.14 #seg242963.5.13"/>
+<link ana="ud-syn:root" target="#seg242963.5 #seg242963.5.14"/>
+<link ana="ud-syn:aux_clitic" target="#seg242963.5.14 #seg242963.5.15"/>
+<link ana="ud-syn:cc_preconj" target="#seg242963.5.18 #seg242963.5.16"/>
+<link ana="ud-syn:iobj" target="#seg242963.5.18 #seg242963.5.17"/>
+<link ana="ud-syn:xcomp" target="#seg242963.5.14 #seg242963.5.18"/>
+<link ana="ud-syn:case" target="#seg242963.5.21 #seg242963.5.19"/>
+<link ana="ud-syn:amod_flat" target="#seg242963.5.21 #seg242963.5.20"/>
+<link ana="ud-syn:obl" target="#seg242963.5.18 #seg242963.5.21"/>
+<link ana="ud-syn:punct" target="#seg242963.5.26 #seg242963.5.22"/>
+<link ana="ud-syn:cc" target="#seg242963.5.26 #seg242963.5.23"/>
+<link ana="ud-syn:nsubj" target="#seg242963.5.26 #seg242963.5.24"/>
+<link ana="ud-syn:advmod_neg" target="#seg242963.5.26 #seg242963.5.25"/>
+<link ana="ud-syn:conj" target="#seg242963.5.14 #seg242963.5.26"/>
+<link ana="ud-syn:aux_clitic" target="#seg242963.5.26 #seg242963.5.27"/>
+<link ana="ud-syn:punct" target="#seg242963.5.14 #seg242963.5.28"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242963.6">
+<w join="right" lemma="wstyd" msd="UPosTag=INTJ" xml:id="seg242963.6.1">Wstyd</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242963.6.2">,</pc>
+<w lemma="szanowny" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing" xml:id="seg242963.6.3">szanowni</w>
+<w join="right" lemma="państwo" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" xml:id="seg242963.6.4">państwo</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242963.6.5">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#seg242963.6 #seg242963.6.1"/>
+<link ana="ud-syn:punct" target="#seg242963.6.3 #seg242963.6.2"/>
+<link ana="ud-syn:amod" target="#seg242963.6.4 #seg242963.6.3"/>
+<link ana="ud-syn:vocative" target="#seg242963.6.1 #seg242963.6.4"/>
+<link ana="ud-syn:punct" target="#seg242963.6.1 #seg242963.6.5"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242963.7">
+<w lemma="wiele" msd="UPosTag=DET|Animacy=Hum|Case=Acc|Gender=Masc|NumType=Card|Number=Plur|PronType=Ind" xml:id="seg242963.7.1">Wielu</w>
+<w lemma="z" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg242963.7.2">z</w>
+<w lemma="wy" msd="UPosTag=PRON|Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=2|PronType=Prs" xml:id="seg242963.7.3">was</w>
+<w join="right" lemma="znać" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242963.7.4">znam</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242963.7.5">,</pc>
+<w join="right" lemma="szanować" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242963.7.6">szanuję</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242963.7.7">,</pc>
+<w lemma="ale" msd="UPosTag=CCONJ" xml:id="seg242963.7.8">ale</w>
+<w join="right" lemma="obiecać" msd="UPosTag=VERB|Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242963.7.9">obiecali</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Clitic=Yes|Number=Plur|Person=2|Variant=Short" xml:id="seg242963.7.10">ście</w>
+                     <name type="LOC">
+<w join="right" lemma="Polak" msd="UPosTag=PROPN|Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur" xml:id="seg242963.7.11">Polakom</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242963.7.12">,</pc>
+<w lemma="że" msd="UPosTag=SCONJ" xml:id="seg242963.7.13">że</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin" xml:id="seg242963.7.14">będziecie</w>
+<w lemma="on" msd="UPosTag=PRON|Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long" xml:id="seg242963.7.15">ich</w>
+<w join="right" lemma="słuchać" msd="UPosTag=VERB|Aspect=Imp|VerbForm=Inf|Voice=Act" xml:id="seg242963.7.16">słuchać</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242963.7.17">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:obj" target="#seg242963.7.4 #seg242963.7.1"/>
+<link ana="ud-syn:case" target="#seg242963.7.3 #seg242963.7.2"/>
+<link ana="ud-syn:obl" target="#seg242963.7.1 #seg242963.7.3"/>
+<link ana="ud-syn:root" target="#seg242963.7 #seg242963.7.4"/>
+<link ana="ud-syn:punct" target="#seg242963.7.6 #seg242963.7.5"/>
+<link ana="ud-syn:conj" target="#seg242963.7.4 #seg242963.7.6"/>
+<link ana="ud-syn:punct" target="#seg242963.7.9 #seg242963.7.7"/>
+<link ana="ud-syn:cc" target="#seg242963.7.9 #seg242963.7.8"/>
+<link ana="ud-syn:conj" target="#seg242963.7.4 #seg242963.7.9"/>
+<link ana="ud-syn:aux_clitic" target="#seg242963.7.9 #seg242963.7.10"/>
+<link ana="ud-syn:iobj" target="#seg242963.7.9 #seg242963.7.11"/>
+<link ana="ud-syn:punct" target="#seg242963.7.16 #seg242963.7.12"/>
+<link ana="ud-syn:mark" target="#seg242963.7.16 #seg242963.7.13"/>
+<link ana="ud-syn:aux" target="#seg242963.7.16 #seg242963.7.14"/>
+<link ana="ud-syn:obj" target="#seg242963.7.16 #seg242963.7.15"/>
+<link ana="ud-syn:ccomp_obj" target="#seg242963.7.9 #seg242963.7.16"/>
+<link ana="ud-syn:punct" target="#seg242963.7.4 #seg242963.7.17"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242963.8">
+<w lemma="dzisiaj" msd="UPosTag=ADV" xml:id="seg242963.8.1">Dzisiaj</w>
+<w join="right" lemma="złamać" msd="UPosTag=VERB|Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242963.8.2">złamali</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Clitic=Yes|Number=Plur|Person=2|Variant=Short" xml:id="seg242963.8.3">ście</w>
+<w join="right" lemma="konstytucja" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="seg242963.8.4">konstytucję</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242963.8.5">,</pc>
+<w lemma="który" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Rel" xml:id="seg242963.8.6">która</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242963.8.7">była</w>
+<w lemma="uchwalić" msd="UPosTag=ADJ|Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass" xml:id="seg242963.8.8">uchwalona</w>
+<w lemma="głos" msd="UPosTag=NOUN|Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur" xml:id="seg242963.8.9">głosami</w>
+<w lemma="większość" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg242963.8.10">większości</w>
+<w join="right" lemma="naród" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg242963.8.11">narodu</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242963.8.12">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:advmod" target="#seg242963.8.2 #seg242963.8.1"/>
+<link ana="ud-syn:root" target="#seg242963.8 #seg242963.8.2"/>
+<link ana="ud-syn:aux_clitic" target="#seg242963.8.2 #seg242963.8.3"/>
+<link ana="ud-syn:obj" target="#seg242963.8.2 #seg242963.8.4"/>
+<link ana="ud-syn:punct" target="#seg242963.8.8 #seg242963.8.5"/>
+<link ana="ud-syn:nsubj_pass" target="#seg242963.8.8 #seg242963.8.6"/>
+<link ana="ud-syn:aux_pass" target="#seg242963.8.8 #seg242963.8.7"/>
+<link ana="ud-syn:acl_relcl" target="#seg242963.8.4 #seg242963.8.8"/>
+<link ana="ud-syn:iobj" target="#seg242963.8.8 #seg242963.8.9"/>
+<link ana="ud-syn:nmod_arg" target="#seg242963.8.9 #seg242963.8.10"/>
+<link ana="ud-syn:nmod_arg" target="#seg242963.8.10 #seg242963.8.11"/>
+<link ana="ud-syn:punct" target="#seg242963.8.2 #seg242963.8.12"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242963.9">
+<w lemma="dzisiaj" msd="UPosTag=ADV" xml:id="seg242963.9.1">Dzisiaj</w>
+<w join="right" lemma="zmielić" msd="UPosTag=VERB|Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242963.9.2">zmielili</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Clitic=Yes|Number=Plur|Person=2|Variant=Short" xml:id="seg242963.9.3">ście</w>
+<w lemma="milion" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg242963.9.4">milion</w>
+<w lemma="podpis" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur" xml:id="seg242963.9.5">podpisów</w>
+<w lemma="w" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg242963.9.6">w</w>
+<w lemma="sprawa" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" xml:id="seg242963.9.7">sprawie</w>
+<w lemma="referendum" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" xml:id="seg242963.9.8">referendum</w>
+<w join="right" lemma="edukacyjny" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing" xml:id="seg242963.9.9">edukacyjnego</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242963.9.10">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:advmod" target="#seg242963.9.2 #seg242963.9.1"/>
+<link ana="ud-syn:root" target="#seg242963.9 #seg242963.9.2"/>
+<link ana="ud-syn:aux_clitic" target="#seg242963.9.2 #seg242963.9.3"/>
+<link ana="ud-syn:obj" target="#seg242963.9.2 #seg242963.9.4"/>
+<link ana="ud-syn:nmod_arg" target="#seg242963.9.4 #seg242963.9.5"/>
+<link ana="ud-syn:case" target="#seg242963.9.8 #seg242963.9.6"/>
+<link ana="ud-syn:fixed" target="#seg242963.9.6 #seg242963.9.7"/>
+<link ana="ud-syn:obl_arg" target="#seg242963.9.5 #seg242963.9.8"/>
+<link ana="ud-syn:amod" target="#seg242963.9.8 #seg242963.9.9"/>
+<link ana="ud-syn:punct" target="#seg242963.9.2 #seg242963.9.10"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242963.10">
+<w lemma="dzisiaj" msd="UPosTag=ADV" xml:id="seg242963.10.1">Dzisiaj</w>
+<w lemma="praktycznie" msd="UPosTag=ADV|Degree=Pos" xml:id="seg242963.10.2">praktycznie</w>
+<w join="right" lemma="zniszczyć" msd="UPosTag=VERB|Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242963.10.3">zniszczyli</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Clitic=Yes|Number=Plur|Person=2|Variant=Short" xml:id="seg242963.10.4">ście</w>
+<w lemma="ćwierć" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="seg242963.10.5">ćwierć</w>
+<w lemma="milion" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg242963.10.6">miliona</w>
+<w lemma="podpis" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur" xml:id="seg242963.10.7">podpisów</w>
+<w join="right" lemma="obywatelski" msd="UPosTag=ADJ|Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur" xml:id="seg242963.10.8">obywatelskich</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242963.10.9">,</pc>
+<w lemma="jeżeli" msd="UPosTag=SCONJ" xml:id="seg242963.10.10">jeżeli</w>
+<w lemma="chodzić" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242963.10.11">chodzi</w>
+<w lemma="o" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242963.10.12">o</w>
+<w lemma="wynagrodzenie" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Plur" xml:id="seg242963.10.13">wynagrodzenia</w>
+<w lemma="w" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg242963.10.14">w</w>
+<w lemma="ochrona" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" xml:id="seg242963.10.15">ochronie</w>
+<w join="right" lemma="zdrowie" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" xml:id="seg242963.10.16">zdrowia</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242963.10.17">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:advmod" target="#seg242963.10.3 #seg242963.10.1"/>
+<link ana="ud-syn:parataxis_insert" target="#seg242963.10.3 #seg242963.10.2"/>
+<link ana="ud-syn:root" target="#seg242963.10 #seg242963.10.3"/>
+<link ana="ud-syn:aux_clitic" target="#seg242963.10.3 #seg242963.10.4"/>
+<link ana="ud-syn:obj" target="#seg242963.10.3 #seg242963.10.5"/>
+<link ana="ud-syn:nmod_arg" target="#seg242963.10.5 #seg242963.10.6"/>
+<link ana="ud-syn:nmod_arg" target="#seg242963.10.6 #seg242963.10.7"/>
+<link ana="ud-syn:amod" target="#seg242963.10.7 #seg242963.10.8"/>
+<link ana="ud-syn:punct" target="#seg242963.10.11 #seg242963.10.9"/>
+<link ana="ud-syn:mark" target="#seg242963.10.11 #seg242963.10.10"/>
+<link ana="ud-syn:advcl" target="#seg242963.10.3 #seg242963.10.11"/>
+<link ana="ud-syn:case" target="#seg242963.10.13 #seg242963.10.12"/>
+<link ana="ud-syn:obl_arg" target="#seg242963.10.11 #seg242963.10.13"/>
+<link ana="ud-syn:case" target="#seg242963.10.15 #seg242963.10.14"/>
+<link ana="ud-syn:nmod" target="#seg242963.10.13 #seg242963.10.15"/>
+<link ana="ud-syn:nmod_arg" target="#seg242963.10.15 #seg242963.10.16"/>
+<link ana="ud-syn:punct" target="#seg242963.10.3 #seg242963.10.17"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242963.11">
+<w lemma="opamiętać" msd="UPosTag=VERB|Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act" xml:id="seg242963.11.1">Opamiętajcie</w>
+<w lemma="się" msd="UPosTag=PRON|PronType=Prs|Reflex=Yes" xml:id="seg242963.11.2">się</w>
+<pc msd="UPosTag=PUNCT|PunctType=Hyph" xml:id="seg242963.11.3">-</pc>
+<w lemma="opamiętać" msd="UPosTag=VERB|Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act" xml:id="seg242963.11.4">opamiętajcie</w>
+<w join="right" lemma="się" msd="UPosTag=PRON|PronType=Prs|Reflex=Yes" xml:id="seg242963.11.5">się</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242963.11.6">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:parataxis_obj" target="#seg242963.11.4 #seg242963.11.1"/>
+<link ana="ud-syn:expl_pv" target="#seg242963.11.1 #seg242963.11.2"/>
+<link ana="ud-syn:punct" target="#seg242963.11.4 #seg242963.11.3"/>
+<link ana="ud-syn:root" target="#seg242963.11 #seg242963.11.4"/>
+<link ana="ud-syn:expl_pv" target="#seg242963.11.4 #seg242963.11.5"/>
+<link ana="ud-syn:punct" target="#seg242963.11.4 #seg242963.11.6"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242963.12">
+<w lemma="dzisiaj" msd="UPosTag=ADV" xml:id="seg242963.12.1">Dzisiaj</w>
+<w lemma="musieć" msd="UPosTag=VERB|Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242963.12.2">musiało</w>
+<w lemma="to" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem" xml:id="seg242963.12.3">to</w>
+<w lemma="wybrzmieć" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf|Voice=Act" xml:id="seg242963.12.4">wybrzmieć</w>
+<w lemma="z" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg242963.12.5">z</w>
+<w lemma="ten" msd="UPosTag=DET|Case=Gen|Gender=Fem|Number=Sing|PronType=Dem" xml:id="seg242963.12.6">tej</w>
+<w join="right" lemma="mównica" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg242963.12.7">mównicy</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242963.12.8">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:advmod" target="#seg242963.12.2 #seg242963.12.1"/>
+<link ana="ud-syn:root" target="#seg242963.12 #seg242963.12.2"/>
+<link ana="ud-syn:obj" target="#seg242963.12.4 #seg242963.12.3"/>
+<link ana="ud-syn:xcomp" target="#seg242963.12.2 #seg242963.12.4"/>
+<link ana="ud-syn:case" target="#seg242963.12.7 #seg242963.12.5"/>
+<link ana="ud-syn:det" target="#seg242963.12.7 #seg242963.12.6"/>
+<link ana="ud-syn:obl" target="#seg242963.12.4 #seg242963.12.7"/>
+<link ana="ud-syn:punct" target="#seg242963.12.2 #seg242963.12.8"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="seg242963.13">
+<w lemma="dziękować" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242963.13.1">Dziękuję</w>
+<w join="right" lemma="bardzo" msd="UPosTag=ADV|Degree=Pos" xml:id="seg242963.13.2">bardzo</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242963.13.3">,</pc>
+<w lemma="pani" msd="UPosTag=NOUN|Case=Voc|Gender=Fem|Number=Sing" xml:id="seg242963.13.4">pani</w>
+<w join="right" lemma="marszałek" msd="UPosTag=NOUN|Animacy=Hum|Case=Voc|Gender=Masc|Number=Sing" xml:id="seg242963.13.5">marszałek</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242963.13.6">,</pc>
+<w lemma="jeszcze" msd="UPosTag=PART" xml:id="seg242963.13.7">jeszcze</w>
+<w join="right" lemma="raz" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg242963.13.8">raz</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242963.13.9">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#seg242963.13 #seg242963.13.1"/>
+<link ana="ud-syn:advmod" target="#seg242963.13.1 #seg242963.13.2"/>
+<link ana="ud-syn:punct" target="#seg242963.13.4 #seg242963.13.3"/>
+<link ana="ud-syn:vocative" target="#seg242963.13.1 #seg242963.13.4"/>
+<link ana="ud-syn:appos" target="#seg242963.13.4 #seg242963.13.5"/>
+<link ana="ud-syn:punct" target="#seg242963.13.4 #seg242963.13.6"/>
+<link ana="ud-syn:advmod" target="#seg242963.13.8 #seg242963.13.7"/>
+<link ana="ud-syn:obl" target="#seg242963.13.1 #seg242963.13.8"/>
+<link ana="ud-syn:punct" target="#seg242963.13.1 #seg242963.13.9"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <kinesic type="applause" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.ana.kinesic328">
+                  <desc>Oklaski</desc>
+               </kinesic>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.ana.note421">Wicemarszałek Barbara Dolniak:</note>
+            <u who="#BarbaraDolniak" ana="#chair" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.u413">
+               <seg xml:id="seg242964">
+                  <s xml:id="seg242964.1">
+<w lemma="bardzo" msd="UPosTag=ADV|Degree=Pos" xml:id="seg242964.1.1">Bardzo</w>
+<w join="right" lemma="prosić" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242964.1.2">proszę</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242964.1.3">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:advmod" target="#seg242964.1.2 #seg242964.1.1"/>
+<link ana="ud-syn:root" target="#seg242964.1 #seg242964.1.2"/>
+<link ana="ud-syn:punct" target="#seg242964.1.2 #seg242964.1.3"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg242965">
+                  <s xml:id="seg242965.1">
+<w lemma="na" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242965.1.1">Na</w>
+<w lemma="to" msd="UPosTag=PRON|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem" xml:id="seg242965.1.2">tym</w>
+<w join="right" lemma="zakończyć" msd="UPosTag=VERB|Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg242965.1.3">zakończyli</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Clitic=Yes|Number=Plur|Person=1|Variant=Short" xml:id="seg242965.1.4">śmy</w>
+<w lemma="oświadczenie" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Plur" xml:id="seg242965.1.5">oświadczenia</w>
+<w join="right" lemma="poselski" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Neut|Number=Plur" xml:id="seg242965.1.6">poselskie</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242965.1.7">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:case" target="#seg242965.1.2 #seg242965.1.1"/>
+<link ana="ud-syn:obl" target="#seg242965.1.3 #seg242965.1.2"/>
+<link ana="ud-syn:root" target="#seg242965.1 #seg242965.1.3"/>
+<link ana="ud-syn:aux_clitic" target="#seg242965.1.3 #seg242965.1.4"/>
+<link ana="ud-syn:obj" target="#seg242965.1.3 #seg242965.1.5"/>
+<link ana="ud-syn:amod" target="#seg242965.1.5 #seg242965.1.6"/>
+<link ana="ud-syn:punct" target="#seg242965.1.3 #seg242965.1.7"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg242966">
+                  <s xml:id="seg242966.1">
+<w lemma="informacja" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="seg242966.1.1">Informacja</w>
+<w lemma="o" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242966.1.2">o</w>
+<w lemma="wpływ" msd="UPosTag=NOUN|Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing" xml:id="seg242966.1.3">wpływie</w>
+<w join="right" lemma="interpelacja" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg242966.1.4">interpelacji</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242966.1.5">,</pc>
+<w lemma="zapytanie" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" xml:id="seg242966.1.6">zapytań</w>
+<w lemma="oraz" msd="UPosTag=CCONJ" xml:id="seg242966.1.7">oraz</w>
+<w lemma="odpowiedź" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" xml:id="seg242966.1.8">odpowiedzi</w>
+<w lemma="na" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242966.1.9">na</w>
+<w lemma="nie" msd="UPosTag=PRON|Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long" xml:id="seg242966.1.10">nie</w>
+<w lemma="dostępny" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg242966.1.11">dostępna</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242966.1.12">jest</w>
+<w lemma="w" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg242966.1.13">w</w>
+<w lemma="system" msd="UPosTag=NOUN|Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing" xml:id="seg242966.1.14">Systemie</w>
+<w lemma="informacyjny" msd="UPosTag=ADJ|Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg242966.1.15">Informacyjnym</w>
+                     <name type="ORG">
+<w join="right" lemma="sejm" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg242966.1.16">Sejmu</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242966.1.17">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:nsubj" target="#seg242966.1.11 #seg242966.1.1"/>
+<link ana="ud-syn:case" target="#seg242966.1.3 #seg242966.1.2"/>
+<link ana="ud-syn:obl_arg" target="#seg242966.1.1 #seg242966.1.3"/>
+<link ana="ud-syn:nmod_arg" target="#seg242966.1.3 #seg242966.1.4"/>
+<link ana="ud-syn:punct" target="#seg242966.1.6 #seg242966.1.5"/>
+<link ana="ud-syn:conj" target="#seg242966.1.4 #seg242966.1.6"/>
+<link ana="ud-syn:cc" target="#seg242966.1.8 #seg242966.1.7"/>
+<link ana="ud-syn:conj" target="#seg242966.1.4 #seg242966.1.8"/>
+<link ana="ud-syn:case" target="#seg242966.1.10 #seg242966.1.9"/>
+<link ana="ud-syn:obl_arg" target="#seg242966.1.8 #seg242966.1.10"/>
+<link ana="ud-syn:root" target="#seg242966.1 #seg242966.1.11"/>
+<link ana="ud-syn:cop" target="#seg242966.1.11 #seg242966.1.12"/>
+<link ana="ud-syn:case" target="#seg242966.1.14 #seg242966.1.13"/>
+<link ana="ud-syn:obl" target="#seg242966.1.11 #seg242966.1.14"/>
+<link ana="ud-syn:flat" target="#seg242966.1.14 #seg242966.1.15"/>
+<link ana="ud-syn:flat" target="#seg242966.1.14 #seg242966.1.16"/>
+<link ana="ud-syn:punct" target="#seg242966.1.11 #seg242966.1.17"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg242967">
+                  <s xml:id="seg242967.1">
+<w lemma="na" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242967.1.1">Na</w>
+<w lemma="to" msd="UPosTag=PRON|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem" xml:id="seg242967.1.2">tym</w>
+<w lemma="kończyć" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242967.1.3">kończymy</w>
+<w join="right" lemma="46" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Neut|NumForm=Digit|NumType=Ord|Number=Sing" xml:id="seg242967.1.4">46</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242967.1.5">.</pc>
+<w lemma="posiedzieć" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" xml:id="seg242967.1.6">posiedzenie</w>
+                     <name type="ORG">
+<w lemma="sejm" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg242967.1.7">Sejmu</w>
+<w lemma="rzeczpospolita" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg242967.1.8">Rzeczypospolitej</w>
+<w join="right" lemma="polski" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg242967.1.9">Polskiej</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242967.1.10">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:case" target="#seg242967.1.2 #seg242967.1.1"/>
+<link ana="ud-syn:obl" target="#seg242967.1.3 #seg242967.1.2"/>
+<link ana="ud-syn:root" target="#seg242967.1 #seg242967.1.3"/>
+<link ana="ud-syn:amod" target="#seg242967.1.6 #seg242967.1.4"/>
+<link ana="ud-syn:punct" target="#seg242967.1.4 #seg242967.1.5"/>
+<link ana="ud-syn:obj" target="#seg242967.1.3 #seg242967.1.6"/>
+<link ana="ud-syn:nmod_arg" target="#seg242967.1.6 #seg242967.1.7"/>
+<link ana="ud-syn:flat" target="#seg242967.1.7 #seg242967.1.8"/>
+<link ana="ud-syn:flat" target="#seg242967.1.8 #seg242967.1.9"/>
+<link ana="ud-syn:punct" target="#seg242967.1.3 #seg242967.1.10"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg242968">
+                  <s xml:id="seg242968.1">
+<w lemma="protokół" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg242968.1.1">Protokół</w>
+<w lemma="posiedzenie" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" xml:id="seg242968.1.2">posiedzenia</w>
+<w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin" xml:id="seg242968.1.3">będzie</w>
+<w lemma="wyłożyć" msd="UPosTag=ADJ|Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass" xml:id="seg242968.1.4">wyłożony</w>
+<w lemma="do" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242968.1.5">do</w>
+<w lemma="przejrzeć" msd="UPosTag=NOUN|Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun" xml:id="seg242968.1.6">przejrzenia</w>
+<w lemma="w" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg242968.1.7">w</w>
+<w lemma="sekretariat" msd="UPosTag=NOUN|Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing" xml:id="seg242968.1.8">Sekretariacie</w>
+<w lemma="posiedzenie" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" xml:id="seg242968.1.9">Posiedzeń</w>
+                     <name type="ORG">
+<w join="right" lemma="sejm" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg242968.1.10">Sejmu</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242968.1.11">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:nsubj_pass" target="#seg242968.1.4 #seg242968.1.1"/>
+<link ana="ud-syn:nmod_arg" target="#seg242968.1.1 #seg242968.1.2"/>
+<link ana="ud-syn:aux_pass" target="#seg242968.1.4 #seg242968.1.3"/>
+<link ana="ud-syn:root" target="#seg242968.1 #seg242968.1.4"/>
+<link ana="ud-syn:case" target="#seg242968.1.6 #seg242968.1.5"/>
+<link ana="ud-syn:obl" target="#seg242968.1.4 #seg242968.1.6"/>
+<link ana="ud-syn:case" target="#seg242968.1.8 #seg242968.1.7"/>
+<link ana="ud-syn:nmod" target="#seg242968.1.6 #seg242968.1.8"/>
+<link ana="ud-syn:flat" target="#seg242968.1.8 #seg242968.1.9"/>
+<link ana="ud-syn:flat" target="#seg242968.1.9 #seg242968.1.10"/>
+<link ana="ud-syn:punct" target="#seg242968.1.4 #seg242968.1.11"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg242969">
+                  <s xml:id="seg242969.1">
+<w lemma="porządek" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg242969.1.1">Porządek</w>
+<w lemma="dzienny" msd="UPosTag=ADJ|Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg242969.1.2">dzienny</w>
+<w join="right" lemma="47" msd="UPosTag=X|NumForm=Digit" xml:id="seg242969.1.3">47</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242969.1.4">.</pc>
+<w lemma="posiedzenie" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" xml:id="seg242969.1.5">posiedzenia</w>
+                     <name type="ORG">
+<w join="right" lemma="sejm" msd="UPosTag=PROPN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg242969.1.6">Sejmu</w>
+                     </name>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242969.1.7">,</pc>
+<w lemma="wyznaczyć" msd="UPosTag=ADJ|Animacy=Inan|Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass" xml:id="seg242969.1.8">wyznaczonego</w>
+<w lemma="na" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg242969.1.9">na</w>
+<w lemma="dzień" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur" xml:id="seg242969.1.10">dni</w>
+<w join="right" lemma="12" msd="UPosTag=ADJ|Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|NumForm=Digit|NumType=Ord|Number=Sing" xml:id="seg242969.1.11">12</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242969.1.12">,</pc>
+<w join="right" lemma="13" msd="UPosTag=ADJ|Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|NumForm=Digit|NumType=Ord|Number=Sing" xml:id="seg242969.1.13">13</w>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242969.1.14">,</pc>
+<w lemma="14" msd="UPosTag=ADJ|Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|NumForm=Digit|NumType=Ord|Number=Sing" xml:id="seg242969.1.15">14</w>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg242969.1.16">i</w>
+<w lemma="15" msd="UPosTag=ADJ|Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|NumForm=Digit|NumType=Ord|Number=Sing" xml:id="seg242969.1.17">15</w>
+<w lemma="wrzesień" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg242969.1.18">września</w>
+<w lemma="2017" msd="UPosTag=X|NumForm=Digit" xml:id="seg242969.1.19">2017</w>
+<w join="right" lemma="rok" msd="UPosTag=X|Abbr=Yes|Pun=Yes" xml:id="seg242969.1.20">r</w>
+<pc join="right" msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242969.1.21">.</pc>
+<pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg242969.1.22">,</pc>
+<w lemma="zostać" msd="UPosTag=AUX|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act" xml:id="seg242969.1.23">zostanie</w>
+<w lemma="pani" msd="UPosTag=NOUN|Case=Dat|Gender=Fem|Number=Plur" xml:id="seg242969.1.24">paniom</w>
+<w lemma="i" msd="UPosTag=CCONJ" xml:id="seg242969.1.25">i</w>
+<w lemma="pan" msd="UPosTag=NOUN|Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur" xml:id="seg242969.1.26">panom</w>
+<w lemma="poseł" msd="UPosTag=NOUN|Case=Dat|Gender=Fem|Number=Plur" xml:id="seg242969.1.27">posłom</w>
+<w join="right" lemma="doręczyć" msd="UPosTag=ADJ|Aspect=Perf|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass" xml:id="seg242969.1.28">doręczony</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242969.1.29">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:nsubj" target="#seg242969.1.24 #seg242969.1.1"/>
+<link ana="ud-syn:amod" target="#seg242969.1.1 #seg242969.1.2"/>
+<link ana="ud-syn:amod" target="#seg242969.1.5 #seg242969.1.3"/>
+<link ana="ud-syn:punct" target="#seg242969.1.3 #seg242969.1.4"/>
+<link ana="ud-syn:nmod_arg" target="#seg242969.1.1 #seg242969.1.5"/>
+<link ana="ud-syn:nmod_arg" target="#seg242969.1.5 #seg242969.1.6"/>
+<link ana="ud-syn:punct" target="#seg242969.1.8 #seg242969.1.7"/>
+<link ana="ud-syn:acl" target="#seg242969.1.5 #seg242969.1.8"/>
+<link ana="ud-syn:case" target="#seg242969.1.10 #seg242969.1.9"/>
+<link ana="ud-syn:obl" target="#seg242969.1.8 #seg242969.1.10"/>
+<link ana="ud-syn:amod" target="#seg242969.1.10 #seg242969.1.11"/>
+<link ana="ud-syn:punct" target="#seg242969.1.13 #seg242969.1.12"/>
+<link ana="ud-syn:conj" target="#seg242969.1.11 #seg242969.1.13"/>
+<link ana="ud-syn:punct" target="#seg242969.1.15 #seg242969.1.14"/>
+<link ana="ud-syn:conj" target="#seg242969.1.11 #seg242969.1.15"/>
+<link ana="ud-syn:cc" target="#seg242969.1.17 #seg242969.1.16"/>
+<link ana="ud-syn:conj" target="#seg242969.1.11 #seg242969.1.17"/>
+<link ana="ud-syn:nmod_flat" target="#seg242969.1.15 #seg242969.1.18"/>
+<link ana="ud-syn:nmod_flat" target="#seg242969.1.20 #seg242969.1.19"/>
+<link ana="ud-syn:nmod_flat" target="#seg242969.1.18 #seg242969.1.20"/>
+<link ana="ud-syn:punct" target="#seg242969.1.20 #seg242969.1.21"/>
+<link ana="ud-syn:punct" target="#seg242969.1.8 #seg242969.1.22"/>
+<link ana="ud-syn:cop" target="#seg242969.1.24 #seg242969.1.23"/>
+<link ana="ud-syn:root" target="#seg242969.1 #seg242969.1.24"/>
+<link ana="ud-syn:cc" target="#seg242969.1.26 #seg242969.1.25"/>
+<link ana="ud-syn:conj" target="#seg242969.1.24 #seg242969.1.26"/>
+<link ana="ud-syn:nmod_arg" target="#seg242969.1.24 #seg242969.1.27"/>
+<link ana="ud-syn:acl" target="#seg242969.1.27 #seg242969.1.28"/>
+<link ana="ud-syn:punct" target="#seg242969.1.24 #seg242969.1.29"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg242970">
+                  <s xml:id="seg242970.1">
+<w lemma="zamykać" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg242970.1.1">Zamykam</w>
+<w join="right" lemma="posiedzenie" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" xml:id="seg242970.1.2">posiedzenie</w>
+<pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg242970.1.3">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#seg242970.1 #seg242970.1.1"/>
+<link ana="ud-syn:obj" target="#seg242970.1.1 #seg242970.1.2"/>
+<link ana="ud-syn:punct" target="#seg242970.1.1 #seg242970.1.3"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <kinesic type="signal" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.ana.kinesic329">
+                  <desc>Wicemarszałek trzykrotnie uderza laską marszałkowską</desc>
+               </kinesic>
+               <note type="time" xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.ana.note422">Koniec posiedzenia o godz. 22 min 13</note>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+
