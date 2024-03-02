@@ -168,7 +168,7 @@ unless ($countryCodes) {
     exit
 }
 foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
-    print STDERR "INFO: *****Converting $countryCode\n";
+    print STDERR "INFO: *****Converting $countryCode (" . localtime(). ")\n";
 
     # Is this an MTed corpus?
     if ($countryCode =~ m/-([a-z]{2,3})$/) {$MT = $1}
