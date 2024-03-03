@@ -43,13 +43,13 @@
   </xsl:variable>
   
   <!-- If LaTeX -->
-  <xsl:variable name="preamble">\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lrrrrrrrrrrr@{}}&#10;</xsl:variable>
+  <xsl:variable name="preamble">\begin{tabular*}{\textwidth}{@{\extracolsep\fill}l rrr@{~}rrrr@{~}rrrr@{}}&#10;</xsl:variable>
   <!-- Either format -->
   <xsl:variable name="header-row">
     <xsl:if test="matches($mode, 'tex', 'i')">
       <xsl:text>\toprule&#10;</xsl:text>
       <xsl:text>&amp;\multicolumn{3}{@{}c@{}}{Organisation}&amp;\multicolumn{4}{@{}c@{}}{Person}&amp;\multicolumn{4}{@{}c@{}}{Affiliation}\\&#10;</xsl:text>
-      <xsl:text>\cmidrule{2-4}\cmidrule{5-12}</xsl:text>
+      <xsl:text>\cmidrule{2-4}\cmidrule{5-8}\cmidrule{9-12}</xsl:text>
     </xsl:if>
     <xsl:text>ID</xsl:text> <!-- ISO country code -->
     <!-- Organizations:-->
