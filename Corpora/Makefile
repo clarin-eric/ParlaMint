@@ -31,6 +31,8 @@ extract2tsv:
 #CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 #CORPORA = PL AT BE
 #CORPORA = BA CZ BG
+#CORPORA = DK EE ES
+CORPORA = ES-CT ES-GA ES-PV
 
 ####### MTed CORPORA. Used only for make pack!
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en ES-PV-en FI-en FR-en GB-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -69,7 +71,7 @@ test:
 test-tei2:
 	${FINALIZE} -valid -codes UA -in ${HERE}/Master -out ${HERE}/Master
 test-tei1:
-	${FINALIZE} -tei -valid -codes LV -in ${HERE}/Master -out ${HERE}/Master
+	${FINALIZE} -tei -valid -codes DK -in ${HERE}/Master -out ${HERE}/Master
 test-vert6:
 	../Scripts/parlamintp-tei2vert-xx.pl ${HERE}/Master/ParlaMint-LV.TEI.ana Test/ParlaMint-LV-xx.vert
 test-vert5:

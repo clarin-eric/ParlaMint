@@ -15,7 +15,7 @@ test-en:
 ###### and inserting TSV metadata (political orientations for <listOrg>, ministers for <listPerson>)
 
 ### For one corpus
-CORPUS = PL
+CORPUS = DK
 one:
 	../../Scripts/add-metadata.pl ../Orientations ../Ministers 'Orig/ParlaMint-${CORPUS}.TEI*' '.'
 
