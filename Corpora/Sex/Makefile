@@ -1,7 +1,13 @@
 MCS = BA HR RS
-
 bug:
 	cut -f 1,3 personSex-*.tsv | grep 'ić$$'
+ana:
+	for MC in ${MCS}; do \
+	echo "In:" ; \
+	cat personSex-$${MC}.auto.tsv | cut -f1,5 | grep -v 'Country' | sort | uniq -c ; \
+	echo "Out:" ; \
+	cat personSex-$${MC}.fixed.tsv | cut -f1,5 | grep -v 'Country' | sort | uniq -c ; \
+	done;
 nohup:
 	nohup time make all > sex.log &
 all:	gen-sex fix-sex
@@ -9,10 +15,7 @@ fix-sex:
 	for MC in ${MCS}; do \
 	make-sex.pl < personSex-$${MC}.auto.tsv >  personSex-$${MC}.fixed.tsv ; \
 	done;
-ana:
-	for MC in ${MCS}; do \
-	cat personSex-$${MC}.auto.tsv | cut -f1,5 | grep -v 'Country' | sort | uniq -c ; \
-	done;
+
 ## Generate TSV .auto files for sex
 gen-sex:
 	for MC in ${MCS}; do \
