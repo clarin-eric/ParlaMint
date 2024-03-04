@@ -731,6 +731,8 @@
     <xsl:param name="aff1"/>
     <xsl:param name="aff2"/>
     <xsl:choose>
+      <xsl:when test="$aff1[@to][@from][@to &lt; @from]"><xsl:sequence select="false()"/></xsl:when> <!-- invalid date range -->
+      <xsl:when test="$aff2[@to][@from][@to &lt; @from]"><xsl:sequence select="false()"/></xsl:when> <!-- invalid date range -->
       <xsl:when test="not($aff1/@ref = $aff2/@ref)"><xsl:sequence select="false()"/></xsl:when>
       <xsl:when test="not($aff1/@role = $aff2/@role)"><xsl:sequence select="false()"/></xsl:when>
       <!-- IMPROVE: sort content -->

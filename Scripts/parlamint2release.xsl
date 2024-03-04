@@ -13,6 +13,8 @@
      - remove anonymous/unknown speaker (BG, BE, SE)
      - fix some corpus-dependent (GB) orgs and affiliations 
      - fix sprurious spaces in text content (multiple, leading and trailing spaces)
+     - merge overlapping affiliations
+     - remove affiliations where to < from
 
      Changes to component files:
      - add meeting reference to corpus specific parliamentary body of the meeting, if missing
@@ -345,6 +347,29 @@
   <!-- Processing persons and affiliations -->
   <xsl:template match="tei:*[not(name()='affiliation')] | comment() | text()" mode="person">
     <xsl:apply-templates select="." mode="root"/>
+  </xsl:template>
+
+  <xsl:template match="tei:affiliation[@to &lt; @from]" mode="person">
+    <xsl:message>
+      <xsl:text>INFO: removing affiliation</xsl:text>
+      <xsl:if test="parent::tei:person/@xml:id">
+        <xsl:text> [</xsl:text>
+        <xsl:value-of select="parent::tei:person/@xml:id"/>
+      </xsl:if>
+      <xsl:text>]</xsl:text>
+      <xsl:text> role=</xsl:text>
+      <xsl:value-of select="@role"/>
+      <xsl:text> ref=</xsl:text>
+      <xsl:value-of select="@ref"/>
+      <xsl:if test="@ana">
+        <xsl:text> ana=</xsl:text>
+        <xsl:value-of select="@ana"/>
+      </xsl:if>
+      <xsl:text>: attribute to=</xsl:text>
+      <xsl:value-of select="@to"/>
+      <xsl:text> is before from=</xsl:text>
+      <xsl:value-of select="@from"/>
+    </xsl:message>
   </xsl:template>
 
   <xsl:template match="tei:affiliation" mode="person">
