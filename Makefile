@@ -608,6 +608,17 @@ DEV-speaker_types-in-taxonomy:
 	done | sed 's/^"//;s/"$$//;s/ParlaMint-//;s/|/\t/g'|sort|uniq
 
 
+DEV-parlamint2release-XX = $(addprefix DEV-parlamint2release-, $(PARLIAMENTS))
+##!DEV-parlamint2release## run parlamint2release script on folder and the result put to ....../ParlaMint-XX.parlamint2release
+DEV-parlamint2release: $(DEV-parlamint2release-XX)
+##!DEV-parlamint2release-XX## ...
+$(DEV-parlamint2release-XX): DEV-parlamint2release-%: %
+	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.*xml" `;	do \
+	  echo "INFO: processing $${root}" ;\
+	  ${s} outDir=${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}.parlamint2release -xsl:Scripts/parlamint2release.xsl $${root} || echo "FATAL ERROR $${root}" ;\
+	done
+
+
 fix-v2tov3-XX = $(addprefix fix-v2tov3-, $(PARLIAMENTS-v2))
 ##!fix-v2tov3 ## convert ParlaMint v2 format to ParlaMint v3 format
 fix-v2tov3: $(fix-v2tov3-XX)

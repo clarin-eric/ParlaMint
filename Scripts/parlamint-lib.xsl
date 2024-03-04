@@ -726,6 +726,39 @@
     </xsl:choose>
   </xsl:function>
 
+  <!-- test if two affiliations are comparable - same ref + role + roleName + ana -->
+  <xsl:function name="mk:is-comparable">
+    <xsl:param name="aff1"/>
+    <xsl:param name="aff2"/>
+    <xsl:choose>
+      <xsl:when test="not($aff1/@ref = $aff2/@ref)"><xsl:sequence select="false()"/></xsl:when>
+      <xsl:when test="not($aff1/@role = $aff2/@role)"><xsl:sequence select="false()"/></xsl:when>
+      <!-- IMPROVE: sort content -->
+      <xsl:when test="not($aff1/@ana) and $aff2/@ana"><xsl:sequence select="false()"/></xsl:when>
+      <xsl:when test="$aff1/@ana and not($aff2/@ana)"><xsl:sequence select="false()"/></xsl:when>
+
+      <xsl:when test="$aff1/@ana and $aff2/@ana and not($aff1/@ana = $aff2/@ana)"><xsl:sequence select="false()"/></xsl:when>
+      <xsl:when test="$aff1/tei:roleName and not($aff2/tei:roleName)"><xsl:sequence select="false()"/></xsl:when>
+      <xsl:when test="not($aff1/tei:roleName) and $aff2/tei:roleName"><xsl:sequence select="false()"/></xsl:when>
+      <xsl:when test="$aff1/tei:roleName and $aff2/tei:roleName and not($aff1/tei:roleName/text() = $aff2/tei:roleName/text())"><xsl:sequence select="false()"/></xsl:when>
+      <xsl:otherwise><xsl:sequence select="true()"/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+
+  <!-- test if two elements has overlapping from-to ranges -->
+  <xsl:function name="mk:is-overlapping">
+    <xsl:param name="aff1"/>
+    <xsl:param name="aff2"/>
+    <xsl:choose>
+      <xsl:when test="$aff1/@from and et:between-dates($aff1/@from,$aff2/@from,$aff2/@to)"><xsl:sequence select="true()"/></xsl:when>
+      <xsl:when test="$aff1/@to and et:between-dates($aff1/@to,$aff2/@from,$aff2/@to)"><xsl:sequence select="true()"/></xsl:when>
+      <xsl:when test="$aff2/@from and et:between-dates($aff2/@from,$aff1/@from,$aff1/@to)"><xsl:sequence select="true()"/></xsl:when>
+      <xsl:when test="$aff2/@to and et:between-dates($aff2/@to,$aff1/@from,$aff1/@to)"><xsl:sequence select="true()"/></xsl:when>
+      <xsl:when test="not($aff1/@from or $aff1/@to or $aff2/@from or $aff2/@to)"><xsl:sequence select="true()"/></xsl:when>
+      <xsl:otherwise><xsl:sequence select="false()"/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+
   <!-- Format number-->
   <xsl:function name="et:format-number" as="xs:string">
     <xsl:param name="lang" as="xs:string"/>

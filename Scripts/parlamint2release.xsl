@@ -202,10 +202,26 @@
     </xsl:copy>
   </xsl:template>
   
-  <!-- Remove anonymous speaker -->
-  <xsl:template mode="root" match="tei:person[@xml:id='Anonymous' or @xml:id='anonymous' or @xml:id='unknown']">
-    <xsl:message select="concat('WARN ', /tei:*/@xml:id,
-			 ': removing anonymous speaker from listPerson ', @xml:id)"/>
+  <xsl:template mode="root" match="tei:person">
+    <xsl:choose>
+      <!-- Remove anonymous speaker -->
+      <xsl:when test="@xml:id='Anonymous' or @xml:id='anonymous' or @xml:id='unknown'">
+        <xsl:message select="concat('WARN ', /tei:*/@xml:id,
+           ': removing anonymous speaker from listPerson ', @xml:id)"/>
+      </xsl:when>
+      <!-- Processing the rest -->
+      <xsl:otherwise>
+        <xsl:variable name="affiliations">
+          <xsl:apply-templates select="* | comment() | text()" mode="affiliations"/>
+        </xsl:variable>
+        <xsl:copy>
+          <xsl:apply-templates select="@*" mode="root"/>
+          <xsl:apply-templates select="* | comment() | text()" mode="person">
+            <xsl:with-param name="affiliations" select="$affiliations"/>
+          </xsl:apply-templates>
+        </xsl:copy>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <!-- Remove the two "speaker" parties from GB, i.e. 
@@ -322,6 +338,171 @@
 	  <xsl:message terminate="yes" select="concat('FATAL ERROR ', /tei:*/@xml:id, 
                                ': strange situation with ', .)"/>
       </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+
+  <!-- Processing persons and affiliations -->
+  <xsl:template match="tei:*[not(name()='affiliation')] | comment() | text()" mode="person">
+    <xsl:apply-templates select="." mode="root"/>
+  </xsl:template>
+
+  <xsl:template match="tei:affiliation" mode="person">
+    <xsl:param name="affiliations"/>
+    <xsl:variable name="position" select="position()"/>
+    <xsl:variable name="aff" select="$affiliations/tei:item[@n=$position]/tei:new/tei:affiliation[1]"/>
+    <xsl:if test="not($affiliations/tei:item[@n=$position]/preceding-sibling::tei:item[mk:is-comparable($aff,tei:new/tei:affiliation[1]) and mk:is-overlapping($aff,tei:new/tei:affiliation[1])])">
+      <xsl:copy-of select="$affiliations/tei:item[@n=$position]/tei:new/*"/>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template match="tei:affiliation" mode="affiliations">
+    <xsl:variable name="position" select="position()"/>
+    <xsl:variable name="aff" select="."/>
+    <xsl:variable name="similar-siblings" select="(preceding-sibling::tei:affiliation | following-sibling::tei:affiliation)[mk:is-comparable(.,$aff)]"/>
+    <item n="{position()}">
+      <orig>
+        <xsl:copy>
+          <xsl:apply-templates select="@*" mode="root"/>
+          <xsl:apply-templates mode="root"/>
+        </xsl:copy>
+      </orig>
+      <new>
+        <xsl:apply-templates select="." mode="affiliation-extend">
+          <xsl:with-param name="position" select="$position"/>
+          <xsl:with-param name="extend-candidates" select="$similar-siblings"/>
+        </xsl:apply-templates>
+      </new>
+    </item>
+  </xsl:template>
+  <xsl:template match="* | comment() | text()" mode="affiliations"/>
+
+  <xsl:template match="tei:affiliation" mode="affiliation-extend">
+    <xsl:param name="position"/>
+    <xsl:param name="extend-candidates"/>
+    <xsl:variable name="aff" select="."/>
+    <xsl:variable name="extend">
+      <xsl:apply-templates select="$aff" mode="affiliation-overlap">
+        <xsl:with-param name="candidates" select="$extend-candidates"/>
+      </xsl:apply-templates>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="count($extend-candidates) = 0">
+        <xsl:copy-of select="$aff"/>
+      </xsl:when>
+      <xsl:when test="$extend/tei:extend">
+<!--
+        <xsl:message>TODO EXTEND</xsl:message>
+        <xsl:comment>TODO: check for duplicity</xsl:comment>
+
+<xsl:message>CANDIDATES:<xsl:copy-of select="$extend-candidates"/></xsl:message>
+
+<xsl:message>MERGE THIS:</xsl:message>
+<xsl:message>AFFILIATION:<xsl:copy-of select="$aff"/></xsl:message>
+<xsl:message>EXTEND:<xsl:copy-of select="$extend"/></xsl:message>
+-->
+        <xsl:variable name="aff-merged">
+          <xsl:apply-templates select="$aff" mode="affiliation-merge">
+            <xsl:with-param name="extend" select="$extend/tei:extend/*"/>
+          </xsl:apply-templates>
+        </xsl:variable>
+        <!--
+<xsl:message>MERGED===:<xsl:copy-of select="$aff-merged"/></xsl:message>
+       -->
+        <xsl:apply-templates select="$aff-merged" mode="affiliation-extend">
+          <xsl:with-param name="position" select="$position"/>
+          <xsl:with-param name="extend-candidates" select="$extend/tei:rest/*"/>
+        </xsl:apply-templates>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:comment>TODO: check for duplicity (fall back no other duplicity)</xsl:comment>
+        <xsl:copy-of select="$aff"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <xsl:template match="tei:affiliation" mode="affiliation-overlap">
+    <xsl:param name="candidates"/>
+    <xsl:variable name="aff" select="."/>
+    <xsl:variable name="first-aff" select="$candidates[1]"/>
+    <xsl:choose>
+      <xsl:when test="not($first-aff)"/>
+      <xsl:when test="mk:is-overlapping($aff,$first-aff)">
+        <extend><xsl:copy-of select="$first-aff"/></extend>
+        <rest><xsl:copy-of select="$candidates[position()>1]"/></rest>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:variable name="sub-result">
+          <xsl:apply-templates select="$aff" mode="affiliation-overlap">
+            <xsl:with-param name="candidates" select="$candidates[position()>1]"/>
+          </xsl:apply-templates>
+        </xsl:variable>
+        <xsl:choose>
+          <xsl:when test="$sub-result">
+            <xsl:copy-of select="$sub-result/tei:extend"/>
+            <rest>
+              <xsl:copy-of select="$first-aff"/>
+              <xsl:copy-of select="$sub-result/tei:rest/*"/>
+            </rest>
+          </xsl:when>
+          <xsl:otherwise/><!--no extension => no output-->
+        </xsl:choose>
+      </xsl:otherwise>
+
+    </xsl:choose>
+  </xsl:template>
+
+  <xsl:template match="tei:affiliation" mode="affiliation-merge">
+    <xsl:param name="extend"/>
+    <xsl:message>
+      <xsl:text>INFO: merging affiliations</xsl:text>
+      <xsl:if test="parent::tei:person/@xml:id">
+        <xsl:text> [</xsl:text>
+        <xsl:value-of select="parent::tei:person/@xml:id"/>
+      </xsl:if>
+      <xsl:text>]</xsl:text>
+      <xsl:text> role=</xsl:text>
+      <xsl:value-of select="@role"/>
+      <xsl:text> ref=</xsl:text>
+      <xsl:value-of select="@ref"/>
+      <xsl:if test="@ana">
+        <xsl:text> ana=</xsl:text>
+        <xsl:value-of select="@ana"/>
+      </xsl:if>
+      <xsl:text>: (</xsl:text>
+      <xsl:value-of select="concat(@from,'--',@to)"/>
+      <xsl:text>)  +  (</xsl:text>
+      <xsl:value-of select="concat($extend/@from,'--',$extend/@to)"/>
+      <xsl:text>)</xsl:text>
+    </xsl:message>
+    <xsl:copy>
+      <xsl:apply-templates select="@*" mode="affiliation-merge">
+        <xsl:with-param name="extend" select="$extend"/>
+      </xsl:apply-templates>
+      <xsl:apply-templates mode="root"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="@*[not(name() = 'to') and not(name() = 'from') ]" mode="affiliation-merge">
+    <xsl:param name="extend"/>
+    <xsl:copy/>
+  </xsl:template>
+
+  <xsl:template match="@from | @to" mode="affiliation-merge">
+    <xsl:param name="extend"/>
+    <xsl:variable name="attr" select="name()"/>
+    <xsl:choose>
+      <xsl:when test="not($extend/@*[name() = $attr])"/>
+      <!-- extend/@  >=  @ -->
+      <xsl:when test="xs:date(et:pad-date($extend/@*[name() = $attr]))  >= xs:date(et:pad-date(.)) ">
+        <xsl:choose>
+          <xsl:when test="$attr = 'from'"><xsl:copy/></xsl:when>
+          <xsl:otherwise><xsl:apply-templates select="$extend/@*[name() = $attr]" mode="root"/></xsl:otherwise>
+        </xsl:choose>
+      </xsl:when>
+      <!-- extend/@  <=  @ -->
+      <xsl:when test="$attr = 'from'"><xsl:apply-templates select="$extend/@*[name() = $attr]" mode="root"/></xsl:when>
+      <xsl:otherwise><xsl:copy/></xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 
