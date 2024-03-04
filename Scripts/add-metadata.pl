@@ -105,10 +105,7 @@ foreach $inCorpDir (sort glob $inDirs) {
 	     $miniScript,
 	     "$tmpDir/ParlaMint-$country-listPerson.mini.xml");
 
-    print STDERR "Merging affiliations overlaps\n";
-    `$Saxon -xsl:$affiliationScript $tmpDir/ParlaMint-$country-listPerson.mini.xml > $tmpDir/ParlaMint-$country-listPerson.aff.xml`;
-
-    `$poliScript < $tmpDir/ParlaMint-$country-listPerson.aff.xml > $outCorpDir/ParlaMint-$country-listPerson.xml`;
+    `$poliScript < $tmpDir/ParlaMint-$country-listPerson.mini.xml > $outCorpDir/ParlaMint-$country-listPerson.xml`;
 }
 
 sub process {
