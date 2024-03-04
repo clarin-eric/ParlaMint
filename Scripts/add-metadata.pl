@@ -34,9 +34,6 @@ $wikiScript  = "$Bin/wiki-tsv2tei.xsl";
 # Scripts that add info to listPerson
 $miniScript = "$Bin/ministers-tsv2tei.xsl";
 
-# Scripts that remove/merge affiliation overlaps in listPerson
-$affiliationScript = "$Bin/affiliations-remove-overlaps.xsl";
-
 # Script that makes XML prettier
 $poliScript = "$Bin/polish-xml.pl";
 
