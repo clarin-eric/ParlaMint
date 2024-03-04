@@ -2555,6 +2555,37 @@
       <content>
          <textNode/>
       </content>
+      <attList><!--forename/@xml:lang-->
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="ana" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+         <attDef ident="full" mode="delete"/>
+         <attDef ident="sort" mode="delete"/>
+         <attDef ident="role" mode="delete"/>
+         <attDef ident="nymRef" mode="delete"/>
+         <attDef ident="key" mode="delete"/>
+         <attDef ident="ref" mode="delete"/>
+         <attDef ident="type" mode="delete"/>
+         <attDef ident="subtype" mode="delete"/>
+      </attList>
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <persName>
@@ -2570,10 +2601,9 @@
       <content>
          <textNode/>
       </content>
-      <attList>
+      <attList><!--addName/@xml:lang-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -2618,10 +2648,9 @@
       <content>
          <textNode/>
       </content>
-      <attList>
+      <attList><!--nameLink/@xml:lang-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -2664,12 +2693,7 @@
       <content>
          <textNode/>
       </content>
-      <attList>
-         <attDef ident="xml:lang" mode="replace" usage="opt">
-            <datatype>
-               <dataRef key="teidata.language"/>
-            </datatype>
-         </attDef>
+      <attList><!--roleName/@xml:lang-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
@@ -2731,9 +2755,9 @@
                <valItem ident="married"/>
             </valList>
          </attDef>
+         <!--surname/@xml:lang-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -6240,7 +6264,7 @@
     Note that there can be several placeNames, all referring to the same place, but written in different languages or scripts.</desc>
       <content>
          <alternate>
-            <elementRef key="placeName" minOccurs="0"/>
+            <elementRef key="placeName" minOccurs="0" maxOccurs="unbounded"/>
             <empty/>
          </alternate>
       </content>
@@ -6328,7 +6352,7 @@
     Note that there can be several placeNames, all referring to the same place, but written in different languages or scripts.</desc>
       <content>
          <alternate>
-            <elementRef key="placeName" minOccurs="0"/>
+            <elementRef key="placeName" minOccurs="0" maxOccurs="unbounded"/>
             <empty/>
          </alternate>
       </content>

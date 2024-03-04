@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2024-03-03T19:25:07Z. 2024-03-03.
+Schema generated from ODD source 2024-03-04T10:45:58Z. 2024-03-03.
 TEI Edition: Version 4.6.0a. Last updated on
         5th January 2023, revision 9074b9038
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0a./
@@ -3450,6 +3450,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
       <element name="surname">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(surname) contains a family (inherited) name, as opposed to a given, baptismal, or nick name. [13.2.1. Personal Names]</a:documentation>
          <text/>
+         <ref name="tei_att.global.attribute.xmllang"/>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -3470,9 +3471,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
       <element name="forename">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(forename) contains a forename, given or baptismal name. [13.2.1. Personal Names]</a:documentation>
          <text/>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.personal.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
+         <ref name="tei_att.global.attribute.xmllang"/>
          <empty/>
       </element>
    </define>
@@ -3480,30 +3479,23 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
       <element name="nameLink">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(name link) contains a connecting phrase or link used within a name but not regarded as part of it, such as van der or of. [13.2.1. Personal Names]</a:documentation>
          <text/>
+         <ref name="tei_att.global.attribute.xmllang"/>
+         <empty/>
       </element>
    </define>
    <define name="tei_addName">
       <element name="addName">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(additional name) contains an additional name component, such as a nickname, epithet, or alias, or any other descriptive phrase used within a personal name. [13.2.1. Personal Names]</a:documentation>
          <text/>
+         <ref name="tei_att.global.attribute.xmllang"/>
+         <empty/>
       </element>
    </define>
    <define name="tei_roleName">
       <element name="roleName">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(role name) contains a name component which indicates that the referent has a particular role or position in society, such as an official title or rank. [13.2.1. Personal Names]</a:documentation>
          <text/>
-         <optional>
-            <attribute name="xml:lang">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <choice>
-                  <data type="language"/>
-                  <choice>
-                     <value/>
-                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  </choice>
-               </choice>
-            </attribute>
-         </optional>
+         <ref name="tei_att.global.attribute.xmllang"/>
          <empty/>
       </element>
    </define>
@@ -3597,9 +3589,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
       <element name="birth">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(birth) contains information about a person's birth, obligatorily its date and optionaly the place. Note that there can be several placeNames, all referring to the same place, but written in different languages or scripts. [15.2.2. The Participant Description]</a:documentation>
          <choice>
-            <optional>
+            <zeroOrMore>
                <ref name="tei_placeName"/>
-            </optional>
+            </zeroOrMore>
          </choice>
          <attribute name="when">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the value of the date or time in a standard form, e.g. yyyy-mm-dd.</a:documentation>
@@ -3621,9 +3613,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
       <element name="death">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(death) contains information about a person's death, obligatorily its date and optionaly the place. Note that there can be several placeNames, all referring to the same place, but written in different languages or scripts. [15.2.2. The Participant Description]</a:documentation>
          <choice>
-            <optional>
+            <zeroOrMore>
                <ref name="tei_placeName"/>
-            </optional>
+            </zeroOrMore>
          </choice>
          <attribute name="when">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the value of the date or time in a standard form, e.g. yyyy-mm-dd.</a:documentation>
@@ -4261,18 +4253,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <empty/>
       </element>
    </define>
-   <define name="tei_att.global.attributes">
-      <ref name="tei_att.global.rendition.attributes"/>
-      <ref name="tei_att.global.linking.attributes"/>
-      <ref name="tei_att.global.analytic.attributes"/>
-      <ref name="tei_att.global.responsibility.attributes"/>
-      <ref name="tei_att.global.source.attributes"/>
-      <ref name="tei_att.global.attribute.xmlid"/>
-      <ref name="tei_att.global.attribute.n"/>
-      <ref name="tei_att.global.attribute.xmllang"/>
-      <ref name="tei_att.global.attribute.xmlbase"/>
-      <ref name="tei_att.global.attribute.xmlspace"/>
-   </define>
    <define name="tei_att.global.attribute.xmlid">
       <optional>
          <attribute name="xml:id">
@@ -4542,10 +4522,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <sch:report test="@unit" role="info">The @unit attribute may be unnecessary when @unitRef is present.</sch:report>
       </sch:rule>
    </pattern>
-   <define name="tei_att.naming.attributes">
-      <ref name="tei_att.canonical.attributes"/>
-      <ref name="tei_att.naming.attribute.role"/>
-   </define>
    <define name="tei_att.naming.attribute.role">
       <optional>
          <attribute name="role">
@@ -4559,10 +4535,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
             </list>
          </attribute>
       </optional>
-   </define>
-   <define name="tei_att.personal.attributes">
-      <ref name="tei_att.naming.attributes"/>
-      <ref name="tei_att.personal.attribute.full"/>
    </define>
    <define name="tei_att.personal.attribute.full">
       <optional>

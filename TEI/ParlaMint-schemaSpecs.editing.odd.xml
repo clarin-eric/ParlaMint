@@ -1644,6 +1644,9 @@
     <content>
       <textNode/>
     </content>
+    <attList>
+      <pm:attPreserve ident="xml:lang"/>
+    </attList>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <persName>
@@ -1661,7 +1664,9 @@
     <content>
       <textNode/>
     </content>
-    <attList/>
+    <attList>
+      <pm:attPreserve ident="xml:lang"/>
+    </attList>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <persName>
@@ -1680,7 +1685,9 @@
     <content>
       <textNode/>
     </content>
-    <attList/>
+    <attList>
+      <pm:attPreserve ident="xml:lang"/>
+    </attList>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <person xml:id="PicóAntoni">
@@ -1704,11 +1711,7 @@
       <textNode/>
     </content>
     <attList>
-      <attDef ident="xml:lang" mode="replace" usage="opt">
-        <datatype>
-          <dataRef key="teidata.language"/>
-        </datatype>
-      </attDef>
+      <pm:attPreserve ident="xml:lang"/>
     </attList>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
@@ -1736,6 +1739,7 @@
       <textNode/>
     </content>
     <attList>
+      <pm:attPreserve ident="xml:lang"/>
       <attDef ident="type" mode="replace" usage="opt">
         <valList type="closed">
           <valItem ident="birth"/>
@@ -3758,7 +3762,7 @@
     Note that there can be several placeNames, all referring to the same place, but written in different languages or scripts.</desc>
     <content>
       <alternate>
-        <elementRef key="placeName" minOccurs="0"/>
+        <elementRef key="placeName" minOccurs="0" maxOccurs="unbounded"/>
         <empty/>
       </alternate>
     </content>
@@ -3788,7 +3792,7 @@
     Note that there can be several placeNames, all referring to the same place, but written in different languages or scripts.</desc>
     <content>
       <alternate>
-        <elementRef key="placeName" minOccurs="0"/>
+        <elementRef key="placeName" minOccurs="0" maxOccurs="unbounded"/>
         <empty/>
       </alternate>
     </content>
