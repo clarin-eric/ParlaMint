@@ -262,6 +262,11 @@
 	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
                                ': fixing idno (sub)type for wikipedia for ', .)"/>
 	</xsl:when>
+	<xsl:when test="@type = 'url'">
+	  <xsl:attribute name="type">URI</xsl:attribute>
+	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
+                               ': fixing idno type from url to URI for ', .)"/>
+        </xsl:when>
       </xsl:choose>
       <xsl:value-of select="normalize-space(.)"/>
     </xsl:copy>
