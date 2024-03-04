@@ -351,7 +351,7 @@
 
   <xsl:template match="tei:affiliation[@to &lt; @from]" mode="person">
     <xsl:message>
-      <xsl:text>INFO: removing affiliation</xsl:text>
+      <xsl:text>WARN: removing affiliation</xsl:text>
       <xsl:if test="parent::tei:person/@xml:id">
         <xsl:text> [</xsl:text>
         <xsl:value-of select="parent::tei:person/@xml:id"/>
@@ -480,7 +480,7 @@
   <xsl:template match="tei:affiliation" mode="affiliation-merge">
     <xsl:param name="extend"/>
     <xsl:message>
-      <xsl:text>INFO: merging affiliations</xsl:text>
+      <xsl:text>WARN: merging affiliations</xsl:text>
       <xsl:if test="parent::tei:person/@xml:id">
         <xsl:text> [</xsl:text>
         <xsl:value-of select="parent::tei:person/@xml:id"/>
