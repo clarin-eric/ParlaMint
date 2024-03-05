@@ -18,7 +18,7 @@ $correct{'Branislava'}='F';
 $correct{'Dragan'}='M';
 $correct{'Jovica'}='M';
 $correct{'Milija'}='F';
-$correct{'Milka'}='M';
+$correct{'Milka'}='F';
 $correct{'Miroslava'}='F';
 $correct{'Nermina'}='F';
 
