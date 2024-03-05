@@ -740,6 +740,9 @@
       <xsl:when test="$aff1/@ana and not($aff2/@ana)"><xsl:sequence select="false()"/></xsl:when>
 
       <xsl:when test="$aff1/@ana and $aff2/@ana and not($aff1/@ana = $aff2/@ana)"><xsl:sequence select="false()"/></xsl:when>
+
+      <xsl:when test="$aff1/@role = 'member' and $aff2/@role = 'member'"><xsl:sequence select="true()"/></xsl:when> <!-- skipping the rest of validations if member -->
+
       <xsl:when test="$aff1/tei:roleName and not($aff2/tei:roleName)"><xsl:sequence select="false()"/></xsl:when>
       <xsl:when test="not($aff1/tei:roleName) and $aff2/tei:roleName"><xsl:sequence select="false()"/></xsl:when>
       <xsl:when test="$aff1/tei:roleName and $aff2/tei:roleName and not($aff1/tei:roleName/text() = $aff2/tei:roleName/text())"><xsl:sequence select="false()"/></xsl:when>
