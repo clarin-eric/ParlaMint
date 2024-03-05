@@ -1,5 +1,5 @@
 val:
-	${vxx} ParlaMint-PL.test.xml
+	${vxx} ParlaMint-BG.test.xml
 test-ch:
 	$s tsv=../Corpora/Orientations/Orientation-BE.CHES.tsv -xsl:../../Scripts/ches-tsv2tei.xsl \
 	ParlaMint-BE.TEI/ParlaMint-BE-listOrg.xml > ParlaMint-CHES-listOrg.tmp.xml
@@ -15,9 +15,9 @@ test-en:
 ###### and inserting TSV metadata (political orientations for <listOrg>, ministers for <listPerson>)
 
 ### For one corpus
-CORPUS = DK
+CORPUS = RS
 one:
-	../../Scripts/add-metadata.pl ../Orientations ../Ministers 'Orig/ParlaMint-${CORPUS}.TEI*' '.'
+	../../Scripts/add-metadata.pl ../Orientations ../Ministers ../Sex 'Orig/ParlaMint-${CORPUS}.TEI*' '.'
 
 ### For everything
 nohup:
@@ -25,7 +25,7 @@ nohup:
 
 ### Add metadata
 metadata:
-	../../Scripts/add-metadata.pl ../Orientations ../Ministers "Orig/ParlaMint-*.TEI*" "."
+	../../Scripts/add-metadata.pl ../Orientations ../Ministers ../Sex "Orig/ParlaMint-*.TEI*" "."
 
 ###################### VARIABLES
 #Absolute paths are needed otherwise problems with XSLT

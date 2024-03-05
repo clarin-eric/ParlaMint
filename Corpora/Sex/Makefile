@@ -1,7 +1,7 @@
 ### Testing targets
-MC = RS
+MC = BA
 test-sex:
-	$s tsv=${HERE}/personSex-${MC}.fixed.tsv -xsl:${RUN}/sex-tsv2tei.xsl \
+	$s tsv=${HERE}/Sex-${MC}.fixed.tsv -xsl:${RUN}/sex-tsv2tei.xsl \
 	${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listPerson.xml | ${RUN}/polish-xml.pl \
 	> tmp/ParlaMint-${MC}-listPerson.xml
 	-${vrp} tmp/ParlaMint-${MC}-listPerson.xml
@@ -11,26 +11,26 @@ test-sex:
 
 MCS = BA HR RS
 bug:
-	cut -f 1,3 personSex-*.tsv | grep 'ić$$'
+	cut -f 1,3 Sex-*.tsv | grep 'ić$$'
 ana:
 	for MC in ${MCS}; do \
 	echo "In:" ; \
-	cat personSex-$${MC}.auto.tsv | cut -f1,5 | grep -v 'country' | sort | uniq -c ; \
+	cat Sex-$${MC}.auto.tsv | cut -f1,5 | grep -v 'country' | sort | uniq -c ; \
 	echo "Out:" ; \
-	cat personSex-$${MC}.fixed.tsv | cut -f1,5 | grep -v 'country' | sort | uniq -c ; \
+	cat Sex-$${MC}.fixed.tsv | cut -f1,5 | grep -v 'country' | sort | uniq -c ; \
 	done;
 nohup:
 	nohup time make all > sex.log &
 all:	gen-sex fix-sex
 fix-sex:
 	for MC in ${MCS}; do \
-	determine-sex.pl < personSex-$${MC}.auto.tsv >  personSex-$${MC}.fixed.tsv ; \
+	slavic-sex.pl < Sex-$${MC}.auto.tsv >  Sex-$${MC}.fixed.tsv ; \
 	done;
 
 ## Generate TSV .auto files for sex
 gen-sex:
 	for MC in ${MCS}; do \
-	$s -xsl:${RUN}/sex-tei2tsv.xsl ${DATA}/ParlaMint-$${MC}.TEI/ParlaMint-$${MC}-listPerson.xml > personSex-$${MC}.auto.tsv ; \
+	$s -xsl:${RUN}/sex-tei2tsv.xsl ${DATA}/ParlaMint-$${MC}.TEI/ParlaMint-$${MC}-listPerson.xml > Sex-$${MC}.auto.tsv ; \
 	done;
 
 ####  Needed directories

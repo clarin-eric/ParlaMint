@@ -5,7 +5,8 @@
 # - add CHES political orientations to listOrg.xml
 # - add Wiki political orientations to listOrg.xml
 # - transliterate listPerson.xml
-# - add minster affiliations to listPerson.xml
+# - add minister affiliations to listPerson.xml
+# - add sex information on listPerson.xml
 use warnings;
 use utf8;
 use FindBin qw($Bin);
@@ -18,6 +19,7 @@ binmode(STDERR, 'utf8');
 
 $orieDir = File::Spec->rel2abs(shift);
 $miniDir = File::Spec->rel2abs(shift);
+$sexDir  = File::Spec->rel2abs(shift);
 $inDirs  = File::Spec->rel2abs(shift);
 $outDir  = File::Spec->rel2abs(shift);
 
@@ -33,6 +35,7 @@ $wikiScript  = "$Bin/wiki-tsv2tei.xsl";
 
 # Scripts that add info to listPerson
 $miniScript = "$Bin/ministers-tsv2tei.xsl";
+$sexScript  = "$Bin/sex-tsv2tei.xsl";
 
 # Script that makes XML prettier
 $poliScript = "$Bin/polish-xml.pl";
@@ -46,6 +49,10 @@ $wikiSuffix = '.Wiki.tsv';
 # Prefix and suffixes of ministers related TSV files
 $miniPrefix  = 'Ministers-';
 $miniSuffix  = '.edited.tsv';
+
+# Prefix and suffixes of sex related TSV files
+$sexPrefix  = 'Sex-';
+$sexSuffix  = '.fixed.tsv';
 
 foreach $inCorpDir (sort glob $inDirs) {
     ($country, $anaSuffix) = $inCorpDir =~ /ParlaMint-([A-Z-]+)\.TEI(\..+)?/ or die;
@@ -101,8 +108,14 @@ foreach $inCorpDir (sort glob $inDirs) {
              "$outCorpDir/ParlaMint-$country-listOrg.xml",
 	     $miniScript,
 	     "$tmpDir/ParlaMint-$country-listPerson.mini.xml");
+    &process('Sex info',
+	     "$tmpDir/ParlaMint-$country-listPerson.mini.xml",
+	     "$sexDir/$sexPrefix$country$sexSuffix",
+             '',
+	     $sexScript,
+	     "$tmpDir/ParlaMint-$country-listPerson.sex.xml");
 
-    `$poliScript < $tmpDir/ParlaMint-$country-listPerson.mini.xml > $outCorpDir/ParlaMint-$country-listPerson.xml`;
+    `$poliScript < $tmpDir/ParlaMint-$country-listPerson.sex.xml > $outCorpDir/ParlaMint-$country-listPerson.xml`;
 }
 
 sub process {
