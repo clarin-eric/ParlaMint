@@ -21,7 +21,7 @@
   <xsl:template match="tei:*"/>
   
   <xsl:template match="/">
-    <xsl:text>Country&#9;ID&#9;Surname&#9;Forename&#9;Sex&#10;</xsl:text>
+    <xsl:text>country&#9;id&#9;surname&#9;forename&#9;sex&#10;</xsl:text>
     <xsl:apply-templates select="//tei:person">
       <xsl:sort/>
     </xsl:apply-templates>
