@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv" xml:id="ParlaMint-SE.ana">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="sv" type="main">Riksdagens protokoll [ParlaMint.ana SAMPLE]</title>
+            <title xml:lang="en" type="main">Swedish parliamentary corpus ParlaMint-SE [ParlaMint.ana SAMPLE]</title>
+            <meeting n="2014-2018" ana="#parla.uni #parla.term">Mandatperioden 2014–2018</meeting>
+            <meeting n="2018-2022" ana="#parla.uni #parla.term">Mandatperioden 2018–2022</meeting>
+            <respStmt>
+               <persName>Väinö Yrjänäinen</persName>
+               <persName>Fredrik Mohammadi Norén</persName>
+               <persName>Måns Magnusson</persName>
+               <persName>Johan Jarlbrink</persName>
+               <resp xml:lang="en">Data retrieval, curation and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="84662" xml:lang="en">84,662 speeches</measure>
+            <measure unit="speeches" quantity="84662" xml:lang="sv">84,662 tal</measure>
+            <measure unit="words" quantity="28980081" xml:lang="en">28,980,081 words</measure>
+            <measure unit="words" quantity="28980081" xml:lang="sv">28,980,081 ord</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI">https://github.com/clarin-eric/ParlaMint</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-03-04">2024-03-04</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Riksdagens protokoll</title>
+               <idno type="URI" subtype="parliament">https://data.riksdagen.se/data/dokument/</idno>
+               <idno type="URI" subtype="parliament">https://github.com/welfare-state-analytics/riksdagen-corpus</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="sv"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p xml:lang="en">No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p xml:lang="en">Text has not been normalised, except for spacing.</p>
+            </normalization>
+            <hyphenation>
+               <p xml:lang="en">End-of-line hyphens were removed from the source text.</p>
+            </hyphenation>
+            <quotation>
+               <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="938"/>
+               <tagUsage gi="desc" occurs="9656"/>
+               <tagUsage gi="div" occurs="15843"/>
+               <tagUsage gi="head" occurs="15819"/>
+               <tagUsage gi="kinesic" occurs="9656"/>
+               <tagUsage gi="link" occurs="31618518"/>
+               <tagUsage gi="linkGrp" occurs="1795381"/>
+               <tagUsage gi="name" occurs="500962"/>
+               <tagUsage gi="note" occurs="370551"/>
+               <tagUsage gi="pc" occurs="2638437"/>
+               <tagUsage gi="s" occurs="1795381"/>
+               <tagUsage gi="seg" occurs="535639"/>
+               <tagUsage gi="text" occurs="938"/>
+               <tagUsage gi="u" occurs="84662"/>
+               <tagUsage gi="w" occurs="28980081"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-NER.ana.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-CHES.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-politicalOrientation.xml"/>
+         </classDecl>
+         <listPrefixDef>
+            <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
+               <p>Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <appInfo>
+            <application ident="Sparv" version="5.0.0">
+               <label>Språkbanken's Sparv Pipeline</label>
+               <desc>POS tagging, lemmatization, dependency parsing and named entity recognition done with Sparv Pipeline 5.0.0 (<ref target="https://spraakbanken.gu.se/sparv/#/">https://spraakbanken.gu.se/sparv/#/</ref>) using the Stanza and SweNER models</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Sveriges riksdag</name>
+               <name type="address">Riksgatan 1</name>
+               <name type="city">Stockholm</name>
+               <name type="country">Sweden</name>
+               <date from="2015-09-15" to="2022-05-17">2015-09-15 - 2022-05-17</date>
+            </setting>
+         </settingDesc>
+         <textClass>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.uni"/>
+         </textClass>
+         <particDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-SE-listOrg.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-SE-listPerson.xml"/>
+         </particDesc>
+         <langUsage>
+            <language ident="sv" xml:lang="sv">svenska</language>
+            <language ident="en" xml:lang="sv">engelska</language>
+            <language ident="sv" xml:lang="en">Swedish</language>
+            <language ident="en" xml:lang="en">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-03-04">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-SE_2017-12-12-prot-201718--48.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-SE_2020-04-16-prot-201920--106.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-SE_2022-05-13-prot-202122--113.ana.xml"/>
+</teiCorpus>
+
