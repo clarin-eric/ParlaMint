@@ -273,12 +273,11 @@ pb = element pb { global.atts, source.att, empty }
 ## A series of paragraphs. Paragraphs are only used in the teiHeader.
 paras = element p { global.atts, annotated.text }+
 
-## The identification number element identifies a corpus element with an URI,
-##     and specifies its type and subtype.
+## The identification element identifies a corpus element with an URI, and specifies its type and subtype.
 idno =
   element idno {
     lang.att,
-    attribute type { "URI" | "VIAF" | xsd:Name },
+    attribute type { "URI" | "VIAF" },
     attribute subtype { xsd:Name }?,
     xsd:anyURI { pattern = "https?://.+" }
   }

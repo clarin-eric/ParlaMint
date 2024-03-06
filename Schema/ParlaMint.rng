@@ -567,15 +567,13 @@
   </define>
 
   <define name="idno">
-    <a:documentation>The identification number element identifies a corpus element with an URI,
-    and specifies its type and subtype.</a:documentation>
+    <a:documentation>The identification element identifies a corpus element with an URI, and specifies its type and subtype.</a:documentation>
     <element name="idno">
       <ref name="lang.att"/>
       <attribute name="type">
         <choice>
           <value>URI</value>
           <value>VIAF</value>
-          <data type="Name"/>
         </choice>
       </attribute>
       <optional>
