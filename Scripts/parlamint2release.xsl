@@ -271,7 +271,7 @@
                                ': fixing idno (sub)type for wikipedia for ', .)"/>
 	</xsl:when>
         <!-- BG: <idno type="wikimedia">https://www.comdos.bg/Състав на комисията/evtim kostadinov kostadinov</idno> -->
-	<xsl:when test="@type = 'wikimedia' and not(contains(., 'wiki')))">
+	<xsl:when test="@type = 'wikimedia' and not(contains(., 'wiki'))">
 	  <xsl:attribute name="type">URI</xsl:attribute>
 	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
                                ': fixing idno (sub)type for URI for ', .)"/>
