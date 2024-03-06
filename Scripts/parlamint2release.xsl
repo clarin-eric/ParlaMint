@@ -256,11 +256,25 @@
 	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
                                ': fixing idno (sub)type for parliament for ', .)"/>
 	</xsl:when>
-	<xsl:when test="contains(., 'wikipedia') and not(@type = 'URI' and @subtype = 'wikimedia')">
+	<!-- BG: <idno type="wikimedia">https://www.bulnao.government.bg/bg/articles/gorica-gryncharova-kozhareva-1440</idno> -->
+	<xsl:when test="contains(., 'government') and not(@type = 'URI' and @subtype = 'government')">
+	  <xsl:attribute name="type">URI</xsl:attribute>
+	  <xsl:attribute name="subtype">government</xsl:attribute>
+	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
+                               ': fixing idno (sub)type for government for ', .)"/>
+	</xsl:when>
+	<xsl:when test="(contains(., 'wikipedia') or contains(., 'wikimedia'))
+                        and not(@type = 'URI' and @subtype = 'wikimedia')">
 	  <xsl:attribute name="type">URI</xsl:attribute>
 	  <xsl:attribute name="subtype">wikimedia</xsl:attribute>
 	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
                                ': fixing idno (sub)type for wikipedia for ', .)"/>
+	</xsl:when>
+        <!-- BG: <idno type="wikimedia">https://www.comdos.bg/Състав на комисията/evtim kostadinov kostadinov</idno> -->
+	<xsl:when test="@type = 'wikimedia' and not(contains(., 'wiki')))">
+	  <xsl:attribute name="type">URI</xsl:attribute>
+	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
+                               ': fixing idno (sub)type for URI for ', .)"/>
 	</xsl:when>
 	<xsl:when test="@type = 'url'">
 	  <xsl:attribute name="type">URI</xsl:attribute>
