@@ -1,0 +1,758 @@
+# newdoc id = ParlaMint-ES-PV_2022-10-14.u0
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg2
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg2.s1
+# text = Egun on guztioi.
+1	Egun	egun	NOUN	NOUN	_	0	root	_	NER=O
+2	on	on	ADJ	ADJ	_	1	amod	_	NER=O
+3	guztioi	guzti	NUM	NUM	NumType=Card	1	det	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg2.s2
+# text = Osoko bilkurari hasiera emango diogu.
+1	Osoko	osoko	ADJ	ADJ	_	2	amod	_	NER=O
+2	bilkurari	bilkura	NOUN	NOUN	_	3	nmod	_	NER=O
+3	hasiera	hasiera	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	4	obj	_	NER=O
+4	emango	eman	VERB	VERB	Aspect=Prosp|VerbForm=Part	0	root	_	NER=O
+5	diogu	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Plur|Person[abs]=3|Person[dat]=3|Person[erg]=1	4	aux	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	4	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg3
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg3.s1
+# text = Gai-zerrendako lehenengo puntua:
+1	Gai-zerrendako	Gai-zerrenda	PROPN	PROPN	Case=Loc|Definite=Def|Number=Sing	3	nmod	_	NER=B-ORG
+2	lehenengo	lehenengo	NUM	NUM	NumType=Ord	3	det	_	NER=O
+3	puntua	puntu	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+4	:	:	PUNCT	PUNCT	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg3.s2
+# text = "Galdera, Jon Andoni Atutxa Sainz Euzko Abertzaleak taldeko legebiltzarkideak lehenengo lehendakariorde eta Segurtasuneko sailburuari egina, Ertzaintzak ziberdelinkuentziaren fenomeno gero eta handiagoari aurre egiteko aurreikusi dituen jarduerei buruz".
+1	"	"	PUNCT	PUNCT	_	17	punct	_	NER=O|SpaceAfter=No
+2	Galdera	galdera	NUM	NUM	Case=Abs|Definite=Ind|NumType=Card	17	obl	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	17	punct	_	NER=O
+4	Jon	Jon	PROPN	PROPN	_	9	nmod	_	NER=B-PER
+5	Andoni	Andoni	PROPN	PROPN	_	4	flat	_	NER=I-PER
+6	Atutxa	Atutxa	PROPN	PROPN	_	5	flat	_	NER=I-PER
+7	Sainz	Sainz	PROPN	PROPN	_	6	flat	_	NER=I-PER
+8	Euzko	Eutz	PROPN	PROPN	Case=Loc|Definite=Def|Number=Sing	7	flat	_	NER=B-ORG
+9	Abertzaleak	abertzale	NOUN	NOUN	Case=Abs|Definite=Def|Number=Plur	17	nsubj	_	NER=I-ORG
+10	taldeko	talde	NOUN	NOUN	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	11	nmod	_	NER=O
+11	legebiltzarkideak	legebiltzarkide	NOUN	NOUN	Case=Abs|Definite=Def|Number=Plur	17	obj	_	NER=O
+12	lehenengo	lehenengo	NUM	NUM	NumType=Ord	13	amod	_	NER=O
+13	lehendakariorde	lehendakariorde	NOUN	NOUN	_	17	iobj	_	NER=O
+14	eta	eta	CCONJ	CCONJ	_	16	cc	_	NER=O
+15	Segurtasuneko	Segurtasune	NOUN	NOUN	Case=Loc|Definite=Def|Number=Sing	16	nmod	_	NER=B-ORG
+16	sailburuari	sailburu	NOUN	NOUN	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	13	conj	_	NER=O
+17	egina	egin	VERB	VERB	Case=Abs|Definite=Def|Number=Sing|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	17	punct	_	NER=O
+19	Ertzaintzak	Ertzaintza	PROPN	PROPN	Case=Erg|Definite=Def|Number=Sing	22	nsubj	_	NER=B-ORG
+20	ziberdelinkuentziaren	ziberdelinkuentzi	NOUN	NOUN	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	22	nmod	_	NER=O
+21	fenomeno	fenomeno	NOUN	NOUN	_	22	nmod	_	NER=O
+22	gero	gero	ADV	ADV	_	17	advcl	_	NER=O
+23	eta	eta	CCONJ	CCONJ	_	27	cc	_	NER=O
+24	handiagoari	handiago	ADJ	ADJ	Case=Dat	26	obl	_	NER=O
+25	aurre	aurre	NOUN	NOUN	_	26	compound	_	NER=O
+26	egiteko	egin	VERB	VERB	Case=Abs|Definite=Ind	27	advcl	_	NER=O
+27	aurreikusi	aurreikusi	VERB	VERB	Aspect=Perf|VerbForm=Part	22	conj	_	NER=O
+28	dituen	*edun	AUX	AUX	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	27	aux	_	NER=O
+29	jarduerei	jarduera	NOUN	NOUN	Case=Dat	27	obl	_	NER=O
+30	buruz	buruz	ADP	ADP	Definite=Def|Number=Sing	29	case	_	NER=O|SpaceAfter=No
+31	"	"	PUNCT	PUNCT	_	27	punct	_	NER=O|SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	17	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg4
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg4.s1
+# text = Atutxa jauna, zurea da hitza.
+1	Atutxa	Atutxa	PROPN	PROPN	_	2	nmod	_	NER=O
+2	jauna	jaun	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	4	nsubj	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	NER=O
+4	zurea	zure	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	nsubj	_	NER=O
+5	da	izan	AUX	AUX	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	6	cop	_	NER=O
+6	hitza	hitz	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	6	punct	_	NER=O
+
+# newdoc id = ParlaMint-ES-PV_2022-10-14.u1
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg5
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg5.s1
+# text = Eskerrik asko, legebiltzarburu andrea.
+1	Eskerrik	Esker	NOUN	NOUN	_	0	root	_	NER=O
+2	asko	asko	DET	DET	Case=Abs|Definite=Ind	1	det	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	NER=O
+4	legebiltzarburu	legebiltzarburu	NOUN	NOUN	_	5	nmod	_	NER=O
+5	andrea	andre	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	1	conj	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg5.s2
+# text = Lehendakari, sailburuak, legebiltzarkideok, egun on.
+1	Lehendakari	lehendakari	NOUN	NOUN	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	3	punct	_	NER=O
+3	sailburuak	sailburu	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	1	conj	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	5	punct	_	NER=O
+5	legebiltzarkideok	legebiltzarkide	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	1	conj	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	7	punct	_	NER=O
+7	egun	egun	NOUN	NOUN	_	1	conj	_	NER=O
+8	on	on	ADJ	ADJ	Case=Abs|Definite=Ind	7	amod	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	7	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg6
+# lang = es
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg6.s1
+# text = Señor Erkoreka, en su comparecencia el pasado mes de marzo nos aportó un dato que desde nuestro grupo entendemos muy destacable.
+1	Señor	Señor	PROPN	PROPN	_	13	nsubj	_	NER=O
+2	Erkoreka	Erkoreka	PROPN	PROPN	_	1	flat	_	NER=B-ORG|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	NER=O
+4	en	en	ADP	ADP	_	6	case	_	NER=O
+5	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	NER=O
+6	comparecencia	comparecencia	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	NER=O
+7	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	NER=O
+8	pasado	pasado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	9	amod	_	NER=O
+9	mes	mes	NOUN	NOUN	_	6	appos	_	NER=O
+10	de	de	ADP	ADP	_	11	case	_	NER=O
+11	marzo	marzo	NOUN	NOUN	_	9	compound	_	NER=O
+12	nos	yo	PRON	PRON	Case=Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	13	iobj	_	NER=O
+13	aportó	aportar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	NER=O
+14	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	NER=O
+15	dato	dato	NOUN	NOUN	Gender=Masc|Number=Sing	13	obj	_	NER=O
+16	que	que	PRON	PRON	PronType=Int,Rel	20	obj	_	NER=O
+17	desde	desde	ADP	ADP	_	19	case	_	NER=O
+18	nuestro	nuestro	DET	DET	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	19	det	_	NER=O
+19	grupo	grupo	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	NER=O
+20	entendemos	entender	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	acl	_	NER=O
+21	muy	mucho	ADV	ADV	_	22	advmod	_	NER=O
+22	destacable	destacable	ADJ	ADJ	Number=Sing	20	obj	_	NER=O|SpaceAfter=No
+23	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg6.s2
+# text = Y ese dato no era otro que durante el año 2021 de cada cinco delitos investigados por la Ertzaintza uno de ellos era un delito informático o que se había cometido utilizando medios informáticos.
+1	Y	y	CCONJ	CCONJ	_	6	advmod	_	NER=O
+2	ese	ese	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	NER=O
+3	dato	dato	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	NER=O
+4	no	no	ADV	ADV	Polarity=Neg	6	advmod	_	NER=O
+5	era	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	NER=O
+6	otro	otro	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	NER=O
+7	que	que	SCONJ	SCONJ	_	25	mark	_	NER=O
+8	durante	durante	ADP	ADP	_	10	case	_	NER=O
+9	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	NER=O
+10	año	año	NOUN	NOUN	_	25	obl	_	NER=O
+11	2021	2021	NUM	NUM	NumForm=Digit|NumType=Card	10	compound	_	NER=O
+12	de	de	ADP	ADP	_	15	case	_	NER=O
+13	cada	cada	DET	DET	Number=Sing|PronType=Tot	15	det	_	NER=O
+14	cinco	cinco	NUM	NUM	Number=Plur|NumType=Card	13	nummod	_	NER=O
+15	delitos	delito	NOUN	NOUN	Gender=Masc|Number=Plur	25	nmod	_	NER=O
+16	investigados	investigado	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	15	amod	_	NER=O
+17	por	por	ADP	ADP	_	19	case	_	NER=O
+18	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	NER=O
+19	Ertzaintza	Ertzaintza	PROPN	PROPN	_	16	obj	_	NER=B-ORG
+20	uno	uno	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	25	nsubj	_	NER=O
+21	de	de	ADP	ADP	_	22	case	_	NER=O
+22	ellos	él	PRON	PRON	Case=Acc,Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	nmod	_	NER=O
+23	era	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	cop	_	NER=O
+24	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	NER=O
+25	delito	delito	NOUN	NOUN	Gender=Masc|Number=Sing	6	advcl	_	NER=O
+26	informático	informático	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	NER=O
+27	o	o	CCONJ	CCONJ	_	31	cc	_	NER=O
+28	que	que	PRON	PRON	PronType=Int,Rel	31	nsubj	_	NER=O
+29	se	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	31	expl:pass	_	NER=O
+30	había	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	aux	_	NER=O
+31	cometido	cometer	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	conj	_	NER=O
+32	utilizando	utilizar	VERB	VERB	VerbForm=Ger	31	xcomp	_	NER=O
+33	medios	medio	NOUN	NOUN	Gender=Masc|Number=Plur	32	obj	_	NER=O
+34	informáticos	informático	ADJ	ADJ	Gender=Masc|Number=Plur	33	amod	_	NER=O|SpaceAfter=No
+35	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg7
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg7.s1
+# text = Delitu informatikoak ez dira berriak, baina azken urteotan etengabe ari dira hazten.
+1	Delitu	delitu	NOUN	NOUN	_	5	nsubj	_	NER=O
+2	informatikoak	informatiko	ADJ	ADJ	Case=Abs|Definite=Def|Number=Plur	1	amod	_	NER=O
+3	ez	ez	PART	PART	Polarity=Neg	5	advmod	_	NER=O
+4	dira	izan	AUX	AUX	Mood=Ind|Number[abs]=Plur|Person[abs]=3	5	aux	_	NER=O
+5	berriak	berri	ADJ	ADJ	Case=Abs|Definite=Def|Number=Plur	0	root	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	12	punct	_	NER=O
+7	baina	baina	CCONJ	CCONJ	_	12	cc	_	NER=O
+8	azken	azken	NUM	NUM	NumType=Ord	9	amod	_	NER=O
+9	urteotan	urte	NOUN	NOUN	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	12	obl	_	NER=O
+10	etengabe	etengabe	ADV	ADV	_	12	advmod	_	NER=O
+11	ari	ari	AUX	AUX	_	12	aux	_	NER=O
+12	dira	izan	VERB	VERB	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	5	conj	_	NER=O
+13	hazten	hazi	VERB	VERB	Case=Ine	12	advcl	_	NER=O|SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	5	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg8
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg8.s1
+# text = Erkoreka jauna, zuk zeuk adierazi zenuen bezala, gero eta ingurune digitalizatuagoan gaude, gero eta ingurune digitalizatuagoan bizi eta mugitzen garen heinean, delitua ere digitalizatu egiten da.
+1	Erkoreka	Erkoreka	NOUN	NOUN	_	2	nmod	_	NER=O
+2	jauna	jaun	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	6	punct	_	NER=O
+4	zuk	zu	PRON	PRON	PronType=Prs	5	nmod	_	NER=O
+5	zeuk	zeu	PRON	PRON	Case=Erg|Definite=Def|Number=Sing|Person=2	6	nsubj	_	NER=O
+6	adierazi	adierazi	VERB	VERB	Voice=Cau	2	conj	_	NER=O
+7	zenuen	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=2	6	aux	_	NER=O
+8	bezala	bezala	ADV	ADV	_	6	advcl	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	2	punct	_	NER=O
+10	gero	gero	ADV	ADV	_	6	advmod	_	NER=O
+11	eta	eta	CCONJ	CCONJ	_	14	cc	_	NER=O
+12	ingurune	inguru	PRON	PRON	PronType=Prs	13	nmod	_	NER=O
+13	digitalizatuagoan	digitalizatuago	NOUN	NOUN	Case=Ine|Definite=Def|Number=Sing	14	obl	_	NER=O
+14	gaude	egon	VERB	VERB	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=1	6	conj	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	28	punct	_	NER=O
+16	gero	gero	ADV	ADV	_	6	advmod	_	NER=O
+17	eta	eta	CCONJ	CCONJ	_	28	cc	_	NER=O
+18	ingurune	inguru	NOUN	NOUN	_	19	nmod	_	NER=O
+19	digitalizatuagoan	digitalizatuago	NOUN	NOUN	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	28	obl	_	NER=O
+20	bizi	bizi	ADJ	ADJ	Case=Abs|Definite=Ind	24	compound	_	NER=O
+21	eta	eta	CCONJ	CCONJ	_	22	cc	_	NER=O
+22	mugitzen	mugitu	VERB	VERB	Aspect=Imp|VerbForm=Inf	20	conj	_	NER=O
+23	garen	izan	AUX	AUX	Mood=Ind|Number[abs]=Plur|Person[abs]=1	22	aux	_	NER=O
+24	heinean	heine	NOUN	NOUN	Case=Ine|Definite=Def|Number=Sing	28	obl	_	NER=O|SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	28	punct	_	NER=O
+26	delitua	delitu	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	28	nsubj	_	NER=O
+27	ere	ere	CCONJ	CCONJ	_	28	advmod	_	NER=O
+28	digitalizatu	digitalizatu	VERB	VERB	VerbForm=Part	6	conj	_	NER=O
+29	egiten	egin	VERB	VERB	Aspect=Imp|VerbForm=Inf	28	aux	_	NER=O
+30	da	izan	AUX	AUX	Mood=Ind|Number[abs]=Sing|Person[abs]=3	28	aux	_	NER=O|SpaceAfter=No
+31	.	.	PUNCT	PUNCT	_	2	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg9
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg9.s1
+# text = Erkoreka jauna, egoera horren aurrean, zer jarduketa egiteko asmoa du Ertzaintzak ziberdelinkuentziaren fenomeno gero eta handiagoari aurre egiteko.
+1	Erkoreka	Erkoreka	NOUN	NOUN	_	2	nmod	_	NER=O
+2	jauna	jaun	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	12	nsubj	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	12	punct	_	NER=O
+4	egoera	egoera	NOUN	NOUN	_	12	obl	_	NER=O
+5	horren	hori	DET	DET	Case=Gen|Definite=Def|Number=Sing	4	det	_	NER=O
+6	aurrean	aurre	ADP	ADP	Case=Ine|Definite=Def|Number=Plur	5	case	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	12	punct	_	NER=O
+8	zer	zer	DET	DET	Case=Abs|Definite=Ind	10	obj	_	NER=O
+9	jarduketa	jarduketa	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	10	obj	_	NER=O
+10	egiteko	egin	VERB	VERB	Case=Loc	12	advcl	_	NER=O
+11	asmoa	asmo	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	12	obj	_	NER=O
+12	du	ukan	VERB	VERB	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	0	root	_	NER=O
+13	Ertzaintzak	Ertzaintza	PROPN	PROPN	Case=Erg|Definite=Def|Number=Sing	12	nsubj	_	NER=B-ORG
+14	ziberdelinkuentziaren	ziberdelinkuentzi	NOUN	NOUN	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	15	nmod	_	NER=O
+15	fenomeno	fenomeno	NOUN	NOUN	_	16	nmod	_	NER=O
+16	gero	gero	ADV	ADV	_	12	advmod	_	NER=O
+17	eta	eta	CCONJ	CCONJ	_	20	cc	_	NER=O
+18	handiagoari	handiago	ADJ	ADJ	Case=Dat	20	obl	_	NER=O
+19	aurre	aurre	NOUN	NOUN	_	20	compound	_	NER=O
+20	egiteko	egin	VERB	VERB	Case=Abs|Definite=Ind	12	conj	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	12	punct	_	NER=O|SpaceAfter=No
+
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg9.s2
+# text = ?
+1	?	?	PUNCT	PUNCT	_	0	root	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg10
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg10.s1
+# text = Eskerrik asko.
+1	Eskerrik	Esker	NOUN	NOUN	_	0	root	_	NER=O
+2	asko	asko	DET	DET	Case=Abs|Definite=Ind	1	det	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-ES-PV_2022-10-14.u135
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg690
+# lang = es
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg690.s1
+# text = Presidente andrea.
+1	Presidente	presidente	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	NER=O
+2	andrea	andrea	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg691
+# lang = es
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg691.s1
+# text = Barrio jauna, mi ignorancia no llega hasta el punto de no saber que Orduña es Bizkaia.
+1	Barrio	barrio	NOUN	NOUN	_	7	obl	_	NER=O
+2	jauna	jauna	NOUN	NOUN	_	1	compound	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	NER=O
+4	mi	mi	DET	DET	Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	NER=O
+5	ignorancia	ignorancia	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	NER=O
+6	no	no	ADV	ADV	Polarity=Neg	7	advmod	_	NER=O
+7	llega	llegar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+8	hasta	hasta	ADP	ADP	_	10	case	_	NER=O
+9	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	NER=O
+10	punto	punto	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	NER=O
+11	de	de	ADP	ADP	_	17	mark	_	NER=O
+12	no	no	ADV	ADV	Polarity=Neg	17	advmod	_	NER=O
+13	saber	saber	AUX	AUX	VerbForm=Inf	17	aux	_	NER=O
+14	que	que	SCONJ	SCONJ	_	17	mark	_	NER=O
+15	Orduña	Orduña	PROPN	PROPN	_	17	nsubj	_	NER=B-LOC
+16	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	NER=O
+17	Bizkaia	Bizkaia	PROPN	PROPN	_	10	acl	_	NER=B-LOC|SpaceAfter=No
+18	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg691.s2
+# text = Pero es que en su relación de proyectos ha eludido completamente todos los que tenían que ver con Aiaraldea, y me ha parecido que era el momento de aportarlos, ¿no?
+1	Pero	pero	CCONJ	CCONJ	_	2	advmod	_	NER=O
+2	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+3	que	que	SCONJ	SCONJ	_	10	mark	_	NER=O
+4	en	en	ADP	ADP	_	6	case	_	NER=O
+5	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	NER=O
+6	relación	relación	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	NER=O
+7	de	de	ADP	ADP	_	8	case	_	NER=O
+8	proyectos	proyecto	NOUN	NOUN	Gender=Masc|Number=Plur	6	nmod	_	NER=O
+9	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	NER=O
+10	eludido	eludir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	NER=O
+11	completamente	completamente	ADV	ADV	_	10	advmod	_	NER=O
+12	todos	todo	DET	DET	Gender=Masc|Number=Plur|PronType=Tot	13	det	_	NER=O
+13	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	NER=O
+14	que	que	PRON	PRON	PronType=Int,Rel	17	obj	_	NER=O
+15	tenían	tener	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	ccomp	_	NER=O
+16	que	que	SCONJ	SCONJ	_	17	cc	_	NER=O
+17	ver	ver	VERB	VERB	VerbForm=Inf	15	conj	_	NER=O
+18	con	con	ADP	ADP	_	19	case	_	NER=O
+19	Aiaraldea	Aiaraldea	PROPN	PROPN	_	17	obj	_	NER=B-LOC|SpaceAfter=No
+20	,	,	PUNCT	PUNCT	PunctType=Comm	24	punct	_	NER=O
+21	y	y	CCONJ	CCONJ	_	24	cc	_	NER=O
+22	me	yo	PRON	PRON	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	24	iobj	_	NER=O
+23	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	NER=O
+24	parecido	parecer	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	NER=O
+25	que	que	SCONJ	SCONJ	_	26	mark	_	NER=O
+26	era	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	ccomp	_	NER=O
+27	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	NER=O
+28	momento	momento	NOUN	NOUN	Gender=Masc|Number=Sing	26	nsubj	_	NER=O
+29	de	de	ADP	ADP	_	30	mark	_	NER=O
+30-31	aportarlos	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+30	aportar	aportar	VERB	VERB	VerbForm=Inf	28	acl	_	_
+31	los	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	30	obj	_	_
+32	,	,	PUNCT	PUNCT	PunctType=Comm	34	punct	_	NER=O
+33	¿	¿	PUNCT	PUNCT	PunctSide=Ini|PunctType=Qest	34	punct	_	NER=O|SpaceAfter=No
+34	no	no	ADV	ADV	Polarity=Neg	2	advmod	_	NER=O|SpaceAfter=No
+35	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	2	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg692
+# lang = es
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg692.s1
+# text = Mire, mi relación con usted en estos seis años en los que me ha correspondido estar al frente del Departamento de Cultura ha sido muy enriquecedora, porque gracias a aquellos acuerdos parlamentarios y presupuestarios que alcanzamos hace unos años nos obligamos los dos a pensar en qué cosas se podían desarrollar en Álava, y qué otras cosas podíamos copiar, incluso en comunidades en las que el Partido Popular gobernaba, copiar o utilizar como modelo, para intentar desarrollarlas en este territorio.
+1	Mire	mire	INTJ	INTJ	_	29	dep	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	NER=O
+3	mi	mi	DET	DET	Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	NER=O
+4	relación	relación	NOUN	NOUN	Gender=Fem|Number=Sing	29	nsubj	_	NER=O
+5	con	con	ADP	ADP	_	6	case	_	NER=O
+6	usted	tú	PRON	PRON	Case=Acc,Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	4	nmod	_	NER=O
+7	en	en	ADP	ADP	_	10	case	_	NER=O
+8	estos	este	DET	DET	Gender=Masc|Number=Plur|PronType=Dem	10	det	_	NER=O
+9	seis	seis	NUM	NUM	Number=Plur|NumType=Card	8	nummod	_	NER=O
+10	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	4	nmod	_	NER=O
+11	en	en	ADP	ADP	_	13	case	_	NER=O
+12	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	NER=O
+13	que	que	PRON	PRON	PronType=Int,Rel	16	obl	_	NER=O
+14	me	yo	PRON	PRON	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	16	iobj	_	NER=O
+15	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	NER=O
+16	correspondido	corresponder	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	NER=O
+17	estar	estar	AUX	AUX	VerbForm=Inf	23	cop	_	NER=O
+18-19	al	_	_	_	_	_	_	_	NER=O
+18	a	a	ADP	ADP	_	23	case	_	_
+19	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	fixed	_	_
+20	frente	frente	NOUN	NOUN	_	18	fixed	_	NER=O
+21-22	del	_	_	_	_	_	_	_	NER=O
+21	de	de	ADP	ADP	_	18	fixed	_	_
+22	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Departamento	Departamento	PROPN	PROPN	_	16	obl	_	NER=B-ORG
+24	de	de	ADP	ADP	_	25	case	_	NER=I-ORG
+25	Cultura	Cultura	PROPN	PROPN	_	23	flat	_	NER=I-ORG
+26	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	NER=O
+27	sido	ser	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	cop	_	NER=O
+28	muy	mucho	ADV	ADV	_	29	advmod	_	NER=O
+29	enriquecedora	enriquecedor	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+30	,	,	PUNCT	PUNCT	PunctType=Comm	45	punct	_	NER=O
+31	porque	porque	SCONJ	SCONJ	_	45	mark	_	NER=O
+32	gracias	gracias	NOUN	NOUN	_	35	case	_	NER=O
+33	a	a	ADP	ADP	_	32	fixed	_	NER=O
+34	aquellos	aquel	DET	DET	Gender=Masc|Number=Plur|PronType=Dem	35	det	_	NER=O
+35	acuerdos	acuerdo	NOUN	NOUN	Gender=Masc|Number=Plur	45	obl	_	NER=O
+36	parlamentarios	parlamentario	ADJ	ADJ	Gender=Masc|Number=Plur	35	amod	_	NER=O
+37	y	y	CCONJ	CCONJ	_	38	cc	_	NER=O
+38	presupuestarios	presupuestario	ADJ	ADJ	Gender=Masc|Number=Plur	36	conj	_	NER=O
+39	que	que	PRON	PRON	PronType=Int,Rel	40	obj	_	NER=O
+40	alcanzamos	alcanzar	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	35	acl	_	NER=O
+41	hace	hacer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	advcl	_	NER=O
+42	unos	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	43	det	_	NER=O
+43	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	41	obj	_	NER=O
+44	nos	yo	PRON	PRON	Case=Acc|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	45	iobj	_	NER=O
+45	obligamos	obligar	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	29	advcl	_	NER=O
+46	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	NER=O
+47	dos	dos	NUM	NUM	Number=Plur|NumType=Card	45	nsubj	_	NER=O
+48	a	a	ADP	ADP	_	49	mark	_	NER=O
+49	pensar	pensar	VERB	VERB	VerbForm=Inf	45	xcomp	_	NER=O
+50	en	en	ADP	ADP	_	52	case	_	NER=O
+51	qué	qué	DET	DET	PronType=Int,Rel	52	det	_	NER=O
+52	cosas	cosa	NOUN	NOUN	Gender=Fem|Number=Plur	55	obj	_	NER=O
+53	se	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	55	expl:pass	_	NER=O
+54	podían	poder	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	55	aux	_	NER=O
+55	desarrollar	desarrollar	VERB	VERB	VerbForm=Inf	49	xcomp	_	NER=O
+56	en	en	ADP	ADP	_	57	case	_	NER=O
+57	Álava	Álava	PROPN	PROPN	_	55	obl	_	NER=B-LOC|SpaceAfter=No
+58	,	,	PUNCT	PUNCT	PunctType=Comm	64	punct	_	NER=O
+59	y	y	CCONJ	CCONJ	_	64	cc	_	NER=O
+60	qué	qué	DET	DET	Number=Sing|PronType=Int,Rel	62	det	_	NER=O
+61	otras	otro	DET	DET	Gender=Fem|Number=Plur|PronType=Ind	62	det	_	NER=O
+62	cosas	cosa	NOUN	NOUN	Gender=Fem|Number=Plur	64	nsubj	_	NER=O
+63	podíamos	poder	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	64	aux	_	NER=O
+64	copiar	copiar	VERB	VERB	VerbForm=Inf	49	conj	_	NER=O|SpaceAfter=No
+65	,	,	PUNCT	PUNCT	PunctType=Comm	66	punct	_	NER=O
+66	incluso	incluso	ADV	ADV	_	64	advmod	_	NER=O
+67	en	en	ADP	ADP	_	66	case	_	NER=O
+68	comunidades	comunidad	NOUN	NOUN	Gender=Fem|Number=Plur	66	nmod	_	NER=O
+69	en	en	ADP	ADP	_	71	case	_	NER=O
+70	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	71	det	_	NER=O
+71	que	que	PRON	PRON	PronType=Int,Rel	75	obl	_	NER=O
+72	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	73	det	_	NER=O
+73	Partido	Partido	PROPN	PROPN	_	75	nsubj	_	NER=B-ORG
+74	Popular	Popular	PROPN	PROPN	_	73	flat	_	NER=I-ORG
+75	gobernaba	gobernar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	68	acl	_	NER=O|SpaceAfter=No
+76	,	,	PUNCT	PUNCT	PunctType=Comm	77	punct	_	NER=O
+77	copiar	copiar	VERB	VERB	VerbForm=Inf	75	advcl	_	NER=O
+78	o	o	CCONJ	CCONJ	_	79	cc	_	NER=O
+79	utilizar	utilizar	VERB	VERB	VerbForm=Inf	77	conj	_	NER=O
+80	como	como	SCONJ	SCONJ	_	81	mark	_	NER=O
+81	modelo	modelo	NOUN	NOUN	Gender=Masc|Number=Sing	75	obl	_	NER=O|SpaceAfter=No
+82	,	,	PUNCT	PUNCT	PunctType=Comm	84	punct	_	NER=O
+83	para	para	ADP	ADP	_	84	mark	_	NER=O
+84	intentar	intentar	VERB	VERB	VerbForm=Inf	75	advcl	_	NER=O
+85-86	desarrollarlas	_	_	_	_	_	_	_	NER=O
+85	desarrollar	desarrollar	VERB	VERB	VerbForm=Inf	84	xcomp	_	_
+86	las	él	PRON	PRON	Case=Acc|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	85	obj	_	_
+87	en	en	ADP	ADP	_	89	case	_	NER=O
+88	este	este	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	89	det	_	NER=O
+89	territorio	territorio	NOUN	NOUN	Gender=Masc|Number=Sing	85	obl	_	NER=O|SpaceAfter=No
+90	.	.	PUNCT	PUNCT	PunctType=Peri	29	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg692.s2
+# text = Creo que fruto de aquella colaboración ha habido compromisos y apuestas clarísimas de nuestro departamento en el territorio alavés.
+1	Creo	creer	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+2	que	que	SCONJ	SCONJ	_	8	mark	_	NER=O
+3	fruto	fruto	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	NER=O
+4	de	de	ADP	ADP	_	6	case	_	NER=O
+5	aquella	aquel	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	NER=O
+6	colaboración	colaboración	NOUN	NOUN	Gender=Fem|Number=Sing	3	nmod	_	NER=O
+7	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	NER=O
+8	habido	haber	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	NER=O
+9	compromisos	compromiso	NOUN	NOUN	Gender=Masc|Number=Plur	8	obj	_	NER=O
+10	y	y	CCONJ	CCONJ	_	11	cc	_	NER=O
+11	apuestas	apuesta	NOUN	NOUN	Gender=Fem|Number=Plur	9	conj	_	NER=O
+12	clarísimas	clarísimo	ADJ	ADJ	Gender=Fem|Number=Plur	9	amod	_	NER=O
+13	de	de	ADP	ADP	_	15	case	_	NER=O
+14	nuestro	nuestro	DET	DET	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	15	det	_	NER=O
+15	departamento	departamento	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	NER=O
+16	en	en	ADP	ADP	_	18	case	_	NER=O
+17	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	NER=O
+18	territorio	territorio	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	NER=O
+19	alavés	alavés	ADJ	ADJ	Gender=Masc|Number=Sing	18	amod	_	NER=O|SpaceAfter=No
+20	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg692.s3
+# text = A veces hace falta que todos nos creamos un poco más las cosas.
+1	A	a	ADP	ADP	_	3	advmod	_	NER=O
+2	veces	veces	NOUN	NOUN	_	1	fixed	_	NER=O
+3	hace	hacer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+4	falta	falta	NOUN	NOUN	Gender=Fem|Number=Sing	3	compound	_	NER=O
+5	que	que	SCONJ	SCONJ	_	8	mark	_	NER=O
+6	todos	todo	PRON	PRON	Gender=Masc|Number=Plur|PronType=Tot	8	nsubj	_	NER=O
+7	nos	yo	PRON	PRON	Case=Acc|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	8	expl:pv	_	NER=O
+8	creamos	crear	VERB	VERB	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	csubj	_	NER=O
+9	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	advmod	_	NER=O
+10	poco	poco	ADV	ADV	_	9	fixed	_	NER=O
+11	más	más	ADV	ADV	Degree=Cmp	8	advmod	_	NER=O
+12	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	NER=O
+13	cosas	cosa	NOUN	NOUN	Gender=Fem|Number=Plur	8	obj	_	NER=O|SpaceAfter=No
+14	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg693
+# lang = es
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg693.s1
+# text = Yo creo que…
+1	Yo	yo	PRON	PRON	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	creo	creer	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+3	que	que	SCONJ	SCONJ	_	2	mark	_	NER=O|SpaceAfter=No
+4	…	…	PUNCT	PUNCT	_	2	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg694
+# lang = es
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg694.s1
+# text = … clarísimas de nuestro departamento en el territorio alavés.
+1	…	…	PUNCT	PUNCT	_	2	punct	_	NER=O
+2	clarísimas	clarísimo	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	NER=O
+3	de	de	ADP	ADP	_	5	case	_	NER=O
+4	nuestro	nuestro	DET	DET	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det	_	NER=O
+5	departamento	departamento	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	NER=O
+6	en	en	ADP	ADP	_	8	case	_	NER=O
+7	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	NER=O
+8	territorio	territorio	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	NER=O
+9	alavés	alavés	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg694.s2
+# text = A veces hace falta que todos nos creamos un poco más las cosas.
+1	A	a	ADP	ADP	_	3	advmod	_	NER=O
+2	veces	veces	NOUN	NOUN	_	1	fixed	_	NER=O
+3	hace	hacer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+4	falta	falta	NOUN	NOUN	Gender=Fem|Number=Sing	3	compound	_	NER=O
+5	que	que	SCONJ	SCONJ	_	8	mark	_	NER=O
+6	todos	todo	PRON	PRON	Gender=Masc|Number=Plur|PronType=Tot	8	nsubj	_	NER=O
+7	nos	yo	PRON	PRON	Case=Acc|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs|Reflex=Yes	8	expl:pv	_	NER=O
+8	creamos	crear	VERB	VERB	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	csubj	_	NER=O
+9	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	advmod	_	NER=O
+10	poco	poco	ADV	ADV	_	9	fixed	_	NER=O
+11	más	más	ADV	ADV	Degree=Cmp	8	advmod	_	NER=O
+12	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	NER=O
+13	cosas	cosa	NOUN	NOUN	Gender=Fem|Number=Plur	8	obj	_	NER=O|SpaceAfter=No
+14	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg695
+# lang = es
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg695.s1
+# text = Yo creo que todo el entorno que tiene que ver con Añana, Iruña-Veleia, es una zona que si nos la creemos, puede tener un tremendo potencial, tanto desde el punto de vista de la recuperación del patrimonio, de su conocimiento, pero también para el desarrollo de nuevas actividades económicas.
+1	Yo	yo	PRON	PRON	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	creo	creer	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+3	que	que	SCONJ	SCONJ	_	18	mark	_	NER=O
+4	todo	todo	DET	DET	Gender=Masc|Number=Sing|PronType=Tot	5	det	_	NER=O
+5	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	NER=O
+6	entorno	entorno	NOUN	NOUN	Gender=Masc|Number=Sing	18	nsubj	_	NER=O
+7	que	que	PRON	PRON	PronType=Int,Rel	10	obj	_	NER=O
+8	tiene	tener	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	NER=O
+9	que	que	SCONJ	SCONJ	_	10	cc	_	NER=O
+10	ver	ver	VERB	VERB	VerbForm=Inf	8	conj	_	NER=O
+11	con	con	ADP	ADP	_	12	case	_	NER=O
+12	Añana	Añana	PROPN	PROPN	_	10	obj	_	NER=B-LOC|SpaceAfter=No
+13	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	NER=O
+14	Iruña-Veleia	Iruña-Veleia	PROPN	PROPN	_	12	flat	_	NER=B-LOC|SpaceAfter=No
+15	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	NER=O
+16	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	NER=O
+17	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	NER=O
+18	zona	zona	NOUN	NOUN	Gender=Fem|Number=Sing	2	ccomp	_	NER=O
+19	que	que	PRON	PRON	PronType=Int,Rel	26	nsubj	_	NER=O
+20	si	si	SCONJ	SCONJ	_	23	mark	_	NER=O
+21	nos	yo	PRON	PRON	Case=Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	23	iobj	_	NER=O
+22	la	él	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	23	obj	_	NER=O
+23	creemos	creer	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	26	advcl	_	NER=O|SpaceAfter=No
+24	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	NER=O
+25	puede	poder	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	NER=O
+26	tener	tener	VERB	VERB	VerbForm=Inf	18	acl	_	NER=O
+27	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	NER=O
+28	tremendo	tremendo	ADJ	ADJ	Gender=Masc|Number=Sing	29	amod	_	NER=O
+29	potencial	potencial	NOUN	NOUN	Gender=Masc|Number=Sing	26	obj	_	NER=O|SpaceAfter=No
+30	,	,	PUNCT	PUNCT	PunctType=Comm	34	punct	_	NER=O
+31	tanto	tanto	ADV	ADV	_	34	cc	_	NER=O
+32	desde	desde	ADP	ADP	_	34	case	_	NER=O
+33	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	NER=O
+34	punto	punto	NOUN	NOUN	_	26	obl	_	NER=O
+35	de	de	ADP	ADP	_	36	case	_	NER=O
+36	vista	vista	NOUN	NOUN	Gender=Fem|Number=Sing	34	nmod	_	NER=O
+37	de	de	ADP	ADP	_	39	case	_	NER=O
+38	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	NER=O
+39	recuperación	recuperación	NOUN	NOUN	Gender=Fem|Number=Sing	34	nmod	_	NER=O
+40-41	del	_	_	_	_	_	_	_	NER=O
+40	de	de	ADP	ADP	_	42	case	_	_
+41	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	patrimonio	patrimonio	NOUN	NOUN	Gender=Masc|Number=Sing	39	nmod	_	NER=O|SpaceAfter=No
+43	,	,	PUNCT	PUNCT	PunctType=Comm	46	punct	_	NER=O
+44	de	de	ADP	ADP	_	46	case	_	NER=O
+45	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	46	det	_	NER=O
+46	conocimiento	conocimiento	NOUN	NOUN	Gender=Masc|Number=Sing	42	conj	_	NER=O|SpaceAfter=No
+47	,	,	PUNCT	PUNCT	PunctType=Comm	49	punct	_	NER=O
+48	pero	pero	CCONJ	CCONJ	_	49	cc	_	NER=O
+49	también	también	ADV	ADV	_	34	conj	_	NER=O
+50	para	para	ADP	ADP	_	49	case	_	NER=O
+51	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	NER=O
+52	desarrollo	desarrollo	NOUN	NOUN	Gender=Masc|Number=Sing	49	nmod	_	NER=O
+53	de	de	ADP	ADP	_	55	case	_	NER=O
+54	nuevas	nuevo	ADJ	ADJ	Gender=Fem|Number=Plur	55	amod	_	NER=O
+55	actividades	actividad	NOUN	NOUN	Gender=Fem|Number=Plur	52	nmod	_	NER=O
+56	económicas	económico	ADJ	ADJ	Gender=Fem|Number=Plur	55	amod	_	NER=O|SpaceAfter=No
+57	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg695.s2
+# text = Y claro, en ese sentido que también la colaboración público-privada es un hecho fundamental que a veces se echa en falta.
+1	Y	y	CCONJ	CCONJ	_	14	advmod	_	NER=O
+2	claro	claro	ADV	ADV	_	14	advmod	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	NER=O
+4	en	en	ADP	ADP	_	6	case	_	NER=O
+5	ese	ese	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	NER=O
+6	sentido	sentido	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	NER=O
+7	que	que	SCONJ	SCONJ	_	14	mark	_	NER=O
+8	también	también	ADV	ADV	_	14	advmod	_	NER=O
+9	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	NER=O
+10	colaboración	colaboración	NOUN	NOUN	Gender=Fem|Number=Sing	14	nsubj	_	NER=O
+11	público-privada	público-privado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	10	amod	_	NER=O
+12	es	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	NER=O
+13	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	NER=O
+14	hecho	hecho	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	NER=O
+15	fundamental	fundamental	ADJ	ADJ	Number=Sing	14	amod	_	NER=O
+16	que	que	PRON	PRON	PronType=Int,Rel	20	nsubj	_	NER=O
+17	a	a	ADP	ADP	_	20	advmod	_	NER=O
+18	veces	veces	NOUN	NOUN	_	17	fixed	_	NER=O
+19	se	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	20	expl:pass	_	NER=O
+20	echa	echar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	NER=O
+21	en	en	ADP	ADP	_	22	case	_	NER=O
+22	falta	falta	NOUN	NOUN	Gender=Fem|Number=Sing	20	compound	_	NER=O|SpaceAfter=No
+23	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg696
+# lang = es
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg696.s1
+# text = En cualquier caso, señor Barrio, no voy a dejar de citar a tres proyectos más que estamos desarrollando en el territorio alavés, y que tienen que ver con las fábricas culturales que usted ha citado como son Garaion, Azala o Aiaraldea Ekintzen Faktoria, con un total de 300.000 euros en dos años, que son lugares importantes y de referencia en Euskadi, incluso en Europa.
+1	En	en	ADP	ADP	_	3	case	_	NER=O
+2	cualquier	cualquiera	DET	DET	Number=Sing|PronType=Ind	3	det	_	NER=O
+3	caso	caso	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	NER=O
+5	señor	señor	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	NER=O
+6	Barrio	Barrio	PROPN	PROPN	_	5	flat	_	NER=B-PER|SpaceAfter=No
+7	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	NER=O
+8	no	no	ADV	ADV	Polarity=Neg	9	advmod	_	NER=O
+9	voy	ir	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+10	a	a	ADP	ADP	_	11	mark	_	NER=O
+11	dejar	dejar	VERB	VERB	VerbForm=Inf	9	xcomp	_	NER=O
+12	de	de	ADP	ADP	_	13	mark	_	NER=O
+13	citar	citar	VERB	VERB	VerbForm=Inf	9	xcomp	_	NER=O
+14	a	a	ADP	ADP	_	16	case	_	NER=O
+15	tres	tres	NUM	NUM	Number=Plur|NumType=Card	16	nummod	_	NER=O
+16	proyectos	proyecto	NOUN	NOUN	Gender=Masc|Number=Plur	13	obj	_	NER=O
+17	más	más	ADV	ADV	Degree=Cmp	16	advmod	_	NER=O
+18	que	que	PRON	PRON	PronType=Int,Rel	20	obj	_	NER=O
+19	estamos	estar	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	NER=O
+20	desarrollando	desarrollar	VERB	VERB	VerbForm=Ger	16	acl	_	NER=O
+21	en	en	ADP	ADP	_	23	case	_	NER=O
+22	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	NER=O
+23	territorio	territorio	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	NER=O
+24	alavés	alavés	ADJ	ADJ	Gender=Masc|Number=Sing	23	amod	_	NER=O|SpaceAfter=No
+25	,	,	PUNCT	PUNCT	PunctType=Comm	28	punct	_	NER=O
+26	y	y	CCONJ	CCONJ	_	28	cc	_	NER=O
+27	que	que	PRON	PRON	PronType=Int,Rel	30	nsubj	_	NER=O
+28	tienen	tener	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	NER=O
+29	que	que	SCONJ	SCONJ	_	30	cc	_	NER=O
+30	ver	ver	VERB	VERB	VerbForm=Inf	28	conj	_	NER=O
+31	con	con	ADP	ADP	_	33	case	_	NER=O
+32	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	NER=O
+33	fábricas	fábrica	NOUN	NOUN	Gender=Fem|Number=Plur	30	obj	_	NER=O
+34	culturales	cultural	ADJ	ADJ	Number=Plur	33	amod	_	NER=O
+35	que	que	PRON	PRON	PronType=Int,Rel	38	obj	_	NER=O
+36	usted	tú	PRON	PRON	Case=Acc,Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	38	nsubj	_	NER=O
+37	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	NER=O
+38	citado	citar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	acl	_	NER=O
+39	como	como	SCONJ	SCONJ	_	41	mark	_	NER=O
+40	son	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	NER=O
+41	Garaion	Garaion	PROPN	PROPN	_	38	nsubj	_	NER=B-ORG|SpaceAfter=No
+42	,	,	PUNCT	PUNCT	PunctType=Comm	43	punct	_	NER=O
+43	Azala	Azala	PROPN	PROPN	_	41	conj	_	NER=B-ORG
+44	o	o	CCONJ	CCONJ	_	45	cc	_	NER=O
+45	Aiaraldea	Aiaraldea	PROPN	PROPN	_	41	conj	_	NER=B-ORG
+46	Ekintzen	Ekintzen	PROPN	PROPN	_	45	flat	_	NER=I-ORG
+47	Faktoria	Faktoria	PROPN	PROPN	_	45	flat	_	NER=I-ORG|SpaceAfter=No
+48	,	,	PUNCT	PUNCT	PunctType=Comm	51	punct	_	NER=O
+49	con	con	ADP	ADP	_	51	case	_	NER=O
+50	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	51	det	_	NER=O
+51	total	total	NOUN	NOUN	Gender=Masc|Number=Sing	41	nmod	_	NER=O
+52	de	de	ADP	ADP	_	54	case	_	NER=O
+53	300.000	300000	NUM	NUM	NumForm=Digit|NumType=Card	54	nummod	_	NER=O
+54	euros	euro	NOUN	NOUN	NumForm=Digit	51	nmod	_	NER=O
+55	en	en	ADP	ADP	_	57	case	_	NER=O
+56	dos	dos	NUM	NUM	Number=Plur|NumType=Card	57	nummod	_	NER=O
+57	años	año	NOUN	NOUN	Gender=Masc|Number=Plur	54	nmod	_	NER=O|SpaceAfter=No
+58	,	,	PUNCT	PUNCT	PunctType=Comm	61	punct	_	NER=O
+59	que	que	PRON	PRON	PronType=Int,Rel	61	nsubj	_	NER=O
+60	son	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	61	cop	_	NER=O
+61	lugares	lugar	NOUN	NOUN	Gender=Masc|Number=Plur	33	acl	_	NER=O
+62	importantes	importante	ADJ	ADJ	Number=Plur	61	amod	_	NER=O
+63	y	y	CCONJ	CCONJ	_	65	cc	_	NER=O
+64	de	de	ADP	ADP	_	65	case	_	NER=O
+65	referencia	referencia	NOUN	NOUN	Gender=Fem|Number=Sing	62	conj	_	NER=O
+66	en	en	ADP	ADP	_	67	case	_	NER=O
+67	Euskadi	Euskadi	PROPN	PROPN	_	65	nmod	_	NER=B-LOC|SpaceAfter=No
+68	,	,	PUNCT	PUNCT	PunctType=Comm	69	punct	_	NER=O
+69	incluso	incluso	ADV	ADV	_	61	advmod	_	NER=O
+70	en	en	ADP	ADP	_	69	case	_	NER=O
+71	Europa	Europa	PROPN	PROPN	_	69	nmod	_	NER=B-LOC|SpaceAfter=No
+72	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg696.s2
+# text = Y eso también hace falta que nos lo creamos.
+1	Y	y	CCONJ	CCONJ	_	4	advmod	_	NER=O
+2	eso	ese	PRON	PRON	Number=Sing|PronType=Dem	4	nsubj	_	NER=O
+3	también	también	ADV	ADV	_	4	advmod	_	NER=O
+4	hace	hacer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+5	falta	falta	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound	_	NER=O
+6	que	que	SCONJ	SCONJ	_	9	mark	_	NER=O
+7	nos	yo	PRON	PRON	Case=Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	9	iobj	_	NER=O
+8	lo	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	9	obj	_	NER=O
+9	creamos	crear	VERB	VERB	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg696.s3
+# text = De todas formas, como se hace en esta sala, le tiendo el brazo para que lleguemos a acuerdos.
+1	De	de	ADP	ADP	_	3	case	_	NER=O
+2	todas	todo	DET	DET	Gender=Fem|Number=Plur|PronType=Tot	3	det	_	NER=O
+3	formas	forma	NOUN	NOUN	Gender=Fem|Number=Plur	13	obl	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	NER=O
+5	como	como	SCONJ	SCONJ	_	7	mark	_	NER=O
+6	se	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	7	expl:pass	_	NER=O
+7	hace	hacer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	NER=O
+8	en	en	ADP	ADP	_	10	case	_	NER=O
+9	esta	este	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	NER=O
+10	sala	sala	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	NER=O|SpaceAfter=No
+11	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	NER=O
+12	le	él	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	13	obj	_	NER=O
+13	tiendo	ter	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+14	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	NER=O
+15	brazo	brazo	NOUN	NOUN	Gender=Masc|Number=Sing	13	obj	_	NER=O
+16	para	para	ADP	ADP	_	18	mark	_	NER=O
+17	que	que	SCONJ	SCONJ	_	18	mark	_	NER=O
+18	lleguemos	lleguar	VERB	VERB	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	advcl	_	NER=O
+19	a	a	ADP	ADP	_	20	case	_	NER=O
+20	acuerdos	acuerdo	NOUN	NOUN	Gender=Masc|Number=Plur	18	obl	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg697
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg697.s1
+# text = Eskerrik asko.
+1	Eskerrik	Esker	NOUN	NOUN	_	0	root	_	NER=O
+2	asko	asko	DET	DET	Case=Abs|Definite=Ind	1	det	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-ES-PV_2022-10-14.u136
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg698
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg698.s1
+# text = Eskerrik asko, Zupiria jauna.
+1	Eskerrik	Esker	NOUN	NOUN	_	5	nmod	_	NER=O
+2	asko	asko	DET	DET	Case=Abs|Definite=Ind	1	det	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	NER=O
+4	Zupiria	Zupiria	PROPN	PROPN	_	1	conj	_	NER=O
+5	jauna	jaun	NOUN	NOUN	Case=Abs|Definite=Def|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	5	punct	_	NER=O
+
+# newpar id = ParlaMint-ES-PV_2022-10-14.seg699
+# lang = eu
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg699.s1
+# text = Gai-zerrenda agortu dugunez, osoko bilkurari amaiera ematen diot.
+1	Gai-zerrenda	Gai-zerrenda	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	2	obj	_	NER=O
+2	agortu	agortu	VERB	VERB	Aspect=Perf|VerbForm=Part	8	advcl	_	NER=O
+3	dugunez	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	2	aux	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	2	punct	_	NER=O
+5	osoko	osoko	ADJ	ADJ	_	6	amod	_	NER=O
+6	bilkurari	bilkura	NOUN	NOUN	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	8	iobj	_	NER=O
+7	amaiera	amaiera	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	8	obj	_	NER=O
+8	ematen	eman	VERB	VERB	Aspect=Imp|VerbForm=Inf	0	root	_	NER=O
+9	diot	*edun	AUX	AUX	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Sing|Person[abs]=3|Person[dat]=3|Person[erg]=1	8	aux	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	8	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-PV_2022-10-14.seg699.s2
+# text = Goizeko ordu bata eta zazpian amaitu da bilkura.
+1	Goizeko	goiz	NOUN	NOUN	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	2	nmod	_	NER=O
+2	ordu	ordu	NOUN	NOUN	_	6	obl	_	NER=O
+3	bata	bat	NUM	NUM	NumType=Card	2	nummod	_	NER=O
+4	eta	eta	CCONJ	CCONJ	_	5	cc	_	NER=O
+5	zazpian	zazpi	NOUN	NOUN	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	3	conj	_	NER=O
+6	amaitu	amaitu	VERB	VERB	Aspect=Perf|VerbForm=Part	0	root	_	NER=O
+7	da	izan	AUX	AUX	Mood=Ind|Number[abs]=Sing|Person[abs]=3	6	aux	_	NER=O
+8	bilkura	bilkura	NOUN	NOUN	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	nsubj	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	6	punct	_	NER=O
+

@@ -1,0 +1,38 @@
+# newdoc id = ParlaMint-ES-CT_2022-07-20-3601.2.0
+# newpar id = ParlaMint-ES-CT_2022-07-20-3601.2.0.0
+# lang = es
+# sent_id = ParlaMint-ES-CT_2022-07-20-3601.2.0.0.1
+# text = Presidenta , bon dia.
+1	Presidenta	presidenta	PROPN	_	_	0	root	_	NER=B-PER
+2	,	,	PUNCT	_	PunctType=Comm	1	punct	_	NER=O
+3	bon	bon	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past	4	amod	_	NER=O
+4	dia	dia	ADJ	_	Gender=Fem|Number=Sing	1	appos	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-CT_2022-07-20-3601.2.0.0.2
+# text = Per saber, perquè em confirmi si una de les persones que delega el vot és el senyor Lluís Puig , perquè lògicament...
+1	Per	per	PROPN	_	_	2	mark	_	NER=B-MISC
+2	saber	saber	NOUN	_	Gender=Masc|Number=Sing	6	advcl	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	PunctType=Comm	2	punct	_	NER=O
+4	perquè	perquè	NOUN	_	Gender=Masc|Number=Sing	6	mark	_	NER=O
+5	em	em	ADJ	_	_	6	iobj	_	NER=O
+6	confirmi	confirmi	ADJ	_	_	0	root	_	NER=O
+7	si	si	SCONJ	_	_	18	mark	_	NER=O
+8	una	uno	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	18	nsubj	_	NER=O
+9	de	de	ADP	_	AdpType=Prep	11	case	_	NER=O
+10	les	le	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	11	det	_	NER=O
+11	persones	personar	VERB	_	Mood=Sub|Number=Sing|Person=2|Tense=Pres	8	nmod	_	NER=O
+12	que	que	SCONJ	_	_	13	nsubj	_	NER=O
+13	delega	delegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	acl	_	NER=O
+14	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	NER=O
+15	vot	vot	NOUN	_	Number=Sing	13	obj	_	NER=O
+16	és	és	ADJ	_	Gender=Masc|Number=Sing	18	cop	_	NER=O
+17	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	18	det	_	NER=O
+18	senyor	senyor	ADJ	_	Number=Sing	6	ccomp	_	NER=O
+19	Lluís	lluís	PROPN	_	_	18	appos	_	NER=B-PER
+20	Puig	puig	PROPN	_	_	19	flat	_	NER=I-PER
+21	,	,	PUNCT	_	PunctType=Comm	23	punct	_	NER=O
+22	perquè	perquè	ADJ	_	Number=Sing	23	case	_	NER=O
+23	lògicament	lògicament	NOUN	_	Gender=Masc|Number=Sing	18	advmod	_	NER=O|SpaceAfter=No
+24	...	...	PUNCT	_	PunctType=Comm	6	punct	_	NER=O
+
