@@ -21,6 +21,7 @@ TAXONOMIES-COPY = $(addprefix ParlaMint-taxonomy-, $(TAXONOMIES-COPY-INTERF))
 
 ##$DATADIR## Folder with country corpus folders. Default value is 'Samples'.
 DATADIR = Samples
+DATACORPORADIR = Corpora/Master
 SHARED = Corpora
 ##$WORKINGDIR## In this folder will be stored temporary files. Default value is 'DataTMP'.
 WORKINGDIR = Samples/TMP
@@ -310,11 +311,24 @@ $(validate-parlamint-XX): validate-parlamint-%: %
 ###### Convert (and validate)
 
 ## root ## Make ParlaMint corpus root
-root:
-	$s base=../Data -xsl:Scripts/parlamint2root.xsl \
-	Scripts/ParlaMint-template.xml > ${DATADIR}/ParlaMint.xml
-	$s base=../Data -xsl:Scripts/parlamint2root.xsl \
-	Scripts/ParlaMint-template.ana.xml > ${DATADIR}/ParlaMint.ana.xml
+root-master:
+	$s base=../${DATACORPORADIR} type=TEI -xsl:Scripts/parlamint2root.xsl \
+	Scripts/ParlaMint-rootTemplate.xml > ${DATACORPORADIR}/ParlaMint.xml
+	$s base=../${DATACORPORADIR} type=TEI.ana -xsl:Scripts/parlamint2root.xsl \
+	Scripts/ParlaMint-rootTemplate.xml > ${DATACORPORADIR}/ParlaMint.ana.xml
+	$s base=../${DATACORPORADIR} type=en.TEI.ana -xsl:Scripts/parlamint2root.xsl \
+	Scripts/ParlaMint-rootTemplate.xml > ${DATACORPORADIR}/ParlaMint-en.ana.xml
+root-sample:
+	for t_i in TEI_ TEI.ana_.ana en.TEI.ana_-en.ana; do \
+	  type=$${t_i%_*};\
+	  interfix=$${t_i#*_};\
+	  $s base=../$(DATADIR) \
+	    type=$$type \
+	    isSample=1 \
+	    -xsl:Scripts/parlamint2root.xsl \
+	    Scripts/ParlaMint-rootTemplate.xml > ${DATADIR}/ParlaMint$$interfix.xml ; \
+	done
+
 
 chars-XX = $(addprefix chars-, $(PARLIAMENTS))
 ## chars ## create character tables
