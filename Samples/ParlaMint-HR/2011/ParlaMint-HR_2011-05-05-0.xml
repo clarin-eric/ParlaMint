@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="hr" xml:id="ParlaMint-HR_2011-05-05-0" ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="hr">Hrvatski parlamentarni korpus ParlaMint-HR, Mandat 6, Sjednica 23 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Croatian parliamentary corpus ParlaMint-HR, Term 6, Session 23 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="hr">Zapisnici sjednica Hrvatskog sabora, mandat 6, sjednica 23</title>
+            <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Croatia, Term 6, Session 23</title>
+            <meeting n="6" corresp="#HS" ana="#parla.uni #parla.term #HS.6">6. mandat</meeting>
+            <meeting n="23" corresp="#HS" ana="#parla.uni #parla.meeting">Zasedanje 23</meeting>
+            <meeting n="2011-07-14" corresp="#HS" ana="#parla.uni #parla.sitting">2011-07-14</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="hr">Preuzimanje i čiščenje digitalnog izvora</resp>
+               <resp xml:lang="en">Download and clean-up of the JSON digital source</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+               <resp xml:lang="hr">Kodiranje Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Peter Rupnik</persName>
+               <resp xml:lang="hr">Kodiranje Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="hr">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="161" xml:lang="hr">161 govora</measure>
+            <measure unit="speeches" quantity="161" xml:lang="en">161 speeches</measure>
+            <measure unit="words" quantity="40534" xml:lang="hr">40.534 riječi</measure>
+            <measure unit="words" quantity="40534" xml:lang="en">40,534 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="hr">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="hr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2024-03-05">2024-03-05</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Minutes of the National Assembly of the Republic of Croatia</title>
+               <idno type="URI" subtype="parliament">https://parlametar.hr/</idno>
+               <idno type="URI" subtype="parliament">http://www.sabor.hr/</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="hr"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="22"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="21"/>
+               <tagUsage gi="note" occurs="161"/>
+               <tagUsage gi="seg" occurs="163"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="161"/>
+               <tagUsage gi="vocal" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Trg sv. Marka 6</name>
+               <name type="city">Zagreb</name>
+               <name type="country" key="HR">Croatia</name>
+               <date when="2011-05-05" ana="#parla.sitting">2011-05-05</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2024-03-05">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2022-12-19">
+            <name>Peter Rupnik</name> Compile from source</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <note type="speaker" xml:id="ParlaMint-HR_2011-05-05-0.note1">Russo, Aleksander</note>
+            <u who="#RussoAleksander" ana="#regular" n="ParlaMint-HR_T6.S23.u72491" xml:id="ParlaMint-HR_2011-05-05-0.u72491">
+               <seg xml:id="ParlaMint-HR_2011-05-05-0.u72491.seg0">Pred vama je još jedan Zakon iz djelokruga rada našeg Ministarstva koji je bio potrebno izmijeniti i dopuniti sukladno odredbama novog Zakona o općem upravnom postupku a to usklađenje je postupovne naravi. Ovo usklađenje koje se predlaže je usklađenje s temeljnim načelima zakona o općem upravnom postupku a odnosi se na brisanje supsidijarne primjene ZUP-a. Zatim, brisanja odredbe protivnih svrsi ZUP-a i brisanja odredbi koje su već propisane Zakonom o općem upravnom postupku. Nadalje, predlažemo brisanje odnosno zamjenu instituta koje Zakon o općem upravnom postupku više ne poznaje ili ih je modificirao a koji se Zakon o prostornom uređenju i gradnji naslanja. Isto tako Zakon se dopunjuje sa odredbama koje jasnije određuju pravne nejasnoće a odnosi se na propisivanje nadležnosti za rješavanje u 1. i 2. stupnju upotpunjavanje postupka rješenja o izvedenom stanju i ... izvedenog stanja te omogućavanje poništenja nezakonitog rješenja Ministarstva u slučaju pokretanja upravnog spora. Donošenje ovog Zakona nužno je za ispunjavanje mjerila i zatvaranje poglavlja 23. pravosuđe i temeljna prava i na kraju dobili smo ove amandmane Odbora za zakonodavstvo koje su nomotehničke prirode i Odbora za prostorno uređenje i graditeljstvo i te amandmane prihvaćamo. Hvala lijepa.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-HR_2011-05-05-0.note2">Bebić, Luka</note>
+            <u who="#BebićLuka" ana="#chair" n="ParlaMint-HR_T6.S23.u72492" xml:id="ParlaMint-HR_2011-05-05-0.u72492">
+               <seg xml:id="ParlaMint-HR_2011-05-05-0.u72492.seg0">Hvala. Žele li izvjestitelji Odbora uzeti riječ? Da. U ime Odbora za prostorno uređenje i graditeljstvo gospođa zastupnica Marina Matulović-DRopulić. Izvolite.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#FriščićJosip" ana="#chair" n="ParlaMint-HR_T6.S23.u72652" xml:id="ParlaMint-HR_2011-05-05-0.u72652">
+               <seg xml:id="ParlaMint-HR_2011-05-05-0.u72652.seg0">Hvala lijepo kolega zastupniče. Iscrpili smo sve prijave za pojedinačnu raspravu, stoga ja zaključujem ovu točku, a glasovat ćemo kada se za to steknu uvjeti. A vjerujemo da će uvjeta biti sutra u 12,00 jer je za 12,00 sati najavljeno glasovanje. Obradili smo sve ono što su nam odbori i službe za današnju sjednicu pripremili. Znači da smo bili vrijedni, pa ćemo onda i današnju raspravu privesti kraju. A sutrašnju po običaju u 9,30 započeti s točkom 30. To je Izvješće o korištenju pretpristupnih programa pomoći Europske unije, razdoblje od 1. srpnja do 31. prosinca 2010. godine. Hvala vam lijepo na konstruktivnom učešću u raspravama. Zaključujem današnju sjednicu.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-HR_2011-05-05-0.note161">Bebić, Luka</note>
+            <u who="#BebićLuka" ana="#regular" n="ParlaMint-HR_T6.S23.u72653" xml:id="ParlaMint-HR_2011-05-05-0.u72653">
+               <seg xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg0">Prelazimo na Konačni prijedlog Zakona o izmjenama i dopunama Zakona o pravima hrvatskih branitelja iz Domovinskog rata i članova njihovih obitelji, bio je hitni postupak, P.Z. broj 777. Predlagatelj Vlada Republike Hrvatske, rasprava je zaključena. Amandmane je podnio Odbor za zakonodavstvo, koje je tijekom rasprave predstavnik predlagatelja prihvatio amandmane, te o njima ne glasujemo, jer oni postaju sastavni dio konačnog prijedloga zakona, sukladno članku 169. Poslovnika. Dajem na glasovanje Konačni prijedlog Zakona o izmjenama i dopunama Zakona o pravima hrvatskih branitelja iz Domovinskog rata i članova njihovih obitelji. Molim uključimo se i glasujmo. Rezultat? Ovaj konačni prijedlog zakona prihvaćen je jednoglasno sa 95 glasova.</seg>
+               <seg xml:id="ParlaMint-HR_2011-05-05-0.u72653.seg1">… <gap reason="inaudible" xml:id="ParlaMint-HR_2011-05-05-0.gap20">
+                     <desc>Početak nije snimljen.</desc>
+                  </gap>
+						i prelazimo na najavljenu točku dnevnog reda – - Izvješće o korištenju pretpristupnih programa pomoći Europske unije za razdoblje od 1. srpnja do 31. prosinca 2010. godine Predlagatelj akta je Vlada Republike Hrvatske, koji dostavlja izvješće sukladno zaključku Hrvatskoga sabora donijetom na … <gap reason="inaudible" xml:id="ParlaMint-HR_2011-05-05-0.gap21">
+                     <desc>Govornik se ne razumije.</desc>
+                  </gap>
+						sjednici održanoj 6. listopada 2005. godine. Materijale ste primili poštom. Raspravu su proveli Odbor za financije i državni proračun, Odbor za razvoj i obnovu, Odbor za europske integracije. Izvješća ste primili na sjednici. Želi li predstavnik predlagatelja dodatno obrazložiti prijedlog, izvješće? Gospođa Martina Dalić, ministrica financija. Izvolite.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+
