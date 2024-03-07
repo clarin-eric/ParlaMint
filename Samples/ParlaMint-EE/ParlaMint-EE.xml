@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-EE" xml:lang="et">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" type="main">Estonian parliamentary corpus ParlaMint-EE [ParlaMint SAMPLE]</title>
+            <meeting corresp="#ee_parliament" ana="#parla.uni #parla.term #parliament.RK12">XII Riigikogu</meeting>
+            <meeting corresp="#ee_parliament" ana="#parla.uni #parla.term #parliament.RK13">XIII Riigikogu</meeting>
+            <meeting corresp="#ee_parliament" ana="#parla.uni #parla.term #parliament.RK14">XIV Riigikogu</meeting>
+            <respStmt>
+               <persName>Martin Mölder</persName>
+               <persName>Neeme Kahusk</persName>
+               <persName>Kadri Vider</persName>
+               <resp xml:lang="en">Data retrieval and conversion to Parla-CLARIN TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
+               <orgName xml:lang="en">CLARIN ERIC research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="227872" xml:lang="en">227,872 speeches</measure>
+            <measure unit="words" quantity="22874712" xml:lang="en">22,874,712 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
+               <orgName xml:lang="en">CLARIN ERIC research infrastructure</orgName>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-03-07">2024-03-07</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="et">Riigikogu stenogrammid</title>
+               <idno type="URI" subtype="parliament">https://stenogrammid.riigikogu.ee</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p xml:lang="en">No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p xml:lang="en">Text has not been normalised, except for spacing.</p>
+            </normalization>
+            <hyphenation>
+               <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
+            </hyphenation>
+            <quotation>
+               <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1317"/>
+               <tagUsage gi="div" occurs="1317"/>
+               <tagUsage gi="note" occurs="233814"/>
+               <tagUsage gi="seg" occurs="359685"/>
+               <tagUsage gi="text" occurs="1317"/>
+               <tagUsage gi="u" occurs="227872"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-CHES.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-politicalOrientation.xml"/>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Riigikogu</name>
+               <name type="address">Lossi plats 1a</name>
+               <name type="city">Tallinn</name>
+               <name type="country" key="EE">Estonia</name>
+               <date from="2011-04-04" to="2022-06-17">2011-04-04 - 2022-06-17</date>
+            </setting>
+         </settingDesc>
+         <textClass>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.uni"/>
+         </textClass>
+         <particDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-EE-listOrg.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-EE-listPerson.xml"/>
+         </particDesc>
+         <langUsage>
+            <language ident="et" xml:lang="et">eesti</language>
+            <language ident="en" xml:lang="et">inglise</language>
+            <language ident="et" xml:lang="en">Estonian</language>
+            <language ident="en" xml:lang="en">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-03-07">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2024-03-07">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2023-03-01">
+            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2024-03-07">parlamint-add-common-content script: Adding common content.</change>
+      </revisionDesc>
+   </teiHeader>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-EE_2014-12-02.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-EE_2018-10-11.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-EE_2022-06-17.xml"/>
+</teiCorpus>
+

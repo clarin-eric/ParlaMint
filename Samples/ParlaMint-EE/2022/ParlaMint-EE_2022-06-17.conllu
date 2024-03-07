@@ -1,0 +1,698 @@
+# newdoc id = ParlaMint-EE_2022-06-17_U1
+# newpar id = ParlaMint-EE_2022-06-17_U1-P1
+# lang = et
+# sent_id = ParlaMint-EE_2022-06-17_U1-P1.1
+# text = Head ametikaaslased, austatud Riigikogu!
+1	Head	hea	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	NER=O
+2	ametikaaslased	ameti_kaaslane	NOUN	S	Case=Nom|Number=Plur	0	root	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	Z	_	5	punct	_	NER=O
+4	austatud	austa=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	NER=O
+5	Riigikogu	Riigi_kogu	PROPN	S	Case=Nom|Number=Sing	2	conj	_	NER=B-ORG|SpaceAfter=No
+6	!	!	PUNCT	Z	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U1-P1.2
+# text = Tere hommikust!
+1	Tere	tere	INTJ	I	_	2	discourse	_	NER=O
+2	hommikust	hommik	NOUN	S	Case=Ela|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+3	!	!	PUNCT	Z	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U1-P1.3
+# text = Alustame Riigikogu täiskogu erakorralist istungjärku 17. juunil 2022. aastal kell 9.
+1	Alustame	alustama	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	Riigikogu	Riigi_kogu	PROPN	S	Case=Gen|Number=Sing	3	nmod	_	NER=B-ORG
+3	täiskogu	täis_kogu	NOUN	S	Case=Gen|Number=Sing	5	nmod	_	NER=O
+4	erakorralist	era_korraline	ADJ	A	Case=Par|Degree=Pos|Number=Sing	5	amod	_	NER=O
+5	istungjärku	istung_järk	NOUN	S	Case=Par|Number=Sing	1	obj	_	NER=O
+6	17.	17.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	7	amod	_	NER=O
+7	juunil	juuni	NOUN	S	Case=Ade|Number=Sing	1	obl	_	NER=O
+8	2022.	2022.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	9	amod	_	NER=O
+9	aastal	aasta	NOUN	S	Case=Ade|Number=Sing	1	obl	_	NER=O
+10	kell	kell	NOUN	S	Case=Nom|Number=Sing	1	obl	_	NER=O
+11	9.	9.	ADJ	N	NumForm=Digit|NumType=Ord	10	amod	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U1-P1.4
+# text = Nimelt, tänane erakorraline istungjärk – Riigikogu esimees on selle kokku kutsunud Eesti Vabariigi põhiseaduse § 68 ning Riigikogu kodu- ja töökorra seaduse § 51 lõike 1 alusel ja 24 Riigikogu liikme poolt, taotletud ajal ja päevakorraga.
+1	Nimelt	nimelt	ADV	D	_	5	advmod	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	Z	_	5	punct	_	NER=O
+3	tänane	tänane	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	NER=O
+4	erakorraline	era_korraline	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	NER=O
+5	istungjärk	istung_järk	NOUN	S	Case=Nom|Number=Sing	0	root	_	NER=O
+6	–	–	PUNCT	Z	_	12	punct	_	NER=O
+7	Riigikogu	Riigi_kogu	PROPN	S	Case=Gen|Number=Sing	8	nmod	_	NER=B-ORG
+8	esimees	esi_mees	NOUN	S	Case=Nom|Number=Sing	12	nsubj	_	NER=O
+9	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	NER=O
+10	selle	see	PRON	P	Case=Gen|Number=Sing|PronType=Dem	12	obj	_	NER=O
+11	kokku	kokku	ADV	D	_	12	compound:prt	_	NER=O
+12	kutsunud	kutsuma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	5	acl	_	NER=O
+13	Eesti	Eesti	PROPN	S	Case=Gen|Number=Sing	14	nmod	_	NER=B-LOC
+14	Vabariigi	Vaba_riik	PROPN	S	Case=Gen|Number=Sing	15	nmod	_	NER=I-LOC
+15	põhiseaduse	põhi_seadus	NOUN	S	Case=Gen|Number=Sing	16	nmod	_	NER=O
+16	§	§	NOUN	Y	Abbr=Yes	12	obl	_	NER=O
+17	68	68	NUM	N	NumForm=Digit|NumType=Card	16	nummod	_	NER=O
+18	ning	ning	CCONJ	J	_	21	cc	_	NER=O
+19	Riigikogu	Riigi_kogu	PROPN	S	Case=Gen|Number=Sing	20	nmod	_	NER=B-ORG
+20	kodu	kodu	NOUN	S	Case=Gen|Number=Sing	21	nmod	_	NER=O|SpaceAfter=No
+21	-	-	NOUN	S	Case=Gen|Number=Sing	16	conj	_	NER=O
+22	ja	ja	CCONJ	J	_	24	cc	_	NER=O
+23	töökorra	töö_kord	NOUN	S	Case=Gen|Number=Sing	24	nmod	_	NER=O
+24	seaduse	seadus	NOUN	S	Case=Gen|Number=Sing	21	conj	_	NER=O
+25	§	§	NOUN	Y	Abbr=Yes	21	conj	_	NER=O
+26	51	51	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	25	nummod	_	NER=O
+27	lõike	lõik	NOUN	S	Case=Gen|Number=Sing	25	nmod	_	NER=O
+28	1	1	NUM	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Card	29	nummod	_	NER=O
+29	alusel	alus	NOUN	S	Case=Ade|Number=Sing	27	nmod	_	NER=O
+30	ja	ja	CCONJ	J	_	31	cc	_	NER=O
+31	24	24	NUM	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Card	33	nummod	_	NER=O
+32	Riigikogu	Riigi_kogu	PROPN	S	Case=Gen|Number=Sing	33	nmod	_	NER=B-ORG
+33	liikme	liige	NOUN	S	Case=Gen|Number=Sing	29	conj	_	NER=O
+34	poolt	poolt	ADP	K	AdpType=Post	33	case	_	NER=O|SpaceAfter=No
+35	,	,	PUNCT	Z	_	37	punct	_	NER=O
+36	taotletud	taotletud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	37	acl	_	NER=O
+37	ajal	aeg	NOUN	S	Case=Ade|Number=Sing	33	conj	_	NER=O
+38	ja	ja	CCONJ	J	_	39	cc	_	NER=O
+39	päevakorraga	päeva_kord	NOUN	S	Case=Com|Number=Sing	37	conj	_	NER=O|SpaceAfter=No
+40	.	.	PUNCT	Z	_	5	punct	_	NER=O
+
+# newpar id = ParlaMint-EE_2022-06-17_U1-P2
+# lang = et
+# sent_id = ParlaMint-EE_2022-06-17_U1-P2.1
+# text = Erakorralise istungjärgu töö ajagraafiku kehtestamine.
+1	Erakorralise	era_korraline	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	2	amod	_	NER=O
+2	istungjärgu	istung_järk	NOUN	S	Case=Gen|Number=Sing	3	nmod	_	NER=O
+3	töö	töö	NOUN	S	Case=Gen|Number=Sing	4	nmod	_	NER=O
+4	ajagraafiku	aja_graafik	NOUN	S	Case=Gen|Number=Sing	5	nmod	_	NER=O
+5	kehtestamine	kehtestamine	NOUN	S	Case=Nom|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	Z	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U1-P2.2
+# text = Hetkel on selline ettepanek, et Riigikogu kodu- ja töökorra seaduse § 52 kohaselt kehtestab erakorralise istungjärgu töö ajagraafiku juhatuse ettepanekul Riigikogu poolthäälte enamusega.
+1	Hetkel	hetk	NOUN	S	Case=Ade|Number=Sing	0	root	_	NER=O
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	NER=O
+3	selline	selline	DET	P	Case=Nom|Number=Sing|PronType=Dem	4	det	_	NER=O
+4	ettepanek	ette_panek	NOUN	S	Case=Nom|Number=Sing	1	nsubj:cop	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	Z	_	16	punct	_	NER=O
+6	et	et	SCONJ	J	_	16	mark	_	NER=O
+7	Riigikogu	Riigi_kogu	PROPN	S	Case=Gen|Number=Sing	8	nmod	_	NER=B-ORG
+8	kodu	kodu	NOUN	S	Case=Gen|Number=Sing	9	nmod	_	NER=O|SpaceAfter=No
+9	-	-	NOUN	S	Case=Gen|Number=Sing	16	obl	_	NER=O
+10	ja	ja	CCONJ	J	_	12	cc	_	NER=O
+11	töökorra	töö_kord	NOUN	S	Case=Gen|Number=Sing	12	nmod	_	NER=O
+12	seaduse	seadus	NOUN	S	Case=Gen|Number=Sing	9	conj	_	NER=O
+13	§	§	NOUN	Y	Abbr=Yes	9	conj	_	NER=O
+14	52	52	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	13	nummod	_	NER=O
+15	kohaselt	kohaselt	ADP	K	AdpType=Post	9	case	_	NER=O
+16	kehtestab	kehtestama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	NER=O
+17	erakorralise	era_korraline	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	18	amod	_	NER=O
+18	istungjärgu	istung_järk	NOUN	S	Case=Gen|Number=Sing	19	nmod	_	NER=O
+19	töö	töö	NOUN	S	Case=Gen|Number=Sing	20	nmod	_	NER=O
+20	ajagraafiku	aja_graafik	NOUN	S	Case=Gen|Number=Sing	21	nmod	_	NER=O
+21	juhatuse	juhatus	NOUN	S	Case=Gen|Number=Sing	22	nmod	_	NER=O
+22	ettepanekul	ette_panek	NOUN	S	Case=Ade|Number=Sing	16	obl	_	NER=O
+23	Riigikogu	Riigi_kogu	PROPN	S	Case=Gen|Number=Sing	24	nmod	_	NER=B-ORG
+24	poolthäälte	pool_thääl	NOUN	S	Case=Gen|Number=Plur	25	nmod	_	NER=O
+25	enamusega	enamus	NOUN	S	Case=Com|Number=Sing	16	obl	_	NER=O|SpaceAfter=No
+26	.	.	PUNCT	Z	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U1-P2.3
+# text = Nii et kui me siin hääletuseni jõuame, siis juhatuse ettepanek erakorralise istungjärgu töö ajagraafiku osas on järgmine.
+1	Nii	nii	ADV	D	_	7	advmod	_	NER=O
+2	et	et	SCONJ	J	_	1	fixed	_	NER=O
+3	kui	kui	SCONJ	J	_	7	mark	_	NER=O
+4	me	mina	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	NER=O
+5	siin	siin	ADV	D	_	7	advmod	_	NER=O
+6	hääletuseni	hääletus	NOUN	S	Case=Ter|Number=Sing	7	obl	_	NER=O
+7	jõuame	jõudma	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	Z	_	7	punct	_	NER=O
+9	siis	siis	ADV	D	_	18	advmod	_	NER=O
+10	juhatuse	juhatus	NOUN	S	Case=Gen|Number=Sing	11	nmod	_	NER=O
+11	ettepanek	ette_panek	NOUN	S	Case=Nom|Number=Sing	18	nsubj:cop	_	NER=O
+12	erakorralise	era_korraline	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	13	amod	_	NER=O
+13	istungjärgu	istung_järk	NOUN	S	Case=Gen|Number=Sing	14	nmod	_	NER=O
+14	töö	töö	NOUN	S	Case=Gen|Number=Sing	15	nmod	_	NER=O
+15	ajagraafiku	aja_graafik	NOUN	S	Case=Gen|Number=Sing	11	nmod	_	NER=O
+16	osas	osas	ADP	K	AdpType=Post	15	case	_	NER=O
+17	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	NER=O
+18	järgmine	järgmine	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+19	.	.	PUNCT	Z	_	18	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U1-P2.4
+# text = Istungjärk kestab kuni päevakorra ammendumiseni.
+1	Istungjärk	istung_järk	NOUN	S	Case=Nom|Number=Sing	2	nsubj	_	NER=O
+2	kestab	kestma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	kuni	kuni	ADP	K	AdpType=Prep	5	case	_	NER=O
+4	päevakorra	päeva_kord	NOUN	S	Case=Gen|Number=Sing	5	nmod	_	NER=O
+5	ammendumiseni	ammendumine	NOUN	S	Case=Ter|Number=Sing	2	obl	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	Z	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U1-P2.5
+# text = Juhul, kui täna kella 10-ks ei lõpetata päevakorra kinnitatud päevakorrapunktide menetlemist, jätkub istungjärk pärast komisjonide tööd.
+1	Juhul	juht	NOUN	S	Case=Ade|Number=Sing	16	obl	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	Z	_	10	punct	_	NER=O
+3	kui	kui	SCONJ	J	_	10	mark	_	NER=O
+4	täna	täna	ADV	D	_	10	advmod	_	NER=O
+5	kella	kell	NOUN	S	Case=Gen|Number=Sing	8	nmod	_	NER=O
+6	10	10	NUM	N	NumForm=Digit|NumType=Card	5	nummod	_	NER=O|SpaceAfter=No
+7	-	-	NOUN	Y	Abbr=Yes	8	nmod	_	NER=O|SpaceAfter=No
+8	ks	ks	NOUN	Y	Abbr=Yes	10	obl	_	NER=O
+9	ei	ei	AUX	V	Polarity=Neg	10	aux	_	NER=O
+10	lõpetata	lõpetama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	16	advcl	_	NER=O
+11	päevakorra	päeva_kord	NOUN	S	Case=Gen|Number=Sing	12	obl	_	NER=O
+12	kinnitatud	kinnita=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	NER=O
+13	päevakorrapunktide	päeva_korra_punkt	NOUN	S	Case=Gen|Number=Plur	14	nmod	_	NER=O
+14	menetlemist	menetlemine	NOUN	S	Case=Par|Number=Sing	10	obj	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	Z	_	10	punct	_	NER=O
+16	jätkub	jätkuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+17	istungjärk	istung_järk	NOUN	S	Case=Nom|Number=Sing	16	nsubj	_	NER=O
+18	pärast	pärast	ADP	K	AdpType=Prep	20	case	_	NER=O
+19	komisjonide	komisjon	NOUN	S	Case=Gen|Number=Plur	20	nmod	_	NER=O
+20	tööd	töö	NOUN	S	Case=Par|Number=Sing	16	obl	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	Z	_	16	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U1-P2.6
+# text = See tuleneb Riigikogu kodu- ja töökorra seaduse § 47 lõike 1 punktist 5, ettenähtud vaheajaga, algusega 15 minutit pärast Euroopa Liidu asjade komisjoni istungi lõppu, kuid mitte varem kui kell 13.
+1	See	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	NER=O
+2	tuleneb	tulenema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	Riigikogu	Riigi_kogu	PROPN	S	Case=Gen|Number=Sing	4	nmod	_	NER=B-ORG
+4	kodu	kodu	NOUN	S	Case=Gen|Number=Sing	5	nmod	_	NER=O|SpaceAfter=No
+5	-	-	NOUN	S	Case=Gen|Number=Sing	11	nmod	_	NER=O
+6	ja	ja	CCONJ	J	_	7	cc	_	NER=O
+7	töökorra	töö_kord	NOUN	S	Case=Gen|Number=Sing	5	conj	_	NER=O
+8	seaduse	seadus	NOUN	S	Case=Gen|Number=Sing	5	conj	_	NER=O
+9	§	§	NOUN	Y	Abbr=Yes	5	conj	_	NER=O
+10	47	47	NUM	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Card	11	nummod	_	NER=O
+11	lõike	lõik	NOUN	S	Case=Gen|Number=Sing	2	obl	_	NER=O
+12	1	1	NUM	N	Case=Ela|Number=Sing|NumForm=Digit|NumType=Card	13	nummod	_	NER=O
+13	punktist	punkt	NOUN	S	Case=Ela|Number=Sing	2	obl	_	NER=O
+14	5	5	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	13	nummod	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	Z	_	17	punct	_	NER=O
+16	ettenähtud	ette_nähtud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	17	acl	_	NER=O
+17	vaheajaga	vahe_aeg	NOUN	S	Case=Com|Number=Sing	2	obl	_	NER=O|SpaceAfter=No
+18	,	,	PUNCT	Z	_	19	punct	_	NER=O
+19	algusega	algus	NOUN	S	Case=Com|Number=Sing	2	conj	_	NER=O
+20	15	15	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	21	nummod	_	NER=O
+21	minutit	minut	NOUN	S	Case=Par|Number=Sing	19	orphan	_	NER=O
+22	pärast	pärast	ADP	K	AdpType=Prep	28	case	_	NER=O
+23	Euroopa	Euroopa	PROPN	S	Case=Gen|Number=Sing	24	nmod	_	NER=B-ORG
+24	Liidu	Liit	PROPN	S	Case=Gen|Number=Sing	25	nmod	_	NER=I-ORG
+25	asjade	asi	NOUN	S	Case=Gen|Number=Plur	26	nmod	_	NER=O
+26	komisjoni	komisjon	NOUN	S	Case=Gen|Number=Sing	27	nmod	_	NER=O
+27	istungi	istung	NOUN	S	Case=Gen|Number=Sing	28	nmod	_	NER=O
+28	lõppu	lõpp	NOUN	S	Case=Par|Number=Sing	19	nmod	_	NER=O|SpaceAfter=No
+29	,	,	PUNCT	Z	_	32	punct	_	NER=O
+30	kuid	kuid	CCONJ	J	_	32	cc	_	NER=O
+31	mitte	mitte	ADV	D	Polarity=Neg	32	advmod	_	NER=O
+32	varem	varem	ADV	D	_	2	conj	_	NER=O
+33	kui	kui	SCONJ	J	_	34	mark	_	NER=O
+34	kell	kell	NOUN	S	Case=Nom|Number=Sing	32	advcl	_	NER=O
+35	13.	13.	ADJ	N	NumForm=Digit|NumType=Ord	34	amod	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U1-P2.7
+# text = Nii et me ei lähe ka komisjoni istungitesse sisse, sealhulgas Euroopa Liidu asjade komisjoni [istungitesse].
+1	Nii	nii	ADV	D	_	5	advmod	_	NER=O
+2	et	et	SCONJ	J	_	1	fixed	_	NER=O
+3	me	mina	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	NER=O
+4	ei	ei	AUX	V	Polarity=Neg	5	aux	_	NER=O
+5	lähe	minema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+6	ka	ka	ADV	D	_	5	advmod	_	NER=O
+7	komisjoni	komisjon	NOUN	S	Case=Gen|Number=Sing	8	nmod	_	NER=O
+8	istungitesse	istung	NOUN	S	Case=Ill|Number=Plur	5	obl	_	NER=O
+9	sisse	sisse	ADV	D	_	5	compound:prt	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	Z	_	15	punct	_	NER=O
+11	sealhulgas	seal_hulgas	ADV	D	_	15	advmod	_	NER=O
+12	Euroopa	Euroopa	PROPN	S	Case=Gen|Number=Sing	13	nmod	_	NER=B-ORG
+13	Liidu	Liit	PROPN	S	Case=Gen|Number=Sing	14	nmod	_	NER=I-ORG
+14	asjade	asi	NOUN	S	Case=Gen|Number=Plur	15	nmod	_	NER=O
+15	komisjoni	komisjon	NOUN	S	Case=Gen|Number=Sing	5	obl	_	NER=O
+16	[	[	PUNCT	Z	_	17	punct	_	NER=O|SpaceAfter=No
+17	istungitesse	istung	NOUN	S	Case=Ill|Number=Plur	15	parataxis	_	NER=O|SpaceAfter=No
+18	]	]	PUNCT	Z	_	17	punct	_	NER=O|SpaceAfter=No
+19	.	.	PUNCT	Z	_	5	punct	_	NER=O
+
+# newpar id = ParlaMint-EE_2022-06-17_U1-P3
+# lang = et
+# sent_id = ParlaMint-EE_2022-06-17_U1-P3.1
+# text = Nüüd ma palun Riigikogu kõnetooli neid Riigikogu liikmeid, kes soovivad üle anda eelnõusid või arupärimisi.
+1	Nüüd	nüüd	ADV	D	_	3	advmod	_	NER=O
+2	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	NER=O
+3	palun	paluma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+4	Riigikogu	Riigi_kogu	PROPN	S	Case=Gen|Number=Sing	5	nmod	_	NER=B-ORG
+5	kõnetooli	kõne_tool	NOUN	S	Case=Par|Number=Sing	3	obj	_	NER=O
+6	neid	see	DET	P	Case=Par|Number=Plur|PronType=Dem	8	det	_	NER=O
+7	Riigikogu	Riigi_kogu	PROPN	S	Case=Gen|Number=Sing	8	nmod	_	NER=B-ORG
+8	liikmeid	liige	NOUN	S	Case=Par|Number=Plur	3	obj	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	Z	_	11	punct	_	NER=O
+10	kes	kes	PRON	P	Case=Nom|Number=Plur|PronType=Int,Rel	11	nsubj	_	NER=O
+11	soovivad	soovima	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	NER=O
+12	üle	üle	ADV	D	_	13	compound:prt	_	NER=O
+13	anda	andma	VERB	V	VerbForm=Inf	11	xcomp	_	NER=O
+14	eelnõusid	eel_nõu	NOUN	S	Case=Par|Number=Plur	13	obj	_	NER=O
+15	või	või	CCONJ	J	_	16	cc	_	NER=O
+16	arupärimisi	aru_pärimine	NOUN	S	Case=Par|Number=Plur	14	conj	_	NER=O|SpaceAfter=No
+17	.	.	PUNCT	Z	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U1-P3.2
+# text = Palun, Taavi Aas!
+1	Palun	paluma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	Z	_	3	punct	_	NER=O
+3	Taavi	Taavi	PROPN	S	Case=Nom|Number=Sing	1	vocative	_	NER=B-PER
+4	Aas	Aas	PROPN	S	Case=Nom|Number=Sing	3	flat	_	NER=I-PER|SpaceAfter=No
+5	!	!	PUNCT	Z	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-EE_2022-06-17_U2
+# newpar id = ParlaMint-EE_2022-06-17_U2-P1
+# lang = et
+# sent_id = ParlaMint-EE_2022-06-17_U2-P1.1
+# text = Austatud Riigikogu esimees!
+1	Austatud	austa=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	NER=O
+2	Riigikogu	Riigi_kogu	PROPN	S	Case=Gen|Number=Sing	3	nmod	_	NER=B-ORG
+3	esimees	esi_mees	NOUN	S	Case=Nom|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+4	!	!	PUNCT	Z	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U2-P1.2
+# text = Head Riigikogu liikmed!
+1	Head	hea	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	NER=O
+2	Riigikogu	Riigi_kogu	PROPN	S	Case=Gen|Number=Sing	3	nmod	_	NER=B-ORG
+3	liikmed	liige	NOUN	S	Case=Nom|Number=Plur	0	root	_	NER=O|SpaceAfter=No
+4	!	!	PUNCT	Z	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U2-P1.3
+# text = On lähenemas kindlalt järgmine kütteperiood.
+1	On	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	lähenemas	lähenema	VERB	V	Case=Ine|VerbForm=Sup|Voice=Act	1	xcomp	_	NER=O
+3	kindlalt	kindlalt	ADV	D	_	1	advmod	_	NER=O
+4	järgmine	järgmine	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	NER=O
+5	kütteperiood	kütte_periood	NOUN	S	Case=Nom|Number=Sing	1	nsubj	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	Z	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U2-P1.4
+# text = Me kõik teame, milline on hetkeseis energiakandjatega, milline on hinnatase.
+1	Me	mina	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	NER=O
+2	kõik	kõik	PRON	P	Case=Nom|Number=Plur|PronType=Tot	1	nmod	_	NER=O
+3	teame	teadma	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	Z	_	5	punct	_	NER=O
+5	milline	milline	ADJ	P	Case=Nom|Number=Sing|PronType=Rel	3	ccomp	_	NER=O
+6	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	NER=O
+7	hetkeseis	hetke_seis	NOUN	S	Case=Nom|Number=Sing	5	nsubj:cop	_	NER=O
+8	energiakandjatega	energia_kandja	NOUN	S	Case=Com|Number=Plur	7	nmod	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	Z	_	10	punct	_	NER=O
+10	milline	milline	ADJ	P	Case=Nom|Number=Sing|PronType=Rel	8	acl:relcl	_	NER=O
+11	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	NER=O
+12	hinnatase	hinna_tase	NOUN	S	Case=Nom|Number=Sing	10	nsubj:cop	_	NER=O|SpaceAfter=No
+13	.	.	PUNCT	Z	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U2-P1.5
+# text = Ka täna hommikul vaatasin: keskmine elektri hind Eestis 227 eurot megavatt, tipud pealt 300.
+1	Ka	ka	ADV	D	_	2	advmod	_	NER=O
+2	täna	täna	ADV	D	_	3	advmod	_	NER=O
+3	hommikul	hommik	NOUN	S	Case=Ade|Number=Sing	4	obl	_	NER=O
+4	vaatasin	vaatama	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+5	:	:	PUNCT	Z	_	12	punct	_	NER=O
+6	keskmine	keskmine	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	8	amod	_	NER=O
+7	elektri	elekter	NOUN	S	Case=Gen|Number=Sing	8	nmod	_	NER=O
+8	hind	hind	NOUN	S	Case=Nom|Number=Sing	12	nsubj	_	NER=O
+9	Eestis	Eesti	PROPN	S	Case=Ine|Number=Sing	12	obl	_	NER=B-LOC
+10	227	227	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	11	nummod	_	NER=O
+11	eurot	euro	NOUN	S	Case=Par|Number=Sing	12	obj	_	NER=O
+12	megavatt	megama	VERB	V	Mood=Qot|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	Z	_	16	punct	_	NER=O
+14	tipud	tipp	NOUN	S	Case=Nom|Number=Plur	16	obl	_	NER=O
+15	pealt	pealt	ADP	K	AdpType=Post	14	case	_	NER=O
+16	300.	300.	NUM	N	NumForm=Digit|NumType=Card	12	conj	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U2-P1.6
+# text = Seetõttu on kindlasti aktuaalne ka tulevasel kütteperioodil Eestimaa inimeste toetamine, et Eestimaa inimesed ei peaks tegema valikut näiteks toidukorvi ja kommunaalkulude maksmise vahel.
+1	Seetõttu	see_tõttu	ADV	D	_	4	advmod	_	NER=O
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	NER=O
+3	kindlasti	kindlasti	ADV	D	_	4	advmod	_	NER=O
+4	aktuaalne	aktuaalne	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	NER=O
+5	ka	ka	ADV	D	_	10	advmod	_	NER=O
+6	tulevasel	tulevane	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	7	amod	_	NER=O
+7	kütteperioodil	kütte_periood	NOUN	S	Case=Ade|Number=Sing	4	obl	_	NER=O
+8	Eestimaa	Eesti_maa	PROPN	S	Case=Gen|Number=Sing	9	nmod	_	NER=B-LOC
+9	inimeste	inimene	NOUN	S	Case=Gen|Number=Plur	10	nmod	_	NER=O
+10	toetamine	toetamine	NOUN	S	Case=Nom|Number=Sing	4	nsubj:cop	_	NER=O|SpaceAfter=No
+11	,	,	PUNCT	Z	_	17	punct	_	NER=O
+12	et	et	SCONJ	J	_	17	mark	_	NER=O
+13	Eestimaa	Eesti_maa	PROPN	S	Case=Gen|Number=Sing	14	nmod	_	NER=B-LOC
+14	inimesed	inimene	NOUN	S	Case=Nom|Number=Plur	17	nsubj	_	NER=O
+15	ei	ei	AUX	V	Polarity=Neg	17	aux	_	NER=O
+16	peaks	pidama	AUX	V	Connegative=Yes|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	NER=O
+17	tegema	tegema	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	4	advcl	_	NER=O
+18	valikut	valik	NOUN	S	Case=Par|Number=Sing	17	obj	_	NER=O
+19	näiteks	näiteks	ADV	D	_	20	advmod	_	NER=O
+20	toidukorvi	toidu_korv	NOUN	S	Case=Gen|Number=Sing	18	nmod	_	NER=O
+21	ja	ja	CCONJ	J	_	23	cc	_	NER=O
+22	kommunaalkulude	kommunaal_kulu	NOUN	S	Case=Gen|Number=Plur	23	nmod	_	NER=O
+23	maksmise	maksmine	NOUN	S	Case=Gen|Number=Sing	20	conj	_	NER=O
+24	vahel	vahel	ADP	K	AdpType=Post	20	case	_	NER=O|SpaceAfter=No
+25	.	.	PUNCT	Z	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U2-P1.7
+# text = Seetõttu on meil ettepanek Vabariigi Valitsusele töötada välja toetusmeetmed järgmiseks kütteperioodiks.
+1	Seetõttu	see_tõttu	ADV	D	_	3	advmod	_	NER=O
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	NER=O
+3	meil	mina	PRON	P	Case=Ade|Number=Plur|Person=1|PronType=Prs	0	root	_	NER=O
+4	ettepanek	ette_panek	NOUN	S	Case=Nom|Number=Sing	3	nsubj:cop	_	NER=O
+5	Vabariigi	Vaba_riik	PROPN	S	Case=Gen|Number=Sing	6	nmod	_	NER=B-ORG
+6	Valitsusele	Valitsus	PROPN	S	Case=All|Number=Sing	7	obl	_	NER=I-ORG
+7	töötada	töötama	VERB	V	VerbForm=Inf	4	acl	_	NER=O
+8	välja	välja	ADV	D	_	7	compound:prt	_	NER=O
+9	toetusmeetmed	toetus_meede	NOUN	S	Case=Nom|Number=Plur	7	obj	_	NER=O
+10	järgmiseks	järgmine	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	11	amod	_	NER=O
+11	kütteperioodiks	kütte_periood	NOUN	S	Case=Tra|Number=Sing	7	xcomp	_	NER=O|SpaceAfter=No
+12	.	.	PUNCT	Z	_	3	punct	_	NER=O
+
+# newpar id = ParlaMint-EE_2022-06-17_U2-P2
+# lang = et
+# sent_id = ParlaMint-EE_2022-06-17_U2-P2.1
+# text = Nimelt on meie ettepanek kaotada lõpptarbijale mainitud perioodiks, see on september sellel aastal kuni mai järgmine aasta, elektrienergia ja maagaasi võrgutasud.
+1	Nimelt	nimelt	ADV	D	_	4	advmod	_	NER=O
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	NER=O
+3	meie	mina	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	nmod	_	NER=O
+4	ettepanek	ette_panek	NOUN	S	Case=Nom|Number=Sing	0	root	_	NER=O
+5	kaotada	kaotama	VERB	V	VerbForm=Inf	4	acl	_	NER=O
+6	lõpptarbijale	lõpp_tarbija	NOUN	S	Case=All|Number=Sing	7	obl	_	NER=O
+7	mainitud	mainitud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	NER=O
+8	perioodiks	periood	NOUN	S	Case=Tra|Number=Sing	5	xcomp	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	Z	_	12	punct	_	NER=O
+10	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	12	nsubj:cop	_	NER=O
+11	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	NER=O
+12	september	september	NOUN	S	Case=Nom|Number=Sing	4	conj	_	NER=O
+13	sellel	see	DET	P	Case=Ade|Number=Sing|PronType=Dem	14	det	_	NER=O
+14	aastal	aasta	NOUN	S	Case=Ade|Number=Sing	12	obl	_	NER=O
+15	kuni	kuni	ADP	K	AdpType=Prep	18	case	_	NER=O
+16	mai	mai	NOUN	S	Case=Gen|Number=Sing	18	nmod	_	NER=O
+17	järgmine	järgmine	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	18	amod	_	NER=O
+18	aasta	aasta	NOUN	S	Case=Nom|Number=Sing	23	nmod	_	NER=O|SpaceAfter=No
+19	,	,	PUNCT	Z	_	23	punct	_	NER=O
+20	elektrienergia	elektri_energia	NOUN	S	Case=Gen|Number=Sing	23	nmod	_	NER=O
+21	ja	ja	CCONJ	J	_	22	cc	_	NER=O
+22	maagaasi	maa_gaas	NOUN	S	Case=Gen|Number=Sing	20	conj	_	NER=O
+23	võrgutasud	võrgu_tasu	NOUN	S	Case=Nom|Number=Plur	12	conj	_	NER=O|SpaceAfter=No
+24	.	.	PUNCT	Z	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U2-P2.2
+# text = Teiseks, määrata kaugkütte, elektri ja gaasi hinnale lagi 2021. aasta esimese poolaasta taseme järgi ja hüvitada ajavahemikul 2022. aasta september kuni 2023. aasta mai kõigile elektri lõpptarbijatele 80% kaugkütte, elektri ja gaasi hinnale määratud hinna lage ületavast osast.
+1	Teiseks	teiseks	ADV	D	_	3	advmod	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	Z	_	3	punct	_	NER=O
+3	määrata	määrama	VERB	V	VerbForm=Inf	0	root	_	NER=O
+4	kaugkütte	kaug_küte	NOUN	S	Case=Gen|Number=Sing	9	nmod	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	Z	_	6	punct	_	NER=O
+6	elektri	elekter	NOUN	S	Case=Gen|Number=Sing	4	conj	_	NER=O
+7	ja	ja	CCONJ	J	_	8	cc	_	NER=O
+8	gaasi	gaas	NOUN	S	Case=Gen|Number=Sing	4	conj	_	NER=O
+9	hinnale	hind	NOUN	S	Case=All|Number=Sing	3	obl	_	NER=O
+10	lagi	lagi	NOUN	S	Case=Nom|Number=Sing	3	obj	_	NER=O
+11	2021.	2021.	ADJ	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Ord	12	amod	_	NER=O
+12	aasta	aasta	NOUN	S	Case=Gen|Number=Sing	14	nmod	_	NER=O
+13	esimese	esimene	ADJ	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Ord	14	amod	_	NER=O
+14	poolaasta	pool_aasta	NOUN	S	Case=Gen|Number=Sing	15	nmod	_	NER=O
+15	taseme	tase	NOUN	S	Case=Gen|Number=Sing	10	nmod	_	NER=O
+16	järgi	järgi	ADP	K	AdpType=Post	15	case	_	NER=O
+17	ja	ja	CCONJ	J	_	18	cc	_	NER=O
+18	hüvitada	hüvitama	VERB	V	VerbForm=Inf	3	conj	_	NER=O
+19	ajavahemikul	aja_vahemik	NOUN	S	Case=Ade|Number=Sing	18	obl	_	NER=O
+20	2022.	2022.	ADJ	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Ord	21	amod	_	NER=O
+21	aasta	aasta	NOUN	S	Case=Gen|Number=Sing	22	nmod	_	NER=O
+22	september	september	NOUN	S	Case=Nom|Number=Sing	18	obl	_	NER=O
+23	kuni	kuni	ADP	K	AdpType=Prep	26	case	_	NER=O
+24	2023.	2023.	ADJ	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Ord	25	amod	_	NER=O
+25	aasta	aasta	NOUN	S	Case=Gen|Number=Sing	26	nmod	_	NER=O
+26	mai	mai	NOUN	S	Case=Gen|Number=Sing	18	obl	_	NER=O
+27	kõigile	kõik	DET	P	Case=All|Number=Plur|PronType=Tot	29	det	_	NER=O
+28	elektri	elekter	NOUN	S	Case=Gen|Number=Sing	29	nmod	_	NER=O
+29	lõpptarbijatele	lõpp_tarbija	NOUN	S	Case=All|Number=Plur	18	obl	_	NER=O
+30	80%	80%	NUM	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Card	31	nummod	_	NER=O
+31	kaugkütte	kaug_küte	NOUN	S	Case=Gen|Number=Sing	37	obl	_	NER=O|SpaceAfter=No
+32	,	,	PUNCT	Z	_	33	punct	_	NER=O
+33	elektri	elekter	NOUN	S	Case=Gen|Number=Sing	31	conj	_	NER=O
+34	ja	ja	CCONJ	J	_	35	cc	_	NER=O
+35	gaasi	gaas	NOUN	S	Case=Gen|Number=Sing	31	conj	_	NER=O
+36	hinnale	hind	NOUN	S	Case=All|Number=Sing	37	obl	_	NER=O
+37	määratud	määratud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	38	acl	_	NER=O
+38	hinna	hind	NOUN	S	Case=Gen|Number=Sing	39	nmod	_	NER=O
+39	lage	lage	NOUN	S	Case=Gen|Number=Sing	40	obj	_	NER=O
+40	ületavast	ületav	ADJ	A	Case=Ela|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	41	acl	_	NER=O
+41	osast	osa	NOUN	S	Case=Ela|Number=Sing	18	obl	_	NER=O|SpaceAfter=No
+42	.	.	PUNCT	Z	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U2-P2.3
+# text = Aitäh!
+1	Aitäh	aitäh	INTJ	I	_	0	root	_	NER=O|SpaceAfter=No
+2	!	!	PUNCT	Z	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U2-P2.4
+# text = Loodan, et Riigikogu ja valitsus seda ettepanekut toetavad.
+1	Loodan	lootma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	Z	_	9	punct	_	NER=O
+3	et	et	SCONJ	J	_	9	mark	_	NER=O
+4	Riigikogu	Riigi_kogu	PROPN	S	Case=Nom|Number=Sing	9	nsubj	_	NER=B-ORG
+5	ja	ja	CCONJ	J	_	6	cc	_	NER=O
+6	valitsus	valitsus	NOUN	S	Case=Nom|Number=Sing	4	conj	_	NER=O
+7	seda	see	DET	P	Case=Par|Number=Sing|PronType=Dem	8	det	_	NER=O
+8	ettepanekut	ette_panek	NOUN	S	Case=Par|Number=Sing	9	obj	_	NER=O
+9	toetavad	toetama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	Z	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-EE_2022-06-17_U13
+# newpar id = ParlaMint-EE_2022-06-17_U13-P1
+# lang = et
+# sent_id = ParlaMint-EE_2022-06-17_U13-P1.1
+# text = Aitäh!
+1	Aitäh	aitäh	INTJ	I	_	0	root	_	NER=O|SpaceAfter=No
+2	!	!	PUNCT	Z	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U13-P1.2
+# text = Minul selle kohta info puudub.
+1	Minul	mina	PRON	P	Case=Ade|Number=Sing|Person=1|PronType=Prs	5	obl	_	NER=O
+2	selle	see	PRON	P	Case=Gen|Number=Sing|PronType=Dem	5	obl	_	NER=O
+3	kohta	kohta	ADP	K	AdpType=Post	2	case	_	NER=O
+4	info	info	NOUN	S	Case=Nom|Number=Sing	5	nsubj	_	NER=O
+5	puudub	puuduma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	Z	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U13-P1.3
+# text = Kui võtta see Pipi, et kas see spunk on leitud või ei ole, mul puudub see info, ma ei oska seda.
+1	Kui	kui	SCONJ	J	_	2	mark	_	NER=O
+2	võtta	võtma	VERB	V	VerbForm=Inf	17	advcl	_	NER=O
+3	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	4	det	_	NER=O
+4	Pipi	Pipi	PROPN	S	Case=Nom|Number=Sing	2	obj	_	NER=B-PER|SpaceAfter=No
+5	,	,	PUNCT	Z	_	11	punct	_	NER=O
+6	et	et	SCONJ	J	_	11	mark	_	NER=O
+7	kas	kas	ADV	D	_	11	advmod	_	NER=O
+8	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	9	det	_	NER=O
+9	spunk	spunk	NOUN	S	Case=Nom|Number=Sing	11	obj	_	NER=O
+10	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	NER=O
+11	leitud	leidma	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	NER=O
+12	või	või	CCONJ	J	_	17	cc	_	NER=O
+13	ei	ei	AUX	V	Polarity=Neg	11	aux	_	NER=O
+14	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	Z	_	17	punct	_	NER=O
+16	mul	mina	PRON	P	Case=Ade|Number=Sing|Person=1|PronType=Prs	17	obl	_	NER=O
+17	puudub	puuduma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+18	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	19	det	_	NER=O
+19	info	info	NOUN	S	Case=Nom|Number=Sing	17	nsubj	_	NER=O|SpaceAfter=No
+20	,	,	PUNCT	Z	_	23	punct	_	NER=O
+21	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	NER=O
+22	ei	ei	AUX	V	Polarity=Neg	23	aux	_	NER=O
+23	oska	oskama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	NER=O
+24	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	23	obj	_	NER=O|SpaceAfter=No
+25	.	.	PUNCT	Z	_	17	punct	_	NER=O
+
+# newpar id = ParlaMint-EE_2022-06-17_U13-P2
+# lang = et
+# sent_id = ParlaMint-EE_2022-06-17_U13-P2.1
+# text = Nii, rohkem protseduurilisi küsimusi ei ole.
+1	Nii	nii	ADV	D	_	0	root	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	Z	_	3	punct	_	NER=O
+3	rohkem	rohkem	ADV	D	_	5	advmod	_	NER=O
+4	protseduurilisi	protseduuriline	ADJ	A	Case=Par|Degree=Pos|Number=Plur	5	amod	_	NER=O
+5	küsimusi	küsimus	NOUN	S	Case=Par|Number=Plur	1	nsubj:cop	_	NER=O
+6	ei	ei	AUX	V	Polarity=Neg	3	aux	_	NER=O
+7	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	Z	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U13-P2.2
+# text = Nüüd on niiviisi, head ametikaaslased, et meil on üle antud üks otsuse eelnõu ning vastavalt Riigikogu kodu- ja töökorra seadusele Riigikogu juhatus otsustab selle edasise menetlemise.
+1	Nüüd	nüüd	ADV	D	_	3	advmod	_	NER=O
+2	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	NER=O
+3	niiviisi	nii_viisi	ADV	D	_	0	root	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	Z	_	6	punct	_	NER=O
+5	head	hea	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	NER=O
+6	ametikaaslased	ameti_kaaslane	NOUN	S	Case=Nom|Number=Plur	3	nsubj:cop	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	Z	_	12	punct	_	NER=O
+8	et	et	SCONJ	J	_	12	mark	_	NER=O
+9	meil	mina	PRON	P	Case=Ade|Number=Plur|Person=1|PronType=Prs	12	obl	_	NER=O
+10	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	NER=O
+11	üle	üle	ADV	D	_	12	compound:prt	_	NER=O
+12	antud	andma	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	NER=O
+13	üks	üks	DET	P	Case=Nom|Number=Sing|PronType=Ind	15	det	_	NER=O
+14	otsuse	otsus	NOUN	S	Case=Gen|Number=Sing	15	nmod	_	NER=O
+15	eelnõu	eel_nõu	NOUN	S	Case=Nom|Number=Sing	12	obj	_	NER=O
+16	ning	ning	CCONJ	J	_	26	cc	_	NER=O
+17	vastavalt	vastavalt	ADP	K	AdpType=Prep	20	case	_	NER=O
+18	Riigikogu	Riigi_kogu	PROPN	S	Case=Gen|Number=Sing	19	nmod	_	NER=B-ORG
+19	kodu	kodu	NOUN	S	Case=Gen|Number=Sing	20	nmod	_	NER=O|SpaceAfter=No
+20	-	-	NOUN	S	Case=Gen|Number=Sing	23	nmod	_	NER=O
+21	ja	ja	CCONJ	J	_	22	cc	_	NER=O
+22	töökorra	töö_kord	NOUN	S	Case=Gen|Number=Sing	20	conj	_	NER=O
+23	seadusele	seadus	NOUN	S	Case=All|Number=Sing	26	obl	_	NER=O
+24	Riigikogu	Riigi_kogu	PROPN	S	Case=Gen|Number=Sing	25	nmod	_	NER=B-ORG
+25	juhatus	juhatus	NOUN	S	Case=Nom|Number=Sing	26	nsubj	_	NER=O
+26	otsustab	otsustama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	NER=O
+27	selle	see	DET	P	Case=Gen|Number=Sing|PronType=Dem	29	det	_	NER=O
+28	edasise	edasine	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	29	amod	_	NER=O
+29	menetlemise	menetlemine	NOUN	S	Case=Gen|Number=Sing	26	obj	_	NER=O|SpaceAfter=No
+30	.	.	PUNCT	Z	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U13-P2.3
+# text = Ja nüüd me olemegi jõudnud kohaloleku kontrolli juurde.
+1	Ja	ja	CCONJ	J	_	5	cc	_	NER=O
+2	nüüd	nüüd	ADV	D	_	5	advmod	_	NER=O
+3	me	mina	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	NER=O
+4	olemegi	olema	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	NER=O
+5	jõudnud	jõudma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	_	NER=O
+6	kohaloleku	kohal_olek	NOUN	S	Case=Gen|Number=Sing	7	nmod	_	NER=O
+7	kontrolli	kontroll	NOUN	S	Case=Gen|Number=Sing	5	obl	_	NER=O
+8	juurde	juurde	ADP	K	AdpType=Post	7	case	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	Z	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U13-P2.4
+# text = Ma kordan üle, et Riigikogu erakorralisel istungjärgul on Riigikogu otsustusvõimeline, kui kohal on üle poole Riigikogu koosseisust.
+1	Ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	kordan	kordama	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	üle	üle	ADV	D	_	2	compound:prt	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	Z	_	11	punct	_	NER=O
+5	et	et	SCONJ	J	_	11	mark	_	NER=O
+6	Riigikogu	Riigi_kogu	PROPN	S	Case=Gen|Number=Sing	8	nmod	_	NER=B-ORG
+7	erakorralisel	era_korraline	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	8	amod	_	NER=O
+8	istungjärgul	istung_järk	NOUN	S	Case=Ade|Number=Sing	11	obl	_	NER=O
+9	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	NER=O
+10	Riigikogu	Riigi_kogu	PROPN	S	Case=Gen|Number=Sing	11	obl	_	NER=B-ORG
+11	otsustusvõimeline	otsustus_võimeline	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	ccomp	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	Z	_	14	punct	_	NER=O
+13	kui	kui	SCONJ	J	_	14	mark	_	NER=O
+14	kohal	kohal	ADV	D	_	11	advcl	_	NER=O
+15	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	NER=O
+16	üle	üle	ADP	K	AdpType=Prep	17	case	_	NER=O
+17	poole	pool	NUM	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Card	11	advcl	_	NER=O
+18	Riigikogu	Riigi_kogu	PROPN	S	Case=Gen|Number=Sing	19	nmod	_	NER=B-ORG
+19	koosseisust	koos_seis	NOUN	S	Case=Ela|Number=Sing	17	nmod	_	NER=O|SpaceAfter=No
+20	.	.	PUNCT	Z	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U13-P2.5
+# text = Seda ütleb § 76.
+1	Seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	2	obj	_	NER=O
+2	ütleb	ütlema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	§	§	NOUN	Y	Abbr=Yes	2	nsubj	_	NER=O
+4	76.	76.	ADJ	N	NumForm=Digit|NumType=Ord	3	amod	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U13-P2.6
+# text = Riigikogu erakorralise istungjärgu ajal kontrollitakse kohalolekut ka enne hääletust, kui mõni hea ametikaaslane seda nõuab.
+1	Riigikogu	riigi_kogu	NOUN	S	Case=Gen|Number=Sing	3	nmod	_	NER=O
+2	erakorralise	era_korraline	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	3	amod	_	NER=O
+3	istungjärgu	istung_järk	NOUN	S	Case=Gen|Number=Sing	5	obl	_	NER=O
+4	ajal	ajal	ADP	K	AdpType=Post	3	case	_	NER=O
+5	kontrollitakse	kontrollima	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+6	kohalolekut	kohal_olek	NOUN	S	Case=Par|Number=Sing	5	obj	_	NER=O
+7	ka	ka	ADV	D	_	9	advmod	_	NER=O
+8	enne	enne	ADP	K	AdpType=Prep	9	case	_	NER=O
+9	hääletust	hääletus	NOUN	S	Case=Par|Number=Sing	5	obl	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	Z	_	16	punct	_	NER=O
+11	kui	kui	SCONJ	J	_	16	mark	_	NER=O
+12	mõni	mõni	DET	P	Case=Nom|Number=Sing|PronType=Ind	14	det	_	NER=O
+13	hea	hea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	14	amod	_	NER=O
+14	ametikaaslane	ameti_kaaslane	NOUN	S	Case=Nom|Number=Sing	16	nsubj	_	NER=O
+15	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	16	obj	_	NER=O
+16	nõuab	nõudma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	NER=O|SpaceAfter=No
+17	.	.	PUNCT	Z	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U13-P2.7
+# text = See on § 77 lõige 3.
+1	See	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	NER=O
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	NER=O
+3	§	§	NOUN	Y	Abbr=Yes	5	nmod	_	NER=O
+4	77	77	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	5	nummod	_	NER=O
+5	lõige	lõige	NOUN	S	Case=Nom|Number=Sing	0	root	_	NER=O
+6	3.	3.	ADJ	N	NumForm=Digit|NumType=Ord	5	amod	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U13-P2.8
+# text = Ja infoks veel see, et kvoorumi puudumisel lõpeb erakorraline istungjärk automaatselt.
+1	Ja	ja	CCONJ	J	_	2	cc	_	NER=O
+2	infoks	info	NOUN	S	Case=Tra|Number=Sing	0	root	_	NER=O
+3	veel	veel	ADV	D	_	2	advmod	_	NER=O
+4	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	2	nsubj:cop	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	Z	_	9	punct	_	NER=O
+6	et	et	SCONJ	J	_	9	mark	_	NER=O
+7	kvoorumi	kvoorum	NOUN	S	Case=Gen|Number=Sing	8	nmod	_	NER=O
+8	puudumisel	puudumine	NOUN	S	Case=Ade|Number=Sing	9	obl	_	NER=O
+9	lõpeb	lõppema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	NER=O
+10	erakorraline	era_korraline	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	11	amod	_	NER=O
+11	istungjärk	istung_järk	NOUN	S	Case=Nom|Number=Sing	9	nsubj	_	NER=O
+12	automaatselt	automaatselt	ADV	D	_	9	advmod	_	NER=O|SpaceAfter=No
+13	.	.	PUNCT	Z	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U13-P2.9
+# text = Head ametikaaslased, viime läbi kohaloleku kontrolli.
+1	Head	hea	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	NER=O
+2	ametikaaslased	ameti_kaaslane	NOUN	S	Case=Nom|Number=Plur	4	vocative	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	Z	_	4	punct	_	NER=O
+4	viime	viima	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+5	läbi	läbi	ADP	K	AdpType=Prep	6	case	_	NER=O
+6	kohaloleku	kohal_olek	NOUN	S	Case=Gen|Number=Sing	4	obl	_	NER=O
+7	kontrolli	kontroll	NOUN	S	Case=Gen|Number=Sing	4	obj	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	Z	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U13-P2.10
+# text = Kohaloleku kontroll.
+1	Kohaloleku	kohal_olek	NOUN	S	Case=Gen|Number=Sing	2	nmod	_	NER=O
+2	kontroll	kontroll	NOUN	S	Case=Nom|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	Z	_	2	punct	_	NER=O
+
+# newdoc id = ParlaMint-EE_2022-06-17_U14
+# newpar id = ParlaMint-EE_2022-06-17_U14-P1
+# lang = et
+# sent_id = ParlaMint-EE_2022-06-17_U14-P1.1
+# text = Kohale registreerus 25 Riigikogu liiget, puudub 76.
+1	Kohale	kohale	ADV	D	_	2	advmod	_	NER=O
+2	registreerus	registreeruma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	25	25	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	5	nummod	_	NER=O
+4	Riigikogu	Riigi_kogu	PROPN	S	Case=Gen|Number=Sing	5	nmod	_	NER=B-ORG
+5	liiget	liige	NOUN	S	Case=Par|Number=Sing	2	nsubj	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	Z	_	7	punct	_	NER=O
+7	puudub	puuduma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	NER=O
+8	76.	76.	ADJ	N	NumForm=Digit|NumType=Ord	7	obl	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U14-P1.2
+# text = Head ametikaaslased, kuna ei ole kohal üle poole Riigikogu koosseisust, siis see tähendab seda, et meie erakorraline istungjärk on lõppenud.
+1	Head	hea	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	NER=O
+2	ametikaaslased	ameti_kaaslane	NOUN	S	Case=Nom|Number=Plur	15	nsubj	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	Z	_	7	punct	_	NER=O
+4	kuna	kuna	SCONJ	J	_	7	mark	_	NER=O
+5	ei	ei	AUX	V	Polarity=Neg	7	aux	_	NER=O
+6	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	NER=O
+7	kohal	kohal	ADV	D	_	15	advcl	_	NER=O
+8	üle	üle	ADP	K	AdpType=Prep	9	case	_	NER=O
+9	poole	pool	NUM	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Card	7	nsubj:cop	_	NER=O
+10	Riigikogu	Riigi_kogu	PROPN	S	Case=Gen|Number=Sing	11	nmod	_	NER=B-ORG
+11	koosseisust	koos_seis	NOUN	S	Case=Ela|Number=Sing	9	nmod	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	Z	_	7	punct	_	NER=O
+13	siis	siis	ADV	D	_	15	advmod	_	NER=O
+14	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	15	nsubj	_	NER=O
+15	tähendab	tähendama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+16	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	15	obj	_	NER=O|SpaceAfter=No
+17	,	,	PUNCT	Z	_	23	punct	_	NER=O
+18	et	et	SCONJ	J	_	23	mark	_	NER=O
+19	meie	mina	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	21	nmod	_	NER=O
+20	erakorraline	era_korraline	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	21	amod	_	NER=O
+21	istungjärk	istung_järk	NOUN	S	Case=Nom|Number=Sing	23	nsubj	_	NER=O
+22	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	_	NER=O
+23	lõppenud	lõppema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	16	acl	_	NER=O|SpaceAfter=No
+24	.	.	PUNCT	Z	_	15	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2022-06-17_U14-P1.3
+# text = Aitäh teile!
+1	Aitäh	aitäh	INTJ	I	_	2	discourse	_	NER=O
+2	teile	sina	PRON	P	Case=All|Number=Plur|Person=2|PronType=Prs	0	root	_	NER=O|SpaceAfter=No
+3	!	!	PUNCT	Z	_	2	punct	_	NER=O
+
