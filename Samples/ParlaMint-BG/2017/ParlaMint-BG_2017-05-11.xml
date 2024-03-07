@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:id="ParlaMint-BG_2017-05-11" xml:lang="bg">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bg">Български парламентарен корпус ParlaMint-BG (2017-05-11) [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Bulgarian parliamentary corpus ParlaMint-BG (2017-05-11) [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="bg">Стенограмa от 11 пленарнo заседаниe на 1 сесия на 44 Народно събрание на Република България (2017-05-11)</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Bulgarian National Assembly, Term 44, Session 1, Meeting 11 (2017-05-11)</title>
+            <meeting ana="#parla.uni #parla.sitting" corresp="#BGNS" n="2017-05-11">2017-05-11</meeting>
+            <meeting ana="#parla.uni #parla.meeting.regular" corresp="#BGNS" n="11">11 пленарно заседание</meeting>
+            <meeting ana="#parla.uni #parla.session" corresp="#BGNS" n="1">1 парламентарна сесия</meeting>
+            <meeting ana="#parla.uni #parla.term" corresp="#BGNS" n="44">Четиридесет и четвърто народно събрание</meeting>
+            <respStmt>
+               <persName xml:lang="bg">Владислава Григорова</persName>
+               <persName xml:lang="en">Vladislava Grigorova</persName>
+               <resp xml:lang="bg">Сваляне, почистване и конвертиране до XML</resp>
+               <resp xml:lang="en">Download, clean-up converting of the data to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-4484-5027" xml:lang="bg">Петя Осенова</persName>
+               <persName ref="https://orcid.org/0000-0002-4484-5027" xml:lang="en">Petya Osenova</persName>
+               <resp xml:lang="bg">Кодиране в Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3555-0179" xml:lang="bg">Кирил Симов</persName>
+               <persName ref="https://orcid.org/0000-0003-3555-0179" xml:lang="en">Kiril Simov</persName>
+               <resp xml:lang="bg">Валидиране на корпуса Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus validation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="bg">Изследователска инфраструктура CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure quantity="110" unit="speeches" xml:lang="bg">110 изказвания</measure>
+            <measure quantity="110" unit="speeches" xml:lang="en">110 speeches</measure>
+            <measure quantity="4767" unit="words" xml:lang="en"/>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="bg">Изследователска инфраструктура CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="bg">Този ресурс е лицензиран под лиценз: <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-03-06">2024-03-06</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the National Assembly of the Republic of Bulgaria</title>
+               <idno type="URI" subtype="parliament">https://www.parliament.bg/bg/plenaryst/ns/55/ID/5758</idno>
+               <date when="2017-05-11"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="bg"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="9"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="2"/>
+               <tagUsage gi="seg" occurs="395"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="110"/>
+               <tagUsage gi="vocal" occurs="7"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">2 Narodno Sabranie Sq.</name>
+               <name type="city">Sofia</name>
+               <name key="BG" type="country">Bulgaria</name>
+               <date when="2017-05-11"/>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-03-06">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="bg">
+      <body>
+         <div type="debateSection">
+            <u ana="#chair" n="72336" who="#GlavchevDimitar" xml:id="ParlaMint-BG_2017-05-11.u1">
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg1">Добро утро, уважаеми колеги!</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg2">Има кворум.</seg>
+               <kinesic type="ringing" xml:id="ParlaMint-BG_2017-05-11.kinesic1">
+                  <desc>Звъни.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg3">Откривам пленарното заседание. Съобщения:</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg4">На основание чл. 65, ал. 1 от Закона за отбраната и въоръжените сили на Република България на 9 и 10 май 2017 г., с вх. № АД 703-09-1 и № 703-09-4, в Народното събрание са постъпили уведомления от министъра на отбраната. Предоставени са на Комисията по отбраната.</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg5">Продължаваме със следващата точка от дневния ред:</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg6">ИЗБОР НА ПОСТОЯННИ ДЕЛЕГАЦИИ НА НАРОДНОТО СЪБРАНИЕ В МЕЖДУНАРОДНИ ОРГАНИЗАЦИИ.</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg7">Има постъпили проекти за решения с вносители народните представители Красимир Велчев и Станислав Иванов.</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg8">Първият:</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg9">Проект!</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg10">РЕШЕНИЕ</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg11">за избиране на постоянна делегация на Народното събрание в Парламентарната асамблея на Съвета на Европа</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg12">Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България и чл. 38 от Правилника за организацията и дейността на Народното събрание във връзка с чл. 25, букви „а“ и „с“ и чл. 26 от Статута на Съвета на Европа</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg13">РЕШИ:</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg14">1. Избира постоянна делегация на Народното събрание в Парламентарната асамблея на Съвета на Европа в състав от 6 основни представители и 6 заместващи представители, както следва:</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg15">- за парламентарната група на Политическа партия ГЕРБ – двама основни и един заместващ;</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg16">- за парламентарната група на „БСП за България“ – един основен и двама заместващи;</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg17">- за парламентарната група на „Обединени патриоти“ – един основен и един заместващ;</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg18">- за парламентарната група на „Движение за права и свободи“ – един основен и един заместващ;</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg19">- за парламентарната група на Политическа партия „Воля“ – един основен и един заместващ.</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg20">2. Избира състав на делегацията, както следва“.</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg21">Имате думата за предложения.</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg22">Заповядайте, господин Иванов.</seg>
+            </u>
+            <u ana="#regular" n="72337" who="#IvanovStanislav" xml:id="ParlaMint-BG_2017-05-11.u2">
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg23">Благодаря Ви.</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg24">Уважаеми господин Председател, уважаеми колеги! От Политическа партия ГЕРБ предлагаме следния поименен състав на постоянната делегация на Народното събрание в Парламентарната асамблея на Съвета на Европа: Милена Цветанова Дамянова – основен представител, Данаил Димитров Кирилов – заместващ представител, и Джема Маринова Грозданова – ръководител. Благодаря Ви.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u ana="#chair" n="72444" who="#GlavchevDimitar" xml:id="ParlaMint-BG_2017-05-11.u109">
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg374">Благодаря Ви, уважаеми господин Цонев.</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg375">Гласуваме предложенията.</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg376">Моля, гласувайте.</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg377">Гласували 181 народни представители: за 174, против 3, въздържали се 4.</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg378">Предложенията за промени са приети.</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg379">Вече имаме предложение за ръководител, така че гласуваме Проекта в неговата цялост, след направените промени.</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg380">Моля, гласувайте.</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg381">Гласували 182 народни представители: за 176, против 1, въздържали се 5.</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg382">Решението е прието.</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg383">Съобщение за парламентарен контрол на 12 май 2017 г., петък:</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg384">- министърът на вътрешните работи Валентин Радев ще отговори на един въпрос от народния представител Красимир Янков.</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg385">На основание чл. 96, ал. 3 и чл. 99, ал. 2 от Правилника за организацията и дейността на Народното събрание отлагане на отговори със седем дни са поискали:</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg386">- министърът на енергетиката Теменужка Петкова на един въпрос от народния представител Васил Антонов;</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg387">- министърът на образованието и науката Красимир Вълчев на един въпрос с писмен отговор от народния представител Анелия Клисарова;</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg388">- министърът на земеделието, храните и горите Румен Порожанов на пет въпроса от народните представители Георги Гьоков; Светла Бъчварова, която има два въпроса; Дора Янкова; и Кръстина Таскова;</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg389">- министърът на икономиката Емил Караниколов на един въпрос от народния представител Димитър Данчев;</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg390">- министърът на здравеопазването Николай Петров на един въпрос от народния представител Георги Йорданов;</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg391">- министърът на регионалното развитие и благоустройството Николай Нанков на три въпроса от народните представители Васил Антонов, Николай Иванов и Георги Гьоков;</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg392">- министърът на труда и социалната политика Бисер Петков на един въпрос от народния представител Джевдет Чакъров.</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg393">Поради изчерпване на дневния ред за днес закривам заседанието.</seg>
+            </u>
+            <u ana="#regular" n="72445" xml:id="ParlaMint-BG_2017-05-11.u110">
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg394">Утре продължаваме с парламентарен контрол от 11,00 ч.</seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg395">Закривам заседанието.</seg>
+               <kinesic type="ringing" xml:id="ParlaMint-BG_2017-05-11.kinesic2">
+                  <desc>Звъни.</desc>
+               </kinesic>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

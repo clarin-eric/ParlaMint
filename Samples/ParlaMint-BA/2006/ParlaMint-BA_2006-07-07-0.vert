@@ -1329,7 +1329,7 @@ naroda	naroda	narod	NOUN	Case=Gen Gender=Masc Number=Sing	21	compound	dom	NOUN	C
 </p>
 </speech>
 <note type="speaker" content="Hurtić, Zlatko"/>
-<speech id="ParlaMint-BA_2006-07-07-0.u6152" text_id="ParlaMint-BA_2006-07-07-0" subcorpus="Referenca" lang="bosanski" body="Jednodoman" term="4. mandat" session="-" meeting="Sjednica 60" sitting="2006-07-07" agenda="-" date="2006-07-07" title="Zapisnici sjednica parlamentarne skupštine, mandat 4, sjednica 60" speaker_role="Redovni" speaker_id="HurtićZlatko" speaker_name="Hurtić, Zlatko" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="-" speaker_birth="-">
+<speech id="ParlaMint-BA_2006-07-07-0.u6152" text_id="ParlaMint-BA_2006-07-07-0" subcorpus="Referenca" lang="bosanski" body="Jednodoman" term="4. mandat" session="-" meeting="Sjednica 60" sitting="2006-07-07" agenda="-" date="2006-07-07" title="Zapisnici sjednica parlamentarne skupštine, mandat 4, sjednica 60" speaker_role="Redovni" speaker_id="HurtićZlatko" speaker_name="Hurtić, Zlatko" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-BA_2006-07-07-0.u6152.seg0" lang="bosanski">
 <s id="ParlaMint-BA_2006-07-07-0.u6152.seg0.1">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	nsubj	željeti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	12

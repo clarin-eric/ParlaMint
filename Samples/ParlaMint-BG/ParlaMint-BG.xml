@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-BG" xml:lang="bg">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bg">Български парламентарен корпус ParlaMint-BG [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Bulgarian parliamentary corpus ParlaMint-BG [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="bg">Стенограми от пленарни заседания на 43-то, 44-то, 45-то, 46-то i 47-то Народно събрание на Република България (2014-10-27 - 2022-07-29)</title>
+            <title type="sub" xml:lang="en">Minutes of the 43th, 44th, 45th, 46th, and 47th National Assemblies of the Republic of Bulgaria (2014-10-27 - 2022-07-29)</title>
+            <meeting ana="#parla.uni #parla.term #BGNS.43" corresp="#BGNS" n="43">43. mandat</meeting>
+            <meeting ana="#parla.uni #parla.term #BGNS.44" corresp="#BGNS" n="44">44. mandat</meeting>
+            <meeting ana="#parla.uni #parla.term #BGNS.45" corresp="#BGNS" n="45">45. mandat</meeting>
+            <meeting ana="#parla.uni #parla.term #BGNS.46" corresp="#BGNS" n="46">46. mandat</meeting>
+            <meeting ana="#parla.uni #parla.term #BGNS.47" corresp="#BGNS" n="47">47. mandat</meeting>
+            <respStmt>
+               <persName xml:lang="bg">Петя Осенова</persName>
+               <persName xml:lang="bg-Latn">Petya Osenova</persName>
+               <resp xml:lang="bg">Кодиране в Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:lang="bg">Кирил Симов</persName>
+               <persName xml:lang="bg-Latn">Kiril Simov</persName>
+               <resp xml:lang="bg">Валидиране на корпуса Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus validation</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:lang="bg">Владислава Григорова</persName>
+               <persName xml:lang="bg-Latn">Vladislava Grigorova</persName>
+               <resp xml:lang="bg">Сваляне, почистване и конвертиране до XML</resp>
+               <resp xml:lang="en">Download, clean-up converting of the data to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:lang="bg">Илко Григоров</persName>
+               <persName xml:lang="bg-Latn">Ilko Grigorov</persName>
+               <resp xml:lang="bg">Сваляне, почистване и конвертиране до XML</resp>
+               <resp xml:lang="en">Download, clean-up converting of the data to XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="bg">Изследователска инфраструктура CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="210018" xml:lang="bg">210.018 изказвания</measure>
+            <measure unit="speeches" quantity="210018" xml:lang="en">210,018 speeches</measure>
+            <measure unit="words" quantity="26471533" xml:lang="bg">26.471.533 думи</measure>
+            <measure unit="words" quantity="26471533" xml:lang="en">26,471,533 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="bg">Инфраструктурата КЛАРИН</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="bg">Корпусът е достъпен чрез международния лиценз <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-03-06">2024-03-06</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Transcripts of plenary sittings of the Parliament of the Republic of Bulgaria</title>
+               <idno type="URI" subtype="parliament">https://parlametar.bg/</idno>
+               <idno type="URI" subtype="parliament">https://parliament.bg/bg</idno>
+               <date from="2014-10-27" to="2022-07-29">2014-10-27 - 2022-07-29</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="bg">ParlaMint</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p xml:lang="en">No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p xml:lang="en">Normalisation was performed only on the meta-data, e.g. person names.</p>
+            </normalization>
+            <hyphenation>
+               <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
+            </hyphenation>
+            <quotation>
+               <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="921"/>
+               <tagUsage gi="desc" occurs="51652"/>
+               <tagUsage gi="div" occurs="923"/>
+               <tagUsage gi="incident" occurs="1569"/>
+               <tagUsage gi="kinesic" occurs="17930"/>
+               <tagUsage gi="seg" occurs="973864"/>
+               <tagUsage gi="text" occurs="921"/>
+               <tagUsage gi="u" occurs="210018"/>
+               <tagUsage gi="vocal" occurs="32153"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-CHES.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-politicalOrientation.xml"/>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Parliament square</name>
+               <name type="city">Sofia</name>
+               <name key="BG" type="country">Bulgaria</name>
+               <date from="2014-10-27" to="2022-07-29"/>
+            </setting>
+         </settingDesc>
+         <textClass>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.uni"/>
+         </textClass>
+         <particDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-BG-listOrg.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-BG-listPerson.xml"/>
+         </particDesc>
+         <langUsage>
+            <language ident="bg-Latn" xml:lang="en">Bulgarian in latin script</language>
+            <language ident="bg" xml:lang="bg">български</language>
+            <language ident="bg" xml:lang="en">Bulgarian</language>
+            <language ident="en" xml:lang="bg">английски</language>
+            <language ident="en" xml:lang="en">English</language>
+            <language ident="fr" xml:lang="bg">френски</language>
+            <language ident="fr" xml:lang="en">French</language>
+            <language ident="es" xml:lang="bg">Испански</language>
+            <language ident="es" xml:lang="en">Spanish</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2024-03-06">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2024-03-06">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2021-06-17">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-06-07">
+            <name>Tomaž Erjavec</name>: Finalize encoding.</change>
+         <change when="2023-01-10">
+            <name>parlamint2final.xsl</name>: Finalize corpus.</change>
+         <change when="2024-03-06">parlamint-add-common-content script: Adding common content.</change>
+      </revisionDesc>
+   </teiHeader>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BG_2017-05-11.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/ParlaMint-BG_2019-10-03.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-BG_2022-07-29.xml"/>
+</teiCorpus>
+

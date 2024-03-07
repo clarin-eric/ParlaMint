@@ -1,0 +1,912 @@
+# newdoc id = ParlaMint-BG_2017-05-11.u1
+# newpar id = ParlaMint-BG_2017-05-11.seg1
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg1.1
+# text = Добро утро, уважаеми колеги!
+1	Добро	добър	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	NER=O
+2	утро	утро	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	punct	_	5	punct	_	NER=O
+4	уважаеми	уважаем	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	5	amod	_	NER=O
+5	колеги	колега	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	2	conj	_	NER=O|SpaceAfter=No
+6	!	!	PUNCT	punct	_	2	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg2
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg2.1
+# text = Има кворум.
+1	Има	има	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	кворум	кворум	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	punct	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg3
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg3.1
+# text = Откривам пленарното заседание.
+1	Откривам	откривам-(се)	VERB	Vpitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	пленарното	пленарен	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	NER=O
+3	заседание	заседание	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	1	obj	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	punct	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-BG_2017-05-11.seg3.2
+# text = Съобщения:
+1	Съобщения	съобщение	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	NER=O|SpaceAfter=No
+2	:	:	PUNCT	punct	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg4
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg4.1
+# text = На основание чл. 65, ал. 1 от Закона за отбраната и въоръжените сили на Република България на 9 и 10 май 2017 г., с вх. № АД 703-09-1 и № 703-09-4, в Народното събрание са постъпили уведомления от министъра на отбраната.
+1	На	на	ADP	R	_	2	case	_	NER=O
+2	основание	основание	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	48	obl	_	NER=O
+3	чл.	чл.	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	NER=O
+4	65	65	ADJ	Momsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	punct	_	6	punct	_	NER=O
+6	ал.	ал.	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	NER=O
+7	1	първи	ADJ	Mofsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	NER=O
+8	от	от	ADP	R	_	9	case	_	NER=O
+9	Закона	закон	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	NER=B-MISC
+10	за	за	ADP	R	_	11	case	_	NER=I-MISC
+11	отбраната	отбрана	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	NER=I-MISC
+12	и	и	CCONJ	Cp	_	14	cc	_	NER=I-MISC
+13	въоръжените	въоръжа	ADJ	Vpptcv--p-d	Aspect=Perf|Definite=Def|Degree=Pos|Number=Plur|VerbForm=Part|Voice=Pass	14	amod	_	NER=I-MISC
+14	сили	сила	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	9	conj	_	NER=I-MISC
+15	на	на	ADP	R	_	16	case	_	NER=O
+16	Република	република	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	NER=B-LOC
+17	България	българия	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	NER=I-LOC
+18	на	на	ADP	R	_	22	case	_	NER=O
+19	9	девети	ADJ	Momsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	22	amod	_	NER=O
+20	и	и	CCONJ	Cp	_	21	cc	_	NER=O
+21	10	10	ADJ	Momsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	19	conj	_	NER=O
+22	май	май	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	NER=O
+23	2017	2017	ADJ	Mofsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	24	amod	_	NER=O
+24	г.	година	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	22	nmod	_	NER=O|SpaceAfter=No
+25	,	,	PUNCT	punct	_	27	punct	_	NER=O
+26	с	с	ADP	R	_	27	case	_	NER=O
+27	вх	вх	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	NER=O|SpaceAfter=No
+28	.	.	PUNCT	punct	_	29	punct	_	NER=O
+29	№	№	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	22	nmod	_	NER=O
+30	АД	ад	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	29	flat	_	NER=B-ORG
+31	703	703	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	29	flat	_	NER=I-ORG|SpaceAfter=No
+32	-	-	PUNCT	punct	_	33	punct	_	NER=O|SpaceAfter=No
+33	09	09	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	29	nummod	_	NER=O|SpaceAfter=No
+34	-	-	PUNCT	punct	_	35	punct	_	NER=O|SpaceAfter=No
+35	1	един	NUM	Mcnsi	Definite=Ind|Gender=Neut|Number=Sing|NumType=Card	33	conj	_	NER=O
+36	и	и	CCONJ	Cp	_	37	cc	_	NER=O
+37	№	№	NOUN	Ncmsi	Gender=Masc|Number=Sing	29	conj	_	NER=O
+38	703	703	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	37	nummod	_	NER=O|SpaceAfter=No
+39	-	-	PUNCT	punct	_	40	punct	_	NER=O|SpaceAfter=No
+40	09	09	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	37	appos	_	NER=O|SpaceAfter=No
+41	-	-	PUNCT	punct	_	42	punct	_	NER=O|SpaceAfter=No
+42	4	четири	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	40	conj	_	NER=O|SpaceAfter=No
+43	,	,	PUNCT	punct	_	40	punct	_	NER=O
+44	в	в	ADP	R	_	46	case	_	NER=O
+45	Народното	народен	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	46	amod	_	NER=O
+46	събрание	събрание	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	48	iobj	_	NER=O
+47	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	48	aux	_	NER=O
+48	постъпили	постъпя	VERB	Vppicao-p-i	Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	NER=O
+49	уведомления	уведомление	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	48	nsubj	_	NER=O
+50	от	от	ADP	R	_	51	case	_	NER=O
+51	министъра	министър	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	49	nmod	_	NER=O
+52	на	на	ADP	R	_	53	case	_	NER=O
+53	отбраната	отбрана	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	51	nmod	_	NER=O|SpaceAfter=No
+54	.	.	PUNCT	punct	_	48	punct	_	NER=O
+
+# sent_id = ParlaMint-BG_2017-05-11.seg4.2
+# text = Предоставени са на Комисията по отбраната.
+1	Предоставени	предоставя	VERB	Vpptcv--p-i	Aspect=Perf|Definite=Ind|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	NER=O
+2	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux:pass	_	NER=O
+3	на	на	ADP	R	_	4	case	_	NER=O
+4	Комисията	комисия	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	1	iobj	_	NER=B-ORG
+5	по	по	ADP	R	_	6	case	_	NER=I-ORG
+6	отбраната	отбрана	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	NER=I-ORG|SpaceAfter=No
+7	.	.	PUNCT	punct	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg5
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg5.1
+# text = Продължаваме със следващата точка от дневния ред:
+1	Продължаваме	продължавам	VERB	Vpitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	със	със	ADP	R	_	4	case	_	NER=O
+3	следващата	следвам	ADJ	Vpitcar-sfd	Aspect=Imp|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	NER=O
+4	точка	точка	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	1	obl	_	NER=O
+5	от	от	ADP	R	_	7	case	_	NER=O
+6	дневния	дневен	ADJ	Amsh	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	NER=O
+7	ред	ред	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	NER=O|SpaceAfter=No
+8	:	:	PUNCT	punct	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg6
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg6.1
+# text = ИЗБОР НА ПОСТОЯННИ ДЕЛЕГАЦИИ НА НАРОДНОТО СЪБРАНИЕ В МЕЖДУНАРОДНИ ОРГАНИЗАЦИИ.
+1	ИЗБОР	избор	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	NER=O
+2	НА	на	ADP	R	_	4	case	_	NER=O
+3	ПОСТОЯННИ	постоянен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	4	amod	_	NER=O
+4	ДЕЛЕГАЦИИ	делегация	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	1	nmod	_	NER=O
+5	НА	на	ADP	R	_	7	case	_	NER=O
+6	НАРОДНОТО	народен	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	NER=B-ORG
+7	СЪБРАНИЕ	събрание	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	NER=I-ORG
+8	В	в	ADP	R	_	10	case	_	NER=O
+9	МЕЖДУНАРОДНИ	международен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	10	amod	_	NER=B-ORG
+10	ОРГАНИЗАЦИИ	организация	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	4	nmod	_	NER=I-ORG|SpaceAfter=No
+11	.	.	PUNCT	punct	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg7
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg7.1
+# text = Има постъпили проекти за решения с вносители народните представители Красимир Велчев и Станислав Иванов.
+1	Има	има	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	постъпили	постъпя	ADJ	Vppicao-p-i	Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	3	amod	_	NER=O
+3	проекти	проект	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	1	obj	_	NER=O
+4	за	за	ADP	R	_	5	case	_	NER=O
+5	решения	решение	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	3	nmod	_	NER=O
+6	с	с	ADP	R	_	7	case	_	NER=O
+7	вносители	вносител	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	5	nmod	_	NER=O
+8	народните	народен	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	9	amod	_	NER=O
+9	представители	представител	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	NER=O
+10	Красимир	красимир	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	NER=B-PER
+11	Велчев	велчев	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	10	flat	_	NER=I-PER
+12	и	и	CCONJ	Cp	_	13	cc	_	NER=O
+13	Станислав	станислав	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	10	conj	_	NER=B-PER
+14	Иванов	иванов	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	13	flat	_	NER=I-PER|SpaceAfter=No
+15	.	.	PUNCT	punct	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg8
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg8.1
+# text = Първият:
+1	Първият	пръв	ADJ	Momsf	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	0	root	_	NER=O|SpaceAfter=No
+2	:	:	PUNCT	punct	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg9
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg9.1
+# text = Проект!
+1	Проект	проект	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+2	!	!	PUNCT	punct	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg10
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg10.1
+# text = РЕШЕНИЕ
+1	РЕШЕНИЕ	решение	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg11
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg11.1
+# text = за избиране на постоянна делегация на Народното събрание в Парламентарната асамблея на Съвета на Европа
+1	за	за	ADP	R	_	2	case	_	NER=O
+2	избиране	избиране	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	NER=O
+3	на	на	ADP	R	_	5	case	_	NER=O
+4	постоянна	постоянен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	NER=O
+5	делегация	делегация	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	NER=O
+6	на	на	ADP	R	_	8	case	_	NER=O
+7	Народното	народен	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	NER=B-ORG
+8	събрание	събрание	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	NER=I-ORG
+9	в	в	ADP	R	_	11	case	_	NER=O
+10	Парламентарната	парламентарен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	NER=B-ORG
+11	асамблея	асамблея	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	NER=I-ORG
+12	на	на	ADP	R	_	13	case	_	NER=O
+13	Съвета	съвет	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	NER=B-ORG
+14	на	на	ADP	R	_	15	case	_	NER=I-ORG
+15	Европа	европа	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	NER=I-ORG
+
+# newpar id = ParlaMint-BG_2017-05-11.seg12
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg12.1
+# text = Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България и чл. 38 от Правилника за организацията и дейността на Народното събрание във връзка с чл. 25, букви „а“ и „с“ и чл. 26 от Статута на Съвета на Европа
+1	Народното	народен	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	NER=O
+2	събрание	събрание	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	NER=O
+3	на	на	ADP	R	_	4	case	_	NER=O
+4	основание	основание	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	NER=O
+5	чл.	чл.	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	NER=O
+6	86	86	ADJ	Momsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	punct	_	8	punct	_	NER=O
+8	ал.	ал.	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	5	conj	_	NER=O
+9	1	първи	ADJ	Mofsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	NER=O
+10	от	от	ADP	R	_	11	case	_	NER=O
+11	Конституцията	конституция	PROPN	Npfsd	Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	NER=B-MISC
+12	на	на	ADP	R	_	13	case	_	NER=I-MISC
+13	Република	република	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	NER=I-MISC
+14	България	българия	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	NER=I-MISC
+15	и	и	CCONJ	Cp	_	16	cc	_	NER=O
+16	чл.	чл.	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	NER=O
+17	38	38	ADJ	Momsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	16	amod	_	NER=O
+18	от	от	ADP	R	_	19	case	_	NER=O
+19	Правилника	правилник	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	NER=B-MISC
+20	за	за	ADP	R	_	21	case	_	NER=I-MISC
+21	организацията	организация	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	NER=I-MISC
+22	и	и	CCONJ	Cp	_	23	cc	_	NER=I-MISC
+23	дейността	дейност	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	21	conj	_	NER=I-MISC
+24	на	на	ADP	R	_	26	case	_	NER=I-MISC
+25	Народното	народен	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	NER=I-MISC
+26	събрание	събрание	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	21	nmod	_	NER=I-MISC
+27	във	във	ADP	R	_	30	case	_	NER=O
+28	връзка	връзка	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	27	fixed	_	NER=O
+29	с	с	ADP	R	_	27	fixed	_	NER=O
+30	чл.	чл.	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	NER=O
+31	25	25	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	30	nummod	_	NER=O|SpaceAfter=No
+32	,	,	PUNCT	punct	_	33	punct	_	NER=O
+33	букви	буква	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	30	conj	_	NER=O
+34	„	„	PUNCT	punct	_	35	punct	_	NER=O|SpaceAfter=No
+35	а	а	CCONJ	Cp	_	38	cc	_	NER=O|SpaceAfter=No
+36	“	“	PUNCT	punct	_	38	punct	_	NER=O
+37	и	и	CCONJ	Cp	_	38	cc	_	NER=O
+38	„	„	PUNCT	punct	_	30	conj	_	NER=O|SpaceAfter=No
+39	с	с	ADP	R	_	40	case	_	NER=O|SpaceAfter=No
+40	“	“	PUNCT	punct	_	38	nmod	_	NER=O
+41	и	и	CCONJ	Cp	_	42	cc	_	NER=O
+42	чл.	чл.	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	40	conj	_	NER=O
+43	26	26	ADJ	Momsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	42	amod	_	NER=O
+44	от	от	ADP	R	_	45	case	_	NER=O
+45	Статута	статут	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	40	nmod	_	NER=B-MISC
+46	на	на	ADP	R	_	47	case	_	NER=I-MISC
+47	Съвета	съвет	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	45	nmod	_	NER=I-MISC
+48	на	на	ADP	R	_	49	case	_	NER=I-MISC
+49	Европа	европа	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	47	nmod	_	NER=I-MISC
+
+# newpar id = ParlaMint-BG_2017-05-11.seg13
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg13.1
+# text = РЕШИ:
+1	РЕШИ	реша	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+2	:	:	PUNCT	punct	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg14
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg14.1
+# text = 1. Избира постоянна делегация на Народното събрание в Парламентарната асамблея на Съвета на Европа в състав от 6 основни представители и 6 заместващи представители, както следва:
+1	1.	1.	ADJ	Mofsi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	2	nsubj	_	NER=O
+2	Избира	избирам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	постоянна	постоянен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	NER=O
+4	делегация	делегация	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	NER=O
+5	на	на	ADP	R	_	7	case	_	NER=O
+6	Народното	народен	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	NER=B-ORG
+7	събрание	събрание	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	NER=I-ORG
+8	в	в	ADP	R	_	10	case	_	NER=O
+9	Парламентарната	парламентарен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	NER=B-ORG
+10	асамблея	асамблея	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	NER=I-ORG
+11	на	на	ADP	R	_	12	case	_	NER=I-ORG
+12	Съвета	съвет	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	NER=I-ORG
+13	на	на	ADP	R	_	14	case	_	NER=I-ORG
+14	Европа	европа	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	12	nmod	_	NER=I-ORG
+15	в	в	ADP	R	_	16	case	_	NER=O
+16	състав	състав	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	NER=O
+17	от	от	ADP	R	_	20	case	_	NER=O
+18	6	шест	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	20	nummod	_	NER=O
+19	основни	основен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	20	amod	_	NER=O
+20	представители	представител	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	16	nmod	_	NER=O
+21	и	и	CCONJ	Cp	_	24	cc	_	NER=O
+22	6	шест	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	24	nummod	_	NER=O
+23	заместващи	замествам	ADJ	Vpitcar-p-i	Aspect=Imp|Definite=Ind|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	24	amod	_	NER=O
+24	представители	представител	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	20	conj	_	NER=O|SpaceAfter=No
+25	,	,	PUNCT	punct	_	27	punct	_	NER=O
+26	както	както	ADV	Prm	PronType=Rel	27	advmod	_	NER=O
+27	следва	следва	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	NER=O|SpaceAfter=No
+28	:	:	PUNCT	punct	_	2	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg15
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg15.1
+# text = - за парламентарната група на Политическа партия ГЕРБ – двама основни и един заместващ;
+1	-	-	PUNCT	punct	_	11	punct	_	NER=O
+2	за	за	ADP	R	_	4	case	_	NER=O
+3	парламентарната	парламентарен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	NER=O
+4	група	група	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	NER=O
+5	на	на	ADP	R	_	7	case	_	NER=O
+6	Политическа	политически	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	NER=B-ORG
+7	партия	партия	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	NER=I-ORG
+8	ГЕРБ	герб	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	NER=B-ORG
+9	–	–	PUNCT	punct	_	14	punct	_	NER=O
+10	двама	двама	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	11	nsubj	_	NER=O
+11	основни	основен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	0	root	_	NER=O
+12	и	и	CCONJ	Cp	_	13	cc	_	NER=O
+13	един	един	DET	Pfe-os-mi	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	11	conj	_	NER=O
+14	заместващ	замествам	ADJ	Vpitcar-smi	Aspect=Imp|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	conj	_	NER=O|SpaceAfter=No
+15	;	;	PUNCT	punct	_	11	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg16
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg16.1
+# text = - за парламентарната група на „БСП за България“ – един основен и двама заместващи;
+1	-	-	PUNCT	punct	_	4	punct	_	NER=O
+2	за	за	ADP	R	_	4	case	_	NER=O
+3	парламентарната	парламентарен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	NER=O
+4	група	група	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	NER=O
+5	на	на	ADP	R	_	7	case	_	NER=O
+6	„	„	PUNCT	punct	_	7	amod	_	NER=O|SpaceAfter=No
+7	БСП	бсп	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	NER=B-ORG
+8	за	за	ADP	R	_	9	case	_	NER=O
+9	България	българия	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	NER=B-LOC|SpaceAfter=No
+10	“	“	PUNCT	punct	_	4	punct	_	NER=O
+11	–	–	PUNCT	punct	_	16	punct	_	NER=O
+12	един	един	DET	Pfe-os-mi	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	16	nsubj	_	NER=O
+13	основен	основен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	NER=O
+14	и	и	CCONJ	Cp	_	15	cc	_	NER=O
+15	двама	двама	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	13	conj	_	NER=O
+16	заместващи	замествам	ADJ	Vpitcar-p-i	Aspect=Imp|Definite=Ind|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	conj	_	NER=O|SpaceAfter=No
+17	;	;	PUNCT	punct	_	4	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg17
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg17.1
+# text = - за парламентарната група на „Обединени патриоти“ – един основен и един заместващ;
+1	-	-	PUNCT	punct	_	4	punct	_	NER=O
+2	за	за	ADP	R	_	4	case	_	NER=O
+3	парламентарната	парламентарен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	NER=O
+4	група	група	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	NER=O
+5	на	на	ADP	R	_	8	case	_	NER=O
+6	„	„	PUNCT	punct	_	8	punct	_	NER=O|SpaceAfter=No
+7	Обединени	обединя-(се)	ADJ	Vpptcv--p-i	Aspect=Perf|Definite=Ind|Degree=Pos|Number=Plur|VerbForm=Part|Voice=Pass	8	amod	_	NER=O
+8	патриоти	патриот	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	4	nmod	_	NER=O|SpaceAfter=No
+9	“	“	PUNCT	punct	_	8	punct	_	NER=O
+10	–	–	PUNCT	punct	_	15	punct	_	NER=O
+11	един	един	DET	Pfe-os-mi	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	15	nsubj	_	NER=O
+12	основен	основен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	NER=O
+13	и	и	CCONJ	Cp	_	14	cc	_	NER=O
+14	един	един	DET	Pfe-os-mi	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	12	conj	_	NER=O
+15	заместващ	замествам	ADJ	Vpitcar-smi	Aspect=Imp|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	conj	_	NER=O|SpaceAfter=No
+16	;	;	PUNCT	punct	_	4	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg18
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg18.1
+# text = - за парламентарната група на „Движение за права и свободи“ – един основен и един заместващ;
+1	-	-	PUNCT	punct	_	4	punct	_	NER=O
+2	за	за	ADP	R	_	4	case	_	NER=O
+3	парламентарната	парламентарен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	NER=O
+4	група	група	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	NER=O
+5	на	на	ADP	R	_	7	case	_	NER=O
+6	„	„	PUNCT	punct	_	7	amod	_	NER=O|SpaceAfter=No
+7	Движение	движение	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	NER=O
+8	за	за	ADP	R	_	9	case	_	NER=O
+9	права	право	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	7	nmod	_	NER=O
+10	и	и	CCONJ	Cp	_	11	cc	_	NER=O
+11	свободи	свобода	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	9	conj	_	NER=O|SpaceAfter=No
+12	“	“	PUNCT	punct	_	4	punct	_	NER=O
+13	–	–	PUNCT	punct	_	18	punct	_	NER=O
+14	един	един	DET	Pfe-os-mi	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	18	nsubj	_	NER=O
+15	основен	основен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	NER=O
+16	и	и	CCONJ	Cp	_	17	cc	_	NER=O
+17	един	един	DET	Pfe-os-mi	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	15	conj	_	NER=O
+18	заместващ	замествам	ADJ	Vpitcar-smi	Aspect=Imp|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	conj	_	NER=O|SpaceAfter=No
+19	;	;	PUNCT	punct	_	4	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg19
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg19.1
+# text = - за парламентарната група на Политическа партия „Воля“ – един основен и един заместващ.
+1	-	-	PUNCT	punct	_	4	punct	_	NER=O
+2	за	за	ADP	R	_	4	case	_	NER=O
+3	парламентарната	парламентарен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	NER=O
+4	група	група	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	NER=O
+5	на	на	ADP	R	_	7	case	_	NER=O
+6	Политическа	политически	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	NER=B-ORG
+7	партия	партия	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	NER=I-ORG
+8	„	„	PUNCT	punct	_	9	case	_	NER=O|SpaceAfter=No
+9	Воля	воля	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	4	conj	_	NER=O|SpaceAfter=No
+10	“	“	PUNCT	punct	_	9	punct	_	NER=O
+11	–	–	PUNCT	punct	_	16	punct	_	NER=O
+12	един	един	DET	Pfe-os-mi	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	16	nsubj	_	NER=O
+13	основен	основен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	NER=O
+14	и	и	CCONJ	Cp	_	15	cc	_	NER=O
+15	един	един	DET	Pfe-os-mi	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	13	conj	_	NER=O
+16	заместващ	замествам	ADJ	Vpitcar-smi	Aspect=Imp|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	NER=O|SpaceAfter=No
+17	.	.	PUNCT	punct	_	4	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg20
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg20.1
+# text = 2. Избира състав на делегацията, както следва“.
+1	2.	2.	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	2	nsubj	_	NER=O
+2	Избира	избирам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	състав	състав	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	NER=O
+4	на	на	ADP	R	_	5	case	_	NER=O
+5	делегацията	делегация	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	punct	_	8	punct	_	NER=O
+7	както	както	ADV	Prm	PronType=Rel	8	advmod	_	NER=O
+8	следва	следва	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	NER=O|SpaceAfter=No
+9	“	“	PUNCT	punct	_	8	obj	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	punct	_	2	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg21
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg21.1
+# text = Имате думата за предложения.
+1	Имате	имам	VERB	Vpitf-r2p	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	думата	дума	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	1	obj	_	NER=O
+3	за	за	ADP	R	_	4	case	_	NER=O
+4	предложения	предложение	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	1	obl	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	punct	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg22
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg22.1
+# text = Заповядайте, господин Иванов.
+1	Заповядайте	заповядам	VERB	Vpptz--2p	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	punct	_	3	punct	_	NER=O
+3	господин	господин	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	1	vocative	_	NER=O
+4	Иванов	иванов	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	NER=B-PER|SpaceAfter=No
+5	.	.	PUNCT	punct	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-BG_2017-05-11.u2
+# newpar id = ParlaMint-BG_2017-05-11.seg23
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg23.1
+# text = Благодаря Ви.
+1	Благодаря	благодаря	VERB	Vpiif-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	Ви	аз	PRON	Pphtds2	Case=Dat|Number=Sing|Person=2|PronType=Prs	1	iobj	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	punct	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg24
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg24.1
+# text = Уважаеми господин Председател, уважаеми колеги!
+1	Уважаеми	уважаем	ADJ	Ams-e	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	NER=O
+2	господин	господин	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	NER=O
+3	Председател	председател	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	punct	_	6	punct	_	NER=O
+5	уважаеми	уважаем	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	6	amod	_	NER=O
+6	колеги	колега	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	2	conj	_	NER=O|SpaceAfter=No
+7	!	!	PUNCT	punct	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-BG_2017-05-11.seg24.2
+# text = От Политическа партия ГЕРБ предлагаме следния поименен състав на постоянната делегация на Народното събрание в Парламентарната асамблея на Съвета на Европа: Милена Цветанова Дамянова – основен представител, Данаил Димитров Кирилов – заместващ представител, и Джема Маринова Грозданова – ръководител.
+1	От	от	ADP	R	_	3	case	_	NER=O
+2	Политическа	политически	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	NER=B-ORG
+3	партия	партия	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	NER=I-ORG
+4	ГЕРБ	герб	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	NER=B-ORG
+5	предлагаме	предлагам	VERB	Vpitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+6	следния	следен	ADJ	Amsh	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	NER=O
+7	поименен	поименен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	NER=O
+8	състав	състав	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	NER=O
+9	на	на	ADP	R	_	11	case	_	NER=O
+10	постоянната	постоянен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	NER=O
+11	делегация	делегация	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	NER=O
+12	на	на	ADP	R	_	14	case	_	NER=O
+13	Народното	народен	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	NER=B-ORG
+14	събрание	събрание	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	11	nmod	_	NER=I-ORG
+15	в	в	ADP	R	_	17	case	_	NER=O
+16	Парламентарната	парламентарен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	NER=B-ORG
+17	асамблея	асамблея	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	NER=I-ORG
+18	на	на	ADP	R	_	19	case	_	NER=O
+19	Съвета	съвет	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	NER=B-ORG
+20	на	на	ADP	R	_	21	case	_	NER=I-ORG
+21	Европа	европа	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	19	nmod	_	NER=I-ORG|SpaceAfter=No
+22	:	:	PUNCT	punct	_	23	punct	_	NER=O
+23	Милена	милена	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	17	nmod	_	NER=B-PER
+24	Цветанова	цветанова	PROPN	Hfsi	Definite=Ind|Gender=Fem|Number=Sing	23	flat	_	NER=I-PER
+25	Дамянова	дамянова	PROPN	Hfsi	Definite=Ind|Gender=Fem|Number=Sing	23	flat	_	NER=I-PER
+26	–	–	PUNCT	punct	_	28	punct	_	NER=O
+27	основен	основен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	NER=O
+28	представител	представител	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	NER=O|SpaceAfter=No
+29	,	,	PUNCT	punct	_	30	punct	_	NER=O
+30	Данаил	данаил	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	23	conj	_	NER=B-PER
+31	Димитров	димитров	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	30	flat	_	NER=I-PER
+32	Кирилов	кирилов	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	30	flat	_	NER=B-PER
+33	–	–	PUNCT	punct	_	35	punct	_	NER=O
+34	заместващ	замествам	ADJ	Vpitcar-smi	Aspect=Imp|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	35	amod	_	NER=O
+35	представител	представител	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	NER=O|SpaceAfter=No
+36	,	,	PUNCT	punct	_	35	punct	_	NER=O
+37	и	и	CCONJ	Cp	_	38	cc	_	NER=O
+38	Джема	джема	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	23	conj	_	NER=B-PER
+39	Маринова	маринова	PROPN	Hfsi	Definite=Ind|Gender=Fem|Number=Sing	38	flat	_	NER=I-PER
+40	Грозданова	грозданова	PROPN	Hfsi	Definite=Ind|Gender=Fem|Number=Sing	38	flat	_	NER=B-PER
+41	–	–	PUNCT	punct	_	42	punct	_	NER=O
+42	ръководител	ръководител	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	38	nmod	_	NER=O|SpaceAfter=No
+43	.	.	PUNCT	punct	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-BG_2017-05-11.seg24.3
+# text = Благодаря Ви.
+1	Благодаря	благодаря	VERB	Vpiif-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	Ви	аз	PRON	Pphtds2	Case=Dat|Number=Sing|Person=2|PronType=Prs	1	iobj	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	punct	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-BG_2017-05-11.u109
+# newpar id = ParlaMint-BG_2017-05-11.seg374
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg374.1
+# text = Благодаря Ви, уважаеми господин Цонев.
+1	Благодаря	благодаря	VERB	Vpiif-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	Ви	аз	PRON	Pphtds2	Case=Dat|Number=Sing|Person=2|PronType=Prs	1	iobj	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	punct	_	5	punct	_	NER=O
+4	уважаеми	уважаем	ADJ	Ams-e	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	NER=O
+5	господин	господин	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	1	vocative	_	NER=O
+6	Цонев	цонев	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	NER=B-PER|SpaceAfter=No
+7	.	.	PUNCT	punct	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg375
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg375.1
+# text = Гласуваме предложенията.
+1	Гласуваме	гласувам	VERB	Vpitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	предложенията	предложение	NOUN	Ncnpd	Definite=Def|Gender=Neut|Number=Plur	1	obj	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	punct	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg376
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg376.1
+# text = Моля, гласувайте.
+1	Моля	моля-(се)	VERB	Vpitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	punct	_	1	punct	_	NER=O
+3	гласувайте	гласувам	VERB	Vpitz--2p	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	punct	_	3	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg377
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg377.1
+# text = Гласували 181 народни представители: за 174, против 3, въздържали се 4.
+1	Гласували	гласувам	VERB	Vpitcao-p-i	Aspect=Imp|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	NER=O
+2	181	181	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	4	nummod	_	NER=O
+3	народни	народен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	4	amod	_	NER=O
+4	представители	представител	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	1	obj	_	NER=O|SpaceAfter=No
+5	:	:	PUNCT	punct	_	7	punct	_	NER=O
+6	за	за	ADP	R	_	7	case	_	NER=O
+7	174	174	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	4	nmod	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	punct	_	10	punct	_	NER=O
+9	против	против	ADP	R	_	10	case	_	NER=O
+10	3	три	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	7	conj	_	NER=O|SpaceAfter=No
+11	,	,	PUNCT	punct	_	12	punct	_	NER=O
+12	въздържали	въздържам-(се)	ADJ	Vpiicao-p-i	Aspect=Imp|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	7	amod	_	NER=O
+13	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	12	expl	_	NER=O
+14	4.	4.	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	12	nsubj	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg378
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg378.1
+# text = Предложенията за промени са приети.
+1	Предложенията	предложение	NOUN	Ncnpd	Definite=Def|Gender=Neut|Number=Plur	5	nsubj:pass	_	NER=O
+2	за	за	ADP	R	_	3	case	_	NER=O
+3	промени	промяна	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	1	nmod	_	NER=O
+4	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	NER=O
+5	приети	приема	VERB	Vpptcv--p-i	Aspect=Perf|Definite=Ind|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	punct	_	5	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg379
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg379.1
+# text = Вече имаме предложение за ръководител, така че гласуваме Проекта в неговата цялост, след направените промени.
+1	Вече	вече	ADV	Dt	Degree=Pos	2	advmod	_	NER=O
+2	имаме	имам	VERB	Vpitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	предложение	предложение	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	NER=O
+4	за	за	ADP	R	_	5	case	_	NER=O
+5	ръководител	ръководител	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	punct	_	9	punct	_	NER=O
+7	така	така	ADV	Pdm	PronType=Dem	9	mark	_	NER=O
+8	че	че	SCONJ	Cs	_	7	fixed	_	NER=O
+9	гласуваме	гласувам	VERB	Vpitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	NER=O
+10	Проекта	проект	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	9	obj	_	NER=O
+11	в	в	ADP	R	_	13	case	_	NER=O
+12	неговата	мой	DET	Psol-s3fdm	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	NER=O
+13	цялост	цялост	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	10	nmod	_	NER=O|SpaceAfter=No
+14	,	,	PUNCT	punct	_	17	punct	_	NER=O
+15	след	след	ADP	R	_	17	case	_	NER=O
+16	направените	направя-(се)	ADJ	Vpptcv--p-d	Aspect=Perf|Definite=Def|Degree=Pos|Number=Plur|VerbForm=Part|Voice=Pass	17	amod	_	NER=O
+17	промени	промяна	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	9	obl	_	NER=O|SpaceAfter=No
+18	.	.	PUNCT	punct	_	2	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg380
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg380.1
+# text = Моля, гласувайте.
+1	Моля	моля-(се)	VERB	Vpitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	punct	_	1	punct	_	NER=O
+3	гласувайте	гласувам	VERB	Vpitz--2p	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	punct	_	3	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg381
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg381.1
+# text = Гласували 182 народни представители: за 176, против 1, въздържали се 5.
+1	Гласували	гласувам	VERB	Vpitcao-p-i	Aspect=Imp|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	NER=O
+2	182	182	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	4	nummod	_	NER=O
+3	народни	народен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	4	amod	_	NER=O
+4	представители	представител	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	1	obj	_	NER=O|SpaceAfter=No
+5	:	:	PUNCT	punct	_	7	punct	_	NER=O
+6	за	за	ADP	R	_	7	case	_	NER=O
+7	176	176	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	4	nmod	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	punct	_	10	punct	_	NER=O
+9	против	против	ADP	R	_	10	case	_	NER=O
+10	1	един	NUM	Mcnsi	Definite=Ind|Gender=Neut|Number=Sing|NumType=Card	7	conj	_	NER=O|SpaceAfter=No
+11	,	,	PUNCT	punct	_	12	punct	_	NER=O
+12	въздържали	въздържам-(се)	ADJ	Vpiicao-p-i	Aspect=Imp|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	7	amod	_	NER=O
+13	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	12	expl	_	NER=O
+14	5.	5.	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg382
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg382.1
+# text = Решението е прието.
+1	Решението	решение	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	3	nsubj:pass	_	NER=O
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	NER=O
+3	прието	приема	VERB	Vpptcv--sni	Aspect=Perf|Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	punct	_	3	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg383
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg383.1
+# text = Съобщение за парламентарен контрол на 12 май 2017 г., петък:
+1	Съобщение	съобщение	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	NER=O
+2	за	за	ADP	R	_	4	case	_	NER=O
+3	парламентарен	парламентарен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	NER=O
+4	контрол	контрол	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	NER=O
+5	на	на	ADP	R	_	7	case	_	NER=O
+6	12	12	ADJ	Momsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	NER=O
+7	май	май	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	NER=O
+8	2017	2017	ADJ	Mofsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	9	amod	_	NER=O
+9	г.	година	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	punct	_	11	punct	_	NER=O
+11	петък	петък	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	NER=O|SpaceAfter=No
+12	:	:	PUNCT	punct	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg384
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg384.1
+# text = - министърът на вътрешните работи Валентин Радев ще отговори на един въпрос от народния представител Красимир Янков.
+1	-	-	PUNCT	punct	_	9	punct	_	NER=O
+2	министърът	министър	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	NER=O
+3	на	на	ADP	R	_	5	case	_	NER=O
+4	вътрешните	вътрешен	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	5	amod	_	NER=O
+5	работи	работа	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	2	nmod	_	NER=O
+6	Валентин	валентин	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	NER=B-PER
+7	Радев	радев	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	6	flat	_	NER=I-PER
+8	ще	ще	AUX	Tx	_	9	aux	_	NER=O
+9	отговори	отговоря	VERB	Vpptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+10	на	на	ADP	R	_	12	case	_	NER=O
+11	един	един	DET	Pfe-os-mi	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	12	nummod	_	NER=O
+12	въпрос	въпрос	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	9	iobj	_	NER=O
+13	от	от	ADP	R	_	15	case	_	NER=O
+14	народния	народен	ADJ	Amsh	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	NER=O
+15	представител	представител	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	NER=O
+16	Красимир	красимир	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	NER=B-PER
+17	Янков	янков	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	16	flat	_	NER=I-PER|SpaceAfter=No
+18	.	.	PUNCT	punct	_	9	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg385
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg385.1
+# text = На основание чл. 96, ал. 3 и чл. 99, ал. 2 от Правилника за организацията и дейността на Народното събрание отлагане на отговори със седем дни са поискали:
+1	На	на	ADP	R	_	2	case	_	NER=O
+2	основание	основание	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	30	obl	_	NER=O
+3	чл.	чл.	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	NER=O
+4	96	96	ADJ	Momsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	punct	_	6	punct	_	NER=O
+6	ал.	ал.	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	NER=O
+7	3	трети	ADJ	Mofsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	NER=O
+8	и	и	CCONJ	Cp	_	9	cc	_	NER=O
+9	чл.	чл.	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	NER=O
+10	99	99	ADJ	Momsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	9	amod	_	NER=O|SpaceAfter=No
+11	,	,	PUNCT	punct	_	12	punct	_	NER=O
+12	ал.	ал.	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	NER=O
+13	2	втори	ADJ	Mofsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	12	amod	_	NER=O
+14	от	от	ADP	R	_	15	case	_	NER=O
+15	Правилника	правилник	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	NER=B-MISC
+16	за	за	ADP	R	_	17	case	_	NER=I-MISC
+17	организацията	организация	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	NER=I-MISC
+18	и	и	CCONJ	Cp	_	19	cc	_	NER=I-MISC
+19	дейността	дейност	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	17	conj	_	NER=I-MISC
+20	на	на	ADP	R	_	22	case	_	NER=I-MISC
+21	Народното	народен	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	NER=I-MISC
+22	събрание	събрание	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	17	nmod	_	NER=I-MISC
+23	отлагане	отлагане	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	30	nsubj	_	NER=O
+24	на	на	ADP	R	_	25	case	_	NER=O
+25	отговори	отговор	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	23	nmod	_	NER=O
+26	със	със	ADP	R	_	28	case	_	NER=O
+27	седем	седем	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	28	nummod	_	NER=O
+28	дни	ден	NOUN	Ncmt	Gender=Masc|Number=Count	30	obl	_	NER=O
+29	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	aux	_	NER=O
+30	поискали	поискам	VERB	Vpptcao-p-i	Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+31	:	:	PUNCT	punct	_	30	parataxis	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg386
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg386.1
+# text = - министърът на енергетиката Теменужка Петкова на един въпрос от народния представител Васил Антонов;
+1	-	-	PUNCT	punct	_	2	punct	_	NER=O
+2	министърът	министър	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	0	root	_	NER=O
+3	на	на	ADP	R	_	4	case	_	NER=O
+4	енергетиката	енергетика	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	NER=O
+5	Теменужка	теменужка	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	NER=B-PER
+6	Петкова	петкова	PROPN	Hfsi	Definite=Ind|Gender=Fem|Number=Sing	5	flat	_	NER=I-PER
+7	на	на	ADP	R	_	9	case	_	NER=O
+8	един	един	DET	Pfe-os-mi	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	9	nummod	_	NER=O
+9	въпрос	въпрос	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	NER=O
+10	от	от	ADP	R	_	12	case	_	NER=O
+11	народния	народен	ADJ	Amsh	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	NER=O
+12	представител	представител	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	NER=O
+13	Васил	васил	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	NER=B-PER
+14	Антонов	антонов	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	13	flat	_	NER=I-PER|SpaceAfter=No
+15	;	;	PUNCT	punct	_	9	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg387
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg387.1
+# text = - министърът на образованието и науката Красимир Вълчев на един въпрос с писмен отговор от народния представител Анелия Клисарова;
+1	-	-	PUNCT	punct	_	2	punct	_	NER=O
+2	министърът	министър	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	NER=O
+3	на	на	ADP	R	_	4	case	_	NER=O
+4	образованието	образование	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	NER=O
+5	и	и	CCONJ	Cp	_	6	cc	_	NER=O
+6	науката	наука	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	4	conj	_	NER=O
+7	Красимир	красимир	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	NER=B-PER
+8	Вълчев	вълчев	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	7	flat	_	NER=I-PER
+9	на	на	ADP	R	_	11	case	_	NER=O
+10	един	един	DET	Pfe-os-mi	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	11	nummod	_	NER=O
+11	въпрос	въпрос	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	NER=O
+12	с	с	ADP	R	_	14	case	_	NER=O
+13	писмен	писмен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	NER=O
+14	отговор	отговор	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	NER=O
+15	от	от	ADP	R	_	17	case	_	NER=O
+16	народния	народен	ADJ	Amsh	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	NER=O
+17	представител	представител	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	NER=O
+18	Анелия	анелия	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	17	nmod	_	NER=B-PER
+19	Клисарова	клисарова	PROPN	Hfsi	Definite=Ind|Gender=Fem|Number=Sing	18	flat	_	NER=I-PER|SpaceAfter=No
+20	;	;	PUNCT	punct	_	11	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg388
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg388.1
+# text = - министърът на земеделието, храните и горите Румен Порожанов на пет въпроса от народните представители Георги Гьоков; Светла Бъчварова, която има два въпроса; Дора Янкова; и Кръстина Таскова;
+1	-	-	PUNCT	punct	_	2	punct	_	NER=O
+2	министърът	министър	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	0	root	_	NER=O
+3	на	на	ADP	R	_	4	case	_	NER=O
+4	земеделието	земеделие	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	punct	_	6	punct	_	NER=O
+6	храните	храна	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	4	conj	_	NER=O
+7	и	и	CCONJ	Cp	_	8	cc	_	NER=O
+8	горите	гора	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	4	conj	_	NER=O
+9	Румен	румен	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	NER=B-PER
+10	Порожанов	порожанов	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	NER=I-PER
+11	на	на	ADP	R	_	13	case	_	NER=O
+12	пет	пет	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	13	nummod	_	NER=O
+13	въпроса	въпрос	NOUN	Ncmt	Gender=Masc|Number=Count	2	nmod	_	NER=O
+14	от	от	ADP	R	_	16	case	_	NER=O
+15	народните	народен	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	16	amod	_	NER=O
+16	представители	представител	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	13	nmod	_	NER=O
+17	Георги	георги	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	NER=B-PER
+18	Гьоков	гьоков	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	17	flat	_	NER=I-PER|SpaceAfter=No
+19	;	;	PUNCT	punct	_	20	punct	_	NER=O
+20	Светла	светла	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	2	conj	_	NER=B-PER
+21	Бъчварова	бъчварова	PROPN	Hfsi	Definite=Ind|Gender=Fem|Number=Sing	20	flat	_	NER=I-PER|SpaceAfter=No
+22	,	,	PUNCT	punct	_	24	punct	_	NER=O
+23	която	който	PRON	Pre-os-f	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	24	nsubj	_	NER=O
+24	има	имам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	NER=O
+25	два	два	NUM	Mcmpi	Definite=Ind|Gender=Masc|Number=Plur|NumType=Card	26	nummod	_	NER=O
+26	въпроса	въпрос	NOUN	Ncmt	Gender=Masc|Number=Count	24	obj	_	NER=O|SpaceAfter=No
+27	;	;	PUNCT	punct	_	28	punct	_	NER=O
+28	Дора	дора	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	NER=B-PER
+29	Янкова	янкова	PROPN	Hfsi	Definite=Ind|Gender=Fem|Number=Sing	28	flat	_	NER=I-PER|SpaceAfter=No
+30	;	;	PUNCT	punct	_	31	punct	_	NER=O
+31	и	и	CCONJ	Cp	_	32	cc	_	NER=O
+32	Кръстина	кръстина	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	28	conj	_	NER=B-PER
+33	Таскова	таскова	PROPN	Hfsi	Definite=Ind|Gender=Fem|Number=Sing	32	flat	_	NER=I-PER|SpaceAfter=No
+34	;	;	PUNCT	punct	_	2	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg389
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg389.1
+# text = - министърът на икономиката Емил Караниколов на един въпрос от народния представител Димитър Данчев;
+1	-	-	PUNCT	punct	_	2	punct	_	NER=O
+2	министърът	министър	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	NER=O
+3	на	на	ADP	R	_	4	case	_	NER=O
+4	икономиката	икономика	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	NER=O
+5	Емил	емил	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	NER=B-PER
+6	Караниколов	караниколов	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	5	flat	_	NER=I-PER
+7	на	на	ADP	R	_	9	case	_	NER=O
+8	един	един	DET	Pfe-os-mi	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	9	nummod	_	NER=O
+9	въпрос	въпрос	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	NER=O
+10	от	от	ADP	R	_	12	case	_	NER=O
+11	народния	народен	ADJ	Amsh	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	NER=O
+12	представител	представител	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	NER=O
+13	Димитър	димитър	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	NER=B-PER
+14	Данчев	данчев	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	13	flat	_	NER=I-PER|SpaceAfter=No
+15	;	;	PUNCT	punct	_	9	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg390
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg390.1
+# text = - министърът на здравеопазването Николай Петров на един въпрос от народния представител Георги Йорданов;
+1	-	-	PUNCT	punct	_	2	punct	_	NER=O
+2	министърът	министър	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	NER=O
+3	на	на	ADP	R	_	4	case	_	NER=O
+4	здравеопазването	здравеопазване	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	NER=O
+5	Николай	николай	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	NER=B-PER
+6	Петров	петров	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	5	flat	_	NER=I-PER
+7	на	на	ADP	R	_	9	case	_	NER=O
+8	един	един	DET	Pfe-os-mi	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	9	nummod	_	NER=O
+9	въпрос	въпрос	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	NER=O
+10	от	от	ADP	R	_	12	case	_	NER=O
+11	народния	народен	ADJ	Amsh	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	NER=O
+12	представител	представител	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	NER=O
+13	Георги	георги	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	NER=B-PER
+14	Йорданов	йорданов	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	13	flat	_	NER=I-PER|SpaceAfter=No
+15	;	;	PUNCT	punct	_	9	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg391
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg391.1
+# text = - министърът на регионалното развитие и благоустройството Николай Нанков на три въпроса от народните представители Васил Антонов, Николай Иванов и Георги Гьоков;
+1	-	-	PUNCT	punct	_	2	punct	_	NER=O
+2	министърът	министър	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	0	root	_	NER=O
+3	на	на	ADP	R	_	5	case	_	NER=O
+4	регионалното	регионален	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	NER=O
+5	развитие	развитие	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	2	nmod	_	NER=O
+6	и	и	CCONJ	Cp	_	7	cc	_	NER=O
+7	благоустройството	благоустройство	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	5	conj	_	NER=O
+8	Николай	николай	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	NER=B-PER
+9	Нанков	нанков	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	NER=I-PER
+10	на	на	ADP	R	_	12	case	_	NER=O
+11	три	три	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	12	nummod	_	NER=O
+12	въпроса	въпрос	NOUN	Ncmt	Gender=Masc|Number=Count	2	nmod	_	NER=O
+13	от	от	ADP	R	_	15	case	_	NER=O
+14	народните	народен	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	15	amod	_	NER=O
+15	представители	представител	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	NER=O
+16	Васил	васил	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	NER=B-PER
+17	Антонов	антонов	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	16	flat	_	NER=I-PER|SpaceAfter=No
+18	,	,	PUNCT	punct	_	19	punct	_	NER=O
+19	Николай	николай	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	16	conj	_	NER=B-PER
+20	Иванов	иванов	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	19	flat	_	NER=I-PER
+21	и	и	CCONJ	Cp	_	22	cc	_	NER=O
+22	Георги	георги	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	16	conj	_	NER=B-PER
+23	Гьоков	гьоков	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	22	flat	_	NER=I-PER|SpaceAfter=No
+24	;	;	PUNCT	punct	_	2	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg392
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg392.1
+# text = - министърът на труда и социалната политика Бисер Петков на един въпрос от народния представител Джевдет Чакъров.
+1	-	-	PUNCT	punct	_	12	punct	_	NER=O
+2	министърът	министър	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	NER=O
+3	на	на	ADP	R	_	4	case	_	NER=O
+4	труда	труд	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	NER=O
+5	и	и	CCONJ	Cp	_	7	cc	_	NER=O
+6	социалната	социален	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	NER=O
+7	политика	политика	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	4	conj	_	NER=O
+8	Бисер	бисер	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	NER=B-PER
+9	Петков	петков	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	NER=I-PER
+10	на	на	ADP	R	_	12	case	_	NER=O
+11	един	един	DET	Pfe-os-mi	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	12	nummod	_	NER=O
+12	въпрос	въпрос	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	NER=O
+13	от	от	ADP	R	_	15	case	_	NER=O
+14	народния	народен	ADJ	Amsh	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	NER=O
+15	представител	представител	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	NER=O
+16	Джевдет	джевдет	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	NER=B-PER
+17	Чакъров	чакъров	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	16	flat	_	NER=I-PER|SpaceAfter=No
+18	.	.	PUNCT	punct	_	12	punct	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg393
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg393.1
+# text = Поради изчерпване на дневния ред за днес закривам заседанието.
+1	Поради	поради	ADP	R	_	2	case	_	NER=O
+2	изчерпване	изчерпване	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	NER=O
+3	на	на	ADP	R	_	5	case	_	NER=O
+4	дневния	дневен	ADJ	Amsh	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	NER=O
+5	ред	ред	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	NER=O
+6	за	за	ADP	R	_	8	obl	_	NER=O
+7	днес	днес	ADV	Dt	Degree=Pos	6	advmod	_	NER=O
+8	закривам	закривам	VERB	Vpitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+9	заседанието	заседание	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	8	obj	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	punct	_	8	punct	_	NER=O
+
+# newdoc id = ParlaMint-BG_2017-05-11.u110
+# newpar id = ParlaMint-BG_2017-05-11.seg394
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg394.1
+# text = Утре продължаваме с парламентарен контрол от 11,00 ч.
+1	Утре	утре	ADV	Dt	Degree=Pos	2	advmod	_	NER=O
+2	продължаваме	продължавам	VERB	Vpitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	с	с	ADP	R	_	5	case	_	NER=O
+4	парламентарен	парламентарен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	NER=O
+5	контрол	контрол	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	NER=O
+6	от	от	ADP	R	_	8	case	_	NER=O
+7	11,00	11,00	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	8	nummod	_	NER=O
+8	ч.	час	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	NER=O
+
+# newpar id = ParlaMint-BG_2017-05-11.seg395
+# lang = bg
+# sent_id = ParlaMint-BG_2017-05-11.seg395.1
+# text = Закривам заседанието.
+1	Закривам	закривам	VERB	Vpitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	заседанието	заседание	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	1	obj	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	punct	_	1	punct	_	NER=O
+
