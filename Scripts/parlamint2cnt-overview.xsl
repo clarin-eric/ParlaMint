@@ -41,13 +41,15 @@
   </xsl:variable>
   
   <!-- If LaTeX -->
-  <xsl:param name="preamble">\begin{tabular}{l|c|c|cllr|rr}&#10;</xsl:param>
+  <xsl:param name="preamble">\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lcccllrrr@{}}&#10;</xsl:param>
+  <!-- Either format -->
   <xsl:param name="header-row">
+    <xsl:if test="matches($mode, 'tex', 'i')">\toprule&#10;</xsl:if>
     <xsl:text>ID</xsl:text> <!-- ISO country code -->
     <xsl:value-of select="$col-sep"/>
     <xsl:text>Lang</xsl:text> <!-- ISO language code(s) used (predominantly) -->
     <xsl:value-of select="$col-sep"/>
-    <xsl:text>Houses</xsl:text>  <!-- Unicameral, Lower house, Upper house, Both -->
+    <xsl:text>Bodies</xsl:text>  <!-- Unicameral, Lower house, Upper house, Committes -->
     <xsl:value-of select="$col-sep"/>
     <xsl:text>Ts</xsl:text>  <!-- Terms -->
     <xsl:value-of select="$col-sep"/>
@@ -61,7 +63,7 @@
     <xsl:value-of select="$col-sep"/>
     <xsl:text>Mw</xsl:text> <!-- Total mill. words -->
     <xsl:value-of select="$line-sep"/>
-    <xsl:if test="matches($mode, 'tex', 'i')">\hline&#10;</xsl:if>
+    <xsl:if test="matches($mode, 'tex', 'i')">\midrule&#10;</xsl:if>
   </xsl:param>
   
   <xsl:template match="tei:teiCorpus">
@@ -91,7 +93,7 @@
       </xsl:apply-templates>
     </xsl:for-each>
     <xsl:if test="matches($mode, 'tex', 'i')">
-      <xsl:text>\end{tabular}&#10;</xsl:text>
+      <xsl:text>\botrule&#10;\end{tabular*}&#10;</xsl:text>
     </xsl:if>
   </xsl:template>
   
@@ -105,11 +107,10 @@
     <xsl:variable name="languages">
       <xsl:for-each select=".//tei:langUsage[@corresp=$corpus]/tei:language">
         <xsl:variable name="lang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
-        <xsl:if test="(
-                      $lang = 'en' and 
+        <xsl:if test="$lang = 'en' and 
                       not(@ident = 'en' and $corpus != '#ParlaMint-GB') and
 
-                      not(@ident = 'de' and $corpus = '#ParlaMint-BE') and
+                      not(@ident = 'de'  and $corpus = '#ParlaMint-BE') and
                       not(@ident = 'und' and $corpus = '#ParlaMint-BE') and
 
                       not(@ident = 'bg-Latn' and $corpus = '#ParlaMint-BG') and
@@ -119,9 +120,6 @@
                       not(@ident = 'fr' and $corpus = '#ParlaMint-GR') and
 
                       not(@ident != 'hu' and $corpus = '#ParlaMint-HU')
-
-                      )
-                      or (@ident != 'en' and $corpus = '#ParlaMint-NL')
                       ">
           <xsl:value-of select="@ident"/>
           <xsl:text>+</xsl:text>
@@ -161,19 +159,7 @@
     <xsl:value-of select="$col-sep"/>
     <!-- From and To -->
     <xsl:variable name="date">
-      <xsl:choose>
-        <!-- LV has bug sitting and sourceDesc, have to insert it by hand! -->
-        <xsl:when test="$corpus = '#ParlaMint-LV'">
-          <tei:date from="2014-11-04" to="2021-02-04"/>
-        </xsl:when>
-        <!-- BE, TR have bugs in sitting but not in sourceDesc -->
-        <xsl:when test="$corpus = '#ParlaMint-BE' or $corpus = '#ParlaMint-TR'">
-          <xsl:copy-of select=".//tei:sourceDesc/tei:listBibl[@corresp=$corpus]/tei:bibl[1]/tei:date"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:copy-of select=".//tei:settingDesc/tei:setting[@corresp=$corpus]/tei:date"/>
-        </xsl:otherwise>
-      </xsl:choose>
+      <xsl:copy-of select=".//tei:settingDesc/tei:setting[@corresp=$corpus]/tei:date"/>
     </xsl:variable>
     <xsl:variable name="from" select="et:pad-date($date/tei:date/@from)"/>
     <xsl:variable name="to" select="et:pad-date($date/tei:date/@to)"/>

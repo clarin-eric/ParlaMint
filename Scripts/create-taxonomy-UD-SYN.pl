@@ -30,13 +30,14 @@ sub usage {
 
 
 
-my ($help, $langCodes, %processLangs, $inDir, $outFile);
+my ($help, $langCodes, %processLangs, $inDir, $outFile, $commit);
 GetOptions
   (
    'help'   => \$help,
    'codes=s'  => \$langCodes,
    'in=s'   => \$inDir,
-   'out=s'  => \$outFile
+   'out=s'  => \$outFile,
+   'commit=s'  => \$commit
 );
 
 if ($help) {
@@ -60,6 +61,13 @@ my $ref=$taxonomy_desc->addNewChild(undef,'ref');
 $ref->appendText('Universal Dependendencies');
 $ref->setAttribute('target','https://universaldependencies.org/');
 $taxonomy_desc->appendText(' project');
+if($commit){
+  $taxonomy_desc->appendText(' (');
+  $ref=$taxonomy_desc->addNewChild(undef,'ref');
+  $ref->appendText("GitHub commit");
+  $ref->setAttribute('target',"https://github.com/UniversalDependencies/docs/tree/$commit");
+  $taxonomy_desc->appendText(')');
+}
 
 $inDir = File::Spec->rel2abs($inDir);
 $outFile = File::Spec->rel2abs($outFile);

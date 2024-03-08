@@ -48,8 +48,8 @@ gen-all-persons:
 ######################VARIABLES
 RUN = ../../Scripts
 SCH = ../../Schema
-s = java -jar /usr/share/java/saxon.jar
-j = java -jar /usr/share/java/jing.jar
+s = java -jar ${RUN}/bin/saxon.jar
+j = java -jar ${RUN}/bin/jing.jar
 # Validate with Parla-CLARIN schema
 pc =  $j ${SCH}/parla-clarin.rng
 # Corpus root / text

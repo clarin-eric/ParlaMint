@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xml:id="ParlaMint-rootTemplate" xml:lang="mul" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title corresp="ParlaMint:TEI" type="main">Multilingual comparable parliamentary corpora ParlaMint [ParlaMint]</title>
+        <title corresp="ParlaMint:TEI.ana" type="main">Multilingual comparable parliamentary corpora ParlaMint [ParlaMint.ana]</title>
+        <title corresp="ParlaMint:en.TEI.ana" type="main">Linguistically annotated multilingual corpora of parliamentary debates in English [ParlaMint-en.ana]</title>
+        <title type="sub">Automatically generated root (not valid because of ID conflicts)</title>
+        <meeting/>
+        <respStmt>
+          <persName>Maciej Ogrodniczuk</persName>
+          <persName>Petya Osenova</persName>
+          <resp>ParlaMint project coordination</resp>
+        </respStmt>
+        <respStmt corresp="ParlaMint:en.TEI.ana">
+          <persName>Taja Kuzman</persName>
+          <persName>Nikola Ljubešić</persName>
+          <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
+        </respStmt>
+        <respStmt corresp="ParlaMint:en.TEI.ana">
+          <persName>Paul Rayson</persName>
+          <persName>Matthew Coole</persName>
+          <persName>John Vidler</persName>
+          <resp xml:lang="en">Annotating MTed corpora with USAS semantic tags</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Tomaž Erjavec</persName>
+          <persName>Matyáš Kopp</persName>
+          <resp>ParlaMint corpus encoding validation</resp>
+        </respStmt>
+        <funder/>
+      </titleStmt>
+      <editionStmt>
+        <edition>4.1</edition>
+      </editionStmt>
+      <extent>
+        <measure unit="speeches"/>
+        <measure unit="words"/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName>CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno corresp="ParlaMint:TEI" subtype="handle" type="URI">http://hdl.handle.net/11356/1912</idno>
+        <idno corresp="ParlaMint:TEI.ana" subtype="handle" type="URI">http://hdl.handle.net/11356/1911</idno>
+        <idno corresp="ParlaMint:en.TEI.ana" subtype="handle" type="URI">http://hdl.handle.net/11356/1910</idno>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+        </availability>
+        <date/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>---</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+      </projectDesc>
+      <editorialDecl>
+        <correction/>
+        <normalization/>
+        <hyphenation/>
+        <quotation/>
+        <segmentation/>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="X" occurs="0"/>
+        </namespace>
+      </tagsDecl>
+      <!-- Taxonomies will be factorised, so more difficult and less useful to have
+        them in the ParlaMint root -->
+      <!--classDecl><taxonomy xml:id="parla.legislature"/><taxonomy xml:id="speaker_types"/><taxonomy xml:id="subcorpus"/><taxonomy xml:id="NER"/><taxonomy xml:id="UD-SYN"/></classDecl-->
+      <appInfo corresp="ParlaMint:TEI.ana ParlaMint:en.TEI.ana"/>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting/>
+      </settingDesc>
+      <textClass/>
+      <langUsage/>
+    </profileDesc>
+    <revisionDesc>
+      <change when="0000">
+        <name>Tomaž Erjavec</name>: Generate root</change>
+    </revisionDesc>
+  </teiHeader>
+  <teiCorpus corresp="ParlaMint:TEI">
+    <xi:include href="ParlaMint-AT.TEI/ParlaMint-AT.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-BA.TEI/ParlaMint-BA.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-BE.TEI/ParlaMint-BE.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-BG.TEI/ParlaMint-BG.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-CZ.TEI/ParlaMint-CZ.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-DK.TEI/ParlaMint-DK.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-EE.TEI/ParlaMint-EE.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-ES-CT.TEI/ParlaMint-ES-CT.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-ES-GA.TEI/ParlaMint-ES-GA.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-ES-PV.TEI/ParlaMint-ES-PV.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-ES.TEI/ParlaMint-ES.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-FI.TEI/ParlaMint-FI.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-FR.TEI/ParlaMint-FR.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-GB.TEI/ParlaMint-GB.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-GR.TEI/ParlaMint-GR.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-HR.TEI/ParlaMint-HR.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-HU.TEI/ParlaMint-HU.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-IS.TEI/ParlaMint-IS.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-IT.TEI/ParlaMint-IT.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-LV.TEI/ParlaMint-LV.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-NL.TEI/ParlaMint-NL.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-NO.TEI/ParlaMint-NO.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-PL.TEI/ParlaMint-PL.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-PT.TEI/ParlaMint-PT.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-RS.TEI/ParlaMint-RS.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-SE.TEI/ParlaMint-SE.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-SI.TEI/ParlaMint-SI.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-TR.TEI/ParlaMint-TR.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-UA.TEI/ParlaMint-UA.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  </teiCorpus>
+  <teiCorpus corresp="ParlaMint:TEI.ana">
+    <xi:include href="ParlaMint-AT.TEI.ana/ParlaMint-AT.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-BA.TEI.ana/ParlaMint-BA.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-BE.TEI.ana/ParlaMint-BE.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-BG.TEI.ana/ParlaMint-BG.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-CZ.TEI.ana/ParlaMint-CZ.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-DK.TEI.ana/ParlaMint-DK.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-EE.TEI.ana/ParlaMint-EE.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-ES-CT.TEI.ana/ParlaMint-ES-CT.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-ES-GA.TEI.ana/ParlaMint-ES-GA.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-ES-PV.TEI.ana/ParlaMint-ES-PV.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-ES.TEI.ana/ParlaMint-ES.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-FI.TEI.ana/ParlaMint-FI.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-FR.TEI.ana/ParlaMint-FR.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-GB.TEI.ana/ParlaMint-GB.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-GR.TEI.ana/ParlaMint-GR.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-HR.TEI.ana/ParlaMint-HR.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-HU.TEI.ana/ParlaMint-HU.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-IS.TEI.ana/ParlaMint-IS.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-IT.TEI.ana/ParlaMint-IT.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-LV.TEI.ana/ParlaMint-LV.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-NL.TEI.ana/ParlaMint-NL.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-NO.TEI.ana/ParlaMint-NO.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-PL.TEI.ana/ParlaMint-PL.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-PT.TEI.ana/ParlaMint-PT.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-RS.TEI.ana/ParlaMint-RS.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-SE.TEI.ana/ParlaMint-SE.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-SI.TEI.ana/ParlaMint-SI.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-TR.TEI.ana/ParlaMint-TR.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-UA.TEI.ana/ParlaMint-UA.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  </teiCorpus>
+  <teiCorpus corresp="ParlaMint:en.TEI.ana">
+    <xi:include href="ParlaMint-AT-en.TEI.ana/ParlaMint-AT-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-BA-en.TEI.ana/ParlaMint-BA-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-BE-en.TEI.ana/ParlaMint-BE-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-BG-en.TEI.ana/ParlaMint-BG-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-CZ-en.TEI.ana/ParlaMint-CZ-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-DK-en.TEI.ana/ParlaMint-DK-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-EE-en.TEI.ana/ParlaMint-EE-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-ES-en.TEI.ana/ParlaMint-ES-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-ES-CT-en.TEI.ana/ParlaMint-ES-CT-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-ES-GA-en.TEI.ana/ParlaMint-ES-GA-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-ES-PV-en.TEI.ana/ParlaMint-ES-PV-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-FI-en.TEI.ana/ParlaMint-FI-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-FR-en.TEI.ana/ParlaMint-FR-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-GB-en.TEI.ana/ParlaMint-GB-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-GR-en.TEI.ana/ParlaMint-GR-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-HR-en.TEI.ana/ParlaMint-HR-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-HU-en.TEI.ana/ParlaMint-HU-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-IS-en.TEI.ana/ParlaMint-IS-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-IT-en.TEI.ana/ParlaMint-IT-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-LV-en.TEI.ana/ParlaMint-LV-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-NL-en.TEI.ana/ParlaMint-NL-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-NO-en.TEI.ana/ParlaMint-NO-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-PL-en.TEI.ana/ParlaMint-PL-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-PT-en.TEI.ana/ParlaMint-PT-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-RS-en.TEI.ana/ParlaMint-RS-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-SE-en.TEI.ana/ParlaMint-SE-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-SI-en.TEI.ana/ParlaMint-SI-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-TR-en.TEI.ana/ParlaMint-TR-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-UA-en.TEI.ana/ParlaMint-UA-en.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  </teiCorpus>
+</teiCorpus>

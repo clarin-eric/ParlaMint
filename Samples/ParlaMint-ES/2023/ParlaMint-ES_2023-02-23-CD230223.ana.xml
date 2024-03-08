@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" xml:id="ParlaMint-ES_2023-02-23-CD230223.ana" ana="#parla.sitting #covid #war">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" type="main">Spanish parliamentary corpus ParlaMint-ES, Plenary session 239 (2023-02-23) [ParlaMint.ana SAMPLE]</title>
+            <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 239 (2023-02-23) [ParlaMint.ana SAMPLE]</title>
+            <title xml:lang="es" type="sub">Sesión plenaria núm. 239 (2023-02-23)</title>
+            <title xml:lang="en" type="sub">Plenary session 239 (2023-02-23)</title>
+            <meeting n="2023-02-23" corresp="#CD" ana="#parla.lower #parla.sitting">2023-02-23</meeting>
+            <meeting n="239" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 239</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-0830-4837">María Calzada Pérez</persName>
+               <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://www.linkedin.com/in/ruben-de-libano/">Ruben de Libano</persName>
+               <resp xml:lang="en">XML tagging improvement</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://www.linkedin.com/in/monica-albini-3179ba166/">Monica Albini</persName>
+               <resp xml:lang="en">Data retrieval and conversion to XML. Quality Control</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+               <resp xml:lang="en">Linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Maria del Mar Bonet Ramos</persName>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="es">CLARIN infraestructura de investigación científica</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="es">Ministerio de Ciencia e Innovación</orgName>
+               <orgName xml:lang="en">Ministry of Science and Innovation of Spain</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="74" xml:lang="es">74 intervenciones</measure>
+            <measure unit="speeches" quantity="74" xml:lang="en">74 speeches</measure>
+            <measure unit="words" quantity="16765" xml:lang="es">16,765 palabras</measure>
+            <measure unit="words" quantity="16765" xml:lang="en">16,765 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="es">Infraestructura de investigación CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-03-03">2024-03-03</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title xml:lang="es" type="main">CORTES GENERALES DIARIO DE SESIONES DEL CONGRESO DE LOS DIPUTADOS PLENO Y DIPUTACIÓN PERMANENTE</title>
+               <idno type="URI" subtype="parliament">http://www.congreso.es</idno>
+               <date when="2023-02-23">2023-02-23</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="es"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="98"/>
+               <tagUsage gi="div" occurs="11"/>
+               <tagUsage gi="gap" occurs="1"/>
+               <tagUsage gi="head" occurs="11"/>
+               <tagUsage gi="incident" occurs="20"/>
+               <tagUsage gi="kinesic" occurs="63"/>
+               <tagUsage gi="link" occurs="19584"/>
+               <tagUsage gi="linkGrp" occurs="669"/>
+               <tagUsage gi="name" occurs="675"/>
+               <tagUsage gi="note" occurs="9"/>
+               <tagUsage gi="pc" occurs="2418"/>
+               <tagUsage gi="s" occurs="669"/>
+               <tagUsage gi="seg" occurs="222"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="74"/>
+               <tagUsage gi="vocal" occurs="14"/>
+               <tagUsage gi="w" occurs="17567"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Calle Floridablanca, s/n. 28071</name>
+               <name type="city">Madrid</name>
+               <name type="country" key="ES">Spain</name>
+               <date ana="#parla.sitting" when="2023-02-23">2023-02-23</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-03-03">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid #war">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-ES_2023-02-23-CD230223.ana.head1">PALABRAS DE LA PRESIDENCIA</head>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u1" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p1">
+                  <s xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1.w1" lemma="mucho" pos="ADV" msd="UPosTag=ADV">Muy</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1.w2" lemma="buen" pos="ADJ" msd="UPosTag=ADJ|Gender=Masc|Number=Plur">buenos</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1.w3" lemma="día" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" join="right">días</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1.w4" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1.w5" lemma="señoría" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Plur" join="right">señorías</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1.w6" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:advmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1.w3 #ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1.w1"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1.w3 #ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1.w2"/>
+<link ana="ud-syn:root" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1 #ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1.w3"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1.w3 #ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1.w4"/>
+<link ana="ud-syn:appos" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1.w3 #ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1.w5"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1.w3 #ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1.w6"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2.w1" lemma="él" pos="PRON" msd="UPosTag=PRON|Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes">Se</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2.w2" lemma="reanudar" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">reanuda</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2.w3" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2.w4" lemma="sesión" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" join="right">sesión</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2.w5" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:expl_pass" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2.w2 #ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2.w1"/>
+<link ana="ud-syn:root" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2 #ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2.w2"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2.w4 #ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2.w3"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2.w2 #ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2.w4"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2.w2 #ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2.w5"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2">
+                  <s xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w1" lemma="antes" pos="ADV" msd="UPosTag=ADV">Antes</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w2" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w3" lemma="iniciar" pos="VERB" msd="UPosTag=VERB|VerbForm=Inf">iniciar</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w4" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w5" lemma="sesión" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" join="right">sesión</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w6" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w7" lemma="yo" pos="PRON" msd="UPosTag=PRON|Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs">me</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w8" lemma="gustar" pos="VERB" msd="UPosTag=VERB|Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin">gustaría</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w9" lemma="pronunciar" pos="VERB" msd="UPosTag=VERB|VerbForm=Inf">pronunciar</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w10" lemma="uno" pos="DET" msd="UPosTag=DET|Definite=Ind|Gender=Fem|Number=Plur|PronType=Art">unas</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w11" lemma="breve" pos="ADJ" msd="UPosTag=ADJ|Number=Plur">breves</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w12" lemma="palabra" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Plur" join="right">palabras</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w13" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w14" lemma="mañana" pos="ADV" msd="UPosTag=ADV" join="right">Mañana</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w15" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w16" lemma="24" pos="NUM" msd="UPosTag=NUM|NumForm=Digit|NumType=Card">24</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w17" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w18" lemma="febrero" pos="NOUN" msd="UPosTag=NOUN" join="right">febrero</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w19" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w20" lemma="él" pos="PRON" msd="UPosTag=PRON|Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes">se</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w21" lemma="cumplir" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">cumple</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w22" lemma="uno" pos="DET" msd="UPosTag=DET|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art">un</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w23" lemma="año" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">año</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w24">del<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w25" lemma="de" pos="ADP" msd="UPosTag=ADP" norm="de"/><w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w26" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" norm="el"/></w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w27" lemma="comienzo" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">comienzo</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w28" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w29" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w30" lemma="guerra" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">guerra</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w31" lemma="en" pos="ADP" msd="UPosTag=ADP">en</w>
+                     <name type="LOC" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne1">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w32" lemma="Ucrania" pos="PROPN" msd="UPosTag=PROPN" join="right">Ucrania</w>
+                     </name>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w33" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w34" lemma="desencadenado" pos="ADJ" msd="UPosTag=ADJ|Gender=Fem|Number=Sing|VerbForm=Part">desencadenada</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w35" lemma="por" pos="ADP" msd="UPosTag=ADP">por</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w36" lemma="uno" pos="DET" msd="UPosTag=DET|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art">una</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w37" lemma="agresión" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">agresión</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w38" lemma="ilegal" pos="ADJ" msd="UPosTag=ADJ|Number=Sing">ilegal</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w39" lemma="y" pos="CCONJ" msd="UPosTag=CCONJ">y</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w40" lemma="brutal" pos="ADJ" msd="UPosTag=ADJ|Number=Sing">brutal</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w41" lemma="a" pos="ADP" msd="UPosTag=ADP">a</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w42" lemma="uno" pos="DET" msd="UPosTag=DET|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art">un</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w43" lemma="país" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">país</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w44" lemma="soberano" pos="ADJ" msd="UPosTag=ADJ|Gender=Masc|Number=Sing" join="right">soberano</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w45" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:advmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w8 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w1"/>
+<link ana="ud-syn:mark" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w3 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w2"/>
+<link ana="ud-syn:advcl" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w1 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w3"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w5 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w4"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w3 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w5"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w1 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w6"/>
+<link ana="ud-syn:iobj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w8 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w7"/>
+<link ana="ud-syn:root" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w8"/>
+<link ana="ud-syn:csubj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w8 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w9"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w12 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w10"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w12 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w11"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w9 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w12"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w21 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w13"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w21 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w14"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w16 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w15"/>
+<link ana="ud-syn:obl" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w14 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w16"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w18 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w17"/>
+<link ana="ud-syn:compound" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w16 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w18"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w16 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w19"/>
+<link ana="ud-syn:expl_pass" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w21 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w20"/>
+<link ana="ud-syn:acl" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w12 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w21"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w23 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w22"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w21 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w23"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w27 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w25"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w27 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w26"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w23 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w27"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w30 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w28"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w30 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w29"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w27 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w30"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w32 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w31"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w30 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w32"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w34 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w33"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w30 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w34"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w37 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w35"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w37 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w36"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w34 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w37"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w37 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w38"/>
+<link ana="ud-syn:cc" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w40 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w39"/>
+<link ana="ud-syn:conj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w38 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w40"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w43 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w41"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w43 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w42"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w37 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w43"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w43 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w44"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w8 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1.w45"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w1" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">La</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w2" lemma="guerra" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" join="right">guerra</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w3" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w4" lemma="durante" pos="ADP" msd="UPosTag=ADP">durante</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w5" lemma="este" pos="DET" msd="UPosTag=DET|Gender=Masc|Number=Sing|PronType=Dem">este</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w6" lemma="año" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" join="right">año</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w7" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w8" lemma="haber" pos="AUX" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">ha</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w9" lemma="suponer" pos="VERB" msd="UPosTag=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part">supuesto</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w10" lemma="uno" pos="DET" msd="UPosTag=DET|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art">un</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w11" lemma="desafío" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">desafío</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w12" lemma="a" pos="ADP" msd="UPosTag=ADP">a</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w13" lemma="nuestro" pos="DET" msd="UPosTag=DET|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs">nuestros</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w14" lemma="valor" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Plur">valores</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w15" lemma="compartido" pos="ADJ" msd="UPosTag=ADJ|Gender=Masc|Number=Plur|VerbForm=Part">compartidos</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w16" lemma="como" pos="SCONJ" msd="UPosTag=SCONJ">como</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w17" lemma="demócrata" pos="NOUN" msd="UPosTag=NOUN|Number=Plur">demócratas</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w18" lemma="y" pos="CCONJ" msd="UPosTag=CCONJ">y</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w19" lemma="como" pos="SCONJ" msd="UPosTag=SCONJ">como</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w20" lemma="europeo" pos="ADJ" msd="UPosTag=ADJ|Gender=Masc|Number=Plur" join="right">europeos</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w21" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w2 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w1"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w9 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w2"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w6 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w3"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w6 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w4"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w6 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w5"/>
+<link ana="ud-syn:obl" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w9 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w6"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w6 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w7"/>
+<link ana="ud-syn:aux" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w9 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w8"/>
+<link ana="ud-syn:root" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w9"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w11 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w10"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w9 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w11"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w14 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w12"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w14 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w13"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w11 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w14"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w14 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w15"/>
+<link ana="ud-syn:mark" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w17 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w16"/>
+<link ana="ud-syn:obl" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w15 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w17"/>
+<link ana="ud-syn:cc" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w20 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w18"/>
+<link ana="ud-syn:mark" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w20 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w19"/>
+<link ana="ud-syn:conj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w17 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w20"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w9 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2.w21"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3">
+                     <name type="ORG" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne2">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w1" lemma="Rusia" pos="PROPN" msd="UPosTag=PROPN">Rusia</w>
+                     </name>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w2" lemma="no" pos="PART" msd="UPosTag=PART">no</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w3" lemma="solo" pos="NOUN" msd="UPosTag=NOUN">solo</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w4" lemma="haber" pos="AUX" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">ha</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w5" lemma="violar" pos="VERB" msd="UPosTag=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part">violado</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w6" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">el</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w7" lemma="derecho" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">derecho</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w8" lemma="internacional" pos="ADJ" msd="UPosTag=ADJ|Number=Sing">internacional</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w9">al<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w10" lemma="a" pos="ADP" msd="UPosTag=ADP" norm="a"/><w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w11" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" norm="el"/></w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w12" lemma="invadir" pos="VERB" msd="UPosTag=VERB|VerbForm=Inf">invadir</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w13" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">el</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w14" lemma="territorio" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">territorio</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w15" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w16" lemma="otro" pos="DET" msd="UPosTag=DET|Gender=Masc|Number=Sing|PronType=Ind">otro</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w17" lemma="país" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" join="right">país</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w18" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w19" lemma="él" pos="PRON" msd="UPosTag=PRON|Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs">lo</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w20" lemma="haber" pos="AUX" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">ha</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w21" lemma="hacer" pos="VERB" msd="UPosTag=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part">hecho</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w22" lemma="también" pos="ADV" msd="UPosTag=ADV">también</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w23" lemma="atacar" pos="VERB" msd="UPosTag=VERB|VerbForm=Ger">atacando</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w24" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w25" lemma="forma" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">forma</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w26" lemma="indiscriminado" pos="ADJ" msd="UPosTag=ADJ|Gender=Fem|Number=Sing">indiscriminada</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w27" lemma="a" pos="ADP" msd="UPosTag=ADP">a</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w28" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w29" lemma="población" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">población</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w30" lemma="civil" pos="ADJ" msd="UPosTag=ADJ|Number=Sing">civil</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w31" lemma="y" pos="CCONJ" msd="UPosTag=CCONJ">y</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w32" lemma="cometer" pos="VERB" msd="UPosTag=VERB|VerbForm=Ger">cometiendo</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w33" lemma="crimen" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Plur">crímenes</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w34" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w35" lemma="guerra" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">guerra</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w36" lemma="en" pos="ADP" msd="UPosTag=ADP">en</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w37" lemma="territorio" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">territorio</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w38" lemma="ucraniano" pos="ADJ" msd="UPosTag=ADJ|Gender=Masc|Number=Sing" join="right">ucraniano</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w39" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:nsubj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w5 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w1"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w5 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w2"/>
+<link ana="ud-syn:fixed" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w2 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w3"/>
+<link ana="ud-syn:aux" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w5 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w4"/>
+<link ana="ud-syn:root" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w5"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w7 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w6"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w5 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w7"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w7 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w8"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w12 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w10"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w12 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w11"/>
+<link ana="ud-syn:acl" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w7 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w12"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w14 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w13"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w12 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w14"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w17 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w15"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w17 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w16"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w14 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w17"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w5 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w18"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w21 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w19"/>
+<link ana="ud-syn:aux" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w21 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w20"/>
+<link ana="ud-syn:advcl" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w5 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w21"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w21 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w22"/>
+<link ana="ud-syn:advcl" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w21 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w23"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w25 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w24"/>
+<link ana="ud-syn:obl" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w23 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w25"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w25 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w26"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w29 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w27"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w29 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w28"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w23 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w29"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w29 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w30"/>
+<link ana="ud-syn:cc" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w32 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w31"/>
+<link ana="ud-syn:conj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w23 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w32"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w32 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w33"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w35 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w34"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w33 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w35"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w37 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w36"/>
+<link ana="ud-syn:obl" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w32 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w37"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w37 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w38"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w5 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3.w39"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w1" lemma="pese" pos="NOUN" msd="UPosTag=NOUN">Pese</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w2" lemma="a" pos="ADP" msd="UPosTag=ADP">a</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w3" lemma="todo" pos="DET" msd="UPosTag=DET|Gender=Masc|Number=Sing|PronType=Tot">todo</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w4" lemma="él" pos="PRON" msd="UPosTag=PRON|Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs" join="right">ello</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w5" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w6" lemma="uno" pos="DET" msd="UPosTag=DET|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art">un</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w7" lemma="año" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">año</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w8" lemma="después" pos="ADV" msd="UPosTag=ADV" join="right">después</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w9" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+                     <name type="ORG" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne3">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w10" lemma="Ucrania" pos="PROPN" msd="UPosTag=PROPN">Ucrania</w>
+                     </name>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w11" lemma="seguir" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">sigue</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w12" lemma="en" pos="ADP" msd="UPosTag=ADP">en</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w13" lemma="pie" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" join="right">pie</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w14" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w15" lemma="luchar" pos="VERB" msd="UPosTag=VERB|VerbForm=Ger">luchando</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w16" lemma="por" pos="ADP" msd="UPosTag=ADP">por</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w17" lemma="su" pos="DET" msd="UPosTag=DET|Number=Sing|Person=3|Poss=Yes|PronType=Prs">su</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w18" lemma="dignidad" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">dignidad</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w19" lemma="y" pos="CCONJ" msd="UPosTag=CCONJ">y</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w20" lemma="su" pos="DET" msd="UPosTag=DET|Number=Sing|Person=3|Poss=Yes|PronType=Prs">su</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w21" lemma="libertad" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" join="right">libertad</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w22" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w4 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w1"/>
+<link ana="ud-syn:fixed" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w1 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w2"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w4 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w3"/>
+<link ana="ud-syn:obl" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w11 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w4"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w4 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w5"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w7 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w6"/>
+<link ana="ud-syn:obl" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w8 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w7"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w11 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w8"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w4 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w9"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w11 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w10"/>
+<link ana="ud-syn:root" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w11"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w13 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w12"/>
+<link ana="ud-syn:obl" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w11 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w13"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w15 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w14"/>
+<link ana="ud-syn:advcl" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w11 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w15"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w18 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w16"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w18 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w17"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w15 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w18"/>
+<link ana="ud-syn:cc" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w21 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w19"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w21 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w20"/>
+<link ana="ud-syn:conj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w18 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w21"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w11 #ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4.w22"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3">
+                  <s xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w1" lemma="en" pos="ADP" msd="UPosTag=ADP">En</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w2" lemma="defensa" pos="NOUN" msd="UPosTag=NOUN|Number=Sing">defensa</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w3" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w4" lemma="este" pos="DET" msd="UPosTag=DET|Gender=Masc|Number=Plur|PronType=Dem">estos</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w5" lemma="valor" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Plur">valores</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w6" lemma="y" pos="CCONJ" msd="UPosTag=CCONJ">y</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w7" lemma="en" pos="ADP" msd="UPosTag=ADP">en</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w8" lemma="solidaridad" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">solidaridad</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w9" lemma="con" pos="ADP" msd="UPosTag=ADP">con</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w10" lemma="todo" pos="DET" msd="UPosTag=DET|Gender=Fem|Number=Plur|PronType=Tot">todas</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w11" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Plur|PronType=Art">las</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w12" lemma="víctima" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Plur">víctimas</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w13" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w14" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w15" lemma="guerra" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" join="right">guerra</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w16" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w17" lemma="especialmente" pos="ADV" msd="UPosTag=ADV">especialmente</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w18" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w19" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Plur|PronType=Art">los</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w20" lemma="niño" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Plur">niños</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w21" lemma="y" pos="CCONJ" msd="UPosTag=CCONJ">y</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w22" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Plur|PronType=Art">las</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w23" lemma="niña" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Plur" join="right">niñas</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w24" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w25" lemma="en" pos="ADP" msd="UPosTag=ADP">en</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w26" lemma="nombre" pos="NOUN" msd="UPosTag=NOUN">nombre</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w27">del<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w28" lemma="de" pos="ADP" msd="UPosTag=ADP" norm="de"/><w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w29" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" norm="el"/></w>
+                     <name type="ORG" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne4">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w30" lemma="Congreso" pos="PROPN" msd="UPosTag=PROPN">Congreso</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w31" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w32" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Plur|PronType=Art">los</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w33" lemma="Diputados" pos="PROPN" msd="UPosTag=PROPN" join="right">Diputados</w>
+                     </name>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w34" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w35" lemma="representante" pos="NOUN" msd="UPosTag=NOUN|Number=Sing">representante</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w36">del<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w37" lemma="de" pos="ADP" msd="UPosTag=ADP" norm="de"/><w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w38" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" norm="el"/></w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w39" lemma="pueblo" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">pueblo</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w40" lemma="español" pos="ADJ" msd="UPosTag=ADJ|Gender=Masc|Number=Sing" join="right">español</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w41" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w42" lemma="querer" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">quiero</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w43" lemma="reiterar" pos="VERB" msd="UPosTag=VERB|VerbForm=Inf">reiterar</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w44" lemma="que" pos="SCONJ" msd="UPosTag=SCONJ">que</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w45" lemma="estar" pos="AUX" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin">estamos</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w46" lemma="con" pos="ADP" msd="UPosTag=ADP">con</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w47" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">el</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w48" lemma="puebloucraniano" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" join="right">puebloucraniano</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w49" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w50" lemma="compartir" pos="VERB" msd="UPosTag=VERB|VerbForm=Ger">compartiendo</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w51" lemma="su" pos="DET" msd="UPosTag=DET|Number=Sing|Person=3|Poss=Yes|PronType=Prs">su</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w52" lemma="dolor" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">dolor</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w53" lemma="y" pos="CCONJ" msd="UPosTag=CCONJ">y</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w54" lemma="su" pos="DET" msd="UPosTag=DET|Number=Sing|Person=3|Poss=Yes|PronType=Prs">su</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w55" lemma="sufrimiento" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">sufrimiento</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w56" lemma="y" pos="CCONJ" msd="UPosTag=CCONJ">y</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w57" lemma="confiar" pos="VERB" msd="UPosTag=VERB|VerbForm=Ger">confiando</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w58" lemma="en" pos="ADP" msd="UPosTag=ADP">en</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w59" lemma="que" pos="SCONJ" msd="UPosTag=SCONJ" join="right">que</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w60" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w61" lemma="él" pos="PRON" msd="UPosTag=PRON|Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs">lo</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w62" lemma="antes" pos="ADV" msd="UPosTag=ADV">antes</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w63" lemma="posible" pos="ADJ" msd="UPosTag=ADJ|Number=Sing" join="right">posible</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w64" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w65" lemma="él" pos="PRON" msd="UPosTag=PRON|Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes">se</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w66" lemma="abrir" pos="VERB" msd="UPosTag=VERB|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">abra</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w67" lemma="paso" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">paso</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w68" lemma="uno" pos="DET" msd="UPosTag=DET|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art">una</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w69" lemma="paz" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">paz</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w70" lemma="justo" pos="ADJ" msd="UPosTag=ADJ|Gender=Fem|Number=Sing">justa</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w71" lemma="y" pos="CCONJ" msd="UPosTag=CCONJ">y</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w72" lemma="poder" pos="AUX" msd="UPosTag=AUX|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin">podamos</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w73" lemma="dejar" pos="VERB" msd="UPosTag=VERB|VerbForm=Inf">dejar</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w74" lemma="atrás" pos="ADV" msd="UPosTag=ADV">atrás</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w75" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w76" lemma="barbarie" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">barbarie</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w77" lemma="que" pos="PRON" msd="UPosTag=PRON|PronType=Int,Rel">que</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w78" lemma="estar" pos="AUX" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin">estamos</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w79" lemma="vivir" pos="VERB" msd="UPosTag=VERB|VerbForm=Ger">viviendo</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w80" lemma="en" pos="ADP" msd="UPosTag=ADP">en</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w81" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">el</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w82" lemma="corazón" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">corazón</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w83" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+                     <name type="LOC" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne5">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w84" lemma="Europa" pos="PROPN" msd="UPosTag=PROPN" join="right">Europa</w>
+                     </name>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w85" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w2 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w1"/>
+<link ana="ud-syn:obl" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w42 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w2"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w5 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w3"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w5 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w4"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w2 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w5"/>
+<link ana="ud-syn:cc" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w8 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w6"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w8 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w7"/>
+<link ana="ud-syn:conj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w2 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w8"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w12 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w9"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w11 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w10"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w12 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w11"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w8 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w12"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w15 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w13"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w15 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w14"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w12 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w15"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w17 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w16"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w12 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w17"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w17 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w18"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w20 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w19"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w17 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w20"/>
+<link ana="ud-syn:cc" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w23 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w21"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w23 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w22"/>
+<link ana="ud-syn:conj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w20 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w23"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w17 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w24"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w30 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w25"/>
+<link ana="ud-syn:fixed" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w25 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w26"/>
+<link ana="ud-syn:fixed" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w25 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w28"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w30 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w29"/>
+<link ana="ud-syn:obl" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w42 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w30"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w33 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w31"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w33 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w32"/>
+<link ana="ud-syn:flat" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w30 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w33"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w35 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w34"/>
+<link ana="ud-syn:appos" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w30 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w35"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w39 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w37"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w39 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w38"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w35 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w39"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w39 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w40"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w35 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w41"/>
+<link ana="ud-syn:root" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w42"/>
+<link ana="ud-syn:xcomp" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w42 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w43"/>
+<link ana="ud-syn:mark" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w48 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w44"/>
+<link ana="ud-syn:cop" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w48 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w45"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w48 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w46"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w48 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w47"/>
+<link ana="ud-syn:ccomp" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w43 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w48"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w50 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w49"/>
+<link ana="ud-syn:advcl" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w48 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w50"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w52 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w51"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w50 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w52"/>
+<link ana="ud-syn:cc" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w55 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w53"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w55 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w54"/>
+<link ana="ud-syn:conj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w52 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w55"/>
+<link ana="ud-syn:cc" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w57 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w56"/>
+<link ana="ud-syn:conj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w50 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w57"/>
+<link ana="ud-syn:mark" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w66 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w58"/>
+<link ana="ud-syn:mark" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w66 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w59"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w63 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w60"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w63 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w61"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w63 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w62"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w66 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w63"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w63 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w64"/>
+<link ana="ud-syn:expl_pass" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w66 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w65"/>
+<link ana="ud-syn:ccomp" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w57 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w66"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w66 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w67"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w69 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w68"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w66 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w69"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w69 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w70"/>
+<link ana="ud-syn:cc" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w73 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w71"/>
+<link ana="ud-syn:aux" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w73 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w72"/>
+<link ana="ud-syn:conj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w66 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w73"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w73 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w74"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w76 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w75"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w73 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w76"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w79 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w77"/>
+<link ana="ud-syn:aux" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w79 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w78"/>
+<link ana="ud-syn:acl" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w76 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w79"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w82 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w80"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w82 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w81"/>
+<link ana="ud-syn:obl" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w79 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w82"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w84 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w83"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w82 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w84"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w42 #ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1.w85"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p4">
+                  <s xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p4.s1">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p4.s1.w1" lemma="muchísimo" pos="DET" msd="UPosTag=DET|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind">Muchísimas</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p4.s1.w2" lemma="gracia" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Plur" join="right">gracias</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p4.s1.w3" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p4.s1.w2 #ParlaMint-ES_2023-02-23-CD230223.u1.p4.s1.w1"/>
+<link ana="ud-syn:root" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p4.s1 #ParlaMint-ES_2023-02-23-CD230223.u1.p4.s1.w2"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u1.p4.s1.w2 #ParlaMint-ES_2023-02-23-CD230223.u1.p4.s1.w3"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <kinesic type="applause" xml:id="ParlaMint-ES_2023-02-23-CD230223.ana.kinesic1">
+                  <desc>Aplausos</desc>
+               </kinesic>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-ES_2023-02-23-CD230223.ana.head2">TRAMITACIÓN DIRECTA Y EN LECTURA ÚNICA DE INICIATIVAS LEGISLATIVAS - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 28/1990, DE 26 DE DICIEMBRE, POR LA QUE SE APRUEBA EL CONVENIO ECONÓMICO ENTRE EL ESTADO Y LA COMUNIDAD FORAL DE NAVARRA. . - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 12/2002, DE 23 DE MAYO, POR LA QUE SE APRUEBA EL CONCIERTO ECONÓMICO CON LA COMUNIDAD AUTÓNOMA DEL PAÍS VASCO. . - PROYECTO DE LEY POR LA QUE SE APRUEBA LA METODOLOGÍA DE SEÑALAMIENTO DEL CUPO DEL PAÍS VASCO PARA EL QUINQUENIO 2022-2026. .</head>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u2" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1">
+                  <s xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w1" lemma="comenzar" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin">Comenzamos</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w2" lemma="con" pos="ADP" msd="UPosTag=ADP">con</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w3" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Plur|PronType=Art">los</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w4" lemma="punto" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Plur">puntos</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w5">del<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w6" lemma="de" pos="ADP" msd="UPosTag=ADP" norm="de"/><w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w7" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" norm="el"/></w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w8" lemma="orden" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">orden</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w9">del<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w10" lemma="de" pos="ADP" msd="UPosTag=ADP" norm="de"/><w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w11" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" norm="el"/></w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w12" lemma="día" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">día</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w13" lemma="relativo" pos="ADJ" msd="UPosTag=ADJ|Gender=Masc|Number=Plur">relativos</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w14" lemma="a" pos="ADP" msd="UPosTag=ADP">a</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w15" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w16" lemma="tramitación" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">tramitación</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w17" lemma="directo" pos="ADJ" msd="UPosTag=ADJ|Gender=Fem|Number=Sing">directa</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w18" lemma="y" pos="CCONJ" msd="UPosTag=CCONJ">y</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w19" lemma="en" pos="ADP" msd="UPosTag=ADP">en</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w20" lemma="lectura" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">lectura</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w21" lemma="único" pos="ADJ" msd="UPosTag=ADJ|Gender=Fem|Number=Sing">única</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w22" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w23" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Plur|PronType=Art">los</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w24" lemma="proyecto" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Plur">proyectos</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w25" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w26" lemma="ley" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">ley</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w27" lemma="por" pos="ADP" msd="UPosTag=ADP">por</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w28" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w29" lemma="que" pos="PRON" msd="UPosTag=PRON|PronType=Int,Rel">que</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w30" lemma="él" pos="PRON" msd="UPosTag=PRON|Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes">se</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w31" lemma="modificar" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">modifica</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w32" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+                     <name type="MISC" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne6">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w33" lemma="Ley" pos="PROPN" msd="UPosTag=PROPN">Ley</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w34" lemma="28/1990" pos="NUM" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" join="right">28/1990</w>
+                     </name>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w35" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w36" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w37" lemma="26" pos="NUM" msd="UPosTag=NUM|NumForm=Digit|NumType=Card">26</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w38" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w39" lemma="diciembre" pos="NOUN" msd="UPosTag=NOUN" join="right">diciembre</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w40" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w41" lemma="por" pos="ADP" msd="UPosTag=ADP">por</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w42" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w43" lemma="que" pos="PRON" msd="UPosTag=PRON|PronType=Int,Rel">que</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w44" lemma="él" pos="PRON" msd="UPosTag=PRON|Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes">se</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w45" lemma="aprobar" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">aprueba</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w46" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">el</w>
+                     <name type="MISC" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne7">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w47" lemma="Convenio" pos="PROPN" msd="UPosTag=PROPN">Convenio</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w48" lemma="Económico" pos="PROPN" msd="UPosTag=PROPN">Económico</w>
+                     </name>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w49" lemma="entre" pos="ADP" msd="UPosTag=ADP">entre</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w50" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">el</w>
+                     <name type="ORG" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne8">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w51" lemma="Estado" pos="PROPN" msd="UPosTag=PROPN">Estado</w>
+                     </name>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w52" lemma="y" pos="CCONJ" msd="UPosTag=CCONJ">y</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w53" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+                     <name type="ORG" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne9">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w54" lemma="Comunidad" pos="PROPN" msd="UPosTag=PROPN">Comunidad</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w55" lemma="Foral" pos="PROPN" msd="UPosTag=PROPN">Foral</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w56" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w57" lemma="Navarra" pos="PROPN" msd="UPosTag=PROPN" join="right">Navarra</w>
+                     </name>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w58" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Semi">;</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w59" lemma="por" pos="ADP" msd="UPosTag=ADP">por</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w60" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w61" lemma="que" pos="PRON" msd="UPosTag=PRON|PronType=Int,Rel">que</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w62" lemma="él" pos="PRON" msd="UPosTag=PRON|Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes">se</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w63" lemma="modificar" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">modifica</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w64" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+                     <name type="MISC" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne10">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w65" lemma="Ley" pos="PROPN" msd="UPosTag=PROPN">Ley</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w66" lemma="12/2002" pos="NUM" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" join="right">12/2002</w>
+                     </name>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w67" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w68" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w69" lemma="23" pos="NUM" msd="UPosTag=NUM|NumForm=Digit|NumType=Card">23</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w70" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w71" lemma="mayo" pos="NOUN" msd="UPosTag=NOUN" join="right">mayo</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w72" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w73" lemma="por" pos="ADP" msd="UPosTag=ADP">por</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w74" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w75" lemma="que" pos="PRON" msd="UPosTag=PRON|PronType=Int,Rel">que</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w76" lemma="él" pos="PRON" msd="UPosTag=PRON|Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes">se</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w77" lemma="aprobar" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">aprueba</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w78" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">el</w>
+                     <name type="MISC" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne11">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w79" lemma="Concierto" pos="PROPN" msd="UPosTag=PROPN">Concierto</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w80" lemma="Económico" pos="PROPN" msd="UPosTag=PROPN">Económico</w>
+                     </name>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w81" lemma="con" pos="ADP" msd="UPosTag=ADP">con</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w82" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+                     <name type="ORG" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne12">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w83" lemma="Comunidad" pos="PROPN" msd="UPosTag=PROPN">Comunidad</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w84" lemma="Autónoma" pos="PROPN" msd="UPosTag=PROPN">Autónoma</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w85">del<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w86" lemma="de" pos="ADP" msd="UPosTag=ADP" norm="de"/><w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w87" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" norm="el"/></w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w88" lemma="País" pos="PROPN" msd="UPosTag=PROPN">País</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w89" lemma="Vasco" pos="PROPN" msd="UPosTag=PROPN" join="right">Vasco</w>
+                     </name>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w90" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w91" lemma="y" pos="CCONJ" msd="UPosTag=CCONJ">y</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w92" lemma="por" pos="ADP" msd="UPosTag=ADP">por</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w93" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w94" lemma="que" pos="PRON" msd="UPosTag=PRON|PronType=Int,Rel">que</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w95" lemma="él" pos="PRON" msd="UPosTag=PRON|Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes">se</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w96" lemma="aprobar" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">aprueba</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w97" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w98" lemma="metodología" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">metodología</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w99" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w100" lemma="señalamiento" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">señalamiento</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w101">del<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w102" lemma="de" pos="ADP" msd="UPosTag=ADP" norm="de"/><w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w103" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" norm="el"/></w>
+                     <name type="MISC" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne13">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w104" lemma="Cupo" pos="PROPN" msd="UPosTag=PROPN">Cupo</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w105">del<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w106" lemma="de" pos="ADP" msd="UPosTag=ADP" norm="de"/><w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w107" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" norm="el"/></w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w108" lemma="País" pos="PROPN" msd="UPosTag=PROPN">País</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w109" lemma="Vasco" pos="PROPN" msd="UPosTag=PROPN">Vasco</w>
+                     </name>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w110" lemma="para" pos="ADP" msd="UPosTag=ADP">para</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w111" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">el</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w112" lemma="quinquenio" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">quinquenio</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w113" lemma="20222026" pos="NUM" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" join="right">20222026</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w114" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w1"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w4 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w2"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w4 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w3"/>
+<link ana="ud-syn:obl" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w1 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w4"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w8 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w6"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w8 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w7"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w4 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w8"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w12 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w10"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w12 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w11"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w8 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w12"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w4 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w13"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w16 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w14"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w16 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w15"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w13 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w16"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w16 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w17"/>
+<link ana="ud-syn:cc" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w20 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w18"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w20 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w19"/>
+<link ana="ud-syn:conj" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w17 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w20"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w20 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w21"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w24 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w22"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w24 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w23"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w16 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w24"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w26 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w25"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w24 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w26"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w29 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w27"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w29 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w28"/>
+<link ana="ud-syn:obl" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w31 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w29"/>
+<link ana="ud-syn:expl_pass" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w31 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w30"/>
+<link ana="ud-syn:acl" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w24 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w31"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w33 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w32"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w31 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w33"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w33 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w34"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w37 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w35"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w37 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w36"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w33 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w37"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w39 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w38"/>
+<link ana="ud-syn:compound" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w37 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w39"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w45 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w40"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w43 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w41"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w43 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w42"/>
+<link ana="ud-syn:obl" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w45 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w43"/>
+<link ana="ud-syn:expl_pass" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w45 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w44"/>
+<link ana="ud-syn:acl" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w33 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w45"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w47 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w46"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w45 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w47"/>
+<link ana="ud-syn:flat" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w47 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w48"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w51 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w49"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w51 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w50"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w47 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w51"/>
+<link ana="ud-syn:cc" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w54 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w52"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w54 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w53"/>
+<link ana="ud-syn:conj" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w51 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w54"/>
+<link ana="ud-syn:flat" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w54 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w55"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w57 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w56"/>
+<link ana="ud-syn:flat" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w54 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w57"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w63 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w58"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w61 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w59"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w61 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w60"/>
+<link ana="ud-syn:obl" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w63 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w61"/>
+<link ana="ud-syn:expl_pass" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w63 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w62"/>
+<link ana="ud-syn:acl" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w33 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w63"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w65 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w64"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w63 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w65"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w65 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w66"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w69 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w67"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w69 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w68"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w65 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w69"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w71 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w70"/>
+<link ana="ud-syn:compound" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w69 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w71"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w69 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w72"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w75 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w73"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w75 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w74"/>
+<link ana="ud-syn:obl" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w77 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w75"/>
+<link ana="ud-syn:expl_pass" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w77 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w76"/>
+<link ana="ud-syn:acl" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w65 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w77"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w79 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w78"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w77 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w79"/>
+<link ana="ud-syn:flat" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w79 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w80"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w83 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w81"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w83 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w82"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w79 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w83"/>
+<link ana="ud-syn:flat" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w83 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w84"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w88 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w86"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w88 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w87"/>
+<link ana="ud-syn:flat" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w83 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w88"/>
+<link ana="ud-syn:flat" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w83 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w89"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w96 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w90"/>
+<link ana="ud-syn:cc" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w96 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w91"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w94 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w92"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w94 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w93"/>
+<link ana="ud-syn:obl" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w96 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w94"/>
+<link ana="ud-syn:expl_pass" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w96 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w95"/>
+<link ana="ud-syn:conj" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w77 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w96"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w98 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w97"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w96 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w98"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w100 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w99"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w98 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w100"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w104 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w102"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w104 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w103"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w100 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w104"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w108 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w106"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w108 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w107"/>
+<link ana="ud-syn:flat" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w104 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w108"/>
+<link ana="ud-syn:flat" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w108 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w109"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w112 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w110"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w112 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w111"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w98 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w112"/>
+<link ana="ud-syn:appos" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w112 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w113"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w1 #ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1.w114"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2">
+                  <s xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w1" lemma="de" pos="ADP" msd="UPosTag=ADP">De</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w2" lemma="conformidad" pos="NOUN" msd="UPosTag=NOUN">conformidad</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w3" lemma="con" pos="ADP" msd="UPosTag=ADP">con</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w4" lemma="él" pos="PRON" msd="UPosTag=PRON|Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs">lo</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w5" lemma="acordado" pos="ADJ" msd="UPosTag=ADJ|Gender=Masc|Number=Sing|VerbForm=Part">acordado</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w6" lemma="por" pos="ADP" msd="UPosTag=ADP">por</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w7" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+                     <name type="ORG" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne14">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w8" lemma="Junta" pos="PROPN" msd="UPosTag=PROPN">Junta</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w9" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w10" lemma="Portavoces" pos="PROPN" msd="UPosTag=PROPN" join="right">Portavoces</w>
+                     </name>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w11" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w12" lemma="este" pos="DET" msd="UPosTag=DET|Gender=Masc|Number=Plur|PronType=Dem">estos</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w13" lemma="punto" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Plur">puntos</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w14" lemma="él" pos="PRON" msd="UPosTag=PRON|Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes">se</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w15" lemma="debatir" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin">debatirán</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w16" lemma="acumuladamente" pos="ADV" msd="UPosTag=ADV" join="right">acumuladamente</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w17" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w5 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w1"/>
+<link ana="ud-syn:fixed" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w1 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w2"/>
+<link ana="ud-syn:fixed" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w1 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w3"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w5 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w4"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w15 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w5"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w8 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w6"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w8 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w7"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w5 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w8"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w10 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w9"/>
+<link ana="ud-syn:flat" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w8 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w10"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w5 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w11"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w13 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w12"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w15 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w13"/>
+<link ana="ud-syn:expl_pass" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w15 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w14"/>
+<link ana="ud-syn:root" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w15"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w15 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w16"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w15 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1.w17"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w1" lemma="él" pos="PRON" msd="UPosTag=PRON|Case=Dat|Number=Plur|Person=3|PronType=Prs">Les</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w2" lemma="recordar" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">recuerdo</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w3" lemma="que" pos="SCONJ" msd="UPosTag=SCONJ" join="right">que</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w4" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w5" lemma="finalizar" pos="VERB" msd="UPosTag=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part">finalizado</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w6" lemma="este" pos="DET" msd="UPosTag=DET|Gender=Masc|Number=Sing|PronType=Dem">este</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w7" lemma="debate" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" join="right">debate</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w8" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w9" lemma="él" pos="PRON" msd="UPosTag=PRON|Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes">se</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w10" lemma="votar" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin">votarán</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w11" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Plur|PronType=Art">las</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w12" lemma="enmienda" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Plur">enmiendas</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w13" lemma="a" pos="ADP" msd="UPosTag=ADP">a</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w14" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w15" lemma="totalidad" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">totalidad</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w16" lemma="correspondiente" pos="ADJ" msd="UPosTag=ADJ|Number=Plur">correspondientes</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w17" lemma="a" pos="ADP" msd="UPosTag=ADP">a</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w18" lemma="este" pos="DET" msd="UPosTag=DET|Gender=Fem|Number=Plur|PronType=Dem">estas</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w19" lemma="iniciativa" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Plur" join="right">iniciativas</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w20" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:iobj" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w2 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w1"/>
+<link ana="ud-syn:root" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w2"/>
+<link ana="ud-syn:mark" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w10 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w3"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w5 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w4"/>
+<link ana="ud-syn:advcl" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w10 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w5"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w7 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w6"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w5 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w7"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w5 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w8"/>
+<link ana="ud-syn:expl_pass" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w10 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w9"/>
+<link ana="ud-syn:ccomp" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w2 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w10"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w12 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w11"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w10 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w12"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w15 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w13"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w15 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w14"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w12 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w15"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w12 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w16"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w19 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w17"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w19 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w18"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w16 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w19"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w2 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2.w20"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w1" lemma="tener" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">Tiene</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w2" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w3" lemma="palabra,en" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">palabra,en</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w4" lemma="primero" pos="ADJ" msd="UPosTag=ADJ|Gender=Masc|Number=Sing|NumType=Ord">primer</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w5" lemma="lugar" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" join="right">lugar</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w6" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w7" lemma="en" pos="ADP" msd="UPosTag=ADP">en</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w8" lemma="nombre" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">nombre</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w9">del<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w10" lemma="de" pos="ADP" msd="UPosTag=ADP" norm="de"/><w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w11" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" norm="el"/></w>
+                     <name type="ORG" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne15">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w12" lemma="Gobierno" pos="PROPN" msd="UPosTag=PROPN" join="right">Gobierno</w>
+                     </name>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w13" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w14" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w15" lemma="señora" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">señora</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w16" lemma="ministra" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">ministra</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w17" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+                     <name type="MISC" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne16">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w18" lemma="Hacienda" pos="PROPN" msd="UPosTag=PROPN">Hacienda</w>
+                     </name>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w19" lemma="y" pos="CCONJ" msd="UPosTag=CCONJ">y</w>
+                     <name type="MISC" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne17">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w20" lemma="Función" pos="PROPN" msd="UPosTag=PROPN">Función</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w21" lemma="Pública" pos="PROPN" msd="UPosTag=PROPN" join="right">Pública</w>
+                     </name>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w22" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w1"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w3 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w2"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w1 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w3"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w5 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w4"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w1 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w5"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w12 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w6"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w12 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w7"/>
+<link ana="ud-syn:fixed" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w7 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w8"/>
+<link ana="ud-syn:fixed" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w7 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w10"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w12 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w11"/>
+<link ana="ud-syn:obl" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w1 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w12"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w12 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w13"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w15 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w14"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w1 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w15"/>
+<link ana="ud-syn:appos" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w15 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w16"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w18 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w17"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w16 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w18"/>
+<link ana="ud-syn:cc" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w20 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w19"/>
+<link ana="ud-syn:conj" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w18 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w20"/>
+<link ana="ud-syn:flat" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w20 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w21"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w1 #ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3.w22"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection">
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u73" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1">
+                  <s xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1.w1" lemma="avocación" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">Avocación</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1.w2" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1.w3" lemma="iniciativa" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Plur">iniciativas</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1.w4" lemma="legislativo" pos="ADJ" msd="UPosTag=ADJ|Gender=Fem|Number=Plur" join="right">legislativas</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1.w5" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1.w1"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1.w3 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1.w2"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1.w1 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1.w3"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1.w3 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1.w4"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1.w1 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1.w5"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w1" lemma="votación" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">Votación</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w2" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w3" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w4" lemma="solicitud" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">solicitud</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w5" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w6" lemma="avocación" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">avocación</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w7" lemma="por" pos="ADP" msd="UPosTag=ADP">por</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w8" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">el</w>
+                     <name type="ORG" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne671">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w9" lemma="Pleno" pos="PROPN" msd="UPosTag=PROPN">Pleno</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w10" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w11" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w12" lemma="Cámara" pos="PROPN" msd="UPosTag=PROPN">Cámara</w>
+                     </name>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w13" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w14" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w15" lemma="deliberación" pos="NOUN" msd="UPosTag=NOUN">deliberación</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w16" lemma="y" pos="CCONJ" msd="UPosTag=CCONJ">y</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w17" lemma="votación" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">votación</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w18" lemma="final" pos="ADJ" msd="UPosTag=ADJ|Number=Sing">final</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w19">del<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w20" lemma="de" pos="ADP" msd="UPosTag=ADP" norm="de"/><w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w21" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" norm="el"/></w>
+                     <name type="MISC" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne672">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w22" lemma="Proyecto" pos="PROPN" msd="UPosTag=PROPN">Proyecto</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w23" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w24" lemma="Ley" pos="PROPN" msd="UPosTag=PROPN">Ley</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w25" lemma="de" pos="ADP" msd="UPosTag=ADP">de</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w26" lemma="Movilidad" pos="PROPN" msd="UPosTag=PROPN">Movilidad</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w27" lemma="Sostenible" pos="PROPN" msd="UPosTag=PROPN" join="right">Sostenible</w>
+                     </name>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w28" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w29" lemma="presentado" pos="ADJ" msd="UPosTag=ADJ|Gender=Fem|Number=Sing|VerbForm=Part">presentada</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w30" lemma="por" pos="ADP" msd="UPosTag=ADP">por</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w31" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">el</w>
+                     <name type="ORG" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne673">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w32" lemma="Grupo" pos="PROPN" msd="UPosTag=PROPN">Grupo</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w33" lemma="Parlamentario" pos="PROPN" msd="UPosTag=PROPN">Parlamentario</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w34" lemma="Plural" pos="PROPN" msd="UPosTag=PROPN" join="right">Plural</w>
+                     </name>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w35" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w36" lemma="señor" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">señor</w>
+                     <name type="PER" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne674">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w37" lemma="Errejón" pos="PROPN" msd="UPosTag=PROPN">Errejón</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w38" lemma="Galván" pos="PROPN" msd="UPosTag=PROPN" join="right">Galván</w>
+                     </name>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w39" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w1"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w4 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w2"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w4 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w3"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w1 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w4"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w6 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w5"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w4 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w6"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w9 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w7"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w9 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w8"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w4 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w9"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w12 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w10"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w12 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w11"/>
+<link ana="ud-syn:flat" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w9 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w12"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w15 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w13"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w15 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w14"/>
+<link ana="ud-syn:flat" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w9 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w15"/>
+<link ana="ud-syn:cc" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w17 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w16"/>
+<link ana="ud-syn:conj" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w1 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w17"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w17 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w18"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w22 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w20"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w22 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w21"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w17 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w22"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w24 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w23"/>
+<link ana="ud-syn:flat" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w22 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w24"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w26 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w25"/>
+<link ana="ud-syn:flat" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w22 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w26"/>
+<link ana="ud-syn:flat" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w26 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w27"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w29 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w28"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w17 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w29"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w32 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w30"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w32 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w31"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w29 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w32"/>
+<link ana="ud-syn:flat" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w32 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w33"/>
+<link ana="ud-syn:flat" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w32 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w34"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w36 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w35"/>
+<link ana="ud-syn:appos" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w32 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w36"/>
+<link ana="ud-syn:appos" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w36 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w37"/>
+<link ana="ud-syn:flat" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w37 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w38"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w1 #ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2.w39"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p2">
+                  <s xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p2.s1">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p2.s1.w1" lemma="comenzar" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">Comienza</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p2.s1.w2" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p2.s1.w3" lemma="votación" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" join="right">votación</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p2.s1.w4" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p2.s1 #ParlaMint-ES_2023-02-23-CD230223.u73.p2.s1.w1"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p2.s1.w3 #ParlaMint-ES_2023-02-23-CD230223.u73.p2.s1.w2"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p2.s1.w1 #ParlaMint-ES_2023-02-23-CD230223.u73.p2.s1.w3"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p2.s1.w1 #ParlaMint-ES_2023-02-23-CD230223.u73.p2.s1.w4"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <incident type="pause" xml:id="ParlaMint-ES_2023-02-23-CD230223.ana.incident20">
+                  <desc>Pausa</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3">
+                  <s xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w1" lemma="efectuar" pos="VERB" msd="UPosTag=VERB|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part">Efectuada</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w2" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w3" lemma="votación" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" join="right">votación</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w4" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w5" lemma="dar" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin">dio</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w6" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">el</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w7" lemma="siguiente" pos="ADJ" msd="UPosTag=ADJ|Number=Sing">siguiente</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w8" lemma="resultado" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" join="right">resultado</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w9" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w10" lemma="voto" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Plur">votos</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w11" lemma="emitido" pos="ADJ" msd="UPosTag=ADJ|Gender=Masc|Number=Plur|VerbForm=Part" join="right">emitidos</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w12" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w13" lemma="339" pos="NUM" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" join="right">339</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w14" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Semi">;</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w15" lemma="a" pos="ADP" msd="UPosTag=ADP">a</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w16" lemma="favor" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" join="right">favor</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w17" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w18" lemma="339" pos="NUM" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" join="right">339</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w19" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:advcl" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w5 #ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w1"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w3 #ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w2"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w1 #ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w3"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w1 #ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w4"/>
+<link ana="ud-syn:root" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1 #ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w5"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w8 #ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w6"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w8 #ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w7"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w5 #ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w8"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w10 #ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w9"/>
+<link ana="ud-syn:appos" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w8 #ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w10"/>
+<link ana="ud-syn:amod" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w10 #ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w11"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w13 #ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w12"/>
+<link ana="ud-syn:appos" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w10 #ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w13"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w10 #ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w14"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w16 #ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w15"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w10 #ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w16"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w18 #ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w17"/>
+<link ana="ud-syn:appos" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w10 #ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w18"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w5 #ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1.w19"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u74" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p1">
+                  <s xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w1" lemma="en" pos="ADP" msd="UPosTag=ADP">En</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w2" lemma="consecuencia" pos="NOUN" msd="UPosTag=NOUN" join="right">consecuencia</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w3" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w4" lemma="quedar" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">queda</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w5" lemma="aprobado" pos="ADJ" msd="UPosTag=ADJ|Gender=Fem|Number=Sing|VerbForm=Part">aprobada</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w6" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w7" lemma="avocación" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">avocación</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w8" lemma="a" pos="ADP" msd="UPosTag=ADP">a</w>
+                     <name type="ORG" xml:id="ParlaMint-ES_2023-02-23-CD230223.ne675">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w9" lemma="Pleno" pos="PROPN" msd="UPosTag=PROPN" join="right">Pleno</w>
+                     </name>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w10" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:advmod" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w4 #ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w1"/>
+<link ana="ud-syn:fixed" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w1 #ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w2"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w1 #ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w3"/>
+<link ana="ud-syn:root" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1 #ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w4"/>
+<link ana="ud-syn:obj" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w4 #ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w5"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w7 #ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w6"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w4 #ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w7"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w9 #ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w8"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w7 #ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w9"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w4 #ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1.w10"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p2">
+                  <s xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1.w1" lemma="mucho" pos="DET" msd="UPosTag=DET|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind">Muchas</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1.w2" lemma="gracia" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Plur">gracias</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1.w3" lemma="a" pos="ADP" msd="UPosTag=ADP">a</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1.w4" lemma="todo" pos="PRON" msd="UPosTag=PRON|Gender=Masc|Number=Plur|PronType=Tot" join="right">todos</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1.w5" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1.w2 #ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1.w1"/>
+<link ana="ud-syn:root" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1 #ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1.w2"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1.w4 #ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1.w3"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1.w2 #ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1.w4"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1.w2 #ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1.w5"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p3">
+                  <s xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1.w1" lemma="él" pos="PRON" msd="UPosTag=PRON|Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes">Se</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1.w2" lemma="levantar" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">levanta</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1.w3" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1.w4" lemma="sesión" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" join="right">sesión</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1.w5" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:expl_pass" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1.w2 #ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1.w1"/>
+<link ana="ud-syn:root" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1 #ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1.w2"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1.w4 #ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1.w3"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1.w2 #ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1.w4"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1.w2 #ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1.w5"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p4">
+                  <s xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1">
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w1" lemma="ser" pos="AUX" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin">Eran</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w2" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Plur|PronType=Art">las</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w3" lemma="doce" pos="NUM" msd="UPosTag=NUM|Number=Plur|NumType=Card">doce</w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w4">del<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w5" lemma="de" pos="ADP" msd="UPosTag=ADP" norm="de"/><w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w6" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" norm="el"/></w>
+<w xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w7" lemma="mediodía" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" join="right">mediodía</w>
+<pc xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w8" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:cop" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w3 #ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w1"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w3 #ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w2"/>
+<link ana="ud-syn:root" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1 #ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w3"/>
+<link ana="ud-syn:case" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w7 #ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w5"/>
+<link ana="ud-syn:det" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w7 #ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w6"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w3 #ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w7"/>
+<link ana="ud-syn:punct" target="#ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w3 #ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1.w8"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

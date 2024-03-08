@@ -1,12 +1,8 @@
 .DEFAULT_GOAL := help
 
-##$PARLIAMENTS##Space separated list of parliaments codes.
-#LT, RO not delivered for 4.0
-#PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR BA RS UA
-#Parliaments for V4.0
+##$PARLIAMENTS: Space separated list of country codes
+#Parliaments for V4.1
 PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT SE SI TR BA RS UA
-#Parliaments for V2.1
-PARLIAMENTS-v2 = BE BG CZ DK ES FR GB HR HU IS IT LT LV NL PL SI TR
 
 ##$JAVA-MEMORY## Set a java memory maxsize in GB
 JAVA-MEMORY =
@@ -25,6 +21,7 @@ TAXONOMIES-COPY = $(addprefix ParlaMint-taxonomy-, $(TAXONOMIES-COPY-INTERF))
 
 ##$DATADIR## Folder with country corpus folders. Default value is 'Samples'.
 DATADIR = Samples
+DATACORPORADIR = Corpora/Master
 SHARED = Corpora
 ##$WORKINGDIR## In this folder will be stored temporary files. Default value is 'DataTMP'.
 WORKINGDIR = Samples/TMP
@@ -43,15 +40,15 @@ check-prereq:
 	@uname -a|grep -iq ubuntu || \
 	  ( echo -n "WARN: not running on ubuntu-derived system: " && uname -a )
 	@echo -n "Saxon: "
-	@test -f /usr/share/java/saxon.jar && \
-	  unzip -p /usr/share/java/saxon.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'net.sf.saxon.Transform' && \
+	@test -f ./Scripts/bin/saxon.jar && \
+	  unzip -p ./Scripts/bin/saxon.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'net.sf.saxon.Transform' && \
 	  echo "OK" || echo "FAIL"
 	@echo -n "Jing: "
-	@test -f /usr/share/java/jing.jar && \
-	  unzip -p /usr/share/java/jing.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'relaxng' && \
+	@test -f ./Scripts/bin/jing.jar && \
+	  unzip -p ./Scripts/bin/jing.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'relaxng' && \
 	  echo "OK" || echo "FAIL"
 	@echo -n "UD tools: "
-	@test -f Scripts/tools/validate.py && \
+	@test -f Scripts/bin/tools/validate.py && \
 	  python3 -m re && \
 	  echo "OK" || echo "FAIL"
 	@which parallel > /dev/null && \
@@ -314,11 +311,24 @@ $(validate-parlamint-XX): validate-parlamint-%: %
 ###### Convert (and validate)
 
 ## root ## Make ParlaMint corpus root
-root:
-	$s base=../Data -xsl:Scripts/parlamint2root.xsl \
-	Scripts/ParlaMint-template.xml > ${DATADIR}/ParlaMint.xml
-	$s base=../Data -xsl:Scripts/parlamint2root.xsl \
-	Scripts/ParlaMint-template.ana.xml > ${DATADIR}/ParlaMint.ana.xml
+root-master:
+	$s base=../${DATACORPORADIR} type=TEI -xsl:Scripts/parlamint2root.xsl \
+	Scripts/ParlaMint-rootTemplate.xml > ${DATACORPORADIR}/ParlaMint.xml
+	$s base=../${DATACORPORADIR} type=TEI.ana -xsl:Scripts/parlamint2root.xsl \
+	Scripts/ParlaMint-rootTemplate.xml > ${DATACORPORADIR}/ParlaMint.ana.xml
+	$s base=../${DATACORPORADIR} type=en.TEI.ana -xsl:Scripts/parlamint2root.xsl \
+	Scripts/ParlaMint-rootTemplate.xml > ${DATACORPORADIR}/ParlaMint-en.ana.xml
+root-sample:
+	for t_i in TEI_ TEI.ana_.ana en.TEI.ana_-en.ana; do \
+	  type=$${t_i%_*};\
+	  interfix=$${t_i#*_};\
+	  $s base=../$(DATADIR) \
+	    type=$$type \
+	    isSample=1 \
+	    -xsl:Scripts/parlamint2root.xsl \
+	    Scripts/ParlaMint-rootTemplate.xml > ${DATADIR}/ParlaMint$$interfix.xml ; \
+	done
+
 
 chars-XX = $(addprefix chars-, $(PARLIAMENTS))
 ## chars ## create character tables
@@ -605,11 +615,22 @@ $(DEV-attributes-summ-XX): DEV-attributes-summ-%: %
 DEV-speaker_types-in-taxonomy:
 	@echo -n "category_id\tterm_en\tcode\tterm_local\n"
 	@for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-*${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '_'| grep -v '.ana.xml'`; do \
-	  java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive \
+	  java -cp ./Scripts/bin/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive \
 	      -qs:'//*:taxonomy[@xml:id="speaker_types"]//*:category/concat(@xml:id,"|"  ,.//*:term[ancestor-or-self::*[@xml:lang][1]/@xml:lang="en"],"|"   ,/*:teiCorpus/@xml:id,"|"   ,.//*:term[not(ancestor-or-self::*[@xml:lang][1]/@xml:lang="en") ])' \
 	      -s:$${root} ; \
 	  echo;\
 	done | sed 's/^"//;s/"$$//;s/ParlaMint-//;s/|/\t/g'|sort|uniq
+
+
+DEV-parlamint2release-XX = $(addprefix DEV-parlamint2release-, $(PARLIAMENTS))
+##!DEV-parlamint2release## run parlamint2release script on folder and the result put to ....../ParlaMint-XX.parlamint2release
+DEV-parlamint2release: $(DEV-parlamint2release-XX)
+##!DEV-parlamint2release-XX## ...
+$(DEV-parlamint2release-XX): DEV-parlamint2release-%: %
+	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.*xml" `;	do \
+	  echo "INFO: processing $${root}" ;\
+	  ${s} outDir=${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}.parlamint2release -xsl:Scripts/parlamint2release.xsl $${root} || echo "FATAL ERROR $${root}" ;\
+	done
 
 
 fix-v2tov3-XX = $(addprefix fix-v2tov3-, $(PARLIAMENTS-v2))
@@ -727,12 +748,12 @@ create-taxonomy-UD-SYN:
 	test -d Scripts/UD-docs || git clone git@github.com:UniversalDependencies/docs.git Scripts/UD-docs
 	git -C Scripts/UD-docs checkout pages-source
 	git -C Scripts/UD-docs pull
-	Scripts/create-taxonomy-UD-SYN.pl --in Scripts/UD-docs --out ParlaMint-taxonomy-UD-SYN.ana.xml
+	Scripts/create-taxonomy-UD-SYN.pl --in Scripts/UD-docs --out Corpora/Taxonomies/ParlaMint-taxonomy-UD-SYN.ana.xml --commit $(shell git -C Scripts/UD-docs rev-parse HEAD)
 
 ######################VARIABLES
-s = java $(JM) -jar /usr/share/java/saxon.jar
+s = java $(JM) -jar ./Scripts/bin/saxon.jar
 P = parallel --gnu --halt 2
-j = java $(JM) -jar /usr/share/java/jing.jar
+j = java $(JM) -jar ./Scripts/bin/jing.jar
 copy = -I % $s -xi:on -xsl:Scripts/copy.xsl -s:% -o:%.all-in-one.xml
 vlink = -xsl:Scripts/check-links.xsl
 listlink = -xsl:Scripts/list-links.xsl
@@ -740,9 +761,9 @@ listrole = -xsl:Scripts/list-affiliation-org-role-pairs.xsl
 listattr = -xsl:Scripts/list-element-attribute.xsl
 faff = -xsl:Scripts/fixings/fix-overlapping-affiliations.xsl
 vcontent = -xsl:Scripts/validate-parlamint.xsl
-getincludes = -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
-getheaderincludes = -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="teiHeader"]//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
-getcomponentincludes = -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'/*/*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
+getincludes = -I % java -cp ./Scripts/bin/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
+getheaderincludes = -I % java -cp ./Scripts/bin//saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="teiHeader"]//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
+getcomponentincludes = -I % java -cp ./Scripts/bin/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'/*/*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
 pc =  $j Schema/parla-clarin.rng                # Validate with Parla-CLARIN schema
 vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text

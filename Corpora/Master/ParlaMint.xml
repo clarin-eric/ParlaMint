@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="mul" xml:id="ParlaMint">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
@@ -549,6 +549,18 @@
                      ana="#parla.uni-TR #parla.term-TR #TBMM.24-TR"
                      xml:lang="tr"/>
             <meeting ana="#parla.term-UA #parla.uni-UA"
+                     n="4"
+                     corresp="#ParlaMint-UA"
+                     xml:lang="uk">4</meeting>
+            <meeting ana="#parla.term-UA #parla.uni-UA"
+                     n="5"
+                     corresp="#ParlaMint-UA"
+                     xml:lang="uk">5</meeting>
+            <meeting ana="#parla.term-UA #parla.uni-UA"
+                     n="6"
+                     corresp="#ParlaMint-UA"
+                     xml:lang="uk">6</meeting>
+            <meeting ana="#parla.term-UA #parla.uni-UA"
                      n="7"
                      corresp="#ParlaMint-UA"
                      xml:lang="uk">7</meeting>
@@ -900,6 +912,10 @@
                <resp>Manual metadata retrieval</resp>
                <resp>Translations</resp>
             </respStmt>
+            <respStmt corresp="#ParlaMint-UA">
+               <persName>Andriana Rii</persName>
+               <resp>Manual metadata retrieval</resp>
+            </respStmt>
             <funder>
                <orgName>The CLARIN research infrastructure</orgName>
             </funder>
@@ -950,14 +966,15 @@
             </funder>
             <funder corresp="#ParlaMint-UA">
                <orgName xml:lang="en">Slovenian Research Agency</orgName>
+               <orgName xml:lang="en">CLARIN.SI</orgName>
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.0</edition>
+            <edition>4.1</edition>
          </editionStmt>
          <extent>
             <measure unit="corpora" quantity="29">29 corpora</measure>
-            <measure unit="speeches" quantity="7767178">7,767,178 speeches</measure>
+            <measure unit="speeches" quantity="7995766">7,995,766 speeches</measure>
             <measure unit="speeches" quantity="231759" corresp="#ParlaMint-AT">231,759 speeches</measure>
             <measure unit="speeches" quantity="126252" corresp="#ParlaMint-BA">126,252 speeches</measure>
             <measure xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -995,8 +1012,8 @@
             <measure unit="speeches" quantity="84662" corresp="#ParlaMint-SE">84,662 speeches</measure>
             <measure unit="speeches" quantity="311354" corresp="#ParlaMint-SI">311,354 speeches</measure>
             <measure unit="speeches" quantity="681052" corresp="#ParlaMint-TR">681,052 speeches</measure>
-            <measure unit="speeches" quantity="200849" corresp="#ParlaMint-UA">200,849 speeches</measure>
-            <measure unit="words" quantity="1202106048">1,202,106,048 words</measure>
+            <measure unit="speeches" quantity="429437" corresp="#ParlaMint-UA">429437 speeches</measure>
+            <measure unit="words" quantity="1225187375">1,225,187,375 words</measure>
             <measure unit="words" quantity="60839145" corresp="#ParlaMint-AT">60,839,145 words</measure>
             <measure unit="words" quantity="18307498" corresp="#ParlaMint-BA">18,307,498 words</measure>
             <measure xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1034,19 +1051,19 @@
             <measure unit="words" quantity="28980081" corresp="#ParlaMint-SE">28,980,081 words</measure>
             <measure unit="words" quantity="69921953" corresp="#ParlaMint-SI">69,921,953 words</measure>
             <measure unit="words" quantity="49255262" corresp="#ParlaMint-TR">49,255,262 words</measure>
-            <measure unit="words" quantity="18916463" corresp="#ParlaMint-UA">18,916,463 words</measure>
+            <measure unit="words" quantity="41997790" corresp="#ParlaMint-UA">41997790 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
                <orgName>CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1859</idno>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1912</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-10-23">October 23, 2023</date>
+            <date when="2024-03-06">March 6, 2024</date>
          </publicationStmt>
          <sourceDesc>
             <listBibl corresp="#ParlaMint-AT">
@@ -1345,7 +1362,7 @@
                <bibl>
                   <title type="main" xml:lang="uk">Верховна Рада України</title>
                   <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/</idno>
-                  <date from="2012-12-04" to="2023-09-06">2012-12-04 - 2023-09-06</date>
+                  <date from="2002-05-14" to="2023-11-10">2002-05-14 - 2023-11-10</date>
                </bibl>
             </listBibl>
          </sourceDesc>
@@ -1515,20 +1532,20 @@
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="44716"/>
-               <tagUsage gi="desc" occurs="1613660"/>
-               <tagUsage gi="div" occurs="178353"/>
-               <tagUsage gi="gap" occurs="120310"/>
+               <tagUsage gi="body" occurs="46007"/>
+               <tagUsage gi="desc" occurs="1620489"/>
+               <tagUsage gi="div" occurs="179644"/>
+               <tagUsage gi="gap" occurs="120870"/>
                <tagUsage gi="head" occurs="146981"/>
-               <tagUsage gi="incident" occurs="79440"/>
-               <tagUsage gi="kinesic" occurs="934426"/>
-               <tagUsage gi="note" occurs="7782733"/>
+               <tagUsage gi="incident" occurs="79527"/>
+               <tagUsage gi="kinesic" occurs="936156"/>
+               <tagUsage gi="note" occurs="8167107"/>
                <tagUsage gi="pb" occurs="160325"/>
-               <tagUsage gi="seg" occurs="19392419"/>
-               <tagUsage gi="text" occurs="44716"/>
-               <tagUsage gi="time" occurs="349458"/>
-               <tagUsage gi="u" occurs="7767178"/>
-               <tagUsage gi="vocal" occurs="464322"/>
+               <tagUsage gi="seg" occurs="20119140"/>
+               <tagUsage gi="text" occurs="46007"/>
+               <tagUsage gi="time" occurs="464496"/>
+               <tagUsage gi="u" occurs="7995766"/>
+               <tagUsage gi="vocal" occurs="468774"/>
                <tagUsage gi="body" occurs="1221" corresp="#ParlaMint-AT"/>
                <tagUsage gi="body" occurs="743" corresp="#ParlaMint-BA"/>
                <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1566,7 +1583,7 @@
                <tagUsage gi="body" occurs="938" corresp="#ParlaMint-SE"/>
                <tagUsage gi="body" occurs="1572" corresp="#ParlaMint-SI"/>
                <tagUsage gi="body" occurs="1335" corresp="#ParlaMint-TR"/>
-               <tagUsage gi="body" occurs="1116" corresp="#ParlaMint-UA"/>
+               <tagUsage gi="body" occurs="2407" corresp="#ParlaMint-UA"/>
                <tagUsage gi="desc" occurs="368083" corresp="#ParlaMint-AT"/>
                <tagUsage gi="desc" occurs="7162" corresp="#ParlaMint-BA"/>
                <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1597,7 +1614,7 @@
                <tagUsage gi="desc" occurs="9656" corresp="#ParlaMint-SE"/>
                <tagUsage gi="desc" occurs="42322" corresp="#ParlaMint-SI"/>
                <tagUsage gi="desc" occurs="114378" corresp="#ParlaMint-TR"/>
-               <tagUsage gi="desc" occurs="17147" corresp="#ParlaMint-UA"/>
+               <tagUsage gi="desc" occurs="23976" corresp="#ParlaMint-UA"/>
                <tagUsage gi="div" occurs="1221" corresp="#ParlaMint-AT"/>
                <tagUsage gi="div" occurs="743" corresp="#ParlaMint-BA"/>
                <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1635,7 +1652,7 @@
                <tagUsage gi="div" occurs="15843" corresp="#ParlaMint-SE"/>
                <tagUsage gi="div" occurs="1572" corresp="#ParlaMint-SI"/>
                <tagUsage gi="div" occurs="6495" corresp="#ParlaMint-TR"/>
-               <tagUsage gi="div" occurs="1116" corresp="#ParlaMint-UA"/>
+               <tagUsage gi="div" occurs="2407" corresp="#ParlaMint-UA"/>
                <tagUsage gi="gap" occurs="15162" corresp="#ParlaMint-AT"/>
                <tagUsage gi="gap" occurs="3679" corresp="#ParlaMint-BA"/>
                <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1654,7 +1671,7 @@
                          corresp="#ParlaMint-PL"/>
                <tagUsage gi="gap" occurs="1786" corresp="#ParlaMint-RS"/>
                <tagUsage gi="gap" occurs="38654" corresp="#ParlaMint-SI"/>
-               <tagUsage gi="gap" occurs="597" corresp="#ParlaMint-UA"/>
+               <tagUsage gi="gap" occurs="1157" corresp="#ParlaMint-UA"/>
                <tagUsage gi="head" occurs="14302" corresp="#ParlaMint-DK"/>
                <tagUsage gi="head" occurs="283" corresp="#ParlaMint-ES-CT"/>
                <tagUsage gi="head" occurs="2640" corresp="#ParlaMint-ES"/>
@@ -1700,7 +1717,7 @@
                <tagUsage gi="incident" occurs="103" corresp="#ParlaMint-RS"/>
                <tagUsage gi="incident" occurs="40" corresp="#ParlaMint-SI"/>
                <tagUsage gi="incident" occurs="196" corresp="#ParlaMint-TR"/>
-               <tagUsage gi="incident" occurs="456" corresp="#ParlaMint-UA"/>
+               <tagUsage gi="incident" occurs="543" corresp="#ParlaMint-UA"/>
                <tagUsage gi="kinesic" occurs="253015" corresp="#ParlaMint-AT"/>
                <tagUsage gi="kinesic" occurs="80" corresp="#ParlaMint-BA"/>
                <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1731,7 +1748,7 @@
                <tagUsage gi="kinesic" occurs="9656" corresp="#ParlaMint-SE"/>
                <tagUsage gi="kinesic" occurs="903" corresp="#ParlaMint-SI"/>
                <tagUsage gi="kinesic" occurs="104527" corresp="#ParlaMint-TR"/>
-               <tagUsage gi="kinesic" occurs="6042" corresp="#ParlaMint-UA"/>
+               <tagUsage gi="kinesic" occurs="7772" corresp="#ParlaMint-UA"/>
                <tagUsage gi="note" occurs="680688" corresp="#ParlaMint-AT"/>
                <tagUsage gi="note" occurs="126326" corresp="#ParlaMint-BA"/>
                <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1768,7 +1785,7 @@
                <tagUsage gi="note" occurs="370551" corresp="#ParlaMint-SE"/>
                <tagUsage gi="note" occurs="392734" corresp="#ParlaMint-SI"/>
                <tagUsage gi="note" occurs="109555" corresp="#ParlaMint-TR"/>
-               <tagUsage gi="note" occurs="345746" corresp="#ParlaMint-UA"/>
+               <tagUsage gi="note" occurs="730120" corresp="#ParlaMint-UA"/>
                <tagUsage gi="pb" occurs="119032" corresp="#ParlaMint-AT"/>
                <tagUsage gi="pb" occurs="34185" corresp="#ParlaMint-CZ"/>
                <tagUsage gi="pb" occurs="302" corresp="#ParlaMint-ES-GA"/>
@@ -1810,7 +1827,7 @@
                <tagUsage gi="seg" occurs="535639" corresp="#ParlaMint-SE"/>
                <tagUsage gi="seg" occurs="1009004" corresp="#ParlaMint-SI"/>
                <tagUsage gi="seg" occurs="1572318" corresp="#ParlaMint-TR"/>
-               <tagUsage gi="seg" occurs="686115" corresp="#ParlaMint-UA"/>
+               <tagUsage gi="seg" occurs="1412836" corresp="#ParlaMint-UA"/>
                <tagUsage gi="text" occurs="1221" corresp="#ParlaMint-AT"/>
                <tagUsage gi="text" occurs="743" corresp="#ParlaMint-BA"/>
                <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1848,10 +1865,10 @@
                <tagUsage gi="text" occurs="938" corresp="#ParlaMint-SE"/>
                <tagUsage gi="text" occurs="1572" corresp="#ParlaMint-SI"/>
                <tagUsage gi="text" occurs="1335" corresp="#ParlaMint-TR"/>
-               <tagUsage gi="text" occurs="1116" corresp="#ParlaMint-UA"/>
+               <tagUsage gi="text" occurs="2407" corresp="#ParlaMint-UA"/>
                <tagUsage gi="time" occurs="187824" corresp="#ParlaMint-AT"/>
                <tagUsage gi="time" occurs="30301" corresp="#ParlaMint-CZ"/>
-               <tagUsage gi="time" occurs="131333" corresp="#ParlaMint-UA"/>
+               <tagUsage gi="time" occurs="246371" corresp="#ParlaMint-UA"/>
                <tagUsage gi="u" occurs="231759" corresp="#ParlaMint-AT"/>
                <tagUsage gi="u" occurs="126252" corresp="#ParlaMint-BA"/>
                <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1889,7 +1906,7 @@
                <tagUsage gi="u" occurs="84662" corresp="#ParlaMint-SE"/>
                <tagUsage gi="u" occurs="311354" corresp="#ParlaMint-SI"/>
                <tagUsage gi="u" occurs="681052" corresp="#ParlaMint-TR"/>
-               <tagUsage gi="u" occurs="200849" corresp="#ParlaMint-UA"/>
+               <tagUsage gi="u" occurs="429437" corresp="#ParlaMint-UA"/>
                <tagUsage gi="vocal" occurs="84744" corresp="#ParlaMint-AT"/>
                <tagUsage gi="vocal" occurs="1539" corresp="#ParlaMint-BA"/>
                <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1919,7 +1936,7 @@
                <tagUsage gi="vocal" occurs="1710" corresp="#ParlaMint-RS"/>
                <tagUsage gi="vocal" occurs="2725" corresp="#ParlaMint-SI"/>
                <tagUsage gi="vocal" occurs="9655" corresp="#ParlaMint-TR"/>
-               <tagUsage gi="vocal" occurs="10052" corresp="#ParlaMint-UA"/>
+               <tagUsage gi="vocal" occurs="14504" corresp="#ParlaMint-UA"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -2034,7 +2051,7 @@
                <name type="address">Kossuth tér 1-3.</name>
                <name type="city">Budapest</name>
                <name type="country" key="HU">Hungary</name>
-               <date from="2014-05-06" to="2022-06-15"/>
+               <date from="2014-05-06" to="2023-07-31">2014.05.06 - 2023.07.31.</date>
             </setting>
             <setting corresp="#ParlaMint-IS">
                <name type="address">Kirkjustræti</name>
@@ -2109,7 +2126,7 @@
                <name type="address">вулиця Михайла Грушевського, 5</name>
                <name type="city">Київ</name>
                <name key="UA" type="country">Україна</name>
-               <date from="2012-12-04" to="2023-09-06">2012-12-04 - 2023-09-06</date>
+               <date from="2002-05-14" to="2023-11-10">2002-05-14 - 2023-11-10</date>
             </setting>
          </settingDesc>
          <textClass>
@@ -2421,16 +2438,16 @@
             <language ident="en" xml:lang="en">English</language>
          </langUsage>
          <langUsage corresp="#ParlaMint-UA">
-            <language xml:lang="en" ident="uk" usage="98">Ukrainian</language>
-            <language xml:lang="uk" ident="uk" usage="98">Українська</language>
-            <language xml:lang="en" ident="ru" usage="2">Russian</language>
-            <language xml:lang="uk" ident="ru" usage="2">Російська</language>
+            <language xml:lang="en" ident="uk" usage="94">Ukrainian</language>
+            <language xml:lang="uk" ident="uk" usage="94">Українська</language>
+            <language xml:lang="en" ident="ru" usage="6">Russian</language>
+            <language xml:lang="uk" ident="ru" usage="6">Російська</language>
             <language xml:lang="en" ident="en" usage="0">English</language>
             <language xml:lang="uk" ident="en" usage="0">Aнглійська</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-10-23">
+         <change when="2024-03-06">
             <name>Tomaž Erjavec</name>: Generate root</change>
       </revisionDesc>
    </teiHeader>

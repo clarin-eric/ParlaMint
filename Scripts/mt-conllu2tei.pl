@@ -34,7 +34,9 @@ $outDir    = File::Spec->rel2abs($outDir);
 # This probably should be done with the standard taxonomy copying scripts, this is a bit of a hack!
 $USAStaxonomy = "$Bin/../Corpora/Taxonomies/ParlaMint-taxonomy-USAS.ana.xml";
 
-$saxon = "java -jar -Xmx240g /usr/share/java/saxon.jar";
+# We give 240g heap to Saxon because of large corpora!
+$Saxon   = "java -jar -Xmx240g $Bin/bin/saxon.jar";
+
 $scriptStripSents  = "$Bin/mt-prepare4mt.xsl";
 $scriptConllu2Tei  = "$Bin/conllu2tei.pl";
 $scriptInsertNotes = "$Bin/mt-insert-notes.xsl";
@@ -45,7 +47,7 @@ print STDERR "INFO: Preparing data for $country\n";
 $tmpTEI = "$tmpDir/ParlaMint-XX.tmp";
 mkdir $tmpTEI unless -d $tmpTEI;
 # In $tmpTEI/ make corpus with empty sentences
-`$saxon outDir=$tmpTEI -xsl:$scriptStripSents $inTEI`;
+`$Saxon outDir=$tmpTEI -xsl:$scriptStripSents $inTEI`;
 `mkdir -p $outDir` unless -d $outDir;
 `rm -r $outDir/*`;
 `cp $tmpTEI/*.xml $outDir`;
@@ -67,7 +69,7 @@ foreach $yearDir (glob "$tmpTEI/*") {
 	$outFile = "$outDir/$year/$fName.ana.xml";
 	print STDERR "INFO: Processing $year/$fName\n";
 	`$scriptConllu2Tei < $conllFile > $tmpFile1`;
-	`$saxon notesFile=$notesFile -xsl:$scriptInsertNotes $inFile > $tmpFile2`;
+	`$Saxon notesFile=$notesFile -xsl:$scriptInsertNotes $inFile > $tmpFile2`;
 	`$scriptInsertSents $tmpFile1 < $tmpFile2 | $scriptPolish > $outFile`;
     }
 }

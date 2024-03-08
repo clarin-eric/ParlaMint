@@ -9,22 +9,20 @@ $inDirs = shift;
 $outDirs = shift;
 
 foreach $inDir (glob $inDirs) {
-    ($corpus) = $inDir =~ m|(ParlaMint-[A-Z]{2}(-[A-Z]{2})?)|;
-    #We currently copy over only MTed files!!
-    next unless $inDir =~ m|$corpus-en|;
-    $outDir = "$outDirs/$corpus";
-    print STDERR "INFO: Doing $corpus ($inDir -> $outDir)\n";
-    die "Can't find $outDir\n" unless -e $outDir;
-    # Because we are copying MTed files, we don't want to delete all the original ones!
-    # `rm -f $outDir/*.xml`;
-    # `rm -f $outDir/*.conllu`;
-    # `rm -f $outDir/*.tsv`;
-    # `rm -f $outDir/*.txt`;
-    # `rm -f $outDir/*.vert`;
-    # `rm -f $outDir/*.tbl`;   #Chars info, obsolete
-    # We don't want to copy everyting, just the MTed files!
-    #`cp -f $inDir/* $outDir`;
-    `cp $inDir/ParlaMint-taxonomy-USAS.ana.xml $outDir`;
-    `cp $inDir/*-en.* $outDir`;
-    `cp $inDir/*-en_* $outDir`;
+    if (my ($corpus, $bla, $mt) = $inDir =~ m|(ParlaMint-[A-Z]{2}(-[A-Z]{2})?)(-[a-z]{2})?$|) {
+        $mt = '' unless $mt;
+        $outDir = "$outDirs/$corpus";
+        
+        print STDERR "INFO: Copying $corpus$mt ($inDir -> $outDir)\n";
+        unless (-e $outDir) {
+            print STDERR "WARN: $outDir does not exist, creating it\n";
+            `mkdir $outDir`
+        }
+        elsif (not exists $seen{$corpus}) {
+            print STDERR "INFO: First removing old $corpus files from $outDir\n";
+            `rm -fr $outDir/*`;
+            $seen{$corpus}++
+        }
+        `cp -r $inDir/* $outDir`
+    }
 }

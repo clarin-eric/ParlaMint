@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" xml:id="ParlaMint-ES_2023-02-23-CD230223" ana="#parla.sitting #covid #war">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" type="main">Spanish parliamentary corpus ParlaMint-ES, Plenary session 239 (2023-02-23) [ParlaMint SAMPLE]</title>
+            <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 239 (2023-02-23) [ParlaMint SAMPLE]</title>
+            <title xml:lang="es" type="sub">Sesión plenaria núm. 239 (2023-02-23)</title>
+            <title xml:lang="en" type="sub">Plenary session 239 (2023-02-23)</title>
+            <meeting n="2023-02-23" corresp="#CD" ana="#parla.lower #parla.sitting">2023-02-23</meeting>
+            <meeting n="239" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 239</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-0830-4837">María Calzada Pérez</persName>
+               <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://www.linkedin.com/in/ruben-de-libano/">Ruben de Libano</persName>
+               <resp xml:lang="en">XML tagging improvement</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://www.linkedin.com/in/monica-albini-3179ba166/">Monica Albini</persName>
+               <resp xml:lang="en">Data retrieval and conversion to XML. Quality Control</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Maria del Mar Bonet Ramos</persName>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="es">CLARIN infraestructura de investigación científica</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="es">Ministerio de Ciencia e Innovación</orgName>
+               <orgName xml:lang="en">Ministry of Science and Innovation of Spain</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="74" xml:lang="es">74 intervenciones</measure>
+            <measure unit="speeches" quantity="74" xml:lang="en">74 speeches</measure>
+            <measure unit="words" quantity="16765" xml:lang="es">16,765 palabras</measure>
+            <measure unit="words" quantity="16765" xml:lang="en">16,765 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="es">Infraestructura de investigación CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-03-03">2024-03-03</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title xml:lang="es" type="main">CORTES GENERALES DIARIO DE SESIONES DEL CONGRESO DE LOS DIPUTADOS PLENO Y DIPUTACIÓN PERMANENTE</title>
+               <idno type="URI" subtype="parliament">http://www.congreso.es</idno>
+               <date when="2023-02-23">2023-02-23</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="es"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="98"/>
+               <tagUsage gi="div" occurs="11"/>
+               <tagUsage gi="gap" occurs="1"/>
+               <tagUsage gi="head" occurs="11"/>
+               <tagUsage gi="incident" occurs="20"/>
+               <tagUsage gi="kinesic" occurs="63"/>
+               <tagUsage gi="note" occurs="9"/>
+               <tagUsage gi="seg" occurs="222"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="74"/>
+               <tagUsage gi="vocal" occurs="14"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Calle Floridablanca, s/n. 28071</name>
+               <name type="city">Madrid</name>
+               <name type="country" key="ES">Spain</name>
+               <date ana="#parla.sitting" when="2023-02-23">2023-02-23</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-03-03">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid #war">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-ES_2023-02-23-CD230223.head1">PALABRAS DE LA PRESIDENCIA</head>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u1" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p1">Muy buenos días, señorías. Se reanuda la sesión.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2">Antes de iniciar la sesión, me gustaría pronunciar unas breves palabras: Mañana, 24 de febrero, se cumple un año del comienzo de la guerra en Ucrania, desencadenada por una agresión ilegal y brutal a un país soberano. La guerra, durante este año, ha supuesto un desafío a nuestros valores compartidos como demócratas y como europeos. Rusia no solo ha violado el derecho internacional al invadir el territorio de otro país, lo ha hecho también atacando de forma indiscriminada a la población civil y cometiendo crímenes de guerra en territorio ucraniano. Pese a todo ello, un año después, Ucrania sigue en pie, luchando por su dignidad y su libertad.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3">En defensa de estos valores y en solidaridad con todas las víctimas de la guerra, especialmente de los niños y las niñas, en nombre del Congreso de los Diputados, representante del pueblo español, quiero reiterar que estamos con el puebloucraniano, compartiendo su dolor y su sufrimiento y confiando en que, lo antes posible, se abra paso una paz justa y podamos dejar atrás la barbarie que estamos viviendo en el corazón de Europa.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p4">Muchísimas gracias.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-ES_2023-02-23-CD230223.kinesic1">
+                  <desc>Aplausos</desc>
+               </kinesic>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-ES_2023-02-23-CD230223.head2">TRAMITACIÓN DIRECTA Y EN LECTURA ÚNICA DE INICIATIVAS LEGISLATIVAS - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 28/1990, DE 26 DE DICIEMBRE, POR LA QUE SE APRUEBA EL CONVENIO ECONÓMICO ENTRE EL ESTADO Y LA COMUNIDAD FORAL DE NAVARRA. . - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 12/2002, DE 23 DE MAYO, POR LA QUE SE APRUEBA EL CONCIERTO ECONÓMICO CON LA COMUNIDAD AUTÓNOMA DEL PAÍS VASCO. . - PROYECTO DE LEY POR LA QUE SE APRUEBA LA METODOLOGÍA DE SEÑALAMIENTO DEL CUPO DEL PAÍS VASCO PARA EL QUINQUENIO 2022-2026. .</head>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u2" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1">Comenzamos con los puntos del orden del día relativos a la tramitación directa y en lectura única de los proyectos de ley por la que se modifica la Ley 28/1990, de 26 de diciembre, por la que se aprueba el Convenio Económico entre el Estado y la Comunidad Foral de Navarra; por la que se modifica la Ley 12/2002, de 23 de mayo, por la que se aprueba el Concierto Económico con la Comunidad Autónoma del País Vasco, y por la que se aprueba la metodología de señalamiento del Cupo del País Vasco para el quinquenio 20222026.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2">De conformidad con lo acordado por la Junta de Portavoces, estos puntos se debatirán acumuladamente. Les recuerdo que, finalizado este debate, se votarán las enmiendas a la totalidad correspondientes a estas iniciativas. Tiene la palabra,en primer lugar, en nombre del Gobierno, la señora ministra de Hacienda y Función Pública.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection">
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u73" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1">Avocación de iniciativas legislativas. Votación de la solicitud de avocación por el Pleno de la Cámara de la deliberación y votación final del Proyecto de Ley de Movilidad Sostenible, presentada por el Grupo Parlamentario Plural, señor Errejón Galván.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p2">Comienza la votación.</seg>
+               <incident type="pause" xml:id="ParlaMint-ES_2023-02-23-CD230223.incident20">
+                  <desc>Pausa</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3">Efectuada la votación, dio el siguiente resultado: votos emitidos, 339; a favor, 339.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u74" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p1">En consecuencia, queda aprobada la avocación a Pleno.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p2">Muchas gracias a todos.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p3">Se levanta la sesión.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p4">Eran las doce del mediodía.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

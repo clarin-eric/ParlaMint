@@ -93,4 +93,7 @@ jobs:
           git status
           git commit -a -m "action: generating ParlaMint-${{needs.Changes.outputs.parla_changed}} sample files with #${{github.event.number}}"
           git push
+      - name: Commit new sample root
+        if: ${{ success() }}
+        uses: ./ParlaMint/.github/actions/ParlaMintSample2root
 

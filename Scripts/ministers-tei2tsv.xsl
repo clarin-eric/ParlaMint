@@ -52,8 +52,8 @@
 	<xsl:text>To&#9;</xsl:text>
 	<xsl:text>GovtTermID&#9;</xsl:text>
 	<xsl:text>MinistryID&#9;</xsl:text>
-	<xsl:text>Name-xx&#9;</xsl:text>
-	<xsl:text>Name-en&#9;</xsl:text>
+	<xsl:text>orgName-xx&#9;</xsl:text>
+	<xsl:text>orgName-en&#9;</xsl:text>
 	<xsl:text>URL&#9;</xsl:text>
 	<xsl:text>Comment&#10;</xsl:text>
         <xsl:variable name="row">
@@ -167,38 +167,38 @@
     <xsl:text>&#9;</xsl:text>
     <!-- Minister of which ministry in local language -->
     <xsl:choose>
-      <!-- How it is done in ParlaMint 3.* -->
-      <xsl:when test="tei:roleName">
+      <xsl:when test="tei:orgName">
 	<xsl:choose>
-	  <xsl:when test="tei:roleName[@xml:lang = $lang]">
-            <xsl:value-of select="tei:roleName[@xml:lang = $lang]"/>
+	  <xsl:when test="tei:orgName[@xml:lang = $lang]">
+            <xsl:value-of select="tei:orgName[@xml:lang = $lang]"/>
 	  </xsl:when>
 	  <xsl:otherwise>-</xsl:otherwise>
 	</xsl:choose>
       </xsl:when>
-      <!-- How it is done in ParlaMint 2.* -->
-      <xsl:when test="normalize-space(.) and @xml:lang = $lang">
-        <xsl:value-of select="."/>
+      <xsl:when test="tei:roleName[@xml:lang = $lang]">
+        <xsl:message select="concat('WARN: ministry affiliation has roleName, but script outputs orgName, so ', 
+                             tei:roleName[@xml:lang = $lang],
+                             ' will be ignored')"/>
+	<xsl:text>-</xsl:text>
       </xsl:when>
-      <xsl:otherwise>-</xsl:otherwise>
     </xsl:choose>
     <xsl:text>&#9;</xsl:text>
     <!-- Minister free text in English -->
     <xsl:choose>
-      <!-- How it is done in ParlaMint 3.* -->
-      <xsl:when test="tei:roleName">
+      <xsl:when test="tei:orgName">
 	<xsl:choose>
-	  <xsl:when test="tei:roleName[@xml:lang = 'en']">
-            <xsl:value-of select="tei:roleName[@xml:lang = 'en']"/>
+	  <xsl:when test="tei:orgName[@xml:lang = 'en']">
+            <xsl:value-of select="tei:orgName[@xml:lang = 'en']"/>
 	  </xsl:when>
 	  <xsl:otherwise>-</xsl:otherwise>
 	</xsl:choose>
       </xsl:when>
-      <!-- How it is done in ParlaMint 2.* -->
-      <xsl:when test="normalize-space(.) and @xml:lang = 'en'">
-        <xsl:value-of select="."/>
+      <xsl:when test="tei:roleName[@xml:lang = 'en']">
+        <xsl:message select="concat('WARN: ministry affiliation has roleName, but script outputs orgName, so ', 
+                             tei:roleName[@xml:lang = 'en'],
+                             ' will be ignored')"/>
+	<xsl:text>-</xsl:text>
       </xsl:when>
-      <xsl:otherwise>-</xsl:otherwise>
     </xsl:choose>
     <xsl:text>&#9;</xsl:text>
     <!-- URL -->

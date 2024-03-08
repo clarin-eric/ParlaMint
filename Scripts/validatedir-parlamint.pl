@@ -11,8 +11,9 @@ $inDirs = File::Spec->rel2abs(shift);
 binmode(STDOUT, 'utf8');
 binmode(STDERR, 'utf8');
 
-$Jing  = 'java -jar /usr/share/java/jing.jar';
-$Saxon = 'java -jar /usr/share/java/saxon.jar';
+$Jing    = "java -jar $Bin/bin/jing.jar";
+$Saxon   = "java -jar $Bin/bin/saxon.jar";
+
 $Links = "$Bin/check-links.xsl";
 $Val   = "$Bin/validate-parlamint.xsl";
 

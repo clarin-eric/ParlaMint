@@ -53,7 +53,7 @@ $country2lang{'TR'} = 'tr';
 $country2lang{'UA'} = 'uk'; 
 
 $bkpName = "BKP";
-$Saxon = 'java -jar /usr/share/java/saxon.jar';
+$Saxon   = "java -jar $Bin/bin/saxon.jar";
 $scriptFactorise  = "$Bin/parlamint-factorize-teiHeader.xsl";
 $scriptTaxonomy= "$Bin/parlamint-init-taxonomy.xsl";
 

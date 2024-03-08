@@ -79,8 +79,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     if    ($handleTEI) {$handleTxt = $handleTEI}
     elsif ($handleAna) {$handleTxt = $handleAna}
     else {die "FATAL: No handle given for TEI or .ana distribution\n"}
-    if ($MT) {$inReadme = "$docsDir/README-$MT.txt.txt"}
-    else {$inReadme = "$docsDir/README.txt.txt"}
+    if ($MT) {$inReadme = "$docsDir/README-$MT.text.txt"}
+    else {$inReadme = "$docsDir/README.text.txt"}
     &cp_readme($countryCode, $handleTxt, $Version, $inReadme, "$outTxtDir/00README.txt");
     
     print STDERR "INFO: ***Making $countryCode CoNLL-U\n";

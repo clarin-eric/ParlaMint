@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="bs" xml:id="ParlaMint-BA_2013-10-07-0" ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bs">Bosanski parlamentarni korpus ParlaMint-BA, Mandat 6, Sjednica 54 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Bosnian parliamentary corpus ParlaMint-BA, Term 6, Session 54 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="bs">Zapisnici sjednica parlamentarne skupštine, mandat 6, sjednica 54</title>
+            <title type="sub" xml:lang="en">Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 6, Session 54</title>
+            <meeting n="6" corresp="#PS" ana="#parla.uni #parla.term #PS.6">6. mandat</meeting>
+            <meeting n="54" corresp="#PS" ana="#parla.uni #parla.meeting">Sjednica 54</meeting>
+            <meeting n="2013-10-07" corresp="#PS" ana="#parla.uni #parla.sitting">2013-10-07</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="bs">Preuzimanje i čiščenje digitalnog izvora</resp>
+               <resp xml:lang="en">Download and clean-up of the JSON digital source</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+               <resp xml:lang="bs">Kodiranje Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Peter Rupnik</persName>
+               <resp xml:lang="bs">Kodiranje Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="bs">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="215" xml:lang="bs">215 govora</measure>
+            <measure unit="speeches" quantity="215" xml:lang="en">215 speeches</measure>
+            <measure unit="words" quantity="36932" xml:lang="bs">36,932 riječi</measure>
+            <measure unit="words" quantity="36932" xml:lang="en">36,932 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="bs">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="bs">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2024-03-06">2024-03-06</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Minutes of the Parliamentary Assembly of Bosnia and Herzegovina</title>
+               <idno type="URI" subtype="parliament">https://www.javnarasprava.ba/</idno>
+               <idno type="URI" subtype="parliament">https://www.parlament.ba/</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="bs"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="13"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="6"/>
+               <tagUsage gi="incident" occurs="7"/>
+               <tagUsage gi="note" occurs="215"/>
+               <tagUsage gi="seg" occurs="228"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="215"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Trg BiH 1</name>
+               <name type="city">Sarajevo</name>
+               <name type="country" key="BA">Bosnia and Herzegovina</name>
+               <date when="2013-10-07" ana="#parla.sitting">2013-10-07</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2024-03-06">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2022-12-19">
+            <name>Peter Rupnik</name> Compile from source</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <note type="speaker" xml:id="ParlaMint-BA_2013-10-07-0.note1">Bećirović, Denis</note>
+            <u who="#BećirovićDenis" ana="#chair" n="ParlaMint-BIH_ZD.T6.S54.u17114" xml:id="ParlaMint-BA_2013-10-07-0.u17114">
+               <seg xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0">Dame i gospodo poslanici, poštovani gosti otvaram 54. sjednicu Predstavničkog doma Parlamentarne skupštine BiH. Na sjednicu su pozvani naši redovni gosti: predsjedavajući i članovi Predsjedništva BiH, predsjedavajući i članovi Vijeća ministara BiH, predstavnici međunarodnih organizacija i ambasada u BiH, predstavnici medija. Također na sjednicu su pozvani predstavnici Ureda za reviziju institucija BiH i Visokog sudskog i tužilačkog vijeća BiH, čiji su izvještaji na dnevnom redu sjednice. Srdačno pozdravljam sve prisutne poslanike i goste. Odsustvo sa ove sjednice opravdali su poslanici: Milorad Živković, Božo Ljubić, Mato Franjičević, Ismeta Dervoz, Nermina Ćemalović, Anto Domazet, Emir Kabil, Drago Kalabić i Salko Sokolović, a kašnjenje su najavili Danijela Martinović i Dragan Vrankić. Prema informaciji službe sjednici je prisutno 28 poslanika. Konstatiram da sjednica ima kvorum za rad i odlučivanje. Kada je riječ o izmjenama i dopunama dnevnog reda sjednice želim napomenuti sljedeće. Na dnevni red je dodata tačka 22. Davanje saglasnosti za ratifikaciju Ugovora o zajmu (Projekat kanalizacije Cazin) između Bosne i Hercegovine i Evropske banke za obnovu i razvoj, broj: 01,02- 05-2-1019/13 od 24.09.2013. Otvaram raspravu o predloženom dnevnom redu. Za diskusiju o dnevnom redu prijavio se poslanik Beriz Belkić. Izvolite.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-BA_2013-10-07-0.note2">Belkić, Beriz</note>
+            <u who="#BelkićBeriz" ana="#regular" n="ParlaMint-BIH_ZD.T6.S54.u17115" xml:id="ParlaMint-BA_2013-10-07-0.u17115">
+               <seg xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0">Pa evo, mi, dakle poslanik dr Azra Hadžiahmetović i ja, predlažemo da se na današnju sjednicu uvrsti i tačka dnevnog reda koja bi glasila – Informacija sa posljednjeg zasijedanja Parlamentarne skupštine Vijeća Evrope vezano za Izvještaj o funkcionisanju demokratskih institucija u Bosni i Hercegovini. Nama je poznato, naravno, da je potrebno obezbijediti pisani materijal, međutim mi mislimo da je taj materijal već ranije dostavljen svim poslanicima i može on biti osnov za ovu informaciju. Dakle, radi se o onom materijalu koji govori o funkcionisanju demokratskih institucija i Prijedlogu rezolucije. 2 Da vas podsjetim mi smo prije zasijedanja Parlamentarne skupštine Vijeća Evrope tražili da se hitno sazove sjednica Parlamenta u funkciji pripreme delegacije, rasprave o Izvještaju, itd. Nažalost to se nije desilo. Mi mislimo da bi bilo dobro a ne da iz sredstava javnih informisanja saznajemo šta se je to gore praktično desilo. Dakle, da predsjedavajući delegacije podnese jednu kratku informaciju, da nas informira šta se gore praktično desilo. Evo, ja ću dati ovu tačku dnevnog reda i još uz napomenu – svi smo dobili prije možda 15- ak, 20 dana ovaj Izvještaj i imali priliku da vidimo tekst Rezolucije, ali ne znamo praktično šta se je to gore desilo. Obaveza je ove naše delegacije da ovaj Parlament izvještava najmanje jednom godišnje o zasijedanjima. Evo, ja dostavljam ovu tačku dnevnog reda.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#ProdanovićLazar" ana="#regular" n="ParlaMint-BIH_ZD.T6.S54.u17356" xml:id="ParlaMint-BA_2013-10-07-0.u17356">
+               <seg xml:id="ParlaMint-BA_2013-10-07-0.u17356.seg0">nije uključen mikrofon</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-BA_2013-10-07-0.note215">Bećirović, Denis</note>
+            <u who="#BećirovićDenis" ana="#chair" n="ParlaMint-BIH_ZD.T6.S54.u17357" xml:id="ParlaMint-BA_2013-10-07-0.u17357">
+               <seg xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0">Molim vas da se pripremite za glasanje, da ponovimo još jednom. Iako smo zaključili, evo da ne bude nikakvih dilema. Glasajte sad ponovo. Suštinski se ništa nije promijenilo, evo jedino ima 12 protiv umjesto 11. Dozvolite da svim Bošnjacima muslimanima čestitam predstojeći Kurban bajram, da ga provedu u zdravlju i rahatluku. Napominjem da je naredna sjednica Predstavničkog doma 24. oktobra, a ova zajednička 23. oktobra. Hvala vam na saradnji. Sjednica završena u 17:10 sati.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

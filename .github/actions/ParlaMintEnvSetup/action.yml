@@ -44,48 +44,45 @@ runs:
       uses: actions/cache@v3
       with:
         path: |
-          ParlaMint/Scripts/tools
-          Saxon.jar
-          /usr/share/java/saxon.jar
-          jing/build/jing.jar
-          /usr/share/java/jing.jar
-        key: ${{ runner.os }}-ParlaMint-deps-V6
+          ParlaMint/Scripts/bin/tools
+          ParlaMint/Scripts/bin/Saxon/saxon-he-12.4.jar
+          ParlaMint/Scripts/bin/Saxon/lib
+        key: ${{ runner.os }}-ParlaMint-deps-V8
     - name: Cache hit
       if: steps.cache_deps.outputs.cache-hit == 'true'
       run: |
         echo "::debug::Dependencies cache hit"
         pwd
-        ls -l $GITHUB_WORKSPACE/ParlaMint/Scripts/tools \
-          $GITHUB_WORKSPACE/Saxon.jar \
-          /usr/share/java/saxon.jar \
-          $GITHUB_WORKSPACE/jing/build/jing.jar \
-          /usr/share/java/jing.jar \
+        ls -l $GITHUB_WORKSPACE/ParlaMint/Scripts/bin/tools \
+          $GITHUB_WORKSPACE/ParlaMint/Scripts/bin/Saxon/saxon-he-12.4.jar
       shell: bash
     - name: Checkout UniversalDependencies tools
       if: steps.cache_deps.outputs.cache-hit != 'true'
       uses: actions/checkout@v3
       with:
         repository: UniversalDependencies/tools
-        path: ParlaMint/Scripts/tools
+        path: ParlaMint/Scripts/bin/tools
     - name: Download Saxon
       if: steps.cache_deps.outputs.cache-hit != 'true'
       run: |
-          wget https://search.maven.org/remotecontent?filepath=net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar -O Saxon.jar
-          sudo ln -s $GITHUB_WORKSPACE/Saxon.jar /usr/share/java/saxon.jar
+          cd $GITHUB_WORKSPACE/ParlaMint/Scripts/bin/Saxon
+          wget https://github.com/Saxonica/Saxon-HE/releases/download/SaxonHE12-4/SaxonHE12-4J.zip
+          unzip SaxonHE12-4J.zip
       shell: bash
-    - name: Checkout jing
-      if: steps.cache_deps.outputs.cache-hit != 'true'
-      uses: actions/checkout@v3
-      with:
-        repository: relaxng/jing-trang
-        path: jing
-    - name: Build jing
-      if: steps.cache_deps.outputs.cache-hit != 'true'
-      run: |
-          cd $GITHUB_WORKSPACE/jing
-          ./ant
-          sudo ln -s $GITHUB_WORKSPACE/jing/build/jing.jar /usr/share/java/jing.jar
-      shell: bash
+    # skip jing setup already in repository
+    # - name: Checkout jing
+    #   if: steps.cache_deps.outputs.cache-hit != 'true'
+    #   uses: actions/checkout@v3
+    #   with:
+    #     repository: relaxng/jing-trang
+    #     path: jing
+    # - name: Build jing
+    #   if: steps.cache_deps.outputs.cache-hit != 'true'
+    #   run: |
+    #       cd $GITHUB_WORKSPACE/jing
+    #       ./ant
+    #       sudo ln -s $GITHUB_WORKSPACE/jing/build/jing.jar /usr/share/java/jing.jar
+    #   shell: bash
     - name: Setup git
       run: |
           cd $GITHUB_WORKSPACE/ParlaMint

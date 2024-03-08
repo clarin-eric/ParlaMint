@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Insert minister affiliations from TSV into the the listPersons file
-     Note that all existing minister affiliations in TEI and removed
+     Note that all existing minister affiliations in TEI are removed!
 -->
 <xsl:stylesheet
     version="2.0"
@@ -17,6 +17,9 @@
   <!-- File with TSV data -->
   <xsl:param name="tsv"/>
   
+  <!-- Support XML file with listOrg data -->
+  <xsl:param name="xml"/>
+  
   <xsl:output method="xml" version="1.0" encoding="utf-8" indent="yes" omit-xml-declaration="no"/>
 
   <!-- Get country of corpus from filename -->
@@ -25,6 +28,8 @@
                         '.*ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', 
                         '$1')"/>
   <xsl:variable name="listPerson" select="/tei:listPerson"/>
+  <xsl:variable name="listOrg" select="document($xml)/tei:listOrg"/>
+  <xsl:variable name="govtID" select="$listOrg//tei:org[@role = 'government']/@xml:id"/>
   
   <!-- Parse TSV into a 
        listPerson/person[@xml:id]/affiliation[@role='minister']@from][@to][@ref][@ana] structure -->
@@ -51,8 +56,8 @@
               <xsl:variable name="to" select="normalize-space(regex-group(5))"/>
               <xsl:variable name="govtTermID" select="normalize-space(regex-group(6))"/>
               <xsl:variable name="ministryID" select="normalize-space(regex-group(7))"/>
-              <xsl:variable name="name-xx" select="normalize-space(regex-group(8))"/>
-              <xsl:variable name="name-en" select="normalize-space(regex-group(9))"/>
+              <xsl:variable name="orgName-xx" select="normalize-space(regex-group(8))"/>
+              <xsl:variable name="orgName-en" select="normalize-space(regex-group(9))"/>
               <xsl:variable name="url" select="normalize-space(regex-group(10))"/>
               <xsl:variable name="comment" select="normalize-space(regex-group(11))"/>
               <xsl:if test = '$country != $corpusCountry'>
@@ -80,8 +85,8 @@
                     <xsl:with-param name="to" select="$to"/>
                     <xsl:with-param name="govtTermID" select="$govtTermID"/>
                     <xsl:with-param name="ministryID" select="$ministryID"/>
-                    <xsl:with-param name="name-xx" select="$name-xx"/>
-                    <xsl:with-param name="name-en" select="$name-en"/>
+                    <xsl:with-param name="orgName-xx" select="$orgName-xx"/>
+                    <xsl:with-param name="orgName-en" select="$orgName-en"/>
                     <xsl:with-param name="url" select="$url"/>
                   </xsl:call-template>
                 </xsl:otherwise>
@@ -109,12 +114,10 @@
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates/>
       <xsl:if test="$minister/self::tei:person">
-        <xsl:message select="concat('INFO: Inserting minister affiliation(s) for &#34;', 
-			     @xml:id, '&#34;')"/>
+        <xsl:variable name="id" select="@xml:id"/>
         <xsl:for-each select="$minister/tei:affiliation">
-          <xsl:message select="concat('INFO: Inserting affiliation &#34;', 
-                               @role, '&#34; from &#34;', @from, '&#34; to &#34;', 
-			       @to, '&#34;')"/>
+          <xsl:message select="concat('INFO: Inserting affiliation ', @role, ' for ', $id, 
+                               ' from &#34;', @from, '&#34; to &#34;', @to, '&#34;')"/>
           <xsl:copy-of select="."/>
         </xsl:for-each>
       </xsl:if>
@@ -143,78 +146,119 @@
     <xsl:param name="to"/>
     <xsl:param name="govtTermID"/>
     <xsl:param name="ministryID"/>
-    <xsl:param name="name-xx"/>
-    <xsl:param name="name-en"/>
+    <xsl:param name="orgName-xx"/>
+    <xsl:param name="orgName-en"/>
     <xsl:param name="url"/>
     <person xml:id="{$personID}">
-      <affiliation role="minister">
+      
+      <!-- Check if $from, $to exists and are well formed, if so, they get put in $from-ok, $to-ok -->
+      <xsl:variable name="from-ok">
         <xsl:if test="et:has-content($from)">
 	  <xsl:choose>
 	    <xsl:when test="$from castable as xs:date">
-              <xsl:attribute name="from" select="$from"/>
+              <xsl:value-of select="$from"/>
 	    </xsl:when>
 	    <xsl:otherwise>
-              <xsl:message terminate="no"
-                           select="concat('ERROR: Date &#34;', $from, '&#34; is not a proper date.')"/>
+              <xsl:message select="concat('ERROR: Date from &#34;', $from, '&#34; is not a proper date.')"/>
 	    </xsl:otherwise>
 	  </xsl:choose>
         </xsl:if>
+      </xsl:variable>
+      <xsl:variable name="to-ok">
         <xsl:if test="et:has-content($to)">
-          <xsl:attribute name="to" select="$to"/>
+	  <xsl:choose>
+	    <xsl:when test="$to castable as xs:date">
+              <xsl:value-of select="$to"/>
+	    </xsl:when>
+	    <xsl:otherwise>
+              <xsl:message select="concat('ERROR: Date to &#34;', $to, '&#34; is not a proper date.')"/>
+	    </xsl:otherwise>
+	  </xsl:choose>
         </xsl:if>
-        <xsl:variable name="govtEvent" select="key('id', $govtTermID, $listPerson)/
-                                               self::tei:event/@xml:id"/>
-        <xsl:if test="et:has-content($govtTermID)">
-          <xsl:choose>
-            <xsl:when test = "not(normalize-space($govtEvent))">
-              <xsl:message terminate="no"
-                           select="concat('WARN: Cant find government term with ID &#34;', 
-                                   $govtTermID, '&#34; in corpus header, inserting as note.')"/>
-            </xsl:when>
-            <xsl:otherwise>
-	      <!-- Re-insert # in references to ID for affiliation/@ref -->
-	      <xsl:attribute name="ref" select="concat('#', $govtEvent)"/>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:if>
-        <xsl:if test="et:has-content($govtTermID) or 
-                      et:has-content($ministryID)">
-	  <xsl:variable name="govOrg" select="key('id', $govtTermID, $listPerson)/tei:org/@xml:id"/>
-	  <xsl:variable name="miniOrg" select="key('id', $ministryID, $listPerson)/tei:org/@xml:id"/>
-	  <xsl:variable name="ana">
-            <xsl:if test="et:has-content($govtTermID)">
-	      <xsl:if test="normalize-space($govOrg)">
-		<xsl:value-of select="concat('#', normalize-space($govtTermID))"/>
-	      </xsl:if>
+      </xsl:variable>
+
+      <!-- Insert that they are - by definition - a member of the governemnt -->
+      <xsl:choose>
+        <xsl:when test="normalize-space($govtID)">
+          <affiliation role="member" ref="{concat('#', $govtID)}">
+            <xsl:if test="normalize-space($from-ok)">
+              <xsl:attribute name="from" select="$from-ok"/>
             </xsl:if>
-            <xsl:text>&#32;</xsl:text>
-            <xsl:if test="et:has-content($ministryID)">
-	      <xsl:choose>
-		<xsl:when test="normalize-space($miniOrg)">
-		  <xsl:value-of select="concat('#', normalize-space($miniOrg))"/>
-		</xsl:when>
-		<xsl:otherwise>
-		  <xsl:message select="concat('ERROR: Cant find ministry &#34;', 
-                                       $ministryID, '&#34; in corpus header, ignoring!')"/>
-		</xsl:otherwise>
-	      </xsl:choose>
+            <xsl:if test="normalize-space($to-ok)">
+              <xsl:attribute name="to" select="$to-ok"/>
             </xsl:if>
-          </xsl:variable>
-	  <xsl:if test="normalize-space($ana)">
-            <xsl:attribute name="ana" select="normalize-space($ana)"/>
-	  </xsl:if>
+          </affiliation>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:message>ERROR: Government ID not found in TEI corpus!</xsl:message>
+        </xsl:otherwise>
+      </xsl:choose>
+      
+      <!-- Impicit check if $govtTermID in fact corresponds to an ID -->
+      <xsl:variable name="govtEvent" select="key('id', $govtTermID, $listOrg)/
+                                             self::tei:event/@xml:id"/>
+      
+      <affiliation role="minister">
+        <xsl:if test="normalize-space($from-ok)">
+          <xsl:attribute name="from" select="$from-ok"/>
         </xsl:if>
+        <xsl:if test="normalize-space($to-ok)">
+          <xsl:attribute name="to" select="$to-ok"/>
+        </xsl:if>
+
+        <!-- Everything that goes in @ref -->
+        <xsl:variable name="ref">
+          <!-- Ref to government org -->
+          <xsl:if test="normalize-space($govtID)">
+            <xsl:value-of select="concat('#', $govtID)"/>
+          </xsl:if>
+          <xsl:text>&#32;</xsl:text>
+
+          <!-- Referece to the ministry org, if it exists -->
+          <xsl:if test="et:has-content($ministryID)">
+	    <xsl:variable name="miniOrg" select="key('id', $ministryID, $listOrg)/tei:org/@xml:id"/>
+	    <xsl:choose>
+	      <xsl:when test="normalize-space($miniOrg)">
+		<xsl:value-of select="concat('#', normalize-space($miniOrg))"/>
+	      </xsl:when>
+	      <xsl:otherwise>
+		<xsl:message select="concat('ERROR: Cant find ministry &#34;', 
+                                     $ministryID, '&#34; in listOrg header, ignoring!')"/>
+	      </xsl:otherwise>
+	    </xsl:choose>
+          </xsl:if>
+        </xsl:variable>
+        <xsl:if test="normalize-space($ref)">
+	  <xsl:attribute name="ref" select="normalize-space($ref)"/>
+        </xsl:if>
+
+        <!-- Source URL, if it exists -->
         <xsl:if test="et:has-content($url)">
           <xsl:attribute name="source" select="$url"/>
         </xsl:if>
-        <xsl:if test="et:has-content($name-xx)">
+        
+        <!-- The term of the government, if it exists -->
+        <xsl:if test="et:has-content($govtTermID)">
+          <xsl:choose>
+            <xsl:when test="normalize-space($govtEvent)">
+              <xsl:attribute name="ana" select="concat('#', $govtEvent)"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:message select="concat('WARN: Cant find government term with ID &#34;', 
+                                   $govtTermID, '&#34; in listOrg, inserting as note.')"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:if>
+
+        <!-- Name of ministry in source language and English, if it exists -->
+        <xsl:if test="et:has-content($orgName-xx)">
           <orgName full="yes">
-            <xsl:value-of select="$name-xx"/>
+            <xsl:value-of select="$orgName-xx"/>
           </orgName>
         </xsl:if>
-        <xsl:if test="et:has-content($name-en)">
+        <xsl:if test="et:has-content($orgName-en)">
           <orgName full="yes" xml:lang="en">
-            <xsl:value-of select="$name-en"/>
+            <xsl:value-of select="$orgName-en"/>
           </orgName>
         </xsl:if>
 	<xsl:if test="et:has-content($govtTermID) and not(normalize-space($govtEvent))">
@@ -223,6 +267,7 @@
 	  </note>
 	</xsl:if>
       </affiliation>
+
     </person>
   </xsl:template>
   

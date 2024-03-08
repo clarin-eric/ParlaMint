@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Include factorised (XIncluded) parts of a teiHeader into the teiHeader, i.e.
+     make one file from a collection of files -->
 <xsl:stylesheet version="2.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns="http://www.tei-c.org/ns/1.0"
@@ -6,7 +8,8 @@
   xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   exclude-result-prefixes="tei xs" >
-  <xsl:param name="outDir"/>
+  
+  <xsl:param name="outDir">.</xsl:param>
 
   <xsl:output method="xml" indent="yes" encoding="UTF-8" />
   <xsl:preserve-space elements="catDesc seg"/>

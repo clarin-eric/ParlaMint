@@ -391,17 +391,18 @@
     </xsl:call-template>
   </xsl:template>
 
+  <xsl:template match="tei:body">
+    <xsl:if test="$type = 'ana' and not(.//tei:w[@join] or .//tei:pc[@join])">
+      <xsl:call-template name="error">
+        <xsl:with-param name="msg">No @join attribute in body</xsl:with-param>
+      </xsl:call-template>
+    </xsl:if>
+    <xsl:apply-templates/>
+  </xsl:template>
+  
   <xsl:template match="tei:u">
     <xsl:choose>
-      <xsl:when test="not(@who)">
-        <!--xsl:call-template name="error">
-          <xsl:with-param name="severity">INFO</xsl:with-param>
-          <xsl:with-param name="msg">
-            <xsl:text>Element u without @who </xsl:text>
-            <xsl:value-of select="@xml:id"/>
-          </xsl:with-param>
-        </xsl:call-template-->
-      </xsl:when>
+      <xsl:when test="not(@who)"/>
       <xsl:when test="not(normalize-space(@who))">
         <xsl:call-template name="error">
           <xsl:with-param name="msg">

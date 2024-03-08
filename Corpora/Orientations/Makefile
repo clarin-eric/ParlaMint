@@ -1,5 +1,5 @@
 ### Testing targets
-MC = ES-PV
+MC = UA
 test-tsv2tei:
 	$s tsv=${HERE}/Orientation-${MC}.enco.tsv -xsl:${RUN}/enco-tsv2tei.xsl \
 	${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml | \
@@ -7,12 +7,14 @@ test-tsv2tei:
 	$s tsv=${HERE}/Orientation-${MC}.Wiki.tsv -xsl:${RUN}/wiki-tsv2tei.xsl - | ${RUN}/polish-xml.pl \
 	> tmp/ParlaMint-${MC}-listOrg.xml
 	${vro} tmp/ParlaMint-${MC}-listOrg.xml
+	-${odd} tmp/ParlaMint-${MC}-listOrg.xml
 	-diff -b ${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml tmp/ParlaMint-${MC}-listOrg.xml
 test-enco:
 	$s tsv=${HERE}/Orientation-${MC}.enco.tsv -xsl:${RUN}/enco-tsv2tei.xsl \
 	${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml | ${RUN}/polish-xml.pl \
 	> tmp/ParlaMint-${MC}-listOrg.xml
 	${vro} tmp/ParlaMint-${MC}-listOrg.xml
+	-${odd} tmp/ParlaMint-${MC}-listOrg.xml
 	-diff -b ${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml tmp/ParlaMint-${MC}-listOrg.xml
 test-wiki:
 	$s tsv=${HERE}/Orientation-${MC}.Wiki.tsv -xsl:${RUN}/wiki-tsv2tei.xsl \
@@ -22,7 +24,8 @@ test-wiki:
 test-ches:
 	$s tsv=${HERE}/Orientation-${MC}.CHES.tsv -xsl:${RUN}/ches-tsv2tei.xsl \
 	${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml | ${RUN}/polish-xml.pl > tmp/ParlaMint-${MC}-listOrg.xml
-	${vro} tmp/ParlaMint-${MC}-listOrg.xml
+	#${vro} tmp/ParlaMint-${MC}-listOrg.xml
+	${odd} tmp/ParlaMint-${MC}-listOrg.xml
 	#-diff -b ${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml tmp/ParlaMint-${MC}-listOrg.xml
 
 ######### Test over all (relevant) corpora
@@ -118,10 +121,12 @@ SCH = ../../Schema
 OUT = tmp
 
 #### XML
-s = java -jar /usr/share/java/saxon.jar
-j = java -jar /usr/share/java/jing.jar
+s = java -jar ${RUN}/bin/saxon.jar
+j = java -jar ${RUN}/bin/jing.jar
 # Validate with Parla-CLARIN schema
 pc =  $j ${SCH}/parla-clarin.rng
+# Validate with Parla-CLARIN schema
+odd =  $j ${SCH}/ParlaMint.odd.rng
 # Corpus root / text
 vrt = $j ${SCH}/ParlaMint-teiCorpus.rng
 # Corpus root / analysed
@@ -130,4 +135,3 @@ vra = $j ${SCH}/ParlaMint-teiCorpus.ana.rng
 vrp = $j ${SCH}/ParlaMint-listPerson.rng
 # Corpus listOrg
 vro = $j ${SCH}/ParlaMint-listOrg.rng
-

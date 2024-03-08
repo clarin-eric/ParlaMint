@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="hr" xml:id="ParlaMint-HR_2022-07-14-0" ana="#parla.sitting #covid #war">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="hr">Hrvatski parlamentarni korpus ParlaMint-HR, Mandat 10, Sjednica 11 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Croatian parliamentary corpus ParlaMint-HR, Term 10, Session 11 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="hr">Zapisnici sjednica Hrvatskog sabora, mandat 10, sjednica 11</title>
+            <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Croatia, Term 10, Session 11</title>
+            <meeting n="10" corresp="#HS" ana="#parla.uni #parla.term #HS.10">10. mandat</meeting>
+            <meeting n="11" corresp="#HS" ana="#parla.uni #parla.meeting">Zasedanje 11</meeting>
+            <meeting n="2022-07-15" corresp="#HS" ana="#parla.uni #parla.sitting">2022-07-15</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="hr">Preuzimanje i čiščenje digitalnog izvora</resp>
+               <resp xml:lang="en">Download and clean-up of the JSON digital source</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+               <resp xml:lang="hr">Kodiranje Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Peter Rupnik</persName>
+               <resp xml:lang="hr">Kodiranje Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="hr">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="1468" xml:lang="hr">1.468 govora</measure>
+            <measure unit="speeches" quantity="1468" xml:lang="en">1,468 speeches</measure>
+            <measure unit="words" quantity="160377" xml:lang="hr">160.377 riječi</measure>
+            <measure unit="words" quantity="160377" xml:lang="en">160,377 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="hr">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="hr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2024-03-05">2024-03-05</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Minutes of the National Assembly of the Republic of Croatia</title>
+               <idno type="URI" subtype="parliament">https://parlametar.hr/</idno>
+               <idno type="URI" subtype="parliament">http://www.sabor.hr/</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="hr"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="523"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="174"/>
+               <tagUsage gi="kinesic" occurs="3"/>
+               <tagUsage gi="note" occurs="1469"/>
+               <tagUsage gi="seg" occurs="1472"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="1468"/>
+               <tagUsage gi="vocal" occurs="346"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Trg sv. Marka 6</name>
+               <name type="city">Zagreb</name>
+               <name type="country" key="HR">Croatia</name>
+               <date when="2022-07-14" ana="#parla.sitting">2022-07-14</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2024-03-05">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2022-12-19">
+            <name>Peter Rupnik</name> Compile from source</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid #war">
+      <body>
+         <div type="debateSection">
+            <note type="speaker" xml:id="ParlaMint-HR_2022-07-14-0.note1">Sanader, Ante</note>
+            <u who="#SanaderAnte" ana="#chair" n="ParlaMint-HR_T10.S11.u102963" xml:id="ParlaMint-HR_2022-07-14-0.u102963">
+               <seg xml:id="ParlaMint-HR_2022-07-14-0.u102963.seg0">Hvala. I posljednje iznošenje stajališta u ime Kluba zastupnika HDZ-a poštovani Mario Kapulica.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-HR_2022-07-14-0.note2">Kapulica, Mario</note>
+            <u who="#KapulicaMario" ana="#regular" n="ParlaMint-HR_T10.S11.u102964" xml:id="ParlaMint-HR_2022-07-14-0.u102964">
+               <seg xml:id="ParlaMint-HR_2022-07-14-0.u102964.seg0">Zahvaljujem gospodine potpredsjedniče Hrvatskoga sabora, kolegice i kolege zastupnici. Kada bi jezik bio lopata, a laž građevinski materijal neki bi ovu sezonu u Saboru završili tako da bi na ovom mjestu umjesto ove zgrade koju je netko drugi sagradio na drugačijim osnovama ima svega tri kada i nije baš osobito raskošna ali je još uvijek tu i još uvijek nešto predstavlja i za Hrvatsku državu i za njezin narod predstavlja državu i njezinu zakonodavnu vlast, takvi bi novi neimari da je jezik lopata a laž građevinski materijal na ovom mjestu sagradili vjerojatno kulu koja bi bila više od kule Kalife u Dubaiju i koja je visoka 868 metara sa antenom. A prije dva dana bez ikakvog poštivanja prema graditeljima ove zgrade i onoga što ona za hrvatski narod predstavlja čovjek koji je zove Daniel a preziva Spajić nominalno glavni tajnik Domovinskog pokreta, a zapravo koordinator za unapređivanje laganja, izmišljanja i tračanja tom je lopatom žestoko zamahnuo i time se građevinskim materijalom obilato poslužio komentirajući razgovor kojeg sam u jednom trenutku u Vukovaru vodio sa članom svoje stranke a sada njegovim predsjednikom kojem on nije nazočio i o kojem ne zna ama baš ništa i o kojem ni Penava ni ja do sada nismo imali potrebe ništa reći. I lagao je iznoseći do sada možda najtežu optužbu da smo ja i stranka kojoj pripadam tražili da se ne procesuiraju ratni zločinci u Vukovaru, da se od toga odustane. Monstruozno, jer čitav je razgovor bio o tome što se još treba napraviti da bi se takvi procesuirali i da bi se ti procesi ubrzali. Da bi dobio 30 lajkova i 2 dijeljenja na svom Facebooku čovjek me je proglasio zaštitnikom krvnika hrvatskog naroda, hrvatskih branitelja i civila koji su dali svoj život na Oltar domovine. I kada govorimo o poštivanju ovog visokog doma i o onome što u smislu odijevanja su potaknuli prije tjedan dana Hrvatski suverenisti moram reći da su mi draže, draži nakaradno odjeveni ljudi nego profinjeni lažovi i licemjeri sa kravatama, u odijelima koji su da bi ostvarili neki svoj sitni stranački profit spremni na sve. I to je nažalost domet čovjeka koji je glavni tajnik jedne parlamentarne stranke koji se trudi pokazati da utjelovljuje, personificira, simbolizira ono što mu stranka želi predstavljati, posljednji vlak spasa za hrvatsku državu hrvatski narod. A kako bi on to Hrvatsku i hrvatski narod spašavao? Lažima? S računatima da povrijede, da prikažu i lažnom svjetlu, da udare na identitet i da teško i po mogućnosti bespovratno kompromitiraju. I pri tome ga nije smetalo što o onome o čemu govori nema apsolutno nikakvog poima. Osnivao sam stranu i pokret koji je rezultirao stvaranjem države i nisam u to krenuo s ledine. Krenuo sam zato što me netko za to pripremio. Baka, djed, roditelji, obitelj. U srijedu je sve njih taj čovjek koji je na to mjesto u Domovinski pokret došao zato što im je trebao netko da mijenja bravu nakon Škorina odlaska i koji se kiti perjem domoljublja dok svojim lažima razara sve što domoljublje, što bi domoljublje trebalo predstavljati. Sve njih je taj čovjek teško oklevetao. Prorok Danijel je bio kraljevskog roda, a njegovo ime znači Bog mi je sudac. Sumnjam da ovaj Danijel išta o tome zna. Onaj je bio Danijel kojeg su, zbog kojeg su klevetnici kamenovani, a ovaj je sam postao klevetnikom u potrazi za nagradom. I problem je tu tome što to njemu nije problem. Sutra će otići na misu, pričestit se i glumiti onog Danijela po kojem je dobio ime. Kada su ga kao friškog glavnog tajnika pitali za neke događaje u stranci, rekao je ja na tim sastancima nisam bio pa ne mogu i ne želim to komentirati, izjavljivao je da ne voli kafanske priče to što je i kako ne neko rekao i dok ne zna sve da neće ništa komentirati, a onda se okuražio i bezočno lagao. To da je lagao može se lako provjeriti, a ja sam u svakom trenutku spreman o ovome i šire govoriti <vocal type="interruption" xml:id="ParlaMint-HR_2022-07-14-0.vocal1">
+                     <desc>Upadica: Vrijeme.</desc>
+                  </vocal>
+						ako je to potrebno jer za razliku od nekih ja sa <vocal type="interruption" xml:id="ParlaMint-HR_2022-07-14-0.vocal2">
+                     <desc>Upadica: Vrijeme.</desc>
+                  </vocal>
+						istinom problem nemam. Hvala.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#PavličekMarijan" ana="#regular" n="ParlaMint-HR_T10.S11.u122704" xml:id="ParlaMint-HR_2022-07-14-0.u122704">
+               <seg xml:id="ParlaMint-HR_2022-07-14-0.u122704.seg0">Poštovani kolega Vidović ja vam želim da uspijete izabrati svog člana predsjedništva na nadolazećim izborima od sveg srca bez obzira iz koje političke opcije dolazio kao što vam želim da dobijete na prvim slijedećim lokalnim izborima što više općina u Srednjoj Bosni i one koje smo izgubili i da zadržite sve one općine u Bosanskoj Posavini jer je to interes svakog Hrvata u RH. Hvala vam lijepo.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-HR_2022-07-14-0.note1469">Sanader, Ante</note>
+            <u who="#SanaderAnte" ana="#chair" n="ParlaMint-HR_T10.S11.u122705" xml:id="ParlaMint-HR_2022-07-14-0.u122705">
+               <seg xml:id="ParlaMint-HR_2022-07-14-0.u122705.seg0">S ovim smo iscrpili raspravu, zaključujem raspravu, glasovat ćemo kad se steknu uvjeti.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

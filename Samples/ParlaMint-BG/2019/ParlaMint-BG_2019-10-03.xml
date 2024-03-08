@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:id="ParlaMint-BG_2019-10-03" xml:lang="bg">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bg">Български парламентарен корпус ParlaMint-BG (2019-10-03) [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Bulgarian parliamentary corpus ParlaMint-BG (2019-10-03) [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="bg">Стенограмa от 304 пленарнo заседаниe на 8 сесия на 44 Народно събрание на Република България (2019-10-03)</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Bulgarian National Assembly, Term 44, Session 8, Meeting 304 (2019-10-03)</title>
+            <meeting ana="#parla.uni #parla.sitting" corresp="#BGNS" n="2019-10-03">2019-10-03</meeting>
+            <meeting ana="#parla.uni #parla.meeting.regular" corresp="#BGNS" n="304">304 пленарно заседание</meeting>
+            <meeting ana="#parla.uni #parla.session" corresp="#BGNS" n="8">8 парламентарна сесия</meeting>
+            <meeting ana="#parla.uni #parla.term" corresp="#BGNS" n="44">Четиридесет и четвърто народно събрание</meeting>
+            <respStmt>
+               <persName xml:lang="bg">Владислава Григорова</persName>
+               <persName xml:lang="en">Vladislava Grigorova</persName>
+               <resp xml:lang="bg">Сваляне, почистване и конвертиране до XML</resp>
+               <resp xml:lang="en">Download, clean-up converting of the data to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-4484-5027" xml:lang="bg">Петя Осенова</persName>
+               <persName ref="https://orcid.org/0000-0002-4484-5027" xml:lang="en">Petya Osenova</persName>
+               <resp xml:lang="bg">Кодиране в Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3555-0179" xml:lang="bg">Кирил Симов</persName>
+               <persName ref="https://orcid.org/0000-0003-3555-0179" xml:lang="en">Kiril Simov</persName>
+               <resp xml:lang="bg">Валидиране на корпуса Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus validation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="bg">Изследователска инфраструктура CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure quantity="83" unit="speeches" xml:lang="bg">83 изказвания</measure>
+            <measure quantity="83" unit="speeches" xml:lang="en">83 speeches</measure>
+            <measure quantity="7725" unit="words" xml:lang="en"/>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="bg">Изследователска инфраструктура CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="bg">Този ресурс е лицензиран под лиценз: <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-03-06">2024-03-06</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the National Assembly of the Republic of Bulgaria</title>
+               <idno type="URI" subtype="parliament">https://www.parliament.bg/bg/plenaryst/ns/55/ID/7355</idno>
+               <date when="2019-10-03"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="bg"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="7"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="incident" occurs="2"/>
+               <tagUsage gi="kinesic" occurs="5"/>
+               <tagUsage gi="seg" occurs="486"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="83"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">2 Narodno Sabranie Sq.</name>
+               <name type="city">Sofia</name>
+               <name key="BG" type="country">Bulgaria</name>
+               <date when="2019-10-03"/>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-03-06">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="bg">
+      <body>
+         <div type="debateSection">
+            <u ana="#chair" n="129940" who="#HristovEmil" xml:id="ParlaMint-BG_2019-10-03.u1">
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg1">Има кворум. Откривам заседанието.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg2">Продължаваме с точка първа за днешния ден:</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg3">ВТОРО ГЛАСУВАНЕ НА ЗАКОНОПРОЕКТА ЗА ИЗМЕНЕНИЕ И ДОПЪЛНЕНИЕ НА ЗАКОНА ЗА ЧИСТОТАТА НА АТМОСФЕРНИЯ ВЪЗДУХ.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg4">Вносител – Министерският съвет.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg5">Приет е на първо гласуване на 12 септември 2019 г.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg6">Имате думата за представяне на Доклада на Комисията, уважаеми господин Грудев.</seg>
+            </u>
+            <u ana="#regular" n="129941" who="#GrudevHristo" xml:id="ParlaMint-BG_2019-10-03.u2">
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg7">Благодаря, господин Председател.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg8">Уважаеми колеги, на основание чл. 49, ал. 2 от Правилника за организацията и дейността на Народното събрание предлагам в пленарната зала да бъде допусната госпожа Атанаска Николова – заместник-министър на околната среда и водите, и господин Иван Ангелов – директор на дирекция „Опазване чистотата на въздуха“ в Министерството на околната среда и водите.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u ana="#regular" n="130021" who="#ChenchevIvan" xml:id="ParlaMint-BG_2019-10-03.u82">
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg460">Благодаря, уважаеми господин Председател.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg461">Дами и господа народни представители! Използвам този текст, за да кажа, че изразявам от мое име и от името на парламентарната ни група задоволство от това, че приехме един добър закон, който беше необходим.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg462">Обръщам внимание обаче на факта, че в текстовете, които приехме сега, имаше създаване на така наречените центрове, което, разбира се, беше крайно необходимо. Досега тайните квартири в България по отношение на трафика на хора – беше казано и в Комисията, в стенограмата, не разкривам някаква тайна – са били само в Бургас и Варна. В столицата не е имало тайна квартира.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg463">С разкриването на помощните центрове сега, надявам се поне в големите, да кажем, шест областни града да ги има, да бъдат финансово обезпечени, за да може да има по-добър резултат от мерките, които току-що приехме. Благодаря Ви за вниманието.</seg>
+            </u>
+            <u ana="#chair" n="130022" who="#HristovEmil" xml:id="ParlaMint-BG_2019-10-03.u83">
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg464">Благодаря Ви, уважаеми господин Ченчев.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg465">Има ли реплики? Няма.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg466">Други изказвания? Няма.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg467">Подлагам на гласуване текста на вносителя за § 14.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg468">Гласували 97 народни представители: за 97, против и въздържали се няма.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg469">Предложението е прието.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg470">Благодаря Ви, уважаема госпожо Александрова.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg471">Съобщения за парламентарен контрол за 4 октомври 2019 г.:</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg472">1. Заместник министър-председателят по икономическата и демографска политика Марияна Николова ще отговори на един въпрос от народния представител Десислав Чуколов.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg473">2. Министърът на здравеопазването Кирил Ананиев ще отговори на шест въпроса от народните представители Теодора Георгиева, Георги Йорданов и Илиян Тимчев – на два въпроса, Георги Михайлов, Георги Йорданов, Илиян Тимчев, Анелия Клисарова и Валентина Найденова.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg474">3. Министърът на образованието и науката Красимир Вълчев ще отговори на един въпрос от народния представител Светла Бъчварова.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg475">4. Министърът на културата Боил Банов ще отговори на едно питане от народния представител Антон Кутев.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg476">5. Министърът на транспорта, информационните технологии и съобщенията Росен Желязков ще отговори на един въпрос от народните представители Кристина Сидорова и Димитър Данчев.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg477">6. Министърът на икономиката Емил Караниколов ще отговори на три въпроса от народните представители Николай Александров, Христо Проданов и Георги Гьоков.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg478">На основание чл. 96, ал. 3 и чл. 99, ал. 2 от Правилника за организацията и дейността на Народното събрание отлагане на отговори със седем дни са поискали:</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg479">- министърът на вътрешните работи Младен Маринов – на два въпроса от народните представители Диана Саватева и Александър Паунов;</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg480">- министърът на околната среда и водите Нено Димов – на два въпроса с писмен отговор от народните представители Надя Клисурска, Георги Стоилов и Иван Димов Иванов;</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg481">- министърът на образованието и науката Красимир Вълчев – на два въпроса от народните представители Станислав Станилов, Анелия Клисарова и Нона Йотова.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg482">Поради отсъствие на народните представители Александър Мацурев и Георги Динев по уважителни причини се отлага техен въпрос към министъра на образованието и науката Красимир Вълчев.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg483">Поради отсъствие от страната в заседанието за парламентарен контрол няма да участват министърът на земеделието, храните и горите Десислава Танева и министърът на околната среда и водите Нено Димов.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg484">Поради неотложен служебен ангажимент в заседанието за парламентарен контрол няма да участва министър-председателят на Република България Бойко Борисов.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg485">Следващото редовно пленарно заседание е на 4 октомври 2019 г. от 9,00 ч.</seg>
+               <seg xml:id="ParlaMint-BG_2019-10-03.seg486">Закривам заседанието.</seg>
+               <kinesic type="ringing" xml:id="ParlaMint-BG_2019-10-03.kinesic5">
+                  <desc>Звъни.</desc>
+               </kinesic>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

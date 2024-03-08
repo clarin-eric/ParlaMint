@@ -11,7 +11,7 @@
 
   <xsl:output encoding="utf-8" method="text"/>
 
-  <xsl:variable name="country" select="replace(replace(document-uri(/), '.+/([^/]+)\.xml', '$1'), 'ParlaMint-([^._]+).*', '$1')"/>
+  <xsl:variable name="country" select="replace(replace(base-uri(), '.+/([^/]+)\.xml', '$1'), 'ParlaMint-([^._]+).*', '$1')"/>
 
   <xsl:template match="text()"/>
 

@@ -6,7 +6,7 @@ use FindBin qw($Bin);
 use Lingua::Translit;
 use File::Temp qw/ tempfile tempdir /;  #creation of tmp files and directory
 my $tempdirroot = "$Bin/tmp";
-my $tmpDir = tempdir(DIR => $tempdirroot, CLEANUP => 0);
+my $tmpDir = tempdir(DIR => $tempdirroot, CLEANUP => 1);
 
 $inFile = shift;
 $outFile = shift;
@@ -19,7 +19,7 @@ $standard{'UA'} = 'DIN 1460 UKR'; #Also possible: GOST 7.79 UKR
 # use Text::Unidecode;
 # print unidecode('ä, ö, ü, é'); # will print 'a, o, u, e'
 
-$Saxon = 'java -jar /usr/share/java/saxon.jar';
+$Saxon   = "java -jar $Bin/bin/saxon.jar";
 
 # Scripts that transliterate metadata
 my $trans2tsvScript = "$Bin/trans-tei2tsv.xsl";

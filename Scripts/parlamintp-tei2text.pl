@@ -14,7 +14,8 @@ $outDir = File::Spec->rel2abs(shift);
 binmode(STDERR, 'utf8');
 
 $Para  = 'parallel --gnu --halt 2 --jobs 10';
-$Saxon = 'java -jar /usr/share/java/saxon.jar';
+$Saxon = "java -jar $Bin/bin/saxon.jar";
+
 $scriptMeta = "$Bin/parlamint2meta.xsl";
 $scriptText = "$Bin/parlamint-tei2text.xsl";
 
