@@ -1,5 +1,6 @@
-sp2:
-	$s mode=tsv -xsl:../Scripts/parlamint2cnt-speeches.xsl   Master/ParlaMint.ana.xml > Metadata/ParlaMint-speeches.ana-stats.tsv
+check:
+	-${pm}   ParlaMint-BG.test.xml
+	-${vrt}  ParlaMint-BG.test.xml
 
 ############### Makefile for making a distributable version of the ParlaMint TEI, TEI.ana, -en.TEI.ana corpora
 #### Makefile for making a distribution of the ParlaMint corpora
@@ -29,10 +30,7 @@ extract2tsv:
 
 ### COMPLETE SET OF CORPORA
 #CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-#CORPORA = PL AT BE
-#CORPORA = BA CZ BG
-#CORPORA = DK EE ES
-CORPORA = ES-CT ES-GA ES-PV
+CORPORA = AT
 
 ####### MTed CORPORA. Used only for make pack!
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en ES-PV-en FI-en FR-en GB-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -233,17 +231,16 @@ web:
 FINALIZE = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Docs
 
 ### For real
-nohup:
-	nice nohup time make all > Logs/ParlaMint.log &
-
-# More nohups, in case we want several runs at once
+# More than one nohup, in case we want several runs at once
 # In which case CORPORA variable needs to be changed first!
+nohup1:
+	nice nohup time make all > Logs/ParlaMint.1.log &
 nohup2:
 	nice nohup time make all > Logs/ParlaMint.2.log &
 nohup3:
 	nice nohup time make all > Logs/ParlaMint.3.log &
 
-all:	final verts pack
+all:	final
 xall:	final verts pack
 
 pack:
@@ -460,7 +457,7 @@ s = java -jar -Xmx240g ../Scripts/bin/saxon.jar
 j = java -jar ../Scripts/bin/jing.jar
 
 pc = -I % $s -xi -xsl:../Scripts/copy.xsl % | $j parla-clarin.rng
-vxx = $j ${SCH}/ParlaMint-TEI.rng 	        # Validated with ParlaMint TEI 
+pm = $j ${SCH}/ParlaMint.odd.rng 	        # Validate with ParlaMint ODD
 vrt = $j ${SCH}/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j ${SCH}/ParlaMint-TEI.rng		# Corpus component / text
 vra = $j ${SCH}/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
