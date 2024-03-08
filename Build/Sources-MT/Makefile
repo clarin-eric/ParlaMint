@@ -1,7 +1,7 @@
 ###### Copy (and fix) original conllu files to Source-MT directory for 1 corpus
 CORPUS = ES-PV
 test1:
-	../bin/cp-conllu.pl validate '-' 'Temp/ParlaMint-${CORPUS}.conllu.translated' Temp/tmp
+	../bin/cp-conllu.pl validate '-' 'tmp/ParlaMint-${CORPUS}.conllu.translated' tmp/tmp
 
 cp-mt:	cp-mt-notes cp-mt-conllu
 cp-mt-conllu:
