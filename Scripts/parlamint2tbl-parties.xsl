@@ -10,9 +10,9 @@
   version="2.0">
 
   <!-- Where the corpora can be found (relative to the location of this script). -->
-  <xsl:param name="path">../Corpora</xsl:param>
+  <xsl:param name="path">../Build</xsl:param>
   <!-- Directory where the output TSV files are written to -->
-  <xsl:param name="outDir">../Corpora/Metadata</xsl:param>
+  <xsl:param name="outDir">../Build/Metadata</xsl:param>
   <!-- Prefix for output files -->
   <xsl:param name="outFilePrefix">ParlaMint-parties-</xsl:param>
 

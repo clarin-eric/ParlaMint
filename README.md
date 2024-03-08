@@ -55,9 +55,9 @@ Note that there are several branches for different parts of the development.
   * compute some statistics
 * The *[Samples](Samples/) folder* contains directories for a particular country or autonomous region
   that should include samples for all variants and formats of the ParlaMint corpora
-* The *[Corpora](Corpora/) folder* contains directories for a particular country or autonomous region
-  that should include complete corpora for all variants and formats of the ParlaMint corpora, along with
-  the build environemt for a release, and associated data. Note the the complete corpora are too large to
-  store on GitHub, so most data files are gitignored. However, the directory or its subdirectories contain
+* The *[Build](Build/) folder* contains the build environemt for a release, and all associated data.
+  This consists of the input (source) data, scripts, and Makefile with targets to make a relese.
+  Note the the complete corpora are too large to store on GitHub, so most data files are gitignored.
+  However, the directory or its subdirectories contain
   various associated resources, e.g. the automatically produced ParlaMint root files, common taxonomies,
   various metadata on the corpora etc.

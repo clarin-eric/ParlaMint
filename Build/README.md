@@ -1,8 +1,9 @@
-# ParlaMint Corpora
+# ParlaMint Build directory
 
-This directory contains the complete ParlaMint corpora, the build environemnt for a release, and related resources.
+This directory contains the build environemnt for a release, i.e. the input data sources, the output
+distribution-ready corpora, and the dedicated scripts.
 
-Note that the complete corpora are much to large to be stored on GitHub, so most of the data files are gitignored.
+Note that the complete corpora are to large to be stored on GitHub, so most of the data files are gitignored.
 
 Here you can find the following directories:
 
@@ -14,7 +15,7 @@ Here you can find the following directories:
 * [bin/](bin/): local scripts used for preparing a ParlaMint release
 * [Docs/](Docs/): supplementary documents included with a ParlaMint release
 * [Logs/](Logs/): logs of the pipeline used to prepare a ParlaMint release
-* [Master/](Master/): corpora ready for a ParlaMint release
+* [Distro/](Distro/): distribtion directory with corpora ready for a ParlaMint release
   (output of the release pipeline)
 * [Packed/](Packed/): Master corpora packed (i.e. compressed) for a ParlaMint release on a CLARIN repository
 * [Verts/](Verts/): Master vert files joined together into one file per corpus, ready for importing to the concordancers

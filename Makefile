@@ -21,8 +21,8 @@ TAXONOMIES-COPY = $(addprefix ParlaMint-taxonomy-, $(TAXONOMIES-COPY-INTERF))
 
 ##$DATADIR## Folder with country corpus folders. Default value is 'Samples'.
 DATADIR = Samples
-DATACORPORADIR = Corpora/Master
-SHARED = Corpora
+DATACORPORADIR = Build/Master
+SHARED = Build
 ##$WORKINGDIR## In this folder will be stored temporary files. Default value is 'DataTMP'.
 WORKINGDIR = Samples/TMP
 ##$CORPUSDIR_SUFFIX## This value is appended to corpus folder so corpus directory name shouldn't be prefix
@@ -748,7 +748,7 @@ create-taxonomy-UD-SYN:
 	test -d Scripts/UD-docs || git clone git@github.com:UniversalDependencies/docs.git Scripts/UD-docs
 	git -C Scripts/UD-docs checkout pages-source
 	git -C Scripts/UD-docs pull
-	Scripts/create-taxonomy-UD-SYN.pl --in Scripts/UD-docs --out Corpora/Taxonomies/ParlaMint-taxonomy-UD-SYN.ana.xml --commit $(shell git -C Scripts/UD-docs rev-parse HEAD)
+	Scripts/create-taxonomy-UD-SYN.pl --in Scripts/UD-docs --out Build/Taxonomies/ParlaMint-taxonomy-UD-SYN.ana.xml --commit $(shell git -C Scripts/UD-docs rev-parse HEAD)
 
 ######################VARIABLES
 s = java $(JM) -jar ./Scripts/bin/saxon.jar

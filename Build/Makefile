@@ -10,19 +10,19 @@ check:
 #### For LREV paper:
 #Make TSV and LaTeX tables
 stats:
-	$s mode=tsv -xsl:../Scripts/parlamint2cnt-overview.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-overview-stats.tsv
-	$s mode=tex -xsl:../Scripts/parlamint2cnt-overview.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-overview-stats.tex
-	$s mode=tsv -xsl:../Scripts/parlamint2cnt-particDesc.xsl Master/ParlaMint.xml > Metadata/ParlaMint-participDesc-stats.tsv
-	$s mode=tex -xsl:../Scripts/parlamint2cnt-particDesc.xsl Master/ParlaMint.xml > Metadata/ParlaMint-participDesc-stats.tex
-	$s mode=tsv -xsl:../Scripts/parlamint2cnt-speeches.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-speeches-stats.tsv
-	$s mode=tex -xsl:../Scripts/parlamint2cnt-speeches.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-speeches-stats.tex
+	$s mode=tsv -xsl:../Scripts/parlamint2cnt-overview.xsl   Distro/ParlaMint.xml > Metadata/ParlaMint-overview-stats.tsv
+	$s mode=tex -xsl:../Scripts/parlamint2cnt-overview.xsl   Distro/ParlaMint.xml > Metadata/ParlaMint-overview-stats.tex
+	$s mode=tsv -xsl:../Scripts/parlamint2cnt-particDesc.xsl Distro/ParlaMint.xml > Metadata/ParlaMint-participDesc-stats.tsv
+	$s mode=tex -xsl:../Scripts/parlamint2cnt-particDesc.xsl Distro/ParlaMint.xml > Metadata/ParlaMint-participDesc-stats.tex
+	$s mode=tsv -xsl:../Scripts/parlamint2cnt-speeches.xsl   Distro/ParlaMint.xml > Metadata/ParlaMint-speeches-stats.tsv
+	$s mode=tex -xsl:../Scripts/parlamint2cnt-speeches.xsl   Distro/ParlaMint.xml > Metadata/ParlaMint-speeches-stats.tex
 
 #Extract the parties and persons into TSV files 
 #Not tested yet for 4.1!
 extract2tsv:
-	$s path=../Corpora/Master outDir=../Corpora/Metadata -xsl:../Scripts/parlamint2tbl-parties.xsl Master/ParlaMint.xml
+	$s path=../Build/Distro outDir=../Build/Metadata -xsl:../Scripts/parlamint2tbl-parties.xsl Distro/ParlaMint.xml
 	for CORPUS in ${CORPORA}; do \
-	$s -xsl:../Scripts/parlamint2tbl-persons.xsl Master/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}.xml \
+	$s -xsl:../Scripts/parlamint2tbl-persons.xsl Distro/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}.xml \
 	> Metadata/ParlaMint-speakers-$${CORPUS}.tsv ; \
 	done;
 
@@ -41,7 +41,7 @@ CORPUS = LV
 
 #Absolute paths are needed otherwise problems with XSLT
 PARLAMINT := $(shell realpath .. | tr -d '\n')# get real absolute path to ParlaMint directory
-HERE = ${PARLAMINT}/Corpora
+HERE = ${PARLAMINT}/Build
 TEMP = ${HERE}/Temp
 SCH = ${PARLAMINT}/Schema
 
@@ -68,52 +68,52 @@ WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/
 test:
 	date
 test-tei2:
-	${FINALIZE} -valid -codes UA -in ${HERE}/Master -out ${HERE}/Master
+	${FINALIZE} -valid -codes UA -in ${HERE}/Distro -out ${HERE}/Distro
 test-tei1:
-	${FINALIZE} -tei -valid -codes DK -in ${HERE}/Master -out ${HERE}/Master
+	${FINALIZE} -tei -valid -codes DK -in ${HERE}/Distro -out ${HERE}/Distro
 test-vert6:
-	../Scripts/parlamintp-tei2vert-xx.pl ${HERE}/Master/ParlaMint-LV.TEI.ana Test/ParlaMint-LV-xx.vert
+	../Scripts/parlamintp-tei2vert-xx.pl ${HERE}/Distro/ParlaMint-LV.TEI.ana Test/ParlaMint-LV-xx.vert
 test-vert5:
-	$s meta=../Corpora/Master/ParlaMint-FI.TEI.ana/ParlaMint-FI.ana.xml \
+	$s meta=../Build/Distro/ParlaMint-FI.TEI.ana/ParlaMint-FI.ana.xml \
 	-xsl:../Scripts/parlamint2xmlvert.xsl Test/test-FI.ana.xml > Test/test-FI.vert
 	#-xsl:../Scripts/parlamint2xmlvert.xsl Test/ParlaMint-FI_2015-06-02-ps-13.ana.xml > Test/test-FI.vert
 test-vert4:
-	$s meta=${HERE}/Master/ParlaMint-GB.TEI.ana/ParlaMint-GB.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
-	${HERE}/Master/ParlaMint-GB.TEI.ana/2015/ParlaMint-GB_2015-01-06-commons.ana.xml > test.vert
+	$s meta=${HERE}/Distro/ParlaMint-GB.TEI.ana/ParlaMint-GB.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
+	${HERE}/Distro/ParlaMint-GB.TEI.ana/2015/ParlaMint-GB_2015-01-06-commons.ana.xml > test.vert
 test-vert2:
-	${FINALIZE} -vert -codes GB -in ${HERE}/Master -out ${HERE}/Master
+	${FINALIZE} -vert -codes GB -in ${HERE}/Distro -out ${HERE}/Distro
 test-vert1:
 	${FINALIZE} -vert -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
 	${FINALIZE} -vert -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
 test-conll4:
-	$s meta=../Corpora/Master/ParlaMint-AT.TEI.ana/ParlaMint-AT.ana.xml \
-	-xsl:../Scripts/parlamint2conllu.xsl ../Corpora/Master/ParlaMint-AT.TEI.ana/1996/ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00003.ana.xml \
+	$s meta=../Build/Distro/ParlaMint-AT.TEI.ana/ParlaMint-AT.ana.xml \
+	-xsl:../Scripts/parlamint2conllu.xsl ../Build/Distro/ParlaMint-AT.TEI.ana/1996/ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00003.ana.xml \
 	> Test/test-AT.conllu
 test-conll3:
 	${FINALIZE} -conll -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
 test-conll2:
 	${FINALIZE} -conll -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
 test-conll1:
-	${FINALIZE} -conll -codes UA -in ${HERE}/Master -out ${HERE}/Master
+	${FINALIZE} -conll -codes UA -in ${HERE}/Distro -out ${HERE}/Distro
 test-meta5:
-	$s out-lang=en meta=../Corpora/Master/ParlaMint-SE.TEI/ParlaMint-SE.xml -xsl:../Scripts/parlamint2meta.xsl \
-	../Corpora/Master/ParlaMint-SE.TEI/2015/ParlaMint-SE_2015-11-04-prot-201516--21.xml  > test.tsv
+	$s out-lang=en meta=../Build/Distro/ParlaMint-SE.TEI/ParlaMint-SE.xml -xsl:../Scripts/parlamint2meta.xsl \
+	../Build/Distro/ParlaMint-SE.TEI/2015/ParlaMint-SE_2015-11-04-prot-201516--21.xml  > test.tsv
 test-meta4:
-	$s out-lang=en meta=../Corpora/Master/ParlaMint-PT.TEI/ParlaMint-PT.xml -xsl:../Scripts/parlamint2meta.xsl \
-	../Corpora/Master/ParlaMint-PT.TEI/2022/ParlaMint-PT_2022-03-22.xml  > test.tsv
+	$s out-lang=en meta=../Build/Distro/ParlaMint-PT.TEI/ParlaMint-PT.xml -xsl:../Scripts/parlamint2meta.xsl \
+	../Build/Distro/ParlaMint-PT.TEI/2022/ParlaMint-PT_2022-03-22.xml  > test.tsv
 test-meta3:
-	$s out-lang=en meta=../Corpora/Master/ParlaMint-RS.TEI/ParlaMint-RS.xml -xsl:../Scripts/parlamint2meta.xsl \
-	../Corpora/Master/ParlaMint-RS.TEI/2016/ParlaMint-RS_2016-06-03-0.xml  > test.tsv
+	$s out-lang=en meta=../Build/Distro/ParlaMint-RS.TEI/ParlaMint-RS.xml -xsl:../Scripts/parlamint2meta.xsl \
+	../Build/Distro/ParlaMint-RS.TEI/2016/ParlaMint-RS_2016-06-03-0.xml  > test.tsv
 test-meta2:
-	$s out-lang=en meta=../Corpora/Master/ParlaMint-IS.TEI/ParlaMint-IS.xml -xsl:../Scripts/parlamint2meta.xsl \
-	../Corpora/Test/test-IS.xml > test-IS.tsv
-	$s out-lang=en meta=../Corpora/Master/ParlaMint-AT.TEI/ParlaMint-AT.xml -xsl:../Scripts/parlamint2meta.xsl \
-	../Corpora/Test/test-AT.xml > test-AT.tsv
+	$s out-lang=en meta=../Build/Distro/ParlaMint-IS.TEI/ParlaMint-IS.xml -xsl:../Scripts/parlamint2meta.xsl \
+	../Build/Test/test-IS.xml > test-IS.tsv
+	$s out-lang=en meta=../Build/Distro/ParlaMint-AT.TEI/ParlaMint-AT.xml -xsl:../Scripts/parlamint2meta.xsl \
+	../Build/Test/test-AT.xml > test-AT.tsv
 test-meta1:
 	${FINALIZE} -txt -codes IS -in ${HERE}/Temp -out ${HERE}/Temp
 	#${FINALIZE} -txt -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
 test-text1:
-	${FINALIZE} -txt -codes ES-CT -in ${HERE}/Master -out ${HERE}/Master
+	${FINALIZE} -txt -codes ES-CT -in ${HERE}/Distro -out ${HERE}/Distro
 
 ## Transliteration tests
 test-translit4:
@@ -132,7 +132,7 @@ test-translit1:
 # Make MT .txt and CoNLL files
 mt-convert-txt:
 	for CORPUS in ${CORPORA}; do \
-	${FINALIZE-MT} -txt -conll -codes $${CORPUS}-en -out ${HERE}/Master; \
+	${FINALIZE-MT} -txt -conll -codes $${CORPUS}-en -out ${HERE}/Distro; \
 	done;
 
 ### Fixes
@@ -141,37 +141,37 @@ mt-convert-txt:
 mrg-conll-nohup:
 	nohup time make mrg-conll > Logs/ParlaMint_Merge_CoNLL-U.log &
 mrg-conll:
-	bin/merge-conllu.pl Master/ParlaMint-BE.conllu ${SOURCES-MT}/ParlaMint-BE-en.conllu
-	bin/merge-conllu.pl Master/ParlaMint-ES-CT.conllu ${SOURCES-MT}/ParlaMint-ES-CT-en.conllu
-	bin/merge-conllu.pl Master/ParlaMint-ES-PV.conllu ${SOURCES-MT}/ParlaMint-ES-PV-en.conllu
-	bin/merge-conllu.pl Master/ParlaMint-UA.conllu ${SOURCES-MT}/ParlaMint-UA-en.conllu
+	bin/merge-conllu.pl Distro/ParlaMint-BE.conllu ${SOURCES-MT}/ParlaMint-BE-en.conllu
+	bin/merge-conllu.pl Distro/ParlaMint-ES-CT.conllu ${SOURCES-MT}/ParlaMint-ES-CT-en.conllu
+	bin/merge-conllu.pl Distro/ParlaMint-ES-PV.conllu ${SOURCES-MT}/ParlaMint-ES-PV-en.conllu
+	bin/merge-conllu.pl Distro/ParlaMint-UA.conllu ${SOURCES-MT}/ParlaMint-UA-en.conllu
 
 # Fix a mistake with handle in corpora
 fix-handle:
 	for CORPUS in ${CORPORA}; do \
-	bin/fix-handle.pl "Master/ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml"; \
-	bin/fix-handle.pl "Master/ParlaMint-$${CORPUS}.TEI.ana/*/*.ana.xml"; \
+	bin/fix-handle.pl "Distro/ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml"; \
+	bin/fix-handle.pl "Distro/ParlaMint-$${CORPUS}.TEI.ana/*/*.ana.xml"; \
 	done;
 
 # Copy READMEs to master
 cp-readmes:
 	bin/cp-readmes.pl -codes "${CORPORA}" -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} \
-	-docs Docs -out ${HERE}/Master
+	-docs Docs -out ${HERE}/Distro
 
 # Make samples only
 all-samples:	samples mt-samples cp-samples
 samples:
 	for CORPUS in ${CORPORA}; do \
-	${FINALIZE} -sample -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}-samples.log; \
+	${FINALIZE} -sample -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Distro 2> Logs/ParlaMint-$${CORPUS}-samples.log; \
 	done;
 # Make MT samples only
 mt-samples:
 	for CORPUS in ${CORPORA}; do \
-	${FINALIZE-MT} -sample -codes $${CORPUS}-en -out ${HERE}/Master 2>> Logs/ParlaMint-$${CORPUS}-samples.log; \
+	${FINALIZE-MT} -sample -codes $${CORPUS}-en -out ${HERE}/Distro 2>> Logs/ParlaMint-$${CORPUS}-samples.log; \
 	done;
 #Merge original and MTed samples into official Samples directory
 cp-samples:
-	bin/cp-samples.pl 'Master/ParlaMint-*' ../Samples
+	bin/cp-samples.pl 'Distro/ParlaMint-*' ../Samples
 	for CORPUS in ${CORPORA}; do \
 	cp Logs/ParlaMint-$${CORPUS}-samples.log ../Samples/ParlaMint-$${CORPUS}; \
 	done;
@@ -184,24 +184,24 @@ make-verts-xx-nohup:
 	nohup time make make-verts-xx > Logs/ParlaMint-Verts-xx.log &
 make-verts-xx:
 	for CORPUS in ${CORPORA}; do \
-	../Scripts/parlamintp-tei2vert-xx.pl ${HERE}/Master/ParlaMint-$${CORPUS}.TEI.ana Temp/ParlaMint-$${CORPUS}-xx.vert; \
+	../Scripts/parlamintp-tei2vert-xx.pl ${HERE}/Distro/ParlaMint-$${CORPUS}.TEI.ana Temp/ParlaMint-$${CORPUS}-xx.vert; \
 	done;
 	perl ../Scripts/join-all-verts.pl -codes '${XX-CORPORA}' -in 'Temp' -out Verts/ParlaMint-XX.${VERSION}.vert
 
 # Make vertical files only
 make-verts:
 	for CORPUS in ${CORPORA}; do \
-	${FINALIZE} -vert -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master; \
+	${FINALIZE} -vert -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Distro; \
 	done;
 	make verts
 
 # Don't make TEI but only text, vert and conllu files only
 make-conll-vert-txt:
 	for CORPUS in ${CORPORA}; do \
-	${FINALIZE} -txt -vert -conll -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master; \
+	${FINALIZE} -txt -vert -conll -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Distro; \
 	done;
 
-# Make overall root(.ana) for ParlaMint for Sources-TEI/ and Master/, 
+# Make overall root(.ana) for ParlaMint for Sources-TEI/ and Distro/, 
 all-roots:	source-roots master-roots
 source-roots:
 	$s base=${HERE}/Sources-TEI -xsl:../Scripts/parlamint2root.xsl \
@@ -209,12 +209,12 @@ source-roots:
 	$s base=${HERE}/Sources-TEI -xsl:../Scripts/parlamint2root.xsl \
 	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Sources-TEI/ParlaMint.ana.xml
 master-roots:
-	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-template.xml > ${HERE}/Master/ParlaMint.xml
-	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Master/ParlaMint.ana.xml
-	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-template-en.ana.xml > ${HERE}/Master/ParlaMint-en.ana.xml
+	$s base=${HERE}/Distro -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template.xml > ${HERE}/Distro/ParlaMint.xml
+	$s base=${HERE}/Distro -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Distro/ParlaMint.ana.xml
+	$s base=${HERE}/Distro -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template-en.ana.xml > ${HERE}/Distro/ParlaMint-en.ana.xml
 
 mt-logs:
 	for CORPUS in ${CORPORA}; do \
@@ -246,12 +246,12 @@ all:	final
 xall:	final verts pack
 
 pack:
-	perl ../Scripts/pack-parlamint.pl -codes '${CORPORA}' -in Master -out Packed
+	perl ../Scripts/pack-parlamint.pl -codes '${CORPORA}' -in Distro -out Packed
 verts:
-	perl ../Scripts/join-verts.pl -version ${VERSION} -codes '${CORPORA}' -in Master -out Verts
+	perl ../Scripts/join-verts.pl -version ${VERSION} -codes '${CORPORA}' -in Distro -out Verts
 final:
 	for CORPUS in ${CORPORA}; do \
-	${FINALIZE} -all -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.log; \
+	${FINALIZE} -all -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Distro 2> Logs/ParlaMint-$${CORPUS}.log; \
 	grep -a -i 'fatal' Logs/ParlaMint-$${CORPUS}.log >  Logs/ParlaMint-$${CORPUS}.error.log;  \
 	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}.log >> Logs/ParlaMint-$${CORPUS}.error.log;  \
 	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}.log >  Logs/ParlaMint-$${CORPUS}.warn.log;  \
@@ -295,7 +295,7 @@ mt-web:
 nohup-mt-pack:
 	nohup time make mt-pack > mt-pack.log &
 mt-pack:
-	perl ../Scripts/pack-parlamint.pl -codes '${MT-CORPORA}' -in Master -out Packed
+	perl ../Scripts/pack-parlamint.pl -codes '${MT-CORPORA}' -in Distro -out Packed
 	rsync -av Packed/*-en*.tgz ${WEB}/Repo
 	cp Packed/*-en*.tgz /project/clarin-upload/ParlaMint
 
@@ -305,8 +305,8 @@ mt-nohup-conll:
 # Make CoNLL-U + TSV files, then overwrite CoNLL-U with the MT/USAS ones as they have xtra data
 mt-make-conll:
 	for CORPUS in ${CORPORA}; do \
-	${FINALIZE-MT} -conll -codes $${CORPUS}-en -out ${HERE}/Master; \
-	cp -r ${SOURCES-MT}/ParlaMint-$${CORPUS}-en.conllu/* Master/ParlaMint-$${CORPUS}-en.conllu; \
+	${FINALIZE-MT} -conll -codes $${CORPUS}-en -out ${HERE}/Distro; \
+	cp -r ${SOURCES-MT}/ParlaMint-$${CORPUS}-en.conllu/* Distro/ParlaMint-$${CORPUS}-en.conllu; \
 	done;
 
 ### Make joint vert for all ParlaMint corpora
@@ -316,14 +316,14 @@ mt-nohup-verts:
 	nice nohup time make mt-verts >> Logs/ParlaMint-en-verts.log &
 mt-make-verts:
 	for CORPUS in ${CORPORA}; do \
-	${FINALIZE-MT} -vert -codes $${CORPUS}-en -out ${HERE}/Master; \
+	${FINALIZE-MT} -vert -codes $${CORPUS}-en -out ${HERE}/Distro; \
 	done;
 	#make mt-verts
 
 # Join verts only
 mt-verts:
-	#perl ../Scripts/join-all-verts.pl     -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX.${VERSION}.vert
-	perl ../Scripts/join-all-verts.pl -en -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX-en.${VERSION}.vert
+	#perl ../Scripts/join-all-verts.pl     -codes '${CORPORA}' -in 'Distro' -out Verts/ParlaMint-XX.${VERSION}.vert
+	perl ../Scripts/join-all-verts.pl -en -codes '${CORPORA}' -in 'Distro' -out Verts/ParlaMint-XX-en.${VERSION}.vert
 
 # Sanity check for alignment
 sanity:
@@ -334,11 +334,11 @@ sanity:
 mt-convert:
 	for CORPUS in ${CORPORA}; do \
 	perl ../Scripts/mt-conllu2tei.pl \
-	${HERE}/Master/ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml \
+	${HERE}/Distro/ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml \
 	${SOURCES-MT}/ParlaMint-$${CORPUS}-en-notes.tsv \
 	${SOURCES-MT}/ParlaMint-$${CORPUS}-en.conllu \
 	${TEMP}/ParlaMint-$${CORPUS}-en.TEI.ana 2> Logs/ParlaMint-$${CORPUS}-en.log; \
-	${FINALIZE-MT} -all -notei -codes $${CORPUS}-en -in ${TEMP} -out ${HERE}/Master \
+	${FINALIZE-MT} -all -notei -codes $${CORPUS}-en -in ${TEMP} -out ${HERE}/Distro \
 	2>> Logs/ParlaMint-$${CORPUS}-en.log; \
 	grep -a -i 'fatal' Logs/ParlaMint-$${CORPUS}-en.log >  Logs/ParlaMint-$${CORPUS}-en.error.log;  \
 	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}-en.log >> Logs/ParlaMint-$${CORPUS}-en.error.log;  \
@@ -351,7 +351,7 @@ mt-convert-yr-nohup:
 	nohup time make fast >> Test/ParlaMint-NO-en.log &
 mt-convert-yr:
 	perl ../Scripts/mt-conllu2tei-year.pl $Y \
-	${HERE}/Master/ParlaMint-NO.TEI.ana/ParlaMint-NO.ana.xml \
+	${HERE}/Distro/ParlaMint-NO.TEI.ana/ParlaMint-NO.ana.xml \
 	${SOURCES-MT}/ParlaMint-NO-en-notes.tsv \
 	${SOURCES-MT}/ParlaMint-NO-en.conllu \
 	Test/ParlaMint-NO-en.TEI.ana 2> Test/ParlaMint-NO-en.$Y.log
@@ -360,37 +360,37 @@ mt-convert-yr:
 # Convert from English CoNLL-U + source .TEI.ana -> -en.TEI.ana 
 mt-conllu:
 	for CORPUS in ${CORPORA}; do \
-	${FINALIZE-MT} -conll -codes $${CORPUS}-en -in ${TEMP} -out ${HERE}/Master; \
+	${FINALIZE-MT} -conll -codes $${CORPUS}-en -in ${TEMP} -out ${HERE}/Distro; \
 	done;
 
 # Convert from English CoNLL-U + source .TEI.ana -> -en.TEI.ana 
 mt-txt:
 	for CORPUS in ${CORPORA}; do \
-	${FINALIZE-MT} -txt -codes $${CORPUS}-en -in ${TEMP} -out ${HERE}/Master; \
+	${FINALIZE-MT} -txt -codes $${CORPUS}-en -in ${TEMP} -out ${HERE}/Distro; \
 	done;
 
 ### Tests for debugging MT processing
 
 mt-test10:
-	${FINALIZE-MT} -all -notei -codes GB-en -in ${TEMP} -out ${HERE}/Master \
+	${FINALIZE-MT} -all -notei -codes GB-en -in ${TEMP} -out ${HERE}/Distro \
 	2>> Logs/ParlaMint-GB-en.log
 	grep -a -i 'fatal' Logs/ParlaMint-GB-en.log >  Logs/ParlaMint-GB-en.error.log
 	grep -a -i 'error' Logs/ParlaMint-GB-en.log >> Logs/ParlaMint-GB-en.error.log
 	grep -a -i 'warn'  Logs/ParlaMint-GB-en.log >  Logs/ParlaMint-GB-en.warn.log
 mt-test9:
-	$s nosyntax=true out-lang=en meta=${HERE}/Master/ParlaMint-ES-CT-en.TEI.ana/ParlaMint-ES-CT-en.ana.xml \
+	$s nosyntax=true out-lang=en meta=${HERE}/Distro/ParlaMint-ES-CT-en.TEI.ana/ParlaMint-ES-CT-en.ana.xml \
 	-xsl:../Scripts/parlamint2xmlvert.xsl \
-	${HERE}/Master/ParlaMint-ES-CT-en.TEI.ana/2015/ParlaMint-ES-CT-en_2015-10-26-0101.ana.xml > test.vert
+	${HERE}/Distro/ParlaMint-ES-CT-en.TEI.ana/2015/ParlaMint-ES-CT-en_2015-10-26-0101.ana.xml > test.vert
 mt-test8:
 	$s -xsl:../Scripts/validate-parlamint.xsl \
-	${HERE}/Master/ParlaMint-UA.TEI.ana/ParlaMint-UA.ana.xml
-	$s meta=${HERE}/Master/ParlaMint-UA.TEI.ana/ParlaMint-UA.ana.xml -xsl:../Scripts/validate-parlamint.xsl \
-	${HERE}/Master/ParlaMint-UA.TEI.ana/2022/ParlaMint-UA_2022-01-25-m0.ana.xml
+	${HERE}/Distro/ParlaMint-UA.TEI.ana/ParlaMint-UA.ana.xml
+	$s meta=${HERE}/Distro/ParlaMint-UA.TEI.ana/ParlaMint-UA.ana.xml -xsl:../Scripts/validate-parlamint.xsl \
+	${HERE}/Distro/ParlaMint-UA.TEI.ana/2022/ParlaMint-UA_2022-01-25-m0.ana.xml
 mt-test7:
-	$s meta=${HERE}/Master/ParlaMint-AT-en.TEI.ana/ParlaMint-AT-en.ana.xml -xsl:../Scripts//check-links.xsl \
-	${HERE}/Master/ParlaMint-AT-en.TEI.ana/2022/ParlaMint-AT-en_2022-01-20-027-XXVII-NRSITZ-00139.ana.xml
+	$s meta=${HERE}/Distro/ParlaMint-AT-en.TEI.ana/ParlaMint-AT-en.ana.xml -xsl:../Scripts//check-links.xsl \
+	${HERE}/Distro/ParlaMint-AT-en.TEI.ana/2022/ParlaMint-AT-en_2022-01-20-027-XXVII-NRSITZ-00139.ana.xml
 mt-test6:
-	${FINALIZE-MT} -vert -codes AT-en -in ${TEMP} -out ${HERE}/Master
+	${FINALIZE-MT} -vert -codes AT-en -in ${TEMP} -out ${HERE}/Distro
 mt-test5:
 	${vta} Test/ParlaMint-AT-en.TEI.ana/ParlaMint-taxonomy-*.xml
 	${vlp} Test/ParlaMint-AT-en.TEI.ana/ParlaMint-AT-listPerson.xml
@@ -420,7 +420,7 @@ mt-test2:
 	xmllint --noout Test/ParlaMint-GB-en_2022-06-22-commons.body.xml
 mt-test1:
 	rm -fr Test/ParlaMint-LV.tmp/*
-	$s outDir=Test/ParlaMint-LV.tmp -xsl:../Scripts/mt-prepare4mt.xsl ${HERE}/Master/ParlaMint-LV.TEI.ana/ParlaMint-LV.ana.xml
+	$s outDir=Test/ParlaMint-LV.tmp -xsl:../Scripts/mt-prepare4mt.xsl ${HERE}/Distro/ParlaMint-LV.TEI.ana/ParlaMint-LV.ana.xml
 
 
 #### Old and probably no longer useful
@@ -433,13 +433,13 @@ merge-taxos-nohup:
 	nohup time make merge-taxos 2> Taxonomies/ParlaMint-taxonomy-merge.log > Logs/ParlaMint-taxonomy.log &
 merge-taxos:
 	for TAXONOMY in ${TAXONOMIES-TEI}; do \
-	$s template=../Corpora/Taxonomies/ParlaMint-taxonomy-$${TAXONOMY}.template.xml \
-	-xsl:../Scripts/parlamint-merge-taxonomy.xsl Master/ParlaMint.xml \
+	$s template=../Build/Taxonomies/ParlaMint-taxonomy-$${TAXONOMY}.template.xml \
+	-xsl:../Scripts/parlamint-merge-taxonomy.xsl Distro/ParlaMint.xml \
 	> Taxonomies/ParlaMint-taxonomy-$${TAXONOMY}.xml; \
 	done;
 	for TAXONOMY in ${TAXONOMIES-ANA}; do \
-	$s template=../Corpora/Taxonomies/ParlaMint-taxonomy-$${TAXONOMY}.ana.template.xml \
-	-xsl:../Scripts/parlamint-merge-taxonomy.xsl Master/ParlaMint.ana.xml \
+	$s template=../Build/Taxonomies/ParlaMint-taxonomy-$${TAXONOMY}.ana.template.xml \
+	-xsl:../Scripts/parlamint-merge-taxonomy.xsl Distro/ParlaMint.ana.xml \
 	> Taxonomies/ParlaMint-taxonomy-$${TAXONOMY}.ana.xml; \
 	done;
 	${vta} Taxonomies/ParlaMint-taxonomy-*.xml

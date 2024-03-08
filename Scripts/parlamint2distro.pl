@@ -105,7 +105,7 @@ $SaxonX  = "java -Xmx240g -jar $Bin/bin/saxon.jar";
 # For the following taxonomies we substitute the local taxonomy with common one,
 # reduced to the relevant langauges
 # We are assuming taxonomies are relative to the Scripts/ (i.e. $Bin/) directory
-$taxonomyDir = "$Bin/../Corpora/Taxonomies";
+$taxonomyDir = "$Bin/../Build/Taxonomies";
 $taxonomy{'ParlaMint-taxonomy-parla.legislature'}    = "$taxonomyDir/ParlaMint-taxonomy-parla.legislature.xml";
 $taxonomy{'ParlaMint-taxonomy-politicalOrientation'} = "$taxonomyDir/ParlaMint-taxonomy-politicalOrientation.xml";
 $taxonomy{'ParlaMint-taxonomy-speaker_types'}        = "$taxonomyDir/ParlaMint-taxonomy-speaker_types.xml";

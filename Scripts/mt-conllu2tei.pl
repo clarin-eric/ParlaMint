@@ -32,7 +32,7 @@ $outDir    = File::Spec->rel2abs($outDir);
 
 # Location of the USAS taxonomy to be copied
 # This probably should be done with the standard taxonomy copying scripts, this is a bit of a hack!
-$USAStaxonomy = "$Bin/../Corpora/Taxonomies/ParlaMint-taxonomy-USAS.ana.xml";
+$USAStaxonomy = "$Bin/../Build/Taxonomies/ParlaMint-taxonomy-USAS.ana.xml";
 
 # We give 240g heap to Saxon because of large corpora!
 $Saxon   = "java -jar -Xmx240g $Bin/bin/saxon.jar";

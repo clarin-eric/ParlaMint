@@ -15,7 +15,7 @@
   <!-- Path to where the corpora can be found -->
   
   <!-- Directory where the output TSV files are written to -->
-  <xsl:param name="outDir">../Corpora/Ministers</xsl:param>
+  <xsl:param name="outDir">../Build/Ministers</xsl:param>
   
   <!-- Prefix and sufix for output files -->
   <xsl:param name="outFilePrefix">Ministers-</xsl:param>
