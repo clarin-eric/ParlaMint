@@ -19,11 +19,20 @@ stats:
 
 #Extract the parties and persons into TSV files 
 #Not tested yet for 4.1!
+## Generate TSV files with party information on the basis of the corpus root file.
+generate-parties:
+	$s path=${DATA} outDir=tmp -xsl:${RUN}/parlamint2tbl-parties.xsl \
+	${DATA}/ParlaMint.xml 2> ParlaMint_parties.log
 extract2tsv:
 	$s path=../Build/Distro outDir=../Build/Metadata -xsl:../Scripts/parlamint2tbl-parties.xsl Distro/ParlaMint.xml
 	for CORPUS in ${CORPORA}; do \
 	$s -xsl:../Scripts/parlamint2tbl-persons.xsl Distro/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}.xml \
 	> Metadata/ParlaMint-speakers-$${CORPUS}.tsv ; \
+	done;
+gen-all-persons:
+	for CORPUS in ${CORPORA}; do \
+	$s -xsl:${RUN}/parlamint2tbl-persons.xsl ${DATA}/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}.xml \
+	> Metadata/Speakers-$${CORPUS}.tsv ; \
 	done;
 
 ### VARIABLES
@@ -141,21 +150,21 @@ mt-convert-txt:
 mrg-conll-nohup:
 	nohup time make mrg-conll > Logs/ParlaMint_Merge_CoNLL-U.log &
 mrg-conll:
-	bin/merge-conllu.pl Distro/ParlaMint-BE.conllu ${SOURCES-MT}/ParlaMint-BE-en.conllu
-	bin/merge-conllu.pl Distro/ParlaMint-ES-CT.conllu ${SOURCES-MT}/ParlaMint-ES-CT-en.conllu
-	bin/merge-conllu.pl Distro/ParlaMint-ES-PV.conllu ${SOURCES-MT}/ParlaMint-ES-PV-en.conllu
-	bin/merge-conllu.pl Distro/ParlaMint-UA.conllu ${SOURCES-MT}/ParlaMint-UA-en.conllu
+	Scripts/merge-conllu.pl Distro/ParlaMint-BE.conllu ${SOURCES-MT}/ParlaMint-BE-en.conllu
+	Scripts/merge-conllu.pl Distro/ParlaMint-ES-CT.conllu ${SOURCES-MT}/ParlaMint-ES-CT-en.conllu
+	Scripts/merge-conllu.pl Distro/ParlaMint-ES-PV.conllu ${SOURCES-MT}/ParlaMint-ES-PV-en.conllu
+	Scripts/merge-conllu.pl Distro/ParlaMint-UA.conllu ${SOURCES-MT}/ParlaMint-UA-en.conllu
 
 # Fix a mistake with handle in corpora
 fix-handle:
 	for CORPUS in ${CORPORA}; do \
-	bin/fix-handle.pl "Distro/ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml"; \
-	bin/fix-handle.pl "Distro/ParlaMint-$${CORPUS}.TEI.ana/*/*.ana.xml"; \
+	Scripts/fix-handle.pl "Distro/ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml"; \
+	Scripts/fix-handle.pl "Distro/ParlaMint-$${CORPUS}.TEI.ana/*/*.ana.xml"; \
 	done;
 
 # Copy READMEs to master
 cp-readmes:
-	bin/cp-readmes.pl -codes "${CORPORA}" -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} \
+	Scripts/cp-readmes.pl -codes "${CORPORA}" -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} \
 	-docs Sources-Distro -out ${HERE}/Distro
 
 # Make samples only
@@ -171,7 +180,7 @@ mt-samples:
 	done;
 #Merge original and MTed samples into official Samples directory
 cp-samples:
-	bin/cp-samples.pl 'Distro/ParlaMint-*' ../Samples
+	Scripts/cp-samples.pl 'Distro/ParlaMint-*' ../Samples
 	for CORPUS in ${CORPORA}; do \
 	cp Logs/ParlaMint-$${CORPUS}-samples.log ../Samples/ParlaMint-$${CORPUS}; \
 	done;

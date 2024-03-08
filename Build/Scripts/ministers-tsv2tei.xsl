@@ -22,13 +22,19 @@
   
   <xsl:output method="xml" version="1.0" encoding="utf-8" indent="yes" omit-xml-declaration="no"/>
 
-  <!-- Get country of corpus from filename -->
+  <!-- Top level listPerson/@xml:id should contain name of country or region -->
   <xsl:variable name="corpusCountry"
-                select="replace(base-uri(), 
+                select="replace(/tei:*/@xml:id, 
                         '.*ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', 
                         '$1')"/>
-  <xsl:variable name="listPerson" select="/tei:listPerson"/>
-  <xsl:variable name="listOrg" select="document($xml)/tei:listOrg"/>
+
+  <xsl:variable name="listPerson" select="//tei:listPerson"/>
+  <xsl:variable name="listOrg">
+    <xsl:if test="not(doc-available($xml))">
+      <xsl:message terminate="yes" select="concat('FATAL: Cant find XML document ', $xml)"/>
+    </xsl:if>
+    <xsl:copy-of select="document($xml)/tei:listOrg"/>
+  </xsl:variable>
   <xsl:variable name="govtID" select="$listOrg//tei:org[@role = 'government']/@xml:id"/>
   
   <!-- Parse TSV into a 
@@ -195,8 +201,11 @@
       </xsl:choose>
       
       <!-- Impicit check if $govtTermID in fact corresponds to an ID -->
-      <xsl:variable name="govtEvent" select="key('id', $govtTermID, $listOrg)/
-                                             self::tei:event/@xml:id"/>
+      <xsl:variable name="govtEvent">
+        <xsl:if test="normalize-space($govtTermID)">
+          <xsl:value-of select="key('id', $govtTermID, $listOrg)/self::tei:event/@xml:id"/>
+        </xsl:if>
+      </xsl:variable>
       
       <affiliation role="minister">
         <xsl:if test="normalize-space($from-ok)">

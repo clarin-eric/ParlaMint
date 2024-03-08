@@ -11,10 +11,10 @@
 
   <xsl:output method="text"/>
 
-  <!-- Get country of corpus from filename -->
+  <!-- Top level listOrg/@xml:id should contain name of country or region -->
   <xsl:variable name="country"
-                select="replace(base-uri(), 
-                        '.+ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', 
+                select="replace(/tei:*/@xml:id, 
+                        '.*ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', 
                         '$1')"/>
   
   <xsl:template match="text()"/>

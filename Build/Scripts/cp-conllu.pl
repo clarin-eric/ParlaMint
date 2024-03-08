@@ -1,22 +1,21 @@
 #!/usr/bin/perl
-# Fix MTed and USAS semantically annotated CoNLL-U files:
-# - shorten too long sentences vis a vis orignal
-# - sort features and take care of SpaceAfter
+# Fix MTed and USAS semantically annotated (and additionally tagged with Spacy) CoNLL-U files:
+# - shorten sentences much longer than orignal (NMT cycles)
+# - alphabetically sort features and try to fix infamous SpaceAfter 
 # - remove Spacy analysis if it identical to main analysis (XPoS, UPoS, lemma)
-# - merge metadata with original CoNLL-U files
+# - possibly insert lost metadata from original TEI-derived CoNLL-U files
 use warnings;
 use utf8;
 use open ':utf8';
 use FindBin qw($Bin);
 binmode(STDERR, ':utf8');
 $validate = shift;  # 'validate' = validate CoNLL-U files, any other value = don't validate
-$origDir = shift;   # location of original CoNLL-U files, so newdoc is incorporated into resulting files, can be empty (no merge)
-$inDirs = shift;    # input directories
-$outDir = shift;    # top level output directory
+$origDir = shift;   # Location of original CoNLL-U files, so #newdoc medatdata is inserted into output, if empty, no merge is done
+$inDirs = shift;    # Input directories
+$outDir = shift;    # Top level output directory
     
-# Change to where tools is installed on local system
-# Source: https://github.com/universaldependencies/tools
-$Valid = "/usr/local/tools/validate.py";
+# Prereqisite, source: https://github.com/universaldependencies/tools
+$scriptValid   = "$Bin/bin/tools/validate.py";
 
 # What is the mininal length of the English text and how much longer than the original it has to be before we shorten it:
 $min_length = 20;
@@ -218,7 +217,7 @@ sub merge {
 sub validate {
     my $file = shift;
     # lang doesn't really matter here I think
-    $error = `python3 $Valid --lang en --level 2 $file 2>&1`;
+    $error = `python3 $scriptValid --lang en --level 2 $file 2>&1`;
     @errors = ();
     foreach $e (split(/\n/, $error)) {
 	next unless $e;

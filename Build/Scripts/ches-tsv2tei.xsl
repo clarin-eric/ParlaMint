@@ -77,9 +77,10 @@
   <!-- @type = 'ParlaMint' is the ParlaMint name of the party found in TSV -->
   <xsl:key name="abbr" match="tei:org" use="lower-case(tei:orgName[@type = 'ParlaMint'])"/>
 
+  <!-- Top level listOrg/@xml:id should contain name of country or region -->
   <xsl:variable name="country"
-                select="replace(/tei:listOrg/@xml:id, 
-                        '.+ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', 
+                select="replace(/tei:*/@xml:id, 
+                        '.*ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', 
                         '$1')"/>
   
   <!-- Parse TSV into a listOrg/org/state structures with pm_id as orgName -->

@@ -25,7 +25,9 @@ $Saxon   = "java -jar $Bin/bin/saxon.jar";
 my $trans2tsvScript = "$Bin/trans-tei2tsv.xsl";
 my $trans2teiScript = "$Bin/trans-tsv2tei.xsl";
 
-my ($country, $anaSuffix) = $inFile =~ /ParlaMint-([A-Z-]+)\.TEI(\..+)?/ or die;
+($country) = $inFile =~ /ParlaMint-([A-Z-]+)/
+    or die "FATAL: Cant find country in $inFile\n";
+
 &translit($country, $inFile, $outFile);
 
 sub translit {
