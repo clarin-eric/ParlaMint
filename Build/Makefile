@@ -156,7 +156,7 @@ fix-handle:
 # Copy READMEs to master
 cp-readmes:
 	bin/cp-readmes.pl -codes "${CORPORA}" -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} \
-	-docs Docs -out ${HERE}/Distro
+	-docs Sources-Distro -out ${HERE}/Distro
 
 # Make samples only
 all-samples:	samples mt-samples cp-samples
@@ -230,7 +230,7 @@ web:
 	rsync -av Packed/*.tgz ${WEB}/Repo
 
 ###### Targets for producing releasable version of ParlaMint corpora
-FINALIZE = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Docs
+FINALIZE = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Sources-Distro
 
 ### For real
 # More than one nohup, in case we want several runs at once
@@ -269,7 +269,7 @@ final:
 ### Make MTed corpora
 
 # Make distribution with:
-FINALIZE-MT = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -anahandle ${HANDLE-MT} -schema ${PARLAMINT}/Schema -docs ${HERE}/Docs
+FINALIZE-MT = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -anahandle ${HANDLE-MT} -schema ${PARLAMINT}/Schema -docs ${HERE}/Sources-Distro
 
 # Targets
 mt-nohup:
