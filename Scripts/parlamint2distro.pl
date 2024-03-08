@@ -147,6 +147,8 @@ $country2lang{'SE'} = 'sv';
 $country2lang{'SI'} = 'sl';
 $country2lang{'TR'} = 'tr';
 $country2lang{'UA'} = 'uk'; 
+# Fake country for testing:
+$country2lang{'XX'} = 'hr'; 
 
 $scriptRelease = "$Bin/parlamint2release.xsl";
 $scriptCommon  = "$Bin/parlamint-add-common-content.xsl";
@@ -178,7 +180,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     $XX =~ s|XX|$countryCode|g;
 
     my $teiDir  = "$XX.TEI";
-    my $anaDir = "$XX.TEI.ana";
+    my $anaDir  = "$XX.TEI.ana";
     
     my $teiRoot = "$teiDir/$XX.xml";
     my $anaRoot = "$anaDir/$XX.ana.xml";
@@ -192,9 +194,26 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     
     my $inTeiRoot = "$inDir/$teiRoot" if $inDir;
     my $inAnaRoot = "$inDir/$anaRoot" if $inDir;
+
     #In case input dir is for samples remove .TEI(.ana)
-    unless ($inTeiRoot and -e $inTeiRoot) {$inTeiRoot =~ s/\.TEI// if $inTeiRoot}
-    unless ($inAnaRoot and -e $inAnaRoot) {$inAnaRoot =~ s/\.TEI\.ana// if $inAnaRoot}
+    if ($inTeiRoot) {
+        unless (-e $inTeiRoot) {
+            my $altTeiRoot = $inTeiRoot;
+            $altTeiRoot =~ s/\.TEI// ;
+            print STDERR "WARN: Can't find input TEI root $inTeiRoot, trying sample $altTeiRoot\n";
+            unless (-e $altTeiRoot) {die "FATAL: Can't find $altTeiRoot\n"}
+            else {$inTeiRoot = $altTeiRoot}
+        }
+    }
+    if ($inAnaRoot) {
+        unless (-e $inAnaRoot) {
+            my $altAnaRoot = $inAnaRoot;
+            $altAnaRoot =~ s/\.TEI\.ana// ;
+            print STDERR "WARN: Can't find input TEI root $inAnaRoot, trying sample $altAnaRoot\n";
+            unless (-e $altAnaRoot) {die "FATAL: Can't find $altAnaRoot\n"}
+            else {$inAnaRoot = $altAnaRoot}
+        }
+    }
     
     my $outTeiDir  = "$outDir/$teiDir";      # $outTeiDir   =~ s/$XX/-$MT/ if $MT;
     my $outTeiRoot = "$outDir/$teiRoot";     # $outTeiRoot  =~ s/$XX/-$MT/ if $MT;
@@ -366,8 +385,14 @@ sub commonTaxonomies {
 	if ($taxonomy !~ /\.ana/ or
 	    ($taxonomy =~ /\.ana/ and ($outDir =~ /\.ana/ or $outDir !~ /\.TEI/))) {
 	    if (-e $taxonomy{$taxonomy}) {
-		my $command = "$Saxon if-lang-missing=skip langs='$country2lang{$Country}' -xsl:$scriptTaxonomy";
-		`$command $taxonomy{$taxonomy} > $outDir/$taxonomy.xml`;
+                if (exists($country2lang{$Country})) { 
+                    my $command = "$Saxon if-lang-missing=skip langs='$country2lang{$Country}' -xsl:$scriptTaxonomy";
+                    `$command $taxonomy{$taxonomy} > $outDir/$taxonomy.xml`;
+                }
+                else {
+                    die "FATAL: Can't find mapping between country code and language: ".
+                        "pls. add \$country2lang{'$Country'} to parlamint2distro.pl!\n"
+                }
 	    }
 	    else {print STDERR "ERROR: Can't find common taxonomy $taxonomy at $taxonomy{$taxonomy}\n"}
 	}

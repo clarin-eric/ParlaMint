@@ -30,7 +30,8 @@ extract2tsv:
 
 ### COMPLETE SET OF CORPORA
 #CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-CORPORA = AT
+# Testing on fake corpus
+CORPORA = XX
 
 ####### MTed CORPORA. Used only for make pack!
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en ES-PV-en FI-en FR-en GB-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -217,8 +218,9 @@ master-roots:
 
 mt-logs:
 	for CORPUS in ${CORPORA}; do \
-	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}-en.log > Logs/ParlaMint-$${CORPUS}-en.error.log;  \
-	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}-en.log > Logs/ParlaMint-$${CORPUS}-en.warn.log;  \
+	grep -a -i 'fatal' Logs/ParlaMint-$${CORPUS}-en.log >  Logs/ParlaMint-$${CORPUS}-en.error.log;  \
+	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}-en.log >> Logs/ParlaMint-$${CORPUS}-en.error.log;  \
+	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}-en.log >  Logs/ParlaMint-$${CORPUS}-en.warn.log;  \
 	done;
 
 web-nohup:
@@ -250,8 +252,9 @@ verts:
 final:
 	for CORPUS in ${CORPORA}; do \
 	${FINALIZE} -all -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.log; \
-	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.error.log;  \
-	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.warn.log;  \
+	grep -a -i 'fatal' Logs/ParlaMint-$${CORPUS}.log >  Logs/ParlaMint-$${CORPUS}.error.log;  \
+	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}.log >> Logs/ParlaMint-$${CORPUS}.error.log;  \
+	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}.log >  Logs/ParlaMint-$${CORPUS}.warn.log;  \
 	echo "$${CORPUS}.warn"; \
 	cat Logs/ParlaMint-$${CORPUS}.warn.log | wc -l;  \
 	cat Logs/ParlaMint-$${CORPUS}.warn.log | sort | uniq | wc -l;  \
@@ -337,8 +340,9 @@ mt-convert:
 	${TEMP}/ParlaMint-$${CORPUS}-en.TEI.ana 2> Logs/ParlaMint-$${CORPUS}-en.log; \
 	${FINALIZE-MT} -all -notei -codes $${CORPUS}-en -in ${TEMP} -out ${HERE}/Master \
 	2>> Logs/ParlaMint-$${CORPUS}-en.log; \
-	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}-en.log > Logs/ParlaMint-$${CORPUS}-en.error.log;  \
-	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}-en.log > Logs/ParlaMint-$${CORPUS}-en.warn.log;  \
+	grep -a -i 'fatal' Logs/ParlaMint-$${CORPUS}-en.log >  Logs/ParlaMint-$${CORPUS}-en.error.log;  \
+	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}-en.log >> Logs/ParlaMint-$${CORPUS}-en.error.log;  \
+	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}-en.log >  Logs/ParlaMint-$${CORPUS}-en.warn.log;  \
 	done;
 
 # Hack to do it per year for NO:
@@ -370,8 +374,9 @@ mt-txt:
 mt-test10:
 	${FINALIZE-MT} -all -notei -codes GB-en -in ${TEMP} -out ${HERE}/Master \
 	2>> Logs/ParlaMint-GB-en.log
-	grep -a -i 'error' Logs/ParlaMint-GB-en.log > Logs/ParlaMint-GB-en.error.log
-	grep -a -i 'warn'  Logs/ParlaMint-GB-en.log > Logs/ParlaMint-GB-en.warn.log
+	grep -a -i 'fatal' Logs/ParlaMint-GB-en.log >  Logs/ParlaMint-GB-en.error.log
+	grep -a -i 'error' Logs/ParlaMint-GB-en.log >> Logs/ParlaMint-GB-en.error.log
+	grep -a -i 'warn'  Logs/ParlaMint-GB-en.log >  Logs/ParlaMint-GB-en.warn.log
 mt-test9:
 	$s nosyntax=true out-lang=en meta=${HERE}/Master/ParlaMint-ES-CT-en.TEI.ana/ParlaMint-ES-CT-en.ana.xml \
 	-xsl:../Scripts/parlamint2xmlvert.xsl \
