@@ -35,6 +35,7 @@ $scriptValid   = "$Bin/bin/tools/validate.py";
 $scriptConvert = "$Bin/parlamint2conllu.xsl";
 $scriptMeta    = "$Bin/parlamint2meta.xsl";
 
+#This should be somehow factorised out!!
 $country2lang{'AT'} = 'de';
 $country2lang{'BA'} = 'sr';  # Should be 'bs', but UD does not support it!
 $country2lang{'BE'} = 'fr, nl';
