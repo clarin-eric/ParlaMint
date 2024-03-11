@@ -121,7 +121,7 @@ sub process {
     if ($tsvFile and -e $tsvFile) {
 	print STDERR "INFO: Adding TSV metadata for $type\n";
         if ($xmlFile) {
-            die "FATAL ERROR: For $type can't support XML file $xmlFile\n" unless -e $xmlFile;
+            die "FATAL ERROR: For $type can't find support XML file $xmlFile\n" unless -e $xmlFile;
             $command = "$Saxon tsv=$tsvFile xml=$xmlFile -xsl:$script $inListFile > $outListFile";
         }
         else {
