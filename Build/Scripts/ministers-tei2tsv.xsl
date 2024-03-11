@@ -141,7 +141,7 @@
     </xsl:variable>
     <xsl:choose>
       <xsl:when test="normalize-space($mini)">
-        <xsl:value-of select="replace(normalize-space($mini), '+'"/>
+        <xsl:value-of select="replace(normalize-space($mini), '&#32;', '+')"/>
       </xsl:when>
       <xsl:otherwise>-</xsl:otherwise>
     </xsl:choose>
