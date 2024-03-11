@@ -146,19 +146,23 @@
       <xsl:otherwise>-</xsl:otherwise>
     </xsl:choose>
     <xsl:text>&#9;</xsl:text>
+    <xsl:variable name="orgName-xx"  select="tei:orgName[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']"/>
+    <xsl:variable name="orgName-en"  select="tei:orgName[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
+    <xsl:variable name="roleName-xx" select="tei:roleName[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']"/>
+    <xsl:variable name="roleName-en" select="tei:roleName[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
     <!-- Minister of which ministry in local language -->
     <xsl:choose>
       <xsl:when test="tei:orgName">
 	<xsl:choose>
-	  <xsl:when test="tei:orgName[@xml:lang != 'en']">
-            <xsl:value-of select="normalize-space(tei:orgName[@xml:lang != 'en'][1])"/>
+	  <xsl:when test="$orgName-xx">
+            <xsl:value-of select="normalize-space($orgName-xx[1])"/>
 	  </xsl:when>
 	  <xsl:otherwise>-</xsl:otherwise>
 	</xsl:choose>
       </xsl:when>
-      <xsl:when test="tei:roleName[@xml:lang != 'en']">
+      <xsl:when test="$roleName-xx">
         <xsl:message select="concat('WARN: ', $country, ' ministry affiliation has roleName, but script outputs orgName, so ignoring ', 
-                             tei:roleName[@xml:lang != 'en'][1])"/>
+                             $roleName-xx[1])"/>
 	<xsl:text>-</xsl:text>
       </xsl:when>
     </xsl:choose>
@@ -167,15 +171,15 @@
     <xsl:choose>
       <xsl:when test="tei:orgName">
 	<xsl:choose>
-	  <xsl:when test="tei:orgName[@xml:lang = 'en']">
-            <xsl:value-of select="normalize-space(tei:orgName[@xml:lang = 'en'])"/>
+	  <xsl:when test="$orgName-en">
+            <xsl:value-of select="normalize-space($orgName-en)"/>
 	  </xsl:when>
 	  <xsl:otherwise>-</xsl:otherwise>
 	</xsl:choose>
       </xsl:when>
-      <xsl:when test="tei:roleName[@xml:lang = 'en']">
+      <xsl:when test="$roleName-en">
         <xsl:message select="concat('WARN: ', $country, ' ministry affiliation has roleName, but script outputs orgName, so ignoring ', 
-                             tei:roleName[@xml:lang = 'en'])"/>
+                             $roleName-en)"/>
 	<xsl:text>-</xsl:text>
       </xsl:when>
     </xsl:choose>
