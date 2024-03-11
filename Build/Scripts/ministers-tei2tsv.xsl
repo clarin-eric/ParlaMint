@@ -127,6 +127,9 @@
       <xsl:when test="normalize-space($gov)">
         <xsl:value-of select="string-join($gov, '+')"/>
       </xsl:when>
+      <xsl:when test="tei:note">
+        <xsl:value-of select="tei:note"/>
+      </xsl:when>
       <xsl:otherwise>-</xsl:otherwise>
     </xsl:choose>
     <xsl:text>&#9;</xsl:text>
