@@ -34,19 +34,23 @@ $sexScript  = "$Bin/sex-tsv2tei.xsl";
 # Script that makes XML prettier
 $poliScript = "$Bin/polish-xml.pl";
 
-# Prefix and suffixes of orientation related TSV files
-$oriePrefix  = 'Orientation-';
-$encoSuffix = '.enco.tsv';
-$chesSuffix = '.CHES.tsv';
-$wikiSuffix = '.Wiki.tsv';
-
 # Prefix and suffixes of ministers related TSV files
 $miniPrefix  = 'Ministers-';
 $miniSuffix  = '.edited.tsv';
 
+# Prefix and suffixes of orientation related TSV files
+$encoPrefix = 'OrientationEnco-';
+$encoSuffix = '.edited.tsv';
+
+$wikiPrefix = 'OrientationWiki-';
+$wikiSuffix = '.edited.tsv';
+
+$chesPrefix = 'OrientationCHES-';
+$chesSuffix = '.edited.tsv';
+
 # Prefix and suffixes of sex related TSV files
 $sexPrefix  = 'Sex-';
-$sexSuffix  = '.fixed.tsv';
+$sexSuffix  = '.edited.tsv';
 
 die "FATAL: Can't find output directory $outDir\n"
     unless -e $outDir;
@@ -73,16 +77,16 @@ print STDERR "INFO: Doing $inDir\n";
          "$tmpDir/$listOrg\.trans.xml"
     );
 &process('Encoder orientations',
-         "$tmpDir/$listOrg.trans.xml", "$inDir/$oriePrefix$country$encoSuffix", 0,
+         "$tmpDir/$listOrg.trans.xml", "$inDir/$encoPrefix$country$encoSuffix", 0,
          $encoScript,
          "$tmpDir/$listOrg\.enco.xml"
     );
 &process('CHES orientations',
-         "$tmpDir/$listOrg\.enco.xml", "$inDir/$oriePrefix$country$chesSuffix", 0,
+         "$tmpDir/$listOrg\.enco.xml", "$inDir/$chesPrefix$country$chesSuffix", 0,
          $chesScript,
          "$tmpDir/$listOrg.ches.xml");
 &process('Wiki orientations',
-         "$tmpDir/$listOrg\.ches.xml", "$inDir/$oriePrefix$country$wikiSuffix", 0,
+         "$tmpDir/$listOrg\.ches.xml", "$inDir/$wikiPrefix$country$wikiSuffix", 0,
          $wikiScript,
          "$tmpDir/$listOrg\.wiki.xml");
 # Polish the result
