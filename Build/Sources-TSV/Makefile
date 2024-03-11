@@ -49,8 +49,9 @@ nohup:
 
 #### Processing ministers
 # Corpora that have the edited minister TSV:
-#MINI-CORPORA=BA BE EE ES-PV GB HR PL RS
-MINI-CORPORA=BA BE EE ES-PV GB HR PL RS
+# Note that GB has this TSV, but already contains ministers, so we don't insert them!
+MINI-CORPORA=BA BE EE ES-PV HR PL RS
+
 
 ## Generate TSV .auto files for minister affiliations
 generate-ministers:
@@ -161,7 +162,7 @@ fix-all-sex:
 	done;
 
 test-insert-sex:
-	$s tsv=${INDIR}/Sex-${CORPUS}.fixed.tsv -xsl:${BIN}/sex-tsv2tei.xsl ${INDIR}/${PERSON} | ${BIN}/polish-xml.pl \
+	$s tsv=${INDIR}/Sex-${CORPUS}.edited.tsv -xsl:${BIN}/sex-tsv2tei.xsl ${INDIR}/${PERSON} | ${BIN}/polish-xml.pl \
 	> Test/${PERSON}
 	-${vrp} Test/${PERSON}
 	${BIN}/polish-xml.pl < ${INDIR}/${PERSON} > Test/${PERSON-CMP}
@@ -176,7 +177,7 @@ inspect-sex:
 	echo "In:" ; \
 	cat Sex-$${CORPUS}.auto.tsv | cut -f1,5 | grep -v 'country' | sort | uniq -c ; \
 	echo "Out:" ; \
-	cat Sex-$${CORPUS}.fixed.tsv | cut -f1,5 | grep -v 'country' | sort | uniq -c ; \
+	cat Sex-$${CORPUS}.edited.tsv | cut -f1,5 | grep -v 'country' | sort | uniq -c ; \
 	done;
 personname-bug:
 	# Shows forenames that end in -ič, this indicates that surname has been encoded as forename
