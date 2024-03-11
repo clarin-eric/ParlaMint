@@ -10,7 +10,7 @@
 ######
 
 ### Corpus for targets that process only one corpus
-CORPUS=AT
+CORPUS=HR
 
 ###### Adding all currently existing TSV metadata (+ transliteration) to corpora
 
@@ -20,13 +20,18 @@ META-CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT L
 ### Testing metadata insertion, output goes to Test/
 test-insert-metadata:
 	${BIN}/add-metadata.pl ${INDIR} Test/
+	-${vrp} Test/${PERSON}
+	-${vro} Test/${ORG}
 test-insert-all-metadata:
 	for CORPUS in ${META-CORPORA}; do \
 	make test-insert-metadata CORPUS=$${CORPUS}; \
 	done;
 
 ### MAIN TARGETS FOR METADATA INSERTION
-### Applying insertion of all metadata, for one corpus
+### Applying insertion of all metadata, for one corpus ${CORPUS}
+### Recommended to first run 'make test-insert-all-metadata' to see if it all works!
+
+### Applying metadata insertion & logging result, for one corpus ${CORPUS}
 insert-metadata:
 	${BIN}/add-metadata.pl ${INDIR} ${OUTDIR-TEI} 2>  ${INDIR}/Add-Metadata.log
 	${BIN}/add-metadata.pl ${INDIR} ${OUTDIR-ANA} 2>> ${INDIR}/Add-Metadata.log
@@ -34,7 +39,7 @@ insert-metadata:
 	-grep -a -i 'error' ${INDIR}/Add-Metadata.log | sort | uniq >> ${INDIR}/Add-Metadata.error.log
 	-grep -a -i 'warn'  ${INDIR}/Add-Metadata.log | sort | uniq >  ${INDIR}/Add-Metadata.warn.log
 
-### Applying metadata insertion, for all corpora
+### Applying metadata insertion & logging results, for all corpora ${META-CORPORA}
 insert-all-metadata:
 	for CORPUS in ${META-CORPORA}; do \
 	make insert-metadata CORPUS=$${CORPUS}; \
@@ -42,21 +47,22 @@ insert-all-metadata:
 
 ### Do metadata insertion for all corpora in the background and log the result
 nohup:
-	nohup time make insert-all-metadata > Add-Metadata.log; \
+	nohup time make insert-all-metadata > Add-Metadata.log &
 
-####### Targets for generating initialised TSV files (then used for adding meta-data)
-####### and for testing TSV insertion for a particular metadata layer
+######## Targets for generating initialised TSV files (then used for adding meta-data)
+######## and for testing TSV insertion for a particular metadata layer
 
-#### Processing ministers
+###### Processing ministers
 # Corpora that have the edited minister TSV:
 # Note that GB has this TSV, but already contains ministers, so we don't insert them!
 MINI-CORPORA=BA BE EE ES-PV HR PL RS
 
-
-## Generate TSV .auto files for minister affiliations
+### Generate TSV .auto files for minister affiliations
+# Generate initialised minister TSV, for one corporus ${CORPUS}
 generate-ministers:
 	$s xml=${MASTER}/${ORG} -xsl:${BIN}/ministers-tei2tsv.xsl \
 	${MASTER}/${PERSON} > ParlaMint-${CORPUS}/Ministers-${CORPUS}.auto.tsv
+# Generate initialised minister TSV, for all corpora ${MINI-CORPORA}
 generate-all-ministers:
 	for CORPUS in ${MINI-CORPORA}; do \
 	make generate-ministers CORPUS=$${CORPUS}; \
@@ -77,7 +83,8 @@ test-insert-all-ministers:
 
 ####### Processing political orientations (encoder, Wiki, CHES)
 
-# Works only for corpora that have all 3 orientations, i.e. BE, PT
+### Processing all three politcial orientations
+### Works only for corpora that have all 3 orientations, i.e. BE, PT, UA
 test-insert-orientations:
 	$s tsv=${INDIR}/Orientation-${CORPUS}.enco.tsv -xsl:${BIN}/enco-tsv2tei.xsl \
 	${INDIR}/${ORG} | \
@@ -92,43 +99,62 @@ test-insert-orientations:
 # Corpora that have the encoder orientations TSV:
 ENCO-CORPORA = BE PT UA
 
-## Generate TSV .auto files for encoder orientations
+### Generate initialised encoder political orientation TSV, for one corporus ${CORPUS}
 generate-encoder:
 	$s -xsl:${BIN}/enco-tei2tsv.xsl \
-	${MASTER}/${ORG} > ParlaMint-${CORPUS}/Ministers-${CORPUS}.auto.tsv
-generate-all-encoder:
+	${MASTER}/${ORG} > ParlaMint-${CORPUS}/OrientationEnco-${CORPUS}.auto.tsv
+### Generate initialised encoder political orientation TSV, for all corpora ${ENCO-CORPORA}
+generate-all-encoders:
 	for CORPUS in ${ENCO-CORPORA}; do \
-	make generate-ministers CORPUS=$${CORPUS}; \
+	make generate-encoder CORPUS=$${CORPUS}; \
 	done;
 
+# Test insert of encoder political orientation
 test-insert-encoder:
 	$s tsv=${INDIR}/OrientationEnco-${CORPUS}.edited.tsv -xsl:${BIN}/enco-tsv2tei.xsl \
 	${INDIR}/${ORG} | ${BIN}/polish-xml.pl > Test/${ORG}
 	${vro} Test/${ORG}
 	${BIN}/polish-xml.pl < ${INDIR}/${ORG} > Test/${ORG}
 	-diff -b Test/${ORG-CMP} Test/${ORG}
-test-insert-all-encoder:
+test-insert-all-encoders:
 	for CORPUS in ${ENCO-CORPORA}; do \
 	make test-insert-encoder CORPUS=$${CORPUS}; \
 	done;
 
 ### Processing Wiki orientation
 # Corpora that have the Wiki orientations TSV:
-WIKI-CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA ES ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RS SE SI TR UA
+WIKI-CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA ES ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+
+### Generate initialised Wiki political orientation TSV, for one corporus ${CORPUS}
+generate-wiki:
+	$s -xsl:${BIN}/wiki-tei2tsv.xsl \
+	${MASTER}/${ORG} > ParlaMint-${CORPUS}/OrientationWiki-${CORPUS}.auto.tsv
+### Generate initialised Wikir political orientation TSV, for all corpora ${WIKI-CORPORA}
+generate-all-wikis:
+	for CORPUS in ${WIKI-CORPORA}; do \
+	make generate-wiki CORPUS=$${CORPUS}; \
+	done;
+
+# Test insert of Wiki political orientation
 test-insert-wiki:
 	$s tsv=${INDIR}/OrientationWiki-${CORPUS}.edited.tsv -xsl:${BIN}/wiki-tsv2tei.xsl \
 	${INDIR}/${ORG} | ${BIN}/polish-xml.pl > Test/${ORG}
 	-${vro} Test/${ORG}
 	${BIN}/polish-xml.pl < ${INDIR}/${ORG} > Test/${ORG-CMP}
 	-diff -b Test/${ORG-CMP} Test/${ORG}
-test-insert-all-wiki:
+test-insert-all-wikis:
 	for CORPUS in ${WIKI-CORPORA}; do \
 	make test-insert-wiki CORPUS=$${CORPUS}; \
 	done;
 
 ### Processing CHES orientation
 # Corpora that have the CHES orientations TSV:
-CHES-CORPORA = AT BE BG CZ DK EE ES FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR
+CHES-CORPORA = AT BE BG CZ DK EE ES FI FR GB GR HR HU IS IT LV NL NO PL PT SE SI TR
+
+### Generation of CHES political orientation TSV is not included here!
+### It was done from original CHES TSVs by Katja M., should ask her to put her scripts here somewhere....
+
+# Test insert of CHES political orientation
 test-insert-ches:
 	$s tsv=${INDIR}/OrientationCHES-${CORPUS}.edited.tsv -xsl:${BIN}/ches-tsv2tei.xsl \
 	${INDIR}/${ORG} | ${BIN}/polish-xml.pl > Test/${ORG}
@@ -144,19 +170,20 @@ test-insert-all-ches:
 # Only corpora that we know how to auto-determine sex (and often don't have it)
 SEX-CORPORA = BA HR RS
 
-## Generate TSV .auto files for sex
+### Generate initialised sex TSV, for one corporus ${CORPUS}
 generate-sex:
 	$s -xsl:${BIN}/sex-tei2tsv.xsl ${MASTER}/${PERSON} > ParlaMint-${CORPUS}/Sex-${CORPUS}.auto.tsv
-generate-all-sex:
+### Generate initialised sex TSV, for all corpora ${SEX-CORPORA}
+generate-all-sexes:
 	for CORPUS in ${SEX-CORPORA}; do \
 	make generate-sex CORPUS=$${CORPUS}; \
 	done;
 
-#Auto-produce the fixed sex TSV file
+#Auto-produce the correct sex TSV file for BA, HR, SR
 #For other languages a different procedure would have to be written
 fix-sex:
 	${BIN}/slavic-sex.pl < ${INDIR}/Sex-${CORPUS}.auto.tsv >  ${INDIR}/Sex-${CORPUS}.edited.tsv
-fix-all-sex:
+fix-all-sexes:
 	for CORPUS in ${SEX-CORPORA}; do \
 	make fix-sex CORPUS=$${CORPUS}; \
 	done;
