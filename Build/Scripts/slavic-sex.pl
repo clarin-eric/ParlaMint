@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Output previously unknown sex
 use warnings;
 use utf8;

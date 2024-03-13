@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Fix wrong handle in input files
 use warnings;
 use utf8;

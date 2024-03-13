@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Copy README files to outputDir
 use warnings;
 use utf8;

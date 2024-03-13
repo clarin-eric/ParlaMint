@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Validate all ParlaMint files in parameter $inDirs
 use warnings;
 use utf8;

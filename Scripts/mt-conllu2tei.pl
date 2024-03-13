@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Convert one MTed and semantically annotated corpus to TEI given
 # - ParlaMint-XX.ana.xml corpus root of original-language corpus
 # - ParlaMint-XX-en-notes.tsv notes with translations

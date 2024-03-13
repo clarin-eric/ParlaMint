@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Map pyMusas USAS tags to ParlaMint-taxonomy-USAS.ana.xml category IDs
 use warnings;
 use utf8;

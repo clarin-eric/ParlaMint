@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Pack ParlaMint corpora into .tgz files ready for distribution
 
 use warnings;

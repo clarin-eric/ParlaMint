@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Join vert files into one, reversing the chrono order
 # Tomaž Erjavec <tomaz.erjavec@ijs.si>
 # License: GNU GPL

@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Convert ParlaMint .ana files to CoNLL-U and validate them
 # Also produces meta-data .tsv files
 # Tomaž Erjavec <tomaz.erjavec@ijs.si>

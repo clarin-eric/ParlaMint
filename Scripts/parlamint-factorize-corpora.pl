@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Factorise all corpora given in inDir parameter
 # 1. If not already present, make backup directories for all corpora and copy into them the original root files
 # 2. Taking backup files as input overwrite original root files with factorised files

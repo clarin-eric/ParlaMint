@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Copy samples to official Git directories with samples
 use warnings;
 use utf8;

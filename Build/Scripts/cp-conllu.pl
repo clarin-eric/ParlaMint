@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Fix MTed and USAS semantically annotated (and additionally tagged with Spacy) CoNLL-U files:
 # - shorten sentences much longer than orignal (NMT cycles)
 # - alphabetically sort features and try to fix infamous SpaceAfter 

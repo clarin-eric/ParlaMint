@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Add metadata to TEI corpora:
 # - transliterate listOrg.xml
 # - add encoder political orientations to listOrg.xml

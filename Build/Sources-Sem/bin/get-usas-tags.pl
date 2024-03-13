@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Return all found USAS tags in CoNLL-U files
 #
 use warnings;

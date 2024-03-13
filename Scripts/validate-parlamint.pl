@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Validate ParlaMint files
 # Tomaž Erjavec <tomaz.erjavec@ijs.si>
 # License: GNU GPL

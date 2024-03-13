@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # If a directory has more than $MAX files, store them in year directories
 # Tomaž Erjavec <tomaz.erjavec@ijs.si>
 # License: GNU GPL

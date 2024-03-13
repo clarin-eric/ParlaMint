@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Validate ParlaMint corpora (either samples or complete corpora)
 # with the ParlaMint ODD derived schema
 

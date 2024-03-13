@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Make ParlaMint corpora ready for distribution:
 # 1. Finalize input corpora (version, date, handle, extent)
 # 2. Validate corpora

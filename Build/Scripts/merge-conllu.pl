@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Merge per-language translated CoNLL-Us to joint CoNLL-Us
 use warnings;
 use utf8;
