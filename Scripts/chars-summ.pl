@@ -1,4 +1,5 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl
+use warnings;
 use utf8;
 use charnames ();
 binmode(STDIN,'utf8');

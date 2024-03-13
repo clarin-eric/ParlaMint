@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Finalise XSLT produced vertical XML file
 # - remove namespaces
 # - de escape XML entities

@@ -1,4 +1,5 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl
+use warnings;
 use utf8;
 $inDirs = shift;
 binmode(STDOUT,'utf8');

@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Convert CoNLL-U file to TEI <body>
 # Also encodes USAS semantic information if present
 # This is a somewhat modified script for ParlaMint from
