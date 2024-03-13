@@ -11,7 +11,7 @@ The Parliament of the Czech Republic (PCR) consists of two chambers: the Lower H
 
 The Parliament works in the periods (terms) between one general election and the next. Regular meetings are organized and they typically take place more than one day. Each meeting has its own agenda and an agenda item is discussed in speeches that can be made at more than one sitting. For every term, there is a “nest”-style site to publish voting records, stenographic protocols, audio files, parliamentary prints, parliamentary documents, resolutions, decisions, interpellations, and biographical data about the members of PCR, boards, committees, delegations (e.g., see the site for the 9th term of the current Chamber of Deputies).
 
-The ParlaMint-CZ corpus contains the stenographic protocols of the Chamber of Deputies from the period  25th Nov 2013 - 18th Oct 2022.
+The ParlaMint-CZ corpus contains the stenographic protocols of the Chamber of Deputies from the period  25th Nov 2013 - 26th Jul 2023.
 
 ### Data source and acquisition
 
@@ -49,3 +49,4 @@ We did not use any TEI structural elements/attributes going beyond what’s desc
 ### Disclaimer to the English translation
 
 Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.
+
