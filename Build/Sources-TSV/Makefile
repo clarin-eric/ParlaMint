@@ -32,12 +32,13 @@ test-insert-all-metadata:
 ### Recommended to first run 'make test-insert-all-metadata' to see if it all works!
 
 ### Applying metadata insertion & logging result, for one corpus ${CORPUS}
+LOG=${INDIR}/ParlaMint-${CORPUS}
 insert-metadata:
-	${BIN}/add-metadata.pl ${INDIR} ${OUTDIR-TEI} 2>  ${INDIR}/Add-Metadata.log
-	${BIN}/add-metadata.pl ${INDIR} ${OUTDIR-ANA} 2>> ${INDIR}/Add-Metadata.log
-	-grep -a -i 'fatal' ${INDIR}/Add-Metadata.log | sort | uniq >  ${INDIR}/Add-Metadata.error.log
-	-grep -a -i 'error' ${INDIR}/Add-Metadata.log | sort | uniq >> ${INDIR}/Add-Metadata.error.log
-	-grep -a -i 'warn'  ${INDIR}/Add-Metadata.log | sort | uniq >  ${INDIR}/Add-Metadata.warn.log
+	${BIN}/add-metadata.pl ${INDIR} ${OUTDIR-TEI} 2>  ${LOG}.log
+	${BIN}/add-metadata.pl ${INDIR} ${OUTDIR-ANA} 2>> ${LOG}.log
+	-grep -a -i 'fatal' ${LOG}.log | sort | uniq >  ${LOG}.error.log
+	-grep -a -i 'error' ${LOG}.log | sort | uniq >> ${LOG}.error.log
+	-grep -a -i 'warn'  ${LOG}.log | sort | uniq >  ${LOG}.warn.log
 
 ### Applying metadata insertion & logging results, for all corpora ${META-CORPORA}
 insert-all-metadata:
@@ -47,7 +48,7 @@ insert-all-metadata:
 
 ### Do metadata insertion for all corpora in the background and log the result
 nohup:
-	nohup time make insert-all-metadata > Add-Metadata.log &
+	nohup time make insert-all-metadata > ParlaMint-metadata.log &
 
 ######## Targets for generating initialised TSV files (then used for adding meta-data)
 ######## and for testing TSV insertion for a particular metadata layer
