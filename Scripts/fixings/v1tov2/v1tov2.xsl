@@ -17,7 +17,7 @@
     <change when="{$today-iso}"><name>Tomaž Erjavec</name>: Fixes for Version 2.</change>
   </xsl:param>
   <xsl:variable name="today-iso" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
-  <xsl:variable name="id" select="replace(document-uri(/), '.+/([^/]+)\.xml', '$1')"/>
+  <xsl:variable name="id" select="replace(base-uri(), '.+/([^/]+)\.xml', '$1')"/>
   <xsl:variable name="lang" select="/tei:*/@xml:lang"/>
   
   <xsl:variable name="type">

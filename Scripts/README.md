@@ -7,6 +7,8 @@ script. Note that these scripts should be typically run via the repository
 [Makefile](../Makefile); for instructions how to use it, pls. see the
 repository [CONTRIBUTING](../CONTRIBUTING.md) file.
 
+The main scripts are listed below, although there also exist other, maintenance scripts.
+
 ## Validation
 
 * [validate-parlamint.pl](validate-parlamint.pl): Perl script that

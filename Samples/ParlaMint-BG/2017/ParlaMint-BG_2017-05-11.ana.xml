@@ -1,0 +1,1865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:id="ParlaMint-BG_2017-05-11.ana" xml:lang="bg">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bg">Български парламентарен корпус ParlaMint-BG (2017-05-11) [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Bulgarian parliamentary corpus ParlaMint-BG (2017-05-11) [ParlaMint.ana SAMPLE]</title>
+            <title type="sub" xml:lang="bg">Стенограмa от 11 пленарнo заседаниe на 1 сесия на 44 Народно събрание на Република България (2017-05-11)</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Bulgarian National Assembly, Term 44, Session 1, Meeting 11 (2017-05-11)</title>
+            <meeting ana="#parla.uni #parla.sitting" corresp="#BGNS" n="2017-05-11">2017-05-11</meeting>
+            <meeting ana="#parla.uni #parla.meeting.regular" corresp="#BGNS" n="11">11 пленарно заседание</meeting>
+            <meeting ana="#parla.uni #parla.session" corresp="#BGNS" n="1">1 парламентарна сесия</meeting>
+            <meeting ana="#parla.uni #parla.term" corresp="#BGNS" n="44">Четиридесет и четвърто народно събрание</meeting>
+            <respStmt>
+               <persName xml:lang="bg">Владислава Григорова</persName>
+               <persName xml:lang="en">Vladislava Grigorova</persName>
+               <resp xml:lang="bg">Сваляне, почистване и конвертиране до XML</resp>
+               <resp xml:lang="en">Download, clean-up converting of the data to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-4484-5027" xml:lang="bg">Петя Осенова</persName>
+               <persName ref="https://orcid.org/0000-0002-4484-5027" xml:lang="en">Petya Osenova</persName>
+               <resp xml:lang="bg">Кодиране в Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3555-0179" xml:lang="bg">Кирил Симов</persName>
+               <persName ref="https://orcid.org/0000-0003-3555-0179" xml:lang="en">Kiril Simov</persName>
+               <resp xml:lang="bg">Валидиране на корпуса Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus validation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="bg">Изследователска инфраструктура CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure quantity="110" unit="speeches" xml:lang="bg">110 изказвания</measure>
+            <measure quantity="110" unit="speeches" xml:lang="en">110 speeches</measure>
+            <measure quantity="4767" unit="words" xml:lang="en"/>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="bg">Изследователска инфраструктура CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
+               <p xml:lang="bg">Този ресурс е лицензиран под лиценз: <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
+            </availability>
+            <date when="2024-03-06">2024-03-06</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the National Assembly of the Republic of Bulgaria</title>
+               <idno type="URI" subtype="parliament">https://www.parliament.bg/bg/plenaryst/ns/55/ID/5758</idno>
+               <date when="2017-05-11"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="bg"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="9"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="2"/>
+               <tagUsage gi="link" occurs="5893"/>
+               <tagUsage gi="linkGrp" occurs="450"/>
+               <tagUsage gi="name" occurs="570"/>
+               <tagUsage gi="pc" occurs="1126"/>
+               <tagUsage gi="s" occurs="450"/>
+               <tagUsage gi="seg" occurs="395"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="110"/>
+               <tagUsage gi="vocal" occurs="7"/>
+               <tagUsage gi="w" occurs="4767"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">2 Narodno Sabranie Sq.</name>
+               <name type="city">Sofia</name>
+               <name key="BG" type="country">Bulgaria</name>
+               <date when="2017-05-11"/>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-03-06">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="bg">
+      <body>
+         <div type="debateSection">
+            <u ana="#chair" n="72336" who="#GlavchevDimitar" xml:id="ParlaMint-BG_2017-05-11.u1">
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg1">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg1.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg1.1.1" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Ansi" lemma="добър">Добро</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg1.1.2" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="утро" join="right">утро</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg1.1.3" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg1.1.4" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur" ana="mte:A-pi" lemma="уважаем">уважаеми</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg1.1.5" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur" ana="mte:Ncmpi" lemma="колега" join="right">колеги</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg1.1.6" msd="UPosTag=PUNCT" ana="mte:punct">!</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg1.1.2 #ParlaMint-BG_2017-05-11.seg1.1.1"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg1.1 #ParlaMint-BG_2017-05-11.seg1.1.2"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg1.1.5 #ParlaMint-BG_2017-05-11.seg1.1.3"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg1.1.5 #ParlaMint-BG_2017-05-11.seg1.1.4"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg1.1.2 #ParlaMint-BG_2017-05-11.seg1.1.5"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg1.1.2 #ParlaMint-BG_2017-05-11.seg1.1.6"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg2">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg2.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg2.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vnitf-r3s" lemma="има">Има</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg2.1.2" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="кворум" join="right">кворум</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg2.1.3" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg2.1 #ParlaMint-BG_2017-05-11.seg2.1.1"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BG_2017-05-11.seg2.1.1 #ParlaMint-BG_2017-05-11.seg2.1.2"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg2.1.1 #ParlaMint-BG_2017-05-11.seg2.1.3"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <kinesic type="ringing" xml:id="ParlaMint-BG_2017-05-11.ana.kinesic1">
+                  <desc>Звъни.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg3">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg3.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg3.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r1s" lemma="откривам-(се)">Откривам</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg3.1.2" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Ansd" lemma="пленарен">пленарното</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg3.1.3" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="заседание" join="right">заседание</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg3.1.4" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg3.1 #ParlaMint-BG_2017-05-11.seg3.1.1"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg3.1.3 #ParlaMint-BG_2017-05-11.seg3.1.2"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BG_2017-05-11.seg3.1.1 #ParlaMint-BG_2017-05-11.seg3.1.3"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg3.1.1 #ParlaMint-BG_2017-05-11.seg3.1.4"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg3.2">
+<w xml:id="ParlaMint-BG_2017-05-11.seg3.2.1" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Plur" ana="mte:Ncnpi" lemma="съобщение" join="right">Съобщения</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg3.2.2" msd="UPosTag=PUNCT" ana="mte:punct">:</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg3.2 #ParlaMint-BG_2017-05-11.seg3.2.1"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg3.2.1 #ParlaMint-BG_2017-05-11.seg3.2.2"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg4">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg4.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.1" msd="UPosTag=ADP" ana="mte:R" lemma="на">На</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.2" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="основание">основание</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.3" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="чл.">чл.</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.4" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord" ana="mte:Momsi" lemma="65" join="right">65</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg4.1.5" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.6" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="ал.">ал.</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.7" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord" ana="mte:Mofsi" lemma="първи">1</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.8" msd="UPosTag=ADP" ana="mte:R" lemma="от">от</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.9" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsh" lemma="закон">Закона</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.10" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.11" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing" ana="mte:Ncfsd" lemma="отбрана">отбраната</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.12" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.13" msd="UPosTag=ADJ|Aspect=Perf|Definite=Def|Degree=Pos|Number=Plur|VerbForm=Part|Voice=Pass" ana="mte:Vpptcv--p-d" lemma="въоръжа">въоръжените</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.14" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Plur" ana="mte:Ncfpi" lemma="сила">сили</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.15" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+                     <name type="LOC">
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.16" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="република">Република</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.17" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Npfsi" lemma="българия">България</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.18" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.19" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord" ana="mte:Momsi" lemma="девети">9</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.20" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.21" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord" ana="mte:Momsi" lemma="10">10</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.22" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="май">май</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.23" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord" ana="mte:Mofsi" lemma="2017">2017</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.24" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="година" join="right">г.</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg4.1.25" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.26" msd="UPosTag=ADP" ana="mte:R" lemma="с">с</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.27" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="вх" join="right">вх</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg4.1.28" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.29" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="№">№</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.30" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="ад">АД</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.31" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="703" join="right">703</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg4.1.32" msd="UPosTag=PUNCT" ana="mte:punct" join="right">-</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.33" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="09" join="right">09</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg4.1.34" msd="UPosTag=PUNCT" ana="mte:punct" join="right">-</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.35" msd="UPosTag=NUM|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card" ana="mte:Mcnsi" lemma="един">1</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.36" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.37" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="№">№</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.38" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="703" join="right">703</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg4.1.39" msd="UPosTag=PUNCT" ana="mte:punct" join="right">-</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.40" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="09" join="right">09</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg4.1.41" msd="UPosTag=PUNCT" ana="mte:punct" join="right">-</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.42" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="четири" join="right">4</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg4.1.43" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.44" msd="UPosTag=ADP" ana="mte:R" lemma="в">в</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.45" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Ansd" lemma="народен">Народното</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.46" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="събрание">събрание</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.47" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vxitf-r3p" lemma="съм">са</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.48" msd="UPosTag=VERB|Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vppicao-p-i" lemma="постъпя">постъпили</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.49" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Plur" ana="mte:Ncnpi" lemma="уведомление">уведомления</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.50" msd="UPosTag=ADP" ana="mte:R" lemma="от">от</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.51" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsh" lemma="министър">министъра</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.52" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.1.53" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing" ana="mte:Ncfsd" lemma="отбрана" join="right">отбраната</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg4.1.54" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg4.1.2 #ParlaMint-BG_2017-05-11.seg4.1.1"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BG_2017-05-11.seg4.1.48 #ParlaMint-BG_2017-05-11.seg4.1.2"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg4.1.2 #ParlaMint-BG_2017-05-11.seg4.1.3"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg4.1.3 #ParlaMint-BG_2017-05-11.seg4.1.4"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg4.1.6 #ParlaMint-BG_2017-05-11.seg4.1.5"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg4.1.3 #ParlaMint-BG_2017-05-11.seg4.1.6"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg4.1.6 #ParlaMint-BG_2017-05-11.seg4.1.7"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg4.1.9 #ParlaMint-BG_2017-05-11.seg4.1.8"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg4.1.6 #ParlaMint-BG_2017-05-11.seg4.1.9"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg4.1.11 #ParlaMint-BG_2017-05-11.seg4.1.10"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg4.1.9 #ParlaMint-BG_2017-05-11.seg4.1.11"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg4.1.14 #ParlaMint-BG_2017-05-11.seg4.1.12"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg4.1.14 #ParlaMint-BG_2017-05-11.seg4.1.13"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg4.1.9 #ParlaMint-BG_2017-05-11.seg4.1.14"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg4.1.16 #ParlaMint-BG_2017-05-11.seg4.1.15"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg4.1.9 #ParlaMint-BG_2017-05-11.seg4.1.16"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg4.1.16 #ParlaMint-BG_2017-05-11.seg4.1.17"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg4.1.22 #ParlaMint-BG_2017-05-11.seg4.1.18"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg4.1.22 #ParlaMint-BG_2017-05-11.seg4.1.19"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg4.1.21 #ParlaMint-BG_2017-05-11.seg4.1.20"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg4.1.19 #ParlaMint-BG_2017-05-11.seg4.1.21"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg4.1.9 #ParlaMint-BG_2017-05-11.seg4.1.22"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg4.1.24 #ParlaMint-BG_2017-05-11.seg4.1.23"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg4.1.22 #ParlaMint-BG_2017-05-11.seg4.1.24"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg4.1.27 #ParlaMint-BG_2017-05-11.seg4.1.25"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg4.1.27 #ParlaMint-BG_2017-05-11.seg4.1.26"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg4.1.6 #ParlaMint-BG_2017-05-11.seg4.1.27"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg4.1.29 #ParlaMint-BG_2017-05-11.seg4.1.28"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg4.1.22 #ParlaMint-BG_2017-05-11.seg4.1.29"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg4.1.29 #ParlaMint-BG_2017-05-11.seg4.1.30"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg4.1.29 #ParlaMint-BG_2017-05-11.seg4.1.31"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg4.1.33 #ParlaMint-BG_2017-05-11.seg4.1.32"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BG_2017-05-11.seg4.1.29 #ParlaMint-BG_2017-05-11.seg4.1.33"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg4.1.35 #ParlaMint-BG_2017-05-11.seg4.1.34"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg4.1.33 #ParlaMint-BG_2017-05-11.seg4.1.35"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg4.1.37 #ParlaMint-BG_2017-05-11.seg4.1.36"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg4.1.29 #ParlaMint-BG_2017-05-11.seg4.1.37"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BG_2017-05-11.seg4.1.37 #ParlaMint-BG_2017-05-11.seg4.1.38"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg4.1.40 #ParlaMint-BG_2017-05-11.seg4.1.39"/>
+<link ana="ud-syn:appos" target="#ParlaMint-BG_2017-05-11.seg4.1.37 #ParlaMint-BG_2017-05-11.seg4.1.40"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg4.1.42 #ParlaMint-BG_2017-05-11.seg4.1.41"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg4.1.40 #ParlaMint-BG_2017-05-11.seg4.1.42"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg4.1.40 #ParlaMint-BG_2017-05-11.seg4.1.43"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg4.1.46 #ParlaMint-BG_2017-05-11.seg4.1.44"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg4.1.46 #ParlaMint-BG_2017-05-11.seg4.1.45"/>
+<link ana="ud-syn:iobj" target="#ParlaMint-BG_2017-05-11.seg4.1.48 #ParlaMint-BG_2017-05-11.seg4.1.46"/>
+<link ana="ud-syn:aux" target="#ParlaMint-BG_2017-05-11.seg4.1.48 #ParlaMint-BG_2017-05-11.seg4.1.47"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg4.1 #ParlaMint-BG_2017-05-11.seg4.1.48"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BG_2017-05-11.seg4.1.48 #ParlaMint-BG_2017-05-11.seg4.1.49"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg4.1.51 #ParlaMint-BG_2017-05-11.seg4.1.50"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg4.1.49 #ParlaMint-BG_2017-05-11.seg4.1.51"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg4.1.53 #ParlaMint-BG_2017-05-11.seg4.1.52"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg4.1.51 #ParlaMint-BG_2017-05-11.seg4.1.53"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg4.1.48 #ParlaMint-BG_2017-05-11.seg4.1.54"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg4.2">
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.2.1" msd="UPosTag=VERB|Aspect=Perf|Definite=Ind|Number=Plur|VerbForm=Part|Voice=Pass" ana="mte:Vpptcv--p-i" lemma="предоставя">Предоставени</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.2.2" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vxitf-r3p" lemma="съм">са</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.2.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.2.4" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing" ana="mte:Ncfsd" lemma="комисия">Комисията</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.2.5" msd="UPosTag=ADP" ana="mte:R" lemma="по">по</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg4.2.6" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing" ana="mte:Ncfsd" lemma="отбрана" join="right">отбраната</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg4.2.7" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg4.2 #ParlaMint-BG_2017-05-11.seg4.2.1"/>
+<link ana="ud-syn:aux_pass" target="#ParlaMint-BG_2017-05-11.seg4.2.1 #ParlaMint-BG_2017-05-11.seg4.2.2"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg4.2.4 #ParlaMint-BG_2017-05-11.seg4.2.3"/>
+<link ana="ud-syn:iobj" target="#ParlaMint-BG_2017-05-11.seg4.2.1 #ParlaMint-BG_2017-05-11.seg4.2.4"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg4.2.6 #ParlaMint-BG_2017-05-11.seg4.2.5"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg4.2.4 #ParlaMint-BG_2017-05-11.seg4.2.6"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg4.2.1 #ParlaMint-BG_2017-05-11.seg4.2.7"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg5">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg5.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg5.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r1p" lemma="продължавам">Продължаваме</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg5.1.2" msd="UPosTag=ADP" ana="mte:R" lemma="със">със</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg5.1.3" msd="UPosTag=ADJ|Aspect=Imp|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act" ana="mte:Vpitcar-sfd" lemma="следвам">следващата</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg5.1.4" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="точка">точка</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg5.1.5" msd="UPosTag=ADP" ana="mte:R" lemma="от">от</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg5.1.6" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsh" lemma="дневен">дневния</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg5.1.7" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="ред" join="right">ред</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg5.1.8" msd="UPosTag=PUNCT" ana="mte:punct">:</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg5.1 #ParlaMint-BG_2017-05-11.seg5.1.1"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg5.1.4 #ParlaMint-BG_2017-05-11.seg5.1.2"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg5.1.4 #ParlaMint-BG_2017-05-11.seg5.1.3"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BG_2017-05-11.seg5.1.1 #ParlaMint-BG_2017-05-11.seg5.1.4"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg5.1.7 #ParlaMint-BG_2017-05-11.seg5.1.5"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg5.1.7 #ParlaMint-BG_2017-05-11.seg5.1.6"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg5.1.4 #ParlaMint-BG_2017-05-11.seg5.1.7"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg5.1.1 #ParlaMint-BG_2017-05-11.seg5.1.8"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg6">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg6.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg6.1.1" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="избор">ИЗБОР</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg6.1.2" msd="UPosTag=ADP" ana="mte:R" lemma="на">НА</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg6.1.3" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur" ana="mte:A-pi" lemma="постоянен">ПОСТОЯННИ</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg6.1.4" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Plur" ana="mte:Ncfpi" lemma="делегация">ДЕЛЕГАЦИИ</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg6.1.5" msd="UPosTag=ADP" ana="mte:R" lemma="на">НА</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BG_2017-05-11.seg6.1.6" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Ansd" lemma="народен">НАРОДНОТО</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg6.1.7" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="събрание">СЪБРАНИЕ</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg6.1.8" msd="UPosTag=ADP" ana="mte:R" lemma="в">В</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BG_2017-05-11.seg6.1.9" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur" ana="mte:A-pi" lemma="международен">МЕЖДУНАРОДНИ</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg6.1.10" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Plur" ana="mte:Ncfpi" lemma="организация" join="right">ОРГАНИЗАЦИИ</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg6.1.11" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg6.1 #ParlaMint-BG_2017-05-11.seg6.1.1"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg6.1.4 #ParlaMint-BG_2017-05-11.seg6.1.2"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg6.1.4 #ParlaMint-BG_2017-05-11.seg6.1.3"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg6.1.1 #ParlaMint-BG_2017-05-11.seg6.1.4"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg6.1.7 #ParlaMint-BG_2017-05-11.seg6.1.5"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg6.1.7 #ParlaMint-BG_2017-05-11.seg6.1.6"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg6.1.4 #ParlaMint-BG_2017-05-11.seg6.1.7"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg6.1.10 #ParlaMint-BG_2017-05-11.seg6.1.8"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg6.1.10 #ParlaMint-BG_2017-05-11.seg6.1.9"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg6.1.4 #ParlaMint-BG_2017-05-11.seg6.1.10"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg6.1.1 #ParlaMint-BG_2017-05-11.seg6.1.11"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg7">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg7.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg7.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vnitf-r3s" lemma="има">Има</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg7.1.2" msd="UPosTag=ADJ|Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vppicao-p-i" lemma="постъпя">постъпили</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg7.1.3" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur" ana="mte:Ncmpi" lemma="проект">проекти</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg7.1.4" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg7.1.5" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Plur" ana="mte:Ncnpi" lemma="решение">решения</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg7.1.6" msd="UPosTag=ADP" ana="mte:R" lemma="с">с</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg7.1.7" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur" ana="mte:Ncmpi" lemma="вносител">вносители</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg7.1.8" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Number=Plur" ana="mte:A-pd" lemma="народен">народните</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg7.1.9" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur" ana="mte:Ncmpi" lemma="представител">представители</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg7.1.10" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="красимир">Красимир</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg7.1.11" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="велчев">Велчев</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg7.1.12" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg7.1.13" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="станислав">Станислав</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg7.1.14" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="иванов" join="right">Иванов</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg7.1.15" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg7.1 #ParlaMint-BG_2017-05-11.seg7.1.1"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg7.1.3 #ParlaMint-BG_2017-05-11.seg7.1.2"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BG_2017-05-11.seg7.1.1 #ParlaMint-BG_2017-05-11.seg7.1.3"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg7.1.5 #ParlaMint-BG_2017-05-11.seg7.1.4"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg7.1.3 #ParlaMint-BG_2017-05-11.seg7.1.5"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg7.1.7 #ParlaMint-BG_2017-05-11.seg7.1.6"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg7.1.5 #ParlaMint-BG_2017-05-11.seg7.1.7"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg7.1.9 #ParlaMint-BG_2017-05-11.seg7.1.8"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg7.1.7 #ParlaMint-BG_2017-05-11.seg7.1.9"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg7.1.9 #ParlaMint-BG_2017-05-11.seg7.1.10"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg7.1.10 #ParlaMint-BG_2017-05-11.seg7.1.11"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg7.1.13 #ParlaMint-BG_2017-05-11.seg7.1.12"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg7.1.10 #ParlaMint-BG_2017-05-11.seg7.1.13"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg7.1.13 #ParlaMint-BG_2017-05-11.seg7.1.14"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg7.1.1 #ParlaMint-BG_2017-05-11.seg7.1.15"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg8">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg8.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg8.1.1" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord" ana="mte:Momsf" lemma="пръв" join="right">Първият</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg8.1.2" msd="UPosTag=PUNCT" ana="mte:punct">:</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg8.1 #ParlaMint-BG_2017-05-11.seg8.1.1"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg8.1.1 #ParlaMint-BG_2017-05-11.seg8.1.2"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg9">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg9.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg9.1.1" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="проект" join="right">Проект</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg9.1.2" msd="UPosTag=PUNCT" ana="mte:punct">!</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg9.1 #ParlaMint-BG_2017-05-11.seg9.1.1"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg9.1.1 #ParlaMint-BG_2017-05-11.seg9.1.2"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg10">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg10.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg10.1.1" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="решение">РЕШЕНИЕ</w>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg10.1 #ParlaMint-BG_2017-05-11.seg10.1.1"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg11">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg11.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg11.1.1" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg11.1.2" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="избиране">избиране</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg11.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg11.1.4" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Afsi" lemma="постоянен">постоянна</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg11.1.5" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="делегация">делегация</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg11.1.6" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BG_2017-05-11.seg11.1.7" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Ansd" lemma="народен">Народното</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg11.1.8" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="събрание">събрание</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg11.1.9" msd="UPosTag=ADP" ana="mte:R" lemma="в">в</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BG_2017-05-11.seg11.1.10" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Afsd" lemma="парламентарен">Парламентарната</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg11.1.11" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="асамблея">асамблея</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg11.1.12" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BG_2017-05-11.seg11.1.13" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsh" lemma="съвет">Съвета</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg11.1.14" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg11.1.15" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Npfsi" lemma="европа">Европа</w>
+                     </name>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg11.1.2 #ParlaMint-BG_2017-05-11.seg11.1.1"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg11.1 #ParlaMint-BG_2017-05-11.seg11.1.2"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg11.1.5 #ParlaMint-BG_2017-05-11.seg11.1.3"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg11.1.5 #ParlaMint-BG_2017-05-11.seg11.1.4"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg11.1.2 #ParlaMint-BG_2017-05-11.seg11.1.5"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg11.1.8 #ParlaMint-BG_2017-05-11.seg11.1.6"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg11.1.8 #ParlaMint-BG_2017-05-11.seg11.1.7"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg11.1.5 #ParlaMint-BG_2017-05-11.seg11.1.8"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg11.1.11 #ParlaMint-BG_2017-05-11.seg11.1.9"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg11.1.11 #ParlaMint-BG_2017-05-11.seg11.1.10"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg11.1.2 #ParlaMint-BG_2017-05-11.seg11.1.11"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg11.1.13 #ParlaMint-BG_2017-05-11.seg11.1.12"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg11.1.11 #ParlaMint-BG_2017-05-11.seg11.1.13"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg11.1.15 #ParlaMint-BG_2017-05-11.seg11.1.14"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg11.1.13 #ParlaMint-BG_2017-05-11.seg11.1.15"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg12">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg12.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.1" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Ansd" lemma="народен">Народното</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.2" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="събрание">събрание</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.4" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="основание">основание</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.5" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="чл.">чл.</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.6" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord" ana="mte:Momsi" lemma="86" join="right">86</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg12.1.7" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.8" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="ал.">ал.</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.9" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord" ana="mte:Mofsi" lemma="първи">1</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.10" msd="UPosTag=ADP" ana="mte:R" lemma="от">от</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.11" msd="UPosTag=PROPN|Definite=Def|Gender=Fem|Number=Sing" ana="mte:Npfsd" lemma="конституция">Конституцията</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.12" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.13" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="република">Република</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.14" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Npfsi" lemma="българия">България</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.15" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.16" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="чл.">чл.</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.17" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord" ana="mte:Momsi" lemma="38">38</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.18" msd="UPosTag=ADP" ana="mte:R" lemma="от">от</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.19" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsh" lemma="правилник">Правилника</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.20" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.21" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing" ana="mte:Ncfsd" lemma="организация">организацията</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.22" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.23" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing" ana="mte:Ncfsd" lemma="дейност">дейността</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.24" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.25" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Ansd" lemma="народен">Народното</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.26" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="събрание">събрание</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.27" msd="UPosTag=ADP" ana="mte:R" lemma="във">във</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.28" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="връзка">връзка</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.29" msd="UPosTag=ADP" ana="mte:R" lemma="с">с</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.30" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="чл.">чл.</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.31" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="25" join="right">25</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg12.1.32" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.33" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Plur" ana="mte:Ncfpi" lemma="буква">букви</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg12.1.34" msd="UPosTag=PUNCT" ana="mte:punct" join="right">„</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.35" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="а" join="right">а</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg12.1.36" msd="UPosTag=PUNCT" ana="mte:punct">“</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.37" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg12.1.38" msd="UPosTag=PUNCT" ana="mte:punct" join="right">„</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.39" msd="UPosTag=ADP" ana="mte:R" lemma="с" join="right">с</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg12.1.40" msd="UPosTag=PUNCT" ana="mte:punct">“</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.41" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.42" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="чл.">чл.</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.43" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord" ana="mte:Momsi" lemma="26">26</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.44" msd="UPosTag=ADP" ana="mte:R" lemma="от">от</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.45" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsh" lemma="статут">Статута</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.46" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.47" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsh" lemma="съвет">Съвета</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.48" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg12.1.49" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Npfsi" lemma="европа">Европа</w>
+                     </name>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg12.1.2 #ParlaMint-BG_2017-05-11.seg12.1.1"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BG_2017-05-11.seg12.1.4 #ParlaMint-BG_2017-05-11.seg12.1.2"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg12.1.4 #ParlaMint-BG_2017-05-11.seg12.1.3"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg12.1 #ParlaMint-BG_2017-05-11.seg12.1.4"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg12.1.4 #ParlaMint-BG_2017-05-11.seg12.1.5"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg12.1.5 #ParlaMint-BG_2017-05-11.seg12.1.6"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg12.1.8 #ParlaMint-BG_2017-05-11.seg12.1.7"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg12.1.5 #ParlaMint-BG_2017-05-11.seg12.1.8"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg12.1.8 #ParlaMint-BG_2017-05-11.seg12.1.9"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg12.1.11 #ParlaMint-BG_2017-05-11.seg12.1.10"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg12.1.8 #ParlaMint-BG_2017-05-11.seg12.1.11"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg12.1.13 #ParlaMint-BG_2017-05-11.seg12.1.12"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg12.1.11 #ParlaMint-BG_2017-05-11.seg12.1.13"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg12.1.13 #ParlaMint-BG_2017-05-11.seg12.1.14"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg12.1.16 #ParlaMint-BG_2017-05-11.seg12.1.15"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg12.1.5 #ParlaMint-BG_2017-05-11.seg12.1.16"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg12.1.16 #ParlaMint-BG_2017-05-11.seg12.1.17"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg12.1.19 #ParlaMint-BG_2017-05-11.seg12.1.18"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg12.1.16 #ParlaMint-BG_2017-05-11.seg12.1.19"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg12.1.21 #ParlaMint-BG_2017-05-11.seg12.1.20"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg12.1.19 #ParlaMint-BG_2017-05-11.seg12.1.21"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg12.1.23 #ParlaMint-BG_2017-05-11.seg12.1.22"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg12.1.21 #ParlaMint-BG_2017-05-11.seg12.1.23"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg12.1.26 #ParlaMint-BG_2017-05-11.seg12.1.24"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg12.1.26 #ParlaMint-BG_2017-05-11.seg12.1.25"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg12.1.21 #ParlaMint-BG_2017-05-11.seg12.1.26"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg12.1.30 #ParlaMint-BG_2017-05-11.seg12.1.27"/>
+<link ana="ud-syn:fixed" target="#ParlaMint-BG_2017-05-11.seg12.1.27 #ParlaMint-BG_2017-05-11.seg12.1.28"/>
+<link ana="ud-syn:fixed" target="#ParlaMint-BG_2017-05-11.seg12.1.27 #ParlaMint-BG_2017-05-11.seg12.1.29"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg12.1.19 #ParlaMint-BG_2017-05-11.seg12.1.30"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BG_2017-05-11.seg12.1.30 #ParlaMint-BG_2017-05-11.seg12.1.31"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg12.1.33 #ParlaMint-BG_2017-05-11.seg12.1.32"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg12.1.30 #ParlaMint-BG_2017-05-11.seg12.1.33"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg12.1.35 #ParlaMint-BG_2017-05-11.seg12.1.34"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg12.1.38 #ParlaMint-BG_2017-05-11.seg12.1.35"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg12.1.38 #ParlaMint-BG_2017-05-11.seg12.1.36"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg12.1.38 #ParlaMint-BG_2017-05-11.seg12.1.37"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg12.1.30 #ParlaMint-BG_2017-05-11.seg12.1.38"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg12.1.40 #ParlaMint-BG_2017-05-11.seg12.1.39"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg12.1.38 #ParlaMint-BG_2017-05-11.seg12.1.40"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg12.1.42 #ParlaMint-BG_2017-05-11.seg12.1.41"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg12.1.40 #ParlaMint-BG_2017-05-11.seg12.1.42"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg12.1.42 #ParlaMint-BG_2017-05-11.seg12.1.43"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg12.1.45 #ParlaMint-BG_2017-05-11.seg12.1.44"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg12.1.40 #ParlaMint-BG_2017-05-11.seg12.1.45"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg12.1.47 #ParlaMint-BG_2017-05-11.seg12.1.46"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg12.1.45 #ParlaMint-BG_2017-05-11.seg12.1.47"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg12.1.49 #ParlaMint-BG_2017-05-11.seg12.1.48"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg12.1.47 #ParlaMint-BG_2017-05-11.seg12.1.49"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg13">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg13.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg13.1.1" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" ana="mte:Vpptf-o3s" lemma="реша" join="right">РЕШИ</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg13.1.2" msd="UPosTag=PUNCT" ana="mte:punct">:</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg13.1 #ParlaMint-BG_2017-05-11.seg13.1.1"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg13.1.1 #ParlaMint-BG_2017-05-11.seg13.1.2"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg14">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg14.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.1" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord" ana="mte:Mofsi" lemma="1.">1.</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.2" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r3s" lemma="избирам">Избира</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.3" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Afsi" lemma="постоянен">постоянна</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.4" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="делегация">делегация</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.5" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.6" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Ansd" lemma="народен">Народното</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.7" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="събрание">събрание</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.8" msd="UPosTag=ADP" ana="mte:R" lemma="в">в</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.9" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Afsd" lemma="парламентарен">Парламентарната</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.10" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="асамблея">асамблея</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.11" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.12" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsh" lemma="съвет">Съвета</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.13" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.14" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Npfsi" lemma="европа">Европа</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.15" msd="UPosTag=ADP" ana="mte:R" lemma="в">в</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.16" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="състав">състав</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.17" msd="UPosTag=ADP" ana="mte:R" lemma="от">от</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.18" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="шест">6</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.19" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur" ana="mte:A-pi" lemma="основен">основни</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.20" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur" ana="mte:Ncmpi" lemma="представител">представители</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.21" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.22" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="шест">6</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.23" msd="UPosTag=ADJ|Aspect=Imp|Definite=Ind|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act" ana="mte:Vpitcar-p-i" lemma="замествам">заместващи</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.24" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur" ana="mte:Ncmpi" lemma="представител" join="right">представители</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg14.1.25" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.26" msd="UPosTag=ADV|PronType=Rel" ana="mte:Prm" lemma="както">както</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg14.1.27" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vnitf-r3s" lemma="следва" join="right">следва</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg14.1.28" msd="UPosTag=PUNCT" ana="mte:punct">:</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:nsubj" target="#ParlaMint-BG_2017-05-11.seg14.1.2 #ParlaMint-BG_2017-05-11.seg14.1.1"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg14.1 #ParlaMint-BG_2017-05-11.seg14.1.2"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg14.1.4 #ParlaMint-BG_2017-05-11.seg14.1.3"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BG_2017-05-11.seg14.1.2 #ParlaMint-BG_2017-05-11.seg14.1.4"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg14.1.7 #ParlaMint-BG_2017-05-11.seg14.1.5"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg14.1.7 #ParlaMint-BG_2017-05-11.seg14.1.6"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg14.1.4 #ParlaMint-BG_2017-05-11.seg14.1.7"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg14.1.10 #ParlaMint-BG_2017-05-11.seg14.1.8"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg14.1.10 #ParlaMint-BG_2017-05-11.seg14.1.9"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BG_2017-05-11.seg14.1.2 #ParlaMint-BG_2017-05-11.seg14.1.10"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg14.1.12 #ParlaMint-BG_2017-05-11.seg14.1.11"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg14.1.10 #ParlaMint-BG_2017-05-11.seg14.1.12"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg14.1.14 #ParlaMint-BG_2017-05-11.seg14.1.13"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg14.1.12 #ParlaMint-BG_2017-05-11.seg14.1.14"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg14.1.16 #ParlaMint-BG_2017-05-11.seg14.1.15"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BG_2017-05-11.seg14.1.2 #ParlaMint-BG_2017-05-11.seg14.1.16"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg14.1.20 #ParlaMint-BG_2017-05-11.seg14.1.17"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BG_2017-05-11.seg14.1.20 #ParlaMint-BG_2017-05-11.seg14.1.18"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg14.1.20 #ParlaMint-BG_2017-05-11.seg14.1.19"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg14.1.16 #ParlaMint-BG_2017-05-11.seg14.1.20"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg14.1.24 #ParlaMint-BG_2017-05-11.seg14.1.21"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BG_2017-05-11.seg14.1.24 #ParlaMint-BG_2017-05-11.seg14.1.22"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg14.1.24 #ParlaMint-BG_2017-05-11.seg14.1.23"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg14.1.20 #ParlaMint-BG_2017-05-11.seg14.1.24"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg14.1.27 #ParlaMint-BG_2017-05-11.seg14.1.25"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BG_2017-05-11.seg14.1.27 #ParlaMint-BG_2017-05-11.seg14.1.26"/>
+<link ana="ud-syn:advcl" target="#ParlaMint-BG_2017-05-11.seg14.1.2 #ParlaMint-BG_2017-05-11.seg14.1.27"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg14.1.2 #ParlaMint-BG_2017-05-11.seg14.1.28"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg15">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg15.1">
+<pc xml:id="ParlaMint-BG_2017-05-11.seg15.1.1" msd="UPosTag=PUNCT" ana="mte:punct">-</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg15.1.2" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg15.1.3" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Afsd" lemma="парламентарен">парламентарната</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg15.1.4" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="група">група</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg15.1.5" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BG_2017-05-11.seg15.1.6" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Afsi" lemma="политически">Политическа</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg15.1.7" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="партия">партия</w>
+                     </name>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BG_2017-05-11.seg15.1.8" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="герб">ГЕРБ</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg15.1.9" msd="UPosTag=PUNCT" ana="mte:punct">–</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg15.1.10" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="двама">двама</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg15.1.11" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur" ana="mte:A-pi" lemma="основен">основни</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg15.1.12" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg15.1.13" msd="UPosTag=DET|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind" ana="mte:Pfe-os-mi" lemma="един">един</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg15.1.14" msd="UPosTag=ADJ|Aspect=Imp|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act" ana="mte:Vpitcar-smi" lemma="замествам" join="right">заместващ</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg15.1.15" msd="UPosTag=PUNCT" ana="mte:punct">;</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg15.1.11 #ParlaMint-BG_2017-05-11.seg15.1.1"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg15.1.4 #ParlaMint-BG_2017-05-11.seg15.1.2"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg15.1.4 #ParlaMint-BG_2017-05-11.seg15.1.3"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BG_2017-05-11.seg15.1.11 #ParlaMint-BG_2017-05-11.seg15.1.4"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg15.1.7 #ParlaMint-BG_2017-05-11.seg15.1.5"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg15.1.7 #ParlaMint-BG_2017-05-11.seg15.1.6"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg15.1.4 #ParlaMint-BG_2017-05-11.seg15.1.7"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg15.1.7 #ParlaMint-BG_2017-05-11.seg15.1.8"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg15.1.14 #ParlaMint-BG_2017-05-11.seg15.1.9"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BG_2017-05-11.seg15.1.11 #ParlaMint-BG_2017-05-11.seg15.1.10"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg15.1 #ParlaMint-BG_2017-05-11.seg15.1.11"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg15.1.13 #ParlaMint-BG_2017-05-11.seg15.1.12"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg15.1.11 #ParlaMint-BG_2017-05-11.seg15.1.13"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg15.1.11 #ParlaMint-BG_2017-05-11.seg15.1.14"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg15.1.11 #ParlaMint-BG_2017-05-11.seg15.1.15"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg16">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg16.1">
+<pc xml:id="ParlaMint-BG_2017-05-11.seg16.1.1" msd="UPosTag=PUNCT" ana="mte:punct">-</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg16.1.2" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg16.1.3" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Afsd" lemma="парламентарен">парламентарната</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg16.1.4" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="група">група</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg16.1.5" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg16.1.6" msd="UPosTag=PUNCT" ana="mte:punct" join="right">„</pc>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BG_2017-05-11.seg16.1.7" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Npfsi" lemma="бсп">БСП</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg16.1.8" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
+                     <name type="LOC">
+<w xml:id="ParlaMint-BG_2017-05-11.seg16.1.9" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Npfsi" lemma="българия" join="right">България</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg16.1.10" msd="UPosTag=PUNCT" ana="mte:punct">“</pc>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg16.1.11" msd="UPosTag=PUNCT" ana="mte:punct">–</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg16.1.12" msd="UPosTag=DET|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind" ana="mte:Pfe-os-mi" lemma="един">един</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg16.1.13" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsi" lemma="основен">основен</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg16.1.14" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg16.1.15" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="двама">двама</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg16.1.16" msd="UPosTag=ADJ|Aspect=Imp|Definite=Ind|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act" ana="mte:Vpitcar-p-i" lemma="замествам" join="right">заместващи</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg16.1.17" msd="UPosTag=PUNCT" ana="mte:punct">;</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg16.1.4 #ParlaMint-BG_2017-05-11.seg16.1.1"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg16.1.4 #ParlaMint-BG_2017-05-11.seg16.1.2"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg16.1.4 #ParlaMint-BG_2017-05-11.seg16.1.3"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg16.1 #ParlaMint-BG_2017-05-11.seg16.1.4"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg16.1.7 #ParlaMint-BG_2017-05-11.seg16.1.5"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg16.1.7 #ParlaMint-BG_2017-05-11.seg16.1.6"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg16.1.4 #ParlaMint-BG_2017-05-11.seg16.1.7"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg16.1.9 #ParlaMint-BG_2017-05-11.seg16.1.8"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg16.1.4 #ParlaMint-BG_2017-05-11.seg16.1.9"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg16.1.4 #ParlaMint-BG_2017-05-11.seg16.1.10"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg16.1.16 #ParlaMint-BG_2017-05-11.seg16.1.11"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BG_2017-05-11.seg16.1.16 #ParlaMint-BG_2017-05-11.seg16.1.12"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg16.1.16 #ParlaMint-BG_2017-05-11.seg16.1.13"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg16.1.15 #ParlaMint-BG_2017-05-11.seg16.1.14"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg16.1.13 #ParlaMint-BG_2017-05-11.seg16.1.15"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg16.1.4 #ParlaMint-BG_2017-05-11.seg16.1.16"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg16.1.4 #ParlaMint-BG_2017-05-11.seg16.1.17"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg17">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg17.1">
+<pc xml:id="ParlaMint-BG_2017-05-11.seg17.1.1" msd="UPosTag=PUNCT" ana="mte:punct">-</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg17.1.2" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg17.1.3" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Afsd" lemma="парламентарен">парламентарната</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg17.1.4" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="група">група</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg17.1.5" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg17.1.6" msd="UPosTag=PUNCT" ana="mte:punct" join="right">„</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg17.1.7" msd="UPosTag=ADJ|Aspect=Perf|Definite=Ind|Degree=Pos|Number=Plur|VerbForm=Part|Voice=Pass" ana="mte:Vpptcv--p-i" lemma="обединя-(се)">Обединени</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg17.1.8" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur" ana="mte:Ncmpi" lemma="патриот" join="right">патриоти</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg17.1.9" msd="UPosTag=PUNCT" ana="mte:punct">“</pc>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg17.1.10" msd="UPosTag=PUNCT" ana="mte:punct">–</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg17.1.11" msd="UPosTag=DET|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind" ana="mte:Pfe-os-mi" lemma="един">един</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg17.1.12" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsi" lemma="основен">основен</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg17.1.13" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg17.1.14" msd="UPosTag=DET|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind" ana="mte:Pfe-os-mi" lemma="един">един</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg17.1.15" msd="UPosTag=ADJ|Aspect=Imp|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act" ana="mte:Vpitcar-smi" lemma="замествам" join="right">заместващ</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg17.1.16" msd="UPosTag=PUNCT" ana="mte:punct">;</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg17.1.4 #ParlaMint-BG_2017-05-11.seg17.1.1"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg17.1.4 #ParlaMint-BG_2017-05-11.seg17.1.2"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg17.1.4 #ParlaMint-BG_2017-05-11.seg17.1.3"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg17.1 #ParlaMint-BG_2017-05-11.seg17.1.4"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg17.1.8 #ParlaMint-BG_2017-05-11.seg17.1.5"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg17.1.8 #ParlaMint-BG_2017-05-11.seg17.1.6"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg17.1.8 #ParlaMint-BG_2017-05-11.seg17.1.7"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg17.1.4 #ParlaMint-BG_2017-05-11.seg17.1.8"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg17.1.8 #ParlaMint-BG_2017-05-11.seg17.1.9"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg17.1.15 #ParlaMint-BG_2017-05-11.seg17.1.10"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BG_2017-05-11.seg17.1.15 #ParlaMint-BG_2017-05-11.seg17.1.11"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg17.1.15 #ParlaMint-BG_2017-05-11.seg17.1.12"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg17.1.14 #ParlaMint-BG_2017-05-11.seg17.1.13"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg17.1.12 #ParlaMint-BG_2017-05-11.seg17.1.14"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg17.1.4 #ParlaMint-BG_2017-05-11.seg17.1.15"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg17.1.4 #ParlaMint-BG_2017-05-11.seg17.1.16"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg18">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg18.1">
+<pc xml:id="ParlaMint-BG_2017-05-11.seg18.1.1" msd="UPosTag=PUNCT" ana="mte:punct">-</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg18.1.2" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg18.1.3" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Afsd" lemma="парламентарен">парламентарната</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg18.1.4" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="група">група</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg18.1.5" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg18.1.6" msd="UPosTag=PUNCT" ana="mte:punct" join="right">„</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg18.1.7" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="движение">Движение</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg18.1.8" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg18.1.9" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Plur" ana="mte:Ncnpi" lemma="право">права</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg18.1.10" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg18.1.11" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Plur" ana="mte:Ncfpi" lemma="свобода" join="right">свободи</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg18.1.12" msd="UPosTag=PUNCT" ana="mte:punct">“</pc>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg18.1.13" msd="UPosTag=PUNCT" ana="mte:punct">–</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg18.1.14" msd="UPosTag=DET|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind" ana="mte:Pfe-os-mi" lemma="един">един</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg18.1.15" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsi" lemma="основен">основен</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg18.1.16" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg18.1.17" msd="UPosTag=DET|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind" ana="mte:Pfe-os-mi" lemma="един">един</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg18.1.18" msd="UPosTag=ADJ|Aspect=Imp|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act" ana="mte:Vpitcar-smi" lemma="замествам" join="right">заместващ</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg18.1.19" msd="UPosTag=PUNCT" ana="mte:punct">;</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg18.1.4 #ParlaMint-BG_2017-05-11.seg18.1.1"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg18.1.4 #ParlaMint-BG_2017-05-11.seg18.1.2"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg18.1.4 #ParlaMint-BG_2017-05-11.seg18.1.3"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg18.1 #ParlaMint-BG_2017-05-11.seg18.1.4"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg18.1.7 #ParlaMint-BG_2017-05-11.seg18.1.5"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg18.1.7 #ParlaMint-BG_2017-05-11.seg18.1.6"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg18.1.4 #ParlaMint-BG_2017-05-11.seg18.1.7"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg18.1.9 #ParlaMint-BG_2017-05-11.seg18.1.8"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg18.1.7 #ParlaMint-BG_2017-05-11.seg18.1.9"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg18.1.11 #ParlaMint-BG_2017-05-11.seg18.1.10"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg18.1.9 #ParlaMint-BG_2017-05-11.seg18.1.11"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg18.1.4 #ParlaMint-BG_2017-05-11.seg18.1.12"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg18.1.18 #ParlaMint-BG_2017-05-11.seg18.1.13"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BG_2017-05-11.seg18.1.18 #ParlaMint-BG_2017-05-11.seg18.1.14"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg18.1.18 #ParlaMint-BG_2017-05-11.seg18.1.15"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg18.1.17 #ParlaMint-BG_2017-05-11.seg18.1.16"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg18.1.15 #ParlaMint-BG_2017-05-11.seg18.1.17"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg18.1.4 #ParlaMint-BG_2017-05-11.seg18.1.18"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg18.1.4 #ParlaMint-BG_2017-05-11.seg18.1.19"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg19">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg19.1">
+<pc xml:id="ParlaMint-BG_2017-05-11.seg19.1.1" msd="UPosTag=PUNCT" ana="mte:punct">-</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg19.1.2" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg19.1.3" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Afsd" lemma="парламентарен">парламентарната</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg19.1.4" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="група">група</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg19.1.5" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BG_2017-05-11.seg19.1.6" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Afsi" lemma="политически">Политическа</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg19.1.7" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="партия">партия</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg19.1.8" msd="UPosTag=PUNCT" ana="mte:punct" join="right">„</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg19.1.9" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="воля" join="right">Воля</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg19.1.10" msd="UPosTag=PUNCT" ana="mte:punct">“</pc>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg19.1.11" msd="UPosTag=PUNCT" ana="mte:punct">–</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg19.1.12" msd="UPosTag=DET|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind" ana="mte:Pfe-os-mi" lemma="един">един</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg19.1.13" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsi" lemma="основен">основен</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg19.1.14" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg19.1.15" msd="UPosTag=DET|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind" ana="mte:Pfe-os-mi" lemma="един">един</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg19.1.16" msd="UPosTag=ADJ|Aspect=Imp|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act" ana="mte:Vpitcar-smi" lemma="замествам" join="right">заместващ</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg19.1.17" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg19.1.4 #ParlaMint-BG_2017-05-11.seg19.1.1"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg19.1.4 #ParlaMint-BG_2017-05-11.seg19.1.2"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg19.1.4 #ParlaMint-BG_2017-05-11.seg19.1.3"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg19.1 #ParlaMint-BG_2017-05-11.seg19.1.4"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg19.1.7 #ParlaMint-BG_2017-05-11.seg19.1.5"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg19.1.7 #ParlaMint-BG_2017-05-11.seg19.1.6"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg19.1.4 #ParlaMint-BG_2017-05-11.seg19.1.7"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg19.1.9 #ParlaMint-BG_2017-05-11.seg19.1.8"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg19.1.4 #ParlaMint-BG_2017-05-11.seg19.1.9"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg19.1.9 #ParlaMint-BG_2017-05-11.seg19.1.10"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg19.1.16 #ParlaMint-BG_2017-05-11.seg19.1.11"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BG_2017-05-11.seg19.1.16 #ParlaMint-BG_2017-05-11.seg19.1.12"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg19.1.16 #ParlaMint-BG_2017-05-11.seg19.1.13"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg19.1.15 #ParlaMint-BG_2017-05-11.seg19.1.14"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg19.1.13 #ParlaMint-BG_2017-05-11.seg19.1.15"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg19.1.9 #ParlaMint-BG_2017-05-11.seg19.1.16"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg19.1.4 #ParlaMint-BG_2017-05-11.seg19.1.17"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg20">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg20.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg20.1.1" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="2.">2.</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg20.1.2" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r3s" lemma="избирам">Избира</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg20.1.3" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="състав">състав</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg20.1.4" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg20.1.5" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing" ana="mte:Ncfsd" lemma="делегация" join="right">делегацията</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg20.1.6" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg20.1.7" msd="UPosTag=ADV|PronType=Rel" ana="mte:Prm" lemma="както">както</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg20.1.8" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vnitf-r3s" lemma="следва" join="right">следва</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg20.1.9" msd="UPosTag=PUNCT" ana="mte:punct" join="right">“</pc>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg20.1.10" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:nsubj" target="#ParlaMint-BG_2017-05-11.seg20.1.2 #ParlaMint-BG_2017-05-11.seg20.1.1"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg20.1 #ParlaMint-BG_2017-05-11.seg20.1.2"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BG_2017-05-11.seg20.1.2 #ParlaMint-BG_2017-05-11.seg20.1.3"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg20.1.5 #ParlaMint-BG_2017-05-11.seg20.1.4"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg20.1.3 #ParlaMint-BG_2017-05-11.seg20.1.5"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg20.1.8 #ParlaMint-BG_2017-05-11.seg20.1.6"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BG_2017-05-11.seg20.1.8 #ParlaMint-BG_2017-05-11.seg20.1.7"/>
+<link ana="ud-syn:advcl" target="#ParlaMint-BG_2017-05-11.seg20.1.2 #ParlaMint-BG_2017-05-11.seg20.1.8"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BG_2017-05-11.seg20.1.8 #ParlaMint-BG_2017-05-11.seg20.1.9"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg20.1.2 #ParlaMint-BG_2017-05-11.seg20.1.10"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg21">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg21.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg21.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r2p" lemma="имам">Имате</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg21.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing" ana="mte:Ncfsd" lemma="дума">думата</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg21.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg21.1.4" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Plur" ana="mte:Ncnpi" lemma="предложение" join="right">предложения</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg21.1.5" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg21.1 #ParlaMint-BG_2017-05-11.seg21.1.1"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BG_2017-05-11.seg21.1.1 #ParlaMint-BG_2017-05-11.seg21.1.2"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg21.1.4 #ParlaMint-BG_2017-05-11.seg21.1.3"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BG_2017-05-11.seg21.1.1 #ParlaMint-BG_2017-05-11.seg21.1.4"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg21.1.1 #ParlaMint-BG_2017-05-11.seg21.1.5"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg22">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg22.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg22.1.1" msd="UPosTag=VERB|Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin" ana="mte:Vpptz--2p" lemma="заповядам" join="right">Заповядайте</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg22.1.2" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg22.1.3" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="господин">господин</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg22.1.4" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="иванов" join="right">Иванов</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg22.1.5" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg22.1 #ParlaMint-BG_2017-05-11.seg22.1.1"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg22.1.3 #ParlaMint-BG_2017-05-11.seg22.1.2"/>
+<link ana="ud-syn:vocative" target="#ParlaMint-BG_2017-05-11.seg22.1.1 #ParlaMint-BG_2017-05-11.seg22.1.3"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg22.1.3 #ParlaMint-BG_2017-05-11.seg22.1.4"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg22.1.1 #ParlaMint-BG_2017-05-11.seg22.1.5"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <u ana="#regular" n="72337" who="#IvanovStanislav" xml:id="ParlaMint-BG_2017-05-11.u2">
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg23">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg23.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg23.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpiif-r1s" lemma="благодаря">Благодаря</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg23.1.2" msd="UPosTag=PRON|Case=Dat|Number=Sing|Person=2|PronType=Prs" ana="mte:Pphtds2" lemma="аз" join="right">Ви</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg23.1.3" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg23.1 #ParlaMint-BG_2017-05-11.seg23.1.1"/>
+<link ana="ud-syn:iobj" target="#ParlaMint-BG_2017-05-11.seg23.1.1 #ParlaMint-BG_2017-05-11.seg23.1.2"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg23.1.1 #ParlaMint-BG_2017-05-11.seg23.1.3"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg24">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg24.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.1.1" msd="UPosTag=ADJ|Case=Voc|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Ams-e" lemma="уважаем">Уважаеми</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.1.2" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="господин">господин</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.1.3" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="председател" join="right">Председател</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg24.1.4" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.1.5" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur" ana="mte:A-pi" lemma="уважаем">уважаеми</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.1.6" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur" ana="mte:Ncmpi" lemma="колега" join="right">колеги</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg24.1.7" msd="UPosTag=PUNCT" ana="mte:punct">!</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg24.1.2 #ParlaMint-BG_2017-05-11.seg24.1.1"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg24.1 #ParlaMint-BG_2017-05-11.seg24.1.2"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg24.1.2 #ParlaMint-BG_2017-05-11.seg24.1.3"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg24.1.6 #ParlaMint-BG_2017-05-11.seg24.1.4"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg24.1.6 #ParlaMint-BG_2017-05-11.seg24.1.5"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg24.1.2 #ParlaMint-BG_2017-05-11.seg24.1.6"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg24.1.2 #ParlaMint-BG_2017-05-11.seg24.1.7"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg24.2">
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.1" msd="UPosTag=ADP" ana="mte:R" lemma="от">От</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.2" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Afsi" lemma="политически">Политическа</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.3" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="партия">партия</w>
+                     </name>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.4" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="герб">ГЕРБ</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.5" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r1p" lemma="предлагам">предлагаме</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.6" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsh" lemma="следен">следния</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.7" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsi" lemma="поименен">поименен</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.8" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="състав">състав</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.9" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.10" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Afsd" lemma="постоянен">постоянната</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.11" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="делегация">делегация</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.12" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.13" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Ansd" lemma="народен">Народното</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.14" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="събрание">събрание</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.15" msd="UPosTag=ADP" ana="mte:R" lemma="в">в</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.16" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Afsd" lemma="парламентарен">Парламентарната</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.17" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="асамблея">асамблея</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.18" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.19" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsh" lemma="съвет">Съвета</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.20" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.21" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Npfsi" lemma="европа" join="right">Европа</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg24.2.22" msd="UPosTag=PUNCT" ana="mte:punct">:</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.23" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Npfsi" lemma="милена">Милена</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.24" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Hfsi" lemma="цветанова">Цветанова</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.25" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Hfsi" lemma="дамянова">Дамянова</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg24.2.26" msd="UPosTag=PUNCT" ana="mte:punct">–</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.27" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsi" lemma="основен">основен</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.28" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="представител" join="right">представител</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg24.2.29" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.30" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="данаил">Данаил</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.31" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="димитров">Димитров</w>
+                     </name>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.32" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="кирилов">Кирилов</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg24.2.33" msd="UPosTag=PUNCT" ana="mte:punct">–</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.34" msd="UPosTag=ADJ|Aspect=Imp|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act" ana="mte:Vpitcar-smi" lemma="замествам">заместващ</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.35" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="представител" join="right">представител</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg24.2.36" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.37" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.38" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Npfsi" lemma="джема">Джема</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.39" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Hfsi" lemma="маринова">Маринова</w>
+                     </name>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.40" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Hfsi" lemma="грозданова">Грозданова</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg24.2.41" msd="UPosTag=PUNCT" ana="mte:punct">–</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.2.42" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="ръководител" join="right">ръководител</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg24.2.43" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg24.2.3 #ParlaMint-BG_2017-05-11.seg24.2.1"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg24.2.3 #ParlaMint-BG_2017-05-11.seg24.2.2"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BG_2017-05-11.seg24.2.5 #ParlaMint-BG_2017-05-11.seg24.2.3"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BG_2017-05-11.seg24.2.5 #ParlaMint-BG_2017-05-11.seg24.2.4"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg24.2 #ParlaMint-BG_2017-05-11.seg24.2.5"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg24.2.8 #ParlaMint-BG_2017-05-11.seg24.2.6"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg24.2.8 #ParlaMint-BG_2017-05-11.seg24.2.7"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BG_2017-05-11.seg24.2.5 #ParlaMint-BG_2017-05-11.seg24.2.8"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg24.2.11 #ParlaMint-BG_2017-05-11.seg24.2.9"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg24.2.11 #ParlaMint-BG_2017-05-11.seg24.2.10"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg24.2.8 #ParlaMint-BG_2017-05-11.seg24.2.11"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg24.2.14 #ParlaMint-BG_2017-05-11.seg24.2.12"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg24.2.14 #ParlaMint-BG_2017-05-11.seg24.2.13"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg24.2.11 #ParlaMint-BG_2017-05-11.seg24.2.14"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg24.2.17 #ParlaMint-BG_2017-05-11.seg24.2.15"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg24.2.17 #ParlaMint-BG_2017-05-11.seg24.2.16"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg24.2.11 #ParlaMint-BG_2017-05-11.seg24.2.17"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg24.2.19 #ParlaMint-BG_2017-05-11.seg24.2.18"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg24.2.17 #ParlaMint-BG_2017-05-11.seg24.2.19"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg24.2.21 #ParlaMint-BG_2017-05-11.seg24.2.20"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg24.2.19 #ParlaMint-BG_2017-05-11.seg24.2.21"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg24.2.23 #ParlaMint-BG_2017-05-11.seg24.2.22"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg24.2.17 #ParlaMint-BG_2017-05-11.seg24.2.23"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg24.2.23 #ParlaMint-BG_2017-05-11.seg24.2.24"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg24.2.23 #ParlaMint-BG_2017-05-11.seg24.2.25"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg24.2.28 #ParlaMint-BG_2017-05-11.seg24.2.26"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg24.2.28 #ParlaMint-BG_2017-05-11.seg24.2.27"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg24.2.23 #ParlaMint-BG_2017-05-11.seg24.2.28"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg24.2.30 #ParlaMint-BG_2017-05-11.seg24.2.29"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg24.2.23 #ParlaMint-BG_2017-05-11.seg24.2.30"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg24.2.30 #ParlaMint-BG_2017-05-11.seg24.2.31"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg24.2.30 #ParlaMint-BG_2017-05-11.seg24.2.32"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg24.2.35 #ParlaMint-BG_2017-05-11.seg24.2.33"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg24.2.35 #ParlaMint-BG_2017-05-11.seg24.2.34"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg24.2.23 #ParlaMint-BG_2017-05-11.seg24.2.35"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg24.2.35 #ParlaMint-BG_2017-05-11.seg24.2.36"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg24.2.38 #ParlaMint-BG_2017-05-11.seg24.2.37"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg24.2.23 #ParlaMint-BG_2017-05-11.seg24.2.38"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg24.2.38 #ParlaMint-BG_2017-05-11.seg24.2.39"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg24.2.38 #ParlaMint-BG_2017-05-11.seg24.2.40"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg24.2.42 #ParlaMint-BG_2017-05-11.seg24.2.41"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg24.2.38 #ParlaMint-BG_2017-05-11.seg24.2.42"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg24.2.5 #ParlaMint-BG_2017-05-11.seg24.2.43"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg24.3">
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.3.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpiif-r1s" lemma="благодаря">Благодаря</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg24.3.2" msd="UPosTag=PRON|Case=Dat|Number=Sing|Person=2|PronType=Prs" ana="mte:Pphtds2" lemma="аз" join="right">Ви</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg24.3.3" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg24.3 #ParlaMint-BG_2017-05-11.seg24.3.1"/>
+<link ana="ud-syn:iobj" target="#ParlaMint-BG_2017-05-11.seg24.3.1 #ParlaMint-BG_2017-05-11.seg24.3.2"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg24.3.1 #ParlaMint-BG_2017-05-11.seg24.3.3"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u ana="#chair" n="72444" who="#GlavchevDimitar" xml:id="ParlaMint-BG_2017-05-11.u109">
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg374">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg374.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg374.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpiif-r1s" lemma="благодаря">Благодаря</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg374.1.2" msd="UPosTag=PRON|Case=Dat|Number=Sing|Person=2|PronType=Prs" ana="mte:Pphtds2" lemma="аз" join="right">Ви</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg374.1.3" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg374.1.4" msd="UPosTag=ADJ|Case=Voc|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Ams-e" lemma="уважаем">уважаеми</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg374.1.5" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="господин">господин</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg374.1.6" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="цонев" join="right">Цонев</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg374.1.7" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg374.1 #ParlaMint-BG_2017-05-11.seg374.1.1"/>
+<link ana="ud-syn:iobj" target="#ParlaMint-BG_2017-05-11.seg374.1.1 #ParlaMint-BG_2017-05-11.seg374.1.2"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg374.1.5 #ParlaMint-BG_2017-05-11.seg374.1.3"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg374.1.5 #ParlaMint-BG_2017-05-11.seg374.1.4"/>
+<link ana="ud-syn:vocative" target="#ParlaMint-BG_2017-05-11.seg374.1.1 #ParlaMint-BG_2017-05-11.seg374.1.5"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg374.1.5 #ParlaMint-BG_2017-05-11.seg374.1.6"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg374.1.1 #ParlaMint-BG_2017-05-11.seg374.1.7"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg375">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg375.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg375.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r1p" lemma="гласувам">Гласуваме</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg375.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Plur" ana="mte:Ncnpd" lemma="предложение" join="right">предложенията</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg375.1.3" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg375.1 #ParlaMint-BG_2017-05-11.seg375.1.1"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BG_2017-05-11.seg375.1.1 #ParlaMint-BG_2017-05-11.seg375.1.2"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg375.1.1 #ParlaMint-BG_2017-05-11.seg375.1.3"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg376">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg376.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg376.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r1s" lemma="моля-(се)" join="right">Моля</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg376.1.2" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg376.1.3" msd="UPosTag=VERB|Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin" ana="mte:Vpitz--2p" lemma="гласувам" join="right">гласувайте</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg376.1.4" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:advcl" target="#ParlaMint-BG_2017-05-11.seg376.1.3 #ParlaMint-BG_2017-05-11.seg376.1.1"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg376.1.1 #ParlaMint-BG_2017-05-11.seg376.1.2"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg376.1 #ParlaMint-BG_2017-05-11.seg376.1.3"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg376.1.3 #ParlaMint-BG_2017-05-11.seg376.1.4"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg377">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg377.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg377.1.1" msd="UPosTag=VERB|Aspect=Imp|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vpitcao-p-i" lemma="гласувам">Гласували</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg377.1.2" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="181">181</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg377.1.3" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur" ana="mte:A-pi" lemma="народен">народни</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg377.1.4" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur" ana="mte:Ncmpi" lemma="представител" join="right">представители</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg377.1.5" msd="UPosTag=PUNCT" ana="mte:punct">:</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg377.1.6" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg377.1.7" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="174" join="right">174</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg377.1.8" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg377.1.9" msd="UPosTag=ADP" ana="mte:R" lemma="против">против</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg377.1.10" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="три" join="right">3</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg377.1.11" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg377.1.12" msd="UPosTag=ADJ|Aspect=Imp|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vpiicao-p-i" lemma="въздържам-(се)">въздържали</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg377.1.13" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" ana="mte:Ppxta" lemma="се">се</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg377.1.14" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="4.">4.</w>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg377.1 #ParlaMint-BG_2017-05-11.seg377.1.1"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BG_2017-05-11.seg377.1.4 #ParlaMint-BG_2017-05-11.seg377.1.2"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg377.1.4 #ParlaMint-BG_2017-05-11.seg377.1.3"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BG_2017-05-11.seg377.1.1 #ParlaMint-BG_2017-05-11.seg377.1.4"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg377.1.7 #ParlaMint-BG_2017-05-11.seg377.1.5"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg377.1.7 #ParlaMint-BG_2017-05-11.seg377.1.6"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg377.1.4 #ParlaMint-BG_2017-05-11.seg377.1.7"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg377.1.10 #ParlaMint-BG_2017-05-11.seg377.1.8"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg377.1.10 #ParlaMint-BG_2017-05-11.seg377.1.9"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg377.1.7 #ParlaMint-BG_2017-05-11.seg377.1.10"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg377.1.12 #ParlaMint-BG_2017-05-11.seg377.1.11"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg377.1.7 #ParlaMint-BG_2017-05-11.seg377.1.12"/>
+<link ana="ud-syn:expl" target="#ParlaMint-BG_2017-05-11.seg377.1.12 #ParlaMint-BG_2017-05-11.seg377.1.13"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BG_2017-05-11.seg377.1.12 #ParlaMint-BG_2017-05-11.seg377.1.14"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg378">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg378.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg378.1.1" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Plur" ana="mte:Ncnpd" lemma="предложение">Предложенията</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg378.1.2" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg378.1.3" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Plur" ana="mte:Ncfpi" lemma="промяна">промени</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg378.1.4" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vxitf-r3p" lemma="съм">са</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg378.1.5" msd="UPosTag=VERB|Aspect=Perf|Definite=Ind|Number=Plur|VerbForm=Part|Voice=Pass" ana="mte:Vpptcv--p-i" lemma="приема" join="right">приети</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg378.1.6" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:nsubj_pass" target="#ParlaMint-BG_2017-05-11.seg378.1.5 #ParlaMint-BG_2017-05-11.seg378.1.1"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg378.1.3 #ParlaMint-BG_2017-05-11.seg378.1.2"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg378.1.1 #ParlaMint-BG_2017-05-11.seg378.1.3"/>
+<link ana="ud-syn:aux_pass" target="#ParlaMint-BG_2017-05-11.seg378.1.5 #ParlaMint-BG_2017-05-11.seg378.1.4"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg378.1 #ParlaMint-BG_2017-05-11.seg378.1.5"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg378.1.5 #ParlaMint-BG_2017-05-11.seg378.1.6"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg379">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg379.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg379.1.1" msd="UPosTag=ADV|Degree=Pos" ana="mte:Dt" lemma="вече">Вече</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg379.1.2" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r1p" lemma="имам">имаме</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg379.1.3" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="предложение">предложение</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg379.1.4" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg379.1.5" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="ръководител" join="right">ръководител</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg379.1.6" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg379.1.7" msd="UPosTag=ADV|PronType=Dem" ana="mte:Pdm" lemma="така">така</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg379.1.8" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="че">че</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg379.1.9" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r1p" lemma="гласувам">гласуваме</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg379.1.10" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsh" lemma="проект">Проекта</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg379.1.11" msd="UPosTag=ADP" ana="mte:R" lemma="в">в</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg379.1.12" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs" ana="mte:Psol-s3fdm" lemma="мой">неговата</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg379.1.13" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="цялост" join="right">цялост</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg379.1.14" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg379.1.15" msd="UPosTag=ADP" ana="mte:R" lemma="след">след</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg379.1.16" msd="UPosTag=ADJ|Aspect=Perf|Definite=Def|Degree=Pos|Number=Plur|VerbForm=Part|Voice=Pass" ana="mte:Vpptcv--p-d" lemma="направя-(се)">направените</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg379.1.17" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Plur" ana="mte:Ncfpi" lemma="промяна" join="right">промени</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg379.1.18" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:advmod" target="#ParlaMint-BG_2017-05-11.seg379.1.2 #ParlaMint-BG_2017-05-11.seg379.1.1"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg379.1 #ParlaMint-BG_2017-05-11.seg379.1.2"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BG_2017-05-11.seg379.1.2 #ParlaMint-BG_2017-05-11.seg379.1.3"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg379.1.5 #ParlaMint-BG_2017-05-11.seg379.1.4"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg379.1.3 #ParlaMint-BG_2017-05-11.seg379.1.5"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg379.1.9 #ParlaMint-BG_2017-05-11.seg379.1.6"/>
+<link ana="ud-syn:mark" target="#ParlaMint-BG_2017-05-11.seg379.1.9 #ParlaMint-BG_2017-05-11.seg379.1.7"/>
+<link ana="ud-syn:fixed" target="#ParlaMint-BG_2017-05-11.seg379.1.7 #ParlaMint-BG_2017-05-11.seg379.1.8"/>
+<link ana="ud-syn:advcl" target="#ParlaMint-BG_2017-05-11.seg379.1.2 #ParlaMint-BG_2017-05-11.seg379.1.9"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BG_2017-05-11.seg379.1.9 #ParlaMint-BG_2017-05-11.seg379.1.10"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg379.1.13 #ParlaMint-BG_2017-05-11.seg379.1.11"/>
+<link ana="ud-syn:det" target="#ParlaMint-BG_2017-05-11.seg379.1.13 #ParlaMint-BG_2017-05-11.seg379.1.12"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg379.1.10 #ParlaMint-BG_2017-05-11.seg379.1.13"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg379.1.17 #ParlaMint-BG_2017-05-11.seg379.1.14"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg379.1.17 #ParlaMint-BG_2017-05-11.seg379.1.15"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg379.1.17 #ParlaMint-BG_2017-05-11.seg379.1.16"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BG_2017-05-11.seg379.1.9 #ParlaMint-BG_2017-05-11.seg379.1.17"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg379.1.2 #ParlaMint-BG_2017-05-11.seg379.1.18"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg380">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg380.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg380.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r1s" lemma="моля-(се)" join="right">Моля</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg380.1.2" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg380.1.3" msd="UPosTag=VERB|Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin" ana="mte:Vpitz--2p" lemma="гласувам" join="right">гласувайте</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg380.1.4" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:advcl" target="#ParlaMint-BG_2017-05-11.seg380.1.3 #ParlaMint-BG_2017-05-11.seg380.1.1"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg380.1.1 #ParlaMint-BG_2017-05-11.seg380.1.2"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg380.1 #ParlaMint-BG_2017-05-11.seg380.1.3"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg380.1.3 #ParlaMint-BG_2017-05-11.seg380.1.4"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg381">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg381.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg381.1.1" msd="UPosTag=VERB|Aspect=Imp|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vpitcao-p-i" lemma="гласувам">Гласували</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg381.1.2" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="182">182</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg381.1.3" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur" ana="mte:A-pi" lemma="народен">народни</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg381.1.4" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur" ana="mte:Ncmpi" lemma="представител" join="right">представители</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg381.1.5" msd="UPosTag=PUNCT" ana="mte:punct">:</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg381.1.6" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg381.1.7" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="176" join="right">176</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg381.1.8" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg381.1.9" msd="UPosTag=ADP" ana="mte:R" lemma="против">против</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg381.1.10" msd="UPosTag=NUM|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card" ana="mte:Mcnsi" lemma="един" join="right">1</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg381.1.11" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg381.1.12" msd="UPosTag=ADJ|Aspect=Imp|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vpiicao-p-i" lemma="въздържам-(се)">въздържали</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg381.1.13" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" ana="mte:Ppxta" lemma="се">се</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg381.1.14" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Npfsi" lemma="5.">5.</w>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg381.1 #ParlaMint-BG_2017-05-11.seg381.1.1"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BG_2017-05-11.seg381.1.4 #ParlaMint-BG_2017-05-11.seg381.1.2"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg381.1.4 #ParlaMint-BG_2017-05-11.seg381.1.3"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BG_2017-05-11.seg381.1.1 #ParlaMint-BG_2017-05-11.seg381.1.4"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg381.1.7 #ParlaMint-BG_2017-05-11.seg381.1.5"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg381.1.7 #ParlaMint-BG_2017-05-11.seg381.1.6"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg381.1.4 #ParlaMint-BG_2017-05-11.seg381.1.7"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg381.1.10 #ParlaMint-BG_2017-05-11.seg381.1.8"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg381.1.10 #ParlaMint-BG_2017-05-11.seg381.1.9"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg381.1.7 #ParlaMint-BG_2017-05-11.seg381.1.10"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg381.1.12 #ParlaMint-BG_2017-05-11.seg381.1.11"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg381.1.7 #ParlaMint-BG_2017-05-11.seg381.1.12"/>
+<link ana="ud-syn:expl" target="#ParlaMint-BG_2017-05-11.seg381.1.12 #ParlaMint-BG_2017-05-11.seg381.1.13"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BG_2017-05-11.seg381.1.12 #ParlaMint-BG_2017-05-11.seg381.1.14"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg382">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg382.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg382.1.1" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing" ana="mte:Ncnsd" lemma="решение">Решението</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg382.1.2" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vxitf-r3s" lemma="съм">е</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg382.1.3" msd="UPosTag=VERB|Aspect=Perf|Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass" ana="mte:Vpptcv--sni" lemma="приема" join="right">прието</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg382.1.4" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:nsubj_pass" target="#ParlaMint-BG_2017-05-11.seg382.1.3 #ParlaMint-BG_2017-05-11.seg382.1.1"/>
+<link ana="ud-syn:aux_pass" target="#ParlaMint-BG_2017-05-11.seg382.1.3 #ParlaMint-BG_2017-05-11.seg382.1.2"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg382.1 #ParlaMint-BG_2017-05-11.seg382.1.3"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg382.1.3 #ParlaMint-BG_2017-05-11.seg382.1.4"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg383">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg383.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg383.1.1" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="съобщение">Съобщение</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg383.1.2" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg383.1.3" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsi" lemma="парламентарен">парламентарен</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg383.1.4" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="контрол">контрол</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg383.1.5" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg383.1.6" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord" ana="mte:Momsi" lemma="12">12</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg383.1.7" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="май">май</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg383.1.8" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord" ana="mte:Mofsi" lemma="2017">2017</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg383.1.9" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="година" join="right">г.</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg383.1.10" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg383.1.11" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="петък" join="right">петък</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg383.1.12" msd="UPosTag=PUNCT" ana="mte:punct">:</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg383.1 #ParlaMint-BG_2017-05-11.seg383.1.1"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg383.1.4 #ParlaMint-BG_2017-05-11.seg383.1.2"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg383.1.4 #ParlaMint-BG_2017-05-11.seg383.1.3"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg383.1.1 #ParlaMint-BG_2017-05-11.seg383.1.4"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg383.1.7 #ParlaMint-BG_2017-05-11.seg383.1.5"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg383.1.7 #ParlaMint-BG_2017-05-11.seg383.1.6"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg383.1.1 #ParlaMint-BG_2017-05-11.seg383.1.7"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg383.1.9 #ParlaMint-BG_2017-05-11.seg383.1.8"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg383.1.7 #ParlaMint-BG_2017-05-11.seg383.1.9"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg383.1.11 #ParlaMint-BG_2017-05-11.seg383.1.10"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg383.1.1 #ParlaMint-BG_2017-05-11.seg383.1.11"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg383.1.1 #ParlaMint-BG_2017-05-11.seg383.1.12"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg384">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg384.1">
+<pc xml:id="ParlaMint-BG_2017-05-11.seg384.1.1" msd="UPosTag=PUNCT" ana="mte:punct">-</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg384.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsf" lemma="министър">министърът</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg384.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg384.1.4" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Number=Plur" ana="mte:A-pd" lemma="вътрешен">вътрешните</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg384.1.5" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Plur" ana="mte:Ncfpi" lemma="работа">работи</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg384.1.6" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="валентин">Валентин</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg384.1.7" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="радев">Радев</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg384.1.8" msd="UPosTag=AUX" ana="mte:Tx" lemma="ще">ще</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg384.1.9" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpptf-r3s" lemma="отговоря">отговори</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg384.1.10" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg384.1.11" msd="UPosTag=DET|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind" ana="mte:Pfe-os-mi" lemma="един">един</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg384.1.12" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="въпрос">въпрос</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg384.1.13" msd="UPosTag=ADP" ana="mte:R" lemma="от">от</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg384.1.14" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsh" lemma="народен">народния</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg384.1.15" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="представител">представител</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg384.1.16" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="красимир">Красимир</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg384.1.17" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="янков" join="right">Янков</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg384.1.18" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg384.1.9 #ParlaMint-BG_2017-05-11.seg384.1.1"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BG_2017-05-11.seg384.1.9 #ParlaMint-BG_2017-05-11.seg384.1.2"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg384.1.5 #ParlaMint-BG_2017-05-11.seg384.1.3"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg384.1.5 #ParlaMint-BG_2017-05-11.seg384.1.4"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg384.1.2 #ParlaMint-BG_2017-05-11.seg384.1.5"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg384.1.2 #ParlaMint-BG_2017-05-11.seg384.1.6"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg384.1.6 #ParlaMint-BG_2017-05-11.seg384.1.7"/>
+<link ana="ud-syn:aux" target="#ParlaMint-BG_2017-05-11.seg384.1.9 #ParlaMint-BG_2017-05-11.seg384.1.8"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg384.1 #ParlaMint-BG_2017-05-11.seg384.1.9"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg384.1.12 #ParlaMint-BG_2017-05-11.seg384.1.10"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BG_2017-05-11.seg384.1.12 #ParlaMint-BG_2017-05-11.seg384.1.11"/>
+<link ana="ud-syn:iobj" target="#ParlaMint-BG_2017-05-11.seg384.1.9 #ParlaMint-BG_2017-05-11.seg384.1.12"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg384.1.15 #ParlaMint-BG_2017-05-11.seg384.1.13"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg384.1.15 #ParlaMint-BG_2017-05-11.seg384.1.14"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg384.1.12 #ParlaMint-BG_2017-05-11.seg384.1.15"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg384.1.15 #ParlaMint-BG_2017-05-11.seg384.1.16"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg384.1.16 #ParlaMint-BG_2017-05-11.seg384.1.17"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg384.1.9 #ParlaMint-BG_2017-05-11.seg384.1.18"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg385">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg385.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.1" msd="UPosTag=ADP" ana="mte:R" lemma="на">На</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.2" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="основание">основание</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.3" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="чл.">чл.</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.4" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord" ana="mte:Momsi" lemma="96" join="right">96</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg385.1.5" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.6" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="ал.">ал.</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.7" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord" ana="mte:Mofsi" lemma="трети">3</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.8" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.9" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="чл.">чл.</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.10" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord" ana="mte:Momsi" lemma="99" join="right">99</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg385.1.11" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.12" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="ал.">ал.</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.13" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord" ana="mte:Mofsi" lemma="втори">2</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.14" msd="UPosTag=ADP" ana="mte:R" lemma="от">от</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.15" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsh" lemma="правилник">Правилника</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.16" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.17" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing" ana="mte:Ncfsd" lemma="организация">организацията</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.18" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.19" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing" ana="mte:Ncfsd" lemma="дейност">дейността</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.20" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.21" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Ansd" lemma="народен">Народното</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.22" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="събрание">събрание</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.23" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="отлагане">отлагане</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.24" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.25" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur" ana="mte:Ncmpi" lemma="отговор">отговори</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.26" msd="UPosTag=ADP" ana="mte:R" lemma="със">със</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.27" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="седем">седем</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.28" msd="UPosTag=NOUN|Gender=Masc|Number=Count" ana="mte:Ncmt" lemma="ден">дни</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.29" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vxitf-r3p" lemma="съм">са</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg385.1.30" msd="UPosTag=VERB|Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vpptcao-p-i" lemma="поискам" join="right">поискали</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg385.1.31" msd="UPosTag=PUNCT" ana="mte:punct">:</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg385.1.2 #ParlaMint-BG_2017-05-11.seg385.1.1"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BG_2017-05-11.seg385.1.30 #ParlaMint-BG_2017-05-11.seg385.1.2"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg385.1.2 #ParlaMint-BG_2017-05-11.seg385.1.3"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg385.1.3 #ParlaMint-BG_2017-05-11.seg385.1.4"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg385.1.6 #ParlaMint-BG_2017-05-11.seg385.1.5"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg385.1.3 #ParlaMint-BG_2017-05-11.seg385.1.6"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg385.1.6 #ParlaMint-BG_2017-05-11.seg385.1.7"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg385.1.9 #ParlaMint-BG_2017-05-11.seg385.1.8"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg385.1.6 #ParlaMint-BG_2017-05-11.seg385.1.9"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg385.1.9 #ParlaMint-BG_2017-05-11.seg385.1.10"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg385.1.12 #ParlaMint-BG_2017-05-11.seg385.1.11"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg385.1.2 #ParlaMint-BG_2017-05-11.seg385.1.12"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg385.1.12 #ParlaMint-BG_2017-05-11.seg385.1.13"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg385.1.15 #ParlaMint-BG_2017-05-11.seg385.1.14"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg385.1.12 #ParlaMint-BG_2017-05-11.seg385.1.15"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg385.1.17 #ParlaMint-BG_2017-05-11.seg385.1.16"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg385.1.15 #ParlaMint-BG_2017-05-11.seg385.1.17"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg385.1.19 #ParlaMint-BG_2017-05-11.seg385.1.18"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg385.1.17 #ParlaMint-BG_2017-05-11.seg385.1.19"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg385.1.22 #ParlaMint-BG_2017-05-11.seg385.1.20"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg385.1.22 #ParlaMint-BG_2017-05-11.seg385.1.21"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg385.1.17 #ParlaMint-BG_2017-05-11.seg385.1.22"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BG_2017-05-11.seg385.1.30 #ParlaMint-BG_2017-05-11.seg385.1.23"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg385.1.25 #ParlaMint-BG_2017-05-11.seg385.1.24"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg385.1.23 #ParlaMint-BG_2017-05-11.seg385.1.25"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg385.1.28 #ParlaMint-BG_2017-05-11.seg385.1.26"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BG_2017-05-11.seg385.1.28 #ParlaMint-BG_2017-05-11.seg385.1.27"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BG_2017-05-11.seg385.1.30 #ParlaMint-BG_2017-05-11.seg385.1.28"/>
+<link ana="ud-syn:aux" target="#ParlaMint-BG_2017-05-11.seg385.1.30 #ParlaMint-BG_2017-05-11.seg385.1.29"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg385.1 #ParlaMint-BG_2017-05-11.seg385.1.30"/>
+<link ana="ud-syn:parataxis" target="#ParlaMint-BG_2017-05-11.seg385.1.30 #ParlaMint-BG_2017-05-11.seg385.1.31"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg386">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg386.1">
+<pc xml:id="ParlaMint-BG_2017-05-11.seg386.1.1" msd="UPosTag=PUNCT" ana="mte:punct">-</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg386.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsf" lemma="министър">министърът</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg386.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg386.1.4" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing" ana="mte:Ncfsd" lemma="енергетика">енергетиката</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg386.1.5" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Npfsi" lemma="теменужка">Теменужка</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg386.1.6" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Hfsi" lemma="петкова">Петкова</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg386.1.7" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg386.1.8" msd="UPosTag=DET|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind" ana="mte:Pfe-os-mi" lemma="един">един</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg386.1.9" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="въпрос">въпрос</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg386.1.10" msd="UPosTag=ADP" ana="mte:R" lemma="от">от</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg386.1.11" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsh" lemma="народен">народния</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg386.1.12" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="представител">представител</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg386.1.13" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="васил">Васил</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg386.1.14" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="антонов" join="right">Антонов</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg386.1.15" msd="UPosTag=PUNCT" ana="mte:punct">;</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg386.1.2 #ParlaMint-BG_2017-05-11.seg386.1.1"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg386.1 #ParlaMint-BG_2017-05-11.seg386.1.2"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg386.1.4 #ParlaMint-BG_2017-05-11.seg386.1.3"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg386.1.2 #ParlaMint-BG_2017-05-11.seg386.1.4"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg386.1.2 #ParlaMint-BG_2017-05-11.seg386.1.5"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg386.1.5 #ParlaMint-BG_2017-05-11.seg386.1.6"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg386.1.9 #ParlaMint-BG_2017-05-11.seg386.1.7"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BG_2017-05-11.seg386.1.9 #ParlaMint-BG_2017-05-11.seg386.1.8"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg386.1.2 #ParlaMint-BG_2017-05-11.seg386.1.9"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg386.1.12 #ParlaMint-BG_2017-05-11.seg386.1.10"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg386.1.12 #ParlaMint-BG_2017-05-11.seg386.1.11"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg386.1.9 #ParlaMint-BG_2017-05-11.seg386.1.12"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg386.1.12 #ParlaMint-BG_2017-05-11.seg386.1.13"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg386.1.13 #ParlaMint-BG_2017-05-11.seg386.1.14"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg386.1.9 #ParlaMint-BG_2017-05-11.seg386.1.15"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg387">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg387.1">
+<pc xml:id="ParlaMint-BG_2017-05-11.seg387.1.1" msd="UPosTag=PUNCT" ana="mte:punct">-</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg387.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsf" lemma="министър">министърът</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg387.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg387.1.4" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing" ana="mte:Ncnsd" lemma="образование">образованието</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg387.1.5" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg387.1.6" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing" ana="mte:Ncfsd" lemma="наука">науката</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg387.1.7" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="красимир">Красимир</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg387.1.8" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="вълчев">Вълчев</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg387.1.9" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg387.1.10" msd="UPosTag=DET|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind" ana="mte:Pfe-os-mi" lemma="един">един</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg387.1.11" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="въпрос">въпрос</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg387.1.12" msd="UPosTag=ADP" ana="mte:R" lemma="с">с</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg387.1.13" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsi" lemma="писмен">писмен</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg387.1.14" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="отговор">отговор</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg387.1.15" msd="UPosTag=ADP" ana="mte:R" lemma="от">от</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg387.1.16" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsh" lemma="народен">народния</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg387.1.17" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="представител">представител</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg387.1.18" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Npfsi" lemma="анелия">Анелия</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg387.1.19" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Hfsi" lemma="клисарова" join="right">Клисарова</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg387.1.20" msd="UPosTag=PUNCT" ana="mte:punct">;</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg387.1.2 #ParlaMint-BG_2017-05-11.seg387.1.1"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BG_2017-05-11.seg387.1.11 #ParlaMint-BG_2017-05-11.seg387.1.2"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg387.1.4 #ParlaMint-BG_2017-05-11.seg387.1.3"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg387.1.2 #ParlaMint-BG_2017-05-11.seg387.1.4"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg387.1.6 #ParlaMint-BG_2017-05-11.seg387.1.5"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg387.1.4 #ParlaMint-BG_2017-05-11.seg387.1.6"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg387.1.2 #ParlaMint-BG_2017-05-11.seg387.1.7"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg387.1.7 #ParlaMint-BG_2017-05-11.seg387.1.8"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg387.1.11 #ParlaMint-BG_2017-05-11.seg387.1.9"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BG_2017-05-11.seg387.1.11 #ParlaMint-BG_2017-05-11.seg387.1.10"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg387.1 #ParlaMint-BG_2017-05-11.seg387.1.11"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg387.1.14 #ParlaMint-BG_2017-05-11.seg387.1.12"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg387.1.14 #ParlaMint-BG_2017-05-11.seg387.1.13"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg387.1.11 #ParlaMint-BG_2017-05-11.seg387.1.14"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg387.1.17 #ParlaMint-BG_2017-05-11.seg387.1.15"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg387.1.17 #ParlaMint-BG_2017-05-11.seg387.1.16"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg387.1.14 #ParlaMint-BG_2017-05-11.seg387.1.17"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg387.1.17 #ParlaMint-BG_2017-05-11.seg387.1.18"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg387.1.18 #ParlaMint-BG_2017-05-11.seg387.1.19"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg387.1.11 #ParlaMint-BG_2017-05-11.seg387.1.20"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg388">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg388.1">
+<pc xml:id="ParlaMint-BG_2017-05-11.seg388.1.1" msd="UPosTag=PUNCT" ana="mte:punct">-</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsf" lemma="министър">министърът</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.4" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing" ana="mte:Ncnsd" lemma="земеделие" join="right">земеделието</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg388.1.5" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.6" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Plur" ana="mte:Ncfpd" lemma="храна">храните</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.7" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.8" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Plur" ana="mte:Ncfpd" lemma="гора">горите</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.9" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="румен">Румен</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.10" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="порожанов">Порожанов</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.11" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.12" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="пет">пет</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.13" msd="UPosTag=NOUN|Gender=Masc|Number=Count" ana="mte:Ncmt" lemma="въпрос">въпроса</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.14" msd="UPosTag=ADP" ana="mte:R" lemma="от">от</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.15" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Number=Plur" ana="mte:A-pd" lemma="народен">народните</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.16" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur" ana="mte:Ncmpi" lemma="представител">представители</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.17" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="георги">Георги</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.18" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="гьоков" join="right">Гьоков</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg388.1.19" msd="UPosTag=PUNCT" ana="mte:punct">;</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.20" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Npfsi" lemma="светла">Светла</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.21" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Hfsi" lemma="бъчварова" join="right">Бъчварова</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg388.1.22" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.23" msd="UPosTag=PRON|Case=Nom|Gender=Fem|Number=Sing|PronType=Rel" ana="mte:Pre-os-f" lemma="който">която</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.24" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r3s" lemma="имам">има</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.25" msd="UPosTag=NUM|Definite=Ind|Gender=Masc|Number=Plur|NumType=Card" ana="mte:Mcmpi" lemma="два">два</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.26" msd="UPosTag=NOUN|Gender=Masc|Number=Count" ana="mte:Ncmt" lemma="въпрос" join="right">въпроса</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg388.1.27" msd="UPosTag=PUNCT" ana="mte:punct">;</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.28" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Npfsi" lemma="дора">Дора</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.29" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Hfsi" lemma="янкова" join="right">Янкова</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg388.1.30" msd="UPosTag=PUNCT" ana="mte:punct">;</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.31" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.32" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Npfsi" lemma="кръстина">Кръстина</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg388.1.33" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Hfsi" lemma="таскова" join="right">Таскова</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg388.1.34" msd="UPosTag=PUNCT" ana="mte:punct">;</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg388.1.2 #ParlaMint-BG_2017-05-11.seg388.1.1"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg388.1 #ParlaMint-BG_2017-05-11.seg388.1.2"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg388.1.4 #ParlaMint-BG_2017-05-11.seg388.1.3"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg388.1.2 #ParlaMint-BG_2017-05-11.seg388.1.4"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg388.1.6 #ParlaMint-BG_2017-05-11.seg388.1.5"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg388.1.4 #ParlaMint-BG_2017-05-11.seg388.1.6"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg388.1.8 #ParlaMint-BG_2017-05-11.seg388.1.7"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg388.1.4 #ParlaMint-BG_2017-05-11.seg388.1.8"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg388.1.2 #ParlaMint-BG_2017-05-11.seg388.1.9"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg388.1.9 #ParlaMint-BG_2017-05-11.seg388.1.10"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg388.1.13 #ParlaMint-BG_2017-05-11.seg388.1.11"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BG_2017-05-11.seg388.1.13 #ParlaMint-BG_2017-05-11.seg388.1.12"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg388.1.2 #ParlaMint-BG_2017-05-11.seg388.1.13"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg388.1.16 #ParlaMint-BG_2017-05-11.seg388.1.14"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg388.1.16 #ParlaMint-BG_2017-05-11.seg388.1.15"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg388.1.13 #ParlaMint-BG_2017-05-11.seg388.1.16"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg388.1.16 #ParlaMint-BG_2017-05-11.seg388.1.17"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg388.1.17 #ParlaMint-BG_2017-05-11.seg388.1.18"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg388.1.20 #ParlaMint-BG_2017-05-11.seg388.1.19"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg388.1.2 #ParlaMint-BG_2017-05-11.seg388.1.20"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg388.1.20 #ParlaMint-BG_2017-05-11.seg388.1.21"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg388.1.24 #ParlaMint-BG_2017-05-11.seg388.1.22"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BG_2017-05-11.seg388.1.24 #ParlaMint-BG_2017-05-11.seg388.1.23"/>
+<link ana="ud-syn:acl_relcl" target="#ParlaMint-BG_2017-05-11.seg388.1.20 #ParlaMint-BG_2017-05-11.seg388.1.24"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BG_2017-05-11.seg388.1.26 #ParlaMint-BG_2017-05-11.seg388.1.25"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BG_2017-05-11.seg388.1.24 #ParlaMint-BG_2017-05-11.seg388.1.26"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg388.1.28 #ParlaMint-BG_2017-05-11.seg388.1.27"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg388.1.2 #ParlaMint-BG_2017-05-11.seg388.1.28"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg388.1.28 #ParlaMint-BG_2017-05-11.seg388.1.29"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg388.1.31 #ParlaMint-BG_2017-05-11.seg388.1.30"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg388.1.32 #ParlaMint-BG_2017-05-11.seg388.1.31"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg388.1.28 #ParlaMint-BG_2017-05-11.seg388.1.32"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg388.1.32 #ParlaMint-BG_2017-05-11.seg388.1.33"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg388.1.2 #ParlaMint-BG_2017-05-11.seg388.1.34"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg389">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg389.1">
+<pc xml:id="ParlaMint-BG_2017-05-11.seg389.1.1" msd="UPosTag=PUNCT" ana="mte:punct">-</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg389.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsf" lemma="министър">министърът</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg389.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg389.1.4" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing" ana="mte:Ncfsd" lemma="икономика">икономиката</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg389.1.5" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="емил">Емил</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg389.1.6" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="караниколов">Караниколов</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg389.1.7" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg389.1.8" msd="UPosTag=DET|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind" ana="mte:Pfe-os-mi" lemma="един">един</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg389.1.9" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="въпрос">въпрос</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg389.1.10" msd="UPosTag=ADP" ana="mte:R" lemma="от">от</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg389.1.11" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsh" lemma="народен">народния</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg389.1.12" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="представител">представител</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg389.1.13" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="димитър">Димитър</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg389.1.14" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="данчев" join="right">Данчев</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg389.1.15" msd="UPosTag=PUNCT" ana="mte:punct">;</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg389.1.2 #ParlaMint-BG_2017-05-11.seg389.1.1"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BG_2017-05-11.seg389.1.9 #ParlaMint-BG_2017-05-11.seg389.1.2"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg389.1.4 #ParlaMint-BG_2017-05-11.seg389.1.3"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg389.1.2 #ParlaMint-BG_2017-05-11.seg389.1.4"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg389.1.2 #ParlaMint-BG_2017-05-11.seg389.1.5"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg389.1.5 #ParlaMint-BG_2017-05-11.seg389.1.6"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg389.1.9 #ParlaMint-BG_2017-05-11.seg389.1.7"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BG_2017-05-11.seg389.1.9 #ParlaMint-BG_2017-05-11.seg389.1.8"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg389.1 #ParlaMint-BG_2017-05-11.seg389.1.9"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg389.1.12 #ParlaMint-BG_2017-05-11.seg389.1.10"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg389.1.12 #ParlaMint-BG_2017-05-11.seg389.1.11"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg389.1.9 #ParlaMint-BG_2017-05-11.seg389.1.12"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg389.1.12 #ParlaMint-BG_2017-05-11.seg389.1.13"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg389.1.13 #ParlaMint-BG_2017-05-11.seg389.1.14"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg389.1.9 #ParlaMint-BG_2017-05-11.seg389.1.15"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg390">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg390.1">
+<pc xml:id="ParlaMint-BG_2017-05-11.seg390.1.1" msd="UPosTag=PUNCT" ana="mte:punct">-</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg390.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsf" lemma="министър">министърът</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg390.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg390.1.4" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing" ana="mte:Ncnsd" lemma="здравеопазване">здравеопазването</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg390.1.5" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="николай">Николай</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg390.1.6" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="петров">Петров</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg390.1.7" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg390.1.8" msd="UPosTag=DET|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind" ana="mte:Pfe-os-mi" lemma="един">един</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg390.1.9" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="въпрос">въпрос</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg390.1.10" msd="UPosTag=ADP" ana="mte:R" lemma="от">от</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg390.1.11" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsh" lemma="народен">народния</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg390.1.12" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="представител">представител</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg390.1.13" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="георги">Георги</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg390.1.14" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="йорданов" join="right">Йорданов</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg390.1.15" msd="UPosTag=PUNCT" ana="mte:punct">;</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg390.1.2 #ParlaMint-BG_2017-05-11.seg390.1.1"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BG_2017-05-11.seg390.1.9 #ParlaMint-BG_2017-05-11.seg390.1.2"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg390.1.4 #ParlaMint-BG_2017-05-11.seg390.1.3"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg390.1.2 #ParlaMint-BG_2017-05-11.seg390.1.4"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg390.1.2 #ParlaMint-BG_2017-05-11.seg390.1.5"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg390.1.5 #ParlaMint-BG_2017-05-11.seg390.1.6"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg390.1.9 #ParlaMint-BG_2017-05-11.seg390.1.7"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BG_2017-05-11.seg390.1.9 #ParlaMint-BG_2017-05-11.seg390.1.8"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg390.1 #ParlaMint-BG_2017-05-11.seg390.1.9"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg390.1.12 #ParlaMint-BG_2017-05-11.seg390.1.10"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg390.1.12 #ParlaMint-BG_2017-05-11.seg390.1.11"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg390.1.9 #ParlaMint-BG_2017-05-11.seg390.1.12"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg390.1.12 #ParlaMint-BG_2017-05-11.seg390.1.13"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg390.1.13 #ParlaMint-BG_2017-05-11.seg390.1.14"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg390.1.9 #ParlaMint-BG_2017-05-11.seg390.1.15"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg391">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg391.1">
+<pc xml:id="ParlaMint-BG_2017-05-11.seg391.1.1" msd="UPosTag=PUNCT" ana="mte:punct">-</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsf" lemma="министър">министърът</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.4" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Ansd" lemma="регионален">регионалното</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.5" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="развитие">развитие</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.6" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.7" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing" ana="mte:Ncnsd" lemma="благоустройство">благоустройството</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.8" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="николай">Николай</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.9" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="нанков">Нанков</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.10" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.11" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="три">три</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.12" msd="UPosTag=NOUN|Gender=Masc|Number=Count" ana="mte:Ncmt" lemma="въпрос">въпроса</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.13" msd="UPosTag=ADP" ana="mte:R" lemma="от">от</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.14" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Number=Plur" ana="mte:A-pd" lemma="народен">народните</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.15" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur" ana="mte:Ncmpi" lemma="представител">представители</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.16" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="васил">Васил</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.17" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="антонов" join="right">Антонов</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg391.1.18" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.19" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="николай">Николай</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.20" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="иванов">Иванов</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.21" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.22" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="георги">Георги</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg391.1.23" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="гьоков" join="right">Гьоков</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg391.1.24" msd="UPosTag=PUNCT" ana="mte:punct">;</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg391.1.2 #ParlaMint-BG_2017-05-11.seg391.1.1"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg391.1 #ParlaMint-BG_2017-05-11.seg391.1.2"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg391.1.5 #ParlaMint-BG_2017-05-11.seg391.1.3"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg391.1.5 #ParlaMint-BG_2017-05-11.seg391.1.4"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg391.1.2 #ParlaMint-BG_2017-05-11.seg391.1.5"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg391.1.7 #ParlaMint-BG_2017-05-11.seg391.1.6"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg391.1.5 #ParlaMint-BG_2017-05-11.seg391.1.7"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg391.1.2 #ParlaMint-BG_2017-05-11.seg391.1.8"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg391.1.8 #ParlaMint-BG_2017-05-11.seg391.1.9"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg391.1.12 #ParlaMint-BG_2017-05-11.seg391.1.10"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BG_2017-05-11.seg391.1.12 #ParlaMint-BG_2017-05-11.seg391.1.11"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg391.1.2 #ParlaMint-BG_2017-05-11.seg391.1.12"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg391.1.15 #ParlaMint-BG_2017-05-11.seg391.1.13"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg391.1.15 #ParlaMint-BG_2017-05-11.seg391.1.14"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg391.1.12 #ParlaMint-BG_2017-05-11.seg391.1.15"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg391.1.15 #ParlaMint-BG_2017-05-11.seg391.1.16"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg391.1.16 #ParlaMint-BG_2017-05-11.seg391.1.17"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg391.1.19 #ParlaMint-BG_2017-05-11.seg391.1.18"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg391.1.16 #ParlaMint-BG_2017-05-11.seg391.1.19"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg391.1.19 #ParlaMint-BG_2017-05-11.seg391.1.20"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg391.1.22 #ParlaMint-BG_2017-05-11.seg391.1.21"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg391.1.16 #ParlaMint-BG_2017-05-11.seg391.1.22"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg391.1.22 #ParlaMint-BG_2017-05-11.seg391.1.23"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg391.1.2 #ParlaMint-BG_2017-05-11.seg391.1.24"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg392">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg392.1">
+<pc xml:id="ParlaMint-BG_2017-05-11.seg392.1.1" msd="UPosTag=PUNCT" ana="mte:punct">-</pc>
+<w xml:id="ParlaMint-BG_2017-05-11.seg392.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsf" lemma="министър">министърът</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg392.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg392.1.4" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsh" lemma="труд">труда</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg392.1.5" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg392.1.6" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Afsd" lemma="социален">социалната</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg392.1.7" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="политика">политика</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg392.1.8" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="бисер">Бисер</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg392.1.9" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="петков">Петков</w>
+                     </name>
+<w xml:id="ParlaMint-BG_2017-05-11.seg392.1.10" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg392.1.11" msd="UPosTag=DET|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind" ana="mte:Pfe-os-mi" lemma="един">един</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg392.1.12" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="въпрос">въпрос</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg392.1.13" msd="UPosTag=ADP" ana="mte:R" lemma="от">от</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg392.1.14" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsh" lemma="народен">народния</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg392.1.15" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="представител">представител</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BG_2017-05-11.seg392.1.16" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="джевдет">Джевдет</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg392.1.17" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Hmsi" lemma="чакъров" join="right">Чакъров</w>
+                     </name>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg392.1.18" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg392.1.12 #ParlaMint-BG_2017-05-11.seg392.1.1"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BG_2017-05-11.seg392.1.12 #ParlaMint-BG_2017-05-11.seg392.1.2"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg392.1.4 #ParlaMint-BG_2017-05-11.seg392.1.3"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg392.1.2 #ParlaMint-BG_2017-05-11.seg392.1.4"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BG_2017-05-11.seg392.1.7 #ParlaMint-BG_2017-05-11.seg392.1.5"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg392.1.7 #ParlaMint-BG_2017-05-11.seg392.1.6"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BG_2017-05-11.seg392.1.4 #ParlaMint-BG_2017-05-11.seg392.1.7"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg392.1.2 #ParlaMint-BG_2017-05-11.seg392.1.8"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg392.1.8 #ParlaMint-BG_2017-05-11.seg392.1.9"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg392.1.12 #ParlaMint-BG_2017-05-11.seg392.1.10"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BG_2017-05-11.seg392.1.12 #ParlaMint-BG_2017-05-11.seg392.1.11"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg392.1 #ParlaMint-BG_2017-05-11.seg392.1.12"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg392.1.15 #ParlaMint-BG_2017-05-11.seg392.1.13"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg392.1.15 #ParlaMint-BG_2017-05-11.seg392.1.14"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg392.1.12 #ParlaMint-BG_2017-05-11.seg392.1.15"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg392.1.15 #ParlaMint-BG_2017-05-11.seg392.1.16"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BG_2017-05-11.seg392.1.16 #ParlaMint-BG_2017-05-11.seg392.1.17"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg392.1.12 #ParlaMint-BG_2017-05-11.seg392.1.18"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg393">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg393.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg393.1.1" msd="UPosTag=ADP" ana="mte:R" lemma="поради">Поради</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg393.1.2" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="изчерпване">изчерпване</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg393.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg393.1.4" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsh" lemma="дневен">дневния</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg393.1.5" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="ред">ред</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg393.1.6" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg393.1.7" msd="UPosTag=ADV|Degree=Pos" ana="mte:Dt" lemma="днес">днес</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg393.1.8" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r1s" lemma="закривам">закривам</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg393.1.9" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing" ana="mte:Ncnsd" lemma="заседание" join="right">заседанието</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg393.1.10" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg393.1.2 #ParlaMint-BG_2017-05-11.seg393.1.1"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BG_2017-05-11.seg393.1.8 #ParlaMint-BG_2017-05-11.seg393.1.2"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg393.1.5 #ParlaMint-BG_2017-05-11.seg393.1.3"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg393.1.5 #ParlaMint-BG_2017-05-11.seg393.1.4"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BG_2017-05-11.seg393.1.2 #ParlaMint-BG_2017-05-11.seg393.1.5"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BG_2017-05-11.seg393.1.8 #ParlaMint-BG_2017-05-11.seg393.1.6"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BG_2017-05-11.seg393.1.6 #ParlaMint-BG_2017-05-11.seg393.1.7"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg393.1 #ParlaMint-BG_2017-05-11.seg393.1.8"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BG_2017-05-11.seg393.1.8 #ParlaMint-BG_2017-05-11.seg393.1.9"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg393.1.8 #ParlaMint-BG_2017-05-11.seg393.1.10"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <u ana="#regular" n="72445" xml:id="ParlaMint-BG_2017-05-11.u110">
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg394">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg394.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg394.1.1" msd="UPosTag=ADV|Degree=Pos" ana="mte:Dt" lemma="утре">Утре</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg394.1.2" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r1p" lemma="продължавам">продължаваме</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg394.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="с">с</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg394.1.4" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsi" lemma="парламентарен">парламентарен</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg394.1.5" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="контрол">контрол</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg394.1.6" msd="UPosTag=ADP" ana="mte:R" lemma="от">от</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg394.1.7" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="11,00">11,00</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg394.1.8" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsh" lemma="час">ч.</w>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:advmod" target="#ParlaMint-BG_2017-05-11.seg394.1.2 #ParlaMint-BG_2017-05-11.seg394.1.1"/>
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg394.1 #ParlaMint-BG_2017-05-11.seg394.1.2"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg394.1.5 #ParlaMint-BG_2017-05-11.seg394.1.3"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BG_2017-05-11.seg394.1.5 #ParlaMint-BG_2017-05-11.seg394.1.4"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BG_2017-05-11.seg394.1.2 #ParlaMint-BG_2017-05-11.seg394.1.5"/>
+<link ana="ud-syn:case" target="#ParlaMint-BG_2017-05-11.seg394.1.8 #ParlaMint-BG_2017-05-11.seg394.1.6"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BG_2017-05-11.seg394.1.8 #ParlaMint-BG_2017-05-11.seg394.1.7"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BG_2017-05-11.seg394.1.2 #ParlaMint-BG_2017-05-11.seg394.1.8"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2017-05-11.seg395">
+                  <s xml:id="ParlaMint-BG_2017-05-11.seg395.1">
+<w xml:id="ParlaMint-BG_2017-05-11.seg395.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r1s" lemma="закривам">Закривам</w>
+<w xml:id="ParlaMint-BG_2017-05-11.seg395.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing" ana="mte:Ncnsd" lemma="заседание" join="right">заседанието</w>
+<pc xml:id="ParlaMint-BG_2017-05-11.seg395.1.3" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BG_2017-05-11.seg395.1 #ParlaMint-BG_2017-05-11.seg395.1.1"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BG_2017-05-11.seg395.1.1 #ParlaMint-BG_2017-05-11.seg395.1.2"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BG_2017-05-11.seg395.1.1 #ParlaMint-BG_2017-05-11.seg395.1.3"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <kinesic type="ringing" xml:id="ParlaMint-BG_2017-05-11.ana.kinesic2">
+                  <desc>Звъни.</desc>
+               </kinesic>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

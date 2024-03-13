@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="bs" xml:id="ParlaMint-BA_2006-07-07-0" ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bs">Bosanski parlamentarni korpus ParlaMint-BA, Mandat 4, Sjednica 60 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Bosnian parliamentary corpus ParlaMint-BA, Term 4, Session 60 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="bs">Zapisnici sjednica parlamentarne skupštine, mandat 4, sjednica 60</title>
+            <title type="sub" xml:lang="en">Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 4, Session 60</title>
+            <meeting n="4" corresp="#PS" ana="#parla.uni #parla.term #PS.4">4. mandat</meeting>
+            <meeting n="60" corresp="#PS" ana="#parla.uni #parla.meeting">Sjednica 60</meeting>
+            <meeting n="2006-07-07" corresp="#PS" ana="#parla.uni #parla.sitting">2006-07-07</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="bs">Preuzimanje i čiščenje digitalnog izvora</resp>
+               <resp xml:lang="en">Download and clean-up of the JSON digital source</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+               <resp xml:lang="bs">Kodiranje Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Peter Rupnik</persName>
+               <resp xml:lang="bs">Kodiranje Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="bs">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="31" xml:lang="bs">31 govora</measure>
+            <measure unit="speeches" quantity="31" xml:lang="en">31 speeches</measure>
+            <measure unit="words" quantity="5765" xml:lang="bs">5,765 riječi</measure>
+            <measure unit="words" quantity="5765" xml:lang="en">5,765 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="bs">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="bs">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2024-03-06">2024-03-06</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Minutes of the Parliamentary Assembly of Bosnia and Herzegovina</title>
+               <idno type="URI" subtype="parliament">https://www.javnarasprava.ba/</idno>
+               <idno type="URI" subtype="parliament">https://www.parlament.ba/</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="bs"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="incident" occurs="1"/>
+               <tagUsage gi="note" occurs="31"/>
+               <tagUsage gi="seg" occurs="38"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="31"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Trg BiH 1</name>
+               <name type="city">Sarajevo</name>
+               <name type="country" key="BA">Bosnia and Herzegovina</name>
+               <date when="2006-07-07" ana="#parla.sitting">2006-07-07</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2024-03-06">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2022-12-19">
+            <name>Peter Rupnik</name> Compile from source</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <note type="speaker" xml:id="ParlaMint-BA_2006-07-07-0.note1">Milojević, Goran</note>
+            <u who="#MilojevićGoran" ana="#chair" n="ParlaMint-BIH_DN.T4.S60.u6148" xml:id="ParlaMint-BA_2006-07-07-0.u6148">
+               <seg xml:id="ParlaMint-BA_2006-07-07-0.u6148.seg0">Pozdravljam vas i otvara 60. sjednicu Doma naroda Parlamentarne skupštine Bosne i Hercegovine. Na današnjoj sjednici prisutno je 12 delegata, od toga po 4 iz reda bošnjačkog naroda, 4 iz hrvatskog i 4 iz srpskog naroda. Delegati Jukić, Šiljegović i Neimarlija su opravdali svoj izostanak. Za današnju 60-tu sjednicu predlažem sljedeći dopunjeni dnevni red, 1. Odgovor na delegatska pitanja i delegatska pitanja, 2. Usvajanje Zapisnika sa 59. sjednice Doma Naroda, 3. Zahtjev Predstavničkog doma za razmatranje Zakona o izmjenama i dopunama Zakona o porezu na dodatnu vrijednost, po hitnom postupku u skladu sa članom 100. Poslovnika Doma naroda, 4. Zahtjev Predstavničkog doma za razmatranje Zakona o izmjeni Opšteg zakona o zadrugama, po hitnom postupku u skladu sa članom 100. Poslovnika Doma naroda, 5. Zahtjev delegata Boška Šiljegovića za razmatranje Prijedloga zakona o odbrani BiH po hitnom postupku u skladu sa članom 99. Poslovnika Doma naroda, 6. Zahtjev delegata Halida Genjca za razmatranje Predloga zakona o izmjeni i dopuni Zakona o osnovama bezbjednosti saobraćaja na putevima BiH, po hitnom postupku u skladu sa članom 99. Poslovnika Doma naroda, 7. Zahtjev delegata Halida Genjca i Mustafe Pamuka za razmatranje Predloga zakona o izmjenama i dopunama Zakona o osnovama bezbjednosti saobraćaja na putevima u BiH, po hitnom postupku u skladu sa članom 99. Poslovnika Doma naroda, 8. Zahtjev Savjeta ministara BiH za razmatranje Predloga zakona o izmjenama Zakona o policijskim službenicma BiH, po hitnom postupku u skladu sa članom 99. Poslovnika Doma naorda, 9. Zahtjev Savjeta ministara BiH za razmatranje Prijedloga zakona o izmjeni i dopuni Zakona o policijskim službenicima BiH po hitnom postupku u skladu sa članom 99. Poslovnika Doma naroda, zakon od 29.05.2006., 10. Zahtjev Savjeta ministara za razmatranje Prijedloga zakona o izmjeni Zakona o Državnoj graničnoj službi BiH, po hitnom postupku u skladu sa članom 99. Poslovnika Doma naroda, 11. Zahtjev Savjeta ministara BiH za razmatranje Prijedloga zakona o visokom obrazovanju BiH, po hitnom postupku u skladu sa članom 99. Poslovnika Doma naroda, 2 12. Prijedlog zakona o izmjenama i dopunama Zakona o Obavještajno-bezbjednosnoj agenciji BiH, prvo čitanje, 13. Prijedlog zakona o izmjenama i dopunama Krivičnog zakona BiH, prvo čitanje, 14. Prijedlog zakona o klasifikaciji djelatnosti u BiH, prvo čitanje, 15. Informacija o radu u Tužilaštvu BiH za 2005.godinu, 16. Zaključci Komisije za spoljno-trgovinsku politiku Doma naroda u vezi problemima sa izvozom mlijeka u zemlje sa kojima BiH ima potpisane bilatelarne sporazume o slobodnoj trgovini, 17. Zaključci i preporuke Komisije za spoljnu i trgovinsku politiku Doma naroda povodom Javne rasprave na temu razmatranje aktivnosti za podsticanje privrednog rasta, povećanje izvoza, smanjenje trgovinskog deficita i obezbjeđenje dodatnih povoljnosti za strana ulaganja u BiH, 18. Razmatranje ostavki Jasminke Putice, Blage Bošnjaka i Dragice Miletić članova Kancelarije za razmatranje žalbi i upoznavanje sa informacijama o dosadašnjim aktivnostima u vezi sa početkom rada Kancelarije za razmatranje žalbi, 19. Davanje saglasnosti za ratifikaciju Sporazuma između Vlade BiH i Vlade Savezne Republike Njemačke o finansijskoj saradnji u 2004.godini, 20. Dadvanje saglasnosti za ratifikaciju Sporazuma između Savjeta ministara BiH i Vlade Republike Grčke o saradnji u borbi protiv kriminala, posebno terorizma, ilegalne trgovine drogom i oružjem i organizovanog kriminala, 21. Davanje saglasnosti za ratifikaciju Sporazuma između BiH i Belgijsko- luksemburške ekonomske unije o recipročnom unapređenju i zaštiti investicije, 22. Davanje saglasnosti za ratifikaciju Sporazuma između Savjeta minsitara BiH i Vlade Republike Grčke o ponovnom prijemu lica koja ilegalno borave na teritoriji njihovih država i protokola za arealizaciju Sporazuma između Savjeta ministara BiH i Vlade Republike Grčke o ponovnom prijemu lica koja ilegalno borave na teritoriju njihovih država, 23. Davanje saglasnosti za ratifikaciju Sporazuma o vazdušnom saobraćaju između Savjeta ministara BiH i Vlade Republike Mađarske, 24. Dadvanje saglasnosti za ratifikaciju dodatka kojim se mijenja i dopunjuje Sporazum između Visokog predstavnika za BiH i BiH o uspostavljanju Kancelarije registrara za Odsjek I za ratne zločine i Odsjek II za organizovani kriminal, privredni kriminal i korupciju Kirvičnog i Apelacionog odjeljenja Suda BiH i Posebnog odjeljenja za ratne zločine i Posebnog odljeljenja za organizovani kriminal, privredni kriminal i korupcije Tužilaštva BiH, 25. Davanje saglasnosti za ratifikaciju Ugovora o intelektualnom vlasništvu za integrisana kola Vašington 25. maja '89.godine, 26. Davanje saglasnosti za ratifikaciju Ugovora o uspostavi energetske zajednice, 27. Davanje saglasnosti za ratifikaciju Roterdamske konvencije o proceduri obaviještavanja o saglasnosti za promet nekih opasnih hemikalija i pesticida u međunarodnoj trgovini, 28. Zahtjev Savjeta ministaa BiH za razmatranje Prijedloga zakona o lijekovima ii medicinskim sredstvima BiH, po hitnom postupku u skladu sa članom 99. Poslovnika Doma naroda, 29. Zahtjev Savjeta ministara za razmatranje Prijedloga zakona o dopuni Zakona o državljanstvu BiH, po hitnom postupku u skladu sa članom 99. Poslovnika Doma naroda, 3 30. Prijedlog zakona o izmjeni Zakona o ustupanju predmeta od strane Međunarodnog krivičnog suda za bivšu Jugoslaviju Tužilaštvu BiH, i korištenju dokaza pribavljenih od Međunarodnog krivičnog suda za bivšu Jugoslaviju u postupcima pred sudovima u BiH, prvo čitanje. Otvaram raspravu o predlogu dnevnog redad. Javlja li se neko za riječ? Ima li izmjena i dopuna? Konstatujem da nema izmjena i dopuna i da je dnevni red usvojen. O njemu se ne glasa u skladu sa članom 45. Poslovnika Doma naroda. Prelazimo na prvu tačku današnjeg dnevnog reda, to su Ad.1. Odgovori na delegatska pitanja i delegatska pitanja</seg>
+               <seg xml:id="ParlaMint-BA_2006-07-07-0.u6148.seg1">Odgovora na delegatska pitanja za ovu sjednicu, nismo dobili nijedan odgovor. Ima li novih delegatskih pitanja? Dakle, konstatujem da nemamo delegatskih pitanja novih. I, prelazimo na drugu tačku dnevnog reda, to je Ad.2. Usvajanje zapisnika sa 59. sjednice Doma naroda</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-BA_2006-07-07-0.note2">Hurtić, Zlatko</note>
+            <u who="#HurtićZlatko" ana="#regular" n="ParlaMint-BIH_DN.T4.S60.u6152" xml:id="ParlaMint-BA_2006-07-07-0.u6152">
+               <seg xml:id="ParlaMint-BA_2006-07-07-0.u6152.seg0">Hvala gospodine predsjedavajući, poštovani poslanici, dame i gospodo ja želim da prenesem službeni stav Vijeća ministara da Vijeće ministara podržava dakle, brisanje člana 82. iz Zakona o PDV-u i mi smo u kontekstu toga ranije podnosili amandmane. Međutim, Vijeće ministara takođe želi da vas obavijesti da Vijeće ministara nije u mogućnosti podržati ni jednu izmjenu zakona koja nema potpunu saglasnost Upravnog odbora Uprave za indirektno oporezivanje, što je u skladu sa Sporazumom o transferu nadležnosti na osnovu koje je indirektno oporezivanje prešlo samo sa entiteta na nivo države a što je verificirao odnosno ratificirao državni Parlament, uključujući Dom naroda. Mi smo u kontaktu sa gospodinom Nikolom bili. Gospodin Nikol je izrazio želju da osigura inplementaciju dakle, člana, ovih namjera i član 82. bilo izmjenom Pravilnika koji postoji u okviru Uprave za indirektno oporezivanje i gospodin Čaušević direktor je tu, i davanje saglasnosti na ovaj zakon na prvoj narednoj sjednici Upravnog odbora kao što vas je pismeno obavijestio. Prema tome, ako mi mislimo da treba doći do izmjena ovog zakona u ovom smislu, ali da ne možemo dakle podržati ono što nema saglasnosti Upravnog odbora jer mislimo da bi na taj način mogli doći u jednu krizu, da bi Ustavni sud, ili neki drugi sud na osnovu kršenja Sporazuma o transferu nadležnosti mogao eventualno tu izmjenu oboriti, ali apelujemo i ovom prilikom na Upravni odbor Uprave za indirektno oporezivanje da odobri ovu izmjenu sozbirom da smo mi u više navrata tražili da to učini. Hvala.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#ČengićHasan" ana="#regular" n="ParlaMint-BIH_DN.T4.S60.u6206" xml:id="ParlaMint-BA_2006-07-07-0.u6206">
+               <seg xml:id="ParlaMint-BA_2006-07-07-0.u6206.seg0">Uvažavajući sve ono što je rečeno, posebno od strane kolege Filipovića, ja ću početi od ove zadnje rečenice koju je rekao predstavnik Vijeća ministara. To je suština čitave priće. Dakle, on insistira na tome da se usvoji zakon za koji gospodin već unaprijed zna da će ga biti potrebno popravljati. I ja mislim da je već preveliki luksuz da mi idemo sa tim da mi usvajamo zakone koji nisu u redu pa da ih onda popravljamo nakon što ih usvojimo. To jeste upravo razlog zašto govorim. Kad govorim o ovom pitanju, ja sam rekao vrlo jasno. Dakle, imajući informaciju od institucija, od veledrogerija, od onih ljudi koji se bave ovim pitanjem, imajući na umu važnost ovog zakona, dakle dijeleći potpuno ocjenu da je to važno, i baš zato što je to važno, smatram da moramo doći u poziciju da imamo mogućnost da čujemo sve one koji su važni faktori u donošenju zakona a koji nisu imali priliku ni pročitati zakon a kamoli učestvovati u njegovoj pripremi. Dakle da budem vrlo jasan kolega Filipoviću, zakon je pripremao jedan mali broj ljudi. Neki od njih su eksperti za pravo, neki za nešto drugo, a neki nisu ni za šta od onoga što se tiče lijekova. Ali su pripremali zakon. Da, da. Sada mi trebamo ponuditi zakon, trebamo mi raspravljati o zakonu, nek se niko od nas ne ljuti, uglavnom mi nismo eksperti za to područje i mislim da bi bilo jako važno da imamo, da dođemo u priliku da čujemo ljude s obje strane. Pod navodnicima, one sa stanovišta tržišta, one sa stanovišta proizvodnje, one sa stanovišta kontrole itd. da dođemo u tu poziciju da imamo priliku da oni iznesu svoje stavove i da popravimo zakon. 23 I da zaključim, nije nered na tržištu zbog zakona. Nije. Nered na tržištu je zbog ne poštovanja zakona. Dakle, to je broj jedan. Broj dva, ne smijemo doći u poziciju da sada donošenjem novog zakona otvorimo nered, odnosno da povećamo to što zovemo neorganizirašću u tom području. Iz svega toga, iz svih tih razloga, smatram da je jako važno dobiti ovaj zakon i da treba početi raditi na njemu. Posebno je pitanje kolega Filipoviću, zašto je Vijeće ministara čekalo toliko godina, da bi to predložilo i da bi došlo u proceduru u julu, dakle 2 mjeseca prije izbora, iako je ... da je zakon o lijekovima bio potreban davno prije, na njemu se radi 4 godine. Dakle, postojalo je puno puteva i mehanizama uključujući i OHR, koji je isto tako se pred kraj sjetio da postoji pitanje lijekova a ni do danas taj isti OHR nije postavio pitanje zakona o poljoprivredi. To je sramotno. Dakle OHR treba da se ugasi a da nije postavio pitanje zakona o poljoprivredi na nivou BiH, sada u zadnji trenutak prozivate zakon o ljekovima koji nam naravno treba, ali ga trebamo dobiti jednom, pod navodnicima, u normalnoj atmosferi, dakle u atmosferi gdje ćemo čuti eksperte i one kojih se to tiče sa svih strana, kako ne bismo došli u poziciju da imamo neriješena ili otvorena ptianja nakon što donesemo zakon. Eto, to je jedini razlog. Dakle podržavajući njegovu važnost i potrebu donošenja, ja samo predlažem da ide u redovnu proceduru. Hvala.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-BA_2006-07-07-0.note31">Milojević, Goran</note>
+            <u who="#MilojevićGoran" ana="#chair" n="ParlaMint-BIH_DN.T4.S60.u6207" xml:id="ParlaMint-BA_2006-07-07-0.u6207">
+               <seg xml:id="ParlaMint-BA_2006-07-07-0.u6207.seg0">Zahvaljujem se kolegi Čengiću. Mi ćemo dakle ići po prijedlogu kako je u dnevnom redu ovo, da glasaćemo u skladu sa članom 99. /ZAJEDNIČKA DISKUSIJA-slabo se čuje/</seg>
+               <seg xml:id="ParlaMint-BA_2006-07-07-0.u6207.seg1">Ali ima ovde prostora i za ovo o čemu je gospodin Čengić govorio, samo u nešto kraćem vremenu, tako da se može djelovati amandmanski. Dakle, ja stavljam na glasanje Zahtjev Savjeta ministara BiH za razmatranje Prijedloga zakona o lijekovima i medicinskim sredstvima BiH po hitnom postupku u skladu sa članom 99. Poslovnika Doma naroda. Molim vas glasajte. Ko je za? Protiv? Uzdržan? Niko. Znači večinom glasova je usvojen ovaj zakon. 29. tačka današnjeg dnevnog reda, predposljednja, 24 Ad.29. Zahtjev Savjeta ministara za razmatranje Prijedloga zakona o dopuni Zakona o državljanstvu BiH, po hitnom postupku u skladu sa članom 99. Poslovnika Doma naroda</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,1446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="bs" xml:id="ParlaMint-BA_2013-10-07-0.ana" ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bs">Bosanski parlamentarni korpus ParlaMint-BA, Mandat 6, Sjednica 54 [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Bosnian parliamentary corpus ParlaMint-BA, Term 6, Session 54 [ParlaMint.ana SAMPLE]</title>
+            <title type="sub" xml:lang="bs">Zapisnici sjednica parlamentarne skupštine, mandat 6, sjednica 54</title>
+            <title type="sub" xml:lang="en">Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 6, Session 54</title>
+            <meeting n="6" corresp="#PS" ana="#parla.uni #parla.term #PS.6">6. mandat</meeting>
+            <meeting n="54" corresp="#PS" ana="#parla.uni #parla.meeting">Sjednica 54</meeting>
+            <meeting n="2013-10-07" corresp="#PS" ana="#parla.uni #parla.sitting">2013-10-07</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="bs">Preuzimanje i čiščenje digitalnog izvora</resp>
+               <resp xml:lang="en">Download and clean-up of the JSON digital source</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+               <resp xml:lang="bs">Kodiranje Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Peter Rupnik</persName>
+               <resp xml:lang="bs">Kodiranje Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="bs">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="215" xml:lang="bs">215 govora</measure>
+            <measure unit="speeches" quantity="215" xml:lang="en">215 speeches</measure>
+            <measure unit="words" quantity="36932" xml:lang="bs">36,932 riječi</measure>
+            <measure unit="words" quantity="36932" xml:lang="en">36,932 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="bs">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="bs">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2024-03-06">2024-03-06</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Minutes of the Parliamentary Assembly of Bosnia and Herzegovina</title>
+               <idno type="URI" subtype="parliament">https://www.javnarasprava.ba/</idno>
+               <idno type="URI" subtype="parliament">https://www.parlament.ba/</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="bs"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="13"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="6"/>
+               <tagUsage gi="incident" occurs="7"/>
+               <tagUsage gi="link" occurs="41970"/>
+               <tagUsage gi="linkGrp" occurs="1849"/>
+               <tagUsage gi="name" occurs="1395"/>
+               <tagUsage gi="note" occurs="215"/>
+               <tagUsage gi="pc" occurs="5038"/>
+               <tagUsage gi="s" occurs="1849"/>
+               <tagUsage gi="seg" occurs="228"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="215"/>
+               <tagUsage gi="w" occurs="36932"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Trg BiH 1</name>
+               <name type="city">Sarajevo</name>
+               <name type="country" key="BA">Bosnia and Herzegovina</name>
+               <date when="2013-10-07" ana="#parla.sitting">2013-10-07</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2024-03-06">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2022-12-19">
+            <name>Peter Rupnik</name> Compile from source</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <note type="speaker" xml:id="ParlaMint-BA_2013-10-07-0.ana.note1">Bećirović, Denis</note>
+            <u who="#BećirovićDenis" ana="#chair" n="ParlaMint-BIH_ZD.T6.S54.u17114" xml:id="ParlaMint-BA_2013-10-07-0.u17114">
+               <seg xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0">
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.1">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.1.1" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" ana="mte:Ncfpn" lemma="dama">Dame</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.1.2" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.1.3" msd="UPosTag=ADJ|Case=Voc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" ana="mte:Agpmpny" lemma="gospodo">gospodo</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.1.4" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" ana="mte:Ncmpn" lemma="poslanik" join="right">poslanici</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.1.5" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.1.6" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass" ana="mte:Appmpny" lemma="poštovati">poštovani</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.1.7" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" ana="mte:Ncmpn" lemma="gost">gosti</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.1.8" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="otvarati">otvaram</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.1.9" msd="UPosTag=ADJ|NumType=Ord" ana="mte:Mdo" lemma="54">54.</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.1.10" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="sjednica">sjednicu</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.1.11" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Agpmsgy" lemma="predstavnički">Predstavničkog</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.1.12" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsg" lemma="dom">doma</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.1.13" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsgy" lemma="parlamentaran">Parlamentarne</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.1.14" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Ncfsg" lemma="skupština">skupštine</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.1.15" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Npfsg" lemma="BiH" join="right">BiH</w>
+                     </name>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.1.16" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.1.8 #ParlaMint-BA_2013-10-07-0.u17114.seg0.1.1"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.1.4 #ParlaMint-BA_2013-10-07-0.u17114.seg0.1.2"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.1.4 #ParlaMint-BA_2013-10-07-0.u17114.seg0.1.3"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.1.1 #ParlaMint-BA_2013-10-07-0.u17114.seg0.1.4"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.1.1 #ParlaMint-BA_2013-10-07-0.u17114.seg0.1.5"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.1.7 #ParlaMint-BA_2013-10-07-0.u17114.seg0.1.6"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.1.8 #ParlaMint-BA_2013-10-07-0.u17114.seg0.1.7"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.1 #ParlaMint-BA_2013-10-07-0.u17114.seg0.1.8"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.1.10 #ParlaMint-BA_2013-10-07-0.u17114.seg0.1.9"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.1.8 #ParlaMint-BA_2013-10-07-0.u17114.seg0.1.10"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.1.12 #ParlaMint-BA_2013-10-07-0.u17114.seg0.1.11"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.1.10 #ParlaMint-BA_2013-10-07-0.u17114.seg0.1.12"/>
+<link ana="ud-syn:compound" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.1.14 #ParlaMint-BA_2013-10-07-0.u17114.seg0.1.13"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.1.12 #ParlaMint-BA_2013-10-07-0.u17114.seg0.1.14"/>
+<link ana="ud-syn:compound" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.1.14 #ParlaMint-BA_2013-10-07-0.u17114.seg0.1.15"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.1.8 #ParlaMint-BA_2013-10-07-0.u17114.seg0.1.16"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.1" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="na">Na</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.2" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="sjednica">sjednicu</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.3" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3p" lemma="biti">su</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.4" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass" ana="mte:Appmpny" lemma="pozvati">pozvani</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.5" msd="UPosTag=DET|Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs" ana="mte:Ps1mpn" lemma="naš">naši</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.6" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" ana="mte:Agpmpny" lemma="redovan">redovni</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.7" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" ana="mte:Ncmpn" lemma="gost" join="right">gosti</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.8" msd="UPosTag=PUNCT" ana="mte:Z">:</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.9" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" ana="mte:Agpmpny" lemma="predsjedavajući">predsjedavajući</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.10" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.11" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" ana="mte:Ncmpn" lemma="član">članovi</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.12" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" ana="mte:Ncnsg" lemma="predsjedništvo">Predsjedništva</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.13" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Npfsg" lemma="BiH" join="right">BiH</w>
+                     </name>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.14" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.15" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" ana="mte:Agpmpny" lemma="predsjedavajući">predsjedavajući</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.16" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.17" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" ana="mte:Ncmpn" lemma="član">članovi</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.18" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" ana="mte:Ncnsg" lemma="vijeće">Vijeća</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.19" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" ana="mte:Ncmpg" lemma="ministar">ministara</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.20" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Npfsg" lemma="BiH" join="right">BiH</w>
+                     </name>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.21" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.22" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" ana="mte:Ncmpn" lemma="predstavnik">predstavnici</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.23" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur" ana="mte:Agpfpgy" lemma="međunarodni">međunarodnih</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.24" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" ana="mte:Ncfpg" lemma="organizacija">organizacija</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.25" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.26" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" ana="mte:Ncfpg" lemma="ambasada">ambasada</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.27" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="u">u</w>
+                     <name type="LOC">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.28" msd="UPosTag=PROPN|Case=Loc|Gender=Fem|Number=Sing" ana="mte:Npfsl" lemma="BiH" join="right">BiH</w>
+                     </name>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.29" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.30" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" ana="mte:Ncmpn" lemma="predstavnik">predstavnici</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.31" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" ana="mte:Ncmpg" lemma="medij" join="right">medija</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.2.32" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.2 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.1"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.4 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.2"/>
+<link ana="ud-syn:aux_pass" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.4 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.3"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.4"/>
+<link ana="ud-syn:det" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.7 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.5"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.7 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.6"/>
+<link ana="ud-syn:nsubj_pass" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.4 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.7"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.8"/>
+<link ana="ud-syn:appos" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.7 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.9"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.11 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.10"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.11"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.11 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.12"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.12 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.13"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.15 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.14"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.15"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.17 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.16"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.15 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.17"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.17 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.18"/>
+<link ana="ud-syn:compound" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.18 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.19"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.19 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.20"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.22 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.21"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.22"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.24 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.23"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.22 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.24"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.26 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.25"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.24 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.26"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.28 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.27"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.26 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.28"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.30 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.29"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.30"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.30 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.31"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.2.4 #ParlaMint-BA_2013-10-07-0.u17114.seg0.2.32"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.1" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="također">Također</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.2" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="na">na</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.3" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="sjednica">sjednicu</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.4" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3p" lemma="biti">su</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.5" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass" ana="mte:Appmpny" lemma="pozvati">pozvani</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.6" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" ana="mte:Ncmpn" lemma="predstavnik">predstavnici</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.7" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsg" lemma="ured">Ureda</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.8" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="za">za</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.9" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="revizija">reviziju</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.10" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" ana="mte:Ncfpg" lemma="institucija">institucija</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.11" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Npfsg" lemma="BiH">BiH</w>
+                     </name>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.12" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.13" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Agpnsgy" lemma="visok">Visokog</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.14" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Agpnsgy" lemma="sudski">sudskog</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.15" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.16" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Agpnsgy" lemma="tužilački">tužilačkog</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.17" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" ana="mte:Ncnsg" lemma="vijeće">vijeća</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.18" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Npfsg" lemma="BiH" join="right">BiH</w>
+                     </name>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.19" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.20" msd="UPosTag=DET|Case=Nom|Gender=Masc|Number=Plur|Poss=Yes|PronType=Int,Rel" ana="mte:Pi-mpn" lemma="čiji">čiji</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.21" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3p" lemma="biti">su</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.22" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" ana="mte:Ncmpn" lemma="izvještaj">izvještaji</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.23" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="na">na</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.24" msd="UPosTag=ADJ|Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Agpmsly" lemma="dnevni">dnevnom</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.25" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" ana="mte:Ncmsl" lemma="red">redu</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.26" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Ncfsg" lemma="sjednica" join="right">sjednice</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.3.27" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.3 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.1"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.3 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.2"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.3"/>
+<link ana="ud-syn:aux_pass" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.4"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.5"/>
+<link ana="ud-syn:nsubj_pass" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.6"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.6 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.7"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.8"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.7 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.9"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.10"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.10 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.11"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.17 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.12"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.17 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.13"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.17 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.14"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.16 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.15"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.14 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.16"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.10 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.17"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.17 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.18"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.25 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.19"/>
+<link ana="ud-syn:det" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.22 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.20"/>
+<link ana="ud-syn:cop" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.25 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.21"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.25 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.22"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.25 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.23"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.25 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.24"/>
+<link ana="ud-syn:acl" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.17 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.25"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.25 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.26"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.3.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.3.27"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.4">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.4.1" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="srdačno">Srdačno</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.4.2" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="pozdravljati">pozdravljam</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.4.3" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" ana="mte:Agpmpay" lemma="sav">sve</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.4.4" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" ana="mte:Agpmpay" lemma="prisutan">prisutne</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.4.5" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" ana="mte:Ncmpa" lemma="poslanik">poslanike</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.4.6" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.4.7" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" ana="mte:Ncmpa" lemma="gost" join="right">goste</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.4.8" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.4.2 #ParlaMint-BA_2013-10-07-0.u17114.seg0.4.1"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.4 #ParlaMint-BA_2013-10-07-0.u17114.seg0.4.2"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.4.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.4.3"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.4.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.4.4"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.4.2 #ParlaMint-BA_2013-10-07-0.u17114.seg0.4.5"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.4.7 #ParlaMint-BA_2013-10-07-0.u17114.seg0.4.6"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.4.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.4.7"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.4.2 #ParlaMint-BA_2013-10-07-0.u17114.seg0.4.8"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.1" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" ana="mte:Ncnsn" lemma="odsustvo">Odsustvo</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.2" msd="UPosTag=ADP|Case=Gen" ana="mte:Sg" lemma="sa">sa</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.3" msd="UPosTag=DET|Case=Gen|Gender=Fem|Number=Sing|PronType=Dem" ana="mte:Pd-fsg" lemma="ovaj">ove</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.4" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Ncfsg" lemma="sjednica">sjednice</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.5" msd="UPosTag=VERB|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-pm" lemma="opravdati">opravdali</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.6" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3p" lemma="biti">su</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.7" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" ana="mte:Ncmpn" lemma="poslanik" join="right">poslanici</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.8" msd="UPosTag=PUNCT" ana="mte:Z">:</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.9" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="Milorad">Milorad</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.10" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="Živković" join="right">Živković</w>
+                     </name>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.11" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.12" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="Božo">Božo</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.13" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="Ljubić" join="right">Ljubić</w>
+                     </name>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.14" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.15" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="Mato">Mato</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.16" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="Franjičević" join="right">Franjičević</w>
+                     </name>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.17" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.18" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Npfsn" lemma="Ismeta">Ismeta</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.19" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Npfsn" lemma="Dervoz" join="right">Dervoz</w>
+                     </name>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.20" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.21" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Npfsn" lemma="Nermina">Nermina</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.22" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Npfsn" lemma="Ćemalović" join="right">Ćemalović</w>
+                     </name>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.23" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.24" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="Anto">Anto</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.25" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="Domazet" join="right">Domazet</w>
+                     </name>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.26" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.27" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="Emir">Emir</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.28" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="Kabil" join="right">Kabil</w>
+                     </name>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.29" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.30" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="Drago">Drago</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.31" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="Kalabić">Kalabić</w>
+                     </name>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.32" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.33" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="Salko">Salko</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.34" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="Sokolović" join="right">Sokolović</w>
+                     </name>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.35" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.36" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="a">a</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.37" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" ana="mte:Ncnsa" lemma="kašnjenje">kašnjenje</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.38" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3p" lemma="biti">su</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.39" msd="UPosTag=VERB|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-pm" lemma="najaviti">najavili</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.40" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Npfsn" lemma="Danijela">Danijela</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.41" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Npfsn" lemma="Martinović">Martinović</w>
+                     </name>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.42" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.43" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="Dragan">Dragan</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.44" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="Vrankić" join="right">Vrankić</w>
+                     </name>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.5.45" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.1"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.4 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.2"/>
+<link ana="ud-syn:det" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.4 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.3"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.1 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.4"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.5"/>
+<link ana="ud-syn:aux" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.6"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.7"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.8"/>
+<link ana="ud-syn:appos" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.7 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.9"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.10"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.12 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.11"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.12"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.12 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.13"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.15 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.14"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.15"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.15 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.16"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.18 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.17"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.18"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.18 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.19"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.21 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.20"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.21"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.21 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.22"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.24 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.23"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.24"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.24 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.25"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.27 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.26"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.27"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.27 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.28"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.30 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.29"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.30"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.30 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.31"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.33 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.32"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.33"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.33 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.34"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.39 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.35"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.39 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.36"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.39 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.37"/>
+<link ana="ud-syn:aux" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.39 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.38"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.39"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.39 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.40"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.40 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.41"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.43 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.42"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.40 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.43"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.43 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.44"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.5.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.5.45"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.6">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.6.1" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="prema">Prema</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.6.2" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" ana="mte:Ncfsl" lemma="informacija">informaciji</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.6.3" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Ncfsg" lemma="služba">službe</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.6.4" msd="UPosTag=NOUN|Case=Dat|Gender=Fem|Number=Sing" ana="mte:Ncfsd" lemma="sjednica">sjednici</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.6.5" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.6.6" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Agpnsny" lemma="prisutan">prisutno</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.6.7" msd="UPosTag=NUM|NumType=Card" ana="mte:Mdc" lemma="28">28</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.6.8" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" ana="mte:Ncmpg" lemma="poslanik" join="right">poslanika</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.6.9" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.6.2 #ParlaMint-BA_2013-10-07-0.u17114.seg0.6.1"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.6.6 #ParlaMint-BA_2013-10-07-0.u17114.seg0.6.2"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.6.2 #ParlaMint-BA_2013-10-07-0.u17114.seg0.6.3"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.6.6 #ParlaMint-BA_2013-10-07-0.u17114.seg0.6.4"/>
+<link ana="ud-syn:cop" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.6.6 #ParlaMint-BA_2013-10-07-0.u17114.seg0.6.5"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.6 #ParlaMint-BA_2013-10-07-0.u17114.seg0.6.6"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.6.8 #ParlaMint-BA_2013-10-07-0.u17114.seg0.6.7"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.6.6 #ParlaMint-BA_2013-10-07-0.u17114.seg0.6.8"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.6.6 #ParlaMint-BA_2013-10-07-0.u17114.seg0.6.9"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.7">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.7.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="konstatirati">Konstatiram</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.7.2" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.7.3" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="sjednica">sjednica</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.7.4" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmr3s" lemma="imati">ima</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.7.5" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" ana="mte:Ncmsan" lemma="kvorum">kvorum</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.7.6" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="za">za</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.7.7" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" ana="mte:Ncmsan" lemma="rad">rad</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.7.8" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.7.9" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" ana="mte:Ncnsa" lemma="odlučivanje" join="right">odlučivanje</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.7.10" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.7 #ParlaMint-BA_2013-10-07-0.u17114.seg0.7.1"/>
+<link ana="ud-syn:mark" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.7.4 #ParlaMint-BA_2013-10-07-0.u17114.seg0.7.2"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.7.4 #ParlaMint-BA_2013-10-07-0.u17114.seg0.7.3"/>
+<link ana="ud-syn:ccomp" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.7.1 #ParlaMint-BA_2013-10-07-0.u17114.seg0.7.4"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.7.4 #ParlaMint-BA_2013-10-07-0.u17114.seg0.7.5"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.7.7 #ParlaMint-BA_2013-10-07-0.u17114.seg0.7.6"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.7.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.7.7"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.7.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.7.8"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.7.7 #ParlaMint-BA_2013-10-07-0.u17114.seg0.7.9"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.7.1 #ParlaMint-BA_2013-10-07-0.u17114.seg0.7.10"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.8">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.8.1" msd="UPosTag=ADV|Degree=Pos|PronType=Int,Rel" ana="mte:Rgp" lemma="kada">Kada</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.8.2" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.8.3" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="riječ">riječ</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.8.4" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="o">o</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.8.5" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Plur" ana="mte:Ncfpl" lemma="izmjena">izmjenama</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.8.6" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.8.7" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Plur" ana="mte:Ncfpl" lemma="dopuna">dopunama</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.8.8" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Agpmsgy" lemma="dnevni">dnevnog</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.8.9" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsg" lemma="red">reda</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.8.10" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Ncfsg" lemma="sjednica">sjednice</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.8.11" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="željeti">želim</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.8.12" msd="UPosTag=VERB|VerbForm=Inf" ana="mte:Vmn" lemma="napomenuti">napomenuti</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.8.13" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Agpnsay" lemma="sljedeći" join="right">sljedeće</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.8.14" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.8.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.8.1"/>
+<link ana="ud-syn:cop" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.8.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.8.2"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.8.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.8.3"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.8.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.8.4"/>
+<link ana="ud-syn:advcl" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.8.11 #ParlaMint-BA_2013-10-07-0.u17114.seg0.8.5"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.8.7 #ParlaMint-BA_2013-10-07-0.u17114.seg0.8.6"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.8.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.8.7"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.8.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.8.8"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.8.7 #ParlaMint-BA_2013-10-07-0.u17114.seg0.8.9"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.8.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.8.10"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.8 #ParlaMint-BA_2013-10-07-0.u17114.seg0.8.11"/>
+<link ana="ud-syn:xcomp" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.8.11 #ParlaMint-BA_2013-10-07-0.u17114.seg0.8.12"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.8.12 #ParlaMint-BA_2013-10-07-0.u17114.seg0.8.13"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.8.11 #ParlaMint-BA_2013-10-07-0.u17114.seg0.8.14"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.9">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.9.1" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="na">Na</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.9.2" msd="UPosTag=ADJ|Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Agpmsayn" lemma="dnevni">dnevni</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.9.3" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" ana="mte:Ncmsan" lemma="red">red</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.9.4" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.9.5" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsny" lemma="dodat">dodata</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.9.6" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="tačka">tačka</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.9.7" msd="UPosTag=ADJ|NumType=Ord" ana="mte:Mdo" lemma="22.">22.</w>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.9.3 #ParlaMint-BA_2013-10-07-0.u17114.seg0.9.1"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.9.3 #ParlaMint-BA_2013-10-07-0.u17114.seg0.9.2"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.9.4 #ParlaMint-BA_2013-10-07-0.u17114.seg0.9.3"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.9.4"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.9.6 #ParlaMint-BA_2013-10-07-0.u17114.seg0.9.5"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.9.4 #ParlaMint-BA_2013-10-07-0.u17114.seg0.9.6"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.9.6 #ParlaMint-BA_2013-10-07-0.u17114.seg0.9.7"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.1" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" ana="mte:Ncnsn" lemma="davanje">Davanje</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.2" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Ncfsg" lemma="saglasnost">saglasnosti</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.3" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="za">za</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.4" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="ratifikacija">ratifikaciju</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.5" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsg" lemma="ugovor">Ugovora</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.6" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="o">o</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.7" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" ana="mte:Ncmsl" lemma="zajam">zajmu</w>
+                     </name>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.8" msd="UPosTag=PUNCT" ana="mte:Z" join="right">(</pc>
+                     <name type="MISC">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.9" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="projekat">Projekat</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.10" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Ncfsg" lemma="kanalizacija">kanalizacije</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.11" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="Cazin" join="right">Cazin</w>
+                     </name>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.12" msd="UPosTag=PUNCT" ana="mte:Z">)</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.13" msd="UPosTag=ADP|Case=Gen" ana="mte:Sg" lemma="između">između</w>
+                     <name type="LOC">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.14" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Npfsg" lemma="Bosna">Bosne</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.15" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.16" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Npfsg" lemma="Hercegovina">Hercegovine</w>
+                     </name>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.17" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.18" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsgy" lemma="evropski">Evropske</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.19" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Ncfsg" lemma="banka">banke</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.20" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="za">za</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.21" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="obnova">obnovu</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.22" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.23" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" ana="mte:Ncmsan" lemma="razvoj" join="right">razvoj</w>
+                     </name>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.24" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.25" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="broj" join="right">broj</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.26" msd="UPosTag=PUNCT" ana="mte:Z">:</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.27" msd="UPosTag=NUM|NumType=Card" ana="mte:Mdc" lemma="01,02" join="right">01,02</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.28" msd="UPosTag=PUNCT" ana="mte:Z">-</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.29" msd="UPosTag=NUM|NumType=Card" ana="mte:Mdc" lemma="05" join="right">05</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.30" msd="UPosTag=PUNCT" ana="mte:Z" join="right">-</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.31" msd="UPosTag=NUM|NumType=Card" ana="mte:Mdc" lemma="2" join="right">2</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.32" msd="UPosTag=PUNCT" ana="mte:Z" join="right">-</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.33" msd="UPosTag=NUM|NumType=Card" ana="mte:Mdc" lemma="1019/13">1019/13</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.34" msd="UPosTag=ADP|Case=Gen" ana="mte:Sg" lemma="od">od</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.10.35" msd="UPosTag=NUM|NumType=Card" ana="mte:Mdc" lemma="24.09.2013.">24.09.2013.</w>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.1"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.1 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.2"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.4 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.3"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.2 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.4"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.4 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.5"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.7 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.6"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.7"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.8"/>
+<link ana="ud-syn:appos" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.9"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.10"/>
+<link ana="ud-syn:appos" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.10 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.11"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.12"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.14 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.13"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.14"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.14 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.15"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.14 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.16"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.19 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.17"/>
+<link ana="ud-syn:compound" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.19 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.18"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.14 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.19"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.21 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.20"/>
+<link ana="ud-syn:compound" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.19 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.21"/>
+<link ana="ud-syn:compound" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.21 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.22"/>
+<link ana="ud-syn:compound" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.21 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.23"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.25 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.24"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.1 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.25"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.27 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.26"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.25 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.27"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.29 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.28"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.27 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.29"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.31 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.30"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.27 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.31"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.33 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.32"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.27 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.33"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.35 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.34"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.10.25 #ParlaMint-BA_2013-10-07-0.u17114.seg0.10.35"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.11">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.11.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="otvarati">Otvaram</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.11.2" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="rasprava">raspravu</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.11.3" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="o">o</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.11.4" msd="UPosTag=ADJ|Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|Voice=Pass" ana="mte:Appmsly" lemma="predložiti">predloženom</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.11.5" msd="UPosTag=ADJ|Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Agpmsly" lemma="dnevni">dnevnom</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.11.6" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" ana="mte:Ncmsl" lemma="red" join="right">redu</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.11.7" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.11 #ParlaMint-BA_2013-10-07-0.u17114.seg0.11.1"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.11.1 #ParlaMint-BA_2013-10-07-0.u17114.seg0.11.2"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.11.6 #ParlaMint-BA_2013-10-07-0.u17114.seg0.11.3"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.11.6 #ParlaMint-BA_2013-10-07-0.u17114.seg0.11.4"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.11.6 #ParlaMint-BA_2013-10-07-0.u17114.seg0.11.5"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.11.2 #ParlaMint-BA_2013-10-07-0.u17114.seg0.11.6"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.11.1 #ParlaMint-BA_2013-10-07-0.u17114.seg0.11.7"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.12">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.12.1" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="za">Za</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.12.2" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="diskusija">diskusiju</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.12.3" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="o">o</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.12.4" msd="UPosTag=ADJ|Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Agpmsly" lemma="dnevni">dnevnom</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.12.5" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" ana="mte:Ncmsl" lemma="red">redu</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.12.6" msd="UPosTag=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-sm" lemma="prijaviti">prijavio</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.12.7" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" ana="mte:Px--sa" lemma="sebe">se</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.12.8" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="poslanik">poslanik</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.12.9" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="Beriz">Beriz</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.12.10" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="Belkić" join="right">Belkić</w>
+                     </name>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.12.11" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.12.2 #ParlaMint-BA_2013-10-07-0.u17114.seg0.12.1"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.12.6 #ParlaMint-BA_2013-10-07-0.u17114.seg0.12.2"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.12.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.12.3"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.12.5 #ParlaMint-BA_2013-10-07-0.u17114.seg0.12.4"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.12.2 #ParlaMint-BA_2013-10-07-0.u17114.seg0.12.5"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.12 #ParlaMint-BA_2013-10-07-0.u17114.seg0.12.6"/>
+<link ana="ud-syn:expl_pv" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.12.6 #ParlaMint-BA_2013-10-07-0.u17114.seg0.12.7"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.12.6 #ParlaMint-BA_2013-10-07-0.u17114.seg0.12.8"/>
+<link ana="ud-syn:appos" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.12.8 #ParlaMint-BA_2013-10-07-0.u17114.seg0.12.9"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.12.9 #ParlaMint-BA_2013-10-07-0.u17114.seg0.12.10"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.12.6 #ParlaMint-BA_2013-10-07-0.u17114.seg0.12.11"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.13">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.13.1" msd="UPosTag=VERB|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin" ana="mte:Vmm2p" lemma="izvoljeti" join="right">Izvolite</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0.13.2" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.13 #ParlaMint-BA_2013-10-07-0.u17114.seg0.13.1"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17114.seg0.13.1 #ParlaMint-BA_2013-10-07-0.u17114.seg0.13.2"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-BA_2013-10-07-0.ana.note2">Belkić, Beriz</note>
+            <u who="#BelkićBeriz" ana="#regular" n="ParlaMint-BIH_ZD.T6.S54.u17115" xml:id="ParlaMint-BA_2013-10-07-0.u17115">
+               <seg xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0">
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.1" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="pa">Pa</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.2" msd="UPosTag=PART" ana="mte:Qo" lemma="evo" join="right">evo</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.3" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.4" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" ana="mte:Pp1-pn" lemma="mi" join="right">mi</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.5" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.6" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="dakle">dakle</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.7" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="poslanik">poslanik</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.8" msd="UPosTag=NOUN" ana="mte:Y" lemma="dr">dr</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.9" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Npfsn" lemma="Azra">Azra</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.10" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="Hadžiahmetović">Hadžiahmetović</w>
+                     </name>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.11" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.12" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" ana="mte:Pp1-sn" lemma="ja" join="right">ja</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.13" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.14" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1p" lemma="predlagati">predlažemo</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.15" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.16" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" ana="mte:Px--sa" lemma="sebe">se</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.17" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="na">na</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.18" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsay" lemma="današnji">današnju</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.19" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="sjednica">sjednicu</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.20" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmr3s" lemma="uvrstiti">uvrsti</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.21" msd="UPosTag=PART" ana="mte:Qo" lemma="i">i</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.22" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="tačka">tačka</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.23" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Agpmsgy" lemma="dnevni">dnevnog</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.24" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsg" lemma="red">reda</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.25" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel" ana="mte:Pi-fsn" lemma="koji">koja</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.26" msd="UPosTag=AUX|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" ana="mte:Vaa3s" lemma="biti">bi</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.27" msd="UPosTag=VERB|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-sf" lemma="glasiti">glasila</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.28" msd="UPosTag=PUNCT" ana="mte:Z">–</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.29" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="informacija">Informacija</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.30" msd="UPosTag=ADP|Case=Gen" ana="mte:Sg" lemma="sa">sa</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.31" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Agpnsgy" lemma="posljednji">posljednjeg</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.32" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" ana="mte:Ncnsg" lemma="zasijedanje">zasijedanja</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.33" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsgy" lemma="parlamentaran">Parlamentarne</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.34" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Ncfsg" lemma="skupština">skupštine</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.35" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" ana="mte:Ncnsg" lemma="vijeće">Vijeća</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.36" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Npfsg" lemma="Evropa">Evrope</w>
+                     </name>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.37" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="vezano">vezano</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.38" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="za">za</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.39" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" ana="mte:Ncmsan" lemma="izvještaj">Izvještaj</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.40" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="o">o</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.41" msd="UPosTag=NOUN|Case=Loc|Gender=Neut|Number=Sing" ana="mte:Ncnsl" lemma="funkcionisanje">funkcionisanju</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.42" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur" ana="mte:Agpfpgy" lemma="demokratski">demokratskih</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.43" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" ana="mte:Ncfpg" lemma="institucija">institucija</w>
+                     </name>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.44" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="u">u</w>
+                     <name type="LOC">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.45" msd="UPosTag=PROPN|Case=Loc|Gender=Fem|Number=Sing" ana="mte:Npfsl" lemma="Bosna">Bosni</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.46" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.47" msd="UPosTag=PROPN|Case=Loc|Gender=Fem|Number=Sing" ana="mte:Npfsl" lemma="Hercegovina" join="right">Hercegovini</w>
+                     </name>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.1.48" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.14 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.1"/>
+<link ana="ud-syn:discourse" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.14 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.2"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.2 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.3"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.14 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.4"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.7 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.5"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.7 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.6"/>
+<link ana="ud-syn:appos" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.4 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.7"/>
+<link ana="ud-syn:appos" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.7 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.8"/>
+<link ana="ud-syn:appos" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.7 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.9"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.9 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.10"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.12 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.11"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.9 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.12"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.7 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.13"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.14"/>
+<link ana="ud-syn:mark" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.20 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.15"/>
+<link ana="ud-syn:expl_pv" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.20 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.16"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.19 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.17"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.19 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.18"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.20 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.19"/>
+<link ana="ud-syn:ccomp" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.14 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.20"/>
+<link ana="ud-syn:discourse" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.22 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.21"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.20 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.22"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.24 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.23"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.22 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.24"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.27 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.25"/>
+<link ana="ud-syn:aux" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.27 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.26"/>
+<link ana="ud-syn:acl" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.22 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.27"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.29 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.28"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.27 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.29"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.32 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.30"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.32 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.31"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.29 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.32"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.34 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.33"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.32 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.34"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.34 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.35"/>
+<link ana="ud-syn:compound" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.35 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.36"/>
+<link ana="ud-syn:acl" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.29 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.37"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.39 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.38"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.37 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.39"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.41 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.40"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.39 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.41"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.43 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.42"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.41 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.43"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.45 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.44"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.41 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.45"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.45 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.46"/>
+<link ana="ud-syn:flat" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.45 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.47"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.1.14 #ParlaMint-BA_2013-10-07-0.u17115.seg0.1.48"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.1" msd="UPosTag=PRON|Case=Dat|Number=Plur|Person=1|PronType=Prs" ana="mte:Pp1-pd" lemma="mi">Nama</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.2" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.3" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Agpnsny" lemma="poznat" join="right">poznato</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.4" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.5" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="naravno" join="right">naravno</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.6" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.7" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.8" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.9" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Agpnsny" lemma="potreban">potrebno</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.10" msd="UPosTag=VERB|VerbForm=Inf" ana="mte:Vmn" lemma="obezbijediti">obezbijediti</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.11" msd="UPosTag=ADJ|Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Appmsayn" lemma="pisati">pisani</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.12" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" ana="mte:Ncmsan" lemma="materijal" join="right">materijal</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.13" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.14" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="međutim">međutim</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.15" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" ana="mte:Pp1-pn" lemma="mi">mi</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.16" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1p" lemma="misliti">mislimo</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.17" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.18" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.19" msd="UPosTag=DET|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem" ana="mte:Pd-msn" lemma="taj">taj</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.20" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="materijal">materijal</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.21" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="već">već</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.22" msd="UPosTag=ADV|Degree=Cmp" ana="mte:Rgc" lemma="rano">ranije</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.23" msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass" ana="mte:Appmsnn" lemma="dostaviti">dostavljen</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.24" msd="UPosTag=ADJ|Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" ana="mte:Agpmpdy" lemma="sav">svim</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.25" msd="UPosTag=NOUN|Case=Dat|Gender=Masc|Number=Plur" ana="mte:Ncmpd" lemma="poslanik">poslanicima</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.26" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.27" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmr3s" lemma="moći">može</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.28" msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs" ana="mte:Pp3msn" lemma="on">on</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.29" msd="UPosTag=AUX|VerbForm=Inf" ana="mte:Van" lemma="biti">biti</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.30" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="osnov">osnov</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.31" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="za">za</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.32" msd="UPosTag=DET|Case=Acc|Gender=Fem|Number=Sing|PronType=Dem" ana="mte:Pd-fsa" lemma="ovaj">ovu</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.33" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="informacija" join="right">informaciju</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.2.34" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.3 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.1"/>
+<link ana="ud-syn:cop" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.3 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.2"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.3"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.5 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.4"/>
+<link ana="ud-syn:discourse" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.3 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.5"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.5 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.6"/>
+<link ana="ud-syn:mark" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.9 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.7"/>
+<link ana="ud-syn:cop" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.9 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.8"/>
+<link ana="ud-syn:csubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.3 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.9"/>
+<link ana="ud-syn:xcomp" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.9 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.10"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.12 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.11"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.10 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.12"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.16 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.13"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.16 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.14"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.16 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.15"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.3 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.16"/>
+<link ana="ud-syn:mark" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.23 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.17"/>
+<link ana="ud-syn:cop" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.23 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.18"/>
+<link ana="ud-syn:det" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.20 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.19"/>
+<link ana="ud-syn:nsubj_pass" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.23 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.20"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.22 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.21"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.23 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.22"/>
+<link ana="ud-syn:ccomp" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.16 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.23"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.25 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.24"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.23 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.25"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.27 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.26"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.23 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.27"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.27 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.28"/>
+<link ana="ud-syn:xcomp" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.27 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.29"/>
+<link ana="ud-syn:xcomp" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.29 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.30"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.33 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.31"/>
+<link ana="ud-syn:det" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.33 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.32"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.30 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.33"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.2.3 #ParlaMint-BA_2013-10-07-0.u17115.seg0.2.34"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.3">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.3.1" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="dakle" join="right">Dakle</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.3.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.3.3" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmr3s" lemma="raditi">radi</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.3.4" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" ana="mte:Px--sa" lemma="sebe">se</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.3.5" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="o">o</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.3.6" msd="UPosTag=DET|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem" ana="mte:Pd-msl" lemma="onaj">onom</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.3.7" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" ana="mte:Ncmsl" lemma="materijal">materijalu</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.3.8" msd="UPosTag=DET|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel" ana="mte:Pi-msn" lemma="koji">koji</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.3.9" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmr3s" lemma="govoriti">govori</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.3.10" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="o">o</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.3.11" msd="UPosTag=NOUN|Case=Loc|Gender=Neut|Number=Sing" ana="mte:Ncnsl" lemma="funkcionisanje">funkcionisanju</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.3.12" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur" ana="mte:Agpfpgy" lemma="demokratski">demokratskih</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.3.13" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" ana="mte:Ncfpg" lemma="institucija">institucija</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.3.14" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.3.15" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" ana="mte:Ncmsl" lemma="prijedlog">Prijedlogu</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.3.16" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Ncfsg" lemma="rezolucija" join="right">rezolucije</w>
+                     </name>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.3.17" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.3.3 #ParlaMint-BA_2013-10-07-0.u17115.seg0.3.1"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.3.1 #ParlaMint-BA_2013-10-07-0.u17115.seg0.3.2"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.3 #ParlaMint-BA_2013-10-07-0.u17115.seg0.3.3"/>
+<link ana="ud-syn:expl_pv" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.3.3 #ParlaMint-BA_2013-10-07-0.u17115.seg0.3.4"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.3.7 #ParlaMint-BA_2013-10-07-0.u17115.seg0.3.5"/>
+<link ana="ud-syn:det" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.3.7 #ParlaMint-BA_2013-10-07-0.u17115.seg0.3.6"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.3.3 #ParlaMint-BA_2013-10-07-0.u17115.seg0.3.7"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.3.9 #ParlaMint-BA_2013-10-07-0.u17115.seg0.3.8"/>
+<link ana="ud-syn:acl" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.3.7 #ParlaMint-BA_2013-10-07-0.u17115.seg0.3.9"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.3.11 #ParlaMint-BA_2013-10-07-0.u17115.seg0.3.10"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.3.9 #ParlaMint-BA_2013-10-07-0.u17115.seg0.3.11"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.3.13 #ParlaMint-BA_2013-10-07-0.u17115.seg0.3.12"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.3.11 #ParlaMint-BA_2013-10-07-0.u17115.seg0.3.13"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.3.15 #ParlaMint-BA_2013-10-07-0.u17115.seg0.3.14"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.3.11 #ParlaMint-BA_2013-10-07-0.u17115.seg0.3.15"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.3.15 #ParlaMint-BA_2013-10-07-0.u17115.seg0.3.16"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.3.3 #ParlaMint-BA_2013-10-07-0.u17115.seg0.3.17"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.1" msd="UPosTag=NUM|NumType=Card" ana="mte:Mdc" lemma="2">2</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.2" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">Da</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.3" msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=2|PronType=Prs" ana="mte:Pp2-pa" lemma="vi">vas</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.4" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="podsjetiti">podsjetim</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.5" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" ana="mte:Pp1-pn" lemma="mi">mi</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.6" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Var1p" lemma="biti">smo</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.7" msd="UPosTag=ADP|Case=Gen" ana="mte:Sg" lemma="prije">prije</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.8" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" ana="mte:Ncnsg" lemma="zasijedanje">zasijedanja</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.9" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsgy" lemma="parlamentaran">Parlamentarne</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.10" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Ncfsg" lemma="skupština">skupštine</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.11" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" ana="mte:Ncnsg" lemma="vijeće">Vijeća</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.12" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Npfsg" lemma="Evropa">Evrope</w>
+                     </name>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.13" msd="UPosTag=VERB|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-pm" lemma="tražiti">tražili</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.14" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.15" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" ana="mte:Px--sa" lemma="sebe">se</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.16" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="hitno">hitno</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.17" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmr3s" lemma="sazvati">sazove</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.18" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="sjednica">sjednica</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.19" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsg" lemma="parlament">Parlamenta</w>
+                     </name>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.20" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="u">u</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.21" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" ana="mte:Ncfsl" lemma="funkcija">funkciji</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.22" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Ncfsg" lemma="priprema">pripreme</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.23" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Ncfsg" lemma="delegacija" join="right">delegacije</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.24" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.25" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Ncfsg" lemma="rasprava">rasprave</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.26" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="o">o</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.27" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" ana="mte:Ncmsl" lemma="izvještaj" join="right">Izvještaju</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.28" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.4.29" msd="UPosTag=ADV" ana="mte:Y" lemma="itd.">itd.</w>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.13 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.1"/>
+<link ana="ud-syn:mark" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.4 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.2"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.4 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.3"/>
+<link ana="ud-syn:advcl" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.13 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.4"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.13 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.5"/>
+<link ana="ud-syn:aux" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.13 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.6"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.8 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.7"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.13 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.8"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.10 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.9"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.8 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.10"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.10 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.11"/>
+<link ana="ud-syn:compound" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.11 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.12"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.13"/>
+<link ana="ud-syn:mark" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.17 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.14"/>
+<link ana="ud-syn:expl_pv" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.17 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.15"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.17 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.16"/>
+<link ana="ud-syn:ccomp" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.13 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.17"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.17 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.18"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.18 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.19"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.21 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.20"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.17 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.21"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.21 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.22"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.22 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.23"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.25 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.24"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.22 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.25"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.27 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.26"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.25 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.27"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.29 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.28"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.4.27 #ParlaMint-BA_2013-10-07-0.u17115.seg0.4.29"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.5">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.5.1" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="nažalost">Nažalost</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.5.2" msd="UPosTag=DET|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem" ana="mte:Pd-nsn" lemma="taj">to</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.5.3" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" ana="mte:Px--sa" lemma="sebe">se</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.5.4" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">nije</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.5.5" msd="UPosTag=VERB|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-sn" lemma="desiti" join="right">desilo</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.5.6" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:discourse" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.5.5 #ParlaMint-BA_2013-10-07-0.u17115.seg0.5.1"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.5.5 #ParlaMint-BA_2013-10-07-0.u17115.seg0.5.2"/>
+<link ana="ud-syn:expl_pv" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.5.5 #ParlaMint-BA_2013-10-07-0.u17115.seg0.5.3"/>
+<link ana="ud-syn:aux" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.5.5 #ParlaMint-BA_2013-10-07-0.u17115.seg0.5.4"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.5 #ParlaMint-BA_2013-10-07-0.u17115.seg0.5.5"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.5.5 #ParlaMint-BA_2013-10-07-0.u17115.seg0.5.6"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.1" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" ana="mte:Pp1-pn" lemma="mi">Mi</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.2" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1p" lemma="misliti">mislimo</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.3" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.4" msd="UPosTag=AUX|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" ana="mte:Vaa3s" lemma="biti">bi</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.5" msd="UPosTag=AUX|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vap-sn" lemma="biti">bilo</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.6" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Agpnsny" lemma="dobar">dobro</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.7" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="a">a</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.8" msd="UPosTag=PART|Polarity=Neg" ana="mte:Qz" lemma="ne">ne</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.9" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.10" msd="UPosTag=ADP|Case=Gen" ana="mte:Sg" lemma="iz">iz</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.11" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" ana="mte:Ncnpg" lemma="sredstvo">sredstava</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.12" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur" ana="mte:Agpnpgy" lemma="javan">javnih</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.13" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" ana="mte:Ncnpg" lemma="informisanje">informisanja</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.14" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1p" lemma="saznavati">saznajemo</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.15" msd="UPosTag=PRON|Case=Nom|Gender=Neut|PronType=Int,Rel" ana="mte:Pi3n-n" lemma="što">šta</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.16" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" ana="mte:Px--sa" lemma="sebe">se</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.17" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.18" msd="UPosTag=DET|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem" ana="mte:Pd-nsn" lemma="taj">to</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.19" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="gore">gore</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.20" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="praktično">praktično</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.21" msd="UPosTag=VERB|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-sn" lemma="desiti" join="right">desilo</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.6.22" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.2 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.1"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.2"/>
+<link ana="ud-syn:mark" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.6 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.3"/>
+<link ana="ud-syn:aux" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.6 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.4"/>
+<link ana="ud-syn:cop" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.6 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.5"/>
+<link ana="ud-syn:ccomp" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.2 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.6"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.14 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.7"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.2 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.8"/>
+<link ana="ud-syn:mark" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.14 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.9"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.11 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.10"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.14 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.11"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.13 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.12"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.11 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.13"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.6 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.14"/>
+<link ana="ud-syn:mark" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.21 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.15"/>
+<link ana="ud-syn:expl_pv" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.21 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.16"/>
+<link ana="ud-syn:aux" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.21 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.17"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.21 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.18"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.21 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.19"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.21 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.20"/>
+<link ana="ud-syn:ccomp" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.14 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.21"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.6.2 #ParlaMint-BA_2013-10-07-0.u17115.seg0.6.22"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.7">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.7.1" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="dakle" join="right">Dakle</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.7.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.7.3" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.7.4" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Agpmsny" lemma="predsjedavajući">predsjedavajući</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.7.5" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Ncfsg" lemma="delegacija">delegacije</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.7.6" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmr3s" lemma="podnijeti">podnese</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.7.7" msd="UPosTag=NUM|Case=Acc|Gender=Fem|Number=Sing|NumType=Card" ana="mte:Mlcfsa" lemma="jedan">jednu</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.7.8" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsay" lemma="kratak">kratku</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.7.9" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="informacija" join="right">informaciju</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.7.10" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.7.11" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.7.12" msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=1|PronType=Prs" ana="mte:Pp1-pa" lemma="mi">nas</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.7.13" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmr3s" lemma="informirati">informira</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.7.14" msd="UPosTag=PRON|Case=Nom|Gender=Neut|PronType=Int,Rel" ana="mte:Pi3n-n" lemma="što">šta</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.7.15" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" ana="mte:Px--sa" lemma="sebe">se</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.7.16" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="gore">gore</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.7.17" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="praktično">praktično</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.7.18" msd="UPosTag=VERB|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-sn" lemma="desiti" join="right">desilo</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.7.19" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.7.6 #ParlaMint-BA_2013-10-07-0.u17115.seg0.7.1"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.7.1 #ParlaMint-BA_2013-10-07-0.u17115.seg0.7.2"/>
+<link ana="ud-syn:mark" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.7.6 #ParlaMint-BA_2013-10-07-0.u17115.seg0.7.3"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.7.6 #ParlaMint-BA_2013-10-07-0.u17115.seg0.7.4"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.7.4 #ParlaMint-BA_2013-10-07-0.u17115.seg0.7.5"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.7 #ParlaMint-BA_2013-10-07-0.u17115.seg0.7.6"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.7.9 #ParlaMint-BA_2013-10-07-0.u17115.seg0.7.7"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.7.9 #ParlaMint-BA_2013-10-07-0.u17115.seg0.7.8"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.7.6 #ParlaMint-BA_2013-10-07-0.u17115.seg0.7.9"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.7.6 #ParlaMint-BA_2013-10-07-0.u17115.seg0.7.10"/>
+<link ana="ud-syn:mark" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.7.13 #ParlaMint-BA_2013-10-07-0.u17115.seg0.7.11"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.7.13 #ParlaMint-BA_2013-10-07-0.u17115.seg0.7.12"/>
+<link ana="ud-syn:advcl" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.7.6 #ParlaMint-BA_2013-10-07-0.u17115.seg0.7.13"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.7.18 #ParlaMint-BA_2013-10-07-0.u17115.seg0.7.14"/>
+<link ana="ud-syn:expl_pv" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.7.18 #ParlaMint-BA_2013-10-07-0.u17115.seg0.7.15"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.7.18 #ParlaMint-BA_2013-10-07-0.u17115.seg0.7.16"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.7.18 #ParlaMint-BA_2013-10-07-0.u17115.seg0.7.17"/>
+<link ana="ud-syn:ccomp" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.7.13 #ParlaMint-BA_2013-10-07-0.u17115.seg0.7.18"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.7.6 #ParlaMint-BA_2013-10-07-0.u17115.seg0.7.19"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.1" msd="UPosTag=PART" ana="mte:Qo" lemma="evo" join="right">Evo</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.3" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" ana="mte:Pp1-sn" lemma="ja">ja</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.4" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Var1s" lemma="htjeti">ću</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.5" msd="UPosTag=VERB|VerbForm=Inf" ana="mte:Vmn" lemma="dati">dati</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.6" msd="UPosTag=DET|Case=Acc|Gender=Fem|Number=Sing|PronType=Dem" ana="mte:Pd-fsa" lemma="ovaj">ovu</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.7" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="tačka">tačku</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.8" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Agpmsgy" lemma="dnevni">dnevnog</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.9" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsg" lemma="red">reda</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.10" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.11" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="još">još</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.12" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="uz">uz</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.13" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="napomena">napomenu</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.14" msd="UPosTag=PUNCT" ana="mte:Z">–</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.15" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" ana="mte:Agpmpny" lemma="sav">svi</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.16" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Var1p" lemma="biti">smo</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.17" msd="UPosTag=VERB|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-pm" lemma="dobiti">dobili</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.18" msd="UPosTag=ADP|Case=Gen" ana="mte:Sg" lemma="prije">prije</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.19" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="možda">možda</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.20" msd="UPosTag=NUM|NumType=Card" ana="mte:Mdc" lemma="15" join="right">15</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.21" msd="UPosTag=PUNCT" ana="mte:Z">-</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.22" msd="UPosTag=NUM|NumType=Card" ana="mte:Mdc" lemma="ak" join="right">ak</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.23" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.24" msd="UPosTag=NUM|NumType=Card" ana="mte:Mdc" lemma="20">20</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.25" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" ana="mte:Ncmpg" lemma="dan">dana</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.26" msd="UPosTag=DET|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem" ana="mte:Pd-msan" lemma="ovaj">ovaj</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.27" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" ana="mte:Ncmsan" lemma="izvještaj">Izvještaj</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.28" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.29" msd="UPosTag=VERB|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-pm" lemma="imati">imali</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.30" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="prilika">priliku</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.31" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.32" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1p" lemma="vidjeti">vidimo</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.33" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" ana="mte:Ncmsan" lemma="tekst">tekst</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.34" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Ncfsg" lemma="rezolucija" join="right">Rezolucije</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.35" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.36" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="ali">ali</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.37" msd="UPosTag=PART|Polarity=Neg" ana="mte:Qz" lemma="ne">ne</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.38" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1p" lemma="znati">znamo</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.39" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Agpnsay" lemma="praktičan">praktično</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.40" msd="UPosTag=PRON|Case=Acc|Gender=Neut|PronType=Int,Rel" ana="mte:Pi3n-n" lemma="što">šta</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.41" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" ana="mte:Px--sa" lemma="sebe">se</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.42" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.43" msd="UPosTag=DET|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem" ana="mte:Pd-nsn" lemma="taj">to</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.44" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="gore">gore</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.45" msd="UPosTag=VERB|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-sn" lemma="desiti" join="right">desilo</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.8.46" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:discourse" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.5 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.1"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.1 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.2"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.5 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.3"/>
+<link ana="ud-syn:aux" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.5 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.4"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.5"/>
+<link ana="ud-syn:det" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.7 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.6"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.5 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.7"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.9 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.8"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.7 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.9"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.17 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.10"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.13 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.11"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.13 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.12"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.17 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.13"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.13 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.14"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.17 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.15"/>
+<link ana="ud-syn:aux" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.17 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.16"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.5 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.17"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.25 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.18"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.20 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.19"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.25 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.20"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.22 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.21"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.20 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.22"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.24 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.23"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.25 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.24"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.17 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.25"/>
+<link ana="ud-syn:det" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.27 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.26"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.17 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.27"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.29 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.28"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.17 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.29"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.29 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.30"/>
+<link ana="ud-syn:mark" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.32 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.31"/>
+<link ana="ud-syn:acl" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.30 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.32"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.32 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.33"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.33 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.34"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.38 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.35"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.38 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.36"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.38 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.37"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.32 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.38"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.38 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.39"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.45 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.40"/>
+<link ana="ud-syn:expl_pv" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.45 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.41"/>
+<link ana="ud-syn:aux" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.45 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.42"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.45 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.43"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.45 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.44"/>
+<link ana="ud-syn:acl" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.39 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.45"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.8.5 #ParlaMint-BA_2013-10-07-0.u17115.seg0.8.46"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.9">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.9.1" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="obaveza">Obaveza</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.9.2" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.9.3" msd="UPosTag=DET|Case=Gen|Gender=Fem|Number=Sing|PronType=Dem" ana="mte:Pd-fsg" lemma="ovaj">ove</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.9.4" msd="UPosTag=DET|Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs" ana="mte:Ps1fsg" lemma="naš">naše</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.9.5" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" ana="mte:Ncfsg" lemma="delegacija">delegacije</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.9.6" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.9.7" msd="UPosTag=DET|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem" ana="mte:Pd-msn" lemma="ovaj">ovaj</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.9.8" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="parlament">Parlament</w>
+                     </name>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.9.9" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmr3s" lemma="izvještavati">izvještava</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.9.10" msd="UPosTag=ADV|Degree=Sup" ana="mte:Rgs" lemma="malo">najmanje</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.9.11" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="jednom">jednom</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.9.12" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="godišnje">godišnje</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.9.13" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="o">o</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.9.14" msd="UPosTag=NOUN|Case=Loc|Gender=Neut|Number=Plur" ana="mte:Ncnpl" lemma="zasijedanje" join="right">zasijedanjima</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.9.15" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.9.2 #ParlaMint-BA_2013-10-07-0.u17115.seg0.9.1"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.9 #ParlaMint-BA_2013-10-07-0.u17115.seg0.9.2"/>
+<link ana="ud-syn:det" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.9.5 #ParlaMint-BA_2013-10-07-0.u17115.seg0.9.3"/>
+<link ana="ud-syn:det" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.9.5 #ParlaMint-BA_2013-10-07-0.u17115.seg0.9.4"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.9.1 #ParlaMint-BA_2013-10-07-0.u17115.seg0.9.5"/>
+<link ana="ud-syn:mark" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.9.9 #ParlaMint-BA_2013-10-07-0.u17115.seg0.9.6"/>
+<link ana="ud-syn:det" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.9.8 #ParlaMint-BA_2013-10-07-0.u17115.seg0.9.7"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.9.9 #ParlaMint-BA_2013-10-07-0.u17115.seg0.9.8"/>
+<link ana="ud-syn:ccomp" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.9.2 #ParlaMint-BA_2013-10-07-0.u17115.seg0.9.9"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.9.11 #ParlaMint-BA_2013-10-07-0.u17115.seg0.9.10"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.9.9 #ParlaMint-BA_2013-10-07-0.u17115.seg0.9.11"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.9.9 #ParlaMint-BA_2013-10-07-0.u17115.seg0.9.12"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.9.14 #ParlaMint-BA_2013-10-07-0.u17115.seg0.9.13"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.9.9 #ParlaMint-BA_2013-10-07-0.u17115.seg0.9.14"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.9.2 #ParlaMint-BA_2013-10-07-0.u17115.seg0.9.15"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.10">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.10.1" msd="UPosTag=PART" ana="mte:Qo" lemma="evo" join="right">Evo</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.10.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.10.3" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" ana="mte:Pp1-sn" lemma="ja">ja</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.10.4" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="dostavljati">dostavljam</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.10.5" msd="UPosTag=DET|Case=Acc|Gender=Fem|Number=Sing|PronType=Dem" ana="mte:Pd-fsa" lemma="ovaj">ovu</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.10.6" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="tačka">tačku</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.10.7" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Agpmsgy" lemma="dnevni">dnevnog</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.10.8" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsg" lemma="red" join="right">reda</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0.10.9" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:discourse" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.10.4 #ParlaMint-BA_2013-10-07-0.u17115.seg0.10.1"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.10.1 #ParlaMint-BA_2013-10-07-0.u17115.seg0.10.2"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.10.4 #ParlaMint-BA_2013-10-07-0.u17115.seg0.10.3"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.10 #ParlaMint-BA_2013-10-07-0.u17115.seg0.10.4"/>
+<link ana="ud-syn:det" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.10.6 #ParlaMint-BA_2013-10-07-0.u17115.seg0.10.5"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.10.4 #ParlaMint-BA_2013-10-07-0.u17115.seg0.10.6"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.10.8 #ParlaMint-BA_2013-10-07-0.u17115.seg0.10.7"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.10.6 #ParlaMint-BA_2013-10-07-0.u17115.seg0.10.8"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17115.seg0.10.4 #ParlaMint-BA_2013-10-07-0.u17115.seg0.10.9"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#ProdanovićLazar" ana="#regular" n="ParlaMint-BIH_ZD.T6.S54.u17356" xml:id="ParlaMint-BA_2013-10-07-0.u17356">
+               <seg xml:id="ParlaMint-BA_2013-10-07-0.u17356.seg0">
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17356.seg0.1">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17356.seg0.1.1" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">nije</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17356.seg0.1.2" msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass" ana="mte:Appmsnn" lemma="uključiti">uključen</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17356.seg0.1.3" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="mikrofon">mikrofon</w>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:cop" target="#ParlaMint-BA_2013-10-07-0.u17356.seg0.1.2 #ParlaMint-BA_2013-10-07-0.u17356.seg0.1.1"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17356.seg0.1 #ParlaMint-BA_2013-10-07-0.u17356.seg0.1.2"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17356.seg0.1.2 #ParlaMint-BA_2013-10-07-0.u17356.seg0.1.3"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-BA_2013-10-07-0.ana.note215">Bećirović, Denis</note>
+            <u who="#BećirovićDenis" ana="#chair" n="ParlaMint-BIH_ZD.T6.S54.u17357" xml:id="ParlaMint-BA_2013-10-07-0.u17357">
+               <seg xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0">
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.1">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.1.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="moliti">Molim</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.1.2" msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=2|PronType=Prs" ana="mte:Pp2-pa" lemma="vi">vas</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.1.3" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.1.4" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" ana="mte:Px--sa" lemma="sebe">se</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.1.5" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin" ana="mte:Vmr2p" lemma="pripremiti">pripremite</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.1.6" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="za">za</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.1.7" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" ana="mte:Ncnsa" lemma="glasanje" join="right">glasanje</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.1.8" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.1.9" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.1.10" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1p" lemma="ponoviti">ponovimo</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.1.11" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="još">još</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.1.12" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="jednom" join="right">jednom</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.1.13" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.1 #ParlaMint-BA_2013-10-07-0.u17357.seg0.1.1"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.1.1 #ParlaMint-BA_2013-10-07-0.u17357.seg0.1.2"/>
+<link ana="ud-syn:mark" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.1.5 #ParlaMint-BA_2013-10-07-0.u17357.seg0.1.3"/>
+<link ana="ud-syn:expl_pv" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.1.5 #ParlaMint-BA_2013-10-07-0.u17357.seg0.1.4"/>
+<link ana="ud-syn:ccomp" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.1.1 #ParlaMint-BA_2013-10-07-0.u17357.seg0.1.5"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.1.7 #ParlaMint-BA_2013-10-07-0.u17357.seg0.1.6"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.1.5 #ParlaMint-BA_2013-10-07-0.u17357.seg0.1.7"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.1.10 #ParlaMint-BA_2013-10-07-0.u17357.seg0.1.8"/>
+<link ana="ud-syn:mark" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.1.10 #ParlaMint-BA_2013-10-07-0.u17357.seg0.1.9"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.1.5 #ParlaMint-BA_2013-10-07-0.u17357.seg0.1.10"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.1.12 #ParlaMint-BA_2013-10-07-0.u17357.seg0.1.11"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.1.10 #ParlaMint-BA_2013-10-07-0.u17357.seg0.1.12"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.1.1 #ParlaMint-BA_2013-10-07-0.u17357.seg0.1.13"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.2">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.2.1" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="iako">Iako</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.2.2" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Var1p" lemma="biti">smo</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.2.3" msd="UPosTag=VERB|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-pm" lemma="zaključiti" join="right">zaključili</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.2.4" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.2.5" msd="UPosTag=PART" ana="mte:Qo" lemma="evo">evo</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.2.6" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.2.7" msd="UPosTag=PART|Polarity=Neg" ana="mte:Qz" lemma="ne">ne</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.2.8" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">bude</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.2.9" msd="UPosTag=DET|Case=Gen|Gender=Fem|Number=Plur|PronType=Ind" ana="mte:Pi-fpg" lemma="nikakav">nikakvih</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.2.10" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" ana="mte:Ncfpg" lemma="dilema" join="right">dilema</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.2.11" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:mark" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.2.3 #ParlaMint-BA_2013-10-07-0.u17357.seg0.2.1"/>
+<link ana="ud-syn:aux" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.2.3 #ParlaMint-BA_2013-10-07-0.u17357.seg0.2.2"/>
+<link ana="ud-syn:advcl" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.2.5 #ParlaMint-BA_2013-10-07-0.u17357.seg0.2.3"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.2.3 #ParlaMint-BA_2013-10-07-0.u17357.seg0.2.4"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.2 #ParlaMint-BA_2013-10-07-0.u17357.seg0.2.5"/>
+<link ana="ud-syn:mark" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.2.8 #ParlaMint-BA_2013-10-07-0.u17357.seg0.2.6"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.2.8 #ParlaMint-BA_2013-10-07-0.u17357.seg0.2.7"/>
+<link ana="ud-syn:ccomp" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.2.5 #ParlaMint-BA_2013-10-07-0.u17357.seg0.2.8"/>
+<link ana="ud-syn:det" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.2.10 #ParlaMint-BA_2013-10-07-0.u17357.seg0.2.9"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.2.8 #ParlaMint-BA_2013-10-07-0.u17357.seg0.2.10"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.2.5 #ParlaMint-BA_2013-10-07-0.u17357.seg0.2.11"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.3">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.3.1" msd="UPosTag=VERB|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin" ana="mte:Vmm2p" lemma="glasati">Glasajte</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.3.2" msd="UPosTag=ADV|Degree=Pos|PronType=Dem" ana="mte:Rgp" lemma="sad">sad</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.3.3" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="ponovo" join="right">ponovo</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.3.4" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.3 #ParlaMint-BA_2013-10-07-0.u17357.seg0.3.1"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.3.1 #ParlaMint-BA_2013-10-07-0.u17357.seg0.3.2"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.3.1 #ParlaMint-BA_2013-10-07-0.u17357.seg0.3.3"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.3.1 #ParlaMint-BA_2013-10-07-0.u17357.seg0.3.4"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.4">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.4.1" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="suštinski">Suštinski</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.4.2" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" ana="mte:Px--sa" lemma="sebe">se</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.4.3" msd="UPosTag=PRON|Case=Nom|Gender=Neut|PronType=Neg" ana="mte:Pi3n-n" lemma="ništa">ništa</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.4.4" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">nije</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.4.5" msd="UPosTag=VERB|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-sn" lemma="promijeniti" join="right">promijenilo</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.4.6" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.4.7" msd="UPosTag=PART" ana="mte:Qo" lemma="evo">evo</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.4.8" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="jedino">jedino</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.4.9" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmr3s" lemma="imati">ima</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.4.10" msd="UPosTag=NUM|NumType=Card" ana="mte:Mdc" lemma="12">12</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.4.11" msd="UPosTag=ADP|Case=Gen" ana="mte:Sg" lemma="protiv">protiv</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.4.12" msd="UPosTag=ADP|Case=Gen" ana="mte:Sg" lemma="umjesto">umjesto</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.4.13" msd="UPosTag=ADJ|NumType=Ord" ana="mte:Mdo" lemma="11.">11.</w>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.4.5 #ParlaMint-BA_2013-10-07-0.u17357.seg0.4.1"/>
+<link ana="ud-syn:expl_pv" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.4.5 #ParlaMint-BA_2013-10-07-0.u17357.seg0.4.2"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.4.5 #ParlaMint-BA_2013-10-07-0.u17357.seg0.4.3"/>
+<link ana="ud-syn:aux" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.4.5 #ParlaMint-BA_2013-10-07-0.u17357.seg0.4.4"/>
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.4 #ParlaMint-BA_2013-10-07-0.u17357.seg0.4.5"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.4.9 #ParlaMint-BA_2013-10-07-0.u17357.seg0.4.6"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.4.9 #ParlaMint-BA_2013-10-07-0.u17357.seg0.4.7"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.4.9 #ParlaMint-BA_2013-10-07-0.u17357.seg0.4.8"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.4.5 #ParlaMint-BA_2013-10-07-0.u17357.seg0.4.9"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.4.9 #ParlaMint-BA_2013-10-07-0.u17357.seg0.4.10"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.4.13 #ParlaMint-BA_2013-10-07-0.u17357.seg0.4.11"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.4.13 #ParlaMint-BA_2013-10-07-0.u17357.seg0.4.12"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.4.9 #ParlaMint-BA_2013-10-07-0.u17357.seg0.4.13"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.5">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.5.1" msd="UPosTag=VERB|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin" ana="mte:Vmm2p" lemma="dozvoliti">Dozvolite</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.5.2" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.5.3" msd="UPosTag=ADJ|Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" ana="mte:Agpmpdy" lemma="sav">svim</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.5.4" msd="UPosTag=PROPN|Case=Dat|Gender=Masc|Number=Plur" ana="mte:Npmpd" lemma="Bošnjak">Bošnjacima</w>
+                     </name>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.5.5" msd="UPosTag=NOUN|Case=Dat|Gender=Masc|Number=Plur" ana="mte:Ncmpd" lemma="musliman">muslimanima</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.5.6" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="čestitati">čestitam</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.5.7" msd="UPosTag=ADJ|Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Agpmsayn" lemma="predstojeći">predstojeći</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.5.8" msd="UPosTag=PROPN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" ana="mte:Npmsan" lemma="Kurban">Kurban</w>
+                     </name>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.5.9" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" ana="mte:Ncmsan" lemma="bajram" join="right">bajram</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.5.10" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.5.11" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.5.12" msd="UPosTag=PRON|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs" ana="mte:Pp3msa" lemma="on">ga</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.5.13" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmr3p" lemma="provesti">provedu</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.5.14" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="u">u</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.5.15" msd="UPosTag=NOUN|Case=Loc|Gender=Neut|Number=Sing" ana="mte:Ncnsl" lemma="zdravlje">zdravlju</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.5.16" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.5.17" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" ana="mte:Ncmsl" lemma="rahatluk" join="right">rahatluku</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.5.18" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.5 #ParlaMint-BA_2013-10-07-0.u17357.seg0.5.1"/>
+<link ana="ud-syn:mark" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.5.6 #ParlaMint-BA_2013-10-07-0.u17357.seg0.5.2"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.5.4 #ParlaMint-BA_2013-10-07-0.u17357.seg0.5.3"/>
+<link ana="ud-syn:iobj" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.5.6 #ParlaMint-BA_2013-10-07-0.u17357.seg0.5.4"/>
+<link ana="ud-syn:iobj" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.5.6 #ParlaMint-BA_2013-10-07-0.u17357.seg0.5.5"/>
+<link ana="ud-syn:ccomp" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.5.1 #ParlaMint-BA_2013-10-07-0.u17357.seg0.5.6"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.5.8 #ParlaMint-BA_2013-10-07-0.u17357.seg0.5.7"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.5.6 #ParlaMint-BA_2013-10-07-0.u17357.seg0.5.8"/>
+<link ana="ud-syn:appos" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.5.8 #ParlaMint-BA_2013-10-07-0.u17357.seg0.5.9"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.5.13 #ParlaMint-BA_2013-10-07-0.u17357.seg0.5.10"/>
+<link ana="ud-syn:mark" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.5.13 #ParlaMint-BA_2013-10-07-0.u17357.seg0.5.11"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.5.13 #ParlaMint-BA_2013-10-07-0.u17357.seg0.5.12"/>
+<link ana="ud-syn:advcl" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.5.6 #ParlaMint-BA_2013-10-07-0.u17357.seg0.5.13"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.5.15 #ParlaMint-BA_2013-10-07-0.u17357.seg0.5.14"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.5.13 #ParlaMint-BA_2013-10-07-0.u17357.seg0.5.15"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.5.17 #ParlaMint-BA_2013-10-07-0.u17357.seg0.5.16"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.5.15 #ParlaMint-BA_2013-10-07-0.u17357.seg0.5.17"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.5.1 #ParlaMint-BA_2013-10-07-0.u17357.seg0.5.18"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.6">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.6.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="napominjati">Napominjem</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.6.2" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.6.3" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.6.4" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsny" lemma="naredan">naredna</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.6.5" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="sjednica">sjednica</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.6.6" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Agpmsgy" lemma="predstavnički">Predstavničkog</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.6.7" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsg" lemma="dom">doma</w>
+                     </name>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.6.8" msd="UPosTag=ADJ|NumType=Ord" ana="mte:Mdo" lemma="24.">24.</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.6.9" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsg" lemma="oktobar" join="right">oktobra</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.6.10" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.6.11" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="a">a</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.6.12" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Dem" ana="mte:Pd-fsn" lemma="ovaj">ova</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.6.13" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsny" lemma="zajednički">zajednička</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.6.14" msd="UPosTag=ADJ|NumType=Ord" ana="mte:Mdo" lemma="23.">23.</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.6.15" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsg" lemma="oktobar" join="right">oktobra</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.6.16" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.6 #ParlaMint-BA_2013-10-07-0.u17357.seg0.6.1"/>
+<link ana="ud-syn:mark" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.6.3 #ParlaMint-BA_2013-10-07-0.u17357.seg0.6.2"/>
+<link ana="ud-syn:ccomp" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.6.1 #ParlaMint-BA_2013-10-07-0.u17357.seg0.6.3"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.6.5 #ParlaMint-BA_2013-10-07-0.u17357.seg0.6.4"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.6.3 #ParlaMint-BA_2013-10-07-0.u17357.seg0.6.5"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.6.7 #ParlaMint-BA_2013-10-07-0.u17357.seg0.6.6"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.6.5 #ParlaMint-BA_2013-10-07-0.u17357.seg0.6.7"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.6.9 #ParlaMint-BA_2013-10-07-0.u17357.seg0.6.8"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.6.3 #ParlaMint-BA_2013-10-07-0.u17357.seg0.6.9"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.6.15 #ParlaMint-BA_2013-10-07-0.u17357.seg0.6.10"/>
+<link ana="ud-syn:cc" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.6.15 #ParlaMint-BA_2013-10-07-0.u17357.seg0.6.11"/>
+<link ana="ud-syn:det" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.6.15 #ParlaMint-BA_2013-10-07-0.u17357.seg0.6.12"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.6.15 #ParlaMint-BA_2013-10-07-0.u17357.seg0.6.13"/>
+<link ana="ud-syn:amod" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.6.15 #ParlaMint-BA_2013-10-07-0.u17357.seg0.6.14"/>
+<link ana="ud-syn:conj" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.6.9 #ParlaMint-BA_2013-10-07-0.u17357.seg0.6.15"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.6.1 #ParlaMint-BA_2013-10-07-0.u17357.seg0.6.16"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.7">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.7.1" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="hvala">Hvala</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.7.2" msd="UPosTag=PRON|Case=Dat|Number=Plur|Person=2|PronType=Prs" ana="mte:Pp2-pd" lemma="vi">vam</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.7.3" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="na">na</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.7.4" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" ana="mte:Ncfsl" lemma="saradnja" join="right">saradnji</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.7.5" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.7 #ParlaMint-BA_2013-10-07-0.u17357.seg0.7.1"/>
+<link ana="ud-syn:obj" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.7.1 #ParlaMint-BA_2013-10-07-0.u17357.seg0.7.2"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.7.4 #ParlaMint-BA_2013-10-07-0.u17357.seg0.7.3"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.7.1 #ParlaMint-BA_2013-10-07-0.u17357.seg0.7.4"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.7.1 #ParlaMint-BA_2013-10-07-0.u17357.seg0.7.5"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.8">
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.8.1" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="sjednica">Sjednica</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.8.2" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass" ana="mte:Appfsny" lemma="završiti">završena</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.8.3" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="u">u</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.8.4" msd="UPosTag=NUM|NumType=Mult" ana="mte:Mds" lemma="17:10">17:10</w>
+<w xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.8.5" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" ana="mte:Ncmpg" lemma="sat" join="right">sati</w>
+<pc xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0.8.6" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.8 #ParlaMint-BA_2013-10-07-0.u17357.seg0.8.1"/>
+<link ana="ud-syn:acl" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.8.1 #ParlaMint-BA_2013-10-07-0.u17357.seg0.8.2"/>
+<link ana="ud-syn:case" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.8.5 #ParlaMint-BA_2013-10-07-0.u17357.seg0.8.3"/>
+<link ana="ud-syn:nummod" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.8.5 #ParlaMint-BA_2013-10-07-0.u17357.seg0.8.4"/>
+<link ana="ud-syn:obl" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.8.2 #ParlaMint-BA_2013-10-07-0.u17357.seg0.8.5"/>
+<link ana="ud-syn:punct" target="#ParlaMint-BA_2013-10-07-0.u17357.seg0.8.2 #ParlaMint-BA_2013-10-07-0.u17357.seg0.8.6"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

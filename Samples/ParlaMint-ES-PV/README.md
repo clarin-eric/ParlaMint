@@ -33,7 +33,3 @@ Minutes of the Basque Parliament, Term X, XI and XII (2015 - 2022).
 PoS analysis was done using udpipe2.pl from service: http://lindat.mff.cuni.cz/services/udpipe.
 
 For NER a multilingual xlmroberta was fine-tuned for Basque and Spanish using these tags: PER, LOC, ORG and MISC.
-
-### Disclaimer to the English translation
-
-Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

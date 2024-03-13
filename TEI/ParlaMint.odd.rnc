@@ -11,7 +11,7 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2023-11-07T06:43:14Z. 2023-11-06.
+# Schema generated from ODD source 2024-03-04T10:46:02Z. 2024-03-03.
 # TEI Edition: Version 4.6.0a. Last updated on
 #         5th January 2023, revision 9074b9038
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0a./
@@ -793,7 +793,19 @@ tei_name =
   
   ## (name, proper noun) contains a proper noun or noun phrase. [3.6.1. Referring Strings]
   element name {
-    (tei_w | tei_pc | tei_name | tei_date | tei_num | tei_pb | text)+,
+    (tei_w
+     | tei_pc
+     | tei_name
+     | tei_date
+     | tei_num
+     | tei_time
+     | tei_note
+     | tei_vocal
+     | tei_kinesic
+     | tei_incident
+     | tei_gap
+     | tei_pb
+     | text)+,
     tei_att.global.attribute.xmlid,
     tei_att.global.attribute.xmllang,
     tei_att.global.analytic.attribute.ana,
@@ -2115,40 +2127,40 @@ tei_persName =
 tei_surname =
   
   ## (surname) contains a family (inherited) name, as opposed to a given, baptismal, or nick name. [13.2.1. Personal Names]
-  element surname { text }
-tei_forename =
-  
-  ## (forename) contains a forename, given or baptismal name. [13.2.1. Personal Names]
-  element forename {
+  element surname {
     text,
-    tei_att.global.attributes,
-    tei_att.personal.attributes,
-    tei_att.typed.attributes,
-    empty
-  }
-tei_nameLink =
-  
-  ## (name link) contains a connecting phrase or link used within a name but not regarded as part of it, such as van der or of. [13.2.1. Personal Names]
-  element nameLink { text }
-tei_addName =
-  
-  ## (additional name) contains an additional name component, such as a nickname, epithet, or alias, or any other descriptive phrase used within a personal name. [13.2.1. Personal Names]
-  element addName { text }
-tei_roleName =
-  
-  ## (role name) contains a name component which indicates that the referent has a particular role or position in society, such as an official title or rank. [13.2.1. Personal Names]
-  element roleName {
-    text,
+    tei_att.global.attribute.xmllang,
     
     ##
-    attribute xml:lang {
-      xsd:language
-      | (
-         ##
-         "")
+    attribute type {
+      
+      ##
+      "birth"
+      | 
+        ##
+        "patronym"
+      | 
+        ##
+        "married"
     }?,
     empty
   }
+tei_forename =
+  
+  ## (forename) contains a forename, given or baptismal name. [13.2.1. Personal Names]
+  element forename { text, tei_att.global.attribute.xmllang, empty }
+tei_nameLink =
+  
+  ## (name link) contains a connecting phrase or link used within a name but not regarded as part of it, such as van der or of. [13.2.1. Personal Names]
+  element nameLink { text, tei_att.global.attribute.xmllang, empty }
+tei_addName =
+  
+  ## (additional name) contains an additional name component, such as a nickname, epithet, or alias, or any other descriptive phrase used within a personal name. [13.2.1. Personal Names]
+  element addName { text, tei_att.global.attribute.xmllang, empty }
+tei_roleName =
+  
+  ## (role name) contains a name component which indicates that the referent has a particular role or position in society, such as an official title or rank. [13.2.1. Personal Names]
+  element roleName { text, tei_att.global.attribute.xmllang, empty }
 tei_placeName =
   
   ## (place name) contains a place name. [13.2.3. Place Names]
@@ -2160,11 +2172,13 @@ tei_placeName =
   }
 tei_affiliation =
   
-  ## (affiliation) contains an informal description of a person's present or past affiliation with some organisation, for example a political party or ministry. [15.2.2. The Participant Description]
+  ## (affiliation) optionally contains the role name corresponding to the affiliation, the name of the organisation that the person is affiliated with, and notes giving further informal information about the affiliation. [15.2.2. The Participant Description]
   element affiliation {
     tei_roleName*,
     tei_orgName*,
+    tei_note*,
     tei_att.global.analytic.attribute.ana,
+    tei_att.global.source.attribute.source,
     tei_att.datable.w3c.attribute.when,
     tei_att.datable.w3c.attribute.from,
     tei_att.datable.w3c.attribute.to,
@@ -2174,7 +2188,16 @@ tei_affiliation =
     attribute role {
       
       ##
-      "academician"
+      "head"
+      | 
+        ##
+        "minister"
+      | 
+        ##
+        "member"
+      | 
+        ##
+        "academician"
       | 
         ##
         "alternateOfDelegation"
@@ -2193,15 +2216,6 @@ tei_affiliation =
       | 
         ##
         "deputyMinister"
-      | 
-        ##
-        "head"
-      | 
-        ##
-        "member"
-      | 
-        ##
-        "minister"
       | 
         ##
         "ministerDelegate"
@@ -2248,7 +2262,7 @@ tei_birth =
   
   ## (birth) contains information about a person's birth, obligatorily its date and optionaly the place. Note that there can be several placeNames, all referring to the same place, but written in different languages or scripts. [15.2.2. The Participant Description]
   element birth {
-    (tei_placeName?),
+    (tei_placeName*),
     
     ## supplies the value of the date or time in a standard form, e.g. yyyy-mm-dd.
     attribute when {
@@ -2267,7 +2281,7 @@ tei_death =
   
   ## (death) contains information about a person's death, obligatorily its date and optionaly the place. Note that there can be several placeNames, all referring to the same place, but written in different languages or scripts. [15.2.2. The Participant Description]
   element death {
-    (tei_placeName?),
+    (tei_placeName*),
     
     ## supplies the value of the date or time in a standard form, e.g. yyyy-mm-dd.
     attribute when {
@@ -2602,13 +2616,14 @@ tei_sex =
   }
 tei_state =
   
-  ## (state) defines additional metadata on the political orientation of a political party or parliamentary group, e.g. its political orientation. [13.3.1. Basic Principles 13.3.2.1. Personal Characteristics]
+  ## (state) defines additional metadata on a political party or parliamentary group, e.g. its political orientation. [13.3.1. Basic Principles 13.3.2.1. Personal Characteristics]
   element state {
-    (tei_label | tei_note*),
+    (tei_note*, tei_state*),
     tei_att.global.attribute.n,
     tei_att.global.source.attribute.source,
     tei_att.datable.w3c.attribute.from,
     tei_att.datable.w3c.attribute.to,
+    tei_att.canonical.attribute.key,
     [
       a:documentation [
         "(analysis) indicates one or more elements containing interpretations of the element on which the "
@@ -2640,7 +2655,7 @@ tei_state =
       | 
         ##
         "value"
-    }?,
+    },
     empty
   }
 tei_link =
@@ -2831,17 +2846,6 @@ tei_pc =
     attribute msd { xsd:string },
     empty
   }
-tei_att.global.attributes =
-  tei_att.global.rendition.attributes,
-  tei_att.global.linking.attributes,
-  tei_att.global.analytic.attributes,
-  tei_att.global.responsibility.attributes,
-  tei_att.global.source.attributes,
-  tei_att.global.attribute.xmlid,
-  tei_att.global.attribute.n,
-  tei_att.global.attribute.xmllang,
-  tei_att.global.attribute.xmlbase,
-  tei_att.global.attribute.xmlspace
 tei_att.global.attribute.xmlid =
   
   ## (identifier) provides a unique identifier for the element bearing the attribute.
@@ -3072,8 +3076,6 @@ sch:pattern [
   "\x{a}" ~
   "   "
 ]
-tei_att.naming.attributes =
-  tei_att.canonical.attributes, tei_att.naming.attribute.role
 tei_att.naming.attribute.role =
   
   ## may be used to specify further information about the entity referenced by this name in the form of a set of whitespace-separated values, for example the occupation of a person, or the status of a place.
@@ -3082,8 +3084,6 @@ tei_att.naming.attribute.role =
       xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
     }
   }?
-tei_att.personal.attributes =
-  tei_att.naming.attributes, tei_att.personal.attribute.full
 tei_att.personal.attribute.full =
   
   ## indicates whether the name component is given in full, as an abbreviation or simply as an initial.

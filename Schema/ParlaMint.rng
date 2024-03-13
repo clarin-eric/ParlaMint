@@ -164,13 +164,20 @@
   <define name="state">
     <a:documentation>Element defining political metadata of a politicalParty or parliamentaryGroup.</a:documentation>
     <element name="state">
-      <a:documentation>The type (source) of state.</a:documentation>
+      <a:documentation>The type (indication of what kind) of contained information.</a:documentation>
       <optional>
 	<attribute name="type">
           <ref name="stateType.val"/>
 	</attribute>
       </optional>
+      <a:documentation>URI of the source of the given data.</a:documentation>
       <ref name="source.att"/>
+      <a:documentation>Optional key containing e.g. the name of the organisation in the source data.</a:documentation>
+      <optional>
+	<attribute name="key">
+          <data type="string"/>
+	</attribute>
+      </optional>
       <optional>
         <a:documentation>The value of a some metadatum.</a:documentation>
         <attribute name="n">
@@ -183,27 +190,17 @@
           <data type="anyURI"/>
 	</attribute>
       </optional>
-      <a:documentation>From - to when this information holds.</a:documentation>
+      <a:documentation>From and to when this information holds.</a:documentation>
       <optional>
 	<ref name="temporal.atts"/>
       </optional>
-      <a:documentation>Abbreviation(s) of the political party in the source.</a:documentation>
-      <optional>
-        <choice>
-          <element name="label">
-	    <oneOrMore>
-	      <ref name="orgName"/>
-	    </oneOrMore>
-          </element>
-          <a:documentation>Optional note(s).</a:documentation>
-          <oneOrMore>
-            <element name="note">
-              <ref name="lang.att"/>
-              <ref name="normalized-space.string"/>
-            </element>
-          </oneOrMore>
-        </choice>
-      </optional>
+      <a:documentation>Optional note(s).</a:documentation>
+      <zeroOrMore>
+        <element name="note">
+          <ref name="lang.att"/>
+          <ref name="normalized-space.string"/>
+        </element>
+      </zeroOrMore>
       <a:documentation>Subsidiary states giving more detailed information, e.g. by type of metadatum or by year.</a:documentation>
       <zeroOrMore>
         <ref name="state"/>
@@ -570,15 +567,13 @@
   </define>
 
   <define name="idno">
-    <a:documentation>The identification number element identifies a corpus element with an URI,
-    and specifies its type and subtype.</a:documentation>
+    <a:documentation>The identification element identifies a corpus element with an URI, and specifies its type and subtype.</a:documentation>
     <element name="idno">
       <ref name="lang.att"/>
       <attribute name="type">
         <choice>
           <value>URI</value>
           <value>VIAF</value>
-          <data type="Name"/>
         </choice>
       </attribute>
       <optional>

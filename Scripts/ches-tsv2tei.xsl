@@ -26,10 +26,7 @@
       <orgName full="yes" xml:lang="en">parliamentary group Alliance for the Future of Austria</orgName>
       <orgName full="abb">BZÖ</orgName>
       ...
-      <state type="CHES" source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv">
-         <label>
-            <orgName full="abb" from="2006" to="2018" xml:lang="en">BZO</orgName>
-         </label>
+      <state type="CHES" key="BZO" from="2006" to="2018" source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv">
          <state type="variable" ana="#ches.lrgen">
             <state type="value" from="2006" to="2009" n="8.83"/>
             <state type="value" from="2010" to="2013" n="8.29"/>
@@ -100,19 +97,26 @@
 	  <xsl:if test="$rows[1]/tei:cell[@type='ches_id'] != '-'">
 	    <state type="CHES">
 	      <xsl:attribute name="source">
-		<xsl:for-each select="$ches-source//tei:label">
-		  <xsl:if test="matches($country, .)">
-                    <xsl:value-of select="following-sibling::tei:item[1]"/>
-		  </xsl:if>
-		</xsl:for-each>
+                <xsl:variable name="source">
+		  <xsl:for-each select="$ches-source//tei:label">
+		    <xsl:if test="matches($country, .)">
+                      <xsl:value-of select="following-sibling::tei:item[1]"/>
+                      <xsl:text>&#32;</xsl:text>
+		    </xsl:if>
+		  </xsl:for-each>
+                </xsl:variable>
+                <xsl:value-of select="normalize-space($source)"/>
               </xsl:attribute>
-	      <!-- CHES time-qualified names of the party -->
-	      <label>
+              <!-- CHES time-qualified name of the party -->
+	      <xsl:variable name="ches_name">
 		<xsl:call-template name="ches-name">
 		  <xsl:with-param name="rows" select="$rows"/>
 		</xsl:call-template>
-              </label>
-	      <xsl:for-each select="$rows/tei:cell">
+              </xsl:variable>
+              <xsl:attribute name="key" select="$ches_name/tei:orgName"/>
+              <xsl:attribute name="from" select="$ches_name/tei:orgName/@from"/>
+              <xsl:attribute name="to" select="$ches_name/tei:orgName/@to"/>
+	      <xsl:for-each select="$rows[1]/tei:cell">
 		<!-- Columns we don't want in <state> -->
 		<xsl:if test="@type != 'country' and @type != 'pm_id' and @type != 'ches_id' and @type != 'year'">
 		  <xsl:call-template name="ches-variables">
@@ -130,6 +134,8 @@
   
   <xsl:template match="/">
     <xsl:text>&#10;</xsl:text>
+    <!-- For debugging:
+    <xsl:copy-of select="$data"/-->
     <xsl:apply-templates/>
   </xsl:template>
   
@@ -196,27 +202,35 @@
 
   <!-- Named templates -->
   
-  <!-- Return year-qualified CHES names of party -->
+  <!-- Return year-qualified CHES name(s) of party -->
   <xsl:template name="ches-name">
     <xsl:param name="rows"/>
     <xsl:variable name="names">
-      <xsl:for-each select="$rows/self::tei:row">
-	<xsl:sort select="tei:cell[@type = 'year']"/>
-	<xsl:variable name="from" select="tei:cell[@type = 'year']"/>
-        <xsl:variable name="to" select="$ches-interval/tei:date[@from = $from]/@to"/>
-	<orgName full="abb" from="{$from}" to="{$to}">
-	  <xsl:value-of select="tei:cell[@type = 'ches_id']"/>
-	</orgName>
+      <xsl:for-each select="distinct-values($rows/self::tei:row/tei:cell[@type = 'ches_id'])">
+	<xsl:value-of select="."/>
+        <xsl:text>&#32;</xsl:text>
       </xsl:for-each>
     </xsl:variable>
-    <!-- Collapse -->
-    <xsl:for-each-group select="$names/tei:orgName" group-by=".">
-      <xsl:variable name="from" select="current-group()[1]/self::tei:orgName/@from"/>
-      <xsl:variable name="to" select="current-group()[last()]/self::tei:orgName/@to"/>
-      <orgName full="abb" xml:lang="en" from="{$from}" to="{$to}">
-	<xsl:value-of select="current-grouping-key()"/>
-      </orgName>
-    </xsl:for-each-group>
+    <xsl:variable name="froms">
+      <xsl:for-each select="$rows/self::tei:row">
+	<xsl:sort select="tei:cell[@type = 'year']"/>
+	<xsl:value-of select="tei:cell[@type = 'year']"/>
+        <xsl:text>&#32;</xsl:text>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:variable name="tos">
+      <xsl:for-each select="$rows/self::tei:row">
+	<xsl:sort select="tei:cell[@type = 'year']"/>
+        <xsl:variable name="from" select="tei:cell[@type = 'year']"/>
+        <xsl:value-of select="$ches-interval/tei:date[@from = $from]/@to"/>
+        <xsl:text>&#32;</xsl:text>
+      </xsl:for-each>
+    </xsl:variable>
+    <orgName full="abb" xml:lang="en">
+      <xsl:attribute name="from" select="normalize-space(replace($froms, '^(\d+)&#32;.+$', '$1'))"/>
+      <xsl:attribute name="to" select="normalize-space(replace($tos, '^.+&#32;(\d+)&#32;$', '$1'))"/>
+      <xsl:value-of select="normalize-space($names)"/>
+    </orgName>
   </xsl:template>
 
   <!-- Return state for CHES variable of type $type, values per year are in in state/state/@n @from, @to -->

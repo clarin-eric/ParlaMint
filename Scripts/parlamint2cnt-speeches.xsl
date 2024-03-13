@@ -41,8 +41,13 @@
   </xsl:variable>
   
   <!-- If LaTeX -->
-  <xsl:variable name="preamble">\begin{tabular}{l|rrrrrrr}&#10;</xsl:variable>
+  <xsl:variable name="preamble">\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lrrrrrrr@{}}&#10;</xsl:variable>
+  <!-- Either format -->
   <xsl:variable name="header-row">
+    <xsl:if test="matches($mode, 'tex', 'i')">
+      <xsl:text>\toprule&amp;\multicolumn{3}{@{}c@{}}{Speeches}&amp;</xsl:text>
+      <xsl:text>\multicolumn{4}{@{}c@{}}{Other mark-up}\\\cmidrule{2-4}\cmidrule{5-8}%&#10;</xsl:text>
+      </xsl:if>
     <xsl:text>ID</xsl:text> <!-- ISO country code -->
     <xsl:value-of select="$col-sep"/>
     <xsl:text>Speeches</xsl:text> <!-- Number of speeches -->
@@ -65,7 +70,7 @@
     <!--xsl:value-of select="$col-sep"/>
     <xsl:text>Paragraphs</xsl:text-->  <!-- Number of paragraphs -->
     <xsl:value-of select="$line-sep"/>
-    <xsl:if test="matches($mode, 'tex', 'i')">\hline&#10;</xsl:if>
+    <xsl:if test="matches($mode, 'tex', 'i')">\midrule&#10;</xsl:if>
   </xsl:variable>
 
   <xsl:key name="ref" match="tei:org|tei:person" use="concat('#', @xml:id)"/>
@@ -87,14 +92,13 @@
       <xsl:apply-templates select="document(@href)/tei:teiCorpus/tei:teiHeader"/>
     </xsl:for-each>
     <xsl:if test="matches($mode, 'tex', 'i')">
-      <xsl:text>\end{tabular}&#10;</xsl:text>
+      <xsl:text>\botrule&#10;\end{tabular*}&#10;</xsl:text>
     </xsl:if>
   </xsl:template>
   
   <xsl:template match="tei:teiHeader">
     <xsl:variable name="head" select="."/>
-    <xsl:value-of select="ancestor::tei:teiCorpus/replace(@xml:id, '.+-', '')"/>
-    
+    <xsl:value-of select="ancestor::tei:teiCorpus/replace(@xml:id, '^[^-]+-', '')"/>
     <xsl:value-of select="$col-sep"/>
     <xsl:variable name="utterances">
       <xsl:for-each select="document(../xi:include/@href)">
@@ -124,7 +128,6 @@
       </xsl:for-each>
     </xsl:variable>
     <xsl:value-of select="et:sum($nonchairs/tei:item)"/>
-
     
     <!-- The following two are wrong, as it also depends on date! -->
     <!-- This info would be easier to take from metadata TSVs... -->
@@ -150,7 +153,7 @@
     </xsl:variable>
     <xsl:value-of select="et:sum($mps/tei:item)"/>
     -->
-    
+
     <xsl:value-of select="$col-sep"/>
     <xsl:variable name="heads">
       <xsl:for-each select="document(../xi:include/@href)">

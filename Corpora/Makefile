@@ -1,65 +1,75 @@
-tables:
+check:
+	-${pm}   ParlaMint-BG.test.xml
+	-${vrt}  ParlaMint-BG.test.xml
+
+############### Makefile for making a distributable version of the ParlaMint TEI, TEI.ana, -en.TEI.ana corpora
+#### Makefile for making a distribution of the ParlaMint corpora
+#### Variables give the corpora, version, handle, paths and scripts to use
+#### make nohup starts make all and saves the log in Logs/
+
+#### For LREV paper:
+#Make TSV and LaTeX tables
+stats:
+	$s mode=tsv -xsl:../Scripts/parlamint2cnt-overview.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-overview-stats.tsv
+	$s mode=tex -xsl:../Scripts/parlamint2cnt-overview.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-overview-stats.tex
+	$s mode=tsv -xsl:../Scripts/parlamint2cnt-particDesc.xsl Master/ParlaMint.xml > Metadata/ParlaMint-participDesc-stats.tsv
+	$s mode=tex -xsl:../Scripts/parlamint2cnt-particDesc.xsl Master/ParlaMint.xml > Metadata/ParlaMint-participDesc-stats.tex
+	$s mode=tsv -xsl:../Scripts/parlamint2cnt-speeches.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-speeches-stats.tsv
+	$s mode=tex -xsl:../Scripts/parlamint2cnt-speeches.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-speeches-stats.tex
+
+#Extract the parties and persons into TSV files 
+#Not tested yet for 4.1!
+extract2tsv:
 	$s path=../Corpora/Master outDir=../Corpora/Metadata -xsl:../Scripts/parlamint2tbl-parties.xsl Master/ParlaMint.xml
 	for CORPUS in ${CORPORA}; do \
 	$s -xsl:../Scripts/parlamint2tbl-persons.xsl Master/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}.xml \
 	> Metadata/ParlaMint-speakers-$${CORPUS}.tsv ; \
 	done;
-stats:
-	$s mode=tsv -xsl:../Scripts/parlamint2cnt-particDesc.xsl Master/ParlaMint.xml > Metadata/ParlaMint-participDesc-stats.tsv
-	$s mode=tex -xsl:../Scripts/parlamint2cnt-particDesc.xsl Master/ParlaMint.xml > Metadata/ParlaMint-participDesc-stats.tex
-	$s mode=tsv -xsl:../Scripts/parlamint2cnt-overview.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-overview-stats.tsv
-	$s mode=tex -xsl:../Scripts/parlamint2cnt-overview.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-overview-stats.tex
-	$s mode=tsv -xsl:../Scripts/parlamint2cnt-speeches.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-speeches-stats.tsv
-	$s mode=tex -xsl:../Scripts/parlamint2cnt-speeches.xsl   Master/ParlaMint.xml > Metadata/ParlaMint-speeches-stats.tex
-bla:
-	date
-
-############### Makefile for making a distributable version of the ParlaMint and ParlaMint-en corpora
 
 ### VARIABLES
 
-### SUBMITTED CORPORA FOR V 4.0
-CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+### COMPLETE SET OF CORPORA
+#CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+CORPORA = AT
 
-
-######## MTed CORPORA FOR V 4.0
-#### Used only for pack!
+####### MTed CORPORA. Used only for make pack!
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en ES-PV-en FI-en FR-en GB-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
 
-# Used in test targets:
+# Used in targets that run only for one corpus
 CORPUS = LV
 
-#Where things are, as we use several branches: this one (most likely dev), and documentation
-PARLAMINT = /project/corpora/Parla/ParlaMint/ParlaMint
-SCH = ${PARLAMINT}/Schema
+#Absolute paths are needed otherwise problems with XSLT
+PARLAMINT := $(shell realpath .. | tr -d '\n')# get real absolute path to ParlaMint directory
 HERE = ${PARLAMINT}/Corpora
 TEMP = ${HERE}/Temp
+SCH = ${PARLAMINT}/Schema
 
-#Where the submitted corpora are found (ParlaMint- .TEI/ and .TEI.ana/
+# Where the submitted corpora are found:
+# ParlaMint-XX.TEI/ and ParlaMint-XX.TEI.ana
 SOURCES = ${HERE}/Sources-TEI
+# ParlaMint-XX-en.TEI.ana, MTed + semantically tagged:
 SOURCES-MT = ${HERE}/Sources-Sem
 
-# Version number and PID of next(!) TEI and TEI.ana ParlaMint release
-VERSION = 4.0
-HANDLE-TEI = http://hdl.handle.net/11356/1859
-HANDLE-ANA = http://hdl.handle.net/11356/1860
-
-# Version number and PID of next MTed ParlaMint-en.ana release
-VERSION-MT = 4.0
-HANDLE-MT = http://hdl.handle.net/11356/1864
+# Version number and PID of next ParlaMint release
+VERSION = 4.1
+HANDLE-TEI = http://hdl.handle.net/11356/1912
+HANDLE-ANA = http://hdl.handle.net/11356/1911
+HANDLE-MT  = http://hdl.handle.net/11356/1910
 
 #Where the produced corpora are put for inspection
 WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/
 
+##Note that script variables are at the end of the Makefile!
+
 ###### Targets
 
-###### Tests
+###### Various tests
 test:
 	date
 test-tei2:
-	${FINALIZE} -valid -codes FI -in ${HERE}/Master -out ${HERE}/Master
+	${FINALIZE} -valid -codes UA -in ${HERE}/Master -out ${HERE}/Master
 test-tei1:
-	${FINALIZE} -tei -valid -codes HU -in ${HERE}/Master -out ${HERE}/Master
+	${FINALIZE} -tei -valid -codes DK -in ${HERE}/Master -out ${HERE}/Master
 test-vert6:
 	../Scripts/parlamintp-tei2vert-xx.pl ${HERE}/Master/ParlaMint-LV.TEI.ana Test/ParlaMint-LV-xx.vert
 test-vert5:
@@ -83,10 +93,19 @@ test-conll3:
 test-conll2:
 	${FINALIZE} -conll -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
 test-conll1:
-	${FINALIZE} -conll -codes SI -in ${HERE}/Master -out ${HERE}/Master
+	${FINALIZE} -conll -codes UA -in ${HERE}/Master -out ${HERE}/Master
+test-meta5:
+	$s out-lang=en meta=../Corpora/Master/ParlaMint-SE.TEI/ParlaMint-SE.xml -xsl:../Scripts/parlamint2meta.xsl \
+	../Corpora/Master/ParlaMint-SE.TEI/2015/ParlaMint-SE_2015-11-04-prot-201516--21.xml  > test.tsv
+test-meta4:
+	$s out-lang=en meta=../Corpora/Master/ParlaMint-PT.TEI/ParlaMint-PT.xml -xsl:../Scripts/parlamint2meta.xsl \
+	../Corpora/Master/ParlaMint-PT.TEI/2022/ParlaMint-PT_2022-03-22.xml  > test.tsv
+test-meta3:
+	$s out-lang=en meta=../Corpora/Master/ParlaMint-RS.TEI/ParlaMint-RS.xml -xsl:../Scripts/parlamint2meta.xsl \
+	../Corpora/Master/ParlaMint-RS.TEI/2016/ParlaMint-RS_2016-06-03-0.xml  > test.tsv
 test-meta2:
 	$s out-lang=en meta=../Corpora/Master/ParlaMint-IS.TEI/ParlaMint-IS.xml -xsl:../Scripts/parlamint2meta.xsl \
-	../Corpora/Test/test-FI.xml > test-FI.tsv
+	../Corpora/Test/test-IS.xml > test-IS.tsv
 	$s out-lang=en meta=../Corpora/Master/ParlaMint-AT.TEI/ParlaMint-AT.xml -xsl:../Scripts/parlamint2meta.xsl \
 	../Corpora/Test/test-AT.xml > test-AT.tsv
 test-meta1:
@@ -99,7 +118,7 @@ test-text1:
 test-translit4:
 	${vlp} ParlaMint-GR-listPerson.xml
 	${vlo} ParlaMint-GR-listOrg.xml
-test-translit3:
+test-translit1:
 	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listPerson.xml ParlaMint-BG-listPerson.xml
 	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listOrg.xml ParlaMint-BG-listOrg.xml
 
@@ -108,48 +127,16 @@ test-translit3:
 
 	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-UA.TEI/ParlaMint-UA-listPerson.xml ParlaMint-UA-listPerson.xml
 	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-UA.TEI/ParlaMint-UA-listOrg.xml ParlaMint-UA-listOrg.xml
-test-translit2:
-	bin/trans-execute.pl Sources-TEI/ParlaMint-GR.TEI/ParlaMint-GR-listOrg.xml ParlaMint-GR-listOrg.xml
-test-translit1:
-	$s -xsl:bin/trans-tei2tsv.xsl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listOrg.xml > ParlaMint-BG-listOrg.tsv
 
-
-######## Merging taxonomies
-
-TAXONOMIES-TEI = subcorpus speaker_types parla.legislature
-TAXONOMIES-ANA = NER
-
-merge-taxos-nohup:
-	nohup time make merge-taxos 2> Taxonomies/ParlaMint-taxonomy-merge.log > Logs/ParlaMint-taxonomy.log &
-
-merge-taxos:
-	for TAXONOMY in ${TAXONOMIES-TEI}; do \
-	$s template=../Corpora/Taxonomies/ParlaMint-taxonomy-$${TAXONOMY}.template.xml \
-	-xsl:../Scripts/parlamint-merge-taxonomy.xsl Master/ParlaMint.xml \
-	> Taxonomies/ParlaMint-taxonomy-$${TAXONOMY}.xml; \
-	done;
-	for TAXONOMY in ${TAXONOMIES-ANA}; do \
-	$s template=../Corpora/Taxonomies/ParlaMint-taxonomy-$${TAXONOMY}.ana.template.xml \
-	-xsl:../Scripts/parlamint-merge-taxonomy.xsl Master/ParlaMint.ana.xml \
-	> Taxonomies/ParlaMint-taxonomy-$${TAXONOMY}.ana.xml; \
-	done;
-	${vta} Taxonomies/ParlaMint-taxonomy-*.xml
-
-### Fixes for 4.0-en:
-
-# Make MT samples only
-mt-convert-samples:
-	for CORPUS in ${CORPORA}; do \
-	${FINALIZE-MT} -sample -codes $${CORPUS}-en -out ${HERE}/Master; \
-	done;
-# Make txt and tsv files with tsvs
+# Make MT .txt and CoNLL files
 mt-convert-txt:
 	for CORPUS in ${CORPORA}; do \
 	${FINALIZE-MT} -txt -conll -codes $${CORPUS}-en -out ${HERE}/Master; \
 	done;
 
 ### Fixes
-# Merge per-language translated CoNLL-Us (BE, ES-CT, ES-PV, UA) to joint CoNLL-Us
+# Merge per-language translated CoNLL-Us (BE, ES-CT, ES-PV, UA) to joint CoNLL-U (with # lang info on newpar)
+# It is more useful to have them merged than separate
 mrg-conll-nohup:
 	nohup time make mrg-conll > Logs/ParlaMint_Merge_CoNLL-U.log &
 mrg-conll:
@@ -171,12 +158,25 @@ cp-readmes:
 	-docs Docs -out ${HERE}/Master
 
 # Make samples only
+all-samples:	samples mt-samples cp-samples
 samples:
 	for CORPUS in ${CORPORA}; do \
 	${FINALIZE} -sample -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}-samples.log; \
 	done;
+# Make MT samples only
+mt-samples:
+	for CORPUS in ${CORPORA}; do \
+	${FINALIZE-MT} -sample -codes $${CORPUS}-en -out ${HERE}/Master 2>> Logs/ParlaMint-$${CORPUS}-samples.log; \
+	done;
+#Merge original and MTed samples into official Samples directory
+cp-samples:
+	bin/cp-samples.pl 'Master/ParlaMint-*' ../Samples
+	for CORPUS in ${CORPORA}; do \
+	cp Logs/ParlaMint-$${CORPUS}-samples.log ../Samples/ParlaMint-$${CORPUS}; \
+	done;
 
-# Make vertical with en metadata, a hack:
+
+# Make vertical fine with en metadata, a hack:
 XX-CORPORA = AT-xx BA-xx BE-xx BG-xx CZ-xx DK-xx EE-xx ES-xx ES-CT-xx ES-GA-xx ES-PV-xx FI-xx FR-xx GB-xx GR-xx HR-xx HU-xx IS-xx IT-xx LV-xx NL-xx NO-xx PL-xx PT-xx RS-xx SE-xx SI-xx TR-xx UA-xx
 # Test: make make-verts-xx CORPORA='LV ES-CT'
 make-verts-xx-nohup:
@@ -200,7 +200,8 @@ make-conll-vert-txt:
 	${FINALIZE} -txt -vert -conll -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master; \
 	done;
 
-# Make overall root(.ana) for ParlaMint in Sources-TEI/ or Master/
+# Make overall root(.ana) for ParlaMint for Sources-TEI/ and Master/, 
+all-roots:	source-roots master-roots
 source-roots:
 	$s base=${HERE}/Sources-TEI -xsl:../Scripts/parlamint2root.xsl \
 	../Scripts/ParlaMint-template.xml > ${HERE}/Sources-TEI/ParlaMint.xml
@@ -211,13 +212,8 @@ master-roots:
 	../Scripts/ParlaMint-template.xml > ${HERE}/Master/ParlaMint.xml
 	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
 	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Master/ParlaMint.ana.xml
-master-mt-root:
 	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
 	../Scripts/ParlaMint-template-en.ana.xml > ${HERE}/Master/ParlaMint-en.ana.xml
-
-cp-samples:
-	#bin/cp-samples.pl 'Master/ParlaMint-*-en' Test
-	bin/cp-samples.pl 'Master/ParlaMint-*-en' ../Samples
 
 mt-logs:
 	for CORPUS in ${CORPORA}; do \
@@ -235,17 +231,16 @@ web:
 FINALIZE = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Docs
 
 ### For real
-nohup:
-	nice nohup time make all > Logs/ParlaMint.log &
-
-# More nohups, in case we want several runs at once
+# More than one nohup, in case we want several runs at once
 # In which case CORPORA variable needs to be changed first!
+nohup1:
+	nice nohup time make all > Logs/ParlaMint.1.log &
 nohup2:
 	nice nohup time make all > Logs/ParlaMint.2.log &
 nohup3:
 	nice nohup time make all > Logs/ParlaMint.3.log &
 
-all:	final verts pack
+all:	final
 xall:	final verts pack
 
 pack:
@@ -271,7 +266,7 @@ final:
 ### Make MTed corpora
 
 # Make distribution with:
-FINALIZE-MT = perl ../Scripts/parlamint2distro.pl -version ${VERSION-MT} -anahandle ${HANDLE-MT} -schema ${PARLAMINT}/Schema -docs ${HERE}/Docs
+FINALIZE-MT = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -anahandle ${HANDLE-MT} -schema ${PARLAMINT}/Schema -docs ${HERE}/Docs
 
 # Targets
 mt-nohup:
@@ -357,8 +352,6 @@ mt-convert-yr:
 	${SOURCES-MT}/ParlaMint-NO-en.conllu \
 	Test/ParlaMint-NO-en.TEI.ana 2> Test/ParlaMint-NO-en.$Y.log
 
-
-
 ### Make CoNLL-U only
 # Convert from English CoNLL-U + source .TEI.ana -> -en.TEI.ana 
 mt-conllu:
@@ -424,6 +417,28 @@ mt-test1:
 	rm -fr Test/ParlaMint-LV.tmp/*
 	$s outDir=Test/ParlaMint-LV.tmp -xsl:../Scripts/mt-prepare4mt.xsl ${HERE}/Master/ParlaMint-LV.TEI.ana/ParlaMint-LV.ana.xml
 
+
+#### Old and probably no longer useful
+
+### Merging taxonomies (now the common taxonomy files should be edited, not merging local copies anymore)
+
+TAXONOMIES-TEI = subcorpus speaker_types parla.legislature
+TAXONOMIES-ANA = NER
+merge-taxos-nohup:
+	nohup time make merge-taxos 2> Taxonomies/ParlaMint-taxonomy-merge.log > Logs/ParlaMint-taxonomy.log &
+merge-taxos:
+	for TAXONOMY in ${TAXONOMIES-TEI}; do \
+	$s template=../Corpora/Taxonomies/ParlaMint-taxonomy-$${TAXONOMY}.template.xml \
+	-xsl:../Scripts/parlamint-merge-taxonomy.xsl Master/ParlaMint.xml \
+	> Taxonomies/ParlaMint-taxonomy-$${TAXONOMY}.xml; \
+	done;
+	for TAXONOMY in ${TAXONOMIES-ANA}; do \
+	$s template=../Corpora/Taxonomies/ParlaMint-taxonomy-$${TAXONOMY}.ana.template.xml \
+	-xsl:../Scripts/parlamint-merge-taxonomy.xsl Master/ParlaMint.ana.xml \
+	> Taxonomies/ParlaMint-taxonomy-$${TAXONOMY}.ana.xml; \
+	done;
+	${vta} Taxonomies/ParlaMint-taxonomy-*.xml
+
 ### Some idea, need to think about it!
 #REGIS=at ba be bg cz dk es_ct fr gb gr hr hu is it lv nl no pl pt rs se si tr ua
 REGIS=ua
@@ -436,13 +451,13 @@ body:
 	done
 
 ###################### SCRIPT VARIABLES
-#s = java -jar -Xmx240g /usr/share/java/saxon.jar
-s = java -jar /usr/share/java/saxon.jar
-j = java -jar /usr/share/java/jing.jar
-P = parallel --gnu --halt 2
+P = parallel --citation --gnu --halt 2
+#Run java with a large heap, as a complete corpus needs to be read in
+s = java -jar -Xmx240g ../Scripts/bin/saxon.jar
+j = java -jar ../Scripts/bin/jing.jar
 
 pc = -I % $s -xi -xsl:../Scripts/copy.xsl % | $j parla-clarin.rng
-vxx = $j ${SCH}/ParlaMint-TEI.rng 	        # Validated with ParlaMint TEI 
+pm = $j ${SCH}/ParlaMint.odd.rng 	        # Validate with ParlaMint ODD
 vrt = $j ${SCH}/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j ${SCH}/ParlaMint-TEI.rng		# Corpus component / text
 vra = $j ${SCH}/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed

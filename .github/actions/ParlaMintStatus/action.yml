@@ -17,9 +17,12 @@ outputs:
   scripts_changed:
     description: "List of changed scripts (script and schema files)"
     value: '${{ steps.status.outputs.scripts_changed }}'
-  parla_changed_size:
-    description: "Size of TEI xml files in changed parliaments"
-    value: '${{ steps.status.outputs.parla_changed_size }}'
+  max_parla_changed_size:
+    description: "Size of TEI xml files in changed largest parliament"
+    value: '${{ steps.status.outputs.max_parla_changed_size }}'
+  all_parla_changed_size:
+    description: "Size of TEI xml files in changed all parliaments"
+    value: '${{ steps.status.outputs.all_parla_changed_size }}'
 runs:
   using: "composite"
   steps:

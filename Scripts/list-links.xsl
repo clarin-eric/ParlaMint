@@ -18,7 +18,7 @@
   <xsl:variable name="listPrefix">
     <xsl:copy-of select="$rootHeader//tei:listPrefixDef"/>
   </xsl:variable>
-  <xsl:variable name="country" select="replace(replace(document-uri(/), 
+  <xsl:variable name="country" select="replace(replace(base-uri(), 
                                        '.+/([^/]+)\.xml', '$1'), 
                                        'ParlaMint-([^._]+).*', '$1')"/>
 

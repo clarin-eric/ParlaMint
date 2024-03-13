@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="bs" xml:id="ParlaMint-BA_2022-06-30-0" ana="#parla.sitting #covid #war">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bs">Bosanski parlamentarni korpus ParlaMint-BA, Mandat 8, Sjednica 12h [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Bosnian parliamentary corpus ParlaMint-BA, Term 8, Session 12h [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="bs">Zapisnici sjednica parlamentarne skupštine, mandat 8, sjednica 12h</title>
+            <title type="sub" xml:lang="en">Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 8, Session 12h</title>
+            <meeting n="8" corresp="#PS" ana="#parla.uni #parla.term #PS.8">8. mandat</meeting>
+            <meeting n="12h" corresp="#PS" ana="#parla.uni #parla.meeting">Sjednica 12h</meeting>
+            <meeting n="2022-06-30" corresp="#PS" ana="#parla.uni #parla.sitting">2022-06-30</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="bs">Preuzimanje i čiščenje digitalnog izvora</resp>
+               <resp xml:lang="en">Download and clean-up of the JSON digital source</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+               <resp xml:lang="bs">Kodiranje Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Peter Rupnik</persName>
+               <resp xml:lang="bs">Kodiranje Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="bs">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="81" xml:lang="bs">81 govora</measure>
+            <measure unit="speeches" quantity="81" xml:lang="en">81 speeches</measure>
+            <measure unit="words" quantity="10837" xml:lang="bs">10,837 riječi</measure>
+            <measure unit="words" quantity="10837" xml:lang="en">10,837 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="bs">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="bs">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2024-03-06">2024-03-06</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Minutes of the Parliamentary Assembly of Bosnia and Herzegovina</title>
+               <idno type="URI" subtype="parliament">https://www.javnarasprava.ba/</idno>
+               <idno type="URI" subtype="parliament">https://www.parlament.ba/</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="bs"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="22"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="20"/>
+               <tagUsage gi="incident" occurs="2"/>
+               <tagUsage gi="note" occurs="81"/>
+               <tagUsage gi="seg" occurs="89"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="81"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Trg BiH 1</name>
+               <name type="city">Sarajevo</name>
+               <name type="country" key="BA">Bosnia and Herzegovina</name>
+               <date when="2022-06-30" ana="#parla.sitting">2022-06-30</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2024-03-06">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2022-12-19">
+            <name>Peter Rupnik</name> Compile from source</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid #war">
+      <body>
+         <div type="debateSection">
+            <note type="speaker" xml:id="ParlaMint-BA_2022-06-30-0.note1">Špirić, Nikola</note>
+            <u who="#ŠpirićNikola" ana="#chair" n="ParlaMint-BIH_DN.T8.S12h.u3743" xml:id="ParlaMint-BA_2022-06-30-0.u3743">
+               <seg xml:id="ParlaMint-BA_2022-06-30-0.u3743.seg0">Dame i gospodo delegati, uvaženi gosti srdačno vas pozdravljam i otvaram 12. hitnu sjednicu Doma naroda Parlamentarne skupštine BiH. <incident type="action" xml:id="ParlaMint-BA_2022-06-30-0.incident1">
+                     <desc>INTONIRANJE HIMNE</desc>
+                  </incident>
+						Na sjednicu su pozvani naši redovni gosti predsjedavajući i članovi Predsjedništva BiH, predsjedavajući i članovi Savjeta ministara BiH, te predstavnici međunarodnih organizacija u BiH koji redovno prate rad ovoga Doma. Sjednicu, sjednici prisustvuje 11 delegata – 4 iz reda bošnjačkog, 4 iz reda hrvatskog naroda i 3 iz reda srpskog naroda. Želim da kažem da su gospodin Dragan Čović, Munib Jusufović, Dušanka Majkić i Sredoje Nović iz opravdanih razloga danas odsutni s ovog zasjedanja i mogu da konstatujem da imamo krvorum za punovažno i punopravno odlučivanje. Za 12. hitnu sjednicu predlažem sledeći Dnevni red 1. Usvajanje Zapisnika sa 11. hitne sjednice Doma naroda Parlamentarne skupštine Bosne i Hercegovine; 2. Prijedlog zakona o Budžetu institucija Bosne i Hercegovine i međunarodnih obaveza Bosne i Hercegovine za 2022. godinu (prvo čitanje), dostavljen od Predstavničkog doma Parlamentarne skupštine BiH, broj: 01,02-02-1-911/22 od 28.06.2022. godine. Ovo je usaglašeni, izmjenjeni i dopunjeni dnevni red Kolegijuma Doma naroda koji ste dobili. Otvaram raspravu vezano za dnevni red. Da li se neko javlja za riječ? Gospodin Bećirović, izvolite.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-BA_2022-06-30-0.note2">Bećirović, Denis</note>
+            <u who="#BećirovićDenis" ana="#regular" n="ParlaMint-BIH_DN.T8.S12h.u3744" xml:id="ParlaMint-BA_2022-06-30-0.u3744">
+               <seg xml:id="ParlaMint-BA_2022-06-30-0.u3744.seg0">Dame i gospodo cjelokupna bosanskohercegovačka javnost je svjedok sramnog prijedloga koji je upućen u Parlamentarnu skupštinu BiH i kojim je predviđeno povećanje plata najviših državnih funkcionera, članova Predsjedništva, poslanika, delegata, ministara u Vijeću ministara BiH. Smatram da je to neviđeni čin drskosti, bahatosti i bezosjećajnosti. Prije pola sata sam glasao na Komisiji za finansije i budžet protiv takvog Prijedloga budžeta i danas želim pozvati sve kolege u Domu naroda da ili zaustavimo ili za početak da ublažimo ovakav jedan skandalozan prijedlog. Možemo ga zaustaviti ozbiljnim sistemskim mjerama i pristupom ili 2 eventualno ublažiti nekim sadaka pristupom da dajemo po 500 maraka, narodnog novca, u humanitarne svrhe. Predlažem da izaberemo ozbiljan i sistemski pristup, a to znači da zaustavimo, a imamo te mehanizme, ovo sramotno povećanje plata državnim funkcionerima. Zato predlažem danas da kao prethodno pitanje prije prelaska na Budžet uvrstimo novu tačku dnevnog reda koja bi se odnosila na ovo o čemu sam govorio, dakle, u okviru ove tačke bi razmotrili ovo nemoralno povećanje primanja izabranim zvaničnicima na državnom nivou i donijeli konkretne zaključke. Imam, dakle, i konkretne zaključke tim povodom, sve to dostavljam u pisanoj formi i predlažem da to kao prethodno pitanje raspravimo, donesemo konkretne zaključke kojim ćemo obavezati Vijeće ministara BiH da ispravi ovakav jedan prijedlog koji je došao od strane vladajućih stranaka ovdje u Parlamentarnu skupštinu BiH. Taj prijedlog, dakle, nisu donijele rode, to je prijedlog koji je došao od ministara iz SNSD-a, iz SDA, iz HDZ-a i mi o tome treba danas da govorimo i da pokušamo ispraviti tu nepravdu.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#BećirovićDenis" ana="#regular" n="ParlaMint-BIH_DN.T8.S12h.u3837" xml:id="ParlaMint-BA_2022-06-30-0.u3837">
+               <seg xml:id="ParlaMint-BA_2022-06-30-0.u3837.seg0">Ja želim samo da ponovim da sam na početku sjednice vrlo jasno predlagao izlaz iz ove novonastale situacije, tačnu formulaciju tačke dnevnog reda i prijedlog zaključaka i to je danas odbijeno, nije dakle bilo većina da se raspravlja. U prvom čitanju sam ponovo predložio konkretne zaključke kako da prevaziđemo ovu situaciju, opet ni to nije prihvaćeno. Naprosto moramo konstatirati da je Vijeće ministara BiH jednoglasno napravilo grešku koju očigledno ovdje nije moguće danas ispraviti.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-BA_2022-06-30-0.note81">Špirić, Nikola</note>
+            <u who="#ŠpirićNikola" ana="#chair" n="ParlaMint-BIH_DN.T8.S12h.u3838" xml:id="ParlaMint-BA_2022-06-30-0.u3838">
+               <seg xml:id="ParlaMint-BA_2022-06-30-0.u3838.seg0">Zahvaljujem kolegi Bećiroviću. Zaključujem raspravu, nema više prijavljenih. Idemo se izjasniti, glasamo o Prijedlogu zakona o Budžetu institucija BiH i međunarodnih obaveza BiH za 2022. godinu u drugom čitanju. Pripremite. Prisutno 11 – za 8, protiv 2, uzdržan 1. Dakle, imamo opštu, imamo entitetsku većinu i konstatujem da smo usvojili Zakon o Budžetu institucija BiH i međunarodnih obaveza BiH za 2022. godinu. 27 Poštovane dame i gospodo konstatujem da smo završili 12. hitnu sjednicu Doma naroda. Zaključujem sjednicu, a o narednom zasjedanju bit ćete na vrijeme obaviješteni. Hvala lijepo. Sjednica završena u 13:58 sati.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

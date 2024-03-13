@@ -4,8 +4,8 @@
      are too large to load as a single XML document
      The script can be run like this, assuming one has Saxon HE available at /usr/share/java/ 
      and that the program is run from the root repo directory:
-     $ java -jar /usr/share/java/saxon-he.jar meta=../ParlaMint-SI/ParlaMint-SI.xml \
-       -xsl:check-links.xsl ../ParlaMint-SI/ParlaMint-SI_2014-08-01_SDZ7-Redna-01.xml
+     $ java -jar Scripts/bin/saxon.jar meta=../Samples/ParlaMint-SI/ParlaMint-SI.xml \
+     -xsl:Scripts/check-links.xsl Samples/ParlaMint-SI/2022/ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.xml
 -->
 <xsl:stylesheet 
     xmlns="http://www.tei-c.org/ns/1.0" 

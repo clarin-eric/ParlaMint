@@ -1,11 +1,22 @@
 make[1]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema'
-java -jar /usr/share/java/trang.jar ParlaMint-TEI.rng ParlaMint-TEI.rnc
-java -jar /usr/share/java/trang.jar ParlaMint-TEI.ana.rng ParlaMint-TEI.ana.rnc
-java -jar /usr/share/java/trang.jar ParlaMint-teiCorpus.rng ParlaMint-teiCorpus.rnc
-java -jar /usr/share/java/trang.jar ParlaMint-teiCorpus.ana.rng ParlaMint-teiCorpus.ana.rnc
-java -jar /usr/share/java/trang.jar ParlaMint-listOrg.rng ParlaMint-listOrg.rnc
-java -jar /usr/share/java/trang.jar ParlaMint-listPerson.rng ParlaMint-listPerson.rnc
-java -jar /usr/share/java/trang.jar ParlaMint-taxonomy.rng ParlaMint-taxonomy.rnc
+ls ../Samples/ParlaMint-*/ParlaMint-*.xml   | grep -v '.ana' | grep -v 'taxonomy' | grep -v 'list' | xargs -I % java -jar ../Scripts/bin/saxon.jar -xi -xsl:../Scripts/copy.xsl % | java -jar ../Scripts/bin/jing.jar parla-clarin.rng
+ls ../Samples/ParlaMint-*/ParlaMint-*.xml   | grep -v '.ana' | grep -v 'taxonomy' | grep -v 'list' | xargs -I % java -jar ../Scripts/bin/saxon.jar -xi -xsl:../Scripts/copy.xsl % | java -jar ../Scripts/bin/jing.jar ParlaMint.odd.rng
+ls ../Samples/ParlaMint-*/ParlaMint-*.xml   | grep -v '.ana' | grep -v 'taxonomy' | grep -v 'list' | xargs java -jar ../Scripts/bin/jing.jar ParlaMint-teiCorpus.rng 	
+ls ../Samples/ParlaMint-*/*/ParlaMint-*.xml | grep -v '.ana' | grep -v 'taxonomy' | grep -v 'list' | xargs java -jar ../Scripts/bin/jing.jar ParlaMint-TEI.rng		
+ls ../Samples/ParlaMint-*/ParlaMint-*.xml   | grep    '.ana' | grep -v 'taxonomy' | grep -v 'list' | xargs -I % java -jar ../Scripts/bin/saxon.jar -xi -xsl:../Scripts/copy.xsl % | java -jar ../Scripts/bin/jing.jar parla-clarin.rng
+ls ../Samples/ParlaMint-*/ParlaMint-*.xml   | grep    '.ana' | grep -v 'taxonomy' | grep -v 'list' | xargs -I % java -jar ../Scripts/bin/saxon.jar -xi -xsl:../Scripts/copy.xsl % | java -jar ../Scripts/bin/jing.jar ParlaMint.odd.rng
+ls ../Samples/ParlaMint-*/ParlaMint-*.xml   | grep    '.ana' | grep -v 'taxonomy' | grep -v 'list' | xargs java -jar ../Scripts/bin/jing.jar ParlaMint-teiCorpus.ana.rng	
+ls ../Samples/ParlaMint-*/*/ParlaMint-*.xml | grep    '.ana' | grep -v 'taxonomy' | grep -v 'list' | xargs java -jar ../Scripts/bin/jing.jar ParlaMint-TEI.ana.rng		
+ls ../Samples/ParlaMint-*/ParlaMint-*listOrg.xml    | xargs java -jar ../Scripts/bin/jing.jar ParlaMint-listOrg.rng		
+ls ../Samples/ParlaMint-*/ParlaMint-*listPerson.xml | xargs java -jar ../Scripts/bin/jing.jar ParlaMint-listPerson.rng	
+ls ../Samples/ParlaMint-*/ParlaMint-*taxonomy*.xml  | xargs java -jar ../Scripts/bin/jing.jar ParlaMint-taxonomy.rng		
+java -jar ../Scripts/bin/trang.jar ParlaMint-TEI.rng ParlaMint-TEI.rnc
+java -jar ../Scripts/bin/trang.jar ParlaMint-TEI.ana.rng ParlaMint-TEI.ana.rnc
+java -jar ../Scripts/bin/trang.jar ParlaMint-teiCorpus.rng ParlaMint-teiCorpus.rnc
+java -jar ../Scripts/bin/trang.jar ParlaMint-teiCorpus.ana.rng ParlaMint-teiCorpus.ana.rnc
+java -jar ../Scripts/bin/trang.jar ParlaMint-listOrg.rng ParlaMint-listOrg.rnc
+java -jar ../Scripts/bin/trang.jar ParlaMint-listPerson.rng ParlaMint-listPerson.rnc
+java -jar ../Scripts/bin/trang.jar ParlaMint-taxonomy.rng ParlaMint-taxonomy.rnc
 make[1]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema'
-4.50user 0.45system 0:02.04elapsed 242%CPU (0avgtext+0avgdata 67704maxresident)k
-1680inputs+864outputs (0major+70863minor)pagefaults 0swaps
+190.66user 17.14system 0:56.90elapsed 365%CPU (0avgtext+0avgdata 549008maxresident)k
+180424inputs+3784outputs (574major+2160892minor)pagefaults 0swaps

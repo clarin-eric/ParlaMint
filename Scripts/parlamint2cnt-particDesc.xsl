@@ -43,36 +43,47 @@
   </xsl:variable>
   
   <!-- If LaTeX -->
-  <xsl:variable name="preamble">\begin{tabular}{l|rrr|rrrrrrr}&#10;</xsl:variable>
+  <xsl:variable name="preamble">\begin{tabular*}{\textwidth}{@{\extracolsep\fill}l rrr@{~}rrrr@{~}rrrr@{}}&#10;</xsl:variable>
+  <!-- Either format -->
   <xsl:variable name="header-row">
+    <xsl:if test="matches($mode, 'tex', 'i')">
+      <xsl:text>\toprule&#10;</xsl:text>
+      <xsl:text>&amp;\multicolumn{3}{@{}c@{}}{Organisation}&amp;\multicolumn{4}{@{}c@{}}{Person}&amp;\multicolumn{4}{@{}c@{}}{Affiliation}\\&#10;</xsl:text>
+      <xsl:text>\cmidrule{2-4}\cmidrule{5-8}\cmidrule{9-12}</xsl:text>
+    </xsl:if>
     <xsl:text>ID</xsl:text> <!-- ISO country code -->
+    <!-- Organizations:-->
     <xsl:value-of select="$col-sep"/>
-    <xsl:text>Orgs</xsl:text>  <!-- Number of organistations -->
+    <xsl:text>Org</xsl:text>  <!-- Number of organistations -->
     <xsl:value-of select="$col-sep"/>
-    <xsl:text>Parties</xsl:text> <!-- Number of political parties -->
+    <xsl:text>Prt</xsl:text> <!-- Number of political parties -->
     <xsl:value-of select="$col-sep"/>
     <xsl:text>C/O</xsl:text> <!-- Number of coalitions + oppositions -->
     <xsl:value-of select="$col-sep"/>
-    <xsl:text>Persons</xsl:text>  <!-- Number of "speakers" -->
+    <!-- Persons -->
+    <xsl:text>Pers</xsl:text>  <!-- Number of "speakers" -->
     <xsl:value-of select="$col-sep"/>
-    <!-- Number of elements inside person/persName" -->
-    <!--xsl:text>Name parts</xsl:text>  
-    <xsl:value-of select="$col-sep"/-->
-    <xsl:text>Affils</xsl:text>   <!-- Number of all (timestamped) affiliations -->
-    <xsl:value-of select="$col-sep"/>
-    <xsl:text>Ministers</xsl:text>  <!-- Number of speakers with gender -->
-    <xsl:value-of select="$col-sep"/>
-    <xsl:text>MPs</xsl:text>  <!-- Number of MPs -->
-    <xsl:value-of select="$col-sep"/>
-    <xsl:text>PartyM</xsl:text>  <!-- Number of speakers affiliated with political parties -->
+    <xsl:text>Sex</xsl:text>  <!-- Speakers with gender -->
     <xsl:value-of select="$col-sep"/>
     <xsl:text>Birth</xsl:text>  <!-- Speakers with birth dates -->
     <xsl:value-of select="$col-sep"/>
     <xsl:text>URL</xsl:text>  <!-- Speakers with one or more URLs (contact, twitter, facebook) -->
     <xsl:value-of select="$col-sep"/>
-    <xsl:text>IMG</xsl:text>  <!-- Speakers with images -->
+    <!-- Speakers with images not included, as too little space on page -->
+    <!--
+    <xsl:value-of select="$col-sep"/>
+    <xsl:text>IMG</xsl:text>  
+    -->
+    <!-- Affiliations-->
+    <xsl:text>Affil</xsl:text>   <!-- Number of all (timestamped) affiliations -->
+    <xsl:value-of select="$col-sep"/>
+    <xsl:text>Mini</xsl:text>  <!-- Number of speakers that are ministers -->
+    <xsl:value-of select="$col-sep"/>
+    <xsl:text>MPs</xsl:text>  <!-- Number of MPs -->
+    <xsl:value-of select="$col-sep"/>
+    <xsl:text>PrtyM</xsl:text>  <!-- Number of speakers affiliated with political parties -->
     <xsl:value-of select="$line-sep"/>
-    <xsl:if test="matches($mode, 'tex', 'i')">\hline&#10;</xsl:if>
+    <xsl:if test="matches($mode, 'tex', 'i')">\midrule&#10;</xsl:if>
   </xsl:variable>
 
   <xsl:key name="ref" match="tei:org" use="concat('#', @xml:id)"/>
@@ -99,7 +110,7 @@
       <xsl:apply-templates select="$teiHeader"/>
     </xsl:for-each>
     <xsl:if test="matches($mode, 'tex', 'i')">
-      <xsl:text>\end{tabular}&#10;</xsl:text>
+      <xsl:text>\botrule&#10;\end{tabular*}&#10;</xsl:text>
     </xsl:if>
   </xsl:template>
   
@@ -117,6 +128,28 @@
     <!-- Speakers -->
     <xsl:value-of select="et:cnt($particDesc//tei:person)"/>
     <xsl:value-of select="$col-sep"/>
+    <!-- Sex -->
+    <xsl:value-of select="et:cnt($particDesc//tei:person
+                          [tei:sex[@value != 'U']]
+                          )"/>
+    <xsl:value-of select="$col-sep"/>
+    <!-- Births -->
+    <xsl:value-of select="et:cnt($particDesc//tei:person
+                          [tei:birth]
+                          )"/>
+    <xsl:value-of select="$col-sep"/>
+    <!-- URLs -->
+    <xsl:value-of select="et:cnt($particDesc//tei:person
+                          [tei:idno[@type='URI']]
+                          )"/>
+    <xsl:value-of select="$col-sep"/>
+    <!-- Picture, not included -->
+    <!--
+    <xsl:value-of select="$col-sep"/>
+    <xsl:value-of select="et:cnt($particDesc//tei:person
+                          [tei:figure]
+                          )"/>
+    -->
     <!-- Number of affiliations -->
     <xsl:value-of select="et:cnt($particDesc//tei:person/tei:affiliation)"/>
     <xsl:value-of select="$col-sep"/>
@@ -130,24 +163,9 @@
     <xsl:value-of select="$col-sep"/>
     <!-- People with party affiliation -->
     <xsl:value-of select="et:cnt($particDesc//tei:person[
-                          tei:affiliation[@role='member' and 
+                          tei:affiliation[@role='member' and
                           key('ref', @ref)[@role='politicalParty' or @role='parliamentaryGroup']]
                           ])"/>
-    <xsl:value-of select="$col-sep"/>
-    <!-- Births -->
-    <xsl:value-of select="et:cnt($particDesc//tei:person
-                          [tei:birth]
-                          )"/>
-    <xsl:value-of select="$col-sep"/>
-    <!-- URLs -->
-    <xsl:value-of select="et:cnt($particDesc//tei:person
-                          [tei:idno[@type='URI']]
-                          )"/>
-    <xsl:value-of select="$col-sep"/>
-    <!-- Picture -->
-    <xsl:value-of select="et:cnt($particDesc//tei:person
-                          [tei:figure]
-                          )"/>
     <xsl:value-of select="$line-sep"/>
   </xsl:template>
 

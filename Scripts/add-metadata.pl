@@ -5,7 +5,8 @@
 # - add CHES political orientations to listOrg.xml
 # - add Wiki political orientations to listOrg.xml
 # - transliterate listPerson.xml
-# - add minster affiliations to listPerson.xml
+# - add minister affiliations to listPerson.xml
+# - add sex information on listPerson.xml
 use warnings;
 use utf8;
 use FindBin qw($Bin);
@@ -18,10 +19,11 @@ binmode(STDERR, 'utf8');
 
 $orieDir = File::Spec->rel2abs(shift);
 $miniDir = File::Spec->rel2abs(shift);
+$sexDir  = File::Spec->rel2abs(shift);
 $inDirs  = File::Spec->rel2abs(shift);
 $outDir  = File::Spec->rel2abs(shift);
 
-$Saxon = 'java -jar /usr/share/java/saxon.jar';
+$Saxon   = "java -jar $Bin/bin/saxon.jar";
 
 # Transliteration script for listOrg and listPerson
 $transScript = "$Bin/trans-execute.pl";
@@ -33,6 +35,7 @@ $wikiScript  = "$Bin/wiki-tsv2tei.xsl";
 
 # Scripts that add info to listPerson
 $miniScript = "$Bin/ministers-tsv2tei.xsl";
+$sexScript  = "$Bin/sex-tsv2tei.xsl";
 
 # Script that makes XML prettier
 $poliScript = "$Bin/polish-xml.pl";
@@ -46,6 +49,10 @@ $wikiSuffix = '.Wiki.tsv';
 # Prefix and suffixes of ministers related TSV files
 $miniPrefix  = 'Ministers-';
 $miniSuffix  = '.edited.tsv';
+
+# Prefix and suffixes of sex related TSV files
+$sexPrefix  = 'Sex-';
+$sexSuffix  = '.fixed.tsv';
 
 foreach $inCorpDir (sort glob $inDirs) {
     ($country, $anaSuffix) = $inCorpDir =~ /ParlaMint-([A-Z-]+)\.TEI(\..+)?/ or die;
@@ -63,23 +70,27 @@ foreach $inCorpDir (sort glob $inDirs) {
     &process('Transliteration',
 	     "$inCorpDir/ParlaMint-$country-listOrg.xml",
 	     '',
+	     '',
 	     $transScript,
 	     "$tmpDir/ParlaMint-$country-listOrg.trans.xml"
 	     );
     &process('Encoder orientations',
 	     "$tmpDir/ParlaMint-$country-listOrg.trans.xml",
 	     "$orieDir/$oriePrefix$country$encoSuffix",
+	     '',
 	     $encoScript,
 	     "$tmpDir/ParlaMint-$country-listOrg.enco.xml"
 	     );
     &process('CHES orientations',
 	     "$tmpDir/ParlaMint-$country-listOrg.enco.xml",
 	     "$orieDir/$oriePrefix$country$chesSuffix",
+	     '',
 	     $chesScript,
 	     "$tmpDir/ParlaMint-$country-listOrg.ches.xml");
     &process('Wiki orientations',
 	     "$tmpDir/ParlaMint-$country-listOrg.ches.xml",
 	     "$orieDir/$oriePrefix$country$wikiSuffix",
+	     '',
 	     $wikiScript,
 	     "$tmpDir/ParlaMint-$country-listOrg.wiki.xml");
     `$poliScript < $tmpDir/ParlaMint-$country-listOrg.wiki.xml > $outCorpDir/ParlaMint-$country-listOrg.xml`;
@@ -87,29 +98,45 @@ foreach $inCorpDir (sort glob $inDirs) {
     &process('Transliteration',
 	     "$inCorpDir/ParlaMint-$country-listPerson.xml",
 	     '',
+	     '',
 	     $transScript,
 	     "$tmpDir/ParlaMint-$country-listPerson.trans.xml"
 	     );
     &process('Encoder ministers',
 	     "$tmpDir/ParlaMint-$country-listPerson.trans.xml",
 	     "$miniDir/$miniPrefix$country$miniSuffix",
+             "$outCorpDir/ParlaMint-$country-listOrg.xml",
 	     $miniScript,
 	     "$tmpDir/ParlaMint-$country-listPerson.mini.xml");
-    `$poliScript < $tmpDir/ParlaMint-$country-listPerson.mini.xml > $outCorpDir/ParlaMint-$country-listPerson.xml`;
+    &process('Sex info',
+	     "$tmpDir/ParlaMint-$country-listPerson.mini.xml",
+	     "$sexDir/$sexPrefix$country$sexSuffix",
+             '',
+	     $sexScript,
+	     "$tmpDir/ParlaMint-$country-listPerson.sex.xml");
+
+    `$poliScript < $tmpDir/ParlaMint-$country-listPerson.sex.xml > $outCorpDir/ParlaMint-$country-listPerson.xml`;
 }
 
 sub process {
     my $type = shift;
     my $inListFile = shift;
     my $tsvFile  = shift;
+    my $xmlFile  = shift;
     my $script  = shift;
     my $outListFile  = shift;
     my $command;
     die "FATAL ERROR: For $type can't find input file $inListFile\n" unless -e $inListFile;
     if ($tsvFile and -e $tsvFile) {
 	print STDERR "INFO: Adding TSV metadata for $type\n";
-	$command = "$Saxon tsv=$tsvFile -xsl:$script $inListFile > $outListFile";
-	`$command`;
+        if ($xmlFile) {
+            die "FATAL ERROR: For $type can't support XML file $xmlFile\n" unless -e $xmlFile;
+            $command = "$Saxon tsv=$tsvFile xml=$xmlFile -xsl:$script $inListFile > $outListFile";
+        }
+        else {
+            $command = "$Saxon tsv=$tsvFile -xsl:$script $inListFile > $outListFile";
+        }
+        `$command`;
     }
     elsif ($tsvFile) {
 	print STDERR "INFO: No TSV metadata for $type, skipping\n";

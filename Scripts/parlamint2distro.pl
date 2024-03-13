@@ -12,6 +12,8 @@ use open ':utf8';
 use FindBin qw($Bin);
 use File::Temp qw/ tempfile tempdir /;  #creation of tmp files and directory
 my $tempdirroot = "$Bin/tmp";
+
+mkdir($tempdirroot) unless(-d $tempdirroot);
 my $tmpDir = tempdir(DIR => $tempdirroot, CLEANUP => 1);
 
 binmode(STDIN, ':utf8');
@@ -96,9 +98,9 @@ $outDir = File::Spec->rel2abs($outDir) if $outDir;
 
 #Execution
 #$Parallel = "parallel --gnu --halt 2 --jobs 15";
-$Saxon   = "java -jar /usr/share/java/saxon.jar";
+$Saxon   = "java -jar $Bin/bin/saxon.jar";
 # Problem with Out of heap space with TR, NL, GB for ana
-$SaxonX  = "java -Xmx240g -jar /usr/share/java/saxon.jar";
+$SaxonX  = "java -Xmx240g -jar $Bin/bin/saxon.jar";
 
 # For the following taxonomies we substitute the local taxonomy with common one,
 # reduced to the relevant langauges
@@ -158,13 +160,15 @@ $scriptConls   = "$Bin/parlamintp2conllu.pl";
 
 $XX_template = "ParlaMint-XX";
 
+my $cmd;
+
 unless ($countryCodes) {
     print STDERR "Need some country codes.\n";
     print STDERR "For help: parlamint2distro.pl -h\n";
     exit
 }
 foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
-    print STDERR "INFO: *****Converting $countryCode\n";
+    print STDERR "INFO: *****Converting $countryCode (" . localtime(). ")\n";
 
     # Is this an MTed corpus?
     if ($countryCode =~ m/-([a-z]{2,3})$/) {$MT = $1}
@@ -188,7 +192,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     
     my $inTeiRoot = "$inDir/$teiRoot" if $inDir;
     my $inAnaRoot = "$inDir/$anaRoot" if $inDir;
-    #In case input dir is for samples
+    #In case input dir is for samples remove .TEI(.ana)
     unless ($inTeiRoot and -e $inTeiRoot) {$inTeiRoot =~ s/\.TEI// if $inTeiRoot}
     unless ($inAnaRoot and -e $inAnaRoot) {$inAnaRoot =~ s/\.TEI\.ana// if $inAnaRoot}
     
@@ -205,7 +209,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     if ($Version) {
 	$regiDir = $docsDir . '/registry';
 	$vertRegi = 'parlamint' . $Version . '_' . lc $countryCode;
-	$vertRegi =~ s/\.//;   #e.g. 3.1 -> 31, so we will get e.g. parlamint31_at
+	$vertRegi =~ s/\.//g;   #e.g. 3.1 -> 31, so we will get e.g. parlamint31_at
 	$vertRegi =~ s/-/_/g;  #e.g. parlamint31_es-ct.regi to parlamint31_es_ct
 	$regiExt = 'regi'
     }
@@ -233,10 +237,14 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	my $tmpOutAnaDir = "$tmpDir/$anaDir";
 	my $tmpAnaRoot = "$tmpOutDir/$anaRoot";
 	print STDERR "INFO: ***Fixing TEI.ana corpus for release\n";
-	`$SaxonX outDir=$tmpOutDir -xsl:$scriptRelease $inAnaRoot`;
+    $cmd = "$SaxonX outDir=$tmpOutDir -xsl:$scriptRelease $inAnaRoot";
+    `$cmd`;
+    print STDERR "FATAL ERROR: $cmd exited with $?\n" if $?;
 	print STDERR "INFO: ***Adding common content to TEI.ana corpus\n";
-	`$SaxonX version=$Version handle-ana=$handleAna anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpAnaRoot`;
-	&commonTaxonomies($countryCode, $outAnaDir);
+	$cmd = "$SaxonX version=$Version handle-ana=$handleAna anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpAnaRoot";
+    `$cmd`;
+    print STDERR "FATAL ERROR: $cmd exited with $?\n" if $?;
+    &commonTaxonomies($countryCode, $outAnaDir);
     	&polish($outAnaDir);
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
@@ -260,15 +268,19 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	my $tmpOutTeiDir = "$tmpDir/$teiDir";
 	my $tmpTeiRoot = "$tmpOutDir/$teiRoot";
 	print STDERR "INFO: ***Fixing TEI corpus for release\n";
-	`$SaxonX anaDir=$outAnaDir outDir=$tmpOutDir -xsl:$scriptRelease $inTeiRoot`;
-	print STDERR "INFO: ***Adding common content to TEI corpus\n";
-	`$SaxonX version=$Version handle-txt=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpTeiRoot`;
-	&commonTaxonomies($countryCode, $outTeiDir);
+	$cmd = "$SaxonX anaDir=$outAnaDir outDir=$tmpOutDir -xsl:$scriptRelease $inTeiRoot";
+	`$cmd`;
+        print STDERR "FATAL ERROR: $cmd exited with $?\n" if $?;
+        print STDERR "INFO: ***Adding common content to TEI corpus\n";
+	$cmd = "$SaxonX version=$Version handle-txt=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpTeiRoot";
+	`$cmd`;
+        print STDERR "FATAL ERROR: $cmd exited with $?\n" if $?;
+        &commonTaxonomies($countryCode, $outTeiDir);
 	&polish($outTeiDir);
     }
     if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
 	print STDERR "INFO: ***Making $countryCode samples\n";
-	`rm -fr $outSmpDir`;
+	`rm -fr $outSmpDir; mkdir $outSmpDir`;
 	if (-e $outTeiRoot) {
 	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outTeiRoot`;
 	    `$scriptTexts $outSmpDir $outSmpDir`;
@@ -293,6 +305,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	&cp_readme_top($countryCode, '', 'sample', '', '', $docsDir, $outSmpDir)
 	    unless $MT;
 	&polish($outSmpDir);
+        &dirify($outSmpDir);
     }
     if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
 	print STDERR "INFO: ***Validating $countryCode TEI\n";
@@ -424,7 +437,7 @@ sub cp_readme_top {
     # en-ana: # Linguistically annotated corpus of parliamentary debates ParlaMint-AT-en.ana (translation to English)
 
     while (<IN>) {
-	if (m|^# ParlaMint|) {
+	if (m|# ParlaMint|) {
 	    ($countryCode, $RegionalSuffix, $countryName) = m| ([A-Z]{2}(-[A-Z]{2})?) \((.+)\)$|
 	       or die "FATAL ERROR: Bad line in README.md file: $_";
 	    die "FATAL ERROR: Bad code $countryCode (!= $country) in $inFile\n" unless $country =~ /$countryCode/;

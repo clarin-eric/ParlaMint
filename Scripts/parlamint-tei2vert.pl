@@ -11,9 +11,10 @@ $outDir = shift;
 
 binmode(STDERR, 'utf8');
 
-$Saxon = 'java -jar /usr/share/java/saxon.jar';
-$TEI2VERT  = "$Bin/parlamint2xmlvert.xsl";
-$POLISH = "$Bin/parlamint-xml2vert.pl";
+$Saxon = "java -jar $Bin/bin/saxon.jar";
+
+$TEI2VERT = "$Bin/parlamint2xmlvert.xsl";
+$POLISH   = "$Bin/parlamint-xml2vert.pl";
 $Includes = "$Bin/get-includes.xsl";
 
 `mkdir $outDir` unless -e "$outDir";

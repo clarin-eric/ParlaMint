@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2" ana="#parla.sitting #covid #war">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="pl">Korpus Dyskursu Parlamentarnego ParlaMint-PL (Sejm 57.2, 2023-03-28) [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Polish parliamentary corpus ParlaMint-PL (Sejm 57.2, 2023-03-28) [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="pl">Sprawozdanie stenograficzne z obrad Sejmu RP, 9.kadencja, 57. posiedzenie, 2. dzień (2022-06-23)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Sejm of the Republic of Poland, Term 9, Session 57, Day 2 (2022-06-23)</title>
+            <meeting ana="#parla.lower">Sejm</meeting>
+            <meeting n="9-lower" ana="#parla.lower #parla.term">9. kadencja Sejmu</meeting>
+            <meeting n="57-lower" ana="#parla.lower #parla.session">57. sesja Sejmu</meeting>
+            <meeting n="2-lower" ana="#parla.lower #parla.sitting">2. dzień sesji Sejmu</meeting>
+            <respStmt>
+               <persName>Maciej Ogrodniczuk</persName>
+               <persName>Michał Lenart</persName>
+               <persName>Daniel Janus</persName>
+               <persName>Bartłomiej Nitoń</persName>
+               <persName>Michał Rudolf</persName>
+               <resp xml:lang="pl">Pobieranie danych i konwersja do TEI</resp>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="pl">Infrastruktura naukowa CLARIN ERIC</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="pl">Komisja Europejska</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="pl">Instytut Podstaw Informatyki, Polska Akademia Nauk</orgName>
+               <orgName xml:lang="en">Institute of Computer Science, Polish Academy of Sciences</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="pl">Ministerstwo Nauki i Szkolnictwa Wyższego, Polska</orgName>
+               <orgName xml:lang="en">Ministry of Science and Higher Education, Poland</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="394" xml:lang="pl">394 wypowiedzi</measure>
+            <measure unit="speeches" quantity="394" xml:lang="en">394 speeches</measure>
+            <measure unit="words" quantity="56203" xml:lang="pl">56.203 słów</measure>
+            <measure unit="words" quantity="56203" xml:lang="en">56,203 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="pl">Infrastruktura badawcza CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="pl">Ten utwór jest dostępny na <ref target="http://creativecommons.org/licenses/by/4.0/">międzynarodowej licencji Creative Commons Attribution 4.0</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-03-02">2024-03-02</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="pl">Sprawozdanie stenograficzne z obrad Sejmu RP</title>
+               <title type="main" xml:lang="en">Minutes of the Sejm of the Republic of Poland</title>
+               <publisher>Sprawozdanie stenograficzne z obrad Sejmu RP</publisher>
+               <idno type="URI" subtype="parliament">https://www.sejm.gov.pl/sejm9.nsf/wypowiedz.xsp?posiedzenie=57&amp;dzien=2&amp;wyp=0</idno>
+               <date when="2022-06-23">23.06.2022</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="pl"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="253"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="5"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="incident" occurs="34"/>
+               <tagUsage gi="kinesic" occurs="130"/>
+               <tagUsage gi="note" occurs="401"/>
+               <tagUsage gi="seg" occurs="1970"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="394"/>
+               <tagUsage gi="vocal" occurs="84"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">ul. Wiejska 4/6/8</name>
+               <name type="city">Warszawa</name>
+               <name type="country" key="PL">Poland</name>
+               <date ana="#parla.sitting" when="2022-06-23">23.06.2022</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2024-03-02">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-03-28">
+            <name>Michał Rudolf</name>: Generated corpus in Parla-CLARIN.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="pl" ana="#covid #war">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.head1">57. posiedzenie Sejmu RP 9. kadencji, dzień 2</head>
+            <note type="time" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.note1">Wznowienie posiedzenia o godz. 9</note>
+            <note type="debate" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.note2">Na posiedzeniu przewodniczą marszałek Sejmu Elżbieta Witek oraz wicemarszałkowie Ryszard Terlecki, Małgorzata Gosiewska, Małgorzata Kidawa-Błońska i Piotr Zgorzelski</note>
+            <note type="speaker" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.note3">Wicemarszałek Ryszard Terlecki:</note>
+            <u who="#RyszardTerlecki" ana="#chair" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.u1">
+               <seg xml:id="seg963379">Wznawiam posiedzenie.</seg>
+               <seg xml:id="seg963380">Na sekretarzy dzisiejszych obrad powołuję posłów Paulinę Matysiak, Aleksandrę Szczudło, Konrada Frysztaka i Daniela Milewskiego.</seg>
+               <seg xml:id="seg963381">W pierwszej części obrad sekretarzami będą posłowie Aleksandra Szczudło i Daniel Milewski.</seg>
+               <seg xml:id="seg963382">Protokół i listę mówców prowadzić będą posłowie Aleksandra Szczudło i Konrad Frysztak.</seg>
+               <seg xml:id="seg963383">Proszę panią poseł sekretarz o odczytanie komunikatów.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.note4">Sekretarz Poseł Aleksandra Szczudło:</note>
+            <u who="#AleksandraSzczudło" ana="#regular" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.u2">
+               <seg xml:id="seg963384">Informuję, że w dniu dzisiejszym odbędą się następujące posiedzenia Komisji:</seg>
+               <seg xml:id="seg963385">- Edukacji, Nauki i Młodzieży - godz. 9,</seg>
+               <seg xml:id="seg963386">- Finansów Publicznych - godz. 9,</seg>
+               <seg xml:id="seg963387">- Infrastruktury - godz. 9,</seg>
+               <seg xml:id="seg963388">- Kultury i Środków Przekazu - godz. 9,</seg>
+               <seg xml:id="seg963389">- Zdrowia - godz. 9,</seg>
+               <seg xml:id="seg963390">- Gospodarki i Rozwoju - godz. 10,</seg>
+               <seg xml:id="seg963391">- Gospodarki Morskiej i Żeglugi Śródlądowej - godz. 10,</seg>
+               <seg xml:id="seg963392">- Łączności z Polakami za Granicą - godz. 10,</seg>
+               <seg xml:id="seg963393">- Samorządu Terytorialnego i Polityki Regionalnej - godz. 10,</seg>
+               <seg xml:id="seg963394">- do Spraw Unii Europejskiej - godz. 10.30,</seg>
+               <seg xml:id="seg963395">- Cyfryzacji, Innowacyjności i Nowoczesnych Technologii - godz. 13,</seg>
+               <seg xml:id="seg963396">- do Spraw Unii Europejskiej - godz. 13,</seg>
+               <seg xml:id="seg963397">- Finansów Publicznych - godz. 13,</seg>
+               <seg xml:id="seg963398">- Infrastruktury wspólnie z Komisją Samorządu Terytorialnego i Polityki Regionalnej - godz. 13,</seg>
+               <seg xml:id="seg963399">- Spraw Zagranicznych - godz. 13,</seg>
+               <seg xml:id="seg963400">- Ustawodawczej - godz. 13,</seg>
+               <seg xml:id="seg963401">- Finansów Publicznych - godz. 14,</seg>
+               <seg xml:id="seg963402">- Kultury i Środków Przekazu - godz. 14,</seg>
+               <seg xml:id="seg963403">- Regulaminowej, Spraw Poselskich i Immunitetowych - godz. 14,</seg>
+               <seg xml:id="seg963404">- Cyfryzacji, Innowacyjności i Nowoczesnych Technologii - godz. 14.15.</seg>
+               <seg xml:id="seg963405">W dniu dzisiejszym odbędzie się również wspólne posiedzenie Parlamentarnego Zespołu na rzecz Rozwoju Elektromobilności i Energetyki Prosumenckiej oraz Parlamentarnego Zespołu ds. Energetyki oraz Transformacji Energetycznej i Górniczej w Polsce - godz. 14. Dziękuję.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#MałgorzataNiemczyk" ana="#regular" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.u393">
+               <seg xml:id="seg965343">W dniu 23 czerwca 2022 r. oświadczam, że w związku z problemami technicznymi nie mogłam oddać prawidłowo głosu podczas głosowania na 57. posiedzeniu Sejmu - głosowanie nr 54 - Sprawozdanie Komisji Edukacji, Nauki i Młodzieży o rządowym projekcie ustawy o zmianie ustawy - Karta Nauczyciela oraz niektórych innych ustaw (druki nr 2351, 2357, 2357-A) - głosowanie nad całością projektu ustawy.</seg>
+               <seg xml:id="seg965344">Moją intencją było oddanie głosu przeciw, lecz w wyniku problemów został on zaliczony przez system jako za.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.note400">Poseł Krzysztof Sobolewski:</note>
+            <u who="#KrzysztofSobolewski" ana="#regular" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.u394">
+               <seg xml:id="seg965345">Pani Marszałek! Wysoka Izbo! 230 lat temu 22 czerwca 1792 r. król Stanisław August Poniatowski po zwycięstwie w bitwie pod Zieleńcami, w czasie wojny w obronie Konstytucji 3 maja, ustanowił Order Virtuti Militari. W ciągu kolejnych ponad 200 lat honorowano nim bohaterów wszystkich wojen w obronie polskiej suwerenności.</seg>
+               <seg xml:id="seg965346">Panie i Panowie Posłowie! Do tej pory najwyższe polskie odznaczenie wojskowe otrzymało ok. 26 tys. osób. Otrzymywali go kościuszkowscy, powstańcy: listopadowi, styczniowi, wielkopolscy, śląscy i warszawscy, uczestnicy walk o niepodległość Polski, wojny polsko-bolszewickiej, kampanii 1939 r., żołnierze Polskich Sił Zbrojnych na Zachodzie i Armii Krajowej. Najmłodszym kawalerem orderu jest 13-letni Antek Petrykiewicz, który został śmiertelnie ranny podczas walk o Lwów w 1918 r., a pierwszą kobietą Joanna Żubrowa, żołnierz Armii Księstwa Warszawskiego.</seg>
+               <seg xml:id="seg965347">Panie i Panowie Posłowie! Od 1989 r. Order Virtuti Militari nie jest przyznawany. W ustawie z 1992 r. ustalono, że będzie on nadawany wyłącznie w czasie wojny lub nie później niż przez 5 lat od jej zakończenia. Skomplikowane dzieje tego odznaczenia odzwierciedlają zmienne i tragiczne losy Polski.</seg>
+               <seg xml:id="seg965348">Wysoka Izbo! Warto nadmienić, że w 1995 r. Kapituła Orderu Virtuti Militari wyjaśniła kwestie legalności nadań tego odznaczenia w okresie Polski Ludowej. W specjalnym dokumencie oznajmiła także: ˝(...) w obronie i przez szacunek dla tych niewątpliwych zasług polskich żołnierzy walczących na wszystkich frontach w obronie ojczyzny stwierdzamy jednak głośno i dobitnie, że praktyka nadań przez władze Polski Ludowej Orderów Virtuti Militari, zwłaszcza najwyższych klas nadanych w bezprecedensowej liczbie przedstawicielom obcego mocarstwa, to obraza honoru polskiego żołnierza˝.</seg>
+               <incident xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.incident27">
+                  <desc>Wysoka Izbo! Każdy, kto podróżuje po Europie, wie, że ceny w Polsce są już europejskie, tylko Polki i Polacy nadal zarabiają w złotówkach. Za przykład drożyzny niech posłużą nowe kredyty hipoteczne, o których przed chwilą mówiliśmy. W Polsce stopa oprocentowania to ok. 6,5%, a w państwach z euro to średnio ok. 2%. Czyli w euro jest trzy razy taniej.</desc>
+               </incident>
+               <incident xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.incident28">
+                  <desc>Jeżeli popatrzymy na inflację, to w kwietniu w strefie euro wyniosła ona średnio 7,4%, natomiast w Polsce - 12,4%. Niestety w Polsce płacimy także coraz więcej za towary importowane, dlatego że złoty jest bardzo słaby. I to jest tak naprawdę podatek od nieudolności obecnej władzy. Bo im słabszy rząd i im bardziej polityczny prezes banku centralnego, tym słabsza jest waluta. W Polsce ten podatek jest coraz wyższy.</desc>
+               </incident>
+               <incident xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.incident29">
+                  <desc>Dlatego dziś zwracam się do państwa z prośbą o rzeczową dyskusję na temat ścieżki dochodzenia do przyjęcia euro na odpowiednich i korzystnych dla Polaków warunkach.</desc>
+               </incident>
+               <incident xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.incident30">
+                  <desc>Informacja o wpływie interpelacji, zapytań oraz odpowiedzi na nie dostępna jest w Systemie Informacyjnym Sejmu.</desc>
+               </incident>
+               <incident xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.incident31">
+                  <desc>Na tym kończymy 57. posiedzenie Sejmu Rzeczypospolitej Polskiej.</desc>
+               </incident>
+               <incident xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.incident32">
+                  <desc>Protokół posiedzenia będzie wyłożony do przejrzenia w Sekretariacie Posiedzeń Sejmu.</desc>
+               </incident>
+               <incident xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.incident33">
+                  <desc>Porządek dzienny 58. posiedzenia Sejmu, zwołanego na dni 6 i 7 lipca 2022 r., został paniom i panom posłom doręczony.</desc>
+               </incident>
+               <incident xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.incident34">
+                  <desc>Zamykam posiedzenie.</desc>
+               </incident>
+               <kinesic type="signal" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.kinesic130">
+                  <desc>Wicemarszałek trzykrotnie uderza laską marszałkowską</desc>
+               </kinesic>
+               <note type="time" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.note401">Koniec posiedzenia o godz. 17 min 33</note>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+
