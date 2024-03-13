@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Join all ParlaMint vert files into one, in reverse chronological order
 
 use warnings;

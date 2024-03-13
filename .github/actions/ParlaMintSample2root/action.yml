@@ -1,6 +1,5 @@
 name: 'Update ParlaMint Sample root files'
 #description: ''
-inputs:
 runs:
   using: "composite"
   steps:
@@ -10,7 +9,7 @@ runs:
           for t_i in TEI_ TEI.ana_.ana en.TEI.ana_-en.ana; do
             type=${t_i%_*};
             interfix=${t_i#*_};
-            $s base=../Samples type=$type isSample=1 -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-rootTemplate.xml \
+            java -jar ./Scripts/bin/saxon.jar base=../Samples type=$type isSample=1 -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-rootTemplate.xml \
             > Samples/ParlaMint$interfix.xml ;
           done
           git status

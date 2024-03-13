@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # For MTed corpora, insert annotated sentences into skeleton TEI
 use warnings;
 use utf8;

@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Finalise ParlaMint file
 use warnings;
 use utf8;

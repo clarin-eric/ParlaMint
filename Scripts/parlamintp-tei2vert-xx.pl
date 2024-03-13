@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # A spin-off of parlamintp-tei2vert.pl to produce vertical files with en metadata
 use warnings;
 use utf8;

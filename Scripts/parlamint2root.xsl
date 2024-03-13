@@ -122,11 +122,7 @@
     <xsl:for-each select="$docs//tei:item">
       <xsl:for-each select="mk:get-teiCorpus(.)">
         <xsl:variable name="id" select="@xml:id"/>
-        <xsl:variable name="country-code">
-          <!-- Doesn't work cause of GB! -->
-          <!--xsl:value-of select=".//tei:setting/tei:name[@type='country']/@key"/-->
-          <xsl:value-of select="substring-after(@xml:id, '-')"/> <!-- TODO: not working for translated version with language suffix -->
-        </xsl:variable>
+        <xsl:variable name="country-code" select="mk:country-code(@xml:id)"/>
         <xsl:for-each select="tei:teiHeader//tei:titleStmt/tei:meeting">
           <!--meeting ana="#parla.lower #parla.term" n="54">54-ste zittingsperiode</meeting-->
           <xsl:copy>
@@ -310,8 +306,7 @@
                                     tei:teiCorpus/tei:teiHeader//tei:classDecl/
                                     tei:taxonomy[@xml:id = $id]/tei:category"
                             group-by="@xml:id">
-          <xsl:variable name="country-code" select="substring-after(
-                                            ancestor::tei:teiCorpus/@xml:id, '-')"/>
+          <xsl:variable name="country-code" select="mk:country-code(ancestor::tei:teiCorpus/@xml:id)"/>
           <category xml:id="{current-grouping-key()}">
             <xsl:for-each select="current-group()/tei:catDesc">
               <xsl:copy>
@@ -343,8 +338,7 @@
   </xsl:template>
 
   <xsl:template match="tei:category">
-    <xsl:variable name="country-code" select="substring-after(
-                                              ancestor::tei:teiCorpus/@xml:id, '-')"/> <!-- TODO: not working for translated version with language suffix -->
+    <xsl:variable name="country-code" select="mk:country-code(ancestor::tei:teiCorpus/@xml:id)"/>
     <xsl:variable name="id" select="concat(@xml:id, '-', $country-code)"/>
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -431,6 +425,11 @@
     </xsl:if>
   </xsl:template>
 
+
+  <xsl:function name="mk:country-code">
+    <xsl:param name="id"/>
+    <xsl:value-of select="replace($id,'^ParlaMint-(.*?)(?:-en)?(?:.ana)?$','$1')"/>
+  </xsl:function>
 
   <xsl:function name="mk:corresp">
     <xsl:param name="node"/>

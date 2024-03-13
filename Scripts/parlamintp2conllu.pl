@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Convert ParlaMint .ana files to CoNLL-U and validate them
 # Also produces meta-data .tsv files
 # Tomaž Erjavec <tomaz.erjavec@ijs.si>
@@ -35,6 +35,7 @@ $scriptValid   = "$Bin/bin/tools/validate.py";
 $scriptConvert = "$Bin/parlamint2conllu.xsl";
 $scriptMeta    = "$Bin/parlamint2meta.xsl";
 
+#This should be somehow factorised out!!
 $country2lang{'AT'} = 'de';
 $country2lang{'BA'} = 'sr';  # Should be 'bs', but UD does not support it!
 $country2lang{'BE'} = 'fr, nl';
@@ -66,7 +67,8 @@ $country2lang{'SE'} = 'sv';
 $country2lang{'SI'} = 'sl';
 $country2lang{'TR'} = 'tr';
 $country2lang{'UA'} = 'uk, ru';
-
+# Fake country for testing:
+$country2lang{'XX'} = 'hr'; 
 
 print STDERR "INFO: Converting directory $inDir\n";
 my $rootAnaFile = '';
@@ -79,9 +81,13 @@ foreach $inFile (glob($corpusFiles)) {
 }
 my ($country, $MT) = $rootAnaFile =~ /ParlaMint-([A-Z]{2}(?:-[A-Z0-9]{1,3})?)(?:-([a-z]{2,3}))?\.ana\.xml/
     or die "Can't find country code in root file $rootAnaFile!\n";
+
 if (defined $MT) {$langs = $MT}
-else {$langs = $country2lang{$country}}
-die "ERROR: Language is not defined for $country" unless defined $langs;
+elsif (exists($country2lang{$country}))  {$langs = $country2lang{$country}}
+else {
+    die "FATAL: Can't find mapping between country code and language(s): ".
+        "pls. add \$country2lang{'$country'} to parlamintp2conllu.pl!\n"
+}
 
 #Store all files to be processed in $fileFile
 $fileFile = "$DIR/files.lst";

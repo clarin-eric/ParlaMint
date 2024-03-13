@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # From MTed csv file + CoNLL-U file make TSV with sentence ID and translation
 # Tomaž Erjavec <tomaz.erjavec@ijs.si>
 # License: GNU GPL

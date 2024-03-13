@@ -1,0 +1,210 @@
+make[1]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+for CORPUS in AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA; do \
+make insert-metadata CORPUS=${CORPUS}; \
+done;
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-AT ../Sources-TEI/ParlaMint-AT.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-AT/ParlaMint-AT.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-AT ../Sources-TEI/ParlaMint-AT.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-AT/ParlaMint-AT.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-AT/ParlaMint-AT.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-AT/ParlaMint-AT.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-AT/ParlaMint-AT.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-AT/ParlaMint-AT.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-AT/ParlaMint-AT.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-AT/ParlaMint-AT.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BA ../Sources-TEI/ParlaMint-BA.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BA/ParlaMint-BA.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BA ../Sources-TEI/ParlaMint-BA.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BA/ParlaMint-BA.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BA/ParlaMint-BA.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BA/ParlaMint-BA.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BA/ParlaMint-BA.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BA/ParlaMint-BA.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BA/ParlaMint-BA.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BA/ParlaMint-BA.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BE ../Sources-TEI/ParlaMint-BE.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BE/ParlaMint-BE.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BE ../Sources-TEI/ParlaMint-BE.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BE/ParlaMint-BE.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BE/ParlaMint-BE.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BE/ParlaMint-BE.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BE/ParlaMint-BE.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BE/ParlaMint-BE.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BE/ParlaMint-BE.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BE/ParlaMint-BE.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BG ../Sources-TEI/ParlaMint-BG.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BG/ParlaMint-BG.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BG ../Sources-TEI/ParlaMint-BG.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BG/ParlaMint-BG.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BG/ParlaMint-BG.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BG/ParlaMint-BG.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BG/ParlaMint-BG.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BG/ParlaMint-BG.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BG/ParlaMint-BG.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-BG/ParlaMint-BG.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-CZ ../Sources-TEI/ParlaMint-CZ.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-CZ/ParlaMint-CZ.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-CZ ../Sources-TEI/ParlaMint-CZ.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-CZ/ParlaMint-CZ.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-CZ/ParlaMint-CZ.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-CZ/ParlaMint-CZ.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-CZ/ParlaMint-CZ.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-CZ/ParlaMint-CZ.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-CZ/ParlaMint-CZ.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-CZ/ParlaMint-CZ.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-DK ../Sources-TEI/ParlaMint-DK.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-DK/ParlaMint-DK.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-DK ../Sources-TEI/ParlaMint-DK.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-DK/ParlaMint-DK.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-DK/ParlaMint-DK.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-DK/ParlaMint-DK.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-DK/ParlaMint-DK.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-DK/ParlaMint-DK.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-DK/ParlaMint-DK.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-DK/ParlaMint-DK.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-EE ../Sources-TEI/ParlaMint-EE.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-EE/ParlaMint-EE.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-EE ../Sources-TEI/ParlaMint-EE.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-EE/ParlaMint-EE.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-EE/ParlaMint-EE.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-EE/ParlaMint-EE.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-EE/ParlaMint-EE.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-EE/ParlaMint-EE.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-EE/ParlaMint-EE.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-EE/ParlaMint-EE.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES ../Sources-TEI/ParlaMint-ES.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES/ParlaMint-ES.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES ../Sources-TEI/ParlaMint-ES.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES/ParlaMint-ES.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES/ParlaMint-ES.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES/ParlaMint-ES.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES/ParlaMint-ES.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES/ParlaMint-ES.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES/ParlaMint-ES.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES/ParlaMint-ES.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-CT ../Sources-TEI/ParlaMint-ES-CT.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-CT/ParlaMint-ES-CT.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-CT ../Sources-TEI/ParlaMint-ES-CT.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-CT/ParlaMint-ES-CT.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-CT/ParlaMint-ES-CT.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-CT/ParlaMint-ES-CT.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-CT/ParlaMint-ES-CT.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-CT/ParlaMint-ES-CT.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-CT/ParlaMint-ES-CT.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-CT/ParlaMint-ES-CT.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-GA ../Sources-TEI/ParlaMint-ES-GA.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-GA/ParlaMint-ES-GA.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-GA ../Sources-TEI/ParlaMint-ES-GA.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-GA/ParlaMint-ES-GA.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-GA/ParlaMint-ES-GA.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-GA/ParlaMint-ES-GA.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-GA/ParlaMint-ES-GA.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-GA/ParlaMint-ES-GA.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-GA/ParlaMint-ES-GA.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-GA/ParlaMint-ES-GA.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-PV ../Sources-TEI/ParlaMint-ES-PV.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-PV/ParlaMint-ES-PV.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-PV ../Sources-TEI/ParlaMint-ES-PV.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-PV/ParlaMint-ES-PV.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-PV/ParlaMint-ES-PV.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-PV/ParlaMint-ES-PV.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-PV/ParlaMint-ES-PV.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-PV/ParlaMint-ES-PV.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-PV/ParlaMint-ES-PV.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-ES-PV/ParlaMint-ES-PV.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-FI ../Sources-TEI/ParlaMint-FI.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-FI/ParlaMint-FI.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-FI ../Sources-TEI/ParlaMint-FI.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-FI/ParlaMint-FI.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-FI/ParlaMint-FI.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-FI/ParlaMint-FI.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-FI/ParlaMint-FI.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-FI/ParlaMint-FI.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-FI/ParlaMint-FI.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-FI/ParlaMint-FI.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-FR ../Sources-TEI/ParlaMint-FR.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-FR/ParlaMint-FR.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-FR ../Sources-TEI/ParlaMint-FR.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-FR/ParlaMint-FR.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-FR/ParlaMint-FR.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-FR/ParlaMint-FR.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-FR/ParlaMint-FR.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-FR/ParlaMint-FR.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-FR/ParlaMint-FR.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-FR/ParlaMint-FR.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-GB ../Sources-TEI/ParlaMint-GB.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-GB/ParlaMint-GB.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-GB ../Sources-TEI/ParlaMint-GB.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-GB/ParlaMint-GB.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-GB/ParlaMint-GB.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-GB/ParlaMint-GB.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-GB/ParlaMint-GB.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-GB/ParlaMint-GB.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-GB/ParlaMint-GB.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-GB/ParlaMint-GB.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-GR ../Sources-TEI/ParlaMint-GR.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-GR/ParlaMint-GR.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-GR ../Sources-TEI/ParlaMint-GR.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-GR/ParlaMint-GR.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-GR/ParlaMint-GR.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-GR/ParlaMint-GR.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-GR/ParlaMint-GR.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-GR/ParlaMint-GR.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-GR/ParlaMint-GR.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-GR/ParlaMint-GR.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-HR ../Sources-TEI/ParlaMint-HR.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-HR/ParlaMint-HR.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-HR ../Sources-TEI/ParlaMint-HR.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-HR/ParlaMint-HR.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-HR/ParlaMint-HR.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-HR/ParlaMint-HR.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-HR/ParlaMint-HR.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-HR/ParlaMint-HR.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-HR/ParlaMint-HR.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-HR/ParlaMint-HR.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-HU ../Sources-TEI/ParlaMint-HU.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-HU/ParlaMint-HU.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-HU ../Sources-TEI/ParlaMint-HU.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-HU/ParlaMint-HU.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-HU/ParlaMint-HU.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-HU/ParlaMint-HU.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-HU/ParlaMint-HU.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-HU/ParlaMint-HU.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-HU/ParlaMint-HU.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-HU/ParlaMint-HU.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-IS ../Sources-TEI/ParlaMint-IS.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-IS/ParlaMint-IS.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-IS ../Sources-TEI/ParlaMint-IS.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-IS/ParlaMint-IS.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-IS/ParlaMint-IS.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-IS/ParlaMint-IS.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-IS/ParlaMint-IS.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-IS/ParlaMint-IS.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-IS/ParlaMint-IS.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-IS/ParlaMint-IS.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-IT ../Sources-TEI/ParlaMint-IT.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-IT/ParlaMint-IT.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-IT ../Sources-TEI/ParlaMint-IT.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-IT/ParlaMint-IT.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-IT/ParlaMint-IT.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-IT/ParlaMint-IT.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-IT/ParlaMint-IT.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-IT/ParlaMint-IT.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-IT/ParlaMint-IT.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-IT/ParlaMint-IT.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-LV ../Sources-TEI/ParlaMint-LV.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-LV/ParlaMint-LV.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-LV ../Sources-TEI/ParlaMint-LV.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-LV/ParlaMint-LV.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-LV/ParlaMint-LV.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-LV/ParlaMint-LV.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-LV/ParlaMint-LV.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-LV/ParlaMint-LV.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-LV/ParlaMint-LV.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-LV/ParlaMint-LV.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-NL ../Sources-TEI/ParlaMint-NL.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-NL/ParlaMint-NL.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-NL ../Sources-TEI/ParlaMint-NL.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-NL/ParlaMint-NL.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-NL/ParlaMint-NL.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-NL/ParlaMint-NL.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-NL/ParlaMint-NL.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-NL/ParlaMint-NL.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-NL/ParlaMint-NL.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-NL/ParlaMint-NL.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-NO ../Sources-TEI/ParlaMint-NO.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-NO/ParlaMint-NO.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-NO ../Sources-TEI/ParlaMint-NO.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-NO/ParlaMint-NO.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-NO/ParlaMint-NO.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-NO/ParlaMint-NO.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-NO/ParlaMint-NO.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-NO/ParlaMint-NO.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-NO/ParlaMint-NO.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-NO/ParlaMint-NO.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-PL ../Sources-TEI/ParlaMint-PL.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-PL/ParlaMint-PL.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-PL ../Sources-TEI/ParlaMint-PL.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-PL/ParlaMint-PL.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-PL/ParlaMint-PL.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-PL/ParlaMint-PL.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-PL/ParlaMint-PL.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-PL/ParlaMint-PL.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-PL/ParlaMint-PL.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-PL/ParlaMint-PL.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-PT ../Sources-TEI/ParlaMint-PT.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-PT/ParlaMint-PT.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-PT ../Sources-TEI/ParlaMint-PT.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-PT/ParlaMint-PT.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-PT/ParlaMint-PT.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-PT/ParlaMint-PT.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-PT/ParlaMint-PT.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-PT/ParlaMint-PT.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-PT/ParlaMint-PT.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-PT/ParlaMint-PT.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-RS ../Sources-TEI/ParlaMint-RS.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-RS/ParlaMint-RS.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-RS ../Sources-TEI/ParlaMint-RS.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-RS/ParlaMint-RS.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-RS/ParlaMint-RS.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-RS/ParlaMint-RS.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-RS/ParlaMint-RS.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-RS/ParlaMint-RS.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-RS/ParlaMint-RS.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-RS/ParlaMint-RS.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-SE ../Sources-TEI/ParlaMint-SE.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-SE/ParlaMint-SE.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-SE ../Sources-TEI/ParlaMint-SE.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-SE/ParlaMint-SE.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-SE/ParlaMint-SE.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-SE/ParlaMint-SE.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-SE/ParlaMint-SE.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-SE/ParlaMint-SE.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-SE/ParlaMint-SE.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-SE/ParlaMint-SE.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-SI ../Sources-TEI/ParlaMint-SI.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-SI/ParlaMint-SI.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-SI ../Sources-TEI/ParlaMint-SI.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-SI/ParlaMint-SI.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-SI/ParlaMint-SI.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-SI/ParlaMint-SI.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-SI/ParlaMint-SI.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-SI/ParlaMint-SI.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-SI/ParlaMint-SI.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-SI/ParlaMint-SI.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-TR ../Sources-TEI/ParlaMint-TR.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-TR/ParlaMint-TR.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-TR ../Sources-TEI/ParlaMint-TR.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-TR/ParlaMint-TR.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-TR/ParlaMint-TR.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-TR/ParlaMint-TR.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-TR/ParlaMint-TR.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-TR/ParlaMint-TR.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-TR/ParlaMint-TR.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-TR/ParlaMint-TR.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[2]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-UA ../Sources-TEI/ParlaMint-UA.TEI 2>  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-UA/ParlaMint-UA.log
+../Scripts/add-metadata.pl /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-UA ../Sources-TEI/ParlaMint-UA.TEI.ana 2>> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-UA/ParlaMint-UA.log
+grep -a -i 'fatal' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-UA/ParlaMint-UA.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-UA/ParlaMint-UA.error.log
+grep -a -i 'error' /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-UA/ParlaMint-UA.log | sort | uniq >> /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-UA/ParlaMint-UA.error.log
+grep -a -i 'warn'  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-UA/ParlaMint-UA.log | sort | uniq >  /home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV/ParlaMint-UA/ParlaMint-UA.warn.log
+make[2]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+make[1]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Build/Sources-TSV'
+863.55user 78.56system 6:27.72elapsed 242%CPU (0avgtext+0avgdata 522216maxresident)k
+3608inputs+482376outputs (14major+10618728minor)pagefaults 0swaps

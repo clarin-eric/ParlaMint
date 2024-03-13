@@ -1,4 +1,5 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl
+use warnings;
 #Give a list of all characters for input files
 use utf8;
 my @INFILES = glob(shift);

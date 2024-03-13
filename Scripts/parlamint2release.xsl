@@ -12,6 +12,7 @@
      - insert textClass if missing
      - remove anonymous/unknown speaker (BG, BE, SE)
      - fix some corpus-dependent (GB) orgs and affiliations 
+     - fix bad URL idno @type and @subtype
      - fix sprurious spaces in text content (multiple, leading and trailing spaces)
      - merge overlapping affiliations
      - remove affiliations where to < from
@@ -280,6 +281,12 @@
 	  <xsl:attribute name="type">URI</xsl:attribute>
 	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
                                ': fixing idno type from url to URI for ', .)"/>
+        </xsl:when>
+	<xsl:when test="@type = 'URI' and @subtype = 'contact' and contains(., 'parliament')">
+	  <xsl:attribute name="type">URI</xsl:attribute>
+	  <xsl:attribute name="subtype">parliament</xsl:attribute>
+	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
+                               ': fixing idno subtype from contact to parliament for ', .)"/>
         </xsl:when>
       </xsl:choose>
       <xsl:value-of select="normalize-space(.)"/>
