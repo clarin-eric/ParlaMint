@@ -1,8 +1,8 @@
 # ParlaMint Sources-TSV
 
-This directory contains the TSV metadata files and the top-level listPerson and listOrg XML files that this metadata should be added to,
+This directory contains the TSV metadata files and the top-level `listPerson` and `listOrg` XML files that this metadata should be added to,
 along with the build environment (Makefile) for this metadata enrichment.
-The output listPerson and listOrg files are written to [Sources-TEI](../Sources-TEI) and overwrite these two files there.
+The output `listPerson` and `listOrg` files are written to [Sources-TEI](../Sources-TEI) and overwrite these two files there.
 
 The envisioned work-flow for adding metadata is:
 1. From the corpus in [Sources-TEI](../Sources-TEI)/ParlaMint-XX.TEI/ copy the
@@ -14,7 +14,7 @@ The envisioned work-flow for adding metadata is:
    (in this case to [Sources-TSV](../Sources-TSV)/ParlaMint-XX/Ministers-XX.edited.tsv)
 4. Edit the `.edited.` file and insert the required metadata without chaning the columns for country and
    person/organisation key.
-5. Once finished, run `make insert-metadata CORPUS=XX', which will insert the metadata in the `.edited.` TSV files
+5. Once finished, run `make insert-metadata CORPUS=XX`, which will insert the metadata in the `.edited.` TSV files
    into [Sources-TEI](../Sources-TEI)/ParlaMint-XX.TEI/ and [Sources-TEI](../Sources-TEI)/ParlaMint-XX.TEI.ana/
    `ParlaMint-XX-listPerson.xml` and/or `ParlaMint-XX-listOrg.xml` files.
 
