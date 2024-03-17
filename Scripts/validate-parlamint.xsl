@@ -391,10 +391,11 @@
     </xsl:call-template>
   </xsl:template>
 
+  <!-- If we have words, at least one of them should have a @join -->
   <xsl:template match="tei:body">
-    <xsl:if test="$type = 'ana' and not(.//tei:w[@join] or .//tei:pc[@join])">
+    <xsl:if test="$type = 'ana' and .//tei:w and not(.//tei:w[@join])">
       <xsl:call-template name="error">
-        <xsl:with-param name="msg">No @join attribute in body</xsl:with-param>
+        <xsl:with-param name="msg">No w/@join attribute in body</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
     <xsl:apply-templates/>
