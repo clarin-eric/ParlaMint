@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sr" xml:id="ParlaMint-RS_2014-11-04-0" ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="sr">Srpski parlamentarni korpus ParlaMint-RS-T10, Zasedanje 7 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Serbian parliamentary corpus ParlaMint-RS-T10, Meeting 7 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="sr">Mandat 10, Zasedanje 7</title>
+            <title type="sub" xml:lang="en">Term 10, Meeting 7</title>
+            <meeting n="10" corresp="#NS" ana="#parla.uni #parla.term #NS.10">10. mandat</meeting>
+            <meeting n="7" corresp="#NS" ana="#parla.uni #parla.meeting">Zasedanje 7</meeting>
+            <meeting n="2015-12-04" corresp="#NS" ana="#parla.uni #parla.sitting">2015-12-04</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Download and clean-up of the JSON digital source</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+               <resp xml:lang="sr">Kodiranje Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Peter Rupnik</persName>
+               <resp xml:lang="sr">Kodiranje Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="sr">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="65" xml:lang="sr">65 govora</measure>
+            <measure unit="speeches" quantity="65" xml:lang="en">65 speeches</measure>
+            <measure unit="words" quantity="31468" xml:lang="sr">31,468 reči</measure>
+            <measure unit="words" quantity="31468" xml:lang="en">31,468 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="sr">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="sr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2024-03-17">2024-03-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Minutes of the National Assembly of Serbia</title>
+               <idno type="URI" subtype="parliament">https://otvoreniparlament.rs/</idno>
+               <idno type="URI" subtype="parliament">http://www.parlament.gov.rs/</idno>
+               <date from="2014-11-03" to="2015-12-04">2014-11-03 - 2015-12-04</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="sr"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="note" occurs="65"/>
+               <tagUsage gi="seg" occurs="66"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="65"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Trg Nikole Pašića 13</name>
+               <name type="city">Belgrade</name>
+               <name type="country" key="RS">Serbia</name>
+               <date when="2014-11-04" ana="#parla.sitting">2014-11-04</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2024-03-17">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2022-12-19">
+            <name>Peter Rupnik</name> Compile from source</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <note type="speaker" xml:id="ParlaMint-RS_2014-11-04-0.note1">Gojković, Maja</note>
+            <u who="#GojkovićMaja" ana="#chair" n="ParlaMint-SR_T10.S7.u12875" xml:id="ParlaMint-RS_2014-11-04-0.u12875">
+               <seg xml:id="ParlaMint-RS_2014-11-04-0.u12875.seg0">Poštovane dame i gospodo narodni poslanici, nastavljamo rad Sedme sednice Drugog redovnog zasedanja Narodne skupštine Republike Srbije u 2014. godini. Na osnovu službene evidencije o prisutnosti narodnih poslanika, konstatujem da sednici prisustvuje 94 narodna poslanika. Radi utvrđivanja broja narodnih poslanika prisutnih u sali, molim narodne poslanike da ubace svoje identifikacione kartice u poslaničke jedinice elektronskog sistema za glasanje. Konstatujem da je primenom elektronskog sistema za glasanje utvrđeno da je u sali prisutno 95 narodnih poslanika, odnosno da su prisutna najmanje 84 narodna poslanika i da postoje uslovi za rad Narodne skupštine. Da li neko od predsednika, odnosno ovlašćenih predstavnika poslaničkih grupa želi da zatraži obaveštenje ili objašnjenje u skladu sa članom 287. Poslovnika? (Da) Reč ima narodni poslanik Aleksandar Čotrić.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-RS_2014-11-04-0.note2">Čotrić, Aleksandar</note>
+            <u who="#ČotrićAleksandar" ana="#regular" n="ParlaMint-SR_T10.S7.u12876" xml:id="ParlaMint-RS_2014-11-04-0.u12876">
+               <seg xml:id="ParlaMint-RS_2014-11-04-0.u12876.seg0">Poštovana gospođo predsednice, dame i gospodo narodni poslanici, u Ustavu Republike Srbije zapisano je da je obaveza naše države da razvija i unapređuje odnose sa Srbima u inostranstvu. Moje pitanje je upućeno Ministarstvu spoljnih poslova Vlade Republike Srbije, a odnosi se na položaj Srba u Republici Albaniji. Naime, procenjuje se da u ovoj zemlji živi oko 30.000 pripadnika našeg naroda koji su diskriminisani po svim osnovima, kako u zakonu, tako i u praksi. Naime, srpskoj zajednici koja u ovoj državi živi već vekovima preti potpuni nestanak, odnosno asimilacija. Srbi, šta više, nemaju pravo da se na popisima stanovništva, koji se na svakih 10 godina obavljaju u Albaniji, izjasne o svojoj nacionalnoj i verskoj pripadnosti. Pitanje šta ćemo učiniti u bilateralnim odnosima sa Republikom Albanijom, šta ćemo učiniti u kontaktima sa međunarodnom zajednicom kako bi se poštovala Okvirna konvencija Saveta Evrope o zaštiti nacionalnih manjina, koju je ratifikovao i parlament Albanije pre 10 godina, ali je ne primenjuje? Smatramo da naša Vlada, a biće prilike za to u kontaktima sa predstavnicima albanske Vlade, treba da insistira na tome da se pripadnicima srpske zajednice u Albaniji omogući slobodno nacionalno i versko izjašnjavanje, da im se omogući slobodna upotreba srpskog jezika i isticanje nacionalnih simbola. Sve ovo im nije dozvoljeno, šta više, oni su u matičnim knjigama svi zavedeni kao Albanci, njihova lična imena i prezimena su albanizovana. Njima jeste formalno omogućeno da vrate svoja originalna imena, ali uz jednu veoma komplikovanu i skupu proceduru, čija cena dostiže i do preko 1.000 evra. Smatramo da se mora insistirati na tome da se srpskoj zajednici u Albaniji omogući školovanje na svoj jeziku u javnim školama Albanije, da im se omogući političko predstavljanje u parlamentu Albanije, kao i na drugim nivoima vlasti. Od Albanije treba tražiti da stane u zaštitu kulturnih dobara i tradicije srpskog naroda na tlu ove države, a svakako da treba otpočeti razgovore o zaključivanju sporazuma o zaštiti nacionalnih manjina između Srbije i Republike Albanije, koji bi se odnosio na zaštitu prava albanske manjine u Srbiji i iste takve zaštite nacionalnih, kulturnih, verskih i drugih prava srpskog naroda u Albaniji. U Skadru i gradu Fijer, koji se nalazi u centralnoj Albaniji, postoje škole na srpskom jezikom, koje se održavaju u privatnim objektima, uz pomoć bivšeg Ministarstva za dijasporu i Srbe u regionu, koje finansira takav projekat. Međutim, to očigledno nije dovoljno i neophodno je da se uspostave škole koje će omogućiti školovanje na maternjem srpskom jeziku pripadnicima našeg naroda i da takvi programi uđu u program Ministarstva prosvete Republike Srbije, naravno, uz adekvatno zaključivanje sporazuma sa resornim ministarstvima Republike Albanije. Neophodno je pružiti daleko značajniju finansijsku pomoć radu kulturno-prosvetnih udruženja Srba u Albaniji, pre svega Udruženju srpske manjine „Morača-Rozafa“, koje je reprezentativno udruženje našeg naroda u ovoj zemlji i da se njihov rad finansira kontinuirano, da to finansiranje bude usklađeno sa načinom na koji, recimo, država Srbija finansira rad organizacija albanske manjine u našoj zemlji. Ono što je takođe značajno jeste da bi trebalo omogućiti za 30.000 pripadnika srpskog naroda u Albaniji koji to žele, da državljanstvo Republike Srbije mogu da dobiju po daleko jednostavnijoj proceduri i uz mnogo manje administrativnih prepreka nego što je to do sada bio slučaj. Za sam kraj, trebalo bi omogućiti nesmetano delovanje SPC, koja ima značajnu duhovnu, kulturnu i tradicionalnu ulogu svuda, pa i kada su u pitanju Srbi u Albaniji. Hvala.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#LončarZlatibor" ana="#regular" n="ParlaMint-SR_T10.S7.u12938" xml:id="ParlaMint-RS_2014-11-04-0.u12938">
+               <seg xml:id="ParlaMint-RS_2014-11-04-0.u12938.seg0">Prvo se zahvaljujem na diskusiji svima. Želim da kažem da su ova dva zakona o kojima danas govorimo samo preduslov da bi mi mogli da uspostavimo jedan sistem i da krenemo iz ove situacije u kojoj se nalazi srpsko zdravstvo. Znači, još jednom ponavljam, samo preduslov da krenemo dalje. Konkretno, za šta je ovo preduslov? Ovo je preduslov da u 2015. godini uradimo jedinstven informacioni sistem u zdravstvu Srbije. Jer, bez urađenog informacionog sistema mi ne možemo ni da imamo uvid, niti da znamo kako se radi, koliko se radi i kakvi su naši rezultati u zdravstvu. Apsolutno podržavam da se ispita gde je završio sav novac koji je bio namenjen za zdravstvo. Ako vam kažem da po svim proračunima onaj novac koji je uložen za informacione sisteme do sada je bio dovoljan da mi budemo jedan od najopremljenijih sistema u Evropi, a činjenica je da mi ne da nismo opremljeni, nego tek se opremamo, a onda dođete i zateknete situaciju – šta da radite? Količina novca je potrošena da se nešto uradi, a toga nema. Šta je urađeno? Taj sistem je razbijen, različit je od bolnice do bolnice, od doma zdravlja do doma zdravlja, ambulante, a on ne funkcioniše. Znači, niti možete da krenete ispočetka, niti vam taj sistem služi ičemu sada, za onu pravu svrhu, za zdravstveni sistem Srbije da krene napred. Došli smo u situaciju da moramo, to je kao kad imate grane i sada morate da ih uvežete na jedno drvo, da ih stavite i da ih spojite sve da bi mi iskoristili maksimalno od onoga za šta su već potrošene pare i da minimalno uložimo sada da bi sve to uvezali i da to funkcioniše. Šta nam znači da bi to moglo da funkcioniše? Znači nam sledeće. Evo, pominjete svi da izjednačimo i privatno zdravstveno. Pa, kako ćete da izjednačite nešto ako nemate pregled situacije, ako nemate sistem u kome znate šta se radi u privatnom sektoru? Podsetiću vas, pre par nedelja bio sam na sastanku sa privatnicima, ljudi su se apsolutno složili. Šta ćemo, čija će odgovornost da bude danas da uzmete da napravite ugovore sa privatnim klinikama bez dovoljno informacija? Kad ste poslali pacijenta tamo platili ste, desi se nešto i šta ćemo, kako ćemo? Kako da znamo koji su kapaciteti tih ordinacija? Kako da znamo s kojim kadrom raspolažu kada nemamo regulisano ko radi gde prepodne, ko radi gde poslepodne, ko radi vikendom i gde radi? Dajte da vidimo sa čime raspolažemo i na šta možemo da računamo. Mislim stvarno da je ovo jedini način da na nekom pravnom temelju napravimo sistem, da imamo presek. Po ovom zakonu mi ćemo imati presek i u državnim i u privatnim ustanovama i videti sa čime raspolažemo i u jednom i u drugom sektoru, videti gde imamo manjka kapaciteta u državnom i gde možemo i šta je najbolje u privatnom sektoru da uspostavimo saradnju sa njima. Ali, slažete se da ne možemo to da uradimo ad hok – eto tako, čuli smo za neku ordinaciju, čuli smo za ovo. Pa, setite se šta je bilo sa veštačkom oplodnjom, sa privatnim klinikama. Rezultati najgori, u Evropi najgori, a cene najveće. Gde su nas priznali, u kom udruženju? Pa, je li to normalno? Do juče ste mi pričali da ne valja rad Fond, pa krenemo da menjamo sistem, a sada kažete da je dobar Fond. Dajte da se odlučimo samo da li je dobar ili je loš, nemam ništa protiv. Vi ste mi pričali juče da Fond ne valja, izuzeo se kontroli i svemu ovome. Da bi uspostavili sistem, ovo je preduslov da možemo da uključimo i privatni sektor, da imamo pregled situacije i da napravimo informacioni sistem za Srbiju, jer to će ostati. Mi dalje ne možemo da idemo bez toga, jer ovo ne može da funkcioniše. Mislim da će se istražiti sve gde je potrošen taj novac. Kada uspostavimo taj sistem, onda idemo da uspostavimo cene, koje postoje cene u državnom sektoru, u privatnom sektoru. Nema razloga da te cene budu različite. Vezano za zapošljavanje. Zapošljavanja u zdravstvu će biti i biće ga već sledeće nedelje, za zdravstvene radnike, za lekare i za medicinsko osoblje, jer smo hteli da sagledamo šta je ono šta nam fali, da bi nam sistem funkcionisao. Pominjali ste – to će biti prepreka, ne možemo da zaposlimo ljude. Ne, sledeće nedelje ćemo ih zaposliti. Komisija Vlade koja postoji će odlučivati o našim zahtevima šta nam je neophodno od kadra da bi funkcionisali. Ovo nema veze sad sa dnevnopolitičkim stvarima. Sistem mora da funkcioniše, ljudi moraju da se leče. Da su plate male, male su. Razgovarali smo sa sindikatima i razgovaramo. Ljudi razumeju da ima problem. U 90% slučajeva se slažemo i sindikati su saglasni, većina sindikata je saglasna i situacije u kojoj se mi nalazimo i poteza koje trebamo da radimo. Razumem situaciju u kojoj se nalazi država i budžet, ali ćemo biti prvi da kada se oporavimo, kada budemo u boljoj situaciji, da se prvima u zdravstvu povećaju plate i sve drugo što može, ali, dotle moramo da regulišemo ove stvari koje postoje - gde radimo, kada radimo, da li smo pre podne u državnoj, da li smo popodne u privatnoj. Šta ima država od toga? Ljudi plaćaju jedno osiguranje, obavezno, a onda popodne plaćaju kod privatnika, a država to i ne vidi, ne prepoznaje. Pola ide ordinaciji, pola ide lekaru, nigde se ne vodi. I onda, da li su realne te plate. Imate 90% slučajeva, da ne kažem 90%, ne znam, koji rade samo za tu platu, koji nema mogućnosti da ode negde privatno da radi. Taj koji radi pre podne u državnoj, a popodne u privatnoj, on zauzima mesto, jer bi na njegovom mestu morali da prime nekog sa biroa. Šta je sporno? Koja je dokazana vrednost u medicini? Šta je sporno da izađe na tržište i da radi privatno? Ne može da bude ulaganje državno, a korist njegova. Po podne radi ovamo, a ovamo gradi karijeru i sve ostalo. To su naše realnosti. To su realnosti, a ovo, još jednom ponavljam, je preduslov da bi mi krenuli sa mrtve tačke. Još jedna stvar. Mi smo trenutno u fotofinišu za ocenjivanje za ovu godinu, da li ćemo biti poslednji? Radimo sve, jer bi to bio istorijski uspeh da mi za par meseci pomerimo, ne budemo na poslednjem mestu. Zdravstvo nije stvar koja ima veze sa dnevnom politikom, jer ne može normalan čovek to tako da gleda. Valjda je svakom stalo da ovde ljudi imaju sigurnost. Šta ćemo mi da se svađamo, a šta je najveći strah kod ljudi? Pa, za zdravlje i da li će moći da mu se pruži pomoć. Da li mi takav primer treba da šaljemo odavde. Dajte da budemo konstruktivni, dajte da napredujemo, danas sam ja ovde, sutra je on, kakav je to problem. Mora da postoji sistem, morate da dođete na sistem i da ne razmišljate, samo da se unapređuje, a ne da se urušava. Hvala vam svima.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-RS_2014-11-04-0.note65">Gojković, Maja</note>
+            <u who="#GojkovićMaja" ana="#chair" n="ParlaMint-SR_T10.S7.u12939" xml:id="ParlaMint-RS_2014-11-04-0.u12939">
+               <seg xml:id="ParlaMint-RS_2014-11-04-0.u12939.seg0">Zahvaljujem ministru. Zaključujem zajednički načelni pretres o Predlozima zakona iz tačaka 3. i 4. dnevnog reda. Prelazimo na zajednički jedinstveni predlog o Predlogu odluke o izmeni Odluke o izboru članova i zamenika članova odbora Narodne skupštine Repbulike Srbije i Predlogu odluke o imenovanju predsednika i potpredsednika Parlamentarnog odboraza stabilizaciju i pridruživanje. Saglasno odluci Narodne skupštine da se obavi zajednički jedinstveni pretres o predlozimaodluke iz tačaka 5. i 6.dnevnog reda, podsećam vas da je ukupno vreme rasprave za poslaničke grupe iznosi pet časova. Molim poslaničke grupe, ukoliko to već nisu učinile da odmah podnesu prijave za reč sa redosledom narodnih poslanika, radi se o tačkama 5. i 6. dnevnog reda. Saglasno članu 192. stav 3, a shodno članu 157. stav 2. Poslovnika Narodne skupštine, otvaram zajednički jedinstveni pretres o: Predlogu odluke o izmeni Odluke o izboru članova i zamenika članova odbora Narodne skupštine Repbulike Srbije i Predlogu odluke o imenovanju predsednika i potpredsednika Parlamentarnog odboraza stabilizaciju i pridruživanje. Da li predstavnici predlagača žele reč? (Ne.) Da li predsednici, odnosno predstavnici poslaničkih grupa žele reč? (Ne.) Da li neko od narodnih poslanika želi reč?(Ne.) Pošto na listama nema prijavljenih za reč, a pre zaključivanja zajedničkog jedinstvenog pretresa, pitam da li neko ko nije iskoristio svoje pravo iz člana 96. želi reč?(Niko.) Zaključujem zajednički jedinstveni pretres i povodom tačaka 5. i 6. dnevnog reda. Ovim smo završili današnji rad. Nastavak sednice je sutra u 10,00 časova, po amandmanima na prve dve tačke dnevnog reda.</seg>
+               <seg xml:id="ParlaMint-RS_2014-11-04-0.u12939.seg1">Poštovane dame i gospodo narodni poslanici, nastavljamo rad Sedme sednice Drugog redovnog zasedanja Narodne skupštine Republike Srbije u 2014. godini. Na osnovu službene evidencije o prisutnosti narodnih poslanika, konstatujem da sednici prisustvuje 86 narodnih poslanika. Radi utvrđivanja broja narodnih poslanika prisutnih u sali, molim narodne poslanike da ubace svoje identifikacione kartice u poslaničke jedinice elektronskog sistema za glasanje. Konstatujem da je primenom elektronskog sistema za glasanje utvrđeno da je u sali prisutno 105 narodnih poslanika, odnosno da su prisutna najmanje 84 narodna poslanika i da postoje uslovi za rad Narodne skupštine. Obaveštavam vas da su sprečeni da sednici prisustvuju sledeći narodni poslanici: Momo Čolaković i Konstantin Arsenović. Nastavljamo rad i prelazimo na pretres u pojedinostima o 1. tački dnevnog reda – PREDLOGU ZAKONA O IZMENAMA I DOPUNAMA ZAKONA O JAVNOM BELEŽNIŠTVU Poštovani narodni poslanici, pre nego što nastavimo rad, dozvolite mi da u vaše i svoje ime pozdravim studente Pravnog fakulteta Univerziteta u Kragujevcu, koji trenutno prate deo današnje sednice sa galerije Velike sale. Zahvaljujem. Saglasno članu 90. stav 1. Poslovnika Narodne skupštine, obaveštavam vas da sam pored predstavnika predlagača Nikole Selakovića, ministra pravde pozvala da današnjoj sednici prisustvuju i Biljana Pavlović, državni sekretar u Ministarstvu pravde, Nela Kuburović, pomoćnik ministra pravde, Jovan Ćosić, šef Odseka u Ministarstvu pravde i Zlatko Petrović, viši savetnik u Ministarstvu pravde. Primili ste amandmane koje su na Predlog zakona podneli narodni poslanici Borislav Stefanović, Vesna Martinović, Balša Božović, Dragan Šutanovac, Gordana Čomić, mr Aleksandra Jerkov, Neđo Jovanović, Olena Papuga, Nada Lazić, mr Dejan Čapo i Ivan Jovanović. Primili ste Izveštaj Odbora za ustavna pitanja i zakonodavstvo i Odbora za pravosuđe, državnu upravu i lokalnu samoupravu, kao i mišljenje Vlade o podnetim amandmanima. Pošto je Narodna skupština obavila načelni pretres, saglasno članu 157. stav 3. Poslovnika Narodne skupštine, otvaram pretres Predloga zakona u pojedinostima. Na član 1. amandman su zajedno podneli narodni poslanici Borislav Stefanović, Vesna Martinović i Balša Božović. Vlada i Odbor za pravosuđe, državnu upravu i lokalnu samoupravu nisu prihvatili amandman. Odbor za ustavna pitanja i zakonodavstvo smatra da je amandman u skladu sa Ustavom i pravnim sistemom. Da li neko želi reč? Reč ima narodni poslanik, Vesna Martinović.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

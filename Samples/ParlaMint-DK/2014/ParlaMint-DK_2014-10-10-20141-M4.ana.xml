@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="da" xml:id="ParlaMint-DK_2014-10-10-20141-M4.ana" ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">The Danish parliamentary corpus ParlaMint-DK, Session 20141, Sitting M4 [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="da">Det danske korpus ParlaMint-DK, folketingsåret 20141, møde M4 [ParlaMint.ana SAMPLE]</title>
+            <title type="sub" xml:lang="en">Hansard of the session of the Danish Parliament (Folketinget), 20141, M4 (2014-10-10), final version</title>
+            <title type="sub" xml:lang="da">Referat fra folketingssalen, folketingsåret 20141, møde M4 (2014-10-10) endelig version</title>
+            <meeting n="2014-2015" corresp="#FT" ana="#parla.term #FT.14">Regeringen Helle Thorning-Schmidt II</meeting>
+            <meeting n="20141" ana="#parla.uni #parla.session">20141</meeting>
+            <meeting n="4" ana="#parla.uni #parla.meeting">M4</meeting>
+            <respStmt>
+               <persName>Bart Jongejan</persName>
+               <persName>Dorte Haltrup Hansen</persName>
+               <persName>Costanza Navarretta</persName>
+               <resp xml:lang="en">Data retrieval, linguistic annotation, and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">Department of Nordic Studies and Linguistics (NorS), University of Copenhagen</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="109" xml:lang="en">109 speeches</measure>
+            <measure unit="words" quantity="13527" xml:lang="en">13,527 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-03-18">2024-03-18</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Hansards of the Danish Parliament</title>
+               <publisher xml:lang="en">The Danish Parliament</publisher>
+               <idno type="URI" subtype="parliament">https://www.ft.dk/</idno>
+               <date when="2014-10-10">2014-10-10</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="3"/>
+               <tagUsage gi="head" occurs="3"/>
+               <tagUsage gi="link" occurs="15660"/>
+               <tagUsage gi="linkGrp" occurs="638"/>
+               <tagUsage gi="name" occurs="126"/>
+               <tagUsage gi="note" occurs="3"/>
+               <tagUsage gi="pc" occurs="2133"/>
+               <tagUsage gi="s" occurs="638"/>
+               <tagUsage gi="seg" occurs="109"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="109"/>
+               <tagUsage gi="w" occurs="13527"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Folketinget, Christiansborg</name>
+               <name type="city">1240 Copenhagen K</name>
+               <name type="country" key="DK">Denmark</name>
+               <date ana="#parla.sitting" when="2014-10-10">2014-10-10</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2024-03-18">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-01-29">
+            <name>Dorte Haltrup Hansen</name>: Generated corpus in ParlaMint.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="da" ana="#reference">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-DK_2014-10-10-20141-M4.head1">Punkt 0</head>
+            <note type="agendaItem" xml:id="ParlaMint-DK_2014-10-10-20141-M4.note1">2014-10-10-0</note>
+            <u who="#LoklindtLone" xml:id="ParlaMint-DK_20141010100005" ana="#chair #domain.other">
+               <seg xml:id="ParlaMint-DK_20141010100005.seg1">
+                  <s xml:id="ParlaMint-DK_20141010100005.seg1.1">
+<w lemma="møde" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing" xml:id="ParlaMint-DK_20141010100005.seg1.1.1">Mødet</w>
+<w lemma="være" msd="UPosTag=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20141010100005.seg1.1.2">er</w>
+<w lemma="åbne" msd="UPosTag=VERB|Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part" join="right" xml:id="ParlaMint-DK_20141010100005.seg1.1.3">åbnet</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010100005.seg1.1.4">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:nsubj" target="#ParlaMint-DK_20141010100005.seg1.1.3 #ParlaMint-DK_20141010100005.seg1.1.1"/>
+<link ana="ud-syn:aux" target="#ParlaMint-DK_20141010100005.seg1.1.3 #ParlaMint-DK_20141010100005.seg1.1.2"/>
+<link ana="ud-syn:root" target="#ParlaMint-DK_20141010100005.seg1.1 #ParlaMint-DK_20141010100005.seg1.1.3"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010100005.seg1.1.3 #ParlaMint-DK_20141010100005.seg1.1.4"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-DK_20141010100005.seg1.2">
+<w lemma="i" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20141010100005.seg1.2.1">I</w>
+<w lemma="dag" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" join="right" xml:id="ParlaMint-DK_20141010100005.seg1.2.2">dag</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010100005.seg1.2.3">,</pc>
+<w lemma="fredag" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20141010100005.seg1.2.4">fredag</w>
+<w lemma="den" msd="UPosTag=DET|Gender=Com|Number=Sing|PronType=Dem" xml:id="ParlaMint-DK_20141010100005.seg1.2.5">den</w>
+<w lemma="10." msd="UPosTag=ADJ|NumType=Ord" xml:id="ParlaMint-DK_20141010100005.seg1.2.6">10.</w>
+<w lemma="oktober" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20141010100005.seg1.2.7">oktober</w>
+<w lemma="2014" msd="UPosTag=NUM|NumType=Card" join="right" xml:id="ParlaMint-DK_20141010100005.seg1.2.8">2014</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010100005.seg1.2.9">,</pc>
+<w lemma="være" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20141010100005.seg1.2.10">er</w>
+<w lemma="der" msd="UPosTag=ADV|PartType=Inf" xml:id="ParlaMint-DK_20141010100005.seg1.2.11">der</w>
+<w lemma="følge" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" xml:id="ParlaMint-DK_20141010100005.seg1.2.12">følgende</w>
+<w lemma="anmeldelse" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" join="right" xml:id="ParlaMint-DK_20141010100005.seg1.2.13">anmeldelse</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010100005.seg1.2.14">:</pc>
+                     <name type="PER">
+<w lemma="Per" msd="UPosTag=PROPN" xml:id="ParlaMint-DK_20141010100005.seg1.2.15">Per</w>
+<w lemma="Clausen" msd="UPosTag=PROPN" xml:id="ParlaMint-DK_20141010100005.seg1.2.16">Clausen</w>
+                     </name>
+<pc msd="UPosTag=PUNCT" join="right" xml:id="ParlaMint-DK_20141010100005.seg1.2.17">(</pc>
+                     <name type="ORG">
+<w lemma="EL" msd="UPosTag=INTJ" join="right" xml:id="ParlaMint-DK_20141010100005.seg1.2.18">EL</w>
+                     </name>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010100005.seg1.2.19">)</pc>
+<w lemma="m.fl." msd="UPosTag=ADV" xml:id="ParlaMint-DK_20141010100005.seg1.2.20" join="right">m.fl.</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010100005.seg1.2.21">:</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:case" target="#ParlaMint-DK_20141010100005.seg1.2.4 #ParlaMint-DK_20141010100005.seg1.2.1"/>
+<link ana="ud-syn:fixed" target="#ParlaMint-DK_20141010100005.seg1.2.1 #ParlaMint-DK_20141010100005.seg1.2.2"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010100005.seg1.2.1 #ParlaMint-DK_20141010100005.seg1.2.3"/>
+<link ana="ud-syn:obl" target="#ParlaMint-DK_20141010100005.seg1.2.10 #ParlaMint-DK_20141010100005.seg1.2.4"/>
+<link ana="ud-syn:det" target="#ParlaMint-DK_20141010100005.seg1.2.7 #ParlaMint-DK_20141010100005.seg1.2.5"/>
+<link ana="ud-syn:amod" target="#ParlaMint-DK_20141010100005.seg1.2.7 #ParlaMint-DK_20141010100005.seg1.2.6"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-DK_20141010100005.seg1.2.4 #ParlaMint-DK_20141010100005.seg1.2.7"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-DK_20141010100005.seg1.2.7 #ParlaMint-DK_20141010100005.seg1.2.8"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010100005.seg1.2.4 #ParlaMint-DK_20141010100005.seg1.2.9"/>
+<link ana="ud-syn:root" target="#ParlaMint-DK_20141010100005.seg1.2 #ParlaMint-DK_20141010100005.seg1.2.10"/>
+<link ana="ud-syn:expl" target="#ParlaMint-DK_20141010100005.seg1.2.10 #ParlaMint-DK_20141010100005.seg1.2.11"/>
+<link ana="ud-syn:amod" target="#ParlaMint-DK_20141010100005.seg1.2.13 #ParlaMint-DK_20141010100005.seg1.2.12"/>
+<link ana="ud-syn:obj" target="#ParlaMint-DK_20141010100005.seg1.2.10 #ParlaMint-DK_20141010100005.seg1.2.13"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010100005.seg1.2.10 #ParlaMint-DK_20141010100005.seg1.2.14"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-DK_20141010100005.seg1.2.10 #ParlaMint-DK_20141010100005.seg1.2.15"/>
+<link ana="ud-syn:flat" target="#ParlaMint-DK_20141010100005.seg1.2.15 #ParlaMint-DK_20141010100005.seg1.2.16"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010100005.seg1.2.18 #ParlaMint-DK_20141010100005.seg1.2.17"/>
+<link ana="ud-syn:flat" target="#ParlaMint-DK_20141010100005.seg1.2.15 #ParlaMint-DK_20141010100005.seg1.2.18"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010100005.seg1.2.18 #ParlaMint-DK_20141010100005.seg1.2.19"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-DK_20141010100005.seg1.2.15 #ParlaMint-DK_20141010100005.seg1.2.20"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010100005.seg1.2.10 #ParlaMint-DK_20141010100005.seg1.2.21"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-DK_20141010100005.seg1.3">
+<w lemma="beslutningsforslage" msd="UPosTag=VERB|Mood=Imp" xml:id="ParlaMint-DK_20141010100005.seg1.3.1">Beslutningsforslag</w>
+<w lemma="nr." msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" xml:id="ParlaMint-DK_20141010100005.seg1.3.2">nr.</w>
+<w lemma="b" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" xml:id="ParlaMint-DK_20141010100005.seg1.3.3">B</w>
+<w lemma="9" msd="UPosTag=NUM|NumType=Card" xml:id="ParlaMint-DK_20141010100005.seg1.3.4">9</w>
+<pc msd="UPosTag=PUNCT" join="right" xml:id="ParlaMint-DK_20141010100005.seg1.3.5">(</pc>
+<w lemma="forslage" msd="UPosTag=VERB|Mood=Imp" xml:id="ParlaMint-DK_20141010100005.seg1.3.6">Forslag</w>
+<w lemma="til" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20141010100005.seg1.3.7">til</w>
+<w lemma="folketingsbeslutning" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20141010100005.seg1.3.8">folketingsbeslutning</w>
+<w lemma="om" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20141010100005.seg1.3.9">om</w>
+<w lemma="forsøg" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" xml:id="ParlaMint-DK_20141010100005.seg1.3.10">forsøg</w>
+<w lemma="med" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20141010100005.seg1.3.11">med</w>
+<w lemma="bundfradrag" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Plur" xml:id="ParlaMint-DK_20141010100005.seg1.3.12">bundfradrag</w>
+<w lemma="og" msd="UPosTag=CCONJ" xml:id="ParlaMint-DK_20141010100005.seg1.3.13">og</w>
+<w lemma="progressiv" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Plur" xml:id="ParlaMint-DK_20141010100005.seg1.3.14">progressiv</w>
+<w lemma="afgive" msd="UPosTag=VERB|Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part" xml:id="ParlaMint-DK_20141010100005.seg1.3.15">afgift</w>
+<w lemma="på" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20141010100005.seg1.3.16">på</w>
+<w lemma="energi" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20141010100005.seg1.3.17">energi</w>
+<w lemma="og" msd="UPosTag=CCONJ" xml:id="ParlaMint-DK_20141010100005.seg1.3.18">og</w>
+<w lemma="vand" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" join="right" xml:id="ParlaMint-DK_20141010100005.seg1.3.19">vand</w>
+<pc msd="UPosTag=PUNCT" join="right" xml:id="ParlaMint-DK_20141010100005.seg1.3.20">)</pc>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010100005.seg1.3.21">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#ParlaMint-DK_20141010100005.seg1.3 #ParlaMint-DK_20141010100005.seg1.3.1"/>
+<link ana="ud-syn:obj" target="#ParlaMint-DK_20141010100005.seg1.3.1 #ParlaMint-DK_20141010100005.seg1.3.2"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-DK_20141010100005.seg1.3.2 #ParlaMint-DK_20141010100005.seg1.3.3"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-DK_20141010100005.seg1.3.3 #ParlaMint-DK_20141010100005.seg1.3.4"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010100005.seg1.3.6 #ParlaMint-DK_20141010100005.seg1.3.5"/>
+<link ana="ud-syn:xcomp" target="#ParlaMint-DK_20141010100005.seg1.3.1 #ParlaMint-DK_20141010100005.seg1.3.6"/>
+<link ana="ud-syn:case" target="#ParlaMint-DK_20141010100005.seg1.3.8 #ParlaMint-DK_20141010100005.seg1.3.7"/>
+<link ana="ud-syn:obl" target="#ParlaMint-DK_20141010100005.seg1.3.6 #ParlaMint-DK_20141010100005.seg1.3.8"/>
+<link ana="ud-syn:case" target="#ParlaMint-DK_20141010100005.seg1.3.10 #ParlaMint-DK_20141010100005.seg1.3.9"/>
+<link ana="ud-syn:obl" target="#ParlaMint-DK_20141010100005.seg1.3.6 #ParlaMint-DK_20141010100005.seg1.3.10"/>
+<link ana="ud-syn:case" target="#ParlaMint-DK_20141010100005.seg1.3.12 #ParlaMint-DK_20141010100005.seg1.3.11"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-DK_20141010100005.seg1.3.10 #ParlaMint-DK_20141010100005.seg1.3.12"/>
+<link ana="ud-syn:cc" target="#ParlaMint-DK_20141010100005.seg1.3.14 #ParlaMint-DK_20141010100005.seg1.3.13"/>
+<link ana="ud-syn:conj" target="#ParlaMint-DK_20141010100005.seg1.3.12 #ParlaMint-DK_20141010100005.seg1.3.14"/>
+<link ana="ud-syn:xcomp" target="#ParlaMint-DK_20141010100005.seg1.3.6 #ParlaMint-DK_20141010100005.seg1.3.15"/>
+<link ana="ud-syn:case" target="#ParlaMint-DK_20141010100005.seg1.3.17 #ParlaMint-DK_20141010100005.seg1.3.16"/>
+<link ana="ud-syn:obl" target="#ParlaMint-DK_20141010100005.seg1.3.15 #ParlaMint-DK_20141010100005.seg1.3.17"/>
+<link ana="ud-syn:cc" target="#ParlaMint-DK_20141010100005.seg1.3.19 #ParlaMint-DK_20141010100005.seg1.3.18"/>
+<link ana="ud-syn:conj" target="#ParlaMint-DK_20141010100005.seg1.3.17 #ParlaMint-DK_20141010100005.seg1.3.19"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010100005.seg1.3.6 #ParlaMint-DK_20141010100005.seg1.3.20"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010100005.seg1.3.1 #ParlaMint-DK_20141010100005.seg1.3.21"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-DK_20141010100005.seg1.4">
+<w lemma="titel" msd="UPosTag=NOUN|Definite=Def|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20141010100005.seg1.4.1">Titlen</w>
+<w lemma="på" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20141010100005.seg1.4.2">på</w>
+<w lemma="den" msd="UPosTag=DET|Gender=Com|Number=Sing|PronType=Dem" xml:id="ParlaMint-DK_20141010100005.seg1.4.3">den</w>
+<w lemma="anmeldt" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Number=Sing" xml:id="ParlaMint-DK_20141010100005.seg1.4.4">anmeldte</w>
+<w lemma="sag" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20141010100005.seg1.4.5">sag</w>
+<w lemma="ville" msd="UPosTag=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20141010100005.seg1.4.6">vil</w>
+<w lemma="fremgå" msd="UPosTag=VERB|VerbForm=Inf|Voice=Act" xml:id="ParlaMint-DK_20141010100005.seg1.4.7">fremgå</w>
+<w lemma="af" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20141010100005.seg1.4.8">af</w>
+<w lemma="www.folketingstidende.dk" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20141010100005.seg1.4.9">www.folketingstidende.dk</w>
+<pc msd="UPosTag=PUNCT" join="right" xml:id="ParlaMint-DK_20141010100005.seg1.4.10">(</pc>
+<w lemma="jf." msd="UPosTag=VERB|Mood=Imp" xml:id="ParlaMint-DK_20141010100005.seg1.4.11">jf.</w>
+<w lemma="ovenfor" msd="UPosTag=ADV" join="right" xml:id="ParlaMint-DK_20141010100005.seg1.4.12">ovenfor</w>
+<pc msd="UPosTag=PUNCT" join="right" xml:id="ParlaMint-DK_20141010100005.seg1.4.13">)</pc>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010100005.seg1.4.14">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:nsubj" target="#ParlaMint-DK_20141010100005.seg1.4.7 #ParlaMint-DK_20141010100005.seg1.4.1"/>
+<link ana="ud-syn:case" target="#ParlaMint-DK_20141010100005.seg1.4.5 #ParlaMint-DK_20141010100005.seg1.4.2"/>
+<link ana="ud-syn:det" target="#ParlaMint-DK_20141010100005.seg1.4.5 #ParlaMint-DK_20141010100005.seg1.4.3"/>
+<link ana="ud-syn:amod" target="#ParlaMint-DK_20141010100005.seg1.4.5 #ParlaMint-DK_20141010100005.seg1.4.4"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-DK_20141010100005.seg1.4.1 #ParlaMint-DK_20141010100005.seg1.4.5"/>
+<link ana="ud-syn:aux" target="#ParlaMint-DK_20141010100005.seg1.4.7 #ParlaMint-DK_20141010100005.seg1.4.6"/>
+<link ana="ud-syn:root" target="#ParlaMint-DK_20141010100005.seg1.4 #ParlaMint-DK_20141010100005.seg1.4.7"/>
+<link ana="ud-syn:case" target="#ParlaMint-DK_20141010100005.seg1.4.9 #ParlaMint-DK_20141010100005.seg1.4.8"/>
+<link ana="ud-syn:obl" target="#ParlaMint-DK_20141010100005.seg1.4.7 #ParlaMint-DK_20141010100005.seg1.4.9"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010100005.seg1.4.11 #ParlaMint-DK_20141010100005.seg1.4.10"/>
+<link ana="ud-syn:xcomp" target="#ParlaMint-DK_20141010100005.seg1.4.7 #ParlaMint-DK_20141010100005.seg1.4.11"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-DK_20141010100005.seg1.4.11 #ParlaMint-DK_20141010100005.seg1.4.12"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010100005.seg1.4.11 #ParlaMint-DK_20141010100005.seg1.4.13"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010100005.seg1.4.7 #ParlaMint-DK_20141010100005.seg1.4.14"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-DK_2014-10-10-20141-M4.head2">1. behandling af L 4: Om tilbagerulning af forsyningssikkerhedsafgiften m.v.</head>
+            <note type="agendaItem" xml:id="ParlaMint-DK_2014-10-10-20141-M4.note2">2014-10-10-1</note>
+            <u who="#LoklindtLone" xml:id="ParlaMint-DK_20141010100037" ana="#chair #domain.Economy">
+               <seg xml:id="ParlaMint-DK_20141010100037.seg2">
+                  <s xml:id="ParlaMint-DK_20141010100037.seg2.1">
+<w lemma="forhandling" msd="UPosTag=NOUN|Definite=Def|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20141010100037.seg2.1.1">Forhandlingen</w>
+<w lemma="være" msd="UPosTag=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20141010100037.seg2.1.2">er</w>
+<w lemma="åbne" msd="UPosTag=VERB|Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part" join="right" xml:id="ParlaMint-DK_20141010100037.seg2.1.3">åbnet</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010100037.seg2.1.4">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:nsubj" target="#ParlaMint-DK_20141010100037.seg2.1.3 #ParlaMint-DK_20141010100037.seg2.1.1"/>
+<link ana="ud-syn:aux" target="#ParlaMint-DK_20141010100037.seg2.1.3 #ParlaMint-DK_20141010100037.seg2.1.2"/>
+<link ana="ud-syn:root" target="#ParlaMint-DK_20141010100037.seg2.1 #ParlaMint-DK_20141010100037.seg2.1.3"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010100037.seg2.1.3 #ParlaMint-DK_20141010100037.seg2.1.4"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-DK_20141010100037.seg2.2">
+<w lemma="og" msd="UPosTag=CCONJ" xml:id="ParlaMint-DK_20141010100037.seg2.2.1">Og</w>
+<w lemma="den" msd="UPosTag=DET|Gender=Com|Number=Sing|PronType=Dem" xml:id="ParlaMint-DK_20141010100037.seg2.2.2">den</w>
+<w lemma="først" msd="UPosTag=ADJ|Degree=Pos" xml:id="ParlaMint-DK_20141010100037.seg2.2.3">første</w>
+<w lemma="være" msd="UPosTag=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20141010100037.seg2.2.4">er</w>
+<w lemma="ordfører" msd="UPosTag=NOUN|Definite=Def|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20141010100037.seg2.2.5">ordføreren</w>
+<w lemma="for" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20141010100037.seg2.2.6">for</w>
+                     <name type="ORG">
+<w lemma="Venstre" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" join="right" xml:id="ParlaMint-DK_20141010100037.seg2.2.7">Venstre</w>
+                     </name>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010100037.seg2.2.8">,</pc>
+                     <name type="PER">
+<w lemma="Torsten" msd="UPosTag=PROPN" xml:id="ParlaMint-DK_20141010100037.seg2.2.9">Torsten</w>
+<w lemma="Schack" msd="UPosTag=PROPN" xml:id="ParlaMint-DK_20141010100037.seg2.2.10">Schack</w>
+<w lemma="Pedersen" msd="UPosTag=PROPN" join="right" xml:id="ParlaMint-DK_20141010100037.seg2.2.11">Pedersen</w>
+                     </name>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010100037.seg2.2.12">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:cc" target="#ParlaMint-DK_20141010100037.seg2.2.5 #ParlaMint-DK_20141010100037.seg2.2.1"/>
+<link ana="ud-syn:det" target="#ParlaMint-DK_20141010100037.seg2.2.3 #ParlaMint-DK_20141010100037.seg2.2.2"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-DK_20141010100037.seg2.2.5 #ParlaMint-DK_20141010100037.seg2.2.3"/>
+<link ana="ud-syn:cop" target="#ParlaMint-DK_20141010100037.seg2.2.5 #ParlaMint-DK_20141010100037.seg2.2.4"/>
+<link ana="ud-syn:root" target="#ParlaMint-DK_20141010100037.seg2.2 #ParlaMint-DK_20141010100037.seg2.2.5"/>
+<link ana="ud-syn:case" target="#ParlaMint-DK_20141010100037.seg2.2.7 #ParlaMint-DK_20141010100037.seg2.2.6"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-DK_20141010100037.seg2.2.5 #ParlaMint-DK_20141010100037.seg2.2.7"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010100037.seg2.2.5 #ParlaMint-DK_20141010100037.seg2.2.8"/>
+<link ana="ud-syn:appos" target="#ParlaMint-DK_20141010100037.seg2.2.5 #ParlaMint-DK_20141010100037.seg2.2.9"/>
+<link ana="ud-syn:flat" target="#ParlaMint-DK_20141010100037.seg2.2.9 #ParlaMint-DK_20141010100037.seg2.2.10"/>
+<link ana="ud-syn:flat" target="#ParlaMint-DK_20141010100037.seg2.2.9 #ParlaMint-DK_20141010100037.seg2.2.11"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010100037.seg2.2.5 #ParlaMint-DK_20141010100037.seg2.2.12"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#KjærsgaardPia" xml:id="ParlaMint-DK_20141010112624" ana="#chair #domain.Economy">
+               <seg xml:id="ParlaMint-DK_20141010112624.seg108">
+                  <s xml:id="ParlaMint-DK_20141010112624.seg108.1">
+<w lemma="tak" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20141010112624.seg108.1.1">Tak</w>
+<w lemma="for" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20141010112624.seg108.1.2">for</w>
+<w lemma="det" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs" join="right" xml:id="ParlaMint-DK_20141010112624.seg108.1.3">det</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010112624.seg108.1.4">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#ParlaMint-DK_20141010112624.seg108.1 #ParlaMint-DK_20141010112624.seg108.1.1"/>
+<link ana="ud-syn:case" target="#ParlaMint-DK_20141010112624.seg108.1.3 #ParlaMint-DK_20141010112624.seg108.1.2"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-DK_20141010112624.seg108.1.1 #ParlaMint-DK_20141010112624.seg108.1.3"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010112624.seg108.1.1 #ParlaMint-DK_20141010112624.seg108.1.4"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-DK_20141010112624.seg108.2">
+<w lemma="tak" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20141010112624.seg108.2.1">Tak</w>
+<w lemma="til" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20141010112624.seg108.2.2">til</w>
+<w lemma="minister" msd="UPosTag=NOUN|Definite=Def|Gender=Com|Number=Sing" join="right" xml:id="ParlaMint-DK_20141010112624.seg108.2.3">ministeren</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010112624.seg108.2.4">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#ParlaMint-DK_20141010112624.seg108.2 #ParlaMint-DK_20141010112624.seg108.2.1"/>
+<link ana="ud-syn:case" target="#ParlaMint-DK_20141010112624.seg108.2.3 #ParlaMint-DK_20141010112624.seg108.2.2"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-DK_20141010112624.seg108.2.1 #ParlaMint-DK_20141010112624.seg108.2.3"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010112624.seg108.2.1 #ParlaMint-DK_20141010112624.seg108.2.4"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-DK_20141010112624.seg108.3">
+<w lemma="da" msd="UPosTag=SCONJ" xml:id="ParlaMint-DK_20141010112624.seg108.3.1">Da</w>
+<w lemma="der" msd="UPosTag=ADV|PartType=Inf" xml:id="ParlaMint-DK_20141010112624.seg108.3.2">der</w>
+<w lemma="ikke" msd="UPosTag=ADV" xml:id="ParlaMint-DK_20141010112624.seg108.3.3">ikke</w>
+<w lemma="være" msd="UPosTag=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20141010112624.seg108.3.4">er</w>
+<w lemma="mange" msd="UPosTag=ADJ|Degree=Cmp|Number=Plur" join="right" xml:id="ParlaMint-DK_20141010112624.seg108.3.5">flere</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010112624.seg108.3.6">,</pc>
+<w lemma="der" msd="UPosTag=PRON|PartType=Inf" xml:id="ParlaMint-DK_20141010112624.seg108.3.7">der</w>
+<w lemma="have" msd="UPosTag=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20141010112624.seg108.3.8">har</w>
+<w lemma="bede" msd="UPosTag=VERB|Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part" xml:id="ParlaMint-DK_20141010112624.seg108.3.9">bedt</w>
+<w lemma="om" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20141010112624.seg108.3.10">om</w>
+<w lemma="ord" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing" join="right" xml:id="ParlaMint-DK_20141010112624.seg108.3.11">ordet</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010112624.seg108.3.12">,</pc>
+<w lemma="være" msd="UPosTag=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20141010112624.seg108.3.13">er</w>
+<w lemma="forhandling" msd="UPosTag=NOUN|Definite=Def|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20141010112624.seg108.3.14">forhandlingen</w>
+<w lemma="slutte" msd="UPosTag=VERB|Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part" join="right" xml:id="ParlaMint-DK_20141010112624.seg108.3.15">sluttet</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010112624.seg108.3.16">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:mark" target="#ParlaMint-DK_20141010112624.seg108.3.15 #ParlaMint-DK_20141010112624.seg108.3.1"/>
+<link ana="ud-syn:expl" target="#ParlaMint-DK_20141010112624.seg108.3.15 #ParlaMint-DK_20141010112624.seg108.3.2"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-DK_20141010112624.seg108.3.15 #ParlaMint-DK_20141010112624.seg108.3.3"/>
+<link ana="ud-syn:aux" target="#ParlaMint-DK_20141010112624.seg108.3.15 #ParlaMint-DK_20141010112624.seg108.3.4"/>
+<link ana="ud-syn:amod" target="#ParlaMint-DK_20141010112624.seg108.3.15 #ParlaMint-DK_20141010112624.seg108.3.5"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010112624.seg108.3.5 #ParlaMint-DK_20141010112624.seg108.3.6"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-DK_20141010112624.seg108.3.9 #ParlaMint-DK_20141010112624.seg108.3.7"/>
+<link ana="ud-syn:aux" target="#ParlaMint-DK_20141010112624.seg108.3.9 #ParlaMint-DK_20141010112624.seg108.3.8"/>
+<link ana="ud-syn:acl_relcl" target="#ParlaMint-DK_20141010112624.seg108.3.5 #ParlaMint-DK_20141010112624.seg108.3.9"/>
+<link ana="ud-syn:case" target="#ParlaMint-DK_20141010112624.seg108.3.11 #ParlaMint-DK_20141010112624.seg108.3.10"/>
+<link ana="ud-syn:obj" target="#ParlaMint-DK_20141010112624.seg108.3.9 #ParlaMint-DK_20141010112624.seg108.3.11"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010112624.seg108.3.9 #ParlaMint-DK_20141010112624.seg108.3.12"/>
+<link ana="ud-syn:aux" target="#ParlaMint-DK_20141010112624.seg108.3.15 #ParlaMint-DK_20141010112624.seg108.3.13"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-DK_20141010112624.seg108.3.15 #ParlaMint-DK_20141010112624.seg108.3.14"/>
+<link ana="ud-syn:root" target="#ParlaMint-DK_20141010112624.seg108.3 #ParlaMint-DK_20141010112624.seg108.3.15"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010112624.seg108.3.15 #ParlaMint-DK_20141010112624.seg108.3.16"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-DK_20141010112624.seg108.4">
+<w lemma="jeg" msd="UPosTag=PRON|Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs" xml:id="ParlaMint-DK_20141010112624.seg108.4.1">Jeg</w>
+<w lemma="foreslå" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" join="right" xml:id="ParlaMint-DK_20141010112624.seg108.4.2">foreslår</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010112624.seg108.4.3">,</pc>
+<w lemma="at" msd="UPosTag=SCONJ" xml:id="ParlaMint-DK_20141010112624.seg108.4.4">at</w>
+<w lemma="lovforslag" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing" xml:id="ParlaMint-DK_20141010112624.seg108.4.5">lovforslaget</w>
+<w lemma="henvise" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass" xml:id="ParlaMint-DK_20141010112624.seg108.4.6">henvises</w>
+<w lemma="til" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20141010112624.seg108.4.7">til</w>
+<w lemma="skatteudvalg" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing" join="right" xml:id="ParlaMint-DK_20141010112624.seg108.4.8">Skatteudvalget</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010112624.seg108.4.9">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:nsubj" target="#ParlaMint-DK_20141010112624.seg108.4.2 #ParlaMint-DK_20141010112624.seg108.4.1"/>
+<link ana="ud-syn:root" target="#ParlaMint-DK_20141010112624.seg108.4 #ParlaMint-DK_20141010112624.seg108.4.2"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010112624.seg108.4.2 #ParlaMint-DK_20141010112624.seg108.4.3"/>
+<link ana="ud-syn:mark" target="#ParlaMint-DK_20141010112624.seg108.4.6 #ParlaMint-DK_20141010112624.seg108.4.4"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-DK_20141010112624.seg108.4.6 #ParlaMint-DK_20141010112624.seg108.4.5"/>
+<link ana="ud-syn:obj" target="#ParlaMint-DK_20141010112624.seg108.4.2 #ParlaMint-DK_20141010112624.seg108.4.6"/>
+<link ana="ud-syn:case" target="#ParlaMint-DK_20141010112624.seg108.4.8 #ParlaMint-DK_20141010112624.seg108.4.7"/>
+<link ana="ud-syn:obl" target="#ParlaMint-DK_20141010112624.seg108.4.6 #ParlaMint-DK_20141010112624.seg108.4.8"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010112624.seg108.4.2 #ParlaMint-DK_20141010112624.seg108.4.9"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-DK_20141010112624.seg108.5">
+<w lemma="hvis" msd="UPosTag=SCONJ" xml:id="ParlaMint-DK_20141010112624.seg108.5.1">Hvis</w>
+<w lemma="ingen" msd="UPosTag=PRON|Gender=Com|Number=Sing|PronType=Ind" xml:id="ParlaMint-DK_20141010112624.seg108.5.2">ingen</w>
+<w lemma="gøre" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20141010112624.seg108.5.3">gør</w>
+<w lemma="indsigelse" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" join="right" xml:id="ParlaMint-DK_20141010112624.seg108.5.4">indsigelse</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010112624.seg108.5.5">,</pc>
+<w lemma="betragte" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20141010112624.seg108.5.6">betragter</w>
+<w lemma="jeg" msd="UPosTag=PRON|Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs" xml:id="ParlaMint-DK_20141010112624.seg108.5.7">jeg</w>
+<w lemma="denne" msd="UPosTag=PRON|Gender=Neut|Number=Sing|PronType=Dem" xml:id="ParlaMint-DK_20141010112624.seg108.5.8">dette</w>
+<w lemma="som" msd="UPosTag=ADP|PartType=Inf" xml:id="ParlaMint-DK_20141010112624.seg108.5.9">som</w>
+<w lemma="vedtage" msd="UPosTag=VERB|Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part" join="right" xml:id="ParlaMint-DK_20141010112624.seg108.5.10">vedtaget</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010112624.seg108.5.11">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:mark" target="#ParlaMint-DK_20141010112624.seg108.5.3 #ParlaMint-DK_20141010112624.seg108.5.1"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-DK_20141010112624.seg108.5.3 #ParlaMint-DK_20141010112624.seg108.5.2"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-DK_20141010112624.seg108.5.6 #ParlaMint-DK_20141010112624.seg108.5.3"/>
+<link ana="ud-syn:obj" target="#ParlaMint-DK_20141010112624.seg108.5.3 #ParlaMint-DK_20141010112624.seg108.5.4"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010112624.seg108.5.3 #ParlaMint-DK_20141010112624.seg108.5.5"/>
+<link ana="ud-syn:root" target="#ParlaMint-DK_20141010112624.seg108.5 #ParlaMint-DK_20141010112624.seg108.5.6"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-DK_20141010112624.seg108.5.6 #ParlaMint-DK_20141010112624.seg108.5.7"/>
+<link ana="ud-syn:obj" target="#ParlaMint-DK_20141010112624.seg108.5.6 #ParlaMint-DK_20141010112624.seg108.5.8"/>
+<link ana="ud-syn:mark" target="#ParlaMint-DK_20141010112624.seg108.5.10 #ParlaMint-DK_20141010112624.seg108.5.9"/>
+<link ana="ud-syn:advcl" target="#ParlaMint-DK_20141010112624.seg108.5.6 #ParlaMint-DK_20141010112624.seg108.5.10"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010112624.seg108.5.6 #ParlaMint-DK_20141010112624.seg108.5.11"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-DK_20141010112624.seg108.6">
+<w lemma="det" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs" xml:id="ParlaMint-DK_20141010112624.seg108.6.1">Det</w>
+<w lemma="være" msd="UPosTag=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20141010112624.seg108.6.2">er</w>
+<w lemma="vedtage" msd="UPosTag=VERB|Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part" join="right" xml:id="ParlaMint-DK_20141010112624.seg108.6.3">vedtaget</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010112624.seg108.6.4">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:nsubj" target="#ParlaMint-DK_20141010112624.seg108.6.3 #ParlaMint-DK_20141010112624.seg108.6.1"/>
+<link ana="ud-syn:aux" target="#ParlaMint-DK_20141010112624.seg108.6.3 #ParlaMint-DK_20141010112624.seg108.6.2"/>
+<link ana="ud-syn:root" target="#ParlaMint-DK_20141010112624.seg108.6 #ParlaMint-DK_20141010112624.seg108.6.3"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010112624.seg108.6.3 #ParlaMint-DK_20141010112624.seg108.6.4"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-DK_2014-10-10-20141-M4.head3">Punkt 0</head>
+            <note type="agendaItem" xml:id="ParlaMint-DK_2014-10-10-20141-M4.note3">2014-10-10-0</note>
+            <u who="#KjærsgaardPia" xml:id="ParlaMint-DK_20141010112641" ana="#chair #domain.other">
+               <seg xml:id="ParlaMint-DK_20141010112641.seg109">
+                  <s xml:id="ParlaMint-DK_20141010112641.seg109.1">
+<w lemma="der" msd="UPosTag=ADV|PartType=Inf" xml:id="ParlaMint-DK_20141010112641.seg109.1.1">Der</w>
+<w lemma="være" msd="UPosTag=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20141010112641.seg109.1.2">er</w>
+<w lemma="ikke" msd="UPosTag=ADV" xml:id="ParlaMint-DK_20141010112641.seg109.1.3">ikke</w>
+<w lemma="mere" msd="UPosTag=ADV|Degree=Cmp" xml:id="ParlaMint-DK_20141010112641.seg109.1.4">mere</w>
+<w lemma="at" msd="UPosTag=PART|PartType=Inf" xml:id="ParlaMint-DK_20141010112641.seg109.1.5">at</w>
+<w lemma="foretage" msd="UPosTag=VERB|VerbForm=Inf|Voice=Act" xml:id="ParlaMint-DK_20141010112641.seg109.1.6">foretage</w>
+<w lemma="i" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20141010112641.seg109.1.7">i</w>
+<w lemma="denne" msd="UPosTag=DET|Gender=Neut|Number=Sing|PronType=Dem" xml:id="ParlaMint-DK_20141010112641.seg109.1.8">dette</w>
+<w lemma="møde" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" join="right" xml:id="ParlaMint-DK_20141010112641.seg109.1.9">møde</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010112641.seg109.1.10">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:nsubj" target="#ParlaMint-DK_20141010112641.seg109.1.4 #ParlaMint-DK_20141010112641.seg109.1.1"/>
+<link ana="ud-syn:cop" target="#ParlaMint-DK_20141010112641.seg109.1.4 #ParlaMint-DK_20141010112641.seg109.1.2"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-DK_20141010112641.seg109.1.4 #ParlaMint-DK_20141010112641.seg109.1.3"/>
+<link ana="ud-syn:root" target="#ParlaMint-DK_20141010112641.seg109.1 #ParlaMint-DK_20141010112641.seg109.1.4"/>
+<link ana="ud-syn:mark" target="#ParlaMint-DK_20141010112641.seg109.1.6 #ParlaMint-DK_20141010112641.seg109.1.5"/>
+<link ana="ud-syn:acl_relcl" target="#ParlaMint-DK_20141010112641.seg109.1.4 #ParlaMint-DK_20141010112641.seg109.1.6"/>
+<link ana="ud-syn:case" target="#ParlaMint-DK_20141010112641.seg109.1.9 #ParlaMint-DK_20141010112641.seg109.1.7"/>
+<link ana="ud-syn:det" target="#ParlaMint-DK_20141010112641.seg109.1.9 #ParlaMint-DK_20141010112641.seg109.1.8"/>
+<link ana="ud-syn:obl" target="#ParlaMint-DK_20141010112641.seg109.1.6 #ParlaMint-DK_20141010112641.seg109.1.9"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010112641.seg109.1.4 #ParlaMint-DK_20141010112641.seg109.1.10"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-DK_20141010112641.seg109.2">
+<w lemma="Folketing" msd="UPosTag=NOUN|Case=Gen|Definite=Def|Gender=Neut|Number=Sing" xml:id="ParlaMint-DK_20141010112641.seg109.2.1">Folketingets</w>
+<w lemma="næste" msd="UPosTag=ADJ|Degree=Pos" xml:id="ParlaMint-DK_20141010112641.seg109.2.2">næste</w>
+<w lemma="møde" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" xml:id="ParlaMint-DK_20141010112641.seg109.2.3">møde</w>
+<w lemma="afholde" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass" xml:id="ParlaMint-DK_20141010112641.seg109.2.4">afholdes</w>
+<w lemma="tirsdag" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20141010112641.seg109.2.5">tirsdag</w>
+<w lemma="den" msd="UPosTag=DET|Gender=Com|Number=Sing|PronType=Dem" xml:id="ParlaMint-DK_20141010112641.seg109.2.6">den</w>
+<w lemma="21." msd="UPosTag=ADJ|NumType=Ord" xml:id="ParlaMint-DK_20141010112641.seg109.2.7">21.</w>
+<w lemma="oktober" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20141010112641.seg109.2.8">oktober</w>
+<w lemma="2014" msd="UPosTag=NUM|NumType=Card" join="right" xml:id="ParlaMint-DK_20141010112641.seg109.2.9">2014</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010112641.seg109.2.10">,</pc>
+<w lemma="kl." msd="UPosTag=NOUN|Definite=Def|Gender=Com|Number=Sing" xml:id="ParlaMint-DK_20141010112641.seg109.2.11">kl.</w>
+<w lemma="13.00." msd="UPosTag=NUM|NumType=Card" xml:id="ParlaMint-DK_20141010112641.seg109.2.12">13.00.</w>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:nmod_poss" target="#ParlaMint-DK_20141010112641.seg109.2.3 #ParlaMint-DK_20141010112641.seg109.2.1"/>
+<link ana="ud-syn:amod" target="#ParlaMint-DK_20141010112641.seg109.2.3 #ParlaMint-DK_20141010112641.seg109.2.2"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-DK_20141010112641.seg109.2.4 #ParlaMint-DK_20141010112641.seg109.2.3"/>
+<link ana="ud-syn:root" target="#ParlaMint-DK_20141010112641.seg109.2 #ParlaMint-DK_20141010112641.seg109.2.4"/>
+<link ana="ud-syn:obj" target="#ParlaMint-DK_20141010112641.seg109.2.4 #ParlaMint-DK_20141010112641.seg109.2.5"/>
+<link ana="ud-syn:det" target="#ParlaMint-DK_20141010112641.seg109.2.8 #ParlaMint-DK_20141010112641.seg109.2.6"/>
+<link ana="ud-syn:amod" target="#ParlaMint-DK_20141010112641.seg109.2.8 #ParlaMint-DK_20141010112641.seg109.2.7"/>
+<link ana="ud-syn:obl" target="#ParlaMint-DK_20141010112641.seg109.2.4 #ParlaMint-DK_20141010112641.seg109.2.8"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-DK_20141010112641.seg109.2.8 #ParlaMint-DK_20141010112641.seg109.2.9"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010112641.seg109.2.4 #ParlaMint-DK_20141010112641.seg109.2.10"/>
+<link ana="ud-syn:obl" target="#ParlaMint-DK_20141010112641.seg109.2.4 #ParlaMint-DK_20141010112641.seg109.2.11"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-DK_20141010112641.seg109.2.11 #ParlaMint-DK_20141010112641.seg109.2.12"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-DK_20141010112641.seg109.3">
+<w lemma="jeg" msd="UPosTag=PRON|Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs" xml:id="ParlaMint-DK_20141010112641.seg109.3.1">Jeg</w>
+<w lemma="henvise" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20141010112641.seg109.3.2">henviser</w>
+<w lemma="til" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20141010112641.seg109.3.3">til</w>
+<w lemma="den" msd="UPosTag=DET|Gender=Com|Number=Sing|PronType=Dem" xml:id="ParlaMint-DK_20141010112641.seg109.3.4">den</w>
+<w lemma="dagsorden" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" join="right" xml:id="ParlaMint-DK_20141010112641.seg109.3.5">dagsorden</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010112641.seg109.3.6">,</pc>
+<w lemma="der" msd="UPosTag=PRON|PartType=Inf" xml:id="ParlaMint-DK_20141010112641.seg109.3.7">der</w>
+<w lemma="fremgå" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20141010112641.seg109.3.8">fremgår</w>
+<w lemma="af" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20141010112641.seg109.3.9">af</w>
+<w lemma="Folketing" msd="UPosTag=NOUN|Case=Gen|Definite=Def|Gender=Neut|Number=Sing" xml:id="ParlaMint-DK_20141010112641.seg109.3.10">Folketingets</w>
+<w lemma="hjemmeside" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" join="right" xml:id="ParlaMint-DK_20141010112641.seg109.3.11">hjemmeside</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010112641.seg109.3.12">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:nsubj" target="#ParlaMint-DK_20141010112641.seg109.3.2 #ParlaMint-DK_20141010112641.seg109.3.1"/>
+<link ana="ud-syn:root" target="#ParlaMint-DK_20141010112641.seg109.3 #ParlaMint-DK_20141010112641.seg109.3.2"/>
+<link ana="ud-syn:case" target="#ParlaMint-DK_20141010112641.seg109.3.5 #ParlaMint-DK_20141010112641.seg109.3.3"/>
+<link ana="ud-syn:det" target="#ParlaMint-DK_20141010112641.seg109.3.5 #ParlaMint-DK_20141010112641.seg109.3.4"/>
+<link ana="ud-syn:obl" target="#ParlaMint-DK_20141010112641.seg109.3.2 #ParlaMint-DK_20141010112641.seg109.3.5"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010112641.seg109.3.5 #ParlaMint-DK_20141010112641.seg109.3.6"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-DK_20141010112641.seg109.3.8 #ParlaMint-DK_20141010112641.seg109.3.7"/>
+<link ana="ud-syn:acl_relcl" target="#ParlaMint-DK_20141010112641.seg109.3.5 #ParlaMint-DK_20141010112641.seg109.3.8"/>
+<link ana="ud-syn:case" target="#ParlaMint-DK_20141010112641.seg109.3.11 #ParlaMint-DK_20141010112641.seg109.3.9"/>
+<link ana="ud-syn:nmod_poss" target="#ParlaMint-DK_20141010112641.seg109.3.11 #ParlaMint-DK_20141010112641.seg109.3.10"/>
+<link ana="ud-syn:obl" target="#ParlaMint-DK_20141010112641.seg109.3.8 #ParlaMint-DK_20141010112641.seg109.3.11"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010112641.seg109.3.2 #ParlaMint-DK_20141010112641.seg109.3.12"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-DK_20141010112641.seg109.4">
+<w lemma="og" msd="UPosTag=CCONJ" xml:id="ParlaMint-DK_20141010112641.seg109.4.1">Og</w>
+<w lemma="jeg" msd="UPosTag=PRON|Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs" xml:id="ParlaMint-DK_20141010112641.seg109.4.2">jeg</w>
+<w lemma="skulle" msd="UPosTag=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20141010112641.seg109.4.3">skal</w>
+<w lemma="i" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20141010112641.seg109.4.4">i</w>
+<w lemma="øvrig" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing" xml:id="ParlaMint-DK_20141010112641.seg109.4.5">øvrigt</w>
+<w lemma="henvise" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" xml:id="ParlaMint-DK_20141010112641.seg109.4.6">henvise</w>
+<w lemma="til" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20141010112641.seg109.4.7">til</w>
+<w lemma="ugeplan" msd="UPosTag=NOUN|Definite=Def|Gender=Com|Number=Sing" join="right" xml:id="ParlaMint-DK_20141010112641.seg109.4.8">ugeplanen</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010112641.seg109.4.9">,</pc>
+<w lemma="der" msd="UPosTag=PRON|PartType=Inf" xml:id="ParlaMint-DK_20141010112641.seg109.4.10">der</w>
+<w lemma="fremgå" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="ParlaMint-DK_20141010112641.seg109.4.11">fremgår</w>
+<w lemma="af" msd="UPosTag=ADP|AdpType=Prep" xml:id="ParlaMint-DK_20141010112641.seg109.4.12">af</w>
+<w lemma="Folketing" msd="UPosTag=NOUN|Case=Gen|Definite=Def|Gender=Neut|Number=Sing" xml:id="ParlaMint-DK_20141010112641.seg109.4.13">Folketingets</w>
+<w lemma="hjemmeside" msd="UPosTag=NOUN|Definite=Ind|Gender=Com|Number=Sing" join="right" xml:id="ParlaMint-DK_20141010112641.seg109.4.14">hjemmeside</w>
+<pc msd="UPosTag=PUNCT" xml:id="ParlaMint-DK_20141010112641.seg109.4.15">.</pc>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:cc" target="#ParlaMint-DK_20141010112641.seg109.4.3 #ParlaMint-DK_20141010112641.seg109.4.1"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-DK_20141010112641.seg109.4.3 #ParlaMint-DK_20141010112641.seg109.4.2"/>
+<link ana="ud-syn:root" target="#ParlaMint-DK_20141010112641.seg109.4 #ParlaMint-DK_20141010112641.seg109.4.3"/>
+<link ana="ud-syn:case" target="#ParlaMint-DK_20141010112641.seg109.4.6 #ParlaMint-DK_20141010112641.seg109.4.4"/>
+<link ana="ud-syn:amod" target="#ParlaMint-DK_20141010112641.seg109.4.6 #ParlaMint-DK_20141010112641.seg109.4.5"/>
+<link ana="ud-syn:obl" target="#ParlaMint-DK_20141010112641.seg109.4.3 #ParlaMint-DK_20141010112641.seg109.4.6"/>
+<link ana="ud-syn:case" target="#ParlaMint-DK_20141010112641.seg109.4.8 #ParlaMint-DK_20141010112641.seg109.4.7"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-DK_20141010112641.seg109.4.6 #ParlaMint-DK_20141010112641.seg109.4.8"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010112641.seg109.4.8 #ParlaMint-DK_20141010112641.seg109.4.9"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-DK_20141010112641.seg109.4.11 #ParlaMint-DK_20141010112641.seg109.4.10"/>
+<link ana="ud-syn:acl_relcl" target="#ParlaMint-DK_20141010112641.seg109.4.8 #ParlaMint-DK_20141010112641.seg109.4.11"/>
+<link ana="ud-syn:case" target="#ParlaMint-DK_20141010112641.seg109.4.14 #ParlaMint-DK_20141010112641.seg109.4.12"/>
+<link ana="ud-syn:nmod_poss" target="#ParlaMint-DK_20141010112641.seg109.4.14 #ParlaMint-DK_20141010112641.seg109.4.13"/>
+<link ana="ud-syn:obl" target="#ParlaMint-DK_20141010112641.seg109.4.11 #ParlaMint-DK_20141010112641.seg109.4.14"/>
+<link ana="ud-syn:punct" target="#ParlaMint-DK_20141010112641.seg109.4.3 #ParlaMint-DK_20141010112641.seg109.4.15"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,194 @@
+MAINTAINER "CLARIN.SI <info@clarin.si>"
+NAME "ParlaMint-PT 4.1 (Portuguese parliament)"
+INFO "Portuguese parliamentary corpus ParlaMint-PT, 2015-2022 v4.1"
+ENCODING "UTF-8"
+DEFAULTLOCALE "pt_PT.UTF-8"
+LANGUAGE "Portuguese"
+INFOHREF "http://hdl.handle.net/11356/1911"
+TAGSETDOC "https://universaldependencies.org/guidelines.html"
+
+PATH "/data/manatee-data/parlamint41_pt/"
+
+VERTICAL "| zcat /data/vert/ParlaMint-PT.4.1.vert.gz"
+
+DOCSTRUCTURE speech
+MAXDETAIL 10000
+
+SUBCORPATTRS "speech.subcorpus|speech.body|speech.date,speech.term|speech.session|speech.meeting,speech.sitting|speech.agenda,speech.speaker_mp|speech.speaker_minister,speech.speaker_role|speech.speaker_name,speech.speaker_gender|speech.speaker_birth,speech.speaker_party|speech.speaker_party_name,speech.party_status|speech.party_orientation"
+SHORTREF "=speech.speaker_id,=speech.date"
+FULLREF "speech.id,speech.title,speech.date,speech.subcorpus,speech.body,speech.term,speech.session,speech.meeting,speech.sitting,speech.agenda,speech.speaker_name,speech.speaker_gender,speech.speaker_role,speech.speaker_mp,speech.speaker_minister,speech.speaker_party,speech.speaker_party_name,speech.party_status,speech.party_orientation"
+
+SIMPLEQUERY '[lc="%s" | norm="%s" | lemma_lc="%s"]'
+
+STRUCTURE speech {
+    ATTRIBUTE text_id {
+      LABEL "Text ID"
+    }
+    ATTRIBUTE title
+    ATTRIBUTE subcorpus
+    ATTRIBUTE lang
+    ATTRIBUTE body {
+	LABEL "Parliamentary body"
+        MULTIVALUE yes
+        MULTISEP "|"
+    }
+    ATTRIBUTE term
+    ATTRIBUTE session {
+      TEXTBOXLENGTH 4
+    }
+    ATTRIBUTE meeting {
+      TEXTBOXLENGTH 4
+    }
+    ATTRIBUTE sitting {
+      TEXTBOXLENGTH 4
+    }
+    ATTRIBUTE agenda {
+      TEXTBOXLENGTH 4
+    }
+    ATTRIBUTE date
+    ATTRIBUTE id {
+      LABEL "Speech ID"
+      TYPE "UNIQUE"
+    }
+    ATTRIBUTE speaker_id {
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE speaker_name {
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE speaker_role {
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE speaker_mp {
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE speaker_minister {
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE speaker_party {
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE speaker_party_name {
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE party_status {
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE party_orientation {
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE speaker_gender {
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE speaker_birth {
+      DEFAULTVALUE "-"
+      TEXTBOXLENGTH 10
+    }
+    DISPLAYTAG 0
+    DISPLAYBEGIN "%(speaker_id): "
+    DISPLAYEND ""
+}
+STRUCTURE p {
+    ATTRIBUTE id {
+      TYPE "UNIQUE"
+    }
+    ATTRIBUTE lang
+    DISPLAYTAG 0
+    DISPLAYBEGIN ""
+    DISPLAYEND " ¶ "
+}
+STRUCTURE s {
+    ATTRIBUTE id {
+      LABEL "Sentence ID"
+      TYPE "UNIQUE"
+    }
+    DISPLAYTAG 0
+}
+STRUCTURE name {
+    ATTRIBUTE type
+    DISPLAYTAG 0
+    DISPLAYBEGIN "[%(type):"
+    DISPLAYEND "]"
+}
+STRUCTURE note {
+    ATTRIBUTE type
+    ATTRIBUTE content
+    DISPLAYTAG 0
+    DISPLAYBEGIN "[%(type): %(content)"
+    DISPLAYEND "]"
+}
+STRUCTURE g {
+    DISPLAYTAG 0
+    DISPLAYBEGIN "_EMPTY_"
+}
+
+ATTRIBUTE word
+ATTRIBUTE lc {
+	LABEL	"word (lowercase)"
+	DYNAMIC  "utf8lowercase"
+	DYNLIB   "internal"
+	ARG1     "C"
+	FUNTYPE  "s"
+	FROMATTR "word"
+	DYNTYPE  "index"
+	TRANSQUERY "yes"
+}
+ATTRIBUTE norm {
+	LABEL "syntactic word"
+        MULTIVALUE yes
+        MULTISEP "|"
+}
+ATTRIBUTE lemma {
+        MULTIVALUE yes
+        MULTISEP "|"
+}
+ATTRIBUTE lemma_lc {
+	LABEL	"lemma (lowercase)"
+	DYNAMIC  "utf8lowercase"
+	DYNLIB   "internal"
+	ARG1     "C"
+	FUNTYPE  "s"
+	FROMATTR "lemma"
+	TYPE     "index"
+	TRANSQUERY  "yes"
+}
+ATTRIBUTE pos {
+	LABEL	"UD PoS tag"
+        MULTIVALUE yes
+        MULTISEP "|"
+}
+ATTRIBUTE feats {
+	LABEL	"UD features"
+        MULTIVALUE yes
+        MULTISEP "|"
+}
+ATTRIBUTE id {
+	LABEL	"ID of token"
+        MULTIVALUE yes
+        MULTISEP "|"
+}
+ATTRIBUTE dep {
+	LABEL	"UD dependency label"
+        MULTIVALUE yes
+        MULTISEP "|"
+}
+ATTRIBUTE dep_head_lemma {
+	LABEL	"Lemma of the dependency head"
+        MULTIVALUE yes
+        MULTISEP "|"
+}
+ATTRIBUTE dep_head_pos {
+	LABEL	"UD PoS tag of the dependency head"
+        MULTIVALUE yes
+        MULTISEP "|"
+}
+ATTRIBUTE dep_head_feats {
+	LABEL	"UD features of the dependency head"
+        MULTIVALUE yes
+        MULTISEP "|"
+}
+ATTRIBUTE dep_head_id {
+	LABEL	"ID of the dependency head"
+        MULTIVALUE yes
+        MULTISEP "|"
+}
