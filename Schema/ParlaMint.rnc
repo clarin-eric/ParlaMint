@@ -278,7 +278,21 @@ idno =
   element idno {
     lang.att,
     attribute type { "URI" | "VIAF" },
-    attribute subtype { xsd:Name }?,
+    attribute subtype {
+      "business"
+      | "facebook"
+      | "government"
+      | "handle"
+      | "instagram"
+      | "ministry"
+      | "parliament"
+      | "personal"
+      | "politicalParty"
+      | "publicService"
+      | "tiktok"
+      | "twitter"
+      | "wikimedia"
+    }?,
     xsd:anyURI { pattern = "https?://.+" }
   }
 

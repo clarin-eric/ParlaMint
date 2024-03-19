@@ -578,7 +578,21 @@
       </attribute>
       <optional>
         <attribute name="subtype">
-          <data type="Name"/>
+          <choice>
+            <value>business</value>
+            <value>facebook</value>
+            <value>government</value>
+            <value>handle</value>
+            <value>instagram</value>
+            <value>ministry</value>
+            <value>parliament</value>
+            <value>personal</value>
+            <value>politicalParty</value>
+            <value>publicService</value>
+            <value>tiktok</value>
+            <value>twitter</value>
+            <value>wikimedia</value>
+          </choice>
         </attribute>
       </optional>
       <data type="anyURI">
