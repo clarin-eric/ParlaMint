@@ -265,7 +265,8 @@
 	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
                                ': fixing idno (sub)type for government for ', .)"/>
 	</xsl:when>
-	<xsl:when test="(contains(., 'wikipedia') or contains(., 'wikimedia'))
+        <!-- e.g. TR: <idno type="URI" subtype="wikidata">https://www.wikidata.org/entity/Q108248939</idno> -->
+	<xsl:when test="(contains(., 'wikipedia') or contains(., 'wikimedia') or contains(., 'wikidata'))
                         and not(@type = 'URI' and @subtype = 'wikimedia')">
 	  <xsl:attribute name="type">URI</xsl:attribute>
 	  <xsl:attribute name="subtype">wikimedia</xsl:attribute>
