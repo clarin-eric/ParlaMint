@@ -201,7 +201,9 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
             my $altTeiRoot = $inTeiRoot;
             $altTeiRoot =~ s/\.TEI// ;
             print STDERR "WARN: Can't find input TEI root $inTeiRoot, trying sample $altTeiRoot\n";
-            unless (-e $altTeiRoot) {die "FATAL ERROR: Can't find $altTeiRoot\n"}
+            unless (-e $altTeiRoot) {
+                print STDERR "WARN: Can't find sample TEI root $altTeiRoot\n";
+            }
             else {$inTeiRoot = $altTeiRoot}
         }
     }
@@ -210,7 +212,9 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
             my $altAnaRoot = $inAnaRoot;
             $altAnaRoot =~ s/\.TEI\.ana// ;
             print STDERR "WARN: Can't find input TEI root $inAnaRoot, trying sample $altAnaRoot\n";
-            unless (-e $altAnaRoot) {die "FATAL ERROR: Can't find $altAnaRoot\n"}
+            unless (-e $altAnaRoot) {
+                print STDERR "WARN: Can't find sample TEI root $altAnaRoot\n";
+            }
             else {$inAnaRoot = $altAnaRoot}
         }
     }
