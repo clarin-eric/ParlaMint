@@ -433,8 +433,13 @@
   <!-- Output appropriate label if the speaker is (not) an MP when speaking -->
   <xsl:function name="et:speaker-mp" as="xs:string">
     <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:value-of select="et:speaker-mp($speaker,$at-date)"/>
+  </xsl:function>
+  <xsl:function name="et:speaker-mp" as="xs:string">
+    <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:param name="when" as="xs:string"/>
     <xsl:variable name="mp">
-      <xsl:variable name="refs" select="et:speaker-affiliations-refs($speaker)"/>
+      <xsl:variable name="refs" select="et:speaker-affiliations-refs($speaker,$when)"/>
       <xsl:for-each select="distinct-values(tokenize($refs, ' '))">
         <xsl:if test="key('idr', ., $rootHeader)/@role='parliament'">parliament</xsl:if>
       </xsl:for-each>
@@ -452,9 +457,14 @@
   <!-- Output appropriate label if the speaker is (not) a Minister when speaking -->
   <xsl:function name="et:speaker-minister" as="xs:string">
     <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:value-of select="et:speaker-minister($speaker,$at-date)"/>
+  </xsl:function>
+  <xsl:function name="et:speaker-minister" as="xs:string">
+    <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:param name="when" as="xs:string"/>
     <xsl:choose>
       <xsl:when test="$speaker/tei:affiliation[@role = 'minister']
-                      [et:between-dates($at-date, @from, @to)]">
+                      [et:between-dates($when, @from, @to)]">
         <xsl:value-of select="$minister-label"/>
       </xsl:when>
       <xsl:otherwise>
@@ -466,6 +476,11 @@
   <!-- Output coalition/opposition of the speaker's party when speaking -->
   <xsl:function name="et:party-status" as="xs:string">
     <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:value-of select="et:party-status($speaker,$at-date)"/>
+  </xsl:function>
+  <xsl:function name="et:party-status" as="xs:string">
+    <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:param name="when" as="xs:string"/>
     <xsl:variable name="relations" select="$rootHeader//tei:relation
                                            [@name = 'coalition' or @name = 'opposition']"/>
     <xsl:choose>
@@ -482,7 +497,7 @@
         <!-- Relation in the correct time-frame, should be only 1 -->
         <xsl:variable name="relation">
           <xsl:for-each select="$relations/self::tei:relation">
-            <xsl:if test="et:between-dates($at-date, @from, @to)">
+            <xsl:if test="et:between-dates($when, @from, @to)">
               <xsl:copy-of select="."/>
             </xsl:if>
           </xsl:for-each>
@@ -494,7 +509,7 @@
         <xsl:variable name="in-relations">
           <!-- Collect all affiliation references where the speaker is a member and are in
                the correct time-frame for the speech -->
-          <xsl:variable name="org-refs" select="et:speaker-affiliations-refs($speaker)"/>
+          <xsl:variable name="org-refs" select="et:speaker-affiliations-refs($speaker,$when)"/>
           <xsl:for-each select="$relation/tei:relation[@name = 'coalition']/tokenize(@mutual)">
             <xsl:variable name="relation-party" select="."/>
             <xsl:for-each select="tokenize($org-refs, ' ')">
@@ -523,7 +538,7 @@
               <xsl:text>ERROR: multiple party statuses for </xsl:text>
               <xsl:value-of select="$speaker/@xml:id"/>
               <xsl:text> on </xsl:text>
-              <xsl:value-of select="concat($at-date, ': ',
+              <xsl:value-of select="concat($when, ': ',
                                     normalize-space($in-relation))"/>
             </xsl:message>
             <xsl:value-of select="substring-before($in-relation, ' ')"/>
@@ -542,9 +557,14 @@
   <!-- Output left-right orientation of the speaker's party when speaking -->
   <xsl:function name="et:party-orientation" as="xs:string">
     <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:value-of select="et:party-orientation($speaker,$at-date)"/>
+  </xsl:function>
+  <xsl:function name="et:party-orientation" as="xs:string">
+    <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:param name="when" as="xs:string"/>
     <!-- Collect all affiliation references where the speaker is a member and are in 
          the correct time-frame for the speech -->
-    <xsl:variable name="refs" select="et:speaker-affiliations-refs($speaker)"/>
+    <xsl:variable name="refs" select="et:speaker-affiliations-refs($speaker,$when)"/>
     <!-- Orientations of all gathered parliamentary groups -->
     <!-- The speaker should be a member of only one, but in practice sometimes isn't -->
     <xsl:variable name="parliamentaryGroupOrientations">
@@ -609,11 +629,17 @@
   <!-- Output the name of the party (or parties!) the speaker belongs to when speaking -->
   <xsl:function name="et:speaker-party" as="xs:string">
     <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:param name="full" as="xs:string"/>
+    <xsl:value-of select="et:speaker-party($speaker,$full,$at-date)"/>
+  </xsl:function>
+  <xsl:function name="et:speaker-party" as="xs:string">
+    <xsl:param name="speaker" as="element(tei:person)"/>
     <!-- Output full ('yes') or abbreviated ('abb') name of the party -->
     <xsl:param name="full" as="xs:string"/>
+    <xsl:param name="when" as="xs:string"/>
     <!-- Collect all affiliation references where the speaker is a member and are in 
          the correct time-frame for the speech -->
-    <xsl:variable name="refs" select="et:speaker-affiliations-refs($speaker)"/>
+    <xsl:variable name="refs" select="et:speaker-affiliations-refs($speaker,$when)"/>
     <xsl:variable name="parliamentaryGroups">
       <xsl:for-each select="distinct-values(tokenize($refs, ' '))">
         <xsl:variable name="party" select="key('idr', ., $rootHeader)[@role='parliamentaryGroup']"/>
@@ -648,12 +674,17 @@
   <!-- Output IDREFS to the speaker affiliations in the correct time-frame -->
   <xsl:function name="et:speaker-affiliations-refs" as="xs:string">
     <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:value-of select="et:speaker-affiliations-refs($speaker,$at-date)"/>
+  </xsl:function>
+  <xsl:function name="et:speaker-affiliations-refs" as="xs:string">
+    <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:param name="when" as="xs:string"/>
     <xsl:variable name="refs">
       <xsl:for-each select="$speaker/tei:affiliation
                             [@role='member' or @role='candidateMP' or
                             @role='president' or @role='vicePresident' or
                             @role='secretary' or @role='representative']">
-        <xsl:if test="et:between-dates($at-date, @from, @to)">
+        <xsl:if test="et:between-dates($when, @from, @to)">
           <xsl:value-of select="@ref"/>
           <xsl:text>&#32;</xsl:text>
         </xsl:if>
