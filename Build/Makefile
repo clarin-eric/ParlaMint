@@ -1,6 +1,5 @@
-check:
-	-${pm}   ParlaMint-BG.test.xml
-	-${vrt}  ParlaMint-BG.test.xml
+bug:
+	${vca} Sources-TEI/ParlaMint-DK.TEI.ana/*/*.xml
 
 ############### Makefile for making a distributable version of the ParlaMint TEI, TEI.ana, -en.TEI.ana corpora
 #### Makefile for making a distribution of the ParlaMint corpora
@@ -38,15 +37,14 @@ gen-all-persons:
 ### VARIABLES
 
 ### COMPLETE SET OF CORPORA
-#CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-# Testing on fake corpus
-CORPORA = LV
+#CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+CORPORA=CS
 
 ####### MTed CORPORA. Used only for make pack!
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en ES-PV-en FI-en FR-en GB-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
 
 # Used in targets that run only for one corpus
-CORPUS = LV
+CORPUS=LV
 
 #Absolute paths are needed otherwise problems with XSLT
 PARLAMINT := $(shell realpath .. | tr -d '\n')# get real absolute path to ParlaMint directory
@@ -180,9 +178,9 @@ mt-samples:
 	done;
 #Merge original and MTed samples into official Samples directory
 cp-samples:
-	Scripts/cp-samples.pl 'Distro/ParlaMint-*' ../Samples
 	for CORPUS in ${CORPORA}; do \
-	cp Logs/ParlaMint-$${CORPUS}-samples.log ../Samples/ParlaMint-$${CORPUS}; \
+	Scripts/cp-samples.pl 'Distro/ParlaMint-$${CORPUS}' ../Samples; \
+	#cp Logs/ParlaMint-$${CORPUS}-samples.log ../Samples/ParlaMint-$${CORPUS}; \
 	done;
 
 
