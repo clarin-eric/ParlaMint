@@ -1,14 +1,10 @@
-bug:
-	${vca} Sources-TEI/ParlaMint-DK.TEI.ana/*/*.xml
-
 ############### Makefile for making a distributable version of the ParlaMint TEI, TEI.ana, -en.TEI.ana corpora
 #### Makefile for making a distribution of the ParlaMint corpora
 #### Variables give the corpora, version, handle, paths and scripts to use
 #### make nohup starts make all and saves the log in Logs/
 
-#### For LREV paper:
-#Make TSV and LaTeX tables
-stats:
+#Make overview TSV and LaTeX tables (for LREV paper)
+geneate-stats:
 	$s mode=tsv -xsl:../Scripts/parlamint2cnt-overview.xsl   Distro/ParlaMint.xml > Metadata/ParlaMint-overview-stats.tsv
 	$s mode=tex -xsl:../Scripts/parlamint2cnt-overview.xsl   Distro/ParlaMint.xml > Metadata/ParlaMint-overview-stats.tex
 	$s mode=tsv -xsl:../Scripts/parlamint2cnt-particDesc.xsl Distro/ParlaMint.xml > Metadata/ParlaMint-participDesc-stats.tsv
@@ -16,13 +12,15 @@ stats:
 	$s mode=tsv -xsl:../Scripts/parlamint2cnt-speeches.xsl   Distro/ParlaMint.xml > Metadata/ParlaMint-speeches-stats.tsv
 	$s mode=tex -xsl:../Scripts/parlamint2cnt-speeches.xsl   Distro/ParlaMint.xml > Metadata/ParlaMint-speeches-stats.tex
 
-#Extract the parties and persons into TSV files 
-#Not tested yet for 4.1!
-## Generate TSV files with party information on the basis of the corpus root file.
-generate-parties:
-	$s path=${DATA} outDir=tmp -xsl:${RUN}/parlamint2tbl-parties.xsl \
-	${DATA}/ParlaMint.xml 2> ParlaMint_parties.log
-extract2tsv:
+## Generate TSV files with information on organisations
+generate-orgs:
+	for CORPUS in ${CORPORA}; do \
+	$s out-lang=xx -xsl:Scripts/listOrg-tei2tsv.xsl Distro/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}.xml \
+	> Metadata/ParlaMint-$${CORPUS}-listOrg.tsv ; \
+	$s out-lang=en -xsl:Scripts/listOrg-tei2tsv.xsl Distro/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}.xml \
+	> Metadata/ParlaMint-$${CORPUS}-listOrg-en.tsv ; \
+	done;
+generate-persons:
 	$s path=../Build/Distro outDir=../Build/Metadata -xsl:../Scripts/parlamint2tbl-parties.xsl Distro/ParlaMint.xml
 	for CORPUS in ${CORPORA}; do \
 	$s -xsl:../Scripts/parlamint2tbl-persons.xsl Distro/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}.xml \
@@ -38,13 +36,13 @@ gen-all-persons:
 
 ### COMPLETE SET OF CORPORA
 #CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-CORPORA=CS
+CORPORA=HU
 
 ####### MTed CORPORA. Used only for make pack!
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en ES-PV-en FI-en FR-en GB-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
 
 # Used in targets that run only for one corpus
-CORPUS=LV
+CORPUS=HU
 
 #Absolute paths are needed otherwise problems with XSLT
 PARLAMINT := $(shell realpath .. | tr -d '\n')# get real absolute path to ParlaMint directory
