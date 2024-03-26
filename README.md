@@ -1,7 +1,6 @@
 # ParlaMint: Comparable Parliamentary Corpora
 
-The [CLARIN ParlaMint
-project](https://www.clarin.eu/content/parlamint-towards-comparable-parliamentary-corpora)
+The [CLARIN ParlaMint project](https://www.clarin.eu/parlamint)
 is compiling comparable parliamentary corpora for a number of countries and languages. 
 
 ParlaMint corpora are interoperable, i.e. encoded to a very constrained common ParlaMint schema, a
