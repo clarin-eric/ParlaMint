@@ -647,6 +647,7 @@
           <xsl:with-param name="org" select="$party"/>
           <xsl:with-param name="full" select="$full"/>
         </xsl:call-template>
+        <xsl:text>;</xsl:text>
       </xsl:for-each>
     </xsl:variable>
     <xsl:variable name="politicalParties">
@@ -656,6 +657,7 @@
           <xsl:with-param name="org" select="$party"/>
           <xsl:with-param name="full" select="$full"/>
         </xsl:call-template>
+        <xsl:text>;</xsl:text>
       </xsl:for-each>
     </xsl:variable>
     <xsl:choose>
@@ -701,7 +703,7 @@
     <xsl:value-of select="normalize-space($refs)"/>
   </xsl:function>
   
-  <!-- Return the name of an organisation -->
+  <!-- Return the name(s) of an organisation in $out-lang -->
   <!-- if $party is empty, so it the result (it is not an error if this happens!) -->
   <xsl:template name="orgName">
     <xsl:param name="org"/>
@@ -710,13 +712,11 @@
     <xsl:choose>
       <xsl:when test="normalize-space($orgName)">
         <xsl:value-of select="$orgName"/>
-        <xsl:text>;</xsl:text>
       </xsl:when>
       <xsl:when test="normalize-space($org)">
-        <xsl:message select="concat('WARN: party ', $org/@xml:id, ' without orgName/@full = ', $full)"/>
+        <xsl:message select="concat('WARN: organisation ', $org/@xml:id, ' without orgName/@full = ', $full)"/>
         <!-- As a fall-back, return ID (i.e. the part of the ID after period for e.g. 'politicalParty.VCA') -->
         <xsl:value-of select="replace($org/@xml:id, '.+?\.' , '')"/>
-        <xsl:text>;</xsl:text>
       </xsl:when>
       <xsl:otherwise>
         <xsl:text></xsl:text>
