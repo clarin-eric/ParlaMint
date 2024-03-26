@@ -643,8 +643,8 @@
     <xsl:variable name="parliamentaryGroups">
       <xsl:for-each select="distinct-values(tokenize($refs, ' '))">
         <xsl:variable name="party" select="key('idr', ., $rootHeader)[@role='parliamentaryGroup']"/>
-        <xsl:call-template name="party-name">
-          <xsl:with-param name="party" select="$party"/>
+        <xsl:call-template name="orgName">
+          <xsl:with-param name="org" select="$party"/>
           <xsl:with-param name="full" select="$full"/>
         </xsl:call-template>
       </xsl:for-each>
@@ -652,8 +652,8 @@
     <xsl:variable name="politicalParties">
       <xsl:for-each select="distinct-values(tokenize($refs, ' '))">
         <xsl:variable name="party" select="key('idr', ., $rootHeader)[@role='politicalParty']"/>
-        <xsl:call-template name="party-name">
-          <xsl:with-param name="party" select="$party"/>
+        <xsl:call-template name="orgName">
+          <xsl:with-param name="org" select="$party"/>
           <xsl:with-param name="full" select="$full"/>
         </xsl:call-template>
       </xsl:for-each>
@@ -701,21 +701,21 @@
     <xsl:value-of select="normalize-space($refs)"/>
   </xsl:function>
   
-  <!-- Return the name of the party -->
+  <!-- Return the name of an organisation -->
   <!-- if $party is empty, so it the result (it is not an error if this happens!) -->
-  <xsl:template name="party-name">
-    <xsl:param name="party"/>
+  <xsl:template name="orgName">
+    <xsl:param name="org"/>
     <xsl:param name="full"/>
-    <xsl:variable name="orgName" select="et:l10n($corpus-language, $party/tei:orgName[@full=$full])"/>
+    <xsl:variable name="orgName" select="et:l10n($corpus-language, $org/tei:orgName[@full=$full])"/>
     <xsl:choose>
       <xsl:when test="normalize-space($orgName)">
         <xsl:value-of select="$orgName"/>
         <xsl:text>;</xsl:text>
       </xsl:when>
-      <xsl:when test="normalize-space($party)">
-        <xsl:message select="concat('WARN: party ', $party/@xml:id, ' without orgName/@full = ', $full)"/>
+      <xsl:when test="normalize-space($org)">
+        <xsl:message select="concat('WARN: party ', $org/@xml:id, ' without orgName/@full = ', $full)"/>
         <!-- As a fall-back, return ID (i.e. the part of the ID after period for e.g. 'politicalParty.VCA') -->
-        <xsl:value-of select="replace($party/@xml:id, '.+?\.' , '')"/>
+        <xsl:value-of select="replace($org/@xml:id, '.+?\.' , '')"/>
         <xsl:text>;</xsl:text>
       </xsl:when>
       <xsl:otherwise>
