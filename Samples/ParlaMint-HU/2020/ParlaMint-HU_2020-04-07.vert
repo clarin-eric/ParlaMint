@@ -485,7 +485,7 @@ használni	használni	használ	VERB	VerbForm=Inf Voice=Act	12	xcomp	kíván	VERB
 ,	,	,	PUNCT	-	13	punct	konzultáció	NOUN	Case=Acc Number=Sing	22
 az	az	az	DET	Definite=Def PronType=Art	14	det	kihelyezés	NOUN	Case=Del Number=Plur	16
 ő	ő	ő	PRON	Case=Nom Number=Sing Person=3 PronType=Prs	15	nmod:att	kihelyezés	NOUN	Case=Del Number=Plur	16
-kihelyezésükről	kihelyezésükről	kihelyezés	NOUN	Case=Del Number=Plur	16	nmod_obl	konzultáció	NOUN	Case=Acc Number=Sing	22
+kihelyezésükről	kihelyezésükről	kihelyezés	NOUN	Case=Del Number=Plur	16	nmod:obl	konzultáció	NOUN	Case=Acc Number=Sing	22
 pedig	pedig	pedig	CCONJ	-	17	cc	konzultáció	NOUN	Case=Acc Number=Sing	22
 a	a	a	DET	Definite=Def PronType=Art	18	det	NATO	PROPN	Case=Nom Number=Sing	19
 <name type="ORG">
@@ -659,7 +659,7 @@ Minket	Minket	mi	NOUN	Case=Acc Number=Sing Number[psor]=Plur Person[psor]=1	1	ob
 közép-európaiakat	közép-európaiakat	közép-európaiakat	NOUN	Case=Acc Number=Plur	3	conj	mi	NOUN	Case=Acc Number=Sing Number[psor]=Plur Person[psor]=1	1
 egy	egy	egy	DET	Definite=Ind PronType=Art	4	det	szereplő	NOUN	Case=Nom Number=Sing	5
 szereplő	szereplő	szereplő	NOUN	Case=Nom Number=Sing	5	nsubj	képvisel	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
-képvisel	képvisel	képvisel	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6	nmod_obl	külügyminiszter	NOUN	Case=Nom Number=Sing	11
+képvisel	képvisel	képvisel	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6	nmod:obl	külügyminiszter	NOUN	Case=Nom Number=Sing	11
 <g/>
 ,	,	,	PUNCT	-	7	punct	képvisel	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
 egy	egy	egy	DET	Definite=Ind PronType=Art	8	det	külügyminiszter	NOUN	Case=Nom Number=Sing	11
@@ -774,7 +774,7 @@ szorult	szorult	szorul	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pas
 legyen	legyen	lesz	VERB	Definite=Ind Mood=Imp Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	16	amod:att	szó	NOUN	Case=Nom Number=Sing	17
 szó	szó	szó	NOUN	Case=Nom Number=Sing	17	nsubj	szorul	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	14
 a	a	a	DET	Definite=Def PronType=Art	18	det	repatriálás	NOUN	Case=Del Number=Sing	19
-repatriálásról	repatriálásról	repatriálás	NOUN	Case=Del Number=Sing	19	nmod_obl	szó	NOUN	Case=Nom Number=Sing	17
+repatriálásról	repatriálásról	repatriálás	NOUN	Case=Del Number=Sing	19	nmod:obl	szó	NOUN	Case=Nom Number=Sing	17
 <g/>
 ,	,	,	PUNCT	-	20	punct	beszerzés	NOUN	Case=Del Number=Sing Number[psor]=Sing Person[psor]=3	26
 az	az	az	DET	Definite=Def PronType=Art	21	det	védekezés	NOUN	Case=All Number=Sing	23
@@ -883,7 +883,7 @@ jeleztem	jeleztem	jelez	VERB	Definite=Def Mood=Ind Number=Plur Person=3 Tense=Pa
 hogy	hogy	hogy	SCONJ	-	15	mark	fog	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	22
 a	a	a	DET	Definite=Def PronType=Art	16	det	nap	NOUN	Case=Sup Number=Sing	18
 mai	mai	mai	ADJ	Case=Nom Degree=Pos Number=Sing	17	amod:att	nap	NOUN	Case=Sup Number=Sing	18
-napon	napon	nap	NOUN	Case=Sup Number=Sing	18	nmod_obl	ön	NOUN	Case=Dat Number=Plur	20
+napon	napon	nap	NOUN	Case=Sup Number=Sing	18	nmod:obl	ön	NOUN	Case=Dat Number=Plur	20
 itt	itt	itt	ADV	PronType=Dem	19	nmod:att	ön	NOUN	Case=Dat Number=Plur	20
 önöknek	önöknek	ön	NOUN	Case=Dat Number=Plur	20	advmod:tlocy	tart	VERB	VerbForm=Inf Voice=Act	23
 beszámolót	beszámolót	beszámoló	NOUN	Case=Acc Number=Sing	21	obl	tart	VERB	VerbForm=Inf Voice=Act	23
@@ -1142,7 +1142,7 @@ tagok	tagok	tag	NOUN	Case=Nom Number=Plur	6	conj	településvezető	NOUN	Case=No
 ,	,	,	PUNCT	-	7	punct	tag	NOUN	Case=Nom Number=Plur	6
 de	de	de	CCONJ	-	8	cc	dolgozó	NOUN	Case=Nom Number=Plur	11
 a	a	a	DET	Definite=Def PronType=Art	9	det	hivatal	NOUN	Case=Ine Number=Plur	10
-hivatalokban	hivatalokban	hivatal	NOUN	Case=Ine Number=Plur	10	nmod_obl	dolgozó	NOUN	Case=Nom Number=Plur	11
+hivatalokban	hivatalokban	hivatal	NOUN	Case=Ine Number=Plur	10	nmod:obl	dolgozó	NOUN	Case=Nom Number=Plur	11
 dolgozók	dolgozók	dolgozó	NOUN	Case=Nom Number=Plur	11	conj	településvezető	NOUN	Case=Nom Number=Plur	2
 <g/>
 ,	,	,	PUNCT	-	12	punct	dolgozó	NOUN	Case=Nom Number=Plur	11
@@ -1275,7 +1275,7 @@ szerv	szerv	szerv	NOUN	Case=Nom Number=Sing	45	conj	tervezett	ADJ	Case=Nom Degre
 .	.	.	PUNCT	-	46	punct	mond	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	11
 </s>
 <s id="ParlaMint-HU_2020-04-07.seg1134.3">
-Erről	Erről	ez	PRON	Case=Del Number=Sing Person=3 PronType=Dem	1	nmod_obl	terv	NOUN	Case=Del Number=Sing	3
+Erről	Erről	ez	PRON	Case=Del Number=Sing Person=3 PronType=Dem	1	nmod:obl	terv	NOUN	Case=Del Number=Sing	3
 a	a	a	DET	Definite=Def PronType=Art	2	det	terv	NOUN	Case=Del Number=Sing	3
 tervről	tervről	terv	NOUN	Case=Del Number=Sing	3	obl	tűnik	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
 <g/>
@@ -1416,7 +1416,7 @@ a	a	a	DET	Definite=Def PronType=Art	17	det	százalék	NOUN	Case=Acc Number=Sing 
 60	60	60	NUM	Case=Nom NumType=Card Number=Sing	18	nummod	százalék	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person[psor]=3	19
 százalékát	százalékát	százalék	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person[psor]=3	19	obj	elvesz	VERB	Definite=Def Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	13
 az	az	az	DET	Definite=Def PronType=Art	20	det	önkormányzat	NOUN	Case=Abl Number=Sing	21
-önkormányzatoktól	önkormányzatoktól	önkormányzat	NOUN	Case=Abl Number=Sing	21	nmod_obl	százalék	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person[psor]=3	19
+önkormányzatoktól	önkormányzatoktól	önkormányzat	NOUN	Case=Abl Number=Sing	21	nmod:obl	százalék	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person[psor]=3	19
 <g/>
 .	.	.	PUNCT	-	22	root	-	-	-	-
 </s>
@@ -1468,7 +1468,7 @@ nagyon	nagyon	nagyon	ADV	-	27	advmod:mode	fontos	ADJ	Case=Nom Degree=Pos Number=
 fontos	fontos	fontos	ADJ	Case=Nom Degree=Pos Number=Sing	28	amod:att	alap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	29
 alapja	alapja	alap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	29	acl	százalék	NOUN	Case=Nom Number=Sing	23
 a	a	a	DET	Definite=Def PronType=Art	30	det	költségvetés	NOUN	Case=Gen Number=Sing	31
-költségvetésnek	költségvetésnek	költségvetés	NOUN	Case=Gen Number=Sing	31	nmod_obl	alap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	29
+költségvetésnek	költségvetésnek	költségvetés	NOUN	Case=Gen Number=Sing	31	nmod:obl	alap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	29
 <g/>
 .	.	.	PUNCT	-	32	punct	beszél	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
@@ -1583,7 +1583,7 @@ okai	okai	ok	NOUN	Case=Nom Number=Plur Number[psor]=Sing Person[psor]=3	8	punct	
 lennének	lennének	lesz	VERB	Definite=Ind Mood=Cnd Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	9	cop	ok	NOUN	Case=Nom Number=Plur Number[psor]=Sing Person[psor]=3	8
 ezeknek	ezeknek	ez	ADJ	Case=Dat Degree=Pos Number=Plur	10	det	döntés	NOUN	Case=Acc Number=Plur	21
 a	a	a	DET	Definite=Def PronType=Art	11	det	döntés	NOUN	Case=Dat Number=Plur	12
-döntéseknek	döntéseknek	döntés	NOUN	Case=Dat Number=Plur	12	nmod_obl	ez	ADJ	Case=Dat Degree=Pos Number=Plur	10
+döntéseknek	döntéseknek	döntés	NOUN	Case=Dat Number=Plur	12	nmod:obl	ez	ADJ	Case=Dat Degree=Pos Number=Plur	10
 <g/>
 ,	,	,	PUNCT	-	13	punct	van	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	20
 mert	mert	mert	SCONJ	-	14	mark	van	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	20

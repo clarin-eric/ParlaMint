@@ -303,7 +303,7 @@ nyilvánít	nyilvánít	nyilvánít	VERB	Definite=Ind Mood=Ind Number=Sing Perso
 .	.	.	PUNCT	-	25	punct	ellentétes	ADJ	Case=Nom Degree=Pos Number=Sing	11
 </s>
 <s id="ParlaMint-HU_2016-12-07.seg5.4">
-Ehhez	Ehhez	ez	PRON	Case=All Number=Sing Person=3 PronType=Dem	1	nmod_obl	képest	ADP	-	2
+Ehhez	Ehhez	ez	PRON	Case=All Number=Sing Person=3 PronType=Dem	1	nmod:obl	képest	ADP	-	2
 képest	képest	képest	ADP	-	2	root	-	-	-	-
 minden	minden	minden	PRON	Case=Nom Number=Sing Person=3 PronType=Tot	3	det	ok	NOUN	Case=Nom Number=Sing	6
 más	más	más	PRON	Case=Nom Number=Sing Person=3 PronType=Ind	4	amod:att	ok	NOUN	Case=Nom Number=Sing	6
@@ -1308,7 +1308,7 @@ termőföld	termőföld	termőföld	NOUN	Case=Nom Number=Sing	6	nmod:att	adózta
 adóztatása	adóztatása	adóztatás	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	7	nmod:att	tér	NOUN	Case=Sup Number=Sing Number[psor]=Sing Person[psor]=3	8
 terén	terén	tér	NOUN	Case=Sup Number=Sing Number[psor]=Sing Person[psor]=3	8	obl	él	VERB	Definite=Ind Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	9
 éltek	éltek	él	VERB	Definite=Ind Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	9	root	-	-	-	-
-ezzel	ezzel	ez	PRON	Case=Ins Number=Sing Person=3 PronType=Dem	10	nmod_obl	lehetőség	NOUN	Case=Ins Number=Sing	12
+ezzel	ezzel	ez	PRON	Case=Ins Number=Sing Person=3 PronType=Dem	10	nmod:obl	lehetőség	NOUN	Case=Ins Number=Sing	12
 a	a	a	DET	Definite=Def PronType=Art	11	det	lehetőség	NOUN	Case=Ins Number=Sing	12
 lehetőséggel	lehetőséggel	lehetőség	NOUN	Case=Ins Number=Sing	12	obl	él	VERB	Definite=Ind Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	9
 <g/>
@@ -1560,7 +1560,7 @@ az	az	az	DET	Definite=Def PronType=Art	12	det	Alkotmánybíróság	PROPN	Case=No
 Alkotmánybíróság	Alkotmánybíróság	Alkotmánybíróság	PROPN	Case=Nom Number=Sing	13	nmod:att	határozat	NOUN	Case=Ine Number=Sing Number[psor]=Sing Person[psor]=3	15
 </name>
 korábbi	korábbi	korábbi	ADJ	Case=Nom Degree=Cmp Number=Sing	14	amod:att	határozat	NOUN	Case=Ine Number=Sing Number[psor]=Sing Person[psor]=3	15
-határozatában	határozatában	határozat	NOUN	Case=Ine Number=Sing Number[psor]=Sing Person[psor]=3	15	nmod_obl	foglalt	NOUN	Case=Acc Number=Plur	16
+határozatában	határozatában	határozat	NOUN	Case=Ine Number=Sing Number[psor]=Sing Person[psor]=3	15	nmod:obl	foglalt	NOUN	Case=Acc Number=Plur	16
 foglaltakat	foglaltakat	foglalt	NOUN	Case=Acc Number=Plur	16	obl	köteles	ADJ	Case=Nom Degree=Pos Number=Sing	19
 az	az	az	DET	Definite=Def PronType=Art	17	det	önkormányzat	NOUN	Case=Nom Number=Sing	18
 önkormányzat	önkormányzat	önkormányzat	NOUN	Case=Nom Number=Sing	18	nsubj	köteles	ADJ	Case=Nom Degree=Pos Number=Sing	19
@@ -1846,7 +1846,7 @@ kiváltó	kiváltó	kiváltó	ADJ	Case=Nom Degree=Pos Number=Sing VerbForm=PartP
 döntésünket	döntésünket	döntés	NOUN	Case=Acc Number=Sing Number[psor]=Plur Person[psor]=1	9	conj	az	DET	Case=Acc Number=Sing Person=3 PronType=Dem	3
 ebből	ebből	ez	DET	Case=Ela Number=Sing Person=3 PronType=Dem	10	det	év	NOUN	Case=Ela Number=Sing	12
 az	az	az	DET	Definite=Def PronType=Art	11	det	év	NOUN	Case=Ela Number=Sing	12
-évből	évből	év	NOUN	Case=Ela Number=Sing	12	nmod_obl	döntés	NOUN	Case=Acc Number=Sing Number[psor]=Plur Person[psor]=1	9
+évből	évből	év	NOUN	Case=Ela Number=Sing	12	nmod:obl	döntés	NOUN	Case=Acc Number=Sing Number[psor]=Plur Person[psor]=1	9
 <g/>
 ,	,	,	PUNCT	-	13	punct	állapít	VERB	Definite=Def Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin Voice=Act	23
 amikor	amikor	amikor	ADV	PronType=Rel	14	advmod:tlocy	állapít	VERB	Definite=Def Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin Voice=Act	23
@@ -1932,7 +1932,7 @@ tekintetben	tekintetben	tekintet	NOUN	Case=Ine Number=Sing	9	obl	hoz	VERB	Defini
 <g/>
 ,	,	,	PUNCT	-	10	punct	megteremt	VERB	Definite=Ind Mood=Imp Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	18
 hogy	hogy	hogy	SCONJ	-	11	mark	megteremt	VERB	Definite=Ind Mood=Imp Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	18
-hatályon	hatályon	hatály	NOUN	Case=Sup Number=Sing	12	nmod_obl	kívül	ADP	-	13
+hatályon	hatályon	hatály	NOUN	Case=Sup Number=Sing	12	nmod:obl	kívül	ADP	-	13
 kívül	kívül	kívül	ADP	-	13	advmod:to	helyező	ADJ	Case=Nom Number=Sing VerbForm=PartPres	14
 helyező	helyező	helyező	ADJ	Case=Nom Number=Sing VerbForm=PartPres	14	amod:att	végzés	NOUN	Case=Nom Number=Plur	15
 végzések	végzések	végzés	NOUN	Case=Nom Number=Plur	15	nmod:att	kontroll	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person[psor]=3	17
@@ -1980,7 +1980,7 @@ határozott	határozott	határozott	ADJ	Case=Nom Number=Sing VerbForm=PartPast	3
 álláspontja	álláspontja	álláspont	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	4	root	-	-	-	-
 a	a	a	DET	Definite=Def PronType=Art	5	det	Kúriá	PROPN	Case=Dat Number=Sing	6
 <name type="ORG">
-Kúriának	Kúriának	Kúriá	PROPN	Case=Dat Number=Sing	6	nmod_obl	álláspont	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	4
+Kúriának	Kúriának	Kúriá	PROPN	Case=Dat Number=Sing	6	nmod:obl	álláspont	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	4
 <g/>
 </name>
 ,	,	,	PUNCT	-	7	punct	kell	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	16
@@ -2132,7 +2132,7 @@ az	az	az	DET	Definite=Def PronType=Art	64	det	Ptk.	PROPN	Case=Nom Number=Sing	66
 <name type="MISC">
 Ptk.	Ptk.	Ptk.	PROPN	Case=Nom Number=Sing	66	nmod:att	alap	NOUN	Case=Sup Number=Sing Number[psor]=Sing Person[psor]=3	67
 </name>
-alapján	alapján	alap	NOUN	Case=Sup Number=Sing Number[psor]=Sing Person[psor]=3	67	nmod_obl	kialakulás	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person[psor]=3	74
+alapján	alapján	alap	NOUN	Case=Sup Number=Sing Number[psor]=Sing Person[psor]=3	67	nmod:obl	kialakulás	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person[psor]=3	74
 egy	egy	egy	DET	Definite=Ind PronType=Art	68	nummod	gyakorlat	NOUN	Case=Nom Number=Sing	73
 újabb	újabb	új	ADJ	Case=Nom Degree=Cmp Number=Sing	69	amod:att	gyakorlat	NOUN	Case=Nom Number=Sing	73
 <g/>
@@ -2316,7 +2316,7 @@ határozatot	határozatot	határozat	NOUN	Case=Acc Number=Sing	25	obj	rendelkezi
 ,	,	,	PUNCT	-	26	punct	elhatárol	VERB	Definite=Def Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	28
 amely	amely	amely	PRON	Case=Nom Number=Sing Person=3 PronType=Rel	27	nsubj	elhatárol	VERB	Definite=Def Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	28
 elhatárolta	elhatárolta	elhatárol	VERB	Definite=Def Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	28	acl	határozat	NOUN	Case=Acc Number=Sing	25
-egymástól	egymástól	egymás	PRON	Case=Ill Number=Sing Person=3 PronType=Rcp	29	nmod_obl	fogyasztói	ADJ	Case=Nom Degree=Pos Number=Sing	31
+egymástól	egymástól	egymás	PRON	Case=Ill Number=Sing Person=3 PronType=Rcp	29	nmod:obl	fogyasztói	ADJ	Case=Nom Degree=Pos Number=Sing	31
 a	a	a	DET	Definite=Def PronType=Art	30	det	fogyasztói	ADJ	Case=Nom Degree=Pos Number=Sing	31
 fogyasztói	fogyasztói	fogyasztói	ADJ	Case=Nom Degree=Pos Number=Sing	31	amod:att	ismérv	NOUN	Case=Acc Number=Plur Number[psor]=Sing Person[psor]=3	37
 és	és	és	CCONJ	-	32	cc	kölcsön	NOUN	Case=Nom Number=Sing	36
@@ -2379,7 +2379,7 @@ a	a	a	DET	Definite=Def PronType=Art	13	det	Kúria	PROPN	Case=Nom Number=Sing	14
 <name type="ORG">
 Kúria	Kúria	Kúria	PROPN	Case=Nom Number=Sing	14	nmod:att	működés	NOUN	Case=Ins Number=Sing Number[psor]=Sing Person[psor]=3	15
 </name>
-működésével	működésével	működés	NOUN	Case=Ins Number=Sing Number[psor]=Sing Person[psor]=3	15	nmod_obl	kapcsolat	NOUN	Case=Ine Number=Sing	16
+működésével	működésével	működés	NOUN	Case=Ins Number=Sing Number[psor]=Sing Person[psor]=3	15	nmod:obl	kapcsolat	NOUN	Case=Ine Number=Sing	16
 kapcsolatban	kapcsolatban	kapcsolat	NOUN	Case=Ine Number=Sing	16	obl	hallhat	VERB	Definite=Ind Mood=Pot Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	12
 <g/>
 ,	,	,	PUNCT	-	17	punct	enged	VERB	Definite=Def Mood=Imp Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	18
@@ -2388,7 +2388,7 @@ meg	meg	meg	PART	-	19	compound:preverb	enged	VERB	Definite=Def Mood=Imp Number=P
 <g/>
 ,	,	,	PUNCT	-	20	punct	kiemel	VERB	Definite=Ind Mood=Imp Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	25
 hogy	hogy	hogy	SCONJ	-	21	mark	kiemel	VERB	Definite=Ind Mood=Imp Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	25
-ebből	ebből	ez	PRON	Case=Ela Number=Sing Person=3 PronType=Dem	22	nmod_obl	momentum	NOUN	Case=Acc Number=Sing	24
+ebből	ebből	ez	PRON	Case=Ela Number=Sing Person=3 PronType=Dem	22	nmod:obl	momentum	NOUN	Case=Acc Number=Sing	24
 négy	négy	négy	NUM	Case=Nom NumType=Card Number=Sing	23	nummod	momentum	NOUN	Case=Acc Number=Sing	24
 momentumot	momentumot	momentum	NOUN	Case=Acc Number=Sing	24	obj	kiemel	VERB	Definite=Ind Mood=Imp Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	25
 kiemeljek	kiemeljek	kiemel	VERB	Definite=Ind Mood=Imp Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	25	ccomp:obj	enged	VERB	Definite=Def Mood=Imp Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	18
@@ -2422,7 +2422,7 @@ módon	módon	mód	NOUN	Case=Sup Number=Sing	17	obl	alkalmaz	VERB	Definite=Def M
 .	.	.	PUNCT	-	18	punct	első	ADJ	Case=Nom NumType=Ord Number=Sing	2
 </s>
 <s id="ParlaMint-HU_2016-12-07.seg21.4">
-Erre	Erre	ez	PRON	Case=Sbl Number=Sing Person=3 PronType=Dem	1	nmod_obl	kérdés	NOUN	Case=Sbl Number=Sing	3
+Erre	Erre	ez	PRON	Case=Sbl Number=Sing Person=3 PronType=Dem	1	nmod:obl	kérdés	NOUN	Case=Sbl Number=Sing	3
 a	a	a	DET	Definite=Def PronType=Art	2	det	kérdés	NOUN	Case=Sbl Number=Sing	3
 kérdésre	kérdésre	kérdés	NOUN	Case=Sbl Number=Sing	3	obl	utal	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	6
 akkor	akkor	akkor	ADV	PronType=Dem	4	advmod:tlocy	utal	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	6
@@ -2559,7 +2559,7 @@ is	is	is	CCONJ	-	26	cc	szabály	NOUN	Case=Acc Number=Plur Number[psor]=Sing Pers
 </p>
 <p id="u2016-12-07-1.19" lang="magyar">
 <s id="ParlaMint-HU_2016-12-07.seg23.1">
-Azt	Azt	az	PRON	Case=Acc Number=Sing Person=3 PronType=Dem	1	nmod_obl	kérdés	NOUN	Case=Acc Number=Sing	3
+Azt	Azt	az	PRON	Case=Acc Number=Sing Person=3 PronType=Dem	1	nmod:obl	kérdés	NOUN	Case=Acc Number=Sing	3
 a	a	a	DET	Definite=Def PronType=Art	2	det	kérdés	NOUN	Case=Acc Number=Sing	3
 kérdést	kérdést	kérdés	NOUN	Case=Acc Number=Sing	3	obj	felvet	VERB	Definite=Def Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	5
 is	is	is	CCONJ	-	4	cc	kérdés	NOUN	Case=Acc Number=Sing	3
@@ -2584,7 +2584,7 @@ ismérveivel	ismérveivel	ismérv	NOUN	Case=Ins Number=Plur Number[psor]=Sing Pe
 .	.	.	PUNCT	-	19	punct	felvet	VERB	Definite=Def Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	5
 </s>
 <s id="ParlaMint-HU_2016-12-07.seg23.2">
-Erre	Erre	ez	PRON	Case=Sbl Number=Sing Person=3 PronType=Dem	1	nmod_obl	válasz	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=1	3
+Erre	Erre	ez	PRON	Case=Sbl Number=Sing Person=3 PronType=Dem	1	nmod:obl	válasz	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=1	3
 a	a	a	DET	Definite=Def PronType=Art	2	det	válasz	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=1	3
 válaszom	válaszom	válasz	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=1	3	nsubj	az	PRON	Case=Nom Number=Sing Person=3 PronType=Dem	4
 az	az	az	PRON	Case=Nom Number=Sing Person=3 PronType=Dem	4	root	-	-	-	-
@@ -2725,10 +2725,10 @@ a	a	a	DET	Definite=Def PronType=Art	21	det	Kúria	PROPN	Case=Nom Number=Sing	22
 <name type="ORG">
 Kúria	Kúria	Kúria	PROPN	Case=Nom Number=Sing	22	obl	helyező	ADJ	Case=Nom Degree=Pos Number=Sing VerbForm=PartPres	25
 </name>
-hatályon	hatályon	hatály	NOUN	Case=Sup Number=Sing	23	nmod_obl	kívül	ADP	-	24
+hatályon	hatályon	hatály	NOUN	Case=Sup Number=Sing	23	nmod:obl	kívül	ADP	-	24
 kívül	kívül	kívül	ADP	-	24	case	Kúria	PROPN	Case=Nom Number=Sing	22
 helyező	helyező	helyező	ADJ	Case=Nom Degree=Pos Number=Sing VerbForm=PartPres	25	amod:att	döntés	NOUN	Case=Ins Number=Sing Number[psor]=Sing Person[psor]=3	26
-döntésével	döntésével	döntés	NOUN	Case=Ins Number=Sing Number[psor]=Sing Person[psor]=3	26	nmod_obl	ellentétben	ADP	-	27
+döntésével	döntésével	döntés	NOUN	Case=Ins Number=Sing Number[psor]=Sing Person[psor]=3	26	nmod:obl	ellentétben	ADP	-	27
 ellentétben	ellentétben	ellentétben	ADP	-	27	obl	helyezkedik	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	31
 más	más	más	PRON	Case=Nom Number=Sing Person=3 PronType=Ind	28	amod:att	álláspont	NOUN	Case=Sbl Number=Sing	30
 jogi	jogi	jogi	ADJ	Case=Nom Degree=Pos Number=Sing	29	amod:att	álláspont	NOUN	Case=Sbl Number=Sing	30
@@ -2794,7 +2794,7 @@ amit	amit	ami	PRON	Case=Acc Number=Sing Person=3 PronType=Rel	31	obj	felülbír�
 a	a	a	DET	Definite=Def PronType=Art	32	det	igény	NOUN	Case=Nom Number=Sing	34
 jogorvoslati	jogorvoslati	jogorvoslati	ADJ	Case=Nom Degree=Pos Number=Sing	33	amod:att	igény	NOUN	Case=Nom Number=Sing	34
 igény	igény	igény	NOUN	Case=Nom Number=Sing	34	nmod:att	eset	NOUN	Case=Sup Number=Sing Number[psor]=Sing Person[psor]=3	35
-esetén	esetén	eset	NOUN	Case=Sup Number=Sing Number[psor]=Sing Person[psor]=3	35	nmod_obl	felülbírál	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	36
+esetén	esetén	eset	NOUN	Case=Sup Number=Sing Number[psor]=Sing Person[psor]=3	35	nmod:obl	felülbírál	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	36
 felülbírál	felülbírál	felülbírál	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	36	acl	ítél	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	29
 egy	egy	egy	DET	Definite=Ind PronType=Art	37	det	tanács	NOUN	Case=Nom Number=Sing	40
 másik	másik	másik	PRON	Case=Nom Number=Sing Person=3 PronType=Ind	38	amod:att	tanács	NOUN	Case=Nom Number=Sing	40
@@ -3096,7 +3096,7 @@ lehetetlen	lehetetlen	lehetetlen	ADJ	Case=Nom Degree=Pos Number=Sing	31	advcl	l�
 <name type="LOC">
 Magyarországon	Magyarországon	Magyarország	PROPN	Case=Sup Number=Sing	32	obl	lehetetlen	ADJ	Case=Nom Degree=Pos Number=Sing	31
 </name>
-ettől	ettől	ez	PRON	Case=Abl Number=Sing Person=3 PronType=Dem	33	nmod_obl	kormányzat	NOUN	Case=Abl Number=Sing	35
+ettől	ettől	ez	PRON	Case=Abl Number=Sing Person=3 PronType=Dem	33	nmod:obl	kormányzat	NOUN	Case=Abl Number=Sing	35
 a	a	a	DET	Definite=Def PronType=Art	34	det	kormányzat	NOUN	Case=Abl Number=Sing	35
 kormányzattól	kormányzattól	kormányzat	NOUN	Case=Abl Number=Sing	35	obl	érdemi	ADJ	Case=Nom Degree=Pos Number=Sing	36
 érdemi	érdemi	érdemi	ADJ	Case=Nom Degree=Pos Number=Sing	36	amod:att	megoldás	NOUN	Case=Acc Number=Sing	37
@@ -3516,7 +3516,7 @@ Ezeket	Ezeket	ez	NOUN	Case=Acc Number=Plur	1	obj	biztosít	VERB	VerbForm=Inf Voi
 az	az	az	DET	Definite=Def PronType=Art	2	det	ember	NOUN	Case=Acc Number=Plur	3
 embereket	embereket	ember	NOUN	Case=Acc Number=Plur	3	obj	szociális	ADJ	Case=Nom Degree=Pos Number=Sing	4
 szociális	szociális	szociális	ADJ	Case=Nom Degree=Pos Number=Sing	4	amod:att	transzfer	NOUN	Case=Ins Number=Plur	5
-transzferekkel	transzferekkel	transzfer	NOUN	Case=Ins Number=Plur	5	nmod_obl	ez	NOUN	Case=Acc Number=Plur	1
+transzferekkel	transzferekkel	transzfer	NOUN	Case=Ins Number=Plur	5	nmod:obl	ez	NOUN	Case=Acc Number=Plur	1
 <g/>
 ,	,	,	PUNCT	-	6	punct	egyéb	NOUN	Case=Ins Number=Plur	7
 egyebekkel	egyebekkel	egyéb	NOUN	Case=Ins Number=Plur	7	conj	ez	NOUN	Case=Acc Number=Plur	1

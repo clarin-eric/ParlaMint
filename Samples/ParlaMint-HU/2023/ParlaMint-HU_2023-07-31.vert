@@ -734,7 +734,7 @@ isten	isten	isten	NOUN	Case=Nom Number=Sing	45	nsubj	ad	VERB	Definite=Ind Mood=I
 <g/>
 ,	,	,	PUNCT	-	46	punct	későn	ADV	-	49
 néhány	néhány	néhány	PRON	Case=Nom Number=Sing Person=3 PronType=Ind	47	amod:att	hónap	NOUN	Case=Ins Number=Sing	48
-hónappal	hónappal	hónap	NOUN	Case=Ins Number=Sing	48	nmod_obl	későn	ADV	-	49
+hónappal	hónappal	hónap	NOUN	Case=Ins Number=Sing	48	nmod:obl	későn	ADV	-	49
 később	később	későn	ADV	-	49	advmod:tlocy	bejelent	VERB	Definite=Def Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	50
 bejelentik	bejelentik	bejelent	VERB	Definite=Def Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	50	conj	van	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	11
 <g/>
