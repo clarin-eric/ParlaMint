@@ -1106,4 +1106,15 @@
     </xsl:choose>
   </xsl:function>
   
+  <!-- Return value of $input, if it exists, otherwise '-' -->
+  <xsl:function name="et:tsv-value">
+    <xsl:param name="input"/>
+    <xsl:choose>
+      <xsl:when test="normalize-space($input)">
+        <xsl:value-of select="$input"/>
+      </xsl:when>
+      <xsl:otherwise>-</xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+
 </xsl:stylesheet>
