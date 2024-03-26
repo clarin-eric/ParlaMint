@@ -710,6 +710,11 @@
     <xsl:param name="full"/>
     <xsl:variable name="orgName" select="et:l10n($corpus-language, $org/tei:orgName[@full=$full])"/>
     <xsl:choose>
+      <xsl:when test="$orgName[2]">
+        <xsl:message select="concat('WARN: organisation ', $org/@xml:id, ' with two orgName/@full = ', $full, 
+                             ': outputting only the last one!')"/>
+        <xsl:value-of select="$orgName[last()]"/>
+      </xsl:when>
       <xsl:when test="normalize-space($orgName)">
         <xsl:value-of select="$orgName"/>
       </xsl:when>
