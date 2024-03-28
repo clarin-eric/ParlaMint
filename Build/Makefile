@@ -14,12 +14,8 @@ geneate-stats:
 
 ## Generate TSV files with information on organisations
 generate-orgs:
-	for CORPUS in ${CORPORA}; do \
-	$s out-lang=xx -xsl:Scripts/listOrg-tei2tsv.xsl Distro/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}.xml \
-	> Metadata/ParlaMint-$${CORPUS}-listOrg.tsv ; \
-	$s out-lang=en -xsl:Scripts/listOrg-tei2tsv.xsl Distro/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}.xml \
-	> Metadata/ParlaMint-$${CORPUS}-listOrg-en.tsv ; \
-	done;
+	$s out-lang=xx -xsl:Scripts/listOrg-tei2tsv.xsl Distro/ParlaMint.xml > Metadata/ParlaMint-listOrg.tsv
+	$s out-lang=en -xsl:Scripts/listOrg-tei2tsv.xsl Distro/ParlaMint.xml > Metadata/ParlaMint-listOrg-en.tsv
 generate-persons:
 	$s path=../Build/Distro outDir=../Build/Metadata -xsl:../Scripts/parlamint2tbl-parties.xsl Distro/ParlaMint.xml
 	for CORPUS in ${CORPORA}; do \
@@ -35,8 +31,8 @@ gen-all-persons:
 ### VARIABLES
 
 ### COMPLETE SET OF CORPORA
-#CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-CORPORA=HU
+CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+#CORPORA=BG
 
 ####### MTed CORPORA. Used only for make pack!
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en ES-PV-en FI-en FR-en GB-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en

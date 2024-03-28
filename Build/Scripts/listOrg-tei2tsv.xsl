@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- Outoput information on ParlaMint organisations as TSV file -->
-<!-- Expects ParlaMint-XX.(ana).xml as input -->
+<!-- Expects ParlaMint.xml (for all corpora) or ParlaMint-XX.xml (for one corpus) as input -->
 <xsl:stylesheet 
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -15,46 +15,54 @@
   
   <xsl:output method="text"/>
   
-  <!-- Top level @xml:id should contain name of country or region -->
-  <xsl:variable name="country"
-                select="replace(tei:*/@xml:id, 
-                        '.*ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', 
-                        '$1')"/>
-  
-  <xsl:variable name="lang" select="/tei:*/@xml:lang" as="xs:string"/>
-  
   <xsl:template match="text()"/>
   <xsl:template match="tei:*">
     <xsl:apply-templates/>
   </xsl:template>
   
   <xsl:template match="/">
+    <xsl:call-template name="header-row"/>
+    <xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="tei:teiCorpus[@xml:id = 'ParlaMint' or @xml:id = 'ParlaMint.ana']">
+    <xsl:for-each select="xi:include">
+      <xsl:apply-templates select="document(@href)/tei:teiCorpus"/>
+    </xsl:for-each>
+  </xsl:template>
+
+  <xsl:template match="tei:teiCorpus">
+    <!-- Top level @xml:id should contain name of country or region -->
+    <xsl:variable name="country"
+                  select="replace(@xml:id, 
+                          '.*ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?)', 
+                          '$1')"/>
+    <xsl:variable name="lang" select="@xml:lang" as="xs:string"/>
+    <xsl:message select="concat('INFO: Converting ', @xml:id, 
+                         ' (', $country, '/', $lang, ') to metadata TSV')"/>
     <xsl:variable name="document">
       <xsl:apply-templates mode="expand" select="//tei:teiHeader">
         <xsl:with-param name="lang" select="$lang"/>
       </xsl:apply-templates>
     </xsl:variable>
-    <xsl:apply-templates select="$document//tei:listOrg"/>
+    <xsl:apply-templates select="$document//tei:listOrg">
+      <xsl:with-param name="country" select="$country"/>
+      <xsl:with-param name="lang" select="$lang"/>
+    </xsl:apply-templates>
   </xsl:template>
-  
+
   <xsl:template match="tei:listOrg">
-    <xsl:message select="concat('INFO: Converting ', @xml:id, 
-                         ' (', $country, '/', $lang, ') to metadata TSV')"/>
-    <xsl:text>Country&#9;</xsl:text>
-    <xsl:text>orgType&#9;</xsl:text>
-    <xsl:text>orgID&#9;</xsl:text>
-    <xsl:text>AbbrName&#9;</xsl:text>
-    <xsl:text>FullName&#9;</xsl:text>
-    <xsl:text>From&#9;</xsl:text>
-    <xsl:text>To&#9;</xsl:text>
-    <xsl:text>Orientation-LR&#9;</xsl:text>
-    <xsl:text>Wikipedia&#9;</xsl:text>
-    <xsl:text>CHES-ID</xsl:text>
-    <xsl:text>&#10;</xsl:text>
-    <xsl:apply-templates select=".//tei:org"/>
+    <xsl:param name="country"/>
+    <xsl:param name="lang"/>
+    <xsl:apply-templates select=".//tei:org">
+      <xsl:with-param name="country" select="$country"/>
+      <xsl:with-param name="lang" select="$lang"/>
+    </xsl:apply-templates>
   </xsl:template>
     
   <xsl:template match="tei:org">
+    <xsl:param name="country"/>
+    <xsl:param name="lang"/>
     <xsl:variable name="AbbrName">
       <xsl:call-template name="orgName">
         <xsl:with-param name="org" select="."/>
@@ -104,4 +112,18 @@
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
 
+  <xsl:template name="header-row">
+    <xsl:text>Country&#9;</xsl:text>
+    <xsl:text>orgType&#9;</xsl:text>
+    <xsl:text>orgID&#9;</xsl:text>
+    <xsl:text>AbbrName&#9;</xsl:text>
+    <xsl:text>FullName&#9;</xsl:text>
+    <xsl:text>From&#9;</xsl:text>
+    <xsl:text>To&#9;</xsl:text>
+    <xsl:text>Orientation-LR&#9;</xsl:text>
+    <xsl:text>Wikipedia&#9;</xsl:text>
+    <xsl:text>CHES-ID</xsl:text>
+    <xsl:text>&#10;</xsl:text>
+  </xsl:template>
+  
 </xsl:stylesheet>
