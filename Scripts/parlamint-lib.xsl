@@ -1116,7 +1116,7 @@
     <xsl:param name="input"/>
     <xsl:choose>
       <xsl:when test="normalize-space($input)">
-        <xsl:value-of select="$input"/>
+        <xsl:value-of select="normalize-space($input)"/>
       </xsl:when>
       <xsl:otherwise>-</xsl:otherwise>
     </xsl:choose>
