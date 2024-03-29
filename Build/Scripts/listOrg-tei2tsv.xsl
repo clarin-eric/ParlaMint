@@ -40,6 +40,7 @@
     <xsl:variable name="lang" select="@xml:lang" as="xs:string"/>
     <xsl:message select="concat('INFO: Converting ', @xml:id, 
                          ' (', $country, '/', $lang, ') to metadata TSV')"/>
+    <!-- Expand the teiHeader so that it includes taxonomies and all elements have @xml:lang -->
     <xsl:variable name="document">
       <xsl:apply-templates mode="expand" select="//tei:teiHeader">
         <xsl:with-param name="lang" select="$lang"/>
@@ -76,9 +77,19 @@
       </xsl:call-template>
     </xsl:variable>
     <xsl:variable name="Orientation-LR">
-      <xsl:call-template name="party-orientation">
-        <xsl:with-param name="party" select="."/>
-      </xsl:call-template>
+      <xsl:variable name="orientation" select="tei:state[@type = 'politicalOrientation']"/>
+      <xsl:choose>
+        <xsl:when test="$orientation/tei:state[@type = 'Wikipedia']">
+          <xsl:value-of select="et:l10n($lang, 
+                                key('idr', $orientation/tei:state[@type = 'Wikipedia']/@ana)
+                                /tei:catDesc)/tei:term"/>
+        </xsl:when>
+        <xsl:when test="$orientation/tei:state[@type = 'encoder']">
+          <xsl:value-of select="et:l10n($lang, 
+                                key('idr', $orientation/tei:state[@type = 'encoder']/@ana)
+                                /tei:catDesc)/tei:term"/>
+        </xsl:when>
+      </xsl:choose>
     </xsl:variable>    
     <!-- Get Wikipedia URL from <idno> or <state> as fall-back -->
     <xsl:variable name="Wikipedia">
