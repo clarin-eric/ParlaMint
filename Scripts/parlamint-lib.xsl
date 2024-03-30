@@ -708,7 +708,8 @@
   <xsl:template name="orgName">
     <xsl:param name="org"/>
     <xsl:param name="full"/>
-    <xsl:variable name="orgName" select="et:l10n($corpus-language, $org/tei:orgName[@full=$full])"/>
+    <xsl:param name="lang" select="$corpus-language"/>
+    <xsl:variable name="orgName" select="et:l10n($lang, $org/tei:orgName[@full=$full])"/>
     <xsl:choose>
       <xsl:when test="$orgName[2]">
         <xsl:message select="concat('WARN: organisation ', $org/@xml:id, ' with two orgName/@full = ', $full, 
@@ -732,15 +733,16 @@
   <!-- Return the political orientation of the party, either from Wikipedia, or, if missing, encoder -->
   <xsl:template name="party-orientation">
     <xsl:param name="party"/>
+    <xsl:param name="lang" select="$corpus-language"/>
     <xsl:variable name="orientation" select="$party/tei:state[@type = 'politicalOrientation']"/>
     <xsl:choose>
       <xsl:when test="$orientation/tei:state[@type = 'Wikipedia']">
-        <xsl:value-of select="et:l10n($corpus-language, 
+        <xsl:value-of select="et:l10n($lang, 
                               key('idr', $orientation/tei:state[@type = 'Wikipedia']/@ana, $rootHeader)
                               /tei:catDesc)/tei:term"/>
       </xsl:when>
       <xsl:when test="$orientation/tei:state[@type = 'encoder']">
-        <xsl:value-of select="et:l10n($corpus-language, 
+        <xsl:value-of select="et:l10n($lang, 
                               key('idr', $orientation/tei:state[@type = 'encoder']/@ana, $rootHeader)
                               /tei:catDesc)/tei:term"/>
       </xsl:when>
@@ -1035,16 +1037,16 @@
        The asssumption is that all elements in $elements have @xml:lang, i.e. have been processed with XInclude mode
   -->
   <xsl:function name="et:l10n">
-    <xsl:param name="corpus-language"/>
+    <xsl:param name="lang"/>
     <xsl:param name="elements"/>
     <!-- Should never happen, as all meta elements should be marked for @xml:lang -->
     <xsl:if test="$elements[not(@xml:lang)]">
       <xsl:message terminate="yes" select="concat('FATAL ERROR: no @xml:lang at least in ', 
                                            $elements[not(@xml:lang)][1])"/>
     </xsl:if>
-    <!--xsl:message select="concat('DEBUG: out-lang = ', $out-lang, ', corpus language = ', $corpus-language)"/-->
+    <!--xsl:message select="concat('DEBUG: out-lang = ', $out-lang, ', corpus language = ', $lang)"/-->
     <!-- Original language -->
-    <xsl:variable name="element-xx" select="$elements[@xml:lang = $corpus-language]"/>
+    <xsl:variable name="element-xx" select="$elements[@xml:lang = $lang]"/>
     <!-- Latin spelling -->
     <xsl:variable name="element-lt" select="$elements[ends-with(@xml:lang, '-Latn')]"/>
     <!-- English -->
@@ -1052,7 +1054,7 @@
     <!-- For (the only example in ParlaMint) the French spelling of a name in GR. -->
     <!-- Note that corpus-langauge can be "en" for MTed corpora, so we need to choose only one result -->
     <xsl:variable name="element-yy" select="$elements[not(@xml:lang = 'en' or
-                                            @xml:lang = $corpus-language or ends-with(@xml:lang, '-Latn'))][1]"/>
+                                            @xml:lang = $lang or ends-with(@xml:lang, '-Latn'))][1]"/>
     <!-- If nothing else serves we take first element as fall-back -->
     <xsl:variable name="element-fb" select="$elements[1]"/>
     <xsl:choose>
