@@ -1,32 +1,6 @@
-############### Makefile for making a distributable version of the ParlaMint TEI, TEI.ana, -en.TEI.ana corpora
-#### Makefile for making a distribution of the ParlaMint corpora
+########### Makefile for making a distributable version of the ParlaMint TEI, TEI.ana, -en.TEI.ana corpora and metadata overviews
 #### Variables give the corpora, version, handle, paths and scripts to use
 #### make nohup starts make all and saves the log in Logs/
-
-#Make overview TSV and LaTeX tables (for LREV paper)
-geneate-stats:
-	$s mode=tsv -xsl:../Scripts/parlamint2cnt-overview.xsl   Distro/ParlaMint.xml > Metadata/ParlaMint-overview-stats.tsv
-	$s mode=tex -xsl:../Scripts/parlamint2cnt-overview.xsl   Distro/ParlaMint.xml > Metadata/ParlaMint-overview-stats.tex
-	$s mode=tsv -xsl:../Scripts/parlamint2cnt-particDesc.xsl Distro/ParlaMint.xml > Metadata/ParlaMint-participDesc-stats.tsv
-	$s mode=tex -xsl:../Scripts/parlamint2cnt-particDesc.xsl Distro/ParlaMint.xml > Metadata/ParlaMint-participDesc-stats.tex
-	$s mode=tsv -xsl:../Scripts/parlamint2cnt-speeches.xsl   Distro/ParlaMint.xml > Metadata/ParlaMint-speeches-stats.tsv
-	$s mode=tex -xsl:../Scripts/parlamint2cnt-speeches.xsl   Distro/ParlaMint.xml > Metadata/ParlaMint-speeches-stats.tex
-
-## Generate TSV files with information on organisations
-generate-orgs:
-	$s out-lang=xx -xsl:Scripts/listOrg-tei2tsv.xsl Distro/ParlaMint.xml > Metadata/ParlaMint-listOrg.tsv
-	$s out-lang=en -xsl:Scripts/listOrg-tei2tsv.xsl Distro/ParlaMint.xml > Metadata/ParlaMint-listOrg-en.tsv
-generate-persons:
-	$s path=../Build/Distro outDir=../Build/Metadata -xsl:../Scripts/parlamint2tbl-parties.xsl Distro/ParlaMint.xml
-	for CORPUS in ${CORPORA}; do \
-	$s -xsl:../Scripts/parlamint2tbl-persons.xsl Distro/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}.xml \
-	> Metadata/ParlaMint-speakers-$${CORPUS}.tsv ; \
-	done;
-gen-all-persons:
-	for CORPUS in ${CORPORA}; do \
-	$s -xsl:${RUN}/parlamint2tbl-persons.xsl ${DATA}/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}.xml \
-	> Metadata/Speakers-$${CORPUS}.tsv ; \
-	done;
 
 ### VARIABLES
 
@@ -64,6 +38,28 @@ WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/
 ##Note that script variables are at the end of the Makefile!
 
 ###### Targets
+
+### Overviews to be put in Metadata/
+
+metadata:	metadata-persons metadata-orgs metadata-quant-tsv metadata-quant-tex
+#Make overview LaTeX tables (for LREV paper)
+metadata-quant-tex:
+	$s mode=tex -xsl:Scripts/parlamint2cnt-overview.xsl   Distro/ParlaMint.xml > Metadata/ParlaMint-overview-stats.tex
+	$s mode=tex -xsl:Scripts/parlamint2cnt-particDesc.xsl Distro/ParlaMint.xml > Metadata/ParlaMint-participDesc-stats.tex
+	$s mode=tex -xsl:Scripts/parlamint2cnt-speeches.xsl   Distro/ParlaMint.xml > Metadata/ParlaMint-speeches-stats.tex
+#Make overview TSV tables
+metadata-quant-tsv:
+	$s mode=tsv -xsl:Scripts/parlamint2cnt-overview.xsl   Distro/ParlaMint.xml > Metadata/ParlaMint-overview-stats.tsv
+	$s mode=tsv -xsl:Scripts/parlamint2cnt-particDesc.xsl Distro/ParlaMint.xml > Metadata/ParlaMint-participDesc-stats.tsv
+	$s mode=tsv -xsl:Scripts/parlamint2cnt-speeches.xsl   Distro/ParlaMint.xml > Metadata/ParlaMint-speeches-stats.tsv
+## Generate TSV files with time-independent information on organisations
+metadata-orgs:
+	$s out-lang=xx -xsl:Scripts/listOrg-tei2tsv.xsl Distro/ParlaMint.xml > Metadata/ParlaMint-listOrg.tsv
+	$s out-lang=en -xsl:Scripts/listOrg-tei2tsv.xsl Distro/ParlaMint.xml > Metadata/ParlaMint-listOrg-en.tsv
+## Generate TSV files with time-independent information on speakers
+metadata-persons:
+	$s out-lang=xx -xsl:Scripts/listPerson-tei2tsv.xsl Distro/ParlaMint.xml > Metadata/ParlaMint-listPerson.tsv
+	$s out-lang=en -xsl:Scripts/listPerson-tei2tsv.xsl Distro/ParlaMint.xml > Metadata/ParlaMint-listPerson-en.tsv
 
 ###### Various tests
 test:
