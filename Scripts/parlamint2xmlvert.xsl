@@ -50,24 +50,11 @@
             date="{$at-date}" title="{$title}">
       <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
       <xsl:choose>
-        <xsl:when test="key('idr', @who, $rootHeader)/@xml:id">
+        <xsl:when test="@who">
           <xsl:variable name="speaker" select="key('idr', @who, $rootHeader)"/>
-          <xsl:variable name="gender">
-            <xsl:choose>
-              <xsl:when test="$speaker/tei:sex/@value">
-                <xsl:value-of select="$speaker/tei:sex/@value"/>
-              </xsl:when>
-              <xsl:otherwise>-</xsl:otherwise>
-            </xsl:choose>
-          </xsl:variable>
-          <xsl:variable name="birth">
-            <xsl:choose>
-              <xsl:when test="$speaker/tei:birth/@when">
-                <xsl:value-of select="replace($speaker/tei:birth/@when, '-.+', '')"/>
-              </xsl:when>
-              <xsl:otherwise>-</xsl:otherwise>
-            </xsl:choose>
-          </xsl:variable>
+          <xsl:if test="not($speaker/@xml:id)">
+            <xsl:message select="concat('ERROR: cannot find person ', @who, ' in ', $text_id)"/>
+          </xsl:if>
           <xsl:attribute name="speaker_id" select="$speaker/@xml:id"/>
           <xsl:attribute name="speaker_name" select="et:format-name-chrono(
                                                      $speaker//tei:persName, 
@@ -78,22 +65,21 @@
           <xsl:attribute name="speaker_party_name" select="et:speaker-party($speaker, 'yes')"/>
           <xsl:attribute name="party_status" select="et:party-status($speaker)"/>
           <xsl:attribute name="party_orientation" select="et:party-orientation($speaker)"/>
-          <xsl:attribute name="speaker_gender" select="$gender"/>
-          <xsl:attribute name="speaker_birth" select="$birth"/>
-        </xsl:when>
-        <!-- A speaker that does not have a corresponding <person> element -->
-        <xsl:when test="normalize-space(@who)">
-          <xsl:message select="concat('ERROR: cannot find person ', @who, ' for ', $text_id)"/>
+          <xsl:attribute name="speaker_gender" select="et:tsv-value($speaker/tei:sex/@value)"/>
+          <xsl:attribute name="speaker_birth" select="et:tsv-value(replace($speaker/tei:birth/@when, '-.+', ''))"/>
         </xsl:when>
         <!-- No @who, legit if speaker is unknown -->
         <xsl:otherwise>
-          <xsl:attribute name="speaker_id"/>
-          <xsl:attribute name="speaker_name"/>
-          <xsl:attribute name="speaker_party"/>
-          <xsl:attribute name="speaker_party_name"/>
-          <xsl:attribute name="party_status"/>
-          <xsl:attribute name="speaker_gender"/>
-          <xsl:attribute name="speaker_birth"/>
+          <xsl:attribute name="speaker_id">-</xsl:attribute>
+          <xsl:attribute name="speaker_name">-</xsl:attribute>
+          <xsl:attribute name="speaker_mp">-</xsl:attribute>
+          <xsl:attribute name="speaker_minister">-</xsl:attribute>
+          <xsl:attribute name="speaker_party">-</xsl:attribute>
+          <xsl:attribute name="speaker_party_name">-</xsl:attribute>
+          <xsl:attribute name="party_status">-</xsl:attribute>
+          <xsl:attribute name="party_orientation">-</xsl:attribute>
+          <xsl:attribute name="speaker_gender">-</xsl:attribute>
+          <xsl:attribute name="speaker_birth">-</xsl:attribute>
         </xsl:otherwise>
       </xsl:choose>
       <xsl:text>&#10;</xsl:text>

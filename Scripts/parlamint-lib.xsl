@@ -661,10 +661,10 @@
       </xsl:for-each>
     </xsl:variable>
     <xsl:choose>
-      <xsl:when test="normalize-space($parliamentaryGroups)">
+      <xsl:when test="$parliamentaryGroups != ';'">
         <xsl:value-of select="replace($parliamentaryGroups, ';$', '')"/>
       </xsl:when>
-      <xsl:when test="normalize-space($politicalParties)">
+      <xsl:when test="$politicalParties != ';'">
         <xsl:value-of select="replace($politicalParties, ';$', '')"/>
       </xsl:when>
       <xsl:otherwise>
