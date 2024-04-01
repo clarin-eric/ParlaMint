@@ -392,9 +392,9 @@
                 <xsl:value-of select="$actRef"/>
                 <xsl:text> (</xsl:text>
                 <xsl:value-of select="$eventFrom"/>
-                <xsl:text> ...  </xsl:text>
+                <xsl:text>/</xsl:text>
                 <xsl:value-of select="$eventTo"/>
-                <xsl:text>) corresponding to affiliation don't cover affiliation date </xsl:text>
+                <xsl:text>) corresponding to affiliation doesn't cover affiliation date </xsl:text>
                 <xsl:value-of select="$date"/>
               </xsl:with-param>
             </xsl:call-template>
