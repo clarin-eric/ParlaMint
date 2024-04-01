@@ -18,9 +18,10 @@ foreach my $csv_file (glob "$inDirs/*$csv_ext $inDirs/*/*$csv_ext") {
     print STDERR "INFO: Doing file $csv_file\n";
     ($fName) = $csv_file =~ m|(.+)\Q$csv_ext\E|;
     $conll_file = $fName . $conll_ext;
-    die "Cant find $conll_file!\n" unless -e $conll_file;
+    die "FATAL ERROR: Cant find $conll_file!\n" unless -e $conll_file;
     $tsv_file = "$fName$tsv_ext";
-    open(META, '<:utf8', $conll_file) or die "Cant find $conll_file!\n";
+    open(META, '<:utf8', $conll_file)
+        or die "FATAL ERROR: Cant find input file $conll_file!\n";
     @sents = ();
     while (<META>) {
 	chomp;
@@ -29,21 +30,21 @@ foreach my $csv_file (glob "$inDirs/*$csv_ext $inDirs/*/*$csv_ext") {
 	}
     }
     close META;
-    open(OUT, '>:utf8', $tsv_file) or die "Cant open $tsv_file!\n";
-    open(IN, '<:utf8', $csv_file) or die "Cant find $csv_file!\n";
+    open(OUT, '>:utf8', $tsv_file) or die "FATAL ERROR: Cant open TSV file $tsv_file!\n";
+    open(IN, '<:utf8', $csv_file) or die "FATAL ERROR: Cant find CSV file $csv_file!\n";
     while (<IN>) {
 	next if /^file/;
 	chomp;
 	($text) = /.+?,.+?,(.+)/;
-	die "TAB in text $text!\n" if $text =~ /\t/;
+	die "FATAL ERROR: TAB in text $text!\n" if $text =~ /\t/;
 	$text =~ s/^"//;
 	$text =~ s/"$//;
 	$text =~ s/""/"/g;
-	die "No more sentence IDs!\n" unless @sents;
+	die "FATAL ERROR: No more sentence IDs!\n" unless @sents;
 	$id = shift @sents;
 	print OUT "$id\t$text\n"
     }
     close IN;
     close OUT;
-    die "Too many sentence IDs!\n" if @sents;
+    die "FATAL ERROR: Too many sentence IDs!\n" if @sents;
 }

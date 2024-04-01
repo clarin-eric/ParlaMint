@@ -80,12 +80,12 @@ foreach $inFile (glob($corpusFiles)) {
     elsif ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?_.+\.ana\.xml|) {push(@compAnaFiles, $inFile)}
 }
 my ($country, $MT) = $rootAnaFile =~ /ParlaMint-([A-Z]{2}(?:-[A-Z0-9]{1,3})?)(?:-([a-z]{2,3}))?\.ana\.xml/
-    or die "Can't find country code in root file $rootAnaFile!\n";
+    or die "FATAL ERROR: Can't find country code in root file $rootAnaFile!\n";
 
 if (defined $MT) {$langs = $MT}
 elsif (exists($country2lang{$country}))  {$langs = $country2lang{$country}}
 else {
-    die "FATAL: Can't find mapping between country code and language(s): ".
+    die "FATAL ERROR: Can't find mapping between country code and language(s): ".
         "pls. add \$country2lang{'$country'} to parlamintp2conllu.pl!\n"
 }
 

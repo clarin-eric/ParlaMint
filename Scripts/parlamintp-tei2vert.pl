@@ -37,9 +37,9 @@ foreach $inFile (glob($corpusFiles)) {
     }
 }
 
-die "Cannot find root file in $inDir!\n"
+die "FATAL ERROR: Cannot find root file in $inDir!\n"
     unless $rootAnaFile;
-die "Cannot find component files in $inDir!\n"
+die "FATAL ERROR: Cannot find component files in $inDir!\n"
     unless @compAnaFiles;
 
 `mkdir $outDir` unless -e "$outDir";

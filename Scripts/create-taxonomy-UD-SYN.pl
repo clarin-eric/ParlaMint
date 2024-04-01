@@ -91,7 +91,7 @@ insert_relations(\%relationList, 0, @countryRelFiles);
 
 fill_xml_taxonomy($root_node,\%relationList);
 
-open FILE, ">$outFile"  or die "Can't open file $!";
+open FILE, ">$outFile"  or die "FATAL ERROR: Can't open file $!";
 binmode FILE;
 print FILE to_string($dom);
 close FILE;
@@ -136,7 +136,7 @@ sub insert_relation {
 
 sub get_relation_from_file {
   my $file = shift;
-  open my $fh, '<', $file or die "Can't open file $!";
+  open my $fh, '<', $file or die "FATAL ERROR: Can't open file $!";
   my $content = do { local $/; <$fh>};
   close $fh;
   my $file_shortpath = $file;

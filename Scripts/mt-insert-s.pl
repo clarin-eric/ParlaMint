@@ -8,7 +8,8 @@ binmode(STDERR, ':utf8');
 
 $sentFile = shift;
 
-open(TBL, '<:utf8', $sentFile) or die "Cant find $sentFile!\n";
+open(TBL, '<:utf8', $sentFile)
+    or die "FATAL ERROR: Cant find input file $sentFile!\n";
 $/ = "</s>\n";
 while (<TBL>) {
     next unless m|</s>|;

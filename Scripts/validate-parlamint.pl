@@ -122,7 +122,7 @@ sub chars {
     my %c;
     my @bad = ();
     my ($fName) = $file =~ m|([^/]+)$|
-        or die "Bad file '$file'\n";
+        or die "FATAL ERROR: Bad file '$file'\n";
     print STDERR "INFO: Char validation for $fName\n";
     open(IN, '<:utf8', $file);
     undef $/;
@@ -149,7 +149,7 @@ sub run {
     my $command = shift;
     my $file = shift;
     my ($fName) = $file =~ m|([^/]+)$|
-        or die "Bad file '$file'\n";
+        or die "FATAL ERROR: Bad file '$file'\n";
     if ($command =~ /$Jing/) {
         print STDERR "INFO: XML validation for $fName\n"
     }
@@ -164,6 +164,6 @@ sub run {
     elsif ($command =~ /$Links/) {
         print STDERR "INFO: Link checking for $fName\n"
     }
-    else {die "Weird command $command!\n"}
+    else {die "FATAL ERROR: Weird command $command!\n"}
     `$command $file 1>&2`;
 }

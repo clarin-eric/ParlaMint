@@ -91,22 +91,11 @@
         <xsl:value-of select="concat(et:party-orientation($speaker), '&#9;')"/>
         <xsl:value-of select="concat(substring-after(@who, '#'), '&#9;')"/>
         <xsl:value-of select="concat(et:format-name-chrono($speaker//tei:persName, $at-date), '&#9;')"/>
-        <xsl:choose>
-          <xsl:when test="$speaker/tei:sex">
-            <xsl:value-of select="$speaker/tei:sex/@value"/>
-          </xsl:when>
-          <xsl:otherwise>-</xsl:otherwise>
-        </xsl:choose>
-        <xsl:text>&#9;</xsl:text>
-        <xsl:choose>
-          <xsl:when test="$speaker/tei:birth">
-            <xsl:value-of select="replace($speaker/tei:birth/@when, '-.+', '')"/>
-          </xsl:when>
-          <xsl:otherwise>-</xsl:otherwise>
-        </xsl:choose>
+        <xsl:value-of select="concat(et:tsv-value($speaker/tei:sex/@value), '&#9;')"/>
+        <xsl:value-of select="concat(et:tsv-value(replace($speaker/tei:birth/@when, '-.+', '')), '&#9;')"/>
       </xsl:otherwise>
     </xsl:choose>
-    <!-- Speech sizes -->
+    <!-- Speech sizes? -->
     <!--xsl:value-of select="count(.//tei:w) + count(.//tei:pc)"/-->
     <xsl:text>&#10;</xsl:text>
   </xsl:template>

@@ -307,7 +307,7 @@ sub fix_elements {
 		push(@tmp, $item);
 		$open_phr = 1;
 	    }
-	    else {die "Strange situation: <phr> but phr already open!\n"}
+	    else {die "FATAL ERROR: Strange situation: <phr> but phr already open!\n"}
 	}
 	elsif ($item =~ m|<name |) {
 	    if ($open_phr) {  #remove phr containing name
@@ -324,7 +324,7 @@ sub fix_elements {
 		push(@tmp, $item);
 		$open_name = 1;
 	    }
-	    else {die "Strange situation: <name> but name already open!\n"}
+	    else {die "FATAL ERROR: Strange situation: <name> but name already open!\n"}
 	}
 	elsif ($item =~ m|</phr>|) {
 	    if ($open_name) { # <phr> <name> </phr> -> <name>
@@ -356,7 +356,7 @@ sub fix_elements {
 		push(@tmp, $item);
 		$open_name = 0;
 	    }
-	    else {die "Strange situation: </name> but name not open!\n"}
+	    else {die "FATAL ERROR: Strange situation: </name> but name not open!\n"}
 	}
 	else {push(@tmp, $item)}
     }
