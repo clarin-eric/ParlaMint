@@ -643,28 +643,32 @@
     <xsl:variable name="parliamentaryGroups">
       <xsl:for-each select="distinct-values(tokenize($refs, ' '))">
         <xsl:variable name="party" select="key('idr', ., $rootHeader)[@role='parliamentaryGroup']"/>
-        <xsl:call-template name="orgName">
-          <xsl:with-param name="org" select="$party"/>
-          <xsl:with-param name="full" select="$full"/>
-        </xsl:call-template>
-        <xsl:text>;</xsl:text>
+        <xsl:if test="$party/self::tei:org">
+          <xsl:call-template name="orgName">
+            <xsl:with-param name="org" select="$party"/>
+            <xsl:with-param name="full" select="$full"/>
+          </xsl:call-template>
+          <xsl:text>;</xsl:text>
+        </xsl:if>
       </xsl:for-each>
     </xsl:variable>
     <xsl:variable name="politicalParties">
       <xsl:for-each select="distinct-values(tokenize($refs, ' '))">
         <xsl:variable name="party" select="key('idr', ., $rootHeader)[@role='politicalParty']"/>
-        <xsl:call-template name="orgName">
-          <xsl:with-param name="org" select="$party"/>
-          <xsl:with-param name="full" select="$full"/>
-        </xsl:call-template>
-        <xsl:text>;</xsl:text>
+        <xsl:if test="$party/self::tei:org">
+          <xsl:call-template name="orgName">
+            <xsl:with-param name="org" select="$party"/>
+            <xsl:with-param name="full" select="$full"/>
+          </xsl:call-template>
+          <xsl:text>;</xsl:text>
+        </xsl:if>
       </xsl:for-each>
     </xsl:variable>
     <xsl:choose>
-      <xsl:when test="$parliamentaryGroups != ';'">
+      <xsl:when test="normalize-space($parliamentaryGroups)">
         <xsl:value-of select="replace($parliamentaryGroups, ';$', '')"/>
       </xsl:when>
-      <xsl:when test="$politicalParties != ';'">
+      <xsl:when test="normalize-space($politicalParties)">
         <xsl:value-of select="replace($politicalParties, ';$', '')"/>
       </xsl:when>
       <xsl:otherwise>
