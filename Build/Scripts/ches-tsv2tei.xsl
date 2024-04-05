@@ -87,12 +87,18 @@
   <!-- Parse TSV into a listOrg/org/state structures with parlamint as orgName -->
   <xsl:variable name="data">
     <listOrg>
-      <xsl:variable name="tsv" select="unparsed-text($tsv, 'UTF-8')"/>
-      <xsl:variable name="table" select="et:tsv2table($tsv)"/>
-      <xsl:for-each-group select="$table/tei:row" group-by="tei:cell[@type='parlamint']">
+      <xsl:variable name="table">
+        <xsl:variable name="tsv" select="unparsed-text($tsv, 'UTF-8')"/>
+        <xsl:call-template name="factorise-table">
+          <xsl:with-param name="table" select="et:tsv2table($tsv)"/>
+        </xsl:call-template>
+      </xsl:variable>
+    <!-- For debugging: -->
+      <!--xsl:copy-of select="$table"/-->
+      <xsl:for-each-group select="$table//tei:row" group-by="tei:cell[@type='parlamint']">
         <xsl:call-template name="tsv2org">
           <xsl:with-param name="parlamint" select="current-grouping-key()"/>
-          <xsl:with-param name="data" select="current-group()"/>
+          <xsl:with-param name="rows" select="current-group()"/>
         </xsl:call-template>
       </xsl:for-each-group>
     </listOrg>
@@ -173,52 +179,69 @@
   </xsl:template>
 
   <!-- Named templates -->
-  
+
+  <!-- Make a row for each parlamint org, if several (eg. "A + B") -->
+  <xsl:template name="factorise-table">
+    <xsl:param name="table"/>
+    <table>
+      <xsl:for-each select="$table/tei:row">
+        <xsl:variable name="cells" select="tei:cell[@type != 'parlamint']"/>
+        <xsl:for-each select="tokenize(tei:cell[@type='parlamint'], ' \+ ')">
+          <row>
+            <xsl:copy-of select="$cells"/>
+            <cell type="parlamint">
+              <xsl:value-of select="."/>
+            </cell>
+          </row>
+        </xsl:for-each>
+      </xsl:for-each>
+    </table>
+  </xsl:template>
+
+  <!-- Conert a table row to <org> with prepared CHES varibles -->
   <xsl:template name="tsv2org">
     <xsl:param name="parlamint"/>
-    <xsl:param name="data"/>
+    <xsl:param name="rows"/>
     <!-- There can be more than one parlamint party corresponding to one ches party! -->
-    <xsl:for-each select="tokenize($parlamint, ' \+ ')">
-      <org>
-        <orgName type='ParlaMint'>
-          <xsl:value-of select="."/>
-        </orgName>
-        <xsl:variable name="rows" select="$data"/>
-        <xsl:variable name="ches_survey" select="$rows[1]/tei:cell[@type='ches_survey']"/>
-        <xsl:variable name="country" select="$rows[1]/tei:cell[@type='country']"/>
-        <xsl:if test="$rows[1]/tei:cell[@type='party_id'] != '-'">
-          <state type="CHES">
-            <xsl:attribute name="source">
-              <xsl:for-each select="$ches-source//tei:label">
-                <xsl:if test=". = $ches_survey">
-                  <xsl:value-of select="following-sibling::tei:item[1]"/>
-                </xsl:if>
-              </xsl:for-each>
-            </xsl:attribute>
-            <!-- CHES time-qualified name of the party -->
-            <xsl:variable name="ches_name">
-              <xsl:call-template name="ches-name">
-                <xsl:with-param name="rows" select="$rows"/>
-              </xsl:call-template>
-            </xsl:variable>
-            <xsl:attribute name="key" select="$ches_name/tei:orgName/@key"/>
-            <xsl:attribute name="n" select="$ches_name/tei:orgName"/>
-            <xsl:attribute name="from" select="$ches_name/tei:orgName/@from"/>
-            <xsl:attribute name="to" select="$ches_name/tei:orgName/@to"/>
-            <xsl:for-each select="$rows[1]/tei:cell">
-              <!-- Columns we don't want in <state> -->
-              <xsl:if test="@type != 'ches_survey' and @type != 'country' and @type != 'parlamint' and 
-                            @type != 'party_id' and @type != 'party' and @type != 'year'">
-                <xsl:call-template name="ches-variables">
-                  <xsl:with-param name="type" select="@type"/>
-                  <xsl:with-param name="rows" select="$rows"/>
-                </xsl:call-template>
+    <org>
+      <orgName type='ParlaMint'>
+        <xsl:value-of select="$parlamint"/>
+      </orgName>
+      <xsl:variable name="ches_survey" select="$rows[1]/tei:cell[@type='ches_survey']"/>
+      <xsl:variable name="country" select="$rows[1]/tei:cell[@type='country']"/>
+      <xsl:if test="$rows[1]/tei:cell[@type='party_id'] != '-'">
+        <state type="CHES">
+          <xsl:attribute name="source">
+            <xsl:for-each select="$ches-source//tei:label">
+              <xsl:if test=". = $ches_survey">
+                <xsl:value-of select="following-sibling::tei:item[1]"/>
               </xsl:if>
             </xsl:for-each>
-          </state>
-        </xsl:if>
-      </org>
-    </xsl:for-each>
+          </xsl:attribute>
+          <!-- CHES time-qualified name of the party -->
+          <xsl:variable name="ches_name">
+            <xsl:call-template name="ches-name">
+              <xsl:with-param name="rows" select="$rows"/>
+            </xsl:call-template>
+          </xsl:variable>
+          <xsl:attribute name="key" select="$ches_name/tei:orgName/@key"/>
+          <xsl:attribute name="n" select="$ches_name/tei:orgName"/>
+          <xsl:attribute name="from" select="$ches_name/tei:orgName/@from"/>
+          <xsl:attribute name="to" select="$ches_name/tei:orgName/@to"/>
+          <xsl:for-each select="$rows[1]/tei:cell">
+            <!-- Columns we don't want in <state> -->
+            <!-- We leave in @type = 'party_id' or @type = 'party' as these can change by year -->
+            <xsl:if test="@type != 'ches_survey' and @type != 'country' and @type != 'parlamint' and 
+                          @type != 'year'">
+              <xsl:call-template name="ches-variables">
+                <xsl:with-param name="type" select="@type"/>
+                <xsl:with-param name="rows" select="$rows"/>
+              </xsl:call-template>
+            </xsl:if>
+          </xsl:for-each>
+        </state>
+      </xsl:if>
+    </org>
   </xsl:template>
         
   <!-- Return year-qualified CHES name(s) of party -->
@@ -292,7 +315,7 @@
     <xsl:variable name="labels" select="tokenize($tsv, '&#10;')[1]"/>
     <table>
       <xsl:for-each select="tokenize($tsv, '&#10;')">
-        <xsl:if test="matches(., '\t') and not(matches(., '^COUNTRY', 'i'))">
+        <xsl:if test="matches(., '\t') and not(matches(., '^ches_survey', 'i'))">
           <xsl:variable name="row" select="et:row2table($labels, .)"/>
           <xsl:if test="$row/self::tei:cell[@type = 'parlamint'] != '-'">
             <row>
