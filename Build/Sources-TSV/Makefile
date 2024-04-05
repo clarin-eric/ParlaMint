@@ -10,7 +10,7 @@
 ######
 
 ### Corpus for targets that process only one corpus
-CORPUS=DK
+CORPUS=FI
 
 ###### Adding all currently existing TSV metadata (+ transliteration) to corpora
 
@@ -243,7 +243,7 @@ PERSON-CMP=ParlaMint-${CORPUS}-listPerson.orig.xml
 # listOrg XML file for a corpus
 ORG=ParlaMint-${CORPUS}-listOrg.xml
 # for comparison purpuses
-ORG-CMP=ParlaMint-${CORPUS}-listOrg.xml
+ORG-CMP=ParlaMint-${CORPUS}-listOrg.orig.xml
 
 # Location of scripts
 BIN=../Scripts
