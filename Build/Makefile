@@ -7,9 +7,9 @@
 ### COMPLETE SET OF CORPORA
 CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 #CORPORA=AT HU BA BE CZ EE ES-CT ES-GA ES-PV / DK
-CORPORA=
+CORPORA=LV
 # Used in targets that run only for one corpus
-CORPUS=HU
+CORPUS=LV
 
 #Absolute paths are needed otherwise problems with XSLT
 PARLAMINT := $(shell realpath .. | tr -d '\n')# get real absolute path to ParlaMint directory
@@ -21,7 +21,7 @@ SCH = ${PARLAMINT}/Schema
 # ParlaMint-XX.TEI/ and ParlaMint-XX.TEI.ana
 SOURCES = ${HERE}/Sources-TEI
 # ParlaMint-XX-en.TEI.ana, MTed + semantically tagged:
-SOURCES-MT = ${HERE}/Sources-Sem
+SOURCES-MT = ${HERE}/Sources-CoNLLU
 
 # Version number and PID of next ParlaMint release
 VERSION = 4.1
@@ -108,26 +108,6 @@ test-meta1:
 	#${FINALIZE} -txt -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
 test-text1:
 	${FINALIZE} -txt -codes ES-CT -in ${HERE}/Distro -out ${HERE}/Distro
-
-## Transliteration tests
-test-translit4:
-	${vlp} ParlaMint-GR-listPerson.xml
-	${vlo} ParlaMint-GR-listOrg.xml
-test-translit1:
-	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listPerson.xml ParlaMint-BG-listPerson.xml
-	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listOrg.xml ParlaMint-BG-listOrg.xml
-
-	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-GR.TEI/ParlaMint-GR-listPerson.xml ParlaMint-GR-listPerson.xml
-	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-GR.TEI/ParlaMint-GR-listOrg.xml ParlaMint-GR-listOrg.xml
-
-	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-UA.TEI/ParlaMint-UA-listPerson.xml ParlaMint-UA-listPerson.xml
-	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-UA.TEI/ParlaMint-UA-listOrg.xml ParlaMint-UA-listOrg.xml
-
-# Make MT .txt and CoNLL files
-mt-convert-txt:
-	for CORPUS in ${CORPORA}; do \
-	${FINALIZE-MT} -txt -conll -codes $${CORPUS}-en -out ${HERE}/Distro; \
-	done;
 
 ### Fixes
 # Merge per-language translated CoNLL-Us (BE, ES-CT, ES-PV, UA) to joint CoNLL-U (with # lang info on newpar)
@@ -282,10 +262,14 @@ mt-nohup6:
 mt-all-final:	mt-convert
 mt-xall-final:	mt-convert mt-verts mt-pack mt-web
 
+# Make MT .txt and CoNLL files
+mt-convert-txt:
+	for CORPUS in ${CORPORA}; do \
+	${FINALIZE-MT} -txt -conll -codes $${CORPUS}-en -out ${HERE}/Distro; \
+	done;
 mt-web:
 	rsync -av Logs/*-en*.log ${WEB}/Logs
 	rsync -av Packed/*-en*.tgz ${WEB}/Repo
-
 nohup-mt-pack:
 	nohup time make mt-pack > mt-pack.log &
 mt-pack:
@@ -327,10 +311,10 @@ sanity:
 # Convert from English CoNLL-U + source .TEI.ana -> -en.TEI.ana 
 mt-convert:
 	for CORPUS in ${CORPORA}; do \
-	perl Scripts/mt-conllu2tei.pl \
+	perl Scripts/parlamint-mt2tei.pl \
 	${HERE}/Distro/ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml \
 	${SOURCES-MT}/ParlaMint-$${CORPUS}-en-notes.tsv \
-	${SOURCES-MT}/ParlaMint-$${CORPUS}-en.conllu \
+	${SOURCES-MT}/ParlaMint-$${CORPUS}-en.sem \
 	${TEMP}/ParlaMint-$${CORPUS}-en.TEI.ana 2> Logs/ParlaMint-$${CORPUS}-en.log; \
 	${FINALIZE-MT} -all -notei -codes $${CORPUS}-en -in ${TEMP} -out ${HERE}/Distro \
 	2>> Logs/ParlaMint-$${CORPUS}-en.log; \
@@ -389,18 +373,8 @@ mt-test3:
 	$s noteFile=Test/ParlaMint-AT.notes.translated.tsv -xsl:Scripts/mt-insert-notes.xsl \
 	Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.null.xml \
 	> Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.notes.xml
-mt-test2a:
-	perl ../Scripts/conllu2tei.pl < Test/ParlaMint-TR-en_2011-07-04-tbmm-T24.conllu > Test/0.body.xml
-mt-test2x:
-	perl ../Scripts/conllu2tei.new.pl \
-	< ${SOURCES-MT}/ParlaMint-GB-en.conllu/2022/ParlaMint-GB-en_2022-06-21-commons.conllu \
-	> Test/ParlaMint-GB-en_2022-06-21-commons.body.xml
-	xmllint --noout Test/ParlaMint-GB-en_2022-06-21-commons.body.xml
 mt-test2:
-	perl ../Scripts/conllu2tei.new.pl \
-	< ${SOURCES-MT}/ParlaMint-GB-en.conllu/2022/ParlaMint-GB-en_2022-06-22-commons.conllu \
-	> Test/ParlaMint-GB-en_2022-06-22-commons.body.xml
-	xmllint --noout Test/ParlaMint-GB-en_2022-06-22-commons.body.xml
+	perl ../Scripts/conllu2tei.pl < Test/ParlaMint-TR-en_2011-07-04-tbmm-T24.conllu > Test/0.body.xml
 mt-test1:
 	rm -fr Test/ParlaMint-LV.tmp/*
 	$s outDir=Test/ParlaMint-LV.tmp -xsl:Scripts/mt-prepare4mt.xsl ${HERE}/Distro/ParlaMint-LV.TEI.ana/ParlaMint-LV.ana.xml
