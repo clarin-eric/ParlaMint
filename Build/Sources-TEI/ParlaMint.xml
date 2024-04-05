@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="mul" xml:id="ParlaMint">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
@@ -974,7 +974,8 @@
          </editionStmt>
          <extent>
             <measure unit="corpora" quantity="29">29 corpora</measure>
-            <measure unit="speeches" quantity="6839827">6,839,827 speeches</measure>
+            <measure unit="speeches" quantity="7011998">7,011,998 speeches</measure>
+            <measure unit="speeches" quantity="1234" corresp="#ParlaMint-AT">1234 speeches</measure>
             <measure unit="speeches" quantity="126252" corresp="#ParlaMint-BA">126,252 speeches</measure>
             <measure xmlns:xi="http://www.w3.org/2001/XInclude"
                      unit="speeches"
@@ -1006,12 +1007,14 @@
                      unit="speeches"
                      quantity="228326"
                      corresp="#ParlaMint-PL">228,326 speeches</measure>
+            <measure unit="speeches" quantity="170937" corresp="#ParlaMint-PT">170,937 speeches</measure>
             <measure unit="speeches" quantity="316069" corresp="#ParlaMint-RS">316,069 speeches</measure>
             <measure unit="speeches" quantity="96745" corresp="#ParlaMint-SE">96745 speeches</measure>
             <measure unit="speeches" quantity="622752" corresp="#ParlaMint-SI">622,752 speeches</measure>
             <measure unit="speeches" quantity="681052" corresp="#ParlaMint-TR">681,052 speeches</measure>
             <measure unit="speeches" quantity="429437" corresp="#ParlaMint-UA">429437 speeches</measure>
-            <measure unit="words" quantity="1037923046">1,037,923,046 words</measure>
+            <measure unit="words" quantity="1055571101">1,055,571,101 words</measure>
+            <measure unit="words" quantity="1234" corresp="#ParlaMint-AT">1234 words</measure>
             <measure unit="words" quantity="18342890" corresp="#ParlaMint-BA">18,342,890 words</measure>
             <measure xmlns:xi="http://www.w3.org/2001/XInclude"
                      unit="words"
@@ -1043,6 +1046,7 @@
                      unit="words"
                      quantity="35857999"
                      corresp="#ParlaMint-PL">35,857,999 words</measure>
+            <measure unit="words" quantity="17646821" corresp="#ParlaMint-PT">17,646,821 words</measure>
             <measure unit="words" quantity="84801966" corresp="#ParlaMint-RS">84,801,966 words</measure>
             <measure unit="words" quantity="29197567" corresp="#ParlaMint-SE">29197567 words</measure>
             <measure unit="words" quantity="114869060" corresp="#ParlaMint-SI">114,869,060 words</measure>
@@ -1054,12 +1058,12 @@
                <orgName>CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1912</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-01-22">January 22, 2024</date>
+            <date when="2024-04-05">April 5, 2024</date>
          </publicationStmt>
          <sourceDesc>
             <listBibl corresp="#ParlaMint-AT">
@@ -2115,6 +2119,7 @@
             <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
                     target="#parla.uni"
                     corresp="#ParlaMint-BA"/>
+            <!--ParlaMint-BE: missing catRef-->
             <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
                     target="#parla.uni"
                     corresp="#ParlaMint-BG"/>
@@ -2124,6 +2129,7 @@
             <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
                     target="#parla.uni"
                     corresp="#ParlaMint-DK"/>
+            <!--ParlaMint-EE: missing catRef-->
             <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
                     target="#parla.uni"
                     corresp="#ParlaMint-ES-CT"/>
@@ -2139,6 +2145,8 @@
             <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
                     target="#parla.uni"
                     corresp="#ParlaMint-FI"/>
+            <!--ParlaMint-FR: missing catRef-->
+            <!--ParlaMint-GB: missing catRef-->
             <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
                     target="#parla.uni"
                     corresp="#ParlaMint-GR"/>
@@ -2163,10 +2171,13 @@
             <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
                     target="#parla.uni #parla.bi #parla.lower #parla.upper"
                     corresp="#ParlaMint-NO"/>
+            <!--ParlaMint-PL: missing catRef-->
             <catRef scheme="#Parliament" target="#parla.uni" corresp="#ParlaMint-PT"/>
             <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
                     target="#parla.uni"
                     corresp="#ParlaMint-RS"/>
+            <!--ParlaMint-SE: missing catRef-->
+            <!--ParlaMint-SI: missing catRef-->
             <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
                     target="#parla.uni"
                     corresp="#ParlaMint-TR"/>
@@ -2402,7 +2413,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-01-22">
+         <change when="2024-04-05">
             <name>Tomaž Erjavec</name>: Generate root</change>
       </revisionDesc>
    </teiHeader>
