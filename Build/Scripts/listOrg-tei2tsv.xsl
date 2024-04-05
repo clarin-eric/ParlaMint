@@ -119,8 +119,8 @@
     <xsl:value-of select="concat(et:tsv-value(tei:event[tei:label = 'existence']/@to), '&#9;')"/>
     <xsl:value-of select="concat(et:tsv-value($Orientation-LR), '&#9;')"/>
     <xsl:value-of select="concat(et:tsv-value($Wikipedia), '&#9;')"/>
-    <xsl:value-of select="et:tsv-value(tei:state[@type='CHES']/@key)"/>
-    <xsl:text>&#10;</xsl:text>
+    <xsl:value-of select="concat(et:tsv-value(tei:state[@type='CHES']/@n), '&#9;')"/>
+    <xsl:value-of select="concat(et:tsv-value(tei:state[@type='CHES']/@key), '&#10;')"/>
   </xsl:template>
 
   <xsl:template name="header-row">
@@ -133,6 +133,7 @@
     <xsl:text>To&#9;</xsl:text>
     <xsl:text>Orientation-LR&#9;</xsl:text>
     <xsl:text>Wikipedia&#9;</xsl:text>
+    <xsl:text>CHES-Name&#9;</xsl:text>
     <xsl:text>CHES-ID</xsl:text>
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
