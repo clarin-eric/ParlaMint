@@ -1,12 +1,13 @@
 ########### Makefile for making a distributable version of the ParlaMint TEI, TEI.ana, -en.TEI.ana corpora and metadata overviews
 #### Variables give the corpora, version, handle, paths and scripts to use
-#### make nohup starts make all and saves the log in Logs/
+#### make nohup1 starts make all and saves the log in Logs/
 
 ### VARIABLES
 
 ### COMPLETE SET OF CORPORA
 CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-#CORPORA=BG
+#CORPORA=AT HU BA BE / + CZ EE
+CORPORA= ES-CT ES-GA ES-PV
 
 ####### MTed CORPORA. Used only for make pack!
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en ES-PV-en FI-en FR-en GB-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -71,12 +72,12 @@ test-tei1:
 test-vert6:
 	../Scripts/parlamintp-tei2vert-xx.pl ${HERE}/Distro/ParlaMint-LV.TEI.ana Test/ParlaMint-LV-xx.vert
 test-vert5:
-	$s meta=../Build/Distro/ParlaMint-FI.TEI.ana/ParlaMint-FI.ana.xml \
+	$s meta=../Build/Distro/ParlaMint-AT.TEI.ana/ParlaMint-AT.ana.xml \
 	-xsl:../Scripts/parlamint2xmlvert.xsl Test/test-FI.ana.xml > Test/test-FI.vert
 	#-xsl:../Scripts/parlamint2xmlvert.xsl Test/ParlaMint-FI_2015-06-02-ps-13.ana.xml > Test/test-FI.vert
 test-vert4:
-	$s meta=${HERE}/Distro/ParlaMint-GB.TEI.ana/ParlaMint-GB.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
-	${HERE}/Distro/ParlaMint-GB.TEI.ana/2015/ParlaMint-GB_2015-01-06-commons.ana.xml > test.vert
+	$s meta=${HERE}/Distro/ParlaMint-TR.TEI.ana/ParlaMint-TR.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
+	${HERE}/Distro/ParlaMint-TR.TEI.ana/2022/ParlaMint-TR_2022-11-01-tbmm-T27.ana.xml > test.vert
 test-vert2:
 	${FINALIZE} -vert -codes GB -in ${HERE}/Distro -out ${HERE}/Distro
 test-vert1:
@@ -169,9 +170,9 @@ mt-samples:
 #Merge original and MTed samples into official Samples directory
 cp-samples:
 	for CORPUS in ${CORPORA}; do \
-	Scripts/cp-samples.pl 'Distro/ParlaMint-$${CORPUS}' ../Samples; \
-	#cp Logs/ParlaMint-$${CORPUS}-samples.log ../Samples/ParlaMint-$${CORPUS}; \
+	Scripts/cp-samples.pl Distro/ParlaMint-$${CORPUS} ../Samples; \
 	done;
+	#cp Logs/ParlaMint-$${CORPUS}-samples.log ../Samples/ParlaMint-$${CORPUS}; \
 
 
 # Make vertical fine with en metadata, a hack:
@@ -201,10 +202,10 @@ make-conll-vert-txt:
 # Make overall root(.ana) for ParlaMint for Sources-TEI/ and Distro/, 
 all-roots:	source-roots master-roots
 source-roots:
-	$s base=${HERE}/Sources-TEI -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-template.xml > ${HERE}/Sources-TEI/ParlaMint.xml
-	$s base=${HERE}/Sources-TEI -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Sources-TEI/ParlaMint.ana.xml
+	$s base=${HERE}/Sources-TEI type=TEI -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-rootTemplate.xml > ${HERE}/Sources-TEI/ParlaMint.xml
+	$s base=${HERE}/Sources-TEI type=TEI.ana -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-rootTemplate.xml > ${HERE}/Sources-TEI/ParlaMint.ana.xml
 master-roots:
 	$s base=${HERE}/Distro -xsl:../Scripts/parlamint2root.xsl \
 	../Scripts/ParlaMint-template.xml > ${HERE}/Distro/ParlaMint.xml
