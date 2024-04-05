@@ -6,8 +6,8 @@
 
 ### COMPLETE SET OF CORPORA
 CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-#CORPORA=AT HU BA BE / + CZ EE
-CORPORA= ES-CT ES-GA ES-PV
+#CORPORA=AT HU BA BE CZ EE ES-CT ES-GA ES-PV
+CORPORA=DK
 
 ####### MTed CORPORA. Used only for make pack!
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en ES-PV-en FI-en FR-en GB-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -244,9 +244,9 @@ all:	final
 xall:	final verts pack
 
 pack:
-	perl ../Scripts/pack-parlamint.pl -codes '${CORPORA}' -in Distro -out Packed
+	perl Scripts/pack-parlamint.pl -codes '${CORPORA}' -in Distro -out Packed
 verts:
-	perl ../Scripts/join-verts.pl -version ${VERSION} -codes '${CORPORA}' -in Distro -out Verts
+	perl Scripts/join-verts.pl -version ${VERSION} -codes '${CORPORA}' -in Distro -out Verts
 final:
 	for CORPUS in ${CORPORA}; do \
 	${FINALIZE} -all -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Distro 2> Logs/ParlaMint-$${CORPUS}.log; \

@@ -10,7 +10,7 @@
 ######
 
 ### Corpus for targets that process only one corpus
-CORPUS=FI
+CORPUS=DK
 
 ###### Adding all currently existing TSV metadata (+ transliteration) to corpora
 
