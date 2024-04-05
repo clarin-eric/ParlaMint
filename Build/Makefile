@@ -6,12 +6,8 @@
 
 ### COMPLETE SET OF CORPORA
 CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-#CORPORA=AT HU BA BE CZ EE ES-CT ES-GA ES-PV
-CORPORA=DK
-
-####### MTed CORPORA. Used only for make pack!
-MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en ES-PV-en FI-en FR-en GB-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
-
+#CORPORA=AT HU BA BE CZ EE ES-CT ES-GA ES-PV / DK
+CORPORA=
 # Used in targets that run only for one corpus
 CORPUS=HU
 
@@ -262,12 +258,12 @@ final:
 	done;
 
 ###### Targets for producing MTed corpora
-###### Input are a) original TEI.ana corpus, b) CoNLL-U of speech translations and c) list of translated notes
+###### Input is a) original TEI.ana corpora, b) CoNLL-U of speech translations and c) list of translated notes
 
 ### Make MTed corpora
 
 # Make distribution with:
-FINALIZE-MT = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -anahandle ${HANDLE-MT} -schema ${PARLAMINT}/Schema -docs ${HERE}/Sources-Distro
+FINALIZE-MT=perl ../Scripts/parlamint2distro.pl -version ${VERSION} -anahandle ${HANDLE-MT} -schema ${PARLAMINT}/Schema -docs ${HERE}/Sources-Distro
 
 # Targets
 mt-nohup:
@@ -293,7 +289,7 @@ mt-web:
 nohup-mt-pack:
 	nohup time make mt-pack > mt-pack.log &
 mt-pack:
-	perl ../Scripts/pack-parlamint.pl -codes '${MT-CORPORA}' -in Distro -out Packed
+	perl ../Scripts/pack-parlamint.pl -codes '${CORPORA}-en' -in Distro -out Packed
 	rsync -av Packed/*-en*.tgz ${WEB}/Repo
 	cp Packed/*-en*.tgz /project/clarin-upload/ParlaMint
 
@@ -331,7 +327,7 @@ sanity:
 # Convert from English CoNLL-U + source .TEI.ana -> -en.TEI.ana 
 mt-convert:
 	for CORPUS in ${CORPORA}; do \
-	perl ../Scripts/mt-conllu2tei.pl \
+	perl Scripts/mt-conllu2tei.pl \
 	${HERE}/Distro/ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml \
 	${SOURCES-MT}/ParlaMint-$${CORPUS}-en-notes.tsv \
 	${SOURCES-MT}/ParlaMint-$${CORPUS}-en.conllu \
@@ -342,17 +338,6 @@ mt-convert:
 	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}-en.log >> Logs/ParlaMint-$${CORPUS}-en.error.log;  \
 	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}-en.log >  Logs/ParlaMint-$${CORPUS}-en.warn.log;  \
 	done;
-
-# Hack to do it per year for NO:
-Y = 2010
-mt-convert-yr-nohup:
-	nohup time make fast >> Test/ParlaMint-NO-en.log &
-mt-convert-yr:
-	perl ../Scripts/mt-conllu2tei-year.pl $Y \
-	${HERE}/Distro/ParlaMint-NO.TEI.ana/ParlaMint-NO.ana.xml \
-	${SOURCES-MT}/ParlaMint-NO-en-notes.tsv \
-	${SOURCES-MT}/ParlaMint-NO-en.conllu \
-	Test/ParlaMint-NO-en.TEI.ana 2> Test/ParlaMint-NO-en.$Y.log
 
 ### Make CoNLL-U only
 # Convert from English CoNLL-U + source .TEI.ana -> -en.TEI.ana 
@@ -396,12 +381,12 @@ mt-test5:
 	${vra} Test/ParlaMint-AT-en.TEI.ana/ParlaMint-AT-en.ana.xml
 	${vca} Test/ParlaMint-AT-en.TEI.ana/1996/*.xml
 mt-test4:
-	perl ../Scripts/mt-insert-s.pl \
+	perl Scripts/mt-insert-s.pl \
 	  ../Scripts/tmp/363a4AJ0Jh/ParlaMint-BA-en_2006-09-18-0.body.xml \
 	< ../Scripts/tmp/363a4AJ0Jh/ParlaMint-BA-en_2006-09-18-0.note.xml\
 	> Test/ParlaMint-BA-en_2006-09-18-0.ana.xml
 mt-test3:
-	$s noteFile=Test/ParlaMint-AT.notes.translated.tsv -xsl:../Scripts/mt-insert-notes.xsl \
+	$s noteFile=Test/ParlaMint-AT.notes.translated.tsv -xsl:Scripts/mt-insert-notes.xsl \
 	Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.null.xml \
 	> Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.notes.xml
 mt-test2a:
@@ -418,8 +403,7 @@ mt-test2:
 	xmllint --noout Test/ParlaMint-GB-en_2022-06-22-commons.body.xml
 mt-test1:
 	rm -fr Test/ParlaMint-LV.tmp/*
-	$s outDir=Test/ParlaMint-LV.tmp -xsl:../Scripts/mt-prepare4mt.xsl ${HERE}/Distro/ParlaMint-LV.TEI.ana/ParlaMint-LV.ana.xml
-
+	$s outDir=Test/ParlaMint-LV.tmp -xsl:Scripts/mt-prepare4mt.xsl ${HERE}/Distro/ParlaMint-LV.TEI.ana/ParlaMint-LV.ana.xml
 
 #### Old and probably no longer useful
 
