@@ -27,7 +27,12 @@
     </category>
     <category xml:id="ches.party_id">
       <catDesc xml:lang="en"><term>Party identifier</term>: unique identifier for each party. For full list of party identifiers, consult the 1999-2019 Chapel Hill Expert Survey (CHES) trend file Codebook.
-      Note that ths category is not present in the ParlaMint CHES data, as the CHES party identifier is given as state/orgName.
+      Note that ths category is present in the ParlaMint CHES data as the value of the top level state/@key attribute.
+      </catDesc>
+    </category>
+    <category xml:id="ches.party">
+      <catDesc xml:lang="en"><term>Party abbreviation</term>: the abbreviated name of the party. Note that one Party identifier can correspond to several Party abbreviations, depending on the year of the survey. For full list of Party identifiers matched with the Party identifiers consult the 1999-2019 Chapel Hill Expert Survey (CHES) trend file Codebook.
+      Note that ths category is present in the ParlaMint CHES data also as the value of the top level state/@n attribute; when there are more than one Party appreviations, they are separated by space.
       </catDesc>
     </category>
     <category xml:id="ches.cmp_id">
@@ -360,7 +365,6 @@
       Values range on a scale from 1 to 7; 1 = Strongly opposed to fulfilling good governance requirements, 7 = Strongly in favor of fulfilling good governance requirements.</catDesc>
     </category>
   </category>
-
   <category xml:id="ches.most_important_issue">
     <catDesc xml:lang="en"><term>Most important issues</term>: Entries for the next three questions are a summary of the expert responses to the Most Important Issue question. Each expert ranked one issue as the most important, one issue as the second most important, and one issue as the third most important issue. In this dataset, we aggregate these responses using a simple ordinal voting technique. For each party, an issue received 10 points if it is ranked as the #1 issue by an expert 5 points if it is ranked #2 by an expert, and 1 point if it is ranked #3 by an expert. After adding together the issue scores for all the experts for each individual party, we ranked each issue by the total number of points, yielding the MIP_ONE, MIP_TWO, and MIP_THREE variables. Tables with the Most important issue options are available in the 1999-2019 Chapel Hill Expert Survey (CHES) trend file Codebook (https://www.chesdata.eu/s/1999-2019_CHES_codebook.pdf)</catDesc>
     <category xml:id="ches.mip_one">
