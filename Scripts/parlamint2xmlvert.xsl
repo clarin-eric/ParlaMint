@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!-- Transform one ParlaMint file to CQP vertical format.
      Note that the output is still in XML, and needs another polish. -->
-<!-- Needs the file with corpus teiHeader as the value of the "meta" parameter -->
+<!-- Needs the file with corpus teiHeader as the value of the "meta" parameter (cf. parlamint-lib.xsl) -->
 <xsl:stylesheet 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.tei-c.org/ns/1.0"
@@ -24,6 +24,8 @@
   <xsl:param name="note-open">[</xsl:param>
   <xsl:param name="note-close">]</xsl:param>
 
+  <xsl:param name="country-code" select="replace(/tei:TEI/@xml:id,
+                                         '.*?-([^._]+).*', '$1')"/>
   <xsl:template match="@*"/>
   <xsl:template match="text()"/>
   <xsl:template match="tei:*">
@@ -44,11 +46,34 @@
     <xsl:variable name="lang">
       <xsl:call-template name="u-langs"/>
     </xsl:variable>
+    <!-- Topics are given only in IS and DK corpora -->
+    <xsl:variable name="topic">
+      <xsl:choose>
+        <xsl:when test="$country-code = 'IS'">
+          <!-- IS has first a pointer to (debate) "topics", and from there to categories (topics proper) -->
+          <xsl:variable name="topics">
+            <xsl:for-each select="tokenize(@ana, ' ')">
+              <xsl:variable name="topic" select="key('idr', ., $rootHeader)"/>
+              <xsl:if test="$topic/ancestor::tei:taxonomy/contains(@xml:id, 'parla.topics')">
+                <xsl:for-each select="tokenize($topic/@ana, ' ')">
+                  <xsl:value-of select="et:l10n($corpus-language, key('idr', ., $rootHeader)/tei:catDesc)"/>
+                  <xsl:value-of select="$topic-separator"/>
+                </xsl:for-each>
+              </xsl:if>
+            </xsl:for-each>
+          </xsl:variable>
+          <xsl:value-of select="et:tsv-value(replace($topics, '.$', ''))"/>
+        </xsl:when>
+      </xsl:choose>
+    </xsl:variable>
     <speech id="{$speech_id}" text_id="{$text_id}"
             subcorpus="{$subcorpus}" lang="{$lang}" body="{$body}"
             term="{$term}" session="{$session}" meeting="{$meeting}" sitting="{$sitting}" agenda="{$agenda}"
             date="{$at-date}" title="{$title}">
       <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
+      <xsl:if test="normalize-space($topic)">
+        <xsl:attribute name="topic" select="$topic"/>
+      </xsl:if>
       <xsl:choose>
         <xsl:when test="@who">
           <xsl:variable name="speaker" select="key('idr', @who, $rootHeader)"/>

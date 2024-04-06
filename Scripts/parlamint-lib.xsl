@@ -24,6 +24,9 @@
   <!-- Separator for multi-valued (parliamentary) "body" attribute; must have only one char --> 
   <xsl:param name="body-separator">|</xsl:param>
   
+  <!-- Separator for multi-valued (speech) "topic" attribute; must have only one char --> 
+  <xsl:param name="topic-separator">|</xsl:param>
+  
   <!-- Separator for multi-valued semantic attributes; must have only one char --> 
   <xsl:param name="sem-separator">|</xsl:param>
   
