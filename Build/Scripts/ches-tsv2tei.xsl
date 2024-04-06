@@ -232,7 +232,7 @@
             <!-- Columns we don't want in <state> -->
             <!-- We leave in @type = 'party_id' or @type = 'party' as these can change by year -->
             <xsl:if test="@type != 'ches_survey' and @type != 'country' and @type != 'parlamint' and 
-                          @type != 'year'">
+                          @type != 'year' and @type != 'chesversion' ">
               <xsl:call-template name="ches-variables">
                 <xsl:with-param name="type" select="@type"/>
                 <xsl:with-param name="rows" select="$rows"/>
