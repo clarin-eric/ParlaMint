@@ -49,14 +49,29 @@
     <!-- Topics are given only in IS and DK corpora -->
     <xsl:variable name="topic">
       <xsl:choose>
+        <xsl:when test="$country-code = 'DK'">
+          <xsl:variable name="topics">
+            <xsl:for-each select="tokenize(@ana, ' ')">
+              <xsl:variable name="topic" select="key('idr', ., $rootHeader)"/>
+              <!-- Topic stored in "domains" taxonomy -->
+              <xsl:if test="$topic/ancestor::tei:taxonomy/contains(@xml:id, 'taxonomy-domains')">
+                <xsl:value-of select="et:l10n($corpus-language, $topic/tei:catDesc/tei:term)"/>
+                <xsl:value-of select="$topic-separator"/>
+              </xsl:if>
+            </xsl:for-each>
+          </xsl:variable>
+          <xsl:value-of select="et:tsv-value(replace($topics, '.$', ''))"/>
+        </xsl:when>
         <xsl:when test="$country-code = 'IS'">
           <!-- IS has first a pointer to (debate) "topics", and from there to categories (topics proper) -->
           <xsl:variable name="topics">
             <xsl:for-each select="tokenize(@ana, ' ')">
               <xsl:variable name="topic" select="key('idr', ., $rootHeader)"/>
+              <!-- First get topic(s) stored in "topics" taxonomy -->
               <xsl:if test="$topic/ancestor::tei:taxonomy/contains(@xml:id, 'parla.topics')">
                 <xsl:for-each select="tokenize($topic/@ana, ' ')">
-                  <xsl:value-of select="et:l10n($corpus-language, key('idr', ., $rootHeader)/tei:catDesc)"/>
+                  <!-- Then get topic(s) proper, stored in "categories" taxonomy -->
+                  <xsl:value-of select="et:l10n($corpus-language, key('idr', ., $rootHeader)/tei:catDesc/tei:term)"/>
                   <xsl:value-of select="$topic-separator"/>
                 </xsl:for-each>
               </xsl:if>
