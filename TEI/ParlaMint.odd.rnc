@@ -11,7 +11,7 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2024-03-20T14:09:26Z. 2024-03-03.
+# Schema generated from ODD source 2024-04-08T18:37:48Z. 2024-03-03.
 # TEI Edition: Version 4.6.0a. Last updated on
 #         5th January 2023, revision 9074b9038
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0a./
@@ -780,6 +780,7 @@ tei_gap =
     tei_att.global.attribute.xmlid,
     tei_att.global.attribute.n,
     tei_att.global.attribute.xmllang,
+    tei_att.global.linking.attribute.corresp,
     
     ##
     attribute reason {
@@ -1023,6 +1024,7 @@ tei_head =
     text,
     tei_att.global.attribute.xmlid,
     tei_att.global.attribute.xmllang,
+    tei_att.global.linking.attribute.corresp,
     tei_att.typed.attribute.type,
     empty
   }
@@ -1792,6 +1794,7 @@ tei_vocal =
     tei_att.global.attribute.xmlid,
     tei_att.global.attribute.n,
     tei_att.global.attribute.xmllang,
+    tei_att.global.linking.attribute.corresp,
     tei_att.ascribed.attribute.who,
     tei_att.typed.attribute.subtype,
     
@@ -1841,6 +1844,7 @@ tei_kinesic =
     tei_att.global.attribute.xmlid,
     tei_att.global.attribute.n,
     tei_att.global.attribute.xmllang,
+    tei_att.global.linking.attribute.corresp,
     tei_att.typed.attribute.subtype,
     tei_att.ascribed.attribute.who,
     
@@ -1887,6 +1891,7 @@ tei_incident =
     tei_att.global.attribute.xmlid,
     tei_att.global.attribute.n,
     tei_att.global.attribute.xmllang,
+    tei_att.global.linking.attribute.corresp,
     tei_att.typed.attribute.subtype,
     tei_att.ascribed.attributes,
     
