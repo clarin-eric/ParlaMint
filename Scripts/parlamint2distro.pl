@@ -233,6 +233,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	$vertRegi = 'parlamint' . $Version . '_' . lc $countryCode;
 	$vertRegi =~ s/\.//g;   #e.g. 3.1 -> 31, so we will get e.g. parlamint31_at
 	$vertRegi =~ s/-/_/g;  #e.g. parlamint31_es-ct.regi to parlamint31_es_ct
+        # Remove -en suffix as we don't have parlamint99_xx_en registry files
+        $vertRegi =~ s/_$MT$// if $MT;  
 	$regiExt = 'regi'
     }
     
