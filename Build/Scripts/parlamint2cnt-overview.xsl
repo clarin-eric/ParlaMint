@@ -13,6 +13,8 @@
     exclude-result-prefixes="fn et tei xs xi"
     version="2.0">
 
+  <xsl:import href="parlamint-lib.xsl"/>
+  
   <xsl:output method="text" encoding="utf-8"/>
 
   <!-- What to output the table as -->
@@ -76,7 +78,7 @@
         <xsl:value-of select="$header-row"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:message terminate="yes">Parameter 'mode' should be either TSV of TeX.</xsl:message>
+        <xsl:message terminate="yes">FATAL ERROR: parameter 'mode' should be either TSV of TeX.</xsl:message>
       </xsl:otherwise>
     </xsl:choose>
     
@@ -149,8 +151,6 @@
     <xsl:variable name="terms" select="count(.//tei:titleStmt/tei:meeting[@corresp=$corpus]
                                        [contains(@ana, 'parla.term')])"/>
     <xsl:choose>
-      <!-- DK does not properly list terms, cf. https://github.com/clarin-eric/ParlaMint/issues/828) -->
-      <xsl:when test="$terms = 0 and $corpus = '#ParlaMint-DK'">4</xsl:when>
       <xsl:when test="$terms = 0">-</xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="$terms"/>
@@ -161,8 +161,8 @@
     <xsl:variable name="date">
       <xsl:copy-of select=".//tei:settingDesc/tei:setting[@corresp=$corpus]/tei:date"/>
     </xsl:variable>
-    <xsl:variable name="from" select="et:pad-date($date/tei:date/@from)"/>
-    <xsl:variable name="to" select="et:pad-date($date/tei:date/@to)"/>
+    <xsl:variable name="from" select="et:norm-date($date/tei:date/@from)"/>
+    <xsl:variable name="to" select="et:norm-date($date/tei:date/@to)"/>
     <xsl:value-of select="replace($from, '-\d\d$', '')"/>
     <xsl:value-of select="$col-sep"/>
     <xsl:value-of select="replace($to, '-\d\d$', '')"/>
@@ -179,30 +179,4 @@
     <xsl:value-of select="$line-sep"/>
   </xsl:template>
 
-  <!-- Fix too long or too short dates 
-       a la "2013-10-26T14:00:00" or "2018" to xs:date e.g. 2018-01-01 -->
-  <xsl:function name="et:pad-date">
-    <xsl:param name="date"/>
-    <xsl:choose>
-      <xsl:when test="matches($date, '^\d\d\d\d-\d\d-\d\dT.+$')">
-        <xsl:value-of select="substring-before($date, 'T')"/>
-      </xsl:when>
-      <xsl:when test="matches($date, '^\d\d\d\d-\d\d-\d\d$')">
-        <xsl:value-of select="$date"/>
-      </xsl:when>
-      <xsl:when test="matches($date, '^\d\d\d\d-\d\d$')">
-        <xsl:value-of select="concat($date, '-01')"/>
-      </xsl:when>
-      <xsl:when test="matches($date, '^\d\d\d\d$')">
-        <xsl:value-of select="concat($date, '-01-01')"/>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:message terminate="yes">
-          <xsl:text>ERROR: bad date </xsl:text>
-          <xsl:value-of select="$date"/>
-        </xsl:message>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:function>
-  
 </xsl:stylesheet>

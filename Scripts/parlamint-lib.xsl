@@ -21,15 +21,9 @@
   <!-- Filename of corpus root containing the corpus-wide metadata -->
   <xsl:param name="meta"/>
 
-  <!-- Separator for multi-valued (parliamentary) "body" attribute; must have only one char --> 
-  <xsl:param name="body-separator">|</xsl:param>
-  
-  <!-- Separator for multi-valued (speech) "topic" attribute; must have only one char --> 
-  <xsl:param name="topic-separator">|</xsl:param>
-  
-  <!-- Separator for multi-valued semantic attributes; must have only one char --> 
-  <xsl:param name="sem-separator">|</xsl:param>
-  
+  <!-- Separator for multi-valued attributes in vertical and TSV files; must have only one char! --> 
+  <xsl:param name="multi-separator">|</xsl:param>
+
   <!-- Output label for MPs and non-MPs (in vertical and metadata output) --> 
   <xsl:param name="mp-label">MP</xsl:param>
   <xsl:param name="nonmp-label">notMP</xsl:param>
@@ -85,7 +79,7 @@
         <xsl:variable name="joined-subtitles">
           <xsl:variable name="j-s">
             <xsl:for-each select="$subtitles/self::tei:*">
-              <xsl:value-of select="concat(., $body-separator)"/>
+              <xsl:value-of select="concat(., $multi-separator)"/>
             </xsl:for-each>
           </xsl:variable>
           <xsl:value-of select="replace($j-s, '.$', '')"/>
@@ -277,11 +271,11 @@
                           $body-en = 'Upper house' or 
                           $body-en = 'Lower house' or 
                           $body-en = 'Committee'">
-              <xsl:if test="contains($body, $body-separator)">
-                <xsl:message select="concat('ERROR: ', $body, ' should not contain ', $body-separator)"/>
+              <xsl:if test="contains($body, $multi-separator)">
+                <xsl:message select="concat('ERROR: ', $body, ' should not contain ', $multi-separator)"/>
               </xsl:if>
               <xsl:value-of select="$body"/>
-              <xsl:value-of select="$body-separator"/>
+              <xsl:value-of select="$multi-separator"/>
             </xsl:if>
           </xsl:if>
         </xsl:for-each>
@@ -850,16 +844,16 @@
         <xsl:value-of select="true()"/>
       </xsl:when>
       <xsl:when test="normalize-space($from) and normalize-space($to) and
-                      xs:date(et:pad-date($date)) &gt;= xs:date(et:pad-date($from)) and
-                      xs:date(et:pad-date($date)) &lt;= xs:date(et:pad-date($to))">
+                      xs:date(et:norm-date($date)) &gt;= xs:date(et:norm-date($from)) and
+                      xs:date(et:norm-date($date)) &lt;= xs:date(et:norm-date($to))">
         <xsl:value-of select="true()"/>
       </xsl:when>
       <xsl:when test="not(normalize-space($from)) and normalize-space($to) and
-                      xs:date(et:pad-date($date)) &lt;= xs:date(et:pad-date($to))" >
+                      xs:date(et:norm-date($date)) &lt;= xs:date(et:norm-date($to))" >
         <xsl:value-of select="true()"/>
       </xsl:when>
       <xsl:when test="normalize-space($from) and not(normalize-space($to)) and 
-                      xs:date(et:pad-date($date)) &gt;= xs:date(et:pad-date($from))" >
+                      xs:date(et:norm-date($date)) &gt;= xs:date(et:norm-date($from))" >
         <xsl:value-of select="true()"/>
       </xsl:when>
       <xsl:otherwise>
@@ -868,9 +862,9 @@
     </xsl:choose>
   </xsl:function>
   
-  <!-- Fix too long or too short dates 
+  <!-- Normalize too long or too short dates 
        a la "2013-10-26T14:00:00" or "2018" to xs:date e.g. 2018-01-01 -->
-  <xsl:function name="et:pad-date">
+  <xsl:function name="et:norm-date">
     <xsl:param name="date"/>
     <xsl:choose>
       <xsl:when test="matches($date, '^\d\d\d\d-\d\d-\d\dT.+$')">
@@ -1002,7 +996,7 @@
           <xsl:for-each select="tokenize($element/@ana, ' ')">
             <!-- Here we a) assume that the catDesc is only in English and b) that the extended pointer resolves to a local reference -->
             <xsl:value-of select="key('id', substring-after(., ':'), $rootHeader)/tei:catDesc/tei:term"/>
-            <xsl:value-of select="$sem-separator"/>
+            <xsl:value-of select="$multi-separator"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="replace($terms, '.$', '')"/>
@@ -1013,7 +1007,7 @@
           <xsl:for-each select="tokenize($element/@ana, ' ')">
             <!-- Here we a) assume that the catDesc is only in English and b) that the extended pointer resolves to a local reference -->
             <xsl:value-of select="key('id', substring-after(., ':'), $rootHeader)/normalize-space(tei:catDesc)"/>
-            <xsl:value-of select="$sem-separator"/>
+            <xsl:value-of select="$multi-separator"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="replace($glosses, '.$', '')"/>
