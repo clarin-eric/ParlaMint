@@ -109,6 +109,9 @@
         </xsl:when>
       </xsl:choose>
     </xsl:variable>
+    <!-- Substitute CHES multivalued spearator with TSV one -->
+    <xsl:variable name="CHES-id" select="replace(tei:state[@type='CHES']/@key, '&#32;', $multi-separator)"/>
+    <xsl:variable name="CHES-name" select="replace(tei:state[@type='CHES']/@n, '&#32;', $multi-separator)"/>
     
     <xsl:value-of select="concat($country, '&#9;')"/>
     <xsl:value-of select="concat(@role, '&#9;')"/>
@@ -119,8 +122,8 @@
     <xsl:value-of select="concat(et:tsv-value(tei:event[tei:label = 'existence']/@to), '&#9;')"/>
     <xsl:value-of select="concat(et:tsv-value($Orientation-LR), '&#9;')"/>
     <xsl:value-of select="concat(et:tsv-value($Wikipedia), '&#9;')"/>
-    <xsl:value-of select="concat(et:tsv-value(tei:state[@type='CHES']/@n), '&#9;')"/>
-    <xsl:value-of select="concat(et:tsv-value(tei:state[@type='CHES']/@key), '&#10;')"/>
+    <xsl:value-of select="concat(et:tsv-value($CHES-id), '&#9;')"/>
+    <xsl:value-of select="concat(et:tsv-value($CHES-name), '&#10;')"/>
   </xsl:template>
 
   <xsl:template name="header-row">
@@ -133,9 +136,8 @@
     <xsl:text>To&#9;</xsl:text>
     <xsl:text>Orientation-LR&#9;</xsl:text>
     <xsl:text>Wikipedia&#9;</xsl:text>
-    <xsl:text>CHES-Name&#9;</xsl:text>
-    <xsl:text>CHES-ID</xsl:text>
-    <xsl:text>&#10;</xsl:text>
+    <xsl:text>CHES-ID&#9;</xsl:text>
+    <xsl:text>CHES-Name&#10;</xsl:text>
   </xsl:template>
   
 </xsl:stylesheet>

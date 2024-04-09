@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Outoput information on ParlaMint persons as TSV file -->
+<!-- Output information on ParlaMint persons as TSV file -->
 <!-- Expects ParlaMint.xml (for all corpora) or ParlaMint-XX.xml (for one corpus) as input -->
 <!-- Note that all time-dependent information on persons (like their affiliation with parties) is ignored -->
 <xsl:stylesheet 
@@ -12,7 +12,6 @@
   exclude-result-prefixes="#all"
   version="2.0">
 
-  <xsl:param name="separator">; </xsl:param>
   <xsl:import href="parlamint-lib.xsl"/>
   
   <xsl:output method="text"/>
@@ -81,73 +80,73 @@
     <xsl:variable name="Forename">
       <xsl:variable name="F">
         <xsl:for-each select="$PersName//tei:forename">
-          <xsl:value-of select="concat(., $separator)"/>
+          <xsl:value-of select="concat(., '&#32;')"/>
         </xsl:for-each>
       </xsl:variable>
-      <xsl:value-of select="replace($F, concat($separator, '$'), '')"/>
+      <xsl:value-of select="replace(normalize-space($F), '&#32;', $multi-separator)"/>
     </xsl:variable>
     <xsl:variable name="Surname">
       <xsl:variable name="S">
         <xsl:for-each select="$PersName//tei:surname | $PersName//tei:nameLink">
-          <xsl:value-of select="concat(., $separator)"/>
+          <xsl:value-of select="concat(., '&#32;')"/>
         </xsl:for-each>
       </xsl:variable>
-      <xsl:value-of select="replace($S, concat($separator, '$'), '')"/>
+      <xsl:value-of select="replace(normalize-space($S), '&#32;', $multi-separator)"/>
     </xsl:variable>
     <xsl:variable name="Minister-when">
       <xsl:variable name="M">
         <xsl:for-each select="tei:affiliation[@role='minister']">
           <xsl:sort select="@from"/>
-          <!-- Output @from/@to, but get rid of time info -->
-          <xsl:value-of select="concat(
-                                replace(@from, 'T.+', ''), 
-                                '/', 
-                                replace(@to, 'T.+', ''),
-                                $separator)"/>
+          <xsl:value-of select="concat(et:date2interval(.), '&#32;')"/>
         </xsl:for-each>
       </xsl:variable>
-      <xsl:value-of select="replace($M, concat($separator, '$'), '')"/>
+      <xsl:value-of select="replace(normalize-space($M), '&#32;', $multi-separator)"/>
     </xsl:variable>    
     <xsl:variable name="MP-when">
       <xsl:variable name="M">
         <xsl:for-each select="tei:affiliation[@role='member']">
           <xsl:sort select="@from"/>
           <xsl:if test="key('idr', @ref)/@role='parliament'">
-            <xsl:value-of select="concat(@from, '/', @to, $separator)"/>
+          <xsl:value-of select="concat(et:date2interval(.), '&#32;')"/>
           </xsl:if>
         </xsl:for-each>
       </xsl:variable>
-      <xsl:value-of select="replace($M, concat($separator, '$'), '')"/>
+      <xsl:value-of select="replace(normalize-space($M), '&#32;', $multi-separator)"/>
     </xsl:variable>    
     <xsl:variable name="ParGroups">
-      <xsl:call-template name="names-of-orgs">
-        <xsl:with-param name="orgs" select="tei:affiliation[@role='member']/
-                                            key('idr', @ref)[@role='parliamentaryGroup']"/>
+      <xsl:call-template name="affiliation-orgs">
+        <xsl:with-param name="affiliations" select="tei:affiliation[@role='member']"/>
+        <xsl:with-param name="role">parliamentaryGroup</xsl:with-param>
         <xsl:with-param name="lang" select="$lang"/>
       </xsl:call-template>
     </xsl:variable>    
     <xsl:variable name="PolParties">
-      <xsl:call-template name="names-of-orgs">
-        <xsl:with-param name="orgs" select="tei:affiliation[@role='member']/
-                                            key('idr', @ref)[@role='politicalParty']"/>
+      <xsl:call-template name="affiliation-orgs">
+        <xsl:with-param name="affiliations" select="tei:affiliation[@role='member']"/>
+        <xsl:with-param name="role">politicalParty</xsl:with-param>
         <xsl:with-param name="lang" select="$lang"/>
       </xsl:call-template>
     </xsl:variable>    
+    <xsl:variable name="Sex" select="tei:sex/@value"/>
+    <xsl:variable name="BirthDate" select="et:norm-date(tei:birth/@when)"/>
+    <xsl:variable name="BirthPlace" select="et:l10n($lang, tei:birth/tei:placeName)"/>
+    <xsl:variable name="DeathDate" select="et:norm-date(tei:death/@when)"/>
+    <xsl:variable name="DeathPlace" select="et:l10n($lang, tei:death/tei:placeName)"/>
     <xsl:variable name="Education">
       <xsl:variable name="E">
         <xsl:for-each select="et:l10n($lang, tei:education)">
-          <xsl:value-of select="concat(., $separator)"/>
+          <xsl:value-of select="concat(., '@@@')"/>
         </xsl:for-each>
       </xsl:variable>
-      <xsl:value-of select="replace($E, concat($separator, '$'), '')"/>
+      <xsl:value-of select="replace(replace($E, '@@@$', ''), '@@@', $multi-separator)"/>
     </xsl:variable>
     <xsl:variable name="Occupation">
       <xsl:variable name="O">
         <xsl:for-each select="et:l10n($lang, tei:occupation)">
-          <xsl:value-of select="concat(., $separator)"/>
+          <xsl:value-of select="concat(., '@@@')"/>
         </xsl:for-each>
       </xsl:variable>
-      <xsl:value-of select="replace($O, concat($separator, '$'), '')"/>
+      <xsl:value-of select="replace(replace($O, '@@@$', ''), '@@@', $multi-separator)"/>
     </xsl:variable>
     <!-- Get Wikipedia URL from <idno> or <state> as fall-back; do not depend on @xml:lang but URL! -->
     <xsl:variable name="Wikipedia">
@@ -170,10 +169,10 @@
     <xsl:variable name="Official">
       <xsl:variable name="O">
         <xsl:for-each select="tei:idno[@type='URI' and (@subtype='government' or @subtype='parliament')]">
-          <xsl:value-of select="concat(., $separator)"/>
+          <xsl:value-of select="concat(., '&#32;')"/>
         </xsl:for-each>
       </xsl:variable>
-      <xsl:value-of select="replace($O, concat($separator, '$'), '')"/>
+      <xsl:value-of select="replace(normalize-space($O), '&#32;', $multi-separator)"/>
     </xsl:variable>
     
     <xsl:value-of select="concat($country, '&#9;')"/>
@@ -186,11 +185,11 @@
     <xsl:value-of select="concat(et:tsv-value($MP-when), '&#9;')"/>
     <xsl:value-of select="concat(et:tsv-value($ParGroups), '&#9;')"/>
     <xsl:value-of select="concat(et:tsv-value($PolParties), '&#9;')"/>
-    <xsl:value-of select="concat(et:tsv-value(tei:sex/@value), '&#9;')"/>
-    <xsl:value-of select="concat(et:tsv-value(tei:birth/@when), '&#9;')"/>
-    <xsl:value-of select="concat(et:tsv-value(et:l10n($lang, tei:birth/tei:placeName)), '&#9;')"/>
-    <xsl:value-of select="concat(et:tsv-value(tei:death/@when), '&#9;')"/>
-    <xsl:value-of select="concat(et:tsv-value(et:l10n($lang, tei:death/tei:placeName)), '&#9;')"/>
+    <xsl:value-of select="concat(et:tsv-value($Sex), '&#9;')"/>
+    <xsl:value-of select="concat(et:tsv-value($BirthDate), '&#9;')"/>
+    <xsl:value-of select="concat(et:tsv-value($BirthPlace), '&#9;')"/>
+    <xsl:value-of select="concat(et:tsv-value($DeathDate), '&#9;')"/>
+    <xsl:value-of select="concat(et:tsv-value($DeathPlace), '&#9;')"/>
     <xsl:value-of select="concat(et:tsv-value($Education), '&#9;')"/>
     <xsl:value-of select="concat(et:tsv-value($Occupation), '&#9;')"/>
     <xsl:value-of select="concat(et:tsv-value($Wikipedia), '&#9;')"/>
@@ -221,39 +220,48 @@
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
   
-  <xsl:template name="names-of-orgs">
-    <xsl:param name="orgs"/>
+  <xsl:template name="affiliation-orgs">
+    <xsl:param name="affiliations"/>
+    <xsl:param name="role"/>
     <xsl:param name="lang"/>
     <xsl:variable name="orgNames">
-      <xsl:for-each select="$orgs/self::tei:org">
-        <xsl:variable name="name-abb">
-          <xsl:call-template name="orgName">
-            <xsl:with-param name="org" select="."/>
-            <xsl:with-param name="full">abb</xsl:with-param>
-            <xsl:with-param name="lang" select="$lang"/>
-          </xsl:call-template>
-        </xsl:variable>
-        <xsl:variable name="name-full">
-          <xsl:call-template name="orgName">
-            <xsl:with-param name="org" select="."/>
-            <xsl:with-param name="full">yes</xsl:with-param>
-            <xsl:with-param name="lang" select="$lang"/>
-          </xsl:call-template>
-        </xsl:variable>
-        <xsl:choose>
-          <xsl:when test="normalize-space($name-abb)">
-            <xsl:value-of select="concat($name-abb, $separator)"/>
-          </xsl:when>
-          <xsl:when test="normalize-space($name-full)">
-            <xsl:value-of select="concat($name-full, $separator)"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="concat(@xml:id, $separator)"/>
-          </xsl:otherwise>
-        </xsl:choose>
+      <xsl:for-each select="$affiliations/self::tei:affiliation">
+        <xsl:variable name="org" select="key('idr', @ref)[@role=$role]"/>
+        <xsl:if test="$org[self::tei:org]">
+          <xsl:variable name="name-abb">
+            <xsl:call-template name="orgName">
+              <xsl:with-param name="org" select="$org"/>
+              <xsl:with-param name="full">abb</xsl:with-param>
+              <xsl:with-param name="lang" select="$lang"/>
+            </xsl:call-template>
+          </xsl:variable>
+          <xsl:variable name="name-full">
+            <xsl:call-template name="orgName">
+              <xsl:with-param name="org" select="$org"/>
+              <xsl:with-param name="full">yes</xsl:with-param>
+              <xsl:with-param name="lang" select="$lang"/>
+            </xsl:call-template>
+          </xsl:variable>
+          <xsl:choose>
+            <xsl:when test="normalize-space($name-abb)">
+              <xsl:value-of select="$name-abb"/>
+            </xsl:when>
+            <xsl:when test="normalize-space($name-full)">
+              <xsl:value-of select="$name-full"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="@xml:id"/>
+            </xsl:otherwise>
+          </xsl:choose>
+          <xsl:value-of select="concat('[', et:date2interval(.), ']')"/>
+          <xsl:text>@@@</xsl:text>
+        </xsl:if>
       </xsl:for-each>
     </xsl:variable>
-    <xsl:value-of select="replace(distinct-values($orgNames), concat($separator, '$'), '')"/>
+    <xsl:value-of select="replace(
+                          string-join(
+                          distinct-values(tokenize(replace($orgNames, '@@@$', ''), '@@@')), '@@@'),
+                          '@@@', $multi-separator)"/>
   </xsl:template>
   
 </xsl:stylesheet>
