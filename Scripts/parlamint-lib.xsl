@@ -864,9 +864,11 @@
   
   <!-- Normalize too long or too short dates 
        a la "2013-10-26T14:00:00" or "2018" to xs:date e.g. 2018-01-01 -->
+  <!-- If date is empty, returns emptry string -->
   <xsl:function name="et:norm-date">
     <xsl:param name="date"/>
     <xsl:choose>
+      <xsl:when test="not(normalize-space($date))"/>
       <xsl:when test="matches($date, '^\d\d\d\d-\d\d-\d\dT.+$')">
         <xsl:value-of select="substring-before($date, 'T')"/>
       </xsl:when>
@@ -892,6 +894,27 @@
           <xsl:text>ERROR: bad date </xsl:text>
           <xsl:value-of select="$date"/>
         </xsl:message>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+  
+  <!-- Taking an element with temporal information, output the interval that it covers, e.g.
+       <affiliation when="1990-11-05"...>                  -> 1990-11-05/1990-11-05
+       <affiliation from="1990-11-05" to="1997-10-30" ...> -> 1990-11-05/1997-10-30 
+       <affiliation from="1990-11-05" ...>                 -> 1990-11-05/-
+       <affiliation ...>                                   -> -/-
+  -->
+  <!-- If from or to are empty, return "-" for the value -->
+  <xsl:function name="et:date2interval">
+    <xsl:param name="element"/>
+    <xsl:choose>
+      <xsl:when test="$element/@when">
+        <xsl:value-of select="concat(et:norm-date($element/@when), '/', et:norm-date($element/@to))"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="concat(
+                              et:tsv-value(et:norm-date($element/@from)), '/',
+                              et:tsv-value(et:norm-date($element/@to)))"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
