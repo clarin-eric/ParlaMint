@@ -50,10 +50,25 @@
     <xsl:variable name="topic">
       <xsl:choose>
         <xsl:when test="$country-code = 'DK'">
+          <!-- E.g. 
+               <u who="#HaarderBertel" xml:id="ParlaMint-DK_20141007120002" ana="#chair #domain.other">
+               + 
+               <taxonomy xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-DK-taxonomy-domains" xml:lang="mul">
+                 <desc xml:lang="en"><term>Policy domains</term> in the ParlaMint-DK corpus</desc>
+                 <desc xml:lang="da"><term>Politiske emneområder</term> i ParlaMint-DK</desc>
+                 <category xml:id="domain.Agriculture">
+                   <catDesc xml:lang="en"><term>Agriculture</term>: comprises Agriculture, Fisheries, Food, Consumer, and Animal welfare</catDesc>
+                   <catDesc xml:lang="da"><term>Landbrug</term>: omfatter Landbrug, Fiskeri, Fødevarer, Forbruger, og Dyrevelfærd</catDesc>
+                 </category>
+                 etc.
+               = (dk):
+               <speech id="ParlaMint-DK_20141007120002" ... topic="Folketingsanliggender">
+          -->
           <xsl:variable name="topics">
             <xsl:for-each select="tokenize(@ana, ' ')">
+              <xsl:sort select="."/>
               <xsl:variable name="topic" select="key('idr', ., $rootHeader)"/>
-              <!-- Topic stored in "domains" taxonomy -->
+              <!-- Topic names are stored in DK "domains" taxonomy -->
               <xsl:if test="$topic/ancestor::tei:taxonomy/contains(@xml:id, 'taxonomy-domains')">
                 <xsl:value-of select="et:l10n($corpus-language, $topic/tei:catDesc/tei:term)"/>
                 <xsl:value-of select="$topic-separator"/>
@@ -64,17 +79,19 @@
         </xsl:when>
         <xsl:when test="$country-code = 'IS'">
           <!-- IS has first a pointer to (debate) "topics", and from there to categories (topics proper) -->
-          <xsl:variable name="topics">
+          <xsl:variable name="IS-topics">
             <xsl:for-each select="tokenize(@ana, ' ')">
-              <xsl:variable name="topic" select="key('idr', ., $rootHeader)"/>
-              <!-- First get topic(s) stored in "topics" taxonomy -->
-              <xsl:if test="$topic/ancestor::tei:taxonomy/contains(@xml:id, 'parla.topics')">
-                <xsl:for-each select="tokenize($topic/@ana, ' ')">
-                  <!-- Then get topic(s) proper, stored in "categories" taxonomy -->
-                  <xsl:value-of select="et:l10n($corpus-language, key('idr', ., $rootHeader)/tei:catDesc/tei:term)"/>
-                  <xsl:value-of select="$topic-separator"/>
-                </xsl:for-each>
-              </xsl:if>
+              <xsl:value-of select="key('idr', ., $rootHeader)
+                                    [contains(ancestor::tei:taxonomy/@xml:id, 'parla.topics')]/@ana"/>
+              <xsl:text>&#32;</xsl:text>
+            </xsl:for-each>
+          </xsl:variable>
+          <xsl:variable name="topics">
+            <xsl:for-each select="distinct-values(tokenize(normalize-space($IS-topics), ' '))">
+              <xsl:sort select="."/>
+              <!-- Localisation of the term in category description -->
+              <xsl:value-of select="et:l10n($corpus-language, key('idr', ., $rootHeader)/tei:catDesc/tei:term)"/>
+              <xsl:value-of select="$topic-separator"/>
             </xsl:for-each>
           </xsl:variable>
           <xsl:value-of select="et:tsv-value(replace($topics, '.$', ''))"/>
