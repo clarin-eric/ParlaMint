@@ -7,9 +7,9 @@
 ### COMPLETE SET OF CORPORA
 CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 #CORPORA=AT HU BA BE CZ EE ES-CT ES-GA ES-PV / DK
-CORPORA=LV
+CORPORA=SI BA
 # Used in targets that run only for one corpus
-CORPUS=LV
+#CORPUS=
 
 #Absolute paths are needed otherwise problems with XSLT
 PARLAMINT := $(shell realpath .. | tr -d '\n')# get real absolute path to ParlaMint directory
@@ -57,6 +57,12 @@ metadata-orgs:
 metadata-persons:
 	$s out-lang=xx -xsl:Scripts/listPerson-tei2tsv.xsl Distro/ParlaMint.xml > Metadata/ParlaMint-listPerson.tsv
 	$s out-lang=en -xsl:Scripts/listPerson-tei2tsv.xsl Distro/ParlaMint.xml > Metadata/ParlaMint-listPerson-en.tsv
+## Generate TSV files for persons and orgs from the Sources-TEI directory
+source-metadata:
+	$s out-lang=xx -xsl:Scripts/listPerson-tei2tsv.xsl Sources-TEI/ParlaMint.xml > Metadata/ParlaMint-listPerson.tsv
+	$s out-lang=en -xsl:Scripts/listPerson-tei2tsv.xsl Sources-TEI/ParlaMint.xml > Metadata/ParlaMint-listPerson-en.tsv
+	$s out-lang=xx -xsl:Scripts/listOrg-tei2tsv.xsl Sources-TEI/ParlaMint.xml > Metadata/ParlaMint-listOrg.tsv
+	$s out-lang=en -xsl:Scripts/listOrg-tei2tsv.xsl Sources-TEI/ParlaMint.xml > Metadata/ParlaMint-listOrg-en.tsv
 
 ###### Various tests
 test:
@@ -68,14 +74,13 @@ test-tei1:
 test-vert6:
 	../Scripts/parlamintp-tei2vert-xx.pl ${HERE}/Distro/ParlaMint-LV.TEI.ana Test/ParlaMint-LV-xx.vert
 test-vert5:
-	$s meta=../Build/Distro/ParlaMint-AT.TEI.ana/ParlaMint-AT.ana.xml \
-	-xsl:../Scripts/parlamint2xmlvert.xsl Test/test-FI.ana.xml > Test/test-FI.vert
-	#-xsl:../Scripts/parlamint2xmlvert.xsl Test/ParlaMint-FI_2015-06-02-ps-13.ana.xml > Test/test-FI.vert
+	$s meta=../Build/Distro/ParlaMint-DK.TEI.ana/ParlaMint-DK.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
+	../Build/Distro/ParlaMint-DK.TEI.ana/2020/ParlaMint-DK_2020-01-07-20191-M42.ana.xml > Test/test-DK.vert
 test-vert4:
-	$s meta=${HERE}/Distro/ParlaMint-TR.TEI.ana/ParlaMint-TR.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
-	${HERE}/Distro/ParlaMint-TR.TEI.ana/2022/ParlaMint-TR_2022-11-01-tbmm-T27.ana.xml > test.vert
+	$s meta=${HERE}/Distro/ParlaMint-IS.TEI.ana/ParlaMint-IS.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
+	${HERE}/Distro/ParlaMint-IS.TEI.ana/2022/ParlaMint-IS_2022-01-17-20.ana.xml > test-IS.vert
 test-vert2:
-	${FINALIZE} -vert -codes GB -in ${HERE}/Distro -out ${HERE}/Distro
+	${FINALIZE} -vert -codes IS -in ${HERE}/Distro -out ${HERE}/Distro
 test-vert1:
 	${FINALIZE} -vert -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
 	${FINALIZE} -vert -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
@@ -246,7 +251,7 @@ final:
 FINALIZE-MT=perl ../Scripts/parlamint2distro.pl -version ${VERSION} -anahandle ${HANDLE-MT} -schema ${PARLAMINT}/Schema -docs ${HERE}/Sources-Distro
 
 # Targets
-mt-nohup:
+mt-nohup1:
 	nice nohup time make mt-all-final > Logs/ParlaMint-en.log &
 mt-nohup2:
 	nice nohup time make mt-all-final > Logs/ParlaMint-en.2.log &
@@ -300,7 +305,7 @@ mt-make-verts:
 
 # Join verts only
 mt-verts:
-	#perl ../Scripts/join-all-verts.pl     -codes '${CORPORA}' -in 'Distro' -out Verts/ParlaMint-XX.${VERSION}.vert
+	perl ../Scripts/join-all-verts.pl     -codes '${CORPORA}' -in 'Distro' -out Verts/ParlaMint-XX.${VERSION}.vert
 	perl ../Scripts/join-all-verts.pl -en -codes '${CORPORA}' -in 'Distro' -out Verts/ParlaMint-XX-en.${VERSION}.vert
 
 # Sanity check for alignment
