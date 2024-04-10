@@ -555,7 +555,7 @@
     <xsl:choose>
       <xsl:when test="not($extend/@*[name() = $attr])"/>
       <!-- extend/@  >=  @ -->
-      <xsl:when test="xs:date(et:pad-date($extend/@*[name() = $attr]))  >= xs:date(et:pad-date(.)) ">
+      <xsl:when test="xs:date(et:norm-date($extend/@*[name() = $attr]))  >= xs:date(et:norm-date(.)) ">
         <xsl:choose>
           <xsl:when test="$attr = 'from'"><xsl:copy/></xsl:when>
           <xsl:otherwise><xsl:apply-templates select="$extend/@*[name() = $attr]" mode="root"/></xsl:otherwise>
