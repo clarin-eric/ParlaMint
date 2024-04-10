@@ -112,18 +112,21 @@
         </xsl:for-each>
       </xsl:variable>
       <xsl:value-of select="replace(normalize-space($M), '&#32;', $multi-separator)"/>
-    </xsl:variable>    
+    </xsl:variable>
+    <!-- Affiliations that are valid for insertion into the parliamentaryGroup and politicalParty columns -->
+    <xsl:variable name="affiliations"
+                  select="tei:affiliation[@role='member' or @role='head' or @role='deputyHead' or @role='representative']"/>
     <xsl:variable name="ParGroups">
       <xsl:call-template name="affiliation-orgs">
-        <xsl:with-param name="affiliations" select="tei:affiliation[@role='member']"/>
-        <xsl:with-param name="role">parliamentaryGroup</xsl:with-param>
+        <xsl:with-param name="affiliations" select="$affiliations"/>
+        <xsl:with-param name="orgRole">parliamentaryGroup</xsl:with-param>
         <xsl:with-param name="lang" select="$lang"/>
       </xsl:call-template>
-    </xsl:variable>    
+    </xsl:variable>
     <xsl:variable name="PolParties">
       <xsl:call-template name="affiliation-orgs">
-        <xsl:with-param name="affiliations" select="tei:affiliation[@role='member']"/>
-        <xsl:with-param name="role">politicalParty</xsl:with-param>
+        <xsl:with-param name="affiliations" select="$affiliations"/>
+        <xsl:with-param name="orgRole">politicalParty</xsl:with-param>
         <xsl:with-param name="lang" select="$lang"/>
       </xsl:call-template>
     </xsl:variable>    
@@ -222,11 +225,11 @@
   
   <xsl:template name="affiliation-orgs">
     <xsl:param name="affiliations"/>
-    <xsl:param name="role"/>
+    <xsl:param name="orgRole"/>
     <xsl:param name="lang"/>
     <xsl:variable name="orgNames">
       <xsl:for-each select="$affiliations/self::tei:affiliation">
-        <xsl:variable name="org" select="key('idr', @ref)[@role=$role]"/>
+        <xsl:variable name="org" select="key('idr', @ref)[@role=$orgRole]"/>
         <xsl:if test="$org[self::tei:org]">
           <xsl:variable name="name-abb">
             <xsl:call-template name="orgName">
@@ -235,25 +238,8 @@
               <xsl:with-param name="lang" select="$lang"/>
             </xsl:call-template>
           </xsl:variable>
-          <xsl:variable name="name-full">
-            <xsl:call-template name="orgName">
-              <xsl:with-param name="org" select="$org"/>
-              <xsl:with-param name="full">yes</xsl:with-param>
-              <xsl:with-param name="lang" select="$lang"/>
-            </xsl:call-template>
-          </xsl:variable>
-          <xsl:choose>
-            <xsl:when test="normalize-space($name-abb)">
-              <xsl:value-of select="$name-abb"/>
-            </xsl:when>
-            <xsl:when test="normalize-space($name-full)">
-              <xsl:value-of select="$name-full"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="@xml:id"/>
-            </xsl:otherwise>
-          </xsl:choose>
-          <xsl:value-of select="concat('[', et:date2interval(.), ']')"/>
+          <xsl:value-of select="concat(et:tsv-value($name-abb), '#', $org/@xml:id, 
+                                '[', et:date2interval(.), ']')"/>
           <xsl:text>@@@</xsl:text>
         </xsl:if>
       </xsl:for-each>
