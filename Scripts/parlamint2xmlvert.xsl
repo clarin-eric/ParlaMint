@@ -71,7 +71,7 @@
               <!-- Topic names are stored in DK "domains" taxonomy -->
               <xsl:if test="$topic/ancestor::tei:taxonomy/contains(@xml:id, 'taxonomy-domains')">
                 <xsl:value-of select="et:l10n($corpus-language, $topic/tei:catDesc/tei:term)"/>
-                <xsl:value-of select="$topic-separator"/>
+                <xsl:value-of select="$multi-separator"/>
               </xsl:if>
             </xsl:for-each>
           </xsl:variable>
@@ -91,7 +91,7 @@
               <xsl:sort select="."/>
               <!-- Localisation of the term in category description -->
               <xsl:value-of select="et:l10n($corpus-language, key('idr', ., $rootHeader)/tei:catDesc/tei:term)"/>
-              <xsl:value-of select="$topic-separator"/>
+              <xsl:value-of select="$multi-separator"/>
             </xsl:for-each>
           </xsl:variable>
           <xsl:value-of select="et:tsv-value(replace($topics, '.$', ''))"/>
