@@ -17,9 +17,23 @@ translated to English, and is available from the CLARIN.SI repository:
 - [ParlaMint.ana v4.0](http://hdl.handle.net/11356/1860): linguistically annotated variant of the ParlaMint corpora in original languages
 - [ParlaMint v4.0](http://hdl.handle.net/11356/1859): "plain text", i.e. linguistically unannotated variant of the ParlaMint corpora in original languages
 
-The most comprehensive publication on ParlaMint corpora describes version 2.1:
+Publications connected to ParlaMint are available at the
+[ParlaMint project page](https://www.clarin.eu/parlamint#publications-and%C2%A0presentations).
 
-Tomaž Erjavec, Maciej Ogrodniczuk, Petya Osenova, Nikola Ljubešić, Kiril Simov, Andrej Pančur,
+The two most comprehensive publication on ParlaMint corpora a preprint on version 4.1 (to be released soon)
+and the LREV publication describing  version 2.1:
+
+- Tomaž Erjavec, Matyáš Kopp, Nikola Ljubešić, Taja Kuzman, Paul Rayson, Petya Osenova, Maciej
+  Ogrodniczuk, Çağrı Çöltekin, Danijel Koržinek, Katja Meden, Jure Skubic, Peter Rupnik, Tommaso
+  Agnoloni, José Aires, Starkaður Barkarson, Roberto Bartolini, Núria Bel, Calzada María Pérez,
+  Roberts Darģis, Sascha Diwersy, Maria Gavriilidou, van Ruben Heusden, Mikel Iruskieta, Neeme
+  Kahusk, Anna Kryvenko, Noémi Ligeti-Nagy, Carmen Magariños, Martin Mölder, Costanza
+  Navarretta, Kiril Simov, Lars Magne Tungland, Jouni Tuominen, John Vidler, Adina Ioana Vladu,
+  Tanja Wissik, Väinö Yrjänäinen, Darja Fišer.
+  *ParlaMint II: Advancing Comparable Parliamentary Corpora Across Europe}}*
+  [10.21203/rs.3.rs-4176128/v1](https://doi.org/10.21203/rs.3.rs-4176128/v1),
+  (2024).
+- Tomaž Erjavec, Maciej Ogrodniczuk, Petya Osenova, Nikola Ljubešić, Kiril Simov, Andrej Pančur,
 Michał Rudolf, Matyáš Kopp, Starkaður Barkarson, Steinþór Steingrímsson, Çağrı Çöltekin, Jesse
 de Does, Katrien Depuydt, Tommaso Agnoloni, Giulia Venturi, María Calzada Pérez, Luciana D. de
 Macedo, Costanza Navarretta, Giancarlo Luxardo, Matthew Coole, Paul Rayson, Vaidas Morkevičius,
@@ -28,8 +42,6 @@ The ParlaMint corpora of parliamentary proceedings.
 *Language Resources & Evaluation* 57:415–448 (2023).
 [10.1007/s10579-021-09574-0](https://doi.org/10.1007/s10579-021-09574-0).
    
-Other publications are available at the
-[ParlaMint project page](https://www.clarin.eu/parlamint#publications-and%C2%A0presentations).
 
 ****
 
