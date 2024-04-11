@@ -21,12 +21,9 @@
   <!-- Filename of corpus root containing the corpus-wide metadata -->
   <xsl:param name="meta"/>
 
-  <!-- Separator for multi-valued (parliamentary) "body" attribute; must have only one char --> 
-  <xsl:param name="body-separator">|</xsl:param>
-  
-  <!-- Separator for multi-valued semantic attributes; must have only one char --> 
-  <xsl:param name="sem-separator">|</xsl:param>
-  
+  <!-- Separator for multi-valued attributes in vertical and TSV files; must have only one char! --> 
+  <xsl:param name="multi-separator">|</xsl:param>
+
   <!-- Output label for MPs and non-MPs (in vertical and metadata output) --> 
   <xsl:param name="mp-label">MP</xsl:param>
   <xsl:param name="nonmp-label">notMP</xsl:param>
@@ -82,7 +79,7 @@
         <xsl:variable name="joined-subtitles">
           <xsl:variable name="j-s">
             <xsl:for-each select="$subtitles/self::tei:*">
-              <xsl:value-of select="concat(., $body-separator)"/>
+              <xsl:value-of select="concat(., $multi-separator)"/>
             </xsl:for-each>
           </xsl:variable>
           <xsl:value-of select="replace($j-s, '.$', '')"/>
@@ -274,11 +271,11 @@
                           $body-en = 'Upper house' or 
                           $body-en = 'Lower house' or 
                           $body-en = 'Committee'">
-              <xsl:if test="contains($body, $body-separator)">
-                <xsl:message select="concat('ERROR: ', $body, ' should not contain ', $body-separator)"/>
+              <xsl:if test="contains($body, $multi-separator)">
+                <xsl:message select="concat('ERROR: ', $body, ' should not contain ', $multi-separator)"/>
               </xsl:if>
               <xsl:value-of select="$body"/>
-              <xsl:value-of select="$body-separator"/>
+              <xsl:value-of select="$multi-separator"/>
             </xsl:if>
           </xsl:if>
         </xsl:for-each>
@@ -433,8 +430,13 @@
   <!-- Output appropriate label if the speaker is (not) an MP when speaking -->
   <xsl:function name="et:speaker-mp" as="xs:string">
     <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:value-of select="et:speaker-mp($speaker,$at-date)"/>
+  </xsl:function>
+  <xsl:function name="et:speaker-mp" as="xs:string">
+    <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:param name="when" as="xs:string"/>
     <xsl:variable name="mp">
-      <xsl:variable name="refs" select="et:speaker-affiliations-refs($speaker)"/>
+      <xsl:variable name="refs" select="et:speaker-affiliations-refs($speaker,$when)"/>
       <xsl:for-each select="distinct-values(tokenize($refs, ' '))">
         <xsl:if test="key('idr', ., $rootHeader)/@role='parliament'">parliament</xsl:if>
       </xsl:for-each>
@@ -452,9 +454,14 @@
   <!-- Output appropriate label if the speaker is (not) a Minister when speaking -->
   <xsl:function name="et:speaker-minister" as="xs:string">
     <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:value-of select="et:speaker-minister($speaker,$at-date)"/>
+  </xsl:function>
+  <xsl:function name="et:speaker-minister" as="xs:string">
+    <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:param name="when" as="xs:string"/>
     <xsl:choose>
       <xsl:when test="$speaker/tei:affiliation[@role = 'minister']
-                      [et:between-dates($at-date, @from, @to)]">
+                      [et:between-dates($when, @from, @to)]">
         <xsl:value-of select="$minister-label"/>
       </xsl:when>
       <xsl:otherwise>
@@ -466,6 +473,11 @@
   <!-- Output coalition/opposition of the speaker's party when speaking -->
   <xsl:function name="et:party-status" as="xs:string">
     <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:value-of select="et:party-status($speaker,$at-date)"/>
+  </xsl:function>
+  <xsl:function name="et:party-status" as="xs:string">
+    <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:param name="when" as="xs:string"/>
     <xsl:variable name="relations" select="$rootHeader//tei:relation
                                            [@name = 'coalition' or @name = 'opposition']"/>
     <xsl:choose>
@@ -482,7 +494,7 @@
         <!-- Relation in the correct time-frame, should be only 1 -->
         <xsl:variable name="relation">
           <xsl:for-each select="$relations/self::tei:relation">
-            <xsl:if test="et:between-dates($at-date, @from, @to)">
+            <xsl:if test="et:between-dates($when, @from, @to)">
               <xsl:copy-of select="."/>
             </xsl:if>
           </xsl:for-each>
@@ -494,7 +506,7 @@
         <xsl:variable name="in-relations">
           <!-- Collect all affiliation references where the speaker is a member and are in
                the correct time-frame for the speech -->
-          <xsl:variable name="org-refs" select="et:speaker-affiliations-refs($speaker)"/>
+          <xsl:variable name="org-refs" select="et:speaker-affiliations-refs($speaker,$when)"/>
           <xsl:for-each select="$relation/tei:relation[@name = 'coalition']/tokenize(@mutual)">
             <xsl:variable name="relation-party" select="."/>
             <xsl:for-each select="tokenize($org-refs, ' ')">
@@ -523,7 +535,7 @@
               <xsl:text>ERROR: multiple party statuses for </xsl:text>
               <xsl:value-of select="$speaker/@xml:id"/>
               <xsl:text> on </xsl:text>
-              <xsl:value-of select="concat($at-date, ': ',
+              <xsl:value-of select="concat($when, ': ',
                                     normalize-space($in-relation))"/>
             </xsl:message>
             <xsl:value-of select="substring-before($in-relation, ' ')"/>
@@ -542,9 +554,14 @@
   <!-- Output left-right orientation of the speaker's party when speaking -->
   <xsl:function name="et:party-orientation" as="xs:string">
     <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:value-of select="et:party-orientation($speaker,$at-date)"/>
+  </xsl:function>
+  <xsl:function name="et:party-orientation" as="xs:string">
+    <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:param name="when" as="xs:string"/>
     <!-- Collect all affiliation references where the speaker is a member and are in 
          the correct time-frame for the speech -->
-    <xsl:variable name="refs" select="et:speaker-affiliations-refs($speaker)"/>
+    <xsl:variable name="refs" select="et:speaker-affiliations-refs($speaker,$when)"/>
     <!-- Orientations of all gathered parliamentary groups -->
     <!-- The speaker should be a member of only one, but in practice sometimes isn't -->
     <xsl:variable name="parliamentaryGroupOrientations">
@@ -609,27 +626,39 @@
   <!-- Output the name of the party (or parties!) the speaker belongs to when speaking -->
   <xsl:function name="et:speaker-party" as="xs:string">
     <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:param name="full" as="xs:string"/>
+    <xsl:value-of select="et:speaker-party($speaker,$full,$at-date)"/>
+  </xsl:function>
+  <xsl:function name="et:speaker-party" as="xs:string">
+    <xsl:param name="speaker" as="element(tei:person)"/>
     <!-- Output full ('yes') or abbreviated ('abb') name of the party -->
     <xsl:param name="full" as="xs:string"/>
+    <xsl:param name="when" as="xs:string"/>
     <!-- Collect all affiliation references where the speaker is a member and are in 
          the correct time-frame for the speech -->
-    <xsl:variable name="refs" select="et:speaker-affiliations-refs($speaker)"/>
+    <xsl:variable name="refs" select="et:speaker-affiliations-refs($speaker,$when)"/>
     <xsl:variable name="parliamentaryGroups">
       <xsl:for-each select="distinct-values(tokenize($refs, ' '))">
         <xsl:variable name="party" select="key('idr', ., $rootHeader)[@role='parliamentaryGroup']"/>
-        <xsl:call-template name="party-name">
-          <xsl:with-param name="party" select="$party"/>
-          <xsl:with-param name="full" select="$full"/>
-        </xsl:call-template>
+        <xsl:if test="$party/self::tei:org">
+          <xsl:call-template name="orgName">
+            <xsl:with-param name="org" select="$party"/>
+            <xsl:with-param name="full" select="$full"/>
+          </xsl:call-template>
+          <xsl:text>;</xsl:text>
+        </xsl:if>
       </xsl:for-each>
     </xsl:variable>
     <xsl:variable name="politicalParties">
       <xsl:for-each select="distinct-values(tokenize($refs, ' '))">
         <xsl:variable name="party" select="key('idr', ., $rootHeader)[@role='politicalParty']"/>
-        <xsl:call-template name="party-name">
-          <xsl:with-param name="party" select="$party"/>
-          <xsl:with-param name="full" select="$full"/>
-        </xsl:call-template>
+        <xsl:if test="$party/self::tei:org">
+          <xsl:call-template name="orgName">
+            <xsl:with-param name="org" select="$party"/>
+            <xsl:with-param name="full" select="$full"/>
+          </xsl:call-template>
+          <xsl:text>;</xsl:text>
+        </xsl:if>
       </xsl:for-each>
     </xsl:variable>
     <xsl:choose>
@@ -648,12 +677,17 @@
   <!-- Output IDREFS to the speaker affiliations in the correct time-frame -->
   <xsl:function name="et:speaker-affiliations-refs" as="xs:string">
     <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:value-of select="et:speaker-affiliations-refs($speaker,$at-date)"/>
+  </xsl:function>
+  <xsl:function name="et:speaker-affiliations-refs" as="xs:string">
+    <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:param name="when" as="xs:string"/>
     <xsl:variable name="refs">
       <xsl:for-each select="$speaker/tei:affiliation
                             [@role='member' or @role='candidateMP' or
                             @role='president' or @role='vicePresident' or
                             @role='secretary' or @role='representative']">
-        <xsl:if test="et:between-dates($at-date, @from, @to)">
+        <xsl:if test="et:between-dates($when, @from, @to)">
           <xsl:value-of select="@ref"/>
           <xsl:text>&#32;</xsl:text>
         </xsl:if>
@@ -670,22 +704,26 @@
     <xsl:value-of select="normalize-space($refs)"/>
   </xsl:function>
   
-  <!-- Return the name of the party -->
+  <!-- Return the name(s) of an organisation in $out-lang -->
   <!-- if $party is empty, so it the result (it is not an error if this happens!) -->
-  <xsl:template name="party-name">
-    <xsl:param name="party"/>
+  <xsl:template name="orgName">
+    <xsl:param name="org"/>
     <xsl:param name="full"/>
-    <xsl:variable name="orgName" select="et:l10n($corpus-language, $party/tei:orgName[@full=$full])"/>
+    <xsl:param name="lang" select="$corpus-language"/>
+    <xsl:variable name="orgName" select="et:l10n($lang, $org/tei:orgName[@full=$full])"/>
     <xsl:choose>
+      <xsl:when test="$orgName[2]">
+        <xsl:message select="concat('WARN: organisation ', $org/@xml:id, ' with two orgName/@full = ', $full, 
+                             ': outputting only the last one!')"/>
+        <xsl:value-of select="$orgName[last()]"/>
+      </xsl:when>
       <xsl:when test="normalize-space($orgName)">
         <xsl:value-of select="$orgName"/>
-        <xsl:text>;</xsl:text>
       </xsl:when>
-      <xsl:when test="normalize-space($party)">
-        <xsl:message select="concat('WARN: party ', $party/@xml:id, ' without orgName/@full = ', $full)"/>
+      <xsl:when test="normalize-space($org)">
+        <xsl:message select="concat('WARN: organisation ', $org/@xml:id, ' without orgName/@full = ', $full)"/>
         <!-- As a fall-back, return ID (i.e. the part of the ID after period for e.g. 'politicalParty.VCA') -->
-        <xsl:value-of select="replace($party/@xml:id, '.+?\.' , '')"/>
-        <xsl:text>;</xsl:text>
+        <xsl:value-of select="replace($org/@xml:id, '.+?\.' , '')"/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:text></xsl:text>
@@ -696,15 +734,16 @@
   <!-- Return the political orientation of the party, either from Wikipedia, or, if missing, encoder -->
   <xsl:template name="party-orientation">
     <xsl:param name="party"/>
+    <xsl:param name="lang" select="$corpus-language"/>
     <xsl:variable name="orientation" select="$party/tei:state[@type = 'politicalOrientation']"/>
     <xsl:choose>
       <xsl:when test="$orientation/tei:state[@type = 'Wikipedia']">
-        <xsl:value-of select="et:l10n($corpus-language, 
+        <xsl:value-of select="et:l10n($lang, 
                               key('idr', $orientation/tei:state[@type = 'Wikipedia']/@ana, $rootHeader)
                               /tei:catDesc)/tei:term"/>
       </xsl:when>
       <xsl:when test="$orientation/tei:state[@type = 'encoder']">
-        <xsl:value-of select="et:l10n($corpus-language, 
+        <xsl:value-of select="et:l10n($lang, 
                               key('idr', $orientation/tei:state[@type = 'encoder']/@ana, $rootHeader)
                               /tei:catDesc)/tei:term"/>
       </xsl:when>
@@ -805,16 +844,16 @@
         <xsl:value-of select="true()"/>
       </xsl:when>
       <xsl:when test="normalize-space($from) and normalize-space($to) and
-                      xs:date(et:pad-date($date)) &gt;= xs:date(et:pad-date($from)) and
-                      xs:date(et:pad-date($date)) &lt;= xs:date(et:pad-date($to))">
+                      xs:date(et:norm-date($date)) &gt;= xs:date(et:norm-date($from)) and
+                      xs:date(et:norm-date($date)) &lt;= xs:date(et:norm-date($to))">
         <xsl:value-of select="true()"/>
       </xsl:when>
       <xsl:when test="not(normalize-space($from)) and normalize-space($to) and
-                      xs:date(et:pad-date($date)) &lt;= xs:date(et:pad-date($to))" >
+                      xs:date(et:norm-date($date)) &lt;= xs:date(et:norm-date($to))" >
         <xsl:value-of select="true()"/>
       </xsl:when>
       <xsl:when test="normalize-space($from) and not(normalize-space($to)) and 
-                      xs:date(et:pad-date($date)) &gt;= xs:date(et:pad-date($from))" >
+                      xs:date(et:norm-date($date)) &gt;= xs:date(et:norm-date($from))" >
         <xsl:value-of select="true()"/>
       </xsl:when>
       <xsl:otherwise>
@@ -823,11 +862,13 @@
     </xsl:choose>
   </xsl:function>
   
-  <!-- Fix too long or too short dates 
+  <!-- Normalize too long or too short dates 
        a la "2013-10-26T14:00:00" or "2018" to xs:date e.g. 2018-01-01 -->
-  <xsl:function name="et:pad-date">
+  <!-- If date is empty, returns emptry string -->
+  <xsl:function name="et:norm-date">
     <xsl:param name="date"/>
     <xsl:choose>
+      <xsl:when test="not(normalize-space($date))"/>
       <xsl:when test="matches($date, '^\d\d\d\d-\d\d-\d\dT.+$')">
         <xsl:value-of select="substring-before($date, 'T')"/>
       </xsl:when>
@@ -853,6 +894,27 @@
           <xsl:text>ERROR: bad date </xsl:text>
           <xsl:value-of select="$date"/>
         </xsl:message>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+  
+  <!-- Taking an element with temporal information, output the interval that it covers, e.g.
+       <affiliation when="1990-11-05"...>                  -> 1990-11-05/1990-11-05
+       <affiliation from="1990-11-05" to="1997-10-30" ...> -> 1990-11-05/1997-10-30 
+       <affiliation from="1990-11-05" ...>                 -> 1990-11-05/-
+       <affiliation ...>                                   -> -/-
+  -->
+  <!-- If from or to are empty, return "-" for the value -->
+  <xsl:function name="et:date2interval">
+    <xsl:param name="element"/>
+    <xsl:choose>
+      <xsl:when test="$element/@when">
+        <xsl:value-of select="concat(et:norm-date($element/@when), '/', et:norm-date($element/@to))"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="concat(
+                              et:tsv-value(et:norm-date($element/@from)), '/',
+                              et:tsv-value(et:norm-date($element/@to)))"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
@@ -957,7 +1019,7 @@
           <xsl:for-each select="tokenize($element/@ana, ' ')">
             <!-- Here we a) assume that the catDesc is only in English and b) that the extended pointer resolves to a local reference -->
             <xsl:value-of select="key('id', substring-after(., ':'), $rootHeader)/tei:catDesc/tei:term"/>
-            <xsl:value-of select="$sem-separator"/>
+            <xsl:value-of select="$multi-separator"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="replace($terms, '.$', '')"/>
@@ -968,7 +1030,7 @@
           <xsl:for-each select="tokenize($element/@ana, ' ')">
             <!-- Here we a) assume that the catDesc is only in English and b) that the extended pointer resolves to a local reference -->
             <xsl:value-of select="key('id', substring-after(., ':'), $rootHeader)/normalize-space(tei:catDesc)"/>
-            <xsl:value-of select="$sem-separator"/>
+            <xsl:value-of select="$multi-separator"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="replace($glosses, '.$', '')"/>
@@ -999,16 +1061,16 @@
        The asssumption is that all elements in $elements have @xml:lang, i.e. have been processed with XInclude mode
   -->
   <xsl:function name="et:l10n">
-    <xsl:param name="corpus-language"/>
+    <xsl:param name="lang"/>
     <xsl:param name="elements"/>
     <!-- Should never happen, as all meta elements should be marked for @xml:lang -->
     <xsl:if test="$elements[not(@xml:lang)]">
       <xsl:message terminate="yes" select="concat('FATAL ERROR: no @xml:lang at least in ', 
                                            $elements[not(@xml:lang)][1])"/>
     </xsl:if>
-    <!--xsl:message select="concat('DEBUG: out-lang = ', $out-lang, ', corpus language = ', $corpus-language)"/-->
+    <!--xsl:message select="concat('DEBUG: out-lang = ', $out-lang, ', corpus language = ', $lang)"/-->
     <!-- Original language -->
-    <xsl:variable name="element-xx" select="$elements[@xml:lang = $corpus-language]"/>
+    <xsl:variable name="element-xx" select="$elements[@xml:lang = $lang]"/>
     <!-- Latin spelling -->
     <xsl:variable name="element-lt" select="$elements[ends-with(@xml:lang, '-Latn')]"/>
     <!-- English -->
@@ -1016,7 +1078,7 @@
     <!-- For (the only example in ParlaMint) the French spelling of a name in GR. -->
     <!-- Note that corpus-langauge can be "en" for MTed corpora, so we need to choose only one result -->
     <xsl:variable name="element-yy" select="$elements[not(@xml:lang = 'en' or
-                                            @xml:lang = $corpus-language or ends-with(@xml:lang, '-Latn'))][1]"/>
+                                            @xml:lang = $lang or ends-with(@xml:lang, '-Latn'))][1]"/>
     <!-- If nothing else serves we take first element as fall-back -->
     <xsl:variable name="element-fb" select="$elements[1]"/>
     <xsl:choose>
@@ -1075,4 +1137,15 @@
     </xsl:choose>
   </xsl:function>
   
+  <!-- Return value of $input, if it exists, otherwise '-' -->
+  <xsl:function name="et:tsv-value">
+    <xsl:param name="input"/>
+    <xsl:choose>
+      <xsl:when test="normalize-space($input)">
+        <xsl:value-of select="normalize-space($input)"/>
+      </xsl:when>
+      <xsl:otherwise>-</xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+
 </xsl:stylesheet>

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="nl" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x" ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="nl">Belgisch parlementair corpus ParlaMint-BE, plenaire zitting van 27-04-2017 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Belgian parliamentary corpus ParlaMint-BE, plenary session of 27-04-2017 [ParlaMint SAMPLE]</title>
+            <meeting corresp="#be_federal_parliament" ana="#parla.lower #parla.meeting.regular" n="ip165">Plenaire zitting 165 van 27-04-2017</meeting>
+            <meeting ana="#parla.lower #parla.term #period_54" corresp="#be_federal_parliament" n="54">Zittingperiode 54</meeting>
+            <respStmt>
+               <persName>Henk van der Pol</persName>
+               <persName>Griet Depoorter</persName>
+               <resp xml:lang="nl">Datavergaring en conversie naar TEI</resp>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="nl">De Europese Commissie</orgName>
+               <orgName xml:lang="en">The European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="nl">Taalunie</orgName>
+               <orgName xml:lang="en">Dutch Language Union</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="173" xml:lang="en">173 speeches</measure>
+            <measure unit="speeches" quantity="173" xml:lang="nl">173 spreekbeurten</measure>
+            <measure unit="words" quantity="39169" xml:lang="en">39,169 words</measure>
+            <measure unit="words" quantity="39169" xml:lang="nl">39,169 woorden</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
+               <orgName xml:lang="en">Dutch Language Institute</orgName>
+               <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="nl">Deze bestanden zijn beschikbaar volgens de <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2024-03-03">2024-03-03</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="fr">Plenumvergadering van Donderdag 27 april 2017 Namiddag</title>
+               <title type="main" xml:lang="nl">Séance plénière du Jeudi 27 avril 2017 Après-midi</title>
+               <idno type="URI" subtype="parliament">https://www.dekamer.be/doc/PCRI/html/54/ip165x.html</idno>
+               <date when="2017-04-27">2017-04-27</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="nl"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is een project dat tot doel heeft (1) een meertalige reeks vergelijkbare corpora van parlementaire handelingen te creëren die uniform zijn gecodeerd volgens de <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN aanbevelingen</ref> en die zowel de COVID-19 pandemie vanaf november 2019 als de eerdere periode vanaf 2015 bestrijkt om als referentiecorpus te dienen; (2) de corpora taalkundig te verrijken met syntactische structuren volgens de Universal Dependenciesrichtlijnen, en annotatie van named entities toe te voegen; (3) de corpora beschikbaar te maken via concordancers en Parlameter; en (4) use cases in politieke wetenschappen en digitale geesteswetenschappen te bouwen op basis van de corpusgegevens.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="17"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="11"/>
+               <tagUsage gi="kinesic" occurs="2"/>
+               <tagUsage gi="note" occurs="525"/>
+               <tagUsage gi="seg" occurs="1208"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="173"/>
+               <tagUsage gi="vocal" occurs="4"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">Brussel</name>
+               <name key="BE" type="country">België</name>
+               <date ana="#parla.sitting" when="2017-04-27">2017-04-27</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-03-03">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-02-15">
+            <name>Henk van der Pol</name>: initial version.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note1">De vergadering wordt geopend om 14.18 uur en voorgezeten door Siegfried Bracke.</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note2">La séance est ouverte à 14.18 heures et présidée par M. Siegfried Bracke.</note>
+            <note type="speaker" xml:lang="nl" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note3">De voorzitter:</note>
+            <u ana="#chair" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u1" who="#BrackeSiegfried" xml:lang="nl">
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1" xml:lang="nl">De vergadering is geopend.</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg2" xml:lang="fr">La séance est ouverte.</seg>
+            </u>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note4">Een reeks mededelingen en besluiten moeten ter kennis gebracht worden van de Kamer. Zij worden op de website van de Kamer en in de bijlage bij het integraal verslag van deze vergadering opgenomen.</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note5">Une série de communications et de décisions doivent être portées à la connaissance de la Chambre. Elles seront reprises sur le site web de la Chambre et insérées dans l'annexe du compte rendu intégral de cette séance.</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note6">Aanwezig bij de opening van de vergadering zijn de ministers van de federale regering:</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note7">Ministres du gouvernement fédéral présents lors de l’ouverture de la séance:</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note8">Charles Michel, Kris Peeters.</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note9">Berichten van verhindering</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note10">Excusés</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note11">Vanessa Matz, Fatma Pehlivan, Sébastian Pirlot, wegens gezondheidsredenen /</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note12">pour raisons de santé;</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note13">Georges Gilkinet (stemmingen/votes), wegens ambtsplicht /</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note14">pour devoirs de mandat;</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note15">Dirk Van der Maelen, Karolien Grosemans, met zending buitenslands /</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note16">en mission à l'étranger;</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note17">Stéphanie Thoron, zwangerschapsverlof /</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note18">congé de maternité;</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note19">Véronique Caprasse, familieaangelegenheden /</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note20">raisons familiales.</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note21">Federale regering /</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note22">gouvernement fédéral:</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note23">Alexander De Croo, Didier Reyners, met zending buitenslands /</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note24">en mission à l’étranger;</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note25">Pieter De Crem, economische zending /</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note26">mission économique.</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note27">Vragen</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note28">Questions</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note29">01 Samengevoegde vragen van</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note30">- de heer Wouter De Vriendt aan de eerste minister over "de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw" (nr. P1992)</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note31">- mevrouw Barbara Pas aan de eerste minister over "de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw" (nr. P1993)</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note32">- mevrouw Gwenaëlle Grovonius aan de eerste minister over "de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw" (nr. P1994)</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note33">- de heer Olivier Maingain aan de eerste minister over "de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw" (nr. P1995)</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note34">- de heer Jean-Jacques Flahaux aan de eerste minister over "de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw" (nr. P1996)</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note35">- de heer Raoul Hedebouw aan de eerste minister over "de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw" (nr. P1997)</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note36">- mevrouw Meryame Kitir aan de eerste minister over "de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw" (nr. P1998)</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note37">- mevrouw Rita Bellens aan de eerste minister over "de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw" (nr. P1999)</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note38">- mevrouw Els Van Hoof aan de eerste minister over "de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw" (nr. P2000)</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note39">- mevrouw Annemie Turtelboom aan de eerste minister over "de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw" (nr. P2001)</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note40">- mevrouw Catherine Fonck aan de eerste minister over "de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw" (nr. P2002)</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note41">01 Questions jointes de</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note42">- M. Wouter De Vriendt au premier ministre sur "l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies" (n° P1992)</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note43">- Mme Barbara Pas au premier ministre sur "l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies" (n° P1993)</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note44">- Mme Gwenaëlle Grovonius au premier ministre sur "l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies" (n° P1994)</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note45">- M. Olivier Maingain au premier ministre sur "l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies" (n° P1995)</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note46">- M. Jean-Jacques Flahaux au premier ministre sur "l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies" (n° P1996)</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note47">- M. Raoul Hedebouw au premier ministre sur "l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies" (n° P1997)</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note48">- Mme Meryame Kitir au premier ministre sur "l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies" (n° P1998)</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note49">- Mme Rita Bellens au premier ministre sur "l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies" (n° P1999)</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note50">- Mme Els Van Hoof au premier ministre sur "l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies" (n° P2000)</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note51">- Mme Annemie Turtelboom au premier ministre sur "l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies" (n° P2001)</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note52">- Mme Catherine Fonck au premier ministre sur "l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies" (n° P2002)</note>
+            <note type="speaker" xml:lang="nl" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note53">01.01 Wouter De Vriendt (Ecolo-Groen):</note>
+            <u ana="#regular" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u2" who="#DeVriendtWouter" xml:lang="nl">
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg3" xml:lang="nl">Mijnheer de eerste minister, ik heb gisteren gevraagd wat het stemgedrag was van de Belgische regering over de kandidatuur van Saudi-Arabië voor de VN-vrouwencommissie. Dat is het orgaan dat wereldwijd de vrouwenrechten verdedigt. Didier Reynders en Alexander De Croo hebben het zitje van Saudi-Arabië in die commissie verdedigd.</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg4" xml:lang="nl">In Saudi-Arabië worden vrouwen echter systematisch gediscrimineerd. Zonder toestemming van hun mannelijke voogd mogen zij niet studeren, reizen, werken of trouwen. Vrouwen mogen niet autorijden en als zij verkracht worden, dreigen zij te worden gestenigd in plaats van beschermd.</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg5" xml:lang="nl">Alexander De Croo en Didier Reynders verdedigen het onverdedigbare.</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg6" xml:lang="nl">Deze VN-commissie moet het goede voorbeeld geven en nu zal zij dat niet meer kunnen. Het is een slag in het gezicht van iedereen die de vrouwenrechten verdedigt, het is een slag in het gezicht van mensen die de vrouwenrechten verdedigen in eigen land, wereldwijd en zeker in Saudi-Arabië zelf.</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg7" xml:lang="nl">Hier past enkel schaamte, mijnheer de eerste minister, schaamte en diepe teleurstelling over de houding van ons land.</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg8" xml:lang="nl">Collega’s van Open Vld, is dat dan onze westerse superioriteit? Vrouwenrechten en principes overboord gooien voor economische belangen en oliedollars?</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg9" xml:lang="nl">Ik wil dus vragen, mijnheer de eerste minister, of u het standpunt van uw vice-eersteministers Didier Reynders en Alexander De Croo steunt en of u dus ook het zitje van Saudi-Arabië in de vrouwencommissie van de VN verdedigt?</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u ana="#chair" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u172" who="#BrackeSiegfried" xml:lang="nl">
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1175" xml:lang="nl">Vraagt iemand het woord voor een stemverklaring?</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1176" xml:lang="fr">Quelqu'un demande-t-il la parole pour une déclaration avant le vote?</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1177" xml:lang="nl">Begin van de stemming /</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1178" xml:lang="fr">Début du vote.</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1179" xml:lang="nl">Heeft iedereen gestemd en zijn stem nagekeken? /</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1180" xml:lang="fr">Tout le monde a-t-il voté et vérifié son vote?</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1181" xml:lang="nl">Einde van de stemming /</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1182" xml:lang="fr">Fin du vote.</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1183" xml:lang="nl">Uitslag van de stemming /</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1184" xml:lang="fr">Résultat du vote.</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1185" xml:lang="nl">Ja</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1186" xml:lang="fr">129</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1187" xml:lang="fr">Oui</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1188" xml:lang="nl">Nee</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1189" xml:lang="fr">0</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1190" xml:lang="fr">Non</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1191" xml:lang="nl">Onthoudingen</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1192" xml:lang="nl">0</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1193" xml:lang="nl">Abstentions</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1194" xml:lang="nl">Totaal</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1195" xml:lang="nl">129</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1196" xml:lang="nl">Total</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1197" xml:lang="nl">Bijgevolg neemt de Kamer het voorstel van resolutie aan. Het zal ter kennis van de regering worden gebracht.</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1198" xml:lang="fr">(2421/5)</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1199" xml:lang="fr">En conséquence, la Chambre adopte la proposition de résolution. Il en sera donné connaissance au gouvernement.</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1200" xml:lang="nl">(2421/5)</seg>
+            </u>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note338">28 Goedkeuring van de agenda</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note339">28 Adoption de l’ordre du jour</note>
+            <u ana="#chair" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u173" who="#BrackeSiegfried" xml:lang="nl">
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1201" xml:lang="nl">Wij moeten overgaan tot de goedkeuring van de agenda voor de vergadering van donderdag 4 mei 2017.</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1202" xml:lang="fr">Nous devons procéder à l’approbation de l’ordre du jour de la séance du jeudi 4 mai 2017.</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1203" xml:lang="nl">Ik stel u voor de bespreking van het wetsontwerp houdende de militaire programmering van investeringen voor de periode 2016-2030 (2137/1-6) te verdagen naar de plenaire vergadering van 11 mei 2017.</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1204" xml:lang="fr">Je vous propose de reporter la discussion du projet de loi de programmation militaire des investissements pour la période 2016-2030 (2137/1-6) à la séance plénière du 11 mai 2017.</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1205" xml:lang="nl">Geen bezwaar? <note type="answer" xml:lang="nl" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note340">Nee</note>
+ De gewijzigde agenda is goedgekeurd.</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1206" xml:lang="fr">Pas d’observation? <note type="answer" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note341">Non</note>
+ L’ordre du jour tel que modifié est approuvé.</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1207" xml:lang="nl">De vergadering wordt gesloten. Volgende vergadering donderdag 4 mei 2017 om 14.15 uur.</seg>
+               <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1208" xml:lang="fr">La séance est levée. Prochaine séance le jeudi 4 mai 2017 à 14.15 heures.</seg>
+            </u>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note342">De vergadering wordt gesloten om 19.23 uur.</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note343">La séance est levée à 19.23 heures.</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note344">De bijlage is opgenomen in een aparte brochure met nummer CRIV 54 PLEN 165 bijlage.</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note345">L'annexe est reprise dans une brochure séparée, portant le numéro CRIV 54 PLEN 165 annexe.</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note346">Detail van de naamstemmingen</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note347">Détail des votes nominatifs</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note348">Vote nominatif - Naamstemming: 001</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note349">Oui</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note350">029</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note351">Ja</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note352">Ben Hamou Nawal, Blanchart Philippe, Brotcorne Christian, Crusnière Stéphane, Daerden Frédéric, Dallemagne Georges, de Lamotte Michel, Delannois Paul-Olivier, Delizée Jean-Marc, Delpérée Francis, Demeyer Willy, Devin Laurent, Di Rupo Elio, Dispa Benoît, Fernandez Fernandez Julie, Fonck Catherine, Frédéric André, Kir Emir, Laaouej Ahmed, Lalieux Karine, Lutgen Benoît, Maingain Olivier, Massin Eric, Onkelinx Laurette, Özen Özlem, Poncelet Isabelle, Senesael Daniel, Thiébaut Eric, Winckel Fabienne</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note353">Non</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note354">080</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note355">Nee</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note356">Becq Sonja, Beke Wouter, Bogaert Hendrik, Bracke Siegfried, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, De Coninck Inez, de Coster-Bauchau Sybille, Degroote Koenraad, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Foret Gilles, Friart Benoît, Gabriëls Katja, Gantois Rita, Goffin Philippe, Gustin Luc, Heeren Veerle, Hufkens Renate, Jadin Kattrin, Janssen Werner, Janssens Dirk, Klaps Johan, Lachaert Egbert, Lahaye-Battheu Sabien, Lanjri Nahima, Lijnen Nele, Luykx Peter, Metsu Koen, Miller Richard, Muylle Nathalie, Pas Barbara, Penris Jan, Piedboeuf Benoît, Pivin Philippe, Raskin Wouter, Schepmans Françoise, Scourneau Vincent, Smaers Griet, Somers Ine, Spooren Jan, Terwingen Raf, Turtelboom Annemie, Uyttersprot Goedele, Van Biesen Luk, Van Camp Yoleen, Van Cauter Carina, Van den Bergh Jef, Vandenput Tim, Van der Donckt Wim, Van de Velde Robert, Van Hoof Els, Van Mechelen Dirk, Van Peel Valerie, Van Peteghem Vincent, Van Quickenborne Vincent, Van Rompuy Eric, Van Vaerenbergh Kristien, Vercamer Stefaan, Vercammen Jan, Verherstraeten Servais, Vermeulen Brecht, Vuye Hendrik, Wollants Bert, Wouters Veerle</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note357">Abstentions</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note358">022</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note359">Onthoudingen</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note360">Almaci Meyrem, Bonte Hans, Calvo Kristof, Carcaci Aldo, Cheron Marcel, De Coninck Monica, Dedry Anne, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kitir Meryame, Lambrecht Annick, Nollet Jean-Marc, Temmerman Karin, Top Alain, Vanden Burre Gilles, Van Hecke Stefaan, Van Hees Marco, Vanheste Ann, Vanvelthoven Peter, Willaert Evita</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note361">Vote nominatif - Naamstemming: 002</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note362">Oui</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note363">020</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note364">Ja</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note365">Ben Hamou Nawal, Crusnière Stéphane, Daerden Frédéric, Delannois Paul-Olivier, Delizée Jean-Marc, Demeyer Willy, Devin Laurent, Di Rupo Elio, Fernandez Fernandez Julie, Frédéric André, Kir Emir, Laaouej Ahmed, Lalieux Karine, Maingain Olivier, Massin Eric, Onkelinx Laurette, Özen Özlem, Senesael Daniel, Thiébaut Eric, Winckel Fabienne</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note366">Non</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note367">079</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note368">Nee</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note369">Becq Sonja, Beke Wouter, Bogaert Hendrik, Bracke Siegfried, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, De Coninck Inez, de Coster-Bauchau Sybille, Degroote Koenraad, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Foret Gilles, Friart Benoît, Gabriëls Katja, Gantois Rita, Goffin Philippe, Gustin Luc, Heeren Veerle, Hufkens Renate, Janssen Werner, Janssens Dirk, Klaps Johan, Lachaert Egbert, Lahaye-Battheu Sabien, Lanjri Nahima, Lijnen Nele, Luykx Peter, Metsu Koen, Miller Richard, Muylle Nathalie, Pas Barbara, Penris Jan, Piedboeuf Benoît, Pivin Philippe, Raskin Wouter, Schepmans Françoise, Scourneau Vincent, Smaers Griet, Somers Ine, Spooren Jan, Terwingen Raf, Turtelboom Annemie, Uyttersprot Goedele, Van Biesen Luk, Van Camp Yoleen, Van Cauter Carina, Van den Bergh Jef, Vandenput Tim, Van der Donckt Wim, Van de Velde Robert, Van Hoof Els, Van Mechelen Dirk, Van Peel Valerie, Van Peteghem Vincent, Van Quickenborne Vincent, Van Rompuy Eric, Van Vaerenbergh Kristien, Vercamer Stefaan, Vercammen Jan, Verherstraeten Servais, Vermeulen Brecht, Vuye Hendrik, Wollants Bert, Wouters Veerle</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note370">Abstentions</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note371">030</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note372">Onthoudingen</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note373">Almaci Meyrem, Bonte Hans, Brotcorne Christian, Calvo Kristof, Carcaci Aldo, Cheron Marcel, Dallemagne Georges, De Coninck Monica, Dedry Anne, de Lamotte Michel, Delpérée Francis, Dispa Benoît, Fonck Catherine, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kitir Meryame, Lambrecht Annick, Lutgen Benoît, Nollet Jean-Marc, Poncelet Isabelle, Temmerman Karin, Top Alain, Vanden Burre Gilles, Van Hecke Stefaan, Van Hees Marco, Vanheste Ann, Vanvelthoven Peter, Willaert Evita</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note374">Vote nominatif - Naamstemming: 003</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note375">Oui</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note376">029</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note377">Ja</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note378">Ben Hamou Nawal, Blanchart Philippe, Brotcorne Christian, Crusnière Stéphane, Daerden Frédéric, Dallemagne Georges, de Lamotte Michel, Delannois Paul-Olivier, Delizée Jean-Marc, Delpérée Francis, Demeyer Willy, Devin Laurent, Di Rupo Elio, Dispa Benoît, Fernandez Fernandez Julie, Fonck Catherine, Frédéric André, Kir Emir, Laaouej Ahmed, Lalieux Karine, Lutgen Benoît, Maingain Olivier, Massin Eric, Onkelinx Laurette, Özen Özlem, Poncelet Isabelle, Senesael Daniel, Thiébaut Eric, Winckel Fabienne</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note379">Non</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note380">079</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note381">Nee</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note382">Becq Sonja, Beke Wouter, Bogaert Hendrik, Bracke Siegfried, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, De Coninck Inez, de Coster-Bauchau Sybille, Degroote Koenraad, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Foret Gilles, Friart Benoît, Gabriëls Katja, Gantois Rita, Goffin Philippe, Gustin Luc, Heeren Veerle, Hufkens Renate, Jadin Kattrin, Janssen Werner, Janssens Dirk, Klaps Johan, Lachaert Egbert, Lahaye-Battheu Sabien, Lanjri Nahima, Lijnen Nele, Luykx Peter, Metsu Koen, Miller Richard, Muylle Nathalie, Pas Barbara, Penris Jan, Piedboeuf Benoît, Pivin Philippe, Raskin Wouter, Schepmans Françoise, Scourneau Vincent, Smaers Griet, Somers Ine, Spooren Jan, Terwingen Raf, Turtelboom Annemie, Uyttersprot Goedele, Van Biesen Luk, Van Camp Yoleen, Van den Bergh Jef, Vandenput Tim, Van der Donckt Wim, Van de Velde Robert, Van Hoof Els, Van Mechelen Dirk, Van Peel Valerie, Van Peteghem Vincent, Van Quickenborne Vincent, Van Rompuy Eric, Van Vaerenbergh Kristien, Vercamer Stefaan, Vercammen Jan, Verherstraeten Servais, Vermeulen Brecht, Vuye Hendrik, Wollants Bert, Wouters Veerle</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note383">Abstentions</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note384">022</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note385">Onthoudingen</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note386">Almaci Meyrem, Bonte Hans, Calvo Kristof, Carcaci Aldo, Cheron Marcel, De Coninck Monica, Dedry Anne, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kitir Meryame, Lambrecht Annick, Nollet Jean-Marc, Temmerman Karin, Top Alain, Vanden Burre Gilles, Van Hecke Stefaan, Van Hees Marco, Vanheste Ann, Vanvelthoven Peter, Willaert Evita</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note387">Vote nominatif - Naamstemming: 004</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note388">Oui</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note389">106</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note390">Ja</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note391">Almaci Meyrem, Becq Sonja, Beke Wouter, Bogaert Hendrik, Bonte Hans, Bracke Siegfried, Brotcorne Christian, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Calvo Kristof, Capoen An, Carcaci Aldo, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Cheron Marcel, Clarinval David, Dallemagne Georges, De Coninck Inez, De Coninck Monica, de Coster-Bauchau Sybille, Dedry Anne, Degroote Koenraad, de Lamotte Michel, Delpérée Francis, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Dispa Benoît, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Fonck Catherine, Foret Gilles, Friart Benoît, Gabriëls Katja, Gantois Rita, Geerts David, Gerkens Muriel, Goffin Philippe, Gustin Luc, Heeren Veerle, Hufkens Renate, Jadin Kattrin, Janssen Werner, Janssens Dirk, Jiroflée Karin, Kitir Meryame, Klaps Johan, Lachaert Egbert, Lahaye-Battheu Sabien, Lambrecht Annick, Lanjri Nahima, Lijnen Nele, Lutgen Benoît, Luykx Peter, Metsu Koen, Miller Richard, Muylle Nathalie, Nollet Jean-Marc, Piedboeuf Benoît, Pivin Philippe, Poncelet Isabelle, Raskin Wouter, Schepmans Françoise, Scourneau Vincent, Smaers Griet, Somers Ine, Spooren Jan, Temmerman Karin, Terwingen Raf, Top Alain, Turtelboom Annemie, Uyttersprot Goedele, Van Biesen Luk, Van Camp Yoleen, Van Cauter Carina, Van den Bergh Jef, Vanden Burre Gilles, Vandenput Tim, Van der Donckt Wim, Van de Velde Robert, Van Hecke Stefaan, Vanheste Ann, Van Hoof Els, Van Mechelen Dirk, Van Peel Valerie, Van Peteghem Vincent, Van Quickenborne Vincent, Van Rompuy Eric, Van Vaerenbergh Kristien, Vanvelthoven Peter, Vercamer Stefaan, Vercammen Jan, Verherstraeten Servais, Vermeulen Brecht, Vuye Hendrik, Willaert Evita, Wollants Bert, Wouters Veerle</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note392">Non</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note393">023</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note394">Nee</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note395">Ben Hamou Nawal, Blanchart Philippe, Crusnière Stéphane, Daerden Frédéric, Delannois Paul-Olivier, Delizée Jean-Marc, Demeyer Willy, Devin Laurent, Di Rupo Elio, Fernandez Fernandez Julie, Frédéric André, Hedebouw Raoul, Kir Emir, Laaouej Ahmed, Lalieux Karine, Maingain Olivier, Massin Eric, Onkelinx Laurette, Özen Özlem, Senesael Daniel, Thiébaut Eric, Van Hees Marco, Winckel Fabienne</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note396">Abstentions</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note397">002</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note398">Onthoudingen</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note399">Pas Barbara, Penris Jan</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note400">Vote nominatif - Naamstemming: 005</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note401">Oui</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note402">129</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note403">Ja</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note404">Almaci Meyrem, Becq Sonja, Beke Wouter, Ben Hamou Nawal, Blanchart Philippe, Bogaert Hendrik, Bonte Hans, Bracke Siegfried, Brotcorne Christian, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Calvo Kristof, Carcaci Aldo, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Cheron Marcel, Clarinval David, Crusnière Stéphane, Daerden Frédéric, Dallemagne Georges, De Coninck Inez, De Coninck Monica, de Coster-Bauchau Sybille, Dedry Anne, Degroote Koenraad, de Lamotte Michel, Delannois Paul-Olivier, Delizée Jean-Marc, Delpérée Francis, Demeyer Willy, Demon Franky, De Roover Peter, Deseyn Roel, Devin Laurent, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Di Rupo Elio, Dispa Benoît, Ducarme Denis, Dumery Daphné, Fernandez Fernandez Julie, Flahaux Jean-Jacques, Fonck Catherine, Foret Gilles, Frédéric André, Friart Benoît, Gabriëls Katja, Gantois Rita, Geerts David, Gerkens Muriel, Goffin Philippe, Gustin Luc, Hedebouw Raoul, Heeren Veerle, Hufkens Renate, Jadin Kattrin, Janssen Werner, Janssens Dirk, Jiroflée Karin, Kir Emir, Kitir Meryame, Klaps Johan, Laaouej Ahmed, Lahaye-Battheu Sabien, Lalieux Karine, Lambrecht Annick, Lanjri Nahima, Lijnen Nele, Lutgen Benoît, Luykx Peter, Maingain Olivier, Massin Eric, Metsu Koen, Miller Richard, Muylle Nathalie, Nollet Jean-Marc, Onkelinx Laurette, Özen Özlem, Pas Barbara, Penris Jan, Piedboeuf Benoît, Pivin Philippe, Poncelet Isabelle, Raskin Wouter, Schepmans Françoise, Scourneau Vincent, Senesael Daniel, Smaers Griet, Somers Ine, Spooren Jan, Temmerman Karin, Terwingen Raf, Thiébaut Eric, Top Alain, Turtelboom Annemie, Uyttersprot Goedele, Van Biesen Luk, Van Camp Yoleen, Van Cauter Carina, Van den Bergh Jef, Vanden Burre Gilles, Vandenput Tim, Van der Donckt Wim, Van de Velde Robert, Van Hecke Stefaan, Van Hees Marco, Vanheste Ann, Van Hoof Els, Van Mechelen Dirk, Van Peel Valerie, Van Peteghem Vincent, Van Quickenborne Vincent, Van Rompuy Eric, Van Vaerenbergh Kristien, Vanvelthoven Peter, Vercamer Stefaan, Vercammen Jan, Verherstraeten Servais, Vermeulen Brecht, Vuye Hendrik, Willaert Evita, Winckel Fabienne, Wollants Bert, Wouters Veerle</note>
+            <note xml:lang="de" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note405">Non</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note406">000</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note407">Nee</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note408">Abstentions</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note409">000</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note410">Onthoudingen</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note411">Vote nominatif - Naamstemming: 006</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note412">Oui</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note413">041</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note414">Ja</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note415">Almaci Meyrem, Ben Hamou Nawal, Blanchart Philippe, Bonte Hans, Calvo Kristof, Cheron Marcel, Crusnière Stéphane, Daerden Frédéric, De Coninck Monica, Dedry Anne, Delannois Paul-Olivier, Delizée Jean-Marc, Demeyer Willy, Devin Laurent, Di Rupo Elio, Fernandez Fernandez Julie, Frédéric André, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kir Emir, Kitir Meryame, Laaouej Ahmed, Lalieux Karine, Lambrecht Annick, Massin Eric, Nollet Jean-Marc, Onkelinx Laurette, Özen Özlem, Senesael Daniel, Temmerman Karin, Thiébaut Eric, Top Alain, Vanden Burre Gilles, Van Hecke Stefaan, Van Hees Marco, Vanheste Ann, Vanvelthoven Peter, Willaert Evita, Winckel Fabienne</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note416">Non</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note417">076</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note418">Nee</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note419">Becq Sonja, Beke Wouter, Bogaert Hendrik, Bracke Siegfried, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, De Coninck Inez, de Coster-Bauchau Sybille, Degroote Koenraad, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Foret Gilles, Friart Benoît, Gabriëls Katja, Gantois Rita, Goffin Philippe, Gustin Luc, Heeren Veerle, Hufkens Renate, Jadin Kattrin, Janssen Werner, Janssens Dirk, Klaps Johan, Lachaert Egbert, Lahaye-Battheu Sabien, Lanjri Nahima, Lijnen Nele, Luykx Peter, Metsu Koen, Miller Richard, Muylle Nathalie, Piedboeuf Benoît, Pivin Philippe, Raskin Wouter, Schepmans Françoise, Scourneau Vincent, Smaers Griet, Somers Ine, Spooren Jan, Terwingen Raf, Turtelboom Annemie, Uyttersprot Goedele, Van Biesen Luk, Van Camp Yoleen, Van Cauter Carina, Van den Bergh Jef, Vandenput Tim, Van der Donckt Wim, Van de Velde Robert, Van Hoof Els, Van Mechelen Dirk, Van Peel Valerie, Van Peteghem Vincent, Van Quickenborne Vincent, Van Rompuy Eric, Van Vaerenbergh Kristien, Vercamer Stefaan, Vercammen Jan, Verherstraeten Servais, Vermeulen Brecht, Wollants Bert</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note420">Abstentions</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note421">014</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note422">Onthoudingen</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note423">Brotcorne Christian, Carcaci Aldo, Dallemagne Georges, de Lamotte Michel, Delpérée Francis, Dispa Benoît, Fonck Catherine, Lutgen Benoît, Maingain Olivier, Pas Barbara, Penris Jan, Poncelet Isabelle, Vuye Hendrik, Wouters Veerle</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note424">Vote nominatif - Naamstemming: 007</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note425">Oui</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note426">041</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note427">Ja</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note428">Almaci Meyrem, Ben Hamou Nawal, Blanchart Philippe, Bonte Hans, Calvo Kristof, Cheron Marcel, Crusnière Stéphane, Daerden Frédéric, De Coninck Monica, Dedry Anne, Delannois Paul-Olivier, Delizée Jean-Marc, Demeyer Willy, Devin Laurent, Di Rupo Elio, Fernandez Fernandez Julie, Frédéric André, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kir Emir, Kitir Meryame, Laaouej Ahmed, Lalieux Karine, Lambrecht Annick, Massin Eric, Nollet Jean-Marc, Onkelinx Laurette, Özen Özlem, Senesael Daniel, Temmerman Karin, Thiébaut Eric, Top Alain, Vanden Burre Gilles, Van Hecke Stefaan, Van Hees Marco, Vanheste Ann, Vanvelthoven Peter, Willaert Evita, Winckel Fabienne</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note429">Non</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note430">083</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note431">Nee</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note432">Becq Sonja, Bogaert Hendrik, Bracke Siegfried, Brotcorne Christian, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, Dallemagne Georges, De Coninck Inez, de Coster-Bauchau Sybille, Degroote Koenraad, de Lamotte Michel, Delpérée Francis, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Dispa Benoît, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Fonck Catherine, Foret Gilles, Friart Benoît, Gabriëls Katja, Gantois Rita, Goffin Philippe, Gustin Luc, Heeren Veerle, Hufkens Renate, Jadin Kattrin, Janssen Werner, Janssens Dirk, Klaps Johan, Lachaert Egbert, Lahaye-Battheu Sabien, Lanjri Nahima, Lijnen Nele, Lutgen Benoît, Luykx Peter, Metsu Koen, Miller Richard, Muylle Nathalie, Piedboeuf Benoît, Pivin Philippe, Poncelet Isabelle, Raskin Wouter, Schepmans Françoise, Scourneau Vincent, Smaers Griet, Somers Ine, Spooren Jan, Terwingen Raf, Turtelboom Annemie, Uyttersprot Goedele, Van Biesen Luk, Van Camp Yoleen, Van Cauter Carina, Van den Bergh Jef, Vandenput Tim, Van der Donckt Wim, Van de Velde Robert, Van Hoof Els, Van Mechelen Dirk, Van Peel Valerie, Van Peteghem Vincent, Van Quickenborne Vincent, Van Rompuy Eric, Van Vaerenbergh Kristien, Vercamer Stefaan, Vercammen Jan, Verherstraeten Servais, Vermeulen Brecht, Wollants Bert</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note433">Abstentions</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note434">006</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note435">Onthoudingen</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note436">Carcaci Aldo, Maingain Olivier, Pas Barbara, Penris Jan, Vuye Hendrik, Wouters Veerle</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note437">Vote nominatif - Naamstemming: 008</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note438">Oui</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note439">050</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note440">Ja</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note441">Almaci Meyrem, Ben Hamou Nawal, Blanchart Philippe, Bonte Hans, Brotcorne Christian, Calvo Kristof, Cheron Marcel, Crusnière Stéphane, Daerden Frédéric, Dallemagne Georges, De Coninck Monica, Dedry Anne, de Lamotte Michel, Delannois Paul-Olivier, Delizée Jean-Marc, Delpérée Francis, Demeyer Willy, Devin Laurent, Di Rupo Elio, Dispa Benoît, Fernandez Fernandez Julie, Fonck Catherine, Frédéric André, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kir Emir, Kitir Meryame, Laaouej Ahmed, Lalieux Karine, Lambrecht Annick, Lutgen Benoît, Maingain Olivier, Massin Eric, Nollet Jean-Marc, Onkelinx Laurette, Özen Özlem, Poncelet Isabelle, Senesael Daniel, Temmerman Karin, Thiébaut Eric, Top Alain, Vanden Burre Gilles, Van Hecke Stefaan, Van Hees Marco, Vanheste Ann, Vanvelthoven Peter, Willaert Evita, Winckel Fabienne</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note442">Non</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note443">076</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note444">Nee</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note445">Becq Sonja, Beke Wouter, Bogaert Hendrik, Bracke Siegfried, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, De Coninck Inez, de Coster-Bauchau Sybille, Degroote Koenraad, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Foret Gilles, Friart Benoît, Gabriëls Katja, Gantois Rita, Goffin Philippe, Gustin Luc, Heeren Veerle, Hufkens Renate, Jadin Kattrin, Janssen Werner, Janssens Dirk, Klaps Johan, Lachaert Egbert, Lahaye-Battheu Sabien, Lanjri Nahima, Lijnen Nele, Luykx Peter, Metsu Koen, Miller Richard, Muylle Nathalie, Piedboeuf Benoît, Pivin Philippe, Raskin Wouter, Schepmans Françoise, Scourneau Vincent, Smaers Griet, Somers Ine, Spooren Jan, Terwingen Raf, Turtelboom Annemie, Uyttersprot Goedele, Van Biesen Luk, Van Camp Yoleen, Van Cauter Carina, Van den Bergh Jef, Vandenput Tim, Van der Donckt Wim, Van de Velde Robert, Van Hoof Els, Van Mechelen Dirk, Van Peel Valerie, Van Peteghem Vincent, Van Quickenborne Vincent, Van Rompuy Eric, Van Vaerenbergh Kristien, Vercamer Stefaan, Vercammen Jan, Verherstraeten Servais, Vermeulen Brecht, Wollants Bert</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note446">Abstentions</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note447">005</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note448">Onthoudingen</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note449">Carcaci Aldo, Pas Barbara, Penris Jan, Vuye Hendrik, Wouters Veerle</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note450">Vote nominatif - Naamstemming: 009</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note451">Oui</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note452">041</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note453">Ja</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note454">Almaci Meyrem, Ben Hamou Nawal, Blanchart Philippe, Bonte Hans, Calvo Kristof, Cheron Marcel, Crusnière Stéphane, Daerden Frédéric, De Coninck Monica, Dedry Anne, Delannois Paul-Olivier, Delizée Jean-Marc, Demeyer Willy, Devin Laurent, Di Rupo Elio, Fernandez Fernandez Julie, Frédéric André, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kir Emir, Kitir Meryame, Laaouej Ahmed, Lalieux Karine, Lambrecht Annick, Massin Eric, Nollet Jean-Marc, Onkelinx Laurette, Özen Özlem, Senesael Daniel, Temmerman Karin, Thiébaut Eric, Top Alain, Vanden Burre Gilles, Van Hecke Stefaan, Van Hees Marco, Vanheste Ann, Vanvelthoven Peter, Willaert Evita, Winckel Fabienne</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note455">Non</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note456">084</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note457">Nee</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note458">Becq Sonja, Beke Wouter, Bogaert Hendrik, Bracke Siegfried, Brotcorne Christian, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, Dallemagne Georges, De Coninck Inez, de Coster-Bauchau Sybille, Degroote Koenraad, de Lamotte Michel, Delpérée Francis, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Dispa Benoît, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Fonck Catherine, Foret Gilles, Friart Benoît, Gabriëls Katja, Gantois Rita, Goffin Philippe, Gustin Luc, Heeren Veerle, Hufkens Renate, Jadin Kattrin, Janssen Werner, Janssens Dirk, Klaps Johan, Lachaert Egbert, Lahaye-Battheu Sabien, Lanjri Nahima, Lijnen Nele, Lutgen Benoît, Luykx Peter, Metsu Koen, Miller Richard, Muylle Nathalie, Piedboeuf Benoît, Pivin Philippe, Poncelet Isabelle, Raskin Wouter, Schepmans Françoise, Scourneau Vincent, Smaers Griet, Somers Ine, Spooren Jan, Terwingen Raf, Turtelboom Annemie, Uyttersprot Goedele, Van Biesen Luk, Van Camp Yoleen, Van Cauter Carina, Van den Bergh Jef, Vandenput Tim, Van der Donckt Wim, Van de Velde Robert, Van Hoof Els, Van Mechelen Dirk, Van Peel Valerie, Van Peteghem Vincent, Van Quickenborne Vincent, Van Rompuy Eric, Van Vaerenbergh Kristien, Vercamer Stefaan, Vercammen Jan, Verherstraeten Servais, Vermeulen Brecht, Wollants Bert</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note459">Abstentions</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note460">006</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note461">Onthoudingen</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note462">Carcaci Aldo, Maingain Olivier, Pas Barbara, Penris Jan, Vuye Hendrik, Wouters Veerle</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note463">Vote nominatif - Naamstemming: 010</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note464">Oui</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note465">042</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note466">Ja</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note467">Almaci Meyrem, Ben Hamou Nawal, Blanchart Philippe, Bonte Hans, Calvo Kristof, Cheron Marcel, Crusnière Stéphane, Daerden Frédéric, De Coninck Monica, Dedry Anne, Delannois Paul-Olivier, Delizée Jean-Marc, Demeyer Willy, Devin Laurent, Di Rupo Elio, Fernandez Fernandez Julie, Frédéric André, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kir Emir, Kitir Meryame, Laaouej Ahmed, Lalieux Karine, Lambrecht Annick, Maingain Olivier, Massin Eric, Nollet Jean-Marc, Onkelinx Laurette, Özen Özlem, Senesael Daniel, Temmerman Karin, Thiébaut Eric, Top Alain, Vanden Burre Gilles, Van Hecke Stefaan, Van Hees Marco, Vanheste Ann, Vanvelthoven Peter, Willaert Evita, Winckel Fabienne</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note468">Non</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note469">076</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note470">Nee</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note471">Becq Sonja, Beke Wouter, Bogaert Hendrik, Bracke Siegfried, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, De Coninck Inez, de Coster-Bauchau Sybille, Degroote Koenraad, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Foret Gilles, Friart Benoît, Gabriëls Katja, Gantois Rita, Goffin Philippe, Gustin Luc, Heeren Veerle, Hufkens Renate, Jadin Kattrin, Janssen Werner, Janssens Dirk, Klaps Johan, Lachaert Egbert, Lahaye-Battheu Sabien, Lanjri Nahima, Lijnen Nele, Luykx Peter, Metsu Koen, Miller Richard, Muylle Nathalie, Piedboeuf Benoît, Pivin Philippe, Raskin Wouter, Schepmans Françoise, Scourneau Vincent, Smaers Griet, Somers Ine, Spooren Jan, Terwingen Raf, Turtelboom Annemie, Uyttersprot Goedele, Van Biesen Luk, Van Camp Yoleen, Van Cauter Carina, Van den Bergh Jef, Vandenput Tim, Van der Donckt Wim, Van de Velde Robert, Van Hoof Els, Van Mechelen Dirk, Van Peel Valerie, Van Peteghem Vincent, Van Quickenborne Vincent, Van Rompuy Eric, Van Vaerenbergh Kristien, Vercamer Stefaan, Vercammen Jan, Verherstraeten Servais, Vermeulen Brecht, Wollants Bert</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note472">Abstentions</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note473">013</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note474">Onthoudingen</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note475">Brotcorne Christian, Carcaci Aldo, Dallemagne Georges, de Lamotte Michel, Delpérée Francis, Dispa Benoît, Fonck Catherine, Lutgen Benoît, Pas Barbara, Penris Jan, Poncelet Isabelle, Vuye Hendrik, Wouters Veerle</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note476">Vote nominatif - Naamstemming: 011</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note477">Oui</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note478">078</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note479">Ja</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note480">Becq Sonja, Beke Wouter, Bogaert Hendrik, Bracke Siegfried, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Carcaci Aldo, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, De Coninck Inez, de Coster-Bauchau Sybille, Degroote Koenraad, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Foret Gilles, Friart Benoît, Gabriëls Katja, Gantois Rita, Goffin Philippe, Gustin Luc, Heeren Veerle, Hufkens Renate, Jadin Kattrin, Janssen Werner, Janssens Dirk, Klaps Johan, Lachaert Egbert, Lahaye-Battheu Sabien, Lijnen Nele, Luykx Peter, Metsu Koen, Miller Richard, Muylle Nathalie, Pas Barbara, Penris Jan, Piedboeuf Benoît, Pivin Philippe, Raskin Wouter, Schepmans Françoise, Scourneau Vincent, Smaers Griet, Somers Ine, Spooren Jan, Terwingen Raf, Turtelboom Annemie, Uyttersprot Goedele, Van Biesen Luk, Van Camp Yoleen, Van Cauter Carina, Van den Bergh Jef, Vandenput Tim, Van der Donckt Wim, Van de Velde Robert, Van Hoof Els, Van Mechelen Dirk, Van Peel Valerie, Van Peteghem Vincent, Van Quickenborne Vincent, Van Rompuy Eric, Van Vaerenbergh Kristien, Vercamer Stefaan, Vercammen Jan, Verherstraeten Servais, Vermeulen Brecht, Wollants Bert</note>
+            <note xml:lang="de" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note481">Non</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note482">001</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note483">Nee</note>
+            <note xml:lang="de" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note484">Lanjri Nahima</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note485">Abstentions</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note486">052</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note487">Onthoudingen</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note488">Almaci Meyrem, Ben Hamou Nawal, Blanchart Philippe, Bonte Hans, Brotcorne Christian, Calvo Kristof, Cheron Marcel, Crusnière Stéphane, Daerden Frédéric, Dallemagne Georges, De Coninck Monica, Dedry Anne, de Lamotte Michel, Delannois Paul-Olivier, Delizée Jean-Marc, Delpérée Francis, Demeyer Willy, Devin Laurent, Di Rupo Elio, Dispa Benoît, Fernandez Fernandez Julie, Fonck Catherine, Frédéric André, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kir Emir, Kitir Meryame, Laaouej Ahmed, Lalieux Karine, Lambrecht Annick, Lutgen Benoît, Maingain Olivier, Massin Eric, Nollet Jean-Marc, Onkelinx Laurette, Özen Özlem, Poncelet Isabelle, Senesael Daniel, Temmerman Karin, Thiébaut Eric, Top Alain, Vanden Burre Gilles, Van Hecke Stefaan, Van Hees Marco, Vanheste Ann, Vanvelthoven Peter, Vuye Hendrik, Willaert Evita, Winckel Fabienne, Wouters Veerle</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note489">Vote nominatif - Naamstemming: 012</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note490">Oui</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note491">050</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note492">Ja</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note493">Almaci Meyrem, Ben Hamou Nawal, Blanchart Philippe, Bonte Hans, Brotcorne Christian, Calvo Kristof, Cheron Marcel, Crusnière Stéphane, Daerden Frédéric, Dallemagne Georges, De Coninck Monica, Dedry Anne, de Lamotte Michel, Delannois Paul-Olivier, Delizée Jean-Marc, Delpérée Francis, Demeyer Willy, Devin Laurent, Di Rupo Elio, Dispa Benoît, Fernandez Fernandez Julie, Fonck Catherine, Frédéric André, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kir Emir, Kitir Meryame, Laaouej Ahmed, Lalieux Karine, Lambrecht Annick, Lutgen Benoît, Maingain Olivier, Massin Eric, Nollet Jean-Marc, Onkelinx Laurette, Özen Özlem, Poncelet Isabelle, Senesael Daniel, Temmerman Karin, Thiébaut Eric, Top Alain, Vanden Burre Gilles, Van Hecke Stefaan, Van Hees Marco, Vanheste Ann, Vanvelthoven Peter, Willaert Evita, Winckel Fabienne</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note494">Non</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note495">076</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note496">Nee</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note497">Becq Sonja, Beke Wouter, Bogaert Hendrik, Bracke Siegfried, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, De Coninck Inez, de Coster-Bauchau Sybille, Degroote Koenraad, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Foret Gilles, Friart Benoît, Gabriëls Katja, Gantois Rita, Goffin Philippe, Gustin Luc, Heeren Veerle, Hufkens Renate, Jadin Kattrin, Janssen Werner, Janssens Dirk, Klaps Johan, Lachaert Egbert, Lahaye-Battheu Sabien, Lanjri Nahima, Lijnen Nele, Luykx Peter, Metsu Koen, Miller Richard, Muylle Nathalie, Piedboeuf Benoît, Pivin Philippe, Raskin Wouter, Schepmans Françoise, Scourneau Vincent, Smaers Griet, Somers Ine, Spooren Jan, Terwingen Raf, Turtelboom Annemie, Uyttersprot Goedele, Van Biesen Luk, Van Camp Yoleen, Van Cauter Carina, Van den Bergh Jef, Vandenput Tim, Van der Donckt Wim, Van de Velde Robert, Van Hoof Els, Van Mechelen Dirk, Van Peel Valerie, Van Peteghem Vincent, Van Quickenborne Vincent, Van Rompuy Eric, Van Vaerenbergh Kristien, Vercamer Stefaan, Vercammen Jan, Verherstraeten Servais, Vermeulen Brecht, Wollants Bert</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note498">Abstentions</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note499">005</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note500">Onthoudingen</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note501">Carcaci Aldo, Pas Barbara, Penris Jan, Vuye Hendrik, Wouters Veerle</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note502">Vote nominatif - Naamstemming: 013</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note503">Oui</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note504">076</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note505">Ja</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note506">Becq Sonja, Beke Wouter, Bogaert Hendrik, Bracke Siegfried, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Capoen An, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Clarinval David, De Coninck Inez, de Coster-Bauchau Sybille, Degroote Koenraad, Demon Franky, De Roover Peter, Deseyn Roel, Dewael Patrick, De Wever Bart, De Wit Sophie, D'Haese Christoph, Dierick Leen, Ducarme Denis, Dumery Daphné, Flahaux Jean-Jacques, Foret Gilles, Friart Benoît, Gabriëls Katja, Gantois Rita, Goffin Philippe, Gustin Luc, Heeren Veerle, Hufkens Renate, Jadin Kattrin, Janssen Werner, Janssens Dirk, Klaps Johan, Lachaert Egbert, Lahaye-Battheu Sabien, Lanjri Nahima, Lijnen Nele, Luykx Peter, Metsu Koen, Miller Richard, Muylle Nathalie, Piedboeuf Benoît, Pivin Philippe, Raskin Wouter, Schepmans Françoise, Scourneau Vincent, Smaers Griet, Somers Ine, Spooren Jan, Terwingen Raf, Turtelboom Annemie, Uyttersprot Goedele, Van Biesen Luk, Van Camp Yoleen, Van Cauter Carina, Van den Bergh Jef, Vandenput Tim, Van der Donckt Wim, Van de Velde Robert, Van Hoof Els, Van Mechelen Dirk, Van Peel Valerie, Van Peteghem Vincent, Van Quickenborne Vincent, Van Rompuy Eric, Van Vaerenbergh Kristien, Vercamer Stefaan, Vercammen Jan, Verherstraeten Servais, Vermeulen Brecht, Wollants Bert</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note507">Non</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note508">050</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note509">Nee</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note510">Almaci Meyrem, Ben Hamou Nawal, Blanchart Philippe, Bonte Hans, Brotcorne Christian, Calvo Kristof, Cheron Marcel, Crusnière Stéphane, Daerden Frédéric, Dallemagne Georges, De Coninck Monica, Dedry Anne, de Lamotte Michel, Delannois Paul-Olivier, Delizée Jean-Marc, Delpérée Francis, Demeyer Willy, Devin Laurent, Di Rupo Elio, Dispa Benoît, Fernandez Fernandez Julie, Fonck Catherine, Frédéric André, Geerts David, Gerkens Muriel, Hedebouw Raoul, Jiroflée Karin, Kir Emir, Kitir Meryame, Laaouej Ahmed, Lalieux Karine, Lambrecht Annick, Lutgen Benoît, Maingain Olivier, Massin Eric, Nollet Jean-Marc, Onkelinx Laurette, Özen Özlem, Poncelet Isabelle, Senesael Daniel, Temmerman Karin, Thiébaut Eric, Top Alain, Vanden Burre Gilles, Van Hecke Stefaan, Van Hees Marco, Vanheste Ann, Vanvelthoven Peter, Willaert Evita, Winckel Fabienne</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note511">Abstentions</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note512">005</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note513">Onthoudingen</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note514">Carcaci Aldo, Pas Barbara, Penris Jan, Vuye Hendrik, Wouters Veerle</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note515">Vote nominatif - Naamstemming: 014</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note516">Oui</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note517">129</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note518">Ja</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note519">Almaci Meyrem, Becq Sonja, Beke Wouter, Ben Hamou Nawal, Blanchart Philippe, Bogaert Hendrik, Bonte Hans, Bracke Siegfried, Brotcorne Christian, Burton Emmanuel, Buysrogge Peter, Calomne Gautier, Calvo Kristof, Capoen An, Carcaci Aldo, Cassart-Mailleux Caroline, Ceysens Patricia, Chastel Olivier, Cheron Marcel, Clarinval David, Crusnière Stéphane, Daerden Frédéric, Dallemagne Georges, De Coninck Inez, De Coninck Monica, de Coster-Bauchau Sybille, Dedry Anne, Degroote Koenraad, de Lamotte Michel, Delannois Paul-Olivier, Delizée Jean-Marc, Delpérée Francis, Demeyer Willy, Demon Franky, De Roover Peter, Deseyn Roel, Devin Laurent, Dewael Patrick, De Wit Sophie, D'Haese Christoph, Dierick Leen, Di Rupo Elio, Dispa Benoît, Ducarme Denis, Dumery Daphné, Fernandez Fernandez Julie, Flahaux Jean-Jacques, Fonck Catherine, Foret Gilles, Frédéric André, Friart Benoît, Gabriëls Katja, Gantois Rita, Geerts David, Gerkens Muriel, Goffin Philippe, Gustin Luc, Hedebouw Raoul, Heeren Veerle, Hufkens Renate, Jadin Kattrin, Janssen Werner, Janssens Dirk, Jiroflée Karin, Kir Emir, Kitir Meryame, Klaps Johan, Laaouej Ahmed, Lachaert Egbert, Lahaye-Battheu Sabien, Lalieux Karine, Lambrecht Annick, Lanjri Nahima, Lijnen Nele, Lutgen Benoît, Luykx Peter, Maingain Olivier, Massin Eric, Metsu Koen, Miller Richard, Muylle Nathalie, Nollet Jean-Marc, Onkelinx Laurette, Özen Özlem, Pas Barbara, Piedboeuf Benoît, Pivin Philippe, Poncelet Isabelle, Raskin Wouter, Schepmans Françoise, Scourneau Vincent, Senesael Daniel, Smaers Griet, Somers Ine, Spooren Jan, Temmerman Karin, Terwingen Raf, Thiébaut Eric, Top Alain, Turtelboom Annemie, Uyttersprot Goedele, Van Biesen Luk, Van Camp Yoleen, Van Cauter Carina, Van den Bergh Jef, Vanden Burre Gilles, Vandenput Tim, Van der Donckt Wim, Van de Velde Robert, Van Hecke Stefaan, Van Hees Marco, Vanheste Ann, Van Hoof Els, Van Mechelen Dirk, Van Peel Valerie, Van Peteghem Vincent, Van Quickenborne Vincent, Van Rompuy Eric, Van Vaerenbergh Kristien, Vanvelthoven Peter, Vercamer Stefaan, Vercammen Jan, Verherstraeten Servais, Vermeulen Brecht, Vuye Hendrik, Willaert Evita, Winckel Fabienne, Wollants Bert, Wouters Veerle</note>
+            <note xml:lang="de" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note520">Non</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note521">000</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note522">Nee</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note523">Abstentions</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note524">000</note>
+            <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note525">Onthoudingen</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

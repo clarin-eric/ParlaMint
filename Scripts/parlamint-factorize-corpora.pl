@@ -63,7 +63,8 @@ if ($inDir =~ /ParlaMint-[A-Z-]+\.TEI/) {$corpDirs = $inDir}
 else {$corpDirs = "$inDir/ParlaMint-*.TEI*"}
 foreach $corpDir (sort glob($corpDirs)) {
     my $param = '';
-    ($country, $anaSuffix) = $corpDir =~ /ParlaMint-([A-Z-]+)\.TEI(\..+)?/ or die;
+    ($country, $anaSuffix) = $corpDir =~ /ParlaMint-([A-Z-]+)\.TEI(\..+)?/
+        or die "FATAL ERROR: Strange corpus directory $corpDir\n";
     $anaSuffix = '' unless $anaSuffix;
     print STDERR "INFO: Doing $country TEI$anaSuffix\n";
     $bkpDir = "$corpDir/$bkpName";
@@ -111,10 +112,12 @@ foreach $corpDir (sort glob($corpDirs)) {
     }
     if (@missing_taxonomies) {
 	$rootFile = "$corpDir/ParlaMint-$country$anaSuffix.xml";
-	die "FATAL ERROR: Cant find corpus root file $rootFile\n" unless -e $rootFile;
+	die "FATAL ERROR: Cant find corpus root file $rootFile\n"
+            unless -e $rootFile;
 	$tmpRootFile = "$rootFile" . '.tmp';
 	open(IN,  '<:utf8', $rootFile);
-	open(OUT, '>:utf8', $tmpRootFile) or die "FATAL ERROR: Can't open tmp root file $tmpRootFile\n";
+	open(OUT, '>:utf8', $tmpRootFile)
+            or die "FATAL ERROR: Can't open tmp root file $tmpRootFile\n";
 	while (<IN>) {
 	    if (m|</classDecl>|) {
 		foreach my $taxonomyFile (@missing_taxonomies) {

@@ -13,7 +13,8 @@ foreach $file (@INFILES) {
     elsif ($file =~ m|\.txt$|) {$format = 'text'}
     else {$format = 'text'}
     $fName=$file;
-    open(TBL, '<:utf8', $file) or die;
+    open(TBL, '<:utf8', $file)
+        or die "FATAL ERROR: Cant find input file $file\n";
     undef $/;
     $txt = <TBL>;
     undef %c;

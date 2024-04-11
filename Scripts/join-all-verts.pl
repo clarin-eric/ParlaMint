@@ -55,7 +55,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	else {$files{$key} = "$inFile"}
     }
 }
-open(OUT, '>:utf8', $outFile) or die "FATAL ERROR: Can't open $outFile!\n";
+open(OUT, '>:utf8', $outFile)
+    or die "FATAL ERROR: Can't open $outFile!\n";
 $oldYear = '0';
 # Sorting in reverse order!
 foreach $key (reverse sort keys %files) {
@@ -65,7 +66,8 @@ foreach $key (reverse sort keys %files) {
 	$oldYear = $year
     }
     foreach my $inFile (split(/\t/, $files{$key})) {
-	open(IN, '<:utf8', $inFile) or die;
+	open(IN, '<:utf8', $inFile)
+            or die "FATAL ERROR: Can't open input file $inFile!\n";
 	while (<IN>) {
 	    #Add corpus attribute to speech and note
 	    if (m|<speech | or m|<note |) {

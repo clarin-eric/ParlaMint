@@ -1,33 +1,33 @@
 #!/usr/bin/env perl
-# Fix MTed and USAS semantically annotated (and additionally tagged with Spacy) CoNLL-U files:
+# Fix MTed (and possibly USAS semantically annotated and additionally tagged with Spacy) CoNLL-U files:
 # - shorten sentences much longer than orignal (NMT cycles)
-# - alphabetically sort features and try to fix infamous SpaceAfter 
-# - remove Spacy analysis if it identical to main analysis (XPoS, UPoS, lemma)
-# - possibly insert lost metadata from original TEI-derived CoNLL-U files
+# - alphabetically sort features as required by UD validator, and try to fix the infamous SpaceAfter 
+# - remove Spacy analysis (in MISC column) if identical to UD analysis (XPoS, UPoS, lemma)
+# - optionally insert lost metadata from original TEI-derived CoNLL-U files
 use warnings;
 use utf8;
 use open ':utf8';
 use FindBin qw($Bin);
 binmode(STDERR, ':utf8');
 $validate = shift;  # 'validate' = validate CoNLL-U files, any other value = don't validate
-$origDir = shift;   # Location of original CoNLL-U files, so #newdoc medatdata is inserted into output, if empty, no merge is done
+$origDir = shift;   # Location of original CoNLL-U files, so #newdoc medatdata is inserted into output, if '-', no merge is done
 $inDirs = shift;    # Input directories
 $outDir = shift;    # Top level output directory
-    
+
 # Prereqisite, source: https://github.com/universaldependencies/tools
 $scriptValid   = "$Bin/bin/tools/validate.py";
 
-# What is the mininal length of the English text and how much longer than the original it has to be before we shorten it:
+# What is the mininal char length of the English text and how much longer than the original it has to be before we shorten it:
 $min_length = 20;
 $cut_ratio = 3;
 
-#If empty or -, no merge will be performed
-if (not $origDir or $origDir eq '-') {$origDir = ''}
+#If -, no merge will be performed
+if ($origDir eq '-') {$origDir = ''}
 
 foreach $inDir (glob $inDirs) {
     ($corpus) = $inDir =~ m|(ParlaMint-[A-Z-]+)[\.-]|
 	or die "FATAL ERROR: Strange directory $inDir\n";
-    $outCDir = "$outDir/$corpus-en.conllu";
+    $outCDir = "$outDir/$corpus-en";
     if ($origDir) {
 	$origCDir = "$origDir/$corpus.conllu";
 	die "FATAL ERROR: Can't find directory with original CoNLL-U $origCDir\n"
@@ -109,7 +109,8 @@ sub cut {
     elsif (length($trg) < $min_length) {$out = $sent}
     elsif (length($trg) < length($src) * $cut_ratio) {$out = $sent}
     elsif (($tail) = $trg =~ /\Q$trg_str\E(.+)/) {
-	print STDERR "WARN: In $inFile\nSOURCE:\t$src\nLEAVING\t$trg_str\nCUTTING\t$tail\n\n";
+	print STDERR "WARN: In $inFile removing cutting long translation:\n";
+	print STDERR "INFO In:\t$src\nINFO Leave:\t$trg_str\nWARN Cut:\t$tail\n";
 	my $skip = 0;
 	foreach my $line (split(/\n/, $sent)) {
 	    if    ($line =~ /^# text = /) {

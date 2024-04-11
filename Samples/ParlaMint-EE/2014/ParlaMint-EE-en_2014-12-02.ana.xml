@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="ParlaMint-EE-en_2014-12-02.ana" ana="#parla.sitting #reference" corresp="../../ParlaMint-EE.TEI.ana/2014/ParlaMint-EE_2014-12-02.ana.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" type="main">Estonian parliamentary corpus ParlaMint-EE-en, 2014-12-02 [ParlaMint-en.ana SAMPLE]</title>
+            <title xml:lang="et" type="sub">XII Riigikogu, VIII Istungjärk, täiskogu korraline istung Teisipäev, 02.12.2014, 10:00</title>
+            <title xml:lang="en" type="sub">XII Parliament term, VIII Session, Plenary Assembly regular meeting on Tuesday, 02.12.2014, 10:00</title>
+            <meeting corresp="#ee_parliament" ana="#parla.uni #parla.term #parliament.RK12">XII Riigikogu</meeting>
+            <meeting corresp="#ee_parliament" ana="#parla.uni #parla.session" n="rs8">VIII regular session</meeting>
+            <meeting corresp="#ee_parliament" ana="#parla.uni #parla.sitting" n="2014-12-02">2014-12-02</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-9701-1771">Martin Mölder</persName>
+               <persName ref="https://orcid.org/0000-0003-0511-5854">Neeme Kahusk</persName>
+               <persName ref="https://orcid.org/0000-0003-0966-8341">Kadri Vider</persName>
+               <resp xml:lang="en">Data retrieval and conversion to Parla-CLARIN TEI XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Taja Kuzman</persName>
+               <persName>Nikola Ljubešić</persName>
+               <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Paul Rayson</persName>
+               <persName>Matthew Coole</persName>
+               <persName>John Vidler</persName>
+               <resp xml:lang="en">Annotating MTed corpora with USAS semantic tags</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
+               <orgName xml:lang="en">CLARIN ERIC research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure xml:lang="et" unit="speeches" quantity="64">64 kõnet</measure>
+            <measure xml:lang="en" unit="speeches" quantity="64">64 speeches</measure>
+            <measure xml:lang="et" unit="words" quantity="11484">11,484 sõna</measure>
+            <measure xml:lang="en" unit="words" quantity="11484">11,484 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
+               <orgName xml:lang="en">CLARIN ERIC research infrastructure</orgName>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1864</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-01-23">2024-01-23</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="et">Riigikogu stenogrammid</title>
+               <idno type="URI" subtype="parliament">https://stenogrammid.riigikogu.ee/et/201104041500</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="name" occurs="376"/>
+               <tagUsage gi="note" occurs="64"/>
+               <tagUsage gi="pc" occurs="1409"/>
+               <tagUsage gi="phr" occurs="637"/>
+               <tagUsage gi="s" occurs="609"/>
+               <tagUsage gi="seg" occurs="124"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="64"/>
+               <tagUsage gi="w" occurs="11484"/>
+            </namespace>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef ident="mt-src" matchPattern="(.+)" replacementPattern="../../ParlaMint-EE.TEI.ana/2014/ParlaMint-EE_2014-12-02.ana.xml#$1">
+               <p>Private URIs with this prefix point to aligned source elements of the MTed corpus.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Riigikogu</name>
+               <name type="address">Lossi plats 1a</name>
+               <name type="city">Tallinn</name>
+               <name type="country" key="EE">Estonia</name>
+               <date when="2014-12-02">2014-12-02</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-01-23">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection" xml:lang="en">
+            <note type="speaker" xml:id="ParlaMint-EE_2014-12-02.ana.note1" xml:lang="en" corresp="mt-src:ParlaMint-EE_2014-12-02.ana.note1">EikiNestor</note>
+            <u who="#e_nestor_19530905" xml:id="ParlaMint-EE_2014-12-02_U1" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-EE_2014-12-02_U1">
+               <seg xml:id="ParlaMint-EE_2014-12-02_U1-P1" xml:lang="en" corresp="mt-src:ParlaMint-EE_2014-12-02_U1-P1">
+                  <s xml:id="ParlaMint-EE_2014-12-02_U1-P1.1" n="1" corresp="mt-src:ParlaMint-EE_2014-12-02_U1-P1.1">
+                     <name type="PER">
+<w xml:id="ParlaMint-EE_2014-12-02_U1-P1.1.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="dear" function="Z1mf,Z3c" ana="sem:Z1">Dear</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U1-P1.1.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Riigikogu" function="Z1mf,Z3c" ana="sem:Z1" join="right">Riigikogu</w>
+                     </name>
+<pc xml:id="ParlaMint-EE_2014-12-02_U1-P1.1.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+                     <phr type="sem" function="Z4" ana="sem:Z4">
+<w xml:id="ParlaMint-EE_2014-12-02_U1-P1.1.t4" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="good" function="Z4" ana="sem:Z4">good</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U1-P1.1.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="morning" function="Z4" ana="sem:Z4" join="right">morning</w>
+                     </phr>
+<pc xml:id="ParlaMint-EE_2014-12-02_U1-P1.1.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">!</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U1-P1.2" n="2" corresp="mt-src:ParlaMint-EE_2014-12-02_U1-P1.2">
+<w xml:id="ParlaMint-EE_2014-12-02_U1-P1.2.t1" pos="WP" msd="UPosTag=PRON|PronType=Int" lemma="who" function="Z8" ana="sem:Z8">Who</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U1-P1.2.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">has</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U1-P1.2.t3" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U1-P1.2.t4" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="hand" function="A9-" ana="sem:A9n">hand</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U1-P1.2.t5" pos="RP" msd="UPosTag=ADP" lemma="over" function="Z5" ana="sem:Z5">over</w>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-EE_2014-12-02_U1-P1.2.t6" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="draft" function="T1.3" ana="sem:T1.3">drafts</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U1-P1.2.t7" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U1-P1.2.t8" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="inquiry" function="T1.3" ana="sem:T1.3" join="right">inquiries</w>
+                     </phr>
+<pc xml:id="ParlaMint-EE_2014-12-02_U1-P1.2.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U1-P1.3" n="3" corresp="mt-src:ParlaMint-EE_2014-12-02_U1-P1.3">
+<w xml:id="ParlaMint-EE_2014-12-02_U1-P1.3.t1" pos="UH" msd="UPosTag=INTJ" lemma="please" function="E4.2+,E2+,X7+" ana="sem:E4.2p" join="right">Please</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U1-P1.3.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+                     <name type="PER">
+<w xml:id="ParlaMint-EE_2014-12-02_U1-P1.3.t3" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Arto" function="Z1mf,Z3c" ana="sem:Z1">Arto</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U1-P1.3.t4" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Aas" function="Z1mf,Z3c" ana="sem:Z1" join="right">Aas</w>
+                     </name>
+<pc xml:id="ParlaMint-EE_2014-12-02_U1-P1.3.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">!</pc>
+                  </s>
+               </seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-EE_2014-12-02.ana.note2" xml:lang="en" corresp="mt-src:ParlaMint-EE_2014-12-02.ana.note2">ArtoAas</note>
+            <u who="#a_aas_19800609" xml:id="ParlaMint-EE_2014-12-02_U2" ana="#regular" xml:lang="en" corresp="mt-src:ParlaMint-EE_2014-12-02_U2">
+               <seg xml:id="ParlaMint-EE_2014-12-02_U2-P1" xml:lang="en" corresp="mt-src:ParlaMint-EE_2014-12-02_U2-P1">
+                  <s xml:id="ParlaMint-EE_2014-12-02_U2-P1.1" n="1" corresp="mt-src:ParlaMint-EE_2014-12-02_U2-P1.1">
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.1.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="lady" function="T1.3" ana="sem:T1.3">Ladies</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.1.t2" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.1.t3" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="gentleman" function="T1.3" ana="sem:T1.3" join="right">gentlemen</w>
+                     </phr>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.1.t4" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U2-P1.2" n="2" corresp="mt-src:ParlaMint-EE_2014-12-02_U2-P1.2">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.2.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.2.t2" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="economic" function="Z1mf,Z3c" ana="sem:Z1">Economic</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.2.t3" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Commission" function="Z1mf,Z3c" ana="sem:Z1">Commission</w>
+                     </name>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.2.t4" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.2.t5" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="initiate" function="T2+" ana="sem:T2p">initiate</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.2.t6" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.2.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="draft" function="Q1.2,G3,Q1.2/I1" ana="sem:Q1.2">draft</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.2.t8" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Public" function="Z1mf,Z3c" ana="sem:Z1">Public</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.2.t9" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Transport" function="Z1mf,Z3c" ana="sem:Z1">Transport</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.2.t10" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Act" function="Z1mf,Z3c" ana="sem:Z1" join="right">Act</w>
+                     </name>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.2.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U2-P1.3" n="3" corresp="mt-src:ParlaMint-EE_2014-12-02_U2-P1.3">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="previous" function="N4" ana="sem:N4">previous</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="full" function="N5.1+,I3.2+" ana="sem:N5.1p">full</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.t4" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="text" function="Q1.2,Q4.1" ana="sem:Q1.2">text</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.t5" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.t6" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.t7" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Public" function="Z1mf,Z3c" ana="sem:Z1">Public</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.t8" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Transport" function="Z1mf,Z3c" ana="sem:Z1">Transport</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.t9" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Act" function="Z1mf,Z3c" ana="sem:Z1">Act</w>
+                     </name>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.t10" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.t11" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="adopt" function="A9+,S4" ana="sem:A9p">adopted</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.t12" pos="RB" msd="UPosTag=ADV" lemma="already" function="T1.1.1" ana="sem:T1.1.1">already</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.t13" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="14" function="N1" ana="sem:N1">14</w>
+                     <phr type="sem" function="T1.1.1" ana="sem:T1.1.1">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.t14" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="year" function="T1.1.1" ana="sem:T1.1.1">years</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.t15" pos="RB" msd="UPosTag=ADV" lemma="ago" function="T1.1.1" ana="sem:T1.1.1" join="right">ago</w>
+                     </phr>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.t17" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.t18" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2000" function="N1" ana="sem:N1" join="right">2000</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U2-P1.4" n="4" corresp="mt-src:ParlaMint-EE_2014-12-02_U2-P1.4">
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="T1.3" ana="sem:T1.3">In</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="T1.3" ana="sem:T1.3">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="meantime" function="T1.3" ana="sem:T1.3" join="right">meantime</w>
+                     </phr>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t4" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+                     <phr type="sem" function="A13.3" ana="sem:A13.3">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t5" pos="RB" msd="UPosTag=ADV" lemma="very" function="A13.3" ana="sem:A13.3">very</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t6" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="much" function="A13.3" ana="sem:A13.3">much</w>
+                     </phr>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="time" function="T1,T1.2,T1.3,T1.1.2,N6,N1,K2,G2.1@" ana="sem:T1">time</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t8" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">has</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t9" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="go" function="M1,A2.1+,A1.1.1,A9-,A1.8+,Q2.1,N6+,I2.2,A1.1.2,T2-,S3.2,A6.3+,B2-/X1%,B1%" ana="sem:M1">gone</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t10" pos="RP" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5" join="right">on</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t12" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="life" function="L1+,A3+,T1.3,S1.1.1,A1.1.1,X5.2+,Q4.1,A11.1+++,A5.4+/C1" ana="sem:L1p">life</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t13" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">has</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t14" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="change" function="A2.1+,I1,B5" ana="sem:A2.1p">changed</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t15" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t16" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t17" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="law" function="G2.1,S6+,Y1" ana="sem:G2.1">law</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t18" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">has</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t19" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t20" pos="VBN" msd="UPosTag=AUX|Tense=Past|VerbForm=Part" lemma="be" function="A3+,Z5" ana="sem:A3p">been</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t21" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="amend" function="A2.1+" ana="sem:A2.1p">amended</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t22" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="several" function="N5" ana="sem:N5">several</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t23" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="time" function="T1,T1.2,T1.3,T1.1.2,N6,N1" ana="sem:T1" join="right">times</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.t24" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U2-P1.5" n="5" corresp="mt-src:ParlaMint-EE_2014-12-02_U2-P1.5">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.5.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.5.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.5.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="time" function="T1,T1.2,T1.3,T1.1.2,N6,N1,K2,G2.1@" ana="sem:T1">time</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.5.t4" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.5.t5" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="make" function="A1.1.1,A9+,A2.2,S6+,A3+,A9-,X9.2+,X6+" ana="sem:A1.1.1">make</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.5.t6" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.5.t7" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="whole" function="N5.1+" ana="sem:N5.1p">whole</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.5.t8" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="new" function="T3-" ana="sem:T3n">new</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.5.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="text" function="Q1.2,Q4.1" ana="sem:Q1.2" join="right">text</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.5.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U2-P1.6" n="6" corresp="mt-src:ParlaMint-EE_2014-12-02_U2-P1.6">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Riigikogu" function="Z99" ana="sem:Z99">Riigikogu</w>
+                     </name>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t3" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="reach" function="M1,N3.3,Q2.1,X9.2+" ana="sem:M1">reached</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t4" pos="PDT" msd="UPosTag=DET" lemma="quite" function="A13.5,A13.6,A13.2" ana="sem:A13.5">quite</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t5" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t6" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="distance" function="N3.3+,S1.2.1-" ana="sem:N3.3p">distance</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t7" pos="IN" msd="UPosTag=SCONJ" lemma="by" function="Z5" ana="sem:Z5">by</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t8" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="prepare" function="A5.4+" ana="sem:A5.4p">preparing</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t9" pos="PRP" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="A5.4+" ana="sem:A5.4p">it</w>
+                     </phr>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t10" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t11" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t12" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="summer" function="T1.3" ana="sem:T1.3" join="right">summer</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t13" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t14" pos="CC" msd="UPosTag=CCONJ" lemma="but" function="Z5" ana="sem:Z5">but</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t15" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t16" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="procedural" function="X4.2" ana="sem:X4.2">procedural</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t17" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="reason" function="A2.2,X2.1" ana="sem:A2.2">reasons</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t18" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t19" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="initiator" function="Z99" ana="sem:Z99">initiator</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t20" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="withdraw" function="A5.4+" ana="sem:A5.4p">withdrew</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t21" pos="PRP" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="A5.4+" ana="sem:A5.4p">it</w>
+                     </phr>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t22" pos="IN" msd="UPosTag=ADP" lemma="from" function="Z5" ana="sem:Z5">from</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t23" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t24" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="procedure" function="X4.2" ana="sem:X4.2" join="right">procedure</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.t25" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U2-P1.7" n="7" corresp="mt-src:ParlaMint-EE_2014-12-02_U2-P1.7">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t1" pos="RB" msd="UPosTag=ADV" lemma="now" function="T1.1.2,Z4" ana="sem:T1.1.2" join="right">Now</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t3" pos="IN" msd="UPosTag=ADP" lemma="as" function="Z5" ana="sem:Z5">as</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t4" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="result" function="A2.2,X9.2,N2,A5.1,K5,Q1.1/A2.2" ana="sem:A2.2">result</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t6" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t7" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t8" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="joint" function="S5+" ana="sem:S5p">joint</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="work" function="I3.1,A1.1.1,Q4,K2,C1" ana="sem:I3.1">work</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t10" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t11" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t12" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="committee" function="Z2" ana="sem:Z2">Committee</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t13" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z2" ana="sem:Z2">on</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t14" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="economic" function="Z2" ana="sem:Z2">Economic</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t15" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="affair" function="A1.1.1,S1.1.1,S3.2" ana="sem:A1.1.1">Affairs</w>
+                     </name>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t16" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t17" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t18" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Ministry" function="G1.1c,S9" ana="sem:G1.1">Ministry</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t19" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t20" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="economic" function="Z1mf,Z3c" ana="sem:Z1">Economic</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t21" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="affair" function="Z1mf,Z3c" ana="sem:Z1">Affairs</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t22" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t23" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Communication" function="Q2.1,Q1.2,Q1.3,Q4.3" ana="sem:Q2.1" join="right">Communications</w>
+                     </name>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t24" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t25" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">we</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t26" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">have</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t27" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="reach" function="M1,N3.3,Q2.1,X9.2+" ana="sem:M1">reached</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t28" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t29" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="point" function="Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5" ana="sem:Q2.1">point</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t30" pos="WRB" msd="UPosTag=SCONJ|PronType=Rel" lemma="where" function="M6" ana="sem:M6">where</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t31" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">we</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t32" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="can" function="A7+" ana="sem:A7p">can</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t33" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="re-enter" function="Z99" ana="sem:Z99">re-enter</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t34" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t35" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="draft" function="Q1.2,G3,Q1.2/I1" ana="sem:Q1.2" join="right">draft</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.t36" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U2-P1.8" n="8" corresp="mt-src:ParlaMint-EE_2014-12-02_U2-P1.8">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t1" pos="PRP$" msd="UPosTag=PRON|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs" lemma="its" function="Z8" ana="sem:Z8">Its</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="main" function="A11.1+,N5+++" ana="sem:A11.1p">main</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t3" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="objective" function="X7+" ana="sem:X7p">objectives</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t4" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p" join="right">are</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">:</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t6" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t7" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="enable" function="S8+" ana="sem:S8p">enable</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t8" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="increase" function="N5+/A2.1" ana="sem:N5p sem:A2.1">increased</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="competition" function="K1,S7.3+" ana="sem:K1">competition</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t10" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t11" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="bus" function="T1.3" ana="sem:T1.3">bus</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t12" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t13" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="coach" function="T1.3" ana="sem:T1.3">coach</w>
+                     </phr>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t14" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="transport" function="M3,M2,M4,M5" ana="sem:M3">transport</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t15" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t16" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t17" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="ensure" function="A7+" ana="sem:A7p">ensure</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t18" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="stability" function="A2.1-" ana="sem:A2.1n">stability</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t19" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t20" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t21" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="quality" function="A5.1,A5.1+,O4.1" ana="sem:A5.1">quality</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t22" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t23" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="transport" function="M3,M2,M4,M5" ana="sem:M3">transport</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t24" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="service" function="S8+,S7.1-,A1.1.1,S9,G3@,G2.1@,M3/M7@" ana="sem:S8p" join="right">services</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t25" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t26" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t27" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="improve" function="A5.1+/A2.1" ana="sem:A5.1p sem:A2.1">improve</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t28" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t29" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="quality" function="A5.1,A5.1+,O4.1" ana="sem:A5.1">quality</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t30" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t31" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="taxi" function="M3fn" ana="sem:M3">taxi</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t32" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="service" function="S8+,S7.1-,A1.1.1,S9,G3@,G2.1@,M3/M7@" ana="sem:S8p" join="right">services</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t33" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t34" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t35" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="specify" function="A4.2+/Q2.2" ana="sem:A4.2p sem:Q2.2">specify</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t36" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t37" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="basis" function="A2.2,T2+,X4.2" ana="sem:A2.2">basis</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t38" pos="IN" msd="UPosTag=SCONJ" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t39" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="grant" function="A9-,Q2.2" ana="sem:A9n">granting</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t40" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="travel" function="M1" ana="sem:M1">travel</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t41" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="incentive" function="X5.2+" ana="sem:X5.2p" join="right">incentives</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t42" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t43" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t44" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="organise" function="S7.1+,O4.1,S5+@" ana="sem:S7.1p">organise</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t45" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t46" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="rights" function="T1.3" ana="sem:T1.3">rights</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t47" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t48" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="obligation" function="T1.3" ana="sem:T1.3">obligations</w>
+                     </phr>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t49" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t50" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="road" function="M3,X4.2" ana="sem:M3">road</w>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t51" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="user" function="T1.3" ana="sem:T1.3">users</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t52" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t53" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="driver" function="T1.3" ana="sem:T1.3" join="right">drivers</w>
+                     </phr>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t54" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t55" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t56" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="clarify" function="A7+/Q2.2" ana="sem:A7p sem:Q2.2">clarify</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t57" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t58" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="competence" function="T1.3" ana="sem:T1.3">competences</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t59" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t60" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="task" function="T1.3" ana="sem:T1.3">tasks</w>
+                     </phr>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t61" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+                     <phr type="sem" function="M3" ana="sem:M3">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t62" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="public" function="M3" ana="sem:M3">public</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t63" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="transport" function="M3" ana="sem:M3">transport</w>
+                     </phr>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t64" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="authority" function="G1.1,S7.1+,S7.4+,X2.2+" ana="sem:G1.1" join="right">authorities</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t65" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t66" pos="FW" msd="UPosTag=X" lemma="etc" function="Z4" ana="sem:Z4" join="right">etc</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.t67" pos="Z" msd="UPosTag=PUNCT" function="Z99" ana="sem:Z99">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U2-P1.9" n="9" corresp="mt-src:ParlaMint-EE_2014-12-02_U2-P1.9">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.9.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5" join="right">That</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.9.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A9+,A3+,A2.2,Z5" ana="sem:A9p">'s</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.9.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.9.t4" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="story" function="Q2.1,X4.1,Q4" ana="sem:Q2.1" join="right">story</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.9.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U2-P1.10" n="10" corresp="mt-src:ParlaMint-EE_2014-12-02_U2-P1.10">
+                     <phr type="sem" function="Z4,S1.2.4+" ana="sem:Z4">
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.10.t1" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="thank" function="Z4,S1.2.4+" ana="sem:Z4">Thank</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U2-P1.10.t2" pos="PRP" msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs" lemma="you" function="Z4,S1.2.4+" ana="sem:Z4" join="right">you</w>
+                     </phr>
+<pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.10.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#r_vakra_19810310" xml:id="ParlaMint-EE_2014-12-02_U63" ana="#regular" xml:lang="en" corresp="mt-src:ParlaMint-EE_2014-12-02_U63">
+               <seg xml:id="ParlaMint-EE_2014-12-02_U63-P1" xml:lang="en" corresp="mt-src:ParlaMint-EE_2014-12-02_U63-P1">
+                  <s xml:id="ParlaMint-EE_2014-12-02_U63-P1.1" n="1" corresp="mt-src:ParlaMint-EE_2014-12-02_U63-P1.1">
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.1.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="honourable" function="T1.3" ana="sem:T1.3">Honourable</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="chairman" function="T1.3" ana="sem:T1.3" join="right">Chairman</w>
+                     </phr>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.1.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">!</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U63-P1.2" n="2" corresp="mt-src:ParlaMint-EE_2014-12-02_U63-P1.2">
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.2.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="lady" function="T1.3" ana="sem:T1.3">Ladies</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.2.t2" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.2.t3" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="gentleman" function="T1.3" ana="sem:T1.3" join="right">gentlemen</w>
+                     </phr>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.2.t4" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U63-P1.3" n="3" corresp="mt-src:ParlaMint-EE_2014-12-02_U63-P1.3">
+                     <phr type="sem" function="Z1mf,Z3c" ana="sem:Z1">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="draft" function="Z1mf,Z3c" ana="sem:Z1">Draft</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="act" function="Z1mf,Z3c" ana="sem:Z1">Act</w>
+                     </phr>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t3" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="amend" function="A2.1+" ana="sem:A2.1p">amending</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t4" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="act" function="A1.1.1,T1.1.2,A8,K4" ana="sem:A1.1.1">Act</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t6" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="implement" function="A1.1.1,A9-/O2" ana="sem:A1.1.1">implementing</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t7" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t8" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="General" function="Z1mf,Z3c" ana="sem:Z1">General</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="part" function="Z1mf,Z3c" ana="sem:Z1">Part</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t10" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t11" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     </name>
+                     <name type="MISC">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t12" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Environmental" function="Z1mf,Z3c" ana="sem:Z1">Environmental</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t13" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="code" function="Z1mf,Z3c" ana="sem:Z1">Code</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t14" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Act" function="Z1mf,Z3c" ana="sem:Z1">Act</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t15" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="781" function="N1" ana="sem:N1">781</w>
+                     </name>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t16" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t17" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="initiate" function="T2+" ana="sem:T2p">initiated</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t18" pos="IN" msd="UPosTag=ADP" lemma="by" function="Z5" ana="sem:Z5">by</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t19" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t20" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Environmental" function="Z1mf,Z3c" ana="sem:Z1">Environmental</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t21" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Committee" function="Z1mf,Z3c" ana="sem:Z1">Committee</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t22" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t23" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t24" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Riigikogu" function="Z99" ana="sem:Z99">Riigikogu</w>
+                     </name>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t25" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t26" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="17" function="N1" ana="sem:N1">17</w>
+                     <phr type="sem" function="Z2,Z1mf,T1.3" ana="sem:Z2">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t27" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="November" function="Z2,Z1mf,T1.3" ana="sem:Z2">November</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t28" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2014" function="Z2,Z1mf,T1.3" ana="sem:Z2" join="right">2014</w>
+                     </phr>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.t29" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U63-P1.4" n="4" corresp="mt-src:ParlaMint-EE_2014-12-02_U63-P1.4">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.4.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.4.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="executive" function="Z1mf,Z3c" ana="sem:Z1">Executive</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.4.t3" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Board" function="Z1mf,Z3c" ana="sem:Z1">Board</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.4.t4" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.4.t5" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.4.t6" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Riigikogu" function="Z99" ana="sem:Z99">Riigikogu</w>
+                     </name>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.4.t7" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="appoint" function="S7.1+" ana="sem:S7.1p">appointed</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.4.t8" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.4.t9" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Committee" function="S7.1+/S5+c" ana="sem:S7.1p sem:S5p">Committee</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.4.t10" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.4.t11" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.4.t12" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="environment" function="W5,W3,E1,Y2,O4.1" ana="sem:W5">Environment</w>
+                     </name>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.4.t13" pos="IN" msd="UPosTag=ADP" lemma="as" function="Z5" ana="sem:Z5">as</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.4.t14" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.4.t15" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="lead" function="S7.1+,O2/L2,O3,S8+,O1.1,K4/S2mf" ana="sem:S7.1p">lead</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.4.t16" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="committee" function="S7.1+/S5+c" ana="sem:S7.1p sem:S5p" join="right">committee</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.4.t17" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U63-P1.5" n="5" corresp="mt-src:ParlaMint-EE_2014-12-02_U63-P1.5">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="act" function="A1.1.1,T1.1.2,A8,K4" ana="sem:A1.1.1">Act</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t3" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="implement" function="A1.1.1,A9-/O2" ana="sem:A1.1.1">implementing</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t4" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t5" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="General" function="Z1mf,Z3c" ana="sem:Z1">General</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t6" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="part" function="Z1mf,Z3c" ana="sem:Z1">Part</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t7" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t8" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t9" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Environmental" function="Z1mf,Z3c" ana="sem:Z1">Environmental</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t10" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="code" function="Z1mf,Z3c" ana="sem:Z1">Code</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t11" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Act" function="Z1mf,Z3c" ana="sem:Z1">Act</w>
+                     </name>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t12" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="provide" function="A9-,S6+" ana="sem:A9n">provides</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t13" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t14" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Chapter" function="Q4.1,T1.3,S9/S5c,S5+c" ana="sem:Q4.1">Chapter</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t15" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="5" function="T1.3" ana="sem:T1.3">5</w>
+                     </name>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t16" pos="Z" msd="UPosTag=PUNCT" function="T1.3" ana="sem:T1.3" join="right">"</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t17" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="loading" function="M2" ana="sem:M2">Loading</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t18" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="procedure" function="X4.2" ana="sem:X4.2" join="right">procedure</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t19" pos="Z" msd="UPosTag=PUNCT" function="Z5" ana="sem:Z5">'</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t20" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="enter" function="M1,S5+,Q1.2,T2+,A1.8+,Y2" ana="sem:M1">enters</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t21" pos="IN" msd="UPosTag=ADP" lemma="into" function="Z5" ana="sem:Z5">into</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t22" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="force" function="E3-,S7.1+,G2.1c,N3,S5+c" ana="sem:E3n">force</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t23" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t24" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1" function="N1" ana="sem:N1">1</w>
+                     <phr type="sem" function="Z2,Z1mf,T1.3" ana="sem:Z2">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t25" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="January" function="Z2,Z1mf,T1.3" ana="sem:Z2">January</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t26" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2015" function="Z2,Z1mf,T1.3" ana="sem:Z2" join="right">2015</w>
+                     </phr>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.t27" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U63-P1.6" n="6" corresp="mt-src:ParlaMint-EE_2014-12-02_U63-P1.6">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t1" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">However</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t3" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">this</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t4" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="date" function="T1.2,S3.2,S3.2/S2mf" ana="sem:T1.2">date</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t5" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="do" function="A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5" ana="sem:A1.1.1">does</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t6" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t7" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="take" function="A9+,T1.3,C1,A1.1.1,M2,S7.1-,A2.1+,X2.4,S6+,S7.4+,N3,A2.1+,P1,M1,X2.5+,F1@,F2@,Q1.2@,B3@" ana="sem:A9p">take</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t8" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="account" function="I1,I1.3,I2.1,Q2.2,Y2" ana="sem:I1">account</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t9" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t10" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="reality" function="A3+,A5.2+" ana="sem:A3p" join="right">reality</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t12" pos="IN" msd="UPosTag=SCONJ" lemma="as" function="Z5" ana="sem:Z5">as</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t13" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t14" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="specific" function="A4.2+" ana="sem:A4.2p">specific</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t15" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="law" function="G2.1,S6+" ana="sem:G2.1">laws</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t16" pos="RB" msd="UPosTag=ADV" lemma="directly" function="M6,N3.8+,S1.1.1" ana="sem:M6">directly</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t17" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="related" function="A2.2,S4" ana="sem:A2.2">related</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t18" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t19" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">this</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t20" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="chapter" function="Q4.1,T1.3,S9/S5c,S5+c" ana="sem:Q4.1">chapter</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t21" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="cannot" function="Z99" ana="sem:Z99">cannot</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t22" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="enter" function="M1,S5+,Q1.2,T2+,A1.8+,Y2" ana="sem:M1">enter</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t23" pos="IN" msd="UPosTag=ADP" lemma="into" function="Z5" ana="sem:Z5">into</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t24" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="force" function="E3-,S7.1+,G2.1c,N3,S5+c" ana="sem:E3n">force</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t25" pos="IN" msd="UPosTag=ADP" lemma="by" function="Z5" ana="sem:Z5">by</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t26" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t27" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="time" function="T1,T1.2,T1.3,T1.1.2,N6,N1,K2,G2.1@" ana="sem:T1" join="right">time</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.t28" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U63-P1.7" n="7" corresp="mt-src:ParlaMint-EE_2014-12-02_U63-P1.7">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="draft" function="Q1.2,G3,Q1.2/I1" ana="sem:Q1.2">draft</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t3" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="do" function="A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5" ana="sem:A1.1.1">does</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t4" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t5" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="envisage" function="X2.6+" ana="sem:X2.6p">envisage</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t6" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t7" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="specific" function="A4.2+" ana="sem:A4.2p">specific</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t8" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="date" function="T1.2,S3.2,S3.2/S2mf" ana="sem:T1.2">date</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t9" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t10" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="entry" function="M7,Q1.2,S7.3,M1,T2+" ana="sem:M7">entry</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t11" pos="IN" msd="UPosTag=ADP" lemma="into" function="Z5" ana="sem:Z5">into</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t12" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="force" function="E3-,S7.1+,G2.1c,N3,S5+c" ana="sem:E3n" join="right">force</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t13" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t14" pos="IN" msd="UPosTag=SCONJ" lemma="as" function="Z5" ana="sem:Z5">as</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t15" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t16" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="may" function="A7+" ana="sem:A7p">may</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t17" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t18" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t19" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="possible" function="A7+" ana="sem:A7p">possible</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t20" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t21" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="comply" function="A6.1+,S7.1-" ana="sem:A6.1p">comply</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t22" pos="IN" msd="UPosTag=ADP" lemma="with" function="Z5" ana="sem:Z5">with</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t23" pos="PRP" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t24" pos="RBR" msd="UPosTag=ADV|Degree=Cmp" lemma="late" function="T4--,T1.1.3,N4" ana="sem:T4n" join="right">later</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.t25" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U63-P1.8" n="8" corresp="mt-src:ParlaMint-EE_2014-12-02_U63-P1.8">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Chapter" function="Q4.1,T1.3,S9/S5c,S5+c" ana="sem:Q4.1">Chapter</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t2" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="5" function="N1" ana="sem:N1">5</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t4" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t5" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="General" function="Z1mf,Z3c" ana="sem:Z1">General</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t6" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="part" function="Z1mf,Z3c" ana="sem:Z1">Part</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t7" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t8" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t9" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Environmental" function="Z1mf,Z3c" ana="sem:Z1">Environmental</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t10" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="code" function="Z1mf,Z3c" ana="sem:Z1">Code</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t11" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Act" function="Z1mf,Z3c" ana="sem:Z1">Act</w>
+                     </name>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t12" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="enter" function="M1,S5+,Q1.2,T2+,A1.8+,Y2" ana="sem:M1">enters</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t13" pos="IN" msd="UPosTag=ADP" lemma="into" function="Z5" ana="sem:Z5">into</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t14" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="force" function="E3-,S7.1+,G2.1c,N3,S5+c" ana="sem:E3n">force</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t15" pos="IN" msd="UPosTag=ADP" lemma="upon" function="Z5" ana="sem:Z5">upon</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t16" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t17" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="entry" function="M7,Q1.2,S7.3,M1,T2+" ana="sem:M7">entry</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t18" pos="IN" msd="UPosTag=ADP" lemma="into" function="Z5" ana="sem:Z5">into</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t19" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="force" function="E3-,S7.1+,G2.1c,N3,S5+c" ana="sem:E3n">force</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t20" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t21" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t22" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="special" function="A4.2+,A6.2-" ana="sem:A4.2p">special</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t23" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="part" function="N5.1-,O2,M7,I3.1,S1.1.3+,K4" ana="sem:N5.1n">part</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t24" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t25" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t26" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="act" function="A1.1.1,T1.1.2,A8,K4" ana="sem:A1.1.1" join="right">Act</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t27" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t28" pos="JJ" msd="UPosTag=ADJ|Degree=Pos|ExtPos=ADP" lemma="such" function="Z5,Z8" ana="sem:Z5">such</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t29" pos="IN" msd="UPosTag=ADP" lemma="as" function="Z5" ana="sem:Z5">as</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t30" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t31" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Radiation" function="Z1mf,Z3c" ana="sem:Z1">Radiation</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t32" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Act" function="Z1mf,Z3c" ana="sem:Z1" join="right">Act</w>
+                     </name>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t33" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t34" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t35" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Water" function="Z1mf,Z3c" ana="sem:Z1">Water</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t36" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Act" function="Z1mf,Z3c" ana="sem:Z1" join="right">Act</w>
+                     </name>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t37" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t38" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t39" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Waste" function="Z1mf,Z3c" ana="sem:Z1">Waste</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t40" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Act" function="Z1mf,Z3c" ana="sem:Z1" join="right">Act</w>
+                     </name>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t41" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t42" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t43" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Air" function="Z1mf,Z3c" ana="sem:Z1">Air</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t44" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Protection" function="Z1mf,Z3c" ana="sem:Z1">Protection</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t45" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Act" function="Z1mf,Z3c" ana="sem:Z1">Act</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t46" pos="CC" msd="UPosTag=CCONJ" lemma="or" function="Z5" ana="sem:Z5">or</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t47" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t48" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Groundwater" function="Z1mf,Z3c" ana="sem:Z1">Groundwater</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t49" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Act" function="Z1mf,Z3c" ana="sem:Z1" join="right">Act</w>
+                     </name>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t50" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t51" pos="WRB" msd="UPosTag=SCONJ|PronType=Rel" lemma="where" function="M6" ana="sem:M6">where</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t52" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t53" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="entry" function="M7,Q1.2,S7.3,M1,T2+" ana="sem:M7">entry</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t54" pos="IN" msd="UPosTag=ADP" lemma="into" function="Z5" ana="sem:Z5">into</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t55" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="force" function="E3-,S7.1+,G2.1c,N3,S5+c" ana="sem:E3n">force</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t56" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t57" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t58" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="Chapter" function="Q4.1,T1.3,S9/S5c,S5+c" ana="sem:Q4.1">Chapter</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t59" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+                     <phr type="sem" function="S7.4+" ana="sem:S7.4p">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t60" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="provide" function="S7.4+" ana="sem:S7.4p">provided</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t61" pos="IN" msd="UPosTag=ADP" lemma="for" function="S7.4+" ana="sem:S7.4p" join="right">for</w>
+                     </phr>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.t62" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U63-P1.9" n="9" corresp="mt-src:ParlaMint-EE_2014-12-02_U63-P1.9">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="mean" function="Q1.1,X7+" ana="sem:Q1.1">means</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t3" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t4" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="permit" function="S7.4+" ana="sem:S7.4p">permit</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t6" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="granting" function="A9-,Q2.2" ana="sem:A9n">granting</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="procedure" function="X4.2" ana="sem:X4.2">procedure</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t8" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t9" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t10" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="enter" function="M1,S5+,Q1.2,T2+,A1.8+,Y2" ana="sem:M1">enter</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t11" pos="IN" msd="UPosTag=ADP" lemma="into" function="Z5" ana="sem:Z5">into</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t12" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="force" function="E3-,S7.1+,G2.1c,N3,S5+c" ana="sem:E3n">force</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t13" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t14" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1" function="N1" ana="sem:N1">1</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t15" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="January" function="T1.3" ana="sem:T1.3" join="right">January</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t17" pos="CC" msd="UPosTag=CCONJ" lemma="but" function="Z5" ana="sem:Z5">but</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t18" pos="RB" msd="UPosTag=ADV" lemma="together" function="S5+,T1.1.2,M6" ana="sem:S5p">together</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t19" pos="IN" msd="UPosTag=ADP" lemma="with" function="Z5" ana="sem:Z5">with</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t20" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t21" pos="JJ" msd="UPosTag=ADJ|Degree=Pos|NumType=Ord" lemma="first" function="N4" ana="sem:N4">first</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t22" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="law" function="G2.1,S6+,Y1" ana="sem:G2.1">law</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t23" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t24" pos="WDT" msd="UPosTag=PRON|PronType=Rel" lemma="which" function="Z5,Z8" ana="sem:Z5">which</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t25" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t26" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t27" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t28" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="implement" function="A1.1.1,A9-/O2" ana="sem:A1.1.1" join="right">implemented</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.t29" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U63-P1.10" n="10" corresp="mt-src:ParlaMint-EE_2014-12-02_U63-P1.10">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.10.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.10.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="draft" function="Q1.2,G3,Q1.2/I1" ana="sem:Q1.2">draft</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.10.t3" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">has</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.10.t4" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.10.t5" pos="VBN" msd="UPosTag=AUX|Tense=Past|VerbForm=Part" lemma="be" function="A3+,Z5" ana="sem:A3p">been</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.10.t6" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="approve" function="S7.4+,E2+,G1.1" ana="sem:S7.4p">approved</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.10.t7" pos="IN" msd="UPosTag=ADP" lemma="by" function="Z5" ana="sem:Z5">by</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.10.t8" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.10.t9" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Government" function="G1.1c" ana="sem:G1.1">Government</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.10.t10" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.10.t11" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P1.10.t12" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Republic" function="S5+/M7" ana="sem:S5p sem:M7" join="right">Republic</w>
+                     </name>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.10.t13" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-EE_2014-12-02_U63-P2" xml:lang="en" corresp="mt-src:ParlaMint-EE_2014-12-02_U63-P2">
+                  <s xml:id="ParlaMint-EE_2014-12-02_U63-P2.1" n="1" corresp="mt-src:ParlaMint-EE_2014-12-02_U63-P2.1">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t1" pos="IN" msd="UPosTag=ADP" lemma="at" function="Z5" ana="sem:Z5">At</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="meeting" function="S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+" ana="sem:S1.1.3p">meeting</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t4" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t5" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t6" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Committee" function="S7.1+/S5+c" ana="sem:S7.1p sem:S5p">Committee</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t7" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t8" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t9" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="environment" function="W5,W3,E1,Y2,O4.1" ana="sem:W5">Environment</w>
+                     </name>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t10" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t11" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="20" function="N1" ana="sem:N1">20</w>
+                     <phr type="sem" function="Z2,Z1mf,T1.3" ana="sem:Z2">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t12" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="November" function="Z2,Z1mf,T1.3" ana="sem:Z2">November</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t13" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2014" function="Z2,Z1mf,T1.3" ana="sem:Z2" join="right">2014</w>
+                     </phr>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t15" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t16" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t17" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="decide" function="X6+" ana="sem:X6p">decided</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t18" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t19" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="put" function="M2,Q2.1,Q2.2,A1.1.1" ana="sem:M2">put</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t20" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t21" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="draft" function="Q1.2,G3,Q1.2/I1" ana="sem:Q1.2">draft</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t22" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t23" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t24" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="plenary" function="S1.1.3+++" ana="sem:S1.1.3p">plenary</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t25" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="agenda" function="Q1.2/X7+" ana="sem:Q1.2 sem:X7p">agenda</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t26" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t27" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="LOC">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t28" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Riigikogu" function="Z99" ana="sem:Z99">Riigikogu</w>
+                     </name>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t29" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t30" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2" function="N1" ana="sem:N1">2</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t31" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="December" function="T1.3" ana="sem:T1.3" join="right">December</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t32" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t33" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t34" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="propose" function="Q2.2/X7+,X4.1,G1.2,Q2.2/S4" ana="sem:Q2.2 sem:X7p">propose</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t35" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t36" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="termination" function="T2-" ana="sem:T2n">termination</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t37" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t38" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <phr type="sem" function="G1.1" ana="sem:G1.1">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t39" pos="JJ" msd="UPosTag=ADJ|Degree=Pos|NumType=Ord" lemma="first" function="G1.1" ana="sem:G1.1">first</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t40" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="reading" function="G1.1" ana="sem:G1.1">reading</w>
+                     </phr>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t41" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t42" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t43" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="set" function="M2,M6,O4.5,O4.1,W4,A1.1.1,B3,B4,X6+,S6+,K2,Q4.3" ana="sem:M2">set</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t44" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t45" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="deadline" function="T1.2" ana="sem:T1.2">deadline</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t46" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t47" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="5" function="N1" ana="sem:N1">5</w>
+                     <phr type="sem" function="Z2,Z1mf,T1.3" ana="sem:Z2">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t48" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="December" function="Z2,Z1mf,T1.3" ana="sem:Z2">December</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t49" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="2014" function="Z2,Z1mf,T1.3" ana="sem:Z2">2014</w>
+                     </phr>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t50" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t51" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t52" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="781" function="N1" ana="sem:N1">781</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t53" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="amendment" function="A2.1+" ana="sem:A2.1p">amendments</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t54" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t55" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t56" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="draft" function="Q1.2,G3,Q1.2/I1" ana="sem:Q1.2" join="right">draft</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.t57" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U63-P2.2" n="2" corresp="mt-src:ParlaMint-EE_2014-12-02_U63-P2.2">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.2.t1" pos="PDT" msd="UPosTag=DET" lemma="all" function="N5.1+" ana="sem:N5.1p">All</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.2.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.2.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="commission" function="I2.2,G3/S7.1+" ana="sem:I2.2" join="right">Commission</w>
+                     </name>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.2.t4" pos="POS" msd="UPosTag=PART" lemma="'s" function="Z5" ana="sem:Z5">'s</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.2.t5" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="decision" function="X6+" ana="sem:X6p">decisions</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.2.t6" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">were</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.2.t7" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="consensual" function="A6.1+" ana="sem:A6.1p" join="right">consensual</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P2.2.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U63-P2.3" n="3" corresp="mt-src:ParlaMint-EE_2014-12-02_U63-P2.3">
+                     <phr type="sem" function="Z4,S1.2.4+" ana="sem:Z4">
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.3.t1" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="thank" function="Z4,S1.2.4+" ana="sem:Z4">Thank</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U63-P2.3.t2" pos="PRP" msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs" lemma="you" function="Z4,S1.2.4+" ana="sem:Z4" join="right">you</w>
+                     </phr>
+<pc xml:id="ParlaMint-EE_2014-12-02_U63-P2.3.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-EE_2014-12-02.ana.note64" xml:lang="en" corresp="mt-src:ParlaMint-EE_2014-12-02.ana.note64">EikiNestor</note>
+            <u who="#e_nestor_19530905" xml:id="ParlaMint-EE_2014-12-02_U64" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-EE_2014-12-02_U64">
+               <seg xml:id="ParlaMint-EE_2014-12-02_U64-P1" xml:lang="en" corresp="mt-src:ParlaMint-EE_2014-12-02_U64-P1">
+                  <s xml:id="ParlaMint-EE_2014-12-02_U64-P1.1" n="1" corresp="mt-src:ParlaMint-EE_2014-12-02_U64-P1.1">
+                     <phr type="sem" function="Z4,S1.2.4+" ana="sem:Z4">
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.1.t1" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="thank" function="Z4,S1.2.4+" ana="sem:Z4">Thank</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.1.t2" pos="PRP" msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs" lemma="you" function="Z4,S1.2.4+" ana="sem:Z4" join="right">you</w>
+                     </phr>
+<pc xml:id="ParlaMint-EE_2014-12-02_U64-P1.1.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U64-P1.2" n="2" corresp="mt-src:ParlaMint-EE_2014-12-02_U64-P1.2">
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.2.t1" pos="DT" msd="UPosTag=DET" lemma="any" function="N5.1+,N5" ana="sem:N5.1p">Any</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.2.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="question" function="Q2.2,X4.1" ana="sem:Q2.2">questions</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.2.t3" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.2.t4" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.2.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="waitress" function="I3.1/F1/S2.1f" ana="sem:I3.1 sem:F1 sem:S2.1" join="right">waitress</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U64-P1.2.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U64-P1.3" n="3" corresp="mt-src:ParlaMint-EE_2014-12-02_U64-P1.3">
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.3.t1" pos="UH" msd="UPosTag=INTJ|Polarity=Neg" lemma="no" function="Z4" ana="sem:Z4" join="right">No</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U64-P1.3.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.3.t3" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8" join="right">it</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.3.t4" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A9+,A3+,A2.2,Z5" ana="sem:A9p">'s</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.3.t5" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6" join="right">not</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U64-P1.3.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U64-P1.4" n="4" corresp="mt-src:ParlaMint-EE_2014-12-02_U64-P1.4">
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.4.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8" join="right">I</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.4.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">'m</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.4.t3" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="open" function="A1.1.1,T2+" ana="sem:A1.1.1">opening</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.4.t4" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="negotiation" function="Q2.2" ana="sem:Q2.2" join="right">negotiations</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U64-P1.4.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U64-P1.5" n="5" corresp="mt-src:ParlaMint-EE_2014-12-02_U64-P1.5">
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.5.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5" join="right">There</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.5.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A9+,A3+,A2.2,Z5" ana="sem:A9p">'s</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.5.t3" pos="DT" msd="UPosTag=DET" lemma="no" function="Z6" ana="sem:Z6">no</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.5.t4" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="call" function="Q2.2,S1.1.1,Q1.3,X7+,S9%" ana="sem:Q2.2" join="right">call</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U64-P1.5.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U64-P1.6" n="6" corresp="mt-src:ParlaMint-EE_2014-12-02_U64-P1.6">
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.6.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos|NumType=Ord" lemma="first" function="N4" ana="sem:N4">First</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.6.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="reading" function="Z2,Z3c" ana="sem:Z2">reading</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.6.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z2,Z3c" ana="sem:Z2">of</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.6.t4" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Bill" function="Z2,Z3c" ana="sem:Z2">Bill</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.6.t5" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="781" function="N1" ana="sem:N1">781</w>
+                     </name>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.6.t6" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.6.t7" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="complete" function="N5.1+,T2-,N3.2+" ana="sem:N5.1p" join="right">complete</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U64-P1.6.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U64-P1.7" n="7" corresp="mt-src:ParlaMint-EE_2014-12-02_U64-P1.7">
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.7.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.7.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.7.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="set" function="M2,M6,O4.5,O4.1,W4,A1.1.1,B3,B4,X6+,S6+,K2,Q4.3" ana="sem:M2">set</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.7.t4" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.7.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="deadline" function="T1.2" ana="sem:T1.2">deadline</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.7.t6" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.7.t7" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.7.t8" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="submission" function="S7.1-,Q1.2" ana="sem:S7.1n">submission</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.7.t9" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.7.t10" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="amendment" function="A2.1+" ana="sem:A2.1p">amendments</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.7.t11" pos="IN" msd="UPosTag=ADP" lemma="at" function="Z5" ana="sem:Z5">at</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.7.t12" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="12" function="N1" ana="sem:N1">12</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.7.t13" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="noon" function="T1.2" ana="sem:T1.2">noon</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.7.t14" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.7.t15" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="5" function="N1" ana="sem:N1">5</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.7.t16" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="December" function="T1.3" ana="sem:T1.3" join="right">December</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U64-P1.7.t17" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U64-P1.8" n="8" corresp="mt-src:ParlaMint-EE_2014-12-02_U64-P1.8">
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.8.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.8.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="sitting" function="M8,C1,P1,G1.1,G2.1,M6,A9+" ana="sem:M8">sitting</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.8.t3" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.8.t4" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="adjourn" function="T2-/G2.1" ana="sem:T2n sem:G2.1" join="right">adjourned</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U64-P1.8.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-EE_2014-12-02_U64-P1.9" n="9" corresp="mt-src:ParlaMint-EE_2014-12-02_U64-P1.9">
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.9.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8" join="right">I</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.9.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">'ll</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.9.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="see" function="A5.4+" ana="sem:A5.4p">see</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.9.t4" pos="PRP" msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs" lemma="you" function="A5.4+" ana="sem:A5.4p">you</w>
+                     </phr>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P1.9.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="tomorrow" function="T1.1.3" ana="sem:T1.1.3" join="right">tomorrow</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U64-P1.9.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-EE_2014-12-02_U64-P2" xml:lang="en" corresp="mt-src:ParlaMint-EE_2014-12-02_U64-P2">
+                  <s xml:id="ParlaMint-EE_2014-12-02_U64-P2.1" n="1" corresp="mt-src:ParlaMint-EE_2014-12-02_U64-P2.1">
+                     <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P2.1.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="closure" function="Df/A5.1+++mfnc" ana="sem:A5.1p">Closure</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P2.1.t2" pos="IN" msd="UPosTag=ADP" lemma="of" function="Df/A5.1+++mfnc" ana="sem:A5.1p">of</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P2.1.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Df/A5.1+++mfnc" ana="sem:A5.1p">the</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P2.1.t4" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="sitting" function="Df/A5.1+++mfnc" ana="sem:A5.1p">sitting</w>
+                     </phr>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P2.1.t5" pos="IN" msd="UPosTag=ADP" lemma="at" function="Z5" ana="sem:Z5">at</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P2.1.t6" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="11.35" function="N1" ana="sem:N1">11.35</w>
+<w xml:id="ParlaMint-EE_2014-12-02_U64-P2.1.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="a.m" function="Z99" ana="sem:Z99" join="right">a.m</w>
+<pc xml:id="ParlaMint-EE_2014-12-02_U64-P2.1.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

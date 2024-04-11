@@ -1,0 +1,132 @@
+# newdoc id = ParlaMint-FR_2019-01-16-O1119.u1
+# newpar id = ParlaMint-FR_2019-01-16-O1119.u1.1
+# lang = fr
+# sent_id = ParlaMint-FR_2019-01-16-O1119.s1
+# text = L'ordre du jour appelle les questions au Gouvernement.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	NER=O|SpaceAfter=No
+2	ordre	ordre	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	NER=O
+3-4	du	_	_	_	_	_	_	_	NER=O
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	jour	jour	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	NER=O
+6	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	NER=O
+8	questions	question	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	NER=O
+9-10	au	_	_	_	_	_	_	_	NER=O
+9	à	à	ADP	_	_	11	case	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	6	obl:arg	_	NER=B-MISC|SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	NER=O
+
+# newdoc id = ParlaMint-FR_2019-01-16-O1119.u2
+# newpar id = ParlaMint-FR_2019-01-16-O1119.u2.1
+# lang = fr
+# sent_id = ParlaMint-FR_2019-01-16-O1119.s2
+# text = La parole est à M. Sébastien Jumel.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER=O
+2	parole	parole	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	NER=O
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	NER=O
+4	à	à	ADP	_	_	5	case	_	NER=O
+5	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	NER=B-PER
+6	Sébastien	Sébastien	PROPN	_	_	5	flat:name	_	NER=I-PER
+7	Jumel	Jumel	PROPN	_	_	5	flat:name	_	NER=I-PER|SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# newdoc id = ParlaMint-FR_2019-01-16-O1119.u416
+# newpar id = ParlaMint-FR_2019-01-16-O1119.u416.1
+# lang = fr
+# sent_id = ParlaMint-FR_2019-01-16-O1119.s1743
+# text = La suite de la discussion est renvoyée à la prochaine séance.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER=O
+2	suite	suite	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	NER=O
+3	de	de	ADP	_	_	5	case	_	NER=O
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	NER=O
+5	discussion	discussion	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	NER=O
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	NER=O
+7	renvoyée	renvoyer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	NER=O
+8	à	à	ADP	_	_	11	case	_	NER=O
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	NER=O
+10	prochaine	prochain	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	NER=O
+11	séance	séance	NOUN	_	Gender=Fem|Number=Sing	7	obl:arg	_	NER=O|SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	NER=O
+
+# newdoc id = ParlaMint-FR_2019-01-16-O1119.u417
+# newpar id = ParlaMint-FR_2019-01-16-O1119.u417.1
+# lang = fr
+# sent_id = ParlaMint-FR_2019-01-16-O1119.s1744
+# text = Prochaine séance, ce soir, à vingt et une heures trente :
+1	Prochaine	prochain	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	NER=O
+2	séance	séance	NOUN	_	Gender=Fem|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	NER=O
+4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	NER=O
+5	soir	soir	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	_	_	11	punct	_	NER=O
+7	à	à	ADP	_	_	11	case	_	NER=O
+8	vingt	vingt	NUM	_	Number=Plur	11	nummod	_	NER=O
+9	et	et	CCONJ	_	_	10	cc	_	NER=O
+10	une	une	NUM	_	Gender=Fem|Number=Sing	8	conj	_	NER=O
+11	heures	heure	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	NER=O
+12	trente	trente	NUM	_	Number=Plur	11	nmod	_	NER=O
+13	:	:	PUNCT	_	_	2	punct	_	NER=O
+
+# newpar id = ParlaMint-FR_2019-01-16-O1119.u417.2
+# lang = fr
+# sent_id = ParlaMint-FR_2019-01-16-O1119.s1745
+# text = Suite de la discussion, en nouvelle lecture, du projet de loi de programmation 2018-2022 et de réforme pour la justice, et du projet de loi organique relatif au renforcement de l'organisation des juridictions.
+1	Suite	suite	NOUN	_	_	4	case	_	NER=O
+2	de	de	ADP	_	_	1	fixed	_	NER=O
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER=O
+4	discussion	discussion	NOUN	_	Gender=Fem|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	NER=O
+6	en	en	ADP	_	_	8	case	_	NER=O
+7	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	NER=O
+8	lecture	lecture	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	NER=O
+10-11	du	_	_	_	_	_	_	_	NER=O
+10	de	de	ADP	_	_	12	case	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	projet	projet	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	NER=O
+13	de	de	ADP	_	_	14	case	_	NER=O
+14	loi	loi	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	NER=O
+15	de	de	ADP	_	_	16	case	_	NER=O
+16	programmation	programmation	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	NER=O
+17	2018-2022	2018-2022	NUM	_	Number=Plur	16	nmod	_	NER=O
+18	et	et	CCONJ	_	_	20	cc	_	NER=O
+19	de	de	ADP	_	_	20	case	_	NER=O
+20	réforme	réforme	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	NER=O
+21	pour	pour	ADP	_	_	23	case	_	NER=O
+22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	NER=O
+23	justice	justice	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	NER=O|SpaceAfter=No
+24	,	,	PUNCT	_	_	28	punct	_	NER=O
+25	et	et	CCONJ	_	_	28	cc	_	NER=O
+26-27	du	_	_	_	_	_	_	_	NER=O
+26	de	de	ADP	_	_	28	case	_	_
+27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	projet	projet	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	NER=O
+29	de	de	ADP	_	_	30	case	_	NER=O
+30	loi	loi	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	NER=O
+31	organique	organique	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	NER=O
+32	relatif	relatif	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	NER=O
+33-34	au	_	_	_	_	_	_	_	NER=O
+33	à	à	ADP	_	_	35	case	_	_
+34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	renforcement	renforcement	NOUN	_	Gender=Masc|Number=Sing	32	obl:arg	_	NER=O
+36	de	de	ADP	_	_	38	case	_	NER=O
+37	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	38	det	_	NER=O|SpaceAfter=No
+38	organisation	organisation	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	NER=O
+39-40	des	_	_	_	_	_	_	_	NER=O
+39	de	de	ADP	_	_	41	case	_	_
+40	le	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	_
+41	juridictions	juridiction	NOUN	_	Gender=Fem|Number=Plur	38	nmod	_	NER=O|SpaceAfter=No
+42	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# newpar id = ParlaMint-FR_2019-01-16-O1119.u417.3
+# lang = fr
+# sent_id = ParlaMint-FR_2019-01-16-O1119.s1746
+# text = La séance est levée.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER=O
+2	séance	séance	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	NER=O
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	NER=O
+4	levée	lever	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	NER=O
+

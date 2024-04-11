@@ -4,7 +4,7 @@ This directory contains the TSV metadata files and the top-level `listPerson` an
 along with the build environment (Makefile) for this metadata enrichment.
 The output `listPerson` and `listOrg` files are written to [Sources-TEI](../Sources-TEI) and overwrite these two files there.
 
-The envisioned work-flow for adding metadata is:
+The work-flow for adding metadata has the following steps:
 1. From the corpus in [Sources-TEI](../Sources-TEI)/ParlaMint-XX.TEI/ copy the
   `ParlaMint-XX-listPerson.xml` and `ParlaMint-XX-listOrg.xml` to [Sources-TSV](../Sources-TSV)/ParlaMint-XX/
 2. For one of the defined layers for metadata addition (see below) run `make` with the appropriate target,
@@ -39,11 +39,13 @@ and can contain the following files for country `XX`:
 * `Ministers-XX.log`: log of trying to merge the hand-edited list of ministers into the listPerson
 
 ## TSV metadata files with CHES political orientations
-These TSV files are meant for inserting CHES (Chappel Hill Survey) political orientations into ParlaMint organisations,
+These TSV files are meant for inserting CHES (Chapel Hill Expert Survey) political orientations into ParlaMint organisations,
 i.e. into ParlaMint-XX-listOrg.xml
 and can contain the following files for country `XX`:
 * `OrientationCHES-XX.edited.tsv`: generated list of CHES variables from the source CSV files,
   together with the mapping of political party or parliamentary group IDs from CHES to those of ParlaMint
+
+Note that these files are not "edited" as such but are pre-processed, which is done in the [CHES/](CHES/) directory.
 
 ## TSV metadata files with Wiki political orientations
 These TSV files are meant for inserting WikiPedia left-to-right political orientations into ParlaMint organisations,

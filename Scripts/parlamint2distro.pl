@@ -102,18 +102,17 @@ $Saxon   = "java -jar $Bin/bin/saxon.jar";
 # Problem with Out of heap space with TR, NL, GB for ana
 $SaxonX  = "java -Xmx240g -jar $Bin/bin/saxon.jar";
 
-# For the following taxonomies we substitute the local taxonomy with common one,
-# reduced to the relevant langauges
-# We are assuming taxonomies are relative to the Scripts/ (i.e. $Bin/) directory
+# We substitute the local taxonomy with common one,
+# reduced to the relevant languages, if the language exists in the taxonomy
+# We assume the location of taxonomies is relative to the Scripts/ (i.e. $Bin/) directory
 $taxonomyDir = "$Bin/../Build/Taxonomies";
 $taxonomy{'ParlaMint-taxonomy-parla.legislature'}    = "$taxonomyDir/ParlaMint-taxonomy-parla.legislature.xml";
 $taxonomy{'ParlaMint-taxonomy-politicalOrientation'} = "$taxonomyDir/ParlaMint-taxonomy-politicalOrientation.xml";
 $taxonomy{'ParlaMint-taxonomy-speaker_types'}        = "$taxonomyDir/ParlaMint-taxonomy-speaker_types.xml";
 $taxonomy{'ParlaMint-taxonomy-subcorpus'}            = "$taxonomyDir/ParlaMint-taxonomy-subcorpus.xml";
 $taxonomy{'ParlaMint-taxonomy-NER.ana'}              = "$taxonomyDir/ParlaMint-taxonomy-NER.ana.xml";
-#We do not translate these two:
-#$taxonomy{'ParlaMint-taxonomy-CHES'}                 = "$taxonomyDir/ParlaMint-taxonomy-CHES.xml";
-#$taxonomy{'ParlaMint-taxonomy-UD-SYN.ana'}           = "$taxonomyDir/ParlaMint-taxonomy-UD-SYN.ana.xml";
+$taxonomy{'ParlaMint-taxonomy-CHES'}                 = "$taxonomyDir/ParlaMint-taxonomy-CHES.xml";
+$taxonomy{'ParlaMint-taxonomy-UD-SYN.ana'}           = "$taxonomyDir/ParlaMint-taxonomy-UD-SYN.ana.xml";
   
 # Mapping of countries to languages, we need it for mapping of common taxonomies
 $country2lang{'AT'} = 'de';
@@ -201,7 +200,9 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
             my $altTeiRoot = $inTeiRoot;
             $altTeiRoot =~ s/\.TEI// ;
             print STDERR "WARN: Can't find input TEI root $inTeiRoot, trying sample $altTeiRoot\n";
-            unless (-e $altTeiRoot) {die "FATAL: Can't find $altTeiRoot\n"}
+            unless (-e $altTeiRoot) {
+                print STDERR "WARN: Can't find sample TEI root $altTeiRoot\n";
+            }
             else {$inTeiRoot = $altTeiRoot}
         }
     }
@@ -210,7 +211,9 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
             my $altAnaRoot = $inAnaRoot;
             $altAnaRoot =~ s/\.TEI\.ana// ;
             print STDERR "WARN: Can't find input TEI root $inAnaRoot, trying sample $altAnaRoot\n";
-            unless (-e $altAnaRoot) {die "FATAL: Can't find $altAnaRoot\n"}
+            unless (-e $altAnaRoot) {
+                print STDERR "WARN: Can't find sample TEI root $altAnaRoot\n";
+            }
             else {$inAnaRoot = $altAnaRoot}
         }
     }
@@ -230,6 +233,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	$vertRegi = 'parlamint' . $Version . '_' . lc $countryCode;
 	$vertRegi =~ s/\.//g;   #e.g. 3.1 -> 31, so we will get e.g. parlamint31_at
 	$vertRegi =~ s/-/_/g;  #e.g. parlamint31_es-ct.regi to parlamint31_es_ct
+        # Remove -en suffix as we don't have parlamint99_xx_en registry files
+        $vertRegi =~ s/_$MT$// if $MT;  
 	$regiExt = 'regi'
     }
     
@@ -390,7 +395,7 @@ sub commonTaxonomies {
                     `$command $taxonomy{$taxonomy} > $outDir/$taxonomy.xml`;
                 }
                 else {
-                    die "FATAL: Can't find mapping between country code and language: ".
+                    die "FATAL ERROR: Can't find mapping between country code and language: ".
                         "pls. add \$country2lang{'$Country'} to parlamint2distro.pl!\n"
                 }
 	    }
@@ -436,7 +441,6 @@ sub cp_readme_top {
     my $outDir = shift;
     my $countryName; # Country name obtained from existing README
     my $countryCode; # Country code obtained from existing README
-    my $RegionalSuffix; #Not used
     die "FATAL ERROR: No country for cp_readme_top\n" unless $country;
     die "FATAL ERROR: No handle for cp_readme_top\n" unless $handle or $type eq 'sample';
     die "FATAL ERROR: No version for cp_readme_top\n" unless $version or $type eq 'sample';
@@ -452,32 +456,36 @@ sub cp_readme_top {
     
     open IN, '<:utf8', $inFile or die "FATAL ERROR: Can't open input top README $inFile\n";
     open OUT,'>:utf8', $outFile or die "FATAL ERROR: Can't open output top README $outFile\n";
-    # Input:  # ParlaMint directory for samples of country AT (Austria)
     # Output depends on $type, $MT, and $country:
-    # sample: # Samples of the ParlaMint-AT corpus
-    # en-smp: # Samples of the ParlaMint-AT corpus (translation to English)
-    # TEI:    # Corpus of parliamentary debates ParlaMint-AT
-    # ana:    # Linguistically annotated corpus of parliamentary debates ParlaMint-AT.ana
-    # en-TEI: # Corpus of parliamentary debates, ParlaMint-AT-en (translation to English)
-    # en-ana: # Linguistically annotated corpus of parliamentary debates ParlaMint-AT-en.ana (translation to English)
+    # sample: # Samples of the ParlaMint-XX corpus
+    # en-smp: # Samples of the ParlaMint-XX corpus (translation to English)
+    # TEI:    # Corpus of parliamentary debates ParlaMint-XX
+    # ana:    # Linguistically annotated corpus of parliamentary debates ParlaMint-XX.ana
+    # en-TEI: # Corpus of parliamentary debates, ParlaMint-XX-en (translation to English)
+    # en-ana: # Linguistically annotated corpus of parliamentary debates ParlaMint-XX-en.ana (translation to English)
 
     while (<IN>) {
-	if (m|# ParlaMint|) {
-	    ($countryCode, $RegionalSuffix, $countryName) = m| ([A-Z]{2}(-[A-Z]{2})?) \((.+)\)$|
-	       or die "FATAL ERROR: Bad line in README.md file: $_";
+	if (m|^# Samples|) {
+	    ($countryCode) = m|-([A-Z]{2}(-[A-Z]{2})?) |
+                or die "FATAL ERROR: Bad line in README.md file: $_";
 	    die "FATAL ERROR: Bad code $countryCode (!= $country) in $inFile\n" unless $country =~ /$countryCode/;
 	    if    ($type =~ /sample/i) {print OUT "# Samples of the ParlaMint-$countryCode corpus"}
 	    elsif ($type =~ /tei/i)    {print OUT "# Corpus of parliamentary debates ParlaMint-$countryCode"}
 	    elsif ($type =~ /ana/i)    {print OUT "# Linguistically annotated corpus of parliamentary debates ParlaMint-$countryCode"}
-	    else {die "Strange type $type for cp_readme_top\n"}
+	    else {die "FATAL ERROR: Strange type $type for cp_readme_top\n"}
 	    if ($MT) {print OUT "-en (translation to English)"}
 	    print OUT "\n";
 	}
-	elsif (m|- +Language|) {
-	    if    ($countryCode =~ /^..-..$/) {print OUT "- Autonomous region: "}
-	    elsif ($countryCode =~ /^..$/)    {print OUT "- Country: "}
-	    else {die "Strange country code $countryCode for cp_readme_top\n"}
+	elsif (m|- +Country| or m|- +Autonomous region|) {
+	    if    (/ [A-Z]{2}-[A-Z]{2}/) {print OUT "- Autonomous region: "}
+	    elsif (/ [A-Z]{2}/) {print OUT "- Country: "}
+	    else {die "FATAL ERROR: Strange country code $countryCode for cp_readme_top in $_\n"}
+	    unless (($countryName) = /\((.+)\)/) {
+                die "FATAL ERROR: Strange country code $countryName for cp_readme_top in $_\n"
+            }
 	    print OUT "$countryCode ($countryName)\n";
+        }
+	elsif (m|- +Language|) {
             # Language
 	    if ($MT) {print OUT "en (English) from "}
 	    print OUT; 

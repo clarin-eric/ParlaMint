@@ -91,7 +91,7 @@ insert_relations(\%relationList, 0, @countryRelFiles);
 
 fill_xml_taxonomy($root_node,\%relationList);
 
-open FILE, ">$outFile"  or die "Can't open file $!";
+open FILE, ">$outFile"  or die "FATAL ERROR: Can't open file $!";
 binmode FILE;
 print FILE to_string($dom);
 close FILE;
@@ -136,15 +136,20 @@ sub insert_relation {
 
 sub get_relation_from_file {
   my $file = shift;
-  open my $fh, '<', $file or die "Can't open file $!";
+  open my $fh, '<', $file or die "FATAL ERROR: Can't open file $!";
   my $content = do { local $/; <$fh>};
   close $fh;
   my $file_shortpath = $file;
   $file_shortpath =~ s/^.*(_[^\/]*\/(?:dep\/)?[^\/]*\.md)$/$1/;
   my ($table) = $content =~ m/^\s*(?:.*?---)?(.*?title.*?)---.*$/s;
+  $table //= '';
   my ($title) = $table =~ m/title\s*:\s*'?([^']*)'?\s*\n/s;
   my ($desc) = $table =~ m/shortdef\s*:\s*'?([^']*)'?\s*\n/s;
   my $term = $title;
+  unless($table){
+    print STDERR "WARN: invalid documentation format - missing table in $file_shortpath'\n";
+    return;
+  }
   if($term =~ tr/\x{0435}\x{0445}/ex/){ # fixing obscure characters in hy/dep/aux-ex.md and hyw/dep/aux-ex.md
     print STDERR "WARN: strange characters in title '$term'='",join('',map {sprintf('<0x%X>',ord($_))} split('',$title))," in $file_shortpath'\n";
   }
@@ -186,11 +191,11 @@ sub fill_xml_taxonomy {
     my $term = $rels->{$rel}->{term};
     #print STDERR $term//'##',"=$rel\t";
     if(!$term && %{$rels->{$rel}->{subrel}//{}} == 0){
-      print STDERR "WARN: skipping $term_path : $rel no info and no subrelations\n";
+      print STDERR "WARN: skipping $term_path : $rel no(/wrong) info and no subrelations\n";
       next;
     }
     if(!$term ){
-      print STDERR "ERROR: skipping $rel no info and no subrelations\n";
+      print STDERR "ERROR: skipping $rel no(/wrong) info and no subrelations\n";
       next;
     }
     $term //= $rel;
