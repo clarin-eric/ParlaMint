@@ -32,18 +32,17 @@ and the LREV publication describing  version 2.1:
   Tanja Wissik, Väinö Yrjänäinen, Darja Fišer.
   *ParlaMint II: Advancing Comparable Parliamentary Corpora Across Europe*.
   (2024).
-  [10.21203/rs.3.rs-4176128/v1](https://doi.org/10.21203/rs.3.rs-4176128/v1).
+  DOI: [10.21203/rs.3.rs-4176128/v1](https://doi.org/10.21203/rs.3.rs-4176128/v1).
   
 - Tomaž Erjavec, Maciej Ogrodniczuk, Petya Osenova, Nikola Ljubešić, Kiril Simov, Andrej Pančur,
-Michał Rudolf, Matyáš Kopp, Starkaður Barkarson, Steinþór Steingrímsson, Çağrı Çöltekin, Jesse
-de Does, Katrien Depuydt, Tommaso Agnoloni, Giulia Venturi, María Calzada Pérez, Luciana D. de
-Macedo, Costanza Navarretta, Giancarlo Luxardo, Matthew Coole, Paul Rayson, Vaidas Morkevičius,
-Tomas Krilavičius, Roberts Darǵis, Orsolya Ring, Ruben van Heusden, Maarten Marx & Darja Fišer.
-The ParlaMint corpora of parliamentary proceedings.
-*Language Resources & Evaluation* 57:415–448 (2023).
-[10.1007/s10579-021-09574-0](https://doi.org/10.1007/s10579-021-09574-0).
+  Michał Rudolf, Matyáš Kopp, Starkaður Barkarson, Steinþór Steingrímsson, Çağrı Çöltekin, Jesse
+  de Does, Katrien Depuydt, Tommaso Agnoloni, Giulia Venturi, María Calzada Pérez, Luciana D. de
+  Macedo, Costanza Navarretta, Giancarlo Luxardo, Matthew Coole, Paul Rayson, Vaidas Morkevičius,
+  Tomas Krilavičius, Roberts Darǵis, Orsolya Ring, Ruben van Heusden, Maarten Marx & Darja Fišer.
+  The ParlaMint corpora of parliamentary proceedings.
+  *Language Resources & Evaluation* 57:415–448 (2023).
+  DOI: [10.1007/s10579-021-09574-0](https://doi.org/10.1007/s10579-021-09574-0).
    
-
 ****
 
 This Git repository contains the ParlaMint XML schemas, the scripts used to validate and convert the
