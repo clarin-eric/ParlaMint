@@ -545,6 +545,13 @@ help-advanced: help
 $(addprefix working-dir-, $(PARLIAMENTS)): working-dir-%: %
 	mkdir -p ${WORKINGDIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}
 
+##!####DISTRO
+
+sync-Sources-TEI-XX = $(addprefix sync-Sources-TEI-, $(PARLIAMENTS))
+##!sync-Sources-TEI##
+sync-Sources-TEI: $(sync-Sources-TEI-XX)
+$(sync-Sources-TEI-XX): sync-Sources-TEI-%:
+	rsync -a --compress --progress -e'ssh -oCompression=no' $(SOURCE-LOCATION)/Build/Sources-TEI/ParlaMint-$*.TEI* Build/Sources-TEI/
 
 ##!####DEVEL
 ##!DEV-list-script-local-deps## for each file in Scripts folder shows list of dependencies in Script folder
