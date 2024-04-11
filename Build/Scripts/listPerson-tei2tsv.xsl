@@ -114,8 +114,7 @@
       <xsl:value-of select="replace(normalize-space($M), '&#32;', $multi-separator)"/>
     </xsl:variable>
     <!-- Affiliations that are valid for insertion into the parliamentaryGroup and politicalParty columns -->
-    <xsl:variable name="affiliations"
-                  select="tei:affiliation[@role='member' or @role='head' or @role='deputyHead' or @role='representative']"/>
+    <xsl:variable name="affiliations" select="tei:affiliation[@role='member' or @role='representative']"/>
     <xsl:variable name="ParGroups">
       <xsl:call-template name="affiliation-orgs">
         <xsl:with-param name="affiliations" select="$affiliations"/>
