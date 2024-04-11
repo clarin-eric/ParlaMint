@@ -30,9 +30,10 @@ and the LREV publication describing  version 2.1:
   Kahusk, Anna Kryvenko, Noémi Ligeti-Nagy, Carmen Magariños, Martin Mölder, Costanza
   Navarretta, Kiril Simov, Lars Magne Tungland, Jouni Tuominen, John Vidler, Adina Ioana Vladu,
   Tanja Wissik, Väinö Yrjänäinen, Darja Fišer.
-  *ParlaMint II: Advancing Comparable Parliamentary Corpora Across Europe}}*
-  [10.21203/rs.3.rs-4176128/v1](https://doi.org/10.21203/rs.3.rs-4176128/v1),
+  *ParlaMint II: Advancing Comparable Parliamentary Corpora Across Europe*.
   (2024).
+  [10.21203/rs.3.rs-4176128/v1](https://doi.org/10.21203/rs.3.rs-4176128/v1).
+  
 - Tomaž Erjavec, Maciej Ogrodniczuk, Petya Osenova, Nikola Ljubešić, Kiril Simov, Andrej Pančur,
 Michał Rudolf, Matyáš Kopp, Starkaður Barkarson, Steinþór Steingrímsson, Çağrı Çöltekin, Jesse
 de Does, Katrien Depuydt, Tommaso Agnoloni, Giulia Venturi, María Calzada Pérez, Luciana D. de
