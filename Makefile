@@ -553,6 +553,39 @@ sync-Sources-TEI: $(sync-Sources-TEI-XX)
 $(sync-Sources-TEI-XX): sync-Sources-TEI-%:
 	rsync -a --compress --progress -e'ssh -oCompression=no' $(SOURCE-LOCATION)/Build/Sources-TEI/ParlaMint-$*.TEI* Build/Sources-TEI/
 
+
+distro-make-all-XX = $(addprefix distro-make-all-, $(PARLIAMENTS))
+##!distro-make-all## enqueue slurm job for creating distribution from Build/Source-TEI
+distro-make-all: $(distro-make-all-XX)
+$(distro-make-all-XX): distro-make-all-%: Scripts/slurm_run_make-all.sh
+	CORPSIZE=$$(du -s --apparent-size Build/Sources-TEI/ParlaMint-$*.TEI.ana/|cut  -f1); \
+	MEMEXP=$$(echo "$$CORPSIZE*5/1000000" | bc ); \
+	MEMREQ=$$( [ "$$MEMEXP" -lt "16" ] && echo -n 16 || echo -n $$MEMEXP ); \
+	CPUREQ=$$( [ "$$MEMREQ" -gt "60" ] && echo -n 30 || echo -n 15  ); \
+	sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $*
+
+
+
+Scripts/slurm_run_make-all.sh:
+	echo '#!/bin/bash' > $@
+	echo "#SBATCH --chdir=Build/  ## first change directory and then all paths are relative to location" >> $@
+	echo '#SBATCH --output=Logs/%x.%j.log' >> $@
+	echo '#SBATCH --ntasks=1' >> $@
+	echo '#SBATCH --cpus-per-task=30' >> $@
+	echo '#SBATCH -q low' >> $@
+	echo '#SBATCH --mem=120G' >> $@
+	echo '' >> $@
+	echo 'CORP=$$1' >> $@
+	echo 'COMMIT=$$(git rev-parse --short HEAD)' >> $@
+	echo 'echo "$$SLURM_JOB_ID $$CORP"' >> $@
+	echo 'echo -e "$$(date +"%Y-%M-%dT%T")\t$$COMMIT\t$$CORP\tSTARTED\t$$SLURM_JOB_ID\t$$(hostname)\t-" >> Logs/ParlaMint.slurm.log' >> $@
+	echo 'RES=$$(/usr/bin/time --output=Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp -f "%x\t%E real, %U user, %S sys, %M kB" make all CORPORA=$$CORP)' >> $@
+	echo 'TIME=$$(cut -f 2 Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'CODE=$$(cut -f 1 Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'rm Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp' >> $@
+	echo 'echo -e "$$(date +"%Y-%M-%dT%T")\t$$COMMIT\t$$CORP\t$$( [ "$$CODE" -gt "0" ] && echo "FAILED-$$CODE" || echo "FINISHED" )\t$$SLURM_JOB_ID\t$$(hostname)\t$$TIME" >> Logs/ParlaMint.slurm.log' >> $@
+
+
 ##!####DEVEL
 ##!DEV-list-script-local-deps## for each file in Scripts folder shows list of dependencies in Script folder
 DEV-list-script-local-deps:
