@@ -14,9 +14,9 @@ VERTICAL "| zcat /data/vert/ParlaMint-DK.4.1.vert.gz"
 DOCSTRUCTURE speech
 MAXDETAIL 10000
 
-SUBCORPATTRS "speech.subcorpus|speech.body|speech.date,speech.topic,speech.term|speech.session|speech.meeting,speech.sitting|speech.agenda,speech.speaker_mp|speech.speaker_minister,speech.speaker_role|speech.speaker_name,speech.speaker_gender|speech.speaker_birth,speech.speaker_party|speech.speaker_party_name,speech.party_status|speech.party_orientation"
+SUBCORPATTRS "speech.subcorpus|speech.body|speech.date,speech.topic,speech.term|speech.session|speech.meeting,speech.sitting|speech.agenda,speech.speaker_mp|speech.speaker_minister,speech.speaker_role|speech.speaker_name,speech.speaker_gender|speech.speaker_birth,speech.speaker_party|speech.speaker_party_name,speech.party_status|speech.party_orientation|speech.text_id"
 SHORTREF "=speech.speaker_id,=speech.date"
-FULLREF "speech.id,speech.title,speech.date,speech.subcorpus,speech.body,speech.topic,speech.term,speech.session,speech.meeting,speech.sitting,speech.agenda,speech.speaker_name,speech.speaker_gender,speech.speaker_role,speech.speaker_mp,speech.speaker_minister,speech.speaker_party,speech.speaker_party_name,speech.party_status,speech.party_orientation"
+FULLREF "speech.id,speech.text_id,speech.title,speech.date,speech.subcorpus,speech.body,speech.topic,speech.term,speech.session,speech.meeting,speech.sitting,speech.agenda,speech.speaker_name,speech.speaker_gender,speech.speaker_role,speech.speaker_mp,speech.speaker_minister,speech.speaker_party,speech.speaker_party_name,speech.party_status,speech.party_orientation"
 
 SIMPLEQUERY '[lc="%s" | norm="%s" | lemma_lc="%s"]'
 
