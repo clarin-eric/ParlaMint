@@ -4,6 +4,11 @@
 
 ### VARIABLES
 
+##$JAVA-MEMORY## Set a java memory maxsize in GB
+JAVA-MEMORY=240
+JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
+
+
 ### COMPLETE SET OF CORPORA
 CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 #CORPORA=AT HU BA BE CZ EE ES-CT ES-GA ES-PV / DK
@@ -419,7 +424,7 @@ body:
 ###################### SCRIPT VARIABLES
 P = parallel --citation --gnu --halt 2
 #Run java with a large heap, as a complete corpus needs to be read in
-s = java -jar -Xmx240g ../Scripts/bin/saxon.jar
+s = java -jar $(JM) ../Scripts/bin/saxon.jar
 j = java -jar ../Scripts/bin/jing.jar
 
 pc = -I % $s -xi -xsl:../Scripts/copy.xsl % | $j parla-clarin.rng
