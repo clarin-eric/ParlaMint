@@ -559,9 +559,10 @@ distro-make-all-XX = $(addprefix distro-make-all-, $(PARLIAMENTS))
 distro-make-all: $(distro-make-all-XX)
 $(distro-make-all-XX): distro-make-all-%: Scripts/slurm_run_make-all.sh
 	CORPSIZE=$$(du -s --apparent-size Build/Sources-TEI/ParlaMint-$*.TEI.ana/|cut  -f1); \
-	MEMEXP=$$(echo "$$CORPSIZE*5/1000000" | bc ); \
-	MEMREQ=$$( [ "$$MEMEXP" -lt "16" ] && echo -n 16 || echo -n $$MEMEXP ); \
-	CPUREQ=$$( [ "$$MEMREQ" -gt "60" ] && echo -n 30 || echo -n 15  ); \
+	MEMEXP=$$(echo "$$CORPSIZE*6/1000000+10" | bc ); \
+	MEMREQ=$$( [ "$$MEMEXP" -lt "30" ] && echo -n 30 || echo -n $$MEMEXP ); \
+	CPUREQ=$$( [ "$$MEMREQ" -gt "60" ] && [ "$$MEMREQ" -lt "250" ] && echo -n 30 || echo -n 15  ); \
+	echo "COMMAND: sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $*"; \
 	sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $*
 
 
@@ -572,18 +573,22 @@ Scripts/slurm_run_make-all.sh:
 	echo '#SBATCH --output=Logs/%x.%j.log' >> $@
 	echo '#SBATCH --ntasks=1' >> $@
 	echo '#SBATCH --cpus-per-task=30' >> $@
+	echo '#SBATCH -p cpu-troja,cpu-ms' >> $@
 	echo '#SBATCH -q low' >> $@
 	echo '#SBATCH --mem=120G' >> $@
 	echo '' >> $@
 	echo 'CORP=$$1' >> $@
 	echo 'COMMIT=$$(git rev-parse --short HEAD)' >> $@
+	echo 'INSIZE=$$(du -s --apparent-size Sources-TEI/ParlaMint-$$CORP.TEI.ana/|cut  -f1)' >> $@
 	echo 'echo "$$SLURM_JOB_ID $$CORP"' >> $@
-	echo 'echo -e "$$(date +"%Y-%M-%dT%T")\t$$COMMIT\t$$CORP\tSTARTED\t$$SLURM_JOB_ID\t$$(hostname)\t-" >> Logs/ParlaMint.slurm.log' >> $@
-	echo 'RES=$$(/usr/bin/time --output=Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp -f "%x\t%E real, %U user, %S sys, %M kB" make all CORPORA=$$CORP)' >> $@
+	echo '# MEM=$$(echo -n "$$SLURM_MEM_PER_NODE/1000-1" | bc )' >> $@
+	echo 'CMD="make all CORPORA=$$CORP' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\tSTARTED\t$$SLURM_JOB_ID\t$$(hostname)\tmem=$$SLURM_MEM_PER_NODE cpus=$$SLURM_CPUS_ON_NODE in_ana=$$(echo "$${INSIZE}/1000000"|bc)GB\t$$CMD" >> Logs/ParlaMint.slurm.log' >> $@
+	echo 'RES=$$(/usr/bin/time --output=Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp -f "%x\t%E real, %U user, %S sys, %M kB" $$CMD)' >> $@
 	echo 'TIME=$$(cut -f 2 Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp)' >> $@
 	echo 'CODE=$$(cut -f 1 Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp)' >> $@
 	echo 'rm Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp' >> $@
-	echo 'echo -e "$$(date +"%Y-%M-%dT%T")\t$$COMMIT\t$$CORP\t$$( [ "$$CODE" -gt "0" ] && echo "FAILED-$$CODE" || echo "FINISHED" )\t$$SLURM_JOB_ID\t$$(hostname)\t$$TIME" >> Logs/ParlaMint.slurm.log' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\t$$( [ "$$CODE" -gt "0" ] && echo "FAILED-$$CODE" || echo "FINISHED" )\t$$SLURM_JOB_ID\t$$(hostname)\t$$TIME\t$$CMD" >> Logs/ParlaMint.slurm.log' >> $@
 
 
 ##!####DEVEL
