@@ -561,7 +561,7 @@ $(distro-make-all-XX): distro-make-all-%: Scripts/slurm_run_make-all.sh
 	CORPSIZE=$$(du -s --apparent-size Build/Sources-TEI/ParlaMint-$*.TEI.ana/|cut  -f1); \
 	MEMEXP=$$(echo "$$CORPSIZE*6/1000000+10" | bc ); \
 	MEMREQ=$$( [ "$$MEMEXP" -lt "30" ] && echo -n 30 || echo -n $$MEMEXP ); \
-	CPUREQ=$$( [ "$$MEMREQ" -gt "60" ] && [ "$$MEMREQ" -lt "250" ] && echo -n 30 || echo -n 15  ); \
+	CPUREQ=$$( [ "$$MEMREQ" -gt "250" ] && echo -n 14 || ( [ "$$MEMREQ" -gt "60" ]  && echo -n 30 || echo -n 15 )  ); \
 	echo "COMMAND: sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $*"; \
 	sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $*
 
