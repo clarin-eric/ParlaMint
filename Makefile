@@ -582,7 +582,7 @@ Scripts/slurm_run_make-all.sh:
 	echo 'INSIZE=$$(du -s --apparent-size Sources-TEI/ParlaMint-$$CORP.TEI.ana/|cut  -f1)' >> $@
 	echo 'echo "$$SLURM_JOB_ID $$CORP"' >> $@
 	echo '# MEM=$$(echo -n "$$SLURM_MEM_PER_NODE/1000-1" | bc )' >> $@
-	echo 'CMD="make all CORPORA=$$CORP' >> $@
+	echo 'CMD="make all CORPORA=$$CORP "' >> $@
 	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\tSTARTED\t$$SLURM_JOB_ID\t$$(hostname)\tmem=$$SLURM_MEM_PER_NODE cpus=$$SLURM_CPUS_ON_NODE in_ana=$$(echo "$${INSIZE}/1000000"|bc)GB\t$$CMD" >> Logs/ParlaMint.slurm.log' >> $@
 	echo 'RES=$$(/usr/bin/time --output=Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp -f "%x\t%E real, %U user, %S sys, %M kB" $$CMD)' >> $@
 	echo 'TIME=$$(cut -f 2 Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp)' >> $@
