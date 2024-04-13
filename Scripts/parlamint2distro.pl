@@ -261,14 +261,14 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	my $tmpOutAnaDir = "$tmpDir/$anaDir";
 	my $tmpAnaRoot = "$tmpOutDir/$anaRoot";
 	print STDERR "INFO: ***Fixing TEI.ana corpus for release\n";
-    $cmd = "$SaxonX outDir=$tmpOutDir -xsl:$scriptRelease $inAnaRoot";
-    `$cmd`;
-    print STDERR "FATAL ERROR: $cmd exited with $?\n" if $?;
+        $cmd = "$SaxonX outDir=$tmpOutDir -xsl:$scriptRelease $inAnaRoot";
+        `$cmd`;
+        die "FATAL ERROR: $cmd exited with $?\n" if $?;
 	print STDERR "INFO: ***Adding common content to TEI.ana corpus\n";
 	$cmd = "$SaxonX version=$Version handle-ana=$handleAna anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpAnaRoot";
-    `$cmd`;
-    print STDERR "FATAL ERROR: $cmd exited with $?\n" if $?;
-    &commonTaxonomies($countryCode, $outAnaDir);
+        `$cmd`;
+        die "FATAL ERROR: $cmd exited with $?\n" if $?;
+        &commonTaxonomies($countryCode, $outAnaDir);
     	&polish($outAnaDir);
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
@@ -294,11 +294,11 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	print STDERR "INFO: ***Fixing TEI corpus for release\n";
 	$cmd = "$SaxonX anaDir=$outAnaDir outDir=$tmpOutDir -xsl:$scriptRelease $inTeiRoot";
 	`$cmd`;
-        print STDERR "FATAL ERROR: $cmd exited with $?\n" if $?;
+        die "FATAL ERROR: $cmd exited with $?\n" if $?;
         print STDERR "INFO: ***Adding common content to TEI corpus\n";
 	$cmd = "$SaxonX version=$Version handle-txt=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpTeiRoot";
 	`$cmd`;
-        print STDERR "FATAL ERROR: $cmd exited with $?\n" if $?;
+        die "FATAL ERROR: $cmd exited with $?\n" if $?;
         &commonTaxonomies($countryCode, $outTeiDir);
 	&polish($outTeiDir);
     }
