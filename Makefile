@@ -577,7 +577,7 @@ Scripts/slurm_run_make-all.sh:
 	echo '#SBATCH -q low' >> $@
 	echo '#SBATCH --mem=120G' >> $@
 	echo '' >> $@
-	echo 'which parallel || echo "missing parallel ($$(hostname))" && exit 1' >> $@
+	echo 'which parallel || ( echo "missing parallel ($$(hostname))" && exit 1 )' >> $@
 	echo '' >> $@
 	echo 'CORP=$$1' >> $@
 	echo 'COMMIT=$$(git rev-parse --short HEAD)' >> $@
