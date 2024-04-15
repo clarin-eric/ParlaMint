@@ -102,6 +102,13 @@ $Saxon   = "java -jar $Bin/bin/saxon.jar";
 # Problem with Out of heap space with TR, NL, GB for ana
 $SaxonX  = "java -Xmx240g -jar $Bin/bin/saxon.jar";
 
+# logger variable stores info how long takes certain parts of code, used by logger subrutine
+my $logger = {
+    code => '',
+    time => undef,
+    message => undef
+};
+
 # We substitute the local taxonomy with common one,
 # reduced to the relevant languages, if the language exists in the taxonomy
 # We assume the location of taxonomies is relative to the Scripts/ (i.e. $Bin/) directory
@@ -170,6 +177,7 @@ unless ($countryCodes) {
 }
 foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     print STDERR "INFO: *****Converting $countryCode (" . localtime(). ")\n";
+    $logger->{code} = $countryCode;
 
     # Is this an MTed corpus?
     if ($countryCode =~ m/-([a-z]{2,3})$/) {$MT = $1}
@@ -243,6 +251,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	die "FATAL ERROR: Need version\n" unless $Version;
 	die "FATAL ERROR: Can't find input ana root $inAnaRoot\n" unless -e $inAnaRoot;
 	die "FATAL ERROR: No handle given for ana distribution\n" unless $handleAna;
+        logger('Preparing TEI.ana corpus directory');
 	# Output top level readme
 	&cp_readme_top($countryCode, $MT, 'ana', $handleAna, $Version, $docsDir, $outDir);
 	`rm -fr $outAnaDir; mkdir $outAnaDir`;
@@ -261,21 +270,26 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	my $tmpOutAnaDir = "$tmpDir/$anaDir";
 	my $tmpAnaRoot = "$tmpOutDir/$anaRoot";
 	print STDERR "INFO: ***Fixing TEI.ana corpus for release\n";
+        logger('Fixing TEI.ana corpus for release');
         $cmd = "$SaxonX outDir=$tmpOutDir -xsl:$scriptRelease $inAnaRoot";
         `$cmd`;
         die "FATAL ERROR: $cmd exited with $?\n" if $?;
 	print STDERR "INFO: ***Adding common content to TEI.ana corpus\n";
+        logger('Adding common content to TEI.ana corpus');
 	$cmd = "$SaxonX version=$Version handle-ana=$handleAna anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpAnaRoot";
         `$cmd`;
         die "FATAL ERROR: $cmd exited with $?\n" if $?;
         &commonTaxonomies($countryCode, $outAnaDir);
+        logger('Polishing TEI.ana corpus');
     	&polish($outAnaDir);
+        logger()
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
 	print STDERR "INFO: ***Finalizing $countryCode TEI\n";
 	die "FATAL ERROR: Need version\n" unless $Version;
 	die "FATAL ERROR: Can't find input tei root $inTeiRoot\n" unless -e $inTeiRoot; 
 	die "FATAL ERROR: No handle given for TEI distribution\n" unless $handleTEI;
+        logger('Preparing TEI corpus directory');
 	# Output top level readme
 	&cp_readme_top($countryCode, $MT, 'tei', $handleTEI, $Version, $docsDir, $outDir);
 	`rm -fr $outTeiDir; mkdir $outTeiDir`;
@@ -292,18 +306,23 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	my $tmpOutTeiDir = "$tmpDir/$teiDir";
 	my $tmpTeiRoot = "$tmpOutDir/$teiRoot";
 	print STDERR "INFO: ***Fixing TEI corpus for release\n";
+        logger('Fixing TEI corpus for release');
 	$cmd = "$SaxonX anaDir=$outAnaDir outDir=$tmpOutDir -xsl:$scriptRelease $inTeiRoot";
 	`$cmd`;
         die "FATAL ERROR: $cmd exited with $?\n" if $?;
         print STDERR "INFO: ***Adding common content to TEI corpus\n";
+        logger('Adding common content to TEI corpus');
 	$cmd = "$SaxonX version=$Version handle-txt=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpTeiRoot";
 	`$cmd`;
         die "FATAL ERROR: $cmd exited with $?\n" if $?;
         &commonTaxonomies($countryCode, $outTeiDir);
+        logger('Polishing TEI corpus');
 	&polish($outTeiDir);
+        logger();
     }
     if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
 	print STDERR "INFO: ***Making $countryCode samples\n";
+        logger('Making samples');
 	`rm -fr $outSmpDir; mkdir $outSmpDir`;
 	if (-e $outTeiRoot) {
 	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outTeiRoot`;
@@ -333,6 +352,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
 	print STDERR "INFO: ***Validating $countryCode TEI\n";
+        logger('Validating TEI');
 	die "FATAL ERROR: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	`$scriptValid $schemaDir $outSmpDir` if -e $outSmpDir; 
 	`$scriptValid $schemaDir $outTeiDir` if -e $outTeiDir;
@@ -340,6 +360,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procTxt) or (!$procAll and $procTxt == 1)) {
 	print STDERR "INFO: ***Making $countryCode text\n";
+        logger('Making text');
 	# We have an oportunistic handle, could be $handleTEI or $handleAna, depending on which one exists
 	if    ($handleTEI) {$handleTxt = $handleTEI}
 	elsif ($handleAna) {$handleTxt = $handleAna}
@@ -355,6 +376,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procConll) or (!$procAll and $procConll == 1)) {
 	print STDERR "INFO: ***Making $countryCode CoNLL-U\n";
+        logger('Making CoNLL-U');
 	die "FATAL ERROR: Can't find input ana dir $outAnaDir\n" unless -e $outAnaDir; 
 	die "FATAL ERROR: No handle given for ana distribution\n" unless $handleAna;
 	`rm -fr $outConlDir; mkdir $outConlDir`;
@@ -366,6 +388,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procVert) or (!$procAll and $procVert == 1)) {
 	print STDERR "INFO: ***Making $countryCode vert\n";
+        logger('Making vert');
 	die "FATAL ERROR: Can't find input ana dir $outAnaDir\n" unless -e $outAnaDir; 
 	die "FATAL ERROR: No handle given for ana distribution\n" unless $handleAna;
 	`rm -fr $outVertDir; mkdir $outVertDir`;
@@ -377,6 +400,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`$scriptVerts $outAnaDir $outVertDir`;
 	&dirify($outVertDir);
     }
+    logger();
     print STDERR "INFO: ***Finished processing $countryCode corpus.\n";
 }
 
@@ -520,4 +544,24 @@ sub cp_readme {
     }
     close IN;
     close OUT;
+}
+
+sub logger {
+    my $message = shift;
+    my $time = time();
+    if($logger->{time} && $logger->{message}) {
+        logger_print($logger->{code},$time,"DONE",$logger->{message},$time - $logger->{time});
+        $logger->{message} = undef;
+        $logger->{time} = undef;
+    }
+    if($message){
+        logger_print($logger->{code},$time,"START",$message);
+        $logger->{message} = $message;
+        $logger->{time} = $time;
+    }
+}
+sub logger_print {
+    my ($countryCode, $time, $status, $message, $duration) = @_;
+
+    print STDERR "INFO: $countryCode (",scalar(localtime($time)),") ### $status",(defined($duration) ? "($duration s)": ""),": $message","\n";
 }
