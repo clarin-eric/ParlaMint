@@ -559,7 +559,7 @@ distro-make-all-XX = $(addprefix distro-make-all-, $(PARLIAMENTS))
 distro-make-all: $(distro-make-all-XX)
 $(distro-make-all-XX): distro-make-all-%: Scripts/slurm_run_make-all.sh
 	CORPSIZE=$$(du -s --apparent-size Build/Sources-TEI/ParlaMint-$*.TEI.ana/|cut  -f1); \
-	MEMEXP=$$(echo "$$CORPSIZE*4/1000000+40" | bc ); \
+	MEMEXP=$$(echo "$$CORPSIZE*3/1000000+50" | bc ); \
 	MEMREQ=$$( [ "$$MEMEXP" -lt "30" ] && echo -n 30 || echo -n $$MEMEXP ); \
 	CPUREQ=$$( [ "$$MEMREQ" -gt "250" ] && echo -n 14 || ( [ "$$MEMREQ" -gt "120" ]  && echo -n 30 || echo -n 24 )  ); \
 	echo "COMMAND: sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $*"; \
