@@ -593,6 +593,51 @@ Scripts/slurm_run_make-all.sh:
 	echo 'rm Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp' >> $@
 	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\t$$( [ "$$CODE" -gt "0" ] && echo "FAILED-$$CODE" || echo "FINISHED" )\t$$SLURM_JOB_ID\t$$(hostname)\t$$TIME\t$$CMD" >> Logs/ParlaMint.slurm.log' >> $@
 
+##!####MT DISTRO
+
+sync-Sources-CoNLLU-XX = $(addprefix sync-Sources-CoNLLU-, $(PARLIAMENTS))
+##!sync-Sources-CoNLLU##
+sync-Sources-CoNLLU: $(sync-Sources-CoNLLU-XX)
+$(sync-Sources-CoNLLU-XX): sync-Sources-CoNLLU-%:
+	rsync -a --compress --progress -e'ssh -oCompression=no' $(SOURCE-LOCATION)/Build/Sources-CoNLLU/ParlaMint-$*-en* Build/Sources-CoNLLU/
+
+distro-make-all-XX = $(addprefix distro-make-all-, $(PARLIAMENTS))
+##!distro-make-all## enqueue slurm job for creating distribution from Build/Source-TEI
+distro-make-mt-all: $(distro-make-mt-all-XX)
+$(distro-make-mt-all-XX): distro-make-mt-all-%: Scripts/slurm_run_make-mt-all.sh
+	CORPSIZE=$$(du -s --apparent-size Build/Sources-TEI/ParlaMint-$*.TEI.ana/|cut  -f1); \
+	MEMEXP=$$(echo "$$CORPSIZE*3/1000000+50" | bc ); \
+	MEMREQ=$$( [ "$$MEMEXP" -lt "30" ] && echo -n 30 || echo -n $$MEMEXP ); \
+	CPUREQ=$$( [ "$$MEMREQ" -gt "250" ] && echo -n 14 || ( [ "$$MEMREQ" -gt "120" ]  && echo -n 30 || echo -n 24 )  ); \
+	echo "COMMAND: sbatch --job-name=pm$*-en-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-mt-all.sh $*"; \
+	sbatch --job-name=pm$*-en-distro --exclude=hyperion5 --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-mt-all.sh $*
+
+Scripts/slurm_run_make-mt-all.sh:
+	echo '#!/bin/bash' > $@
+	echo "#SBATCH --chdir=Build/  ## first change directory and then all paths are relative to location" >> $@
+	echo '#SBATCH --output=Logs/%x.%j.log' >> $@
+	echo '#SBATCH --ntasks=1' >> $@
+	echo '#SBATCH --cpus-per-task=30' >> $@
+	echo '#SBATCH -p cpu-troja,cpu-ms' >> $@
+	echo '#SBATCH -q low' >> $@
+	echo '#SBATCH --mem=120G' >> $@
+	echo '' >> $@
+	echo 'set -e' >> $@
+	echo 'which parallel || ( echo "missing parallel ($$(hostname))" && exit 1 )' >> $@
+	echo '' >> $@
+	echo 'CORP=$$1' >> $@
+	echo 'COMMIT=$$(git rev-parse --short HEAD)' >> $@
+	echo 'INSIZE=$$(du -s --apparent-size Sources-TEI/ParlaMint-$$CORP.TEI.ana/|cut  -f1)' >> $@
+	echo 'echo "$$SLURM_JOB_ID $$CORP"' >> $@
+	echo '# MEM=$$(echo -n "$$SLURM_MEM_PER_NODE/1000-1" | bc )' >> $@
+	echo 'CMD="make mt-all CORPORA=$$CORP "' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\tSTARTED\t$$SLURM_JOB_ID\t$$(hostname)\tmem=$$SLURM_MEM_PER_NODE cpus=$$SLURM_CPUS_ON_NODE in_ana=$$(echo "$${INSIZE}/1000000"|bc)GB\t$$CMD" >> Logs/ParlaMint-en.slurm.log' >> $@
+	echo 'RES=$$(/usr/bin/time --output=Logs/ParlaMint-en.slurm.$$SLURM_JOB_ID.tmp -f "%x\t%E real, %U user, %S sys, %M kB" $$CMD)' >> $@
+	echo 'TIME=$$(cut -f 2 Logs/ParlaMint-en.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'CODE=$$(cut -f 1 Logs/ParlaMint-en.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'rm Logs/ParlaMint-en.slurm.$$SLURM_JOB_ID.tmp' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\t$$( [ "$$CODE" -gt "0" ] && echo "FAILED-$$CODE" || echo "FINISHED" )\t$$SLURM_JOB_ID\t$$(hostname)\t$$TIME\t$$CMD" >> Logs/ParlaMint-en.slurm.log' >> $@
+
 
 ##!####DEVEL
 ##!DEV-list-script-local-deps## for each file in Scripts folder shows list of dependencies in Script folder
