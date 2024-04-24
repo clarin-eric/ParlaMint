@@ -1,3 +1,6 @@
+pack-meta:
+	perl Scripts/pack-meta.pl -readme Sources-Distro/README.Meta.txt -in Metadata -out Packed
+
 ########### Makefile for making a distributable version of the ParlaMint TEI, TEI.ana, -en.TEI.ana corpora and metadata overviews
 #### Variables give the corpora, version, handle, paths and scripts to use
 #### make nohup1 starts make all and saves the log in Logs/
@@ -11,12 +14,13 @@ JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
 
 ### COMPLETE SET OF CORPORA
 CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-#DONE AT BA BE BG CZ SI
-#DOING2 ES-CT ES-GA ES-PV
-#DOING1 EE ES
+#DONE AT BA BE BG CZ EE ES ES-CT ES-GA ES-PV FI FR GB GR HR IS IT LV NL SI 
+#DOING1 NO PL
+#DOING2
+#DOING3 
 CORPORA=
 # Used in targets that run only for one corpus
-#CORPUS=
+CORPUS=
 
 #Absolute paths are needed otherwise problems with XSLT
 PARLAMINT := $(shell realpath .. | tr -d '\n')# get real absolute path to ParlaMint directory
@@ -259,19 +263,19 @@ FINALIZE-MT=perl ../Scripts/parlamint2distro.pl -version ${VERSION} -anahandle $
 
 # Targets
 mt-nohup1:
-	nice nohup time make mt-all-final > Logs/ParlaMint-en.log &
+	nice nohup time make mt-all > Logs/ParlaMint-en.log &
 mt-nohup2:
-	nice nohup time make mt-all-final > Logs/ParlaMint-en.2.log &
+	nice nohup time make mt-all > Logs/ParlaMint-en.2.log &
 mt-nohup3:
-	nice nohup time make mt-all-final > Logs/ParlaMint-en.3.log &
+	nice nohup time make mt-all > Logs/ParlaMint-en.3.log &
 mt-nohup4:
-	nice nohup time make mt-all-final > Logs/ParlaMint-en.4.log &
+	nice nohup time make mt-all > Logs/ParlaMint-en.4.log &
 mt-nohup5:
-	nice nohup time make mt-all-final > Logs/ParlaMint-en.5.log &
+	nice nohup time make mt-all > Logs/ParlaMint-en.5.log &
 mt-nohup6:
-	nice nohup time make mt-all-final > Logs/ParlaMint-en.6.log &
+	nice nohup time make mt-all > Logs/ParlaMint-en.6.log &
 
-mt-all-final:	mt-convert
+mt-all:	mt-convert
 mt-xall-final:	mt-convert mt-verts mt-pack mt-web
 
 # Make MT .txt and CoNLL files
