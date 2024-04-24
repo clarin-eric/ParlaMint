@@ -601,8 +601,8 @@ sync-Sources-CoNLLU: $(sync-Sources-CoNLLU-XX)
 $(sync-Sources-CoNLLU-XX): sync-Sources-CoNLLU-%:
 	rsync -a --compress --progress -e'ssh -oCompression=no' $(SOURCE-LOCATION)/Build/Sources-CoNLLU/ParlaMint-$*-en* Build/Sources-CoNLLU/
 
-distro-make-all-XX = $(addprefix distro-make-all-, $(PARLIAMENTS))
-##!distro-make-all## enqueue slurm job for creating distribution from Build/Source-TEI
+distro-make-mt-all-XX = $(addprefix distro-make-mt-all-, $(PARLIAMENTS))
+##!distro-make-mt-all## enqueue slurm job for creating distribution from MT
 distro-make-mt-all: $(distro-make-mt-all-XX)
 $(distro-make-mt-all-XX): distro-make-mt-all-%: Scripts/slurm_run_make-mt-all.sh
 	CORPSIZE=$$(du -s --apparent-size Build/Sources-TEI/ParlaMint-$*.TEI.ana/|cut  -f1); \
