@@ -43,6 +43,14 @@ $scriptInsertNotes = "$Bin/mt-insert-notes.xsl";
 $scriptInsertSents = "$Bin/mt-insert-s.pl";
 $scriptPolish      = "$Bin/polish-xml.pl";
 
+# logger variable stores info how long takes certain parts of code, used by logger subrutine
+my $logger = {
+    code => $country,
+    time => undef,
+    message => undef
+};
+logger('Converting MTed and semantically annotated corpus to TEI');
+
 print STDERR "INFO: Preparing data for $country\n";
 $tmpTEI = "$tmpDir/ParlaMint-XX.tmp";
 mkdir $tmpTEI unless -d $tmpTEI;
@@ -72,4 +80,25 @@ foreach $yearDir (glob "$tmpTEI/*") {
 	`$Saxon notesFile=$notesFile -xsl:$scriptInsertNotes $inFile > $tmpFile2`;
 	`$scriptInsertSents $tmpFile1 < $tmpFile2 | $scriptPolish > $outFile`;
     }
+}
+logger();
+
+sub logger {
+    my $message = shift;
+    my $time = time();
+    if($logger->{time} && $logger->{message}) {
+        logger_print($logger->{code},$time,"DONE",$logger->{message},$time - $logger->{time});
+        $logger->{message} = undef;
+        $logger->{time} = undef;
+    }
+    if($message){
+        logger_print($logger->{code},$time,"START",$message);
+        $logger->{message} = $message;
+        $logger->{time} = $time;
+    }
+}
+sub logger_print {
+    my ($countryCode, $time, $status, $message, $duration) = @_;
+
+    print STDERR "INFO: $countryCode (",scalar(localtime($time)),") ### $status",(defined($duration) ? "($duration s)": ""),": $message","\n";
 }
