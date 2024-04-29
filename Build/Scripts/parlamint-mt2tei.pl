@@ -49,6 +49,13 @@ my $logger = {
     time => undef,
     message => undef
 };
+
+my $parallel = {
+    handle => undef,
+    scriptPath => undef,
+    currentJobNumber => undef
+};
+
 logger('Converting MTed and semantically annotated corpus to TEI');
 
 print STDERR "INFO: Preparing data for $country\n";
@@ -68,18 +75,22 @@ foreach $yearDir (glob "$tmpTEI/*") {
     ($year) = $yearDir =~ m|/(\d\d\d\d)$| or die "FATAL ERROR: Strange $yearDir\n";
     print STDERR "INFO: Processing $country $year\n";
     `mkdir $outDir/$year` unless -d "$outDir/$year";
+    parallel_start("$tmpDir/$year.sh");
     foreach $inFile (glob "$tmpTEI/$year/*.xml") {
-	($fName) = $inFile =~ m|/([^/]+)\.ana\.xml|;
-	$tmpFile1 = "$tmpDir/$fName.body.xml";
-	$tmpFile2 = "$tmpDir/$fName.note.xml";
-	$conllFile = "$conllDir/$year/$fName.conllu";
-	die "FATAL ERROR: Cant find ConLL-U file $conllFile\n" unless -e $conllFile;
-	$outFile = "$outDir/$year/$fName.ana.xml";
-	print STDERR "INFO: Processing $year/$fName\n";
-	`$scriptConllu2Tei < $conllFile > $tmpFile1`;
-	`$Saxon notesFile=$notesFile -xsl:$scriptInsertNotes $inFile > $tmpFile2`;
-	`$scriptInsertSents $tmpFile1 < $tmpFile2 | $scriptPolish > $outFile`;
+        ($fName) = $inFile =~ m|/([^/]+)\.ana\.xml|;
+        $tmpFile1 = "$tmpDir/$fName.body.xml";
+        $tmpFile2 = "$tmpDir/$fName.note.xml";
+        $conllFile = "$conllDir/$year/$fName.conllu";
+        die "FATAL ERROR: Cant find ConLL-U file $conllFile\n" unless -e $conllFile;
+        $outFile = "$outDir/$year/$fName.ana.xml";
+        parallel_insert_command("echo 'INFO: Processing $year/$fName'");
+        parallel_insert_command("$scriptConllu2Tei < $conllFile 2>&1 > $tmpFile1");
+        parallel_insert_command("$Saxon notesFile=$notesFile -xsl:$scriptInsertNotes $inFile 2>&1 > $tmpFile2");
+        parallel_insert_command("$scriptInsertSents $tmpFile1 < $tmpFile2 | $scriptPolish 2>&1 > $outFile");
+        parallel_end_job();
     }
+    parallel_run();
+    parallel_end();
 }
 logger();
 
@@ -100,5 +111,36 @@ sub logger {
 sub logger_print {
     my ($countryCode, $time, $status, $message, $duration) = @_;
 
-    print STDERR "INFO: $countryCode (",scalar(localtime($time)),") ### $status",(defined($duration) ? "($duration s)": ""),": $message","\n";
+    print STDERR "INFO: $countryCode-en (",scalar(localtime($time)),") ### $status",(defined($duration) ? "($duration s)": ""),": $message","\n";
+}
+
+
+sub parallel_start {
+    my $file = shift;
+    $parallel->{scriptPath} = $file;
+    $parallel->{currentJobNumber} = 1;
+    open($parallel->{handle},'>>',$parallel->{scriptPath});
+}
+
+sub parallel_end {
+    $parallel->{scriptPath} = undef;
+    $parallel->{currentJobNumber} = undef;
+    close $parallel->{handle};
+}
+
+sub parallel_insert_command {
+    my $command = shift;
+    my $n = $parallel->{currentJobNumber};
+    my $h = $parallel->{handle};
+    print $h "$command | sed \"s/^/$n\\t/\";";
+}
+
+sub parallel_end_job {
+    $parallel->{currentJobNumber} += 1;
+    my $h = $parallel->{handle};
+    print $h "\n";
+}
+sub parallel_run {
+    my $script = $parallel->{scriptPath};
+    `cat $script | parallel --gnu --halt 0 --jobs 20 | sort -snk1|sed "s/^[0-9]*\t//" 1>&2`;
 }
