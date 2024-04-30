@@ -119,7 +119,7 @@ sub parallel_start {
     my $file = shift;
     $parallel->{scriptPath} = $file;
     $parallel->{currentJobNumber} = 1;
-    open($parallel->{handle},'>>',$parallel->{scriptPath});
+    open($parallel->{handle},'>',$parallel->{scriptPath});
 }
 
 sub parallel_end {
