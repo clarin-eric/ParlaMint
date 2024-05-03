@@ -7,6 +7,7 @@ PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV 
 ##$JAVA-MEMORY## Set a java memory maxsize in GB
 JAVA-MEMORY =
 JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
+PARALLEL-JOBS = 10
 
 LANG-LIST =
 leftBRACKET := (
@@ -637,6 +638,66 @@ Scripts/slurm_run_make-mt-all.sh:
 	echo 'CODE=$$(cut -f 1 Logs/ParlaMint-en.slurm.$$SLURM_JOB_ID.tmp)' >> $@
 	echo 'rm Logs/ParlaMint-en.slurm.$$SLURM_JOB_ID.tmp' >> $@
 	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\t$$( [ "$$CODE" -gt "0" ] && echo "FAILED-$$CODE" || echo "FINISHED" )\t$$SLURM_JOB_ID\t$$(hostname)\t$$TIME\t$$CMD" >> Logs/ParlaMint-en.slurm.log' >> $@
+
+##!####DISTRO2TEITOK
+distro2teitok-XX = $(addprefix distro2teitok-, $(PARLIAMENTS))
+##!distro2teitok-##
+distro2teitok: $(distro2teitok-XX)
+$(distro2teitok-XX): distro2teitok-%:
+	$(eval TEIanadir :=Build/Distro/ParlaMint-$*.TEI.ana)
+	$(eval METAdir :=Build/Distro/ParlaMint-$*.conllu)
+	$(eval TTdir :=Build/Teitok/ParlaMint-$*)
+	$(eval FL :=$(TTdir)-components.fl)
+	test  -d "$(TEIanadir)" || echo "FATAL ERROR: TEI.ana folder is missing: $(TEIanadir)"
+	test  -d "$(METAdir)" || echo "FATAL ERROR: conllu folder is missing: $(METAdir)"
+	mkdir -p $(TTdir)
+	echo  "$(TEIanadir)/ParlaMint-$*.ana.xml" | xargs ${getcomponentincludes} > $(FL)
+	bash -c 'paste <(echo;head -n -1 $(FL)) <(cat $(FL)) <(tail -n +2 $(FL))' \
+	  | sed 's@\(.*\)\t\(.*\)\t\(.*\)@--prev="\1" --file="$(TEIanadir)/\2" --next="\3"@' \
+	  | sed 's/"/\\"/g' \
+	  | xargs -L1 echo 'perl Scripts/parlamint2teitok.pl --force --notok --tsvdir="$(METAdir)/" --outdir="$(TTdir)/" ' \
+	  > $(TTdir).sh
+	cat $(TTdir).sh | parallel --gnu --halt 0 --jobs $(PARALLEL-JOBS)
+	rm $(TTdir)-components.fl $(TTdir).sh
+
+
+slurm-distro2teitok-XX = $(addprefix slurm-distro2teitok-, $(PARLIAMENTS))
+##!slurm-distro2teitok-## enqueue slurm job for creating teitok version from distro
+slurm-distro2teitok: $(slurm-distro2teitok-XX)
+$(slurm-distro2teitok-XX): slurm-distro2teitok-%: Scripts/slurm_run_distro2teitok.sh
+	CORPSIZE=$$(du -s --apparent-size Build/Distro/ParlaMint-$*.TEI.ana/|cut  -f1); \
+	MEMEXP=$$(echo "$$CORPSIZE*3/1000000+50" | bc ); \
+	MEMREQ=$$( [ "$$MEMEXP" -lt "30" ] && echo -n 30 || echo -n $$MEMEXP ); \
+	CPUREQ=$$( [ "$$MEMREQ" -gt "250" ] && echo -n 14 || ( [ "$$MEMREQ" -gt "120" ]  && echo -n 30 || echo -n 24 )  ); \
+	sbatch --job-name=pm$*-tt --exclude=hyperion5 --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_distro2teitok.sh $*
+
+
+Scripts/slurm_run_distro2teitok.sh:
+	echo "TODO distro to teitok script, smarter splitting - only one teiCorpus (following/preceding), call distro2teitok-XX target"
+	echo '#!/bin/bash' > $@
+	#echo "#SBATCH --chdir=  ## first change directory and then all paths are relative to location" >> $@
+	echo '#SBATCH --output=Build/Logs/%x.%j.log' >> $@
+	echo '#SBATCH --ntasks=1' >> $@
+	echo '#SBATCH --cpus-per-task=30' >> $@
+	echo '#SBATCH -p cpu-troja,cpu-ms' >> $@
+	echo '#SBATCH -q low' >> $@
+	echo '#SBATCH --mem=120G' >> $@
+	echo '' >> $@
+	echo 'set -e' >> $@
+	echo 'which parallel || ( echo "missing parallel ($$(hostname))" && exit 1 )' >> $@
+	echo '' >> $@
+	echo 'CORP=$$1' >> $@
+	echo 'COMMIT=$$(git rev-parse --short HEAD)' >> $@
+	echo 'INSIZE=$$(du -s --apparent-size Build/Distro/ParlaMint-$$CORP.TEI.ana/|cut  -f1)' >> $@
+	echo 'echo "$$SLURM_JOB_ID $$CORP"' >> $@
+	echo '# MEM=$$(echo -n "$$SLURM_MEM_PER_NODE/1000-1" | bc )' >> $@
+	echo 'CMD="make distro2teitok PARLIAMENTS=$$CORP PARALLEL-JOBS=$$SLURM_CPUS_ON_NODE"' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\tSTARTED\t$$SLURM_JOB_ID\t$$(hostname)\tmem=$$SLURM_MEM_PER_NODE cpus=$$SLURM_CPUS_ON_NODE in_ana=$$(echo "$${INSIZE}/1000000"|bc)GB\t$$CMD" >> Build/Logs/ParlaMint.tt.slurm.log' >> $@
+	echo 'RES=$$(/usr/bin/time --output=Build/Logs/ParlaMint.tt.slurm.$$SLURM_JOB_ID.tmp -f "%x\t%E real, %U user, %S sys, %M kB" $$CMD)' >> $@
+	echo 'TIME=$$(cut -f 2 Build/Logs/ParlaMint.tt.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'CODE=$$(cut -f 1 Build/Logs/ParlaMint.tt.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'rm Build/Logs/ParlaMint.tt.slurm.$$SLURM_JOB_ID.tmp' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\t$$( [ "$$CODE" -gt "0" ] && echo "FAILED-$$CODE" || echo "FINISHED" )\t$$SLURM_JOB_ID\t$$(hostname)\t$$TIME\t$$CMD" >> Build/Logs/ParlaMint.tt.slurm.log' >> $@
 
 
 ##!####DEVEL
