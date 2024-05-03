@@ -665,11 +665,7 @@ slurm-distro2teitok-XX = $(addprefix slurm-distro2teitok-, $(PARLIAMENTS))
 ##!slurm-distro2teitok-## enqueue slurm job for creating teitok version from distro
 slurm-distro2teitok: $(slurm-distro2teitok-XX)
 $(slurm-distro2teitok-XX): slurm-distro2teitok-%: Scripts/slurm_run_distro2teitok.sh
-	CORPSIZE=$$(du -s --apparent-size Build/Distro/ParlaMint-$*.TEI.ana/|cut  -f1); \
-	MEMEXP=$$(echo "$$CORPSIZE*3/1000000+50" | bc ); \
-	MEMREQ=$$( [ "$$MEMEXP" -lt "30" ] && echo -n 30 || echo -n $$MEMEXP ); \
-	CPUREQ=$$( [ "$$MEMREQ" -gt "250" ] && echo -n 14 || ( [ "$$MEMREQ" -gt "120" ]  && echo -n 30 || echo -n 24 )  ); \
-	sbatch --job-name=pm$*-tt --exclude=hyperion5 --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_distro2teitok.sh $*
+	sbatch --job-name=pm$*-tt --exclude=hyperion5 --mem=10G --cpus-per-task=28 Scripts/slurm_run_distro2teitok.sh $*
 
 
 Scripts/slurm_run_distro2teitok.sh:
