@@ -262,7 +262,7 @@ sub valbyfld ( $$$ ) {
 # Now add the full speaker data (multilingually)
 if ( !$tsv ) {
 	if(!tsvdir) {
-    $tsv = $file; $tsv  =~ s/\.TEI\.ana/\.meta.tsv/;  $tsv  =~ s/\.ana\././; $tsv  =~ s/\.xml/-meta.tsv/;
+    $tsv = $file; $tsv  =~ s/\.TEI\.ana/\.conllu/;  $tsv  =~ s/\.ana\././; $tsv  =~ s/\.xml/-meta.tsv/;
     $tsven = $tsv; $tsven =~ s/-meta/-meta-en/;
   } else {
   	my $prefix = "$tsvdir/$sname";
