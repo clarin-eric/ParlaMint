@@ -14,7 +14,7 @@ GetOptions ( ## Command line options
             'notok' => \$notok, # force conversion even if there are no tokens
             'file=s' => \$file, # input tei file
             'tsv=s' => \$tsv, #
-            'tsvdir=s' => \$tsvdir, # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> !!! TODO
+            'tsvdir=s' => \$tsvdir, #
             'out=s' => \$out, # output file file
             'outdir=s' => \$outdir, # output dir
             'prev=s' => \$prev, # previous file in corpus root
@@ -28,7 +28,7 @@ if ( !$file) { $file = shift; };
 $sname = get_sname($file);
 
 if ( !$out ) {
-  if(!outdir) {
+  if(!$outdir) {
 	  $out = "xmlfiles/$sname";
   } else {
   	$out = "$outdir/$sname";
@@ -261,7 +261,7 @@ sub valbyfld ( $$$ ) {
 
 # Now add the full speaker data (multilingually)
 if ( !$tsv ) {
-	if(!tsvdir) {
+	if(!$tsvdir) {
     $tsv = $file; $tsv  =~ s/\.TEI\.ana/\.conllu/;  $tsv  =~ s/\.ana\././; $tsv  =~ s/\.xml/-meta.tsv/;
     $tsven = $tsv; $tsven =~ s/-meta/-meta-en/;
   } else {
