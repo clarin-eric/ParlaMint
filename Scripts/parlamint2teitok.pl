@@ -26,10 +26,11 @@ if ( !$file) { $file = shift; };
 
 
 $sname = get_sname($file);
+$corpus = get_corpus($file);
 
 if ( !$out ) {
   if(!$outdir) {
-	  $out = "xmlfiles/$sname";
+	  $out = "xmlfiles/$corpus/$sname";
   } else {
   	$out = "$outdir/$sname";
   }
@@ -415,4 +416,10 @@ sub get_sname {
   $sname =~ s/^.*\/(\d{4}\/ParlaMint-.*)/$1/;
   $sname =~ s/.ana.xml/.tt.xml/;
   return $sname;
+}
+
+sub get_corpus {
+  my $c = shift;
+  $c =~ s/^.*\/(ParlaMint-.*)_.*/$1/;
+  return $c;
 }
