@@ -117,7 +117,7 @@ foreach $tok ( @toks ) {
 
 foreach $media ( $xml->findnodes("//media") ) {
   if ( $sname =~ /-CZ/ ) {
-    $mbase = "https://lindat.mff.cuni.cz/services/teitok/data/parczech/www.psp.cz/eknih/";
+    $mbase = "https://lindat.mff.cuni.cz/services/teitok/data/parczech/";
   };
   if ( $mbase ) {
     $media->setAttribute("url", $mbase.$media->getAttribute("url"));
@@ -162,6 +162,21 @@ if ( $xml->findnodes("//pb") ) {
   # Already pb'd
   if ( $verbose ) { print "Already pb'd - adding atts later"; };
   $dopb = 1;
+  # inline media if pb contain corresp
+  foreach $pb ( $xml->findnodes("//text//pb[\@corresp]") ) {
+  	print STDERR $pb->toString;
+    foreach $corresp (map {s/^#//;$_} split(/\s+/, $pb->getAttribute("corresp"))){
+    	print STDERR $corresp;
+      my ($audio) = $xml->findnodes("//media[\@xml:id = '$corresp']");
+      print STDERR $audio->toString;
+      if($audio){
+      	$audio->unbindNode();
+      	$pb->parentNode->insertAfter($audio,$pb);
+      }
+    };
+  };
+
+
 
 } else {
   $dcnt = 0; $pbcnt = 0; $scnt = 1;
@@ -398,8 +413,6 @@ if ( $dopb || 1==1 ) {
           $pb->setAttribute("ana", $utt->getAttribute("ana"));
     if ( $debug ) { print $pb->toString; } ;
   };
-
-  # inline media if pb contain corresp
 };
 
 `mkdir -p $outf`;
