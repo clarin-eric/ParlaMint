@@ -259,13 +259,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	else {$inReadme = "$docsDir/README.TEI.ana.txt"}
 	die "FATAL ERROR: No handle given for TEI.ana distribution\n" unless $handleAna;
 	&cp_readme($countryCode, $handleAna, $Version, $inReadme, "$outAnaDir/00README.txt");
-	die "FATAL ERROR: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
-	dircopy($schemaDir, "$outAnaDir/Schema");
-	# Remove unwanted files
-	`rm -fr $outAnaDir/Schema/.git*`;
-	`rm -f $outAnaDir/Schema/nohup.*`;
-	`rm -f $outAnaDir/Schema/*.log`;
-	`rm -f $outAnaDir/Schema/Makefile`;
+        &cp_schema($schemaDir, $outAnaDir);
 	my $tmpOutDir = "$tmpDir/release.ana";
 	my $tmpOutAnaDir = "$tmpDir/$anaDir";
 	my $tmpAnaRoot = "$tmpOutDir/$anaRoot";
@@ -296,12 +290,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.txt"}
 	else {$inReadme = "$docsDir/README.TEI.txt"}
 	&cp_readme($countryCode, $handleTEI, $Version, $inReadme, "$outTeiDir/00README.txt");
-	die "FATAL ERROR: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
-	dircopy($schemaDir, "$outTeiDir/Schema");
-	`rm -f $outTeiDir/Schema/.*`;
-	`rm -f $outTeiDir/Schema/nohup.*`;
-	`rm -f $outTeiDir/Schema/*.log`;
-	`rm -f $outTeiDir/Schema/Makefile`;
+        &cp_schema($schemaDir, $outTeiDir);
 	my $tmpOutDir = "$tmpDir/release.tei";
 	my $tmpOutTeiDir = "$tmpDir/$teiDir";
 	my $tmpTeiRoot = "$tmpOutDir/$teiRoot";
@@ -544,6 +533,22 @@ sub cp_readme {
     }
     close IN;
     close OUT;
+}
+
+#Read in the appropriate $inFile README, change XX in it to country code, and output it $outFile
+sub cp_schema {
+    my $schemaDir = shift;
+    my $outDir = shift;
+    # Do not preserve symlinks when copying (for links in Schema/)
+    $File::Copy::Recursive::CopyLink = 0;
+    die "FATAL ERROR: Can't find schema directory\n"
+        unless $schemaDir and -e $schemaDir;
+    dircopy($schemaDir, "$outDir/Schema");
+    # Remove unwanted files
+    `rm -fr $outDir/Schema/.git*`;
+    `rm -f $outDir/Schema/nohup.*`;
+    `rm -f $outDir/Schema/*.log`;
+    `rm -f $outDir/Schema/Makefile`;
 }
 
 sub logger {
