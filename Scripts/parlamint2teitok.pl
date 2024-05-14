@@ -370,8 +370,14 @@ if ( !-e $tsv ) {
       $prs->addChild($nm);
 
       if ( $eng{$uid} ) {
-        $engs = split("\t", $eng{$uid});
-        ( $uid,  $title, $date, $body, $term, $session, $meeting, $sitting, $agenda, $subcorpus, $speaker_role, $speaker_MP, $speaker_Minister, $speaker_party, $speaker_party_name, $sarty_status, $speaker_name, $speaker_gender, $speaker_birth ) = split("\t", $eng{$uid});
+        #$engs = split("\t", $eng{$uid});
+        #( $uid,  $title, $date, $body, $term, $session, $meeting, $sitting, $agenda, $subcorpus, $speaker_role, $speaker_MP, $speaker_Minister, $speaker_party, $speaker_party_name, $party_status, $speaker_name, $speaker_gender, $speaker_birth ) = split("\t", $eng{$uid});
+        @vals = split("\t", $eng{$uid});
+        $fc = 0;
+        foreach $fval ( split("\t", $vals) ) {
+          ${$ff[$fc]} = $fval;
+          $fc++;
+        };
         $nm = $xml->createElement("persName");
         $nm->setAttribute("lang", "eng");
         $nm->appendText($vals[$fld2num{"speaker_name"}]);
