@@ -147,7 +147,7 @@ person =
     (element sex {
        attribute value { "M" | "F" | "U" | "O" | "N" },
        empty
-     }?
+     }
      & element birth { life-event.content }?
      & element death { life-event.content }?
      & affiliation*

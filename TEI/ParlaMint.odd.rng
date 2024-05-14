@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2024-04-08T18:37:43Z. 2024-03-03.
+Schema generated from ODD source 2024-05-14T10:06:48Z. 2024-05-14.
 TEI Edition: Version 4.6.0a. Last updated on
         5th January 2023, revision 9074b9038
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0a./
@@ -3841,16 +3841,14 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="tei_person">
       <element name="person">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(person) provides information about an identifiable individual, for example a participant in a language interaction, or a person referred to in a historical source. [13.3.2. The Person Element 15.2.2. The Participant Description]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(person) provides information about a speaker in the corpus, at the very least their name and sex. [13.3.2. The Person Element 15.2.2. The Participant Description]</a:documentation>
          <group>
             <oneOrMore>
                <ref name="tei_persName"/>
             </oneOrMore>
-            <zeroOrMore>
+            <oneOrMore>
                <choice>
-                  <optional>
-                     <ref name="tei_sex"/>
-                  </optional>
+                  <ref name="tei_sex"/>
                   <optional>
                      <ref name="tei_birth"/>
                   </optional>
@@ -3873,7 +3871,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                      <ref name="tei_figure"/>
                   </zeroOrMore>
                </choice>
-            </zeroOrMore>
+            </oneOrMore>
          </group>
          <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.n"/>
