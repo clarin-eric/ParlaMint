@@ -371,17 +371,14 @@
     </xsl:choose>
   </xsl:template>
 
-
   <!-- Processing persons: fix missing sex and fix affiliations -->
   <xsl:template match="tei:*[not(name()='affiliation')] | comment() | text()" mode="person">
     <xsl:apply-templates select="." mode="root"/>
-  </xsl:template>
-
-  <xsl:template match="tei:persName" mode="person">
-    <xsl:apply-templates select="." mode="root"/>
-    <!-- Insert missing sex after last persName -->
-    <xsl:if test="not(following-sibling::tei:persName or following-sibling::tei:sex)">
-      <sex value="U"/>
+    <xsl:if test="self::tei:persName and not(following-sibling::tei:persName)">
+      <!-- Insert missing sex after last persName -->
+      <xsl:if test="not(following-sibling::tei:sex)">
+        <sex value="U"/>
+      </xsl:if>
     </xsl:if>
   </xsl:template>
 
