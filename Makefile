@@ -560,11 +560,11 @@ distro-make-all-XX = $(addprefix distro-make-all-, $(PARLIAMENTS))
 distro-make-all: $(distro-make-all-XX)
 $(distro-make-all-XX): distro-make-all-%: Scripts/slurm_run_make-all.sh
 	CORPSIZE=$$(du -s --apparent-size Build/Sources-TEI/ParlaMint-$*.TEI.ana/|cut  -f1); \
-	MEMEXP=$$(echo "$$CORPSIZE*3/1000000+50" | bc ); \
+	MEMEXP=$$(echo "$$CORPSIZE*2.5/1000000+55" | bc ); \
 	MEMREQ=$$( [ "$$MEMEXP" -lt "30" ] && echo -n 30 || echo -n $$MEMEXP ); \
 	CPUREQ=$$( [ "$$MEMREQ" -gt "250" ] && echo -n 14 || ( [ "$$MEMREQ" -gt "120" ]  && echo -n 30 || echo -n 24 )  ); \
 	echo "COMMAND: sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $*"; \
-	sbatch --job-name=pm$*-distro --exclude=hyperion5 --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $*
+	sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $*
 
 
 
@@ -607,11 +607,11 @@ distro-make-mt-all-XX = $(addprefix distro-make-mt-all-, $(PARLIAMENTS))
 distro-make-mt-all: $(distro-make-mt-all-XX)
 $(distro-make-mt-all-XX): distro-make-mt-all-%: Scripts/slurm_run_make-mt-all.sh
 	CORPSIZE=$$(du -s --apparent-size Build/Sources-TEI/ParlaMint-$*.TEI.ana/|cut  -f1); \
-	MEMEXP=$$(echo "$$CORPSIZE*3/1000000+50" | bc ); \
+	MEMEXP=$$(echo "$$CORPSIZE*2/1000000+70" | bc ); \
 	MEMREQ=$$( [ "$$MEMEXP" -lt "30" ] && echo -n 30 || echo -n $$MEMEXP ); \
 	CPUREQ=$$( [ "$$MEMREQ" -gt "250" ] && echo -n 14 || ( [ "$$MEMREQ" -gt "120" ]  && echo -n 30 || echo -n 24 )  ); \
 	echo "COMMAND: sbatch --job-name=pm$*-en-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-mt-all.sh $*"; \
-	sbatch --job-name=pm$*-en-distro --exclude=hyperion5 --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-mt-all.sh $*
+	sbatch --job-name=pm$*-en-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-mt-all.sh $*
 
 Scripts/slurm_run_make-mt-all.sh:
 	echo '#!/bin/bash' > $@
@@ -665,7 +665,7 @@ slurm-distro2teitok-XX = $(addprefix slurm-distro2teitok-, $(PARLIAMENTS))
 ##!slurm-distro2teitok-## enqueue slurm job for creating teitok version from distro
 slurm-distro2teitok: $(slurm-distro2teitok-XX)
 $(slurm-distro2teitok-XX): slurm-distro2teitok-%: Scripts/slurm_run_distro2teitok.sh
-	sbatch --job-name=pm$*-tt --exclude=hyperion5 --mem=10G --cpus-per-task=28 Scripts/slurm_run_distro2teitok.sh $*
+	sbatch --job-name=pm$*-tt --mem=10G --cpus-per-task=28 Scripts/slurm_run_distro2teitok.sh $*
 
 
 Scripts/slurm_run_distro2teitok.sh:
