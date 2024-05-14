@@ -280,20 +280,18 @@
         <ref name="persName"/>
       </oneOrMore>
       <interleave>
-        <optional>
-          <element name="sex">
-            <attribute name="value">
-              <choice>
-                <value>M</value>
-                <value>F</value>
-                <value>U</value>
-                <value>O</value>
-                <value>N</value>
-              </choice>
-            </attribute>
-            <empty/>
-          </element>
-        </optional>
+        <element name="sex">
+          <attribute name="value">
+            <choice>
+              <value>M</value>
+              <value>F</value>
+              <value>U</value>
+              <value>O</value>
+              <value>N</value>
+            </choice>
+          </attribute>
+          <empty/>
+        </element>
         <optional>
           <element name="birth">
             <ref name="life-event.content"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemaSpec xmlns="http://www.tei-c.org/ns/1.0"
-           xmlns:eg="http://www.tei-c.org/ns/Examples"
+            xmlns:eg="http://www.tei-c.org/ns/Examples"
             xmlns:egXML="http://www.tei-c.org/ns/Examples"
             xmlns:pm="ParlaMint"
             xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -3686,15 +3686,12 @@
     </exemplum>
   </elementSpec>
   <elementSpec ident="person" module="namesdates" mode="change">
-    <desc
-        versionDate="2005-12-14"
-        xml:lang="en">provides information about an identifiable individual, for example a participant in a language interaction, or a person referred to in a
-    historical source.</desc>
+    <desc versionDate="2024-05-14" xml:lang="en">provides information about a speaker in the corpus, at the very least their name and sex.</desc>
     <content>
       <sequence>
         <elementRef key="persName" minOccurs="1" maxOccurs="unbounded"/>
-        <alternate minOccurs="0" maxOccurs="unbounded">
-          <elementRef key="sex" minOccurs="0" maxOccurs="1"/>
+        <alternate minOccurs="1" maxOccurs="unbounded">
+          <elementRef key="sex" minOccurs="1" maxOccurs="1"/>
           <elementRef key="birth" minOccurs="0" maxOccurs="1"/>
           <elementRef key="death" minOccurs="0" maxOccurs="1"/>
           <elementRef key="affiliation" minOccurs="0" maxOccurs="unbounded"/>
