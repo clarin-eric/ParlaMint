@@ -718,7 +718,7 @@ check-prereq-teitok2cqp:
 slurm-teitok2cqp-XX = $(addprefix slurm-teitok2cqp-, $(PARLIAMENTS))
 ##!slurm-teitok2cqp-## enqueue slurm job for creating teitok version from distro
 slurm-teitok2cqp: $(slurm-teitok2cqp-XX)
-$(slurm-teitok2cqp-XX): slurm-teitok2cqp-%: Scripts/slurm_run_distro2teitok.sh check-prereq-teitok2cqp
+$(slurm-teitok2cqp-XX): slurm-teitok2cqp-%: Scripts/slurm_run_teitok2cqp.sh check-prereq-teitok2cqp
 	sbatch --job-name=pm$*-cqp --mem=10G --cpus-per-task=1 Scripts/slurm_run_teitok2cqp.sh $* $(CQPsettings)
 
 Scripts/slurm_run_teitok2cqp.sh:
