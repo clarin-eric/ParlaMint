@@ -701,7 +701,7 @@ teitok2cqp-XX = $(addprefix teitok2cqp-, $(PARLIAMENTS))
 teitok2cqp: $(teitok2cqp-XX)
 $(teitok2cqp-XX): teitok2cqp-%: Build/Teitok-cqp check-prereq-teitok2cqp
 	settings=`realpath $(CQPsettings)`;\
-	cd Build/Teitok-cqp; \
+	cd Build/Teitok-tmp; \
 	perl ../../Scripts/teitok2cqp.pl --setfile=$$settings --sub="ParlaMint-$*"
 
 Build/Teitok-cqp:
