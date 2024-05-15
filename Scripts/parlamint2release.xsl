@@ -755,6 +755,24 @@
     </xsl:copy>
   </xsl:template>
 
+  <!-- BG uses <incident type="incident"> and <kinesic type="kinesic">, remove such useless @type -->
+  <xsl:template mode="comp" match="tei:incident | tei:kinesic | tei:vocal">
+    <xsl:copy>
+      <xsl:variable name="tag" select="name()"/>
+      <xsl:choose>
+        <xsl:when test="@type = $tag">
+          <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                               ': removing useless ', $tag, '/@type=', $tag, ' in ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+          <xsl:apply-templates mode="comp" select="@*[not(name() = 'type')]"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates mode="comp" select="@*"/>
+        </xsl:otherwise>
+      </xsl:choose>
+      <xsl:apply-templates mode="comp"/>
+    </xsl:copy>
+  </xsl:template>
+  
   <!-- EE uses u/@ana = '#deputy_chair', but common taxonomy does not have this category -->
   <xsl:template mode="comp" match="tei:u/@ana[. = '#deputy_chair']">
     <xsl:attribute name="ana">#chair</xsl:attribute>
