@@ -669,7 +669,6 @@ $(slurm-distro2teitok-XX): slurm-distro2teitok-%: Scripts/slurm_run_distro2teito
 
 
 Scripts/slurm_run_distro2teitok.sh:
-	echo "TODO distro to teitok script, smarter splitting - only one teiCorpus (following/preceding), call distro2teitok-XX target"
 	echo '#!/bin/bash' > $@
 	#echo "#SBATCH --chdir=  ## first change directory and then all paths are relative to location" >> $@
 	echo '#SBATCH --output=Build/Logs/%x.%j.log' >> $@
@@ -694,6 +693,59 @@ Scripts/slurm_run_distro2teitok.sh:
 	echo 'CODE=$$(cut -f 1 Build/Logs/ParlaMint.tt.slurm.$$SLURM_JOB_ID.tmp)' >> $@
 	echo 'rm Build/Logs/ParlaMint.tt.slurm.$$SLURM_JOB_ID.tmp' >> $@
 	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\t$$( [ "$$CODE" -gt "0" ] && echo "FAILED-$$CODE" || echo "FINISHED" )\t$$SLURM_JOB_ID\t$$(hostname)\t$$TIME\t$$CMD" >> Build/Logs/ParlaMint.tt.slurm.log' >> $@
+
+##!####TEITOK2CQP
+CQPsettings = "cqpsetting file path"
+teitok2cqp-XX = $(addprefix teitok2cqp-, $(PARLIAMENTS))
+##!teitok2cqp-##
+teitok2cqp: $(teitok2cqp-XX)
+$(teitok2cqp-XX): teitok2cqp-%: Build/Teitok-cqp check-prereq-teitok2cqp
+	settings=`realpath $(CQPsettings)`;\
+	cd Build/Teitok-tmp; \
+	perl ../../Scripts/teitok2cqp.pl --setfile=$$settings --sub="ParlaMint-$*"
+
+Build/Teitok-cqp:
+	mkdir -p Build/Teitok-cqp
+	mkdir -p Build/Teitok-tmp/tmp
+	ln -s ../Teitok Build/Teitok-tmp/xmlfiles
+	ln -s ../Teitok-cqp Build/Teitok-tmp/cqp
+
+check-prereq-teitok2cqp:
+	test -f $(CQPsettings) || (echo "missing cqp setting file CQPsettings=$(CQPsettings)" && exit 1)
+	test -f Scripts/bin/tt-cwb-encode || (echo "missing Scripts/bin/tt-cwb-encode" && exit 1)
+	test -f Scripts/bin/cwb-makeall || (echo "missing Scripts/bin/cwb-makeall" && exit 1)
+
+slurm-teitok2cqp-XX = $(addprefix slurm-teitok2cqp-, $(PARLIAMENTS))
+##!slurm-teitok2cqp-## enqueue slurm job for creating teitok version from distro
+slurm-teitok2cqp: $(slurm-teitok2cqp-XX)
+$(slurm-teitok2cqp-XX): slurm-teitok2cqp-%: Scripts/slurm_run_teitok2cqp.sh check-prereq-teitok2cqp
+	sbatch --job-name=pm$*-cqp --mem=10G --cpus-per-task=1 Scripts/slurm_run_teitok2cqp.sh $* $(CQPsettings)
+
+Scripts/slurm_run_teitok2cqp.sh:
+	echo '#!/bin/bash' > $@
+	#echo "#SBATCH --chdir=  ## first change directory and then all paths are relative to location" >> $@
+	echo '#SBATCH --output=Build/Logs/%x.%j.log' >> $@
+	echo '#SBATCH --ntasks=1' >> $@
+	echo '#SBATCH --cpus-per-task=30' >> $@
+	echo '#SBATCH -p cpu-troja,cpu-ms' >> $@
+	echo '#SBATCH -q low' >> $@
+	echo '' >> $@
+	echo 'set -e' >> $@
+	echo 'which parallel || ( echo "missing parallel ($$(hostname))" && exit 1 )' >> $@
+	echo '' >> $@
+	echo 'CORP=$$1' >> $@
+	echo 'COMMIT=$$(git rev-parse --short HEAD)' >> $@
+	echo 'INSIZE=$$(du -s --apparent-size Build/Distro/ParlaMint-$$CORP.TEI.ana/|cut  -f1)' >> $@
+	echo 'echo "$$SLURM_JOB_ID $$CORP"' >> $@
+	echo '# MEM=$$(echo -n "$$SLURM_MEM_PER_NODE/1000-1" | bc )' >> $@
+	echo 'CMD="make teitok2cqp PARLIAMENTS=$$CORP CQPsettings=$$2"' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\tSTARTED\t$$SLURM_JOB_ID\t$$(hostname)\tmem=$$SLURM_MEM_PER_NODE cpus=$$SLURM_CPUS_ON_NODE in_ana=$$(echo "$${INSIZE}/1000000"|bc)GB\t$$CMD" >> Build/Logs/ParlaMint.cqp.slurm.log' >> $@
+	echo 'RES=$$(/usr/bin/time --output=Build/Logs/ParlaMint.cqp.slurm.$$SLURM_JOB_ID.tmp -f "%x\t%E real, %U user, %S sys, %M kB" $$CMD)' >> $@
+	echo 'TIME=$$(cut -f 2 Build/Logs/ParlaMint.cqp.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'CODE=$$(cut -f 1 Build/Logs/ParlaMint.cqp.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'rm Build/Logs/ParlaMint.cqp.slurm.$$SLURM_JOB_ID.tmp' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\t$$( [ "$$CODE" -gt "0" ] && echo "FAILED-$$CODE" || echo "FINISHED" )\t$$SLURM_JOB_ID\t$$(hostname)\t$$TIME\t$$CMD" >> Build/Logs/ParlaMint.cqp.slurm.log' >> $@
+
 
 
 ##!####DEVEL
