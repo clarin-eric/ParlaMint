@@ -14,11 +14,7 @@ JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
 
 ### COMPLETE SET OF CORPORA
 CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-#DONE AT BA BE BG CZ EE ES ES-CT ES-GA ES-PV FI FR GB GR HR IS IT LV NL SI 
-#DOING1 NO PL
-#DOING2
-#DOING3 
-CORPORA=
+#CORPORA=
 # Used in targets that run only for one corpus
 CORPUS=
 
@@ -79,9 +75,9 @@ source-metadata:
 test:
 	date
 test-tei2:
-	${FINALIZE} -valid -codes UA -in ${HERE}/Distro -out ${HERE}/Distro
+	${FINALIZE} -valid -codes TR -in ${HERE}/Distro -out ${HERE}/Distro
 test-tei1:
-	${FINALIZE} -tei -valid -codes DK -in ${HERE}/Distro -out ${HERE}/Distro
+	${FINALIZE} -tei -codes BG -in ${HERE}/Sources-TEI -out ${HERE}/Distro
 test-vert6:
 	../Scripts/parlamintp-tei2vert-xx.pl ${HERE}/Distro/ParlaMint-LV.TEI.ana Test/ParlaMint-LV-xx.vert
 test-vert5:
@@ -167,7 +163,7 @@ cp-samples:
 	#cp Logs/ParlaMint-$${CORPUS}-samples.log ../Samples/ParlaMint-$${CORPUS}; \
 
 
-# Make vertical fine with en metadata, a hack:
+# Make vertical file with en metadata, a hack:
 XX-CORPORA = AT-xx BA-xx BE-xx BG-xx CZ-xx DK-xx EE-xx ES-xx ES-CT-xx ES-GA-xx ES-PV-xx FI-xx FR-xx GB-xx GR-xx HR-xx HU-xx IS-xx IT-xx LV-xx NL-xx NO-xx PL-xx PT-xx RS-xx SE-xx SI-xx TR-xx UA-xx
 # Test: make make-verts-xx CORPORA='LV ES-CT'
 make-verts-xx-nohup:
