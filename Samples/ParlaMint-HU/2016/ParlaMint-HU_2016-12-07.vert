@@ -1,5 +1,5 @@
 <note type="speaker" content="ELNÖK"/>
-<speech id="u2016-12-07-0" text_id="ParlaMint-HU_2016-12-07" subcorpus="Referencia" lang="magyar" body="Egykamarás parlament" term="7. ciklus" session="-" meeting="71. ülés" sitting="3. ülésnap" agenda="-" date="2016-12-07" title="A Magyar Országgyűlés Korpusza ParlaMint-HU, 2016. őszi ülésszak 71. ülés, 3. ülésnap, 2016-12-07 [ParlaMint.ana]" speaker_role="Házelnök" speaker_id="LatorcaiJanos" speaker_name="Latorcai, János" speaker_mp="MP" speaker_minister="notMinister" speaker_party=";;KNDP-frakció" speaker_party_name=";;A Kereszténydemokrata Néppárt parlamenti frakciója a 7. parlamenti ciklusban" party_status="Coalition" party_orientation="Jobboldal" speaker_gender="M" speaker_birth="1944">
+<speech id="u2016-12-07-0" text_id="ParlaMint-HU_2016-12-07" subcorpus="Referencia" lang="magyar" body="Egykamarás parlament" term="7. ciklus" session="-" meeting="71. ülés" sitting="3. ülésnap" agenda="-" date="2016-12-07" title="A Magyar Országgyűlés Korpusza ParlaMint-HU, 2016. őszi ülésszak 71. ülés, 3. ülésnap, 2016-12-07 [ParlaMint.ana]" speaker_role="Házelnök" speaker_id="LatorcaiJanos" speaker_name="Latorcai, János" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KNDP-frakció" speaker_party_name="A Kereszténydemokrata Néppárt parlamenti frakciója a 7. parlamenti ciklusban" party_status="Coalition" party_orientation="Jobboldal" speaker_gender="M" speaker_birth="1944">
 <p id="u2016-12-07-0.1" lang="magyar">
 <s id="ParlaMint-HU_2016-12-07.seg1.1">
 Jó	Jó	jó	ADJ	Case=Nom Degree=Pos Number=Sing	1	advmod:mode	reggel	NOUN	Case=Ins Number=Sing	2
@@ -257,7 +257,7 @@ szó	szó	szó	NOUN	Case=Nom Number=Sing	3	root	-	-	-	-
 </p>
 </speech>
 <note type="speaker" content="DR. DARÁK PÉTER, a Kúria elnöke, a napirendi pont előadója"/>
-<speech id="u2016-12-07-1" text_id="ParlaMint-HU_2016-12-07" subcorpus="Referencia" lang="magyar" body="Egykamarás parlament" term="7. ciklus" session="-" meeting="71. ülés" sitting="3. ülésnap" agenda="-" date="2016-12-07" title="A Magyar Országgyűlés Korpusza ParlaMint-HU, 2016. őszi ülésszak 71. ülés, 3. ülésnap, 2016-12-07 [ParlaMint.ana]" speaker_role="Vendég" speaker_id="DarakPeter" speaker_name="Darák, Péter" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="" speaker_party_name="" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1963">
+<speech id="u2016-12-07-1" text_id="ParlaMint-HU_2016-12-07" subcorpus="Referencia" lang="magyar" body="Egykamarás parlament" term="7. ciklus" session="-" meeting="71. ülés" sitting="3. ülésnap" agenda="-" date="2016-12-07" title="A Magyar Országgyűlés Korpusza ParlaMint-HU, 2016. őszi ülésszak 71. ülés, 3. ülésnap, 2016-12-07 [ParlaMint.ana]" speaker_role="Vendég" speaker_id="DarakPeter" speaker_name="Darák, Péter" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1963">
 <p id="u2016-12-07-1.1" lang="magyar">
 <s id="ParlaMint-HU_2016-12-07.seg5.1">
 Tisztelt	Tisztelt	tisztelt	ADJ	Case=Nom Degree=Pos Number=Sing	1	root	-	-	-	-
@@ -2906,7 +2906,7 @@ figyelmüket	figyelmüket	figyelem	NOUN	Case=Acc Number=Sing Number[psor]=Plur P
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="u2016-12-07-59" text_id="ParlaMint-HU_2016-12-07" subcorpus="Referencia" lang="magyar" body="Egykamarás parlament" term="7. ciklus" session="-" meeting="71. ülés" sitting="3. ülésnap" agenda="-" date="2016-12-07" title="A Magyar Országgyűlés Korpusza ParlaMint-HU, 2016. őszi ülésszak 71. ülés, 3. ülésnap, 2016-12-07 [ParlaMint.ana]" speaker_role="Képviselő" speaker_id="ZKarpatDaniel" speaker_name="Z. Kárpát, Dániel" speaker_mp="MP" speaker_minister="notMinister" speaker_party=";;JOBBIK-frakció;;" speaker_party_name=";;A Jobbik Magyarországért Mozgalom parlamenti frakciója a 7. parlamenti ciklusban;;" party_status="Opposition" party_orientation="Jobbközép" speaker_gender="M" speaker_birth="1979">
+<speech id="u2016-12-07-59" text_id="ParlaMint-HU_2016-12-07" subcorpus="Referencia" lang="magyar" body="Egykamarás parlament" term="7. ciklus" session="-" meeting="71. ülés" sitting="3. ülésnap" agenda="-" date="2016-12-07" title="A Magyar Országgyűlés Korpusza ParlaMint-HU, 2016. őszi ülésszak 71. ülés, 3. ülésnap, 2016-12-07 [ParlaMint.ana]" speaker_role="Képviselő" speaker_id="ZKarpatDaniel" speaker_name="Z. Kárpát, Dániel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JOBBIK-frakció" speaker_party_name="A Jobbik Magyarországért Mozgalom parlamenti frakciója a 7. parlamenti ciklusban" party_status="Opposition" party_orientation="Jobbközép" speaker_gender="M" speaker_birth="1979">
 <p id="u2016-12-07-59.1" lang="magyar">
 <s id="ParlaMint-HU_2016-12-07.seg377.1">
 Tisztelt	Tisztelt	tisztelt	ADJ	Case=Nom Degree=Pos Number=Sing	1	root	-	-	-	-
@@ -3891,7 +3891,7 @@ lehetőséget	lehetőséget	lehetőség	NOUN	Case=Acc Number=Sing	3	obj	köszön
 <note type="kinesic:applause" content="Taps a Jobbik padsoraiban."/>
 </speech>
 <note type="speaker" content="ELNÖK"/>
-<speech id="u2016-12-07-60" text_id="ParlaMint-HU_2016-12-07" subcorpus="Referencia" lang="magyar" body="Egykamarás parlament" term="7. ciklus" session="-" meeting="71. ülés" sitting="3. ülésnap" agenda="-" date="2016-12-07" title="A Magyar Országgyűlés Korpusza ParlaMint-HU, 2016. őszi ülésszak 71. ülés, 3. ülésnap, 2016-12-07 [ParlaMint.ana]" speaker_role="Házelnök" speaker_id="HillerIstvan" speaker_name="Hiller, István" speaker_mp="MP" speaker_minister="notMinister" speaker_party=";;MSZP-frakció;" speaker_party_name=";;A Magyar Szocialista Párt parlamenti frakciója a 7. parlamenti ciklusban;" party_status="Opposition" party_orientation="Balközép" speaker_gender="M" speaker_birth="1964">
+<speech id="u2016-12-07-60" text_id="ParlaMint-HU_2016-12-07" subcorpus="Referencia" lang="magyar" body="Egykamarás parlament" term="7. ciklus" session="-" meeting="71. ülés" sitting="3. ülésnap" agenda="-" date="2016-12-07" title="A Magyar Országgyűlés Korpusza ParlaMint-HU, 2016. őszi ülésszak 71. ülés, 3. ülésnap, 2016-12-07 [ParlaMint.ana]" speaker_role="Házelnök" speaker_id="HillerIstvan" speaker_name="Hiller, István" speaker_mp="MP" speaker_minister="notMinister" speaker_party="MSZP-frakció" speaker_party_name="A Magyar Szocialista Párt parlamenti frakciója a 7. parlamenti ciklusban" party_status="Opposition" party_orientation="Balközép" speaker_gender="M" speaker_birth="1964">
 <p id="u2016-12-07-60.1" lang="magyar">
 <s id="ParlaMint-HU_2016-12-07.seg381.1">
 Nagyon	Nagyon	nagyon	ADV	-	1	advmod:mode	köszön	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3

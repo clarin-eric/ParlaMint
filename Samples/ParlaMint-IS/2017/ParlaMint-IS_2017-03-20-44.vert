@@ -1,5 +1,5 @@
 <note type="signing" content="Bjarni Jónsson, 3. þm. Norðvest., og Oktavía Hrund Jónsdóttir, 4. þm. Suðurk., undirrituðu drengskaparheit að stjórnarskránni."/>
-<speech id="ParlaMint-IS_2017-03-20-44.u1" text_id="ParlaMint-IS_2017-03-20-44" subcorpus="Viðmiðun" lang="Íslenska" body="Þing í einni deild" term="22. kjörtímabil" session="146. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2017-03-20" title="Ræður frá Alþingi Íslendinga, 22. kjörtímabil, hefðbundinn fundur 146-44, 20.03.2017." speaker_role="Þingforseti" speaker_id="UnnurKonradsdottir" speaker_name="Konráðsdóttir, Unnur Brá" speaker_mp="MP" speaker_minister="notMinister" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" party_status="Coalition" party_orientation="Miðja til mið-hægri" speaker_gender="F" speaker_birth="1974">
+<speech id="ParlaMint-IS_2017-03-20-44.u1" text_id="ParlaMint-IS_2017-03-20-44" subcorpus="Viðmiðun" lang="Íslenska" body="Þing í einni deild" term="22. kjörtímabil" session="146. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2017-03-20" title="Ræður frá Alþingi Íslendinga, 22. kjörtímabil, hefðbundinn fundur 146-44, 20.03.2017." speaker_role="Þingforseti" topic="-" speaker_id="UnnurKonradsdottir" speaker_name="Konráðsdóttir, Unnur Brá" speaker_mp="MP" speaker_minister="notMinister" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" party_status="Coalition" party_orientation="Miðja til mið-hægri" speaker_gender="F" speaker_birth="1974">
 <p id="ParlaMint-IS_2017-03-20-44.seg1" lang="Íslenska">
 <s id="ParlaMint-IS_2017-03-20-44.seg1.1">
 Borist	Borist	bera	VERB	Tense=Past VerbForm=Part	1	root	-	-	-	-
@@ -123,7 +123,7 @@ stjórnarskránni	stjórnarskránni	stjórnarskrá	NOUN	Case=Dat Definite=Ind Nu
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2017-03-20-44.u2" text_id="ParlaMint-IS_2017-03-20-44" subcorpus="Viðmiðun" lang="Íslenska" body="Þing í einni deild" term="22. kjörtímabil" session="146. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2017-03-20" title="Ræður frá Alþingi Íslendinga, 22. kjörtímabil, hefðbundinn fundur 146-44, 20.03.2017." speaker_role="Þingforseti" speaker_id="UnnurKonradsdottir" speaker_name="Konráðsdóttir, Unnur Brá" speaker_mp="MP" speaker_minister="notMinister" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" party_status="Coalition" party_orientation="Miðja til mið-hægri" speaker_gender="F" speaker_birth="1974">
+<speech id="ParlaMint-IS_2017-03-20-44.u2" text_id="ParlaMint-IS_2017-03-20-44" subcorpus="Viðmiðun" lang="Íslenska" body="Þing í einni deild" term="22. kjörtímabil" session="146. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2017-03-20" title="Ræður frá Alþingi Íslendinga, 22. kjörtímabil, hefðbundinn fundur 146-44, 20.03.2017." speaker_role="Þingforseti" topic="-" speaker_id="UnnurKonradsdottir" speaker_name="Konráðsdóttir, Unnur Brá" speaker_mp="MP" speaker_minister="notMinister" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" party_status="Coalition" party_orientation="Miðja til mið-hægri" speaker_gender="F" speaker_birth="1974">
 <p id="ParlaMint-IS_2017-03-20-44.seg3" lang="Íslenska">
 <s id="ParlaMint-IS_2017-03-20-44.seg3.1">
 <name type="PER">
@@ -215,7 +215,7 @@ Gíslason	Gíslason	Gíslason	PROPN	-	20	dep	Björn	PROPN	-	18
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IS_2017-03-20-44.u67" text_id="ParlaMint-IS_2017-03-20-44" subcorpus="Viðmiðun" lang="Íslenska" body="Þing í einni deild" term="22. kjörtímabil" session="146. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2017-03-20" title="Ræður frá Alþingi Íslendinga, 22. kjörtímabil, hefðbundinn fundur 146-44, 20.03.2017." speaker_role="Venjulegur" speaker_id="SteinunnArnadottir" speaker_name="Árnadóttir, Steinunn Þóra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="-" party_orientation="Mið-vinstri til vinstri" speaker_gender="F" speaker_birth="1977">
+<speech id="ParlaMint-IS_2017-03-20-44.u67" text_id="ParlaMint-IS_2017-03-20-44" subcorpus="Viðmiðun" lang="Íslenska" body="Þing í einni deild" term="22. kjörtímabil" session="146. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2017-03-20" title="Ræður frá Alþingi Íslendinga, 22. kjörtímabil, hefðbundinn fundur 146-44, 20.03.2017." speaker_role="Venjulegur" topic="Fjárreiður ríkisins|Félagsmál" speaker_id="SteinunnArnadottir" speaker_name="Árnadóttir, Steinunn Þóra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="-" party_orientation="Mið-vinstri til vinstri" speaker_gender="F" speaker_birth="1977">
 <p id="ParlaMint-IS_2017-03-20-44.seg246" lang="Íslenska">
 <s id="ParlaMint-IS_2017-03-20-44.seg246.1">
 Frú	Frú	frú	NOUN	Case=Nom Definite=Ind Number=Sing	1	root	-	-	-	-
@@ -584,7 +584,7 @@ lyfjakostnað	lyfjakostnað	lyfjakostnaður	NOUN	Case=Acc Definite=Ind Number=Si
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2017-03-20-44.u68" text_id="ParlaMint-IS_2017-03-20-44" subcorpus="Viðmiðun" lang="Íslenska" body="Þing í einni deild" term="22. kjörtímabil" session="146. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2017-03-20" title="Ræður frá Alþingi Íslendinga, 22. kjörtímabil, hefðbundinn fundur 146-44, 20.03.2017." speaker_role="Venjulegur" speaker_id="THorsteinnViglundsson" speaker_name="Víglundsson, Þorsteinn" speaker_mp="MP" speaker_minister="Minister" speaker_party="V" speaker_party_name="Viðreisn" party_status="Coalition" party_orientation="Mið-hægri" speaker_gender="M" speaker_birth="1969">
+<speech id="ParlaMint-IS_2017-03-20-44.u68" text_id="ParlaMint-IS_2017-03-20-44" subcorpus="Viðmiðun" lang="Íslenska" body="Þing í einni deild" term="22. kjörtímabil" session="146. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2017-03-20" title="Ræður frá Alþingi Íslendinga, 22. kjörtímabil, hefðbundinn fundur 146-44, 20.03.2017." speaker_role="Venjulegur" topic="Fjárreiður ríkisins|Félagsmál" speaker_id="THorsteinnViglundsson" speaker_name="Víglundsson, Þorsteinn" speaker_mp="MP" speaker_minister="Minister" speaker_party="V" speaker_party_name="Viðreisn" party_status="Coalition" party_orientation="Mið-hægri" speaker_gender="M" speaker_birth="1969">
 <p id="ParlaMint-IS_2017-03-20-44.seg249" lang="Íslenska">
 <s id="ParlaMint-IS_2017-03-20-44.seg249.1">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	þakka	VERB	VerbForm=Inf	6

@@ -1,5 +1,5 @@
 <note type="speaker" content="Russo, Aleksander"/>
-<speech id="ParlaMint-HR_2011-05-05-0.u72491" text_id="ParlaMint-HR_2011-05-05-0" subcorpus="Referenca" lang="hrvatski" body="Jednodoman" term="6. mandat" session="-" meeting="Zasedanje 23" sitting="2011-07-14" agenda="-" date="2011-05-05" title="Zapisnici sjednica Hrvatskog sabora, mandat 6, sjednica 23" speaker_role="Redovni" speaker_id="RussoAleksander" speaker_name="Russo, Aleksander" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-HR_2011-05-05-0.u72491" text_id="ParlaMint-HR_2011-05-05-0" subcorpus="Referenca" lang="hrvatski" body="Jednodoman" term="6. mandat" session="-" meeting="Zasedanje 23" sitting="2011-07-14" agenda="-" date="2011-05-05" title="Zapisnici sjednica Hrvatskog sabora, mandat 6, sjednica 23" speaker_role="Redovni" speaker_id="RussoAleksander" speaker_name="Russo, Aleksander" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-HR_2011-05-05-0.u72491.seg0" lang="hrvatski">
 <s id="ParlaMint-HR_2011-05-05-0.u72491.seg0.1">
 Pred	Pred	pred	ADP	Case=Ins	1	case	vi	PRON	Case=Ins Number=Plur Person=2 PronType=Prs	2

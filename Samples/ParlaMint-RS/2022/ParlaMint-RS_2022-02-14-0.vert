@@ -1061,7 +1061,7 @@ reč	reč	reč	NOUN	Case=Acc Gender=Fem Number=Sing	4	obj	imati	VERB	Mood=Ind Nu
 </p>
 </speech>
 <note type="speaker" content="Mali, Siniša"/>
-<speech id="ParlaMint-RS_2022-02-14-0.u12403" text_id="ParlaMint-RS_2022-02-14-0" subcorpus="COVID" lang="srpski" body="Jednodoman" term="12. mandat" session="-" meeting="Zasedanje v18" sitting="2022-02-14" agenda="-" date="2022-02-14" title="Mandat 12, Zasedanje v18" speaker_role="Redovni" speaker_id="MaliSiniša" speaker_name="Mali, Siniša" speaker_mp="notMP" speaker_minister="Minister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="-" speaker_birth="-">
+<speech id="ParlaMint-RS_2022-02-14-0.u12403" text_id="ParlaMint-RS_2022-02-14-0" subcorpus="COVID" lang="srpski" body="Jednodoman" term="12. mandat" session="-" meeting="Zasedanje v18" sitting="2022-02-14" agenda="-" date="2022-02-14" title="Mandat 12, Zasedanje v18" speaker_role="Redovni" speaker_id="MaliSiniša" speaker_name="Mali, Siniša" speaker_mp="notMP" speaker_minister="Minister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-RS_2022-02-14-0.u12403.seg0" lang="srpski">
 <s id="ParlaMint-RS_2022-02-14-0.u12403.seg0.1">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-

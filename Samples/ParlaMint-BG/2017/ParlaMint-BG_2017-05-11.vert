@@ -1053,7 +1053,7 @@
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BG_2017-05-11.u110" text_id="ParlaMint-BG_2017-05-11" subcorpus="Референтен" lang="български" body="Еднокамерност" term="Четиридесет и четвърто народно събрание" session="1 парламентарна сесия" meeting="11 пленарно заседание" sitting="2017-05-11" agenda="-" date="2017-05-11" title="Стенограмa от 11 пленарнo заседаниe на 1 сесия на 44 Народно събрание на Република България (2017-05-11)" speaker_role="Говорещ" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-BG_2017-05-11.u110" text_id="ParlaMint-BG_2017-05-11" subcorpus="Референтен" lang="български" body="Еднокамерност" term="Четиридесет и четвърто народно събрание" session="1 парламентарна сесия" meeting="11 пленарно заседание" sitting="2017-05-11" agenda="-" date="2017-05-11" title="Стенограмa от 11 пленарнo заседаниe на 1 сесия на 44 Народно събрание на Република България (2017-05-11)" speaker_role="Говорещ" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-BG_2017-05-11.seg394" lang="български">
 <s id="ParlaMint-BG_2017-05-11.seg394.1">
 Утре	Утре	утре	ADV	Degree=Pos	1	advmod	продължавам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
