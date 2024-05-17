@@ -637,6 +637,7 @@ A2.1+/S9	sem:A2.1p sem:S9
 A2.1/X2.1	sem:A2.1 sem:X2.1
 A2.1-/X2.1	sem:A2.1n sem:X2.1
 A2.1-/X2.1/S2mf	sem:A2.1n sem:X2.1 sem:S2
+A2.1/X3.2+	sem:A2.1 sem:X3.2p
 A2.1+/Y2	sem:A2.1p sem:Y2
 A2.1/Z2	sem:A2.1 sem:Z2
 A2.2	sem:A2.2
@@ -1324,6 +1325,7 @@ F1/S2mf	sem:F1 sem:S2
 F1/S2/S2mf	sem:F1 sem:S2 sem:S2
 F1/S4	sem:F1 sem:S4
 F1/S9	sem:F1 sem:S9
+F1/T1	sem:F1 sem:T1
 F1/T1.3	sem:F1 sem:T1.3
 F1/T3-	sem:F1 sem:T3n
 F1/X2.2+	sem:F1 sem:X2.2p
