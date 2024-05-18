@@ -499,8 +499,7 @@ sub cp_readme_top {
 	    print OUT "$countryCode ($countryName)\n";
         }
 	elsif (m|- +Language|) {
-            # Language
-	    if ($MT) {print OUT "en (English) from "}
+	    if ($MT) {s/(Languages:) /$1 en (English) from /}
 	    print OUT; 
 	    unless ($type eq 'sample') {
 		print OUT "- Version: $version\n";
