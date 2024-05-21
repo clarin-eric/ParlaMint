@@ -1,16 +1,8 @@
-pack-meta:
-	perl Scripts/pack-meta.pl -readme Sources-Distro/README.Meta.txt -in Metadata -out Packed
-
 ########### Makefile for making a distributable version of the ParlaMint TEI, TEI.ana, -en.TEI.ana corpora and metadata overviews
 #### Variables give the corpora, version, handle, paths and scripts to use
 #### make nohup1 starts make all and saves the log in Logs/
 
 ### VARIABLES
-
-##$JAVA-MEMORY## Set a java memory maxsize in GB
-JAVA-MEMORY=240
-JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
-
 
 ### COMPLETE SET OF CORPORA
 CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
@@ -195,12 +187,12 @@ source-roots:
 	$s base=${HERE}/Sources-TEI type=TEI.ana -xsl:../Scripts/parlamint2root.xsl \
 	../Scripts/ParlaMint-rootTemplate.xml > ${HERE}/Sources-TEI/ParlaMint.ana.xml
 master-roots:
-	$s base=${HERE}/Distro -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-template.xml > ${HERE}/Distro/ParlaMint.xml
-	$s base=${HERE}/Distro -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Distro/ParlaMint.ana.xml
-	$s base=${HERE}/Distro -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-template-en.ana.xml > ${HERE}/Distro/ParlaMint-en.ana.xml
+	$s base=${HERE}/Distro type=TEI -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-rootTemplate.xml > ${HERE}/Distro/ParlaMint.xml
+	$s base=${HERE}/Distro type=TEI.ana -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-rootTemplate.xml > ${HERE}/Distro/ParlaMint.ana.xml
+	$s base=${HERE}/Distro type=en.TEI.ana -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-rootTemplate.xml > ${HERE}/Distro/ParlaMint-en.ana.xml
 
 mt-logs:
 	for CORPUS in ${CORPORA}; do \
@@ -285,9 +277,9 @@ mt-web:
 nohup-mt-pack:
 	nohup time make mt-pack > mt-pack.log &
 mt-pack:
-	perl ../Scripts/pack-parlamint.pl -codes '${CORPORA}-en' -in Distro -out Packed
-	rsync -av Packed/*-en*.tgz ${WEB}/Repo
-	cp Packed/*-en*.tgz /project/clarin-upload/ParlaMint
+	for CORPUS in ${CORPORA}; do \
+	perl Scripts/pack-parlamint.pl -codes $${CORPUS}-en -in Distro -out Packed ; \
+	done;
 
 # Make MT CoNNL-U files only
 mt-nohup-conll:
@@ -312,7 +304,7 @@ mt-make-verts:
 
 # Join verts only
 mt-verts:
-	perl ../Scripts/join-all-verts.pl     -codes '${CORPORA}' -in 'Distro' -out Verts/ParlaMint-XX.${VERSION}.vert
+	#perl ../Scripts/join-all-verts.pl     -codes '${CORPORA}' -in 'Distro' -out Verts/ParlaMint-XX.${VERSION}.vert
 	perl ../Scripts/join-all-verts.pl -en -codes '${CORPORA}' -in 'Distro' -out Verts/ParlaMint-XX-en.${VERSION}.vert
 
 # Sanity check for alignment
@@ -369,7 +361,7 @@ mt-test7:
 	$s meta=${HERE}/Distro/ParlaMint-AT-en.TEI.ana/ParlaMint-AT-en.ana.xml -xsl:../Scripts//check-links.xsl \
 	${HERE}/Distro/ParlaMint-AT-en.TEI.ana/2022/ParlaMint-AT-en_2022-01-20-027-XXVII-NRSITZ-00139.ana.xml
 mt-test6:
-	${FINALIZE-MT} -vert -codes AT-en -in ${TEMP} -out ${HERE}/Distro
+	${FINALIZE-MT} -sample -codes ES-CT-en -out ${HERE}/Distro
 mt-test5:
 	${vta} Test/ParlaMint-AT-en.TEI.ana/ParlaMint-taxonomy-*.xml
 	${vlp} Test/ParlaMint-AT-en.TEI.ana/ParlaMint-AT-listPerson.xml
@@ -412,7 +404,8 @@ merge-taxos:
 	done;
 	${vta} Taxonomies/ParlaMint-taxonomy-*.xml
 
-### Some idea, need to think about it!
+### Some ideas, need to think about them...
+
 #REGIS=at ba be bg cz dk es_ct fr gb gr hr hu is it lv nl no pl pt rs se si tr ua
 REGIS=ua
 QUERY=https://dev:alfabetagama@www.clarin.si/noske-beta/parlamint.cgi/wordlist?
@@ -424,6 +417,10 @@ body:
 	done
 
 ###################### SCRIPT VARIABLES
+##$JAVA-MEMORY## Set a java memory maxsize in GB
+JAVA-MEMORY=240
+JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
+
 P = parallel --citation --gnu --halt 2
 #Run java with a large heap, as a complete corpus needs to be read in
 s = java -jar $(JM) ../Scripts/bin/saxon.jar
