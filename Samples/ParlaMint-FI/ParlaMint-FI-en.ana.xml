@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ParlaMint-FI-en.ana" xml:lang="en" corresp="../ParlaMint-FI.TEI.ana/ParlaMint-FI.ana.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Finnish parliamentary corpus ParlaMint-FI-en [ParlaMint-en.ana SAMPLE]</title>
+            <title type="main" xml:lang="fi">Suomalainen parlamentaarinen korpus ParlaMint-FI-en [ParlaMint-en.ana SAMPLE]</title>
+            <title type="sub" xml:lang="en">Minutes of the Finnish Parliament's plenary sessions from parliamentary session 2015 to parliamentary session 2021</title>
+            <title type="sub" xml:lang="fi">Suomen eduskunnan täysistuntojen pöytäkirjat valtiopäivistä 2015 valtiopäiviin 2021</title>
+            <meeting ana="#parla.term #parla.uni #parl_term.2015" n="2015" corresp="#fi_parliament">2015</meeting>
+            <meeting ana="#parla.term #parla.uni #parl_term.2019" n="2019" corresp="#fi_parliament">2019</meeting>
+            <respStmt>
+               <persName>Laura Sinikallio</persName>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="fi">ParlaMint TEI XML korpuksen koodaus</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Minna Tamper</persName>
+               <resp xml:lang="fi">ParlaMint TEI XML Lingvistinen annotaatio</resp>
+               <resp xml:lang="en">ParlaMint TEI XML Linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Jouni Tuominen</persName>
+               <resp xml:lang="en">Data cleaning and finalization</resp>
+               <resp xml:lang="fi">Datan puhdistaminen ja viimeistely</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Taja Kuzman</persName>
+               <persName>Nikola Ljubešić</persName>
+               <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Paul Rayson</persName>
+               <persName>Matthew Coole</persName>
+               <persName>John Vidler</persName>
+               <resp xml:lang="en">Annotating MTed corpora with USAS semantic tags</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="146901" xml:lang="fi">puheet</measure>
+            <measure unit="speeches" quantity="146901" xml:lang="en">speeches</measure>
+            <measure unit="words" quantity="19614527" xml:lang="fi">sanat</measure>
+            <measure unit="words" quantity="19614527" xml:lang="en">words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1910</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+               <p xml:lang="fi">Tämä aineisto on saatavilla lisenssillä <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2024-05-16">2024-05-16</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Minutes of the plenary sessions of the Finnish Parliament</title>
+               <title type="main" xml:lang="fi">Suomen eduskunnan täysistuntojen pöytäkirjat</title>
+               <idno type="URI" subtype="parliament">https://avoindata.eduskunta.fi/#/fi/home</idno>
+               <date from="2015-04-28" to="2022-01-28">28.4.2015-28.1.2022</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="fi"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> -projektin tavoitteena on 1) luoda monikielinen, yhtenäisesti koodattu parlamentaaristen aineistojen korpuksen; 2) käsitellä aineisto lingvistisesti; 3) tuoda korpus saataville ladattavana sekä konkordanssihakemistoina; ja 4) kehittää korpuksen aineistoihin pohjautuvia poliittisen tutkimuksen sekä digitaalisten ihmistieteiden käyttötapauksia.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p xml:lang="en">Some corrections of unambiguous typos on speakers' names in the source text were performed to ensure proper linking.</p>
+            </correction>
+            <normalization>
+               <p xml:lang="en">Text has not been normalised, except for spacing.</p>
+            </normalization>
+            <hyphenation>
+               <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
+            </hyphenation>
+            <quotation>
+               <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="962"/>
+               <tagUsage gi="desc" occurs="89818"/>
+               <tagUsage gi="div" occurs="6806"/>
+               <tagUsage gi="gap" occurs="89818"/>
+               <tagUsage gi="head" occurs="6806"/>
+               <tagUsage gi="name" occurs="464872"/>
+               <tagUsage gi="note" occurs="10635"/>
+               <tagUsage gi="pb" occurs="6806"/>
+               <tagUsage gi="pc" occurs="2261179"/>
+               <tagUsage gi="phr" occurs="940976"/>
+               <tagUsage gi="s" occurs="928303"/>
+               <tagUsage gi="seg" occurs="334603"/>
+               <tagUsage gi="text" occurs="962"/>
+               <tagUsage gi="u" occurs="146901"/>
+               <tagUsage gi="w" occurs="19614527"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <xi:include href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include href="ParlaMint-taxonomy-NER.ana.xml"/>
+            <xi:include href="ParlaMint-taxonomy-CHES.xml"/>
+            <xi:include href="ParlaMint-taxonomy-politicalOrientation.xml"/>
+            <xi:include href="ParlaMint-taxonomy-USAS.ana.xml"/>
+         </classDecl>
+         <listPrefixDef>
+            <prefixDef ident="sem" matchPattern="(.+)" replacementPattern="#$1">
+               <p>Private URIs with this prefix point to the taxonomy of semantic categories. In this document they are simply local references into the USAS taxonomy categories XIncluded in the corpus root TEI header.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <appInfo>
+            <application ident="EasyNMT" version="2.0">
+               <label>EasyNMT (OPUS-MT model)</label>
+               <desc>Translation to English done with EasyNMT (<ref target="https://github.com/UKPLab/EasyNMT">https://github.com/UKPLab/EasyNMT</ref>) with OPUS-MT model (<ref target="https://github.com/Helsinki-NLP/Opus-MT">https://github.com/Helsinki-NLP/Opus-MT</ref>)</desc>
+            </application>
+            <application ident="Stanza" version="1.5">
+               <label>Stanza</label>
+               <desc>Tokenisation, PoS tagging, lemmatization, and NER annotation done with Stanza (<ref target="https://stanfordnlp.github.io/stanza/">https://stanfordnlp.github.io/stanza/</ref>) with the model for English. For NER the conll03 model with 4 NE classes was used.</desc>
+            </application>
+            <application ident="pymusas" version="0.3.0">
+               <label>pymusas</label>
+               <desc>Semantic annotation of words and multi-word units done with pymusas (<ref target="https://pypi.org/project/pymusas/">https://pypi.org/project/pymusas/</ref>). This is a Pyton implementation of the UCREL Semantic Analysis System (<ref target="https://ucrel.lancs.ac.uk/usas/">USAS</ref>).</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="place">Eduskuntatalo</name>
+               <name type="place">Sibelius-Akatemia</name>
+               <name type="city">Helsinki</name>
+               <name key="FI" type="country">Finland</name>
+               <date from="2015-04-28" to="2022-01-28"/>
+            </setting>
+         </settingDesc>
+         <textClass>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.uni"/>
+         </textClass>
+         <particDesc>
+            <xi:include href="ParlaMint-FI-listOrg.xml"/>
+            <xi:include href="ParlaMint-FI-listPerson.xml"/>
+         </particDesc>
+         <langUsage>
+            <language ident="fi" usage="99" xml:lang="fi">suomi</language>
+            <language ident="fi" usage="99" xml:lang="en">Finnish</language>
+            <language ident="en" xml:lang="fi">englanti</language>
+            <language ident="en" xml:lang="en">English</language>
+            <language ident="sv" usage="1" xml:lang="en">Swedish</language>
+            <language ident="sv" usage="1" xml:lang="fi">ruotsi</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-05-16">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2024-05-16">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2024-05-16">
+            <name>Tomaž Erjavec</name>: Generate TEI version of MTed corpus.</change>
+         <change when="2024-05-16">parlamint-add-common-content script: Adding common content.</change>
+      </revisionDesc>
+   </teiHeader>
+   <xi:include href="2017/ParlaMint-FI-en_2017-10-04-ps-98.ana.xml"/>
+   <xi:include href="2020/ParlaMint-FI-en_2020-02-18-ps-8.ana.xml"/>
+   <xi:include href="2022/ParlaMint-FI-en_2022-01-25-ps-165.ana.xml"/>
+</teiCorpus>
+
