@@ -149,11 +149,8 @@ mt-samples:
 	done;
 #Merge original and MTed samples into official Samples directory
 cp-samples:
-	for CORPUS in ${CORPORA}; do \
-	Scripts/cp-samples.pl Distro/ParlaMint-$${CORPUS} ../Samples; \
-	done;
+	Scripts/cp-samples.pl 'Distro/ParlaMint-*' ../Samples
 	#cp Logs/ParlaMint-$${CORPUS}-samples.log ../Samples/ParlaMint-$${CORPUS}; \
-
 
 # Make vertical file with en metadata, a hack:
 XX-CORPORA = AT-xx BA-xx BE-xx BG-xx CZ-xx DK-xx EE-xx ES-xx ES-CT-xx ES-GA-xx ES-PV-xx FI-xx FR-xx GB-xx GR-xx HR-xx HU-xx IS-xx IT-xx LV-xx NL-xx NO-xx PL-xx PT-xx RS-xx SE-xx SI-xx TR-xx UA-xx
