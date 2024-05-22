@@ -38,27 +38,26 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.0</edition>
+            <edition>4.1</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="167" xml:lang="en">167 speeches</measure>
-            <measure unit="words" quantity="20408" xml:lang="en">20,408 words</measure>
+            <measure unit="words" quantity="20409" xml:lang="en">20,409 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1910</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-01-23">2024-01-23</date>
+            <date when="2024-05-16">2024-05-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title type="main" xml:lang="en">Hansards of the Danish Parliament</title>
                <title type="main" xml:lang="en">Hansards of the Danish Parliament</title>
                <publisher>The Danish Parliament</publisher>
                <idno type="URI" subtype="parliament">https://www.ft.dk/</idno>
@@ -68,7 +67,7 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
@@ -83,7 +82,7 @@
                <tagUsage gi="seg" occurs="167"/>
                <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="u" occurs="167"/>
-               <tagUsage gi="w" occurs="20408"/>
+               <tagUsage gi="w" occurs="20409"/>
             </namespace>
          </tagsDecl>
          <listPrefixDef>
@@ -103,9 +102,9 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2024-01-23">
+         <change when="2024-05-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2023-10-31">
+         <change when="2024-05-16">
             <name>Tomaž Erjavec</name>: Generate TEI version of MTed corpus.</change>
          <change when="2022-10-31">
             <name>Dorte Haltrup Hansen</name>Generated corpus in ParlaMint.</change>
@@ -114,9 +113,9 @@
    <text xml:lang="da" ana="#covid">
       <body>
          <div type="debateSection" xml:lang="en">
-            <head xml:id="ParlaMint-DK_2020-04-21-20191-M94.ana.head1" xml:lang="en" corresp="mt-src:ParlaMint-DK_2020-04-21-20191-M94.ana.head1">Punkt 0</head>
-            <note type="agendaItem" xml:id="ParlaMint-DK_2020-04-21-20191-M94.ana.note1" xml:lang="en" corresp="mt-src:ParlaMint-DK_2020-04-21-20191-M94.ana.note1">2020-04-21-0</note>
-            <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20200421130023" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-DK_20200421130023">
+            <head xml:id="ParlaMint-DK_2020-04-21-20191-M94.head1" xml:lang="en" corresp="mt-src:ParlaMint-DK_2020-04-21-20191-M94.head1">Punkt 0</head>
+            <note type="agendaItem" xml:id="ParlaMint-DK_2020-04-21-20191-M94.note1" xml:lang="en" corresp="mt-src:ParlaMint-DK_2020-04-21-20191-M94.note1">2020-04-21-0</note>
+            <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20200421130023" ana="#chair #domain.other" xml:lang="en" corresp="mt-src:ParlaMint-DK_20200421130023">
                <seg xml:id="ParlaMint-DK_20200421130023.seg1" xml:lang="en" corresp="mt-src:ParlaMint-DK_20200421130023.seg1">
                   <s xml:id="ParlaMint-DK_20200421130023.seg1.1" n="1" corresp="mt-src:ParlaMint-DK_20200421130023.seg1.1">
 <w xml:id="ParlaMint-DK_20200421130023.seg1.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
@@ -298,7 +297,7 @@
                   </s>
                </seg>
             </u>
-            <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20200421130104" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-DK_20200421130104">
+            <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20200421130104" ana="#chair #domain.other" xml:lang="en" corresp="mt-src:ParlaMint-DK_20200421130104">
                <seg xml:id="ParlaMint-DK_20200421130104.seg2" xml:lang="en" corresp="mt-src:ParlaMint-DK_20200421130104.seg2">
                   <s xml:id="ParlaMint-DK_20200421130104.seg2.1" n="1" corresp="mt-src:ParlaMint-DK_20200421130104.seg2.1">
 <w xml:id="ParlaMint-DK_20200421130104.seg2.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
@@ -361,7 +360,7 @@
             </gap>
          </div>
          <div type="debateSection" xml:lang="en">
-            <u who="#TorpTrine" xml:id="ParlaMint-DK_20200421152214" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-DK_20200421152214">
+            <u who="#TorpTrine" xml:id="ParlaMint-DK_20200421152214" ana="#chair #domain.Labour #domain.Social" xml:lang="en" corresp="mt-src:ParlaMint-DK_20200421152214">
                <seg xml:id="ParlaMint-DK_20200421152214.seg166" xml:lang="en" corresp="mt-src:ParlaMint-DK_20200421152214.seg166">
                   <s xml:id="ParlaMint-DK_20200421152214.seg166.1" n="1" corresp="mt-src:ParlaMint-DK_20200421152214.seg166.1">
 <w xml:id="ParlaMint-DK_20200421152214.seg166.1.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="president" function="G1.1/S7.1+/S2mf" ana="sem:G1.1 sem:S7.1p sem:S2" join="right">PRESIDENT</w>
@@ -678,9 +677,9 @@
             </u>
          </div>
          <div type="debateSection" xml:lang="en">
-            <head xml:id="ParlaMint-DK_2020-04-21-20191-M94.ana.head14" xml:lang="en" corresp="mt-src:ParlaMint-DK_2020-04-21-20191-M94.ana.head14">Punkt 0</head>
-            <note type="agendaItem" xml:id="ParlaMint-DK_2020-04-21-20191-M94.ana.note14" xml:lang="en" corresp="mt-src:ParlaMint-DK_2020-04-21-20191-M94.ana.note14">2020-04-21-0</note>
-            <u who="#TorpTrine" xml:id="ParlaMint-DK_20200421152411" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-DK_20200421152411">
+            <head xml:id="ParlaMint-DK_2020-04-21-20191-M94.head14" xml:lang="en" corresp="mt-src:ParlaMint-DK_2020-04-21-20191-M94.head14">Punkt 0</head>
+            <note type="agendaItem" xml:id="ParlaMint-DK_2020-04-21-20191-M94.note14" xml:lang="en" corresp="mt-src:ParlaMint-DK_2020-04-21-20191-M94.note14">2020-04-21-0</note>
+            <u who="#TorpTrine" xml:id="ParlaMint-DK_20200421152411" ana="#chair #domain.other" xml:lang="en" corresp="mt-src:ParlaMint-DK_20200421152411">
                <seg xml:id="ParlaMint-DK_20200421152411.seg167" xml:lang="en" corresp="mt-src:ParlaMint-DK_20200421152411.seg167">
                   <s xml:id="ParlaMint-DK_20200421152411.seg167.1" n="1" corresp="mt-src:ParlaMint-DK_20200421152411.seg167.1">
 <w xml:id="ParlaMint-DK_20200421152411.seg167.1.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>

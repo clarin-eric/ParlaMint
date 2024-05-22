@@ -1,5 +1,5 @@
 <note type="head" content="INCLUSIÓN EN EL ORDEN DEL DÍA - SOLICITUD DE PRÓRROGA DE SUBCOMISIONES: - SOLICITUD DE LA COMISIÓN DE EMPLEO Y SEGURIDAD SOCIAL, PARA QUE SE CONCEDA UNA PRÓRROGA, DE OCHO MESES, DEL PLAZO OTORGADO A LA SUBCOMISIÓN PARA EL ESTUDIO DE LA REFORMA DEL RÉGIMEN ESPECIAL DE TRABAJADORES POR CUENTA PROPIA O AUTÓNOMOS , PARA LA EMISIÓN DE SU INFORME."/>
-<speech id="ParlaMint-ES_2017-11-28-CD171128.u1" text_id="ParlaMint-ES_2017-11-28-CD171128" subcorpus="Referencia" lang="Español" body="Cámara Baja" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Sesión plenaria núm. 90 (2017-11-28)" speaker_role="Presidencia" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-ES_2017-11-28-CD171128.u1" text_id="ParlaMint-ES_2017-11-28-CD171128" subcorpus="Referencia" lang="Español" body="Cámara Baja" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Sesión plenaria núm. 90 (2017-11-28)" speaker_role="Presidencia" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2017-11-28-CD171128.u1.p1" lang="Español">
 <s id="ParlaMint-ES_2017-11-28-CD171128.u1.p1.s1">
 Se	Se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	w1	expl:pass	abrir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2
@@ -217,7 +217,7 @@ jueves	jueves	jueves	NOUN	AdvType=Tim	w54	nmod	sesión	NOUN	Gender=Fem Number=Si
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO CONFEDERAL DE UNIDOS PODEMOS-EN COMÚ PODEM-EN MAREA, REGULADORA DE LAS PRÁCTICAS ACADÉMICAS UNIVERSITARIAS EXTERNAS."/>
-<speech id="ParlaMint-ES_2017-11-28-CD171128.u2" text_id="ParlaMint-ES_2017-11-28-CD171128" subcorpus="Referencia" lang="Español" body="Cámara Baja" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Sesión plenaria núm. 90 (2017-11-28)" speaker_role="Presidencia" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-ES_2017-11-28-CD171128.u2" text_id="ParlaMint-ES_2017-11-28-CD171128" subcorpus="Referencia" lang="Español" body="Cámara Baja" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Sesión plenaria núm. 90 (2017-11-28)" speaker_role="Presidencia" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2017-11-28-CD171128.u2.p1" lang="Español">
 <s id="ParlaMint-ES_2017-11-28-CD171128.u2.p1.s1">
 Comenzamos	Comenzamos	comenzar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
@@ -312,7 +312,7 @@ llegar	llegar	llegar	VERB	VerbForm=Inf	w4	xcomp	hacer	VERB	Mood=Ind Number=Plur 
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2017-11-28-CD171128.u158" text_id="ParlaMint-ES_2017-11-28-CD171128" subcorpus="Referencia" lang="Español" body="Cámara Baja" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Sesión plenaria núm. 90 (2017-11-28)" speaker_role="Presidencia" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-ES_2017-11-28-CD171128.u158" text_id="ParlaMint-ES_2017-11-28-CD171128" subcorpus="Referencia" lang="Español" body="Cámara Baja" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Sesión plenaria núm. 90 (2017-11-28)" speaker_role="Presidencia" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2017-11-28-CD171128.u158.p1" lang="Español">
 <s id="ParlaMint-ES_2017-11-28-CD171128.u158.p1.s1">
 Muchas	Muchas	mucho	DET	Gender=Fem Number=Plur NumType=Card PronType=Ind	w1	det	gracia	NOUN	Gender=Fem Number=Plur	w2

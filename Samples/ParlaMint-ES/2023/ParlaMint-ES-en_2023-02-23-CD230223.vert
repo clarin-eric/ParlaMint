@@ -1,5 +1,5 @@
 <note type="head" content="PALABRAS DE LA PRESIDENCIA"/>
-<speech id="ParlaMint-ES_2023-02-23-CD230223.u1" text_id="ParlaMint-ES-en_2023-02-23-CD230223" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Plenary session 239 (2023-02-23)" speaker_role="Chairperson" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-ES_2023-02-23-CD230223.u1" text_id="ParlaMint-ES-en_2023-02-23-CD230223" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Plenary session 239 (2023-02-23)" speaker_role="Chairperson" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2023-02-23-CD230223.u1.p1" lang="English">
 <s id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
@@ -310,7 +310,7 @@ much	much	much	ADV	-	A13.3,N6+	A13.3	A13.3: Degree: Boosters	t4
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="TRAMITACIÓN DIRECTA Y EN LECTURA ÚNICA DE INICIATIVAS LEGISLATIVAS - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 28/1990, DE 26 DE DICIEMBRE, POR LA QUE SE APRUEBA EL CONVENIO ECONÓMICO ENTRE EL ESTADO Y LA COMUNIDAD FORAL DE NAVARRA. . - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 12/2002, DE 23 DE MAYO, POR LA QUE SE APRUEBA EL CONCIERTO ECONÓMICO CON LA COMUNIDAD AUTÓNOMA DEL PAÍS VASCO. . - PROYECTO DE LEY POR LA QUE SE APRUEBA LA METODOLOGÍA DE SEÑALAMIENTO DEL CUPO DEL PAÍS VASCO PARA EL QUINQUENIO 2022-2026. ."/>
-<speech id="ParlaMint-ES_2023-02-23-CD230223.u2" text_id="ParlaMint-ES-en_2023-02-23-CD230223" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Plenary session 239 (2023-02-23)" speaker_role="Chairperson" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-ES_2023-02-23-CD230223.u2" text_id="ParlaMint-ES-en_2023-02-23-CD230223" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Plenary session 239 (2023-02-23)" speaker_role="Chairperson" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2023-02-23-CD230223.u2.p1" lang="English">
 <s id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
@@ -500,7 +500,7 @@ Service	Service	Service	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t23
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES_2023-02-23-CD230223.u73" text_id="ParlaMint-ES-en_2023-02-23-CD230223" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Plenary session 239 (2023-02-23)" speaker_role="Chairperson" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-ES_2023-02-23-CD230223.u73" text_id="ParlaMint-ES-en_2023-02-23-CD230223" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Plenary session 239 (2023-02-23)" speaker_role="Chairperson" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2023-02-23-CD230223.u73.p1" lang="English">
 <s id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1">
 Initiation	Initiation	initiation	NOUN	Number=Sing	S1.1.1,T2+	S1.1.1	S1.1.1: Social Actions, States And Processes	t1
@@ -593,7 +593,7 @@ favour	favour	favour	NOUN	Number=Sing	E2++	E2p	E2+: Like	t10
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2023-02-23-CD230223.u74" text_id="ParlaMint-ES-en_2023-02-23-CD230223" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Plenary session 239 (2023-02-23)" speaker_role="Chairperson" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-ES_2023-02-23-CD230223.u74" text_id="ParlaMint-ES-en_2023-02-23-CD230223" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Plenary session 239 (2023-02-23)" speaker_role="Chairperson" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2023-02-23-CD230223.u74.p1" lang="English">
 <s id="ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1">
 Consequently	Consequently	consequently	ADV	-	A2.2	A2.2	A2.2: Cause	t1

@@ -1,6 +1,6 @@
 <note type="head" content="Retirement of a Member: Lord Elystan-Morgan"/>
 <note type="-" content="Announcement"/>
-<speech id="ParlaMint-GB_2020-02-12-lords.u1" text_id="ParlaMint-GB-en_2020-02-12-lords" subcorpus="COVID" lang="English" body="Upper house" term="58" session="-" meeting="-" sitting="2020-02-12" agenda="-" date="2020-02-12" title="Minutes of the House of Lords, Daily Session 2020-02-12" speaker_role="Regular" speaker_id="PeterFowler" speaker_name="Fowler, Peter" speaker_mp="MP" speaker_minister="notMinister" speaker_party="I" speaker_party_name="Independent" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2020-02-12-lords.u1" text_id="ParlaMint-GB-en_2020-02-12-lords" subcorpus="COVID" lang="English" body="Upper house" term="58" session="-" meeting="2020-02-12" sitting="2020-02-12" agenda="-" date="2020-02-12" title="Minutes of the House of Lords, Daily Session 2020-02-12" speaker_role="Regular" speaker_id="PeterFowler" speaker_name="Fowler, Peter" speaker_mp="MP" speaker_minister="notMinister" speaker_party="I" speaker_party_name="Independent" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2020-02-12-lords.seg1" lang="English">
 <s id="ParlaMint-GB_2020-02-12-lords.seg1.1">
 My	My	my	DET	Number=Sing Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t1
@@ -95,7 +95,7 @@ House	House	House	PROPN	Number=Sing	H4	H4	H4: Residence	t20
 <note type="head" content="Disability Employment Gap"/>
 <note type="-" content="Question"/>
 <note type="-" content="Asked by"/>
-<speech id="ParlaMint-GB_2020-02-12-lords.u2" text_id="ParlaMint-GB-en_2020-02-12-lords" subcorpus="COVID" lang="English" body="Upper house" term="58" session="-" meeting="-" sitting="2020-02-12" agenda="-" date="2020-02-12" title="Minutes of the House of Lords, Daily Session 2020-02-12" speaker_role="Regular" speaker_id="JamesTouhig" speaker_name="Touhig, James Donnelly" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LAB" speaker_party_name="Labour" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2020-02-12-lords.u2" text_id="ParlaMint-GB-en_2020-02-12-lords" subcorpus="COVID" lang="English" body="Upper house" term="58" session="-" meeting="2020-02-12" sitting="2020-02-12" agenda="-" date="2020-02-12" title="Minutes of the House of Lords, Daily Session 2020-02-12" speaker_role="Regular" speaker_id="JamesTouhig" speaker_name="Touhig, James Donnelly" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LAB" speaker_party_name="Labour" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2020-02-12-lords.seg2" lang="English">
 <s id="ParlaMint-GB_2020-02-12-lords.seg2.1">
 To	To	to	PART	-	Z5	Z5	Z5: Grammatical bin	t1
@@ -124,7 +124,7 @@ gap	gap	gap	NOUN	Number=Sing	N3.3,T1.3,A6.1-,A9-	N3.3	N3.3: Measurement: Distanc
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-GB_2020-02-12-lords.u173" text_id="ParlaMint-GB-en_2020-02-12-lords" subcorpus="COVID" lang="English" body="Upper house" term="58" session="-" meeting="-" sitting="2020-02-12" agenda="-" date="2020-02-12" title="Minutes of the House of Lords, Daily Session 2020-02-12" speaker_role="Regular" speaker_id="LeslieGriffiths" speaker_name="Griffiths, Leslie John" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LAB" speaker_party_name="Labour" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2020-02-12-lords.u173" text_id="ParlaMint-GB-en_2020-02-12-lords" subcorpus="COVID" lang="English" body="Upper house" term="58" session="-" meeting="2020-02-12" sitting="2020-02-12" agenda="-" date="2020-02-12" title="Minutes of the House of Lords, Daily Session 2020-02-12" speaker_role="Regular" speaker_id="LeslieGriffiths" speaker_name="Griffiths, Leslie John" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LAB" speaker_party_name="Labour" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2020-02-12-lords.seg372" lang="English">
 <s id="ParlaMint-GB_2020-02-12-lords.seg372.1">
 My	My	my	DET	Number=Sing Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t1
@@ -1429,7 +1429,7 @@ womenswear	womenswear	womenswear	NOUN	Number=Sing	B5	B5	B5: Clothes and personal
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-GB_2020-02-12-lords.u174" text_id="ParlaMint-GB-en_2020-02-12-lords" subcorpus="COVID" lang="English" body="Upper house" term="58" session="-" meeting="-" sitting="2020-02-12" agenda="-" date="2020-02-12" title="Minutes of the House of Lords, Daily Session 2020-02-12" speaker_role="Regular" speaker_id="DianaBarran" speaker_name="Barran, Diana" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="F" speaker_birth="-">
+<speech id="ParlaMint-GB_2020-02-12-lords.u174" text_id="ParlaMint-GB-en_2020-02-12-lords" subcorpus="COVID" lang="English" body="Upper house" term="58" session="-" meeting="2020-02-12" sitting="2020-02-12" agenda="-" date="2020-02-12" title="Minutes of the House of Lords, Daily Session 2020-02-12" speaker_role="Regular" speaker_id="DianaBarran" speaker_name="Barran, Diana" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-GB_2020-02-12-lords.seg377" lang="English">
 <s id="ParlaMint-GB_2020-02-12-lords.seg377.1">
 My	My	my	DET	Number=Sing Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t1

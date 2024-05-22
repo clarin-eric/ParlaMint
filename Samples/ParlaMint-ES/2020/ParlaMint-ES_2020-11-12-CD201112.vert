@@ -1,5 +1,5 @@
 <note type="head" content="DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY DE PRESUPUESTOS GENERALES DEL ESTADO PARA EL AÑO 2021."/>
-<speech id="ParlaMint-ES_2020-11-12-CD201112.u1" text_id="ParlaMint-ES_2020-11-12-CD201112" subcorpus="COVID" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 58" meeting="-" sitting="2020-11-12" agenda="-" date="2020-11-12" title="Sesión plenaria núm. 58 (2020-11-12)" speaker_role="Presidencia" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-ES_2020-11-12-CD201112.u1" text_id="ParlaMint-ES_2020-11-12-CD201112" subcorpus="COVID" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 58" meeting="-" sitting="2020-11-12" agenda="-" date="2020-11-12" title="Sesión plenaria núm. 58 (2020-11-12)" speaker_role="Presidencia" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2020-11-12-CD201112.u1.p1" lang="Español">
 <s id="ParlaMint-ES_2020-11-12-CD201112.u1.p1.s1">
 <name type="LOC">
@@ -141,7 +141,7 @@ mayoría	mayoría	mayoría	NOUN	Gender=Fem Number=Sing	w4	root	-	-	-	-
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES_2020-11-12-CD201112.u43" text_id="ParlaMint-ES_2020-11-12-CD201112" subcorpus="COVID" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 58" meeting="-" sitting="2020-11-12" agenda="-" date="2020-11-12" title="Sesión plenaria núm. 58 (2020-11-12)" speaker_role="Presidencia" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-ES_2020-11-12-CD201112.u43" text_id="ParlaMint-ES_2020-11-12-CD201112" subcorpus="COVID" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 58" meeting="-" sitting="2020-11-12" agenda="-" date="2020-11-12" title="Sesión plenaria núm. 58 (2020-11-12)" speaker_role="Presidencia" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2020-11-12-CD201112.u43.p1" lang="Español">
 <s id="ParlaMint-ES_2020-11-12-CD201112.u43.p1.s1">
 Muchas	Muchas	mucho	DET	Gender=Fem Number=Plur NumType=Card PronType=Ind	w1	det	gracia	NOUN	Gender=Fem Number=Plur	w2
@@ -359,7 +359,7 @@ telemáticos	telemáticos	telemático	ADJ	Gender=Masc Number=Plur	w39	amod	voto	
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2020-11-12-CD201112.u44" text_id="ParlaMint-ES_2020-11-12-CD201112" subcorpus="COVID" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 58" meeting="-" sitting="2020-11-12" agenda="-" date="2020-11-12" title="Sesión plenaria núm. 58 (2020-11-12)" speaker_role="Presidencia" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-ES_2020-11-12-CD201112.u44" text_id="ParlaMint-ES_2020-11-12-CD201112" subcorpus="COVID" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 58" meeting="-" sitting="2020-11-12" agenda="-" date="2020-11-12" title="Sesión plenaria núm. 58 (2020-11-12)" speaker_role="Presidencia" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2020-11-12-CD201112.u44.p1" lang="Español">
 <s id="ParlaMint-ES_2020-11-12-CD201112.u44.p1.s1">
 Las	Las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	w1	det	enmienda	NOUN	Gender=Fem Number=Plur	w2

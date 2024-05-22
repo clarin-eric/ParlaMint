@@ -142,7 +142,7 @@ Pontón	Pontón	Pontón	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t7
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES-GA_2017-05-24-DSPG030.u375" text_id="ParlaMint-ES-GA-en_2017-05-24-DSPG030" subcorpus="Reference" lang="English" body="Unicameralism" term="X Lexislatura" session="-" meeting="Número 030" sitting="24.05.2017" agenda="-" date="2017-05-24" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Regular" speaker_id="RivasJoséLuis" speaker_name="Rivas Cruz, José Luis" speaker_mp="MP" speaker_minister="notMinister" speaker_party="BNG" speaker_party_name="Galician Nationalist Bloc" party_status="Opposition" party_orientation="Left Left" speaker_gender="M" speaker_birth="1951">
+<speech id="ParlaMint-ES-GA_2017-05-24-DSPG030.u375" text_id="ParlaMint-ES-GA-en_2017-05-24-DSPG030" subcorpus="Reference" lang="English" body="Unicameralism" term="X Lexislatura" session="-" meeting="Número 030" sitting="24.05.2017" agenda="-" date="2017-05-24" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Regular" speaker_id="RivasJoséLuis" speaker_name="Rivas Cruz, José Luis" speaker_mp="MP" speaker_minister="notMinister" speaker_party="BNG" speaker_party_name="Galician Nationalist Bloc" party_status="Opposition" party_orientation="Left" speaker_gender="M" speaker_birth="1951">
 <p id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1156" lang="English">
 <s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1156.s1">
 They	They	they	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pronouns	t1

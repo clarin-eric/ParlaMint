@@ -1081,7 +1081,7 @@ meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BG_2017-05-11.u110" text_id="ParlaMint-BG-en_2017-05-11" subcorpus="Reference" lang="English" body="Unicameralism" term="Четиридесет и четвърто народно събрание" session="1 парламентарна сесия" meeting="11 пленарно заседание" sitting="2017-05-11" agenda="-" date="2017-05-11" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 1, Meeting 11 (2017-05-11)" speaker_role="Regular" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-BG_2017-05-11.u110" text_id="ParlaMint-BG-en_2017-05-11" subcorpus="Reference" lang="English" body="Unicameralism" term="Четиридесет и четвърто народно събрание" session="1 парламентарна сесия" meeting="11 пленарно заседание" sitting="2017-05-11" agenda="-" date="2017-05-11" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 1, Meeting 11 (2017-05-11)" speaker_role="Regular" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-BG_2017-05-11.seg394" lang="English">
 <s id="ParlaMint-BG_2017-05-11.seg394.1">
 Tomorrow	Tomorrow	tomorrow	NOUN	Number=Sing	T1.1.3	T1.1.3	T1.1.3: Time: Future	t1

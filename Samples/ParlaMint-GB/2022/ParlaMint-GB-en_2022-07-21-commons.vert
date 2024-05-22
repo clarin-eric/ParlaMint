@@ -1,5 +1,5 @@
 <note type="head" content="Speaker's Statement"/>
-<speech id="ParlaMint-GB_2022-07-21-commons.u1" text_id="ParlaMint-GB-en_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="-" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Chairperson" speaker_id="LindsayHoyle" speaker_name="Hoyle, Lindsay Harvey" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LAB" speaker_party_name="Labour" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2022-07-21-commons.u1" text_id="ParlaMint-GB-en_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="2022-07-21" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Chairperson" speaker_id="LindsayHoyle" speaker_name="Hoyle, Lindsay Harvey" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LAB" speaker_party_name="Labour" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2022-07-21-commons.seg1" lang="English">
 <s id="ParlaMint-GB_2022-07-21-commons.seg1.1">
 Before	Before	before	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
@@ -383,7 +383,7 @@ future	future	future	NOUN	Number=Sing	T1.1.3	T1.1.3	T1.1.3: Time: Future	t23
 <note type="-" content="End of debateSection."/>
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="Free Trade Agreement: India"/>
-<speech id="ParlaMint-GB_2022-07-21-commons.u2" text_id="ParlaMint-GB-en_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="-" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Regular" speaker_id="RobertBlackman" speaker_name="Blackman, Robert John" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2022-07-21-commons.u2" text_id="ParlaMint-GB-en_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="2022-07-21" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Regular" speaker_id="RobertBlackman" speaker_name="Blackman, Robert John" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2022-07-21-commons.seg5" lang="English">
 <s id="ParlaMint-GB_2022-07-21-commons.seg5.1">
 1	1	1	X	-	Z99	Z99	Z99: Unmatched	t1
@@ -413,7 +413,7 @@ India	India	India	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t14
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-GB_2022-07-21-commons.u405" text_id="ParlaMint-GB-en_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="-" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Regular" speaker_id="DavidRutley" speaker_name="Rutley, David Henry" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2022-07-21-commons.u405" text_id="ParlaMint-GB-en_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="2022-07-21" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Regular" speaker_id="DavidRutley" speaker_name="Rutley, David Henry" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2022-07-21-commons.seg859" lang="English">
 <s id="ParlaMint-GB_2022-07-21-commons.seg859.1">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
@@ -3106,7 +3106,7 @@ work	work	work	NOUN	Number=Sing	Df	Z9	Z9: Trash can	t9
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-GB_2022-07-21-commons.u406" text_id="ParlaMint-GB-en_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="-" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Regular" speaker_id="EleanorLaing" speaker_name="Laing, Eleanor Fulton" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="F" speaker_birth="-">
+<speech id="ParlaMint-GB_2022-07-21-commons.u406" text_id="ParlaMint-GB-en_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="2022-07-21" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Regular" speaker_id="EleanorLaing" speaker_name="Laing, Eleanor Fulton" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-GB_2022-07-21-commons.seg875" lang="English">
 <s id="ParlaMint-GB_2022-07-21-commons.seg875.1">
 As	As	as	ADP	-	Z5	Z5	Z5: Grammatical bin	t1

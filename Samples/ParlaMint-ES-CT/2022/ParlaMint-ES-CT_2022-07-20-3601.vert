@@ -26,7 +26,7 @@
 <note type="narrative" content="22. Moció subsegüent a la interpel·lació al Govern sobre l'impacte de la repressió en l'independentisme i en els estàndards democràtics de l'Estat espanyol (tram. 302-00182/13). Grup Parlamentari d'Esquerra Republicana. Debat i votació."/>
 <note type="narrative" content="23. Moció subsegüent a la interpel·lació al Govern sobre les polítiques per a frenar l'ocupació il·legal d'habitatges (tram. 302-00183/13). Grup Parlamentari de VOX en Cataluña. Debat i votació."/>
 <note type="speaker" content="La presidenta"/>
-<speech id="ParlaMint-ES-CT_2022-07-20-3601.1.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="Corpus COVID,Guerra" lang="Català" body="Unicameralisme" term="XIV Legislatura" session="-" meeting="36" sitting="1" agenda="-" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Presidència" speaker_id="BorràsLaura" speaker_name="Borràs i Castanyer, Laura" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="GP-JxCAT" speaker_party_name="Grup Parlamentari de Junts per Catalunya" party_status="Coalition" party_orientation="Entre centredreta i dreta" speaker_gender="F" speaker_birth="1970">
+<speech id="ParlaMint-ES-CT_2022-07-20-3601.1.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="COVID,Guerra" lang="Català" body="Unicameralisme" term="XIV Legislatura" session="-" meeting="36" sitting="1" agenda="-" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Presidència" speaker_id="BorràsLaura" speaker_name="Borràs i Castanyer, Laura" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="GP-JxCAT" speaker_party_name="Grup Parlamentari de Junts per Catalunya" party_status="Coalition" party_orientation="Entre centredreta i dreta" speaker_gender="F" speaker_birth="1970">
 <p id="ParlaMint-ES-CT_2022-07-20-3601.1.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.1.0.0.1">
 Bon	Bon	bo	ADJ	Gender=Masc Number=Sing	1	root	-	-	-	-
@@ -776,7 +776,7 @@ paraula	paraula	paraula	NOUN	Gender=Fem Number=Sing	30	nsubj	demanar	VERB	Mood=I
 </p>
 </speech>
 <note type="speaker" content="Ignacio Martín Blanco"/>
-<speech id="ParlaMint-ES-CT_2022-07-20-3601.2.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="Corpus COVID,Guerra" lang="Espanyol" body="Unicameralisme" term="XIV Legislatura" session="-" meeting="36" sitting="1" agenda="-" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Diputat/da" speaker_id="MartínIgnacio" speaker_name="Martín Blanco, Ignacio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-Cs" speaker_party_name="Grup Parlamentari de Ciutadans" party_status="Opposition" party_orientation="Centredreta" speaker_gender="M" speaker_birth="1982">
+<speech id="ParlaMint-ES-CT_2022-07-20-3601.2.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="COVID,Guerra" lang="Espanyol" body="Unicameralisme" term="XIV Legislatura" session="-" meeting="36" sitting="1" agenda="-" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Diputat/da" speaker_id="MartínIgnacio" speaker_name="Martín Blanco, Ignacio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-Cs" speaker_party_name="Grup Parlamentari de Ciutadans" party_status="Opposition" party_orientation="Centredreta" speaker_gender="M" speaker_birth="1982">
 <p id="ParlaMint-ES-CT_2022-07-20-3601.2.0.0" lang="Espanyol">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.2.0.0.1">
 <name type="PER">
@@ -823,7 +823,7 @@ lògicament	lògicament	lògicament	NOUN	Gender=Masc Number=Sing	23	advmod	senyo
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES-CT_2022-07-20-3601.267.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="Corpus COVID,Guerra" lang="Català" body="Unicameralisme" term="XIV Legislatura" session="-" meeting="36" sitting="1" agenda="-" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Diputat/da" speaker_id="Gonzàlez-CambrayJosep" speaker_name="Gonzàlez-Cambray, Josep" speaker_mp="notMP" speaker_minister="Minister" speaker_party="ERC" speaker_party_name="Esquerra Republicana de Catalunya" party_status="-" party_orientation="Entre centreesquerra i esquerra" speaker_gender="M" speaker_birth="1972">
+<speech id="ParlaMint-ES-CT_2022-07-20-3601.267.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="COVID,Guerra" lang="Català" body="Unicameralisme" term="XIV Legislatura" session="-" meeting="36" sitting="1" agenda="-" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Diputat/da" speaker_id="Gonzàlez-CambrayJosep" speaker_name="Gonzàlez-Cambray, Josep" speaker_mp="notMP" speaker_minister="Minister" speaker_party="ERC" speaker_party_name="Esquerra Republicana de Catalunya" party_status="-" party_orientation="Entre centreesquerra i esquerra" speaker_gender="M" speaker_birth="1972">
 <p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.267.0.0.1">
 <name type="PER">
@@ -1709,7 +1709,7 @@ Gràcies	Gràcies	gràcies	PROPN	-	1	root	-	-	-	-
 </p>
 </speech>
 <note type="speaker" content="La presidenta"/>
-<speech id="ParlaMint-ES-CT_2022-07-20-3601.268.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="Corpus COVID,Guerra" lang="Català" body="Unicameralisme" term="XIV Legislatura" session="-" meeting="36" sitting="1" agenda="-" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Presidència" speaker_id="BorràsLaura" speaker_name="Borràs i Castanyer, Laura" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="GP-JxCAT" speaker_party_name="Grup Parlamentari de Junts per Catalunya" party_status="Coalition" party_orientation="Entre centredreta i dreta" speaker_gender="F" speaker_birth="1970">
+<speech id="ParlaMint-ES-CT_2022-07-20-3601.268.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="COVID,Guerra" lang="Català" body="Unicameralisme" term="XIV Legislatura" session="-" meeting="36" sitting="1" agenda="-" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Presidència" speaker_id="BorràsLaura" speaker_name="Borràs i Castanyer, Laura" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="GP-JxCAT" speaker_party_name="Grup Parlamentari de Junts per Catalunya" party_status="Coalition" party_orientation="Entre centredreta i dreta" speaker_gender="F" speaker_birth="1970">
 <p id="ParlaMint-ES-CT_2022-07-20-3601.268.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.268.0.0.1">
 Moltes	Moltes	molt	DET	PronType=Ind Gender=Fem Number=Plur	1	root	-	-	-	-

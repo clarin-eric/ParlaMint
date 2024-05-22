@@ -1,4 +1,4 @@
-<speech id="ParlaMint-IS_2022-06-15.u1" text_id="ParlaMint-IS_2022-06-15" subcorpus="COVID,Stríð" lang="Íslenska" body="Þing í einni deild" term="24. kjörtímabil" session="152. löggjafarþing" meeting="Óskráður" sitting="-" agenda="-" date="2022-06-15" title="Ræður frá Alþingi Íslendinga, 24. kjörtímabil, óskráður fundur, 15.06.2022." speaker_role="Venjulegur" speaker_id="GudbrandurEinarsson" speaker_name="Einarsson, Guðbrandur" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-IS_2022-06-15.u1" text_id="ParlaMint-IS_2022-06-15" subcorpus="COVID,Stríð" lang="Íslenska" body="Þing í einni deild" term="24. kjörtímabil" session="152. löggjafarþing" meeting="Óskráður" sitting="-" agenda="-" date="2022-06-15" title="Ræður frá Alþingi Íslendinga, 24. kjörtímabil, óskráður fundur, 15.06.2022." speaker_role="Venjulegur" topic="Viðskipti|Orkumál og auðlindir|Fjárreiður ríkisins|Skattar og tollar|Félagsmál|Samgöngur" speaker_id="GudbrandurEinarsson" speaker_name="Einarsson, Guðbrandur" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1958">
 <p id="ParlaMint-IS_2022-06-15.seg1" lang="Íslenska">
 <s id="ParlaMint-IS_2022-06-15.seg1.1">
 Virðulegur	Virðulegur	virðulegur	ADJ	Case=Nom Degree=Pos	1	amod	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2
@@ -1234,7 +1234,7 @@ mengun	mengun	mengun	NOUN	Case=Dat Definite=Ind Number=Sing	39	obl	draga	VERB	Ve
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2022-06-15.u2" text_id="ParlaMint-IS_2022-06-15" subcorpus="COVID,Stríð" lang="Íslenska" body="Þing í einni deild" term="24. kjörtímabil" session="152. löggjafarþing" meeting="Óskráður" sitting="-" agenda="-" date="2022-06-15" title="Ræður frá Alþingi Íslendinga, 24. kjörtímabil, óskráður fundur, 15.06.2022." speaker_role="Venjulegur" speaker_id="GudrunHafsteinsdottir" speaker_name="Hafsteinsdóttir, Guðrún" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="F" speaker_birth="1970">
+<speech id="ParlaMint-IS_2022-06-15.u2" text_id="ParlaMint-IS_2022-06-15" subcorpus="COVID,Stríð" lang="Íslenska" body="Þing í einni deild" term="24. kjörtímabil" session="152. löggjafarþing" meeting="Óskráður" sitting="-" agenda="-" date="2022-06-15" title="Ræður frá Alþingi Íslendinga, 24. kjörtímabil, óskráður fundur, 15.06.2022." speaker_role="Venjulegur" topic="Skattar og tollar|Almannatryggingar|Félagsmál" speaker_id="GudrunHafsteinsdottir" speaker_name="Hafsteinsdóttir, Guðrún" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="F" speaker_birth="1970">
 <p id="ParlaMint-IS_2022-06-15.seg5" lang="Íslenska">
 <s id="ParlaMint-IS_2022-06-15.seg5.1">
 <name type="PER">
@@ -2122,7 +2122,7 @@ Steinunn	Steinunn	Steinunn	PROPN	-	30	conj	Ágúst	PROPN	-	15
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IS_2022-06-15.u214" text_id="ParlaMint-IS_2022-06-15" subcorpus="COVID,Stríð" lang="Íslenska" body="Þing í einni deild" term="24. kjörtímabil" session="152. löggjafarþing" meeting="Óskráður" sitting="-" agenda="-" date="2022-06-15" title="Ræður frá Alþingi Íslendinga, 24. kjörtímabil, óskráður fundur, 15.06.2022." speaker_role="Venjulegur" speaker_id="LineikSaevarsdottir" speaker_name="Sævarsdóttir, Líneik Anna" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="F" speaker_birth="1964">
+<speech id="ParlaMint-IS_2022-06-15.u214" text_id="ParlaMint-IS_2022-06-15" subcorpus="COVID,Stríð" lang="Íslenska" body="Þing í einni deild" term="24. kjörtímabil" session="152. löggjafarþing" meeting="Óskráður" sitting="-" agenda="-" date="2022-06-15" title="Ræður frá Alþingi Íslendinga, 24. kjörtímabil, óskráður fundur, 15.06.2022." speaker_role="Venjulegur" topic="Viðskipti|Fjárreiður ríkisins|Félagsmál|Heilbrigðismál" speaker_id="LineikSaevarsdottir" speaker_name="Sævarsdóttir, Líneik Anna" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="F" speaker_birth="1964">
 <p id="ParlaMint-IS_2022-06-15.seg518" lang="Íslenska">
 <s id="ParlaMint-IS_2022-06-15.seg518.1">
 Virðulegi	Virðulegi	virðulegur	ADJ	Case=Nom Degree=Pos	1	amod	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2
@@ -3460,7 +3460,7 @@ málsháttur	málsháttur	málsháttur	NOUN	Case=Nom Definite=Ind Number=Sing	49
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2022-06-15.u215" text_id="ParlaMint-IS_2022-06-15" subcorpus="COVID,Stríð" lang="Íslenska" body="Þing í einni deild" term="24. kjörtímabil" session="152. löggjafarþing" meeting="Óskráður" sitting="-" agenda="-" date="2022-06-15" title="Ræður frá Alþingi Íslendinga, 24. kjörtímabil, óskráður fundur, 15.06.2022." speaker_role="Venjulegur" speaker_id="SigmarGudmundsson" speaker_name="Guðmundsson, Sigmar" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1969">
+<speech id="ParlaMint-IS_2022-06-15.u215" text_id="ParlaMint-IS_2022-06-15" subcorpus="COVID,Stríð" lang="Íslenska" body="Þing í einni deild" term="24. kjörtímabil" session="152. löggjafarþing" meeting="Óskráður" sitting="-" agenda="-" date="2022-06-15" title="Ræður frá Alþingi Íslendinga, 24. kjörtímabil, óskráður fundur, 15.06.2022." speaker_role="Venjulegur" topic="Viðskipti|Fjárreiður ríkisins|Félagsmál|Heilbrigðismál" speaker_id="SigmarGudmundsson" speaker_name="Guðmundsson, Sigmar" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1969">
 <p id="ParlaMint-IS_2022-06-15.seg530" lang="Íslenska">
 <s id="ParlaMint-IS_2022-06-15.seg530.1">
 Virðulegi	Virðulegi	virðulegur	ADJ	Case=Nom Degree=Pos	1	amod	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2

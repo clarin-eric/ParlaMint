@@ -7,6 +7,7 @@ PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV 
 ##$JAVA-MEMORY## Set a java memory maxsize in GB
 JAVA-MEMORY =
 JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
+PARALLEL-JOBS = 10
 
 LANG-LIST =
 leftBRACKET := (
@@ -552,6 +553,200 @@ sync-Sources-TEI-XX = $(addprefix sync-Sources-TEI-, $(PARLIAMENTS))
 sync-Sources-TEI: $(sync-Sources-TEI-XX)
 $(sync-Sources-TEI-XX): sync-Sources-TEI-%:
 	rsync -a --compress --progress -e'ssh -oCompression=no' $(SOURCE-LOCATION)/Build/Sources-TEI/ParlaMint-$*.TEI* Build/Sources-TEI/
+
+
+distro-make-all-XX = $(addprefix distro-make-all-, $(PARLIAMENTS))
+##!distro-make-all## enqueue slurm job for creating distribution from Build/Source-TEI
+distro-make-all: $(distro-make-all-XX)
+$(distro-make-all-XX): distro-make-all-%: Scripts/slurm_run_make-all.sh
+	CORPSIZE=$$(du -s --apparent-size Build/Sources-TEI/ParlaMint-$*.TEI.ana/|cut  -f1); \
+	MEMEXP=$$(echo "$$CORPSIZE*2.5/1000000+55" | bc ); \
+	MEMREQ=$$( [ "$$MEMEXP" -lt "30" ] && echo -n 30 || echo -n $$MEMEXP ); \
+	CPUREQ=$$( [ "$$MEMREQ" -gt "250" ] && echo -n 14 || ( [ "$$MEMREQ" -gt "120" ]  && echo -n 30 || echo -n 24 )  ); \
+	echo "COMMAND: sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $*"; \
+	sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $*
+
+
+
+Scripts/slurm_run_make-all.sh:
+	echo '#!/bin/bash' > $@
+	echo "#SBATCH --chdir=Build/  ## first change directory and then all paths are relative to location" >> $@
+	echo '#SBATCH --output=Logs/%x.%j.log' >> $@
+	echo '#SBATCH --ntasks=1' >> $@
+	echo '#SBATCH --cpus-per-task=30' >> $@
+	echo '#SBATCH -p cpu-troja,cpu-ms' >> $@
+	echo '#SBATCH -q low' >> $@
+	echo '#SBATCH --mem=120G' >> $@
+	echo '' >> $@
+	echo 'set -e' >> $@
+	echo 'which parallel || ( echo "missing parallel ($$(hostname))" && exit 1 )' >> $@
+	echo '' >> $@
+	echo 'CORP=$$1' >> $@
+	echo 'COMMIT=$$(git rev-parse --short HEAD)' >> $@
+	echo 'INSIZE=$$(du -s --apparent-size Sources-TEI/ParlaMint-$$CORP.TEI.ana/|cut  -f1)' >> $@
+	echo 'echo "$$SLURM_JOB_ID $$CORP"' >> $@
+	echo '# MEM=$$(echo -n "$$SLURM_MEM_PER_NODE/1000-1" | bc )' >> $@
+	echo 'CMD="make all CORPORA=$$CORP "' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\tSTARTED\t$$SLURM_JOB_ID\t$$(hostname)\tmem=$$SLURM_MEM_PER_NODE cpus=$$SLURM_CPUS_ON_NODE in_ana=$$(echo "$${INSIZE}/1000000"|bc)GB\t$$CMD" >> Logs/ParlaMint.slurm.log' >> $@
+	echo 'RES=$$(/usr/bin/time --output=Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp -f "%x\t%E real, %U user, %S sys, %M kB" $$CMD)' >> $@
+	echo 'TIME=$$(cut -f 2 Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'CODE=$$(cut -f 1 Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'rm Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\t$$( [ "$$CODE" -gt "0" ] && echo "FAILED-$$CODE" || echo "FINISHED" )\t$$SLURM_JOB_ID\t$$(hostname)\t$$TIME\t$$CMD" >> Logs/ParlaMint.slurm.log' >> $@
+
+##!####MT DISTRO
+
+sync-Sources-CoNLLU-XX = $(addprefix sync-Sources-CoNLLU-, $(PARLIAMENTS))
+##!sync-Sources-CoNLLU##
+sync-Sources-CoNLLU: $(sync-Sources-CoNLLU-XX)
+$(sync-Sources-CoNLLU-XX): sync-Sources-CoNLLU-%:
+	rsync -a --compress --progress -e'ssh -oCompression=no' $(SOURCE-LOCATION)/Build/Sources-CoNLLU/ParlaMint-$*-en* Build/Sources-CoNLLU/
+
+distro-make-mt-all-XX = $(addprefix distro-make-mt-all-, $(PARLIAMENTS))
+##!distro-make-mt-all## enqueue slurm job for creating distribution from MT
+distro-make-mt-all: $(distro-make-mt-all-XX)
+$(distro-make-mt-all-XX): distro-make-mt-all-%: Scripts/slurm_run_make-mt-all.sh
+	CORPSIZE=$$(du -s --apparent-size Build/Sources-TEI/ParlaMint-$*.TEI.ana/|cut  -f1); \
+	MEMEXP=$$(echo "$$CORPSIZE*2/1000000+70" | bc ); \
+	MEMREQ=$$( [ "$$MEMEXP" -lt "30" ] && echo -n 30 || echo -n $$MEMEXP ); \
+	CPUREQ=$$( [ "$$MEMREQ" -gt "250" ] && echo -n 14 || ( [ "$$MEMREQ" -gt "120" ]  && echo -n 30 || echo -n 24 )  ); \
+	echo "COMMAND: sbatch --job-name=pm$*-en-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-mt-all.sh $*"; \
+	sbatch --job-name=pm$*-en-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-mt-all.sh $*
+
+Scripts/slurm_run_make-mt-all.sh:
+	echo '#!/bin/bash' > $@
+	echo "#SBATCH --chdir=Build/  ## first change directory and then all paths are relative to location" >> $@
+	echo '#SBATCH --output=Logs/%x.%j.log' >> $@
+	echo '#SBATCH --ntasks=1' >> $@
+	echo '#SBATCH --cpus-per-task=30' >> $@
+	echo '#SBATCH -p cpu-troja,cpu-ms' >> $@
+	echo '#SBATCH -q low' >> $@
+	echo '#SBATCH --mem=120G' >> $@
+	echo '' >> $@
+	echo 'set -e' >> $@
+	echo 'which parallel || ( echo "missing parallel ($$(hostname))" && exit 1 )' >> $@
+	echo '' >> $@
+	echo 'CORP=$$1' >> $@
+	echo 'COMMIT=$$(git rev-parse --short HEAD)' >> $@
+	echo 'INSIZE=$$(du -s --apparent-size Sources-TEI/ParlaMint-$$CORP.TEI.ana/|cut  -f1)' >> $@
+	echo 'echo "$$SLURM_JOB_ID $$CORP"' >> $@
+	echo '# MEM=$$(echo -n "$$SLURM_MEM_PER_NODE/1000-1" | bc )' >> $@
+	echo 'CMD="make mt-all CORPORA=$$CORP "' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\tSTARTED\t$$SLURM_JOB_ID\t$$(hostname)\tmem=$$SLURM_MEM_PER_NODE cpus=$$SLURM_CPUS_ON_NODE in_ana=$$(echo "$${INSIZE}/1000000"|bc)GB\t$$CMD" >> Logs/ParlaMint-en.slurm.log' >> $@
+	echo 'RES=$$(/usr/bin/time --output=Logs/ParlaMint-en.slurm.$$SLURM_JOB_ID.tmp -f "%x\t%E real, %U user, %S sys, %M kB" $$CMD)' >> $@
+	echo 'TIME=$$(cut -f 2 Logs/ParlaMint-en.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'CODE=$$(cut -f 1 Logs/ParlaMint-en.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'rm Logs/ParlaMint-en.slurm.$$SLURM_JOB_ID.tmp' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\t$$( [ "$$CODE" -gt "0" ] && echo "FAILED-$$CODE" || echo "FINISHED" )\t$$SLURM_JOB_ID\t$$(hostname)\t$$TIME\t$$CMD" >> Logs/ParlaMint-en.slurm.log' >> $@
+
+##!####DISTRO2TEITOK
+distro2teitok-XX = $(addprefix distro2teitok-, $(PARLIAMENTS))
+##!distro2teitok-##
+distro2teitok: $(distro2teitok-XX)
+$(distro2teitok-XX): distro2teitok-%:
+	$(eval TEIanadir :=Build/Distro/ParlaMint-$*.TEI.ana)
+	$(eval METAdir :=Build/Distro/ParlaMint-$*.conllu)
+	$(eval TTdir :=Build/Teitok/ParlaMint-$*)
+	$(eval FL :=$(TTdir)-components.fl)
+	test  -d "$(TEIanadir)" || echo "FATAL ERROR: TEI.ana folder is missing: $(TEIanadir)"
+	test  -d "$(METAdir)" || echo "FATAL ERROR: conllu folder is missing: $(METAdir)"
+	mkdir -p $(TTdir)
+	echo  "$(TEIanadir)/ParlaMint-$*.ana.xml" | xargs ${getcomponentincludes} > $(FL)
+	bash -c 'paste <(echo;head -n -1 $(FL)) <(cat $(FL)) <(tail -n +2 $(FL))' \
+	  | sed 's@\(.*\)\t\(.*\)\t\(.*\)@--prev="\1" --file="$(TEIanadir)/\2" --next="\3"@' \
+	  | sed 's/"/\\"/g' \
+	  | xargs -L1 echo 'perl Scripts/parlamint2teitok.pl --force --notok --tsvdir="$(METAdir)/" --outdir="$(TTdir)/" ' \
+	  > $(TTdir).sh
+	cat $(TTdir).sh | parallel --gnu --halt 0 --jobs $(PARALLEL-JOBS)
+	rm $(TTdir)-components.fl $(TTdir).sh
+
+
+slurm-distro2teitok-XX = $(addprefix slurm-distro2teitok-, $(PARLIAMENTS))
+##!slurm-distro2teitok-## enqueue slurm job for creating teitok version from distro
+slurm-distro2teitok: $(slurm-distro2teitok-XX)
+$(slurm-distro2teitok-XX): slurm-distro2teitok-%: Scripts/slurm_run_distro2teitok.sh
+	sbatch --job-name=pm$*-tt --mem=10G --cpus-per-task=28 Scripts/slurm_run_distro2teitok.sh $*
+
+
+Scripts/slurm_run_distro2teitok.sh:
+	echo '#!/bin/bash' > $@
+	#echo "#SBATCH --chdir=  ## first change directory and then all paths are relative to location" >> $@
+	echo '#SBATCH --output=Build/Logs/%x.%j.log' >> $@
+	echo '#SBATCH --ntasks=1' >> $@
+	echo '#SBATCH --cpus-per-task=30' >> $@
+	echo '#SBATCH -p cpu-troja,cpu-ms' >> $@
+	echo '#SBATCH -q low' >> $@
+	echo '#SBATCH --mem=120G' >> $@
+	echo '' >> $@
+	echo 'set -e' >> $@
+	echo 'which parallel || ( echo "missing parallel ($$(hostname))" && exit 1 )' >> $@
+	echo '' >> $@
+	echo 'CORP=$$1' >> $@
+	echo 'COMMIT=$$(git rev-parse --short HEAD)' >> $@
+	echo 'INSIZE=$$(du -s --apparent-size Build/Distro/ParlaMint-$$CORP.TEI.ana/|cut  -f1)' >> $@
+	echo 'echo "$$SLURM_JOB_ID $$CORP"' >> $@
+	echo '# MEM=$$(echo -n "$$SLURM_MEM_PER_NODE/1000-1" | bc )' >> $@
+	echo 'CMD="make distro2teitok PARLIAMENTS=$$CORP PARALLEL-JOBS=$$SLURM_CPUS_ON_NODE"' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\tSTARTED\t$$SLURM_JOB_ID\t$$(hostname)\tmem=$$SLURM_MEM_PER_NODE cpus=$$SLURM_CPUS_ON_NODE in_ana=$$(echo "$${INSIZE}/1000000"|bc)GB\t$$CMD" >> Build/Logs/ParlaMint.tt.slurm.log' >> $@
+	echo 'RES=$$(/usr/bin/time --output=Build/Logs/ParlaMint.tt.slurm.$$SLURM_JOB_ID.tmp -f "%x\t%E real, %U user, %S sys, %M kB" $$CMD)' >> $@
+	echo 'TIME=$$(cut -f 2 Build/Logs/ParlaMint.tt.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'CODE=$$(cut -f 1 Build/Logs/ParlaMint.tt.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'rm Build/Logs/ParlaMint.tt.slurm.$$SLURM_JOB_ID.tmp' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\t$$( [ "$$CODE" -gt "0" ] && echo "FAILED-$$CODE" || echo "FINISHED" )\t$$SLURM_JOB_ID\t$$(hostname)\t$$TIME\t$$CMD" >> Build/Logs/ParlaMint.tt.slurm.log' >> $@
+
+##!####TEITOK2CQP
+CQPsettings = "cqpsetting file path"
+teitok2cqp-XX = $(addprefix teitok2cqp-, $(PARLIAMENTS))
+##!teitok2cqp-##
+teitok2cqp: $(teitok2cqp-XX)
+$(teitok2cqp-XX): teitok2cqp-%: Build/Teitok-cqp check-prereq-teitok2cqp
+	settings=`realpath $(CQPsettings)`;\
+	cd Build/Teitok-tmp; \
+	perl ../../Scripts/teitok2cqp.pl --setfile=$$settings --sub="ParlaMint-$*"
+
+Build/Teitok-cqp:
+	mkdir -p Build/Teitok-cqp
+	mkdir -p Build/Teitok-tmp/tmp
+	ln -s ../Teitok Build/Teitok-tmp/xmlfiles
+	ln -s ../Teitok-cqp Build/Teitok-tmp/cqp
+
+check-prereq-teitok2cqp:
+	test -f $(CQPsettings) || (echo "missing cqp setting file CQPsettings=$(CQPsettings)" && exit 1)
+	test -f Scripts/bin/tt-cwb-encode || (echo "missing Scripts/bin/tt-cwb-encode" && exit 1)
+	test -f Scripts/bin/cwb-makeall || (echo "missing Scripts/bin/cwb-makeall" && exit 1)
+
+slurm-teitok2cqp-XX = $(addprefix slurm-teitok2cqp-, $(PARLIAMENTS))
+##!slurm-teitok2cqp-## enqueue slurm job for creating teitok version from distro
+slurm-teitok2cqp: $(slurm-teitok2cqp-XX)
+$(slurm-teitok2cqp-XX): slurm-teitok2cqp-%: Scripts/slurm_run_teitok2cqp.sh check-prereq-teitok2cqp
+	sbatch --job-name=pm$*-cqp --mem=10G --cpus-per-task=1 Scripts/slurm_run_teitok2cqp.sh $* $(CQPsettings)
+
+Scripts/slurm_run_teitok2cqp.sh:
+	echo '#!/bin/bash' > $@
+	#echo "#SBATCH --chdir=  ## first change directory and then all paths are relative to location" >> $@
+	echo '#SBATCH --output=Build/Logs/%x.%j.log' >> $@
+	echo '#SBATCH --ntasks=1' >> $@
+	echo '#SBATCH --cpus-per-task=30' >> $@
+	echo '#SBATCH -p cpu-troja,cpu-ms' >> $@
+	echo '#SBATCH -q low' >> $@
+	echo '' >> $@
+	echo 'set -e' >> $@
+	echo 'which parallel || ( echo "missing parallel ($$(hostname))" && exit 1 )' >> $@
+	echo '' >> $@
+	echo 'CORP=$$1' >> $@
+	echo 'COMMIT=$$(git rev-parse --short HEAD)' >> $@
+	echo 'INSIZE=$$(du -s --apparent-size Build/Distro/ParlaMint-$$CORP.TEI.ana/|cut  -f1)' >> $@
+	echo 'echo "$$SLURM_JOB_ID $$CORP"' >> $@
+	echo '# MEM=$$(echo -n "$$SLURM_MEM_PER_NODE/1000-1" | bc )' >> $@
+	echo 'CMD="make teitok2cqp PARLIAMENTS=$$CORP CQPsettings=$$2"' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\tSTARTED\t$$SLURM_JOB_ID\t$$(hostname)\tmem=$$SLURM_MEM_PER_NODE cpus=$$SLURM_CPUS_ON_NODE in_ana=$$(echo "$${INSIZE}/1000000"|bc)GB\t$$CMD" >> Build/Logs/ParlaMint.cqp.slurm.log' >> $@
+	echo 'RES=$$(/usr/bin/time --output=Build/Logs/ParlaMint.cqp.slurm.$$SLURM_JOB_ID.tmp -f "%x\t%E real, %U user, %S sys, %M kB" $$CMD)' >> $@
+	echo 'TIME=$$(cut -f 2 Build/Logs/ParlaMint.cqp.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'CODE=$$(cut -f 1 Build/Logs/ParlaMint.cqp.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'rm Build/Logs/ParlaMint.cqp.slurm.$$SLURM_JOB_ID.tmp' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\t$$( [ "$$CODE" -gt "0" ] && echo "FAILED-$$CODE" || echo "FINISHED" )\t$$SLURM_JOB_ID\t$$(hostname)\t$$TIME\t$$CMD" >> Build/Logs/ParlaMint.cqp.slurm.log' >> $@
+
+
 
 ##!####DEVEL
 ##!DEV-list-script-local-deps## for each file in Scripts folder shows list of dependencies in Script folder

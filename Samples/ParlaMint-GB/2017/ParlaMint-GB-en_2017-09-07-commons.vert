@@ -1,5 +1,5 @@
 <note type="head" content="Membership of the European Economic Area"/>
-<speech id="ParlaMint-GB_2017-09-07-commons.u1" text_id="ParlaMint-GB-en_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="-" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" speaker_id="StephenKinnock" speaker_name="Kinnock, Stephen Nathan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LAB" speaker_party_name="Labour" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2017-09-07-commons.u1" text_id="ParlaMint-GB-en_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="2017-09-07" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" speaker_id="StephenKinnock" speaker_name="Kinnock, Stephen Nathan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LAB" speaker_party_name="Labour" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2017-09-07-commons.seg1" lang="English">
 <s id="ParlaMint-GB_2017-09-07-commons.seg1.1">
 1	1	1	X	-	Z99	Z99	Z99: Unmatched	t1
@@ -40,7 +40,7 @@ EEA	EEA	EEA	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t22
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-GB_2017-09-07-commons.u2" text_id="ParlaMint-GB-en_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="-" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" speaker_id="DavidDavis" speaker_name="Davis, David Michael" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2017-09-07-commons.u2" text_id="ParlaMint-GB-en_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="2017-09-07" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" speaker_id="DavidDavis" speaker_name="Davis, David Michael" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2017-09-07-commons.seg2" lang="English">
 <s id="ParlaMint-GB_2017-09-07-commons.seg2.1">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
@@ -181,7 +181,7 @@ law	law	law	NOUN	Number=Sing	G2.1,S6+,Y1	G2.1	G2.1: Law and order	t29
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-GB_2017-09-07-commons.u581" text_id="ParlaMint-GB-en_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="-" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" speaker_id="RobertBlackman" speaker_name="Blackman, Robert John" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2017-09-07-commons.u581" text_id="ParlaMint-GB-en_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="2017-09-07" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" speaker_id="RobertBlackman" speaker_name="Blackman, Robert John" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2017-09-07-commons.seg958" lang="English">
 <s id="ParlaMint-GB_2017-09-07-commons.seg958.1">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
@@ -240,7 +240,7 @@ assets	assets	asset	NOUN	Number=Plur	I1.1,A1.5.2+	I1.1	I1.1: Money and pay	t49
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-GB_2017-09-07-commons.u582" text_id="ParlaMint-GB-en_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="-" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" speaker_id="MarcusJones" speaker_name="Jones, Marcus Charles" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2017-09-07-commons.u582" text_id="ParlaMint-GB-en_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="2017-09-07" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" speaker_id="MarcusJones" speaker_name="Jones, Marcus Charles" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2017-09-07-commons.seg959" lang="English">
 <s id="ParlaMint-GB_2017-09-07-commons.seg959.1">
 As	As	as	ADP	-	Z5	Z5	Z5: Grammatical bin	t1

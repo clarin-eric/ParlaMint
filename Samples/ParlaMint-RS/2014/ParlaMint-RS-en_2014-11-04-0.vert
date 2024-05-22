@@ -1211,7 +1211,7 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-RS_2014-11-04-0.u12938" text_id="ParlaMint-RS-en_2014-11-04-0" subcorpus="Reference" lang="English" body="Unicameralism" term="10. mandat" session="-" meeting="Zasedanje 7" sitting="2015-12-04" agenda="-" date="2014-11-04" title="Term 10, Meeting 7" speaker_role="Regular" speaker_id="LončarZlatibor" speaker_name="Lončar, Zlatibor" speaker_mp="notMP" speaker_minister="Minister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="-" speaker_birth="-">
+<speech id="ParlaMint-RS_2014-11-04-0.u12938" text_id="ParlaMint-RS-en_2014-11-04-0" subcorpus="Reference" lang="English" body="Unicameralism" term="10. mandat" session="-" meeting="Zasedanje 7" sitting="2015-12-04" agenda="-" date="2014-11-04" title="Term 10, Meeting 7" speaker_role="Regular" speaker_id="LončarZlatibor" speaker_name="Lončar, Zlatibor" speaker_mp="notMP" speaker_minister="Minister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-RS_2014-11-04-0.u12938.seg0" lang="English">
 <s id="ParlaMint-RS_2014-11-04-0.u12938.seg0.1">
 First	First	first	ADV	NumType=Ord	N4,P1@	N4	N4: Linear order	t1

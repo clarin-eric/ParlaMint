@@ -1847,7 +1847,7 @@ Peoples	Peoples	people	PROPN	Number=Plur	S2mfc	S2	S2: People	t30
 </p>
 </speech>
 <note type="speaker" content="Hurtić, Zlatko"/>
-<speech id="ParlaMint-BA_2006-07-07-0.u6152" text_id="ParlaMint-BA-en_2006-07-07-0" subcorpus="Reference" lang="English" body="Unicameralism" term="4. mandat" session="-" meeting="Sjednica 60" sitting="2006-07-07" agenda="-" date="2006-07-07" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 4, Session 60" speaker_role="Regular" speaker_id="HurtićZlatko" speaker_name="Hurtić, Zlatko" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="-" speaker_birth="-">
+<speech id="ParlaMint-BA_2006-07-07-0.u6152" text_id="ParlaMint-BA-en_2006-07-07-0" subcorpus="Reference" lang="English" body="Unicameralism" term="4. mandat" session="-" meeting="Sjednica 60" sitting="2006-07-07" agenda="-" date="2006-07-07" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 4, Session 60" speaker_role="Regular" speaker_id="HurtićZlatko" speaker_name="Hurtić, Zlatko" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-BA_2006-07-07-0.u6152.seg0" lang="English">
 <s id="ParlaMint-BA_2006-07-07-0.u6152.seg0.1">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">

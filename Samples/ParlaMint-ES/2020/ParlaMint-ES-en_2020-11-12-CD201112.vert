@@ -1,5 +1,5 @@
 <note type="head" content="DEBATES DE TOTALIDAD DE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY DE PRESUPUESTOS GENERALES DEL ESTADO PARA EL AÑO 2021."/>
-<speech id="ParlaMint-ES_2020-11-12-CD201112.u1" text_id="ParlaMint-ES-en_2020-11-12-CD201112" subcorpus="COVID" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 58" meeting="-" sitting="2020-11-12" agenda="-" date="2020-11-12" title="Plenary session 58 (2020-11-12)" speaker_role="Chairperson" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-ES_2020-11-12-CD201112.u1" text_id="ParlaMint-ES-en_2020-11-12-CD201112" subcorpus="COVID" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 58" meeting="-" sitting="2020-11-12" agenda="-" date="2020-11-12" title="Plenary session 58 (2020-11-12)" speaker_role="Chairperson" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2020-11-12-CD201112.u1.p1" lang="English">
 <s id="ParlaMint-ES_2020-11-12-CD201112.u1.p1.s1">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
@@ -169,7 +169,7 @@ majority	majority	majority	NOUN	Number=Sing	N5+++c	N5p	N5+: Quantities: many/muc
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES_2020-11-12-CD201112.u43" text_id="ParlaMint-ES-en_2020-11-12-CD201112" subcorpus="COVID" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 58" meeting="-" sitting="2020-11-12" agenda="-" date="2020-11-12" title="Plenary session 58 (2020-11-12)" speaker_role="Chairperson" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-ES_2020-11-12-CD201112.u43" text_id="ParlaMint-ES-en_2020-11-12-CD201112" subcorpus="COVID" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 58" meeting="-" sitting="2020-11-12" agenda="-" date="2020-11-12" title="Plenary session 58 (2020-11-12)" speaker_role="Chairperson" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2020-11-12-CD201112.u43.p1" lang="English">
 <s id="ParlaMint-ES_2020-11-12-CD201112.u43.p1.s1">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
@@ -397,7 +397,7 @@ votes	votes	vote	NOUN	Number=Plur	G1.2	G1.2	G1.2: Politics	t32
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2020-11-12-CD201112.u44" text_id="ParlaMint-ES-en_2020-11-12-CD201112" subcorpus="COVID" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 58" meeting="-" sitting="2020-11-12" agenda="-" date="2020-11-12" title="Plenary session 58 (2020-11-12)" speaker_role="Chairperson" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-ES_2020-11-12-CD201112.u44" text_id="ParlaMint-ES-en_2020-11-12-CD201112" subcorpus="COVID" lang="English" body="Lower house" term="Legislatura XIV" session="Sesión plenaria núm. 58" meeting="-" sitting="2020-11-12" agenda="-" date="2020-11-12" title="Plenary session 58 (2020-11-12)" speaker_role="Chairperson" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2020-11-12-CD201112.u44.p1" lang="English">
 <s id="ParlaMint-ES_2020-11-12-CD201112.u44.p1.s1">
 Amendments	Amendments	amendment	NOUN	Number=Plur	A2.1+	A2.1p	A2.1+: Change	t1

@@ -1,5 +1,5 @@
 <note type="head" content="PALABRAS DE LA PRESIDENCIA"/>
-<speech id="ParlaMint-ES_2023-02-23-CD230223.u1" text_id="ParlaMint-ES_2023-02-23-CD230223" subcorpus="COVID,Guerra" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Sesión plenaria núm. 239 (2023-02-23)" speaker_role="Presidencia" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-ES_2023-02-23-CD230223.u1" text_id="ParlaMint-ES_2023-02-23-CD230223" subcorpus="COVID,Guerra" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Sesión plenaria núm. 239 (2023-02-23)" speaker_role="Presidencia" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2023-02-23-CD230223.u1.p1" lang="Español">
 <s id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1">
 Muy	Muy	mucho	ADV	-	w1	advmod	día	NOUN	Gender=Masc Number=Plur	w3
@@ -283,7 +283,7 @@ gracias	gracias	gracia	NOUN	Gender=Fem Number=Plur	w2	root	-	-	-	-
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="TRAMITACIÓN DIRECTA Y EN LECTURA ÚNICA DE INICIATIVAS LEGISLATIVAS - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 28/1990, DE 26 DE DICIEMBRE, POR LA QUE SE APRUEBA EL CONVENIO ECONÓMICO ENTRE EL ESTADO Y LA COMUNIDAD FORAL DE NAVARRA. . - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 12/2002, DE 23 DE MAYO, POR LA QUE SE APRUEBA EL CONCIERTO ECONÓMICO CON LA COMUNIDAD AUTÓNOMA DEL PAÍS VASCO. . - PROYECTO DE LEY POR LA QUE SE APRUEBA LA METODOLOGÍA DE SEÑALAMIENTO DEL CUPO DEL PAÍS VASCO PARA EL QUINQUENIO 2022-2026. ."/>
-<speech id="ParlaMint-ES_2023-02-23-CD230223.u2" text_id="ParlaMint-ES_2023-02-23-CD230223" subcorpus="COVID,Guerra" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Sesión plenaria núm. 239 (2023-02-23)" speaker_role="Presidencia" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-ES_2023-02-23-CD230223.u2" text_id="ParlaMint-ES_2023-02-23-CD230223" subcorpus="COVID,Guerra" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Sesión plenaria núm. 239 (2023-02-23)" speaker_role="Presidencia" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2023-02-23-CD230223.u2.p1" lang="Español">
 <s id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1">
 Comenzamos	Comenzamos	comenzar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
@@ -498,7 +498,7 @@ Pública	Pública	Pública	PROPN	-	w21	flat	Función	PROPN	-	w20
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES_2023-02-23-CD230223.u73" text_id="ParlaMint-ES_2023-02-23-CD230223" subcorpus="COVID,Guerra" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Sesión plenaria núm. 239 (2023-02-23)" speaker_role="Presidencia" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-ES_2023-02-23-CD230223.u73" text_id="ParlaMint-ES_2023-02-23-CD230223" subcorpus="COVID,Guerra" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Sesión plenaria núm. 239 (2023-02-23)" speaker_role="Presidencia" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2023-02-23-CD230223.u73.p1" lang="Español">
 <s id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1">
 Avocación	Avocación	avocación	NOUN	Gender=Fem Number=Sing	w1	root	-	-	-	-
@@ -599,7 +599,7 @@ favor	favor	favor	NOUN	Gender=Masc Number=Sing	w16	nmod	voto	NOUN	Gender=Masc Nu
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2023-02-23-CD230223.u74" text_id="ParlaMint-ES_2023-02-23-CD230223" subcorpus="COVID,Guerra" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Sesión plenaria núm. 239 (2023-02-23)" speaker_role="Presidencia" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-ES_2023-02-23-CD230223.u74" text_id="ParlaMint-ES_2023-02-23-CD230223" subcorpus="COVID,Guerra" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Sesión plenaria núm. 239 (2023-02-23)" speaker_role="Presidencia" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2023-02-23-CD230223.u74.p1" lang="Español">
 <s id="ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1">
 En	En	en	ADP	-	w1	advmod	quedar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4

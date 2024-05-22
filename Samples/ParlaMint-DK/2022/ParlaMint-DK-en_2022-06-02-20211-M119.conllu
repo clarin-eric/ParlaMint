@@ -26,7 +26,7 @@
 13	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
 # sent_id = ParlaMint-DK_20220602101501.seg1.3
-# text = We start with memoirs for Svend Jakobsen, and we particularly welcome Svend Jakobsens's family.
+# text = We start with memoirs for Svend Jakobsen, and we particularly welcome Svend Jakobsen's family.
 1	We	we	PRON	Z8	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	NER=O
 2	start	start	VERB	T2p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
 3	with	with	ADP	Z5	_	0	_	_	NER=O
@@ -40,13 +40,13 @@
 11	particularly	particularly	ADV	A13.3	_	0	_	_	NER=O
 12	welcome	welcome	VERB	Q2.2	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
 13	Svend	Svend	PROPN	Z1	Number=Sing	0	_	_	NER=B-PER
-14	Jakobsens	Jakobsens	PROPN	Z1	Number=Sing	0	_	_	NER=I-PER|SpaceAfter=No
+14	Jakobsen	Jakobsen	PROPN	Z1	Number=Sing	0	_	_	NER=I-PER|SpaceAfter=No
 15	's	's	PART	Z5	_	0	_	_	NER=O
 16	family	family	NOUN	S4	Number=Sing	0	_	_	NER=O|SpaceAfter=No
 17	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
 # sent_id = ParlaMint-DK_20220602101501.seg1.4
-# text = It is with sorrow that the Danish Parliament has been informed that former Minister and Chairman of the Danish Parliament, Svend Aage Jakobsen (S), died on Saturday 28 May 2022. Our thoughts and compassion go to Svend Jakobsens's family and close acquaintances.
+# text = It is with sorrow that the Danish Parliament has been informed that former Minister and Chairman of the Danish Parliament, Svend Aage Jakobsen (S), died on Saturday 28 May 2022.
 1	It	it	PRON	Z8	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	NER=O
 2	is	be	AUX	A3p	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
 3	with	with	ADP	Z5	_	0	_	_	NER=O
@@ -82,22 +82,25 @@
 33	May	May	PROPN	Z2	Number=Sing	0	_	_	NER=O
 34	2022	2022	NUM	Z2	NumForm=Digit|NumType=Card	0	_	_	NER=O|SpaceAfter=No
 35	.	.	PUNCT	Z9	_	0	_	_	NER=O
-36	Our	we	PRON	Z8	Number=Plur|Person=1|Poss=Yes|PronType=Prs	0	_	_	NER=O
-37	thoughts	thought	NOUN	T1.3	Number=Plur	0	_	_	NER=O
-38	and	and	CCONJ	T1.3	_	0	_	_	NER=O
-39	compassion	compassion	NOUN	T1.3	Number=Sing	0	_	_	NER=O
-40	go	go	VERB	M1	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
-41	to	to	ADP	Z5	_	0	_	_	NER=O
-42	Svend	Svend	PROPN	Z1	Number=Sing	0	_	_	NER=B-PER
-43	Jakobsens	Jakobsens	PROPN	Z1	Number=Sing	0	_	_	NER=I-PER|SpaceAfter=No
-44	's	's	PART	Z5	_	0	_	_	NER=O
-45	family	family	NOUN	S4	Number=Sing	0	_	_	NER=O
-46	and	and	CCONJ	Z5	_	0	_	_	NER=O
-47	close	close	ADJ	N3.3n	Degree=Pos	0	_	_	NER=O
-48	acquaintances	acquaintance	NOUN	S3.1|S2	Number=Plur	0	_	_	NER=O|SpaceAfter=No
-49	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
 # sent_id = ParlaMint-DK_20220602101501.seg1.5
+# text = Our thoughts and compassion go to Svend Jakobsen's family and close acquaintances.
+1	Our	we	PRON	Z8	Number=Plur|Person=1|Poss=Yes|PronType=Prs	0	_	_	NER=O
+2	thoughts	thought	NOUN	T1.3	Number=Plur	0	_	_	NER=O
+3	and	and	CCONJ	T1.3	_	0	_	_	NER=O
+4	compassion	compassion	NOUN	T1.3	Number=Sing	0	_	_	NER=O
+5	go	go	VERB	M1	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+6	to	to	ADP	Z5	_	0	_	_	NER=O
+7	Svend	Svend	PROPN	Z1	Number=Sing	0	_	_	NER=B-PER
+8	Jakobsen	Jakobsen	PROPN	Z1	Number=Sing	0	_	_	NER=I-PER|SpaceAfter=No
+9	's	's	PART	Z5	_	0	_	_	NER=O
+10	family	family	NOUN	S4	Number=Sing	0	_	_	NER=O
+11	and	and	CCONJ	Z5	_	0	_	_	NER=O
+12	close	close	ADJ	N3.3n	Degree=Pos	0	_	_	NER=O
+13	acquaintances	acquaintance	NOUN	S3.1|S2	Number=Plur	0	_	_	NER=O|SpaceAfter=No
+14	.	.	PUNCT	Z9	_	0	_	_	NER=O
+
+# sent_id = ParlaMint-DK_20220602101501.seg1.6
 # text = Svend Jakobsen was born on November 1, 1935 in a modest rural family in Vendsyssel.
 1	Svend	Svend	PROPN	Z1	Number=Sing	0	_	_	NER=B-PER
 2	Jakobsen	Jakobsen	PROPN	Z1	Number=Sing	0	_	_	NER=I-PER
@@ -117,7 +120,7 @@
 16	Vendsyssel	Vendsyssel	PROPN	Z99	Number=Sing	0	_	_	NER=B-LOC|SpaceAfter=No
 17	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.6
+# sent_id = ParlaMint-DK_20220602101501.seg1.7
 # text = He couldn't afford to go to real school, so he left school at the age of 14.
 1	He	he	PRON	Z8	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	NER=O
 2	could	could	AUX	A7p	VerbForm=Fin	0	_	_	NER=O|SpaceAfter=No
@@ -140,7 +143,7 @@
 19	14	14	NUM	N1	NumForm=Digit|NumType=Card	0	_	_	NER=O|SpaceAfter=No
 20	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.7
+# sent_id = ParlaMint-DK_20220602101501.seg1.8
 # text = After working in agriculture for a few years he came to learn as a commission in the local farms.
 1	After	after	SCONJ	Z5	_	0	_	_	NER=O
 2	working	work	VERB	I3.1	VerbForm=Ger	0	_	_	NER=O
@@ -163,7 +166,7 @@
 19	farms	farm	NOUN	F4|M7	Number=Plur	0	_	_	NER=O|SpaceAfter=No
 20	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.8
+# sent_id = ParlaMint-DK_20220602101501.seg1.9
 # text = Already as a young man, Svend Jakobsen was interested in social relations, but it was while he worked at the head office of the FDB in Albertslund that he found his political position in the Social Democracy.
 1	Already	already	ADV	T1.1.1	_	0	_	_	NER=O
 2	as	as	ADP	Z5	_	0	_	_	NER=O
@@ -206,7 +209,7 @@
 39	Democracy	Democracy	PROPN	Z1	Number=Sing	0	_	_	NER=I-ORG|SpaceAfter=No
 40	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.9
+# sent_id = ParlaMint-DK_20220602101501.seg1.10
 # text = As far back as 1971 Svend Jakobsen was elected to the Folketing for the first time.
 1	As	as	ADV	A13	_	0	_	_	NER=O
 2	far	far	ADV	A13.3	Degree=Pos	0	_	_	NER=O
@@ -226,7 +229,7 @@
 16	time	time	NOUN	N4	Number=Sing	0	_	_	NER=O|SpaceAfter=No
 17	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.10
+# sent_id = ParlaMint-DK_20220602101501.seg1.11
 # text = Two years later he became a short-term minister of housing in Anker Jørgensen's first ministry.
 1	Two	two	NUM	N1	NumForm=Word|NumType=Card	0	_	_	NER=O
 2	years	year	NOUN	T1.3	Number=Plur	0	_	_	NER=O
@@ -248,7 +251,7 @@
 18	ministry	ministry	NOUN	G1.1	Number=Sing	0	_	_	NER=O|SpaceAfter=No
 19	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.11
+# sent_id = ParlaMint-DK_20220602101501.seg1.12
 # text = From 1973 to 1981 he held various ministerial posts, and every time Anker Jørgensen formed a new government, Svend Jakobsen was invited for tasks with ever greater responsibility.
 1	From	from	ADP	Z5	_	0	_	_	NER=O
 2	1973	1973	NUM	N1	NumForm=Digit|NumType=Card	0	_	_	NER=O
@@ -282,7 +285,7 @@
 30	responsibility	responsibility	NOUN	S6p	Number=Sing	0	_	_	NER=O|SpaceAfter=No
 31	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.12
+# sent_id = ParlaMint-DK_20220602101501.seg1.13
 # text = He was pragmatic and reliable, and he knew his material.
 1	He	he	PRON	Z8	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	NER=O
 2	was	be	AUX	A3p	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	NER=O
@@ -297,7 +300,7 @@
 11	material	material	NOUN	O1	Number=Sing	0	_	_	NER=O|SpaceAfter=No
 12	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.13
+# sent_id = ParlaMint-DK_20220602101501.seg1.14
 # text = In addition to the Minister for Housing, Svend Jakobsen managed to be Minister for Taxation, Fisheries and Finance.
 1	In	in	ADP	Z5	_	0	_	_	NER=O
 2	addition	addition	NOUN	N5p	Number=Sing	0	_	_	NER=O
@@ -321,7 +324,7 @@
 20	Finance	Finance	PROPN	I1	Number=Sing	0	_	_	NER=I-ORG|SpaceAfter=No
 21	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.14
+# sent_id = ParlaMint-DK_20220602101501.seg1.15
 # text = The trusted tasks were solved without anyone being able to put a finger on his work.
 1	The	the	DET	Z5	Definite=Def|PronType=Art	0	_	_	NER=O
 2	trusted	trust	VERB	X2.1	Tense=Past|VerbForm=Part	0	_	_	NER=O
@@ -341,7 +344,7 @@
 16	work	work	NOUN	I3.1	Number=Sing	0	_	_	NER=O|SpaceAfter=No
 17	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.15
+# sent_id = ParlaMint-DK_20220602101501.seg1.16
 # text = And then Svend Jakobsen was known for an eminent memory.
 1	And	and	CCONJ	Z5	_	0	_	_	NER=O
 2	then	then	ADV	N4	PronType=Dem	0	_	_	NER=O
@@ -355,7 +358,7 @@
 10	memory	memory	NOUN	X2	Number=Sing	0	_	_	NER=O|SpaceAfter=No
 11	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.16
+# sent_id = ParlaMint-DK_20220602101501.seg1.17
 # text = On 22 December 1981 he was elected President of the Folketing.
 1	On	on	ADP	Z5	_	0	_	_	NER=O
 2	22	22	NUM	N1	NumForm=Digit|NumType=Card	0	_	_	NER=O
@@ -370,7 +373,7 @@
 11	Folketing	Folketing	PROPN	Z99	Number=Sing	0	_	_	NER=B-ORG|SpaceAfter=No
 12	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.17
+# sent_id = ParlaMint-DK_20220602101501.seg1.18
 # text = On that occasion he called the day the happiest day of my life as a politician.
 1	On	on	ADP	Z5	_	0	_	_	NER=O
 2	that	that	DET	Z5	Number=Sing|PronType=Dem	0	_	_	NER=O
@@ -390,7 +393,7 @@
 16	politician	politician	NOUN	G1.2|S2	Number=Sing	0	_	_	NER=O|SpaceAfter=No
 17	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.18
+# sent_id = ParlaMint-DK_20220602101501.seg1.19
 # text = Until 1989 he was responsible, as President of Parliament, for the legislative work to be carried out as described in the Constitution and in the Rules of Procedure of the Danish Parliament.
 1	Until	until	ADP	Z5	_	0	_	_	NER=O
 2	1989	1989	NUM	N1	NumForm=Digit|NumType=Card	0	_	_	NER=O
@@ -428,7 +431,7 @@
 34	Parliament	Parliament	PROPN	Z1	Number=Sing	0	_	_	NER=O|SpaceAfter=No
 35	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.19
+# sent_id = ParlaMint-DK_20220602101501.seg1.20
 # text = But it must be said that it has not been without challenges.
 1	But	but	CCONJ	Z5	_	0	_	_	NER=O
 2	it	it	PRON	Z8	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	NER=O
@@ -444,15 +447,15 @@
 12	challenges	challenge	NOUN	A12n	Number=Plur	0	_	_	NER=O|SpaceAfter=No
 13	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.20
-# text = It was during those years when Mogens Glistrup and Preben Møller Hansen were known for very bram-free statements that often broke with tact and tone in the Assembly Hall.
+# sent_id = ParlaMint-DK_20220602101501.seg1.21
+# text = It was during those years when Mogen Glistrup and Preben Møller Hansen were known for very bram-free statements that often broke with tact and tone in the Assembly Hall.
 1	It	it	PRON	Z8	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	NER=O
 2	was	be	AUX	A3p	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	NER=O
 3	during	during	ADP	Z5	_	0	_	_	NER=O
 4	those	that	DET	Z5	Number=Plur|PronType=Dem	0	_	_	NER=O
 5	years	year	NOUN	T1.3	Number=Plur	0	_	_	NER=O
 6	when	when	SCONJ	Z5	PronType=Int	0	_	_	NER=O
-7	Mogens	Mogens	PROPN	Z1	Number=Sing	0	_	_	NER=B-PER
+7	Mogen	Mogen	PROPN	Z1	Number=Sing	0	_	_	NER=B-PER
 8	Glistrup	Glistrup	PROPN	Z1	Number=Sing	0	_	_	NER=I-PER
 9	and	and	CCONJ	Z5	_	0	_	_	NER=O
 10	Preben	Preben	PROPN	Z1	Number=Sing	0	_	_	NER=B-PER
@@ -479,7 +482,7 @@
 31	Hall	Hall	PROPN	Z1	Number=Sing	0	_	_	NER=I-LOC|SpaceAfter=No
 32	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.21
+# sent_id = ParlaMint-DK_20220602101501.seg1.22
 # text = I think everyone agreed that Svend Jakobsen handled the episodes of the unruly language from the platform with a mixture of authority and sense of situation.
 1	I	I	PRON	Z4	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
 2	think	think	VERB	Z4	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
@@ -509,8 +512,8 @@
 26	situation	situation	NOUN	A3p	Number=Sing	0	_	_	NER=O|SpaceAfter=No
 27	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.22
-# text = Svend Jakobsen left active policy in 1989 first to become director of the Danish savings fund association and after a merger managing director of the Finance Council from 1990 to 1994. For Svend Jakobsen it was always the case that was at the centre.
+# sent_id = ParlaMint-DK_20220602101501.seg1.23
+# text = Svend Jakobsen left active policy in 1989 first to become director of the Danish savings fund association and after a merger managing director of the Finance Council from 1990 to 1994.
 1	Svend	Svend	PROPN	Z1	Number=Sing	0	_	_	NER=B-PER
 2	Jakobsen	Jakobsen	PROPN	Z1	Number=Sing	0	_	_	NER=I-PER
 3	left	leave	VERB	M1	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	NER=O
@@ -543,22 +546,25 @@
 30	to	to	ADP	Z5	_	0	_	_	NER=O
 31	1994	1994	NUM	N1	NumForm=Digit|NumType=Card	0	_	_	NER=O|SpaceAfter=No
 32	.	.	PUNCT	Z9	_	0	_	_	NER=O
-33	For	for	ADP	Z5	_	0	_	_	NER=O
-34	Svend	Svend	PROPN	Z1	Number=Sing	0	_	_	NER=B-PER
-35	Jakobsen	Jakobsen	PROPN	Z1	Number=Sing	0	_	_	NER=I-PER
-36	it	it	PRON	Z8	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	NER=O
-37	was	be	AUX	A3p	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	NER=O
-38	always	always	ADV	N6p	_	0	_	_	NER=O
-39	the	the	DET	Z5	Definite=Def|PronType=Art	0	_	_	NER=O
-40	case	case	NOUN	A4.1	Number=Sing	0	_	_	NER=O
-41	that	that	PRON	A13.3	PronType=Rel	0	_	_	NER=O
-42	was	be	AUX	A3p	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	NER=O
-43	at	at	ADP	Z5	_	0	_	_	NER=O
-44	the	the	DET	Z5	Definite=Def|PronType=Art	0	_	_	NER=O
-45	centre	centre	NOUN	M6	Number=Sing	0	_	_	NER=O|SpaceAfter=No
-46	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.23
+# sent_id = ParlaMint-DK_20220602101501.seg1.24
+# text = For Svend Jakobsen it was always the case that was at the centre.
+1	For	for	ADP	Z5	_	0	_	_	NER=O
+2	Svend	Svend	PROPN	Z1	Number=Sing	0	_	_	NER=B-PER
+3	Jakobsen	Jakobsen	PROPN	Z1	Number=Sing	0	_	_	NER=I-PER
+4	it	it	PRON	Z8	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	NER=O
+5	was	be	AUX	A3p	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	NER=O
+6	always	always	ADV	N6p	_	0	_	_	NER=O
+7	the	the	DET	Z5	Definite=Def|PronType=Art	0	_	_	NER=O
+8	case	case	NOUN	A4.1	Number=Sing	0	_	_	NER=O
+9	that	that	PRON	A13.3	PronType=Rel	0	_	_	NER=O
+10	was	be	AUX	A3p	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	NER=O
+11	at	at	ADP	Z5	_	0	_	_	NER=O
+12	the	the	DET	Z5	Definite=Def|PronType=Art	0	_	_	NER=O
+13	centre	centre	NOUN	M6	Number=Sing	0	_	_	NER=O|SpaceAfter=No
+14	.	.	PUNCT	Z9	_	0	_	_	NER=O
+
+# sent_id = ParlaMint-DK_20220602101501.seg1.25
 # text = He had a very quiet background, he let the results speak for himself and would like to underplay his own meaning in order to achieve the final result.
 1	He	he	PRON	Z8	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	NER=O
 2	had	have	VERB	A9p	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	NER=O
@@ -591,7 +597,7 @@
 29	result	result	NOUN	A2.2	Number=Sing	0	_	_	NER=O|SpaceAfter=No
 30	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.24
+# sent_id = ParlaMint-DK_20220602101501.seg1.26
 # text = When he was 75 years old, a reporter asked if there was no book of memoirs coming.
 1	When	when	SCONJ	Z5	PronType=Int	0	_	_	NER=O
 2	he	he	PRON	Z8	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	NER=O
@@ -613,7 +619,7 @@
 18	coming	come	VERB	M1	VerbForm=Ger	0	_	_	NER=O|SpaceAfter=No
 19	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.25
+# sent_id = ParlaMint-DK_20220602101501.seg1.27
 # text = It was clearly rejected with a crunchy remark that several other biographies are characterized by a self-promotion that does not correspond to what I know of the individual's performance.
 1	It	it	PRON	Z8	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	NER=O
 2	was	be	AUX	A3p	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	NER=O
@@ -649,7 +655,7 @@
 32	performance	performance	NOUN	K4	Number=Sing	0	_	_	NER=O|SpaceAfter=No
 33	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.26
+# sent_id = ParlaMint-DK_20220602101501.seg1.28
 # text = ▪ And perhaps the note contains the key to understanding the virtues on which Svend Jakobsen built his political action: secularity, thoroughness, modesty, thoughtfulness, and not least diligence.
 1	▪	▪	PUNCT	Z99	_	0	_	_	NER=O
 2	And	and	CCONJ	Z5	_	0	_	_	NER=O
@@ -686,7 +692,7 @@
 33	diligence	diligence	NOUN	X5.2p	Number=Sing	0	_	_	NER=O|SpaceAfter=No
 34	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.27
+# sent_id = ParlaMint-DK_20220602101501.seg1.29
 # text = The same qualities made Svend Jakobsen widely respected among both political friends and opponents.
 1	The	the	DET	Z5	Definite=Def|PronType=Art	0	_	_	NER=O
 2	same	same	ADJ	A6.1p	Degree=Pos	0	_	_	NER=O
@@ -704,8 +710,8 @@
 14	opponents	opponent	NOUN	T1.3	Number=Plur	0	_	_	NER=O|SpaceAfter=No
 15	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.28
-# text = I ask you to rise up so that we may honor Svend Jakobsens's memory.
+# sent_id = ParlaMint-DK_20220602101501.seg1.30
+# text = I ask you to rise up so that we may honor Svend Jakobsen's memory.
 1	I	I	PRON	Z8	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
 2	ask	ask	VERB	A5.4p	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
 3	you	you	PRON	A5.4p	Case=Acc|Person=2|PronType=Prs	0	_	_	NER=O
@@ -718,18 +724,18 @@
 10	may	may	AUX	A7p	VerbForm=Fin	0	_	_	NER=O
 11	honor	honor	VERB	Z99	VerbForm=Inf	0	_	_	NER=O
 12	Svend	Svend	PROPN	Z1	Number=Sing	0	_	_	NER=B-PER
-13	Jakobsens	Jakobsens	PROPN	Z1	Number=Sing	0	_	_	NER=I-PER|SpaceAfter=No
+13	Jakobsen	Jakobsen	PROPN	Z1	Number=Sing	0	_	_	NER=I-PER|SpaceAfter=No
 14	's	's	PART	Z5	_	0	_	_	NER=O
 15	memory	memory	NOUN	X2	Number=Sing	0	_	_	NER=O|SpaceAfter=No
 16	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
-# sent_id = ParlaMint-DK_20220602101501.seg1.29
-# text = Glory be to Svend Jakobsens's memory!
+# sent_id = ParlaMint-DK_20220602101501.seg1.31
+# text = Glory be to Svend Jakobsen's memory!
 1	Glory	glory	NOUN	S7.2p	Number=Sing	0	_	_	NER=O
-2	be	be	AUX	A3p	Mood=Imp|VerbForm=Fin	0	_	_	NER=O
+2	be	be	AUX	A3p	VerbForm=Fin	0	_	_	NER=O
 3	to	to	ADP	Z5	_	0	_	_	NER=O
 4	Svend	Svend	PROPN	Z1	Number=Sing	0	_	_	NER=B-PER
-5	Jakobsens	Jakobsens	PROPN	Z1	Number=Sing	0	_	_	NER=I-PER|SpaceAfter=No
+5	Jakobsen	Jakobsen	PROPN	Z1	Number=Sing	0	_	_	NER=I-PER|SpaceAfter=No
 6	's	's	PART	Z5	_	0	_	_	NER=O
 7	memory	memory	NOUN	X2	Number=Sing	0	_	_	NER=O|SpaceAfter=No
 8	!	!	PUNCT	Z9	_	0	_	_	NER=O
@@ -898,7 +904,7 @@
 15	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
 # sent_id = ParlaMint-DK_20220602101959.seg2.10
-# text = Members of the Danish Parliament Charlotte Broman Mølbæken (SF) and Trine Torp (SF) have informed me that they want to take back questions to the Minister for Social Affairs and the elderly and the Minister for Education about children in vulnerable positions in daily offers.
+# text = Members of the Danish Parliament Charlotte Broman Mølbæk (SF) and Trine Torp (SF) have informed me that they want to take back questions to the Minister for Social Affairs and the elderly and the Minister for Education about children in vulnerable positions in daily offers.
 1	Members	member	NOUN	S5p|S2	Number=Plur	0	_	_	NER=O
 2	of	of	ADP	Z5	_	0	_	_	NER=O
 3	the	the	DET	Z5	Definite=Def|PronType=Art	0	_	_	NER=O
@@ -906,7 +912,7 @@
 5	Parliament	Parliament	PROPN	Z1	Number=Sing	0	_	_	NER=O
 6	Charlotte	Charlotte	PROPN	Z1	Number=Sing	0	_	_	NER=B-ORG
 7	Broman	Broman	PROPN	Z1	Number=Sing	0	_	_	NER=I-ORG
-8	Mølbæken	Mølbæken	PROPN	Z1	Number=Sing	0	_	_	NER=I-ORG
+8	Mølbæk	Mølbæk	PROPN	Z1	Number=Sing	0	_	_	NER=I-ORG
 9	(	(	PUNCT	Z9	_	0	_	_	NER=O|SpaceAfter=No
 10	SF	SF	PROPN	Z99	Number=Sing	0	_	_	NER=B-ORG|SpaceAfter=No
 11	)	)	PUNCT	Z9	_	0	_	_	NER=O
@@ -1148,14 +1154,14 @@
 12	.	.	PUNCT	Z9	_	0	_	_	NER=O
 
 # sent_id = ParlaMint-DK_20220602140145.seg300.2
-# text = The next meeting of the Danish Parliament will be held tomorrow, Friday 3 June 2022, kl. 10:00. I refer to the agenda set out in the Danish Parliament's website.
+# text = The next meeting of the Danish Parliament will be held tomorrow, Friday 3 June 2022, kl. 10:00.
 1	The	the	DET	Z5	Definite=Def|PronType=Art	0	_	_	NER=O
 2	next	next	ADJ	T1.1.3	Degree=Pos	0	_	_	NER=O
 3	meeting	meeting	NOUN	T1.1.3	Number=Sing	0	_	_	NER=O
 4	of	of	ADP	Z5	_	0	_	_	NER=O
 5	the	the	DET	Z5	Definite=Def|PronType=Art	0	_	_	NER=O
 6	Danish	Danish	ADJ	Z1	Degree=Pos	0	_	_	NER=B-MISC
-7	Parliament	parliament	NOUN	Z1	Number=Sing	0	_	_	NER=O
+7	Parliament	Parliament	PROPN	Z1	Number=Sing	0	_	_	NER=O
 8	will	will	AUX	T1.1.3	VerbForm=Fin	0	_	_	NER=O
 9	be	be	AUX	A3p	VerbForm=Inf	0	_	_	NER=O
 10	held	hold	VERB	M2	Tense=Past|VerbForm=Part|Voice=Pass	0	_	_	NER=O
@@ -1166,21 +1172,24 @@
 15	June	June	PROPN	Z2	Number=Sing	0	_	_	NER=O
 16	2022	2022	NUM	Z2	NumForm=Digit|NumType=Card	0	_	_	NER=O|SpaceAfter=No
 17	,	,	PUNCT	Z9	_	0	_	_	NER=O
-18	kl.	kl.	NOUN	Z2	Number=Sing	0	_	_	NER=O
+18	kl.	kl.	PROPN	Z2	Number=Sing	0	_	_	NER=O
 19	10:00	10:00	NUM	Z2	NumForm=Digit|NumType=Card	0	_	_	NER=O|SpaceAfter=No
 20	.	.	PUNCT	Z9	_	0	_	_	NER=O
-21	I	I	PRON	Z8	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
-22	refer	refer	VERB	Q2.2	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
-23	to	to	ADP	Z5	_	0	_	_	NER=O
-24	the	the	DET	Z5	Definite=Def|PronType=Art	0	_	_	NER=O
-25	agenda	agenda	NOUN	Q1.2|X7p	Number=Sing	0	_	_	NER=O
-26	set	set	VERB	M2	Tense=Past|VerbForm=Part	0	_	_	NER=O
-27	out	out	ADP	Z5	_	0	_	_	NER=O
-28	in	in	ADP	Z5	_	0	_	_	NER=O
-29	the	the	DET	Z5	Definite=Def|PronType=Art	0	_	_	NER=O
-30	Danish	Danish	ADJ	Z1	Degree=Pos	0	_	_	NER=B-MISC
-31	Parliament	Parliament	PROPN	Z1	Number=Sing	0	_	_	NER=O|SpaceAfter=No
-32	's	's	PART	Z5	_	0	_	_	NER=O
-33	website	website	NOUN	Y2	Number=Sing	0	_	_	NER=O|SpaceAfter=No
-34	.	.	PUNCT	Z9	_	0	_	_	NER=O
+
+# sent_id = ParlaMint-DK_20220602140145.seg300.3
+# text = I refer to the agenda set out in the Danish Parliament's website.
+1	I	I	PRON	Z8	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	refer	refer	VERB	Q2.2	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+3	to	to	ADP	Z5	_	0	_	_	NER=O
+4	the	the	DET	Z5	Definite=Def|PronType=Art	0	_	_	NER=O
+5	agenda	agenda	NOUN	Q1.2|X7p	Number=Sing	0	_	_	NER=O
+6	set	set	VERB	M2	Tense=Past|VerbForm=Part	0	_	_	NER=O
+7	out	out	ADP	Z5	_	0	_	_	NER=O
+8	in	in	ADP	Z5	_	0	_	_	NER=O
+9	the	the	DET	Z5	Definite=Def|PronType=Art	0	_	_	NER=O
+10	Danish	Danish	ADJ	Z1	Degree=Pos	0	_	_	NER=B-MISC
+11	Parliament	Parliament	PROPN	Z1	Number=Sing	0	_	_	NER=O|SpaceAfter=No
+12	's	's	PART	Z5	_	0	_	_	NER=O
+13	website	website	NOUN	Y2	Number=Sing	0	_	_	NER=O|SpaceAfter=No
+14	.	.	PUNCT	Z9	_	0	_	_	NER=O
 

@@ -462,15 +462,18 @@
                      ana="#parla.upper-PL #parla.term-PL"
                      xml:lang="pl"
                      corresp="#ParlaMint-PL.ana">10. kadencja Senatu</meeting>
-            <meeting ana="#parla.term-PT #L.XII-PT"
+            <meeting ana="#parla.uni-PT #parla.term-PT #L.XII-PT"
                      xml:lang="pt"
                      corresp="#ParlaMint-PT.ana">XII Legislatura</meeting>
-            <meeting ana="#parla.term-PT #L.XIII-PT"
+            <meeting ana="#parla.uni-PT #parla.term-PT #L.XIII-PT"
                      xml:lang="pt"
                      corresp="#ParlaMint-PT.ana">XIII Legislatura</meeting>
-            <meeting ana="#parla.term-PT #L.XIV-PT"
+            <meeting ana="#parla.uni-PT #parla.term-PT #L.XIV-PT"
                      xml:lang="pt"
                      corresp="#ParlaMint-PT.ana">XIV Legislatura</meeting>
+            <meeting ana="#parla.uni-PT #parla.term-PT #L.XV-PT"
+                     xml:lang="pt"
+                     corresp="#ParlaMint-PT.ana">XV Legislatura</meeting>
             <meeting n="4"
                      corresp="#ParlaMint-RS.ana"
                      ana="#parla.term-RS #NS.4-RS"
@@ -1020,7 +1023,7 @@
          </editionStmt>
          <extent>
             <measure unit="corpora" quantity="29">29 corpora</measure>
-            <measure unit="speeches" quantity="6567708">6,567,708 speeches</measure>
+            <measure unit="speeches" quantity="6645348">6,645,348 speeches</measure>
             <measure unit="speeches" quantity="1234" corresp="#ParlaMint-AT.ana">1234 speeches</measure>
             <measure xmlns:ns1="http://www.w3.org/2001/XInclude"
                      unit="speeches"
@@ -1056,13 +1059,13 @@
                      unit="speeches"
                      quantity="228326"
                      corresp="#ParlaMint-PL.ana">228,326 speeches</measure>
-            <measure unit="speeches" quantity="170937" corresp="#ParlaMint-PT.ana">170,937 speeches</measure>
+            <measure unit="speeches" quantity="248577" corresp="#ParlaMint-PT.ana">248,577 speeches</measure>
             <measure unit="speeches" quantity="316069" corresp="#ParlaMint-RS.ana">316,069 speeches</measure>
             <measure unit="speeches" quantity="96745" corresp="#ParlaMint-SE.ana">96745 speeches</measure>
             <measure unit="speeches" quantity="622752" corresp="#ParlaMint-SI.ana">622,752 speeches</measure>
             <measure unit="speeches" quantity="739744" corresp="#ParlaMint-TR.ana">739,744 speeches</measure>
             <measure unit="speeches" quantity="429437" corresp="#ParlaMint-UA.ana">429437 speeches</measure>
-            <measure unit="words" quantity="995799874">995,799,874 words</measure>
+            <measure unit="words" quantity="1001644992">1,001,644,992 words</measure>
             <measure unit="words" quantity="1234" corresp="#ParlaMint-AT.ana">1234 words</measure>
             <measure xmlns:ns1="http://www.w3.org/2001/XInclude"
                      unit="words"
@@ -1098,7 +1101,7 @@
                      unit="words"
                      quantity="36064778"
                      corresp="#ParlaMint-PL.ana">36,064,778 words</measure>
-            <measure unit="words" quantity="17646821" corresp="#ParlaMint-PT.ana">17,646,821 words</measure>
+            <measure unit="words" quantity="23491939" corresp="#ParlaMint-PT.ana">23,491,939 words</measure>
             <measure unit="words" quantity="84801966" corresp="#ParlaMint-RS.ana">84,801,966 words</measure>
             <measure unit="words" quantity="29197567" corresp="#ParlaMint-SE.ana">29197567 words</measure>
             <measure unit="words" quantity="142558746" corresp="#ParlaMint-SI.ana">142,558,746 words</measure>
@@ -1115,7 +1118,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-04-05">April 5, 2024</date>
+            <date when="2024-05-21">May 21, 2024</date>
          </publicationStmt>
          <sourceDesc>
             <listBibl corresp="#ParlaMint-AT.ana">
@@ -1368,8 +1371,8 @@
                <bibl>
                   <title>Minutes of the Assembleia da República of Portugal</title>
                   <publisher xml:lang="pt">Assembleia da República</publisher>
-                  <idno type="URI">https://debates.parlamento.pt/catalogo/r3/dar</idno>
-                  <date from="2015-01-07" to="2022-03-22">07.01.2015 - 22.03.2022</date>
+                  <idno type="URI" subtype="parliament">https://debates.parlamento.pt/catalogo/r3/dar</idno>
+                  <date from="2015-01-07" to="2024-03-26">07.01.2015 - 26.03.2024</date>
                </bibl>
             </listBibl>
             <listBibl corresp="#ParlaMint-RS.ana">
@@ -1582,34 +1585,32 @@
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="26289"/>
+               <tagUsage gi="body" occurs="26486"/>
                <tagUsage gi="date" occurs="2227"/>
-               <tagUsage gi="desc" occurs="828642"/>
-               <tagUsage gi="div" occurs="73839"/>
+               <tagUsage gi="desc" occurs="921101"/>
+               <tagUsage gi="div" occurs="75641"/>
                <tagUsage gi="email" occurs="2"/>
                <tagUsage gi="gap" occurs="10537"/>
-               <tagUsage gi="head" occurs="53072"/>
+               <tagUsage gi="head" occurs="54904"/>
                <tagUsage gi="incident" occurs="22141"/>
-               <tagUsage gi="kinesic" occurs="508227"/>
-               <tagUsage gi="link" occurs="463249429"/>
-               <tagUsage gi="linkGrp" occurs="23559093"/>
-               <tagUsage gi="name" occurs="13606392"/>
-               <tagUsage gi="note" occurs="2996671"/>
+               <tagUsage gi="kinesic" occurs="569485"/>
+               <tagUsage gi="link" occurs="492381012"/>
+               <tagUsage gi="linkGrp" occurs="24188133"/>
+               <tagUsage gi="name" occurs="14680176"/>
+               <tagUsage gi="note" occurs="3040217"/>
                <tagUsage gi="num" occurs="3918"/>
                <tagUsage gi="p" occurs="717"/>
                <tagUsage gi="pb" occurs="34487"/>
-               <tagUsage gi="pc" occurs="61747068"/>
+               <tagUsage gi="pc" occurs="65397197"/>
                <tagUsage gi="ref" occurs="0"/>
-               <tagUsage gi="s" occurs="23533999"/>
-               <tagUsage gi="seg" occurs="11027883"/>
-               <tagUsage gi="speeches" occurs="170937"/>
-               <tagUsage gi="text" occurs="25172"/>
+               <tagUsage gi="s" occurs="24163039"/>
+               <tagUsage gi="seg" occurs="11656923"/>
+               <tagUsage gi="text" occurs="26073"/>
                <tagUsage gi="time" occurs="276672"/>
-               <tagUsage gi="u" occurs="4104912"/>
+               <tagUsage gi="u" occurs="4353489"/>
                <tagUsage gi="unit" occurs="6"/>
-               <tagUsage gi="vocal" occurs="240053"/>
-               <tagUsage gi="w" occurs="405863728"/>
-               <tagUsage gi="words" occurs="17646821"/>
+               <tagUsage gi="vocal" occurs="271254"/>
+               <tagUsage gi="w" occurs="433334697"/>
                <tagUsage gi="body" occurs="1234" corresp="#ParlaMint-AT.ana"/>
                <tagUsage xmlns:ns1="http://www.w3.org/2001/XInclude"
                          gi="body"
@@ -1643,7 +1644,7 @@
                          gi="body"
                          occurs="686"
                          corresp="#ParlaMint-PL.ana"/>
-               <tagUsage gi="body" occurs="704" corresp="#ParlaMint-PT.ana"/>
+               <tagUsage gi="body" occurs="901" corresp="#ParlaMint-PT.ana"/>
                <tagUsage gi="body" occurs="2060" corresp="#ParlaMint-RS.ana"/>
                <tagUsage gi="body" occurs="1" corresp="#ParlaMint-SE.ana"/>
                <tagUsage gi="body" occurs="0" corresp="#ParlaMint-SI.ana"/>
@@ -1675,6 +1676,7 @@
                          gi="desc"
                          occurs="250002"
                          corresp="#ParlaMint-PL.ana"/>
+               <tagUsage gi="desc" occurs="92459" corresp="#ParlaMint-PT.ana"/>
                <tagUsage gi="desc" occurs="0" corresp="#ParlaMint-RS.ana"/>
                <tagUsage gi="desc" occurs="0" corresp="#ParlaMint-SE.ana"/>
                <tagUsage gi="desc" occurs="0" corresp="#ParlaMint-SI.ana"/>
@@ -1713,6 +1715,7 @@
                          gi="div"
                          occurs="686"
                          corresp="#ParlaMint-PL.ana"/>
+               <tagUsage gi="div" occurs="1802" corresp="#ParlaMint-PT.ana"/>
                <tagUsage gi="div" occurs="2060" corresp="#ParlaMint-RS.ana"/>
                <tagUsage gi="div" occurs="2" corresp="#ParlaMint-SE.ana"/>
                <tagUsage gi="div" occurs="0" corresp="#ParlaMint-SI.ana"/>
@@ -1766,6 +1769,7 @@
                          gi="head"
                          occurs="686"
                          corresp="#ParlaMint-PL.ana"/>
+               <tagUsage gi="head" occurs="1832" corresp="#ParlaMint-PT.ana"/>
                <tagUsage gi="head" occurs="0" corresp="#ParlaMint-RS.ana"/>
                <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
                          gi="incident"
@@ -1811,6 +1815,7 @@
                          gi="kinesic"
                          occurs="94217"
                          corresp="#ParlaMint-PL.ana"/>
+               <tagUsage gi="kinesic" occurs="61258" corresp="#ParlaMint-PT.ana"/>
                <tagUsage gi="kinesic" occurs="0" corresp="#ParlaMint-RS.ana"/>
                <tagUsage gi="kinesic" occurs="0" corresp="#ParlaMint-SE.ana"/>
                <tagUsage gi="kinesic" occurs="0" corresp="#ParlaMint-SI.ana"/>
@@ -1837,6 +1842,7 @@
                          gi="link"
                          occurs="43161049"
                          corresp="#ParlaMint-PL.ana"/>
+               <tagUsage gi="link" occurs="29131583" corresp="#ParlaMint-PT.ana"/>
                <tagUsage gi="link" occurs="0" corresp="#ParlaMint-SI.ana"/>
                <tagUsage gi="link" occurs="58331577" corresp="#ParlaMint-TR.ana"/>
                <tagUsage gi="link" occurs="51380639" corresp="#ParlaMint-UA.ana"/>
@@ -1861,6 +1867,7 @@
                          gi="linkGrp"
                          occurs="2806177"
                          corresp="#ParlaMint-PL.ana"/>
+               <tagUsage gi="linkGrp" occurs="629040" corresp="#ParlaMint-PT.ana"/>
                <tagUsage gi="linkGrp" occurs="0" corresp="#ParlaMint-SI.ana"/>
                <tagUsage gi="linkGrp" occurs="3609640" corresp="#ParlaMint-TR.ana"/>
                <tagUsage gi="linkGrp" occurs="3463779" corresp="#ParlaMint-UA.ana"/>
@@ -1884,6 +1891,7 @@
                          gi="name"
                          occurs="1271150"
                          corresp="#ParlaMint-PL.ana"/>
+               <tagUsage gi="name" occurs="1073784" corresp="#ParlaMint-PT.ana"/>
                <tagUsage gi="name" occurs="0" corresp="#ParlaMint-SI.ana"/>
                <tagUsage gi="name" occurs="3477111" corresp="#ParlaMint-TR.ana"/>
                <tagUsage gi="name" occurs="1880896" corresp="#ParlaMint-UA.ana"/>
@@ -1919,6 +1927,7 @@
                          gi="note"
                          occurs="241406"
                          corresp="#ParlaMint-PL.ana"/>
+               <tagUsage gi="note" occurs="43546" corresp="#ParlaMint-PT.ana"/>
                <tagUsage gi="note" occurs="316071" corresp="#ParlaMint-RS.ana"/>
                <tagUsage gi="note" occurs="462" corresp="#ParlaMint-SE.ana"/>
                <tagUsage gi="note" occurs="0" corresp="#ParlaMint-SI.ana"/>
@@ -1957,6 +1966,7 @@
                          gi="pc"
                          occurs="7096271"
                          corresp="#ParlaMint-PL.ana"/>
+               <tagUsage gi="pc" occurs="3650129" corresp="#ParlaMint-PT.ana"/>
                <tagUsage gi="pc" occurs="0" corresp="#ParlaMint-SI.ana"/>
                <tagUsage gi="pc" occurs="9076315" corresp="#ParlaMint-TR.ana"/>
                <tagUsage gi="pc" occurs="9378682" corresp="#ParlaMint-UA.ana"/>
@@ -1982,6 +1992,7 @@
                          gi="s"
                          occurs="2806177"
                          corresp="#ParlaMint-PL.ana"/>
+               <tagUsage gi="s" occurs="629040" corresp="#ParlaMint-PT.ana"/>
                <tagUsage gi="s" occurs="0" corresp="#ParlaMint-SI.ana"/>
                <tagUsage gi="s" occurs="3609640" corresp="#ParlaMint-TR.ana"/>
                <tagUsage gi="s" occurs="3463779" corresp="#ParlaMint-UA.ana"/>
@@ -2018,12 +2029,12 @@
                          gi="seg"
                          occurs="1097269"
                          corresp="#ParlaMint-PL.ana"/>
+               <tagUsage gi="seg" occurs="629040" corresp="#ParlaMint-PT.ana"/>
                <tagUsage gi="seg" occurs="318782" corresp="#ParlaMint-RS.ana"/>
                <tagUsage gi="seg" occurs="631" corresp="#ParlaMint-SE.ana"/>
                <tagUsage gi="seg" occurs="0" corresp="#ParlaMint-SI.ana"/>
                <tagUsage gi="seg" occurs="1749597" corresp="#ParlaMint-TR.ana"/>
                <tagUsage gi="seg" occurs="1412836" corresp="#ParlaMint-UA.ana"/>
-               <tagUsage gi="speeches" occurs="170937" corresp="#ParlaMint-PT.ana"/>
                <tagUsage gi="text" occurs="1234" corresp="#ParlaMint-AT.ana"/>
                <tagUsage xmlns:ns1="http://www.w3.org/2001/XInclude"
                          gi="text"
@@ -2058,6 +2069,7 @@
                          gi="text"
                          occurs="686"
                          corresp="#ParlaMint-PL.ana"/>
+               <tagUsage gi="text" occurs="901" corresp="#ParlaMint-PT.ana"/>
                <tagUsage gi="text" occurs="2060" corresp="#ParlaMint-RS.ana"/>
                <tagUsage gi="text" occurs="0" corresp="#ParlaMint-SE.ana"/>
                <tagUsage gi="text" occurs="0" corresp="#ParlaMint-SI.ana"/>
@@ -2101,6 +2113,7 @@
                          gi="u"
                          occurs="228326"
                          corresp="#ParlaMint-PL.ana"/>
+               <tagUsage gi="u" occurs="248577" corresp="#ParlaMint-PT.ana"/>
                <tagUsage gi="u" occurs="316069" corresp="#ParlaMint-RS.ana"/>
                <tagUsage gi="u" occurs="631" corresp="#ParlaMint-SE.ana"/>
                <tagUsage gi="u" occurs="0" corresp="#ParlaMint-SI.ana"/>
@@ -2135,6 +2148,7 @@
                          gi="vocal"
                          occurs="106762"
                          corresp="#ParlaMint-PL.ana"/>
+               <tagUsage gi="vocal" occurs="31201" corresp="#ParlaMint-PT.ana"/>
                <tagUsage gi="vocal" occurs="0" corresp="#ParlaMint-RS.ana"/>
                <tagUsage gi="vocal" occurs="0" corresp="#ParlaMint-SE.ana"/>
                <tagUsage gi="vocal" occurs="0" corresp="#ParlaMint-SI.ana"/>
@@ -2161,10 +2175,10 @@
                          gi="w"
                          occurs="36064778"
                          corresp="#ParlaMint-PL.ana"/>
+               <tagUsage gi="w" occurs="27470969" corresp="#ParlaMint-PT.ana"/>
                <tagUsage gi="w" occurs="0" corresp="#ParlaMint-SI.ana"/>
                <tagUsage gi="w" occurs="49255262" corresp="#ParlaMint-TR.ana"/>
                <tagUsage gi="w" occurs="42006124" corresp="#ParlaMint-UA.ana"/>
-               <tagUsage gi="words" occurs="17646821" corresp="#ParlaMint-PT.ana"/>
             </namespace>
          </tagsDecl>
          <appInfo corresp="#ParlaMint-AT.ana">
@@ -2667,7 +2681,7 @@
                <name type="address">Alameda da Universidade, 1600-214 Lisboa, Portugal</name>
                <name type="city">Lisboa</name>
                <name type="country" key="PT">Portugal</name>
-               <date from="2015-01-07" to="2022-03-22">07.01.2015 - 22.03.2022</date>
+               <date from="2015-01-07" to="2024-03-26">07.01.2015 - 26.03.2026</date>
             </setting>
             <setting corresp="#ParlaMint-RS.ana">
                <name type="address">Trg Nikole Pašića 13</name>
@@ -3017,7 +3031,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-04-05">
+         <change when="2024-05-21">
             <name>Tomaž Erjavec</name>: Generate root</change>
       </revisionDesc>
    </teiHeader>

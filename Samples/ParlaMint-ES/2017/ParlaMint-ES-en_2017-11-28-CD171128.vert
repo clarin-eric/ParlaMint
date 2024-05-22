@@ -1,5 +1,5 @@
 <note type="head" content="INCLUSIÓN EN EL ORDEN DEL DÍA - SOLICITUD DE PRÓRROGA DE SUBCOMISIONES: - SOLICITUD DE LA COMISIÓN DE EMPLEO Y SEGURIDAD SOCIAL, PARA QUE SE CONCEDA UNA PRÓRROGA, DE OCHO MESES, DEL PLAZO OTORGADO A LA SUBCOMISIÓN PARA EL ESTUDIO DE LA REFORMA DEL RÉGIMEN ESPECIAL DE TRABAJADORES POR CUENTA PROPIA O AUTÓNOMOS , PARA LA EMISIÓN DE SU INFORME."/>
-<speech id="ParlaMint-ES_2017-11-28-CD171128.u1" text_id="ParlaMint-ES-en_2017-11-28-CD171128" subcorpus="Reference" lang="English" body="Lower house" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Plenary session 90 (2017-11-28)" speaker_role="Chairperson" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-ES_2017-11-28-CD171128.u1" text_id="ParlaMint-ES-en_2017-11-28-CD171128" subcorpus="Reference" lang="English" body="Lower house" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Plenary session 90 (2017-11-28)" speaker_role="Chairperson" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2017-11-28-CD171128.u1.p1" lang="English">
 <s id="ParlaMint-ES_2017-11-28-CD171128.u1.p1.s1">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
@@ -240,7 +240,7 @@ sitting	sitting	sitting	NOUN	Number=Sing	M8,C1,P1,G1.1,G2.1,M6,A9+	M8	M8: Statio
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO CONFEDERAL DE UNIDOS PODEMOS-EN COMÚ PODEM-EN MAREA, REGULADORA DE LAS PRÁCTICAS ACADÉMICAS UNIVERSITARIAS EXTERNAS."/>
-<speech id="ParlaMint-ES_2017-11-28-CD171128.u2" text_id="ParlaMint-ES-en_2017-11-28-CD171128" subcorpus="Reference" lang="English" body="Lower house" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Plenary session 90 (2017-11-28)" speaker_role="Chairperson" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-ES_2017-11-28-CD171128.u2" text_id="ParlaMint-ES-en_2017-11-28-CD171128" subcorpus="Reference" lang="English" body="Lower house" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Plenary session 90 (2017-11-28)" speaker_role="Chairperson" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2017-11-28-CD171128.u2.p1" lang="English">
 <s id="ParlaMint-ES_2017-11-28-CD171128.u2.p1.s1">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
@@ -364,7 +364,7 @@ there	there	there	ADV	PronType=Dem	M6,T1.2	M6	M6: Location and direction	t7
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2017-11-28-CD171128.u158" text_id="ParlaMint-ES-en_2017-11-28-CD171128" subcorpus="Reference" lang="English" body="Lower house" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Plenary session 90 (2017-11-28)" speaker_role="Chairperson" speaker_id="" speaker_name="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
+<speech id="ParlaMint-ES_2017-11-28-CD171128.u158" text_id="ParlaMint-ES-en_2017-11-28-CD171128" subcorpus="Reference" lang="English" body="Lower house" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Plenary session 90 (2017-11-28)" speaker_role="Chairperson" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2017-11-28-CD171128.u158.p1" lang="English">
 <s id="ParlaMint-ES_2017-11-28-CD171128.u158.p1.s1">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">

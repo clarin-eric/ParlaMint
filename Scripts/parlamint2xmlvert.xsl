@@ -135,7 +135,8 @@
           <xsl:attribute name="speaker_party_name">-</xsl:attribute>
           <xsl:attribute name="party_status">-</xsl:attribute>
           <xsl:attribute name="party_orientation">-</xsl:attribute>
-          <xsl:attribute name="speaker_gender">-</xsl:attribute>
+          <!-- Unlike elsewhere, we set the gender and U(known), to be same is speeches by speaker with U gender -->
+          <xsl:attribute name="speaker_gender">U</xsl:attribute>
           <xsl:attribute name="speaker_birth">-</xsl:attribute>
         </xsl:otherwise>
       </xsl:choose>

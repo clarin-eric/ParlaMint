@@ -1,7 +1,7 @@
 ######### Initial data and processing of MT and MT-USAS (.sem) CoNLL-U files
 
 ###### Corpus / corpora to be procssed
-CORPUS = LV
+CORPUS = PT
 CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
 ###### USAS part via UCREL pipeline: get & fix a few things
@@ -34,8 +34,9 @@ get-mt-conllu:
 get-mt-notes:
 	-cp /home/taja/Notes-translated/ParlaMint-${CORPUS}.notes.translated.tsv .
 	-cp /home/taja/Notes-translated/ParlaMint-${CORPUS}.notes.translated.ana.tsv .
-	rename -f 's/\.notes.translated/-en-notes/' *.tsv
-	rename -f 's/\.notes.translated\.ana/-en-notes/' *.tsv
+	rm -f ParlaMint-${CORPUS}-en-notes.tsv
+	-rename -f 's/\.notes.translated\.ana/-en-notes/' *.tsv
+	-rename -f 's/\.notes.translated/-en-notes/' *.tsv
 mt-for-transfer:
 	zip -r ParlaMint-${CORPUS}-en.conllu.zip ParlaMint-${CORPUS}-en.conllu
 	rsync -av ParlaMint-${CORPUS}-en.conllu.zip tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/MT/CoNLL-U-en

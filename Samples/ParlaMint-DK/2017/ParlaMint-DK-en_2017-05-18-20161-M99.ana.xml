@@ -38,7 +38,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.0</edition>
+            <edition>4.1</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="655" xml:lang="en">655 speeches</measure>
@@ -49,16 +49,15 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1864</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1910</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-01-23">2024-01-23</date>
+            <date when="2024-05-16">2024-05-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title type="main" xml:lang="en">Hansards of the Danish Parliament</title>
                <title type="main" xml:lang="en">Hansards of the Danish Parliament</title>
                <publisher xml:lang="en">The Danish Parliament</publisher>
                <idno type="URI" subtype="parliament">https://www.ft.dk/</idno>
@@ -68,18 +67,18 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="div" occurs="26"/>
                <tagUsage gi="head" occurs="26"/>
-               <tagUsage gi="name" occurs="1687"/>
+               <tagUsage gi="name" occurs="1683"/>
                <tagUsage gi="note" occurs="26"/>
                <tagUsage gi="pc" occurs="8674"/>
-               <tagUsage gi="phr" occurs="3484"/>
-               <tagUsage gi="s" occurs="3673"/>
+               <tagUsage gi="phr" occurs="3485"/>
+               <tagUsage gi="s" occurs="3703"/>
                <tagUsage gi="seg" occurs="655"/>
                <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="u" occurs="655"/>
@@ -103,9 +102,9 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2024-01-23">
+         <change when="2024-05-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2023-10-31">
+         <change when="2024-05-16">
             <name>Tomaž Erjavec</name>: Generate TEI version of MTed corpus.</change>
          <change when="2021-01-29">
             <name>Dorte Haltrup Hansen</name>: Generated corpus in ParlaMint.</change>
@@ -114,9 +113,9 @@
    <text xml:lang="da" ana="#reference">
       <body>
          <div type="debateSection" xml:lang="en">
-            <head xml:id="ParlaMint-DK_2017-05-18-20161-M99.ana.head1" xml:lang="en" corresp="mt-src:ParlaMint-DK_2017-05-18-20161-M99.ana.head1">Punkt 0</head>
-            <note type="agendaItem" xml:id="ParlaMint-DK_2017-05-18-20161-M99.ana.note1" xml:lang="en" corresp="mt-src:ParlaMint-DK_2017-05-18-20161-M99.ana.note1">2017-05-18-0</note>
-            <u who="#KjærsgaardPia" xml:id="ParlaMint-DK_20170518100005" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-DK_20170518100005">
+            <head xml:id="ParlaMint-DK_2017-05-18-20161-M99.head1" xml:lang="en" corresp="mt-src:ParlaMint-DK_2017-05-18-20161-M99.head1">Punkt 0</head>
+            <note type="agendaItem" xml:id="ParlaMint-DK_2017-05-18-20161-M99.note1" xml:lang="en" corresp="mt-src:ParlaMint-DK_2017-05-18-20161-M99.note1">2017-05-18-0</note>
+            <u who="#KjærsgaardPia" xml:id="ParlaMint-DK_20170518100005" ana="#chair #domain.other" xml:lang="en" corresp="mt-src:ParlaMint-DK_20170518100005">
                <seg xml:id="ParlaMint-DK_20170518100005.seg1" xml:lang="en" corresp="mt-src:ParlaMint-DK_20170518100005.seg1">
                   <s xml:id="ParlaMint-DK_20170518100005.seg1.1" n="1" corresp="mt-src:ParlaMint-DK_20170518100005.seg1.1">
 <w xml:id="ParlaMint-DK_20170518100005.seg1.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
@@ -253,7 +252,7 @@
                   </s>
                </seg>
             </u>
-            <u who="#KjærsgaardPia" xml:id="ParlaMint-DK_20170518100049" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-DK_20170518100049">
+            <u who="#KjærsgaardPia" xml:id="ParlaMint-DK_20170518100049" ana="#chair #domain.other" xml:lang="en" corresp="mt-src:ParlaMint-DK_20170518100049">
                <seg xml:id="ParlaMint-DK_20170518100049.seg2" xml:lang="en" corresp="mt-src:ParlaMint-DK_20170518100049.seg2">
                   <s xml:id="ParlaMint-DK_20170518100049.seg2.1" n="1" corresp="mt-src:ParlaMint-DK_20170518100049.seg2.1">
 <w xml:id="ParlaMint-DK_20170518100049.seg2.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
@@ -309,7 +308,7 @@
             </gap>
          </div>
          <div type="debateSection" xml:lang="en">
-            <u who="#JuhlChristian" xml:id="ParlaMint-DK_20170518185027" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-DK_20170518185027">
+            <u who="#JuhlChristian" xml:id="ParlaMint-DK_20170518185027" ana="#chair #domain.Environment" xml:lang="en" corresp="mt-src:ParlaMint-DK_20170518185027">
                <seg xml:id="ParlaMint-DK_20170518185027.seg654" xml:lang="en" corresp="mt-src:ParlaMint-DK_20170518185027.seg654">
                   <s xml:id="ParlaMint-DK_20170518185027.seg654.1" n="1" corresp="mt-src:ParlaMint-DK_20170518185027.seg654.1">
 <w xml:id="ParlaMint-DK_20170518185027.seg654.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8" join="right">You</w>
@@ -378,9 +377,9 @@
             </u>
          </div>
          <div type="debateSection" xml:lang="en">
-            <head xml:id="ParlaMint-DK_2017-05-18-20161-M99.ana.head26" xml:lang="en" corresp="mt-src:ParlaMint-DK_2017-05-18-20161-M99.ana.head26">Punkt 0</head>
-            <note type="agendaItem" xml:id="ParlaMint-DK_2017-05-18-20161-M99.ana.note26" xml:lang="en" corresp="mt-src:ParlaMint-DK_2017-05-18-20161-M99.ana.note26">2017-05-18-0</note>
-            <u who="#JuhlChristian" xml:id="ParlaMint-DK_20170518185041" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-DK_20170518185041">
+            <head xml:id="ParlaMint-DK_2017-05-18-20161-M99.head26" xml:lang="en" corresp="mt-src:ParlaMint-DK_2017-05-18-20161-M99.head26">Punkt 0</head>
+            <note type="agendaItem" xml:id="ParlaMint-DK_2017-05-18-20161-M99.note26" xml:lang="en" corresp="mt-src:ParlaMint-DK_2017-05-18-20161-M99.note26">2017-05-18-0</note>
+            <u who="#JuhlChristian" xml:id="ParlaMint-DK_20170518185041" ana="#chair #domain.other" xml:lang="en" corresp="mt-src:ParlaMint-DK_20170518185041">
                <seg xml:id="ParlaMint-DK_20170518185041.seg655" xml:lang="en" corresp="mt-src:ParlaMint-DK_20170518185041.seg655">
                   <s xml:id="ParlaMint-DK_20170518185041.seg655.1" n="1" corresp="mt-src:ParlaMint-DK_20170518185041.seg655.1">
 <w xml:id="ParlaMint-DK_20170518185041.seg655.1.t1" pos="RB" msd="UPosTag=ADV|PronType=Dem" lemma="then" function="N4,Z5,T1.2" ana="sem:N4">Then</w>
@@ -584,22 +583,24 @@
 <w xml:id="ParlaMint-DK_20170518185041.seg655.6.t21" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="pm." function="Z99" ana="sem:Z99">pm.</w>
 <w xml:id="ParlaMint-DK_20170518185041.seg655.6.t22" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="10:00" function="N1" ana="sem:N1" join="right">10:00</w>
 <pc xml:id="ParlaMint-DK_20170518185041.seg655.6.t23" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
-<w xml:id="ParlaMint-DK_20170518185041.seg655.6.t24" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
-<w xml:id="ParlaMint-DK_20170518185041.seg655.6.t25" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="refer" function="Q2.2,Q1.2" ana="sem:Q2.2">refer</w>
-<w xml:id="ParlaMint-DK_20170518185041.seg655.6.t26" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
-<w xml:id="ParlaMint-DK_20170518185041.seg655.6.t27" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
-<w xml:id="ParlaMint-DK_20170518185041.seg655.6.t28" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="agenda" function="Q1.2/X7+" ana="sem:Q1.2 sem:X7p">agenda</w>
-<w xml:id="ParlaMint-DK_20170518185041.seg655.6.t29" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="set" function="M2,M6,O4.5,O4.1,W4,A1.1.1,B3,B4,X6+,S6+,K2,Q4.3" ana="sem:M2">set</w>
-<w xml:id="ParlaMint-DK_20170518185041.seg655.6.t30" pos="RP" msd="UPosTag=ADP" lemma="out" function="Z5" ana="sem:Z5">out</w>
-<w xml:id="ParlaMint-DK_20170518185041.seg655.6.t31" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
-<w xml:id="ParlaMint-DK_20170518185041.seg655.6.t32" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                  </s>
+                  <s xml:id="ParlaMint-DK_20170518185041.seg655.7" n="7" corresp="mt-src:ParlaMint-DK_20170518185041.seg655.7">
+<w xml:id="ParlaMint-DK_20170518185041.seg655.7.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+<w xml:id="ParlaMint-DK_20170518185041.seg655.7.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="refer" function="Q2.2,Q1.2" ana="sem:Q2.2">refer</w>
+<w xml:id="ParlaMint-DK_20170518185041.seg655.7.t3" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-DK_20170518185041.seg655.7.t4" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-DK_20170518185041.seg655.7.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="agenda" function="Q1.2/X7+" ana="sem:Q1.2 sem:X7p">agenda</w>
+<w xml:id="ParlaMint-DK_20170518185041.seg655.7.t6" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="set" function="M2,M6,O4.5,O4.1,W4,A1.1.1,B3,B4,X6+,S6+,K2,Q4.3" ana="sem:M2">set</w>
+<w xml:id="ParlaMint-DK_20170518185041.seg655.7.t7" pos="RP" msd="UPosTag=ADP" lemma="out" function="Z5" ana="sem:Z5">out</w>
+<w xml:id="ParlaMint-DK_20170518185041.seg655.7.t8" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-DK_20170518185041.seg655.7.t9" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
                      <name type="MISC">
-<w xml:id="ParlaMint-DK_20170518185041.seg655.6.t33" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Danish" function="Z1mf,Z3c" ana="sem:Z1">Danish</w>
+<w xml:id="ParlaMint-DK_20170518185041.seg655.7.t10" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Danish" function="Z1mf,Z3c" ana="sem:Z1">Danish</w>
                      </name>
-<w xml:id="ParlaMint-DK_20170518185041.seg655.6.t34" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Parliament" function="Z1mf,Z3c" ana="sem:Z1" join="right">Parliament</w>
-<w xml:id="ParlaMint-DK_20170518185041.seg655.6.t35" pos="POS" msd="UPosTag=PART" lemma="'s" function="Z5" ana="sem:Z5">'s</w>
-<w xml:id="ParlaMint-DK_20170518185041.seg655.6.t36" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="website" function="Y2" ana="sem:Y2" join="right">website</w>
-<pc xml:id="ParlaMint-DK_20170518185041.seg655.6.t37" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+<w xml:id="ParlaMint-DK_20170518185041.seg655.7.t11" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Parliament" function="Z1mf,Z3c" ana="sem:Z1" join="right">Parliament</w>
+<w xml:id="ParlaMint-DK_20170518185041.seg655.7.t12" pos="POS" msd="UPosTag=PART" lemma="'s" function="Z5" ana="sem:Z5">'s</w>
+<w xml:id="ParlaMint-DK_20170518185041.seg655.7.t13" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="website" function="Y2" ana="sem:Y2" join="right">website</w>
+<pc xml:id="ParlaMint-DK_20170518185041.seg655.7.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                </seg>
             </u>

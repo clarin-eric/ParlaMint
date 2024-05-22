@@ -1,7 +1,7 @@
 <note type="head" content="Sessió 7.2"/>
 <note type="narrative" content="La sessió, suspesa ahir, es reprèn a les nou del matí i sis minuts. Presideix el president del Parlament, acompanyat de tots els membres de la Mesa, la qual és assistida pel secretari general, el lletrat major i el lletrat Fernando Domínguez Garcia."/>
 <note type="speaker" content="El president"/>
-<speech id="ParlaMint-ES-CT_2018-05-04-0702.1.0" text_id="ParlaMint-ES-CT_2018-05-04-0702" subcorpus="Corpus de referència" lang="Català" body="Unicameralisme" term="XII Legislatura" session="-" meeting="7" sitting="2" agenda="-" date="2018-05-04" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2018-05-04 0702.ana" speaker_role="Presidència" speaker_id="TorrentRoger" speaker_name="Torrent i Ramió, Roger" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JuntsPelSí" speaker_party_name="Junts pel Sí" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1979">
+<speech id="ParlaMint-ES-CT_2018-05-04-0702.1.0" text_id="ParlaMint-ES-CT_2018-05-04-0702" subcorpus="Referència" lang="Català" body="Unicameralisme" term="XII Legislatura" session="-" meeting="7" sitting="2" agenda="-" date="2018-05-04" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2018-05-04 0702.ana" speaker_role="Presidència" speaker_id="TorrentRoger" speaker_name="Torrent i Ramió, Roger" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JuntsPelSí" speaker_party_name="Junts pel Sí" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1979">
 <p id="ParlaMint-ES-CT_2018-05-04-0702.1.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-04-0702.1.0.0.1">
 Bon	Bon	bo	ADJ	Gender=Masc Number=Sing	1	amod	dia	NOUN	Gender=Masc Number=Sing	2
@@ -102,7 +102,7 @@ minuts	minuts	minut	NOUN	Gender=Masc Number=Plur	26	nmod	temps	NOUN	Gender=Masc	
 </p>
 </speech>
 <note type="speaker" content="Anna Caula i Paretas"/>
-<speech id="ParlaMint-ES-CT_2018-05-04-0702.2.0" text_id="ParlaMint-ES-CT_2018-05-04-0702" subcorpus="Corpus de referència" lang="Català" body="Unicameralisme" term="XII Legislatura" session="-" meeting="7" sitting="2" agenda="-" date="2018-05-04" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2018-05-04 0702.ana" speaker_role="Diputat/da" speaker_id="CaulaAnna" speaker_name="Caula i Paretas, Anna" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JuntsPelSí" speaker_party_name="Junts pel Sí" party_status="-" party_orientation="-" speaker_gender="F" speaker_birth="1971">
+<speech id="ParlaMint-ES-CT_2018-05-04-0702.2.0" text_id="ParlaMint-ES-CT_2018-05-04-0702" subcorpus="Referència" lang="Català" body="Unicameralisme" term="XII Legislatura" session="-" meeting="7" sitting="2" agenda="-" date="2018-05-04" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2018-05-04 0702.ana" speaker_role="Diputat/da" speaker_id="CaulaAnna" speaker_name="Caula i Paretas, Anna" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JuntsPelSí" speaker_party_name="Junts pel Sí" party_status="-" party_orientation="-" speaker_gender="F" speaker_birth="1971">
 <p id="ParlaMint-ES-CT_2018-05-04-0702.2.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-04-0702.2.0.0.1">
 <name type="PER">
@@ -2389,7 +2389,7 @@ obertura	obertura	obertura	NOUN	Gender=Fem Number=Sing	20	conj	acollida	NOUN	Gen
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES-CT_2018-05-04-0702.159.0" text_id="ParlaMint-ES-CT_2018-05-04-0702" subcorpus="Corpus de referència" lang="Català" body="Unicameralisme" term="XII Legislatura" session="-" meeting="7" sitting="2" agenda="-" date="2018-05-04" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2018-05-04 0702.ana" speaker_role="Diputat/da" speaker_id="RieraCarles" speaker_name="Riera i Albert, Carles" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-CUP;GP-CUP" speaker_party_name="Grup Parlamentari de la Candidatura d'Unitat Popular - Crida Constituent;Grup Parlamentari de la Candidatura d'Unitat Popular - Un Nou Cicle per Guanyar" party_status="Opposition" party_orientation="Entre esquerra i extrema esquerra" speaker_gender="M" speaker_birth="1960">
+<speech id="ParlaMint-ES-CT_2018-05-04-0702.159.0" text_id="ParlaMint-ES-CT_2018-05-04-0702" subcorpus="Referència" lang="Català" body="Unicameralisme" term="XII Legislatura" session="-" meeting="7" sitting="2" agenda="-" date="2018-05-04" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2018-05-04 0702.ana" speaker_role="Diputat/da" speaker_id="RieraCarles" speaker_name="Riera i Albert, Carles" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-CUP;GP-CUP" speaker_party_name="Grup Parlamentari de la Candidatura d'Unitat Popular - Crida Constituent;Grup Parlamentari de la Candidatura d'Unitat Popular - Un Nou Cicle per Guanyar" party_status="Opposition" party_orientation="Entre esquerra i extrema esquerra" speaker_gender="M" speaker_birth="1960">
 <p id="ParlaMint-ES-CT_2018-05-04-0702.159.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-04-0702.159.0.0.1">
 <name type="PER">
@@ -2567,7 +2567,7 @@ Gràcies	Gràcies	gràcies	PROPN	-	1	root	-	-	-	-
 </p>
 </speech>
 <note type="speaker" content="El president"/>
-<speech id="ParlaMint-ES-CT_2018-05-04-0702.160.0" text_id="ParlaMint-ES-CT_2018-05-04-0702" subcorpus="Corpus de referència" lang="Català" body="Unicameralisme" term="XII Legislatura" session="-" meeting="7" sitting="2" agenda="-" date="2018-05-04" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2018-05-04 0702.ana" speaker_role="Presidència" speaker_id="TorrentRoger" speaker_name="Torrent i Ramió, Roger" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JuntsPelSí" speaker_party_name="Junts pel Sí" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1979">
+<speech id="ParlaMint-ES-CT_2018-05-04-0702.160.0" text_id="ParlaMint-ES-CT_2018-05-04-0702" subcorpus="Referència" lang="Català" body="Unicameralisme" term="XII Legislatura" session="-" meeting="7" sitting="2" agenda="-" date="2018-05-04" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2018-05-04 0702.ana" speaker_role="Presidència" speaker_id="TorrentRoger" speaker_name="Torrent i Ramió, Roger" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JuntsPelSí" speaker_party_name="Junts pel Sí" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1979">
 <p id="ParlaMint-ES-CT_2018-05-04-0702.160.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2018-05-04-0702.160.0.0.1">
 <name type="PER">

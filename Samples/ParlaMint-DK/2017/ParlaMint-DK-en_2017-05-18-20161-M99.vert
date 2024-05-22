@@ -516,24 +516,26 @@ pm.	pm.	pm.	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t21
 10:00	10:00	10:00	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t22
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
-I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t24
-refer	refer	refer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2,Q1.2	Q2.2	Q2.2: Speech acts	t25
-to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t26
-the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t27
-agenda	agenda	agenda	NOUN	Number=Sing	Q1.2/X7+	Q1.2 X7p	Q1.2: Paper documents and writing|X7+: Wanted	t28
-set	set	set	VERB	Tense=Past VerbForm=Part	M2,M6,O4.5,O4.1,W4,A1.1.1,B3,B4,X6+,S6+,K2,Q4.3	M2	M2: Putting, pulling, pushing, transporting	t29
-out	out	out	ADP	-	Z5	Z5	Z5: Grammatical bin	t30
-in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t31
-the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t32
+</s>
+<s id="ParlaMint-DK_20170518185041.seg655.7">
+I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
+refer	refer	refer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2,Q1.2	Q2.2	Q2.2: Speech acts	t2
+to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t4
+agenda	agenda	agenda	NOUN	Number=Sing	Q1.2/X7+	Q1.2 X7p	Q1.2: Paper documents and writing|X7+: Wanted	t5
+set	set	set	VERB	Tense=Past VerbForm=Part	M2,M6,O4.5,O4.1,W4,A1.1.1,B3,B4,X6+,S6+,K2,Q4.3	M2	M2: Putting, pulling, pushing, transporting	t6
+out	out	out	ADP	-	Z5	Z5	Z5: Grammatical bin	t7
+in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t8
+the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t9
 <name type="MISC">
-Danish	Danish	Danish	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t33
+Danish	Danish	Danish	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t10
 </name>
-Parliament	Parliament	Parliament	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t34
+Parliament	Parliament	Parliament	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t11
 <g/>
-'s	's	's	PART	-	Z5	Z5	Z5: Grammatical bin	t35
-website	website	website	NOUN	Number=Sing	Y2	Y2	Y2: Information technology and computing	t36
+'s	's	's	PART	-	Z5	Z5	Z5: Grammatical bin	t12
+website	website	website	NOUN	Number=Sing	Y2	Y2	Y2: Information technology and computing	t13
 <g/>
-.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
+.	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
 </p>
 </speech>

@@ -1497,7 +1497,7 @@ thing	thing	thing	NOUN	Number=Sing	O2,X4.1,A7-,S2mf,L2mf	O2	O2: Objects generall
 </p>
 </speech>
 <note type="speaker" content="Mali, Sinisha"/>
-<speech id="ParlaMint-RS_2022-02-14-0.u12403" text_id="ParlaMint-RS-en_2022-02-14-0" subcorpus="COVID" lang="English" body="Unicameralism" term="12. mandat" session="-" meeting="Zasedanje v18" sitting="2022-02-14" agenda="-" date="2022-02-14" title="Term 12, Meeting v18" speaker_role="Regular" speaker_id="MaliSiniša" speaker_name="Mali, Siniša" speaker_mp="notMP" speaker_minister="Minister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="-" speaker_birth="-">
+<speech id="ParlaMint-RS_2022-02-14-0.u12403" text_id="ParlaMint-RS-en_2022-02-14-0" subcorpus="COVID" lang="English" body="Unicameralism" term="12. mandat" session="-" meeting="Zasedanje v18" sitting="2022-02-14" agenda="-" date="2022-02-14" title="Term 12, Meeting v18" speaker_role="Regular" speaker_id="MaliSiniša" speaker_name="Mali, Siniša" speaker_mp="notMP" speaker_minister="Minister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-RS_2022-02-14-0.u12403.seg0" lang="English">
 <s id="ParlaMint-RS_2022-02-14-0.u12403.seg0.1">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">

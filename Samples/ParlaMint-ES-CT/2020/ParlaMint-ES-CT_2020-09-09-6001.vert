@@ -23,7 +23,7 @@
 <note type="narrative" content="19. Moció subsegüent a la interpel·lació al Govern sobre el confinament de Lleida i el baix Segrià (tram. 302-00231/12). Grup Parlamentari Socialistes i Units per Avançar. Debat i votació."/>
 <note type="narrative" content="20. Moció subsegüent a la interpel·lació al Govern sobre la política industrial (tram. 302-00233/12). Grup Parlamentari de Catalunya en Comú Podem. Debat i votació."/>
 <note type="speaker" content="El president"/>
-<speech id="ParlaMint-ES-CT_2020-09-09-6001.1.0" text_id="ParlaMint-ES-CT_2020-09-09-6001" subcorpus="Corpus COVID" lang="Català" body="Unicameralisme" term="XII Legislatura" session="-" meeting="60" sitting="1" agenda="-" date="2020-09-09" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2020-09-09 6001.ana" speaker_role="Presidència" speaker_id="TorrentRoger" speaker_name="Torrent i Ramió, Roger" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JuntsPelSí" speaker_party_name="Junts pel Sí" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1979">
+<speech id="ParlaMint-ES-CT_2020-09-09-6001.1.0" text_id="ParlaMint-ES-CT_2020-09-09-6001" subcorpus="COVID" lang="Català" body="Unicameralisme" term="XII Legislatura" session="-" meeting="60" sitting="1" agenda="-" date="2020-09-09" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2020-09-09 6001.ana" speaker_role="Presidència" speaker_id="TorrentRoger" speaker_name="Torrent i Ramió, Roger" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JuntsPelSí" speaker_party_name="Junts pel Sí" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1979">
 <p id="ParlaMint-ES-CT_2020-09-09-6001.1.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.1.0.0.1">
 <name type="PER">
@@ -452,7 +452,7 @@ vulgui	vulgui	voler	VERB	Mood=Sub Tense=Pres Person=3 Number=Sing	2	root	-	-	-	-
 </p>
 </speech>
 <note type="speaker" content="Daniel Serrano Coronado"/>
-<speech id="ParlaMint-ES-CT_2020-09-09-6001.2.0" text_id="ParlaMint-ES-CT_2020-09-09-6001" subcorpus="Corpus COVID" lang="Espanyol" body="Unicameralisme" term="XII Legislatura" session="-" meeting="60" sitting="1" agenda="-" date="2020-09-09" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2020-09-09 6001.ana" speaker_role="Diputat/da" speaker_id="SerranoDaniel" speaker_name="Serrano Coronado, Daniel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PP" speaker_party_name="Partido Popular" party_status="-" party_orientation="Entre centredreta i dreta" speaker_gender="M" speaker_birth="1976">
+<speech id="ParlaMint-ES-CT_2020-09-09-6001.2.0" text_id="ParlaMint-ES-CT_2020-09-09-6001" subcorpus="COVID" lang="Espanyol" body="Unicameralisme" term="XII Legislatura" session="-" meeting="60" sitting="1" agenda="-" date="2020-09-09" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2020-09-09 6001.ana" speaker_role="Diputat/da" speaker_id="SerranoDaniel" speaker_name="Serrano Coronado, Daniel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PP" speaker_party_name="Partido Popular" party_status="-" party_orientation="Entre centredreta i dreta" speaker_gender="M" speaker_birth="1976">
 <p id="ParlaMint-ES-CT_2020-09-09-6001.2.0.0" lang="Espanyol">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.2.0.0.1">
 <name type="PER">
@@ -499,7 +499,7 @@ alumnos	alumnos	alumno	NOUN	Gender=Masc Number=Plur	31	conj	centro	NOUN	Gender=M
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES-CT_2020-09-09-6001.244.0" text_id="ParlaMint-ES-CT_2020-09-09-6001" subcorpus="Corpus COVID" lang="Català" body="Unicameralisme" term="XII Legislatura" session="-" meeting="60" sitting="1" agenda="-" date="2020-09-09" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2020-09-09 6001.ana" speaker_role="Diputat/da" speaker_id="BargallóJosep" speaker_name="Bargalló Valls, Josep" speaker_mp="notMP" speaker_minister="Minister" speaker_party="ERC" speaker_party_name="Esquerra Republicana de Catalunya" party_status="-" party_orientation="Entre centreesquerra i esquerra" speaker_gender="M" speaker_birth="1977">
+<speech id="ParlaMint-ES-CT_2020-09-09-6001.244.0" text_id="ParlaMint-ES-CT_2020-09-09-6001" subcorpus="COVID" lang="Català" body="Unicameralisme" term="XII Legislatura" session="-" meeting="60" sitting="1" agenda="-" date="2020-09-09" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2020-09-09 6001.ana" speaker_role="Diputat/da" speaker_id="BargallóJosep" speaker_name="Bargalló Valls, Josep" speaker_mp="notMP" speaker_minister="Minister" speaker_party="ERC" speaker_party_name="Esquerra Republicana de Catalunya" party_status="-" party_orientation="Entre centreesquerra i esquerra" speaker_gender="M" speaker_birth="1977">
 <p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.244.0.0.1">
 Diputades	Diputades	diputada	NOUN	Gender=Fem Number=Plur	1	root	-	-	-	-
@@ -1501,7 +1501,7 @@ gràcies	gràcies	gràcia	NOUN	Gender=Fem Number=Plur	2	nmod	molt	DET	PronType=I
 </p>
 </speech>
 <note type="speaker" content="El president"/>
-<speech id="ParlaMint-ES-CT_2020-09-09-6001.245.0" text_id="ParlaMint-ES-CT_2020-09-09-6001" subcorpus="Corpus COVID" lang="Català" body="Unicameralisme" term="XII Legislatura" session="-" meeting="60" sitting="1" agenda="-" date="2020-09-09" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2020-09-09 6001.ana" speaker_role="Presidència" speaker_id="TorrentRoger" speaker_name="Torrent i Ramió, Roger" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JuntsPelSí" speaker_party_name="Junts pel Sí" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1979">
+<speech id="ParlaMint-ES-CT_2020-09-09-6001.245.0" text_id="ParlaMint-ES-CT_2020-09-09-6001" subcorpus="COVID" lang="Català" body="Unicameralisme" term="XII Legislatura" session="-" meeting="60" sitting="1" agenda="-" date="2020-09-09" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2020-09-09 6001.ana" speaker_role="Presidència" speaker_id="TorrentRoger" speaker_name="Torrent i Ramió, Roger" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JuntsPelSí" speaker_party_name="Junts pel Sí" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1979">
 <p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.0.1">
 <name type="PER">

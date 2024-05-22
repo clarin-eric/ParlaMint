@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <taxonomy xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-taxonomy-UD-SYN.ana" xml:lang="mul">
-   <desc xml:lang="en"><term>UD syntactic relations</term>: All defined syntactic relations of the <ref target="https://universaldependencies.org/">Universal Dependendencies</ref> project</desc>
+   <desc xml:lang="en"><term>UD syntactic relations</term>: All defined syntactic relations of the <ref target="https://universaldependencies.org/">Universal Dependendencies</ref> project (<ref target="https://github.com/UniversalDependencies/docs/tree/5a573316b93dc8d08bec5c159fd549242219c00c">GitHub commit</ref>)</desc>
    <category xml:id="acl">
       <catDesc xml:lang="en"><term>acl</term>: clausal modifier of noun (adnominal clause)</catDesc>
       <category xml:id="acl_adv">
@@ -12,11 +12,26 @@
       <category xml:id="acl_cleft">
          <catDesc xml:lang="en"><term>acl:cleft</term>: clefted phrase modifier</catDesc>
       </category>
+      <category xml:id="acl_cont">
+         <catDesc xml:lang="en"><term>acl:cont</term>: content clause as clausal modifier</catDesc>
+      </category>
+      <category xml:id="acl_crel">
+         <catDesc xml:lang="en"><term>acl:crel</term>: correlative clausal modifier</catDesc>
+      </category>
+      <category xml:id="acl_dpct">
+         <catDesc xml:lang="en"><term>acl:dpct</term>: depictive clausal modifier</catDesc>
+      </category>
       <category xml:id="acl_fixed">
          <catDesc xml:lang="en"><term>acl:fixed</term>: fixed clausal modifier</catDesc>
       </category>
       <category xml:id="acl_inf">
          <catDesc xml:lang="en"><term>acl:inf</term>: acl:inf</catDesc>
+      </category>
+      <category xml:id="acl_pred">
+         <catDesc xml:lang="en"><term>acl:pred</term>: attributive clausal modifier</catDesc>
+      </category>
+      <category xml:id="acl_ptcp">
+         <catDesc xml:lang="en"><term>acl:ptcp</term>: attributive clausal modifier</catDesc>
       </category>
       <category xml:id="acl_relat">
          <catDesc xml:lang="en"><term>acl:relat</term>: relational adnominal clause</catDesc>
@@ -39,32 +54,62 @@
       <category xml:id="advcl_abs">
          <catDesc xml:lang="en"><term>advcl:abs</term>: ablativus absolutus</catDesc>
       </category>
+      <category xml:id="advcl_advers">
+         <catDesc xml:lang="en"><term>advcl:advers</term>: adversal adverbial clause</catDesc>
+      </category>
+      <category xml:id="advcl_arelcl">
+         <catDesc xml:lang="en"><term>advcl:arelcl</term>: adverbial clause headed by an adverbial relative clause</catDesc>
+      </category>
       <category xml:id="advcl_cau">
          <catDesc xml:lang="en"><term>advcl:cau</term>: adverb with causative modality</catDesc>
+      </category>
+      <category xml:id="advcl_caus">
+         <catDesc xml:lang="en"><term>advcl:caus</term>: causal adverbial clause</catDesc>
+      </category>
+      <category xml:id="advcl_ccomp">
+         <catDesc xml:lang="en"><term>advcl:ccomp</term>: adverbial clausal modifier with elided speech verb</catDesc>
       </category>
       <category xml:id="advcl_cleft">
          <catDesc xml:lang="en"><term>advcl:cleft</term>: clefted adverbial clause modifier</catDesc>
       </category>
       <category xml:id="advcl_cmp">
-         <catDesc xml:lang="en"><term>advcl:cmp</term>: comparative adverbial clause modifier of an adjective or adverb</catDesc>
+         <catDesc xml:lang="en"><term>advcl:cmp</term>: comparative clause</catDesc>
       </category>
       <category xml:id="advcl_cmpr">
          <catDesc xml:lang="en"><term>advcl:cmpr</term>: comparative clause</catDesc>
       </category>
+      <category xml:id="advcl_concess">
+         <catDesc xml:lang="en"><term>advcl:concess</term>: concessive clause</catDesc>
+      </category>
       <category xml:id="advcl_cond">
          <catDesc xml:lang="en"><term>advcl:cond</term>: conditional adverbial clause modifier</catDesc>
+      </category>
+      <category xml:id="advcl_consec">
+         <catDesc xml:lang="en"><term>advcl:consec</term>: consecutive adverbial clausal modifier</catDesc>
+      </category>
+      <category xml:id="advcl_conv">
+         <catDesc xml:lang="en"><term>advcl:conv</term>: adverbial clause headed by a converb</catDesc>
       </category>
       <category xml:id="advcl_coverb">
          <catDesc xml:lang="en"><term>advcl:coverb</term>: adverbial coverb phrase</catDesc>
       </category>
+      <category xml:id="advcl_dpct">
+         <catDesc xml:lang="en"><term>advcl:dpct</term>: clausal modifier of covert referent</catDesc>
+      </category>
       <category xml:id="advcl_eval">
          <catDesc xml:lang="en"><term>advcl:eval</term>: advcl with evaluative modality</catDesc>
+      </category>
+      <category xml:id="advcl_fin">
+         <catDesc xml:lang="en"><term>advcl:fin</term>: final clause</catDesc>
       </category>
       <category xml:id="advcl_lcl">
          <catDesc xml:lang="en"><term>advcl:lcl</term>: advcl with locative to modality</catDesc>
       </category>
       <category xml:id="advcl_lto">
          <catDesc xml:lang="en"><term>advcl:lto</term>: advcl with locative to modality</catDesc>
+      </category>
+      <category xml:id="advcl_manner">
+         <catDesc xml:lang="en"><term>advcl:manner</term>: adverbial clause of manner</catDesc>
       </category>
       <category xml:id="advcl_mcl">
          <catDesc xml:lang="en"><term>advcl:mcl</term>: adverbial clause with modal modality</catDesc>
@@ -76,7 +121,7 @@
          <catDesc xml:lang="en"><term>advcl:pred</term>: adverbial secondary predication</catDesc>
       </category>
       <category xml:id="advcl_relcl">
-         <catDesc xml:lang="en"><term>advcl:relcl</term>: relative clause modifier of the clause</catDesc>
+         <catDesc xml:lang="en"><term>advcl:relcl</term>: adverbial relative clause modifier</catDesc>
       </category>
       <category xml:id="advcl_svc">
          <catDesc xml:lang="en"><term>advcl:svc</term>: adverbial infinitive</catDesc>
@@ -151,7 +196,7 @@
          <catDesc xml:lang="en"><term>advmod:mode</term>: adverbial modifier</catDesc>
       </category>
       <category xml:id="advmod_neg">
-         <catDesc xml:lang="en"><term>advmod:neg</term>: adverbial polarity (negative) modifier</catDesc>
+         <catDesc xml:lang="en"><term>advmod:neg</term>: negation word</catDesc>
       </category>
       <category xml:id="advmod_obl">
          <catDesc xml:lang="en"><term>advmod:obl</term>: contracted advmod and oblique nominal</catDesc>
@@ -173,6 +218,9 @@
       </category>
       <category xml:id="advmod_tto">
          <catDesc xml:lang="en"><term>advmod:tto</term>: adverbial modifier till when</catDesc>
+      </category>
+      <category xml:id="advmod_verb">
+         <catDesc xml:lang="en"><term>advmod:verb</term>: adverbial modifier is a verb</catDesc>
       </category>
    </category>
    <category xml:id="amod">
@@ -267,6 +315,9 @@
       <category xml:id="case_pred">
          <catDesc xml:lang="en"><term>case:pred</term>: predicative particles</catDesc>
       </category>
+      <category xml:id="case_sim">
+         <catDesc xml:lang="en"><term>case:sim</term>: standard marker in comparision</catDesc>
+      </category>
       <category xml:id="case_voc">
          <catDesc xml:lang="en"><term>case:voc</term>: vocative particle</catDesc>
       </category>
@@ -297,11 +348,23 @@
       <category xml:id="ccomp_pred">
          <catDesc xml:lang="en"><term>ccomp:pred</term>: clausal complement (predicative)</catDesc>
       </category>
+      <category xml:id="ccomp_purp">
+         <catDesc xml:lang="en"><term>ccomp:purp</term>: a clausal complement that is a purposive</catDesc>
+      </category>
+      <category xml:id="ccomp_quote">
+         <catDesc xml:lang="en"><term>ccomp:quote</term>: a clausal complement consisting of direct speech</catDesc>
+      </category>
+      <category xml:id="ccomp_rel">
+         <catDesc xml:lang="en"><term>ccomp:rel</term>: relative clause as core argument</catDesc>
+      </category>
       <category xml:id="ccomp_relcl">
          <catDesc xml:lang="en"><term>ccomp:relcl</term>: double pronoun construction or free relative acting as object</catDesc>
       </category>
       <category xml:id="ccomp_reported">
          <catDesc xml:lang="en"><term>ccomp:reported</term>: reported speech from active verb of saying or digression in discursive form</catDesc>
+      </category>
+      <category xml:id="ccomp_speech">
+         <catDesc xml:lang="en"><term>ccomp:speech</term>: direct quotation</catDesc>
       </category>
    </category>
    <category xml:id="clf">
@@ -330,6 +393,9 @@
       <category xml:id="compound_atov">
          <catDesc xml:lang="en"><term>compound:atov</term>: adjective and verb compound</catDesc>
       </category>
+      <category xml:id="compound_coord">
+         <catDesc xml:lang="en"><term>compound:coord</term>: non-final member of a coordinate compound</catDesc>
+      </category>
       <category xml:id="compound_dir">
          <catDesc xml:lang="en"><term>compound:dir</term>: directional verb compound</catDesc>
       </category>
@@ -338,6 +404,9 @@
       </category>
       <category xml:id="compound_lvc">
          <catDesc xml:lang="en"><term>compound:lvc</term>: light verb construction</catDesc>
+      </category>
+      <category xml:id="compound_name">
+         <catDesc xml:lang="en"><term>compound:name</term>: left-of-head member of multi-word name</catDesc>
       </category>
       <category xml:id="compound_nn">
          <catDesc xml:lang="en"><term>compound:nn</term>: noun compound modifier</catDesc>
@@ -396,6 +465,9 @@
    </category>
    <category xml:id="cop">
       <catDesc xml:lang="en"><term>cop</term>: copula</catDesc>
+      <category xml:id="cop_emph">
+         <catDesc xml:lang="en"><term>cop:emph</term>: emphasizing copula</catDesc>
+      </category>
       <category xml:id="cop_expl">
          <catDesc xml:lang="en"><term>cop:expl</term>: copula with expletive subject</catDesc>
       </category>
@@ -413,6 +485,9 @@
       <catDesc xml:lang="en"><term>csubj</term>: clausal subject</catDesc>
       <category xml:id="csubj_asubj">
          <catDesc xml:lang="en"><term>csubj:asubj</term>: clausal subject: Adjective subject</catDesc>
+      </category>
+      <category xml:id="csubj_caus">
+         <catDesc xml:lang="en"><term>csubj:caus</term>: clausal causative subject</catDesc>
       </category>
       <category xml:id="csubj_cleft">
          <catDesc xml:lang="en"><term>csubj:cleft</term>: relative clause modifier</catDesc>
@@ -599,7 +674,7 @@
       <catDesc xml:lang="en"><term>fixed</term>: fixed multiword expression</catDesc>
    </category>
    <category xml:id="flat">
-      <catDesc xml:lang="en"><term>flat</term>: flat multiword expression</catDesc>
+      <catDesc xml:lang="en"><term>flat</term>: flat expression</catDesc>
       <category xml:id="flat_abs">
          <catDesc xml:lang="en"><term>flat:abs</term>: clausal absolutive</catDesc>
       </category>
@@ -628,7 +703,7 @@
          <catDesc xml:lang="en"><term>flat:range</term>: range</catDesc>
       </category>
       <category xml:id="flat_redup">
-         <catDesc xml:lang="en"><term>flat:redup</term>: flat multiword expression: alliterative expressions</catDesc>
+         <catDesc xml:lang="en"><term>flat:redup</term>: reduplication</catDesc>
       </category>
       <category xml:id="flat_repeat">
          <catDesc xml:lang="en"><term>flat:repeat</term>: repetition</catDesc>
@@ -675,6 +750,9 @@
       <category xml:id="mark_aff">
          <catDesc xml:lang="en"><term>mark:aff</term>: affix marker</catDesc>
       </category>
+      <category xml:id="mark_int">
+         <catDesc xml:lang="en"><term>mark:int</term>: interrogative</catDesc>
+      </category>
       <category xml:id="mark_pcomp">
          <catDesc xml:lang="en"><term>mark:pcomp</term>: marker for the purpose clause</catDesc>
       </category>
@@ -689,6 +767,9 @@
       </category>
       <category xml:id="mark_rel">
          <catDesc xml:lang="en"><term>mark:rel</term>: adjectival, relativizer, and nominalizer 的 DE</catDesc>
+      </category>
+      <category xml:id="mark_sim">
+         <catDesc xml:lang="en"><term>mark:sim</term>: clausal comparison marker</catDesc>
       </category>
    </category>
    <category xml:id="neg">
@@ -723,6 +804,9 @@
       <category xml:id="nmod_comp">
          <catDesc xml:lang="en"><term>nmod:comp</term>: comparative modifier of an adjective or adverb</catDesc>
       </category>
+      <category xml:id="nmod_desc">
+         <catDesc xml:lang="en"><term>nmod:desc</term>: descriptor modifier in nominal</catDesc>
+      </category>
       <category xml:id="nmod_det">
          <catDesc xml:lang="en"><term>nmod:det</term>: determinative</catDesc>
       </category>
@@ -742,7 +826,7 @@
          <catDesc xml:lang="en"><term>nmod:lfrom</term>: advmod with locative to modality</catDesc>
       </category>
       <category xml:id="nmod_lmod">
-         <catDesc xml:lang="en"><term>nmod:lmod</term>: nominal with locative modality</catDesc>
+         <catDesc xml:lang="en"><term>nmod:lmod</term>: noun modifier that describes the position/location relative to its parent noun</catDesc>
       </category>
       <category xml:id="nmod_npmod">
          <catDesc xml:lang="en"><term>nmod:npmod</term>: noun phrase as adverbial modifier</catDesc>
@@ -750,14 +834,20 @@
       <category xml:id="nmod_obj">
          <catDesc xml:lang="en"><term>nmod:obj</term>: nominative object</catDesc>
       </category>
+      <category xml:id="nmod_obl">
+         <catDesc xml:lang="en"><term>nmod:obl</term>: nominal modifier in oblique case</catDesc>
+      </category>
       <category xml:id="nmod_part">
          <catDesc xml:lang="en"><term>nmod:part</term>: nominal modifier indicating part-whole relations</catDesc>
       </category>
       <category xml:id="nmod_poss">
          <catDesc xml:lang="en"><term>nmod:poss</term>: possessive nominal modifier</catDesc>
       </category>
+      <category xml:id="nmod_pre">
+         <catDesc xml:lang="en"><term>nmod:pre</term>: preposed genitive</catDesc>
+      </category>
       <category xml:id="nmod_pred">
-         <catDesc xml:lang="en"><term>nmod:pred</term>: predicative expression</catDesc>
+         <catDesc xml:lang="en"><term>nmod:pred</term>: nominal first member in *bahuvrīhi* compound</catDesc>
       </category>
       <category xml:id="nmod_prep">
          <catDesc xml:lang="en"><term>nmod:prep</term>: prepositional pronouns</catDesc>
@@ -791,6 +881,9 @@
       </category>
       <category xml:id="nsubj_cleft">
          <catDesc xml:lang="en"><term>nsubj:cleft</term>: nominal residual subject of a cleft sentence</catDesc>
+      </category>
+      <category xml:id="nsubj_contrast">
+         <catDesc xml:lang="en"><term>nsubj:contrast</term>: nsubj:contrast</catDesc>
       </category>
       <category xml:id="nsubj_cop">
          <catDesc xml:lang="en"><term>nsubj:cop</term>: nominal copular subject</catDesc>
@@ -831,6 +924,9 @@
       <category xml:id="nsubj_quasi">
          <catDesc xml:lang="en"><term>nsubj:quasi</term>: quasi subject</catDesc>
       </category>
+      <category xml:id="nsubj_situation">
+         <catDesc xml:lang="en"><term>nsubj:situation</term>: nsubj:situation</catDesc>
+      </category>
       <category xml:id="nsubj_x">
          <catDesc xml:lang="en"><term>nsubj:x</term>: controlling subject (enhanced dependency)</catDesc>
       </category>
@@ -841,7 +937,7 @@
    <category xml:id="nummod">
       <catDesc xml:lang="en"><term>nummod</term>: numeric modifier</catDesc>
       <category xml:id="nummod_det">
-         <catDesc xml:lang="en"><term>nummod:det</term>: numeric determiner</catDesc>
+         <catDesc xml:lang="en"><term>nummod:det</term>: numeric is determiner</catDesc>
       </category>
       <category xml:id="nummod_entity">
          <catDesc xml:lang="en"><term>nummod:entity</term>: numeric modifier governed by a noun</catDesc>
@@ -872,6 +968,12 @@
       </category>
       <category xml:id="obj_caus">
          <catDesc xml:lang="en"><term>obj:caus</term>: agentive object in causative construction</catDesc>
+      </category>
+      <category xml:id="obj_infx">
+         <catDesc xml:lang="en"><term>obj:infx</term>: infixed pronouns</catDesc>
+      </category>
+      <category xml:id="obj_lo">
+         <catDesc xml:lang="en"><term>obj:lo</term>: local object</catDesc>
       </category>
       <category xml:id="obj_lvc">
          <catDesc xml:lang="en"><term>obj:lvc</term>: object in a light-verb construction</catDesc>
@@ -906,6 +1008,9 @@
       <category xml:id="obl_arg">
          <catDesc xml:lang="en"><term>obl:arg</term>: oblique argument</catDesc>
       </category>
+      <category xml:id="obl_benef">
+         <catDesc xml:lang="en"><term>obl:benef</term>: benefactive/malefactive oblique argument</catDesc>
+      </category>
       <category xml:id="obl_cau">
          <catDesc xml:lang="en"><term>obl:cau</term>: oblique with causative modality</catDesc>
       </category>
@@ -921,11 +1026,26 @@
       <category xml:id="obl_dat">
          <catDesc xml:lang="en"><term>obl:dat</term>: dative argument</catDesc>
       </category>
+      <category xml:id="obl_depict">
+         <catDesc xml:lang="en"><term>obl:depict</term>: depictive oblique modifier</catDesc>
+      </category>
+      <category xml:id="obl_float">
+         <catDesc xml:lang="en"><term>obl:float</term>: oblique as a floating modifier</catDesc>
+      </category>
       <category xml:id="obl_freq">
          <catDesc xml:lang="en"><term>obl:freq</term>: oblique with frequentative modality</catDesc>
       </category>
+      <category xml:id="obl_goal">
+         <catDesc xml:lang="en"><term>obl:goal</term>: oblique argument expressing the goal</catDesc>
+      </category>
+      <category xml:id="obl_grad">
+         <catDesc xml:lang="en"><term>obl:grad</term>: oblique argument denoting the standard in a comparison</catDesc>
+      </category>
       <category xml:id="obl_inst">
          <catDesc xml:lang="en"><term>obl:inst</term>: oblique instrument</catDesc>
+      </category>
+      <category xml:id="obl_instr">
+         <catDesc xml:lang="en"><term>obl:instr</term>: oblique argument expressing the instrument</catDesc>
       </category>
       <category xml:id="obl_iobj">
          <catDesc xml:lang="en"><term>obl:iobj</term>: oblique nominal for verb means "to give"</catDesc>
@@ -945,6 +1065,9 @@
       <category xml:id="obl_lvc">
          <catDesc xml:lang="en"><term>obl:lvc</term>: oblique nominal in a light-verb construction</catDesc>
       </category>
+      <category xml:id="obl_manner">
+         <catDesc xml:lang="en"><term>obl:manner</term>: oblique argument expressing the manner</catDesc>
+      </category>
       <category xml:id="obl_mcl">
          <catDesc xml:lang="en"><term>obl:mcl</term>: obl indicating manner</catDesc>
       </category>
@@ -963,6 +1086,9 @@
       <category xml:id="obl_own">
          <catDesc xml:lang="en"><term>obl:own</term>: owner in possessive existential clauses</catDesc>
       </category>
+      <category xml:id="obl_path">
+         <catDesc xml:lang="en"><term>obl:path</term>: oblique argument expressing the path</catDesc>
+      </category>
       <category xml:id="obl_patient">
          <catDesc xml:lang="en"><term>obl:patient</term>: object in ZOENG construction</catDesc>
       </category>
@@ -975,17 +1101,29 @@
       <category xml:id="obl_prep">
          <catDesc xml:lang="en"><term>obl:prep</term>: prepositional pronouns</catDesc>
       </category>
+      <category xml:id="obl_pronmod">
+         <catDesc xml:lang="en"><term>obl:pronmod</term>: pronominal modifier</catDesc>
+      </category>
       <category xml:id="obl_sentcon">
          <catDesc xml:lang="en"><term>obl:sentcon</term>: sentence-initial discourse connective</catDesc>
       </category>
       <category xml:id="obl_smod">
          <catDesc xml:lang="en"><term>obl:smod</term>: oblique spatial modifier</catDesc>
       </category>
+      <category xml:id="obl_soc">
+         <catDesc xml:lang="en"><term>obl:soc</term>: oblique argument expressing the accompaniment</catDesc>
+      </category>
+      <category xml:id="obl_source">
+         <catDesc xml:lang="en"><term>obl:source</term>: oblique argument expressing the source</catDesc>
+      </category>
       <category xml:id="obl_subj">
          <catDesc xml:lang="en"><term>obl:subj</term>: NP-related subject</catDesc>
       </category>
       <category xml:id="obl_tmod">
          <catDesc xml:lang="en"><term>obl:tmod</term>: temporal modifier</catDesc>
+      </category>
+      <category xml:id="obl_verb">
+         <catDesc xml:lang="en"><term>obl:verb</term>: oblique verb</catDesc>
       </category>
       <category xml:id="obl_with">
          <catDesc xml:lang="en"><term>obl:with</term>: oblique nominal to answer "with whom"</catDesc>
@@ -1003,10 +1141,7 @@
          <catDesc xml:lang="en"><term>parataxis:appos</term>: paratactic apposition</catDesc>
       </category>
       <category xml:id="parataxis_conj">
-         <catDesc xml:lang="en"><term>parataxis:conj</term>: juxtaposed clause</catDesc>
-      </category>
-      <category xml:id="parataxis_coord">
-         <catDesc xml:lang="en"><term>parataxis:coord</term>: coordinating parataxis</catDesc>
+         <catDesc xml:lang="en"><term>parataxis:conj</term>: coordinating parataxis</catDesc>
       </category>
       <category xml:id="parataxis_deletion">
          <catDesc xml:lang="en"><term>parataxis:deletion</term>: loosely connected clause because of deletion</catDesc>
@@ -1021,7 +1156,7 @@
          <catDesc xml:lang="en"><term>parataxis:hashtag</term>: paratactic hashtag</catDesc>
       </category>
       <category xml:id="parataxis_insert">
-         <catDesc xml:lang="en"><term>parataxis:insert</term>: parenthetical clause or comment</catDesc>
+         <catDesc xml:lang="en"><term>parataxis:insert</term>: parataxis insert</catDesc>
       </category>
       <category xml:id="parataxis_mod">
          <catDesc xml:lang="en"><term>parataxis:mod</term>: parataxis:mod</catDesc>
@@ -1056,6 +1191,15 @@
       <category xml:id="parataxis_sentence">
          <catDesc xml:lang="en"><term>parataxis:sentence</term>: sentence</catDesc>
       </category>
+      <category xml:id="parataxis_shared">
+         <catDesc xml:lang="en"><term>parataxis:shared</term>: parataxis with shared arguments</catDesc>
+      </category>
+      <category xml:id="parataxis_speaker">
+         <catDesc xml:lang="en"><term>parataxis:speaker</term>: backgrounded actor initiating a direct discourse</catDesc>
+      </category>
+      <category xml:id="parataxis_speech">
+         <catDesc xml:lang="en"><term>parataxis:speech</term>: reported speech</catDesc>
+      </category>
       <category xml:id="parataxis_trans">
          <catDesc xml:lang="en"><term>parataxis:trans</term>: translation pair</catDesc>
       </category>
@@ -1086,6 +1230,9 @@
       <category xml:id="xcomp_adj">
          <catDesc xml:lang="en"><term>xcomp:adj</term>: open clausal complement for adjective</catDesc>
       </category>
+      <category xml:id="xcomp_advmod">
+         <catDesc xml:lang="en"><term>xcomp:advmod</term>: a verb play role as an advmod for another verb</catDesc>
+      </category>
       <category xml:id="xcomp_cleft">
          <catDesc xml:lang="en"><term>xcomp:cleft</term>: required open dependent of the pronoun _to_</catDesc>
       </category>
@@ -1103,6 +1250,9 @@
       </category>
       <category xml:id="xcomp_relcl">
          <catDesc xml:lang="en"><term>xcomp:relcl</term>: double pronoun construction or free relative acting as complement clause</catDesc>
+      </category>
+      <category xml:id="xcomp_result">
+         <catDesc xml:lang="en"><term>xcomp:result</term>: resultative</catDesc>
       </category>
       <category xml:id="xcomp_subj">
          <catDesc xml:lang="en"><term>xcomp:subj</term>: infinitival and adverbial subjects</catDesc>
