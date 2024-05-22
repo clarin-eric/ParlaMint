@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2024-03-04T10:45:58Z. 2024-03-03.
+Schema generated from ODD source 2024-04-08T18:37:43Z. 2024-03-03.
 TEI Edition: Version 4.6.0a. Last updated on
         5th January 2023, revision 9074b9038
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0a./
@@ -402,6 +402,16 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0a./
                </data>
                <data type="decimal"/>
             </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.segLike.attribute.function">
+      <optional>
+         <attribute name="function">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(function) characterizes the function of the segment.</a:documentation>
+            <data type="token">
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
+            </data>
          </attribute>
       </optional>
    </define>
@@ -1683,6 +1693,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
+         <ref name="tei_att.global.linking.attribute.corresp"/>
          <optional>
             <attribute name="reason">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -1957,6 +1968,7 @@ Measures]</a:documentation>
          <text/>
          <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.xmllang"/>
+         <ref name="tei_att.global.linking.attribute.corresp"/>
          <ref name="tei_att.typed.attribute.type"/>
          <empty/>
       </element>
@@ -1974,6 +1986,7 @@ Measures]</a:documentation>
          <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
+         <ref name="tei_att.global.linking.attribute.corresp"/>
          <ref name="tei_att.typed.attribute.subtype"/>
          <optional>
             <attribute name="type">
@@ -2978,6 +2991,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
+         <ref name="tei_att.global.linking.attribute.corresp"/>
          <ref name="tei_att.ascribed.attribute.who"/>
          <ref name="tei_att.typed.attribute.subtype"/>
          <optional>
@@ -3021,6 +3035,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
+         <ref name="tei_att.global.linking.attribute.corresp"/>
          <ref name="tei_att.typed.attribute.subtype"/>
          <ref name="tei_att.ascribed.attribute.who"/>
          <optional>
@@ -3062,6 +3077,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
+         <ref name="tei_att.global.linking.attribute.corresp"/>
          <ref name="tei_att.typed.attribute.subtype"/>
          <ref name="tei_att.ascribed.attributes"/>
          <optional>
@@ -4229,6 +4245,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <ref name="tei_att.global.analytic.attribute.ana"/>
+         <ref name="tei_att.segLike.attribute.function"/>
          <ref name="tei_att.linguistic.attributes"/>
          <empty/>
       </element>
@@ -4239,6 +4256,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <text/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <ref name="tei_att.global.analytic.attribute.ana"/>
+         <ref name="tei_att.segLike.attribute.function"/>
          <ref name="tei_att.linguistic.attribute.pos"/>
          <ref name="tei_att.linguistic.attribute.join"/>
          <ref name="tei_att.lexicographic.normalized.attribute.norm"/>

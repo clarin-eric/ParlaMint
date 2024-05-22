@@ -13,9 +13,9 @@
     exclude-result-prefixes="fn et tei xs xi"
     version="2.0">
 
-    <xsl:import href="parlamint-lib.xsl"/>
-    
-    <xsl:output method="text" encoding="utf-8"/>
+  <xsl:import href="parlamint-lib.xsl"/>
+  
+  <xsl:output method="text" encoding="utf-8"/>
   
   <xsl:template match="tei:TEI">
     <xsl:message select="concat('INFO: Converting ', @xml:id, ' to metadata TSV')"/>
@@ -68,9 +68,9 @@
     <xsl:variable name="speaker" select="key('idr', @who, $rootHeader)"/>
     <xsl:choose>
       <xsl:when test="not(@who or normalize-space($speaker))">
-	<xsl:if test="@who and not(normalize-space($speaker))">
+        <xsl:if test="@who and not(normalize-space($speaker))">
           <xsl:message select="concat('ERROR: Cant find speaker for ', @who, ' in ', @xml:id)"/>
-	</xsl:if>
+        </xsl:if>
         <xsl:text>-&#9;</xsl:text>
         <xsl:text>-&#9;</xsl:text>
         <xsl:text>-&#9;</xsl:text>
@@ -91,22 +91,11 @@
         <xsl:value-of select="concat(et:party-orientation($speaker), '&#9;')"/>
         <xsl:value-of select="concat(substring-after(@who, '#'), '&#9;')"/>
         <xsl:value-of select="concat(et:format-name-chrono($speaker//tei:persName, $at-date), '&#9;')"/>
-        <xsl:choose>
-          <xsl:when test="$speaker/tei:sex">
-	    <xsl:value-of select="$speaker/tei:sex/@value"/>
-          </xsl:when>
-          <xsl:otherwise>-</xsl:otherwise>
-        </xsl:choose>
-        <xsl:text>&#9;</xsl:text>
-        <xsl:choose>
-          <xsl:when test="$speaker/tei:birth">
-	    <xsl:value-of select="replace($speaker/tei:birth/@when, '-.+', '')"/>
-          </xsl:when>
-          <xsl:otherwise>-</xsl:otherwise>
-        </xsl:choose>
+        <xsl:value-of select="concat(et:tsv-value($speaker/tei:sex/@value), '&#9;')"/>
+        <xsl:value-of select="concat(et:tsv-value(replace($speaker/tei:birth/@when, '-.+', '')), '&#9;')"/>
       </xsl:otherwise>
     </xsl:choose>
-    <!-- Speech sizes -->
+    <!-- Speech sizes? -->
     <!--xsl:value-of select="count(.//tei:w) + count(.//tei:pc)"/-->
     <xsl:text>&#10;</xsl:text>
   </xsl:template>

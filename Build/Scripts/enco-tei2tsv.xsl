@@ -9,6 +9,8 @@
   exclude-result-prefixes="#all"
   version="2.0">
 
+  <xsl:import href="parlamint-lib.xsl"/>
+
   <xsl:output method="text"/>
 
   <!-- Top level listOrg/@xml:id should contain name of country or region -->
@@ -87,11 +89,11 @@
 	</xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-    <xsl:value-of select="et:output(replace($state/tei:state/@ana, '.+?\.', ''))"/>
+    <xsl:value-of select="et:tsv-value(replace($state/tei:state/@ana, '.+?\.', ''))"/>
     <xsl:text>&#9;</xsl:text>
     <xsl:choose>
       <xsl:when test="$state/tei:state/@source">
-	<xsl:value-of select="et:output(replace($state/tei:state/@source, '#', ''))"/>
+	<xsl:value-of select="et:tsv-value(replace($state/tei:state/@source, '#', ''))"/>
       </xsl:when>
       <xsl:when test="$country = 'BE' and $state/tei:state">GrietDepoorter</xsl:when>
       <xsl:when test="$country = 'PT' and $state/tei:state">AmáliaMendes</xsl:when>
@@ -104,17 +106,8 @@
       </xsl:otherwise>
     </xsl:choose>
     <xsl:text>&#9;</xsl:text>
-    <xsl:value-of select="et:output($state/tei:state/tei:note)"/>
+    <xsl:value-of select="et:tsv-value($state/tei:state/tei:note)"/>
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
 
-  <xsl:function name="et:output">
-    <xsl:param name="input"/>
-    <xsl:choose>
-      <xsl:when test="normalize-space($input)">
-        <xsl:value-of select="$input"/>
-      </xsl:when>
-      <xsl:otherwise>-</xsl:otherwise>
-    </xsl:choose>
-  </xsl:function>
 </xsl:stylesheet>

@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-ES-PV-en_2019-12-20.ana" xml:lang="en" ana="#parla.sitting #reference" corresp="../../ParlaMint-ES-PV.TEI.ana/2019/ParlaMint-ES-PV_2019-12-20.ana.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" type="main">Basque parliamentary corpus ParlaMint-ES-PV-en, 2019-12-20 [ParlaMint-en.ana SAMPLE]</title>
+            <title xml:lang="eu" type="main">Eusko Legebiltzarraren corpus ParlaMint-ES-PV-en, 2019-12-20 [ParlaMint-en.ana SAMPLE]</title>
+            <meeting corresp="#ES-PV" ana="#parla.uni #parla.sitting" n="2019-12-20">2019-12-20</meeting>
+            <meeting corresp="#ES-PV" ana="#parla.uni #parla.session" n="1385-1390">Osoko Bilkura 1385-1390</meeting>
+            <meeting corresp="#ES-PV" ana="#parla.uni #parla.term #ES-PV.11" n="XI">Legegintzaldia XI</meeting>
+            <respStmt>
+               <persName>Jon Alkorta</persName>
+               <persName>Mikel Iruskieta</persName>
+               <persName>Kike Fernandez</persName>
+               <resp xml:lang="eu">Informazio erauzketa eta TEI bihurketa</resp>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Taja Kuzman</persName>
+               <persName>Nikola Ljubešić</persName>
+               <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Paul Rayson</persName>
+               <persName>Matthew Coole</persName>
+               <persName>John Vidler</persName>
+               <resp xml:lang="en">Annotating MTed corpora with USAS semantic tags</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="eu">IXA Taldea</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="99" xml:lang="eu">99 speeches</measure>
+            <measure unit="words" quantity="41783" xml:lang="eu">41,783 (aprox)</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="eu">IXA Taldea</orgName>
+               <orgName xml:lang="eu">CLARIN ikerkuntza azpiegitura</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI">https://github.com/clarin-eric/ParlaMint</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2024-01-23">2024-01-23</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title xml:lang="eu" type="main">Eusko legebiltzarra Bilkura-egunkaria 2019-12-20</title>
+               <idno type="URI" subtype="parliament">https://www.legebiltzarra.eus</idno>
+               <date when="2019-12-20">2019-12-20</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="es"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="name" occurs="1097"/>
+               <tagUsage gi="note" occurs="110"/>
+               <tagUsage gi="pc" occurs="6313"/>
+               <tagUsage gi="phr" occurs="2076"/>
+               <tagUsage gi="s" occurs="1966"/>
+               <tagUsage gi="seg" occurs="687"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="99"/>
+               <tagUsage gi="w" occurs="41783"/>
+            </namespace>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef ident="mt-src" matchPattern="(.+)" replacementPattern="../../ParlaMint-ES-PV.TEI.ana/2019/ParlaMint-ES-PV_2019-12-20.ana.xml#$1">
+               <p>Private URIs with this prefix point to aligned source elements of the MTed corpus.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Eusko Legebiltzarra</name>
+               <name type="address">Becerro de Bengoa kalea</name>
+               <name type="city">Vitoria-Gasteiz</name>
+               <name key="ES-PV" type="country">Basque Country, Spain</name>
+               <date ana="#parla.sitting" when="2019-12-20">2019-12-20</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-01-23">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection" xml:lang="en">
+            <note type="speaker" xml:id="ParlaMint-ES-PV_2019-12-20.ana.note1" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.ana.note1">DEGREES (Elegia Otermin):</note>
+            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2019-12-20.u0" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.u0">
+               <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg1" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg1">
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg1.s1" n="1" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg1.s1">
+                     <phr type="sem" function="Z4" ana="sem:Z4">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg1.s1.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="good" function="Z4" ana="sem:Z4">Good</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg1.s1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="morning" function="Z4" ana="sem:Z4" join="right">morning</w>
+                     </phr>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg1.s1.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg1.s1.t4" pos="NN" msd="UPosTag=PRON|Number=Sing" lemma="everyone" function="Z8/N5.1+c" ana="sem:Z8 sem:N5.1p" join="right">everyone</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg1.s1.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg1.s2" n="2" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg1.s2">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg1.s2.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8" join="right">We</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg1.s2.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">'ll</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg1.s2.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="start" function="T2+,E5-,E3-" ana="sem:T2p">start</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg1.s2.t4" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg1.s2.t5" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="whole" function="N5.1+" ana="sem:N5.1p">whole</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg1.s2.t6" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="meeting" function="S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+" ana="sem:S1.1.3p" join="right">meeting</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg1.s2.t7" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg2" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg2">
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s1" n="1" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg2.s1">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s1.t1" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="precede" function="N4" ana="sem:N4">Preceding</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="theme" function="X4.1,K2,Q1.2,Q3" ana="sem:X4.1" join="right">theme</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s1.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">:</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2" n="2" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg2.s2">
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">"</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="mortion" function="Z99" ana="sem:Z99" join="right">Mortion</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t4" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="introduce" function="S1.1.1,T2+" ana="sem:S1.1.1">introduced</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t5" pos="IN" msd="UPosTag=ADP" lemma="by" function="Z5" ana="sem:Z5">by</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t6" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Ibañez" function="Z99" ana="sem:Z99" join="right">Ibañez</w>
+                     </name>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t7" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t8" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t9" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="member" function="S5+/S2mf,B1" ana="sem:S5p sem:S2">member</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t10" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t11" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t12" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="KRGGG" function="Z99" ana="sem:Z99" join="right">KRGGG</w>
+                     </name>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t13" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t14" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="concern" function="E6-,A1.8+,S1.1.3+" ana="sem:E6n">concerning</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t15" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t16" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="retreat" function="M1,G3,A1.9,A15+/M7,A10-,E3+" ana="sem:M1">retreat</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t17" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t18" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t19" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="social" function="S1.1.1" ana="sem:S1.1.1">social</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t20" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="barrier" function="Z2,Z3c" ana="sem:Z2">barrier</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t21" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z2,Z3c" ana="sem:Z2">of</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t22" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="EAE" function="Z2,Z3c" ana="sem:Z2" join="right">EAE</w>
+                     </name>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s2.t23" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3" n="3" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg2.s3">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t1" pos="IN" msd="UPosTag=ADP" lemma="with" function="Z5" ana="sem:Z5">With</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="respect" function="S7.2+,A4.1" ana="sem:S7.2p">respect</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t3" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t4" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="motive" function="A2.2" ana="sem:A2.2" join="right">motive</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t7" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t8" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="make" function="A1.1.1,A9+,A2.2,S6+,A3+,A9-,X9.2+,X6+" ana="sem:A1.1.1">make</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t9" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="sure" function="A7+,Z4" ana="sem:A7p">sure</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t10" pos="RB" msd="UPosTag=ADV|NumType=Mult" lemma="once" function="N6-,T1.1.1" ana="sem:N6n">once</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t11" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t12" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t13" pos="DT" msd="UPosTag=DET" lemma="all" function="N5.1+" ana="sem:N5.1p" join="right">all</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t15" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t16" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="drawing" function="C1" ana="sem:C1">drawings</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t17" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t18" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <phr type="sem" function="T1.2" ana="sem:T1.2">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t19" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="entire" function="T1.2" ana="sem:T1.2">entire</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t20" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="December" function="T1.2" ana="sem:T1.2">December</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t21" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="12" function="T1.2" ana="sem:T1.2" join="right">12</w>
+                     </phr>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t22" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t23" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="follow" function="M1,N4,S7.1-,X2.4,X2.5+,A6.1+,A1.1.1,A2.2,K5.1" ana="sem:M1">followed</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t24" pos="IN" msd="UPosTag=ADP" lemma="by" function="Z5" ana="sem:Z5">by</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t25" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t26" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="92.1" function="N1" ana="sem:N1">92.1</w>
+                     <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t27" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="article" function="Df/A5.1+++mfnc" ana="sem:A5.1p">article</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t28" pos="IN" msd="UPosTag=ADP" lemma="of" function="Df/A5.1+++mfnc" ana="sem:A5.1p">of</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t29" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Df/A5.1+++mfnc" ana="sem:A5.1p">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t30" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="ruler" function="Df/A5.1+++mfnc" ana="sem:A5.1p" join="right">Ruler</w>
+                     </phr>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t31" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">.</pc>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg2.s3.t32" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">"</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg3" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg3">
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1" n="1" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg3.s1">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t2" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t3" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t4" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="draw" function="A1.4,K5.1,O4.2+" ana="sem:A1.4">draw</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t5" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t6" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="vote" function="G1.2" ana="sem:G1.2">vote</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t8" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t9" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t10" pos="JJ" msd="UPosTag=ADJ|Degree=Pos|Polarity=Neg" lemma="universal" function="W3,M7,A1.8+,N5.1+,X2.2,A5.2+" ana="sem:W3">universal</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t11" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="correction" function="A5.3+/A2.1" ana="sem:A5.3p sem:A2.1">corrections</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t12" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="introduce" function="S1.1.1,T2+" ana="sem:S1.1.1">introduced</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t13" pos="IN" msd="UPosTag=ADP" lemma="by" function="Z5" ana="sem:Z5">by</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t14" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t15" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Euubertist" function="Z99" ana="sem:Z99">Euubertist</w>
+                     </name>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t16" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t17" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t18" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="sociialist" function="Z1mf,Z3c" ana="sem:Z1">Sociialist</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t19" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="basque" function="Z1mf,Z3c" ana="sem:Z1">Basque</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t20" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Society" function="Z1mf,Z3c" ana="sem:Z1">Society</w>
+                     </name>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t21" pos="RB" msd="UPosTag=ADV" lemma="together" function="S5+,T1.1.2,M6" ana="sem:S5p" join="right">together</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s1.t22" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2" n="2" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg3.s2">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2.t1" pos="VBG" msd="UPosTag=VERB|ExtPos=ADP|VerbForm=Ger" lemma="accord" function="A9-,A6.1+" ana="sem:A9n">According</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2.t2" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2.t4" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="92.1" function="N1" ana="sem:N1">92.1</w>
+                     <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="article" function="Df/A5.1+++mfnc" ana="sem:A5.1p">article</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2.t6" pos="IN" msd="UPosTag=ADP" lemma="of" function="Df/A5.1+++mfnc" ana="sem:A5.1p">of</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2.t7" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Df/A5.1+++mfnc" ana="sem:A5.1p">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2.t8" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="ruler" function="Df/A5.1+++mfnc" ana="sem:A5.1p" join="right">ruler</w>
+                     </phr>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2.t10" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">we</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2.t11" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">have</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2.t12" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2.t13" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="make" function="A1.1.1,A9+,A2.2,S6+,A3+,A9-,X9.2+,X6+" ana="sem:A1.1.1">make</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2.t14" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2.t15" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="vote" function="G1.2" ana="sem:G1.2">vote</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2.t16" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2.t17" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2.t18" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="correction" function="A5.3+/A2.1" ana="sem:A5.3p sem:A2.1">correction</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2.t19" pos="RB" msd="UPosTag=ADV" lemma="again" function="N6+,Z4" ana="sem:N6p" join="right">again</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg3.s2.t20" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg4" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg4">
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg4.s1" n="1" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg4.s1">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg4.s1.t1" pos="UH" msd="UPosTag=INTJ" lemma="please" function="E4.2+,E2+,X7+" ana="sem:E4.2p">Please</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg4.s1.t2" pos="VB" msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin" lemma="see" function="X3.4,X2.1,S1.1.1,X2.5+,X2.3+,X3,A7+,Z4,S3.2" ana="sem:X3.4">see</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg4.s1.t3" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg4.s1.t4" pos="NN" msd="UPosTag=PRON|Number=Sing" lemma="everything" function="Z8/N5.1+" ana="sem:Z8 sem:N5.1p">everything</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg4.s1.t5" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg4.s1.t6" pos="RB" msd="UPosTag=ADV" lemma="all" function="A13.2" ana="sem:A13.2">all</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg4.s1.t7" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="right" function="A5.3+,A4.2+,A1.2+,G2.2+,M6,N3.2+,A13.3,A13.2" ana="sem:A5.3p">right</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg4.s1.t8" pos="IN" msd="UPosTag=SCONJ" lemma="before" function="Z5" ana="sem:Z5">before</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg4.s1.t9" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">we</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg4.s1.t10" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="start" function="T2+,E5-,E3-" ana="sem:T2p" join="right">start</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg4.s1.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg4.s2" n="2" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg4.s2">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg4.s2.t1" pos="RB" msd="UPosTag=ADV|PronType=Dem" lemma="then" function="N4,Z5,T1.2" ana="sem:N4">Then</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg4.s2.t2" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">we</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg4.s2.t3" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="can" function="A7+" ana="sem:A7p">can</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg4.s2.t4" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="vote" function="G1.2" ana="sem:G1.2" join="right">vote</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg4.s2.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg5" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg5">
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s1" n="1" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg5.s1">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s1.t1" pos="IN" msd="UPosTag=ADP" lemma="after" function="Z5" ana="sem:Z5">After</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s1.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s1.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="vote" function="G1.2" ana="sem:G1.2" join="right">vote</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s1.t4" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s1.t5" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s1.t6" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="result" function="A2.2,X9.2,N2,A5.1,K5,Q1.1/A2.2" ana="sem:A2.2">result</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s1.t7" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s1.t8" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6" join="right">this</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s1.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">:</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s2" n="2" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg5.s2">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s2.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s2.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="vote" function="G1.2" ana="sem:G1.2">votes</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s2.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="give" function="A9-,A1.1.1" ana="sem:A9n" join="right">given</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s2.t4" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s2.t5" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="72" function="N1" ana="sem:N1" join="right">72</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s2.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">;</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s2.t7" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s2.t8" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="supporter" function="S8+/S2mf,K5.1/S2mf,Q1.1%" ana="sem:S8p sem:S2">supporters</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s2.t9" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s2.t10" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="36" function="N1" ana="sem:N1" join="right">36</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s2.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">;</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s2.t12" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s2.t13" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="contrary" function="A6.1-" ana="sem:A6.1n" join="right">contrary</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s2.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s2.t15" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="36" function="N1" ana="sem:N1" join="right">36</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s2.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">;</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s2.t17" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s2.t18" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Absence" function="S1.1.3-,A3-" ana="sem:S1.1.3n" join="right">Absences</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg5.s2.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-ES-PV_2019-12-20.ana.note2" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.ana.note2">DEBABES:</note>
+            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2019-12-20.u1" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.u1">
+               <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg6" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg6">
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg6.s1" n="1" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg6.s1">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg6.s1.t1" pos="RB" msd="UPosTag=ADV" lemma="therefore" function="Z5" ana="sem:Z5" join="right">Therefore</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg6.s1.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg6.s1.t3" pos="IN" msd="UPosTag=SCONJ" lemma="since" function="Z5" ana="sem:Z5">since</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg6.s1.t4" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg6.s1.t5" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg6.s1.t6" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg6.s1.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="draw" function="A1.4,K5.1,O4.2+" ana="sem:A1.4" join="right">draw</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg6.s1.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg6.s1.t9" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg6.s1.t10" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="correction" function="Df/A5.1+++mfnc" ana="sem:A5.1p">correction</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg6.s1.t11" pos="IN" msd="UPosTag=ADP" lemma="of" function="Df/A5.1+++mfnc" ana="sem:A5.1p">of</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg6.s1.t12" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Df/A5.1+++mfnc" ana="sem:A5.1p">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg6.s1.t13" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="integer" function="Df/A5.1+++mfnc" ana="sem:A5.1p">integer</w>
+                     </phr>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg6.s1.t14" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg6.s1.t15" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="cancel" function="T2-" ana="sem:T2n" join="right">cancelled</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg6.s1.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg7" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg7">
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s1" n="1" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg7.s1">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s1.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos|NumType=Ord" lemma="first" function="N4" ana="sem:N4">First</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="point" function="Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5" ana="sem:Q2.1">point</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s1.t3" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s1.t4" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="theme" function="X4.1,K2,Q1.2,Q3" ana="sem:X4.1">theme</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s1.t5" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="list" function="Q1.2,N4,M4" ana="sem:Q1.2" join="right">list</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s1.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">:</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2" n="2" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg7.s2">
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">"</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="dispensation" function="S7.4+,A9-,S7.1+" ana="sem:S7.4p">dispensation</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t4" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t5" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t6" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Office" function="I2.1/H1c,I2.1/H2c,S7.1+,I3.1,S9,S8+" ana="sem:I2.1 sem:H1">Office</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t7" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t8" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="work" function="I3.1,A1.1.1,Q4,K2,C1" ana="sem:I3.1">Work</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t9" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t10" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Justice" function="G2.1/S2.2m" ana="sem:G2.1 sem:S2.2" join="right">Justice</w>
+                     </name>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t12" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="make" function="A1.1.1,A9+,A2.2,S6+,A3+,A9-,X9.2+,X6+" ana="sem:A1.1.1">made</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t13" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t14" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t15" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="bill" function="I1.3,G1.1,Q1.2,L2" ana="sem:I1.3">bill</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t16" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t17" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t18" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="basque" function="Z1mf,Z3c" ana="sem:Z1">Basque</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t19" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="commercial" function="Z1mf,Z3c" ana="sem:Z1">Commercial</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t20" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Commeracy" function="Z1mf,Z3c" ana="sem:Z1" join="right">Commeracies</w>
+                     </name>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s2.t21" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s3" n="3" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg7.s3">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s3.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="discipline" function="G2.1,A1.7+,P1" ana="sem:G2.1">Discipline</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s3.t2" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s3.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="final" function="N4,T2-" ana="sem:N4">final</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s3.t4" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="resolution" function="X6+,X9.2+" ana="sem:X6p" join="right">resolution</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg7.s3.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg8" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg8">
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg8.s1" n="1" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg8.s1">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg8.s1.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Mrs." function="Z1mf,Z3c" ana="sem:Z1">Mrs.</w>
+                     <name type="LOC">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg8.s1.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="San" function="Z1mf,Z3c" ana="sem:Z1">San</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg8.s1.t3" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="José" function="Z1mf,Z3c" ana="sem:Z1">José</w>
+                     </name>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg8.s1.t4" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">has</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg8.s1.t5" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg8.s1.t6" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="word" function="Q3,Q2.1,S9@" ana="sem:Q3">word</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg8.s1.t7" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg8.s1.t8" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="introduce" function="S1.1.1,T2+" ana="sem:S1.1.1">introduce</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg8.s1.t9" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">this</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg8.s1.t10" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="bill" function="I1.3,G1.1,Q1.2,L2" ana="sem:I1.3" join="right">bill</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg8.s1.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2019-12-20.u97" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.u97">
+               <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg682" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg682">
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg682.s1" n="1" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg682.s1">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg682.s1.t1" pos="RB" msd="UPosTag=ADV" lemma="so" function="Z5,A13.3" ana="sem:Z5" join="right">So</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg682.s1.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg682.s1.t3" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg682.s1.t4" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="allow" function="S7.4+,S8+,X2.1" ana="sem:S7.4p">allowed</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg682.s1.t5" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="original" function="T3-,A5.4+,A6.2-" ana="sem:T3n">original</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg682.s1.t6" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="text" function="Q1.2,Q4.1" ana="sem:Q1.2" join="right">text</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg682.s1.t7" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg683" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg683">
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s1" n="1" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg683.s1">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s1.t1" pos="IN" msd="UPosTag=ADP" lemma="after" function="Z5" ana="sem:Z5">After</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s1.t2" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5" join="right">that</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s1.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s1.t4" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8" join="right">we</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s1.t5" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">'re</w>
+                     <phr type="sem" function="T1.1.3" ana="sem:T1.1.3">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s1.t6" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="go" function="T1.1.3" ana="sem:T1.1.3">going</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s1.t7" pos="TO" msd="UPosTag=PART" lemma="to" function="T1.1.3" ana="sem:T1.1.3">to</w>
+                     </phr>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s1.t8" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="vote" function="G1.2" ana="sem:G1.2">vote</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s1.t9" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s1.t10" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s1.t11" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="full" function="N5.1+,I3.2+" ana="sem:N5.1p">full</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s1.t12" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="line" function="Z2,Z3c" ana="sem:Z2">line</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s1.t13" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z2,Z3c" ana="sem:Z2">of</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s1.t14" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Podemos" function="Z2,Z3c" ana="sem:Z2">Podemos</w>
+                     </name>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s1.t15" pos="RB" msd="UPosTag=ADV" lemma="together" function="S5+,T1.1.2,M6" ana="sem:S5p" join="right">together</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s1.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s2" n="2" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg683.s2">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s2.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s2.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="can" function="A7+" ana="sem:A7p">can</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s2.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="vote" function="G1.2" ana="sem:G1.2" join="right">vote</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg683.s2.t4" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg684" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg684">
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s1" n="1" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg684.s1">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s1.t1" pos="IN" msd="UPosTag=ADP" lemma="after" function="Z5" ana="sem:Z5">After</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s1.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s1.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="vote" function="G1.2" ana="sem:G1.2" join="right">vote</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s1.t4" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s1.t5" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s1.t6" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="result" function="A2.2,X9.2,N2,A5.1,K5,Q1.1/A2.2" ana="sem:A2.2">result</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s1.t7" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s1.t8" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6" join="right">this</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s1.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">:</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2" n="2" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg684.s2">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="vote" function="G1.2" ana="sem:G1.2">votes</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="give" function="A9-,A1.1.1" ana="sem:A9n" join="right">given</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t4" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t5" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="75" function="N1" ana="sem:N1" join="right">75</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">;</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t7" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t8" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="partisan" function="S8+/S2mf" ana="sem:S8p sem:S2">partisans</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t9" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t10" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="29" function="N1" ana="sem:N1" join="right">29</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">;</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t12" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t13" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="contrary" function="A6.1-" ana="sem:A6.1n" join="right">contrary</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t15" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="37" function="N1" ana="sem:N1" join="right">37</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">;</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t17" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t18" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Abstation" function="Z99" ana="sem:Z99" join="right">Abstations</w>
+                     </name>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t20" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="9" function="N1" ana="sem:N1" join="right">9</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg684.s2.t21" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-ES-PV_2019-12-20.ana.note110" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.ana.note110">DEBABES:</note>
+            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2019-12-20.u98" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.u98">
+               <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg685" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg685">
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg685.s1" n="1" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg685.s1">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg685.s1.t1" pos="RB" msd="UPosTag=ADV" lemma="so" function="Z5,A13.3" ana="sem:Z5" join="right">So</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg685.s1.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg685.s1.t3" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8" join="right">it</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg685.s1.t4" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A9+,A3+,A2.2,Z5" ana="sem:A9p">'s</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg685.s1.t5" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg685.s1.t6" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="suppose" function="X2.1,X7+" ana="sem:X2.1">supposed</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg685.s1.t7" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg685.s1.t8" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg685.s1.t9" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg685.s1.t10" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="full" function="N5.1+,I3.2+" ana="sem:N5.1p" join="right">full</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg685.s1.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">-</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg685.s1.t12" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="correction" function="Z2,Z3c" ana="sem:Z2">correction</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg685.s1.t13" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z2,Z3c" ana="sem:Z2">of</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg685.s1.t14" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Podemos" function="Z2,Z3c" ana="sem:Z2">Podemos</w>
+                     </name>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg685.s1.t15" pos="RB" msd="UPosTag=ADV" lemma="together" function="S5+,T1.1.2,M6" ana="sem:S5p" join="right">together</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg685.s1.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg686" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg686">
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1" n="1" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg686.s1">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t1" pos="IN" msd="UPosTag=SCONJ" lemma="as" function="Z5" ana="sem:Z5">As</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t2" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">we</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t3" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">have</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t4" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="exhaust" function="B2-,A1.5.1/N5.1+" ana="sem:B2n">exhausted</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t5" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t6" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="list" function="Q1.2,N4,M4" ana="sem:Q1.2">list</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t7" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t8" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="subject" function="X4.1,C1/S2mf,Q3,P1,S7.1-/S2mf" ana="sem:X4.1" join="right">subjects</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t10" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t11" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="end" function="T2-" ana="sem:T2n">end</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t12" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t13" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="gathering" function="S5+c,A9+,N5+/A2.1,X2.5+,A1.1.1%" ana="sem:S5p" join="right">gathering</w>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t15" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t16" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t17" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="wish" function="A5.4+" ana="sem:A5.4p">wish</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t18" pos="PRP" msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs" lemma="you" function="A5.4+" ana="sem:A5.4p">you</w>
+                     </phr>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t19" pos="DT" msd="UPosTag=DET" lemma="all" function="N5.1+" ana="sem:N5.1p">all</w>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t20" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="happy" function="T1.3" ana="sem:T1.3">happy</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t21" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Christmas" function="T1.3" ana="sem:T1.3" join="right">Christmas</w>
+                     </phr>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg686.s1.t22" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg687" xml:lang="en" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg687">
+                  <s xml:id="ParlaMint-ES-PV_2019-12-20.seg687.s1" n="1" corresp="mt-src:ParlaMint-ES-PV_2019-12-20.seg687.s1">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg687.s1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg687.s1.t2" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg687.s1.t3" pos="CD" msd="UPosTag=NUM|NumForm=Word|NumType=Card" lemma="two" function="N1,T3,T1.2" ana="sem:N1">two</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg687.s1.t4" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="o'clock" function="T1" ana="sem:T1">o'clock</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg687.s1.t5" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg687.s1.t6" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg687.s1.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="afternoon" function="T1.3" ana="sem:T1.3">afternoon</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg687.s1.t8" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
+<w xml:id="ParlaMint-ES-PV_2019-12-20.seg687.s1.t9" pos="CD" msd="UPosTag=NUM|NumForm=Word|NumType=Card" lemma="seventeen" function="T1.3" ana="sem:T1.3" join="right">seventeen</w>
+                     </phr>
+<pc xml:id="ParlaMint-ES-PV_2019-12-20.seg687.s1.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

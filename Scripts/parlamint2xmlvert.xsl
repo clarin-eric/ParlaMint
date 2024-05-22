@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!-- Transform one ParlaMint file to CQP vertical format.
      Note that the output is still in XML, and needs another polish. -->
-<!-- Needs the file with corpus teiHeader as the value of the "meta" parameter -->
+<!-- Needs the file with corpus teiHeader as the value of the "meta" parameter (cf. parlamint-lib.xsl) -->
 <xsl:stylesheet 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.tei-c.org/ns/1.0"
@@ -24,6 +24,8 @@
   <xsl:param name="note-open">[</xsl:param>
   <xsl:param name="note-close">]</xsl:param>
 
+  <xsl:param name="country-code" select="replace(/tei:TEI/@xml:id,
+                                         '.*?-([^._]+).*', '$1')"/>
   <xsl:template match="@*"/>
   <xsl:template match="text()"/>
   <xsl:template match="tei:*">
@@ -44,30 +46,72 @@
     <xsl:variable name="lang">
       <xsl:call-template name="u-langs"/>
     </xsl:variable>
+    <!-- Topics are given only in IS and DK corpora -->
+    <xsl:variable name="topic">
+      <xsl:choose>
+        <xsl:when test="$country-code = 'DK'">
+          <!-- E.g. 
+               <u who="#HaarderBertel" xml:id="ParlaMint-DK_20141007120002" ana="#chair #domain.other">
+               + 
+               <taxonomy xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-DK-taxonomy-domains" xml:lang="mul">
+                 <desc xml:lang="en"><term>Policy domains</term> in the ParlaMint-DK corpus</desc>
+                 <desc xml:lang="da"><term>Politiske emneområder</term> i ParlaMint-DK</desc>
+                 <category xml:id="domain.Agriculture">
+                   <catDesc xml:lang="en"><term>Agriculture</term>: comprises Agriculture, Fisheries, Food, Consumer, and Animal welfare</catDesc>
+                   <catDesc xml:lang="da"><term>Landbrug</term>: omfatter Landbrug, Fiskeri, Fødevarer, Forbruger, og Dyrevelfærd</catDesc>
+                 </category>
+                 etc.
+               = (dk):
+               <speech id="ParlaMint-DK_20141007120002" ... topic="Folketingsanliggender">
+          -->
+          <xsl:variable name="topics">
+            <xsl:for-each select="tokenize(@ana, ' ')">
+              <xsl:sort select="."/>
+              <xsl:variable name="topic" select="key('idr', ., $rootHeader)"/>
+              <!-- Topic names are stored in DK "domains" taxonomy -->
+              <xsl:if test="$topic/ancestor::tei:taxonomy/contains(@xml:id, 'taxonomy-domains')">
+                <xsl:value-of select="et:l10n($corpus-language, $topic/tei:catDesc/tei:term)"/>
+                <xsl:value-of select="$multi-separator"/>
+              </xsl:if>
+            </xsl:for-each>
+          </xsl:variable>
+          <xsl:value-of select="et:tsv-value(replace($topics, '.$', ''))"/>
+        </xsl:when>
+        <xsl:when test="$country-code = 'IS'">
+          <!-- IS has first a pointer to (debate) "topics", and from there to categories (topics proper) -->
+          <xsl:variable name="IS-topics">
+            <xsl:for-each select="tokenize(@ana, ' ')">
+              <xsl:value-of select="key('idr', ., $rootHeader)
+                                    [contains(ancestor::tei:taxonomy/@xml:id, 'parla.topics')]/@ana"/>
+              <xsl:text>&#32;</xsl:text>
+            </xsl:for-each>
+          </xsl:variable>
+          <xsl:variable name="topics">
+            <xsl:for-each select="distinct-values(tokenize(normalize-space($IS-topics), ' '))">
+              <xsl:sort select="."/>
+              <!-- Localisation of the term in category description -->
+              <xsl:value-of select="et:l10n($corpus-language, key('idr', ., $rootHeader)/tei:catDesc/tei:term)"/>
+              <xsl:value-of select="$multi-separator"/>
+            </xsl:for-each>
+          </xsl:variable>
+          <xsl:value-of select="et:tsv-value(replace($topics, '.$', ''))"/>
+        </xsl:when>
+      </xsl:choose>
+    </xsl:variable>
     <speech id="{$speech_id}" text_id="{$text_id}"
             subcorpus="{$subcorpus}" lang="{$lang}" body="{$body}"
             term="{$term}" session="{$session}" meeting="{$meeting}" sitting="{$sitting}" agenda="{$agenda}"
             date="{$at-date}" title="{$title}">
       <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
+      <xsl:if test="normalize-space($topic)">
+        <xsl:attribute name="topic" select="$topic"/>
+      </xsl:if>
       <xsl:choose>
-        <xsl:when test="key('idr', @who, $rootHeader)/@xml:id">
+        <xsl:when test="@who">
           <xsl:variable name="speaker" select="key('idr', @who, $rootHeader)"/>
-          <xsl:variable name="gender">
-            <xsl:choose>
-              <xsl:when test="$speaker/tei:sex/@value">
-                <xsl:value-of select="$speaker/tei:sex/@value"/>
-              </xsl:when>
-              <xsl:otherwise>-</xsl:otherwise>
-            </xsl:choose>
-          </xsl:variable>
-          <xsl:variable name="birth">
-            <xsl:choose>
-              <xsl:when test="$speaker/tei:birth/@when">
-                <xsl:value-of select="replace($speaker/tei:birth/@when, '-.+', '')"/>
-              </xsl:when>
-              <xsl:otherwise>-</xsl:otherwise>
-            </xsl:choose>
-          </xsl:variable>
+          <xsl:if test="not($speaker/@xml:id)">
+            <xsl:message select="concat('ERROR: cannot find person ', @who, ' in ', $text_id)"/>
+          </xsl:if>
           <xsl:attribute name="speaker_id" select="$speaker/@xml:id"/>
           <xsl:attribute name="speaker_name" select="et:format-name-chrono(
                                                      $speaker//tei:persName, 
@@ -78,22 +122,21 @@
           <xsl:attribute name="speaker_party_name" select="et:speaker-party($speaker, 'yes')"/>
           <xsl:attribute name="party_status" select="et:party-status($speaker)"/>
           <xsl:attribute name="party_orientation" select="et:party-orientation($speaker)"/>
-          <xsl:attribute name="speaker_gender" select="$gender"/>
-          <xsl:attribute name="speaker_birth" select="$birth"/>
-        </xsl:when>
-        <!-- A speaker that does not have a corresponding <person> element -->
-        <xsl:when test="normalize-space(@who)">
-          <xsl:message select="concat('ERROR: cannot find person ', @who, ' for ', $text_id)"/>
+          <xsl:attribute name="speaker_gender" select="et:tsv-value($speaker/tei:sex/@value)"/>
+          <xsl:attribute name="speaker_birth" select="et:tsv-value(replace($speaker/tei:birth/@when, '-.+', ''))"/>
         </xsl:when>
         <!-- No @who, legit if speaker is unknown -->
         <xsl:otherwise>
-          <xsl:attribute name="speaker_id"/>
-          <xsl:attribute name="speaker_name"/>
-          <xsl:attribute name="speaker_party"/>
-          <xsl:attribute name="speaker_party_name"/>
-          <xsl:attribute name="party_status"/>
-          <xsl:attribute name="speaker_gender"/>
-          <xsl:attribute name="speaker_birth"/>
+          <xsl:attribute name="speaker_id">-</xsl:attribute>
+          <xsl:attribute name="speaker_name">-</xsl:attribute>
+          <xsl:attribute name="speaker_mp">-</xsl:attribute>
+          <xsl:attribute name="speaker_minister">-</xsl:attribute>
+          <xsl:attribute name="speaker_party">-</xsl:attribute>
+          <xsl:attribute name="speaker_party_name">-</xsl:attribute>
+          <xsl:attribute name="party_status">-</xsl:attribute>
+          <xsl:attribute name="party_orientation">-</xsl:attribute>
+          <xsl:attribute name="speaker_gender">-</xsl:attribute>
+          <xsl:attribute name="speaker_birth">-</xsl:attribute>
         </xsl:otherwise>
       </xsl:choose>
       <xsl:text>&#10;</xsl:text>

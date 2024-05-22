@@ -101,7 +101,7 @@ state =
     attribute key { xsd:string }?,
     
     ## The value of a some metadatum.
-    (attribute n { xsd:decimal }?)
+    (attribute n { xsd:string }?)
     >> a:documentation [
          "Optional pointer to the category of a metadatum."
        ],
@@ -278,7 +278,21 @@ idno =
   element idno {
     lang.att,
     attribute type { "URI" | "VIAF" },
-    attribute subtype { xsd:Name }?,
+    attribute subtype {
+      "business"
+      | "facebook"
+      | "government"
+      | "handle"
+      | "instagram"
+      | "ministry"
+      | "parliament"
+      | "personal"
+      | "politicalParty"
+      | "publicService"
+      | "tiktok"
+      | "twitter"
+      | "wikimedia"
+    }?,
     xsd:anyURI { pattern = "https?://.+" }
   }
 

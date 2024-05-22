@@ -251,11 +251,12 @@
       <xsl:apply-templates mode="root" select="@*"/>
       <xsl:choose>
 	<!-- AT: <idno type="parlament.gv.at" xml:lang="de">https://www.parlament.gv.at/WWER/PAD_01018/index.shtml</idno> -->
-	<xsl:when test="contains(@type, 'parlament')">
+        <!-- IS: <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1471</idno> -->
+	<xsl:when test="contains(@type, 'parlament') or contains(@type, 'althingi.is')">
 	  <xsl:attribute name="type">URI</xsl:attribute>
 	  <xsl:attribute name="subtype">parliament</xsl:attribute>
 	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
-                               ': fixing idno (sub)type for parliament for ', .)"/>
+                               ': fixing idno (sub)type of parliament for ', .)"/>
 	</xsl:when>
 	<!-- BG: <idno type="wikimedia">https://www.bulnao.government.bg/bg/articles/gorica-gryncharova-kozhareva-1440</idno> -->
 	<xsl:when test="contains(., 'government') and not(@type = 'URI' and @subtype = 'government')">
@@ -264,7 +265,8 @@
 	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
                                ': fixing idno (sub)type for government for ', .)"/>
 	</xsl:when>
-	<xsl:when test="(contains(., 'wikipedia') or contains(., 'wikimedia'))
+        <!-- e.g. TR: <idno type="URI" subtype="wikidata">https://www.wikidata.org/entity/Q108248939</idno> -->
+	<xsl:when test="(contains(., 'wikipedia') or contains(., 'wikimedia') or contains(., 'wikidata'))
                         and not(@type = 'URI' and @subtype = 'wikimedia')">
 	  <xsl:attribute name="type">URI</xsl:attribute>
 	  <xsl:attribute name="subtype">wikimedia</xsl:attribute>
@@ -277,7 +279,7 @@
 	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
                                ': fixing idno (sub)type for URI for ', .)"/>
 	</xsl:when>
-	<xsl:when test="@type = 'url'">
+	<xsl:when test="@type = 'url' or @type = 'URL'">
 	  <xsl:attribute name="type">URI</xsl:attribute>
 	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
                                ': fixing idno type from url to URI for ', .)"/>
@@ -553,7 +555,7 @@
     <xsl:choose>
       <xsl:when test="not($extend/@*[name() = $attr])"/>
       <!-- extend/@  >=  @ -->
-      <xsl:when test="xs:date(et:pad-date($extend/@*[name() = $attr]))  >= xs:date(et:pad-date(.)) ">
+      <xsl:when test="xs:date(et:norm-date($extend/@*[name() = $attr]))  >= xs:date(et:norm-date(.)) ">
         <xsl:choose>
           <xsl:when test="$attr = 'from'"><xsl:copy/></xsl:when>
           <xsl:otherwise><xsl:apply-templates select="$extend/@*[name() = $attr]" mode="root"/></xsl:otherwise>
@@ -600,39 +602,96 @@
   
   <!-- Some specific corpora are missing reference to the parliamentary body of the meeting, add it -->
   <!-- Note that add-common-content takes care of this too in a more general setting -->
+
   <xsl:template mode="comp" match="tei:meeting">
-    <xsl:copy>
-      <xsl:apply-templates mode="comp" select="@*"/>
-      <!-- BE uses their own special category for commitee meetings, change to common category -->
-      <!-- IS uses their own special category for "unregistered" meetings, change to common category -->
-      <xsl:variable name="ana" select="replace(
-				       replace(@ana, 'parla\.meeting\.committee', 'parla.committee'),
-				       'parla\.meeting\.unregistered', 'parla.meeting')"/>
-      <xsl:attribute name="ana">
-	<xsl:if test="not(contains($ana, 'parla.upper') or contains($ana, 'parla.lower') or contains($ana, 'parla.committee'))">
-	  <xsl:variable name="title" select="/tei:TEI/tei:teiHeader//tei:titleStmt/
-					     tei:title[@type='main']
-					     [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang='en']"/>
-	  <xsl:variable name="body">
-	    <xsl:choose>
-              <xsl:when test="$country-code = 'GB' and contains($title, 'Commons')">#parla.lower</xsl:when>
-              <xsl:when test="$country-code = 'GB' and contains($title, 'Lords')">#parla.upper</xsl:when>
-              <xsl:when test="contains($title, 'Lower House')">#parla.lower</xsl:when>
-              <xsl:when test="contains($title, 'Upper House')">#parla.upper</xsl:when>
-	      <!-- Should be taken care of by add-commmon-content -->
-	      <xsl:otherwise><xsl:text></xsl:text></xsl:otherwise>
-	    </xsl:choose>
-	  </xsl:variable>
-	  <xsl:if test="normalize-space($body)">
-            <xsl:message select="concat('WARN ', /tei:*/@xml:id,
-				 ': inserting ', $body, ' into meeting/@ana ', $ana)"/>
-	    <xsl:value-of select="concat($body, '&#32;')"/>
-	  </xsl:if>
-	</xsl:if>
-	<xsl:value-of select="$ana"/>
-      </xsl:attribute>
-      <xsl:apply-templates mode="comp"/>
-    </xsl:copy>
+    <!-- GB, need to fix:
+         <meeting corresp="#parliament.HC" ana="#parla.meeting.regular"/>
+         <meeting n="55" corresp="#parliament.HC" ana="#parla.term #PoGB.55"/>
+         <meeting n="2015-01-05" corresp="#parliament.HC" ana="#parla.lower #parla.sitting"/>
+         to
+         <meeting n="55" corresp="#parliament.HC" ana="#parla.term #PoGB.55"/>
+         <meeting n="2015-01-05" corresp="#parliament.HC" ana="#parla.lower #parla.meeting.regular #parla.sitting"/>
+    -->
+    <xsl:choose>
+      <xsl:when test="not(@n or normalize-space(.))">
+        <xsl:choose>
+          <xsl:when test="../tei:meeting[@n]">
+            <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                                 ': meeting without @n or content, will add @ana=', @ana, 
+                                 ' into another meeting element.')"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
+                                 ': meeting without @n or content!')"/>
+            <xsl:copy-of select="."/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:copy>
+          <xsl:apply-templates mode="comp" select="@*"/>
+          <xsl:variable name="ana">
+            <!-- BE uses their own special category for commitee meetings, change to common category -->
+            <!-- IS uses their own special category for "unregistered" meetings, change to common category -->
+            <xsl:variable name="ana1" select="replace(
+				              replace(@ana, 'parla\.meeting\.committee', 'parla.committee'),
+				              'parla\.meeting\.unregistered', 'parla.meeting')"/>
+            <!-- Insert parliament body type if missing -->
+            <xsl:variable name="ana2">
+	      <xsl:if test="not(contains($ana1, 'parla.uni') or 
+                            contains($ana1, 'parla.upper') or contains($ana1, 'parla.lower') or 
+                            contains($ana1, 'parla.committee'))">
+	        <xsl:variable name="title" select="/tei:TEI/tei:teiHeader//tei:titleStmt/
+					           tei:title[@type='main']
+					           [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang='en']"/>
+	        <xsl:variable name="body">
+	          <xsl:choose>
+                    <xsl:when test="$country-code = 'GB' and contains($title, 'Commons')">#parla.lower</xsl:when>
+                    <xsl:when test="$country-code = 'GB' and contains($title, 'Lords')">#parla.upper</xsl:when>
+                    <xsl:when test="contains($title, 'Lower House')">#parla.lower</xsl:when>
+                    <xsl:when test="contains($title, 'Upper House')">#parla.upper</xsl:when>
+	            <!-- Otherwise should be taken care of by add-commmon-content -->
+	            <xsl:otherwise><xsl:text></xsl:text></xsl:otherwise>
+	          </xsl:choose>
+	        </xsl:variable>
+	        <xsl:if test="normalize-space($body)">
+                  <xsl:message select="concat('WARN ', /tei:*/@xml:id,
+				       ': inserting ', $body, ' into meeting/@ana ', $ana1)"/>
+	          <xsl:value-of select="concat($body, '&#32;')"/>
+	        </xsl:if>
+	      </xsl:if>
+	      <xsl:value-of select="$ana1"/>
+            </xsl:variable>
+            <!-- GB, need to fix:
+                 <meeting corresp="#parliament.HC" ana="#parla.meeting.regular"/>
+                 <meeting n="55" corresp="#parliament.HC" ana="#parla.term #PoGB.55"/>
+                 <meeting n="2015-01-05" corresp="#parliament.HC" ana="#parla.lower #parla.sitting"/>
+                 to
+                 <meeting n="55" corresp="#parliament.HC" ana="#parla.term #PoGB.55"/>
+                 <meeting n="2015-01-05" corresp="#parliament.HC" ana="#parla.lower #parla.meeting.regular #parla.sitting"/>
+            -->
+            <xsl:variable name="bad-meeting" select="../tei:meeting[not(@n or normalize-space(.))]"/>
+            
+            <xsl:choose>
+              <!-- Just do it for sitting, this is not general, but enough for GB -->
+              <xsl:when test="contains($ana2, 'parla.sitting') and $bad-meeting/self::tei:meeting">
+                <xsl:variable name="bad-ana" select="$bad-meeting/@ana"/>
+                <xsl:if test="not(contains(@ana, $bad-ana))">
+                  <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                                       ': adding @ana=', $bad-ana, ' into sitting.')"/>
+	          <xsl:value-of select="concat($ana2, '&#32;', $bad-ana)"/>
+                </xsl:if>
+              </xsl:when>
+              <xsl:otherwise>
+	        <xsl:value-of select="$ana2"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:attribute name="ana" select="$ana"/>
+          <xsl:apply-templates mode="comp"/>
+        </xsl:copy>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <!-- Remove @who for anonymous speakers -->

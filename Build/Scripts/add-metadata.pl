@@ -14,7 +14,7 @@ use File::Spec;
 use File::Temp qw/ tempfile tempdir /;  #creation of tmp files and directory
 my $tempdirroot = "$Bin/tmp";
 mkdir($tempdirroot) unless(-d $tempdirroot);
-my $tmpDir = tempdir(DIR => $tempdirroot, CLEANUP => 0);
+my $tmpDir = tempdir(DIR => $tempdirroot, CLEANUP => 1);
 
 binmode(STDERR, 'utf8');
 

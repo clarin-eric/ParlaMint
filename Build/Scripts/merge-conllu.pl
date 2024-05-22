@@ -53,7 +53,7 @@ sub proc_file {
     $sent2 = shift(@in2);
     foreach $id (@ids) {
 	# The ID is neither in one CoNLL-U nor the other 
-	# an error in source data, e.g. ES-CT has some <p xml:lang="en">
+	# typically because the source has sentences marked as English
 	if ((not($sent1) or $sent1 !~ m|# sent_id = $id\n|) and
 	    (not($sent2) or $sent2 !~ m|# sent_id = $id\n|)) {
 	    print STDERR "ERROR: can't find $id in MTed CoNLL-U!\n";
@@ -88,11 +88,11 @@ sub proc_file {
 	    print OUT $sent2;
 	    $sent2 = shift(@in2) if @in2;
 	}
-	elsif (not $sent1) {die "FATAL: no more sentences for $langFiles[0]\n"}
-	elsif (not $sent2) {die "FATAL: no more sentences for $langFiles[1]\n"}
+	elsif (not $sent1) {die "FATAL ERROR: no more sentences for $langFiles[0]\n"}
+	elsif (not $sent2) {die "FATAL ERROR: no more sentences for $langFiles[1]\n"}
 	else {die "WHAT!?!?\n"}
     }
     close OUT;
-    die "FATAL: Left over sentences in $langFiles[0]\n" if @in1;
-    die "FATAL: Left over sentences in $langFiles[1]\n" if @in2;
+    die "FATAL ERROR: Left over sentences in $langFiles[0]\n" if @in1;
+    die "FATAL ERROR: Left over sentences in $langFiles[1]\n" if @in2;
 }
