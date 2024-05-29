@@ -29,7 +29,7 @@ HANDLE-ANA = http://hdl.handle.net/11356/1911
 HANDLE-MT  = http://hdl.handle.net/11356/1910
 
 #Where the produced corpora are put for inspection
-WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/
+WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint
 
 ##Note that script variables are at the end of the Makefile!
 
