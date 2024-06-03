@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Validate all ParlaMint files in parameter $inDirs
 use warnings;
 use utf8;
@@ -11,8 +11,9 @@ $inDirs = File::Spec->rel2abs(shift);
 binmode(STDOUT, 'utf8');
 binmode(STDERR, 'utf8');
 
-$Jing  = 'java -jar /usr/share/java/jing.jar';
-$Saxon = 'java -jar /usr/share/java/saxon.jar';
+$Jing    = "java -jar $Bin/bin/jing.jar";
+$Saxon   = "java -jar $Bin/bin/saxon.jar";
+
 $Links = "$Bin/check-links.xsl";
 $Val   = "$Bin/validate-parlamint.xsl";
 
@@ -25,12 +26,12 @@ foreach my $inDir (glob "$inDirs") {
     my @compAnaFiles = ();
     foreach $inFile (glob "$inDir/*.xml") {
         my ($fName) = $inFile =~ m|([^/]+)$|
-            or die "Bad file '$inFile'!\n";
+            or die "FATAL ERROR: Bad file '$inFile'!\n";
         if    ($fName =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?\.xml|) {$rootFile = $inFile}
         elsif ($fName =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?\.ana\.xml|) {$rootAnaFile = $inFile}
         elsif ($fName =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?_.+\.ana\.xml|) {push(@compAnaFiles, $inFile)}
         elsif ($fName =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?_.+\.xml|) {push(@compFiles, $inFile)}
-        else {die "Bad file '$fName' in '$inFile'!\n"}
+        else {die "FATAL ERROR: Bad file '$fName' in '$inFile'!\n"}
     }
     if ($rootFile) {
         &run("$Jing $schemaDir/ParlaMint-teiCorpus.rng", $rootFile);
@@ -60,7 +61,7 @@ sub run {
     my $command = shift;
     my $file = shift;
     my ($fName) = $file =~ m|([^/]+)$|
-        or die "Bad file '$file'\n";
+        or die "FATAL ERROR: Bad file '$file'\n";
     if ($command =~ /$Jing/) {
         print STDERR "INFO: XML validation for $fName\n"
     }
@@ -70,6 +71,6 @@ sub run {
     elsif ($command =~ /$Links/) {
         print STDERR "INFO: Link checking for $fName\n"
     }
-    else {die "Weird command!\n"}
+    else {die "FATAL ERROR: Weird command!\n"}
     `$command $file 1>&2`;
 }

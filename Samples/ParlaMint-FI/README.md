@@ -36,6 +36,3 @@ The linguistic annotation was generated using a Python script utilizing a previo
 There is an issue in the linguistically annotated data regarding speeches that contain transcriber comments and/or interruptions. Transcriber comments and interruptions, and also the parts of the speeches that are after a transcriber comment or interruption aren't included in the linguistically annotated version.
 
 There is no specific linguistic annotation going beyond what’s common for all corpora.
-### Disclaimer to the English translation
-
-Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

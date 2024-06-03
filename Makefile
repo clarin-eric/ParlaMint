@@ -1,16 +1,13 @@
 .DEFAULT_GOAL := help
 
-##$PARLIAMENTS##Space separated list of parliaments codes.
-#LT, RO not delivered for 4.0
-#PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR BA RS UA
-#Parliaments for V4.0
+##$PARLIAMENTS: Space separated list of country codes
+#Parliaments for V4.1
 PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT SE SI TR BA RS UA
-#Parliaments for V2.1
-PARLIAMENTS-v2 = BE BG CZ DK ES FR GB HR HU IS IT LT LV NL PL SI TR
 
 ##$JAVA-MEMORY## Set a java memory maxsize in GB
 JAVA-MEMORY =
 JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
+PARALLEL-JOBS = 10
 
 LANG-LIST =
 leftBRACKET := (
@@ -25,7 +22,8 @@ TAXONOMIES-COPY = $(addprefix ParlaMint-taxonomy-, $(TAXONOMIES-COPY-INTERF))
 
 ##$DATADIR## Folder with country corpus folders. Default value is 'Samples'.
 DATADIR = Samples
-SHARED = Corpora
+DATACORPORADIR = Build/Distro
+SHARED = Build
 ##$WORKINGDIR## In this folder will be stored temporary files. Default value is 'DataTMP'.
 WORKINGDIR = Samples/TMP
 ##$CORPUSDIR_SUFFIX## This value is appended to corpus folder so corpus directory name shouldn't be prefix
@@ -43,15 +41,15 @@ check-prereq:
 	@uname -a|grep -iq ubuntu || \
 	  ( echo -n "WARN: not running on ubuntu-derived system: " && uname -a )
 	@echo -n "Saxon: "
-	@test -f /usr/share/java/saxon.jar && \
-	  unzip -p /usr/share/java/saxon.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'net.sf.saxon.Transform' && \
+	@test -f ./Scripts/bin/saxon.jar && \
+	  unzip -p ./Scripts/bin/saxon.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'net.sf.saxon.Transform' && \
 	  echo "OK" || echo "FAIL"
 	@echo -n "Jing: "
-	@test -f /usr/share/java/jing.jar && \
-	  unzip -p /usr/share/java/jing.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'relaxng' && \
+	@test -f ./Scripts/bin/jing.jar && \
+	  unzip -p ./Scripts/bin/jing.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'relaxng' && \
 	  echo "OK" || echo "FAIL"
 	@echo -n "UD tools: "
-	@test -f Scripts/tools/validate.py && \
+	@test -f Scripts/bin/tools/validate.py && \
 	  python3 -m re && \
 	  echo "OK" || echo "FAIL"
 	@which parallel > /dev/null && \
@@ -314,11 +312,24 @@ $(validate-parlamint-XX): validate-parlamint-%: %
 ###### Convert (and validate)
 
 ## root ## Make ParlaMint corpus root
-root:
-	$s base=../Data -xsl:Scripts/parlamint2root.xsl \
-	Scripts/ParlaMint-template.xml > ${DATADIR}/ParlaMint.xml
-	$s base=../Data -xsl:Scripts/parlamint2root.xsl \
-	Scripts/ParlaMint-template.ana.xml > ${DATADIR}/ParlaMint.ana.xml
+root-master:
+	$s base=../${DATACORPORADIR} type=TEI -xsl:Scripts/parlamint2root.xsl \
+	Scripts/ParlaMint-rootTemplate.xml > ${DATACORPORADIR}/ParlaMint.xml
+	$s base=../${DATACORPORADIR} type=TEI.ana -xsl:Scripts/parlamint2root.xsl \
+	Scripts/ParlaMint-rootTemplate.xml > ${DATACORPORADIR}/ParlaMint.ana.xml
+	$s base=../${DATACORPORADIR} type=en.TEI.ana -xsl:Scripts/parlamint2root.xsl \
+	Scripts/ParlaMint-rootTemplate.xml > ${DATACORPORADIR}/ParlaMint-en.ana.xml
+root-sample:
+	for t_i in TEI_ TEI.ana_.ana en.TEI.ana_-en.ana; do \
+	  type=$${t_i%_*};\
+	  interfix=$${t_i#*_};\
+	  $s base=../$(DATADIR) \
+	    type=$$type \
+	    isSample=1 \
+	    -xsl:Scripts/parlamint2root.xsl \
+	    Scripts/ParlaMint-rootTemplate.xml > ${DATADIR}/ParlaMint$$interfix.xml ; \
+	done
+
 
 chars-XX = $(addprefix chars-, $(PARLIAMENTS))
 ## chars ## create character tables
@@ -535,6 +546,207 @@ help-advanced: help
 $(addprefix working-dir-, $(PARLIAMENTS)): working-dir-%: %
 	mkdir -p ${WORKINGDIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}
 
+##!####DISTRO
+
+sync-Sources-TEI-XX = $(addprefix sync-Sources-TEI-, $(PARLIAMENTS))
+##!sync-Sources-TEI##
+sync-Sources-TEI: $(sync-Sources-TEI-XX)
+$(sync-Sources-TEI-XX): sync-Sources-TEI-%:
+	rsync -a --compress --progress -e'ssh -oCompression=no' $(SOURCE-LOCATION)/Build/Sources-TEI/ParlaMint-$*.TEI* Build/Sources-TEI/
+
+
+distro-make-all-XX = $(addprefix distro-make-all-, $(PARLIAMENTS))
+##!distro-make-all## enqueue slurm job for creating distribution from Build/Source-TEI
+distro-make-all: $(distro-make-all-XX)
+$(distro-make-all-XX): distro-make-all-%: Scripts/slurm_run_make-all.sh
+	CORPSIZE=$$(du -s --apparent-size Build/Sources-TEI/ParlaMint-$*.TEI.ana/|cut  -f1); \
+	MEMEXP=$$(echo "$$CORPSIZE*2.5/1000000+55" | bc ); \
+	MEMREQ=$$( [ "$$MEMEXP" -lt "30" ] && echo -n 30 || echo -n $$MEMEXP ); \
+	CPUREQ=$$( [ "$$MEMREQ" -gt "250" ] && echo -n 14 || ( [ "$$MEMREQ" -gt "120" ]  && echo -n 30 || echo -n 24 )  ); \
+	echo "COMMAND: sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $*"; \
+	sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $*
+
+
+
+Scripts/slurm_run_make-all.sh:
+	echo '#!/bin/bash' > $@
+	echo "#SBATCH --chdir=Build/  ## first change directory and then all paths are relative to location" >> $@
+	echo '#SBATCH --output=Logs/%x.%j.log' >> $@
+	echo '#SBATCH --ntasks=1' >> $@
+	echo '#SBATCH --cpus-per-task=30' >> $@
+	echo '#SBATCH -p cpu-troja,cpu-ms' >> $@
+	echo '#SBATCH -q low' >> $@
+	echo '#SBATCH --mem=120G' >> $@
+	echo '' >> $@
+	echo 'set -e' >> $@
+	echo 'which parallel || ( echo "missing parallel ($$(hostname))" && exit 1 )' >> $@
+	echo '' >> $@
+	echo 'CORP=$$1' >> $@
+	echo 'COMMIT=$$(git rev-parse --short HEAD)' >> $@
+	echo 'INSIZE=$$(du -s --apparent-size Sources-TEI/ParlaMint-$$CORP.TEI.ana/|cut  -f1)' >> $@
+	echo 'echo "$$SLURM_JOB_ID $$CORP"' >> $@
+	echo '# MEM=$$(echo -n "$$SLURM_MEM_PER_NODE/1000-1" | bc )' >> $@
+	echo 'CMD="make all CORPORA=$$CORP "' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\tSTARTED\t$$SLURM_JOB_ID\t$$(hostname)\tmem=$$SLURM_MEM_PER_NODE cpus=$$SLURM_CPUS_ON_NODE in_ana=$$(echo "$${INSIZE}/1000000"|bc)GB\t$$CMD" >> Logs/ParlaMint.slurm.log' >> $@
+	echo 'RES=$$(/usr/bin/time --output=Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp -f "%x\t%E real, %U user, %S sys, %M kB" $$CMD)' >> $@
+	echo 'TIME=$$(cut -f 2 Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'CODE=$$(cut -f 1 Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'rm Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\t$$( [ "$$CODE" -gt "0" ] && echo "FAILED-$$CODE" || echo "FINISHED" )\t$$SLURM_JOB_ID\t$$(hostname)\t$$TIME\t$$CMD" >> Logs/ParlaMint.slurm.log' >> $@
+
+##!####MT DISTRO
+
+sync-Sources-CoNLLU-XX = $(addprefix sync-Sources-CoNLLU-, $(PARLIAMENTS))
+##!sync-Sources-CoNLLU##
+sync-Sources-CoNLLU: $(sync-Sources-CoNLLU-XX)
+$(sync-Sources-CoNLLU-XX): sync-Sources-CoNLLU-%:
+	rsync -a --compress --progress -e'ssh -oCompression=no' $(SOURCE-LOCATION)/Build/Sources-CoNLLU/ParlaMint-$*-en* Build/Sources-CoNLLU/
+
+distro-make-mt-all-XX = $(addprefix distro-make-mt-all-, $(PARLIAMENTS))
+##!distro-make-mt-all## enqueue slurm job for creating distribution from MT
+distro-make-mt-all: $(distro-make-mt-all-XX)
+$(distro-make-mt-all-XX): distro-make-mt-all-%: Scripts/slurm_run_make-mt-all.sh
+	CORPSIZE=$$(du -s --apparent-size Build/Sources-TEI/ParlaMint-$*.TEI.ana/|cut  -f1); \
+	MEMEXP=$$(echo "$$CORPSIZE*2/1000000+70" | bc ); \
+	MEMREQ=$$( [ "$$MEMEXP" -lt "30" ] && echo -n 30 || echo -n $$MEMEXP ); \
+	CPUREQ=$$( [ "$$MEMREQ" -gt "250" ] && echo -n 14 || ( [ "$$MEMREQ" -gt "120" ]  && echo -n 30 || echo -n 24 )  ); \
+	echo "COMMAND: sbatch --job-name=pm$*-en-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-mt-all.sh $*"; \
+	sbatch --job-name=pm$*-en-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-mt-all.sh $*
+
+Scripts/slurm_run_make-mt-all.sh:
+	echo '#!/bin/bash' > $@
+	echo "#SBATCH --chdir=Build/  ## first change directory and then all paths are relative to location" >> $@
+	echo '#SBATCH --output=Logs/%x.%j.log' >> $@
+	echo '#SBATCH --ntasks=1' >> $@
+	echo '#SBATCH --cpus-per-task=30' >> $@
+	echo '#SBATCH -p cpu-troja,cpu-ms' >> $@
+	echo '#SBATCH -q low' >> $@
+	echo '#SBATCH --mem=120G' >> $@
+	echo '' >> $@
+	echo 'set -e' >> $@
+	echo 'which parallel || ( echo "missing parallel ($$(hostname))" && exit 1 )' >> $@
+	echo '' >> $@
+	echo 'CORP=$$1' >> $@
+	echo 'COMMIT=$$(git rev-parse --short HEAD)' >> $@
+	echo 'INSIZE=$$(du -s --apparent-size Sources-TEI/ParlaMint-$$CORP.TEI.ana/|cut  -f1)' >> $@
+	echo 'echo "$$SLURM_JOB_ID $$CORP"' >> $@
+	echo '# MEM=$$(echo -n "$$SLURM_MEM_PER_NODE/1000-1" | bc )' >> $@
+	echo 'CMD="make mt-all CORPORA=$$CORP "' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\tSTARTED\t$$SLURM_JOB_ID\t$$(hostname)\tmem=$$SLURM_MEM_PER_NODE cpus=$$SLURM_CPUS_ON_NODE in_ana=$$(echo "$${INSIZE}/1000000"|bc)GB\t$$CMD" >> Logs/ParlaMint-en.slurm.log' >> $@
+	echo 'RES=$$(/usr/bin/time --output=Logs/ParlaMint-en.slurm.$$SLURM_JOB_ID.tmp -f "%x\t%E real, %U user, %S sys, %M kB" $$CMD)' >> $@
+	echo 'TIME=$$(cut -f 2 Logs/ParlaMint-en.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'CODE=$$(cut -f 1 Logs/ParlaMint-en.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'rm Logs/ParlaMint-en.slurm.$$SLURM_JOB_ID.tmp' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\t$$( [ "$$CODE" -gt "0" ] && echo "FAILED-$$CODE" || echo "FINISHED" )\t$$SLURM_JOB_ID\t$$(hostname)\t$$TIME\t$$CMD" >> Logs/ParlaMint-en.slurm.log' >> $@
+
+##!####DISTRO2TEITOK
+distro2teitok-XX = $(addprefix distro2teitok-, $(PARLIAMENTS))
+##!distro2teitok-##
+distro2teitok: $(distro2teitok-XX)
+$(distro2teitok-XX): distro2teitok-%:
+	$(eval TEIanadir :=Build/Distro/ParlaMint-$*.TEI.ana)
+	$(eval METAdir :=Build/Distro/ParlaMint-$*.conllu)
+	$(eval TTdir :=Build/Teitok/ParlaMint-$*)
+	$(eval FL :=$(TTdir)-components.fl)
+	test  -d "$(TEIanadir)" || echo "FATAL ERROR: TEI.ana folder is missing: $(TEIanadir)"
+	test  -d "$(METAdir)" || echo "FATAL ERROR: conllu folder is missing: $(METAdir)"
+	mkdir -p $(TTdir)
+	echo  "$(TEIanadir)/ParlaMint-$*.ana.xml" | xargs ${getcomponentincludes} > $(FL)
+	bash -c 'paste <(echo;head -n -1 $(FL)) <(cat $(FL)) <(tail -n +2 $(FL))' \
+	  | sed 's@\(.*\)\t\(.*\)\t\(.*\)@--prev="\1" --file="$(TEIanadir)/\2" --next="\3"@' \
+	  | sed 's/"/\\"/g' \
+	  | xargs -L1 echo 'perl Scripts/parlamint2teitok.pl --force --notok --tsvdir="$(METAdir)/" --outdir="$(TTdir)/" ' \
+	  > $(TTdir).sh
+	cat $(TTdir).sh | parallel --gnu --halt 0 --jobs $(PARALLEL-JOBS)
+	rm $(TTdir)-components.fl $(TTdir).sh
+
+
+slurm-distro2teitok-XX = $(addprefix slurm-distro2teitok-, $(PARLIAMENTS))
+##!slurm-distro2teitok-## enqueue slurm job for creating teitok version from distro
+slurm-distro2teitok: $(slurm-distro2teitok-XX)
+$(slurm-distro2teitok-XX): slurm-distro2teitok-%: Scripts/slurm_run_distro2teitok.sh
+	sbatch --job-name=pm$*-tt --mem=10G --cpus-per-task=28 Scripts/slurm_run_distro2teitok.sh $*
+
+
+Scripts/slurm_run_distro2teitok.sh:
+	echo '#!/bin/bash' > $@
+	#echo "#SBATCH --chdir=  ## first change directory and then all paths are relative to location" >> $@
+	echo '#SBATCH --output=Build/Logs/%x.%j.log' >> $@
+	echo '#SBATCH --ntasks=1' >> $@
+	echo '#SBATCH --cpus-per-task=30' >> $@
+	echo '#SBATCH -p cpu-troja,cpu-ms' >> $@
+	echo '#SBATCH -q low' >> $@
+	echo '#SBATCH --mem=120G' >> $@
+	echo '' >> $@
+	echo 'set -e' >> $@
+	echo 'which parallel || ( echo "missing parallel ($$(hostname))" && exit 1 )' >> $@
+	echo '' >> $@
+	echo 'CORP=$$1' >> $@
+	echo 'COMMIT=$$(git rev-parse --short HEAD)' >> $@
+	echo 'INSIZE=$$(du -s --apparent-size Build/Distro/ParlaMint-$$CORP.TEI.ana/|cut  -f1)' >> $@
+	echo 'echo "$$SLURM_JOB_ID $$CORP"' >> $@
+	echo '# MEM=$$(echo -n "$$SLURM_MEM_PER_NODE/1000-1" | bc )' >> $@
+	echo 'CMD="make distro2teitok PARLIAMENTS=$$CORP PARALLEL-JOBS=$$SLURM_CPUS_ON_NODE"' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\tSTARTED\t$$SLURM_JOB_ID\t$$(hostname)\tmem=$$SLURM_MEM_PER_NODE cpus=$$SLURM_CPUS_ON_NODE in_ana=$$(echo "$${INSIZE}/1000000"|bc)GB\t$$CMD" >> Build/Logs/ParlaMint.tt.slurm.log' >> $@
+	echo 'RES=$$(/usr/bin/time --output=Build/Logs/ParlaMint.tt.slurm.$$SLURM_JOB_ID.tmp -f "%x\t%E real, %U user, %S sys, %M kB" $$CMD)' >> $@
+	echo 'TIME=$$(cut -f 2 Build/Logs/ParlaMint.tt.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'CODE=$$(cut -f 1 Build/Logs/ParlaMint.tt.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'rm Build/Logs/ParlaMint.tt.slurm.$$SLURM_JOB_ID.tmp' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\t$$( [ "$$CODE" -gt "0" ] && echo "FAILED-$$CODE" || echo "FINISHED" )\t$$SLURM_JOB_ID\t$$(hostname)\t$$TIME\t$$CMD" >> Build/Logs/ParlaMint.tt.slurm.log' >> $@
+
+##!####TEITOK2CQP
+CQPsettings = "cqpsetting file path"
+teitok2cqp-XX = $(addprefix teitok2cqp-, $(PARLIAMENTS))
+##!teitok2cqp-##
+teitok2cqp: $(teitok2cqp-XX)
+$(teitok2cqp-XX): teitok2cqp-%: Build/Teitok-cqp check-prereq-teitok2cqp
+	settings=`realpath $(CQPsettings)`;\
+	cd Build/Teitok-tmp; \
+	perl ../../Scripts/teitok2cqp.pl --setfile=$$settings --sub="ParlaMint-$*"
+
+Build/Teitok-cqp:
+	mkdir -p Build/Teitok-cqp
+	mkdir -p Build/Teitok-tmp/tmp
+	ln -s ../Teitok Build/Teitok-tmp/xmlfiles
+	ln -s ../Teitok-cqp Build/Teitok-tmp/cqp
+
+check-prereq-teitok2cqp:
+	test -f $(CQPsettings) || (echo "missing cqp setting file CQPsettings=$(CQPsettings)" && exit 1)
+	test -f Scripts/bin/tt-cwb-encode || (echo "missing Scripts/bin/tt-cwb-encode" && exit 1)
+	test -f Scripts/bin/cwb-makeall || (echo "missing Scripts/bin/cwb-makeall" && exit 1)
+
+slurm-teitok2cqp-XX = $(addprefix slurm-teitok2cqp-, $(PARLIAMENTS))
+##!slurm-teitok2cqp-## enqueue slurm job for creating teitok version from distro
+slurm-teitok2cqp: $(slurm-teitok2cqp-XX)
+$(slurm-teitok2cqp-XX): slurm-teitok2cqp-%: Scripts/slurm_run_teitok2cqp.sh check-prereq-teitok2cqp
+	sbatch --job-name=pm$*-cqp --mem=10G --cpus-per-task=1 Scripts/slurm_run_teitok2cqp.sh $* $(CQPsettings)
+
+Scripts/slurm_run_teitok2cqp.sh:
+	echo '#!/bin/bash' > $@
+	#echo "#SBATCH --chdir=  ## first change directory and then all paths are relative to location" >> $@
+	echo '#SBATCH --output=Build/Logs/%x.%j.log' >> $@
+	echo '#SBATCH --ntasks=1' >> $@
+	echo '#SBATCH --cpus-per-task=30' >> $@
+	echo '#SBATCH -p cpu-troja,cpu-ms' >> $@
+	echo '#SBATCH -q low' >> $@
+	echo '' >> $@
+	echo 'set -e' >> $@
+	echo 'which parallel || ( echo "missing parallel ($$(hostname))" && exit 1 )' >> $@
+	echo '' >> $@
+	echo 'CORP=$$1' >> $@
+	echo 'COMMIT=$$(git rev-parse --short HEAD)' >> $@
+	echo 'INSIZE=$$(du -s --apparent-size Build/Distro/ParlaMint-$$CORP.TEI.ana/|cut  -f1)' >> $@
+	echo 'echo "$$SLURM_JOB_ID $$CORP"' >> $@
+	echo '# MEM=$$(echo -n "$$SLURM_MEM_PER_NODE/1000-1" | bc )' >> $@
+	echo 'CMD="make teitok2cqp PARLIAMENTS=$$CORP CQPsettings=$$2"' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\tSTARTED\t$$SLURM_JOB_ID\t$$(hostname)\tmem=$$SLURM_MEM_PER_NODE cpus=$$SLURM_CPUS_ON_NODE in_ana=$$(echo "$${INSIZE}/1000000"|bc)GB\t$$CMD" >> Build/Logs/ParlaMint.cqp.slurm.log' >> $@
+	echo 'RES=$$(/usr/bin/time --output=Build/Logs/ParlaMint.cqp.slurm.$$SLURM_JOB_ID.tmp -f "%x\t%E real, %U user, %S sys, %M kB" $$CMD)' >> $@
+	echo 'TIME=$$(cut -f 2 Build/Logs/ParlaMint.cqp.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'CODE=$$(cut -f 1 Build/Logs/ParlaMint.cqp.slurm.$$SLURM_JOB_ID.tmp)' >> $@
+	echo 'rm Build/Logs/ParlaMint.cqp.slurm.$$SLURM_JOB_ID.tmp' >> $@
+	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\t$$( [ "$$CODE" -gt "0" ] && echo "FAILED-$$CODE" || echo "FINISHED" )\t$$SLURM_JOB_ID\t$$(hostname)\t$$TIME\t$$CMD" >> Build/Logs/ParlaMint.cqp.slurm.log' >> $@
+
+
 
 ##!####DEVEL
 ##!DEV-list-script-local-deps## for each file in Scripts folder shows list of dependencies in Script folder
@@ -605,11 +817,22 @@ $(DEV-attributes-summ-XX): DEV-attributes-summ-%: %
 DEV-speaker_types-in-taxonomy:
 	@echo -n "category_id\tterm_en\tcode\tterm_local\n"
 	@for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-*${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '_'| grep -v '.ana.xml'`; do \
-	  java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive \
+	  java -cp ./Scripts/bin/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive \
 	      -qs:'//*:taxonomy[@xml:id="speaker_types"]//*:category/concat(@xml:id,"|"  ,.//*:term[ancestor-or-self::*[@xml:lang][1]/@xml:lang="en"],"|"   ,/*:teiCorpus/@xml:id,"|"   ,.//*:term[not(ancestor-or-self::*[@xml:lang][1]/@xml:lang="en") ])' \
 	      -s:$${root} ; \
 	  echo;\
 	done | sed 's/^"//;s/"$$//;s/ParlaMint-//;s/|/\t/g'|sort|uniq
+
+
+DEV-parlamint2release-XX = $(addprefix DEV-parlamint2release-, $(PARLIAMENTS))
+##!DEV-parlamint2release## run parlamint2release script on folder and the result put to ....../ParlaMint-XX.parlamint2release
+DEV-parlamint2release: $(DEV-parlamint2release-XX)
+##!DEV-parlamint2release-XX## ...
+$(DEV-parlamint2release-XX): DEV-parlamint2release-%: %
+	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.*xml" `;	do \
+	  echo "INFO: processing $${root}" ;\
+	  ${s} outDir=${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}.parlamint2release -xsl:Scripts/parlamint2release.xsl $${root} || echo "FATAL ERROR $${root}" ;\
+	done
 
 
 fix-v2tov3-XX = $(addprefix fix-v2tov3-, $(PARLIAMENTS-v2))
@@ -727,12 +950,12 @@ create-taxonomy-UD-SYN:
 	test -d Scripts/UD-docs || git clone git@github.com:UniversalDependencies/docs.git Scripts/UD-docs
 	git -C Scripts/UD-docs checkout pages-source
 	git -C Scripts/UD-docs pull
-	Scripts/create-taxonomy-UD-SYN.pl --in Scripts/UD-docs --out ParlaMint-taxonomy-UD-SYN.ana.xml
+	Scripts/create-taxonomy-UD-SYN.pl --in Scripts/UD-docs --out Build/Taxonomies/ParlaMint-taxonomy-UD-SYN.ana.xml --commit $(shell git -C Scripts/UD-docs rev-parse HEAD)
 
 ######################VARIABLES
-s = java $(JM) -jar /usr/share/java/saxon.jar
+s = java $(JM) -jar ./Scripts/bin/saxon.jar
 P = parallel --gnu --halt 2
-j = java $(JM) -jar /usr/share/java/jing.jar
+j = java $(JM) -jar ./Scripts/bin/jing.jar
 copy = -I % $s -xi:on -xsl:Scripts/copy.xsl -s:% -o:%.all-in-one.xml
 vlink = -xsl:Scripts/check-links.xsl
 listlink = -xsl:Scripts/list-links.xsl
@@ -740,9 +963,9 @@ listrole = -xsl:Scripts/list-affiliation-org-role-pairs.xsl
 listattr = -xsl:Scripts/list-element-attribute.xsl
 faff = -xsl:Scripts/fixings/fix-overlapping-affiliations.xsl
 vcontent = -xsl:Scripts/validate-parlamint.xsl
-getincludes = -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
-getheaderincludes = -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="teiHeader"]//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
-getcomponentincludes = -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'/*/*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
+getincludes = -I % java -cp ./Scripts/bin/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
+getheaderincludes = -I % java -cp ./Scripts/bin//saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="teiHeader"]//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
+getcomponentincludes = -I % java -cp ./Scripts/bin/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'/*/*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
 pc =  $j Schema/parla-clarin.rng                # Validate with Parla-CLARIN schema
 vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text

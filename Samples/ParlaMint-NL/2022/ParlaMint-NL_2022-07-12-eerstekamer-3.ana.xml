@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.ana" xml:lang="nl" ana="#parla.sitting #covid #war">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" type="main">Dutch parliamentary corpus ParlaMint-NL, Upper House 2022-07-12 [ParlaMint.ana SAMPLE]</title>
+            <title xml:lang="nl" type="main">Corpus van het Nederlandse Parlement ParlaMint-NL, Eerste Kamer 2022-07-12 [ParlaMint.ana SAMPLE]</title>
+            <title xml:lang="en" type="sub">Report of the meeting of the Dutch Upper House, Meeting 38, Session 3 (2022-07-12)</title>
+            <title xml:lang="nl" type="sub">Verslag van de vergadering van de Eerste Kamer, Meeting 38, Session 3 (2022-07-12)</title>
+            <meeting n="38" corresp="#EK" ana="#parla.upper #parla.meeting.regular" xml:lang="en">Meeting 38</meeting>
+            <meeting n="3" corresp="#EK" ana="#parla.upper #parla.session" xml:lang="en">Session 3</meeting>
+            <meeting n="36-upper" corresp="#EK" ana="#parla.upper #parla.term #EK.36" xml:lang="en">Meeting of the 36th Eerste Kamer</meeting>
+            <meeting xml:lang="en" ana="#parla.upper #parla.sitting" corresp="#EK" n="2022-07-12">Sitting 2022-07-12</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Jesse de Does</persName>
+               <resp xml:lang="nl">Taalkundige verrijking</resp>
+               <resp xml:lang="en">Linguistic annotation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="80" xml:lang="en">80 speeches</measure>
+            <measure unit="speeches" quantity="80" xml:lang="nl">80 spreekbeurten</measure>
+            <measure unit="words" quantity="7489" xml:lang="en">7,489 words</measure>
+            <measure unit="words" quantity="7489" xml:lang="nl">7,489 woorden</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-05-14">2024-05-14</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.eerstekamer.nl/</idno>
+               <date when="2022-07-12">2022-07-12</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="nl"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is een project dat tot doel heeft (1) een meertalige reeks vergelijkbare corpora van parlementaire handelingen te creëren die uniform zijn gecodeerd volgens de <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN aanbevelingen</ref> en die zowel de COVID-19 pandemie vanaf november 2019 als de eerdere periode vanaf 2015 bestrijkt om als referentiecorpus te dienen; (2) de corpora taalkundig te verrijken met syntactische structuren volgens de Universal Dependenciesrichtlijnen, en annotatie van named entities toe te voegen; (3) de corpora beschikbaar te maken via concordancers en Parlameter; en (4) use cases in politieke wetenschappen en digitale geesteswetenschappen te bouwen op basis van de corpusgegevens.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="link" occurs="8360"/>
+               <tagUsage gi="linkGrp" occurs="503"/>
+               <tagUsage gi="name" occurs="272"/>
+               <tagUsage gi="note" occurs="113"/>
+               <tagUsage gi="pc" occurs="871"/>
+               <tagUsage gi="s" occurs="503"/>
+               <tagUsage gi="seg" occurs="118"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="80"/>
+               <tagUsage gi="w" occurs="7489"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name type="country" key="NL">The Netherlands</name>
+               <date when="2022-07-12">2022-07-12</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-05-14">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="nl" ana="#covid #war">
+      <body>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.ana.head1">Wijziging begrotingsstaten Justitie en Veiligheid 2022 (Voorjaarsnota)</head>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.ana.note1">De voorzitter</note>
+            <u ana="#chair" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u1" who="#JanAnthonieBruijn">
+               <seg xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg1">
+                  <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1" xml:lang="nl">
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs" lemma="ik">Ik</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w8" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="heten">heet</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w9" msd="UPosTag=DET|Definite=Def" lemma="de">de</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w10" msd="UPosTag=NOUN|Gender=Com|Number=Sing" lemma="staatssecretaris">staatssecretaris</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w11" msd="UPosTag=ADP" lemma="van">van</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w12" msd="UPosTag=NOUN|Gender=Com|Number=Sing" lemma="justitie">Justitie</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w13" msd="UPosTag=CCONJ" lemma="en">en</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w14" msd="UPosTag=NOUN|Gender=Com|Number=Sing" lemma="veiligheid">Veiligheid</w>
+                     </name>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w15" msd="UPosTag=ADP" lemma="van">van</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w16" msd="UPosTag=ADJ|Number=Sing" lemma="harte">harte</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w17" msd="UPosTag=ADJ|Degree=Pos" lemma="welkom">welkom</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w18" msd="UPosTag=ADP" lemma="in">in</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w19" msd="UPosTag=DET|Definite=Def" lemma="de">de</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w20" msd="UPosTag=ADJ" lemma="eerste">Eerste</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w21" join="right" msd="UPosTag=NOUN|Gender=Com|Number=Sing" lemma="kamer">Kamer</w>
+                     </name>
+<pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.pc3" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w22" msd="UPosTag=PRON|PronType=Rel" lemma="die">die</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w23" msd="UPosTag=ADP" lemma="voor">voor</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w24" msd="UPosTag=PRON|Case=Acc|Person=3|PronType=Prs" lemma="hij">hem</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w25" msd="UPosTag=DET" lemma="geen">geen</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w26" msd="UPosTag=ADJ|Degree=Pos" lemma="onbekend">onbekend</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w27" msd="UPosTag=NOUN|Gender=Neut|Number=Sing" lemma="terrein">terrein</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w28" join="right" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="zijn">is</w>
+<pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.pc4" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w8 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7" ana="ud-syn:nsubj"/>
+<link ana="ud-syn:root" target="#ParlaMint-NL_2022-07-12-eerstekamer-3.s1 #ParlaMint-NL_2022-07-12-eerstekamer-3.w8"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w10 #ParlaMint-NL_2022-07-12-eerstekamer-3.w9" ana="ud-syn:det"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w8 #ParlaMint-NL_2022-07-12-eerstekamer-3.w10" ana="ud-syn:obj"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w12 #ParlaMint-NL_2022-07-12-eerstekamer-3.w11" ana="ud-syn:case"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w10 #ParlaMint-NL_2022-07-12-eerstekamer-3.w12" ana="ud-syn:nmod"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w12 #ParlaMint-NL_2022-07-12-eerstekamer-3.w13" ana="ud-syn:fixed"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w12 #ParlaMint-NL_2022-07-12-eerstekamer-3.w14" ana="ud-syn:fixed"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w8 #ParlaMint-NL_2022-07-12-eerstekamer-3.w15" ana="ud-syn:compound_prt"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w15 #ParlaMint-NL_2022-07-12-eerstekamer-3.w16" ana="ud-syn:fixed"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w15 #ParlaMint-NL_2022-07-12-eerstekamer-3.w17" ana="ud-syn:fixed"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w20 #ParlaMint-NL_2022-07-12-eerstekamer-3.w18" ana="ud-syn:case"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w20 #ParlaMint-NL_2022-07-12-eerstekamer-3.w19" ana="ud-syn:det"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w8 #ParlaMint-NL_2022-07-12-eerstekamer-3.w20" ana="ud-syn:obl"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w20 #ParlaMint-NL_2022-07-12-eerstekamer-3.w21" ana="ud-syn:flat"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w27 #ParlaMint-NL_2022-07-12-eerstekamer-3.w22" ana="ud-syn:nsubj"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w24 #ParlaMint-NL_2022-07-12-eerstekamer-3.w23" ana="ud-syn:case"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w27 #ParlaMint-NL_2022-07-12-eerstekamer-3.w24" ana="ud-syn:obl"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w27 #ParlaMint-NL_2022-07-12-eerstekamer-3.w25" ana="ud-syn:det"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w27 #ParlaMint-NL_2022-07-12-eerstekamer-3.w26" ana="ud-syn:amod"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w20 #ParlaMint-NL_2022-07-12-eerstekamer-3.w27" ana="ud-syn:acl_relcl"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w27 #ParlaMint-NL_2022-07-12-eerstekamer-3.w28" ana="ud-syn:cop"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w27 #ParlaMint-NL_2022-07-12-eerstekamer-3.pc3" ana="ud-syn:punct"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w8 #ParlaMint-NL_2022-07-12-eerstekamer-3.pc4" ana="ud-syn:punct"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2" xml:lang="nl">
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w29" msd="UPosTag=PRON|Person=3|PronType=Prs" lemma="het">Het</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w30" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="zijn">is</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w31" msd="UPosTag=ADV" lemma="toch">toch</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w32" msd="UPosTag=ADJ|Degree=Pos" lemma="fijn">fijn</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w33" msd="UPosTag=ADP" lemma="voor">voor</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w34" msd="UPosTag=PRON|Case=Acc|Person=3|PronType=Prs" lemma="hij">hem</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w35" msd="UPosTag=SCONJ" lemma="dat">dat</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w36" msd="UPosTag=PRON|Case=Nom|Person=3|PronType=Prs" lemma="hij">hij</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w37" join="right" msd="UPosTag=ADV" lemma="hier">hier</w>
+<pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.pc5" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w38" msd="UPosTag=ADV" lemma="net">net</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w39" msd="UPosTag=ADP" lemma="voor">voor</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w40" msd="UPosTag=DET|Definite=Def" lemma="het">het</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w41" join="right" msd="UPosTag=NOUN|Gender=Neut|Number=Sing" lemma="reces">reces</w>
+<pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.pc6" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w42" msd="UPosTag=ADV" lemma="nog">nog</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w43" msd="UPosTag=DET|Definite=Ind" lemma="een">een</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w44" msd="UPosTag=NOUN|Gender=Com|Number=Sing" lemma="keer">keer</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w45" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="mogen">mag</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w46" join="right" msd="UPosTag=VERB|VerbForm=Inf" lemma="langskomen">langskomen</w>
+<pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.pc7" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w32 #ParlaMint-NL_2022-07-12-eerstekamer-3.w29" ana="ud-syn:expl"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w32 #ParlaMint-NL_2022-07-12-eerstekamer-3.w30" ana="ud-syn:cop"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w32 #ParlaMint-NL_2022-07-12-eerstekamer-3.w31" ana="ud-syn:advmod"/>
+<link ana="ud-syn:root" target="#ParlaMint-NL_2022-07-12-eerstekamer-3.s2 #ParlaMint-NL_2022-07-12-eerstekamer-3.w32"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w34 #ParlaMint-NL_2022-07-12-eerstekamer-3.w33" ana="ud-syn:case"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w32 #ParlaMint-NL_2022-07-12-eerstekamer-3.w34" ana="ud-syn:obl"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w46 #ParlaMint-NL_2022-07-12-eerstekamer-3.w35" ana="ud-syn:mark"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w46 #ParlaMint-NL_2022-07-12-eerstekamer-3.w36" ana="ud-syn:nsubj"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w46 #ParlaMint-NL_2022-07-12-eerstekamer-3.w37" ana="ud-syn:advmod"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w41 #ParlaMint-NL_2022-07-12-eerstekamer-3.w38" ana="ud-syn:amod"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w41 #ParlaMint-NL_2022-07-12-eerstekamer-3.w39" ana="ud-syn:case"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w41 #ParlaMint-NL_2022-07-12-eerstekamer-3.w40" ana="ud-syn:det"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w46 #ParlaMint-NL_2022-07-12-eerstekamer-3.w41" ana="ud-syn:obl"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w46 #ParlaMint-NL_2022-07-12-eerstekamer-3.w42" ana="ud-syn:advmod"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w44 #ParlaMint-NL_2022-07-12-eerstekamer-3.w43" ana="ud-syn:det"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w46 #ParlaMint-NL_2022-07-12-eerstekamer-3.w44" ana="ud-syn:obl"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w46 #ParlaMint-NL_2022-07-12-eerstekamer-3.w45" ana="ud-syn:aux"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w32 #ParlaMint-NL_2022-07-12-eerstekamer-3.w46" ana="ud-syn:csubj"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w41 #ParlaMint-NL_2022-07-12-eerstekamer-3.pc5" ana="ud-syn:punct"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w41 #ParlaMint-NL_2022-07-12-eerstekamer-3.pc6" ana="ud-syn:punct"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w32 #ParlaMint-NL_2022-07-12-eerstekamer-3.pc7" ana="ud-syn:punct"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.ana.note2">De beraadslaging wordt geopend.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.ana.note3">De voorzitter</note>
+            <u ana="#chair" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u2" who="#JanAnthonieBruijn">
+               <seg xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg2">
+                  <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s4" xml:lang="nl">
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w51" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs" lemma="ik">Ik</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w52" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="geven">geef</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w53" msd="UPosTag=DET|Definite=Def" lemma="het">het</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w54" msd="UPosTag=NOUN|Gender=Neut|Number=Sing" lemma="woord">woord</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w55" msd="UPosTag=ADP" lemma="aan">aan</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w56" msd="UPosTag=DET|Definite=Def" lemma="de">de</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w57" msd="UPosTag=NOUN|Gender=Com|Number=Sing" lemma="heer">heer</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w58" msd="UPosTag=PROPN" lemma="van">Van</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w59" join="right" msd="UPosTag=PROPN" lemma="hattem">Hattem</w>
+                     </name>
+<pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.pc9" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w52 #ParlaMint-NL_2022-07-12-eerstekamer-3.w51" ana="ud-syn:nsubj"/>
+<link ana="ud-syn:root" target="#ParlaMint-NL_2022-07-12-eerstekamer-3.s4 #ParlaMint-NL_2022-07-12-eerstekamer-3.w52"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w54 #ParlaMint-NL_2022-07-12-eerstekamer-3.w53" ana="ud-syn:det"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w52 #ParlaMint-NL_2022-07-12-eerstekamer-3.w54" ana="ud-syn:obj"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w57 #ParlaMint-NL_2022-07-12-eerstekamer-3.w55" ana="ud-syn:case"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w57 #ParlaMint-NL_2022-07-12-eerstekamer-3.w56" ana="ud-syn:det"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w52 #ParlaMint-NL_2022-07-12-eerstekamer-3.w57" ana="ud-syn:obl"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w57 #ParlaMint-NL_2022-07-12-eerstekamer-3.w58" ana="ud-syn:appos"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w58 #ParlaMint-NL_2022-07-12-eerstekamer-3.w59" ana="ud-syn:flat"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w52 #ParlaMint-NL_2022-07-12-eerstekamer-3.pc9" ana="ud-syn:punct"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u ana="#chair" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u79" who="#JanAnthonieBruijn">
+               <seg xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg116">
+                  <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s528" xml:lang="nl">
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7794" msd="UPosTag=VERB|Gender=Com|Number=Sing" lemma="dank">Dank</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7795" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="u">u</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7796" join="right" msd="UPosTag=ADV" lemma="wel">wel</w>
+<pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.pc901" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-NL_2022-07-12-eerstekamer-3.s528 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7794"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7794 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7795" ana="ud-syn:fixed"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7794 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7796" ana="ud-syn:fixed"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7794 #ParlaMint-NL_2022-07-12-eerstekamer-3.pc901" ana="ud-syn:punct"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <note type="comment" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.ana.note111">De beraadslaging wordt gesloten.</note>
+            <note type="speaker" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.ana.note112">De voorzitter</note>
+            <u ana="#chair" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u80" who="#JanAnthonieBruijn">
+               <seg xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg117">
+                  <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s530" xml:lang="nl">
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7801" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs" lemma="ik">Ik</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7802" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="komen">kom</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7803" msd="UPosTag=ADP" lemma="tot">tot</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7804" msd="UPosTag=NOUN|Gender=Com|Number=Sing" lemma="afhandeling">afhandeling</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7805" msd="UPosTag=ADP" lemma="van">van</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7806" msd="UPosTag=DET|Definite=Def" lemma="het">het</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7807" join="right" msd="UPosTag=NOUN|Gender=Neut|Number=Sing" lemma="wetsvoorstel">wetsvoorstel</w>
+<pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.pc903" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7802 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7801" ana="ud-syn:nsubj"/>
+<link ana="ud-syn:root" target="#ParlaMint-NL_2022-07-12-eerstekamer-3.s530 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7802"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7804 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7803" ana="ud-syn:case"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7802 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7804" ana="ud-syn:obl"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7807 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7805" ana="ud-syn:case"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7807 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7806" ana="ud-syn:det"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7804 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7807" ana="ud-syn:nmod"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7802 #ParlaMint-NL_2022-07-12-eerstekamer-3.pc903" ana="ud-syn:punct"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s531" xml:lang="nl">
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7808" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="wensen">Wenst</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7809" msd="UPosTag=NUM" lemma="een">een</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7810" msd="UPosTag=ADP" lemma="van">van</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7811" msd="UPosTag=DET|Definite=Def" lemma="de">de</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7812" msd="UPosTag=NOUN|Number=Plur" lemma="lid">leden</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7813" msd="UPosTag=NOUN|Gender=Com|Number=Sing" lemma="stemming">stemming</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7814" msd="UPosTag=ADP" lemma="over">over</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7815" msd="UPosTag=DET|Definite=Def" lemma="het">het</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7816" join="right" msd="UPosTag=NOUN|Gender=Neut|Number=Sing" lemma="wetsvoorstel">wetsvoorstel</w>
+<pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.pc904" msd="UPosTag=PUNCT">?</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link ana="ud-syn:root" target="#ParlaMint-NL_2022-07-12-eerstekamer-3.s531 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7808"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7808 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7809" ana="ud-syn:nsubj"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7812 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7810" ana="ud-syn:case"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7812 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7811" ana="ud-syn:det"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7809 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7812" ana="ud-syn:nmod"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7808 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7813" ana="ud-syn:obj"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7816 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7814" ana="ud-syn:case"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7816 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7815" ana="ud-syn:det"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7813 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7816" ana="ud-syn:nmod"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7808 #ParlaMint-NL_2022-07-12-eerstekamer-3.pc904" ana="ud-syn:punct"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s532" xml:lang="nl">
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7817" msd="UPosTag=PRON|Person=3|PronType=Dem" lemma="dat">Dat</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7818" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="zijn">is</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7819" msd="UPosTag=DET|Definite=Def" lemma="het">het</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7820" join="right" msd="UPosTag=NOUN|Gender=Neut|Number=Sing" lemma="geval">geval</w>
+<pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.pc905" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7820 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7817" ana="ud-syn:nsubj"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7820 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7818" ana="ud-syn:cop"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7820 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7819" ana="ud-syn:det"/>
+<link ana="ud-syn:root" target="#ParlaMint-NL_2022-07-12-eerstekamer-3.s532 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7820"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7820 #ParlaMint-NL_2022-07-12-eerstekamer-3.pc905" ana="ud-syn:punct"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s533" xml:lang="nl">
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7821" msd="UPosTag=ADV" lemma="dan">Dan</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7822" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="stellen">stel</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7823" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs" lemma="ik">ik</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7824" msd="UPosTag=ADP" lemma="voor">voor</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7825" msd="UPosTag=SCONJ" lemma="dat">dat</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7826" msd="UPosTag=ADV" lemma="er">er</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7827" msd="UPosTag=ADV" lemma="vanavond">vanavond</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7828" msd="UPosTag=ADP" lemma="na">na</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7829" msd="UPosTag=DET|Definite=Def" lemma="de">de</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7830" msd="UPosTag=NOUN|Gender=Com|Number=Sing" lemma="dinerpauze">dinerpauze</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7831" msd="UPosTag=ADP" lemma="over">over</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7832" msd="UPosTag=DET|Definite=Def" lemma="het">het</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7833" msd="UPosTag=NOUN|Gender=Neut|Number=Sing" lemma="wetsvoorstel">wetsvoorstel</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7834" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="worden">wordt</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7835" join="right" msd="UPosTag=VERB|VerbForm=Part" lemma="stemmen">gestemd</w>
+<pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.pc906" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7822 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7821" ana="ud-syn:advmod"/>
+<link ana="ud-syn:root" target="#ParlaMint-NL_2022-07-12-eerstekamer-3.s533 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7822"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7822 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7823" ana="ud-syn:nsubj"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7822 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7824" ana="ud-syn:compound_prt"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7835 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7825" ana="ud-syn:mark"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7835 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7826" ana="ud-syn:advmod"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7835 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7827" ana="ud-syn:advmod"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7830 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7828" ana="ud-syn:case"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7830 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7829" ana="ud-syn:det"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7835 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7830" ana="ud-syn:obl"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7833 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7831" ana="ud-syn:case"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7833 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7832" ana="ud-syn:det"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7835 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7833" ana="ud-syn:obl"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7835 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7834" ana="ud-syn:aux_pass"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7822 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7835" ana="ud-syn:ccomp"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7822 #ParlaMint-NL_2022-07-12-eerstekamer-3.pc906" ana="ud-syn:punct"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s534" xml:lang="nl">
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7836" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs" lemma="ik">Ik</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7837" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="stellen">stel</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7838" msd="UPosTag=ADP" lemma="voor">voor</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7839" msd="UPosTag=ADV" lemma="dan">dan</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7840" msd="UPosTag=ADV" lemma="ook">ook</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7841" msd="UPosTag=ADP" lemma="over">over</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7842" msd="UPosTag=DET|Definite=Def" lemma="de">de</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7843" msd="UPosTag=VERB|VerbForm=Part" lemma="ingediend">ingediende</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7844" msd="UPosTag=NOUN|Number=Plur" lemma="motie">moties</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7845" msd="UPosTag=ADP" lemma="te">te</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7846" join="right" msd="UPosTag=VERB|VerbForm=Inf" lemma="stemmen">stemmen</w>
+<pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.pc907" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7837 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7836" ana="ud-syn:nsubj"/>
+<link ana="ud-syn:root" target="#ParlaMint-NL_2022-07-12-eerstekamer-3.s534 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7837"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7837 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7838" ana="ud-syn:compound_prt"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7846 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7839" ana="ud-syn:advmod"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7846 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7840" ana="ud-syn:advmod"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7844 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7841" ana="ud-syn:case"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7844 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7842" ana="ud-syn:det"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7844 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7843" ana="ud-syn:amod"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7846 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7844" ana="ud-syn:obl"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7846 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7845" ana="ud-syn:mark"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7837 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7846" ana="ud-syn:ccomp"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7837 #ParlaMint-NL_2022-07-12-eerstekamer-3.pc907" ana="ud-syn:punct"/>
+</linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg118">
+                  <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s535" xml:lang="nl">
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7847" msd="UPosTag=ADV" lemma="dan">Dan</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7848" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="schorsen">schors</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7849" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs" lemma="ik">ik</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7850" msd="UPosTag=DET|Definite=Def" lemma="de">de</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7851" msd="UPosTag=NOUN|Gender=Com|Number=Sing" lemma="vergadering">vergadering</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7852" msd="UPosTag=ADP" lemma="voor">voor</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7853" msd="UPosTag=DET|Definite=Def" lemma="de">de</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7854" msd="UPosTag=NOUN|Gender=Com|Number=Sing" lemma="lunchpauze">lunchpauze</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7855" msd="UPosTag=ADP" lemma="tot">tot</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7856" msd="UPosTag=NUM" lemma="13.30">13.30</w>
+<w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7857" join="right" msd="UPosTag=NOUN|Gender=Neut|Number=Sing" lemma="uur">uur</w>
+<pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.pc908" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument">
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7848 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7847" ana="ud-syn:advmod"/>
+<link ana="ud-syn:root" target="#ParlaMint-NL_2022-07-12-eerstekamer-3.s535 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7848"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7848 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7849" ana="ud-syn:nsubj"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7851 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7850" ana="ud-syn:det"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7848 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7851" ana="ud-syn:obj"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7854 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7852" ana="ud-syn:case"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7854 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7853" ana="ud-syn:det"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7848 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7854" ana="ud-syn:obl"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7856 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7855" ana="ud-syn:case"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7848 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7856" ana="ud-syn:obl"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7856 #ParlaMint-NL_2022-07-12-eerstekamer-3.w7857" ana="ud-syn:fixed"/>
+<link target="#ParlaMint-NL_2022-07-12-eerstekamer-3.w7848 #ParlaMint-NL_2022-07-12-eerstekamer-3.pc908" ana="ud-syn:punct"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.ana.note113">De vergadering wordt van 12.39 uur tot 13.32 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

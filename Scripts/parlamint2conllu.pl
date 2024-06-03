@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Convert ParlaMint .ana files to CoNLL-U and validate them
 # Tomaž Erjavec <tomaz.erjavec@ijs.si>
 # License: GNU GPL
@@ -25,9 +25,9 @@ $inDir = File::Spec->rel2abs(shift);
 $outDir = File::Spec->rel2abs(shift);
 
 #$Para  = 'parallel --gnu --halt 2 --jobs 10';
-$Saxon = 'java -jar /usr/share/java/saxon.jar';
+$Saxon   = "java -jar $Bin/bin/saxon.jar";
 $Convert = "$Bin/parlamint2conllu.xsl";
-$Valid = "$Bin/tools/validate.py";
+$scriptValid = "$Bin/bin/tools/validate.py";
 
 $country2lang{'AT'} = 'de';
 $country2lang{'BA'} = 'bs';
@@ -74,26 +74,27 @@ foreach $inFile (glob($corpusFiles)) {
 foreach $inFile (@compAnaFiles) {
     my ($fName) = $inFile =~ m|([^/]+)\.ana\.xml|;
     # if the language is present in filename, then use that language otherwise language from country2lang is used
-    my ($country, $langs) = $inFile =~ /.*ParlaMint-([A-Z]{2}(?:-[A-Z0-9]{1,3})?)(?:-([a-z]{2,3}))?/ or die "ERROR: Wrong filename $inFile";
+    my ($country, $langs) = $inFile =~ /.*ParlaMint-([A-Z]{2}(?:-[A-Z0-9]{1,3})?)(?:-([a-z]{2,3}))?/
+        or die "FATAL ERROR: Wrong filename $inFile";
     $langs = $country2lang{$country} unless defined $langs;
-    die "ERROR: Language is not defined for $country" unless defined $langs;
+    die "FATAL ERROR: Language is not defined for $country" unless defined $langs;
     #One corpus, one language
     if ($langs !~ /,/) {$checkLang = $langs}
     else {($checkLang) = $langs =~ /(.+?),/}
     my $outFile = "$outDir/$fName.conllu";
     &run("$Saxon meta=$rootAnaFile -xsl:$Convert $inFile > $outFile", $fName);
-    &run("python3 $Valid --lang $checkLang --level 1 $outFile", "level 1: $fName");
-    &run("python3 $Valid --lang $checkLang --level 2 $outFile", "level 2: $fName");
-    #&run("python3 $Valid --lang $checkLang --level 3 $outFile", "level 3: $fName");
+    &run("python3 $scriptValid --lang $checkLang --level 1 $outFile", "level 1: $fName");
+    &run("python3 $scriptValid --lang $checkLang --level 2 $outFile", "level 2: $fName");
+    #&run("python3 $scriptValid --lang $checkLang --level 3 $outFile", "level 3: $fName");
 
     #One corpus, several languages, several files (BE = nl, fr)
     if ($langs =~ /,/) {
         foreach $lang (split(/,\s*/, $langs)) {
             my $outFile = "$outDir/$fName-$lang.conllu";
             &run("$Saxon meta=$rootAnaFile seg-lang=$lang -xsl:$Convert $inFile > $outFile", $fName);
-            &run("python3 $Valid --lang $lang --level 1 $outFile", "level 1: $fName");
-            &run("python3 $Valid --lang $lang --level 2 $outFile", "level 2: $fName");
-            #&run("python3 $Valid --lang $lang --level 3 $outFile", "level 3: $fName");
+            &run("python3 $scriptValid --lang $lang --level 1 $outFile", "level 1: $fName");
+            &run("python3 $scriptValid --lang $lang --level 2 $outFile", "level 2: $fName");
+            #&run("python3 $scriptValid --lang $lang --level 3 $outFile", "level 3: $fName");
         }
     }
 }
@@ -104,10 +105,10 @@ sub run {
     if ($command =~ /$Convert/) {
         print STDERR "INFO: Converting $info\n"
     }
-    elsif ($command =~ /$Valid/) {
+    elsif ($command =~ /$scriptValid/) {
         print STDERR "INFO: Validating $info\n"
     }
-    else {die "Weird command!\n"}
+    else {die "FATAL ERROR: Weird command!\n"}
     #`$command 1>&2`;
     `$command`;
 }

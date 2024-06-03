@@ -64,6 +64,3 @@ The linguistic annotation (sentence splitting, tokenization, parts-of-speech tag
 The Named Entity annotation, differently from the previous versions of the corpus, was also carried out with STANZA using the newly available FBK Italian model (https://stanfordnlp.github.io/stanza/ner_models.html), which assigns three standard named entity tags, i.e. Person, Organization, Location.
 
 Using the same pipeline for both linguistic annotation and NER allowed to avoid error-prone annotation alignment steps.
-### Disclaimer to the English translation
-
-Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

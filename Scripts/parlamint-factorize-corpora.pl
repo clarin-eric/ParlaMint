@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # Factorise all corpora given in inDir parameter
 # 1. If not already present, make backup directories for all corpora and copy into them the original root files
 # 2. Taking backup files as input overwrite original root files with factorised files
@@ -53,7 +53,7 @@ $country2lang{'TR'} = 'tr';
 $country2lang{'UA'} = 'uk'; 
 
 $bkpName = "BKP";
-$Saxon = 'java -jar /usr/share/java/saxon.jar';
+$Saxon   = "java -jar $Bin/bin/saxon.jar";
 $scriptFactorise  = "$Bin/parlamint-factorize-teiHeader.xsl";
 $scriptTaxonomy= "$Bin/parlamint-init-taxonomy.xsl";
 
@@ -63,7 +63,8 @@ if ($inDir =~ /ParlaMint-[A-Z-]+\.TEI/) {$corpDirs = $inDir}
 else {$corpDirs = "$inDir/ParlaMint-*.TEI*"}
 foreach $corpDir (sort glob($corpDirs)) {
     my $param = '';
-    ($country, $anaSuffix) = $corpDir =~ /ParlaMint-([A-Z-]+)\.TEI(\..+)?/ or die;
+    ($country, $anaSuffix) = $corpDir =~ /ParlaMint-([A-Z-]+)\.TEI(\..+)?/
+        or die "FATAL ERROR: Strange corpus directory $corpDir\n";
     $anaSuffix = '' unless $anaSuffix;
     print STDERR "INFO: Doing $country TEI$anaSuffix\n";
     $bkpDir = "$corpDir/$bkpName";
@@ -111,10 +112,12 @@ foreach $corpDir (sort glob($corpDirs)) {
     }
     if (@missing_taxonomies) {
 	$rootFile = "$corpDir/ParlaMint-$country$anaSuffix.xml";
-	die "FATAL ERROR: Cant find corpus root file $rootFile\n" unless -e $rootFile;
+	die "FATAL ERROR: Cant find corpus root file $rootFile\n"
+            unless -e $rootFile;
 	$tmpRootFile = "$rootFile" . '.tmp';
 	open(IN,  '<:utf8', $rootFile);
-	open(OUT, '>:utf8', $tmpRootFile) or die "FATAL ERROR: Can't open tmp root file $tmpRootFile\n";
+	open(OUT, '>:utf8', $tmpRootFile)
+            or die "FATAL ERROR: Can't open tmp root file $tmpRootFile\n";
 	while (<IN>) {
 	    if (m|</classDecl>|) {
 		foreach my $taxonomyFile (@missing_taxonomies) {

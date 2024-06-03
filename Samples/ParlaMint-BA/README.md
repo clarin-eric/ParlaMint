@@ -40,7 +40,3 @@ There are no additional TEI elements beyond what is described in the ParlaMint s
 ### Linguistic annotation
 
 For annotating the Bosnian corpus, the standard language models for Croatian of the CLASSLA-Stanza pipeline (https://pypi.org/project/classla/) were used. On the level of morphosyntactic annotation for this corpus MULTEXT-East annotations (http://nl.ijs.si/ME/V6/msd/html/msd-hbs.html) are made available as well.
-
-### Disclaimer to the English translation
-
-Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

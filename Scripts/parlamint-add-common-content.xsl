@@ -74,7 +74,7 @@
   
   <!-- Project description for ParlaMint II -->
   <xsl:variable name="projectDesc-en">
-    <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a
+    <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a
     project that aims to (1) create a multilingual set of comparable corpora of parliamentary
     proceedings uniformly encoded according to the
     <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, 

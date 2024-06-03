@@ -12,7 +12,10 @@
      - insert textClass if missing
      - remove anonymous/unknown speaker (BG, BE, SE)
      - fix some corpus-dependent (GB) orgs and affiliations 
+     - fix bad URL idno @type and @subtype
      - fix sprurious spaces in text content (multiple, leading and trailing spaces)
+     - merge overlapping affiliations
+     - remove affiliations where to < from
 
      Changes to component files:
      - add meeting reference to corpus specific parliamentary body of the meeting, if missing
@@ -202,10 +205,26 @@
     </xsl:copy>
   </xsl:template>
   
-  <!-- Remove anonymous speaker -->
-  <xsl:template mode="root" match="tei:person[@xml:id='Anonymous' or @xml:id='anonymous' or @xml:id='unknown']">
-    <xsl:message select="concat('WARN ', /tei:*/@xml:id,
-			 ': removing anonymous speaker from listPerson ', @xml:id)"/>
+  <xsl:template mode="root" match="tei:person">
+    <xsl:choose>
+      <!-- Remove anonymous speaker -->
+      <xsl:when test="@xml:id='Anonymous' or @xml:id='anonymous' or @xml:id='unknown'">
+        <xsl:message select="concat('WARN ', /tei:*/@xml:id,
+           ': removing anonymous speaker from listPerson ', @xml:id)"/>
+      </xsl:when>
+      <!-- Processing the rest -->
+      <xsl:otherwise>
+        <xsl:variable name="affiliations">
+          <xsl:apply-templates select="* | comment() | text()" mode="affiliations"/>
+        </xsl:variable>
+        <xsl:copy>
+          <xsl:apply-templates select="@*" mode="root"/>
+          <xsl:apply-templates select="* | comment() | text()" mode="person">
+            <xsl:with-param name="affiliations" select="$affiliations"/>
+          </xsl:apply-templates>
+        </xsl:copy>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <!-- Remove the two "speaker" parties from GB, i.e. 
@@ -232,18 +251,45 @@
       <xsl:apply-templates mode="root" select="@*"/>
       <xsl:choose>
 	<!-- AT: <idno type="parlament.gv.at" xml:lang="de">https://www.parlament.gv.at/WWER/PAD_01018/index.shtml</idno> -->
-	<xsl:when test="contains(@type, 'parlament')">
+        <!-- IS: <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1471</idno> -->
+	<xsl:when test="contains(@type, 'parlament') or contains(@type, 'althingi.is')">
 	  <xsl:attribute name="type">URI</xsl:attribute>
 	  <xsl:attribute name="subtype">parliament</xsl:attribute>
 	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
-                               ': fixing idno (sub)type for parliament for ', .)"/>
+                               ': fixing idno (sub)type of parliament for ', .)"/>
 	</xsl:when>
-	<xsl:when test="contains(., 'wikipedia') and not(@type = 'URI' and @subtype = 'wikimedia')">
+	<!-- BG: <idno type="wikimedia">https://www.bulnao.government.bg/bg/articles/gorica-gryncharova-kozhareva-1440</idno> -->
+	<xsl:when test="contains(., 'government') and not(@type = 'URI' and @subtype = 'government')">
+	  <xsl:attribute name="type">URI</xsl:attribute>
+	  <xsl:attribute name="subtype">government</xsl:attribute>
+	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
+                               ': fixing idno (sub)type for government for ', .)"/>
+	</xsl:when>
+        <!-- e.g. TR: <idno type="URI" subtype="wikidata">https://www.wikidata.org/entity/Q108248939</idno> -->
+	<xsl:when test="(contains(., 'wikipedia') or contains(., 'wikimedia') or contains(., 'wikidata'))
+                        and not(@type = 'URI' and @subtype = 'wikimedia')">
 	  <xsl:attribute name="type">URI</xsl:attribute>
 	  <xsl:attribute name="subtype">wikimedia</xsl:attribute>
 	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
                                ': fixing idno (sub)type for wikipedia for ', .)"/>
 	</xsl:when>
+        <!-- BG: <idno type="wikimedia">https://www.comdos.bg/Състав на комисията/evtim kostadinov kostadinov</idno> -->
+	<xsl:when test="@type = 'wikimedia' and not(contains(., 'wiki'))">
+	  <xsl:attribute name="type">URI</xsl:attribute>
+	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
+                               ': fixing idno (sub)type for URI for ', .)"/>
+	</xsl:when>
+	<xsl:when test="@type = 'url' or @type = 'URL'">
+	  <xsl:attribute name="type">URI</xsl:attribute>
+	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
+                               ': fixing idno type from url to URI for ', .)"/>
+        </xsl:when>
+	<xsl:when test="@type = 'URI' and @subtype = 'contact' and contains(., 'parliament')">
+	  <xsl:attribute name="type">URI</xsl:attribute>
+	  <xsl:attribute name="subtype">parliament</xsl:attribute>
+	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
+                               ': fixing idno subtype from contact to parliament for ', .)"/>
+        </xsl:when>
       </xsl:choose>
       <xsl:value-of select="normalize-space(.)"/>
     </xsl:copy>
@@ -325,6 +371,199 @@
     </xsl:choose>
   </xsl:template>
 
+  <!-- Processing persons: fix missing sex and fix affiliations -->
+  <xsl:template match="tei:*[not(name()='affiliation')] | comment() | text()" mode="person">
+    <xsl:apply-templates select="." mode="root"/>
+    <xsl:if test="self::tei:persName and not(following-sibling::tei:persName)">
+      <!-- Insert missing sex after last persName -->
+      <xsl:if test="not(following-sibling::tei:sex)">
+        <sex value="U"/>
+      </xsl:if>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template match="tei:affiliation[@to &lt; @from]" mode="person">
+    <xsl:message>
+      <xsl:text>WARN: removing affiliation</xsl:text>
+      <xsl:if test="parent::tei:person/@xml:id">
+        <xsl:text> [</xsl:text>
+        <xsl:value-of select="parent::tei:person/@xml:id"/>
+      </xsl:if>
+      <xsl:text>]</xsl:text>
+      <xsl:text> role=</xsl:text>
+      <xsl:value-of select="@role"/>
+      <xsl:text> ref=</xsl:text>
+      <xsl:value-of select="@ref"/>
+      <xsl:if test="@ana">
+        <xsl:text> ana=</xsl:text>
+        <xsl:value-of select="@ana"/>
+      </xsl:if>
+      <xsl:text>: attribute to=</xsl:text>
+      <xsl:value-of select="@to"/>
+      <xsl:text> is before from=</xsl:text>
+      <xsl:value-of select="@from"/>
+    </xsl:message>
+  </xsl:template>
+
+  <xsl:template match="tei:affiliation" mode="person">
+    <xsl:param name="affiliations"/>
+    <xsl:variable name="position" select="position()"/>
+    <xsl:variable name="aff" select="$affiliations/tei:item[@n=$position]/tei:new/tei:affiliation[1]"/>
+    <xsl:if test="not($affiliations/tei:item[@n=$position]/preceding-sibling::tei:item[mk:is-comparable($aff,tei:new/tei:affiliation[1]) and mk:is-overlapping($aff,tei:new/tei:affiliation[1])])">
+      <xsl:copy-of select="$affiliations/tei:item[@n=$position]/tei:new/*"/>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template match="tei:affiliation" mode="affiliations">
+    <xsl:variable name="position" select="position()"/>
+    <xsl:variable name="aff" select="."/>
+    <xsl:variable name="similar-siblings" select="(preceding-sibling::tei:affiliation | following-sibling::tei:affiliation)[mk:is-comparable(.,$aff)]"/>
+    <item n="{position()}">
+      <orig>
+        <xsl:copy>
+          <xsl:apply-templates select="@*" mode="root"/>
+          <xsl:apply-templates mode="root"/>
+        </xsl:copy>
+      </orig>
+      <new>
+        <xsl:apply-templates select="." mode="affiliation-extend">
+          <xsl:with-param name="position" select="$position"/>
+          <xsl:with-param name="extend-candidates" select="$similar-siblings"/>
+        </xsl:apply-templates>
+      </new>
+    </item>
+  </xsl:template>
+  <xsl:template match="* | comment() | text()" mode="affiliations"/>
+
+  <xsl:template match="tei:affiliation" mode="affiliation-extend">
+    <xsl:param name="position"/>
+    <xsl:param name="extend-candidates"/>
+    <xsl:variable name="aff" select="."/>
+    <xsl:variable name="extend">
+      <xsl:apply-templates select="$aff" mode="affiliation-overlap">
+        <xsl:with-param name="candidates" select="$extend-candidates"/>
+      </xsl:apply-templates>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="count($extend-candidates) = 0">
+        <xsl:copy-of select="$aff"/>
+      </xsl:when>
+      <xsl:when test="$extend/tei:extend">
+<!--
+        <xsl:message>TODO EXTEND</xsl:message>
+        <xsl:comment>TODO: check for duplicity</xsl:comment>
+
+<xsl:message>CANDIDATES:<xsl:copy-of select="$extend-candidates"/></xsl:message>
+
+<xsl:message>MERGE THIS:</xsl:message>
+<xsl:message>AFFILIATION:<xsl:copy-of select="$aff"/></xsl:message>
+<xsl:message>EXTEND:<xsl:copy-of select="$extend"/></xsl:message>
+-->
+        <xsl:variable name="aff-merged">
+          <xsl:apply-templates select="$aff" mode="affiliation-merge">
+            <xsl:with-param name="extend" select="$extend/tei:extend/*"/>
+          </xsl:apply-templates>
+        </xsl:variable>
+        <!--
+<xsl:message>MERGED===:<xsl:copy-of select="$aff-merged"/></xsl:message>
+       -->
+        <xsl:apply-templates select="$aff-merged" mode="affiliation-extend">
+          <xsl:with-param name="position" select="$position"/>
+          <xsl:with-param name="extend-candidates" select="$extend/tei:rest/*"/>
+        </xsl:apply-templates>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:comment>TODO: check for duplicity (fall back no other duplicity)</xsl:comment>
+        <xsl:copy-of select="$aff"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <xsl:template match="tei:affiliation" mode="affiliation-overlap">
+    <xsl:param name="candidates"/>
+    <xsl:variable name="aff" select="."/>
+    <xsl:variable name="first-aff" select="$candidates[1]"/>
+    <xsl:choose>
+      <xsl:when test="not($first-aff)"/>
+      <xsl:when test="mk:is-overlapping($aff,$first-aff)">
+        <extend><xsl:copy-of select="$first-aff"/></extend>
+        <rest><xsl:copy-of select="$candidates[position()>1]"/></rest>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:variable name="sub-result">
+          <xsl:apply-templates select="$aff" mode="affiliation-overlap">
+            <xsl:with-param name="candidates" select="$candidates[position()>1]"/>
+          </xsl:apply-templates>
+        </xsl:variable>
+        <xsl:choose>
+          <xsl:when test="$sub-result">
+            <xsl:copy-of select="$sub-result/tei:extend"/>
+            <rest>
+              <xsl:copy-of select="$first-aff"/>
+              <xsl:copy-of select="$sub-result/tei:rest/*"/>
+            </rest>
+          </xsl:when>
+          <xsl:otherwise/><!--no extension => no output-->
+        </xsl:choose>
+      </xsl:otherwise>
+
+    </xsl:choose>
+  </xsl:template>
+
+  <xsl:template match="tei:affiliation" mode="affiliation-merge">
+    <xsl:param name="extend"/>
+    <xsl:message>
+      <xsl:text>WARN: merging affiliations</xsl:text>
+      <xsl:if test="parent::tei:person/@xml:id">
+        <xsl:text> [</xsl:text>
+        <xsl:value-of select="parent::tei:person/@xml:id"/>
+      </xsl:if>
+      <xsl:text>]</xsl:text>
+      <xsl:text> role=</xsl:text>
+      <xsl:value-of select="@role"/>
+      <xsl:text> ref=</xsl:text>
+      <xsl:value-of select="@ref"/>
+      <xsl:if test="@ana">
+        <xsl:text> ana=</xsl:text>
+        <xsl:value-of select="@ana"/>
+      </xsl:if>
+      <xsl:text>: (</xsl:text>
+      <xsl:value-of select="concat(@from,'--',@to)"/>
+      <xsl:text>)  +  (</xsl:text>
+      <xsl:value-of select="concat($extend/@from,'--',$extend/@to)"/>
+      <xsl:text>)</xsl:text>
+    </xsl:message>
+    <xsl:copy>
+      <xsl:apply-templates select="@*" mode="affiliation-merge">
+        <xsl:with-param name="extend" select="$extend"/>
+      </xsl:apply-templates>
+      <xsl:apply-templates mode="root"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="@*[not(name() = 'to') and not(name() = 'from') ]" mode="affiliation-merge">
+    <xsl:param name="extend"/>
+    <xsl:copy/>
+  </xsl:template>
+
+  <xsl:template match="@from | @to" mode="affiliation-merge">
+    <xsl:param name="extend"/>
+    <xsl:variable name="attr" select="name()"/>
+    <xsl:choose>
+      <xsl:when test="not($extend/@*[name() = $attr])"/>
+      <!-- extend/@  >=  @ -->
+      <xsl:when test="xs:date(et:norm-date($extend/@*[name() = $attr]))  >= xs:date(et:norm-date(.)) ">
+        <xsl:choose>
+          <xsl:when test="$attr = 'from'"><xsl:copy/></xsl:when>
+          <xsl:otherwise><xsl:apply-templates select="$extend/@*[name() = $attr]" mode="root"/></xsl:otherwise>
+        </xsl:choose>
+      </xsl:when>
+      <!-- extend/@  <=  @ -->
+      <xsl:when test="$attr = 'from'"><xsl:apply-templates select="$extend/@*[name() = $attr]" mode="root"/></xsl:when>
+      <xsl:otherwise><xsl:copy/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
 
   <!-- Finalizing component files -->
   <xsl:template mode="comp" match="*">
@@ -360,39 +599,96 @@
   
   <!-- Some specific corpora are missing reference to the parliamentary body of the meeting, add it -->
   <!-- Note that add-common-content takes care of this too in a more general setting -->
+
   <xsl:template mode="comp" match="tei:meeting">
-    <xsl:copy>
-      <xsl:apply-templates mode="comp" select="@*"/>
-      <!-- BE uses their own special category for commitee meetings, change to common category -->
-      <!-- IS uses their own special category for "unregistered" meetings, change to common category -->
-      <xsl:variable name="ana" select="replace(
-				       replace(@ana, 'parla\.meeting\.committee', 'parla.committee'),
-				       'parla\.meeting\.unregistered', 'parla.meeting')"/>
-      <xsl:attribute name="ana">
-	<xsl:if test="not(contains($ana, 'parla.upper') or contains($ana, 'parla.lower') or contains($ana, 'parla.committee'))">
-	  <xsl:variable name="title" select="/tei:TEI/tei:teiHeader//tei:titleStmt/
-					     tei:title[@type='main']
-					     [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang='en']"/>
-	  <xsl:variable name="body">
-	    <xsl:choose>
-              <xsl:when test="$country-code = 'GB' and contains($title, 'Commons')">#parla.lower</xsl:when>
-              <xsl:when test="$country-code = 'GB' and contains($title, 'Lords')">#parla.upper</xsl:when>
-              <xsl:when test="contains($title, 'Lower House')">#parla.lower</xsl:when>
-              <xsl:when test="contains($title, 'Upper House')">#parla.upper</xsl:when>
-	      <!-- Should be taken care of by add-commmon-content -->
-	      <xsl:otherwise><xsl:text></xsl:text></xsl:otherwise>
-	    </xsl:choose>
-	  </xsl:variable>
-	  <xsl:if test="normalize-space($body)">
-            <xsl:message select="concat('WARN ', /tei:*/@xml:id,
-				 ': inserting ', $body, ' into meeting/@ana ', $ana)"/>
-	    <xsl:value-of select="concat($body, '&#32;')"/>
-	  </xsl:if>
-	</xsl:if>
-	<xsl:value-of select="$ana"/>
-      </xsl:attribute>
-      <xsl:apply-templates mode="comp"/>
-    </xsl:copy>
+    <!-- GB, need to fix:
+         <meeting corresp="#parliament.HC" ana="#parla.meeting.regular"/>
+         <meeting n="55" corresp="#parliament.HC" ana="#parla.term #PoGB.55"/>
+         <meeting n="2015-01-05" corresp="#parliament.HC" ana="#parla.lower #parla.sitting"/>
+         to
+         <meeting n="55" corresp="#parliament.HC" ana="#parla.term #PoGB.55"/>
+         <meeting n="2015-01-05" corresp="#parliament.HC" ana="#parla.lower #parla.meeting.regular #parla.sitting"/>
+    -->
+    <xsl:choose>
+      <xsl:when test="not(@n or normalize-space(.))">
+        <xsl:choose>
+          <xsl:when test="../tei:meeting[@n]">
+            <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                                 ': meeting without @n or content, will add @ana=', @ana, 
+                                 ' into another meeting element.')"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
+                                 ': meeting without @n or content!')"/>
+            <xsl:copy-of select="."/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:copy>
+          <xsl:apply-templates mode="comp" select="@*"/>
+          <xsl:variable name="ana">
+            <!-- BE uses their own special category for commitee meetings, change to common category -->
+            <!-- IS uses their own special category for "unregistered" meetings, change to common category -->
+            <xsl:variable name="ana1" select="replace(
+				              replace(@ana, 'parla\.meeting\.committee', 'parla.committee'),
+				              'parla\.meeting\.unregistered', 'parla.meeting')"/>
+            <!-- Insert parliament body type if missing -->
+            <xsl:variable name="ana2">
+	      <xsl:if test="not(contains($ana1, 'parla.uni') or 
+                            contains($ana1, 'parla.upper') or contains($ana1, 'parla.lower') or 
+                            contains($ana1, 'parla.committee'))">
+	        <xsl:variable name="title" select="/tei:TEI/tei:teiHeader//tei:titleStmt/
+					           tei:title[@type='main']
+					           [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang='en']"/>
+	        <xsl:variable name="body">
+	          <xsl:choose>
+                    <xsl:when test="$country-code = 'GB' and contains($title, 'Commons')">#parla.lower</xsl:when>
+                    <xsl:when test="$country-code = 'GB' and contains($title, 'Lords')">#parla.upper</xsl:when>
+                    <xsl:when test="contains($title, 'Lower House')">#parla.lower</xsl:when>
+                    <xsl:when test="contains($title, 'Upper House')">#parla.upper</xsl:when>
+	            <!-- Otherwise should be taken care of by add-commmon-content -->
+	            <xsl:otherwise><xsl:text></xsl:text></xsl:otherwise>
+	          </xsl:choose>
+	        </xsl:variable>
+	        <xsl:if test="normalize-space($body)">
+                  <xsl:message select="concat('WARN ', /tei:*/@xml:id,
+				       ': inserting ', $body, ' into meeting/@ana ', $ana1)"/>
+	          <xsl:value-of select="concat($body, '&#32;')"/>
+	        </xsl:if>
+	      </xsl:if>
+	      <xsl:value-of select="$ana1"/>
+            </xsl:variable>
+            <!-- GB, need to fix:
+                 <meeting corresp="#parliament.HC" ana="#parla.meeting.regular"/>
+                 <meeting n="55" corresp="#parliament.HC" ana="#parla.term #PoGB.55"/>
+                 <meeting n="2015-01-05" corresp="#parliament.HC" ana="#parla.lower #parla.sitting"/>
+                 to
+                 <meeting n="55" corresp="#parliament.HC" ana="#parla.term #PoGB.55"/>
+                 <meeting n="2015-01-05" corresp="#parliament.HC" ana="#parla.lower #parla.meeting.regular #parla.sitting"/>
+            -->
+            <xsl:variable name="bad-meeting" select="../tei:meeting[not(@n or normalize-space(.))]"/>
+            
+            <xsl:choose>
+              <!-- Just do it for sitting, this is not general, but enough for GB -->
+              <xsl:when test="contains($ana2, 'parla.sitting') and $bad-meeting/self::tei:meeting">
+                <xsl:variable name="bad-ana" select="$bad-meeting/@ana"/>
+                <xsl:if test="not(contains(@ana, $bad-ana))">
+                  <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                                       ': adding @ana=', $bad-ana, ' into sitting.')"/>
+	          <xsl:value-of select="concat($ana2, '&#32;', $bad-ana)"/>
+                </xsl:if>
+              </xsl:when>
+              <xsl:otherwise>
+	        <xsl:value-of select="$ana2"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:attribute name="ana" select="$ana"/>
+          <xsl:apply-templates mode="comp"/>
+        </xsl:copy>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <!-- Remove @who for anonymous speakers -->
@@ -459,6 +755,24 @@
     </xsl:copy>
   </xsl:template>
 
+  <!-- BG uses <incident type="incident"> and <kinesic type="kinesic">, remove such useless @type -->
+  <xsl:template mode="comp" match="tei:incident | tei:kinesic | tei:vocal">
+    <xsl:copy>
+      <xsl:variable name="tag" select="name()"/>
+      <xsl:choose>
+        <xsl:when test="@type = $tag">
+          <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                               ': removing useless ', $tag, '/@type=', $tag, ' in ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+          <xsl:apply-templates mode="comp" select="@*[not(name() = 'type')]"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates mode="comp" select="@*"/>
+        </xsl:otherwise>
+      </xsl:choose>
+      <xsl:apply-templates mode="comp"/>
+    </xsl:copy>
+  </xsl:template>
+  
   <!-- EE uses u/@ana = '#deputy_chair', but common taxonomy does not have this category -->
   <xsl:template mode="comp" match="tei:u/@ana[. = '#deputy_chair']">
     <xsl:attribute name="ana">#chair</xsl:attribute>
@@ -576,20 +890,20 @@
   
   <!-- Bug where lemma is empty or "_": change to @norm, if it exists, else to text() of the word -->
   <xsl:template mode="comp" match="tei:w/@lemma[not(normalize-space(.)) or . = '_']">
-    <xsl:variable name="message" select="concat('WARN ', /tei:TEI/@xml:id,  ': changing bad lemma to ')"/>
+    <xsl:variable name="message" select="concat('WARN ', /tei:TEI/@xml:id,  ': changing bad lemma ', ., ' to ')"/>
     <xsl:variable name="location" select="concat(' in ', ../@xml:id)"/>
     <xsl:attribute name="lemma">
       <xsl:choose>
         <xsl:when test="../@norm">
-          <xsl:message select="concat($message, ' @norm ', ../@norm, $location)"/>
+          <xsl:message select="concat($message, '@norm ', ../@norm, $location)"/>
           <xsl:value-of select="../@norm"/>
         </xsl:when>
         <xsl:when test="../contains(@msd, 'UPosTag=PROPN')">
-          <xsl:message select="concat($message, ' PROPN token ', ../text(), $location)"/>
+          <xsl:message select="concat($message, 'PROPN token ', ../text(), $location)"/>
           <xsl:value-of select="../text()"/>
 	</xsl:when>
         <xsl:otherwise>
-          <xsl:message select="concat($message, ' lower-cased token ', lower-case(../text()), $location)"/>
+          <xsl:message select="concat($message, 'lower-cased token ', lower-case(../text()), $location)"/>
           <xsl:value-of select="lower-case(../text())"/>
         </xsl:otherwise>
       </xsl:choose>

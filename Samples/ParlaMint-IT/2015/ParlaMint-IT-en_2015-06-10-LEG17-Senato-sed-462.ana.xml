@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:id="ParlaMint-IT-en_2015-06-10-LEG17-Senato-sed-462.ana" xml:lang="en" corresp="../../ParlaMint-IT.TEI.ana/2015/ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT-en, Legislatura 17, Seduta 462 Senato [ParlaMint-en.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT-en, Term 17, Sitting 462 Senate [ParlaMint-en.ana SAMPLE]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 462, giorno (2015-06-10)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="462-upper">462 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-6829-6309">Roberto Bartolini</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Roberto Bartolini</persName>
+               <persName>Valeria Quochi</persName>
+               <resp xml:lang="it">Annotazione linguistica automatica</resp>
+               <resp xml:lang="en">Automatic Linguistic annotation</resp>
+               <resp xml:lang="it">Riconoscimento Entità Nominate</resp>
+               <resp xml:lang="en">NER</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Taja Kuzman</persName>
+               <persName>Nikola Ljubešić</persName>
+               <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Paul Rayson</persName>
+               <persName>Matthew Coole</persName>
+               <persName>John Vidler</persName>
+               <resp xml:lang="en">Annotating MTed corpora with USAS semantic tags</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Informatics and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure quantity="200" unit="speeches" xml:lang="it">200 discorsi</measure>
+            <measure quantity="200" unit="speeches" xml:lang="en">200 speeches</measure>
+            <measure quantity="19972" unit="words" xml:lang="it">19.972 parole</measure>
+            <measure quantity="19972" unit="words" xml:lang="en">19,972 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1910</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref> .</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
+            </availability>
+            <date when="2024-05-16">2024-05-16</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI" subtype="parliament">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0925064</idno>
+               <date when="2015-06-10">10.06.2015</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="13"/>
+               <tagUsage gi="div" occurs="8"/>
+               <tagUsage gi="head" occurs="6"/>
+               <tagUsage gi="kinesic" occurs="11"/>
+               <tagUsage gi="name" occurs="534"/>
+               <tagUsage gi="note" occurs="209"/>
+               <tagUsage gi="pc" occurs="3006"/>
+               <tagUsage gi="phr" occurs="903"/>
+               <tagUsage gi="s" occurs="886"/>
+               <tagUsage gi="seg" occurs="291"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="200"/>
+               <tagUsage gi="vocal" occurs="2"/>
+               <tagUsage gi="w" occurs="19972"/>
+            </namespace>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef ident="mt-src" matchPattern="(.+)" replacementPattern="../../ParlaMint-IT.TEI.ana/2015/ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.xml#$1">
+               <p>Private URIs with this prefix point to aligned source elements of the MTed corpus.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2015-06-10">10.06.2015</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-05-16">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection" xml:lang="en">
+            <note type="speaker" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.note1" xml:lang="en" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.note1">President of the Vice-President, Mr Fedeli</note>
+            <note type="speaker" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.note2" xml:lang="en" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.note2">PRESIDENT</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.u1" xml:lang="en" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.u1">
+               <seg xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1" xml:lang="en" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1">
+                  <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.1" n="1" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.1">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="sitting" function="M8,C1,P1,G1.1,G2.1,M6,A9+" ana="sem:M8">sitting</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.1.t3" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.1.t4" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="open" function="A10+,S1.2.1+,X6-,X5.2+,A7+" ana="sem:A10p">open</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.1.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">(</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.1.t6" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="9:33" function="N1" ana="sem:N1">9:33</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.1.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="a.m." function="T1.3" ana="sem:T1.3" join="right">a.m.</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.1.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">)</pc>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.1.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.2" n="2" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.2">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.2.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.2.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="Minute" function="T1.3,Q1.2" ana="sem:T1.3">Minutes</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.2.t3" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="shall" function="T1.1.3" ana="sem:T1.1.3">shall</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.2.t4" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.2.t5" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="read" function="Q3,Q1.2,X3.2+,X2.5+,P1,A10+" ana="sem:Q3" join="right">read</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.2.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3" n="3" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Mr" function="Z1m" ana="sem:Z1">Mr</w>
+                     <name type="PER">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Amati" function="Z1m" ana="sem:Z1" join="right">Amati</w>
+                     </name>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3.t4" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="secretary" function="I3.2/S2mf,S7.1+/S2mf" ana="sem:I3.2 sem:S2" join="right">secretary</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3.t6" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="read" function="Q3,Q1.2,X3.2+,X2.5+,P1,A10+" ana="sem:Q3">read</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3.t7" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3.t8" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="Minute" function="T1.3,Q1.2" ana="sem:T1.3">Minutes</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3.t9" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3.t10" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3.t11" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="afternoon" function="T1.3" ana="sem:T1.3">afternoon</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3.t12" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="sit" function="M8,C1,P1,G1.1,G2.1,M6,A9+" ana="sem:M8">sitting</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3.t13" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3.t14" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="4" function="N1" ana="sem:N1">4</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3.t15" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="June" function="T1.3,Z1f" ana="sem:T1.3" join="right">June</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection" xml:lang="en">
+            <head xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.head1" xml:lang="en" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.head1">Sul processo verbale</head>
+            <note type="speaker" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.note3" xml:lang="en" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.note3">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.u2" xml:lang="en" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.u2">
+               <seg xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2" xml:lang="en" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2">
+                  <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2.1" n="1" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2.1">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8" join="right">I</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2.1.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">'m</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2.1.t3" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="ask" function="Q2.2,I1.3" ana="sem:Q2.2">asking</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2.1.t4" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2.1.t5" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="talk" function="Q2.1" ana="sem:Q2.1" join="right">talk</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2.1.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection" xml:lang="en">
+            <u ana="#regular" who="#DiBiagioAldo" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.u199" xml:lang="en" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.u199">
+               <seg xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288" xml:lang="en" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288">
+                  <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.1" n="1" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.1">
+                     <name type="ORG">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.1.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="DI" function="Z1mf,Z3c" ana="sem:Z1">DI</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.1.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="BIAGIO" function="Z1mf,Z3c" ana="sem:Z1">BIAGIO</w>
+                     </name>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.1.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">(</pc>
+                     <name type="ORG">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.1.t4" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="ap" function="Z3c" ana="sem:Z3">AP</w>
+                     </name>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.1.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">(</pc>
+                     <name type="ORG">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.1.t6" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="NCD" function="Z99" ana="sem:Z99" join="right">NCD</w>
+                     </name>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.1.t7" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">-</pc>
+                     <name type="ORG">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.1.t8" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="UDC" function="Z99" ana="sem:Z99" join="right">UDC</w>
+                     </name>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.1.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">)</pc>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.1.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">)</pc>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.1.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2" n="2" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2">
+                     <phr type="sem" function="Z1m" ana="sem:Z1">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Mr" function="Z1m" ana="sem:Z1">Mr</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="President" function="Z1m" ana="sem:Z1" join="right">President</w>
+                     </phr>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t4" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">there</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t5" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+                     <phr type="sem" function="N5+" ana="sem:N5p">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t6" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="N5+" ana="sem:N5p">a</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t7" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="great" function="N5+" ana="sem:N5p">great</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t8" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="deal" function="N5+" ana="sem:N5p">deal</w>
+                     </phr>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t9" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t10" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="talk" function="Q2.1" ana="sem:Q2.1">talk</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t11" pos="IN" msd="UPosTag=ADP" lemma="about" function="Z5" ana="sem:Z5">about</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t12" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="illegal" function="G2.1-" ana="sem:G2.1n">illegal</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t13" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="affair" function="A1.1.1,S1.1.1,S3.2" ana="sem:A1.1.1">affairs</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t14" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="related" function="A2.2,S4" ana="sem:A2.2">related</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t15" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t16" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t17" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="management" function="Df/A5.1+++mfnc" ana="sem:A5.1p">management</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t18" pos="IN" msd="UPosTag=ADP" lemma="of" function="Df/A5.1+++mfnc" ana="sem:A5.1p">of</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t19" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Df/A5.1+++mfnc" ana="sem:A5.1p">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t20" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="emergency" function="Df/A5.1+++mfnc" ana="sem:A5.1p">emergency</w>
+                     </phr>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t21" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t22" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="immigrant" function="M1/M7/S2mf" ana="sem:M1 sem:M7 sem:S2">immigrants</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t23" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t24" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t25" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="resource" function="A9+,W3" ana="sem:A9p">resources</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t26" pos="WDT" msd="UPosTag=PRON|PronType=Rel" lemma="which" function="Z5,Z8" ana="sem:Z5" join="right">which</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t27" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t28" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t29" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="seem" function="A8" ana="sem:A8" join="right">seems</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t30" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t31" pos="JJR" msd="UPosTag=ADJ|Degree=Cmp" lemma="more" function="A13.3,N6++" ana="sem:A13.3">more</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t32" pos="IN" msd="UPosTag=SCONJ" lemma="than" function="Z5" ana="sem:Z5">than</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t33" pos="VBG" msd="UPosTag=AUX|VerbForm=Ger" lemma="be" function="A3+,L1" ana="sem:A3p">being</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t34" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="divert" function="M2,X5.1-" ana="sem:M2">diverted</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t35" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+                     <phr type="sem" function="S8+c" ana="sem:S8p">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t36" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="welfare" function="S8+c" ana="sem:S8p">welfare</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t37" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="service" function="S8+c" ana="sem:S8p" join="right">services</w>
+                     </phr>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t38" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t39" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="feed" function="F1" ana="sem:F1">feed</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t40" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="clientele" function="I2.2/S2c" ana="sem:I2.2 sem:S2">clientele</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t41" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t42" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="ill" function="B2-,A5.1-" ana="sem:B2n" join="right">ill</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t43" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">-</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t44" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="do" function="A1.1.1,G2.2-,X9.2+,G2.1%,E3-" ana="sem:A1.1.1" join="right">doing</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.t45" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3" n="3" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="escape" function="A1.7-,X2.2-,Y2" ana="sem:A1.7n" join="right">escapes</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t4" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">however</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t6" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t7" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="little" function="N3.2-,T3-,N3.7-,N3.3-,T1.3-,A11.1-" ana="sem:N3.2n">little</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t8" pos="Z" msd="UPosTag=PUNCT" function="Z5" ana="sem:Z5" join="right">'</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t9" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t10" pos="DT" msd="UPosTag=DET" lemma="all" function="N5.1+" ana="sem:N5.1p">all</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t11" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t12" pos="IN" msd="UPosTag=ADP" lemma="behind" function="Z5" ana="sem:Z5">behind</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t13" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">this</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t14" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">there</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t15" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t16" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t17" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t18" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="lightness" function="W2,N3.5-,O4.2+,A11.1-" ana="sem:W2">lightness</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t19" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t20" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="LOC">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t21" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="State" function="Q2.1" ana="sem:Q2.1">State</w>
+                     </name>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t22" pos="IN" msd="UPosTag=SCONJ" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t23" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t24" pos="VBG" msd="UPosTag=AUX|VerbForm=Ger" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">having</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t25" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="understand" function="X2.5+" ana="sem:X2.5p">understood</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t26" pos="RB" msd="UPosTag=ADV|Degree=Pos" lemma="well" function="A5.1+,A13.3,A7+,B2+,Z4" ana="sem:A5.1p">well</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t27" pos="WP" msd="UPosTag=PRON|PronType=Int" lemma="what" function="Z8,Z5" ana="sem:Z8">what</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t28" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t29" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="privatization" function="G1.1-" ana="sem:G1.1n">privatization</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t30" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t31" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t32" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Italian" function="T1.3" ana="sem:T1.3">Italian</w>
+                     </name>
+                     <name type="ORG">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t33" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Red" function="T1.3" ana="sem:T1.3">Red</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t34" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Cross" function="M1,M6,S8-,A1.8+,A6.3+,F4/L2,O4.4,Q1.2,E3-,S1.1.1,S9@" ana="sem:M1">Cross</w>
+                     </name>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t35" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="would" function="A7+" ana="sem:A7p">would</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t36" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">have</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t37" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="mean" function="Q1.1,X7+,S6+" ana="sem:Q1.1" join="right">meant</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.t38" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4" n="4" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="current" function="T1.1.2" ana="sem:T1.1.2">current</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="situation" function="A3+,O4.1,M6,I3.1@" ana="sem:A3p">situation</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t4" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t5" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="confirm" function="A7+,Q2.2,S9@" ana="sem:A7p">confirming</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t6" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t7" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t8" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="failure" function="X9.2-,A5.1-/A2.1" ana="sem:X9.2n">failure</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t9" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t10" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t11" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="public" function="S5+,A10+" ana="sem:S5p">public</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t12" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="presence" function="M6,A3+,S1.1.3+,S1.2,S9" ana="sem:M6">presence</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t13" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t14" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t15" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Red" function="Z1mf,Z3c" ana="sem:Z1">Red</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t16" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Cross" function="Z1mf,Z3c" ana="sem:Z1">Cross</w>
+                     </name>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t17" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t18" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="sensitive" function="X2.5+/E1,E6-,O4.1,B1,A4.2+" ana="sem:X2.5p sem:E1">sensitive</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t19" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="sector" function="A4.1,S5+,M7,N2@" ana="sem:A4.1">sectors</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t20" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="such" function="Z5,Z8" ana="sem:Z5">such</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t21" pos="IN" msd="UPosTag=ADP" lemma="as" function="Z5" ana="sem:Z5">as</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t22" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t23" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="management" function="S7.1+c" ana="sem:S7.1p">management</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t24" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t25" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="reception" function="H2,S1.1.1,Q4.3,S1.1.3+,T3-" ana="sem:H2">reception</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t26" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="centre" function="M6,H1c,M7c,G1.2c,K5.1mfn" ana="sem:M6">centres</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t27" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="lend" function="A5.4+" ana="sem:A5.4p">lends</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t28" pos="PRP$" msd="UPosTag=PRON|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs" lemma="its" function="A5.4+" ana="sem:A5.4p">its</w>
+                     </phr>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t29" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="support" function="S8+,O2,I1.1,B5%" ana="sem:S8p">support</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t30" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t31" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t32" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="degeneration" function="Df/A5.1+++mfnc" ana="sem:A5.1p">degeneration</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t33" pos="IN" msd="UPosTag=ADP" lemma="of" function="Df/A5.1+++mfnc" ana="sem:A5.1p">of</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t34" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Df/A5.1+++mfnc" ana="sem:A5.1p">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t35" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="business" function="Df/A5.1+++mfnc" ana="sem:A5.1p">business</w>
+                     </phr>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t36" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t37" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="immigrant" function="M1/M7/S2mf" ana="sem:M1 sem:M7 sem:S2">immigrants</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t38" pos="IN" msd="UPosTag=ADP" lemma="by" function="Z5" ana="sem:Z5">by</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t39" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="private" function="A10-,S5-,G1.1-" ana="sem:A10n">private</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t40" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="individual" function="S2mf" ana="sem:S2" join="right">individuals</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t41" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t42" pos="IN" msd="UPosTag=SCONJ" lemma="because" function="Z5/A2.2" ana="sem:Z5 sem:A2.2">because</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t43" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t44" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="remain" function="T2++,M8,N5.2+" ana="sem:T2p">remains</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t45" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="discover" function="A10+" ana="sem:A10p">discovered</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t46" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">an</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t47" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="area" function="M7,A4.1,N3.6" ana="sem:M7">area</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t48" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t49" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="action" function="A1.1.1,G3" ana="sem:A1.1.1">action</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t50" pos="RB" msd="UPosTag=ADV" lemma="previously" function="N4" ana="sem:N4">previously</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t51" pos="IN" msd="UPosTag=ADP" lemma="within" function="Z5" ana="sem:Z5">within</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t52" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t53" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="competence" function="X9.1" ana="sem:X9.1">competence</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t54" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t55" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t56" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Red" function="Z1mf,Z3c" ana="sem:Z1">Red</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t57" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Cross" function="Z1mf,Z3c" ana="sem:Z1">Cross</w>
+                     </name>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t58" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t59" pos="RB" msd="UPosTag=ADV" lemma="currently" function="T1.1.2" ana="sem:T1.1.2">currently</w>
+                     <phr type="sem" function="S7.1-" ana="sem:S7.1n">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t60" pos="IN" msd="UPosTag=ADP" lemma="at" function="S7.1-" ana="sem:S7.1n">at</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t61" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="S7.1-" ana="sem:S7.1n">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t62" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="mercy" function="S7.1-" ana="sem:S7.1n">mercy</w>
+                     </phr>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t63" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t64" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="private" function="A10-,S5-,G1.1-" ana="sem:A10n">private</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t65" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="subject" function="X4.1,C1/S2mf,Q3,P1,S7.1-/S2mf" ana="sem:X4.1" join="right">subjects</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t66" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t67" pos="DT" msd="UPosTag=DET" lemma="each" function="N5.1+" ana="sem:N5.1p" join="right">each</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t68" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t69" pos="IN" msd="UPosTag=ADP|ExtPos=ADV" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t70" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="course" function="M6,X7+,P1,B3,F1,M7/K5.1,T1.3" ana="sem:M6" join="right">course</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t71" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t72" pos="IN" msd="UPosTag=ADP" lemma="with" function="Z5" ana="sem:Z5">with</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t73" pos="PRP$" msd="UPosTag=PRON|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs" lemma="its" function="Z8" ana="sem:Z8">its</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t74" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="own" function="A9+,S5-" ana="sem:A9p">own</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t75" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="desire" function="X7+,S3.2" ana="sem:X7p" join="right">desires</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.t76" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5" n="5" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t1" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">An</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="example" function="A4.1" ana="sem:A4.1">example</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t4" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">this</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t5" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t6" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+                     <name type="MISC">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t7" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="Roman" function="Z2" ana="sem:Z2">Roman</w>
+                     </name>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t8" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="campsite" function="H4/M7" ana="sem:H4 sem:M7">campsite</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t9" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="use" function="A1.5.1,S7.1+" ana="sem:A1.5.1">used</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t10" pos="IN" msd="UPosTag=ADP" lemma="as" function="Z5" ana="sem:Z5">as</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t11" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t12" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="reception" function="H2,S1.1.1,Q4.3,S1.1.3+,T3-" ana="sem:H2">reception</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t13" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="centre" function="M6,H1c,M7c,G1.2c,K5.1mfn" ana="sem:M6" join="right">centre</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t15" pos="WP$" msd="UPosTag=PRON|Poss=Yes|PronType=Rel" lemma="whose" function="Z8" ana="sem:Z8">whose</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t16" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="management" function="S7.1+c" ana="sem:S7.1p">management</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t17" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t18" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="entrust" function="A9-,S7.1+,S7.4+" ana="sem:A9n">entrusted</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t19" pos="IN" msd="UPosTag=ADP" lemma="by" function="Z5" ana="sem:Z5">by</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t20" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t21" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="prefecture" function="Z99" ana="sem:Z99">prefecture</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t22" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t23" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t24" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="cooperative" function="S8+/S5c" ana="sem:S8p sem:S5" join="right">cooperative</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.t25" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6" n="6" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="latter" function="N4" ana="sem:N4" join="right">latter</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t4" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t5" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">having</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t6" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t7" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="skill" function="X9.1+" ana="sem:X9.1p">skills</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t8" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t9" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t10" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="tool" function="O2,X4.2" ana="sem:O2" join="right">tools</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t12" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t13" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="understand" function="X2.5+" ana="sem:X2.5p">understand</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t14" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t15" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t16" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="involve" function="A1.8+" ana="sem:A1.8p" join="right">involved</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t17" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t18" pos="IN" msd="UPosTag=ADP" lemma="without" function="Z5" ana="sem:Z5">without</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t19" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="legitimacy" function="G2.2+" ana="sem:G2.2p" join="right">legitimacy</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t20" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t21" pos="CC" msd="UPosTag=CCONJ" lemma="both" function="N5" ana="sem:N5">both</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t22" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="volunteer" function="I3.1/I1.1-/S2mf,I3.1/X7+/S2mf,G3/S2mf" ana="sem:I3.1 sem:I1.1n sem:S2">volunteers</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t23" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t24" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t25" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Red" function="Z1mf,Z3c" ana="sem:Z1">Red</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t26" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Cross" function="Z1mf,Z3c" ana="sem:Z1">Cross</w>
+                     </name>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t27" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin" lemma="specialize" function="A4.2+" ana="sem:A4.2p">specialized</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t28" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t29" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t30" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="field" function="F4,W3,M7,K5.1/M7,G3@,A4.1" ana="sem:F4" join="right">field</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t31" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t32" pos="WDT" msd="UPosTag=PRON|PronType=Rel" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t33" pos="RB" msd="UPosTag=ADV" lemma="therefore" function="Z5" ana="sem:Z5">therefore</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t34" pos="IN" msd="UPosTag=ADP" lemma="at" function="Z5" ana="sem:Z5">at</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t35" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <phr type="sem" function="Df" ana="sem:Z9">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t36" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="moment" function="Df" ana="sem:Z9">moment</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t37" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="work" function="Df" ana="sem:Z9">work</w>
+                     </phr>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t38" pos="IN" msd="UPosTag=ADP" lemma="at" function="Z5" ana="sem:Z5">at</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t39" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t40" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="tight" function="N3.2-,A1.7+,N5+,O4.4,S5+,A12-,F2+,S1.2.2+" ana="sem:N3.2n">tight</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t41" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="pace" function="N3.8,N3.3" ana="sem:N3.8" join="right">pace</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t42" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t43" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t44" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="many" function="N5+" ana="sem:N5p">many</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t45" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="employee" function="I3.1/S2mf" ana="sem:I3.1 sem:S2">employees</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t46" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t47" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t48" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="provincial" function="Z99" ana="sem:Z99">provincial</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t49" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="committee" function="Z2,Z3c" ana="sem:Z2">committee</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t50" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z2,Z3c" ana="sem:Z2">of</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t51" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Rome" function="Z2,Z3c" ana="sem:Z2">Rome</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t52" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t53" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t54" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Red" function="Z1mf,Z3c" ana="sem:Z1">Red</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t55" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Cross" function="Z1mf,Z3c" ana="sem:Z1" join="right">Cross</w>
+                     </name>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.t56" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7" n="7" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t1" pos="RB" msd="UPosTag=ADV" lemma="therefore" function="Z5" ana="sem:Z5" join="right">Therefore</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t3" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">we</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t4" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t5" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="face" function="M6,S1.1.1,X2.1,B5" ana="sem:M6">faced</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t6" pos="IN" msd="UPosTag=ADP" lemma="with" function="Z5" ana="sem:Z5">with</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t7" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t8" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="paradox" function="A6.1-/X2.6" ana="sem:A6.1n sem:X2.6">paradox</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t9" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t10" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t11" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Red" function="Z3c" ana="sem:Z3">Red</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t12" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Cross" function="Z3c" ana="sem:Z3">Cross</w>
+                     </name>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t13" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="subcontract" function="I2.1" ana="sem:I2.1">subcontracted</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t14" pos="IN" msd="UPosTag=ADP" lemma="by" function="Z5" ana="sem:Z5">by</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t15" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t16" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="private" function="A10-,S5-,G1.1-" ana="sem:A10n">private</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t17" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="society" function="S5+c" ana="sem:S5p">society</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t18" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t19" pos="WDT" msd="UPosTag=PRON|PronType=Rel" lemma="which" function="Z5,Z8" ana="sem:Z5">which</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t20" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t21" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="State" function="G1.1c,O4.1" ana="sem:G1.1">State</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t22" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="recognize" function="X2.2+,X2.5+,S7.4+,G2.1+,S1.1.1" ana="sem:X2.2p">recognizes</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t23" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="fund" function="I1.1,N5+" ana="sem:I1.1" join="right">funds</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.t24" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8" n="8" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t2" pos="RB" msd="UPosTag=ADV" lemma="really" function="A13.3,A5.2+" ana="sem:A13.3">really</w>
+                     <phr type="sem" function="A5.4+" ana="sem:A5.4p">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t3" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="think" function="A5.4+" ana="sem:A5.4p">think</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t4" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="A5.4+" ana="sem:A5.4p">it</w>
+                     </phr>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t5" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t6" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="appropriate" function="A1.2+" ana="sem:A1.2p">appropriate</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t7" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t8" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="reflect" function="A10+,Y1/M2,X3.4,X2.1,A5.1" ana="sem:A10p">reflect</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t9" pos="IN" msd="UPosTag=ADP" lemma="with" function="Z5" ana="sem:Z5">with</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t10" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t11" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="government" function="G1.1c" ana="sem:G1.1">Government</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t12" pos="IN" msd="UPosTag=SCONJ" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t13" pos="WP" msd="UPosTag=PRON|PronType=Int" lemma="what" function="Z8,Z5" ana="sem:Z8">what</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t14" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t15" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="happen" function="A2.1+,A3+,X7-" ana="sem:A2.1p">happening</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t17" pos="WDT" msd="UPosTag=PRON|PronType=Rel" lemma="which" function="Z5,Z8" ana="sem:Z5">which</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t18" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t19" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">have</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t20" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="denounce" function="Q2.2/E2-" ana="sem:Q2.2 sem:E2n">denounced</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t21" pos="RB" msd="UPosTag=ADV" lemma="even" function="A13.1" ana="sem:A13.1">even</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t22" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t23" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="parliamentary" function="G1.1" ana="sem:G1.1">parliamentary</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t24" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="act" function="A1.1.1,K4" ana="sem:A1.1.1">acts</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t25" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t26" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t27" pos="IN" msd="UPosTag=SCONJ" lemma="because" function="Z5/A2.2" ana="sem:Z5 sem:A2.2" join="right">because</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t28" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t29" pos="IN" msd="UPosTag=SCONJ" lemma="as" function="Z5" ana="sem:Z5">as</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t30" pos="RB" msd="UPosTag=ADV" lemma="always" function="N6+++" ana="sem:N6p" join="right">always</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t31" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t32" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t33" pos="RBS" msd="UPosTag=ADV|Degree=Sup" lemma="most" function="A13.2,N5+++" ana="sem:A13.2">most</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t34" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="needy" function="I1.1-" ana="sem:I1.1n">needy</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t35" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="citizen" function="G1.1/S2mf,S5+/S2mf" ana="sem:G1.1 sem:S2">citizens</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t36" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="pay" function="I1.2,A9-,I1.1/I3.1" ana="sem:I1.2">pay</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t37" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t38" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">this</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t39" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="miscalculation" function="N2,A5.3-" ana="sem:N2" join="right">miscalculation</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.t40" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+            </u>
+         </div>
+         <div type="debateSection" xml:lang="en">
+            <head xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.head6" xml:lang="en" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.head6">Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="speaker" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.note209" xml:lang="en" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.note209">PRESIDENT</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.u200" xml:lang="en" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.u200">
+               <seg xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289" xml:lang="en" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289">
+                  <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1" n="1" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="motion" function="M1,Q1.1" ana="sem:M1" join="right">motions</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+                     <phr type="sem" function="T1.3" ana="sem:T1.3">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t4" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="question" function="T1.3" ana="sem:T1.3">questions</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t5" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t6" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="question" function="T1.3" ana="sem:T1.3">questions</w>
+                     </phr>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t7" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="receive" function="A9+,S5+" ana="sem:A9p">received</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t8" pos="IN" msd="UPosTag=ADP" lemma="by" function="Z5" ana="sem:Z5">by</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t9" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t10" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Presidency" function="S7.1+,G1.1" ana="sem:S7.1p">Presidency</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t11" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t12" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t13" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="publish" function="Q4" ana="sem:Q4">published</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t14" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
+                     <phr type="sem" function="Z1mf,Z3c" ana="sem:Z1">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t15" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="annex" function="Z1mf,Z3c" ana="sem:Z1">Annex</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t16" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="B" function="Z1mf,Z3c" ana="sem:Z1">B</w>
+                     </phr>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t17" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t18" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="today" function="T1.1.2" ana="sem:T1.1.2" join="right">today</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t19" pos="POS" msd="UPosTag=PART" lemma="'s" function="Z5" ana="sem:Z5">'s</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t20" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="report" function="Q2.2,X3.2" ana="sem:Q2.2" join="right">report</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.t21" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290" xml:lang="en" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290">
+                  <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1" n="1" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="recall" function="X2.2+,I3.1-/G1.2,I2.2/T2-,K5.2,A6.1+" ana="sem:X2.2p">recall</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t3" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t4" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t5" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Senate" function="S7.1+" ana="sem:S7.1p">Senate</w>
+                     </name>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t6" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t7" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="return" function="M1,A9-,N6" ana="sem:M1">return</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t8" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t9" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="public" function="S5+,A10+" ana="sem:S5p">public</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t10" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="session" function="T1.3" ana="sem:T1.3">session</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t11" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="today" function="T1.1.2" ana="sem:T1.1.2" join="right">today</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t12" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t13" pos="IN" msd="UPosTag=ADP" lemma="at" function="Z5" ana="sem:Z5">at</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t14" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="4.30" function="N1" ana="sem:N1">4.30</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t15" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="p.m." function="Z99" ana="sem:Z99" join="right">p.m.</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t17" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t18" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t19" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="same" function="A6.1+++" ana="sem:A6.1p">same</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t20" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="agenda" function="Q1.2/X7+" ana="sem:Q1.2 sem:X7p" join="right">agenda</w>
+<pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.t21" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291" xml:lang="en" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291">
+                  <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291.1" n="1" corresp="mt-src:ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291.1">
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="sitting" function="M8,C1,P1,G1.1,G2.1,M6,A9+" ana="sem:M8">sitting</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291.1.t3" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291.1.t4" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="close" function="A1.1.1,A10-,T2-" ana="sem:A1.1.1">closed</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291.1.t5" pos="IN" msd="UPosTag=ADP" lemma="at" function="Z5" ana="sem:Z5">at</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291.1.t6" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="12.47" function="N1" ana="sem:N1">12.47</w>
+<w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291.1.t7" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="p.m." function="Z99" ana="sem:Z99">p.m.</w>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

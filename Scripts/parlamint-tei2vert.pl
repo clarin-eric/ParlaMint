@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 use warnings;
 use utf8;
 use FindBin qw($Bin);
@@ -11,21 +11,22 @@ $outDir = shift;
 
 binmode(STDERR, 'utf8');
 
-$Saxon = 'java -jar /usr/share/java/saxon.jar';
-$TEI2VERT  = "$Bin/parlamint2xmlvert.xsl";
-$POLISH = "$Bin/parlamint-xml2vert.pl";
+$Saxon = "java -jar $Bin/bin/saxon.jar";
+
+$TEI2VERT = "$Bin/parlamint2xmlvert.xsl";
+$POLISH   = "$Bin/parlamint-xml2vert.pl";
 $Includes = "$Bin/get-includes.xsl";
 
 `mkdir $outDir` unless -e "$outDir";
 
-die "Can't find root TEI file with teiHeader: $rootFile\n"
+die "FATAL ERROR: Can't find root TEI file with teiHeader: $rootFile\n"
     unless -e $rootFile;
 
 my @inFiles = map {"$rootDir/$_"}
               grep {!/ParlaMint-(?:[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?)?.?(taxonomy|listPerson|listOrg).*\.xml/}
               split(/\n/, `$Saxon -xsl:$Includes $rootFile`);
 
-die "ERROR: No component files in $rootFile\n" unless @inFiles;
+die "FATAL ERROR: No component files in $rootFile\n" unless @inFiles;
 
 foreach $inFile (@inFiles) {
     if (($fName) = $inFile =~ m|(ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?_[^/]+)\.ana\.xml|) {
@@ -34,7 +35,7 @@ foreach $inFile (@inFiles) {
     elsif (($fName) = $inFile =~ m|(ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?_[^/]+)\.xml|) {
         print STDERR "INFO: Debug conversion of $fName\n";
     }
-    else {die "Weird input file $inFile\n"}
+    else {die "FATAL ERROR: Weird input file $inFile\n"}
     my $outFile = "$outDir/$fName.vert";
     #Is this a machine translated corpus? If so, $mt will be the langauge it was translated to.
     if ($inFile =~ m/-([a-z]{2,3})\.ana/) {$MT = $1}
@@ -53,6 +54,6 @@ foreach $inFile (@inFiles) {
 	"-xsl:$TEI2VERT $inFile | $POLISH > $outFile";
     #print STDERR "\$ $command\n";
     my $status = system($command);
-    die "ERROR: Conversion to vert for $inFile failed!\n"
+    die "FATAL ERROR: Conversion to vert for $inFile failed!\n"
         if $status;
 }

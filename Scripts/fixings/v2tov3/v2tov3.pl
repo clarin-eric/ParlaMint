@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 use warnings;
 use strict;
 use utf8;
@@ -10,7 +10,7 @@ my $outDir = File::Spec->rel2abs(shift);
 
 binmode(STDERR, 'utf8');
 
-my $Saxon = 'java -jar /usr/share/java/saxon.jar -l ';
+my $Saxon = "java -jar $Bin/../../saxon.jar -l ";
 my $CNV = "$Bin/v2tov3.xsl";
 my $POLISH; #"$Bin/../../polish-xml.pl";
 

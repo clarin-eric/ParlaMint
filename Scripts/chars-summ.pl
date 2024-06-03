@@ -1,4 +1,5 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl
+use warnings;
 use utf8;
 use charnames ();
 binmode(STDIN,'utf8');
@@ -26,7 +27,7 @@ while (<>) {
     next if /\t0\t/;
     my ($fid, $fwc, $chars) = split(/\t/);
     foreach $pair (split(/ /, $chars)) {
-        ($char, $i) = $pair =~ /(.+):(\d+)/ or die "Bad line $_";
+        ($char, $i) = $pair =~ /(.+):(\d+)/ or die "FATAL ERROR: Bad line $_";
         if (($ord) = $char =~ /&#(\d+);/) {$c = chr($ord)}
         elsif ($char =~ /^.$/) {$c = $char; $ord = ord($c)}
         else {

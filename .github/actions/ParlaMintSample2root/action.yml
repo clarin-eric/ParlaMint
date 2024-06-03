@@ -1,0 +1,20 @@
+name: 'Update ParlaMint Sample root files'
+#description: ''
+runs:
+  using: "composite"
+  steps:
+    - name: Root
+      run: |
+          cd $GITHUB_WORKSPACE/ParlaMint
+          for t_i in TEI_ TEI.ana_.ana en.TEI.ana_-en.ana; do
+            type=${t_i%_*};
+            interfix=${t_i#*_};
+            java -jar ./Scripts/bin/saxon.jar base=../Samples type=$type isSample=1 -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-rootTemplate.xml \
+            > Samples/ParlaMint$interfix.xml ;
+          done
+          git status
+          git diff --quiet || git commit -m "action: generating ParlaMint roots for Sample folder #${{github.event.number}}" Samples/ParlaMint*.xml
+          git push
+      shell: bash
+
+

@@ -410,6 +410,7 @@
          </attDef>
          <!--note/@xml:id-->
          <!--note/@xml:lang-->
+         <!--note/@corresp-->
          <!--note/@n-->
          <!--note/@subtype-->
          <attDef ident="xml:base" mode="delete"/>
@@ -417,7 +418,6 @@
          <attDef ident="rend" mode="delete"/>
          <attDef ident="style" mode="delete"/>
          <attDef ident="rendition" mode="delete"/>
-         <attDef ident="corresp" mode="delete"/>
          <attDef ident="synch" mode="delete"/>
          <attDef ident="sameAs" mode="delete"/>
          <attDef ident="copyOf" mode="delete"/>
@@ -501,6 +501,7 @@
          <!--vocal/@xml:id-->
          <!--vocal/@xml:lang-->
          <!--vocal/@n-->
+         <!--vocal/@corresp-->
          <!--vocal/@who-->
          <!--vocal/@subtype-->
          <attDef ident="iterated" mode="delete"/>
@@ -509,7 +510,6 @@
          <attDef ident="rend" mode="delete"/>
          <attDef ident="style" mode="delete"/>
          <attDef ident="rendition" mode="delete"/>
-         <attDef ident="corresp" mode="delete"/>
          <attDef ident="synch" mode="delete"/>
          <attDef ident="sameAs" mode="delete"/>
          <attDef ident="copyOf" mode="delete"/>
@@ -561,6 +561,7 @@
          <!--kinesic/@xml:id-->
          <!--kinesic/@xml:lang-->
          <!--kinesic/@n-->
+         <!--kinesic/@corresp-->
          <!--kinesic/@who-->
          <!--kinesic/@subtype-->
          <attDef ident="iterated" mode="delete"/>
@@ -569,7 +570,6 @@
          <attDef ident="rend" mode="delete"/>
          <attDef ident="style" mode="delete"/>
          <attDef ident="rendition" mode="delete"/>
-         <attDef ident="corresp" mode="delete"/>
          <attDef ident="synch" mode="delete"/>
          <attDef ident="sameAs" mode="delete"/>
          <attDef ident="copyOf" mode="delete"/>
@@ -632,6 +632,7 @@
          <!--incident/@xml:id-->
          <!--incident/@xml:lang-->
          <!--incident/@n-->
+         <!--incident/@corresp-->
          <!--incident/@who-->
          <!--incident/@subtype-->
          <attDef ident="xml:base" mode="delete"/>
@@ -639,7 +640,6 @@
          <attDef ident="rend" mode="delete"/>
          <attDef ident="style" mode="delete"/>
          <attDef ident="rendition" mode="delete"/>
-         <attDef ident="corresp" mode="delete"/>
          <attDef ident="synch" mode="delete"/>
          <attDef ident="sameAs" mode="delete"/>
          <attDef ident="copyOf" mode="delete"/>
@@ -698,13 +698,13 @@
          <!--gap/@xml:id-->
          <!--gap/@xml:lang-->
          <!--gap/@n-->
+         <!--gap/@corresp-->
          <attDef ident="agent" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
          <attDef ident="style" mode="delete"/>
          <attDef ident="rendition" mode="delete"/>
-         <attDef ident="corresp" mode="delete"/>
          <attDef ident="synch" mode="delete"/>
          <attDef ident="sameAs" mode="delete"/>
          <attDef ident="copyOf" mode="delete"/>
@@ -1280,7 +1280,7 @@
             <elementRef key="w"/>
          </alternate>
       </content>
-      <attList><!--w/@xml:id--><!--w/@msd--><!--w/@lemma--><!--w/@xml:lang--><!--w/@norm--><!--w/@join--><!--w/@ana--><!--w/@pos-->
+      <attList><!--w/@xml:id--><!--w/@msd--><!--w/@lemma--><!--w/@xml:lang--><!--w/@norm--><!--w/@join--><!--w/@ana--><!--w/@pos--><!--w/@function-->
          <attDef ident="n" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
@@ -1300,7 +1300,6 @@
          <attDef ident="cert" mode="delete"/>
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
-         <attDef ident="function" mode="delete"/>
          <attDef ident="met" mode="delete"/>
          <attDef ident="real" mode="delete"/>
          <attDef ident="rhyme" mode="delete"/>
@@ -1367,6 +1366,7 @@
          <!--pc/@join-->
          <!--pc/@ana-->
          <!--pc/@pos-->
+         <!--pc/@function-->
          <attDef ident="force" mode="delete"/>
          <attDef ident="unit" mode="delete"/>
          <attDef ident="pre" mode="delete"/>
@@ -1389,7 +1389,6 @@
          <attDef ident="cert" mode="delete"/>
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
-         <attDef ident="function" mode="delete"/>
          <attDef ident="met" mode="delete"/>
          <attDef ident="real" mode="delete"/>
          <attDef ident="rhyme" mode="delete"/>
@@ -1565,6 +1564,12 @@
             <elementRef key="name"/>
             <elementRef key="date"/>
             <elementRef key="num"/>
+            <elementRef key="time"/>
+            <elementRef key="note"/>
+            <elementRef key="vocal"/>
+            <elementRef key="kinesic"/>
+            <elementRef key="incident"/>
+            <elementRef key="gap"/>
             <elementRef key="pb"/>
             <textNode/>
          </alternate>
@@ -2549,6 +2554,37 @@
       <content>
          <textNode/>
       </content>
+      <attList><!--forename/@xml:lang-->
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="ana" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+         <attDef ident="full" mode="delete"/>
+         <attDef ident="sort" mode="delete"/>
+         <attDef ident="role" mode="delete"/>
+         <attDef ident="nymRef" mode="delete"/>
+         <attDef ident="key" mode="delete"/>
+         <attDef ident="ref" mode="delete"/>
+         <attDef ident="type" mode="delete"/>
+         <attDef ident="subtype" mode="delete"/>
+      </attList>
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <persName>
@@ -2564,10 +2600,9 @@
       <content>
          <textNode/>
       </content>
-      <attList>
+      <attList><!--addName/@xml:lang-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -2612,10 +2647,9 @@
       <content>
          <textNode/>
       </content>
-      <attList>
+      <attList><!--nameLink/@xml:lang-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -2658,12 +2692,7 @@
       <content>
          <textNode/>
       </content>
-      <attList>
-         <attDef ident="xml:lang" mode="replace" usage="opt">
-            <datatype>
-               <dataRef key="teidata.language"/>
-            </datatype>
-         </attDef>
+      <attList><!--roleName/@xml:lang-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
@@ -2718,9 +2747,16 @@
          <textNode/>
       </content>
       <attList>
+         <attDef ident="type" mode="replace" usage="opt">
+            <valList type="closed">
+               <valItem ident="birth"/>
+               <valItem ident="patronym"/>
+               <valItem ident="married"/>
+            </valList>
+         </attDef>
+         <!--surname/@xml:lang-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -2746,7 +2782,6 @@
          <attDef ident="nymRef" mode="delete"/>
          <attDef ident="key" mode="delete"/>
          <attDef ident="ref" mode="delete"/>
-         <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
@@ -2754,6 +2789,20 @@
             <persName>
                <surname>Accetto</surname>
                <forename>Matej</forename>
+            </persName>
+         </egXML>
+      </exemplum>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <persName>
+               <forename>Ірина</forename>
+               <surname type="patronym">Борисівна</surname>
+               <surname>Щеняєва</surname>
+            </persName>
+            <persName xml:lang="uk-Latn">
+               <forename>Iryna</forename>
+               <surname type="patronym">Borysivna</surname>
+               <surname>Ščenjajeva</surname>
             </persName>
          </egXML>
       </exemplum>
@@ -5431,14 +5480,13 @@
       <content>
          <textNode/>
       </content>
-      <attList><!--head/@xml:id--><!--head/@xml:lang--><!--head/@type-->
+      <attList><!--head/@xml:id--><!--head/@xml:lang--><!--head/@type--><!--head/@corresp-->
          <attDef ident="n" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
          <attDef ident="style" mode="delete"/>
          <attDef ident="rendition" mode="delete"/>
-         <attDef ident="corresp" mode="delete"/>
          <attDef ident="synch" mode="delete"/>
          <attDef ident="sameAs" mode="delete"/>
          <attDef ident="copyOf" mode="delete"/>
@@ -5896,15 +5944,16 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="state" module="namesdates" mode="change">
-      <desc versionDate="2022-10-04" xml:lang="en">defines additional metadata on the political orientation of a political party or parliamentary group, e.g. its political orientation.</desc>
+      <desc versionDate="2024-01-25" xml:lang="en">defines additional metadata on a political party or parliamentary group,
+    e.g. its political orientation.</desc>
       <content>
-         <alternate>
-            <elementRef key="label"/>
+         <sequence>
             <elementRef key="note" minOccurs="0" maxOccurs="unbounded"/>
-         </alternate>
+            <elementRef key="state" minOccurs="0" maxOccurs="unbounded"/>
+         </sequence>
       </content>
       <attList>
-         <attDef ident="type" mode="replace" usage="opt">
+         <attDef ident="type" mode="replace" usage="req">
             <valList type="closed">
                <valItem ident="politicalOrientation"/>
                <valItem ident="encoder"/>
@@ -5920,6 +5969,7 @@
             </datatype>
          </attDef>
          <!--state/@source-->
+         <!--state/@key-->
          <!--state/@from-->
          <!--state/@to-->
          <!--state/@n-->
@@ -5964,7 +6014,6 @@
          <attDef ident="subtype" mode="delete"/>
          <attDef ident="role" mode="delete"/>
          <attDef ident="nymRef" mode="delete"/>
-         <attDef ident="key" mode="delete"/>
          <attDef ident="ref" mode="delete"/>
          <attDef ident="unit" mode="delete"/>
          <attDef ident="quantity" mode="delete"/>
@@ -5978,43 +6027,39 @@
          <attDef ident="confidence" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
+         <p>Encoding political orientation as entered by an encoder:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
-            <state type="politicalOrientation" subtype="unknown" ana="#orientation.L"/>
+            <state type="politicalOrientation">
+               <state type="encoder" source="#GrietDepoorter" ana="#orientation.CRR">
+                  <note xml:lang="en">Orientation determined by encoder, using own knowledge of the parliamentary group.</note>
+               </state>
+            </state>
          </egXML>
       </exemplum>
       <exemplum xml:lang="en">
+         <p>Encoding Wikipedia-sourced political orientation:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
-            <state type="politicalOrientation"
-                   subtype="Wikipedia"
-                   source="https://en.wikipedia.org/wiki/Christian_Democratic_and_Flemish"
-                   ana="#orientation.CCR">
-               <note xml:lang="en">CD&amp;V, CDV, CVP (until 2001)</note>
+            <state type="politicalOrientation">
+               <state type="Wikipedia"
+                      source="https://lv.wikipedia.org/wiki/Attīstībai/Par!"
+                      ana="#orientation.C"/>
             </state>
          </egXML>
       </exemplum>
-      <exemplum versionDate="2008-04-06" xml:lang="fr">
+      <exemplum xml:lang="en">
+         <p>Encoding CHES-sourced variables and their values, with @key containing the CHES name for the political party:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
-            <state type="politicalOrientation"
-                   subtype="CHES"
-                   source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv"
-                   n="2.29"
-                   ana="#orientation.L"
-                   from="2010"
-                   to="2013">
-               <label>
-                  <orgName full="init">Groen</orgName>
-               </label>
-            </state>
-            <state type="politicalOrientation"
-                   subtype="CHES"
-                   source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv"
-                   n="2.20"
-                   ana="#orientation.L"
-                   from="2014"
-                   to="2018">
-               <label>
-                  <orgName full="abb">Groen</orgName>
-               </label>
+            <state type="CHES"
+                   key="AP!"
+                   from="2019"
+                   to="2019"
+                   source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv">
+               <state type="variable" ana="#ches.lrgen">
+                  <state type="value" from="2019" to="2019" n="5.82"/>
+               </state>
+               <state type="variable" ana="#ches.lrecon">
+                  <state type="value" from="2019" to="2019" n="5.90"/>
+               </state>
             </state>
          </egXML>
       </exemplum>
@@ -6071,13 +6116,12 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="person" module="namesdates" mode="change">
-      <desc versionDate="2005-12-14" xml:lang="en">provides information about an identifiable individual, for example a participant in a language interaction, or a person referred to in a
-    historical source.</desc>
+      <desc versionDate="2024-05-14" xml:lang="en">provides information about a speaker in the corpus, at the very least their name and sex.</desc>
       <content>
          <sequence>
             <elementRef key="persName" minOccurs="1" maxOccurs="unbounded"/>
-            <alternate minOccurs="0" maxOccurs="unbounded">
-               <elementRef key="sex" minOccurs="0" maxOccurs="1"/>
+            <alternate minOccurs="1" maxOccurs="unbounded">
+               <elementRef key="sex" minOccurs="1" maxOccurs="1"/>
                <elementRef key="birth" minOccurs="0" maxOccurs="1"/>
                <elementRef key="death" minOccurs="0" maxOccurs="1"/>
                <elementRef key="affiliation" minOccurs="0" maxOccurs="unbounded"/>
@@ -6217,7 +6261,7 @@
     Note that there can be several placeNames, all referring to the same place, but written in different languages or scripts.</desc>
       <content>
          <alternate>
-            <elementRef key="placeName" minOccurs="0"/>
+            <elementRef key="placeName" minOccurs="0" maxOccurs="unbounded"/>
             <empty/>
          </alternate>
       </content>
@@ -6305,7 +6349,7 @@
     Note that there can be several placeNames, all referring to the same place, but written in different languages or scripts.</desc>
       <content>
          <alternate>
-            <elementRef key="placeName" minOccurs="0"/>
+            <elementRef key="placeName" minOccurs="0" maxOccurs="unbounded"/>
             <empty/>
          </alternate>
       </content>
@@ -6456,15 +6500,20 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="affiliation" module="namesdates" mode="change">
-      <desc versionDate="2023-04-06" xml:lang="en">contains an informal description of a person's present or past affiliation with some
-    organisation, for example a political party or ministry.</desc>
+      <desc versionDate="2024-02-29" xml:lang="en">optionally contains the role name corresponding to the affiliation,
+    the name of the organisation that the person is affiliated with, and notes giving further informal information
+    about the affiliation.</desc>
       <content>
          <elementRef key="roleName" minOccurs="0" maxOccurs="unbounded"/>
          <elementRef key="orgName" minOccurs="0" maxOccurs="unbounded"/>
+         <elementRef key="note" minOccurs="0" maxOccurs="unbounded"/>
       </content>
       <attList>
          <attDef ident="role" mode="replace" usage="req">
             <valList type="closed">
+               <valItem ident="head"/>
+               <valItem ident="minister"/>
+               <valItem ident="member"/>
                <valItem ident="academician"/>
                <valItem ident="alternateOfDelegation"/>
                <valItem ident="associateMember"/>
@@ -6472,9 +6521,6 @@
                <valItem ident="constitutionalJudge"/>
                <valItem ident="deputyHead"/>
                <valItem ident="deputyMinister"/>
-               <valItem ident="head"/>
-               <valItem ident="member"/>
-               <valItem ident="minister"/>
                <valItem ident="ministerDelegate"/>
                <valItem ident="nonAttachedMember"/>
                <valItem ident="observer"/>
@@ -6488,32 +6534,14 @@
                <valItem ident="secretaryOfState"/>
                <valItem ident="verifier"/>
                <valItem ident="vicePublicDefenderOfRights"/>
-               <!-- Old roles, no longer valid: -->
-               <!--valItem ident="candidateMP"/-->
-               <!--valItem ident="chairperson"/-->
-               <!--valItem ident="chiefInspector"/-->
-               <!--valItem ident="commander"/-->
-               <!--valItem ident="deputyChief"/-->
-               <!--valItem ident="deputyPrimeMinister"/-->
-               <!--valItem ident="director"/-->
-               <!--valItem ident="headOfDelegation"/-->
-               <!--valItem ident="headOfDepartment"/-->
-               <!--valItem ident="leader"/-->
-               <!--valItem ident="ministerOfState"/-->
-               <!--valItem ident="presidentEP"/-->
-               <!--valItem ident="presidiumMember"/-->
-               <!--valItem ident="primeMinister"/-->
-               <!--valItem ident="substituteMP"/-->
-               <!--valItem ident="viceChairman"/-->
-               <!--valItem ident="viceDirector"/-->
-               <!--valItem ident="vicePresident"/-->
             </valList>
          </attDef>
          <!--affiliation/@ref-->
+         <!--affiliation/@ana-->
          <!--affiliation/@when-->
          <!--affiliation/@from-->
          <!--affiliation/@to-->
-         <!--affiliation/@ana-->
+         <!--affiliation/@source-->
          <attDef ident="type" mode="delete"/>
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
@@ -6535,7 +6563,6 @@
          <attDef ident="change" mode="delete"/>
          <attDef ident="cert" mode="delete"/>
          <attDef ident="resp" mode="delete"/>
-         <attDef ident="source" mode="delete"/>
          <attDef ident="evidence" mode="delete"/>
          <attDef ident="instant" mode="delete"/>
          <attDef ident="calendar" mode="delete"/>

@@ -1,4 +1,5 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl
+use warnings;
 use utf8;
 $inDirs = shift;
 binmode(STDOUT,'utf8');
@@ -17,10 +18,10 @@ foreach $inDir (glob $inDirs) {
         }
         #For HR, as it does't have dates
         elsif ($inFile =~ /_S\d\d/) {
-            open IN, $inFile or die;
+            open IN, $inFile or die "FATAL ERROR: Cant file input file $inFile\n";
             $cont = 1;
             while ($cont) {
-                die "Can't find speech in $inFile!\n"
+                die "FATAL ERROR: Can't find speech in $inFile!\n"
                     if eof(IN);
                 $line = <IN>;
                 if ($line =~ m|<speech |) {
@@ -35,7 +36,7 @@ foreach $inDir (glob $inDirs) {
             $interval{$country}{"$from/$to"} += $tokens;
             # print STDERR "INFO: $inFile, block $country $from/$to: $tokens\n";
         }
-        else {die "Bad file $inFile!\n"}
+        else {die "FATAL ERROR: Bad file $inFile!\n"}
     }
 }
 #Now put the interval into existing dates, in equal portions in months
@@ -60,7 +61,7 @@ foreach $country (keys %interval) {
         elsif (($month) = $interval =~ m|^(.+)/$1$|) { #there are no month to cover this!
             $words{$month}{$country} = $interval{$country}{$interval}
         }
-        else {die "Can't handle $interval for $country!\n"}
+        else {die "FATAL ERROR: Can't handle $interval for $country!\n"}
     }
 }
 #Output header

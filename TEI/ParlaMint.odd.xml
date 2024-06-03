@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2023-11-06</date>
+        <date>2024-05-14</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -38,7 +38,7 @@
         <p>Made on the basis of the <ref
         target="https://github.com/clarin-eric/ParlaMint">Parla-CLARIN</ref>
         recommendation. For (possibly modified) examples of encoding uses the
-        <bibl xml:id="ParlaMint">ParlaMint corpus V2.1</bibl>.</p>
+        <bibl xml:id="ParlaMint">ParlaMint corpus</bibl>.</p>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -48,6 +48,10 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
+      <change when="2024-05-14">Tomaž Erjavec: Make person/sex obligatory.</change>
+      <change when="2024-03-03">Tomaž Erjavec: Slighlty edit the section of affiliations.</change>
+      <change when="2024-02-08">Tomaž Erjavec: Change encoding of name so it allows more .ana elements.</change>
+      <change when="2024-01-25">Tomaž Erjavec: Change encoding of org/state so it is TEI compliant.</change>
       <change when="2023-11-06">Tomaž Erjavec: Add info on semantic annotations and other small changes.</change>
       <change when="2023-10-09">Tomaž Erjavec: Allow multilingual names.</change>
       <change when="2023-08-22">Tomaž Erjavec: Change description of org/state.</change>
@@ -68,12 +72,11 @@
     <front>
       <titlePage>
         <docTitle>
-          <titlePart type="main">The structure and encoding of <ref
-          target="https://github.com/clarin-eric/ParlaMint">ParlaMint
-          corpora</ref></titlePart>
+          <titlePart type="main">The structure and encoding of
+          <ref target="https://github.com/clarin-eric/ParlaMint">ParlaMint corpora</ref></titlePart>
         </docTitle>
-        <!--docEdition>v3.0</docEdition-->
-        <docDate>2023-11-06</docDate>
+        <!--docEdition>v4.1</docEdition-->
+        <docDate>2024-05-14</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -1609,10 +1612,10 @@
             case <val>member</val>. The <att>ref</att> attribute points to the ID of the
             organisation (cf. the Section on <ref target="#sec-orgs">Organisations</ref>) in
             which the person has the specified role. For MPs, as is the case above, this will
-            be the ID of the parliament or one of the two houses (cf. the Section on <ref
-            target="#sec-parliament">The parliament organisations</ref>).</p>
+            be the ID of the parliament (cf. the Section on <ref target="#sec-parliament">The
+            parliament organisations</ref>).</p>
 
-            <p>The example above also shows the use of the classification attribute
+            <p>The example above also shows the use of the (optional) classification attribute
             <att>ana</att>, which points to the specification of the legislative period
             in which the person was affiliated with the specified organisation. Such
             legislative periods are typically given as <gi>event</gi> elements inside the
@@ -1620,12 +1623,9 @@
             the <ref target="#sec-government">government</ref> and <ref
             target="#sec-parliament">parliament</ref> organisations.</p>
             
-            <p>The affiliation element also has the usual <att>from</att> and
+            <p>The affiliation element can also have the usual <att>from</att> and
             <att>to</att> attributes, i.e. from and to when the person was affiliated
-            with the organisation. Affiliation can also have the classification
-            <att>ana</att> attribute, which here points to the definition of the
-            legislative period in which the person was affiliated with the specified
-            organisation.</p>
+            with the organisation.</p>
             
             <p>The <att>role</att> attribute can have as its value one of the values
             given by the ParlaMint schema. For backward compatibility with ParlaMint I
@@ -1647,8 +1647,8 @@
               of how this role is named in the specific country and for the specific
               organisation, i.e. it can be used for the queen (head of the <val>country</val>
               organisation), president (head of the <val>republic</val> organisation), prime
-              minister (head of <val>goverment</val>), minister (head of <val>ministry</val>),
-              chairperson (head of <val>committee</val>), etc.</item>
+              minister (head of <val>goverment</val> organisation), minister (head of <val>ministry</val> organisation),
+              chairperson (head of <val>committee</val> organisation), etc.</item>
               
               <item><val>deputyHead</val> is the deputy head of the organisation, again,
               regardless of how this role is named in the specific country and for the specific
@@ -1657,15 +1657,15 @@
 
               <item><val>minister</val> is used to indicate that the person is the minister
               in the government. Note that this only says that they are a minister, and
-              when.  To encode what they are a minister of, the ministry organisation needs
-              to be created, and the minister associated with it with the <val>head</val>
+              when. To encode what they are a minister of, the ministry organisation needs
+              to be defined, and the minister associated with it with the <val>head</val>
               role.</item>
             </list>
             </p>
 
-            <p>Because the roles are quite generic, ParlaMint also allows to specify the
+            <p>Because the values of the <att>role</att> attribute are quite generic, ParlaMint also allows to specify the
             exact name of the affiliation role for a particular country or region using the
-            <gi>roleName</gi> element, preferably both in the local language, as well as in
+            <gi>roleName</gi> element in the content of <gi>affiliation</gi>, preferably both in the local language, as well as in
             English, as illustrated in the following example, which specifies that somebody
             is a minister, and also what they are a minister of:
             
@@ -1682,7 +1682,7 @@
             </p>
             
             <p>Finally, it is also possible to specify the name of the organisation that the person is affilated with 
-            directly inside the <gi>affiliation</gi> element, using the <gi>orgName</gi> element<note>The typical situation
+            inside the <gi>affiliation</gi> element, using the <gi>orgName</gi> element<note>The ideal situation
             is that the organisation somebody is affiliated with is specificed as a organisation, using the <gi>org</gi>
             element (cf. the Section on <ref target="#sec-orgs">Organisations</ref>) but if this is not the case, using
             <gi>orgName</gi> directly in the <gi>affiliation</gi> is an alternative encoding.</note> again, preferably
@@ -1698,7 +1698,7 @@
             </p>
             
             <p>It should be noted that ParlaMint makes no assumptions on the
-            interconnection between various roles, e.g. we do not assume that if somebody
+            connection between various roles, e.g. we do not assume that if somebody
             has a minister role in the government that they are also a member of the
             government. Therefore it is necessary to specify all the desired affiliations
             with their particular roles, e.g. both as <val>minister</val> and as
@@ -1706,7 +1706,7 @@
 
             <p>It is important to give correct roles to the affiliations that associate a
             person with organisations. We list the most common roles and how they should be
-            encoded, emphasising the ones that are obligatory in ParlaMint :
+            encoded, emphasising the ones that are obligatory in ParlaMint:
             
             <list>
               
@@ -2068,19 +2068,13 @@
               from the <ref target="https://www.chesdata.eu/ches-europe">Chapel
               Hill Expert Surveys for Europe</ref> (CHES), either from the 1999-2019 edition, of from the 2019 edition. Here the
               top-level <gi>state</gi> element gives the <att>type</att> of the state, i.e. <val>CHES</val> and the URL of
-              the CSV source for the information.
+              the CSV source for the information, as well as the name of the political party in CHES (which typically differs from
+              its name or ID in ParlaMint) in the <att>key</att> attributes and the year span that the CHES information covers
+              in <att>from</att> and <att>to</att> attributes.</p>
 
-              Its <gi>label</gi><note>Note that, according to TEI, a label should not appear in a state element in case this element
-              contains subordinate state elements. In other words, this label makes the current encoding of ParlaMint corpora invalid
-              according to TEI. This should be corrected in a future release.</note>
-
-              gives the abbreviation of the political party name in CHES,
-              which can, and often does, differ from its ParlaMint abbreviation.
-
-              Each subordinate <gi>state</gi> (of <att>type</att> <val>variable</val>) then encodes one CHES variable, which is
+              <p>Each subordinate <gi>state</gi> (of <att>type</att> <val>variable</val>) then encodes one CHES variable, which is
 	      given, via the <att>ana</att> attribute, as the reference to the appropriate category defined in the <val>CHES</val>
 	      taxonomy (cf. the Section on <ref target="#sec-classDecl">Class declaration and taxonomies</ref>).
-
 
               Finally, as CHES gives the values of its variables according to years,
               the third level of <gi>state</gi> (of <att>type</att> <val>value</val>) stores the
@@ -2088,10 +2082,7 @@
 	      example below:
               
               <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-ches">
-                <state type="CHES" source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv">
-                  <label>
-                    <orgName full="abb" from="2002" to="2018" xml:lang="en">MR</orgName>
-                  </label>
+                <state type="CHES" key="MR" from="2002" to="2018" source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv">
                   <state type="variable" ana="#ches-lrgen">
                     <state type="value" from="2002" to="2005" n="6.35"/>
                     <state type="value" from="2006" to="2009" n="6.67"/>

@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 use warnings;
 use utf8;
 use FindBin qw($Bin);
@@ -13,9 +13,10 @@ $outDir = File::Spec->rel2abs(shift);
 binmode(STDERR, 'utf8');
 
 $Para  = 'parallel --gnu --halt 2 --jobs 10';
-$Saxon = 'java -jar /usr/share/java/saxon.jar';
-$TEI2VERT  = "$Bin/parlamint2xmlvert.xsl";
-$POLISH = "$Bin/parlamint-xml2vert.pl";
+$Saxon = "java -jar $Bin/bin/saxon.jar";
+
+$TEI2VERT = "$Bin/parlamint2xmlvert.xsl";
+$POLISH   = "$Bin/parlamint-xml2vert.pl";
 
 binmode(STDERR,'utf8');
 
@@ -36,9 +37,9 @@ foreach $inFile (glob($corpusFiles)) {
     }
 }
 
-die "Cannot find root file in $inDir!\n"
+die "FATAL ERROR: Cannot find root file in $inDir!\n"
     unless $rootAnaFile;
-die "Cannot find component files in $inDir!\n"
+die "FATAL ERROR: Cannot find component files in $inDir!\n"
     unless @compAnaFiles;
 
 `mkdir $outDir` unless -e "$outDir";

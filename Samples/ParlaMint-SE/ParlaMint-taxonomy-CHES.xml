@@ -19,7 +19,10 @@
          <catDesc xml:lang="en"><term>Number of experts</term>: number of experts who evaluated a party.</catDesc>
       </category>
       <category xml:id="ches.party_id">
-         <catDesc xml:lang="en"><term>Party identifier</term>: unique identifier for each party. For full list of party identifiers, consult the 1999-2019 Chapel Hill Expert Survey (CHES) trend file Codebook. Note that ths category is not present in the ParlaMint CHES data, as the CHES party identifier is given as state/orgName.</catDesc>
+         <catDesc xml:lang="en"><term>Party identifier</term>: unique identifier for each party. For full list of party identifiers, consult the 1999-2019 Chapel Hill Expert Survey (CHES) trend file Codebook. Note that ths category is present in the ParlaMint CHES data as the value of the top level state/@key attribute.</catDesc>
+      </category>
+      <category xml:id="ches.party">
+         <catDesc xml:lang="en"><term>Party abbreviation</term>: the abbreviated name of the party. Note that one Party identifier can correspond to several Party abbreviations, depending on the year of the survey. For full list of Party identifiers matched with the Party identifiers consult the 1999-2019 Chapel Hill Expert Survey (CHES) trend file Codebook. Note that ths category is present in the ParlaMint CHES data also as the value of the top level state/@n attribute; when there are more than one Party appreviations, they are separated by space.</catDesc>
       </category>
       <category xml:id="ches.cmp_id">
          <catDesc xml:lang="en"><term>Comparative Manifesto Project party identificator</term>: political party identificator according to Comparative Manifesto Project. Data: https://visuals.manifesto-project.wzb.eu/mpdb-shiny/cmp_dashboard_dataset/; Codebook: https://manifesto-project.wzb.eu/down/data/2023a/codebooks/codebook_MPDataset_MPDS2023a.pdf</catDesc>

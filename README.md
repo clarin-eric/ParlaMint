@@ -1,7 +1,6 @@
 # ParlaMint: Comparable Parliamentary Corpora
 
-The [CLARIN ParlaMint
-project](https://www.clarin.eu/content/parlamint-towards-comparable-parliamentary-corpora)
+The [CLARIN ParlaMint project](https://www.clarin.eu/parlamint)
 is compiling comparable parliamentary corpora for a number of countries and languages. 
 
 ParlaMint corpora are interoperable, i.e. encoded to a very constrained common ParlaMint schema, a
@@ -18,20 +17,32 @@ translated to English, and is available from the CLARIN.SI repository:
 - [ParlaMint.ana v4.0](http://hdl.handle.net/11356/1860): linguistically annotated variant of the ParlaMint corpora in original languages
 - [ParlaMint v4.0](http://hdl.handle.net/11356/1859): "plain text", i.e. linguistically unannotated variant of the ParlaMint corpora in original languages
 
-The most comprehensive publication on ParlaMint corpora describes version 2.1:
-
-Tomaž Erjavec, Maciej Ogrodniczuk, Petya Osenova, Nikola Ljubešić, Kiril Simov, Andrej Pančur,
-Michał Rudolf, Matyáš Kopp, Starkaður Barkarson, Steinþór Steingrímsson, Çağrı Çöltekin, Jesse
-de Does, Katrien Depuydt, Tommaso Agnoloni, Giulia Venturi, María Calzada Pérez, Luciana D. de
-Macedo, Costanza Navarretta, Giancarlo Luxardo, Matthew Coole, Paul Rayson, Vaidas Morkevičius,
-Tomas Krilavičius, Roberts Darǵis, Orsolya Ring, Ruben van Heusden, Maarten Marx & Darja Fišer.
-The ParlaMint corpora of parliamentary proceedings.
-*Language Resources & Evaluation* 57:415–448 (2023).
-[10.1007/s10579-021-09574-0](https://doi.org/10.1007/s10579-021-09574-0).
-   
-Other publications are available at the
+Publications connected to ParlaMint are available at the
 [ParlaMint project page](https://www.clarin.eu/parlamint#publications-and%C2%A0presentations).
 
+The two most comprehensive publication on ParlaMint corpora a preprint on version 4.1 (to be released soon)
+and the LREV publication describing  version 2.1:
+
+- Tomaž Erjavec, Matyáš Kopp, Nikola Ljubešić, Taja Kuzman, Paul Rayson, Petya Osenova, Maciej
+  Ogrodniczuk, Çağrı Çöltekin, Danijel Koržinek, Katja Meden, Jure Skubic, Peter Rupnik, Tommaso
+  Agnoloni, José Aires, Starkaður Barkarson, Roberto Bartolini, Núria Bel, Calzada María Pérez,
+  Roberts Darģis, Sascha Diwersy, Maria Gavriilidou, van Ruben Heusden, Mikel Iruskieta, Neeme
+  Kahusk, Anna Kryvenko, Noémi Ligeti-Nagy, Carmen Magariños, Martin Mölder, Costanza
+  Navarretta, Kiril Simov, Lars Magne Tungland, Jouni Tuominen, John Vidler, Adina Ioana Vladu,
+  Tanja Wissik, Väinö Yrjänäinen, Darja Fišer.
+  *ParlaMint II: Advancing Comparable Parliamentary Corpora Across Europe*.
+  (2024).
+  DOI: [10.21203/rs.3.rs-4176128/v1](https://doi.org/10.21203/rs.3.rs-4176128/v1).
+  
+- Tomaž Erjavec, Maciej Ogrodniczuk, Petya Osenova, Nikola Ljubešić, Kiril Simov, Andrej Pančur,
+  Michał Rudolf, Matyáš Kopp, Starkaður Barkarson, Steinþór Steingrímsson, Çağrı Çöltekin, Jesse
+  de Does, Katrien Depuydt, Tommaso Agnoloni, Giulia Venturi, María Calzada Pérez, Luciana D. de
+  Macedo, Costanza Navarretta, Giancarlo Luxardo, Matthew Coole, Paul Rayson, Vaidas Morkevičius,
+  Tomas Krilavičius, Roberts Darǵis, Orsolya Ring, Ruben van Heusden, Maarten Marx & Darja Fišer.
+  The ParlaMint corpora of parliamentary proceedings.
+  *Language Resources & Evaluation* 57:415–448 (2023).
+  DOI: [10.1007/s10579-021-09574-0](https://doi.org/10.1007/s10579-021-09574-0).
+   
 ****
 
 This Git repository contains the ParlaMint XML schemas, the scripts used to validate and convert the
@@ -55,9 +66,9 @@ Note that there are several branches for different parts of the development.
   * compute some statistics
 * The *[Samples](Samples/) folder* contains directories for a particular country or autonomous region
   that should include samples for all variants and formats of the ParlaMint corpora
-* The *[Corpora](Corpora/) folder* contains directories for a particular country or autonomous region
-  that should include complete corpora for all variants and formats of the ParlaMint corpora, along with
-  the build environemt for a release, and associated data. Note the the complete corpora are too large to
-  store on GitHub, so most data files are gitignored. However, the directory or its subdirectories contain
+* The *[Build](Build/) folder* contains the build environemt for a release, and all associated data.
+  This consists of the input (source) data, scripts, and Makefile with targets to make a relese.
+  Note the the complete corpora are too large to store on GitHub, so most data files are gitignored.
+  However, the directory or its subdirectories contain
   various associated resources, e.g. the automatically produced ParlaMint root files, common taxonomies,
   various metadata on the corpora etc.

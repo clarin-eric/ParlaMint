@@ -105,7 +105,3 @@ Some other issues we could report are these:
 ```
 
 We solved this issue with a basic script for final cleaning, which also included conversion into camel case and lower case of annotation, when required, since the stanza-based pipeline did not do it automatically.
-
-### Disclaimer to the English translation
-
-Note that the automatically produced translation to English contains errors typical of neural machine translation, which also includes factual errors even when a high level of fluency is achieved, and any manual or automatic usage of this corpus should take the machine translation limitations into account.

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- return all included files' relative path from current file -->
+<!-- Return all included files' relative path from current file -->
 <xsl:stylesheet 
     xmlns="http://www.tei-c.org/ns/1.0" 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"

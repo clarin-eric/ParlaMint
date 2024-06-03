@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="nl" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x" ana="#parla.sitting #covid">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="nl">Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 17-06-2020 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Belgian parliamentary corpus ParlaMint-BE, committee meeting of 17-06-2020 [ParlaMint SAMPLE]</title>
+            <meeting corresp="#be_federal_parliament" ana="#parla.committee" n="ic210">Commissievergadering 210 van 17-06-2020</meeting>
+            <meeting ana="#parla.term #period_55" corresp="#be_federal_parliament" n="55">Zittingperiode 55</meeting>
+            <respStmt>
+               <persName>Henk van der Pol</persName>
+               <persName>Griet Depoorter</persName>
+               <resp xml:lang="nl">Datavergaring en conversie naar TEI</resp>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="nl">De Europese Commissie</orgName>
+               <orgName xml:lang="en">The European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="nl">Taalunie</orgName>
+               <orgName xml:lang="en">Dutch Language Union</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="90" xml:lang="en">90 speeches</measure>
+            <measure unit="speeches" quantity="90" xml:lang="nl">90 spreekbeurten</measure>
+            <measure unit="words" quantity="20407" xml:lang="en">20,407 words</measure>
+            <measure unit="words" quantity="20407" xml:lang="nl">20,407 woorden</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
+               <orgName xml:lang="en">Dutch Language Institute</orgName>
+               <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="nl">Deze bestanden zijn beschikbaar volgens de <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2024-05-14">2024-05-14</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="fr">Commission de la Défense nationale du Mercredi 17 juin 2020 Matin</title>
+               <title type="main" xml:lang="nl">Commissie voor Landsverdediging van Woensdag 17 juni 2020 Voormiddag</title>
+               <idno type="URI" subtype="parliament">https://www.dekamer.be/doc/CCRI/html/55/ic210x.html</idno>
+               <date when="2020-06-17">2020-06-17</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="nl"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is een project dat tot doel heeft (1) een meertalige reeks vergelijkbare corpora van parlementaire handelingen te creëren die uniform zijn gecodeerd volgens de <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN aanbevelingen</ref> en die zowel de COVID-19 pandemie vanaf november 2019 als de eerdere periode vanaf 2015 bestrijkt om als referentiecorpus te dienen; (2) de corpora taalkundig te verrijken met syntactische structuren volgens de Universal Dependenciesrichtlijnen, en annotatie van named entities toe te voegen; (3) de corpora beschikbaar te maken via concordancers en Parlameter; en (4) use cases in politieke wetenschappen en digitale geesteswetenschappen te bouwen op basis van de corpusgegevens.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="note" occurs="192"/>
+               <tagUsage gi="seg" occurs="377"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="90"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">Brussel</name>
+               <name key="BE" type="country">België</name>
+               <date ana="#parla.sitting" when="2020-06-17">2020-06-17</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-05-14">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-02-15">
+            <name>Henk van der Pol</name>: initial version.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div type="debateSection">
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note1">De behandeling van de vragen vangt aan om 10.14 uur. De vergadering wordt voorgezeten door Peter Buysrogge.</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note2">Le développement des questions commence à 10 h 14. La réunion est présidée par M. Peter Buysrogge.</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note3">01 Actualiteitsdebat over de M-fregatten en toegevoegde vragen van</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note4">- Annick Ponthier aan Philippe Goffin (Buitenlandse Zaken en Defensie) over "De bouw van de nieuwe M-fregatten" (55006314C)</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note5">- Sammy Mahdi aan Philippe Goffin (Buitenlandse Zaken en Defensie) over "De vertraging in de levering van de nieuwe M-fregatten" (55006500C)</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note6">- Wouter De Vriendt aan Philippe Goffin (Buitenlandse Zaken en Defensie) over "De levering van de M-Fregatten" (55006604C)</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note7">- Peter Buysrogge aan Philippe Goffin (Buitenlandse Zaken en Defensie) over "De vertraging in de ontwikkeling van de nieuwe fregatten" (55006700C)</note>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note8">- Melissa Depraetere aan Philippe Goffin (Buitenlandse Zaken en Defensie) over "De bouw van de nieuwe M-fregatten" (55006711C)</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note9">01 Débat d'actualité sur les frégates M et questions jointes de</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note10">- Annick Ponthier à Philippe Goffin (Affaires étrangères et Défense) sur "La construction des nouvelles frégates M" (55006314C)</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note11">- Sammy Mahdi à Philippe Goffin (Affaires étrangères et Défense) sur "Le retard dans la livraison des nouvelles frégates M" (55006500C)</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note12">- Wouter De Vriendt à Philippe Goffin (Affaires étrangères et Défense) sur "La livraison des frégates M" (55006604C)</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note13">- Peter Buysrogge à Philippe Goffin (Affaires étrangères et Défense) sur "Le retard dans le développement des nouvelles frégates" (55006700C)</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note14">- Melissa Depraetere à Philippe Goffin (Affaires étrangères et Défense) sur "La construction des nouvelles frégates M" (55006711C)</note>
+            <note type="speaker" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note15">01.01 Annick Ponthier (VB):</note>
+            <u ana="#regular" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u1" who="#PonthierAnnick" xml:lang="nl">
+               <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg1" xml:lang="nl">Mijnheer de minister, volgens recente berichten loopt de bouw van de nieuwe multipurpose schepen of M-fregatten voor de Nederlandse en Belgische marine opnieuw vertraging op. Het is momenteel onduidelijk wanneer de schepen effectief in het water zullen liggen. Het zou gaan over tijdrovende en complexe afwegingen over specificaties, offertes en de gewenste termijn van inzetbaarheid.</seg>
+               <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg2" xml:lang="nl">U weet dat in een wereld met toenemende instabiliteit en een veranderende geopolitieke situatie een performante defensie van uitermate groot belang is, vandaar mijn vragen.</seg>
+               <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg3" xml:lang="nl">Kunt u meer duiding geven bij de situatie, alsook een stand van zaken in het hele dossier?</seg>
+               <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg4" xml:lang="nl">Waar ligt momenteel het probleem volgens uw gegevens?</seg>
+               <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg5" xml:lang="nl">Wat is de verwachte levensduur van de fregatten waarover Defensie momenteel nog beschikt?</seg>
+               <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg6" xml:lang="nl">Welke gevolgen zal de huidige vertraging hebben voor de kosten ter zake? Ik denk aan de onderhoudskosten en eventuele andere kosten.</seg>
+               <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg7" xml:lang="nl">Initieel werd er vooropgesteld om de schepen inzetbaar te hebben tegen 2024. Welke termijn wordt er momenteel vooropgesteld?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note16">01.02 Sammy Mahdi (CD&amp;V):</note>
+            <u ana="#regular" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u2" who="#MahdiSammy" xml:lang="nl">
+               <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg8" xml:lang="nl">Mijnheer de voorzitter, ik sluit mij aan bij de reeds gestelde vragen en zal niet alles nodeloos herhalen. Het is een goede zaak als landen samenwerken, zeker als wij dat doen, zoals in dit geval, samen met Nederland op het vlak van Defensie. Het probleem is wel dat onze Nederlandse collega's verantwoordelijk zijn voor die aankoop. Ik ben benieuwd naar de leveringstermijn. Wanneer zullen de fregatten effectief op zee liggen?</seg>
+               <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg9" xml:lang="nl">Zijn er al contacten geweest met de Nederlandse collega's? Wat hebben die opgeleverd? Zullen alle nodige wapensystemen zoals voorzien aangekocht en geïnstalleerd worden, vermits er problemen zijn met een aantal bestellingen?</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u ana="#regular" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u89" who="#BombledChristophe" xml:lang="fr">
+               <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg375" xml:lang="fr">Je vous remercie pour vos réponses, je n'ai pas d'autre remarque.</seg>
+            </u>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note188">Het incident is gesloten.</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note189">L'incident est clos.</note>
+            <note type="speaker" xml:lang="nl" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note190">De voorzitter:</note>
+            <u ana="#chair" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u90" who="#BuysroggePeter" xml:lang="nl">
+               <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg376" xml:lang="nl">Tot slot wil ik nog meegeven dat vraag nr. 55006804C van de heer Verduyckt, nr. 55006824C van de heer Bayet en vraag nr. 55006978C van mevrouw Jadin worden omgezet in schriftelijke vragen.</seg>
+               <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg377" xml:lang="nl">De volgende vergadering beginnen we met de samengevoegde vragen nrs. 55006961C, 55007156C, 55007209C en 55007235C van de heer Steven Creyelman, mevrouw Julie Chanson, de heer Sammy Mahdi en mevrouw Julie Chanson.</seg>
+            </u>
+            <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note191">De openbare commissievergadering wordt gesloten om 12.35 uur.</note>
+            <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note192">La réunion publique de commission est levée à 12 h 35.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

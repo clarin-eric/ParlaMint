@@ -1,8 +1,8 @@
 check: prepare val-schema html mount
 
 # Validate and compile ODD to RelaxNG, validate samples, make HTML
-all:	prepare val-schema xml-schemas val-samples to-schema-dir html
-xall:	prepare val-schema xml-schemas val-samples to-schema-dir html
+all:	prepare val-schema xml-schemas val-samples html
+xall:	prepare val-schema xml-schemas val-samples html
 
 # Builds html and pushes it
 deploy:	html
@@ -27,11 +27,6 @@ PROFILE = --profiledir=$(shell pwd) --profile=profile
 # Convert to HTML
 html:	prepare val-schema
 	Stylesheets/bin/teitohtml ${PROFILE} --odd ${SUBSET} ${OUTPUT} ${ODD} ../docs/index.html
-
-# Copy over to the official ParlaMint Schema directory, where the hand-made RelaxNG schemas are
-to-schema-dir:
-	cp ParlaMint.odd.* ../Schema/
-	cp ParlaMint-schemaSpecs.odd.xml ../Schema/
 
 # Compile schemas to RelaxNG, DTD and XSD; best use the RelaxNG one.
 xml-schemas:	val-schema
@@ -79,6 +74,6 @@ setup:
 	mkdir -p tmp
 	git -C ../Scripts clone git@github.com:TEIC/Stylesheets.git
 
-### Location of Jing (for RelaxNG validation) and Saxon (for XSLT stylesheets)
-j = java -jar /usr/share/java/jing.jar
-s = java -jar /usr/share/java/saxon.jar
+#Prerequisites
+s = java -jar ../Scripts/bin/saxon.jar
+j = java -jar ../Scripts/bin/jing.jar
