@@ -176,7 +176,22 @@ if ( $xml->findnodes("//pb") ) {
     };
   };
 
+  # add first page begin if missing
+  my ($firstelem) = @{$xml->findnodes("//text/body/div[1]/*[not(name() = 'gap')]")};
+  print STDERR $firstelem->toString;
+  if ($firstelem && ($firstelem->getName() ne 'pb') ) {
+  	my $pb = $xml->createElement("pb");
+    $pb->setAttribute("n", 0);
+    $pb->setAttribute("type", "pagination");
+    $firstelem->parentNode->insertBefore($pb, $firstelem);
+  }
 
+  # add ids page begin if missing
+  my $pbcnt = 0;
+  foreach my $pb ( $xml->findnodes("//text//pb[not(\@xml:id)]") ) {
+  	$pbcnt++;
+  	$pb->setAttribute("id", "pb-$pbcnt");
+  };
 
 } else {
   $dcnt = 0; $pbcnt = 0; $scnt = 1;
