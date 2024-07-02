@@ -92,7 +92,7 @@
         <xsl:value-of select="concat(substring-after(@who, '#'), '&#9;')"/>
         <xsl:value-of select="concat(et:format-name-chrono($speaker//tei:persName, $at-date), '&#9;')"/>
         <xsl:value-of select="concat(et:tsv-value($speaker/tei:sex/@value), '&#9;')"/>
-        <xsl:value-of select="concat(et:tsv-value(replace($speaker/tei:birth/@when, '-.+', '')), '&#9;')"/>
+        <xsl:value-of select="et:tsv-value(replace($speaker/tei:birth/@when, '-.+', ''))"/>
       </xsl:otherwise>
     </xsl:choose>
     <!-- Speech sizes? -->
