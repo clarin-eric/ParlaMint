@@ -24,7 +24,10 @@ elsif ($what eq 'master') {
 else {
     die "First parameter must be 'samples' or 'master'\n"
 }
-$black = '(taxonomy|list)';
+# Skip validatin of taxonomies, personList, orgLis:
+#$black = '(taxonomy|list)';
+# Validate all files:
+$black = 'NULL';  
 
 $inDir = shift;
 unless (-d $inDir) {

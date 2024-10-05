@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2024-05-14T10:06:48Z. 2024-05-14.
+Schema generated from ODD source 2024-10-05T08:48:29Z. 2024-05-14.
 TEI Edition: Version 4.6.0a. Last updated on
         5th January 2023, revision 9074b9038
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0a./
@@ -4650,8 +4650,11 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <start>
       <choice>
-         <ref name="tei_TEI"/>
          <ref name="tei_teiCorpus"/>
+         <ref name="tei_TEI"/>
+         <ref name="tei_listPerson"/>
+         <ref name="tei_listOrg"/>
+         <ref name="tei_taxonomy"/>
       </choice>
    </start>
 </grammar>
