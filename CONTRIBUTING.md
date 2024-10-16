@@ -3,7 +3,9 @@
 ## Git and GitHub
 
 Sample data should be pushed to the Data branch of the ParlaMint repository directly into the samples folder
-(*`Samples/ParlaMint-XX`*) in a flat structure of files.
+(*`Samples/ParlaMint-XX`*) with a directory structure as explained in the the [Section
+on Filenames and directory structure](https://clarin-eric.github.io/ParlaMint/#sec-files) of the
+Guidelines.
 
 ### Setup
 
@@ -99,8 +101,7 @@ also be run.
 Once samples have been validated and incorporated into the ParlaMint GitHub repository the
 complete corpus can be processed and submitted.
 
-First, pls. note that the samples in GitHub use a flat directory structure, while the complete
-corpus is structure differently. First, the linguistically non-annotated corpus should be stored
+First, the linguistically un-annotated corpus should be stored
 in the directory named ParlaMint-XX.TEI/, while the linguistically annotated corpus should be
 stored separately, in the directory named ParlaMint-XX.TEI.ana/. Second, the component files
 should be stored in subdirectories, one for each year. Note that this is explained in the [Section
