@@ -110,6 +110,11 @@
         <term>Bicameralism</term>
         <term>Lower house</term>
       </xsl:when>
+      <xsl:when test="$country-code = 'DE'">
+        <term>Legislature</term>
+        <term>Bicameralism</term>
+        <term>Lower house</term>
+      </xsl:when>
       <xsl:when test="$country-code = 'DK'">
         <term>Legislature</term>
         <term>Unicameralism</term>
@@ -122,6 +127,10 @@
         <term>Legislature</term>
         <term>Bicameralism</term>
         <term>Lower house</term>
+      </xsl:when>
+      <xsl:when test="$country-code = 'ES-AN'">
+        <term>Legislature</term>
+        <term>Unicameralism</term>
       </xsl:when>
       <xsl:when test="$country-code = 'ES-CT'">
         <term>Legislature</term>
@@ -228,6 +237,10 @@
         <term>Legislature</term>
         <term>Bicameralism</term>
         <term>Lower house</term>
+      </xsl:when>
+      <xsl:when test="$country-code = 'SK'">
+        <term>Legislature</term>
+        <term>Unicameralism</term>
       </xsl:when>
       <xsl:when test="$country-code = 'TR'">
         <term>Legislature</term>

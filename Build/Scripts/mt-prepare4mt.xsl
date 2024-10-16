@@ -82,7 +82,9 @@
 	  <xsl:when test="$country-code = 'BA'">zls</xsl:when>
 	  <xsl:when test="$country-code = 'BG'">bg</xsl:when>
 	  <xsl:when test="$country-code = 'CZ'">cs</xsl:when>
+	  <xsl:when test="$country-code = 'DE'">gmw</xsl:when>
 	  <xsl:when test="$country-code = 'DK'">da</xsl:when>
+          <!-- Why is ES missing? -->
 	  <xsl:when test="$country-code = 'ES-CT'">roa</xsl:when>
 	  <xsl:when test="$country-code = 'ES-GA'">itc</xsl:when>
 	  <xsl:when test="$country-code = 'GR'">grk</xsl:when>
@@ -98,6 +100,7 @@
 	  <xsl:when test="$country-code = 'RS'">zls</xsl:when>
 	  <xsl:when test="$country-code = 'SE'">sv</xsl:when>
 	  <xsl:when test="$country-code = 'SI'">sla</xsl:when>
+	  <xsl:when test="$country-code = 'SK'">sla</xsl:when>
 	  <xsl:when test="$country-code = 'TR'">tr</xsl:when>
 	  <xsl:when test="$country-code = 'UA'">sla</xsl:when>
 	</xsl:choose>

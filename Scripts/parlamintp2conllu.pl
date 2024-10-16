@@ -38,12 +38,14 @@ $scriptMeta    = "$Bin/parlamint2meta.xsl";
 #This should be somehow factorised out!!
 $country2lang{'AT'} = 'de';
 $country2lang{'BA'} = 'sr';  # Should be 'bs', but UD does not support it!
-$country2lang{'BE'} = 'fr, nl';
+$country2lang{'BE'} = 'nl, fr';
 $country2lang{'BG'} = 'bg';
 $country2lang{'CZ'} = 'cs';
+$country2lang{'DE'} = 'de';
 $country2lang{'DK'} = 'da';
 $country2lang{'EE'} = 'et';
 $country2lang{'ES'} = 'es';
+$country2lang{'ES-AN'} = 'es';
 $country2lang{'ES-CT'} = 'ca, es';
 $country2lang{'ES-GA'} = 'gl';
 $country2lang{'ES-PV'} = 'eu, es';
@@ -65,6 +67,7 @@ $country2lang{'RO'} = 'ro';
 $country2lang{'RS'} = 'sr';
 $country2lang{'SE'} = 'sv';
 $country2lang{'SI'} = 'sl';
+$country2lang{'SK'} = 'sk';
 $country2lang{'TR'} = 'tr';
 $country2lang{'UA'} = 'uk, ru';
 # Fake country for testing:

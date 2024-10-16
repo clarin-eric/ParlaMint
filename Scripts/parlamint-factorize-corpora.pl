@@ -22,15 +22,17 @@ $taxonomies_ana = 'NER.ana';
 # Mapping of countries to languages, we need it for mapping of common taxonomies
 $country2lang{'AT'} = 'de';
 $country2lang{'BA'} = 'bs';
-$country2lang{'BE'} = 'nl';
+$country2lang{'BE'} = 'nl, fr';
 $country2lang{'BG'} = 'bg';
 $country2lang{'CZ'} = 'cs';
+$country2lang{'DE'} = 'de';
 $country2lang{'DK'} = 'da';
 $country2lang{'EE'} = 'et';
 $country2lang{'ES'} = 'es';
-$country2lang{'ES-CT'} = 'ca';
+$country2lang{'ES-AN'} = 'es';
+$country2lang{'ES-CT'} = 'ca, es';
 $country2lang{'ES-GA'} = 'gl';
-$country2lang{'ES-PV'} = 'eu';
+$country2lang{'ES-PV'} = 'eu, es';
 $country2lang{'FI'} = 'fi';
 $country2lang{'FR'} = 'fr';
 $country2lang{'GB'} = 'en';
@@ -49,8 +51,9 @@ $country2lang{'RO'} = 'ro';
 $country2lang{'RS'} = 'sr';
 $country2lang{'SE'} = 'sv';
 $country2lang{'SI'} = 'sl';
+$country2lang{'SK'} = 'sk';
 $country2lang{'TR'} = 'tr';
-$country2lang{'UA'} = 'uk'; 
+$country2lang{'UA'} = 'uk, ru';
 
 $bkpName = "BKP";
 $Saxon   = "java -jar $Bin/bin/saxon.jar";
@@ -106,7 +109,9 @@ foreach $corpDir (sort glob($corpDirs)) {
 		push(@missing_taxonomies, $taxonomyFName)
 	    }
 	    else {print STDERR "WARN: Inserting forced taxonomy file $taxonomyFName\n"}
-	    my $command = "$Saxon if-lang-missing=skip langs='$country2lang{$country}' -xsl:$scriptTaxonomy";
+            my $Language = $country2lang{$Country};
+            $Language =~ s/, .+//; #For multilingual corpora take the first language as main language
+	    my $command = "$Saxon if-lang-missing=skip langs='$Language' -xsl:$scriptTaxonomy";
 	    `$command $CommonTaxonomyFile > $taxonomyFile`;
 	}
     }
