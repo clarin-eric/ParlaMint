@@ -43,7 +43,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-11-20">2024-11-20</date>
+            <date when="2024-11-21">2024-11-21</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -77,7 +77,7 @@
                <tagUsage gi="name" occurs="178"/>
                <tagUsage gi="pc" occurs="218"/>
                <tagUsage gi="s" occurs="99"/>
-               <tagUsage gi="seg" occurs="99"/>
+               <tagUsage gi="seg" occurs="11"/>
                <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="u" occurs="11"/>
                <tagUsage gi="w" occurs="2459"/>
@@ -93,7 +93,7 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-11-20">Initial conversion to TEI format.</change>
+         <change when="2024-11-21">Initial conversion to TEI format.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid">
@@ -103,8 +103,8 @@
             <u xml:id="u.session.24_ptv_616837_doc-1.0"
                who="#person.30118"
                ana="#chair">
-               <seg xml:id="seg.id-317051d3-0083-40c6-babc-4f111f66e60d-1">
-                  <s xml:id="s.id-317051d3-0083-40c6-babc-4f111f66e60d-1">
+               <seg xml:id="seg.id-317051d3-0083-40c6-babc-4f111f66e60d-2">
+                  <s xml:id="s.id-317051d3-0083-40c6-babc-4f111f66e60d-3">
                      <w lemma="בוקר"
                         pos="NOUN"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
@@ -178,7 +178,7 @@
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
-                              target="#s.id-317051d3-0083-40c6-babc-4f111f66e60d-1 #w.session.24_ptv_616837_doc-1.0.1.0"/>
+                              target="#s.id-317051d3-0083-40c6-babc-4f111f66e60d-3 #w.session.24_ptv_616837_doc-1.0.1.0"/>
                         <link ana="ud-syn:amod"
                               target="#w.session.24_ptv_616837_doc-1.0.1.0 #w.session.24_ptv_616837_doc-1.0.1.1"/>
                         <link ana="ud-syn:case"
@@ -202,15 +202,13 @@
                         <link ana="ud-syn:punct"
                               target="#w.session.24_ptv_616837_doc-1.0.1.0 #w.session.24_ptv_616837_doc-1.0.1.14"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-317051d3-0083-40c6-babc-4f111f66e60d-1 #w.session.24_ptv_616837_doc-1.0.1.2"/>
+                              target="#s.id-317051d3-0083-40c6-babc-4f111f66e60d-3 #w.session.24_ptv_616837_doc-1.0.1.2"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-317051d3-0083-40c6-babc-4f111f66e60d-1 #w.session.24_ptv_616837_doc-1.0.1.8"/>
+                              target="#s.id-317051d3-0083-40c6-babc-4f111f66e60d-3 #w.session.24_ptv_616837_doc-1.0.1.8"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-317051d3-0083-40c6-babc-4f111f66e60d-1 #w.session.24_ptv_616837_doc-1.0.1.11"/>
+                              target="#s.id-317051d3-0083-40c6-babc-4f111f66e60d-3 #w.session.24_ptv_616837_doc-1.0.1.11"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-8005043c-61d6-48d2-9674-c5ff64c438e6-1">
                   <s xml:id="s.id-8005043c-61d6-48d2-9674-c5ff64c438e6-1">
                      <w lemma="הוא"
                         pos="PRON"
@@ -378,8 +376,6 @@
                               target="#s.id-8005043c-61d6-48d2-9674-c5ff64c438e6-1 #w.session.24_ptv_616837_doc-1.0.2.17"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-997bd044-dd0c-46d3-aaf4-cca2871481d6-1">
                   <s xml:id="s.id-997bd044-dd0c-46d3-aaf4-cca2871481d6-1">
                      <w lemma="קודם"
                         pos="ADP"
@@ -464,8 +460,6 @@
                               target="#s.id-997bd044-dd0c-46d3-aaf4-cca2871481d6-1 #w.session.24_ptv_616837_doc-1.0.3.5"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-145ec7a4-00e8-4797-a646-e34a01239a91-1">
                   <s xml:id="s.id-145ec7a4-00e8-4797-a646-e34a01239a91-1">
                      <w lemma="הקמה"
                         pos="NOUN"
@@ -552,8 +546,6 @@
                               target="#s.id-145ec7a4-00e8-4797-a646-e34a01239a91-1 #w.session.24_ptv_616837_doc-1.0.4.5"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.ec44704c-bf27-4135-85ef-90a2ec33938e-1">
                   <s xml:id="s.ec44704c-bf27-4135-85ef-90a2ec33938e-1">
                      <w lemma="ביקש"
                         pos="VERB"
@@ -593,8 +585,6 @@
                               target="#s.ec44704c-bf27-4135-85ef-90a2ec33938e-1 #w.session.24_ptv_616837_doc-1.0.5.2"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-8645576f-30ea-46dd-be5e-571a3b01fbe5-1">
                   <s xml:id="s.id-8645576f-30ea-46dd-be5e-571a3b01fbe5-1">
                      <w lemma="כם"
                         pos="X"
@@ -880,8 +870,6 @@
                               target="#s.id-8645576f-30ea-46dd-be5e-571a3b01fbe5-1 #w.session.24_ptv_616837_doc-1.0.6.30"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-3e688bf8-5b05-4903-bf66-56a72dc5f733-1">
                   <s xml:id="s.id-3e688bf8-5b05-4903-bf66-56a72dc5f733-1">
                      <w lemma="_"
                         pos="X"
@@ -1299,8 +1287,6 @@
                               target="#s.id-3e688bf8-5b05-4903-bf66-56a72dc5f733-1 #w.session.24_ptv_616837_doc-1.0.7.51"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.bcc97733-47f0-4081-8a44-3f4466288965-1">
                   <s xml:id="s.bcc97733-47f0-4081-8a44-3f4466288965-1">
                      <w lemma="ועדה"
                         pos="NOUN"
@@ -1516,8 +1502,6 @@
                               target="#s.bcc97733-47f0-4081-8a44-3f4466288965-1 #w.session.24_ptv_616837_doc-1.0.8.24"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.fa51a13e-de62-4080-8c78-262c6a6dfabb-1">
                   <s xml:id="s.fa51a13e-de62-4080-8c78-262c6a6dfabb-1">
                      <w lemma="זה"
                         pos="PRON"
@@ -1827,8 +1811,6 @@
                               target="#s.fa51a13e-de62-4080-8c78-262c6a6dfabb-1 #w.session.24_ptv_616837_doc-1.0.9.38"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-171e6a08-3c7e-417a-b898-8f7249ccb95b-1">
                   <s xml:id="s.id-171e6a08-3c7e-417a-b898-8f7249ccb95b-1">
                      <name type="MISC">
                         <w lemma="חבר"
@@ -2136,8 +2118,6 @@
                               target="#s.id-171e6a08-3c7e-417a-b898-8f7249ccb95b-1 #w.session.24_ptv_616837_doc-1.0.10.35"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.ee129018-cd63-4c39-9bc3-ed449ca45b8d-1">
                   <s xml:id="s.ee129018-cd63-4c39-9bc3-ed449ca45b8d-1">
                      <w lemma="הוא"
                         pos="PRON"
@@ -2337,8 +2317,8 @@
             <u xml:id="u.session.24_ptv_616837_doc-1.1"
                who="#person.30777"
                ana="#regular">
-               <seg xml:id="seg.id-43a033d1-38fc-43a0-987f-bbe339b2ac7c-1">
-                  <s xml:id="s.id-43a033d1-38fc-43a0-987f-bbe339b2ac7c-1">
+               <seg xml:id="seg.id-43a033d1-38fc-43a0-987f-bbe339b2ac7c-2">
+                  <s xml:id="s.id-43a033d1-38fc-43a0-987f-bbe339b2ac7c-3">
                      <w lemma="תודה"
                         pos="X"
                         msd="UPosTag=X|Gender=Fem|Number=Sing"
@@ -2384,7 +2364,7 @@
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
-                              target="#s.id-43a033d1-38fc-43a0-987f-bbe339b2ac7c-1 #w.session.24_ptv_616837_doc-1.1.1.0"/>
+                              target="#s.id-43a033d1-38fc-43a0-987f-bbe339b2ac7c-3 #w.session.24_ptv_616837_doc-1.1.1.0"/>
                         <link ana="ud-syn:vocative"
                               target="#w.session.24_ptv_616837_doc-1.1.1.0 #w.session.24_ptv_616837_doc-1.1.1.2"/>
                         <link ana="ud-syn:nmod_poss"
@@ -2398,13 +2378,11 @@
                         <link ana="ud-syn:punct"
                               target="#w.session.24_ptv_616837_doc-1.1.1.0 #w.session.24_ptv_616837_doc-1.1.1.8"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-43a033d1-38fc-43a0-987f-bbe339b2ac7c-1 #w.session.24_ptv_616837_doc-1.1.1.1"/>
+                              target="#s.id-43a033d1-38fc-43a0-987f-bbe339b2ac7c-3 #w.session.24_ptv_616837_doc-1.1.1.1"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-43a033d1-38fc-43a0-987f-bbe339b2ac7c-1 #w.session.24_ptv_616837_doc-1.1.1.5"/>
+                              target="#s.id-43a033d1-38fc-43a0-987f-bbe339b2ac7c-3 #w.session.24_ptv_616837_doc-1.1.1.5"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.cdeb785f-9fae-4c3b-828c-abe3e20f5bc2-1">
                   <s xml:id="s.cdeb785f-9fae-4c3b-828c-abe3e20f5bc2-1">
                      <w lemma="קודם"
                         pos="ADP"
@@ -2652,8 +2630,6 @@
                               target="#s.cdeb785f-9fae-4c3b-828c-abe3e20f5bc2-1 #w.session.24_ptv_616837_doc-1.1.2.27"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-5b9dc172-100b-4dc9-9ba2-0ef67afa1fe5-1">
                   <s xml:id="s.id-5b9dc172-100b-4dc9-9ba2-0ef67afa1fe5-1">
                      <w lemma="כפי"
                         pos="X"
@@ -2890,8 +2866,6 @@
                               target="#s.id-5b9dc172-100b-4dc9-9ba2-0ef67afa1fe5-1 #w.session.24_ptv_616837_doc-1.1.3.25"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.b57b9b67-e1b0-4619-9936-390ee28f3b3f-1">
                   <s xml:id="s.b57b9b67-e1b0-4619-9936-390ee28f3b3f-1">
                      <w lemma="קודם"
                         pos="ADV"
@@ -3312,8 +3286,6 @@
                               target="#s.b57b9b67-e1b0-4619-9936-390ee28f3b3f-1 #w.session.24_ptv_616837_doc-1.1.4.56"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.e686aa49-07f6-4d47-a8dd-9844c2b5ca5c-1">
                   <s xml:id="s.e686aa49-07f6-4d47-a8dd-9844c2b5ca5c-1">
                      <w lemma="_"
                         pos="X"
@@ -3478,8 +3450,6 @@
                               target="#s.e686aa49-07f6-4d47-a8dd-9844c2b5ca5c-1 #w.session.24_ptv_616837_doc-1.1.5.20"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.d3213352-06e6-4f28-b1d5-77dd3ca8facb-1">
                   <s xml:id="s.d3213352-06e6-4f28-b1d5-77dd3ca8facb-1">
                      <w lemma="יחד"
                         pos="ADV"
@@ -3599,8 +3569,6 @@
                               target="#s.d3213352-06e6-4f28-b1d5-77dd3ca8facb-1 #w.session.24_ptv_616837_doc-1.1.6.12"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.d4bb1749-896d-43a0-aea1-2b4e84b2a2b4-1">
                   <s xml:id="s.d4bb1749-896d-43a0-aea1-2b4e84b2a2b4-1">
                      <w lemma="כאמור"
                         pos="ADV"
@@ -3958,8 +3926,6 @@
                               target="#s.d4bb1749-896d-43a0-aea1-2b4e84b2a2b4-1 #w.session.24_ptv_616837_doc-1.1.7.45"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.e1bba48f-2774-494c-bfcb-40f6b8723666-1">
                   <s xml:id="s.e1bba48f-2774-494c-bfcb-40f6b8723666-1">
                      <w lemma="הוא"
                         pos="PRON"
@@ -4144,8 +4110,6 @@
                               target="#s.e1bba48f-2774-494c-bfcb-40f6b8723666-1 #w.session.24_ptv_616837_doc-1.1.8.22"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.f2f8f3fd-692d-43b2-b197-97dc8e8a4786-1">
                   <s xml:id="s.f2f8f3fd-692d-43b2-b197-97dc8e8a4786-1">
                      <w lemma="הוא"
                         pos="PRON"
@@ -4316,8 +4280,6 @@
                               target="#s.f2f8f3fd-692d-43b2-b197-97dc8e8a4786-1 #w.session.24_ptv_616837_doc-1.1.9.17"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-794d9aaa-7151-4482-b97a-e9dea79921b4-1">
                   <s xml:id="s.id-794d9aaa-7151-4482-b97a-e9dea79921b4-1">
                      <w lemma="יותר"
                         pos="ADV"
@@ -4528,8 +4490,6 @@
                               target="#s.id-794d9aaa-7151-4482-b97a-e9dea79921b4-1 #w.session.24_ptv_616837_doc-1.1.10.22"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-3c58cb2d-6340-47d2-ba67-53d5d778a016-1">
                   <s xml:id="s.id-3c58cb2d-6340-47d2-ba67-53d5d778a016-1">
                      <w lemma="_"
                         pos="X"
@@ -4799,8 +4759,6 @@
                               target="#s.id-3c58cb2d-6340-47d2-ba67-53d5d778a016-1 #w.session.24_ptv_616837_doc-1.1.11.34"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-9623b8d6-4dad-425a-b7ac-7173ce28dd8b-1">
                   <s xml:id="s.id-9623b8d6-4dad-425a-b7ac-7173ce28dd8b-1">
                      <w lemma="_"
                         pos="X"
@@ -4997,8 +4955,6 @@
                               target="#s.id-9623b8d6-4dad-425a-b7ac-7173ce28dd8b-1 #w.session.24_ptv_616837_doc-1.1.12.18"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.e1896e6c-fcd2-4034-9289-1d8ae7680b82-1">
                   <s xml:id="s.e1896e6c-fcd2-4034-9289-1d8ae7680b82-1">
                      <w lemma="_"
                         pos="X"
@@ -5403,8 +5359,6 @@
                               target="#s.e1896e6c-fcd2-4034-9289-1d8ae7680b82-1 #w.session.24_ptv_616837_doc-1.1.13.50"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.c0addf28-e15a-4585-8016-edfcdbc8cccd-1">
                   <s xml:id="s.c0addf28-e15a-4585-8016-edfcdbc8cccd-1">
                      <w lemma="_"
                         pos="X"
@@ -5772,8 +5726,6 @@
                               target="#s.c0addf28-e15a-4585-8016-edfcdbc8cccd-1 #w.session.24_ptv_616837_doc-1.1.14.49"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.f53f00c7-28ca-4be4-bcd9-5dba244dcc5d-1">
                   <s xml:id="s.f53f00c7-28ca-4be4-bcd9-5dba244dcc5d-1">
                      <w lemma="אז"
                         pos="ADV"
@@ -5839,8 +5791,6 @@
                               target="#s.f53f00c7-28ca-4be4-bcd9-5dba244dcc5d-1 #w.session.24_ptv_616837_doc-1.1.15.5"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-3250c60d-d0e1-4ef8-99e2-c5447df14f14-1">
                   <s xml:id="s.id-3250c60d-d0e1-4ef8-99e2-c5447df14f14-1">
                      <w lemma="הוא"
                         pos="PRON"
@@ -6137,8 +6087,6 @@
                               target="#s.id-3250c60d-d0e1-4ef8-99e2-c5447df14f14-1 #w.session.24_ptv_616837_doc-1.1.16.38"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.bc88a8aa-977f-4e24-892a-452eb2195b77-1">
                   <s xml:id="s.bc88a8aa-977f-4e24-892a-452eb2195b77-1">
                      <w lemma="תודה"
                         pos="X"
@@ -6160,8 +6108,8 @@
             <u xml:id="u.session.24_ptv_616837_doc-1.2"
                who="#person.30118"
                ana="#chair">
-               <seg xml:id="seg.id-84fe5453-73a0-4e91-9f49-3e6769c4223c-1">
-                  <s xml:id="s.id-84fe5453-73a0-4e91-9f49-3e6769c4223c-1">
+               <seg xml:id="seg.id-84fe5453-73a0-4e91-9f49-3e6769c4223c-2">
+                  <s xml:id="s.id-84fe5453-73a0-4e91-9f49-3e6769c4223c-3">
                      <w lemma="מצוין"
                         pos="ADJ"
                         msd="UPosTag=ADJ"
@@ -6172,13 +6120,11 @@
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
-                              target="#s.id-84fe5453-73a0-4e91-9f49-3e6769c4223c-1 #w.session.24_ptv_616837_doc-1.2.1.0"/>
+                              target="#s.id-84fe5453-73a0-4e91-9f49-3e6769c4223c-3 #w.session.24_ptv_616837_doc-1.2.1.0"/>
                         <link ana="ud-syn:punct"
                               target="#w.session.24_ptv_616837_doc-1.2.1.0 #w.session.24_ptv_616837_doc-1.2.1.1"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-0bcd0103-96f0-40f3-85ad-f5bb924ae8e0-1">
                   <s xml:id="s.id-0bcd0103-96f0-40f3-85ad-f5bb924ae8e0-1">
                      <w lemma="תודה"
                         pos="NOUN"
@@ -6230,8 +6176,6 @@
                               target="#s.id-0bcd0103-96f0-40f3-85ad-f5bb924ae8e0-1 #w.session.24_ptv_616837_doc-1.2.2.3"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-7b83bcd8-adc6-45cb-8ce7-35f28b63f69a-1">
                   <s xml:id="s.id-7b83bcd8-adc6-45cb-8ce7-35f28b63f69a-1">
                      <w lemma="אז"
                         pos="ADV"
@@ -6302,8 +6246,6 @@
                               target="#s.id-7b83bcd8-adc6-45cb-8ce7-35f28b63f69a-1 #w.session.24_ptv_616837_doc-1.2.3.6"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-43c70b44-04ec-45e9-a1a5-8933249bc036-1">
                   <s xml:id="s.id-43c70b44-04ec-45e9-a1a5-8933249bc036-1">
                      <w lemma="תוקף"
                         pos="NOUN"
@@ -6397,8 +6339,6 @@
                               target="#s.id-43c70b44-04ec-45e9-a1a5-8933249bc036-1 #w.session.24_ptv_616837_doc-1.2.4.9"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-691aa2d8-cdd2-4fa8-a90f-05a6fe8e6f47-1">
                   <s xml:id="s.id-691aa2d8-cdd2-4fa8-a90f-05a6fe8e6f47-1">
                      <w lemma="הוא"
                         pos="PRON"
@@ -6471,8 +6411,6 @@
                               target="#s.id-691aa2d8-cdd2-4fa8-a90f-05a6fe8e6f47-1 #w.session.24_ptv_616837_doc-1.2.5.6"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.b02c8c30-2a5d-4bca-be68-825ce45b80f9-1">
                   <s xml:id="s.b02c8c30-2a5d-4bca-be68-825ce45b80f9-1">
                      <w lemma="הצבעה"
                         pos="NOUN"
@@ -6496,8 +6434,8 @@
             <u xml:id="u.session.24_ptv_616837_doc-1.3"
                who="#person.30118"
                ana="#chair">
-               <seg xml:id="seg.id-412f68a1-5906-49f9-853a-7c0c288adaaa-1">
-                  <s xml:id="s.id-412f68a1-5906-49f9-853a-7c0c288adaaa-1">
+               <seg xml:id="seg.id-412f68a1-5906-49f9-853a-7c0c288adaaa-2">
+                  <s xml:id="s.id-412f68a1-5906-49f9-853a-7c0c288adaaa-3">
                      <w lemma="_"
                         pos="X"
                         msd="UPosTag=X"
@@ -6537,7 +6475,7 @@
                         <link ana="ud-syn:nsubj"
                               target="#w.session.24_ptv_616837_doc-1.3.1.3 #w.session.24_ptv_616837_doc-1.3.1.2"/>
                         <link ana="ud-syn:root"
-                              target="#s.id-412f68a1-5906-49f9-853a-7c0c288adaaa-1 #w.session.24_ptv_616837_doc-1.3.1.3"/>
+                              target="#s.id-412f68a1-5906-49f9-853a-7c0c288adaaa-3 #w.session.24_ptv_616837_doc-1.3.1.3"/>
                         <link ana="ud-syn:obl_npmod"
                               target="#w.session.24_ptv_616837_doc-1.3.1.3 #w.session.24_ptv_616837_doc-1.3.1.4"/>
                         <link ana="ud-syn:nummod"
@@ -6545,11 +6483,9 @@
                         <link ana="ud-syn:punct"
                               target="#w.session.24_ptv_616837_doc-1.3.1.3 #w.session.24_ptv_616837_doc-1.3.1.6"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-412f68a1-5906-49f9-853a-7c0c288adaaa-1 #w.session.24_ptv_616837_doc-1.3.1.0"/>
+                              target="#s.id-412f68a1-5906-49f9-853a-7c0c288adaaa-3 #w.session.24_ptv_616837_doc-1.3.1.0"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-886b82e3-0099-4b47-af88-1757ec0d5703-1">
                   <s xml:id="s.id-886b82e3-0099-4b47-af88-1757ec0d5703-1">
                      <w lemma="המון"
                         pos="DET"
@@ -6637,8 +6573,6 @@
                               target="#s.id-886b82e3-0099-4b47-af88-1757ec0d5703-1 #w.session.24_ptv_616837_doc-1.3.2.5"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-2145ff07-e07c-4d02-951f-cae375780abd-1">
                   <s xml:id="s.id-2145ff07-e07c-4d02-951f-cae375780abd-1">
                      <w lemma="הוא"
                         pos="PRON"
@@ -6753,8 +6687,6 @@
                               target="#s.id-2145ff07-e07c-4d02-951f-cae375780abd-1 #w.session.24_ptv_616837_doc-1.3.3.11"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-598e3fd1-e31e-4495-b995-20b508fed01c-1">
                   <s xml:id="s.id-598e3fd1-e31e-4495-b995-20b508fed01c-1">
                      <name type="MISC">
                         <w lemma="חברה"
@@ -6817,8 +6749,8 @@
             <u xml:id="u.session.24_ptv_616837_doc-1.4"
                who="#person.30806"
                ana="#regular">
-               <seg xml:id="seg.id-565add12-3b2f-4370-b618-cf4489210dcd-1">
-                  <s xml:id="s.id-565add12-3b2f-4370-b618-cf4489210dcd-1">
+               <seg xml:id="seg.id-565add12-3b2f-4370-b618-cf4489210dcd-2">
+                  <s xml:id="s.id-565add12-3b2f-4370-b618-cf4489210dcd-3">
                      <w lemma="הוא"
                         pos="PRON"
                         msd="UPosTag=PRON|Gender=Fem|Number=Sing|Person=1|PronType=Prs"
@@ -6901,7 +6833,7 @@
                         <link ana="ud-syn:nsubj"
                               target="#w.session.24_ptv_616837_doc-1.4.1.1 #w.session.24_ptv_616837_doc-1.4.1.0"/>
                         <link ana="ud-syn:root"
-                              target="#s.id-565add12-3b2f-4370-b618-cf4489210dcd-1 #w.session.24_ptv_616837_doc-1.4.1.1"/>
+                              target="#s.id-565add12-3b2f-4370-b618-cf4489210dcd-3 #w.session.24_ptv_616837_doc-1.4.1.1"/>
                         <link ana="ud-syn:xcomp"
                               target="#w.session.24_ptv_616837_doc-1.4.1.1 #w.session.24_ptv_616837_doc-1.4.1.2"/>
                         <link ana="ud-syn:case"
@@ -6923,13 +6855,11 @@
                         <link ana="ud-syn:punct"
                               target="#w.session.24_ptv_616837_doc-1.4.1.1 #w.session.24_ptv_616837_doc-1.4.1.13"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-565add12-3b2f-4370-b618-cf4489210dcd-1 #w.session.24_ptv_616837_doc-1.4.1.4"/>
+                              target="#s.id-565add12-3b2f-4370-b618-cf4489210dcd-3 #w.session.24_ptv_616837_doc-1.4.1.4"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-565add12-3b2f-4370-b618-cf4489210dcd-1 #w.session.24_ptv_616837_doc-1.4.1.8"/>
+                              target="#s.id-565add12-3b2f-4370-b618-cf4489210dcd-3 #w.session.24_ptv_616837_doc-1.4.1.8"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-6009af2d-0993-42e2-848a-2d2753977516-1">
                   <s xml:id="s.id-6009af2d-0993-42e2-848a-2d2753977516-1">
                      <w lemma="_"
                         pos="X"
@@ -7268,8 +7198,6 @@
                               target="#s.id-6009af2d-0993-42e2-848a-2d2753977516-1 #w.session.24_ptv_616837_doc-1.4.2.41"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-0e6ad257-7c7f-4888-946b-6981482bef0d-1">
                   <s xml:id="s.id-0e6ad257-7c7f-4888-946b-6981482bef0d-1">
                      <w lemma="הוא"
                         pos="PRON"
@@ -7508,8 +7436,6 @@
                               target="#s.id-0e6ad257-7c7f-4888-946b-6981482bef0d-1 #w.session.24_ptv_616837_doc-1.4.3.25"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-8f4bcf3b-49f4-4449-bddb-37b5b4413c40-1">
                   <s xml:id="s.id-8f4bcf3b-49f4-4449-bddb-37b5b4413c40-1">
                      <w lemma="גם"
                         pos="ADV"
@@ -7652,8 +7578,6 @@
                               target="#s.id-8f4bcf3b-49f4-4449-bddb-37b5b4413c40-1 #w.session.24_ptv_616837_doc-1.4.4.16"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-264fccf8-3d2a-4212-9327-e078590ad99a-1">
                   <s xml:id="s.id-264fccf8-3d2a-4212-9327-e078590ad99a-1">
                      <w lemma="תודה"
                         pos="NOUN"
@@ -7733,8 +7657,6 @@
                               target="#s.id-264fccf8-3d2a-4212-9327-e078590ad99a-1 #w.session.24_ptv_616837_doc-1.4.5.7"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-8d24aeaa-d243-404d-946b-edf83a24490f-1">
                   <s xml:id="s.id-8d24aeaa-d243-404d-946b-edf83a24490f-1">
                      <w lemma="תודה"
                         pos="X"
@@ -7805,8 +7727,8 @@
             <u xml:id="u.session.24_ptv_616837_doc-1.5"
                who="#person.30118"
                ana="#chair">
-               <seg xml:id="seg.id-8709074e-6cce-410d-ae1e-7edfd9bf841d-1">
-                  <s xml:id="s.id-8709074e-6cce-410d-ae1e-7edfd9bf841d-1">
+               <seg xml:id="seg.id-8709074e-6cce-410d-ae1e-7edfd9bf841d-2">
+                  <s xml:id="s.id-8709074e-6cce-410d-ae1e-7edfd9bf841d-3">
                      <w lemma="תודה"
                         pos="NOUN"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
@@ -7822,15 +7744,13 @@
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
-                              target="#s.id-8709074e-6cce-410d-ae1e-7edfd9bf841d-1 #w.session.24_ptv_616837_doc-1.5.1.0"/>
+                              target="#s.id-8709074e-6cce-410d-ae1e-7edfd9bf841d-3 #w.session.24_ptv_616837_doc-1.5.1.0"/>
                         <link ana="ud-syn:advmod"
                               target="#w.session.24_ptv_616837_doc-1.5.1.0 #w.session.24_ptv_616837_doc-1.5.1.1"/>
                         <link ana="ud-syn:punct"
                               target="#w.session.24_ptv_616837_doc-1.5.1.0 #w.session.24_ptv_616837_doc-1.5.1.2"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-164ded04-7213-44f3-a612-4ae1e40069dd-1">
                   <s xml:id="s.id-164ded04-7213-44f3-a612-4ae1e40069dd-1">
                      <w lemma="אכן"
                         pos="ADV"
@@ -8076,8 +7996,6 @@
                               target="#s.id-164ded04-7213-44f3-a612-4ae1e40069dd-1 #w.session.24_ptv_616837_doc-1.5.2.25"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-181c1bc7-a433-4388-92b9-fc6490c121d8-1">
                   <s xml:id="s.id-181c1bc7-a433-4388-92b9-fc6490c121d8-1">
                      <w lemma="הוא"
                         pos="PRON"
@@ -8377,8 +8295,6 @@
                               target="#s.id-181c1bc7-a433-4388-92b9-fc6490c121d8-1 #w.session.24_ptv_616837_doc-1.5.3.27"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-3ca33313-b658-47fb-9189-509895dce20d-1">
                   <s xml:id="s.id-3ca33313-b658-47fb-9189-509895dce20d-1">
                      <w lemma="_"
                         pos="X"
@@ -8533,8 +8449,6 @@
                               target="#s.id-3ca33313-b658-47fb-9189-509895dce20d-1 #w.session.24_ptv_616837_doc-1.5.4.13"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.c05fde8a-33dd-4478-8456-1e0375641f16-1">
                   <s xml:id="s.c05fde8a-33dd-4478-8456-1e0375641f16-1">
                      <w lemma="_"
                         pos="X"
@@ -8743,8 +8657,6 @@
                               target="#s.c05fde8a-33dd-4478-8456-1e0375641f16-1 #w.session.24_ptv_616837_doc-1.5.5.22"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-3201794c-d7c2-4396-b10a-831b2958b3b1-1">
                   <s xml:id="s.id-3201794c-d7c2-4396-b10a-831b2958b3b1-1">
                      <w lemma="עשר"
                         pos="NUM"
@@ -8838,8 +8750,6 @@
                               target="#s.id-3201794c-d7c2-4396-b10a-831b2958b3b1-1 #w.session.24_ptv_616837_doc-1.5.6.6"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.fe4f6698-35fd-4791-878e-0451cbd17b10-1">
                   <s xml:id="s.fe4f6698-35fd-4791-878e-0451cbd17b10-1">
                      <w lemma="אולי"
                         pos="ADV"
@@ -8926,8 +8836,6 @@
                               target="#s.fe4f6698-35fd-4791-878e-0451cbd17b10-1 #w.session.24_ptv_616837_doc-1.5.7.3"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.de925352-0bf2-4eab-bf6e-330efa57e236-1">
                   <s xml:id="s.de925352-0bf2-4eab-bf6e-330efa57e236-1">
                      <w lemma="זה"
                         pos="PRON"
@@ -9323,8 +9231,6 @@
                               target="#s.de925352-0bf2-4eab-bf6e-330efa57e236-1 #w.session.24_ptv_616837_doc-1.5.8.50"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-2aada47a-c425-45e7-b7b3-b698d28a18ac-1">
                   <s xml:id="s.id-2aada47a-c425-45e7-b7b3-b698d28a18ac-1">
                      <w lemma="זה"
                         pos="PRON"
@@ -9439,8 +9345,6 @@
                               target="#s.id-2aada47a-c425-45e7-b7b3-b698d28a18ac-1 #w.session.24_ptv_616837_doc-1.5.9.12"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.a43a442f-ca01-4ac8-80e8-fe5f1e448cd1-1">
                   <s xml:id="s.a43a442f-ca01-4ac8-80e8-fe5f1e448cd1-1">
                      <w lemma="_"
                         pos="X"
@@ -9707,8 +9611,6 @@
                               target="#s.a43a442f-ca01-4ac8-80e8-fe5f1e448cd1-1 #w.session.24_ptv_616837_doc-1.5.10.33"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-6c134b7b-6d28-4551-a0e0-65cd365119a0-1">
                   <s xml:id="s.id-6c134b7b-6d28-4551-a0e0-65cd365119a0-1">
                      <w lemma="ביקש"
                         pos="VERB"
@@ -9748,8 +9650,6 @@
                               target="#s.id-6c134b7b-6d28-4551-a0e0-65cd365119a0-1 #w.session.24_ptv_616837_doc-1.5.11.2"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.d868a8bc-f13d-475b-8677-8ba6c3b2d993-1">
                   <s xml:id="s.d868a8bc-f13d-475b-8677-8ba6c3b2d993-1">
                      <w lemma="כם"
                         pos="X"
@@ -10133,8 +10033,6 @@
                               target="#s.d868a8bc-f13d-475b-8677-8ba6c3b2d993-1 #w.session.24_ptv_616837_doc-1.5.12.46"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.c55d7504-7824-4b4d-ad60-676db8d55243-1">
                   <s xml:id="s.c55d7504-7824-4b4d-ad60-676db8d55243-1">
                      <w lemma="_"
                         pos="X"
@@ -10327,8 +10225,6 @@
                               target="#s.c55d7504-7824-4b4d-ad60-676db8d55243-1 #w.session.24_ptv_616837_doc-1.5.13.22"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-1415e46a-3760-4c4e-886a-9f86df04c827-1">
                   <s xml:id="s.id-1415e46a-3760-4c4e-886a-9f86df04c827-1">
                      <w lemma="יכהנו"
                         pos="VERB"
@@ -10702,8 +10598,6 @@
                               target="#s.id-1415e46a-3760-4c4e-886a-9f86df04c827-1 #w.session.24_ptv_616837_doc-1.5.14.45"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-4173bd90-1d0b-4b82-8566-0d5014b2aaf6-1">
                   <s xml:id="s.id-4173bd90-1d0b-4b82-8566-0d5014b2aaf6-1">
                      <w lemma="_"
                         pos="X"
@@ -10916,8 +10810,6 @@
                               target="#s.id-4173bd90-1d0b-4b82-8566-0d5014b2aaf6-1 #w.session.24_ptv_616837_doc-1.5.15.26"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.d676a997-57fa-446f-9dfd-b2ec2a22937e-1">
                   <s xml:id="s.d676a997-57fa-446f-9dfd-b2ec2a22937e-1">
                      <w lemma="תוקף"
                         pos="NOUN"
@@ -11073,8 +10965,6 @@
                               target="#s.d676a997-57fa-446f-9dfd-b2ec2a22937e-1 #w.session.24_ptv_616837_doc-1.5.16.16"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-47b69717-4c2e-453a-9177-8ecf58ad9b45-1">
                   <s xml:id="s.id-47b69717-4c2e-453a-9177-8ecf58ad9b45-1">
                      <w lemma="גם"
                         pos="ADV"
@@ -11145,8 +11035,6 @@
                               target="#s.id-47b69717-4c2e-453a-9177-8ecf58ad9b45-1 #w.session.24_ptv_616837_doc-1.5.17.5"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-6e1ca317-e6c0-4288-a583-0c6939757f3e-1">
                   <s xml:id="s.id-6e1ca317-e6c0-4288-a583-0c6939757f3e-1">
                      <w lemma="הוא"
                         pos="PRON"
@@ -11474,8 +11362,6 @@
                               target="#s.id-6e1ca317-e6c0-4288-a583-0c6939757f3e-1 #w.session.24_ptv_616837_doc-1.5.18.42"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-5a1407ba-d5df-4dc3-be51-c2062af4cded-1">
                   <s xml:id="s.id-5a1407ba-d5df-4dc3-be51-c2062af4cded-1">
                      <w lemma="נראה"
                         pos="VERB"
@@ -11785,8 +11671,6 @@
                               target="#s.id-5a1407ba-d5df-4dc3-be51-c2062af4cded-1 #w.session.24_ptv_616837_doc-1.5.19.40"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.d5ba7f61-443d-4cab-970e-23a019b508b3-1">
                   <s xml:id="s.d5ba7f61-443d-4cab-970e-23a019b508b3-1">
                      <w lemma="יש"
                         pos="VERB"
@@ -12210,8 +12094,6 @@
                               target="#s.d5ba7f61-443d-4cab-970e-23a019b508b3-1 #w.session.24_ptv_616837_doc-1.5.20.55"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-2575b5fe-eadf-4fd8-b48b-f22c3065f078-1">
                   <s xml:id="s.id-2575b5fe-eadf-4fd8-b48b-f22c3065f078-1">
                      <w lemma="יותר"
                         pos="ADV"
@@ -12362,8 +12244,6 @@
                               target="#s.id-2575b5fe-eadf-4fd8-b48b-f22c3065f078-1 #w.session.24_ptv_616837_doc-1.5.21.12"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-90c9bf11-bd21-4237-962b-8c9d3f6a5d76-1">
                   <s xml:id="s.id-90c9bf11-bd21-4237-962b-8c9d3f6a5d76-1">
                      <w lemma="גם"
                         pos="ADV"
@@ -12726,8 +12606,6 @@
                               target="#s.id-90c9bf11-bd21-4237-962b-8c9d3f6a5d76-1 #w.session.24_ptv_616837_doc-1.5.22.47"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.f1f1fcc4-fdf4-4fef-abb7-55e2ec0f8e85-1">
                   <s xml:id="s.f1f1fcc4-fdf4-4fef-abb7-55e2ec0f8e85-1">
                      <w lemma="הוא"
                         pos="PRON"
@@ -12852,8 +12730,8 @@
             <u xml:id="u.session.24_ptv_616837_doc-1.6"
                who="#person.30770"
                ana="#regular">
-               <seg xml:id="seg.bb0db665-d108-48f8-a514-81cb4344d5b2-1">
-                  <s xml:id="s.bb0db665-d108-48f8-a514-81cb4344d5b2-1">
+               <seg xml:id="seg.bb0db665-d108-48f8-a514-81cb4344d5b2-2">
+                  <s xml:id="s.bb0db665-d108-48f8-a514-81cb4344d5b2-3">
                      <w lemma="תודה"
                         pos="NOUN"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
@@ -12961,7 +12839,7 @@
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
-                              target="#s.bb0db665-d108-48f8-a514-81cb4344d5b2-1 #w.session.24_ptv_616837_doc-1.6.1.0"/>
+                              target="#s.bb0db665-d108-48f8-a514-81cb4344d5b2-3 #w.session.24_ptv_616837_doc-1.6.1.0"/>
                         <link ana="ud-syn:amod"
                               target="#w.session.24_ptv_616837_doc-1.6.1.0 #w.session.24_ptv_616837_doc-1.6.1.1"/>
                         <link ana="ud-syn:case"
@@ -12987,17 +12865,15 @@
                         <link ana="ud-syn:punct"
                               target="#w.session.24_ptv_616837_doc-1.6.1.0 #w.session.24_ptv_616837_doc-1.6.1.16"/>
                         <link ana="ud-syn:dep"
-                              target="#s.bb0db665-d108-48f8-a514-81cb4344d5b2-1 #w.session.24_ptv_616837_doc-1.6.1.2"/>
+                              target="#s.bb0db665-d108-48f8-a514-81cb4344d5b2-3 #w.session.24_ptv_616837_doc-1.6.1.2"/>
                         <link ana="ud-syn:dep"
-                              target="#s.bb0db665-d108-48f8-a514-81cb4344d5b2-1 #w.session.24_ptv_616837_doc-1.6.1.5"/>
+                              target="#s.bb0db665-d108-48f8-a514-81cb4344d5b2-3 #w.session.24_ptv_616837_doc-1.6.1.5"/>
                         <link ana="ud-syn:dep"
-                              target="#s.bb0db665-d108-48f8-a514-81cb4344d5b2-1 #w.session.24_ptv_616837_doc-1.6.1.8"/>
+                              target="#s.bb0db665-d108-48f8-a514-81cb4344d5b2-3 #w.session.24_ptv_616837_doc-1.6.1.8"/>
                         <link ana="ud-syn:dep"
-                              target="#s.bb0db665-d108-48f8-a514-81cb4344d5b2-1 #w.session.24_ptv_616837_doc-1.6.1.11"/>
+                              target="#s.bb0db665-d108-48f8-a514-81cb4344d5b2-3 #w.session.24_ptv_616837_doc-1.6.1.11"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-71eab2d8-67a6-4e3a-bf45-57675a259acf-1">
                   <s xml:id="s.id-71eab2d8-67a6-4e3a-bf45-57675a259acf-1">
                      <w lemma="_"
                         pos="X"
@@ -13156,8 +13032,6 @@
                               target="#s.id-71eab2d8-67a6-4e3a-bf45-57675a259acf-1 #w.session.24_ptv_616837_doc-1.6.2.18"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.da3e1d1b-24a1-48de-8255-7f5c5ba9e682-1">
                   <s xml:id="s.da3e1d1b-24a1-48de-8255-7f5c5ba9e682-1">
                      <w lemma="הוא"
                         pos="PRON"
@@ -13441,8 +13315,6 @@
                               target="#s.da3e1d1b-24a1-48de-8255-7f5c5ba9e682-1 #w.session.24_ptv_616837_doc-1.6.3.35"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-16d9ff65-993c-4cb4-bcbc-8c388cb0c82e-1">
                   <s xml:id="s.id-16d9ff65-993c-4cb4-bcbc-8c388cb0c82e-1">
                      <w lemma="זה"
                         pos="PRON"
@@ -13966,8 +13838,6 @@
                               target="#s.id-16d9ff65-993c-4cb4-bcbc-8c388cb0c82e-1 #w.session.24_ptv_616837_doc-1.6.4.71"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-073aa979-aeff-4438-94ce-972ee5eb08ae-1">
                   <s xml:id="s.id-073aa979-aeff-4438-94ce-972ee5eb08ae-1">
                      <w lemma="הוא"
                         pos="PRON"
@@ -14099,8 +13969,6 @@
                               target="#s.id-073aa979-aeff-4438-94ce-972ee5eb08ae-1 #w.session.24_ptv_616837_doc-1.6.5.15"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-5ab0fd6c-635c-43bb-bd85-71595c3f04b8-1">
                   <s xml:id="s.id-5ab0fd6c-635c-43bb-bd85-71595c3f04b8-1">
                      <w lemma="_"
                         pos="X"
@@ -14232,8 +14100,6 @@
                               target="#s.id-5ab0fd6c-635c-43bb-bd85-71595c3f04b8-1 #w.session.24_ptv_616837_doc-1.6.6.12"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-208c59e0-c78d-4482-b0ca-126ba6795a4c-1">
                   <s xml:id="s.id-208c59e0-c78d-4482-b0ca-126ba6795a4c-1">
                      <w lemma="_"
                         pos="X"
@@ -14579,8 +14445,6 @@
                               target="#s.id-208c59e0-c78d-4482-b0ca-126ba6795a4c-1 #w.session.24_ptv_616837_doc-1.6.7.43"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.a526ace3-c403-4f51-bad8-3a479c4c2206-1">
                   <s xml:id="s.a526ace3-c403-4f51-bad8-3a479c4c2206-1">
                      <w lemma="דבר"
                         pos="NOUN"
@@ -14783,8 +14647,6 @@
                               target="#s.a526ace3-c403-4f51-bad8-3a479c4c2206-1 #w.session.24_ptv_616837_doc-1.6.8.24"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-0840b328-8666-4e3f-bb58-3517bad62668-1">
                   <s xml:id="s.id-0840b328-8666-4e3f-bb58-3517bad62668-1">
                      <w lemma="לכן"
                         pos="ADV"
@@ -14918,8 +14780,6 @@
                               target="#s.id-0840b328-8666-4e3f-bb58-3517bad62668-1 #w.session.24_ptv_616837_doc-1.6.9.14"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-78caff2c-340b-4380-beea-a954504df812-1">
                   <s xml:id="s.id-78caff2c-340b-4380-beea-a954504df812-1">
                      <w lemma="הוא"
                         pos="PRON"
@@ -15146,8 +15006,6 @@
                               target="#s.id-78caff2c-340b-4380-beea-a954504df812-1 #w.session.24_ptv_616837_doc-1.6.10.27"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-7fa8d676-b7d0-4f8b-adf3-7d23001aea75-1">
                   <s xml:id="s.id-7fa8d676-b7d0-4f8b-adf3-7d23001aea75-1">
                      <w lemma="זה"
                         pos="PRON"
@@ -15636,8 +15494,6 @@
                               target="#s.id-7fa8d676-b7d0-4f8b-adf3-7d23001aea75-1 #w.session.24_ptv_616837_doc-1.6.11.66"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-14fc03ca-0133-4c21-8cce-2ac31a556bb7-1">
                   <s xml:id="s.id-14fc03ca-0133-4c21-8cce-2ac31a556bb7-1">
                      <w lemma="_"
                         pos="X"
@@ -15844,8 +15700,6 @@
                               target="#s.id-14fc03ca-0133-4c21-8cce-2ac31a556bb7-1 #w.session.24_ptv_616837_doc-1.6.12.26"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-9fe17790-fa9e-4e86-8b9d-e156ff095643-1">
                   <s xml:id="s.id-9fe17790-fa9e-4e86-8b9d-e156ff095643-1">
                      <w lemma="הוא"
                         pos="PRON"
@@ -16112,8 +15966,6 @@
                               target="#s.id-9fe17790-fa9e-4e86-8b9d-e156ff095643-1 #w.session.24_ptv_616837_doc-1.6.13.34"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.bdef17f2-e3f9-4039-a4c2-209fd673450e-1">
                   <s xml:id="s.bdef17f2-e3f9-4039-a4c2-209fd673450e-1">
                      <w lemma="לאחרונה"
                         pos="ADV"
@@ -16332,8 +16184,6 @@
                               target="#s.bdef17f2-e3f9-4039-a4c2-209fd673450e-1 #w.session.24_ptv_616837_doc-1.6.14.25"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-2f99edc7-3bd3-46d0-ab37-e76f2ec0f94d-1">
                   <s xml:id="s.id-2f99edc7-3bd3-46d0-ab37-e76f2ec0f94d-1">
                      <w lemma="הוא"
                         pos="PRON"
@@ -16685,8 +16535,6 @@
                               target="#s.id-2f99edc7-3bd3-46d0-ab37-e76f2ec0f94d-1 #w.session.24_ptv_616837_doc-1.6.15.47"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-21121887-3751-4908-90d9-83648e628f95-1">
                   <s xml:id="s.id-21121887-3751-4908-90d9-83648e628f95-1">
                      <w lemma="_"
                         pos="X"
@@ -16932,8 +16780,6 @@
                               target="#s.id-21121887-3751-4908-90d9-83648e628f95-1 #w.session.24_ptv_616837_doc-1.6.16.31"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-1297e607-bcba-4eab-a1d1-a40e58a55cf2-1">
                   <s xml:id="s.id-1297e607-bcba-4eab-a1d1-a40e58a55cf2-1">
                      <w lemma="אז"
                         pos="ADV"
@@ -17205,8 +17051,8 @@
             <u xml:id="u.session.24_ptv_616837_doc-1.7"
                who="#person.30118"
                ana="#chair">
-               <seg xml:id="seg.id-65169f26-f9fd-4498-b100-948914fff70d-1">
-                  <s xml:id="s.id-65169f26-f9fd-4498-b100-948914fff70d-1">
+               <seg xml:id="seg.id-65169f26-f9fd-4498-b100-948914fff70d-2">
+                  <s xml:id="s.id-65169f26-f9fd-4498-b100-948914fff70d-3">
                      <w lemma="נהדר"
                         pos="ADJ"
                         msd="UPosTag=ADJ|Gender=Masc|Number=Sing"
@@ -17217,13 +17063,11 @@
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
-                              target="#s.id-65169f26-f9fd-4498-b100-948914fff70d-1 #w.session.24_ptv_616837_doc-1.7.1.0"/>
+                              target="#s.id-65169f26-f9fd-4498-b100-948914fff70d-3 #w.session.24_ptv_616837_doc-1.7.1.0"/>
                         <link ana="ud-syn:punct"
                               target="#w.session.24_ptv_616837_doc-1.7.1.0 #w.session.24_ptv_616837_doc-1.7.1.1"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-8fbe61d1-74e2-4332-8683-394688ed42b1-1">
                   <s xml:id="s.id-8fbe61d1-74e2-4332-8683-394688ed42b1-1">
                      <w lemma="תודה"
                         pos="NOUN"
@@ -17352,8 +17196,6 @@
                               target="#s.id-8fbe61d1-74e2-4332-8683-394688ed42b1-1 #w.session.24_ptv_616837_doc-1.7.2.14"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-424f43e3-fe35-4230-8b7d-86a6832e7fee-1">
                   <s xml:id="s.id-424f43e3-fe35-4230-8b7d-86a6832e7fee-1">
                      <w lemma="הצבעה"
                         pos="NOUN"
@@ -17377,8 +17219,8 @@
             <u xml:id="u.session.24_ptv_616837_doc-1.8"
                who="#person.30118"
                ana="#chair">
-               <seg xml:id="seg.id-57bf4415-0e54-4c21-82f4-7089eb0c996a-1">
-                  <s xml:id="s.id-57bf4415-0e54-4c21-82f4-7089eb0c996a-1">
+               <seg xml:id="seg.id-57bf4415-0e54-4c21-82f4-7089eb0c996a-2">
+                  <s xml:id="s.id-57bf4415-0e54-4c21-82f4-7089eb0c996a-3">
                      <w lemma="_"
                         pos="X"
                         msd="UPosTag=X"
@@ -17418,7 +17260,7 @@
                         <link ana="ud-syn:nsubj"
                               target="#w.session.24_ptv_616837_doc-1.8.1.3 #w.session.24_ptv_616837_doc-1.8.1.2"/>
                         <link ana="ud-syn:root"
-                              target="#s.id-57bf4415-0e54-4c21-82f4-7089eb0c996a-1 #w.session.24_ptv_616837_doc-1.8.1.3"/>
+                              target="#s.id-57bf4415-0e54-4c21-82f4-7089eb0c996a-3 #w.session.24_ptv_616837_doc-1.8.1.3"/>
                         <link ana="ud-syn:obl_npmod"
                               target="#w.session.24_ptv_616837_doc-1.8.1.3 #w.session.24_ptv_616837_doc-1.8.1.4"/>
                         <link ana="ud-syn:nummod"
@@ -17426,11 +17268,9 @@
                         <link ana="ud-syn:punct"
                               target="#w.session.24_ptv_616837_doc-1.8.1.3 #w.session.24_ptv_616837_doc-1.8.1.6"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-57bf4415-0e54-4c21-82f4-7089eb0c996a-1 #w.session.24_ptv_616837_doc-1.8.1.0"/>
+                              target="#s.id-57bf4415-0e54-4c21-82f4-7089eb0c996a-3 #w.session.24_ptv_616837_doc-1.8.1.0"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-03d9ba74-4b53-4e59-9fd5-4d4b54f5df1f-1">
                   <s xml:id="s.id-03d9ba74-4b53-4e59-9fd5-4d4b54f5df1f-1">
                      <w lemma="המון"
                         pos="DET"
@@ -17550,8 +17390,8 @@
             <u xml:id="u.session.24_ptv_616837_doc-1.9"
                who="#person.30820"
                ana="#regular">
-               <seg xml:id="seg.id-49049e08-7c09-41ee-8cb9-19942316ff69-1">
-                  <s xml:id="s.id-49049e08-7c09-41ee-8cb9-19942316ff69-1">
+               <seg xml:id="seg.id-49049e08-7c09-41ee-8cb9-19942316ff69-2">
+                  <s xml:id="s.id-49049e08-7c09-41ee-8cb9-19942316ff69-3">
                      <w lemma="אחת"
                         pos="NUM"
                         msd="UPosTag=NUM|Gender=Masc|Number=Sing"
@@ -17854,7 +17694,7 @@
                         <link ana="ud-syn:cop"
                               target="#w.session.24_ptv_616837_doc-1.9.1.17 #w.session.24_ptv_616837_doc-1.9.1.16"/>
                         <link ana="ud-syn:root"
-                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-1 #w.session.24_ptv_616837_doc-1.9.1.17"/>
+                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-3 #w.session.24_ptv_616837_doc-1.9.1.17"/>
                         <link ana="ud-syn:obj"
                               target="#w.session.24_ptv_616837_doc-1.9.1.17 #w.session.24_ptv_616837_doc-1.9.1.18"/>
                         <link ana="ud-syn:advmod"
@@ -17914,37 +17754,35 @@
                         <link ana="ud-syn:punct"
                               target="#w.session.24_ptv_616837_doc-1.9.1.17 #w.session.24_ptv_616837_doc-1.9.1.55"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-1 #w.session.24_ptv_616837_doc-1.9.1.1"/>
+                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-3 #w.session.24_ptv_616837_doc-1.9.1.1"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-1 #w.session.24_ptv_616837_doc-1.9.1.4"/>
+                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-3 #w.session.24_ptv_616837_doc-1.9.1.4"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-1 #w.session.24_ptv_616837_doc-1.9.1.7"/>
+                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-3 #w.session.24_ptv_616837_doc-1.9.1.7"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-1 #w.session.24_ptv_616837_doc-1.9.1.10"/>
+                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-3 #w.session.24_ptv_616837_doc-1.9.1.10"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-1 #w.session.24_ptv_616837_doc-1.9.1.13"/>
+                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-3 #w.session.24_ptv_616837_doc-1.9.1.13"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-1 #w.session.24_ptv_616837_doc-1.9.1.22"/>
+                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-3 #w.session.24_ptv_616837_doc-1.9.1.22"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-1 #w.session.24_ptv_616837_doc-1.9.1.27"/>
+                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-3 #w.session.24_ptv_616837_doc-1.9.1.27"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-1 #w.session.24_ptv_616837_doc-1.9.1.31"/>
+                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-3 #w.session.24_ptv_616837_doc-1.9.1.31"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-1 #w.session.24_ptv_616837_doc-1.9.1.35"/>
+                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-3 #w.session.24_ptv_616837_doc-1.9.1.35"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-1 #w.session.24_ptv_616837_doc-1.9.1.39"/>
+                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-3 #w.session.24_ptv_616837_doc-1.9.1.39"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-1 #w.session.24_ptv_616837_doc-1.9.1.42"/>
+                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-3 #w.session.24_ptv_616837_doc-1.9.1.42"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-1 #w.session.24_ptv_616837_doc-1.9.1.45"/>
+                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-3 #w.session.24_ptv_616837_doc-1.9.1.45"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-1 #w.session.24_ptv_616837_doc-1.9.1.49"/>
+                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-3 #w.session.24_ptv_616837_doc-1.9.1.49"/>
                         <link ana="ud-syn:dep"
-                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-1 #w.session.24_ptv_616837_doc-1.9.1.52"/>
+                              target="#s.id-49049e08-7c09-41ee-8cb9-19942316ff69-3 #w.session.24_ptv_616837_doc-1.9.1.52"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-44f28c9d-69ba-47fc-a5a4-9d3ffbca8152-1">
                   <s xml:id="s.id-44f28c9d-69ba-47fc-a5a4-9d3ffbca8152-1">
                      <w lemma="אז"
                         pos="ADV"
@@ -18113,8 +17951,6 @@
                               target="#s.id-44f28c9d-69ba-47fc-a5a4-9d3ffbca8152-1 #w.session.24_ptv_616837_doc-1.9.2.20"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-88edc527-6a6c-4488-ab82-a2294bff44e5-1">
                   <s xml:id="s.id-88edc527-6a6c-4488-ab82-a2294bff44e5-1">
                      <name type="PER">
                         <w lemma="קינלי"
@@ -18387,8 +18223,6 @@
                               target="#s.id-88edc527-6a6c-4488-ab82-a2294bff44e5-1 #w.session.24_ptv_616837_doc-1.9.3.32"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.ed038e8d-9575-4afb-aac7-1393e1ef8f59-1">
                   <s xml:id="s.ed038e8d-9575-4afb-aac7-1393e1ef8f59-1">
                      <name type="MISC">
                         <w lemma="פרופסור"
@@ -18523,8 +18357,6 @@
                               target="#s.ed038e8d-9575-4afb-aac7-1393e1ef8f59-1 #w.session.24_ptv_616837_doc-1.9.4.10"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-570392ce-93d0-483b-8bc7-328fcef92d57-1">
                   <s xml:id="s.id-570392ce-93d0-483b-8bc7-328fcef92d57-1">
                      <w lemma="_"
                         pos="X"
@@ -18695,8 +18527,6 @@
                               target="#s.id-570392ce-93d0-483b-8bc7-328fcef92d57-1 #w.session.24_ptv_616837_doc-1.9.5.20"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.d97f931e-bee3-466e-8d51-e0d4b4e123db-1">
                   <s xml:id="s.d97f931e-bee3-466e-8d51-e0d4b4e123db-1">
                      <w lemma="_"
                         pos="X"
@@ -18884,8 +18714,6 @@
                               target="#s.d97f931e-bee3-466e-8d51-e0d4b4e123db-1 #w.session.24_ptv_616837_doc-1.9.6.16"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-262928d1-865a-4681-a781-14c0c81a18c2-1">
                   <s xml:id="s.id-262928d1-865a-4681-a781-14c0c81a18c2-1">
                      <w lemma="_"
                         pos="X"
@@ -19248,8 +19076,6 @@
                               target="#s.id-262928d1-865a-4681-a781-14c0c81a18c2-1 #w.session.24_ptv_616837_doc-1.9.7.48"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-3ad2f880-52a8-4a63-b451-4334eb645496-1">
                   <s xml:id="s.id-3ad2f880-52a8-4a63-b451-4334eb645496-1">
                      <w lemma="ברכה"
                         pos="NOUN"
@@ -19292,8 +19118,8 @@
             <u xml:id="u.session.24_ptv_616837_doc-1.10"
                who="#person.30118"
                ana="#chair">
-               <seg xml:id="seg.f3294b0d-a331-4ebc-ac83-47ed417c543b-1">
-                  <s xml:id="s.f3294b0d-a331-4ebc-ac83-47ed417c543b-1">
+               <seg xml:id="seg.f3294b0d-a331-4ebc-ac83-47ed417c543b-2">
+                  <s xml:id="s.f3294b0d-a331-4ebc-ac83-47ed417c543b-3">
                      <w lemma="תודה"
                         pos="NOUN"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
@@ -19309,15 +19135,13 @@
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
-                              target="#s.f3294b0d-a331-4ebc-ac83-47ed417c543b-1 #w.session.24_ptv_616837_doc-1.10.1.0"/>
+                              target="#s.f3294b0d-a331-4ebc-ac83-47ed417c543b-3 #w.session.24_ptv_616837_doc-1.10.1.0"/>
                         <link ana="ud-syn:advmod"
                               target="#w.session.24_ptv_616837_doc-1.10.1.0 #w.session.24_ptv_616837_doc-1.10.1.1"/>
                         <link ana="ud-syn:punct"
                               target="#w.session.24_ptv_616837_doc-1.10.1.0 #w.session.24_ptv_616837_doc-1.10.1.2"/>
                      </linkGrp>
                   </s>
-               </seg>
-               <seg xml:id="seg.id-7bd62e56-df90-4c4b-bc9b-5080e0e186b3-1">
                   <s xml:id="s.id-7bd62e56-df90-4c4b-bc9b-5080e0e186b3-1">
                      <w lemma="טוב"
                         pos="X"
