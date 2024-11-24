@@ -10,8 +10,30 @@
             <title type="main" xml:lang="en">Israel parliamentary corpus ParlaMint-IL [ParlaMint]</title>
             <title type="sub">פרוטוקולים של הכנסת</title>
             <title type="sub">Knesset Protocols</title>
-            <meeting ana="#parla.uni">Knesset</meeting>
-            <meeting ana="#parla.uni">הכנסת</meeting>
+            <meeting n="14"
+                     corresp="#ParlaMint-IL-KNESS"
+                     ana="#parla.uni #parla.term #period_14"
+                     xml:lang="he">הכנסת ה-14</meeting>
+            <meeting n="14"
+                     corresp="#ParlaMint-IL-KNESS"
+                     ana="#parla.uni #parla.term #period_14"
+                     xml:lang="en">14th Knesset</meeting>
+            <meeting n="18"
+                     corresp="#ParlaMint-IL-KNESS"
+                     ana="#parla.uni #parla.term #period_18"
+                     xml:lang="he">הכנסת ה-18</meeting>
+            <meeting n="18"
+                     corresp="#ParlaMint-IL-KNESS"
+                     ana="#parla.uni #parla.term #period_18"
+                     xml:lang="en">18th Knesset</meeting>
+            <meeting n="24"
+                     corresp="#ParlaMint-IL-KNESS"
+                     ana="#parla.uni #parla.term #period_24"
+                     xml:lang="he">הכנסת ה-24</meeting>
+            <meeting n="24"
+                     corresp="#ParlaMint-IL-KNESS"
+                     ana="#parla.uni #parla.term #period_24"
+                     xml:lang="en">24th Knesset</meeting>
             <respStmt>
                <persName>CLG lab, University of Haifa</persName>
                <resp>הכנת הקורפוס והמרה ל-TEI</resp>
@@ -41,7 +63,7 @@
                <p>הקובץ מופץ תחת רישיון CC BY 4.0.</p>
                <p>This work is licensed under the Creative Commons Attribution 4.0 International License.</p>
             </availability>
-            <date when="2024-11-21">2024-11-21</date>
+            <date when="2024-11-24">2024-11-24</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -97,8 +119,8 @@
          <classDecl>
             <xi:include href="ParlaMint-taxonomy-parla.legislature.xml"/>
             <xi:include href="ParlaMint-taxonomy-sessionTypes.xml"/>
-            <xi:include href="ParlaMint-taxonomy-politicalOrientations.xml"/>
-            <xi:include href="ParlaMint-taxonomy-speakerTypes.xml"/>
+            <xi:include href="ParlaMint-taxonomy-politicalOrientation.xml"/>
+            <xi:include href="ParlaMint-taxonomy-speaker_types.xml"/>
             <xi:include href="ParlaMint-taxonomy-subcorpus.xml"/>
             <xi:include href="ParlaMint-taxonomy-NER.ana.xml"/>
             <xi:include href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
@@ -121,16 +143,18 @@
          </particDesc>
          <langUsage>
             <language ident="he">עברית</language>
+            <language ident="en">אנגלית</language>
+            <language ident="he">Hebrew</language>
             <language ident="en">English</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-11-21">Initial release.</change>
-         <change when="2024-11-21">parlamint-add-common-content script: Adding common content.</change>
+         <change when="2024-11-24">Initial release.</change>
+         <change when="2024-11-24">parlamint-add-common-content script: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
-   <xi:include href="1998/ParlaMint-IL_1998-07-08.xml"/>
-   <xi:include href="2009/ParlaMint-IL_2009-03-12.xml"/>
-   <xi:include href="2009/ParlaMint-IL_2009-10-21.xml"/>
-   <xi:include href="2021/ParlaMint-IL_2021-12-21.xml"/>
+   <xi:include href="1998/ParlaMint-IL_1998-07-08-14ptm532674.xml"/>
+   <xi:include href="2009/ParlaMint-IL_2009-03-12-18ptm186016.xml"/>
+   <xi:include href="2009/ParlaMint-IL_2009-10-21-18ptv139208.xml"/>
+   <xi:include href="2021/ParlaMint-IL_2021-12-21-24ptv616837.xml"/>
 </teiCorpus>
