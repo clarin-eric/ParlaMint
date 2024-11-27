@@ -75,7 +75,7 @@
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="div" occurs="1"/>
                <tagUsage gi="head" occurs="1"/>
-               <tagUsage gi="link" occurs="86"/>
+               <tagUsage gi="link" occurs="229"/>
                <tagUsage gi="linkGrp" occurs="38"/>
                <tagUsage gi="name" occurs="11"/>
                <tagUsage gi="pc" occurs="70"/>
@@ -160,10 +160,18 @@
                          msd="UPosTag=PUNCT"
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s0.t6"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s0.t6 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s0.t7"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s0.t6 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s0.t8-9"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s0.t2-3"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s0.t1"/>
                         <link ana="ud-syn:dep"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s0.t2-3 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s0.t8-9"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s0.t2-3"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s0.t5"/>
                      </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s1">
@@ -206,9 +214,15 @@
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:case"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s1.t3-4"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s1.t1"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s1.t7"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s1 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s1.t1"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s1 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s1.t2"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s1.t3-4"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s1.t6"/>
                      </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s2">
@@ -253,8 +267,20 @@
                          msd="UPosTag=PUNCT"
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s2.t4 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s2.t1"/>
+                        <link ana="ud-syn:nmod_npmod"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s2.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s2.t2"/>
+                        <link ana="ud-syn:nmod_npmod"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s2.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s2.t3"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s2.t6 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s2.t5"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s2.t4 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s2.t6"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s2.t6 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s2.t7"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s2 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s2.t1"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s2 #ParlaMint-IL_2009-10-21-18ptv139208.u0.p0.s2.t4"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -386,13 +412,35 @@
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:amod"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t8-9"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t2"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t6"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t5 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t11"/>
+                        <link ana="ud-syn:acl_relcl"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t14"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t11 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t17"/>
+                        <link ana="ud-syn:parataxis"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t18-19"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t13 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t20"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t14 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t22"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t3-4"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t1"/>
                         <link ana="ud-syn:dep"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t3-4 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t15-16"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t3-4"/>
                         <link ana="ud-syn:dep"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t3-4 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t18-19"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t5"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t8-9"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t12"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t13"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s0.t15-16"/>
                      </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s1">
@@ -413,6 +461,8 @@
                          msd="UPosTag=PUNCT"
                          join="right">-</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s1.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s1.t2"/>
                         <link ana="ud-syn:root"
                               target="#ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s1 #ParlaMint-IL_2009-10-21-18ptv139208.u1.p0.s1.t1"/>
                      </linkGrp>
@@ -450,9 +500,11 @@
                          join="right">?</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:advmod"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u2.p0.s0.t4 #ParlaMint-IL_2009-10-21-18ptv139208.u2.p0.s0.t2-3"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u2.p0.s0.t4 #ParlaMint-IL_2009-10-21-18ptv139208.u2.p0.s0.t1"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u2.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u2.p0.s0.t1"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u2.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u2.p0.s0.t2-3"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u2.p0.s0.t2-3 #ParlaMint-IL_2009-10-21-18ptv139208.u2.p0.s0.t4"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -484,6 +536,8 @@
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-IL_2009-10-21-18ptv139208.u3.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u3.p0.s0.t1-2"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u3.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u3.p0.s0.t3"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -805,35 +859,77 @@
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:amod"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t9-10"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t2"/>
                         <link ana="ud-syn:punct"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t6 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t17-18"/>
-                        <link ana="ud-syn:nummod"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t5 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t19-20"/>
-                        <link ana="ud-syn:nummod"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t6 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t21-22"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t6 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t4"/>
                         <link ana="ud-syn:parataxis"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t25-26"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t7-8"/>
                         <link ana="ud-syn:nmod"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t6 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t37-38"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t6 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t14"/>
                         <link ana="ud-syn:punct"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t16 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t49-50"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t16 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t19-20"/>
                         <link ana="ud-syn:cc"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t16 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t51-52"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t16 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t21-22"/>
                         <link ana="ud-syn:punct"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t12 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t54-55"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t12 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t23"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t15 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t24"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t16 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t25-26"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t6 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t28"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t16 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t31-32"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t23 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t43-44"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t24 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t49-50"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t30 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t51-52"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t29 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t53"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t30 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t54-55"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t6 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t56"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t7-8"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1"/>
                         <link ana="ud-syn:dep"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t7-8 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t31-32"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t5"/>
                         <link ana="ud-syn:dep"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t7-8 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t35-36"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t6"/>
                         <link ana="ud-syn:dep"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t7-8 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t43-44"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t9-10"/>
                         <link ana="ud-syn:dep"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t7-8 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t45-46"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t12"/>
                         <link ana="ud-syn:dep"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t7-8 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t47-48"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t15"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t16"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t17-18"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t29"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t30"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t33"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t34"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t35-36"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t37-38"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t40"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t41"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t42"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t45-46"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u4.p0.s0.t47-48"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -869,7 +965,11 @@
                          join="right">?</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s0.t3-4"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s0.t1"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s0.t2"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s0.t3-4"/>
                      </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s1">
@@ -887,6 +987,8 @@
                          msd="UPosTag=PUNCT"
                          join="right">?</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s1.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s1.t2"/>
                         <link ana="ud-syn:root"
                               target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s1 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s1.t1"/>
                      </linkGrp>
@@ -920,8 +1022,10 @@
                          msd="UPosTag=PUNCT"
                          join="right">?</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s3.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s3.t1"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s3 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s3.t1"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s3 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s3.t2"/>
                      </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s4">
@@ -938,7 +1042,7 @@
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s4 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s4.t1"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s4 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s4.t2"/>
                      </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s5">
@@ -956,8 +1060,10 @@
                          msd="UPosTag=PUNCT"
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj_pass"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s5.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s5.t1"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s5 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s5.t1"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s5 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s5.t2"/>
                      </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s6">
@@ -1008,9 +1114,15 @@
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:nsubj"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s6.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s6.t3-4"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s6.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s6.t1"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s6.t5 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s6.t6-8"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s6 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s6.t6-8"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s6 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s6.t2"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s6.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s6.t3-4"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s6.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u5.p0.s6.t5"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1189,17 +1301,45 @@
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:nsubj"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t3 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t8-9"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t3 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t4"/>
                         <link ana="ud-syn:nummod"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t5 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t17-18"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t5 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t6-7"/>
                         <link ana="ud-syn:obj"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t3 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t23-24"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t3 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t8-9"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t3 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t17-18"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t13 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t23-24"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t13 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t30"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t20 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t32"/>
                         <link ana="ud-syn:root"
                               target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t1-2"/>
                         <link ana="ud-syn:dep"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t6-7"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t3"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t5"/>
                         <link ana="ud-syn:dep"
                               target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t10-11"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t12"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t13"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t14"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t16"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t20"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t21"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t22"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t27"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u6.p0.s0.t33"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1235,7 +1375,11 @@
                          join="right">?</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u7.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u7.p0.s0.t3-4"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u7.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u7.p0.s0.t1"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u7.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u7.p0.s0.t2"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u7.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u7.p0.s0.t3-4"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1266,7 +1410,9 @@
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s0.t2-3"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s0.t1"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s0.t2-3"/>
                      </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1">
@@ -1354,11 +1500,27 @@
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:advmod"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t12-13"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t2"/>
                         <link ana="ud-syn:det"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t4 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t14-15"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t4 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t3"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t4"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t4 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t5"/>
+                        <link ana="ud-syn:appos"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t5 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t8"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t7 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t9"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t10-11"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t1"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t7"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t10-11"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t12-13"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s1.t14-15"/>
                      </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2">
@@ -1428,11 +1590,21 @@
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:nsubj"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2.t4-5"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2.t1"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2.t7-8"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2.t7-8"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2.t2"/>
                         <link ana="ud-syn:dep"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2.t7-8 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2.t9-10"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2.t3"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2.t4-5"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2.t6"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2.t9-10"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u8.p0.s2.t11"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1483,8 +1655,16 @@
                          msd="UPosTag=PUNCT"
                          join="right">?</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s0.t2"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s0.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s0.t7"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s0.t3-4"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s0.t1"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s0.t3-4"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s0.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s0.t6"/>
                      </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1">
@@ -1561,11 +1741,21 @@
                          join="right">?</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:mark"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1.t3-4"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1.t1"/>
                         <link ana="ud-syn:advcl"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1.t8 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1.t9-11"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1.t8 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1.t2"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1.t7"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1.t8"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1.t9-11"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1.t8 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1.t12-13"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1.t12-13"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1.t3-4"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1.t3-4 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s1.t5"/>
                      </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s2">
@@ -1593,8 +1783,14 @@
                          msd="UPosTag=PUNCT"
                          join="right">?</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s2.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s2.t1"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s2.t4 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s2.t3"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s2.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s2.t4"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s2 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s2.t1"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s2 #ParlaMint-IL_2009-10-21-18ptv139208.u9.p0.s2.t2"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1665,10 +1861,20 @@
                          msd="UPosTag=PUNCT"
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s0.t11 #ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s0.t5"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s0.t11 #ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s0.t10"/>
                         <link ana="ud-syn:root"
                               target="#ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s0.t1-2"/>
                         <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s0.t3"/>
+                        <link ana="ud-syn:dep"
                               target="#ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s0.t6-8"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s0.t9"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s0.t11"/>
                      </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s1">
@@ -1739,11 +1945,17 @@
                          join="right">-</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:nsubj_pass"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s1.t5-6"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s1.t1"/>
                         <link ana="ud-syn:advmod"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s1.t10-11"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s1.t3"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s1 #ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s1.t7-9"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s1 #ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s1.t2"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s1.t5-6"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s1.t7-9"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u10.p0.s1.t10-11"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1808,9 +2020,19 @@
                          join="right">?</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:nsubj"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u11.p0.s0.t3 #ParlaMint-IL_2009-10-21-18ptv139208.u11.p0.s0.t5-7"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u11.p0.s0.t3 #ParlaMint-IL_2009-10-21-18ptv139208.u11.p0.s0.t1"/>
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u11.p0.s0.t3 #ParlaMint-IL_2009-10-21-18ptv139208.u11.p0.s0.t2"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u11.p0.s0.t3 #ParlaMint-IL_2009-10-21-18ptv139208.u11.p0.s0.t4"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u11.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u11.p0.s0.t1"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u11.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u11.p0.s0.t3"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u11.p0.s0.t3 #ParlaMint-IL_2009-10-21-18ptv139208.u11.p0.s0.t5-7"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u11.p0.s0.t3 #ParlaMint-IL_2009-10-21-18ptv139208.u11.p0.s0.t9"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u11.p0.s0.t3 #ParlaMint-IL_2009-10-21-18ptv139208.u11.p0.s0.t10"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1854,8 +2076,10 @@
                          msd="UPosTag=PUNCT"
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s0.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s0.t1"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s0.t1"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s0.t2"/>
                      </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s1">
@@ -1909,9 +2133,19 @@
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:nsubj"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s1.t4-5"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s1.t1"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s1.t3"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s1.t3 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s1.t8"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s1 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s1.t1"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s1 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s1.t2"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s1.t4-5"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s1.t7"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s1.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s1.t9"/>
                      </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s2">
@@ -1946,8 +2180,14 @@
                          msd="UPosTag=PUNCT"
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s2.t3 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s2.t4"/>
                         <link ana="ud-syn:root"
                               target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s2 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s2.t1-2"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s2.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s2.t3"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s2.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s2.t5"/>
                      </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s3">
@@ -1990,9 +2230,13 @@
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:nsubj"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s3.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s3.t3-4"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s3.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s3.t1"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s3 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s3.t5-6"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s3 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s3.t2"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s3.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s3.t3-4"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s3.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u13.p0.s3.t5-6"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2164,21 +2408,39 @@
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:obl"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t10 #ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t6-8"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t10 #ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t5"/>
                         <link ana="ud-syn:nsubj_pass"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t10 #ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t20-21"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t10 #ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t11-12"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t5 #ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t20-21"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t10 #ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t28"/>
                         <link ana="ud-syn:root"
                               target="#ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t1-2"/>
                         <link ana="ud-syn:dep"
                               target="#ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t3-4"/>
                         <link ana="ud-syn:dep"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t11-12"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t6-8"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t9"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t10"/>
                         <link ana="ud-syn:dep"
                               target="#ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t14-15"/>
                         <link ana="ud-syn:dep"
                               target="#ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t16-18"/>
                         <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t19"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t22"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t24"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t25"/>
+                        <link ana="ud-syn:dep"
                               target="#ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t26-27"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u14.p0.s0.t29"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2210,8 +2472,12 @@
                          msd="UPosTag=PUNCT"
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s0.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s0.t1"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s0.t1"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s0.t2"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s0.t2 #ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s0.t4"/>
                      </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s1">
@@ -2263,8 +2529,16 @@
                          msd="UPosTag=PUNCT"
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s1.t4 #ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s1.t5"/>
+                        <link ana="ud-syn:xcomp"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s1.t4 #ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s1.t8"/>
                         <link ana="ud-syn:root"
                               target="#ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s1 #ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s1.t1-2"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s1.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s1.t3"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s1.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s1.t4"/>
                         <link ana="ud-syn:dep"
                               target="#ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s1.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u15.p0.s1.t6-7"/>
                      </linkGrp>
@@ -2305,8 +2579,16 @@
                          msd="UPosTag=PUNCT"
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s0.t3 #ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s0.t1"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s0.t3 #ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s0.t2"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s0.t5 #ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s0.t4"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s0.t3 #ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s0.t5"/>
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s0.t1"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s0 #ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s0.t3"/>
                      </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s1">
@@ -2368,6 +2650,8 @@
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s2 #ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s2.t1-2"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s2.t1-2 #ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s2.t3"/>
                      </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s3">
@@ -2405,9 +2689,11 @@
                          join="right">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s3 #ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s3.t2-3"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s3 #ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s3.t1"/>
                         <link ana="ud-syn:dep"
-                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s3.t2-3 #ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s3.t4-5"/>
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s3.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s3.t2-3"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s3.t1 #ParlaMint-IL_2009-10-21-18ptv139208.u16.p0.s3.t4-5"/>
                      </linkGrp>
                   </s>
                </seg>
