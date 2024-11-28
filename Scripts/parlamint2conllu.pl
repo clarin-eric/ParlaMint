@@ -63,6 +63,7 @@ $country2lang{'SI'} = 'sl';
 $country2lang{'SK'} = 'sk';
 $country2lang{'TR'} = 'tr';
 $country2lang{'UA'} = 'uk, ru';
+$country2lang{'IL'} = 'he';
 
 print STDERR "INFO: Converting directory $inDir\n";
 my $rootAnaFile = '';

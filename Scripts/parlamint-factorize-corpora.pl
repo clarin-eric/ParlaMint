@@ -54,6 +54,7 @@ $country2lang{'SI'} = 'sl';
 $country2lang{'SK'} = 'sk';
 $country2lang{'TR'} = 'tr';
 $country2lang{'UA'} = 'uk, ru';
+$country2lang{'IL'} = 'he';
 
 $bkpName = "BKP";
 $Saxon   = "java -jar $Bin/bin/saxon.jar";

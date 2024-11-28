@@ -171,6 +171,10 @@
         <term>Legislature</term>
         <term>Unicameralism</term>
       </xsl:when>
+      <xsl:when test="$country-code = 'IL'">
+        <term>Legislature</term>
+        <term>Unicameralism</term>
+      </xsl:when>
       <xsl:when test="$country-code = 'IS'">
         <term>Legislature</term>
         <term>Unicameralism</term>
