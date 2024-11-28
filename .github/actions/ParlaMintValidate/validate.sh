@@ -72,7 +72,7 @@ for parla in $(jq -r '.[]' <<< $1 ); do
   fi
 
   echo "::warning:: TMP restore taxonomy"
-  git checkout Corpora/Taxonomies/ParlaMint-taxonomy*
+  git checkout Build/Taxonomies/ParlaMint-taxonomy*
   git checkout ${DATADIR}/ParlaMint-$parla/ParlaMint-taxonomy*
 done
 
