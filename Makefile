@@ -219,18 +219,18 @@ val-schema-ParlaCLARIN: $(val-schema-ParlaCLARIN-XX)
 $(val-schema-ParlaCLARIN-XX): val-schema-ParlaCLARIN-%: val-schema-tei-ParlaCLARIN-% val-schema-ana-ParlaCLARIN-%
 
 $(val-schema-tei-ParlaMint-XX): val-schema-tei-ParlaMint-%: %
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml" | xargs ${vrt}
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | xargs ${vct}
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*taxonomy*.xml" | grep -v '.ana.' | xargs ${vch_taxonomy}
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<-listPerson.xml" | xargs ${vch_pers}
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<-listOrg.xml" | xargs ${vch_orgs}
+	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-$<.xml" | xargs ${vrt}
+	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | xargs ${vct}
+	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-*taxonomy*.xml" | grep -v '.ana.' | xargs ${vch_taxonomy}
+	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-$<-listPerson.xml" | xargs ${vch_pers}
+	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-$<-listOrg.xml" | xargs ${vch_orgs}
 
 $(val-schema-ana-ParlaMint-XX): val-schema-ana-ParlaMint-%: %
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml" | xargs ${vra}
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.ana.xml" | grep    '_' | xargs ${vca}
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*taxonomy*.xml" | xargs ${vch_taxonomy}
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<-listPerson.xml" | xargs ${vch_pers}
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<-listOrg.xml" | xargs ${vch_orgs}
+	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-$<.ana.xml" | xargs ${vra}
+	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-$<_*.ana.xml" | grep    '_' | xargs ${vca}
+	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-*taxonomy*.xml" | xargs ${vch_taxonomy}
+	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-$<-listPerson.xml" | xargs ${vch_pers}
+	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-$<-listOrg.xml" | xargs ${vch_orgs}
 
 
 $(val-schema-tei-ParlaCLARIN-XX): val-schema-tei-ParlaCLARIN-%: % working-dir-%
@@ -254,7 +254,7 @@ check-links-XX = $(addprefix check-links-, $(PARLIAMENTS))
 check-links: $(check-links-XX)
 ## check-links-XX ## ...
 $(check-links-XX): check-links-%: %
-	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -P "ParlaMint-$<${CORPUSDIR_SUFFIX}(|\.ana).xml"`;	do \
+	for root in `find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-*.xml" | grep -P "ParlaMint-$<${CORPUSDIR_SUFFIX}(|\.ana).xml"`;	do \
 	  echo "checking links in root:" $${root}; \
 	  ${s} ${vlink} $${root}; \
 	  for component in `echo $${root}| xargs ${getheaderincludes}`; do \
@@ -279,11 +279,11 @@ check-content: $(check-content-XX)
 $(check-content-XX): check-content-%: %
 	rm -rf ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/check-content-TMP;
 	mkdir ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/check-content-TMP;
-	for file2LINE in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -P "ParlaMint(:?-$<${CORPUSDIR_SUFFIX})?(|\.ana|-taxonomy.*|-list.*).xml"`;	do \
+	for file2LINE in `find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-*.xml" | grep -P "ParlaMint(:?-$<${CORPUSDIR_SUFFIX})?(|\.ana|-taxonomy.*|-list.*).xml"`;	do \
 	  awk '{gsub(/(<[a-zA-Z:]+)/,"& LINE=\"" NR "\"",$$0);print}' "$${file2LINE}" \
 	    > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/check-content-TMP/$${file2LINE##*/};\
 	done
-	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<${CORPUSDIR_SUFFIX}*.xml" | grep -P "ParlaMint-$<${CORPUSDIR_SUFFIX}(|\.ana).xml"`;	do \
+	for root in `find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-$<${CORPUSDIR_SUFFIX}*.xml" | grep -P "ParlaMint-$<${CORPUSDIR_SUFFIX}(|\.ana).xml"`;	do \
 	  echo "checking content in root:" $${root}; \
 	  echo "  - general"; \
 	  ${s} ${vcontent} $${root}; \
@@ -338,9 +338,9 @@ chars: $(chars-XX)
 $(chars-XX): chars-%: %
 	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/chars-files-$<.tbl
 	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.tmp
-	nice find ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ -name 'ParlaMint-$<_*.txt' | \
+	nice find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ -name 'ParlaMint-$<_*.txt' | \
 	$P --jobs 20 'cut -f2 {} > {.}.tmp'
-	nice find ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ -name 'ParlaMint-$<_*.tmp' | \
+	nice find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ -name 'ParlaMint-$<_*.tmp' | \
 	$P --jobs 20 'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/chars-files-$<.tbl'
 	test -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml \
 	 && Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/chars-files-$<.tbl \
@@ -355,7 +355,7 @@ text: $(text-XX)
 ## text-XX ## convert TEI files to text
 $(text-XX): text-%: %
 	rm -f `ls ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.txt |  grep -v '.ana.'`
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
 	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}.txt'
 
 text.ana-XX = $(addprefix text.ana-, $(PARLIAMENTS))
@@ -364,7 +364,7 @@ text.ana: $(text.ana-XX)
 ## text.ana-XX ## convert TEI.ana files to text
 $(text.ana-XX): text.ana-%: %
 	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.ana.txt
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep '.ana.' | $P --jobs 10 \
+	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-$<_*.xml" | grep '.ana.' | $P --jobs 10 \
 	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}.txt'
 
 
@@ -375,7 +375,7 @@ meta: $(meta-XX)
 ## meta-XX ## ...
 $(meta-XX): meta-%: %
 	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*-meta.tsv
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-*_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-*_*.xml" | grep -v '.ana.' | $P --jobs 10 \
 	'$s meta=../${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}-meta.tsv'
 
@@ -499,7 +499,7 @@ text.seg: $(text.seg-XX)
 $(text.seg-XX): text.seg-%: %
 	mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg
 	rm -f `ls ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/ParlaMint-$<_*.seg.txt |  grep -v '.ana.'`
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
 	'$s -xsl:Scripts/parlamint-tei2text.xsl element=seg {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/{/.}.txt'
 
 text.seg.ana-XX = $(addprefix text.seg.ana-, $(PARLIAMENTS))
@@ -509,7 +509,7 @@ text.seg.ana: $(text.seg.ana-XX)
 $(text.seg.ana-XX): text.seg.ana-%: %
 	mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg
 	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/ParlaMint-$<_*.seg.ana.txt
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep '.ana.' | $P --jobs 10 \
+	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-$<_*.xml" | grep '.ana.' | $P --jobs 10 \
 	'$s -xsl:Scripts/parlamint-tei2text.xsl element=seg {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/{/.}.txt'
 
 
@@ -764,7 +764,7 @@ DEV-validate-particDesc-XX = $(addprefix DEV-validate-particDesc-, $(PARLIAMENTS
 DEV-validate-particDesc: $(DEV-validate-particDesc-XX)
 ##!DEV-validate-particDesc-XX ##
 $(DEV-validate-particDesc-XX): DEV-validate-particDesc-%: % working-dir-%
-	for file in `find ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -name ParlaMint-$<.xml | grep -v "_"`; do \
+	for file in `find ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ -name ParlaMint-$<.xml | grep -v "_"`; do \
 	  ${s} -xsl:Scripts/validate-parlamint-particDesc.xsl $${file} ;\
 	done
 
@@ -774,7 +774,7 @@ DEV-val-schema-ParlaMintODD-XX = $(addprefix DEV-val-schema-ParlaMintODD-, $(PAR
 DEV-val-schema-ParlaMintODD: $(DEV-val-schema-ParlaMintODD-XX)
 ##!DEV-val-schema-ParlaMintODD-XX ## ...
 $(DEV-val-schema-ParlaMintODD-XX): DEV-val-schema-ParlaMintODD-%: %
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | xargs ${vodd}
+	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-*.xml" | xargs ${vodd}
 
 
 
@@ -784,7 +784,7 @@ DEV-links-summ:
 	make $(DEV-links-summ-XX) | perl -e 'my (%tab,%country);while(<>){my($$n,$$c,$$t)=/^(\d+)\t([^\t]*)\t(.*)/; next unless $$c; $$country{$$c}=1;$$tab{$$t}//={};$$tab{$$t}->{$$c}=$$n;};print "file\tfromAt\tfromEl\ttoEl\ttarget";foreach $$c (sort keys %country){printnum($$c)};print "\n";foreach my $$t (sort keys %tab){print "$$t";foreach $$c (sort keys %country){printnum($$tab{$$t}->{$$c}//"-")};print "\n"};sub printnum{print "\t" . shift}'
 ##!DEV-links-summ-XX## ...
 $(DEV-links-summ-XX): DEV-links-summ-%: %
-	@for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '_'`;	do \
+	@for root in `find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-*.xml" | grep -P "ParlaMint-$<${CORPUSDIR_SUFFIX}(|\.ana).xml"`;	do \
 	  ${s} ${listlink} $${root} 2>&1; \
 	  for component in `echo $${root}| xargs ${getincludes}`; do \
 	    ${s} meta=$(PWD)/$${root} ${listlink} ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component} 2>&1; \
@@ -797,7 +797,7 @@ DEV-roles-summ:
 	make $(DEV-roles-summ-XX) | perl -e 'my (%tab,%country);while(<>){my($$n,$$c,$$t)=/^(\d+)\t([^\t]*)\t(.*)/; next unless $$c; $$country{$$c}=1;$$tab{$$t}//={};$$tab{$$t}->{$$c}=$$n;};print "affiliationRole\torgRole";foreach $$c (sort keys %country){printnum($$c)};print "\n";foreach my $$t (sort keys %tab){print "$$t";foreach $$c (sort keys %country){printnum($$tab{$$t}->{$$c}//"-")};print "\n"};sub printnum{print "\t" . shift}'
 ##!DEV-roles-summ-XX## ...
 $(DEV-roles-summ-XX): DEV-roles-summ-%: %
-	@find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml" | \
+	@find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-$<.xml" | \
 	  xargs -I {} ${s} ${listrole} {} 2>&1 |sort|uniq -c|sed "s/^ *//"|tr -s " "| tr " " "\t"
 
 DEV-attributes-summ-XX = $(addprefix DEV-attributes-summ-, $(PARLIAMENTS))
@@ -806,7 +806,7 @@ DEV-attributes-summ:
 	make $(DEV-attributes-summ-XX) | perl -e 'my (%tab,%country);while(<>){my($$n,$$c,$$t)=/^(\d+)\t([^\t]*)\t(.*)/; next unless $$c; $$country{$$c}=1;$$tab{$$t}//={};$$tab{$$t}->{$$c}=$$n;};print "element\tattribute";foreach $$c (sort keys %country){printnum($$c)};print "\n";foreach my $$t (sort keys %tab){print "$$t";foreach $$c (sort keys %country){printnum($$tab{$$t}->{$$c}//"-")};print "\n"};sub printnum{print "\t" . shift}'
 ##!DEV-attributes-summ-XX## ...
 $(DEV-attributes-summ-XX): DEV-attributes-summ-%: %
-	@for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '_'`;	do \
+	@for root in `find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-*.xml" | grep -P "ParlaMint-$<${CORPUSDIR_SUFFIX}(|\.ana).xml"`;	do \
 	  ${s} ${listattr} $${root} 2>&1; \
 	  for component in `echo $${root}| xargs ${getincludes}`; do \
 	    ${s} ${listattr} ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component} 2>&1; \
@@ -816,7 +816,7 @@ $(DEV-attributes-summ-XX): DEV-attributes-summ-%: %
 ##!DEV-speaker_types-in-taxonomy## print speaker types: id english_term ParlaMint-XX local_term
 DEV-speaker_types-in-taxonomy:
 	@echo -n "category_id\tterm_en\tcode\tterm_local\n"
-	@for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-*${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '_'| grep -v '.ana.xml'`; do \
+	@for root in `find -H ${DATADIR} -type f -path "${DATADIR}/ParlaMint-*${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '_'| grep -v '.ana.xml'`; do \
 	  java -cp ./Scripts/bin/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive \
 	      -qs:'//*:taxonomy[@xml:id="speaker_types"]//*:category/concat(@xml:id,"|"  ,.//*:term[ancestor-or-self::*[@xml:lang][1]/@xml:lang="en"],"|"   ,/*:teiCorpus/@xml:id,"|"   ,.//*:term[not(ancestor-or-self::*[@xml:lang][1]/@xml:lang="en") ])' \
 	      -s:$${root} ; \
@@ -829,7 +829,7 @@ DEV-parlamint2release-XX = $(addprefix DEV-parlamint2release-, $(PARLIAMENTS))
 DEV-parlamint2release: $(DEV-parlamint2release-XX)
 ##!DEV-parlamint2release-XX## ...
 $(DEV-parlamint2release-XX): DEV-parlamint2release-%: %
-	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.*xml" `;	do \
+	for root in `find -H ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.*xml" `;	do \
 	  echo "INFO: processing $${root}" ;\
 	  ${s} outDir=${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}.parlamint2release -xsl:Scripts/parlamint2release.xsl $${root} || echo "FATAL ERROR $${root}" ;\
 	done
@@ -866,7 +866,7 @@ fix-overlapping-affiliations: $(fix-overlapping-affiliations-XX)
 $(fix-overlapping-affiliations-XX): fix-overlapping-affiliations-%: % working-dir-%
 	rm -rf ${WORKINGDIR}/fix-overlapping-affiliations/ParlaMint-$<${CORPUSDIR_SUFFIX}
 	mkdir -p ${WORKINGDIR}/fix-overlapping-affiliations/ParlaMint-$<${CORPUSDIR_SUFFIX}
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<*.xml" -printf '%f\n' | grep -v '_' \
+	find -H ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<*.xml" -printf '%f\n' | grep -v '_' \
 	| xargs -I {} $s ${faff} -s:${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{} -o:${WORKINGDIR}/fix-overlapping-affiliations/ParlaMint-$<${CORPUSDIR_SUFFIX}/{}
 
 
