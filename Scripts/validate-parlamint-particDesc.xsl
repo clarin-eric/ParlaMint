@@ -94,7 +94,7 @@
                   <xsl:with-param name="ident">01</xsl:with-param>
                   <xsl:with-param name="severity">INFO</xsl:with-param>
                   <xsl:with-param name="msg">has one day overlap with</xsl:with-param>
-                  <xsl:with-param name="aff-overlaps" select="aff-day-overlap"/>
+                  <xsl:with-param name="aff-overlaps" select="$aff-day-overlap"/>
                 </xsl:call-template>
               </xsl:when>
               <xsl:when test="$aff-cover"> <!-- inside other affiliation -->
