@@ -356,7 +356,7 @@ text: $(text-XX)
 $(text-XX): text-%: %
 	rm -f `ls ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.txt |  grep -v '.ana.'`
 	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}.txt'
+	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{.}.txt'
 
 text.ana-XX = $(addprefix text.ana-, $(PARLIAMENTS))
 ## text.ana ## create text version from TEI.ana files
@@ -365,7 +365,7 @@ text.ana: $(text.ana-XX)
 $(text.ana-XX): text.ana-%: %
 	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.ana.txt
 	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-$<_*.xml" | grep '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}.txt'
+	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{.}.txt'
 
 
 
@@ -377,7 +377,7 @@ $(meta-XX): meta-%: %
 	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*-meta.tsv
 	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-*_*.xml" | grep -v '.ana.' | $P --jobs 10 \
 	'$s meta=../${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}-meta.tsv'
+	{} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{.}-meta.tsv'
 
 
 
