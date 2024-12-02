@@ -495,7 +495,7 @@ $(composite-teiHeader-INPLACE-XX): composite-teiHeader-INPLACE-%: % composite-te
 text.seg-XX = $(addprefix text.seg-, $(PARLIAMENTS))
 ## text.seg ## create text version from TEI files - each line contains one segment
 text.seg: $(text.seg-XX)
-## text-XX ## convert TEI files to text
+## text.seg-XX ## convert TEI files to text
 $(text.seg-XX): text.seg-%: %
 	@mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg
 	@rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/ParlaMint-$<_*.seg.txt
@@ -506,7 +506,7 @@ $(text.seg-XX): text.seg-%: %
 text.seg.ana-XX = $(addprefix text.seg.ana-, $(PARLIAMENTS))
 ## text.seg.ana ## create text version from TEI.ana files - each line contains one segment
 text.seg.ana: $(text.seg.ana-XX)
-## text.seg.ana-XX ## convert TEI.seg.ana files to text
+## text.seg.ana-XX ## convert TEI.ana files to text
 $(text.seg.ana-XX): text.seg.ana-%: %
 	@mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg.ana
 	@rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg.ana/ParlaMint-$<_*.seg.txt
