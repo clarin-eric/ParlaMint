@@ -356,7 +356,7 @@ text: $(text-XX)
 $(text-XX): text-%: %
 	rm -f `ls ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.txt |  grep -v '.ana.'`
 	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}.txt'
+	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{.}.txt'
 
 text.ana-XX = $(addprefix text.ana-, $(PARLIAMENTS))
 ## text.ana ## create text version from TEI.ana files
@@ -365,7 +365,7 @@ text.ana: $(text.ana-XX)
 $(text.ana-XX): text.ana-%: %
 	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.ana.txt
 	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-$<_*.xml" | grep '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}.txt'
+	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{.}.txt'
 
 
 
@@ -377,7 +377,7 @@ $(meta-XX): meta-%: %
 	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*-meta.tsv
 	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-*_*.xml" | grep -v '.ana.' | $P --jobs 10 \
 	'$s meta=../${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}-meta.tsv'
+	{} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{.}-meta.tsv'
 
 
 
@@ -497,20 +497,25 @@ text.seg-XX = $(addprefix text.seg-, $(PARLIAMENTS))
 text.seg: $(text.seg-XX)
 ## text-XX ## convert TEI files to text
 $(text.seg-XX): text.seg-%: %
-	mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg
-	rm -f `ls ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/ParlaMint-$<_*.seg.txt |  grep -v '.ana.'`
-	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl element=seg {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/{/.}.txt'
+	@mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg
+	@rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/ParlaMint-$<_*.seg.txt
+	@find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl element=seg {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/{/.}.seg.txt'
+	@echo "INFO: segments converted to text are stored in ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg"
 
 text.seg.ana-XX = $(addprefix text.seg.ana-, $(PARLIAMENTS))
-## text.seg ## create text version from TEI.ana files - each line contains one segment
+## text.seg.ana ## create text version from TEI.ana files - each line contains one segment
 text.seg.ana: $(text.seg.ana-XX)
 ## text.seg.ana-XX ## convert TEI.seg.ana files to text
 $(text.seg.ana-XX): text.seg.ana-%: %
-	mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg
-	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/ParlaMint-$<_*.seg.ana.txt
-	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-$<_*.xml" | grep '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl element=seg {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/{/.}.txt'
+	@mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg.ana
+	@rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg.ana/ParlaMint-$<_*.seg.txt
+	@find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-$<_*.xml" | grep '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl element=seg {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg.ana/{/.}'
+	@find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg.ana -type f | $P  'mv {} {.}.seg.txt'
+	@echo "INFO: annotated segments converted to text are stored in ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg.ana"
+
+
 
 
 ######---------------
