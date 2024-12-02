@@ -12,6 +12,7 @@ runs:
   steps:
     - name: Set environment variables
       run: echo "REQ_TRANSLATION=${{ inputs.requireTaxonomiesTranslations || '1' }}" >> $GITHUB_ENV
+      shell: bash
     - name: Convert and Validate
       run: ${{ github.action_path }}/validate.sh '${{inputs.parlas}}' '${{env.REQ_TRANSLATION}}'
       shell: bash
