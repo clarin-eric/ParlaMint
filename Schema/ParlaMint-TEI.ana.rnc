@@ -26,13 +26,23 @@ include "ParlaMint-TEI.rnc" {
   
   ## The only element that contains analysed text is the segment. It can,
   ##       however, contain transcription commentary.
-  seg = element seg { global.atts, (comment | pb | sentence)+ }
+  seg =
+    element seg {
+      global.atts,
+      # Might have a linguistic analysis
+      ana.att?,
+      (comment | pb | sentence)+
+    }
 }
 
 ## A sentence.
 sentence =
   element s {
-    global.atts, (comment | pb | ner | phr | word | punct)+, syntax?
+    global.atts,
+    # Might have a linguistic analysis
+    ana.att?,
+    (comment | pb | ner | phr | word | punct)+,
+    syntax?
   }
 
 ## Multi-Word Unit
