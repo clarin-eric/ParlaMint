@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomy xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-taxonomy-sentiment.ana" xml:lang="mul">
+   <desc xml:lang="en"><term>Sentiment</term></desc>
+   <desc xml:lang="sl"><term>Sentiment</term></desc>
+   <category xml:id="neg">
+     <catDesc xml:lang="en"><term>Negative</term>: interval [0.0, 1.5)</catDesc>
+     <catDesc xml:lang="sl"><term>Negativen</term>: interval [0.0, 1.5)</catDesc>
+     <category xml:id="negneg">
+       <catDesc xml:lang="en"><term>negative</term>: interval [0.0, 0.5)</catDesc>
+       <catDesc xml:lang="sl"><term>negativen</term>: interval [0.0, 0.5)</catDesc>
+     </category>
+     <category xml:id="mixneg">
+       <catDesc xml:lang="en"><term>mixed_negative</term>: Mixed negative, interval [0.5, 1.5)</catDesc>
+       <catDesc xml:lang="sl"><term>mešano_negativen</term>: Mešano negativen, interval [0.5, 1.5)</catDesc>
+     </category>
+   </category>
+   <category xml:id="neu">
+     <catDesc xml:lang="en"><term>Neutral</term>: interval [1.5, 3.5)</catDesc>
+     <catDesc xml:lang="sl"><term>Nevtralno</term>: interval [1.5, 3.5)</catDesc>
+     <category xml:id="neuneg">
+       <catDesc xml:lang="en"><term>neutral negative</term>: interval [1.5, 2.5)</catDesc>
+       <catDesc xml:lang="sl"><term>nevtralno negativen</term>: interval [1.5, 2.5)</catDesc>
+     </category>
+     <category xml:id="neupos">
+       <catDesc xml:lang="en"><term>neutral postive</term>: interval [2.5, 3.5)</catDesc>
+       <catDesc xml:lang="sl"><term>nevtralno pozitiven</term>: interval [2.5, 3.5)</catDesc>
+     </category>
+   </category>
+   <category xml:id="pos">
+      <catDesc xml:lang="en"><term>Positive</term>: interval [3.5, 5.0]</catDesc>
+      <catDesc xml:lang="sl"><term>Pozitiven</term>: interval [3.5, 5.0]</catDesc>
+      <category xml:id="mixpos">
+        <catDesc xml:lang="en"><term>mixed positive</term>: interval [3.5, 4.5)</catDesc>
+        <catDesc xml:lang="sl"><term>mešano pozitiven</term>: interval [3.5, 4.5)</catDesc>
+      </category>
+      <category xml:id="pospos">
+        <catDesc xml:lang="en"><term>positive</term>: interval [4.5, 5.0]</catDesc>
+        <catDesc xml:lang="sl"><term>pozitiven</term>: interval [4.5, 5.0]</catDesc>
+      </category>
+   </category>
+</taxonomy>

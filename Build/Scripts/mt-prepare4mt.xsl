@@ -183,8 +183,11 @@
     <!-- Process component files -->
     <xsl:for-each select="$docs//tei:item">
       <xsl:variable name="this" select="tei:xi-orig"/>
-      <!-- We do not need the .ana taxonomies except ParlaMint-taxonomy-NER.ana.xml -->
-      <xsl:if test="not(matches(tei:xi-orig, 'taxonomy.*\.ana')) or contains(tei:xi-orig, 'ParlaMint-taxonomy-NER.ana')">
+      <!-- We do not need the .ana taxonomies except NER and sentiment -->
+      <xsl:if test="not(matches(tei:xi-orig, 'taxonomy.*\.ana'))
+                    or contains(tei:xi-orig, 'ParlaMint-taxonomy-NER.ana'
+                    or contains(tei:xi-orig, 'ParlaMint-taxonomy-sentiment.ana'
+                    )">
 	<xsl:message select="concat('INFO: Preparing ', @type, ' ', $this)"/>
 	<xsl:result-document href="{tei:url-new}">
 	  <xsl:choose>
@@ -386,7 +389,7 @@
     </xsl:copy>
   </xsl:template>
 
-  <!-- classDecl contains only XInclude statemetns for taxonomies. We copy them over and add XInclude for USAS taxonomy -->
+  <!-- classDecl contains only XInclude statements for taxonomies. We copy them over and add XInclude for USAS taxonomy -->
   <xsl:template match="tei:classDecl">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -405,8 +408,11 @@
   
   <!-- Fix XIncluded to point to MTed components -->
   <xsl:template match="xi:include">
-    <!-- We do not need the .ana taxonomies except ParlaMint-taxonomy-NER.ana.xml -->
-    <xsl:if test="not(matches(@href, 'taxonomy.*\.ana')) or contains(@href, 'ParlaMint-taxonomy-NER.ana')">
+    <!-- We do not need the .ana taxonomies except NER and sentiment -->
+    <xsl:if test="not(matches(@href, 'taxonomy.*\.ana'))
+                  or contains(@href, 'ParlaMint-taxonomy-NER.ana'
+                  or contains(@href, 'ParlaMint-taxonomy-sentiment.ana'
+                  )">
       <xsl:copy>
 	<xsl:attribute name="href">
 	  <xsl:choose>
