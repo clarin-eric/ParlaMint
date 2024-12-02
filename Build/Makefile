@@ -5,8 +5,8 @@
 ### VARIABLES
 
 ### COMPLETE SET OF CORPORA
-CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-#CORPORA=
+#CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+CORPORA= SI
 # Used in targets that run only for one corpus
 CORPUS=
 
@@ -23,10 +23,10 @@ SOURCES = ${HERE}/Sources-TEI
 SOURCES-MT = ${HERE}/Sources-CoNLLU
 
 # Version number and PID of next ParlaMint release
-VERSION = 4.1
+VERSION = 4.1.1
 HANDLE-TEI = http://hdl.handle.net/11356/1912
-HANDLE-ANA = http://hdl.handle.net/11356/1911
-HANDLE-MT  = http://hdl.handle.net/11356/1910
+HANDLE-ANA = http://hdl.handle.net/11356/XXXX
+HANDLE-MT  = http://hdl.handle.net/11356/YYYY
 
 #Where the produced corpora are put for inspection
 WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint
@@ -385,7 +385,7 @@ mt-test1:
 ### Merging taxonomies (now the common taxonomy files should be edited, not merging local copies anymore)
 
 TAXONOMIES-TEI = subcorpus speaker_types parla.legislature
-TAXONOMIES-ANA = NER
+TAXONOMIES-ANA = NER sentiment
 merge-taxos-nohup:
 	nohup time make merge-taxos 2> Taxonomies/ParlaMint-taxonomy-merge.log > Logs/ParlaMint-taxonomy.log &
 merge-taxos:
