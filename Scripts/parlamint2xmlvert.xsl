@@ -46,6 +46,36 @@
     <xsl:variable name="lang">
       <xsl:call-template name="u-langs"/>
     </xsl:variable>
+    <!-- Sentiment is given currently only in SI corpus -->
+    <!-- Numeric sentiment label -->
+    <xsl:variable name="sentin">
+      <xsl:if test="$country-code = 'SI'">
+        <xsl:value-of select="@n"/>
+      </xsl:if>
+    </xsl:variable>
+    <!-- 6-class sentiment label -->
+    <xsl:variable name="senti6">
+      <xsl:if test="$country-code = 'SI'">
+        <xsl:for-each select="tokenize(@ana, ' ')">
+          <xsl:variable name="senti" select="key('idr', ., $rootHeader)"/>
+          <xsl:if test="$senti/ancestor::tei:taxonomy/contains(@xml:id, 'taxonomy-sentiment')">
+            <xsl:value-of select="et:l10n($corpus-language, $senti/tei:catDesc/tei:term)"/>
+          </xsl:if>
+        </xsl:for-each>
+      </xsl:if>
+    </xsl:variable>
+    <!-- 3-class sentiment label -->
+    <xsl:variable name="senti3">
+      <xsl:if test="$country-code = 'SI'">
+        <xsl:for-each select="tokenize(@ana, ' ')">
+          <xsl:variable name="senti" select="key('idr', ., $rootHeader)/parent::tei:category"/>
+          <xsl:if test="$senti/ancestor::tei:taxonomy/contains(@xml:id, 'taxonomy-sentiment')">
+            <xsl:value-of select="et:l10n($corpus-language, $senti/tei:catDesc/tei:term)"/>
+          </xsl:if>
+        </xsl:for-each>
+      </xsl:if>
+    </xsl:variable>
+
     <!-- Topics are given only in IS and DK corpora -->
     <xsl:variable name="topic">
       <xsl:choose>
@@ -105,6 +135,11 @@
       <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
       <xsl:if test="normalize-space($topic)">
         <xsl:attribute name="topic" select="$topic"/>
+      </xsl:if>
+      <xsl:if test="normalize-space($sentin)">
+        <xsl:attribute name="sentin" select="$sentin"/>
+        <xsl:attribute name="senti3" select="$senti3"/>
+        <xsl:attribute name="senti6" select="$senti6"/>
       </xsl:if>
       <xsl:choose>
         <xsl:when test="@who">
