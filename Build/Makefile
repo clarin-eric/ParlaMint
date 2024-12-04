@@ -79,7 +79,7 @@ test-vert4:
 	$s meta=${HERE}/Distro/ParlaMint-SI.TEI.ana/ParlaMint-SI.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
 	${HERE}/Distro/ParlaMint-SI.TEI.ana/2022/ParlaMint-SI_2022-01-13-SDZ8-Izredna-93.ana.xml > test-SI.vert
 test-vert2:
-	${FINALIZE} -vert -codes IS -in ${HERE}/Distro -out ${HERE}/Distro
+	${FINALIZE} -vert -codes SI -in ${HERE}/Distro -out ${HERE}/Distro
 test-vert1:
 	${FINALIZE} -vert -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
 	${FINALIZE} -vert -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
