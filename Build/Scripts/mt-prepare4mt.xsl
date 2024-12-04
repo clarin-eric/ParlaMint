@@ -185,9 +185,9 @@
       <xsl:variable name="this" select="tei:xi-orig"/>
       <!-- We do not need the .ana taxonomies except NER and sentiment -->
       <xsl:if test="not(matches(tei:xi-orig, 'taxonomy.*\.ana'))
-                    or contains(tei:xi-orig, 'ParlaMint-taxonomy-NER.ana'
-                    or contains(tei:xi-orig, 'ParlaMint-taxonomy-sentiment.ana'
-                    )">
+                    or contains(tei:xi-orig, 'ParlaMint-taxonomy-NER.ana')
+                    or contains(tei:xi-orig, 'ParlaMint-taxonomy-sentiment.ana')
+                    ">
 	<xsl:message select="concat('INFO: Preparing ', @type, ' ', $this)"/>
 	<xsl:result-document href="{tei:url-new}">
 	  <xsl:choose>
@@ -410,9 +410,9 @@
   <xsl:template match="xi:include">
     <!-- We do not need the .ana taxonomies except NER and sentiment -->
     <xsl:if test="not(matches(@href, 'taxonomy.*\.ana'))
-                  or contains(@href, 'ParlaMint-taxonomy-NER.ana'
-                  or contains(@href, 'ParlaMint-taxonomy-sentiment.ana'
-                  )">
+                  or contains(@href, 'ParlaMint-taxonomy-NER.ana')
+                  or contains(@href, 'ParlaMint-taxonomy-sentiment.ana')
+                  ">
       <xsl:copy>
 	<xsl:attribute name="href">
 	  <xsl:choose>
