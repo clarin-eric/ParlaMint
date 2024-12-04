@@ -22,11 +22,11 @@ SOURCES = ${HERE}/Sources-TEI
 # ParlaMint-XX-en.TEI.ana, MTed + semantically tagged:
 SOURCES-MT = ${HERE}/Sources-CoNLLU
 
-# Version number and PID of next ParlaMint release
+# Version number and PID of next ParlaMint release (this is temporary, for SI only!)
 VERSION = 4.1.1
-HANDLE-TEI = http://hdl.handle.net/11356/1912
-HANDLE-ANA = http://hdl.handle.net/11356/XXXX
-HANDLE-MT  = http://hdl.handle.net/11356/YYYY
+HANDLE-TEI = http://hdl.handle.net/11356/XXXX
+HANDLE-ANA = http://hdl.handle.net/11356/YYYY
+HANDLE-MT  = http://hdl.handle.net/11356/ZZZZ
 
 #Where the produced corpora are put for inspection
 WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint
@@ -67,7 +67,7 @@ source-metadata:
 test:
 	date
 test-tei2:
-	${FINALIZE} -valid -codes TR -in ${HERE}/Distro -out ${HERE}/Distro
+	${FINALIZE} -valid -codes SI -in ${HERE}/Distro -out ${HERE}/Distro
 test-tei1:
 	${FINALIZE} -tei -codes BG -in ${HERE}/Sources-TEI -out ${HERE}/Distro
 test-vert6:
@@ -76,8 +76,8 @@ test-vert5:
 	$s meta=../Build/Distro/ParlaMint-DK.TEI.ana/ParlaMint-DK.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
 	../Build/Distro/ParlaMint-DK.TEI.ana/2020/ParlaMint-DK_2020-01-07-20191-M42.ana.xml > Test/test-DK.vert
 test-vert4:
-	$s meta=${HERE}/Distro/ParlaMint-IS.TEI.ana/ParlaMint-IS.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
-	${HERE}/Distro/ParlaMint-IS.TEI.ana/2022/ParlaMint-IS_2022-01-17-20.ana.xml > test-IS.vert
+	$s meta=${HERE}/Distro/ParlaMint-SI.TEI.ana/ParlaMint-SI.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
+	${HERE}/Distro/ParlaMint-SI.TEI.ana/2022/ParlaMint-SI_2022-01-13-SDZ8-Izredna-93.ana.xml > test-SI.vert
 test-vert2:
 	${FINALIZE} -vert -codes IS -in ${HERE}/Distro -out ${HERE}/Distro
 test-vert1:
