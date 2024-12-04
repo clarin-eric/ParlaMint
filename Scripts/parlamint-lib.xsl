@@ -750,6 +750,40 @@
     </xsl:choose>
   </xsl:template>
   
+  <!-- Return sentiment score or 3/6 class label, which depends of $type -->
+  <!-- Assumes the context node has @n and @ana, the latter with reference to 6-class senti label -->
+  <xsl:template name="senti">
+    <xsl:param name="type"/>
+    <xsl:choose>
+      <!-- Numeric sentiment label -->
+      <xsl:when test="$type = 'n'">
+        <xsl:value-of select="@n"/>
+      </xsl:when>
+      <!-- 6-class sentiment label -->
+      <xsl:when test="$type = '6'">
+        <xsl:for-each select="tokenize(@ana, ' ')">
+          <xsl:if test="key('id', substring-after(., ':'), $rootHeader)/
+                        ancestor::tei:taxonomy[contains(@xml:id, 'taxonomy-sentiment')]">
+            <xsl:variable name="senti" select="key('id', substring-after(., ':'), $rootHeader)"/>
+            <xsl:value-of select="et:l10n($corpus-language, $senti/tei:catDesc/tei:term)"/>
+          </xsl:if>
+        </xsl:for-each>
+      </xsl:when>
+      <!-- 3-class sentiment label -->
+      <xsl:when test="$type = '3'">
+        <xsl:for-each select="tokenize(@ana, ' ')">
+          <xsl:if test="key('id', substring-after(., ':'), $rootHeader)/
+                        ancestor::tei:taxonomy[contains(@xml:id, 'taxonomy-sentiment')]">
+            <xsl:variable name="senti" select="key('id', substring-after(., ':'), $rootHeader)/parent::tei:category"/>
+            <xsl:value-of select="et:l10n($corpus-language, $senti/tei:catDesc/tei:term)"/>
+          </xsl:if>
+        </xsl:for-each>
+      </xsl:when>
+      <xsl:otherwise>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
   <!-- Notes and incidents normalization - removing brackets and normalize spces-->
   <xsl:function name="mk:normalize-note" as="xs:string">
     <xsl:param name="noteIn" as="xs:string"/>
