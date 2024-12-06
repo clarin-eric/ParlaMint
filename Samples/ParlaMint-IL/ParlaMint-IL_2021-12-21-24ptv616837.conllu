@@ -1,0 +1,3007 @@
+# newdoc id = ParlaMint-IL_2021-12-21-24ptv616837.u0
+# newpar id = ParlaMint-IL_2021-12-21-24ptv616837.u0.p0
+# lang = he
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u0.p0.s0
+# text = בוקר טוב לכולם, בוקר טוב לכל הנוכחים.
+1	בוקר	בוקר	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	NER=O
+2	טוב	טוב	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	NER=O
+3-4	לכולם	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	כולם	כולם	NOUN	NOUN	Gender=Masc|Number=Plur	1	nmod	_	_
+5	,	,	PUNCT	_	_	6	punct	_	NER=O
+6	בוקר	בוקר	NOUN	NOUN	Gender=Masc|Number=Sing	1	conj	_	NER=O
+7	טוב	טוב	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	NER=O
+8-9	לכל	_	_	_	_	_	_	_	NER=O
+8	ל	ל	ADP	ADP	_	11	case	_	_
+9	כל	כול	DET	DET	Definite=Cons|PronType=Tot	11	det	_	_
+10-11	הנוכחים	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	נוכחים	נוכח	NOUN	NOUN	Gender=Masc|Number=Plur	6	nmod	_	_
+12	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u0.p0.s1
+# text = אני פותחת את ישיבת ועדת החינוך, התרבות והספורט של הכנסת.
+1	אני	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	פותחת	פתח	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+3	את	את	ADP	ADP	Case=Acc	4	case	_	NER=O
+4	ישיבת	ישיבה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obj	_	NER=O
+5	ועדת	ועדה	PROPN	PROPN	Definite=Cons	4	compound	_	NER=B-ORG
+6-7	החינוך	_	_	_	_	_	_	_	NER=I-ORG|SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	חינוך	חינוך	PROPN	PROPN	_	5	compound	_	_
+8	,	,	PUNCT	_	_	10	punct	_	NER=I-ORG
+9-10	התרבות	_	_	_	_	_	_	_	NER=I-ORG
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	תרבות	תרבות	PROPN	PROPN	_	7	conj	_	_
+11-13	והספורט	_	_	_	_	_	_	_	NER=I-ORG
+11	ו	ו	CCONJ	X	_	13	cc	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	ספורט	ספורט	PROPN	PROPN	_	7	conj	_	_
+14	של	של	ADP	ADP	Case=Gen	16	case	_	NER=O
+15-16	הכנסת	_	_	_	_	_	_	_	NER=B-ORG|SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	כנסת	כנסת	PROPN	PROPN	_	5	nmod:poss	_	_
+17	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u0.p0.s2
+# text = קודם כל, אנחנו נפתח בהקמות שתי ועדות משנה.
+1	קודם	קודם	ADP	ADP	_	5	advmod	_	NER=O
+2	כל	כול	DET	DET	Definite=Cons	1	fixed	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	NER=O
+4	אנחנו	הוא	PRON	PRON	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	NER=O
+5	נפתח	נפתח	VERB	VERB	HebBinyan=PAAL|Number=Plur|Person=1|Tense=Fut|Voice=Act	0	root	_	NER=O
+6-7	בהקמות	_	_	_	_	_	_	_	NER=O
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	הקמות	הקמות	NOUN	NOUN	Gender=Fem|Number=Plur	5	obl	_	_
+8	שתי	שתיים	NUM	NUM	Definite=Cons|Gender=Fem|NumType=Card	9	nummod	_	NER=O
+9	ועדות	ועדה	NOUN	NOUN	Gender=Fem|Number=Plur	5	obj	_	NER=O
+10	משנה	משנה	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound	_	NER=O|SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u0.p0.s3
+# text = הקמת ועדת משנה ראשונה היא לחוק חינוך ממלכתי דתי.
+1	הקמת	הקמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nsubj	_	NER=O
+2	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound	_	NER=O
+3	משנה	משנה	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound	_	NER=O
+4	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	2	amod	_	NER=O
+5	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	cop	_	NER=O
+6-7	לחוק	_	_	_	_	_	_	_	NER=O
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	חוק	חוק	PROPN	PROPN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+8	חינוך	חינוך	PROPN	PROPN	Gender=Masc|Number=Sing	7	compound	_	NER=O
+9	ממלכתי	ממלכתי	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	NER=O
+10	דתי	דתי	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	NER=O|SpaceAfter=No
+11	.	.	PUNCT	_	_	7	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u0.p0.s4
+# text = אבקש להביא לידיעת
+1	אבקש	ביקש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1|Tense=Fut|Voice=Act	0	root	_	NER=O
+2	להביא	הביא	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	1	xcomp	_	NER=O
+3-4	לידיעת	_	_	_	_	_	_	_	NER=O
+3	ל	ל	ADP	ADP	Definite=Def|PronType=Art	4	case	_	_
+4	ידיעת	ידיעה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u0.p0.s5
+# text = כם כי ועדת החינוך, התרבות והספורט החליטה בישיבתה מיום 12 בדצמבר על הקמת ועדת משנה לחוק חינוך ממלכתי דתי.
+1	כם	כם	X	X	Typo=Yes	12	mark	_	NER=O
+2	כי	כי	SCONJ	X	_	12	mark	_	NER=O
+3	ועדת	ועדה	PROPN	PROPN	Definite=Cons	12	nsubj	_	NER=B-ORG
+4-5	החינוך	_	_	_	_	_	_	_	NER=I-ORG|SpaceAfter=No
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	חינוך	חינוך	PROPN	PROPN	_	3	compound	_	_
+6	,	,	PUNCT	_	_	8	punct	_	NER=I-ORG
+7-8	התרבות	_	_	_	_	_	_	_	NER=I-ORG
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	תרבות	תרבות	PROPN	PROPN	_	5	conj	_	_
+9-11	והספורט	_	_	_	_	_	_	_	NER=I-ORG
+9	ו	ו	CCONJ	X	_	11	cc	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	ספורט	ספורט	PROPN	PROPN	_	5	conj	_	_
+12	החליטה	החליט	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	NER=O
+13-15	בישיבתה	_	_	_	_	_	_	_	NER=O
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	ישיבת	ישיבה	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
+15	ה	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+16-17	מיום	_	_	_	_	_	_	_	NER=O
+16	מ	מ	ADP	ADP	_	17	case	_	_
+17	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
+18	12	12	NUM	NUM	_	17	compound	_	NER=O
+19-20	בדצמבר	_	_	_	_	_	_	_	NER=O
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	דצמבר	דצמבר	PROPN	PROPN	_	18	nmod	_	_
+21	על	על	ADP	ADP	_	22	case	_	NER=O
+22	הקמת	הקמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	obl	_	NER=O
+23	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	22	compound	_	NER=O
+24	משנה	משנה	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound	_	NER=O
+25-26	לחוק	_	_	_	_	_	_	_	NER=O
+25	ל	ל	ADP	ADP	_	26	case	_	_
+26	חוק	חוק	PROPN	PROPN	Definite=Cons|Gender=Masc|Number=Sing	23	nmod	_	_
+27	חינוך	חינוך	PROPN	PROPN	Gender=Masc|Number=Sing	26	compound	_	NER=O
+28	ממלכתי	ממלכתי	ADJ	ADJ	Gender=Masc|Number=Sing	27	amod	_	NER=O
+29	דתי	דתי	ADJ	ADJ	Gender=Masc|Number=Sing	27	amod	_	NER=O|SpaceAfter=No
+30	.	.	PUNCT	_	_	12	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u0.p0.s6
+# text = הועדה תתכנס בהרכב הבא-חבר הכנסת משה טור פז יהיה יושב ראש ועדת המשנה, חבר הכנסת יוסי שיין, חברת הכנסת אמילי מואטי ושני חברים מהאופוזיציה יהיו חברים בוועדת המשנה.
+1-2	הועדה	_	_	_	_	_	_	_	NER=O
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	ועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	תתכנס	התכנס	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	0	root	_	NER=O
+4-5	בהרכב	_	_	_	_	_	_	_	NER=O
+4	ב	ב	ADP	ADP	Definite=Def|PronType=Art	5	case	_	_
+5	הרכב	הרכב	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+6-7	הבא	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	בא	בא	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+8	-	-	PUNCT	_	_	15	punct	_	NER=O|SpaceAfter=No
+9	חבר	חבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	nsubj	_	NER=B-MISC
+10-11	הכנסת	_	_	_	_	_	_	_	NER=I-MISC
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	כנסת	כנסת	PROPN	PROPN	_	9	compound	_	_
+12	משה	משה	PROPN	PROPN	_	9	appos	_	NER=B-PER
+13	טור פז	טור פז	PROPN	PROPN	_	12	flat	_	NER=I-PER
+14	יהיה	היה	AUX	X	Gender=Masc|Number=Sing|Person=3|Tense=Fut|VerbType=Cop	15	cop	_	NER=O
+15	יושב	יושב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	parataxis	_	NER=O
+16	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	compound	_	NER=B-MISC
+17	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	16	compound	_	NER=O
+18-19	המשנה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	משנה	משנה	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound	_	_
+20	,	,	PUNCT	_	_	21	punct	_	NER=O
+21	חבר	חבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	conj	_	NER=B-MISC
+22-23	הכנסת	_	_	_	_	_	_	_	NER=I-MISC
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	כנסת	כנסת	PROPN	PROPN	_	21	compound	_	_
+24	יוסי	יוסי	PROPN	PROPN	_	21	appos	_	NER=B-PER
+25	שיין	שיין	PROPN	PROPN	_	24	flat	_	NER=I-PER|SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	NER=O
+27	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	conj	_	NER=B-MISC
+28-29	הכנסת	_	_	_	_	_	_	_	NER=I-MISC
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	כנסת	כנסת	PROPN	PROPN	_	27	compound	_	_
+30	אמילי	אמילי	PROPN	PROPN	_	27	appos	_	NER=B-PER
+31	מואטי	מואטי	PROPN	PROPN	_	30	flat	_	NER=O
+32-33	ושני	_	_	_	_	_	_	_	NER=O
+32	ו	ו	CCONJ	X	_	39	cc	_	_
+33	שני	שתיים	NUM	NUM	Definite=Cons|Gender=Masc|NumType=Card	34	nummod	_	_
+34	חברים	חבר	NOUN	NOUN	Gender=Masc|Number=Plur	39	nsubj	_	NER=O
+35-37	מהאופוזיציה	_	_	_	_	_	_	_	NER=O
+35	מ	מ	ADP	ADP	_	37	case	_	_
+36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
+37	אופוזיציה	אופוזיציה	NOUN	NOUN	Gender=Fem|Number=Sing	34	nmod	_	_
+38	יהיו	היה	AUX	X	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Fut|VerbType=Cop	39	cop	_	NER=O
+39	חברים	חבר	NOUN	NOUN	Gender=Masc|Number=Plur	15	conj	_	NER=O
+40-41	בוועדת	_	_	_	_	_	_	_	NER=O
+40	ב	ב	ADP	ADP	_	41	case	_	_
+41	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	39	nmod	_	_
+42-43	המשנה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+42	ה	ה	DET	DET	Definite=Def|PronType=Art	43	det	_	_
+43	משנה	משנה	NOUN	NOUN	Gender=Masc|Number=Sing	41	compound	_	_
+44	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u0.p0.s7
+# text = ועדת המשנה מאוד מאוד חשובה, הוועדה תעסוק בחינוך הממלכתי-דתי ששם יש לנו אתגרים בלתי רגלים.
+1	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	nsubj	_	NER=O
+2-3	המשנה	_	_	_	_	_	_	_	NER=O
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	משנה	משנה	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound	_	_
+4	מאוד	מאוד	ADV	ADV	_	6	advmod	_	NER=O
+5	מאוד	מאוד	ADV	ADV	_	6	advmod	_	NER=O
+6	חשובה	חשוב	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	NER=O
+8-9	הוועדה	_	_	_	_	_	_	_	NER=O
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	וועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	תעסוק	עסק	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	6	parataxis	_	NER=O
+11-12	בחינוך	_	_	_	_	_	_	_	NER=O
+11	ב	ב	ADP	ADP	Definite=Def|PronType=Art	12	case	_	_
+12	חינוך	חינוך	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+13-14	הממלכתי	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	ממלכתי	ממלכתי	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
+15	-	-	PUNCT	_	_	16	punct	_	NER=O|SpaceAfter=No
+16	דתי	דתי	ADJ	ADJ	Gender=Masc|Number=Sing	14	compound	_	NER=O
+17-18	ששם	_	_	_	_	_	_	_	NER=O
+17	ש	ש	SCONJ	X	_	19	mark	_	_
+18	שם	שם	ADV	ADV	_	19	advmod	_	_
+19	יש	יש	VERB	VERB	Polarity=Pos	12	acl:relcl	_	NER=O
+20-21	לנו	_	_	_	_	_	_	_	NER=O
+20	ל	ל	ADP	ADP	_	21	case	_	_
+21	נו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	19	obl	_	_
+22	אתגרים	אתגר	NOUN	NOUN	Gender=Masc|Number=Plur	19	nsubj	_	NER=O
+23	בלתי	בלתי	ADV	ADV	Prefix=Yes	24	compound:affix	_	NER=O
+24	רגלים	רגל	ADJ	ADJ	Gender=Masc|Number=Plur	22	amod	_	NER=O|SpaceAfter=No
+25	.	.	PUNCT	_	_	6	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u0.p0.s8
+# text = זה חינוך באמת שהוא ייחודי עם תכנית נפרדת, כאילו ייחודית משלה, יש לה אתגרים משלה, החל מבחינת התקציבים, תשלומי הורים ועוד לא מעט דברים.
+1	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	NER=O
+2	חינוך	חינוך	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	NER=O
+3	באמת	באמת	ADV	ADV	_	2	advmod	_	NER=O
+4-5	שהוא	_	_	_	_	_	_	_	NER=O
+4	ש	ש	SCONJ	X	_	6	mark	_	_
+5	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	cop	_	_
+6	ייחודי	ייחודי	ADJ	ADJ	Gender=Masc|Number=Sing	2	acl:relcl	_	NER=O
+7	עם	עם	ADP	ADP	_	8	case	_	NER=O
+8	תכנית	תוכנית	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	NER=O
+9	נפרדת	נפרד	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	NER=O
+11	כאילו	כאילו	ADV	ADV	_	12	advmod	_	NER=O
+12	ייחודית	ייחודי	ADJ	ADJ	Gender=Fem|Number=Sing	8	acl:relcl	_	NER=O
+13-15	משלה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+13	מ	מ	ADP	ADP	_	15	case	_	_
+14	של	של	ADP	ADP	Case=Gen	15	case	_	_
+15	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
+16	,	,	PUNCT	_	_	17	punct	_	NER=O
+17	יש	יש	VERB	VERB	Polarity=Pos	6	parataxis	_	NER=O
+18-19	לה	_	_	_	_	_	_	_	NER=O
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obl	_	_
+20	אתגרים	אתגר	NOUN	NOUN	Gender=Masc|Number=Plur	17	nsubj	_	NER=O
+21-23	משלה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+21	מ	מ	ADP	ADP	_	23	case	_	_
+22	של	של	ADP	ADP	Case=Gen	23	case	_	_
+23	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nmod	_	_
+24	,	,	PUNCT	_	_	27	punct	_	NER=O
+25	החל	החל	ADP	ADP	_	27	case	_	NER=O
+26-27	מבחינת	_	_	_	_	_	_	_	NER=O
+26	מ	מ	ADP	ADP	_	25	fixed	_	_
+27	בחינת	בחינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	17	obl	_	_
+28-29	התקציבים	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	תקציבים	תקציב	NOUN	NOUN	Gender=Masc|Number=Plur	27	compound	_	_
+30	,	,	PUNCT	_	_	31	punct	_	NER=O
+31	תשלומי	תשלום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	27	conj	_	NER=O
+32	הורים	הורה	NOUN	NOUN	Gender=Masc|Number=Plur	31	compound	_	NER=O
+33-34	ועוד	_	_	_	_	_	_	_	NER=O
+33	ו	ו	CCONJ	X	_	37	cc	_	_
+34	עוד	עוד	ADV	ADV	_	37	det	_	_
+35	לא	לא	ADV	ADV	Polarity=Neg	36	advmod	_	NER=O
+36	מעט	מעט	DET	DET	Definite=Cons	37	det	_	NER=O
+37	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	27	conj	_	NER=O|SpaceAfter=No
+38	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u0.p0.s9
+# text = חבר הכנסת משה טור פז, אני סומכת עליך לנהל את הישיבות ולהביא לנו פתרונות ללא מעט מצוקות שקיימות בחינוך הממלכתי-דתי.
+1	חבר	חבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	vocative	_	NER=B-MISC
+2-3	הכנסת	_	_	_	_	_	_	_	NER=I-MISC
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	כנסת	כנסת	PROPN	PROPN	_	1	compound	_	_
+4	משה	משה	PROPN	PROPN	_	1	appos	_	NER=B-PER
+5	טור פז	טור פז	PROPN	PROPN	_	4	flat	_	NER=I-PER|SpaceAfter=No
+6	,	,	PUNCT	_	_	1	punct	_	NER=O
+7	אני	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	NER=O
+8	סומכת	סמך	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+9-10	עליך	_	_	_	_	_	_	_	NER=O
+9	עלי	על	ADP	ADP	_	10	case	_	_
+10	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	8	obl	_	_
+11	לנהל	ניהל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	8	xcomp	_	NER=O
+12	את	את	ADP	ADP	Case=Acc	14	case	_	NER=O
+13-14	הישיבות	_	_	_	_	_	_	_	NER=O
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	ישיבות	ישיבה	NOUN	NOUN	Gender=Fem|Number=Plur	11	obj	_	_
+15-16	ולהביא	_	_	_	_	_	_	_	NER=O
+15	ו	ו	CCONJ	X	_	16	cc	_	_
+16	להביא	הביא	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	11	conj	_	_
+17-18	לנו	_	_	_	_	_	_	_	NER=O
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	נו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	16	obl	_	_
+19	פתרונות	פתרון	NOUN	NOUN	Gender=Masc|Number=Plur	16	obj	_	NER=O
+20-21	ללא	_	_	_	_	_	_	_	NER=O
+20	ל	ל	ADP	ADP	_	23	case	_	_
+21	לא	לא	ADV	ADV	Polarity=Neg	22	advmod	_	_
+22	מעט	מעט	DET	DET	Definite=Cons	23	det	_	NER=O
+23	מצוקות	מצוקה	NOUN	NOUN	Gender=Fem|Number=Plur	19	nmod	_	NER=O
+24-25	שקיימות	_	_	_	_	_	_	_	NER=O
+24	ש	ש	SCONJ	X	_	25	mark	_	_
+25	קיימות	קיים	ADJ	ADJ	Gender=Fem|Number=Plur	23	acl:relcl	_	_
+26-27	בחינוך	_	_	_	_	_	_	_	NER=O
+26	ב	ב	ADP	ADP	Definite=Def|PronType=Art	27	case	_	_
+27	חינוך	חינוך	NOUN	NOUN	Gender=Masc|Number=Sing	25	obl	_	_
+28-29	הממלכתי	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	ממלכתי	ממלכתי	ADJ	ADJ	Gender=Masc|Number=Sing	27	amod	_	_
+30	-	-	PUNCT	_	_	31	punct	_	NER=O|SpaceAfter=No
+31	דתי	דתי	ADJ	ADJ	Gender=Masc|Number=Sing	29	compound	_	NER=O|SpaceAfter=No
+32	.	.	PUNCT	_	_	8	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u0.p0.s10
+# text = אני אתן לך ככה את זכות הדיבור, כמה דקות לפני שנצביע על הקמת הועדה, בבקשה.
+1	אני	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	אתן	נתן	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Fut|Voice=Act	0	root	_	NER=O
+3-4	לך	_	_	_	_	_	_	_	NER=O
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	2	obl	_	_
+5	ככה	ככה	ADV	ADV	_	2	advmod	_	NER=O
+6	את	את	ADP	ADP	Case=Acc	7	case	_	NER=O
+7	זכות	זכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obj	_	NER=O
+8-9	הדיבור	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	דיבור	דיבור	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound	_	_
+10	,	,	PUNCT	_	_	12	punct	_	NER=O
+11	כמה	כמה	DET	DET	Definite=Cons	12	det	_	NER=O
+12	דקות	דקה	NOUN	NOUN	Gender=Fem|Number=Plur	2	obl:tmod	_	NER=O
+13	לפני	לפני	ADP	ADP	_	15	mark	_	NER=O
+14-15	שנצביע	_	_	_	_	_	_	_	NER=O
+14	ש	ש	SCONJ	X	_	13	fixed	_	_
+15	נצביע	הצביע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1|Tense=Fut|Voice=Act	12	advcl	_	_
+16	על	על	ADP	ADP	_	17	case	_	NER=O
+17	הקמת	הקמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	obl	_	NER=O
+18-19	הועדה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	ועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	17	compound	_	_
+20	,	,	PUNCT	_	_	22	punct	_	NER=O
+21-22	בבקשה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	בקשה	בקשה	NOUN	NOUN	Gender=Fem|Number=Sing	2	discourse	_	_
+23	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# newdoc id = ParlaMint-IL_2021-12-21-24ptv616837.u1
+# newpar id = ParlaMint-IL_2021-12-21-24ptv616837.u1.p0
+# lang = he
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u1.p0.s0
+# text = תודה גברתי יושבת הראש.
+1	תודה	תודה	INTJ	X	Gender=Fem|Number=Sing	0	root	_	NER=O
+2-3	גברתי	_	_	_	_	_	_	_	NER=O
+2	גברת	גברת	NOUN	NOUN	Gender=Fem|Number=Sing	1	vocative	_	_
+3	י	הוא	PRON	PRON	Case=Gen|Definite=Def|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+4	יושבת	יושב	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	appos	_	NER=O
+5-6	הראש	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	ראש	ראש	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound	_	_
+7	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u1.p0.s1
+# text = קודם כל, אני מודה לך, חברת הכנסת שרן השכל על קבלת ועדת המשנה לענייני החינוך הדתי.
+1	קודם	קודם	ADP	ADP	_	5	advmod	_	NER=O
+2	כל	כול	DET	DET	Definite=Cons	1	fixed	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	NER=O
+4	אני	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	NER=O
+5	מודה	הודה	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+6-7	לך	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	obl	_	_
+8	,	,	PUNCT	_	_	9	punct	_	NER=O
+9	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	vocative	_	NER=B-MISC
+10-11	הכנסת	_	_	_	_	_	_	_	NER=I-MISC
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	כנסת	כנסת	PROPN	PROPN	_	9	compound	_	_
+12	שרן	שרן	PROPN	PROPN	_	9	appos	_	NER=B-PER
+13	השכל	השכל	PROPN	PROPN	_	12	flat	_	NER=I-PER
+14	על	על	ADP	ADP	_	15	case	_	NER=O
+15	קבלת	קבלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	obl	_	NER=O
+16	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	compound	_	NER=B-ORG
+17-18	המשנה	_	_	_	_	_	_	_	NER=I-ORG
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	משנה	משנה	NOUN	NOUN	Gender=Masc|Number=Sing	16	compound	_	_
+19-20	לענייני	_	_	_	_	_	_	_	NER=I-ORG
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	ענייני	עניין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	nmod	_	_
+21-22	החינוך	_	_	_	_	_	_	_	NER=I-ORG
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	חינוך	חינוך	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound	_	_
+23-24	הדתי	_	_	_	_	_	_	_	NER=I-ORG|SpaceAfter=No
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	דתי	דתי	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	_
+25	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u1.p0.s2
+# text = כפי שוחחנו וכפי שכבר עלה פה מספר פעמים בוועדה, במושב הזה לחינוך הממלכתי-דתי יש מקום מיוחד.
+1	כפי	כפי	SCONJ	X	_	2	mark	_	NER=O
+2	שוחחנו	שוחח	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Past|Voice=Act	24	advcl	_	NER=O
+3-4	וכפי	_	_	_	_	_	_	_	NER=O
+3	ו	ו	CCONJ	X	_	7	cc	_	_
+4	כפי	כפי	SCONJ	X	_	7	mark	_	_
+5-6	שכבר	_	_	_	_	_	_	_	NER=O
+5	ש	ש	SCONJ	X	_	4	fixed	_	_
+6	כבר	כבר	ADV	ADV	_	7	advmod	_	_
+7	עלה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	NER=O
+8	פה	פה	ADV	ADV	_	7	advmod	_	NER=O
+9	מספר	מספר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obl:tmod	_	NER=O
+10	פעמים	פעם	NOUN	NOUN	Gender=Fem|Number=Plur	9	compound	_	NER=O
+11-12	בוועדה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+11	ב	ב	ADP	ADP	Definite=Def|PronType=Art	12	case	_	_
+12	וועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	9	nmod	_	_
+13	,	,	PUNCT	_	_	2	punct	_	NER=O
+14-15	במושב	_	_	_	_	_	_	_	NER=O
+14	ב	ב	ADP	ADP	Definite=Def|PronType=Art	15	case	_	_
+15	מושב	מושב	NOUN	NOUN	Gender=Masc|Number=Sing	24	obl	_	_
+16-17	הזה	_	_	_	_	_	_	_	NER=O
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	det	_	_
+18-19	לחינוך	_	_	_	_	_	_	_	NER=O
+18	ל	ל	ADP	ADP	Definite=Def|PronType=Art	19	case	_	_
+19	חינוך	חינוך	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
+20-21	הממלכתי	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	ממלכתי	ממלכתי	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+22	-	-	PUNCT	_	_	23	punct	_	NER=O|SpaceAfter=No
+23	דתי	דתי	ADJ	ADJ	Gender=Masc|Number=Sing	21	compound	_	NER=O
+24	יש	יש	VERB	VERB	Polarity=Pos	0	root	_	NER=O
+25	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	24	nsubj	_	NER=O
+26	מיוחד	מיוחד	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	NER=O|SpaceAfter=No
+27	.	.	PUNCT	_	_	24	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u1.p0.s3
+# text = קודם כל, הוא חלק מחוק חינוך ממלכתי ומעמדו מעוגן בחוק של 1953, ובמידה רבה חלק מהזרמים בחינוך היום, כששואלים לאן עתידם, כולל החינוך החרדי, מסתכלים עליו כדגל.
+1	קודם	קודם	ADV	ADV	_	5	advmod	_	NER=O
+2	כל	כול	DET	DET	Definite=Cons	1	fixed	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	NER=O
+4	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	NER=O
+5	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	NER=O
+6-7	מחוק	_	_	_	_	_	_	_	NER=B-MISC
+6	מ	מ	ADP	ADP	_	7	case	_	_
+7	חוק	חוק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nmod	_	_
+8	חינוך	חינוך	PROPN	PROPN	Gender=Masc|Number=Sing	7	compound	_	NER=I-MISC
+9	ממלכתי	ממלכתי	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	NER=I-MISC
+10-12	ומעמדו	_	_	_	_	_	_	_	NER=O
+10	ו	ו	CCONJ	X	_	13	cc	_	_
+11	מעמד	מעמד	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+12	ו	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+13	מעוגן	עוגן	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Pass	5	conj	_	NER=O
+14-15	בחוק	_	_	_	_	_	_	_	NER=O
+14	ב	ב	ADP	ADP	Definite=Def|PronType=Art	15	case	_	_
+15	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+16	של	של	ADP	ADP	Case=Gen	17	case	_	NER=O
+17	1953	1953	NUM	NUM	_	15	nmod:poss	_	NER=B-MISC|SpaceAfter=No
+18	,	,	PUNCT	_	_	43	punct	_	NER=O
+19-21	ובמידה	_	_	_	_	_	_	_	NER=O
+19	ו	ו	CCONJ	X	_	43	cc	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	43	obl	_	_
+22	רבה	רב	ADJ	ADJ	Gender=Fem|Number=Sing	21	amod	_	NER=O
+23	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	43	nsubj	_	NER=O
+24-26	מהזרמים	_	_	_	_	_	_	_	NER=O
+24	מ	מ	ADP	ADP	_	26	case	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	זרמים	זרם	NOUN	NOUN	Gender=Masc|Number=Plur	23	nmod	_	_
+27-28	בחינוך	_	_	_	_	_	_	_	NER=O
+27	ב	ב	ADP	ADP	Definite=Def|PronType=Art	28	case	_	_
+28	חינוך	חינוך	NOUN	NOUN	Gender=Masc|Number=Sing	26	nmod	_	_
+29	היום	היום	ADV	ADV	_	26	advmod	_	NER=O|SpaceAfter=No
+30	,	,	PUNCT	_	_	32	punct	_	NER=O
+31-32	כששואלים	_	_	_	_	_	_	_	NER=O
+31	כש	כש	SCONJ	X	_	32	mark	_	_
+32	שואלים	שאל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	43	advcl	_	_
+33	לאן	לאן	ADV	ADV	PronType=Rel	32	obj	_	NER=O
+34-35	עתידם	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+34	עתיד	עתיד	NOUN	NOUN	Gender=Masc|Number=Sing	33	acl:relcl	_	_
+35	ם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+36	,	,	PUNCT	_	_	39	punct	_	NER=O
+37	כולל	כלל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	39	case	_	NER=O
+38-39	החינוך	_	_	_	_	_	_	_	NER=O
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	חינוך	חינוך	NOUN	NOUN	Gender=Masc|Number=Sing	34	nmod	_	_
+40-41	החרדי	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
+41	חרדי	חרדי	ADJ	ADJ	Gender=Masc|Number=Sing	39	amod	_	_
+42	,	,	PUNCT	_	_	32	punct	_	NER=O
+43	מסתכלים	הסתכל	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	5	conj	_	NER=O
+44-45	עליו	_	_	_	_	_	_	_	NER=O
+44	עלי	על	ADP	ADP	_	45	case	_	_
+45	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	obl	_	_
+46-47	כדגל	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+46	כ	כ	ADP	ADP	_	47	case	_	_
+47	דגל	דגל	NOUN	NOUN	Gender=Masc|Number=Sing	43	obl	_	_
+48	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u1.p0.s4
+# text = במובן הזה, יש לו מקום מאוד משמעותי, כאולי, מודל לחיקוי.
+1-2	במובן	_	_	_	_	_	_	_	NER=O
+1	ב	ב	ADP	ADP	Definite=Def|PronType=Art	2	case	_	_
+2	מובן	מובן	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+3-4	הזה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+5	,	,	PUNCT	_	_	2	punct	_	NER=O
+6	יש	יש	VERB	VERB	Polarity=Pos	0	root	_	NER=O
+7-8	לו	_	_	_	_	_	_	_	NER=O
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+9	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	NER=O
+10	מאוד	מאוד	ADV	ADV	_	11	advmod	_	NER=O
+11	משמעותי	משמעותי	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	NER=O
+13-14	כאולי	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+13	כ	כ	ADP	ADP	_	14	case	_	_
+14	אולי	אולי	ADV	ADV	_	16	advmod	_	_
+15	,	,	PUNCT	_	_	16	punct	_	NER=O
+16	מודל	מודל	NOUN	NOUN	Gender=Masc|Number=Sing	9	appos	_	NER=O
+17-18	לחיקוי	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	חיקוי	חיקוי	NOUN	NOUN	Gender=Masc|Number=Sing	16	nmod	_	_
+19	.	.	PUNCT	_	_	6	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u1.p0.s5
+# text = יחד עם זאת, יש לחינוך הזה אתגרים משלו.
+1	יחד	יחד	ADV	ADV	_	3	case	_	NER=O
+2	עם	עם	ADP	ADP	_	1	fixed	_	NER=O
+3	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	5	obl	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	NER=O
+5	יש	יש	VERB	VERB	Polarity=Pos	0	root	_	NER=O
+6-7	לחינוך	_	_	_	_	_	_	_	NER=O
+6	ל	ל	ADP	ADP	Definite=Def|PronType=Art	7	case	_	_
+7	חינוך	חינוך	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+8-9	הזה	_	_	_	_	_	_	_	NER=O
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	det	_	_
+10	אתגרים	אתגר	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	NER=O
+11-13	משלו	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+11	מ	מ	ADP	ADP	_	13	case	_	_
+12	של	של	ADP	ADP	Case=Gen	13	case	_	_
+13	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nmod	_	_
+14	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u1.p0.s6
+# text = כאמור, כארבע עשרה אחוז מתלמידי ישראל לומדים בחינוך הזה ומה שמאפיין אותם הוא שהם פרוסים כמעט בכל מקום, ולכן בתי הספר שלהם קטנים יותר.
+1	כאמור	כאמור	ADV	ADV	_	10	advmod	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	NER=O
+3-4	כארבע	_	_	_	_	_	_	_	NER=O
+3	כ	כ	ADV	ADV	_	4	advmod	_	_
+4	ארבע	ארבע	NUM	NUM	Gender=Masc|NumType=Card	5	nummod	_	_
+5	עשרה	עשר	NUM	NUM	Gender=Masc|Number=Plur|NumType=Card	6	nummod	_	NER=O
+6	אחוז	אחוז	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	NER=O
+7-8	מתלמידי	_	_	_	_	_	_	_	NER=O
+7	מ	מ	ADP	ADP	_	8	case	_	_
+8	תלמידי	תלמיד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	nmod	_	_
+9	ישראל	ישראל	PROPN	PROPN	_	8	compound	_	NER=B-LOC
+10	לומדים	למד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+11-12	בחינוך	_	_	_	_	_	_	_	NER=O
+11	ב	ב	ADP	ADP	Definite=Def|PronType=Art	12	case	_	_
+12	חינוך	חינוך	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+13-14	הזה	_	_	_	_	_	_	_	NER=O
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	det	_	_
+15-16	ומה	_	_	_	_	_	_	_	NER=O
+15	ו	ו	CCONJ	X	_	24	cc	_	_
+16	מה	מה	PRON	PRON	PronType=Rel	24	nsubj	_	_
+17-18	שמאפיין	_	_	_	_	_	_	_	NER=O
+17	ש	ש	SCONJ	X	_	18	mark	_	_
+18	מאפיין	מאפיין	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	16	acl:relcl	_	_
+19-20	אותם	_	_	_	_	_	_	_	NER=O
+19	אות	את	ADP	ADP	Case=Acc	20	case	_	_
+20	ם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	obj	_	_
+21	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	cop	_	NER=O
+22-23	שהם	_	_	_	_	_	_	_	NER=O
+22	ש	ש	SCONJ	X	_	24	mark	_	_
+23	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
+24	פרוסים	פרוס	ADJ	ADJ	Gender=Masc|Number=Plur	10	conj	_	NER=O
+25	כמעט	כמעט	ADV	ADV	_	28	advmod	_	NER=O
+26-27	בכל	_	_	_	_	_	_	_	NER=O
+26	ב	ב	ADP	ADP	_	28	case	_	_
+27	כל	כול	DET	DET	Definite=Cons	28	det	_	_
+28	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	24	obl	_	NER=O|SpaceAfter=No
+29	,	,	PUNCT	_	_	37	punct	_	NER=O
+30-31	ולכן	_	_	_	_	_	_	_	NER=O
+30	ו	ו	CCONJ	X	_	37	cc	_	_
+31	לכן	לכן	ADV	ADV	_	37	advmod	_	_
+32	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	37	nsubj	_	NER=O
+33-34	הספר	_	_	_	_	_	_	_	NER=O
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	ספר	ספר	NOUN	NOUN	Gender=Masc|Number=Sing	32	compound	_	_
+35-36	שלהם	_	_	_	_	_	_	_	NER=O
+35	של	של	ADP	ADP	Case=Gen	36	case	_	_
+36	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	32	nmod:poss	_	_
+37	קטנים	קטן	ADJ	ADJ	Gender=Masc|Number=Plur	24	conj	_	NER=O
+38	יותר	יותר	ADV	ADV	_	37	advmod	_	NER=O|SpaceAfter=No
+39	.	.	PUNCT	_	_	10	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u1.p0.s7
+# text = אנחנו מכירים דוח של הממ"מ שמדבר על תשלומי ההורים הגבוהים יותר בחינוך הזה.
+1	אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	מכירים	הכיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+3	דוח	דוח	NOUN	NOUN	Gender=Masc|Number=Sing	2	obj	_	NER=O
+4	של	של	ADP	ADP	Case=Gen	6	case	_	NER=O
+5-6	הממ"מ	_	_	_	_	_	_	_	NER=O
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	ממ"מ	ממ"מ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	3	nmod:poss	_	_
+7-8	שמדבר	_	_	_	_	_	_	_	NER=O
+7	ש	ש	SCONJ	X	_	8	mark	_	_
+8	מדבר	דיבר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	3	acl:relcl	_	_
+9	על	על	ADP	ADP	_	10	case	_	NER=O
+10	תשלומי	תשלום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	obl	_	NER=O
+11-12	ההורים	_	_	_	_	_	_	_	NER=O
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	הורים	הורה	NOUN	NOUN	Gender=Masc|Number=Plur	10	compound	_	_
+13-14	הגבוהים	_	_	_	_	_	_	_	NER=O
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	גבוהים	גבוה	ADJ	ADJ	Gender=Masc|Number=Plur	10	amod	_	_
+15	יותר	יותר	ADV	ADV	_	14	advmod	_	NER=O
+16-17	בחינוך	_	_	_	_	_	_	_	NER=O
+16	ב	ב	ADP	ADP	Definite=Def|PronType=Art	17	case	_	_
+17	חינוך	חינוך	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+18-19	הזה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	det	_	_
+20	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u1.p0.s8
+# text = הוא לא עשוי מקשה אחת ויש לו תתי זרמים משלו שמתקשים מאוד לעבוד ביחד.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	NER=O
+2	לא	לא	ADV	ADV	_	3	advmod	_	NER=O
+3	עשוי	עשה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	NER=O
+4	מקשה	מקשה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl:npmod	_	NER=O
+5	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing|NumType=Card	4	nummod	_	NER=O
+6-7	ויש	_	_	_	_	_	_	_	NER=O
+6	ו	ו	CCONJ	X	_	7	cc	_	_
+7	יש	יש	VERB	VERB	Polarity=Pos	3	conj	_	_
+8-9	לו	_	_	_	_	_	_	_	NER=O
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
+10	תתי	תתי	ADV	ADV	_	11	compound:affix	_	NER=O
+11	זרמים	זרם	NOUN	NOUN	Gender=Masc|Number=Plur	7	nsubj	_	NER=O
+12-14	משלו	_	_	_	_	_	_	_	NER=O
+12	מ	מ	ADP	ADP	_	14	case	_	_
+13	של	של	ADP	ADP	_	14	case	_	_
+14	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nmod	_	_
+15-16	שמתקשים	_	_	_	_	_	_	_	NER=O
+15	ש	ש	SCONJ	X	_	16	mark	_	_
+16	מתקשים	התקשה	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	11	acl:relcl	_	_
+17	מאוד	מאוד	ADV	ADV	_	16	advmod	_	NER=O
+18	לעבוד	עבד	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	16	xcomp	_	NER=O
+19	ביחד	ביחד	ADV	ADV	_	18	advmod	_	NER=O|SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u1.p0.s9
+# text = יותר מחמישים אחוז מתלמדיו לומדים בבתי ספר נפרדים לבנים ולבנות, מה שמוסיף עוד נדבך של אתגר.
+1	יותר	יותר	ADV	ADV	_	4	advmod	_	NER=O
+2-3	מחמישים	_	_	_	_	_	_	_	NER=O
+2	מ	מ	ADP	ADP	_	1	fixed	_	_
+3	חמישים	חמישים	NUM	NUM	Gender=Masc|NumType=Card	4	nummod	_	_
+4	אחוז	אחוז	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	NER=O
+5-6	מתלמדיו	_	_	_	_	_	_	_	NER=O
+5	מתלמדי	מתלמדי	NOUN	NOUN	Gender=Masc|Number=Plur	7	nsubj	_	_
+6	ו	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+7	לומדים	למד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+8-9	בבתי	_	_	_	_	_	_	_	NER=O
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	obl	_	_
+10	ספר	ספר	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound	_	NER=O
+11	נפרדים	נפרד	ADJ	ADJ	Gender=Masc|Number=Plur	9	amod	_	NER=O
+12-13	לבנים	_	_	_	_	_	_	_	NER=O
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	בנים	בן	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod	_	_
+14-15	ולבנות	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+14	ו	ו	CCONJ	X	_	15	cc	_	_
+15	לבנות	בנה	NOUN	NOUN	Gender=Fem|Number=Plur	13	conj	_	_
+16	,	,	PUNCT	_	_	17	punct	_	NER=O
+17	מה	מה	PRON	PRON	PronType=Rel	7	parataxis	_	NER=O
+18-19	שמוסיף	_	_	_	_	_	_	_	NER=O
+18	ש	ש	SCONJ	X	_	19	mark	_	_
+19	מוסיף	הוסיף	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	17	acl:relcl	_	_
+20	עוד	עוד	DET	DET	_	21	det	_	NER=O
+21	נדבך	נדבך	NOUN	NOUN	Gender=Masc|Number=Sing	19	obj	_	NER=O
+22	של	של	ADP	ADP	Case=Gen	23	case	_	NER=O
+23	אתגר	אתגר	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod:poss	_	NER=O|SpaceAfter=No
+24	.	.	PUNCT	_	_	7	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u1.p0.s10
+# text = גברתי יושבת הראש, כבר אמרת, אולי בעצם המורכבות זה בא לידי ביטוי בשמו, חינוך שהוא ממלכתי והוא דתי.
+1-2	גברתי	_	_	_	_	_	_	_	NER=O
+1	גברת	גברת	NOUN	NOUN	Gender=Fem|Number=Sing	8	vocative	_	_
+2	י	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+3	יושבת	יושב	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	appos	_	NER=O
+4-5	הראש	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	ראש	ראש	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound	_	_
+6	,	,	PUNCT	_	_	8	punct	_	NER=O
+7	כבר	כבר	ADV	ADV	_	8	advmod	_	NER=O
+8	אמרת	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=2|Tense=Past|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	_	_	16	punct	_	NER=O
+10	אולי	אולי	ADV	ADV	_	16	advmod	_	NER=O
+11-12	בעצם	_	_	_	_	_	_	_	NER=O
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	עצם	עצם	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	16	obl	_	_
+13-14	המורכבות	_	_	_	_	_	_	_	NER=O
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	מורכבות	מורכבות	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound	_	_
+15	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	nsubj	_	NER=O
+16	בא	בא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	8	parataxis	_	NER=O
+17-18	לידי	_	_	_	_	_	_	_	NER=O
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	16	obl	_	_
+19	ביטוי	ביטוי	NOUN	NOUN	Gender=Masc|Number=Sing	18	compound	_	NER=O
+20-22	בשמו	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	שמ	שם	NOUN	NOUN	Gender=Masc|Number=Sing	16	obl	_	_
+22	ו	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+23	,	,	PUNCT	_	_	24	punct	_	NER=O
+24	חינוך	חינוך	NOUN	NOUN	Gender=Masc|Number=Sing	21	appos	_	NER=O
+25-26	שהוא	_	_	_	_	_	_	_	NER=O
+25	ש	ש	SCONJ	X	_	27	mark	_	_
+26	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+27	ממלכתי	ממלכתי	ADJ	ADJ	Gender=Masc|Number=Sing	24	acl:relcl	_	NER=O
+28-29	והוא	_	_	_	_	_	_	_	NER=O
+28	ו	ו	CCONJ	X	_	30	cc	_	_
+29	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+30	דתי	דתי	ADJ	ADJ	Gender=Masc|Number=Sing	27	conj	_	NER=O|SpaceAfter=No
+31	.	.	PUNCT	_	_	8	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u1.p0.s11
+# text = החיבור הזה של דת ומדינה שייחודי, לא יחיד, אבל ייחודי במדינת ישראל הוא מוסיף הרבה מאוד אתגרים.
+1-2	החיבור	_	_	_	_	_	_	_	NER=O
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	חיבור	חיבור	NOUN	NOUN	Gender=Masc|Number=Sing	20	nsubj	_	_
+3-4	הזה	_	_	_	_	_	_	_	NER=O
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	NER=O
+6	דת	דת	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod:poss	_	NER=O
+7-8	ומדינה	_	_	_	_	_	_	_	NER=O
+7	ו	ו	CCONJ	X	_	8	cc	_	_
+8	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	6	conj	_	_
+9	שייחודי	שייחודי	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	NER=O
+11	לא	לא	ADV	ADV	Polarity=Neg	12	advmod	_	NER=O
+12	יחיד	יחיד	ADJ	ADJ	Gender=Masc|Number=Sing	9	conj	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	NER=O
+14	אבל	אבל	CCONJ	X	_	15	cc	_	NER=O
+15	ייחודי	ייחודי	ADJ	ADJ	Gender=Masc|Number=Sing	12	conj	_	NER=O
+16-17	במדינת	_	_	_	_	_	_	_	NER=O
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	מדינת	מדינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	obl	_	_
+18	ישראל	ישראל	PROPN	PROPN	_	17	compound	_	NER=B-LOC
+19	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	NER=O
+20	מוסיף	הוסיף	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+21	הרבה	הרבה	DET	DET	Definite=Cons	23	det	_	NER=O
+22	מאוד	מאוד	ADV	ADV	_	23	advmod	_	NER=O
+23	אתגרים	אתגר	NOUN	NOUN	Gender=Masc|Number=Plur	20	obj	_	NER=O|SpaceAfter=No
+24	.	.	PUNCT	_	_	20	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u1.p0.s12
+# text = בשנים האחרונות בגלל המצב הפוליטי וגם בגלל היעדר תקציב מדינה ונסיבות נוספות גרמו לכך שחלק מהמטה במשרד החינוך מאויש או לא מאויש זמנית בבעלי תפקידים שהם ממלאי מקום.
+1-2	בשנים	_	_	_	_	_	_	_	NER=O
+1	ב	ב	ADP	ADP	Definite=Def|PronType=Art	2	case	_	_
+2	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	19	obl	_	_
+3-4	האחרונות	_	_	_	_	_	_	_	NER=O
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	אחרונות	אחרון	ADJ	ADJ	Gender=Fem|Number=Plur	2	amod	_	_
+5	בגלל	בגלל	ADP	ADP	_	7	case	_	NER=O
+6-7	המצב	_	_	_	_	_	_	_	NER=O
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מצב	מצב	NOUN	NOUN	Gender=Masc|Number=Sing	19	obl	_	_
+8-9	הפוליטי	_	_	_	_	_	_	_	NER=O
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	פוליטי	פוליטי	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+10-11	וגם	_	_	_	_	_	_	_	NER=O
+10	ו	ו	CCONJ	X	_	13	cc	_	_
+11	גם	גם	ADV	ADV	_	13	advmod	_	_
+12	בגלל	בגלל	ADP	ADP	_	13	case	_	NER=O
+13	היעדר	היעדר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	conj	_	NER=O
+14	תקציב	תקציב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	compound	_	NER=O
+15	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound	_	NER=O
+16-17	ונסיבות	_	_	_	_	_	_	_	NER=O
+16	ו	ו	CCONJ	X	_	17	cc	_	_
+17	נסיבות	נסיבה	NOUN	NOUN	Gender=Fem|Number=Plur	7	conj	_	_
+18	נוספות	נוסף	ADJ	ADJ	Gender=Fem|Number=Plur	17	amod	_	NER=O
+19	גרמו	גרם	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	NER=O
+20-21	לכך	_	_	_	_	_	_	_	NER=O
+20	ל	ל	ADP	ADP	_	21	case	_	_
+21	כך	כך	PRON	PRON	PronType=Dem	19	obl	_	_
+22-23	שחלק	_	_	_	_	_	_	_	NER=O
+22	ש	ש	SCONJ	X	_	31	mark	_	_
+23	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	31	nsubj:pass	_	_
+24-26	מהמטה	_	_	_	_	_	_	_	NER=O
+24	מ	מ	ADP	ADP	_	26	case	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	מטה	מטה	NOUN	NOUN	Gender=Masc|Number=Sing	23	nmod	_	_
+27-28	במשרד	_	_	_	_	_	_	_	NER=B-ORG
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	משרד	משרד	PROPN	PROPN	Definite=Cons|Gender=Masc|Number=Sing	26	nmod	_	_
+29-30	החינוך	_	_	_	_	_	_	_	NER=I-ORG
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	חינוך	חינוך	PROPN	PROPN	Gender=Masc|Number=Sing	28	compound	_	_
+31	מאויש	מאויש	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Pass	21	acl:relcl	_	NER=O
+32	או	או	CCONJ	X	_	34	cc	_	NER=O
+33	לא	לא	ADV	ADV	Polarity=Neg	34	advmod	_	NER=O
+34	מאויש	מאויש	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Pass	31	conj	_	NER=O
+35	זמנית	זמנית	ADV	ADV	_	31	advmod	_	NER=O
+36-37	בבעלי	_	_	_	_	_	_	_	NER=O
+36	ב	ב	ADP	ADP	_	37	case	_	_
+37	בעלי	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	31	obl	_	_
+38	תפקידים	תפקיד	NOUN	NOUN	Gender=Masc|Number=Plur	37	compound	_	NER=O
+39-40	שהם	_	_	_	_	_	_	_	NER=O
+39	ש	ש	SCONJ	X	_	41	mark	_	_
+40	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	41	cop	_	_
+41	ממלאי	ממלא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	37	acl:relcl	_	NER=O
+42	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	41	compound	_	NER=O|SpaceAfter=No
+43	.	.	PUNCT	_	_	19	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u1.p0.s13
+# text = וכל הדברים האלה ועוד הם דברים שאנחנו נרצה בוועדת המשנה לעסוק בהם, להתייחס אליהם ולהביא לך, לוועדה הראשית, מספר הצעות לפתרון.
+1-2	וכל	_	_	_	_	_	_	_	NER=O
+1	ו	ו	CCONJ	X	_	10	cc	_	_
+2	כל	כול	DET	DET	Definite=Cons	4	det	_	_
+3-4	הדברים	_	_	_	_	_	_	_	NER=O
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	10	nsubj	_	_
+5-6	האלה	_	_	_	_	_	_	_	NER=O
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	4	det	_	_
+7-8	ועוד	_	_	_	_	_	_	_	NER=O
+7	ו	ו	CCONJ	X	_	8	cc	_	_
+8	עוד	עוד	DET	DET	_	4	conj	_	_
+9	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	cop	_	NER=O
+10	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	NER=O
+11-12	שאנחנו	_	_	_	_	_	_	_	NER=O
+11	ש	ש	SCONJ	X	_	13	mark	_	_
+12	אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+13	נרצה	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Fut|Voice=Act	10	acl:relcl	_	NER=O
+14-15	בוועדת	_	_	_	_	_	_	_	NER=O
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	obl	_	_
+16-17	המשנה	_	_	_	_	_	_	_	NER=O
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	משנה	משנה	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound	_	_
+18	לעסוק	עסק	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	13	xcomp	_	NER=O
+19-20	בהם	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	obl	_	_
+21	,	,	PUNCT	_	_	22	punct	_	NER=O
+22	להתייחס	התייחס	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf|Voice=Mid	18	conj	_	NER=O
+23-24	אליהם	_	_	_	_	_	_	_	NER=O
+23	אלי	אל	ADP	ADP	_	24	case	_	_
+24	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	obl	_	_
+25-26	ולהביא	_	_	_	_	_	_	_	NER=O
+25	ו	ו	CCONJ	X	_	26	cc	_	_
+26	להביא	הביא	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	18	conj	_	_
+27-28	לך	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+27	ל	ל	ADP	ADP	_	28	case	_	_
+28	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	26	obl	_	_
+29	,	,	PUNCT	_	_	31	punct	_	NER=O
+30-31	לוועדה	_	_	_	_	_	_	_	NER=O
+30	ל	ל	ADP	ADP	Definite=Def|PronType=Art	31	case	_	_
+31	וועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	26	obl	_	_
+32-33	הראשית	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	ראשית	ראשי	ADJ	ADJ	Gender=Fem|Number=Sing	31	amod	_	_
+34	,	,	PUNCT	_	_	35	punct	_	NER=O
+35	מספר	מספר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	26	obj	_	NER=O
+36	הצעות	הצעה	NOUN	NOUN	Gender=Fem|Number=Plur	35	compound	_	NER=O
+37-38	לפתרון	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+37	ל	ל	ADP	ADP	_	38	case	_	_
+38	פתרון	פתרון	NOUN	NOUN	Gender=Masc|Number=Sing	36	nmod	_	_
+39	.	.	PUNCT	_	_	10	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u1.p0.s14
+# text = אז אני מודה מאוד על האמון.
+1	אז	אז	ADV	ADV	_	3	advmod	_	NER=O
+2	אני	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	NER=O
+3	מודה	הודה	VERB	VERB	HebBinyan=HIFIL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+4	מאוד	מאוד	ADV	ADV	_	3	advmod	_	NER=O
+5	על	על	ADP	ADP	_	7	case	_	NER=O
+6-7	האמון	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	אמון	אמון	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+8	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u1.p0.s15
+# text = אני לוקח עליי בהכנעה את התפקיד ובטוח שיחד עם חבריי לוועדה גם נעשה עבודה רצינית ומקצועית כדי לקדם את החינוך הזה.
+1	אני	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	לוקח	לקח	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+3-4	עליי	_	_	_	_	_	_	_	NER=O
+3	עלי	על	ADP	ADP	_	4	case	_	_
+4	י	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+5-6	בהכנעה	_	_	_	_	_	_	_	NER=O
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	הכנעה	הכנעה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+7	את	את	ADP	ADP	Case=Acc	9	case	_	NER=O
+8-9	התפקיד	_	_	_	_	_	_	_	NER=O
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	תפקיד	תפקיד	NOUN	NOUN	Gender=Masc|Number=Sing	2	obj	_	_
+10-11	ובטוח	_	_	_	_	_	_	_	NER=O
+10	ו	ו	CCONJ	X	_	11	cc	_	_
+11	בטוח	בטוח	ADJ	ADJ	Gender=Masc|Number=Sing	2	conj	_	_
+12-13	שיחד	_	_	_	_	_	_	_	NER=O
+12	ש	ש	SCONJ	X	_	20	mark	_	_
+13	יחד	יחד	ADV	ADV	_	15	case	_	_
+14	עם	עם	ADP	ADP	_	13	fixed	_	NER=O
+15-16	חבריי	_	_	_	_	_	_	_	NER=O
+15	חברי	חבר	NOUN	NOUN	Gender=Masc|Number=Plur	20	obl	_	_
+16	י	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+17-18	לוועדה	_	_	_	_	_	_	_	NER=O
+17	ל	ל	ADP	ADP	Definite=Def|PronType=Art	18	case	_	_
+18	וועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod	_	_
+19	גם	גם	ADV	ADV	_	20	advmod	_	NER=O
+20	נעשה	נעשה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Fut|Voice=Act	11	ccomp	_	NER=O
+21	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	20	obj	_	NER=O
+22	רצינית	רציני	ADJ	ADJ	Gender=Fem|Number=Sing	21	amod	_	NER=O
+23-24	ומקצועית	_	_	_	_	_	_	_	NER=O
+23	ו	ו	CCONJ	X	_	24	cc	_	_
+24	מקצועית	מקצועי	ADJ	ADJ	Gender=Fem|Number=Sing	22	conj	_	_
+25	כדי	כדי	SCONJ	X	_	26	mark	_	NER=O
+26	לקדם	קידם	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	20	advcl	_	NER=O
+27	את	את	ADP	ADP	Case=Acc	29	case	_	NER=O
+28-29	החינוך	_	_	_	_	_	_	_	NER=O
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	חינוך	חינוך	NOUN	NOUN	Gender=Masc|Number=Sing	26	obj	_	_
+30-31	הזה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	29	det	_	_
+32	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u1.p0.s16
+# text = תודה.
+1	תודה	תודה	INTJ	X	_	0	root	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-IL_2021-12-21-24ptv616837.u2
+# newpar id = ParlaMint-IL_2021-12-21-24ptv616837.u2.p0
+# lang = he
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u2.p0.s0
+# text = מצוין.
+1	מצוין	מצוין	ADJ	ADJ	_	0	root	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u2.p0.s1
+# text = תודה רבה על הדברים.
+1	תודה	תודה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	NER=O
+2	רבה	רב	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	NER=O
+3	על	על	ADP	ADP	_	5	case	_	NER=O
+4-5	הדברים	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	1	nmod	_	_
+6	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u2.p0.s2
+# text = אז ככה, אני רוצה להעלות להצבעה.
+1	אז	אז	ADV	ADV	_	5	advmod	_	NER=O
+2	ככה	ככה	ADV	ADV	_	5	advmod	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	NER=O
+4	אני	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	NER=O
+5	רוצה	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+6	להעלות	העלה	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	5	xcomp	_	NER=O
+7-8	להצבעה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+7	ל	ל	ADP	ADP	Definite=Def|PronType=Art	8	case	_	_
+8	הצבעה	הצבעה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+9	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u2.p0.s3
+# text = תוקף פעילות הועדה תהיה עד סוף כנס החורף.
+1	תוקף	תוקף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nsubj	_	NER=O
+2	פעילות	פעילות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound	_	NER=O
+3-4	הועדה	_	_	_	_	_	_	_	NER=O
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound	_	_
+5	תהיה	היה	AUX	X	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|VerbType=Cop	7	cop	_	NER=O
+6	עד	עד	ADP	ADP	_	7	case	_	NER=O
+7	סוף	סוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	NER=O
+8	כנס	כנס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	compound	_	NER=O
+9-10	החורף	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	חורף	חורף	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound	_	_
+11	.	.	PUNCT	_	_	7	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u2.p0.s4
+# text = אני מעלה את ההצעה להצבעה.
+1	אני	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	מעלה	העלה	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+3	את	את	ADP	ADP	Case=Acc	5	case	_	NER=O
+4-5	ההצעה	_	_	_	_	_	_	_	NER=O
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	הצעה	הצעה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obj	_	_
+6-7	להצבעה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	הצבעה	הצבעה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
+8	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u2.p0.s5
+# text = הצבעה אושר
+1	הצבעה	הצבעה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	NER=O
+2	אושר	אושר	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound	_	NER=O
+
+# newdoc id = ParlaMint-IL_2021-12-21-24ptv616837.u3
+# newpar id = ParlaMint-IL_2021-12-21-24ptv616837.u3.p0
+# lang = he
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u3.p0.s0
+# text = ההצעה עברה פה אחד.
+1-2	ההצעה	_	_	_	_	_	_	_	NER=O
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	הצעה	הצעה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	עברה	עבר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	NER=O
+4	פה	פה	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl:npmod	_	NER=O
+5	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	4	nummod	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u3.p0.s1
+# text = המון המון בהצלחה, חבר הכנסת משה טור פז.
+1	המון	המון	DET	DET	Definite=Cons	3	advmod	_	NER=O
+2	המון	המון	DET	DET	_	1	advmod	_	NER=O
+3	בהצלחה	בהצלחה	INTJ	X	_	0	root	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	NER=O
+5	חבר	חבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	vocative	_	NER=B-MISC
+6-7	הכנסת	_	_	_	_	_	_	_	NER=I-MISC
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	כנסת	כנסת	PROPN	PROPN	_	5	compound	_	_
+8	משה	משה	PROPN	PROPN	_	5	appos	_	NER=B-PER
+9	טור פז	טור פז	PROPN	PROPN	_	8	flat	_	NER=I-PER|SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u3.p0.s2
+# text = אני בטוחה שתעמוד במשימה בצורה הטובה ביותר.
+1	אני	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	בטוחה	בטוח	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	NER=O
+3-4	שתעמוד	_	_	_	_	_	_	_	NER=O
+3	ש	ש	SCONJ	X	_	4	mark	_	_
+4	תעמוד	עמד	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	2	ccomp	_	_
+5-6	במשימה	_	_	_	_	_	_	_	NER=O
+5	ב	ב	ADP	ADP	Definite=Def|PronType=Art	6	case	_	_
+6	משימה	משימה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+7-8	בצורה	_	_	_	_	_	_	_	NER=O
+7	ב	ב	ADP	ADP	Definite=Def|PronType=Art	8	case	_	_
+8	צורה	צורה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+9-10	הטובה	_	_	_	_	_	_	_	NER=O
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	טובה	טוב	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+11	ביותר	ביותר	ADV	ADV	_	10	advmod	_	NER=O|SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u3.p0.s3
+# text = חברת הכנסת, מואטי.
+1	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	0	root	_	NER=B-MISC
+2-3	הכנסת	_	_	_	_	_	_	_	NER=I-MISC|SpaceAfter=No
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	כנסת	כנסת	PROPN	PROPN	_	1	compound	_	_
+4	,	,	PUNCT	_	_	5	punct	_	NER=O
+5	מואטי	מואטי	PROPN	PROPN	_	1	appos	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-IL_2021-12-21-24ptv616837.u4
+# newpar id = ParlaMint-IL_2021-12-21-24ptv616837.u4.p0
+# lang = he
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u4.p0.s0
+# text = אני מבקשת לברך את חברינו חבר הכנסת משה טור פז.
+1	אני	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	מבקשת	ביקש	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+3	לברך	בירך	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	2	xcomp	_	NER=O
+4	את	את	ADP	ADP	Case=Acc	5	case	_	NER=O
+5-6	חברינו	_	_	_	_	_	_	_	NER=O
+5	חברי	חבר	NOUN	NOUN	Gender=Masc|Number=Plur	3	obj	_	_
+6	נו	הוא	PRON	PRON	Case=Gen|Definite=Def|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+7	חבר	חבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	appos	_	NER=B-MISC
+8-9	הכנסת	_	_	_	_	_	_	_	NER=I-MISC
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	כנסת	כנסת	PROPN	PROPN	_	7	compound	_	_
+10	משה	משה	PROPN	PROPN	_	7	appos	_	NER=B-PER
+11	טור פז	טור פז	PROPN	PROPN	_	10	flat	_	NER=I-PER|SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u4.p0.s1
+# text = כבוגרת החינוך הממלכתי-דתי אין מתאים ממך לעמוד בראש המשימה הכל כך חשובה שלקחת על עצמך ושוועדת החינוך של הכנסת לקחה על עצמה.
+1-2	כבוגרת	_	_	_	_	_	_	_	NER=O
+1	כ	כ	ADP	ADP	_	2	case	_	_
+2	בוגרת	בוגר	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	obl	_	_
+3-4	החינוך	_	_	_	_	_	_	_	NER=O
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	חינוך	חינוך	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound	_	_
+5-6	הממלכתי	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	ממלכתי	ממלכתי	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	_
+7	-	-	PUNCT	_	_	8	punct	_	NER=O|SpaceAfter=No
+8	דתי	דתי	ADJ	ADJ	Gender=Masc|Number=Sing	6	compound	_	NER=O
+9	אין	אין	ADV	ADV	Polarity=Neg	10	advmod	_	NER=O
+10	מתאים	מתאים	ADJ	ADJ	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+11-12	ממך	_	_	_	_	_	_	_	NER=O
+11	ממ	מן	ADP	ADP	_	12	case	_	_
+12	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	10	obl	_	_
+13	לעמוד	עמד	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	10	xcomp	_	NER=O
+14-15	בראש	_	_	_	_	_	_	_	NER=O
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
+16-17	המשימה	_	_	_	_	_	_	_	NER=O
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	משימה	משימה	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound	_	_
+18-19	הכל	_	_	_	_	_	_	_	NER=O
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+19	כל	כול	DET	DET	_	21	advmod	_	_
+20	כך	כך	ADV	ADV	_	19	fixed	_	NER=O
+21	חשובה	חשוב	ADJ	ADJ	Gender=Fem|Number=Sing	17	amod	_	NER=O
+22-23	שלקחת	_	_	_	_	_	_	_	NER=O
+22	ש	ש	SCONJ	X	_	23	mark	_	_
+23	לקחת	לקח	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	17	acl:relcl	_	_
+24	על	על	ADP	ADP	_	25	case	_	NER=O
+25	עצמך	עצמו	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	23	obl	_	NER=O
+26-28	ושוועדת	_	_	_	_	_	_	_	NER=O
+26	ו	ו	CCONJ	X	_	34	cc	_	_
+27	ש	ש	SCONJ	X	_	34	mark	_	_
+28	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	34	nsubj	_	_
+29-30	החינוך	_	_	_	_	_	_	_	NER=O
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	חינוך	חינוך	NOUN	NOUN	Gender=Masc|Number=Sing	28	compound	_	_
+31	של	של	ADP	ADP	Case=Gen	33	case	_	NER=O
+32-33	הכנסת	_	_	_	_	_	_	_	NER=B-ORG
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	כנסת	כנסת	PROPN	PROPN	_	28	nmod:poss	_	_
+34	לקחה	לקח	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	23	conj	_	NER=O
+35	על	על	ADP	ADP	_	36	case	_	NER=O
+36	עצמה	עצמו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	34	obl	_	NER=O|SpaceAfter=No
+37	.	.	PUNCT	_	_	10	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u4.p0.s2
+# text = אני מאחלת לכולנו, שבעזרת השם, בעתיד הלא רחוק יתווסף לוועדה הזו גם חינוך ממלכתי-חרדי.
+1	אני	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	מאחלת	איחל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+3-5	לכולנו	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+3	ל	ל	ADP	ADP	_	5	case	_	_
+4	כול	כול	DET	DET	PronType=Tot	5	det	_	_
+5	נו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	2	obl	_	_
+6	,	,	PUNCT	_	_	17	punct	_	NER=O
+7-8	שבעזרת	_	_	_	_	_	_	_	NER=O
+7	ש	ש	SCONJ	X	_	17	mark	_	_
+8	בעזרת	בעזרת	ADP	ADP	_	10	case	_	_
+9-10	השם	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	שם	שם	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+11	,	,	PUNCT	_	_	10	punct	_	NER=O
+12-13	בעתיד	_	_	_	_	_	_	_	NER=O
+12	ב	ב	ADP	ADP	Definite=Def|PronType=Art	13	case	_	_
+13	עתיד	עתיד	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+14-15	הלא	_	_	_	_	_	_	_	NER=O
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+15	לא	לא	ADV	ADV	Polarity=Neg	16	advmod	_	_
+16	רחוק	רחוק	ADJ	ADJ	Gender=Masc|Number=Sing	13	amod	_	NER=O
+17	יתווסף	התווסף	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	2	ccomp	_	NER=O
+18-19	לוועדה	_	_	_	_	_	_	_	NER=O
+18	ל	ל	ADP	ADP	Definite=Def|PronType=Art	19	case	_	_
+19	וועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	17	obl	_	_
+20-21	הזו	_	_	_	_	_	_	_	NER=O
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	19	det	_	_
+22	גם	גם	ADV	ADV	_	23	advmod	_	NER=O
+23	חינוך	חינוך	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj:pass	_	NER=O
+24	ממלכתי	ממלכתי	ADJ	ADJ	Gender=Masc|Number=Sing	23	amod	_	NER=O|SpaceAfter=No
+25	-	-	PUNCT	_	_	26	punct	_	NER=O|SpaceAfter=No
+26	חרדי	חרדי	ADJ	ADJ	Gender=Masc|Number=Sing	24	compound	_	NER=O|SpaceAfter=No
+27	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u4.p0.s3
+# text = גם הם ראויים ליחס אוהד מהממלכה ולתקצוב אוהד והולם.
+1	גם	גם	ADV	ADV	_	2	advmod	_	NER=O
+2	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	NER=O
+3	ראויים	ראוי	ADJ	ADJ	Gender=Masc|Number=Plur	0	root	_	NER=O
+4-5	ליחס	_	_	_	_	_	_	_	NER=O
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	יחס	יחס	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+6	אוהד	אוהד	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	NER=O
+7-9	מהממלכה	_	_	_	_	_	_	_	NER=O
+7	מ	מ	ADP	ADP	_	9	case	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	ממלכה	ממלכה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
+10-12	ולתקצוב	_	_	_	_	_	_	_	NER=O
+10	ו	ו	CCONJ	X	_	12	cc	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	תקצוב	תקצוב	NOUN	NOUN	Gender=Masc|Number=Sing	5	conj	_	_
+13	אוהד	אוהד	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	NER=O
+14-15	והולם	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+14	ו	ו	CCONJ	X	_	15	cc	_	_
+15	הולם	הולם	ADJ	ADJ	Gender=Masc|Number=Sing	13	conj	_	_
+16	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u4.p0.s4
+# text = תודה רבה והמשך יום נהדר לכולם.
+1	תודה	תודה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	NER=O
+2	רבה	רב	ADJ	ADJ	Gender=Fem|Number=Sing	1	advmod	_	NER=O
+3-4	והמשך	_	_	_	_	_	_	_	NER=O
+3	ו	ו	CCONJ	X	_	4	cc	_	_
+4	המשך	המשך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	conj	_	_
+5	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound	_	NER=O
+6	נהדר	נהדר	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	NER=O
+7-8	לכולם	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	כולם	כולם	NOUN	NOUN	Gender=Masc|Number=Plur	4	nmod	_	_
+9	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u4.p0.s5
+# text = תודה גברתי יושבת הראש.
+1	תודה	תודה	INTJ	X	Gender=Fem|Number=Sing	0	root	_	NER=O
+2-3	גברתי	_	_	_	_	_	_	_	NER=O
+2	גברת	גברת	NOUN	NOUN	Gender=Fem|Number=Sing	1	vocative	_	_
+3	י	הוא	PRON	PRON	Case=Gen|Definite=Def|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+4	יושבת	יושב	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	appos	_	NER=O
+5-6	הראש	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	ראש	ראש	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound	_	_
+7	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-IL_2021-12-21-24ptv616837.u5
+# newpar id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0
+# lang = he
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s0
+# text = תודה רבה.
+1	תודה	תודה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	NER=O
+2	רבה	רב	ADJ	ADJ	Gender=Fem|Number=Sing	1	advmod	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s1
+# text = אכן, דברים חשובים וזה משהו שהועדה שמה לה זרקור ושמה לתשומת ליבה ואנחנו עובדים כרגע גם כן על גיבוש.
+1	אכן	אכן	ADV	ADV	_	4	advmod	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	NER=O
+3	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	NER=O
+4	חשובים	חשוב	ADJ	ADJ	Gender=Masc|Number=Plur	0	root	_	NER=O
+5-6	וזה	_	_	_	_	_	_	_	NER=O
+5	ו	ו	CCONJ	X	_	7	cc	_	_
+6	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	_
+7	משהו	משהו	NOUN	NOUN	Gender=Masc|Number=Sing	4	conj	_	NER=O
+8-9	שהועדה	_	_	_	_	_	_	_	NER=O
+8	ש	ש	SCONJ	X	_	10	mark	_	_
+9	הועדה	הועדה	NOUN	NOUN	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	שמה	שם	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	7	acl:relcl	_	NER=O
+11-12	לה	_	_	_	_	_	_	_	NER=O
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+13	זרקור	זרקור	NOUN	NOUN	Gender=Masc|Number=Sing	10	obj	_	NER=O
+14-15	ושמה	_	_	_	_	_	_	_	NER=O
+14	ו	ו	CCONJ	X	_	15	cc	_	_
+15	שמה	שם	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	10	conj	_	_
+16-17	לתשומת	_	_	_	_	_	_	_	NER=O
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	תשומת	תשומה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	obl	_	_
+18-19	ליבה	_	_	_	_	_	_	_	NER=O
+18	ליב	לב	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound	_	_
+19	ה	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+20-21	ואנחנו	_	_	_	_	_	_	_	NER=O
+20	ו	ו	CCONJ	X	_	22	cc	_	_
+21	אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
+22	עובדים	עבד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	10	conj	_	NER=O
+23	כרגע	כרגע	ADV	ADV	_	22	advmod	_	NER=O
+24	גם	גם	ADV	ADV	_	25	advmod	_	NER=O
+25	כן	כן	ADV	ADV	_	22	advmod	_	NER=O
+26	על	על	ADP	ADP	_	27	case	_	NER=O
+27	גיבוש	גיבוש	NOUN	NOUN	Gender=Masc|Number=Sing	22	obl	_	NER=O|SpaceAfter=No
+28	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s2
+# text = אני עובדת ממש על גיבוש חקיקה גם בנושא שתפתור אולי אחת ולתמיד את הנושא הזה, שלצערי הוא סוג של הזנחה, ממש הזנחה לאורך עשרות שנים.
+1	אני	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	עובדת	עבד	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+3	ממש	ממש	ADV	ADV	_	2	advmod	_	NER=O
+4	על	על	ADP	ADP	_	5	case	_	NER=O
+5	גיבוש	גיבוש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obl	_	NER=O
+6	חקיקה	חקיקה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound	_	NER=O
+7	גם	גם	ADV	ADV	_	9	advmod	_	NER=O
+8-9	בנושא	_	_	_	_	_	_	_	NER=O
+8	ב	ב	ADP	ADP	Definite=Def|PronType=Art	9	case	_	_
+9	נושא	נושא	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+10-11	שתפתור	_	_	_	_	_	_	_	NER=O
+10	ש	ש	SCONJ	X	_	11	mark	_	_
+11	תפתור	פתר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	9	acl:relcl	_	_
+12	אולי	אולי	ADV	ADV	_	13	advmod	_	NER=O
+13	אחת	אחת	NUM	NUM	Gender=Fem|NumType=Card	11	obl:tmod	_	NER=O
+14-16	ולתמיד	_	_	_	_	_	_	_	NER=O
+14	ו	ו	CCONJ	X	_	16	cc	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	תמיד	תמיד	ADV	ADV	_	13	conj	_	_
+17	את	את	ADP	ADP	Case=Acc	19	case	_	NER=O
+18-19	הנושא	_	_	_	_	_	_	_	NER=O
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	נושא	נושא	NOUN	NOUN	Gender=Masc|Number=Sing	11	obj	_	_
+20-21	הזה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	det	_	_
+22	,	,	PUNCT	_	_	28	punct	_	NER=O
+23-26	שלצערי	_	_	_	_	_	_	_	NER=O
+23	ש	ש	SCONJ	X	_	28	mark	_	_
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	צער	צער	NOUN	NOUN	Gender=Masc|Number=Sing	28	obl	_	_
+26	י	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+27	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	cop	_	NER=O
+28	סוג	סוג	NOUN	NOUN	Gender=Masc|Number=Sing	19	acl:relcl	_	NER=O
+29	של	של	ADP	ADP	Case=Gen	30	case	_	NER=O
+30	הזנחה	הזנחה	NOUN	NOUN	Gender=Fem|Number=Sing	28	nmod:poss	_	NER=O|SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	NER=O
+32	ממש	ממש	ADV	ADV	_	33	advmod	_	NER=O
+33	הזנחה	הזנחה	NOUN	NOUN	Gender=Fem|Number=Sing	30	appos	_	NER=O
+34	לאורך	לאורך	ADP	ADP	_	36	case	_	NER=O
+35	עשרות	עשר	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	36	nummod	_	NER=O
+36	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	33	nmod	_	NER=O|SpaceAfter=No
+37	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s3
+# text = ששמו את החרדים בעצם בצד, ואמרו טוב הם יכולים להסתדר לבד.
+1-3	ששמו	_	_	_	_	_	_	_	NER=O
+1	ש	ש	SCONJ	X	_	2	mark	_	_
+2	שמ	שם	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	ו	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+4	את	את	ADP	ADP	Case=Acc	6	case	_	NER=O
+5-6	החרדים	_	_	_	_	_	_	_	NER=O
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	חרדים	חרדי	NOUN	NOUN	Gender=Masc|Number=Plur	2	obj	_	_
+7	בעצם	בעצם	ADV	ADV	_	9	advmod	_	NER=O
+8-9	בצד	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+8	ב	ב	ADP	ADP	Definite=Def|PronType=Art	9	case	_	_
+9	צד	צד	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+10	,	,	PUNCT	_	_	12	punct	_	NER=O
+11-12	ואמרו	_	_	_	_	_	_	_	NER=O
+11	ו	ו	CCONJ	X	_	12	cc	_	_
+12	אמרו	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	9	conj	_	_
+13	טוב	טוב	ADV	ADV	_	12	advmod	_	NER=O
+14	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	NER=O
+15	יכולים	יכול	AUX	X	Gender=Masc|Number=Plur|VerbForm=Part|VerbType=Mod	16	aux	_	NER=O
+16	להסתדר	הסתדר	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf|Voice=Mid	12	ccomp	_	NER=O
+17	לבד	לבד	ADV	ADV	_	16	advmod	_	NER=O|SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s4
+# text = והגענו למצב, כמו שראינו בדיון האחרון, שבו לדעתי מה זה היה?
+1-2	והגענו	_	_	_	_	_	_	_	NER=O
+1	ו	ו	CCONJ	X	_	2	cc	_	_
+2	הגענו	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1|Tense=Past|Voice=Act	0	root	_	_
+3-4	למצב	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+3	ל	ל	ADP	ADP	Definite=Def|PronType=Art	4	case	_	_
+4	מצב	מצב	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+5	,	,	PUNCT	_	_	8	punct	_	NER=O
+6	כמו	כמו	ADP	ADP	_	8	case	_	NER=O
+7-8	שראינו	_	_	_	_	_	_	_	NER=O
+7	ש	ש	SCONJ	X	_	8	mark	_	_
+8	ראינו	ראה	VERB	VERB	HebBinyan=PAAL|Number=Plur|Person=1|Tense=Past|Voice=Act	4	acl:relcl	_	_
+9-10	בדיון	_	_	_	_	_	_	_	NER=O
+9	ב	ב	ADP	ADP	Definite=Def|PronType=Art	10	case	_	_
+10	דיון	דיון	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+11-12	האחרון	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	אחרון	אחרון	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
+13	,	,	PUNCT	_	_	22	punct	_	NER=O
+14-16	שבו	_	_	_	_	_	_	_	NER=O
+14	ש	ש	SCONJ	X	_	22	mark	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obl	_	_
+17-19	לדעתי	_	_	_	_	_	_	_	NER=O
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	דעת	דעה	NOUN	NOUN	Gender=Fem|Number=Sing	22	obl	_	_
+19	י	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+20	מה	מה	PRON	PRON	PronType=Int	22	nsubj	_	NER=O
+21	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	nsubj	_	NER=O
+22	היה	היה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	acl:relcl	_	NER=O|SpaceAfter=No
+23	?	?	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s5
+# text = עשרה אחוז מהגברים החרדים מסיימים עם בגרות?
+1	עשרה	עשר	NUM	NUM	Gender=Masc|Number=Plur	2	nummod	_	NER=O
+2	אחוז	אחוז	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	NER=O
+3-5	מהגברים	_	_	_	_	_	_	_	NER=O
+3	מ	מ	ADP	ADP	_	5	case	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	גברים	גבר	NOUN	NOUN	Gender=Masc|Number=Plur	2	nmod	_	_
+6-7	החרדים	_	_	_	_	_	_	_	NER=O
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	חרדים	חרדי	ADJ	ADJ	Gender=Masc|Number=Plur	5	amod	_	_
+8	מסיימים	סיים	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+9	עם	עם	ADP	ADP	_	10	case	_	NER=O
+10	בגרות	בגרות	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	NER=O|SpaceAfter=No
+11	?	?	PUNCT	_	_	8	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s6
+# text = אולי ארבעים אחוז מהבנות מסיימות עם תעודת בגרות.
+1	אולי	אולי	ADV	ADV	_	7	advmod	_	NER=O
+2	ארבעים	ארבעים	NUM	NUM	_	3	nummod	_	NER=O
+3	אחוז	אחוז	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	7	nsubj	_	NER=O
+4-6	מהבנות	_	_	_	_	_	_	_	NER=O
+4	מ	מ	ADP	ADP	_	6	case	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	בנות	בת	NOUN	NOUN	Gender=Fem|Number=Plur	3	nmod	_	_
+7	מסיימות	סיים	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+8	עם	עם	ADP	ADP	_	9	case	_	NER=O
+9	תעודת	תעודה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	obl	_	NER=O
+10	בגרות	בגרות	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound	_	NER=O|SpaceAfter=No
+11	.	.	PUNCT	_	_	7	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s7
+# text = אלו דברים בלתי נתפסים שפשוט משאירים אותם בסוג של עולם עוני שאין להם דרך לצאת ממנו, כי אין להם שום כרטיס כניסה לעולם האקדמיה, למקצועות יותר טובים, למקומות עבודה יותר טובים.
+1	אלו	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	2	nsubj	_	NER=O
+2	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	NER=O
+3	בלתי	בלתי	ADV	ADV	Prefix=Yes	4	compound:affix	_	NER=O
+4	נתפסים	נתפס	ADJ	ADJ	Gender=Masc|Number=Plur	2	amod	_	NER=O
+5-6	שפשוט	_	_	_	_	_	_	_	NER=O
+5	ש	ש	SCONJ	X	_	7	mark	_	_
+6	פשוט	פשוט	ADV	ADV	_	7	advmod	_	_
+7	משאירים	השאיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	2	acl:relcl	_	NER=O
+8-9	אותם	_	_	_	_	_	_	_	NER=O
+8	אות	את	ADP	ADP	Case=Acc	9	case	_	_
+9	ם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+10-11	בסוג	_	_	_	_	_	_	_	NER=O
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	סוג	סוג	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+12	של	של	ADP	ADP	Case=Gen	13	case	_	NER=O
+13	עולם	עולם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nmod:poss	_	NER=O
+14	עוני	עוני	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound	_	NER=O
+15-16	שאין	_	_	_	_	_	_	_	NER=O
+15	ש	ש	SCONJ	X	_	16	mark	_	_
+16	אין	אין	VERB	VERB	Polarity=Neg	13	acl:relcl	_	_
+17-18	להם	_	_	_	_	_	_	_	NER=O
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	obl	_	_
+19	דרך	דרך	NOUN	NOUN	Gender=Fem|Number=Sing	16	nsubj	_	NER=O
+20	לצאת	יצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	19	acl	_	NER=O
+21-22	ממנו	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+21	ממנ	מן	ADP	ADP	_	22	case	_	_
+22	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obl	_	_
+23	,	,	PUNCT	_	_	25	punct	_	NER=O
+24	כי	כי	SCONJ	X	_	25	mark	_	NER=O
+25	אין	אין	VERB	VERB	Polarity=Neg	16	advcl	_	NER=O
+26-27	להם	_	_	_	_	_	_	_	NER=O
+26	ל	ל	ADP	ADP	_	27	case	_	_
+27	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	obl	_	_
+28	שום	שום	DET	DET	Definite=Cons	29	det	_	NER=O
+29	כרטיס	כרטיס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	nsubj	_	NER=O
+30	כניסה	כניסה	NOUN	NOUN	Gender=Fem|Number=Sing	29	compound	_	NER=O
+31-32	לעולם	_	_	_	_	_	_	_	NER=O
+31	ל	ל	ADP	ADP	_	32	case	_	_
+32	עולם	עולם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	29	nmod	_	_
+33-34	האקדמיה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	אקדמיה	אקדמיה	NOUN	NOUN	Gender=Fem|Number=Sing	32	compound	_	_
+35	,	,	PUNCT	_	_	37	punct	_	NER=O
+36-37	למקצועות	_	_	_	_	_	_	_	NER=O
+36	ל	ל	ADP	ADP	_	37	case	_	_
+37	מקצועות	מקצוע	NOUN	NOUN	Gender=Masc|Number=Plur	32	conj	_	_
+38	יותר	יותר	ADV	ADV	_	39	advmod	_	NER=O
+39	טובים	טוב	ADJ	ADJ	Gender=Masc|Number=Plur	37	amod	_	NER=O|SpaceAfter=No
+40	,	,	PUNCT	_	_	42	punct	_	NER=O
+41-42	למקומות	_	_	_	_	_	_	_	NER=O
+41	ל	ל	ADP	ADP	_	42	case	_	_
+42	מקומות	מקום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	32	conj	_	_
+43	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	42	compound	_	NER=O
+44	יותר	יותר	ADV	ADV	_	45	advmod	_	NER=O
+45	טובים	טוב	ADJ	ADJ	Gender=Masc|Number=Plur	42	amod	_	NER=O|SpaceAfter=No
+46	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s8
+# text = זה כמובן דיון נפרד שאנחנו חייבים להמשיך ולעסוק בו.
+1	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	NER=O
+2	כמובן	כמובן	ADV	ADV	_	3	advmod	_	NER=O
+3	דיון	דיון	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	NER=O
+4	נפרד	נפרד	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	NER=O
+5-6	שאנחנו	_	_	_	_	_	_	_	NER=O
+5	ש	ש	SCONJ	X	_	8	mark	_	_
+6	אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+7	חייבים	חייב	AUX	X	Gender=Masc|Number=Plur|VerbType=Mod	8	aux	_	NER=O
+8	להמשיך	המשיך	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	3	acl:relcl	_	NER=O
+9-10	ולעסוק	_	_	_	_	_	_	_	NER=O
+9	ו	ו	CCONJ	X	_	10	cc	_	_
+10	לעסוק	עסק	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	8	conj	_	_
+11-12	בו	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+13	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s9
+# text = ונעבור לנושא הבא על סדר היום והוא הקמת ועדת משנה למבנה ההשכלה הגבוהה, המחקר ותקציבם.
+1-2	ונעבור	_	_	_	_	_	_	_	NER=O
+1	ו	ו	CCONJ	X	_	2	cc	_	_
+2	נעבור	עבר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Fut|Voice=Act	0	root	_	_
+3-4	לנושא	_	_	_	_	_	_	_	NER=O
+3	ל	ל	ADP	ADP	Definite=Def|PronType=Art	4	case	_	_
+4	נושא	נושא	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+5-6	הבא	_	_	_	_	_	_	_	NER=O
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	בא	בא	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	_
+7	על	על	ADP	ADP	_	8	case	_	NER=O
+8	סדר	סדר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	NER=O
+9-10	היום	_	_	_	_	_	_	_	NER=O
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound	_	_
+11-12	והוא	_	_	_	_	_	_	_	NER=O
+11	ו	ו	CCONJ	X	_	13	cc	_	_
+12	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	הקמת	הקמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	conj	_	NER=O
+14	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	compound	_	NER=O
+15	משנה	משנה	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound	_	NER=O
+16-17	למבנה	_	_	_	_	_	_	_	NER=O
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	מבנה	מבנה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	nmod	_	_
+18-19	ההשכלה	_	_	_	_	_	_	_	NER=O
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	השכלה	השכלה	NOUN	NOUN	Gender=Fem|Number=Sing	17	compound	_	_
+20-21	הגבוהה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	19	amod	_	_
+22	,	,	PUNCT	_	_	24	punct	_	NER=O
+23-24	המחקר	_	_	_	_	_	_	_	NER=O
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	מחקר	מחקר	NOUN	NOUN	Gender=Masc|Number=Sing	19	conj	_	_
+25-27	ותקציבם	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+25	ו	ו	CCONJ	X	_	26	cc	_	_
+26	תקציב	תקציב	NOUN	NOUN	Gender=Masc|Number=Sing	17	conj	_	_
+27	ם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+28	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s10
+# text = אבקש להביא לידיעת
+1	אבקש	ביקש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1|Tense=Fut|Voice=Act	0	root	_	NER=O
+2	להביא	הביא	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	1	xcomp	_	NER=O
+3-4	לידיעת	_	_	_	_	_	_	_	NER=O
+3	ל	ל	ADP	ADP	Definite=Def|PronType=Art	4	case	_	_
+4	ידיעת	ידיעה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s11
+# text = כם כי ועדת החינוך התרבות והספורט החליטה כי בישיבתה מיום ה-21 בדצמבר 2021 על הקמת ועדת משנה למבנה ההשכלה הגבוהה, המחקר והתקציב.
+1	כם	כם	X	X	Typo=Yes	11	nsubj	_	NER=O
+2	כי	כי	SCONJ	X	_	11	mark	_	NER=O
+3	ועדת	ועדה	PROPN	PROPN	Definite=Cons|Gender=Fem|Number=Sing	11	nsubj	_	NER=B-ORG
+4-5	החינוך	_	_	_	_	_	_	_	NER=I-ORG
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	חינוך	חינוך	PROPN	PROPN	Gender=Masc|Number=Sing	3	compound	_	_
+6-7	התרבות	_	_	_	_	_	_	_	NER=I-ORG
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	תרבות	תרבות	PROPN	PROPN	Gender=Fem|Number=Sing	5	conj	_	_
+8-10	והספורט	_	_	_	_	_	_	_	NER=I-ORG
+8	ו	ו	CCONJ	X	_	10	cc	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	ספורט	ספורט	PROPN	PROPN	Gender=Masc|Number=Sing	5	conj	_	_
+11	החליטה	החליט	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	NER=O
+12	כי	כי	SCONJ	X	_	14	mark	_	NER=O
+13-15	בישיבתה	_	_	_	_	_	_	_	NER=O
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	ישיבת	ישיבה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	_
+15	ה	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+16-17	מיום	_	_	_	_	_	_	_	NER=O
+16	מ	מ	ADP	ADP	_	17	case	_	_
+17	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	NER=O|SpaceAfter=No
+19	-	-	PUNCT	_	_	18	punct	_	NER=O|SpaceAfter=No
+20	21	21	NUM	NUM	_	17	compound	_	NER=O
+21-22	בדצמבר	_	_	_	_	_	_	_	NER=O
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	דצמבר	דצמבר	PROPN	PROPN	_	20	nmod	_	_
+23	2021	2021	NUM	NUM	_	20	nmod:tmod	_	NER=O
+24	על	על	ADP	ADP	_	25	case	_	NER=O
+25	הקמת	הקמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	nmod	_	NER=O
+26	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	25	compound	_	NER=O
+27	משנה	משנה	NOUN	NOUN	Gender=Masc|Number=Sing	26	compound	_	NER=O
+28-29	למבנה	_	_	_	_	_	_	_	NER=O
+28	ל	ל	ADP	ADP	_	29	case	_	_
+29	מבנה	מבנה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	26	nmod	_	_
+30-31	ההשכלה	_	_	_	_	_	_	_	NER=O
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	השכלה	השכלה	NOUN	NOUN	Gender=Fem|Number=Sing	29	compound	_	_
+32-33	הגבוהה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	31	amod	_	_
+34	,	,	PUNCT	_	_	36	punct	_	NER=O
+35-36	המחקר	_	_	_	_	_	_	_	NER=O
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	מחקר	מחקר	NOUN	NOUN	Gender=Masc|Number=Sing	31	conj	_	_
+37-39	והתקציב	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+37	ו	ו	CCONJ	X	_	39	cc	_	_
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	תקציב	תקציב	NOUN	NOUN	Gender=Masc|Number=Sing	31	conj	_	_
+40	.	.	PUNCT	_	_	11	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s12
+# text = הועדה תתכנס בהרכב הבא-חבר הכנסת יוסי שיין יכהן כיושב ראש הוועדה.
+1-2	הועדה	_	_	_	_	_	_	_	NER=O
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	ועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	תתכנס	התכנס	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	0	root	_	NER=O
+4-5	בהרכב	_	_	_	_	_	_	_	NER=O
+4	ב	ב	ADP	ADP	Definite=Def|PronType=Art	5	case	_	_
+5	הרכב	הרכב	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+6-7	הבא	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	בא	בא	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+8	-	-	PUNCT	_	_	9	punct	_	NER=O|SpaceAfter=No
+9	חבר	חבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	parataxis	_	NER=B-MISC
+10-11	הכנסת	_	_	_	_	_	_	_	NER=I-MISC
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	כנסת	כנסת	PROPN	PROPN	_	9	compound	_	_
+12	יוסי	יוסי	PROPN	PROPN	_	9	appos	_	NER=B-PER
+13	שיין	שיין	PROPN	PROPN	_	12	flat	_	NER=I-PER
+14	יכהן	כיהן	PROPN	PROPN	_	9	appos	_	NER=O
+15-16	כיושב	_	_	_	_	_	_	_	NER=O
+15	כ	כ	ADP	ADP	_	16	case	_	_
+16	יושב	יושב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	nmod	_	_
+17	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	compound	_	NER=O
+18-19	הוועדה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	וועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	17	compound	_	_
+20	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s13
+# text = יכהנו כחברים חבר הכנסת אלון טל, חברת הכנסת אמילי מואטי וחבר הכנסת עופר כסיף, כאשר יש עוד מקום לחבר נוסף מטעם האופוזיציה על פי בחירתם שלהם.
+1	יכהנו	יכהנו	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1|Tense=Past|Voice=Act	0	root	_	NER=O
+2-3	כחברים	_	_	_	_	_	_	_	NER=O
+2	כ	כ	ADP	ADP	_	3	case	_	_
+3	חברים	חבר	NOUN	NOUN	Gender=Masc|Number=Plur	1	obl	_	_
+4	חבר	חבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	nsubj:pass	_	NER=B-MISC
+5-6	הכנסת	_	_	_	_	_	_	_	NER=I-MISC
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	כנסת	כנסת	PROPN	PROPN	_	4	compound	_	_
+7	אלון	אלון	PROPN	PROPN	_	4	appos	_	NER=B-PER
+8	טל	טל	PROPN	PROPN	_	7	flat	_	NER=I-PER|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	NER=O
+10	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	conj	_	NER=B-MISC
+11-12	הכנסת	_	_	_	_	_	_	_	NER=I-MISC
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	כנסת	כנסת	PROPN	PROPN	_	10	compound	_	_
+13	אמילי	אמילי	PROPN	PROPN	_	10	appos	_	NER=B-PER
+14	מואטי	מואטי	PROPN	PROPN	_	13	flat	_	NER=O
+15-16	וחבר	_	_	_	_	_	_	_	NER=B-MISC
+15	ו	ו	CCONJ	X	_	16	cc	_	_
+16	חבר	חבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	conj	_	_
+17-18	הכנסת	_	_	_	_	_	_	_	NER=I-MISC
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	כנסת	כנסת	PROPN	PROPN	_	16	compound	_	_
+19	עופר	עופר	PROPN	PROPN	_	16	appos	_	NER=B-PER
+20	כסיף	כסיף	PROPN	PROPN	_	19	flat	_	NER=I-PER|SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	NER=O
+22	כאשר	כאשר	SCONJ	X	_	23	mark	_	NER=O
+23	יש	יש	VERB	VERB	Polarity=Pos	1	advcl	_	NER=O
+24	עוד	עוד	DET	DET	_	25	det	_	NER=O
+25	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	23	nsubj	_	NER=O
+26-27	לחבר	_	_	_	_	_	_	_	NER=O
+26	ל	ל	ADP	ADP	_	27	case	_	_
+27	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Sing	25	nmod	_	_
+28	נוסף	נוסף	ADJ	ADJ	Gender=Masc|Number=Sing	27	amod	_	NER=O
+29-30	מטעם	_	_	_	_	_	_	_	NER=O
+29	מ	מ	ADP	ADP	_	30	case	_	_
+30	טעם	טעם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	27	nmod	_	_
+31-32	האופוזיציה	_	_	_	_	_	_	_	NER=O
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	אופוזיציה	אופוזיציה	NOUN	NOUN	Gender=Fem|Number=Sing	30	compound	_	_
+33	על	על	ADP	ADP	_	35	case	_	NER=O
+34	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	33	fixed	_	NER=O
+35-36	בחירתם	_	_	_	_	_	_	_	NER=O
+35	בחירת	בחירה	NOUN	NOUN	Gender=Fem|Number=Sing	27	nmod	_	_
+36	ם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+37-38	שלהם	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+37	של	של	ADP	ADP	Case=Gen	38	case	_	_
+38	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	35	nmod:poss	_	_
+39	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s14
+# text = הועדה רשאית לעסוק בנושאים הבאים – מבנה המל"ג והקצאת תקציבים ותקצוב ההשכלה הגבוהה.
+1-2	הועדה	_	_	_	_	_	_	_	NER=O
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	ועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	רשאית	רשאי	AUX	X	Gender=Fem|Number=Sing|VerbType=Mod	4	aux	_	NER=O
+4	לעסוק	עסק	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	NER=O
+5-6	בנושאים	_	_	_	_	_	_	_	NER=O
+5	ב	ב	ADP	ADP	Definite=Def|PronType=Art	6	case	_	_
+6	נושאים	נושא	NOUN	NOUN	Gender=Masc|Number=Plur	4	obl	_	_
+7-8	הבאים	_	_	_	_	_	_	_	NER=O
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	באים	בא	ADJ	ADJ	Gender=Masc|Number=Plur	6	amod	_	_
+9	–	–	PUNCT	_	_	10	punct	_	NER=O
+10	מבנה	מבנה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	appos	_	NER=O
+11-12	המל"ג	_	_	_	_	_	_	_	NER=B-ORG
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מל"ג	מל"ג	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	10	compound	_	_
+13-14	והקצאת	_	_	_	_	_	_	_	NER=O
+13	ו	ו	CCONJ	X	_	14	cc	_	_
+14	הקצאת	הקצאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	conj	_	_
+15	תקציבים	תקציב	NOUN	NOUN	Gender=Masc|Number=Plur	14	compound	_	NER=O
+16-17	ותקצוב	_	_	_	_	_	_	_	NER=O
+16	ו	ו	CCONJ	X	_	17	cc	_	_
+17	תקצוב	תקצוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	conj	_	_
+18-19	ההשכלה	_	_	_	_	_	_	_	NER=O
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	השכלה	השכלה	NOUN	NOUN	Gender=Fem|Number=Sing	17	compound	_	_
+20-21	הגבוהה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	19	amod	_	_
+22	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s15
+# text = תוקף פעילות הועדה הוא עד סוף כנס מושב החורף ה-13 במרץ 2022.
+1	תוקף	תוקף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nsubj	_	NER=O
+2	פעילות	פעילות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound	_	NER=O
+3-4	הועדה	_	_	_	_	_	_	_	NER=O
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound	_	_
+5	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	cop	_	NER=O
+6	עד	עד	ADP	ADP	_	7	case	_	NER=O
+7	סוף	סוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	NER=O
+8	כנס	כנס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	compound	_	NER=O
+9	מושב	מושב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	compound	_	NER=O
+10-11	החורף	_	_	_	_	_	_	_	NER=O
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	חורף	חורף	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	NER=O|SpaceAfter=No
+13	-	-	PUNCT	_	_	12	punct	_	NER=O|SpaceAfter=No
+14	13	13	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	NER=B-MISC
+15-16	במרץ	_	_	_	_	_	_	_	NER=I-MISC
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	מרץ	מרץ	PROPN	PROPN	_	14	obl	_	_
+17	2022	2022	NUM	NUM	_	16	nmod:tmod	_	NER=I-MISC|SpaceAfter=No
+18	.	.	PUNCT	_	_	7	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s16
+# text = גם פה, אנחנו נתקלנו בבעיות אדירות.
+1	גם	גם	ADV	ADV	_	2	advmod	_	NER=O
+2	פה	פה	ADV	ADV	_	5	advmod	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	NER=O
+4	אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	NER=O
+5	נתקלנו	נתקל	VERB	VERB	HebBinyan=NIFAL|Number=Plur|Person=1|Tense=Past|Voice=Pass	0	root	_	NER=O
+6-7	בבעיות	_	_	_	_	_	_	_	NER=O
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	בעיות	בעיה	NOUN	NOUN	Gender=Fem|Number=Plur	5	obl	_	_
+8	אדירות	אדיר	ADJ	ADJ	Gender=Fem|Number=Plur	7	amod	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s17
+# text = אנחנו עמדנו לקיים פה גם כן דיון ספציפי לעניין תקצוב ההשכלה הגבוהה במדינת ישראל, אשר נדחה כבר פעמיים בגלל, נקרא לזה בעיות טכניות, אבל זה באמת חוסר יכולת גם בהשגת נותנים.
+1	אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	עמדנו	עמד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Past|Voice=Act	0	root	_	NER=O
+3	לקיים	קיים	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	2	xcomp	_	NER=O
+4	פה	פה	ADV	ADV	_	3	advmod	_	NER=O
+5	גם	גם	ADV	ADV	_	6	advmod	_	NER=O
+6	כן	כן	ADV	ADV	_	3	advmod	_	NER=O
+7	דיון	דיון	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	NER=O
+8	ספציפי	ספציפי	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	NER=O
+9-10	לעניין	_	_	_	_	_	_	_	NER=O
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	עניין	עניין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nmod	_	_
+11	תקצוב	תקצוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	compound	_	NER=O
+12-13	ההשכלה	_	_	_	_	_	_	_	NER=O
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	השכלה	השכלה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound	_	_
+14-15	הגבוהה	_	_	_	_	_	_	_	NER=O
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	13	amod	_	_
+16-17	במדינת	_	_	_	_	_	_	_	NER=O
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	מדינת	מדינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	nmod	_	_
+18	ישראל	ישראל	PROPN	PROPN	_	17	compound	_	NER=B-LOC|SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	NER=O
+20	אשר	אשר	SCONJ	X	_	21	mark	_	NER=O
+21	נדחה	נדחה	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	11	acl:relcl	_	NER=O
+22	כבר	כבר	ADV	ADV	_	23	advmod	_	NER=O
+23	פעמיים	פעם	NOUN	NOUN	Gender=Fem|Number=Dual	21	obl:tmod	_	NER=O
+24	בגלל	בגלל	ADP	ADP	_	26	mark	_	NER=O|SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	NER=O
+26	נקרא	נקרא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	21	parataxis	_	NER=O
+27-28	לזה	_	_	_	_	_	_	_	NER=O
+27	ל	ל	ADP	ADP	_	28	case	_	_
+28	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	obl	_	_
+29	בעיות	בעיה	NOUN	NOUN	Gender=Fem|Number=Plur	26	xcomp	_	NER=O
+30	טכניות	טכני	ADJ	ADJ	Gender=Fem|Number=Plur	29	amod	_	NER=O|SpaceAfter=No
+31	,	,	PUNCT	_	_	35	punct	_	NER=O
+32	אבל	אבל	CCONJ	X	_	35	cc	_	NER=O
+33	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	35	nsubj	_	NER=O
+34	באמת	באמת	ADV	ADV	_	35	advmod	_	NER=O
+35	חוסר	חוסר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	26	conj	_	NER=O
+36	יכולת	יכולת	NOUN	NOUN	Gender=Fem|Number=Sing	35	compound	_	NER=O
+37	גם	גם	ADV	ADV	_	39	advmod	_	NER=O
+38-39	בהשגת	_	_	_	_	_	_	_	NER=O
+38	ב	ב	ADP	ADP	_	39	case	_	_
+39	השגת	השגה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	35	obl	_	_
+40	נותנים	נתן	NOUN	NOUN	Gender=Masc|Number=Plur	39	compound	_	NER=O|SpaceAfter=No
+41	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s18
+# text = נראה שהדבר כל כך סבוך, חבר הכנסת שיין, ומורכב, ויש פה מצוקות אדירות בקרב האוניברסיטאות, המכללות אלו שמתוקצבות ואלה שלא מתוקצבות.
+1	נראה	נראה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	NER=O
+2-4	שהדבר	_	_	_	_	_	_	_	NER=O
+2	ש	ש	SCONJ	X	_	7	mark	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	כל	כול	DET	DET	Definite=Cons	7	advmod	_	NER=O
+6	כך	כך	ADV	ADV	_	5	fixed	_	NER=O
+7	סבוך	סבוך	ADJ	ADJ	Gender=Masc|Number=Sing	1	csubj	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	NER=O
+9	חבר	חבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	vocative	_	NER=O
+10-11	הכנסת	_	_	_	_	_	_	_	NER=O
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	כנסת	כנסת	PROPN	PROPN	_	9	compound	_	_
+12	שיין	שיין	PROPN	PROPN	_	9	appos	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	NER=O
+14-15	ומורכב	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+14	ו	ו	CCONJ	X	_	15	cc	_	_
+15	מורכב	מורכב	ADJ	ADJ	Gender=Masc|Number=Sing	7	conj	_	_
+16	,	,	PUNCT	_	_	18	punct	_	NER=O
+17-18	ויש	_	_	_	_	_	_	_	NER=O
+17	ו	ו	CCONJ	X	_	18	cc	_	_
+18	יש	יש	VERB	VERB	Polarity=Pos	7	conj	_	_
+19	פה	פה	ADV	ADV	_	18	advmod	_	NER=O
+20	מצוקות	מצוקה	NOUN	NOUN	Gender=Fem|Number=Plur	18	nsubj	_	NER=O
+21	אדירות	אדיר	ADJ	ADJ	Gender=Fem|Number=Plur	20	amod	_	NER=O
+22	בקרב	בקרב	ADP	ADP	_	24	case	_	NER=O
+23-24	האוניברסיטאות	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	אוניברסיטאות	אוניברסיטה	NOUN	NOUN	Gender=Fem|Number=Plur	20	nmod	_	_
+25	,	,	PUNCT	_	_	27	punct	_	NER=O
+26-27	המכללות	_	_	_	_	_	_	_	NER=O
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	מכללות	מכללה	NOUN	NOUN	Gender=Fem|Number=Plur	24	appos	_	_
+28	אלו	זה	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Dem	27	det	_	NER=O
+29-30	שמתוקצבות	_	_	_	_	_	_	_	NER=O
+29	ש	ש	SCONJ	X	_	30	mark	_	_
+30	מתוקצבות	תוקצב	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Pass	27	acl:relcl	_	_
+31-32	ואלה	_	_	_	_	_	_	_	NER=O
+31	ו	ו	CCONJ	X	_	32	cc	_	_
+32	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	27	conj	_	_
+33-34	שלא	_	_	_	_	_	_	_	NER=O
+33	ש	ש	SCONJ	X	_	35	mark	_	_
+34	לא	לא	ADV	ADV	Polarity=Neg	35	advmod	_	_
+35	מתוקצבות	תוקצב	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Pass	32	acl:relcl	_	NER=O|SpaceAfter=No
+36	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s19
+# text = יש שם באמת בלגן אדיר, וגם שם אנחנו נדרשים לקיים מספר דיונים, שקודם כל יבהירו ויעשו פיקוח נאות על התקציבים האדרים שמגיעים לאותם מוסדות, כיצד הם מחולקים והאם יש דרך יעילה יותר וטובה יותר לחלוקת אותם תקציבים.
+1	יש	יש	VERB	VERB	Polarity=Pos	0	root	_	NER=O
+2	שם	שם	ADV	ADV	_	1	advmod	_	NER=O
+3	באמת	באמת	ADV	ADV	_	1	advmod	_	NER=O
+4	בלגן	בלגן	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	NER=O
+5	אדיר	אדיר	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	_	_	11	punct	_	NER=O
+7-8	וגם	_	_	_	_	_	_	_	NER=O
+7	ו	ו	CCONJ	X	_	11	cc	_	_
+8	גם	גם	ADV	ADV	_	9	advmod	_	_
+9	שם	שם	ADV	ADV	_	11	advmod	_	NER=O
+10	אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	11	nsubj:pass	_	NER=O
+11	נדרשים	נדרש	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1|Tense=Pres|Voice=Mid	1	conj	_	NER=O
+12	לקיים	קיים	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	11	xcomp	_	NER=O
+13	מספר	מספר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	obj	_	NER=O
+14	דיונים	דיון	NOUN	NOUN	Gender=Masc|Number=Plur	13	compound	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	_	_	19	punct	_	NER=O
+16-17	שקודם	_	_	_	_	_	_	_	NER=O
+16	ש	ש	SCONJ	X	_	19	mark	_	_
+17	קודם	קודם	ADV	ADV	_	19	advmod	_	_
+18	כל	כול	NOUN	NOUN	Gender=Masc|Number=Sing	17	fixed	_	NER=O
+19	יבהירו	יבהירו	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Fut|Voice=Act	14	acl:relcl	_	NER=O
+20-21	ויעשו	_	_	_	_	_	_	_	NER=O
+20	ו	ו	CCONJ	X	_	21	cc	_	_
+21	יעשו	עשה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Fut|Voice=Act	19	conj	_	_
+22	פיקוח	פיקוח	NOUN	NOUN	Gender=Masc|Number=Sing	21	obj	_	NER=O
+23	נאות	נאות	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	NER=O
+24	על	על	ADP	ADP	_	26	case	_	NER=O
+25-26	התקציבים	_	_	_	_	_	_	_	NER=O
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	תקציבים	תקציב	NOUN	NOUN	Gender=Masc|Number=Plur	22	nmod	_	_
+27-28	האדרים	_	_	_	_	_	_	_	NER=O
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	אדרים	אדרים	ADJ	ADJ	Gender=Masc|Number=Plur	26	amod	_	_
+29-30	שמגיעים	_	_	_	_	_	_	_	NER=O
+29	ש	ש	SCONJ	X	_	30	mark	_	_
+30	מגיעים	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	26	acl:relcl	_	_
+31-32	לאותם	_	_	_	_	_	_	_	NER=O
+31	ל	ל	ADP	ADP	_	33	case	_	_
+32	אותם	אותו	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|PronType=Prs	33	det	_	_
+33	מוסדות	מוסד	NOUN	NOUN	Gender=Masc|Number=Plur	30	obl	_	NER=O|SpaceAfter=No
+34	,	,	PUNCT	_	_	37	punct	_	NER=O
+35	כיצד	כיצד	ADV	ADV	PronType=Int	37	advmod	_	NER=O
+36	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	37	nsubj:pass	_	NER=O
+37	מחולקים	חולק	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Pass	19	conj	_	NER=O
+38-39	והאם	_	_	_	_	_	_	_	NER=O
+38	ו	ו	CCONJ	X	_	40	cc	_	_
+39	האם	האם	SCONJ	X	PronType=Int	40	mark	_	_
+40	יש	יש	VERB	VERB	Polarity=Pos	19	conj	_	NER=O
+41	דרך	דרך	NOUN	NOUN	Gender=Fem|Number=Sing	40	nsubj	_	NER=O
+42	יעילה	יעיל	ADJ	ADJ	Gender=Fem|Number=Sing	41	amod	_	NER=O
+43	יותר	יותר	ADV	ADV	_	42	advmod	_	NER=O
+44-45	וטובה	_	_	_	_	_	_	_	NER=O
+44	ו	ו	CCONJ	X	_	45	cc	_	_
+45	טובה	טוב	ADJ	ADJ	Gender=Fem|Number=Sing	42	conj	_	_
+46	יותר	יותר	ADV	ADV	_	45	advmod	_	NER=O
+47-48	לחלוקת	_	_	_	_	_	_	_	NER=O
+47	ל	ל	ADP	ADP	_	48	case	_	_
+48	חלוקת	חלוקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	41	nmod	_	_
+49	אותם	אותו	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|PronType=Prs	50	det	_	NER=O
+50	תקציבים	תקציב	NOUN	NOUN	Gender=Masc|Number=Plur	48	compound	_	NER=O|SpaceAfter=No
+51	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s20
+# text = יותר מזה, גם המבנה עצמו, הקצאת התקנים, דיברנו על כך לא מעט.
+1	יותר	יותר	ADV	ADV	_	14	advmod	_	NER=O
+2-3	מזה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+2	מ	מ	ADP	ADP	_	1	fixed	_	_
+3	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	obl	_	_
+4	,	,	PUNCT	_	_	1	punct	_	NER=O
+5	גם	גם	ADV	ADV	_	7	advmod	_	NER=O
+6-7	המבנה	_	_	_	_	_	_	_	NER=O
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מבנה	מבנה	NOUN	NOUN	Gender=Masc|Number=Sing	14	dislocated	_	_
+8	עצמו	עצמו	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Emp|Reflex=Yes	7	nmod:npmod	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	NER=O
+10	הקצאת	הקצאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	conj	_	NER=O
+11-12	התקנים	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	תקנים	תקן	NOUN	NOUN	Gender=Masc|Number=Plur	10	compound	_	_
+13	,	,	PUNCT	_	_	7	punct	_	NER=O
+14	דיברנו	דיבר	VERB	VERB	HebBinyan=PIEL|Number=Plur|Person=1|Tense=Past|Voice=Act	0	root	_	NER=O
+15	על	על	ADP	ADP	_	16	case	_	NER=O
+16	כך	כך	PRON	PRON	PronType=Dem	14	obl	_	NER=O
+17	לא	לא	ADV	ADV	Polarity=Neg	18	advmod	_	NER=O
+18	מעט	מעט	ADV	ADV	_	14	advmod	_	NER=O|SpaceAfter=No
+19	.	.	PUNCT	_	_	14	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s21
+# text = גם המשימה הזו היא משימה מאוד מורכבת וחשובה, כי גם פה אם מדינת ישראל רוצה להמשיך להיות חוד החנית במחקר, באוניברסיטה ובאמת באיחוד של תארים, נדרש פה פיקוח ובקרה אדוק.
+1	גם	גם	ADV	ADV	_	3	advmod	_	NER=O
+2-3	המשימה	_	_	_	_	_	_	_	NER=O
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	משימה	משימה	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
+4-5	הזו	_	_	_	_	_	_	_	NER=O
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	det	_	_
+6	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	cop	_	NER=O
+7	משימה	משימה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	NER=O
+8	מאוד	מאוד	ADV	ADV	_	9	advmod	_	NER=O
+9	מורכבת	מורכב	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	NER=O
+10-11	וחשובה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+10	ו	ו	CCONJ	X	_	11	cc	_	_
+11	חשובה	חשוב	ADJ	ADJ	Gender=Fem|Number=Sing	9	conj	_	_
+12	,	,	PUNCT	_	_	37	punct	_	NER=O
+13	כי	כי	SCONJ	X	_	37	mark	_	NER=O
+14	גם	גם	ADV	ADV	_	15	advmod	_	NER=O
+15	פה	פה	ADV	ADV	_	37	advmod	_	NER=O
+16	אם	אם	SCONJ	X	_	19	mark	_	NER=O
+17	מדינת	מדינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	19	nsubj	_	NER=O
+18	ישראל	ישראל	PROPN	PROPN	_	17	compound	_	NER=B-LOC
+19	רוצה	רצה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	37	advcl	_	NER=O
+20	להמשיך	המשיך	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	19	xcomp	_	NER=O
+21	להיות	היה	AUX	X	HebBinyan=PAAL|VerbForm=Inf|VerbType=Cop	22	cop	_	NER=O
+22	חוד	חוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	xcomp	_	NER=O
+23-24	החנית	_	_	_	_	_	_	_	NER=O
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	חנית	חנית	NOUN	NOUN	Gender=Fem|Number=Sing	22	compound	_	_
+25-26	במחקר	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+25	ב	ב	ADP	ADP	Definite=Def|PronType=Art	26	case	_	_
+26	מחקר	מחקר	NOUN	NOUN	Gender=Masc|Number=Sing	22	nmod	_	_
+27	,	,	PUNCT	_	_	29	punct	_	NER=O
+28-29	באוניברסיטה	_	_	_	_	_	_	_	NER=O
+28	ב	ב	ADP	ADP	Definite=Def|PronType=Art	29	case	_	_
+29	אוניברסיטה	אוניברסיטה	NOUN	NOUN	Gender=Fem|Number=Sing	26	conj	_	_
+30-31	ובאמת	_	_	_	_	_	_	_	NER=O
+30	ו	ו	CCONJ	X	_	33	cc	_	_
+31	באמת	באמת	ADV	ADV	_	33	advmod	_	_
+32-33	באיחוד	_	_	_	_	_	_	_	NER=O
+32	ב	ב	ADP	ADP	_	33	case	_	_
+33	איחוד	איחוד	NOUN	NOUN	Gender=Masc|Number=Sing	26	conj	_	_
+34	של	של	ADP	ADP	Case=Gen	35	case	_	NER=O
+35	תארים	תואר	NOUN	NOUN	Gender=Masc|Number=Plur	33	nmod:poss	_	NER=O|SpaceAfter=No
+36	,	,	PUNCT	_	_	19	punct	_	NER=O
+37	נדרש	נדרש	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Mid	7	advcl	_	NER=O
+38	פה	פה	ADV	ADV	_	37	advmod	_	NER=O
+39	פיקוח	פיקוח	NOUN	NOUN	Gender=Masc|Number=Sing	37	nsubj	_	NER=O
+40-41	ובקרה	_	_	_	_	_	_	_	NER=O
+40	ו	ו	CCONJ	X	_	41	cc	_	_
+41	בקרה	בקרה	NOUN	NOUN	Gender=Fem|Number=Sing	39	conj	_	_
+42	אדוק	אדוק	ADJ	ADJ	Gender=Fem|Number=Sing|Typo=Yes	41	amod	_	NER=O|SpaceAfter=No
+43	.	.	PUNCT	_	_	7	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u5.p0.s22
+# text = אני אתן לך כמובן גם את זכות הדיבור, בבקשה.
+1	אני	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	אתן	נתן	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Fut|Voice=Act	0	root	_	NER=O
+3-4	לך	_	_	_	_	_	_	_	NER=O
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	2	obl	_	_
+5	כמובן	כמובן	ADV	ADV	_	2	advmod	_	NER=O
+6	גם	גם	ADV	ADV	_	8	advmod	_	NER=O
+7	את	את	ADP	ADP	Case=Acc	8	case	_	NER=O
+8	זכות	זכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obj	_	NER=O
+9-10	הדיבור	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	דיבור	דיבור	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound	_	_
+11	,	,	PUNCT	_	_	13	punct	_	NER=O
+12-13	בבקשה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	בקשה	בקשה	NOUN	NOUN	Gender=Fem|Number=Sing	2	discourse	_	_
+14	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# newdoc id = ParlaMint-IL_2021-12-21-24ptv616837.u6
+# newpar id = ParlaMint-IL_2021-12-21-24ptv616837.u6.p0
+# lang = he
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u6.p0.s0
+# text = תודה רבה לראש הכנסת לחברת הכנסת שרן השכל.
+1	תודה	תודה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	NER=O
+2	רבה	רב	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	NER=O
+3-4	לראש	_	_	_	_	_	_	_	NER=B-MISC
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	nmod	_	_
+5-6	הכנסת	_	_	_	_	_	_	_	NER=I-MISC
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	כנסת	כנסת	PROPN	PROPN	_	4	compound	_	_
+7-8	לחברת	_	_	_	_	_	_	_	NER=B-MISC
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	nmod	_	_
+9-10	הכנסת	_	_	_	_	_	_	_	NER=I-MISC
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	כנסת	כנסת	PROPN	PROPN	_	8	compound	_	_
+11	שרן	שרן	PROPN	PROPN	_	8	appos	_	NER=B-PER
+12	השכל	השכל	PROPN	PROPN	_	11	flat	_	NER=I-PER|SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u6.p0.s1
+# text = ההשכלה הגבוהה בישראל והמחקר הם פאר היצירה בגדול.
+1-2	ההשכלה	_	_	_	_	_	_	_	NER=O
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	השכלה	השכלה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
+3-4	הגבוהה	_	_	_	_	_	_	_	NER=O
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+5-6	בישראל	_	_	_	_	_	_	_	NER=B-LOC
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	ישראל	ישראל	PROPN	PROPN	_	2	nmod	_	_
+7-9	והמחקר	_	_	_	_	_	_	_	NER=O
+7	ו	ו	CCONJ	X	_	9	cc	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מחקר	מחקר	NOUN	NOUN	Gender=Masc|Number=Sing	2	conj	_	_
+10	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	cop	_	NER=O
+11	פאר	פאר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	NER=O
+12-13	היצירה	_	_	_	_	_	_	_	NER=O
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	יצירה	יצירה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound	_	_
+14-15	בגדול	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+14	ב	ב	ADP	ADP	Definite=Def|PronType=Art	15	case	_	_
+15	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	11	nmod	_	_
+16	.	.	PUNCT	_	_	11	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u6.p0.s2
+# text = אנחנו נמצאים בערכת עצומה ויש להם מי שמנהל אותם, מנהל אותם גוף נפרד ברמה הזו המל"ג והות"ת.
+1	אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	נמצאים	נמצא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	NER=O
+3-4	בערכת	_	_	_	_	_	_	_	NER=O
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	ערכת	ערכת	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+5	עצומה	עצום	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	NER=O
+6-7	ויש	_	_	_	_	_	_	_	NER=O
+6	ו	ו	CCONJ	X	_	7	cc	_	_
+7	יש	יש	VERB	VERB	Polarity=Pos	2	conj	_	_
+8-9	להם	_	_	_	_	_	_	_	NER=O
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	obl	_	_
+10	מי	מי	PRON	PRON	PronType=Rel	7	nsubj	_	NER=O
+11-12	שמנהל	_	_	_	_	_	_	_	NER=O
+11	ש	ש	SCONJ	X	_	12	mark	_	_
+12	מנהל	ניהל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	10	acl:relcl	_	_
+13-14	אותם	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+13	אות	את	ADP	ADP	Case=Acc	14	case	_	_
+14	ם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+15	,	,	PUNCT	_	_	16	punct	_	NER=O
+16	מנהל	ניהל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	12	conj	_	NER=O
+17-18	אותם	_	_	_	_	_	_	_	NER=O
+17	אות	את	ADP	ADP	Case=Acc	18	case	_	_
+18	ם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
+19	גוף	גוף	NOUN	NOUN	Gender=Masc|Number=Sing	16	nsubj	_	NER=O
+20	נפרד	נפרד	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	NER=O
+21-22	ברמה	_	_	_	_	_	_	_	NER=O
+21	ב	ב	ADP	ADP	Definite=Def|PronType=Art	22	case	_	_
+22	רמה	רמה	NOUN	NOUN	Gender=Fem|Number=Sing	19	nmod	_	_
+23-24	הזו	_	_	_	_	_	_	_	NER=O
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	22	det	_	_
+25-26	המל"ג	_	_	_	_	_	_	_	NER=B-ORG
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	מל"ג	מל"ג	PROPN	PROPN	Abbr=Yes|Gender=Masc|Number=Sing	19	appos	_	_
+27-28	והות"ת	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+27	ו	ו	CCONJ	X	_	28	cc	_	_
+28	הות"ת	הות"ת	PROPN	PROPN	Abbr=Yes|Gender=Fem|Number=Sing	26	conj	_	_
+29	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u6.p0.s3
+# text = אלו שני גופים שהופרדו כחוק מתוך המערכת הפוליטית, אבל עדיין לרשות המחוקקת תמיד יש לנו רצון לראות מה שקורה בעיקר במוסדות כאלה, שתקציבם מגיע לשלושה עשר מיליארד שקל מתוך המערכת ואינן בתוך המבנה התקציבי של מערכת החינוך.
+1	אלו	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	3	nsubj	_	NER=O
+2	שני	שתיים	NUM	NUM	Gender=Masc	3	nummod	_	NER=O
+3	גופים	גוף	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	NER=O
+4-5	שהופרדו	_	_	_	_	_	_	_	NER=O
+4	ש	ש	SCONJ	X	_	5	mark	_	_
+5	הופרדו	הופרד	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	3	acl:relcl	_	_
+6-7	כחוק	_	_	_	_	_	_	_	NER=O
+6	כ	כ	ADP	ADP	_	7	case	_	_
+7	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+8	מתוך	מתוך	ADP	ADP	_	10	case	_	NER=O
+9-10	המערכת	_	_	_	_	_	_	_	NER=O
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	מערכת	מערכת	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+11-12	הפוליטית	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	פוליטית	פוליטי	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
+13	,	,	PUNCT	_	_	21	punct	_	NER=O
+14	אבל	אבל	CCONJ	X	_	21	cc	_	NER=O
+15	עדיין	עדיין	ADV	ADV	_	21	advmod	_	NER=O
+16-17	לרשות	_	_	_	_	_	_	_	NER=O
+16	ל	ל	ADP	ADP	Definite=Def|PronType=Art	17	case	_	_
+17	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	21	obl	_	_
+18-19	המחוקקת	_	_	_	_	_	_	_	NER=O
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	מחוקקת	מחוקק	ADJ	ADJ	Gender=Fem|Number=Sing	17	amod	_	_
+20	תמיד	תמיד	ADV	ADV	_	21	advmod	_	NER=O
+21	יש	יש	VERB	VERB	Polarity=Pos	3	conj	_	NER=O
+22-23	לנו	_	_	_	_	_	_	_	NER=O
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	נו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	21	obl	_	_
+24	רצון	רצון	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	NER=O
+25	לראות	ראה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	24	acl	_	NER=O
+26	מה	מה	PRON	PRON	PronType=Rel	25	obj	_	NER=O
+27-28	שקורה	_	_	_	_	_	_	_	NER=O
+27	ש	ש	SCONJ	X	_	28	mark	_	_
+28	קורה	קרה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	26	acl:relcl	_	_
+29	בעיקר	בעיקר	ADV	ADV	_	31	advmod	_	NER=O
+30-31	במוסדות	_	_	_	_	_	_	_	NER=O
+30	ב	ב	ADP	ADP	_	31	case	_	_
+31	מוסדות	מוסד	NOUN	NOUN	Gender=Masc|Number=Plur	28	obl	_	_
+32-33	כאלה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+32	כ	כ	ADP	ADP	Definite=Def|PronType=Art	33	case	_	_
+33	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	31	nmod	_	_
+34	,	,	PUNCT	_	_	38	punct	_	NER=O
+35-37	שתקציבם	_	_	_	_	_	_	_	NER=O
+35	ש	ש	SCONJ	X	_	38	mark	_	_
+36	תקציב	תקציב	NOUN	NOUN	Gender=Masc|Number=Sing	38	nsubj	_	_
+37	ם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+38	מגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	31	acl:relcl	_	NER=O
+39-40	לשלושה	_	_	_	_	_	_	_	NER=O
+39	ל	ל	ADP	ADP	_	43	case	_	_
+40	שלושה	שלוש	NUM	NUM	Gender=Masc	42	nummod	_	_
+41	עשר	עשר	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing|NumType=Card	42	nummod	_	NER=O
+42	מיליארד	מיליארד	NUM	NUM	Gender=Masc|Number=Sing	43	nummod	_	NER=O
+43	שקל	שקל	NOUN	NOUN	Gender=Masc|Number=Sing	38	obl	_	NER=O
+44	מתוך	מתוך	ADP	ADP	_	46	case	_	NER=O
+45-46	המערכת	_	_	_	_	_	_	_	NER=O
+45	ה	ה	DET	DET	Definite=Def|PronType=Art	46	det	_	_
+46	מערכת	מערכת	NOUN	NOUN	Gender=Fem|Number=Sing	43	nmod	_	_
+47-48	ואינן	_	_	_	_	_	_	_	NER=O
+47	ו	ו	CCONJ	X	_	51	cc	_	_
+48	אינן	אינו	AUX	X	Gender=Fem|Number=Plur|Person=3|Polarity=Neg|Tense=Pres	51	aux	_	_
+49	בתוך	בתוך	ADP	ADP	_	51	case	_	NER=O
+50-51	המבנה	_	_	_	_	_	_	_	NER=O
+50	ה	ה	DET	DET	Definite=Def|PronType=Art	51	det	_	_
+51	מבנה	מבנה	NOUN	NOUN	Gender=Masc|Number=Sing	38	conj	_	_
+52-53	התקציבי	_	_	_	_	_	_	_	NER=O
+52	ה	ה	DET	DET	Definite=Def|PronType=Art	53	det	_	_
+53	תקציבי	תקציבי	ADJ	ADJ	Gender=Masc|Number=Sing	51	amod	_	_
+54	של	של	ADP	ADP	Case=Gen	55	case	_	NER=O
+55	מערכת	מערכת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	51	nmod:poss	_	NER=O
+56-57	החינוך	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+56	ה	ה	DET	DET	Definite=Def|PronType=Art	57	det	_	_
+57	חינוך	חינוך	NOUN	NOUN	Gender=Masc|Number=Sing	55	compound	_	_
+58	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u6.p0.s4
+# text = אנחנו נעשה זאת, כמובן, בשיתוף פעולה אדוק עם המוסדות הקיימים.
+1	אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	נעשה	נעשה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Fut|Voice=Act	0	root	_	NER=O
+3	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	obj	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	NER=O
+5	כמובן	כמובן	ADV	ADV	_	2	advmod	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	NER=O
+7-8	בשיתוף	_	_	_	_	_	_	_	NER=O
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	שיתוף	שיתוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obl	_	_
+9	פעולה	פעולה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound	_	NER=O
+10	אדוק	אדוק	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	NER=O
+11	עם	עם	ADP	ADP	_	13	case	_	NER=O
+12-13	המוסדות	_	_	_	_	_	_	_	NER=O
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	מוסדות	מוסד	NOUN	NOUN	Gender=Masc|Number=Plur	8	nmod	_	_
+14-15	הקיימים	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	קיימים	קיים	ADJ	ADJ	Gender=Masc|Number=Plur	13	amod	_	_
+16	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u6.p0.s5
+# text = בסך הכל, אנחנו באים לתרום, לראות ולהציע הצעות איך לשפר.
+1-2	בסך	_	_	_	_	_	_	_	NER=O
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	סך	סך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obl	_	_
+3-4	הכל	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	כל	כול	NOUN	NOUN	PronType=Tot	2	compound	_	_
+5	,	,	PUNCT	_	_	2	punct	_	NER=O
+6	אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	NER=O
+7	באים	בא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+8	לתרום	תרם	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	7	xcomp	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	NER=O
+10	לראות	ראה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	8	conj	_	NER=O
+11-12	ולהציע	_	_	_	_	_	_	_	NER=O
+11	ו	ו	CCONJ	X	_	12	cc	_	_
+12	להציע	הציע	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	8	conj	_	_
+13	הצעות	הצעה	NOUN	NOUN	Gender=Fem|Number=Plur	12	obj	_	NER=O
+14	איך	איך	ADV	ADV	PronType=Int	15	advmod	_	NER=O
+15	לשפר	שיפר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	13	acl	_	NER=O|SpaceAfter=No
+16	.	.	PUNCT	_	_	7	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u6.p0.s6
+# text = כשלוש מאות אלף תלמידים ותלמידות היום נמצאים במערכת ההשכלה הגבוהה בישראל מכל המגזרים, והוקמו המון המון מכללות ויש הפרדה בין אוניברסיטאות מחקר ואוניברסיטאות פרטיות כרגע.
+1-2	כשלוש	_	_	_	_	_	_	_	NER=O
+1	כ	כ	ADV	ADV	_	2	advmod	_	_
+2	שלוש	שלוש	NUM	NUM	Gender=Fem|Number=Sing|NumType=Card	4	nummod	_	_
+3	מאות	מאה	NUM	NUM	Gender=Fem|Number=Plur|NumType=Card	4	nummod	_	NER=O
+4	אלף	אלף	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	5	nummod	_	NER=O
+5	תלמידים	תלמיד	NOUN	NOUN	Gender=Masc|Number=Plur	9	nsubj	_	NER=O
+6-7	ותלמידות	_	_	_	_	_	_	_	NER=O
+6	ו	ו	CCONJ	X	_	7	cc	_	_
+7	תלמידות	תלמידה	NOUN	NOUN	Gender=Fem|Number=Plur	5	conj	_	_
+8	היום	היום	ADV	ADV	_	5	advmod	_	NER=O
+9	נמצאים	נמצא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	NER=O
+10-11	במערכת	_	_	_	_	_	_	_	NER=O
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	מערכת	מערכת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	obl	_	_
+12-13	ההשכלה	_	_	_	_	_	_	_	NER=O
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	השכלה	השכלה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound	_	_
+14-15	הגבוהה	_	_	_	_	_	_	_	NER=O
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	11	amod	_	_
+16-17	בישראל	_	_	_	_	_	_	_	NER=B-LOC
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	ישראל	ישראל	PROPN	PROPN	_	11	nmod	_	_
+18-19	מכל	_	_	_	_	_	_	_	NER=O
+18	מ	מ	ADP	ADP	_	21	case	_	_
+19	כל	כול	DET	DET	Definite=Cons	21	det	_	_
+20-21	המגזרים	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	מגזרים	מגזר	NOUN	NOUN	Gender=Masc|Number=Plur	11	nmod	_	_
+22	,	,	PUNCT	_	_	24	punct	_	NER=O
+23-24	והוקמו	_	_	_	_	_	_	_	NER=O
+23	ו	ו	CCONJ	X	_	24	cc	_	_
+24	הוקמו	הוקם	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	9	conj	_	_
+25	המון	המון	DET	DET	Definite=Cons	27	det	_	NER=O
+26	המון	המון	DET	DET	Definite=Cons	27	det	_	NER=O
+27	מכללות	מכללה	NOUN	NOUN	Gender=Fem|Number=Plur	24	nsubj:pass	_	NER=O
+28-29	ויש	_	_	_	_	_	_	_	NER=O
+28	ו	ו	CCONJ	X	_	29	cc	_	_
+29	יש	יש	VERB	VERB	Polarity=Pos	24	conj	_	_
+30	הפרדה	הפרדה	NOUN	NOUN	Gender=Fem|Number=Sing	29	nsubj	_	NER=O
+31	בין	בין	ADP	ADP	_	32	case	_	NER=O
+32	אוניברסיטאות	אוניברסיטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	30	nmod	_	NER=O
+33	מחקר	מחקר	NOUN	NOUN	Gender=Masc|Number=Sing	32	compound	_	NER=O
+34-35	ואוניברסיטאות	_	_	_	_	_	_	_	NER=O
+34	ו	ו	CCONJ	X	_	35	cc	_	_
+35	אוניברסיטאות	אוניברסיטה	NOUN	NOUN	Gender=Fem|Number=Plur	32	conj	_	_
+36	פרטיות	פרטי	ADJ	ADJ	Gender=Fem|Number=Plur	35	amod	_	NER=O
+37	כרגע	כרגע	ADV	ADV	_	35	advmod	_	NER=O|SpaceAfter=No
+38	.	.	PUNCT	_	_	9	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u6.p0.s7
+# text = דברים גדולים מאוד שהתחוללו בישראל בגלל השינוי הדמוגרפי וצמיחתה העצומה של המדינה.
+1	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	NER=O
+2	גדולים	גדול	ADJ	ADJ	Gender=Masc|Number=Plur	1	amod	_	NER=O
+3	מאוד	מאוד	ADV	ADV	_	2	advmod	_	NER=O
+4-5	שהתחוללו	_	_	_	_	_	_	_	NER=O
+4	ש	ש	SCONJ	X	_	5	mark	_	_
+5	התחוללו	התחולל	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past|Voice=Mid	1	acl:relcl	_	_
+6-7	בישראל	_	_	_	_	_	_	_	NER=B-LOC
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	ישראל	ישראל	PROPN	PROPN	_	5	obl	_	_
+8	בגלל	בגלל	ADP	ADP	_	10	case	_	NER=O
+9-10	השינוי	_	_	_	_	_	_	_	NER=O
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	שינוי	שינוי	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+11-12	הדמוגרפי	_	_	_	_	_	_	_	NER=O
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	דמוגרפי	דמוגרפי	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
+13-15	וצמיחתה	_	_	_	_	_	_	_	NER=O
+13	ו	ו	CCONJ	X	_	14	cc	_	_
+14	צמיחת	צמיחה	NOUN	NOUN	Gender=Fem|Number=Sing	10	conj	_	_
+15	ה	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+16-17	העצומה	_	_	_	_	_	_	_	NER=O
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	עצומה	עצום	ADJ	ADJ	Gender=Fem|Number=Sing	14	amod	_	_
+18	של	של	ADP	ADP	Case=Gen	20	case	_	NER=O
+19-20	המדינה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod:poss	_	_
+21	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u6.p0.s8
+# text = לכן זה אתגר באמת גדול, ואני מודה לך על האמון גם.
+1	לכן	לכן	ADV	ADV	_	3	advmod	_	NER=O
+2	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	NER=O
+3	אתגר	אתגר	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	NER=O
+4	באמת	באמת	ADV	ADV	_	5	advmod	_	NER=O
+5	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	NER=O
+7-8	ואני	_	_	_	_	_	_	_	NER=O
+7	ו	ו	CCONJ	X	_	9	cc	_	_
+8	אני	הוא	PRON	PRON	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	מודה	הודה	VERB	VERB	HebBinyan=HIFIL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	3	conj	_	NER=O
+10-11	לך	_	_	_	_	_	_	_	NER=O
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	9	obl	_	_
+12	על	על	ADP	ADP	_	14	case	_	NER=O
+13-14	האמון	_	_	_	_	_	_	_	NER=O
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	אמון	אמון	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+15	גם	גם	ADV	ADV	_	9	advmod	_	NER=O|SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u6.p0.s9
+# text = אני חושב שאנחנו נוכל פה לעלות גם בפנייך, בפני ועדת החינוך של הכנסת, דברים שחשובים לנו להבין.
+1	אני	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	חושב	חשב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+3-4	שאנחנו	_	_	_	_	_	_	_	NER=O
+3	ש	ש	SCONJ	X	_	7	mark	_	_
+4	אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+5	נוכל	יכול	AUX	X	Gender=Masc|Number=Plur|Person=1|Tense=Fut|VerbType=Mod	7	aux	_	NER=O
+6	פה	פה	ADV	ADV	_	7	advmod	_	NER=O
+7	לעלות	עלה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	2	ccomp	_	NER=O
+8	גם	גם	ADV	ADV	_	10	advmod	_	NER=O
+9-10	בפנייך	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	פנייך	פנייך	NOUN	NOUN	Gender=Fem|Number=Plur	7	obl	_	_
+11	,	,	PUNCT	_	_	13	punct	_	NER=O
+12	בפני	בפני	ADP	ADP	_	13	case	_	NER=O
+13	ועדת	ועדה	PROPN	PROPN	Definite=Cons	7	obl	_	NER=O
+14-15	החינוך	_	_	_	_	_	_	_	NER=O
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	חינוך	חינוך	PROPN	PROPN	_	13	compound	_	_
+16	של	של	ADP	ADP	Case=Gen	18	case	_	NER=O
+17-18	הכנסת	_	_	_	_	_	_	_	NER=B-ORG|SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	כנסת	כנסת	PROPN	PROPN	_	13	nmod:poss	_	_
+19	,	,	PUNCT	_	_	20	punct	_	NER=O
+20	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	7	obj	_	NER=O
+21-22	שחשובים	_	_	_	_	_	_	_	NER=O
+21	ש	ש	SCONJ	X	_	22	mark	_	_
+22	חשובים	חשוב	ADJ	ADJ	Gender=Masc|Number=Plur	20	acl:relcl	_	_
+23-24	לנו	_	_	_	_	_	_	_	NER=O
+23	ל	ל	ADP	ADP	_	24	case	_	_
+24	נו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	22	obl	_	_
+25	להבין	הבין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	22	xcomp	_	NER=O|SpaceAfter=No
+26	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u6.p0.s10
+# text = זאת כיוון שיש המשכיות בין מערכות ההשכלה שבהן אנחנו בדרך כלל עוסקים בבתי הספר היסודיים ובגנים, וכמובן במערכת התיכונית לבין ההמשך להשכלה גבוהה בכל הרבדים, לרבות בנושאים שדיברתם עליהם.
+1	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	0	root	_	NER=O
+2	כיוון	כיוון	SCONJ	X	_	4	mark	_	NER=O
+3-4	שיש	_	_	_	_	_	_	_	NER=O
+3	ש	ש	SCONJ	X	_	2	fixed	_	_
+4	יש	יש	VERB	VERB	Polarity=Pos	1	advcl	_	_
+5	המשכיות	המשכיות	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	NER=O
+6	בין	בין	ADP	ADP	_	7	case	_	NER=O
+7	מערכות	מערכת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	5	nmod	_	NER=O
+8-9	ההשכלה	_	_	_	_	_	_	_	NER=O
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	השכלה	השכלה	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound	_	_
+10-12	שבהן	_	_	_	_	_	_	_	NER=O
+10	ש	ש	SCONJ	X	_	17	mark	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	17	obl	_	_
+13	אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	NER=O
+14-15	בדרך	_	_	_	_	_	_	_	NER=O
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	דרך	דרך	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	17	obl	_	_
+16	כלל	כלל	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound	_	NER=O
+17	עוסקים	עסק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	7	acl:relcl	_	NER=O
+18-19	בבתי	_	_	_	_	_	_	_	NER=O
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	obl	_	_
+20-21	הספר	_	_	_	_	_	_	_	NER=O
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	ספר	ספר	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound	_	_
+22-23	היסודיים	_	_	_	_	_	_	_	NER=O
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	יסודיים	יסודי	ADJ	ADJ	Gender=Masc|Number=Plur	19	amod	_	_
+24-26	ובגנים	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+24	ו	ו	CCONJ	X	_	26	cc	_	_
+25	ב	ב	ADP	ADP	Definite=Def|PronType=Art	26	case	_	_
+26	גנים	גן	NOUN	NOUN	Gender=Masc|Number=Plur	19	conj	_	_
+27	,	,	PUNCT	_	_	31	punct	_	NER=O
+28-29	וכמובן	_	_	_	_	_	_	_	NER=O
+28	ו	ו	CCONJ	X	_	31	cc	_	_
+29	כמובן	כמובן	ADV	ADV	_	31	advmod	_	_
+30-31	במערכת	_	_	_	_	_	_	_	NER=O
+30	ב	ב	ADP	ADP	Definite=Def|PronType=Art	31	case	_	_
+31	מערכת	מערכת	NOUN	NOUN	Gender=Fem|Number=Sing	19	conj	_	_
+32-33	התיכונית	_	_	_	_	_	_	_	NER=O
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	תיכונית	תיכוני	ADJ	ADJ	Gender=Fem|Number=Sing	31	amod	_	_
+34	לבין	לבין	ADP	ADP	_	36	case	_	NER=O
+35-36	ההמשך	_	_	_	_	_	_	_	NER=O
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	המשך	המשך	NOUN	NOUN	Gender=Masc|Number=Sing	7	conj	_	_
+37-38	להשכלה	_	_	_	_	_	_	_	NER=O
+37	ל	ל	ADP	ADP	_	38	case	_	_
+38	השכלה	השכלה	NOUN	NOUN	Gender=Fem|Number=Sing	36	nmod	_	_
+39	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	38	amod	_	NER=O
+40-41	בכל	_	_	_	_	_	_	_	NER=O
+40	ב	ב	ADP	ADP	_	43	case	_	_
+41	כל	כול	DET	DET	Definite=Cons	43	det	_	_
+42-43	הרבדים	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+42	ה	ה	DET	DET	Definite=Def|PronType=Art	43	det	_	_
+43	רבדים	רובד	NOUN	NOUN	Gender=Masc|Number=Plur	38	nmod	_	_
+44	,	,	PUNCT	_	_	47	punct	_	NER=O
+45	לרבות	ריבה	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	47	case	_	NER=O
+46-47	בנושאים	_	_	_	_	_	_	_	NER=O
+46	ב	ב	ADP	ADP	Definite=Def|PronType=Art	47	case	_	_
+47	נושאים	נושא	NOUN	NOUN	Gender=Masc|Number=Plur	36	nmod	_	_
+48-49	שדיברתם	_	_	_	_	_	_	_	NER=O
+48	ש	ש	SCONJ	X	_	49	mark	_	_
+49	דיברתם	דיברתם	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=2|Tense=Past|Voice=Act	47	acl:relcl	_	_
+50-51	עליהם	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+50	עלי	על	ADP	ADP	_	51	case	_	_
+51	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	49	obl	_	_
+52	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u6.p0.s11
+# text = ועכשיו, השכלה חרדית גבוהה, למשל, לגבי כמובן נושא הערבים בהשכלה הגבוהה ועוד כהנה וכהנה.
+1-2	ועכשיו	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+1	ו	ו	CCONJ	X	_	4	cc	_	_
+2	עכשיו	עכשיו	ADV	ADV	_	4	advmod	_	_
+3	,	,	PUNCT	_	_	2	punct	_	NER=O
+4	השכלה	השכלה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	NER=O
+5	חרדית	חרדי	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	NER=O
+6	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	NER=O
+8	למשל	למשל	ADV	ADV	_	4	advmod	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	NER=O
+10	לגבי	לגבי	ADP	ADP	_	12	case	_	NER=O
+11	כמובן	כמובן	ADV	ADV	_	12	advmod	_	NER=O
+12	נושא	נושא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nmod	_	NER=O
+13-14	הערבים	_	_	_	_	_	_	_	NER=O
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	ערבים	ערבי	NOUN	NOUN	Gender=Masc|Number=Plur	12	compound	_	_
+15-16	בהשכלה	_	_	_	_	_	_	_	NER=O
+15	ב	ב	ADP	ADP	Definite=Def|PronType=Art	16	case	_	_
+16	השכלה	השכלה	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod	_	_
+17-18	הגבוהה	_	_	_	_	_	_	_	NER=O
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	_
+19-20	ועוד	_	_	_	_	_	_	_	NER=O
+19	ו	ו	CCONJ	X	_	21	cc	_	_
+20	עוד	עוד	DET	DET	_	21	advmod	_	_
+21	כהנה	כהנה	ADV	ADV	_	4	conj	_	NER=O
+22-23	וכהנה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+22	ו	ו	CCONJ	X	_	23	cc	_	_
+23	כהנה	כהנה	ADV	ADV	_	21	conj	_	_
+24	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u6.p0.s12
+# text = אני בהכנעה, באמת כמו שאמר חברי טור פז, אני לוקח עליי את המשימה הזאת בתקווה באמת לעבוד עם כל הגורמים.
+1	אני	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	NER=O
+2-3	בהכנעה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+2	ב	ב	ADP	ADP	_	3	case	_	_
+3	הכנעה	הכנעה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+4	,	,	PUNCT	_	_	8	punct	_	NER=O
+5	באמת	באמת	ADV	ADV	_	8	advmod	_	NER=O
+6	כמו	כמו	ADP	ADP	_	8	mark	_	NER=O
+7-8	שאמר	_	_	_	_	_	_	_	NER=O
+7	ש	ש	SCONJ	X	_	6	fixed	_	_
+8	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	14	advcl	_	_
+9-10	חברי	_	_	_	_	_	_	_	NER=O
+9	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
+10	י	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+11	טור פז	טור פז	PROPN	PROPN	_	9	appos	_	NER=B-PER|SpaceAfter=No
+12	,	,	PUNCT	_	_	8	punct	_	NER=O
+13	אני	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	NER=O
+14	לוקח	לקח	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	3	parataxis	_	NER=O
+15-16	עליי	_	_	_	_	_	_	_	NER=O
+15	עלי	על	ADP	ADP	_	16	case	_	_
+16	י	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=1|PronType=Prs	14	obl	_	_
+17	את	את	ADP	ADP	Case=Acc	19	case	_	NER=O
+18-19	המשימה	_	_	_	_	_	_	_	NER=O
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	משימה	משימה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obj	_	_
+20-21	הזאת	_	_	_	_	_	_	_	NER=O
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	19	det	_	_
+22-23	בתקווה	_	_	_	_	_	_	_	NER=O
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	תקווה	תקווה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+24	באמת	באמת	ADV	ADV	_	25	advmod	_	NER=O
+25	לעבוד	עבד	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	23	acl	_	NER=O
+26	עם	עם	ADP	ADP	_	29	case	_	NER=O
+27	כל	כול	DET	DET	Definite=Cons	29	det	_	NER=O
+28-29	הגורמים	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	גורמים	גורם	NOUN	NOUN	Gender=Masc|Number=Plur	25	obl	_	_
+30	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u6.p0.s13
+# text = לאחרונה מונה יושב ראש ות"ת חדש פרופסור יוסי מקורי, שאני רוצה לברך אותו כבר עכשיו שניתן לו לעבוד.
+1	לאחרונה	לאחרונה	ADV	ADV	_	2	advmod	_	NER=O
+2	מונה	מונה	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	NER=O
+3	יושב	יושב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	nsubj:pass	_	NER=O
+4	ראש	ראש	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound	_	NER=O
+5-6	ות"ת	_	_	_	_	_	_	_	NER=O
+5	ו	ו	CCONJ	X	_	6	cc	_	_
+6	ת"ת	ת"ת	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	3	conj	_	_
+7	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	NER=O
+8	פרופסור	פרופסור	PROPN	PROPN	_	3	appos	_	NER=B-MISC
+9	יוסי	יוסי	PROPN	PROPN	_	8	flat	_	NER=B-PER
+10	מקורי	מקורי	PROPN	PROPN	_	8	flat	_	NER=I-PER|SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	NER=O
+12-13	שאני	_	_	_	_	_	_	_	NER=O
+12	ש	ש	SCONJ	X	_	14	mark	_	_
+13	אני	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	רוצה	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	8	acl:relcl	_	NER=O
+15	לברך	בירך	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	14	xcomp	_	NER=O
+16-17	אותו	_	_	_	_	_	_	_	NER=O
+16	אות	את	ADP	ADP	Case=Acc	17	case	_	_
+17	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+18	כבר	כבר	ADV	ADV	_	19	advmod	_	NER=O
+19	עכשיו	עכשיו	ADV	ADV	_	14	advmod	_	NER=O
+20-21	שניתן	_	_	_	_	_	_	_	NER=O
+20	ש	ש	SCONJ	X	_	21	mark	_	_
+21	ניתן	ניתן	VERB	VERB	Gender=Masc|Number=Sing	19	acl:relcl	_	_
+22-23	לו	_	_	_	_	_	_	_	NER=O
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
+24	לעבוד	עבד	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	21	csubj	_	NER=O|SpaceAfter=No
+25	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u6.p0.s14
+# text = אנחנו כעזר כנגדם, אנחנו לא מחליפים אף אחד בתוך זה, שיהיה ברור, אלא באמת באים כרשות מחוקקת לנסות ולסייע לתוך המערכות האלה, ככה אני רואה את המנדט הזה.
+1	אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	NER=O
+2-3	כעזר	_	_	_	_	_	_	_	NER=O
+2	כ	כ	ADP	ADP	_	3	case	_	_
+3	עזר	עזר	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+4-5	כנגדם	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+4	כנגד	כנגד	ADP	ADP	_	5	case	_	_
+5	ם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nmod	_	_
+6	,	,	PUNCT	_	_	9	punct	_	NER=O
+7	אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	NER=O
+8	לא	לא	ADV	ADV	Polarity=Neg	9	advmod	_	NER=O
+9	מחליפים	החליף	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	3	parataxis	_	NER=O
+10	אף	אף	DET	DET	Definite=Cons	11	det	_	NER=O
+11	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	9	obj	_	NER=O
+12	בתוך	בתוך	ADP	ADP	_	13	case	_	NER=O
+13	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	obl	_	NER=O|SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	NER=O
+15-16	שיהיה	_	_	_	_	_	_	_	NER=O
+15	ש	ש	SCONJ	X	_	17	mark	_	_
+16	יהיה	היה	AUX	X	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|VerbType=Cop	17	cop	_	_
+17	ברור	ברור	ADJ	ADJ	Gender=Masc|Number=Sing	13	acl:relcl	_	NER=O|SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	NER=O
+19	אלא	אלא	CCONJ	X	_	21	cc	_	NER=O
+20	באמת	באמת	ADV	ADV	_	21	advmod	_	NER=O
+21	באים	בא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	9	conj	_	NER=O
+22-23	כרשות	_	_	_	_	_	_	_	NER=O
+22	כ	כ	ADP	ADP	_	23	case	_	_
+23	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	21	obl	_	_
+24	מחוקקת	מחוקק	ADJ	ADJ	Gender=Fem|Number=Sing	23	amod	_	NER=O
+25	לנסות	ניסה	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	21	xcomp	_	NER=O
+26-27	ולסייע	_	_	_	_	_	_	_	NER=O
+26	ו	ו	CCONJ	X	_	27	cc	_	_
+27	לסייע	סייע	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	25	conj	_	_
+28	לתוך	לתוך	ADP	ADP	_	30	case	_	NER=O
+29-30	המערכות	_	_	_	_	_	_	_	NER=O
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	מערכות	מערכת	NOUN	NOUN	Gender=Fem|Number=Plur	27	obl	_	_
+31-32	האלה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	30	det	_	_
+33	,	,	PUNCT	_	_	36	punct	_	NER=O
+34	ככה	ככה	ADV	ADV	_	36	advmod	_	NER=O
+35	אני	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	NER=O
+36	רואה	ראה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	21	parataxis	_	NER=O
+37	את	את	ADP	ADP	Case=Acc	39	case	_	NER=O
+38-39	המנדט	_	_	_	_	_	_	_	NER=O
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	מנדט	מנדט	NOUN	NOUN	Gender=Masc|Number=Sing	36	obj	_	_
+40-41	הזה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
+41	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	39	det	_	_
+42	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u6.p0.s15
+# text = כמי שבא מתוך האקדמיה אחרי עשורים רבים של חברות באקדמיה, כולל חבר ות"ת, אני כמובן אתרום כמיטב יכולתי.
+1-2	כמי	_	_	_	_	_	_	_	NER=O
+1	כ	כ	ADP	ADP	_	2	case	_	_
+2	מי	מי	PRON	PRON	PronType=Rel	23	obl	_	_
+3-4	שבא	_	_	_	_	_	_	_	NER=O
+3	ש	ש	SCONJ	X	_	4	mark	_	_
+4	בא	בא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	_
+5	מתוך	מתוך	ADP	ADP	_	7	case	_	NER=O
+6-7	האקדמיה	_	_	_	_	_	_	_	NER=O
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	אקדמיה	אקדמיה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+8	אחרי	אחרי	ADP	ADP	_	9	case	_	NER=O
+9	עשורים	עשור	NOUN	NOUN	Gender=Masc|Number=Plur	4	obl	_	NER=O
+10	רבים	רב	ADJ	ADJ	Gender=Masc|Number=Plur	9	amod	_	NER=O
+11	של	של	ADP	ADP	Case=Gen	12	case	_	NER=O
+12	חברות	חברה	NOUN	NOUN	Gender=Fem|Number=Plur	9	nmod:poss	_	NER=O
+13-14	באקדמיה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+13	ב	ב	ADP	ADP	Definite=Def|PronType=Art	14	case	_	_
+14	אקדמיה	אקדמיה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nmod	_	_
+15	,	,	PUNCT	_	_	17	punct	_	NER=O
+16	כולל	כלל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	17	case	_	NER=O
+17	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Sing	12	nmod	_	NER=O
+18-19	ות"ת	_	_	_	_	_	_	_	NER=B-ORG|SpaceAfter=No
+18	ו	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	cc	_	_
+19	ת"ת	ת"ת	PROPN	PROPN	Abbr=Yes	17	conj	_	_
+20	,	,	PUNCT	_	_	2	punct	_	NER=O
+21	אני	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	NER=O
+22	כמובן	כמובן	ADV	ADV	_	23	advmod	_	NER=O
+23	אתרום	אתרום	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1|Tense=Fut|Voice=Act	0	root	_	NER=O
+24-25	כמיטב	_	_	_	_	_	_	_	NER=O
+24	כ	כ	ADP	ADP	_	25	case	_	_
+25	מיטב	מיטב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	23	obl	_	_
+26-27	יכולתי	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+26	יכולת	יכולת	NOUN	NOUN	Gender=Fem|Number=Sing	25	compound	_	_
+27	י	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+28	.	.	PUNCT	_	_	23	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u6.p0.s16
+# text = אז אני מאוד מאוד לך על האמון שאת נותנת בנו, ואנחנו כמובן נשתף את כל החברים כאן במה שאנחנו עושים.
+1	אז	אז	ADV	ADV	_	6	advmod	_	NER=O
+2	אני	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	NER=O
+3	מאוד	מאוד	ADV	ADV	_	6	advmod	_	NER=O
+4	מאוד	מאוד	ADV	ADV	_	6	advmod	_	NER=O
+5-6	לך	_	_	_	_	_	_	_	NER=O
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	0	root	_	_
+7	על	על	ADP	ADP	_	9	case	_	NER=O
+8-9	האמון	_	_	_	_	_	_	_	NER=O
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	אמון	אמון	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+10-11	שאת	_	_	_	_	_	_	_	NER=O
+10	ש	ש	SCONJ	X	_	12	mark	_	_
+11	את	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=2|PronType=Prs	12	nsubj	_	_
+12	נותנת	נתן	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=2|Tense=Past|Voice=Act	9	acl:relcl	_	NER=O
+13-14	בנו	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+13	בנ	בן	NOUN	NOUN	Gender=Masc|Number=Sing	12	obj	_	_
+14	ו	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+15	,	,	PUNCT	_	_	19	punct	_	NER=O
+16-17	ואנחנו	_	_	_	_	_	_	_	NER=O
+16	ו	ו	CCONJ	X	_	19	cc	_	_
+17	אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+18	כמובן	כמובן	ADV	ADV	_	19	advmod	_	NER=O
+19	נשתף	שיתף	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1|Tense=Fut|Voice=Act	6	conj	_	NER=O
+20	את	את	ADP	ADP	Case=Acc	23	case	_	NER=O
+21	כל	כול	DET	DET	Definite=Cons	23	det	_	NER=O
+22-23	החברים	_	_	_	_	_	_	_	NER=O
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	חברים	חבר	NOUN	NOUN	Gender=Masc|Number=Plur	19	obj	_	_
+24	כאן	כאן	ADV	ADV	_	19	advmod	_	NER=O
+25-26	במה	_	_	_	_	_	_	_	NER=O
+25	ב	ב	ADP	ADP	_	26	case	_	_
+26	מה	מה	PRON	PRON	PronType=Rel	19	obl	_	_
+27-28	שאנחנו	_	_	_	_	_	_	_	NER=O
+27	ש	ש	SCONJ	X	_	29	mark	_	_
+28	אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	29	nsubj	_	_
+29	עושים	עשה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	26	acl:relcl	_	NER=O|SpaceAfter=No
+30	.	.	PUNCT	_	_	6	punct	_	NER=O
+
+# newdoc id = ParlaMint-IL_2021-12-21-24ptv616837.u7
+# newpar id = ParlaMint-IL_2021-12-21-24ptv616837.u7.p0
+# lang = he
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u7.p0.s0
+# text = נהדר.
+1	נהדר	נהדר	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u7.p0.s1
+# text = תודה רבה על הדברים ואני אעלה את ההצעה להצבעה.
+1	תודה	תודה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	NER=O
+2	רבה	רב	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	NER=O
+3	על	על	ADP	ADP	_	5	case	_	NER=O
+4-5	הדברים	_	_	_	_	_	_	_	NER=O
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	1	nmod	_	_
+6-7	ואני	_	_	_	_	_	_	_	NER=O
+6	ו	ו	CCONJ	X	_	8	cc	_	_
+7	אני	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	אעלה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Fut|Voice=Act	1	conj	_	NER=O
+9	את	את	ADP	ADP	Case=Acc	11	case	_	NER=O
+10-11	ההצעה	_	_	_	_	_	_	_	NER=O
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	הצעה	הצעה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obj	_	_
+12-13	להצבעה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	הצבעה	הצבעה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
+14	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u7.p0.s2
+# text = הצבעה אושר
+1	הצבעה	הצבעה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	NER=O
+2	אושר	אושר	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound	_	NER=O
+
+# newdoc id = ParlaMint-IL_2021-12-21-24ptv616837.u8
+# newpar id = ParlaMint-IL_2021-12-21-24ptv616837.u8.p0
+# lang = he
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u8.p0.s0
+# text = ההצבעה עברה פה אחד.
+1-2	ההצבעה	_	_	_	_	_	_	_	NER=O
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	הצבעה	הצבעה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	עברה	עבר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	NER=O
+4	פה	פה	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl:npmod	_	NER=O
+5	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	4	nummod	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u8.p0.s1
+# text = המון בהצלחה ליושבי הראש ועדת המשנה החדשים.
+1	המון	המון	DET	DET	_	2	advmod	_	NER=O
+2	בהצלחה	בהצלחה	INTJ	X	_	0	root	_	NER=O
+3-4	ליושבי	_	_	_	_	_	_	_	NER=O
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	יושבי	יושב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	2	nmod	_	_
+5-6	הראש	_	_	_	_	_	_	_	NER=O
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	ראש	ראש	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound	_	_
+7	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	compound	_	NER=O
+8-9	המשנה	_	_	_	_	_	_	_	NER=O
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	משנה	משנה	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound	_	_
+10-11	החדשים	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	חדשים	חדש	ADJ	ADJ	Gender=Masc|Number=Plur	4	amod	_	_
+12	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# newdoc id = ParlaMint-IL_2021-12-21-24ptv616837.u9
+# newpar id = ParlaMint-IL_2021-12-21-24ptv616837.u9.p0
+# lang = he
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u9.p0.s0
+# text = אחד הדברים הנפלאים שקרו לי בכנסת זה לפגוש אנשים באמת מקסימים, שרוצים באמת לתת מהידע שלהם, מהניסיון שלהם בתחומים שלהם למען החברה הישראלית.
+1	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	13	nsubj	_	NER=O
+2-3	הדברים	_	_	_	_	_	_	_	NER=O
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	1	compound	_	_
+4-5	הנפלאים	_	_	_	_	_	_	_	NER=O
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	נפלאים	נפלא	ADJ	ADJ	Gender=Masc|Number=Plur	3	amod	_	_
+6-7	שקרו	_	_	_	_	_	_	_	NER=O
+6	ש	ש	SCONJ	X	_	7	mark	_	_
+7	קרו	קרה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	3	acl:relcl	_	_
+8-9	לי	_	_	_	_	_	_	_	NER=O
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	י	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+10-11	בכנסת	_	_	_	_	_	_	_	NER=B-ORG
+10	ב	ב	ADP	ADP	Definite=Def|PronType=Art	11	case	_	_
+11	כנסת	כנסת	PROPN	PROPN	_	7	obl	_	_
+12	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	cop	_	NER=O
+13	לפגוש	פגש	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	NER=O
+14	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	13	obj	_	NER=O
+15	באמת	באמת	ADV	ADV	_	16	advmod	_	NER=O
+16	מקסימים	מקסים	ADJ	ADJ	Gender=Masc|Number=Plur	14	amod	_	NER=O|SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	NER=O
+18-19	שרוצים	_	_	_	_	_	_	_	NER=O
+18	ש	ש	SCONJ	X	_	19	mark	_	_
+19	רוצים	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	14	acl:relcl	_	_
+20	באמת	באמת	ADV	ADV	_	19	advmod	_	NER=O
+21	לתת	נתן	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	19	xcomp	_	NER=O
+22-24	מהידע	_	_	_	_	_	_	_	NER=O
+22	מ	מ	ADP	ADP	_	24	case	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	ידע	ידע	NOUN	NOUN	Gender=Masc|Number=Sing	21	obl	_	_
+25-26	שלהם	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+25	של	של	ADP	ADP	Case=Gen	26	case	_	_
+26	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	nmod:poss	_	_
+27	,	,	PUNCT	_	_	30	punct	_	NER=O
+28-30	מהניסיון	_	_	_	_	_	_	_	NER=O
+28	מ	מ	ADP	ADP	_	30	case	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	ניסיון	ניסיון	NOUN	NOUN	Gender=Masc|Number=Sing	24	conj	_	_
+31-32	שלהם	_	_	_	_	_	_	_	NER=O
+31	של	של	ADP	ADP	Case=Gen	32	case	_	_
+32	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	nmod:poss	_	_
+33-34	בתחומים	_	_	_	_	_	_	_	NER=O
+33	ב	ב	ADP	ADP	Definite=Def|PronType=Art	34	case	_	_
+34	תחומים	תחום	NOUN	NOUN	Gender=Masc|Number=Plur	30	nmod	_	_
+35-36	שלהם	_	_	_	_	_	_	_	NER=O
+35	של	של	ADP	ADP	Case=Gen	36	case	_	_
+36	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	34	nmod:poss	_	_
+37	למען	למען	ADP	ADP	_	39	case	_	NER=O
+38-39	החברה	_	_	_	_	_	_	_	NER=O
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	30	nmod	_	_
+40-41	הישראלית	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
+41	ישראלית	ישראלי	ADJ	ADJ	Gender=Fem|Number=Sing	39	amod	_	_
+42	.	.	PUNCT	_	_	13	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u9.p0.s1
+# text = אז אני באמת רוצה לברך שני אנשים שהם חברים טובים, אנשי מקצוע אמתיים שאין טובים מהם.
+1	אז	אז	ADV	ADV	_	4	advmod	_	NER=O
+2	אני	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	NER=O
+3	באמת	באמת	ADV	ADV	_	4	advmod	_	NER=O
+4	רוצה	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+5	לברך	בירך	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	4	xcomp	_	NER=O
+6	שני	שתיים	NUM	NUM	Definite=Cons|Gender=Masc|NumType=Card	7	nummod	_	NER=O
+7	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	5	obj	_	NER=O
+8-9	שהם	_	_	_	_	_	_	_	NER=O
+8	ש	ש	SCONJ	X	_	10	mark	_	_
+9	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	cop	_	_
+10	חברים	חבר	NOUN	NOUN	Gender=Masc|Number=Plur	7	acl:relcl	_	NER=O
+11	טובים	טוב	ADJ	ADJ	Gender=Masc|Number=Plur	10	amod	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	NER=O
+13	אנשי	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	appos	_	NER=O
+14	מקצוע	מקצוע	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound	_	NER=O
+15	אמתיים	אמתי	ADJ	ADJ	Gender=Masc|Number=Plur	13	amod	_	NER=O
+16-17	שאין	_	_	_	_	_	_	_	NER=O
+16	ש	ש	SCONJ	X	_	17	mark	_	_
+17	אין	אין	ADV	ADV	Polarity=Neg	13	acl:relcl	_	_
+18	טובים	טוב	ADJ	ADJ	Gender=Masc|Number=Plur	17	nsubj	_	NER=O
+19-20	מהם	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+19	מ	מ	ADP	ADP	_	20	case	_	_
+20	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	obl	_	_
+21	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u9.p0.s2
+# text = קינלי, אין כמוך, אני בטוחה שמה שתעשה אתה עושה באמת בתשוקה ובכל כך הרבה ידע וניסיון, שתעשה רק טוב.
+1	קינלי	קינלי	PROPN	PROPN	_	3	vocative	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	NER=O
+3	אין	אין	VERB	VERB	Polarity=Neg	0	root	_	NER=O
+4-5	כמוך	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+4	כמו	כמו	ADP	ADP	_	5	case	_	_
+5	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	obl	_	_
+6	,	,	PUNCT	_	_	3	punct	_	NER=O
+7	אני	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	NER=O
+8	בטוחה	בטוח	ADJ	ADJ	Gender=Fem|Number=Sing	3	parataxis	_	NER=O
+9-10	שמה	_	_	_	_	_	_	_	NER=O
+9	שמ	שם	NOUN	NOUN	Gender=Masc|Number=Sing	8	mark	_	_
+10	ה	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+11-12	שתעשה	_	_	_	_	_	_	_	NER=O
+11	ש	ש	SCONJ	X	_	12	mark	_	_
+12	תעשה	עשה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=2|Tense=Fut|Voice=Act	10	acl:relcl	_	_
+13	אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	14	nsubj	_	NER=O
+14	עושה	עשה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=2|Tense=Pres|VerbForm=Part|Voice=Act	8	parataxis	_	NER=O
+15	באמת	באמת	ADV	ADV	_	14	advmod	_	NER=O
+16-17	בתשוקה	_	_	_	_	_	_	_	NER=O
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	תשוקה	תשוקה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+18-20	ובכל	_	_	_	_	_	_	_	NER=O
+18	ו	ו	CCONJ	X	_	23	cc	_	_
+19	ב	ב	ADP	ADP	_	23	case	_	_
+20	כל	כול	DET	DET	Definite=Cons	23	advmod	_	_
+21	כך	כך	ADV	ADV	_	20	fixed	_	NER=O
+22	הרבה	הרבה	DET	DET	Definite=Cons	23	det	_	NER=O
+23	ידע	ידע	NOUN	NOUN	Gender=Masc|Number=Sing	17	conj	_	NER=O
+24-25	וניסיון	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+24	ו	ו	CCONJ	X	_	25	cc	_	_
+25	ניסיון	ניסיון	NOUN	NOUN	Gender=Masc|Number=Sing	23	conj	_	_
+26	,	,	PUNCT	_	_	28	punct	_	NER=O
+27-28	שתעשה	_	_	_	_	_	_	_	NER=O
+27	ש	ש	SCONJ	X	_	28	mark	_	_
+28	תעשה	עשה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=2|Tense=Fut|Voice=Act	14	advcl	_	_
+29	רק	רק	ADV	ADV	_	30	advmod	_	NER=O
+30	טוב	טוב	ADV	ADV	_	28	obj	_	NER=O|SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u9.p0.s3
+# text = פרופסור שיין, הרצון שלך לשנות ולהשפיע הוא באמת יוצא דופן.
+1	פרופסור	פרופסור	PROPN	PROPN	_	13	vocative	_	NER=B-MISC
+2	שיין	שיין	PROPN	PROPN	_	1	flat	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	_	13	punct	_	NER=O
+4-5	הרצון	_	_	_	_	_	_	_	NER=O
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	רצון	רצון	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
+6-7	שלך	_	_	_	_	_	_	_	NER=O
+6	של	של	ADP	ADP	Case=Gen	7	case	_	_
+7	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	nmod:poss	_	_
+8	לשנות	שינה	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	5	acl	_	NER=O
+9-10	ולהשפיע	_	_	_	_	_	_	_	NER=O
+9	ו	ו	CCONJ	X	_	10	cc	_	_
+10	להשפיע	השפיע	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	8	conj	_	_
+11	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	cop	_	NER=O
+12	באמת	באמת	ADV	ADV	_	13	advmod	_	NER=O
+13	יוצא	יוצא	ADJ	ADJ	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+14	דופן	דופן	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound	_	NER=O|SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u9.p0.s4
+# text = הראשון שמגיע לכנסת כל בוקר, אני בודק, זה פרופסור שיין אז בהצלחה לשניכם.
+1-2	הראשון	_	_	_	_	_	_	_	NER=O
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	14	nsubj	_	_
+3-4	שמגיע	_	_	_	_	_	_	_	NER=O
+3	ש	ש	SCONJ	X	_	4	mark	_	_
+4	מגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	2	acl:relcl	_	_
+5-6	לכנסת	_	_	_	_	_	_	_	NER=B-ORG
+5	ל	ל	ADP	ADP	Definite=Def|PronType=Art	6	case	_	_
+6	כנסת	כנסת	PROPN	PROPN	_	4	obl	_	_
+7	כל	כול	DET	DET	Definite=Cons	8	det	_	NER=O
+8	בוקר	בוקר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl:tmod	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	NER=O
+10	אני	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	NER=O
+11	בודק	בדק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	14	parataxis	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	NER=O
+13	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	cop	_	NER=O
+14	פרופסור	פרופסור	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	NER=B-MISC
+15	שיין	שיין	PROPN	PROPN	_	14	flat	_	NER=O
+16	אז	אז	ADV	ADV	_	17	advmod	_	NER=O
+17	בהצלחה	בהצלחה	INTJ	X	_	14	parataxis	_	NER=O
+18-19	לשניכם	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	שניכם	שניכם	NOUN	NOUN	Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	obl	_	_
+20	.	.	PUNCT	_	_	14	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u9.p0.s5
+# text = ולך, גברתי יושבת הראש, אני רוצה לברך אותך על באמת הקמת שתי ועדות באמת חשובות.
+1-3	ולך	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+1	ו	ו	CCONJ	X	_	12	cc	_	_
+2	ל	ל	ADP	ADP	_	3	case	_	_
+3	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	12	obl	_	_
+4	,	,	PUNCT	_	_	3	punct	_	NER=O
+5-6	גברתי	_	_	_	_	_	_	_	NER=O
+5	גברת	גברת	NOUN	NOUN	Gender=Fem|Number=Sing	3	vocative	_	_
+6	י	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+7	יושבת	יושב	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	appos	_	NER=O
+8-9	הראש	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	ראש	ראש	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound	_	_
+10	,	,	PUNCT	_	_	3	punct	_	NER=O
+11	אני	הוא	PRON	PRON	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	NER=O
+12	רוצה	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	NER=O
+13	לברך	בירך	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	12	xcomp	_	NER=O
+14-15	אותך	_	_	_	_	_	_	_	NER=O
+14	אות	את	ADP	ADP	Case=Acc	15	case	_	_
+15	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	13	obj	_	_
+16	על	על	ADP	ADP	_	18	case	_	NER=O
+17	באמת	באמת	ADV	ADV	_	18	advmod	_	NER=O
+18	הקמת	הקמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	obl	_	NER=O
+19	שתי	שתיים	NUM	NUM	Gender=Fem	20	nummod	_	NER=O
+20	ועדות	ועדה	NOUN	NOUN	Gender=Fem|Number=Plur	18	compound	_	NER=O
+21	באמת	באמת	ADV	ADV	_	22	advmod	_	NER=O
+22	חשובות	חשוב	ADJ	ADJ	Gender=Fem|Number=Plur	20	amod	_	NER=O|SpaceAfter=No
+23	.	.	PUNCT	_	_	12	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u9.p0.s6
+# text = בסוף זה למען המדינה, למען הילדים שלנו, למען הסטודנטים וכל הכבוד לך על האמון שאת נותנת באנשים ודוחפת את הנושא הזה.
+1-2	בסוף	_	_	_	_	_	_	_	NER=O
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	סוף	סוף	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
+3	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	det	_	NER=O
+4	למען	למען	ADP	ADP	_	6	case	_	NER=O
+5-6	המדינה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+7	,	,	PUNCT	_	_	10	punct	_	NER=O
+8	למען	למען	ADP	ADP	_	10	case	_	NER=O
+9-10	הילדים	_	_	_	_	_	_	_	NER=O
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	ילדים	ילד	NOUN	NOUN	Gender=Masc|Number=Plur	6	conj	_	_
+11-12	שלנו	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+11	של	של	ADP	ADP	Case=Gen	12	case	_	_
+12	נו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	10	nmod:poss	_	_
+13	,	,	PUNCT	_	_	16	punct	_	NER=O
+14	למען	למען	ADP	ADP	_	16	case	_	NER=O
+15-16	הסטודנטים	_	_	_	_	_	_	_	NER=O
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	סטודנטים	סטודנט	NOUN	NOUN	Gender=Masc|Number=Plur	6	conj	_	_
+17-18	וכל	_	_	_	_	_	_	_	NER=O
+17	ו	ו	CCONJ	X	_	20	cc	_	_
+18	כל	כול	DET	DET	Definite=Cons	20	det	_	_
+19-20	הכבוד	_	_	_	_	_	_	_	NER=O
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	כבוד	כבוד	NOUN	NOUN	Gender=Masc|Number=Sing	6	conj	_	_
+21-22	לך	_	_	_	_	_	_	_	NER=O
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	20	nmod	_	_
+23	על	על	ADP	ADP	_	25	case	_	NER=O
+24-25	האמון	_	_	_	_	_	_	_	NER=O
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	אמון	אמון	NOUN	NOUN	Gender=Masc|Number=Sing	20	nmod	_	_
+26-27	שאת	_	_	_	_	_	_	_	NER=O
+26	ש	ש	SCONJ	X	_	28	mark	_	_
+27	את	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=2|PronType=Prs	28	nsubj	_	_
+28	נותנת	נתן	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	25	acl:relcl	_	NER=O
+29-30	באנשים	_	_	_	_	_	_	_	NER=O
+29	ב	ב	ADP	ADP	Definite=Def|PronType=Art	30	case	_	_
+30	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	28	obl	_	_
+31-32	ודוחפת	_	_	_	_	_	_	_	NER=O
+31	ו	ו	CCONJ	X	_	32	cc	_	_
+32	דוחפת	דוחפת	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	28	conj	_	_
+33	את	את	ADP	ADP	Case=Acc	35	case	_	NER=O
+34-35	הנושא	_	_	_	_	_	_	_	NER=O
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	נושא	נושא	NOUN	NOUN	Gender=Masc|Number=Sing	32	obj	_	_
+36-37	הזה	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
+37	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	35	det	_	_
+38	.	.	PUNCT	_	_	6	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u9.p0.s7
+# text = ברכות לכולם.
+1	ברכות	ברכה	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	NER=O
+2-3	לכולם	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+2	ל	ל	ADP	ADP	_	3	case	_	_
+3	כולם	כולם	NOUN	NOUN	Gender=Masc|Number=Plur	1	obl	_	_
+4	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-IL_2021-12-21-24ptv616837.u10
+# newpar id = ParlaMint-IL_2021-12-21-24ptv616837.u10.p0
+# lang = he
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u10.p0.s0
+# text = תודה רבה.
+1	תודה	תודה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	NER=O
+2	רבה	רב	ADJ	ADJ	Gender=Fem|Number=Sing	1	advmod	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-IL_2021-12-21-24ptv616837.u10.p0.s1
+# text = טוב, אז הישיבה הזו נעולה.
+1	טוב	טוב	INTJ	X	_	8	discourse	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	NER=O
+3	אז	אז	ADV	ADV	_	8	advmod	_	NER=O
+4-5	הישיבה	_	_	_	_	_	_	_	NER=O
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	ישיבה	ישיבה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
+6-7	הזו	_	_	_	_	_	_	_	NER=O
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	5	det	_	_
+8	נעולה	נעולה	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	NER=O
+

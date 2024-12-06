@@ -1,0 +1,1536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="he"
+     ana="#parla.meeting #reference"
+     xml:id="ParlaMint-IL_1998-07-08-14ptm532674.ana">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Israeli parliamentary corpus ParlaMint-IL, 1998-07-08 14ptm532674 [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="he">Israeli קורפוס הכנסת, הקורפוס הפרלמנטרי הישראלי ParlaMint-IL, 1998-07-08 14ptm532674 [ParlaMint.ana SAMPLE]</title>
+            <title type="sub" xml:lang="he">14_ptm_532674.docx: ישיבת מליאה, 1998-07-08 00:00</title>
+            <title type="sub" xml:lang="en">14_ptm_532674.docx: Plenary, 1998-07-08 00:00</title>
+            <meeting ana="#parla.term #parla.uni #period_14"
+                     n="14"
+                     corresp="#ParlaMint-IL-KNESS">הכנסת ה-14</meeting>
+            <meeting ana="#parla.meeting #parla.uni"
+                     n="226"
+                     corresp="#ParlaMint-IL-KNESS">ישיבה מס' 226</meeting>
+            <meeting ana="#parla.sitting #parla.uni"
+                     n="1998-07-08"
+                     corresp="#ParlaMint-IL-KNESS">1998-07-08</meeting>
+            <respStmt>
+               <persName>Gili Goldin</persName>
+               <resp>Responsible for compiling the corpus and encoding it in ParlaMint TEI format.</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://clg.haifa.ac.il/">Shuly Wintner</persName>
+               <resp>Project supervisor.</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">Ministry of Science &amp; Technology ,Israel</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="1734">1,734 speeches</measure>
+            <measure unit="words" quantity="63883">63,883 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="he">מעבדת CLG, אוניברסיטת חיפה</orgName>
+               <orgName xml:lang="en">CLG lab, University of Haifa</orgName>
+               <ref target="https://clg.haifa.ac.il/">https://clg.haifa.ac.il/</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="he">העבודה מופצת תחת <ref target="http://creativecommons.org/licenses/by/4.0/">רישיון CC BY 4.0</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2024-12-06">2024-12-06</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="he">פרוטוקולים של הכנסת</title>
+               <title type="main" xml:lang="en">Knesset Protocols</title>
+               <idno type="URI" subtype="parliament">https://www.knesset.gov.il</idno>
+               <date when="2024-12-03">03.12.2024</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a
+    project that aims to (1) create a multilingual set of comparable corpora of parliamentary
+    proceedings uniformly encoded according to the
+    <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, 
+    covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and
+    machine-translate them to English; (3) make the corpora available through concordancers; and
+    (4) build use cases in Political Sciences and Digital Humanities based on the corpus
+    data.</p>
+            <p xml:lang="he">הקורפוס הוא חלק מפרויקט ParlaMint, שמטרתו לספק סט רב לשוני של קורפוסים פרלמנטריים.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="link" occurs="104614"/>
+               <tagUsage gi="linkGrp" occurs="5445"/>
+               <tagUsage gi="name" occurs="4050"/>
+               <tagUsage gi="pc" occurs="16135"/>
+               <tagUsage gi="s" occurs="5445"/>
+               <tagUsage gi="seg" occurs="1734"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="1734"/>
+               <tagUsage gi="w" occurs="111496"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city" xml:lang="he">ירושלים</name>
+               <name type="city" xml:lang="en">Jerusalem</name>
+               <name type="country" key="IL" xml:lang="en">Israel</name>
+               <name type="country" key="IL" xml:lang="he">ישראל</name>
+               <date ana="#parla.meeting" when="1998-07-08">1998-07-08</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-12-06">
+            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2024-12-03">Initial conversion to TEI format.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection" xml:id="session.14_ptm_532674_docx-1">
+            <head xml:id="ParlaMint-IL_1998-07-08-14ptm532674.ana.head1">ישיבת מליאה</head>
+            <u xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0"
+               who="#person.2672"
+               ana="#chair">
+               <seg xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0">
+                  <s xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0">
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t1-2">רבותי<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t1"
+                           norm="רבות"
+                           lemma="רב"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Gender=Masc|Number=Plur"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t2"
+                           norm="י"
+                           lemma="הוא"
+                           pos="PRON"
+                           msd="UPosTag=PRON|Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs"/>
+                     </w>
+                     <w lemma="חבר"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t3">חברי</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t4-5" join="right">הכנסת<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t4"
+                              norm="ה"
+                              lemma="ה"
+                              pos="DET"
+                              msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t5"
+                              norm="כנסת"
+                              lemma="כנסת"
+                              pos="PROPN"
+                              msd="UPosTag=PROPN"/>
+                        </w>
+                     </name>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t6"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <name type="MISC">
+                        <w lemma="יום"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t7">יום</w>
+                        <w lemma="רביעי"
+                           pos="PROPN"
+                           msd="UPosTag=PROPN"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t8"
+                           join="right">רביעי</w>
+                     </name>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t9"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <name type="MISC">
+                        <w lemma="י&#34;ד"
+                           pos="NUM"
+                           msd="UPosTag=NUM"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t10">י"ד</w>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t11-12">בתמוז<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t11"
+                              norm="ב"
+                              lemma="ב"
+                              pos="ADP"
+                              msd="UPosTag=ADP"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t12"
+                              norm="תמוז"
+                              lemma="תמוז"
+                              pos="PROPN"
+                              msd="UPosTag=PROPN"/>
+                        </w>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t13-14"
+                           join="right">התשנ"ח<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t13"
+                              norm="ה"
+                              lemma="ה"
+                              pos="DET"
+                              msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t14"
+                              norm="תשנ&#34;ח"
+                              lemma="תשנ&#34;ח"
+                              pos="NUM"
+                              msd="UPosTag=NUM"/>
+                        </w>
+                     </name>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t15"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <name type="MISC">
+                        <w lemma="8"
+                           pos="NUM"
+                           msd="UPosTag=NUM"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t16">8</w>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t17-18">ביולי<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t17"
+                              norm="ב"
+                              lemma="ב"
+                              pos="ADP"
+                              msd="UPosTag=ADP"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t18"
+                              norm="יולי"
+                              lemma="יולי"
+                              pos="PROPN"
+                              msd="UPosTag=PROPN"/>
+                        </w>
+                        <w lemma="1998"
+                           pos="NUM"
+                           msd="UPosTag=NUM"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t19">1998</w>
+                     </name>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t20"
+                         msd="UPosTag=PUNCT">–</pc>
+                     <w lemma="ישיבה"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Definite=Cons|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t21">ישיבת</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t22-23">הכנסת<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t22"
+                              norm="ה"
+                              lemma="ה"
+                              pos="DET"
+                              msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t23"
+                              norm="כנסת"
+                              lemma="כנסת"
+                              pos="PROPN"
+                              msd="UPosTag=PROPN"/>
+                        </w>
+                     </name>
+                     <w lemma="פתוח"
+                        pos="ADJ"
+                        msd="UPosTag=ADJ|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t24"
+                        join="right">פתוחה</w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t25"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:vocative"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t7 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t1"/>
+                        <link ana="ud-syn:nmod_poss"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t1 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t2"/>
+                        <link ana="ud-syn:appos"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t1 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t3"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t5 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t4"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t3 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t5"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t7 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t6"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t7"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t7 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t8"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t10 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t9"/>
+                        <link ana="ud-syn:appos"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t7 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t10"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t12 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t11"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t10 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t12"/>
+                        <link ana="ud-syn:compound_affix"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t14 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t13"/>
+                        <link ana="ud-syn:nmod_tmod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t12 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t14"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t16 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t15"/>
+                        <link ana="ud-syn:appos"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t7 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t16"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t18 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t17"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t16 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t18"/>
+                        <link ana="ud-syn:nmod_tmod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t16 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t19"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t24 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t20"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t24 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t21"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t23 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t22"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t21 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t23"/>
+                        <link ana="ud-syn:parataxis"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t7 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t24"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t7 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s0.t25"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1">
+                     <name type="MISC">
+                        <w lemma="חברה"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Definite=Cons|Gender=Fem|Number=Sing"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t1">חברת</w>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t2-3">הכנסת<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t2"
+                              norm="ה"
+                              lemma="ה"
+                              pos="DET"
+                              msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t3"
+                              norm="כנסת"
+                              lemma="כנסת"
+                              pos="PROPN"
+                              msd="UPosTag=PROPN"/>
+                        </w>
+                     </name>
+                     <name type="PER">
+                        <w lemma="מרינה"
+                           pos="PROPN"
+                           msd="UPosTag=PROPN"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t4">מרינה</w>
+                     </name>
+                     <w lemma="סולודקין"
+                        pos="PROPN"
+                        msd="UPosTag=PROPN"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t5">סולודקין</w>
+                     <w lemma="שאל"
+                        pos="VERB"
+                        msd="UPosTag=VERB|Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t6">שואלת</w>
+                     <w lemma="את"
+                        pos="ADP"
+                        msd="UPosTag=ADP|Case=Acc"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t7">את</w>
+                     <name type="MISC">
+                        <w lemma="שר"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t8">שר</w>
+                     </name>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t9-10">העבודה<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t9"
+                              norm="ה"
+                              lemma="ה"
+                              pos="DET"
+                              msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t10"
+                              norm="עבודה"
+                              lemma="עבודה"
+                              pos="PROPN"
+                              msd="UPosTag=PROPN|Gender=Fem|Number=Sing"/>
+                        </w>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t11-13">והרווחה<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t11"
+                              norm="ו"
+                              lemma="ו"
+                              pos="X"
+                              msd="UPosTag=CCONJ"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t12"
+                              norm="ה"
+                              lemma="ה"
+                              pos="DET"
+                              msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t13"
+                              norm="רווחה"
+                              lemma="רווחה"
+                              pos="PROPN"
+                              msd="UPosTag=PROPN"/>
+                        </w>
+                     </name>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t14-15"
+                        join="right">בנושא<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t14"
+                           norm="ב"
+                           lemma="ב"
+                           pos="ADP"
+                           msd="UPosTag=ADP|Definite=Def|PronType=Art"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t15"
+                           norm="נושא"
+                           lemma="נושא"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Gender=Masc|Number=Sing"/>
+                     </w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t16"
+                         msd="UPosTag=PUNCT">:</pc>
+                     <w lemma="סכנה"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Definite=Cons|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t17">סכנת</w>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t18-19">סגירתה<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t18"
+                           norm="סגירת"
+                           lemma="סגירה"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Gender=Fem|Number=Sing"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t19"
+                           norm="ה"
+                           lemma="הוא"
+                           pos="PRON"
+                           msd="UPosTag=PRON|Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs"/>
+                     </w>
+                     <w lemma="של"
+                        pos="ADP"
+                        msd="UPosTag=ADP|Case=Gen"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t20">של</w>
+                     <w lemma="מחלקה"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Definite=Cons|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t21">מחלקת</w>
+                     <w lemma="דר"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t22">דרי</w>
+                     <w lemma="רחוב"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t23">רחוב</w>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t24-25"
+                        join="right">בבית<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t24"
+                           norm="ב"
+                           lemma="ב"
+                           pos="ADP"
+                           msd="UPosTag=ADP"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t25"
+                           norm="בית"
+                           lemma="בית"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing"/>
+                     </w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t26"
+                         msd="UPosTag=PUNCT"
+                         join="right">-</pc>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t27-28">החולים<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t27"
+                           norm="ה"
+                           lemma="ה"
+                           pos="DET"
+                           msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t28"
+                           norm="חולים"
+                           lemma="חולה"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Gender=Masc|Number=Plur"/>
+                     </w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t29"
+                         msd="UPosTag=PUNCT">"</pc>
+                     <name type="LOC">
+                        <w lemma="קריה"
+                           pos="PROPN"
+                           msd="UPosTag=PROPN|Definite=Cons"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t30"
+                           join="right">קריית</w>
+                        <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t31"
+                            msd="UPosTag=PUNCT"
+                            join="right">-</pc>
+                        <w lemma="שלמה"
+                           pos="PROPN"
+                           msd="UPosTag=PROPN"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t32">שלמה</w>
+                     </name>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t33"
+                         msd="UPosTag=PUNCT">"</pc>
+                     <name type="LOC">
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t34-35"
+                           join="right">ברעננה<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t34"
+                              norm="ב"
+                              lemma="ב"
+                              pos="ADP"
+                              msd="UPosTag=ADP"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t35"
+                              norm="רעננה"
+                              lemma="רעננה"
+                              pos="PROPN"
+                              msd="UPosTag=PROPN"/>
+                        </w>
+                     </name>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t36"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w lemma="בבקשה"
+                        pos="ADV"
+                        msd="UPosTag=ADV"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t37"
+                        join="right">בבקשה</w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t38"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t6 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t1"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t3 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t2"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t1 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t3"/>
+                        <link ana="ud-syn:appos"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t1 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t4"/>
+                        <link ana="ud-syn:flat"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t4 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t5"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t6"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t8 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t7"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t6 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t8"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t10 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t9"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t8 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t10"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t13 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t11"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t13 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t12"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t10 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t13"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t15 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t14"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t6 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t15"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t17 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t16"/>
+                        <link ana="ud-syn:appos"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t15 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t17"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t17 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t18"/>
+                        <link ana="ud-syn:nmod_poss"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t18 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t19"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t21 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t20"/>
+                        <link ana="ud-syn:nmod_poss"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t18 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t21"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t21 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t22"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t22 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t23"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t25 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t24"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t21 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t25"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t25 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t26"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t28 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t27"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t25 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t28"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t30 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t29"/>
+                        <link ana="ud-syn:appos"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t25 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t30"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t32 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t31"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t30 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t32"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t30 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t33"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t35 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t34"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t25 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t35"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t37 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t36"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t17 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t37"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t6 #ParlaMint-IL_1998-07-08-14ptm532674.u0.p0.s1.t38"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <u xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2"
+               who="#person.533"
+               ana="#regular">
+               <seg xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0">
+                  <s xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0">
+                     <w lemma="כבוד"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t1">כבוד</w>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t2-3" join="right">השר<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t2"
+                           norm="ה"
+                           lemma="ה"
+                           pos="DET"
+                           msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t3"
+                           norm="שר"
+                           lemma="שר"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Gender=Masc|Number=Sing"/>
+                     </w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t4"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w lemma="מדוע"
+                        pos="ADV"
+                        msd="UPosTag=ADV|PronType=Int"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t5">מדוע</w>
+                     <w lemma="לא"
+                        pos="ADV"
+                        msd="UPosTag=ADV|Polarity=Neg"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t6">לא</w>
+                     <w lemma="הועבר"
+                        pos="VERB"
+                        msd="UPosTag=VERB|Gender=Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t7">הועברו</w>
+                     <w lemma="עד"
+                        pos="ADP"
+                        msd="UPosTag=ADP"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t8">עד</w>
+                     <w lemma="היום"
+                        pos="ADV"
+                        msd="UPosTag=ADV"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t9">היום</w>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t10-11">הכספים<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t10"
+                           norm="ה"
+                           lemma="ה"
+                           pos="DET"
+                           msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t11"
+                           norm="כספים"
+                           lemma="כסף"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Gender=Masc|Number=Plur"/>
+                     </w>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t12-13">הרבים<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t12"
+                           norm="ה"
+                           lemma="ה"
+                           pos="DET"
+                           msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t13"
+                           norm="רבים"
+                           lemma="רב"
+                           pos="ADJ"
+                           msd="UPosTag=ADJ|Gender=Masc|Number=Plur"/>
+                     </w>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t14-15">שחייב<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t14"
+                           norm="ש"
+                           lemma="ש"
+                           pos="X"
+                           msd="UPosTag=SCONJ"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t15"
+                           norm="חייב"
+                           lemma="חייב"
+                           pos="ADJ"
+                           msd="UPosTag=ADJ|Gender=Masc|Number=Sing"/>
+                     </w>
+                     <name type="ORG">
+                        <w lemma="משרד"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t16">משרד</w>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t17-18">העבודה<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t17"
+                              norm="ה"
+                              lemma="ה"
+                              pos="DET"
+                              msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t18"
+                              norm="עבודה"
+                              lemma="עבודה"
+                              pos="PROPN"
+                              msd="UPosTag=PROPN|Gender=Fem|Number=Sing"/>
+                        </w>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t19-21">והרווחה<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t19"
+                              norm="ו"
+                              lemma="ו"
+                              pos="X"
+                              msd="UPosTag=CCONJ"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t20"
+                              norm="ה"
+                              lemma="ה"
+                              pos="DET"
+                              msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t21"
+                              norm="רווחה"
+                              lemma="רווחה"
+                              pos="PROPN"
+                              msd="UPosTag=PROPN|Gender=Fem|Number=Sing"/>
+                        </w>
+                     </name>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t22-23"
+                        join="right">לבית<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t22"
+                           norm="ל"
+                           lemma="ל"
+                           pos="ADP"
+                           msd="UPosTag=ADP"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t23"
+                           norm="בית"
+                           lemma="בית"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing"/>
+                     </w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t24"
+                         msd="UPosTag=PUNCT"
+                         join="right">-</pc>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t25-26">החולים<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t25"
+                           norm="ה"
+                           lemma="ה"
+                           pos="DET"
+                           msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t26"
+                           norm="חולים"
+                           lemma="חולה"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Gender=Masc|Number=Sing"/>
+                     </w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t27"
+                         msd="UPosTag=PUNCT">"</pc>
+                     <name type="LOC">
+                        <w lemma="קריה"
+                           pos="PROPN"
+                           msd="UPosTag=PROPN|Definite=Cons"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t28"
+                           join="right">קריית</w>
+                        <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t29"
+                            msd="UPosTag=PUNCT"
+                            join="right">-</pc>
+                        <w lemma="שלמה"
+                           pos="PROPN"
+                           msd="UPosTag=PROPN"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t30">שלמה</w>
+                     </name>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t31"
+                         msd="UPosTag=PUNCT">"</pc>
+                     <name type="LOC">
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t32-33"
+                           join="right">ברעננה<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t32"
+                              norm="ב"
+                              lemma="ב"
+                              pos="ADP"
+                              msd="UPosTag=ADP"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t33"
+                              norm="רעננה"
+                              lemma="רעננה"
+                              pos="PROPN"
+                              msd="UPosTag=PROPN"/>
+                        </w>
+                     </name>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t34"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w lemma="בעבור"
+                        pos="ADP"
+                        msd="UPosTag=ADP"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t35">בעבור</w>
+                     <w lemma="דר"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t36">דרי</w>
+                     <w lemma="רחוב"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t37"
+                        join="right">רחוב</w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t38"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t39-40">ומה<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t39"
+                           norm="ו"
+                           lemma="ו"
+                           pos="X"
+                           msd="UPosTag=CCONJ"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t40"
+                           norm="מה"
+                           lemma="מה"
+                           pos="PRON"
+                           msd="UPosTag=PRON|PronType=Int"/>
+                     </w>
+                     <w lemma="הוא"
+                        pos="PRON"
+                        msd="UPosTag=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Prs"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t41">הוא</w>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t42-43">הטיפול<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t42"
+                           norm="ה"
+                           lemma="ה"
+                           pos="DET"
+                           msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t43"
+                           norm="טיפול"
+                           lemma="טיפול"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Gender=Masc|Number=Sing"/>
+                     </w>
+                     <w lemma="ארוך"
+                        pos="ADJ"
+                        msd="UPosTag=ADJ|Definite=Cons|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t44">ארוך</w>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t45-46">הטווח<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t45"
+                           norm="ה"
+                           lemma="ה"
+                           pos="DET"
+                           msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t46"
+                           norm="טווח"
+                           lemma="טווח"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Gender=Masc|Number=Sing"/>
+                     </w>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t47-49">שהמשרד<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t47"
+                           norm="ש"
+                           lemma="ש"
+                           pos="X"
+                           msd="UPosTag=SCONJ"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t48"
+                           norm="ה"
+                           lemma="ה"
+                           pos="DET"
+                           msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t49"
+                           norm="משרד"
+                           lemma="משרד"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Gender=Masc|Number=Sing"/>
+                     </w>
+                     <w lemma="הציע"
+                        pos="VERB"
+                        msd="UPosTag=VERB|Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t50">מציע</w>
+                     <w lemma="לנוכח"
+                        pos="ADP"
+                        msd="UPosTag=ADP"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t51">לנוכח</w>
+                     <w lemma="בעיה"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t52">בעיה</w>
+                     <w lemma="קשה"
+                        pos="ADJ"
+                        msd="UPosTag=ADJ|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t53">קשה</w>
+                     <w lemma="זה"
+                        pos="PRON"
+                        msd="UPosTag=PRON|Gender=Fem|Number=Sing|Person=3|PronType=Dem"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t54"
+                        join="right">זו</w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t55"
+                         msd="UPosTag=PUNCT">?</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:vocative"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t7 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t1"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t3 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t2"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t1 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t1 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t4"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t7 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t5"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t7 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t6"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t7"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t9 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t8"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t7 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t9"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t11 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t10"/>
+                        <link ana="ud-syn:nsubj_pass"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t7 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t11"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t13 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t12"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t11 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t13"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t15 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t14"/>
+                        <link ana="ud-syn:acl_relcl"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t11 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t15"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t15 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t16"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t18 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t17"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t16 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t18"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t21 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t19"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t21 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t20"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t18 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t21"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t23 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t22"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t7 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t23"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t23 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t24"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t26 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t25"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t23 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t26"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t28 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t27"/>
+                        <link ana="ud-syn:appos"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t23 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t28"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t30 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t29"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t28 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t30"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t28 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t31"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t33 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t32"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t23 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t33"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t36 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t34"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t36 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t35"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t7 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t36"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t36 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t37"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t43 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t38"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t43 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t39"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t43 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t40"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t43 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t41"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t43 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t42"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t7 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t43"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t43 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t44"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t46 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t45"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t44 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t46"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t50 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t47"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t49 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t48"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t50 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t49"/>
+                        <link ana="ud-syn:acl_relcl"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t43 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t50"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t52 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t51"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t50 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t52"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t52 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t53"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t52 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t54"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t7 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s0.t55"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s1">
+                     <w lemma="תודה"
+                        pos="X"
+                        msd="UPosTag=INTJ"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s1.t1"
+                        join="right">תודה</w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s1.t2"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s1 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s1.t1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s1.t1 #ParlaMint-IL_1998-07-08-14ptm532674.u2.p0.s1.t2"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1757"
+               who="#person.2562"
+               ana="#regular">
+               <seg xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1757.p0">
+                  <s xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1757.p0.s0">
+                     <name type="MISC">
+                        <w lemma="אללה"
+                           pos="X"
+                           msd="UPosTag=INTJ"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1757.p0.s0.t1">אללה</w>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1757.p0.s0.t2-3"
+                           join="right">אכבר<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1757.p0.s0.t2"
+                              norm="אכ"
+                              lemma="אכ"
+                              pos="PROPN"
+                              msd="UPosTag=PROPN"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1757.p0.s0.t3"
+                              norm="בר"
+                              lemma="בר"
+                              pos="PROPN"
+                              msd="UPosTag=PROPN"/>
+                        </w>
+                     </name>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1757.p0.s0.t4"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1757.p0.s0 #ParlaMint-IL_1998-07-08-14ptm532674.u1757.p0.s0.t1"/>
+                        <link ana="ud-syn:flat"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1757.p0.s0.t1 #ParlaMint-IL_1998-07-08-14ptm532674.u1757.p0.s0.t2"/>
+                        <link ana="ud-syn:flat"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1757.p0.s0.t1 #ParlaMint-IL_1998-07-08-14ptm532674.u1757.p0.s0.t3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1757.p0.s0.t1 #ParlaMint-IL_1998-07-08-14ptm532674.u1757.p0.s0.t4"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <u xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758"
+               who="#person.2317"
+               ana="#regular">
+               <seg xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0">
+                  <s xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0">
+                     <w lemma="טוב"
+                        pos="X"
+                        msd="UPosTag=INTJ"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t1"
+                        join="right">טוב</w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t2"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w lemma="חבר"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t3"
+                        join="right">חברים</w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t4"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w lemma="הוא"
+                        pos="PRON"
+                        msd="UPosTag=PRON|Number=Plur|Person=1|PronType=Prs"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t5">אנחנו</w>
+                     <w lemma="סיים"
+                        pos="VERB"
+                        msd="UPosTag=VERB|HebBinyan=PIEL|Number=Plur|Person=1|Tense=Past|Voice=Act"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t6">סיימנו</w>
+                     <w lemma="את"
+                        pos="ADP"
+                        msd="UPosTag=ADP|Case=Acc"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t7">את</w>
+                     <w lemma="סדר"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t8"
+                        join="right">סדר</w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t9"
+                         msd="UPosTag=PUNCT"
+                         join="right">-</pc>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t10-11">היום<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t10"
+                           norm="ה"
+                           lemma="ה"
+                           pos="DET"
+                           msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t11"
+                           norm="יום"
+                           lemma="יום"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Gender=Masc|Number=Sing"/>
+                     </w>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t12-13">השבועי<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t12"
+                           norm="ה"
+                           lemma="ה"
+                           pos="DET"
+                           msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t13"
+                           norm="שבועי"
+                           lemma="שבועי"
+                           pos="ADJ"
+                           msd="UPosTag=ADJ|Gender=Masc|Number=Sing"/>
+                     </w>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t14-15"
+                        join="right">שלנו<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t14"
+                           norm="של"
+                           lemma="של"
+                           pos="ADP"
+                           msd="UPosTag=ADP|Case=Gen"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t15"
+                           norm="נו"
+                           lemma="הוא"
+                           pos="PRON"
+                           msd="UPosTag=PRON|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs"/>
+                     </w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t16"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:discourse"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t6 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t1 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t2"/>
+                        <link ana="ud-syn:vocative"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t6 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t3 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t4"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t6 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t5"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t6"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t8 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t7"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t6 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t8"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t8 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t9"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t11 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t10"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t8 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t11"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t13 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t12"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t8 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t13"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t15 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t14"/>
+                        <link ana="ud-syn:nmod_poss"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t8 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t15"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t6 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s0.t16"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1">
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t1-2">הישיבה<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t1"
+                           norm="ה"
+                           lemma="ה"
+                           pos="DET"
+                           msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t2"
+                           norm="ישיבה"
+                           lemma="ישיבה"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Gender=Fem|Number=Sing"/>
+                     </w>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t3-4">הבאה<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t3"
+                           norm="ה"
+                           lemma="ה"
+                           pos="DET"
+                           msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t4"
+                           norm="באה"
+                           lemma="בא"
+                           pos="ADJ"
+                           msd="UPosTag=ADJ|Gender=Fem|Number=Sing"/>
+                     </w>
+                     <w lemma="התקיים"
+                        pos="VERB"
+                        msd="UPosTag=VERB|Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut|Voice=Mid"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t5">תתקיים</w>
+                     <name type="MISC">
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t6-7">ביום<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t6"
+                              norm="ב"
+                              lemma="ב"
+                              pos="ADP"
+                              msd="UPosTag=ADP"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t7"
+                              norm="יום"
+                              lemma="יום"
+                              pos="NOUN"
+                              msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing"/>
+                        </w>
+                        <w lemma="שני"
+                           pos="PROPN"
+                           msd="UPosTag=PROPN"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t8"
+                           join="right">שני</w>
+                     </name>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t9"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <name type="MISC">
+                        <w lemma="י&#34;ט"
+                           pos="NUM"
+                           msd="UPosTag=NUM"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t10">י"ט</w>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t11-12">בתמוז<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t11"
+                              norm="ב"
+                              lemma="ב"
+                              pos="ADP"
+                              msd="UPosTag=ADP"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t12"
+                              norm="תמוז"
+                              lemma="תמוז"
+                              pos="PROPN"
+                              msd="UPosTag=PROPN"/>
+                        </w>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t13-14"
+                           join="right">התשנ"ח<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t13"
+                              norm="ה"
+                              lemma="ה"
+                              pos="DET"
+                              msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t14"
+                              norm="תשנ&#34;ח"
+                              lemma="תשנ&#34;ח"
+                              pos="NUM"
+                              msd="UPosTag=NUM"/>
+                        </w>
+                     </name>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t15"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <name type="MISC">
+                        <w lemma="13"
+                           pos="NUM"
+                           msd="UPosTag=NUM"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t16">13</w>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t17-18">ביולי<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t17"
+                              norm="ב"
+                              lemma="ב"
+                              pos="ADP"
+                              msd="UPosTag=ADP"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t18"
+                              norm="יולי"
+                              lemma="יולי"
+                              pos="PROPN"
+                              msd="UPosTag=PROPN"/>
+                        </w>
+                        <w lemma="1998"
+                           pos="NUM"
+                           msd="UPosTag=NUM"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t19"
+                           join="right">1998</w>
+                     </name>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t20"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w lemma="ב"
+                        pos="ADP"
+                        msd="UPosTag=ADP"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t21"
+                        join="right">ב</w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t22"
+                         msd="UPosTag=PUNCT"
+                         join="right">-</pc>
+                     <name type="MISC">
+                        <w lemma="16:00"
+                           pos="NUM"
+                           msd="UPosTag=NUM"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t23"
+                           join="right">16:00</w>
+                     </name>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t24"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t2 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t1"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t5 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t2"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t4 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t3"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t2 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t4"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t5"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t7 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t6"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t5 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t7"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t7 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t8"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t10 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t9"/>
+                        <link ana="ud-syn:appos"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t7 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t10"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t12 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t11"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t10 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t12"/>
+                        <link ana="ud-syn:compound_affix"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t14 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t13"/>
+                        <link ana="ud-syn:nmod_tmod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t12 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t14"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t16 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t15"/>
+                        <link ana="ud-syn:appos"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t7 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t16"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t18 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t17"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t16 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t18"/>
+                        <link ana="ud-syn:nmod_tmod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t16 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t19"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t23 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t20"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t23 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t21"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t23 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t22"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t5 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t23"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t5 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s1.t24"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2">
+                     <w lemma="הוא"
+                        pos="PRON"
+                        msd="UPosTag=PRON|Gender=Masc|Number=Sing|Person=1|PronType=Prs"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t1">אני</w>
+                     <w lemma="הודה"
+                        pos="VERB"
+                        msd="UPosTag=VERB|Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t2">מודה</w>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t3-4">למשתתפים<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t3"
+                           norm="ל"
+                           lemma="ל"
+                           pos="ADP"
+                           msd="UPosTag=ADP|Definite=Def|PronType=Art"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t4"
+                           norm="משתתפים"
+                           lemma="משתתף"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Gender=Masc|Number=Plur"/>
+                     </w>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t5-6">הטובים<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t5"
+                           norm="ה"
+                           lemma="ה"
+                           pos="DET"
+                           msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t6"
+                           norm="טובים"
+                           lemma="טוב"
+                           pos="ADJ"
+                           msd="UPosTag=ADJ|Gender=Masc|Number=Plur"/>
+                     </w>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t7-8"
+                        join="right">שלנו<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t7"
+                           norm="של"
+                           lemma="של"
+                           pos="ADP"
+                           msd="UPosTag=ADP|Case=Gen"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t8"
+                           norm="נו"
+                           lemma="הוא"
+                           pos="PRON"
+                           msd="UPosTag=PRON|Gender=Masc|Number=Plur|Person=1|PronType=Prs"/>
+                     </w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t9"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <name type="MISC">
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t10-11">לסגנית<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t10"
+                              norm="ל"
+                              lemma="ל"
+                              pos="ADP"
+                              msd="UPosTag=ADP"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t11"
+                              norm="סגנית"
+                              lemma="סגנית"
+                              pos="NOUN"
+                              msd="UPosTag=NOUN|Definite=Cons|Gender=Fem|Number=Sing"/>
+                        </w>
+                        <w lemma="מזכיר"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t12">מזכיר</w>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t13-14">הכנסת<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t13"
+                              norm="ה"
+                              lemma="ה"
+                              pos="DET"
+                              msd="UPosTag=DET|Definite=Def|PronType=Art"/>
+                           <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t14"
+                              norm="כנסת"
+                              lemma="כנסת"
+                              pos="PROPN"
+                              msd="UPosTag=PROPN"/>
+                        </w>
+                     </name>
+                     <name type="PER">
+                        <w lemma="שוש"
+                           pos="PROPN"
+                           msd="UPosTag=PROPN"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t15">שוש</w>
+                        <w lemma="כרם"
+                           pos="PROPN"
+                           msd="UPosTag=PROPN"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t16"
+                           join="right">כרם</w>
+                     </name>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t17"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t18-19"
+                        join="right">לקצרניות<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t18"
+                           norm="ל"
+                           lemma="ל"
+                           pos="ADP"
+                           msd="UPosTag=ADP|Definite=Def|PronType=Art"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t19"
+                           norm="קצרניות"
+                           lemma="קצרניות"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Gender=Fem|Number=Plur"/>
+                     </w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t20"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t21-22"
+                        join="right">לסדרנים<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t21"
+                           norm="ל"
+                           lemma="ל"
+                           pos="ADP"
+                           msd="UPosTag=ADP|Definite=Def|PronType=Art"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t22"
+                           norm="סדרנים"
+                           lemma="סדרנים"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Gender=Masc|Number=Plur"/>
+                     </w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t23"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t24-25">וכרגיל<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t24"
+                           norm="ו"
+                           lemma="ו"
+                           pos="X"
+                           msd="UPosTag=CCONJ"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t25"
+                           norm="כרגיל"
+                           lemma="כרגיל"
+                           pos="ADV"
+                           msd="UPosTag=ADV"/>
+                     </w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t26"
+                         msd="UPosTag=PUNCT">–</pc>
+                     <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t27-28">לאנשי<w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t27"
+                           norm="ל"
+                           lemma="ל"
+                           pos="ADP"
+                           msd="UPosTag=ADP"/>
+                        <w xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t28"
+                           norm="אנשי"
+                           lemma="איש"
+                           pos="NOUN"
+                           msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Plur"/>
+                     </w>
+                     <name type="ORG">
+                        <w lemma="ערוץ-33"
+                           pos="PROPN"
+                           msd="UPosTag=PROPN"
+                           xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t29"
+                           join="right">ערוץ-33</w>
+                     </name>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t30"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t2 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t1"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t2"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t4 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t3"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t2 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t4"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t6 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t5"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t4 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t6"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t8 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t7"/>
+                        <link ana="ud-syn:nmod_poss"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t4 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t8"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t11 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t9"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t11 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t10"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t4 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t11"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t11 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t12"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t14 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t13"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t12 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t14"/>
+                        <link ana="ud-syn:appos"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t11 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t15"/>
+                        <link ana="ud-syn:flat"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t15 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t16"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t19 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t17"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t19 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t18"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t4 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t19"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t22 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t20"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t22 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t21"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t4 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t22"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t28 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t23"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t28 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t24"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t28 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t25"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t28 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t26"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t28 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t27"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t4 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t28"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t28 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t29"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t2 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s2.t30"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s3">
+                     <w lemma="לילה"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s3.t1">לילה</w>
+                     <w lemma="טוב"
+                        pos="ADJ"
+                        msd="UPosTag=ADJ|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s3.t2"
+                        join="right">טוב</w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s3.t3"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w lemma="חבר"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s3.t4"
+                        join="right">חברים</w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s3.t5"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s3 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s3.t1"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s3.t1 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s3.t2"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s3.t4 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s3.t3"/>
+                        <link ana="ud-syn:vocative"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s3.t1 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s3.t4"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s3.t1 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s3.t5"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s4">
+                     <w lemma="סיים"
+                        pos="VERB"
+                        msd="UPosTag=VERB|Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1|Tense=Past|Voice=Act"
+                        xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s4.t1"
+                        join="right">סיימנו</w>
+                     <pc xml:id="ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s4.t2"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s4 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s4.t1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s4.t1 #ParlaMint-IL_1998-07-08-14ptm532674.u1758.p0.s4.t2"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

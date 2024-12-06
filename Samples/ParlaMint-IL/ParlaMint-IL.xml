@@ -6,8 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"  xml:lang="he">קורפוס הכנסת, אוסף פרוטוקולים מתוך הפרלמנט הישראלי ParlaMint-IL [ParlaMint]</title>
-            <title type="main" xml:lang="en">Israel parliamentary corpus ParlaMint-IL [ParlaMint]</title>
+            <title type="main" xml:lang="he">קורפוס הכנסת, אוסף פרוטוקולים מתוך הפרלמנט הישראלי ParlaMint-IL [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Israel parliamentary corpus ParlaMint-IL [ParlaMint SAMPLE]</title>
             <title type="sub">פרוטוקולים של הכנסת</title>
             <title type="sub">Knesset Protocols</title>
             <meeting n="14"
@@ -46,7 +46,7 @@
          <editionStmt>
             <edition>3.0a</edition>
          </editionStmt>
-         <extent>
+         <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="1958" xml:lang="he">1,958 speeches</measure>
             <measure unit="words" quantity="78701" xml:lang="he">78,701 מילים</measure>
             <measure unit="words" quantity="78701" xml:lang="he">78,701 words</measure>
@@ -63,7 +63,7 @@
                <p>הקובץ מופץ תחת רישיון CC BY 4.0.</p>
                <p>This work is licensed under the Creative Commons Attribution 4.0 International License.</p>
             </availability>
-            <date when="2024-12-03">2024-12-03</date>
+            <date when="2024-12-06">2024-12-06</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -106,7 +106,7 @@
                <p>Multiple whitespace characters have been replaced with a single space.</p>
             </segmentation>
          </editorialDecl>
-         <tagsDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="4"/>
                <tagUsage gi="div" occurs="4"/>
@@ -148,6 +148,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2024-12-06">
+            <name>GitHub Action</name>: Made sample.</change>
          <change when="2024-12-02">Initial release.</change>
          <change when="2024-12-03">parlamint-add-common-content script: Adding common content.</change>
       </revisionDesc>
