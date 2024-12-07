@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomy xmlns="http://www.tei-c.org/ns/1.0"
+          xml:id="ParlaMint-taxonomy-CHES"
+          xml:lang="en">
+   <desc xml:lang="en">
+      <term>CHES variables</term>: Taxonomy of identifiers from the Chapel Hill Expert Survey (CHES) trend files: <ref target="https://www.chesdata.eu/s/1999-2019_CHES_codebook.pdf">1999-2019 Codebook</ref> and <ref target="https://www.chesdata.eu/s/2019_CHES_codebook.pdf">2019 Codebook</ref>.</desc>
+   <category xml:id="ches.general">
+      <catDesc xml:lang="en">
+         <term>General indicators</term>: General indicators used to identify basic characteristics of a political party, such as country of origin, number of experts evaluating a party, membership in the EU, etc.</catDesc>
+      <category xml:id="ches.country">
+         <catDesc xml:lang="en">
+            <term>Country of origin</term>: Unique identifier for each country. For a full list of country identifiers, consult the 1999-2019 Chapel Hill Expert Survey (CHES) trend file Codebook. Note that ths category is not present in the ParlaMint CHES data, as the country is given explicitly for each corpus.</catDesc>
+      </category>
+      <category xml:id="ches.eastwest">
+         <catDesc xml:lang="en">
+            <term>Eastern-western origin</term>: Origin of a political party, indicating whether the party originates from Central/Eastern Europe or whether it is one of the original 15 members of the EU (EU-15). Values: 0 = party from Central/Eastern Europe, 1 = party from EU-15.</catDesc>
+      </category>
+      <category xml:id="ches.eumember">
+         <catDesc xml:lang="en">
+            <term>EU Membership status</term>: political party membership status in European Union during a specific year.
+      Values: 0 = not an EU member in that year, 1 = EU member in that year.</catDesc>
+      </category>
+      <category xml:id="ches.year">
+         <catDesc xml:lang="en">
+            <term>Year of evaluation</term>: year for which party experts were asked to evaluate: 1999, 2002, 2006, 2010, 2014, 2019. Note that ths category is not present in the ParlaMint CHES data, as the year is given explicitly for each variable value.</catDesc>
+      </category>
+      <category xml:id="ches.expert">
+         <catDesc xml:lang="en">
+            <term>Number of experts</term>: number of experts who evaluated a party.</catDesc>
+      </category>
+      <category xml:id="ches.party_id">
+         <catDesc xml:lang="en">
+            <term>Party identifier</term>: unique identifier for each party. For full list of party identifiers, consult the 1999-2019 Chapel Hill Expert Survey (CHES) trend file Codebook. Note that ths category is present in the ParlaMint CHES data as the value of the top level state/@key attribute.</catDesc>
+      </category>
+      <category xml:id="ches.party">
+         <catDesc xml:lang="en">
+            <term>Party abbreviation</term>: the abbreviated name of the party. Note that one Party identifier can correspond to several Party abbreviations, depending on the year of the survey. For full list of Party identifiers matched with the Party identifiers consult the 1999-2019 Chapel Hill Expert Survey (CHES) trend file Codebook. Note that ths category is present in the ParlaMint CHES data also as the value of the top level state/@n attribute; when there are more than one Party appreviations, they are separated by space.</catDesc>
+      </category>
+      <category xml:id="ches.cmp_id">
+         <catDesc xml:lang="en">
+            <term>Comparative Manifesto Project party identificator</term>: political party identificator according to Comparative Manifesto Project. Data: https://visuals.manifesto-project.wzb.eu/mpdb-shiny/cmp_dashboard_dataset/; Codebook: https://manifesto-project.wzb.eu/down/data/2023a/codebooks/codebook_MPDataset_MPDS2023a.pdf</catDesc>
+      </category>
+      <category xml:id="ches.vote">
+         <catDesc xml:lang="en">
+            <term>Vote percentage</term>: vote percentage received by the party in the national election most prior to the specified year.</catDesc>
+      </category>
+      <category xml:id="ches.seat">
+         <catDesc xml:lang="en">
+            <term>Seat share</term>: share of parliamentary seats won by a political party in the national election prior to the specified year.</catDesc>
+      </category>
+      <category xml:id="ches.electionyear">
+         <catDesc xml:lang="en">
+            <term>Year of the previous national election</term>: year of the national election most prior to the specified year.</catDesc>
+      </category>
+      <category xml:id="ches.epvote">
+         <catDesc xml:lang="en">
+            <term>European Parliament Vote Percentage</term>: percentage of votes acquired by political party in the European Parliament election most prior to specified year.</catDesc>
+      </category>
+      <category xml:id="ches.family">
+         <catDesc xml:lang="en">
+            <term>Party family</term>: categorization of political parties into distinct families, based on their shared characteristics, ideologies and affiliations or other factors. Initially inspired by the Hix and Lord (1997) framework, this classification differentiates parties with a focus on various factors. In this classification, confessional and agrarian parties are placed into separate categories. For parties in Central/Eastern Europe, the Derksen classification (now integrated into Wikipedia) is used as a foundation, complemented by two key methods: a) assessing membership or ties to international and EU party associations, and b) self-identification of a party. This classification is periodically updated to account for shifts in party ideologies or organizational changes. Values: 1 = Radical Right (RADRT), 2 = Conservatives (CON), 3 = Liberal (LIB), 4 = Christian-Democratic (CD), 5 = Socialist (SOC), 6 = Radical Left (RADLEFT), 7 = Green (GRREN), 8 = Regionalist (REG), 9 = No family (NOFAMILY), 10 = Confessional (CONFESS), 11 = Agrarian/Center (AGRARIAN/CENTER).</catDesc>
+      </category>
+      <category xml:id="ches.govt">
+         <catDesc xml:lang="en">
+            <term>Government participation</term>: participation of a party in the government during a specific year. Values: 0 = Party not in government, 0.5 = Party in government for part of the year, 1 = Party in government full year.</catDesc>
+      </category>
+   </category>
+   <category xml:id="ches.eu_integration">
+      <catDesc xml:lang="en">
+         <term>European Integration</term>: Indicators of political parties' positions on European integration. Unless otherwise indicated, questions are available for the period 1999 - 2019.</catDesc>
+      <category xml:id="ches.eu_position">
+         <catDesc xml:lang="en">
+            <term>European integration orientation</term>: overall orientation of the party leadership towards European integration in a specific year. Values range on a scale from 1 - 7, 1 = Strongly opposed, 7 = Strongly in favor.</catDesc>
+      </category>
+      <category xml:id="ches.eu_position_sd">
+         <catDesc xml:lang="en">
+            <term>European integration standard deviation</term>: standard deviation of expert placement of overall orientation of the party leadership towards European integration in 2019.</catDesc>
+      </category>
+      <category xml:id="ches.eu_salience">
+         <catDesc xml:lang="en">
+            <term>European integration salience</term>: relative salience of European integration in the party’s public stance in a specific year. Values range from 0 to 10, 0 = European Integration is of no importance, never mentioned, 10 = European Integration is the most important issue.</catDesc>
+      </category>
+      <category xml:id="ches.eu_dissent">
+         <catDesc xml:lang="en">
+            <term>European integration dissent</term>: degree of dissent on European integration in a specific year. Values range on a scale from 0 to 10; 0 = Party was completely united, 10 = Party was extremely divided.</catDesc>
+      </category>
+      <category xml:id="ches.eu_blur">
+         <catDesc xml:lang="en">
+            <term>European integration blur</term>: how blurry was each party’s position on on European integration (Asked in 2019). Values range on a scale from 0 to 10; 0 = Not at all blurred, 10 = Extremely blurred.</catDesc>
+      </category>
+      <category xml:id="ches.eu_benefit">
+         <catDesc xml:lang="en">
+            <term>European integration benefit</term>: position of the party leadership in a specific year on whether a specific country has benefited from being a member of the EU (Asked in 2010 and 2014). Values range on a scale from 1 - 3, 1 = Benefited, 2 = Neither benefited nor lost, 3 = Not benefited.</catDesc>
+      </category>
+   </category>
+   <category xml:id="ches.eu_policy">
+      <catDesc xml:lang="en">
+         <term>European Policies</term>: Indicators of political parties' positions on European policies. Unless otherwise indicated, questions are available for the period 1999 - 2019.</catDesc>
+      <category xml:id="ches.eu_ep">
+         <catDesc xml:lang="en">
+            <term>European Parliament power</term>: position of the party leadership in a specific year on the powers of the European Parliament (Not asked in 2019). Values range from 1 - 7, 1 = Strongly opposes, 7 = Strongly favors.</catDesc>
+      </category>
+      <category xml:id="ches.eu_fiscal">
+         <catDesc xml:lang="en">
+            <term>EU tax harmonization</term>: position of the party leadership in a specific year on EU tax harmonization to reduce regime competition (only asked in 1999). Values range from 1 - 7, 1 = Strongly opposes, 7 = Strongly favors.</catDesc>
+      </category>
+      <category xml:id="ches.eu_intmark">
+         <catDesc xml:lang="en">
+            <term>EU internal market</term>: position of the party leadership in a specified year on the internal market (i.e. free movement of goods, services, capital and labor) (Not asked in 1999). Values range from 1 - 7, 1 = Strongly opposes, 7 = Strongly favors.</catDesc>
+      </category>
+      <category xml:id="ches.eu_employ">
+         <catDesc xml:lang="en">
+            <term>EU common employment policy</term>: position of the party leadership in a specified year on a common employment policy (only asked in 1999 and 2002). Values range from 1 - 7, 1 = Strongly opposes, 7 = Strongly favors.</catDesc>
+      </category>
+      <category xml:id="ches.eu_budgets">
+         <catDesc xml:lang="en">
+            <term>EU economic and budgetary policies</term>: position of the party leadership in a specified year on EU authority over member states’ economic and budgetary policies. Values range from 1 - 7, 1 = Strongly opposes, 7 = Strongly favors.</catDesc>
+      </category>
+      <category xml:id="ches.eu_agri">
+         <catDesc xml:lang="en">
+            <term>EU agricultural spending</term>: position of the party leadership in a specific year on EU’s agricultural spending. Values range from 1 - 7, 1 = Strongly opposes, 7 = Strongly favors.</catDesc>
+      </category>
+      <category xml:id="ches.eu_cohesion">
+         <catDesc xml:lang="en">
+            <term>EU cohesion policy</term>: position of the party leadership in a specified year on EU cohesion or regional policy (e.g. the structural funds). Values range from 1 - 7, 1 = Strongly opposes, 7 = Strongly favors.</catDesc>
+      </category>
+      <category xml:id="ches.eu_environ">
+         <catDesc xml:lang="en">
+            <term>EU environmental policy</term>: position of the party leadership in a specific year on a common policy on the environment. Values range from 1 - 7, 1 = Strongly opposes, 7 = Strongly favors.</catDesc>
+      </category>
+      <category xml:id="ches.eu_asylum">
+         <catDesc xml:lang="en">
+            <term>EU political asylum policy</term>: position of the party leadership in a specific year on a common policy on political asylum. Values range from 1 - 7, 1 = Strongly opposes, 7 = Strongly favors.</catDesc>
+      </category>
+      <category xml:id="ches.eu_foreign">
+         <catDesc xml:lang="en">
+            <term>EU foreign and security policy</term>: position of the party leadership in a specific year on EU foreign and security policy. Values range from 1 - 7, 1 = Strongly opposes, 7 = Strongly favors.</catDesc>
+      </category>
+      <category xml:id="ches.eu_turkey">
+         <catDesc xml:lang="en">
+            <term>EU enlargement to Turkey</term>: position of the party leadership in a specified year on EU enlargement to Turkey. Values range from 1 - 7, 1 = Strongly opposes, 7 = Strongly favors.</catDesc>
+      </category>
+   </category>
+   <category xml:id="ches.ideological">
+      <catDesc xml:lang="en">
+         <term>Ideological positions</term>: Indicators of the political party's ideological stance on general, economic, social, and cultural issues. Unless otherwise indicated, questions are available for the period 1999 - 2019.</catDesc>
+      <category xml:id="ches.lrgen">
+         <catDesc xml:lang="en">
+            <term>Orientation position</term>: position of political party in terms of its overall ideological stance. Values on a scale from 0 to 10, 0 = extreme left, 5 = centre, 10 = extreme right</catDesc>
+      </category>
+      <category xml:id="ches.lrecon">
+         <catDesc xml:lang="en">
+            <term>Economic ideological position</term>: position of political party in terms of its ideological stance on economic issues. Parties can be classified in terms of their stance on economic issues such as privatization, taxes, regulation, government spending, and the welfare state. Parties on the economic left want government to play an active role in the economy. Parties on the economic right want a reduced role for government. Values on a scale from 0 to 10: 0 = extreme left, 5 = center, 10 = extreme right.</catDesc>
+      </category>
+      <category xml:id="ches.lrecon_salience">
+         <catDesc xml:lang="en">
+            <term>Economic ideological position salience</term>: significance of economic issues in a political party's public stance during a specific year (only asked in 2014 and 2019). Values range on a scale from 0 to 10, 0 = No importance, 10 = Great importance</catDesc>
+      </category>
+      <category xml:id="ches.lrecon_dissent">
+         <catDesc xml:lang="en">
+            <term>Economic ideological position dissent</term>: the level of internal disagreement within a political party regarding economic issues during a specific year, with responses collected in 2019 (only asked in 2019). Values on a scale from 0 to 10, 0 = Party was completely united, 10 = Party was extremely divided.</catDesc>
+      </category>
+      <category xml:id="ches.lrecon_blur">
+         <catDesc xml:lang="en">
+            <term>Economic ideological position blurriness</term>: how blurry was each party’s position on economic issues in a specific year (only asked in 2019). Values on a scale from 0 to 10;; 0 = Not at all blurred, 10 = Extremely blurred.</catDesc>
+      </category>
+      <category xml:id="ches.lrecon_sd">
+         <catDesc xml:lang="en">
+            <term>Economic ideological position standard deviation</term>: standard deviation of expert placement of the party in 2019 in terms of its
+      ideological stance on economic issues.</catDesc>
+      </category>
+      <category xml:id="ches.galtan">
+         <catDesc xml:lang="en">
+            <term>Social and cultural ideological position</term>: ideological stance of a political party concerning social and cultural values. "Libertarian" or "postmaterialist" parties favor expanded personal freedoms, for example, abortion rights, divorce, and same-sex marriage. "Traditional" or "authoritarian" parties reject these ideas in favor of order, tradition, and stability, believing that the government should be a firm moral authority on social and cultural issues. Values range on a scale from 0 to 10; 0 = Libertarian/Postmaterialist, 5 = center, 10 = Traditional/Authoritarian</catDesc>
+      </category>
+      <category xml:id="ches.galtan_salience">
+         <catDesc xml:lang="en">
+            <term>Social and cultural ideological position salience</term>: relative salience of libertarian/traditional issues in the party’s public stance in specific year (only asked in 2014 and 2019). Values range on a scale from 0 to 10; 0 = No importance, 10 = Great importance</catDesc>
+      </category>
+      <category xml:id="ches.galtan_dissent">
+         <catDesc xml:lang="en">
+            <term>Social and cultural ideological position dissent</term>: degree of dissent on libertarian/traditional issues in specific year (only asked in 2019). Values range on a scale from 0 to 10; 0 = Party was completely united, 10 = Party was extremely divided.</catDesc>
+      </category>
+      <category xml:id="ches.galtan_blur">
+         <catDesc xml:lang="en">
+            <term>Social and cultural ideological position blur</term>: how blurry was each party’s position on libertarian/traditional issues in specific year (only asked in 2019). Values range on a scale from 0 to 10; 0 = Not at all blurred, 10 = Extremely blurred.</catDesc>
+      </category>
+      <category xml:id="ches.galtan_sd">
+         <catDesc xml:lang="en">
+            <term>Social and cultural ideological position standard deviation</term>: standard deviation of expert placement of the party in 2019 in terms of their views on democratic freedoms and rights.</catDesc>
+      </category>
+   </category>
+   <category xml:id="ches.policy_dimensions">
+      <catDesc xml:lang="en">
+         <term>Policy dimensions</term>: Indicators of the political party's stance on various policy issues, such as public services, taxes, market regulation, civil liberties, religious principles, etc. Unless otherwise indicated, questions are available for a period 2006 - 2019.</catDesc>
+      <category xml:id="ches.spendvtax">
+         <catDesc xml:lang="en">
+            <term>Pubic services vs. tax reduction</term>: political party's position on improving public services vs. reducing taxes. Values range on a scale from 0 to 10; 0 = Strongly favors improving public services, 10 = Strongly favors reducing taxes.</catDesc>
+      </category>
+      <category xml:id="ches.spendvtax_salience">
+         <catDesc xml:lang="en">
+            <term>Pubic services vs. tax reduction salience</term>: importance/salience of improving public services vs. reducing taxes (not asked in 2014 or 2019). Values range on a scale from 0 to 10; 0 = Not important at all, 10 = Extremely important.</catDesc>
+      </category>
+      <category xml:id="ches.deregulation">
+         <catDesc xml:lang="en">
+            <term>Deregulation of markets</term>: political party's perspective on the deregulation of markets. Values range on a scale from 0 to 10; 0 = Strongly opposes deregulation of markets, 10 = Strongly supports deregulation of markets.</catDesc>
+      </category>
+      <category xml:id="ches.dereg_salience">
+         <catDesc xml:lang="en">
+            <term>Deregulation of markets salience</term>: importance/salience of deregulation of markets. Values range on a scale from 0 to 10; 0 = Not important at all, 10 = Extremely important.</catDesc>
+      </category>
+      <category xml:id="ches.redistribution">
+         <catDesc xml:lang="en">
+            <term>Redistribution of wealth</term>: political party's position on redistribution of wealth from the rich to the poor. Values range on a scale from 0 to 10; 0 = Strongly favors redistribution, 10 = Strongly opposes redistribution.</catDesc>
+      </category>
+      <category xml:id="ches.redist_salience">
+         <catDesc xml:lang="en">
+            <term>Redistribution of wealth salience</term>: importance/salience of redistribution. (Not asked in 2014) Values range on a scale from 0 to 10; 0 = Not important at all, 10 = Extremely important.</catDesc>
+      </category>
+      <category xml:id="ches.econ_interven">
+         <catDesc xml:lang="en">
+            <term>State intervention in the economy</term>: position on state intervention in the economy (only asked in 2014 and 2019). Values range on a scale from 0 to 10; 0 = Fully in favor of state intervention; 10 = Fully opposed to state intervention.</catDesc>
+      </category>
+      <category xml:id="ches.civlib_laworder">
+         <catDesc xml:lang="en">
+            <term>Civil Liberties vs. Law and Order</term>: position on civil liberties vs. law and order. Values range on a scale from 0 to 10; 0 = Strongly promotes civil liberties, 10 = Strongly supports tough measures to fight crime.</catDesc>
+      </category>
+      <category xml:id="ches.civlib_salience">
+         <catDesc xml:lang="en">
+            <term>Civil Liberties vs. Law and Order salience</term>: importance/salience of civil liberties vs. law and order. (Not asked in 2014 or 2019) Values range on a scale from 0 to 10; 0 = Not important at all, 10 = Extremely important.</catDesc>
+      </category>
+      <category xml:id="ches.sociallifestyle">
+         <catDesc xml:lang="en">
+            <term>Social lifestyle</term>: position on social lifestyle (e.g. rights for homosexuals, gender equality). Values range on a scale from 0 to 10; 0 = Strongly supports liberal policies, 10 = Strongly opposes liberal policies.</catDesc>
+      </category>
+      <category xml:id="ches.social_salience">
+         <catDesc xml:lang="en">
+            <term>Social lifestyle salience</term>: importance/salience of social lifestyle issues (e.g. homosexuality). (Not asked in 2014 or 2019) Values range on a scale from 0 to 10; 0 = Not important at all, 10 = Extremely important.</catDesc>
+      </category>
+      <category xml:id="ches.religious_principles">
+         <catDesc xml:lang="en">
+            <term>Religious principles</term>: position on role of religious principles in politics. Values range on a scale from 0 to 10; 0 = Strongly opposes religious principles in politics, 10 = Strongly supports religious principles in politics.</catDesc>
+      </category>
+      <category xml:id="ches.relig_salience">
+         <catDesc xml:lang="en">
+            <term>Religious principles salience</term>: importance/salience of religious principles in politics. (Not asked in 2014 or 2019) Values range on a scale from 0 to 10; 0 = Not important at all, 10 = Extremely important.</catDesc>
+      </category>
+      <category xml:id="ches.immigrate_policy">
+         <catDesc xml:lang="en">
+            <term>Immigration policy</term>: position on immigration policy. Values range on a scale from 0 to 10; 0 = Strongly favors a liberal policy on immigration, 10 = Strongly favors a restrictive policy on immigration.</catDesc>
+      </category>
+      <category xml:id="ches.immigrate_salience">
+         <catDesc xml:lang="en">
+            <term>Immigration policy salience</term>: importance/salience of immigration policy. (Not asked in 2014) Values range on a scale from 0 to 10; 0 = Not important at all, 10 = Extremely important.</catDesc>
+      </category>
+      <category xml:id="ches.immigrate_dissent">
+         <catDesc xml:lang="en">
+            <term>Immigration policy dissent</term>: degree of dissent on immigration policy in a specified year. (only asked in 2019). Values range on a scale from 0 to 10; 0 = Party was completely united, 10 = Party was extremely divided.</catDesc>
+      </category>
+      <category xml:id="ches.multiculturalism">
+         <catDesc xml:lang="en">
+            <term>Integration of immigrants</term>: position on integration of immigrants and asylum seekers (multiculturalism vs. assimilation). Values range on a scale from 0 to 10; 0 = Strongly favors multiculturalism, 10 = Strongly favors assimilation.</catDesc>
+      </category>
+      <category xml:id="ches.multicult_salience">
+         <catDesc xml:lang="en">
+            <term>Integration of immigrants salience</term>: importance/salience of integration of immigrants and asylum seekers. (Not asked in 2014) Values range on a scale from 0 to 10; 0 = Not important at all, 10 = Extremely important.</catDesc>
+      </category>
+      <category xml:id="ches.multicult_dissent">
+         <catDesc xml:lang="en">
+            <term>Integration of immigrants dissent</term>: degree of dissent on immigrants and asylum seekers issues in a specified year (only asked in 2019). Values range on a scale from 0 to 10; 0 = Party was completely united, 10 = Party was extremely divided.</catDesc>
+      </category>
+      <category xml:id="ches.urban_rural">
+         <catDesc xml:lang="en">
+            <term>Urban vs. Rural</term>: position on urban vs. rural interests. Values range on a scale from 0 to 10; 0 = Strongly supports urban interests, 10 = Strongly supports rural interests.</catDesc>
+      </category>
+      <category xml:id="ches.urban_salience">
+         <catDesc xml:lang="en">
+            <term>Urban vs. Rural salience</term>: importance/salience of urban vs. rural interests. (Not asked in 2014 or 2019) Values range on a scale from 0 to 10; 0 = Not important at all, 10 = Extremely important.</catDesc>
+      </category>
+      <category xml:id="ches.environment">
+         <catDesc xml:lang="en">
+            <term>Environmental sustainability</term>: position towards environmental sustainability. (Asked in 2010, 2014, and 2019) Values range on a scale from 0 to 10; 0 = Strongly supports environmental protection even at the cost of economic growth, 10 = Strongly supports economic growth even at the cost of environmental protection.</catDesc>
+      </category>
+      <category xml:id="ches.enviro_salience">
+         <catDesc xml:lang="en">
+            <term>Environmental sustainability salience</term>: importance/salience of environmental sustainability. (Asked in 2010 and 2019) Values range on a scale from 0 to 10; 0 = Not important at all, 10 = Extremely important.</catDesc>
+      </category>
+      <category xml:id="ches.cosmo">
+         <catDesc xml:lang="en">
+            <term>Cosmopolitanism vs. nationalism</term>: position on cosmopolitanism vs. nationalism (only asked in 2006). Values range on a scale from 0 to 10; 0 = Strongly advocates cosmopolitanism, 10 = Strongly advocates nationalism.</catDesc>
+      </category>
+      <category xml:id="ches.cosmo_salience">
+         <catDesc xml:lang="en">
+            <term>Cosmopolitanism vs. nationalism salience</term>: importance/salience of cosmopolitanism vs. nationalism (only asked in 2006). Values range on a scale from 0 to 10; 0 = Not important at all, 10 = Extremely important.</catDesc>
+      </category>
+      <category xml:id="ches.protectionism">
+         <catDesc xml:lang="en">
+            <term>Trade liberalization vs. protectionism</term>: position towards trade liberalization/protectionism (only asked in 2019). Values range on a scale from 0 to 10; 0 = Strongly favors trade liberalization, 10 = Strongly favors protection of domestic producers.</catDesc>
+      </category>
+      <category xml:id="ches.regions">
+         <catDesc xml:lang="en">
+            <term>Regional decentralization</term>: position on political decentralization to regions/localities. Values range on a scale from 0 to 10; 0 = Strongly favors political decentralization, 10 = Strongly opposes political decentralization.</catDesc>
+      </category>
+      <category xml:id="ches.region_salience">
+         <catDesc xml:lang="en">
+            <term>Regional decentralization salience</term>: importance/salience of decentralization. (Not asked in 2014 or 2019) Values range on a scale from 0 to 10; 0 = Not important at all, 10 = Extremely important.</catDesc>
+      </category>
+      <category xml:id="ches.international_security">
+         <catDesc xml:lang="en">
+            <term>International security</term>: position towards international security and peacekeeping missions. (Asked in 2010 and 2014) Values range on a scale from 0 to 10; 0 = Strongly favors troop deployment from their own country, 10 = Strongly opposes troop deployment from their own country.</catDesc>
+      </category>
+      <category xml:id="ches.international_salience">
+         <catDesc xml:lang="en">
+            <term>International security salience</term>: importance/salience of international security and peacekeeping missions (only asked in 2010). Values range on a scale from 0 to 10; 0 = Not important at all, 10 = Extremely important.</catDesc>
+      </category>
+      <category xml:id="ches.us">
+         <catDesc xml:lang="en">
+            <term>US power</term>: position towards US power in world affairs (only asked in 2006). Values range on a scale from 0 to 10; 0 = Strongly opposes strong US leadership in world affairs, 10 = Strongly favors strong US leadership in world affairs.</catDesc>
+      </category>
+      <category xml:id="ches.us_salience">
+         <catDesc xml:lang="en">
+            <term>US power salience</term>: importance/salience of US power in world affairs (only asked in 2006). Values range on a scale from 0 to 10; 0 = not important at all, 10 = extremely important.</catDesc>
+      </category>
+      <category xml:id="ches.ethnic_minorities">
+         <catDesc xml:lang="en">
+            <term>Ethnic minorities</term>: position towards ethnic minorities. Values range on a scale from 0 to 10; 0 = Strongly supports more rights for ethnic minorities, 10 = Strongly opposes more rights for ethnic minorities.</catDesc>
+      </category>
+      <category xml:id="ches.ethnic_salience">
+         <catDesc xml:lang="en">
+            <term>Ethnic minorities salience</term>: importance/salience of ethnic minorities. (Not asked in 2014 or 2019) Values range on a scale from 0 to 10; 0 = Not important at all, 10 = Extremely important.</catDesc>
+      </category>
+      <category xml:id="ches.nationalism">
+         <catDesc xml:lang="en">
+            <term>Cosmopolitanism vs. nationalism position</term>: position towards cosmopolitanism vs. nationalism. (Asked in 2014 or 2019) Values range on a scale from 0 to 10; 0 = Strongly promotes cosmopolitan conceptions of society, 10 = Strongly promotes nationalist conceptions of society.</catDesc>
+      </category>
+      <category xml:id="ches.anti_islam_rhetoric">
+         <catDesc xml:lang="en">
+            <term>Anti-Islam Rhetoric salience</term>: salience of anti-Islam rhetoric for the party leadership. Values range on a scale from 0 to 10; 0 = Not important at all, 10 = Extremely important.</catDesc>
+      </category>
+      <category xml:id="ches.russian_interference">
+         <catDesc xml:lang="en">
+            <term>Russian interference salience</term>: salience of Russian interference in domestic affairs for the party leadership. Values range on a scale from 0 to 10; 0 = No importance, 10 = Great importance.</catDesc>
+      </category>
+   </category>
+   <category xml:id="ches.party_characteristics">
+      <catDesc xml:lang="en">
+         <term>Party characteristics</term>: Indicators of a political party's positions on direct people participation, anti-elite sentiment, anti-corruption, and the role of members vs. leadership in policy decisions.</catDesc>
+      <category xml:id="ches.people_vs_elite">
+         <catDesc xml:lang="en">
+            <term>People vs. elite</term>: position on people vs elected representatives. Some political parties take the position that ‘the people’ should have the final say on the most important issues, for example, by voting directly in referendums. At the opposite pole are political parties that believe that elected representatives should make the most important political decisions. (only asked in 2019). Values range on a scale from 0 to 10; 0 = Elected office holders should make the most important decisions, 10 = ‘The people’, not politicians, should make the most important decisions.</catDesc>
+      </category>
+      <category xml:id="ches.antielite_salience">
+         <catDesc xml:lang="en">
+            <term>Anti-elite salience</term>: salience of anti-establishment and anti-elite rhetoric. (Asked in 2014 and 2019). Values range on a scale from 0 to 10; 0 = Not important at all, 10 = Extremely important.</catDesc>
+      </category>
+      <category xml:id="ches.corrupt_salience">
+         <catDesc xml:lang="en">
+            <term>Reducing political corruption salience</term>: salience of reducing political corruption. (Asked in 2014 and 2019). Values range on a scale from 0 to 10; 0 = Not important at all, 10 = Extremely important.</catDesc>
+      </category>
+      <category xml:id="ches.members_vs_leadership">
+         <catDesc xml:lang="en">
+            <term>Members/Activists vs. Party leadership in policy choices</term>: position on party leadership vs. members/activists making party policy choices. (only asked in 2019). Values range on a scale from 0 to 10; 0 = Members/activists have complete control over policy choices, 10 = Leadership has complete control over policy choices.</catDesc>
+      </category>
+   </category>
+   <category xml:id="ches.eu_for_turkey">
+      <catDesc xml:lang="en">
+         <term>Turkey's EU Membership</term>: Indicators of political parties' attitudes toward Turkey's EU membership. (only asked in 2019)</catDesc>
+      <category xml:id="ches.eu_econ_require">
+         <catDesc xml:lang="en">
+            <term>EU economic requirements</term>: position on party leadership vs. members/activists making party policy choices (only asked in 2019). Values range on a scale from 1 to 7; 1 = Strongly opposed to fulfilling economic requirements, 7 = Strongly in favor of fulfilling economic requirements.</catDesc>
+      </category>
+      <category xml:id="ches.eu_political_require">
+         <catDesc xml:lang="en">
+            <term>EU political requirements</term>: position on fulfilling the political requirements of EU membership. Values range on a scale from 1 to 7; 1 = Strongly opposed to fulfilling political requirements, 7 = Strongly in favor of fulfilling political requirements.</catDesc>
+      </category>
+      <category xml:id="ches.eu_googov_require">
+         <catDesc xml:lang="en">
+            <term>EU good governance requirements</term>: position on fulfilling the good governance requirements of EU membership. Values range on a scale from 1 to 7; 1 = Strongly opposed to fulfilling good governance requirements, 7 = Strongly in favor of fulfilling good governance requirements.</catDesc>
+      </category>
+   </category>
+   <category xml:id="ches.most_important_issue">
+      <catDesc xml:lang="en">
+         <term>Most important issues</term>: Entries for the next three questions are a summary of the expert responses to the Most Important Issue question. Each expert ranked one issue as the most important, one issue as the second most important, and one issue as the third most important issue. In this dataset, we aggregate these responses using a simple ordinal voting technique. For each party, an issue received 10 points if it is ranked as the #1 issue by an expert 5 points if it is ranked #2 by an expert, and 1 point if it is ranked #3 by an expert. After adding together the issue scores for all the experts for each individual party, we ranked each issue by the total number of points, yielding the MIP_ONE, MIP_TWO, and MIP_THREE variables. Tables with the Most important issue options are available in the 1999-2019 Chapel Hill Expert Survey (CHES) trend file Codebook (https://www.chesdata.eu/s/1999-2019_CHES_codebook.pdf)</catDesc>
+      <category xml:id="ches.mip_one">
+         <catDesc xml:lang="en">
+            <term>Most important question</term>: most important issue for the party over the course of specified year.</catDesc>
+      </category>
+      <category xml:id="ches.mip_three">
+         <catDesc xml:lang="en">
+            <term>Second most important question</term>: second most important issue for the party over the course of specified year.</catDesc>
+      </category>
+      <category xml:id="ches.mip_two">
+         <catDesc xml:lang="en">
+            <term>Third most important question</term>: third most important issue for the party over the course of specified year.</catDesc>
+      </category>
+   </category>
+</taxonomy>

@@ -35,7 +35,7 @@
   <xsl:template match="tei:s//text()"/>
 
   <xsl:template match="tei:w | tei:pc">
-    <xsl:value-of select="."/>
+    <xsl:value-of select="normalize-space(.)"/> <!-- space normalization fixes indentation inside orthographical tokes -->
     <xsl:if test="not(@join = 'right')">
       <xsl:text>&#32;</xsl:text>
     </xsl:if>

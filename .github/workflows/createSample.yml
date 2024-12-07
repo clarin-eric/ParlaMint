@@ -49,16 +49,17 @@ jobs:
       - name: Create Parliaments Samples ${{needs.Changes.outputs.parla_changed}}
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
+          SAXON=Scripts/bin/saxon.jar
           for parla in $(jq -r '.[]' <<< '${{needs.Changes.outputs.parla_changed}}' ); do
             echo "::group::Processing ParlaMint-$parla"
             DIR="${{env.SAMPLE_DIR}}/$parla"
             mkdir $DIR
             echo "::notice::New sample files [$parla] TEXT"
-            java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$DIR revRespPers='GitHub Action' -xsl:${{env.SAMPLE_SCRIPT}} Samples/ParlaMint-$parla/ParlaMint-$parla.xml
+            java -jar $SAXON outDir=$DIR revRespPers='GitHub Action' -xsl:${{env.SAMPLE_SCRIPT}} Samples/ParlaMint-$parla/ParlaMint-$parla.xml
 
             echo "::notice::New sample files [$parla] ANNOTATED"
             if [ -f "Samples/ParlaMint-$parla/ParlaMint-$parla.ana.xml" ] ; then
-              java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$DIR revRespPers='GitHub Action' -xsl:${{env.SAMPLE_SCRIPT}} Samples/ParlaMint-$parla/ParlaMint-$parla.ana.xml
+              java -jar $SAXON outDir=$DIR revRespPers='GitHub Action' -xsl:${{env.SAMPLE_SCRIPT}} Samples/ParlaMint-$parla/ParlaMint-$parla.ana.xml
             else
               echo "::warning::skipping annotated conversion - missing corpus root file"
             fi
