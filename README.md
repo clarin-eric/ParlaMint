@@ -30,7 +30,7 @@ versions 4.1 and 2.1:
   Kahusk, Anna Kryvenko, Noémi Ligeti-Nagy, Carmen Magariños, Martin Mölder, Costanza
   Navarretta, Kiril Simov, Lars Magne Tungland, Jouni Tuominen, John Vidler, Adina Ioana Vladu,
   Tanja Wissik, Väinö Yrjänäinen & Darja Fišer.
-  _ParlaMint II: Advancing Comparable Parliamentary Corpora Across Europe_.
+  **ParlaMint II: Advancing Comparable Parliamentary Corpora Across Europe**.
   *Language Resources & Evaluation* (2024).
   DOI: [10.1007/s10579-024-09798-w](https://doi.org/10.1007/s10579-024-09798-w).
   
@@ -39,7 +39,7 @@ versions 4.1 and 2.1:
   de Does, Katrien Depuydt, Tommaso Agnoloni, Giulia Venturi, María Calzada Pérez, Luciana D. de
   Macedo, Costanza Navarretta, Giancarlo Luxardo, Matthew Coole, Paul Rayson, Vaidas Morkevičius,
   Tomas Krilavičius, Roberts Darǵis, Orsolya Ring, Ruben van Heusden, Maarten Marx & Darja Fišer.
-  _The ParlaMint corpora of parliamentary proceedings_.
+  **The ParlaMint corpora of parliamentary proceedings**.
   *Language Resources & Evaluation* 57:415–448 (2023).
   DOI: [10.1007/s10579-021-09574-0](https://doi.org/10.1007/s10579-021-09574-0).
    
