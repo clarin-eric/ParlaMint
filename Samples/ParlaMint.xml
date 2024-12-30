@@ -290,6 +290,36 @@
                      corresp="#ParlaMint-HU"
                      n="9"
                      xml:lang="hu">9. ciklus</meeting>
+            <meeting xmlns:xi="http://www.w3.org/2001/XInclude"
+                     n="14"
+                     corresp="#ParlaMint-IL"
+                     ana="#parla.uni-IL #parla.term-IL #period_14-IL"
+                     xml:lang="he">הכנסת ה-14</meeting>
+            <meeting xmlns:xi="http://www.w3.org/2001/XInclude"
+                     n="14"
+                     corresp="#ParlaMint-IL"
+                     ana="#parla.uni-IL #parla.term-IL #period_14-IL"
+                     xml:lang="en">14th Knesset</meeting>
+            <meeting xmlns:xi="http://www.w3.org/2001/XInclude"
+                     n="18"
+                     corresp="#ParlaMint-IL"
+                     ana="#parla.uni-IL #parla.term-IL #period_18-IL"
+                     xml:lang="he">הכנסת ה-18</meeting>
+            <meeting xmlns:xi="http://www.w3.org/2001/XInclude"
+                     n="18"
+                     corresp="#ParlaMint-IL"
+                     ana="#parla.uni-IL #parla.term-IL #period_18-IL"
+                     xml:lang="en">18th Knesset</meeting>
+            <meeting xmlns:xi="http://www.w3.org/2001/XInclude"
+                     n="24"
+                     corresp="#ParlaMint-IL"
+                     ana="#parla.uni-IL #parla.term-IL #period_24-IL"
+                     xml:lang="he">הכנסת ה-24</meeting>
+            <meeting xmlns:xi="http://www.w3.org/2001/XInclude"
+                     n="24"
+                     corresp="#ParlaMint-IL"
+                     ana="#parla.uni-IL #parla.term-IL #period_24-IL"
+                     xml:lang="en">24th Knesset</meeting>
             <meeting n="21"
                      ana="#parla.uni-IS #parla.term-IS #LV.21-IS"
                      xml:lang="is"
@@ -820,6 +850,9 @@
                <persName>Zsófia Varga</persName>
                <resp>Metadata collection and organization</resp>
             </respStmt>
+            <respStmt xmlns:xi="http://www.w3.org/2001/XInclude" corresp="#ParlaMint-IL">
+               <persName>CLG lab, University of Haifa</persName>
+            </respStmt>
             <respStmt corresp="#ParlaMint-IS">
                <persName>Starkaður Barkarson</persName>
                <resp>Collection and processing of texts. TEI encoding.</resp>
@@ -976,7 +1009,7 @@
             <edition>4.1</edition>
          </editionStmt>
          <extent>
-            <measure unit="corpora" quantity="29">29 corpora</measure>
+            <measure unit="corpora" quantity="30">30 corpora</measure>
             <measure unit="speeches" quantity="8073406">8,073,406 speeches</measure>
             <measure unit="speeches" quantity="231759" corresp="#ParlaMint-AT">231,759 speeches</measure>
             <measure unit="speeches" quantity="126252" corresp="#ParlaMint-BA">126,252 speeches</measure>
@@ -1066,7 +1099,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-06-03">June 3, 2024</date>
+            <date when="2024-12-06">December 6, 2024</date>
          </publicationStmt>
          <sourceDesc>
             <listBibl corresp="#ParlaMint-AT">
@@ -1242,6 +1275,20 @@
                   <date from="2014-05-06" to="2023-07-31">2014.05.06 - 2023.07.31.</date>
                </bibl>
             </listBibl>
+            <listBibl corresp="#ParlaMint-IL">
+               <head>ParlaMint-IL</head>
+               <bibl>
+                  <title xmlns:xi="http://www.w3.org/2001/XInclude" type="main" xml:lang="he">פרוטוקולים של הכנסת</title>
+                  <title xmlns:xi="http://www.w3.org/2001/XInclude" type="main" xml:lang="he">Knesset Protocols</title>
+                  <publisher xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="he">כנסת ישראל</publisher>
+                  <idno xmlns:xi="http://www.w3.org/2001/XInclude"
+                        type="URI"
+                        subtype="parliament">https://main.knesset.gov.il</idno>
+                  <date xmlns:xi="http://www.w3.org/2001/XInclude"
+                        from="1993-07-12"
+                        to="2024-04-03">1993-07-12 - 2024-04-03</date>
+               </bibl>
+            </listBibl>
             <listBibl corresp="#ParlaMint-IS">
                <head>ParlaMint-IS</head>
                <bibl>
@@ -1394,6 +1441,7 @@
                <p corresp="#ParlaMint-GR">No correction of source texts was performed.</p>
                <p corresp="#ParlaMint-HR">No correction of source texts was performed.</p>
                <p corresp="#ParlaMint-HU">No correction of source texts was performed.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude" corresp="#ParlaMint-IL">Obvious OCR errors and encoding issues have been corrected.</p>
                <p corresp="#ParlaMint-IS">No correction of source texts was performed.</p>
                <p corresp="#ParlaMint-IT">No correction of source texts was performed.</p>
                <p corresp="#ParlaMint-LV">No correction of source texts was performed.</p>
@@ -1425,6 +1473,7 @@
                <p corresp="#ParlaMint-GR">Text has not been normalised, except for spacing.</p>
                <p corresp="#ParlaMint-HR">Text has not been normalised, except for spacing.</p>
                <p corresp="#ParlaMint-HU">Text has not been normalised, except for speakers' name and affiliation.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude" corresp="#ParlaMint-IL">The text has been normalized to replace certain characters and remove unwanted spaces.</p>
                <p corresp="#ParlaMint-IS">No end-of-line hyphens were present in the source.</p>
                <p corresp="#ParlaMint-IT">Text has not been normalised, except for spacing.</p>
                <p corresp="#ParlaMint-LV">Text has not been normalised, except for spacing.</p>
@@ -1456,6 +1505,7 @@
                <p corresp="#ParlaMint-GR">No end-of-line hyphens were present in the source.</p>
                <p corresp="#ParlaMint-HR">No end-of-line hyphens were present in the source.</p>
                <p corresp="#ParlaMint-HU">No end-of-line hyphens were present in the source.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude" corresp="#ParlaMint-IL">End-of-line hyphens have been removed and split words joined.</p>
                <p corresp="#ParlaMint-IS">Text has not been normalised, except for spacing</p>
                <p corresp="#ParlaMint-IT">No end-of-line hyphens were present in the source.</p>
                <p corresp="#ParlaMint-LV">No end-of-line hyphens were present in the source.</p>
@@ -1487,6 +1537,7 @@
                <p corresp="#ParlaMint-GR">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p corresp="#ParlaMint-HR">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p corresp="#ParlaMint-HU">Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude" corresp="#ParlaMint-IL">Quotation marks are retained as in the original texts.</p>
                <p corresp="#ParlaMint-IS">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p corresp="#ParlaMint-IT">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p corresp="#ParlaMint-LV">Quotation marks have been left in the text and are not explicitly marked up.</p>
@@ -1519,6 +1570,7 @@
                <p corresp="#ParlaMint-GR">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p corresp="#ParlaMint-HR">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p corresp="#ParlaMint-HU">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude" corresp="#ParlaMint-IL">Multiple whitespace characters have been replaced with a single space.</p>
                <p corresp="#ParlaMint-IS">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p corresp="#ParlaMint-IT">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p corresp="#ParlaMint-LV">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
@@ -1535,19 +1587,19 @@
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="46204"/>
+               <tagUsage gi="body" occurs="46208"/>
                <tagUsage gi="desc" occurs="1650244"/>
-               <tagUsage gi="div" occurs="180038"/>
+               <tagUsage gi="div" occurs="180042"/>
                <tagUsage gi="gap" occurs="120870"/>
-               <tagUsage gi="head" occurs="147383"/>
+               <tagUsage gi="head" occurs="147387"/>
                <tagUsage gi="incident" occurs="79527"/>
                <tagUsage gi="kinesic" occurs="954808"/>
                <tagUsage gi="note" occurs="8175909"/>
                <tagUsage gi="pb" occurs="160325"/>
-               <tagUsage gi="seg" occurs="20289537"/>
-               <tagUsage gi="text" occurs="46204"/>
+               <tagUsage gi="seg" occurs="20291495"/>
+               <tagUsage gi="text" occurs="46208"/>
                <tagUsage gi="time" occurs="464496"/>
-               <tagUsage gi="u" occurs="8073406"/>
+               <tagUsage gi="u" occurs="8075364"/>
                <tagUsage gi="vocal" occurs="479877"/>
                <tagUsage gi="body" occurs="1221" corresp="#ParlaMint-AT"/>
                <tagUsage gi="body" occurs="743" corresp="#ParlaMint-BA"/>
@@ -1572,6 +1624,10 @@
                <tagUsage gi="body" occurs="1263" corresp="#ParlaMint-GR"/>
                <tagUsage gi="body" occurs="1708" corresp="#ParlaMint-HR"/>
                <tagUsage gi="body" occurs="579" corresp="#ParlaMint-HU"/>
+               <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
+                         gi="body"
+                         occurs="4"
+                         corresp="#ParlaMint-IL"/>
                <tagUsage gi="body" occurs="928" corresp="#ParlaMint-IS"/>
                <tagUsage gi="body" occurs="1388" corresp="#ParlaMint-IT"/>
                <tagUsage gi="body" occurs="635" corresp="#ParlaMint-LV"/>
@@ -1641,6 +1697,10 @@
                <tagUsage gi="div" occurs="1263" corresp="#ParlaMint-GR"/>
                <tagUsage gi="div" occurs="1708" corresp="#ParlaMint-HR"/>
                <tagUsage gi="div" occurs="579" corresp="#ParlaMint-HU"/>
+               <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
+                         gi="div"
+                         occurs="4"
+                         corresp="#ParlaMint-IL"/>
                <tagUsage gi="div" occurs="928" corresp="#ParlaMint-IS"/>
                <tagUsage gi="div" occurs="17089" corresp="#ParlaMint-IT"/>
                <tagUsage gi="div" occurs="635" corresp="#ParlaMint-LV"/>
@@ -1685,6 +1745,10 @@
                          corresp="#ParlaMint-FR"/>
                <tagUsage gi="head" occurs="31215" corresp="#ParlaMint-GB"/>
                <tagUsage gi="head" occurs="7578" corresp="#ParlaMint-GR"/>
+               <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
+                         gi="head"
+                         occurs="4"
+                         corresp="#ParlaMint-IL"/>
                <tagUsage gi="head" occurs="13170" corresp="#ParlaMint-IT"/>
                <tagUsage gi="head" occurs="6100" corresp="#ParlaMint-NL"/>
                <tagUsage gi="head" occurs="20123" corresp="#ParlaMint-NO"/>
@@ -1816,6 +1880,10 @@
                <tagUsage gi="seg" occurs="1229320" corresp="#ParlaMint-GR"/>
                <tagUsage gi="seg" occurs="511279" corresp="#ParlaMint-HR"/>
                <tagUsage gi="seg" occurs="486722" corresp="#ParlaMint-HU"/>
+               <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
+                         gi="seg"
+                         occurs="1958"
+                         corresp="#ParlaMint-IL"/>
                <tagUsage gi="seg" occurs="334424" corresp="#ParlaMint-IS"/>
                <tagUsage gi="seg" occurs="320384" corresp="#ParlaMint-IT"/>
                <tagUsage gi="seg" occurs="371100" corresp="#ParlaMint-LV"/>
@@ -1854,6 +1922,10 @@
                <tagUsage gi="text" occurs="1263" corresp="#ParlaMint-GR"/>
                <tagUsage gi="text" occurs="1708" corresp="#ParlaMint-HR"/>
                <tagUsage gi="text" occurs="579" corresp="#ParlaMint-HU"/>
+               <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
+                         gi="text"
+                         occurs="4"
+                         corresp="#ParlaMint-IL"/>
                <tagUsage gi="text" occurs="928" corresp="#ParlaMint-IS"/>
                <tagUsage gi="text" occurs="1388" corresp="#ParlaMint-IT"/>
                <tagUsage gi="text" occurs="635" corresp="#ParlaMint-LV"/>
@@ -1895,6 +1967,10 @@
                <tagUsage gi="u" occurs="342274" corresp="#ParlaMint-GR"/>
                <tagUsage gi="u" occurs="504338" corresp="#ParlaMint-HR"/>
                <tagUsage gi="u" occurs="116346" corresp="#ParlaMint-HU"/>
+               <tagUsage xmlns:xi="http://www.w3.org/2001/XInclude"
+                         gi="u"
+                         occurs="1958"
+                         corresp="#ParlaMint-IL"/>
                <tagUsage gi="u" occurs="95286" corresp="#ParlaMint-IS"/>
                <tagUsage gi="u" occurs="172796" corresp="#ParlaMint-IT"/>
                <tagUsage gi="u" occurs="162782" corresp="#ParlaMint-LV"/>
@@ -2056,6 +2132,13 @@
                <name type="country" key="HU">Hungary</name>
                <date from="2014-05-06" to="2023-07-31"/>
             </setting>
+            <setting corresp="#ParlaMint-IL">
+               <name xmlns:xi="http://www.w3.org/2001/XInclude" type="city">ירושלים</name>
+               <name xmlns:xi="http://www.w3.org/2001/XInclude" key="IL" type="country">ישראל</name>
+               <date xmlns:xi="http://www.w3.org/2001/XInclude"
+                     from="1993-07-12"
+                     to="2024-04-03">1993-07-12 - 2024-04-03</date>
+            </setting>
             <setting corresp="#ParlaMint-IS">
                <name type="address">Kirkjustræti</name>
                <name type="city">Reykjavik</name>
@@ -2186,6 +2269,10 @@
             <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
                     target="#parla.uni"
                     corresp="#ParlaMint-HU"/>
+            <catRef xmlns:xi="http://www.w3.org/2001/XInclude"
+                    scheme="#ParlaMint-taxonomy-parla.legislature"
+                    target="#parla.uni"
+                    corresp="#ParlaMint-IL"/>
             <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
                     target="#parla.uni"
                     corresp="#ParlaMint-IS"/>
@@ -2374,6 +2461,12 @@
             <language ident="mul" xml:lang="hu" usage="0">többnyelvű</language>
             <language ident="mul" xml:lang="en" usage="0">Multilingual</language>
          </langUsage>
+         <langUsage corresp="#ParlaMint-IL">
+            <language xmlns:xi="http://www.w3.org/2001/XInclude" ident="he" xml:lang="he">עברית</language>
+            <language xmlns:xi="http://www.w3.org/2001/XInclude" ident="en" xml:lang="he">אנגלית</language>
+            <language xmlns:xi="http://www.w3.org/2001/XInclude" ident="he" xml:lang="en">Hebrew</language>
+            <language xmlns:xi="http://www.w3.org/2001/XInclude" ident="en" xml:lang="en">English</language>
+         </langUsage>
          <langUsage corresp="#ParlaMint-IS">
             <language ident="is" xml:lang="is">Íslenska</language>
             <language ident="is" xml:lang="en">Icelandic</language>
@@ -2450,7 +2543,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-06-03">
+         <change when="2024-12-06">
             <name>Tomaž Erjavec</name>: Generate root</change>
       </revisionDesc>
    </teiHeader>
@@ -2488,6 +2581,8 @@
                href="ParlaMint-HR/ParlaMint-HR.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-HU/ParlaMint-HU.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-IL/ParlaMint-IL.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-IS/ParlaMint-IS.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
