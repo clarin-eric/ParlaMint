@@ -5,8 +5,8 @@
 ### VARIABLES
 
 ### COMPLETE SET OF CORPORA
-CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-#CORPORA=
+#CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+CORPORA=IL
 # Used in targets that run only for one corpus
 CORPUS=
 
@@ -23,10 +23,10 @@ SOURCES = ${HERE}/Sources-TEI
 SOURCES-MT = ${HERE}/Sources-CoNLLU
 
 # Version number and PID of next ParlaMint release
-VERSION = 4.1
-HANDLE-TEI = http://hdl.handle.net/11356/1912
-HANDLE-ANA = http://hdl.handle.net/11356/1911
-HANDLE-MT  = http://hdl.handle.net/11356/1910
+VERSION = 4.2
+HANDLE-TEI = http://hdl.handle.net/11356/XXXX
+HANDLE-ANA = http://hdl.handle.net/11356/YYYY
+HANDLE-MT  = http://hdl.handle.net/11356/ZZZZ
 
 #Where the produced corpora are put for inspection
 WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint
