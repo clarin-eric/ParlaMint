@@ -141,6 +141,7 @@ $country2lang{'GB'} = 'en';
 $country2lang{'GR'} = 'el';
 $country2lang{'HR'} = 'hr';
 $country2lang{'HU'} = 'hu';
+$country2lang{'IL'} = 'he';
 $country2lang{'IS'} = 'is';
 $country2lang{'IT'} = 'it';
 $country2lang{'LT'} = 'lt';
