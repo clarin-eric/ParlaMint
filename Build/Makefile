@@ -23,10 +23,10 @@ SOURCES = ${HERE}/Sources-TEI
 SOURCES-MT = ${HERE}/Sources-CoNLLU
 
 # Version number and PID of next ParlaMint release
-VERSION = 4.2
-HANDLE-TEI = http://hdl.handle.net/11356/XXXX
-HANDLE-ANA = http://hdl.handle.net/11356/YYYY
-HANDLE-MT  = http://hdl.handle.net/11356/ZZZZ
+VERSION = 5.0
+HANDLE-TEI = http://hdl.handle.net/11356/2004
+HANDLE-ANA = http://hdl.handle.net/11356/2005
+HANDLE-MT  = http://hdl.handle.net/11356/2006
 
 #Where the produced corpora are put for inspection
 WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint
