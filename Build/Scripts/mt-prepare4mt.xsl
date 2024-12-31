@@ -90,6 +90,7 @@
 	  <xsl:when test="$country-code = 'GR'">grk</xsl:when>
 	  <xsl:when test="$country-code = 'HR'">zls</xsl:when>
 	  <xsl:when test="$country-code = 'HU'">hu</xsl:when>
+ 	  <xsl:when test="$country-code = 'IL'">he</xsl:when>
 	  <xsl:when test="$country-code = 'IS'">is</xsl:when>
 	  <xsl:when test="$country-code = 'IT'">it</xsl:when>
 	  <xsl:when test="$country-code = 'LV'">bat</xsl:when>
