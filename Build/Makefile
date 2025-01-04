@@ -27,13 +27,6 @@ VERSION = 5.0
 HANDLE-TEI = http://hdl.handle.net/11356/2004
 HANDLE-ANA = http://hdl.handle.net/11356/2005
 HANDLE-MT  = http://hdl.handle.net/11356/2006
-=======
-# Version number and PID of next ParlaMint release (this is temporary, for SI only!)
-VERSION = 4.1.1
-HANDLE-TEI = http://hdl.handle.net/11356/XXXX
-HANDLE-ANA = http://hdl.handle.net/11356/YYYY
-HANDLE-MT  = http://hdl.handle.net/11356/ZZZZ
->>>>>>> devel
 
 #Where the produced corpora are put for inspection
 WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint
