@@ -6,7 +6,7 @@
 
 ### COMPLETE SET OF CORPORA
 #CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-CORPORA= SI
+CORPORA=SI
 # Used in targets that run only for one corpus
 CORPUS=
 
@@ -22,7 +22,6 @@ SOURCES = ${HERE}/Sources-TEI
 # ParlaMint-XX-en.TEI.ana, MTed + semantically tagged:
 SOURCES-MT = ${HERE}/Sources-CoNLLU
 
-<<<<<<< HEAD
 # Version number and PID of next ParlaMint release
 VERSION = 5.0
 HANDLE-TEI = http://hdl.handle.net/11356/2004
