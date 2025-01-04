@@ -36,6 +36,10 @@
       however, contain transcription commentary.</a:documentation>
       <element name="seg">
         <ref name="global.atts"/>
+        <!-- Might have a linguistic analysis -->
+	<optional>
+          <ref name="ana.att"/>
+        </optional>
         <oneOrMore>
           <choice>
             <ref name="comment"/>
@@ -47,11 +51,15 @@
     </define>
     
   </include>
-
+  
   <define name="sentence">
     <a:documentation>A sentence.</a:documentation>
     <element name="s">
       <ref name="global.atts"/>
+      <!-- Might have a linguistic analysis -->
+      <optional>
+        <ref name="ana.att"/>
+      </optional>
       <oneOrMore>
         <choice>
           <ref name="comment"/>

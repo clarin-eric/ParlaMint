@@ -120,6 +120,7 @@ $taxonomy{'ParlaMint-taxonomy-subcorpus'}            = "$taxonomyDir/ParlaMint-t
 $taxonomy{'ParlaMint-taxonomy-NER.ana'}              = "$taxonomyDir/ParlaMint-taxonomy-NER.ana.xml";
 $taxonomy{'ParlaMint-taxonomy-CHES'}                 = "$taxonomyDir/ParlaMint-taxonomy-CHES.xml";
 $taxonomy{'ParlaMint-taxonomy-UD-SYN.ana'}           = "$taxonomyDir/ParlaMint-taxonomy-UD-SYN.ana.xml";
+$taxonomy{'ParlaMint-taxonomy-sentiment.ana'}        = "$taxonomyDir/ParlaMint-taxonomy-sentiment.ana.xml";
   
 # Mapping of countries to languages, we need it for mapping of common taxonomies
 $country2lang{'AT'} = 'de';

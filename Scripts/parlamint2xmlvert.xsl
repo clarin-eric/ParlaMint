@@ -106,6 +106,24 @@
       <xsl:if test="normalize-space($topic)">
         <xsl:attribute name="topic" select="$topic"/>
       </xsl:if>
+      <!-- Sentiment is given currently only in SI corpus -->
+      <xsl:if test="$country-code = 'SI'">
+        <xsl:attribute name="senti_3">
+          <xsl:call-template name="senti">
+            <xsl:with-param name="type">3</xsl:with-param>
+          </xsl:call-template>
+        </xsl:attribute>
+        <xsl:attribute name="senti_6">
+          <xsl:call-template name="senti">
+            <xsl:with-param name="type">6</xsl:with-param>
+          </xsl:call-template>
+        </xsl:attribute>
+        <xsl:attribute name="senti_n">
+          <xsl:call-template name="senti">
+            <xsl:with-param name="type">n</xsl:with-param>
+          </xsl:call-template>
+        </xsl:attribute>
+      </xsl:if>
       <xsl:choose>
         <xsl:when test="@who">
           <xsl:variable name="speaker" select="key('idr', @who, $rootHeader)"/>
@@ -225,6 +243,24 @@
   <xsl:template match="tei:s">
     <xsl:copy>
       <xsl:attribute name="id" select="@xml:id"/>
+      <!-- Sentiment is given currently only in SI corpus -->
+      <xsl:if test="$country-code = 'SI'">
+        <xsl:attribute name="senti_3">
+          <xsl:call-template name="senti">
+            <xsl:with-param name="type">3</xsl:with-param>
+          </xsl:call-template>
+        </xsl:attribute>
+        <xsl:attribute name="senti_6">
+          <xsl:call-template name="senti">
+            <xsl:with-param name="type">6</xsl:with-param>
+          </xsl:call-template>
+        </xsl:attribute>
+        <xsl:attribute name="senti_n">
+          <xsl:call-template name="senti">
+            <xsl:with-param name="type">n</xsl:with-param>
+          </xsl:call-template>
+        </xsl:attribute>
+      </xsl:if>
       <xsl:text>&#10;</xsl:text>
       <xsl:apply-templates/>
     </xsl:copy>
