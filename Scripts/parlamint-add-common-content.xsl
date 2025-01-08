@@ -485,7 +485,7 @@
             </xsl:apply-templates>
           </xsl:variable>
           <xsl:result-document href="{tei:url-new}">
-            <copy-of select="$componentContent"/>
+            <xsl:copy-of select="$componentContent"/>
           </xsl:result-document>
           <xsl:result-document href="{tei:url-header}">
             <xsl:apply-templates mode="header" select="$componentContent"/>
