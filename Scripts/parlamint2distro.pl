@@ -314,7 +314,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
         print STDERR "INFO: ***Adding common content to TEI corpus\n";
         logger('Adding common content to TEI corpus');
         `rm -fr $outTeiHeaderDir; mkdir $outTeiHeaderDir`;
-        loop_chunks($tmpTeiRoot, $scriptCommon, "version=$Version handle-tei=$handleTEI anaDir=$outAnaDir anaHeaderDir=$outAnaHeaderDir outHeaderDir=$outTeiHeaderDir outDir=$outTeiDir", 0, $procChunkSize);
+        loop_chunks($tmpTeiRoot, $scriptCommon, "version=$Version handle-tei=$handleTEI anaDir=$outAnaDir anaHeaderDir=$outAnaHeaderDir outHeaderDir=$outTeiHeaderDir outDir=$outDir", 0, $procChunkSize);
         &commonTaxonomies($countryCode, $outTeiDir);
         logger('Polishing TEI corpus');
         &polish($outTeiDir);
