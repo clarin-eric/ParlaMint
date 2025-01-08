@@ -73,6 +73,10 @@
     </xsl:if>
   </xsl:param>
   
+  <!-- parameters for partial processing, root file is processed after processing the last component file -->
+  <xsl:param name="chunkStart">0</xsl:param>
+  <xsl:param name="chunkSize">0</xsl:param> <!-- 0 means process all -->
+  
   <xsl:output method="xml" indent="yes"/>
   <xsl:preserve-space elements="catDesc seg"/>
 
@@ -103,6 +107,7 @@
 	    <xsl:otherwise>component</xsl:otherwise>
 	  </xsl:choose>
 	</xsl:attribute>
+      <xsl:attribute name="position" select="position()"/>
         <xi-orig>
           <xsl:value-of select="@href"/>
         </xi-orig>
@@ -126,13 +131,27 @@
       </item>
       </xsl:for-each>
   </xsl:variable>
-  
+
+  <!-- docs to process in chunk -->
+  <xsl:variable name="docsChunk">
+    <xsl:copy-of select="$docs//tei:item[xs:integer(@position) gt xs:integer($chunkStart) and (xs:integer(@position) le $chunkStart + $chunkSize or $chunkSize = 0)]"/>  
+  </xsl:variable> 
+
   <xsl:template match="/">
     <xsl:message select="concat('INFO Starting to process ', tei:teiCorpus/@xml:id)"/>
+    <xsl:message>
+      <xsl:text>INFO Starting to process component files</xsl:text>
+      <xsl:if test="xs:integer($chunkSize) = 0 or xs:integer($chunkStart) gt 0">
+        <xsl:text> from </xsl:text>
+        <xsl:value-of select="$docsChunk//tei:item[1]/@position"/>
+        <xsl:text> to </xsl:text>
+        <xsl:value-of select="$docsChunk//tei:item[last()]/@position"/> 
+      </xsl:if>
+    </xsl:message>
     <!-- Process component files -->
-    <xsl:for-each select="$docs//tei:item">
+    <xsl:for-each select="$docsChunk//tei:item">
       <xsl:variable name="this" select="tei:xi-orig"/>
-      <xsl:message select="concat('INFO Processing ', $this)"/>
+      <xsl:message select="concat('INFO Processing [',@position,'] ', $this)"/>
       <xsl:result-document href="{tei:url-new}">
 	<xsl:choose>
 	  <!-- Process factorised parts of corpus root teiHeader as if they were root -->
@@ -146,11 +165,14 @@
 	</xsl:choose>
       </xsl:result-document>
     </xsl:for-each>
-    <!-- Output Root file -->
-    <xsl:message select="concat('INFO processing root ', tei:teiCorpus/@xml:id)"/>
-    <xsl:result-document href="{$outRoot}">
-      <xsl:apply-templates mode="root"/>
-    </xsl:result-document>
+    <xsl:if test="$docsChunk//tei:item[last()]/@position = count($docs//tei:item)">
+      <xsl:text>STATUS: Processed last chunk</xsl:text> <!-- Do not change this message !!! -->
+      <!-- Output Root file -->
+      <xsl:message select="concat('INFO processing root ', tei:teiCorpus/@xml:id)"/>
+      <xsl:result-document href="{$outRoot}">
+        <xsl:apply-templates mode="root"/>
+      </xsl:result-document>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="* | @*">
