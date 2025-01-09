@@ -410,7 +410,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 sub loop_chunks {
     my ($inFile, $xsltScript, $params, $chunkStart, $chunkSize) = @_;
     my $cmd = "$SaxonX $params chunkSize=$chunkSize chunkStart=$chunkStart -xsl:$xsltScript $inFile";
-    print STDERR "INFO command: $cmd\n";
+    # print STDERR "INFO command: $cmd\n";
     my $output = `$cmd`;
     die "FATAL ERROR: $cmd exited with $?\n" if $?;
     return if $output =~ /STATUS: Processed last chunk/;

@@ -393,6 +393,7 @@
           <xsl:when test="$type = 'ana'">
             <xsl:choose>
               <xsl:when test="doc-available(tei:url-header)">
+                <xsl:message select="concat('INFO: Using words from header file ', replace(tei:url-header,'.*/',''))"/>
                 <xsl:value-of select="document(tei:url-header)//tei:extent/tei:measure[@unit='words'][1]/@quantity"/>
               </xsl:when>
               <xsl:otherwise>
@@ -403,6 +404,7 @@
           </xsl:when>
           <!-- For plain files, take number of words from .ana.header files -->
           <xsl:when test="doc-available(tei:url-ana-header)">
+            <xsl:message select="concat('INFO: Using words from ana-header file ', replace(tei:url-ana-header,'.*/',''))"/>
             <xsl:value-of select="document(tei:url-ana-header)//tei:extent/tei:measure[@unit='words'][1]/@quantity"/>
           </xsl:when>
           <!-- For plain files, take number of words from .ana files -->
@@ -427,6 +429,7 @@
       <item n="{tei:xi-orig}">
         <xsl:choose>
           <xsl:when test="doc-available(tei:url-header)">
+            <xsl:message select="concat('INFO: Using speeches from header file ', replace(tei:url-header,'.*/',''))"/>
             <xsl:value-of select="document(tei:url-header)//tei:extent/tei:measure[@unit='speeches'][1]/@quantity"/>
           </xsl:when>
           <xsl:otherwise>
@@ -444,11 +447,11 @@
         <xsl:variable name="context-node" select="."/>
         <xsl:choose>
           <xsl:when test="doc-available(tei:url-header)">
-            <xsl:message select="concat('INFO: Copy tagUsage from', tei:url-header)"/>
+            <xsl:message select="concat('INFO: Using tagUsage from header file ', replace(tei:url-header,'.*/',''))"/>
             <xsl:copy-of select="document(tei:url-header)//tei:tagUsage"/>
           </xsl:when>
           <xsl:otherwise>
-            <xsl:message select="concat('INFO: Compute tagUsage in', tei:url-orig)"/>
+            <xsl:message select="concat('INFO: Compute tagUsage in ', replace(tei:url-orig,'.*/',''))"/>
             <xsl:for-each select="document(tei:url-orig)/
                                   distinct-values(tei:TEI/tei:text/descendant-or-self::tei:*/name())">
               <xsl:sort select="."/>
@@ -509,7 +512,6 @@
 
     <xsl:if test="$lastChunk">
       <xsl:text>STATUS: Processed last chunk</xsl:text> <!-- Do not change this message !!! -->
-      <xsl:message>===================================================================</xsl:message>
       <!-- Output Root file -->
       <xsl:message>INFO: processing root </xsl:message>
       <xsl:result-document href="{$outRoot}">
