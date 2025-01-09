@@ -28,6 +28,7 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns:et="http://nl.ijs.si/et" 
+  xmlns:mk="http://ufal.mff.cuni.cz/matyas-kopp"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   exclude-result-prefixes="xsl tei et xs xi"
   version="2.0">
@@ -367,13 +368,25 @@
   <!-- docs to process in chunk -->
   <xsl:variable name="docsChunk">
   <xsl:message select="concat('INFO: Processing chunk from ', $chunkStart, ' to ', $chunkStart + $chunkSize)"/>
-    <xsl:copy-of select="$docs//tei:item[xs:integer(@position) gt xs:integer($chunkStart) and (xs:integer(@position) le $chunkStart + $chunkSize or $chunkSize = 0)]"/>  
-  </xsl:variable> 
+    <xsl:copy-of select="$docs//tei:item[mk:in-chunk(@position)]"/>  
+  </xsl:variable>
+  <!--
+  <xsl:variable name="lastChunk" 
+                select="$docsChunk//tei:item[last()]/@position = count($docs//tei:item)"/> -->
+  <xsl:variable name="lastChunk" 
+                select="$docs//tei:item[last()]/mk:in-chunk(@position)"/>
+  <xsl:function name="mk:in-chunk" as="xs:boolean">
+    <xsl:param name="position"/>
+    <xsl:sequence select="if 
+                          (xs:integer($position) gt xs:integer($chunkStart) and (xs:integer($position) le $chunkStart + $chunkSize or $chunkSize = 0)) 
+                          then true() 
+                          else false()"/>
+  </xsl:function>
 
   <!-- Numbers of words in component files -->
   <xsl:variable name="words">
     <xsl:variable name="id" select="tei:teiCorpus/@xml:id"/>
-    <xsl:for-each select="$docs/tei:item[@type = 'component']">
+    <xsl:for-each select="$docs/tei:item[@type = 'component' and ($lastChunk or mk:in-chunk(@position))]">
       <item n="{tei:xi-orig}">
         <xsl:choose>
           <!-- For .ana files, compute number of words -->
@@ -410,7 +423,7 @@
   
   <!-- Numbers of speeches in component files -->
   <xsl:variable name="speeches">
-    <xsl:for-each select="$docs/tei:item[@type = 'component']">
+    <xsl:for-each select="$docs/tei:item[@type = 'component' and ($lastChunk or mk:in-chunk(@position))]">
       <item n="{tei:xi-orig}">
         <xsl:choose>
           <xsl:when test="doc-available(tei:url-header)">
@@ -426,7 +439,7 @@
 
   <!-- Calculated tagUsages in component files -->
   <xsl:variable name="tagUsages">
-    <xsl:for-each select="$docs/tei:item">
+    <xsl:for-each select="$docs/tei:item[@type = 'component' and ($lastChunk or mk:in-chunk(@position))]">
       <item n="{tei:xi-orig}">
         <xsl:variable name="context-node" select="."/>
         <xsl:choose>
@@ -494,7 +507,7 @@
       </xsl:choose>
     </xsl:for-each>
 
-    <xsl:if test="$docsChunk//tei:item[last()]/@position = count($docs//tei:item)">
+    <xsl:if test="$lastChunk">
       <xsl:text>STATUS: Processed last chunk</xsl:text> <!-- Do not change this message !!! -->
       <xsl:message>===================================================================</xsl:message>
       <!-- Output Root file -->
