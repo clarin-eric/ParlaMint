@@ -569,7 +569,7 @@ $(distro-make-all-XX): distro-make-all-%: Scripts/slurm_run_make-all.sh
 	MEMREQ=$$( [ "$$MEMEXP" -lt "30" ] && echo -n 30 || echo -n $$MEMEXP ); \
 	CPUREQ=$$( [ "$$MEMREQ" -gt "250" ] && echo -n 14 || ( [ "$$MEMREQ" -gt "120" ]  && echo -n 30 || echo -n 24 )  ); \
 	echo "COMMAND: sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $*"; \
-	sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $*
+	sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $* $${MEMREQ}
 
 
 
@@ -590,7 +590,7 @@ Scripts/slurm_run_make-all.sh:
 	echo 'COMMIT=$$(git rev-parse --short HEAD)' >> $@
 	echo 'INSIZE=$$(du -s --apparent-size Sources-TEI/ParlaMint-$$CORP.TEI.ana/|cut  -f1)' >> $@
 	echo 'echo "$$SLURM_JOB_ID $$CORP"' >> $@
-	echo 'MEM=$$(echo -n "$$SLURM_MEM_PER_NODE/1000-1" | bc )' >> $@
+	echo 'MEM=$$2' >> $@
 	echo 'CMD="make all CORPORA=$$CORP JAVA-MEMORY=$$MEM"' >> $@
 	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\tSTARTED\t$$SLURM_JOB_ID\t$$(hostname)\tmem=$$SLURM_MEM_PER_NODE cpus=$$SLURM_CPUS_ON_NODE in_ana=$$(echo "$${INSIZE}/1000000"|bc)GB\t$$CMD" >> Logs/ParlaMint.slurm.log' >> $@
 	echo 'RES=$$(/usr/bin/time --output=Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp -f "%x\t%E real, %U user, %S sys, %M kB" $$CMD)' >> $@
@@ -616,7 +616,7 @@ $(distro-make-mt-all-XX): distro-make-mt-all-%: Scripts/slurm_run_make-mt-all.sh
 	MEMREQ=$$( [ "$$MEMEXP" -lt "30" ] && echo -n 30 || echo -n $$MEMEXP ); \
 	CPUREQ=$$( [ "$$MEMREQ" -gt "250" ] && echo -n 14 || ( [ "$$MEMREQ" -gt "120" ]  && echo -n 30 || echo -n 24 )  ); \
 	echo "COMMAND: sbatch --job-name=pm$*-en-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-mt-all.sh $*"; \
-	sbatch --job-name=pm$*-en-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-mt-all.sh $*
+	sbatch --job-name=pm$*-en-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-mt-all.sh $* $${MEMREQ}
 
 Scripts/slurm_run_make-mt-all.sh:
 	echo '#!/bin/bash' > $@
@@ -635,7 +635,7 @@ Scripts/slurm_run_make-mt-all.sh:
 	echo 'COMMIT=$$(git rev-parse --short HEAD)' >> $@
 	echo 'INSIZE=$$(du -s --apparent-size Sources-TEI/ParlaMint-$$CORP.TEI.ana/|cut  -f1)' >> $@
 	echo 'echo "$$SLURM_JOB_ID $$CORP"' >> $@
-	echo 'MEM=$$(echo -n "$$SLURM_MEM_PER_NODE/1000-1" | bc )' >> $@
+	echo 'MEM=$$2' >> $@
 	echo 'CMD="make mt-all CORPORA=$$CORP JAVA-MEMORY=$$MEM"' >> $@
 	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\tSTARTED\t$$SLURM_JOB_ID\t$$(hostname)\tmem=$$SLURM_MEM_PER_NODE cpus=$$SLURM_CPUS_ON_NODE in_ana=$$(echo "$${INSIZE}/1000000"|bc)GB\t$$CMD" >> Logs/ParlaMint-en.slurm.log' >> $@
 	echo 'RES=$$(/usr/bin/time --output=Logs/ParlaMint-en.slurm.$$SLURM_JOB_ID.tmp -f "%x\t%E real, %U user, %S sys, %M kB" $$CMD)' >> $@
