@@ -565,12 +565,13 @@ distro-make-all-XX = $(addprefix distro-make-all-, $(PARLIAMENTS))
 distro-make-all: $(distro-make-all-XX)
 $(distro-make-all-XX): distro-make-all-%: Scripts/slurm_run_make-all.sh
 	CORPSIZE=$$(du -s --apparent-size Build/Sources-TEI/ParlaMint-$*.TEI.ana/|cut  -f1); \
+	CORPFILES=$$(find Build/Sources-TEI/ParlaMint-${CC}.TEI.ana/ -type f|wc -l); \
 	LARGESTFILE=$$(du -a --apparent-size Build/Sources-TEI/ParlaMint-$*.TEI.ana/ | grep 'xml$$' | sort -n -r | head -n 1 | cut -f1); \
 	CHUNKSIZEEXP=$$(echo "20000000 / $$LARGESTFILE" | bc ); \
 	CHUNKSIZEREQ=$$( [ "$$CHUNKSIZEEXP" -gt "1000" ] && echo -n 1000 || ( [ "$$CHUNKSIZEEXP" -lt "50" ]  && echo -n 50 || echo  "($$CHUNKSIZEEXP+99) / 100 *100 " | bc) ); \
-	MEMEXP=$$(echo "$$CHUNKSIZEREQ*2.5/1000000+55" | bc ); \
-	MEMREQ=$$( [ "$$MEMEXP" -lt "30" ] && echo -n 30 || echo -n $$MEMEXP ); \
-	CPUREQ=$$( [ "$$MEMREQ" -gt "250" ] && echo -n 14 || ( [ "$$MEMREQ" -gt "120" ]  && echo -n 30 || echo -n 24 )  ); \
+	MEMEXP=$$(echo "$$LARGESTFILE * $$CHUNKSIZEREQ*2.5/1000000+55" | bc ); \
+	MEMREQ=$$( [ "$$CORPFILES" -gt "2000" ] && echo -n 250 || echo -n $$MEMEXP ); \
+	CPUREQ=$$( [ "$$MEMREQ" -gt "250" ] && echo -n 14 || ( [ "$$MEMREQ" -gt "200" ]  && echo -n 60 || ([ "$$MEMREQ" -gt "120" ]  && echo -n 30 || echo -n 24 ) )  ); \
 	echo "COMMAND: sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $* $${MEMREQ} $${CHUNKSIZEREQ}"; \
 	sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $* $${MEMREQ} $${CHUNKSIZEREQ}
 
