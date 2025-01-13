@@ -565,7 +565,7 @@ distro-make-all-XX = $(addprefix distro-make-all-, $(PARLIAMENTS))
 distro-make-all: $(distro-make-all-XX)
 $(distro-make-all-XX): distro-make-all-%: Scripts/slurm_run_make-all.sh
 	CORPSIZE=$$(du -s --apparent-size Build/Sources-TEI/ParlaMint-$*.TEI.ana/|cut  -f1); \
-	CORPFILES=$$(find Build/Sources-TEI/ParlaMint-${CC}.TEI.ana/ -type f|wc -l); \
+	CORPFILES=$$(find Build/Sources-TEI/ParlaMint-$*.TEI.ana/ -type f|wc -l); \
 	LARGESTFILE=$$(du -a --apparent-size Build/Sources-TEI/ParlaMint-$*.TEI.ana/ | grep 'xml$$' | sort -n -r | head -n 1 | cut -f1); \
 	CHUNKSIZEEXP=$$(echo "20000000 / $$LARGESTFILE" | bc ); \
 	CHUNKSIZEREQ=$$( [ "$$CHUNKSIZEEXP" -gt "1000" ] && echo -n 1000 || ( [ "$$CHUNKSIZEEXP" -lt "50" ]  && echo -n 50 || echo  "($$CHUNKSIZEEXP+99) / 100 *100 " | bc) ); \
