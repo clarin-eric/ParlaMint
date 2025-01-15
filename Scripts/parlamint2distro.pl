@@ -66,6 +66,7 @@ my $procConll  = 2;
 my $procVert   = 2;
 my $procChunkSize   = 100; # 0: process all component files, >0: maximum number of component files to process with xslt scripts
 my $procMemGB = 240;
+my $procThreads = 10;
 
 GetOptions
     (
@@ -78,6 +79,7 @@ GetOptions
      'anahandle=s'=> \$handleAna,
      'procChunkSize=i'=> \$procChunkSize,
      'procMemGB=i'=> \$procMemGB,
+     'procThreads=i'=> \$procThreads,
      'in=s'       => \$inDir,
      'out=s'      => \$outDir,
      'all'        => \$procAll,
@@ -101,7 +103,7 @@ $inDir = File::Spec->rel2abs($inDir) if $inDir;
 $outDir = File::Spec->rel2abs($outDir) if $outDir;
 
 #Execution
-#$Parallel = "parallel --gnu --halt 2 --jobs 15";
+$Parallel = "parallel --gnu --halt 2 --jobs $procThreads";
 $Saxon   = "java -jar $Bin/bin/saxon.jar";
 # Problem with Out of heap space with TR, NL, GB for ana
 $SaxonX  = "java -Xmx${procMemGB}g -jar $Bin/bin/saxon.jar";
@@ -447,10 +449,13 @@ sub commonTaxonomies {
 #Format XML file to be a bit nicer & smaller
 sub polish {
     my $dir = shift;
-    foreach my $file (glob("$dir/*.xml $dir/*/*.xml")) {
-	`$scriptPolish < $file > $file.tmp`;
-	rename("$file.tmp", $file); 
+    open(TMP, '>:utf8', "$dir.lst");
+    foreach my $inFile (glob("$dir/*.xml $dir/*/*.xml")) {
+        print TMP "$inFile\n"
     }
+    close TMP;
+	`cat "$dir.lst"| $Parallel "$scriptPolish < {} > {}.tmp && mv {}.tmp {}"`;
+    `rm "$dir.lst"`
 }
 
 #If a directory has more than $MAX files, store them in year directories

@@ -205,7 +205,7 @@ web:
 	rsync -av Packed/*.tgz ${WEB}/Repo
 
 ###### Targets for producing releasable version of ParlaMint corpora
-FINALIZE = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Sources-Distro -procMemGB ${JAVA-MEMORY} -procChunkSize ${CHUNK-SIZE}
+FINALIZE = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Sources-Distro -procMemGB ${JAVA-MEMORY} -procChunkSize ${CHUNK-SIZE} -procThreads ${THREADS}
 
 ### For real
 # More than one nohup, in case we want several runs at once
@@ -244,7 +244,7 @@ final:
 ### Make MTed corpora
 
 # Make distribution with:
-FINALIZE-MT=perl ../Scripts/parlamint2distro.pl -version ${VERSION} -anahandle ${HANDLE-MT} -schema ${PARLAMINT}/Schema -docs ${HERE}/Sources-Distro -procMemGB ${JAVA-MEMORY} -procChunkSize ${CHUNK-SIZE}
+FINALIZE-MT=perl ../Scripts/parlamint2distro.pl -version ${VERSION} -anahandle ${HANDLE-MT} -schema ${PARLAMINT}/Schema -docs ${HERE}/Sources-Distro -procMemGB ${JAVA-MEMORY} -procChunkSize ${CHUNK-SIZE} -procThreads ${THREADS}
 
 # Targets
 mt-nohup1:
@@ -419,6 +419,7 @@ JAVA-MEMORY=240
 JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
 
 CHUNK-SIZE=100
+THREADS=10
 
 P = parallel --citation --gnu --halt 2
 #Run java with a large heap, as a complete corpus needs to be read in
