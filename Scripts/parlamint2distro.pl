@@ -356,11 +356,20 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
 	print STDERR "INFO: ***Validating $countryCode TEI\n";
-        logger('Validating TEI');
+        
 	die "FATAL ERROR: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
-	`$scriptValid $schemaDir $outSmpDir` if -e $outSmpDir; 
-	`$scriptValid $schemaDir $outTeiDir` if -e $outTeiDir;
-	`$scriptValid $schemaDir $outAnaDir` if -e $outAnaDir;
+      if (-e $outSmpDir) {
+        logger('Validating TEI.sample');
+        `$scriptValid --procThreads $procThreads $schemaDir $outSmpDir`;
+      } 
+      if (-e $outTeiDir) {
+        logger('Validating TEI');
+        `$scriptValid --procThreads $procThreads $schemaDir $outTeiDir`;
+      }
+      if (-e $outAnaDir) {
+        logger('Validating TEI.ana');
+        `$scriptValid --procThreads $procThreads $schemaDir $outAnaDir`;
+      }
     }
     if (($procAll and $procTxt) or (!$procAll and $procTxt == 1)) {
 	print STDERR "INFO: ***Making $countryCode text\n";
