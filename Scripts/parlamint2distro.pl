@@ -64,6 +64,9 @@ my $procValid  = 2;
 my $procTxt    = 2;
 my $procConll  = 2;
 my $procVert   = 2;
+my $procChunkSize   = 100; # 0: process all component files, >0: maximum number of component files to process with xslt scripts
+my $procMemGB = 240;
+my $procThreads = 10;
 
 GetOptions
     (
@@ -74,6 +77,9 @@ GetOptions
      'version=s'  => \$Version,
      'teihandle=s'=> \$handleTEI,
      'anahandle=s'=> \$handleAna,
+     'procChunkSize=i'=> \$procChunkSize,
+     'procMemGB=i'=> \$procMemGB,
+     'procThreads=i'=> \$procThreads,
      'in=s'       => \$inDir,
      'out=s'      => \$outDir,
      'all'        => \$procAll,
@@ -97,10 +103,10 @@ $inDir = File::Spec->rel2abs($inDir) if $inDir;
 $outDir = File::Spec->rel2abs($outDir) if $outDir;
 
 #Execution
-#$Parallel = "parallel --gnu --halt 2 --jobs 15";
+$Parallel = "parallel --gnu --halt 2 --jobs $procThreads";
 $Saxon   = "java -jar $Bin/bin/saxon.jar";
 # Problem with Out of heap space with TR, NL, GB for ana
-$SaxonX  = "java -Xmx240g -jar $Bin/bin/saxon.jar";
+$SaxonX  = "java -Xmx${procMemGB}g -jar $Bin/bin/saxon.jar";
 
 # logger variable stores info how long takes certain parts of code, used by logger subrutine
 my $logger = {
@@ -194,6 +200,9 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     my $teiDir  = "$XX.TEI";
     my $anaDir  = "$XX.TEI.ana";
     
+    my $teiHeaderDir = "$XX.TEI.header";
+    my $anaHeaderDir = "$XX.TEI.ana.header";
+
     my $teiRoot = "$teiDir/$XX.xml";
     my $anaRoot = "$anaDir/$XX.ana.xml";
 
@@ -232,8 +241,10 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     
     my $outTeiDir  = "$outDir/$teiDir";      # $outTeiDir   =~ s/$XX/-$MT/ if $MT;
+    my $outTeiHeaderDir  = "$outDir/$teiHeaderDir";
     my $outTeiRoot = "$outDir/$teiRoot";     # $outTeiRoot  =~ s/$XX/-$MT/ if $MT;
     my $outAnaDir  = "$outDir/$anaDir";      # $outAnaDir   =~ s/$XX/-$MT/ if $MT;
+    my $outAnaHeaderDir  = "$outDir/$anaHeaderDir";
     my $outAnaRoot = "$outDir/$anaRoot";     # $outAnaRoot  =~ s/$XX/-$MT/ if $MT;
     my $outSmpDir  = "$outDir/$XX";          # $outSmpDir   =~ s/$XX/-$MT/ if $MT;
     my $outTxtDir  = "$outDir/$XX.txt";      # $outTxtDir   =~ s/$XX/-$MT/ if $MT;
@@ -270,17 +281,17 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	my $tmpAnaRoot = "$tmpOutDir/$anaRoot";
 	print STDERR "INFO: ***Fixing TEI.ana corpus for release\n";
         logger('Fixing TEI.ana corpus for release');
-        $cmd = "$SaxonX outDir=$tmpOutDir -xsl:$scriptRelease $inAnaRoot";
-        `$cmd`;
-        die "FATAL ERROR: $cmd exited with $?\n" if $?;
+        loop_chunks($inAnaRoot, $scriptRelease, "outDir=$tmpOutDir", 0, $procChunkSize);
 	print STDERR "INFO: ***Adding common content to TEI.ana corpus\n";
         logger('Adding common content to TEI.ana corpus');
-	$cmd = "$SaxonX version=$Version handle-ana=$handleAna anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpAnaRoot";
-        `$cmd`;
-        die "FATAL ERROR: $cmd exited with $?\n" if $?;
+        `rm -fr $outAnaHeaderDir; mkdir $outAnaHeaderDir`;
+        loop_chunks($tmpAnaRoot, $scriptCommon, "version=$Version handle-ana=$handleAna anaDir=$outAnaDir anaHeaderDir=$outAnaHeaderDir outHeaderDir=$outAnaHeaderDir outDir=$outDir", 0, $procChunkSize);
         &commonTaxonomies($countryCode, $outAnaDir);
         logger('Polishing TEI.ana corpus');
     	&polish($outAnaDir);
+        logger();
+        logger('Polishing TEI.ana.header');
+    	&polish($outAnaHeaderDir);
         logger()
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
@@ -301,17 +312,16 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	my $tmpTeiRoot = "$tmpOutDir/$teiRoot";
 	print STDERR "INFO: ***Fixing TEI corpus for release\n";
         logger('Fixing TEI corpus for release');
-	$cmd = "$SaxonX anaDir=$outAnaDir outDir=$tmpOutDir -xsl:$scriptRelease $inTeiRoot";
-	`$cmd`;
-        die "FATAL ERROR: $cmd exited with $?\n" if $?;
+        loop_chunks($inTeiRoot, $scriptRelease, "anaDir=$outAnaDir outDir=$tmpOutDir", 0, $procChunkSize);
         print STDERR "INFO: ***Adding common content to TEI corpus\n";
         logger('Adding common content to TEI corpus');
-	$cmd = "$SaxonX version=$Version handle-txt=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpTeiRoot";
-	`$cmd`;
-        die "FATAL ERROR: $cmd exited with $?\n" if $?;
+        `rm -fr $outTeiHeaderDir; mkdir $outTeiHeaderDir`;
+        loop_chunks($tmpTeiRoot, $scriptCommon, "version=$Version handle-tei=$handleTEI anaDir=$outAnaDir anaHeaderDir=$outAnaHeaderDir outHeaderDir=$outTeiHeaderDir outDir=$outDir", 0, $procChunkSize);
         &commonTaxonomies($countryCode, $outTeiDir);
         logger('Polishing TEI corpus');
-	&polish($outTeiDir);
+        &polish($outTeiDir);
+        logger('Polishing TEI.header');
+        &polish($outTeiHeaderDir);
         logger();
     }
     if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
@@ -398,6 +408,17 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     print STDERR "INFO: ***Finished processing $countryCode corpus.\n";
 }
 
+# process all component files with xslt scripts in chunks
+sub loop_chunks {
+    my ($inFile, $xsltScript, $params, $chunkStart, $chunkSize) = @_;
+    my $cmd = "$SaxonX $params chunkSize=$chunkSize chunkStart=$chunkStart -xsl:$xsltScript $inFile";
+    # print STDERR "INFO command: $cmd\n";
+    my $output = `$cmd`;
+    die "FATAL ERROR: $cmd exited with $?\n" if $?;
+    return if $output =~ /STATUS: Processed last chunk/;
+    loop_chunks($inFile, $xsltScript, $params, $chunkStart + $chunkSize, $chunkSize);
+}
+
 # Substitute local with common taxonomies & reduce languages to en + corpus one(s)
 sub commonTaxonomies {
     my $Country = shift;
@@ -428,10 +449,13 @@ sub commonTaxonomies {
 #Format XML file to be a bit nicer & smaller
 sub polish {
     my $dir = shift;
-    foreach my $file (glob("$dir/*.xml $dir/*/*.xml")) {
-	`$scriptPolish < $file > $file.tmp`;
-	rename("$file.tmp", $file); 
+    open(TMP, '>:utf8', "$dir.lst");
+    foreach my $inFile (glob("$dir/*.xml $dir/*/*.xml")) {
+        print TMP "$inFile\n"
     }
+    close TMP;
+	`cat "$dir.lst"| $Parallel "$scriptPolish < {} > {}.tmp && mv {}.tmp {}"`;
+    `rm "$dir.lst"`
 }
 
 #If a directory has more than $MAX files, store them in year directories

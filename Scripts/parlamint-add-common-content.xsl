@@ -28,8 +28,9 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns:et="http://nl.ijs.si/et" 
+  xmlns:mk="http://ufal.mff.cuni.cz/matyas-kopp"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
-  exclude-result-prefixes="xsl tei et xs xi"
+  exclude-result-prefixes="xsl tei et mk xs xi"
   version="2.0">
 
   <xsl:import href="parlamint-lib.xsl"/>
@@ -37,6 +38,8 @@
   <!-- Directories must have absolute paths! -->
   <xsl:param name="outDir">.</xsl:param>
   <xsl:param name="anaDir">.</xsl:param>
+  <xsl:param name="outHeaderDir">.</xsl:param>
+  <xsl:param name="anaHeaderDir">.</xsl:param>
   <xsl:param name="reference-date" as="xs:date">2020-01-30</xsl:param>
   <xsl:param name="covid-date" as="xs:date">2020-01-31</xsl:param>
   <xsl:param name="war-date" as="xs:date">2022-02-24</xsl:param>
@@ -45,6 +48,10 @@
   <xsl:param name="version">3.0a</xsl:param>
   <xsl:param name="handle-txt">http://hdl.handle.net/11356/XXXX</xsl:param>
   <xsl:param name="handle-ana">http://hdl.handle.net/11356/XXXX</xsl:param>
+
+  <!-- parameters for partial processing, root file is processed after processing the last component file -->
+  <xsl:param name="chunkStart">0</xsl:param>
+  <xsl:param name="chunkSize">0</xsl:param> <!-- 0 means process all -->
 
   <!-- Is this a linguistically annotated (ana) or plain text corpus (txt)? -->
   <xsl:param name="type">
@@ -317,6 +324,7 @@
 	    <xsl:otherwise>component</xsl:otherwise>
 	  </xsl:choose>
 	</xsl:attribute>
+        <xsl:attribute name="position" select="position()"/>
         <xi-orig>
           <xsl:value-of select="@href"/>
         </xi-orig>
@@ -338,21 +346,66 @@
 	      </xsl:when>
 	    </xsl:choose>
           </url-ana>
-	</xsl:if>
+          <url-ana-header>
+            <xsl:value-of select="concat($anaHeaderDir, '/')"/>
+            <xsl:choose>
+              <xsl:when test="$type = 'ana'">
+	              <xsl:value-of select="replace(@href, '\.ana\.xml', '.ana.header.xml')"/>
+	            </xsl:when>
+              <xsl:when test="$type = 'txt'">
+	              <xsl:value-of select="replace(@href, '\.xml', '.ana.header.xml')"/>
+	            </xsl:when>
+	          </xsl:choose>
+          </url-ana-header>
+          <url-header>
+            <xsl:value-of select="concat($outHeaderDir, '/', replace(@href, '\.xml', '.header.xml'))"/>
+          </url-header>
+  </xsl:if>
       </item>
     </xsl:for-each>
   </xsl:variable>
-  
+
+  <!-- docs to process in chunk -->
+  <xsl:variable name="docsChunk">
+  <xsl:message select="concat('INFO: Processing chunk from ', $chunkStart, ' to ', $chunkStart + $chunkSize)"/>
+    <xsl:copy-of select="$docs//tei:item[mk:in-chunk(@position)]"/>  
+  </xsl:variable>
+  <!--
+  <xsl:variable name="lastChunk" 
+                select="$docsChunk//tei:item[last()]/@position = count($docs//tei:item)"/> -->
+  <xsl:variable name="lastChunk" 
+                select="$docs//tei:item[last()]/mk:in-chunk(@position)"/>
+  <xsl:function name="mk:in-chunk" as="xs:boolean">
+    <xsl:param name="position"/>
+    <xsl:sequence select="if 
+                          (xs:integer($position) gt xs:integer($chunkStart) and (xs:integer($position) le $chunkStart + $chunkSize or $chunkSize = 0)) 
+                          then true() 
+                          else false()"/>
+  </xsl:function>
+
   <!-- Numbers of words in component files -->
   <xsl:variable name="words">
     <xsl:variable name="id" select="tei:teiCorpus/@xml:id"/>
-    <xsl:for-each select="$docs/tei:item[@type = 'component']">
+    <xsl:for-each select="$docs/tei:item[@type = 'component' and ($lastChunk or mk:in-chunk(@position))]">
       <item n="{tei:xi-orig}">
         <xsl:choose>
           <!-- For .ana files, compute number of words -->
           <xsl:when test="$type = 'ana'">
-            <xsl:value-of select="document(tei:url-orig)/
-                                  count(//tei:w[not(parent::tei:w)])"/>
+            <xsl:choose>
+              <xsl:when test="doc-available(tei:url-header)">
+                <xsl:message select="concat('INFO: Using words from header file ', replace(tei:url-header,'.*/',''))"/>
+                <xsl:value-of select="document(tei:url-header)//tei:extent/tei:measure[@unit='words'][1]/@quantity"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="document(tei:url-orig)/
+                                      count(//tei:w[not(parent::tei:w)])"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:when>
+          <!-- For plain files, take number of words from .ana.header files -->
+          <xsl:when test="doc-available(tei:url-ana-header)">
+            <xsl:message select="concat('INFO: Using words from ana-header file ', replace(tei:url-ana-header,'.*/',''))"/>
+            <xsl:value-of select="document(tei:url-ana-header)//tei:extent/tei:measure[@unit='words'][1]/@quantity"/>
           </xsl:when>
           <!-- For plain files, take number of words from .ana files -->
           <xsl:when test="doc-available(tei:url-ana)">
@@ -372,32 +425,45 @@
   
   <!-- Numbers of speeches in component files -->
   <xsl:variable name="speeches">
-    <xsl:for-each select="$docs/tei:item[@type = 'component']">
+    <xsl:for-each select="$docs/tei:item[@type = 'component' and ($lastChunk or mk:in-chunk(@position))]">
       <item n="{tei:xi-orig}">
-        <xsl:value-of select="document(tei:url-orig)/count(//tei:u)"/>
+        <xsl:choose>
+          <xsl:when test="doc-available(tei:url-header)">
+            <xsl:message select="concat('INFO: Using speeches from header file ', replace(tei:url-header,'.*/',''))"/>
+            <xsl:value-of select="document(tei:url-header)//tei:extent/tei:measure[@unit='speeches'][1]/@quantity"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="document(tei:url-orig)/count(//tei:u)"/>
+          </xsl:otherwise>
+        </xsl:choose>
       </item>
     </xsl:for-each>
   </xsl:variable>
 
   <!-- Calculated tagUsages in component files -->
   <xsl:variable name="tagUsages">
-    <xsl:for-each select="$docs/tei:item">
+    <xsl:for-each select="$docs/tei:item[@type = 'component' and ($lastChunk or mk:in-chunk(@position))]">
       <item n="{tei:xi-orig}">
         <xsl:variable name="context-node" select="."/>
-        <xsl:for-each select="document(tei:url-orig)/
-                            distinct-values(tei:TEI/tei:text/descendant-or-self::tei:*/name())">
-          <xsl:sort select="."/>
-          <xsl:variable name="elem-name" select="."/>
-          <!--item n="{$elem-name}">
-              <xsl:value-of select="$context-node/document(tei:url-orig)/
-                                    count(tei:TEI/tei:text/descendant-or-self::tei:*[name()=$elem-name])"/>
-          </item-->
-          <xsl:element name="tagUsage">
-            <xsl:attribute name="gi" select="$elem-name"/>
-            <xsl:attribute name="occurs" select="$context-node/document(tei:url-orig)/
-                                    count(tei:TEI/tei:text/descendant-or-self::tei:*[name()=$elem-name])"/>
-          </xsl:element>
-        </xsl:for-each>
+        <xsl:choose>
+          <xsl:when test="doc-available(tei:url-header)">
+            <xsl:message select="concat('INFO: Using tagUsage from header file ', replace(tei:url-header,'.*/',''))"/>
+            <xsl:copy-of select="document(tei:url-header)//tei:tagUsage"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:message select="concat('INFO: Compute tagUsage in ', replace(tei:url-orig,'.*/',''))"/>
+            <xsl:for-each select="document(tei:url-orig)/
+                                  distinct-values(tei:TEI/tei:text/descendant-or-self::tei:*/name())">
+              <xsl:sort select="."/>
+              <xsl:variable name="elem-name" select="."/>
+              <xsl:element name="tagUsage">
+                <xsl:attribute name="gi" select="$elem-name"/>
+                <xsl:attribute name="occurs" select="$context-node/document(tei:url-orig)/
+                                        count(tei:TEI/tei:text/descendant-or-self::tei:*[name()=$elem-name])"/>
+              </xsl:element>
+            </xsl:for-each>
+          </xsl:otherwise>
+        </xsl:choose> 
       </item>
     </xsl:for-each>
   </xsl:variable>
@@ -406,31 +472,52 @@
   <xsl:template match="/">
     <xsl:message select="concat('INFO: Starting to add common content to ', tei:teiCorpus/@xml:id)"/>
     <!-- Process component files -->
-    <xsl:for-each select="$docs//tei:item">
+    <xsl:message>
+      <xsl:text>INFO Starting to process component files</xsl:text>
+      <xsl:if test="xs:integer($chunkSize) = 0 or xs:integer($chunkStart) gt 0">
+        <xsl:text> from </xsl:text>
+        <xsl:value-of select="$docsChunk//tei:item[1]/@position"/>
+        <xsl:text> to </xsl:text>
+        <xsl:value-of select="$docsChunk//tei:item[last()]/@position"/> 
+      </xsl:if>
+    </xsl:message>
+    <xsl:for-each select="$docsChunk//tei:item">
       <xsl:variable name="this" select="tei:xi-orig"/>
-      <xsl:message select="concat('INFO: Processing ', $this)"/>
-      <xsl:result-document href="{tei:url-new}">
-	<xsl:choose>
-	  <!-- Process factorised parts of corpus root teiHeader as if they were root (to fix spacing) -->
-	  <xsl:when test="@type = 'factorised'">
+      <xsl:message select="concat('INFO: Processing [',@position,'] ', $this)"/>
+      <xsl:choose>
+        <!-- Process factorised parts of corpus root teiHeader as if they were root (to fix spacing) -->
+        <xsl:when test="@type = 'factorised'">
+          <xsl:result-document href="{tei:url-new}">
             <xsl:apply-templates mode="root" select="document(tei:url-orig)"/>
-	  </xsl:when>
-	  <!-- Process component -->
-	  <xsl:when test="@type = 'component'">
+          </xsl:result-document>
+        </xsl:when>
+        <!-- Process component -->
+        <xsl:when test="@type = 'component'">
+          <xsl:variable name="componentContent">
             <xsl:apply-templates mode="comp" select="document(tei:url-orig)/tei:TEI">
               <xsl:with-param name="speeches" select="$speeches/tei:item[@n = $this]"/>
               <xsl:with-param name="words" select="$words/tei:item[@n = $this]"/>
               <xsl:with-param name="tagUsages" select="$tagUsages/tei:item[@n = $this]"/>
             </xsl:apply-templates>
-	  </xsl:when>
-	</xsl:choose>
-      </xsl:result-document>
+          </xsl:variable>
+          <xsl:result-document href="{tei:url-new}">
+            <xsl:copy-of select="$componentContent"/>
+          </xsl:result-document>
+          <xsl:result-document href="{tei:url-header}">
+            <xsl:apply-templates mode="header" select="$componentContent"/>
+          </xsl:result-document>
+        </xsl:when>
+      </xsl:choose>
     </xsl:for-each>
-    <!-- Output Root file -->
-    <xsl:message>INFO: processing root </xsl:message>
-    <xsl:result-document href="{$outRoot}">
-      <xsl:apply-templates mode="root"/>
-    </xsl:result-document>
+
+    <xsl:if test="$lastChunk">
+      <xsl:text>STATUS: Processed last chunk</xsl:text> <!-- Do not change this message !!! -->
+      <!-- Output Root file -->
+      <xsl:message>INFO: processing root </xsl:message>
+      <xsl:result-document href="{$outRoot}">
+        <xsl:apply-templates mode="root"/>
+      </xsl:result-document>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="* | @*">
@@ -620,7 +707,17 @@
       <xsl:apply-templates mode="comp"/>
     </xsl:copy>
   </xsl:template>
-      
+  <!-- FILTERING COMPONENTS - HEADER -->
+  <xsl:template mode="header" match="/tei:TEI/tei:text"/>
+  <xsl:template mode="header" match="*">
+    <xsl:copy>
+      <xsl:apply-templates mode="header" select="@*"/>
+      <xsl:apply-templates mode="header"/>
+    </xsl:copy>
+  </xsl:template>
+  <xsl:template mode="header" match="@*">
+    <xsl:copy/>
+  </xsl:template>  
   <!-- PROCESSING ROOT -->
   
   <xsl:template mode="root" match="*">
