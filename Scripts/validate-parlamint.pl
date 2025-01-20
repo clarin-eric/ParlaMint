@@ -40,6 +40,7 @@ $Saxon   = "java -jar $Bin/bin/saxon.jar";
 
 $Compose = "$Bin/parlamint-composite-teiHeader.xsl";
 $Links   = "$Bin/check-links.xsl";
+$Chars   = "$Bin/check-chars.pl";
 $Valid   = "$Bin/validate-parlamint.xsl";
 $Valid_particDesc = "$Bin/validate-parlamint-particDesc.xsl";
 $Includes = "$Bin/get-includes.xsl";
@@ -87,7 +88,7 @@ sub validate {
     my $interfix = $type;
     $interfix =~ s/^TEI//;
     print STDERR "INFO: Validating $type root $rootFile\n";
-    &chars($rootFile);
+    &run($Chars, $rootFile);
     &run("$Jing $schemaDir/ParlaMint-teiCorpus$interfix.rng", $rootFile);
     &run("$Saxon outDir=$tmpDir -xsl:$Compose", $rootFile);
     &run("$Jing $schemaDir/ParlaMint.odd.rng", "$tmpDir/$fileName");
@@ -100,12 +101,12 @@ sub validate {
         if (-e $file) {
             if($file =~ m/ParlaMint-(?:[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?)?.?(taxonomy|listPerson|listOrg).*\.xml/){
                 print STDERR "INFO: Validating file included in teiHeader $file\n";
-                &chars($file);
+                &run($Chars, $file);
                 &run("$Jing $schemaDir/ParlaMint-$1.rng", $file);
                 &run("$Saxon meta=$rootFile -xsl:$Links", $file);
             } else {
                 print STDERR "INFO: Validating component $type file $file\n";
-                &chars($file);
+                &run($Chars, $file);
                 &run("$Jing $schemaDir/ParlaMint-TEI$interfix.rng", $file);
                 &run("$Jing $schemaDir/ParlaMint.odd.rng", $file);
                 &run("$Saxon -xsl:$Valid", $file);
@@ -116,54 +117,30 @@ sub validate {
     }
 }
 
-# Check if $file contains bad characters
-sub chars {
-    my $file = shift;
-    my %c;
-    my @bad = ();
-    my ($fName) = $file =~ m|([^/]+)$|
-        or die "FATAL ERROR: Bad file '$file'\n";
-    print STDERR "INFO: Char validation for $fName\n";
-    open(IN, '<:utf8', $file);
-    undef $/;
-    my $txt = <IN>;
-    undef %c;
-    for $c (split(//, $txt)) {$c{$c}++}
-    for $c (sort keys %c) {
-      if (ord($c) == hex('00A0') or  #NO-BREAK SPACE
-          ord($c) == hex('2011') or  #NON-BREAKING HYPHEN
-          ord($c) == hex('00AD') or  #SOFT HYPHEN
-          ord($c) == hex('FFFD') or  #REPLACEMENT CHAR
-          (ord($c) >= hex('2000') and ord($c) <= hex('200A')) or #NON-STANDARD SPACES
-          (ord($c) >= hex('E000') and ord($c) <= hex('F8FF'))    #PUA
-          ) {
-          $message = sprintf("U+%X (%dx)", ord($c), $c{$c});
-          push(@bad, $message)
-      }
-    }
-    print STDERR "WARN: File $fName contains bad chars: " . join('; ', @bad) . "\n"
-      if @bad
-}
-   
+
 sub run {
     my $command = shift;
     my $file = shift;
     my ($fName) = $file =~ m|([^/]+)$|
         or die "FATAL ERROR: Bad file '$file'\n";
+    my $msg = '';
     if ($command =~ /$Jing/) {
-        print STDERR "INFO: XML validation for $fName\n"
+        $msg = "INFO: XML validation for $fName\n"
     }
     elsif ($command =~ /$Compose/) {
     }
+    elsif ($command =~ /$Chars/) {
+    }
     elsif ($command =~ /$Valid/) {
-        print STDERR "INFO: Content validaton for $fName\n"
+        $msg = "INFO: Content validaton for $fName\n"
     }
     elsif ($command =~ /$Valid_particDesc/) {
-        print STDERR "INFO: particDesc content validaton for $fName\n"
+        $msg = "INFO: particDesc content validaton for $fName\n"
     }
     elsif ($command =~ /$Links/) {
-        print STDERR "INFO: Link checking for $fName\n"
+        $msg = "INFO: Link checking for $fName\n"
     }
     else {die "FATAL ERROR: Weird command $command!\n"}
+    print STDERR $msg;
     `$command $file 1>&2`;
 }
