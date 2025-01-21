@@ -883,6 +883,15 @@
 	  <xsl:apply-templates mode="comp"/>
 	</pc>
       </xsl:when>
+      <!-- IL has wrongly annotated punctations as a symbol-->
+      <xsl:when test="@lemma='' and @msd = 'UPosTag=SYM' ">
+        <xsl:message select="concat('WARN: changing symbol(UPosTag=SYM) ', ., ' to punctuation for ', @xml:id)"/>
+	      <pc>
+          <xsl:attribute name="msd">UPosTag=PUNCT</xsl:attribute>
+	        <xsl:apply-templates mode="comp" select="@*[name() != 'lemma' and name() != 'pos' and name() != 'msd']"/>
+	        <xsl:apply-templates mode="comp"/>
+	      </pc>
+      </xsl:when>
       <!-- Bug where syntactic word contains just one word: remove outer word and preserve annotations -->
       <xsl:when test="tei:w[tei:w] and not(tei:w[tei:*[2]])">
         <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
