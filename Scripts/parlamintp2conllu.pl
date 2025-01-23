@@ -25,10 +25,17 @@ use File::Temp qw/ tempfile tempdir /;  #creation of tmp files and directory
 my $tempdirroot = "$Bin/tmp";
 my $DIR = tempdir(DIR => $tempdirroot, CLEANUP => 1);
 
+my $procThreads = 10;
+
+GetOptions
+    (
+     'procThreads=i'=> \$procThreads,
+);
+
 $inDir = File::Spec->rel2abs(shift);
 $outDir = File::Spec->rel2abs(shift);
 
-$Para  = 'parallel --gnu --halt 0 --jobs 10';
+$Para  = "parallel --gnu --halt 0 --jobs $procThreads";
 $Saxon   = "java -jar $Bin/bin/saxon.jar";
 $scriptValid   = "$Bin/bin/tools/validate.py";
 

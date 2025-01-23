@@ -382,8 +382,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	if ($MT) {$inReadme = "$docsDir/README-$MT.text.txt"}
 	else {$inReadme = "$docsDir/README.text.txt"}
 	&cp_readme($countryCode, $handleTxt, $Version, $inReadme, "$outTxtDir/00README.txt");
-	if    (-e $outTeiDir) {`$scriptTexts $outTeiDir $outTxtDir`}
-	elsif (-e $outAnaDir) {`$scriptTexts $outAnaDir $outTxtDir`}
+	if    (-e $outTeiDir) {`$scriptTexts --procThreads $procThreads $outTeiDir $outTxtDir`}
+	elsif (-e $outAnaDir) {`$scriptTexts --procThreads $procThreads $outAnaDir $outTxtDir`}
 	else {die "FATAL ERROR: Neither $outTeiDir nor $outAnaDir exits\n"}
 	&dirify($outTxtDir);
     }
@@ -396,7 +396,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	if ($MT) {$inReadme = "$docsDir/README-$MT.conll.txt"}
 	else {$inReadme = "$docsDir/README.conll.txt"}
 	&cp_readme($countryCode, $handleAna, $Version, $inReadme, "$outConlDir/00README.txt");
-	`$scriptConls $outAnaDir $outConlDir`;
+	`$scriptConls --procThreads $procThreads $outAnaDir $outConlDir`;
 	&dirify($outConlDir);
     }
     if (($procAll and $procVert) or (!$procAll and $procVert == 1)) {
@@ -410,7 +410,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	&cp_readme($countryCode, $handleAna, $Version, $inReadme, "$outVertDir/00README.txt");
 	if (-e "$regiDir/$vertRegi") {`cp $regiDir/$vertRegi $outVertDir/$vertRegi.$regiExt`}
 	else {print STDERR "WARN: registry file $vertRegi not found\n"}
-	`$scriptVerts $outAnaDir $outVertDir`;
+	`$scriptVerts --procThreads $procThreads $outAnaDir $outVertDir`;
 	&dirify($outVertDir);
     }
     logger();
