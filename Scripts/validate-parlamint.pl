@@ -42,7 +42,7 @@ GetOptions
 $schemaDir = File::Spec->rel2abs(shift);
 $inDirs = File::Spec->rel2abs(shift);
 
-$Parallel = "parallel --keep-order --gnu --halt 2 --jobs $procThreads";
+$Parallel = "parallel --keep-order --gnu --halt 0 --jobs $procThreads";
 $Jing    = "java -jar $Bin/bin/jing.jar";
 $Saxon   = "java -jar $Bin/bin/saxon.jar";
 
