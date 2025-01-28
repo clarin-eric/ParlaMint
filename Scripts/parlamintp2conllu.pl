@@ -19,6 +19,7 @@ sub usage
     print STDERR ("       .conllu and -meta.tsv files in the <OutputDirectory>\n");
     print STDERR ("       Also validates the .conllu agains UD validations script\n");
 }
+use Getopt::Long;
 use FindBin qw($Bin);
 use File::Spec;
 use File::Temp qw/ tempfile tempdir /;  #creation of tmp files and directory
