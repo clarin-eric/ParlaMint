@@ -37,6 +37,7 @@ $inDir = File::Spec->rel2abs(shift);
 $outDir = File::Spec->rel2abs(shift);
 
 $Para  = "parallel --gnu --halt 0 --jobs $procThreads";
+$ParaLess  = "parallel --gnu --halt 0 --jobs ".int($procThreads / 3);
 $Saxon   = "java -jar $Bin/bin/saxon.jar";
 $scriptValid   = "$Bin/bin/tools/validate.py";
 
@@ -127,7 +128,7 @@ foreach my $outLang (@outLangs) {
 	$command = "$Saxon meta=$rootAnaFile" .
 	    " out-lang=$outLang" .
 	    " -xsl:$scriptMeta {} > $outDir/{/.}$outSuffix";
-	`cat $fileFile | $Para '$command'`;
+	`cat $fileFile | $ParaLess '$command'`;
     }
 }
 `rename 's/\.ana//' $outDir/*-meta*.tsv`;

@@ -22,6 +22,7 @@ $outDir = File::Spec->rel2abs(shift);
 binmode(STDERR, 'utf8');
 
 $Para  = "parallel --gnu --halt 0 --jobs $procThreads";
+$ParaLess  = "parallel --gnu --halt 0 --jobs ".int($procThreads / 3);
 $Saxon = "java -jar $Bin/bin/saxon.jar";
 
 $scriptMeta = "$Bin/parlamint2meta.xsl";
@@ -75,7 +76,7 @@ foreach my $outLang (@outLangs) {
 	    " meta=" . File::Spec->catfile($inDir,$rootFile[0]) .
 	    " out-lang=$outLang" .
 	    " -xsl:$scriptMeta {} > $outDir/{/.}$outSuffix";
-	`cat $fileFile | $Para '$command'`;
+	`cat $fileFile | $ParaLess '$command'`;
 	# The rm following looks like a bug, as no TSV files are left if we are processing only .ana!
 	#`rm -f $outDir/*.ana-meta.tsv`;
     }
