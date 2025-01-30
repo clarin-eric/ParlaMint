@@ -653,6 +653,7 @@
     </content>
     <attList>
       <attDef ident="target" mode="change" usage="rec"/>
+      <pm:attPreserve ident="xml:lang"/>
     </attList>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
@@ -1987,7 +1988,7 @@
       <alternate minOccurs="1" maxOccurs="1">
         <sequence>
           <elementRef key="orgName" minOccurs="1" maxOccurs="unbounded"/>
-          <elementRef key="ref" minOccurs="0" maxOccurs="1"/>
+          <elementRef key="ref" minOccurs="0" maxOccurs="unbounded"/>
         </sequence>
         <textNode/>
       </alternate>

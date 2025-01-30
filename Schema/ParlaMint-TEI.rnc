@@ -181,7 +181,7 @@ publisher =
   element publisher {
     lang.att,
     ((element orgName { lang.att, normalized-space.string }+,
-      ref?)
+      ref*)
      | text)
   }
 

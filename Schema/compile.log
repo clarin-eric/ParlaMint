@@ -2,10 +2,447 @@ make[1]: Entering directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Sch
 ls ../Samples/ParlaMint-*/ParlaMint-*.xml   | grep -v '.ana' | grep -v 'taxonomy' | grep -v 'list' | xargs -I % java -jar ../Scripts/bin/saxon.jar -xi -xsl:../Scripts/copy.xsl % | java -jar ../Scripts/bin/jing.jar parla-clarin.rng
 ls ../Samples/ParlaMint-*/ParlaMint-*.xml   | grep -v '.ana' | grep -v 'taxonomy' | grep -v 'list' | xargs -I % java -jar ../Scripts/bin/saxon.jar -xi -xsl:../Scripts/copy.xsl % | java -jar ../Scripts/bin/jing.jar ParlaMint.odd.rng
 ls ../Samples/ParlaMint-*/ParlaMint-*.xml   | grep -v '.ana' | grep -v 'taxonomy' | grep -v 'list' | xargs java -jar ../Scripts/bin/jing.jar ParlaMint-teiCorpus.rng 	
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.xml:5:51: error: element "TEI" not allowed anywhere; expected element "teiCorpus"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.xml:79:20: error: element "tagsDecl" not allowed yet; missing required element "editorialDecl"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.xml:89:22: error: element "encodingDesc" incomplete; missing required element "classDecl"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.xml:100:21: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.xml:106:16: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.xml:110:88: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.xml:122:51: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.xml:5:51: error: element "TEI" not allowed anywhere; expected element "teiCorpus"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.xml:77:20: error: element "tagsDecl" not allowed yet; missing required element "editorialDecl"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.xml:87:22: error: element "encodingDesc" incomplete; missing required element "classDecl"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.xml:98:21: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.xml:104:16: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.xml:108:88: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.xml:120:51: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-10-21-18ptv139208.xml:5:51: error: element "TEI" not allowed anywhere; expected element "teiCorpus"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-10-21-18ptv139208.xml:73:20: error: element "tagsDecl" not allowed yet; missing required element "editorialDecl"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-10-21-18ptv139208.xml:83:22: error: element "encodingDesc" incomplete; missing required element "classDecl"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-10-21-18ptv139208.xml:94:21: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-10-21-18ptv139208.xml:100:16: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-10-21-18ptv139208.xml:104:88: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-10-21-18ptv139208.xml:116:51: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.xml:5:51: error: element "TEI" not allowed anywhere; expected element "teiCorpus"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.xml:73:20: error: element "tagsDecl" not allowed yet; missing required element "editorialDecl"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.xml:83:22: error: element "encodingDesc" incomplete; missing required element "classDecl"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.xml:94:21: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.xml:100:16: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.xml:104:104: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.xml:116:51: error: element "profileDesc" incomplete; missing required element "particDesc"
+make[1]: [Makefile:15: val] Error 123 (ignored)
 ls ../Samples/ParlaMint-*/*/ParlaMint-*.xml | grep -v '.ana' | grep -v 'taxonomy' | grep -v 'list' | xargs java -jar ../Scripts/bin/jing.jar ParlaMint-TEI.rng		
 ls ../Samples/ParlaMint-*/ParlaMint-*.xml   | grep    '.ana' | grep -v 'taxonomy' | grep -v 'list' | xargs -I % java -jar ../Scripts/bin/saxon.jar -xi -xsl:../Scripts/copy.xsl % | java -jar ../Scripts/bin/jing.jar parla-clarin.rng
 ls ../Samples/ParlaMint-*/ParlaMint-*.xml   | grep    '.ana' | grep -v 'taxonomy' | grep -v 'list' | xargs -I % java -jar ../Scripts/bin/saxon.jar -xi -xsl:../Scripts/copy.xsl % | java -jar ../Scripts/bin/jing.jar ParlaMint.odd.rng
 ls ../Samples/ParlaMint-*/ParlaMint-*.xml   | grep    '.ana' | grep -v 'taxonomy' | grep -v 'list' | xargs java -jar ../Scripts/bin/jing.jar ParlaMint-teiCorpus.ana.rng	
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:5:55: error: element "TEI" not allowed anywhere; expected element "teiCorpus"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:79:20: error: element "tagsDecl" not allowed yet; missing required element "editorialDecl"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:95:22: error: element "encodingDesc" incomplete; missing required element "classDecl"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:106:21: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:112:16: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:116:92: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:138:100: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:149:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:156:85: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:161:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:162:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:169:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:170:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:182:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:193:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:200:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:201:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:215:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:216:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:224:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:235:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:301:85: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:302:87: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:313:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:318:85: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:319:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:336:85: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:337:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:339:88: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:350:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:366:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:445:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:448:42: error: element "pc" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:452:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:453:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:458:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:469:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:639:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:640:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:651:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:667:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:701:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:704:42: error: element "pc" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:708:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:709:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:714:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:725:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:954:51: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:965:88: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:967:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:978:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1132:90: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1147:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1148:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1155:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1156:92: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1168:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1179:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1186:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1187:92: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1202:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1203:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1219:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1220:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1320:92: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1334:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1335:92: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1346:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1351:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1356:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1357:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1417:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_1998-07-08-14ptm532674.ana.xml:1418:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:5:55: error: element "TEI" not allowed anywhere; expected element "teiCorpus"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:77:20: error: element "tagsDecl" not allowed yet; missing required element "editorialDecl"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:93:22: error: element "encodingDesc" incomplete; missing required element "classDecl"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:104:21: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:110:16: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:114:92: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:141:87: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:152:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:164:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:169:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:170:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:177:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:178:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:189:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:208:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:209:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:224:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:225:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:283:100: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:294:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:536:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:537:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:549:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:562:42: error: element "pc" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:567:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:568:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:594:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:596:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:607:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:768:85: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:769:87: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:783:85: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:787:85: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:788:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:855:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:868:42: error: element "pc" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:873:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:874:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:1703:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:1716:42: error: element "pc" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:1720:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:1721:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:3807:90: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:3819:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:3832:42: error: element "pc" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:3836:87: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:3837:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:3875:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:3886:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4240:90: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4251:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4413:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4414:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4416:88: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4427:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4430:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4443:42: error: element "pc" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4447:87: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4451:87: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4453:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4464:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4471:87: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4472:90: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4483:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4488:87: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4493:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4494:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4643:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4654:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4677:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4678:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4690:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4703:42: error: element "pc" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4708:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4709:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4805:85: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4806:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4818:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4831:42: error: element "pc" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4836:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:4837:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:8772:87: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:8773:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:9609:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:9610:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:10287:88: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:10298:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:10330:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:10341:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:10704:88: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:10720:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:11467:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:11478:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:11493:87: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:11498:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:11499:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:11541:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:11542:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:11963:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:11974:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:12356:51: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:12401:90: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:12412:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:12425:91: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:12436:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:12639:91: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:12650:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:13024:91: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:13039:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:13040:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14158:87: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14159:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14331:88: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14333:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14344:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14430:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14431:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14433:92: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14444:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14469:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14470:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14483:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14494:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14642:88: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14643:90: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14654:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14827:88: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14829:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14840:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14866:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14867:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14869:92: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14880:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14893:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:14894:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:15245:90: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:15261:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:15263:90: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:15275:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:15288:42: error: element "pc" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:15292:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:15293:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:16343:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:16346:42: error: element "pc" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:16350:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:16351:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:16519:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:16520:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:16584:88: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:16588:88: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:16589:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:16970:88: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:16975:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:16976:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:16985:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:16986:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:16992:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:16993:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17114:88: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17115:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17232:88: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17233:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17287:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17288:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17337:92: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17349:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17360:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17602:88: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17603:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17752:90: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17767:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17768:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17772:92: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17783:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17789:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17790:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17808:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17809:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17840:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17841:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17875:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17880:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:17881:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19024:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19037:42: error: element "pc" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19041:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19042:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19056:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19069:42: error: element "pc" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19073:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19074:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19326:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19339:42: error: element "pc" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19343:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19344:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19353:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19354:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19371:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19372:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19407:92: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19423:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19516:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19517:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19785:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19798:42: error: element "pc" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19803:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:19804:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:20541:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:20544:42: error: element "pc" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:20548:88: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:20549:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:20818:92: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:20829:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:21085:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:21086:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:21238:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:21239:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:21933:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:21944:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:21955:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:21960:87: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:21964:87: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:21965:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:21979:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:21990:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:22140:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:22151:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:22456:88: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:22457:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:22558:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:22573:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:22574:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:22581:88: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:22582:91: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:22593:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:22612:88: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:22613:91: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:22628:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:22629:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:22633:91: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:22648:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-03-12-18ptm186016.ana.xml:22649:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-10-21-18ptv139208.ana.xml:5:55: error: element "TEI" not allowed anywhere; expected element "teiCorpus"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-10-21-18ptv139208.ana.xml:73:20: error: element "tagsDecl" not allowed yet; missing required element "editorialDecl"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-10-21-18ptv139208.ana.xml:89:22: error: element "encodingDesc" incomplete; missing required element "classDecl"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-10-21-18ptv139208.ana.xml:100:21: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-10-21-18ptv139208.ana.xml:106:16: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-10-21-18ptv139208.ana.xml:110:92: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-10-21-18ptv139208.ana.xml:258:85: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-10-21-18ptv139208.ana.xml:259:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-10-21-18ptv139208.ana.xml:316:85: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-10-21-18ptv139208.ana.xml:317:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-10-21-18ptv139208.ana.xml:390:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-10-21-18ptv139208.ana.xml:391:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2009-10-21-18ptv139208.ana.xml:476:51: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:5:55: error: element "TEI" not allowed anywhere; expected element "teiCorpus"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:73:20: error: element "tagsDecl" not allowed yet; missing required element "editorialDecl"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:89:22: error: element "encodingDesc" incomplete; missing required element "classDecl"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:100:21: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:106:16: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:110:108: error: element "profileDesc" incomplete; missing required element "particDesc"
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:218:85: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:219:100: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:231:49: error: element "pc" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:232:88: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:243:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:259:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:266:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:277:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:504:85: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:505:100: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:517:49: error: element "pc" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:518:87: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:529:88: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:545:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:742:85: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:743:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:754:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:759:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:763:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:764:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:777:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:778:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:801:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:802:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:813:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:818:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:823:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:824:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:831:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:832:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:843:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:848:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:849:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:1434:85: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:1435:87: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:1446:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:1451:85: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:1456:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:1457:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:1901:85: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:1902:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:1913:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:1918:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:1922:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:1923:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:1936:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:1937:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:1948:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:1959:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:1971:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:1982:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:2244:87: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:2258:85: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:2262:85: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:2263:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:2304:41: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:2305:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:2818:85: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:2819:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:3784:87: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:3785:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:3994:90: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:4005:90: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:4016:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:4736:51: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:4792:89: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:4803:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:5390:85: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:5391:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:5512:87: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:5523:29: error: element "name" incomplete; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:5554:86: error: element "w" not allowed anywhere; expected data
+/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema/../Samples/ParlaMint-IL/ParlaMint-IL_2021-12-21-24ptv616837.ana.xml:5555:29: error: element "name" incomplete; expected data
+make[1]: [Makefile:19: val] Error 123 (ignored)
 ls ../Samples/ParlaMint-*/*/ParlaMint-*.xml | grep    '.ana' | grep -v 'taxonomy' | grep -v 'list' | xargs java -jar ../Scripts/bin/jing.jar ParlaMint-TEI.ana.rng		
 ls ../Samples/ParlaMint-*/ParlaMint-*listOrg.xml    | xargs java -jar ../Scripts/bin/jing.jar ParlaMint-listOrg.rng		
 ls ../Samples/ParlaMint-*/ParlaMint-*listPerson.xml | xargs java -jar ../Scripts/bin/jing.jar ParlaMint-listPerson.rng	
@@ -18,5 +455,5 @@ java -jar ../Scripts/bin/trang.jar ParlaMint-listOrg.rng ParlaMint-listOrg.rnc
 java -jar ../Scripts/bin/trang.jar ParlaMint-listPerson.rng ParlaMint-listPerson.rnc
 java -jar ../Scripts/bin/trang.jar ParlaMint-taxonomy.rng ParlaMint-taxonomy.rnc
 make[1]: Leaving directory '/home/project/corpora/Parla/ParlaMint/ParlaMint/Schema'
-1146.29user 146.35system 4:40.82elapsed 460%CPU (0avgtext+0avgdata 1346804maxresident)k
-1624inputs+13832outputs (0major+14431212minor)pagefaults 0swaps
+1241.66user 158.84system 5:19.48elapsed 438%CPU (0avgtext+0avgdata 1335816maxresident)k
+305008inputs+15456outputs (1major+15612714minor)pagefaults 0swaps
