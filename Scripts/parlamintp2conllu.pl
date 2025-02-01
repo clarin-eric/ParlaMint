@@ -14,22 +14,39 @@ binmode(STDERR, ':utf8');
 
 sub usage
 {
-    print STDERR ("Usage: parlamint2conllu.pl <InputDirectory> <OutputDirectory>\n");
+    print STDERR ("Usage: parlamintp2conllu.pl -jobs <Jobs> -in <InputDirectory> -out <OutputDirectory>\n");
     print STDERR ("       Converts ParlaMint .ana files in the <InputDirectory> to\n");
     print STDERR ("       .conllu and -meta.tsv files in the <OutputDirectory>\n");
+    print STDERR ("       using parallel <Jobs> in execution.\n");
     print STDERR ("       Also validates the .conllu agains UD validations script\n");
 }
+
+use Getopt::Long;
 use FindBin qw($Bin);
 use File::Spec;
 use File::Temp qw/ tempfile tempdir /;  #creation of tmp files and directory
 my $tempdirroot = "$Bin/tmp";
 my $DIR = tempdir(DIR => $tempdirroot, CLEANUP => 1);
 
-$inDir = File::Spec->rel2abs(shift);
-$outDir = File::Spec->rel2abs(shift);
+GetOptions
+    (
+     'help'   => \$help,
+     'in=s'   => \$inDir,
+     'out=s'  => \$outDir,
+     'jobs=i' => \$procThreads,
+);
 
-$Para  = 'parallel --gnu --halt 0 --jobs 10';
-$Saxon   = "java -jar $Bin/bin/saxon.jar";
+if ($help) {
+    &usage;
+    exit;
+}
+
+$inDir = File::Spec->rel2abs($inDir) if $inDir;
+$outDir = File::Spec->rel2abs($outDir) if $outDir;
+$procThreads = 1 unless $procThreads;
+
+$Para = "parallel --gnu --halt 0 --jobs $procThreads";
+$Saxon  = "java -jar $Bin/bin/saxon.jar";
 $scriptValid   = "$Bin/bin/tools/validate.py";
 
 $scriptConvert = "$Bin/parlamint2conllu.xsl";
