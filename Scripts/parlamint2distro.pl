@@ -108,6 +108,9 @@ $Saxon   = "java -jar $Bin/bin/saxon.jar";
 # Problem with Out of heap space with TR, NL, GB for ana
 $SaxonX  = "java -Xmx${procMemGB}g -jar $Bin/bin/saxon.jar";
 
+# reduce paralelism for metadata processing, if listPerson and listOrg are large, then there can be problem with memory size
+my $minProcThreads = $procThreads > 30 ? int($procThreads/3) : $procThreads;
+
 # logger variable stores info how long takes certain parts of code, used by logger subrutine
 my $logger = {
     code => '',
@@ -337,7 +340,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outAnaRoot`;
 	    #Make also derived files
             `$scriptTexts -jobs $procThreads -in $outSmpDir -out $outSmpDir` unless $outTeiRoot;
-	    `$scriptVerts -jobs $procThreads -in $outSmpDir -out $outSmpDir`;
+	    `$scriptVerts -jobs $minProcThreads -in $outSmpDir -out $outSmpDir`;
 	    if (-e "$regiDir/$vertRegi") {`cp $regiDir/$vertRegi $outSmpDir/$vertRegi.$regiExt`}
 	    else {print STDERR "WARN: registry file $vertRegi not found\n"}
 	    `$scriptConls -jobs $procThreads -in $outSmpDir -out $outSmpDir`
@@ -410,7 +413,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	&cp_readme($countryCode, $handleAna, $Version, $inReadme, "$outVertDir/00README.txt");
 	if (-e "$regiDir/$vertRegi") {`cp $regiDir/$vertRegi $outVertDir/$vertRegi.$regiExt`}
 	else {print STDERR "WARN: registry file $vertRegi not found\n"}
-	`$scriptVerts -jobs $procThreads -in $outAnaDir -out $outVertDir`;
+	`$scriptVerts -jobs $minProcThreads -in $outAnaDir -out $outVertDir`;
 	&dirify($outVertDir);
     }
     logger();
