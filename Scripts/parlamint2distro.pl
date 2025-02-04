@@ -330,17 +330,17 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`rm -fr $outSmpDir; mkdir $outSmpDir`;
 	if (-e $outTeiRoot) {
 	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outTeiRoot`;
-	    `$scriptTexts $outSmpDir $outSmpDir`;
+	    `$scriptTexts -jobs $procThreads -in $outSmpDir -out $outSmpDir`;
 	}
 	else {print STDERR "WARN: No TEI files for $countryCode samples (needed root file is $outTeiRoot)\n"}
 	if (-e $outAnaRoot) {
 	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outAnaRoot`;
 	    #Make also derived files
-	    `$scriptTexts $outSmpDir $outSmpDir` unless $outTeiRoot;
-	    `$scriptVerts $outSmpDir $outSmpDir`;
+            `$scriptTexts -jobs $procThreads -in $outSmpDir -out $outSmpDir` unless $outTeiRoot;
+	    `$scriptVerts -jobs $procThreads -in $outSmpDir -out $outSmpDir`;
 	    if (-e "$regiDir/$vertRegi") {`cp $regiDir/$vertRegi $outSmpDir/$vertRegi.$regiExt`}
 	    else {print STDERR "WARN: registry file $vertRegi not found\n"}
-	    `$scriptConls $outSmpDir $outSmpDir`
+	    `$scriptConls -jobs $procThreads -in $outSmpDir -out $outSmpDir`
 	}
 	else {print STDERR "ERROR: No .ana files for $countryCode samples (needed root file is $outAnaRoot)\n"}
 	#For some reason both ParlaMint-XX_YYY-MM-DD-meta-en.tsv and ParlaMint-XX_YYY-MM-DD.ana-meta-en.tsv
@@ -382,8 +382,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	if ($MT) {$inReadme = "$docsDir/README-$MT.text.txt"}
 	else {$inReadme = "$docsDir/README.text.txt"}
 	&cp_readme($countryCode, $handleTxt, $Version, $inReadme, "$outTxtDir/00README.txt");
-	if    (-e $outTeiDir) {`$scriptTexts --procThreads $procThreads $outTeiDir $outTxtDir`}
-	elsif (-e $outAnaDir) {`$scriptTexts --procThreads $procThreads $outAnaDir $outTxtDir`}
+	if    (-e $outTeiDir) {`$scriptTexts -jobs $procThreads -in $outTeiDir -out $outTxtDir`}
+	elsif (-e $outAnaDir) {`$scriptTexts -jobs $procThreads -in $outAnaDir -out $outTxtDir`}
 	else {die "FATAL ERROR: Neither $outTeiDir nor $outAnaDir exits\n"}
 	&dirify($outTxtDir);
     }
@@ -396,7 +396,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	if ($MT) {$inReadme = "$docsDir/README-$MT.conll.txt"}
 	else {$inReadme = "$docsDir/README.conll.txt"}
 	&cp_readme($countryCode, $handleAna, $Version, $inReadme, "$outConlDir/00README.txt");
-	`$scriptConls --procThreads $procThreads $outAnaDir $outConlDir`;
+	`$scriptConls -jobs $procThreads -in $outAnaDir -out $outConlDir`;
 	&dirify($outConlDir);
     }
     if (($procAll and $procVert) or (!$procAll and $procVert == 1)) {
@@ -410,7 +410,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	&cp_readme($countryCode, $handleAna, $Version, $inReadme, "$outVertDir/00README.txt");
 	if (-e "$regiDir/$vertRegi") {`cp $regiDir/$vertRegi $outVertDir/$vertRegi.$regiExt`}
 	else {print STDERR "WARN: registry file $vertRegi not found\n"}
-	`$scriptVerts --procThreads $procThreads $outAnaDir $outVertDir`;
+	`$scriptVerts -jobs $procThreads -in $outAnaDir -out $outVertDir`;
 	&dirify($outVertDir);
     }
     logger();

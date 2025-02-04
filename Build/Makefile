@@ -6,7 +6,7 @@
 
 ### COMPLETE SET OF CORPORA
 #CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-CORPORA=SI
+CORPORA=IL
 # Used in targets that run only for one corpus
 CORPUS=
 
@@ -111,7 +111,7 @@ test-meta1:
 	${FINALIZE} -txt -codes IS -in ${HERE}/Temp -out ${HERE}/Temp
 	#${FINALIZE} -txt -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
 test-text1:
-	${FINALIZE} -txt -codes ES-CT -in ${HERE}/Distro -out ${HERE}/Distro
+	${FINALIZE} -txt -codes IL -in ${HERE}/Distro -out ${HERE}/Distro
 
 ### Fixes
 # Merge per-language translated CoNLL-Us (BE, ES-CT, ES-PV, UA) to joint CoNLL-U (with # lang info on newpar)
