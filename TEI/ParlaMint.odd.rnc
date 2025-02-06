@@ -11,7 +11,7 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2025-01-28T21:34:30Z. 2024-12-03. 
+# Schema generated from ODD source 2025-02-06T08:47:29Z. 2024-12-03. 
 # TEI Edition: P5 Version 4.9.0a. Last updated on 9th November 2024, revision 28371d145 
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/4.9.0a/ 
 #
@@ -1606,7 +1606,11 @@ tei_change =
   
   ## (change) documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.6. The Revision Description 2.4.1. Creation 12.7. Identifying Changes and Revisions]
   element change {
-    (tei_name | text)+, tei_att.datable.w3c.attribute.when, empty
+    (tei_name | text)+,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.datable.w3c.attribute.when,
+    empty
   }
 tei_TEI =
   [

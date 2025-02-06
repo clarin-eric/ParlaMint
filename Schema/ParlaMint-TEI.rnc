@@ -131,6 +131,7 @@ revisionDesc =
   element revisionDesc {
     global.atts,
     element change {
+      global.atts,
       attribute when { xsd:date },
       mixed { name-header* }
     }+
