@@ -47,13 +47,11 @@ $outDir = File::Spec->rel2abs($outDir) if $outDir;
 $procThreads = 1 unless $procThreads;
 
 $Para = "parallel --gnu --halt 0 --jobs $procThreads";
-$ParaLess  = "parallel --gnu --halt 0 --jobs ".int($procThreads / 3);
 
 $Saxon  = "java -jar $Bin/bin/saxon.jar";
 $scriptValid   = "$Bin/bin/tools/validate.py";
 
 $scriptConvert = "$Bin/parlamint2conllu.xsl";
-$scriptMeta    = "$Bin/parlamint2meta.xsl";
 
 #This should be somehow factorised out!!
 $country2lang{'AT'} = 'de';
@@ -122,27 +120,7 @@ foreach $inFile (@compAnaFiles) {
 close TMP;
 
 `mkdir $outDir` unless -e "$outDir";
-`rm -f $outDir/*-meta.tsv`;
 `rm -f $outDir/*.conllu`;
-
-#For MTed corpora output only en metadata, for native, both xx and en
-if ($MT) {@outLangs = ('en')} else {@outLangs = ('xx', 'en')}
-# For orig corpora make ParlaMint-XX-meta.tsv in corpus language and ParlaMint-XX-meta-en.tsv in English
-# For MTed corpora we produce ParlaMint-XX-en-meta.tsv in English
-foreach my $outLang (@outLangs) {
-    my $outSuffix;
-    if    ($MT and $outLang eq 'xx') {}
-    elsif ($MT and $outLang eq 'en') {$outSuffix = "-meta.tsv"}
-    elsif ($outLang eq 'xx') {$outSuffix = "-meta.tsv"}
-    elsif ($outLang eq 'en') {$outSuffix = "-meta-en.tsv"}
-    if ($outSuffix) {
-	$command = "$Saxon meta=$rootAnaFile" .
-	    " out-lang=$outLang" .
-	    " -xsl:$scriptMeta {} > $outDir/{/.}$outSuffix";
-	`cat $fileFile | $ParaLess '$command'`;
-    }
-}
-`rename 's/\.ana//' $outDir/*-meta*.tsv`;
 
 # Produce common CoNLL-U, even if we have more languages in a corpus
 if ($langs !~ /,/) {$checkLang = $langs}
