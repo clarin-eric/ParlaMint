@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2025-01-28</date>
+        <date>2025-02-15</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,6 +48,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
+      <change when="2025-02-15">Tomaž Erjavec: Allow ref/@xml:lang and several publisher/ref.</change>
       <change when="2025-01-28">Tomaž Erjavec: Allow ref/@xml:lang and several publisher/ref.</change>
       <change when="2024-12-03">Tomaž Erjavec: Allow s/@ana.</change>
       <change when="2024-05-14">Tomaž Erjavec: Make person/sex obligatory.</change>
@@ -78,7 +79,7 @@
           <ref target="https://github.com/clarin-eric/ParlaMint">ParlaMint corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v4.2</docEdition-->
-        <docDate>2024-12-03</docDate>
+        <docDate>2025-02-15</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -112,24 +113,34 @@
         elements, their nesting and attributes exemplified by snippets from the existing ParlaMint
         corpora. Other sources can help in understanding the encoding of ParlaMint corpora:
         <list>
-          <item>The freely available paper:<lb/> Erjavec, T., Ogrodniczuk, M., Osenova,
-          P. et al. The ParlaMint corpora of parliamentary proceedings.  Language
-          Resources &amp; Evaluation (2022). <ref
-          target="https://doi.org/10.1007/s10579-021-09574-0">https://doi.org/10.1007/s10579-021-09574-0</ref>.</item>
+          <item>Erjavec, T., Ogrodniczuk, M., Osenova, P. et al.
+          The ParlaMint corpora of parliamentary proceedings.
+          <emph>Language Resources &amp; Evaluation</emph> (2022).
+          DOI
+          <ref target="https://doi.org/10.1007/s10579-021-09574-0">10.1007/s10579-021-09574-0</ref>.
+          </item>
           
-          <item>The <ref
-          target="https://clarin-eric.github.io/parla-clarin/">Parla-CLARIN</ref>
+          <item>Erjavec, T., Kopp, M., Ljubešić, N. et al.
+          ParlaMint II: Advancing Comparable Parliamentary Corpora Across Europe.
+          <emph>Language Resources &amp; Evaluation</emph> (2024).
+          DOI
+          <ref target="https://doi.org/10.1007/s10579-024-09798-w">10.1007/s10579-024-09798-w</ref>.
+          </item>
+          
+          <item>The
+          <ref target="https://clarin-eric.github.io/parla-clarin/">Parla-CLARIN</ref>
           guidelines, which provide general guidelines for encoding parliamentary corpora
-          in TEI; they also give links to the relevant chapters of the <ref
-          target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html">TEI Guidelines
-          </ref>.</item>
+          in TEI; they also give links to the relevant chapters of the
+          <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html">TEI Guidelines</ref>.
+          </item>
           
           <item>Samples of ParlaMint corpora, available in the Data/ directory of the
           ParlaMint GitHub repository, esp. useful as they give the complete picture of a
-          ParlaMint corpus; note that the samples in the <ref
-          target="https://github.com/clarin-eric/ParlaMint/tree/main/Data">main
-          branch</ref> are supposed to be publication-ready, while those in the <ref
-          target="https://github.com/clarin-eric/ParlaMint/tree/data/Data">data
+          ParlaMint corpus; note that the samples in the
+          <ref target="https://github.com/clarin-eric/ParlaMint/tree/main/Data">main
+          branch</ref>
+          are supposed to be publication-ready, while those in the
+          <ref target="https://github.com/clarin-eric/ParlaMint/tree/data/Data">data
           branch</ref> are work in progress.
           </item>
         </list>
