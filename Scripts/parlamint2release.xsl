@@ -861,6 +861,10 @@
   <xsl:template mode="comp" match="tei:s[not(.//tei:w or .//tei:pc)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
                          ': removing sentence without tokens for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+    <!-- If sentence contains notes or similar, keep these but not link group -->
+    <xsl:if test="tei:*">
+      <xsl:apply-templates mode="comp" select="tei:*[not(self::tei:linkGrp)]"/>
+    </xsl:if>
   </xsl:template>
   
   <!-- Bug where a name contains no words, but only punctuation or a transcriber comment: remove <name> tag -->
