@@ -64,7 +64,7 @@ editionStmt =
 ## Extent of the document.
 extent =
   element extent {
-    element measure {
+    element text-measure {
       attribute unit {
         # data type="NCName"/
         "speeches" | "words" | "tokens"
@@ -249,6 +249,7 @@ u =
        ],
     ana.att,
     attribute source { anyURIs }?,
+    text-measure?,
     (seg | comment | pb)+
   }
 
@@ -256,6 +257,7 @@ u =
 seg =
   element seg {
     global.atts,
+    text-measure?,
     (comment
      | pb
      | text

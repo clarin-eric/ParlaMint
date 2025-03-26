@@ -297,6 +297,18 @@ idno =
     xsd:anyURI { pattern = "https?://.+" }
   }
 
+## Gives a text-internal annotation with a decimal number as its value.
+##     ParlaMint currently uses it for giving the sentiment score of elements. The element has empty content
+##     and all information is stored in its attributes.
+text-measure =
+  element measure {
+    global.atts,
+    ana.att,
+    corresp.att,
+    attribute type { "sentiment" },
+    attribute quantity { xsd:decimal }
+  }
+
 ## The specification of a time.  It can have textual content with the date
 ##     type-set according to the object language.
 time = element time { global.atts, temporal.atts, text }

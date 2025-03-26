@@ -31,6 +31,7 @@ include "ParlaMint-TEI.rnc" {
       global.atts,
       # Might have a linguistic analysis
       ana.att?,
+      measure?,
       (comment | pb | sentence)+
     }
 }
@@ -41,6 +42,7 @@ sentence =
     global.atts,
     # Might have a linguistic analysis
     ana.att?,
+    measure?,
     (comment | pb | ner | phr | word | punct)+,
     syntax?
   }

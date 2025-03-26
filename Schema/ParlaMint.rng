@@ -651,6 +651,33 @@
     </optional>
   </define>
   
+  <define name="utterance.atts">
+    <a:documentation>Attributes on the u element.</a:documentation>
+    <ref name="global.atts"/>
+    <a:documentation>Utterance has obligatory @ana, for the role of the speaker.</a:documentation>
+    <ref name="ana.att"/>
+    <optional>
+      <ref name="who.att"/>
+      <a:documentation>@prev and @next are used to link split utterances.</a:documentation>
+    </optional>
+    <optional>
+      <attribute name="prev">
+        <data type="anyURI"/>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="next">
+        <data type="anyURI"/>
+      </attribute>
+    </optional>
+    <a:documentation>Possible source URI of the utterance.</a:documentation>
+    <optional>
+      <attribute name="source">
+        <ref name="anyURIs"/>
+      </attribute>
+    </optional>
+  </define>
+  
   <define name="temporal.atts">
     <a:documentation>Attributes giving temporal information on the current
     element.</a:documentation>

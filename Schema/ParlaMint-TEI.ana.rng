@@ -31,6 +31,23 @@
       </element>
     </define>
     
+    <define name="u">
+      <a:documentation>One speech (i.e. 'utterance') with possible measure for sentiment annotation.</a:documentation>
+      <element name="u">
+        <ref name="utterance.atts"/>
+	<optional>
+          <ref name="text-measure"/>
+        </optional>
+        <oneOrMore>
+          <choice>
+            <ref name="seg"/>
+            <ref name="comment"/>
+            <ref name="pb"/>
+          </choice>
+        </oneOrMore>
+      </element>
+    </define>
+  
     <define name="seg">
       <a:documentation>The only element that contains analysed text is the segment. It can,
       however, contain transcription commentary.</a:documentation>
@@ -39,6 +56,9 @@
         <!-- Might have a linguistic analysis -->
 	<optional>
           <ref name="ana.att"/>
+        </optional>
+	<optional>
+          <ref name="text-measure"/>
         </optional>
         <oneOrMore>
           <choice>
@@ -56,9 +76,12 @@
     <a:documentation>A sentence.</a:documentation>
     <element name="s">
       <ref name="global.atts"/>
-      <!-- Might have a linguistic analysis -->
+      <!-- Has linguistic analysis -->
       <optional>
         <ref name="ana.att"/>
+      </optional>
+      <optional>
+        <ref name="text-measure"/>
       </optional>
       <oneOrMore>
         <choice>
@@ -76,6 +99,22 @@
     </element>
   </define>
 
+  <define name="text-measure">
+    <a:documentation>Gives a text-internal annotation with a decimal number as its value.
+    ParlaMint currently uses it for giving the sentiment score of elements. The element has empty content
+    and all information is stored in its attributes.</a:documentation>
+    <element name="measure">
+      <ref name="global.atts"/>
+      <ref name="ana.att"/>
+      <attribute name="type">
+	<value>sentiment</value>
+      </attribute>
+      <attribute name="quantity">
+        <data type="decimal"/>
+      </attribute>
+    </element>
+  </define>
+  
   <define name="phr">
     <a:documentation>Multi-Word Unit</a:documentation>
     <element name="phr">

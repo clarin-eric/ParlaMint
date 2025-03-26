@@ -455,28 +455,7 @@
   <define name="u">
     <a:documentation>One speech (i.e. 'utterance').</a:documentation>
     <element name="u">
-      <ref name="global.atts"/>
-      <a:documentation>Attributes to link split utterances.</a:documentation>
-      <optional>
-        <attribute name="prev">
-          <data type="anyURI"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="next">
-          <data type="anyURI"/>
-        </attribute>
-      </optional>
-      <optional>
-        <ref name="who.att"/>
-      </optional>
-      <a:documentation>Utterance has obligatory @ana, for the role of the speaker.</a:documentation>
-      <ref name="ana.att"/>
-      <optional>
-        <attribute name="source">
-          <ref name="anyURIs"/>
-        </attribute>
-      </optional>
+      <ref name="utterance.atts"/>
       <oneOrMore>
         <choice>
           <ref name="seg"/>
