@@ -6,7 +6,7 @@
 
 ### COMPLETE SET OF CORPORA
 #CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-CORPORA=IL
+CORPORA=SI
 # Used in targets that run only for one corpus
 CORPUS=
 
@@ -73,8 +73,8 @@ test-tei1:
 test-vert6:
 	../Scripts/parlamintp-tei2vert-xx.pl ${HERE}/Distro/ParlaMint-LV.TEI.ana Test/ParlaMint-LV-xx.vert
 test-vert5:
-	$s meta=../Build/Distro/ParlaMint-DK.TEI.ana/ParlaMint-DK.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
-	../Build/Distro/ParlaMint-DK.TEI.ana/2020/ParlaMint-DK_2020-01-07-20191-M42.ana.xml > Test/test-DK.vert
+	$s meta=../Build/Distro/ParlaMint-SI.TEI.ana/ParlaMint-SI.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
+	../Build/Distro/ParlaMint-SI.TEI.ana/2020/ParlaMint-SI_2020-03-13-SDZ8-Izredna-31.ana.xml  > Test/test-SI.vert
 test-vert4:
 	$s meta=${HERE}/Distro/ParlaMint-SI.TEI.ana/ParlaMint-SI.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
 	${HERE}/Distro/ParlaMint-SI.TEI.ana/2022/ParlaMint-SI_2022-01-13-SDZ8-Izredna-93.ana.xml > test-SI.vert
