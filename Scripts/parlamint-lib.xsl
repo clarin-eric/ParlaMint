@@ -750,36 +750,39 @@
     </xsl:choose>
   </xsl:template>
   
-  <!-- Return sentiment score or 3/6 class label, which depends of $type -->
-  <!-- Assumes the context node has @n and @ana, the latter with reference to 6-class senti label -->
+  <!-- Return sentiment score or 3/6 class label, which of these depends on the value of $type -->
+  <!-- Assumes the context node the <measure> element giving the needed info -->
   <xsl:template name="senti">
     <xsl:param name="type"/>
+    <xsl:variable name="senti_quantity" select="tei:measure[@type = 'sentiment']/@quantity"/>
+    <xsl:variable name="senti_ana" select="tei:measure[@type = 'sentiment']/@ana"/>
+    <xsl:if test="not(normalize-space($senti_quantity) and normalize-space($senti_ana))">
+      <xsl:message>
+        <xsl:text>WARN: no sentiment measure element or its appropriate attributes in </xsl:text>
+          <xsl:value-of select="@xml:id"/>
+        </xsl:message>
+    </xsl:if>
     <xsl:choose>
       <!-- Numeric sentiment label -->
       <xsl:when test="$type = 'n'">
-        <xsl:value-of select="@n"/>
+        <xsl:value-of select="$senti_quantity"/>
       </xsl:when>
       <!-- 6-class sentiment label -->
       <xsl:when test="$type = '6'">
-        <xsl:for-each select="tokenize(@ana, ' ')">
-          <xsl:if test="key('id', substring-after(., ':'), $rootHeader)/
-                        ancestor::tei:taxonomy[contains(@xml:id, 'taxonomy-sentiment')]">
-            <xsl:variable name="senti" select="key('id', substring-after(., ':'), $rootHeader)"/>
-            <xsl:value-of select="et:l10n($corpus-language, $senti/tei:catDesc/tei:term)"/>
-          </xsl:if>
-        </xsl:for-each>
+        <xsl:variable name="senti_category" select="key('id', substring-after($senti_ana, ':'), $rootHeader)"/>
+        <xsl:value-of select="et:l10n($corpus-language, $senti_category/tei:catDesc/tei:term)"/>
       </xsl:when>
       <!-- 3-class sentiment label -->
       <xsl:when test="$type = '3'">
-        <xsl:for-each select="tokenize(@ana, ' ')">
-          <xsl:if test="key('id', substring-after(., ':'), $rootHeader)/
-                        ancestor::tei:taxonomy[contains(@xml:id, 'taxonomy-sentiment')]">
-            <xsl:variable name="senti" select="key('id', substring-after(., ':'), $rootHeader)/parent::tei:category"/>
-            <xsl:value-of select="et:l10n($corpus-language, $senti/tei:catDesc/tei:term)"/>
-          </xsl:if>
-        </xsl:for-each>
+        <xsl:variable name="senti_category" select="key('id', substring-after($senti_ana, ':'), $rootHeader)/parent::tei:category"/>
+        <xsl:value-of select="et:l10n($corpus-language, $senti_category/tei:catDesc/tei:term)"/>
       </xsl:when>
       <xsl:otherwise>
+        <xsl:message terminate="yes">
+          <xsl:text>FATAL: bad type </xsl:text>
+          <xsl:value-of select="$type"/>
+          <xsl:text> in calling senti named template!</xsl:text>
+        </xsl:message>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>

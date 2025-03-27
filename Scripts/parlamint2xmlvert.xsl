@@ -106,7 +106,7 @@
       <xsl:if test="normalize-space($topic)">
         <xsl:attribute name="topic" select="$topic"/>
       </xsl:if>
-      <!-- Sentiment is given currently only in SI corpus -->
+      <!-- Sentiment on utterances is given only in SI corpus -->
       <xsl:if test="$country-code = 'SI'">
         <xsl:attribute name="senti_3">
           <xsl:call-template name="senti">
@@ -165,6 +165,9 @@
   </xsl:template>
   
   <xsl:template match="tei:pb"/>
+  <xsl:template match="tei:u/tei:measure"/>
+  <xsl:template match="tei:seg/tei:measure"/>
+  <xsl:template match="tei:s/tei:measure"/>
   
   <!-- Conflate head, note, gap and all "incidents" into <note> -->
   <xsl:template match="tei:head | tei:note | tei:gap | tei:vocal | tei:incident | tei:kinesic">
@@ -243,24 +246,22 @@
   <xsl:template match="tei:s">
     <xsl:copy>
       <xsl:attribute name="id" select="@xml:id"/>
-      <!-- Sentiment is given currently only in SI corpus -->
-      <xsl:if test="$country-code = 'SI'">
-        <xsl:attribute name="senti_3">
-          <xsl:call-template name="senti">
-            <xsl:with-param name="type">3</xsl:with-param>
-          </xsl:call-template>
-        </xsl:attribute>
-        <xsl:attribute name="senti_6">
-          <xsl:call-template name="senti">
-            <xsl:with-param name="type">6</xsl:with-param>
-          </xsl:call-template>
-        </xsl:attribute>
-        <xsl:attribute name="senti_n">
-          <xsl:call-template name="senti">
-            <xsl:with-param name="type">n</xsl:with-param>
-          </xsl:call-template>
-        </xsl:attribute>
-      </xsl:if>
+      <!-- Sentence sentiment should be given on all corpora -->
+      <xsl:attribute name="senti_3">
+        <xsl:call-template name="senti">
+          <xsl:with-param name="type">3</xsl:with-param>
+        </xsl:call-template>
+      </xsl:attribute>
+      <xsl:attribute name="senti_6">
+        <xsl:call-template name="senti">
+          <xsl:with-param name="type">6</xsl:with-param>
+        </xsl:call-template>
+      </xsl:attribute>
+      <xsl:attribute name="senti_n">
+        <xsl:call-template name="senti">
+          <xsl:with-param name="type">n</xsl:with-param>
+        </xsl:call-template>
+      </xsl:attribute>
       <xsl:text>&#10;</xsl:text>
       <xsl:apply-templates/>
     </xsl:copy>
