@@ -11,7 +11,8 @@ CORPORA=SI
 CORPUS=
 
 testx:
-	echo ${HERE}
+	$s meta=${HERE}/Distro/ParlaMint-SI.TEI.ana/ParlaMint-SI.ana.xml -xsl:../Scripts/check-links.xsl \
+	${HERE}/Distro/ParlaMint-SI.TEI.ana/2000/ParlaMint-SI_2000-10-27-SDZ3-Redna-01.ana.xml
 
 #Absolute paths are needed otherwise problems with XSLT
 PARLAMINT := $(shell realpath .. | tr -d '\n')# get real absolute path to ParlaMint directory
@@ -87,9 +88,9 @@ test-vert1:
 	${FINALIZE} -vert -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
 	${FINALIZE} -vert -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
 test-conll4:
-	$s meta=../Build/Distro/ParlaMint-AT.TEI.ana/ParlaMint-AT.ana.xml \
-	-xsl:../Scripts/parlamint2conllu.xsl ../Build/Distro/ParlaMint-AT.TEI.ana/1996/ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00003.ana.xml \
-	> Test/test-AT.conllu
+	$s meta=../Build/Distro/ParlaMint-SI.TEI.ana/ParlaMint-SI.ana.xml \
+	-xsl:../Scripts/parlamint2conllu.xsl ../Build/Distro/ParlaMint-SI.TEI.ana/2000/ParlaMint-SI_2000-10-27-SDZ3-Redna-01.ana.xml \
+	> Test/test-SI.conllu
 test-conll3:
 	${FINALIZE} -conll -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
 test-conll2:
@@ -358,7 +359,7 @@ mt-test8:
 	$s meta=${HERE}/Distro/ParlaMint-UA.TEI.ana/ParlaMint-UA.ana.xml -xsl:../Scripts/validate-parlamint.xsl \
 	${HERE}/Distro/ParlaMint-UA.TEI.ana/2022/ParlaMint-UA_2022-01-25-m0.ana.xml
 mt-test7:
-	$s meta=${HERE}/Distro/ParlaMint-AT-en.TEI.ana/ParlaMint-AT-en.ana.xml -xsl:../Scripts//check-links.xsl \
+	$s meta=${HERE}/Distro/ParlaMint-AT-en.TEI.ana/ParlaMint-AT-en.ana.xml -xsl:../Scripts/check-links.xsl \
 	${HERE}/Distro/ParlaMint-AT-en.TEI.ana/2022/ParlaMint-AT-en_2022-01-20-027-XXVII-NRSITZ-00139.ana.xml
 mt-test6:
 	${FINALIZE-MT} -sample -codes ES-CT-en -out ${HERE}/Distro
