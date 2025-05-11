@@ -10,6 +10,9 @@ CORPORA=SI
 # Used in targets that run only for one corpus
 CORPUS=
 
+testx:
+	echo ${HERE}
+
 #Absolute paths are needed otherwise problems with XSLT
 PARLAMINT := $(shell realpath .. | tr -d '\n')# get real absolute path to ParlaMint directory
 HERE = ${PARLAMINT}/Build
@@ -111,7 +114,7 @@ test-meta1:
 	${FINALIZE} -txt -codes IS -in ${HERE}/Temp -out ${HERE}/Temp
 	#${FINALIZE} -txt -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
 test-text1:
-	${FINALIZE} -txt -codes IL -in ${HERE}/Distro -out ${HERE}/Distro
+	${FINALIZE} -txt -codes ES -in ${HERE}/Distro -out ${HERE}/Distro
 
 ### Fixes
 # Merge per-language translated CoNLL-Us (BE, ES-CT, ES-PV, UA) to joint CoNLL-U (with # lang info on newpar)
