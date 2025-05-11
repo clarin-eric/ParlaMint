@@ -14,23 +14,6 @@
 
   <include href="ParlaMint-TEI.rng">
     
-    <define name="encodingDesc">
-      <a:documentation>Encoding description linguistically annotated corpus compoment.</a:documentation>
-      <element name="encodingDesc">
-        <ref name="global.atts"/>
-        <element name="projectDesc">
-          <ref name="paras"/>
-        </element>
-        <ref name="tagsDecl"/>
-	<a:documentation>Definition of listPrefix for MTed corpora.</a:documentation>
-	<optional>
-          <element name="listPrefixDef">
-            <ref name="prefixDef"/>
-          </element>
-	</optional>
-      </element>
-    </define>
-    
     <define name="u">
       <a:documentation>One speech (i.e. 'utterance') with possible measure for sentiment annotation.</a:documentation>
       <element name="u">

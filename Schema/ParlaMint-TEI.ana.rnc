@@ -12,17 +12,8 @@ a:documentation [
 ]
 include "ParlaMint-TEI.rnc" {
   
-  ## Encoding description linguistically annotated corpus compoment.
-  encodingDesc =
-    element encodingDesc {
-      global.atts,
-      element projectDesc { paras },
-      tagsDecl
-      >> a:documentation [
-           "Definition of listPrefix for MTed corpora."
-         ],
-      element listPrefixDef { prefixDef }?
-    }
+  ## One speech (i.e. 'utterance') with possible measure for sentiment annotation.
+  u = element u { utterance.atts, text-measure?, (seg | comment | pb)+ }
   
   ## The only element that contains analysed text is the segment. It can,
   ##       however, contain transcription commentary.
@@ -31,7 +22,7 @@ include "ParlaMint-TEI.rnc" {
       global.atts,
       # Might have a linguistic analysis
       ana.att?,
-      measure?,
+      text-measure?,
       (comment | pb | sentence)+
     }
 }
@@ -40,11 +31,22 @@ include "ParlaMint-TEI.rnc" {
 sentence =
   element s {
     global.atts,
-    # Might have a linguistic analysis
+    # Has linguistic analysis
     ana.att?,
-    measure?,
+    text-measure?,
     (comment | pb | ner | phr | word | punct)+,
     syntax?
+  }
+
+## Gives a text-internal annotation with a decimal number as its value.
+##     ParlaMint currently uses it for giving the sentiment score of elements. The element has empty content
+##     and all information is stored in its attributes.
+text-measure =
+  element measure {
+    global.atts,
+    ana.att,
+    attribute type { "sentiment" },
+    attribute quantity { xsd:decimal }
   }
 
 ## Multi-Word Unit

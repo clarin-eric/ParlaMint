@@ -64,7 +64,7 @@ editionStmt =
 ## Extent of the document.
 extent =
   element extent {
-    element text-measure {
+    element measure {
       attribute unit {
         # data type="NCName"/
         "speeches" | "words" | "tokens"
@@ -120,7 +120,8 @@ encodingDesc =
   element encodingDesc {
     global.atts,
     element projectDesc { paras },
-    tagsDecl
+    tagsDecl,
+    element listPrefixDef { prefixDef }?
   }
 
 ## Profile description.
@@ -237,27 +238,12 @@ text-body =
   }
 
 ## One speech (i.e. 'utterance').
-u =
-  element u {
-    global.atts
-    >> a:documentation [ "Attributes to link split utterances." ],
-    attribute prev { xsd:anyURI }?,
-    attribute next { xsd:anyURI }?,
-    (who.att?)
-    >> a:documentation [
-         "Utterance has obligatory @ana, for the role of the speaker."
-       ],
-    ana.att,
-    attribute source { anyURIs }?,
-    text-measure?,
-    (seg | comment | pb)+
-  }
+u = element u { utterance.atts, (seg | comment | pb)+ }
 
 ## A segment (i.e paragraph) inside a speech.
 seg =
   element seg {
     global.atts,
-    text-measure?,
     (comment
      | pb
      | text

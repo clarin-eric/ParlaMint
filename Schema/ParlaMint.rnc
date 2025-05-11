@@ -297,18 +297,6 @@ idno =
     xsd:anyURI { pattern = "https?://.+" }
   }
 
-## Gives a text-internal annotation with a decimal number as its value.
-##     ParlaMint currently uses it for giving the sentiment score of elements. The element has empty content
-##     and all information is stored in its attributes.
-text-measure =
-  element measure {
-    global.atts,
-    ana.att,
-    corresp.att,
-    attribute type { "sentiment" },
-    attribute quantity { xsd:decimal }
-  }
-
 ## The specification of a time.  It can have textual content with the date
 ##     type-set according to the object language.
 time = element time { global.atts, temporal.atts, text }
@@ -326,6 +314,22 @@ date-simple = element date { when.att, text }
 name.att =
   lang.att,
   attribute full { "yes" | "abb" | "init" }?
+
+## Attributes on the u element.
+utterance.atts =
+  global.atts
+  >> a:documentation [
+       "Utterance has obligatory @ana, for the role of the speaker."
+     ],
+  ana.att,
+  who.att
+  >> a:documentation [
+       "@prev and @next are used to link split utterances."
+     ]?,
+  attribute prev { xsd:anyURI }?,
+  (attribute next { xsd:anyURI }?)
+  >> a:documentation [ "Possible source URI of the utterance." ],
+  attribute source { anyURIs }?
 
 ## Attributes giving temporal information on the current
 ##     element.
