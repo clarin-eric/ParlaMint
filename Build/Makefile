@@ -387,7 +387,7 @@ mt-test1:
 
 ### Merging taxonomies (now the common taxonomy files should be edited, not merging local copies anymore)
 
-TAXONOMIES-TEI = subcorpus speaker_types parla.legislature
+TAXONOMIES-TEI = subcorpus speaker_types parla.legislature topic
 TAXONOMIES-ANA = NER sentiment
 merge-taxos-nohup:
 	nohup time make merge-taxos 2> Taxonomies/ParlaMint-taxonomy-merge.log > Logs/ParlaMint-taxonomy.log &

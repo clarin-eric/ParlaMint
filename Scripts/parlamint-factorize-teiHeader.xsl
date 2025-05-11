@@ -17,7 +17,7 @@
 
   <!--xsl:import href="parlamint-lib.xsl"/-->
 
-  <xsl:param name="taxonomies">NER UD-SYN parla.legislature speaker_types subcorpus politicalOrientation CHES</xsl:param>
+  <xsl:param name="taxonomies">NER UD-SYN parla.legislature speaker_types subcorpus topic politicalOrientation CHES</xsl:param>
   
   <xsl:variable name="pref">
     <xsl:choose>

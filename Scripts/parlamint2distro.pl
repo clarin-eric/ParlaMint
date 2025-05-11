@@ -123,6 +123,7 @@ $taxonomy{'ParlaMint-taxonomy-parla.legislature'}    = "$taxonomyDir/ParlaMint-t
 $taxonomy{'ParlaMint-taxonomy-politicalOrientation'} = "$taxonomyDir/ParlaMint-taxonomy-politicalOrientation.xml";
 $taxonomy{'ParlaMint-taxonomy-speaker_types'}        = "$taxonomyDir/ParlaMint-taxonomy-speaker_types.xml";
 $taxonomy{'ParlaMint-taxonomy-subcorpus'}            = "$taxonomyDir/ParlaMint-taxonomy-subcorpus.xml";
+$taxonomy{'ParlaMint-taxonomy-topic'}                = "$taxonomyDir/ParlaMint-taxonomy-topic.xml";
 $taxonomy{'ParlaMint-taxonomy-NER.ana'}              = "$taxonomyDir/ParlaMint-taxonomy-NER.ana.xml";
 $taxonomy{'ParlaMint-taxonomy-CHES'}                 = "$taxonomyDir/ParlaMint-taxonomy-CHES.xml";
 $taxonomy{'ParlaMint-taxonomy-UD-SYN.ana'}           = "$taxonomyDir/ParlaMint-taxonomy-UD-SYN.ana.xml";

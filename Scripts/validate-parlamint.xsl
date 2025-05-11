@@ -246,6 +246,11 @@
         <xsl:with-param name="msg">Missing 'Subcorpora' taxonomy</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
+    <xsl:if test="not(tei:taxonomy[tei:desc/tei:term = 'Topics'])">
+      <xsl:call-template name="error">
+        <xsl:with-param name="msg">Missing 'Topics' taxonomy</xsl:with-param>
+      </xsl:call-template>
+    </xsl:if>
     <xsl:if test="$type = 'ana'">
       <xsl:if test="not(tei:taxonomy[tei:desc/tei:term = 'Named entities'])">
         <xsl:call-template name="error">
@@ -267,8 +272,15 @@
     <xsl:apply-templates/>
   </xsl:template>
 
-  <!-- Check if UD relations have their prefix defined; not relevant for MTed corpora -->
+  <!-- Check if necessary prefixes are defined -->
   <xsl:template match="tei:listPrefixDef">
+    <!-- Check if Topics have their prefix defined -->
+    <xsl:if test="not(tei:prefixDef[@ident = 'topic'])">
+      <xsl:call-template name="error">
+        <xsl:with-param name="msg">Missing Topic prefixDef</xsl:with-param>
+      </xsl:call-template>
+    </xsl:if>
+    <!-- Check if UD relations have their prefix defined; not relevant for MTed corpora -->
     <xsl:if test="not(tei:prefixDef[@ident = 'ud-syn'] or normalize-space($MT))">
       <xsl:call-template name="error">
         <xsl:with-param name="msg">Missing UD prefixDef</xsl:with-param>
