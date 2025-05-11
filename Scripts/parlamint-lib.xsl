@@ -42,15 +42,15 @@
        the ParlaMint languages as well, i.e. "mul" should be in their langUsage -->
   <xsl:param name="multilingual-label">Multilingual</xsl:param>
   
+  <xsl:param name="corpus-language" select="/tei:*/@xml:lang"/>
+  <xsl:param name="text_id" select="replace(/tei:*/@xml:id, '\.ana', '')"/>
+  <xsl:param name="country-code" select="replace($text_id, '.*?-([^._]+).*', '$1')"/>
+  
   <!-- Key in value of element ID -->
   <xsl:key name="id" match="tei:*" use="@xml:id"/>
   <!-- Key which directly finds local references -->
   <xsl:key name="idr" match="tei:*" use="concat('#', @xml:id)"/>
 
-  <xsl:variable name="text_id" select="replace(/tei:*/@xml:id, '\.ana', '')"/>
-  
-  <xsl:variable name="corpus-language" select="/tei:*/@xml:lang"/>
-  
   <!-- Current date in ISO format -->
   <xsl:variable name="today-iso" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
   
@@ -404,6 +404,31 @@
     </xsl:choose>
   </xsl:function>
   
+  <!-- Output the topic of a speech -->
+  <!-- e.g. "#regular topic:other" -->
+  <xsl:function name="et:topic" as="xs:string">
+    <xsl:param name="ana"/>
+    <xsl:variable name="topics">
+      <xsl:for-each select="tokenize($ana, ' ')">
+        <xsl:sort select="."/>
+        <xsl:variable name="topic" select="key('id', substring-after(., ':'), $rootHeader)"/>
+        <xsl:if test="$topic/ancestor::tei:taxonomy/tei:desc[@xml:lang='en'] = 'Topics'">
+          <xsl:value-of select="et:l10n($corpus-language, $topic/tei:catDesc/tei:term)"/>
+          <xsl:value-of select="$multi-separator"/>
+        </xsl:if>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="normalize-space($topics)">
+        <xsl:value-of select="et:tsv-value(replace($topics, '.$', ''))"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:message select="concat('ERROR: no speech topic found in taxonomy for ', $ana)"/>
+        <xsl:text>-</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+
   <!-- Output the role of the speaker from the taxonomy -->
   <!-- e.g. "#regular #topic.144_403_M" -->
   <xsl:function name="et:u-role" as="xs:string">
@@ -421,8 +446,8 @@
         <xsl:value-of select="$role"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:message select="concat('ERROR: no speaker role found in taxonony for ', $ana)"/>
-        <xsl:text>unknown</xsl:text>
+        <xsl:message select="concat('ERROR: no speaker role found in taxonomy for ', $ana)"/>
+        <xsl:text>-</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
@@ -754,6 +779,7 @@
   <!-- Assumes the context node the <measure> element giving the needed info -->
   <xsl:template name="senti">
     <xsl:param name="type"/>
+    <xsl:param name="lang" select="$corpus-language"/>
     <xsl:variable name="senti_quantity" select="tei:measure[@type = 'sentiment']/@quantity"/>
     <xsl:variable name="senti_ana" select="tei:measure[@type = 'sentiment']/@ana"/>
     <xsl:if test="not(normalize-space($senti_quantity) and normalize-space($senti_ana))">
@@ -770,12 +796,12 @@
       <!-- 6-class sentiment label -->
       <xsl:when test="$type = '6'">
         <xsl:variable name="senti_category" select="key('id', substring-after($senti_ana, ':'), $rootHeader)"/>
-        <xsl:value-of select="et:l10n($corpus-language, $senti_category/tei:catDesc/tei:term)"/>
+        <xsl:value-of select="et:l10n($lang, $senti_category/tei:catDesc/tei:term)"/>
       </xsl:when>
       <!-- 3-class sentiment label -->
       <xsl:when test="$type = '3'">
         <xsl:variable name="senti_category" select="key('id', substring-after($senti_ana, ':'), $rootHeader)/parent::tei:category"/>
-        <xsl:value-of select="et:l10n($corpus-language, $senti_category/tei:catDesc/tei:term)"/>
+        <xsl:value-of select="et:l10n($lang, $senti_category/tei:catDesc/tei:term)"/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:message terminate="yes">
@@ -787,7 +813,7 @@
     </xsl:choose>
   </xsl:template>
   
-  <!-- Notes and incidents normalization - removing brackets and normalize spces-->
+  <!-- Notes and incidents normalization: remove brackets and normalize spaces-->
   <xsl:function name="mk:normalize-note" as="xs:string">
     <xsl:param name="noteIn" as="xs:string"/>
     <xsl:variable name="noteOut1" select="normalize-space($noteIn)"/>
@@ -802,7 +828,7 @@
     </xsl:choose>
   </xsl:function>
 
-  <!-- test if two affiliations are comparable - same ref + role + roleName + ana -->
+  <!-- Test if two affiliations are comparable: same ref + role + roleName + ana -->
   <xsl:function name="mk:is-comparable">
     <xsl:param name="aff1"/>
     <xsl:param name="aff2"/>
@@ -826,7 +852,7 @@
     </xsl:choose>
   </xsl:function>
 
-  <!-- test if two elements has overlapping from-to ranges -->
+  <!-- Test if two elements have overlapping from-to ranges -->
   <xsl:function name="mk:is-overlapping">
     <xsl:param name="aff1"/>
     <xsl:param name="aff2"/>
