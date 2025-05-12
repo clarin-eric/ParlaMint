@@ -749,13 +749,14 @@
                          parent::tei:*/local-name(),'/',local-name(),
                          ' &quot;',$textIn,'&quot;')"/>
     </xsl:if-->
-    <xsl:if test="not(normalize-space( replace($textOut, '[^\p{Lu}\p{Lt}\p{Ll}0-9]',' ')))
+    <!-- Do not warn about punct only notes, as there are too many such warnings and they can't be fixed: -->
+    <!--xsl:if test="not(normalize-space( replace($textOut, '[^\p{Lu}\p{Lt}\p{Ll}0-9]',' ')))
                  and not($allowedNotes[. = normalize-space($textOut)])">
       <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
                          ': ',
                          parent::tei:*/local-name(),'/',local-name(),
                          ' in ',ancestor-or-self::tei:*[@xml:id][1]/@xml:id,' has strange content &quot;',$textIn,'&quot;')"/>
-    </xsl:if>
+    </xsl:if-->
 
     <xsl:copy>
       <xsl:apply-templates mode="root" select="@*"/>
