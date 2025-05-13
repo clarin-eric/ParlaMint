@@ -98,11 +98,11 @@ test-conll2:
 test-conll1:
 	${FINALIZE} -conll -codes UA -in ${HERE}/Distro -out ${HERE}/Distro
 test-meta5:
-	$s out-lang=en meta=../Build/Distro/ParlaMint-SE.TEI/ParlaMint-SE.xml -xsl:../Scripts/parlamint2meta.xsl \
-	../Build/Distro/ParlaMint-SE.TEI/2015/ParlaMint-SE_2015-11-04-prot-201516--21.xml  > test.tsv
+	$s out-lang=en meta=../Build/Distro/ParlaMint-SI.TEI/ParlaMint-SI.xml -xsl:../Scripts/parlamint2meta.xsl \
+	../Build/Distro/ParlaMint-SI.TEI/2000/ParlaMint-SI_2000-10-27-SDZ3-Redna-01.xml > Test/test.tsv
 test-meta4:
-	$s out-lang=en meta=../Build/Distro/ParlaMint-PT.TEI/ParlaMint-PT.xml -xsl:../Scripts/parlamint2meta.xsl \
-	../Build/Distro/ParlaMint-PT.TEI/2022/ParlaMint-PT_2022-03-22.xml  > test.tsv
+	$s out-lang=xx meta=../Build/Distro/ParlaMint-SI/ParlaMint-SI.xml -xsl:../Scripts/parlamint2meta.xsl \
+	../Build/Distro/ParlaMint-SI/2007/ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.xml > Test/test.tsv
 test-meta3:
 	$s out-lang=en meta=../Build/Distro/ParlaMint-RS.TEI/ParlaMint-RS.xml -xsl:../Scripts/parlamint2meta.xsl \
 	../Build/Distro/ParlaMint-RS.TEI/2016/ParlaMint-RS_2016-06-03-0.xml  > test.tsv
@@ -116,6 +116,8 @@ test-meta1:
 	#${FINALIZE} -txt -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
 test-text1:
 	${FINALIZE} -txt -codes ES -in ${HERE}/Distro -out ${HERE}/Distro
+test-text2:
+	../Scripts/parlamintp-tei2text.pl -jobs 2 -in ../Build/Distro/ParlaMint-SI -out ../Build/Distro/ParlaMint-SI
 
 ### Fixes
 # Merge per-language translated CoNLL-Us (BE, ES-CT, ES-PV, UA) to joint CoNLL-U (with # lang info on newpar)
