@@ -412,7 +412,7 @@
       <xsl:for-each select="tokenize($ana, ' ')">
         <xsl:sort select="."/>
         <xsl:variable name="topic" select="key('id', substring-after(., ':'), $rootHeader)"/>
-        <xsl:if test="$topic/ancestor::tei:taxonomy/tei:desc[@xml:lang='en'] = 'Topics'">
+        <xsl:if test="$topic/ancestor::tei:taxonomy/tei:desc/tei:term = 'Topics'">
           <xsl:value-of select="et:l10n($corpus-language, $topic/tei:catDesc/tei:term)"/>
           <xsl:value-of select="$multi-separator"/>
         </xsl:if>
