@@ -1,22 +1,22 @@
 MAINTAINER "CLARIN.SI <info@clarin.si>"
-NAME "ParlaMint-UA 4.1 (Ukrainian parliament)"
-INFO "Ukrainian parliamentary corpus ParlaMint-UA, 2002-2023 v4.1"
+NAME "ParlaMint-CZ 5.0 (Czech parliament)"
+INFO "Czech parliamentary corpus ParlaMint-CZ, 2013-2023 v5.0"
 ENCODING "UTF-8"
-DEFAULTLOCALE "uk_UA.UTF-8"
-LANGUAGE "Ukrainian, Russian"
-INFOHREF "http://hdl.handle.net/11356/1911"
+DEFAULTLOCALE "cs_CZ.UTF-8"
+LANGUAGE "Czech"
+INFOHREF "http://hdl.handle.net/11356/2005"
 TAGSETDOC "https://universaldependencies.org/guidelines.html"
 
-PATH "/data/manatee-data/parlamint41_ua/"
+PATH "/data/manatee-data/parlamint50_cz/"
 
-VERTICAL "| zcat /data/vert/ParlaMint-UA.4.1.vert.gz"
+VERTICAL "| zcat /data/vert/ParlaMint-CZ.5.0.vert.gz"
 
 DOCSTRUCTURE speech
 MAXDETAIL 10000
 
-SUBCORPATTRS "speech.subcorpus|speech.body|speech.date,speech.term|speech.session|speech.meeting,speech.sitting|speech.agenda,speech.speaker_mp|speech.speaker_minister,speech.speaker_role|speech.speaker_name,speech.speaker_gender|speech.speaker_birth,speech.speaker_party|speech.speaker_party_name,speech.party_status|speech.party_orientation|speech.text_id"
+SUBCORPATTRS "speech.subcorpus|speech.body|speech.date,speech.topic,speech.term|speech.session|speech.meeting,speech.sitting|speech.agenda,speech.speaker_mp|speech.speaker_minister,speech.speaker_role|speech.speaker_name,speech.speaker_gender|speech.speaker_birth,speech.speaker_party|speech.speaker_party_name,speech.party_status|speech.party_orientation|speech.text_id,s.senti_3|s.senti_6|s.senti_n"
 SHORTREF "=speech.speaker_id,=speech.date"
-FULLREF "speech.id,speech.text_id,speech.title,speech.date,speech.subcorpus,speech.body,speech.term,speech.session,speech.meeting,speech.sitting,speech.agenda,speech.speaker_name,speech.speaker_gender,speech.speaker_role,speech.speaker_mp,speech.speaker_minister,speech.speaker_party,speech.speaker_party_name,speech.party_status,speech.party_orientation"
+FULLREF "speech.id,speech.text_id,speech.title,speech.date,speech.subcorpus,speech.body,speech.topic,speech.term,speech.session,speech.meeting,speech.sitting,speech.agenda,speech.speaker_name,speech.speaker_gender,speech.speaker_role,speech.speaker_mp,speech.speaker_minister,speech.speaker_party,speech.speaker_party_name,speech.party_status,speech.party_orientation,s.senti_3,s.senti_6,s.senti_n"
 
 SIMPLEQUERY '[lc="%s" | norm="%s" | lemma_lc="%s"]'
 
@@ -24,9 +24,17 @@ STRUCTURE speech {
     ATTRIBUTE text_id {
       LABEL "Text ID"
     }
-    ATTRIBUTE title
-    ATTRIBUTE subcorpus
+    ATTRIBUTE title {
+      MULTISEP "÷"
+    }
+    ATTRIBUTE subcorpus {
+      MULTISEP "÷"
+    }
     ATTRIBUTE lang
+    ATTRIBUTE topic {
+        MULTIVALUE yes
+        MULTISEP "|"
+    }
     ATTRIBUTE body {
 	LABEL "Parliamentary body"
         MULTIVALUE yes
@@ -55,6 +63,7 @@ STRUCTURE speech {
     }
     ATTRIBUTE speaker_name {
       DEFAULTVALUE "-"
+      MULTISEP "÷"
     }
     ATTRIBUTE speaker_role {
       DEFAULTVALUE "-"
@@ -67,9 +76,11 @@ STRUCTURE speech {
     }
     ATTRIBUTE speaker_party {
       DEFAULTVALUE "-"
+      MULTISEP "÷"
     }
     ATTRIBUTE speaker_party_name {
       DEFAULTVALUE "-"
+      MULTISEP "÷"
     }
     ATTRIBUTE party_status {
       DEFAULTVALUE "-"
@@ -101,6 +112,15 @@ STRUCTURE s {
     ATTRIBUTE id {
       LABEL "Sentence ID"
       TYPE "UNIQUE"
+    }
+    ATTRIBUTE senti_3 {
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE senti_6 {
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE senti_n {
+      DEFAULTVALUE "-"
     }
     DISPLAYTAG 0
 }
