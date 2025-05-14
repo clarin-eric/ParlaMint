@@ -1,39 +1,9 @@
-default namespace = "http://www.tei-c.org/ns/1.0"
 namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace ns1 = "http://www.tei-c.org/ns/1.0"
 namespace xi = "http://www.w3.org/2001/XInclude"
 
 a:documentation [
   "RelaxNG XML schema for ParlaMint corpora: schema\x{a}" ~
   "  for linguistically annotated root teiCorpus file."
 ]
-include "ParlaMint-teiCorpus.rnc" {
-  
-  ## Encoding description linguistically annotated corpus.
-  encodingDesc =
-    element encodingDesc {
-      global.atts,
-      element projectDesc { paras },
-      editorialDecl,
-      tagsDecl,
-      element classDecl { (taxonomy | XInclude)+ }
-      >> a:documentation [
-           "MTed corpora do not (necessarily) have prefix definitions in root."
-         ],
-      element listPrefixDef { prefixDef+ }?,
-      element appInfo { application+ }
-    }
-}
-
-## Description of an applications used to linguistically annotate the
-##     corpus.
-application =
-  element application {
-    attribute version {
-      xsd:token {
-        pattern = "[\d]+[a-z]*[\d]*(\.[\d]+[a-z]*[\d]*){0,3}"
-      }
-    },
-    attribute ident { xsd:Name },
-    element label { normalized-space.string },
-    element desc { lang.att, annotated.text }+
-  }
+include "ParlaMint-teiCorpus.rnc" inherit = ns1

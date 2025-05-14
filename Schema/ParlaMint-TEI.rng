@@ -210,7 +210,7 @@
   </define>
   
   <define name="encodingDesc">
-    <a:documentation>Encoding description.</a:documentation>
+    <a:documentation>Encoding description for a corpus component.</a:documentation>
     <element name="encodingDesc">
       <ref name="global.atts"/>
       <element name="projectDesc">
@@ -219,7 +219,9 @@
       <ref name="tagsDecl"/>
       <optional>
         <element name="listPrefixDef">
-          <ref name="prefixDef"/>
+          <oneOrMore>
+            <ref name="prefixDef"/>
+          </oneOrMore>
         </element>
       </optional>
     </element>

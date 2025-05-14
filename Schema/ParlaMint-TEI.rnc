@@ -115,13 +115,13 @@ sourceDesc =
     }?
   }
 
-## Encoding description.
+## Encoding description for a corpus component.
 encodingDesc =
   element encodingDesc {
     global.atts,
     element projectDesc { paras },
     tagsDecl,
-    element listPrefixDef { prefixDef }?
+    element listPrefixDef { prefixDef+ }?
   }
 
 ## Profile description.

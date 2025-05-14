@@ -60,7 +60,7 @@
     </define>
     
     <define name="encodingDesc">
-      <a:documentation>The encoding description.</a:documentation>
+      <a:documentation>Encoding description for a linguistically annotated corpus.</a:documentation>
       <element name="encodingDesc">
         <ref name="global.atts"/>
         <oneOrMore>
@@ -78,6 +78,20 @@
             </choice>
           </oneOrMore>
         </element>
+	<optional>
+          <element name="listPrefixDef">
+            <oneOrMore>
+              <ref name="prefixDef"/>
+            </oneOrMore>
+          </element>
+        </optional>
+	<optional>
+          <element name="appInfo">
+            <oneOrMore>
+              <ref name="application"/>
+            </oneOrMore>
+          </element>
+	</optional>
       </element>
     </define>
     
@@ -166,6 +180,29 @@
             </attribute>
           </optional>
           <ref name="normalized-space.string"/>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+
+  <define name="application">
+    <a:documentation>Description of an applications used to annotate the corpus.</a:documentation>
+    <element name="application">
+      <attribute name="version">
+        <data type="token">
+          <param name="pattern">[\d]+[a-z]*[\d]*(\.[\d]+[a-z]*[\d]*){0,3}</param>
+        </data>
+      </attribute>
+      <attribute name="ident">
+        <data type="Name"/>
+      </attribute>
+      <element name="label">
+        <ref name="normalized-space.string"/>
+      </element>
+      <oneOrMore>
+        <element name="desc">
+          <ref name="lang.att"/>
+          <ref name="annotated.text"/>
         </element>
       </oneOrMore>
     </element>
