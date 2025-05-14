@@ -262,7 +262,7 @@
           <xsl:with-param name="msg">Missing 'Sentiment' taxonomy</xsl:with-param>
         </xsl:call-template>
       </xsl:if>
-      <!-- Machine translated corpora do not have syntacitc parses -->
+      <!-- Machine translated corpora do not have syntactic parses -->
       <xsl:if test="not(tei:taxonomy[tei:desc/tei:term = 'UD syntactic relations'] or normalize-space($MT))">
         <xsl:call-template name="error">
           <xsl:with-param name="msg">Missing 'UD syntactic relations' taxonomy</xsl:with-param>
@@ -280,11 +280,13 @@
         <xsl:with-param name="msg">Missing Topic prefixDef</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
-    <!-- Check if UD relations have their prefix defined; not relevant for MTed corpora -->
-    <xsl:if test="not(tei:prefixDef[@ident = 'ud-syn'] or normalize-space($MT))">
-      <xsl:call-template name="error">
-        <xsl:with-param name="msg">Missing UD prefixDef</xsl:with-param>
-      </xsl:call-template>
+    <xsl:if test="$type = 'ana'">
+      <!-- Check if UD relations have their prefix defined; not relevant for MTed corpora -->
+      <xsl:if test="not(tei:prefixDef[@ident = 'ud-syn'] or normalize-space($MT))">
+        <xsl:call-template name="error">
+          <xsl:with-param name="msg">Missing UD prefixDef</xsl:with-param>
+        </xsl:call-template>
+      </xsl:if>
     </xsl:if>
   </xsl:template>
   
