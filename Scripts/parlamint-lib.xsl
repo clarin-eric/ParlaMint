@@ -207,8 +207,8 @@
 
   <!-- NAMED TEMPLATES -->
 
-  <!-- Return the name of the langauge that the segments of the utterance are in -->
-  <!-- In case the segments are in serveral langauges, the multilingual-label is output -->
+  <!-- Return the name of the language that the segments of the utterance are in -->
+  <!-- In case the segments are in several languages, the multilingual-label is output -->
   <!-- The assumption is that this template is called with tei:u as the context node -->
   <xsl:template name="u-langs">
     <xsl:variable name="defaultLang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
