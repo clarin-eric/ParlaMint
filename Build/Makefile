@@ -6,13 +6,9 @@
 
 ### COMPLETE SET OF CORPORA
 #CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-CORPORA=SI
+CORPORA=AT
 # Used in targets that run only for one corpus
 CORPUS=
-
-testx:
-	$s meta=${HERE}/Distro/ParlaMint-SI.TEI.ana/ParlaMint-SI.ana.xml -xsl:../Scripts/check-links.xsl \
-	${HERE}/Distro/ParlaMint-SI.TEI.ana/2000/ParlaMint-SI_2000-10-27-SDZ3-Redna-01.ana.xml
 
 #Absolute paths are needed otherwise problems with XSLT
 PARLAMINT := $(shell realpath .. | tr -d '\n')# get real absolute path to ParlaMint directory
@@ -31,6 +27,11 @@ VERSION = 5.0
 HANDLE-TEI = http://hdl.handle.net/11356/2004
 HANDLE-ANA = http://hdl.handle.net/11356/2005
 HANDLE-MT  = http://hdl.handle.net/11356/2006
+
+# For IL only:
+#VERSION = 1.0
+#HANDLE-TEI = http://hdl.handle.net/11356/2032
+#HANDLE-ANA = http://hdl.handle.net/11356/2032
 
 #Where the produced corpora are put for inspection
 WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint
@@ -87,6 +88,8 @@ test-vert2:
 test-vert1:
 	${FINALIZE} -vert -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
 	${FINALIZE} -vert -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
+test-conll5:
+	../Scripts/parlamintp2conllu.pl -jobs 1 -in ../Build/Sources-TEI/ParlaMint-AT.TEI.ana -out ../Build/Test
 test-conll4:
 	$s meta=../Build/Distro/ParlaMint-SI.TEI.ana/ParlaMint-SI.ana.xml \
 	-xsl:../Scripts/parlamint2conllu.xsl ../Build/Distro/ParlaMint-SI.TEI.ana/2000/ParlaMint-SI_2000-10-27-SDZ3-Redna-01.ana.xml \
@@ -97,6 +100,9 @@ test-conll2:
 	${FINALIZE} -conll -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
 test-conll1:
 	${FINALIZE} -conll -codes UA -in ${HERE}/Distro -out ${HERE}/Distro
+test-meta6:
+	$s out-lang=en meta=../Build/Sources-TEI/ParlaMint-FR.TEI.ana/ParlaMint-FR.ana.xml -xsl:../Scripts/parlamint2meta.ana.xsl \
+	../Build/Sources-TEI/ParlaMint-FR.TEI.ana/2020/ParlaMint-FR_2020-01-07-O1114.ana.xml > Test/test.ana-meta-en.tsv
 test-meta5:
 	$s out-lang=en meta=../Build/Distro/ParlaMint-SI.TEI/ParlaMint-SI.xml -xsl:../Scripts/parlamint2meta.xsl \
 	../Build/Distro/ParlaMint-SI.TEI/2000/ParlaMint-SI_2000-10-27-SDZ3-Redna-01.xml > Test/test.tsv
@@ -118,6 +124,8 @@ test-text1:
 	${FINALIZE} -txt -codes ES -in ${HERE}/Distro -out ${HERE}/Distro
 test-text2:
 	../Scripts/parlamintp-tei2text.pl -jobs 2 -in ../Build/Distro/ParlaMint-SI -out ../Build/Distro/ParlaMint-SI
+test-valid1:
+	${FINALIZE} -valid -codes SI -in ${HERE}/Distro -out ${HERE}/Distro
 
 ### Fixes
 # Merge per-language translated CoNLL-Us (BE, ES-CT, ES-PV, UA) to joint CoNLL-U (with # lang info on newpar)
@@ -223,7 +231,7 @@ nohup2:
 nohup3:
 	nice nohup time make all > Logs/ParlaMint.3.log &
 
-all:	final
+all:	final verts
 xall:	final verts pack
 
 pack:
@@ -266,8 +274,8 @@ mt-nohup5:
 mt-nohup6:
 	nice nohup time make mt-all > Logs/ParlaMint-en.6.log &
 
-mt-all:	mt-convert
-mt-xall-final:	mt-convert mt-verts mt-pack mt-web
+mt-all:	mt-final
+mt-xall-final:	mt-convert mt-final mt-verts mt-pack mt-web
 
 # Make MT .txt and CoNLL files
 mt-convert-txt:
@@ -315,19 +323,30 @@ sanity:
 	zcat Verts/ParlaMint-XX.${VERSION}.vert.gz | grep -c '</s>' 
 	zcat Verts/ParlaMint-XX-en.${VERSION}.vert.gz | grep -c '</s>' 
 
-# Convert from English CoNLL-U + source .TEI.ana -> -en.TEI.ana 
-mt-convert:
+# Convert from English CoNLL-U + source .TEI.ana -> -en.TEI.ana
+# We did this, won't probably do it again, except for new corpora!
+xx-mt-convert:
 	for CORPUS in ${CORPORA}; do \
 	perl Scripts/parlamint-mt2tei.pl \
 	${HERE}/Distro/ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml \
 	${SOURCES-MT}/ParlaMint-$${CORPUS}-en-notes.tsv \
 	${SOURCES-MT}/ParlaMint-$${CORPUS}-en.sem \
-	${TEMP}/ParlaMint-$${CORPUS}-en.TEI.ana 2> Logs/ParlaMint-$${CORPUS}-en.log; \
-	${FINALIZE-MT} -all -notei -codes $${CORPUS}-en -in ${TEMP} -out ${HERE}/Distro \
-	2>> Logs/ParlaMint-$${CORPUS}-en.log; \
+	${SOURCES}/ParlaMint-$${CORPUS}-en.TEI.ana 2> Logs/ParlaMint-$${CORPUS}-en.prepare.log; \
+	done;
+
+# Finalise -en.TEI.ana corpora
+mt-final:
+	for CORPUS in ${CORPORA}; do \
+	${FINALIZE-MT} -all -notei -codes $${CORPUS}-en -in ${SOURCES} -out ${HERE}/Distro 2> Logs/ParlaMint-$${CORPUS}-en.log; \
 	grep -a -i 'fatal' Logs/ParlaMint-$${CORPUS}-en.log >  Logs/ParlaMint-$${CORPUS}-en.error.log;  \
 	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}-en.log >> Logs/ParlaMint-$${CORPUS}-en.error.log;  \
 	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}-en.log >  Logs/ParlaMint-$${CORPUS}-en.warn.log;  \
+	echo "$${CORPUS}-en.warn"; \
+	cat Logs/ParlaMint-$${CORPUS}-en.warn.log | wc -l;  \
+	cat Logs/ParlaMint-$${CORPUS}-en.warn.log | sort | uniq | wc -l;  \
+	echo "$${CORPUS}-en.error"; \
+	cat Logs/ParlaMint-$${CORPUS}-en.error.log | wc -l;  \
+	cat Logs/ParlaMint-$${CORPUS}-en.error.log | sort | uniq | wc -l;  \
 	done;
 
 ### Make CoNLL-U only
@@ -425,7 +444,7 @@ JAVA-MEMORY=240
 JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
 
 CHUNK-SIZE=100
-THREADS=10
+THREADS=7
 
 P = parallel --citation --gnu --halt 2
 #Run java with a large heap, as a complete corpus needs to be read in

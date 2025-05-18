@@ -51,6 +51,7 @@ $scriptValid   = "$Bin/bin/tools/validate.py";
 
 $scriptConvert = "$Bin/parlamint2conllu.xsl";
 $scriptMeta    = "$Bin/parlamint2meta.xsl";
+$scriptMetaAna = "$Bin/parlamint2meta.ana.xsl";
 
 #This should be somehow factorised out!!
 $country2lang{'AT'} = 'de';
@@ -133,10 +134,18 @@ foreach my $outLang (@outLangs) {
     elsif ($outLang eq 'xx') {$outSuffix = "-meta.tsv"}
     elsif ($outLang eq 'en') {$outSuffix = "-meta-en.tsv"}
     if ($outSuffix) {
+        # Make meta TSV files
 	$command = "$Saxon meta=$rootAnaFile" .
 	    " out-lang=$outLang" .
 	    " -xsl:$scriptMeta {} > $outDir/{/.}$outSuffix";
 	`cat $fileFile | $Para '$command'`;
+        # Make .ana metadata TSV files; only in English
+        if ($outLang eq 'en') {
+            $command = "$Saxon meta=$rootAnaFile" .
+                " out-lang=$outLang" .
+                " -xsl:$scriptMetaAna {} > $outDir/{/.}-ana$outSuffix";
+            `cat $fileFile | $Para '$command'`;
+        }
     }
 }
 `rename 's/\.ana//' $outDir/*-meta*.tsv`;

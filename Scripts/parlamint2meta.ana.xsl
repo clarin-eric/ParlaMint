@@ -18,7 +18,7 @@
   <xsl:output method="text" encoding="utf-8"/>
   
   <xsl:template match="tei:TEI">
-    <xsl:message select="concat('INFO: Converting ', @xml:id, ' to metadata TSV')"/>
+    <xsl:message select="concat('INFO: Converting ', @xml:id, ' to .ana metadata TSV')"/>
     <xsl:text>Text_ID&#9;</xsl:text>
     <xsl:text>ID&#9;</xsl:text>
     <xsl:text>Element&#9;</xsl:text>
