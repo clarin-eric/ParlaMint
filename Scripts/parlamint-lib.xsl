@@ -47,29 +47,47 @@
   <!-- Key which directly finds local references -->
   <xsl:key name="idr" match="tei:*" use="concat('#', @xml:id)"/>
 
-  <xsl:variable name="text_id" select="replace(/tei:*/@xml:id, '\.ana', '')"/>
+  <xsl:variable name="component" select="/tei:TEI"/>
   
-  <xsl:variable name="corpus-language" select="/tei:*/@xml:lang"/>
+  <xsl:variable name="text_id" select="mk:text_id($component)"/>
+  <xsl:function name="mk:text_id">
+    <xsl:param name="element"/>
+    <xsl:variable name="TEI" select="$element/ancestor-or-self::tei:TEI"/>
+    <xsl:value-of select="replace($TEI/@xml:id, '\.ana', '')"/>
+  </xsl:function>
+  
+  <xsl:variable name="corpus-language" select="mk:corpus-language($component)"/>
+  <xsl:function name="mk:corpus-language">
+    <xsl:param name="element"/>
+    <xsl:variable name="TEI" select="$element/ancestor-or-self::tei:TEI"/>
+    <xsl:value-of select="$TEI/@xml:lang"/>
+  </xsl:function>
   
   <!-- Current date in ISO format -->
   <xsl:variable name="today-iso" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
   
   <!-- Date of a corpus component -->
-  <xsl:variable name="at-date">
-    <xsl:variable name="date" select="/tei:TEI/tei:teiHeader//tei:setting/tei:date"/>
+  <xsl:variable name="at-date" select="mk:at-date($component)"/>
+  <xsl:function name="mk:at-date">
+    <xsl:param name="element"/>
+    <xsl:variable name="TEI" select="$element/ancestor-or-self::tei:TEI"/>
+    <xsl:variable name="date" select="$TEI/tei:teiHeader//tei:setting/tei:date"/>
     <xsl:if test="not($date/@when)">
       <xsl:message terminate="yes">
         <xsl:text>FATAL ERROR: Can't find TEI date/@when in setting of input file </xsl:text>
-        <xsl:value-of select="/tei:TEI/@xml:id"/>
+        <xsl:value-of select="$TEI/@xml:id"/>
       </xsl:message>
     </xsl:if>
     <xsl:value-of select="$date/@when"/>
-  </xsl:variable>
+  </xsl:function>
   
   <!-- Localised title of a corpus component: subtitle, if exists, otherwise main title -->
-  <xsl:variable name="title">
+  <xsl:variable name="title" select="mk:title($component)"/>
+  <xsl:function name="mk:title">
+    <xsl:param name="element"/>
+    <xsl:variable name="TEI" select="$element/ancestor-or-self::tei:TEI"/>
     <xsl:variable name="titles">
-      <xsl:apply-templates mode="expand" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+      <xsl:apply-templates mode="expand" select="$TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
     </xsl:variable>
     <xsl:variable name="subtitles" select="et:l10n($corpus-language, $titles/tei:title[@type='sub'])"/>
     <xsl:variable name="main-title" select="et:l10n($corpus-language, $titles/tei:title[@type='main'])"/>
@@ -84,7 +102,7 @@
           </xsl:variable>
           <xsl:value-of select="replace($j-s, '.$', '')"/>
         </xsl:variable>
-        <xsl:message select="concat('INFO: Joining subtitles: ', $joined-subtitles, ' in ', /tei:*/@xml:id)"/>
+        <xsl:message select="concat('INFO: Joining subtitles: ', $joined-subtitles, ' in ', $TEI/@xml:id)"/>
         <xsl:value-of select="$joined-subtitles"/>
       </xsl:when>
       <xsl:when test="normalize-space($subtitles)">
@@ -99,7 +117,7 @@
         <xsl:text>-</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
-  </xsl:variable>
+  </xsl:function>
   
   <!-- Parliamentary body, term, session, meeting, sitting, agenda number or label of a corpus compoment -->
   <xsl:variable name="body">
@@ -132,9 +150,12 @@
   </xsl:variable>
   
   <!-- Subcorpus -->
-  <xsl:variable name="subcorpus">
+  <xsl:variable name="subcorpus" select="mk:subcorpus($component)"/>
+  <xsl:function name="mk:subcorpus">
+    <xsl:param name="element"/>
+    <xsl:variable name="TEI" select="$element/ancestor-or-self::tei:TEI"/>
     <xsl:variable name="subcorpora">
-      <xsl:for-each select="tokenize(/tei:TEI/@ana, ' ')">
+      <xsl:for-each select="tokenize($TEI/@ana, ' ')">
         <xsl:if test="key('idr', ., $rootHeader)/
                       ancestor::tei:taxonomy/tei:desc/tei:term = 'Subcorpora'">
           <!-- The category term of the tokenised @ana: -->
@@ -144,8 +165,9 @@
       </xsl:for-each>
     </xsl:variable>
     <xsl:value-of select="replace($subcorpora, ',$', '')"/>
-  </xsl:variable>
-  
+  </xsl:function>
+
+
   <xsl:variable name="rootHeader">
     <xsl:choose>
       <xsl:when test="normalize-space($meta)">
