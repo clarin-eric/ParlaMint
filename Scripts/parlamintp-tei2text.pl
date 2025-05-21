@@ -87,13 +87,12 @@ foreach my $outLang (@outLangs) {
     elsif ($outLang eq 'xx') {$outSuffix = "-meta.tsv"}
     elsif ($outLang eq 'en') {$outSuffix = "-meta-en.tsv"}
     if ($outSuffix) {
+        # Make meta TSV files
 	$command = "$Saxon" .
 	    " meta=" . File::Spec->catfile($inDir,$rootFile[0]) .
 	    " out-lang=$outLang" .
 	    " -xsl:$scriptMeta {} > $outDir/{/.}$outSuffix";
 	`cat $fileFile | $Para '$command'`;
-	# The rm following looks like a bug, as no TSV files are left if we are processing only .ana!
-	#`rm -f $outDir/*.ana-meta.tsv`;
     }
 }
 `rename 's/\.ana//' $outDir/*-meta*.tsv`;
