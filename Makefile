@@ -1,8 +1,12 @@
 .DEFAULT_GOAL := help
 
 ##$PARLIAMENTS: Space separated list of country codes
-#Parliaments for V4.1
-PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT SE SI TR BA RS UA IL
+
+#Special case
+#PARLIAMENTS = IL
+
+#Parliaments for V5.0
+PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT SE SI TR BA RS UA
 
 ##$JAVA-MEMORY## Set a java memory maxsize in GB
 JAVA-MEMORY =
@@ -14,7 +18,7 @@ leftBRACKET := (
 rightBRACKET := )
 LANG-CODE-LIST := $(shell echo "$(LANG-LIST)" | sed "s/$(leftBRACKET)[^$(rightBRACKET)]*$(rightBRACKET),*/ /g" | tr -s " " | sed 's/ $$//' )
 
-TAXONOMIES-TRANSLATE-INTERF = NER.ana parla.legislature politicalOrientation speaker_types subcorpus
+TAXONOMIES-TRANSLATE-INTERF = NER.ana sentiment.ana parla.legislature politicalOrientation speaker_types subcorpus topic
 TAXONOMIES-TRANSLATE = $(addprefix ParlaMint-taxonomy-, $(TAXONOMIES-TRANSLATE-INTERF))
 
 TAXONOMIES-COPY-INTERF = UD-SYN.ana CHES

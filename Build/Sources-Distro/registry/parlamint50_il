@@ -24,7 +24,9 @@ STRUCTURE speech {
     ATTRIBUTE text_id {
       LABEL "Text ID"
     }
-    ATTRIBUTE title
+    ATTRIBUTE title {
+      MULTISEP "÷"
+    }
     ATTRIBUTE subcorpus {
       MULTISEP "÷"
     }
@@ -57,6 +59,7 @@ STRUCTURE speech {
     }
     ATTRIBUTE speaker_name {
       DEFAULTVALUE "-"
+      MULTISEP "÷"
     }
     ATTRIBUTE speaker_role {
       DEFAULTVALUE "-"
@@ -69,9 +72,11 @@ STRUCTURE speech {
     }
     ATTRIBUTE speaker_party {
       DEFAULTVALUE "-"
+      MULTISEP "÷"
     }
     ATTRIBUTE speaker_party_name {
       DEFAULTVALUE "-"
+      MULTISEP "÷"
     }
     ATTRIBUTE party_status {
       DEFAULTVALUE "-"

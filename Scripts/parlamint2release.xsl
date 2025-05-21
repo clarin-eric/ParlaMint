@@ -749,13 +749,14 @@
                          parent::tei:*/local-name(),'/',local-name(),
                          ' &quot;',$textIn,'&quot;')"/>
     </xsl:if-->
-    <xsl:if test="not(normalize-space( replace($textOut, '[^\p{Lu}\p{Lt}\p{Ll}0-9]',' ')))
+    <!-- Do not warn about punct only notes, as there are too many such warnings and they can't be fixed: -->
+    <!--xsl:if test="not(normalize-space( replace($textOut, '[^\p{Lu}\p{Lt}\p{Ll}0-9]',' ')))
                  and not($allowedNotes[. = normalize-space($textOut)])">
       <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
                          ': ',
                          parent::tei:*/local-name(),'/',local-name(),
                          ' in ',ancestor-or-self::tei:*[@xml:id][1]/@xml:id,' has strange content &quot;',$textIn,'&quot;')"/>
-    </xsl:if>
+    </xsl:if-->
 
     <xsl:copy>
       <xsl:apply-templates mode="root" select="@*"/>
@@ -861,6 +862,10 @@
   <xsl:template mode="comp" match="tei:s[not(.//tei:w or .//tei:pc)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
                          ': removing sentence without tokens for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+    <!-- If sentence contains notes or similar, keep these but not link group -->
+    <xsl:if test="tei:*">
+      <xsl:apply-templates mode="comp" select="tei:*[not(self::tei:linkGrp)]"/>
+    </xsl:if>
   </xsl:template>
   
   <!-- Bug where a name contains no words, but only punctuation or a transcriber comment: remove <name> tag -->

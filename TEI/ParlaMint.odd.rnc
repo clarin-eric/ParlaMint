@@ -11,9 +11,9 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2025-01-28T21:34:30Z. 2024-12-03. 
-# TEI Edition: P5 Version 4.9.0a. Last updated on 9th November 2024, revision 28371d145 
-# TEI Edition Location: https://www.tei-c.org/Vault/P5/4.9.0a/ 
+# Schema generated from ODD source 2025-03-25T17:31:15Z. 2025-02-15. 
+# TEI Edition: P5 Version 4.10.0a. Last updated on 24th January 2025, revision 4e6b08ef5 
+# TEI Edition Location: https://www.tei-c.org/Vault/P5/4.10.0a/ 
 #
 
 # This file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions.
@@ -39,51 +39,6 @@ tei_att.canonical.attribute.ref =
     list {
       xsd:anyURI { pattern = "\S+" }+
     }
-  }?
-tei_att.ranging.attribute.atLeast =
-  
-  ## gives a minimum estimated value for the approximate measurement.
-  attribute atLeast {
-    xsd:double
-    | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
-    | xsd:decimal
-  }?
-tei_att.ranging.attribute.atMost =
-  
-  ## gives a maximum estimated value for the approximate measurement.
-  attribute atMost {
-    xsd:double
-    | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
-    | xsd:decimal
-  }?
-tei_att.ranging.attribute.min =
-  
-  ## where the measurement summarizes more than one observation or a range, supplies the minimum value observed.
-  attribute min {
-    xsd:double
-    | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
-    | xsd:decimal
-  }?
-tei_att.ranging.attribute.max =
-  
-  ## where the measurement summarizes more than one observation or a range, supplies the maximum value observed.
-  attribute max {
-    xsd:double
-    | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
-    | xsd:decimal
-  }?
-tei_att.ranging.attribute.confidence =
-  [
-    a:documentation [
-      "specifies the degree of statistical confidence (between zero and one) that a value falls within the range specified by "
-      ns1:code [ "@min" ]
-      " and "
-      ns1:code [ "@max" ]
-      ", or the proportion of observed values that fall within that range."
-    ]
-  ]
-  attribute confidence {
-    xsd:double { minInclusive = "0" maxInclusive = "1" }
   }?
 sch:pattern [
   id =
@@ -281,6 +236,11 @@ tei_att.declarable.attribute.default =
       ## This element can only be selected explicitly, unless it is the only one of its kind, in which case it is selected if its parent is selected.
       "false"
   }?
+tei_att.duration.w3c.attributes = tei_att.duration.w3c.attribute.dur
+tei_att.duration.w3c.attribute.dur =
+  
+  ## (duration) indicates the length of this element in time.
+  attribute dur { xsd:duration }?
 tei_att.fragmentable.attribute.part =
   
   ## specifies whether or not its parent element is fragmented in some way, typically by some other overlapping structure: for example a speech which is divided between two or more verse stanzas, a paragraph which is split across a page division, a verse line which is divided between two speakers.
@@ -302,11 +262,6 @@ tei_att.fragmentable.attribute.part =
       ## (final) this is the final part of a fragmented element
       "F"
   }?
-tei_att.duration.w3c.attributes = tei_att.duration.w3c.attribute.dur
-tei_att.duration.w3c.attribute.dur =
-  
-  ## (duration) indicates the length of this element in time.
-  attribute dur { xsd:duration }?
 tei_att.global.rendition.attributes =
   tei_att.global.rendition.attribute.rend,
   tei_att.global.rendition.attribute.style,
@@ -331,6 +286,76 @@ tei_att.global.rendition.attribute.rendition =
       xsd:anyURI { pattern = "\S+" }+
     }
   }?
+tei_att.ranging.attribute.atLeast =
+  
+  ## gives a minimum estimated value for the approximate measurement.
+  attribute atLeast {
+    xsd:double
+    | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
+    | xsd:decimal
+  }?
+tei_att.ranging.attribute.atMost =
+  
+  ## gives a maximum estimated value for the approximate measurement.
+  attribute atMost {
+    xsd:double
+    | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
+    | xsd:decimal
+  }?
+tei_att.ranging.attribute.min =
+  
+  ## where the measurement summarizes more than one observation or a range, supplies the minimum value observed.
+  attribute min {
+    xsd:double
+    | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
+    | xsd:decimal
+  }?
+tei_att.ranging.attribute.max =
+  
+  ## where the measurement summarizes more than one observation or a range, supplies the maximum value observed.
+  attribute max {
+    xsd:double
+    | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
+    | xsd:decimal
+  }?
+tei_att.ranging.attribute.confidence =
+  [
+    a:documentation [
+      "specifies the degree of statistical confidence (between zero and one) that a value falls within the range specified by "
+      ns1:code [ "@min" ]
+      " and "
+      ns1:code [ "@max" ]
+      ", or the proportion of observed values that fall within that range."
+    ]
+  ]
+  attribute confidence {
+    xsd:double { minInclusive = "0" maxInclusive = "1" }
+  }?
+sch:pattern [
+  id =
+    "parlamint-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-5"
+  "\x{a}" ~
+  "      "
+  sch:rule [
+    context = "tei:*[ starts-with( @spanTo, '#') ]"
+    "\x{a}" ~
+    "         "
+    sch:assert [
+      test = "id( substring( @spanTo, 2 ) ) >> ."
+      "\x{a}" ~
+      "	      The element indicated by @spanTo ("
+      sch:value-of [ select = "@spanTo" ]
+      ") must follow the current "
+      sch:name [ ]
+      " element \x{a}" ~
+      "            "
+    ]
+    "\x{a}" ~
+    "      "
+  ]
+  "\x{a}" ~
+  "   "
+]
 tei_att.media.attribute.scale =
   
   ## Where the media are displayed, indicates a scale factor to be applied when generating the desired display size.
@@ -345,32 +370,6 @@ tei_att.segLike.attribute.function =
   attribute function {
     xsd:token { pattern = "[^\p{C}\p{Z}]+" }
   }?
-sch:pattern [
-  id =
-    "parlamint-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-5"
-  "\x{a}" ~
-  "      "
-  sch:rule [
-    context = "tei:*[@spanTo]"
-    "\x{a}" ~
-    "         "
-    sch:assert [
-      test =
-        "id(substring(@spanTo,2)) and following::*[@xml:id=substring(current()/@spanTo,2)]"
-      "\x{a}" ~
-      "The element indicated by @spanTo ("
-      sch:value-of [ select = "@spanTo" ]
-      ") must follow the current element "
-      sch:name [ ]
-      "\x{a}" ~
-      "         "
-    ]
-    "\x{a}" ~
-    "      "
-  ]
-  "\x{a}" ~
-  "   "
-]
 tei_model.nameLike.agent = tei_name | tei_orgName | tei_persName
 tei_model.nameLike.agent_alternation =
   tei_name | tei_orgName | tei_persName
@@ -735,18 +734,18 @@ tei_p =
        ]
     >> sch:pattern [
          id =
-           "parlamint-p-abstractModel-structure-p-in-l-or-lg-constraint-rule-8"
+           "parlamint-p-abstractModel-structure-p-in-l-constraint-rule-8"
          "\x{a}" ~
          "            "
          sch:rule [
-           context = "tei:p"
+           context = "tei:l//tei:p"
            "\x{a}" ~
            "               "
-           sch:report [
+           sch:assert [
              test =
-               "( ancestor::tei:l  or  ancestor::tei:lg ) and                        not( ancestor::tei:floatingText                           | parent::tei:figure                           | parent::tei:note )"
+               "ancestor::tei:floatingText | parent::tei:figure | parent::tei:note"
              "\x{a}" ~
-             "          Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab, unless p is a child of figure or note, or is a descendant of floatingText.\x{a}" ~
+             "          Abstract model violation: Metrical lines may not contain higher-level structural elements such as div, p, or ab, unless p is a child of figure or note, or is a descendant of floatingText.\x{a}" ~
              "        "
            ]
            "\x{a}" ~
@@ -916,11 +915,13 @@ tei_num =
   }
 tei_measure =
   
-  ## (measure) contains a word or phrase referring to some quantity of an object or commodity, usually comprising a number, a unit, and a commodity name. [3.6.3. Numbers and
+  ## (measure) either gives (in teiHeader//extent) the number of occurences of certain items (typicaly elements) in the corpus or corpus component or the score of an annotation. ParlaMint currently uses it for giving the sentiment score of utterrances and sentences. In this case measure should have empty content. [3.6.3. Numbers and
   ## Measures]
   element measure {
     text,
     tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.global.linking.attribute.corresp,
     
     ##
     attribute unit {
@@ -933,7 +934,7 @@ tei_measure =
       | 
         ## optional value
         "tokens"
-    },
+    }?,
     
     ## (quantity) specifies the number of the specified units that comprise the measurement
     attribute quantity {
@@ -941,6 +942,11 @@ tei_measure =
       | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
       | xsd:decimal
     },
+    
+    ## specifies the type of measurement in any convenient typology.
+    attribute type {
+      xsd:token { pattern = "[^\p{C}\p{Z}]+" }
+    }?,
     empty
   }
 tei_unit =
@@ -1011,10 +1017,9 @@ tei_ref =
            "               "
            sch:report [
              test = "@target and @cRef"
-             "Only one of the attributes @target' and @cRef' may be supplied on "
+             "Only one of the attributes @target and @cRef may be supplied on "
              sch:name [ ]
-             "\x{a}" ~
-             "               "
+             "."
            ]
            "\x{a}" ~
            "            "
@@ -1606,7 +1611,11 @@ tei_change =
   
   ## (change) documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.6. The Revision Description 2.4.1. Creation 12.7. Identifying Changes and Revisions]
   element change {
-    (tei_name | text)+, tei_att.datable.w3c.attribute.when, empty
+    (tei_name | text)+,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.datable.w3c.attribute.when,
+    empty
   }
 tei_TEI =
   [
@@ -1622,25 +1631,7 @@ tei_TEI =
   ]
   element TEI {
     tei_teiHeader,
-    tei_text
-    >> sch:ns [ prefix = "tei" uri = "http://www.tei-c.org/ns/1.0" ]
-    >> sch:ns [ prefix = "xs" uri = "http://www.w3.org/2001/XMLSchema" ]
-    >> sch:ns [
-         prefix = "rng"
-         uri = "http://relaxng.org/ns/structure/1.0"
-       ]
-    >> sch:ns [
-         prefix = "rna"
-         uri = "http://relaxng.org/ns/compatibility/annotations/1.0"
-       ]
-    >> sch:ns [
-         prefix = "sch"
-         uri = "http://purl.oclc.org/dsdl/schematron"
-       ]
-    >> sch:ns [
-         prefix = "sch1x"
-         uri = "http://www.ascc.net/xml/schematron"
-       ],
+    tei_text,
     tei_att.global.linking.attribute.corresp,
     
     ##
@@ -1692,18 +1683,17 @@ tei_div =
       | tei_u)+)
     >> sch:pattern [
          id =
-           "parlamint-div-abstractModel-structure-div-in-l-or-lg-constraint-rule-12"
+           "parlamint-div-abstractModel-structure-div-in-l-constraint-rule-12"
          "\x{a}" ~
          "            "
          sch:rule [
-           context = "tei:div"
+           context = "tei:l//tei:div"
            "\x{a}" ~
            "               "
-           sch:report [
-             test =
-               "(ancestor::tei:l or ancestor::tei:lg) and not(ancestor::tei:floatingText)"
+           sch:assert [
+             test = "ancestor::tei:floatingText"
              "\x{a}" ~
-             "          Abstract model violation: Lines may not contain higher-level structural elements such as div, unless div is a descendant of floatingText.\x{a}" ~
+             "          Abstract model violation: Metrical lines may not contain higher-level structural elements such as div, unless div is a descendant of floatingText.\x{a}" ~
              "        "
            ]
            "\x{a}" ~
@@ -1801,6 +1791,7 @@ tei_u =
   
   ## (utterance) contains a stretch of speech usually preceded and followed by silence or by a change of speaker. [8.3.1. Utterances]
   element u {
+    tei_measure?,
     (tei_note
      | tei_vocal
      | tei_kinesic
@@ -2769,6 +2760,7 @@ tei_seg =
   
   ## (arbitrary segment) represents any segmentation of text below the chunk level. [17.3. Blocks, Segments, and Anchors 6.2. Components of the Verse Line 7.2.5. Speech Contents]
   element seg {
+    tei_measure?,
     (tei_note
      | tei_vocal
      | tei_kinesic
@@ -2790,6 +2782,7 @@ tei_s =
   
   ## (s-unit) contains a sentence-like division of a text. [18.1. Linguistic Segment Categories 8.4.1. Segmentation]
   element s {
+    tei_measure?,
     (tei_w
      | tei_pc
      | tei_name
@@ -3020,7 +3013,7 @@ sch:pattern [
     "         "
     sch:report [
       test =
-        "( self::tei:classRef               | self::tei:dataRef               | self::tei:elementRef               | self::tei:macroRef               | self::tei:moduleRef               | self::tei:schemaSpec )               and               $srcs[2]"
+        "(   self::tei:classRef                                 | self::tei:dataRef                                 | self::tei:elementRef                                 | self::tei:macroRef                                 | self::tei:moduleRef                                 | self::tei:schemaSpec )                                   and                                   $srcs[2]"
       "\x{a}" ~
       "              When used on a schema description element (like\x{a}" ~
       "              "
@@ -3233,3 +3226,12 @@ tei_include =
   }
 start =
   tei_teiCorpus | tei_TEI | tei_listPerson | tei_listOrg | tei_taxonomy
+sch:ns [ prefix = "tei" uri = "http://www.tei-c.org/ns/1.0" ]
+sch:ns [ prefix = "xs" uri = "http://www.w3.org/2001/XMLSchema" ]
+sch:ns [ prefix = "rng" uri = "http://relaxng.org/ns/structure/1.0" ]
+sch:ns [
+  prefix = "rna"
+  uri = "http://relaxng.org/ns/compatibility/annotations/1.0"
+]
+sch:ns [ prefix = "sch" uri = "http://purl.oclc.org/dsdl/schematron" ]
+sch:ns [ prefix = "sch1x" uri = "http://www.ascc.net/xml/schematron" ]

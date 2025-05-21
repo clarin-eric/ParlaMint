@@ -53,6 +53,7 @@ $scriptValid   = "$Bin/bin/tools/validate.py";
 
 $scriptConvert = "$Bin/parlamint2conllu.xsl";
 
+
 #This should be somehow factorised out!!
 $country2lang{'AT'} = 'de';
 $country2lang{'BA'} = 'sr';  # Should be 'bs', but UD does not support it!
@@ -121,6 +122,7 @@ close TMP;
 
 `mkdir $outDir` unless -e "$outDir";
 `rm -f $outDir/*.conllu`;
+
 
 # Produce common CoNLL-U, even if we have more languages in a corpus
 if ($langs !~ /,/) {$checkLang = $langs}

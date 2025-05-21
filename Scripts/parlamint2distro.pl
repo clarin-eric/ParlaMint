@@ -126,6 +126,7 @@ $taxonomy{'ParlaMint-taxonomy-parla.legislature'}    = "$taxonomyDir/ParlaMint-t
 $taxonomy{'ParlaMint-taxonomy-politicalOrientation'} = "$taxonomyDir/ParlaMint-taxonomy-politicalOrientation.xml";
 $taxonomy{'ParlaMint-taxonomy-speaker_types'}        = "$taxonomyDir/ParlaMint-taxonomy-speaker_types.xml";
 $taxonomy{'ParlaMint-taxonomy-subcorpus'}            = "$taxonomyDir/ParlaMint-taxonomy-subcorpus.xml";
+$taxonomy{'ParlaMint-taxonomy-topic'}                = "$taxonomyDir/ParlaMint-taxonomy-topic.xml";
 $taxonomy{'ParlaMint-taxonomy-NER.ana'}              = "$taxonomyDir/ParlaMint-taxonomy-NER.ana.xml";
 $taxonomy{'ParlaMint-taxonomy-CHES'}                 = "$taxonomyDir/ParlaMint-taxonomy-CHES.xml";
 $taxonomy{'ParlaMint-taxonomy-UD-SYN.ana'}           = "$taxonomyDir/ParlaMint-taxonomy-UD-SYN.ana.xml";
@@ -332,18 +333,22 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	print STDERR "INFO: ***Making $countryCode samples\n";
         logger('Making samples');
 	`rm -fr $outSmpDir; mkdir $outSmpDir`;
+	&commonTaxonomies($countryCode, $outSmpDir);
 	if (-e $outTeiRoot) {
+            #Make sample files
 	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outTeiRoot`;
         my $outTeiSmpRoot = File::Spec->catfile($outSmpDir, (File::Spec->splitpath($outTeiRoot))[2]);
+	    #Make derived files
 	    `$scriptTexts -jobs $procThreads -in $outSmpDir -out $outSmpDir`;
         &dirify($outSmpDir);
 	    `$scriptMetas -jobs $procThreads -inRoot $outTeiSmpRoot -out $outSmpDir`;
 	}
 	else {print STDERR "WARN: No TEI files for $countryCode samples (needed root file is $outTeiRoot)\n"}
 	if (-e $outAnaRoot) {
+            #Make sample files
 	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outAnaRoot`;
-	    #Make also derived files
             my $outAnaSmpRoot = File::Spec->catfile($outSmpDir, (File::Spec->splitpath($outAnaRoot))[2]);
+	    #Make derived files unless (for text) already made for TEI
             `$scriptTexts -jobs $procThreads -in $outSmpDir -out $outSmpDir` unless $outTeiRoot;
             &dirify($outSmpDir);
             `$scriptMetas -jobs $procThreads -inRoot $outAnaSmpRoot -out $outSmpDir` unless $outTeiRoot;
@@ -358,7 +363,6 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`rm -f $outSmpDir/*.ana-meta-en.tsv`;
 	# Output top level readme but not for $MTed version, as it would overwrite the original
 	# The Sample readme does not have handle or version, as the sample can change irrespective of them
-	&commonTaxonomies($countryCode, $outSmpDir);
 	&cp_readme_top($countryCode, '', 'sample', '', '', $docsDir, $outSmpDir)
 	    unless $MT;
 	&polish($outSmpDir);

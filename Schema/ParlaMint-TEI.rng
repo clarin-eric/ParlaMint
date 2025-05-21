@@ -210,13 +210,20 @@
   </define>
   
   <define name="encodingDesc">
-    <a:documentation>Encoding description.</a:documentation>
+    <a:documentation>Encoding description for a corpus component.</a:documentation>
     <element name="encodingDesc">
       <ref name="global.atts"/>
       <element name="projectDesc">
         <ref name="paras"/>
       </element>
       <ref name="tagsDecl"/>
+      <optional>
+        <element name="listPrefixDef">
+          <oneOrMore>
+            <ref name="prefixDef"/>
+          </oneOrMore>
+        </element>
+      </optional>
     </element>
   </define>
   
@@ -234,6 +241,7 @@
       <ref name="global.atts"/>
       <oneOrMore>
         <element name="change">
+          <ref name="global.atts"/>
           <attribute name="when">
             <data type="date"/>
           </attribute>
@@ -454,28 +462,7 @@
   <define name="u">
     <a:documentation>One speech (i.e. 'utterance').</a:documentation>
     <element name="u">
-      <ref name="global.atts"/>
-      <a:documentation>Attributes to link split utterances.</a:documentation>
-      <optional>
-        <attribute name="prev">
-          <data type="anyURI"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="next">
-          <data type="anyURI"/>
-        </attribute>
-      </optional>
-      <optional>
-        <ref name="who.att"/>
-      </optional>
-      <a:documentation>Utterance has obligatory @ana, for the role of the speaker.</a:documentation>
-      <ref name="ana.att"/>
-      <optional>
-        <attribute name="source">
-          <ref name="anyURIs"/>
-        </attribute>
-      </optional>
+      <ref name="utterance.atts"/>
       <oneOrMore>
         <choice>
           <ref name="seg"/>

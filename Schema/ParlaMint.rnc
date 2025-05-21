@@ -315,6 +315,22 @@ name.att =
   lang.att,
   attribute full { "yes" | "abb" | "init" }?
 
+## Attributes on the u element.
+utterance.atts =
+  global.atts
+  >> a:documentation [
+       "Utterance has obligatory @ana, for the role of the speaker."
+     ],
+  ana.att,
+  who.att
+  >> a:documentation [
+       "@prev and @next are used to link split utterances."
+     ]?,
+  attribute prev { xsd:anyURI }?,
+  (attribute next { xsd:anyURI }?)
+  >> a:documentation [ "Possible source URI of the utterance." ],
+  attribute source { anyURIs }?
+
 ## Attributes giving temporal information on the current
 ##     element.
 temporal.atts =

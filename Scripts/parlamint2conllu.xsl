@@ -52,6 +52,10 @@
     <!-- Output only if non-empty -->
     <xsl:if test="normalize-space($segs)">
       <xsl:value-of select="concat('# newdoc id = ', @xml:id, '&#10;')"/>
+      <!-- Only SI has u level sentiment -->
+      <xsl:if test="$country-code = 'SI'">
+        <xsl:call-template name="all-senti"/>
+      </xsl:if>
       <xsl:value-of select="$segs"/>
     </xsl:if>
   </xsl:template>
@@ -75,9 +79,13 @@
     </xsl:choose>
   </xsl:template>
   
-  <!-- And a sentence is a sentence -->
+  <!-- And a sentence is a sentence, with sentiment -->
   <xsl:template match="tei:s">
     <xsl:value-of select="concat('# sent_id = ', @xml:id, '&#10;')"/>
+    <!-- IL not marked up for sentiment -->
+    <xsl:if test="$country-code != 'IL'">
+      <xsl:call-template name="all-senti"/>
+    </xsl:if>
     <xsl:variable name="text">
       <xsl:apply-templates mode="plain"/>
     </xsl:variable>
@@ -312,6 +320,29 @@
     </xsl:choose>
   </xsl:template>
 
+  <!-- Insert sentiment related metadata -->
+  <!-- For CoNLL-U we give the sentiment data in English -->
+  <xsl:template name="all-senti">
+    <xsl:text># senti_3 = </xsl:text>
+    <xsl:call-template name="senti">
+      <xsl:with-param name="lang">en</xsl:with-param>
+      <xsl:with-param name="type">3</xsl:with-param>
+    </xsl:call-template>
+    <xsl:text>&#10;</xsl:text>
+    <xsl:text># senti_6 = </xsl:text>
+    <xsl:call-template name="senti">
+      <xsl:with-param name="lang">en</xsl:with-param>
+      <xsl:with-param name="type">6</xsl:with-param>
+    </xsl:call-template>
+    <xsl:text>&#10;</xsl:text>
+    <xsl:text># senti_n = </xsl:text>
+    <xsl:call-template name="senti">
+      <xsl:with-param name="lang">en</xsl:with-param>
+      <xsl:with-param name="type">n</xsl:with-param>
+    </xsl:call-template>
+    <xsl:text>&#10;</xsl:text>
+  </xsl:template>
+  
   <!-- Return the name of the syntactic relation -->
   <xsl:template name="rel">
     <xsl:param name="links"/>
@@ -407,3 +438,4 @@
     </xsl:choose>
   </xsl:function>
 </xsl:stylesheet>
+
