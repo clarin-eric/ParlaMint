@@ -1,7 +1,9 @@
 ###### Makefile for generating and adding TSV metadata to ParlaMint XML listPerson and listOrg files.
 ###### Input files (TSV + XML) should be in ParlaMint-${CORPUS}/
-###### Output files (listPerson XML + listOrg XML) are written to
-###### ../Sources-TEI/ParlaMint-${CORPUS}.TEI/ and ../Sources-TEI/ParlaMint-${CORPUS}.TEI.ana/
+###### Output files (listPerson XML + listOrg XML) are written to:
+###### ../Sources-TEI/ParlaMint-${CORPUS}.TEI/
+###### ../Sources-TEI/ParlaMint-${CORPUS}.TEI.ana/
+###### ../Sources-TEI/ParlaMint-${CORPUS}-en.TEI.ana/
 ######
 ###### The targets work for either one corpus, or all defined corpora for a TSV metadata type:
 ###### - generate initialised (on the basis of the corpus in ../Sources-TEI) TSV files, ready to be edited
@@ -10,7 +12,7 @@
 ######
 
 ### Corpus for targets that process only one corpus
-CORPUS=DK
+CORPUS=RS
 
 ###### Adding all currently existing TSV metadata (+ transliteration) to corpora
 
@@ -36,6 +38,7 @@ LOG=${INDIR}/ParlaMint-${CORPUS}
 insert-metadata:
 	${BIN}/add-metadata.pl ${INDIR} ${OUTDIR-TEI} 2>  ${LOG}.log
 	${BIN}/add-metadata.pl ${INDIR} ${OUTDIR-ANA} 2>> ${LOG}.log
+	${BIN}/add-metadata.pl ${INDIR} ${OUTDIR-MT}  2>> ${LOG}.log
 	-grep -a -i 'fatal' ${LOG}.log | sort | uniq >  ${LOG}.error.log
 	-grep -a -i 'error' ${LOG}.log | sort | uniq >> ${LOG}.error.log
 	-grep -a -i 'warn'  ${LOG}.log | sort | uniq >  ${LOG}.warn.log
@@ -233,6 +236,7 @@ INDIR=${HERE}/ParlaMint-${CORPUS}
 # Location of output listPerson and listOrg for a corpus
 OUTDIR-TEI=../Sources-TEI/ParlaMint-${CORPUS}.TEI
 OUTDIR-ANA=../Sources-TEI/ParlaMint-${CORPUS}.TEI.ana
+OUTDIR-MT=../Sources-TEI/ParlaMint-${CORPUS}-en.TEI.ana
 # We assume the master directory listPerson and listOrg is the TEI dir
 MASTER=${OUTDIR-TEI}
 
