@@ -53,6 +53,7 @@
 
   <xsl:variable name="component" select="/tei:TEI"/>
   
+<!-- COMMENTED DUE TO INVALID MERGE (duplicit variable)
   <xsl:variable name="text_id" select="mk:text_id($component)"/>
   <xsl:function name="mk:text_id">
     <xsl:param name="element"/>
@@ -66,7 +67,7 @@
     <xsl:variable name="TEI" select="$element/ancestor-or-self::tei:TEI"/>
     <xsl:value-of select="$TEI/@xml:lang"/>
   </xsl:function>
-  
+-->  
   <!-- Current date in ISO format -->
   <xsl:variable name="today-iso" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
   
