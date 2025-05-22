@@ -387,7 +387,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procTxt) or (!$procAll and $procTxt == 1)) {
 	print STDERR "INFO: ***Making $countryCode text\n";
-        logger('Making text');
+        logger('Prepare for making text');
 	# We have an oportunistic handle, could be $handleTEI or $handleAna, depending on which one exists
 	if    ($handleTEI) {$handleTxt = $handleTEI}
 	elsif ($handleAna) {$handleTxt = $handleAna}
@@ -397,11 +397,15 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	else {$inReadme = "$docsDir/README.text.txt"}
 	&cp_readme($countryCode, $handleTxt, $Version, $inReadme, "$outTxtDir/00README.txt");
 	if    (-e $outTeiDir) {
+        logger('Making text from TEI');
         `$scriptTexts -jobs $procThreads -in $outTeiDir -out $outTxtDir`;
+        logger('Making meta for text from TEI');
         `$scriptMetas -jobs $procThreads -inRoot $outTeiRoot -out $outTxtDir`;
     }
 	elsif (-e $outAnaDir) {
+        logger('Making text from TEI.ana');
         `$scriptTexts -jobs $procThreads -in $outAnaDir -out $outTxtDir`;
+        logger('Making meta for text from TEI.ana');
         `$scriptMetas -jobs $procThreads -in $outAnaRoot -out $outTxtDir`;
     }
 	else {die "FATAL ERROR: Neither $outTeiDir nor $outAnaDir exits\n"}
@@ -417,6 +421,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	else {$inReadme = "$docsDir/README.conll.txt"}
 	&cp_readme($countryCode, $handleAna, $Version, $inReadme, "$outConlDir/00README.txt");
 	`$scriptConls -jobs $procThreads -in $outAnaDir -out $outConlDir`;
+        logger('Making meta for CoNLL-U from TEI.ana');
 	`$scriptMetas -jobs $procThreads -inRoot $outAnaRoot -out $outConlDir`;
 	&dirify($outConlDir);
     }
