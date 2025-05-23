@@ -1166,7 +1166,7 @@
     <!-- English -->
     <xsl:variable name="element-en" select="$elements[@xml:lang = 'en']"/>
     <!-- For (the only example in ParlaMint) the French spelling of a name in GR. -->
-    <!-- Note that corpus-langauge can be "en" for MTed corpora, so we need to choose only one result -->
+    <!-- Note that corpus-language can be "en" for MTed corpora, so we need to choose only one result -->
     <xsl:variable name="element-yy" select="$elements[not(@xml:lang = 'en' or
                                             @xml:lang = $lang or ends-with(@xml:lang, '-Latn'))][1]"/>
     <!-- If nothing else serves we take first element as fall-back -->
