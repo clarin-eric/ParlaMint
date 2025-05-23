@@ -446,12 +446,14 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 # process all component files with xslt scripts in chunks
 sub loop_chunks {
     my ($inFile, $xsltScript, $params, $chunkStart, $chunkSize) = @_;
-    my $cmd = "$SaxonX $params chunkSize=$chunkSize chunkStart=$chunkStart -xsl:$xsltScript $inFile";
-    # print STDERR "INFO command: $cmd\n";
-    my $output = `$cmd`;
-    die "FATAL ERROR: $cmd exited with $?\n" if $?;
-    return if $output =~ /STATUS: Processed last chunk/;
-    loop_chunks($inFile, $xsltScript, $params, $chunkStart + $chunkSize, $chunkSize);
+    while(1) {
+      my $cmd = "$SaxonX $params chunkSize=$chunkSize chunkStart=$chunkStart -xsl:$xsltScript $inFile";
+      # print STDERR "INFO command: $cmd\n";
+      my $output = `$cmd`;
+      die "FATAL ERROR: $cmd exited with $?\n" if $?;
+      last if $output =~ /STATUS: Processed last chunk/;
+      $chunkStart += $chunkSize;
+    }
 }
 
 # Substitute local with common taxonomies & reduce languages to en + corpus one(s)
