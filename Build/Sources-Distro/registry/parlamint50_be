@@ -1,22 +1,22 @@
 MAINTAINER "CLARIN.SI <info@clarin.si>"
-NAME "ParlaMint-IL 5.0 (Israeli parliament)"
-INFO "Israeli parliamentary corpus ParlaMint-IL, 1992-2024 v5.0"
+NAME "ParlaMint-BE 5.0 (Belgian parliament)"
+INFO "Belgian parliamentary corpus ParlaMint-BE, 2014-2022 v5.0"
 ENCODING "UTF-8"
-DEFAULTLOCALE "he_IL.UTF-8"
-LANGUAGE "Hebrew"
+DEFAULTLOCALE "fr_FR.UTF-8"
+LANGUAGE "Dutch, French"
 INFOHREF "http://hdl.handle.net/11356/2005"
 TAGSETDOC "https://universaldependencies.org/guidelines.html"
 
-PATH "/data/manatee-data/parlamint50_il/"
+PATH "/data/manatee-data/parlamint50_be/"
 
-VERTICAL "| zcat /data/vert/ParlaMint-IL.5.0.vert.gz"
+VERTICAL "| zcat /data/vert/ParlaMint-BE.5.0.vert.gz"
 
 DOCSTRUCTURE speech
 MAXDETAIL 10000
 
-SUBCORPATTRS "speech.subcorpus|speech.body|speech.date,speech.term|speech.session|speech.meeting,speech.sitting|speech.agenda,speech.speaker_mp|speech.speaker_minister,speech.speaker_role|speech.speaker_name,speech.speaker_gender|speech.speaker_birth,speech.speaker_party|speech.speaker_party_name,speech.party_status|speech.party_orientation|speech.text_id"
+SUBCORPATTRS "speech.subcorpus|speech.body|speech.date,speech.topic,speech.term|speech.session|speech.meeting,speech.sitting|speech.agenda,speech.speaker_mp|speech.speaker_minister,speech.speaker_role|speech.speaker_name,speech.speaker_gender|speech.speaker_birth,speech.speaker_party|speech.speaker_party_name,speech.party_status|speech.party_orientation|speech.text_id,s.senti_3|s.senti_6|s.senti_n"
 SHORTREF "=speech.speaker_id,=speech.date"
-FULLREF "speech.id,speech.text_id,speech.title,speech.date,speech.subcorpus,speech.body,speech.term,speech.session,speech.meeting,speech.sitting,speech.agenda,speech.speaker_name,speech.speaker_gender,speech.speaker_role,speech.speaker_mp,speech.speaker_minister,speech.speaker_party,speech.speaker_party_name,speech.party_status,speech.party_orientation"
+FULLREF "speech.id,speech.text_id,speech.title,speech.date,speech.topic,speech.subcorpus,speech.body,speech.term,speech.session,speech.meeting,speech.sitting,speech.agenda,speech.speaker_name,speech.speaker_gender,speech.speaker_role,speech.speaker_mp,speech.speaker_minister,speech.speaker_party,speech.speaker_party_name,speech.party_status,speech.party_orientation,s.senti_3,s.senti_6,s.senti_n"
 
 SIMPLEQUERY '[lc="%s" | norm="%s" | lemma_lc="%s"]'
 
@@ -31,6 +31,8 @@ STRUCTURE speech {
       MULTISEP "÷"
     }
     ATTRIBUTE lang
+    ATTRIBUTE topic {
+    }
     ATTRIBUTE body {
 	LABEL "Parliamentary body"
         MULTIVALUE yes
@@ -108,6 +110,15 @@ STRUCTURE s {
     ATTRIBUTE id {
       LABEL "Sentence ID"
       TYPE "UNIQUE"
+    }
+    ATTRIBUTE senti_3 {
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE senti_6 {
+      DEFAULTVALUE "-"
+    }
+    ATTRIBUTE senti_n {
+      DEFAULTVALUE "-"
     }
     DISPLAYTAG 0
 }
