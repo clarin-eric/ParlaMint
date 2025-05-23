@@ -14,8 +14,10 @@ use Getopt::Long;
 use FindBin qw($Bin);
 use File::Spec;
 use File::Temp qw/ tempfile tempdir /;  #creation of tmp files and directory
+use Getopt::Long;
 my $tempdirroot = "$Bin/tmp";
 my $DIR = tempdir(DIR => $tempdirroot, CLEANUP => 1);
+
 
 GetOptions
     (

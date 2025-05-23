@@ -586,10 +586,10 @@ Scripts/slurm_run_make-all.sh:
 	echo "#SBATCH --chdir=Build/  ## first change directory and then all paths are relative to location" >> $@
 	echo '#SBATCH --output=Logs/%x.%j.log' >> $@
 	echo '#SBATCH --ntasks=1' >> $@
-	echo '#SBATCH --cpus-per-task=30' >> $@
-	echo '#SBATCH -p cpu-troja,cpu-ms' >> $@
-	echo '#SBATCH -q low' >> $@
-	echo '#SBATCH --mem=120G' >> $@
+	#echo '#SBATCH --cpus-per-task=30' >> $@
+	#echo '#SBATCH -p cpu-troja,cpu-ms' >> $@
+	#echo '#SBATCH -q low' >> $@
+	#echo '#SBATCH --mem=120G' >> $@
 	echo '' >> $@
 	echo 'set -e' >> $@
 	echo 'which parallel || ( echo "missing parallel ($$(hostname))" && exit 1 )' >> $@
@@ -635,10 +635,10 @@ Scripts/slurm_run_make-mt-all.sh:
 	echo "#SBATCH --chdir=Build/  ## first change directory and then all paths are relative to location" >> $@
 	echo '#SBATCH --output=Logs/%x.%j.log' >> $@
 	echo '#SBATCH --ntasks=1' >> $@
-	echo '#SBATCH --cpus-per-task=30' >> $@
-	echo '#SBATCH -p cpu-troja,cpu-ms' >> $@
-	echo '#SBATCH -q low' >> $@
-	echo '#SBATCH --mem=120G' >> $@
+	#echo '#SBATCH --cpus-per-task=30' >> $@
+	#echo '#SBATCH -p cpu-troja,cpu-ms' >> $@
+	#echo '#SBATCH -q low' >> $@
+	#echo '#SBATCH --mem=120G' >> $@
 	echo '' >> $@
 	echo 'set -e' >> $@
 	echo 'which parallel || ( echo "missing parallel ($$(hostname))" && exit 1 )' >> $@

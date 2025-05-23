@@ -28,6 +28,7 @@ use File::Temp qw/ tempfile tempdir /;  #creation of tmp files and directory
 my $tempdirroot = "$Bin/tmp";
 my $DIR = tempdir(DIR => $tempdirroot, CLEANUP => 1);
 
+
 GetOptions
     (
      'help'   => \$help,
@@ -46,12 +47,12 @@ $outDir = File::Spec->rel2abs($outDir) if $outDir;
 $procThreads = 1 unless $procThreads;
 
 $Para = "parallel --gnu --halt 0 --jobs $procThreads";
+
 $Saxon  = "java -jar $Bin/bin/saxon.jar";
 $scriptValid   = "$Bin/bin/tools/validate.py";
 
 $scriptConvert = "$Bin/parlamint2conllu.xsl";
-$scriptMeta    = "$Bin/parlamint2meta.xsl";
-$scriptMetaAna = "$Bin/parlamint2meta.ana.xsl";
+
 
 #This should be somehow factorised out!!
 $country2lang{'AT'} = 'de';
@@ -120,35 +121,8 @@ foreach $inFile (@compAnaFiles) {
 close TMP;
 
 `mkdir $outDir` unless -e "$outDir";
-`rm -f $outDir/*-meta.tsv`;
 `rm -f $outDir/*.conllu`;
 
-#For MTed corpora output only en metadata, for native, both xx and en
-if ($MT) {@outLangs = ('en')} else {@outLangs = ('xx', 'en')}
-# For orig corpora make ParlaMint-XX-meta.tsv in corpus language and ParlaMint-XX-meta-en.tsv in English
-# For MTed corpora we produce ParlaMint-XX-en-meta.tsv in English
-foreach my $outLang (@outLangs) {
-    my $outSuffix;
-    if    ($MT and $outLang eq 'xx') {}
-    elsif ($MT and $outLang eq 'en') {$outSuffix = "-meta.tsv"}
-    elsif ($outLang eq 'xx') {$outSuffix = "-meta.tsv"}
-    elsif ($outLang eq 'en') {$outSuffix = "-meta-en.tsv"}
-    if ($outSuffix) {
-        # Make meta TSV files
-	$command = "$Saxon meta=$rootAnaFile" .
-	    " out-lang=$outLang" .
-	    " -xsl:$scriptMeta {} > $outDir/{/.}$outSuffix";
-	`cat $fileFile | $Para '$command'`;
-        # Make .ana metadata TSV files; only in English
-        if ($outLang eq 'en') {
-            $command = "$Saxon meta=$rootAnaFile" .
-                " out-lang=$outLang" .
-                " -xsl:$scriptMetaAna {} > $outDir/{/.}-ana$outSuffix";
-            `cat $fileFile | $Para '$command'`;
-        }
-    }
-}
-`rename 's/\.ana//' $outDir/*-meta*.tsv`;
 
 # Produce common CoNLL-U, even if we have more languages in a corpus
 if ($langs !~ /,/) {$checkLang = $langs}

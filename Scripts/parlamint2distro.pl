@@ -108,6 +108,9 @@ $Saxon   = "java -jar $Bin/bin/saxon.jar";
 # Problem with Out of heap space with TR, NL, GB for ana
 $SaxonX  = "java -Xmx${procMemGB}g -jar $Bin/bin/saxon.jar";
 
+# reduce paralelism for metadata processing, if listPerson and listOrg are large, then there can be problem with memory size
+my $minProcThreads = $procThreads > 30 ? int($procThreads/3) : $procThreads;
+
 # logger variable stores info how long takes certain parts of code, used by logger subrutine
 my $logger = {
     code => '',
@@ -177,6 +180,7 @@ $scriptSample  = "$Bin/corpus2sample.xsl";
 $scriptTexts   = "$Bin/parlamintp-tei2text.pl";
 $scriptVerts   = "$Bin/parlamintp-tei2vert.pl";
 $scriptConls   = "$Bin/parlamintp2conllu.pl";
+$scriptMetas   = "$Bin/parlamintp-tei2meta.pl";
 
 $XX_template = "ParlaMint-XX";
 
@@ -333,16 +337,22 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	if (-e $outTeiRoot) {
             #Make sample files
 	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outTeiRoot`;
+        my $outTeiSmpRoot = File::Spec->catfile($outSmpDir, (File::Spec->splitpath($outTeiRoot))[2]);
 	    #Make derived files
 	    `$scriptTexts -jobs $procThreads -in $outSmpDir -out $outSmpDir`;
+        &dirify($outSmpDir);
+	    `$scriptMetas -jobs $procThreads -inRoot $outTeiSmpRoot -out $outSmpDir`;
 	}
 	else {print STDERR "WARN: No TEI files for $countryCode samples (needed root file is $outTeiRoot)\n"}
 	if (-e $outAnaRoot) {
             #Make sample files
 	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outAnaRoot`;
+            my $outAnaSmpRoot = File::Spec->catfile($outSmpDir, (File::Spec->splitpath($outAnaRoot))[2]);
 	    #Make derived files unless (for text) already made for TEI
             `$scriptTexts -jobs $procThreads -in $outSmpDir -out $outSmpDir` unless $outTeiRoot;
-	    `$scriptVerts -jobs $procThreads -in $outSmpDir -out $outSmpDir`;
+            &dirify($outSmpDir);
+            `$scriptMetas -jobs $procThreads -inRoot $outAnaSmpRoot -out $outSmpDir` unless $outTeiRoot;
+	    `$scriptVerts -jobs $minProcThreads -in $outSmpDir -out $outSmpDir`;
 	    if (-e "$regiDir/$vertRegi") {`cp $regiDir/$vertRegi $outSmpDir/$vertRegi.$regiExt`}
 	    else {print STDERR "WARN: registry file $vertRegi not found\n"}
 	    `$scriptConls -jobs $procThreads -in $outSmpDir -out $outSmpDir`
@@ -360,15 +370,24 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
 	print STDERR "INFO: ***Validating $countryCode TEI\n";
-        logger('Validating TEI');
+        
 	die "FATAL ERROR: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
-	`$scriptValid $schemaDir $outSmpDir` if -e $outSmpDir; 
-	`$scriptValid $schemaDir $outTeiDir` if -e $outTeiDir;
-	`$scriptValid $schemaDir $outAnaDir` if -e $outAnaDir;
+      if (-e $outSmpDir) {
+        logger('Validating TEI.sample');
+        `$scriptValid --procThreads $procThreads $schemaDir $outSmpDir`;
+      } 
+      if (-e $outTeiDir) {
+        logger('Validating TEI');
+        `$scriptValid --procThreads $procThreads $schemaDir $outTeiDir`;
+      }
+      if (-e $outAnaDir) {
+        logger('Validating TEI.ana');
+        `$scriptValid --procThreads $procThreads $schemaDir $outAnaDir`;
+      }
     }
     if (($procAll and $procTxt) or (!$procAll and $procTxt == 1)) {
 	print STDERR "INFO: ***Making $countryCode text\n";
-        logger('Making text');
+        logger('Prepare for making text');
 	# We have an oportunistic handle, could be $handleTEI or $handleAna, depending on which one exists
 	if    ($handleTEI) {$handleTxt = $handleTEI}
 	elsif ($handleAna) {$handleTxt = $handleAna}
@@ -377,8 +396,18 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	if ($MT) {$inReadme = "$docsDir/README-$MT.text.txt"}
 	else {$inReadme = "$docsDir/README.text.txt"}
 	&cp_readme($countryCode, $handleTxt, $Version, $inReadme, "$outTxtDir/00README.txt");
-	if    (-e $outTeiDir) {`$scriptTexts -jobs $procThreads -in $outTeiDir -out $outTxtDir`}
-	elsif (-e $outAnaDir) {`$scriptTexts -jobs $procThreads -in $outAnaDir -out $outTxtDir`}
+	if    (-e $outTeiDir) {
+        logger('Making text from TEI');
+        `$scriptTexts -jobs $procThreads -in $outTeiDir -out $outTxtDir`;
+        logger('Making meta for text from TEI');
+        `$scriptMetas -jobs $procThreads -inRoot $outTeiRoot -out $outTxtDir`;
+    }
+	elsif (-e $outAnaDir) {
+        logger('Making text from TEI.ana');
+        `$scriptTexts -jobs $procThreads -in $outAnaDir -out $outTxtDir`;
+        logger('Making meta for text from TEI.ana');
+        `$scriptMetas -jobs $procThreads -in $outAnaRoot -out $outTxtDir`;
+    }
 	else {die "FATAL ERROR: Neither $outTeiDir nor $outAnaDir exits\n"}
 	&dirify($outTxtDir);
     }
@@ -392,6 +421,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	else {$inReadme = "$docsDir/README.conll.txt"}
 	&cp_readme($countryCode, $handleAna, $Version, $inReadme, "$outConlDir/00README.txt");
 	`$scriptConls -jobs $procThreads -in $outAnaDir -out $outConlDir`;
+        logger('Making meta for CoNLL-U from TEI.ana');
+	`$scriptMetas -jobs $procThreads -inRoot $outAnaRoot -out $outConlDir`;
 	&dirify($outConlDir);
     }
     if (($procAll and $procVert) or (!$procAll and $procVert == 1)) {
@@ -405,7 +436,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	&cp_readme($countryCode, $handleAna, $Version, $inReadme, "$outVertDir/00README.txt");
 	if (-e "$regiDir/$vertRegi") {`cp $regiDir/$vertRegi $outVertDir/$vertRegi.$regiExt`}
 	else {print STDERR "WARN: registry file $vertRegi not found\n"}
-	`$scriptVerts -jobs $procThreads -in $outAnaDir -out $outVertDir`;
+	`$scriptVerts -jobs $minProcThreads -in $outAnaDir -out $outVertDir`;
 	&dirify($outVertDir);
     }
     logger();
@@ -415,12 +446,14 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 # process all component files with xslt scripts in chunks
 sub loop_chunks {
     my ($inFile, $xsltScript, $params, $chunkStart, $chunkSize) = @_;
-    my $cmd = "$SaxonX $params chunkSize=$chunkSize chunkStart=$chunkStart -xsl:$xsltScript $inFile";
-    # print STDERR "INFO command: $cmd\n";
-    my $output = `$cmd`;
-    die "FATAL ERROR: $cmd exited with $?\n" if $?;
-    return if $output =~ /STATUS: Processed last chunk/;
-    loop_chunks($inFile, $xsltScript, $params, $chunkStart + $chunkSize, $chunkSize);
+    while(1) {
+      my $cmd = "$SaxonX $params chunkSize=$chunkSize chunkStart=$chunkStart -xsl:$xsltScript $inFile";
+      # print STDERR "INFO command: $cmd\n";
+      my $output = `$cmd`;
+      die "FATAL ERROR: $cmd exited with $?\n" if $?;
+      last if $output =~ /STATUS: Processed last chunk/;
+      $chunkStart += $chunkSize;
+    }
 }
 
 # Substitute local with common taxonomies & reduce languages to en + corpus one(s)
