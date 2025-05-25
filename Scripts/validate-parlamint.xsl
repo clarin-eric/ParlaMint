@@ -230,7 +230,7 @@
     </xsl:if>
   </xsl:template>
     
-  <xsl:template match="tei:classDecl">
+  <xsl:template match="tei:teiCorpus//tei:classDecl">
     <xsl:if test="not(tei:taxonomy[tei:desc/tei:term = 'Legislature'])">
       <xsl:call-template name="error">
         <xsl:with-param name="msg">Missing 'Legislature' taxonomy</xsl:with-param>
@@ -273,7 +273,7 @@
   </xsl:template>
 
   <!-- Check if necessary prefixes are defined -->
-  <xsl:template match="tei:listPrefixDef">
+  <xsl:template match="tei:teiCorpus//tei:listPrefixDef">
     <!-- Check if Topics have their prefix defined -->
     <xsl:if test="not(tei:prefixDef[@ident = 'topic'])">
       <xsl:call-template name="error">
