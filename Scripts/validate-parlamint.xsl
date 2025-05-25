@@ -281,6 +281,12 @@
       </xsl:call-template>
     </xsl:if>
     <xsl:if test="$type = 'ana'">
+      <xsl:if test="not(tei:prefixDef[@ident = 'senti'])">
+        <!-- Check if sentiment classes have their prefix defined -->
+        <xsl:call-template name="error">
+          <xsl:with-param name="msg">Missing Sentiment prefixDef</xsl:with-param>
+        </xsl:call-template>
+      </xsl:if>
       <!-- Check if UD relations have their prefix defined; not relevant for MTed corpora -->
       <xsl:if test="not(tei:prefixDef[@ident = 'ud-syn'] or normalize-space($MT))">
         <xsl:call-template name="error">
