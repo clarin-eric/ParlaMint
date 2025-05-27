@@ -471,23 +471,23 @@
         <xsl:copy-of select="$aff"/>
       </xsl:when>
       <xsl:when test="$extend/tei:extend">
-<!--
+        <!--
         <xsl:message>TODO EXTEND</xsl:message>
         <xsl:comment>TODO: check for duplicity</xsl:comment>
 
-<xsl:message>CANDIDATES:<xsl:copy-of select="$extend-candidates"/></xsl:message>
+        <xsl:message>CANDIDATES:<xsl:copy-of select="$extend-candidates"/></xsl:message>
 
-<xsl:message>MERGE THIS:</xsl:message>
-<xsl:message>AFFILIATION:<xsl:copy-of select="$aff"/></xsl:message>
-<xsl:message>EXTEND:<xsl:copy-of select="$extend"/></xsl:message>
--->
+        <xsl:message>MERGE THIS:</xsl:message>
+        <xsl:message>AFFILIATION:<xsl:copy-of select="$aff"/></xsl:message>
+        <xsl:message>EXTEND:<xsl:copy-of select="$extend"/></xsl:message>
+        -->
         <xsl:variable name="aff-merged">
           <xsl:apply-templates select="$aff" mode="affiliation-merge">
             <xsl:with-param name="extend" select="$extend/tei:extend/*"/>
           </xsl:apply-templates>
         </xsl:variable>
         <!--
-<xsl:message>MERGED===:<xsl:copy-of select="$aff-merged"/></xsl:message>
+            <xsl:message>MERGED===:<xsl:copy-of select="$aff-merged"/></xsl:message>
        -->
         <xsl:apply-templates select="$aff-merged" mode="affiliation-extend">
           <xsl:with-param name="position" select="$position"/>
@@ -598,14 +598,6 @@
     <xsl:copy/>
   </xsl:template>
 
-  <!-- Used only by FI, but even here bugs in such linkage, so, remove -->
-  <xsl:template mode="comp" match="tei:u/@prev">
-    <xsl:message select="concat('WARN: removing u/@prev from ', ../@xml:id)"/>
-  </xsl:template>
-  <xsl:template mode="comp" match="tei:u/@next">
-    <xsl:message select="concat('WARN: removing u/@next from ', ../@xml:id)"/>
-  </xsl:template>
-
   <!-- Set correct ID of component -->
   <xsl:template mode="comp" match="tei:TEI/@xml:id">
     <xsl:variable name="id" select="replace(base-uri(), '^.*?([^/]+)\.xml$', '$1')"/>
@@ -713,6 +705,14 @@
     </xsl:choose>
   </xsl:template>
   
+  <!-- Used only by FI, but even here bugs in such linkage, so, remove -->
+  <xsl:template mode="comp" match="tei:u/@prev">
+    <xsl:message select="concat('WARN: removing u/@prev from ', ../@xml:id)"/>
+  </xsl:template>
+  <xsl:template mode="comp" match="tei:u/@next">
+    <xsl:message select="concat('WARN: removing u/@next from ', ../@xml:id)"/>
+  </xsl:template>
+
   <!-- Remove @who for anonymous speakers -->
   <xsl:template mode="comp" match="tei:u/@who[. = '#Anonymous' or . = '#anonymous' or . = '#unknown']">
     <xsl:message select="concat('WARN ', /tei:*/@xml:id,
