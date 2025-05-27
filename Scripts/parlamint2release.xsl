@@ -20,6 +20,7 @@
      Changes to component files:
      - add meeting reference to corpus specific parliamentary body of the meeting, if missing
      - change #parla.meeting.unregistered to #parla.meeting (IS)
+     - change badly formed title (RS)
      - change div/@type for divs without utterances
      - remove empty utterances, segments, notes
      - assign IDs to segments without them
@@ -610,10 +611,36 @@
   <xsl:template mode="comp" match="text()">
     <xsl:apply-templates mode="root" select="."/>
   </xsl:template>
+
+  <!-- RS has main titles like
+       <title type="main" xml:lang="sr">Srpski parlamentarni korpus ParlaMint-RS-T8, Zasedanje v4 [ParlaMint.ana SAMPLE]</title>
+       <title type="main" xml:lang="en">Serbian parliamentary corpus ParlaMint-RS-T8, Meeting v4 [ParlaMint.ana SAMPLE]</title>
+       this is not well-formed according to ParlaMint criteria, is here change to:
+       <title type="main" xml:lang="sr">Srpski parlamentarni korpus ParlaMint-RS, Zasedanje T8 v4 [ParlaMint.ana SAMPLE]</title>
+       <title type="main" xml:lang="en">Serbian parliamentary corpus ParlaMint-RS, Meeting T8 v4 [ParlaMint.ana SAMPLE]</title>
+  -->
+  <xsl:template mode="comp" match="tei:titleStmt/tei:title[@type = 'main']">
+    <xsl:copy>
+      <xsl:apply-templates mode="comp" select="@*"/>
+      <xsl:choose>
+        <xsl:when test="$country-code = 'RS'">
+          <xsl:variable name="term" select="replace(., '.+ParlaMint-RS-(T\d+),.+', '$1')"/>
+          <xsl:variable name="title" select="replace(
+                                             replace(., 'ParlaMint-RS-T\d+', 'ParlaMint-RS'),
+                                             '(, .+?) ', concat('$1', ' ', $term, ' '))"/>
+          <xsl:message select="concat('WARN: changing title ', ., ' to ', $title)"/>
+          <xsl:value-of select="$title"/>
+
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates mode="comp"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:copy>
+  </xsl:template>
   
   <!-- Some specific corpora are missing reference to the parliamentary body of the meeting, add it -->
   <!-- Note that add-common-content takes care of this too in a more general setting -->
-
   <xsl:template mode="comp" match="tei:meeting">
     <!-- GB, need to fix:
          <meeting corresp="#parliament.HC" ana="#parla.meeting.regular"/>
@@ -891,7 +918,7 @@
       <!-- IL has wrongly annotated punctations as a symbol-->
       <xsl:when test="@lemma='' and @msd = 'UPosTag=SYM' ">
         <xsl:message select="concat('WARN: changing symbol(UPosTag=SYM) ', ., ' to punctuation for ', @xml:id)"/>
-	      <pc>
+	<pc>
           <xsl:attribute name="msd">UPosTag=PUNCT</xsl:attribute>
 	        <xsl:apply-templates mode="comp" select="@*[name() != 'lemma' and name() != 'pos' and name() != 'msd']"/>
 	        <xsl:apply-templates mode="comp"/>
