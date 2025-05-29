@@ -612,25 +612,19 @@
     <xsl:apply-templates mode="root" select="."/>
   </xsl:template>
 
-  <!-- RS has main titles like
-       <title type="main" xml:lang="sr">Srpski parlamentarni korpus ParlaMint-RS-T8, Zasedanje v4 [ParlaMint.ana SAMPLE]</title>
-       <title type="main" xml:lang="en">Serbian parliamentary corpus ParlaMint-RS-T8, Meeting v4 [ParlaMint.ana SAMPLE]</title>
-       this is not well-formed according to ParlaMint criteria, is here change to:
-       <title type="main" xml:lang="sr">Srpski parlamentarni korpus ParlaMint-RS, Zasedanje T8 v4 [ParlaMint.ana SAMPLE]</title>
-       <title type="main" xml:lang="en">Serbian parliamentary corpus ParlaMint-RS, Meeting T8 v4 [ParlaMint.ana SAMPLE]</title>
-  -->
   <xsl:template mode="comp" match="tei:titleStmt/tei:title[@type = 'main']">
     <xsl:copy>
       <xsl:apply-templates mode="comp" select="@*"/>
+      <xsl:variable name="stamp" select="concat('ParlaMint-', $country-code)"/>
       <xsl:choose>
-        <xsl:when test="$country-code = 'RS'">
-          <xsl:variable name="term" select="replace(., '.+ParlaMint-RS-(T\d+),.+', '$1')"/>
+        <!-- Error in RS main title: "Srpski parlamentarni korpus ParlaMint-RS-T8, Zasedanje 4 [ParlaMint.ana]" -->
+        <xsl:when test="starts-with($country-code, 'RS') and matches(., concat($stamp, '-T\d+'))">
+          <xsl:variable name="term" select="replace(., concat('.*', $stamp, '-(T\d+),.+'), '$1')"/>
           <xsl:variable name="title" select="replace(
-                                             replace(., 'ParlaMint-RS-T\d+', 'ParlaMint-RS'),
+                                             replace(., concat($stamp, '-', $term), $stamp),
                                              '(, .+?) ', concat('$1', ' ', $term, ' '))"/>
           <xsl:message select="concat('WARN: changing title ', ., ' to ', $title)"/>
           <xsl:value-of select="$title"/>
-
         </xsl:when>
         <xsl:otherwise>
           <xsl:apply-templates mode="comp"/>
