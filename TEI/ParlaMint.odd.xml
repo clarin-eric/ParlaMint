@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2024-12-03</date>
+        <date>2025-02-15</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,6 +48,9 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
+      <change when="2025-02-15">Tomaž Erjavec: Allow ref/@xml:lang and several publisher/ref.</change>
+      <change when="2025-01-28">Tomaž Erjavec: Allow ref/@xml:lang and several publisher/ref.</change>
+      <change when="2025-01-13">Tomaž Erjavec: Add discussion on overlapping dates in "Temporal" section.</change>
       <change when="2024-12-03">Tomaž Erjavec: Allow s/@ana.</change>
       <change when="2024-05-14">Tomaž Erjavec: Make person/sex obligatory.</change>
       <change when="2024-03-03">Tomaž Erjavec: Slighlty edit the section of affiliations.</change>
@@ -77,7 +80,7 @@
           <ref target="https://github.com/clarin-eric/ParlaMint">ParlaMint corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v4.2</docEdition-->
-        <docDate>2024-12-03</docDate>
+        <docDate>2025-02-15</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -108,29 +111,42 @@
         linguistic annotatios, syntactic dependencies and named entities.</p>
 
         <p>The document is not meant as a tutorial on TEI or ParlaMint, but as a reference to
-        elements, their nesting and attributes exemplified by snippets from the existing ParlaMint
-        corpora. Other sources can help in understanding the encoding of ParlaMint corpora:
+        elements, their nesting and attributes.
+        Other sources can help in understanding the encoding and content of ParlaMint corpora:
         <list>
-          <item>The freely available paper:<lb/> Erjavec, T., Ogrodniczuk, M., Osenova,
-          P. et al. The ParlaMint corpora of parliamentary proceedings.  Language
-          Resources &amp; Evaluation (2022). <ref
-          target="https://doi.org/10.1007/s10579-021-09574-0">https://doi.org/10.1007/s10579-021-09574-0</ref>.</item>
-          
-          <item>The <ref
-          target="https://clarin-eric.github.io/parla-clarin/">Parla-CLARIN</ref>
-          guidelines, which provide general guidelines for encoding parliamentary corpora
-          in TEI; they also give links to the relevant chapters of the <ref
-          target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html">TEI Guidelines
-          </ref>.</item>
-          
-          <item>Samples of ParlaMint corpora, available in the Data/ directory of the
-          ParlaMint GitHub repository, esp. useful as they give the complete picture of a
-          ParlaMint corpus; note that the samples in the <ref
-          target="https://github.com/clarin-eric/ParlaMint/tree/main/Data">main
-          branch</ref> are supposed to be publication-ready, while those in the <ref
-          target="https://github.com/clarin-eric/ParlaMint/tree/data/Data">data
+          <item>Samples of ParlaMint corpora, available in the Samples/ directory of the
+          ParlaMint GitHub repository; note that the samples in the
+          <ref target="https://github.com/clarin-eric/ParlaMint/tree/main/Samples">main
+          branch</ref>
+          are supposed to be publication-ready,
+          while those in the
+          <ref target="https://github.com/clarin-eric/ParlaMint/tree/data/Samples">data
           branch</ref> are work in progress.
           </item>
+
+          <item>Two openly available papers detailing the results of the ParlaMint I and ParlaMint II projects:
+          <list>
+            <item>The ParlaMint corpora of parliamentary proceedings.
+            <emph>Language Resources &amp; Evaluation</emph> (2022).
+            DOI
+            <ref target="https://doi.org/10.1007/s10579-021-09574-0">10.1007/s10579-021-09574-0</ref>.
+            </item>
+            
+            <item>ParlaMint II: Advancing Comparable Parliamentary Corpora Across Europe.
+            <emph>Language Resources &amp; Evaluation</emph> (2024).
+            DOI
+            <ref target="https://doi.org/10.1007/s10579-024-09798-w">10.1007/s10579-024-09798-w</ref>.
+            </item>
+          </list>
+          </item>
+          
+          <item>The
+          <ref target="https://clarin-eric.github.io/parla-clarin/">Parla-CLARIN</ref>
+          guidelines, which provide general guidelines for encoding parliamentary corpora
+          in TEI; they also give links to the relevant chapters of the
+          <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html">TEI Guidelines</ref>.
+          </item>
+          
         </list>
         </p>
 
@@ -457,10 +473,10 @@
             <item>Temporal, i.e. time-related information is typically stored in the
             <att>when</att>, <att>from</att> and <att>to</att> attributes of various
             elements. To specify a date or time as the value of these attributes,
-            formatting according to the <ref
-            target="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</ref> standard should
-            be used, e.g. <val>2022-04-01</val> for the 1st of April 2022. More
-            information on temporal attributes is given in the Section on <ref
+            formatting according to the
+            <ref target="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</ref>
+            standard should be used, e.g. <val>2022-04-01</val> for the 1st of April 2022.
+            More information on temporal attributes is given in the Section on <ref
             target="#sec-temporal">Temporal attributes</ref>.</item>
           </list>
           </p>
@@ -634,6 +650,14 @@
             complete time period of the ParlaMint corpus.</item>
             
           </list>
+
+          It should be noted that, in ParlaMint, we do not support overlapping dates. For example,
+          it is common for a term to end on a particular day, with the next term starting on the same
+          day, and the same for a coalition and opposition. But encoding this overlap leads to problems of
+          multivalued attributes (e.g. for a speaker to belong to a coalition and opposition on the same
+          day), so the starting date of the next event or state should be, by convention, moved one day forward.
+          ParlaMint thus introduces a small mistake in recording the facts but this is outweighted by
+          the simplification in processing.
           </p>
         </div>
         

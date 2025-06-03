@@ -12,7 +12,7 @@ $taxonomyDir = shift;
 $inDir = File::Spec->rel2abs(shift);
 
 # Force overwriting of submitted taxonomies with common ones:
-$taxonomies_TEI_force = 'parla.legislature speaker_types politicalOrientation subcorpus'; 
+$taxonomies_TEI_force = 'parla.legislature speaker_types politicalOrientation subcorpus topic'; 
 # Copy these from common taxonomies only of missing:
 $taxonomies_TEI = 'CHES';
 #Ditto for ana
@@ -39,6 +39,7 @@ $country2lang{'GB'} = 'en';
 $country2lang{'GR'} = 'el';
 $country2lang{'HR'} = 'hr';
 $country2lang{'HU'} = 'hu';
+$country2lang{'IL'} = 'he';
 $country2lang{'IS'} = 'is';
 $country2lang{'IT'} = 'it';
 $country2lang{'LT'} = 'lt';

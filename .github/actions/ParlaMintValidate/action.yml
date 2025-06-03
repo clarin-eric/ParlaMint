@@ -6,10 +6,13 @@ inputs:
     required: true
   requireTaxonomiesTranslations:
     description: 'require every term in common taxonomies to be translated'
-    default: '1'
+    required: false
 runs:
   using: "composite"
   steps:
+    - name: Set environment variables
+      run: echo "REQ_TRANSLATION=${{ inputs.requireTaxonomiesTranslations || '1' }}" >> $GITHUB_ENV
+      shell: bash
     - name: Convert and Validate
-      run: ${{ github.action_path }}/validate.sh '${{inputs.parlas}}' '${{inputs.requireTaxonomiesTranslations}}'
+      run: ${{ github.action_path }}/validate.sh '${{inputs.parlas}}' '${{env.REQ_TRANSLATION}}'
       shell: bash

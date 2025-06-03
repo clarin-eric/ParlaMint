@@ -32,17 +32,27 @@ use Getopt::Long;
 use FindBin qw($Bin);
 use File::Spec;
 
+my $procThreads = 1;
+
+GetOptions
+    (
+     'procThreads=i'=> \$procThreads,
+);
+
 $schemaDir = File::Spec->rel2abs(shift);
 $inDirs = File::Spec->rel2abs(shift);
 
+$Parallel = "parallel --keep-order --gnu --halt 0 --jobs $procThreads";
 $Jing    = "java -jar $Bin/bin/jing.jar";
 $Saxon   = "java -jar $Bin/bin/saxon.jar";
 
 $Compose = "$Bin/parlamint-composite-teiHeader.xsl";
 $Links   = "$Bin/check-links.xsl";
+$Chars   = "$Bin/check-chars.pl";
 $Valid   = "$Bin/validate-parlamint.xsl";
 $Valid_particDesc = "$Bin/validate-parlamint-particDesc.xsl";
 $Includes = "$Bin/get-includes.xsl";
+
 
 foreach my $inDir (glob "$inDirs") {
     next unless -d $inDir;
@@ -87,83 +97,77 @@ sub validate {
     my $interfix = $type;
     $interfix =~ s/^TEI//;
     print STDERR "INFO: Validating $type root $rootFile\n";
-    &chars($rootFile);
-    &run("$Jing $schemaDir/ParlaMint-teiCorpus$interfix.rng", $rootFile);
-    &run("$Saxon outDir=$tmpDir -xsl:$Compose", $rootFile);
-    &run("$Jing $schemaDir/ParlaMint.odd.rng", "$tmpDir/$fileName");
-    &run("$Saxon -xsl:$Valid", $rootFile);
-    &run("$Saxon -xsl:$Valid_particDesc", $rootFile);
-    &run("$Saxon -xsl:$Links", $rootFile);
+    &run($Chars, $rootFile, 1);
+    &run("$Jing $schemaDir/ParlaMint-teiCorpus$interfix.rng", $rootFile, 1);
+    &run("$Saxon outDir=$tmpDir -xsl:$Compose", $rootFile, 1);
+    &run("$Jing $schemaDir/ParlaMint.odd.rng", "$tmpDir/$fileName", 1);
+    &run("$Saxon -xsl:$Valid", $rootFile, 1);
+    &run("$Saxon -xsl:$Valid_particDesc", $rootFile, 1);
+    &run("$Saxon -xsl:$Links", $rootFile, 1);
     @includes = split(/\n/, `$Saxon -xsl:$Includes $rootFile`);
+    open(TASKS, '>:utf8', "$tmpDir/$fileName.validate-included.lst") if $procThreads > 1;
+    my $runNow = !($procThreads > 1);
     while (my $f = shift @includes) {
         $file = "$inDir/$f";
+        my $fileTasks = '';
         if (-e $file) {
             if($file =~ m/ParlaMint-(?:[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?)?.?(taxonomy|listPerson|listOrg).*\.xml/){
-                print STDERR "INFO: Validating file included in teiHeader $file\n";
-                &chars($file);
-                &run("$Jing $schemaDir/ParlaMint-$1.rng", $file);
-                &run("$Saxon meta=$rootFile -xsl:$Links", $file);
+                $fileTasks .= &printMsg("INFO: Validating file included in teiHeader $file",$runNow);
+                $fileTasks .= &run($Chars, $file, $runNow);
+                $fileTasks .= &run("$Jing $schemaDir/ParlaMint-$1.rng", $file, $runNow);
+                $fileTasks .= &run("$Saxon meta=$rootFile -xsl:$Links", $file, $runNow);
             } else {
-                print STDERR "INFO: Validating component $type file $file\n";
-                &chars($file);
-                &run("$Jing $schemaDir/ParlaMint-TEI$interfix.rng", $file);
-                &run("$Jing $schemaDir/ParlaMint.odd.rng", $file);
-                &run("$Saxon -xsl:$Valid", $file);
-                &run("$Saxon meta=$rootFile -xsl:$Links", $file);
+                $fileTasks .= &printMsg("INFO: Validating component $type file $file",$runNow);
+                $fileTasks .= &run($Chars, $file, $runNow);
+                $fileTasks .= &run("$Jing $schemaDir/ParlaMint-TEI$interfix.rng", $file, $runNow);
+                $fileTasks .= &run("$Jing $schemaDir/ParlaMint.odd.rng", $file, $runNow);
+                $fileTasks .= &run("$Saxon -xsl:$Valid", $file, $runNow);
+                $fileTasks .= &run("$Saxon meta=$rootFile -xsl:$Links", $file, $runNow);
             }
         }
-        else {print STDERR "ERROR: $rootFile XIncluded file $file does not exist!\n"}
+        else {$fileTasks .= &printMsg("ERROR: $rootFile XIncluded file $file does not exist!",$runNow)}
+        print TASKS "$fileTasks\n" unless $runNow ;
     }
+    close TASKS if $procThreads > 1;
+	`cat "$tmpDir/$fileName.validate-included.lst"| $Parallel "{}"` unless $runNow;
 }
 
-# Check if $file contains bad characters
-sub chars {
-    my $file = shift;
-    my %c;
-    my @bad = ();
-    my ($fName) = $file =~ m|([^/]+)$|
-        or die "FATAL ERROR: Bad file '$file'\n";
-    print STDERR "INFO: Char validation for $fName\n";
-    open(IN, '<:utf8', $file);
-    undef $/;
-    my $txt = <IN>;
-    undef %c;
-    for $c (split(//, $txt)) {$c{$c}++}
-    for $c (sort keys %c) {
-      if (ord($c) == hex('00A0') or  #NO-BREAK SPACE
-          ord($c) == hex('2011') or  #NON-BREAKING HYPHEN
-          ord($c) == hex('00AD') or  #SOFT HYPHEN
-          ord($c) == hex('FFFD') or  #REPLACEMENT CHAR
-          (ord($c) >= hex('2000') and ord($c) <= hex('200A')) or #NON-STANDARD SPACES
-          (ord($c) >= hex('E000') and ord($c) <= hex('F8FF'))    #PUA
-          ) {
-          $message = sprintf("U+%X (%dx)", ord($c), $c{$c});
-          push(@bad, $message)
-      }
-    }
-    print STDERR "WARN: File $fName contains bad chars: " . join('; ', @bad) . "\n"
-      if @bad
+sub printMsg {
+    my $msg = shift;
+    my $runNow = shift;
+    my $cmd = "echo -n \"$msg\\n\" 1>&2";
+    `$cmd` if $runNow;
+    return "$cmd ;";
 }
-   
+
 sub run {
     my $command = shift;
     my $file = shift;
+    my $runNow = shift;
     my ($fName) = $file =~ m|([^/]+)$|
         or die "FATAL ERROR: Bad file '$file'\n";
+    my $msg = '';
+    my $cmd = '';
     if ($command =~ /$Jing/) {
-        print STDERR "INFO: XML validation for $fName\n"
+        $msg = "INFO: XML validation for $fName\\n"
     }
     elsif ($command =~ /$Compose/) {
     }
+    elsif ($command =~ /$Chars/) {
+    }
     elsif ($command =~ /$Valid/) {
-        print STDERR "INFO: Content validaton for $fName\n"
+        $msg = "INFO: Content validaton for $fName\\n"
     }
     elsif ($command =~ /$Valid_particDesc/) {
-        print STDERR "INFO: particDesc content validaton for $fName\n"
+        $msg = "INFO: particDesc content validaton for $fName\\n"
     }
     elsif ($command =~ /$Links/) {
-        print STDERR "INFO: Link checking for $fName\n"
+        $msg = "INFO: Link checking for $fName\\n"
     }
     else {die "FATAL ERROR: Weird command $command!\n"}
-    `$command $file 1>&2`;
+    $cmd .= "echo -n \"$msg\" 1>&2;" if $msg;
+    $cmd .= "$command $file 1>&2";
+    #print STDERR "### $cmd ###\n";
+    `$cmd` if $runNow;
+    return "$cmd ;";
 }

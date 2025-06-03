@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
+           xmlns:xi="http://www.w3.org/2001/XInclude"
+           xml:id="ParlaMint-IL"
+           xml:lang="he">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="he">קורפוס הכנסת, אוסף פרוטוקולים מתוך הפרלמנט הישראלי ParlaMint-IL [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Israel parliamentary corpus ParlaMint-IL [ParlaMint SAMPLE]</title>
+            <title type="sub">פרוטוקולים של הכנסת</title>
+            <title type="sub">Knesset Protocols</title>
+            <meeting n="14"
+                     corresp="#ParlaMint-IL-KNESS"
+                     ana="#parla.uni #parla.term #period_14"
+                     xml:lang="he">הכנסת ה-14</meeting>
+            <meeting n="14"
+                     corresp="#ParlaMint-IL-KNESS"
+                     ana="#parla.uni #parla.term #period_14"
+                     xml:lang="en">14th Knesset</meeting>
+            <meeting n="18"
+                     corresp="#ParlaMint-IL-KNESS"
+                     ana="#parla.uni #parla.term #period_18"
+                     xml:lang="he">הכנסת ה-18</meeting>
+            <meeting n="18"
+                     corresp="#ParlaMint-IL-KNESS"
+                     ana="#parla.uni #parla.term #period_18"
+                     xml:lang="en">18th Knesset</meeting>
+            <meeting n="24"
+                     corresp="#ParlaMint-IL-KNESS"
+                     ana="#parla.uni #parla.term #period_24"
+                     xml:lang="he">הכנסת ה-24</meeting>
+            <meeting n="24"
+                     corresp="#ParlaMint-IL-KNESS"
+                     ana="#parla.uni #parla.term #period_24"
+                     xml:lang="en">24th Knesset</meeting>
+            <respStmt>
+               <persName>CLG lab, University of Haifa</persName>
+               <resp>הכנת הקורפוס והמרה ל-TEI</resp>
+               <resp>Corpus preparation and TEI conversion</resp>
+            </respStmt>
+            <funder>
+               <orgName>ParlaMint Project</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="1958" xml:lang="he">1,958 speeches</measure>
+            <measure unit="words" quantity="78701" xml:lang="he">78,701 מילים</measure>
+            <measure unit="words" quantity="78701" xml:lang="he">78,701 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName>מעבדת CLG, אוניברסיטת חיפה</orgName>
+               <orgName>CLG lab, University of Haifa</orgName>
+               <ref target="https://github.com/HaifaCLG">CLG Lab University of Haifa</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p>הקובץ מופץ תחת רישיון CC BY 4.0.</p>
+               <p>This work is licensed under the Creative Commons Attribution 4.0 International License.</p>
+            </availability>
+            <date when="2024-12-06">2024-12-06</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">פרוטוקולים של הכנסת</title>
+               <title type="main">Knesset Protocols</title>
+               <publisher>כנסת ישראל</publisher>
+               <idno type="URI" subtype="parliament">https://main.knesset.gov.il</idno>
+               <date from="1993-07-12" to="2024-04-03">1993-07-12 - 2024-04-03</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a
+    project that aims to (1) create a multilingual set of comparable corpora of parliamentary
+    proceedings uniformly encoded according to the
+    <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, 
+    covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and
+    machine-translate them to English; (3) make the corpora available through concordancers; and
+    (4) build use cases in Political Sciences and Digital Humanities based on the corpus
+    data.</p>
+            <p>This corpus is part of the ParlaMint project, aiming to provide a multilingual set of comparable corpora of parliamentary proceedings.</p>
+            <p>הקורפוס הוא חלק מפרויקט ParlaMint, שמטרתו לספק סט רב לשוני של קורפוסים פרלמנטריים.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Obvious OCR errors and encoding issues have been corrected.</p>
+            </correction>
+            <normalization>
+               <p>The text has been normalized to replace certain characters and remove unwanted spaces.</p>
+            </normalization>
+            <hyphenation>
+               <p>End-of-line hyphens have been removed and split words joined.</p>
+            </hyphenation>
+            <quotation>
+               <p>Quotation marks are retained as in the original texts.</p>
+            </quotation>
+            <segmentation>
+               <p>Multiple whitespace characters have been replaced with a single space.</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="4"/>
+               <tagUsage gi="div" occurs="4"/>
+               <tagUsage gi="head" occurs="4"/>
+               <tagUsage gi="seg" occurs="1958"/>
+               <tagUsage gi="text" occurs="4"/>
+               <tagUsage gi="u" occurs="1958"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <xi:include href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include href="ParlaMint-taxonomy-politicalOrientation.xml"/>
+            <xi:include href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include href="ParlaMint-taxonomy-NER.ana.xml"/>
+            <xi:include href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">ירושלים</name>
+               <name key="IL" type="country">ישראל</name>
+               <date from="1993-07-12" to="2024-04-03">1993-07-12 - 2024-04-03</date>
+            </setting>
+         </settingDesc>
+         <textClass>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.uni"/>
+         </textClass>
+         <particDesc>
+            <xi:include href="ParlaMint-IL-listOrg.xml"/>
+            <xi:include href="ParlaMint-IL-listPerson.xml"/>
+         </particDesc>
+         <langUsage>
+            <language ident="he" xml:lang="he">עברית</language>
+            <language ident="en" xml:lang="he">אנגלית</language>
+            <language ident="he" xml:lang="en">Hebrew</language>
+            <language ident="en" xml:lang="en">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-12-06">
+            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2024-12-02">Initial release.</change>
+         <change when="2024-12-03">parlamint-add-common-content script: Adding common content.</change>
+      </revisionDesc>
+   </teiHeader>
+   <xi:include href="1998/ParlaMint-IL_1998-07-08-14ptm532674.xml"/>
+   <xi:include href="2009/ParlaMint-IL_2009-03-12-18ptm186016.xml"/>
+   <xi:include href="2009/ParlaMint-IL_2009-10-21-18ptv139208.xml"/>
+   <xi:include href="2021/ParlaMint-IL_2021-12-21-24ptv616837.xml"/>
+</teiCorpus>

@@ -115,12 +115,13 @@ sourceDesc =
     }?
   }
 
-## Encoding description.
+## Encoding description for a corpus component.
 encodingDesc =
   element encodingDesc {
     global.atts,
     element projectDesc { paras },
-    tagsDecl
+    tagsDecl,
+    element listPrefixDef { prefixDef+ }?
   }
 
 ## Profile description.
@@ -131,6 +132,7 @@ revisionDesc =
   element revisionDesc {
     global.atts,
     element change {
+      global.atts,
       attribute when { xsd:date },
       mixed { name-header* }
     }+
@@ -181,7 +183,7 @@ publisher =
   element publisher {
     lang.att,
     ((element orgName { lang.att, normalized-space.string }+,
-      ref?)
+      ref*)
      | text)
   }
 
@@ -236,20 +238,7 @@ text-body =
   }
 
 ## One speech (i.e. 'utterance').
-u =
-  element u {
-    global.atts
-    >> a:documentation [ "Attributes to link split utterances." ],
-    attribute prev { xsd:anyURI }?,
-    attribute next { xsd:anyURI }?,
-    (who.att?)
-    >> a:documentation [
-         "Utterance has obligatory @ana, for the role of the speaker."
-       ],
-    ana.att,
-    attribute source { anyURIs }?,
-    (seg | comment | pb)+
-  }
+u = element u { utterance.atts, (seg | comment | pb)+ }
 
 ## A segment (i.e paragraph) inside a speech.
 seg =

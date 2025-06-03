@@ -3,9 +3,9 @@
 <note type="head" content="Sejo so vodili predsednik Igor Zorčič in podpredsedniki Tina Heferle, Branko Simonovič in Jože Tanko."/>
 <note type="time" content="Seja se je začela ob 9. uri."/>
 <note type="speaker" content="PODPREDSEDNIK BRANKO SIMONOVIČ:"/>
-<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u1" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="COVID,Vojna" lang="slovenski" body="Spodnji dom" term="8. mandat" session="-" meeting="Izredna" sitting="-" agenda="-" date="2022-04-06" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 8. mandat, 99. izredna seja (6. 4. 2022)" speaker_role="Predsedujoči" speaker_id="SimonovičBranko" speaker_name="Simonovič, Branko" speaker_mp="MP" speaker_minister="notMinister" speaker_party="DeSUS" speaker_party_name="Demokratična stranka upokojencev Slovenije" party_status="Coalition" party_orientation="Sredinska do levo sredinska" speaker_gender="M" speaker_birth="1953">
+<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u1" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="COVID,Vojna" lang="slovenski" body="Spodnji dom" term="8. mandat" session="-" meeting="Izredna" sitting="-" agenda="-" date="2022-04-06" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 8. mandat, 99. izredna seja (6. 4. 2022)" speaker_role="Predsedujoči" senti_3="Nevtralen" senti_6="nevtralno negativen" senti_n="2.42" speaker_id="SimonovičBranko" speaker_name="Simonovič, Branko" speaker_mp="MP" speaker_minister="notMinister" speaker_party="DeSUS" speaker_party_name="Demokratična stranka upokojencev Slovenije" party_status="Coalition" party_orientation="Sredinska do levo sredinska" speaker_gender="M" speaker_birth="1953">
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg1" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg1.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg1.1" senti_3="Pozitiven" senti_6="mešano pozitiven" senti_n="4.05">
 Spoštovane	Spoštovane	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	1	amod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
 kolegice	kolegice	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2	root	-	-	-	-
 poslanke	poslanke	poslanka	NOUN	Case=Nom Gender=Fem Number=Plur	3	nmod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
@@ -22,7 +22,7 @@ gospodje	gospodje	gospod	NOUN	Case=Nom Gender=Masc Number=Plur	10	conj	poslanec	
 </s>
 </p>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg2" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg2.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg2.1" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="3.22">
 Začenjam	Začenjam	začenjati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 z	z	z	ADP	Case=Ins	2	case	nadaljevanje	NOUN	Case=Ins Gender=Neut Number=Sing	3
 nadaljevanjem	nadaljevanjem	nadaljevanje	NOUN	Case=Ins Gender=Neut Number=Sing	3	obl	začenjati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
@@ -38,7 +38,7 @@ zbora	zbora	zbor	NOUN	Case=Gen Gender=Masc Number=Sing	8	nmod	seja	NOUN	Case=Gen
 </s>
 </p>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg3" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg3.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg3.1" senti_3="Nevtralen" senti_6="nevtralno negativen" senti_n="1.77">
 Obveščen	Obveščen	obveščen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1	root	-	-	-	-
 sem	sem	biti	AUX	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	2	cop	obveščen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1
 <g/>
@@ -191,7 +191,7 @@ ure	ure	ura	NOUN	Case=Gen Gender=Fem Number=Sing	102	nmod	Igor	PROPN	Case=Nom Ge
 </s>
 </p>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg4" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg4.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg4.1" senti_3="Pozitiven" senti_6="pozitiven" senti_n="4.81">
 Vse	Vse	ves	DET	Case=Acc Gender=Masc Number=Plur PronType=Tot	1	nmod	prisoten	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Plur	2
 prisotne	prisotne	prisoten	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Plur	2	obj	pozdravljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4
 lepo	lepo	lepo	ADV	Degree=Pos	3	advmod	pozdravljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4
@@ -201,14 +201,14 @@ pozdravljam	pozdravljam	pozdravljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person
 </s>
 </p>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg5" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg5.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg5.1" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="3.21">
 Prehajamo	Prehajamo	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 na	na	na	ADP	Case=Acc	2	case	10	NUM	NumForm=Digit NumType=Card	3
 10	10	10	NUM	NumForm=Digit NumType=Card	3	advmod	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 <g/>
 .	.	.	PUNCT	-	4	punct	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg5.2">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg5.2" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="2.58">
 TOČKO	TOČKO	točka	NOUN	Case=Acc Gender=Fem Number=Sing	1	nsubj	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	6
 DNEVNEGA	DNEVNEGA	dneven	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Sing	2	amod	red	NOUN	Case=Gen Gender=Masc Number=Sing	3
 REDA	REDA	red	NOUN	Case=Gen Gender=Masc Number=Sing	3	nmod	točka	NOUN	Case=Acc Gender=Fem Number=Sing	1
@@ -234,7 +234,7 @@ POSTOPKA	POSTOPKA	postopek	NOUN	Case=Gen Gender=Masc Number=Sing	19	nmod	okvir	N
 </s>
 </p>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg6" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg6.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg6.1" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="2.96">
 Predlog	Predlog	predlog	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	1	obj	predložiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	7
 zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	predlog	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	1
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	3	aux	predložiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	7
@@ -256,7 +256,7 @@ Zorčičem	Zorčičem	Zorčič	PROPN	Case=Ins Gender=Masc Number=Sing	16	flat:na
 </name>
 .	.	.	PUNCT	-	17	punct	predložiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	7
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg6.2">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg6.2" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="3.06">
 Za	Za	za	ADP	Case=Acc	1	case	obrazložitev	NOUN	Case=Acc Gender=Fem Number=Sing	3
 dopolnilno	dopolnilno	dopolnilen	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Sing	2	amod	obrazložitev	NOUN	Case=Acc Gender=Fem Number=Sing	3
 obrazložitev	obrazložitev	obrazložitev	NOUN	Case=Acc Gender=Fem Number=Sing	3	obl	dajati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	6
@@ -275,7 +275,7 @@ Zorčiču	Zorčiču	Zorčič	PROPN	Case=Dat Gender=Masc Number=Sing	11	flat:name
 </s>
 </p>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg7" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg7.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg7.1" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="3.42">
 Izvolite	Izvolite	izvoliti	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	izvoliti	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin	1
@@ -283,9 +283,9 @@ Izvolite	Izvolite	izvoliti	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin	1	roo
 </p>
 </speech>
 <note type="speaker" content="IGOR ZORČIČ (PS NP):"/>
-<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u2" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="COVID,Vojna" lang="slovenski" body="Spodnji dom" term="8. mandat" session="-" meeting="Izredna" sitting="-" agenda="-" date="2022-04-06" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 8. mandat, 99. izredna seja (6. 4. 2022)" speaker_role="Navadni" speaker_id="ZorčičIgor" speaker_name="Zorčič, Igor" speaker_mp="MP" speaker_minister="notMinister" speaker_party="NP" speaker_party_name="Poslanska skupina nepovezanih poslancev" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1978">
+<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u2" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="COVID,Vojna" lang="slovenski" body="Spodnji dom" term="8. mandat" session="-" meeting="Izredna" sitting="-" agenda="-" date="2022-04-06" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 8. mandat, 99. izredna seja (6. 4. 2022)" speaker_role="Navadni" senti_3="Pozitiven" senti_6="mešano pozitiven" senti_n="3.88" speaker_id="ZorčičIgor" speaker_name="Zorčič, Igor" speaker_mp="MP" speaker_minister="notMinister" speaker_party="NP" speaker_party_name="Poslanska skupina nepovezanih poslancev" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1978">
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg8" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg8.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg8.1" senti_3="Pozitiven" senti_6="mešano pozitiven" senti_n="3.84">
 Spoštovane	Spoštovane	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	1	amod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
 kolegice	kolegice	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2	root	-	-	-	-
 in	in	in	CCONJ	-	3	cc	kolega	NOUN	Case=Nom Gender=Masc Number=Plur	4
@@ -300,7 +300,7 @@ gospodje	gospodje	gospod	NOUN	Case=Nom Gender=Masc Number=Plur	8	conj	kolegica	N
 </s>
 </p>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg9" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg9.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg9.1" senti_3="Pozitiven" senti_6="mešano pozitiven" senti_n="4.26">
 Loči	Loči	ločiti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 nas	nas	jaz	PRON	Case=Acc Number=Plur Person=1 PronType=Prs	2	obj	ločiti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 samo	samo	samo	PART	-	3	advmod	ločiti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
@@ -356,7 +356,7 @@ zaslužimo	zaslužimo	zaslužiti	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 
 <g/>
 .	.	.	PUNCT	-	47	punct	ločiti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg9.2">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg9.2" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="3.29">
 Prvi	Prvi	prvi	ADJ	Case=Nom Gender=Masc Number=Sing NumType=Ord	1	amod	korak	NOUN	Case=Nom Gender=Masc Number=Sing	2
 korak	korak	korak	NOUN	Case=Nom Gender=Masc Number=Sing	2	nsubj	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	7
 k	k	k	ADP	Case=Dat	3	case	cilj	NOUN	Case=Dat Gender=Masc Number=Sing	5
@@ -378,7 +378,7 @@ položaja	položaja	položaj	NOUN	Case=Gen Gender=Masc Number=Sing	15	nmod	ureja
 </name>
 .	.	.	PUNCT	-	17	punct	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	7
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg9.3">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg9.3" senti_3="Pozitiven" senti_6="mešano pozitiven" senti_n="3.56">
 Ta	Ta	ta	DET	Case=Nom Gender=Masc Number=Sing PronType=Dem	1	det	zakon	NOUN	Case=Nom Gender=Masc Number=Sing	2
 zakon	zakon	zakon	NOUN	Case=Nom Gender=Masc Number=Sing	2	nsubj	odgovarjati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 celovito	celovito	celovito	ADV	Degree=Pos	3	advmod	odgovarjati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
@@ -419,7 +419,7 @@ hudo	hudo	hudo	ADV	Degree=Pos	34	advmod	prizadeti	VERB	Aspect=Perf Gender=Fem Nu
 </s>
 </p>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg10" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg10.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg10.1" senti_3="Negativen" senti_6="negativen" senti_n="0.28">
 Kategorične	Kategorične	kategoričen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	1	amod	trditev	NOUN	Case=Nom Gender=Fem Number=Plur	2
 trditve	trditve	trditev	NOUN	Case=Nom Gender=Fem Number=Plur	2	nsubj	izkazati	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	30
 <g/>
@@ -458,7 +458,7 @@ obljube	obljube	obljuba	NOUN	Case=Nom Gender=Fem Number=Plur	34	obl	izkazati	VER
 <g/>
 .	.	.	PUNCT	-	35	punct	izkazati	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	30
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg10.2">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg10.2" senti_3="Negativen" senti_6="mešano negativen" senti_n="0.63">
 Namreč	Namreč	namreč	CCONJ	-	1	discourse	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	9
 <g/>
 ,	,	,	PUNCT	-	2	punct	namreč	CCONJ	-	1
@@ -497,7 +497,7 @@ nič	nič	nič	PRON	Case=Nom Gender=Neut Number=Sing PronType=Neg	31	obl	zgoditi
 <g/>
 .	.	.	PUNCT	-	32	punct	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	9
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg10.3">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg10.3" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="2.7">
 Danes	Danes	danes	ADV	Degree=Pos	1	advmod	imeti	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	2
 imamo	imamo	imeti	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 torej	torej	torej	ADV	Degree=Pos	3	advmod	imeti	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	2
@@ -535,7 +535,7 @@ pandemije	pandemije	pandemija	NOUN	Case=Gen Gender=Fem Number=Sing	31	nmod	koron
 <g/>
 .	.	.	PUNCT	-	32	punct	imeti	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg10.4">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg10.4" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="2.72">
 Danes	Danes	danes	ADV	Degree=Pos	1	advmod	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	2
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	2	cop	priložnost	NOUN	Case=Nom Gender=Fem Number=Sing	5
 torej	torej	torej	ADV	Degree=Pos	3	advmod	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	2
@@ -582,7 +582,7 @@ obravnavo	obravnavo	obravnava	NOUN	Case=Acc Gender=Fem Number=Sing	36	obj	počak
 </s>
 </p>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg11" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg11.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg11.1" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="3.13">
 Ker	Ker	ker	SCONJ	-	1	mark	iti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 gre	gre	iti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	advcl	navesti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	7
 za	za	za	ADP	Case=Acc	3	case	obravnava	NOUN	Case=Acc Gender=Fem Number=Sing	5
@@ -606,7 +606,7 @@ zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	19	nmod	predlog	NOUN	C
 <g/>
 .	.	.	PUNCT	-	20	punct	navesti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	7
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg11.2">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg11.2" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="3.05">
 Te	Te	ta	DET	Case=Nom Gender=Fem Number=Plur PronType=Dem	1	nsubj	oblikovan	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	4
 so	so	biti	AUX	Mood=Ind Number=Plur Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	2	aux	oblikovan	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	4
 bile	bile	biti	AUX	Gender=Fem Number=Plur VerbForm=Part	3	cop	oblikovan	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	4
@@ -635,7 +635,7 @@ zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	22	nmod	avtor	NOUN	Cas
 <g/>
 .	.	.	PUNCT	-	23	punct	oblikovan	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	4
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg11.3">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg11.3" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="2.75">
 Predlog	Predlog	predlog	NOUN	Case=Nom Gender=Masc Number=Sing	1	nsubj	nastati	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	4
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	2	aux	nastati	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	4
 torej	torej	torej	ADV	Degree=Pos	3	advmod	nastati	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	4
@@ -656,7 +656,7 @@ brez	brez	brez	ADP	Case=Gen	14	case	študent	NOUN	Case=Gen Gender=Masc Number=Pl
 </s>
 </p>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg12" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg12.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg12.1" senti_3="Pozitiven" senti_6="mešano pozitiven" senti_n="3.52">
 Kot	Kot	kot	SCONJ	-	1	case	rešitev	NOUN	Case=Nom Gender=Fem Number=Plur	3
 ključne	ključne	ključen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	2	amod	rešitev	NOUN	Case=Nom Gender=Fem Number=Plur	3
 rešitve	rešitve	rešitev	NOUN	Case=Nom Gender=Fem Number=Plur	3	obl	predvidevati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
@@ -677,7 +677,7 @@ leta	leta	leto	NOUN	Case=Gen Gender=Neut Number=Sing	16	nmod	obdobje	NOUN	Case=I
 <g/>
 .	.	.	PUNCT	-	18	punct	predvidevati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg12.2">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg12.2" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="3.2">
 Predvideva	Predvideva	predvidevati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 se	se	se	PRON	PronType=Prs Reflex=Yes Variant=Short	2	expl	predvidevati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 izvzem	izvzem	izvzem	NOUN	Case=Nom Gender=Masc Number=Sing	3	nsubj	predvidevati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
@@ -700,7 +700,7 @@ transferjev	transferjev	transfer	NOUN	Case=Gen Gender=Masc Number=Plur	19	nmod	u
 <g/>
 .	.	.	PUNCT	-	20	punct	predvidevati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg12.3">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg12.3" senti_3="Pozitiven" senti_6="mešano pozitiven" senti_n="3.58">
 S	S	z	ADP	Case=Ins	1	case	ta	DET	Case=Ins Gender=Neut Number=Sing PronType=Dem	2
 tem	tem	ta	DET	Case=Ins Gender=Neut Number=Sing PronType=Dem	2	obl	kaznovan	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	11
 študenti	študenti	študent	NOUN	Case=Nom Gender=Masc Number=Plur	3	nsubj	kaznovan	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	11
@@ -719,7 +719,7 @@ dela	dela	delo	NOUN	Case=Gen Gender=Neut Number=Sing	15	nmod	opravljanje	NOUN	Ca
 <g/>
 .	.	.	PUNCT	-	16	punct	kaznovan	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	11
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg12.4">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg12.4" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="3.29">
 Nadalje	Nadalje	nadalje	ADV	Degree=Pos	1	advmod	dvigniti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
 višina	višina	višina	NOUN	Case=Nom Gender=Fem Number=Sing	2	nsubj	dvigniti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
 subvencij	subvencij	subvencija	NOUN	Case=Gen Gender=Fem Number=Plur	3	nmod	višina	NOUN	Case=Nom Gender=Fem Number=Sing	2
@@ -733,7 +733,7 @@ evra	evra	evro	NOUN	Case=Gen Gender=Masc Number=Sing	10	obl	dvigniti	VERB	Aspect
 <g/>
 .	.	.	PUNCT	-	11	punct	dvigniti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg12.5">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg12.5" senti_3="Nevtralen" senti_6="nevtralno negativen" senti_n="1.75">
 Varčevalni	Varčevalni	varčevalen	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur	1	amod	ukrep	NOUN	Case=Nom Gender=Masc Number=Plur	2
 ukrepi	ukrepi	ukrep	NOUN	Case=Nom Gender=Masc Number=Plur	2	nsubj	veljati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	17
 <g/>
@@ -813,7 +813,7 @@ prehrana	prehrana	prehrana	NOUN	Case=Nom Gender=Fem Number=Sing	69	nsubj	nuden	A
 <g/>
 .	.	.	PUNCT	-	70	punct	veljati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	17
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg12.6">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg12.6" senti_3="Pozitiven" senti_6="mešano pozitiven" senti_n="3.64">
 Zakon	Zakon	zakon	NOUN	Case=Nom Gender=Masc Number=Sing	1	nsubj	podaljševati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 nadalje	nadalje	nadalje	ADV	Degree=Pos	2	advmod	podaljševati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 podaljšuje	podaljšuje	podaljševati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	root	-	-	-	-
@@ -840,7 +840,7 @@ pravice	pravice	pravica	NOUN	Case=Gen Gender=Fem Number=Sing	23	nmod	koriščenj
 <g/>
 .	.	.	PUNCT	-	24	punct	podaljševati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg12.7">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg12.7" senti_3="Pozitiven" senti_6="mešano pozitiven" senti_n="4.33">
 Nadalje	Nadalje	nadalje	ADV	Degree=Pos	1	advmod	dvigovati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 dviguje	dviguje	dvigovati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 se	se	se	PRON	PronType=Prs Reflex=Yes Variant=Short	3	expl	dvigovati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
@@ -875,7 +875,7 @@ do	do	do	ADP	Case=Gen	28	case	študij	NOUN	Case=Gen Gender=Masc Number=Sing	29
 <g/>
 .	.	.	PUNCT	-	30	punct	dvigovati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg12.8">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg12.8" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="3.32">
 Uvaja	Uvaja	uvajati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 se	se	se	PRON	PronType=Prs Reflex=Yes Variant=Short	2	expl	uvajati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 t.	t.	t.	X	Abbr=Yes	3	amod	sedaj	ADV	Degree=Pos	22
@@ -905,7 +905,7 @@ sedaj	sedaj	sedaj	ADV	Degree=Pos	22	advmod	biti	VERB	Mood=Ind Number=Plur Person
 </p>
 <note type="kinesic:signal" content="znak za konec razprave"/>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg13" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg13.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg13.1" senti_3="Negativen" senti_6="negativen" senti_n="0.44">
 nesorazmerno	nesorazmerno	nesorazmerno	ADV	Degree=Pos	1	advmod	bremeniti	VERB	Aspect=Imp Gender=Masc Number=Plur VerbForm=Part	2
 bremenili	bremenili	bremeniti	VERB	Aspect=Imp Gender=Masc Number=Plur VerbForm=Part	2	root	-	-	-	-
 prav	prav	prav	PART	-	3	advmod	študent	NOUN	Case=Acc Gender=Masc Number=Plur	4
@@ -913,7 +913,7 @@ prav	prav	prav	PART	-	3	advmod	študent	NOUN	Case=Acc Gender=Masc Number=Plur	4
 <g/>
 .	.	.	PUNCT	-	5	punct	bremeniti	VERB	Aspect=Imp Gender=Masc Number=Plur VerbForm=Part	2
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg13.2">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg13.2" senti_3="Negativen" senti_6="negativen" senti_n="0.35">
 Ti	Ti	ta	DET	Case=Nom Gender=Masc Number=Plur PronType=Dem	1	det	strošek	NOUN	Case=Nom Gender=Masc Number=Plur	2
 stroški	stroški	strošek	NOUN	Case=Nom Gender=Masc Number=Plur	2	nsubj	rasti	VERB	Aspect=Imp Gender=Masc Number=Plur VerbForm=Part	4
 so	so	biti	AUX	Mood=Ind Number=Plur Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	3	aux	rasti	VERB	Aspect=Imp Gender=Masc Number=Plur VerbForm=Part	4
@@ -923,7 +923,7 @@ praktično	praktično	praktično	ADV	Degree=Pos	6	advmod	rasti	VERB	Aspect=Imp G
 <g/>
 .	.	.	PUNCT	-	7	punct	rasti	VERB	Aspect=Imp Gender=Masc Number=Plur VerbForm=Part	4
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg13.3">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg13.3" senti_3="Pozitiven" senti_6="mešano pozitiven" senti_n="3.74">
 Nadalje	Nadalje	nadalje	ADV	Degree=Pos	1	advmod	naslavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 se	se	se	PRON	PronType=Prs Reflex=Yes Variant=Short	2	expl	naslavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 celoviteje	celoviteje	celovito	ADV	Degree=Cmp	3	advmod	naslavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
@@ -945,7 +945,7 @@ obravnava	obravnava	obravnava	NOUN	Case=Nom Gender=Fem Number=Sing	16	nsubj	zago
 </s>
 </p>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg14" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg14.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg14.1" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="2.97">
 Skratka	Skratka	skratka	ADV	Degree=Pos	1	advmod	veliko	DET	PronType=Ind	2
 veliko	veliko	veliko	DET	PronType=Ind	2	advmod	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	3
 je	je	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	3	root	-	-	-	-
@@ -962,7 +962,7 @@ zakon	zakon	zakon	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	12	obj	potr
 <g/>
 .	.	.	PUNCT	-	13	punct	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	3
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg14.2">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg14.2" senti_3="Negativen" senti_6="mešano negativen" senti_n="1.49">
 Imamo	Imamo	imeti	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 pa	pa	pa	CCONJ	-	2	advmod	imeti	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	1
 situacijo	situacijo	situacija	NOUN	Case=Acc Gender=Fem Number=Sing	3	obj	imeti	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	1
@@ -981,7 +981,7 @@ danes	danes	danes	ADV	Degree=Pos	12	advmod	biti	VERB	Mood=Ind Number=Sing Person
 </p>
 <note type="kinesic:signal" content="znak za konec razprave"/>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg15" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg15.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg15.1" senti_3="Negativen" senti_6="mešano negativen" senti_n="1.11">
 tega	tega	ta	DET	Case=Gen Gender=Masc Number=Sing PronType=Dem	1	det	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	2
 zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	2	obj	podpreti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	17
 <g/>
@@ -1004,7 +1004,7 @@ podprli	podprli	podpreti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	
 <g/>
 .	.	.	PUNCT	-	18	punct	podpreti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	17
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg15.2">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg15.2" senti_3="Pozitiven" senti_6="pozitiven" senti_n="4.57">
 Spoštovane	Spoštovane	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	1	amod	kolega	NOUN	Case=Nom Gender=Masc Number=Plur	2
 kolegi	kolegi	kolega	NOUN	Case=Nom Gender=Masc Number=Plur	2	nsubj	verjeti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	6
 in	in	in	CCONJ	-	3	cc	kolega	NOUN	Case=Nom Gender=Masc Number=Plur	4
@@ -1039,7 +1039,7 @@ glasovanju	glasovanju	glasovanje	NOUN	Case=Loc Gender=Neut Number=Sing	26	obl	po
 </s>
 </p>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg16" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg16.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg16.1" senti_3="Pozitiven" senti_6="mešano pozitiven" senti_n="4.08">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 lepa	lepa	lep	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	2	amod	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1
 <g/>
@@ -1048,9 +1048,9 @@ lepa	lepa	lep	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	2	amod	hvala	NOUN	C
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u229" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="COVID,Vojna" lang="slovenski" body="Spodnji dom" term="8. mandat" session="-" meeting="Izredna" sitting="-" agenda="-" date="2022-04-06" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 8. mandat, 99. izredna seja (6. 4. 2022)" speaker_role="Navadni" speaker_id="SiterPrimož" speaker_name="Siter, Primož" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Levica" speaker_party_name="Levica" party_status="Opposition" party_orientation="Leva" speaker_gender="M" speaker_birth="1979">
+<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u229" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="COVID,Vojna" lang="slovenski" body="Spodnji dom" term="8. mandat" session="-" meeting="Izredna" sitting="-" agenda="-" date="2022-04-06" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 8. mandat, 99. izredna seja (6. 4. 2022)" speaker_role="Navadni" senti_3="Negativen" senti_6="mešano negativen" senti_n="0.96" speaker_id="SiterPrimož" speaker_name="Siter, Primož" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Levica" speaker_party_name="Levica" party_status="Opposition" party_orientation="Leva" speaker_gender="M" speaker_birth="1979">
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg955" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg955.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg955.1" senti_3="Pozitiven" senti_6="mešano pozitiven" senti_n="4.08">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 lepa	lepa	lep	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	2	amod	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1
 <g/>
@@ -1058,7 +1058,7 @@ lepa	lepa	lep	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	2	amod	hvala	NOUN	C
 </s>
 </p>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg956" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg956.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg956.1" senti_3="Pozitiven" senti_6="mešano pozitiven" senti_n="4.18">
 Saj	Saj	saj	CCONJ	-	1	cc	razumeti	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	4
 <g/>
 ,	,	,	PUNCT	-	2	punct	saj	CCONJ	-	1
@@ -1137,7 +1137,7 @@ ravneh	ravneh	raven	NOUN	Case=Loc Gender=Fem Number=Dual	63	obl	škodljiv	ADJ	Ca
 <g/>
 .	.	.	PUNCT	-	64	punct	razumeti	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	4
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg956.2">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg956.2" senti_3="Negativen" senti_6="negativen" senti_n="0.21">
 Eno	Eno	en	NUM	Case=Nom Gender=Neut Number=Sing NumForm=Word NumType=Card	1	nsubj	pridobivanje	NOUN	Case=Nom Gender=Neut Number=Sing	28
 <g/>
 ,	,	,	PUNCT	-	2	punct	izpustiti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
@@ -1229,7 +1229,7 @@ naprej	naprej	naprej	ADV	Degree=Pos	75	conj	naprej	ADV	Degree=Pos	72
 </s>
 </p>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg957" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg957.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg957.1" senti_3="Nevtralen" senti_6="nevtralno negativen" senti_n="1.94">
 Mislim	Mislim	misliti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	punct	primer	NOUN	Case=Nom Gender=Masc Number=Sing	7
@@ -1323,7 +1323,7 @@ mesti	mesti	mesto	NOUN	Case=Ins Gender=Neut Number=Plur	72	conj	človek	NOUN	Cas
 </p>
 <note type="kinesic:signal" content="znak za konec razprave"/>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg958" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg958.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg958.1" senti_3="Nevtralen" senti_6="nevtralno negativen" senti_n="1.83">
 z	z	z	ADP	Case=Ins	1	case	položaj	NOUN	Case=Ins Gender=Masc Number=Sing	4
 njihovim	njihovim	njihov	DET	Case=Ins Gender=Masc Number=Sing Number[psor]=Plur Person=3 Poss=Yes PronType=Prs	2	det	položaj	NOUN	Case=Ins Gender=Masc Number=Sing	4
 socialnim	socialnim	socialen	ADJ	Case=Ins Degree=Pos Gender=Masc Number=Sing	3	amod	položaj	NOUN	Case=Ins Gender=Masc Number=Sing	4
@@ -1331,7 +1331,7 @@ položajem	položajem	položaj	NOUN	Case=Ins Gender=Masc Number=Sing	4	root	-	-	
 <g/>
 ?	?	?	PUNCT	-	5	punct	položaj	NOUN	Case=Ins Gender=Masc Number=Sing	4
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg958.2">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg958.2" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="2.53">
 In	In	in	CCONJ	-	1	cc	ta	DET	Case=Nom Gender=Fem Number=Sing PronType=Dem	4
 to	to	ta	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	2	nsubj	ta	DET	Case=Nom Gender=Fem Number=Sing PronType=Dem	4
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	3	cop	ta	DET	Case=Nom Gender=Fem Number=Sing PronType=Dem	4
@@ -1380,7 +1380,7 @@ svetu	svetu	svet	NOUN	Case=Loc Gender=Masc Number=Sing	31	conj	Slovenija	PROPN	C
 </s>
 </p>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg959" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg959.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg959.1" senti_3="Pozitiven" senti_6="mešano pozitiven" senti_n="4.08">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 lepa	lepa	lep	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	2	amod	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1
 <g/>
@@ -1389,9 +1389,9 @@ lepa	lepa	lep	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	2	amod	hvala	NOUN	C
 </p>
 </speech>
 <note type="speaker" content="PREDSEDNIK IGOR ZORČIČ:"/>
-<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u230" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="COVID,Vojna" lang="slovenski" body="Spodnji dom" term="8. mandat" session="-" meeting="Izredna" sitting="-" agenda="-" date="2022-04-06" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 8. mandat, 99. izredna seja (6. 4. 2022)" speaker_role="Predsedujoči" speaker_id="ZorčičIgor" speaker_name="Zorčič, Igor" speaker_mp="MP" speaker_minister="notMinister" speaker_party="NP" speaker_party_name="Poslanska skupina nepovezanih poslancev" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1978">
+<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u230" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="COVID,Vojna" lang="slovenski" body="Spodnji dom" term="8. mandat" session="-" meeting="Izredna" sitting="-" agenda="-" date="2022-04-06" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 8. mandat, 99. izredna seja (6. 4. 2022)" speaker_role="Predsedujoči" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="3" speaker_id="ZorčičIgor" speaker_name="Zorčič, Igor" speaker_mp="MP" speaker_minister="notMinister" speaker_party="NP" speaker_party_name="Poslanska skupina nepovezanih poslancev" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1978">
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg960" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg960.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg960.1" senti_3="Pozitiven" senti_6="mešano pozitiven" senti_n="4.08">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 lepa	lepa	lep	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	2	amod	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1
 <g/>
@@ -1399,12 +1399,12 @@ lepa	lepa	lep	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	2	amod	hvala	NOUN	C
 </s>
 </p>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg961" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg961.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg961.1" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="3.32">
 Glasujemo	Glasujemo	glasovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	glasovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg961.2">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg961.2" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="3.45">
 Navzočih	Navzočih	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1	root	-	-	-	-
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	2	cop	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
 61	61	61	NUM	NumForm=Digit NumType=Card	3	nummod	poslanka	NOUN	Case=Gen Gender=Fem Number=Plur	4
@@ -1424,7 +1424,7 @@ nihče	nihče	nihče	PRON	Case=Nom Gender=Masc Number=Sing PronType=Neg	13	nmod	
 <note type="vote-ayes" content="Za je glasovalo 54."/>
 <note type="vote-noes" content="Proti nihče."/>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg963" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg963.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg963.1" senti_3="Pozitiven" senti_6="mešano pozitiven" senti_n="3.95">
 Ugotavljam	Ugotavljam	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	punct	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
@@ -1437,7 +1437,7 @@ sprejet	sprejet	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=
 </s>
 </p>
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg964" lang="slovenski">
-<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg964.1">
+<s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg964.1" senti_3="Nevtralen" senti_6="nevtralno pozitiven" senti_n="3.06">
 S	S	z	ADP	Case=Ins	1	case	ta	DET	Case=Ins Gender=Neut Number=Sing PronType=Dem	2
 tem	tem	ta	DET	Case=Ins Gender=Neut Number=Sing PronType=Dem	2	obl	zaključevati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 zaključujem	zaključujem	zaključevati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3	root	-	-	-	-

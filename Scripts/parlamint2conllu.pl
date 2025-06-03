@@ -24,7 +24,6 @@ use File::Spec;
 $inDir = File::Spec->rel2abs(shift);
 $outDir = File::Spec->rel2abs(shift);
 
-#$Para  = 'parallel --gnu --halt 2 --jobs 10';
 $Saxon   = "java -jar $Bin/bin/saxon.jar";
 $Convert = "$Bin/parlamint2conllu.xsl";
 $scriptValid = "$Bin/bin/tools/validate.py";
@@ -48,6 +47,7 @@ $country2lang{'GB'} = 'en';
 $country2lang{'GR'} = 'el';
 $country2lang{'HR'} = 'hr';
 $country2lang{'HU'} = 'hu';
+$country2lang{'IL'} = 'he';
 $country2lang{'IS'} = 'is';
 $country2lang{'IT'} = 'it';
 $country2lang{'LT'} = 'lt';

@@ -20,6 +20,7 @@
      Changes to component files:
      - add meeting reference to corpus specific parliamentary body of the meeting, if missing
      - change #parla.meeting.unregistered to #parla.meeting (IS)
+     - change badly formed title (RS)
      - change div/@type for divs without utterances
      - remove empty utterances, segments, notes
      - assign IDs to segments without them
@@ -73,6 +74,10 @@
     </xsl:if>
   </xsl:param>
   
+  <!-- parameters for partial processing, root file is processed after processing the last component file -->
+  <xsl:param name="chunkStart">0</xsl:param>
+  <xsl:param name="chunkSize">0</xsl:param> <!-- 0 means process all -->
+  
   <xsl:output method="xml" indent="yes"/>
   <xsl:preserve-space elements="catDesc seg"/>
 
@@ -103,6 +108,7 @@
 	    <xsl:otherwise>component</xsl:otherwise>
 	  </xsl:choose>
 	</xsl:attribute>
+      <xsl:attribute name="position" select="position()"/>
         <xi-orig>
           <xsl:value-of select="@href"/>
         </xi-orig>
@@ -126,13 +132,27 @@
       </item>
       </xsl:for-each>
   </xsl:variable>
-  
+
+  <!-- docs to process in chunk -->
+  <xsl:variable name="docsChunk">
+    <xsl:copy-of select="$docs//tei:item[xs:integer(@position) gt xs:integer($chunkStart) and (xs:integer(@position) le $chunkStart + $chunkSize or $chunkSize = 0)]"/>  
+  </xsl:variable> 
+
   <xsl:template match="/">
     <xsl:message select="concat('INFO Starting to process ', tei:teiCorpus/@xml:id)"/>
+    <xsl:message>
+      <xsl:text>INFO Starting to process component files</xsl:text>
+      <xsl:if test="xs:integer($chunkSize) = 0 or xs:integer($chunkStart) gt 0">
+        <xsl:text> from </xsl:text>
+        <xsl:value-of select="$docsChunk//tei:item[1]/@position"/>
+        <xsl:text> to </xsl:text>
+        <xsl:value-of select="$docsChunk//tei:item[last()]/@position"/> 
+      </xsl:if>
+    </xsl:message>
     <!-- Process component files -->
-    <xsl:for-each select="$docs//tei:item">
+    <xsl:for-each select="$docsChunk//tei:item">
       <xsl:variable name="this" select="tei:xi-orig"/>
-      <xsl:message select="concat('INFO Processing ', $this)"/>
+      <xsl:message select="concat('INFO Processing [',@position,'] ', $this)"/>
       <xsl:result-document href="{tei:url-new}">
 	<xsl:choose>
 	  <!-- Process factorised parts of corpus root teiHeader as if they were root -->
@@ -146,11 +166,14 @@
 	</xsl:choose>
       </xsl:result-document>
     </xsl:for-each>
-    <!-- Output Root file -->
-    <xsl:message select="concat('INFO processing root ', tei:teiCorpus/@xml:id)"/>
-    <xsl:result-document href="{$outRoot}">
-      <xsl:apply-templates mode="root"/>
-    </xsl:result-document>
+    <xsl:if test="$docsChunk//tei:item[last()]/@position = count($docs//tei:item)">
+      <xsl:text>STATUS: Processed last chunk</xsl:text> <!-- Do not change this message !!! -->
+      <!-- Output Root file -->
+      <xsl:message select="concat('INFO processing root ', tei:teiCorpus/@xml:id)"/>
+      <xsl:result-document href="{$outRoot}">
+        <xsl:apply-templates mode="root"/>
+      </xsl:result-document>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="* | @*">
@@ -449,23 +472,23 @@
         <xsl:copy-of select="$aff"/>
       </xsl:when>
       <xsl:when test="$extend/tei:extend">
-<!--
+        <!--
         <xsl:message>TODO EXTEND</xsl:message>
         <xsl:comment>TODO: check for duplicity</xsl:comment>
 
-<xsl:message>CANDIDATES:<xsl:copy-of select="$extend-candidates"/></xsl:message>
+        <xsl:message>CANDIDATES:<xsl:copy-of select="$extend-candidates"/></xsl:message>
 
-<xsl:message>MERGE THIS:</xsl:message>
-<xsl:message>AFFILIATION:<xsl:copy-of select="$aff"/></xsl:message>
-<xsl:message>EXTEND:<xsl:copy-of select="$extend"/></xsl:message>
--->
+        <xsl:message>MERGE THIS:</xsl:message>
+        <xsl:message>AFFILIATION:<xsl:copy-of select="$aff"/></xsl:message>
+        <xsl:message>EXTEND:<xsl:copy-of select="$extend"/></xsl:message>
+        -->
         <xsl:variable name="aff-merged">
           <xsl:apply-templates select="$aff" mode="affiliation-merge">
             <xsl:with-param name="extend" select="$extend/tei:extend/*"/>
           </xsl:apply-templates>
         </xsl:variable>
         <!--
-<xsl:message>MERGED===:<xsl:copy-of select="$aff-merged"/></xsl:message>
+            <xsl:message>MERGED===:<xsl:copy-of select="$aff-merged"/></xsl:message>
        -->
         <xsl:apply-templates select="$aff-merged" mode="affiliation-extend">
           <xsl:with-param name="position" select="$position"/>
@@ -576,14 +599,6 @@
     <xsl:copy/>
   </xsl:template>
 
-  <!-- Used only by FI, but even here bugs in such linkage, so, remove -->
-  <xsl:template mode="comp" match="tei:u/@prev">
-    <xsl:message select="concat('WARN: removing u/@prev from ', ../@xml:id)"/>
-  </xsl:template>
-  <xsl:template mode="comp" match="tei:u/@next">
-    <xsl:message select="concat('WARN: removing u/@next from ', ../@xml:id)"/>
-  </xsl:template>
-
   <!-- Set correct ID of component -->
   <xsl:template mode="comp" match="tei:TEI/@xml:id">
     <xsl:variable name="id" select="replace(base-uri(), '^.*?([^/]+)\.xml$', '$1')"/>
@@ -596,10 +611,30 @@
   <xsl:template mode="comp" match="text()">
     <xsl:apply-templates mode="root" select="."/>
   </xsl:template>
+
+  <xsl:template mode="comp" match="tei:titleStmt/tei:title[@type = 'main']">
+    <xsl:copy>
+      <xsl:apply-templates mode="comp" select="@*"/>
+      <xsl:variable name="stamp" select="concat('ParlaMint-', $country-code)"/>
+      <xsl:choose>
+        <!-- Error in RS main title: "Srpski parlamentarni korpus ParlaMint-RS-T8, Zasedanje 4 [ParlaMint.ana]" -->
+        <xsl:when test="starts-with($country-code, 'RS') and matches(., concat($stamp, '-T\d+'))">
+          <xsl:variable name="term" select="replace(., concat('.*', $stamp, '-(T\d+),.+'), '$1')"/>
+          <xsl:variable name="title" select="replace(
+                                             replace(., concat($stamp, '-', $term), $stamp),
+                                             '(, .+?) ', concat('$1', ' ', $term, ' '))"/>
+          <xsl:message select="concat('WARN: changing title ', ., ' to ', $title)"/>
+          <xsl:value-of select="$title"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates mode="comp"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:copy>
+  </xsl:template>
   
   <!-- Some specific corpora are missing reference to the parliamentary body of the meeting, add it -->
   <!-- Note that add-common-content takes care of this too in a more general setting -->
-
   <xsl:template mode="comp" match="tei:meeting">
     <!-- GB, need to fix:
          <meeting corresp="#parliament.HC" ana="#parla.meeting.regular"/>
@@ -691,6 +726,14 @@
     </xsl:choose>
   </xsl:template>
   
+  <!-- Used only by FI, but even here bugs in such linkage, so, remove -->
+  <xsl:template mode="comp" match="tei:u/@prev">
+    <xsl:message select="concat('WARN: removing u/@prev from ', ../@xml:id)"/>
+  </xsl:template>
+  <xsl:template mode="comp" match="tei:u/@next">
+    <xsl:message select="concat('WARN: removing u/@next from ', ../@xml:id)"/>
+  </xsl:template>
+
   <!-- Remove @who for anonymous speakers -->
   <xsl:template mode="comp" match="tei:u/@who[. = '#Anonymous' or . = '#anonymous' or . = '#unknown']">
     <xsl:message select="concat('WARN ', /tei:*/@xml:id,
@@ -727,13 +770,14 @@
                          parent::tei:*/local-name(),'/',local-name(),
                          ' &quot;',$textIn,'&quot;')"/>
     </xsl:if-->
-    <xsl:if test="not(normalize-space( replace($textOut, '[^\p{Lu}\p{Lt}\p{Ll}0-9]',' ')))
+    <!-- Do not warn about punct only notes, as there are too many such warnings and they can't be fixed: -->
+    <!--xsl:if test="not(normalize-space( replace($textOut, '[^\p{Lu}\p{Lt}\p{Ll}0-9]',' ')))
                  and not($allowedNotes[. = normalize-space($textOut)])">
       <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
                          ': ',
                          parent::tei:*/local-name(),'/',local-name(),
                          ' in ',ancestor-or-self::tei:*[@xml:id][1]/@xml:id,' has strange content &quot;',$textIn,'&quot;')"/>
-    </xsl:if>
+    </xsl:if-->
 
     <xsl:copy>
       <xsl:apply-templates mode="root" select="@*"/>
@@ -839,6 +883,10 @@
   <xsl:template mode="comp" match="tei:s[not(.//tei:w or .//tei:pc)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
                          ': removing sentence without tokens for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+    <!-- If sentence contains notes or similar, keep these but not link group -->
+    <xsl:if test="tei:*">
+      <xsl:apply-templates mode="comp" select="tei:*[not(self::tei:linkGrp)]"/>
+    </xsl:if>
   </xsl:template>
   
   <!-- Bug where a name contains no words, but only punctuation or a transcriber comment: remove <name> tag -->
@@ -860,6 +908,15 @@
 	  <xsl:apply-templates mode="comp" select="@*[name() != 'lemma']"/>
 	  <xsl:apply-templates mode="comp"/>
 	</pc>
+      </xsl:when>
+      <!-- IL has wrongly annotated punctations as a symbol-->
+      <xsl:when test="@lemma='' and @msd = 'UPosTag=SYM' ">
+        <xsl:message select="concat('WARN: changing symbol(UPosTag=SYM) ', ., ' to punctuation for ', @xml:id)"/>
+	<pc>
+          <xsl:attribute name="msd">UPosTag=PUNCT</xsl:attribute>
+	        <xsl:apply-templates mode="comp" select="@*[name() != 'lemma' and name() != 'pos' and name() != 'msd']"/>
+	        <xsl:apply-templates mode="comp"/>
+	      </pc>
       </xsl:when>
       <!-- Bug where syntactic word contains just one word: remove outer word and preserve annotations -->
       <xsl:when test="tei:w[tei:w] and not(tei:w[tei:*[2]])">

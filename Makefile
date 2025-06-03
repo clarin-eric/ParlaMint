@@ -1,8 +1,12 @@
 .DEFAULT_GOAL := help
 
 ##$PARLIAMENTS: Space separated list of country codes
-#Parliaments for V4.1
-PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT SE SI TR BA RS UA IL
+
+#Special case
+#PARLIAMENTS = IL
+
+#Parliaments for V5.0
+PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT SE SI TR BA RS UA
 
 ##$JAVA-MEMORY## Set a java memory maxsize in GB
 JAVA-MEMORY =
@@ -14,7 +18,7 @@ leftBRACKET := (
 rightBRACKET := )
 LANG-CODE-LIST := $(shell echo "$(LANG-LIST)" | sed "s/$(leftBRACKET)[^$(rightBRACKET)]*$(rightBRACKET),*/ /g" | tr -s " " | sed 's/ $$//' )
 
-TAXONOMIES-TRANSLATE-INTERF = NER.ana parla.legislature politicalOrientation speaker_types subcorpus
+TAXONOMIES-TRANSLATE-INTERF = NER.ana sentiment.ana parla.legislature politicalOrientation speaker_types subcorpus topic
 TAXONOMIES-TRANSLATE = $(addprefix ParlaMint-taxonomy-, $(TAXONOMIES-TRANSLATE-INTERF))
 
 TAXONOMIES-COPY-INTERF = UD-SYN.ana CHES
@@ -356,7 +360,7 @@ text: $(text-XX)
 $(text-XX): text-%: %
 	rm -f `ls ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.txt |  grep -v '.ana.'`
 	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}.txt'
+	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{.}.txt'
 
 text.ana-XX = $(addprefix text.ana-, $(PARLIAMENTS))
 ## text.ana ## create text version from TEI.ana files
@@ -365,7 +369,7 @@ text.ana: $(text.ana-XX)
 $(text.ana-XX): text.ana-%: %
 	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.ana.txt
 	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-$<_*.xml" | grep '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}.txt'
+	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{.}.txt'
 
 
 
@@ -377,7 +381,7 @@ $(meta-XX): meta-%: %
 	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*-meta.tsv
 	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-*_*.xml" | grep -v '.ana.' | $P --jobs 10 \
 	'$s meta=../${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}-meta.tsv'
+	{} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{.}-meta.tsv'
 
 
 
@@ -495,22 +499,27 @@ $(composite-teiHeader-INPLACE-XX): composite-teiHeader-INPLACE-%: % composite-te
 text.seg-XX = $(addprefix text.seg-, $(PARLIAMENTS))
 ## text.seg ## create text version from TEI files - each line contains one segment
 text.seg: $(text.seg-XX)
-## text-XX ## convert TEI files to text
+## text.seg-XX ## convert TEI files to text
 $(text.seg-XX): text.seg-%: %
-	mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg
-	rm -f `ls ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/ParlaMint-$<_*.seg.txt |  grep -v '.ana.'`
-	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl element=seg {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/{/.}.txt'
+	@mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg
+	@rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/ParlaMint-$<_*.seg.txt
+	@find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl element=seg {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/{/.}.seg.txt'
+	@echo "INFO: segments converted to text are stored in ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg"
 
 text.seg.ana-XX = $(addprefix text.seg.ana-, $(PARLIAMENTS))
-## text.seg ## create text version from TEI.ana files - each line contains one segment
+## text.seg.ana ## create text version from TEI.ana files - each line contains one segment
 text.seg.ana: $(text.seg.ana-XX)
-## text.seg.ana-XX ## convert TEI.seg.ana files to text
+## text.seg.ana-XX ## convert TEI.ana files to text
 $(text.seg.ana-XX): text.seg.ana-%: %
-	mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg
-	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/ParlaMint-$<_*.seg.ana.txt
-	find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-$<_*.xml" | grep '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl element=seg {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/{/.}.txt'
+	@mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg.ana
+	@rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg.ana/ParlaMint-$<_*.seg.txt
+	@find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -maxdepth 2 -type f -name "ParlaMint-$<_*.xml" | grep '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl element=seg {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg.ana/{/.}'
+	@find -H ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg.ana -type f | $P  'mv {} {.}.seg.txt'
+	@echo "INFO: annotated segments converted to text are stored in ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg.ana"
+
+
 
 
 ######---------------
@@ -560,11 +569,15 @@ distro-make-all-XX = $(addprefix distro-make-all-, $(PARLIAMENTS))
 distro-make-all: $(distro-make-all-XX)
 $(distro-make-all-XX): distro-make-all-%: Scripts/slurm_run_make-all.sh
 	CORPSIZE=$$(du -s --apparent-size Build/Sources-TEI/ParlaMint-$*.TEI.ana/|cut  -f1); \
-	MEMEXP=$$(echo "$$CORPSIZE*2.5/1000000+55" | bc ); \
-	MEMREQ=$$( [ "$$MEMEXP" -lt "30" ] && echo -n 30 || echo -n $$MEMEXP ); \
-	CPUREQ=$$( [ "$$MEMREQ" -gt "250" ] && echo -n 14 || ( [ "$$MEMREQ" -gt "120" ]  && echo -n 30 || echo -n 24 )  ); \
-	echo "COMMAND: sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $*"; \
-	sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $*
+	CORPFILES=$$(find Build/Sources-TEI/ParlaMint-$*.TEI.ana/ -type f|wc -l); \
+	LARGESTFILE=$$(du -a --apparent-size Build/Sources-TEI/ParlaMint-$*.TEI.ana/ | grep 'xml$$' | sort -n -r | head -n 1 | cut -f1); \
+	CHUNKSIZEEXP=$$(echo "20000000 / $$LARGESTFILE" | bc ); \
+	CHUNKSIZEREQ=$$( [ "$$CHUNKSIZEEXP" -gt "1000" ] && echo -n 1000 || ( [ "$$CHUNKSIZEEXP" -lt "50" ]  && echo -n 50 || echo  "($$CHUNKSIZEEXP+99) / 100 *100 " | bc) ); \
+	MEMEXP=$$(echo "$$LARGESTFILE * $$CHUNKSIZEREQ*2.5/1000000+55" | bc ); \
+	MEMREQ=$$( [ "$$CORPFILES" -gt "2000" ] && echo -n 250 || echo -n $$MEMEXP ); \
+	CPUREQ=$$( [ "$$MEMREQ" -gt "250" ] && echo -n 14 || ( [ "$$MEMREQ" -gt "200" ]  && echo -n 60 || ([ "$$MEMREQ" -gt "120" ]  && echo -n 30 || echo -n 24 ) )  ); \
+	echo "COMMAND: sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $* $${MEMREQ} $${CHUNKSIZEREQ}"; \
+	sbatch --job-name=pm$*-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-all.sh $* $${MEMREQ} $${CHUNKSIZEREQ}
 
 
 
@@ -573,10 +586,10 @@ Scripts/slurm_run_make-all.sh:
 	echo "#SBATCH --chdir=Build/  ## first change directory and then all paths are relative to location" >> $@
 	echo '#SBATCH --output=Logs/%x.%j.log' >> $@
 	echo '#SBATCH --ntasks=1' >> $@
-	echo '#SBATCH --cpus-per-task=30' >> $@
-	echo '#SBATCH -p cpu-troja,cpu-ms' >> $@
-	echo '#SBATCH -q low' >> $@
-	echo '#SBATCH --mem=120G' >> $@
+	#echo '#SBATCH --cpus-per-task=30' >> $@
+	#echo '#SBATCH -p cpu-troja,cpu-ms' >> $@
+	#echo '#SBATCH -q low' >> $@
+	#echo '#SBATCH --mem=120G' >> $@
 	echo '' >> $@
 	echo 'set -e' >> $@
 	echo 'which parallel || ( echo "missing parallel ($$(hostname))" && exit 1 )' >> $@
@@ -585,8 +598,9 @@ Scripts/slurm_run_make-all.sh:
 	echo 'COMMIT=$$(git rev-parse --short HEAD)' >> $@
 	echo 'INSIZE=$$(du -s --apparent-size Sources-TEI/ParlaMint-$$CORP.TEI.ana/|cut  -f1)' >> $@
 	echo 'echo "$$SLURM_JOB_ID $$CORP"' >> $@
-	echo '# MEM=$$(echo -n "$$SLURM_MEM_PER_NODE/1000-1" | bc )' >> $@
-	echo 'CMD="make all CORPORA=$$CORP "' >> $@
+	echo 'MEM=$$2' >> $@
+	echo 'CHUNKSIZE=$$3' >> $@
+	echo 'CMD="make all CORPORA=$$CORP JAVA-MEMORY=$$MEM CHUNK-SIZE=$$CHUNKSIZE THREADS=$$SLURM_CPUS_ON_NODE"' >> $@
 	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\tSTARTED\t$$SLURM_JOB_ID\t$$(hostname)\tmem=$$SLURM_MEM_PER_NODE cpus=$$SLURM_CPUS_ON_NODE in_ana=$$(echo "$${INSIZE}/1000000"|bc)GB\t$$CMD" >> Logs/ParlaMint.slurm.log' >> $@
 	echo 'RES=$$(/usr/bin/time --output=Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp -f "%x\t%E real, %U user, %S sys, %M kB" $$CMD)' >> $@
 	echo 'TIME=$$(cut -f 2 Logs/ParlaMint.slurm.$$SLURM_JOB_ID.tmp)' >> $@
@@ -607,21 +621,24 @@ distro-make-mt-all-XX = $(addprefix distro-make-mt-all-, $(PARLIAMENTS))
 distro-make-mt-all: $(distro-make-mt-all-XX)
 $(distro-make-mt-all-XX): distro-make-mt-all-%: Scripts/slurm_run_make-mt-all.sh
 	CORPSIZE=$$(du -s --apparent-size Build/Sources-TEI/ParlaMint-$*.TEI.ana/|cut  -f1); \
-	MEMEXP=$$(echo "$$CORPSIZE*2/1000000+70" | bc ); \
+	LARGESTFILE=$$(du -a --apparent-size Build/Sources-TEI/ParlaMint-$*.TEI.ana/ | grep 'xml$$' | sort -n -r | head -n 1 | cut -f1); \
+	CHUNKSIZEEXP=$$(echo "20000000 / $$LARGESTFILE" | bc ); \
+	CHUNKSIZEREQ=$$( [ "$$CHUNKSIZEEXP" -gt "1000" ] && echo -n 1000 || ( [ "$$CHUNKSIZEEXP" -lt "50" ]  && echo -n 50 || echo  "($$CHUNKSIZEEXP+99) / 100 *100 " | bc) ); \
+	MEMEXP=$$(echo "$$CHUNKSIZEREQ*2.5/1000000+55" | bc ); \
 	MEMREQ=$$( [ "$$MEMEXP" -lt "30" ] && echo -n 30 || echo -n $$MEMEXP ); \
 	CPUREQ=$$( [ "$$MEMREQ" -gt "250" ] && echo -n 14 || ( [ "$$MEMREQ" -gt "120" ]  && echo -n 30 || echo -n 24 )  ); \
-	echo "COMMAND: sbatch --job-name=pm$*-en-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-mt-all.sh $*"; \
-	sbatch --job-name=pm$*-en-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-mt-all.sh $*
+	echo "COMMAND: sbatch --job-name=pm$*-en-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-mt-all.sh $* $${MEMREQ} $${CHUNKSIZEREQ}"; \
+	sbatch --job-name=pm$*-en-distro --mem=$${MEMREQ}G --cpus-per-task=$$CPUREQ Scripts/slurm_run_make-mt-all.sh $* $${MEMREQ} $${CHUNKSIZEREQ}
 
 Scripts/slurm_run_make-mt-all.sh:
 	echo '#!/bin/bash' > $@
 	echo "#SBATCH --chdir=Build/  ## first change directory and then all paths are relative to location" >> $@
 	echo '#SBATCH --output=Logs/%x.%j.log' >> $@
 	echo '#SBATCH --ntasks=1' >> $@
-	echo '#SBATCH --cpus-per-task=30' >> $@
-	echo '#SBATCH -p cpu-troja,cpu-ms' >> $@
-	echo '#SBATCH -q low' >> $@
-	echo '#SBATCH --mem=120G' >> $@
+	#echo '#SBATCH --cpus-per-task=30' >> $@
+	#echo '#SBATCH -p cpu-troja,cpu-ms' >> $@
+	#echo '#SBATCH -q low' >> $@
+	#echo '#SBATCH --mem=120G' >> $@
 	echo '' >> $@
 	echo 'set -e' >> $@
 	echo 'which parallel || ( echo "missing parallel ($$(hostname))" && exit 1 )' >> $@
@@ -630,8 +647,9 @@ Scripts/slurm_run_make-mt-all.sh:
 	echo 'COMMIT=$$(git rev-parse --short HEAD)' >> $@
 	echo 'INSIZE=$$(du -s --apparent-size Sources-TEI/ParlaMint-$$CORP.TEI.ana/|cut  -f1)' >> $@
 	echo 'echo "$$SLURM_JOB_ID $$CORP"' >> $@
-	echo '# MEM=$$(echo -n "$$SLURM_MEM_PER_NODE/1000-1" | bc )' >> $@
-	echo 'CMD="make mt-all CORPORA=$$CORP "' >> $@
+	echo 'MEM=$$2' >> $@
+	echo 'CHUNKSIZE=$$3' >> $@
+	echo 'CMD="make mt-all CORPORA=$$CORP JAVA-MEMORY=$$MEM CHUNK-SIZE=$$CHUNKSIZE  THREADS=$$SLURM_CPUS_ON_NODE"' >> $@
 	echo 'echo -e "$$(date +"%Y-%m-%dT%T")\t$$COMMIT\t$$CORP\tSTARTED\t$$SLURM_JOB_ID\t$$(hostname)\tmem=$$SLURM_MEM_PER_NODE cpus=$$SLURM_CPUS_ON_NODE in_ana=$$(echo "$${INSIZE}/1000000"|bc)GB\t$$CMD" >> Logs/ParlaMint-en.slurm.log' >> $@
 	echo 'RES=$$(/usr/bin/time --output=Logs/ParlaMint-en.slurm.$$SLURM_JOB_ID.tmp -f "%x\t%E real, %U user, %S sys, %M kB" $$CMD)' >> $@
 	echo 'TIME=$$(cut -f 2 Logs/ParlaMint-en.slurm.$$SLURM_JOB_ID.tmp)' >> $@
