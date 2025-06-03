@@ -230,7 +230,7 @@
     </xsl:if>
   </xsl:template>
     
-  <xsl:template match="tei:classDecl">
+  <xsl:template match="tei:teiCorpus//tei:classDecl">
     <xsl:if test="not(tei:taxonomy[tei:desc/tei:term = 'Legislature'])">
       <xsl:call-template name="error">
         <xsl:with-param name="msg">Missing 'Legislature' taxonomy</xsl:with-param>
@@ -273,7 +273,7 @@
   </xsl:template>
 
   <!-- Check if necessary prefixes are defined -->
-  <xsl:template match="tei:listPrefixDef">
+  <xsl:template match="tei:teiCorpus//tei:listPrefixDef">
     <!-- Check if Topics have their prefix defined -->
     <xsl:if test="not(tei:prefixDef[@ident = 'topic'])">
       <xsl:call-template name="error">
@@ -281,6 +281,12 @@
       </xsl:call-template>
     </xsl:if>
     <xsl:if test="$type = 'ana'">
+      <xsl:if test="not(tei:prefixDef[@ident = 'senti'])">
+        <!-- Check if sentiment classes have their prefix defined -->
+        <xsl:call-template name="error">
+          <xsl:with-param name="msg">Missing Sentiment prefixDef</xsl:with-param>
+        </xsl:call-template>
+      </xsl:if>
       <!-- Check if UD relations have their prefix defined; not relevant for MTed corpora -->
       <xsl:if test="not(tei:prefixDef[@ident = 'ud-syn'] or normalize-space($MT))">
         <xsl:call-template name="error">

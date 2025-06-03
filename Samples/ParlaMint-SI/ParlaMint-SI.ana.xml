@@ -15,26 +15,34 @@
             <meeting n="8" corresp="#DZ" ana="#parla.term #DZ.8 #parla.lower"/>
             <respStmt>
                <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
-               <persName ref="https://orcid.org/0000-0002-1560-4099 http://viaf.org/viaf/15145066459666591823">Tomaž Erjavec</persName>
-               <persName ref="https://orcid.org/0000-0001-6143-6877 http://viaf.org/viaf/305936424">Andrej Pančur</persName>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+               <persName ref="https://orcid.org/0000-0001-6143-6877">Andrej Pančur</persName>
                <resp xml:lang="sl">Kodiranje TEI</resp>
                <resp xml:lang="en">TEI corpus encoding</resp>
             </respStmt>
             <respStmt>
-               <persName ref="https://orcid.org/0000-0001-6143-6877 http://viaf.org/viaf/305936424">Andrej Pančur</persName>
-               <persName ref="http://viaf.org/viaf/86154440112735340300">Mihael Ojsteršek</persName>
+               <persName ref="https://orcid.org/0000-0001-6143-6877">Andrej Pančur</persName>
+               <persName ref="https://orcid.org/0009-0007-7233-2601">Mihael Ojsteršek</persName>
                <resp xml:lang="sl">Urejanje seznama govornikov</resp>
                <resp xml:lang="en">Editing a list of speakers</resp>
             </respStmt>
             <respStmt>
-               <persName ref="http://viaf.org/viaf/305748135">Nikola Ljubešić</persName>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
                <resp xml:lang="sl">Jezikoslovno označevanje</resp>
                <resp xml:lang="en">Linguistic annotation</resp>
             </respStmt>
             <respStmt>
-               <persName ref="http://viaf.org/viaf/15145066459666591823">Tomaž Erjavec</persName>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
                <resp xml:lang="sl">Popravki strukture TEI</resp>
                <resp xml:lang="en">TEI encoding corrections</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
             </respStmt>
             <funder>
                <orgName xml:lang="sl">Raziskovalna infrastruktura CLARIN</orgName>
@@ -50,7 +58,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="words" quantity="69921953" xml:lang="sl">69.921.953 besed</measure>
@@ -64,13 +72,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-01-04">2025-01-04</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -134,6 +142,7 @@
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-subcorpus.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-CHES.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-politicalOrientation.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-sentiment.ana.xml"/>
          </classDecl>
          <listPrefixDef>
             <prefixDef ident="mte" matchPattern="(.+)" replacementPattern="http://nl.ijs.si/ME/V6/msd/tables/msd-fslib-sl.xml#$1">
@@ -142,11 +151,18 @@
             <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
                <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
             </prefixDef>
+            <prefixDef ident="senti" matchPattern="(.+)" replacementPattern="#$1">
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the Sentiment taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
          </listPrefixDef>
          <appInfo>
             <application version="2.0" ident="classla-stanza">
                <label>CLASSLA-Stanza</label>
                <desc xml:lang="en">Linguistic processing with CLASSLA-Stanza, available from <ref target="https://github.com/clarinsi/classla">https://github.com/clarinsi/classla</ref>.</desc>
+            </application>
+            <application ident="Parla-Senti" version="1.0">
+               <label>...</label>
+               <desc>...</desc>
             </application>
          </appInfo>
       </encodingDesc>
@@ -173,14 +189,18 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-01-04">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-01-04">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2025-01-03">
+            <name>Tomaž Erjavec</name>: Include sentiment related data.</change>
          <change when="2024-05-14">parlamint2release script: Fix some identifiable erros for the release.</change>
          <change when="2023-01-11">
             <name>Katja Meden</name>: Made ana sample</change>
          <change when="2023-01-10">
             <name>Tomaž Erjavec</name>: Small fixes of ParlaMint data</change>
          <change when="2024-05-14">parlamint-add-common-content script: Adding common content.</change>
+         <change when="2025-01-04">parlamint-add-common-content script: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.xml"/>

@@ -126,6 +126,12 @@ test-text2:
 	../Scripts/parlamintp-tei2text.pl -jobs 2 -in ../Build/Distro/ParlaMint-SI -out ../Build/Distro/ParlaMint-SI
 test-valid1:
 	${FINALIZE} -valid -codes SI -in ${HERE}/Distro -out ${HERE}/Distro
+test-fix1:
+	$s anaDir=../Build/Distro/ParlaMint-RS outDir=Test -xsl:../Scripts/parlamint2release.xsl \
+	../Build/Distro/ParlaMint-RS/ParlaMint-RS.xml
+test-fix2:
+	$s anaDir=../Build/Distro/ParlaMint-AT outDir=Test -xsl:../Scripts/parlamint2release.xsl \
+	../Build/Distro/ParlaMint-AT/ParlaMint-AT.xml
 
 ### Fixes
 # Merge per-language translated CoNLL-Us (BE, ES-CT, ES-PV, UA) to joint CoNLL-U (with # lang info on newpar)

@@ -450,7 +450,7 @@
         <xsl:value-of select="et:tsv-value(replace($topics, '.$', ''))"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:message select="concat('ERROR: no speech topic found in taxonomy for ', $ana)"/>
+        <xsl:message select="concat('WARN: no topic found for speech in taxonomy for ', $ana)"/>
         <xsl:text>-</xsl:text>
       </xsl:otherwise>
     </xsl:choose>

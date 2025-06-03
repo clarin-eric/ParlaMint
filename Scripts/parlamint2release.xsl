@@ -20,6 +20,7 @@
      Changes to component files:
      - add meeting reference to corpus specific parliamentary body of the meeting, if missing
      - change #parla.meeting.unregistered to #parla.meeting (IS)
+     - change badly formed title (RS)
      - change div/@type for divs without utterances
      - remove empty utterances, segments, notes
      - assign IDs to segments without them
@@ -471,23 +472,23 @@
         <xsl:copy-of select="$aff"/>
       </xsl:when>
       <xsl:when test="$extend/tei:extend">
-<!--
+        <!--
         <xsl:message>TODO EXTEND</xsl:message>
         <xsl:comment>TODO: check for duplicity</xsl:comment>
 
-<xsl:message>CANDIDATES:<xsl:copy-of select="$extend-candidates"/></xsl:message>
+        <xsl:message>CANDIDATES:<xsl:copy-of select="$extend-candidates"/></xsl:message>
 
-<xsl:message>MERGE THIS:</xsl:message>
-<xsl:message>AFFILIATION:<xsl:copy-of select="$aff"/></xsl:message>
-<xsl:message>EXTEND:<xsl:copy-of select="$extend"/></xsl:message>
--->
+        <xsl:message>MERGE THIS:</xsl:message>
+        <xsl:message>AFFILIATION:<xsl:copy-of select="$aff"/></xsl:message>
+        <xsl:message>EXTEND:<xsl:copy-of select="$extend"/></xsl:message>
+        -->
         <xsl:variable name="aff-merged">
           <xsl:apply-templates select="$aff" mode="affiliation-merge">
             <xsl:with-param name="extend" select="$extend/tei:extend/*"/>
           </xsl:apply-templates>
         </xsl:variable>
         <!--
-<xsl:message>MERGED===:<xsl:copy-of select="$aff-merged"/></xsl:message>
+            <xsl:message>MERGED===:<xsl:copy-of select="$aff-merged"/></xsl:message>
        -->
         <xsl:apply-templates select="$aff-merged" mode="affiliation-extend">
           <xsl:with-param name="position" select="$position"/>
@@ -598,14 +599,6 @@
     <xsl:copy/>
   </xsl:template>
 
-  <!-- Used only by FI, but even here bugs in such linkage, so, remove -->
-  <xsl:template mode="comp" match="tei:u/@prev">
-    <xsl:message select="concat('WARN: removing u/@prev from ', ../@xml:id)"/>
-  </xsl:template>
-  <xsl:template mode="comp" match="tei:u/@next">
-    <xsl:message select="concat('WARN: removing u/@next from ', ../@xml:id)"/>
-  </xsl:template>
-
   <!-- Set correct ID of component -->
   <xsl:template mode="comp" match="tei:TEI/@xml:id">
     <xsl:variable name="id" select="replace(base-uri(), '^.*?([^/]+)\.xml$', '$1')"/>
@@ -618,10 +611,30 @@
   <xsl:template mode="comp" match="text()">
     <xsl:apply-templates mode="root" select="."/>
   </xsl:template>
+
+  <xsl:template mode="comp" match="tei:titleStmt/tei:title[@type = 'main']">
+    <xsl:copy>
+      <xsl:apply-templates mode="comp" select="@*"/>
+      <xsl:variable name="stamp" select="concat('ParlaMint-', $country-code)"/>
+      <xsl:choose>
+        <!-- Error in RS main title: "Srpski parlamentarni korpus ParlaMint-RS-T8, Zasedanje 4 [ParlaMint.ana]" -->
+        <xsl:when test="starts-with($country-code, 'RS') and matches(., concat($stamp, '-T\d+'))">
+          <xsl:variable name="term" select="replace(., concat('.*', $stamp, '-(T\d+),.+'), '$1')"/>
+          <xsl:variable name="title" select="replace(
+                                             replace(., concat($stamp, '-', $term), $stamp),
+                                             '(, .+?) ', concat('$1', ' ', $term, ' '))"/>
+          <xsl:message select="concat('WARN: changing title ', ., ' to ', $title)"/>
+          <xsl:value-of select="$title"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates mode="comp"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:copy>
+  </xsl:template>
   
   <!-- Some specific corpora are missing reference to the parliamentary body of the meeting, add it -->
   <!-- Note that add-common-content takes care of this too in a more general setting -->
-
   <xsl:template mode="comp" match="tei:meeting">
     <!-- GB, need to fix:
          <meeting corresp="#parliament.HC" ana="#parla.meeting.regular"/>
@@ -713,6 +726,14 @@
     </xsl:choose>
   </xsl:template>
   
+  <!-- Used only by FI, but even here bugs in such linkage, so, remove -->
+  <xsl:template mode="comp" match="tei:u/@prev">
+    <xsl:message select="concat('WARN: removing u/@prev from ', ../@xml:id)"/>
+  </xsl:template>
+  <xsl:template mode="comp" match="tei:u/@next">
+    <xsl:message select="concat('WARN: removing u/@next from ', ../@xml:id)"/>
+  </xsl:template>
+
   <!-- Remove @who for anonymous speakers -->
   <xsl:template mode="comp" match="tei:u/@who[. = '#Anonymous' or . = '#anonymous' or . = '#unknown']">
     <xsl:message select="concat('WARN ', /tei:*/@xml:id,
@@ -891,7 +912,7 @@
       <!-- IL has wrongly annotated punctations as a symbol-->
       <xsl:when test="@lemma='' and @msd = 'UPosTag=SYM' ">
         <xsl:message select="concat('WARN: changing symbol(UPosTag=SYM) ', ., ' to punctuation for ', @xml:id)"/>
-	      <pc>
+	<pc>
           <xsl:attribute name="msd">UPosTag=PUNCT</xsl:attribute>
 	        <xsl:apply-templates mode="comp" select="@*[name() != 'lemma' and name() != 'pos' and name() != 'msd']"/>
 	        <xsl:apply-templates mode="comp"/>
