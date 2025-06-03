@@ -3,18 +3,40 @@
 use warnings;
 use utf8;
 use open ':utf8';
+
+sub usage
+{
+    print STDERR ("Usage: parlamintp-tei2vert-xx.pl -jobs <Jobs> -in <InputDirectory> -out <OutputDirectory>\n");
+    print STDERR ("       Converts ParlaMint .ana files in the <InputDirectory> to\n");
+    print STDERR ("       .vert (vertical) files in the <OutputDirectory>\n");
+    print STDERR ("       using parallel <Jobs> in execution.\n");
+}
+
+use Getopt::Long;
 use FindBin qw($Bin);
 use File::Spec;
 use File::Temp qw/ tempfile tempdir /;  #creation of tmp files and directory
 my $tempdirroot = "$Bin/tmp";
 my $DIR = tempdir(DIR => $tempdirroot, CLEANUP => 1);
 
-$inDir = File::Spec->rel2abs(shift);
-$outDir = File::Spec->rel2abs(shift);
+GetOptions
+    (
+     'help'   => \$help,
+     'in=s'   => \$inDir,
+     'out=s'  => \$outDir,
+     'jobs=i' => \$procThreads,
+);
 
-binmode(STDERR, 'utf8');
+if ($help) {
+    &usage;
+    exit;
+}
 
-$Para  = 'parallel --gnu --halt 2 --jobs 10';
+$inDir = File::Spec->rel2abs($inDir) if $inDir;
+$outDir = File::Spec->rel2abs($outDir) if $outDir;
+$procThreads = 1 unless $procThreads;
+
+$Para  = "parallel --gnu --halt 0 --jobs $procThreads";
 $Saxon   = "java -jar $Bin/bin/saxon.jar";
 
 $TEI2VERT  = "$Bin/parlamint2xmlvert.xsl";

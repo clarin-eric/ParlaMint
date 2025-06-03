@@ -6,7 +6,7 @@
 
 ### COMPLETE SET OF CORPORA
 #CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-CORPORA=SI
+CORPORA=AT
 # Used in targets that run only for one corpus
 CORPUS=
 
@@ -27,6 +27,11 @@ VERSION = 5.0
 HANDLE-TEI = http://hdl.handle.net/11356/2004
 HANDLE-ANA = http://hdl.handle.net/11356/2005
 HANDLE-MT  = http://hdl.handle.net/11356/2006
+
+# For IL only:
+#VERSION = 1.0
+#HANDLE-TEI = http://hdl.handle.net/11356/2032
+#HANDLE-ANA = http://hdl.handle.net/11356/2032
 
 #Where the produced corpora are put for inspection
 WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint
@@ -73,8 +78,8 @@ test-tei1:
 test-vert6:
 	../Scripts/parlamintp-tei2vert-xx.pl ${HERE}/Distro/ParlaMint-LV.TEI.ana Test/ParlaMint-LV-xx.vert
 test-vert5:
-	$s meta=../Build/Distro/ParlaMint-DK.TEI.ana/ParlaMint-DK.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
-	../Build/Distro/ParlaMint-DK.TEI.ana/2020/ParlaMint-DK_2020-01-07-20191-M42.ana.xml > Test/test-DK.vert
+	$s meta=../Build/Distro/ParlaMint-SI.TEI.ana/ParlaMint-SI.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
+	../Build/Distro/ParlaMint-SI.TEI.ana/2020/ParlaMint-SI_2020-03-13-SDZ8-Izredna-31.ana.xml  > Test/test-SI.vert
 test-vert4:
 	$s meta=${HERE}/Distro/ParlaMint-SI.TEI.ana/ParlaMint-SI.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
 	${HERE}/Distro/ParlaMint-SI.TEI.ana/2022/ParlaMint-SI_2022-01-13-SDZ8-Izredna-93.ana.xml > test-SI.vert
@@ -83,22 +88,27 @@ test-vert2:
 test-vert1:
 	${FINALIZE} -vert -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
 	${FINALIZE} -vert -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
+test-conll5:
+	../Scripts/parlamintp2conllu.pl -jobs 1 -in ../Build/Sources-TEI/ParlaMint-AT.TEI.ana -out ../Build/Test
 test-conll4:
-	$s meta=../Build/Distro/ParlaMint-AT.TEI.ana/ParlaMint-AT.ana.xml \
-	-xsl:../Scripts/parlamint2conllu.xsl ../Build/Distro/ParlaMint-AT.TEI.ana/1996/ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00003.ana.xml \
-	> Test/test-AT.conllu
+	$s meta=../Build/Distro/ParlaMint-SI.TEI.ana/ParlaMint-SI.ana.xml \
+	-xsl:../Scripts/parlamint2conllu.xsl ../Build/Distro/ParlaMint-SI.TEI.ana/2000/ParlaMint-SI_2000-10-27-SDZ3-Redna-01.ana.xml \
+	> Test/test-SI.conllu
 test-conll3:
 	${FINALIZE} -conll -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
 test-conll2:
 	${FINALIZE} -conll -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
 test-conll1:
 	${FINALIZE} -conll -codes UA -in ${HERE}/Distro -out ${HERE}/Distro
+test-meta6:
+	$s out-lang=en meta=../Build/Sources-TEI/ParlaMint-FR.TEI.ana/ParlaMint-FR.ana.xml -xsl:../Scripts/parlamint2meta.ana.xsl \
+	../Build/Sources-TEI/ParlaMint-FR.TEI.ana/2020/ParlaMint-FR_2020-01-07-O1114.ana.xml > Test/test.ana-meta-en.tsv
 test-meta5:
-	$s out-lang=en meta=../Build/Distro/ParlaMint-SE.TEI/ParlaMint-SE.xml -xsl:../Scripts/parlamint2meta.xsl \
-	../Build/Distro/ParlaMint-SE.TEI/2015/ParlaMint-SE_2015-11-04-prot-201516--21.xml  > test.tsv
+	$s out-lang=en meta=../Build/Distro/ParlaMint-SI.TEI/ParlaMint-SI.xml -xsl:../Scripts/parlamint2meta.xsl \
+	../Build/Distro/ParlaMint-SI.TEI/2000/ParlaMint-SI_2000-10-27-SDZ3-Redna-01.xml > Test/test.tsv
 test-meta4:
-	$s out-lang=en meta=../Build/Distro/ParlaMint-PT.TEI/ParlaMint-PT.xml -xsl:../Scripts/parlamint2meta.xsl \
-	../Build/Distro/ParlaMint-PT.TEI/2022/ParlaMint-PT_2022-03-22.xml  > test.tsv
+	$s out-lang=xx meta=../Build/Distro/ParlaMint-SI/ParlaMint-SI.xml -xsl:../Scripts/parlamint2meta.xsl \
+	../Build/Distro/ParlaMint-SI/2007/ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.xml > Test/test.tsv
 test-meta3:
 	$s out-lang=en meta=../Build/Distro/ParlaMint-RS.TEI/ParlaMint-RS.xml -xsl:../Scripts/parlamint2meta.xsl \
 	../Build/Distro/ParlaMint-RS.TEI/2016/ParlaMint-RS_2016-06-03-0.xml  > test.tsv
@@ -111,7 +121,17 @@ test-meta1:
 	${FINALIZE} -txt -codes IS -in ${HERE}/Temp -out ${HERE}/Temp
 	#${FINALIZE} -txt -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
 test-text1:
-	${FINALIZE} -txt -codes ES-CT -in ${HERE}/Distro -out ${HERE}/Distro
+	${FINALIZE} -txt -codes ES -in ${HERE}/Distro -out ${HERE}/Distro
+test-text2:
+	../Scripts/parlamintp-tei2text.pl -jobs 2 -in ../Build/Distro/ParlaMint-SI -out ../Build/Distro/ParlaMint-SI
+test-valid1:
+	${FINALIZE} -valid -codes SI -in ${HERE}/Distro -out ${HERE}/Distro
+test-fix1:
+	$s anaDir=../Build/Distro/ParlaMint-RS outDir=Test -xsl:../Scripts/parlamint2release.xsl \
+	../Build/Distro/ParlaMint-RS/ParlaMint-RS.xml
+test-fix2:
+	$s anaDir=../Build/Distro/ParlaMint-AT outDir=Test -xsl:../Scripts/parlamint2release.xsl \
+	../Build/Distro/ParlaMint-AT/ParlaMint-AT.xml
 
 ### Fixes
 # Merge per-language translated CoNLL-Us (BE, ES-CT, ES-PV, UA) to joint CoNLL-U (with # lang info on newpar)
@@ -205,7 +225,7 @@ web:
 	rsync -av Packed/*.tgz ${WEB}/Repo
 
 ###### Targets for producing releasable version of ParlaMint corpora
-FINALIZE = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Sources-Distro
+FINALIZE = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Sources-Distro -procMemGB ${JAVA-MEMORY} -procChunkSize ${CHUNK-SIZE} -procThreads ${THREADS}
 
 ### For real
 # More than one nohup, in case we want several runs at once
@@ -217,7 +237,7 @@ nohup2:
 nohup3:
 	nice nohup time make all > Logs/ParlaMint.3.log &
 
-all:	final
+all:	final verts
 xall:	final verts pack
 
 pack:
@@ -244,7 +264,7 @@ final:
 ### Make MTed corpora
 
 # Make distribution with:
-FINALIZE-MT=perl ../Scripts/parlamint2distro.pl -version ${VERSION} -anahandle ${HANDLE-MT} -schema ${PARLAMINT}/Schema -docs ${HERE}/Sources-Distro
+FINALIZE-MT=perl ../Scripts/parlamint2distro.pl -version ${VERSION} -anahandle ${HANDLE-MT} -schema ${PARLAMINT}/Schema -docs ${HERE}/Sources-Distro -procMemGB ${JAVA-MEMORY} -procChunkSize ${CHUNK-SIZE} -procThreads ${THREADS}
 
 # Targets
 mt-nohup1:
@@ -260,8 +280,8 @@ mt-nohup5:
 mt-nohup6:
 	nice nohup time make mt-all > Logs/ParlaMint-en.6.log &
 
-mt-all:	mt-convert
-mt-xall-final:	mt-convert mt-verts mt-pack mt-web
+mt-all:	mt-final
+mt-xall-final:	mt-convert mt-final mt-verts mt-pack mt-web
 
 # Make MT .txt and CoNLL files
 mt-convert-txt:
@@ -309,19 +329,30 @@ sanity:
 	zcat Verts/ParlaMint-XX.${VERSION}.vert.gz | grep -c '</s>' 
 	zcat Verts/ParlaMint-XX-en.${VERSION}.vert.gz | grep -c '</s>' 
 
-# Convert from English CoNLL-U + source .TEI.ana -> -en.TEI.ana 
-mt-convert:
+# Convert from English CoNLL-U + source .TEI.ana -> -en.TEI.ana
+# We did this, won't probably do it again, except for new corpora!
+xx-mt-convert:
 	for CORPUS in ${CORPORA}; do \
 	perl Scripts/parlamint-mt2tei.pl \
 	${HERE}/Distro/ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml \
 	${SOURCES-MT}/ParlaMint-$${CORPUS}-en-notes.tsv \
 	${SOURCES-MT}/ParlaMint-$${CORPUS}-en.sem \
-	${TEMP}/ParlaMint-$${CORPUS}-en.TEI.ana 2> Logs/ParlaMint-$${CORPUS}-en.log; \
-	${FINALIZE-MT} -all -notei -codes $${CORPUS}-en -in ${TEMP} -out ${HERE}/Distro \
-	2>> Logs/ParlaMint-$${CORPUS}-en.log; \
+	${SOURCES}/ParlaMint-$${CORPUS}-en.TEI.ana 2> Logs/ParlaMint-$${CORPUS}-en.prepare.log; \
+	done;
+
+# Finalise -en.TEI.ana corpora
+mt-final:
+	for CORPUS in ${CORPORA}; do \
+	${FINALIZE-MT} -all -notei -codes $${CORPUS}-en -in ${SOURCES} -out ${HERE}/Distro 2> Logs/ParlaMint-$${CORPUS}-en.log; \
 	grep -a -i 'fatal' Logs/ParlaMint-$${CORPUS}-en.log >  Logs/ParlaMint-$${CORPUS}-en.error.log;  \
 	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}-en.log >> Logs/ParlaMint-$${CORPUS}-en.error.log;  \
 	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}-en.log >  Logs/ParlaMint-$${CORPUS}-en.warn.log;  \
+	echo "$${CORPUS}-en.warn"; \
+	cat Logs/ParlaMint-$${CORPUS}-en.warn.log | wc -l;  \
+	cat Logs/ParlaMint-$${CORPUS}-en.warn.log | sort | uniq | wc -l;  \
+	echo "$${CORPUS}-en.error"; \
+	cat Logs/ParlaMint-$${CORPUS}-en.error.log | wc -l;  \
+	cat Logs/ParlaMint-$${CORPUS}-en.error.log | sort | uniq | wc -l;  \
 	done;
 
 ### Make CoNLL-U only
@@ -355,7 +386,7 @@ mt-test8:
 	$s meta=${HERE}/Distro/ParlaMint-UA.TEI.ana/ParlaMint-UA.ana.xml -xsl:../Scripts/validate-parlamint.xsl \
 	${HERE}/Distro/ParlaMint-UA.TEI.ana/2022/ParlaMint-UA_2022-01-25-m0.ana.xml
 mt-test7:
-	$s meta=${HERE}/Distro/ParlaMint-AT-en.TEI.ana/ParlaMint-AT-en.ana.xml -xsl:../Scripts//check-links.xsl \
+	$s meta=${HERE}/Distro/ParlaMint-AT-en.TEI.ana/ParlaMint-AT-en.ana.xml -xsl:../Scripts/check-links.xsl \
 	${HERE}/Distro/ParlaMint-AT-en.TEI.ana/2022/ParlaMint-AT-en_2022-01-20-027-XXVII-NRSITZ-00139.ana.xml
 mt-test6:
 	${FINALIZE-MT} -sample -codes ES-CT-en -out ${HERE}/Distro
@@ -384,7 +415,7 @@ mt-test1:
 
 ### Merging taxonomies (now the common taxonomy files should be edited, not merging local copies anymore)
 
-TAXONOMIES-TEI = subcorpus speaker_types parla.legislature
+TAXONOMIES-TEI = subcorpus speaker_types parla.legislature topic
 TAXONOMIES-ANA = NER sentiment
 merge-taxos-nohup:
 	nohup time make merge-taxos 2> Taxonomies/ParlaMint-taxonomy-merge.log > Logs/ParlaMint-taxonomy.log &
@@ -417,6 +448,9 @@ body:
 ##$JAVA-MEMORY## Set a java memory maxsize in GB
 JAVA-MEMORY=240
 JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
+
+CHUNK-SIZE=100
+THREADS=7
 
 P = parallel --citation --gnu --halt 2
 #Run java with a large heap, as a complete corpus needs to be read in

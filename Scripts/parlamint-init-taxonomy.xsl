@@ -38,7 +38,7 @@
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates/>
     </xsl:copy>
-    <!-- all translations follows in alphabetical order -->
+    <!-- all translations follow in alphabetical order -->
     <xsl:for-each select="$languages">
       <xsl:sort select="."/>
       <xsl:variable name="lang" select="."/>

@@ -41,7 +41,8 @@
     <xsl:text>Speaker_ID&#9;</xsl:text>
     <xsl:text>Speaker_name&#9;</xsl:text>
     <xsl:text>Speaker_gender&#9;</xsl:text>
-    <xsl:text>Speaker_birth</xsl:text>
+    <xsl:text>Speaker_birth&#9;</xsl:text>
+    <xsl:text>Topic</xsl:text>
     <xsl:text>&#10;</xsl:text>
     <xsl:apply-templates select=".//tei:u"/>
   </xsl:template>
@@ -92,7 +93,14 @@
         <xsl:value-of select="concat(substring-after(@who, '#'), '&#9;')"/>
         <xsl:value-of select="concat(et:format-name-chrono($speaker//tei:persName, $at-date), '&#9;')"/>
         <xsl:value-of select="concat(et:tsv-value($speaker/tei:sex/@value), '&#9;')"/>
-        <xsl:value-of select="et:tsv-value(replace($speaker/tei:birth/@when, '-.+', ''))"/>
+        <xsl:value-of select="concat(et:tsv-value(replace($speaker/tei:birth/@when, '-.+', '')), '&#9;')"/>
+      </xsl:otherwise>
+    </xsl:choose>
+    <xsl:choose>
+      <!-- IL not marked up for topics -->
+      <xsl:when test="$country-code = 'IL'">-</xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="et:tsv-value(et:topic(@ana))"/>
       </xsl:otherwise>
     </xsl:choose>
     <!-- Speech sizes? -->

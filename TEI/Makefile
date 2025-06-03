@@ -30,9 +30,9 @@ html:	prepare val-schema
 
 # Compile schemas to RelaxNG, DTD and XSD; best use the RelaxNG one.
 xml-schemas:	val-schema
-	Stylesheets/bin/teitorelaxng    ${SUBSET} ${ODD} ParlaMint.odd.rng
+	Stylesheets/bin/teitorng        ${SUBSET} ${ODD} ParlaMint.odd.rng
 	Stylesheets/bin/teitornc        ${SUBSET} ${ODD} ParlaMint.odd.rnc
-	Stylesheets/bin/teitoschematron ${SUBSET} ${ODD} ParlaMint.odd.sch
+	#Stylesheets/bin/teitoschematron ${SUBSET} ${ODD} ParlaMint.odd.sch
 	#Stylesheets/bin/teitodtd        ${SUBSET} ${ODD} ParlaMint.odd.dtd
 	#Stylesheets/bin/teitoxsd        ${SUBSET} ${ODD} ParlaMint.odd.xsd
 

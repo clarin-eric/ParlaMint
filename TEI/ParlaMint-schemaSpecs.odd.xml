@@ -347,6 +347,7 @@
          <attDef ident="met" mode="delete"/>
          <attDef ident="real" mode="delete"/>
          <attDef ident="rhyme" mode="delete"/>
+         <attDef ident="place" mode="delete"/>
          <attDef ident="hand" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
@@ -932,9 +933,9 @@
       </content>
       <attList>
          <attDef ident="target" mode="change" usage="rec"/>
+         <!--ref/@xml:lang-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="ana" mode="delete"/>
@@ -1025,6 +1026,7 @@
       <desc versionDate="2012-12-27" xml:lang="en">contains a stretch of speech usually preceded and followed by
     silence or by a change of speaker.</desc>
       <content>
+         <elementRef key="measure" minOccurs="0"/>
          <alternate minOccurs="1" maxOccurs="unbounded">
             <elementRef key="note"/>
             <elementRef key="vocal"/>
@@ -1073,6 +1075,7 @@
    <elementSpec ident="seg" module="linking" mode="change">
       <desc versionDate="2008-01-31" xml:lang="en">represents any segmentation of text below the <soCalled>chunk</soCalled> level.</desc>
       <content>
+         <elementRef key="measure" minOccurs="0"/>
          <alternate minOccurs="1" maxOccurs="unbounded">
             <elementRef key="note"/>
             <elementRef key="vocal"/>
@@ -1131,6 +1134,7 @@
    <elementSpec ident="s" module="analysis" mode="change">
       <desc versionDate="2005-01-14" xml:lang="en">contains a sentence-like division of a text.</desc>
       <content>
+         <elementRef key="measure" minOccurs="0"/>
          <alternate minOccurs="1" maxOccurs="unbounded">
             <elementRef key="w"/>
             <elementRef key="pc"/>
@@ -3151,13 +3155,17 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="measure" module="core" mode="change">
-      <desc versionDate="2005-01-14" xml:lang="en">contains a word or phrase referring to some quantity of an object or commodity, usually
-    comprising a number, a unit, and a commodity name.</desc>
+      <desc versionDate="2025-03-25" xml:lang="en">either gives (in teiHeader//extent) the number of occurences of certain items
+    (typicaly elements) in the corpus or corpus component or
+    the score of an annotation.
+    ParlaMint currently uses it for giving the sentiment score of utterrances and sentences.
+    In this case measure should have empty content.</desc>
       <content>
          <textNode/>
       </content>
       <attList>
-         <attDef ident="unit" mode="replace" usage="req">
+         <attDef ident="quantity" mode="change" usage="req"/>
+         <attDef ident="unit" mode="replace" usage="opt">
             <valList type="closed">
                <valItem ident="speeches"/>
                <valItem ident="words"/>
@@ -3166,9 +3174,10 @@
                </valItem>
             </valList>
          </attDef>
-         <attDef ident="quantity" mode="change" usage="req"/>
+         <!--measure/@type-->
          <!--measure/@xml:lang-->
-         <attDef ident="type" mode="delete"/>
+         <!--measure/@ana-->
+         <!--measure/@corresp-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
@@ -3207,6 +3216,22 @@
             <measure unit="speeches" quantity="75122" xml:lang="en">75,122 speeches</measure>
             <measure unit="words" quantity="20190034" xml:lang="sl">20.190.034 besed</measure>
             <measure unit="words" quantity="20190034" xml:lang="en">20,190,034 words</measure>
+         </egXML>
+      </exemplum>
+      <exemplum versionDate="2025-03-25" xml:lang="en">
+         <p>Sentiment score of a sentence:</p>
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <s xml:id="ParlaMint-SI_2000-10-27-SDZ3-Redna-01.ana.seg1.2">
+               <measure type="sentiment"
+                        quantity="4.1"
+                        ana="senti:mixpos"
+                        corresp="#ParlaMint-SI_2000-10-27-SDZ3-Redna-01.ana.seg1.2"/>
+               <w xml:id="ParlaMint-SI_2000-10-27-SDZ3-Redna-01.ana.seg1.2.1"
+                  msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part"
+                  ana="mte:Appfpn"
+                  lemma="spoštovan">Spoštovane</w>
+          ...
+        </s>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -3269,7 +3294,7 @@
          <alternate minOccurs="1" maxOccurs="1">
             <sequence>
                <elementRef key="orgName" minOccurs="1" maxOccurs="unbounded"/>
-               <elementRef key="ref" minOccurs="0" maxOccurs="1"/>
+               <elementRef key="ref" minOccurs="0" maxOccurs="unbounded"/>
             </sequence>
             <textNode/>
          </alternate>
@@ -3769,6 +3794,8 @@
          <attDef ident="cert" mode="delete"/>
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
+         <attDef ident="key" mode="delete"/>
+         <attDef ident="ref" mode="delete"/>
          <attDef ident="generatedBy" mode="delete"/>
          <attDef ident="default" mode="delete"/>
          <attDef ident="status" mode="delete"/>
@@ -6991,6 +7018,7 @@
          <attDef ident="cert" mode="delete"/>
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
+         <attDef ident="scope" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
@@ -7063,11 +7091,9 @@
             <textNode/>
          </alternate>
       </content>
-      <attList><!--change/@when-->
+      <attList><!--change/@xml:lang--><!--change/@n--><!--change/@when-->
          <attDef ident="target" mode="delete"/>
          <attDef ident="xml:id" mode="delete"/>
-         <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="ana" mode="delete"/>

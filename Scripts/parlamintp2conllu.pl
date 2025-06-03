@@ -14,26 +14,45 @@ binmode(STDERR, ':utf8');
 
 sub usage
 {
-    print STDERR ("Usage: parlamint2conllu.pl <InputDirectory> <OutputDirectory>\n");
+    print STDERR ("Usage: parlamintp2conllu.pl -jobs <Jobs> -in <InputDirectory> -out <OutputDirectory>\n");
     print STDERR ("       Converts ParlaMint .ana files in the <InputDirectory> to\n");
     print STDERR ("       .conllu and -meta.tsv files in the <OutputDirectory>\n");
+    print STDERR ("       using parallel <Jobs> in execution.\n");
     print STDERR ("       Also validates the .conllu agains UD validations script\n");
 }
+
+use Getopt::Long;
 use FindBin qw($Bin);
 use File::Spec;
 use File::Temp qw/ tempfile tempdir /;  #creation of tmp files and directory
 my $tempdirroot = "$Bin/tmp";
 my $DIR = tempdir(DIR => $tempdirroot, CLEANUP => 1);
 
-$inDir = File::Spec->rel2abs(shift);
-$outDir = File::Spec->rel2abs(shift);
 
-$Para  = 'parallel --gnu --halt 0 --jobs 10';
-$Saxon   = "java -jar $Bin/bin/saxon.jar";
+GetOptions
+    (
+     'help'   => \$help,
+     'in=s'   => \$inDir,
+     'out=s'  => \$outDir,
+     'jobs=i' => \$procThreads,
+);
+
+if ($help) {
+    &usage;
+    exit;
+}
+
+$inDir = File::Spec->rel2abs($inDir) if $inDir;
+$outDir = File::Spec->rel2abs($outDir) if $outDir;
+$procThreads = 1 unless $procThreads;
+
+$Para = "parallel --gnu --halt 0 --jobs $procThreads";
+
+$Saxon  = "java -jar $Bin/bin/saxon.jar";
 $scriptValid   = "$Bin/bin/tools/validate.py";
 
 $scriptConvert = "$Bin/parlamint2conllu.xsl";
-$scriptMeta    = "$Bin/parlamint2meta.xsl";
+
 
 #This should be somehow factorised out!!
 $country2lang{'AT'} = 'de';
@@ -102,27 +121,8 @@ foreach $inFile (@compAnaFiles) {
 close TMP;
 
 `mkdir $outDir` unless -e "$outDir";
-`rm -f $outDir/*-meta.tsv`;
 `rm -f $outDir/*.conllu`;
 
-#For MTed corpora output only en metadata, for native, both xx and en
-if ($MT) {@outLangs = ('en')} else {@outLangs = ('xx', 'en')}
-# For orig corpora make ParlaMint-XX-meta.tsv in corpus language and ParlaMint-XX-meta-en.tsv in English
-# For MTed corpora we produce ParlaMint-XX-en-meta.tsv in English
-foreach my $outLang (@outLangs) {
-    my $outSuffix;
-    if    ($MT and $outLang eq 'xx') {}
-    elsif ($MT and $outLang eq 'en') {$outSuffix = "-meta.tsv"}
-    elsif ($outLang eq 'xx') {$outSuffix = "-meta.tsv"}
-    elsif ($outLang eq 'en') {$outSuffix = "-meta-en.tsv"}
-    if ($outSuffix) {
-	$command = "$Saxon meta=$rootAnaFile" .
-	    " out-lang=$outLang" .
-	    " -xsl:$scriptMeta {} > $outDir/{/.}$outSuffix";
-	`cat $fileFile | $Para '$command'`;
-    }
-}
-`rename 's/\.ana//' $outDir/*-meta*.tsv`;
 
 # Produce common CoNLL-U, even if we have more languages in a corpus
 if ($langs !~ /,/) {$checkLang = $langs}

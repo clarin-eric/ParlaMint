@@ -8,8 +8,17 @@
     exclude-result-prefixes="#all"
     version="2.0">
 
+  <!--
+  DEFAULT VALUE: context-elements="" means no filtering - all xincudes are printed
+  set space-separated list of parent elements if only specific included files are necesary
+  eg context-elements="teiCorpus" for component files
+  or context-elements="particDesc classDecl" for header files
+  -->
+  <xsl:param name="context-elements"></xsl:param>
+  <xsl:variable name="celems" select="tokenize($context-elements)"/>
+
   <xsl:output encoding="utf-8" method="text"/>
-  <xsl:template match="xi:include">
+  <xsl:template match="xi:include[not($celems) or parent::*[local-name() = $celems]]">
     <xsl:value-of select="@href"/>
     <xsl:text>&#10;</xsl:text>
   </xsl:template>

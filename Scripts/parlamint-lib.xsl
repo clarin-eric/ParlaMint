@@ -42,34 +42,57 @@
        the ParlaMint languages as well, i.e. "mul" should be in their langUsage -->
   <xsl:param name="multilingual-label">Multilingual</xsl:param>
   
+  <xsl:param name="corpus-language" select="/tei:*/@xml:lang"/>
+  <xsl:param name="text_id" select="replace(/tei:*/@xml:id, '\.ana', '')"/>
+  <xsl:param name="country-code" select="replace($text_id, '.*?-([^._]+).*', '$1')"/>
+  
   <!-- Key in value of element ID -->
   <xsl:key name="id" match="tei:*" use="@xml:id"/>
   <!-- Key which directly finds local references -->
   <xsl:key name="idr" match="tei:*" use="concat('#', @xml:id)"/>
 
-  <xsl:variable name="text_id" select="replace(/tei:*/@xml:id, '\.ana', '')"/>
+  <xsl:variable name="component" select="/tei:TEI"/>
   
-  <xsl:variable name="corpus-language" select="/tei:*/@xml:lang"/>
+<!-- COMMENTED DUE TO INVALID MERGE (duplicit variable)
+  <xsl:variable name="text_id" select="mk:text_id($component)"/>
+  <xsl:function name="mk:text_id">
+    <xsl:param name="element"/>
+    <xsl:variable name="TEI" select="$element/ancestor-or-self::tei:TEI"/>
+    <xsl:value-of select="replace($TEI/@xml:id, '\.ana', '')"/>
+  </xsl:function>
   
+  <xsl:variable name="corpus-language" select="mk:corpus-language($component)"/>
+  <xsl:function name="mk:corpus-language">
+    <xsl:param name="element"/>
+    <xsl:variable name="TEI" select="$element/ancestor-or-self::tei:TEI"/>
+    <xsl:value-of select="$TEI/@xml:lang"/>
+  </xsl:function>
+-->  
   <!-- Current date in ISO format -->
   <xsl:variable name="today-iso" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
   
   <!-- Date of a corpus component -->
-  <xsl:variable name="at-date">
-    <xsl:variable name="date" select="/tei:TEI/tei:teiHeader//tei:setting/tei:date"/>
+  <xsl:variable name="at-date" select="mk:at-date($component)"/>
+  <xsl:function name="mk:at-date">
+    <xsl:param name="element"/>
+    <xsl:variable name="TEI" select="$element/ancestor-or-self::tei:TEI"/>
+    <xsl:variable name="date" select="$TEI/tei:teiHeader//tei:setting/tei:date"/>
     <xsl:if test="not($date/@when)">
       <xsl:message terminate="yes">
         <xsl:text>FATAL ERROR: Can't find TEI date/@when in setting of input file </xsl:text>
-        <xsl:value-of select="/tei:TEI/@xml:id"/>
+        <xsl:value-of select="$TEI/@xml:id"/>
       </xsl:message>
     </xsl:if>
     <xsl:value-of select="$date/@when"/>
-  </xsl:variable>
+  </xsl:function>
   
   <!-- Localised title of a corpus component: subtitle, if exists, otherwise main title -->
-  <xsl:variable name="title">
+  <xsl:variable name="title" select="mk:title($component)"/>
+  <xsl:function name="mk:title">
+    <xsl:param name="element"/>
+    <xsl:variable name="TEI" select="$element/ancestor-or-self::tei:TEI"/>
     <xsl:variable name="titles">
-      <xsl:apply-templates mode="expand" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+      <xsl:apply-templates mode="expand" select="$TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
     </xsl:variable>
     <xsl:variable name="subtitles" select="et:l10n($corpus-language, $titles/tei:title[@type='sub'])"/>
     <xsl:variable name="main-title" select="et:l10n($corpus-language, $titles/tei:title[@type='main'])"/>
@@ -84,7 +107,7 @@
           </xsl:variable>
           <xsl:value-of select="replace($j-s, '.$', '')"/>
         </xsl:variable>
-        <xsl:message select="concat('INFO: Joining subtitles: ', $joined-subtitles, ' in ', /tei:*/@xml:id)"/>
+        <xsl:message select="concat('INFO: Joining subtitles: ', $joined-subtitles, ' in ', $TEI/@xml:id)"/>
         <xsl:value-of select="$joined-subtitles"/>
       </xsl:when>
       <xsl:when test="normalize-space($subtitles)">
@@ -99,7 +122,7 @@
         <xsl:text>-</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
-  </xsl:variable>
+  </xsl:function>
   
   <!-- Parliamentary body, term, session, meeting, sitting, agenda number or label of a corpus compoment -->
   <xsl:variable name="body">
@@ -132,9 +155,12 @@
   </xsl:variable>
   
   <!-- Subcorpus -->
-  <xsl:variable name="subcorpus">
+  <xsl:variable name="subcorpus" select="mk:subcorpus($component)"/>
+  <xsl:function name="mk:subcorpus">
+    <xsl:param name="element"/>
+    <xsl:variable name="TEI" select="$element/ancestor-or-self::tei:TEI"/>
     <xsl:variable name="subcorpora">
-      <xsl:for-each select="tokenize(/tei:TEI/@ana, ' ')">
+      <xsl:for-each select="tokenize($TEI/@ana, ' ')">
         <xsl:if test="key('idr', ., $rootHeader)/
                       ancestor::tei:taxonomy/tei:desc/tei:term = 'Subcorpora'">
           <!-- The category term of the tokenised @ana: -->
@@ -144,8 +170,9 @@
       </xsl:for-each>
     </xsl:variable>
     <xsl:value-of select="replace($subcorpora, ',$', '')"/>
-  </xsl:variable>
-  
+  </xsl:function>
+
+
   <xsl:variable name="rootHeader">
     <xsl:choose>
       <xsl:when test="normalize-space($meta)">
@@ -207,8 +234,8 @@
 
   <!-- NAMED TEMPLATES -->
 
-  <!-- Return the name of the langauge that the segments of the utterance are in -->
-  <!-- In case the segments are in serveral langauges, the multilingual-label is output -->
+  <!-- Return the name of the language that the segments of the utterance are in -->
+  <!-- In case the segments are in several languages, the multilingual-label is output -->
   <!-- The assumption is that this template is called with tei:u as the context node -->
   <xsl:template name="u-langs">
     <xsl:variable name="defaultLang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
@@ -404,6 +431,31 @@
     </xsl:choose>
   </xsl:function>
   
+  <!-- Output the topic of a speech -->
+  <!-- e.g. "#regular topic:other" -->
+  <xsl:function name="et:topic" as="xs:string">
+    <xsl:param name="ana"/>
+    <xsl:variable name="topics">
+      <xsl:for-each select="tokenize($ana, ' ')">
+        <xsl:sort select="."/>
+        <xsl:variable name="topic" select="key('id', substring-after(., ':'), $rootHeader)"/>
+        <xsl:if test="$topic/ancestor::tei:taxonomy/tei:desc/tei:term = 'Topics'">
+          <xsl:value-of select="et:l10n($corpus-language, $topic/tei:catDesc/tei:term)"/>
+          <xsl:value-of select="$multi-separator"/>
+        </xsl:if>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="normalize-space($topics)">
+        <xsl:value-of select="et:tsv-value(replace($topics, '.$', ''))"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:message select="concat('WARN: no topic found for speech in taxonomy for ', $ana)"/>
+        <xsl:text>-</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+
   <!-- Output the role of the speaker from the taxonomy -->
   <!-- e.g. "#regular #topic.144_403_M" -->
   <xsl:function name="et:u-role" as="xs:string">
@@ -421,8 +473,8 @@
         <xsl:value-of select="$role"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:message select="concat('ERROR: no speaker role found in taxonony for ', $ana)"/>
-        <xsl:text>unknown</xsl:text>
+        <xsl:message select="concat('ERROR: no speaker role found in taxonomy for ', $ana)"/>
+        <xsl:text>-</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
@@ -750,41 +802,45 @@
     </xsl:choose>
   </xsl:template>
   
-  <!-- Return sentiment score or 3/6 class label, which depends of $type -->
-  <!-- Assumes the context node has @n and @ana, the latter with reference to 6-class senti label -->
+  <!-- Return sentiment score or 3/6 class label, which of these depends on the value of $type -->
+  <!-- Assumes the context node the <measure> element giving the needed info -->
   <xsl:template name="senti">
     <xsl:param name="type"/>
+    <xsl:param name="lang" select="$corpus-language"/>
+    <xsl:variable name="senti_quantity" select="tei:measure[@type = 'sentiment']/@quantity"/>
+    <xsl:variable name="senti_ana" select="tei:measure[@type = 'sentiment']/@ana"/>
+    <xsl:if test="not(normalize-space($senti_quantity) and normalize-space($senti_ana))">
+      <xsl:message>
+        <xsl:text>WARN: no sentiment measure element or its appropriate attributes in </xsl:text>
+          <xsl:value-of select="@xml:id"/>
+        </xsl:message>
+    </xsl:if>
     <xsl:choose>
       <!-- Numeric sentiment label -->
       <xsl:when test="$type = 'n'">
-        <xsl:value-of select="@n"/>
+        <xsl:value-of select="$senti_quantity"/>
       </xsl:when>
       <!-- 6-class sentiment label -->
       <xsl:when test="$type = '6'">
-        <xsl:for-each select="tokenize(@ana, ' ')">
-          <xsl:if test="key('id', substring-after(., ':'), $rootHeader)/
-                        ancestor::tei:taxonomy[contains(@xml:id, 'taxonomy-sentiment')]">
-            <xsl:variable name="senti" select="key('id', substring-after(., ':'), $rootHeader)"/>
-            <xsl:value-of select="et:l10n($corpus-language, $senti/tei:catDesc/tei:term)"/>
-          </xsl:if>
-        </xsl:for-each>
+        <xsl:variable name="senti_category" select="key('id', substring-after($senti_ana, ':'), $rootHeader)"/>
+        <xsl:value-of select="et:l10n($lang, $senti_category/tei:catDesc/tei:term)"/>
       </xsl:when>
       <!-- 3-class sentiment label -->
       <xsl:when test="$type = '3'">
-        <xsl:for-each select="tokenize(@ana, ' ')">
-          <xsl:if test="key('id', substring-after(., ':'), $rootHeader)/
-                        ancestor::tei:taxonomy[contains(@xml:id, 'taxonomy-sentiment')]">
-            <xsl:variable name="senti" select="key('id', substring-after(., ':'), $rootHeader)/parent::tei:category"/>
-            <xsl:value-of select="et:l10n($corpus-language, $senti/tei:catDesc/tei:term)"/>
-          </xsl:if>
-        </xsl:for-each>
+        <xsl:variable name="senti_category" select="key('id', substring-after($senti_ana, ':'), $rootHeader)/parent::tei:category"/>
+        <xsl:value-of select="et:l10n($lang, $senti_category/tei:catDesc/tei:term)"/>
       </xsl:when>
       <xsl:otherwise>
+        <xsl:message terminate="yes">
+          <xsl:text>FATAL: bad type </xsl:text>
+          <xsl:value-of select="$type"/>
+          <xsl:text> in calling senti named template!</xsl:text>
+        </xsl:message>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
   
-  <!-- Notes and incidents normalization - removing brackets and normalize spces-->
+  <!-- Notes and incidents normalization: remove brackets and normalize spaces-->
   <xsl:function name="mk:normalize-note" as="xs:string">
     <xsl:param name="noteIn" as="xs:string"/>
     <xsl:variable name="noteOut1" select="normalize-space($noteIn)"/>
@@ -799,7 +855,7 @@
     </xsl:choose>
   </xsl:function>
 
-  <!-- test if two affiliations are comparable - same ref + role + roleName + ana -->
+  <!-- Test if two affiliations are comparable: same ref + role + roleName + ana -->
   <xsl:function name="mk:is-comparable">
     <xsl:param name="aff1"/>
     <xsl:param name="aff2"/>
@@ -823,7 +879,7 @@
     </xsl:choose>
   </xsl:function>
 
-  <!-- test if two elements has overlapping from-to ranges -->
+  <!-- Test if two elements have overlapping from-to ranges -->
   <xsl:function name="mk:is-overlapping">
     <xsl:param name="aff1"/>
     <xsl:param name="aff2"/>
@@ -1110,7 +1166,7 @@
     <!-- English -->
     <xsl:variable name="element-en" select="$elements[@xml:lang = 'en']"/>
     <!-- For (the only example in ParlaMint) the French spelling of a name in GR. -->
-    <!-- Note that corpus-langauge can be "en" for MTed corpora, so we need to choose only one result -->
+    <!-- Note that corpus-language can be "en" for MTed corpora, so we need to choose only one result -->
     <xsl:variable name="element-yy" select="$elements[not(@xml:lang = 'en' or
                                             @xml:lang = $lang or ends-with(@xml:lang, '-Latn'))][1]"/>
     <!-- If nothing else serves we take first element as fall-back -->

@@ -24,8 +24,6 @@
   <xsl:param name="note-open">[</xsl:param>
   <xsl:param name="note-close">]</xsl:param>
 
-  <xsl:param name="country-code" select="replace(/tei:TEI/@xml:id,
-                                         '.*?-([^._]+).*', '$1')"/>
   <xsl:template match="@*"/>
   <xsl:template match="text()"/>
   <xsl:template match="tei:*">
@@ -46,83 +44,28 @@
     <xsl:variable name="lang">
       <xsl:call-template name="u-langs"/>
     </xsl:variable>
-    <!-- Topics are given only in IS and DK corpora -->
-    <xsl:variable name="topic">
-      <xsl:choose>
-        <xsl:when test="$country-code = 'DK'">
-          <!-- E.g. 
-               <u who="#HaarderBertel" xml:id="ParlaMint-DK_20141007120002" ana="#chair #domain.other">
-               + 
-               <taxonomy xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-DK-taxonomy-domains" xml:lang="mul">
-                 <desc xml:lang="en"><term>Policy domains</term> in the ParlaMint-DK corpus</desc>
-                 <desc xml:lang="da"><term>Politiske emneområder</term> i ParlaMint-DK</desc>
-                 <category xml:id="domain.Agriculture">
-                   <catDesc xml:lang="en"><term>Agriculture</term>: comprises Agriculture, Fisheries, Food, Consumer, and Animal welfare</catDesc>
-                   <catDesc xml:lang="da"><term>Landbrug</term>: omfatter Landbrug, Fiskeri, Fødevarer, Forbruger, og Dyrevelfærd</catDesc>
-                 </category>
-                 etc.
-               = (dk):
-               <speech id="ParlaMint-DK_20141007120002" ... topic="Folketingsanliggender">
-          -->
-          <xsl:variable name="topics">
-            <xsl:for-each select="tokenize(@ana, ' ')">
-              <xsl:sort select="."/>
-              <xsl:variable name="topic" select="key('idr', ., $rootHeader)"/>
-              <!-- Topic names are stored in DK "domains" taxonomy -->
-              <xsl:if test="$topic/ancestor::tei:taxonomy/contains(@xml:id, 'taxonomy-domains')">
-                <xsl:value-of select="et:l10n($corpus-language, $topic/tei:catDesc/tei:term)"/>
-                <xsl:value-of select="$multi-separator"/>
-              </xsl:if>
-            </xsl:for-each>
-          </xsl:variable>
-          <xsl:value-of select="et:tsv-value(replace($topics, '.$', ''))"/>
-        </xsl:when>
-        <xsl:when test="$country-code = 'IS'">
-          <!-- IS has first a pointer to (debate) "topics", and from there to categories (topics proper) -->
-          <xsl:variable name="IS-topics">
-            <xsl:for-each select="tokenize(@ana, ' ')">
-              <xsl:value-of select="key('idr', ., $rootHeader)
-                                    [contains(ancestor::tei:taxonomy/@xml:id, 'parla.topics')]/@ana"/>
-              <xsl:text>&#32;</xsl:text>
-            </xsl:for-each>
-          </xsl:variable>
-          <xsl:variable name="topics">
-            <xsl:for-each select="distinct-values(tokenize(normalize-space($IS-topics), ' '))">
-              <xsl:sort select="."/>
-              <!-- Localisation of the term in category description -->
-              <xsl:value-of select="et:l10n($corpus-language, key('idr', ., $rootHeader)/tei:catDesc/tei:term)"/>
-              <xsl:value-of select="$multi-separator"/>
-            </xsl:for-each>
-          </xsl:variable>
-          <xsl:value-of select="et:tsv-value(replace($topics, '.$', ''))"/>
-        </xsl:when>
-      </xsl:choose>
-    </xsl:variable>
     <speech id="{$speech_id}" text_id="{$text_id}"
             subcorpus="{$subcorpus}" lang="{$lang}" body="{$body}"
             term="{$term}" session="{$session}" meeting="{$meeting}" sitting="{$sitting}" agenda="{$agenda}"
             date="{$at-date}" title="{$title}">
       <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
-      <xsl:if test="normalize-space($topic)">
-        <xsl:attribute name="topic" select="$topic"/>
+      <!-- IL not marked up for topics -->
+      <xsl:if test="$country-code != 'IL'">
+        <xsl:attribute name="topic" select="et:topic(@ana)"/>
       </xsl:if>
-      <!-- Sentiment is given currently only in SI corpus -->
+      <xsl:if test="$country-code = 'DK'">
+        <xsl:attribute name="topic_dk">
+          <xsl:call-template name="topic-dk"/>
+        </xsl:attribute>
+      </xsl:if>
+      <xsl:if test="$country-code = 'IS'">
+        <xsl:attribute name="topic_is">
+          <xsl:call-template name="topic-is"/>
+        </xsl:attribute>
+      </xsl:if>
+      <!-- Only SI has utterance-level sentiment -->
       <xsl:if test="$country-code = 'SI'">
-        <xsl:attribute name="senti_3">
-          <xsl:call-template name="senti">
-            <xsl:with-param name="type">3</xsl:with-param>
-          </xsl:call-template>
-        </xsl:attribute>
-        <xsl:attribute name="senti_6">
-          <xsl:call-template name="senti">
-            <xsl:with-param name="type">6</xsl:with-param>
-          </xsl:call-template>
-        </xsl:attribute>
-        <xsl:attribute name="senti_n">
-          <xsl:call-template name="senti">
-            <xsl:with-param name="type">n</xsl:with-param>
-          </xsl:call-template>
-        </xsl:attribute>
+        <xsl:call-template name="senti-attributes"/>
       </xsl:if>
       <xsl:choose>
         <xsl:when test="@who">
@@ -165,6 +108,9 @@
   </xsl:template>
   
   <xsl:template match="tei:pb"/>
+  <xsl:template match="tei:u/tei:measure"/>
+  <xsl:template match="tei:seg/tei:measure"/>
+  <xsl:template match="tei:s/tei:measure"/>
   
   <!-- Conflate head, note, gap and all "incidents" into <note> -->
   <xsl:template match="tei:head | tei:note | tei:gap | tei:vocal | tei:incident | tei:kinesic">
@@ -243,23 +189,9 @@
   <xsl:template match="tei:s">
     <xsl:copy>
       <xsl:attribute name="id" select="@xml:id"/>
-      <!-- Sentiment is given currently only in SI corpus -->
-      <xsl:if test="$country-code = 'SI'">
-        <xsl:attribute name="senti_3">
-          <xsl:call-template name="senti">
-            <xsl:with-param name="type">3</xsl:with-param>
-          </xsl:call-template>
-        </xsl:attribute>
-        <xsl:attribute name="senti_6">
-          <xsl:call-template name="senti">
-            <xsl:with-param name="type">6</xsl:with-param>
-          </xsl:call-template>
-        </xsl:attribute>
-        <xsl:attribute name="senti_n">
-          <xsl:call-template name="senti">
-            <xsl:with-param name="type">n</xsl:with-param>
-          </xsl:call-template>
-        </xsl:attribute>
+      <!-- IL does not have sentiment -->
+      <xsl:if test="$country-code != 'IL'">
+        <xsl:call-template name="senti-attributes"/>
       </xsl:if>
       <xsl:text>&#10;</xsl:text>
       <xsl:apply-templates/>
@@ -363,6 +295,76 @@
 
   <!-- NAMED TEMPLATES -->
 
+  <!-- DK specific topic -->
+  <!-- E.g. 
+       <u who="#HaarderBertel" xml:id="ParlaMint-DK_20141007120002" ana="#chair #domain.other">
+       + 
+       <taxonomy xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-DK-taxonomy-domains" xml:lang="mul">
+       <desc xml:lang="en"><term>Policy domains</term> in the ParlaMint-DK corpus</desc>
+       <desc xml:lang="da"><term>Politiske emneområder</term> i ParlaMint-DK</desc>
+       <category xml:id="domain.Agriculture">
+       <catDesc xml:lang="en"><term>Agriculture</term>: comprises Agriculture, Fisheries, Food, Consumer, and Animal welfare</catDesc>
+       <catDesc xml:lang="da"><term>Landbrug</term>: omfatter Landbrug, Fiskeri, Fødevarer, Forbruger, og Dyrevelfærd</catDesc>
+       </category>
+       etc.
+       = (dk):
+       <speech id="ParlaMint-DK_20141007120002" ... topic="Folketingsanliggender">
+  -->
+  <xsl:template name="topic-dk">
+    <xsl:variable name="topics">
+      <xsl:for-each select="tokenize(@ana, ' ')">
+        <xsl:sort select="."/>
+        <xsl:variable name="topic" select="key('idr', ., $rootHeader)"/>
+        <!-- Topic names are stored in DK "domains" taxonomy -->
+        <xsl:if test="$topic/ancestor::tei:taxonomy/contains(@xml:id, 'taxonomy-domains')">
+          <xsl:value-of select="et:l10n($corpus-language, $topic/tei:catDesc/tei:term)"/>
+          <xsl:value-of select="$multi-separator"/>
+        </xsl:if>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:value-of select="et:tsv-value(replace($topics, '.$', ''))"/>
+  </xsl:template>
+  
+  <!-- IS specific topic -->
+  <xsl:template name="topic-is">
+    <!-- IS has first a pointer to (debate) "topics", and from there to categories (topics proper) -->
+    <xsl:variable name="IS-topics">
+      <xsl:for-each select="tokenize(@ana, ' ')">
+        <xsl:value-of select="key('idr', ., $rootHeader)
+                              [contains(ancestor::tei:taxonomy/@xml:id, 'parla.topics')]/@ana"/>
+        <xsl:text>&#32;</xsl:text>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:variable name="topics">
+      <xsl:for-each select="distinct-values(tokenize(normalize-space($IS-topics), ' '))">
+        <xsl:sort select="."/>
+        <!-- Localisation of the term in category description -->
+        <xsl:value-of select="et:l10n($corpus-language, key('idr', ., $rootHeader)/tei:catDesc/tei:term)"/>
+        <xsl:value-of select="$multi-separator"/>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:value-of select="et:tsv-value(replace($topics, '.$', ''))"/>
+  </xsl:template>
+
+  <!-- Sentiment attributes -->
+  <xsl:template name="senti-attributes">
+    <xsl:attribute name="senti_3">
+      <xsl:call-template name="senti">
+        <xsl:with-param name="type">3</xsl:with-param>
+      </xsl:call-template>
+    </xsl:attribute>
+    <xsl:attribute name="senti_6">
+      <xsl:call-template name="senti">
+        <xsl:with-param name="type">6</xsl:with-param>
+      </xsl:call-template>
+    </xsl:attribute>
+    <xsl:attribute name="senti_n">
+      <xsl:call-template name="senti">
+        <xsl:with-param name="type">n</xsl:with-param>
+      </xsl:call-template>
+    </xsl:attribute>
+  </xsl:template>
+  
   <xsl:template name="deps">
     <xsl:param name="type">UD-SYN</xsl:param>
     <xsl:param name="id" select="@xml:id"/>
