@@ -41,6 +41,7 @@ binmode(STDERR, 'utf8');
 $Para  = "parallel --gnu --halt 0 --jobs $procThreads";
 $Saxon = "java -jar $Bin/bin/saxon.jar";
 $scriptMeta = "$Bin/parlamint2meta.xsl";
+$scriptMetaAna = "$Bin/parlamint2meta.ana.xsl";
 $Includes = "$Bin/get-includes.xsl";
 
 `find $outDir -name '*-meta.tsv' -type f -delete`;
@@ -69,6 +70,14 @@ foreach my $outLang (@outLangs) {
 	    " out-lang=$outLang" .
 	    " -xsl:$scriptMeta {} > $outDir/{/.}$outSuffix";
 	`cat $fileFile | $Para '$command'`;
+        # We produce .ana metadata only for .ana corpus and in English 
+        if ($inRoot =~ /\.ana/ and $outLang eq 'en') {
+            $command = "$Saxon" .
+                " meta=$inRoot" .
+                " out-lang=$outLang" .
+                " -xsl:$scriptMetaAna {} > $outDir/{/.}-ana$outSuffix";
+            `cat $fileFile | $Para '$command'`;
+        }
     }
 }
 `find $outDir -name '*-meta*.tsv' -type f -exec rename 's/\.ana//' {} +`;
