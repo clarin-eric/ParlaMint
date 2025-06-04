@@ -43,7 +43,7 @@ $Saxon = "java -jar $Bin/bin/saxon.jar";
 $scriptMeta = "$Bin/parlamint2meta.xsl";
 $Includes = "$Bin/get-includes.xsl";
 
-`find $outDir -name '*-meta.tsv' -delete`;
+`find $outDir -name '*-meta.tsv' -type f -delete`;
 
 #Store all files to be processed in $fileFile
 $fileFile = "$DIR/files.lst";

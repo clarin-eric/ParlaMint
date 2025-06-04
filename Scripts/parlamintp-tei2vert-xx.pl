@@ -64,7 +64,7 @@ die "FATAL ERROR: Cannot find component files in $inDir!\n"
     unless @compAnaFiles;
 
 `mkdir $outDir` unless -e "$outDir";
-`find $outDir -name '*.vert' -delete`;
+`find $outDir -name '*.vert' -type f -delete`;
 
 #Store all files to be processed in $fileFile
 $fileFile = "$DIR/files.lst";

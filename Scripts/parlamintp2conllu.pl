@@ -121,7 +121,7 @@ foreach $inFile (@compAnaFiles) {
 close TMP;
 
 `mkdir $outDir` unless -e "$outDir";
-`find $outDir -name '*.conllu' -delete`;
+`find $outDir -name '*.conllu' -type f -delete`;
 
 # Produce common CoNLL-U, even if we have more languages in a corpus
 if ($langs !~ /,/) {$checkLang = $langs}
