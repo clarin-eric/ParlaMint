@@ -19,8 +19,8 @@
   
   <xsl:template match="tei:TEI">
     <xsl:message select="concat('INFO: Converting ', @xml:id, ' to .ana metadata TSV')"/>
-    <xsl:text>Text_ID&#9;</xsl:text>
     <xsl:text>ID&#9;</xsl:text>
+    <xsl:text>Parent_ID&#9;</xsl:text>
     <xsl:text>Element&#9;</xsl:text>
     <xsl:text>Language&#9;</xsl:text>
     <xsl:text>Senti_3&#9;</xsl:text>
@@ -35,6 +35,16 @@
   </xsl:template>
   
   <xsl:template match="tei:u | tei:s">
+    <xsl:variable name="parent_id">
+      <xsl:choose>
+        <xsl:when test="self::tei:u">
+          <xsl:value-of select="$text_id"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="ancestor::tei:u/@xml:id"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
     <xsl:variable name="lang">
       <xsl:choose>
         <xsl:when test="self::tei:u">
@@ -71,8 +81,8 @@
         </xsl:call-template>
       </xsl:if>
     </xsl:variable>
-    <xsl:value-of select="concat($text_id, '&#9;')"/>
     <xsl:value-of select="concat(et:tsv-value(@xml:id), '&#9;')"/>
+    <xsl:value-of select="concat(et:tsv-value($parent_id), '&#9;')"/>
     <xsl:value-of select="concat(name(), '&#9;')"/>
     <xsl:value-of select="concat($lang, '&#9;')"/>
     <xsl:value-of select="concat(et:tsv-value($senti3), '&#9;')"/>
