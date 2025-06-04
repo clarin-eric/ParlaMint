@@ -1,175 +1,197 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<teiCorpus xml:lang="es" xml:id="ParlaMint-ES-CN.ana" xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="main" xml:lang="es">Corpus parlamentario en español ParlaMint-ES-CN [ParlaMint.ana]</title>
-        <title type="main" xml:lang="en">Spanish parliamentary corpus ParlaMint-ES-CN [ParlaMint.ana]</title>
-        <title type="sub" xml:lang="es">Actas del Parlamento de Canarias, legislaturas III-X (1991-2021)</title>
-        <title type="sub" xml:lang="en">Proceedings of the Parliament of the Canary Islands, terms 3-10 (1991-2021)</title>
-        <meeting n="3" corresp="#PC" ana="#parla.lower #parla.term #PC.3" />
-        <meeting n="4" corresp="#PC" ana="#parla.lower #parla.term #PC.4" />
-        <meeting n="5" corresp="#PC" ana="#parla.lower #parla.term #PC.5" />
-        <meeting n="6" corresp="#PC" ana="#parla.lower #parla.term #PC.6" />
-        <meeting n="7" corresp="#PC" ana="#parla.lower #parla.term #PC.7" />
-        <meeting n="8" corresp="#PC" ana="#parla.lower #parla.term #PC.8" />
-        <meeting n="9" corresp="#PC" ana="#parla.lower #parla.term #PC.9" />
-        <meeting n="10" corresp="#PC" ana="#parla.lower #parla.term #PC.10" />
-        <respStmt>
-          <persName ref="https://www.linkedin.com/in/pedro-cano-gonzalez-952011203/">Pedro Cano González</persName>
-          <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
-          <resp xml:lang="en">Quality Control</resp>
-        </respStmt>
-        <respStmt>
-          <persName ref="https://orcid.org/0000-0001-9221-664X">Francisco Javier Carreras Riudavets</persName>
-          <resp xml:lang="en">Data retrieval</resp>
-          <resp xml:lang="en">Linguistic annotation</resp>
-        </respStmt>
-        <respStmt>
-          <persName ref="https://orcid.org/0000-0002-1657-4020">Zenón José Hernández Figueroa</persName>
-          <resp xml:lang="en">Data retrieval</resp>
-          <resp xml:lang="en">Linguistic annotation</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Mar Hernández Marrero</persName>
-          <resp xml:lang="en">Government person metadata retrieval</resp>
-        </respStmt>
-        <funder>
-          <orgName xml:lang="es">Instituto Universitario de Análisis y Aplicaciones Textuales</orgName>
-          <orgName xml:lang="en">University Institute for Textual Analysis and Applications</orgName>
-        </funder>
-        <funder>
-          <orgName xml:lang="es">Ministerio de Ciencia e Innovación</orgName>
-          <orgName xml:lang="en">Ministry of Science and Innovation of Spain</orgName>
-        </funder>
-      </titleStmt>
-      <editionStmt>
-        <edition>1.0</edition>
-      </editionStmt>
-      <extent>
-        <measure unit="speeches" quantity="131021" xml:lang="es">131,021 intervenciones</measure>
-        <measure unit="speeches" quantity="131021" xml:lang="en">131,021 speeches</measure>
-        <measure unit="words" quantity="42283448" xml:lang="es">42,283,448 palabras</measure>
-        <measure unit="words" quantity="42283448" xml:lang="en">42,283,448 words</measure>
-      </extent>
-      <publicationStmt>
-        <publisher>
-          <orgName xml:lang="es">Instituto Universitario de Análisis y Aplicaciones Textuales</orgName>
-          <orgName xml:lang="en">University Institute for Textual Analysis and Applications</orgName>
-          <ref target="https://iatext.ulpgc.es/">www.iatext.ulpgc.es</ref>
-        </publisher>
-        <idno type="URI" subtype="handle">http://hdl.handle.net/</idno>
-        <availability status="free">
-          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-          <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
-          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
-        </availability>
-        <date when="2025-05-27">2025-05-27</date>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl>
-          <title type="main" xml:lang="es">Parlamento de Canarias. Diario de sesiones</title>
-          <title type="main" xml:lang="en">Parliament of the Canary Islands. Sessions diary</title>
-          <idno type="URI" subtype="parliament">https://www.parcan.es/</idno>
-          <date from="1991-06-25" to="2021-01-26">1991-06-25 – 2021-01-26</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <projectDesc>
-        <p xml:lang="en">
-          <ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
-        <p xml:lang="es">
-          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-        </p>
-      </projectDesc>
-      <editorialDecl>
-        <correction>
-          <p xml:lang="en">Correction of source texts was performed.</p>
-        </correction>
-        <normalization>
-          <p xml:lang="en">Text has been normalised</p>
-        </normalization>
-        <hyphenation>
-          <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
-        </hyphenation>
-        <quotation>
-          <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
-        </quotation>
-        <segmentation>
-          <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
-        </segmentation>
-      </editorialDecl>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="body" occurs="953" />
-          <tagUsage gi="desc" occurs="29606" />
-          <tagUsage gi="div" occurs="5453" />
-          <tagUsage gi="head" occurs="4588" />
-          <tagUsage gi="incident" occurs="19650" />
-          <tagUsage gi="kinesic" occurs="6995" />
-          <tagUsage gi="link" occurs="49366594" />
-          <tagUsage gi="linkGrp" occurs="1497317" />
-          <tagUsage gi="name" occurs="1675103" />
-          <tagUsage gi="pc" occurs="6142937" />
-          <tagUsage gi="s" occurs="1497317" />
-          <tagUsage gi="seg" occurs="407656" />
-          <tagUsage gi="text" occurs="953" />
-          <tagUsage gi="u" occurs="131021" />
-          <tagUsage gi="vocal" occurs="2961" />
-          <tagUsage gi="w" occurs="44160500" />
-        </namespace>
-      </tagsDecl>
-      <classDecl>
-        <xi:include href="ParlaMint-taxonomy-NER.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
-        <xi:include href="ParlaMint-taxonomy-UD-SYN.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
-        <xi:include href="ParlaMint-taxonomy-parla.legislature.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
-        <xi:include href="ParlaMint-taxonomy-politicalOrientation.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
-        <xi:include href="ParlaMint-taxonomy-speaker_types.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
-        <xi:include href="ParlaMint-taxonomy-subcorpus.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
-        <xi:include href="ParlaMint-taxonomy-CHES.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
-      </classDecl>
-      <listPrefixDef>
-        <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
-          <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
-        </prefixDef>
-      </listPrefixDef>
-      <appInfo>
-        <application ident="UDPipe" version="2">
-          <label>UDPipe 2 (spanish-gsd-ud-2.15-241121 model)</label>
-          <desc xml:lang="en">POS tagging, lemmatization and dependency parsing done with UDPipe 2 (<ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>) with spanish-gsd-ud-2.15-241121 model</desc>
-        </application>
-        <application ident="NameTag" version="3">
-          <label>NameTag 3 (nametag3-multilingual-conll-250203 model)</label>
-          <desc>Name entity recognition done with NameTag 3 (<ref target="http://ufal.mff.cuni.cz/nametag/3">http://ufal.mff.cuni.cz/nametag/3</ref>) with nametag3-multilingual-conll-250203 model.</desc>
-        </application>
-      </appInfo>
-    </encodingDesc>
-    <profileDesc>
-      <settingDesc>
-        <setting>
-          <name type="address">C/Teobaldo Power, 7, 38002</name>
-          <name type="city">Santa Cruz de Tenerife</name>
-          <name type="country" key="ES">Spain</name>
-          <date from="1991-06-25" to="2021-01-26">1991-06-25 - 2021-01-26</date>
-        </setting>
-      </settingDesc>
-      <textClass>
-        <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.bi #parla.lower" />
-      </textClass>
-      <particDesc>
-        <xi:include href="ParlaMint-ES-CN-listOrg.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
-        <xi:include href="ParlaMint-ES-CN-listPerson.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
-      </particDesc>
-      <langUsage>
-        <language ident="es" xml:lang="es">Español</language>
-        <language ident="es" xml:lang="en">Spanish</language>
-        <language ident="en" xml:lang="es">Inglés</language>
-        <language ident="en" xml:lang="en">English</language>
-      </langUsage>
-    </profileDesc>
-  </teiHeader>
-  <xi:include href="1993/ParlaMint-ES-CN_1993-01-27-PC930127.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
-  <xi:include href="2000/ParlaMint-ES-CN_2000-01-12-PC000112.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
-  <xi:include href="2010/ParlaMint-ES-CN_2010-02-09-PC100209.ana.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
+           xml:lang="es"
+           xml:id="ParlaMint-ES-CN.ana">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="es">Corpus parlamentario en español ParlaMint-ES-CN [ParlaMint.ana]</title>
+            <title type="main" xml:lang="en">Spanish parliamentary corpus ParlaMint-ES-CN [ParlaMint.ana]</title>
+            <title type="sub" xml:lang="es">Actas del Parlamento de Canarias, legislaturas III-X (1991-2021)</title>
+            <title type="sub" xml:lang="en">Proceedings of the Parliament of the Canary Islands, terms 3-10 (1991-2021)</title>
+            <meeting n="3" corresp="#PC" ana="#parla.lower #parla.term #PC.3"/>
+            <meeting n="4" corresp="#PC" ana="#parla.lower #parla.term #PC.4"/>
+            <meeting n="5" corresp="#PC" ana="#parla.lower #parla.term #PC.5"/>
+            <meeting n="6" corresp="#PC" ana="#parla.lower #parla.term #PC.6"/>
+            <meeting n="7" corresp="#PC" ana="#parla.lower #parla.term #PC.7"/>
+            <meeting n="8" corresp="#PC" ana="#parla.lower #parla.term #PC.8"/>
+            <meeting n="9" corresp="#PC" ana="#parla.lower #parla.term #PC.9"/>
+            <meeting n="10" corresp="#PC" ana="#parla.lower #parla.term #PC.10"/>
+            <respStmt>
+               <persName ref="https://www.linkedin.com/in/pedro-cano-gonzalez-952011203/">Pedro Cano González</persName>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+               <resp xml:lang="en">Quality Control</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-9221-664X">Francisco Javier Carreras Riudavets</persName>
+               <resp xml:lang="en">Data retrieval</resp>
+               <resp xml:lang="en">Linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-1657-4020">Zenón José Hernández Figueroa</persName>
+               <resp xml:lang="en">Data retrieval</resp>
+               <resp xml:lang="en">Linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mar Hernández Marrero</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="es">Instituto Universitario de Análisis y Aplicaciones Textuales</orgName>
+               <orgName xml:lang="en">University Institute for Textual Analysis and Applications</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="es">Ministerio de Ciencia e Innovación</orgName>
+               <orgName xml:lang="en">Ministry of Science and Innovation of Spain</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="656" xml:lang="es">656 intervenciones</measure>
+            <measure unit="speeches" quantity="656" xml:lang="en">656 speeches</measure>
+            <measure unit="words" quantity="170691" xml:lang="es">170,691 palabras</measure>
+            <measure unit="words" quantity="170691" xml:lang="en">170,691 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="es">Instituto Universitario de Análisis y Aplicaciones Textuales</orgName>
+               <orgName xml:lang="en">University Institute for Textual Analysis and Applications</orgName>
+               <ref target="https://iatext.ulpgc.es/">www.iatext.ulpgc.es</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2025-06-04">2025-06-04</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="es">Parlamento de Canarias. Diario de sesiones</title>
+               <title type="main" xml:lang="en">Parliament of the Canary Islands. Sessions diary</title>
+               <idno type="URI" subtype="parliament">https://www.parcan.es/</idno>
+               <date from="1991-06-25" to="2021-01-26">1991-06-25 – 2021-01-26</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a
+    project that aims to (1) create a multilingual set of comparable corpora of parliamentary
+    proceedings uniformly encoded according to the
+    <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, 
+    covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and
+    machine-translate them to English; (3) make the corpora available through concordancers; and
+    (4) build use cases in Political Sciences and Digital Humanities based on the corpus
+    data.</p>
+            <p xml:lang="es">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p xml:lang="en">Correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p xml:lang="en">Text has been normalised</p>
+            </normalization>
+            <hyphenation>
+               <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
+            </hyphenation>
+            <quotation>
+               <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="3"/>
+               <tagUsage gi="desc" occurs="186"/>
+               <tagUsage gi="div" occurs="48"/>
+               <tagUsage gi="head" occurs="46"/>
+               <tagUsage gi="incident" occurs="132"/>
+               <tagUsage gi="kinesic" occurs="43"/>
+               <tagUsage gi="link" occurs="199391"/>
+               <tagUsage gi="linkGrp" occurs="5386"/>
+               <tagUsage gi="name" occurs="6104"/>
+               <tagUsage gi="pc" occurs="25288"/>
+               <tagUsage gi="s" occurs="5386"/>
+               <tagUsage gi="seg" occurs="2115"/>
+               <tagUsage gi="text" occurs="3"/>
+               <tagUsage gi="u" occurs="656"/>
+               <tagUsage gi="vocal" occurs="11"/>
+               <tagUsage gi="w" occurs="177496"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-NER.ana.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-politicalOrientation.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-CHES.xml"/>
+         </classDecl>
+         <listPrefixDef>
+            <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <appInfo>
+            <application ident="UDPipe" version="2">
+               <label>UDPipe 2 (spanish-gsd-ud-2.15-241121 model)</label>
+               <desc xml:lang="en">POS tagging, lemmatization and dependency parsing done with UDPipe 2 (<ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>) with spanish-gsd-ud-2.15-241121 model</desc>
+            </application>
+            <application ident="NameTag" version="3">
+               <label>NameTag 3 (nametag3-multilingual-conll-250203 model)</label>
+               <desc>Name entity recognition done with NameTag 3 (<ref target="http://ufal.mff.cuni.cz/nametag/3">http://ufal.mff.cuni.cz/nametag/3</ref>) with nametag3-multilingual-conll-250203 model.</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">C/Teobaldo Power, 7, 38002</name>
+               <name type="city">Santa Cruz de Tenerife</name>
+               <name type="country" key="ES">Spain</name>
+               <date from="1991-06-25" to="2021-01-26">1991-06-25 - 2021-01-26</date>
+            </setting>
+         </settingDesc>
+         <textClass>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
+                    target="#parla.bi #parla.lower"/>
+         </textClass>
+         <particDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-ES-CN-listOrg.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-ES-CN-listPerson.xml"/>
+         </particDesc>
+         <langUsage>
+            <language ident="es" xml:lang="es">Español</language>
+            <language ident="es" xml:lang="en">Spanish</language>
+            <language ident="en" xml:lang="es">Inglés</language>
+            <language ident="en" xml:lang="en">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="1993/ParlaMint-ES-CN_1993-01-27-PC930127.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="2000/ParlaMint-ES-CN_2000-01-12-PC000112.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="2010/ParlaMint-ES-CN_2010-02-09-PC100209.ana.xml"/>
 </teiCorpus>
