@@ -128,22 +128,22 @@ if ($langs !~ /,/) {$checkLang = $langs}
 else {($checkLang) = $langs =~ /(.+?),/}
 $command = "$Saxon meta=$rootAnaFile -xsl:$scriptConvert {} > $outDir/{/.}.conllu";
 `cat $fileFile | $Para '$command'`;
-`find $outDir -name '*.conllu' -exec rename 's/\.ana//' {} +`;
+`find $outDir -name '*.conllu' -type f -exec rename 's/\.ana//' {} +`;
 $command = "python3 $scriptValid --lang $checkLang --level 1 {}";
-`find $outDir -name '*.conllu' -print | $Para '$command'`;
+`find $outDir -name '*.conllu' -type f -print | $Para '$command'`;
 $command = "python3 $scriptValid --lang $checkLang --level 2 {}"
     unless defined $MT; #MTed corpora do not have syntactic parses
-`find $outDir -name '*.conllu' -print | $Para '$command'`;
+`find $outDir -name '*.conllu' -type f -print | $Para '$command'`;
 
 # Now produce CoNLL-Us for separate langauges, if we have them
 if ($langs =~ /,/) {
     foreach $lang (split(/,\s*/, $langs)) {
         $command = "$Saxon meta=$rootAnaFile seg-lang=$lang -xsl:$scriptConvert {} > $outDir/{/.}-$lang.conllu";
         `cat $fileFile | $Para '$command'`;
-        `find $outDir -name '*.conllu' -exec rename 's/\.ana//' {} +`;
+        `find $outDir -name '*.conllu' -type f -exec rename 's/\.ana//' {} +`;
         $command = "python3 $scriptValid --lang $lang --level 1 {}";
-        `find $outDir -name '*.conllu' -print | $Para '$command'`;
+        `find $outDir -name '*.conllu' -type f -print | $Para '$command'`;
         $command = "python3 $scriptValid --lang $lang --level 2 {}";
-        `find $outDir -name '*.conllu' -print | $Para '$command'`;
+        `find $outDir -name '*.conllu' -type f -print | $Para '$command'`;
     }
 }

@@ -71,4 +71,4 @@ foreach my $outLang (@outLangs) {
 	`cat $fileFile | $Para '$command'`;
     }
 }
-`find $outDir -name '*-meta*.tsv' -exec rename 's/\.ana//' {} +`;
+`find $outDir -name '*-meta*.tsv' -type f -exec rename 's/\.ana//' {} +`;

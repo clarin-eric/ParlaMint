@@ -77,7 +77,7 @@ close TMP;
 $command = "$Saxon meta=$rootAnaFile out-lang=en " .
     "-xsl:$TEI2VERT {} | $POLISH > $outDir/{/.}.vert";
 `cat $fileFile | $Para '$command'`;
-`find $outDir -name '*.vert' -exec rename 's/\.ana//' {} +`;
+`find $outDir -name '*.vert' -type f -exec rename 's/\.ana//' {} +`;
 
 &dirify($outDir);
 
