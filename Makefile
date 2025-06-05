@@ -166,8 +166,9 @@ $(initTaxonomy4translation-XX-tt): initTaxonomy4translation-%:
 	make initTaxonomy-$($@_XX)--$($@_tt) LANG-CODE-LIST="$($@_langs)"
 
 
+## validateTaxonomies-XX ## validate taxonomies in folder ParlaMint-XX
 validateTaxonomies-XX = $(addprefix validateTaxonomies-, $(PARLIAMENTS))
-$(validateTaxonomies-XX): validateTaxonomies-%: $(addprefix validateTaxonomy-%--, $(TAXONOMIES-TRANSLATE))
+$(validateTaxonomies-XX): validateTaxonomies-%: $(addprefix validateTaxonomy-%--, $(TAXONOMIES-TRANSLATE)) validateTaxonomiesSpecific-%
 
 validateTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix validateTaxonomy-${X}--, $(TAXONOMIES-TRANSLATE) ) )
 $(validateTaxonomy-XX-tt): validateTaxonomy-%:
@@ -178,6 +179,20 @@ $(validateTaxonomy-XX-tt): validateTaxonomy-%:
 	&& echo OK \
 	|| echo -n "\nERROR: validation failed  " ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`,"\n"
 
+
+## validateTaxonomiesSpecific-XX ## validate corpus-specific taxonomies in folder ParlaMint-XX
+validateTaxonomiesSpecific-XX = $(addprefix validateTaxonomiesSpecific-, $(PARLIAMENTS))
+$(validateTaxonomiesSpecific-XX): validateTaxonomiesSpecific-%: 
+	@find -H ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-$*-taxonomy*.xml" -exec make _validateTaxonomySpecific CORPUS=$* SPECIFICTAXONOMY={} \;
+
+_validateTaxonomySpecific:
+	@echo -n "INFO: validating ${CORPUS}-specific taxonomy ${SPECIFICTAXONOMY}\n"
+	@grep -Ho 'id="[^"]*"' ${SPECIFICTAXONOMY} \
+	  | grep -vP '(ParlaMint-${CORPUS}-taxonomy.*)\.xml:id="\1"' \
+		| sed 's/\(.*\):id="\(.*\)"/ERROR: Missing prefix "${CORPUS}-" id "\2" in \1/'
+	@${vch_taxonomy} ${SPECIFICTAXONOMY} \
+	&& echo schema OK \
+	|| echo -n "\nERROR: schema validation failed ${SPECIFICTAXONOMY}\n"
 
 #	@cp ${SHARED}/Taxonomies/`echo -n '$*.xml' | sed 's/^.*--//'` \
 #	   ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`
