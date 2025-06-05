@@ -96,6 +96,8 @@ setup-parliament-newInParlaMint2:
 	make setup-parliament PARLIAMENT-NAME='Bosnia and Herzegovina' PARLIAMENT-CODE='BA' LANG-LIST='bs (Bosnian)'
 	make setup-parliament PARLIAMENT-NAME='Serbia' PARLIAMENT-CODE='RS' LANG-LIST='sr (Serbian)'
 
+setup-parliament-CanaryIslands:
+	make setup-parliament PARLIAMENT-NAME='Canary Islands' PARLIAMENT-CODE='ES-CN' LANG-LIST='es (Spanish)'
 
 ## initTaxonomies-XX ## initialize taxonomies in folder ParlaMint-XX
 #### parameter LANG-CODE-LIST can contain space separated list of languages
