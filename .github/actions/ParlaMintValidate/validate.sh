@@ -28,6 +28,7 @@ for parla in $(jq -r '.[]' <<< $1 ); do
   else
     echo "::warning:: INFO initialize taxonomies with no translations - check if correct(known) ids has been used"
     make initTaxonomies-$parla
+    make validateTaxonomies-$parla | sed "s/^\(.*\)\(\berror\b\)/::error:: \1\2/i" | tee $DIR/taxonomies.log
   fi
 
   if [ -f "${DATADIR}/ParlaMint-$parla/ParlaMint-$parla.xml" ] ; then
