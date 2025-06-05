@@ -6,6 +6,12 @@
       <term>Sentiment</term>: 3 and 6 class sentiment labels following the <ref target="http://hdl.handle.net/11356/1868">Multilingual sentiment dataset of parliamentary debates ParlaSent 1.0</ref>; the values given in the category descriptions are as returned by the <ref target="https://huggingface.co/classla/xlm-r-parlasent">ParlaSent classifier</ref> trained on ParlaSent 1.0.</desc>
    <desc n="ParlaMint-CZ" xml:lang="cs">
       <term>Sentiment</term>: 3 a 6 kategorijní sentiment, podle <ref target="http://hdl.handle.net/11356/1868">Multilingual sentiment dataset of parliamentary debates ParlaSent 1.0</ref>; hodnoty dány pv popisech kategorií jsou výstupem <ref target="https://huggingface.co/classla/xlm-r-parlasent">ParlaSent classifier</ref> trénovaným na ParlaSent 1.0.</desc>
+   <desc n="ParlaMint-IS" xml:lang="is">
+      <term>Lyndi</term>: Þriggja og sex flokka lyndismörk sem fylgja<ref target="http://hdl.handle.net/11356/1868">Multilingual sentiment dataset of parliamentary debates ParlaSent 1.0</ref>
+      ; þau gildi sem eru uppgefin hér að neðan eru þau sem
+      <ref target="https://huggingface.co/classla/xlm-r-parlasent">ParlaSent classifier&gt;</ref>
+      skilar en hann er þjálfaður á ParlaSent 1.0.
+   </desc>
    <desc n="ParlaMint-SI" xml:lang="sl">
       <term>Sentiment</term>: 3 in 6 kategorij sentimenta, ki sledijo <ref target="http://hdl.handle.net/11356/1868">Multilingual sentiment dataset of parliamentary debates ParlaSent 1.0</ref>; vrednosti podane v opisih kategorij so kot jih vrne <ref target="https://huggingface.co/classla/xlm-r-parlasent">klasifikator ParlaSent</ref> izšolan na ParlaSent 1.0.</desc>
    <category xml:id="Neg">
@@ -13,6 +19,8 @@
          <term>Negative</term>: value &lt; 1.5</catDesc>
       <catDesc n="ParlaMint-CZ" xml:lang="cs">
          <term>Negativní</term>: hodnota &lt; 1.5</catDesc>
+      <catDesc n="ParlaMint-IS" xml:lang="is">
+         <term>Neikvæðni</term>: gildi &lt; 1.5</catDesc>
       <catDesc n="ParlaMint-SI" xml:lang="sl">
          <term>Negativen</term>: vrednost &lt; 1.5</catDesc>
       <category xml:id="negneg">
@@ -20,6 +28,8 @@
             <term>negative</term>: value &lt; 0.5</catDesc>
          <catDesc n="ParlaMint-CZ" xml:lang="cs">
             <term>negativní</term>: hodnota &lt; 0.5</catDesc>
+         <catDesc n="ParlaMint-IS" xml:lang="is">
+            <term>neikvæðini</term>: gildi &lt; 0.5</catDesc>
          <catDesc n="ParlaMint-SI" xml:lang="sl">
             <term>negativen</term>: vrednost &lt; 0.5</catDesc>
       </category>
@@ -28,6 +38,8 @@
             <term>mixed negative</term>: Mixed negative, interval [0.5, 1.5)</catDesc>
          <catDesc n="ParlaMint-CZ" xml:lang="cs">
             <term>smíšeně negativní</term>: Smíšeně negativní, interval [0.5, 1.5)</catDesc>
+         <catDesc n="ParlaMint-IS" xml:lang="is">
+            <term>blönduð neikvæðni</term>: Blönduð neikvæðni, millibil [0.5, 1.5)</catDesc>
          <catDesc n="ParlaMint-SI" xml:lang="sl">
             <term>mešano negativen</term>: Mešano negativen, interval [0.5, 1.5)</catDesc>
       </category>
@@ -37,6 +49,8 @@
          <term>Neutral</term>: interval [1.5, 3.5)</catDesc>
       <catDesc n="ParlaMint-CZ" xml:lang="cs">
          <term>Neutrální</term>: interval [1.5, 3.5)</catDesc>
+      <catDesc n="ParlaMint-IS" xml:lang="is">
+         <term>Hlutleysi</term>: millibil [1.5, 3.5)</catDesc>
       <catDesc n="ParlaMint-SI" xml:lang="sl">
          <term>Nevtralen</term>: interval [1.5, 3.5)</catDesc>
       <category xml:id="neuneg">
@@ -44,6 +58,8 @@
             <term>neutral negative</term>: interval [1.5, 2.5)</catDesc>
          <catDesc n="ParlaMint-CZ" xml:lang="cs">
             <term>neutrálně negativní</term>: interval [1.5, 2.5)</catDesc>
+         <catDesc n="ParlaMint-IS" xml:lang="is">
+            <term>neikvætt hlutleysi</term>: millibil [1.5, 2.5)</catDesc>
          <catDesc n="ParlaMint-SI" xml:lang="sl">
             <term>nevtralno negativen</term>: interval [1.5, 2.5)</catDesc>
       </category>
@@ -52,6 +68,8 @@
             <term>neutral postive</term>: interval [2.5, 3.5)</catDesc>
          <catDesc n="ParlaMint-CZ" xml:lang="cs">
             <term>neutrálně pozitivní</term>: interval [2.5, 3.5)</catDesc>
+         <catDesc n="ParlaMint-IS" xml:lang="is">
+            <term>jákvætt hlutleysi</term>: millibil [2.5, 3.5)</catDesc>
          <catDesc n="ParlaMint-SI" xml:lang="sl">
             <term>nevtralno pozitiven</term>: interval [2.5, 3.5)</catDesc>
       </category>
@@ -61,6 +79,8 @@
          <term>Positive</term>: value &gt;= 3.5</catDesc>
       <catDesc n="ParlaMint-CZ" xml:lang="cs">
          <term>Pozitivní</term>: hodnota &gt;= 3.5</catDesc>
+      <catDesc n="ParlaMint-IS" xml:lang="is">
+         <term>Jákvæðni</term>: gildi &gt;= 3.5</catDesc>
       <catDesc n="ParlaMint-SI" xml:lang="sl">
          <term>Pozitiven</term>: vrednost &gt;= 3.5</catDesc>
       <category xml:id="mixpos">
@@ -68,6 +88,8 @@
             <term>mixed positive</term>: interval [3.5, 4.5)</catDesc>
          <catDesc n="ParlaMint-CZ" xml:lang="cs">
             <term>smíšeně pozitivní</term>: interval [3.5, 4.5)</catDesc>
+         <catDesc n="ParlaMint-IS" xml:lang="is">
+            <term>blönduð jákvæðni</term>: millibil [3.5, 4.5)</catDesc>
          <catDesc n="ParlaMint-SI" xml:lang="sl">
             <term>mešano pozitiven</term>: interval [3.5, 4.5)</catDesc>
       </category>
@@ -76,6 +98,8 @@
             <term>positive</term>: value &gt;= 4.5</catDesc>
          <catDesc n="ParlaMint-CZ" xml:lang="cs">
             <term>pozitivní</term>: hodnota &gt;= 4.5</catDesc>
+         <catDesc n="ParlaMint-IS" xml:lang="is">
+            <term>jákvæðni</term>: gildi &gt;= 4.5</catDesc>
          <catDesc n="ParlaMint-SI" xml:lang="sl">
             <term>pozitiven</term>: vrednost &gt;= 4.5</catDesc>
       </category>
