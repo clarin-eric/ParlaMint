@@ -38,6 +38,7 @@ $country2lang{'DK'} = 'da';
 $country2lang{'EE'} = 'et';
 $country2lang{'ES'} = 'es';
 $country2lang{'ES-AN'} = 'es';
+$country2lang{'ES-CN'} = 'es';
 $country2lang{'ES-CT'} = 'ca, es';
 $country2lang{'ES-GA'} = 'gl';
 $country2lang{'ES-PV'} = 'eu, es';
