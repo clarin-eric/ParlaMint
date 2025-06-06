@@ -183,16 +183,48 @@ $(validateTaxonomy-XX-tt): validateTaxonomy-%:
 ## validateTaxonomiesSpecific-XX ## validate corpus-specific taxonomies in folder ParlaMint-XX
 validateTaxonomiesSpecific-XX = $(addprefix validateTaxonomiesSpecific-, $(PARLIAMENTS))
 $(validateTaxonomiesSpecific-XX): validateTaxonomiesSpecific-%: 
-	@find -H ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-$*-taxonomy*.xml" -exec make _validateTaxonomySpecific CORPUS=$* SPECIFICTAXONOMY={} \;
+	@find -H ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-$*-taxonomy*.xml" -exec make --no-print-directory _validateTaxonomySpecific CORPUS=$* SPECIFICTAXONOMY={} \;
 
 _validateTaxonomySpecific:
 	@echo -n "INFO: validating ${CORPUS}-specific taxonomy ${SPECIFICTAXONOMY}\n"
-	@grep -Ho 'id="[^"]*"' ${SPECIFICTAXONOMY} \
-	  | grep -vP '(ParlaMint-${CORPUS}-taxonomy.*)\.xml:id="\1"' \
-		| sed 's/\(.*\):id="\(.*\)"/ERROR: Missing prefix "${CORPUS}-" id "\2" in \1/'
+	@grep -Ho 'xml:id="[^"]*"' ${SPECIFICTAXONOMY} \
+	  | grep -vP '(ParlaMint-${CORPUS}-taxonomy.*)\.xml:xml:id="\1"' \
+		| sed 's/\(.*\):xml:id="\(.*\)"/ERROR: Missing prefix "${CORPUS}-" in xml:id="\2" in \1/'
 	@${vch_taxonomy} ${SPECIFICTAXONOMY} \
 	&& echo schema OK \
 	|| echo -n "\nERROR: schema validation failed ${SPECIFICTAXONOMY}\n"
+
+uniqIdsTaxonomies-XX = $(addprefix uniqIdsTaxonomies-, $(PARLIAMENTS))
+
+$(uniqIdsTaxonomies-XX): uniqIdsTaxonomies-%:
+	@{ if cat ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}/ParlaMint-*taxonomy*.xml|grep -o 'xml:id="[^"]*"'|sort| uniq -d | grep . >/dev/null; then \
+		echo "ERROR: duplicate IDs found"; exit 1; \
+	  else \
+		echo "INFO: No duplicit IDs in taxonomies"; \
+	  fi; }
+
+patchTaxonomiesSpecific-XX = $(addprefix patchTaxonomiesSpecific-, $(PARLIAMENTS))
+$(patchTaxonomiesSpecific-XX): patchTaxonomiesSpecific-%: uniqIdsTaxonomies-%
+	@mkdir ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}.patchTaxonomiesSpecific
+	@rsync -av --quiet --include='*/' --include='*.xml' --exclude='*' ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}/ ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}.patchTaxonomiesSpecific/
+	@find -H ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-$*-taxonomy*.xml" -exec make --no-print-directory _patchTaxonomySpecific-getIds CORPUS=$* SPECIFICTAXONOMY={} \; \
+	  > ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}.patchTaxonomiesSpecific/taxonomy-ids.patch
+	@echo "INFO: Patching ids and references to $*-specific taxonomies"
+	@echo -n "INFO: IDs = { "
+	@cat ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}.patchTaxonomiesSpecific/taxonomy-ids.patch | tr "\n" " " 
+	@echo "}"
+	@find ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}.patchTaxonomiesSpecific -type f -name "*.xml" \
+	 | parallel --gnu --halt 2 --jobs 10  'perl ./Scripts/patch-replaceIDs.pl -prefix $* -ids ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}.patchTaxonomiesSpecific/taxonomy-ids.patch < {} > {}.tmp && mv {}.tmp {}'
+	@rm ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}.patchTaxonomiesSpecific/taxonomy-ids.patch
+	@echo "INFO: Taxonomies and references patched: ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}.patchTaxonomiesSpecific"
+
+
+
+_patchTaxonomySpecific-getIds:
+	@grep -Ho 'xml:id="[^"]*"' ${SPECIFICTAXONOMY} \
+	  | grep -vP '(ParlaMint-${CORPUS}-taxonomy.*)\.xml:xml:id="\1"' \
+		| sed 's/"$$//;s/.*="//'
+
 
 #	@cp ${SHARED}/Taxonomies/`echo -n '$*.xml' | sed 's/^.*--//'` \
 #	   ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`
