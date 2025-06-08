@@ -77,8 +77,11 @@ test-tei2:
 	${FINALIZE} -valid -codes SI -in ${HERE}/Distro -out ${HERE}/Distro
 test-tei1:
 	${FINALIZE} -tei -codes BG -in ${HERE}/Sources-TEI -out ${HERE}/Distro
-test-vert6:
+test-vert7:
 	../Scripts/parlamintp-tei2vert-xx.pl ${HERE}/Distro/ParlaMint-LV.TEI.ana Test/ParlaMint-LV-xx.vert
+test-vert6:
+	$s meta=../Build/Distro/ParlaMint-HU-en.TEI.ana/ParlaMint-HU-en.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
+	../Build/Distro/ParlaMint-HU-en.TEI.ana/2015/ParlaMint-HU-en_2015-06-16.ana.xml  > Test/test-HU.vert
 test-vert5:
 	$s meta=../Build/Distro/ParlaMint-SI.TEI.ana/ParlaMint-SI.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
 	../Build/Distro/ParlaMint-SI.TEI.ana/2020/ParlaMint-SI_2020-03-13-SDZ8-Izredna-31.ana.xml  > Test/test-SI.vert
