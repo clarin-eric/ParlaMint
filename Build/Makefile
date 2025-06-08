@@ -71,6 +71,8 @@ source-metadata:
 ###### Various tests
 test:
 	date
+test-relation:
+	$s -xsl:../Scripts/validate-parlamint-relation.xsl ${HERE}/Distro/ParlaMint-IL.TEI/ParlaMint-IL-listOrg.xml
 test-tei2:
 	${FINALIZE} -valid -codes SI -in ${HERE}/Distro -out ${HERE}/Distro
 test-tei1:
