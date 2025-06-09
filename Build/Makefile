@@ -88,8 +88,10 @@ test-vert2:
 test-vert1:
 	${FINALIZE} -vert -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
 	${FINALIZE} -vert -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
+test-conll6:
+	../Scripts/parlamintp2conllu.pl -jobs 5 -in ../Build/Test/ParlaMint-AT -out ../Build/Test
 test-conll5:
-	../Scripts/parlamintp2conllu.pl -jobs 1 -in ../Build/Sources-TEI/ParlaMint-AT.TEI.ana -out ../Build/Test
+	../Scripts/parlamintp2conllu.pl -jobs 5 -in ../Build/Sources-TEI/ParlaMint-LV.TEI.ana -out ../Build/Test
 test-conll4:
 	$s meta=../Build/Distro/ParlaMint-SI.TEI.ana/ParlaMint-SI.ana.xml \
 	-xsl:../Scripts/parlamint2conllu.xsl ../Build/Distro/ParlaMint-SI.TEI.ana/2000/ParlaMint-SI_2000-10-27-SDZ3-Redna-01.ana.xml \
@@ -100,6 +102,8 @@ test-conll2:
 	${FINALIZE} -conll -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
 test-conll1:
 	${FINALIZE} -conll -codes UA -in ${HERE}/Distro -out ${HERE}/Distro
+test-meta7:
+	../Scripts/parlamintp-tei2meta.pl -inRoot Test/ParlaMint-AT/ParlaMint-AT.ana.xml -out Test
 test-meta6:
 	$s out-lang=en meta=../Build/Sources-TEI/ParlaMint-FR.TEI.ana/ParlaMint-FR.ana.xml -xsl:../Scripts/parlamint2meta.ana.xsl \
 	../Build/Sources-TEI/ParlaMint-FR.TEI.ana/2020/ParlaMint-FR_2020-01-07-O1114.ana.xml > Test/test.ana-meta-en.tsv
@@ -123,7 +127,7 @@ test-meta1:
 test-text1:
 	${FINALIZE} -txt -codes ES -in ${HERE}/Distro -out ${HERE}/Distro
 test-text2:
-	../Scripts/parlamintp-tei2text.pl -jobs 2 -in ../Build/Distro/ParlaMint-SI -out ../Build/Distro/ParlaMint-SI
+	../Scripts/parlamintp-tei2text.pl -jobs 2 -in ../Build/Test/ParlaMint-AT -out ../Build/Test/ParlaMint-AT
 test-valid1:
 	${FINALIZE} -valid -codes SI -in ${HERE}/Distro -out ${HERE}/Distro
 test-fix1:
