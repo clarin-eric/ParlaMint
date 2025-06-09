@@ -64,6 +64,9 @@
             <xsl:when test="normalize-space($from) and normalize-space($to) and
                             normalize-space(@from) and not(normalize-space(@to)) and
                             ($to &lt; @from)">OK</xsl:when>
+            <xsl:when test="normalize-space($from) and normalize-space($to) and
+                            not(normalize-space(@from)) and normalize-space(@to) and
+                            (@to &lt; $from)">OK</xsl:when>
           </xsl:choose>
         </xsl:variable>
         <xsl:if test="not(normalize-space($ok))">
