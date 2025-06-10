@@ -134,7 +134,12 @@
         </xsl:choose>
       </xsl:attribute>
       <xsl:attribute name="content">
-        <xsl:value-of select="normalize-space(.)"/>
+        <!-- Remove backslashes as these are used for quoting in CQL + quote quotes -->
+        <xsl:value-of select="normalize-space(
+                              replace(
+                              replace(., '\\', ''),
+                              '&quot;', '\\&quot;')
+                              )"/>
       </xsl:attribute>
     </note>
     <xsl:text>&#10;</xsl:text>
