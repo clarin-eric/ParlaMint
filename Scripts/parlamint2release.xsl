@@ -2,13 +2,14 @@
 <!-- Prepare a ParlaMint corpus for a release, i.e. fix known and automatically fixable errors in the source corpus -->
 <!-- The script can be used for both corpora in original langauge(s) or for its MTed variant -->
 <!-- Input is either lingustically analysed (.TEI.ana) or "plain text" (.TEI) corpus root file XIncluding the corpus components
-     Note that .TEI still needs access to .TEI.ana as that it where it takes its word extents
+     Note that .TEI still needs access to .TEI.ana as that it where it takes its word measures
      Output is the corresponding .TEI / TEI.ana corpus root and corpus components, in the dicrectory given in the outDir parameter
      If .TEI is processed, the corresponding TEI.ana directory should be given in the anaDir parameter
      STDERR gives a detailed log of changes.
 
      Changes to root file:
      - delete old and now redundant pubPlace
+     - delete non-standard extent/measures
      - insert textClass if missing
      - remove anonymous/unknown speaker (BG, BE, SE)
      - fix some corpus-dependent (GB) orgs and affiliations 
@@ -18,6 +19,7 @@
      - remove affiliations where to < from
 
      Changes to component files:
+     - delete non-standard extent/measures
      - add meeting reference to corpus specific parliamentary body of the meeting, if missing
      - change #parla.meeting.unregistered to #parla.meeting (IS)
      - change badly formed title (RS)
@@ -209,7 +211,10 @@
       <xsl:apply-templates mode="root" select="*"/>
     </xsl:copy>
   </xsl:template>
-  
+
+  <!-- We remove individually inserted non-speech and non-word measures as we don't trust them -->
+  <xsl:template mode="root" match="tei:extent/tei:measure[@unit != 'speeches' and @unit != 'words']"/>
+    
   <xsl:template mode="root" match="tei:langUsage/tei:language">
     <xsl:copy>
       <xsl:apply-templates mode="root" select="@*"/>
@@ -633,6 +638,9 @@
     </xsl:copy>
   </xsl:template>
   
+  <!-- We remove individually inserted non-speech and non-word measures as we don't trust them -->
+  <xsl:template mode="comp" match="tei:extent/tei:measure[@unit != 'speeches' and @unit != 'words']"/>
+
   <!-- Some specific corpora are missing reference to the parliamentary body of the meeting, add it -->
   <!-- Note that add-common-content takes care of this too in a more general setting -->
   <xsl:template mode="comp" match="tei:meeting">
