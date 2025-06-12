@@ -10,6 +10,9 @@
       <term>Sentiment</term>: 3 a 6 kategorijní sentiment, podle <ref target="http://hdl.handle.net/11356/1868">Multilingual sentiment dataset of parliamentary debates ParlaSent 1.0</ref>; hodnoty dány pv popisech kategorií jsou výstupem <ref target="https://huggingface.co/classla/xlm-r-parlasent">ParlaSent classifier</ref> trénovaným na ParlaSent 1.0.</desc>
    <desc n="ParlaMint-GR" xml:lang="el">
       <term>Συναίσθημα</term>: κλάση ετικετών με 3 και 6 τιμές συναισθήματος που ακολουθούν το <ref target="http://hdl.handle.net/11356/1868">Πολυγλωσσικό σύνολο δεδομένων συναισθήματος των κοινοβουλευτικών συζητήσεων ParlaSent 1.0.</ref>; Οι τιμές που δίνονται στις περιγραφές των κατηγοριών είναι όπως επιστρέφονται από τον <ref target="https://huggingface.co/classla/xlm-r-parlasent">ταξινομητή ParlaSent</ref> που έχει εκπαιδευτεί στο ParlaSent 1.0.</desc>
+   <desc n="ParlaMint-ES-GA" xml:lang="gl">
+      <term>Sentimento</term>: Etiquetas de sentimento de 3 e 6 clases segundo o <ref target="http://hdl.handle.net/11356/1868">Conxunto de datos multilingües para análise de sentimento en debates parlamentarios ParlaSent 1.0</ref>; os valores indicados nas descricións das categorías son os devoltos polo <ref target="https://huggingface.co/classla/xlm-r-parlasent">clasificador ParlaSent</ref> adestrado sobre ParlaSent 1.0.
+   </desc>
    <desc n="ParlaMint-IS" xml:lang="is">
       <term>Lyndi</term>: Þriggja og sex flokka lyndismörk sem fylgja <ref target="http://hdl.handle.net/11356/1868">Multilingual sentiment dataset of parliamentary debates ParlaSent 1.0</ref>; þau gildi sem eru uppgefin hér að neðan eru þau sem <ref target="https://huggingface.co/classla/xlm-r-parlasent">ParlaSent classifier</ref> skilar en hann er þjálfaður á ParlaSent 1.0.</desc>
    <desc n="ParlaMint-NL" xml:lang="nl">
@@ -35,6 +38,8 @@
          <term>Negativní</term>: hodnota &lt; 1.5</catDesc>
       <catDesc n="ParlaMint-GR" xml:lang="el">
          <term>Αρνητικό</term>: τιμή &lt; 1.5</catDesc>
+      <catDesc n="ParlaMint-ES-GA" xml:lang="gl">
+         <term>Negativo</term>: valor &lt; 1.5</catDesc>
       <catDesc n="ParlaMint-IS" xml:lang="is">
          <term>Neikvæðni</term>: gildi &lt; 1.5</catDesc>
       <catDesc n="ParlaMint-NL" xml:lang="nl">
@@ -56,6 +61,8 @@
             <term>negativní</term>: hodnota &lt; 0.5</catDesc>
          <catDesc n="ParlaMint-GR" xml:lang="el">
             <term>αρνητικό</term>: τιμή &lt; 0.5</catDesc>
+         <catDesc n="ParlaMint-ES-GA" xml:lang="gl">
+            <term>negativo</term>: valor &lt; 0.5</catDesc>
          <catDesc n="ParlaMint-IS" xml:lang="is">
             <term>neikvæðini</term>: gildi &lt; 0.5</catDesc>
          <catDesc n="ParlaMint-NL" xml:lang="nl">
@@ -78,6 +85,8 @@
             <term>smíšeně negativní</term>: interval [0.5, 1.5)</catDesc>
          <catDesc n="ParlaMint-GR" xml:lang="el">
             <term>μικτό αρνητικό</term>: Μικτό αρνητικό, διάστημα [0.5, 1.5)</catDesc>
+         <catDesc n="ParlaMint-ES-GA" xml:lang="gl">
+            <term>negativo mixto</term>: Negativo mixto, intervalo [0.5, 1.5)</catDesc>
          <catDesc n="ParlaMint-IS" xml:lang="is">
             <term>blönduð neikvæðni</term>: millibil [0.5, 1.5)</catDesc>
          <catDesc n="ParlaMint-NL" xml:lang="nl">
@@ -101,6 +110,8 @@
          <term>Neutrální</term>: interval [1.5, 3.5)</catDesc>
       <catDesc n="ParlaMint-GR" xml:lang="el">
          <term>Ουδέτερο</term>: διάστημα [1.5, 3.5)</catDesc>
+      <catDesc n="ParlaMint-ES-GA" xml:lang="gl">
+         <term>Neutro</term>: intervalo [1.5, 3.5)</catDesc>
       <catDesc n="ParlaMint-IS" xml:lang="is">
          <term>Hlutleysi</term>: millibil [1.5, 3.5)</catDesc>
       <catDesc n="ParlaMint-NL" xml:lang="nl">
@@ -122,6 +133,8 @@
             <term>neutrálně negativní</term>: interval [1.5, 2.5)</catDesc>
          <catDesc n="ParlaMint-GR" xml:lang="el">
             <term>ουδέτερα αρνητικό</term>: διάστημα [1.5, 2.5)</catDesc>
+         <catDesc n="ParlaMint-ES-GA" xml:lang="gl">
+            <term>neutro negativo</term>: intervalo [1.5, 2.5)</catDesc>
          <catDesc n="ParlaMint-IS" xml:lang="is">
             <term>neikvætt hlutleysi</term>: millibil [1.5, 2.5)</catDesc>
          <catDesc n="ParlaMint-NL" xml:lang="nl">
@@ -144,6 +157,8 @@
             <term>neutrálně pozitivní</term>: interval [2.5, 3.5)</catDesc>
          <catDesc n="ParlaMint-GR" xml:lang="el">
             <term>ουδέτερα θετικό</term>: διάστημα [2.5, 3.5)</catDesc>
+         <catDesc n="ParlaMint-ES-GA" xml:lang="gl">
+            <term>neutro positivo</term>: intervalo [2.5, 3.5)</catDesc>
          <catDesc n="ParlaMint-IS" xml:lang="is">
             <term>jákvætt hlutleysi</term>: millibil [2.5, 3.5)</catDesc>
          <catDesc n="ParlaMint-NL" xml:lang="nl">
@@ -167,6 +182,8 @@
          <term>Pozitivní</term>: hodnota &gt;= 3.5</catDesc>
       <catDesc n="ParlaMint-GR" xml:lang="el">
          <term>Θετικό</term>: τιμή &gt;= 3.5</catDesc>
+      <catDesc n="ParlaMint-ES-GA" xml:lang="gl">
+         <term>Positivo</term>: valor &gt;= 3.5</catDesc>
       <catDesc n="ParlaMint-IS" xml:lang="is">
          <term>Jákvæðni</term>: gildi &gt;= 3.5</catDesc>
       <catDesc n="ParlaMint-NL" xml:lang="nl">
@@ -188,6 +205,8 @@
             <term>smíšeně pozitivní</term>: interval [3.5, 4.5)</catDesc>
          <catDesc n="ParlaMint-GR" xml:lang="el">
             <term>μικτό θετικό</term>: διάστημα [3.5, 4.5)</catDesc>
+         <catDesc n="ParlaMint-ES-GA" xml:lang="gl">
+            <term>positivo mixto</term>: intervalo [3.5, 4.5)</catDesc>
          <catDesc n="ParlaMint-IS" xml:lang="is">
             <term>blönduð jákvæðni</term>: millibil [3.5, 4.5)</catDesc>
          <catDesc n="ParlaMint-NL" xml:lang="nl">
@@ -210,6 +229,8 @@
             <term>pozitivní</term>: hodnota &gt;= 4.5</catDesc>
          <catDesc n="ParlaMint-GR" xml:lang="el">
             <term>θετικό</term>: τιμή &gt;= 4.5</catDesc>
+         <catDesc n="ParlaMint-ES-GA" xml:lang="gl">
+            <term>positivo</term>: valor &gt;= 4.5</catDesc>
          <catDesc n="ParlaMint-IS" xml:lang="is">
             <term>jákvæðni</term>: gildi &gt;= 4.5</catDesc>
          <catDesc n="ParlaMint-NL" xml:lang="nl">
