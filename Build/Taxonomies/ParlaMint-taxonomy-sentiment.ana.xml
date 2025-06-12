@@ -20,6 +20,12 @@
       <term>Sentiment</term>: 3 in 6 kategorij sentimenta, ki sledijo <ref target="http://hdl.handle.net/11356/1868">Multilingual sentiment dataset of parliamentary debates ParlaSent 1.0</ref>; vrednosti podane v opisih kategorij so kot jih vrne <ref target="https://huggingface.co/classla/xlm-r-parlasent">klasifikator ParlaSent</ref> izšolan na ParlaSent 1.0.</desc>
    <desc n="ParlaMint-TR" xml:lang="tr">
       <term>Duygu analizi</term>: <ref target="http://hdl.handle.net/11356/1868">çokdilli meclis tartışmaları duygu analizi verisi ParlaSent 1.0</ref>'a göre 3 ve 6 sınıf duygu analizi etiketleri; kategori tanımlarındaki değerler ParlaSent 1.0'la eğitilen <ref target="https://huggingface.co/classla/xlm-r-parlasent">ParlaSent classifier</ref> çıktısıdır.</desc>
+   <desc n="ParlaMint-UA" xml:lang="uk">
+      <term>Оцінна забарвленість</term>: розмітка трикомпонентної та шестикомпонентної шкали оцінки згідно з <ref target="http://hdl.handle.net/11356/1868">Multilingual sentiment dataset of parliamentary debates ParlaSent 1.0</ref>
+      значення, наведені в описах категорій, було отримано завдяки
+      <ref target="https://huggingface.co/classla/xlm-r-parlasent">класифікатору ParlaSent,</ref>
+      навченому на масиві даних
+   </desc>
    <category xml:id="Neg">
       <catDesc xml:lang="en">
          <term>Negative</term>: value &lt; 1.5</catDesc>
@@ -39,6 +45,8 @@
          <term>Negativen</term>: vrednost &lt; 1.5</catDesc>
       <catDesc n="ParlaMint-TR" xml:lang="tr">
          <term>Negatif</term>: değer &lt; 1.5</catDesc>
+      <catDesc n="ParlaMint-UA" xml:lang="uk">
+         <term>Негативна</term>: значення &lt; 1.5</catDesc>
       <category xml:id="negneg">
          <catDesc xml:lang="en">
             <term>negative</term>: value &lt; 0.5</catDesc>
@@ -58,6 +66,8 @@
             <term>negativen</term>: vrednost &lt; 0.5</catDesc>
          <catDesc n="ParlaMint-TR" xml:lang="tr">
             <term>negatif</term>: değer &lt; 0.5</catDesc>
+         <catDesc n="ParlaMint-UA" xml:lang="uk">
+            <term>негативна</term>: значення &lt; 0.5</catDesc>
       </category>
       <category xml:id="mixneg">
          <catDesc xml:lang="en">
@@ -78,6 +88,8 @@
             <term>mešano negativen</term>: interval [0.5, 1.5)</catDesc>
          <catDesc n="ParlaMint-TR" xml:lang="tr">
             <term>karışık negatif</term>: aralık [0.5, 1.5)</catDesc>
+         <catDesc n="ParlaMint-UA" xml:lang="uk">
+            <term>змішана негативна</term>: інтервал [0.5, 1.5)</catDesc>
       </category>
    </category>
    <category xml:id="Neu">
@@ -99,6 +111,8 @@
          <term>Nevtralen</term>: interval [1.5, 3.5)</catDesc>
       <catDesc n="ParlaMint-TR" xml:lang="tr">
          <term>Nötr</term>: aralık [1.5, 3.5)</catDesc>
+      <catDesc n="ParlaMint-UA" xml:lang="uk">
+         <term>Нейтральна</term>: інтервал [1.5, 3.5)</catDesc>
       <category xml:id="neuneg">
          <catDesc xml:lang="en">
             <term>neutral negative</term>: interval [1.5, 2.5)</catDesc>
@@ -118,6 +132,8 @@
             <term>nevtralno negativen</term>: interval [1.5, 2.5)</catDesc>
          <catDesc n="ParlaMint-TR" xml:lang="tr">
             <term>nötr nagatif</term>: aralık [1.5, 2.5)</catDesc>
+         <catDesc n="ParlaMint-UA" xml:lang="uk">
+            <term>нейтральна негативна</term>: інтервал [1.5, 2.5)</catDesc>
       </category>
       <category xml:id="neupos">
          <catDesc xml:lang="en">
@@ -138,6 +154,8 @@
             <term>nevtralno pozitiven</term>: interval [2.5, 3.5)</catDesc>
          <catDesc n="ParlaMint-TR" xml:lang="tr">
             <term>nötr pozitif</term>: aralık [2.5, 3.5)</catDesc>
+         <catDesc n="ParlaMint-UA" xml:lang="uk">
+            <term>нейтральна позитивна</term>: інтервал [2.5, 3.5)</catDesc>
       </category>
    </category>
    <category xml:id="Pos">
@@ -159,6 +177,8 @@
          <term>Pozitiven</term>: vrednost &gt;= 3.5</catDesc>
       <catDesc n="ParlaMint-TR" xml:lang="tr">
          <term>Pozitif</term>: değer &gt;= 3.5</catDesc>
+      <catDesc n="ParlaMint-UA" xml:lang="uk">
+         <term>Позитивна</term>: значення &gt;= 3.5</catDesc>
       <category xml:id="mixpos">
          <catDesc xml:lang="en">
             <term>mixed positive</term>: interval [3.5, 4.5)</catDesc>
@@ -178,6 +198,8 @@
             <term>mešano pozitiven</term>: interval [3.5, 4.5)</catDesc>
          <catDesc n="ParlaMint-TR" xml:lang="tr">
             <term>karışık pozitif</term>: aralık [3.5, 4.5)</catDesc>
+         <catDesc n="ParlaMint-UA" xml:lang="uk">
+            <term>змішана позитивна</term>: інтервал [3.5, 4.5)</catDesc>
       </category>
       <category xml:id="pospos">
          <catDesc xml:lang="en">
@@ -198,6 +220,8 @@
             <term>pozitiven</term>: vrednost &gt;= 4.5</catDesc>
          <catDesc n="ParlaMint-TR" xml:lang="tr">
             <term>pozitif</term>: değer &gt;= 4.5</catDesc>
+         <catDesc n="ParlaMint-UA" xml:lang="uk">
+            <term>позитивна</term>: значення &gt;= 4.5</catDesc>
       </category>
    </category>
 </taxonomy>
