@@ -120,6 +120,19 @@ $(copyTaxonomy-XX-tt): copyTaxonomy-%:
 	  ${SHARED}/Taxonomies/`echo -n '$*.xml' | sed 's/^.*--//'` \
 	  > ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`
 
+initTaxonomies4release-XX = $(addprefix initTaxonomies4release-, $(PARLIAMENTS))
+$(initTaxonomies4release-XX): initTaxonomies4release-%: $(addprefix initTaxonomy4release-%--, $(TAXONOMIES-TRANSLATE)) $(addprefix copyTaxonomy-%--, $(TAXONOMIES-COPY))
+
+
+initTaxonomy4release-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix initTaxonomy4release-${X}--, $(TAXONOMIES-TRANSLATE) ) )
+$(initTaxonomy4release-XX-tt): initTaxonomy4release-%:
+	$(eval $@_XX := $(shell echo -n '$*' | sed 's/--.*$$//'))
+	$(eval $@_tt := $(shell echo -n '$*' | sed 's/^.*--//'))
+	$(eval $@_langs := $(shell grep 'ParlaMint-$($@_XX)$$' ${SHARED}/Taxonomies/taxonomy-translation-include.tsv|cut -f1|tr "\n" " "|sed "s/ $$//"))
+	@echo "INFO: ParlaMint $($@_XX)"
+	@echo "INFO: Taxonomy $($@_tt)"
+	@echo "INFO: Languages $($@_langs)"
+	make initTaxonomy-$($@_XX)--$($@_tt) LANG-CODE-LIST="$($@_langs)"
 
 
 translateTaxonomies-XX = $(addprefix translateTaxonomies-, $(PARLIAMENTS))
@@ -146,6 +159,7 @@ $(translateTaxonomy-XX-tt): translateTaxonomy-%:
 	      langs="$($@_langs) -" \
 	      -xsl:Scripts/parlamint-add-translation-to-taxonomy.xsl \
 	      ${SHARED}/Taxonomies/$($@_tt).xml \
+		    | perl Scripts/polish-xml.pl \
 	      > tmp/temporary-taxonomy.xml \
 	&& echo -n "INFO: validating output taxonomy with new translations: " \
 	&& ${vch_taxonomy} tmp/temporary-taxonomy.xml \
