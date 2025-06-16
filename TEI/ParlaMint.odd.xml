@@ -11,8 +11,7 @@
      xml:lang="en" n="tei_clarin">
   
   <!-- To do:
-       - need a better introduction and discussions of samples 
-       - maybe even more constrained schema
+       - a better introduction and discussions of samples 
   -->
   
   <teiHeader>
@@ -25,7 +24,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2025-02-15</date>
+        <date>2025-06-13</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,6 +47,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
+      <change when="2025-06-13">Tomaž Erjavec: Add discussion on local taxonomy IDs and topic and sentiment taxonomies.</change>
       <change when="2025-02-15">Tomaž Erjavec: Allow ref/@xml:lang and several publisher/ref.</change>
       <change when="2025-01-28">Tomaž Erjavec: Allow ref/@xml:lang and several publisher/ref.</change>
       <change when="2025-01-13">Tomaž Erjavec: Add discussion on overlapping dates in "Temporal" section.</change>
@@ -79,8 +79,8 @@
           <titlePart type="main">The structure and encoding of
           <ref target="https://github.com/clarin-eric/ParlaMint">ParlaMint corpora</ref></titlePart>
         </docTitle>
-        <!--docEdition>v4.2</docEdition-->
-        <docDate>2025-02-15</docDate>
+        <!--docEdition>v5.0</docEdition-->
+        <docDate>2025-06-13</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -1161,7 +1161,7 @@
             <head>Class declaration and taxonomies</head>
             
             <p>The class declaration, <gi>classDecl</gi> is used only in the corpus root and
-            contains only definitions of some controlled vocabularies used in ParlaMint corpora.
+            contains only definitions of (most) controlled vocabularies used in ParlaMint corpora.
             These vocabularies, possibly hierarchically organised, are encoded using the
             <gi>taxonomy</gi> element.</p>
 
@@ -1185,10 +1185,11 @@
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
       href="ParlaMint-taxonomy-CHES.xml"/>                 <!-- Common taxonomy on CHES variables of pol. parties -->
 </classDecl>]]></egXML>
+
             As can be seen, three of the taxonomies are general ParlaMint taxonomies, while
             two are corpus specific, and are distinguished by including the country code
             <code>CZ</code> (followed by hyphen) into the filename.</p>
-            
+
             <p>To illustrate the structure of a taxonomy element, we give below the simplest
             common taxonomy (and include only the descriptions in English), which contains the
             categories that define the three subcorpora of a ParlaMint corpus:
@@ -1224,6 +1225,27 @@
             meaning in its <gi>catDesc</gi> elements, which should always first contain the
             short name of the category, encoded in the <gi>term</gi> element.</p>
 
+            <p>Please note that the identifiers (i.e. values of the <att>xml:id</att> attributes) in the
+            corpus specific taxonomies <hi>must</hi> start with the country or region code of the corpus followed by a hyphen,
+            in order not to conflict with present of future ParlaMint corpus-wide identifiers.
+            For example, the category identifiers in the Czech specific <code>ParlaMint-CZ-taxonomy-meeting.parts.xml</code>
+            mentioned above, have to be prefixed by <code>CZ-</code>, as shown in the following example:
+
+            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-taxo-corpspecific">
+              <taxonomy xml:id="ParlaMint-CZ-taxonomy-meeting.parts"
+                        xml:lang="mul">
+                ...
+                <category xml:id="CZ-parla.agenda">
+                  <catDesc xml:lang="cs">
+                    <term>Bod jednání</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                  <term>Agenda</term>: topic discussed during sitting</catDesc>
+                </category>
+              </taxonomy>
+            </egXML>
+            </p>
+            
             <p>ParlaMint requires several taxonomies to be defined in the class declaration
             of the corpus root (as well as a additionaly ones for the linguistically annotated
             corpus, as further described in the Section on <ref target="#sec-ana-metadata">Linguistic metadata</ref>).
@@ -1251,9 +1273,13 @@
               Chapel Hill Survey on political parties (cf. the Section on
               <ref target="#sec-parties">Political parties and parliamentary groups</ref>).</item>
               
+              <item>The <hi>CAP topics</hi> taxonomy, which gives
+              <ref target="https://www.comparativeagendas.net/pages/master-codebook">major topic labels</ref> of the
+              Comparative Agendas Project.</item>
+              
             </list>
             </p>
-            <p>Furhtermore, there are two obligatory taxonomies which pertain to the linguistically analysed
+            <p>Furhtermore, there are several obligatory taxonomies which pertain to the linguistically analysed
             version of the corpus only, cf. the Section on <ref target="#sec-ana-taxo">Linguistic taxonomies</ref>.</p>
             
           </div>
@@ -3097,7 +3123,35 @@
             <code>_</code>, to enable correct referencing of these IDs, as discussed in the
             Section on <ref target="#sec-parses">Syntactic parses</ref>.</p>
 
-            <p>The third taxonomy is only relevant for the machine translated corpora
+            <p>The third taxonomy gives the sentiment classes with which version 5 of the ParlaMint corpora have been annotated.
+            The sentiment annotation is given as a real number, however, for easier usage of sentiment information the numbers
+            have been converted to discrete classes, and the sentiment taxonomy gives the main three classes (negative, neutral
+            and positive sentiment) as well as six subordinate classes (e.g. "mixed negative"), as well as detailing the number intervales
+            corresponding to each class.
+            
+            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-ana-taxonomy-senti">
+              <taxonomy xml:id="ParlaMint-taxonomy-sentiment.ana"
+                        xml:lang="mul">
+                <desc xml:lang="en">
+                <term>Sentiment</term>: 3 and 6 class sentiment labels following ...</desc>
+                <category xml:id="Neg">
+                  <catDesc xml:lang="en">
+                  <term>Negative</term>: value &lt; 1.5</catDesc>
+                  <category xml:id="negneg">
+                    <catDesc xml:lang="en">
+                    <term>negative</term>: value &lt; 0.5</catDesc>
+                  </category>
+                  <category xml:id="mixneg">
+                    <catDesc xml:lang="en">
+                    <term>mixed negative</term>: Mixed negative, interval [0.5, 1.5)</catDesc>
+                  </category>
+                </category>
+                ...
+              </taxonomy>
+            </egXML>
+            </p>
+            
+            <p>The fourth taxonomy is only relevant for the machine translated corpora
             (cf. the Section on <ref target="#sec-mt">Translations of corpora</ref>) and gives the
             categories of the <ref target="https://ucrel.lancs.ac.uk/usas/">USAS semantic tags</ref>
             (for their encoding in the corpora cf. the Section on <ref target="#sec-semantics">Semantic annotation</ref>).
