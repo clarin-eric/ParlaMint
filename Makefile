@@ -963,6 +963,12 @@ $(fix-v2tov3-full-XX): fix-v2tov3-full-%: % working-dir-% fix-v2tov3-%
 	rsync -av ${WORKINGDIR}/fix-v2tov3/ParlaMint-$<${CORPUSDIR_SUFFIX}/ ${WORKINGDIR}/fix-v2tov3-full/ParlaMint-$<${CORPUSDIR_SUFFIX}
 	rsync -av ${WORKINGDIR}/fix-overlapping-affiliations/ParlaMint-$<${CORPUSDIR_SUFFIX}/ ${WORKINGDIR}/fix-v2tov3-full/ParlaMint-$<${CORPUSDIR_SUFFIX}
 
+##! DEV-polish-XML## polish file in XMLFILE variable
+DEV-polish-XML: $(XMLFILE)
+	file --mime-type $(XMLFILE) | grep -q 'text/xml'
+	cat $(XMLFILE) | perl Scripts/polish-xml.pl > $(XMLFILE).POLISHED
+	mv $(XMLFILE).POLISHED $(XMLFILE)
+
 
 ##! DEV-data-XX-clone-in-subfolder##
 DEV-data-XX-clone-in-subfolder:
