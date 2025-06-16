@@ -110,7 +110,7 @@ $(initTaxonomy-XX-tt): initTaxonomy-%:
 	@test -z "$(LANG-CODE-LIST)" && echo "WARNING: no language specified in " `echo -n '$*' | sed 's/^.*--//'` " taxonomy preparation" || echo "INFO: preparing " `echo -n '$*' | sed 's/^.*--//'` "taxonomy"
 	@${s} langs="$(LANG-CODE-LIST)" parlamint="ParlaMint-"`echo -n '$*' | sed 's/--.*$$//'` -xsl:Scripts/parlamint-init-taxonomy.xsl \
 	  ${SHARED}/Taxonomies/`echo -n '$*.xml' | sed 's/^.*--//'` \
-		| perl Scripts/polish-xml.pl \
+		| ${formatAndPolish} \
 	  > ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`
 
 copyTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix copyTaxonomy-${X}--, $(TAXONOMIES-COPY) ) )
@@ -159,7 +159,7 @@ $(translateTaxonomy-XX-tt): translateTaxonomy-%:
 	      langs="$($@_langs) -" \
 	      -xsl:Scripts/parlamint-add-translation-to-taxonomy.xsl \
 	      ${SHARED}/Taxonomies/$($@_tt).xml \
-		    | perl Scripts/polish-xml.pl \
+		    | ${formatAndPolish} \
 	      > tmp/temporary-taxonomy.xml \
 	&& echo -n "INFO: validating output taxonomy with new translations: " \
 	&& ${vch_taxonomy} tmp/temporary-taxonomy.xml \
@@ -963,10 +963,10 @@ $(fix-v2tov3-full-XX): fix-v2tov3-full-%: % working-dir-% fix-v2tov3-%
 	rsync -av ${WORKINGDIR}/fix-v2tov3/ParlaMint-$<${CORPUSDIR_SUFFIX}/ ${WORKINGDIR}/fix-v2tov3-full/ParlaMint-$<${CORPUSDIR_SUFFIX}
 	rsync -av ${WORKINGDIR}/fix-overlapping-affiliations/ParlaMint-$<${CORPUSDIR_SUFFIX}/ ${WORKINGDIR}/fix-v2tov3-full/ParlaMint-$<${CORPUSDIR_SUFFIX}
 
-##! DEV-polish-XML## polish file in XMLFILE variable
-DEV-polish-XML: $(XMLFILE)
+##! DEV-format-and-polish-XML## format and polish file in XMLFILE variable
+DEV-format-and-polish-XML: $(XMLFILE)
 	file --mime-type $(XMLFILE) | grep -q 'text/xml'
-	cat $(XMLFILE) | perl Scripts/polish-xml.pl > $(XMLFILE).POLISHED
+	cat $(XMLFILE) | ${formatAndPolish} > $(XMLFILE).POLISHED
 	mv $(XMLFILE).POLISHED $(XMLFILE)
 
 
@@ -1054,6 +1054,7 @@ vcontent = -xsl:Scripts/validate-parlamint.xsl
 getincludes = -I % java -cp ./Scripts/bin/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
 getheaderincludes = -I % java -cp ./Scripts/bin//saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="teiHeader"]//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
 getcomponentincludes = -I % java -cp ./Scripts/bin/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'/*/*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
+formatAndPolish = xmllint --format - | sed 's/  /   /g' | perl Scripts/polish-xml.pl
 pc =  $j Schema/parla-clarin.rng                # Validate with Parla-CLARIN schema
 vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text
