@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <taxonomy xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-taxonomy-CHES" xml:lang="en">
-  <desc xml:lang="en"><term>CHES variables</term>: Taxonomy of identifiers from the Chapel Hill Expert Survey (CHES) trend files: <ref target="https://www.chesdata.eu/s/1999-2019_CHES_codebook.pdf">1999-2019 Codebook</ref> and <ref target="https://www.chesdata.eu/s/2019_CHES_codebook.pdf">2019 Codebook</ref>.</desc> 
-  <category xml:id="ches.general">
+  <desc xml:lang="en"><term>CHES variables</term>: Taxonomy of identifiers from the Chapel Hill Expert Survey (CHES) trend files: <ref target="https://www.chesdata.eu/s/1999-2019_CHES_codebook.pdf">1999-2019 Codebook</ref> and <ref target="https://www.chesdata.eu/s/2019_CHES_codebook.pdf">2019 Codebook</ref>.</desc>  <category xml:id="ches.general">
     <catDesc xml:lang="en"><term>General indicators</term>: General indicators used to identify basic characteristics of a political party, such as country of origin, number of experts evaluating a party, membership in the EU, etc.</catDesc>
     <category xml:id="ches.country">
       <catDesc xml:lang="en"><term>Country of origin</term>: Unique identifier for each country. For a full list of country identifiers, consult the 1999-2019 Chapel Hill Expert Survey (CHES) trend file Codebook. Note that ths category is not present in the ParlaMint CHES data, as the country is given explicitly for each corpus.</catDesc>
@@ -10,8 +9,7 @@
       <catDesc xml:lang="en"><term>Eastern-western origin</term>: Origin of a political party, indicating whether the party originates from Central/Eastern Europe or whether it is one of the original 15 members of the EU (EU-15). Values: 0 = party from Central/Eastern Europe, 1 = party from EU-15.</catDesc>
     </category>
     <category xml:id="ches.eumember">
-      <catDesc xml:lang="en"><term>EU Membership status</term>: political party membership status in European Union during a specific year.
-      Values: 0 = not an EU member in that year, 1 = EU member in that year.</catDesc>
+      <catDesc xml:lang="en"><term>EU Membership status</term>: political party membership status in European Union during a specific year. Values: 0 = not an EU member in that year, 1 = EU member in that year.</catDesc>
     </category>
     <category xml:id="ches.year">
       <catDesc xml:lang="en"><term>Year of evaluation</term>: year for which party experts were asked to evaluate: 1999, 2002, 2006, 2010, 2014, 2019. Note that ths category is not present in the ParlaMint CHES data, as the year is given explicitly for each variable value.</catDesc>
@@ -105,8 +103,7 @@
       <catDesc xml:lang="en"><term>EU enlargement to Turkey</term>: position of the party leadership in a specified year on EU enlargement to Turkey. Values range from 1 - 7, 1 = Strongly opposes, 7 = Strongly favors.</catDesc>
     </category>
   </category>
-  
-  <category xml:id="ches.ideological">
+ <category xml:id="ches.ideological">
     <catDesc xml:lang="en"><term>Ideological positions</term>: Indicators of the political party's ideological stance on general, economic, social, and cultural issues. Unless otherwise indicated, questions are available for the period 1999 - 2019.</catDesc>
     <category xml:id="ches.lrgen">
       <catDesc xml:lang="en"><term>Orientation position</term>: position of political party in terms of its overall ideological stance. Values on a scale from 0 to 10, 0 = extreme left, 5 = centre, 10 = extreme right</catDesc>
@@ -124,8 +121,7 @@
       <catDesc xml:lang="en"><term>Economic ideological position blurriness</term>: how blurry was each party’s position on economic issues in a specific year (only asked in 2019). Values on a scale from 0 to 10;; 0 = Not at all blurred, 10 = Extremely blurred.</catDesc>
     </category>
     <category xml:id="ches.lrecon_sd">
-      <catDesc xml:lang="en"><term>Economic ideological position standard deviation</term>: standard deviation of expert placement of the party in 2019 in terms of its
-      ideological stance on economic issues.</catDesc>
+      <catDesc xml:lang="en"><term>Economic ideological position standard deviation</term>: standard deviation of expert placement of the party in 2019 in terms of its ideological stance on economic issues.</catDesc>
     </category>
     <category xml:id="ches.galtan">
       <catDesc xml:lang="en"><term>Social and cultural ideological position</term>: ideological stance of a political party concerning social and cultural values. "Libertarian" or "postmaterialist" parties favor expanded personal freedoms, for example, abortion rights, divorce, and same-sex marriage. "Traditional" or "authoritarian" parties reject these ideas in favor of order, tradition, and stability, believing that the government should be a firm moral authority on social and cultural issues. Values range on a scale from 0 to 10; 0 = Libertarian/Postmaterialist, 5 = center, 10 = Traditional/Authoritarian</catDesc>
@@ -297,3 +293,4 @@
     </category>
   </category>
 </taxonomy>
+
