@@ -1054,7 +1054,7 @@ vcontent = -xsl:Scripts/validate-parlamint.xsl
 getincludes = -I % java -cp ./Scripts/bin/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
 getheaderincludes = -I % java -cp ./Scripts/bin//saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="teiHeader"]//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
 getcomponentincludes = -I % java -cp ./Scripts/bin/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'/*/*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
-formatAndPolish = tr '\n' ' '| sed 's/  */ /g' | xmllint --format - | sed 's/  /   /g' | sed -E 's/> +([^<]+) +</>\1</g' | perl Scripts/polish-xml.pl
+formatAndPolish = xmllint --format - | sed 's/  /   /g' | perl Scripts/polish-xml.pl
 pc =  $j Schema/parla-clarin.rng                # Validate with Parla-CLARIN schema
 vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text
