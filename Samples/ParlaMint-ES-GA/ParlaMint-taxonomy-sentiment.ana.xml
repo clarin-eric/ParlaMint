@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <taxonomy xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-taxonomy-sentiment.ana" xml:lang="mul">
    <desc xml:lang="en"><term>Sentiment</term>: 3 and 6 class sentiment labels following the <ref target="http://hdl.handle.net/11356/1868">Multilingual sentiment dataset of parliamentary debates ParlaSent 1.0</ref>; the values given in the category descriptions are as returned by the <ref target="https://huggingface.co/classla/xlm-r-parlasent">ParlaSent classifier</ref> trained on ParlaSent 1.0.</desc>
-   <desc xml:lang="es"><term>Sentimiento</term>: Etiquetas de sentimiento de 3 y 6 clases según el<ref target="http://hdl.handle.net/11356/1868">Conjunto de datos multilingües para análisis de sentimiento en debates ParlaSent 1.0</ref>
-      ; los valores indicados en las descripciones de las categorías son los devueltos por el 
-      <ref target="https://huggingface.co/classla/xlm-r-parlasent">clasificador ParlaSent</ref>
-       entrenado sobre ParlaSent 1.0.
-   </desc>
-   <desc xml:lang="gl"><term>Sentimento</term>: Etiquetas de sentimento de 3 e 6 clases segundo o <ref target="http://hdl.handle.net/11356/1868">Conxunto de datos multilingües para análise de sentimento en debates parlamentarios ParlaSent 1.0</ref>; os valores indicados nas descricións das categorías son os devoltos polo <ref target="https://huggingface.co/classla/xlm-r-parlasent">clasificador ParlaSent</ref> adestrado sobre ParlaSent 1.0. </desc>
+   <desc xml:lang="es"><term>Sentimiento</term>: Etiquetas de sentimiento de 3 y 6 clases según el<ref target="http://hdl.handle.net/11356/1868">Conjunto de datos multilingües para análisis de sentimiento en debates ParlaSent 1.0</ref> ; los valores indicados en las descripciones de las categorías son los devueltos por el <ref target="https://huggingface.co/classla/xlm-r-parlasent">clasificador ParlaSent</ref> entrenado sobre ParlaSent 1.0.</desc>
+   <desc xml:lang="gl"><term>Sentimento</term>: Etiquetas de sentimento de 3 e 6 clases segundo o <ref target="http://hdl.handle.net/11356/1868">Conxunto de datos multilingües para análise de sentimento en debates parlamentarios ParlaSent 1.0</ref>; os valores indicados nas descricións das categorías son os devoltos polo <ref target="https://huggingface.co/classla/xlm-r-parlasent">clasificador ParlaSent</ref> adestrado sobre ParlaSent 1.0.</desc>
    <category xml:id="Neg">
       <catDesc xml:lang="en"><term>Negative</term>: value &lt; 1.5</catDesc>
       <catDesc xml:lang="es"><term>Negativo</term>: value &lt; 1.5</catDesc>
@@ -32,7 +28,7 @@
          <catDesc xml:lang="gl"><term>neutro negativo</term>: intervalo [1.5, 2.5)</catDesc>
       </category>
       <category xml:id="neupos">
-         <catDesc xml:lang="en"><term>neutral positive</term>: interval [2.5, 3.5)</catDesc>
+         <catDesc xml:lang="en"><term>neutral postive</term>: interval [2.5, 3.5)</catDesc>
          <catDesc xml:lang="es"><term>neutro positivo</term>: interval [2.5, 3.5)</catDesc>
          <catDesc xml:lang="gl"><term>neutro positivo</term>: intervalo [2.5, 3.5)</catDesc>
       </category>
