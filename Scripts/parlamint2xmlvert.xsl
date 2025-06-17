@@ -138,7 +138,7 @@
         <xsl:value-of select="normalize-space(
                               replace(
                               replace(., '\\', ''),
-                              '&quot;', '\&quot;')
+                              '&quot;', '\\&quot;')
                               )"/>
       </xsl:attribute>
     </note>
