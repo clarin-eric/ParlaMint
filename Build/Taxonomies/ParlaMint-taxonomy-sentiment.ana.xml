@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <taxonomy xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-taxonomy-sentiment.ana" xml:lang="mul">
    <desc xml:lang="en"><term>Sentiment</term>: 3 and 6 class sentiment labels following the <ref target="http://hdl.handle.net/11356/1868">Multilingual sentiment dataset of parliamentary debates ParlaSent 1.0</ref>; the values given in the category descriptions are as returned by the <ref target="https://huggingface.co/classla/xlm-r-parlasent">ParlaSent classifier</ref> trained on ParlaSent 1.0.</desc>
+   <desc n="ParlaMint-BG" xml:lang="bg"><term>Сентимент</term>: 3 и 6 класа названия на сентимент, които следват <ref target="http://hdl.handle.net/11356/1868">Многоезиковия сентимент корпус от парламентарни дебати ПарлаСент 1.0</ref> стойностите, които са дадени в описанията на категориите, се връщат от <ref target="https://huggingface.co/classla/xlm-r-parlasent">класификатора на ПарлаСент</ref>, трениран на ПарлаСент 1.0</desc>
    <desc n="ParlaMint-ES-CT" xml:lang="ca"><term>Sentiment</term>: 3 i 6 etiquetes de sentiment seguint <ref target="http://hdl.handle.net/11356/1868">Joc de dades multilingües de sentiment dels debats parlamentaris ParlaSent 1.0</ref>;	els valors de les descripcions de les categories són les que proporciona <ref target="https://huggingface.co/classla/xlm-r-parlasent">Classificador ParlaSent</ref> entrenat amb ParlaSent 1.0.</desc>
    <desc n="ParlaMint-CZ" xml:lang="cs"><term>Sentiment</term>: 3 a 6 kategorijní sentiment, podle <ref target="http://hdl.handle.net/11356/1868">Multilingual sentiment dataset of parliamentary debates ParlaSent 1.0</ref>; hodnoty dány pv popisech kategorií jsou výstupem <ref target="https://huggingface.co/classla/xlm-r-parlasent">ParlaSent classifier</ref> trénovaným na ParlaSent 1.0.</desc>
    <desc n="ParlaMint-GR" xml:lang="el"><term>Συναίσθημα</term>: κλάση ετικετών με 3 και 6 τιμές συναισθήματος που ακολουθούν το <ref target="http://hdl.handle.net/11356/1868">Πολυγλωσσικό σύνολο δεδομένων συναισθήματος των κοινοβουλευτικών συζητήσεων ParlaSent 1.0.</ref>; Οι τιμές που δίνονται στις περιγραφές των κατηγοριών είναι όπως επιστρέφονται από τον <ref target="https://huggingface.co/classla/xlm-r-parlasent">ταξινομητή ParlaSent</ref> που έχει εκπαιδευτεί στο ParlaSent 1.0.</desc>
@@ -14,6 +15,7 @@
    <desc n="ParlaMint-UA" xml:lang="uk"><term>Оцінна забарвленість</term>: розмітка трикомпонентної та шестикомпонентної шкали оцінки згідно з <ref target="http://hdl.handle.net/11356/1868">Multilingual sentiment dataset of parliamentary debates ParlaSent 1.0</ref> значення, наведені в описах категорій, було отримано завдяки <ref target="https://huggingface.co/classla/xlm-r-parlasent">класифікатору ParlaSent,</ref> навченому на масиві даних</desc>
    <category xml:id="Neg">
       <catDesc xml:lang="en"><term>Negative</term>: value &lt; 1.5</catDesc>
+      <catDesc n="ParlaMint-BG" xml:lang="bg"><term>Негативно</term>: стойност &lt; 1.5</catDesc>
       <catDesc n="ParlaMint-ES-CT" xml:lang="ca"><term>Negatiu</term>: valor &lt; 1.5</catDesc>
       <catDesc n="ParlaMint-CZ" xml:lang="cs"><term>Negativní</term>: hodnota &lt; 1,5</catDesc>
       <catDesc n="ParlaMint-GR" xml:lang="el"><term>Αρνητικό</term>: τιμή &lt; 1.5</catDesc>
@@ -27,6 +29,7 @@
       <catDesc n="ParlaMint-UA" xml:lang="uk"><term>Негативна</term>: значення &lt; 1.5</catDesc>
       <category xml:id="negneg">
          <catDesc xml:lang="en"><term>negative</term>: value &lt; 0.5</catDesc>
+         <catDesc n="ParlaMint-BG" xml:lang="bg"><term>негативно</term>: стойност &lt; 0.5</catDesc>
          <catDesc n="ParlaMint-ES-CT" xml:lang="ca"><term>negatiu</term>: valor &lt; 0.5</catDesc>
          <catDesc n="ParlaMint-CZ" xml:lang="cs"><term>negativní</term>: hodnota &lt; 0,5</catDesc>
          <catDesc n="ParlaMint-GR" xml:lang="el"><term>αρνητικό</term>: τιμή &lt; 0.5</catDesc>
@@ -41,6 +44,7 @@
       </category>
       <category xml:id="mixneg">
          <catDesc xml:lang="en"><term>mixed negative</term>: interval [0.5, 1.5)</catDesc>
+         <catDesc n="ParlaMint-BG" xml:lang="bg"><term>смесено негативно</term>: интервал [0.5, 1.5)</catDesc>
          <catDesc n="ParlaMint-ES-CT" xml:lang="ca"><term>negatiu mixt</term>: interval [0.5, 1.5)</catDesc>
          <catDesc n="ParlaMint-CZ" xml:lang="cs"><term>smíšeně negativní</term>: interval [0,5; 1,5)</catDesc>
          <catDesc n="ParlaMint-GR" xml:lang="el"><term>μικτό αρνητικό</term>: διάστημα [0.5, 1.5)</catDesc>
@@ -56,6 +60,7 @@
    </category>
    <category xml:id="Neu">
       <catDesc xml:lang="en"><term>Neutral</term>: interval [1.5, 3.5)</catDesc>
+      <catDesc n="ParlaMint-BG" xml:lang="bg"><term>Неутрално</term>: интервал [1.5, 3.5)</catDesc>
       <catDesc n="ParlaMint-ES-CT" xml:lang="ca"><term>Neutre</term>: interval [1.5, 3.5)</catDesc>
       <catDesc n="ParlaMint-CZ" xml:lang="cs"><term>Neutrální</term>: interval [1,5; 3,5)</catDesc>
       <catDesc n="ParlaMint-GR" xml:lang="el"><term>Ουδέτερο</term>: διάστημα [1.5, 3.5)</catDesc>
@@ -69,6 +74,7 @@
       <catDesc n="ParlaMint-UA" xml:lang="uk"><term>Нейтральна</term>: інтервал [1.5, 3.5)</catDesc>
       <category xml:id="neuneg">
          <catDesc xml:lang="en"><term>neutral negative</term>: interval [1.5, 2.5)</catDesc>
+         <catDesc n="ParlaMint-BG" xml:lang="bg"><term>неутрално негативно</term>: интервал [1.5, 2.5)</catDesc>
          <catDesc n="ParlaMint-ES-CT" xml:lang="ca"><term>negatiu neutre</term>: interval [1.5, 2.5)</catDesc>
          <catDesc n="ParlaMint-CZ" xml:lang="cs"><term>neutrálně negativní</term>: interval [1,5; 2,5)</catDesc>
          <catDesc n="ParlaMint-GR" xml:lang="el"><term>ουδέτερα αρνητικό</term>: διάστημα [1.5, 2.5)</catDesc>
@@ -83,6 +89,7 @@
       </category>
       <category xml:id="neupos">
          <catDesc xml:lang="en"><term>neutral positive</term>: interval [2.5, 3.5)</catDesc>
+         <catDesc n="ParlaMint-BG" xml:lang="bg"><term>неутрално позитивно</term>: интервал [2.5, 3.5)</catDesc>
          <catDesc n="ParlaMint-ES-CT" xml:lang="ca"><term>positiu neutre</term>: interval [2.5, 3.5)</catDesc>
          <catDesc n="ParlaMint-CZ" xml:lang="cs"><term>neutrálně pozitivní</term>: interval [2,5; 3,5)</catDesc>
          <catDesc n="ParlaMint-GR" xml:lang="el"><term>ουδέτερα θετικό</term>: διάστημα [2.5, 3.5)</catDesc>
@@ -98,6 +105,7 @@
    </category>
    <category xml:id="Pos">
       <catDesc xml:lang="en"><term>Positive</term>: value &gt;= 3.5</catDesc>
+      <catDesc n="ParlaMint-BG" xml:lang="bg"><term>Позитивно</term>: стойност &gt;= 3.5</catDesc>
       <catDesc n="ParlaMint-ES-CT" xml:lang="ca"><term>Positiu</term>: valor &gt;= 3.5</catDesc>
       <catDesc n="ParlaMint-CZ" xml:lang="cs"><term>Pozitivní</term>: hodnota &gt;= 3,5</catDesc>
       <catDesc n="ParlaMint-GR" xml:lang="el"><term>Θετικό</term>: τιμή &gt;= 3.5</catDesc>
@@ -111,6 +119,7 @@
       <catDesc n="ParlaMint-UA" xml:lang="uk"><term>Позитивна</term>: значення &gt;= 3.5</catDesc>
       <category xml:id="mixpos">
          <catDesc xml:lang="en"><term>mixed positive</term>: interval [3.5, 4.5)</catDesc>
+         <catDesc n="ParlaMint-BG" xml:lang="bg"><term>смесено позитивно&gt;</term>: интервал [3.5, 4.5)</catDesc>
          <catDesc n="ParlaMint-ES-CT" xml:lang="ca"><term>positiu mixt</term>: interval [3.5, 4.5)</catDesc>
          <catDesc n="ParlaMint-CZ" xml:lang="cs"><term>smíšeně pozitivní</term>: interval [3,5; 4,5)</catDesc>
          <catDesc n="ParlaMint-GR" xml:lang="el"><term>μικτό θετικό</term>: διάστημα [3.5, 4.5)</catDesc>
@@ -125,6 +134,7 @@
       </category>
       <category xml:id="pospos">
          <catDesc xml:lang="en"><term>positive</term>: value &gt;= 4.5</catDesc>
+         <catDesc n="ParlaMint-BG" xml:lang="bg"><term>позитивно</term>: стойност &gt;= 4.5</catDesc>
          <catDesc n="ParlaMint-ES-CT" xml:lang="ca"><term>positiu</term>: valor &gt;= 4.5</catDesc>
          <catDesc n="ParlaMint-CZ" xml:lang="cs"><term>pozitivní</term>: hodnota &gt;= 4,5</catDesc>
          <catDesc n="ParlaMint-GR" xml:lang="el"><term>θετικό</term>: τιμή &gt;= 4.5</catDesc>
