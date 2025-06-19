@@ -1,45 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <taxonomy xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-taxonomy-sentiment.ana" xml:lang="mul">
    <desc xml:lang="en"><term>Sentiment</term>: 3 and 6 class sentiment labels following the <ref target="http://hdl.handle.net/11356/1868">Multilingual sentiment dataset of parliamentary debates ParlaSent 1.0</ref>; the values given in the category descriptions are as returned by the <ref target="https://huggingface.co/classla/xlm-r-parlasent">ParlaSent classifier</ref> trained on ParlaSent 1.0.</desc>
-   <desc xml:lang="it"><term><!--Sentiment--></term>: <!--3 and 6 class sentiment labels following the --><ref target="http://hdl.handle.net/11356/1868"><!--Multilingual sentiment dataset of parliamentary debates ParlaSent 1.0--></ref>
-      <!--; the values given in the category descriptions are as returned by the -->
-      <ref target="https://huggingface.co/classla/xlm-r-parlasent"><!--ParlaSent classifier--></ref>
-      <!-- trained on ParlaSent 1.0.-->
-   </desc>
+   <desc xml:lang="it"><term>Sentiment</term>: etichette di sentiment a 3 e 6 classi secondo il <ref target="http://hdl.handle.net/11356/1868">Dataset multilingue del sentiment nei dibattiti parlamentari ParlaSent 1.0</ref>; i valori forniti nelle descrizioni delle categorie sono quelli restituiti dal <ref target="https://huggingface.co/classla/xlm-r-parlasent">classificatore ParlaSent</ref> addestrato su ParlaSent 1.0.</desc>
    <category xml:id="Neg">
       <catDesc xml:lang="en"><term>Negative</term>: value &lt; 1.5</catDesc>
-      <catDesc xml:lang="it"><term><!--Negative--></term>: <!--value < 1.5--></catDesc>
+      <catDesc xml:lang="it"><term>Negativo</term>: valore &lt; 1.5</catDesc>
       <category xml:id="negneg">
          <catDesc xml:lang="en"><term>negative</term>: value &lt; 0.5</catDesc>
-         <catDesc xml:lang="it"><term><!--negative--></term>: <!--value < 0.5--></catDesc>
+         <catDesc xml:lang="it"><term>negativo</term>: valore &lt; 0.5</catDesc>
       </category>
       <category xml:id="mixneg">
          <catDesc xml:lang="en"><term>mixed negative</term>: interval [0.5, 1.5)</catDesc>
-         <catDesc xml:lang="it"><term><!--mixed negative--></term>: <!--interval [0.5, 1.5)--></catDesc>
+         <catDesc xml:lang="it"><term>moderatamente negativo</term>: intervallo [0.5, 1.5)</catDesc>
       </category>
    </category>
    <category xml:id="Neu">
       <catDesc xml:lang="en"><term>Neutral</term>: interval [1.5, 3.5)</catDesc>
-      <catDesc xml:lang="it"><term><!--Neutral--></term>: <!--interval [1.5, 3.5)--></catDesc>
+      <catDesc xml:lang="it"><term>Neutrale</term>: intervallo [1.5, 3.5)</catDesc>
       <category xml:id="neuneg">
          <catDesc xml:lang="en"><term>neutral negative</term>: interval [1.5, 2.5)</catDesc>
-         <catDesc xml:lang="it"><term><!--neutral negative--></term>: <!--interval [1.5, 2.5)--></catDesc>
+         <catDesc xml:lang="it"><term>neutrale negativo</term>: intervallo [1.5, 2.5)</catDesc>
       </category>
       <category xml:id="neupos">
          <catDesc xml:lang="en"><term>neutral postive</term>: interval [2.5, 3.5)</catDesc>
-         <catDesc xml:lang="it"><term><!--neutral postive--></term>: <!--interval [2.5, 3.5)--></catDesc>
+         <catDesc xml:lang="it"><term>neutrale positivo</term>: intervallo [2.5, 3.5)</catDesc>
       </category>
    </category>
    <category xml:id="Pos">
       <catDesc xml:lang="en"><term>Positive</term>: value &gt;= 3.5</catDesc>
-      <catDesc xml:lang="it"><term><!--Positive--></term>: <!--value >= 3.5--></catDesc>
+      <catDesc xml:lang="it"><term>Positivo</term>: valore &gt;= 3.5</catDesc>
       <category xml:id="mixpos">
          <catDesc xml:lang="en"><term>mixed positive</term>: interval [3.5, 4.5)</catDesc>
-         <catDesc xml:lang="it"><term><!--mixed positive--></term>: <!--interval [3.5, 4.5)--></catDesc>
+         <catDesc xml:lang="it"><term>moderatamente positivo</term>: intervallo [3.5, 4.5)</catDesc>
       </category>
       <category xml:id="pospos">
          <catDesc xml:lang="en"><term>positive</term>: value &gt;= 4.5</catDesc>
-         <catDesc xml:lang="it"><term><!--positive--></term>: <!--value >= 4.5--></catDesc>
+         <catDesc xml:lang="it"><term>positivo</term>: valore &gt;= 4.5</catDesc>
       </category>
    </category>
 </taxonomy>
