@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ParlaMint-FI.ana" xml:lang="fi">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
+           xmlns:xi="http://www.w3.org/2001/XInclude"
+           xml:id="ParlaMint-FI.ana"
+           xml:lang="fi">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -7,8 +10,12 @@
             <title type="main" xml:lang="fi">Suomalainen parlamentaarinen korpus ParlaMint-FI [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="en">Minutes of the Finnish Parliament's plenary sessions from parliamentary session 2015 to parliamentary session 2021</title>
             <title type="sub" xml:lang="fi">Suomen eduskunnan täysistuntojen pöytäkirjat valtiopäivistä 2015 valtiopäiviin 2021</title>
-            <meeting ana="#parla.term #parla.uni #parl_term.2015" n="2015" corresp="#fi_parliament">2015</meeting>
-            <meeting ana="#parla.term #parla.uni #parl_term.2019" n="2019" corresp="#fi_parliament">2019</meeting>
+            <meeting ana="#parla.term #parla.uni #parl_term.2015"
+                     n="2015"
+                     corresp="#fi_parliament">2015</meeting>
+            <meeting ana="#parla.term #parla.uni #parl_term.2019"
+                     n="2019"
+                     corresp="#fi_parliament">2019</meeting>
             <respStmt>
                <persName>Laura Sinikallio</persName>
                <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
@@ -52,7 +59,7 @@
                <p xml:lang="fi">Tämä aineisto on saatavilla lisenssillä <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-19">2025-06-19</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -65,8 +72,10 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
-            <p xml:lang="fi"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> -projektin tavoitteena on 1) luoda monikielinen, yhtenäisesti koodattu parlamentaaristen aineistojen korpuksen; 2) käsitellä aineisto lingvistisesti; 3) tuoda korpus saataville ladattavana sekä konkordanssihakemistoina; ja 4) kehittää korpuksen aineistoihin pohjautuvia poliittisen tutkimuksen sekä digitaalisten ihmistieteiden käyttötapauksia.</p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="fi">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> -projektin tavoitteena on 1) luoda monikielinen, yhtenäisesti koodattu parlamentaaristen aineistojen korpuksen; 2) käsitellä aineisto lingvistisesti; 3) tuoda korpus saataville ladattavana sekä konkordanssihakemistoina; ja 4) kehittää korpuksen aineistoihin pohjautuvia poliittisen tutkimuksen sekä digitaalisten ihmistieteiden käyttötapauksia.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -157,6 +166,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2025-06-19">
+            <name>GitHub Action</name>: Made sample.</change>
          <change when="2024-07-02">
             <name>Tomaž Erjavec</name>: Made sample.</change>
       </revisionDesc>
@@ -165,4 +176,3 @@
    <xi:include href="2020/ParlaMint-FI_2020-02-18-ps-8.ana.xml"/>
    <xi:include href="2022/ParlaMint-FI_2022-01-25-ps-165.ana.xml"/>
 </teiCorpus>
-
