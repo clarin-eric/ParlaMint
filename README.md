@@ -49,6 +49,9 @@ This Git repository contains the ParlaMint XML schemas, the scripts used to vali
 ParlaMint TEI XML corpora to some useful derived formats, and samples of the ParlaMint corpora.
 Note that there are several branches for different parts of the development.
 
+* The *[Samples](Samples/) folder* contains directories for a particular country or autonomous region
+  that should include samples for all variants and formats of the ParlaMint corpora.
+  The intention is to be able to quickly get an impression of the kind of data included in the corpora.
 * Contributing to ParlaMint repository is described in *[CONTRIBUTING.md](CONTRIBUTING.md) file*
   * git and GitHub setup
   * installing prerequisites
@@ -64,8 +67,6 @@ Note that there are several branches for different parts of the development.
   * convert the TEI encoded corpora to derived formats;
   * add/change common information, currently for V3.0
   * compute some statistics
-* The *[Samples](Samples/) folder* contains directories for a particular country or autonomous region
-  that should include samples for all variants and formats of the ParlaMint corpora
 * The *[Build](Build/) folder* contains the build environemt for a release, and all associated data.
   This consists of the input (source) data, scripts, and Makefile with targets to make a relese.
   Note the the complete corpora are too large to store on GitHub, so most data files are gitignored.
