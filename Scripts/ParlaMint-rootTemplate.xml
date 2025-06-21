@@ -13,10 +13,17 @@
           <persName>Petya Osenova</persName>
           <resp>ParlaMint project coordination</resp>
         </respStmt>
-        <respStmt corresp="ParlaMint:en.TEI.ana">
-          <persName>Taja Kuzman</persName>
+        <respStmt>
           <persName>Nikola Ljubešić</persName>
-          <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
+          <resp>ParlaCap project coordination</resp>
+        </respStmt>
+        <respStmt corresp="ParlaMint:TEI.ana ParlaMint:en.TEI.ana">
+          <persName>Nikola Ljubešić</persName>
+          <resp xml:lang="en">Sentiment annotation of sentences</resp>
+        </respStmt>
+        <respStmt corresp="ParlaMint:TEI ParlaMint:TEI.ana ParlaMint:en.TEI.ana">
+          <persName>Taja Kuzman</persName>
+          <resp xml:lang="en">Topic annotation of utterances</resp>
         </respStmt>
         <respStmt corresp="ParlaMint:en.TEI.ana">
           <persName>Paul Rayson</persName>
@@ -27,12 +34,12 @@
         <respStmt>
           <persName>Tomaž Erjavec</persName>
           <persName>Matyáš Kopp</persName>
-          <resp>ParlaMint corpus encoding validation</resp>
+          <resp>ParlaMint corpus encoding correction and validation</resp>
         </respStmt>
         <funder/>
       </titleStmt>
       <editionStmt>
-        <edition>4.1</edition>
+        <edition>5.0</edition>
       </editionStmt>
       <extent>
         <measure unit="speeches"/>
@@ -43,9 +50,9 @@
           <orgName>CLARIN research infrastructure</orgName>
           <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
         </publisher>
-        <idno corresp="ParlaMint:TEI" subtype="handle" type="URI">http://hdl.handle.net/11356/1912</idno>
-        <idno corresp="ParlaMint:TEI.ana" subtype="handle" type="URI">http://hdl.handle.net/11356/1911</idno>
-        <idno corresp="ParlaMint:en.TEI.ana" subtype="handle" type="URI">http://hdl.handle.net/11356/1910</idno>
+        <idno corresp="ParlaMint:TEI" subtype="handle" type="URI">http://hdl.handle.net/11356/2004</idno>
+        <idno corresp="ParlaMint:TEI.ana" subtype="handle" type="URI">http://hdl.handle.net/11356/2005</idno>
+        <idno corresp="ParlaMint:en.TEI.ana" subtype="handle" type="URI">http://hdl.handle.net/11356/2006</idno>
         <availability status="free">
           <licence>http://creativecommons.org/licenses/by/4.0/</licence>
           <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
