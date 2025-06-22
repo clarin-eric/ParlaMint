@@ -14,6 +14,10 @@
                <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
                <resp xml:lang="en">TEI XML corpus encoding</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <orgName xml:lang="cs">Výzkumná infrastruktura CLARIN</orgName>
@@ -24,12 +28,12 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure unit="speeches" quantity="196185" xml:lang="cs">196.185 promluv</measure>
+            <measure unit="speeches" quantity="196185" xml:lang="cs">196 185 promluv</measure>
             <measure unit="speeches" quantity="196185" xml:lang="en">196,185 speeches</measure>
-            <measure unit="words" quantity="30774250" xml:lang="cs">30.774.250 slov</measure>
+            <measure unit="words" quantity="30774250" xml:lang="cs">30 774 250 slov</measure>
             <measure unit="words" quantity="30774250" xml:lang="en">30,774,250 words</measure>
          </extent>
          <publicationStmt>
@@ -44,7 +48,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="cs">Toto dílo je licencováno <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Uveďte původ 4.0 Mezinárodní Veřejná licence</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-14">2025-06-14</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -101,7 +105,13 @@
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-subcorpus.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-politicalOrientation.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-CHES.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-topic.xml"/>
          </classDecl>
+         <listPrefixDef>
+            <prefixDef ident="topic" matchPattern="(.+)" replacementPattern="#$1">
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the Topic taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+         </listPrefixDef>
       </encodingDesc>
       <profileDesc>
          <settingDesc>
@@ -128,8 +138,12 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-14">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-14">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+         <change when="2025-06-14">parlamint-add-common-content script: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.xml"/>

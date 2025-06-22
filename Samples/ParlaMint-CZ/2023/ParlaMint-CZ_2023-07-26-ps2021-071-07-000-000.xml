@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000" xml:lang="cs" ana="#parla.agenda #covid #war">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000" xml:lang="cs" ana="#CZ-parla.agenda #covid #war">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,10 +10,14 @@
             <meeting ana="#parla.term #parla.lower #parliament.PSP9" n="ps2021" corresp="#parliament.PSP">ps2021</meeting>
             <meeting ana="#parla.meeting #parla.lower" n="ps2021/071" corresp="#parliament.PSP">ps2021/071</meeting>
             <meeting ana="#parla.sitting #parla.lower" n="ps2021/071/07" corresp="#parliament.PSP">ps2021/071/07</meeting>
-            <meeting ana="#parla.agenda #parla.lower" n="ps2021/071/000" corresp="#parliament.PSP">ps2021/071/000</meeting>
+            <meeting ana="#CZ-parla.agenda #parla.lower" n="ps2021/071/000" corresp="#parliament.PSP">ps2021/071/000</meeting>
             <respStmt>
                <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
                <resp xml:lang="en">TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
             </respStmt>
             <funder>
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
@@ -25,12 +29,12 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="33" xml:lang="cs">33 promluv</measure>
             <measure unit="speeches" quantity="33" xml:lang="en">33 speeches</measure>
-            <measure unit="words" quantity="20958" xml:lang="cs">20.958 slov</measure>
+            <measure unit="words" quantity="20958" xml:lang="cs">20 958 slov</measure>
             <measure unit="words" quantity="20958" xml:lang="en">20,958 words</measure>
          </extent>
          <publicationStmt>
@@ -45,7 +49,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="cs">Toto dílo je licencováno <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Uveďte původ 4.0 Mezinárodní Veřejná licence</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-14">2025-06-14</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -114,8 +118,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-14">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war">
@@ -126,7 +132,7 @@
                <time when="2023-07-26T09:00:00">(Jednání pokračovalo v 9.00 hodin.)</time>
             </note>
             <note type="speaker" xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.note2">Místopředsedkyně PSP Olga Richterová</note>
-            <u who="#OlgaRichterova.1985" ana="#chair" xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1" source="https://www.psp.cz/eknih/2021ps/stenprot/071schuz/s071303.htm#r1">
+            <u who="#OlgaRichterova.1985" ana="#chair topic:other" xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1" source="https://www.psp.cz/eknih/2021ps/stenprot/071schuz/s071303.htm#r1">
                <seg xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p1">Vážené paní poslankyně, vážení páni poslanci, vážení členové a členky vlády, zahajuji další jednací den 71. schůze Poslanecké sněmovny a všechny vás zde srdečně vítám. Aby byla zaznamenána naše účast, nejprve vás všechny odhlásím a poprosím, abyste se všichni přihlásili opět svými identifikačními kartami, případně abyste mi oznámili, kdo žádá o vydání karty náhradní.</seg>
                <seg xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p2">Dále sděluji, že o omluvení své neúčasti na dnešním jednání požádali tito poslanci a poslankyně: Věra Adámková se omlouvá z celého jednacího dne z pracovních důvodů, Margita Balaštíková z celého jednacího dne z pracovních důvodů, Jaroslav Bašta z celého jednacího dne ze zdravotních důvodů, Jan Bauer z celého jednacího dne z pracovních důvodů, Roman Bělor od 10.45 do 12.30 hodin z pracovních důvodů, Jana Berkovcová z celého jednacího dne z rodinných důvodů, Josef Bernard z celého jednacího dne z osobních důvodů, Klára Dostálová z celého jednacího dne z rodinných důvodů, Aleš Dufek z celého jednacího dne z rodinných důvodů, Petr Fifka z celého jednacího dne z rodinných důvodů, Romana Fischerová z celého jednacího dne z rodinných důvodů, Stanislav Fridrich z celého jednacího dne z důvodu zahraniční cesty, Jiří Hájek z celého jednacího dne z rodinných důvodů, Šimon Heller z celého jednacího dne z osobních důvodů, Jan Hrnčíř z celého jednacího dne z rodinných důvodů, Ivan Jáč z celého jednacího dne z rodinných důvodů, Marie Jílková z celého jednacího dne z osobních důvodů, Pavel Kašník z celého jednacího dne z osobních důvodů, Jiří Kobza z celého jednacího dne ze zdravotních důvodů, Václav Král z celého jednacího dne z osobních důvodů, Robert Králíček z celého jednacího dne z rodinných důvodů, Jana Krutáková z celého jednacího dne z osobních důvodů, Roman Kubíček z celého jednacího dne ze zdravotních důvodů, Jan Kubík do 11 hodin z pracovních důvodů, Jan Kuchař od 13 hodin z pracovních důvodů, Tomáš Müller z celého jednacího dne ze zdravotních důvodů, Patrik Nacher z celého jednacího dne z rodinných důvodů, Jiří Navrátil z celého jednacího dne z pracovních důvodů, Martina Ochodnická z celého jednacího dne ze zdravotních důvodů, Ladislav Okleštěk z celého jednacího dne ze zdravotních důvodů, Zuzana Ožanová z celého jednacího dne z rodinných důvodů, Robert Stržínek z celého jednacího dne z pracovních důvodů, Pavel Svoboda z celého jednacího dne z pracovních důvodů, Bohuslav Svoboda z celého jednacího dne z rodinných důvodů, Michaela Šebelová z celého jednacího dne bez udání důvodů, Robert Teleky z celého jednacího dne z rodinných důvodů, Karel Tureček z celého jednacího dne ze zdravotních důvodů, Helena Válková z celého jednacího dne ze zdravotních důvodů, Milada Voborská z celého jednacího dne z osobních důvodů, Jan Volný z celého jednacího dne z rodinných důvodů, Vladimír Zlínský z celého jednacího dne z rodinných důvodů, Marek Ženíšek z celého jednacího dne z osobních důvodů.</seg>
                <seg xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p3">Ivan Bartoš z celého jednacího dne z důvodu zahraniční cesty, Mikuláš Bek z celého jednacího dne z pracovních důvodů, Martin Dvořák do 9.30 hodin a od 10.30 hodin z pracovních důvodů, Petr Hladík z celého jednacího dne z pracovních důvodů, Jan Lipavský z celého jednacího dne z osobních důvodů, Vít Rakušan od 11.30 do 15.30 hodin z pracovních důvodů, Michal Šalomoun od 12 hodin z pracovních důvodů a Vlastimil Válek z celého jednacího dne z osobních důvodů.</seg>
@@ -134,7 +140,7 @@
                <seg xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p5">A nyní bychom měli pokračovat v přerušeném bodu, nicméně mám zde několik přihlášek s přednostním právem jasně specifikovaných před zahájením bodu číslo 3, takže já nyní přečtu pořadí, abyste věděli, v jakém jste přihlášeni. Nejprve pan předseda Jan Jakob a poté - zdůrazňuji, je to s přednostním právem před zahájením bodu - se dále hlásí pan předseda Andrej Babiš, pan ministr Marian Jurečka a potom paní předsedkyně Alena Schillerová. A jako první tedy pan předseda Jan Jakob a já nejprve poprosím - rána bývají náročnější na zklidnění. Děkuji. Kolegyně a kolegové, prosím, zachovejme tady klidné prostředí pro pana předsedu. Prosím.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.note3">Poslanec Jan Jakob</note>
-            <u who="#JanJakob.1982" ana="#regular" xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2" source="https://www.psp.cz/eknih/2021ps/stenprot/071schuz/s071303.htm#r2">
+            <u who="#JanJakob.1982" ana="#regular topic:other" xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2" source="https://www.psp.cz/eknih/2021ps/stenprot/071schuz/s071303.htm#r2">
                <seg xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p1">Děkuji. Paní místopředsedkyně, vážený pane premiére, vážení členové vlády, vážené kolegyně, vážení kolegové, dnes už několikátý jednací den se máme věnovat a budeme věnovat doufám sněmovnímu tisku 458, což je Vládní návrh zákona, kterým se mění zákon č. 155/1995 Sb., o důchodovém pojištění, ve znění pozdějších předpisů. Dovolte mi, abych trochu zrekapituloval to, jakým způsobem projednávání tohoto tisku zde probíhalo. Nejprve bych se věnoval časovým konotacím.</seg>
                <seg xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p2">V prvním čtení jsme před programem zaznamenali obstrukce v délce 7 hodin 25 minut. Samotné jednání v prvním čtení trvalo 6 hodin. V druhém čtení byly obstrukce před programem 3 hodiny a 45 minut, samotné jednání k bodu trvalo 8 hodin a 10 minut. Ve třetím čtení, ve kterém dnes budeme pokračovat, tak doposud obstrukce trvaly 5 hodin a samotné jednání 4 hodiny a 50 minut. Když to sečtu, dohromady, tak se tomuto tisku celkem věnujeme následující časy: Před otevřením bodu to bylo 16 hodin a 10 minut, jednání, já si troufnu tvrdit i vzhledem k té délce, další část obstrukcí v rámci projednávaného bodu, dalších 19 hodin. Tedy celkem dohromady už 35 hodin a 10 minut. Navíc minulý pátek 21. července jsme dali v souladu s § 95a jednacího řádu návrh, abychom mohli o tomto tisku jednat i po 14. hodině do konce jednacího dne. Tento návrh však opozice vetovala a tím další rozšíření diskuse i nad rámec toho času, co jsem tady říkal, znemožnila. Z toho důvodu, že takto opozice nepřipustila další časový prostor pro diskusi a z důvodu, aby se v rámci diskuse dostalo na co nejvíce z přihlášených poslanců bez přednostního práva, jsme byli nuceni odhlasovat omezení řečnické doby na dvakrát 10 minut.</seg>
                <seg xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p3">Spočítal jsem i počet jednotlivých vystoupení. V rámci celého projednávání tohoto bodu bylo 258 vystoupení. V rámci jednotlivých čtení vystoupilo celkem 112 různých poslanců. Asi nepřekvapí, že víc než 70 % z nich byli poslanci opoziční. Co se času týče, tak i díky dlouhým přednostním právům hovořili zejména opoziční poslanci.</seg>
@@ -152,7 +158,7 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#TomioOkamura.1972" ana="#regular" xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32" source="https://www.psp.cz/eknih/2021ps/stenprot/071schuz/s071314.htm#r2">
+            <u who="#TomioOkamura.1972" ana="#regular topic:immig" xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32" source="https://www.psp.cz/eknih/2021ps/stenprot/071schuz/s071314.htm#r2">
                <seg xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p1">Vážené dámy a pánové, tak máme tady dnes další pokračování návrhu Fialovy vlády, kterým chce Fialova vláda okrást všechny současné i budoucí příjemce důchodů. Hnutí SPD s tím samozřejmě zásadně nesouhlasí a budeme hlasovat proti. Na rozdíl od Fialovy vlády prosazujeme opatření proti inflaci, nikoliv proti důchodcům. A SPD chce zachovat stávající valorizace důchodů proti zvůli vládní pětikoalice.</seg>
                <seg xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p2">No, a jaký je současný stav? Já jsem se konečně tedy - mně odpověděli vládní představitelé na to, jaké jsou vlastně ty náklady na Ukrajince v České republice. Protože dneska tady už několikátý den jednáme o tom, že vláda chce okrást o peníze naše slušné občany a zároveň chce přeposlat tyto peníze Ukrajincům a přeposílá i Ukrajincům. To je ta pointa. Takže okrade naše slušné lidi - Fialova vláda - ještě to dělá všechno na dluh, to posílání peníze Ukrajincům a teď to přepošle.</seg>
                <seg xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p3">No a tady já jsem dal písemnou interpelaci na ministra vnitra Víta Rakušana, kolik tedy vlastně se dalo už těm Ukrajincům z našich peněz? No a ta situace je opravdu šokující, protože Fialova vládní pětikoalice poslala Ukrajincům, těm migrantům, kteří přišli do České republiky, dohromady jim odsouhlasila už 40,5 miliardy korun. Dostal jsem tady v odpovědi, je to jednoduchý součet a je to dokument, který jsem obdržel od ministra vnitra Víta Rakušana na základě mojí písemné interpelace, protože když jsem se ho tady ptal ústně, tak jsme se odpovědi nikdy nedočkali, a je to dokument, který jsem tady obdržel. Takže 40,5 miliardy korun dala vláda Ukrajincům tady v České republice, plus premiér Fiala zmiňoval na jaře letošního roku, že přes 40 miliard ještě dala vláda formou zbraní na Ukrajinu. To znamená, dohromady je to cirka 100 miliard korun - dala vláda Ukrajincům a zároveň už podruhé letos chce okrást všechny důchodce v České republice a teď ještě zvýšit daně plošně všem občanům v České republice. A to je ten úvod, který jsem chtěl říct a o čem já tady budu dneska v podstatě hovořit.</seg>
@@ -261,7 +267,7 @@
                <seg xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p73">Takže to jednoznačně za sebe tady říkám. Za nás tedy platí to, co jsem tady od počátku říkal, že my samozřejmě zásadně nesouhlasíme s tím, že chcete okrást důchodce, všechny pracující občany v České republice, v podstatě všechny občany včetně dětí tím, že chystáte i zvyšování daní, že chystáte prostě úpravy těch důchodů v rozporu s tím legitimním očekáváním. Týká se to, mimochodem tady mluvím o těch předčasných důchodech také, protože bylo jasné očekávání, za jakých podmínek můžou občané jít do předčasného důchodu. Teď vy to měníte za pochodu poměrně narychlo. Takže to je stanovisko SPD a my samozřejmě budeme hlasovat proti těmto vašim návrhům. Děkuju za pozornost.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.note77">Předsedkyně PSP Markéta Pekarová Adamová</note>
-            <u who="#MarketaPekarovaAdamova.1984" ana="#chair" xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u33" source="https://www.psp.cz/eknih/2021ps/stenprot/071schuz/s071321.htm#r1">
+            <u who="#MarketaPekarovaAdamova.1984" ana="#chair topic:other" xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u33" source="https://www.psp.cz/eknih/2021ps/stenprot/071schuz/s071321.htm#r1">
                <seg xml:id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u33.p1">Hezké poledne, vážené dámy, vážení pánové, já přebírám řízení schůze ve chvíli, kdy jsou vyčerpána všechna přednostní práva před otevřením bodu. Proto tedy nyní otevírám bod číslo</seg>
             </u>
          </div>

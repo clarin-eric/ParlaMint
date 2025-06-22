@@ -27,9 +27,17 @@
                <resp xml:lang="en">Manual metadata retrieval</resp>
                <resp xml:lang="uk">Ручне збирання метаданих</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">CLARIN ERIC</orgName>
                <orgName xml:lang="uk">Загальна дослідницька інфраструктура мовних ресурсів і технологій</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="en">Slovenian Research Agency</orgName>
@@ -41,7 +49,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="206" xml:lang="en">206 speeches</measure>
@@ -55,13 +63,13 @@
                <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN.SI</orgName>
                <ref target="https://www.clarin.si/">www.clarin.si</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="uk">Цей твір ліцензовано на умовах <ref target="http://creativecommons.org/licenses/by/4.0/">"Міжнародної ліцензії Creative Commons 4.0 із зазначенням авторства"</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-18">2025-06-18</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -101,8 +109,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-18">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-18">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
@@ -114,7 +124,7 @@
             <note type="time" xml:id="ParlaMint-UA_2008-09-30-m0.note4">30 вересня 2008 року, 10:00 година</note>
             <note type="narrative" xml:id="ParlaMint-UA_2008-09-30-m0.note5">Веде засідання Голова Верховної Ради України ЯЦЕНЮК А.П.</note>
             <note type="speaker" xml:id="ParlaMint-UA_2008-09-30-m0.note6">ГОЛОВУЮЧИЙ.</note>
-            <u xml:id="ParlaMint-UA_2008-09-30-m0.u1" who="#АрсенійПетровичЯценюк.1974" ana="#chair">
+            <u xml:id="ParlaMint-UA_2008-09-30-m0.u1" who="#АрсенійПетровичЯценюк.1974" ana="#chair topic:other">
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u1.p1" xml:lang="uk">Добрий ранок. Колеги, реєструємося.</seg>
                <note type="time" xml:id="ParlaMint-UA_2008-09-30-m0.note7">
                   <time when="2008-09-30T10:02:36">10:02:36</time>
@@ -129,7 +139,7 @@
                <time when="2008-09-30T10:04:19">10:04:19</time>
             </note>
             <note type="speaker" xml:id="ParlaMint-UA_2008-09-30-m0.note9">КИРИЛЕНКО В.А.</note>
-            <u xml:id="ParlaMint-UA_2008-09-30-m0.u2" who="#ВячеславАнатолійовичКириленко.1968" ana="#regular">
+            <u xml:id="ParlaMint-UA_2008-09-30-m0.u2" who="#ВячеславАнатолійовичКириленко.1968" ana="#regular topic:defen">
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u2.p1" xml:lang="uk">В’ячеслав Кириленко, „Наша Україна – Народна Самооборона”.</seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2" xml:lang="uk">Шановні колеги, шановні виборці, Верховна Рада починає свій черговий пленарний тиждень. Ми можемо констатувати, що порядок денний на сьогоднішній день знов сформовано без врахування пропозицій Нашої Україна – Народної Самооборони. Він сформований знову двома фракціями: Блок Тимошенко і Партії регіонів, і поки що від цієї для нас і, я думаю, для більшості виборців неприйнятної ситуації ми відійти не можемо. Разом з тим, нас турбує те, що під час уже багатотижневого формування порядку денного цими двома фракціями відбуваються події, які потребують реакції як парламенту, так і уряду. Ми стурбовані тим, що ми не можемо забезпечити вирішення значної частини питань, які впливають на національну безпеку України.</seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u2.p3" xml:lang="uk">З одного боку, колеги із БЮТ закликають нас до створення коаліції в складі трьох, з іншого боку, перше, Прем’єр-міністр Тимошенко відмовляється належним чином профінансувати в бюджеті наступного року потреби Збройних Сил України і таким чином виконати всі ті зобов’язання, які несе уряд по зміцненню національної безпеки.</seg>
@@ -144,13 +154,13 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u xml:id="ParlaMint-UA_2008-09-30-m0.u205" who="#ПетроПетровичГасюк.1951" ana="#regular">
+            <u xml:id="ParlaMint-UA_2008-09-30-m0.u205" who="#ПетроПетровичГасюк.1951" ana="#regular topic:techn">
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1" xml:lang="uk">Шановні колеги, я хочу звернути вашу увагу на наступне. На сьогоднішній день до сфери управління Національного космічного агентства України відноситься більше ніж 30 підприємств і організацій. Загальна численність працюючих на цих підприємствах і в установах галузі складає біля 36 тисяч чоловік. І тут є такий момент, що НКУ має, крім тих підприємств, які входять безпосередньо до відношення космічної діяльності, ще є некосмічні підприємства, які виробляють, значить, майже 38 відсотків загальної продукції. Вони виробляють комбайни, виробляють трактори, виробляють тролейбуси і так далі.</seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u205.p2" xml:lang="uk">Я пропоную, щоб в результаті того, щоб поліпшився фінансовий стан і ми, я думаю, проголосуємо за виділення цих грошей, щоби від цих невластивих функцій галузь звільнити. І також хочу сказати, що на сьогоднішній день велика проблема є в галузі з приводу того, що середній вік працюючих складає 49 – 52 роки. І крім цього, що є ступінь зносу основних засобів в середньому 62,9 відсотків.</seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u205.p3" xml:lang="uk">Вважаю, що проект цілком задовільний в підтримую пропозицію щодо схвалення проекту закону в першому читанні і в цілому. Дякую.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-UA_2008-09-30-m0.note295">ГОЛОВУЮЧИЙ.</note>
-            <u xml:id="ParlaMint-UA_2008-09-30-m0.u206" who="#ОлександрВолодимировичЛавринович.1956" ana="#chair">
+            <u xml:id="ParlaMint-UA_2008-09-30-m0.u206" who="#ОлександрВолодимировичЛавринович.1956" ana="#chair topic:techn">
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u206.p1" xml:lang="uk">Едуард Іванович, у вас є необхідність заключного слова? Немає. У співдоповідача? Немає.</seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u206.p2" xml:lang="uk">Я ставлю на голосування про прийняття в першому читанні проекту закону номер 3061 про затвердження Загальнодержавної цільової науково-технічної космічної програми України на 2008 – 2012 роки. Прошу голосувати.</seg>
                <note type="time" xml:id="ParlaMint-UA_2008-09-30-m0.note296">

@@ -2,15 +2,15 @@
 <note type="time" content="Start of session:18:28 a.m."/>
 <note type="chairpersons" content="Second President Mag. Barbara Prammer"/>
 <note type="speaker" content="President Mag. BarbaraPrammer"/>
-<speech id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d7e383" text_id="ParlaMint-AT-en_2005-04-27-022-XXII-NRSITZ-00108" subcorpus="Reference" lang="English" body="Lower house" term="Legislative period XXII" session="-" meeting="-" sitting="Sitting 108" agenda="-" date="2005-04-27" title="Sitting Number 108, Legislative period XXII, Wednesday, 27. April 2005" speaker_role="Chairperson" speaker_id="PAD_04476" speaker_name="Prammer, Barbara" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SPÖ" speaker_party_name="parliamentary group of the Social Democratic Party of Austria" party_status="Opposition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1954">
+<speech id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d7e383" text_id="ParlaMint-AT-en_2005-04-27-022-XXII-NRSITZ-00108" subcorpus="Reference" lang="English" body="Lower house" term="Legislative period XXII" session="-" meeting="-" sitting="Sitting 108" agenda="-" date="2005-04-27" title="Sitting Number 108, Legislative period XXII, Wednesday, 27. April 2005" speaker_role="Chairperson" topic="Other" speaker_id="PAD_04476" speaker_name="Prammer, Barbara" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SPÖ" speaker_party_name="parliamentary group of the Social Democratic Party of Austria" party_status="Opposition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1954">
 <p id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e192" lang="English">
-<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e192.s1">
+<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e192.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.242">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 108	108	108	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e192.s2">
+<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e192.s2" senti_3="Positive" senti_6="mixed positive" senti_n="3.553">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -26,7 +26,7 @@ open	open	open	ADJ	Degree=Pos	A10+,S1.2.1+,X6-,X5.2+,A7+	A10p	A10+: Open; Findin
 </s>
 </p>
 <p id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e194" lang="English">
-<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e194.s1">
+<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e194.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.053">
 Deputies	Deputies	deputy	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t1
 <name type="PER">
 Donabauer	Donabauer	Donabauer	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -47,7 +47,7 @@ Mag	Mag	Mag	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t9
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e194.s2">
+<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e194.s2" senti_3="Negative" senti_6="mixed negative" senti_n="0.530">
 Worm	Worm	Worm	NOUN	Number=Sing	L2mfn,A5.1-/S2mf	L2	L2: Living creatures: animals, birds, etc.	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -55,7 +55,7 @@ Worm	Worm	Worm	NOUN	Number=Sing	L2mfn,A5.1-/S2mf	L2	L2: Living creatures: animal
 </p>
 <note type="time" content="18:28:52"/>
 <p id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e199" lang="English">
-<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e199.s1">
+<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e199.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.772">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Entry	Entry	entry	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -65,9 +65,9 @@ allocations	allocations	allocation	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period
 </p>
 </speech>
 <note type="speaker" content="President Mag. BarbaraPrammer"/>
-<speech id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d7e414" text_id="ParlaMint-AT-en_2005-04-27-022-XXII-NRSITZ-00108" subcorpus="Reference" lang="English" body="Lower house" term="Legislative period XXII" session="-" meeting="-" sitting="Sitting 108" agenda="-" date="2005-04-27" title="Sitting Number 108, Legislative period XXII, Wednesday, 27. April 2005" speaker_role="Chairperson" speaker_id="PAD_04476" speaker_name="Prammer, Barbara" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SPÖ" speaker_party_name="parliamentary group of the Social Democratic Party of Austria" party_status="Opposition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1954">
+<speech id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d7e414" text_id="ParlaMint-AT-en_2005-04-27-022-XXII-NRSITZ-00108" subcorpus="Reference" lang="English" body="Lower house" term="Legislative period XXII" session="-" meeting="-" sitting="Sitting 108" agenda="-" date="2005-04-27" title="Sitting Number 108, Legislative period XXII, Wednesday, 27. April 2005" speaker_role="Chairperson" topic="Other" speaker_id="PAD_04476" speaker_name="Prammer, Barbara" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SPÖ" speaker_party_name="parliamentary group of the Social Democratic Party of Austria" party_status="Opposition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1954">
 <p id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e204" lang="English">
-<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e204.s1">
+<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e204.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.407">
 As	As	as	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 regards	regards	regards	NOUN	Number=Plur	X2.1,S1.2.4+	X2.1	X2.1: Thought, belief	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -114,7 +114,7 @@ room	room	room	NOUN	Number=Sing	Df/H2	H2	H2: Parts of buildings	t33
 </s>
 </p>
 <p id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e206" lang="English">
-<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e206.s1">
+<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e206.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.030">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 written	written	write	VERB	Tense=Past VerbForm=Part	Q1.2,I2.1	Q1.2	Q1.2: Paper documents and writing	t2
 communication	communication	communication	NOUN	Number=Sing	Q2.1,Q1.2,Q1.3,Q4.3	Q2.1	Q2.1: Speech: Communicative	t3

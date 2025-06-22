@@ -1,6 +1,6 @@
-<speech id="ParlaMint-PT_2017-11-29.u1" text_id="ParlaMint-PT_2017-11-29" subcorpus="Referência" lang="Portuguese" body="Unicameralismo" term="Série I - XIII Legislatura" session="Sessão 3" meeting="Número 22" sitting="29.11.2017" agenda="-" date="2017-11-29" title="Minutas da Assembleia da República Portuguesa, Sessão 3, Número 22" speaker_role="Presidente de mesa" speaker_id="EduardoLuísBarretoFerroRodrigues" speaker_name="Luís Barreto Ferro Rodrigues, Eduardo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centro-Esquerda" speaker_gender="M" speaker_birth="1949">
+<speech id="ParlaMint-PT_2017-11-29.u1" text_id="ParlaMint-PT_2017-11-29" subcorpus="Referência" lang="Portuguese" body="Unicameralismo" term="Série I - XIII Legislatura" session="Sessão 3" meeting="Número 22" sitting="29.11.2017" agenda="-" date="2017-11-29" title="Minutas da Assembleia da República Portuguesa, Sessão 3, Número 22" speaker_role="Presidente de mesa" topic="Public Lands" speaker_id="EduardoLuísBarretoFerroRodrigues" speaker_name="Luís Barreto Ferro Rodrigues, Eduardo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centro-Esquerda" speaker_gender="M" speaker_birth="1949">
 <p id="ParlaMint-PT_2017-11-29.seg1" lang="Portuguese">
-<s id="ParlaMint-PT_2017-11-29.seg1.s">
+<s id="ParlaMint-PT_2017-11-29.seg1.s" senti_3="Positive" senti_6="mixed positive" senti_n="3.894">
 Sr.as	Sr.as	Sr.as	PROPN	-	1	root	-	-	-	-
 Deputadas	Deputadas	Deputadas	PROPN	-	2	xcomp	Sr.as	PROPN	-	1
 e	e	e	CCONJ	-	3	cc	Membros	PROPN	-	8
@@ -39,7 +39,7 @@ sessão	sessão	sessão	NOUN	Gender=Fem Number=Sing	24	punct	a	ADP	-	p
 </p>
 <note type="time" content="Eram 15 horas e 6 minutos."/>
 <p id="ParlaMint-PT_2017-11-29.seg2" lang="Portuguese">
-<s id="ParlaMint-PT_2017-11-29.seg2.s">
+<s id="ParlaMint-PT_2017-11-29.seg2.s" senti_3="Neutral" senti_6="neutral positive" senti_n="3.230">
 Os	Os	o	DET	Gender=Masc Number=Plur	1	det	poder	VERB	Person=3 Number=Plur	6
 Srs.	Srs.	Srs.	PROPN	-	2	nsubj	poder	VERB	Person=3 Number=Plur	6
 Agentes	Agentes	Agentes	PROPN	-	3	nsubj	poder	VERB	Person=3 Number=Plur	6
@@ -58,7 +58,7 @@ favor	favor	favor	ADP	-	12	dep	por	ADP	-	11
 </s>
 </p>
 <p id="ParlaMint-PT_2017-11-29.seg3" lang="Portuguese">
-<s id="ParlaMint-PT_2017-11-29.seg3.s">
+<s id="ParlaMint-PT_2017-11-29.seg3.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.533">
 O	O	o	DET	Gender=Masc Number=Sing	1	det	ponto	NOUN	Gender=Masc Number=Sing	3
 primeiro	primeiro	primeiro	ADJ	Gender=Masc Number=Sing	2	amod	ponto	NOUN	Gender=Masc Number=Sing	3
 ponto	ponto	ponto	NOUN	Gender=Masc Number=Sing	3	nsubj	de	ADP	-	p
@@ -1300,7 +1300,7 @@ PAN	PAN	PAN	PROPN	-	1091	amod	folhosas	NOUN	Gender=Fem Number=Plur	1089
 </s>
 </p>
 <p id="ParlaMint-PT_2017-11-29.seg4" lang="Portuguese">
-<s id="ParlaMint-PT_2017-11-29.seg4.s">
+<s id="ParlaMint-PT_2017-11-29.seg4.s" senti_3="Positive" senti_6="mixed positive" senti_n="3.777">
 Para	Para	para	ADP	-	1	root	-	-	-	-
 apresentar	apresentar	apresentar	VERB	-	2	xcomp	para	ADP	-	1
 as	as	a	DET	Gender=Fem Number=Plur	3	det	iniciativa	NOUN	Gender=Fem Number=Plur	4
@@ -1348,9 +1348,9 @@ todos	todos	todo	DET	Gender=Masc Number=Plur	36	iobj	tocar	VERB	Person=3 Number=
 </p>
 <note type="kinesic:applause" content="Aplausos e risos gerais."/>
 </speech>
-<speech id="ParlaMint-PT_2017-11-29.u2" text_id="ParlaMint-PT_2017-11-29" subcorpus="Referência" lang="Portuguese" body="Unicameralismo" term="Série I - XIII Legislatura" session="Sessão 3" meeting="Número 22" sitting="29.11.2017" agenda="-" date="2017-11-29" title="Minutas da Assembleia da República Portuguesa, Sessão 3, Número 22" speaker_role="Regular" speaker_id="FernandoMimosoNegrão" speaker_name="Mimoso Negrão, Fernando" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PSD" speaker_party_name="Grupo Parlamentar do Partido Social Democrata" party_status="Opposition" party_orientation="Centro-direita" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-PT_2017-11-29.u2" text_id="ParlaMint-PT_2017-11-29" subcorpus="Referência" lang="Portuguese" body="Unicameralismo" term="Série I - XIII Legislatura" session="Sessão 3" meeting="Número 22" sitting="29.11.2017" agenda="-" date="2017-11-29" title="Minutas da Assembleia da República Portuguesa, Sessão 3, Número 22" speaker_role="Regular" topic="Law and Crime" speaker_id="FernandoMimosoNegrão" speaker_name="Mimoso Negrão, Fernando" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PSD" speaker_party_name="Grupo Parlamentar do Partido Social Democrata" party_status="Opposition" party_orientation="Centro-direita" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-PT_2017-11-29.seg5" lang="Portuguese">
-<s id="ParlaMint-PT_2017-11-29.seg5.s">
+<s id="ParlaMint-PT_2017-11-29.seg5.s" senti_3="Positive" senti_6="positive" senti_n="4.551">
 <name type="PER">
 Sr.	Sr.	sr.	PRON	Gender=Masc Number=Sing	1	det	Presidente	PROPN	-	2
 Presidente	Presidente	Presidente	PROPN	-	2	nsubj	Deputados	PROPN	-	7
@@ -1378,7 +1378,7 @@ todos	todos	todo	DET	Gender=Masc Number=Plur	18	iobj	obrigar,obrigado	ADJ	Gender
 </s>
 </p>
 <p id="ParlaMint-PT_2017-11-29.seg6" lang="Portuguese">
-<s id="ParlaMint-PT_2017-11-29.seg6.s">
+<s id="ParlaMint-PT_2017-11-29.seg6.s" senti_3="Neutral" senti_6="neutral negative" senti_n="2.139">
 O	O	o	DET	Gender=Masc Number=Sing	1	det	PSD	PROPN	-	2
 <name type="ORG">
 PSD	PSD	PSD	PROPN	-	2	nsubj	apresentar	VERB	Person=3 Number=Sing	3
@@ -1447,7 +1447,7 @@ sofrem	sofrem	sofrer	VERB	Person=3 Number=Plur	57	obj	sofrer	VERB	Person=3 Numbe
 </s>
 </p>
 <p id="ParlaMint-PT_2017-11-29.seg7" lang="Portuguese">
-<s id="ParlaMint-PT_2017-11-29.seg7.s">
+<s id="ParlaMint-PT_2017-11-29.seg7.s" senti_3="Neutral" senti_6="neutral negative" senti_n="1.840">
 Os	Os	o	DET	Gender=Masc Number=Plur	1	det	português	NOUN	Gender=Masc Number=Plur	6
 portugueses	portugueses	português	NOUN	Gender=Masc Number=Plur	2	amod	o	DET	Gender=Masc Number=Plur	1
 <g/>
@@ -1503,9 +1503,9 @@ repita	repita	repetir	VERB	Person=3 Number=Sing	43	xcomp	acontecer	VERB	Person=3
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-PT_2017-11-29.u157" text_id="ParlaMint-PT_2017-11-29" subcorpus="Referência" lang="Portuguese" body="Unicameralismo" term="Série I - XIII Legislatura" session="Sessão 3" meeting="Número 22" sitting="29.11.2017" agenda="-" date="2017-11-29" title="Minutas da Assembleia da República Portuguesa, Sessão 3, Número 22" speaker_role="Regular" speaker_id="DuarteRogérioMatosVenturaPacheco" speaker_name="Rogério Matos Ventura Pacheco, Duarte" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PSD" speaker_party_name="Grupo Parlamentar do Partido Social Democrata" party_status="Opposition" party_orientation="Centro-direita" speaker_gender="M" speaker_birth="1965">
+<speech id="ParlaMint-PT_2017-11-29.u157" text_id="ParlaMint-PT_2017-11-29" subcorpus="Referência" lang="Portuguese" body="Unicameralismo" term="Série I - XIII Legislatura" session="Sessão 3" meeting="Número 22" sitting="29.11.2017" agenda="-" date="2017-11-29" title="Minutas da Assembleia da República Portuguesa, Sessão 3, Número 22" speaker_role="Regular" topic="Law and Crime" speaker_id="DuarteRogérioMatosVenturaPacheco" speaker_name="Rogério Matos Ventura Pacheco, Duarte" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PSD" speaker_party_name="Grupo Parlamentar do Partido Social Democrata" party_status="Opposition" party_orientation="Centro-direita" speaker_gender="M" speaker_birth="1965">
 <p id="ParlaMint-PT_2017-11-29.seg676" lang="Portuguese">
-<s id="ParlaMint-PT_2017-11-29.seg676.s">
+<s id="ParlaMint-PT_2017-11-29.seg676.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.833">
 <name type="PER">
 Sr.	Sr.	sr.	PRON	Gender=Masc Number=Sing	1	root	-	-	-	-
 Presidente	Presidente	Presidente	PROPN	-	2	xcomp	sr.	PRON	Gender=Masc Number=Sing	1
@@ -1692,7 +1692,7 @@ Comissão	Comissão	Comissão	PROPN	-	155	nsubj	ª	PUNCT	-	154
 </s>
 </p>
 <p id="ParlaMint-PT_2017-11-29.seg677" lang="Portuguese">
-<s id="ParlaMint-PT_2017-11-29.seg677.s">
+<s id="ParlaMint-PT_2017-11-29.seg677.s" senti_3="Positive" senti_6="mixed positive" senti_n="3.526">
 É	É	ser	VERB	Person=3 Number=Sing	1	cop	Presidente	PROPN	-	5
 tudo	tudo	tudo	PRON	Gender=Masc Number=Sing	2	nsubj	Presidente	PROPN	-	5
 <g/>
@@ -1705,9 +1705,9 @@ Presidente	Presidente	Presidente	PROPN	-	5	orphan	sr.	PRON	Gender=Masc Number=Si
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PT_2017-11-29.u158" text_id="ParlaMint-PT_2017-11-29" subcorpus="Referência" lang="Portuguese" body="Unicameralismo" term="Série I - XIII Legislatura" session="Sessão 3" meeting="Número 22" sitting="29.11.2017" agenda="-" date="2017-11-29" title="Minutas da Assembleia da República Portuguesa, Sessão 3, Número 22" speaker_role="Presidente de mesa" speaker_id="EduardoLuísBarretoFerroRodrigues" speaker_name="Luís Barreto Ferro Rodrigues, Eduardo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centro-Esquerda" speaker_gender="M" speaker_birth="1949">
+<speech id="ParlaMint-PT_2017-11-29.u158" text_id="ParlaMint-PT_2017-11-29" subcorpus="Referência" lang="Portuguese" body="Unicameralismo" term="Série I - XIII Legislatura" session="Sessão 3" meeting="Número 22" sitting="29.11.2017" agenda="-" date="2017-11-29" title="Minutas da Assembleia da República Portuguesa, Sessão 3, Número 22" speaker_role="Presidente de mesa" topic="International Affairs" speaker_id="EduardoLuísBarretoFerroRodrigues" speaker_name="Luís Barreto Ferro Rodrigues, Eduardo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centro-Esquerda" speaker_gender="M" speaker_birth="1949">
 <p id="ParlaMint-PT_2017-11-29.seg678" lang="Portuguese">
-<s id="ParlaMint-PT_2017-11-29.seg678.s">
+<s id="ParlaMint-PT_2017-11-29.seg678.s" senti_3="Neutral" senti_6="neutral positive" senti_n="3.134">
 Sr.as	Sr.as	Sr.as	PROPN	-	1	root	-	-	-	-
 e	e	e	CCONJ	-	2	cc	Srs.	PROPN	-	3
 Srs.	Srs.	Srs.	PROPN	-	3	advmod	sessão	NOUN	Gender=Fem Number=Sing	8
@@ -1845,7 +1845,7 @@ Europeia	Europeia	Europeia	PROPN	-	109	fixed	de	ADP	-	p
 </s>
 </p>
 <p id="ParlaMint-PT_2017-11-29.seg679" lang="Portuguese">
-<s id="ParlaMint-PT_2017-11-29.seg679.s">
+<s id="ParlaMint-PT_2017-11-29.seg679.s" senti_3="Neutral" senti_6="neutral negative" senti_n="2.242">
 Por	Por	por	ADV	-	1	case	fim	ADV	-	2
 fim	fim	fim	ADV	-	2	orphan	apreciar,apreciado	ADJ	Gender=Masc Number=Plur	5
 <g/>
@@ -2062,7 +2062,7 @@ Verdes	Verdes	Verdes	PROPN	-	171	orphan	Cooperação	PROPN	-	166
 </s>
 </p>
 <p id="ParlaMint-PT_2017-11-29.seg680" lang="Portuguese">
-<s id="ParlaMint-PT_2017-11-29.seg680.s">
+<s id="ParlaMint-PT_2017-11-29.seg680.s" senti_3="Neutral" senti_6="neutral positive" senti_n="3.244">
 Despeço	Despeço	despedir	VERB	Person=1 Number=Sing	1	root	-	-	-	-
 -me	-me	-me	PRON	Gender=Masc Number=Sing	2	punct	despedir	VERB	Person=1 Number=Sing	1
 de	de	de	ADP	-	3	case	que	SCONJ	-	8
@@ -2093,7 +2093,7 @@ Senado	Senado	Senado	PROPN	-	19	orphan	de	ADP	-	p
 </s>
 </p>
 <p id="ParlaMint-PT_2017-11-29.seg681" lang="Portuguese">
-<s id="ParlaMint-PT_2017-11-29.seg681.s">
+<s id="ParlaMint-PT_2017-11-29.seg681.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.901">
 Está	Está	estar	VERB	Person=3 Number=Sing	1	cop	sessão	NOUN	Gender=Fem Number=Sing	4
 encerrada	encerrada	encerrar,encerrado	ADJ	Gender=Fem Number=Sing	2	nsubj	sessão	NOUN	Gender=Fem Number=Sing	4
 a	a	a	DET	Gender=Fem Number=Sing	3	det	sessão	NOUN	Gender=Fem Number=Sing	4

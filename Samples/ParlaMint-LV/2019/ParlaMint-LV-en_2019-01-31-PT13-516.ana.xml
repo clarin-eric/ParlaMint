@@ -10,24 +10,23 @@
             <meeting n="2019-01-31" corresp="#PT" ana="#parla.uni #parla.sitting">2019-01-31</meeting>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="306" xml:lang="en">306 speeches</measure>
             <measure unit="words" quantity="8900" xml:lang="en">8,900 words</measure>
-            <measure unit="tokens" quantity="7193" xml:lang="en">7193 tokens</measure>
          </extent>
          <publicationStmt>
             <publisher>
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1910</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2006</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-21">2025-06-21</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -44,6 +43,7 @@
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="measure" occurs="861"/>
                <tagUsage gi="name" occurs="652"/>
                <tagUsage gi="note" occurs="306"/>
                <tagUsage gi="pc" occurs="1848"/>
@@ -71,17 +71,20 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-21">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-16">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection" xml:lang="en">
             <note type="speaker" xml:id="ParlaMint-LV_2019-01-31-PT13-516.ana.note1" xml:lang="en" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516.ana.note1">Head of the sitting.</note>
-            <u who="#MūrnieceInāra" xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1">
+            <u who="#MūrnieceInāra" xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1" ana="#chair topic:mixed" xml:lang="en" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1">
                <seg xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1" xml:lang="en" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1">
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.1" n="1" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.1">
+                     <measure type="sentiment" quantity="3.849" ana="senti:mixpos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.1"/>
                      <phr type="sem" function="Z4" ana="sem:Z4">
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.1.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="good" function="Z4" ana="sem:Z4">Good</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="morning" function="Z4" ana="sem:Z4" join="right">morning</w>
@@ -92,6 +95,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.1.t6" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">!</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.2" n="2" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.2">
+                     <measure type="sentiment" quantity="3.241" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.2"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.2.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
                      <phr type="sem" function="A5.4+" ana="sem:A5.4p">
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.2.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="invite" function="A5.4+" ana="sem:A5.4p">invite</w>
@@ -129,6 +133,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.2.t27" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">!</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.3" n="3" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.3">
+                     <measure type="sentiment" quantity="2.849" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.3"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.3.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="change" function="A2.1+,I1,B1" ana="sem:A2.1p">Changes</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.3.t2" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.3.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -149,6 +154,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.3.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.4" n="4" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.4">
+                     <measure type="sentiment" quantity="2.985" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.4"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.4.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.4.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="commission" function="A1.1.1,I1.1/I2.2,G1.1,G3/S7.1+" ana="sem:A1.1.1">commission</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.4.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -209,6 +215,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.4.t48" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">”</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.5" n="5" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.5">
+                     <measure type="sentiment" quantity="2.540" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.5"/>
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.5.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">–</pc>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.5.t2" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Member" function="S5+/S2mf,B1" ana="sem:S5p sem:S2">Members</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.5.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="elect" function="G1.2/X7+" ana="sem:G1.2 sem:X7p">elected</w>
@@ -245,6 +252,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.5.t28" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.6" n="6" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.6">
+                     <measure type="sentiment" quantity="1.703" ana="senti:neuneg" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.6"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.6.t1" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">Are</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.6.t2" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Member" function="S5+/S2mf,B1" ana="sem:S5p sem:S2">Members</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.6.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="oppose" function="S8-/E2-,A6.1-" ana="sem:S8n sem:E2n">opposed</w>
@@ -259,6 +267,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.6.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.7" n="7" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.7">
+                     <measure type="sentiment" quantity="1.359" ana="senti:mixneg" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.7"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.7.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.7.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.7.t3" pos="DT" msd="UPosTag=DET" lemma="no" function="Z6" ana="sem:Z6">no</w>
@@ -266,6 +275,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.7.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.8" n="8" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.8">
+                     <measure type="sentiment" quantity="3.492" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.8"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.8.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.8.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="order" function="S7.1+/Q2.2,I2.2/Q2.2,A4.1,N4,G2.1+,G2.1,Q1.2/I1.1,O4.2+" ana="sem:S7.1p sem:Q2.2">order</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.8.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -276,6 +286,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.8.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.9" n="9" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.9">
+                     <measure type="sentiment" quantity="3.113" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.9"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.9.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.9.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="commission" function="A1.1.1,I1.1/I2.2,G1.1,G3/S7.1+" ana="sem:A1.1.1">commission</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.9.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -357,6 +368,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.9.t65" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.10" n="10" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.10">
+                     <measure type="sentiment" quantity="1.703" ana="senti:neuneg" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.10"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.10.t1" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">Are</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.10.t2" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Member" function="S5+/S2mf,B1" ana="sem:S5p sem:S2">Members</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.10.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="oppose" function="S8-/E2-,A6.1-" ana="sem:S8n sem:E2n">opposed</w>
@@ -371,6 +383,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.10.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.11" n="11" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.11">
+                     <measure type="sentiment" quantity="1.359" ana="senti:mixneg" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.11"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.11.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.11.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.11.t3" pos="DT" msd="UPosTag=DET" lemma="no" function="Z6" ana="sem:Z6">no</w>
@@ -378,6 +391,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.11.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.12" n="12" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.12">
+                     <measure type="sentiment" quantity="3.492" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.12"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.12.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.12.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="order" function="S7.1+/Q2.2,I2.2/Q2.2,A4.1,N4,G2.1+,G2.1,Q1.2/I1.1,O4.2+" ana="sem:S7.1p sem:Q2.2">order</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.12.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -388,6 +402,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.12.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.13" n="13" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.13">
+                     <measure type="sentiment" quantity="3.096" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.13"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.13.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.13.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="commission" function="A1.1.1,I1.1/I2.2,G1.1,G3/S7.1+" ana="sem:A1.1.1">commission</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.13.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -469,6 +484,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.13.t65" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.14" n="14" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.14">
+                     <measure type="sentiment" quantity="1.703" ana="senti:neuneg" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.14"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.14.t1" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">Are</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.14.t2" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Member" function="S5+/S2mf,B1" ana="sem:S5p sem:S2">Members</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.14.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="oppose" function="S8-/E2-,A6.1-" ana="sem:S8n sem:E2n">opposed</w>
@@ -483,6 +499,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.14.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.15" n="15" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.15">
+                     <measure type="sentiment" quantity="1.359" ana="senti:mixneg" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.15"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.15.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.15.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.15.t3" pos="DT" msd="UPosTag=DET" lemma="no" function="Z6" ana="sem:Z6">no</w>
@@ -490,6 +507,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.15.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.16" n="16" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.16">
+                     <measure type="sentiment" quantity="3.492" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.16"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.16.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.16.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="order" function="S7.1+/Q2.2,I2.2/Q2.2,A4.1,N4,G2.1+,G2.1,Q1.2/I1.1,O4.2+" ana="sem:S7.1p sem:Q2.2">order</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.16.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -500,6 +518,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.16.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.17" n="17" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.17">
+                     <measure type="sentiment" quantity="3.051" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.17"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.17.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.17.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="commission" function="A1.1.1,I1.1/I2.2,G1.1,G3/S7.1+" ana="sem:A1.1.1">commission</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.17.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -583,6 +602,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.17.t67" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.18" n="18" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.18">
+                     <measure type="sentiment" quantity="1.703" ana="senti:neuneg" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.18"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.18.t1" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">Are</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.18.t2" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Member" function="S5+/S2mf,B1" ana="sem:S5p sem:S2">Members</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.18.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="oppose" function="S8-/E2-,A6.1-" ana="sem:S8n sem:E2n">opposed</w>
@@ -597,6 +617,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.18.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.19" n="19" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.19">
+                     <measure type="sentiment" quantity="1.359" ana="senti:mixneg" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.19"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.19.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.19.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.19.t3" pos="DT" msd="UPosTag=DET" lemma="no" function="Z6" ana="sem:Z6">no</w>
@@ -604,6 +625,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.19.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.20" n="20" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.20">
+                     <measure type="sentiment" quantity="3.492" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.20"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.20.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.20.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="order" function="S7.1+/Q2.2,I2.2/Q2.2,A4.1,N4,G2.1+,G2.1,Q1.2/I1.1,O4.2+" ana="sem:S7.1p sem:Q2.2">order</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.20.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -614,6 +636,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.20.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.21" n="21" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.21">
+                     <measure type="sentiment" quantity="2.950" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.21"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.21.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.21.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="commission" function="A1.1.1,I1.1/I2.2,G1.1,G3/S7.1+" ana="sem:A1.1.1">commission</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.21.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -679,6 +702,7 @@
                      </name>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.22" n="22" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.22">
+                     <measure type="sentiment" quantity="2.046" ana="senti:neuneg" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.22"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.22.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.22.t2" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Member" function="S5+/S2mf,B1" ana="sem:S5p sem:S2">Members</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.22.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="elect" function="G1.2/X7+" ana="sem:G1.2 sem:X7p">elected</w>
@@ -702,6 +726,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.22.t19" pos="Z" msd="UPosTag=PUNCT" function="Z5" ana="sem:Z5">’</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.23" n="23" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.23">
+                     <measure type="sentiment" quantity="1.703" ana="senti:neuneg" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.23"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.23.t1" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">Are</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.23.t2" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Member" function="S5+/S2mf,B1" ana="sem:S5p sem:S2">Members</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.23.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="oppose" function="S8-/E2-,A6.1-" ana="sem:S8n sem:E2n">opposed</w>
@@ -716,6 +741,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.23.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.24" n="24" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.24">
+                     <measure type="sentiment" quantity="1.359" ana="senti:mixneg" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.24"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.24.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.24.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.24.t3" pos="DT" msd="UPosTag=DET" lemma="no" function="Z6" ana="sem:Z6">no</w>
@@ -723,6 +749,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.24.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.25" n="25" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.25">
+                     <measure type="sentiment" quantity="3.492" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.25"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.25.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.25.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="order" function="S7.1+/Q2.2,I2.2/Q2.2,A4.1,N4,G2.1+,G2.1,Q1.2/I1.1,O4.2+" ana="sem:S7.1p sem:Q2.2">order</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.25.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -733,6 +760,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.25.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.26" n="26" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.26">
+                     <measure type="sentiment" quantity="2.978" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.26"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.26.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.26.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="commission" function="A1.1.1,I1.1/I2.2,G1.1,G3/S7.1+" ana="sem:A1.1.1">commission</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.26.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -789,6 +817,7 @@
                      </name>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.27" n="27" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.27">
+                     <measure type="sentiment" quantity="2.023" ana="senti:neuneg" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.27"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.27.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.27.t2" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Member" function="S5+/S2mf,B1" ana="sem:S5p sem:S2">Members</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.27.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="elect" function="G1.2/X7+" ana="sem:G1.2 sem:X7p">elected</w>
@@ -812,6 +841,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.27.t19" pos="Z" msd="UPosTag=PUNCT" function="Z5" ana="sem:Z5">’</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.28" n="28" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.28">
+                     <measure type="sentiment" quantity="1.703" ana="senti:neuneg" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.28"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.28.t1" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">Are</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.28.t2" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Member" function="S5+/S2mf,B1" ana="sem:S5p sem:S2">Members</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.28.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="oppose" function="S8-/E2-,A6.1-" ana="sem:S8n sem:E2n">opposed</w>
@@ -826,6 +856,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.28.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.29" n="29" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.29">
+                     <measure type="sentiment" quantity="1.359" ana="senti:mixneg" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.29"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.29.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.29.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.29.t3" pos="DT" msd="UPosTag=DET" lemma="no" function="Z6" ana="sem:Z6">no</w>
@@ -833,6 +864,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.29.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.30" n="30" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.30">
+                     <measure type="sentiment" quantity="3.492" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.30"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.30.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.30.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="order" function="S7.1+/Q2.2,I2.2/Q2.2,A4.1,N4,G2.1+,G2.1,Q1.2/I1.1,O4.2+" ana="sem:S7.1p sem:Q2.2">order</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.30.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -843,6 +875,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.30.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.31" n="31" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.31">
+                     <measure type="sentiment" quantity="3.058" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.31"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.31.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.31.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="commission" function="A1.1.1,I1.1/I2.2,G1.1,G3/S7.1+" ana="sem:A1.1.1">commission</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.31.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -928,6 +961,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.31.t67" pos="Z" msd="UPosTag=PUNCT" function="Z5" ana="sem:Z5">’</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.32" n="32" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.32">
+                     <measure type="sentiment" quantity="1.703" ana="senti:neuneg" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.32"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.32.t1" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">Are</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.32.t2" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Member" function="S5+/S2mf,B1" ana="sem:S5p sem:S2">Members</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.32.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="oppose" function="S8-/E2-,A6.1-" ana="sem:S8n sem:E2n">opposed</w>
@@ -942,6 +976,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.32.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.33" n="33" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.33">
+                     <measure type="sentiment" quantity="1.359" ana="senti:mixneg" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.33"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.33.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.33.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.33.t3" pos="DT" msd="UPosTag=DET" lemma="no" function="Z6" ana="sem:Z6">no</w>
@@ -949,6 +984,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.33.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.34" n="34" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.34">
+                     <measure type="sentiment" quantity="3.492" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.34"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.34.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.34.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="order" function="S7.1+/Q2.2,I2.2/Q2.2,A4.1,N4,G2.1+,G2.1,Q1.2/I1.1,O4.2+" ana="sem:S7.1p sem:Q2.2">order</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.34.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -959,6 +995,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.34.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.35" n="35" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.35">
+                     <measure type="sentiment" quantity="3.079" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.35"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.35.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.35.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="commission" function="A1.1.1,I1.1/I2.2,G1.1,G3/S7.1+" ana="sem:A1.1.1">commission</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.35.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -1058,6 +1095,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.35.t77" pos="Z" msd="UPosTag=PUNCT" function="Z5" ana="sem:Z5">’</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.36" n="36" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.36">
+                     <measure type="sentiment" quantity="1.703" ana="senti:neuneg" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.36"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.36.t1" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">Are</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.36.t2" pos="NNPS" msd="UPosTag=PROPN|Number=Plur" lemma="Member" function="S5+/S2mf,B1" ana="sem:S5p sem:S2">Members</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.36.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="oppose" function="S8-/E2-,A6.1-" ana="sem:S8n sem:E2n">opposed</w>
@@ -1072,6 +1110,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.36.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.37" n="37" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.37">
+                     <measure type="sentiment" quantity="1.359" ana="senti:mixneg" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.37"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.37.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.37.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.37.t3" pos="DT" msd="UPosTag=DET" lemma="no" function="Z6" ana="sem:Z6">no</w>
@@ -1079,6 +1118,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.37.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.38" n="38" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.38">
+                     <measure type="sentiment" quantity="3.492" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.38"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.38.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.38.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="order" function="S7.1+/Q2.2,I2.2/Q2.2,A4.1,N4,G2.1+,G2.1,Q1.2/I1.1,O4.2+" ana="sem:S7.1p sem:Q2.2">order</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.38.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -1089,6 +1129,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.38.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.39" n="39" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.39">
+                     <measure type="sentiment" quantity="3.496" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.39"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.39.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.39.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.39.t3" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="start" function="T2+,E5-,E3-" ana="sem:T2p">starting</w>
@@ -1101,6 +1142,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.39.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.40" n="40" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.40">
+                     <measure type="sentiment" quantity="2.884" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.40"/>
                      <phr type="sem" function="A7+" ana="sem:A7p">
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.40.t1" pos="IN" msd="UPosTag=ADP" lemma="on" function="A7+" ana="sem:A7p">On</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.40.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="A7+" ana="sem:A7p">the</w>
@@ -1119,6 +1161,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.40.t12" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.41" n="41" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.41">
+                     <measure type="sentiment" quantity="2.964" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.41"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.41.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="draft" function="Q1.2,G3,Q1.2/I1" ana="sem:Q1.2">Draft</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.41.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="decision" function="X6+" ana="sem:X6p">decision</w>
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.41.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">“</pc>
@@ -1156,6 +1199,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.41.t29" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">”</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.42" n="42" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.42">
+                     <measure type="sentiment" quantity="2.533" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.42"/>
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.42.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.42.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="member" function="S5+/S2mf,B1" ana="sem:S5p sem:S2">Members</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.42.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="elect" function="G1.2/X7+" ana="sem:G1.2 sem:X7p">elected</w>
@@ -1193,6 +1237,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.42.t29" pos="Z" msd="UPosTag=PUNCT" function="Z5" ana="sem:Z5">’</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.43" n="43" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U1-P1.43">
+                     <measure type="sentiment" quantity="2.861" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U1-P1.43"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.43.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="member" function="Z1mf,Z3c" ana="sem:Z1">Member</w>
                      <name type="PER">
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.43.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Aldis" function="Z1mf,Z3c" ana="sem:Z1">Aldis</w>
@@ -1218,9 +1263,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-LV_2019-01-31-PT13-516.ana.note2" xml:lang="en" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516.ana.note2">A. Adamovich (JV).</note>
-            <u who="#AdamovičsAldis" xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2" ana="#regular" xml:lang="en" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U2">
+            <u who="#AdamovičsAldis" xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2" ana="#regular topic:gover" xml:lang="en" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U2">
                <seg xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1" xml:lang="en" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U2-P1">
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.1" n="1" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U2-P1.1">
+                     <measure type="sentiment" quantity="4.323" ana="senti:mixpos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U2-P1.1"/>
                      <phr type="sem" function="Z4" ana="sem:Z4">
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.1.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="good" function="Z4" ana="sem:Z4">Good</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="morning" function="Z4" ana="sem:Z4" join="right">morning</w>
@@ -1238,16 +1284,19 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.1.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">!</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.2" n="2" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U2-P1.2">
+                     <measure type="sentiment" quantity="2.804" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U2-P1.2"/>
                      <name type="ORG">
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.2.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="presidium" function="Z99" ana="sem:Z99" join="right">Presidium</w>
                      </name>
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.2.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">!</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.3" n="3" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U2-P1.3">
+                     <measure type="sentiment" quantity="3.069" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U2-P1.3"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.3.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="colleague" function="I3.2/S2mf" ana="sem:I3.2 sem:S2" join="right">Colleagues</w>
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.3.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">!</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.4" n="4" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U2-P1.4">
+                     <measure type="sentiment" quantity="2.448" ana="senti:neuneg" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U2-P1.4"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.4.t1" pos="IN" msd="UPosTag=ADP" lemma="at" function="Z5" ana="sem:Z5">At</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.4.t2" pos="PRP$" msd="UPosTag=PRON|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs" lemma="its" function="Z8" ana="sem:Z8">its</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.4.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="meeting" function="S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+" ana="sem:S1.1.3p">meeting</w>
@@ -1304,6 +1353,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.4.t46" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.5" n="5" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U2-P1.5">
+                     <measure type="sentiment" quantity="3.451" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U2-P1.5"/>
                      <phr type="sem" function="T1.1.3" ana="sem:T1.1.3">
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.5.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="next" function="T1.1.3" ana="sem:T1.1.3">Next</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.5.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="candidate" function="T1.1.3" ana="sem:T1.1.3">candidate</w>
@@ -1321,6 +1371,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.5.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">”</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.6" n="6" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U2-P1.6">
+                     <measure type="sentiment" quantity="2.750" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U2-P1.6"/>
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.6.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.6.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.6.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="list" function="Q1.2,N4,M4" ana="sem:Q1.2">list</w>
@@ -1370,6 +1421,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.6.t39" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.7" n="7" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U2-P1.7">
+                     <measure type="sentiment" quantity="3.406" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U2-P1.7"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.7.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
                      <name type="ORG">
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.7.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="commission" function="I2.2,G3/S7.1+" ana="sem:I2.2">Commission</w>
@@ -1421,6 +1473,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.7.t39" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">”</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.8" n="8" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U2-P1.8">
+                     <measure type="sentiment" quantity="2.533" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U2-P1.8"/>
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.8.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.8.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="member" function="S5+/S2mf,B1" ana="sem:S5p sem:S2">Members</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.8.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="elect" function="G1.2/X7+" ana="sem:G1.2 sem:X7p">elected</w>
@@ -1462,14 +1515,16 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#CilevičsBoriss" xml:id="ParlaMint-LV_2019-01-31-PT13-516-U306" ana="#regular" xml:lang="en" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U306">
+            <u who="#CilevičsBoriss" xml:id="ParlaMint-LV_2019-01-31-PT13-516-U306" ana="#regular topic:inter" xml:lang="en" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U306">
                <seg xml:id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1" xml:lang="en" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U306-P1">
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.1" n="1" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U306-P1.1">
+                     <measure type="sentiment" quantity="4.000" ana="senti:mixpos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U306-P1.1"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.1.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="dear" function="E2+,I1.3+" ana="sem:E2p">Dear</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.1.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="colleague" function="I3.2/S2mf" ana="sem:I3.2 sem:S2" join="right">colleagues</w>
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.1.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.2" n="2" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U306-P1.2">
+                     <measure type="sentiment" quantity="3.157" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U306-P1.2"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.2.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.2.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="ask" function="Q2.2" ana="sem:Q2.2">ask</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.2.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -1504,6 +1559,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.2.t26" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">!</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.3" n="3" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U306-P1.3">
+                     <measure type="sentiment" quantity="2.794" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U306-P1.3"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.3.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.3.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="would" function="A7+" ana="sem:A7p">would</w>
                      <phr type="sem" function="A5.4+" ana="sem:A5.4p">
@@ -1534,6 +1590,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.3.t24" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.4" n="4" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U306-P1.4">
+                     <measure type="sentiment" quantity="4.555" ana="senti:pospos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U306-P1.4"/>
                      <phr type="sem" function="Z4,S1.2.4+" ana="sem:Z4">
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.4.t1" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="thank" function="Z4,S1.2.4+" ana="sem:Z4">Thank</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.4.t2" pos="PRP" msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs" lemma="you" function="Z4,S1.2.4+" ana="sem:Z4" join="right">you</w>
@@ -1543,9 +1600,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-LV_2019-01-31-PT13-516.ana.note306" xml:lang="en" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516.ana.note306">Head of the sitting.</note>
-            <u who="#MūrnieceInāra" xml:id="ParlaMint-LV_2019-01-31-PT13-516-U307" ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U307">
+            <u who="#MūrnieceInāra" xml:id="ParlaMint-LV_2019-01-31-PT13-516-U307" ana="#chair topic:other" xml:lang="en" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U307">
                <seg xml:id="ParlaMint-LV_2019-01-31-PT13-516-U307-P1" xml:lang="en" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U307-P1">
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U307-P1.1" n="1" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U307-P1.1">
+                     <measure type="sentiment" quantity="2.748" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U307-P1.1"/>
                      <phr type="sem" function="T1.3" ana="sem:T1.3">
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U307-P1.1.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="lady" function="T1.3" ana="sem:T1.3">Ladies</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U307-P1.1.t2" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
@@ -1587,6 +1645,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U307-P1.1.t37" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U307-P1.2" n="2" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U307-P1.2">
+                     <measure type="sentiment" quantity="3.136" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U307-P1.2"/>
                      <phr type="sem" function="Z4" ana="sem:Z4">
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U307-P1.2.t1" pos="VB" msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin" lemma="let" function="Z4" ana="sem:Z4" join="right">Let</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U307-P1.2.t2" pos="PRP" msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z4" ana="sem:Z4">'s</w>
@@ -1602,6 +1661,7 @@
 <pc xml:id="ParlaMint-LV_2019-01-31-PT13-516-U307-P1.2.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-LV_2019-01-31-PT13-516-U307-P1.3" n="3" corresp="mt-src:ParlaMint-LV_2019-01-31-PT13-516-U307-P1.3">
+                     <measure type="sentiment" quantity="3.218" ana="senti:neupos" corresp="#ParlaMint-LV_2019-01-31-PT13-516-U307-P1.3"/>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U307-P1.3.t1" pos="RB" msd="UPosTag=ADV" lemma="so" function="Z5,A13.3" ana="sem:Z5">So</w>
 <w xml:id="ParlaMint-LV_2019-01-31-PT13-516-U307-P1.3.t2" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
                      <phr type="sem" function="M6" ana="sem:M6">

@@ -29,13 +29,29 @@
                <resp xml:lang="bg">Валидиране на корпуса Parla-CLARIN TEI XML</resp>
                <resp xml:lang="en">Parla-CLARIN TEI XML corpus validation</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="bg">Изследователска инфраструктура CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="83" unit="speeches" xml:lang="bg">83 изказвания</measure>
@@ -48,13 +64,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
                <p xml:lang="bg">Този ресурс е лицензиран под лиценз: <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-17">2025-06-17</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -79,6 +95,7 @@
                <tagUsage gi="kinesic" occurs="5"/>
                <tagUsage gi="link" occurs="9179"/>
                <tagUsage gi="linkGrp" occurs="584"/>
+               <tagUsage gi="measure" occurs="584"/>
                <tagUsage gi="name" occurs="238"/>
                <tagUsage gi="pc" occurs="1454"/>
                <tagUsage gi="s" occurs="584"/>
@@ -100,16 +117,19 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-17">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference" xml:lang="bg">
       <body>
          <div type="debateSection">
-            <u ana="#chair" n="129940" who="#HristovEmil" xml:id="ParlaMint-BG_2019-10-03.u1">
+            <u ana="#chair topic:envir" n="129940" who="#HristovEmil" xml:id="ParlaMint-BG_2019-10-03.u1">
                <seg xml:id="ParlaMint-BG_2019-10-03.seg1">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg1.1">
+                     <measure type="sentiment" quantity="4.192" ana="senti:mixpos" corresp="#ParlaMint-BG_2019-10-03.seg1.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg1.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vnitf-r3s" lemma="има">Има</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg1.1.2" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="кворум" join="right">кворум</w>
 <pc xml:id="ParlaMint-BG_2019-10-03.seg1.1.3" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
@@ -120,6 +140,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-BG_2019-10-03.seg1.2">
+                     <measure type="sentiment" quantity="4.155" ana="senti:mixpos" corresp="#ParlaMint-BG_2019-10-03.seg1.2"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg1.2.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r1s" lemma="откривам-(се)">Откривам</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg1.2.2" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing" ana="mte:Ncnsd" lemma="заседание" join="right">заседанието</w>
 <pc xml:id="ParlaMint-BG_2019-10-03.seg1.2.3" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
@@ -132,6 +153,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg2">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg2.1">
+                     <measure type="sentiment" quantity="3.540" ana="senti:mixpos" corresp="#ParlaMint-BG_2019-10-03.seg2.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg2.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r1p" lemma="продължавам">Продължаваме</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg2.1.2" msd="UPosTag=ADP" ana="mte:R" lemma="с">с</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg2.1.3" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing" ana="mte:Ncfsi" lemma="точка">точка</w>
@@ -154,6 +176,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg3">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg3.1">
+                     <measure type="sentiment" quantity="2.674" ana="senti:neupos" corresp="#ParlaMint-BG_2019-10-03.seg3.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg3.1.1" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord" ana="mte:Monsi" lemma="втори">ВТОРО</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg3.1.2" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="гласуване">ГЛАСУВАНЕ</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg3.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">НА</w>
@@ -192,6 +215,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg4">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg4.1">
+                     <measure type="sentiment" quantity="3.369" ana="senti:neupos" corresp="#ParlaMint-BG_2019-10-03.seg4.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg4.1.1" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="вносител">Вносител</w>
 <pc xml:id="ParlaMint-BG_2019-10-03.seg4.1.2" msd="UPosTag=PUNCT" ana="mte:punct">–</pc>
                      <name type="ORG">
@@ -210,6 +234,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg5">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg5.1">
+                     <measure type="sentiment" quantity="3.407" ana="senti:neupos" corresp="#ParlaMint-BG_2019-10-03.seg5.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg5.1.1" msd="UPosTag=VERB|Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass" ana="mte:Vpptcv--smi" lemma="приема">Приет</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg5.1.2" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vxitf-r3s" lemma="съм">е</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg5.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
@@ -236,6 +261,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg6">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg6.1">
+                     <measure type="sentiment" quantity="3.409" ana="senti:neupos" corresp="#ParlaMint-BG_2019-10-03.seg6.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg6.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r2p" lemma="имам">Имате</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg6.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing" ana="mte:Ncfsd" lemma="дума">думата</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg6.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
@@ -271,9 +297,10 @@
                   </s>
                </seg>
             </u>
-            <u ana="#regular" n="129941" who="#GrudevHristo" xml:id="ParlaMint-BG_2019-10-03.u2">
+            <u ana="#regular topic:envir" n="129941" who="#GrudevHristo" xml:id="ParlaMint-BG_2019-10-03.u2">
                <seg xml:id="ParlaMint-BG_2019-10-03.seg7">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg7.1">
+                     <measure type="sentiment" quantity="4.459" ana="senti:mixpos" corresp="#ParlaMint-BG_2019-10-03.seg7.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg7.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpiif-r1s" lemma="благодаря" join="right">Благодаря</w>
 <pc xml:id="ParlaMint-BG_2019-10-03.seg7.1.2" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
 <w xml:id="ParlaMint-BG_2019-10-03.seg7.1.3" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="господин">господин</w>
@@ -292,6 +319,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg8">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg8.1">
+                     <measure type="sentiment" quantity="3.141" ana="senti:neupos" corresp="#ParlaMint-BG_2019-10-03.seg8.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg8.1.1" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur" ana="mte:A-pi" lemma="уважаем">Уважаеми</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg8.1.2" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur" ana="mte:Ncmpi" lemma="колега" join="right">колеги</w>
 <pc xml:id="ParlaMint-BG_2019-10-03.seg8.1.3" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
@@ -428,9 +456,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u ana="#regular" n="130021" who="#ChenchevIvan" xml:id="ParlaMint-BG_2019-10-03.u82">
+            <u ana="#regular topic:lawcr" n="130021" who="#ChenchevIvan" xml:id="ParlaMint-BG_2019-10-03.u82">
                <seg xml:id="ParlaMint-BG_2019-10-03.seg460">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg460.1">
+                     <measure type="sentiment" quantity="4.701" ana="senti:pospos" corresp="#ParlaMint-BG_2019-10-03.seg460.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg460.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpiif-r1s" lemma="благодаря" join="right">Благодаря</w>
 <pc xml:id="ParlaMint-BG_2019-10-03.seg460.1.2" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
 <w xml:id="ParlaMint-BG_2019-10-03.seg460.1.3" msd="UPosTag=ADJ|Case=Voc|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Ams-e" lemma="уважаем">уважаеми</w>
@@ -451,6 +480,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg461">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg461.1">
+                     <measure type="sentiment" quantity="4.021" ana="senti:mixpos" corresp="#ParlaMint-BG_2019-10-03.seg461.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg461.1.1" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Plur" ana="mte:Ncfpi" lemma="дама">Дами</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg461.1.2" msd="UPosTag=CCONJ" ana="mte:Cp" lemma="и">и</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg461.1.3" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur" ana="mte:Ncmpi" lemma="господин">господа</w>
@@ -467,6 +497,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-BG_2019-10-03.seg461.2">
+                     <measure type="sentiment" quantity="5.081" ana="senti:pospos" corresp="#ParlaMint-BG_2019-10-03.seg461.2"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg461.2.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r1s" lemma="използвам">Използвам</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg461.2.2" msd="UPosTag=DET|Gender=Masc|Number=Sing|PronType=Dem" ana="mte:Pde-os-m" lemma="този">този</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg461.2.3" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="текст" join="right">текст</w>
@@ -541,6 +572,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg462">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg462.1">
+                     <measure type="sentiment" quantity="3.465" ana="senti:neupos" corresp="#ParlaMint-BG_2019-10-03.seg462.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg462.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r1s" lemma="обръщам-(се)">Обръщам</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg462.1.2" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="внимание">внимание</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg462.1.3" msd="UPosTag=ADV|Degree=Pos" ana="mte:Dd" lemma="обаче">обаче</w>
@@ -605,6 +637,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-BG_2019-10-03.seg462.2">
+                     <measure type="sentiment" quantity="0.543" ana="senti:mixneg" corresp="#ParlaMint-BG_2019-10-03.seg462.2"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg462.2.1" msd="UPosTag=ADV|Degree=Pos" ana="mte:Dt" lemma="досега">Досега</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg462.2.2" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Number=Plur" ana="mte:A-pd" lemma="таен">тайните</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg462.2.3" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur" ana="mte:Ncmpi" lemma="квартир">квартири</w>
@@ -685,6 +718,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-BG_2019-10-03.seg462.3">
+                     <measure type="sentiment" quantity="2.945" ana="senti:neupos" corresp="#ParlaMint-BG_2019-10-03.seg462.3"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg462.3.1" msd="UPosTag=ADP" ana="mte:R" lemma="в">В</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg462.3.2" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing" ana="mte:Ncfsd" lemma="столица">столицата</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg462.3.3" msd="UPosTag=PART|Polarity=Neg" ana="mte:Tn" lemma="не">не</w>
@@ -707,6 +741,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg463">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg463.1">
+                     <measure type="sentiment" quantity="4.569" ana="senti:pospos" corresp="#ParlaMint-BG_2019-10-03.seg463.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg463.1.1" msd="UPosTag=ADP" ana="mte:R" lemma="с">С</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg463.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing" ana="mte:Ncnsd" lemma="разкриване">разкриването</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg463.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
@@ -795,6 +830,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-BG_2019-10-03.seg463.2">
+                     <measure type="sentiment" quantity="4.419" ana="senti:mixpos" corresp="#ParlaMint-BG_2019-10-03.seg463.2"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg463.2.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpiif-r1s" lemma="благодаря">Благодаря</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg463.2.2" msd="UPosTag=PRON|Case=Dat|Number=Sing|Person=2|PronType=Prs" ana="mte:Pphtds2" lemma="аз">Ви</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg463.2.3" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
@@ -810,9 +846,10 @@
                   </s>
                </seg>
             </u>
-            <u ana="#chair" n="130022" who="#HristovEmil" xml:id="ParlaMint-BG_2019-10-03.u83">
+            <u ana="#chair topic:mixed" n="130022" who="#HristovEmil" xml:id="ParlaMint-BG_2019-10-03.u83">
                <seg xml:id="ParlaMint-BG_2019-10-03.seg464">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg464.1">
+                     <measure type="sentiment" quantity="4.641" ana="senti:pospos" corresp="#ParlaMint-BG_2019-10-03.seg464.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg464.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpiif-r1s" lemma="благодаря">Благодаря</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg464.1.2" msd="UPosTag=PRON|Case=Dat|Number=Sing|Person=2|PronType=Prs" ana="mte:Pphtds2" lemma="аз" join="right">Ви</w>
 <pc xml:id="ParlaMint-BG_2019-10-03.seg464.1.3" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
@@ -835,6 +872,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg465">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg465.1">
+                     <measure type="sentiment" quantity="3.523" ana="senti:mixpos" corresp="#ParlaMint-BG_2019-10-03.seg465.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg465.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vnitf-r3s" lemma="има">Има</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg465.1.2" msd="UPosTag=PART" ana="mte:Ti" lemma="ли">ли</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg465.1.3" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Plur" ana="mte:Ncfpi" lemma="реплика" join="right">реплики</w>
@@ -847,6 +885,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-BG_2019-10-03.seg465.2">
+                     <measure type="sentiment" quantity="2.015" ana="senti:neuneg" corresp="#ParlaMint-BG_2019-10-03.seg465.2"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg465.2.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vnitf-r3s" lemma="нямам" join="right">Няма</w>
 <pc xml:id="ParlaMint-BG_2019-10-03.seg465.2.2" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
 <linkGrp type="UD-SYN" targFunc="head argument">
@@ -857,6 +896,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg466">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg466.1">
+                     <measure type="sentiment" quantity="2.955" ana="senti:neupos" corresp="#ParlaMint-BG_2019-10-03.seg466.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg466.1.1" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur" ana="mte:A-pi" lemma="друг">Други</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg466.1.2" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Plur" ana="mte:Ncnpi" lemma="изказване" join="right">изказвания</w>
 <pc xml:id="ParlaMint-BG_2019-10-03.seg466.1.3" msd="UPosTag=PUNCT" ana="mte:punct">?</pc>
@@ -867,6 +907,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-BG_2019-10-03.seg466.2">
+                     <measure type="sentiment" quantity="2.015" ana="senti:neuneg" corresp="#ParlaMint-BG_2019-10-03.seg466.2"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg466.2.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vnitf-r3s" lemma="нямам" join="right">Няма</w>
 <pc xml:id="ParlaMint-BG_2019-10-03.seg466.2.2" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>
 <linkGrp type="UD-SYN" targFunc="head argument">
@@ -877,6 +918,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg467">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg467.1">
+                     <measure type="sentiment" quantity="3.613" ana="senti:mixpos" corresp="#ParlaMint-BG_2019-10-03.seg467.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg467.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r1s" lemma="подлагам">Подлагам</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg467.1.2" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg467.1.3" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="гласуване">гласуване</w>
@@ -901,6 +943,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg468">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg468.1">
+                     <measure type="sentiment" quantity="3.880" ana="senti:mixpos" corresp="#ParlaMint-BG_2019-10-03.seg468.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg468.1.1" msd="UPosTag=VERB|Aspect=Imp|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vpitcao-p-i" lemma="гласувам">Гласували</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg468.1.2" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="97">97</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg468.1.3" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur" ana="mte:A-pi" lemma="народен">народни</w>
@@ -935,6 +978,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg469">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg469.1">
+                     <measure type="sentiment" quantity="4.316" ana="senti:mixpos" corresp="#ParlaMint-BG_2019-10-03.seg469.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg469.1.1" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing" ana="mte:Ncnsd" lemma="предложение">Предложението</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg469.1.2" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vxitf-r3s" lemma="съм">е</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg469.1.3" msd="UPosTag=VERB|Aspect=Perf|Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass" ana="mte:Vpptcv--sni" lemma="приема" join="right">прието</w>
@@ -949,6 +993,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg470">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg470.1">
+                     <measure type="sentiment" quantity="4.790" ana="senti:pospos" corresp="#ParlaMint-BG_2019-10-03.seg470.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg470.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpiif-r1s" lemma="благодаря">Благодаря</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg470.1.2" msd="UPosTag=PRON|Case=Dat|Number=Sing|Person=2|PronType=Prs" ana="mte:Pphtds2" lemma="аз" join="right">Ви</w>
 <pc xml:id="ParlaMint-BG_2019-10-03.seg470.1.3" msd="UPosTag=PUNCT" ana="mte:punct">,</pc>
@@ -971,6 +1016,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg471">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg471.1">
+                     <measure type="sentiment" quantity="3.147" ana="senti:neupos" corresp="#ParlaMint-BG_2019-10-03.seg471.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg471.1.1" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Plur" ana="mte:Ncnpi" lemma="съобщение">Съобщения</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg471.1.2" msd="UPosTag=ADP" ana="mte:R" lemma="за">за</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg471.1.3" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsi" lemma="парламентарен">парламентарен</w>
@@ -997,6 +1043,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg472">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg472.1">
+                     <measure type="sentiment" quantity="2.658" ana="senti:neupos" corresp="#ParlaMint-BG_2019-10-03.seg472.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg472.1.1" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord" ana="mte:Momsi" lemma="1.">1.</w>
                      <name type="ORG">
 <w xml:id="ParlaMint-BG_2019-10-03.seg472.1.2" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="заместник">Заместник</w>
@@ -1051,6 +1098,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg473">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg473.1">
+                     <measure type="sentiment" quantity="2.563" ana="senti:neupos" corresp="#ParlaMint-BG_2019-10-03.seg473.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg473.1.1" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="2.">2.</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg473.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsf" lemma="министър">Министърът</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg473.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
@@ -1159,6 +1207,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg474">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg474.1">
+                     <measure type="sentiment" quantity="2.660" ana="senti:neupos" corresp="#ParlaMint-BG_2019-10-03.seg474.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg474.1.1" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="3.">3.</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg474.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsf" lemma="министър">Министърът</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg474.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
@@ -1207,6 +1256,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg475">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg475.1">
+                     <measure type="sentiment" quantity="2.608" ana="senti:neupos" corresp="#ParlaMint-BG_2019-10-03.seg475.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg475.1.1" msd="UPosTag=NUM|Definite=Ind|Number=Plur|NumType=Card" ana="mte:Mc-pi" lemma="4.">4.</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg475.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsf" lemma="министър">Министърът</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg475.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
@@ -1251,6 +1301,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg476">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg476.1">
+                     <measure type="sentiment" quantity="2.603" ana="senti:neupos" corresp="#ParlaMint-BG_2019-10-03.seg476.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg476.1.1" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="5.">5.</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg476.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsf" lemma="министър">Министърът</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg476.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
@@ -1313,6 +1364,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg477">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg477.1">
+                     <measure type="sentiment" quantity="2.719" ana="senti:neupos" corresp="#ParlaMint-BG_2019-10-03.seg477.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg477.1.1" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Npmsi" lemma="6.">6.</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg477.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsf" lemma="министър">Министърът</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg477.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
@@ -1373,6 +1425,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg478">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg478.1">
+                     <measure type="sentiment" quantity="1.884" ana="senti:neuneg" corresp="#ParlaMint-BG_2019-10-03.seg478.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg478.1.1" msd="UPosTag=ADP" ana="mte:R" lemma="на">На</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg478.1.2" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="основание">основание</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg478.1.3" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="чл.">чл.</w>
@@ -1443,6 +1496,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg479">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg479.1">
+                     <measure type="sentiment" quantity="2.435" ana="senti:neuneg" corresp="#ParlaMint-BG_2019-10-03.seg479.1"/>
 <pc xml:id="ParlaMint-BG_2019-10-03.seg479.1.1" msd="UPosTag=PUNCT" ana="mte:punct">-</pc>
 <w xml:id="ParlaMint-BG_2019-10-03.seg479.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsf" lemma="министър">министърът</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg479.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
@@ -1495,6 +1549,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg480">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg480.1">
+                     <measure type="sentiment" quantity="2.148" ana="senti:neuneg" corresp="#ParlaMint-BG_2019-10-03.seg480.1"/>
 <pc xml:id="ParlaMint-BG_2019-10-03.seg480.1.1" msd="UPosTag=PUNCT" ana="mte:punct">-</pc>
 <w xml:id="ParlaMint-BG_2019-10-03.seg480.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsf" lemma="министър">министърът</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg480.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
@@ -1569,6 +1624,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg481">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg481.1">
+                     <measure type="sentiment" quantity="2.576" ana="senti:neupos" corresp="#ParlaMint-BG_2019-10-03.seg481.1"/>
 <pc xml:id="ParlaMint-BG_2019-10-03.seg481.1.1" msd="UPosTag=PUNCT" ana="mte:punct">-</pc>
 <w xml:id="ParlaMint-BG_2019-10-03.seg481.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" ana="mte:Ncmsf" lemma="министър">министърът</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg481.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
@@ -1631,6 +1687,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg482">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg482.1">
+                     <measure type="sentiment" quantity="1.524" ana="senti:neuneg" corresp="#ParlaMint-BG_2019-10-03.seg482.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg482.1.1" msd="UPosTag=ADP" ana="mte:R" lemma="поради">Поради</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg482.1.2" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="отсъствие">отсъствие</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg482.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="на">на</w>
@@ -1695,6 +1752,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg483">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg483.1">
+                     <measure type="sentiment" quantity="1.443" ana="senti:mixneg" corresp="#ParlaMint-BG_2019-10-03.seg483.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg483.1.1" msd="UPosTag=ADP" ana="mte:R" lemma="поради">Поради</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg483.1.2" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="отсъствие">отсъствие</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg483.1.3" msd="UPosTag=ADP" ana="mte:R" lemma="от">от</w>
@@ -1767,6 +1825,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg484">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg484.1">
+                     <measure type="sentiment" quantity="1.856" ana="senti:neuneg" corresp="#ParlaMint-BG_2019-10-03.seg484.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg484.1.1" msd="UPosTag=ADP" ana="mte:R" lemma="поради">Поради</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg484.1.2" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsi" lemma="неотложен">неотложен</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg484.1.3" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Amsi" lemma="служебен">служебен</w>
@@ -1815,6 +1874,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg485">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg485.1">
+                     <measure type="sentiment" quantity="3.076" ana="senti:neupos" corresp="#ParlaMint-BG_2019-10-03.seg485.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg485.1.1" msd="UPosTag=ADJ|Aspect=Imp|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act" ana="mte:Vpitcar-snd" lemma="следвам">Следващото</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg485.1.2" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Ansi" lemma="редовен">редовно</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg485.1.3" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Ansi" lemma="пленарен">пленарно</w>
@@ -1847,6 +1907,7 @@
                </seg>
                <seg xml:id="ParlaMint-BG_2019-10-03.seg486">
                   <s xml:id="ParlaMint-BG_2019-10-03.seg486.1">
+                     <measure type="sentiment" quantity="3.590" ana="senti:mixpos" corresp="#ParlaMint-BG_2019-10-03.seg486.1"/>
 <w xml:id="ParlaMint-BG_2019-10-03.seg486.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" ana="mte:Vpitf-r1s" lemma="закривам">Закривам</w>
 <w xml:id="ParlaMint-BG_2019-10-03.seg486.1.2" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing" ana="mte:Ncnsd" lemma="заседание" join="right">заседанието</w>
 <pc xml:id="ParlaMint-BG_2019-10-03.seg486.1.3" msd="UPosTag=PUNCT" ana="mte:punct">.</pc>

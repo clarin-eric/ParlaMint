@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262" xml:lang="cs" ana="#parla.agenda #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262" xml:lang="cs" ana="#CZ-parla.agenda #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,10 +10,14 @@
             <meeting ana="#parla.term #parla.lower #parliament.PSP7" n="ps2013" corresp="#parliament.PSP">ps2013</meeting>
             <meeting ana="#parla.meeting #parla.lower" n="ps2013/050" corresp="#parliament.PSP">ps2013/050</meeting>
             <meeting ana="#parla.sitting #parla.lower" n="ps2013/050/07" corresp="#parliament.PSP">ps2013/050/07</meeting>
-            <meeting ana="#parla.agenda #parla.lower" n="ps2013/050/262" corresp="#parliament.PSP">ps2013/050/262</meeting>
+            <meeting ana="#CZ-parla.agenda #parla.lower" n="ps2013/050/262" corresp="#parliament.PSP">ps2013/050/262</meeting>
             <respStmt>
                <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
                <resp xml:lang="en">TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
             </respStmt>
             <funder>
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
@@ -25,12 +29,12 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="158" xml:lang="cs">158 promluv</measure>
             <measure unit="speeches" quantity="158" xml:lang="en">158 speeches</measure>
-            <measure unit="words" quantity="17969" xml:lang="cs">17.969 slov</measure>
+            <measure unit="words" quantity="17969" xml:lang="cs">17 969 slov</measure>
             <measure unit="words" quantity="17969" xml:lang="en">17,969 words</measure>
          </extent>
          <publicationStmt>
@@ -45,7 +49,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="cs">Toto dílo je licencováno <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Uveďte původ 4.0 Mezinárodní Veřejná licence</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-14">2025-06-14</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -110,8 +114,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-14">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
@@ -119,7 +125,7 @@
          <div type="debateSection">
             <pb source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050247.htm" n="1" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.pb1" corresp="#ps2013-050-07-005-262.audio1"/>
             <note type="speaker" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.note1">Místopředseda PSP Jan Bartošek</note>
-            <u who="#JanBartosek.1971" ana="#chair" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1">
+            <u who="#JanBartosek.1971" ana="#chair topic:other" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1">
                <seg xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1">262. Ústní interpelace</seg>
                <seg xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p2">které jsou určeny na předsedu vlády České republiky a ostatní členy vlády.</seg>
                <seg xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3">Na začátek mi dovolte, abych přečetl omluvy. Z celého jednacího dne se omlouvá pan poslanec Zdeněk Soukup, dále dne 27. 10. od 14.30 do konce jednání z pracovních důvodů se omlouvá paní poslankyně Berdychová, od 14 hodin z pracovních důvodů se omlouvá po zbytek dne pan poslanec Sedláček, dále od 14.30 hodin do konce jednacího dne z pracovních důvodů se omlouvá pan poslanec Volný, dále dnešního dne od 14.30 do konce jednacího dne se omlouvá paní poslankyně Jaroslava Pokorná Jermanová, od 14.30 do konce jednacího dne z pracovních důvodů se omlouvá paní poslankyně Helena Válková, dnešní den od 14.30 do konce jednacího dne se omlouvá pan poslanec Martin Komárek, od 14.30 hodin do konce jednacího dne ze zdravotních důvodů se omlouvá paní poslankyně Balaštíková a dále z celého odpoledne z pracovních důvodů se omlouvá paní poslankyně Marksová.</seg>
@@ -127,17 +133,17 @@
                <seg xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5">Nyní dávám slovo poslanci Jiřímu Zlatuškovi, který byl vylosován na prvním místě, aby přednesl ústní interpelaci na předsedu vlády České republiky Bohuslava Sobotku, a připraví se Marek Černoch. Prosím, pane poslanče.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.note2">Poslanec Jiří Zlatuška</note>
-            <u who="#JiriZlatuska.1957" ana="#regular" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050247.htm#r2">
+            <u who="#JiriZlatuska.1957" ana="#regular topic:other" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050247.htm#r2">
                <seg xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1">Já jsem chtěl pana premiéra interpelovat stran jeho vystupování, ze kterého, pokud by si z nás politiků mládež brala příklad, tak mám trošku obavy, že, jak se vždycky říká, že mládež ztrácí dobré mravy nebo dělá to či ono, tak že by to mohlo být špatné. A jednalo se mi o jistý rozpor v jeho chování v okamžiku, kdy jako jeden z těch čtyř ústavních činitelů podepsal prohlášení, kterým vlastně peskoval jednoho ze svých ministrů za to, že tento ministr, tedy ministr Herman, přivítal v České republice hosta, a na druhou stranu rozpor tady s tímto a nekonáním směrem k jinému panu ministrovi, k ministru Chovancovi, u kterého se nad jakékoliv pochybnosti ukázalo, že opsal svoji práci na Západočeské univerzitě. Tento rozpor si myslím, že vede k tomu, že mládež si z toho může brát příklad, že nemá zdravit toho, kdo se jí nelíbí, má se třeba chovat nevšímavě k učitelům, a v okamžiku, kdy se jedná o zkoušky a podobně, tak má opsat, co může, jenom aby jí to prošlo. Ale pokud tady pan premiér není, tak tu interpelaci asi nebudu pokládat a nechám si to pro jinou příležitost. Děkuji.</seg>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#PetrBendl.1966" ana="#regular" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050262.htm#r6">
+            <u who="#PetrBendl.1966" ana="#regular topic:mixed" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050262.htm#r6">
                <seg xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1">Děkuji, pane předsedající. Moje otázka je jednoduchá. Mě zajímá celkový stav čerpání evropských fondů, které má Česká republika na léta 2014 až 2020 k dispozici. Proto prosím o odpověď na otázku, kolik Česká republika má celkem k dispozici finančních prostředků z EU na léta 2014 až 2020. Kolik bylo už doposud vyčerpáno a kolik bylo finančních prostředků zesmluvněno? Dále mě zajímá, kolik finančních prostředků plánovaných v rozpočtu na rok 2016 v jednotlivých kapitolách státního rozpočtu bude proinvestováno a jaký byl plán, to znamená, jakou očekáváte skutečnost ke konci roku 2016 a kolik finančních prostředků do rozpočtu EU měly jednotlivé kapitoly státního rozpočtu v plánu. Děkuji vám za vaši odpověď.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.note175">Místopředseda PSP Petr Gazdík</note>
-            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050262.htm#r7">
+            <u who="#PetrGazdik.1974" ana="#chair topic:other" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050262.htm#r7">
                <seg xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1">Děkuji. Omlouvám se panu poslanci Hovorkovi, ale dle jednacího řádu musí být přítomen alespoň jeden ministr, což bohužel v tuto chvíli není pravda, takže přerušuji jednání Sněmovny do úterý 8. listopadu, kdy budeme pokračovat pevně zařazenými body dle programu. Děkuji a přeji vám hezký večer.</seg>
             </u>
             <note type="time" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.note176">

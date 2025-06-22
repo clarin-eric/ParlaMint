@@ -1,19 +1,19 @@
 <note type="speaker" content="LEHENDAKARIAK (Tejeria Otermin):"/>
-<speech id="ParlaMint-ES-PV_2017-10-05.u0" text_id="ParlaMint-ES-PV_2017-10-05" subcorpus="Reference" lang="Multilingual" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 327-333" meeting="-" sitting="2017-10-05" agenda="-" date="2017-10-05" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2017-10-05" speaker_role="Chairperson" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
+<speech id="ParlaMint-ES-PV_2017-10-05.u0" text_id="ParlaMint-ES-PV_2017-10-05" subcorpus="Reference" lang="Multilingual" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 327-333" meeting="-" sitting="2017-10-05" agenda="-" date="2017-10-05" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2017-10-05" speaker_role="Chairperson" topic="Civil Rights" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
 <p id="ParlaMint-ES-PV_2017-10-05.seg1" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg1.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg1.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.666">
 Egun	Egun	egun	NOUN	-	w1	root	-	-	-	-
 on	on	on	ADJ	-	w2	amod	egun	NOUN	-	w1
 guztioi	guztioi	guzti	NUM	NumType=Card	w3	det	egun	NOUN	-	w1
 <g/>
 …	…	…	PUNCT	-	w4	punct	egun	NOUN	-	w1
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg1.s2">
+<s id="ParlaMint-ES-PV_2017-10-05.seg1.s2" senti_3="Neutral" senti_6="neutral postive" senti_n="3.228">
 Mesedez	Mesedez	mesedez	PROPN	Case=Abs Definite=Def Number=Sing	w1	root	-	-	-	-
 <g/>
 …	…	…	PUNCT	-	w2	punct	mesedez	PROPN	Case=Abs Definite=Def Number=Sing	w1
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg1.s3">
+<s id="ParlaMint-ES-PV_2017-10-05.seg1.s3" senti_3="Positive" senti_6="mixed positive" senti_n="3.697">
 Egun	Egun	egun	NOUN	-	w1	root	-	-	-	-
 on	on	on	ADJ	-	w2	amod	egun	NOUN	-	w1
 guztioi	guztioi	guzti	NUM	NumType=Card	w3	det	egun	NOUN	-	w1
@@ -22,7 +22,7 @@ guztioi	guztioi	guzti	NUM	NumType=Card	w3	det	egun	NOUN	-	w1
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg2" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg2.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg2.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.172">
 Adierazpen	Adierazpen	adierazpen	NOUN	-	w1	obl	hasi	VERB	Aspect=Prosp VerbForm=Part	w4
 instituzional	instituzional	instituzional	ADJ	-	w2	amod	adierazpen	NOUN	-	w1
 batekin	batekin	bat	NUM	NumType=Card	w3	det	adierazpen	NOUN	-	w1
@@ -47,7 +47,7 @@ asmoz	asmoz	asmo	NOUN	Animacy=Inan Case=Ins Definite=Ind	w18	obl	izan	VERB	Aspec
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg3" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg3.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg3.s1" senti_3="Negative" senti_6="negative" senti_n="0.284">
 "	"	"	PUNCT	-	w1	punct	gaitzetsi	VERB	Aspect=Imp VerbForm=Inf	w7
 <g/>
 <name type="ORG">
@@ -81,7 +81,7 @@ dena	dena	izan	AUX	Mood=Ind Number[abs]=Sing Person[abs]=3	w24	aux	izan	AUX	Aspe
 <g/>
 .	.	.	PUNCT	-	w25	punct	Jiménez	NOUN	Case=Ins Definite=Ind	w11
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg3.s2">
+<s id="ParlaMint-ES-PV_2017-10-05.seg3.s2" senti_3="Positive" senti_6="mixed positive" senti_n="4.097">
 Legebiltzarrak	Legebiltzarrak	legebiltzar	NOUN	Case=Erg Definite=Def Number=Sing	w1	nsubj	agertu	VERB	Aspect=Imp VerbForm=Inf	w6
 bere	bere	bera	DET	Case=Gen Number=Sing	w2	nmod	laguntza	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w3
 laguntza	laguntza	laguntza	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w3	obj	agertu	VERB	Aspect=Imp VerbForm=Inf	w6
@@ -98,7 +98,7 @@ hurrekoei	hurrekoei	hurrekoek	NOUN	Case=Dat Definite=Def Number=Plur	w11	conj	ag
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg4" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg4.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg4.s1" senti_3="Negative" senti_6="negative" senti_n="0.491">
 "	"	"	PUNCT	-	w1	punct	gaitzetsi	VERB	Aspect=Imp VerbForm=Inf	w6
 <g/>
 <name type="ORG">
@@ -123,7 +123,7 @@ ere	ere	ere	CCONJ	-	w17	advmod	agerpen	NOUN	-	w15
 <g/>
 .	.	.	PUNCT	-	w18	punct	gaitzetsi	VERB	Aspect=Imp VerbForm=Inf	w6
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg4.s2">
+<s id="ParlaMint-ES-PV_2017-10-05.seg4.s2" senti_3="Negative" senti_6="negative" senti_n="0.181">
 Adierazten	Adierazten	adierazi	VERB	Aspect=Imp VerbForm=Inf	w1	root	-	-	-	-
 dugu	dugu	*edun	AUX	Mood=Ind Number[abs]=Sing Number[erg]=Plur Person[abs]=3 Person[erg]=1	w2	aux	adierazi	VERB	Aspect=Imp VerbForm=Inf	w1
 sexu-indarkeria	sexu-indarkeria	sexu-indarkeria	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w3	ccomp	adierazi	VERB	Aspect=Imp VerbForm=Inf	w1
@@ -149,7 +149,7 @@ harremanetan	harremanetan	harreman	NOUN	Case=Ine Definite=Def Number=Plur	w20	co
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg5" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg5.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg5.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.225">
 "	"	"	PUNCT	PunctType=Quot	w1	punct	invitar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w5
 <g/>
 El	El	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w2	det	Parlamento	PROPN	-	w3
@@ -179,7 +179,7 @@ hombres	hombres	hombre	NOUN	Gender=Masc Number=Plur	w23	conj	mujer	NOUN	Gender=F
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w24	punct	invitar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w5
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg5.s2">
+<s id="ParlaMint-ES-PV_2017-10-05.seg5.s2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.583">
 Asimismo	Asimismo	asimismo	ADV	-	w1	advmod	instar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	w2	punct	asimismo	ADV	-	w1
@@ -257,7 +257,7 @@ Hurtado	Hurtado	Hurtado	PROPN	-	w64	flat	Ana	PROPN	-	w61
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg6" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg6.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg6.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.140">
 Jarraian	Jarraian	jarraian	ADV	-	w1	advmod	egin	VERB	Aspect=Prosp VerbForm=Part	w6
 <g/>
 ,	,	,	PUNCT	-	w2	punct	egin	VERB	Aspect=Prosp VerbForm=Part	w6
@@ -272,7 +272,7 @@ dugu	dugu	*edun	AUX	Mood=Ind Number[abs]=Sing Number[erg]=Plur Person[abs]=3 Per
 </p>
 <note type="-" content="Isilunea"/>
 <p id="ParlaMint-ES-PV_2017-10-05.seg7" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg7.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg7.s1" senti_3="Negative" senti_6="mixed negative" senti_n="1.239">
 Jakinarazten	Jakinarazten	Jakinaraztu	VERB	Voice=Cau	w1	root	-	-	-	-
 dizuet	dizuet	*edun	AUX	Mood=Ind Number[abs]=Sing Number[dat]=Plur Number[erg]=Sing Person[abs]=3 Person[dat]=2 Person[erg]=1	w2	aux	Jakinaraztu	VERB	Voice=Cau	w1
 bosgarren	bosgarren	bosgarren	NUM	NumType=Ord	w3	amod	puntu	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w4
@@ -285,7 +285,7 @@ dela	dela	izan	AUX	Mood=Ind Number[abs]=Sing Person[abs]=3	w7	aux	izan	AUX	Aspec
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg8" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg8.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg8.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.350">
 <name type="ORG">
 Gai-zerrendako	Gai-zerrendako	Gai-zerrenda	PROPN	Case=Loc Definite=Def Number=Sing	w1	nmod	puntu	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w3
 </name>
@@ -294,7 +294,7 @@ puntua	puntua	puntu	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w3	root	
 <g/>
 :	:	:	PUNCT	-	w4	punct	puntu	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w3
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg8.s2">
+<s id="ParlaMint-ES-PV_2017-10-05.seg8.s2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.847">
 "	"	"	PUNCT	-	w1	punct	lege-proposamen	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w7
 <g/>
 <name type="ORG">
@@ -324,7 +324,7 @@ buruz	buruz	buruz	ADP	Animacy=Inan Definite=Def Number=Plur	w18	case	aldatu	NOUN
 <g/>
 .	.	.	PUNCT	-	w19	punct	lege	NOUN	Case=Abs Definite=Def Number=Sing	w16
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg8.s3">
+<s id="ParlaMint-ES-PV_2017-10-05.seg8.s3" senti_3="Neutral" senti_6="neutral postive" senti_n="2.574">
 Aintzat	Aintzat	aintzat	ADV	-	w1	nmod	eztabaida	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w4
 hartzeari	hartzeari	hartu	NOUN	Case=Dat	w2	nmod	eztabaida	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w4
 buruzko	buruzko	buru	ADP	Case=Loc Definite=Def Number=Plur	w3	case	hartu	NOUN	Case=Dat	w2
@@ -340,7 +340,7 @@ ebazpena	ebazpena	ebazpen	NOUN	Case=Abs Definite=Def Number=Sing	w8	conj	eztabai
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg9" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg9.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg9.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.875">
 Banatu	Banatu	banatu	VERB	Aspect=Perf VerbForm=Part	w1	root	-	-	-	-
 zaizuen	zaizuen	*edaizun	AUX	Mood=Ind Number[abs]=Sing Number[erg]=Sing Person[abs]=3 Person[erg]=3	w2	aux	banatu	VERB	Aspect=Perf VerbForm=Part	w1
 dokumentazioan	dokumentazioan	dokumentazio	NOUN	Case=Ine Definite=Def Number=Sing	w3	obl	eduki	VERB	Aspect=Prog Mood=Ind Number[abs]=Sing Number[erg]=Plur Person[abs]=3 Person[erg]=2	w4
@@ -362,7 +362,7 @@ diogu	diogu	*edun	AUX	Mood=Ind Number[abs]=Sing Number[dat]=Sing Number[erg]=Plu
 <g/>
 .	.	.	PUNCT	-	w15	punct	banatu	VERB	Aspect=Perf VerbForm=Part	w1
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg9.s2">
+<s id="ParlaMint-ES-PV_2017-10-05.seg9.s2" senti_3="Negative" senti_6="mixed negative" senti_n="1.374">
 Aldeko	Aldeko	aldeko	NOUN	Animacy=Inan Case=Loc Definite=Def Number=Sing	w1	nmod	txanda	NOUN	Animacy=Inan Case=Ine Definite=Def Number=Sing	w2
 txandan	txandan	txanda	NOUN	Animacy=Inan Case=Ine Definite=Def Number=Sing	w2	obl	hartu	VERB	VerbForm=Part	w11
 <g/>
@@ -383,7 +383,7 @@ du	du	ukan	VERB	Aspect=Prog Mood=Ind Number[abs]=Sing Number[erg]=Sing Person[ab
 <g/>
 ?	?	?	PUNCT	-	w14	punct	ukan	VERB	Aspect=Prog Mood=Ind Number[abs]=Sing Number[erg]=Sing Person[abs]=3 Person[erg]=3	w13
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg9.s3">
+<s id="ParlaMint-ES-PV_2017-10-05.seg9.s3" senti_3="Neutral" senti_6="neutral postive" senti_n="3.080">
 Beste	Beste	beste	DET	-	w1	det	norbait	PRON	Case=Erg Definite=Ind	w2
 norbaitek	norbaitek	norbait	PRON	Case=Erg Definite=Ind	w2	root	-	-	-	-
 <g/>
@@ -394,25 +394,25 @@ txandan	txandan	txanda	NOUN	Animacy=Inan Case=Ine Definite=Def Number=Sing	w5	co
 …	…	…	PUNCT	-	w6	punct	norbait	PRON	Case=Erg Definite=Ind	w2
 <g/>
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg9.s4">
+<s id="ParlaMint-ES-PV_2017-10-05.seg9.s4" senti_3="Neutral" senti_6="neutral negative" senti_n="1.739">
 ?	?	?	PUNCT	-	w1	root	-	-	-	-
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg9.s5">
+<s id="ParlaMint-ES-PV_2017-10-05.seg9.s5" senti_3="Neutral" senti_6="neutral negative" senti_n="2.043">
 Kontrako	Kontrako	kontrako	ADJ	-	w1	amod	txanda	NOUN	Animacy=Inan Case=Ine Definite=Def Number=Sing	w2
 txandan	txandan	txanda	NOUN	Animacy=Inan Case=Ine Definite=Def Number=Sing	w2	root	-	-	-	-
 <g/>
 …	…	…	PUNCT	-	w3	punct	txanda	NOUN	Animacy=Inan Case=Ine Definite=Def Number=Sing	w2
 <g/>
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg9.s6">
+<s id="ParlaMint-ES-PV_2017-10-05.seg9.s6" senti_3="Neutral" senti_6="neutral negative" senti_n="1.739">
 ?	?	?	PUNCT	-	w1	root	-	-	-	-
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg9.s7">
+<s id="ParlaMint-ES-PV_2017-10-05.seg9.s7" senti_3="Neutral" senti_6="neutral postive" senti_n="2.704">
 Bat	Bat	bat	ADV	-	w1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	w2	punct	bat	ADV	-	w1
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg9.s8">
+<s id="ParlaMint-ES-PV_2017-10-05.seg9.s8" senti_3="Neutral" senti_6="neutral negative" senti_n="2.455">
 Eta	Eta	eta	CCONJ	-	w1	cc	Podemos	PROPN	Case=Erg Definite=Def Number=Sing	w2
 <name type="ORG">
 Podemosek	Podemosek	Podemos	PROPN	Case=Erg Definite=Def Number=Sing	w2	root	-	-	-	-
@@ -421,10 +421,10 @@ Podemosek	Podemosek	Podemos	PROPN	Case=Erg Definite=Def Number=Sing	w2	root	-	-	
 …	…	…	PUNCT	-	w3	punct	Podemos	PROPN	Case=Erg Definite=Def Number=Sing	w2
 <g/>
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg9.s9">
+<s id="ParlaMint-ES-PV_2017-10-05.seg9.s9" senti_3="Neutral" senti_6="neutral negative" senti_n="1.739">
 ?	?	?	PUNCT	-	w1	root	-	-	-	-
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg9.s10">
+<s id="ParlaMint-ES-PV_2017-10-05.seg9.s10" senti_3="Neutral" senti_6="neutral postive" senti_n="3.220">
 Ez	Ez	ez	PART	Polarity=Neg	w1	advmod	explicació	VERB	Aspect=Imp VerbForm=Inf	w3
 <g/>
 ,	,	,	PUNCT	-	w2	punct	explicació	VERB	Aspect=Imp VerbForm=Inf	w3
@@ -433,7 +433,7 @@ de	de	de	X	-	w4	advmod	explicació	VERB	Aspect=Imp VerbForm=Inf	w3
 voto	voto	voto	ADV	-	w5	dep	de	X	-	w4
 .	.	.	PUNCT	-	w6	punct	explicació	VERB	Aspect=Imp VerbForm=Inf	w3
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg9.s11">
+<s id="ParlaMint-ES-PV_2017-10-05.seg9.s11" senti_3="Neutral" senti_6="neutral negative" senti_n="2.306">
 <name type="ORG">
 PSOEk	PSOEk	PSOE	PROPN	Case=Erg Definite=Def Number=Sing	w1	nsubj	bai	PART	Polarity=Pos	w6
 </name>
@@ -449,7 +449,7 @@ bai	bai	bai	PART	Polarity=Pos	w6	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg10" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg10.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg10.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.402">
 Bale	Bale	Bale	ADJ	Case=Abs Definite=Ind	w1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	w2	punct	hitz	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w13
@@ -475,9 +475,9 @@ hitza	hitza	hitz	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w13	conj	Ba
 </p>
 </speech>
 <note type="speaker" content="SÉMPER PASCUAL jaunak:"/>
-<speech id="ParlaMint-ES-PV_2017-10-05.u1" text_id="ParlaMint-ES-PV_2017-10-05" subcorpus="Reference" lang="Multilingual" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 327-333" meeting="-" sitting="2017-10-05" agenda="-" date="2017-10-05" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2017-10-05" speaker_role="Regular" speaker_id="SémperPascual" speaker_name="Sémper Pascual, Francisco de Borja" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PP" speaker_party_name="Alderdi Popularra" party_status="Opposition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1976">
+<speech id="ParlaMint-ES-PV_2017-10-05.u1" text_id="ParlaMint-ES-PV_2017-10-05" subcorpus="Reference" lang="Multilingual" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 327-333" meeting="-" sitting="2017-10-05" agenda="-" date="2017-10-05" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2017-10-05" speaker_role="Regular" topic="Government Operations" speaker_id="SémperPascual" speaker_name="Sémper Pascual, Francisco de Borja" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PP" speaker_party_name="Alderdi Popularra" party_status="Opposition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1976">
 <p id="ParlaMint-ES-PV_2017-10-05.seg11" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg11.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg11.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.063">
 Legebiltzarkideok	Legebiltzarkideok	Legebiltzarkide	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Plur	w1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	w2	punct	jaun	NOUN	Case=Abs Definite=Def Number=Sing	w4
@@ -496,7 +496,7 @@ guztioi	guztioi	guzti	NUM	NumType=Card	w10	det	egun	NOUN	-	w8
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg12" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg12.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg12.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.023">
 Bajo	Bajo	bajo	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 a	a	a	ADP	-	w2	case	tribuna	NOUN	Gender=Fem Number=Sing	w4
 esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	w3	det	tribuna	NOUN	Gender=Fem Number=Sing	w4
@@ -635,7 +635,7 @@ control	control	control	NOUN	Gender=Masc Number=Sing	w121	nmod	órgano	NOUN	Gend
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg13" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg13.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg13.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.890">
 Venimos	Venimos	venir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 tiempo	tiempo	tiempo	NOUN	Gender=Masc Number=Sing	w2	obj	venir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w1
 discutiendo	discutiendo	discutir	VERB	VerbForm=Ger	w3	advcl	venir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w1
@@ -755,7 +755,7 @@ independencia	independencia	independencia	NOUN	Gender=Fem Number=Sing	w104	obj	g
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w105	punct	venir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w1
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg13.s2">
+<s id="ParlaMint-ES-PV_2017-10-05.seg13.s2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.644">
 También	También	también	ADV	-	w1	advmod	debatir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w3
 hemos	hemos	haber	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2	aux	debatir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w3
 debatido	debatido	debatir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w3	root	-	-	-	-
@@ -792,7 +792,7 @@ giratorias	giratorias	giratorio	ADJ	Gender=Fem Number=Plur	w30	amod	puerta	NOUN	
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg14" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg14.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg14.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.325">
 En	En	en	ADP	-	w1	advmod	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w13
 definitiva	definitiva	definitiva	NOUN	-	w2	fixed	en	ADP	-	w1
 <g/>
@@ -879,7 +879,7 @@ gobierno	gobierno	gobierno	NOUN	Gender=Masc Number=Sing	w74	obl	antes–	ADV	-	w
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg15" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg15.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg15.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.154">
 En	En	en	ADP	-	w1	case	sentido	NOUN	Gender=Masc Number=Sing	w3
 ese	ese	ese	DET	Gender=Masc Number=Sing PronType=Dem	w2	det	sentido	NOUN	Gender=Masc Number=Sing	w3
 sentido	sentido	sentido	NOUN	Gender=Masc Number=Sing	w3	obl	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w25
@@ -927,7 +927,7 @@ reflexión	reflexión	reflexión	NOUN	Gender=Fem Number=Sing	w41	obj	compartir	V
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w42	punct	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w25
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg15.s2">
+<s id="ParlaMint-ES-PV_2017-10-05.seg15.s2" senti_3="Neutral" senti_6="neutral postive" senti_n="3.019">
 No	No	no	ADV	Polarity=Neg	w1	advmod	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 creo	creo	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 que	que	que	SCONJ	-	w3	mark	tener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w6
@@ -958,7 +958,7 @@ manera	manera	manera	NOUN	Gender=Fem Number=Sing	w28	obl	traer	VERB	VerbForm=Inf
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg16" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg16.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg16.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.932">
 Proponemos	Proponemos	proponer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w2	det	modificación	NOUN	Gender=Fem Number=Sing	w3
 modificación	modificación	modificación	NOUN	Gender=Fem Number=Sing	w3	obj	proponer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w1
@@ -971,7 +971,7 @@ fundamentales	fundamentales	fundamental	ADJ	Number=Plur	w9	amod	aspecto	NOUN	Gen
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w10	punct	proponer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w1
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg16.s2">
+<s id="ParlaMint-ES-PV_2017-10-05.seg16.s2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.856">
 El	El	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w1	det	primero	ADJ	Gender=Masc Number=Sing NumType=Ord	w2
 primero	primero	primero	ADJ	Gender=Masc Number=Sing NumType=Ord	w2	nsubj	apartado	NOUN	Gender=Masc Number=Sing	w7
 de	de	de	ADP	-	w3	case	él	PRON	Case=Acc,Nom Gender=Masc Number=Plur Person=3 PronType=Prs	w4
@@ -986,7 +986,7 @@ artículo	artículo	artículo	NOUN	-	w12	nmod	apartado	NOUN	Gender=Masc Number=S
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w14	punct	apartado	NOUN	Gender=Masc Number=Sing	w7
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg16.s3">
+<s id="ParlaMint-ES-PV_2017-10-05.seg16.s3" senti_3="Neutral" senti_6="neutral postive" senti_n="3.092">
 Nosotros	Nosotros	yo	PRON	Case=Acc,Nom Gender=Masc Number=Plur Person=1 PronType=Prs	w1	nsubj	creer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2
 creemos	creemos	creer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 que	que	que	SCONJ	-	w3	mark	nombrar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w17
@@ -1037,7 +1037,7 @@ reelección	reelección	reelección	NOUN	Gender=Fem Number=Sing	w40	nmod	posibil
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w41	punct	creer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg16.s4">
+<s id="ParlaMint-ES-PV_2017-10-05.seg16.s4" senti_3="Positive" senti_6="mixed positive" senti_n="4.400">
 Nosotros	Nosotros	yo	PRON	Case=Acc,Nom Gender=Masc Number=Plur Person=1 PronType=Prs	w1	nsubj	creer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2
 creemos	creemos	creer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 que	que	que	SCONJ	-	w3	mark	garantizar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w9
@@ -1073,7 +1073,7 @@ Competencia	Competencia	Competencia	PROPN	-	w32	flat	Autoridad	PROPN	-	w28
 </name>
 .	.	.	PUNCT	PunctType=Peri	w33	punct	creer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg16.s5">
+<s id="ParlaMint-ES-PV_2017-10-05.seg16.s5" senti_3="Neutral" senti_6="neutral postive" senti_n="2.705">
 Y	Y	y	CCONJ	-	w1	advmod	elegir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w5
 que	que	que	SCONJ	-	w2	mark	elegir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w5
 además	además	además	ADV	-	w3	advmod	elegir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w5
@@ -1114,7 +1114,7 @@ autoridad	autoridad	autoridad	NOUN	Gender=Fem Number=Sing	w34	nmod	actuación	NO
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg17" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg17.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg17.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.369">
 Otro	Otro	otro	PRON	Gender=Masc Number=Sing PronType=Ind	w1	nsubj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w12
 de	de	de	ADP	-	w2	case	aspecto	NOUN	Gender=Masc Number=Plur	w4
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	w3	det	aspecto	NOUN	Gender=Masc Number=Plur	w4
@@ -1184,7 +1184,7 @@ Reglamento	Reglamento	Reglamento	PROPN	-	w55	nmod	arreglo	NOUN	Gender=Masc Numbe
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg18" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg18.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg18.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.282">
 Dice	Dice	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 también	también	también	ADV	-	w2	advmod	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w1
 nuestra	nuestra	nuestro	DET	Gender=Fem Number=Sing Number[psor]=Plur Person=1 Poss=Yes PronType=Prs	w3	det	modificación	NOUN	Gender=Fem Number=Sing	w4
@@ -1235,7 +1235,7 @@ etcétera	etcétera	e	PUNCT	PunctType=Comm	w43	punct	vetar	VERB	VerbForm=Inf	w25
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w44	punct	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w1
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg18.s2">
+<s id="ParlaMint-ES-PV_2017-10-05.seg18.s2" senti_3="Positive" senti_6="positive" senti_n="4.658">
 Nos	Nos	yo	PRON	Case=Dat Number=Plur Person=1 PrepCase=Npr PronType=Prs	w1	iobj	parecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2
 parece	parece	parecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 fundamental	fundamental	fundamental	ADJ	Number=Sing	w3	xcomp	parecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2
@@ -1352,7 +1352,7 @@ Cámara	Cámara	Cámara	PROPN	-	w108	nmod	criterio	NOUN	Gender=Masc Number=Sing	
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg19" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg19.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg19.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.534">
 Asimismo	Asimismo	asimismo	ADV	-	w1	advmod	crear	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w3
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	w2	punct	asimismo	ADV	-	w1
@@ -1430,7 +1430,7 @@ jueces	jueces	juez	NOUN	Number=Plur	w66	obl	establecido	ADJ	Gender=Fem Number=Pl
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w67	punct	crear	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w3
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg19.s2">
+<s id="ParlaMint-ES-PV_2017-10-05.seg19.s2" senti_3="Negative" senti_6="mixed negative" senti_n="0.666">
 Será	Será	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w1	cop	incompatible	ADJ	Number=Sing	w5
 en	en	en	ADP	-	w2	advmod	incompatible	ADJ	Number=Sing	w5
 todo	todo	todo	PRON	Gender=Masc Number=Sing PronType=Tot	w3	fixed	en	ADP	-	w2
@@ -1455,7 +1455,7 @@ no	no	no	ADV	Polarity=Neg	w19	conj	remunerado	ADJ	Gender=Fem Number=Sing VerbFor
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w21	punct	incompatible	ADJ	Number=Sing	w5
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg19.s3">
+<s id="ParlaMint-ES-PV_2017-10-05.seg19.s3" senti_3="Neutral" senti_6="neutral postive" senti_n="3.487">
 Como	Como	como	SCONJ	-	w1	mark	comprobar	VERB	VerbForm=Inf	w4
 ustedes	ustedes	tú	PRON	Case=Acc,Nom Number=Plur Person=2 Polite=Form PronType=Prs	w2	nsubj	comprobar	VERB	VerbForm=Inf	w4
 podrán	podrán	poder	AUX	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	w3	aux	comprobar	VERB	VerbForm=Inf	w4
@@ -1496,7 +1496,7 @@ aludido	aludido	aludido	ADJ	Gender=Masc Number=Sing VerbForm=Part	w31	amod	órga
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg20" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg20.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg20.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.869">
 Asimismo	Asimismo	asimismo	ADV	-	w1	advmod	plantear	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w17
 (	(	(	PUNCT	PunctSide=Ini PunctType=Brck	w2	punct	modificación	NOUN	Gender=Fem Number=Sing	w4
 <g/>
@@ -1546,7 +1546,7 @@ absoluta	absoluta	absoluto	ADJ	Gender=Fem Number=Sing	w43	conj	pleno	ADJ	Gender=
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg21" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg21.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg21.s1" senti_3="Negative" senti_6="mixed negative" senti_n="1.446">
 Asimismo	Asimismo	asimismo	ADV	-	w1	advmod	titular	NOUN	Gender=Masc Number=Sing	w6
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	w2	punct	asimismo	ADV	-	w1
@@ -1608,7 +1608,7 @@ interesada	interesada	interesado	ADJ	Gender=Fem Number=Sing VerbForm=Part	w51	am
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg22" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg22.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg22.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.085">
 Siguiendo	Siguiendo	seguir	VERB	VerbForm=Ger	w1	advcl	plantear	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w18
 con	con	con	ADP	-	w2	case	línea	NOUN	Gender=Fem Number=Sing	w4
 esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	w3	det	línea	NOUN	Gender=Fem Number=Sing	w4
@@ -1775,7 +1775,7 @@ generales	generales	general	ADJ	Number=Plur	w142	amod	junta	NOUN	Gender=Fem Numb
 <g/>
 …	…	…	PUNCT	PunctType=Peri	w143	punct	plantear	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w18
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg22.s2">
+<s id="ParlaMint-ES-PV_2017-10-05.seg22.s2" senti_3="Negative" senti_6="mixed negative" senti_n="1.055">
 Es	Es	es	NOUN	-	w1	advmod	ir	VERB	VerbForm=Inf	w4
 decir	decir	decir	NOUN	-	w2	fixed	es	NOUN	-	w1
 <g/>
@@ -1798,7 +1798,7 @@ giratorias	giratorias	giratorio	ADJ	Gender=Fem Number=Plur	w17	amod	puerta	NOUN	
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg23" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg23.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg23.s1" senti_3="Negative" senti_6="mixed negative" senti_n="1.091">
 No	No	no	ADV	Polarity=Neg	w1	advmod	querer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 quiero	quiero	querer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 abrumarles	abrumarles	abrumarl	VERB	Number=Plur	w3	xcomp	querer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
@@ -1840,7 +1840,7 @@ manos	manos	mano	NOUN	Gender=Fem Number=Plur	w39	obl	tener	VERB	Mood=Ind Number=
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w40	punct	querer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg23.s2">
+<s id="ParlaMint-ES-PV_2017-10-05.seg23.s2" senti_3="Negative" senti_6="mixed negative" senti_n="1.286">
 En	En	en	ADP	-	w1	case	caso	NOUN	Gender=Masc Number=Sing	w3
 cualquier	cualquier	cualquiera	DET	Number=Sing PronType=Ind	w2	det	caso	NOUN	Gender=Masc Number=Sing	w3
 caso	caso	caso	NOUN	Gender=Masc Number=Sing	w3	obl	querer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w27
@@ -1879,7 +1879,7 @@ consideraciones	consideraciones	consideración	NOUN	Gender=Fem Number=Plur	w32	o
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg24" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg24.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg24.s1" senti_3="Negative" senti_6="mixed negative" senti_n="0.606">
 El	El	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w1	det	lugar	NOUN	Gender=Masc Number=Sing	w3
 primer	primer	primero	ADJ	Gender=Masc Number=Sing NumType=Ord	w2	amod	lugar	NOUN	Gender=Masc Number=Sing	w3
 lugar	lugar	lugar	NOUN	Gender=Masc Number=Sing	w3	obl	alegar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w8
@@ -1945,7 +1945,7 @@ Cámara	Cámara	Cámara	PROPN	-	w52	obl	tramitar	VERB	Mood=Cnd Number=Sing Perso
 </name>
 .	.	.	PUNCT	PunctType=Peri	w53	punct	alegar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w8
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg24.s2">
+<s id="ParlaMint-ES-PV_2017-10-05.seg24.s2" senti_3="Negative" senti_6="mixed negative" senti_n="0.893">
 Bueno	Bueno	bueno	INTJ	-	w1	dep	cierto	ADJ	Gender=Masc Number=Sing	w5
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	w2	punct	bueno	INTJ	-	w1
@@ -2020,7 +2020,7 @@ comisión	comisión	comisión	NOUN	Gender=Fem Number=Sing	w60	nmod	miembro	NOUN	
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg25" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg25.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg25.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.507">
 Existen	Existen	existir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 antecedentes	antecedentes	antecedente	NOUN	Gender=Masc Number=Plur	w2	nsubj	existir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w1
 jurídicos	jurídicos	jurídico	ADJ	Gender=Masc Number=Plur	w3	amod	antecedente	NOUN	Gender=Masc Number=Plur	w2
@@ -2084,7 +2084,7 @@ España	España	España	PROPN	-	w49	nmod	caso	NOUN	Gender=Masc Number=Sing	w47
 </name>
 .	.	.	PUNCT	PunctType=Peri	w50	punct	existir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w1
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg25.s2">
+<s id="ParlaMint-ES-PV_2017-10-05.seg25.s2" senti_3="Negative" senti_6="negative" senti_n="0.203">
 Y	Y	y	CCONJ	-	w1	advmod	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w6
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w2	det	Gobierno	PROPN	-	w3
 <name type="ORG">
@@ -2167,7 +2167,7 @@ debate	debate	debate	NOUN	Gender=Masc Number=Sing	w66	conj	análisis	NOUN	Gender
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w67	punct	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w6
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg25.s3">
+<s id="ParlaMint-ES-PV_2017-10-05.seg25.s3" senti_3="Negative" senti_6="negative" senti_n="0.481">
 Por	Por	por	ADP	-	w1	advmod	quedar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	w5
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	w2	fixed	por	ADP	-	w1
 tanto	tanto	tanto	NOUN	-	w3	fixed	por	ADP	-	w1
@@ -2188,7 +2188,7 @@ Gobierno	Gobierno	Gobierno	PROPN	-	w12	obj	utilizado	ADJ	Gender=Masc Number=Sing
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg26" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg26.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg26.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.315">
 También	También	también	ADV	-	w1	advmod	fundamentar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w13
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w2	det	criterio	NOUN	Gender=Masc Number=Sing	w3
 criterio	criterio	criterio	NOUN	Gender=Masc Number=Sing	w3	nsubj	fundamentar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w13
@@ -2242,7 +2242,7 @@ renovables	renovables	renovable	ADJ	Number=Plur	w47	amod	año	NOUN	Gender=Masc N
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w49	punct	fundamentar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w13
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg26.s2">
+<s id="ParlaMint-ES-PV_2017-10-05.seg26.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.980">
 Bueno	Bueno	bueno	INTJ	-	w1	dep	opinión	NOUN	Gender=Fem Number=Plur	w4
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	w2	punct	bueno	INTJ	-	w1
@@ -2274,7 +2274,7 @@ subjetivo	subjetivo	subjetivo	ADJ	Gender=Masc Number=Sing	w23	amod	criterio	NOUN
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w24	punct	opinión	NOUN	Gender=Fem Number=Plur	w4
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg26.s3">
+<s id="ParlaMint-ES-PV_2017-10-05.seg26.s3" senti_3="Positive" senti_6="mixed positive" senti_n="4.278">
 Nosotros	Nosotros	yo	PRON	Case=Acc,Nom Gender=Masc Number=Plur Person=1 PronType=Prs	w1	nsubj	creer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2
 creemos	creemos	creer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 que	que	que	SCONJ	-	w3	mark	garantizar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w9
@@ -2340,7 +2340,7 @@ trabajo	trabajo	trabajo	NOUN	Gender=Masc Number=Sing	w57	obj	efectuar	VERB	VerbF
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg27" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg27.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg27.s1" senti_3="Negative" senti_6="mixed negative" senti_n="0.728">
 Y	Y	y	CCONJ	-	w1	advmod	sorprendente	ADJ	Number=Sing	w19
 otro	otro	otro	PRON	Gender=Masc Number=Sing PronType=Ind	w2	nsubj	argumento	NOUN	Gender=Masc Number=Sing	w32
 de	de	de	ADP	-	w3	case	criterio	NOUN	Gender=Masc Number=Plur	w5
@@ -2418,7 +2418,7 @@ planteamos	planteamos	plantear	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres Ver
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg28" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg28.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg28.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.013">
 Bueno	Bueno	bueno	INTJ	-	w1	dep	saber	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w6
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	w2	punct	bueno	INTJ	-	w1
@@ -2446,7 +2446,7 @@ reforma	reforma	reforma	NOUN	Gender=Fem Number=Sing	w22	obj	tramitar	VERB	VerbFo
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w23	punct	saber	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w6
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg28.s2">
+<s id="ParlaMint-ES-PV_2017-10-05.seg28.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.681">
 Es	Es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w1	cop	verdad	NOUN	Gender=Fem Number=Sing	w2
 verdad	verdad	verdad	NOUN	Gender=Fem Number=Sing	w2	root	-	-	-	-
 que	que	que	SCONJ	-	w3	mark	otro	PRON	Gender=Fem Number=Plur PronType=Ind	w18
@@ -2489,7 +2489,7 @@ laxos	laxos	laxo	ADJ	Gender=Masc Number=Plur	w37	conj	otro	PRON	Gender=Fem Numbe
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w38	punct	verdad	NOUN	Gender=Fem Number=Sing	w2
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg28.s3">
+<s id="ParlaMint-ES-PV_2017-10-05.seg28.s3" senti_3="Neutral" senti_6="neutral postive" senti_n="3.486">
 Han	Han	haber	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w1	aux	pasar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w2
 pasado	pasado	pasar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w2	root	-	-	-	-
 al	a|el	a|el	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	w4|w5	case|fixed	año|a	NOUN|ADP	Gender=Masc Number=Plur|-	w8|w4
@@ -2510,7 +2510,7 @@ cosas	cosas	cosa	NOUN	Gender=Fem Number=Plur	w18	obj	pasar	VERB	Gender=Masc Numb
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w19	punct	pasar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w2
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg28.s4">
+<s id="ParlaMint-ES-PV_2017-10-05.seg28.s4" senti_3="Positive" senti_6="mixed positive" senti_n="3.869">
 Y	Y	y	CCONJ	-	w1	advmod	uno	PRON	Gender=Fem Number=Sing PronType=Ind	w47
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	w2	punct	debatir	VERB	Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin	w6
@@ -2605,7 +2605,7 @@ criterios	criterios	criterio	NOUN	Gender=Masc Number=Plur	w77	obj	introducir	VER
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg29" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg29.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg29.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.931">
 Estos	Estos	este	PRON	Gender=Masc Number=Plur PronType=Dem	w1	nsubj	argumento	NOUN	Gender=Masc Number=Plur	w4
 son	son	ser	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w2	cop	argumento	NOUN	Gender=Masc Number=Plur	w4
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	w3	det	argumento	NOUN	Gender=Masc Number=Plur	w4
@@ -2666,7 +2666,7 @@ descrito	descrito	descrito	ADJ	Gender=Masc Number=Sing VerbForm=Part	w51	amod	ó
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg30" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg30.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg30.s1" senti_3="Positive" senti_6="positive" senti_n="4.807">
 Muchas	Muchas	mucho	DET	Gender=Fem Number=Plur NumType=Card PronType=Ind	w1	det	gracia	NOUN	Gender=Fem Number=Plur	w2
 gracias	gracias	gracia	NOUN	Gender=Fem Number=Plur	w2	root	-	-	-	-
 <g/>
@@ -2675,9 +2675,9 @@ gracias	gracias	gracia	NOUN	Gender=Fem Number=Plur	w2	root	-	-	-	-
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES-PV_2017-10-05.u110" text_id="ParlaMint-ES-PV_2017-10-05" subcorpus="Reference" lang="Euskara" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 327-333" meeting="-" sitting="2017-10-05" agenda="-" date="2017-10-05" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2017-10-05" speaker_role="Chairperson" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
+<speech id="ParlaMint-ES-PV_2017-10-05.u110" text_id="ParlaMint-ES-PV_2017-10-05" subcorpus="Reference" lang="Euskara" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 327-333" meeting="-" sitting="2017-10-05" agenda="-" date="2017-10-05" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2017-10-05" speaker_role="Chairperson" topic="Other" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
 <p id="ParlaMint-ES-PV_2017-10-05.seg840" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg840.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg840.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.569">
 Eskerrik	Eskerrik	Esker	NOUN	-	w1	root	-	-	-	-
 asko	asko	asko	DET	Case=Abs Definite=Ind	w2	det	Esker	NOUN	-	w1
 <g/>
@@ -2689,7 +2689,7 @@ anderea	anderea	andere	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w5	co
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg841" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg841.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg841.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.345">
 Eztabaida	Eztabaida	eztabaida	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w1	nsubj	amaitu	VERB	Aspect=Perf VerbForm=Part	w2
 amaitu	amaitu	amaitu	VERB	Aspect=Perf VerbForm=Part	w2	advcl	jarri	VERB	Aspect=Prosp VerbForm=Part	w6
 denez	denez	izan	AUX	Mood=Ind Number[abs]=Sing Person[abs]=3	w3	aux	amaitu	VERB	Aspect=Perf VerbForm=Part	w2
@@ -2721,7 +2721,7 @@ zuzenketa	zuzenketa	zuzenketa	NOUN	Case=Abs Definite=Def Number=Sing	w20	obj	jar
 <g/>
 .	.	.	PUNCT	-	w21	punct	jarri	VERB	Aspect=Prosp VerbForm=Part	w6
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg841.s2">
+<s id="ParlaMint-ES-PV_2017-10-05.seg841.s2" senti_3="Neutral" senti_6="neutral postive" senti_n="3.282">
 Bozkatu	Bozkatu	bozkatu	VERB	Aspect=Perf VerbForm=Part	w1	root	-	-	-	-
 dezakegu	dezakegu	*ezan	AUX	Mood=Pot Number[abs]=Sing Number[erg]=Plur Person[abs]=3 Person[erg]=1	w2	aux	bozkatu	VERB	Aspect=Perf VerbForm=Part	w1
 <g/>
@@ -2730,7 +2730,7 @@ dezakegu	dezakegu	*ezan	AUX	Mood=Pot Number[abs]=Sing Number[erg]=Plur Person[ab
 </p>
 <note type="-" content="Geldiunea"/>
 <p id="ParlaMint-ES-PV_2017-10-05.seg842" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg842.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg842.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.305">
 Bozketa	Bozketa	bozketa	NOUN	Case=Abs Definite=Def Number=Sing	w1	obj	egin	VERB	VerbForm=Part	w2
 eginda	eginda	egin	VERB	VerbForm=Part	w2	advcl	izan	VERB	Aspect=Perf VerbForm=Part	w5
 <g/>
@@ -2742,7 +2742,7 @@ emaitza	emaitza	emaitza	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w7	n
 <g/>
 :	:	:	PUNCT	-	w8	punct	izan	VERB	Aspect=Perf VerbForm=Part	w5
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg842.s2">
+<s id="ParlaMint-ES-PV_2017-10-05.seg842.s2" senti_3="Positive" senti_6="mixed positive" senti_n="4.007">
 emandako	emandako	eman	VERB	Case=Loc VerbForm=Part	w1	advcl	boto	NOUN	Case=Abs Definite=Def Number=Plur	w2
 botoak	botoak	boto	NOUN	Case=Abs Definite=Def Number=Plur	w2	root	-	-	-	-
 <g/>
@@ -2776,9 +2776,9 @@ abstentzioak	abstentzioak	abstentzio	NOUN	Case=Abs Definite=Def Number=Plur	w18	
 </p>
 </speech>
 <note type="speaker" content="LEHENDAKARIAK:"/>
-<speech id="ParlaMint-ES-PV_2017-10-05.u111" text_id="ParlaMint-ES-PV_2017-10-05" subcorpus="Reference" lang="Multilingual" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 327-333" meeting="-" sitting="2017-10-05" agenda="-" date="2017-10-05" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2017-10-05" speaker_role="Chairperson" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
+<speech id="ParlaMint-ES-PV_2017-10-05.u111" text_id="ParlaMint-ES-PV_2017-10-05" subcorpus="Reference" lang="Multilingual" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 327-333" meeting="-" sitting="2017-10-05" agenda="-" date="2017-10-05" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2017-10-05" speaker_role="Chairperson" topic="International Affairs" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
 <p id="ParlaMint-ES-PV_2017-10-05.seg843" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg843.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg843.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.853">
 Beraz	Beraz	beraz	CCONJ	-	w1	advmod	geratu	VERB	Aspect=Perf VerbForm=Part	w6
 <g/>
 ,	,	,	PUNCT	-	w2	punct	geratu	VERB	Aspect=Perf VerbForm=Part	w6
@@ -2792,7 +2792,7 @@ da	da	izan	AUX	Mood=Ind Number[abs]=Sing Person[abs]=3	w7	aux	geratu	VERB	Aspect
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg844" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg844.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg844.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.949">
 Jarraian	Jarraian	jarraian	ADV	-	w1	advmod	irakurri	VERB	Aspect=Prosp VerbForm=Part	w6
 <g/>
 ,	,	,	PUNCT	-	w2	punct	irakurri	VERB	Aspect=Prosp VerbForm=Part	w6
@@ -2806,7 +2806,7 @@ dut	dut	*edun	AUX	Mood=Ind Number[abs]=Sing Number[erg]=Sing Person[abs]=3 Perso
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg845" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg845.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg845.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.684">
 "	"	"	PUNCT	-	w1	punct	izan	VERB	Aspect=Prog Mood=Ind Number[abs]=Sing Person[abs]=3	w16
 <g/>
 <name type="ORG">
@@ -2832,7 +2832,7 @@ eta	eta	eta	CCONJ	-	w17	mark	izan	VERB	Aspect=Prog Mood=Ind Number[abs]=Sing Per
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg846" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg846.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg846.s1" senti_3="Negative" senti_6="mixed negative" senti_n="0.942">
 "	"	"	PUNCT	-	w1	punct	larriagotu	VERB	Aspect=Perf VerbForm=Part	w14
 <g/>
 <name type="ORG">
@@ -2878,7 +2878,7 @@ du	du	ukan	VERB	Aspect=Prog Mood=Ind Number[abs]=Sing Number[erg]=Sing Person[ab
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg847" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg847.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg847.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.003">
 "	"	"	PUNCT	-	w1	punct	eskatu	VERB	Aspect=Imp VerbForm=Inf	w9
 <g/>
 <name type="ORG">
@@ -2935,7 +2935,7 @@ elikadura-krisiari	elikadura-krisiari	elikadura-krisi	NOUN	Animacy=Inan Case=Dat
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg848" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg848.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg848.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.264">
 "	"	"	PUNCT	-	w1	punct	egin	VERB	Aspect=Imp VerbForm=Inf	w6
 <g/>
 Alde	Alde	alde	NOUN	-	w2	obl	egin	VERB	Aspect=Imp VerbForm=Inf	w6
@@ -2963,7 +2963,7 @@ dela-eta	dela-eta	dela-eta	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg849" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg849.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg849.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.727">
 "	"	"	PUNCT	PunctType=Quot	w1	punct	instar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w5
 <g/>
 El	El	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w2	det	Parlamento	PROPN	-	w3
@@ -3012,7 +3012,7 @@ alimentaria	alimentaria	alimentario	ADJ	Gender=Fem Number=Sing	w40	amod	crisis	N
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg850" lang="Gaztelania">
-<s id="ParlaMint-ES-PV_2017-10-05.seg850.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg850.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.258">
 "	"	"	PUNCT	PunctType=Quot	w1	punct	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w40
 <g/>
 La	La	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w2	det	Declaración	PROPN	-	w5
@@ -3121,7 +3121,7 @@ años	años	año	NOUN	Gender=Masc Number=Plur	w94	nmod	aportación	NOUN	Gender=F
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w96	punct	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w40
 </s>
-<s id="ParlaMint-ES-PV_2017-10-05.seg850.s2">
+<s id="ParlaMint-ES-PV_2017-10-05.seg850.s2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.541">
 Halaber	Halaber	halaber	ADV	-	w1	advmod	eskatzar	VERB	Mood=Imp Number=Plur Person=3 VerbForm=Fin	w3
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	w2	punct	halaber	ADV	-	w1
@@ -3150,7 +3150,7 @@ Saharari	Saharari	Saharari	PROPN	-	w13	flat	Mendebaldeko	PROPN	-	w12
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg851" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg851.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg851.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.562">
 Gai-zerrenda	Gai-zerrenda	Gai-zerrenda	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w1	nsubj	agortu	VERB	Aspect=Perf VerbForm=Part	w2
 agortu	agortu	agortu	VERB	Aspect=Perf VerbForm=Part	w2	advcl	eman	VERB	Aspect=Imp VerbForm=Inf	w8
 denez	denez	izan	AUX	Mood=Ind Number[abs]=Sing Person[abs]=3	w3	aux	agortu	VERB	Aspect=Perf VerbForm=Part	w2
@@ -3166,7 +3166,7 @@ diot	diot	*edun	AUX	Mood=Ind Number[abs]=Sing Number[dat]=Sing Number[erg]=Sing 
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2017-10-05.seg852" lang="Euskara">
-<s id="ParlaMint-ES-PV_2017-10-05.seg852.s1">
+<s id="ParlaMint-ES-PV_2017-10-05.seg852.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.840">
 Arratsaldeko	Arratsaldeko	arratsalde	NOUN	Animacy=Inan Case=Loc Definite=Def Number=Sing	w1	nmod	hiru	NUM	NumType=Card	w2
 hirurak	hirurak	hiru	NUM	NumType=Card	w2	nsubj	izan	AUX	Aspect=Prog Mood=Ind Number[abs]=Plur Person[abs]=3	w5
 eta	eta	eta	CCONJ	-	w3	cc	bat	NUM	NumType=Card	w4

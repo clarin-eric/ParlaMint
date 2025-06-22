@@ -10,24 +10,23 @@
             <meeting n="2021-02-11" corresp="#PT" ana="#parla.uni #parla.sitting">2021-02-11</meeting>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="69" xml:lang="en">69 speeches</measure>
             <measure unit="words" quantity="3318" xml:lang="en">3,318 words</measure>
-            <measure unit="tokens" quantity="4209" xml:lang="en">4209 tokens</measure>
          </extent>
          <publicationStmt>
             <publisher>
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-16">2025-06-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -46,6 +45,7 @@
                <tagUsage gi="div" occurs="1"/>
                <tagUsage gi="link" occurs="4209"/>
                <tagUsage gi="linkGrp" occurs="324"/>
+               <tagUsage gi="measure" occurs="324"/>
                <tagUsage gi="name" occurs="119"/>
                <tagUsage gi="note" occurs="69"/>
                <tagUsage gi="pc" occurs="891"/>
@@ -67,17 +67,20 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-16">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid">
       <body>
          <div type="debateSection">
             <note type="speaker" xml:id="ParlaMint-LV_2021-02-11-PT13-2193.ana.note1">Sēdes vadītāja.</note>
-            <u who="#Beitnere-LeGallaDagmāra" xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1" ana="#chair">
+            <u who="#Beitnere-LeGallaDagmāra" xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1" ana="#chair topic:mixed">
                <seg xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1">
                   <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.1">
+                     <measure type="sentiment" quantity="3.897" ana="senti:mixpos" corresp="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.1"/>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.1.1" pos="vmnpdmpnpsypn" lemma="godāt" msd="UPosTag=VERB|Aspect=Perf|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part">Godātie</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.1.2" pos="ncmsa2" lemma="kolēģis" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing" join="right">kolēģi</w>
 <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.1.3" pos="zs" msd="UPosTag=PUNCT">!</pc>
@@ -88,6 +91,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2">
+                     <measure type="sentiment" quantity="3.192" ana="senti:neupos" corresp="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2"/>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.1" pos="vmnipt31pan" lemma="turpināt" msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">Turpinām</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.2" pos="xo" lemma="2021." msd="UPosTag=ADJ|NumType=Ord">2021.</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.3" pos="ncmsg1" lemma="gads" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing">gada</w>
@@ -110,6 +114,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.3">
+                     <measure type="sentiment" quantity="3.069" ana="senti:neupos" corresp="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.3"/>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.3.1" pos="ncmpn2" lemma="kolēģis" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" join="right">Kolēģi</w>
 <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.3.2" pos="zs" msd="UPosTag=PUNCT">!</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -118,6 +123,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4">
+                     <measure type="sentiment" quantity="1.322" ana="senti:mixneg" corresp="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4"/>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.1" pos="vmnist21san" lemma="informēt" msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act">Informēju</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.2" pos="pp20pnn" lemma="jūs" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=2|PronType=Prs" join="right">jūs</w>
 <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.3" pos="zc" msd="UPosTag=PUNCT">,</pc>
@@ -198,6 +204,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5">
+                     <measure type="sentiment" quantity="3.433" ana="senti:neupos" corresp="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5"/>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5.1" pos="vmnipt11san" lemma="lūgt" msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">Lūdzu</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5.2" pos="vmnn0t1000n" lemma="atvērt" msd="UPosTag=VERB|Polarity=Pos|VerbForm=Inf">atvērt</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5.3" pos="ncfsa4" lemma="sadaļa" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing">sadaļu</w>
@@ -214,6 +221,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6">
+                     <measure type="sentiment" quantity="2.264" ana="senti:neuneg" corresp="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6"/>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.1" pos="i" lemma="lūdzu" msd="UPosTag=INTJ" join="right">Lūdzu</w>
 <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.2" pos="zc" msd="UPosTag=PUNCT">,</pc>
                      <name type="PER">
@@ -254,9 +262,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-LV_2021-02-11-PT13-2193.ana.note2">K. Feldmans (JK).</note>
-            <u who="#FeldmansKrišjānis" xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U2" ana="#regular">
+            <u who="#FeldmansKrišjānis" xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U2" ana="#regular topic:other">
                <seg xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U2-P1">
                   <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1">
+                     <measure type="sentiment" quantity="0.335" ana="senti:negneg" corresp="#ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1"/>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1.1" pos="pp10snn" lemma="es" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs">Es</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1.2" pos="vmnifi21san" lemma="runāt" msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act">runāšu</w>
 <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1.3" pos="zq" msd="UPosTag=PUNCT">“</pc>
@@ -277,9 +286,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#ZariņšIvars" xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68" ana="#regular">
+            <u who="#ZariņšIvars" xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68" ana="#regular topic:healt">
                <seg xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1">
                   <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1">
+                     <measure type="sentiment" quantity="2.195" ana="senti:neuneg" corresp="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1"/>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.1" pos="vmnpu0000000n" lemma="zināt" msd="UPosTag=VERB|Polarity=Pos|VerbForm=Conv" join="right">Zinot</w>
 <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.2" pos="zc" msd="UPosTag=PUNCT">,</pc>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.3" pos="cs" lemma="kā" msd="UPosTag=SCONJ">kā</w>
@@ -424,6 +434,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2">
+                     <measure type="sentiment" quantity="2.095" ana="senti:neuneg" corresp="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2"/>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.1" pos="pp10pnn" lemma="mēs" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs">mēs</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.2" pos="r0_" lemma="jau" msd="UPosTag=ADV">jau</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.3" pos="r0_" lemma="laikus" msd="UPosTag=ADV">laikus</w>
@@ -444,6 +455,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3">
+                     <measure type="sentiment" quantity="2.201" ana="senti:neuneg" corresp="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3"/>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.1" pos="q" lemma="arī" msd="UPosTag=PART">Arī</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.2" pos="r0_" lemma="šeit" msd="UPosTag=ADV|PronType=Dem">šeit</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.3" pos="vmnip_i1pan" lemma="būt" msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">esam</w>
@@ -556,6 +568,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4">
+                     <measure type="sentiment" quantity="4.859" ana="senti:pospos" corresp="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4"/>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.1" pos="vmnipt31pan" lemma="novēlēt" msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">Novēlam</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.2" pos="ncfsa5" lemma="veiksme" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing">veiksmi</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.3" pos="ncmsd1" lemma="ministrs" msd="UPosTag=NOUN|Case=Dat|Gender=Masc|Number=Sing">ministram</w>
@@ -574,6 +587,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.5">
+                     <measure type="sentiment" quantity="4.555" ana="senti:pospos" corresp="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.5"/>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.5.1" pos="i" lemma="paldies" msd="UPosTag=INTJ" join="right">Paldies</w>
 <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.5.2" pos="zs" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -584,9 +598,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-LV_2021-02-11-PT13-2193.ana.note69">Sēdes vadītāja.</note>
-            <u who="#Beitnere-LeGallaDagmāra" xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69" ana="#chair">
+            <u who="#Beitnere-LeGallaDagmāra" xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69" ana="#chair topic:trans">
                <seg xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1">
                   <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1">
+                     <measure type="sentiment" quantity="2.325" ana="senti:neuneg" corresp="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1"/>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.1" pos="afmsnyp" lemma="pēdējais" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing">Pēdējais</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.2" pos="ncmpg1" lemma="deputāts" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur">deputātu</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.3" pos="ncmsn1" lemma="jautājums" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" join="right">jautājums</w>
@@ -687,6 +702,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2">
+                     <measure type="sentiment" quantity="2.692" ana="senti:neupos" corresp="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2"/>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2.1" pos="ncmsn1" lemma="jautājums" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing">Jautājums</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2.2" pos="vanifi130an" lemma="tikt" msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act">tiks</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2.3" pos="vmnpdmsnpsnpn" lemma="nodot" msd="UPosTag=VERB|Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part">nodots</w>
@@ -703,6 +719,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.3">
+                     <measure type="sentiment" quantity="4.555" ana="senti:pospos" corresp="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.3"/>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.3.1" pos="i" lemma="paldies" msd="UPosTag=INTJ" join="right">Paldies</w>
 <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.3.2" pos="zs" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -711,6 +728,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4">
+                     <measure type="sentiment" quantity="3.059" ana="senti:neupos" corresp="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4"/>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4.1" pos="r0_" lemma="vēl" msd="UPosTag=ADV">Vēl</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4.2" pos="ncmpg1" lemma="deputāts" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur">deputātu</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4.3" pos="ncfsg5" lemma="klātbūtne" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing">klātbūtnes</w>
@@ -725,6 +743,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5">
+                     <measure type="sentiment" quantity="2.906" ana="senti:neupos" corresp="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5"/>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5.1" pos="pd3fsnn" lemma="tā" msd="UPosTag=PRON|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Dem">Tā</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5.2" pos="vcnipii30an" lemma="būt" msd="UPosTag=AUX|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">ir</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5.3" pos="vmypdfsnasnpn" lemma="noslēgties" msd="UPosTag=VERB|Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Part" join="right">noslēgusies</w>
@@ -737,6 +756,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6">
+                     <measure type="sentiment" quantity="4.585" ana="senti:pospos" corresp="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6"/>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6.1" pos="q" lemma="Paldies" msd="UPosTag=PART">Paldies</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6.2" pos="spsa" lemma="par" msd="UPosTag=ADP">par</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6.3" pos="ncfsg4" lemma="šodiena" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing">šodienas</w>
@@ -751,6 +771,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.7">
+                     <measure type="sentiment" quantity="3.084" ana="senti:neupos" corresp="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.7"/>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.7.1" pos="vmnm0i32san" lemma="sēdēt" msd="UPosTag=VERB|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin|Voice=Act">Sēdi</w>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.7.2" pos="vmnist11san" lemma="slēgt" msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act" join="right">slēdzu</w>
 <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.7.3" pos="zs" msd="UPosTag=PUNCT">.</pc>
@@ -761,6 +782,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8">
+                     <measure type="sentiment" quantity="3.202" ana="senti:neupos" corresp="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8"/>
 <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8.1" pos="zb" msd="UPosTag=PUNCT">(</pc>
 <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8.2" pos="ncmsn1" lemma="pārtraukums" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" join="right">Pārtraukums</w>
 <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8.3" pos="zs" msd="UPosTag=PUNCT" join="right">.</pc>

@@ -24,13 +24,21 @@
                <persName>Rodolfo Zevallos</persName>
                <resp>Computational Linguistics Specialist</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="ca">Infraestructura de recerca CLARIN</orgName>
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="246" xml:lang="ca">246 intervencions</measure>
@@ -44,12 +52,12 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-16">2025-06-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -92,8 +100,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid">
@@ -124,7 +134,7 @@
             <note type="narrative" xml:id="ParlaMint-ES-CT_2020-09-09-6001.note22">19. Moció subsegüent a la interpel·lació al Govern sobre el confinament de Lleida i el baix Segrià (tram. 302-00231/12). Grup Parlamentari Socialistes i Units per Avançar. Debat i votació.</note>
             <note type="narrative" xml:id="ParlaMint-ES-CT_2020-09-09-6001.note23">20. Moció subsegüent a la interpel·lació al Govern sobre la política industrial (tram. 302-00233/12). Grup Parlamentari de Catalunya en Comú Podem. Debat i votació.</note>
             <note type="speaker" xml:id="ParlaMint-ES-CT_2020-09-09-6001.note24">El president</note>
-            <u xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0" who="#TorrentRoger" ana="#chair" xml:lang="ca">
+            <u xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0" who="#TorrentRoger" ana="#chair topic:mixed" xml:lang="ca">
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0.0" xml:lang="ca">Diputats, diputades, comença la sessió.</seg>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0.1" xml:lang="ca">La llista de preguntes a respondre oralment en el Ple està inclosa en el dossier del Ple. D'acord amb l'article 164 del Reglament, se substanciaran aquest matí com a primer punt de l'ordre del dia d'aquesta sessió plenària.</seg>
                <note xml:id="ParlaMint-ES-CT_2020-09-09-6001.note25">Manifestació de condol i de condemna de la violència masclista</note>
@@ -139,13 +149,13 @@
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.1.0.7" xml:lang="ca">I la primera pregunta és sobre l'inici del curs escolar 2020-2021, i la formula, en nom del Subgrup Parlamentari del Partit Popular de Catalunya, el diputat senyor Daniel Serrano. Quan vulgui.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-ES-CT_2020-09-09-6001.note29">Daniel Serrano Coronado</note>
-            <u xml:id="ParlaMint-ES-CT_2020-09-09-6001.2.0" who="#SerranoDaniel" ana="#regular" xml:lang="es">
+            <u xml:id="ParlaMint-ES-CT_2020-09-09-6001.2.0" who="#SerranoDaniel" ana="#regular topic:educa" xml:lang="es">
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.2.0.0" xml:lang="es">Gracias, presidente. Conseller, ¿puede usted asegurar que en el inicio del curso escolar está garantizada la seguridad del personal de los centros educativos y de los alumnos?</seg>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0" who="#BargallóJosep" ana="#regular" xml:lang="ca">
+            <u xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0" who="#BargallóJosep" ana="#regular topic:healt" xml:lang="ca">
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0.0" xml:lang="ca">Diputades, diputats, diputat Riera, en primer lloc... Perdó.</seg>
                <vocal type="murmuring" xml:id="ParlaMint-ES-CT_2020-09-09-6001.vocal13">
                   <desc>Veus de fons.</desc>
@@ -161,7 +171,7 @@
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.244.0.9" xml:lang="ca">Moltes gràcies.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-ES-CT_2020-09-09-6001.note335">El president</note>
-            <u xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0" who="#TorrentRoger" ana="#chair" xml:lang="ca">
+            <u xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0" who="#TorrentRoger" ana="#chair topic:other" xml:lang="ca">
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.0" xml:lang="ca">Gràcies, conseller.</seg>
                <seg xml:id="ParlaMint-ES-CT_2020-09-09-6001.245.0.1" xml:lang="ca">Hem cridat a votació. Passarem ara a votar els punts debatuts durant la jornada d'avui.</seg>
                <vocal type="murmuring" xml:id="ParlaMint-ES-CT_2020-09-09-6001.vocal14">

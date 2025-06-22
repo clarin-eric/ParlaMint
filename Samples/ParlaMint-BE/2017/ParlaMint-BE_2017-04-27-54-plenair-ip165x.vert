@@ -1,9 +1,9 @@
 <note type="editorial" content="De vergadering wordt geopend om 14.18 uur en voorgezeten door Siegfried Bracke."/>
 <note type="editorial" content="La séance est ouverte à 14.18 heures et présidée par M. Siegfried Bracke."/>
 <note type="speaker" content="De voorzitter:"/>
-<speech id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u1" text_id="ParlaMint-BE_2017-04-27-54-plenair-ip165x" subcorpus="Referentie" lang="Multilingual" body="Eerste Kamer" term="Zittingperiode 54" session="-" meeting="Plenaire zitting 165 van 27-04-2017" sitting="-" agenda="-" date="2017-04-27" title="Belgisch parlementair corpus ParlaMint-BE, plenaire zitting van 27-04-2017" speaker_role="Voorzitter" speaker_id="BrackeSiegfried" speaker_name="Bracke, Siegfried" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1953">
+<speech id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u1" text_id="ParlaMint-BE_2017-04-27-54-plenair-ip165x" subcorpus="Referentie" lang="Multilingual" body="Eerste Kamer" term="Zittingperiode 54" session="-" meeting="Plenaire zitting 165 van 27-04-2017" sitting="-" agenda="-" date="2017-04-27" title="Belgisch parlementair corpus ParlaMint-BE, plenaire zitting van 27-04-2017" speaker_role="Voorzitter" topic="Overig" speaker_id="BrackeSiegfried" speaker_name="Bracke, Siegfried" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="Coalition" party_orientation="Centrum-rechts tot rechts" speaker_gender="M" speaker_birth="1953">
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s4">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s4" senti_3="Positief" senti_6="gemend-positief" senti_n="3.913">
 De	De	de	DET	Definite=Def	w28	det	vergadering	NOUN	Gender=Com Number=Sing	w29
 vergadering	vergadering	vergadering	NOUN	Gender=Com Number=Sing	w29	nsubj:pass	openen	VERB	VerbForm=Part	w31
 is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w30	aux:pass	openen	VERB	VerbForm=Part	w31
@@ -13,7 +13,7 @@ geopend	geopend	openen	VERB	VerbForm=Part	w31	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg2" lang="Frans">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s5">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s5" senti_3="Positief" senti_6="gemend-positief" senti_n="3.676">
 La	La	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w32	det	séance	NOUN	Gender=Fem Number=Sing	w33
 séance	séance	séance	NOUN	Gender=Fem Number=Sing	w33	nsubj:pass	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w35
 est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w34	aux:pass	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w35
@@ -49,33 +49,33 @@ ouverte	ouverte	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w35	
 <note type="editorial" content="Vragen"/>
 <note type="editorial" content="Questions"/>
 <note type="editorial" content="01 Samengevoegde vragen van"/>
-<note type="editorial" content="- de heer Wouter De Vriendt aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P1992)"/>
-<note type="editorial" content="- mevrouw Barbara Pas aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P1993)"/>
-<note type="editorial" content="- mevrouw Gwenaëlle Grovonius aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P1994)"/>
-<note type="editorial" content="- de heer Olivier Maingain aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P1995)"/>
-<note type="editorial" content="- de heer Jean-Jacques Flahaux aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P1996)"/>
-<note type="editorial" content="- de heer Raoul Hedebouw aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P1997)"/>
-<note type="editorial" content="- mevrouw Meryame Kitir aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P1998)"/>
-<note type="editorial" content="- mevrouw Rita Bellens aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P1999)"/>
-<note type="editorial" content="- mevrouw Els Van Hoof aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P2000)"/>
-<note type="editorial" content="- mevrouw Annemie Turtelboom aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P2001)"/>
-<note type="editorial" content="- mevrouw Catherine Fonck aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P2002)"/>
+<note type="editorial" content="- de heer Wouter De Vriendt aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P1992)"/>
+<note type="editorial" content="- mevrouw Barbara Pas aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P1993)"/>
+<note type="editorial" content="- mevrouw Gwenaëlle Grovonius aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P1994)"/>
+<note type="editorial" content="- de heer Olivier Maingain aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P1995)"/>
+<note type="editorial" content="- de heer Jean-Jacques Flahaux aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P1996)"/>
+<note type="editorial" content="- de heer Raoul Hedebouw aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P1997)"/>
+<note type="editorial" content="- mevrouw Meryame Kitir aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P1998)"/>
+<note type="editorial" content="- mevrouw Rita Bellens aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P1999)"/>
+<note type="editorial" content="- mevrouw Els Van Hoof aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P2000)"/>
+<note type="editorial" content="- mevrouw Annemie Turtelboom aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P2001)"/>
+<note type="editorial" content="- mevrouw Catherine Fonck aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P2002)"/>
 <note type="editorial" content="01 Questions jointes de"/>
-<note type="editorial" content="- M. Wouter De Vriendt au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P1992)"/>
-<note type="editorial" content="- Mme Barbara Pas au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P1993)"/>
-<note type="editorial" content="- Mme Gwenaëlle Grovonius au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P1994)"/>
-<note type="editorial" content="- M. Olivier Maingain au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P1995)"/>
-<note type="editorial" content="- M. Jean-Jacques Flahaux au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P1996)"/>
-<note type="editorial" content="- M. Raoul Hedebouw au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P1997)"/>
-<note type="editorial" content="- Mme Meryame Kitir au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P1998)"/>
-<note type="editorial" content="- Mme Rita Bellens au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P1999)"/>
-<note type="editorial" content="- Mme Els Van Hoof au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P2000)"/>
-<note type="editorial" content="- Mme Annemie Turtelboom au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P2001)"/>
-<note type="editorial" content="- Mme Catherine Fonck au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P2002)"/>
+<note type="editorial" content="- M. Wouter De Vriendt au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P1992)"/>
+<note type="editorial" content="- Mme Barbara Pas au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P1993)"/>
+<note type="editorial" content="- Mme Gwenaëlle Grovonius au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P1994)"/>
+<note type="editorial" content="- M. Olivier Maingain au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P1995)"/>
+<note type="editorial" content="- M. Jean-Jacques Flahaux au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P1996)"/>
+<note type="editorial" content="- M. Raoul Hedebouw au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P1997)"/>
+<note type="editorial" content="- Mme Meryame Kitir au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P1998)"/>
+<note type="editorial" content="- Mme Rita Bellens au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P1999)"/>
+<note type="editorial" content="- Mme Els Van Hoof au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P2000)"/>
+<note type="editorial" content="- Mme Annemie Turtelboom au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P2001)"/>
+<note type="editorial" content="- Mme Catherine Fonck au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P2002)"/>
 <note type="speaker" content="01.01 Wouter De Vriendt (Ecolo-Groen):"/>
-<speech id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u2" text_id="ParlaMint-BE_2017-04-27-54-plenair-ip165x" subcorpus="Referentie" lang="Nederlands" body="Eerste Kamer" term="Zittingperiode 54" session="-" meeting="Plenaire zitting 165 van 27-04-2017" sitting="-" agenda="-" date="2017-04-27" title="Belgisch parlementair corpus ParlaMint-BE, plenaire zitting van 27-04-2017" speaker_role="Vast" speaker_id="DeVriendtWouter" speaker_name="De Vriendt, Wouter" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Groen" speaker_party_name="Groen" party_status="Opposition" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1977">
+<speech id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u2" text_id="ParlaMint-BE_2017-04-27-54-plenair-ip165x" subcorpus="Referentie" lang="Nederlands" body="Eerste Kamer" term="Zittingperiode 54" session="-" meeting="Plenaire zitting 165 van 27-04-2017" sitting="-" agenda="-" date="2017-04-27" title="Belgisch parlementair corpus ParlaMint-BE, plenaire zitting van 27-04-2017" speaker_role="Vast" topic="Burgerrechten" speaker_id="DeVriendtWouter" speaker_name="De Vriendt, Wouter" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Groen" speaker_party_name="Groen" party_status="Opposition" party_orientation="Centrum-link tot links" speaker_gender="M" speaker_birth="1977">
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg3" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="2.154">
 Mijnheer	Mijnheer	mijnheer	NOUN	Gender=Com Number=Sing	w810	parataxis	vragen	VERB	VerbForm=Part	w817
 de	de	de	DET	Definite=Def	w811	det	minister	NOUN	Gender=Com Number=Sing	w813
 eerste	eerste	eerste	ADJ	-	w812	amod	minister	NOUN	Gender=Com Number=Sing	w813
@@ -111,7 +111,7 @@ VN-vrouwencommissie	VN-vrouwencommissie	VN-vrouwencommissie	NOUN	Gender=Com Numb
 </name>
 .	.	.	PUNCT	-	pc197	punct	vragen	VERB	VerbForm=Part	w817
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.421">
 Dat	Dat	dat	PRON	Person=3 PronType=Dem	w834	nsubj	orgaan	NOUN	Gender=Neut Number=Sing	w837
 is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w835	cop	orgaan	NOUN	Gender=Neut Number=Sing	w837
 het	het	het	DET	Definite=Def	w836	det	orgaan	NOUN	Gender=Neut Number=Sing	w837
@@ -124,7 +124,7 @@ verdedigt	verdedigt	verdedigen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w842	acl
 <g/>
 .	.	.	PUNCT	-	pc198	punct	orgaan	NOUN	Gender=Neut Number=Sing	w837
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71" senti_3="Negatief" senti_6="gemengd negatief" senti_n="1.114">
 <name type="PER">
 Didier	Didier	didier	PROPN	-	w843	nsubj	verdedigen	VERB	VerbForm=Part	w857
 Reynders	Reynders	reynders	PROPN	-	w844	flat	didier	PROPN	-	w843
@@ -151,7 +151,7 @@ verdedigd	verdedigd	verdedigen	VERB	VerbForm=Part	w857	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg4" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72" senti_3="Negatief" senti_6="negatief" senti_n="0.002">
 In	In	in	ADP	-	w858	case	Saudi-Arabië	PROPN	Gender=Neut Number=Sing	w859
 <name type="LOC">
 Saudi-Arabië	Saudi-Arabië	Saudi-Arabië	PROPN	Gender=Neut Number=Sing	w859	obl	discrimineren	VERB	VerbForm=Part	w864
@@ -164,7 +164,7 @@ gediscrimineerd	gediscrimineerd	discrimineren	VERB	VerbForm=Part	w864	root	-	-	-
 <g/>
 .	.	.	PUNCT	-	pc200	punct	discrimineren	VERB	VerbForm=Part	w864
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73" senti_3="Negatief" senti_6="gemengd negatief" senti_n="1.355">
 Zonder	Zonder	zonder	ADP	-	w865	case	toestemming	NOUN	Gender=Com Number=Sing	w866
 toestemming	toestemming	toestemming	NOUN	Gender=Com Number=Sing	w866	obl	studeren	VERB	VerbForm=Inf	w874
 van	van	van	ADP	-	w867	case	voogd	NOUN	Gender=Com Number=Sing	w870
@@ -186,7 +186,7 @@ trouwen	trouwen	trouwen	VERB	VerbForm=Inf	w878	conj	studeren	VERB	VerbForm=Inf	w
 <g/>
 .	.	.	PUNCT	-	pc203	punct	studeren	VERB	VerbForm=Inf	w874
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74" senti_3="Negatief" senti_6="negatief" senti_n="0.010">
 Vrouwen	Vrouwen	vrouw	NOUN	Number=Plur	w879	nsubj	autorijden	VERB	VerbForm=Inf	w882
 mogen	mogen	mogen	AUX	Number=Plur Tense=Pres VerbForm=Fin	w880	aux	autorijden	VERB	VerbForm=Inf	w882
 niet	niet	niet	ADV	-	w881	advmod	autorijden	VERB	VerbForm=Inf	w882
@@ -212,7 +212,7 @@ beschermd	beschermd	beschermen	VERB	VerbForm=Part	w896	advcl	stenigen	VERB	VerbF
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg5" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75" senti_3="Negatief" senti_6="negatief" senti_n="0.385">
 <name type="PER">
 Alexander	Alexander	alexander	PROPN	-	w897	nsubj	verdedigen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w903
 De	De	de	PROPN	-	w898	flat	alexander	PROPN	-	w897
@@ -231,7 +231,7 @@ onverdedigbare	onverdedigbare	onverdedigbaar	ADJ	Degree=Pos	w905	obj	verdedigen	
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg6" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76" senti_3="Negatief" senti_6="negatief" senti_n="0.043">
 Deze	Deze	deze	DET	-	w906	det	VN-commissie	NOUN	Gender=Com Number=Sing	w907
 <name type="MISC">
 VN-commissie	VN-commissie	VN-commissie	NOUN	Gender=Com Number=Sing	w907	nsubj	geven	VERB	VerbForm=Inf	w912
@@ -252,7 +252,7 @@ kunnen	kunnen	kunnen	VERB	VerbForm=Inf	w920	conj	geven	VERB	VerbForm=Inf	w912
 <g/>
 .	.	.	PUNCT	-	pc207	punct	geven	VERB	VerbForm=Inf	w912
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77" senti_3="Negatief" senti_6="negatief" senti_n="0.137">
 Het	Het	het	PRON	Person=3 PronType=Prs	w921	nsubj	slag	NOUN	Gender=Com Number=Sing	w924
 is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w922	cop	slag	NOUN	Gender=Com Number=Sing	w924
 een	een	een	DET	Definite=Ind	w923	det	slag	NOUN	Gender=Com Number=Sing	w924
@@ -299,7 +299,7 @@ zelf	zelf	zelf	ADV	-	w955	amod	Saudi-Arabië	PROPN	Gender=Neut Number=Sing	w954
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg7" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78" senti_3="Negatief" senti_6="negatief" senti_n="0.054">
 Hier	Hier	hier	ADV	-	w956	advmod	passen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w957
 past	past	passen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w957	root	-	-	-	-
 enkel	enkel	enkel	ADV	-	w958	det	schaamte	NOUN	Gender=Com Number=Sing	w959
@@ -327,7 +327,7 @@ land	land	land	NOUN	Gender=Neut Number=Sing	w973	nmod	houding	NOUN	Gender=Com Nu
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg8" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79" senti_3="Negatief" senti_6="negatief" senti_n="0.318">
 Collega’s	Collega’s	Collega’	NOUN	Number=Plur	w974	parataxis	superioriteit	NOUN	Gender=Com Number=Sing	w983
 van	van	van	ADP	-	w975	case	open	PROPN	-	w976
 <name type="ORG">
@@ -345,7 +345,7 @@ superioriteit	superioriteit	superioriteit	NOUN	Gender=Com Number=Sing	w983	root	
 <g/>
 ?	?	?	PUNCT	-	pc215	punct	superioriteit	NOUN	Gender=Com Number=Sing	w983
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80" senti_3="Negatief" senti_6="negatief" senti_n="0.044">
 Vrouwenrechten	Vrouwenrechten	vrouwenrechten	NOUN	Number=Plur	w984	obj	gooien	VERB	VerbForm=Inf	w988
 en	en	en	CCONJ	-	w985	cc	principe	NOUN	Number=Plur	w986
 principes	principes	principe	NOUN	Number=Plur	w986	conj	vrouwenrechten	NOUN	Number=Plur	w984
@@ -361,7 +361,7 @@ oliedollars	oliedollars	oliedollar	NOUN	Number=Plur	w993	conj	belang	NOUN	Number
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg9" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81" senti_3="Negatief" senti_6="gemengd negatief" senti_n="1.252">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w994	nsubj	willen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w995
 wil	wil	willen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w995	root	-	-	-	-
 dus	dus	dus	ADV	-	w996	advmod	vragen	VERB	VerbForm=Inf	w997
@@ -418,9 +418,9 @@ verdedigt	verdedigt	verdedigen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1031	co
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u172" text_id="ParlaMint-BE_2017-04-27-54-plenair-ip165x" subcorpus="Referentie" lang="Multilingual" body="Eerste Kamer" term="Zittingperiode 54" session="-" meeting="Plenaire zitting 165 van 27-04-2017" sitting="-" agenda="-" date="2017-04-27" title="Belgisch parlementair corpus ParlaMint-BE, plenaire zitting van 27-04-2017" speaker_role="Voorzitter" speaker_id="BrackeSiegfried" speaker_name="Bracke, Siegfried" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1953">
+<speech id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u172" text_id="ParlaMint-BE_2017-04-27-54-plenair-ip165x" subcorpus="Referentie" lang="Multilingual" body="Eerste Kamer" term="Zittingperiode 54" session="-" meeting="Plenaire zitting 165 van 27-04-2017" sitting="-" agenda="-" date="2017-04-27" title="Belgisch parlementair corpus ParlaMint-BE, plenaire zitting van 27-04-2017" speaker_role="Voorzitter" topic="Overig" speaker_id="BrackeSiegfried" speaker_name="Bracke, Siegfried" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="Coalition" party_orientation="Centrum-rechts tot rechts" speaker_gender="M" speaker_birth="1953">
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1175" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.552">
 Vraagt	Vraagt	vragen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w41156	root	-	-	-	-
 iemand	iemand	iemand	PRON	Person=3 PronType=Ind	w41157	nsubj	vragen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w41156
 het	het	het	DET	Definite=Def	w41158	det	woord	NOUN	Gender=Neut Number=Sing	w41159
@@ -433,7 +433,7 @@ stemverklaring	stemverklaring	stemverklaring	NOUN	Gender=Com Number=Sing	w41162	
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1176" lang="Frans">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.510">
 Quelqu'un	Quelqu'un	quelqu'un	PRON	Gender=Masc Number=Sing	w41164	nsubj	demander	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w41165
 demande	demande	demander	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w41165	root	-	-	-	-
 <g/>
@@ -453,7 +453,7 @@ vote	vote	vote	NOUN	Gender=Masc Number=Sing	w41173	nmod	déclaration	NOUN	Gender
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1177" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2814">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2814" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.055">
 Begin	Begin	begin	NOUN	Gender=Com Number=Sing	w41175	root	-	-	-	-
 van	van	van	ADP	-	w41176	case	stemming	NOUN	Gender=Com Number=Sing	w41178
 de	de	de	DET	Definite=Def	w41177	det	stemming	NOUN	Gender=Com Number=Sing	w41178
@@ -462,7 +462,7 @@ stemming	stemming	stemming	NOUN	Gender=Com Number=Sing	w41178	nmod	begin	NOUN	Ge
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1178" lang="Frans">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2815">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2815" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.809">
 Début	Début	début	NOUN	Gender=Masc Number=Sing	w41180	root	-	-	-	-
 du	de|le	de|le	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	w41181a|w41181b	case|det	vote	NOUN	Gender=Masc Number=Sing	w41182
 vote	vote	vote	NOUN	Gender=Masc Number=Sing	w41182	nmod	début	NOUN	Gender=Masc Number=Sing	w41180
@@ -471,7 +471,7 @@ vote	vote	vote	NOUN	Gender=Masc Number=Sing	w41182	nmod	début	NOUN	Gender=Masc 
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1179" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.401">
 Heeft	Heeft	hebben	AUX	Number=Sing Tense=Pres VerbForm=Fin	w41183	aux	stemmen	VERB	VerbForm=Part	w41185
 iedereen	iedereen	iedereen	PRON	Person=3 PronType=Ind	w41184	nsubj	stemmen	VERB	VerbForm=Part	w41185
 gestemd	gestemd	stemmen	VERB	VerbForm=Part	w41185	root	-	-	-	-
@@ -482,12 +482,12 @@ nagekeken	nagekeken	nakijken	VERB	Number=Sing Tense=Past VerbForm=Fin	w41189	con
 <g/>
 ?	?	?	PUNCT	-	pc7190	punct	stemmen	VERB	VerbForm=Part	w41185
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2817">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2817" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.450">
 /	/	/	PUNCT	-	pc7191	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1180" lang="Frans">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2818">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2818" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="2.348">
 Tout	Tout	tout	ADJ	Gender=Masc Number=Sing	w41191	amod	monde	NOUN	Gender=Masc Number=Sing	w41193
 le	le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w41192	det	monde	NOUN	Gender=Masc Number=Sing	w41193
 monde	monde	monde	NOUN	Gender=Masc Number=Sing	w41193	nsubj	voter	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w41195
@@ -506,7 +506,7 @@ vote	vote	vote	NOUN	Gender=Masc Number=Sing	w41199	obj	vérifier	VERB	Gender=Mas
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1181" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2819">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2819" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.342">
 Einde	Einde	einde	NOUN	Gender=Com Number=Sing	w41200	root	-	-	-	-
 van	van	van	ADP	-	w41201	case	stemming	NOUN	Gender=Com Number=Sing	w41203
 de	de	de	DET	Definite=Def	w41202	det	stemming	NOUN	Gender=Com Number=Sing	w41203
@@ -515,7 +515,7 @@ stemming	stemming	stemming	NOUN	Gender=Com Number=Sing	w41203	nmod	einde	NOUN	Ge
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1182" lang="Frans">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2820">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2820" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.113">
 Fin	Fin	fin	NOUN	Gender=Fem Number=Sing	w41205	root	-	-	-	-
 du	de|le	de|le	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	w41206a|w41206b	case|det	vote	NOUN	Gender=Masc Number=Sing	w41207
 vote	vote	vote	NOUN	Gender=Masc Number=Sing	w41207	nmod	fin	NOUN	Gender=Fem Number=Sing	w41205
@@ -524,7 +524,7 @@ vote	vote	vote	NOUN	Gender=Masc Number=Sing	w41207	nmod	fin	NOUN	Gender=Fem Numb
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1183" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2821">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2821" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.321">
 Uitslag	Uitslag	uitslag	NOUN	Gender=Com Number=Sing	w41208	root	-	-	-	-
 van	van	van	ADP	-	w41209	case	stemming	NOUN	Gender=Com Number=Sing	w41211
 de	de	de	DET	Definite=Def	w41210	det	stemming	NOUN	Gender=Com Number=Sing	w41211
@@ -533,7 +533,7 @@ stemming	stemming	stemming	NOUN	Gender=Com Number=Sing	w41211	nmod	uitslag	NOUN	
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1184" lang="Frans">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2822">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2822" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.885">
 Résultat	Résultat	résultat	NOUN	Gender=Masc Number=Sing	w41213	root	-	-	-	-
 du	de|le	de|le	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	w41214a|w41214b	case|det	vote	NOUN	Gender=Masc Number=Sing	w41215
 vote	vote	vote	NOUN	Gender=Masc Number=Sing	w41215	nmod	résultat	NOUN	Gender=Masc Number=Sing	w41213
@@ -542,71 +542,71 @@ vote	vote	vote	NOUN	Gender=Masc Number=Sing	w41215	nmod	résultat	NOUN	Gender=Ma
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1185" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2824">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2824" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.147">
 Ja	Ja	ja	INTJ	-	w41218	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1186" lang="Frans">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2825">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2825" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.226">
 129	129	129	NUM	-	w41219	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1187" lang="Frans">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2826">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2826" senti_3="Positief" senti_6="gemend-positief" senti_n="3.570">
 Oui	Oui	oui	INTJ	-	w41220	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1188" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2827">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2827" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.280">
 Nee	Nee	nee	INTJ	-	w41221	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1189" lang="Frans">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2828">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2828" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.862">
 0	0	0	NUM	-	w41222	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1190" lang="Frans">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2829">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2829" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.020">
 Non	Non	non	ADV	-	w41223	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1191" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2830">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2830" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.095">
 Onthoudingen	Onthoudingen	onthouding	NOUN	Number=Plur	w41224	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1192" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2831">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2831" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.862">
 0	0	0	NUM	-	w41225	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1193" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2832">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2832" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="2.492">
 Abstentions	Abstentions	abstentions	NOUN	Number=Plur	w41226	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1194" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2833">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2833" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.093">
 <name type="MISC">
 Totaal	Totaal	totaal	ADV	-	w41227	root	-	-	-	-
 </name>
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1195" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2834">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2834" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.226">
 129	129	129	NUM	-	w41228	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1196" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2835">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2835" senti_3="Positief" senti_6="gemend-positief" senti_n="3.667">
 <name type="ORG">
 Total	Total	total	PROPN	Gender=Com Number=Sing	w41229	root	-	-	-	-
 </name>
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1197" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.205">
 Bijgevolg	Bijgevolg	bijgevolg	ADV	-	w41230	advmod	nemen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w41231
 neemt	neemt	nemen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w41231	root	-	-	-	-
 de	de	de	DET	Definite=Def	w41232	det	kamer	NOUN	Gender=Com Number=Sing	w41233
@@ -621,7 +621,7 @@ aan	aan	aan	ADP	-	w41238	compound:prt	nemen	VERB	Number=Sing Tense=Pres VerbForm
 <g/>
 .	.	.	PUNCT	-	pc7201	punct	nemen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w41231
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2837">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2837" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.516">
 Het	Het	het	PRON	Person=3 PronType=Prs	w41239	nsubj:pass	brengen	VERB	VerbForm=Part	w41247
 zal	zal	zullen	AUX	Number=Sing Tense=Pres VerbForm=Fin	w41240	aux	brengen	VERB	VerbForm=Part	w41247
 ter	ter	ter	ADP	-	w41241	compound:prt	brengen	VERB	VerbForm=Part	w41247
@@ -636,7 +636,7 @@ gebracht	gebracht	brengen	VERB	VerbForm=Part	w41247	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1198" lang="Frans">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2838">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2838" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.976">
 (	(	(	PUNCT	-	pc7203	punct	2421/5	NUM	-	w41248
 <g/>
 2421/5	2421/5	2421/5	NUM	-	w41248	root	-	-	-	-
@@ -645,7 +645,7 @@ gebracht	gebracht	brengen	VERB	VerbForm=Part	w41247	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1199" lang="Frans">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.199">
 En	En	en	ADP	-	w41249	case	conséquence	NOUN	Gender=Fem Number=Sing	w41250
 conséquence	conséquence	conséquence	NOUN	Gender=Fem Number=Sing	w41250	obl:mod	adopter	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w41253
 <g/>
@@ -662,7 +662,7 @@ résolution	résolution	résolution	NOUN	Gender=Fem Number=Sing	w41257	nmod	prop
 <g/>
 .	.	.	PUNCT	-	pc7206	punct	adopter	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w41253
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.864">
 Il	Il	il	PRON	Gender=Masc Number=Sing Person=3 PronType=Prs	w41258	nsubj	donner	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w41261
 en	en	en	PRON	Person=3	w41259	nmod	connaissance	NOUN	Gender=Fem Number=Sing	w41262
 sera	sera	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w41260	aux:tense	donner	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w41261
@@ -675,7 +675,7 @@ gouvernement	gouvernement	gouvernement	NOUN	Gender=Masc Number=Sing	w41264	obl:a
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1200" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2841">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2841" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.976">
 (	(	(	PUNCT	-	pc7208	punct	2421/5	NUM	-	w41265
 <g/>
 2421/5	2421/5	2421/5	NUM	-	w41265	root	-	-	-	-
@@ -686,9 +686,9 @@ gouvernement	gouvernement	gouvernement	NOUN	Gender=Masc Number=Sing	w41264	obl:a
 </speech>
 <note type="editorial" content="28 Goedkeuring van de agenda"/>
 <note type="editorial" content="28 Adoption de l’ordre du jour"/>
-<speech id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u173" text_id="ParlaMint-BE_2017-04-27-54-plenair-ip165x" subcorpus="Referentie" lang="Multilingual" body="Eerste Kamer" term="Zittingperiode 54" session="-" meeting="Plenaire zitting 165 van 27-04-2017" sitting="-" agenda="-" date="2017-04-27" title="Belgisch parlementair corpus ParlaMint-BE, plenaire zitting van 27-04-2017" speaker_role="Voorzitter" speaker_id="BrackeSiegfried" speaker_name="Bracke, Siegfried" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1953">
+<speech id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u173" text_id="ParlaMint-BE_2017-04-27-54-plenair-ip165x" subcorpus="Referentie" lang="Multilingual" body="Eerste Kamer" term="Zittingperiode 54" session="-" meeting="Plenaire zitting 165 van 27-04-2017" sitting="-" agenda="-" date="2017-04-27" title="Belgisch parlementair corpus ParlaMint-BE, plenaire zitting van 27-04-2017" speaker_role="Voorzitter" topic="Defensie" speaker_id="BrackeSiegfried" speaker_name="Bracke, Siegfried" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="Coalition" party_orientation="Centrum-rechts tot rechts" speaker_gender="M" speaker_birth="1953">
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1201" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.866">
 Wij	Wij	wij	PRON	Case=Nom Person=1 PronType=Prs	w41277	nsubj	overgaan	VERB	VerbForm=Inf	w41279
 moeten	moeten	moeten	AUX	Number=Plur Tense=Pres VerbForm=Fin	w41278	aux	overgaan	VERB	VerbForm=Inf	w41279
 overgaan	overgaan	overgaan	VERB	VerbForm=Inf	w41279	root	-	-	-	-
@@ -711,7 +711,7 @@ mei	mei	mei	PROPN	Gender=Com Number=Sing	w41292	flat	4	NUM	-	w41291
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1202" lang="Frans">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.735">
 Nous	Nous	il	PRON	Number=Plur Person=1 PronType=Prs	w41294	nsubj	devoir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w41295
 devons	devons	devoir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w41295	root	-	-	-	-
 procéder	procéder	procéder	VERB	VerbForm=Inf	w41296	xcomp	devoir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w41295
@@ -738,7 +738,7 @@ mai	mai	mai	NOUN	Gender=Masc Number=Sing	w41309	nmod	4	NUM	-	w41308
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1203" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="1.835">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w41311	nsubj	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w41312
 stel	stel	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w41312	root	-	-	-	-
 u	u	u	PRON	Case=Nom Person=2 PronType=Prs	w41313	iobj	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w41312
@@ -778,7 +778,7 @@ mei	mei	mei	PROPN	Gender=Com Number=Sing	w41339	flat	11	NUM	-	w41338
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1204" lang="Frans">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="1.793">
 Je	Je	il	PRON	Number=Sing Person=1 PronType=Prs	w41341	nsubj	proposer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w41343
 vous	vous	il	PRON	Number=Plur Person=2 PronType=Prs	w41342	iobj	proposer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w41343
 propose	propose	proposer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w41343	root	-	-	-	-
@@ -817,14 +817,14 @@ mai	mai	mai	NOUN	Gender=Masc Number=Sing	w41368	nmod	11	NUM	-	w41367
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1205" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2848">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2848" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="2.356">
 Geen	Geen	geen	DET	-	w41370	det	bezwaar	NOUN	Gender=Neut Number=Sing	w41371
 bezwaar	bezwaar	bezwaar	NOUN	Gender=Neut Number=Sing	w41371	root	-	-	-	-
 <g/>
 ?	?	?	PUNCT	-	pc7221	punct	bezwaar	NOUN	Gender=Neut Number=Sing	w41371
 </s>
 <note type="answer" content="Nee"/>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2850">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2850" senti_3="Positief" senti_6="gemend-positief" senti_n="3.605">
 De	De	de	DET	Definite=Def	w41373	det	agenda	NOUN	Gender=Com Number=Sing	w41375
 gewijzigde	gewijzigde	gewijzigd	VERB	VerbForm=Part	w41374	amod	agenda	NOUN	Gender=Com Number=Sing	w41375
 agenda	agenda	agenda	NOUN	Gender=Com Number=Sing	w41375	nsubj:pass	goedkeuren	VERB	VerbForm=Part	w41377
@@ -835,7 +835,7 @@ goedgekeurd	goedgekeurd	goedkeuren	VERB	VerbForm=Part	w41377	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1206" lang="Frans">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2851">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2851" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="1.896">
 Pas	Pas	pas	ADV	Polarity=Neg	w41378	advmod	observation	NOUN	Gender=Fem Number=Sing	pc7226
 d’	d’	d’	ADP	-	w41379	case	observation	NOUN	Gender=Fem Number=Sing	pc7226
 <g/>
@@ -844,7 +844,7 @@ observation	observation	observation	NOUN	Gender=Fem Number=Sing	pc7226	root	-	-	
 ?	?	?	PUNCT	-	pc7225	punct	observation	NOUN	Gender=Fem Number=Sing	pc7226
 </s>
 <note type="answer" content="Non"/>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.236">
 L’	L’	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w41381	det	ordre	NOUN	Gender=Masc Number=Sing	pc7229
 <g/>
 ordre	ordre	ordre	NOUN	Gender=Masc Number=Sing	pc7229	nsubj:pass	approuver	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w41388
@@ -860,7 +860,7 @@ approuvé	approuvé	approuver	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=P
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1207" lang="Nederlands">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2854">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2854" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.354">
 De	De	de	DET	Definite=Def	w41389	det	vergadering	NOUN	Gender=Com Number=Sing	w41390
 vergadering	vergadering	vergadering	NOUN	Gender=Com Number=Sing	w41390	nsubj:pass	sluiten	VERB	VerbForm=Part	w41392
 wordt	wordt	worden	AUX	Number=Sing Tense=Pres VerbForm=Fin	w41391	aux:pass	sluiten	VERB	VerbForm=Part	w41392
@@ -868,7 +868,7 @@ gesloten	gesloten	sluiten	VERB	VerbForm=Part	w41392	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	pc7231	punct	sluiten	VERB	VerbForm=Part	w41392
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2855">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2855" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.153">
 Volgende	Volgende	volgend	VERB	VerbForm=Part	w41393	amod	vergadering	NOUN	Gender=Com Number=Sing	w41394
 vergadering	vergadering	vergadering	NOUN	Gender=Com Number=Sing	w41394	root	-	-	-	-
 donderdag	donderdag	donderdag	PROPN	Gender=Com Number=Sing	w41395	nmod	vergadering	NOUN	Gender=Com Number=Sing	w41394
@@ -883,7 +883,7 @@ uur	uur	uur	NOUN	Gender=Neut Number=Sing	w41401	fixed	14.15	NUM	-	w41400
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1208" lang="Frans">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2856">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2856" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.851">
 La	La	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w41402	det	séance	NOUN	Gender=Fem Number=Sing	w41403
 séance	séance	séance	NOUN	Gender=Fem Number=Sing	w41403	nsubj:pass	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w41405
 est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w41404	aux:pass	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w41405
@@ -891,7 +891,7 @@ levée	levée	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w41405	
 <g/>
 .	.	.	PUNCT	-	pc7233	punct	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w41405
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="2.126">
 Prochaine	Prochaine	prochain	ADJ	Gender=Fem Number=Sing	w41406	amod	séance	NOUN	Gender=Fem Number=Sing	w41407
 séance	séance	séance	NOUN	Gender=Fem Number=Sing	w41407	root	-	-	-	-
 le	le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w41408	det	jeudi	NOUN	Gender=Masc Number=Sing	w41409

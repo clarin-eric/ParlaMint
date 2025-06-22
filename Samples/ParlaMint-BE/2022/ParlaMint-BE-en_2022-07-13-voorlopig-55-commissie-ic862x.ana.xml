@@ -19,19 +19,35 @@
                <resp xml:lang="en">Linguistic annotation</resp>
             </respStmt>
             <respStmt>
-               <persName>Taja Kuzman</persName>
-               <persName>Nikola Ljubešić</persName>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
                <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
             </respStmt>
             <respStmt>
-               <persName>Paul Rayson</persName>
-               <persName>Matthew Coole</persName>
-               <persName>John Vidler</persName>
+               <persName ref="https://orcid.org/0000-0002-1257-2191">Paul Rayson</persName>
+               <persName ref="https://orcid.org/0000-0002-9279-931X">Matthew Coole</persName>
+               <persName ref="https://orcid.org/0000-0003-3442-6862">John Vidler</persName>
                <resp xml:lang="en">Annotating MTed corpora with USAS semantic tags</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
             </respStmt>
             <funder>
                <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="nl">De Europese Commissie</orgName>
@@ -43,7 +59,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="7" xml:lang="en">7 speeches</measure>
@@ -59,7 +75,7 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1910</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2006</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="nl">Deze bestanden zijn beschikbaar volgens de <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
@@ -67,7 +83,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-19">2025-06-19</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -87,6 +103,7 @@
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="measure" occurs="55"/>
                <tagUsage gi="name" occurs="78"/>
                <tagUsage gi="note" occurs="19"/>
                <tagUsage gi="pc" occurs="136"/>
@@ -114,8 +131,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-19">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-13">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
          <change when="2024-05-16">
             <name>Tomaž Erjavec</name>: Generate TEI version of MTed corpus.</change>
          <change when="2022-07-27">
@@ -128,9 +147,10 @@
             <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.ana.note1" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.ana.note1">Questions will be dealt with at 13.02 p.m. The meeting is chaired by Kristien Van Vaerenbergh.</note>
             <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.ana.note2" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.ana.note2">The development of questions and inquiries begins at 1:03 p.m. The meeting was chaired by Ms. Kristien Van Vaerenbergh.</note>
             <note type="speaker" xml:lang="en" xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.ana.note3" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.ana.note3">The President:</note>
-            <u ana="#chair" xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u1" who="#VanVaerenberghKristien" xml:lang="en" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u1">
+            <u ana="#chair topic:other" xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u1" who="#VanVaerenberghKristien" xml:lang="en" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u1">
                <seg xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg1" xml:lang="en" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg1">
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6" n="1" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6">
+                     <measure type="sentiment" quantity="1.726" ana="senti:neuneg" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6"/>
                      <phr type="sem" function="Z1mf,Z3c" ana="sem:Z1">
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="question" function="Z1mf,Z3c" ana="sem:Z1">Questions</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="nos" function="Z1mf,Z3c" ana="sem:Z1">Nos</w>
@@ -153,9 +173,10 @@
             <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.ana.note4" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.ana.note4">01 Question from Roberto D'Amico to Mathieu Michel (Digitalization, Administrative Simplification, Protection of Privacy and Régie des Bâtiments, des Instit. Cultural) on "The report of the Irish Council for Civil Liberties" (55028141C)</note>
             <note xml:lang="en" type="editorial" xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.ana.note5" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.ana.note5">01 Question from Roberto D'Amico to Mathieu Michel (Digitalisation, Administrative Simplification, Privacy and Control of the Buildings, the Cultural Instel.) on the report of the Irish Council for Civil Liberties (55028141C)</note>
             <note type="speaker" xml:lang="en" xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.ana.note6" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.ana.note6">01.01. Roberto D'Amico (PVDA-PTB):</note>
-            <u ana="#regular" xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u2" who="#DAmicoRoberto" xml:lang="en" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u2">
+            <u ana="#regular topic:civil" xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u2" who="#DAmicoRoberto" xml:lang="en" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u2">
                <seg xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg2" xml:lang="en" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg2">
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11" n="1" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11">
+                     <measure type="sentiment" quantity="-0.005" ana="senti:negneg" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11"/>
                      <phr type="sem" function="Z1m" ana="sem:Z1">
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Mr" function="Z1m" ana="sem:Z1">Mr</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Secretary" function="Z1m" ana="sem:Z1">Secretary</w>
@@ -186,6 +207,7 @@
 <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t22" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12" n="2" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12">
+                     <measure type="sentiment" quantity="2.218" ana="senti:neuneg" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12"/>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t1" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="organisation" function="S5+c,S7.1+" ana="sem:S5p">organisation</w>
                      <phr type="sem" function="A5.4+" ana="sem:A5.4p">
@@ -217,6 +239,7 @@
 <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t21" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13" n="3" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13">
+                     <measure type="sentiment" quantity="2.406" ana="senti:neuneg" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13"/>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13.t1" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">For</w>
                      <name type="LOC">
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Europe" function="Z2" ana="sem:Z2" join="right">Europe</w>
@@ -240,6 +263,7 @@
 <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13.t15" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14" n="4" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14">
+                     <measure type="sentiment" quantity="0.670" ana="senti:mixneg" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14"/>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t3" pos="RB" msd="UPosTag=ADV" lemma="therefore" function="Z5" ana="sem:Z5">therefore</w>
@@ -300,6 +324,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg3" xml:lang="en" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg3">
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15" n="1" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15">
+                     <measure type="sentiment" quantity="1.938" ana="senti:neuneg" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15"/>
                      <phr type="sem" function="Z1m" ana="sem:Z1">
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Mr" function="Z1m" ana="sem:Z1">Mr</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Secretary" function="Z1m" ana="sem:Z1">Secretary</w>
@@ -315,6 +340,7 @@
 <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s16" n="2" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s16">
+                     <measure type="sentiment" quantity="2.345" ana="senti:neuneg" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s16"/>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s16.t1" pos="WP" msd="UPosTag=PRON|PronType=Int" lemma="what" function="Z8,Z5" ana="sem:Z8">What</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s16.t2" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s16.t3" pos="PRP$" msd="UPosTag=PRON|Person=2|Poss=Yes|PronType=Prs" lemma="you" function="Z8" ana="sem:Z8">your</w>
@@ -322,6 +348,7 @@
 <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s16.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17" n="3" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17">
+                     <measure type="sentiment" quantity="2.864" ana="senti:neupos" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17"/>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17.t1" pos="WP" msd="UPosTag=PRON|PronType=Int" lemma="what" function="Z8,Z5" ana="sem:Z8">What</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17.t3" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8">you</w>
@@ -342,6 +369,7 @@
 <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18" n="4" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18">
+                     <measure type="sentiment" quantity="1.128" ana="senti:mixneg" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18"/>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t1" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">Will</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t2" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8">you</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="require" function="X7+,S6+" ana="sem:X7p">require</w>
@@ -376,9 +404,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u ana="#regular" xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u6" who="#MichelMathieu" xml:lang="en" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u6">
+            <u ana="#regular topic:civil" xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u6" who="#MichelMathieu" xml:lang="en" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u6">
                <seg xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg16" xml:lang="en" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg16">
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61" n="1" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61">
+                     <measure type="sentiment" quantity="2.506" ana="senti:neupos" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61"/>
                      <phr type="sem" function="Z1m" ana="sem:Z1">
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Mr" function="Z1m" ana="sem:Z1">Mr</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="President" function="Z1m" ana="sem:Z1" join="right">President</w>
@@ -429,6 +458,7 @@
 <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t38" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62" n="2" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62">
+                     <measure type="sentiment" quantity="2.517" ana="senti:neupos" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62"/>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t1" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">On</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
                      <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
@@ -473,6 +503,7 @@
 <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t32" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63" n="3" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63">
+                     <measure type="sentiment" quantity="1.662" ana="senti:neuneg" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63"/>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63.t1" pos="IN" msd="UPosTag=SCONJ" lemma="once" function="Z5" ana="sem:Z5">Once</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="complaint" function="Q2.2/E2-,B2-@" ana="sem:Q2.2 sem:E2n">complaint</w>
@@ -491,6 +522,7 @@
 <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64" n="4" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64">
+                     <measure type="sentiment" quantity="2.904" ana="senti:neupos" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64"/>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t1" pos="DT" msd="UPosTag=PRON|Number=Plur|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">These</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="could" function="A7+" ana="sem:A7p">could</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="contribute" function="A9-,A2.2,S1.1.3+" ana="sem:A9n">contribute</w>
@@ -514,6 +546,7 @@
 <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t17" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65" n="5" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65">
+                     <measure type="sentiment" quantity="2.964" ana="senti:neupos" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65"/>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65.t1" pos="CC" msd="UPosTag=CCONJ" lemma="but" function="Z5" ana="sem:Z5">But</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65.t2" pos="DT" msd="UPosTag=DET" lemma="every" function="N5.1+" ana="sem:N5.1p">every</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="thing" function="O2,X4.1,A7-,S2mf,L2mf" ana="sem:O2">thing</w>
@@ -534,6 +567,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg17" xml:lang="en" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg17">
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66" n="1" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66">
+                     <measure type="sentiment" quantity="2.442" ana="senti:neuneg" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66"/>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t1" pos="RB" msd="UPosTag=ADV" lemma="finally" function="N4" ana="sem:N4" join="right">Finally</w>
 <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t3" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
@@ -567,6 +601,7 @@
 <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t27" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67" n="2" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67">
+                     <measure type="sentiment" quantity="3.289" ana="senti:neupos" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67"/>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t1" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">For</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t2" pos="PRP$" msd="UPosTag=PRON|Number=Sing|Person=1|Poss=Yes|PronType=Prs" lemma="my" function="Z8" ana="sem:Z8">my</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="part" function="N5.1-,O2,M7,I3.1,S1.1.3+,K4" ana="sem:N5.1n" join="right">part</w>
@@ -615,6 +650,7 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg18" xml:lang="en" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg18">
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68" n="1" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68">
+                     <measure type="sentiment" quantity="3.153" ana="senti:neupos" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68"/>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="you" function="Z8mf" ana="sem:Z8">You</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t3" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
@@ -668,6 +704,7 @@
 <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t41" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69" n="2" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69">
+                     <measure type="sentiment" quantity="4.905" ana="senti:pospos" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69"/>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="count" function="N2,A11.1+" ana="sem:N2">count</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t3" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
@@ -717,9 +754,10 @@
                </seg>
             </u>
             <note type="speaker" xml:lang="en" xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.ana.note15" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.ana.note15">02.3 Olivier Vajda (Ecolo-Green):</note>
-            <u ana="#regular" xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u7" who="#VajdaOlivier" xml:lang="en" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u7">
+            <u ana="#regular topic:domes" xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u7" who="#VajdaOlivier" xml:lang="en" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u7">
                <seg xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg19" xml:lang="en" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg19">
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71" n="1" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71">
+                     <measure type="sentiment" quantity="3.436" ana="senti:neupos" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71"/>
                      <phr type="sem" function="Z4,S1.2.4+" ana="sem:Z4">
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71.t1" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="thank" function="Z4,S1.2.4+" ana="sem:Z4">Thank</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71.t2" pos="PRP" msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs" lemma="you" function="Z4,S1.2.4+" ana="sem:Z4">you</w>
@@ -734,6 +772,7 @@
 <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72" n="2" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72">
+                     <measure type="sentiment" quantity="1.898" ana="senti:neuneg" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72"/>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="note" function="Q2.1,Q1.2" ana="sem:Q2.1">note</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t3" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5" join="right">that</w>
@@ -763,6 +802,7 @@
 <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t23" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73" n="3" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73">
+                     <measure type="sentiment" quantity="3.854" ana="senti:mixpos" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73"/>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t1" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">For</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="rest" function="E3+,K1,T2-/T1.3,O2,N5.1-" ana="sem:E3p" join="right">rest</w>
@@ -795,6 +835,7 @@
 <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t26" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74" n="4" corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74">
+                     <measure type="sentiment" quantity="4.832" ana="senti:pospos" corresp="#ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74"/>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t3" pos="DT" msd="UPosTag=DET" lemma="another" function="A6.1-,N5++" ana="sem:A6.1n">another</w>

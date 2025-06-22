@@ -7,9 +7,9 @@
 <note type="gap::editorial" content="The frontmatter of the document has been removed"/>
 <note type="-" content="Athens, today on 4 December 2019, Wednesday at 9.08 p.m., the House met in the Chamber of Parliament's sittings in plenary to meet under the chairmanship of its second Vice President, Mr. HARALABOU Athanasou."/>
 <note type="speaker" content="PERFORMANCE (CARALABOS Athanasios):"/>
-<speech id="ParlaMint-GR_2019-12-04-S1-commons.u1" text_id="ParlaMint-GR-en_2019-12-04-S1-commons" subcorpus="Reference" lang="English" body="Unicameralism" term="18" session="1" meeting="-" sitting="61" agenda="-" date="2019-12-04" title="Minutes of the assembly of the greek parliament, Term 18, session 1, sitting 61, 2019-12-04" speaker_role="Chairperson" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="Athanasioy, Charalampos" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N.D." speaker_party_name="New Democracy" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GR_2019-12-04-S1-commons.u1" text_id="ParlaMint-GR-en_2019-12-04-S1-commons" subcorpus="Reference" lang="English" body="Unicameralism" term="18" session="1" meeting="-" sitting="61" agenda="-" date="2019-12-04" title="Minutes of the assembly of the greek parliament, Term 18, session 1, sitting 61, 2019-12-04" speaker_role="Chairperson" topic="Mix" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="Athanasioy, Charalampos" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N.D." speaker_party_name="New Democracy" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg1" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg1.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg1.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.670">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -26,7 +26,7 @@ begins	begins	begin	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	T
 </p>
 <note type="-" content="Note: The following table of contents is not the final text because rationalisation and editorial corrections are pending"/>
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg2" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg2.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg2.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.019">
 First	First	first	ADV	NumType=Ord	N4,P1@	N4	N4: Linear order	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -55,7 +55,7 @@ December	December	December	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical na
 </s>
 </p>
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg3" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg3.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg3.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.290">
 A.	A.	A.	X	-	Z99	Z99	Z99: Unmatched	t1
 FURTHER	FURTHER	further	ADJ	Degree=Pos	N5++,N3.3++,T2++	N5p	N5+: Quantities: many/much	t2
 REQUIREMENTS	REQUIREMENTS	REQUIREMENTS	PROPN	Number=Plur	Z99	Z99	Z99: Unmatched	t3
@@ -103,7 +103,7 @@ Procedure	Procedure	procedure	NOUN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	
 </s>
 </p>
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg4" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg4.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg4.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.505">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -173,7 +173,7 @@ Thessaly	Thessaly	Thessaly	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t4
 </s>
 </p>
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg5" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg5.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg5.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.045">
 2.	2.	2.	X	-	Z99	Z99	Z99: Unmatched	t1
 (')	(')	(	PUNCT	-	Z99	Z99	Z99: Unmatched	t2
 <name type="ORG">
@@ -242,7 +242,7 @@ Projects	Projects	Project	PROPN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t44
 </s>
 </p>
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg6" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg6.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg6.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.270">
 3	3	3	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -299,7 +299,7 @@ criteria	criteria	criterion	NOUN	Number=Plur	X4.1	X4.1	X4.1: Mental object: Conc
 </s>
 </p>
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg7" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg7.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg7.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.961">
 4	4	4	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -376,7 +376,7 @@ injured	injured	injure	VERB	Tense=Past VerbForm=Part	B2-,A1.1.2,E1	B2n	B2-: Dise
 </s>
 </p>
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg8" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg8.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg8.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.349">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 B.	B.	B.	X	-	Z1mf,Z3c	Z1	Z1: Personal names	t1
 PERSONS	PERSONS	person	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -427,7 +427,7 @@ Procedure	Procedure	procedure	NOUN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	
 </s>
 </p>
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg9" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg9.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg9.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.154">
 1.	1.	1.	X	-	Z99	Z99	Z99: Unmatched	t1
 <name type="PER">
 Evangelos	Evangelos	Evangelos	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -478,7 +478,7 @@ country	country	country	NOUN	Number=Sing	G1.1c,W3,F4/M7,K2	G1.1	G1.1: Government
 </s>
 </p>
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg10" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg10.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg10.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.666">
 2.	2.	2.	X	-	Z99	Z99	Z99: Unmatched	t1
 (')	(')	(	PUNCT	-	Z99	Z99	Z99: Unmatched	t2
 <name type="ORG">
@@ -564,7 +564,7 @@ Debts	Debts	debt	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t60
 </s>
 </p>
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg11" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg11.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg11.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.906">
 3	3	3	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -627,7 +627,7 @@ protection	protection	protection	NOUN	Number=Sing	S8+/A15+,A10-	S8p A15p	S8+: He
 </s>
 </p>
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg12" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg12.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg12.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.564">
 4	4	4	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -716,7 +716,7 @@ deaf	deaf	deaf	ADJ	Degree=Pos	X3.2-	X3.2n	X3.2-: Sound: Quiet	t59
 </s>
 </p>
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg13" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg13.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg13.1" senti_3="Negative" senti_6="mixed negative" senti_n="1.187">
 5	5	5	NUM	-	N1	N1	N1: Numbers	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -790,7 +790,7 @@ country	country	country	NOUN	Number=Sing	G1.1c,W3,F4/M7,K2	G1.1	G1.1: Government
 </s>
 </p>
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg14" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg14.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg14.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.514">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -812,7 +812,7 @@ WORK	WORK	work	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t13
 </s>
 </p>
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg15" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg15.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg15.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.932">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 only	only	only	ADJ	Degree=Pos	A14	A14	A14: Exclusivizers/particularizers	t2
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
@@ -882,7 +882,7 @@ Rules	Rules	rule	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t48
 </s>
 </p>
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg16" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg16.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg16.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.196">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 draft	draft	draft	NOUN	Number=Sing	Q1.2,G3,Q1.2/I1	Q1.2	Q1.2: Paper documents and writing	t2
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -899,7 +899,7 @@ Committee	Committee	Committee	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg16.2">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg16.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.424">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 introduced	introduced	introduce	VERB	Tense=Past VerbForm=Part Voice=Pass	S1.1.1,T2+	S1.1.1	S1.1.1: Social Actions, States And Processes	t3
@@ -944,7 +944,7 @@ agreement	agreement	agreement	NOUN	Number=Sing	A6.1+,Q2.2	A6.1p	A6.1+: Comparing
 </s>
 </p>
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg17" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg17.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg17.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.007">
 Does	Does	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <name type="ORG">
@@ -958,9 +958,9 @@ agree	agree	agree	VERB	VerbForm=Inf	A6.1+,Q2.2	A6.1p	A6.1+: Comparing: Similar	t
 </speech>
 <note type="vocal:shouting" content="Yes, sir."/>
 <note type="speaker" content="PERFORMANCE (CARALABOS Athanasios):"/>
-<speech id="ParlaMint-GR_2019-12-04-S1-commons.u2" text_id="ParlaMint-GR-en_2019-12-04-S1-commons" subcorpus="Reference" lang="English" body="Unicameralism" term="18" session="1" meeting="-" sitting="61" agenda="-" date="2019-12-04" title="Minutes of the assembly of the greek parliament, Term 18, session 1, sitting 61, 2019-12-04" speaker_role="Chairperson" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="Athanasioy, Charalampos" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N.D." speaker_party_name="New Democracy" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GR_2019-12-04-S1-commons.u2" text_id="ParlaMint-GR-en_2019-12-04-S1-commons" subcorpus="Reference" lang="English" body="Unicameralism" term="18" session="1" meeting="-" sitting="61" agenda="-" date="2019-12-04" title="Minutes of the assembly of the greek parliament, Term 18, session 1, sitting 61, 2019-12-04" speaker_role="Chairperson" topic="Other" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="Athanasioy, Charalampos" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N.D." speaker_party_name="New Democracy" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg18" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg18.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg18.1" senti_3="Positive" senti_6="positive" senti_n="4.559">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 House	House	House	PROPN	Number=Sing	H4	H4	H4: Residence	t2
@@ -972,7 +972,7 @@ agreed	agreed	agree	VERB	Tense=Past VerbForm=Part	A6.1+,Q2.2	A6.1p	A6.1+: Compar
 </s>
 </p>
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg19" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg19.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg19.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.068">
 <name type="ORG">
 New	New	New	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Democracy	Democracy	Democracy	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -997,7 +997,7 @@ favour	favour	favour	NOUN	Number=Sing	S8+,E2++	S8p	S8+: Helping	t12
 </s>
 </p>
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg20" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg20.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg20.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.556">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 had	had	have	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -1012,7 +1012,7 @@ Greece	Greece	Greece	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t7
 </s>
 </p>
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg21" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg21.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg21.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.367">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 <name type="PER">
 Kattotis	Kattotis	Kattotis	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -1032,9 +1032,9 @@ minutes	minutes	minute	NOUN	Number=Plur	T1.3,Q1.2	T1.3	T1.3: Time: Period	t10
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-GR_2019-12-04-S1-commons.u51" text_id="ParlaMint-GR-en_2019-12-04-S1-commons" subcorpus="Reference" lang="English" body="Unicameralism" term="18" session="1" meeting="-" sitting="61" agenda="-" date="2019-12-04" title="Minutes of the assembly of the greek parliament, Term 18, session 1, sitting 61, 2019-12-04" speaker_role="Chairperson" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="Athanasioy, Charalampos" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N.D." speaker_party_name="New Democracy" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GR_2019-12-04-S1-commons.u51" text_id="ParlaMint-GR-en_2019-12-04-S1-commons" subcorpus="Reference" lang="English" body="Unicameralism" term="18" session="1" meeting="-" sitting="61" agenda="-" date="2019-12-04" title="Minutes of the assembly of the greek parliament, Term 18, session 1, sitting 61, 2019-12-04" speaker_role="Chairperson" topic="Other" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="Athanasioy, Charalampos" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N.D." speaker_party_name="New Democracy" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg212" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg212.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg212.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.224">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 House	House	House	PROPN	Number=Sing	H4	H4	H4: Residence	t2
@@ -1049,7 +1049,7 @@ permission	permission	permission	NOUN	Number=Sing	S7.4+	S7.4p	S7.4+: Allowed	t7
 </s>
 </p>
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg213" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg213.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg213.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.528">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -1077,9 +1077,9 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t17
 </speech>
 <note type="vocal:shouting" content="Yes, sir."/>
 <note type="speaker" content="PERFORMANCE (CARALABOS Athanasios):"/>
-<speech id="ParlaMint-GR_2019-12-04-S1-commons.u52" text_id="ParlaMint-GR-en_2019-12-04-S1-commons" subcorpus="Reference" lang="English" body="Unicameralism" term="18" session="1" meeting="-" sitting="61" agenda="-" date="2019-12-04" title="Minutes of the assembly of the greek parliament, Term 18, session 1, sitting 61, 2019-12-04" speaker_role="Chairperson" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="Athanasioy, Charalampos" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N.D." speaker_party_name="New Democracy" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GR_2019-12-04-S1-commons.u52" text_id="ParlaMint-GR-en_2019-12-04-S1-commons" subcorpus="Reference" lang="English" body="Unicameralism" term="18" session="1" meeting="-" sitting="61" agenda="-" date="2019-12-04" title="Minutes of the assembly of the greek parliament, Term 18, session 1, sitting 61, 2019-12-04" speaker_role="Chairperson" topic="Macroeconomics" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="Athanasioy, Charalampos" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N.D." speaker_party_name="New Democracy" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg214" lang="English">
-<s id="ParlaMint-GR_2019-12-04-S1-commons.seg214.1">
+<s id="ParlaMint-GR_2019-12-04-S1-commons.seg214.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.968">
 With	With	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 consent	consent	consent	NOUN	Number=Sing	S7.4+,Q2.2	S7.4p	S7.4+: Allowed	t3

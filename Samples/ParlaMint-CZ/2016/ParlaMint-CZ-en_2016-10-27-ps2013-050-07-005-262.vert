@@ -1,18 +1,18 @@
 <note type="speaker" content="Vice-President of the PSP Jan Bartošek"/>
-<speech id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1" text_id="ParlaMint-CZ-en_2016-10-27-ps2013-050-07-005-262" subcorpus="Reference" lang="English" body="Lower house" term="ps2013" session="-" meeting="ps2013/050" sitting="ps2013/050/07" agenda="ps2013/050/262" date="2016-10-27" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-10-27" speaker_role="Chairperson" speaker_id="JanBartosek.1971" speaker_name="Bartošek, Jan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KDU-ČSL" speaker_party_name="Political Group of the Christian and Democratic Union - Czechoslovak People's Party" party_status="Coalition" party_orientation="Centre to centre-right" speaker_gender="M" speaker_birth="1971">
+<speech id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1" text_id="ParlaMint-CZ-en_2016-10-27-ps2013-050-07-005-262" subcorpus="Reference" lang="English" body="Lower house" term="ps2013" session="-" meeting="ps2013/050" sitting="ps2013/050/07" agenda="-" date="2016-10-27" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-10-27" speaker_role="Chairperson" topic="Other" speaker_id="JanBartosek.1971" speaker_name="Bartošek, Jan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KDU-ČSL" speaker_party_name="Political Group of the Christian and Democratic Union - Czechoslovak People's Party" party_status="Coalition" party_orientation="Centre to centre-right" speaker_gender="M" speaker_birth="1971">
 <p id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1" lang="English">
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1.s1">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.274">
 262	262	262	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1.s2">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.716">
 Oral	Oral	oral	ADJ	Degree=Pos	B1,Q2.1	B1	B1: Anatomy and physiology	t1
 inhalation	inhalation	inhalation	NOUN	Number=Sing	B1,B3	B1	B1: Anatomy and physiology	t2
 </s>
 </p>
 <p id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p2" lang="English">
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p2.s1">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p2.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.350">
 intended	intended	intend	VERB	Tense=Past VerbForm=Part	X7+	X7p	X7+: Wanted	t1
 for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -37,7 +37,7 @@ Government	Government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t1
 </s>
 </p>
 <p id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3" lang="English">
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s1">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.332">
 For	For	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 starters	starters	starter	NOUN	Number=Plur	F1,O2,T2+,K5.1/S2mf	F1	F1: Food	t2
 <g/>
@@ -52,7 +52,7 @@ apologies	apologies	apology	NOUN	Number=Plur	Q2.2/S1.2.4+	Q2.2 S1.2.4p	Q2.2: Spe
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s2">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.878">
 <name type="PER">
 Zdeněk	Zdeněk	Zdeněk	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Soukup	Soukup	Soukup	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -82,7 +82,7 @@ on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t16
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s3">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s3" senti_3="Negative" senti_6="mixed negative" senti_n="1.312">
 Mrs	Mrs	Mrs	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t1
 <name type="PER">
 Berdychová	Berdychová	Berdychová	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t2
@@ -244,7 +244,7 @@ Marksová	Marksová	Marksová	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t126
 </s>
 </p>
 <p id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4" lang="English">
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4.s1">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.483">
 Today	Today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -304,7 +304,7 @@ government	government	government	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Ev
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t47
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4.s2">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.100">
 As	As	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 Prime	Prime	Prime	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
 Minister	Minister	Minister	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t3
@@ -349,7 +349,7 @@ Minister	Minister	Minister	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t32
 </s>
 </p>
 <p id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5" lang="English">
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5.s1">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.144">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 now	now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t2
 give	give	give	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9-,A1.1.1	A9n	A9-: Giving	t3
@@ -407,7 +407,7 @@ Marek	Marek	Marek	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t38
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t40
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5.s2">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5.s2" senti_3="Positive" senti_6="mixed positive" senti_n="3.802">
 Please	Please	please	INTJ	-	E4.2+,E2+,X7+	E4.2p	E4.2+: Content	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -421,9 +421,9 @@ Ambassador	Ambassador	Ambassador	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal name
 </p>
 </speech>
 <note type="speaker" content="Member Jiří Zlatuška"/>
-<speech id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2" text_id="ParlaMint-CZ-en_2016-10-27-ps2013-050-07-005-262" subcorpus="Reference" lang="English" body="Lower house" term="ps2013" session="-" meeting="ps2013/050" sitting="ps2013/050/07" agenda="ps2013/050/262" date="2016-10-27" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-10-27" speaker_role="Regular" speaker_id="JiriZlatuska.1957" speaker_name="Zlatuška, Jiří" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ANO" speaker_party_name="Political group ANO 2011" party_status="Coalition" party_orientation="Centre to centre-right" speaker_gender="M" speaker_birth="1957">
+<speech id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2" text_id="ParlaMint-CZ-en_2016-10-27-ps2013-050-07-005-262" subcorpus="Reference" lang="English" body="Lower house" term="ps2013" session="-" meeting="ps2013/050" sitting="ps2013/050/07" agenda="-" date="2016-10-27" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-10-27" speaker_role="Regular" topic="Other" speaker_id="JiriZlatuska.1957" speaker_name="Zlatuška, Jiří" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ANO" speaker_party_name="Political group ANO 2011" party_status="Coalition" party_orientation="Centre to centre-right" speaker_gender="M" speaker_birth="1957">
 <p id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1" lang="English">
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s1">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s1" senti_3="Negative" senti_6="negative" senti_n="0.185">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 wanted	wanted	want	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	X7+,S6+,A7+,G2.1-,S3.2,A9-	X7p	X7+: Wanted	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -505,7 +505,7 @@ wrong	wrong	wrong	ADJ	Degree=Pos	A5.3-,A5.1-,G2.2-,B2-	A5.3n	A5.3-: Evaluation: 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t60
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s2">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s2" senti_3="Negative" senti_6="negative" senti_n="0.035">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -618,7 +618,7 @@ Bohemia	Bohemia	Bohemia	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t84
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t85
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s3">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s3" senti_3="Negative" senti_6="negative" senti_n="0.046">
 This	This	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 contradiction	contradiction	contradiction	NOUN	Number=Sing	A6.1-	A6.1n	A6.1-: Comparing: Different	t2
 <g/>
@@ -693,7 +693,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: P
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t61
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s4">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s4" senti_3="Negative" senti_6="negative" senti_n="0.413">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 if	if	if	SCONJ	-	Z7	Z7	Z7: If	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -733,7 +733,7 @@ occasion	occasion	occasion	NOUN	Number=Sing	T1.2,S1.1.1	T1.2	T1.2: Time: Momenta
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s5">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s5" senti_3="Positive" senti_6="positive" senti_n="4.655">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -744,9 +744,9 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157" text_id="ParlaMint-CZ-en_2016-10-27-ps2013-050-07-005-262" subcorpus="Reference" lang="English" body="Lower house" term="ps2013" session="-" meeting="ps2013/050" sitting="ps2013/050/07" agenda="ps2013/050/262" date="2016-10-27" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-10-27" speaker_role="Regular" speaker_id="PetrBendl.1966" speaker_name="Bendl, Petr" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ODS" speaker_party_name="Political group Civic Democratic Party" party_status="Opposition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1966">
+<speech id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157" text_id="ParlaMint-CZ-en_2016-10-27-ps2013-050-07-005-262" subcorpus="Reference" lang="English" body="Lower house" term="ps2013" session="-" meeting="ps2013/050" sitting="ps2013/050/07" agenda="-" date="2016-10-27" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-10-27" speaker_role="Regular" topic="Mix" speaker_id="PetrBendl.1966" speaker_name="Bendl, Petr" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ODS" speaker_party_name="Political group Civic Democratic Party" party_status="Opposition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1966">
 <p id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1" lang="English">
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s1">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.263">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -760,7 +760,7 @@ President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t5
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s2">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.195">
 My	My	my	PRON	Number=Sing Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 question	question	question	NOUN	Number=Sing	Q2.2,X4.1	Q2.2	Q2.2: Speech acts	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -768,7 +768,7 @@ simple	simple	simple	ADJ	Degree=Pos	A12+,A6.2+,O4.1,X9.1-	A12p	A12+: Easy	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s3">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.046">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 am	am	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 interested	interested	interested	ADJ	Degree=Pos	X5.2+,S1.1.3+	X5.2p	X5.2+: Interested/excited/energetic	t3
@@ -801,7 +801,7 @@ to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t22
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s4">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.152">
 Therefore	Therefore	therefore	ADV	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -844,7 +844,7 @@ to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t27
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s5">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s5" senti_3="Neutral" senti_6="neutral negative" senti_n="2.207">
 How	How	how	ADV	PronType=Int	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 much	much	much	ADJ	Degree=Pos	N5+,I1.3+	N5p	N5+: Quantities: many/much	t2
 has	has	have	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -864,7 +864,7 @@ contracted	contracted	contract	VERB	Tense=Past VerbForm=Part Voice=Pass	Q2.2,N3.
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s6">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s6" senti_3="Neutral" senti_6="neutral negative" senti_n="2.300">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t2
 wonder	wonder	wonder	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	X2.1	X2.1	X2.1: Thought, belief	t3
@@ -934,7 +934,7 @@ planned	planned	plan	VERB	Tense=Past VerbForm=Part	X7+	X7p	X7+: Wanted	t57
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t58
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s7">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s7" senti_3="Positive" senti_6="mixed positive" senti_n="4.201">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -948,9 +948,9 @@ answer	answer	answer	NOUN	Number=Sing	Q2.2,X4.1,X9.2+	Q2.2	Q2.2: Speech acts	t5
 </p>
 </speech>
 <note type="speaker" content="Vice-President of the PSP Petr Gazdík"/>
-<speech id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158" text_id="ParlaMint-CZ-en_2016-10-27-ps2013-050-07-005-262" subcorpus="Reference" lang="English" body="Lower house" term="ps2013" session="-" meeting="ps2013/050" sitting="ps2013/050/07" agenda="ps2013/050/262" date="2016-10-27" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-10-27" speaker_role="Chairperson" speaker_id="PetrGazdik.1974" speaker_name="Gazdík, Petr" speaker_mp="MP" speaker_minister="notMinister" speaker_party="TOP09-S" speaker_party_name="Political group TOP 09 a Starostové" party_status="Opposition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1974">
+<speech id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158" text_id="ParlaMint-CZ-en_2016-10-27-ps2013-050-07-005-262" subcorpus="Reference" lang="English" body="Lower house" term="ps2013" session="-" meeting="ps2013/050" sitting="ps2013/050/07" agenda="-" date="2016-10-27" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-10-27" speaker_role="Chairperson" topic="Other" speaker_id="PetrGazdik.1974" speaker_name="Gazdík, Petr" speaker_mp="MP" speaker_minister="notMinister" speaker_party="TOP09-S" speaker_party_name="Political group TOP 09 a Starostové" party_status="Opposition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1974">
 <p id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1" lang="English">
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s1">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s1" senti_3="Positive" senti_6="positive" senti_n="4.655">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -958,7 +958,7 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s2">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s2" senti_3="Negative" senti_6="mixed negative" senti_n="0.942">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 apologise	apologise	apologise	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2/S1.2.4+	Q2.2 S1.2.4p	Q2.2: Speech acts|S1.2.4+: Polite	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1032,7 +1032,7 @@ programme	programme	programme	NOUN	Number=Sing	X7+,Q4.3,Q1.2,Y2,P1	X7p	X7+: Want
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t58
 </s>
-<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s3">
+<s id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s3" senti_3="Positive" senti_6="positive" senti_n="4.891">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2

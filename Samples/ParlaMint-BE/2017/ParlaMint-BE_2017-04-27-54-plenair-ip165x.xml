@@ -13,9 +13,17 @@
                <resp xml:lang="nl">Datavergaring en conversie naar TEI</resp>
                <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="nl">De Europese Commissie</orgName>
@@ -27,7 +35,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="173" xml:lang="en">173 speeches</measure>
@@ -43,7 +51,7 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="nl">Deze bestanden zijn beschikbaar volgens de <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
@@ -51,7 +59,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-13">2025-06-13</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -92,8 +100,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-13">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-13">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
          <change when="2021-02-15">
             <name>Henk van der Pol</name>: initial version.</change>
       </revisionDesc>
@@ -104,7 +114,7 @@
             <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note1">De vergadering wordt geopend om 14.18 uur en voorgezeten door Siegfried Bracke.</note>
             <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note2">La séance est ouverte à 14.18 heures et présidée par M. Siegfried Bracke.</note>
             <note type="speaker" xml:lang="nl" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note3">De voorzitter:</note>
-            <u ana="#chair" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u1" who="#BrackeSiegfried" xml:lang="nl">
+            <u ana="#chair topic:other" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u1" who="#BrackeSiegfried" xml:lang="nl">
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1" xml:lang="nl">De vergadering is geopend.</seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg2" xml:lang="fr">La séance est ouverte.</seg>
             </u>
@@ -158,7 +168,7 @@
             <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note51">- Mme Annemie Turtelboom au premier ministre sur "l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies" (n° P2001)</note>
             <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note52">- Mme Catherine Fonck au premier ministre sur "l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies" (n° P2002)</note>
             <note type="speaker" xml:lang="nl" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note53">01.01 Wouter De Vriendt (Ecolo-Groen):</note>
-            <u ana="#regular" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u2" who="#DeVriendtWouter" xml:lang="nl">
+            <u ana="#regular topic:civil" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u2" who="#DeVriendtWouter" xml:lang="nl">
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg3" xml:lang="nl">Mijnheer de eerste minister, ik heb gisteren gevraagd wat het stemgedrag was van de Belgische regering over de kandidatuur van Saudi-Arabië voor de VN-vrouwencommissie. Dat is het orgaan dat wereldwijd de vrouwenrechten verdedigt. Didier Reynders en Alexander De Croo hebben het zitje van Saudi-Arabië in die commissie verdedigd.</seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg4" xml:lang="nl">In Saudi-Arabië worden vrouwen echter systematisch gediscrimineerd. Zonder toestemming van hun mannelijke voogd mogen zij niet studeren, reizen, werken of trouwen. Vrouwen mogen niet autorijden en als zij verkracht worden, dreigen zij te worden gestenigd in plaats van beschermd.</seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg5" xml:lang="nl">Alexander De Croo en Didier Reynders verdedigen het onverdedigbare.</seg>
@@ -170,7 +180,7 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u ana="#chair" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u172" who="#BrackeSiegfried" xml:lang="nl">
+            <u ana="#chair topic:other" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u172" who="#BrackeSiegfried" xml:lang="nl">
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1175" xml:lang="nl">Vraagt iemand het woord voor een stemverklaring?</seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1176" xml:lang="fr">Quelqu'un demande-t-il la parole pour une déclaration avant le vote?</seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1177" xml:lang="nl">Begin van de stemming /</seg>
@@ -200,7 +210,7 @@
             </u>
             <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note338">28 Goedkeuring van de agenda</note>
             <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.note339">28 Adoption de l’ordre du jour</note>
-            <u ana="#chair" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u173" who="#BrackeSiegfried" xml:lang="nl">
+            <u ana="#chair topic:defen" xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u173" who="#BrackeSiegfried" xml:lang="nl">
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1201" xml:lang="nl">Wij moeten overgaan tot de goedkeuring van de agenda voor de vergadering van donderdag 4 mei 2017.</seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1202" xml:lang="fr">Nous devons procéder à l’approbation de l’ordre du jour de la séance du jeudi 4 mai 2017.</seg>
                <seg xml:id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1203" xml:lang="nl">Ik stel u voor de bespreking van het wetsontwerp houdende de militaire programmering van investeringen voor de periode 2016-2030 (2137/1-6) te verdagen naar de plenaire vergadering van 11 mei 2017.</seg>

@@ -1,7 +1,7 @@
 <note type="head" content="INCLUSIÓN EN EL ORDEN DEL DÍA - SOLICITUD DE PRÓRROGA DE SUBCOMISIONES: - SOLICITUD DE LA COMISIÓN DE EMPLEO Y SEGURIDAD SOCIAL, PARA QUE SE CONCEDA UNA PRÓRROGA, DE OCHO MESES, DEL PLAZO OTORGADO A LA SUBCOMISIÓN PARA EL ESTUDIO DE LA REFORMA DEL RÉGIMEN ESPECIAL DE TRABAJADORES POR CUENTA PROPIA O AUTÓNOMOS , PARA LA EMISIÓN DE SU INFORME."/>
-<speech id="ParlaMint-ES_2017-11-28-CD171128.u1" text_id="ParlaMint-ES_2017-11-28-CD171128" subcorpus="Referencia" lang="Español" body="Cámara Baja" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Sesión plenaria núm. 90 (2017-11-28)" speaker_role="Presidencia" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
+<speech id="ParlaMint-ES_2017-11-28-CD171128.u1" text_id="ParlaMint-ES_2017-11-28-CD171128" subcorpus="Referencia" lang="Español" body="Cámara Baja" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Sesión plenaria núm. 90 (2017-11-28)" speaker_role="Presidencia" topic="Otros" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2017-11-28-CD171128.u1.p1" lang="Español">
-<s id="ParlaMint-ES_2017-11-28-CD171128.u1.p1.s1">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u1.p1.s1" senti_3="Positivo" senti_6="positivo mixto" senti_n="3.670">
 Se	Se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	w1	expl:pass	abrir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2
 abre	abre	abrir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w3	det	sesión	NOUN	Gender=Fem Number=Sing	w4
@@ -11,7 +11,7 @@ sesión	sesión	sesión	NOUN	Gender=Fem Number=Sing	w4	nsubj	abrir	VERB	Mood=Ind
 </s>
 </p>
 <p id="ParlaMint-ES_2017-11-28-CD171128.u1.p2" lang="Español">
-<s id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s1">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.601">
 De	De	de	ADP	-	w1	case	dispuesto	ADJ	Gender=Masc Number=Sing VerbForm=Part	w5
 conformidad	conformidad	conformidad	NOUN	-	w2	fixed	de	ADP	-	w1
 con	con	con	ADP	-	w3	fixed	de	ADP	-	w1
@@ -123,7 +123,7 @@ informe	informe	informe	NOUN	Gender=Masc Number=Sing	w105	nmod	emisión	NOUN	Gen
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w106	punct	someter	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w27
 </s>
-<s id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s2">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s2" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.924">
 ¿	¿	¿	PUNCT	PunctSide=Ini PunctType=Qest	w1	punct	acordar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 <g/>
 Lo	Lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	w2	obj	acordar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
@@ -137,7 +137,7 @@ Cámara	Cámara	Cámara	PROPN	-	w6	nsubj	acordar	VERB	Mood=Ind Number=Sing Perso
 ?	?	?	PUNCT	PunctSide=Fin PunctType=Qest	w7	punct	acordar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 </s>
 <note type="kinesic:gesture" content="Asentimiento"/>
-<s id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s3">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s3" senti_3="Positivo" senti_6="positivo mixto" senti_n="3.976">
 En	En	en	ADP	-	w1	advmod	quedar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4
 consecuencia	consecuencia	consecuencia	NOUN	-	w2	fixed	en	ADP	-	w1
 <g/>
@@ -155,7 +155,7 @@ día	día	día	NOUN	Gender=Masc Number=Sing	w15	nmod	orden	NOUN	Gender=Masc Numb
 </s>
 </p>
 <p id="ParlaMint-ES_2017-11-28-CD171128.u1.p3" lang="Español">
-<s id="ParlaMint-ES_2017-11-28-CD171128.u1.p3.s1">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u1.p3.s1" senti_3="Neutro" senti_6="neutro negativo" senti_n="2.061">
 Por	Por	por	ADP	-	w1	advmod	informar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w6
 otra	otra	otra	NOUN	-	w2	fixed	por	ADP	-	w1
 parte	parte	parte	NOUN	-	w3	fixed	por	ADP	-	w1
@@ -217,9 +217,9 @@ jueves	jueves	jueves	NOUN	AdvType=Tim	w54	nmod	sesión	NOUN	Gender=Fem Number=Si
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO CONFEDERAL DE UNIDOS PODEMOS-EN COMÚ PODEM-EN MAREA, REGULADORA DE LAS PRÁCTICAS ACADÉMICAS UNIVERSITARIAS EXTERNAS."/>
-<speech id="ParlaMint-ES_2017-11-28-CD171128.u2" text_id="ParlaMint-ES_2017-11-28-CD171128" subcorpus="Referencia" lang="Español" body="Cámara Baja" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Sesión plenaria núm. 90 (2017-11-28)" speaker_role="Presidencia" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
+<speech id="ParlaMint-ES_2017-11-28-CD171128.u2" text_id="ParlaMint-ES_2017-11-28-CD171128" subcorpus="Referencia" lang="Español" body="Cámara Baja" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Sesión plenaria núm. 90 (2017-11-28)" speaker_role="Presidencia" topic="Educación" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2017-11-28-CD171128.u2.p1" lang="Español">
-<s id="ParlaMint-ES_2017-11-28-CD171128.u2.p1.s1">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u2.p1.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.772">
 Comenzamos	Comenzamos	comenzar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 ahora	ahora	ahora	ADV	-	w2	advmod	comenzar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w1
 <g/>
@@ -269,7 +269,7 @@ externas	externas	externo	ADJ	Gender=Fem Number=Plur	w47	amod	práctica	NOUN	Gen
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w48	punct	comenzar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w1
 </s>
-<s id="ParlaMint-ES_2017-11-28-CD171128.u2.p1.s2">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u2.p1.s2" senti_3="Neutro" senti_6="neutro positivo" senti_n="3.060">
 Para	Para	para	ADP	-	w1	case	presentación	NOUN	Gender=Fem Number=Sing	w3
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w2	det	presentación	NOUN	Gender=Fem Number=Sing	w3
 presentación	presentación	presentación	NOUN	Gender=Fem Number=Sing	w3	obl	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w8
@@ -300,9 +300,9 @@ Rodríguez	Rodríguez	Rodríguez	PROPN	-	w19	flat	Rodríguez	PROPN	-	w18
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES_2017-11-28-CD171128.u157" text_id="ParlaMint-ES_2017-11-28-CD171128" subcorpus="Referencia" lang="Español" body="Cámara Baja" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Sesión plenaria núm. 90 (2017-11-28)" speaker_role="Diputado/a" speaker_id="EvaGarcíaSempere" speaker_name="García Sempere, Eva" speaker_mp="MP" speaker_minister="notMinister" speaker_party="UP" speaker_party_name="Unidas Podemos" party_status="Opposition" party_orientation="Izquierda" speaker_gender="F" speaker_birth="1976">
+<speech id="ParlaMint-ES_2017-11-28-CD171128.u157" text_id="ParlaMint-ES_2017-11-28-CD171128" subcorpus="Referencia" lang="Español" body="Cámara Baja" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Sesión plenaria núm. 90 (2017-11-28)" speaker_role="Diputado/a" topic="Otros" speaker_id="EvaGarcíaSempere" speaker_name="García Sempere, Eva" speaker_mp="MP" speaker_minister="notMinister" speaker_party="UP" speaker_party_name="Unidas Podemos" party_status="Opposition" party_orientation="Izquierda" speaker_gender="F" speaker_birth="1976">
 <p id="ParlaMint-ES_2017-11-28-CD171128.u157.p1" lang="Español">
-<s id="ParlaMint-ES_2017-11-28-CD171128.u157.p1.s1">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u157.p1.s1" senti_3="Positivo" senti_6="positivo mixto" senti_n="4.451">
 Pues	Pues	pues	SCONJ	-	w1	mark	hacer	VERB	Mood=Ind Number=Plur Person=1 Tense=Fut VerbForm=Fin	w3
 la	la	él	PRON	Case=Acc Gender=Fem Number=Sing Person=3 PrepCase=Npr PronType=Prs	w2	obj	hacer	VERB	Mood=Ind Number=Plur Person=1 Tense=Fut VerbForm=Fin	w3
 haremos	haremos	hacer	VERB	Mood=Ind Number=Plur Person=1 Tense=Fut VerbForm=Fin	w3	root	-	-	-	-
@@ -312,9 +312,9 @@ llegar	llegar	llegar	VERB	VerbForm=Inf	w4	xcomp	hacer	VERB	Mood=Ind Number=Plur 
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2017-11-28-CD171128.u158" text_id="ParlaMint-ES_2017-11-28-CD171128" subcorpus="Referencia" lang="Español" body="Cámara Baja" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Sesión plenaria núm. 90 (2017-11-28)" speaker_role="Presidencia" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
+<speech id="ParlaMint-ES_2017-11-28-CD171128.u158" text_id="ParlaMint-ES_2017-11-28-CD171128" subcorpus="Referencia" lang="Español" body="Cámara Baja" term="Legislatura XII" session="Sesión plenaria núm. 90" meeting="-" sitting="2017-11-28" agenda="-" date="2017-11-28" title="Sesión plenaria núm. 90 (2017-11-28)" speaker_role="Presidencia" topic="Otros" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2017-11-28-CD171128.u158.p1" lang="Español">
-<s id="ParlaMint-ES_2017-11-28-CD171128.u158.p1.s1">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u158.p1.s1" senti_3="Positivo" senti_6="positivo" senti_n="4.807">
 Muchas	Muchas	mucho	DET	Gender=Fem Number=Plur NumType=Card PronType=Ind	w1	det	gracia	NOUN	Gender=Fem Number=Plur	w2
 gracias	gracias	gracia	NOUN	Gender=Fem Number=Plur	w2	root	-	-	-	-
 <g/>
@@ -322,7 +322,7 @@ gracias	gracias	gracia	NOUN	Gender=Fem Number=Plur	w2	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-ES_2017-11-28-CD171128.u158.p2" lang="Español">
-<s id="ParlaMint-ES_2017-11-28-CD171128.u158.p2.s1">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u158.p2.s1" senti_3="Neutro" senti_6="neutro negativo" senti_n="2.163">
 Se	Se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	w1	expl:pass	suspender	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2
 suspende	suspende	suspender	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w3	det	sesión	NOUN	Gender=Fem Number=Sing	w4
@@ -340,7 +340,7 @@ mañana	mañana	mañana	NOUN	Gender=Fem Number=Sing	w12	nmod	nueve	NOUN	Gender=F
 </s>
 </p>
 <p id="ParlaMint-ES_2017-11-28-CD171128.u158.p3" lang="Español">
-<s id="ParlaMint-ES_2017-11-28-CD171128.u158.p3.s1">
+<s id="ParlaMint-ES_2017-11-28-CD171128.u158.p3.s1" senti_3="Neutro" senti_6="neutro negativo" senti_n="2.140">
 Eran	Eran	ser	AUX	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	w1	cop	minuto	NOUN	Gender=Masc Number=Plur	w6
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	w2	det	minuto	NOUN	Gender=Masc Number=Plur	w6
 ocho	ocho	ocho	NUM	Number=Plur NumType=Card	w3	nummod	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	w2

@@ -37,9 +37,25 @@
                <persName>Maria del Mar Bonet Ramos</persName>
                <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="es">CLARIN infraestructura de investigación científica</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="es">Ministerio de Ciencia e Innovación</orgName>
@@ -47,7 +63,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="158" xml:lang="es">158 intervenciones</measure>
@@ -61,13 +77,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-16">2025-06-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -94,6 +110,7 @@
                <tagUsage gi="kinesic" occurs="94"/>
                <tagUsage gi="link" occurs="52201"/>
                <tagUsage gi="linkGrp" occurs="1679"/>
+               <tagUsage gi="measure" occurs="1679"/>
                <tagUsage gi="name" occurs="1563"/>
                <tagUsage gi="note" occurs="8"/>
                <tagUsage gi="pc" occurs="5324"/>
@@ -117,17 +134,20 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <head xml:id="ParlaMint-ES_2017-11-28-CD171128.ana.head1">INCLUSIÓN EN EL ORDEN DEL DÍA - SOLICITUD DE PRÓRROGA DE SUBCOMISIONES: - SOLICITUD DE LA COMISIÓN DE EMPLEO Y SEGURIDAD SOCIAL, PARA QUE SE CONCEDA UNA PRÓRROGA, DE OCHO MESES, DEL PLAZO OTORGADO A LA SUBCOMISIÓN PARA EL ESTUDIO DE LA REFORMA DEL RÉGIMEN ESPECIAL DE TRABAJADORES POR CUENTA PROPIA O AUTÓNOMOS , PARA LA EMISIÓN DE SU INFORME.</head>
-            <u xml:id="ParlaMint-ES_2017-11-28-CD171128.u1" ana="#chair">
+            <u xml:id="ParlaMint-ES_2017-11-28-CD171128.u1" ana="#chair topic:other">
                <seg xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p1">
                   <s xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p1.s1">
+                     <measure type="sentiment" quantity="3.670" ana="senti:mixpos" corresp="#ParlaMint-ES_2017-11-28-CD171128.u1.p1.s1"/>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p1.s1.w1" lemma="él" pos="PRON" msd="UPosTag=PRON|Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes">Se</w>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p1.s1.w2" lemma="abrir" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">abre</w>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p1.s1.w3" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
@@ -144,6 +164,7 @@
                </seg>
                <seg xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p2">
                   <s xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s1">
+                     <measure type="sentiment" quantity="2.601" ana="senti:neupos" corresp="#ParlaMint-ES_2017-11-28-CD171128.u1.p2.s1"/>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s1.w1" lemma="de" pos="ADP" msd="UPosTag=ADP">De</w>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s1.w2" lemma="conformidad" pos="NOUN" msd="UPosTag=NOUN">conformidad</w>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s1.w3" lemma="con" pos="ADP" msd="UPosTag=ADP">con</w>
@@ -351,6 +372,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s2">
+                     <measure type="sentiment" quantity="2.924" ana="senti:neupos" corresp="#ParlaMint-ES_2017-11-28-CD171128.u1.p2.s2"/>
 <pc xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s2.w1" pos="PUNCT" msd="UPosTag=PUNCT|PunctSide=Ini|PunctType=Qest" join="right">¿</pc>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s2.w2" lemma="él" pos="PRON" msd="UPosTag=PRON|Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs">Lo</w>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s2.w3" lemma="acordar" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">acuerda</w>
@@ -374,6 +396,7 @@
                      <desc>Asentimiento</desc>
                   </kinesic>
                   <s xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s3">
+                     <measure type="sentiment" quantity="3.976" ana="senti:mixpos" corresp="#ParlaMint-ES_2017-11-28-CD171128.u1.p2.s3"/>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s3.w1" lemma="en" pos="ADP" msd="UPosTag=ADP">En</w>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s3.w2" lemma="consecuencia" pos="NOUN" msd="UPosTag=NOUN" join="right">consecuencia</w>
 <pc xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p2.s3.w3" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
@@ -406,6 +429,7 @@
                </seg>
                <seg xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p3">
                   <s xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p3.s1">
+                     <measure type="sentiment" quantity="2.061" ana="senti:neuneg" corresp="#ParlaMint-ES_2017-11-28-CD171128.u1.p3.s1"/>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p3.s1.w1" lemma="por" pos="ADP" msd="UPosTag=ADP">Por</w>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p3.s1.w2" lemma="otra" pos="NOUN" msd="UPosTag=NOUN">otra</w>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u1.p3.s1.w3" lemma="parte" pos="NOUN" msd="UPosTag=NOUN" join="right">parte</w>
@@ -519,9 +543,10 @@
          </div>
          <div type="debateSection">
             <head xml:id="ParlaMint-ES_2017-11-28-CD171128.ana.head2">TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY - DEL GRUPO PARLAMENTARIO CONFEDERAL DE UNIDOS PODEMOS-EN COMÚ PODEM-EN MAREA, REGULADORA DE LAS PRÁCTICAS ACADÉMICAS UNIVERSITARIAS EXTERNAS.</head>
-            <u xml:id="ParlaMint-ES_2017-11-28-CD171128.u2" ana="#chair">
+            <u xml:id="ParlaMint-ES_2017-11-28-CD171128.u2" ana="#chair topic:educa">
                <seg xml:id="ParlaMint-ES_2017-11-28-CD171128.u2.p1">
                   <s xml:id="ParlaMint-ES_2017-11-28-CD171128.u2.p1.s1">
+                     <measure type="sentiment" quantity="2.772" ana="senti:neupos" corresp="#ParlaMint-ES_2017-11-28-CD171128.u2.p1.s1"/>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u2.p1.s1.w1" lemma="comenzar" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin">Comenzamos</w>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u2.p1.s1.w2" lemma="ahora" pos="ADV" msd="UPosTag=ADV" join="right">ahora</w>
 <pc xml:id="ParlaMint-ES_2017-11-28-CD171128.u2.p1.s1.w3" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
@@ -615,6 +640,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-ES_2017-11-28-CD171128.u2.p1.s2">
+                     <measure type="sentiment" quantity="3.060" ana="senti:neupos" corresp="#ParlaMint-ES_2017-11-28-CD171128.u2.p1.s2"/>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u2.p1.s2.w1" lemma="para" pos="ADP" msd="UPosTag=ADP">Para</w>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u2.p1.s2.w2" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u2.p1.s2.w3" lemma="presentación" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">presentación</w>
@@ -667,9 +693,10 @@
             </gap>
          </div>
          <div type="debateSection">
-            <u xml:id="ParlaMint-ES_2017-11-28-CD171128.u157" who="#EvaGarcíaSempere" ana="#regular">
+            <u xml:id="ParlaMint-ES_2017-11-28-CD171128.u157" who="#EvaGarcíaSempere" ana="#regular topic:other">
                <seg xml:id="ParlaMint-ES_2017-11-28-CD171128.u157.p1">
                   <s xml:id="ParlaMint-ES_2017-11-28-CD171128.u157.p1.s1">
+                     <measure type="sentiment" quantity="4.451" ana="senti:mixpos" corresp="#ParlaMint-ES_2017-11-28-CD171128.u157.p1.s1"/>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u157.p1.s1.w1" lemma="pues" pos="SCONJ" msd="UPosTag=SCONJ">Pues</w>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u157.p1.s1.w2" lemma="él" pos="PRON" msd="UPosTag=PRON|Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs">la</w>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u157.p1.s1.w3" lemma="hacer" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin">haremos</w>
@@ -685,9 +712,10 @@
                   </s>
                </seg>
             </u>
-            <u xml:id="ParlaMint-ES_2017-11-28-CD171128.u158" ana="#chair">
+            <u xml:id="ParlaMint-ES_2017-11-28-CD171128.u158" ana="#chair topic:other">
                <seg xml:id="ParlaMint-ES_2017-11-28-CD171128.u158.p1">
                   <s xml:id="ParlaMint-ES_2017-11-28-CD171128.u158.p1.s1">
+                     <measure type="sentiment" quantity="4.807" ana="senti:pospos" corresp="#ParlaMint-ES_2017-11-28-CD171128.u158.p1.s1"/>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u158.p1.s1.w1" lemma="mucho" pos="DET" msd="UPosTag=DET|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind">Muchas</w>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u158.p1.s1.w2" lemma="gracia" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Plur" join="right">gracias</w>
 <pc xml:id="ParlaMint-ES_2017-11-28-CD171128.u158.p1.s1.w3" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
@@ -700,6 +728,7 @@
                </seg>
                <seg xml:id="ParlaMint-ES_2017-11-28-CD171128.u158.p2">
                   <s xml:id="ParlaMint-ES_2017-11-28-CD171128.u158.p2.s1">
+                     <measure type="sentiment" quantity="2.163" ana="senti:neuneg" corresp="#ParlaMint-ES_2017-11-28-CD171128.u158.p2.s1"/>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u158.p2.s1.w1" lemma="él" pos="PRON" msd="UPosTag=PRON|Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes">Se</w>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u158.p2.s1.w2" lemma="suspender" pos="VERB" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">suspende</w>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u158.p2.s1.w3" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">la</w>
@@ -732,6 +761,7 @@
                </seg>
                <seg xml:id="ParlaMint-ES_2017-11-28-CD171128.u158.p3">
                   <s xml:id="ParlaMint-ES_2017-11-28-CD171128.u158.p3.s1">
+                     <measure type="sentiment" quantity="2.140" ana="senti:neuneg" corresp="#ParlaMint-ES_2017-11-28-CD171128.u158.p3.s1"/>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u158.p3.s1.w1" lemma="ser" pos="AUX" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin">Eran</w>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u158.p3.s1.w2" lemma="el" pos="DET" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Plur|PronType=Art">las</w>
 <w xml:id="ParlaMint-ES_2017-11-28-CD171128.u158.p3.s1.w3" lemma="ocho" pos="NUM" msd="UPosTag=NUM|Number=Plur|NumType=Card">ocho</w>

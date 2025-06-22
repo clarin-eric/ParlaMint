@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="nl" xml:id="ParlaMint-BE.ana">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="nl" xml:id="ParlaMint-BE.ana">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,9 +20,25 @@
                <resp xml:lang="nl">Taalkundige verrijking</resp>
                <resp xml:lang="en">Linguistic annotation</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="nl">de Europese Commissie</orgName>
@@ -34,7 +50,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="199305" xml:lang="en">199,305 speeches</measure>
@@ -48,7 +64,7 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="nl">Deze bestanden zijn beschikbaar volgens de <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
@@ -56,7 +72,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-13">2025-06-13</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -108,6 +124,7 @@
                <tagUsage gi="kinesic" occurs="388"/>
                <tagUsage gi="link" occurs="49898904"/>
                <tagUsage gi="linkGrp" occurs="2486181"/>
+               <tagUsage gi="measure" occurs="2486181"/>
                <tagUsage gi="name" occurs="1248655"/>
                <tagUsage gi="note" occurs="508639"/>
                <tagUsage gi="pc" occurs="4753089"/>
@@ -120,15 +137,17 @@
             </namespace>
          </tagsDecl>
          <classDecl>
-            <xi:include href="ParlaMint-taxonomy-parla.legislature.xml"/>
-            <xi:include href="ParlaMint-taxonomy-speaker_types.xml"/>
-            <xi:include href="ParlaMint-BE-taxonomy-speaker_types.xml"/>
-            <xi:include href="ParlaMint-taxonomy-politicalOrientation.xml"/>
-            <xi:include href="ParlaMint-taxonomy-subcorpus.xml"/>
-            <xi:include href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
-            <xi:include href="ParlaMint-taxonomy-NER.ana.xml"/>
-            <xi:include href="ParlaMint-BE-taxonomy-chn_pos_tagging.ana.xml"/>
-            <xi:include href="ParlaMint-taxonomy-CHES.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-BE-taxonomy-speaker_types.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-politicalOrientation.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-NER.ana.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-BE-taxonomy-chn_pos_tagging.ana.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-CHES.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-topic.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-sentiment.ana.xml"/>
          </classDecl>
          <listPrefixDef>
             <prefixDef ident="chn" matchPattern="(.+)" replacementPattern="#$1">
@@ -136,6 +155,12 @@
             </prefixDef>
             <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
                <p>Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+            <prefixDef ident="topic" matchPattern="(.+)" replacementPattern="#$1">
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the Topic taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+            <prefixDef ident="senti" matchPattern="(.+)" replacementPattern="#$1">
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the Sentiment taxonomy categories in the corpus root TEI header.</p>
             </prefixDef>
          </listPrefixDef>
          <appInfo>
@@ -158,6 +183,14 @@
                <desc xml:lang="en">Trankit is a light-weight Transformer-based Python Toolkit for multilingual Natural Language Processing (NLP). It provides a trainable pipeline for fundamental NLP tasks over 100 languages, and 90 downloadable pretrained pipelines for 56 languages. Available from <ref target="https://github.com/nlp-uoregon/trankit">https://github.com/nlp-uoregon/trankit</ref>
                </desc>
             </application>
+            <application ident="parlacap" version="1.0">
+               <label>ParlaCAP</label>
+               <desc>Automatic annotation with <ref target="https://www.comparativeagendas.net/pages/master-codebook">CAP (Comparative Agendas Project)</ref> major topic labels, produced with the multilingual ParlaCAP classifier, available from <ref target="https://huggingface.co/classla/ParlaCAP-Topic-Classifier">https://huggingface.co/classla/ParlaCAP-Topic-Classifier</ref>.</desc>
+            </application>
+            <application ident="parlasent" version="1.0">
+               <label>ParlaSent</label>
+               <desc>Automatic annotation of sentence-level sentiment, produced with the multilingual ParlaSent classifier, available from <ref target="https://huggingface.co/classla/xlm-r-parlasent">https://huggingface.co/classla/xlm-r-parlasent</ref>.</desc>
+            </application>
          </appInfo>
       </encodingDesc>
       <profileDesc>
@@ -172,8 +205,8 @@
             <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.bi #parla.lower #parla.committee"/>
          </textClass>
          <particDesc>
-            <xi:include href="ParlaMint-BE-listOrg.xml"/>
-            <xi:include href="ParlaMint-BE-listPerson.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-BE-listOrg.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-BE-listPerson.xml"/>
          </particDesc>
          <langUsage>
             <language xml:lang="en" ident="und">Undetermined</language>
@@ -189,12 +222,16 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-13">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-13">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2025-06-13">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
+         <change when="2025-06-13">parlamint-add-common-content script: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
-   <xi:include href="2017/ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.xml"/>
-   <xi:include href="2020/ParlaMint-BE_2020-06-17-55-commissie-ic210x.ana.xml"/>
-   <xi:include href="2022/ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BE_2017-04-27-54-plenair-ip165x.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BE_2020-06-17-55-commissie-ic210x.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.ana.xml"/>
 </teiCorpus>
 

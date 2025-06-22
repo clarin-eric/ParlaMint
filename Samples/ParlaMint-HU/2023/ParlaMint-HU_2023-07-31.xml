@@ -22,9 +22,17 @@
                <resp xml:lang="hu">Metaadatok gyűjtése és rendszerezése</resp>
                <resp xml:lang="en">Metadata collection and organizing</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="hu">CLARIN Kutatási Infrastruktúra</orgName>
                <orgName xml:lang="en">CLARIN Research Infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="hu">Nyelvtudományi Kutatóközpont</orgName>
@@ -32,7 +40,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure xml:lang="hu" quantity="19" unit="speeches">19 beszéd</measure>
@@ -46,7 +54,7 @@
                <orgName xml:lang="en">CLARIN research infrastucture</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="hu">Ez a munka az alábbi licensz alapján használható: <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
@@ -54,7 +62,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-16">2025-06-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -101,15 +109,17 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war">
       <body>
          <div type="debateSection">
             <note type="speaker" xml:id="ParlaMint-HU_2023-07-31.note1">ELNÖK</note>
-            <u xml:id="u2023-07-31-0" who="#LatorcaiJanos" ana="#chair">
+            <u xml:id="u2023-07-31-0" who="#LatorcaiJanos" ana="#chair topic:mixed">
                <kinesic xml:id="ParlaMint-HU_2023-07-31.kinesic1">
                   <desc>A teremben lévők felállnak, és ezzel köszöntik a választópolgárok közösségét. Amikor az ülést vezető elnök helyet foglal, a teremben lévők is leülnek.</desc>
                </kinesic>
@@ -118,7 +128,7 @@
                <seg xml:id="u2023-07-31-0.3">Tisztelt Ház! Tisztelt Képviselőtársaim! Most a napirend előtti felszólalások következnek. Napirend előtti felszólalásra jelentkezett az LMP képviselőcsoportjából Kanász-Nagy Máté képviselő úr. Parancsoljon, öné a szó.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-HU_2023-07-31.note2">KANÁSZ-NAGY MÁTÉ (LMP)</note>
-            <u xml:id="u2023-07-31-1" who="#KanaszNagyMate" ana="#regular">
+            <u xml:id="u2023-07-31-1" who="#KanaszNagyMate" ana="#regular topic:energ">
                <seg xml:id="u2023-07-31-1.1">Köszönöm a szót. Tisztelt Elnök Úr! Először is szomorúan állapíthatjuk meg nem először , hogy a kormánypárti képviselők, de a kormány tagjai is ennyire veszik komolyan a parlament működését. Úgy látszik, hogy nem tisztelik meg azzal a Ház tekintélyét és működését, hogy megjelenjenek ezen az ülésen, pedig valóban fontos témákat tárgyaltunk volna.</seg>
                <seg xml:id="u2023-07-31-1.2">Napirend előtt szintén egy fontos témáról szeretnék beszélni, ugyanis nyáron is folytatódik a kormány legfőbb politikája, hogy akkumulátorgyarmattá tegyék Magyarországot. Nyáron is látjuk azt, hogy Szijjártó Péter folyamatosan Kínába repül, és minden egyes ilyen utazás után egy újabb és újabb akkumulátorgyárat hoz haza Magyarországra. Nyilvánvaló, hogy nem Szijjártó Péter és nem a magyar kormány dönti el ezeknek a beruházásoknak a sorsát, hanem gyakorlatilag Szijjártó Péter azért repül Kínába, hogy ott közöljék vele a kínai vezetők, cégvezetők, akkumulátorgyár-vezetők döntését. Kínában előbb értesülnek róla, hogy Magyarországon hol építenek akkumulátorgyárat vagy ilyen üzemet, mint a magyar kormány, pláne, mint az a lakosság, amely elszenvedi ezeknek a gyáraknak a működését és ezeket a beruházásokat.</seg>
                <seg xml:id="u2023-07-31-1.3">Már meg sem lepődünk azon, hogy a legújabb bejelentések kapcsán is azt látjuk, hogy a helyi lakosság feje fölött hozzák meg a döntéseket. Most Nyíregyházáról szólnak a hírek, illetve a legfrissebb hír, hogy Debrecenben is egy újabb akkumulátorgyártással kapcsolatos üzem létesül. Sem a debrecenieket, sem a nyíregyháziakat nem kérdezték meg erről. De nem kérdezték meg az ácsiakat, a gödieket, a komáromiakat, és számos más települést lehet mondani, Fót esetében, Szigetszentmiklós esetében, Bátonyterenye esetében senkit nem kérdeznek meg, hogy akarnake ilyen gyárat a közvetlen szomszédságukban.</seg>
@@ -134,7 +144,7 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u xml:id="u2023-07-31-17" who="#SzucsLajos" ana="#regular">
+            <u xml:id="u2023-07-31-17" who="#SzucsLajos" ana="#regular topic:other">
                <seg xml:id="u2023-07-31-17.1">„Kövér László úr, az Országgyűlés elnöke részére. Tisztelt Elnök Úr! Ellenzéki képviselők az Országgyűlésről szóló 2012. évi XXXVI. törvény 35. § (1) bekezdése alapján kezdeményezték az Országgyűlés rendkívüli ülésének összehívását a T/638. számú törvényjavaslat zárószavazása, valamint a H/4669. és a H/4703. számú határozati javaslat, a T/4695., a T/4293. és a T/4368. számú törvényjavaslat megtárgyalása érdekében.</seg>
                <seg xml:id="u2023-07-31-17.2">Ezúton tájékoztatjuk elnök urat, hogy a Fidesz-Magyar Polgári Szövetség országgyűlési képviselőcsoportja és a Kereszténydemokrata Néppárt országgyűlési képviselőcsoportja sem a Házbizottság 2023. július 27. napjára összehívott ülésén, sem az Országgyűlés 2023. július 31-i rendkívüli ülésén nem vesz részt.</seg>
                <seg xml:id="u2023-07-31-17.3">Az egyes házszabályi rendelkezésekről szóló 10/2014.</seg>
@@ -143,7 +153,7 @@
                <seg xml:id="u2023-07-31-17.5">Budapest, 2023. július 26. Tisztelettel, Kocsis Máté frakcióvezető, Fidesz-Magyar Polgári Szövetség országgyűlési képviselőcsoportja; dr. Simicskó István frakcióvezető, Kereszténydemokrata Néppárt országgyűlési képviselőcsoportja”</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-HU_2023-07-31.note26">ELNÖK</note>
-            <u xml:id="u2023-07-31-18" who="#LatorcaiJanos" ana="#chair">
+            <u xml:id="u2023-07-31-18" who="#LatorcaiJanos" ana="#chair topic:other">
                <seg xml:id="u2023-07-31-18.1">Köszönöm szépen, jegyző úr. Tisztelt Ház! Soron következik ma kezdődő ülésünk napirendjének megállapítása. A napirendre, az ülés időtartamára, a felszólalási időkeretekre az elnöki jogkörben előterjesztett javaslat alapján döntünk.</seg>
                <seg xml:id="u2023-07-31-18.2">Először a napirend módosítására tett indítványról döntünk. A Mi Hazánk képviselőcsoportja azt javasolta, hogy az Országgyűlés július 31-ei ülésének napirendi javaslata akként módosuljon, hogy a Svéd Királyságnak az Észak-atlanti Szerződéshez való csatlakozásáról szóló Jegyzőkönyv kihirdetéséről szóló T/638. indítvány zárószavazására ne kerüljön sor. Aki ezzel egyetért, kérem, kézfelemeléssel szavazzon!</seg>
                <note type="voting" xml:id="ParlaMint-HU_2023-07-31.note27">Szavazás.</note>

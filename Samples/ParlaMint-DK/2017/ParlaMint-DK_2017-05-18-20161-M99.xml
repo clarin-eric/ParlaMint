@@ -16,6 +16,10 @@
                <persName>Costanza Navarretta</persName>
                <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
@@ -27,7 +31,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="655" xml:lang="en">655 speeches</measure>
@@ -38,12 +42,12 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-14">2025-06-14</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -82,8 +86,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2024-07-02">
+         <change when="2025-06-14">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-16">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
          <change when="2021-01-29">
             <name>Dorte Haltrup Hansen</name>: Generated corpus in ParlaMint.</change>
       </revisionDesc>
@@ -93,10 +99,10 @@
          <div type="debateSection">
             <head xml:id="ParlaMint-DK_2017-05-18-20161-M99.head1">Punkt 0</head>
             <note type="agendaItem" xml:id="ParlaMint-DK_2017-05-18-20161-M99.note1">2017-05-18-0</note>
-            <u who="#KjærsgaardPia" xml:id="ParlaMint-DK_20170518100005" ana="#chair #domain.other">
+            <u who="#KjærsgaardPia" xml:id="ParlaMint-DK_20170518100005" ana="#chair #DK-domain.other topic:gover">
                <seg xml:id="ParlaMint-DK_20170518100005.seg1">Mødet er åbnet. I dag er der følgende anmeldelse: René Gade (ALT) m.fl.: Beslutningsforslag nr. B 154 (Forslag til folketingsbeslutning om nedsættelse af en undersøgelseskommission til undersøgelse af skatteskandalen). Titlen på den anmeldte sag vil fremgå af folketingstidende.dk (jf. ovenfor). Med samtykke fra forslagsstillerne foreslår jeg, at beslutningsforslaget henvises direkte til Udvalget for Forretningsordenen. Hvis ingen gør indsigelse, betragter jeg det som vedtaget. Det er vedtaget.</seg>
             </u>
-            <u who="#KjærsgaardPia" xml:id="ParlaMint-DK_20170518100049" ana="#chair #domain.other">
+            <u who="#KjærsgaardPia" xml:id="ParlaMint-DK_20170518100049" ana="#chair #DK-domain.other topic:other">
                <seg xml:id="ParlaMint-DK_20170518100049.seg2">Det punkt, som er opført som nr. 17 på dagsordenen, kan kun med Tingets samtykke behandles i dette møde. Hvis ingen gør indsigelse, betragter jeg samtykket som givet. Det er givet.</seg>
             </u>
             <gap reason="editorial">
@@ -104,14 +110,14 @@
             </gap>
          </div>
          <div type="debateSection">
-            <u who="#JuhlChristian" xml:id="ParlaMint-DK_20170518185027" ana="#chair #domain.Environment">
+            <u who="#JuhlChristian" xml:id="ParlaMint-DK_20170518185027" ana="#chair #DK-domain.Environment topic:mixed">
                <seg xml:id="ParlaMint-DK_20170518185027.seg654">Selv tak til hr. Rasmus Nordqvist. Der er ikke flere, der har bedt om ordet, så forhandlingerne er sluttet. Jeg foreslår, at forslaget henvises til Miljø- og Fødevareudvalget. Hvis ingen gør indsigelse, betragter jeg dette som vedtaget. Det er vedtaget.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head xml:id="ParlaMint-DK_2017-05-18-20161-M99.head26">Punkt 0</head>
             <note type="agendaItem" xml:id="ParlaMint-DK_2017-05-18-20161-M99.note26">2017-05-18-0</note>
-            <u who="#JuhlChristian" xml:id="ParlaMint-DK_20170518185041" ana="#chair #domain.other">
+            <u who="#JuhlChristian" xml:id="ParlaMint-DK_20170518185041" ana="#chair #DK-domain.other topic:macro">
                <seg xml:id="ParlaMint-DK_20170518185041.seg655">Så er der kun én ting tilbage, som Folketinget skal tage stilling til, nemlig at medlemmer af Folketinget, Lisbeth Bech Poulsen (SF) og Jacob Mark (SF), har meddelt mig, at de ønsker at tage følgende forslag tilbage: Forslag til folketingsbeslutning om stramninger at skattelovgivningen og straffelovgivningen vedrørende skattekonstruktioner i gråzoner m.v. B 111). Jeg skal spørge, om nogen ønsker at optage dette beslutningsforslag. Det er der ingen gør, og så er beslutningsforslaget bortfaldet. Så er der ikke mere at foretage i dette møde ud over at sige tak til alle for dagens indsats i folkestyrets tjeneste. Folketingets næste møde afholdes i morgen, fredag den 19. maj 2017, kl. 10.00. Jeg henviser til den dagsorden, der fremgår af Folketingets hjemmeside.</seg>
             </u>
          </div>

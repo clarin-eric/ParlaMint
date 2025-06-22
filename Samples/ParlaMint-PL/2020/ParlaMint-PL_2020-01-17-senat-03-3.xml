@@ -20,9 +20,17 @@
                <resp xml:lang="pl">Pobieranie danych i konwersja do TEI</resp>
                <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="pl">Infrastruktura naukowa CLARIN ERIC</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="pl">Komisja Europejska</orgName>
@@ -38,7 +46,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="224" xml:lang="pl">224 wypowiedzi</measure>
@@ -52,13 +60,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="pl">Ten utwór jest dostępny na <ref target="http://creativecommons.org/licenses/by/4.0/">międzynarodowej licencji Creative Commons Attribution 4.0</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-05-31">2025-05-31</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -103,8 +111,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2024-07-02">
+         <change when="2025-05-31">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-28">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
          <change when="2023-03-28">
             <name>Michał Rudolf</name>: Generated corpus in Parla-CLARIN.</change>
       </revisionDesc>
@@ -116,7 +126,7 @@
             <note type="time" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.note1">Wznowienie posiedzenia o godzinie 9 minut 31</note>
             <note type="debate" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.note2">Posiedzeniu przewodniczą marszałek Tomasz Grodzki oraz wicemarszałkowie Michał Kamiński, Bogdan Borusewicz i Gabriela Morawska-Stanecka</note>
             <note type="speaker" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.note3">Marszałek Tomasz Grodzki:</note>
-            <u who="#TomaszGrodzki" ana="#regular" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.u1">
+            <u who="#TomaszGrodzki" ana="#regular topic:other" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.u1">
                <seg xml:id="seg971932">Bardzo proszę o zajmowanie miejsc.</seg>
                <seg xml:id="seg971933">Wznawiam posiedzenie.</seg>
                <seg xml:id="seg971934">Szanowni Państwo Senatorowie, przed przystąpieniem do obrad pragnę poinformować państwa na temat pracy Senatu w dniu dzisiejszym, co chwilę wcześniej uzgodniliśmy w Konwencie Seniorów.</seg>
@@ -131,7 +141,7 @@
                <seg xml:id="seg971940">Proszę sprawozdawcę Komisji Ustawodawczej oraz Komisji Spraw Zagranicznych i Unii Europejskiej, pana senatora Marcina Bosackiego, o przedstawienie wspólnego sprawozdania komisji o projekcie uchwały.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.note4">Senator Sprawozdawca Marcin Bosacki:</note>
-            <u who="#MarcinBosacki" ana="#regular" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.u2">
+            <u who="#MarcinBosacki" ana="#regular topic:mixed" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.u2">
                <seg xml:id="seg971941">Dziękuję.</seg>
                <seg xml:id="seg971942">Panie Marszałku! Wysoka Izbo! Ekscelencjo, Ambasadorze Związku Australijskiego!</seg>
                <seg xml:id="seg971943">To ogromny honor przedstawiać projekt uchwały Senatu Rzeczypospolitej Polskiej wyrażającej solidarność z narodem australijskim w tej ogromnej tragedii.</seg>
@@ -154,7 +164,7 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#StanisławGawłowski" ana="#regular" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.u223">
+            <u who="#StanisławGawłowski" ana="#regular topic:inter" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.u223">
                <seg xml:id="seg973674">Panie Marszałku! Wysoka Izbo!</seg>
                <seg xml:id="seg973675">Nie mam zbyt wielkich doświadczeń w składaniu oświadczeń, więc to oświadczenie skieruję bezpośrednio do pana marszałka i do Kancelarii Senatu.</seg>
                <seg xml:id="seg973676">W tym oświadczeniu chcę nawiązać do słów przedmówcy, pana senatora Czerwińskiego, który opuścił już Wysoką Izbę.</seg>
@@ -164,7 +174,7 @@
                </kinesic>
             </u>
             <note type="speaker" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.note264">Marszałek Tomasz Grodzki:</note>
-            <u who="#TomaszGrodzki" ana="#regular" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.u224">
+            <u who="#TomaszGrodzki" ana="#regular topic:other" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.u224">
                <seg xml:id="seg973678">Dziękuję bardzo panu senatorowi.</seg>
                <seg xml:id="seg973679">Więcej oświadczeń nie ma.</seg>
                <seg xml:id="seg973680">Nie ma również komunikatów.</seg>

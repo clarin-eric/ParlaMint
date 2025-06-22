@@ -18,8 +18,24 @@
                <persName>José Aires</persName>
                <resp xml:lang="en">Data retrieval and TEI conversion</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="en">European Commission</orgName>
@@ -29,7 +45,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="58"/>
@@ -39,12 +55,12 @@
             <publisher>
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-20">2025-06-20</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -68,6 +84,7 @@
                <tagUsage gi="kinesic" occurs="13"/>
                <tagUsage gi="link" occurs="9755"/>
                <tagUsage gi="linkGrp" occurs="181"/>
+               <tagUsage gi="measure" occurs="181"/>
                <tagUsage gi="name" occurs="328"/>
                <tagUsage gi="note" occurs="9"/>
                <tagUsage gi="pc" occurs="1164"/>
@@ -91,8 +108,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-20">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-20">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war">
@@ -107,9 +126,10 @@
             <note type="summary" xml:id="ParlaMint-PT_2024-02-07.ana.note4">SUMÁRIO O Presidente declarou aberta a reunião às 15 horas e 4 minutos. De seguida, o Presidente procedeu à leitura das mensagens do Presidente da República sobre a devolução sem promulgação dos Decretos da Assembleia da República n.os 127/XV — Estabelece o quadro jurídico para a emissão das medidas administrativas a adotar pelas escolas para a implementação da Lei n.º 38/2018, de 7 de agosto, e procede à sua alteração e 132/XV — Modifica o regime de atribuição do nome próprio e de averbamentos aos assentos de nascimento e de casamento, alterando o Código do Registo Civil. Em declaração política, o Deputado Pedro Filipe Soares (BE) refletiu sobre o aumento dos lucros da banca em 2023, atribuindo-o à margem financeira dos bancos portugueses quando comparada com a média europeia. Em declaração política, a Deputada Joana Sá Pereira (PS) falou sobre os aumentos remuneratórios nas forças de segurança desde 2015 e alertou para a necessidade de os seus direitos de manifestação serem exercidos de acordo com a lei. Em declaração política, o Deputado Joaquim Miranda Sarmento (PSD) criticou o Governo pelo atual estado dos serviços públicos em geral, bem como pelas mais recentes manifestações de agricultores e forças de segurança. Em declaração política, o Deputado Pedro Pinto (CH) censurou a conduta do atual Secretário-Geral do PS, Pedro Nuno Santos, e de membros do atual Governo, tendo sublinhado a existência de esquemas de corrupção na política ao longo dos 50 anos de democracia. Em declaração política, a Deputada Joana Cordeiro (IL) apreciou negativamente a governação socialista e apelou a uma mudança de políticas no País, apresentando as medidas que o seu partido defende. Em declaração política, a Deputada Alma Rivera (PCP) defendeu a tomada de medidas que respondam ao agravamento dos défices estruturais resultantes da política de direita e incentivou ao voto no seu partido para que seja salvaguardada a defesa dos valores da justiça e da solidariedade. O Presidente encerrou a reunião eram 15 horas e 54 minutos.</note>
          </div>
          <div type="debateSection">
-            <u xml:id="ParlaMint-PT_2024-02-07.u1" who="#AugustoErnestoSantosSilva" ana="#chair">
+            <u xml:id="ParlaMint-PT_2024-02-07.u1" who="#AugustoErnestoSantosSilva" ana="#chair topic:educa">
                <seg xml:id="ParlaMint-PT_2024-02-07.seg1">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg1.s">
+                     <measure type="sentiment" quantity="4.068" ana="senti:mixpos" corresp="#ParlaMint-PT_2024-02-07.seg1.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg1.s.1" msd="UPosTag=ADV" lemma="muito">Muito</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg1.s.2" msd="UPosTag=ADJ|Gender=Fem|Number=Sing" lemma="bom">boa</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg1.s.3" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" lemma="tarde" join="right">tarde</w>
@@ -155,6 +175,7 @@
                <note type="time" xml:id="ParlaMint-PT_2024-02-07.ana.note5">Eram 15 horas e 4 minutos.</note>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg2">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg2.s">
+                     <measure type="sentiment" quantity="3.258" ana="senti:neupos" corresp="#ParlaMint-PT_2024-02-07.seg2.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg2.s.1" msd="UPosTag=PROPN" lemma="Solicito">Solicito</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg2.s.2">aos<w xml:id="ParlaMint-PT_2024-02-07.seg2.s.2.p" msd="UPosTag=ADP" norm="a" lemma="a"/><w xml:id="ParlaMint-PT_2024-02-07.seg2.s.2.s" msd="UPosTag=DET" norm="o" lemma="o"/></w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg2.s.3" msd="UPosTag=PROPN" lemma="Srs.">Srs.</w>
@@ -370,6 +391,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg3">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg3.s">
+                     <measure type="sentiment" quantity="2.926" ana="senti:neupos" corresp="#ParlaMint-PT_2024-02-07.seg3.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg3.s.1" msd="UPosTag=PROPN" lemma="Passo">Passo</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg3.s.2" msd="UPosTag=ADP" lemma="a">a</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg3.s.3" msd="UPosTag=VERB" lemma="ler">ler</w>
@@ -567,6 +589,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg4">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg4.s">
+                     <measure type="sentiment" quantity="2.206" ana="senti:neuneg" corresp="#ParlaMint-PT_2024-02-07.seg4.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg4.s.1" msd="UPosTag=NUM" lemma="2">2</w>
 <pc xml:id="ParlaMint-PT_2024-02-07.seg4.s.2" msd="UPosTag=PUNCT">.</pc>
 <w xml:id="ParlaMint-PT_2024-02-07.seg4.s.3" msd="UPosTag=ADV" lemma="com">Com</w>
@@ -647,6 +670,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg5">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg5.s">
+                     <measure type="sentiment" quantity="0.271" ana="senti:negneg" corresp="#ParlaMint-PT_2024-02-07.seg5.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg5.s.1" msd="UPosTag=ADV" lemma="diretamente">Diretamente</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg5.s.2" msd="UPosTag=ADJ|Gender=Masc|Number=Sing" lemma="ligar,ligado">ligado</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg5.s.3">à<w xml:id="ParlaMint-PT_2024-02-07.seg5.s.3.p" msd="UPosTag=ADP" norm="a" lemma="a"/><w xml:id="ParlaMint-PT_2024-02-07.seg5.s.3.s" msd="UPosTag=DET" norm="a" lemma="a"/></w>
@@ -818,6 +842,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg6">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg6.s">
+                     <measure type="sentiment" quantity="1.573" ana="senti:neuneg" corresp="#ParlaMint-PT_2024-02-07.seg6.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg6.s.1" msd="UPosTag=NUM" lemma="3">3</w>
 <pc xml:id="ParlaMint-PT_2024-02-07.seg6.s.2" msd="UPosTag=PUNCT">.</pc>
 <w xml:id="ParlaMint-PT_2024-02-07.seg6.s.3" msd="UPosTag=VERB|Person=3|Number=Sing" lemma="ser">É</w>
@@ -903,6 +928,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg7">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg7.s">
+                     <measure type="sentiment" quantity="2.491" ana="senti:neuneg" corresp="#ParlaMint-PT_2024-02-07.seg7.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg7.s.1" msd="UPosTag=ADV" lemma="ora" join="right">Ora</w>
 <pc xml:id="ParlaMint-PT_2024-02-07.seg7.s.2" msd="UPosTag=PUNCT">,</pc>
 <w xml:id="ParlaMint-PT_2024-02-07.seg7.s.3" msd="UPosTag=DET|Gender=Masc|Number=Sing" lemma="o">o</w>
@@ -982,6 +1008,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg8">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg8.s">
+                     <measure type="sentiment" quantity="2.092" ana="senti:neuneg" corresp="#ParlaMint-PT_2024-02-07.seg8.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg8.s.1" msd="UPosTag=NUM" lemma="4">4</w>
 <pc xml:id="ParlaMint-PT_2024-02-07.seg8.s.2" msd="UPosTag=PUNCT">.</pc>
 <w xml:id="ParlaMint-PT_2024-02-07.seg8.s.3" msd="UPosTag=CCONJ" lemma="mas">Mas</w>
@@ -1059,6 +1086,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg9">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg9.s">
+                     <measure type="sentiment" quantity="2.025" ana="senti:neuneg" corresp="#ParlaMint-PT_2024-02-07.seg9.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg9.s.1" msd="UPosTag=CCONJ" lemma="e" join="right">E</w>
 <pc xml:id="ParlaMint-PT_2024-02-07.seg9.s.2" msd="UPosTag=PUNCT">,</pc>
 <w xml:id="ParlaMint-PT_2024-02-07.seg9.s.3">neste<w xml:id="ParlaMint-PT_2024-02-07.seg9.s.3.p" msd="UPosTag=ADP" norm="em" lemma="em"/><w xml:id="ParlaMint-PT_2024-02-07.seg9.s.3.s" msd="UPosTag=DET" norm="este" lemma="este"/></w>
@@ -1147,6 +1175,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg10">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg10.s">
+                     <measure type="sentiment" quantity="0.222" ana="senti:negneg" corresp="#ParlaMint-PT_2024-02-07.seg10.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg10.s.1" msd="UPosTag=VERB" lemma="estar">Estando</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg10.s.2" msd="UPosTag=ADP" lemma="em">em</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg10.s.3" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" lemma="causa">causa</w>
@@ -1386,6 +1415,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg11">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg11.s">
+                     <measure type="sentiment" quantity="2.907" ana="senti:neupos" corresp="#ParlaMint-PT_2024-02-07.seg11.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg11.s.1" msd="UPosTag=VERB|Person=3|Number=Sing" lemma="notar">Note</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg11.s.2" msd="UPosTag=PRON|Person=3" lemma="-se" join="right">-se</w>
 <pc xml:id="ParlaMint-PT_2024-02-07.seg11.s.3" msd="UPosTag=PUNCT">,</pc>
@@ -1455,6 +1485,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg12">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg12.s">
+                     <measure type="sentiment" quantity="1.495" ana="senti:mixneg" corresp="#ParlaMint-PT_2024-02-07.seg12.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg12.s.1">No<w xml:id="ParlaMint-PT_2024-02-07.seg12.s.1.p" msd="UPosTag=ADP" norm="em" lemma="em"/><w xml:id="ParlaMint-PT_2024-02-07.seg12.s.1.s" msd="UPosTag=DET" norm="o" lemma="o"/></w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg12.s.2" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" lemma="mínimo" join="right">mínimo</w>
 <pc xml:id="ParlaMint-PT_2024-02-07.seg12.s.3" msd="UPosTag=PUNCT">,</pc>
@@ -1573,6 +1604,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg13">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg13.s">
+                     <measure type="sentiment" quantity="2.517" ana="senti:neupos" corresp="#ParlaMint-PT_2024-02-07.seg13.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg13.s.1">nestes<w xml:id="ParlaMint-PT_2024-02-07.seg13.s.1.p" msd="UPosTag=ADP" norm="em" lemma="em"/><w xml:id="ParlaMint-PT_2024-02-07.seg13.s.1.s" msd="UPosTag=DET" norm="este" lemma="este"/></w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg13.s.2" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" lemma="termo" join="right">termos</w>
 <pc xml:id="ParlaMint-PT_2024-02-07.seg13.s.3" msd="UPosTag=PUNCT">,</pc>
@@ -1747,6 +1779,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg14">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg14.s">
+                     <measure type="sentiment" quantity="3.994" ana="senti:mixpos" corresp="#ParlaMint-PT_2024-02-07.seg14.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg14.s.1" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" lemma="apresento">Apresento</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg14.s.2" msd="UPosTag=ADP" lemma="a">a</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg14.s.3" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" lemma="vossa">Vossa</w>
@@ -1799,6 +1832,7 @@
                <note type="pause" xml:id="ParlaMint-PT_2024-02-07.ana.note6">Pausa.</note>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg15">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg15.s">
+                     <measure type="sentiment" quantity="2.791" ana="senti:neupos" corresp="#ParlaMint-PT_2024-02-07.seg15.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg15.s.1" msd="UPosTag=PROPN" lemma="Passo">Passo</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg15.s.2" msd="UPosTag=ADV" lemma="agora">agora</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg15.s.3">ao<w xml:id="ParlaMint-PT_2024-02-07.seg15.s.3.p" msd="UPosTag=ADP" norm="a" lemma="a"/><w xml:id="ParlaMint-PT_2024-02-07.seg15.s.3.s" msd="UPosTag=DET" norm="o" lemma="o"/></w>
@@ -1960,6 +1994,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg16">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg16.s">
+                     <measure type="sentiment" quantity="3.544" ana="senti:mixpos" corresp="#ParlaMint-PT_2024-02-07.seg16.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg16.s.1" msd="UPosTag=PROPN" lemma="Passo">Passo</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg16.s.2" msd="UPosTag=ADP" lemma="a">a</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg16.s.3" msd="UPosTag=VERB" lemma="ler" join="right">ler</w>
@@ -2274,6 +2309,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg17">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg17.s">
+                     <measure type="sentiment" quantity="0.162" ana="senti:negneg" corresp="#ParlaMint-PT_2024-02-07.seg17.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg17.s.1" msd="UPosTag=DET|Gender=Masc|Number=Sing" lemma="o">O</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg17.s.2" msd="UPosTag=ADV" lemma="mesmo">mesmo</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg17.s.3" msd="UPosTag=PRON|Person=3" lemma="se">se</w>
@@ -2429,6 +2465,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg18">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg18.s">
+                     <measure type="sentiment" quantity="2.053" ana="senti:neuneg" corresp="#ParlaMint-PT_2024-02-07.seg18.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg18.s.1" msd="UPosTag=NUM" lemma="4">4</w>
 <pc xml:id="ParlaMint-PT_2024-02-07.seg18.s.2" msd="UPosTag=PUNCT">.</pc>
 <w xml:id="ParlaMint-PT_2024-02-07.seg18.s.3" msd="UPosTag=DET|Gender=Masc|Number=Plur" lemma="este">Estes</w>
@@ -2637,6 +2674,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg19">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg19.s">
+                     <measure type="sentiment" quantity="3.936" ana="senti:mixpos" corresp="#ParlaMint-PT_2024-02-07.seg19.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg19.s.1" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" lemma="apresento">Apresento</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg19.s.2" msd="UPosTag=ADP" lemma="a">a</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg19.s.3" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" lemma="vossa">Vossa</w>
@@ -2676,6 +2714,7 @@
                <note type="pause" xml:id="ParlaMint-PT_2024-02-07.ana.note7">Pausa.</note>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg20">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg20.s">
+                     <measure type="sentiment" quantity="2.917" ana="senti:neupos" corresp="#ParlaMint-PT_2024-02-07.seg20.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg20.s.1" msd="UPosTag=ADV" lemma="não">Não</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg20.s.2" msd="UPosTag=VERB" lemma="haver">havendo</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg20.s.3" msd="UPosTag=ADV" lemma="expediente" join="right">expediente</w>
@@ -2765,9 +2804,10 @@
                   </s>
                </seg>
             </u>
-            <u xml:id="ParlaMint-PT_2024-02-07.u2" who="#PedroFilipeGomesSoares" ana="#regular">
+            <u xml:id="ParlaMint-PT_2024-02-07.u2" who="#PedroFilipeGomesSoares" ana="#regular topic:domes">
                <seg xml:id="ParlaMint-PT_2024-02-07.seg21">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg21.s">
+                     <measure type="sentiment" quantity="1.908" ana="senti:neuneg" corresp="#ParlaMint-PT_2024-02-07.seg21.s"/>
                      <name type="PER">
 <w xml:id="ParlaMint-PT_2024-02-07.seg21.s.1" msd="UPosTag=PRON|Gender=Masc|Number=Sing" lemma="sr.">Sr.</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg21.s.2" msd="UPosTag=PROPN" lemma="Presidente">Presidente</w>
@@ -2919,6 +2959,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg22">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg22.s">
+                     <measure type="sentiment" quantity="3.972" ana="senti:mixpos" corresp="#ParlaMint-PT_2024-02-07.seg22.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg22.s.1" msd="UPosTag=DET|Gender=Masc|Number=Sing" lemma="o">O</w>
                      <name type="ORG">
 <w xml:id="ParlaMint-PT_2024-02-07.seg22.s.2" msd="UPosTag=PROPN" lemma="Santander">Santander</w>
@@ -3104,6 +3145,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg23">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg23.s">
+                     <measure type="sentiment" quantity="2.989" ana="senti:neupos" corresp="#ParlaMint-PT_2024-02-07.seg23.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg23.s.1" msd="UPosTag=VERB|Person=3|Number=Plur" lemma="ser">São</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg23.s.2" msd="UPosTag=NUM|Gender=Masc|Number=Plur" lemma="três">três</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg23.s.3">dos<w xml:id="ParlaMint-PT_2024-02-07.seg23.s.3.p" msd="UPosTag=ADP" norm="de" lemma="de"/><w xml:id="ParlaMint-PT_2024-02-07.seg23.s.3.s" msd="UPosTag=DET" norm="o" lemma="o"/></w>
@@ -3292,6 +3334,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg24">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg24.s">
+                     <measure type="sentiment" quantity="3.035" ana="senti:neupos" corresp="#ParlaMint-PT_2024-02-07.seg24.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg24.s.1" msd="UPosTag=VERB|Person=3|Number=Sing" lemma="prever">Prevê</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg24.s.2" msd="UPosTag=PRON|Person=3" lemma="-se" join="right">-se</w>
 <pc xml:id="ParlaMint-PT_2024-02-07.seg24.s.3" msd="UPosTag=PUNCT">,</pc>
@@ -3518,6 +3561,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg25">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg25.s">
+                     <measure type="sentiment" quantity="0.090" ana="senti:negneg" corresp="#ParlaMint-PT_2024-02-07.seg25.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg25.s.1" msd="UPosTag=ADV" lemma="não" join="right">Não</w>
 <pc xml:id="ParlaMint-PT_2024-02-07.seg25.s.2" msd="UPosTag=PUNCT">,</pc>
 <w xml:id="ParlaMint-PT_2024-02-07.seg25.s.3" msd="UPosTag=PRON|Gender=Masc|Number=Sing" lemma="nada">nada</w>
@@ -3615,6 +3659,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg26">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg26.s">
+                     <measure type="sentiment" quantity="1.296" ana="senti:mixneg" corresp="#ParlaMint-PT_2024-02-07.seg26.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg26.s.1" msd="UPosTag=ADV" lemma="então" join="right">Então</w>
 <pc xml:id="ParlaMint-PT_2024-02-07.seg26.s.2" msd="UPosTag=PUNCT">,</pc>
 <w xml:id="ParlaMint-PT_2024-02-07.seg26.s.3" msd="UPosTag=PRON|Number=Sing" lemma="qual">qual</w>
@@ -3831,6 +3876,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg27">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg27.s">
+                     <measure type="sentiment" quantity="0.255" ana="senti:negneg" corresp="#ParlaMint-PT_2024-02-07.seg27.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg27.s.1" msd="UPosTag=DET|Gender=Fem|Number=Sing" lemma="a">A</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg27.s.2" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" lemma="banca">banca</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg27.s.3" msd="UPosTag=ADJ|Gender=Fem|Number=Sing" lemma="português">portuguesa</w>
@@ -3988,6 +4034,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg28">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg28.s">
+                     <measure type="sentiment" quantity="0.334" ana="senti:negneg" corresp="#ParlaMint-PT_2024-02-07.seg28.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg28.s.1" msd="UPosTag=ADP" lemma="por">Por</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg28.s.2" msd="UPosTag=PRON|Gender=Masc|Number=Sing" lemma="isso" join="right">isso</w>
 <pc xml:id="ParlaMint-PT_2024-02-07.seg28.s.3" msd="UPosTag=PUNCT">,</pc>
@@ -4238,6 +4285,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg29">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg29.s">
+                     <measure type="sentiment" quantity="0.102" ana="senti:negneg" corresp="#ParlaMint-PT_2024-02-07.seg29.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg29.s.1" msd="UPosTag=VERB|Person=3|Number=Sing" lemma="ser">É</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg29.s.2" msd="UPosTag=DET|Gender=Masc|Number=Sing" lemma="um">um</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg29.s.3" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" lemma="abuso" join="right">abuso</w>
@@ -4317,6 +4365,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg30">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg30.s">
+                     <measure type="sentiment" quantity="0.280" ana="senti:negneg" corresp="#ParlaMint-PT_2024-02-07.seg30.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg30.s.1" msd="UPosTag=VERB|Person=3|Number=Sing" lemma="perguntar">Pergunta</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg30.s.2" msd="UPosTag=PRON|Person=3" lemma="-se">-se</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg30.s.3" msd="UPosTag=DET|Gender=Masc|Number=Sing" lemma="o">o</w>
@@ -4493,6 +4542,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg31">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg31.s">
+                     <measure type="sentiment" quantity="0.248" ana="senti:negneg" corresp="#ParlaMint-PT_2024-02-07.seg31.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg31.s.1" msd="UPosTag=ADV" lemma="não">Não</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg31.s.2" msd="UPosTag=ADV" lemma="por">por</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg31.s.3" msd="UPosTag=ADV" lemma="acaso" join="right">acaso</w>
@@ -4597,9 +4647,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u xml:id="ParlaMint-PT_2024-02-07.u57" who="#AlmaBenedettiCroceRivera" ana="#regular">
+            <u xml:id="ParlaMint-PT_2024-02-07.u57" who="#AlmaBenedettiCroceRivera" ana="#regular topic:macro">
                <seg xml:id="ParlaMint-PT_2024-02-07.seg175">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg175.s">
+                     <measure type="sentiment" quantity="0.307" ana="senti:negneg" corresp="#ParlaMint-PT_2024-02-07.seg175.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg175.s.1" msd="UPosTag=VERB|Person=3|Number=Sing" lemma="ser">É</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg175.s.2" msd="UPosTag=SCONJ" lemma="porque">porque</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg175.s.3">nisto<w xml:id="ParlaMint-PT_2024-02-07.seg175.s.3.p" msd="UPosTag=ADP" norm="em" lemma="em"/><w xml:id="ParlaMint-PT_2024-02-07.seg175.s.3.s" msd="UPosTag=PRON" norm="isto" lemma="isto"/></w>
@@ -4903,6 +4954,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg176">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg176.s">
+                     <measure type="sentiment" quantity="0.360" ana="senti:negneg" corresp="#ParlaMint-PT_2024-02-07.seg176.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg176.s.1" msd="UPosTag=DET|Gender=Masc|Number=Sing" lemma="o">O</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg176.s.2" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" lemma="país">País</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg176.s.3" msd="UPosTag=ADV" lemma="não">não</w>
@@ -5018,6 +5070,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg177">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg177.s">
+                     <measure type="sentiment" quantity="0.451" ana="senti:negneg" corresp="#ParlaMint-PT_2024-02-07.seg177.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg177.s.1" msd="UPosTag=DET|Gender=Masc|Number=Plur" lemma="muito">Muitos</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg177.s.2" msd="UPosTag=ADV" lemma="já">já</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg177.s.3" msd="UPosTag=VERB|Person=3|Number=Plur" lemma="perceber">perceberam</w>
@@ -5101,6 +5154,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg178">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg178.s">
+                     <measure type="sentiment" quantity="0.223" ana="senti:negneg" corresp="#ParlaMint-PT_2024-02-07.seg178.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg178.s.1" msd="UPosTag=DET|Gender=Masc|Number=Plur" lemma="muito">Muitos</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg178.s.2" msd="UPosTag=ADV" lemma="já">já</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg178.s.3" msd="UPosTag=VERB|Person=3|Number=Plur" lemma="perceber">perceberam</w>
@@ -5184,6 +5238,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg179">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg179.s">
+                     <measure type="sentiment" quantity="0.944" ana="senti:mixneg" corresp="#ParlaMint-PT_2024-02-07.seg179.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg179.s.1" msd="UPosTag=DET|Gender=Masc|Number=Plur" lemma="muito">Muitos</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg179.s.2" msd="UPosTag=VERB|Person=3|Number=Plur" lemma="deixar">deixarão</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg179.s.3" msd="UPosTag=ADP" lemma="de">de</w>
@@ -5311,6 +5366,7 @@
                </seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg180">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg180.s">
+                     <measure type="sentiment" quantity="1.461" ana="senti:mixneg" corresp="#ParlaMint-PT_2024-02-07.seg180.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg180.s.1" msd="UPosTag=ADP" lemma="perante">Perante</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg180.s.2" msd="UPosTag=DET|Gender=Fem|Number=Plur" lemma="a">as</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg180.s.3" msd="UPosTag=ADJ|Gender=Fem|Number=Plur" lemma="crescente">crescentes</w>
@@ -5464,9 +5520,10 @@
                   <desc>Aplausos do PCP.</desc>
                </kinesic>
             </u>
-            <u xml:id="ParlaMint-PT_2024-02-07.u58" who="#AugustoErnestoSantosSilva" ana="#chair">
+            <u xml:id="ParlaMint-PT_2024-02-07.u58" who="#AugustoErnestoSantosSilva" ana="#chair topic:other">
                <seg xml:id="ParlaMint-PT_2024-02-07.seg181">
                   <s xml:id="ParlaMint-PT_2024-02-07.seg181.s">
+                     <measure type="sentiment" quantity="3.203" ana="senti:neupos" corresp="#ParlaMint-PT_2024-02-07.seg181.s"/>
 <w xml:id="ParlaMint-PT_2024-02-07.seg181.s.1" msd="UPosTag=ADV" lemma="assim">Assim</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg181.s.2" msd="UPosTag=VERB|Person=1|Number=Plur" lemma="terminar">terminamos</w>
 <w xml:id="ParlaMint-PT_2024-02-07.seg181.s.3" msd="UPosTag=DET|Gender=Masc|Number=Sing" lemma="o">o</w>

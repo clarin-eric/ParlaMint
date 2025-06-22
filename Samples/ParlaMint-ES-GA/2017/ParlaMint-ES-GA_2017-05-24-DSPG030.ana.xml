@@ -17,9 +17,25 @@
                <persName>Elisa Fernández Rei</persName>
                <resp xml:lang="en">Data retrieval, TEI conversion and coordination</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="gl">Instituto da Lingua Galega, Universidade de Santiago de Compostela</orgName>
                <orgName xml:lang="en">Galician Language Institute, University of Santiago de Compostela</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="gl">Proxecto Nós: O galego na sociedade e economía da intelixencia artificial (2021-CP080), convenio entre a Xunta de Galicia e a Universidade de Santiago de Compostela</orgName>
@@ -31,7 +47,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="376"/>
@@ -41,12 +57,12 @@
             <publisher>
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-16">2025-06-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -69,6 +85,7 @@
                <tagUsage gi="kinesic" occurs="88"/>
                <tagUsage gi="link" occurs="61284"/>
                <tagUsage gi="linkGrp" occurs="2473"/>
+               <tagUsage gi="measure" occurs="2473"/>
                <tagUsage gi="name" occurs="2096"/>
                <tagUsage gi="note" occurs="552"/>
                <tagUsage gi="pb" occurs="1"/>
@@ -93,10 +110,12 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
          <change when="2023-03-30">
-            <name>Resp</name> : Made XML-TEI.ana.</change>
+            <name>Resp</name>: Made XML-TEI.ana.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
@@ -105,9 +124,10 @@
             <pb source="https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D100030.pdf"/>
             <note type="time" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.ana.note1">Retómase a sesión ás dez e dous minutos da mañá.</note>
             <note type="speaker" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.ana.note2">O señor PRESIDENTE:</note>
-            <u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.u1">
+            <u who="#SantalicesMiguelÁngel" ana="#chair topic:energ" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.u1">
                <seg xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1">
                   <s xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1.s1">
+                     <measure type="sentiment" quantity="4.283" ana="senti:mixpos" corresp="#ParlaMint-ES-GA_2017-05-24-DSPG030.seg1.s1"/>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1.s1.w1" lemma="bo" msd="UPosTag=ADJ">Bos</w>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1.s1.w2" lemma="día" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" join="right">días</w>
 <pc xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1.s1.w3" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
@@ -133,6 +153,7 @@
                </seg>
                <seg xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg2">
                   <s xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg2.s1">
+                     <measure type="sentiment" quantity="2.942" ana="senti:neupos" corresp="#ParlaMint-ES-GA_2017-05-24-DSPG030.seg2.s1"/>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg2.s1.w1" lemma="reiniciar" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres">Reiniciamos</w>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg2.s1.w2" lemma="o" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">a</w>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg2.s1.w3" lemma="sesión" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">sesión</w>
@@ -197,6 +218,7 @@
                </seg>
                <seg xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg3">
                   <s xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg3.s1">
+                     <measure type="sentiment" quantity="1.977" ana="senti:neuneg" corresp="#ParlaMint-ES-GA_2017-05-24-DSPG030.seg3.s1"/>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg3.s1.w1" lemma="preguntar" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres">Pregunta</w>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg3.s1.w2">ao<w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg3.s1.w2.t1" lemma="a" msd="UPosTag=ADP|AdpType=Prep" norm="a"/><w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg3.s1.w2.t2" lemma="o" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" norm="o"/></w>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg3.s1.w3" lemma="sr." msd="UPosTag=NOUN|Gender=Com">Sr.</w>
@@ -306,9 +328,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.ana.note3">O señor PRESIDENTE:</note>
-            <u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.u2">
+            <u who="#SantalicesMiguelÁngel" ana="#chair topic:other" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.u2">
                <seg xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg4">
                   <s xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg4.s1">
+                     <measure type="sentiment" quantity="3.325" ana="senti:neupos" corresp="#ParlaMint-ES-GA_2017-05-24-DSPG030.seg4.s1"/>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg4.s1.w1" lemma="ter" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres">Ten</w>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg4.s1.w2" lemma="o" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">a</w>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg4.s1.w3" lemma="palabra" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">palabra</w>
@@ -333,9 +356,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.u375">
+            <u who="#RivasJoséLuis" ana="#regular topic:other" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.u375">
                <seg xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1156">
                   <s xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1156.s1">
+                     <measure type="sentiment" quantity="3.022" ana="senti:neupos" corresp="#ParlaMint-ES-GA_2017-05-24-DSPG030.seg1156.s1"/>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1156.s1.w1" lemma="ser" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past">Foron</w>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1156.s1.w2" lemma="varios" msd="UPosTag=DET|Definite=Ind|Gender=Masc|Number=Plur|PronType=Art" join="right">varios</w>
 <pc xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1156.s1.w3" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
@@ -348,9 +372,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.ana.note548">O señor PRESIDENTE:</note>
-            <u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.u376">
+            <u who="#SantalicesMiguelÁngel" ana="#chair topic:other" xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.u376">
                <seg xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157">
                   <s xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s1">
+                     <measure type="sentiment" quantity="2.696" ana="senti:neupos" corresp="#ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s1"/>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s1.w1" lemma="non" msd="UPosTag=ADV|Polarity=Neg" join="right">Non</w>
 <pc xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s1.w2" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s1.w3" lemma="un" msd="UPosTag=DET|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art" join="right">un</w>
@@ -363,6 +388,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s2">
+                     <measure type="sentiment" quantity="2.112" ana="senti:neuneg" corresp="#ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s2"/>
                      <note xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.ana.note549">Murmurios.</note>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s2.w1" lemma="non" msd="UPosTag=ADV|Polarity=Neg" join="right">Non</w>
 <pc xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s2.w2" msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
@@ -380,6 +406,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s3">
+                     <measure type="sentiment" quantity="2.162" ana="senti:neuneg" corresp="#ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s3"/>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s3.w1" lemma="non" msd="UPosTag=ADV|Polarity=Neg">Non</w>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s3.w2" lemma="ir" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres" join="right">van</w>
 <pc xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s3.w3" msd="UPosTag=PUNCT">...</pc>
@@ -443,6 +470,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s4">
+                     <measure type="sentiment" quantity="3.601" ana="senti:mixpos" corresp="#ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s4"/>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s4.w1" lemma="exactamente" msd="UPosTag=ADV">Exactamente</w>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s4.w2" lemma="ser" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past">foi</w>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s4.w3" lemma="que" msd="UPosTag=SCONJ">que</w>
@@ -521,6 +549,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s5">
+                     <measure type="sentiment" quantity="2.849" ana="senti:neupos" corresp="#ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s5"/>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s5.w1" lemma="isto" msd="UPosTag=PRON|Gender=Neut|PronType=Dem">Isto</w>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s5.w2" lemma="ser" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres">é</w>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s5.w3" lemma="o" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">o</w>
@@ -537,6 +566,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s6">
+                     <measure type="sentiment" quantity="0.591" ana="senti:mixneg" corresp="#ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s6"/>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s6.w1" lemma="como" msd="UPosTag=PRON|Gender=Neut|PronType=Rel">Como</w>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s6.w2" lemma="se" msd="UPosTag=PRON|Gender=Com|Person=3|PronType=Prs">se</w>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s6.w3" lemma="incluír" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past">incluíu</w>
@@ -591,6 +621,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s7">
+                     <measure type="sentiment" quantity="3.155" ana="senti:neupos" corresp="#ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s7"/>
                      <note xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.ana.note550">Murmurios.</note>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s7.w1" lemma="non" msd="UPosTag=ADV|Polarity=Neg">Non</w>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s7.w2" lemma="haber" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past">houbo</w>
@@ -617,6 +648,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s8">
+                     <measure type="sentiment" quantity="3.716" ana="senti:mixpos" corresp="#ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s8"/>
                      <note xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.ana.note551">Murmurios.</note>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s8.w1" lemma="ser" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres">É</w>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s8.w2" lemma="así" msd="UPosTag=ADV" join="right">así</w>
@@ -630,6 +662,7 @@
                </seg>
                <seg xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1158">
                   <s xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1158.s1">
+                     <measure type="sentiment" quantity="0.601" ana="senti:mixneg" corresp="#ParlaMint-ES-GA_2017-05-24-DSPG030.seg1158.s1"/>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1158.s1.w1" lemma="suspender" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres" join="right">Suspendemos</w>
 <pc xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1158.s1.w2" msd="UPosTag=PUNCT">...</pc>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1158.s1.w3" lemma="non" msd="UPosTag=ADV|Polarity=Neg">Non</w>
@@ -663,6 +696,7 @@
                </seg>
                <seg xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1159">
                   <s xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1159.s1">
+                     <measure type="sentiment" quantity="2.134" ana="senti:neuneg" corresp="#ParlaMint-ES-GA_2017-05-24-DSPG030.seg1159.s1"/>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1159.s1.w1" lemma="suspender" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres">Suspendemos</w>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1159.s1.w2" lemma="o" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">o</w>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1159.s1.w3" lemma="pleno" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" join="right">pleno</w>
@@ -677,6 +711,7 @@
                </seg>
                <seg xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1160">
                   <s xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1160.s1">
+                     <measure type="sentiment" quantity="3.727" ana="senti:mixpos" corresp="#ParlaMint-ES-GA_2017-05-24-DSPG030.seg1160.s1"/>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1160.s1.w1" lemma="ata" msd="UPosTag=ADP|AdpType=Prep">Ata</w>
 <w xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1160.s1.w2" lemma="mañá" msd="UPosTag=NOUN|Gender=Com|Number=Sing" join="right">mañá</w>
 <pc xml:id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1160.s1.w3" msd="UPosTag=PUNCT|PunctType=Peri">.</pc>

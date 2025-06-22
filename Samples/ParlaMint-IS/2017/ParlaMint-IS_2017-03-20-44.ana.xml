@@ -20,9 +20,21 @@
                <resp xml:lang="is">Málfræðimörkun</resp>
                <resp xml:lang="en">Linguistic annotation</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="words" quantity="18051" xml:lang="en">18,051 words</measure>
@@ -34,13 +46,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="is">Þessi texti er gefinn út með <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-17">2025-06-17</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -64,6 +76,7 @@
                <tagUsage gi="kinesic" occurs="22"/>
                <tagUsage gi="link" occurs="19592"/>
                <tagUsage gi="linkGrp" occurs="926"/>
+               <tagUsage gi="measure" occurs="926"/>
                <tagUsage gi="name" occurs="266"/>
                <tagUsage gi="note" occurs="1"/>
                <tagUsage gi="pc" occurs="1541"/>
@@ -87,17 +100,20 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-17">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-18">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <note type="signing" xml:id="ParlaMint-IS_2017-03-20-44.ana.note1">Bjarni Jónsson, 3. þm. Norðvest., og Oktavía Hrund Jónsdóttir, 4. þm. Suðurk., undirrituðu drengskaparheit að stjórnarskránni.</note>
-            <u who="#UnnurKonradsdottir" xml:id="ParlaMint-IS_2017-03-20-44.u1" ana="#chair" source="http://www.althingi.is/altext/raeda/146/rad20170320T150049.html">
+            <u who="#UnnurKonradsdottir" xml:id="ParlaMint-IS_2017-03-20-44.u1" ana="#chair topic:other" source="http://www.althingi.is/altext/raeda/146/rad20170320T150049.html">
                <seg xml:id="ParlaMint-IS_2017-03-20-44.seg1">
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg1.1">
+                     <measure type="sentiment" quantity="2.974" ana="senti:neupos" corresp="#ParlaMint-IS_2017-03-20-44.seg1.1"/>
 <w lemma="bera" xml:id="ParlaMint-IS_2017-03-20-44.seg1.1.1" pos="sþmhen" msd="UPosTag=VERB|Tense=Past|VerbForm=Part">Borist</w>
 <w lemma="hafa" xml:id="ParlaMint-IS_2017-03-20-44.seg1.1.2" pos="sfg3en" msd="UPosTag=AUX|Mood=Ind|Tense=Pres">hefur</w>
 <w lemma="bréf" xml:id="ParlaMint-IS_2017-03-20-44.seg1.1.3" pos="nhen" msd="UPosTag=NOUN|Case=Acc|Definite=Ind|Number=Sing">bréf</w>
@@ -120,6 +136,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg1.2">
+                     <measure type="sentiment" quantity="1.217" ana="senti:mixneg" corresp="#ParlaMint-IS_2017-03-20-44.seg1.2"/>
 <pc xml:id="ParlaMint-IS_2017-03-20-44.seg1.2.1" pos="pk" msd="UPosTag=PUNCT">,</pc>
                      <name type="PER">
 <w lemma="Lilja" xml:id="ParlaMint-IS_2017-03-20-44.seg1.2.2" pos="nveo-s" msd="UPosTag=PROPN">Lilju</w>
@@ -176,6 +193,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg1.3">
+                     <measure type="sentiment" quantity="2.829" ana="senti:neupos" corresp="#ParlaMint-IS_2017-03-20-44.seg1.3"/>
 <w lemma="í" xml:id="ParlaMint-IS_2017-03-20-44.seg1.3.1" pos="af" msd="UPosTag=ADP">Í</w>
 <w lemma="dagur" xml:id="ParlaMint-IS_2017-03-20-44.seg1.3.2" pos="nkeo" msd="UPosTag=NOUN|Case=Acc|Definite=Ind|Number=Sing">dag</w>
 <w lemma="taka" xml:id="ParlaMint-IS_2017-03-20-44.seg1.3.3" pos="sfg3fn" msd="UPosTag=VERB|Mood=Ind|Tense=Pres">taka</w>
@@ -224,6 +242,7 @@
                </seg>
                <seg xml:id="ParlaMint-IS_2017-03-20-44.seg2">
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg2.1">
+                     <measure type="sentiment" quantity="0.712" ana="senti:mixneg" corresp="#ParlaMint-IS_2017-03-20-44.seg2.1"/>
 <w lemma="kjörbréf" xml:id="ParlaMint-IS_2017-03-20-44.seg2.1.1" pos="nhfn" msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Number=Plur">Kjörbréf</w>
 <w lemma="það" xml:id="ParlaMint-IS_2017-03-20-44.seg2.1.2" pos="fphfe" msd="UPosTag=PRON|Case=Gen">þeirra</w>
                      <name type="PER">
@@ -301,9 +320,10 @@
                   </s>
                </seg>
             </u>
-            <u who="#UnnurKonradsdottir" xml:id="ParlaMint-IS_2017-03-20-44.u2" ana="#chair" source="http://www.althingi.is/altext/raeda/146/rad20170320T150200.html">
+            <u who="#UnnurKonradsdottir" xml:id="ParlaMint-IS_2017-03-20-44.u2" ana="#chair topic:other" source="http://www.althingi.is/altext/raeda/146/rad20170320T150200.html">
                <seg xml:id="ParlaMint-IS_2017-03-20-44.seg3">
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg3.1">
+                     <measure type="sentiment" quantity="4.591" ana="senti:pospos" corresp="#ParlaMint-IS_2017-03-20-44.seg3.1"/>
                      <name type="PER">
 <w lemma="Bjarni" xml:id="ParlaMint-IS_2017-03-20-44.seg3.1.1" pos="nken-s" msd="UPosTag=PROPN">Bjarni</w>
 <w lemma="Jónsson" xml:id="ParlaMint-IS_2017-03-20-44.seg3.1.2" pos="nken-s" msd="UPosTag=PROPN">Jónsson</w>
@@ -356,6 +376,7 @@
                </seg>
                <seg xml:id="ParlaMint-IS_2017-03-20-44.seg4">
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg4.1">
+                     <measure type="sentiment" quantity="2.858" ana="senti:neupos" corresp="#ParlaMint-IS_2017-03-20-44.seg4.1"/>
 <w lemma="bera" xml:id="ParlaMint-IS_2017-03-20-44.seg4.1.1" pos="sþmhen" msd="UPosTag=VERB|Tense=Past|VerbForm=Part">Borist</w>
 <w lemma="hafa" xml:id="ParlaMint-IS_2017-03-20-44.seg4.1.2" pos="sfg3en" msd="UPosTag=AUX|Mood=Ind|Tense=Pres">hefur</w>
 <w lemma="bréf" xml:id="ParlaMint-IS_2017-03-20-44.seg4.1.3" pos="nhen" msd="UPosTag=NOUN|Case=Acc|Definite=Ind|Number=Sing">bréf</w>
@@ -378,6 +399,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg4.2">
+                     <measure type="sentiment" quantity="0.085" ana="senti:negneg" corresp="#ParlaMint-IS_2017-03-20-44.seg4.2"/>
 <w lemma="að" xml:id="ParlaMint-IS_2017-03-20-44.seg4.2.1" pos="c" msd="UPosTag=SCONJ">að</w>
 <w lemma="hann" xml:id="ParlaMint-IS_2017-03-20-44.seg4.2.2" pos="fpken" msd="UPosTag=PRON|Case=Nom">hann</w>
 <w lemma="geta" xml:id="ParlaMint-IS_2017-03-20-44.seg4.2.3" pos="svg3en" msd="UPosTag=AUX|Mood=Sub|Tense=Pres">geti</w>
@@ -400,6 +422,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg4.3">
+                     <measure type="sentiment" quantity="2.771" ana="senti:neupos" corresp="#ParlaMint-IS_2017-03-20-44.seg4.3"/>
 <w lemma="í" xml:id="ParlaMint-IS_2017-03-20-44.seg4.3.1" pos="af" msd="UPosTag=ADP">Í</w>
 <w lemma="dagur" xml:id="ParlaMint-IS_2017-03-20-44.seg4.3.2" pos="nkeo" msd="UPosTag=NOUN|Case=Acc|Definite=Ind|Number=Sing">dag</w>
 <w lemma="taka" xml:id="ParlaMint-IS_2017-03-20-44.seg4.3.3" pos="sfg3en" msd="UPosTag=VERB|Mood=Ind|Tense=Pres">tekur</w>
@@ -456,9 +479,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#SteinunnArnadottir" xml:id="ParlaMint-IS_2017-03-20-44.u67" ana="#regular #topic.146_226_M" source="http://www.althingi.is/altext/raeda/146/rad20170320T173229.html">
+            <u who="#SteinunnArnadottir" xml:id="ParlaMint-IS_2017-03-20-44.u67" ana="#regular #IS-topic.146_226_M topic:housi" source="http://www.althingi.is/altext/raeda/146/rad20170320T173229.html">
                <seg xml:id="ParlaMint-IS_2017-03-20-44.seg246">
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg246.1">
+                     <measure type="sentiment" quantity="3.120" ana="senti:neupos" corresp="#ParlaMint-IS_2017-03-20-44.seg246.1"/>
 <w lemma="frú" xml:id="ParlaMint-IS_2017-03-20-44.seg246.1.1" pos="nven" msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Number=Sing">Frú</w>
 <w lemma="forseti" xml:id="ParlaMint-IS_2017-03-20-44.seg246.1.2" pos="nken" join="right" msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Number=Sing">forseti</w>
 <pc xml:id="ParlaMint-IS_2017-03-20-44.seg246.1.3" pos="pl" msd="UPosTag=PUNCT">.</pc>
@@ -469,6 +493,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg246.2">
+                     <measure type="sentiment" quantity="4.620" ana="senti:pospos" corresp="#ParlaMint-IS_2017-03-20-44.seg246.2"/>
 <w lemma="ég" xml:id="ParlaMint-IS_2017-03-20-44.seg246.2.1" pos="fp1en" msd="UPosTag=PRON|Case=Nom">Ég</w>
 <w lemma="vilja" xml:id="ParlaMint-IS_2017-03-20-44.seg246.2.2" pos="sfg1en" msd="UPosTag=AUX|Mood=Ind|Tense=Pres">vil</w>
 <w lemma="byrja" xml:id="ParlaMint-IS_2017-03-20-44.seg246.2.3" pos="sng" msd="UPosTag=VERB|VerbForm=Inf">byrja</w>
@@ -525,6 +550,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg246.3">
+                     <measure type="sentiment" quantity="0.926" ana="senti:mixneg" corresp="#ParlaMint-IS_2017-03-20-44.seg246.3"/>
 <w lemma="ég" xml:id="ParlaMint-IS_2017-03-20-44.seg246.3.1" pos="fp1en" msd="UPosTag=PRON|Case=Nom">Ég</w>
 <w lemma="vera" xml:id="ParlaMint-IS_2017-03-20-44.seg246.3.2" pos="sfg1en" msd="UPosTag=AUX|Mood=Ind|Tense=Pres">er</w>
 <w lemma="glaður" xml:id="ParlaMint-IS_2017-03-20-44.seg246.3.3" pos="lvensf" msd="UPosTag=ADJ|Case=Nom|Degree=Pos">glöð</w>
@@ -563,6 +589,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg246.4">
+                     <measure type="sentiment" quantity="3.744" ana="senti:mixpos" corresp="#ParlaMint-IS_2017-03-20-44.seg246.4"/>
 <w lemma="ég" xml:id="ParlaMint-IS_2017-03-20-44.seg246.4.1" pos="fp1en" msd="UPosTag=PRON|Case=Nom">Ég</w>
 <w lemma="vona" xml:id="ParlaMint-IS_2017-03-20-44.seg246.4.2" pos="sfg1en" msd="UPosTag=VERB|Mood=Ind|Tense=Pres">vona</w>
 <w lemma="svo" xml:id="ParlaMint-IS_2017-03-20-44.seg246.4.3" pos="aa" msd="UPosTag=ADV|Degree=Pos">svo</w>
@@ -719,6 +746,7 @@
                </seg>
                <seg xml:id="ParlaMint-IS_2017-03-20-44.seg247">
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg247.1">
+                     <measure type="sentiment" quantity="4.812" ana="senti:pospos" corresp="#ParlaMint-IS_2017-03-20-44.seg247.1"/>
 <w lemma="ég" xml:id="ParlaMint-IS_2017-03-20-44.seg247.1.1" pos="fp1en" msd="UPosTag=PRON|Case=Nom">Ég</w>
 <w lemma="vilja" xml:id="ParlaMint-IS_2017-03-20-44.seg247.1.2" pos="sfg1en" msd="UPosTag=AUX|Mood=Ind|Tense=Pres">vil</w>
 <w lemma="byrja" xml:id="ParlaMint-IS_2017-03-20-44.seg247.1.3" pos="sng" msd="UPosTag=VERB|VerbForm=Inf">byrja</w>
@@ -803,6 +831,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg247.2">
+                     <measure type="sentiment" quantity="1.195" ana="senti:mixneg" corresp="#ParlaMint-IS_2017-03-20-44.seg247.2"/>
 <w lemma="ég" xml:id="ParlaMint-IS_2017-03-20-44.seg247.2.1" pos="fp1en" msd="UPosTag=PRON|Case=Nom">Ég</w>
 <w lemma="leyfa" xml:id="ParlaMint-IS_2017-03-20-44.seg247.2.2" pos="sfg1en" msd="UPosTag=VERB|Mood=Ind|Tense=Pres">leyfi</w>
 <w lemma="ég" xml:id="ParlaMint-IS_2017-03-20-44.seg247.2.3" pos="fp1eþ" msd="UPosTag=PRON|Case=Dat">mér</w>
@@ -851,6 +880,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg247.3">
+                     <measure type="sentiment" quantity="1.191" ana="senti:mixneg" corresp="#ParlaMint-IS_2017-03-20-44.seg247.3"/>
 <w lemma="hver" xml:id="ParlaMint-IS_2017-03-20-44.seg247.3.1" pos="fshee" msd="UPosTag=PRON|Case=Gen|Gender=Neut|Number=Sing|PronType=Int">Hvers</w>
 <w lemma="verða" xml:id="ParlaMint-IS_2017-03-20-44.seg247.3.2" pos="sfg3en" msd="UPosTag=VERB|Mood=Ind|Tense=Pres">verður</w>
 <w lemma="að" xml:id="ParlaMint-IS_2017-03-20-44.seg247.3.3" pos="cn" msd="UPosTag=PART">að</w>
@@ -869,6 +899,7 @@
                </seg>
                <seg xml:id="ParlaMint-IS_2017-03-20-44.seg248">
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg248.1">
+                     <measure type="sentiment" quantity="1.663" ana="senti:neuneg" corresp="#ParlaMint-IS_2017-03-20-44.seg248.1"/>
 <w lemma="hver" xml:id="ParlaMint-IS_2017-03-20-44.seg248.1.1" pos="fshen" msd="UPosTag=PRON|Case=Nom">Hvað</w>
 <w lemma="varða" xml:id="ParlaMint-IS_2017-03-20-44.seg248.1.2" pos="sfg3en" msd="UPosTag=VERB|Mood=Ind|Tense=Pres">varðar</w>
 <w lemma="síðari" xml:id="ParlaMint-IS_2017-03-20-44.seg248.1.3" pos="lveovm" msd="UPosTag=ADJ|Case=Acc|Degree=Cmp">síðari</w>
@@ -989,6 +1020,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg248.2">
+                     <measure type="sentiment" quantity="0.697" ana="senti:mixneg" corresp="#ParlaMint-IS_2017-03-20-44.seg248.2"/>
 <w lemma="en" xml:id="ParlaMint-IS_2017-03-20-44.seg248.2.1" pos="c" msd="UPosTag=CCONJ">En</w>
 <w lemma="þá" xml:id="ParlaMint-IS_2017-03-20-44.seg248.2.2" pos="aa" msd="UPosTag=ADV|Degree=Pos">þá</w>
 <w lemma="vilja" xml:id="ParlaMint-IS_2017-03-20-44.seg248.2.3" pos="sfg1en" msd="UPosTag=AUX|Mood=Ind|Tense=Pres">vil</w>
@@ -1044,6 +1076,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg248.3">
+                     <measure type="sentiment" quantity="3.305" ana="senti:neupos" corresp="#ParlaMint-IS_2017-03-20-44.seg248.3"/>
 <w lemma="það" xml:id="ParlaMint-IS_2017-03-20-44.seg248.3.1" pos="fphee" msd="UPosTag=PRON|Case=Gen">Þess</w>
 <w lemma="vegna" xml:id="ParlaMint-IS_2017-03-20-44.seg248.3.2" pos="af" msd="UPosTag=ADP">vegna</w>
                      <kinesic type="ringing" xml:id="ParlaMint-IS_2017-03-20-44.ana.kinesic19">
@@ -1077,6 +1110,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg248.4">
+                     <measure type="sentiment" quantity="2.247" ana="senti:neuneg" corresp="#ParlaMint-IS_2017-03-20-44.seg248.4"/>
 <w lemma="ég" xml:id="ParlaMint-IS_2017-03-20-44.seg248.4.1" pos="fp1eo" msd="UPosTag=PRON|Case=Acc">Mig</w>
 <w lemma="langa" xml:id="ParlaMint-IS_2017-03-20-44.seg248.4.2" pos="sfg3en" msd="UPosTag=VERB|Mood=Ind|Tense=Pres">langar</w>
 <w lemma="því" xml:id="ParlaMint-IS_2017-03-20-44.seg248.4.3" pos="aa" msd="UPosTag=PRON|Case=Dat">því</w>
@@ -1155,9 +1189,10 @@
                   </s>
                </seg>
             </u>
-            <u who="#THorsteinnViglundsson" xml:id="ParlaMint-IS_2017-03-20-44.u68" ana="#regular #topic.146_226_M" source="http://www.althingi.is/altext/raeda/146/rad20170320T173508.html">
+            <u who="#THorsteinnViglundsson" xml:id="ParlaMint-IS_2017-03-20-44.u68" ana="#regular #IS-topic.146_226_M topic:welfa" source="http://www.althingi.is/altext/raeda/146/rad20170320T173508.html">
                <seg xml:id="ParlaMint-IS_2017-03-20-44.seg249">
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg249.1">
+                     <measure type="sentiment" quantity="4.788" ana="senti:pospos" corresp="#ParlaMint-IS_2017-03-20-44.seg249.1"/>
 <w lemma="ég" xml:id="ParlaMint-IS_2017-03-20-44.seg249.1.1" pos="fp1en" msd="UPosTag=PRON|Case=Nom">Ég</w>
 <w lemma="vilja" xml:id="ParlaMint-IS_2017-03-20-44.seg249.1.2" pos="sfg1en" msd="UPosTag=AUX|Mood=Ind|Tense=Pres">vil</w>
 <w lemma="enn" xml:id="ParlaMint-IS_2017-03-20-44.seg249.1.3" pos="aa" msd="UPosTag=ADV|Degree=Pos">enn</w>
@@ -1180,6 +1215,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg249.2">
+                     <measure type="sentiment" quantity="4.415" ana="senti:mixpos" corresp="#ParlaMint-IS_2017-03-20-44.seg249.2"/>
 <w lemma="í" xml:id="ParlaMint-IS_2017-03-20-44.seg249.2.1" pos="af" msd="UPosTag=ADP">Í</w>
 <w lemma="afskaplega" xml:id="ParlaMint-IS_2017-03-20-44.seg249.2.2" pos="aa" msd="UPosTag=ADV|Degree=Pos">afskaplega</w>
 <w lemma="stuttur" xml:id="ParlaMint-IS_2017-03-20-44.seg249.2.3" pos="lheþsf" msd="UPosTag=ADJ|Case=Dat|Degree=Pos">stuttu</w>
@@ -1336,6 +1372,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg249.3">
+                     <measure type="sentiment" quantity="5.159" ana="senti:pospos" corresp="#ParlaMint-IS_2017-03-20-44.seg249.3"/>
 <w lemma="það" xml:id="ParlaMint-IS_2017-03-20-44.seg249.3.1" pos="fphen" msd="UPosTag=PRON|Case=Nom">Það</w>
 <w lemma="vera" xml:id="ParlaMint-IS_2017-03-20-44.seg249.3.2" pos="sfg3en" msd="UPosTag=AUX|Mood=Ind|Tense=Pres">er</w>
 <w lemma="jákvæður" xml:id="ParlaMint-IS_2017-03-20-44.seg249.3.3" pos="lhensf" join="right" msd="UPosTag=ADJ|Case=Nom|Degree=Pos">jákvætt</w>
@@ -1348,6 +1385,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg249.4">
+                     <measure type="sentiment" quantity="5.206" ana="senti:pospos" corresp="#ParlaMint-IS_2017-03-20-44.seg249.4"/>
 <w lemma="ég" xml:id="ParlaMint-IS_2017-03-20-44.seg249.4.1" pos="fp1fn" msd="UPosTag=PRON|Case=Nom">Við</w>
 <w lemma="upplifa" xml:id="ParlaMint-IS_2017-03-20-44.seg249.4.2" pos="sfg1fn" msd="UPosTag=VERB|Mood=Ind|Tense=Pres">upplifum</w>
 <w lemma="mjög" xml:id="ParlaMint-IS_2017-03-20-44.seg249.4.3" pos="aa" msd="UPosTag=ADV|Degree=Pos">mjög</w>
@@ -1454,6 +1492,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg249.5">
+                     <measure type="sentiment" quantity="4.756" ana="senti:pospos" corresp="#ParlaMint-IS_2017-03-20-44.seg249.5"/>
 <w lemma="kaupmáttur" xml:id="ParlaMint-IS_2017-03-20-44.seg249.5.1" pos="nken" msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Number=Sing">Kaupmáttur</w>
 <w lemma="gamall" xml:id="ParlaMint-IS_2017-03-20-44.seg249.5.2" pos="lkfevm" msd="UPosTag=ADJ|Case=Gen|Degree=Cmp">eldri</w>
 <w lemma="borgari" xml:id="ParlaMint-IS_2017-03-20-44.seg249.5.3" pos="nkfe" msd="UPosTag=NOUN|Case=Gen|Definite=Ind|Number=Plur">borgara</w>
@@ -1504,6 +1543,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg249.6">
+                     <measure type="sentiment" quantity="1.840" ana="senti:neuneg" corresp="#ParlaMint-IS_2017-03-20-44.seg249.6"/>
 <w lemma="útgjöld" xml:id="ParlaMint-IS_2017-03-20-44.seg249.6.1" pos="nhfn" msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Number=Plur">Útgjöld</w>
 <w lemma="til" xml:id="ParlaMint-IS_2017-03-20-44.seg249.6.2" pos="af" msd="UPosTag=ADP">til</w>
 <w lemma="almannatrygging" xml:id="ParlaMint-IS_2017-03-20-44.seg249.6.3" pos="nvfe" msd="UPosTag=NOUN|Case=Gen|Definite=Ind|Number=Plur">almannatrygginga</w>
@@ -1546,6 +1586,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg249.7">
+                     <measure type="sentiment" quantity="3.758" ana="senti:mixpos" corresp="#ParlaMint-IS_2017-03-20-44.seg249.7"/>
 <w lemma="það" xml:id="ParlaMint-IS_2017-03-20-44.seg249.7.1" pos="fphen" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing">Það</w>
 <w lemma="vera" xml:id="ParlaMint-IS_2017-03-20-44.seg249.7.2" pos="sfg3en" msd="UPosTag=AUX|Mood=Ind|Tense=Pres">er</w>
 <w lemma="alveg" xml:id="ParlaMint-IS_2017-03-20-44.seg249.7.3" pos="aa" msd="UPosTag=ADV|Degree=Pos">alveg</w>
@@ -1594,6 +1635,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg249.8">
+                     <measure type="sentiment" quantity="3.269" ana="senti:neupos" corresp="#ParlaMint-IS_2017-03-20-44.seg249.8"/>
 <w lemma="þar" xml:id="ParlaMint-IS_2017-03-20-44.seg249.8.1" pos="aa" msd="UPosTag=ADV|Degree=Pos">Þar</w>
 <w lemma="eiga" xml:id="ParlaMint-IS_2017-03-20-44.seg249.8.2" pos="sfg1fn" msd="UPosTag=VERB|Mood=Ind|Tense=Pres">eigum</w>
 <w lemma="ég" xml:id="ParlaMint-IS_2017-03-20-44.seg249.8.3" pos="fp1fn" msd="UPosTag=PRON|Case=Nom">við</w>
@@ -1646,6 +1688,7 @@
                </seg>
                <seg xml:id="ParlaMint-IS_2017-03-20-44.seg250">
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg250.1">
+                     <measure type="sentiment" quantity="0.371" ana="senti:negneg" corresp="#ParlaMint-IS_2017-03-20-44.seg250.1"/>
 <w lemma="það" xml:id="ParlaMint-IS_2017-03-20-44.seg250.1.1" pos="fphen" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing">Það</w>
 <w lemma="mega" xml:id="ParlaMint-IS_2017-03-20-44.seg250.1.2" pos="sfg3en" msd="UPosTag=AUX|Mood=Ind|Tense=Pres">má</w>
 <w lemma="líka" xml:id="ParlaMint-IS_2017-03-20-44.seg250.1.3" pos="aa" msd="UPosTag=ADV">líka</w>
@@ -1774,6 +1817,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg250.2">
+                     <measure type="sentiment" quantity="3.656" ana="senti:mixpos" corresp="#ParlaMint-IS_2017-03-20-44.seg250.2"/>
 <w lemma="þó" xml:id="ParlaMint-IS_2017-03-20-44.seg250.2.1" pos="aa" msd="UPosTag=ADP">Þó</w>
 <w lemma="svo" xml:id="ParlaMint-IS_2017-03-20-44.seg250.2.2" pos="aa" msd="UPosTag=ADV|Degree=Pos">svo</w>
 <w lemma="að" xml:id="ParlaMint-IS_2017-03-20-44.seg250.2.3" pos="c" msd="UPosTag=SCONJ">að</w>
@@ -1843,6 +1887,7 @@
                      <desc>Forseti hringir.</desc>
                   </kinesic>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg250.3">
+                     <measure type="sentiment" quantity="1.664" ana="senti:neuneg" corresp="#ParlaMint-IS_2017-03-20-44.seg250.3"/>
 <w lemma="allur" xml:id="ParlaMint-IS_2017-03-20-44.seg250.3.1" pos="fovfn" msd="UPosTag=DET|Case=Nom|Degree=Pos">Allar</w>
 <w lemma="vísbending" xml:id="ParlaMint-IS_2017-03-20-44.seg250.3.2" pos="nvfn" msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Number=Plur">vísbendingar</w>
 <w lemma="benda" xml:id="ParlaMint-IS_2017-03-20-44.seg250.3.3" pos="sfg3fn" msd="UPosTag=VERB|Mood=Ind|Tense=Pres">benda</w>
@@ -1898,6 +1943,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg250.4">
+                     <measure type="sentiment" quantity="3.921" ana="senti:mixpos" corresp="#ParlaMint-IS_2017-03-20-44.seg250.4"/>
 <w lemma="þessi" xml:id="ParlaMint-IS_2017-03-20-44.seg250.4.1" pos="fahen" msd="UPosTag=DET|Case=Nom">Þetta</w>
 <w lemma="vera" xml:id="ParlaMint-IS_2017-03-20-44.seg250.4.2" pos="sfg3en" msd="UPosTag=AUX|Mood=Ind|Tense=Pres">er</w>
 <w lemma="afar" xml:id="ParlaMint-IS_2017-03-20-44.seg250.4.3" pos="aa" msd="UPosTag=ADV|Degree=Pos">afar</w>
@@ -1912,6 +1958,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2017-03-20-44.seg250.5">
+                     <measure type="sentiment" quantity="3.125" ana="senti:neupos" corresp="#ParlaMint-IS_2017-03-20-44.seg250.5"/>
 <w lemma="en" xml:id="ParlaMint-IS_2017-03-20-44.seg250.5.1" pos="c" msd="UPosTag=CCONJ">En</w>
 <w lemma="auðvitað" xml:id="ParlaMint-IS_2017-03-20-44.seg250.5.2" pos="aa" msd="UPosTag=ADV|Degree=Pos">auðvitað</w>
 <w lemma="eiga" xml:id="ParlaMint-IS_2017-03-20-44.seg250.5.3" pos="sfg1fn" msd="UPosTag=VERB|Mood=Ind|Tense=Pres">eigum</w>

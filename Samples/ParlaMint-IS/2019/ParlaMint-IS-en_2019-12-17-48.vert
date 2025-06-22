@@ -1,6 +1,6 @@
-<speech id="ParlaMint-IS_2019-12-17-48.u1" text_id="ParlaMint-IS-en_2019-12-17-48" subcorpus="Reference" lang="English" body="Unicameralism" term="23. kjörtímabil" session="150. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2019-12-17" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 150-48, 17.12.2019." speaker_role="Chairperson" speaker_id="SteingrimurSigfusson" speaker_name="Sigfússon, Steingrímur J." speaker_mp="MP" speaker_minister="notMinister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="Coalition" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-IS_2019-12-17-48.u1" text_id="ParlaMint-IS-en_2019-12-17-48" subcorpus="Reference" lang="English" body="Unicameralism" term="23. kjörtímabil" session="150. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2019-12-17" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 150-48, 17.12.2019." speaker_role="Chairperson" topic="Other" speaker_id="SteingrimurSigfusson" speaker_name="Sigfússon, Steingrímur J." speaker_mp="MP" speaker_minister="notMinister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="Coalition" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-IS_2019-12-17-48.seg1" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg1.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg1.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.939">
 A	A	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -24,7 +24,7 @@ sessions	sessions	session	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t17
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg1.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg1.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.976">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 discussion	discussion	discussion	NOUN	Number=Sing	Q2.1,Q2.2	Q2.1	Q2.1: Speech: Communicative	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -38,7 +38,7 @@ hour	hour	hour	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t10
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg1.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg1.3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.923">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Prime	Prime	Prime	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Minister	Minister	Minister	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -62,7 +62,7 @@ discussion	discussion	discussion	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Ev
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg1.4">
+<s id="ParlaMint-IS_2019-12-17-48.seg1.4" senti_3="Neutral" senti_6="neutral negative" senti_n="2.417">
 At	At	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
@@ -97,9 +97,9 @@ speech	speech	speech	NOUN	Number=Sing	Q2.1,Q3	Q2.1	Q2.1: Speech: Communicative	t
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2019-12-17-48.u2" text_id="ParlaMint-IS-en_2019-12-17-48" subcorpus="Reference" lang="English" body="Unicameralism" term="23. kjörtímabil" session="150. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2019-12-17" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 150-48, 17.12.2019." speaker_role="Regular" speaker_id="KatrinJakobsdottir" speaker_name="Jakobsdóttir, Katrín" speaker_mp="MP" speaker_minister="Minister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="Coalition" party_orientation="Centre-left to left" speaker_gender="F" speaker_birth="1976">
+<speech id="ParlaMint-IS_2019-12-17-48.u2" text_id="ParlaMint-IS-en_2019-12-17-48" subcorpus="Reference" lang="English" body="Unicameralism" term="23. kjörtímabil" session="150. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2019-12-17" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 150-48, 17.12.2019." speaker_role="Regular" topic="Environment" speaker_id="KatrinJakobsdottir" speaker_name="Jakobsdóttir, Katrín" speaker_mp="MP" speaker_minister="Minister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="Coalition" party_orientation="Centre-left to left" speaker_gender="F" speaker_birth="1976">
 <p id="ParlaMint-IS_2019-12-17-48.seg2" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg2.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg2.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.179">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr.	Mr.	Mr.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -107,7 +107,7 @@ President	President	President	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg2.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg2.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.862">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -160,7 +160,7 @@ December	December	December	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t37
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t38
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg2.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg2.3" senti_3="Negative" senti_6="mixed negative" senti_n="1.416">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -234,7 +234,7 @@ Islands	Islands	Island	PROPN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t56
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t57
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg2.4">
+<s id="ParlaMint-IS_2019-12-17-48.seg2.4" senti_3="Neutral" senti_6="neutral positive" senti_n="2.573">
 Another	Another	another	DET	-	A6.1-,N5++	A6.1n	A6.1-: Comparing: Different	t1
 such	such	such	ADJ	Degree=Pos	Z5,Z8	Z5	Z5: Grammatical bin	t2
 weather	weather	weather	NOUN	Number=Sing	W4	W4	W4: Weather	t3
@@ -263,7 +263,7 @@ too	too	too	ADV	-	N5++,N5.2+,A13.3	N5p	N5+: Quantities: many/much	t19
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg2.5">
+<s id="ParlaMint-IS_2019-12-17-48.seg2.5" senti_3="Negative" senti_6="mixed negative" senti_n="0.692">
 However	However	however	ADV	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -307,7 +307,7 @@ themselves	themselves	themselves	PRON	Case=Acc Number=Plur Person=3 PronType=Prs
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg3" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg3.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg3.1" senti_3="Negative" senti_6="mixed negative" senti_n="0.628">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 has	has	have	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t3
@@ -368,7 +368,7 @@ weather	weather	weather	NOUN	Number=Sing	W4	W4	W4: Weather	t47
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t48
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg3.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg3.2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.592">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 does	does	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5	A1.1.1	A1.1.1: General actions / making	t3
@@ -421,7 +421,7 @@ day	day	day	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t42
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg4" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg4.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg4.1" senti_3="Negative" senti_6="negative" senti_n="0.253">
 First	First	first	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t1
 thing	thing	thing	NOUN	Number=Sing	O2,X4.1,A7-,S2mf,L2mf	O2	O2: Objects generally	t2
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t3
@@ -449,7 +449,7 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: A
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg4.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg4.2" senti_3="Negative" senti_6="negative" senti_n="0.223">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 happened	happened	happen	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A2.1+,A3+,X7-	A2.1p	A2.1+: Change	t2
 <g/>
@@ -470,7 +470,7 @@ corrected	corrected	correct	VERB	Tense=Past VerbForm=Part Voice=Pass	A5.3+/A2.1	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg4.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg4.3" senti_3="Negative" senti_6="negative" senti_n="0.268">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Of	Of	of	ADP	ExtPos=ADV	Z4	Z4	Z4: Discourse Bin	t1
 course	course	course	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -492,7 +492,7 @@ weather	weather	weather	NOUN	Number=Sing	W4	W4	W4: Weather	t15
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg4.4">
+<s id="ParlaMint-IS_2019-12-17-48.seg4.4" senti_3="Negative" senti_6="negative" senti_n="0.254">
 However	However	however	ADV	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -538,7 +538,7 @@ stores	stores	store	NOUN	Number=Plur	F1/I2.2c	F1 I2.2	F1: Food|I2.2: Business: S
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg4.5">
+<s id="ParlaMint-IS_2019-12-17-48.seg4.5" senti_3="Positive" senti_6="positive" senti_n="4.850">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 at	at	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -626,7 +626,7 @@ miracles	miracles	miracle	NOUN	Number=Plur	S9,X2.6-,O4.2+	S9	S9: Religion and th
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t71
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg4.6">
+<s id="ParlaMint-IS_2019-12-17-48.seg4.6" senti_3="Negative" senti_6="negative" senti_n="0.354">
 At	At	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 same	same	same	ADJ	Degree=Pos	A6.1+++	A6.1p	A6.1+: Comparing: Similar	t3
@@ -668,7 +668,7 @@ them	them	they	PRON	Case=Acc Number=Plur Person=3 PronType=Prs	A5.4+	A5.4p	A5.4+
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg5" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg5.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg5.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.766">
 As	As	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 looked	looked	look	VERB	Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin	A8,X3.4,X2.4,X7+	A8	A8: Seem	t3
@@ -729,7 +729,7 @@ red	red	red	ADJ	Degree=Pos	O4.3,G1.2/S2mf	O4.3	O4.3: Colour and colour patterns	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t42
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg5.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg5.2" senti_3="Negative" senti_6="mixed negative" senti_n="1.209">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 Tuesday	Tuesday	Tuesday	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
 <g/>
@@ -759,7 +759,7 @@ red	red	red	ADJ	Degree=Pos	O4.3,G1.2/S2mf	O4.3	O4.3: Colour and colour patterns	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg5.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg5.3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.906">
 Red	Red	Red	ADJ	Degree=Pos	O4.3,G1.2	O4.3	O4.3: Colour and colour patterns	t1
 warnings	warnings	warning	NOUN	Number=Plur	X2.2+/A15-,A1.3+	X2.2p A15n	X2.2+: Knowledgeable|A15-: Danger	t2
 were	were	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -800,7 +800,7 @@ November	November	November	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical na
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg5.4">
+<s id="ParlaMint-IS_2019-12-17-48.seg5.4" senti_3="Negative" senti_6="mixed negative" senti_n="0.966">
 Red	Red	Red	ADJ	Degree=Pos	O4.3,G1.2	O4.3	O4.3: Colour and colour patterns	t1
 warnings	warnings	warning	NOUN	Number=Plur	X2.2+/A15-,A1.3+	X2.2p A15n	X2.2+: Knowledgeable|A15-: Danger	t2
 describe	describe	describe	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	Q2.2	Q2.2	Q2.2: Speech acts	t3
@@ -850,7 +850,7 @@ years	years	year	NOUN	Number=Plur	N6+	N6p	N6+: Frequent	t35
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg6" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg6.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg6.1" senti_3="Negative" senti_6="mixed negative" senti_n="1.038">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="PER">
 Marshal	Marshal	Marshal	PROPN	Number=Sing	Z1mf	Z1	Z1: Personal names	t2
@@ -868,7 +868,7 @@ December	December	December	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t10
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg6.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg6.2" senti_3="Negative" senti_6="mixed negative" senti_n="0.887">
 At	At	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 beach	beach	beach	NOUN	Number=Sing	W3/M4	W3 M4	W3: Geographical terms|M4: Sailing, swimming, etc.	t3
@@ -901,7 +901,7 @@ danger	danger	danger	NOUN	Number=Sing	A15-,A7+	A15n	A15-: Danger	t21
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg6.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg6.3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.489">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Forest	Forest	Forest	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -935,7 +935,7 @@ program	program	program	NOUN	Number=Sing	Y2,X7+,Q4.3,Q1.2,P1	Y2	Y2: Information 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg6.4">
+<s id="ParlaMint-IS_2019-12-17-48.seg6.4" senti_3="Negative" senti_6="mixed negative" senti_n="0.726">
 Almost	Almost	almost	ADV	-	A13.4	A13.4	A13.4: Degree: Approximators	t1
 all	all	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -979,7 +979,7 @@ Gravit	Gravit	Gravit	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t31
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg6.5">
+<s id="ParlaMint-IS_2019-12-17-48.seg6.5" senti_3="Negative" senti_6="negative" senti_n="0.346">
 As	As	as	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 result	result	result	NOUN	Number=Sing	A2.2,X9.2,N2,A5.1,K5,Q1.1/A2.2	A2.2	A2.2: Cause	t3
@@ -997,7 +997,7 @@ north	north	north	ADV	-	M6	M6	M6: Location and direction	t11
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg6.6">
+<s id="ParlaMint-IS_2019-12-17-48.seg6.6" senti_3="Positive" senti_6="mixed positive" senti_n="4.106">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Z2,Z1mf,T1.3" usas_cats="Z2" usas_glosses="Z2: Geographical names">
 December	December	December	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t2
@@ -1037,7 +1037,7 @@ north	north	north	NOUN	Number=Sing	M6	M6	M6: Location and direction	t29
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t30
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg6.7">
+<s id="ParlaMint-IS_2019-12-17-48.seg6.7" senti_3="Neutral" senti_6="neutral negative" senti_n="2.032">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 result	result	result	NOUN	Number=Sing	A2.2,X9.2,N2,A5.1,K5,Q1.1/A2.2	A2.2	A2.2: Cause	t2
 was	was	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -1058,7 +1058,7 @@ low	low	low	ADJ	Degree=Pos	N3.7-,N5-,A5.1-,A11.1-,E4.1-,X3.2-,G2.2-,S7.1-	N3.7n	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg6.8">
+<s id="ParlaMint-IS_2019-12-17-48.seg6.8" senti_3="Positive" senti_6="positive" senti_n="4.759">
 Enlightenment	Enlightenment	enlightenment	NOUN	Number=Sing	X2.3+,T1.3/T1.1.1	X2.3p	X2.3+: Learning	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -1075,7 +1075,7 @@ good	good	good	ADJ	Degree=Pos	A5.1+,G2.2+,O4.2+,A1.5.2+,N3.2+	A5.1p	A5.1+: Evalu
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg7" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg7.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg7.1" senti_3="Negative" senti_6="negative" senti_n="0.174">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 lack	lack	lack	NOUN	Number=Sing	A9-	A9n	A9-: Giving	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1110,7 +1110,7 @@ seen	seen	see	VERB	Tense=Past VerbForm=Part	X3.4,X2.1,S1.1.1,X2.5+,A7+	X3.4	X3.4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg7.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg7.2" senti_3="Negative" senti_6="negative" senti_n="0.478">
 Systems	Systems	system	NOUN	Number=Plur	X4.2,O3,M3,M4,Q1.3,Y2,B1,N2,G1.1c	X4.2	X4.2: Mental object: Means, method	t1
 were	were	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 widely	widely	widely	ADV	-	N5+,A4.2-	N5p	N5+: Quantities: many/much	t3
@@ -1163,7 +1163,7 @@ electricity	electricity	electricity	NOUN	Number=Sing	O3	O3	O3: Electricity and e
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t40
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg7.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg7.3" senti_3="Negative" senti_6="negative" senti_n="0.493">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 worst	worst	bad	ADJ	Degree=Sup	A5.1---	A5.1n	A5.1-: Evaluation: Bad	t2
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -1176,7 +1176,7 @@ days	days	day	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg7.4">
+<s id="ParlaMint-IS_2019-12-17-48.seg7.4" senti_3="Negative" senti_6="mixed negative" senti_n="0.744">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 has	has	have	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 been	been	be	AUX	Tense=Past VerbForm=Part	A3+,Z5	A3p	A3+: Existing	t3
@@ -1229,7 +1229,7 @@ electricity	electricity	electricity	NOUN	Number=Sing	O3	O3	O3: Electricity and e
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t46
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg7.5">
+<s id="ParlaMint-IS_2019-12-17-48.seg7.5" senti_3="Neutral" senti_6="neutral positive" senti_n="2.980">
 For	For	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 example	example	example	NOUN	Number=Sing	A4.1	A4.1	A4.1: Generally kinds, groups, examples	t2
 <g/>
@@ -1258,7 +1258,7 @@ evening	evening	evening	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg7.6">
+<s id="ParlaMint-IS_2019-12-17-48.seg7.6" senti_3="Negative" senti_6="mixed negative" senti_n="0.928">
 <name type="PER">
 Richard	Richard	Richard	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 </name>
@@ -1301,7 +1301,7 @@ repair	repair	repair	VERB	VerbForm=Inf	A5.1+/A2.1,S8+/A1.1.2-,M1	A5.1p A2.1	A5.1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t35
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg7.7">
+<s id="ParlaMint-IS_2019-12-17-48.seg7.7" senti_3="Negative" senti_6="negative" senti_n="0.409">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 amount	amount	amount	NOUN	Number=Sing	N5	N5	N5: Quantities	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1339,7 +1339,7 @@ weekend	weekend	weekend	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t31
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg8" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg8.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg8.1" senti_3="Negative" senti_6="mixed negative" senti_n="0.687">
 According	According	accord	VERB	ExtPos=ADP VerbForm=Ger	A9-,A6.1+	A9n	A9-: Giving	t1
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 public	public	public	ADJ	Degree=Pos	S5+,A10+	S5p	S5+: Belonging to a group	t3
@@ -1379,7 +1379,7 @@ homes	homes	home	NOUN	Number=Plur	H4/H1c,M6	H4 H1	H4: Residence|H1: Architecture
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t33
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg8.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg8.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.310">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 challenger	challenger	challenger	NOUN	Number=Sing	S7.3+/S2mf	S7.3p S2	S7.3+: Competitive|S2: People	t2
 <g/>
@@ -1423,7 +1423,7 @@ one	one	one	NUM	NumForm=Word NumType=Card	N1,T3,T1.2	N1	N1: Numbers	t33
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg9" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg9.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg9.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.415">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t3
@@ -1461,7 +1461,7 @@ days	days	day	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t30
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t31
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg9.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg9.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.852">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 northern	northern	northern	ADJ	Degree=Pos	M6	M6	M6: Location and direction	t3
@@ -1491,7 +1491,7 @@ West	West	West	PROPN	Number=Sing	Z2,Z1mf	Z2	Z2: Geographical names	t21
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg9.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg9.3" senti_3="Positive" senti_6="mixed positive" senti_n="3.781">
 Rescue	Rescue	rescue	NOUN	Number=Sing	S8+,S8+/S5+c	S8p	S8+: Helping	t1
 teams	teams	team	NOUN	Number=Plur	S5+,K5.1/S5+	S5p	S5+: Belonging to a group	t2
 have	have	have	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -1509,7 +1509,7 @@ requests	requests	request	NOUN	Number=Plur	Q2.1,Q2.2	Q2.1	Q2.1: Speech: Communic
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg9.4">
+<s id="ParlaMint-IS_2019-12-17-48.seg9.4" senti_3="Neutral" senti_6="neutral positive" senti_n="2.801">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 shows	shows	show	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A10+,S1.1.1	A10p	A10+: Open; Finding; Showing	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -1548,7 +1548,7 @@ hit	hit	hit	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	E3-,A1.1.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t33
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg9.5">
+<s id="ParlaMint-IS_2019-12-17-48.seg9.5" senti_3="Neutral" senti_6="neutral positive" senti_n="3.367">
 Rescue	Rescue	rescue	NOUN	Number=Sing	S8+,S8+/S5+c	S8p	S8+: Helping	t1
 teams	teams	team	NOUN	Number=Plur	S5+,K5.1/S5+	S5p	S5+: Belonging to a group	t2
 have	have	have	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -1576,7 +1576,7 @@ addresses	addresses	address	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t19
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg9.6">
+<s id="ParlaMint-IS_2019-12-17-48.seg9.6" senti_3="Positive" senti_6="mixed positive" senti_n="3.681">
 <phr usas_tags="T1.1.1" usas_cats="T1.1.1" usas_glosses="T1.1.1: Time: Past">
 At	At	at	ADP	-	T1.1.1	T1.1.1	T1.1.1: Time: Past	t1
 that	that	that	DET	Number=Sing PronType=Dem	T1.1.1	T1.1.1	T1.1.1: Time: Past	t2
@@ -1622,7 +1622,7 @@ there	there	there	ADV	PronType=Dem	M6,T1.2	M6	M6: Location and direction	t34
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t35
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg9.7">
+<s id="ParlaMint-IS_2019-12-17-48.seg9.7" senti_3="Positive" senti_6="mixed positive" senti_n="3.569">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 rescue	rescue	rescue	NOUN	Number=Sing	S8+,S8+/S5+c	S8p	S8+: Helping	t2
 teams	teams	team	NOUN	Number=Plur	S5+,K5.1/S5+	S5p	S5+: Belonging to a group	t3
@@ -1648,7 +1648,7 @@ town	town	town	NOUN	Number=Sing	M7	M7	M7: Places	t19
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg9.8">
+<s id="ParlaMint-IS_2019-12-17-48.seg9.8" senti_3="Negative" senti_6="negative" senti_n="0.285">
 Farmers	Farmers	farmer	NOUN	Number=Plur	F4/S2mf	F4 S2	F4: Farming & Horticulture|S2: People	t1
 have	have	have	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 been	been	be	AUX	Tense=Past VerbForm=Part	A3+,Z5	A3p	A3+: Existing	t3
@@ -1685,7 +1685,7 @@ decades	decades	decade	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t29
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg10" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg10.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg10.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.639">
 Then	Then	then	ADV	PronType=Dem	N4,Z5,T1.2	N4	N4: Linear order	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1775,7 +1775,7 @@ situation	situation	situation	NOUN	Number=Sing	A3+,O4.1,M6,I3.1@	A3p	A3+: Existi
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg11" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg11.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg11.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.713">
 Health	Health	health	NOUN	Number=Sing	B2,X9.2	B2	B2: Health and disease	t1
 agencies	agencies	agency	NOUN	Number=Plur	I2.2/S5+c,G1.1c	I2.2 S5p	I2.2: Business: Selling|S5+: Belonging to a group	t2
 have	have	have	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -1850,7 +1850,7 @@ electricity	electricity	electricity	NOUN	Number=Sing	O3	O3	O3: Electricity and e
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t59
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg11.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg11.2" senti_3="Negative" senti_6="negative" senti_n="0.195">
 <phr usas_tags="Q1.3" usas_cats="Q1.3" usas_glosses="Q1.3: Telecommunications">
 Phone	Phone	phone	NOUN	Number=Sing	Q1.3	Q1.3	Q1.3: Telecommunications	t1
 calls	calls	call	NOUN	Number=Plur	Q1.3	Q1.3	Q1.3: Telecommunications	t2
@@ -1898,7 +1898,7 @@ people	people	people	NOUN	Number=Plur	S2mfc	S2	S2: People	t36
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg11.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg11.3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.406">
 Clearly	Clearly	clearly	ADV	-	A7+,A11.2+,A12+	A7p	A7+: Likely	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1930,7 +1930,7 @@ perform	perform	perform	VERB	VerbForm=Inf	A1.1.1,K4,X9.2+	A1.1.1	A1.1.1: General
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg11.4">
+<s id="ParlaMint-IS_2019-12-17-48.seg11.4" senti_3="Positive" senti_6="mixed positive" senti_n="3.969">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 public	public	public	NOUN	Number=Sing	S5+c	S5p	S5+: Belonging to a group	t2
 also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t3
@@ -1957,7 +1957,7 @@ finish	finish	finish	VERB	VerbForm=Inf	T2-,A1.5.1/N5.1+,A1.1.1,X9.2-	T2n	T2-: Ti
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg11.5">
+<s id="ParlaMint-IS_2019-12-17-48.seg11.5" senti_3="Neutral" senti_6="neutral negative" senti_n="2.401">
 Both	Both	both	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 short	short	short	ADJ	Degree=Pos	T1.3-,N3.7-,N3.3-,N5-,S1.2.4-,N3.8+@,F1%	T1.3n	T1.3-: Time period: short	t2
 and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1994,7 +1994,7 @@ Iceland	Iceland	Iceland	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t26
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg11.6">
+<s id="ParlaMint-IS_2019-12-17-48.seg11.6" senti_3="Neutral" senti_6="neutral positive" senti_n="2.616">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 has	has	have	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 been	been	be	AUX	Tense=Past VerbForm=Part	A3+,Z5	A3p	A3+: Existing	t3
@@ -2027,7 +2027,7 @@ system	system	system	NOUN	Number=Sing	X4.2,O3,M3,M4,Q1.3,Y2,B1,N2,G1.1c	X4.2	X4.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg11.7">
+<s id="ParlaMint-IS_2019-12-17-48.seg11.7" senti_3="Neutral" senti_6="neutral positive" senti_n="2.973">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t1
 believe	believe	believe	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t2
@@ -2045,7 +2045,7 @@ work	work	work	NOUN	Number=Sing	I3.1,A1.1.1,Q4,K2,C1	I3.1	I3.1: Work and employm
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg11.8">
+<s id="ParlaMint-IS_2019-12-17-48.seg11.8" senti_3="Neutral" senti_6="neutral negative" senti_n="2.462">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 know	know	know	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -2073,7 +2073,7 @@ deposit	deposit	deposit	NOUN	Number=Sing	O1.1,I1.1	O1.1	O1.1: Substances and mat
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg11.9">
+<s id="ParlaMint-IS_2019-12-17-48.seg11.9" senti_3="Negative" senti_6="mixed negative" senti_n="0.644">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 need	need	need	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	S6+	S6p	S6+: Strong obligation or necessity	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -2144,7 +2144,7 @@ defence	defence	defence	NOUN	Number=Sing	S8+,G3,G2.1c,Q2.2,K5.1,S7.3+	S8p	S8+: H
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg12" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg12.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg12.1" senti_3="Negative" senti_6="mixed negative" senti_n="0.957">
 Another	Another	another	DET	-	A6.1-,N5++	A6.1n	A6.1-: Comparing: Different	t1
 thing	thing	thing	NOUN	Number=Sing	O2,X4.1,A7-,S2mf,L2mf	O2	O2: Objects generally	t2
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t3
@@ -2188,7 +2188,7 @@ happen	happen	happen	VERB	VerbForm=Inf	A2.1+,A3+,X7-	A2.1p	A2.1+: Change	t35
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t36
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg12.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg12.2" senti_3="Positive" senti_6="positive" senti_n="5.048">
 <phr usas_tags="A13.4" usas_cats="A13.4" usas_glosses="A13.4: Degree: Approximators">
 In	In	in	ADP	-	A13.4	A13.4	A13.4: Degree: Approximators	t1
 a	a	a	DET	Definite=Ind PronType=Art	A13.4	A13.4	A13.4: Degree: Approximators	t2
@@ -2256,7 +2256,7 @@ Council	Council	Council	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t51
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t52
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg12.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg12.3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.106">
 Such	Such	such	ADJ	Degree=Pos	Z5,Z8	Z5	Z5: Grammatical bin	t1
 situations	situations	situation	NOUN	Number=Plur	A3+,O4.1,M6,I3.1@	A3p	A3+: Existing	t2
 need	need	need	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S6+	S6p	S6+: Strong obligation or necessity	t3
@@ -2305,7 +2305,7 @@ warnings	warnings	warning	NOUN	Number=Plur	X2.2+/A15-,A1.3+	X2.2p A15n	X2.2+: Kn
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg13" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg13.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg13.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.524">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'd	'd	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
@@ -2337,7 +2337,7 @@ advisers	advisers	adviser	NOUN	Number=Plur	S8+/S2mf	S8p S2	S8+: Helping|S2: Peop
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg13.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg13.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.596">
 Was	Was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 head	head	head	NOUN	Number=Sing	B1,S7.1+/S2mf,P1/S2mf,X1,M6,A4.1,S2mf,F2,H5/M4%	B1	B1: Anatomy and physiology	t3
@@ -2453,7 +2453,7 @@ operation	operation	operation	NOUN	Number=Sing	A1.1.1,B3,G3	A1.1.1	A1.1.1: Gener
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t94
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg13.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg13.3" senti_3="Negative" senti_6="mixed negative" senti_n="1.301">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 particular	particular	particular	ADJ	Degree=Pos	A4.2+,X7+	A4.2p	A4.2+: Detailed	t2
 <g/>
@@ -2499,7 +2499,7 @@ station	station	station	NOUN	Number=Sing	M3/H1c,G2.1/H1c,Q4.3,M7c,S7.1@	M3 H1	M3
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t36
 </s>
 <note type="kinesic:ringing" content="The president calls."/>
-<s id="ParlaMint-IS_2019-12-17-48.seg13.4">
+<s id="ParlaMint-IS_2019-12-17-48.seg13.4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.337">
 That	That	that	DET	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 group	group	group	NOUN	Number=Sing	S5+c,A4.1c,B3%	S5p	S5+: Belonging to a group	t2
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t3
@@ -2535,9 +2535,9 @@ council	council	council	NOUN	Number=Sing	G1.1c,S7.1+/S5+c	G1.1	G1.1: Government	
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IS_2019-12-17-48.u64" text_id="ParlaMint-IS-en_2019-12-17-48" subcorpus="Reference" lang="English" body="Unicameralism" term="23. kjörtímabil" session="150. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2019-12-17" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 150-48, 17.12.2019." speaker_role="Chairperson" speaker_id="SteingrimurSigfusson" speaker_name="Sigfússon, Steingrímur J." speaker_mp="MP" speaker_minister="notMinister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="Coalition" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-IS_2019-12-17-48.u64" text_id="ParlaMint-IS-en_2019-12-17-48" subcorpus="Reference" lang="English" body="Unicameralism" term="23. kjörtímabil" session="150. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2019-12-17" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 150-48, 17.12.2019." speaker_role="Chairperson" topic="Other" speaker_id="SteingrimurSigfusson" speaker_name="Sigfússon, Steingrímur J." speaker_mp="MP" speaker_minister="notMinister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="Coalition" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-IS_2019-12-17-48.seg191" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg191.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg191.1" senti_3="Positive" senti_6="positive" senti_n="4.527">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -2560,7 +2560,7 @@ Suðvest	Suðvest	Suðvest	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t10
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg191.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg191.2" senti_3="Positive" senti_6="positive" senti_n="4.586">
 "	"	"	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 <name type="ORG">
@@ -2576,7 +2576,7 @@ words	words	word	NOUN	Number=Plur	Q3	Q3	Q3: Language, speech and grammar	t8
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg191.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg191.3" senti_3="Positive" senti_6="positive" senti_n="4.939">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -2623,9 +2623,9 @@ Generals	Generals	Generals	PROPN	Number=Plur	Z99	Z99	Z99: Unmatched	t28
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2019-12-17-48.u65" text_id="ParlaMint-IS-en_2019-12-17-48" subcorpus="Reference" lang="English" body="Unicameralism" term="23. kjörtímabil" session="150. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2019-12-17" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 150-48, 17.12.2019." speaker_role="Regular" speaker_id="KatrinJakobsdottir" speaker_name="Jakobsdóttir, Katrín" speaker_mp="MP" speaker_minister="Minister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="Coalition" party_orientation="Centre-left to left" speaker_gender="F" speaker_birth="1976">
+<speech id="ParlaMint-IS_2019-12-17-48.u65" text_id="ParlaMint-IS-en_2019-12-17-48" subcorpus="Reference" lang="English" body="Unicameralism" term="23. kjörtímabil" session="150. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2019-12-17" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 150-48, 17.12.2019." speaker_role="Regular" topic="Other" speaker_id="KatrinJakobsdottir" speaker_name="Jakobsdóttir, Katrín" speaker_mp="MP" speaker_minister="Minister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="Coalition" party_orientation="Centre-left to left" speaker_gender="F" speaker_birth="1976">
 <p id="ParlaMint-IS_2019-12-17-48.seg192" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg192.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg192.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.142">
 <name type="LOC">
 Iceland	Iceland	Iceland	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t1
 <g/>
@@ -2638,7 +2638,7 @@ tells	tells	tell	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q2.2
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg193" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg193.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg193.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.138">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -2708,7 +2708,7 @@ January	January	January	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg194" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg194.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg194.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.309">
 Return	Return	return	VERB	Mood=Imp VerbForm=Fin	M1,A9-,N6	M1	M1: Moving, coming and going	t1
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 <name type="LOC">
@@ -2728,7 +2728,7 @@ December	December	December	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t5
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg195" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg195.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg195.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.588">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Guðni	Guðni	Guðni	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t2
@@ -2741,7 +2741,7 @@ Jóhannesson	Jóhannesson	Jóhannesson	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Persona
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg196" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg196.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg196.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.611">
 <name type="PER">
 Katrín	Katrín	Katrín	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Jakobsdóttir	Jakobsdóttir	Jakobsdóttir	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -2754,7 +2754,7 @@ daughter	daughter	daughter	NOUN	Number=Sing	S4f	S4	S4: Kin	t4
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg197" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg197.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg197.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.798">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Presidential	Presidential	presidential	ADJ	Degree=Pos	T1.3	T1.3	T1.3: Time: Period	t1
 Letters	Letters	letter	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t2
@@ -2769,7 +2769,7 @@ meetings	meetings	meeting	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t7
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg198" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg198.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg198.1" senti_3="Negative" senti_6="mixed negative" senti_n="1.208">
 By	By	by	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 request	request	request	NOUN	Number=Sing	Q2.1,Q2.2	Q2.1	Q2.1: Speech: Communicative	t3
@@ -2801,7 +2801,7 @@ postponed	postponed	postpone	VERB	Tense=Past VerbForm=Part Voice=Pass	T1.1.3	T1.
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg199" lang="English">
-<s id="ParlaMint-IS_2019-12-17-48.seg199.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg199.1" senti_3="Positive" senti_6="positive" senti_n="4.567">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2

@@ -1,7 +1,7 @@
 <note type="speaker" content="Head of the sitting."/>
-<speech id="ParlaMint-LV_2019-01-31-PT13-516-U1" text_id="ParlaMint-LV-en_2019-01-31-PT13-516" subcorpus="Reference" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2019-01-31" agenda="-" date="2019-01-31" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2019-01-31" speaker_role="Chairperson" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="NA" speaker_party_name="Nacionālā apvienība \"Visu Latvijai!\"–\"Tēvzemei un Brīvībai/LNNK\"" party_status="Coalition" party_orientation="Right" speaker_gender="F" speaker_birth="-">
+<speech id="ParlaMint-LV_2019-01-31-PT13-516-U1" text_id="ParlaMint-LV-en_2019-01-31-PT13-516" subcorpus="Reference" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2019-01-31" agenda="-" date="2019-01-31" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2019-01-31" speaker_role="Chairperson" topic="Mix" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="NA" speaker_party_name="Nacionālā apvienība \"Visu Latvijai!\"–\"Tēvzemei un Brīvībai/LNNK\"" party_status="Coalition" party_orientation="Right" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1" lang="English">
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.1">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.849">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Good	Good	good	ADJ	Degree=Pos	Z4	Z4	Z4: Discourse Bin	t1
 morning	morning	morning	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -13,7 +13,7 @@ Members	Members	Member	PROPN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a 
 <g/>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.2">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.241">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 invite	invite	invite	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -51,7 +51,7 @@ January	January	January	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names
 </phr>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.3">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.849">
 Changes	Changes	change	NOUN	Number=Plur	A2.1+,I1,B1	A2.1p	A2.1+: Change	t1
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -72,7 +72,7 @@ tabled	tabled	tab	VERB	Tense=Past VerbForm=Part Voice=Pass	Q1.2	Q1.2	Q1.2: Paper
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.4">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.4" senti_3="Neutral" senti_6="neutral positive" senti_n="2.985">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 commission	commission	commission	NOUN	Number=Sing	A1.1.1,I1.1/I2.2,G1.1,G3/S7.1+	A1.1.1	A1.1.1: General actions / making	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -138,7 +138,7 @@ Latvia	Latvia	Latvia	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t46
 <g/>
 ”	”	”	PUNCT	-	Z9	Z9	Z9: Trash can	t48
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.5">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.5" senti_3="Neutral" senti_6="neutral positive" senti_n="2.540">
 –	–	–	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Members	Members	Member	PROPN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t2
 elected	elected	elect	VERB	Tense=Past VerbForm=Part	G1.2/X7+	G1.2 X7p	G1.2: Politics|X7+: Wanted	t3
@@ -179,7 +179,7 @@ ministers	ministers	minister	NOUN	Number=Plur	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Go
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.6">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.6" senti_3="Neutral" senti_6="neutral negative" senti_n="1.703">
 Are	Are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t1
 Members	Members	Member	PROPN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t2
 opposed	opposed	oppose	VERB	Tense=Past VerbForm=Part Voice=Pass	S8-/E2-,A6.1-	S8n E2n	S8-: Hindering|E2-: Dislike	t3
@@ -194,7 +194,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Go
 </phr>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.7">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.7" senti_3="Negative" senti_6="mixed negative" senti_n="1.359">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 no	no	no	DET	-	Z6	Z6	Z6: Negative	t3
@@ -202,7 +202,7 @@ objection	objection	objection	NOUN	Number=Sing	E2-	E2n	E2-: Dislike	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.8">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.8" senti_3="Neutral" senti_6="neutral positive" senti_n="3.492">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 order	order	order	NOUN	Number=Sing	S7.1+/Q2.2,I2.2/Q2.2,A4.1,N4,G2.1+,G2.1,Q1.2/I1.1,O4.2+	S7.1p Q2.2	S7.1+: In power|Q2.2: Speech acts	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -213,7 +213,7 @@ amended	amended	amend	VERB	Tense=Past VerbForm=Part Voice=Pass	A2.1+	A2.1p	A2.1+
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.9">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.9" senti_3="Neutral" senti_6="neutral positive" senti_n="3.113">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 commission	commission	commission	NOUN	Number=Sing	A1.1.1,I1.1/I2.2,G1.1,G3/S7.1+	A1.1.1	A1.1.1: General actions / making	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -299,7 +299,7 @@ duties	duties	duty	NOUN	Number=Plur	S6+,G1.1/I1.3,T1.3/I3.1	S6p	S6+: Strong obli
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t65
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.10">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.10" senti_3="Neutral" senti_6="neutral negative" senti_n="1.703">
 Are	Are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t1
 Members	Members	Member	PROPN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t2
 opposed	opposed	oppose	VERB	Tense=Past VerbForm=Part Voice=Pass	S8-/E2-,A6.1-	S8n E2n	S8-: Hindering|E2-: Dislike	t3
@@ -314,7 +314,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Go
 </phr>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.11">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.11" senti_3="Negative" senti_6="mixed negative" senti_n="1.359">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 no	no	no	DET	-	Z6	Z6	Z6: Negative	t3
@@ -322,7 +322,7 @@ objection	objection	objection	NOUN	Number=Sing	E2-	E2n	E2-: Dislike	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.12">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.12" senti_3="Neutral" senti_6="neutral positive" senti_n="3.492">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 order	order	order	NOUN	Number=Sing	S7.1+/Q2.2,I2.2/Q2.2,A4.1,N4,G2.1+,G2.1,Q1.2/I1.1,O4.2+	S7.1p Q2.2	S7.1+: In power|Q2.2: Speech acts	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -333,7 +333,7 @@ amended	amended	amend	VERB	Tense=Past VerbForm=Part Voice=Pass	A2.1+	A2.1p	A2.1+
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.13">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.13" senti_3="Neutral" senti_6="neutral positive" senti_n="3.096">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 commission	commission	commission	NOUN	Number=Sing	A1.1.1,I1.1/I2.2,G1.1,G3/S7.1+	A1.1.1	A1.1.1: General actions / making	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -419,7 +419,7 @@ duties	duties	duty	NOUN	Number=Plur	S6+,G1.1/I1.3,T1.3/I3.1	S6p	S6+: Strong obli
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t65
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.14">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.14" senti_3="Neutral" senti_6="neutral negative" senti_n="1.703">
 Are	Are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t1
 Members	Members	Member	PROPN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t2
 opposed	opposed	oppose	VERB	Tense=Past VerbForm=Part Voice=Pass	S8-/E2-,A6.1-	S8n E2n	S8-: Hindering|E2-: Dislike	t3
@@ -434,7 +434,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Go
 </phr>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.15">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.15" senti_3="Negative" senti_6="mixed negative" senti_n="1.359">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 no	no	no	DET	-	Z6	Z6	Z6: Negative	t3
@@ -442,7 +442,7 @@ objection	objection	objection	NOUN	Number=Sing	E2-	E2n	E2-: Dislike	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.16">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.16" senti_3="Neutral" senti_6="neutral positive" senti_n="3.492">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 order	order	order	NOUN	Number=Sing	S7.1+/Q2.2,I2.2/Q2.2,A4.1,N4,G2.1+,G2.1,Q1.2/I1.1,O4.2+	S7.1p Q2.2	S7.1+: In power|Q2.2: Speech acts	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -453,7 +453,7 @@ amended	amended	amend	VERB	Tense=Past VerbForm=Part Voice=Pass	A2.1+	A2.1p	A2.1+
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.17">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.17" senti_3="Neutral" senti_6="neutral positive" senti_n="3.051">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 commission	commission	commission	NOUN	Number=Sing	A1.1.1,I1.1/I2.2,G1.1,G3/S7.1+	A1.1.1	A1.1.1: General actions / making	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -541,7 +541,7 @@ duties	duties	duty	NOUN	Number=Plur	S6+,G1.1/I1.3,T1.3/I3.1	S6p	S6+: Strong obli
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t67
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.18">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.18" senti_3="Neutral" senti_6="neutral negative" senti_n="1.703">
 Are	Are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t1
 Members	Members	Member	PROPN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t2
 opposed	opposed	oppose	VERB	Tense=Past VerbForm=Part Voice=Pass	S8-/E2-,A6.1-	S8n E2n	S8-: Hindering|E2-: Dislike	t3
@@ -556,7 +556,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Go
 </phr>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.19">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.19" senti_3="Negative" senti_6="mixed negative" senti_n="1.359">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 no	no	no	DET	-	Z6	Z6	Z6: Negative	t3
@@ -564,7 +564,7 @@ objection	objection	objection	NOUN	Number=Sing	E2-	E2n	E2-: Dislike	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.20">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.20" senti_3="Neutral" senti_6="neutral positive" senti_n="3.492">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 order	order	order	NOUN	Number=Sing	S7.1+/Q2.2,I2.2/Q2.2,A4.1,N4,G2.1+,G2.1,Q1.2/I1.1,O4.2+	S7.1p Q2.2	S7.1+: In power|Q2.2: Speech acts	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -575,7 +575,7 @@ amended	amended	amend	VERB	Tense=Past VerbForm=Part Voice=Pass	A2.1+	A2.1p	A2.1+
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.21">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.21" senti_3="Neutral" senti_6="neutral positive" senti_n="2.950">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 commission	commission	commission	NOUN	Number=Sing	A1.1.1,I1.1/I2.2,G1.1,G3/S7.1+	A1.1.1	A1.1.1: General actions / making	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -646,7 +646,7 @@ Par	Par	par	NOUN	Number=Sing	A6.1+	A6.1p	A6.1+: Comparing: Similar	t48
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t49
 </name>
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.22">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.22" senti_3="Neutral" senti_6="neutral negative" senti_n="2.046">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 Members	Members	Member	PROPN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t2
 elected	elected	elect	VERB	Tense=Past VerbForm=Part	G1.2/X7+	G1.2 X7p	G1.2: Politics|X7+: Wanted	t3
@@ -671,7 +671,7 @@ Ministers	Ministers	minister	NOUN	Number=Plur	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Go
 <g/>
 ’	’	’	PUNCT	-	Z5	Z5	Z5: Grammatical bin	t19
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.23">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.23" senti_3="Neutral" senti_6="neutral negative" senti_n="1.703">
 Are	Are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t1
 Members	Members	Member	PROPN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t2
 opposed	opposed	oppose	VERB	Tense=Past VerbForm=Part Voice=Pass	S8-/E2-,A6.1-	S8n E2n	S8-: Hindering|E2-: Dislike	t3
@@ -686,7 +686,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Go
 </phr>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.24">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.24" senti_3="Negative" senti_6="mixed negative" senti_n="1.359">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 no	no	no	DET	-	Z6	Z6	Z6: Negative	t3
@@ -694,7 +694,7 @@ objection	objection	objection	NOUN	Number=Sing	E2-	E2n	E2-: Dislike	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.25">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.25" senti_3="Neutral" senti_6="neutral positive" senti_n="3.492">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 order	order	order	NOUN	Number=Sing	S7.1+/Q2.2,I2.2/Q2.2,A4.1,N4,G2.1+,G2.1,Q1.2/I1.1,O4.2+	S7.1p Q2.2	S7.1+: In power|Q2.2: Speech acts	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -705,7 +705,7 @@ amended	amended	amend	VERB	Tense=Past VerbForm=Part Voice=Pass	A2.1+	A2.1p	A2.1+
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.26">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.26" senti_3="Neutral" senti_6="neutral positive" senti_n="2.978">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 commission	commission	commission	NOUN	Number=Sing	A1.1.1,I1.1/I2.2,G1.1,G3/S7.1+	A1.1.1	A1.1.1: General actions / making	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -767,7 +767,7 @@ Par	Par	par	NOUN	Number=Sing	A6.1+	A6.1p	A6.1+: Comparing: Similar	t43
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t44
 </name>
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.27">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.27" senti_3="Neutral" senti_6="neutral negative" senti_n="2.023">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 Members	Members	Member	PROPN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t2
 elected	elected	elect	VERB	Tense=Past VerbForm=Part	G1.2/X7+	G1.2 X7p	G1.2: Politics|X7+: Wanted	t3
@@ -792,7 +792,7 @@ Ministers	Ministers	minister	NOUN	Number=Plur	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Go
 <g/>
 ’	’	’	PUNCT	-	Z5	Z5	Z5: Grammatical bin	t19
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.28">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.28" senti_3="Neutral" senti_6="neutral negative" senti_n="1.703">
 Are	Are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t1
 Members	Members	Member	PROPN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t2
 opposed	opposed	oppose	VERB	Tense=Past VerbForm=Part Voice=Pass	S8-/E2-,A6.1-	S8n E2n	S8-: Hindering|E2-: Dislike	t3
@@ -807,7 +807,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Go
 </phr>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.29">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.29" senti_3="Negative" senti_6="mixed negative" senti_n="1.359">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 no	no	no	DET	-	Z6	Z6	Z6: Negative	t3
@@ -815,7 +815,7 @@ objection	objection	objection	NOUN	Number=Sing	E2-	E2n	E2-: Dislike	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.30">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.30" senti_3="Neutral" senti_6="neutral positive" senti_n="3.492">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 order	order	order	NOUN	Number=Sing	S7.1+/Q2.2,I2.2/Q2.2,A4.1,N4,G2.1+,G2.1,Q1.2/I1.1,O4.2+	S7.1p Q2.2	S7.1+: In power|Q2.2: Speech acts	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -826,7 +826,7 @@ amended	amended	amend	VERB	Tense=Past VerbForm=Part Voice=Pass	A2.1+	A2.1p	A2.1+
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.31">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.31" senti_3="Neutral" senti_6="neutral positive" senti_n="3.058">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 commission	commission	commission	NOUN	Number=Sing	A1.1.1,I1.1/I2.2,G1.1,G3/S7.1+	A1.1.1	A1.1.1: General actions / making	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -916,7 +916,7 @@ Ministers	Ministers	minister	NOUN	Number=Plur	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Go
 <g/>
 ’	’	’	PUNCT	-	Z5	Z5	Z5: Grammatical bin	t67
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.32">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.32" senti_3="Neutral" senti_6="neutral negative" senti_n="1.703">
 Are	Are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t1
 Members	Members	Member	PROPN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t2
 opposed	opposed	oppose	VERB	Tense=Past VerbForm=Part Voice=Pass	S8-/E2-,A6.1-	S8n E2n	S8-: Hindering|E2-: Dislike	t3
@@ -931,7 +931,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Go
 </phr>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.33">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.33" senti_3="Negative" senti_6="mixed negative" senti_n="1.359">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 no	no	no	DET	-	Z6	Z6	Z6: Negative	t3
@@ -939,7 +939,7 @@ objection	objection	objection	NOUN	Number=Sing	E2-	E2n	E2-: Dislike	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.34">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.34" senti_3="Neutral" senti_6="neutral positive" senti_n="3.492">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 order	order	order	NOUN	Number=Sing	S7.1+/Q2.2,I2.2/Q2.2,A4.1,N4,G2.1+,G2.1,Q1.2/I1.1,O4.2+	S7.1p Q2.2	S7.1+: In power|Q2.2: Speech acts	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -950,7 +950,7 @@ amended	amended	amend	VERB	Tense=Past VerbForm=Part Voice=Pass	A2.1+	A2.1p	A2.1+
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.35">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.35" senti_3="Neutral" senti_6="neutral positive" senti_n="3.079">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 commission	commission	commission	NOUN	Number=Sing	A1.1.1,I1.1/I2.2,G1.1,G3/S7.1+	A1.1.1	A1.1.1: General actions / making	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1054,7 +1054,7 @@ duties	duties	duty	NOUN	Number=Plur	S6+,G1.1/I1.3,T1.3/I3.1	S6p	S6+: Strong obli
 <g/>
 ’	’	’	PUNCT	-	Z5	Z5	Z5: Grammatical bin	t77
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.36">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.36" senti_3="Neutral" senti_6="neutral negative" senti_n="1.703">
 Are	Are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t1
 Members	Members	Member	PROPN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t2
 opposed	opposed	oppose	VERB	Tense=Past VerbForm=Part Voice=Pass	S8-/E2-,A6.1-	S8n E2n	S8-: Hindering|E2-: Dislike	t3
@@ -1069,7 +1069,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Go
 </phr>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.37">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.37" senti_3="Negative" senti_6="mixed negative" senti_n="1.359">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 no	no	no	DET	-	Z6	Z6	Z6: Negative	t3
@@ -1077,7 +1077,7 @@ objection	objection	objection	NOUN	Number=Sing	E2-	E2n	E2-: Dislike	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.38">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.38" senti_3="Neutral" senti_6="neutral positive" senti_n="3.492">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 order	order	order	NOUN	Number=Sing	S7.1+/Q2.2,I2.2/Q2.2,A4.1,N4,G2.1+,G2.1,Q1.2/I1.1,O4.2+	S7.1p Q2.2	S7.1+: In power|Q2.2: Speech acts	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1088,7 +1088,7 @@ amended	amended	amend	VERB	Tense=Past VerbForm=Part Voice=Pass	A2.1+	A2.1p	A2.1+
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.39">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.39" senti_3="Neutral" senti_6="neutral positive" senti_n="3.496">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 are	are	be	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 starting	starting	start	VERB	Tense=Pres VerbForm=Part	T2+,E5-,E3-	T2p	T2+: Time: Beginning	t3
@@ -1101,7 +1101,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	Q1.2/X7+	Q1.2 X7p	Q1.2: Paper documents an
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.40">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.40" senti_3="Neutral" senti_6="neutral positive" senti_n="2.884">
 <phr usas_tags="A7+" usas_cats="A7p" usas_glosses="A7+: Likely">
 On	On	on	ADP	-	A7+	A7p	A7+: Likely	t1
 the	the	the	DET	Definite=Def PronType=Art	A7+	A7p	A7+: Likely	t2
@@ -1120,7 +1120,7 @@ term	term	term	NOUN	Number=Sing	Q3,T1.3,S6+	Q3	Q3: Language, speech and grammar	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.41">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.41" senti_3="Neutral" senti_6="neutral positive" senti_n="2.964">
 Draft	Draft	draft	NOUN	Number=Sing	Q1.2,G3,Q1.2/I1	Q1.2	Q1.2: Paper documents and writing	t1
 decision	decision	decision	NOUN	Number=Sing	X6+	X6p	X6+: Decided	t2
 “	“	“	PUNCT	-	Z9	Z9	Z9: Trash can	t3
@@ -1161,7 +1161,7 @@ Latvia	Latvia	Latvia	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t27
 <g/>
 ”	”	”	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.42">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.42" senti_3="Neutral" senti_6="neutral positive" senti_n="2.533">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Members	Members	member	NOUN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t2
 elected	elected	elect	VERB	Tense=Past VerbForm=Part	G1.2/X7+	G1.2 X7p	G1.2: Politics|X7+: Wanted	t3
@@ -1204,7 +1204,7 @@ ministers	ministers	minister	NOUN	Number=Plur	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Go
 <g/>
 ’	’	’	PUNCT	-	Z5	Z5	Z5: Grammatical bin	t29
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.43">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U1-P1.43" senti_3="Neutral" senti_6="neutral positive" senti_n="2.861">
 Member	Member	member	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 <name type="PER">
 Aldis	Aldis	Aldis	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -1232,9 +1232,9 @@ applications	applications	application	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Per
 </p>
 </speech>
 <note type="speaker" content="A. Adamovich (JV)."/>
-<speech id="ParlaMint-LV_2019-01-31-PT13-516-U2" text_id="ParlaMint-LV-en_2019-01-31-PT13-516" subcorpus="Reference" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2019-01-31" agenda="-" date="2019-01-31" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2019-01-31" speaker_role="Regular" speaker_id="AdamovičsAldis" speaker_name="Adamovičs, Aldis" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JV" speaker_party_name="JAUNĀ VIENOTĪBA" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-LV_2019-01-31-PT13-516-U2" text_id="ParlaMint-LV-en_2019-01-31-PT13-516" subcorpus="Reference" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2019-01-31" agenda="-" date="2019-01-31" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2019-01-31" speaker_role="Regular" topic="Government Operations" speaker_id="AdamovičsAldis" speaker_name="Adamovičs, Aldis" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JV" speaker_party_name="JAUNĀ VIENOTĪBA" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1" lang="English">
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.1">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.323">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Good	Good	good	ADJ	Degree=Pos	Z4	Z4	Z4: Discourse Bin	t1
 morning	morning	morning	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -1253,19 +1253,19 @@ Saeima	Saeima	Saeima	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t8
 </name>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.2">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.804">
 <name type="ORG">
 Presidium	Presidium	presidium	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t1
 <g/>
 </name>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.3">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.069">
 Colleagues	Colleagues	colleague	NOUN	Number=Plur	I3.2/S2mf	I3.2 S2	I3.2: Work and employment: Professionalism|S2: People	t1
 <g/>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.4">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.4" senti_3="Neutral" senti_6="neutral negative" senti_n="2.448">
 At	At	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 its	its	its	PRON	Gender=Neut Number=Sing Person=3 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t3
@@ -1325,7 +1325,7 @@ Minister	Minister	minister	NOUN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Gove
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t46
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.5">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.5" senti_3="Neutral" senti_6="neutral positive" senti_n="3.451">
 <phr usas_tags="T1.1.3" usas_cats="T1.1.3" usas_glosses="T1.1.3: Time: Future">
 Next	Next	next	ADJ	Degree=Pos	T1.1.3	T1.1.3	T1.1.3: Time: Future	t1
 candidate	candidate	candidate	NOUN	Number=Sing	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
@@ -1345,7 +1345,7 @@ Latvia	Latvia	Latvia	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t9
 <g/>
 ”	”	”	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.6">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.6" senti_3="Neutral" senti_6="neutral positive" senti_n="2.750">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 list	list	list	NOUN	Number=Sing	Q1.2,N4,M4	Q1.2	Q1.2: Paper documents and writing	t3
@@ -1400,7 +1400,7 @@ period	period	period	NOUN	Number=Sing	T1.3,B1,Q3,P1/T1.3	T1.3	T1.3: Time: Period
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t39
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.7">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.7" senti_3="Neutral" senti_6="neutral positive" senti_n="3.406">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Commission	Commission	commission	NOUN	Number=Sing	I2.2,G3/S7.1+	I2.2	I2.2: Business: Selling	t2
@@ -1456,7 +1456,7 @@ Latvia	Latvia	Latvia	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t37
 <g/>
 ”	”	”	PUNCT	-	Z9	Z9	Z9: Trash can	t39
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.8">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U2-P1.8" senti_3="Neutral" senti_6="neutral positive" senti_n="2.533">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Members	Members	member	NOUN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t2
 elected	elected	elect	VERB	Tense=Past VerbForm=Part	G1.2/X7+	G1.2 X7p	G1.2: Politics|X7+: Wanted	t3
@@ -1502,15 +1502,15 @@ ministers	ministers	minister	NOUN	Number=Plur	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Go
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-LV_2019-01-31-PT13-516-U306" text_id="ParlaMint-LV-en_2019-01-31-PT13-516" subcorpus="Reference" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2019-01-31" agenda="-" date="2019-01-31" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2019-01-31" speaker_role="Regular" speaker_id="CilevičsBoriss" speaker_name="Cilevičs, Boriss" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SASKAŅA" speaker_party_name="SASKAŅA" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-LV_2019-01-31-PT13-516-U306" text_id="ParlaMint-LV-en_2019-01-31-PT13-516" subcorpus="Reference" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2019-01-31" agenda="-" date="2019-01-31" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2019-01-31" speaker_role="Regular" topic="International Affairs" speaker_id="CilevičsBoriss" speaker_name="Cilevičs, Boriss" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SASKAŅA" speaker_party_name="SASKAŅA" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1" lang="English">
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.1">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.000">
 Dear	Dear	dear	ADJ	Degree=Pos	E2+,I1.3+	E2p	E2+: Like	t1
 colleagues	colleagues	colleague	NOUN	Number=Plur	I3.2/S2mf	I3.2 S2	I3.2: Work and employment: Professionalism|S2: People	t2
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.2">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.157">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 ask	ask	ask	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2	Q2.2	Q2.2: Speech acts	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -1545,7 +1545,7 @@ Hall	Hall	Hall	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t25
 </name>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.3">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.794">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -1579,7 +1579,7 @@ Ambassador	Ambassador	Ambassador	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.4">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U306-P1.4" senti_3="Positive" senti_6="positive" senti_n="4.555">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -1590,9 +1590,9 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	
 </p>
 </speech>
 <note type="speaker" content="Head of the sitting."/>
-<speech id="ParlaMint-LV_2019-01-31-PT13-516-U307" text_id="ParlaMint-LV-en_2019-01-31-PT13-516" subcorpus="Reference" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2019-01-31" agenda="-" date="2019-01-31" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2019-01-31" speaker_role="Chairperson" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="NA" speaker_party_name="Nacionālā apvienība \"Visu Latvijai!\"–\"Tēvzemei un Brīvībai/LNNK\"" party_status="Coalition" party_orientation="Right" speaker_gender="F" speaker_birth="-">
+<speech id="ParlaMint-LV_2019-01-31-PT13-516-U307" text_id="ParlaMint-LV-en_2019-01-31-PT13-516" subcorpus="Reference" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2019-01-31" agenda="-" date="2019-01-31" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2019-01-31" speaker_role="Chairperson" topic="Other" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="NA" speaker_party_name="Nacionālā apvienība \"Visu Latvijai!\"–\"Tēvzemei un Brīvībai/LNNK\"" party_status="Coalition" party_orientation="Right" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-LV_2019-01-31-PT13-516-U307-P1" lang="English">
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U307-P1.1">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U307-P1.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.748">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -1636,7 +1636,7 @@ framework	framework	framework	NOUN	Number=Sing	X4.2	X4.2	X4.2: Mental object: Me
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U307-P1.2">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U307-P1.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.136">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Let	Let	let	VERB	Mood=Imp VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
@@ -1655,7 +1655,7 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-LV_2019-01-31-PT13-516-U307-P1.3">
+<s id="ParlaMint-LV_2019-01-31-PT13-516-U307-P1.3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.218">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <phr usas_tags="M6" usas_cats="M6" usas_glosses="M6: Location and direction">

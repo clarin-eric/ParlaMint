@@ -1,9 +1,9 @@
 <note type="editorial" content="The meeting was opened at 2.18 p.m. and chaired by Siegfried Bracke."/>
 <note type="editorial" content="The meeting was called to order at 2.18 p.m. and chaired by Mr. Siegfried Bracke."/>
 <note type="speaker" content="The President shall:"/>
-<speech id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u1" text_id="ParlaMint-BE-en_2017-04-27-54-plenair-ip165x" subcorpus="Reference" lang="English" body="Lower house" term="Zittingperiode 54" session="-" meeting="Plenaire zitting 165 van 27-04-2017" sitting="-" agenda="-" date="2017-04-27" title="Belgian parliamentary corpus ParlaMint-BE-en, plenary session of 27-04-2017" speaker_role="Chairperson" speaker_id="BrackeSiegfried" speaker_name="Bracke, Siegfried" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1953">
+<speech id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u1" text_id="ParlaMint-BE-en_2017-04-27-54-plenair-ip165x" subcorpus="Reference" lang="English" body="Lower house" term="Zittingperiode 54" session="-" meeting="Plenaire zitting 165 van 27-04-2017" sitting="-" agenda="-" date="2017-04-27" title="Belgian parliamentary corpus ParlaMint-BE-en, plenary session of 27-04-2017" speaker_role="Chairperson" topic="Other" speaker_id="BrackeSiegfried" speaker_name="Bracke, Siegfried" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1953">
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s4">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s4" senti_3="Positive" senti_6="mixed positive" senti_n="3.913">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -13,7 +13,7 @@ open	open	open	ADJ	Degree=Pos	A10+,S1.2.1+,X6-,X5.2+,A7+	A10p	A10+: Open; Findin
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg2" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s5">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s5" senti_3="Positive" senti_6="mixed positive" senti_n="3.676">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t2
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -73,9 +73,9 @@ opened	opened	open	VERB	Tense=Past VerbForm=Part Voice=Pass	A1.1.1,T2+	A1.1.1	A1
 <note type="editorial" content="- Ms Annemie Turtelboom to the Prime Minister on \"Saudi Arabia's Election to the United Nations Commission on the Status of Women\" (No. P2001)"/>
 <note type="editorial" content="- Catherine Fonck to the Prime Minister on \"Saudi Arabia's Election to the UN Commission on the Status of Women\" (P2002 No.)"/>
 <note type="speaker" content="01.01. Wouter De Vriendt (Ecolo-Green):"/>
-<speech id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u2" text_id="ParlaMint-BE-en_2017-04-27-54-plenair-ip165x" subcorpus="Reference" lang="English" body="Lower house" term="Zittingperiode 54" session="-" meeting="Plenaire zitting 165 van 27-04-2017" sitting="-" agenda="-" date="2017-04-27" title="Belgian parliamentary corpus ParlaMint-BE-en, plenary session of 27-04-2017" speaker_role="Regular" speaker_id="DeVriendtWouter" speaker_name="De Vriendt, Wouter" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Groen" speaker_party_name="Groen" party_status="Opposition" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1977">
+<speech id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u2" text_id="ParlaMint-BE-en_2017-04-27-54-plenair-ip165x" subcorpus="Reference" lang="English" body="Lower house" term="Zittingperiode 54" session="-" meeting="Plenaire zitting 165 van 27-04-2017" sitting="-" agenda="-" date="2017-04-27" title="Belgian parliamentary corpus ParlaMint-BE-en, plenary session of 27-04-2017" speaker_role="Regular" topic="Civil Rights" speaker_id="DeVriendtWouter" speaker_name="De Vriendt, Wouter" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Groen" speaker_party_name="Groen" party_status="Opposition" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1977">
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg3" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s69" senti_3="Neutral" senti_6="neutral negative" senti_n="2.154">
 <phr usas_tags="Z1m" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 Prime	Prime	Prime	ADJ	Degree=Pos	Z1m	Z1	Z1: Personal names	t2
@@ -116,7 +116,7 @@ Commission	Commission	Commission	PROPN	Number=Sing	I2.2,G3/S7.1+	I2.2	I2.2: Busi
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s70" senti_3="Neutral" senti_6="neutral positive" senti_n="3.421">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -131,7 +131,7 @@ worldwide	worldwide	worldwide	ADV	-	W3,M7,A1.8+	W3	W3: Geographical terms	t10
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s71" senti_3="Negative" senti_6="mixed negative" senti_n="1.114">
 <name type="PER">
 Didier	Didier	Didier	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Reynders	Reynders	Reynder	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -158,7 +158,7 @@ committee	committee	committee	NOUN	Number=Sing	S7.1+/S5+c	S7.1p S5p	S7.1+: In po
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg4" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s72" senti_3="Negative" senti_6="negative" senti_n="0.002">
 However	However	however	ADV	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -175,7 +175,7 @@ Arabia	Arabia	Arabia	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t10
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s73" senti_3="Negative" senti_6="mixed negative" senti_n="1.355">
 Without	Without	without	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 permission	permission	permission	NOUN	Number=Sing	S7.4+	S7.4p	S7.4+: Allowed	t3
@@ -200,7 +200,7 @@ marry	marry	marry	VERB	VerbForm=Inf	S4,A2.2	S4	S4: Kin	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s74" senti_3="Negative" senti_6="negative" senti_n="0.010">
 Women	Women	woman	NOUN	Number=Plur	S2.1f	S2.1	S2.1: People: Female	t1
 must	must	must	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or necessity	t2
 not	not	not	PART	-	Z6	Z6	Z6: Negative	t3
@@ -228,7 +228,7 @@ protected	protected	protect	VERB	Tense=Past VerbForm=Part	S8+/A15+,A10-	S8p A15p
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg5" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s75" senti_3="Negative" senti_6="negative" senti_n="0.385">
 <name type="PER">
 Alexander	Alexander	Alexander	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 De	De	De	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -247,7 +247,7 @@ indefenable	indefenable	indefenable	ADJ	Degree=Pos	Z99	Z99	Z99: Unmatched	t9
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg6" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s76" senti_3="Negative" senti_6="negative" senti_n="0.043">
 This	This	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 <name type="ORG">
 UN	UN	UN	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -273,7 +273,7 @@ so	so	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s77" senti_3="Negative" senti_6="negative" senti_n="0.137">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -331,7 +331,7 @@ itself	itself	itself	PRON	Gender=Neut Number=Sing Person=3 PronType=Emp Reflex=Y
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg7" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s78" senti_3="Negative" senti_6="negative" senti_n="0.054">
 Here	Here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -360,7 +360,7 @@ shame	shame	shame	NOUN	Number=Sing	G2.2-	G2.2n	G2.2-: Unethical	t18
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg8" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s79" senti_3="Negative" senti_6="negative" senti_n="0.318">
 Colleagues	Colleagues	colleague	NOUN	Number=Plur	Z2,Z3c	Z2	Z2: Geographical names	t1
 of	of	of	ADP	-	Z2,Z3c	Z2	Z2: Geographical names	t2
 <name type="MISC">
@@ -379,7 +379,7 @@ superiority	superiority	superiority	NOUN	Number=Sing	A5.1++,S7.1++,S1.2.3+	A5.1p
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s80" senti_3="Negative" senti_6="negative" senti_n="0.044">
 Throwing	Throwing	throw	VERB	VerbForm=Ger	M2,A2.2,Q2.2,A1.1.1,X2.5-	M2	M2: Putting, pulling, pushing, transporting	t1
 women	women	woman	NOUN	Number=Plur	S2.1f	S2.1	S2.1: People: Female	t2
 <g/>
@@ -403,7 +403,7 @@ dollars	dollars	dollar	NOUN	Number=Plur	I1	I1	I1: Money generally	t13
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg9" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s81" senti_3="Negative" senti_6="mixed negative" senti_n="1.252">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 therefore	therefore	therefore	ADV	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -467,9 +467,9 @@ Commission	Commission	Commission	PROPN	Number=Sing	I2.2,G3/S7.1+	I2.2	I2.2: Busi
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u172" text_id="ParlaMint-BE-en_2017-04-27-54-plenair-ip165x" subcorpus="Reference" lang="English" body="Lower house" term="Zittingperiode 54" session="-" meeting="Plenaire zitting 165 van 27-04-2017" sitting="-" agenda="-" date="2017-04-27" title="Belgian parliamentary corpus ParlaMint-BE-en, plenary session of 27-04-2017" speaker_role="Chairperson" speaker_id="BrackeSiegfried" speaker_name="Bracke, Siegfried" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1953">
+<speech id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u172" text_id="ParlaMint-BE-en_2017-04-27-54-plenair-ip165x" subcorpus="Reference" lang="English" body="Lower house" term="Zittingperiode 54" session="-" meeting="Plenaire zitting 165 van 27-04-2017" sitting="-" agenda="-" date="2017-04-27" title="Belgian parliamentary corpus ParlaMint-BE-en, plenary session of 27-04-2017" speaker_role="Chairperson" topic="Other" speaker_id="BrackeSiegfried" speaker_name="Bracke, Siegfried" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1953">
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1175" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2810" senti_3="Neutral" senti_6="neutral positive" senti_n="2.552">
 Does	Does	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t1
 anyone	anyone	anyone	PRON	Number=Sing	Z8mfc	Z8	Z8: Pronouns	t2
 ask	ask	ask	VERB	VerbForm=Inf	Q2.2	Q2.2	Q2.2: Speech acts	t3
@@ -485,7 +485,7 @@ vote	vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t8
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1176" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2812" senti_3="Neutral" senti_6="neutral positive" senti_n="2.510">
 Is	Is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t1
 anyone	anyone	anyone	PRON	Number=Sing	Z8mfc	Z8	Z8: Pronouns	t2
 asking	asking	ask	VERB	Tense=Pres VerbForm=Part	Q2.2,I1.3	Q2.2	Q2.2: Speech acts	t3
@@ -505,7 +505,7 @@ vote	vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t12
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1177" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2814">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2814" senti_3="Neutral" senti_6="neutral positive" senti_n="3.055">
 Starting	Starting	starting	VERB	VerbForm=Ger	T2+	T2p	T2+: Time: Beginning	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -514,7 +514,7 @@ vote	vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t4
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1178" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2815">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2815" senti_3="Neutral" senti_6="neutral positive" senti_n="2.809">
 Start	Start	start	VERB	Mood=Imp Person=2 VerbForm=Fin	T2+,E5-,E3-	T2p	T2+: Time: Beginning	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 voting	voting	voting	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t3
@@ -523,7 +523,7 @@ voting	voting	voting	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t3
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1179" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2816" senti_3="Neutral" senti_6="neutral positive" senti_n="3.401">
 Did	Did	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t1
 everyone	everyone	everyone	PRON	Number=Sing	Z8/N5.1+c	Z8 N5.1p	Z8: Pronouns|N5.1+: Entire; maximum	t2
 vote	vote	vote	VERB	VerbForm=Inf	G1.2	G1.2	G1.2: Politics	t3
@@ -536,12 +536,12 @@ voices	voices	voice	NOUN	Number=Plur	Q2.1,X2.1,Q3	Q2.1	Q2.1: Speech: Communicati
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2817">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2817" senti_3="Neutral" senti_6="neutral positive" senti_n="3.450">
 /	/	/	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1180" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2818">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2818" senti_3="Neutral" senti_6="neutral negative" senti_n="2.348">
 Did	Did	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t1
 everyone	everyone	everyone	PRON	Number=Sing	Z8/N5.1+c	Z8 N5.1p	Z8: Pronouns|N5.1+: Entire; maximum	t2
 vote	vote	vote	VERB	VerbForm=Inf	G1.2	G1.2	G1.2: Politics	t3
@@ -556,7 +556,7 @@ vote	vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t7
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1181" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2819">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2819" senti_3="Neutral" senti_6="neutral positive" senti_n="3.342">
 End	End	end	NOUN	Number=Sing	M6,T2-,O2,X7+,N4	M6	M6: Location and direction	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 vote	vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t3
@@ -564,7 +564,7 @@ vote	vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t3
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1182" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2820">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2820" senti_3="Neutral" senti_6="neutral positive" senti_n="3.113">
 End	End	end	NOUN	Number=Sing	M6,T2-,O2,X7+,N4	M6	M6: Location and direction	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 voting	voting	voting	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t3
@@ -573,7 +573,7 @@ voting	voting	voting	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t3
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1183" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2821">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2821" senti_3="Neutral" senti_6="neutral positive" senti_n="3.321">
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
 Result	Result	result	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t1
 of	of	of	ADP	-	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t2
@@ -584,7 +584,7 @@ vote	vote	vote	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t4
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1184" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2822">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2822" senti_3="Neutral" senti_6="neutral positive" senti_n="2.885">
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
 Result	Result	result	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t1
 of	of	of	ADP	-	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t2
@@ -596,71 +596,71 @@ vote	vote	vote	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t4
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1185" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2824">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2824" senti_3="Neutral" senti_6="neutral positive" senti_n="3.147">
 Yes	Yes	yes	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1186" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2825">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2825" senti_3="Neutral" senti_6="neutral positive" senti_n="3.226">
 129	129	129	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1187" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2826">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2826" senti_3="Positive" senti_6="mixed positive" senti_n="3.570">
 Yes	Yes	yes	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1188" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2827">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2827" senti_3="Neutral" senti_6="neutral positive" senti_n="3.280">
 No	No	no	INTJ	Polarity=Neg	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1189" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2828">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2828" senti_3="Neutral" senti_6="neutral positive" senti_n="2.862">
 0	0	0	NUM	NumForm=Digit NumType=Card	Z99	Z99	Z99: Unmatched	t1
 <g/>
 .............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................	.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1190" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2829">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2829" senti_3="Neutral" senti_6="neutral positive" senti_n="3.020">
 No	No	no	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1191" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2830">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2830" senti_3="Neutral" senti_6="neutral positive" senti_n="3.095">
 Abstentions	Abstentions	abstention	NOUN	Number=Plur	G1.2,S1.1.3-,A9-	G1.2	G1.2: Politics	t1
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1192" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2831">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2831" senti_3="Neutral" senti_6="neutral positive" senti_n="2.862">
 0	0	0	X	-	Z9	Z9	Z9: Trash can	t1
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1193" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2832">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2832" senti_3="Neutral" senti_6="neutral negative" senti_n="2.492">
 Abstensions	Abstensions	abstension	NOUN	Number=Plur	Z99	Z99	Z99: Unmatched	t1
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1194" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2833">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2833" senti_3="Neutral" senti_6="neutral positive" senti_n="3.093">
 Total	Total	total	ADJ	Degree=Pos	A13.2,N5.1+	A13.2	A13.2: Degree: Maximizers	t1
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1195" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2834">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2834" senti_3="Neutral" senti_6="neutral positive" senti_n="3.226">
 129	129	129	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1196" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2835">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2835" senti_3="Positive" senti_6="mixed positive" senti_n="3.667">
 Total	Total	total	ADJ	Degree=Pos	A13.2,N5.1+	A13.2	A13.2: Degree: Maximizers	t1
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1197" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2836" senti_3="Neutral" senti_6="neutral positive" senti_n="3.205">
 Consequently	Consequently	consequently	ADV	-	A2.2	A2.2	A2.2: Cause	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -679,7 +679,7 @@ resolution	resolution	resolution	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2837">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2837" senti_3="Neutral" senti_6="neutral positive" senti_n="2.516">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 be	be	be	AUX	VerbForm=Inf	A3+,Z5	A3p	A3+: Existing	t3
@@ -692,7 +692,7 @@ government	government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t7
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1198" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2838">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2838" senti_3="Neutral" senti_6="neutral positive" senti_n="2.976">
 (	(	(	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 2421/5	2421/5	2421/5	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
@@ -701,7 +701,7 @@ government	government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t7
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1199" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2839" senti_3="Neutral" senti_6="neutral positive" senti_n="3.199">
 Accordingly	Accordingly	accordingly	ADV	-	A1.2+,A2.2	A1.2p	A1.2+: Suitable	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -720,7 +720,7 @@ resolution	resolution	resolution	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2840" senti_3="Neutral" senti_6="neutral positive" senti_n="2.864">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 be	be	be	AUX	VerbForm=Inf	A3+,Z5	A3p	A3+: Existing	t3
@@ -734,7 +734,7 @@ government	government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t8
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1200" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2841">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2841" senti_3="Neutral" senti_6="neutral positive" senti_n="2.976">
 (	(	(	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 2421/5	2421/5	2421/5	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
@@ -745,9 +745,9 @@ government	government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t8
 </speech>
 <note type="editorial" content="28 Adoption of the agenda"/>
 <note type="editorial" content="28 Adoption of the agenda"/>
-<speech id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u173" text_id="ParlaMint-BE-en_2017-04-27-54-plenair-ip165x" subcorpus="Reference" lang="English" body="Lower house" term="Zittingperiode 54" session="-" meeting="Plenaire zitting 165 van 27-04-2017" sitting="-" agenda="-" date="2017-04-27" title="Belgian parliamentary corpus ParlaMint-BE-en, plenary session of 27-04-2017" speaker_role="Chairperson" speaker_id="BrackeSiegfried" speaker_name="Bracke, Siegfried" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1953">
+<speech id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u173" text_id="ParlaMint-BE-en_2017-04-27-54-plenair-ip165x" subcorpus="Reference" lang="English" body="Lower house" term="Zittingperiode 54" session="-" meeting="Plenaire zitting 165 van 27-04-2017" sitting="-" agenda="-" date="2017-04-27" title="Belgian parliamentary corpus ParlaMint-BE-en, plenary session of 27-04-2017" speaker_role="Chairperson" topic="Defense" speaker_id="BrackeSiegfried" speaker_name="Bracke, Siegfried" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1953">
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1201" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2844" senti_3="Neutral" senti_6="neutral positive" senti_n="2.866">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 must	must	must	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or necessity	t2
 proceed	proceed	proceed	VERB	VerbForm=Inf	A1.1.1,T2++,M1	A1.1.1	A1.1.1: General actions / making	t3
@@ -773,7 +773,7 @@ May	May	May	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t13
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1202" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2845" senti_3="Neutral" senti_6="neutral positive" senti_n="2.735">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 must	must	must	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or necessity	t2
 proceed	proceed	proceed	VERB	VerbForm=Inf	A1.1.1,T2++,M1	A1.1.1	A1.1.1: General actions / making	t3
@@ -802,7 +802,7 @@ May	May	May	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t17
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1203" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2846" senti_3="Neutral" senti_6="neutral negative" senti_n="1.835">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 propose	propose	propose	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2/X7+,X4.1,G1.2,Q2.2/S4	Q2.2 X7p	Q2.2: Speech acts|X7+: Wanted	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -854,7 +854,7 @@ May	May	May	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t35
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1204" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2847" senti_3="Neutral" senti_6="neutral negative" senti_n="1.793">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 suggest	suggest	suggest	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2,Q1.1	Q2.2	Q2.2: Speech acts	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -904,7 +904,7 @@ May	May	May	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t30
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1205" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2848">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2848" senti_3="Neutral" senti_6="neutral negative" senti_n="2.356">
 Are	Are	be	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 sure	sure	sure	ADJ	Degree=Pos	A7+,Z4	A7p	A7+: Likely	t3
@@ -917,7 +917,7 @@ mind	mind	mind	VERB	VerbForm=Inf	E6+,E2-,S8+,A1.3	E6p	E6+: Confident	t7
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
 <note type="answer" content="No."/>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2850">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2850" senti_3="Positive" senti_6="mixed positive" senti_n="3.605">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 amended	amended	amend	VERB	Tense=Past VerbForm=Part	A2.1+	A2.1p	A2.1+: Change	t2
 agenda	agenda	agenda	NOUN	Number=Sing	Q1.2/X7+	Q1.2 X7p	Q1.2: Paper documents and writing|X7+: Wanted	t3
@@ -929,14 +929,14 @@ adopted	adopted	adopt	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,S4	A9p	A9+: G
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1206" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2851">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2851" senti_3="Neutral" senti_6="neutral negative" senti_n="1.896">
 No	No	no	DET	-	Z6	Z6	Z6: Negative	t1
 observation	observation	observation	NOUN	Number=Sing	X3.4,Q2.1/X2.4,X2.1	X3.4	X3.4: Sensory: Sight	t2
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
 <note type="answer" content="No"/>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853" senti_3="Neutral" senti_6="neutral positive" senti_n="3.236">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 agenda	agenda	agenda	NOUN	Number=Sing	Q1.2/X7+	Q1.2 X7p	Q1.2: Paper documents and writing|X7+: Wanted	t2
 <g/>
@@ -952,7 +952,7 @@ approved	approved	approve	VERB	Tense=Past VerbForm=Part Voice=Pass	S7.4+,E2+,G1.
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1207" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2854">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2854" senti_3="Neutral" senti_6="neutral positive" senti_n="3.354">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 sitting	sitting	sitting	NOUN	Number=Sing	M8,C1,P1,G1.1,G2.1,M6,A9+	M8	M8: Stationary	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -960,7 +960,7 @@ closed	closed	close	VERB	Tense=Past VerbForm=Part Voice=Pass	A10-,T2-	A10n	A10-:
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2855">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2855" senti_3="Neutral" senti_6="neutral positive" senti_n="3.153">
 <phr usas_tags="T1.1.3" usas_cats="T1.1.3" usas_glosses="T1.1.3: Time: Future">
 Next	Next	next	ADJ	Degree=Pos	T1.1.3	T1.1.3	T1.1.3: Time: Future	t1
 meeting	meeting	meeting	NOUN	Number=Sing	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
@@ -979,7 +979,7 @@ p.m.	p.m.	p.m.	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t9
 </s>
 </p>
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg1208" lang="English">
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2856">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2856" senti_3="Neutral" senti_6="neutral positive" senti_n="2.851">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -987,7 +987,7 @@ adjourned	adjourned	adjourn	VERB	Tense=Past VerbForm=Part Voice=Pass	T2-/G2.1	T2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857">
+<s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2857" senti_3="Neutral" senti_6="neutral negative" senti_n="2.126">
 Next	Next	next	ADV	-	N4	N4	N4: Linear order	t1
 sitting	sitting	sit	VERB	VerbForm=Ger	M8,C1,P1,G1.1,G2.1,M6,A9+	M8	M8: Stationary	t2
 on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t3

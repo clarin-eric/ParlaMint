@@ -1,13 +1,13 @@
 <note type="speaker" content="Head of the sitting."/>
-<speech id="ParlaMint-LV_2021-02-11-PT13-2193-U1" text_id="ParlaMint-LV-en_2021-02-11-PT13-2193" subcorpus="COVID" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2021-02-11" agenda="-" date="2021-02-11" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2021-02-11" speaker_role="Chairperson" speaker_id="Beitnere-LeGallaDagmāra" speaker_name="Beitnere-Le Galla, Dagmāra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JK" speaker_party_name="Jaunā konservatīvā" party_status="Coalition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="-">
+<speech id="ParlaMint-LV_2021-02-11-PT13-2193-U1" text_id="ParlaMint-LV-en_2021-02-11-PT13-2193" subcorpus="COVID" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2021-02-11" agenda="-" date="2021-02-11" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2021-02-11" speaker_role="Chairperson" topic="Mix" speaker_id="Beitnere-LeGallaDagmāra" speaker_name="Beitnere-Le Galla, Dagmāra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JK" speaker_party_name="Jaunā konservatīvā" party_status="Coalition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1" lang="English">
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.1">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.897">
 Dear	Dear	dear	ADJ	Degree=Pos	E2+,I1.3+	E2p	E2+: Like	t1
 colleagues	colleagues	colleague	NOUN	Number=Plur	I3.2/S2mf	I3.2 S2	I3.2: Work and employment: Professionalism|S2: People	t2
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.192">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 shall	shall	shall	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 continue	continue	continue	VERB	VerbForm=Inf	T2++	T2p	T2+: Time: Beginning	t3
@@ -24,12 +24,12 @@ January	January	January	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.3">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.069">
 Colleagues	Colleagues	colleague	NOUN	Number=Plur	I3.2/S2mf	I3.2 S2	I3.2: Work and employment: Professionalism|S2: People	t1
 <g/>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4" senti_3="Negative" senti_6="mixed negative" senti_n="1.322">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 informed	informed	inform	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -102,7 +102,7 @@ Commission	Commission	commission	NOUN	Number=Sing	I2.2,G3/S7.1+	I2.2	I2.2: Busin
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t54
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5" senti_3="Neutral" senti_6="neutral positive" senti_n="3.433">
 Please	Please	please	INTJ	-	E4.2+,E2+,X7+	E4.2p	E4.2+: Content	t1
 open	open	open	VERB	Mood=Imp VerbForm=Fin	A10+,T2+	A10p	A10+: Open; Finding; Showing	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -113,7 +113,7 @@ procedure	procedure	procedure	NOUN	Number=Sing	X4.2	X4.2	X4.2: Mental object: Me
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6" senti_3="Neutral" senti_6="neutral negative" senti_n="2.264">
 Please	Please	please	INTJ	-	E4.2+,E2+,X7+	E4.2p	E4.2+: Content	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -135,9 +135,9 @@ against	against	against	ADP	-	Z5	Z5	Z5: Grammatical bin	t11
 </p>
 </speech>
 <note type="speaker" content="Feldman (UK)."/>
-<speech id="ParlaMint-LV_2021-02-11-PT13-2193-U2" text_id="ParlaMint-LV-en_2021-02-11-PT13-2193" subcorpus="COVID" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2021-02-11" agenda="-" date="2021-02-11" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2021-02-11" speaker_role="Regular" speaker_id="FeldmansKrišjānis" speaker_name="Feldmans, Krišjānis" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JK" speaker_party_name="Jaunā konservatīvā" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-LV_2021-02-11-PT13-2193-U2" text_id="ParlaMint-LV-en_2021-02-11-PT13-2193" subcorpus="COVID" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2021-02-11" agenda="-" date="2021-02-11" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2021-02-11" speaker_role="Regular" topic="Other" speaker_id="FeldmansKrišjānis" speaker_name="Feldmans, Krišjānis" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JK" speaker_party_name="Jaunā konservatīvā" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-LV_2021-02-11-PT13-2193-U2-P1" lang="English">
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1" senti_3="Negative" senti_6="negative" senti_n="0.335">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 say	say	say	VERB	VerbForm=Inf	Q2.1,Z4%	Q2.1	Q2.1: Speech: Communicative	t3
@@ -152,9 +152,9 @@ no	no	no	INTJ	-	Z4	Z4	Z4: Discourse Bin	t5
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-LV_2021-02-11-PT13-2193-U68" text_id="ParlaMint-LV-en_2021-02-11-PT13-2193" subcorpus="COVID" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2021-02-11" agenda="-" date="2021-02-11" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2021-02-11" speaker_role="Regular" speaker_id="ZariņšIvars" speaker_name="Zariņš, Ivars" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SASKAŅA" speaker_party_name="SASKAŅA" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-LV_2021-02-11-PT13-2193-U68" text_id="ParlaMint-LV-en_2021-02-11-PT13-2193" subcorpus="COVID" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2021-02-11" agenda="-" date="2021-02-11" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2021-02-11" speaker_role="Regular" topic="Health" speaker_id="ZariņšIvars" speaker_name="Zariņš, Ivars" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SASKAŅA" speaker_party_name="SASKAŅA" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1" lang="English">
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.195">
 Knowing	Knowing	know	VERB	VerbForm=Ger	X2.2+,S3.2/B1%	X2.2p	X2.2+: Knowledgeable	t1
 how	how	how	SCONJ	PronType=Int	Z5,A13.3	Z5	Z5: Grammatical bin	t2
 our	our	we	PRON	Number=Plur Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t3
@@ -248,7 +248,7 @@ made	made	make	VERB	Tense=Past VerbForm=Part	A1.1.1,A9+,A2.2,S6+,A3+,A9-,X9.2+,X
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t78
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.095">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 start	start	start	VERB	VerbForm=Inf	T2+,E5-,E3-	T2p	T2+: Time: Beginning	t3
@@ -263,7 +263,7 @@ time	time	time	NOUN	Number=Sing	T1,T1.2,T1.3,T1.1.2,N6,N1,K2,G2.1@	T1	T1: Time	t
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.201">
 Here	Here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -338,7 +338,7 @@ e-health	e-health	e-health	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t62
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t63
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4" senti_3="Positive" senti_6="positive" senti_n="4.859">
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 Let	Let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
 us	us	we	PRON	Case=Acc Number=Plur Person=1 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -355,7 +355,7 @@ answers	answers	answer	NOUN	Number=Plur	Q2.2	Q2.2	Q2.2: Speech acts	t11
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.5">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.5" senti_3="Positive" senti_6="positive" senti_n="4.555">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -366,9 +366,9 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	
 </p>
 </speech>
 <note type="speaker" content="Head of the sitting."/>
-<speech id="ParlaMint-LV_2021-02-11-PT13-2193-U69" text_id="ParlaMint-LV-en_2021-02-11-PT13-2193" subcorpus="COVID" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2021-02-11" agenda="-" date="2021-02-11" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2021-02-11" speaker_role="Chairperson" speaker_id="Beitnere-LeGallaDagmāra" speaker_name="Beitnere-Le Galla, Dagmāra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JK" speaker_party_name="Jaunā konservatīvā" party_status="Coalition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="-">
+<speech id="ParlaMint-LV_2021-02-11-PT13-2193-U69" text_id="ParlaMint-LV-en_2021-02-11-PT13-2193" subcorpus="COVID" lang="English" body="Unicameralism" term="13. sasaukums" session="-" meeting="Regulārā" sitting="2021-02-11" agenda="-" date="2021-02-11" title="Latvian parliamentary corpus ParlaMint-LV-en, 13th Term, 2021-02-11" speaker_role="Chairperson" topic="Transportation" speaker_id="Beitnere-LeGallaDagmāra" speaker_name="Beitnere-Le Galla, Dagmāra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JK" speaker_party_name="Jaunā konservatīvā" party_status="Coalition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1" lang="English">
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.325">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="T1.1.1" usas_cats="T1.1.1" usas_glosses="T1.1.1: Time: Past">
 last	last	last	ADJ	Degree=Pos	T1.1.1	T1.1.1	T1.1.1: Time: Past	t2
@@ -447,7 +447,7 @@ E67	E67	e67	NOUN	Number=Sing	Z2	Z2	Z2: Geographical names	t49
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t50
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.692">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 question	question	question	NOUN	Number=Sing	Q2.2,X4.1	Q2.2	Q2.2: Speech acts	t2
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t3
@@ -463,7 +463,7 @@ Transport	Transport	Transport	PROPN	Number=Sing	M2	M2	M2: Putting, pulling, push
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.3">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.3" senti_3="Positive" senti_6="positive" senti_n="4.555">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -471,7 +471,7 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.059">
 <phr usas_tags="Z2,Z3c" usas_cats="Z2" usas_glosses="Z2: Geographical names">
 Registration	Registration	registration	NOUN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t1
 of	of	of	ADP	-	Z2,Z3c	Z2	Z2: Geographical names	t2
@@ -483,7 +483,7 @@ presence	presence	presence	NOUN	Number=Sing	M6,A3+,S1.1.3+,S1.2,S9	M6	M6: Locati
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5" senti_3="Neutral" senti_6="neutral positive" senti_n="2.906">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -491,7 +491,7 @@ over	over	over	ADV	-	N5.2+,A13.2,T2-,M6	N5.2p	N5.2+: Exceed; waste	t3
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6" senti_3="Positive" senti_6="positive" senti_n="4.585">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -504,7 +504,7 @@ work	work	work	NOUN	Number=Sing	I3.1,A1.1.1,Q4,K2,C1	I3.1	I3.1: Work and employm
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.7">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.7" senti_3="Neutral" senti_6="neutral positive" senti_n="3.084">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -514,7 +514,7 @@ sitting	sitting	sitting	NOUN	Number=Sing	M8,C1,P1,G1.1,G2.1,M6,A9+	M8	M8: Statio
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8">
+<s id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8" senti_3="Neutral" senti_6="neutral positive" senti_n="3.202">
 (	(	(	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Interruption	Interruption	interruption	NOUN	Number=Sing	Q2.2,X7-,T2-	Q2.2	Q2.2: Speech acts	t2
 <g/>

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
-           xmlns:xi="http://www.w3.org/2001/XInclude"
-           xml:id="ParlaMint-FI.ana"
-           xml:lang="fi">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ParlaMint-FI.ana" xml:lang="fi">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,12 +7,8 @@
             <title type="main" xml:lang="fi">Suomalainen parlamentaarinen korpus ParlaMint-FI [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="en">Minutes of the Finnish Parliament's plenary sessions from parliamentary session 2015 to parliamentary session 2021</title>
             <title type="sub" xml:lang="fi">Suomen eduskunnan täysistuntojen pöytäkirjat valtiopäivistä 2015 valtiopäiviin 2021</title>
-            <meeting ana="#parla.term #parla.uni #parl_term.2015"
-                     n="2015"
-                     corresp="#fi_parliament">2015</meeting>
-            <meeting ana="#parla.term #parla.uni #parl_term.2019"
-                     n="2019"
-                     corresp="#fi_parliament">2019</meeting>
+            <meeting ana="#parla.term #parla.uni #parl_term.2015" n="2015" corresp="#fi_parliament">2015</meeting>
+            <meeting ana="#parla.term #parla.uni #parl_term.2019" n="2019" corresp="#fi_parliament">2019</meeting>
             <respStmt>
                <persName>Laura Sinikallio</persName>
                <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
@@ -31,13 +24,29 @@
                <resp xml:lang="en">Data cleaning and finalization</resp>
                <resp xml:lang="fi">Datan puhdistaminen ja viimeistely</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="146901" xml:lang="fi">puheet</measure>
@@ -51,7 +60,7 @@
                <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
@@ -59,7 +68,7 @@
                <p xml:lang="fi">Tämä aineisto on saatavilla lisenssillä <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2025-06-19">2025-06-19</date>
+            <date when="2025-06-20">2025-06-20</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -72,10 +81,8 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
-            <p xml:lang="fi">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> -projektin tavoitteena on 1) luoda monikielinen, yhtenäisesti koodattu parlamentaaristen aineistojen korpuksen; 2) käsitellä aineisto lingvistisesti; 3) tuoda korpus saataville ladattavana sekä konkordanssihakemistoina; ja 4) kehittää korpuksen aineistoihin pohjautuvia poliittisen tutkimuksen sekä digitaalisten ihmistieteiden käyttötapauksia.</p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="fi"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> -projektin tavoitteena on 1) luoda monikielinen, yhtenäisesti koodattu parlamentaaristen aineistojen korpuksen; 2) käsitellä aineisto lingvistisesti; 3) tuoda korpus saataville ladattavana sekä konkordanssihakemistoina; ja 4) kehittää korpuksen aineistoihin pohjautuvia poliittisen tutkimuksen sekä digitaalisten ihmistieteiden käyttötapauksia.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -103,6 +110,7 @@
                <tagUsage gi="head" occurs="6806"/>
                <tagUsage gi="link" occurs="15780289"/>
                <tagUsage gi="linkGrp" occurs="928303"/>
+               <tagUsage gi="measure" occurs="928303"/>
                <tagUsage gi="name" occurs="92723"/>
                <tagUsage gi="note" occurs="10635"/>
                <tagUsage gi="pb" occurs="6806"/>
@@ -122,10 +130,18 @@
             <xi:include href="ParlaMint-taxonomy-NER.ana.xml"/>
             <xi:include href="ParlaMint-taxonomy-CHES.xml"/>
             <xi:include href="ParlaMint-taxonomy-politicalOrientation.xml"/>
+            <xi:include href="ParlaMint-taxonomy-topic.xml"/>
+            <xi:include href="ParlaMint-taxonomy-sentiment.ana.xml"/>
          </classDecl>
          <listPrefixDef>
             <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
                <p>Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+            <prefixDef ident="topic" matchPattern="(.+)" replacementPattern="#$1">
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the Topic taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+            <prefixDef ident="senti" matchPattern="(.+)" replacementPattern="#$1">
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the Sentiment taxonomy categories in the corpus root TEI header.</p>
             </prefixDef>
          </listPrefixDef>
          <appInfo>
@@ -136,6 +152,14 @@
             <application ident="Nelli-Tagger" version="2">
                <label>Nelli-Tagger</label>
                <desc>Named entity recognition done with Nelli-tagger (<ref target="https://github.com/SemanticComputing/Nelli-tagger">https://github.com/SemanticComputing/Nelli-tagger</ref>) with Finnish BERT NER model (<ref target="https://turkunlp.org/fin-ner.html">https://turkunlp.org/fin-ner.html</ref>)</desc>
+            </application>
+            <application ident="parlacap" version="1.0">
+               <label>ParlaCAP</label>
+               <desc>Automatic annotation with <ref target="https://www.comparativeagendas.net/pages/master-codebook">CAP (Comparative Agendas Project)</ref> major topic labels, produced with the multilingual ParlaCAP classifier, available from <ref target="https://huggingface.co/classla/ParlaCAP-Topic-Classifier">https://huggingface.co/classla/ParlaCAP-Topic-Classifier</ref>.</desc>
+            </application>
+            <application ident="parlasent" version="1.0">
+               <label>ParlaSent</label>
+               <desc>Automatic annotation of sentence-level sentiment, produced with the multilingual ParlaSent classifier, available from <ref target="https://huggingface.co/classla/xlm-r-parlasent">https://huggingface.co/classla/xlm-r-parlasent</ref>.</desc>
             </application>
          </appInfo>
       </encodingDesc>
@@ -166,13 +190,16 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2025-06-19">
-            <name>GitHub Action</name>: Made sample.</change>
-         <change when="2024-07-02">
+         <change when="2025-06-20">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-20">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
+         <change when="2025-06-20">parlamint-add-common-content script: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include href="2017/ParlaMint-FI_2017-10-04-ps-98.ana.xml"/>
    <xi:include href="2020/ParlaMint-FI_2020-02-18-ps-8.ana.xml"/>
    <xi:include href="2022/ParlaMint-FI_2022-01-25-ps-165.ana.xml"/>
 </teiCorpus>
+

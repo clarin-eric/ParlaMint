@@ -1,7 +1,7 @@
 <note type="speaker" content="Eiki Nestor"/>
-<speech id="ParlaMint-EE_2014-12-02_U1" text_id="ParlaMint-EE_2014-12-02" subcorpus="Reference" lang="eesti" body="Ühekojaline parlament" term="XII Riigikogu" session="VIII regular session" meeting="-" sitting="2014-12-02" agenda="-" date="2014-12-02" title="XII Riigikogu, VIII Istungjärk, täiskogu korraline istung Teisipäev, 02.12.2014, 10:00" speaker_role="Juhataja" speaker_id="e_nestor_19530905" speaker_name="Nestor, Eiki" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDE" speaker_party_name="Sotsiaaldemokraatlik erakond" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1953">
+<speech id="ParlaMint-EE_2014-12-02_U1" text_id="ParlaMint-EE_2014-12-02" subcorpus="Reference" lang="eesti" body="Ühekojaline parlament" term="XII Riigikogu" session="VIII regular session" meeting="-" sitting="2014-12-02" agenda="-" date="2014-12-02" title="XII Riigikogu, VIII Istungjärk, täiskogu korraline istung Teisipäev, 02.12.2014, 10:00" speaker_role="Juhataja" topic="Other" speaker_id="e_nestor_19530905" speaker_name="Nestor, Eiki" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDE" speaker_party_name="Sotsiaaldemokraatlik erakond" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1953">
 <p id="ParlaMint-EE_2014-12-02_U1-P1" lang="eesti">
-<s id="ParlaMint-EE_2014-12-02_U1-P1.1">
+<s id="ParlaMint-EE_2014-12-02_U1-P1.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.115">
 Austatud	Austatud	austa=tud	ADJ	Degree=Pos Tense=Past VerbForm=Part Voice=Pass	1	acl	Riigi_kogu	PROPN	Case=Nom Number=Sing	2
 <name type="ORG">
 Riigikogu	Riigikogu	Riigi_kogu	PROPN	Case=Nom Number=Sing	2	root	-	-	-	-
@@ -13,7 +13,7 @@ hommikust	hommikust	hommik	NOUN	Case=Ela Number=Sing	5	nmod	Riigi_kogu	PROPN	Cas
 <g/>
 !	!	!	PUNCT	-	6	punct	Riigi_kogu	PROPN	Case=Nom Number=Sing	2
 </s>
-<s id="ParlaMint-EE_2014-12-02_U1-P1.2">
+<s id="ParlaMint-EE_2014-12-02_U1-P1.2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.843">
 Kellel	Kellel	kes	PRON	Case=Ade Number=Sing PronType=Int,Rel	1	root	-	-	-	-
 on	on	olema	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	cop	kes	PRON	Case=Ade Number=Sing PronType=Int,Rel	1
 üle	üle	üle	ADV	-	3	compound:prt	andma	VERB	VerbForm=Inf	4
@@ -24,7 +24,7 @@ arupärimisi	arupärimisi	aru_pärimine	NOUN	Case=Par Number=Plur	7	conj	eel_nõ
 <g/>
 ?	?	?	PUNCT	-	8	punct	kes	PRON	Case=Ade Number=Sing PronType=Int,Rel	1
 </s>
-<s id="ParlaMint-EE_2014-12-02_U1-P1.3">
+<s id="ParlaMint-EE_2014-12-02_U1-P1.3" senti_3="Positive" senti_6="mixed positive" senti_n="3.542">
 Palun	Palun	paluma	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	punct	Arto	PROPN	Case=Nom Number=Sing	3
@@ -38,15 +38,15 @@ Aas	Aas	Aas	PROPN	Case=Nom Number=Sing	4	flat	Arto	PROPN	Case=Nom Number=Sing	3
 </p>
 </speech>
 <note type="speaker" content="Arto Aas"/>
-<speech id="ParlaMint-EE_2014-12-02_U2" text_id="ParlaMint-EE_2014-12-02" subcorpus="Reference" lang="eesti" body="Ühekojaline parlament" term="XII Riigikogu" session="VIII regular session" meeting="-" sitting="2014-12-02" agenda="-" date="2014-12-02" title="XII Riigikogu, VIII Istungjärk, täiskogu korraline istung Teisipäev, 02.12.2014, 10:00" speaker_role="Saadik" speaker_id="a_aas_19800609" speaker_name="Aas, Arto" speaker_mp="MP" speaker_minister="notMinister" speaker_party="RE" speaker_party_name="Reformierakond" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1980">
+<speech id="ParlaMint-EE_2014-12-02_U2" text_id="ParlaMint-EE_2014-12-02" subcorpus="Reference" lang="eesti" body="Ühekojaline parlament" term="XII Riigikogu" session="VIII regular session" meeting="-" sitting="2014-12-02" agenda="-" date="2014-12-02" title="XII Riigikogu, VIII Istungjärk, täiskogu korraline istung Teisipäev, 02.12.2014, 10:00" speaker_role="Saadik" topic="Transportation" speaker_id="a_aas_19800609" speaker_name="Aas, Arto" speaker_mp="MP" speaker_minister="notMinister" speaker_party="RE" speaker_party_name="Reformierakond" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1980">
 <p id="ParlaMint-EE_2014-12-02_U2-P1" lang="eesti">
-<s id="ParlaMint-EE_2014-12-02_U2-P1.1">
+<s id="ParlaMint-EE_2014-12-02_U2-P1.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.392">
 Austatud	Austatud	austa=tud	ADJ	Degree=Pos Tense=Past VerbForm=Part Voice=Pass	1	acl	kolleeg	NOUN	Case=Nom Number=Plur	2
 kolleegid	kolleegid	kolleeg	NOUN	Case=Nom Number=Plur	2	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	3	punct	kolleeg	NOUN	Case=Nom Number=Plur	2
 </s>
-<s id="ParlaMint-EE_2014-12-02_U2-P1.2">
+<s id="ParlaMint-EE_2014-12-02_U2-P1.2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.637">
 Majanduskomisjon	Majanduskomisjon	majandus_komisjon	NOUN	Case=Nom Number=Sing	1	nsubj	algatama	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 algatab	algatab	algatama	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 ühistranspordiseaduse	ühistranspordiseaduse	ühis_transpordi_seadus	NOUN	Case=Gen Number=Sing	3	nmod	eel_nõu	NOUN	Case=Gen Number=Sing	4
@@ -54,7 +54,7 @@ eelnõu	eelnõu	eel_nõu	NOUN	Case=Gen Number=Sing	4	obj	algatama	VERB	Mood=Ind 
 <g/>
 .	.	.	PUNCT	-	5	punct	algatama	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
-<s id="ParlaMint-EE_2014-12-02_U2-P1.3">
+<s id="ParlaMint-EE_2014-12-02_U2-P1.3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.248">
 Ühistranspordiseaduse	Ühistranspordiseaduse	ühis_transpordi_seadus	NOUN	Case=Gen Number=Sing	1	nmod	tervik	NOUN	Case=Nom Number=Sing	3
 eelmine	eelmine	eelmine	ADJ	Case=Nom Degree=Pos Number=Sing	2	amod	tervik	NOUN	Case=Nom Number=Sing	3
 terviktekst	terviktekst	tervik	NOUN	Case=Nom Number=Sing	3	obj	võtma	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Pass	4
@@ -69,7 +69,7 @@ tagasi	tagasi	tagasi	ADP	AdpType=Post	9	case	aasta	NOUN	Case=Par Number=Sing	8
 aastal	aastal	aasta	NOUN	Case=Ade Number=Sing	11	obl	võtma	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Pass	4
 2000.	2000.	2000.	ADJ	NumForm=Digit NumType=Ord	12	amod	aasta	NOUN	Case=Ade Number=Sing	11
 </s>
-<s id="ParlaMint-EE_2014-12-02_U2-P1.4">
+<s id="ParlaMint-EE_2014-12-02_U2-P1.4" senti_3="Neutral" senti_6="neutral negative" senti_n="2.476">
 Vahepeal	Vahepeal	vahe_peal	ADV	-	1	advmod	minema	VERB	Tense=Past VerbForm=Part Voice=Act	7
 on	on	olema	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	aux	minema	VERB	Tense=Past VerbForm=Part Voice=Act	7
 väga	väga	väga	ADV	-	3	advmod	palju	ADV	-	4
@@ -92,7 +92,7 @@ muudetud	muudetud	muutma	VERB	Tense=Past VerbForm=Part Voice=Pass	18	conj	minema
 <g/>
 .	.	.	PUNCT	-	19	punct	minema	VERB	Tense=Past VerbForm=Part Voice=Act	7
 </s>
-<s id="ParlaMint-EE_2014-12-02_U2-P1.5">
+<s id="ParlaMint-EE_2014-12-02_U2-P1.5" senti_3="Neutral" senti_6="neutral postive" senti_n="2.689">
 On	On	olema	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1	cop	aeg	NOUN	Case=Nom Number=Sing	2
 aeg	aeg	aeg	NOUN	Case=Nom Number=Sing	2	root	-	-	-	-
 teha	teha	tegema	VERB	VerbForm=Inf	3	csubj:cop	aeg	NOUN	Case=Nom Number=Sing	2
@@ -101,7 +101,7 @@ terviktekst	terviktekst	tervik	NOUN	Case=Nom Number=Sing	5	obj	tegema	VERB	VerbF
 <g/>
 .	.	.	PUNCT	-	6	punct	aeg	NOUN	Case=Nom Number=Sing	2
 </s>
-<s id="ParlaMint-EE_2014-12-02_U2-P1.6">
+<s id="ParlaMint-EE_2014-12-02_U2-P1.6" senti_3="Negative" senti_6="mixed negative" senti_n="0.809">
 <name type="ORG">
 Riigikogu	Riigikogu	riigi_kogu	NOUN	Case=Nom Number=Sing	1	nsubj	jõudma	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	2
 </name>
@@ -126,7 +126,7 @@ tagasi	tagasi	tagasi	ADV	-	18	compound:prt	võtma	VERB	Mood=Ind Number=Sing Pers
 <g/>
 .	.	.	PUNCT	-	19	punct	jõudma	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	2
 </s>
-<s id="ParlaMint-EE_2014-12-02_U2-P1.7">
+<s id="ParlaMint-EE_2014-12-02_U2-P1.7" senti_3="Neutral" senti_6="neutral postive" senti_n="3.251">
 Nüüd	Nüüd	nüüd	ADV	-	1	advmod	jõudma	VERB	Tense=Past VerbForm=Part Voice=Act	3
 oleme	oleme	olema	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	aux	jõudma	VERB	Tense=Past VerbForm=Part Voice=Act	3
 jõudnud	jõudnud	jõudma	VERB	Tense=Past VerbForm=Part Voice=Act	3	root	-	-	-	-
@@ -152,7 +152,7 @@ anda	anda	andma	VERB	VerbForm=Inf	19	advcl	jõudma	VERB	Tense=Past VerbForm=Part
 <g/>
 .	.	.	PUNCT	-	20	punct	jõudma	VERB	Tense=Past VerbForm=Part Voice=Act	3
 </s>
-<s id="ParlaMint-EE_2014-12-02_U2-P1.8">
+<s id="ParlaMint-EE_2014-12-02_U2-P1.8" senti_3="Neutral" senti_6="neutral postive" senti_n="3.257">
 Selle	Selle	see	PRON	Case=Gen Number=Sing PronType=Dem	1	nmod	ees_märk	NOUN	Case=Nom Number=Plur	3
 peamised	peamised	peamine	ADJ	Case=Nom Degree=Pos Number=Plur	2	amod	ees_märk	NOUN	Case=Nom Number=Plur	3
 eesmärgid	eesmärgid	ees_märk	NOUN	Case=Nom Number=Plur	3	nsubj:cop	järgmine	ADJ	Case=Nom Degree=Pos Number=Plur	5
@@ -203,13 +203,13 @@ jpm	jpm	jpm	ADV	Abbr=Yes	42	nmod	üles_anne	NOUN	Case=Par Number=Plur	41
 <g/>
 .	.	.	PUNCT	-	43	punct	järgmine	ADJ	Case=Nom Degree=Pos Number=Plur	5
 </s>
-<s id="ParlaMint-EE_2014-12-02_U2-P1.9">
+<s id="ParlaMint-EE_2014-12-02_U2-P1.9" senti_3="Neutral" senti_6="neutral postive" senti_n="2.685">
 Selline	Selline	selline	DET	Case=Nom Number=Sing PronType=Dem	1	det	lugu	NOUN	Case=Nom Number=Sing	2
 lugu	lugu	lugu	NOUN	Case=Nom Number=Sing	2	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	3	punct	lugu	NOUN	Case=Nom Number=Sing	2
 </s>
-<s id="ParlaMint-EE_2014-12-02_U2-P1.10">
+<s id="ParlaMint-EE_2014-12-02_U2-P1.10" senti_3="Positive" senti_6="positive" senti_n="4.984">
 Aitäh	Aitäh	aitäh	INTJ	-	1	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	2	punct	aitäh	INTJ	-	1
@@ -217,21 +217,21 @@ Aitäh	Aitäh	aitäh	INTJ	-	1	root	-	-	-	-
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-EE_2014-12-02_U63" text_id="ParlaMint-EE_2014-12-02" subcorpus="Reference" lang="eesti" body="Ühekojaline parlament" term="XII Riigikogu" session="VIII regular session" meeting="-" sitting="2014-12-02" agenda="-" date="2014-12-02" title="XII Riigikogu, VIII Istungjärk, täiskogu korraline istung Teisipäev, 02.12.2014, 10:00" speaker_role="Saadik" speaker_id="r_vakra_19810310" speaker_name="Vakra, Rainer" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1981">
+<speech id="ParlaMint-EE_2014-12-02_U63" text_id="ParlaMint-EE_2014-12-02" subcorpus="Reference" lang="eesti" body="Ühekojaline parlament" term="XII Riigikogu" session="VIII regular session" meeting="-" sitting="2014-12-02" agenda="-" date="2014-12-02" title="XII Riigikogu, VIII Istungjärk, täiskogu korraline istung Teisipäev, 02.12.2014, 10:00" speaker_role="Saadik" topic="Environment" speaker_id="r_vakra_19810310" speaker_name="Vakra, Rainer" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1981">
 <p id="ParlaMint-EE_2014-12-02_U63-P1" lang="eesti">
-<s id="ParlaMint-EE_2014-12-02_U63-P1.1">
+<s id="ParlaMint-EE_2014-12-02_U63-P1.1" senti_3="Positive" senti_6="positive" senti_n="4.514">
 Austatud	Austatud	austa=tud	ADJ	Degree=Pos Tense=Past VerbForm=Part Voice=Pass	1	acl	esi_mees	NOUN	Case=Nom Number=Sing	2
 esimees	esimees	esi_mees	NOUN	Case=Nom Number=Sing	2	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	3	punct	esi_mees	NOUN	Case=Nom Number=Sing	2
 </s>
-<s id="ParlaMint-EE_2014-12-02_U63-P1.2">
+<s id="ParlaMint-EE_2014-12-02_U63-P1.2" senti_3="Positive" senti_6="positive" senti_n="4.579">
 Head	Head	hea	ADJ	Case=Nom Degree=Pos Number=Plur	1	amod	kolleeg	NOUN	Case=Nom Number=Plur	2
 kolleegid	kolleegid	kolleeg	NOUN	Case=Nom Number=Plur	2	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	3	punct	kolleeg	NOUN	Case=Nom Number=Plur	2
 </s>
-<s id="ParlaMint-EE_2014-12-02_U63-P1.3">
+<s id="ParlaMint-EE_2014-12-02_U63-P1.3" senti_3="Neutral" senti_6="neutral postive" senti_n="2.677">
 Keskkonnaseadustiku	Keskkonnaseadustiku	keskkonna_seadustik	NOUN	Case=Gen Number=Sing	1	nmod	üld_osa	NOUN	Case=Gen Number=Sing	2
 üldosa	üldosa	üld_osa	NOUN	Case=Gen Number=Sing	2	nmod	seadus	NOUN	Case=Gen Number=Sing	3
 seaduse	seaduse	seadus	NOUN	Case=Gen Number=Sing	3	nmod	rakendamine	NOUN	Case=Gen Number=Sing	4
@@ -251,7 +251,7 @@ novembril	novembril	november	NOUN	Case=Ade Number=Sing	14	obl	algatama	VERB	Mood
 aastal	aastal	aasta	NOUN	Case=Ade Number=Sing	15	obl	algatama	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	10
 2014.	2014.	2014.	ADJ	NumForm=Digit NumType=Ord	16	amod	aasta	NOUN	Case=Ade Number=Sing	15
 </s>
-<s id="ParlaMint-EE_2014-12-02_U63-P1.4">
+<s id="ParlaMint-EE_2014-12-02_U63-P1.4" senti_3="Neutral" senti_6="neutral postive" senti_n="2.680">
 <name type="ORG">
 Riigikogu	Riigikogu	riigi_kogu	NOUN	Case=Gen Number=Sing	1	nmod	juhatus	NOUN	Case=Nom Number=Sing	2
 </name>
@@ -263,7 +263,7 @@ keskkonnakomisjoni	keskkonnakomisjoni	keskkonna_komisjon	NOUN	Case=Gen Number=Si
 <g/>
 .	.	.	PUNCT	-	7	punct	määrama	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	3
 </s>
-<s id="ParlaMint-EE_2014-12-02_U63-P1.5">
+<s id="ParlaMint-EE_2014-12-02_U63-P1.5" senti_3="Neutral" senti_6="neutral postive" senti_n="2.833">
 Keskkonnaseadustiku	Keskkonnaseadustiku	keskkonna_seadustik	NOUN	Case=Gen Number=Sing	1	nmod	üld_osa	NOUN	Case=Gen Number=Sing	2
 üldosa	üldosa	üld_osa	NOUN	Case=Gen Number=Sing	2	nmod	seadus	NOUN	Case=Gen Number=Sing	3
 seaduse	seaduse	seadus	NOUN	Case=Gen Number=Sing	3	nmod	rakendamine	NOUN	Case=Gen Number=Sing	4
@@ -285,7 +285,7 @@ jõustub	jõustub	jõustuma	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbFo
 jaanuaril	jaanuaril	jaanuar	NOUN	Case=Ade Number=Sing	16	obl	jõustuma	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	14
 2015.	2015.	2015.	NUM	NumForm=Digit NumType=Card	17	nummod	jaanuar	NOUN	Case=Ade Number=Sing	16
 </s>
-<s id="ParlaMint-EE_2014-12-02_U63-P1.6">
+<s id="ParlaMint-EE_2014-12-02_U63-P1.6" senti_3="Negative" senti_6="mixed negative" senti_n="0.595">
 See	See	see	DET	Case=Nom Number=Sing PronType=Dem	1	det	kuu_päev	NOUN	Case=Nom Number=Sing	2
 kuupäev	kuupäev	kuu_päev	NOUN	Case=Nom Number=Sing	2	nsubj	arvestama	VERB	Connegative=Yes Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	4
 ei	ei	ei	AUX	Polarity=Neg	3	aux	arvestama	VERB	Connegative=Yes Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	4
@@ -308,7 +308,7 @@ jõustuda	jõustuda	jõustuma	VERB	VerbForm=Inf	18	xcomp	jõudma	VERB	Connegativ
 <g/>
 .	.	.	PUNCT	-	19	punct	arvestama	VERB	Connegative=Yes Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	4
 </s>
-<s id="ParlaMint-EE_2014-12-02_U63-P1.7">
+<s id="ParlaMint-EE_2014-12-02_U63-P1.7" senti_3="Negative" senti_6="mixed negative" senti_n="0.783">
 Eelnõuga	Eelnõuga	eel_nõu	NOUN	Case=Com Number=Sing	1	obl	kavandama	VERB	Connegative=Yes Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3
 ei	ei	ei	AUX	Polarity=Neg	2	aux	kavandama	VERB	Connegative=Yes Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3
 kavandata	kavandata	kavandama	VERB	Connegative=Yes Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3	root	-	-	-	-
@@ -326,7 +326,7 @@ osutuda	osutuda	osutuma	VERB	VerbForm=Inf	13	advcl	kavandama	VERB	Connegative=Ye
 <g/>
 .	.	.	PUNCT	-	14	punct	kavandama	VERB	Connegative=Yes Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3
 </s>
-<s id="ParlaMint-EE_2014-12-02_U63-P1.8">
+<s id="ParlaMint-EE_2014-12-02_U63-P1.8" senti_3="Neutral" senti_6="neutral negative" senti_n="2.171">
 Keskkonnaseadustiku	Keskkonnaseadustiku	keskkonna_seadustik	NOUN	Case=Gen Number=Sing	1	nmod	üld_osa	NOUN	Case=Gen Number=Sing	2
 üldosa	üldosa	üld_osa	NOUN	Case=Gen Number=Sing	2	nmod	seadus	NOUN	Case=Gen Number=Sing	3
 seaduse	seaduse	seadus	NOUN	Case=Gen Number=Sing	3	nmod	pea_tükk	NOUN	Case=Nom Number=Sing	5
@@ -365,7 +365,7 @@ sätestatud	sätestatud	sätesta=tud	VERB	Tense=Past VerbForm=Part Voice=Pass	30
 <g/>
 .	.	.	PUNCT	-	31	punct	jõustuma	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
 </s>
-<s id="ParlaMint-EE_2014-12-02_U63-P1.9">
+<s id="ParlaMint-EE_2014-12-02_U63-P1.9" senti_3="Neutral" senti_6="neutral negative" senti_n="2.062">
 See	See	see	PRON	Case=Nom Number=Sing PronType=Dem	1	nsubj	tähendama	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 tähendab	tähendab	tähendama	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 seda	seda	see	PRON	Case=Par Number=Sing PronType=Dem	3	obj	tähendama	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -392,7 +392,7 @@ rakendatakse	rakendatakse	rakendama	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=
 <g/>
 .	.	.	PUNCT	-	21	punct	tähendama	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
-<s id="ParlaMint-EE_2014-12-02_U63-P1.10">
+<s id="ParlaMint-EE_2014-12-02_U63-P1.10" senti_3="Neutral" senti_6="neutral postive" senti_n="3.387">
 Eelnõu	Eelnõu	eel_nõu	NOUN	Case=Nom Number=Sing	1	nsubj	kiitma	VERB	Tense=Past VerbForm=Part Voice=Act	4
 on	on	olema	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	aux	kiitma	VERB	Tense=Past VerbForm=Part Voice=Act	4
 heaks	heaks	hea	ADJ	Case=Tra Degree=Pos Number=Sing	3	xcomp	kiitma	VERB	Tense=Past VerbForm=Part Voice=Act	4
@@ -407,7 +407,7 @@ Valitsus	Valitsus	valitsus	PROPN	Case=Nom Number=Sing	7	nsubj	kiitma	VERB	Tense=
 </s>
 </p>
 <p id="ParlaMint-EE_2014-12-02_U63-P2" lang="eesti">
-<s id="ParlaMint-EE_2014-12-02_U63-P2.1">
+<s id="ParlaMint-EE_2014-12-02_U63-P2.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.603">
 Keskkonnakomisjoni	Keskkonnakomisjoni	keskkonna_komisjon	NOUN	Case=Gen Number=Sing	1	nmod	november	NOUN	Case=Gen Number=Sing	3
 20.	20.	20.	ADJ	Case=Gen NumForm=Digit NumType=Ord Number=Sing	2	amod	november	NOUN	Case=Gen Number=Sing	3
 novembri	novembri	november	NOUN	Case=Gen Number=Sing	3	nmod	aasta	NOUN	Case=Gen Number=Sing	5
@@ -441,7 +441,7 @@ tähtajaks	tähtajaks	täht_aeg	NOUN	Case=Tra Number=Sing	26	obl	määrama	VERB	
 detsember	detsember	detsember	NOUN	Case=Nom Number=Sing	28	obl	määrama	VERB	VerbForm=Inf	22
 2014.	2014.	2014.	ADJ	NumForm=Digit NumType=Ord	29	nmod	detsember	NOUN	Case=Nom Number=Sing	28
 </s>
-<s id="ParlaMint-EE_2014-12-02_U63-P2.2">
+<s id="ParlaMint-EE_2014-12-02_U63-P2.2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.700">
 Kõik	Kõik	kõik	DET	Case=Nom Number=Plur PronType=Tot	1	det	otsus	NOUN	Case=Nom Number=Plur	3
 komisjoni	komisjoni	komisjon	NOUN	Case=Gen Number=Sing	2	nmod	otsus	NOUN	Case=Nom Number=Plur	3
 otsused	otsused	otsus	NOUN	Case=Nom Number=Plur	3	nsubj:cop	konsensus=lik	ADJ	Case=Nom Degree=Pos Number=Plur	5
@@ -450,7 +450,7 @@ konsensuslikud	konsensuslikud	konsensus=lik	ADJ	Case=Nom Degree=Pos Number=Plur	
 <g/>
 .	.	.	PUNCT	-	6	punct	konsensus=lik	ADJ	Case=Nom Degree=Pos Number=Plur	5
 </s>
-<s id="ParlaMint-EE_2014-12-02_U63-P2.3">
+<s id="ParlaMint-EE_2014-12-02_U63-P2.3" senti_3="Positive" senti_6="positive" senti_n="4.984">
 Aitäh	Aitäh	aitäh	INTJ	-	1	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	2	punct	aitäh	INTJ	-	1
@@ -458,14 +458,14 @@ Aitäh	Aitäh	aitäh	INTJ	-	1	root	-	-	-	-
 </p>
 </speech>
 <note type="speaker" content="Eiki Nestor"/>
-<speech id="ParlaMint-EE_2014-12-02_U64" text_id="ParlaMint-EE_2014-12-02" subcorpus="Reference" lang="eesti" body="Ühekojaline parlament" term="XII Riigikogu" session="VIII regular session" meeting="-" sitting="2014-12-02" agenda="-" date="2014-12-02" title="XII Riigikogu, VIII Istungjärk, täiskogu korraline istung Teisipäev, 02.12.2014, 10:00" speaker_role="Juhataja" speaker_id="e_nestor_19530905" speaker_name="Nestor, Eiki" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDE" speaker_party_name="Sotsiaaldemokraatlik erakond" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1953">
+<speech id="ParlaMint-EE_2014-12-02_U64" text_id="ParlaMint-EE_2014-12-02" subcorpus="Reference" lang="eesti" body="Ühekojaline parlament" term="XII Riigikogu" session="VIII regular session" meeting="-" sitting="2014-12-02" agenda="-" date="2014-12-02" title="XII Riigikogu, VIII Istungjärk, täiskogu korraline istung Teisipäev, 02.12.2014, 10:00" speaker_role="Juhataja" topic="Other" speaker_id="e_nestor_19530905" speaker_name="Nestor, Eiki" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDE" speaker_party_name="Sotsiaaldemokraatlik erakond" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1953">
 <p id="ParlaMint-EE_2014-12-02_U64-P1" lang="eesti">
-<s id="ParlaMint-EE_2014-12-02_U64-P1.1">
+<s id="ParlaMint-EE_2014-12-02_U64-P1.1" senti_3="Positive" senti_6="positive" senti_n="4.984">
 Aitäh	Aitäh	aitäh	INTJ	-	1	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	2	punct	aitäh	INTJ	-	1
 </s>
-<s id="ParlaMint-EE_2014-12-02_U64-P1.2">
+<s id="ParlaMint-EE_2014-12-02_U64-P1.2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.598">
 Kas	Kas	kas	ADV	-	1	advmod	ette_kandja	NOUN	Case=All Number=Sing	2
 ettekandjale	ettekandjale	ette_kandja	NOUN	Case=All Number=Sing	2	root	-	-	-	-
 on	on	olema	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3	cop	ette_kandja	NOUN	Case=All Number=Sing	2
@@ -473,26 +473,26 @@ küsimusi	küsimusi	küsimus	NOUN	Case=Par Number=Plur	4	nsubj:cop	ette_kandja	N
 <g/>
 ?	?	?	PUNCT	-	5	punct	ette_kandja	NOUN	Case=All Number=Sing	2
 </s>
-<s id="ParlaMint-EE_2014-12-02_U64-P1.3">
+<s id="ParlaMint-EE_2014-12-02_U64-P1.3" senti_3="Neutral" senti_6="neutral negative" senti_n="1.634">
 Ei	Ei	ei	AUX	Polarity=Neg	1	aux	olema	VERB	Connegative=Yes Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2
 ole	ole	olema	VERB	Connegative=Yes Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	3	punct	olema	VERB	Connegative=Yes Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
-<s id="ParlaMint-EE_2014-12-02_U64-P1.4">
+<s id="ParlaMint-EE_2014-12-02_U64-P1.4" senti_3="Neutral" senti_6="neutral postive" senti_n="2.857">
 Avan	Avan	avama	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 läbirääkimised	läbirääkimised	läbi_rääkimine	NOUN	Case=Nom Number=Plur	2	obj	avama	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>
 .	.	.	PUNCT	-	3	punct	avama	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-EE_2014-12-02_U64-P1.5">
+<s id="ParlaMint-EE_2014-12-02_U64-P1.5" senti_3="Neutral" senti_6="neutral postive" senti_n="2.880">
 Kõnesoove	Kõnesoove	kõne_soov	NOUN	Case=Par Number=Sing	1	root	-	-	-	-
 ei	ei	ei	AUX	Polarity=Neg	2	aux	kõne_soov	NOUN	Case=Par Number=Sing	1
 ole	ole	olema	AUX	Connegative=Yes Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	3	cop	kõne_soov	NOUN	Case=Par Number=Sing	1
 <g/>
 .	.	.	PUNCT	-	4	punct	kõne_soov	NOUN	Case=Par Number=Sing	1
 </s>
-<s id="ParlaMint-EE_2014-12-02_U64-P1.6">
+<s id="ParlaMint-EE_2014-12-02_U64-P1.6" senti_3="Neutral" senti_6="neutral postive" senti_n="2.643">
 Eelnõu	Eelnõu	eel_nõu	NOUN	Case=Gen Number=Sing	1	nmod	lugemine	NOUN	Case=Nom Number=Sing	4
 781	781	781	NUM	NumForm=Digit NumType=Card	2	nummod	eel_nõu	NOUN	Case=Gen Number=Sing	1
 esimene	esimene	esimene	ADJ	Case=Nom NumForm=Word NumType=Ord Number=Sing	3	amod	lugemine	NOUN	Case=Nom Number=Sing	4
@@ -502,7 +502,7 @@ lõpetatud	lõpetatud	lõpetama	VERB	Tense=Past VerbForm=Part Voice=Pass	6	root	
 <g/>
 .	.	.	PUNCT	-	7	punct	lõpetama	VERB	Tense=Past VerbForm=Part Voice=Pass	6
 </s>
-<s id="ParlaMint-EE_2014-12-02_U64-P1.7">
+<s id="ParlaMint-EE_2014-12-02_U64-P1.7" senti_3="Neutral" senti_6="neutral postive" senti_n="2.565">
 Määran	Määran	määrama	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 muudatusettepanekute	muudatusettepanekute	muudatus_ette_panek	NOUN	Case=Gen Number=Plur	2	nmod	esitamine	NOUN	Case=Gen Number=Sing	3
 esitamise	esitamise	esitamine	NOUN	Case=Gen Number=Sing	3	nmod	täht_aeg	NOUN	Case=Tra Number=Sing	4
@@ -512,14 +512,14 @@ detsembri	detsembri	detsember	NOUN	Case=Gen Number=Sing	6	nmod	kell	NOUN	Case=No
 kell	kell	kell	NOUN	Case=Nom Number=Sing	7	obl	määrama	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 12.	12.	12.	ADJ	NumForm=Digit NumType=Ord	8	amod	kell	NOUN	Case=Nom Number=Sing	7
 </s>
-<s id="ParlaMint-EE_2014-12-02_U64-P1.8">
+<s id="ParlaMint-EE_2014-12-02_U64-P1.8" senti_3="Neutral" senti_6="neutral postive" senti_n="2.901">
 Istung	Istung	istung	NOUN	Case=Nom Number=Sing	1	nsubj	lõppema	VERB	Tense=Past VerbForm=Part Voice=Act	3
 on	on	olema	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	aux	lõppema	VERB	Tense=Past VerbForm=Part Voice=Act	3
 lõppenud	lõppenud	lõppema	VERB	Tense=Past VerbForm=Part Voice=Act	3	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	4	punct	lõppema	VERB	Tense=Past VerbForm=Part Voice=Act	3
 </s>
-<s id="ParlaMint-EE_2014-12-02_U64-P1.9">
+<s id="ParlaMint-EE_2014-12-02_U64-P1.9" senti_3="Neutral" senti_6="neutral postive" senti_n="3.122">
 Kohtume	Kohtume	kohtuma	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 homme	homme	homme	ADV	-	2	advmod	kohtuma	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>
@@ -527,7 +527,7 @@ homme	homme	homme	ADV	-	2	advmod	kohtuma	VERB	Mood=Ind Number=Plur Person=1 Tens
 </s>
 </p>
 <p id="ParlaMint-EE_2014-12-02_U64-P2" lang="eesti">
-<s id="ParlaMint-EE_2014-12-02_U64-P2.1">
+<s id="ParlaMint-EE_2014-12-02_U64-P2.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.849">
 Istungi	Istungi	istung	NOUN	Case=Gen Number=Sing	1	nmod	lõpp	NOUN	Case=Nom Number=Sing	2
 lõpp	lõpp	lõpp	NOUN	Case=Nom Number=Sing	2	root	-	-	-	-
 kell	kell	kell	NOUN	Case=Nom Number=Sing	3	nmod	lõpp	NOUN	Case=Nom Number=Sing	2

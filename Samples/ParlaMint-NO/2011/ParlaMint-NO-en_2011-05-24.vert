@@ -41,9 +41,9 @@
 <note type="comment" content="How does the Council of State assess the international food situation, and what does he think Norway can do to help achieve sub-target number three in UN Millennium Goal 1 to halve the proportion of chronic hunger between 1990 and 2015?’"/>
 <note type="comment" content="13."/>
 <note type="comment" content="Unit"/>
-<speech id="ParlaMint-NO_2011-05-24.ud457e94" text_id="ParlaMint-NO-en_2011-05-24" subcorpus="Reference" lang="English" body="Unicameralism" term="Term 2009-2013" session="Session 2010-2011" meeting="-" sitting="Sitting day 2011-05-24" agenda="-" date="2011-05-24" title="Hansard from meeting in the Norwegian Parliament, term 2009-2013, Session 2010-2011, Sitting day 2011-05-24" speaker_role="Chairperson" speaker_id="person.DTA" speaker_name="Andersen, Dag Terje" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1957">
+<speech id="ParlaMint-NO_2011-05-24.ud457e94" text_id="ParlaMint-NO-en_2011-05-24" subcorpus="Reference" lang="English" body="Unicameralism" term="Term 2009-2013" session="Session 2010-2011" meeting="-" sitting="Sitting day 2011-05-24" agenda="-" date="2011-05-24" title="Hansard from meeting in the Norwegian Parliament, term 2009-2013, Session 2010-2011, Sitting day 2011-05-24" speaker_role="Chairperson" topic="Other" speaker_id="person.DTA" speaker_name="Andersen, Dag Terje" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1957">
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e95" lang="English">
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e95.1">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e95.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.329">
 Before	Before	before	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 matters	matters	matter	NOUN	Number=Plur	X4.1,O1	X4.1	X4.1: Mental object: Conceptual object	t3
@@ -89,9 +89,9 @@ processed	processed	process	VERB	Tense=Past VerbForm=Part Voice=Pass	A1.1.1,Y2,M
 <note type="head" content="Sak nr. 1 [10:00:33]"/>
 <note type="comment" content="Debates of the Minister for Foreign Affairs on important EU and EEA matters"/>
 <note type="comment" content="The statement was held at the Stortings meeting on 19 May 2011"/>
-<speech id="ParlaMint-NO_2011-05-24.ud457e108" text_id="ParlaMint-NO-en_2011-05-24" subcorpus="Reference" lang="English" body="Unicameralism" term="Term 2009-2013" session="Session 2010-2011" meeting="-" sitting="Sitting day 2011-05-24" agenda="-" date="2011-05-24" title="Hansard from meeting in the Norwegian Parliament, term 2009-2013, Session 2010-2011, Sitting day 2011-05-24" speaker_role="Chairperson" speaker_id="person.DTA" speaker_name="Andersen, Dag Terje" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1957">
+<speech id="ParlaMint-NO_2011-05-24.ud457e108" text_id="ParlaMint-NO-en_2011-05-24" subcorpus="Reference" lang="English" body="Unicameralism" term="Term 2009-2013" session="Session 2010-2011" meeting="-" sitting="Sitting day 2011-05-24" agenda="-" date="2011-05-24" title="Hansard from meeting in the Norwegian Parliament, term 2009-2013, Session 2010-2011, Sitting day 2011-05-24" speaker_role="Chairperson" topic="Other" speaker_id="person.DTA" speaker_name="Andersen, Dag Terje" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1957">
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e109" lang="English">
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e109.1">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e109.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.291">
 At	At	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 request	request	request	NOUN	Number=Sing	Q2.1,Q2.2	Q2.1	Q2.1: Speech: Communicative	t3
@@ -135,7 +135,7 @@ follows	follows	follow	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fi
 </s>
 </p>
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e111" lang="English">
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e111.1">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e111.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.611">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Working	Working	work	VERB	VerbForm=Ger	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Party	Party	party	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -192,7 +192,7 @@ minutes	minutes	minute	NOUN	Number=Plur	T1.3,Q1.2	T1.3	T1.3: Time: Period	t35
 </s>
 </p>
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e113" lang="English">
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e113.1">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e113.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.521">
 Furthermore	Furthermore	furthermore	ADV	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -236,7 +236,7 @@ time	time	time	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t31
 </s>
 </p>
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e115" lang="English">
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e115.1">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e115.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.594">
 Furthermore	Furthermore	furthermore	ADV	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -283,7 +283,7 @@ minutes	minutes	minute	NOUN	Number=Plur	T1.3,Q1.2	T1.3	T1.3: Time: Period	t34
 </s>
 </p>
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e117" lang="English">
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e117.1">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e117.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.020">
 –	–	–	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 shall	shall	shall	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t3
@@ -298,7 +298,7 @@ adopted	adopted	adopt	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,S4	A9p	A9+: G
 </s>
 </p>
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e119" lang="English">
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e119.1">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e119.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.633">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Q3/S2mf" usas_cats="Q3 S2" usas_glosses="Q3: Language, speech and grammar|S2: People">
 first	first	first	ADJ	Degree=Pos NumType=Ord	Q3/S2mf	Q3 S2	Q3: Language, speech and grammar|S2: People	t2
@@ -333,9 +333,9 @@ Soreide	Soreide	Soreide	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t19
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-NO_2011-05-24.ud457e1905" text_id="ParlaMint-NO-en_2011-05-24" subcorpus="Reference" lang="English" body="Unicameralism" term="Term 2009-2013" session="Session 2010-2011" meeting="-" sitting="Sitting day 2011-05-24" agenda="-" date="2011-05-24" title="Hansard from meeting in the Norwegian Parliament, term 2009-2013, Session 2010-2011, Sitting day 2011-05-24" speaker_role="Chairperson" speaker_id="person.OYK" speaker_name="Korsberg, Øyvind" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FrP" speaker_party_name="Fremskrittspartiet" party_status="-" party_orientation="Right" speaker_gender="M" speaker_birth="1960">
+<speech id="ParlaMint-NO_2011-05-24.ud457e1905" text_id="ParlaMint-NO-en_2011-05-24" subcorpus="Reference" lang="English" body="Unicameralism" term="Term 2009-2013" session="Session 2010-2011" meeting="-" sitting="Sitting day 2011-05-24" agenda="-" date="2011-05-24" title="Hansard from meeting in the Norwegian Parliament, term 2009-2013, Session 2010-2011, Sitting day 2011-05-24" speaker_role="Chairperson" topic="Other" speaker_id="person.OYK" speaker_name="Korsberg, Øyvind" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FrP" speaker_party_name="Fremskrittspartiet" party_status="-" party_orientation="Right" speaker_gender="M" speaker_birth="1960">
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e1906" lang="English">
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e1906.1">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e1906.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.229">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Case	Case	Case	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
@@ -368,9 +368,9 @@ available	available	available	ADJ	Degree=Pos	A3+,A9+,A1.2+/G1.2,S4	A3p	A3+: Exis
 <note type="comment" content="357"/>
 <note type="comment" content="Representative proposals by the deposit representatives Elisabeth Røbekk Nørve, Frank Bakke-Jensen, Svein Flötten and Henning Warloe on the industrial development and innovation instrument (Document 8:149 S (2010-2011))"/>
 <note type="comment" content="Enst.: To be sent to the Business Committee."/>
-<speech id="ParlaMint-NO_2011-05-24.ud457e1945" text_id="ParlaMint-NO-en_2011-05-24" subcorpus="Reference" lang="English" body="Unicameralism" term="Term 2009-2013" session="Session 2010-2011" meeting="-" sitting="Sitting day 2011-05-24" agenda="-" date="2011-05-24" title="Hansard from meeting in the Norwegian Parliament, term 2009-2013, Session 2010-2011, Sitting day 2011-05-24" speaker_role="Chairperson" speaker_id="person.OYK" speaker_name="Korsberg, Øyvind" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FrP" speaker_party_name="Fremskrittspartiet" party_status="-" party_orientation="Right" speaker_gender="M" speaker_birth="1960">
+<speech id="ParlaMint-NO_2011-05-24.ud457e1945" text_id="ParlaMint-NO-en_2011-05-24" subcorpus="Reference" lang="English" body="Unicameralism" term="Term 2009-2013" session="Session 2010-2011" meeting="-" sitting="Sitting day 2011-05-24" agenda="-" date="2011-05-24" title="Hansard from meeting in the Norwegian Parliament, term 2009-2013, Session 2010-2011, Sitting day 2011-05-24" speaker_role="Chairperson" topic="Other" speaker_id="person.OYK" speaker_name="Korsberg, Øyvind" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FrP" speaker_party_name="Fremskrittspartiet" party_status="-" party_orientation="Right" speaker_gender="M" speaker_birth="1960">
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e1946" lang="English">
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e1946.1">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e1946.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.972">
 As	As	as	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 result	result	result	NOUN	Number=Sing	A2.2,X9.2,N2,A5.1,K5,Q1.1/A2.2	A2.2	A2.2: Cause	t3
@@ -391,7 +391,7 @@ completed	completed	complete	VERB	Tense=Past VerbForm=Part Voice=Pass	T2-,Q1.2	T
 </s>
 </p>
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e1948" lang="English">
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e1948.1">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e1948.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.441">
 Does	Does	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t1
 anyone	anyone	anyone	PRON	Number=Sing	Z8mfc	Z8	Z8: Pronouns	t2
 require	require	require	VERB	VerbForm=Inf	X7+,S6+	X7p	X7+: Wanted	t3
@@ -405,7 +405,7 @@ cancelled	cancelled	cancel	VERB	Tense=Past VerbForm=Part Voice=Pass	T2-	T2n	T2-:
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-NO_2011-05-24.ana.segd457e1948.2">
+<s id="ParlaMint-NO_2011-05-24.ana.segd457e1948.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.018">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t3

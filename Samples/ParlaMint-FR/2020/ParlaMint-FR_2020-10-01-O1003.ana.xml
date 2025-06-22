@@ -20,12 +20,28 @@
                <resp xml:lang="fr">Encodage du corpus selon ParlaMint TEI XML</resp>
                <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName>The CLARIN research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="432" xml:lang="en">432 speeches</measure>
@@ -35,12 +51,12 @@
          </extent>
          <publicationStmt>
             <publisher>CLARIN research infrastructure</publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="fr">This work is licensed under the terms of the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-15">2025-06-15</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -67,6 +83,7 @@
                <tagUsage gi="kinesic" occurs="31"/>
                <tagUsage gi="link" occurs="26145"/>
                <tagUsage gi="linkGrp" occurs="1216"/>
+               <tagUsage gi="measure" occurs="1216"/>
                <tagUsage gi="name" occurs="522"/>
                <tagUsage gi="note" occurs="14"/>
                <tagUsage gi="pc" occurs="2715"/>
@@ -89,8 +106,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-15">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
          <change when="2022-12-26">
             <name>Giancarlo Luxardo</name>: ParlaMint II update, vs 3.0.</change>
       </revisionDesc>
@@ -100,9 +119,10 @@
          <div xml:id="ParlaMint-FR_2020-10-01-O1003.d2_2" n="1" type="debateSection">
             <head xml:id="ParlaMint-FR_2020-10-01-O1003.ana.head1">Suite de la discussiond’un projet de loi</head>
             <note type="debate" xml:id="ParlaMint-FR_2020-10-01-O1003.ana.note1">SOUS_TITRE_TEXTE_DISCUSSION</note>
-            <u who="#PA1592" xml:id="ParlaMint-FR_2020-10-01-O1003.u1" ana="#chair">
+            <u who="#PA1592" xml:id="ParlaMint-FR_2020-10-01-O1003.u1" ana="#chair topic:healt">
                <seg xml:id="ParlaMint-FR_2020-10-01-O1003.u1.1">
                   <s xml:id="ParlaMint-FR_2020-10-01-O1003.s1">
+                     <measure type="sentiment" quantity="2.420" ana="senti:neuneg" corresp="#ParlaMint-FR_2020-10-01-O1003.s1"/>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1.w1" msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art" lemma="le" join="right">L'</w>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1.w2" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" lemma="ordre">ordre</w>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1.w3-4">du<w xml:id="ParlaMint-FR_2020-10-01-O1003.s1.w3" norm="de" msd="UPosTag=ADP" lemma="de"/><w xml:id="ParlaMint-FR_2020-10-01-O1003.s1.w4" norm="le" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" lemma="le"/></w>
@@ -187,9 +207,10 @@
          <div xml:id="ParlaMint-FR_2020-10-01-O1003.d2_3" n="2" type="debateSection">
             <head xml:id="ParlaMint-FR_2020-10-01-O1003.ana.head2">Discussion des articles</head>
             <note type="debate" xml:id="ParlaMint-FR_2020-10-01-O1003.ana.note2">DISC_ARTICLES_1_1</note>
-            <u who="#PA1592" xml:id="ParlaMint-FR_2020-10-01-O1003.u2" ana="#chair">
+            <u who="#PA1592" xml:id="ParlaMint-FR_2020-10-01-O1003.u2" ana="#chair topic:other">
                <seg xml:id="ParlaMint-FR_2020-10-01-O1003.u2.1">
                   <s xml:id="ParlaMint-FR_2020-10-01-O1003.s2">
+                     <measure type="sentiment" quantity="2.276" ana="senti:neuneg" corresp="#ParlaMint-FR_2020-10-01-O1003.s2"/>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s2.w1" msd="UPosTag=DET|Gender=Masc|Number=Sing|PronType=Dem" lemma="ce">Cet</w>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s2.w2" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" lemma="après-midi" join="right">après-midi</w>
 <pc xml:id="ParlaMint-FR_2020-10-01-O1003.s2.w3" msd="UPosTag=PUNCT">,</pc>
@@ -260,9 +281,10 @@
             </gap>
          </div>
          <div xml:id="ParlaMint-FR_2020-10-01-O1003.d2_75" n="430" type="debateSection">
-            <u who="#PA1592" xml:id="ParlaMint-FR_2020-10-01-O1003.u431" ana="#chair">
+            <u who="#PA1592" xml:id="ParlaMint-FR_2020-10-01-O1003.u431" ana="#chair topic:other">
                <seg xml:id="ParlaMint-FR_2020-10-01-O1003.u431.1">
                   <s xml:id="ParlaMint-FR_2020-10-01-O1003.s1208">
+                     <measure type="sentiment" quantity="2.809" ana="senti:neupos" corresp="#ParlaMint-FR_2020-10-01-O1003.s1208"/>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1208.w1" msd="UPosTag=VERB" lemma="voici">Voici</w>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1208.w2" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" lemma="le">le</w>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1208.w3" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" lemma="résultat">résultat</w>
@@ -282,6 +304,7 @@
                </seg>
                <seg xml:id="ParlaMint-FR_2020-10-01-O1003.u431.2">
                   <s xml:id="ParlaMint-FR_2020-10-01-O1003.s1209">
+                     <measure type="sentiment" quantity="2.935" ana="senti:neupos" corresp="#ParlaMint-FR_2020-10-01-O1003.s1209"/>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1209.w1" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" lemma="nombre">Nombre</w>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1209.w2" msd="UPosTag=ADP" lemma="de">de</w>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1209.w3" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" lemma="votant">votants</w>
@@ -296,6 +319,7 @@
                </seg>
                <seg xml:id="ParlaMint-FR_2020-10-01-O1003.u431.3">
                   <s xml:id="ParlaMint-FR_2020-10-01-O1003.s1210">
+                     <measure type="sentiment" quantity="2.437" ana="senti:neuneg" corresp="#ParlaMint-FR_2020-10-01-O1003.s1210"/>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1210.w1" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" lemma="nombre">Nombre</w>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1210.w2" msd="UPosTag=ADP" lemma="de">de</w>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1210.w3" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" lemma="suffrage">suffrages</w>
@@ -312,6 +336,7 @@
                </seg>
                <seg xml:id="ParlaMint-FR_2020-10-01-O1003.u431.4">
                   <s xml:id="ParlaMint-FR_2020-10-01-O1003.s1211">
+                     <measure type="sentiment" quantity="2.660" ana="senti:neupos" corresp="#ParlaMint-FR_2020-10-01-O1003.s1211"/>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1211.w1" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" lemma="majorité">Majorité</w>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1211.w2" msd="UPosTag=ADJ|Gender=Fem|Number=Sing" lemma="absolu">absolue</w>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1211.w3" msd="UPosTag=NUM|Number=Plur" lemma="22">22</w>
@@ -324,6 +349,7 @@
                </seg>
                <seg xml:id="ParlaMint-FR_2020-10-01-O1003.u431.5">
                   <s xml:id="ParlaMint-FR_2020-10-01-O1003.s1212">
+                     <measure type="sentiment" quantity="3.961" ana="senti:mixpos" corresp="#ParlaMint-FR_2020-10-01-O1003.s1212"/>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1212.w1" msd="UPosTag=ADP" lemma="pour">Pour</w>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1212.w2" msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art" lemma="le" join="right">l'</w>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1212.w3" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" lemma="adoption">adoption</w>
@@ -338,6 +364,7 @@
                </seg>
                <seg xml:id="ParlaMint-FR_2020-10-01-O1003.u431.6">
                   <s xml:id="ParlaMint-FR_2020-10-01-O1003.s1213">
+                     <measure type="sentiment" quantity="2.111" ana="senti:neuneg" corresp="#ParlaMint-FR_2020-10-01-O1003.s1213"/>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1213.w1" msd="UPosTag=ADP" lemma="contre">Contre</w>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1213.w2" msd="UPosTag=NUM|Number=Plur" lemma="17">17</w>
 <linkGrp type="UD-SYN" targFunc="head argument">
@@ -351,9 +378,10 @@
          <div xml:id="ParlaMint-FR_2020-10-01-O1003.d1_76" n="432" type="debateSection">
             <head xml:id="ParlaMint-FR_2020-10-01-O1003.ana.head14">Ordre du jour de la prochaine séance</head>
             <note type="debate" xml:id="ParlaMint-FR_2020-10-01-O1003.ana.note14">FIN_SEAN_1_2</note>
-            <u who="#PA1592" xml:id="ParlaMint-FR_2020-10-01-O1003.u432" ana="#chair">
+            <u who="#PA1592" xml:id="ParlaMint-FR_2020-10-01-O1003.u432" ana="#chair topic:gover">
                <seg xml:id="ParlaMint-FR_2020-10-01-O1003.u432.1">
                   <s xml:id="ParlaMint-FR_2020-10-01-O1003.s1214">
+                     <measure type="sentiment" quantity="2.258" ana="senti:neuneg" corresp="#ParlaMint-FR_2020-10-01-O1003.s1214"/>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1214.w1" msd="UPosTag=ADJ|Gender=Fem|Number=Sing" lemma="prochain">Prochaine</w>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1214.w2" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" lemma="séance">séance</w>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1214.w3" msd="UPosTag=ADP" lemma="à">à</w>
@@ -372,6 +400,7 @@
                </seg>
                <seg xml:id="ParlaMint-FR_2020-10-01-O1003.u432.2">
                   <s xml:id="ParlaMint-FR_2020-10-01-O1003.s1215">
+                     <measure type="sentiment" quantity="2.585" ana="senti:neupos" corresp="#ParlaMint-FR_2020-10-01-O1003.s1215"/>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1215.w1" msd="UPosTag=NOUN" lemma="suite">Suite</w>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1215.w2" msd="UPosTag=ADP" lemma="de">de</w>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1215.w3" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" lemma="le">la</w>
@@ -415,6 +444,7 @@
                </seg>
                <seg xml:id="ParlaMint-FR_2020-10-01-O1003.u432.3">
                   <s xml:id="ParlaMint-FR_2020-10-01-O1003.s1216">
+                     <measure type="sentiment" quantity="2.851" ana="senti:neupos" corresp="#ParlaMint-FR_2020-10-01-O1003.s1216"/>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1216.w1" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" lemma="le">La</w>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1216.w2" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" lemma="séance">séance</w>
 <w xml:id="ParlaMint-FR_2020-10-01-O1003.s1216.w3" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="être">est</w>

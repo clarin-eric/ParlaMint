@@ -13,9 +13,9 @@
 <note type="editorial" content="- Peter Buysrogge to Philippe Goffin (Foreign Affairs and Defence) on \"The Delay in the Development of New Frigates\" (55006700C)"/>
 <note type="editorial" content="- Melissa Depraetere to Philippe Goffin (Foreign Affairs and Defence) on \"The construction of the new frigates M\" (55006711C)"/>
 <note type="speaker" content="01.01 Annick Ponthier (VB):"/>
-<speech id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u1" text_id="ParlaMint-BE-en_2020-06-17-55-commissie-ic210x" subcorpus="COVID" lang="English" body="Committee" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2020-06-17" title="Belgian parliamentary corpus ParlaMint-BE-en, committee meeting of 17-06-2020" speaker_role="Regular" speaker_id="PonthierAnnick" speaker_name="Ponthier, Annick" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VB" speaker_party_name="Vlaams Belang" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="F" speaker_birth="1971">
+<speech id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u1" text_id="ParlaMint-BE-en_2020-06-17-55-commissie-ic210x" subcorpus="COVID" lang="English" body="Committee" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2020-06-17" title="Belgian parliamentary corpus ParlaMint-BE-en, committee meeting of 17-06-2020" speaker_role="Regular" topic="Defense" speaker_id="PonthierAnnick" speaker_name="Ponthier, Annick" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VB" speaker_party_name="Vlaams Belang" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="F" speaker_birth="1971">
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg1" lang="English">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s18">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s18" senti_3="Negative" senti_6="negative" senti_n="0.224">
 <phr usas_tags="Z1m" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 Minister	Minister	Minister	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -60,7 +60,7 @@ delayed	delayed	delay	VERB	Tense=Past VerbForm=Part Voice=Pass	T4-	T4n	T4-: Time
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s19">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s19" senti_3="Negative" senti_6="mixed negative" senti_n="0.787">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 currently	currently	currently	ADV	-	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t3
@@ -76,7 +76,7 @@ water	water	water	NOUN	Number=Sing	O1.2,W3/M4,B1,C1%	O1.2	O1.2: Substances and m
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s20">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s20" senti_3="Negative" senti_6="mixed negative" senti_n="1.364">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 be	be	be	AUX	VerbForm=Inf	A3+,Z5	A3p	A3+: Existing	t3
@@ -108,7 +108,7 @@ employability	employability	employability	NOUN	Number=Sing	I3.1	I3.1	I3.1: Work 
 </s>
 </p>
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg2" lang="English">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s21">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s21" senti_3="Neutral" senti_6="neutral positive" senti_n="2.527">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t1
 know	know	know	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t2
@@ -142,7 +142,7 @@ questions	questions	question	NOUN	Number=Plur	Q2.2,X4.1	Q2.2	Q2.2: Speech acts	t
 </s>
 </p>
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg3" lang="English">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s22">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s22" senti_3="Neutral" senti_6="neutral positive" senti_n="2.553">
 Can	Can	can	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 explain	explain	explain	VERB	VerbForm=Inf	Q2.2/A7+,A2.2	Q2.2 A7p	Q2.2: Speech acts|A7+: Likely	t3
@@ -171,7 +171,7 @@ file	file	file	NOUN	Number=Sing	O2/Q1.2,O2,Y2,S5+/N4	O2 Q1.2	O2: Objects general
 </s>
 </p>
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg4" lang="English">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s23">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s23" senti_3="Negative" senti_6="mixed negative" senti_n="0.792">
 Where	Where	where	ADV	PronType=Int	M6	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -186,7 +186,7 @@ data	data	datum	NOUN	Number=Plur	X2.2/X2.4,Q1.1	X2.2 X2.4	X2.2: Knowledge|X2.4: 
 </s>
 </p>
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg5" lang="English">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s24">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s24" senti_3="Neutral" senti_6="neutral negative" senti_n="2.030">
 What	What	what	PRON	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -210,7 +210,7 @@ Department	Department	Department	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal name
 </s>
 </p>
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg6" lang="English">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s25">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s25" senti_3="Negative" senti_6="mixed negative" senti_n="0.716">
 What	What	what	DET	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t1
 impact	impact	impact	NOUN	Number=Sing	A2.2,A1.1.1	A2.2	A2.2: Cause	t2
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t3
@@ -225,7 +225,7 @@ involved	involved	involve	VERB	Tense=Past VerbForm=Part	A1.8+	A1.8p	A1.8+: Inclu
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s26">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s26" senti_3="Neutral" senti_6="neutral positive" senti_n="2.507">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 am	am	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 thinking	thinking	think	VERB	Tense=Pres VerbForm=Part	X2.1	X2.1	X2.1: Thought, belief	t3
@@ -241,7 +241,7 @@ costs	costs	cost	NOUN	Number=Plur	I1.3	I1.3	I1.3: Money: Cost and price	t10
 </s>
 </p>
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg7" lang="English">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s27">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s27" senti_3="Neutral" senti_6="neutral negative" senti_n="2.479">
 Initially	Initially	initially	ADV	-	N4	N4	N4: Linear order	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -258,7 +258,7 @@ by	by	by	ADP	-	Z5	Z5	Z5: Grammatical bin	t11
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s28">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s28" senti_3="Neutral" senti_6="neutral positive" senti_n="2.681">
 What	What	what	PRON	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -269,9 +269,9 @@ deadline	deadline	deadline	NOUN	Number=Sing	T1.2	T1.2	T1.2: Time: Momentary	t4
 </p>
 </speech>
 <note type="speaker" content="01.02 Sammy Mahdi (CD&V):"/>
-<speech id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u2" text_id="ParlaMint-BE-en_2020-06-17-55-commissie-ic210x" subcorpus="COVID" lang="English" body="Committee" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2020-06-17" title="Belgian parliamentary corpus ParlaMint-BE-en, committee meeting of 17-06-2020" speaker_role="Regular" speaker_id="MahdiSammy" speaker_name="Mahdi, Sammy" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1988">
+<speech id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u2" text_id="ParlaMint-BE-en_2020-06-17-55-commissie-ic210x" subcorpus="COVID" lang="English" body="Committee" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2020-06-17" title="Belgian parliamentary corpus ParlaMint-BE-en, committee meeting of 17-06-2020" speaker_role="Regular" topic="Defense" speaker_id="MahdiSammy" speaker_name="Mahdi, Sammy" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1988">
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg8" lang="English">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s30">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s30" senti_3="Neutral" senti_6="neutral positive" senti_n="2.719">
 <phr usas_tags="Z1m" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -298,7 +298,7 @@ unnecessarily	unnecessarily	unnecessarily	ADV	-	S6-	S6n	S6-: No obligation or ne
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s31">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s31" senti_3="Positive" senti_6="positive" senti_n="4.899">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -339,7 +339,7 @@ defence	defence	defence	NOUN	Number=Sing	S8+,G3,G2.1c,Q2.2,K5.1,S7.3+	S8p	S8+: H
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t31
 </s>
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s32">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s32" senti_3="Negative" senti_6="negative" senti_n="0.284">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 problem	problem	problem	NOUN	Number=Sing	A12-,X4.1,N2,B2-	A12n	A12-: Difficult	t2
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -357,7 +357,7 @@ purchase	purchase	purchase	NOUN	Number=Sing	I2.2	I2.2	I2.2: Business: Selling	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s33">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s33" senti_3="Neutral" senti_6="neutral positive" senti_n="3.142">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -371,7 +371,7 @@ time	time	time	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t7
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s34">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s34" senti_3="Neutral" senti_6="neutral negative" senti_n="2.294">
 When	When	when	ADV	PronType=Int	Z5	Z5	Z5: Grammatical bin	t1
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -385,7 +385,7 @@ sea	sea	sea	NOUN	Number=Sing	W3/M4	W3 M4	W3: Geographical terms|M4: Sailing, swi
 </s>
 </p>
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg9" lang="English">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s35">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s35" senti_3="Neutral" senti_6="neutral negative" senti_n="1.980">
 Have	Have	have	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t1
 there	there	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t2
 been	been	be	VERB	Tense=Past VerbForm=Part	A3+,Z5	A3p	A3+: Existing	t3
@@ -400,7 +400,7 @@ colleagues	colleagues	colleague	NOUN	Number=Plur	I3.2/S2mf	I3.2 S2	I3.2: Work an
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s36">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s36" senti_3="Neutral" senti_6="neutral positive" senti_n="2.810">
 What	What	what	PRON	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t1
 <g/>
 'd	'd	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
@@ -412,7 +412,7 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: A
 </phr>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s37">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s37" senti_3="Negative" senti_6="mixed negative" senti_n="1.047">
 Will	Will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t1
 all	all	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t2
 necessary	necessary	necessary	ADJ	Degree=Pos	S6+,A11.1+	S6p	S6+: Strong obligation or necessity	t3
@@ -443,9 +443,9 @@ orders	orders	order	NOUN	Number=Plur	S7.1+/Q2.2,I2.2/Q2.2,A4.1,N4,G2.1+,G2.1,Q1.
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u89" text_id="ParlaMint-BE-en_2020-06-17-55-commissie-ic210x" subcorpus="COVID" lang="English" body="Committee" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2020-06-17" title="Belgian parliamentary corpus ParlaMint-BE-en, committee meeting of 17-06-2020" speaker_role="Regular" speaker_id="BombledChristophe" speaker_name="Bombled, Christophe" speaker_mp="MP" speaker_minister="notMinister" speaker_party="MR" speaker_party_name="Mouvement Réformateur" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1973">
+<speech id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u89" text_id="ParlaMint-BE-en_2020-06-17-55-commissie-ic210x" subcorpus="COVID" lang="English" body="Committee" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2020-06-17" title="Belgian parliamentary corpus ParlaMint-BE-en, committee meeting of 17-06-2020" speaker_role="Regular" topic="Other" speaker_id="BombledChristophe" speaker_name="Bombled, Christophe" speaker_mp="MP" speaker_minister="notMinister" speaker_party="MR" speaker_party_name="Mouvement Réformateur" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1973">
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg375" lang="English">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s1333">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s1333" senti_3="Neutral" senti_6="neutral positive" senti_n="3.469">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -468,9 +468,9 @@ comment	comment	comment	NOUN	Number=Sing	Q2.1	Q2.1	Q2.1: Speech: Communicative	t
 <note type="editorial" content="The incident is closed."/>
 <note type="editorial" content="L'incidentest close."/>
 <note type="speaker" content="The President shall:"/>
-<speech id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u90" text_id="ParlaMint-BE-en_2020-06-17-55-commissie-ic210x" subcorpus="COVID" lang="English" body="Committee" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2020-06-17" title="Belgian parliamentary corpus ParlaMint-BE-en, committee meeting of 17-06-2020" speaker_role="Chairperson" speaker_id="BuysroggePeter" speaker_name="Buysrogge, Peter" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="Opposition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1976">
+<speech id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u90" text_id="ParlaMint-BE-en_2020-06-17-55-commissie-ic210x" subcorpus="COVID" lang="English" body="Committee" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2020-06-17" title="Belgian parliamentary corpus ParlaMint-BE-en, committee meeting of 17-06-2020" speaker_role="Chairperson" topic="Other" speaker_id="BuysroggePeter" speaker_name="Buysrogge, Peter" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="Opposition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1976">
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg376" lang="English">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s1337">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s1337" senti_3="Neutral" senti_6="neutral negative" senti_n="2.175">
 Finally	Finally	finally	ADV	-	N4	N4	N4: Linear order	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -521,7 +521,7 @@ questions	questions	question	NOUN	Number=Plur	Q2.2,X4.1	Q2.2	Q2.2: Speech acts	t
 </s>
 </p>
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg377" lang="English">
-<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s1338">
+<s id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s1338" senti_3="Neutral" senti_6="neutral positive" senti_n="2.592">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="T1.1.3" usas_cats="T1.1.3" usas_glosses="T1.1.3: Time: Future">
 next	next	next	ADJ	Degree=Pos	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2

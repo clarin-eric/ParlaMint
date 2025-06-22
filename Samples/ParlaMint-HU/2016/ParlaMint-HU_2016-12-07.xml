@@ -22,9 +22,17 @@
                <resp xml:lang="hu">Metaadatok gyűjtése és rendszerezése</resp>
                <resp xml:lang="en">Metadata collection and organizing</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="hu">CLARIN Kutatási Infrastruktúra</orgName>
                <orgName xml:lang="en">CLARIN Research Infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="hu">Nyelvtudományi Kutatóközpont</orgName>
@@ -32,7 +40,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure xml:lang="hu" quantity="61" unit="speeches">61 beszéd</measure>
@@ -46,7 +54,7 @@
                <orgName xml:lang="en">CLARIN research infrastucture</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="hu">Ez a munka az alábbi licensz alapján használható: <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
@@ -54,7 +62,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-16">2025-06-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -101,22 +109,24 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <note type="speaker" xml:id="ParlaMint-HU_2016-12-07.note1">ELNÖK</note>
-            <u xml:id="u2016-12-07-0" who="#LatorcaiJanos" ana="#chair">
+            <u xml:id="u2016-12-07-0" who="#LatorcaiJanos" ana="#chair topic:gover">
                <seg xml:id="u2016-12-07-0.1">Jó reggel kívánok. Tisztelt Képviselőtársaim! Szeretettel köszöntöm valamennyiüket. Az Országgyűlés őszi ülésszakának 30. ülésnapját megnyitom. Tájékoztatom önöket, hogy az ülés vezetésében Földi László és Szávay István jegyző urak lesznek a segítségemre.</seg>
                <seg xml:id="u2016-12-07-0.2">Köszöntöm mindazokat a kedves vendégeinket is, akik itt jelen vannak, és köszöntöm azokat is, akik figyelemmel kísérik mai munkánkat.</seg>
                <seg xml:id="u2016-12-07-0.3">Soron következik a Kúria elnökének országgyűlési beszámolója a Kúria 2015. évi tevékenységéről a jogegység biztosítása és az önkormányzati normakontroll körében című beszámoló, valamint az ennek elfogadásáról szóló határozati javaslat együttes általános vitája a lezárásig. A Kúria elnöke által benyújtott beszámoló B/11304., az Igazságügyi bizottság által benyújtott határozati javaslat pedig H/12934. számon a parlament informatikai hálózatán elérhető.</seg>
                <seg xml:id="u2016-12-07-0.4">Elsőként megadom a szót Darák Péter úrnak, a Kúria elnökének, a beszámoló előterjesztőjének, 30 perces időkeretben. Megkérem elnök urat, fáradjon föl a pulpitusra, és innen mondja el a beszámolóhoz fűzött expozéját. Megvárjuk, amíg elnök úr fölérkezik. Elnök úr, tisztelettel köszöntöm. Öné a szó.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-HU_2016-12-07.note2">DR. DARÁK PÉTER, a Kúria elnöke, a napirendi pont előadója</note>
-            <u xml:id="u2016-12-07-1" who="#DarakPeter" ana="#guest">
+            <u xml:id="u2016-12-07-1" who="#DarakPeter" ana="#guest topic:lawcr">
                <seg xml:id="u2016-12-07-1.1">Tisztelt Elnök Úr! Tisztelt Országgyűlés! „A büntetőjogban és a büntetőeljárási jogban kifejezett törvényhozói szándékkal ellentétes, hogy olyan ítélet szülessék és legyen jogerős, amely ártatlant bűnösnek nyilvánít. Ehhez képest minden más semmisségi ok, például hogy a bíróság nem volt törvényesen megalakítva, nem járt el védő, másodlagos; végső fokon azért idéz elő semmisséget, mert vélelmezzük, hogy az elvek, garanciák megsértése veszélyezteti az igazságot.”</seg>
                <seg xml:id="u2016-12-07-1.2">Az idézet Király Tibor Büntetőítélet a jog határán című könyvéből származik, és ezt az idézetet megtaláljuk a Kúria 2016. október 23-ai Magyar Közlönyben közzétett végzésében. Ebben a végzésben Nagy Imre és társai elítélésével foglalkozik a Kúria. Megállapítja, hogy a Magyarországon 1958-ban hozott megtorló ítéletek azt a fogalmi képtelenséget állították, hogy a szuverenitás mellett kiálló legitim miniszterelnök hazaárulás miatt felelősséggel tartozik. A végzés megállapította továbbá, hogy Nagy Imre és társai perbefogása valós bűn nélkül, politikai célból arra irányult, hogy kivégezhessék. Ez igazságszolgáltatást nem valósított meg, hanem közönséges gyilkosságot, ezért ezt helyreigazítani csak a törvény erejével történő semmisség alkalmas, mert azt mondja ki, hogy ami Maléter Pál tábornok tőrbecsalásával és elfogásával, majd Nagy Imre miniszterelnök elrablásával megkezdődött és kivégzésükkel zárult, azt az igazságszolgáltatás, valamint a bírói hatásrend elutasítja, mert az tőle idegen, vállalhatatlan. Ezért elítélésüket olyannak tekinti, mint ami megtörténtének időpontjától meg sem történt, az ítélet iudicium non existens, nem ítélet.</seg>
                <seg xml:id="u2016-12-07-1.3">Tisztelt Országgyűlés! Azért tartottam fontosnak, hogy a 2015. évi beszámolómat ezzel a 2016-ban meghozott végzéssel kezdjem, mert jelzi, hogy az igazságszolgáltatásnak van egy olyan technikai racionalitás oldala, amelynek szabályait látszólag betartva figyelmen kívül lehet hagyni az ítélkezés igazi tartalmát; az igazi tartalmát, amely bűnösség és ártatlanság, jogos igény és jogtalanság kérdésében nyilvánít véleményt. És azért fontos ezt a folyamatot felidézni ma, 2016-ban, 1958-tól 2016-ig terjedően, amelybe a 2015-ös év is beletartozik, mert jelzi, hogy ahhoz, hogy az igazságot érvényre juttató ítélkezés valósuljon meg, szükséges egyfajta szervezeti kultúra, amely nagyobb figyelmet szentel a tartalmi kérdéseknek, mint a jogászi hivatás technikai racionalitásának.</seg>
@@ -144,7 +154,7 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u xml:id="u2016-12-07-59" who="#ZKarpatDaniel" ana="#regular">
+            <u xml:id="u2016-12-07-59" who="#ZKarpatDaniel" ana="#regular topic:domes">
                <seg xml:id="u2016-12-07-59.1">Tisztelt Elnök Úr! Tisztelt Ház! Közeleg a tél, és bizony a devizahitel-károsultak számára nem lesz olyan boldog a karácsony, mint lehetne, ha ez a kormányzat a helyzet magaslatán állt volna, és tett volna érdemi lépéseket is értük. A közelmúltban a Romániának nevezett országban született egy döntés, ahol tulajdonképpen felvételkori árfolyamon váltották át azokat az úgynevezett hiteleket, amelyeket Magyarországon is devizahiteleknek kereszteltek el. A hazai lélekbátorság messze nem volt ekkora a kormányzó pártok képviselőiben, hiszen aki 160 forinton vette fel a hitelét, önök azoknak is 256 forintos, majdhogynem piaci árfolyamon forintosítottak. A különbséget, a hatalmas elrabolt összeget pedig jóváírták bankár barátaik számára. Elmondhatjuk ugyanakkor, hogy még most is menthető lenne a helyzet, de az imént éppen a legfőbb ügyész úr arrogáns, kioktató válaszából láthattuk meg azt, hogy miért lehetetlen Magyarországon ettől a kormányzattól érdemi megoldást várni. Ráadásul elkövették azt az elképesztő árulást, amely nagyon-nagyon ritka az európai piacon. Olyan paktumot kötöttek a Bankszövetséggel, amelynek értelmében további terheket nem akarnak az érintett bankokra rakni, és nem kívánják rendezni az emberek helyzetét, legalábbis azokét, akiket egy szervezett kifosztó mechanizmus keretein belül tulajdonképpen kisemmiztek, nagyon sokan elvesztették az otthonukat.Amikor a héten azonnali kérdés formájában és korábban is többször feltettem a kérdést azt illetően, hogy mégis mi a célja a kormánynak a devizahitel-károsultak tömegével, az ő helyzetük rendezésével, kezelésével, rendre olyan államtitkári válaszokat kaptunk, amelyek szerint ez a probléma megoldottnak tekinthető, a devizában mért lakossági hitelállomány mértéke nagymértékben csökkent. Igen ám, ekkor szoktuk elmondani, hogy már nem devizában tartják nyilván a hazugságot, hanem forintban, de ettől a hazugság még hazugság marad. Egy példát hadd osszak meg önökkel! A jobbikos képviselők ott vannak mindig a fogadóóráikon, igen könnyű megtalálni őket akár bejelentkezés nélkül is. Ez történt Óbudán is múlt héten, amikor egy hitelkárosult vállalkozó úriember tért be hozzánk. 24 millió forintot vett fel annak idején. Ezt követően 17-et már visszafizetett, amikor pedig elmaradt a részletek törlesztésével, egy számunkra is érthetetlen mechanizmus révén most már 86 millió forintos tartozást mutatnak ki nála, hiszen teljesen egyértelmű, hogy mind a bank, mind a végrehajtó indokolatlan összegeket, indokolatlan tételeket terhelt rá. Ezek aztán nyilván büntetőkamattal kerültek megfejelésre, az érintett pedig belekerült abba a spirálba, hogy egyik tartozása miatt már nem tudta a másikat fizetni.Miközben, ha ez a kormányzat ott áll a vártán és időben beavatkozik, tisztességes módon, akkor megelőzhető a baj, és megelőzhető az, hogy családok tízezrei kerüljenek hasonló helyzetbe. Hiszen ne gondolják azt, hogy az önök kormányzása után, amikor már nem Fidesz-KDNP lesz Magyarország élén, akkor ez a probléma nem lesz akut és létező. Ezeket az embereket szociális transzferekkel, egyebekkel akkor is életben kell és muszáj tartani, nem szabad tőlük megvonni a segítséget, de számukra is jobb lenne, és ők is ezt szeretnék, ha a társadalom termelő, produktív, adófizető tagjaivá válhatnának, ehhez ugyanakkor életesélyt kell számukra biztosítani.</seg>
                <seg xml:id="u2016-12-07-59.2">Ennek érdekében javasoltam azt, hogy a Magyar Nemzeti Banknál felhalmozódott, a devizahiteles-átváltásból felhalmozódott mintegy 260 milliárdos többlet kárára hozzunk létre egy olyan kártérítési alapot, ahova átcsoportosíthatjuk az érintett összegeket és ahonnan minél több érintett polgár eredeti élethelyzetét megkísérelhetnénk helyreállítani. Nem árulok el titkot azzal és nem okozok meglepetést, hogy bizony ez az elképzelésünk még tárgyalási szakaszba sem juthatott, a Fidesz-KDNP-nek - idézőjelben - köszönhetően.</seg>
                <seg xml:id="u2016-12-07-59.3">Mindemellett el kell mondani, hogy bár az árverési és végrehajtási rendszert érintően történtek azért finomhangolások és gesztusértékű lépések, a visszaélések továbbra is sorozatosak, nem lehet úgy tenni, mintha ezek nem léteznének. El kell hogy mondjuk, hogy továbbra is 140 ezren rendelkeznek olyan elmaradással, ami rövid vagy középtávon azzal fenyegeti őket, hogy elveszítik a lakhelyüket, tízezrével került sor olyan árverésre, amelynek sok esetben csak azért nem lett a lakás kiürítése a vége, mert egész egyszerűen nem volt vevő. És el kell hogy mondjuk azt is, hogy a Nemzeti Eszközkezelő, amely segítségként nem fogható fel az emberek ingatlantulajdonának elvétele miatt, de legalább levegőt adhat a károsultak egy részének, alig pár száz ingatlanszerződés aláírására képes már, a kvóta betelik.</seg>
@@ -154,7 +164,7 @@
                </kinesic>
             </u>
             <note type="speaker" xml:id="ParlaMint-HU_2016-12-07.note92">ELNÖK</note>
-            <u xml:id="u2016-12-07-60" who="#HillerIstvan" ana="#chair">
+            <u xml:id="u2016-12-07-60" who="#HillerIstvan" ana="#chair topic:other">
                <seg xml:id="u2016-12-07-60.1">Nagyon szépen köszönöm, képviselő úr. A képviselő urat szívesen tájékoztatom, hogy Románia hivatalos neve Románia, így aztán a későbbi felszólalásokban már ezen információk birtokában nem kell hogy kétsége legyen.</seg>
                <vocal type="laughter" xml:id="ParlaMint-HU_2016-12-07.vocal39">
                   <desc>Derültség a Jobbik padsoraiban.</desc>

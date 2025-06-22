@@ -23,13 +23,29 @@
                <resp xml:lang="el">Επιστημονικός υπεύθυνος</resp>
                <resp xml:lang="en">Scientific supervisor</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="el">Γλωσσική ερευνητική υποδομή CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure xml:lang="el" unit="speeches" quantity="52">52 ομιλίες</measure>
@@ -43,13 +59,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
                <p>Το παρόν έργο διέπεται από την άδεια <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-16">2025-06-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,6 +92,7 @@
                <tagUsage gi="kinesic" occurs="3"/>
                <tagUsage gi="link" occurs="10317"/>
                <tagUsage gi="linkGrp" occurs="479"/>
+               <tagUsage gi="measure" occurs="479"/>
                <tagUsage gi="name" occurs="428"/>
                <tagUsage gi="note" occurs="64"/>
                <tagUsage gi="pc" occurs="1251"/>
@@ -98,8 +115,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
@@ -116,9 +135,10 @@
             </gap>
             <note xml:id="ParlaMint-GR_2019-12-04-S1-commons.ana.note1">Αθήνα, σήμερα στις 4 Δεκεμβρίου 2019, ημέρα Τετάρτη και ώρα 9.08΄, συνήλθε στην Αίθουσα των συνεδριάσεων του Βουλευτηρίου η Βουλή σε ολομέλεια για να συνεδριάσει υπό την προεδρία του Β΄ Αντιπροέδρου αυτής κ. ΧΑΡΑΛΑΜΠΟΥ ΑΘΑΝΑΣΙΟΥ.</note>
             <note type="speaker" xml:id="ParlaMint-GR_2019-12-04-S1-commons.ana.note2">ΠΡΟΕΔΡΕΥΩΝ (ΧΑΡΑΛΑΜΠΟΣ ΑΘΑΝΑΣΙΟΥ):</note>
-            <u xml:id="ParlaMint-GR_2019-12-04-S1-commons.u1" ana="#chair" who="#ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ">
+            <u xml:id="ParlaMint-GR_2019-12-04-S1-commons.u1" ana="#chair topic:mixed" who="#ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ">
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg1">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg1.1">
+                     <measure type="sentiment" quantity="3.670" ana="senti:mixpos" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg1.1"/>
 <w lemma="κυρία" msd="UPosTag=NOUN|Case=Voc|Gender=Fem|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg1.1.1">Κυρίες</w>
 <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg1.1.2">και</w>
 <w lemma="κύριος" msd="UPosTag=NOUN|Case=Voc|Gender=Masc|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg1.1.3">κύριοι</w>
@@ -144,6 +164,7 @@
                <note xml:id="ParlaMint-GR_2019-12-04-S1-commons.ana.note3">Σημείωση: Ο παρακάτω πίνακας περιεχομένων δεν αποτελεί το τελικό κείμενο, διότι εκκρεμούν ορθογραφικές και συντακτικές διορθώσεις</note>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg2">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg2.1">
+                     <measure type="sentiment" quantity="3.019" ana="senti:neupos" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg2.1"/>
 <w lemma="κατά" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg2.1.1">Κατ'</w>
 <w lemma="αρχάς" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg2.1.2">αρχάς</w>
 <w lemma="επιτρέπω" msd="UPosTag=VERB|Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg2.1.3">επιτρέψτε</w>
@@ -184,6 +205,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg3">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg3.1">
+                     <measure type="sentiment" quantity="2.290" ana="senti:neuneg" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg3.1"/>
 <w lemma="Α." msd="UPosTag=NUM|Case=Nom|Gender=Neut|Number=Sing|NumType=Card" pos="NmCd" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg3.1.1">Α.</w>
 <w lemma="επίκαιρος" msd="UPosTag=ADJ|Case=Nom|Gender=Fem|Number=Plur" pos="AjBa" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg3.1.2">ΕΠΙΚΑΙΡΕΣ</w>
 <w lemma="ερώτηση" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg3.1.3">ΕΡΩΤΗΣΕΙΣ</w>
@@ -234,6 +256,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg4">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg4.1">
+                     <measure type="sentiment" quantity="1.505" ana="senti:neuneg" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg4.1"/>
 <w lemma="1." msd="UPosTag=NUM|NumType=Card" pos="DIG" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg4.1.1">1.</w>
 <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg4.1.2">Η</w>
 <w lemma="με" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg4.1.3">με</w>
@@ -328,6 +351,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg5">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg5.1">
+                     <measure type="sentiment" quantity="2.045" ana="senti:neuneg" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg5.1"/>
 <w lemma="2." msd="UPosTag=NUM|NumType=Card" pos="DIG" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg5.1.1">2.</w>
 <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg5.1.2">Η</w>
 <w lemma="με" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg5.1.3">με</w>
@@ -408,6 +432,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg6">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg6.1">
+                     <measure type="sentiment" quantity="2.270" ana="senti:neuneg" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg6.1"/>
 <w lemma="3." msd="UPosTag=NUM|NumType=Card" pos="DIG" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg6.1.1">3.</w>
 <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg6.1.2">Η</w>
 <w lemma="με" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg6.1.3">με</w>
@@ -484,6 +509,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg7">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg7.1">
+                     <measure type="sentiment" quantity="1.961" ana="senti:neuneg" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg7.1"/>
 <w lemma="4." msd="UPosTag=NUM|NumType=Card" pos="DIG" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg7.1.1">4.</w>
 <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg7.1.2">Η</w>
 <w lemma="με" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg7.1.3">με</w>
@@ -591,6 +617,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg8">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg8.1">
+                     <measure type="sentiment" quantity="2.349" ana="senti:neuneg" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg8.1"/>
 <w lemma="Β." msd="UPosTag=NUM|Case=Nom|Gender=Neut|Number=Sing|NumType=Card" pos="NmCd" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg8.1.1">Β.</w>
 <w lemma="επίκαιρος" msd="UPosTag=ADJ|Case=Nom|Gender=Fem|Number=Plur" pos="AjBa" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg8.1.2">ΕΠΙΚΑΙΡΕΣ</w>
 <w lemma="ερώτηση" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg8.1.3">ΕΡΩΤΗΣΕΙΣ</w>
@@ -641,6 +668,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg9">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg9.1">
+                     <measure type="sentiment" quantity="2.154" ana="senti:neuneg" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg9.1"/>
 <w lemma="1." msd="UPosTag=NUM|NumType=Card" pos="DIG" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg9.1.1">1.</w>
 <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg9.1.2">Η</w>
 <w lemma="με" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg9.1.3">με</w>
@@ -744,6 +772,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg10">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg10.1">
+                     <measure type="sentiment" quantity="1.666" ana="senti:neuneg" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg10.1"/>
 <w lemma="2." msd="UPosTag=NUM|NumType=Card" pos="DIG" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg10.1.1">2.</w>
 <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg10.1.2">Η</w>
 <w lemma="με" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg10.1.3">με</w>
@@ -850,6 +879,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg11">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg11.1">
+                     <measure type="sentiment" quantity="1.906" ana="senti:neuneg" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg11.1"/>
 <w lemma="3." msd="UPosTag=NUM|NumType=Card" pos="DIG" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg11.1.1">3.</w>
 <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg11.1.2">Η</w>
 <w lemma="με" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg11.1.3">με</w>
@@ -944,6 +974,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg12">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg12.1">
+                     <measure type="sentiment" quantity="1.564" ana="senti:neuneg" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg12.1"/>
 <w lemma="4." msd="UPosTag=NUM|NumType=Card" pos="DIG" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg12.1.1">4.</w>
 <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg12.1.2">Η</w>
 <w lemma="με" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg12.1.3">με</w>
@@ -1078,6 +1109,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg13">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg13.1">
+                     <measure type="sentiment" quantity="1.187" ana="senti:mixneg" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg13.1"/>
 <w lemma="5." msd="UPosTag=NUM|NumType=Card" pos="DIG" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg13.1.1">5.</w>
 <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg13.1.2">Η</w>
 <w lemma="με" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg13.1.3">με</w>
@@ -1184,6 +1216,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg14">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg14.1">
+                     <measure type="sentiment" quantity="3.514" ana="senti:mixpos" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg14.1"/>
 <w lemma="κυρία" msd="UPosTag=NOUN|Case=Voc|Gender=Fem|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg14.1.1">Κυρίες</w>
 <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg14.1.2">και</w>
 <w lemma="κύριος" msd="UPosTag=NOUN|Case=Voc|Gender=Masc|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg14.1.3">κύριοι</w>
@@ -1215,6 +1248,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg15">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg15.1">
+                     <measure type="sentiment" quantity="2.932" ana="senti:neupos" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg15.1"/>
 <w lemma="μόνος" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Ind" pos="AjBa" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg15.1.1">Μόνη</w>
 <w lemma="συζήτηση" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg15.1.2">συζήτηση</w>
 <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg15.1.3">και</w>
@@ -1324,6 +1358,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg16">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg16.1">
+                     <measure type="sentiment" quantity="4.196" ana="senti:mixpos" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg16.1"/>
 <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg16.1.1">Το</w>
 <w lemma="νομοσχέδιο" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg16.1.2">νομοσχέδιο</w>
 <w lemma="ψηφίζω" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass" pos="VbMn" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg16.1.3">ψηφίστηκε</w>
@@ -1349,6 +1384,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg16.2">
+                     <measure type="sentiment" quantity="2.424" ana="senti:neuneg" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg16.2"/>
 <w lemma="εισάγω" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass" pos="VbMn" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg16.2.1">Εισάγεται</w>
 <w lemma="προς" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg16.2.2">προς</w>
 <w lemma="συζήτηση" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg16.2.3">συζήτηση</w>
@@ -1424,6 +1460,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg17">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg17.1">
+                     <measure type="sentiment" quantity="4.007" ana="senti:mixpos" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg17.1"/>
 <w lemma="συμφωνώ" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg17.1.1">Συμφωνεί</w>
 <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg17.1.2">το</w>
                      <name type="ORG">
@@ -1443,9 +1480,10 @@
                <desc>Μάλιστα, μάλιστα.</desc>
             </vocal>
             <note type="speaker" xml:id="ParlaMint-GR_2019-12-04-S1-commons.ana.note4">ΠΡΟΕΔΡΕΥΩΝ (ΧΑΡΑΛΑΜΠΟΣ ΑΘΑΝΑΣΙΟΥ):</note>
-            <u xml:id="ParlaMint-GR_2019-12-04-S1-commons.u2" ana="#chair" who="#ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ">
+            <u xml:id="ParlaMint-GR_2019-12-04-S1-commons.u2" ana="#chair topic:other" who="#ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ">
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg18">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg18.1">
+                     <measure type="sentiment" quantity="4.559" ana="senti:pospos" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg18.1"/>
 <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg18.1.1">Το</w>
 <w lemma="σώμα" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg18.1.2">Σώμα</w>
 <w join="right" lemma="συμφωνώ" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg18.1.3">συνεφώνησε</w>
@@ -1460,6 +1498,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg19">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg19.1">
+                     <measure type="sentiment" quantity="4.068" ana="senti:mixpos" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg19.1"/>
 <w lemma="υπέρ" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg19.1.1">Υπέρ</w>
 <w lemma="έχω" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg19.1.2">έχει</w>
 <w lemma="ψηφίζω" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg19.1.3">ψηφίσει</w>
@@ -1500,6 +1539,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg20">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg20.1">
+                     <measure type="sentiment" quantity="1.556" ana="senti:neuneg" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg20.1"/>
 <w lemma="επιφύλαξη" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg20.1.1">Επιφύλαξη</w>
 <w lemma="έχω" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg20.1.2">είχε</w>
 <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg20.1.3">το</w>
@@ -1522,6 +1562,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg21">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg21.1">
+                     <measure type="sentiment" quantity="3.367" ana="senti:neupos" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg21.1"/>
 <w lemma="κύριος" msd="UPosTag=NOUN|Case=Voc|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg21.1.1">Κύριε</w>
                      <name type="PER">
 <w join="right" lemma="Κατσώτης" msd="UPosTag=PROPN|Case=Voc|Gender=Masc|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg21.1.2">Κατσώτη</w>
@@ -1552,9 +1593,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u xml:id="ParlaMint-GR_2019-12-04-S1-commons.u51" ana="#chair" who="#ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ">
+            <u xml:id="ParlaMint-GR_2019-12-04-S1-commons.u51" ana="#chair topic:other" who="#ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ">
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg212">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg212.1">
+                     <measure type="sentiment" quantity="4.224" ana="senti:mixpos" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg212.1"/>
 <w lemma="συνεπώς" msd="UPosTag=ADV" pos="AdBa" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg212.1.1">Συνεπώς</w>
 <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg212.1.2">η</w>
                      <name type="ORG">
@@ -1579,6 +1621,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg213">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg213.1">
+                     <measure type="sentiment" quantity="2.528" ana="senti:neupos" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg213.1"/>
 <w lemma="κύριος" msd="UPosTag=NOUN|Case=Voc|Gender=Masc|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg213.1.1">Κύριοι</w>
 <w join="right" lemma="συνάδελφος" msd="UPosTag=NOUN|Case=Voc|Gender=Masc|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg213.1.2">συνάδελφοι</w>
 <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg213.1.3">,</pc>
@@ -1613,9 +1656,10 @@
                <desc>Μάλιστα, μάλιστα.</desc>
             </vocal>
             <note type="speaker" xml:id="ParlaMint-GR_2019-12-04-S1-commons.ana.note64">ΠΡΟΕΔΡΕΥΩΝ (ΧΑΡΑΛΑΜΠΟΣ ΑΘΑΝΑΣΙΟΥ):</note>
-            <u xml:id="ParlaMint-GR_2019-12-04-S1-commons.u52" ana="#chair" who="#ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ">
+            <u xml:id="ParlaMint-GR_2019-12-04-S1-commons.u52" ana="#chair topic:macro" who="#ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ">
                <seg xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg214">
                   <s xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg214.1">
+                     <measure type="sentiment" quantity="2.968" ana="senti:neupos" corresp="#ParlaMint-GR_2019-12-04-S1-commons.seg214.1"/>
 <w lemma="με" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg214.1.1">Με</w>
 <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg214.1.2">τη</w>
 <w lemma="συναίνεση" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2019-12-04-S1-commons.seg214.1.3">συναίνεση</w>

@@ -14,8 +14,24 @@
                <persName>Lars Magne Tungland</persName>
                <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="en">European Commission</orgName>
@@ -25,7 +41,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="165" unit="speeches" xml:lang="en">165 speeches</measure>
@@ -38,12 +54,12 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-16">2025-06-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -65,6 +81,7 @@
                <tagUsage gi="head" occurs="9"/>
                <tagUsage gi="link" occurs="35105"/>
                <tagUsage gi="linkGrp" occurs="1719"/>
+               <tagUsage gi="measure" occurs="1719"/>
                <tagUsage gi="name" occurs="1143"/>
                <tagUsage gi="note" occurs="423"/>
                <tagUsage gi="pc" occurs="3230"/>
@@ -88,10 +105,12 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2024-07-02">
+         <change when="2025-06-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-16">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
          <change when="2021-01-29">
-            <name>Lars Magne Tungland</name> : Generated corpus in ParlaMint.</change>
+            <name>Lars Magne Tungland</name>: Generated corpus in ParlaMint.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war">
@@ -120,9 +139,10 @@
             <note type="comment" xml:id="ParlaMint-NO_2022-05-10.ana.note21">Er regjeringa einig i dette målet, og kva planar har regjeringa lagt for å hindre at landet må gjennom nye nedstengingar framover?»</note>
             <note type="comment" xml:id="ParlaMint-NO_2022-05-10.ana.note22">9. Referat</note>
             <note type="speaker" xml:id="ParlaMint-NO_2022-05-10.ana.note23">Presidenten:</note>
-            <u who="#person.MASG" ana="#chair" xml:id="ParlaMint-NO_2022-05-10.ana.ud496e62" xml:lang="nb">
+            <u who="#person.MASG" ana="#chair topic:other" xml:id="ParlaMint-NO_2022-05-10.ana.ud496e62" xml:lang="nb">
                <seg xml:id="ParlaMint-NO_2022-05-10.ana.segd496e63">
                   <s xml:id="ParlaMint-NO_2022-05-10.ana.segd496e63.1">
+                     <measure type="sentiment" quantity="2.896" ana="senti:neupos" corresp="#ParlaMint-NO_2022-05-10.ana.segd496e63.1"/>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e63.1.1" lemma="representant" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Plur">Representantene</w>
                      <name type="PER">
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e63.1.2" lemma="Eigil" msd="UPosTag=PROPN|Gender=Masc">Eigil</w>
@@ -181,6 +201,7 @@
                </seg>
                <seg xml:id="ParlaMint-NO_2022-05-10.ana.segd496e79">
                   <s xml:id="ParlaMint-NO_2022-05-10.ana.segd496e79.1">
+                     <measure type="sentiment" quantity="2.704" ana="senti:neupos" corresp="#ParlaMint-NO_2022-05-10.ana.segd496e79.1"/>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e79.1.1" lemma="den" msd="UPosTag=DET|Gender=Masc|Number=Sing|PronType=Dem">Den</w>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e79.1.2" lemma="innkale" msd="UPosTag=ADJ|Definite=Def|Number=Sing|VerbForm=Part">innkalte</w>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e79.1.3" lemma="vararepresentant" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing">vararepresentanten</w>
@@ -217,6 +238,7 @@
                </seg>
                <seg xml:id="ParlaMint-NO_2022-05-10.ana.segd496e84">
                   <s xml:id="ParlaMint-NO_2022-05-10.ana.segd496e84.1">
+                     <measure type="sentiment" quantity="2.284" ana="senti:neuneg" corresp="#ParlaMint-NO_2022-05-10.ana.segd496e84.1"/>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e84.1.1" lemma="fra" msd="UPosTag=ADP">Fra</w>
                      <name type="ORG">
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e84.1.2" lemma="Arbeiderpartiet" msd="UPosTag=PROPN|Case=Gen">Arbeiderpartiets</w>
@@ -307,6 +329,7 @@
                </seg>
                <seg xml:id="ParlaMint-NO_2022-05-10.ana.segd496e89">
                   <s xml:id="ParlaMint-NO_2022-05-10.ana.segd496e89.1">
+                     <measure type="sentiment" quantity="3.048" ana="senti:neupos" corresp="#ParlaMint-NO_2022-05-10.ana.segd496e89.1"/>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e89.1.1" lemma="etter" msd="UPosTag=ADP">Etter</w>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e89.1.2" lemma="forslag" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing">forslag</w>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e89.1.3" lemma="fra" msd="UPosTag=ADP">fra</w>
@@ -329,6 +352,7 @@
                </seg>
                <seg xml:id="ParlaMint-NO_2022-05-10.ana.segd496e93">
                   <s xml:id="ParlaMint-NO_2022-05-10.ana.segd496e93.1">
+                     <measure type="sentiment" quantity="3.914" ana="senti:mixpos" corresp="#ParlaMint-NO_2022-05-10.ana.segd496e93.1"/>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e93.1.1" lemma="denne" msd="UPosTag=DET|Gender=Masc|Number=Sing|PronType=Dem">Denne</w>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e93.1.2" lemma="søknad" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing">søknaden</w>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e93.1.3" lemma="behandle" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass">behandles</w>
@@ -349,6 +373,7 @@
                </seg>
                <seg xml:id="ParlaMint-NO_2022-05-10.ana.segd496e96">
                   <s xml:id="ParlaMint-NO_2022-05-10.ana.segd496e96.1">
+                     <measure type="sentiment" quantity="2.640" ana="senti:neupos" corresp="#ParlaMint-NO_2022-05-10.ana.segd496e96.1"/>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e96.1.1" lemma="vararepresentant" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing" join="right">Vararepresentanten</w>
 <pc xml:id="ParlaMint-NO_2022-05-10.ana.segd496e96.1.2" msd="UPosTag=PUNCT">,</pc>
                      <name type="PER">
@@ -397,9 +422,10 @@
             <note type="comment" xml:id="ParlaMint-NO_2022-05-10.ana.note24">Statsråd Jon-Ivar Nygård</note>
             <note type="comment" xml:id="ParlaMint-NO_2022-05-10.ana.note25">overbrakte 1 kgl. proposisjon (se under Referat).</note>
             <note type="speaker" xml:id="ParlaMint-NO_2022-05-10.ana.note26">Presidenten:</note>
-            <u who="#person.MASG" ana="#chair" xml:id="ParlaMint-NO_2022-05-10.ana.ud496e107" xml:lang="nn">
+            <u who="#person.MASG" ana="#chair topic:other" xml:id="ParlaMint-NO_2022-05-10.ana.ud496e107" xml:lang="nn">
                <seg xml:id="ParlaMint-NO_2022-05-10.ana.segd496e108">
                   <s xml:id="ParlaMint-NO_2022-05-10.ana.segd496e108.1">
+                     <measure type="sentiment" quantity="2.605" ana="senti:neupos" corresp="#ParlaMint-NO_2022-05-10.ana.segd496e108.1"/>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e108.1.1" lemma="representant" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing">Representanten</w>
                      <name type="PER">
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e108.1.2" lemma="Torgeir" msd="UPosTag=PROPN|Gender=Masc">Torgeir</w>
@@ -430,9 +456,10 @@
             </gap>
          </div>
          <div type="debateSection">
-            <u who="#person.MASG" ana="#chair" xml:id="ParlaMint-NO_2022-05-10.ana.ud496e2502" xml:lang="nb">
+            <u who="#person.MASG" ana="#chair topic:welfa" xml:id="ParlaMint-NO_2022-05-10.ana.ud496e2502" xml:lang="nb">
                <seg xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2503">
                   <s xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2503.1">
+                     <measure type="sentiment" quantity="2.378" ana="senti:neuneg" corresp="#ParlaMint-NO_2022-05-10.ana.segd496e2503.1"/>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2503.1.1" lemma="under" msd="UPosTag=ADP">Under</w>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2503.1.2" lemma="debatt" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing">debatten</w>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2503.1.3" lemma="ha" msd="UPosTag=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin">har</w>
@@ -469,6 +496,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2503.2">
+                     <measure type="sentiment" quantity="3.502" ana="senti:mixpos" corresp="#ParlaMint-NO_2022-05-10.ana.segd496e2503.2"/>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2503.2.1" lemma="forslag" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing">Forslaget</w>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2503.2.2" lemma="lyde" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" join="right">lyder</w>
 <pc xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2503.2.3" msd="UPosTag=PUNCT">:</pc>
@@ -481,6 +509,7 @@
                </seg>
                <seg xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2508">
                   <s xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2508.1">
+                     <measure type="sentiment" quantity="2.275" ana="senti:neuneg" corresp="#ParlaMint-NO_2022-05-10.ana.segd496e2508.1"/>
 <pc xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2508.1.1" msd="UPosTag=PUNCT" join="right">«</pc>
                      <name type="ORG">
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2508.1.2" lemma="Stortinget" msd="UPosTag=PROPN|Gender=Neut">Stortinget</w>
@@ -583,6 +612,7 @@
                </seg>
                <seg xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2510">
                   <s xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2510.1">
+                     <measure type="sentiment" quantity="2.419" ana="senti:neuneg" corresp="#ParlaMint-NO_2022-05-10.ana.segd496e2510.1"/>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2510.1.1" lemma="det" msd="UPosTag=PRON|Gender=Neut|Number=Sing|Person=3|PronType=Prs">Det</w>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2510.1.2" lemma="votere" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass">voteres</w>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2510.1.3" lemma="alternativ" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing">alternativt</w>
@@ -609,6 +639,7 @@
                </seg>
                <seg xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2512">
                   <s xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2512.1">
+                     <measure type="sentiment" quantity="2.797" ana="senti:neupos" corresp="#ParlaMint-NO_2022-05-10.ana.segd496e2512.1"/>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2512.1.1" lemma="komité" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing">Komiteen</w>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2512.1.2" lemma="ha" msd="UPosTag=AUX|Mood=Ind|Tense=Past|VerbForm=Fin">hadde</w>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2512.1.3" lemma="innstille" msd="UPosTag=VERB|VerbForm=Part">innstilt</w>
@@ -651,9 +682,10 @@
             <note type="comment" xml:id="ParlaMint-NO_2022-05-10.ana.note420">3. (476) Representantforslag fra stortingsrepresentantene Torgeir Knag Fylkesnes og Kathy Lie om et nasjonalt løft for kreative næringer (Dokument 8:244 S (2021–2022))</note>
             <note type="comment" xml:id="ParlaMint-NO_2022-05-10.ana.note421">Enst.: Sendes næringskomiteen.</note>
             <note type="speaker" xml:id="ParlaMint-NO_2022-05-10.ana.note422">Presidenten:</note>
-            <u who="#person.MASG" ana="#chair" xml:id="ParlaMint-NO_2022-05-10.ana.ud496e2557" xml:lang="nb">
+            <u who="#person.MASG" ana="#chair topic:other" xml:id="ParlaMint-NO_2022-05-10.ana.ud496e2557" xml:lang="nb">
                <seg xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2558">
                   <s xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2558.1">
+                     <measure type="sentiment" quantity="3.039" ana="senti:neupos" corresp="#ParlaMint-NO_2022-05-10.ana.segd496e2558.1"/>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2558.1.1" lemma="dermed" msd="UPosTag=ADV">Dermed</w>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2558.1.2" lemma="være" msd="UPosTag=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin">er</w>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2558.1.3" lemma="dag" msd="UPosTag=NOUN|Case=Gen|Definite=Def|Gender=Masc|Number=Sing">dagens</w>
@@ -670,6 +702,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2558.2">
+                     <measure type="sentiment" quantity="2.441" ana="senti:neuneg" corresp="#ParlaMint-NO_2022-05-10.ana.segd496e2558.2"/>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2558.2.1" lemma="forlange" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin">Forlanger</w>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2558.2.2" lemma="noen" msd="UPosTag=PRON|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Ind,Prs">noen</w>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2558.2.3" lemma="ord" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing">ordet</w>
@@ -688,6 +721,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2558.3">
+                     <measure type="sentiment" quantity="3.018" ana="senti:neupos" corresp="#ParlaMint-NO_2022-05-10.ana.segd496e2558.3"/>
 <pc xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2558.3.1" msd="UPosTag=PUNCT">–</pc>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2558.3.2" lemma="møte" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing">Møtet</w>
 <w xml:id="ParlaMint-NO_2022-05-10.ana.segd496e2558.3.3" lemma="være" msd="UPosTag=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin">er</w>

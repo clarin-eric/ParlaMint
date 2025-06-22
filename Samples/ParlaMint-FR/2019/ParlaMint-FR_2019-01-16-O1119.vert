@@ -1,8 +1,8 @@
 <note type="head" content="Questions au Gouvernement"/>
 <note type="debate" content="TITRE_TEXTE_DISCUSSION"/>
-<speech id="ParlaMint-FR_2019-01-16-O1119.u1" text_id="ParlaMint-FR_2019-01-16-O1119" subcorpus="Référence" lang="français" body="Chambre basse" term="15e législature" session="Session ordinaire 2018-2019 (CRSANR5L15S2019O1N119)" meeting="-" sitting="119. séance" agenda="-" date="2019-01-16" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 119, 16/01/2019" speaker_role="Président" speaker_id="PA606171" speaker_name="Ferrand, Richard" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LAREM" speaker_party_name="La République en Marche" party_status="Coalition" party_orientation="Centre" speaker_gender="M" speaker_birth="1962">
+<speech id="ParlaMint-FR_2019-01-16-O1119.u1" text_id="ParlaMint-FR_2019-01-16-O1119" subcorpus="Référence" lang="français" body="Chambre basse" term="15e législature" session="Session ordinaire 2018-2019 (CRSANR5L15S2019O1N119)" meeting="-" sitting="119. séance" agenda="-" date="2019-01-16" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 119, 16/01/2019" speaker_role="Président" topic="Other" speaker_id="PA606171" speaker_name="Ferrand, Richard" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LAREM" speaker_party_name="La République en Marche" party_status="Coalition" party_orientation="Centre" speaker_gender="M" speaker_birth="1962">
 <p id="ParlaMint-FR_2019-01-16-O1119.u1.1" lang="français">
-<s id="ParlaMint-FR_2019-01-16-O1119.s1">
+<s id="ParlaMint-FR_2019-01-16-O1119.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.558">
 L'	L'	le	DET	Definite=Def Number=Sing PronType=Art	w1	det	ordre	NOUN	Gender=Masc Number=Sing	w2
 <g/>
 ordre	ordre	ordre	NOUN	Gender=Masc Number=Sing	w2	nsubj	appeler	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w6
@@ -23,9 +23,9 @@ Gouvernement	Gouvernement	gouvernement	NOUN	Gender=Masc Number=Sing	w11	obl:arg	
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="Grand débat national"/>
 <note type="debate" content="QG_1_1"/>
-<speech id="ParlaMint-FR_2019-01-16-O1119.u2" text_id="ParlaMint-FR_2019-01-16-O1119" subcorpus="Référence" lang="français" body="Chambre basse" term="15e législature" session="Session ordinaire 2018-2019 (CRSANR5L15S2019O1N119)" meeting="-" sitting="119. séance" agenda="-" date="2019-01-16" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 119, 16/01/2019" speaker_role="Orateur" speaker_id="PA606171" speaker_name="Ferrand, Richard" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LAREM" speaker_party_name="La République en Marche" party_status="Coalition" party_orientation="Centre" speaker_gender="M" speaker_birth="1962">
+<speech id="ParlaMint-FR_2019-01-16-O1119.u2" text_id="ParlaMint-FR_2019-01-16-O1119" subcorpus="Référence" lang="français" body="Chambre basse" term="15e législature" session="Session ordinaire 2018-2019 (CRSANR5L15S2019O1N119)" meeting="-" sitting="119. séance" agenda="-" date="2019-01-16" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 119, 16/01/2019" speaker_role="Orateur" topic="Other" speaker_id="PA606171" speaker_name="Ferrand, Richard" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LAREM" speaker_party_name="La République en Marche" party_status="Coalition" party_orientation="Centre" speaker_gender="M" speaker_birth="1962">
 <p id="ParlaMint-FR_2019-01-16-O1119.u2.1" lang="français">
-<s id="ParlaMint-FR_2019-01-16-O1119.s2">
+<s id="ParlaMint-FR_2019-01-16-O1119.s2" senti_3="Neutral" senti_6="neutral postive" senti_n="3.175">
 La	La	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w1	det	parole	NOUN	Gender=Fem Number=Sing	w2
 parole	parole	parole	NOUN	Gender=Fem Number=Sing	w2	nsubj	Monsieur	NOUN	Gender=Masc Number=Sing	w5
 est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	cop	Monsieur	NOUN	Gender=Masc Number=Sing	w5
@@ -41,9 +41,9 @@ Jumel	Jumel	Jumel	PROPN	-	w7	flat:name	Monsieur	NOUN	Gender=Masc Number=Sing	w5
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-FR_2019-01-16-O1119.u416" text_id="ParlaMint-FR_2019-01-16-O1119" subcorpus="Référence" lang="français" body="Chambre basse" term="15e législature" session="Session ordinaire 2018-2019 (CRSANR5L15S2019O1N119)" meeting="-" sitting="119. séance" agenda="-" date="2019-01-16" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 119, 16/01/2019" speaker_role="Président" speaker_id="PA1874" speaker_name="Le Fur, Marc" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LR" speaker_party_name="Les Républicains" party_status="Opposition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-FR_2019-01-16-O1119.u416" text_id="ParlaMint-FR_2019-01-16-O1119" subcorpus="Référence" lang="français" body="Chambre basse" term="15e législature" session="Session ordinaire 2018-2019 (CRSANR5L15S2019O1N119)" meeting="-" sitting="119. séance" agenda="-" date="2019-01-16" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 119, 16/01/2019" speaker_role="Président" topic="Other" speaker_id="PA1874" speaker_name="Le Fur, Marc" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LR" speaker_party_name="Les Républicains" party_status="Opposition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-FR_2019-01-16-O1119.u416.1" lang="français">
-<s id="ParlaMint-FR_2019-01-16-O1119.s1743">
+<s id="ParlaMint-FR_2019-01-16-O1119.s1743" senti_3="Neutral" senti_6="neutral negative" senti_n="1.977">
 La	La	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w1	det	suite	NOUN	Gender=Fem Number=Sing	w2
 suite	suite	suite	NOUN	Gender=Fem Number=Sing	w2	nsubj:pass	renvoyer	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w7
 de	de	de	ADP	-	w3	case	discussion	NOUN	Gender=Fem Number=Sing	w5
@@ -62,9 +62,9 @@ séance	séance	séance	NOUN	Gender=Fem Number=Sing	w11	obl:arg	renvoyer	VERB	Ge
 </speech>
 <note type="head" content="Ordre du jour de la prochaine séance"/>
 <note type="debate" content="FIN_SEAN_1_2"/>
-<speech id="ParlaMint-FR_2019-01-16-O1119.u417" text_id="ParlaMint-FR_2019-01-16-O1119" subcorpus="Référence" lang="français" body="Chambre basse" term="15e législature" session="Session ordinaire 2018-2019 (CRSANR5L15S2019O1N119)" meeting="-" sitting="119. séance" agenda="-" date="2019-01-16" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 119, 16/01/2019" speaker_role="Président" speaker_id="PA1874" speaker_name="Le Fur, Marc" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LR" speaker_party_name="Les Républicains" party_status="Opposition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-FR_2019-01-16-O1119.u417" text_id="ParlaMint-FR_2019-01-16-O1119" subcorpus="Référence" lang="français" body="Chambre basse" term="15e législature" session="Session ordinaire 2018-2019 (CRSANR5L15S2019O1N119)" meeting="-" sitting="119. séance" agenda="-" date="2019-01-16" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 119, 16/01/2019" speaker_role="Président" topic="Law and Crime" speaker_id="PA1874" speaker_name="Le Fur, Marc" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LR" speaker_party_name="Les Républicains" party_status="Opposition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-FR_2019-01-16-O1119.u417.1" lang="français">
-<s id="ParlaMint-FR_2019-01-16-O1119.s1744">
+<s id="ParlaMint-FR_2019-01-16-O1119.s1744" senti_3="Neutral" senti_6="neutral negative" senti_n="1.843">
 Prochaine	Prochaine	prochain	ADJ	Gender=Fem Number=Sing	w1	amod	séance	NOUN	Gender=Fem Number=Sing	w2
 séance	séance	séance	NOUN	Gender=Fem Number=Sing	w2	root	-	-	-	-
 <g/>
@@ -83,7 +83,7 @@ trente	trente	trente	NUM	Number=Plur	w12	nmod	heure	NOUN	Gender=Fem Number=Plur	
 </s>
 </p>
 <p id="ParlaMint-FR_2019-01-16-O1119.u417.2" lang="français">
-<s id="ParlaMint-FR_2019-01-16-O1119.s1745">
+<s id="ParlaMint-FR_2019-01-16-O1119.s1745" senti_3="Neutral" senti_6="neutral negative" senti_n="2.281">
 Suite	Suite	suite	NOUN	-	w1	case	discussion	NOUN	Gender=Fem Number=Sing	w4
 de	de	de	ADP	-	w2	fixed	suite	NOUN	-	w1
 la	la	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w3	det	discussion	NOUN	Gender=Fem Number=Sing	w4
@@ -130,7 +130,7 @@ juridictions	juridictions	juridiction	NOUN	Gender=Fem Number=Plur	w41	nmod	organ
 </s>
 </p>
 <p id="ParlaMint-FR_2019-01-16-O1119.u417.3" lang="français">
-<s id="ParlaMint-FR_2019-01-16-O1119.s1746">
+<s id="ParlaMint-FR_2019-01-16-O1119.s1746" senti_3="Neutral" senti_6="neutral postive" senti_n="2.851">
 La	La	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w1	det	séance	NOUN	Gender=Fem Number=Sing	w2
 séance	séance	séance	NOUN	Gender=Fem Number=Sing	w2	nsubj:pass	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w4
 est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	aux:pass	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w4

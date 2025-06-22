@@ -1,12 +1,12 @@
-<speech id="ParlaMint-BG_2019-10-03.u1" text_id="ParlaMint-BG_2019-10-03" subcorpus="Референтен" lang="български" body="Еднокамерност" term="Четиридесет и четвърто народно събрание" session="8 парламентарна сесия" meeting="304 пленарно заседание" sitting="2019-10-03" agenda="-" date="2019-10-03" title="Стенограмa от 304 пленарнo заседаниe на 8 сесия на 44 Народно събрание на Република България (2019-10-03)" speaker_role="Председател" speaker_id="HristovEmil" speaker_name="Христов, Емил Маринов" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Парламентарна група: Партия ГЕРБ" party_status="Coalition" party_orientation="Център дясно" speaker_gender="M" speaker_birth="1957">
+<speech id="ParlaMint-BG_2019-10-03.u1" text_id="ParlaMint-BG_2019-10-03" subcorpus="Референтен" lang="български" body="Еднокамерност" term="Четиридесет и четвърто народно събрание" session="8 парламентарна сесия" meeting="304 пленарно заседание" sitting="2019-10-03" agenda="-" date="2019-10-03" title="Стенограмa от 304 пленарнo заседаниe на 8 сесия на 44 Народно събрание на Република България (2019-10-03)" speaker_role="Председател" topic="Околна среда" speaker_id="HristovEmil" speaker_name="Христов, Емил Маринов" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Парламентарна група: Партия ГЕРБ" party_status="Coalition" party_orientation="Център дясно" speaker_gender="M" speaker_birth="1957">
 <p id="ParlaMint-BG_2019-10-03.seg1" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg1.1">
+<s id="ParlaMint-BG_2019-10-03.seg1.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="4.192">
 Има	Има	има	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 кворум	кворум	кворум	NOUN	Definite=Ind Gender=Masc Number=Sing	2	obj	има	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>
 .	.	.	PUNCT	-	3	punct	има	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-BG_2019-10-03.seg1.2">
+<s id="ParlaMint-BG_2019-10-03.seg1.2" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="4.155">
 Откривам	Откривам	откривам-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 заседанието	заседанието	заседание	NOUN	Definite=Def Gender=Neut Number=Sing	2	obj	откривам-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>
@@ -14,7 +14,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg2" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg2.1">
+<s id="ParlaMint-BG_2019-10-03.seg2.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="3.540">
 Продължаваме	Продължаваме	продължавам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 с	с	с	ADP	-	2	case	точка	NOUN	Definite=Ind Gender=Fem Number=Sing	3
 точка	точка	точка	NOUN	Definite=Ind Gender=Fem Number=Sing	3	obl	продължавам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -27,7 +27,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg3" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg3.1">
+<s id="ParlaMint-BG_2019-10-03.seg3.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.674">
 ВТОРО	ВТОРО	втори	ADJ	Definite=Ind Degree=Pos Gender=Neut Number=Sing NumType=Ord	1	amod	гласуване	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 ГЛАСУВАНЕ	ГЛАСУВАНЕ	гласуване	NOUN	Definite=Ind Gender=Neut Number=Sing	2	root	-	-	-	-
 НА	НА	на	ADP	-	3	case	законопроекта	NOUN	Definite=Def Gender=Masc Number=Sing	4
@@ -48,7 +48,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg4" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg4.1">
+<s id="ParlaMint-BG_2019-10-03.seg4.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="3.369">
 Вносител	Вносител	вносител	NOUN	Definite=Ind Gender=Masc Number=Sing	1	root	-	-	-	-
 –	–	–	PUNCT	-	2	case	съвет	NOUN	Definite=Ind Gender=Masc Number=Sing	4
 <name type="ORG">
@@ -60,7 +60,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg5" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg5.1">
+<s id="ParlaMint-BG_2019-10-03.seg5.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="3.407">
 Приет	Приет	приема	VERB	Aspect=Perf Definite=Ind Gender=Masc Number=Sing VerbForm=Part Voice=Pass	1	root	-	-	-	-
 е	е	съм	AUX	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	aux:pass	приема	VERB	Aspect=Perf Definite=Ind Gender=Masc Number=Sing VerbForm=Part Voice=Pass	1
 на	на	на	ADP	-	3	case	гласуване	NOUN	Definite=Ind Gender=Neut Number=Sing	5
@@ -74,7 +74,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg6" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg6.1">
+<s id="ParlaMint-BG_2019-10-03.seg6.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="3.409">
 Имате	Имате	имам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=2 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 думата	думата	дума	NOUN	Definite=Def Gender=Fem Number=Sing	2	obj	имам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=2 Tense=Pres VerbForm=Fin Voice=Act	1
 за	за	за	ADP	-	3	case	представяне	NOUN	Definite=Ind Gender=Neut Number=Sing	4
@@ -97,9 +97,9 @@
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BG_2019-10-03.u2" text_id="ParlaMint-BG_2019-10-03" subcorpus="Референтен" lang="български" body="Еднокамерност" term="Четиридесет и четвърто народно събрание" session="8 парламентарна сесия" meeting="304 пленарно заседание" sitting="2019-10-03" agenda="-" date="2019-10-03" title="Стенограмa от 304 пленарнo заседаниe на 8 сесия на 44 Народно събрание на Република България (2019-10-03)" speaker_role="Говорещ" speaker_id="GrudevHristo" speaker_name="Грудев, Христо Грудев" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Парламентарна група: Партия ГЕРБ" party_status="Coalition" party_orientation="Център дясно" speaker_gender="M" speaker_birth="1960">
+<speech id="ParlaMint-BG_2019-10-03.u2" text_id="ParlaMint-BG_2019-10-03" subcorpus="Референтен" lang="български" body="Еднокамерност" term="Четиридесет и четвърто народно събрание" session="8 парламентарна сесия" meeting="304 пленарно заседание" sitting="2019-10-03" agenda="-" date="2019-10-03" title="Стенограмa от 304 пленарнo заседаниe на 8 сесия на 44 Народно събрание на Република България (2019-10-03)" speaker_role="Говорещ" topic="Околна среда" speaker_id="GrudevHristo" speaker_name="Грудев, Христо Грудев" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Парламентарна група: Партия ГЕРБ" party_status="Coalition" party_orientation="Център дясно" speaker_gender="M" speaker_birth="1960">
 <p id="ParlaMint-BG_2019-10-03.seg7" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg7.1">
+<s id="ParlaMint-BG_2019-10-03.seg7.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="4.459">
 Благодаря	Благодаря	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	punct	господин	NOUN	Definite=Ind Gender=Masc Number=Sing	3
@@ -112,7 +112,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg8" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg8.1">
+<s id="ParlaMint-BG_2019-10-03.seg8.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="3.141">
 Уважаеми	Уважаеми	уважаем	ADJ	Definite=Ind Degree=Pos Number=Plur	1	amod	колега	NOUN	Definite=Ind Gender=Masc Number=Plur	2
 колеги	колеги	колега	NOUN	Definite=Ind Gender=Masc Number=Plur	2	nsubj	предлагам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	20
 <g/>
@@ -192,9 +192,9 @@
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-BG_2019-10-03.u82" text_id="ParlaMint-BG_2019-10-03" subcorpus="Референтен" lang="български" body="Еднокамерност" term="Четиридесет и четвърто народно събрание" session="8 парламентарна сесия" meeting="304 пленарно заседание" sitting="2019-10-03" agenda="-" date="2019-10-03" title="Стенограмa от 304 пленарнo заседаниe на 8 сесия на 44 Народно събрание на Република България (2019-10-03)" speaker_role="Говорещ" speaker_id="ChenchevIvan" speaker_name="Ченчев, Иван Ивайлов" speaker_mp="MP" speaker_minister="notMinister" speaker_party="BSPFB" speaker_party_name="Парламентарна група: БСП за България" party_status="Opposition" party_orientation="Център ляво" speaker_gender="M" speaker_birth="1976">
+<speech id="ParlaMint-BG_2019-10-03.u82" text_id="ParlaMint-BG_2019-10-03" subcorpus="Референтен" lang="български" body="Еднокамерност" term="Четиридесет и четвърто народно събрание" session="8 парламентарна сесия" meeting="304 пленарно заседание" sitting="2019-10-03" agenda="-" date="2019-10-03" title="Стенограмa от 304 пленарнo заседаниe на 8 сесия на 44 Народно събрание на Република България (2019-10-03)" speaker_role="Говорещ" topic="Закони и престъпления" speaker_id="ChenchevIvan" speaker_name="Ченчев, Иван Ивайлов" speaker_mp="MP" speaker_minister="notMinister" speaker_party="BSPFB" speaker_party_name="Парламентарна група: БСП за България" party_status="Opposition" party_orientation="Център ляво" speaker_gender="M" speaker_birth="1976">
 <p id="ParlaMint-BG_2019-10-03.seg460" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg460.1">
+<s id="ParlaMint-BG_2019-10-03.seg460.1" senti_3="Позитивно" senti_6="позитивно" senti_n="4.701">
 Благодаря	Благодаря	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	punct	господин	NOUN	Definite=Ind Gender=Masc Number=Sing	4
@@ -208,7 +208,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg461" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg461.1">
+<s id="ParlaMint-BG_2019-10-03.seg461.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="4.021">
 Дами	Дами	дама	NOUN	Definite=Ind Gender=Fem Number=Plur	1	root	-	-	-	-
 и	и	и	CCONJ	-	2	cc	господин	NOUN	Definite=Ind Gender=Masc Number=Plur	3
 господа	господа	господин	NOUN	Definite=Ind Gender=Masc Number=Plur	3	conj	дама	NOUN	Definite=Ind Gender=Fem Number=Plur	1
@@ -217,7 +217,7 @@
 <g/>
 !	!	!	PUNCT	-	6	punct	дама	NOUN	Definite=Ind Gender=Fem Number=Plur	1
 </s>
-<s id="ParlaMint-BG_2019-10-03.seg461.2">
+<s id="ParlaMint-BG_2019-10-03.seg461.2" senti_3="Позитивно" senti_6="позитивно" senti_n="5.081">
 Използвам	Използвам	използвам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 този	този	този	DET	Gender=Masc Number=Sing PronType=Dem	2	det	текст	NOUN	Definite=Ind Gender=Masc Number=Sing	3
 текст	текст	текст	NOUN	Definite=Ind Gender=Masc Number=Sing	3	obj	използвам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -260,7 +260,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg462" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg462.1">
+<s id="ParlaMint-BG_2019-10-03.seg462.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="3.465">
 Обръщам	Обръщам	обръщам-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 внимание	внимание	внимание	NOUN	Definite=Ind Gender=Neut Number=Sing	2	obj	обръщам-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 обаче	обаче	обаче	ADV	Degree=Pos	3	advmod	обръщам-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -299,7 +299,7 @@
 <g/>
 .	.	.	PUNCT	-	30	punct	обръщам-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-BG_2019-10-03.seg462.2">
+<s id="ParlaMint-BG_2019-10-03.seg462.2" senti_3="Негативно" senti_6="смесено негативно" senti_n="0.543">
 Досега	Досега	досега	ADV	Degree=Pos	1	advmod	кажа	VERB	Aspect=Perf Definite=Ind Gender=Neut Number=Sing VerbForm=Part Voice=Pass	14
 тайните	тайните	таен	ADJ	Definite=Def Degree=Pos Number=Plur	2	amod	квартир	NOUN	Definite=Ind Gender=Masc Number=Plur	3
 квартири	квартири	квартир	NOUN	Definite=Ind Gender=Masc Number=Plur	3	nsubj:pass	кажа	VERB	Aspect=Perf Definite=Ind Gender=Neut Number=Sing VerbForm=Part Voice=Pass	14
@@ -346,7 +346,7 @@
 </name>
 .	.	.	PUNCT	-	34	punct	кажа	VERB	Aspect=Perf Definite=Ind Gender=Neut Number=Sing VerbForm=Part Voice=Pass	14
 </s>
-<s id="ParlaMint-BG_2019-10-03.seg462.3">
+<s id="ParlaMint-BG_2019-10-03.seg462.3" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.945">
 В	В	в	ADP	-	1	case	столица	NOUN	Definite=Def Gender=Fem Number=Sing	2
 столицата	столицата	столица	NOUN	Definite=Def Gender=Fem Number=Sing	2	obl	има	VERB	Aspect=Imp Definite=Ind Gender=Neut Number=Sing Tense=Past VerbForm=Part Voice=Act	5
 не	не	не	PART	Polarity=Neg	3	advmod	има	VERB	Aspect=Imp Definite=Ind Gender=Neut Number=Sing Tense=Past VerbForm=Part Voice=Act	5
@@ -359,7 +359,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg463" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg463.1">
+<s id="ParlaMint-BG_2019-10-03.seg463.1" senti_3="Позитивно" senti_6="позитивно" senti_n="4.569">
 С	С	с	ADP	-	1	case	разкриване	NOUN	Definite=Def Gender=Neut Number=Sing	2
 разкриването	разкриването	разкриване	NOUN	Definite=Def Gender=Neut Number=Sing	2	obl	обезпеча	VERB	Aspect=Perf Definite=Ind Number=Plur VerbForm=Part Voice=Pass	27
 на	на	на	ADP	-	3	case	център	NOUN	Definite=Ind Gender=Masc Number=Plur	5
@@ -410,7 +410,7 @@
 <g/>
 .	.	.	PUNCT	-	42	punct	обезпеча	VERB	Aspect=Perf Definite=Ind Number=Plur VerbForm=Part Voice=Pass	27
 </s>
-<s id="ParlaMint-BG_2019-10-03.seg463.2">
+<s id="ParlaMint-BG_2019-10-03.seg463.2" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="4.419">
 Благодаря	Благодаря	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 Ви	Ви	аз	PRON	Case=Dat Number=Sing Person=2 PronType=Prs	2	iobj	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 за	за	за	ADP	-	3	case	внимание	NOUN	Definite=Def Gender=Neut Number=Sing	4
@@ -420,9 +420,9 @@
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BG_2019-10-03.u83" text_id="ParlaMint-BG_2019-10-03" subcorpus="Референтен" lang="български" body="Еднокамерност" term="Четиридесет и четвърто народно събрание" session="8 парламентарна сесия" meeting="304 пленарно заседание" sitting="2019-10-03" agenda="-" date="2019-10-03" title="Стенограмa от 304 пленарнo заседаниe на 8 сесия на 44 Народно събрание на Република България (2019-10-03)" speaker_role="Председател" speaker_id="HristovEmil" speaker_name="Христов, Емил Маринов" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Парламентарна група: Партия ГЕРБ" party_status="Coalition" party_orientation="Център дясно" speaker_gender="M" speaker_birth="1957">
+<speech id="ParlaMint-BG_2019-10-03.u83" text_id="ParlaMint-BG_2019-10-03" subcorpus="Референтен" lang="български" body="Еднокамерност" term="Четиридесет и четвърто народно събрание" session="8 парламентарна сесия" meeting="304 пленарно заседание" sitting="2019-10-03" agenda="-" date="2019-10-03" title="Стенограмa от 304 пленарнo заседаниe на 8 сесия на 44 Народно събрание на Република България (2019-10-03)" speaker_role="Председател" topic="Смесени" speaker_id="HristovEmil" speaker_name="Христов, Емил Маринов" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Парламентарна група: Партия ГЕРБ" party_status="Coalition" party_orientation="Център дясно" speaker_gender="M" speaker_birth="1957">
 <p id="ParlaMint-BG_2019-10-03.seg464" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg464.1">
+<s id="ParlaMint-BG_2019-10-03.seg464.1" senti_3="Позитивно" senti_6="позитивно" senti_n="4.641">
 Благодаря	Благодаря	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 Ви	Ви	аз	PRON	Case=Dat Number=Sing Person=2 PronType=Prs	2	iobj	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>
@@ -437,34 +437,34 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg465" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg465.1">
+<s id="ParlaMint-BG_2019-10-03.seg465.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="3.523">
 Има	Има	има	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 ли	ли	ли	PART	-	2	discourse	има	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1
 реплики	реплики	реплика	NOUN	Definite=Ind Gender=Fem Number=Plur	3	obj	има	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>
 ?	?	?	PUNCT	-	4	punct	има	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-BG_2019-10-03.seg465.2">
+<s id="ParlaMint-BG_2019-10-03.seg465.2" senti_3="Неутрално" senti_6="неутрално негативно" senti_n="2.015">
 Няма	Няма	нямам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	нямам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg466" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg466.1">
+<s id="ParlaMint-BG_2019-10-03.seg466.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.955">
 Други	Други	друг	ADJ	Definite=Ind Degree=Pos Number=Plur	1	amod	изказване	NOUN	Definite=Ind Gender=Neut Number=Plur	2
 изказвания	изказвания	изказване	NOUN	Definite=Ind Gender=Neut Number=Plur	2	root	-	-	-	-
 <g/>
 ?	?	?	PUNCT	-	3	punct	изказване	NOUN	Definite=Ind Gender=Neut Number=Plur	2
 </s>
-<s id="ParlaMint-BG_2019-10-03.seg466.2">
+<s id="ParlaMint-BG_2019-10-03.seg466.2" senti_3="Неутрално" senti_6="неутрално негативно" senti_n="2.015">
 Няма	Няма	нямам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	нямам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg467" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg467.1">
+<s id="ParlaMint-BG_2019-10-03.seg467.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="3.613">
 Подлагам	Подлагам	подлагам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 на	на	на	ADP	-	2	case	гласуване	NOUN	Definite=Ind Gender=Neut Number=Sing	3
 гласуване	гласуване	гласуване	NOUN	Definite=Ind Gender=Neut Number=Sing	3	obl	подлагам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -477,7 +477,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg468" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg468.1">
+<s id="ParlaMint-BG_2019-10-03.seg468.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="3.880">
 Гласували	Гласували	гласувам	VERB	Aspect=Imp Definite=Ind Number=Plur Tense=Past VerbForm=Part Voice=Act	1	root	-	-	-	-
 97	97	97	NUM	Definite=Ind Number=Plur NumType=Card	2	nummod	представител	NOUN	Definite=Ind Gender=Masc Number=Plur	4
 народни	народни	народен	ADJ	Definite=Ind Degree=Pos Number=Plur	3	amod	представител	NOUN	Definite=Ind Gender=Masc Number=Plur	4
@@ -498,7 +498,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg469" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg469.1">
+<s id="ParlaMint-BG_2019-10-03.seg469.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="4.316">
 Предложението	Предложението	предложение	NOUN	Definite=Def Gender=Neut Number=Sing	1	nsubj:pass	приема	VERB	Aspect=Perf Definite=Ind Gender=Neut Number=Sing VerbForm=Part Voice=Pass	3
 е	е	съм	AUX	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	aux:pass	приема	VERB	Aspect=Perf Definite=Ind Gender=Neut Number=Sing VerbForm=Part Voice=Pass	3
 прието	прието	приема	VERB	Aspect=Perf Definite=Ind Gender=Neut Number=Sing VerbForm=Part Voice=Pass	3	root	-	-	-	-
@@ -507,7 +507,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg470" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg470.1">
+<s id="ParlaMint-BG_2019-10-03.seg470.1" senti_3="Позитивно" senti_6="позитивно" senti_n="4.790">
 Благодаря	Благодаря	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 Ви	Ви	аз	PRON	Case=Dat Number=Sing Person=2 PronType=Prs	2	iobj	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>
@@ -522,7 +522,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg471" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg471.1">
+<s id="ParlaMint-BG_2019-10-03.seg471.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="3.147">
 Съобщения	Съобщения	съобщение	NOUN	Definite=Ind Gender=Neut Number=Plur	1	root	-	-	-	-
 за	за	за	ADP	-	2	case	контрол	NOUN	Definite=Ind Gender=Masc Number=Sing	4
 парламентарен	парламентарен	парламентарен	ADJ	Definite=Ind Degree=Pos Gender=Masc Number=Sing	3	amod	контрол	NOUN	Definite=Ind Gender=Masc Number=Sing	4
@@ -537,7 +537,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg472" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg472.1">
+<s id="ParlaMint-BG_2019-10-03.seg472.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.658">
 1.	1.	1.	ADJ	Definite=Ind Degree=Pos Gender=Masc Number=Sing NumType=Ord	1	amod	заместник	NOUN	Definite=Ind Gender=Masc Number=Sing	2
 <name type="ORG">
 Заместник	Заместник	заместник	NOUN	Definite=Ind Gender=Masc Number=Sing	2	nsubj	отговоря	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	12
@@ -569,7 +569,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg473" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg473.1">
+<s id="ParlaMint-BG_2019-10-03.seg473.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.563">
 2.	2.	2.	NUM	Definite=Ind Number=Plur NumType=Card	1	nummod	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2
 Министърът	Министърът	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2	nsubj	отговоря	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	8
 на	на	на	ADP	-	3	case	здравеопазване	NOUN	Definite=Def Gender=Neut Number=Sing	4
@@ -639,7 +639,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg474" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg474.1">
+<s id="ParlaMint-BG_2019-10-03.seg474.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.660">
 3.	3.	3.	NOUN	Definite=Ind Gender=Masc Number=Sing	1	nsubj	отговоря	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	10
 Министърът	Министърът	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2	nsubj	отговоря	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	10
 на	на	на	ADP	-	3	case	образование	NOUN	Definite=Def Gender=Neut Number=Sing	4
@@ -667,7 +667,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg475" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg475.1">
+<s id="ParlaMint-BG_2019-10-03.seg475.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.608">
 4.	4.	4.	NUM	Definite=Ind Number=Plur NumType=Card	1	nummod	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2
 Министърът	Министърът	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2	nsubj	отговоря	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	8
 на	на	на	ADP	-	3	case	култура	NOUN	Definite=Def Gender=Fem Number=Sing	4
@@ -693,7 +693,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg476" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg476.1">
+<s id="ParlaMint-BG_2019-10-03.seg476.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.603">
 5.	5.	5.	PROPN	Definite=Ind Gender=Masc Number=Sing	1	nsubj	отговоря	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	13
 Министърът	Министърът	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2	nsubj	отговоря	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	13
 на	на	на	ADP	-	3	case	транспорт	NOUN	Definite=Def Gender=Masc Number=Sing	4
@@ -730,7 +730,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg477" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg477.1">
+<s id="ParlaMint-BG_2019-10-03.seg477.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.719">
 6.	6.	6.	PROPN	Definite=Ind Gender=Masc Number=Sing	1	nsubj	отговоря	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	8
 Министърът	Министърът	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2	nmod	6.	PROPN	Definite=Ind Gender=Masc Number=Sing	1
 на	на	на	ADP	-	3	case	икономика	NOUN	Definite=Def Gender=Fem Number=Sing	4
@@ -767,7 +767,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg478" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg478.1">
+<s id="ParlaMint-BG_2019-10-03.seg478.1" senti_3="Неутрално" senti_6="неутрално негативно" senti_n="1.884">
 На	На	на	ADP	-	1	case	основание	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 основание	основание	основание	NOUN	Definite=Ind Gender=Neut Number=Sing	2	obl	поискам	VERB	Aspect=Perf Definite=Ind Number=Plur Tense=Past VerbForm=Part Voice=Act	30
 чл.	чл.	чл.	NOUN	Definite=Ind Gender=Masc Number=Sing	3	nmod	основание	NOUN	Definite=Ind Gender=Neut Number=Sing	2
@@ -807,7 +807,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg479" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg479.1">
+<s id="ParlaMint-BG_2019-10-03.seg479.1" senti_3="Неутрално" senti_6="неутрално негативно" senti_n="2.435">
 -	-	-	PUNCT	-	1	punct	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2
 министърът	министърът	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2	nsubj	въпрос	NOUN	Gender=Masc Number=Count	11
 на	на	на	ADP	-	3	case	работа	NOUN	Definite=Ind Gender=Fem Number=Plur	5
@@ -838,7 +838,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg480" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg480.1">
+<s id="ParlaMint-BG_2019-10-03.seg480.1" senti_3="Неутрално" senti_6="неутрално негативно" senti_n="2.148">
 -	-	-	PUNCT	-	1	punct	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2
 министърът	министърът	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2	nsubj	въпрос	NOUN	Gender=Masc Number=Count	13
 на	на	на	ADP	-	3	case	среда	NOUN	Definite=Ind Gender=Fem Number=Sing	5
@@ -883,7 +883,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg481" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg481.1">
+<s id="ParlaMint-BG_2019-10-03.seg481.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.576">
 -	-	-	PUNCT	-	1	punct	въпрос	NOUN	Gender=Masc Number=Count	12
 министърът	министърът	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2	nsubj	въпрос	NOUN	Gender=Masc Number=Count	12
 на	на	на	ADP	-	3	case	образование	NOUN	Definite=Def Gender=Neut Number=Sing	4
@@ -921,7 +921,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg482" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg482.1">
+<s id="ParlaMint-BG_2019-10-03.seg482.1" senti_3="Неутрално" senti_6="неутрално негативно" senti_n="1.524">
 Поради	Поради	поради	ADP	-	1	case	отсъствие	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 отсъствие	отсъствие	отсъствие	NOUN	Definite=Ind Gender=Neut Number=Sing	2	obl	отлагам-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	15
 на	на	на	ADP	-	3	case	представител	NOUN	Definite=Ind Gender=Masc Number=Plur	5
@@ -958,7 +958,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg483" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg483.1">
+<s id="ParlaMint-BG_2019-10-03.seg483.1" senti_3="Негативно" senti_6="смесено негативно" senti_n="1.443">
 Поради	Поради	поради	ADP	-	1	case	отсъствие	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 отсъствие	отсъствие	отсъствие	NOUN	Definite=Ind Gender=Neut Number=Sing	2	obl	нямам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	10
 от	от	от	ADP	-	3	case	страна	NOUN	Definite=Def Gender=Fem Number=Sing	4
@@ -999,7 +999,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg484" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg484.1">
+<s id="ParlaMint-BG_2019-10-03.seg484.1" senti_3="Неутрално" senti_6="неутрално негативно" senti_n="1.856">
 Поради	Поради	поради	ADP	-	1	case	ангажимент	NOUN	Definite=Ind Gender=Masc Number=Sing	4
 неотложен	неотложен	неотложен	ADJ	Definite=Ind Degree=Pos Gender=Masc Number=Sing	2	amod	ангажимент	NOUN	Definite=Ind Gender=Masc Number=Sing	4
 служебен	служебен	служебен	ADJ	Definite=Ind Degree=Pos Gender=Masc Number=Sing	3	amod	ангажимент	NOUN	Definite=Ind Gender=Masc Number=Sing	4
@@ -1027,7 +1027,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg485" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg485.1">
+<s id="ParlaMint-BG_2019-10-03.seg485.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="3.076">
 Следващото	Следващото	следвам	ADJ	Aspect=Imp Definite=Def Degree=Pos Gender=Neut Number=Sing Tense=Pres VerbForm=Part Voice=Act	1	amod	заседание	NOUN	Definite=Ind Gender=Neut Number=Sing	4
 редовно	редовно	редовен	ADJ	Definite=Ind Degree=Pos Gender=Neut Number=Sing	2	amod	заседание	NOUN	Definite=Ind Gender=Neut Number=Sing	4
 пленарно	пленарно	пленарен	ADJ	Definite=Ind Degree=Pos Gender=Neut Number=Sing	3	amod	заседание	NOUN	Definite=Ind Gender=Neut Number=Sing	4
@@ -1044,7 +1044,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2019-10-03.seg486" lang="български">
-<s id="ParlaMint-BG_2019-10-03.seg486.1">
+<s id="ParlaMint-BG_2019-10-03.seg486.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="3.590">
 Закривам	Закривам	закривам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 заседанието	заседанието	заседание	NOUN	Definite=Def Gender=Neut Number=Sing	2	obj	закривам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>

@@ -2,9 +2,9 @@
 <note type="time" content="Wznowienie posiedzenia o godz. 9"/>
 <note type="debate" content="Na posiedzeniu przewodniczą marszałek Sejmu Elżbieta Witek oraz wicemarszałkowie Ryszard Terlecki, Małgorzata Gosiewska, Małgorzata Kidawa-Błońska i Piotr Zgorzelski"/>
 <note type="speaker" content="Wicemarszałek Ryszard Terlecki:"/>
-<speech id="ParlaMint-PL_2022-06-23-sejm-57-2.u1" text_id="ParlaMint-PL_2022-06-23-sejm-57-2" subcorpus="COVID,War" lang="Polski" body="Sejm" term="9. kadencja Sejmu" session="57. sesja Sejmu" meeting="-" sitting="2. dzień sesji Sejmu" agenda="-" date="2022-06-23" title="Sprawozdanie stenograficzne z obrad Sejmu RP, 9.kadencja, 57. posiedzenie, 2. dzień (2022-06-23)" speaker_role="Przewodniczący" speaker_id="RyszardTerlecki" speaker_name="Terlecki, Ryszard" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="Coalition" party_orientation="Right" speaker_gender="M" speaker_birth="1949">
+<speech id="ParlaMint-PL_2022-06-23-sejm-57-2.u1" text_id="ParlaMint-PL_2022-06-23-sejm-57-2" subcorpus="COVID,War" lang="Polski" body="Sejm" term="9. kadencja Sejmu" session="57. sesja Sejmu" meeting="-" sitting="2. dzień sesji Sejmu" agenda="-" date="2022-06-23" title="Sprawozdanie stenograficzne z obrad Sejmu RP, 9.kadencja, 57. posiedzenie, 2. dzień (2022-06-23)" speaker_role="Przewodniczący" topic="Other" speaker_id="RyszardTerlecki" speaker_name="Terlecki, Ryszard" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="Coalition" party_orientation="Right" speaker_gender="M" speaker_birth="1949">
 <p id="seg963379" lang="Polski">
-<s id="seg963379.1">
+<s id="seg963379.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.049">
 Wznawiam	Wznawiam	wznawiać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 posiedzenie	posiedzenie	posiedzenie	NOUN	Case=Acc Gender=Neut Number=Sing	2	obj	wznawiać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>
@@ -12,7 +12,7 @@ posiedzenie	posiedzenie	posiedzenie	NOUN	Case=Acc Gender=Neut Number=Sing	2	obj	
 </s>
 </p>
 <p id="seg963380" lang="Polski">
-<s id="seg963380.1">
+<s id="seg963380.1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.239">
 Na	Na	na	ADP	AdpType=Prep	1	case	sekretarz	NOUN	Animacy=Hum Case=Acc Gender=Masc Number=Plur	2
 sekretarzy	sekretarzy	sekretarz	NOUN	Animacy=Hum Case=Acc Gender=Masc Number=Plur	2	obl:arg	powoływać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	5
 dzisiejszych	dzisiejszych	dzisiejszy	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	3	amod	obrady	NOUN	Case=Gen Gender=Neut Number=Ptan	4
@@ -45,7 +45,7 @@ Milewskiego	Milewskiego	Milewski	PROPN	Animacy=Hum Case=Acc Gender=Masc Number=S
 </s>
 </p>
 <p id="seg963381" lang="Polski">
-<s id="seg963381.1">
+<s id="seg963381.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.934">
 W	W	w	ADP	AdpType=Prep Variant=Short	1	case	część	NOUN	Case=Loc Gender=Fem Number=Sing	3
 pierwszej	pierwszej	pierwszy	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Sing	2	amod	część	NOUN	Case=Loc Gender=Fem Number=Sing	3
 części	części	część	NOUN	Case=Loc Gender=Fem Number=Sing	3	obl	sekretarz	NOUN	Animacy=Hum Case=Ins Gender=Masc Number=Plur	5
@@ -67,7 +67,7 @@ Milewski	Milewski	Milewski	PROPN	Animacy=Hum Case=Nom Gender=Masc Number=Sing	12
 </s>
 </p>
 <p id="seg963382" lang="Polski">
-<s id="seg963382.1">
+<s id="seg963382.1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.306">
 Protokół	Protokół	protokół	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	1	obj	prowadzić	VERB	Aspect=Imp VerbForm=Inf Voice=Act	5
 i	i	i	CCONJ	-	2	cc	lista	NOUN	Case=Acc Gender=Fem Number=Sing	3
 listę	listę	lista	NOUN	Case=Acc Gender=Fem Number=Sing	3	conj	protokół	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	1
@@ -89,7 +89,7 @@ Frysztak	Frysztak	Frysztak	PROPN	Animacy=Hum Case=Nom Gender=Masc Number=Sing	12
 </s>
 </p>
 <p id="seg963383" lang="Polski">
-<s id="seg963383.1">
+<s id="seg963383.1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.499">
 Proszę	Proszę	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 panią	panią	pani	NOUN	Case=Acc Gender=Fem Number=Sing	2	obj	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 poseł	poseł	poseł	NOUN	Animacy=Hum Case=Nom Gender=Masc Number=Sing	3	appos	pani	NOUN	Case=Acc Gender=Fem Number=Sing	2
@@ -103,9 +103,9 @@ komunikatów	komunikatów	komunikat	NOUN	Animacy=Inan Case=Gen Gender=Masc Numbe
 </p>
 </speech>
 <note type="speaker" content="Sekretarz Poseł Aleksandra Szczudło:"/>
-<speech id="ParlaMint-PL_2022-06-23-sejm-57-2.u2" text_id="ParlaMint-PL_2022-06-23-sejm-57-2" subcorpus="COVID,War" lang="Polski" body="Sejm" term="9. kadencja Sejmu" session="57. sesja Sejmu" meeting="-" sitting="2. dzień sesji Sejmu" agenda="-" date="2022-06-23" title="Sprawozdanie stenograficzne z obrad Sejmu RP, 9.kadencja, 57. posiedzenie, 2. dzień (2022-06-23)" speaker_role="Parlamentarzysta" speaker_id="AleksandraSzczudło" speaker_name="Szczudło, Aleksandra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="Coalition" party_orientation="Right" speaker_gender="F" speaker_birth="1983">
+<speech id="ParlaMint-PL_2022-06-23-sejm-57-2.u2" text_id="ParlaMint-PL_2022-06-23-sejm-57-2" subcorpus="COVID,War" lang="Polski" body="Sejm" term="9. kadencja Sejmu" session="57. sesja Sejmu" meeting="-" sitting="2. dzień sesji Sejmu" agenda="-" date="2022-06-23" title="Sprawozdanie stenograficzne z obrad Sejmu RP, 9.kadencja, 57. posiedzenie, 2. dzień (2022-06-23)" speaker_role="Parlamentarzysta" topic="Other" speaker_id="AleksandraSzczudło" speaker_name="Szczudło, Aleksandra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="Coalition" party_orientation="Right" speaker_gender="F" speaker_birth="1983">
 <p id="seg963384" lang="Polski">
-<s id="seg963384.1">
+<s id="seg963384.1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.025">
 Informuję	Informuję	informować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	2	punct	odbyć	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin Voice=Act	7
@@ -125,7 +125,7 @@ Komisji	Komisji	komisja	NOUN	Case=Gen Gender=Fem Number=Sing	11	nmod	posiedzenie
 </s>
 </p>
 <p id="seg963385" lang="Polski">
-<s id="seg963385.1">
+<s id="seg963385.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.869">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	edukacja	NOUN	Case=Nom Gender=Fem Number=Plur	2
 Edukacji	Edukacji	edukacja	NOUN	Case=Nom Gender=Fem Number=Plur	2	root	-	-	-	-
 <g/>
@@ -145,7 +145,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	8	nmod	edukacja	NOUN	Case=Nom Gender=Fem Nu
 </s>
 </p>
 <p id="seg963386" lang="Polski">
-<s id="seg963386.1">
+<s id="seg963386.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.528">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	finanse	NOUN	Case=Gen Gender=Neut Number=Ptan	2
 Finansów	Finansów	finanse	NOUN	Case=Gen Gender=Neut Number=Ptan	2	root	-	-	-	-
 Publicznych	Publicznych	publiczny	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	3	amod	finanse	NOUN	Case=Gen Gender=Neut Number=Ptan	2
@@ -159,7 +159,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	5	nmod	finanse	NOUN	Case=Gen Gender=Neut Nu
 </s>
 </p>
 <p id="seg963387" lang="Polski">
-<s id="seg963387.1">
+<s id="seg963387.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.891">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	infrastruktura	NOUN	Case=Nom Gender=Fem Number=Plur	2
 Infrastruktury	Infrastruktury	infrastruktura	NOUN	Case=Nom Gender=Fem Number=Plur	2	root	-	-	-	-
 -	-	-	PUNCT	PunctType=Hyph	3	punct	infrastruktura	NOUN	Case=Nom Gender=Fem Number=Plur	2
@@ -172,7 +172,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	4	nmod	infrastruktura	NOUN	Case=Nom Gender=
 </s>
 </p>
 <p id="seg963388" lang="Polski">
-<s id="seg963388.1">
+<s id="seg963388.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.880">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	kultura	NOUN	Case=Nom Gender=Fem Number=Plur	2
 Kultury	Kultury	kultura	NOUN	Case=Nom Gender=Fem Number=Plur	2	root	-	-	-	-
 i	i	i	CCONJ	-	3	cc	środek	NOUN	Case=Gen Gender=Neut Number=Ptan	4
@@ -188,7 +188,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	7	nmod	kultura	NOUN	Case=Nom Gender=Fem Num
 </s>
 </p>
 <p id="seg963389" lang="Polski">
-<s id="seg963389.1">
+<s id="seg963389.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.932">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	zdrowie	NOUN	Case=Nom Gender=Neut Number=Sing	2
 Zdrowia	Zdrowia	zdrowie	NOUN	Case=Nom Gender=Neut Number=Sing	2	root	-	-	-	-
 -	-	-	PUNCT	PunctType=Hyph	3	punct	zdrowie	NOUN	Case=Nom Gender=Neut Number=Sing	2
@@ -201,7 +201,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	4	nmod	zdrowie	NOUN	Case=Nom Gender=Neut Nu
 </s>
 </p>
 <p id="seg963390" lang="Polski">
-<s id="seg963390.1">
+<s id="seg963390.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.856">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	gospodarka	NOUN	Case=Nom Gender=Fem Number=Plur	2
 Gospodarki	Gospodarki	gospodarka	NOUN	Case=Nom Gender=Fem Number=Plur	2	root	-	-	-	-
 i	i	i	CCONJ	-	3	cc	rozwój	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	4
@@ -216,7 +216,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	6	nmod	gospodarka	NOUN	Case=Nom Gender=Fem 
 </s>
 </p>
 <p id="seg963391" lang="Polski">
-<s id="seg963391.1">
+<s id="seg963391.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.936">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	gospodarka	NOUN	Case=Gen Gender=Fem Number=Sing	2
 Gospodarki	Gospodarki	gospodarka	NOUN	Case=Gen Gender=Fem Number=Sing	2	root	-	-	-	-
 Morskiej	Morskiej	morski	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	3	flat	gospodarka	NOUN	Case=Gen Gender=Fem Number=Sing	2
@@ -235,7 +235,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	8	nmod	gospodarka	NOUN	Case=Gen Gender=Fem 
 </s>
 </p>
 <p id="seg963392" lang="Polski">
-<s id="seg963392.1">
+<s id="seg963392.1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.266">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	łączność	NOUN	Case=Nom Gender=Fem Number=Plur	2
 Łączności	Łączności	łączność	NOUN	Case=Nom Gender=Fem Number=Plur	2	root	-	-	-	-
 z	z	z	ADP	AdpType=Prep Variant=Short	3	case	Polak	PROPN	Animacy=Hum Case=Ins Gender=Masc Number=Plur	4
@@ -254,7 +254,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	8	nmod	łączność	NOUN	Case=Nom Gender=Fe
 </s>
 </p>
 <p id="seg963393" lang="Polski">
-<s id="seg963393.1">
+<s id="seg963393.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.958">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	samorząd	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	2
 Samorządu	Samorządu	samorząd	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	2	root	-	-	-	-
 Terytorialnego	Terytorialnego	terytorialny	ADJ	Animacy=Inan Case=Gen Degree=Pos Gender=Masc Number=Sing	3	flat	samorząd	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	2
@@ -271,7 +271,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	8	nmod	samorząd	NOUN	Animacy=Inan Case=Gen
 </s>
 </p>
 <p id="seg963394" lang="Polski">
-<s id="seg963394.1">
+<s id="seg963394.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.909">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	sprawa	NOUN	Case=Gen Gender=Fem Number=Plur	3
 do	do	do	ADP	AdpType=Prep	2	case	sprawa	NOUN	Case=Gen Gender=Fem Number=Plur	3
 Spraw	Spraw	sprawa	NOUN	Case=Gen Gender=Fem Number=Plur	3	root	-	-	-	-
@@ -289,7 +289,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	7	nmod	sprawa	NOUN	Case=Gen Gender=Fem Numb
 </s>
 </p>
 <p id="seg963395" lang="Polski">
-<s id="seg963395.1">
+<s id="seg963395.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.988">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	cyfryzacja	NOUN	Case=Gen Gender=Fem Number=Plur	2
 Cyfryzacji	Cyfryzacji	cyfryzacja	NOUN	Case=Gen Gender=Fem Number=Plur	2	root	-	-	-	-
 <g/>
@@ -308,7 +308,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	9	nmod	cyfryzacja	NOUN	Case=Gen Gender=Fem 
 </s>
 </p>
 <p id="seg963396" lang="Polski">
-<s id="seg963396.1">
+<s id="seg963396.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.992">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	sprawa	NOUN	Case=Gen Gender=Fem Number=Plur	3
 do	do	do	ADP	AdpType=Prep	2	case	sprawa	NOUN	Case=Gen Gender=Fem Number=Plur	3
 Spraw	Spraw	sprawa	NOUN	Case=Gen Gender=Fem Number=Plur	3	root	-	-	-	-
@@ -326,7 +326,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	7	nmod	sprawa	NOUN	Case=Gen Gender=Fem Numb
 </s>
 </p>
 <p id="seg963397" lang="Polski">
-<s id="seg963397.1">
+<s id="seg963397.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.594">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	finanse	NOUN	Case=Gen Gender=Neut Number=Ptan	2
 Finansów	Finansów	finanse	NOUN	Case=Gen Gender=Neut Number=Ptan	2	root	-	-	-	-
 Publicznych	Publicznych	publiczny	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	3	amod	finanse	NOUN	Case=Gen Gender=Neut Number=Ptan	2
@@ -340,7 +340,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	5	nmod	finanse	NOUN	Case=Gen Gender=Neut Nu
 </s>
 </p>
 <p id="seg963398" lang="Polski">
-<s id="seg963398.1">
+<s id="seg963398.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.788">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	infrastruktura	NOUN	Case=Nom Gender=Fem Number=Plur	2
 Infrastruktury	Infrastruktury	infrastruktura	NOUN	Case=Nom Gender=Fem Number=Plur	2	root	-	-	-	-
 wspólnie	wspólnie	wspólnie	ADV	Degree=Pos	3	advmod	infrastruktura	NOUN	Case=Nom Gender=Fem Number=Plur	2
@@ -363,7 +363,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	12	nmod	infrastruktura	NOUN	Case=Nom Gender
 </s>
 </p>
 <p id="seg963399" lang="Polski">
-<s id="seg963399.1">
+<s id="seg963399.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.806">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	sprawa	NOUN	Case=Nom Gender=Fem Number=Plur	2
 Spraw	Spraw	sprawa	NOUN	Case=Nom Gender=Fem Number=Plur	2	root	-	-	-	-
 Zagranicznych	Zagranicznych	zagraniczny	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur	3	amod	sprawa	NOUN	Case=Nom Gender=Fem Number=Plur	2
@@ -377,7 +377,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	5	nmod	sprawa	NOUN	Case=Nom Gender=Fem Numb
 </s>
 </p>
 <p id="seg963400" lang="Polski">
-<s id="seg963400.1">
+<s id="seg963400.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.836">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	ustawodawczy	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	2
 Ustawodawczej	Ustawodawczej	ustawodawczy	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	2	root	-	-	-	-
 -	-	-	PUNCT	PunctType=Hyph	3	punct	godzina	X	Abbr=Yes Pun=Yes	4
@@ -390,7 +390,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	4	obl	ustawodawczy	ADJ	Case=Gen Degree=Pos 
 </s>
 </p>
 <p id="seg963401" lang="Polski">
-<s id="seg963401.1">
+<s id="seg963401.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.403">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	finanse	NOUN	Case=Gen Gender=Neut Number=Ptan	2
 Finansów	Finansów	finanse	NOUN	Case=Gen Gender=Neut Number=Ptan	2	root	-	-	-	-
 Publicznych	Publicznych	publiczny	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	3	amod	finanse	NOUN	Case=Gen Gender=Neut Number=Ptan	2
@@ -404,7 +404,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	5	nmod	finanse	NOUN	Case=Gen Gender=Neut Nu
 </s>
 </p>
 <p id="seg963402" lang="Polski">
-<s id="seg963402.1">
+<s id="seg963402.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.823">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	kultura	NOUN	Case=Nom Gender=Fem Number=Plur	2
 Kultury	Kultury	kultura	NOUN	Case=Nom Gender=Fem Number=Plur	2	root	-	-	-	-
 i	i	i	CCONJ	-	3	cc	środek	NOUN	Case=Gen Gender=Neut Number=Ptan	4
@@ -420,7 +420,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	7	nmod	kultura	NOUN	Case=Nom Gender=Fem Num
 </s>
 </p>
 <p id="seg963403" lang="Polski">
-<s id="seg963403.1">
+<s id="seg963403.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.600">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	regulaminowy	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	2
 Regulaminowej	Regulaminowej	regulaminowy	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	2	root	-	-	-	-
 <g/>
@@ -441,7 +441,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	9	conj	regulaminowy	ADJ	Case=Gen Degree=Pos
 </s>
 </p>
 <p id="seg963404" lang="Polski">
-<s id="seg963404.1">
+<s id="seg963404.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.989">
 -	-	-	PUNCT	PunctType=Hyph	1	punct	cyfryzacja	NOUN	Case=Gen Gender=Fem Number=Plur	2
 Cyfryzacji	Cyfryzacji	cyfryzacja	NOUN	Case=Gen Gender=Fem Number=Plur	2	root	-	-	-	-
 <g/>
@@ -460,7 +460,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	9	nmod	cyfryzacja	NOUN	Case=Gen Gender=Fem 
 </s>
 </p>
 <p id="seg963405" lang="Polski">
-<s id="seg963405.1">
+<s id="seg963405.1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.154">
 W	W	w	ADP	AdpType=Prep Variant=Short	1	case	dzień	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	2
 dniu	dniu	dzień	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	2	obl	odbyć	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin Voice=Act	4
 dzisiejszym	dzisiejszym	dzisiejszy	ADJ	Animacy=Inan Case=Loc Degree=Pos Gender=Masc Number=Sing	3	amod	dzień	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	2
@@ -510,7 +510,7 @@ godz	godz	godzina	X	Abbr=Yes Pun=Yes	32	conj	Polska	PROPN	Case=Loc Gender=Fem Nu
 <g/>
 .	.	.	PUNCT	PunctType=Peri	35	punct	odbyć	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin Voice=Act	4
 </s>
-<s id="seg963405.2">
+<s id="seg963405.2" senti_3="Positive" senti_6="positive" senti_n="4.600">
 Dziękuję	Dziękuję	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	PunctType=Peri	2	punct	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -518,9 +518,9 @@ Dziękuję	Dziękuję	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-PL_2022-06-23-sejm-57-2.u393" text_id="ParlaMint-PL_2022-06-23-sejm-57-2" subcorpus="COVID,War" lang="Polski" body="Sejm" term="9. kadencja Sejmu" session="57. sesja Sejmu" meeting="-" sitting="2. dzień sesji Sejmu" agenda="-" date="2022-06-23" title="Sprawozdanie stenograficzne z obrad Sejmu RP, 9.kadencja, 57. posiedzenie, 2. dzień (2022-06-23)" speaker_role="Parlamentarzysta" speaker_id="MałgorzataNiemczyk" speaker_name="Niemczyk, Małgorzata" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KO" speaker_party_name="Klub Parlamentarny Platforma Obywatelska – Koalicja Obywatelska" party_status="Opposition" party_orientation="-" speaker_gender="F" speaker_birth="1969">
+<speech id="ParlaMint-PL_2022-06-23-sejm-57-2.u393" text_id="ParlaMint-PL_2022-06-23-sejm-57-2" subcorpus="COVID,War" lang="Polski" body="Sejm" term="9. kadencja Sejmu" session="57. sesja Sejmu" meeting="-" sitting="2. dzień sesji Sejmu" agenda="-" date="2022-06-23" title="Sprawozdanie stenograficzne z obrad Sejmu RP, 9.kadencja, 57. posiedzenie, 2. dzień (2022-06-23)" speaker_role="Parlamentarzysta" topic="Education" speaker_id="MałgorzataNiemczyk" speaker_name="Niemczyk, Małgorzata" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KO" speaker_party_name="Klub Parlamentarny Platforma Obywatelska – Koalicja Obywatelska" party_status="Opposition" party_orientation="-" speaker_gender="F" speaker_birth="1969">
 <p id="seg965343" lang="Polski">
-<s id="seg965343.1">
+<s id="seg965343.1" senti_3="Negative" senti_6="mixed negative" senti_n="1.134">
 W	W	w	ADP	AdpType=Prep Variant=Short	1	case	dzień	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	2
 dniu	dniu	dzień	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	2	obl	oświadczać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	8
 23	23	23	ADJ	Animacy=Inan Case=Loc Degree=Pos Gender=Masc NumForm=Digit NumType=Ord Number=Sing	3	amod	dzień	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	2
@@ -608,7 +608,7 @@ ustawy	ustawy	ustawa	NOUN	Case=Gen Gender=Fem Number=Sing	69	nmod	projekt	NOUN	A
 </s>
 </p>
 <p id="seg965344" lang="Polski">
-<s id="seg965344.1">
+<s id="seg965344.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.775">
 Moją	Moją	mój	DET	Case=Ins Gender=Fem Number=Sing Number[psor]=Sing Person=1 Poss=Yes PronType=Prs	1	det:poss	intencja	NOUN	Case=Ins Gender=Fem Number=Sing	2
 intencją	intencją	intencja	NOUN	Case=Ins Gender=Fem Number=Sing	2	root	-	-	-	-
 było	było	być	AUX	Aspect=Imp Gender=Neut Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	3	cop	intencja	NOUN	Case=Ins Gender=Fem Number=Sing	2
@@ -634,15 +634,15 @@ za	za	za	ADV	-	18	obl	zaliczyć	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Mas
 </p>
 </speech>
 <note type="speaker" content="Poseł Krzysztof Sobolewski:"/>
-<speech id="ParlaMint-PL_2022-06-23-sejm-57-2.u394" text_id="ParlaMint-PL_2022-06-23-sejm-57-2" subcorpus="COVID,War" lang="Polski" body="Sejm" term="9. kadencja Sejmu" session="57. sesja Sejmu" meeting="-" sitting="2. dzień sesji Sejmu" agenda="-" date="2022-06-23" title="Sprawozdanie stenograficzne z obrad Sejmu RP, 9.kadencja, 57. posiedzenie, 2. dzień (2022-06-23)" speaker_role="Parlamentarzysta" speaker_id="KrzysztofSobolewski" speaker_name="Sobolewski, Krzysztof" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="Coalition" party_orientation="Right" speaker_gender="M" speaker_birth="1978">
+<speech id="ParlaMint-PL_2022-06-23-sejm-57-2.u394" text_id="ParlaMint-PL_2022-06-23-sejm-57-2" subcorpus="COVID,War" lang="Polski" body="Sejm" term="9. kadencja Sejmu" session="57. sesja Sejmu" meeting="-" sitting="2. dzień sesji Sejmu" agenda="-" date="2022-06-23" title="Sprawozdanie stenograficzne z obrad Sejmu RP, 9.kadencja, 57. posiedzenie, 2. dzień (2022-06-23)" speaker_role="Parlamentarzysta" topic="Defense" speaker_id="KrzysztofSobolewski" speaker_name="Sobolewski, Krzysztof" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="Coalition" party_orientation="Right" speaker_gender="M" speaker_birth="1978">
 <p id="seg965345" lang="Polski">
-<s id="seg965345.1">
+<s id="seg965345.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.071">
 Pani	Pani	pani	NOUN	Case=Voc Gender=Fem Number=Sing	1	root	-	-	-	-
 Marszałek	Marszałek	Marszałek	PROPN	Case=Nom Gender=Fem Number=Sing	2	appos	pani	NOUN	Case=Voc Gender=Fem Number=Sing	1
 <g/>
 !	!	!	PUNCT	PunctType=Excl	3	punct	pani	NOUN	Case=Voc Gender=Fem Number=Sing	1
 </s>
-<s id="seg965345.2">
+<s id="seg965345.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.696">
 Wysoka	Wysoka	wysoki	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	1	amod	izba	NOUN	Case=Nom Gender=Neut Number=Sing	2
 Izbo	Izbo	izba	NOUN	Case=Nom Gender=Neut Number=Sing	2	nsubj	ustanowić	VERB	Animacy=Hum Aspect=Perf Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	32
 <g/>
@@ -693,7 +693,7 @@ Militari	Militari	Militari	PROPN	Case=Nom Gender=Fem Number=Sing	35	flat	Virtuti
 </name>
 .	.	.	PUNCT	PunctType=Peri	36	punct	ustanowić	VERB	Animacy=Hum Aspect=Perf Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	32
 </s>
-<s id="seg965345.3">
+<s id="seg965345.3" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 W	W	w	ADP	AdpType=Prep Variant=Short	1	case	rok	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	6
 ciągu	ciągu	ciąg	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	2	fixed	w	ADP	AdpType=Prep Variant=Short	1
 kolejnych	kolejnych	kolejny	ADJ	Animacy=Inan Case=Gen Degree=Pos Gender=Masc Number=Plur	3	amod	rok	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	6
@@ -716,7 +716,7 @@ suwerenności	suwerenności	suwerenność	NOUN	Case=Gen Gender=Fem Number=Sing	1
 </s>
 </p>
 <p id="seg965346" lang="Polski">
-<s id="seg965346.1">
+<s id="seg965346.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.035">
 Panie	Panie	pani	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1	root	-	-	-	-
 i	i	i	CCONJ	-	2	cc	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	3
 Panowie	Panowie	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	3	conj	pani	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1
@@ -724,7 +724,7 @@ Posłowie	Posłowie	poseł	PROPN	Animacy=Hum Case=Nom Gender=Masc Number=Sing	4	
 <g/>
 !	!	!	PUNCT	PunctType=Excl	5	punct	pani	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1
 </s>
-<s id="seg965346.2">
+<s id="seg965346.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.661">
 Do	Do	do	ADP	AdpType=Prep	1	case	pora	NOUN	Case=Gen Gender=Fem Number=Sing	3
 tej	tej	ten	DET	Case=Gen Gender=Fem Number=Sing PronType=Dem	2	det	pora	NOUN	Case=Gen Gender=Fem Number=Sing	3
 pory	pory	pora	NOUN	Case=Gen Gender=Fem Number=Sing	3	obl	otrzymać	VERB	Aspect=Perf Gender=Neut Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	8
@@ -746,7 +746,7 @@ osób	osób	osoba	NOUN	Case=Gen Gender=Fem Number=Plur	14	obj	otrzymać	VERB	Asp
 <g/>
 .	.	.	PUNCT	PunctType=Peri	15	punct	otrzymać	VERB	Aspect=Perf Gender=Neut Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	8
 </s>
-<s id="seg965346.3">
+<s id="seg965346.3" senti_3="Neutral" senti_6="neutral postive" senti_n="3.254">
 Otrzymywali	Otrzymywali	otrzymywać	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Plur Tense=Past VerbForm=Fin Voice=Act	1	root	-	-	-	-
 go	go	on	PRON	Animacy=Hum Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs Variant=Short	2	obj	otrzymywać	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Plur Tense=Past VerbForm=Fin Voice=Act	1
 kościuszkowscy	kościuszkowscy	kościuszkowski	ADJ	Animacy=Hum Case=Nom Degree=Pos Gender=Masc Number=Plur	3	nsubj	otrzymywać	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Plur Tense=Past VerbForm=Fin Voice=Act	1
@@ -821,7 +821,7 @@ Krajowej	Krajowej	krajowy	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Sing	41	flat
 </name>
 .	.	.	PUNCT	PunctType=Peri	42	punct	otrzymywać	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Plur Tense=Past VerbForm=Fin Voice=Act	1
 </s>
-<s id="seg965346.4">
+<s id="seg965346.4" senti_3="Negative" senti_6="mixed negative" senti_n="1.265">
 Najmłodszym	Najmłodszym	młody	ADJ	Animacy=Hum Case=Ins Degree=Sup Gender=Masc Number=Sing	1	amod	kawaler	NOUN	Animacy=Hum Case=Ins Gender=Masc Number=Sing	2
 kawalerem	kawalerem	kawaler	NOUN	Animacy=Hum Case=Ins Gender=Masc Number=Sing	2	root	-	-	-	-
 orderu	orderu	order	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	3	nmod	kawaler	NOUN	Animacy=Hum Case=Ins Gender=Masc Number=Sing	2
@@ -870,7 +870,7 @@ Warszawskiego	Warszawskiego	warszawski	ADJ	Case=Gen Degree=Pos Gender=Neut Numbe
 </s>
 </p>
 <p id="seg965347" lang="Polski">
-<s id="seg965347.1">
+<s id="seg965347.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.035">
 Panie	Panie	pani	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1	root	-	-	-	-
 i	i	i	CCONJ	-	2	cc	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	3
 Panowie	Panowie	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	3	conj	pani	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1
@@ -878,7 +878,7 @@ Posłowie	Posłowie	poseł	PROPN	Animacy=Hum Case=Nom Gender=Masc Number=Sing	4	
 <g/>
 !	!	!	PUNCT	PunctType=Excl	5	punct	pani	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1
 </s>
-<s id="seg965347.2">
+<s id="seg965347.2" senti_3="Negative" senti_6="mixed negative" senti_n="0.863">
 Od	Od	od	ADP	AdpType=Prep Variant=Short	1	case	rok	X	Abbr=Yes Pun=Yes	3
 1989	1989	1989	ADJ	Animacy=Inan Case=Gen Degree=Pos Gender=Masc NumForm=Digit NumType=Ord Number=Sing	2	amod:flat	rok	X	Abbr=Yes Pun=Yes	3
 r	r	rok	X	Abbr=Yes Pun=Yes	3	obl	przyznawać	ADJ	Animacy=Inan Aspect=Imp Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	10
@@ -895,7 +895,7 @@ przyznawany	przyznawany	przyznawać	ADJ	Animacy=Inan Aspect=Imp Case=Nom Gender=
 <g/>
 .	.	.	PUNCT	PunctType=Peri	11	punct	przyznawać	ADJ	Animacy=Inan Aspect=Imp Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	10
 </s>
-<s id="seg965347.3">
+<s id="seg965347.3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.457">
 W	W	w	ADP	AdpType=Prep Variant=Short	1	case	ustawa	NOUN	Case=Loc Gender=Fem Number=Sing	2
 ustawie	ustawie	ustawa	NOUN	Case=Loc Gender=Fem Number=Sing	2	obl	ustalić	VERB	Aspect=Perf Mood=Ind Person=0 Tense=Past VerbForm=Fin Voice=Act	7
 z	z	z	ADP	AdpType=Prep Variant=Short	3	case	rok	X	Abbr=Yes Pun=Yes	5
@@ -927,7 +927,7 @@ zakończenia	zakończenia	zakończyć	NOUN	Aspect=Perf Case=Gen Gender=Neut Numb
 <g/>
 .	.	.	PUNCT	PunctType=Peri	27	punct	ustalić	VERB	Aspect=Perf Mood=Ind Person=0 Tense=Past VerbForm=Fin Voice=Act	7
 </s>
-<s id="seg965347.4">
+<s id="seg965347.4" senti_3="Negative" senti_6="negative" senti_n="0.383">
 Skomplikowane	Skomplikowane	skomplikowany	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Plur	1	amod	dziać	NOUN	Case=Nom Gender=Neut Number=Plur	2
 dzieje	dzieje	dziać	NOUN	Case=Nom Gender=Neut Number=Plur	2	nsubj	odzwierciedlać	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	5
 tego	tego	to	DET	Case=Gen Gender=Neut Number=Sing PronType=Dem	3	det	odznaczenie	NOUN	Case=Gen Gender=Neut Number=Sing	4
@@ -945,13 +945,13 @@ Polski	Polski	Polska	PROPN	Case=Gen Gender=Fem Number=Sing	10	nmod	los	NOUN	Anim
 </s>
 </p>
 <p id="seg965348" lang="Polski">
-<s id="seg965348.1">
+<s id="seg965348.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.444">
 Wysoka	Wysoka	wysoki	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	1	amod	izba	PROPN	Case=Nom Gender=Neut Number=Sing	2
 Izbo	Izbo	izba	PROPN	Case=Nom Gender=Neut Number=Sing	2	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	PunctType=Excl	3	punct	izba	PROPN	Case=Nom Gender=Neut Number=Sing	2
 </s>
-<s id="seg965348.2">
+<s id="seg965348.2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.953">
 Warto	Warto	warto	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	1	root	-	-	-	-
 nadmienić	nadmienić	nadmienić	VERB	Aspect=Perf VerbForm=Inf Voice=Act	2	xcomp	warto	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	1
 <g/>
@@ -983,7 +983,7 @@ Ludowej	Ludowej	ludowy	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	22	flat	Po
 </name>
 .	.	.	PUNCT	PunctType=Peri	23	punct	warto	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	1
 </s>
-<s id="seg965348.3">
+<s id="seg965348.3" senti_3="Negative" senti_6="negative" senti_n="0.183">
 W	W	w	ADP	AdpType=Prep Variant=Short	1	case	dokument	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	3
 specjalnym	specjalnym	specjalny	ADJ	Animacy=Inan Case=Loc Degree=Pos Gender=Masc Number=Sing	2	amod	dokument	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	3
 dokumencie	dokumencie	dokument	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	3	obl	oznajmić	VERB	Aspect=Perf Gender=Fem Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	4

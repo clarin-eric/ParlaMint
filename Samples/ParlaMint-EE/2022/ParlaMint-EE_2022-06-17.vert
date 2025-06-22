@@ -1,7 +1,7 @@
 <note type="speaker" content="Jüri Ratas"/>
-<speech id="ParlaMint-EE_2022-06-17_U1" text_id="ParlaMint-EE_2022-06-17" subcorpus="COVID,War" lang="eesti" body="Ühekojaline parlament" term="XIV Riigikogu" session="extraordinary session" meeting="-" sitting="2022-06-17" agenda="-" date="2022-06-17" title="XIV Riigikogu, Riigikogu erakorraline istungjärk Reede, 17.06.2022, 09:00" speaker_role="Juhataja" speaker_id="j_ratas_19780702" speaker_name="Ratas, Jüri" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KE" speaker_party_name="Keskerakond" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1978">
+<speech id="ParlaMint-EE_2022-06-17_U1" text_id="ParlaMint-EE_2022-06-17" subcorpus="COVID,War" lang="eesti" body="Ühekojaline parlament" term="XIV Riigikogu" session="extraordinary session" meeting="-" sitting="2022-06-17" agenda="-" date="2022-06-17" title="XIV Riigikogu, Riigikogu erakorraline istungjärk Reede, 17.06.2022, 09:00" speaker_role="Juhataja" topic="Other" speaker_id="j_ratas_19780702" speaker_name="Ratas, Jüri" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KE" speaker_party_name="Keskerakond" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1978">
 <p id="ParlaMint-EE_2022-06-17_U1-P1" lang="eesti">
-<s id="ParlaMint-EE_2022-06-17_U1-P1.1">
+<s id="ParlaMint-EE_2022-06-17_U1-P1.1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.489">
 Head	Head	hea	ADJ	Case=Nom Degree=Pos Number=Plur	1	amod	ameti_kaaslane	NOUN	Case=Nom Number=Plur	2
 ametikaaslased	ametikaaslased	ameti_kaaslane	NOUN	Case=Nom Number=Plur	2	root	-	-	-	-
 <g/>
@@ -13,13 +13,13 @@ Riigikogu	Riigikogu	Riigi_kogu	PROPN	Case=Nom Number=Sing	5	conj	ameti_kaaslane	
 </name>
 !	!	!	PUNCT	-	6	punct	ameti_kaaslane	NOUN	Case=Nom Number=Plur	2
 </s>
-<s id="ParlaMint-EE_2022-06-17_U1-P1.2">
+<s id="ParlaMint-EE_2022-06-17_U1-P1.2" senti_3="Positive" senti_6="positive" senti_n="4.568">
 Tere	Tere	tere	INTJ	-	1	discourse	hommik	NOUN	Case=Ela Number=Sing	2
 hommikust	hommikust	hommik	NOUN	Case=Ela Number=Sing	2	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	3	punct	hommik	NOUN	Case=Ela Number=Sing	2
 </s>
-<s id="ParlaMint-EE_2022-06-17_U1-P1.3">
+<s id="ParlaMint-EE_2022-06-17_U1-P1.3" senti_3="Neutral" senti_6="neutral postive" senti_n="2.975">
 Alustame	Alustame	alustama	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <name type="ORG">
 Riigikogu	Riigikogu	Riigi_kogu	PROPN	Case=Gen Number=Sing	2	nmod	täis_kogu	NOUN	Case=Gen Number=Sing	3
@@ -34,7 +34,7 @@ aastal	aastal	aasta	NOUN	Case=Ade Number=Sing	9	obl	alustama	VERB	Mood=Ind Numbe
 kell	kell	kell	NOUN	Case=Nom Number=Sing	10	obl	alustama	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 9.	9.	9.	ADJ	NumForm=Digit NumType=Ord	11	amod	kell	NOUN	Case=Nom Number=Sing	10
 </s>
-<s id="ParlaMint-EE_2022-06-17_U1-P1.4">
+<s id="ParlaMint-EE_2022-06-17_U1-P1.4" senti_3="Neutral" senti_6="neutral negative" senti_n="2.425">
 Nimelt	Nimelt	nimelt	ADV	-	1	advmod	istung_järk	NOUN	Case=Nom Number=Sing	5
 <g/>
 ,	,	,	PUNCT	-	2	punct	istung_järk	NOUN	Case=Nom Number=Sing	5
@@ -90,7 +90,7 @@ päevakorraga	päevakorraga	päeva_kord	NOUN	Case=Com Number=Sing	39	conj	aeg	NO
 </s>
 </p>
 <p id="ParlaMint-EE_2022-06-17_U1-P2" lang="eesti">
-<s id="ParlaMint-EE_2022-06-17_U1-P2.1">
+<s id="ParlaMint-EE_2022-06-17_U1-P2.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.629">
 Erakorralise	Erakorralise	era_korraline	ADJ	Case=Gen Degree=Pos Number=Sing	1	amod	istung_järk	NOUN	Case=Gen Number=Sing	2
 istungjärgu	istungjärgu	istung_järk	NOUN	Case=Gen Number=Sing	2	nmod	töö	NOUN	Case=Gen Number=Sing	3
 töö	töö	töö	NOUN	Case=Gen Number=Sing	3	nmod	aja_graafik	NOUN	Case=Gen Number=Sing	4
@@ -99,7 +99,7 @@ kehtestamine	kehtestamine	kehtestamine	NOUN	Case=Nom Number=Sing	5	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	6	punct	kehtestamine	NOUN	Case=Nom Number=Sing	5
 </s>
-<s id="ParlaMint-EE_2022-06-17_U1-P2.2">
+<s id="ParlaMint-EE_2022-06-17_U1-P2.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.296">
 Hetkel	Hetkel	hetk	NOUN	Case=Ade Number=Sing	1	root	-	-	-	-
 on	on	olema	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	cop	hetk	NOUN	Case=Ade Number=Sing	1
 selline	selline	selline	DET	Case=Nom Number=Sing PronType=Dem	3	det	ette_panek	NOUN	Case=Nom Number=Sing	4
@@ -134,7 +134,7 @@ enamusega	enamusega	enamus	NOUN	Case=Com Number=Sing	25	obl	kehtestama	VERB	Mood
 <g/>
 .	.	.	PUNCT	-	26	punct	hetk	NOUN	Case=Ade Number=Sing	1
 </s>
-<s id="ParlaMint-EE_2022-06-17_U1-P2.3">
+<s id="ParlaMint-EE_2022-06-17_U1-P2.3" senti_3="Neutral" senti_6="neutral postive" senti_n="2.780">
 Nii	Nii	nii	ADV	-	1	advmod	jõudma	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	7
 et	et	et	SCONJ	-	2	fixed	nii	ADV	-	1
 kui	kui	kui	SCONJ	-	3	mark	jõudma	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	7
@@ -157,7 +157,7 @@ järgmine	järgmine	järgmine	ADJ	Case=Nom Degree=Pos Number=Sing	18	root	-	-	-	
 <g/>
 .	.	.	PUNCT	-	19	punct	järgmine	ADJ	Case=Nom Degree=Pos Number=Sing	18
 </s>
-<s id="ParlaMint-EE_2022-06-17_U1-P2.4">
+<s id="ParlaMint-EE_2022-06-17_U1-P2.4" senti_3="Neutral" senti_6="neutral postive" senti_n="3.389">
 Istungjärk	Istungjärk	istung_järk	NOUN	Case=Nom Number=Sing	1	nsubj	kestma	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 kestab	kestab	kestma	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 kuni	kuni	kuni	ADP	AdpType=Prep	3	case	ammendumine	NOUN	Case=Ter Number=Sing	5
@@ -166,7 +166,7 @@ ammendumiseni	ammendumiseni	ammendumine	NOUN	Case=Ter Number=Sing	5	obl	kestma	V
 <g/>
 .	.	.	PUNCT	-	6	punct	kestma	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
-<s id="ParlaMint-EE_2022-06-17_U1-P2.5">
+<s id="ParlaMint-EE_2022-06-17_U1-P2.5" senti_3="Neutral" senti_6="neutral negative" senti_n="2.224">
 Juhul	Juhul	juht	NOUN	Case=Ade Number=Sing	1	obl	jätkuma	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	16
 <g/>
 ,	,	,	PUNCT	-	2	punct	lõpetama	VERB	Connegative=Yes Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	10
@@ -194,7 +194,7 @@ tööd	tööd	töö	NOUN	Case=Par Number=Sing	20	obl	jätkuma	VERB	Mood=Ind Numb
 <g/>
 .	.	.	PUNCT	-	21	punct	jätkuma	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	16
 </s>
-<s id="ParlaMint-EE_2022-06-17_U1-P2.6">
+<s id="ParlaMint-EE_2022-06-17_U1-P2.6" senti_3="Neutral" senti_6="neutral negative" senti_n="2.013">
 See	See	see	PRON	Case=Nom Number=Sing PronType=Dem	1	nsubj	tulenema	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 tuleneb	tuleneb	tulenema	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 <name type="ORG">
@@ -239,7 +239,7 @@ kui	kui	kui	SCONJ	-	33	mark	kell	NOUN	Case=Nom Number=Sing	34
 kell	kell	kell	NOUN	Case=Nom Number=Sing	34	advcl	varem	ADV	-	32
 13.	13.	13.	ADJ	NumForm=Digit NumType=Ord	35	amod	kell	NOUN	Case=Nom Number=Sing	34
 </s>
-<s id="ParlaMint-EE_2022-06-17_U1-P2.7">
+<s id="ParlaMint-EE_2022-06-17_U1-P2.7" senti_3="Negative" senti_6="mixed negative" senti_n="0.799">
 Nii	Nii	nii	ADV	-	1	advmod	minema	VERB	Connegative=Yes Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	5
 et	et	et	SCONJ	-	2	fixed	nii	ADV	-	1
 me	me	mina	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	3	nsubj	minema	VERB	Connegative=Yes Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	5
@@ -268,7 +268,7 @@ istungitesse	istungitesse	istung	NOUN	Case=Ill Number=Plur	17	parataxis	komisjon
 </s>
 </p>
 <p id="ParlaMint-EE_2022-06-17_U1-P3" lang="eesti">
-<s id="ParlaMint-EE_2022-06-17_U1-P3.1">
+<s id="ParlaMint-EE_2022-06-17_U1-P3.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.606">
 Nüüd	Nüüd	nüüd	ADV	-	1	advmod	paluma	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
 ma	ma	mina	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	2	nsubj	paluma	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
 palun	palun	paluma	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3	root	-	-	-	-
@@ -293,7 +293,7 @@ arupärimisi	arupärimisi	aru_pärimine	NOUN	Case=Par Number=Plur	16	conj	eel_n�
 <g/>
 .	.	.	PUNCT	-	17	punct	paluma	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
 </s>
-<s id="ParlaMint-EE_2022-06-17_U1-P3.2">
+<s id="ParlaMint-EE_2022-06-17_U1-P3.2" senti_3="Neutral" senti_6="neutral postive" senti_n="3.032">
 Palun	Palun	paluma	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	punct	Taavi	PROPN	Case=Nom Number=Sing	3
@@ -307,9 +307,9 @@ Aas	Aas	Aas	PROPN	Case=Nom Number=Sing	4	flat	Taavi	PROPN	Case=Nom Number=Sing	3
 </p>
 </speech>
 <note type="speaker" content="Taavi Aas"/>
-<speech id="ParlaMint-EE_2022-06-17_U2" text_id="ParlaMint-EE_2022-06-17" subcorpus="COVID,War" lang="eesti" body="Ühekojaline parlament" term="XIV Riigikogu" session="extraordinary session" meeting="-" sitting="2022-06-17" agenda="-" date="2022-06-17" title="XIV Riigikogu, Riigikogu erakorraline istungjärk Reede, 17.06.2022, 09:00" speaker_role="Saadik" speaker_id="t_aas_19660110" speaker_name="Aas, Taavi" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KE" speaker_party_name="Keskerakond" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1966">
+<speech id="ParlaMint-EE_2022-06-17_U2" text_id="ParlaMint-EE_2022-06-17" subcorpus="COVID,War" lang="eesti" body="Ühekojaline parlament" term="XIV Riigikogu" session="extraordinary session" meeting="-" sitting="2022-06-17" agenda="-" date="2022-06-17" title="XIV Riigikogu, Riigikogu erakorraline istungjärk Reede, 17.06.2022, 09:00" speaker_role="Saadik" topic="Energy" speaker_id="t_aas_19660110" speaker_name="Aas, Taavi" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KE" speaker_party_name="Keskerakond" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1966">
 <p id="ParlaMint-EE_2022-06-17_U2-P1" lang="eesti">
-<s id="ParlaMint-EE_2022-06-17_U2-P1.1">
+<s id="ParlaMint-EE_2022-06-17_U2-P1.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.469">
 Austatud	Austatud	austa=tud	ADJ	Degree=Pos Tense=Past VerbForm=Part Voice=Pass	1	acl	esi_mees	NOUN	Case=Nom Number=Sing	3
 <name type="ORG">
 Riigikogu	Riigikogu	Riigi_kogu	PROPN	Case=Gen Number=Sing	2	nmod	esi_mees	NOUN	Case=Nom Number=Sing	3
@@ -318,7 +318,7 @@ esimees	esimees	esi_mees	NOUN	Case=Nom Number=Sing	3	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	4	punct	esi_mees	NOUN	Case=Nom Number=Sing	3
 </s>
-<s id="ParlaMint-EE_2022-06-17_U2-P1.2">
+<s id="ParlaMint-EE_2022-06-17_U2-P1.2" senti_3="Positive" senti_6="mixed positive" senti_n="4.113">
 Head	Head	hea	ADJ	Case=Nom Degree=Pos Number=Plur	1	amod	liige	NOUN	Case=Nom Number=Plur	3
 <name type="ORG">
 Riigikogu	Riigikogu	Riigi_kogu	PROPN	Case=Gen Number=Sing	2	nmod	liige	NOUN	Case=Nom Number=Plur	3
@@ -327,7 +327,7 @@ liikmed	liikmed	liige	NOUN	Case=Nom Number=Plur	3	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	4	punct	liige	NOUN	Case=Nom Number=Plur	3
 </s>
-<s id="ParlaMint-EE_2022-06-17_U2-P1.3">
+<s id="ParlaMint-EE_2022-06-17_U2-P1.3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.319">
 On	On	olema	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 lähenemas	lähenemas	lähenema	VERB	Case=Ine VerbForm=Sup Voice=Act	2	xcomp	olema	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1
 kindlalt	kindlalt	kindlalt	ADV	-	3	advmod	olema	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -336,7 +336,7 @@ kütteperiood	kütteperiood	kütte_periood	NOUN	Case=Nom Number=Sing	5	nsubj	ole
 <g/>
 .	.	.	PUNCT	-	6	punct	olema	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-EE_2022-06-17_U2-P1.4">
+<s id="ParlaMint-EE_2022-06-17_U2-P1.4" senti_3="Neutral" senti_6="neutral negative" senti_n="1.781">
 Me	Me	mina	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	1	nsubj	teadma	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
 kõik	kõik	kõik	PRON	Case=Nom Number=Plur PronType=Tot	2	nmod	mina	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	1
 teame	teame	teadma	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	3	root	-	-	-	-
@@ -354,7 +354,7 @@ hinnatase	hinnatase	hinna_tase	NOUN	Case=Nom Number=Sing	12	nsubj:cop	milline	AD
 <g/>
 .	.	.	PUNCT	-	13	punct	teadma	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
 </s>
-<s id="ParlaMint-EE_2022-06-17_U2-P1.5">
+<s id="ParlaMint-EE_2022-06-17_U2-P1.5" senti_3="Neutral" senti_6="neutral negative" senti_n="2.037">
 Ka	Ka	ka	ADV	-	1	advmod	täna	ADV	-	2
 täna	täna	täna	ADV	-	2	advmod	hommik	NOUN	Case=Ade Number=Sing	3
 hommikul	hommikul	hommik	NOUN	Case=Ade Number=Sing	3	obl	vaatama	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	4
@@ -377,7 +377,7 @@ tipud	tipud	tipp	NOUN	Case=Nom Number=Plur	14	obl	300.	NUM	NumForm=Digit NumType
 pealt	pealt	pealt	ADP	AdpType=Post	15	case	tipp	NOUN	Case=Nom Number=Plur	14
 300.	300.	300.	NUM	NumForm=Digit NumType=Card	16	conj	megama	VERB	Mood=Qot Tense=Pres VerbForm=Fin Voice=Act	12
 </s>
-<s id="ParlaMint-EE_2022-06-17_U2-P1.6">
+<s id="ParlaMint-EE_2022-06-17_U2-P1.6" senti_3="Neutral" senti_6="neutral postive" senti_n="2.875">
 Seetõttu	Seetõttu	see_tõttu	ADV	-	1	advmod	aktuaalne	ADJ	Case=Nom Degree=Pos Number=Sing	4
 on	on	olema	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	cop	aktuaalne	ADJ	Case=Nom Degree=Pos Number=Sing	4
 kindlasti	kindlasti	kindlasti	ADV	-	3	advmod	aktuaalne	ADJ	Case=Nom Degree=Pos Number=Sing	4
@@ -410,7 +410,7 @@ vahel	vahel	vahel	ADP	AdpType=Post	24	case	toidu_korv	NOUN	Case=Gen Number=Sing	
 <g/>
 .	.	.	PUNCT	-	25	punct	aktuaalne	ADJ	Case=Nom Degree=Pos Number=Sing	4
 </s>
-<s id="ParlaMint-EE_2022-06-17_U2-P1.7">
+<s id="ParlaMint-EE_2022-06-17_U2-P1.7" senti_3="Neutral" senti_6="neutral postive" senti_n="2.796">
 Seetõttu	Seetõttu	see_tõttu	ADV	-	1	advmod	mina	PRON	Case=Ade Number=Plur Person=1 PronType=Prs	3
 on	on	olema	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	cop	mina	PRON	Case=Ade Number=Plur Person=1 PronType=Prs	3
 meil	meil	mina	PRON	Case=Ade Number=Plur Person=1 PronType=Prs	3	root	-	-	-	-
@@ -429,7 +429,7 @@ kütteperioodiks	kütteperioodiks	kütte_periood	NOUN	Case=Tra Number=Sing	11	xc
 </s>
 </p>
 <p id="ParlaMint-EE_2022-06-17_U2-P2" lang="eesti">
-<s id="ParlaMint-EE_2022-06-17_U2-P2.1">
+<s id="ParlaMint-EE_2022-06-17_U2-P2.1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.101">
 Nimelt	Nimelt	nimelt	ADV	-	1	advmod	ette_panek	NOUN	Case=Nom Number=Sing	4
 on	on	olema	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	cop	ette_panek	NOUN	Case=Nom Number=Sing	4
 meie	meie	mina	PRON	Case=Gen Number=Plur Person=1 PronType=Prs	3	nmod	ette_panek	NOUN	Case=Nom Number=Sing	4
@@ -458,7 +458,7 @@ võrgutasud	võrgutasud	võrgu_tasu	NOUN	Case=Nom Number=Plur	23	conj	september	
 <g/>
 .	.	.	PUNCT	-	24	punct	ette_panek	NOUN	Case=Nom Number=Sing	4
 </s>
-<s id="ParlaMint-EE_2022-06-17_U2-P2.2">
+<s id="ParlaMint-EE_2022-06-17_U2-P2.2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.647">
 Teiseks	Teiseks	teiseks	ADV	-	1	advmod	määrama	VERB	VerbForm=Inf	3
 <g/>
 ,	,	,	PUNCT	-	2	punct	määrama	VERB	VerbForm=Inf	3
@@ -506,12 +506,12 @@ osast	osast	osa	NOUN	Case=Ela Number=Sing	41	obl	hüvitama	VERB	VerbForm=Inf	18
 <g/>
 .	.	.	PUNCT	-	42	punct	määrama	VERB	VerbForm=Inf	3
 </s>
-<s id="ParlaMint-EE_2022-06-17_U2-P2.3">
+<s id="ParlaMint-EE_2022-06-17_U2-P2.3" senti_3="Positive" senti_6="positive" senti_n="4.984">
 Aitäh	Aitäh	aitäh	INTJ	-	1	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	2	punct	aitäh	INTJ	-	1
 </s>
-<s id="ParlaMint-EE_2022-06-17_U2-P2.4">
+<s id="ParlaMint-EE_2022-06-17_U2-P2.4" senti_3="Positive" senti_6="positive" senti_n="5.135">
 Loodan	Loodan	lootma	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	punct	toetama	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	9
@@ -530,14 +530,14 @@ toetavad	toetavad	toetama	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-EE_2022-06-17_U13" text_id="ParlaMint-EE_2022-06-17" subcorpus="COVID,War" lang="eesti" body="Ühekojaline parlament" term="XIV Riigikogu" session="extraordinary session" meeting="-" sitting="2022-06-17" agenda="-" date="2022-06-17" title="XIV Riigikogu, Riigikogu erakorraline istungjärk Reede, 17.06.2022, 09:00" speaker_role="Juhataja" speaker_id="j_ratas_19780702" speaker_name="Ratas, Jüri" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KE" speaker_party_name="Keskerakond" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1978">
+<speech id="ParlaMint-EE_2022-06-17_U13" text_id="ParlaMint-EE_2022-06-17" subcorpus="COVID,War" lang="eesti" body="Ühekojaline parlament" term="XIV Riigikogu" session="extraordinary session" meeting="-" sitting="2022-06-17" agenda="-" date="2022-06-17" title="XIV Riigikogu, Riigikogu erakorraline istungjärk Reede, 17.06.2022, 09:00" speaker_role="Juhataja" topic="Other" speaker_id="j_ratas_19780702" speaker_name="Ratas, Jüri" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KE" speaker_party_name="Keskerakond" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1978">
 <p id="ParlaMint-EE_2022-06-17_U13-P1" lang="eesti">
-<s id="ParlaMint-EE_2022-06-17_U13-P1.1">
+<s id="ParlaMint-EE_2022-06-17_U13-P1.1" senti_3="Positive" senti_6="positive" senti_n="4.984">
 Aitäh	Aitäh	aitäh	INTJ	-	1	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	2	punct	aitäh	INTJ	-	1
 </s>
-<s id="ParlaMint-EE_2022-06-17_U13-P1.2">
+<s id="ParlaMint-EE_2022-06-17_U13-P1.2" senti_3="Negative" senti_6="mixed negative" senti_n="0.685">
 Minul	Minul	mina	PRON	Case=Ade Number=Sing Person=1 PronType=Prs	1	obl	puuduma	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	5
 selle	selle	see	PRON	Case=Gen Number=Sing PronType=Dem	2	obl	puuduma	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	5
 kohta	kohta	kohta	ADP	AdpType=Post	3	case	see	PRON	Case=Gen Number=Sing PronType=Dem	2
@@ -546,7 +546,7 @@ puudub	puudub	puuduma	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin
 <g/>
 .	.	.	PUNCT	-	6	punct	puuduma	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	5
 </s>
-<s id="ParlaMint-EE_2022-06-17_U13-P1.3">
+<s id="ParlaMint-EE_2022-06-17_U13-P1.3" senti_3="Negative" senti_6="negative" senti_n="0.450">
 Kui	Kui	kui	SCONJ	-	1	mark	võtma	VERB	VerbForm=Inf	2
 võtta	võtta	võtma	VERB	VerbForm=Inf	2	advcl	puuduma	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	17
 see	see	see	DET	Case=Nom Number=Sing PronType=Dem	3	det	Pipi	PROPN	Case=Nom Number=Sing	4
@@ -581,7 +581,7 @@ seda	seda	see	PRON	Case=Par Number=Sing PronType=Dem	24	obj	oskama	VERB	Connegat
 </s>
 </p>
 <p id="ParlaMint-EE_2022-06-17_U13-P2" lang="eesti">
-<s id="ParlaMint-EE_2022-06-17_U13-P2.1">
+<s id="ParlaMint-EE_2022-06-17_U13-P2.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.362">
 Nii	Nii	nii	ADV	-	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	punct	rohkem	ADV	-	3
@@ -593,7 +593,7 @@ ole	ole	olema	AUX	Connegative=Yes Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	7	c
 <g/>
 .	.	.	PUNCT	-	8	punct	nii	ADV	-	1
 </s>
-<s id="ParlaMint-EE_2022-06-17_U13-P2.2">
+<s id="ParlaMint-EE_2022-06-17_U13-P2.2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.574">
 Nüüd	Nüüd	nüüd	ADV	-	1	advmod	nii_viisi	ADV	-	3
 on	on	olema	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	cop	nii_viisi	ADV	-	3
 niiviisi	niiviisi	nii_viisi	ADV	-	3	root	-	-	-	-
@@ -633,7 +633,7 @@ menetlemise	menetlemise	menetlemine	NOUN	Case=Gen Number=Sing	29	obj	otsustama	V
 <g/>
 .	.	.	PUNCT	-	30	punct	nii_viisi	ADV	-	3
 </s>
-<s id="ParlaMint-EE_2022-06-17_U13-P2.3">
+<s id="ParlaMint-EE_2022-06-17_U13-P2.3" senti_3="Positive" senti_6="mixed positive" senti_n="3.665">
 Ja	Ja	ja	CCONJ	-	1	cc	jõudma	VERB	Tense=Past VerbForm=Part Voice=Act	5
 nüüd	nüüd	nüüd	ADV	-	2	advmod	jõudma	VERB	Tense=Past VerbForm=Part Voice=Act	5
 me	me	mina	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	3	nsubj	jõudma	VERB	Tense=Past VerbForm=Part Voice=Act	5
@@ -645,7 +645,7 @@ juurde	juurde	juurde	ADP	AdpType=Post	8	case	kontroll	NOUN	Case=Gen Number=Sing	
 <g/>
 .	.	.	PUNCT	-	9	punct	jõudma	VERB	Tense=Past VerbForm=Part Voice=Act	5
 </s>
-<s id="ParlaMint-EE_2022-06-17_U13-P2.4">
+<s id="ParlaMint-EE_2022-06-17_U13-P2.4" senti_3="Neutral" senti_6="neutral negative" senti_n="2.485">
 Ma	Ma	mina	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	kordama	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 kordan	kordan	kordama	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 üle	üle	üle	ADV	-	3	compound:prt	kordama	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -676,13 +676,13 @@ koosseisust	koosseisust	koos_seis	NOUN	Case=Ela Number=Sing	19	nmod	pool	NUM	Cas
 <g/>
 .	.	.	PUNCT	-	20	punct	kordama	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
-<s id="ParlaMint-EE_2022-06-17_U13-P2.5">
+<s id="ParlaMint-EE_2022-06-17_U13-P2.5" senti_3="Neutral" senti_6="neutral postive" senti_n="3.417">
 Seda	Seda	see	PRON	Case=Par Number=Sing PronType=Dem	1	obj	ütlema	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 ütleb	ütleb	ütlema	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 §	§	§	NOUN	Abbr=Yes	3	nsubj	ütlema	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 76.	76.	76.	ADJ	NumForm=Digit NumType=Ord	4	amod	§	NOUN	Abbr=Yes	3
 </s>
-<s id="ParlaMint-EE_2022-06-17_U13-P2.6">
+<s id="ParlaMint-EE_2022-06-17_U13-P2.6" senti_3="Neutral" senti_6="neutral negative" senti_n="2.018">
 Riigikogu	Riigikogu	riigi_kogu	NOUN	Case=Gen Number=Sing	1	nmod	istung_järk	NOUN	Case=Gen Number=Sing	3
 erakorralise	erakorralise	era_korraline	ADJ	Case=Gen Degree=Pos Number=Sing	2	amod	istung_järk	NOUN	Case=Gen Number=Sing	3
 istungjärgu	istungjärgu	istung_järk	NOUN	Case=Gen Number=Sing	3	obl	kontrollima	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	5
@@ -703,7 +703,7 @@ nõuab	nõuab	nõudma	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin
 <g/>
 .	.	.	PUNCT	-	17	punct	kontrollima	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	5
 </s>
-<s id="ParlaMint-EE_2022-06-17_U13-P2.7">
+<s id="ParlaMint-EE_2022-06-17_U13-P2.7" senti_3="Neutral" senti_6="neutral postive" senti_n="3.400">
 See	See	see	PRON	Case=Nom Number=Sing PronType=Dem	1	nsubj:cop	lõige	NOUN	Case=Nom Number=Sing	5
 on	on	olema	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	cop	lõige	NOUN	Case=Nom Number=Sing	5
 §	§	§	NOUN	Abbr=Yes	3	nmod	lõige	NOUN	Case=Nom Number=Sing	5
@@ -711,7 +711,7 @@ on	on	olema	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	
 lõige	lõige	lõige	NOUN	Case=Nom Number=Sing	5	root	-	-	-	-
 3.	3.	3.	ADJ	NumForm=Digit NumType=Ord	6	amod	lõige	NOUN	Case=Nom Number=Sing	5
 </s>
-<s id="ParlaMint-EE_2022-06-17_U13-P2.8">
+<s id="ParlaMint-EE_2022-06-17_U13-P2.8" senti_3="Neutral" senti_6="neutral negative" senti_n="1.593">
 Ja	Ja	ja	CCONJ	-	1	cc	info	NOUN	Case=Tra Number=Sing	2
 infoks	infoks	info	NOUN	Case=Tra Number=Sing	2	root	-	-	-	-
 veel	veel	veel	ADV	-	3	advmod	info	NOUN	Case=Tra Number=Sing	2
@@ -728,7 +728,7 @@ automaatselt	automaatselt	automaatselt	ADV	-	12	advmod	lõppema	VERB	Mood=Ind Nu
 <g/>
 .	.	.	PUNCT	-	13	punct	info	NOUN	Case=Tra Number=Sing	2
 </s>
-<s id="ParlaMint-EE_2022-06-17_U13-P2.9">
+<s id="ParlaMint-EE_2022-06-17_U13-P2.9" senti_3="Neutral" senti_6="neutral postive" senti_n="2.647">
 Head	Head	hea	ADJ	Case=Nom Degree=Pos Number=Plur	1	amod	ameti_kaaslane	NOUN	Case=Nom Number=Plur	2
 ametikaaslased	ametikaaslased	ameti_kaaslane	NOUN	Case=Nom Number=Plur	2	vocative	viima	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	4
 <g/>
@@ -740,7 +740,7 @@ kontrolli	kontrolli	kontroll	NOUN	Case=Gen Number=Sing	7	obj	viima	VERB	Mood=Ind
 <g/>
 .	.	.	PUNCT	-	8	punct	viima	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	4
 </s>
-<s id="ParlaMint-EE_2022-06-17_U13-P2.10">
+<s id="ParlaMint-EE_2022-06-17_U13-P2.10" senti_3="Neutral" senti_6="neutral postive" senti_n="2.951">
 Kohaloleku	Kohaloleku	kohal_olek	NOUN	Case=Gen Number=Sing	1	nmod	kontroll	NOUN	Case=Nom Number=Sing	2
 kontroll	kontroll	kontroll	NOUN	Case=Nom Number=Sing	2	root	-	-	-	-
 <g/>
@@ -749,9 +749,9 @@ kontroll	kontroll	kontroll	NOUN	Case=Nom Number=Sing	2	root	-	-	-	-
 </p>
 </speech>
 <note type="speaker" content="Jüri Ratas"/>
-<speech id="ParlaMint-EE_2022-06-17_U14" text_id="ParlaMint-EE_2022-06-17" subcorpus="COVID,War" lang="eesti" body="Ühekojaline parlament" term="XIV Riigikogu" session="extraordinary session" meeting="-" sitting="2022-06-17" agenda="-" date="2022-06-17" title="XIV Riigikogu, Riigikogu erakorraline istungjärk Reede, 17.06.2022, 09:00" speaker_role="Juhataja" speaker_id="j_ratas_19780702" speaker_name="Ratas, Jüri" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KE" speaker_party_name="Keskerakond" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1978">
+<speech id="ParlaMint-EE_2022-06-17_U14" text_id="ParlaMint-EE_2022-06-17" subcorpus="COVID,War" lang="eesti" body="Ühekojaline parlament" term="XIV Riigikogu" session="extraordinary session" meeting="-" sitting="2022-06-17" agenda="-" date="2022-06-17" title="XIV Riigikogu, Riigikogu erakorraline istungjärk Reede, 17.06.2022, 09:00" speaker_role="Juhataja" topic="Other" speaker_id="j_ratas_19780702" speaker_name="Ratas, Jüri" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KE" speaker_party_name="Keskerakond" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1978">
 <p id="ParlaMint-EE_2022-06-17_U14-P1" lang="eesti">
-<s id="ParlaMint-EE_2022-06-17_U14-P1.1">
+<s id="ParlaMint-EE_2022-06-17_U14-P1.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.693">
 Kohale	Kohale	kohale	ADV	-	1	advmod	registreeruma	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	2
 registreerus	registreerus	registreeruma	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	2	root	-	-	-	-
 25	25	25	NUM	Case=Nom NumForm=Digit NumType=Card Number=Sing	3	nummod	liige	NOUN	Case=Par Number=Sing	5
@@ -764,7 +764,7 @@ liiget	liiget	liige	NOUN	Case=Par Number=Sing	5	nsubj	registreeruma	VERB	Mood=In
 puudub	puudub	puuduma	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	7	conj	registreeruma	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	2
 76.	76.	76.	ADJ	NumForm=Digit NumType=Ord	8	obl	puuduma	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	7
 </s>
-<s id="ParlaMint-EE_2022-06-17_U14-P1.2">
+<s id="ParlaMint-EE_2022-06-17_U14-P1.2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.519">
 Head	Head	hea	ADJ	Case=Nom Degree=Pos Number=Plur	1	amod	ameti_kaaslane	NOUN	Case=Nom Number=Plur	2
 ametikaaslased	ametikaaslased	ameti_kaaslane	NOUN	Case=Nom Number=Plur	2	nsubj	tähendama	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	15
 <g/>
@@ -796,7 +796,7 @@ lõppenud	lõppenud	lõppema	VERB	Tense=Past VerbForm=Part Voice=Act	23	acl	see	
 <g/>
 .	.	.	PUNCT	-	24	punct	tähendama	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	15
 </s>
-<s id="ParlaMint-EE_2022-06-17_U14-P1.3">
+<s id="ParlaMint-EE_2022-06-17_U14-P1.3" senti_3="Positive" senti_6="positive" senti_n="4.982">
 Aitäh	Aitäh	aitäh	INTJ	-	1	discourse	sina	PRON	Case=All Number=Plur Person=2 PronType=Prs	2
 teile	teile	sina	PRON	Case=All Number=Plur Person=2 PronType=Prs	2	root	-	-	-	-
 <g/>

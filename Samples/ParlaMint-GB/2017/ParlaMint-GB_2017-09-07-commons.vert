@@ -1,12 +1,12 @@
 <note type="head" content="Membership of the European Economic Area"/>
-<speech id="ParlaMint-GB_2017-09-07-commons.u1" text_id="ParlaMint-GB_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="2017-09-07" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" speaker_id="StephenKinnock" speaker_name="Kinnock, Stephen Nathan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LAB" speaker_party_name="Labour" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2017-09-07-commons.u1" text_id="ParlaMint-GB_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="2017-09-07" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" topic="International Affairs" speaker_id="StephenKinnock" speaker_name="Kinnock, Stephen Nathan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LAB" speaker_party_name="Labour" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2017-09-07-commons.seg1" lang="English">
-<s id="ParlaMint-GB_2017-09-07-commons.seg1.1">
+<s id="ParlaMint-GB_2017-09-07-commons.seg1.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.767">
 1	1	1	X	-	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	1	X	-	1
 </s>
-<s id="ParlaMint-GB_2017-09-07-commons.seg1.2">
+<s id="ParlaMint-GB_2017-09-07-commons.seg1.2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.723">
 What	What	what	DET	PronType=Int	1	det	discussion	NOUN	Number=Plur	2
 discussions	discussions	discussion	NOUN	Number=Plur	2	obj	have	VERB	Tense=Past VerbForm=Part	5
 he	he	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	3	nsubj	have	VERB	Tense=Past VerbForm=Part	5
@@ -38,9 +38,9 @@ EEA	EEA	EEA	PROPN	Number=Sing	22	nmod	membership	NOUN	Number=Sing	19
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-GB_2017-09-07-commons.u2" text_id="ParlaMint-GB_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="2017-09-07" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" speaker_id="DavidDavis" speaker_name="Davis, David Michael" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2017-09-07-commons.u2" text_id="ParlaMint-GB_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="2017-09-07" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" topic="International Affairs" speaker_id="DavidDavis" speaker_name="Davis, David Michael" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2017-09-07-commons.seg2" lang="English">
-<s id="ParlaMint-GB_2017-09-07-commons.seg2.1">
+<s id="ParlaMint-GB_2017-09-07-commons.seg2.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.411">
 The	The	the	DET	Definite=Def PronType=Art	1	det	Kingdom	PROPN	Number=Sing	3
 United	United	United	PROPN	Number=Sing	2	compound	Kingdom	PROPN	Number=Sing	3
 Kingdom	Kingdom	Kingdom	PROPN	Number=Sing	3	nsubj	participate	VERB	VerbForm=Inf	7
@@ -61,7 +61,7 @@ Union	Union	Union	PROPN	Number=Sing	17	obj	leave	VERB	Mood=Ind Tense=Pres VerbFo
 <g/>
 .	.	.	PUNCT	-	18	punct	participate	VERB	VerbForm=Inf	7
 </s>
-<s id="ParlaMint-GB_2017-09-07-commons.seg2.2">
+<s id="ParlaMint-GB_2017-09-07-commons.seg2.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.426">
 The	The	the	DET	Definite=Def PronType=Art	1	det	Kingdom	PROPN	Number=Sing	3
 United	United	United	PROPN	Number=Sing	2	compound	Kingdom	PROPN	Number=Sing	3
 Kingdom	Kingdom	Kingdom	PROPN	Number=Sing	3	nsubj	party	NOUN	Number=Sing	6
@@ -103,7 +103,7 @@ UK	UK	UK	PROPN	Number=Sing	35	nmod	respect	NOUN	Number=Sing	32
 <g/>
 .	.	.	PUNCT	-	36	punct	party	NOUN	Number=Sing	6
 </s>
-<s id="ParlaMint-GB_2017-09-07-commons.seg2.3">
+<s id="ParlaMint-GB_2017-09-07-commons.seg2.3" senti_3="Negative" senti_6="mixed negative" senti_n="1.055">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	1	nsubj	have	VERB	VerbForm=Inf	5
 will	will	will	VERB	VerbForm=Fin	2	aux	have	VERB	VerbForm=Inf	5
 no	no	no	ADV	-	3	advmod	longer	ADV	-	4
@@ -119,7 +119,7 @@ Kingdom	Kingdom	Kingdom	PROPN	Number=Sing	12	nmod	relevance	NOUN	Number=Sing	8
 <g/>
 .	.	.	PUNCT	-	13	punct	have	VERB	VerbForm=Inf	5
 </s>
-<s id="ParlaMint-GB_2017-09-07-commons.seg2.4">
+<s id="ParlaMint-GB_2017-09-07-commons.seg2.4" senti_3="Neutral" senti_6="neutral postive" senti_n="2.765">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	1	nsubj	consider	VERB	Tense=Pres VerbForm=Part	3
 are	are	be	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	aux	consider	VERB	Tense=Pres VerbForm=Part	3
 considering	considering	consider	VERB	Tense=Pres VerbForm=Part	3	root	-	-	-	-
@@ -157,9 +157,9 @@ law	law	law	NOUN	Number=Sing	29	nmod	matter	NOUN	Number=Sing	26
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-GB_2017-09-07-commons.u581" text_id="ParlaMint-GB_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="2017-09-07" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" speaker_id="RobertBlackman" speaker_name="Blackman, Robert John" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2017-09-07-commons.u581" text_id="ParlaMint-GB_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="2017-09-07" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" topic="Government Operations" speaker_id="RobertBlackman" speaker_name="Blackman, Robert John" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2017-09-07-commons.seg958" lang="English">
-<s id="ParlaMint-GB_2017-09-07-commons.seg958.1">
+<s id="ParlaMint-GB_2017-09-07-commons.seg958.1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.331">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	thank	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 thank	thank	thank	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 the	the	the	DET	Definite=Def PronType=Art	3	det	Minister	PROPN	Number=Sing	4
@@ -216,9 +216,9 @@ assets	assets	asset	NOUN	Number=Plur	49	nmod	sale	NOUN	Number=Sing	46
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-GB_2017-09-07-commons.u582" text_id="ParlaMint-GB_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="2017-09-07" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" speaker_id="MarcusJones" speaker_name="Jones, Marcus Charles" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2017-09-07-commons.u582" text_id="ParlaMint-GB_2017-09-07-commons" subcorpus="Reference" lang="English" body="Lower house" term="57" session="-" meeting="2017-09-07" sitting="2017-09-07" agenda="-" date="2017-09-07" title="Minutes of the House of Commons, Daily Session 2017-09-07" speaker_role="Regular" topic="Mix" speaker_id="MarcusJones" speaker_name="Jones, Marcus Charles" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2017-09-07-commons.seg959" lang="English">
-<s id="ParlaMint-GB_2017-09-07-commons.seg959.1">
+<s id="ParlaMint-GB_2017-09-07-commons.seg959.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.326">
 As	As	as	ADP	-	1	mark	know	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 my	my	my	DET	Number=Sing Person=1 Poss=Yes PronType=Prs	2	nmod:poss	friend	NOUN	Number=Sing	4
 hon.	hon.	hon.	PROPN	Number=Sing	3	compound	friend	NOUN	Number=Sing	4
@@ -250,7 +250,7 @@ obtained	obtained	obtain	VERB	Tense=Past VerbForm=Part Voice=Pass	27	ccomp	sell	
 <g/>
 .	.	.	PUNCT	-	28	punct	cover	VERB	Tense=Past VerbForm=Part	12
 </s>
-<s id="ParlaMint-GB_2017-09-07-commons.seg959.2">
+<s id="ParlaMint-GB_2017-09-07-commons.seg959.2" senti_3="Negative" senti_6="mixed negative" senti_n="0.993">
 In	In	in	ADP	-	1	case	sense	NOUN	Number=Sing	3
 this	this	this	DET	Number=Sing PronType=Dem	2	det	sense	NOUN	Number=Sing	3
 sense	sense	sense	NOUN	Number=Sing	3	obl	ask	VERB	Mood=Ind Tense=Past VerbForm=Fin	6
@@ -288,7 +288,7 @@ made	made	make	VERB	Tense=Past VerbForm=Part Voice=Pass	33	ccomp	inform	VERB	Ten
 </s>
 </p>
 <p id="ParlaMint-GB_2017-09-07-commons.seg960" lang="English">
-<s id="ParlaMint-GB_2017-09-07-commons.seg960.1">
+<s id="ParlaMint-GB_2017-09-07-commons.seg960.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 On	On	on	ADP	-	1	case	note	NOUN	Number=Sing	3
 that	that	that	DET	Number=Sing PronType=Dem	2	det	note	NOUN	Number=Sing	3
 note	note	note	NOUN	Number=Sing	3	obl	bring	VERB	VerbForm=Inf	7
@@ -321,7 +321,7 @@ date	date	date	NOUN	Number=Sing	28	obl	meet	VERB	VerbForm=Ger	18
 </s>
 </p>
 <p id="ParlaMint-GB_2017-09-07-commons.seg961" lang="English">
-<s id="ParlaMint-GB_2017-09-07-commons.seg961.1">
+<s id="ParlaMint-GB_2017-09-07-commons.seg961.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.786">
 Question	Question	question	NOUN	Number=Sing	1	compound	put	NOUN	Number=Sing	2
 put	put	put	NOUN	Number=Sing	2	root	-	-	-	-
 and	and	and	CCONJ	-	3	cc	agree	VERB	Mood=Ind Tense=Past VerbForm=Fin	4

@@ -38,10 +38,18 @@
                <resp xml:lang="de">Metadaten und Übersetzung</resp>
                <resp xml:lang="en">Metadata and translation</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="de">CLARIN-ERIC</orgName>
                <orgName xml:lang="en">CLARIN-ERIC (Common Language Resources and Technology Infrastructure—European Research Infrastructure Consortium)</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="de">ÖAW (Österreichische Akademie der Wissenschaften)</orgName>
@@ -50,7 +58,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="321" xml:lang="de">321 Äußerungen</measure>
@@ -64,13 +72,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-19">2025-06-19</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -119,10 +127,12 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-19">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-02">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
          <change when="2023-07-14">
-            <name>Hannes Pirker</name> : Converted from source HTML to TEI.</change>
+            <name>Hannes Pirker</name>: Converted from source HTML to TEI.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war">
@@ -141,7 +151,7 @@
                <time when="2022-10-12T10:04:24+02:00">10:04:24</time>
             </note>
             <note type="speaker" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178.note5">Präsident Mag. Wolfgang Sobotka</note>
-            <u who="#PAD_88386" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e4759" ana="#chair">
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e4759" ana="#chair topic:other">
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200">Meine sehr geehrten Damen und Herren, ich darf die 178. Sitzung des Nationalrates für eröffnet erklären. Ich darf Sie, werte Abgeordnete, recht herzlich begrüßen. Ich freue mich über die zahlreichen Besucherinnen und Besucher auf der Galerie und über die Anwesenheit der Damen und Herren von den Medien. Ich grüße die Damen und Herren, die die Sitzung heute zu Hause vor dem Bildschirm verfolgen. Mein besonderer Gruß gilt dem Herrn Bundespräsidenten, dem ich auch von dieser Stelle herzlich zu seiner Wiederwahl gratulieren darf. <kinesic type="applause" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178.kinesic1">
                      <desc>Allgemeiner Beifall.</desc>
                   </kinesic>
@@ -155,7 +165,7 @@
             </note>
             <note type="speaker" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178.note9">Abgeordneter Mag. Jörg Leichtfried (SPÖ)</note>
             <note type="procedural" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178.note10">zur Geschäftsbehandlung</note>
-            <u who="#PAD_22694" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e4802" ana="#regular">
+            <u who="#PAD_22694" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e4802" ana="#regular topic:gover">
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221">Herr Präsident! Herr Bundespräsident! Geschätzte Damen und Herren von der Bundesregierung! Es ist mir eine große Freude, dass Sie einmal in so großer Zahl unser Haus beehren. Das ist auch der Grund meiner Wortmeldung, denn das ist sonst in der Regel nicht der Fall. <vocal type="interruption" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178.vocal1">
                      <desc>Oje-Rufe bei der ÖVP.</desc>
                   </vocal>
@@ -182,7 +192,7 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#PAD_88386" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27485" ana="#chair">
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27485" ana="#chair topic:other">
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8972">Wir kommen zu den verlegten Abstimmungen.</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974">Können wir abstimmen? SPÖ? Grüne? NEOS? FPÖ? ÖVP?</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976">Wir gelangen zu Tagesordnungspunkt 38: Antrag des Ausschusses für Familie und Jugend, seinen Bericht 1693 der Beilagen zur Kenntnis zu nehmen.</seg>
@@ -199,7 +209,7 @@
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8995">Einlauf</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178.note1178">Präsident Mag. Wolfgang Sobotka</note>
-            <u who="#PAD_88386" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27551" ana="#chair">
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27551" ana="#chair topic:other">
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9000">Ich darf bekannt geben, dass in der heutigen Sitzung die Selbständigen Anträge 2842/A(E) bis 2873/A(E) eingebracht worden sind.</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002">Die nächste Sitzung des Nationalrates berufe ich für Donnerstag, den 13. Oktober 2022, um 9 Uhr ein. Die Tagesordnung ist auf schriftlichem Weg ergangen.</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9004">Ich bedanke mich bei der Frau Bundesminister.</seg>

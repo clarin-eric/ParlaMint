@@ -1,8 +1,8 @@
 <note type="time" content="14.03"/>
 <note type="president" content="Mustafa Şentop"/>
-<speech id="tbmm-2018-11-01sit01spe0001par0001" text_id="ParlaMint-TR-en_2018-11-01-tbmm-T27" subcorpus="Reference" lang="English" body="Unicameralism" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="The Turkish parliamentary corpus ParlaMint-TR-en, Term 27, Year 2, Session 13" speaker_role="Chairperson" speaker_id="Mustafa.Şentop" speaker_name="Şentop, Mustafa" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Justice and Development Party" party_status="Coalition" party_orientation="Right" speaker_gender="M" speaker_birth="1968">
+<speech id="tbmm-2018-11-01sit01spe0001par0001" text_id="ParlaMint-TR-en_2018-11-01-tbmm-T27" subcorpus="Reference" lang="English" body="Unicameralism" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="The Turkish parliamentary corpus ParlaMint-TR-en, Term 27, Year 2, Session 13" speaker_role="Chairperson" topic="Other" speaker_id="Mustafa.Şentop" speaker_name="Şentop, Mustafa" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Justice and Development Party" party_status="Coalition" party_orientation="Right" speaker_gender="M" speaker_birth="1968">
 <p id="tbmm-2018-11-01sit01spe0001par0001.seg0" lang="English">
-<s id="tbmm-2018-11-01sit01spe0001par0001-000010">
+<s id="tbmm-2018-11-01sit01spe0001par0001-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.335">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 am	am	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 opening	opening	open	VERB	Tense=Pres VerbForm=Part	A1.1.1,T2+	A1.1.1	A1.1.1: General actions / making	t3
@@ -23,7 +23,7 @@ Turkey	Turkey	Turkey	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t13
 </s>
 </p>
 <p id="tbmm-2018-11-01sit01spe0001par0002.seg1" lang="English">
-<s id="tbmm-2018-11-01sit01spe0001par0002-000010">
+<s id="tbmm-2018-11-01sit01spe0001par0002-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.235">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -42,7 +42,7 @@ negotiations	negotiations	negotiation	NOUN	Number=Plur	Q2.2	Q2.2	Q2.2: Speech ac
 </s>
 </p>
 <p id="tbmm-2018-11-01sit01spe0001par0003.seg2" lang="English">
-<s id="tbmm-2018-11-01sit01spe0001par0003-000010">
+<s id="tbmm-2018-11-01sit01spe0001par0003-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.782">
 Before	Before	before	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 go	go	go	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	M1,A2.1+,A1.1.1,A9-,A1.8+,Q2.1,N6+,I2.2,A1.1.2,T2-,S3.2,A6.3+,B2-/X1%,B1%	M1	M1: Moving, coming and going	t3
@@ -71,7 +71,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	Q1.2/X7+	Q1.2 X7p	Q1.2: Paper documents an
 </s>
 </p>
 <p id="tbmm-2018-11-01sit01spe0001par0004.seg3" lang="English">
-<s id="tbmm-2018-11-01sit01spe0001par0004-000010">
+<s id="tbmm-2018-11-01sit01spe0001par0004-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.843">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 first	first	first	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t2
 out	out	out	ADP	-	M6	M6	M6: Location and direction	t3
@@ -121,7 +121,7 @@ Agreement	Agreement	agreement	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </s>
 </p>
 <p id="tbmm-2018-11-01sit01spe0001par0005.seg4" lang="English">
-<s id="tbmm-2018-11-01sit01spe0001par0005-000010">
+<s id="tbmm-2018-11-01sit01spe0001par0005-000010" senti_3="Positive" senti_6="mixed positive" senti_n="4.019">
 Here	Here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 go	go	go	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	M1,A2.1+,A1.1.1,A9-,A1.8+,Q2.1,N6+,I2.2,A1.1.2,T2-,S3.2,A6.3+,B2-/X1%,B1%	M1	M1: Moving, coming and going	t3
@@ -137,7 +137,7 @@ Seçekaya	Seçekaya	Seçekaya	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t
 </p>
 <note type="kinesic:applause" content="AC PARTY APPLAUSE"/>
 <p id="tbmm-2018-11-01sit01spe0001par0007.seg5" lang="English">
-<s id="tbmm-2018-11-01sit01spe0001par0007-000010">
+<s id="tbmm-2018-11-01sit01spe0001par0007-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="3.425">
 Your	Your	you	PRON	Person=2 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 time	time	time	NOUN	Number=Sing	T1,T1.2,T1.3,T1.1.2,N6,N1,K2,G2.1@	T1	T1: Time	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -148,9 +148,9 @@ minutes	minutes	minute	NOUN	Number=Plur	T1.3,Q1.2	T1.3	T1.3: Time: Period	t5
 </s>
 </p>
 </speech>
-<speech id="tbmm-2018-11-01sit01spe0002par0011" text_id="ParlaMint-TR-en_2018-11-01-tbmm-T27" subcorpus="Reference" lang="English" body="Unicameralism" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="The Turkish parliamentary corpus ParlaMint-TR-en, Term 27, Year 2, Session 13" speaker_role="Regular" speaker_id="Zafer.Sırakaya" speaker_name="Sırakaya, Zafer" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Justice and Development Party" party_status="Coalition" party_orientation="Right" speaker_gender="M" speaker_birth="1974">
+<speech id="tbmm-2018-11-01sit01spe0002par0011" text_id="ParlaMint-TR-en_2018-11-01-tbmm-T27" subcorpus="Reference" lang="English" body="Unicameralism" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="The Turkish parliamentary corpus ParlaMint-TR-en, Term 27, Year 2, Session 13" speaker_role="Regular" topic="Mix" speaker_id="Zafer.Sırakaya" speaker_name="Sırakaya, Zafer" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Justice and Development Party" party_status="Coalition" party_orientation="Right" speaker_gender="M" speaker_birth="1974">
 <p id="tbmm-2018-11-01sit01spe0002par0011.seg0" lang="English">
-<s id="tbmm-2018-11-01sit01spe0002par0011-000010">
+<s id="tbmm-2018-11-01sit01spe0002par0011-000010" senti_3="Positive" senti_6="mixed positive" senti_n="4.396">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr.	Mr.	Mr.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -206,7 +206,7 @@ hearts	hearts	heart	NOUN	Number=Plur	B1,M6,A11.1+,E1,X5.2+	B1	B1: Anatomy and ph
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t42
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0011-000020">
+<s id="tbmm-2018-11-01sit01spe0002par0011-000020" senti_3="Positive" senti_6="positive" senti_n="4.665">
 Although	Although	although	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -246,7 +246,7 @@ community	community	community	NOUN	Number=Sing	S5+c	S5p	S5+: Belonging to a grou
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0011-000030">
+<s id="tbmm-2018-11-01sit01spe0002par0011-000030" senti_3="Negative" senti_6="negative" senti_n="0.450">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -293,7 +293,7 @@ wagons	wagons	wagon	NOUN	Number=Plur	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Goo
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0011-000040">
+<s id="tbmm-2018-11-01sit01spe0002par0011-000040" senti_3="Neutral" senti_6="neutral positive" senti_n="3.148">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
 stories	stories	story	NOUN	Number=Plur	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t2
@@ -320,7 +320,7 @@ over	over	over	ADV	-	Z5	Z5	Z5: Grammatical bin	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0011-000050">
+<s id="tbmm-2018-11-01sit01spe0002par0011-000050" senti_3="Negative" senti_6="negative" senti_n="0.136">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 immigration	immigration	immigration	NOUN	Number=Sing	M1/M7	M1 M7	M1: Moving, coming and going|M7: Places	t3
@@ -355,7 +355,7 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t24
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0011-000060">
+<s id="tbmm-2018-11-01sit01spe0002par0011-000060" senti_3="Negative" senti_6="negative" senti_n="-0.067">
 Because	Because	because	SCONJ	-	Z5/A2.2	Z5 A2.2	Z5: Grammatical bin|A2.2: Cause	t1
 many	many	many	ADJ	Degree=Pos	N5+	N5p	N5+: Quantities: many/much	t2
 miles	miles	mile	NOUN	Number=Plur	N3.3,N3.3+,N3.7,N5+,A13.2	N3.3	N3.3: Measurement: Distance	t3
@@ -391,7 +391,7 @@ time	time	time	NOUN	Number=Sing	T1.1.1,T1.1.2	T1.1.1	T1.1.1: Time: Past	t29
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t30
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0011-000070">
+<s id="tbmm-2018-11-01sit01spe0002par0011-000070" senti_3="Negative" senti_6="negative" senti_n="-0.000">
 Especially	Especially	especially	ADV	-	A14	A14	A14: Exclusivizers/particularizers	t1
 before	before	before	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -446,7 +446,7 @@ period	period	period	NOUN	Number=Sing	T1.3,B1,Q3,P1/T1.3	T1.3	T1.3: Time: Period
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t41
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0011-000080">
+<s id="tbmm-2018-11-01sit01spe0002par0011-000080" senti_3="Negative" senti_6="negative" senti_n="0.249">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 fact	fact	fact	NOUN	Number=Sing	A5.2+,X2.2	A5.2p	A5.2+: Evaluation: True	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -516,7 +516,7 @@ abroad	abroad	abroad	ADV	-	M7	M7	M7: Places	t50
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t51
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0011-000090">
+<s id="tbmm-2018-11-01sit01spe0002par0011-000090" senti_3="Negative" senti_6="negative" senti_n="0.018">
 Our	Our	we	PRON	Number=Plur Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 people	people	people	NOUN	Number=Plur	S2mfc	S2	S2: People	t2
 <g/>
@@ -591,7 +591,7 @@ groucher	groucher	groucher	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t58
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t59
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0011-000100">
+<s id="tbmm-2018-11-01sit01spe0002par0011-000100" senti_3="Positive" senti_6="mixed positive" senti_n="4.432">
 This	This	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 usual	usual	usual	ADJ	Degree=Pos	A6.2+	A6.2p	A6.2+: Comparing: Usual	t2
 attitude	attitude	attitude	NOUN	Number=Sing	X2.1/E1	X2.1 E1	X2.1: Thought, belief|E1: Emotional Actions, States And Processes General	t3
@@ -616,7 +616,7 @@ abroad	abroad	abroad	ADV	-	M7	M7	M7: Places	t17
 </s>
 </p>
 <p id="tbmm-2018-11-01sit01spe0002par0012.seg1" lang="English">
-<s id="tbmm-2018-11-01sit01spe0002par0012-000010">
+<s id="tbmm-2018-11-01sit01spe0002par0012-000010" senti_3="Negative" senti_6="negative" senti_n="0.011">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 period	period	period	NOUN	Number=Sing	T1.3,B1,Q3,P1/T1.3	T1.3	T1.3: Time: Period	t3
@@ -709,7 +709,7 @@ introduced	introduced	introduce	VERB	Tense=Past VerbForm=Part Voice=Pass	S1.1.1,
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t74
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0012-000020">
+<s id="tbmm-2018-11-01sit01spe0002par0012-000020" senti_3="Neutral" senti_6="neutral positive" senti_n="2.590">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 well	well	well	ADV	Degree=Pos	A5.1+,A13.3,A7+,B2+,Z4	A5.1p	A5.1+: Evaluation: Good	t3
@@ -737,7 +737,7 @@ countries	countries	country	NOUN	Number=Plur	M7	M7	M7: Places	t20
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0012-000030">
+<s id="tbmm-2018-11-01sit01spe0002par0012-000030" senti_3="Positive" senti_6="mixed positive" senti_n="3.995">
 <name type="PER">
 Busenaleyh	Busenaleyh	Busenaleyh	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t1
 <g/>
@@ -796,7 +796,7 @@ culture	culture	culture	NOUN	Number=Sing	C1,S1.1.1,S5+,L1	C1	C1: Arts and crafts
 </s>
 </p>
 <p id="tbmm-2018-11-01sit01spe0002par0013.seg2" lang="English">
-<s id="tbmm-2018-11-01sit01spe0002par0013-000010">
+<s id="tbmm-2018-11-01sit01spe0002par0013-000010" senti_3="Positive" senti_6="mixed positive" senti_n="4.481">
 Consultation	Consultation	consultation	NOUN	Number=Sing	Q2.1,B3,X2.3	Q2.1	Q2.1: Speech: Communicative	t1
 reforms	reforms	reform	NOUN	Number=Plur	A2.1+	A2.1p	A2.1+: Change	t2
 <g/>
@@ -896,7 +896,7 @@ PARTC	PARTC	partc	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t84
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t85
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0013-000020">
+<s id="tbmm-2018-11-01sit01spe0002par0013-000020" senti_3="Neutral" senti_6="neutral negative" senti_n="1.853">
 One	One	one	NUM	NumForm=Word NumType=Card	N1,T3,T1.2	N1	N1: Numbers	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -950,7 +950,7 @@ perpetrators	perpetrators	perpetrator	NOUN	Number=Plur	G2.1-/S2mf	G2.1n S2	G2.1-
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t45
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0013-000030">
+<s id="tbmm-2018-11-01sit01spe0002par0013-000030" senti_3="Negative" senti_6="mixed negative" senti_n="0.584">
 Also	Also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -987,7 +987,7 @@ PKK	PKK	PKK	PROPN	Number=Sing	Z3	Z3	Z3: Other proper names	t24
 </s>
 </p>
 <p id="tbmm-2018-11-01sit01spe0002par0014.seg3" lang="English">
-<s id="tbmm-2018-11-01sit01spe0002par0014-000010">
+<s id="tbmm-2018-11-01sit01spe0002par0014-000010" senti_3="Negative" senti_6="negative" senti_n="0.200">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 observed	observed	observe	VERB	Tense=Past VerbForm=Part Voice=Pass	X3.4,Q2.1/X2.4,X2.1,G2.1+	X3.4	X3.4: Sensory: Sight	t3
@@ -1025,7 +1025,7 @@ searching	searching	searching	NOUN	Number=Sing	X2.4	X2.4	X2.4: Investigate, exam
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0014-000020">
+<s id="tbmm-2018-11-01sit01spe0002par0014-000020" senti_3="Negative" senti_6="negative" senti_n="0.066">
 As	As	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 discussed	discussed	discuss	VERB	Tense=Past VerbForm=Part	Q2.1,Q2.2	Q2.1	Q2.1: Speech: Communicative	t2
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
@@ -1073,7 +1073,7 @@ areas	areas	area	NOUN	Number=Plur	M7,A4.1,N3.6	M7	M7: Places	t32
 </s>
 </p>
 <p id="tbmm-2018-11-01sit01spe0002par0015.seg4" lang="English">
-<s id="tbmm-2018-11-01sit01spe0002par0015-000010">
+<s id="tbmm-2018-11-01sit01spe0002par0015-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="1.950">
 <name type="MISC">
 German	German	German	ADJ	Degree=Pos	Z2,Z2/Q3	Z2	Z2: Geographical names	t1
 </name>
@@ -1098,7 +1098,7 @@ discrimination	discrimination	discrimination	NOUN	Number=Sing	T1.3	T1.3	T1.3: Ti
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0015-000020">
+<s id="tbmm-2018-11-01sit01spe0002par0015-000020" senti_3="Neutral" senti_6="neutral negative" senti_n="1.967">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 sense	sense	sense	NOUN	Number=Sing	A4.1,Q3,X3,S1.2.6+,E1,X2.1,X9.1+,A8	A4.1	A4.1: Generally kinds, groups, examples	t3
@@ -1132,7 +1132,7 @@ parties	parties	party	NOUN	Number=Plur	S1.1.3+,G1.2,S1.1.3+/S2mf,S5+	S1.1.3p	S1.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0015-000030">
+<s id="tbmm-2018-11-01sit01spe0002par0015-000030" senti_3="Negative" senti_6="negative" senti_n="0.002">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 case	case	case	NOUN	Number=Sing	A4.1,O2,G2.1,B3,X4.1,Q3	A4.1	A4.1: Generally kinds, groups, examples	t2
 process	process	process	NOUN	Number=Sing	A1.1.1,X4.2	A1.1.1	A1.1.1: General actions / making	t3
@@ -1204,7 +1204,7 @@ Germany	Germany	Germany	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t52
 </s>
 </p>
 <p id="tbmm-2018-11-01sit01spe0002par0016.seg5" lang="English">
-<s id="tbmm-2018-11-01sit01spe0002par0016-000010">
+<s id="tbmm-2018-11-01sit01spe0002par0016-000010" senti_3="Positive" senti_6="mixed positive" senti_n="3.534">
 Punishment	Punishment	punishment	NOUN	Number=Sing	G2.1	G2.1	G2.1: Law and order	t1
 has	has	have	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 been	been	be	AUX	Tense=Past VerbForm=Part	A3+,Z5	A3p	A3+: Existing	t3
@@ -1227,7 +1227,7 @@ crime	crime	crime	NOUN	Number=Sing	G2.1-	G2.1n	G2.1-: Crime	t16
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="tbmm-2018-11-01sit01spe0002par0016-000020">
+<s id="tbmm-2018-11-01sit01spe0002par0016-000020" senti_3="Neutral" senti_6="neutral negative" senti_n="2.242">
 From	From	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 beginning	beginning	beginning	NOUN	Number=Sing	T2+	T2p	T2+: Time: Beginning	t3
@@ -1270,9 +1270,9 @@ prosecution	prosecution	prosecution	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Perio
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="tbmm-2018-11-01sit01spe0122par0609" text_id="ParlaMint-TR-en_2018-11-01-tbmm-T27" subcorpus="Reference" lang="English" body="Unicameralism" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="The Turkish parliamentary corpus ParlaMint-TR-en, Term 27, Year 2, Session 13" speaker_role="Regular" speaker_id="NazırCihangir.İslam" speaker_name="İslam, Nazır Cihangir" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Saadet" speaker_party_name="Felicity Party" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1959">
+<speech id="tbmm-2018-11-01sit01spe0122par0609" text_id="ParlaMint-TR-en_2018-11-01-tbmm-T27" subcorpus="Reference" lang="English" body="Unicameralism" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="The Turkish parliamentary corpus ParlaMint-TR-en, Term 27, Year 2, Session 13" speaker_role="Regular" topic="Other" speaker_id="NazırCihangir.İslam" speaker_name="İslam, Nazır Cihangir" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Saadet" speaker_party_name="Felicity Party" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1959">
 <p id="tbmm-2018-11-01sit01spe0122par0609.seg0" lang="English">
-<s id="tbmm-2018-11-01sit01spe0122par0609-000010">
+<s id="tbmm-2018-11-01sit01spe0122par0609-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.900">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t1
 said	said	say	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t2
@@ -1292,9 +1292,9 @@ ethics	ethics	ethics	NOUN	Number=Sing	G2.2c	G2.2	G2.2: General ethics	t8
 </s>
 </p>
 </speech>
-<speech id="tbmm-2018-11-01sit01spe0126par0610" text_id="ParlaMint-TR-en_2018-11-01-tbmm-T27" subcorpus="Reference" lang="English" body="Unicameralism" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="The Turkish parliamentary corpus ParlaMint-TR-en, Term 27, Year 2, Session 13" speaker_role="Chairperson" speaker_id="Mustafa.Şentop" speaker_name="Şentop, Mustafa" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Justice and Development Party" party_status="Coalition" party_orientation="Right" speaker_gender="M" speaker_birth="1968">
+<speech id="tbmm-2018-11-01sit01spe0126par0610" text_id="ParlaMint-TR-en_2018-11-01-tbmm-T27" subcorpus="Reference" lang="English" body="Unicameralism" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="The Turkish parliamentary corpus ParlaMint-TR-en, Term 27, Year 2, Session 13" speaker_role="Chairperson" topic="Other" speaker_id="Mustafa.Şentop" speaker_name="Şentop, Mustafa" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Justice and Development Party" party_status="Coalition" party_orientation="Right" speaker_gender="M" speaker_birth="1968">
 <p id="tbmm-2018-11-01sit01spe0126par0610.seg0" lang="English">
-<s id="tbmm-2018-11-01sit01spe0126par0610-000010">
+<s id="tbmm-2018-11-01sit01spe0126par0610-000010" senti_3="Neutral" senti_6="neutral negative" senti_n="1.624">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -1319,7 +1319,7 @@ ethics	ethics	ethics	NOUN	Number=Sing	G2.2c	G2.2	G2.2: General ethics	t14
 </s>
 </p>
 <p id="tbmm-2018-11-01sit01spe0126par0611.seg1" lang="English">
-<s id="tbmm-2018-11-01sit01spe0126par0611-000010">
+<s id="tbmm-2018-11-01sit01spe0126par0611-000010" senti_3="Neutral" senti_6="neutral positive" senti_n="2.766">
 Dear	Dear	dear	ADJ	Degree=Pos	E2+,I1.3+	E2p	E2+: Like	t1
 friends	friends	friend	NOUN	Number=Plur	S3.1/S2mf	S3.1 S2	S3.1: Personal relationship: General|S2: People	t2
 <g/>
@@ -1362,7 +1362,7 @@ proposals	proposals	proposal	NOUN	Number=Plur	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Spee
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="tbmm-2018-11-01sit01spe0126par0611-000020">
+<s id="tbmm-2018-11-01sit01spe0126par0611-000020" senti_3="Neutral" senti_6="neutral negative" senti_n="1.569">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2

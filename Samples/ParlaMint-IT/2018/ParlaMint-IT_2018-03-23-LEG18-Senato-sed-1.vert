@@ -1,9 +1,9 @@
 <note type="speaker" content="Presidenza del presidente provvisorio NAPOLITANO"/>
 <note type="-" content="Il senatore Napolitano, presidente provvisorio ai sensi dell'articolo 2, comma 1, del Regolamento, sale al banco presidenziale"/>
 <note type="speaker" content="PRESIDENTE"/>
-<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u1" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="18 Legislatura" session="-" meeting="-" sitting="1 Seduta" agenda="-" date="2018-03-23" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 1, giorno (2018-03-23)" speaker_role="Presidente" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
+<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u1" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="18 Legislatura" session="-" meeting="-" sitting="1 Seduta" agenda="-" date="2018-03-23" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 1, giorno (2018-03-23)" speaker_role="Presidente" topic="Other" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1" lang="italiano">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.646">
 La	La	il	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	1	det	seduta	NOUN	Gender=Fem Number=Sing	2
 seduta	seduta	seduta	NOUN	Gender=Fem Number=Sing	2	nsubj:pass	aprire	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	4
 è	è	essere	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	aux:pass	aprire	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	4
@@ -22,10 +22,10 @@ ore	ore	ora	NOUN	Gender=Fem Number=Plur	6	obl	aprire	VERB	Gender=Fem Number=Sing
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="Per l'apertura della XVIII legislatura"/>
 <note type="speaker" content="PRESIDENTE"/>
-<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u2" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="18 Legislatura" session="-" meeting="-" sitting="1 Seduta" agenda="-" date="2018-03-23" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 1, giorno (2018-03-23)" speaker_role="Presidente" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
+<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u2" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="18 Legislatura" session="-" meeting="-" sitting="1 Seduta" agenda="-" date="2018-03-23" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 1, giorno (2018-03-23)" speaker_role="Presidente" topic="Mix" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
 <note type="incident:action" content="Si leva in piedi."/>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg2" lang="italiano">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg2.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg2.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.038">
 Onorevoli	Onorevoli	onorevole	ADJ	Number=Plur	1	amod	senatrico	NOUN	Gender=Fem Number=Plur	2
 senatrici	senatrici	senatrico	NOUN	Gender=Fem Number=Plur	2	vocative	saluto	NOUN	Gender=Masc Number=Sing	10
 e	e	e	CCONJ	-	3	cc	senatore	NOUN	Gender=Masc Number=Plur	4
@@ -102,7 +102,7 @@ rappresentare	rappresentare	rappresentare	VERB	VerbForm=Inf	67	xcomp	chiamare	VE
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg3" lang="italiano">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg3.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg3.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.878">
 Questa	Questa	questo	DET	Gender=Fem Number=Sing PronType=Dem	1	det	legislatura	NOUN	Gender=Fem Number=Sing	3
 XVIII	XVIII	diciottesimo	ADJ	NumType=Ord Number=Sing	2	amod	legislatura	NOUN	Gender=Fem Number=Sing	3
 legislatura	legislatura	legislatura	NOUN	Gender=Fem Number=Sing	3	nsubj	nascere	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
@@ -142,7 +142,7 @@ scaturite	scaturite	scaturire	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Pa
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4" lang="italiano">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.747">
 Il	Il	il	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	voto	NOUN	Gender=Masc Number=Sing	2
 voto	voto	voto	NOUN	Gender=Masc Number=Sing	2	nsubj	rispecchiare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
 del	di|il	di|il	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	3|4	case|det	4	NUM	NumType=Card	5
@@ -178,7 +178,7 @@ parte	parte	parte	NOUN	Gender=Fem Number=Sing	33	obl	caratterizzare	VERB	VerbFor
 <g/>
 .	.	.	PUNCT	-	34	punct	rispecchiare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.2">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.2" senti_3="Negative" senti_6="mixed negative" senti_n="0.533">
 Si	Si	si	PRON	Clitic=Yes Person=3 PronType=Prs	1	expl	trattare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3
 è	è	essere	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	aux	trattare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3
 trattato	trattato	trattare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -211,7 +211,7 @@ Paese	Paese	paese	NOUN	Gender=Masc Number=Sing	30	nmod	governo	NOUN	Gender=Masc 
 <g/>
 .	.	.	PUNCT	-	31	punct	trattare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.3">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.3" senti_3="Negative" senti_6="mixed negative" senti_n="0.884">
 Esso	Esso	esso	PRON	Gender=Masc Number=Sing Person=3 PronType=Prs	1	nsubj	mettere	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3
 ha	ha	avere	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	aux	mettere	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3
 messo	messo	mettere	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -231,7 +231,7 @@ prevalse	prevalse	prevalere	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbFo
 <g/>
 .	.	.	PUNCT	-	16	punct	mettere	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.4">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.4" senti_3="Positive" senti_6="mixed positive" senti_n="3.721">
 Gli	Gli	il	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	1	det	elettore	NOUN	Gender=Masc Number=Plur	2
 elettori	elettori	elettore	NOUN	Gender=Masc Number=Plur	2	nsubj	premiare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 hanno	hanno	avere	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3	aux	premiare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
@@ -264,7 +264,7 @@ passato	passato	passato	NOUN	Gender=Masc Number=Sing	27	nmod	rottura	NOUN	Gender
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5" lang="italiano">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.1" senti_3="Negative" senti_6="negative" senti_n="0.402">
 La	La	il	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	1	det	contestazione	NOUN	Gender=Fem Number=Sing	2
 contestazione	contestazione	contestazione	NOUN	Gender=Fem Number=Sing	2	nsubj	scaturire	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	4
 è	è	essere	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	aux	scaturire	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	4
@@ -300,7 +300,7 @@ media	media	medio	ADJ	Gender=Fem Number=Sing	32	amod	classe	NOUN	Gender=Fem Numb
 <g/>
 .	.	.	PUNCT	-	33	punct	scaturire	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	4
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.2">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.2" senti_3="Negative" senti_6="negative" senti_n="0.050">
 In	In	in	ADP	-	1	case	modo	NOUN	Gender=Masc Number=Sing	2
 modo	modo	modo	NOUN	Gender=Masc Number=Sing	2	obl	pesare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
 particolare	particolare	particolare	ADJ	Number=Sing	3	amod	modo	NOUN	Gender=Masc Number=Sing	2
@@ -346,7 +346,7 @@ voto	voto	voto	NOUN	Gender=Masc Number=Sing	38	obl	esprimere	VERB	Gender=Fem Num
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6" lang="italiano">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.1" senti_3="Negative" senti_6="negative" senti_n="0.002">
 Sono	Sono	essere	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	1	aux	condannato	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	3
 stati	stati	essere	AUX	Gender=Masc Number=Plur Tense=Past VerbForm=Part	2	aux:pass	condannato	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	3
 condannati	condannati	condannato	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -384,7 +384,7 @@ Regioni	Regioni	regione	NOUN	Gender=Fem Number=Plur	32	obl	governante	VERB	Numbe
 <g/>
 .	.	.	PUNCT	-	33	punct	condannato	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	3
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.2">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.2" senti_3="Negative" senti_6="negative" senti_n="0.196">
 Queste	Queste	questo	DET	Gender=Fem Number=Plur PronType=Dem	1	det	reazione	NOUN	Gender=Fem Number=Plur	2
 reazioni	reazioni	reazione	NOUN	Gender=Fem Number=Plur	2	nsubj	mostrare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 hanno	hanno	avere	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3	aux	mostrare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
@@ -414,7 +414,7 @@ maggioranza	maggioranza	maggioranza	NOUN	Gender=Fem Number=Sing	25	nmod	partito	
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg7" lang="italiano">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg7.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg7.1" senti_3="Negative" senti_6="mixed negative" senti_n="0.595">
 In	In	in	ADP	-	1	case	termine	NOUN	Gender=Masc Number=Plur	2
 termini	termini	termine	NOUN	Gender=Masc Number=Plur	2	obl	contare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	7
 politici	politici	politico	ADJ	Gender=Masc Number=Plur	3	amod	termine	NOUN	Gender=Masc Number=Plur	2
@@ -469,7 +469,7 @@ allarme	allarme	allarme	NOUN	Gender=Masc Number=Sing	49	conj	insicurezza	NOUN	Ge
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8" lang="italiano">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.1" senti_3="Negative" senti_6="mixed negative" senti_n="0.583">
 Tutto	Tutto	tutto	DET	Gender=Masc Number=Sing PronType=Ind	1	det	ciò	PRON	Number=Sing PronType=Dem	2
 ciò	ciò	ciò	PRON	Number=Sing PronType=Dem	2	nsubj:pass	mettere	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 va	va	andare	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	aux:pass	mettere	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
@@ -530,7 +530,7 @@ padroneggiare	padroneggiare	padroneggiare	VERB	VerbForm=Inf	57	advcl	difficile	A
 <g/>
 .	.	.	PUNCT	-	58	punct	mettere	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.2">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.2" senti_3="Negative" senti_6="negative" senti_n="0.082">
 Da	Da	da	ADP	-	1	case	qui	ADV	-	2
 qui	qui	qui	ADV	-	2	advmod	inquietudine	NOUN	Gender=Fem Number=Sing	5
 <g/>
@@ -549,7 +549,7 @@ italiani	italiani	italiano	NOUN	Gender=Masc Number=Plur	11	obl	dilagare	VERB	Gen
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9" lang="italiano">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.1" senti_3="Positive" senti_6="positive" senti_n="4.558">
 Sulla	Su|la	su|il	ADP|DET	-|Definite=Def Gender=Fem Number=Sing PronType=Art	1|2	case|det	scena	NOUN	Gender=Fem Number=Sing	3
 scena	scena	scena	NOUN	Gender=Fem Number=Sing	3	obl	determinare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	13
 politica	politica	politico	ADJ	Gender=Fem Number=Sing	4	amod	scena	NOUN	Gender=Fem Number=Sing	3
@@ -603,7 +603,7 @@ Paese	Paese	paese	NOUN	Gender=Masc Number=Sing	54	obj	governare	VERB	VerbForm=In
 <g/>
 .	.	.	PUNCT	-	55	punct	determinare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	13
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.2">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.2" senti_3="Negative" senti_6="negative" senti_n="0.017">
 In	In	in	ADP	-	1	case	tempo	NOUN	Gender=Masc Number=Sing	3
 pari	pari	pari	ADJ	-	2	amod	tempo	NOUN	Gender=Masc Number=Sing	3
 tempo	tempo	tempo	NOUN	Gender=Masc Number=Sing	3	obl	subìre	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	17
@@ -634,7 +634,7 @@ opposizione	opposizione	opposizione	NOUN	Gender=Fem Number=Sing	27	obl	respinger
 <g/>
 .	.	.	PUNCT	-	28	punct	subìre	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	17
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.3">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.3" senti_3="Negative" senti_6="mixed negative" senti_n="0.816">
 Difficoltà	Difficoltà	difficoltà	NOUN	Gender=Fem	1	nsubj	nascere	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3
 peraltro	peraltro	peraltro	ADV	-	2	advmod	nascere	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3
 nascono	nascono	nascere	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3	root	-	-	-	-
@@ -663,7 +663,7 @@ Camere	Camere	camera	NOUN	Gender=Fem Number=Plur	28	obl	conquistare	VERB	Gender=
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10" lang="italiano">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.799">
 Occorre	Occorre	occorrere	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 comunque	comunque	comunque	ADV	-	2	advmod	occorrere	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 corrispondere	corrispondere	corrispondere	VERB	VerbForm=Inf	3	ccomp	occorrere	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
@@ -685,7 +685,7 @@ Paese	Paese	paese	NOUN	Gender=Masc Number=Sing	21	nmod	futuro	NOUN	Gender=Masc N
 <g/>
 .	.	.	PUNCT	-	22	punct	occorrere	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.2">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.962">
 Alcuni	Alcuni	alcuno	DET	Gender=Masc Number=Plur PronType=Ind	1	det	elemento	NOUN	Gender=Masc Number=Plur	2
 elementi	elementi	elemento	NOUN	Gender=Masc Number=Plur	2	nsubj	concorrere	VERB	VerbForm=Inf	4
 possono	possono	potere	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3	aux	concorrere	VERB	VerbForm=Inf	4
@@ -698,7 +698,7 @@ orizzonte	orizzonte	orizzonte	NOUN	Gender=Masc Number=Sing	8	obj	allargare	VERB	
 <g/>
 .	.	.	PUNCT	-	9	punct	concorrere	VERB	VerbForm=Inf	4
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.3">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.3" senti_3="Positive" senti_6="mixed positive" senti_n="4.067">
 Si	Si	si	PRON	Clitic=Yes Person=3 PronType=Prs	1	expl	trattare	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 tratta	tratta	trattare	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 in	in	in	ADP	-	3	case	sostanza	NOUN	Gender=Fem Number=Sing	4
@@ -718,7 +718,7 @@ Italia	Italia	Italia	PROPN	-	14	nmod	interesse	NOUN	Gender=Masc Number=Sing	10
 </name>
 .	.	.	PUNCT	-	15	punct	trattare	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.4">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.4" senti_3="Positive" senti_6="mixed positive" senti_n="3.743">
 Esso	Esso	esso	PRON	Gender=Masc Number=Sing Person=3 PronType=Prs	1	nsubj	poggiare	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 poggia	poggia	poggiare	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 innanzitutto	innanzitutto	innanzitutto	ADV	-	3	advmod	poggiare	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
@@ -742,7 +742,7 @@ europeo	europeo	europeo	ADJ	Gender=Masc Number=Sing	19	conj	italiano	ADJ	Gender=
 <g/>
 .	.	.	PUNCT	-	20	punct	poggiare	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.5">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.5" senti_3="Neutral" senti_6="neutral negative" senti_n="1.585">
 Per	Per	per	ADP	-	1	case	quanto	PRON	Gender=Masc Number=Sing PronType=Rel	2
 quanto	quanto	quanto	PRON	Gender=Masc Number=Sing PronType=Rel	2	obl	dare	VERB	VerbForm=Inf	13
 <g/>
@@ -764,7 +764,7 @@ scontato	scontato	scontato	ADJ	Gender=Masc Number=Sing	18	conj	irreversibile	ADJ
 <g/>
 .	.	.	PUNCT	-	19	punct	dare	VERB	VerbForm=Inf	13
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.6">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.6" senti_3="Negative" senti_6="negative" senti_n="0.134">
 Infatti	Infatti	infatti	ADV	-	1	advmod	apparire	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	14
 <g/>
 ,	,	,	PUNCT	-	2	punct	infatti	ADV	-	1
@@ -801,7 +801,7 @@ opportunità	opportunità	opportunità	NOUN	Gender=Fem	29	conj	idealità	NOUN	Ge
 <g/>
 .	.	.	PUNCT	-	30	punct	apparire	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	14
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.7">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.7" senti_3="Neutral" senti_6="neutral postive" senti_n="3.477">
 È	È	essere	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	aux	apparire	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	2
 apparsa	apparsa	apparire	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	2	root	-	-	-	-
 segnata	segnata	segnare	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	3	xcomp	apparire	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	2
@@ -854,7 +854,7 @@ globale	globale	globale	ADJ	Number=Sing	45	amod	mondo	NOUN	Gender=Masc Number=Si
 <g/>
 .	.	.	PUNCT	-	46	punct	apparire	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	2
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.8">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.8" senti_3="Neutral" senti_6="neutral postive" senti_n="2.918">
 Con	Con	con	ADP	-	1	case	istituzione	NOUN	Gender=Fem Number=Plur	3
 le	le	il	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	2	det	istituzione	NOUN	Gender=Fem Number=Plur	3
 Istituzioni	Istituzioni	istituzione	NOUN	Gender=Fem Number=Plur	3	obl	avere	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	15
@@ -896,7 +896,7 @@ Europa	Europa	Europa	PROPN	-	34	obl	breve	ADJ	Number=Sing	32
 </name>
 .	.	.	PUNCT	-	35	punct	avere	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	15
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.9">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.9" senti_3="Neutral" senti_6="neutral negative" senti_n="2.203">
 Ma	Ma	ma	CCONJ	-	1	cc	dovere	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	32
 nel	in|il	in|il	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	2|3	case|det	quadro	NOUN	Gender=Masc Number=Sing	4
 quadro	quadro	quadro	NOUN	Gender=Masc Number=Sing	4	obl	dovere	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	32
@@ -958,7 +958,7 @@ dissolvano	dissolvano	dissolvere	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp Ve
 <g/>
 .	.	.	PUNCT	-	58	punct	dovere	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	32
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.10">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.10" senti_3="Negative" senti_6="mixed negative" senti_n="0.716">
 Conquiste	Conquiste	Conquiste	NOUN	Gender=Fem Number=Plur	1	root	-	-	-	-
 di	di	di	ADP	-	2	case	pace	NOUN	Gender=Fem Number=Sing	3
 pace	pace	pace	NOUN	Gender=Fem Number=Sing	3	nmod	Conquiste	NOUN	Gender=Fem Number=Plur	1
@@ -999,7 +999,7 @@ pace	pace	pace	NOUN	Gender=Fem Number=Sing	32	nmod	conquista	NOUN	Gender=Fem Num
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg11" lang="italiano">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg11.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg11.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.343">
 Fare	Fare	fare	VERB	VerbForm=Inf	1	csubj	interesse	NOUN	Gender=Masc Number=Sing	11
 i	i	il	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	2	det	conte	NOUN	Gender=Masc Number=Plur	3
 conti	conti	conte	NOUN	Gender=Masc Number=Plur	3	obj	fare	VERB	VerbForm=Inf	1
@@ -1046,7 +1046,7 @@ Parlamento	Parlamento	parlamento	NOUN	Gender=Masc Number=Sing	32	obl	rappresenta
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12" lang="italiano">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.529">
 Aggiungo	Aggiungo	aggiungere	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 che	che	che	SCONJ	-	2	mark	violenza	NOUN	Gender=Fem Number=Sing	41
 <g/>
@@ -1088,7 +1088,7 @@ violenza	violenza	violenza	NOUN	Gender=Fem Number=Sing	41	ccomp	aggiungere	VERB	
 <g/>
 .	.	.	PUNCT	-	42	punct	aggiungere	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.2">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.2" senti_3="Negative" senti_6="mixed negative" senti_n="1.468">
 Occorre	Occorre	occorrere	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 scongiurare	scongiurare	scongiurare	VERB	VerbForm=Inf	2	ccomp	occorrere	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 la	la	il	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	3	det	violenza	NOUN	Gender=Fem Number=Sing	4
@@ -1105,7 +1105,7 @@ forme	forme	forma	NOUN	Gender=Fem Number=Plur	13	conj	motivazione	NOUN	Gender=Fe
 <g/>
 .	.	.	PUNCT	-	14	punct	occorrere	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.3">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.3" senti_3="Negative" senti_6="negative" senti_n="0.031">
 Sappiamo	Sappiamo	sapere	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 dove	dove	dove	ADV	-	2	advmod	condurre	VERB	VerbForm=Inf	4
 possono	possono	potere	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3	aux	condurre	VERB	VerbForm=Inf	4
@@ -1117,7 +1117,7 @@ violenza	violenza	violenza	NOUN	Gender=Fem Number=Sing	8	nmod	spirale	NOUN	Gende
 <g/>
 .	.	.	PUNCT	-	9	punct	sapere	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.4">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.4" senti_3="Neutral" senti_6="neutral postive" senti_n="2.984">
 Non	Non	non	ADV	PronType=Neg	1	advmod	dimenticare	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	2
 dimentichiamo	dimentichiamo	dimenticare	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 gli	gli	il	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	3	det	anno	NOUN	Gender=Masc Number=Plur	4
@@ -1126,7 +1126,7 @@ Settanta	Settanta	settanta	NUM	NumType=Card	5	nummod	anno	NOUN	Gender=Masc Numbe
 <g/>
 .	.	.	PUNCT	-	6	punct	dimenticare	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.5">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.5" senti_3="Negative" senti_6="negative" senti_n="0.153">
 Abbiamo	Abbiamo	avere	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	aux	ricordare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3
 appena	appena	appena	ADV	-	2	advmod	ricordare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3
 ricordato	ricordato	ricordare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -1163,7 +1163,7 @@ uccisione	uccisione	uccisione	NOUN	Gender=Fem Number=Sing	31	compound	barbara	NO
 <g/>
 .	.	.	PUNCT	-	32	punct	ricordare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.6">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.6" senti_3="Positive" senti_6="positive" senti_n="5.077">
 Ci	Ci	ci	PRON	Clitic=Yes PronType=Prs	1	expl	restare	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 resta	resta	restare	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 e	e	e	CCONJ	-	3	cc	essere	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
@@ -1192,7 +1192,7 @@ dialogo	dialogo	dialogo	NOUN	Gender=Masc Number=Sing	24	conj	libertà	NOUN	Gende
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg13" lang="italiano">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg13.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg13.1" senti_3="Negative" senti_6="mixed negative" senti_n="0.565">
 Il	Il	il	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	confronto	NOUN	Gender=Masc Number=Sing	2
 confronto	confronto	confronto	NOUN	Gender=Masc Number=Sing	2	nsubj:pass	liberare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
 politico	politico	politico	ADJ	Gender=Masc Number=Sing	3	amod	confronto	NOUN	Gender=Masc Number=Sing	2
@@ -1232,7 +1232,7 @@ Italia	Italia	Italia	PROPN	-	29	obj	dominare	VERB	Gender=Masc Number=Sing Tense=
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14" lang="italiano">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.1" senti_3="Positive" senti_6="positive" senti_n="4.721">
 Infine	Infine	infine	ADV	-	1	advmod	essere	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 è	è	essere	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 da	da	da	ADP	-	3	mark	considerare	VERB	VerbForm=Inf	4
@@ -1279,7 +1279,7 @@ Paese	Paese	paese	NOUN	Gender=Masc Number=Sing	48	nmod	deriva	NOUN	Gender=Fem Nu
 <g/>
 .	.	.	PUNCT	-	49	punct	essere	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.2">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.2" senti_3="Positive" senti_6="positive" senti_n="4.692">
 Di	Di	di	ADP	-	1	case	certo	ADV	-	2
 certo	certo	certo	ADV	-	2	advmod	essenziale	ADJ	Number=Plur	18
 per	per	per	ADP	-	3	mark	aprire	VERB	VerbForm=Inf	4
@@ -1342,7 +1342,7 @@ fiducia	fiducia	fiducia	NOUN	Gender=Fem Number=Sing	56	conj	stima	NOUN	Gender=Fe
 </p>
 <note type="kinesic:applause" content="Generali applausi"/>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg15" lang="italiano">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg15.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg15.1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.423">
 Onorevoli	Onorevoli	onorevole	ADJ	Number=Plur	1	amod	senatrico	NOUN	Gender=Fem Number=Plur	2
 senatrici	senatrici	senatrico	NOUN	Gender=Fem Number=Plur	2	nsubj	porre	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
 e	e	e	CCONJ	-	3	cc	senatore	NOUN	Gender=Masc Number=Plur	4
@@ -1393,7 +1393,7 @@ democrazia	democrazia	democrazia	NOUN	Gender=Fem Number=Sing	42	obj	rendere	VERB
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16" lang="italiano">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.350">
 La	La	il	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	1	det	riforma	NOUN	Gender=Fem Number=Sing	3
 prima	prima	primo	ADJ	Gender=Fem NumType=Ord Number=Sing	2	amod	riforma	NOUN	Gender=Fem Number=Sing	3
 riforma	riforma	riforma	NOUN	Gender=Fem Number=Sing	3	nsubj	quello	PRON	Gender=Fem Number=Sing PronType=Dem	7
@@ -1447,7 +1447,7 @@ Governo	Governo	governo	NOUN	Gender=Masc Number=Sing	47	nmod	forma	NOUN	Gender=F
 <g/>
 .	.	.	PUNCT	-	48	punct	quello	PRON	Gender=Fem Number=Sing PronType=Dem	7
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.2">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.2" senti_3="Positive" senti_6="mixed positive" senti_n="4.142">
 Questa	Questa	questo	PRON	Gender=Fem Number=Sing PronType=Dem	1	nsubj	essere	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	2
 fu	fu	essere	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	2	root	-	-	-	-
 <g/>
@@ -1468,7 +1468,7 @@ costituente	costituente	costituente	ADJ	Number=Sing	13	amod	assemblea	NOUN	Gende
 </name>
 .	.	.	PUNCT	-	14	punct	scelta	NOUN	Gender=Fem Number=Sing	8
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.3">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.3" senti_3="Negative" senti_6="negative" senti_n="0.467">
 Nostro	Nostro	nostro	DET	Gender=Masc Number=Sing Poss=Yes PronType=Prs	1	det:poss	dovere	NOUN	Gender=Masc Number=Sing	2
 dovere	dovere	dovere	NOUN	Gender=Masc Number=Sing	2	nsubj	essere	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 è	è	essere	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	root	-	-	-	-
@@ -1486,7 +1486,7 @@ alternativa	alternativa	alternativa	NOUN	Gender=Fem Number=Sing	12	obj	presentar
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg17" lang="italiano">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg17.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg17.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.931">
 Nel	In|il	in|il	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	1|2	case|det	solco	NOUN	Gender=Masc Number=Sing	3
 solco	solco	solco	NOUN	Gender=Masc Number=Sing	3	obl	mettere	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	33
 ideale	ideale	ideale	ADJ	Number=Sing	4	amod	solco	NOUN	Gender=Masc Number=Sing	3
@@ -1527,7 +1527,7 @@ prova	prova	prova	NOUN	Gender=Fem Number=Sing	37	obl	mettere	VERB	Gender=Fem Num
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg18" lang="italiano">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg18.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg18.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.902">
 Grazie	Grazie	grazie	NOUN	-	1	root	-	-	-	-
 per	per	per	ADP	-	2	case	attenzione	NOUN	Gender=Fem Number=Sing	4
 l'	l'	il	DET	Definite=Def Number=Sing PronType=Art	3	det	attenzione	NOUN	Gender=Fem Number=Sing	4
@@ -1540,9 +1540,9 @@ attenzione	attenzione	attenzione	NOUN	Gender=Fem Number=Sing	4	nmod	grazie	NOUN	
 <note type="kinesic:applause" content="Generali applausi."/>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u15" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="18 Legislatura" session="-" meeting="-" sitting="1 Seduta" agenda="-" date="2018-03-23" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 1, giorno (2018-03-23)" speaker_role="Presidente" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
+<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u15" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="18 Legislatura" session="-" meeting="-" sitting="1 Seduta" agenda="-" date="2018-03-23" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 1, giorno (2018-03-23)" speaker_role="Presidente" topic="Other" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg55" lang="italiano">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg55.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg55.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.185">
 Le	Le	il	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	1	det	mozione	NOUN	Gender=Fem Number=Plur	2
 mozioni	mozioni	mozione	NOUN	Gender=Fem Number=Plur	2	nsubj:pass	pubblicare	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Part	12
 <g/>
@@ -1571,9 +1571,9 @@ odierna	odierna	odierno	ADJ	Gender=Fem Number=Sing	23	amod	seduta	NOUN	Gender=Fe
 </speech>
 <note type="head" content="Ordine del giorno per la seduta di sabato 24 marzo 2018"/>
 <note type="speaker" content="PRESIDENTE"/>
-<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u16" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="18 Legislatura" session="-" meeting="-" sitting="1 Seduta" agenda="-" date="2018-03-23" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 1, giorno (2018-03-23)" speaker_role="Presidente" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
+<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u16" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="18 Legislatura" session="-" meeting="-" sitting="1 Seduta" agenda="-" date="2018-03-23" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 1, giorno (2018-03-23)" speaker_role="Presidente" topic="Other" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56" lang="italiano">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.650">
 Il	Il	il	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	Senato	PROPN	-	2
 <name type="ORG">
 Senato	Senato	Senato	PROPN	-	2	nsubj	tornare	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	3
@@ -1606,7 +1606,7 @@ giorno	giorno	giorno	NOUN	Gender=Masc Number=Sing	27	nmod	ordine	NOUN	Gender=Mas
 <g/>
 :	:	:	PUNCT	-	28	punct	tornare	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	3
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.2">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.652">
 (	(	(	PUNCT	-	1	punct	vedere	VERB	Mood=Imp Number=Sing Person=2 Tense=Pres VerbForm=Fin	2
 <g/>
 Vedi	Vedi	vedere	VERB	Mood=Imp Number=Sing Person=2 Tense=Pres VerbForm=Fin	2	advcl	togliere	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	11

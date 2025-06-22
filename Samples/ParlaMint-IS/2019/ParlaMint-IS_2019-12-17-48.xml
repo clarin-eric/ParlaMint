@@ -15,9 +15,13 @@
                <resp xml:lang="is">Söfnun og úrvinnsla texta. TEI-kóðun.</resp>
                <resp xml:lang="en">Collection and processing of texts. TEI encoding.</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="words" quantity="20952" xml:lang="en">20,952 words</measure>
@@ -29,13 +33,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="is">Þessi texti er gefinn út með <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-17">2025-06-17</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,17 +80,19 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-17">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-18">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
-            <u who="#SteingrimurSigfusson" xml:id="ParlaMint-IS_2019-12-17-48.u1" ana="#chair" source="http://www.althingi.is/altext/raeda/150/rad20191217T152133.html">
+            <u who="#SteingrimurSigfusson" xml:id="ParlaMint-IS_2019-12-17-48.u1" ana="#chair topic:other" source="http://www.althingi.is/altext/raeda/150/rad20191217T152133.html">
                <seg xml:id="ParlaMint-IS_2019-12-17-48.seg1">Samkomulag er um fyrirkomulag umræðunnar og skiptingu ræðutíma milli þingflokka. Gert er ráð fyrir að umræðan standi í u.þ.b. eina klukkustund. Forsætisráðherra hefur tíu mínútur til framsögu og tvær mínútur í lok umræðunnar. Í upphafi umræðunnar verða leyfð andsvör úr þingflokkum stjórnarandstöðunnar við ræðu ráðherra.</seg>
             </u>
-            <u who="#KatrinJakobsdottir" xml:id="ParlaMint-IS_2019-12-17-48.u2" ana="#regular" source="http://www.althingi.is/altext/raeda/150/rad20191217T152210.html">
+            <u who="#KatrinJakobsdottir" xml:id="ParlaMint-IS_2019-12-17-48.u2" ana="#regular topic:envir" source="http://www.althingi.is/altext/raeda/150/rad20191217T152210.html">
                <seg xml:id="ParlaMint-IS_2019-12-17-48.seg2">Herra forseti. Ég þakka hæstv. forseta og Alþingi fyrir að fá þetta tækifæri til að fara yfir stöðu mála í kjölfar þess aftakaveðurs sem hér geisaði í síðustu viku frá 10.–11. desember sl. Það er ekki ofsögum sagt þegar við tölum um aftakaveður en fram hefur komið, m.a. hjá Einari Sveinbjörnssyni veðurfræðingi, að horfa þurfi allt aftur til ársins 1973 til að sjá sambærilegt veður, norðanveður með seltu þar sem þrýstingur yfir landinu er sambærilegur, en slíkt veður gekk yfir landið í febrúar í miðju Heimaeyjargosinu. Annað slíkt veður var árið 1965 en í því veðri gaf Dalvíkurlínan þáverandi sig einnig. Önnur norðanveður með seltu sem gengið hafa yfir landið voru þó ekki jafn slæm en þó má nefna fjárfellisveðrið árið 2012 þegar ísing hlóðst á línur og margir rafmagnsstaurar gáfu sig.</seg>
                <seg xml:id="ParlaMint-IS_2019-12-17-48.seg3">Fram hefur komið sömuleiðis að Landsnet hefur aldrei fengið viðlíka seltu og ísingu á spennuvirki í Hrútatungu sem hefur verið til í núverandi mynd frá árinu 1980, sem er til marks um að þetta var ekkert venjulegt veður. En það breytir því ekki að veðrið minnir okkur á hvar við búum, að við getum alltaf átt von á slíkum veðrum og verðum að vera undirbúin þegar þau ganga yfir, jafnvel þó að þau séu sem betur fer á ekki hverjum degi.</seg>
                <seg xml:id="ParlaMint-IS_2019-12-17-48.seg4">Ég vil fyrst segja að það er alltaf skelfilegt þegar slík veður valda mannskaða. Það varð í þessu veðri og slíkt tjón verður auðvitað aldrei bætt. Það er auðvitað það versta sem getur gerst í viðlíka veðri. En það liggur líka fyrir að tjónið á hinum veraldlegu þáttum er verulegt vegna rafmagnsleysis fyrst og fremst, kælingar á húsum, foktjón sömuleiðis töluvert, matur skemmdist í matvöruverslunum. En um leið vil ég segja, eftir að hafa farið í heimsóknir á Norðurland í lok síðustu viku, að sjálfsögðu ekki hitt alla þá aðila sem þar komu að málum en marga þeirra, að það er alveg ljóst að við eigum alveg ótrúlegan kraft í samfélagi okkar því að viðbragðsaðilar unnu margir hverjir þrekvirki í sínum störfum, voru linnulaust við þau sólarhringum saman og unnu í raun og veru kraftaverk. Um leið þurfum við að horfast í augu við það að þetta veður og afleiðingar þess afhjúpaði veikleika í innviðum okkar sem við verðum að bregðast við og mun ég núna rekja það.</seg>
@@ -105,10 +111,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#SteingrimurSigfusson" xml:id="ParlaMint-IS_2019-12-17-48.u64" ana="#chair" source="http://www.althingi.is/altext/raeda/150/rad20191217T183252.html">
+            <u who="#SteingrimurSigfusson" xml:id="ParlaMint-IS_2019-12-17-48.u64" ana="#chair topic:other" source="http://www.althingi.is/altext/raeda/150/rad20191217T183252.html">
                <seg xml:id="ParlaMint-IS_2019-12-17-48.seg191">Ég þakka hv. 6. þm. Suðvest., Gunnari Braga Sveinssyni, fyrir góð orð. Ég þakka hv. alþingismönnum fyrir að taka undir orð hans og endurtek einnig þakkir mínar og óskir til hv. þingmanna og alls starfsfólks Alþingis.</seg>
             </u>
-            <u who="#KatrinJakobsdottir" xml:id="ParlaMint-IS_2019-12-17-48.u65" ana="#regular" source="http://www.althingi.is/altext/raeda/150/rad20191217T183315.html">
+            <u who="#KatrinJakobsdottir" xml:id="ParlaMint-IS_2019-12-17-48.u65" ana="#regular topic:other" source="http://www.althingi.is/altext/raeda/150/rad20191217T183315.html">
                <seg xml:id="ParlaMint-IS_2019-12-17-48.seg192">„Forseti Íslands gjörir kunnugt:</seg>
                <seg xml:id="ParlaMint-IS_2019-12-17-48.seg193">Að ég, að tilskildu samþykki Alþingis, veiti forsætisráðherra umboð til þess að fresta fundum Alþingis, 150. löggjafarþings, frá 16. desember 2019 eða síðar, ef nauðsyn krefur, til 20. janúar 2020.</seg>
                <seg xml:id="ParlaMint-IS_2019-12-17-48.seg194">Gjört í Reykjavík, 13. desember 2019.</seg>

@@ -42,9 +42,25 @@
                <resp xml:lang="it">Riconoscimento Entità Nominate</resp>
                <resp xml:lang="en">NER</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="it">Commissione Europea</orgName>
@@ -64,7 +80,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="200" unit="speeches" xml:lang="it">200 discorsi</measure>
@@ -78,13 +94,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref> .</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-16">2025-06-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -111,6 +127,7 @@
                <tagUsage gi="kinesic" occurs="11"/>
                <tagUsage gi="link" occurs="22645"/>
                <tagUsage gi="linkGrp" occurs="886"/>
+               <tagUsage gi="measure" occurs="886"/>
                <tagUsage gi="name" occurs="476"/>
                <tagUsage gi="note" occurs="209"/>
                <tagUsage gi="pc" occurs="2899"/>
@@ -134,8 +151,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference" xml:lang="it">
@@ -143,9 +162,10 @@
          <div type="debateSection">
             <note type="speaker" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.note1">Presidenza della vice presidente FEDELI</note>
             <note type="speaker" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.note2">PRESIDENTE</note>
-            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.u1">
+            <u ana="#chair topic:other" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.u1">
                <seg xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1">
                   <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.1">
+                     <measure type="sentiment" quantity="3.678" ana="senti:mixpos" corresp="#ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.1"/>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.1.1" lemma="il" pos="RD" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">La</w>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.1.2" lemma="seduta" pos="S" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">seduta</w>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.1.3" lemma="essere" pos="VA" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">è</w>
@@ -168,6 +188,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.2">
+                     <measure type="sentiment" quantity="2.730" ana="senti:neupos" corresp="#ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.2"/>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.2.1" lemma="si" pos="PC" msd="UPosTag=PRON|Clitic=Yes|Person=3|PronType=Prs">Si</w>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.2.2" lemma="dare" pos="V" msd="UPosTag=VERB|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">dia</w>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.2.3" lemma="lettura" pos="S" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">lettura</w>
@@ -187,6 +208,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3">
+                     <measure type="sentiment" quantity="2.770" ana="senti:neupos" corresp="#ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3"/>
                      <name type="PER">
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3.1" lemma="amato" pos="A" msd="UPosTag=ADJ|Gender=Masc|Number=Plur" join="right">AMATI</w>
                      </name>
@@ -236,9 +258,10 @@
          <div type="debateSection">
             <head xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.head1">Sul processo verbale</head>
             <note type="speaker" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.note3">SANTANGELO (M5S)</note>
-            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.u2">
+            <u ana="#regular topic:other" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.u2">
                <seg xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2">
                   <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2.1">
+                     <measure type="sentiment" quantity="2.888" ana="senti:neupos" corresp="#ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2.1"/>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2.1.1" lemma="domare" pos="V" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">Domando</w>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2.1.2" lemma="di" pos="E" msd="UPosTag=ADP">di</w>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2.1.3" lemma="parlare" pos="V" msd="UPosTag=VERB|VerbForm=Inf" join="right">parlare</w>
@@ -257,9 +280,10 @@
             </gap>
          </div>
          <div type="debateSection">
-            <u ana="#regular" who="#DiBiagioAldo" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.u199">
+            <u ana="#regular topic:immig" who="#DiBiagioAldo" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.u199">
                <seg xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288">
                   <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.1">
+                     <measure type="sentiment" quantity="2.743" ana="senti:neupos" corresp="#ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.1"/>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.1.1" lemma="di" pos="E" msd="UPosTag=ADP">DI</w>
                      <name type="PER">
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.1.2" lemma="biagio" pos="SP" msd="UPosTag=PROPN">BIAGIO</w>
@@ -290,6 +314,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2">
+                     <measure type="sentiment" quantity="0.036" ana="senti:negneg" corresp="#ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2"/>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.1" lemma="signore" pos="S" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">Signor</w>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.2" lemma="presidente" pos="S" msd="UPosTag=NOUN|Number=Sing" join="right">Presidente</w>
 <pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2.3" pos="FF" msd="UPosTag=PUNCT">,</pc>
@@ -378,6 +403,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3">
+                     <measure type="sentiment" quantity="0.089" ana="senti:negneg" corresp="#ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3"/>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.1" lemma="sfuggire" pos="V" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" join="right">Sfugge</w>
 <pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.2" pos="FF" msd="UPosTag=PUNCT">,</pc>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3.3" lemma="però" pos="B" msd="UPosTag=ADV" join="right">però</w>
@@ -453,6 +479,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4">
+                     <measure type="sentiment" quantity="0.148" ana="senti:negneg" corresp="#ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4"/>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.1" lemma="il" pos="RD" msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art" join="right">L'</w>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.2" lemma="attualità" pos="S" msd="UPosTag=NOUN|Gender=Fem">attualità</w>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4.3" lemma="stare" pos="VA" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">sta</w>
@@ -606,6 +633,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5">
+                     <measure type="sentiment" quantity="1.578" ana="senti:neuneg" corresp="#ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5"/>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.1" lemma="uno" pos="RI" msd="UPosTag=DET|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art">Un</w>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.2" lemma="esempio" pos="S" msd="UPosTag=NOUN|Gender=Masc|Number=Sing">esempio</w>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5.3" lemma="tra" pos="E" msd="UPosTag=ADP">tra</w>
@@ -667,6 +695,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6">
+                     <measure type="sentiment" quantity="0.147" ana="senti:negneg" corresp="#ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6"/>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.1" lemma="questo" pos="DD" msd="UPosTag=DET|Number=Sing|PronType=Dem" join="right">Quest'</w>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.2" lemma="ultimo" pos="A" msd="UPosTag=ADJ|Gender=Fem|Number=Sing" join="right">ultima</w>
 <pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6.3" pos="FF" msd="UPosTag=PUNCT">,</pc>
@@ -782,6 +811,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7">
+                     <measure type="sentiment" quantity="0.119" ana="senti:negneg" corresp="#ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7"/>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.1" lemma="pertanto" pos="B" msd="UPosTag=ADV" join="right">Pertanto</w>
 <pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.2" pos="FF" msd="UPosTag=PUNCT">,</pc>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7.3" lemma="ci" pos="PC" msd="UPosTag=PRON|Clitic=Yes|Number=Plur|Person=1|PronType=Prs">ci</w>
@@ -835,6 +865,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8">
+                     <measure type="sentiment" quantity="0.017" ana="senti:negneg" corresp="#ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8"/>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.1" lemma="credere" pos="V" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">Credo</w>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.2" lemma="essere" pos="VA" msd="UPosTag=AUX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">sia</w>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8.3" lemma="davvero" pos="B" msd="UPosTag=ADV">davvero</w>
@@ -938,9 +969,10 @@
          <div type="debateSection">
             <head xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.head6">Mozioni, interpellanze e interrogazioni, annunzio</head>
             <note type="speaker" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.note209">PRESIDENTE</note>
-            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.u200">
+            <u ana="#chair topic:other" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.u200">
                <seg xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289">
                   <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1">
+                     <measure type="sentiment" quantity="2.185" ana="senti:neuneg" corresp="#ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1"/>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.1" lemma="il" pos="RD" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Plur|PronType=Art">Le</w>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.2" lemma="mozione" pos="S" msd="UPosTag=NOUN|Gender=Fem|Number=Plur" join="right">mozioni</w>
 <pc xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1.3" pos="FF" msd="UPosTag=PUNCT">,</pc>
@@ -991,6 +1023,7 @@
                </seg>
                <seg xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290">
                   <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1">
+                     <measure type="sentiment" quantity="2.290" ana="senti:neuneg" corresp="#ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1"/>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.1" lemma="ricordare" pos="V" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">Ricordo</w>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.2" lemma="che" pos="CS" msd="UPosTag=SCONJ">che</w>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1.3" lemma="il" pos="RD" msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art">il</w>
@@ -1048,6 +1081,7 @@
                </seg>
                <seg xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291">
                   <s xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291.1">
+                     <measure type="sentiment" quantity="3.042" ana="senti:neupos" corresp="#ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291.1"/>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291.1.1" lemma="il" pos="RD" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art">La</w>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291.1.2" lemma="seduta" pos="S" msd="UPosTag=NOUN|Gender=Fem|Number=Sing">seduta</w>
 <w xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291.1.3" lemma="essere" pos="VA" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">è</w>

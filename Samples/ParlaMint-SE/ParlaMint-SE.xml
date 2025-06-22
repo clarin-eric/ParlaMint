@@ -14,18 +14,26 @@
                <persName>Johan Jarlbrink</persName>
                <resp xml:lang="en">Data retrieval, curation and conversion to TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="84662" xml:lang="en">84,662 speeches</measure>
             <measure unit="speeches" quantity="84662" xml:lang="sv">84,662 tal</measure>
-            <measure unit="words" quantity="28980081" xml:lang="en">28,980,081 words</measure>
-            <measure unit="words" quantity="28980081" xml:lang="sv">28,980,081 ord</measure>
+            <measure unit="words" quantity="29016159" xml:lang="en">29,016,159 words</measure>
+            <measure unit="words" quantity="29016159" xml:lang="sv">29,016,159 ord</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -37,7 +45,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-01">2025-06-01</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -89,7 +97,13 @@
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-subcorpus.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-CHES.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-politicalOrientation.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-topic.xml"/>
          </classDecl>
+         <listPrefixDef>
+            <prefixDef ident="topic" matchPattern="(.+)" replacementPattern="#$1">
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the Topic taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+         </listPrefixDef>
       </encodingDesc>
       <profileDesc>
          <settingDesc>
@@ -116,8 +130,12 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-01">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-01">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2025-05-29">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+         <change when="2025-06-01">parlamint-add-common-content script: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-SE_2017-12-12-prot-201718--48.xml"/>

@@ -20,9 +20,17 @@
                <resp xml:lang="pl">Pobieranie danych i konwersja do TEI</resp>
                <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="pl">Infrastruktura naukowa CLARIN ERIC</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="pl">Komisja Europejska</orgName>
@@ -38,7 +46,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="394" xml:lang="pl">394 wypowiedzi</measure>
@@ -52,13 +60,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="pl">Ten utwór jest dostępny na <ref target="http://creativecommons.org/licenses/by/4.0/">międzynarodowej licencji Creative Commons Attribution 4.0</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-05-31">2025-05-31</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -104,8 +112,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2024-07-02">
+         <change when="2025-05-31">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-28">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
          <change when="2023-03-28">
             <name>Michał Rudolf</name>: Generated corpus in Parla-CLARIN.</change>
       </revisionDesc>
@@ -117,7 +127,7 @@
             <note type="time" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.note1">Wznowienie posiedzenia o godz. 9</note>
             <note type="debate" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.note2">Na posiedzeniu przewodniczą marszałek Sejmu Elżbieta Witek oraz wicemarszałkowie Ryszard Terlecki, Małgorzata Gosiewska, Małgorzata Kidawa-Błońska i Piotr Zgorzelski</note>
             <note type="speaker" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.note3">Wicemarszałek Ryszard Terlecki:</note>
-            <u who="#RyszardTerlecki" ana="#chair" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.u1">
+            <u who="#RyszardTerlecki" ana="#chair topic:other" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.u1">
                <seg xml:id="seg963379">Wznawiam posiedzenie.</seg>
                <seg xml:id="seg963380">Na sekretarzy dzisiejszych obrad powołuję posłów Paulinę Matysiak, Aleksandrę Szczudło, Konrada Frysztaka i Daniela Milewskiego.</seg>
                <seg xml:id="seg963381">W pierwszej części obrad sekretarzami będą posłowie Aleksandra Szczudło i Daniel Milewski.</seg>
@@ -125,7 +135,7 @@
                <seg xml:id="seg963383">Proszę panią poseł sekretarz o odczytanie komunikatów.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.note4">Sekretarz Poseł Aleksandra Szczudło:</note>
-            <u who="#AleksandraSzczudło" ana="#regular" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.u2">
+            <u who="#AleksandraSzczudło" ana="#regular topic:other" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.u2">
                <seg xml:id="seg963384">Informuję, że w dniu dzisiejszym odbędą się następujące posiedzenia Komisji:</seg>
                <seg xml:id="seg963385">- Edukacji, Nauki i Młodzieży - godz. 9,</seg>
                <seg xml:id="seg963386">- Finansów Publicznych - godz. 9,</seg>
@@ -152,12 +162,12 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#MałgorzataNiemczyk" ana="#regular" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.u393">
+            <u who="#MałgorzataNiemczyk" ana="#regular topic:educa" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.u393">
                <seg xml:id="seg965343">W dniu 23 czerwca 2022 r. oświadczam, że w związku z problemami technicznymi nie mogłam oddać prawidłowo głosu podczas głosowania na 57. posiedzeniu Sejmu - głosowanie nr 54 - Sprawozdanie Komisji Edukacji, Nauki i Młodzieży o rządowym projekcie ustawy o zmianie ustawy - Karta Nauczyciela oraz niektórych innych ustaw (druki nr 2351, 2357, 2357-A) - głosowanie nad całością projektu ustawy.</seg>
                <seg xml:id="seg965344">Moją intencją było oddanie głosu przeciw, lecz w wyniku problemów został on zaliczony przez system jako za.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.note400">Poseł Krzysztof Sobolewski:</note>
-            <u who="#KrzysztofSobolewski" ana="#regular" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.u394">
+            <u who="#KrzysztofSobolewski" ana="#regular topic:defen" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.u394">
                <seg xml:id="seg965345">Pani Marszałek! Wysoka Izbo! 230 lat temu 22 czerwca 1792 r. król Stanisław August Poniatowski po zwycięstwie w bitwie pod Zieleńcami, w czasie wojny w obronie Konstytucji 3 maja, ustanowił Order Virtuti Militari. W ciągu kolejnych ponad 200 lat honorowano nim bohaterów wszystkich wojen w obronie polskiej suwerenności.</seg>
                <seg xml:id="seg965346">Panie i Panowie Posłowie! Do tej pory najwyższe polskie odznaczenie wojskowe otrzymało ok. 26 tys. osób. Otrzymywali go kościuszkowscy, powstańcy: listopadowi, styczniowi, wielkopolscy, śląscy i warszawscy, uczestnicy walk o niepodległość Polski, wojny polsko-bolszewickiej, kampanii 1939 r., żołnierze Polskich Sił Zbrojnych na Zachodzie i Armii Krajowej. Najmłodszym kawalerem orderu jest 13-letni Antek Petrykiewicz, który został śmiertelnie ranny podczas walk o Lwów w 1918 r., a pierwszą kobietą Joanna Żubrowa, żołnierz Armii Księstwa Warszawskiego.</seg>
                <seg xml:id="seg965347">Panie i Panowie Posłowie! Od 1989 r. Order Virtuti Militari nie jest przyznawany. W ustawie z 1992 r. ustalono, że będzie on nadawany wyłącznie w czasie wojny lub nie później niż przez 5 lat od jej zakończenia. Skomplikowane dzieje tego odznaczenia odzwierciedlają zmienne i tragiczne losy Polski.</seg>

@@ -24,23 +24,39 @@
                <resp xml:lang="en">Scientific supervisor</resp>
             </respStmt>
             <respStmt>
-               <persName>Taja Kuzman</persName>
-               <persName>Nikola Ljubešić</persName>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
                <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
             </respStmt>
             <respStmt>
-               <persName>Paul Rayson</persName>
-               <persName>Matthew Coole</persName>
-               <persName>John Vidler</persName>
+               <persName ref="https://orcid.org/0000-0002-1257-2191">Paul Rayson</persName>
+               <persName ref="https://orcid.org/0000-0002-9279-931X">Matthew Coole</persName>
+               <persName ref="https://orcid.org/0000-0003-3442-6862">John Vidler</persName>
                <resp xml:lang="en">Annotating MTed corpora with USAS semantic tags</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
             </respStmt>
             <funder>
                <orgName xml:lang="el">Γλωσσική ερευνητική υποδομή CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure xml:lang="el" unit="speeches" quantity="386">386 ομιλίες</measure>
@@ -54,13 +70,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1910</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2006</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
                <p>Το παρόν έργο διέπεται από την άδεια <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-20">2025-06-20</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -86,6 +102,7 @@
                <tagUsage gi="head" occurs="6"/>
                <tagUsage gi="incident" occurs="1"/>
                <tagUsage gi="kinesic" occurs="78"/>
+               <tagUsage gi="measure" occurs="4043"/>
                <tagUsage gi="name" occurs="2422"/>
                <tagUsage gi="note" occurs="393"/>
                <tagUsage gi="pc" occurs="11063"/>
@@ -114,8 +131,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-20">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid">
@@ -132,9 +151,10 @@
             </gap>
             <note xml:id="ParlaMint-GR_2022-02-01-S1-commons.ana.note1" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.ana.note1">Athens, today 1 February 2022, Tuesday at 10.10p., the House met in the Chamber of Parliament's sittings to meet under the chairmanship of the First Vice President of the House, Mr. Nikita Kaklamanis.</note>
             <note type="speaker" xml:id="ParlaMint-GR_2022-02-01-S1-commons.ana.note2" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.ana.note2">REFERENCES (NATIONAL KAYMAN):</note>
-            <u xml:id="ParlaMint-GR_2022-02-01-S1-commons.u1" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.u1">
+            <u xml:id="ParlaMint-GR_2022-02-01-S1-commons.u1" ana="#chair topic:civil" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.u1">
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg1" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg1">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg1.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg1.1">
+                     <measure type="sentiment" quantity="3.670" ana="senti:mixpos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg1.1"/>
                      <phr type="sem" function="T1.3" ana="sem:T1.3">
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg1.1.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="lady" function="T1.3" ana="sem:T1.3">Ladies</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg1.1.t2" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
@@ -150,6 +170,7 @@
                <note xml:id="ParlaMint-GR_2022-02-01-S1-commons.ana.note3" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.ana.note3">Note: The following table of contents is not the final text because rationalisation and editorial corrections are pending</note>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg2" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg2">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg2.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg2.1">
+                     <measure type="sentiment" quantity="2.904" ana="senti:neupos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg2.1"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg2.1.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg2.1.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg2.1.t3" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
@@ -218,6 +239,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg2.1.t48" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg2.2" n="2" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg2.2">
+                     <measure type="sentiment" quantity="2.854" ana="senti:neupos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg2.2"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg2.2.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg2.2.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="party" function="S1.1.3+,G1.2,S1.1.3+/S2mf,S5+" ana="sem:S1.1.3p" join="right">parties</w>
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg2.2.t3" pos="Z" msd="UPosTag=PUNCT" function="Z5" ana="sem:Z5">'</pc>
@@ -233,6 +255,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg3" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg3">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg3.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg3.1">
+                     <measure type="sentiment" quantity="5.211" ana="senti:pospos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg3.1"/>
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg3.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">"</pc>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg3.1.t2" pos="WRB" msd="UPosTag=SCONJ|PronType=Int" lemma="where" function="M6" ana="sem:M6">Where</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg3.1.t3" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">there</w>
@@ -245,6 +268,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg3.1.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg3.2" n="2" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg3.2">
+                     <measure type="sentiment" quantity="5.672" ana="senti:pospos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg3.2"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg3.2.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
                      <phr type="sem" function="A5.4+" ana="sem:A5.4p">
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg3.2.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="fill" function="A5.4+" ana="sem:A5.4p">fills</w>
@@ -264,6 +288,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg3.2.t13" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">"</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg3.3" n="3" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg3.3">
+                     <measure type="sentiment" quantity="4.313" ana="senti:mixpos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg3.3"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg3.3.t1" pos="IN" msd="UPosTag=ADP" lemma="with" function="Z5" ana="sem:Z5">With</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg3.3.t2" pos="DT" msd="UPosTag=DET|Number=Plur|PronType=Dem" lemma="this" function="Z5,Z8" ana="sem:Z5">these</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg3.3.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="wonderful" function="A5.1+" ana="sem:A5.1p">wonderful</w>
@@ -329,6 +354,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg4" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg4">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg4.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg4.1">
+                     <measure type="sentiment" quantity="2.194" ana="senti:neuneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg4.1"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg4.1.t1" pos="CD" msd="UPosTag=NUM|NumForm=Word|NumType=Card" lemma="seventy" function="N1,T3,T1.2" ana="sem:N1" join="right">Seventy</w>
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg4.1.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">-</pc>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg4.1.t3" pos="CD" msd="UPosTag=NUM|NumForm=Word|NumType=Card" lemma="seven" function="N1,T3,T1.2" ana="sem:N1">seven</w>
@@ -381,6 +407,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg4.1.t38" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg4.2" n="2" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg4.2">
+                     <measure type="sentiment" quantity="0.345" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg4.2"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg4.2.t1" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">However</w>
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg4.2.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg4.2.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -405,6 +432,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg4.2.t20" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg4.3" n="3" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg4.3">
+                     <measure type="sentiment" quantity="0.034" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg4.3"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg4.3.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">In</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg4.3.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg4.3.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="next" function="N4" ana="sem:N4">next</w>
@@ -465,6 +493,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg5" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg5">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg5.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg5.1">
+                     <measure type="sentiment" quantity="0.053" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg5.1"/>
                      <phr type="sem" function="N3.8,T4" ana="sem:N3.8">
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg5.1.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="N3.8,T4" ana="sem:N3.8">In</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg5.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="time" function="N3.8,T4" ana="sem:N3.8">time</w>
@@ -497,6 +526,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg5.1.t22" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg5.2" n="2" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg5.2">
+                     <measure type="sentiment" quantity="0.131" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg5.2"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg5.2.t1" pos="IN" msd="UPosTag=ADP" lemma="from" function="Z5" ana="sem:Z5">From</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg5.2.t2" pos="RB" msd="UPosTag=ADV|PronType=Dem" lemma="there" function="M6,T1.2" ana="sem:M6" join="right">there</w>
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg5.2.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
@@ -534,6 +564,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg5.2.t31" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg5.3" n="3" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg5.3">
+                     <measure type="sentiment" quantity="0.081" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg5.3"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg5.3.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="massacre" function="L1-,S7.1+,A1.1.2" ana="sem:L1n" join="right">Massacres</w>
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg5.3.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg5.3.t3" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="expulsion" function="P1/G2.1,M2" ana="sem:P1 sem:G2.1" join="right">expulsions</w>
@@ -576,6 +607,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg6" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg6">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg6.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg6.1">
+                     <measure type="sentiment" quantity="0.116" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg6.1"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg6.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg6.1.t2" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="disastrous" function="A5.1---,X9.2-" ana="sem:A5.1n">disastrous</w>
                      <phr type="sem" function="Q1.2/I1.1" ana="sem:Q1.2 sem:I1.1">
@@ -585,6 +617,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg6.1.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg6.2" n="2" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg6.2">
+                     <measure type="sentiment" quantity="0.173" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg6.2"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg6.2.t1" pos="RB" msd="UPosTag=ADV" lemma="only" function="A14" ana="sem:A14">Only</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg6.2.t2" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
                      <name type="LOC">
@@ -612,6 +645,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg6.2.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg6.3" n="3" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg6.3">
+                     <measure type="sentiment" quantity="0.329" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg6.3"/>
                      <name type="LOC">
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg6.3.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Greece" function="Z2" ana="sem:Z2">Greece</w>
                      </name>
@@ -669,6 +703,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg7">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg7.1">
+                     <measure type="sentiment" quantity="0.104" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg7.1"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.1.t1" pos="IN" msd="UPosTag=ADP" lemma="Inside" function="Z5" ana="sem:Z5">Inside</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.1.t2" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">this</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.1.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="zombie" function="Z99" ana="sem:Z99">zombie</w>
@@ -683,6 +718,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.1.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.2" n="2" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg7.2">
+                     <measure type="sentiment" quantity="4.232" ana="senti:mixpos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg7.2"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.2.t1" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">A</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.2.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="witness" function="G2.1/S2mf,X3.4/S2mf,S9/S2mf,S9,A10+@" ana="sem:G2.1 sem:S2">witness</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.2.t3" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
@@ -747,6 +783,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.2.t50" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.3" n="3" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg7.3">
+                     <measure type="sentiment" quantity="4.446" ana="senti:mixpos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg7.3"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.3.t1" pos="IN" msd="UPosTag=SCONJ" lemma="although" function="Z5" ana="sem:Z5">Although</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.3.t2" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs" lemma="she" function="Z8f" ana="sem:Z8">she</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.3.t3" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="live" function="H4,L1+,A3" ana="sem:H4">lived</w>
@@ -789,6 +826,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.3.t34" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.4" n="4" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg7.4">
+                     <measure type="sentiment" quantity="4.804" ana="senti:pospos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg7.4"/>
                      <phr type="sem" function="Z4" ana="sem:Z4">
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.4.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z4" ana="sem:Z4">I</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.4.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="believe" function="Z4" ana="sem:Z4">believe</w>
@@ -832,6 +870,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.4.t35" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.5" n="5" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg7.5">
+                     <measure type="sentiment" quantity="5.457" ana="senti:pospos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg7.5"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.5.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg7.5.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="tireless" function="X8+,X5.2+" ana="sem:X8p">tireless</w>
                      <phr type="sem" function="T1.3" ana="sem:T1.3">
@@ -857,6 +896,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg8" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg8">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg8.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg8.1">
+                     <measure type="sentiment" quantity="4.907" ana="senti:pospos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg8.1"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg8.1.t1" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">For</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg8.1.t2" pos="DT" msd="UPosTag=DET" lemma="all" function="N5.1+" ana="sem:N5.1p">all</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg8.1.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -885,6 +925,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg8.1.t24" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg8.2" n="2" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg8.2">
+                     <measure type="sentiment" quantity="0.094" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg8.2"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg8.2.t1" pos="RB" msd="UPosTag=ADV" lemma="especially" function="A14" ana="sem:A14">Especially</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg8.2.t2" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg8.2.t3" pos="PRP" msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">us</w>
@@ -962,6 +1003,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg9" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg9">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg9.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg9.1">
+                     <measure type="sentiment" quantity="4.257" ana="senti:mixpos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg9.1"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg9.1.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5">That</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg9.1.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg9.1.t3" pos="WRB" msd="UPosTag=SCONJ|PronType=Int" lemma="why" function="A2.2" ana="sem:A2.2">why</w>
@@ -1024,6 +1066,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg9.1.t52" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg9.2" n="2" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg9.2">
+                     <measure type="sentiment" quantity="4.900" ana="senti:pospos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg9.2"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg9.2.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5">That</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg9.2.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg9.2.t3" pos="WRB" msd="UPosTag=SCONJ|PronType=Int" lemma="why" function="A2.2" ana="sem:A2.2">why</w>
@@ -1084,6 +1127,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg10" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg10">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg10.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg10.1">
+                     <measure type="sentiment" quantity="4.762" ana="senti:pospos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg10.1"/>
                      <phr type="sem" function="Z4,S1.2.4+" ana="sem:Z4">
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg10.1.t1" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="thank" function="Z4,S1.2.4+" ana="sem:Z4">Thank</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg10.1.t2" pos="PRP" msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs" lemma="you" function="Z4,S1.2.4+" ana="sem:Z4" join="right">you</w>
@@ -1096,6 +1140,7 @@
                </kinesic>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg11" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg11">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg11.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg11.1">
+                     <measure type="sentiment" quantity="3.482" ana="senti:neupos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg11.1"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg11.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8" join="right">We</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg11.1.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">'ll</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg11.1.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="proceed" function="A1.1.1,T2++,M1" ana="sem:A1.1.1">proceed</w>
@@ -1113,9 +1158,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-GR_2022-02-01-S1-commons.ana.note4" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.ana.note4">USED BUKOROS</note>
-            <u xml:id="ParlaMint-GR_2022-02-01-S1-commons.u2" ana="#regular" who="#ΜΠΟΥΚΩΡΟΣ_ΓΕΩΡΓΙΟΥ_ΧΡΗΣΤΟΣ" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.u2">
+            <u xml:id="ParlaMint-GR_2022-02-01-S1-commons.u2" ana="#regular topic:civil" who="#ΜΠΟΥΚΩΡΟΣ_ΓΕΩΡΓΙΟΥ_ΧΡΗΣΤΟΣ" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.u2">
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg12" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg12">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg12.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg12.1">
+                     <measure type="sentiment" quantity="0.109" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg12.1"/>
                      <phr type="sem" function="Z1m" ana="sem:Z1">
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg12.1.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Mr" function="Z1m" ana="sem:Z1">Mr</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg12.1.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="President" function="Z1m" ana="sem:Z1" join="right">President</w>
@@ -1151,6 +1197,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg12.1.t23" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg12.2" n="2" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg12.2">
+                     <measure type="sentiment" quantity="0.008" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg12.2"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg12.2.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="extermination" function="L1-" ana="sem:L1n" join="right">Extermination</w>
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg12.2.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg12.2.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="genocide" function="L1-/S5+" ana="sem:L1n sem:S5p" join="right">genocide</w>
@@ -1168,6 +1215,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg13" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg13">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg13.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg13.1">
+                     <measure type="sentiment" quantity="3.281" ana="senti:neupos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg13.1"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg13.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
                      <name type="MISC">
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg13.1.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="Greek" function="Z1mf,Z3c" ana="sem:Z1">Greek</w>
@@ -1227,6 +1275,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg13.1.t45" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg13.2" n="2" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg13.2">
+                     <measure type="sentiment" quantity="3.410" ana="senti:neupos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg13.2"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg13.2.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">In</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg13.2.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
                      <phr type="sem" function="T1.3,P1/S2mf" ana="sem:T1.3">
@@ -1253,6 +1302,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg14">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg14.1">
+                     <measure type="sentiment" quantity="0.434" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg14.1"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.1.t2" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
                      <phr type="sem" function="Z2,Z1mf,T1.3" ana="sem:Z2">
@@ -1312,6 +1362,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.1.t43" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.2" n="2" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg14.2">
+                     <measure type="sentiment" quantity="0.913" ana="senti:mixneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg14.2"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.2.t1" pos="RB" msd="UPosTag=ADV" lemma="about" function="A13.4,Z5,M6" ana="sem:A13.4">About</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.2.t2" pos="CD" msd="UPosTag=NUM|NumForm=Word|NumType=Card" lemma="seven" function="N1,T3,T1.2" ana="sem:N1" join="right">seven</w>
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.2.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
@@ -1356,6 +1407,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.2.t38" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.3" n="3" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg14.3">
+                     <measure type="sentiment" quantity="0.336" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg14.3"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.3.t1" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.3.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="horror" function="E5-,O4.2-,G2.2-/S2mf" ana="sem:E5n">horror</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.3.t3" pos="WDT" msd="UPosTag=PRON|PronType=Rel" lemma="that" function="A13.3,A6.1+" ana="sem:A13.3">that</w>
@@ -1375,6 +1427,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.3.t17" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.4" n="4" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg14.4">
+                     <measure type="sentiment" quantity="0.114" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg14.4"/>
                      <name type="ORG">
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.4.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="Greek" function="Z1mf,Z3c" ana="sem:Z1">Greek</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.4.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Hebrewism" function="Z1mf,Z3c" ana="sem:Z1">Hebrewism</w>
@@ -1402,6 +1455,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.4.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.5" n="5" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg14.5">
+                     <measure type="sentiment" quantity="0.311" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg14.5"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.5.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">In</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.5.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="prosecution" function="G2.1,G2.1/S5+" ana="sem:G2.1" join="right">prosecutions</w>
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.5.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
@@ -1420,6 +1474,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.5.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.6" n="6" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg14.6">
+                     <measure type="sentiment" quantity="0.471" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg14.6"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.6.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.6.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="community" function="Z2,Z3c" ana="sem:Z2">community</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.6.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z2,Z3c" ana="sem:Z2">of</w>
@@ -1434,6 +1489,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.6.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.7" n="7" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg14.7">
+                     <measure type="sentiment" quantity="4.335" ana="senti:mixpos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg14.7"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.7.t1" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">However</w>
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.7.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14.7.t3" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">there</w>
@@ -1480,6 +1536,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg15" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg15">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg15.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg15.1">
+                     <measure type="sentiment" quantity="4.352" ana="senti:mixpos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg15.1"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg15.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg15.1.t2" pos="RBS" msd="UPosTag=ADV|Degree=Sup" lemma="most" function="A13.2,N5+++" ana="sem:A13.2">most</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg15.1.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="characteristic" function="A6.2+,A4.2+" ana="sem:A6.2p">characteristic</w>
@@ -1511,6 +1568,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg15.1.t23" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg15.2" n="2" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg15.2">
+                     <measure type="sentiment" quantity="0.759" ana="senti:mixneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg15.2"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg15.2.t1" pos="WRB" msd="UPosTag=SCONJ|PronType=Int" lemma="when" function="Z5" ana="sem:Z5">When</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg15.2.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
                      <name type="MISC">
@@ -1551,6 +1609,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg15.2.t32" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg15.3" n="3" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg15.3">
+                     <measure type="sentiment" quantity="2.836" ana="senti:neupos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg15.3"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg15.3.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg15.3.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="list" function="Q1.2,N4,M4" ana="sem:Q1.2">list</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg15.3.t3" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
@@ -1567,6 +1626,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg15.3.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg15.4" n="4" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg15.4">
+                     <measure type="sentiment" quantity="4.854" ana="senti:pospos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg15.4"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg15.4.t1" pos="IN" msd="UPosTag=ADP" lemma="by" function="Z5" ana="sem:Z5">By</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg15.4.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="bravery" function="E5+" ana="sem:E5p">bravery</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg15.4.t3" pos="DT" msd="UPosTag=DET|Number=Plur|PronType=Dem" lemma="this" function="Z5,Z8" ana="sem:Z5">these</w>
@@ -1600,6 +1660,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg16">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg16.1">
+                     <measure type="sentiment" quantity="5.208" ana="senti:pospos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg16.1"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.1.t1" pos="DT" msd="UPosTag=DET" lemma="another" function="A6.1-,N5++" ana="sem:A6.1n">Another</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.1.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="glorious" function="O4.2+,E4.1+" ana="sem:O4.2p">glorious</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.1.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="example" function="A4.1" ana="sem:A4.1">example</w>
@@ -1635,6 +1696,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.1.t27" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.2" n="2" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg16.2">
+                     <measure type="sentiment" quantity="1.688" ana="senti:neuneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg16.2"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.2.t1" pos="RB" msd="UPosTag=ADV|PronType=Dem" lemma="then" function="N4,Z5,T1.2" ana="sem:N4">Then</w>
                      <name type="MISC">
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.2.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="German" function="Z1mf,Z3c" ana="sem:Z1">German</w>
@@ -1679,6 +1741,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.2.t32" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.3" n="3" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg16.3">
+                     <measure type="sentiment" quantity="4.796" ana="senti:pospos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg16.3"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.3.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.3.t2" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">were</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.3.t3" pos="RB" msd="UPosTag=ADV" lemma="too" function="N5++,N5.2+,A13.3" ana="sem:N5p">too</w>
@@ -1693,6 +1756,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.3.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.4" n="4" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg16.4">
+                     <measure type="sentiment" quantity="4.828" ana="senti:pospos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg16.4"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.4.t1" pos="IN" msd="UPosTag=ADP" lemma="as" function="Z5" ana="sem:Z5">As</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.4.t2" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.4.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="result" function="A2.2,X9.2,N2,A5.1,K5,Q1.1/A2.2" ana="sem:A2.2" join="right">result</w>
@@ -1715,6 +1779,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.4.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.5" n="5" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg16.5">
+                     <measure type="sentiment" quantity="0.384" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg16.5"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.5.t1" pos="RB" msd="UPosTag=ADV" lemma="only" function="A14" ana="sem:A14">Only</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.5.t2" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
                      <phr type="sem" function="N1,T3,T1.3" ana="sem:N1">
@@ -1748,6 +1813,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.5.t29" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.6" n="6" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg16.6">
+                     <measure type="sentiment" quantity="0.810" ana="senti:mixneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg16.6"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.6.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="loss" function="I1.2,A9-,S8-,L1-" ana="sem:I1.2">Loss</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.6.t2" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="reach" function="M1,N3.3,Q2.1,X9.2+" ana="sem:M1">reached</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.6.t3" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="26" function="N1" ana="sem:N1" join="right">26</w>
@@ -1760,6 +1826,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.6.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.7" n="7" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg16.7">
+                     <measure type="sentiment" quantity="1.431" ana="senti:mixneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg16.7"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.7.t1" pos="RB" msd="UPosTag=ADV" lemma="much" function="A13.3,N6+" ana="sem:A13.3">Much</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.7.t2" pos="JJR" msd="UPosTag=ADJ|Degree=Cmp" lemma="small" function="N3.2--,N3.7--,N5--,T3--,A11.1--,S5--/I2.1,X3.2-,A5.1--" ana="sem:N3.2n">smaller</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg16.7.t3" pos="IN" msd="UPosTag=ADP" lemma="than" function="Z5" ana="sem:Z5">than</w>
@@ -1774,6 +1841,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg17" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg17">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg17.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg17.1">
+                     <measure type="sentiment" quantity="3.301" ana="senti:neupos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg17.1"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg17.1.t1" pos="RBR" msd="UPosTag=ADV|Degree=Cmp" lemma="early" function="T4+" ana="sem:T4p" join="right">Earlier</w>
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg17.1.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
                      <phr type="sem" function="T1.3" ana="sem:T1.3">
@@ -1803,6 +1871,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg17.1.t23" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg17.2" n="2" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg17.2">
+                     <measure type="sentiment" quantity="3.991" ana="senti:mixpos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg17.2"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg17.2.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg17.2.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos|NumType=Ord" lemma="first" function="N4" ana="sem:N4">first</w>
                      <name type="MISC">
@@ -1886,6 +1955,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg18">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg18.1">
+                     <measure type="sentiment" quantity="0.277" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg18.1"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
                      <name type="MISC">
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.1.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="holocaust" function="E3-" ana="sem:E3n" join="right">Holocaust</w>
@@ -1907,6 +1977,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.1.t15" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.2" n="2" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg18.2">
+                     <measure type="sentiment" quantity="0.089" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg18.2"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.2.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs" lemma="he" function="Z8m" ana="sem:Z8">He</w>
                      <phr type="sem" function="A5.4+" ana="sem:A5.4p">
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.2.t2" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="snuggle" function="A5.4+" ana="sem:A5.4p">snuggled</w>
@@ -1930,6 +2001,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.2.t13" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.3" n="3" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg18.3">
+                     <measure type="sentiment" quantity="3.358" ana="senti:neupos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg18.3"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.3.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="person" function="S2mfc" ana="sem:S2">People</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.3.t2" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">were</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.3.t3" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
@@ -1961,6 +2033,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.3.t27" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.4" n="4" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg18.4">
+                     <measure type="sentiment" quantity="2.222" ana="senti:neuneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg18.4"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.4.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="person" function="S2mfc" ana="sem:S2">People</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.4.t2" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">were</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.4.t3" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="victim" function="A1.1.2/G2.1/S2mf,B2-/S2mf" ana="sem:A1.1.2 sem:G2.1 sem:S2">victims</w>
@@ -1968,6 +2041,7 @@
 <pc xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.4.t5" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.5" n="5" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg18.5">
+                     <measure type="sentiment" quantity="0.110" ana="senti:negneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg18.5"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.5.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs" lemma="they" function="Z8mfn" ana="sem:Z8" join="right">They</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.5.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,A2.2,Z5" ana="sem:A9p">'ve</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg18.5.t3" pos="VBN" msd="UPosTag=AUX|Tense=Past|VerbForm=Part" lemma="be" function="A3+,Z5" ana="sem:A3p">been</w>
@@ -1984,6 +2058,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg19" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg19">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg19.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg19.1">
+                     <measure type="sentiment" quantity="4.705" ana="senti:pospos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg19.1"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg19.1.t1" pos="IN" msd="UPosTag=ADP" lemma="as" function="Z5" ana="sem:Z5">As</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg19.1.t2" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg19.1.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="result" function="A2.2,X9.2,N2,A5.1,K5,Q1.1/A2.2" ana="sem:A2.2" join="right">result</w>
@@ -2048,6 +2123,7 @@
                </seg>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg20" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg20">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg20.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg20.1">
+                     <measure type="sentiment" quantity="4.084" ana="senti:mixpos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg20.1"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg20.1.t1" pos="PRP$" msd="UPosTag=PRON|Number=Plur|Person=3|Poss=Yes|PronType=Prs" lemma="they" function="Z8" ana="sem:Z8">Their</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg20.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="memory" function="X2,X2.2+,S7.2+,Y2" ana="sem:X2">memory</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg20.1.t3" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
@@ -2059,9 +2135,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u xml:id="ParlaMint-GR_2022-02-01-S1-commons.u385" ana="#chair" who="#ΜΠΟΥΡΑΣ_ΚΩΝΣΤΑΝΤΙΝΟΥ_ΑΘΑΝΑΣΙΟΣ" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.u385">
+            <u xml:id="ParlaMint-GR_2022-02-01-S1-commons.u385" ana="#chair topic:other" who="#ΜΠΟΥΡΑΣ_ΚΩΝΣΤΑΝΤΙΝΟΥ_ΑΘΑΝΑΣΙΟΣ" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.u385">
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg1580" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg1580">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg1580.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg1580.1">
+                     <measure type="sentiment" quantity="2.189" ana="senti:neuneg" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg1580.1"/>
                      <phr type="sem" function="T1.3" ana="sem:T1.3">
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg1580.1.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="lady" function="T1.3" ana="sem:T1.3">Ladies</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg1580.1.t2" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
@@ -2086,9 +2163,10 @@
                <desc xml:lang="en">Yes, sir.</desc>
             </vocal>
             <note type="speaker" xml:id="ParlaMint-GR_2022-02-01-S1-commons.ana.note393" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.ana.note393">REFERENCES (Athanasios BOURA:</note>
-            <u xml:id="ParlaMint-GR_2022-02-01-S1-commons.u386" ana="#chair" who="#ΜΠΟΥΡΑΣ_ΚΩΝΣΤΑΝΤΙΝΟΥ_ΑΘΑΝΑΣΙΟΣ" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.u386">
+            <u xml:id="ParlaMint-GR_2022-02-01-S1-commons.u386" ana="#chair topic:mixed" who="#ΜΠΟΥΡΑΣ_ΚΩΝΣΤΑΝΤΙΝΟΥ_ΑΘΑΝΑΣΙΟΣ" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.u386">
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg1581" xml:lang="en" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg1581">
                   <s xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg1581.1" n="1" corresp="mt-src:ParlaMint-GR_2022-02-01-S1-commons.seg1581.1">
+                     <measure type="sentiment" quantity="2.999" ana="senti:neupos" corresp="#ParlaMint-GR_2022-02-01-S1-commons.seg1581.1"/>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg1581.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg1581.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="meeting" function="S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+" ana="sem:S1.1.3p">meeting</w>
 <w xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg1581.1.t3" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>

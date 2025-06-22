@@ -20,9 +20,25 @@
                <resp xml:lang="pl">Pobieranie danych i konwersja do TEI</resp>
                <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="pl">Infrastruktura naukowa CLARIN ERIC</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="pl">Komisja Europejska</orgName>
@@ -38,7 +54,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="224" xml:lang="pl">224 wypowiedzi</measure>
@@ -52,13 +68,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="pl">Ten utwór jest dostępny na <ref target="http://creativecommons.org/licenses/by/4.0/">międzynarodowej licencji Creative Commons Attribution 4.0</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-05-31">2025-05-31</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -86,6 +102,7 @@
                <tagUsage gi="kinesic" occurs="61"/>
                <tagUsage gi="link" occurs="72460"/>
                <tagUsage gi="linkGrp" occurs="4802"/>
+               <tagUsage gi="measure" occurs="4802"/>
                <tagUsage gi="name" occurs="2317"/>
                <tagUsage gi="note" occurs="265"/>
                <tagUsage gi="pc" occurs="12385"/>
@@ -109,8 +126,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2024-07-02">
+         <change when="2025-05-31">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-28">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
          <change when="2023-03-28">
             <name>Michał Rudolf</name>: Generated corpus in Parla-CLARIN.</change>
       </revisionDesc>
@@ -122,9 +141,10 @@
             <note type="time" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.ana.note1">Wznowienie posiedzenia o godzinie 9 minut 31</note>
             <note type="debate" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.ana.note2">Posiedzeniu przewodniczą marszałek Tomasz Grodzki oraz wicemarszałkowie Michał Kamiński, Bogdan Borusewicz i Gabriela Morawska-Stanecka</note>
             <note type="speaker" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.ana.note3">Marszałek Tomasz Grodzki:</note>
-            <u who="#TomaszGrodzki" ana="#regular" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.u1">
+            <u who="#TomaszGrodzki" ana="#regular topic:other" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.u1">
                <seg xml:id="seg971932">
                   <s xml:id="seg971932.1">
+                     <measure type="sentiment" quantity="4.041" ana="senti:mixpos" corresp="#seg971932.1"/>
 <w lemma="bardzo" msd="UPosTag=ADV|Degree=Pos" xml:id="seg971932.1.1">Bardzo</w>
 <w lemma="prosić" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971932.1.2">proszę</w>
 <w lemma="o" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg971932.1.3">o</w>
@@ -143,6 +163,7 @@
                </seg>
                <seg xml:id="seg971933">
                   <s xml:id="seg971933.1">
+                     <measure type="sentiment" quantity="4.049" ana="senti:mixpos" corresp="#seg971933.1"/>
 <w lemma="wznawiać" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971933.1.1">Wznawiam</w>
 <w join="right" lemma="posiedzenie" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" xml:id="seg971933.1.2">posiedzenie</w>
 <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg971933.1.3">.</pc>
@@ -155,6 +176,7 @@
                </seg>
                <seg xml:id="seg971934">
                   <s xml:id="seg971934.1">
+                     <measure type="sentiment" quantity="3.760" ana="senti:mixpos" corresp="#seg971934.1"/>
 <w lemma="szanowny" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing" xml:id="seg971934.1.1">Szanowni</w>
 <w lemma="państwo" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" xml:id="seg971934.1.2">Państwo</w>
 <w join="right" lemma="senator" msd="UPosTag=PROPN|Animacy=Hum|Case=Nom|Gender=Neut|Number=Sing" xml:id="seg971934.1.3">Senatorowie</w>
@@ -219,6 +241,7 @@
                </seg>
                <seg xml:id="seg971935">
                   <s xml:id="seg971935.1">
+                     <measure type="sentiment" quantity="4.039" ana="senti:mixpos" corresp="#seg971935.1"/>
 <w lemma="za" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg971935.1.1">Za</w>
 <w lemma="chwila" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="seg971935.1.2">chwilę</w>
 <w lemma="przystąpić" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act" xml:id="seg971935.1.3">przystąpimy</w>
@@ -261,6 +284,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971935.2">
+                     <measure type="sentiment" quantity="3.333" ana="senti:neupos" corresp="#seg971935.2"/>
 <w lemma="głosowanie" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" xml:id="seg971935.2.1">Głosowanie</w>
 <w lemma="w" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg971935.2.2">w</w>
 <w lemma="sprawa" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" xml:id="seg971935.2.3">sprawie</w>
@@ -291,6 +315,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971935.3">
+                     <measure type="sentiment" quantity="3.023" ana="senti:neupos" corresp="#seg971935.3"/>
 <w lemma="po" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg971935.3.1">Po</w>
 <w lemma="punkt" msd="UPosTag=NOUN|Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing" xml:id="seg971935.3.2">punkcie</w>
 <w lemma="dziewiąty" msd="UPosTag=ADJ|Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg971935.3.3">dziewiątym</w>
@@ -355,6 +380,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971935.4">
+                     <measure type="sentiment" quantity="2.748" ana="senti:neupos" corresp="#seg971935.4"/>
 <w lemma="następnie" msd="UPosTag=ADV" xml:id="seg971935.4.1">Następnie</w>
 <w lemma="zostać" msd="UPosTag=AUX|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act" xml:id="seg971935.4.2">zostanie</w>
 <w lemma="ogłosić" msd="UPosTag=ADJ|Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass" xml:id="seg971935.4.3">ogłoszona</w>
@@ -403,6 +429,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971935.5">
+                     <measure type="sentiment" quantity="3.235" ana="senti:neupos" corresp="#seg971935.5"/>
 <w lemma="po" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg971935.5.1">Po</w>
 <w lemma="przerwa" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" xml:id="seg971935.5.2">przerwie</w>
 <w lemma="odbyć" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act" xml:id="seg971935.5.3">odbędzie</w>
@@ -425,6 +452,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971935.6">
+                     <measure type="sentiment" quantity="2.767" ana="senti:neupos" corresp="#seg971935.6"/>
 <w lemma="po" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg971935.6.1">Po</w>
 <w join="right" lemma="głosować" msd="UPosTag=NOUN|Case=Loc|Gender=Neut|Number=Sing" xml:id="seg971935.6.2">głosowaniu</w>
 <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg971935.6.3">,</pc>
@@ -527,6 +555,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971935.7">
+                     <measure type="sentiment" quantity="3.143" ana="senti:neupos" corresp="#seg971935.7"/>
 <w join="right" lemma="następnie" msd="UPosTag=ADV" xml:id="seg971935.7.1">Następnie</w>
 <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg971935.7.2">,</pc>
 <w lemma="po" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg971935.7.3">po</w>
@@ -609,6 +638,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971935.8">
+                     <measure type="sentiment" quantity="2.791" ana="senti:neupos" corresp="#seg971935.8"/>
 <pc msd="UPosTag=PUNCT|PunctType=Dash" xml:id="seg971935.8.1">–</pc>
 <w lemma="punkt" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg971935.8.2">punkt</w>
 <w join="right" lemma="siódmy" msd="UPosTag=ADJ|Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg971935.8.3">siódmy</w>
@@ -665,6 +695,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971935.9">
+                     <measure type="sentiment" quantity="3.039" ana="senti:neupos" corresp="#seg971935.9"/>
 <w lemma="po" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg971935.9.1">Po</w>
 <w lemma="rozpatrzyć" msd="UPosTag=NOUN|Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun" xml:id="seg971935.9.2">rozpatrzeniu</w>
 <w lemma="projekt" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg971935.9.3">projektu</w>
@@ -719,6 +750,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971935.10">
+                     <measure type="sentiment" quantity="3.579" ana="senti:mixpos" corresp="#seg971935.10"/>
 <w lemma="blok" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg971935.10.1">Blok</w>
 <w lemma="rozpocząć" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act" xml:id="seg971935.10.2">rozpocznie</w>
 <w lemma="się" msd="UPosTag=PRON|PronType=Prs|Reflex=Yes" xml:id="seg971935.10.3">się</w>
@@ -751,6 +783,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971935.11">
+                     <measure type="sentiment" quantity="3.060" ana="senti:neupos" corresp="#seg971935.11"/>
 <w lemma="rozpatrzenie" msd="UPosTag=NOUN|Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun" xml:id="seg971935.11.1">Rozpatrzenie</w>
 <w lemma="punkt" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg971935.11.2">punktu</w>
 <w lemma="dotyczyć" msd="UPosTag=ADJ|Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act" xml:id="seg971935.11.3">dotyczącego</w>
@@ -817,6 +850,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971935.12">
+                     <measure type="sentiment" quantity="3.117" ana="senti:neupos" corresp="#seg971935.12"/>
 <w lemma="i" msd="UPosTag=CCONJ" xml:id="seg971935.12.1">I</w>
 <w lemma="to" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi" xml:id="seg971935.12.2">to</w>
 <w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971935.12.3">jest</w>
@@ -835,6 +869,7 @@
                </seg>
                <seg xml:id="seg971936">
                   <s xml:id="seg971936.1">
+                     <measure type="sentiment" quantity="3.870" ana="senti:mixpos" corresp="#seg971936.1"/>
 <w lemma="od" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg971936.1.1">Od</w>
 <w lemma="siebie" msd="UPosTag=PRON|Case=Gen|PronType=Prs|Reflex=Yes" xml:id="seg971936.1.2">siebie</w>
 <w join="right" lemma="dodać" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971936.1.3">dodam</w>
@@ -895,12 +930,14 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971936.2">
+                     <measure type="sentiment" quantity="3.204" ana="senti:neupos" corresp="#seg971936.2"/>
 <w lemma="to" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi" xml:id="seg971936.2.1">To</w>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link ana="ud-syn:root" target="#seg971936.2 #seg971936.2.1"/>
 </linkGrp>
                   </s>
                   <s xml:id="seg971936.3">
+                     <measure type="sentiment" quantity="2.623" ana="senti:neupos" corresp="#seg971936.3"/>
 <pc msd="UPosTag=PUNCT|PunctType=Dash" xml:id="seg971936.3.1">–</pc>
 <w lemma="nie" msd="UPosTag=PART|Polarity=Neg" xml:id="seg971936.3.2">nie</w>
 <w lemma="musieć" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971936.3.3">muszę</w>
@@ -913,6 +950,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971936.4">
+                     <measure type="sentiment" quantity="4.365" ana="senti:mixpos" corresp="#seg971936.4"/>
 <pc msd="UPosTag=PUNCT|PunctType=Dash" xml:id="seg971936.4.1">–</pc>
 <w lemma="zależeć" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971936.4.2">zależy</w>
 <w lemma="od" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg971936.4.3">od</w>
@@ -961,6 +999,7 @@
                </seg>
                <seg xml:id="seg971937">
                   <s xml:id="seg971937.1">
+                     <measure type="sentiment" quantity="3.912" ana="senti:mixpos" corresp="#seg971937.1"/>
 <w lemma="zatem" msd="UPosTag=SCONJ" xml:id="seg971937.1.1">Zatem</w>
 <w lemma="przystępować" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971937.1.2">przystępujemy</w>
 <w lemma="do" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg971937.1.3">do</w>
@@ -1007,6 +1046,7 @@
                </seg>
                <seg xml:id="seg971938">
                   <s xml:id="seg971938.1">
+                     <measure type="sentiment" quantity="4.396" ana="senti:mixpos" corresp="#seg971938.1"/>
 <w lemma="witać" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971938.1.1">Witam</w>
 <w lemma="serdecznie" msd="UPosTag=ADV|Degree=Pos" xml:id="seg971938.1.2">serdecznie</w>
 <w lemma="obecny" msd="UPosTag=ADJ|Animacy=Hum|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg971938.1.3">obecnego</w>
@@ -1052,6 +1092,7 @@
                </kinesic>
                <seg xml:id="seg971939">
                   <s xml:id="seg971939.1">
+                     <measure type="sentiment" quantity="3.539" ana="senti:mixpos" corresp="#seg971939.1"/>
 <w join="right" lemma="przypominać" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971939.1.1">Przypominam</w>
 <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg971939.1.2">,</pc>
 <w lemma="że" msd="UPosTag=SCONJ" xml:id="seg971939.1.3">że</w>
@@ -1078,6 +1119,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971939.2">
+                     <measure type="sentiment" quantity="3.250" ana="senti:neupos" corresp="#seg971939.2"/>
 <w lemma="projekt" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg971939.2.1">Projekt</w>
 <w lemma="zawrzeć" msd="UPosTag=ADJ|Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass" xml:id="seg971939.2.2">zawarty</w>
 <w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971939.2.3">jest</w>
@@ -1118,6 +1160,7 @@
                </seg>
                <seg xml:id="seg971940">
                   <s xml:id="seg971940.1">
+                     <measure type="sentiment" quantity="3.459" ana="senti:neupos" corresp="#seg971940.1"/>
 <w lemma="prosić" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971940.1.1">Proszę</w>
 <w lemma="sprawozdawca" msd="UPosTag=NOUN|Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg971940.1.2">sprawozdawcę</w>
                      <name type="ORG">
@@ -1184,9 +1227,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.ana.note4">Senator Sprawozdawca Marcin Bosacki:</note>
-            <u who="#MarcinBosacki" ana="#regular" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.u2">
+            <u who="#MarcinBosacki" ana="#regular topic:mixed" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.u2">
                <seg xml:id="seg971941">
                   <s xml:id="seg971941.1">
+                     <measure type="sentiment" quantity="4.600" ana="senti:pospos" corresp="#seg971941.1"/>
 <w join="right" lemma="dziękować" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971941.1.1">Dziękuję</w>
 <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg971941.1.2">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -1197,6 +1241,7 @@
                </seg>
                <seg xml:id="seg971942">
                   <s xml:id="seg971942.1">
+                     <measure type="sentiment" quantity="3.980" ana="senti:mixpos" corresp="#seg971942.1"/>
 <w lemma="pan" msd="UPosTag=NOUN|Animacy=Hum|Case=Voc|Gender=Masc|Number=Sing" xml:id="seg971942.1.1">Panie</w>
 <w join="right" lemma="marszałek" msd="UPosTag=PROPN|Animacy=Hum|Case=Voc|Gender=Masc|Number=Sing" xml:id="seg971942.1.2">Marszałku</w>
 <pc msd="UPosTag=PUNCT|PunctType=Excl" xml:id="seg971942.1.3">!</pc>
@@ -1207,6 +1252,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971942.2">
+                     <measure type="sentiment" quantity="4.444" ana="senti:mixpos" corresp="#seg971942.2"/>
                      <name type="ORG">
 <w lemma="wysoki" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg971942.2.1">Wysoka</w>
 <w join="right" lemma="izba" msd="UPosTag=PROPN|Case=Nom|Gender=Neut|Number=Sing" xml:id="seg971942.2.2">Izbo</w>
@@ -1219,6 +1265,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971942.3">
+                     <measure type="sentiment" quantity="3.778" ana="senti:mixpos" corresp="#seg971942.3"/>
 <w join="right" lemma="ekscelencja" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" xml:id="seg971942.3.1">Ekscelencjo</w>
 <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg971942.3.2">,</pc>
 <w lemma="ambasador" msd="UPosTag=NOUN|Animacy=Hum|Case=Dat|Gender=Masc|Number=Sing" xml:id="seg971942.3.3">Ambasadorze</w>
@@ -1239,6 +1286,7 @@
                </seg>
                <seg xml:id="seg971943">
                   <s xml:id="seg971943.1">
+                     <measure type="sentiment" quantity="2.450" ana="senti:neuneg" corresp="#seg971943.1"/>
 <w lemma="to" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi" xml:id="seg971943.1.1">To</w>
 <w lemma="ogromny" msd="UPosTag=ADJ|Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg971943.1.2">ogromny</w>
 <w lemma="honor" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg971943.1.3">honor</w>
@@ -1287,6 +1335,7 @@
                </seg>
                <seg xml:id="seg971944">
                   <s xml:id="seg971944.1">
+                     <measure type="sentiment" quantity="0.027" ana="senti:negneg" corresp="#seg971944.1"/>
 <w lemma="wszyscy" msd="UPosTag=PRON|Animacy=Hum|Case=Nom|Gender=Masc|Number=Ptan|PronType=Tot" xml:id="seg971944.1.1">Wszyscy</w>
 <w join="right" lemma="wiedzieć" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971944.1.2">wiemy</w>
 <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg971944.1.3">,</pc>
@@ -1343,6 +1392,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971944.2">
+                     <measure type="sentiment" quantity="0.123" ana="senti:negneg" corresp="#seg971944.2"/>
 <w lemma="zginąć" msd="UPosTag=VERB|Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg971944.2.1">Zginęło</w>
 <w lemma="w" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg971944.2.2">w</w>
 <w lemma="on" msd="UPosTag=PRON|Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long" xml:id="seg971944.2.3">nim</w>
@@ -1369,6 +1419,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971944.3">
+                     <measure type="sentiment" quantity="0.266" ana="senti:negneg" corresp="#seg971944.3"/>
 <w lemma="spłonąć" msd="UPosTag=VERB|Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg971944.3.1">Spłonęły</w>
 <w lemma="tysiące" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur" xml:id="seg971944.3.2">tysiące</w>
 <w lemma="dom" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur" xml:id="seg971944.3.3">domów</w>
@@ -1397,6 +1448,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971944.4">
+                     <measure type="sentiment" quantity="0.421" ana="senti:negneg" corresp="#seg971944.4"/>
 <w lemma="dotknąć" msd="UPosTag=ADJ|Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass" xml:id="seg971944.4.1">Dotknięte</w>
 <w lemma="kataklizm" msd="UPosTag=NOUN|Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing" xml:id="seg971944.4.2">kataklizmem</w>
 <w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971944.4.3">są</w>
@@ -1413,6 +1465,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971944.5">
+                     <measure type="sentiment" quantity="0.187" ana="senti:negneg" corresp="#seg971944.5"/>
 <w lemma="trwać" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971944.5.1">Trwa</w>
 <w lemma="on" msd="UPosTag=PRON|Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long" xml:id="seg971944.5.2">on</w>
 <w lemma="w" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg971944.5.3">w</w>
@@ -1463,6 +1516,7 @@
                </seg>
                <seg xml:id="seg971945">
                   <s xml:id="seg971945.1">
+                     <measure type="sentiment" quantity="2.756" ana="senti:neupos" corresp="#seg971945.1"/>
 <w lemma="podczas" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg971945.1.1">Podczas</w>
 <w lemma="obrady" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Ptan" xml:id="seg971945.1.2">obrad</w>
                      <name type="ORG">
@@ -1511,6 +1565,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971945.2">
+                     <measure type="sentiment" quantity="3.485" ana="senti:neupos" corresp="#seg971945.2"/>
 <w lemma="ostatecznie" msd="UPosTag=ADV|Degree=Pos" xml:id="seg971945.2.1">Ostatecznie</w>
 <w lemma="wynik" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg971945.2.2">wynik</w>
 <w lemma="głosowanie" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" xml:id="seg971945.2.3">głosowania</w>
@@ -1557,6 +1612,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971945.3">
+                     <measure type="sentiment" quantity="1.895" ana="senti:neuneg" corresp="#seg971945.3"/>
 <w lemma="z" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg971945.3.1">Z</w>
 <w lemma="uwaga" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg971945.3.2">uwagi</w>
 <w lemma="na" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg971945.3.3">na</w>
@@ -1607,6 +1663,7 @@
                </seg>
                <seg xml:id="seg971946">
                   <s xml:id="seg971946.1">
+                     <measure type="sentiment" quantity="3.802" ana="senti:mixpos" corresp="#seg971946.1"/>
 <w join="right" lemma="uchwała" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971946.1.1">Uchwale</w>
 <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg971946.1.2">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -1617,6 +1674,7 @@
                </seg>
                <seg xml:id="seg971947">
                   <s xml:id="seg971947.1">
+                     <measure type="sentiment" quantity="3.552" ana="senti:mixpos" corresp="#seg971947.1"/>
 <w join="right" lemma="Uchwał" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971947.1.1">Uchwale</w>
 <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg971947.1.2">,</pc>
 <w lemma="przepraszać" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971947.1.3">przepraszam</w>
@@ -1631,6 +1689,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971947.2">
+                     <measure type="sentiment" quantity="3.273" ana="senti:neupos" corresp="#seg971947.2"/>
 <w lemma="jeśli" msd="UPosTag=SCONJ" xml:id="seg971947.2.1">Jeśli</w>
 <w lemma="senator" msd="UPosTag=NOUN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur" xml:id="seg971947.2.2">senatorowie</w>
 <w join="right" lemma="chcieć" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971947.2.3">chcą</w>
@@ -1661,6 +1720,7 @@
                </seg>
                <seg xml:id="seg971948">
                   <s xml:id="seg971948.1">
+                     <measure type="sentiment" quantity="3.355" ana="senti:neupos" corresp="#seg971948.1"/>
 <w join="right" lemma="pozwolić" msd="UPosTag=VERB|Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act" xml:id="seg971948.1.1">Pozwolicie</w>
 <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg971948.1.2">,</pc>
 <w lemma="pani" msd="UPosTag=NOUN|Animacy=Hum|Case=Voc|Gender=Masc|Number=Sing" xml:id="seg971948.1.3">Panie</w>
@@ -1693,6 +1753,7 @@
                </seg>
                <seg xml:id="seg971949">
                   <s xml:id="seg971949.1">
+                     <measure type="sentiment" quantity="4.431" ana="senti:mixpos" corresp="#seg971949.1"/>
 <pc join="right" msd="UPosTag=PUNCT|PunctSide=Ini|PunctType=Quot" xml:id="seg971949.1.1">„</pc>
 <w lemma="uchwała" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="seg971949.1.2">Uchwała</w>
                      <name type="ORG">
@@ -1725,6 +1786,7 @@
                </seg>
                <seg xml:id="seg971950">
                   <s xml:id="seg971950.1">
+                     <measure type="sentiment" quantity="3.512" ana="senti:mixpos" corresp="#seg971950.1"/>
                      <name type="ORG">
 <w lemma="senat" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg971950.1.1">Senat</w>
 <w lemma="rzeczpospolita" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg971950.1.2">Rzeczypospolitej</w>
@@ -1781,6 +1843,7 @@
                </seg>
                <seg xml:id="seg971951">
                   <s xml:id="seg971951.1">
+                     <measure type="sentiment" quantity="0.073" ana="senti:negneg" corresp="#seg971951.1"/>
 <w lemma="przez" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg971951.1.1">Przez</w>
 <w lemma="ostatni" msd="UPosTag=ADJ|Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur" xml:id="seg971951.1.2">ostatnie</w>
 <w lemma="miesiąc" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur" xml:id="seg971951.1.3">miesiące</w>
@@ -1833,6 +1896,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971951.2">
+                     <measure type="sentiment" quantity="-0.032" ana="senti:negneg" corresp="#seg971951.2"/>
 <w lemma="strata" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" xml:id="seg971951.2.1">Straty</w>
 <w lemma="dla" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg971951.2.2">dla</w>
 <w lemma="fauna" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg971951.2.3">fauny</w>
@@ -1873,6 +1937,7 @@
                </seg>
                <seg xml:id="seg971952">
                   <s xml:id="seg971952.1">
+                     <measure type="sentiment" quantity="5.023" ana="senti:pospos" corresp="#seg971952.1"/>
                      <name type="ORG">
 <w lemma="senat" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg971952.1.1">Senat</w>
 <w lemma="rzeczpospolita" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg971952.1.2">Rzeczypospolitej</w>
@@ -1925,6 +1990,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971952.2">
+                     <measure type="sentiment" quantity="5.488" ana="senti:pospos" corresp="#seg971952.2"/>
 <w lemma="doceniać" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971952.2.1">Doceniamy</w>
 <w lemma="wysiłek" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur" xml:id="seg971952.2.2">wysiłki</w>
 <w join="right" lemma="strażak" msd="UPosTag=NOUN|Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur" xml:id="seg971952.2.3">strażaków</w>
@@ -1959,6 +2025,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971952.3">
+                     <measure type="sentiment" quantity="3.409" ana="senti:neupos" corresp="#seg971952.3"/>
 <w lemma="Australijczyk" msd="UPosTag=NOUN|Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur" xml:id="seg971952.3.1">Australijczyków</w>
                      <name type="LOC">
 <w lemma="polski" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing" xml:id="seg971952.3.2">polskiego</w>
@@ -1989,6 +2056,7 @@
                </seg>
                <seg xml:id="seg971953">
                   <s xml:id="seg971953.1">
+                     <measure type="sentiment" quantity="0.199" ana="senti:negneg" corresp="#seg971953.1"/>
 <w lemma="wciąż" msd="UPosTag=ADV" xml:id="seg971953.1.1">Wciąż</w>
 <w lemma="trwać" msd="UPosTag=ADJ|Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act" xml:id="seg971953.1.2">trwający</w>
 <w lemma="kataklizm" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg971953.1.3">kataklizm</w>
@@ -2047,6 +2115,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971953.2">
+                     <measure type="sentiment" quantity="0.277" ana="senti:negneg" corresp="#seg971953.2"/>
 <w lemma="coraz" msd="UPosTag=ADV" xml:id="seg971953.2.1">Coraz</w>
 <w lemma="częsty" msd="UPosTag=ADJ|Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur" xml:id="seg971953.2.2">częstsze</w>
 <w lemma="susz" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" xml:id="seg971953.2.3">susze</w>
@@ -2097,6 +2166,7 @@
                </seg>
                <seg xml:id="seg971954">
                   <s xml:id="seg971954.1">
+                     <measure type="sentiment" quantity="5.100" ana="senti:pospos" corresp="#seg971954.1"/>
                      <name type="ORG">
 <w lemma="senat" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg971954.1.1">Senat</w>
 <w lemma="rzeczpospolita" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg971954.1.2">Rzeczypospolitej</w>
@@ -2167,6 +2237,7 @@
                </seg>
                <seg xml:id="seg971955">
                   <s xml:id="seg971955.1">
+                     <measure type="sentiment" quantity="3.339" ana="senti:neupos" corresp="#seg971955.1"/>
 <w lemma="uchwała" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="seg971955.1.1">Uchwała</w>
 <w lemma="podlegać" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971955.1.2">podlega</w>
 <w lemma="ogłosić" msd="UPosTag=NOUN|Aspect=Perf|Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun" xml:id="seg971955.1.3">ogłoszeniu</w>
@@ -2203,6 +2274,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg971955.2">
+                     <measure type="sentiment" quantity="4.871" ana="senti:pospos" corresp="#seg971955.2"/>
 <w lemma="dziękować" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg971955.2.1">Dziękuję</w>
 <w join="right" lemma="bardzo" msd="UPosTag=ADV|Degree=Pos" xml:id="seg971955.2.2">bardzo</w>
 <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg971955.2.3">.</pc>
@@ -2220,9 +2292,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#StanisławGawłowski" ana="#regular" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.u223">
+            <u who="#StanisławGawłowski" ana="#regular topic:inter" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.u223">
                <seg xml:id="seg973674">
                   <s xml:id="seg973674.1">
+                     <measure type="sentiment" quantity="3.980" ana="senti:mixpos" corresp="#seg973674.1"/>
 <w lemma="pan" msd="UPosTag=NOUN|Animacy=Hum|Case=Voc|Gender=Masc|Number=Sing" xml:id="seg973674.1.1">Panie</w>
 <w join="right" lemma="marszałek" msd="UPosTag=PROPN|Animacy=Hum|Case=Voc|Gender=Masc|Number=Sing" xml:id="seg973674.1.2">Marszałku</w>
 <pc msd="UPosTag=PUNCT|PunctType=Excl" xml:id="seg973674.1.3">!</pc>
@@ -2233,6 +2306,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg973674.2">
+                     <measure type="sentiment" quantity="4.444" ana="senti:mixpos" corresp="#seg973674.2"/>
                      <name type="ORG">
 <w lemma="wysoki" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg973674.2.1">Wysoka</w>
 <w join="right" lemma="izba" msd="UPosTag=PROPN|Case=Nom|Gender=Neut|Number=Sing" xml:id="seg973674.2.2">Izbo</w>
@@ -2247,6 +2321,7 @@
                </seg>
                <seg xml:id="seg973675">
                   <s xml:id="seg973675.1">
+                     <measure type="sentiment" quantity="1.814" ana="senti:neuneg" corresp="#seg973675.1"/>
 <w lemma="nie" msd="UPosTag=PART|Polarity=Neg" xml:id="seg973675.1.1">Nie</w>
 <w lemma="mieć" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg973675.1.2">mam</w>
 <w lemma="zbyt" msd="UPosTag=ADV" xml:id="seg973675.1.3">zbyt</w>
@@ -2299,6 +2374,7 @@
                </seg>
                <seg xml:id="seg973676">
                   <s xml:id="seg973676.1">
+                     <measure type="sentiment" quantity="2.646" ana="senti:neupos" corresp="#seg973676.1"/>
 <w lemma="w" msd="UPosTag=ADP|AdpType=Prep|Variant=Short" xml:id="seg973676.1.1">W</w>
 <w lemma="ten" msd="UPosTag=DET|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem" xml:id="seg973676.1.2">tym</w>
 <w lemma="oświadczenie" msd="UPosTag=NOUN|Case=Loc|Gender=Neut|Number=Sing" xml:id="seg973676.1.3">oświadczeniu</w>
@@ -2347,6 +2423,7 @@
                </seg>
                <seg xml:id="seg973677">
                   <s xml:id="seg973677.1">
+                     <measure type="sentiment" quantity="0.185" ana="senti:negneg" corresp="#seg973677.1"/>
 <w lemma="pan" msd="UPosTag=NOUN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg973677.1.1">Pan</w>
 <w lemma="senator" msd="UPosTag=NOUN|Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg973677.1.2">senator</w>
 <w lemma="mieć" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg973677.1.3">ma</w>
@@ -2415,6 +2492,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg973677.2">
+                     <measure type="sentiment" quantity="0.627" ana="senti:mixneg" corresp="#seg973677.2"/>
 <w lemma="ja" msd="UPosTag=PRON|Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs" xml:id="seg973677.2.1">Ja</w>
 <w join="right" lemma="by" msd="UPosTag=AUX" xml:id="seg973677.2.2">by</w>
 <w lemma="być" msd="UPosTag=AUX|Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short" xml:id="seg973677.2.3">m</w>
@@ -2463,6 +2541,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg973677.3">
+                     <measure type="sentiment" quantity="0.835" ana="senti:mixneg" corresp="#seg973677.3"/>
 <w lemma="o" msd="UPosTag=ADP|AdpType=Prep" xml:id="seg973677.3.1">O</w>
 <w lemma="ile" msd="UPosTag=ADV" xml:id="seg973677.3.2">ile</w>
 <w join="right" lemma="wiedzieć" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg973677.3.3">wiem</w>
@@ -2521,6 +2600,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg973677.4">
+                     <measure type="sentiment" quantity="1.627" ana="senti:neuneg" corresp="#seg973677.4"/>
 <w lemma="skoro" msd="UPosTag=SCONJ" xml:id="seg973677.4.1">Skoro</w>
 <w lemma="ten" msd="UPosTag=DET|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Dem" xml:id="seg973677.4.2">tego</w>
 <w lemma="typ" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg973677.4.3">typu</w>
@@ -2569,6 +2649,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg973677.5">
+                     <measure type="sentiment" quantity="3.949" ana="senti:mixpos" corresp="#seg973677.5"/>
 <w lemma="ja" msd="UPosTag=PRON|Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs" xml:id="seg973677.5.1">Ja</w>
 <w lemma="zresztą" msd="UPosTag=PART" xml:id="seg973677.5.2">zresztą</w>
 <w join="right" lemma="pamiętać" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg973677.5.3">pamiętam</w>
@@ -2649,6 +2730,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg973677.6">
+                     <measure type="sentiment" quantity="0.229" ana="senti:negneg" corresp="#seg973677.6"/>
 <w lemma="tak" msd="UPosTag=PART" xml:id="seg973677.6.1">Tak</w>
 <w lemma="więc" msd="UPosTag=SCONJ" xml:id="seg973677.6.2">więc</w>
 <w lemma="to" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi" xml:id="seg973677.6.3">to</w>
@@ -2695,6 +2777,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg973677.7">
+                     <measure type="sentiment" quantity="3.266" ana="senti:neupos" corresp="#seg973677.7"/>
 <w lemma="tak" msd="UPosTag=PART" xml:id="seg973677.7.1">Tak</w>
 <w lemma="więc" msd="UPosTag=SCONJ" xml:id="seg973677.7.2">więc</w>
 <w join="right" lemma="chcieć" msd="UPosTag=VERB|Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act" xml:id="seg973677.7.3">chciał</w>
@@ -2737,6 +2820,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg973677.8">
+                     <measure type="sentiment" quantity="4.241" ana="senti:mixpos" corresp="#seg973677.8"/>
 <w lemma="rzeczywiście" msd="UPosTag=ADV|Degree=Pos" xml:id="seg973677.8.1">Rzeczywiście</w>
 <w lemma="warto" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi" xml:id="seg973677.8.2">warto</w>
 <w lemma="wyjaśnić" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf|Voice=Act" xml:id="seg973677.8.3">wyjaśnić</w>
@@ -2753,6 +2837,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="seg973677.9">
+                     <measure type="sentiment" quantity="4.871" ana="senti:pospos" corresp="#seg973677.9"/>
 <w lemma="dziękować" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg973677.9.1">Dziękuję</w>
 <w join="right" lemma="bardzo" msd="UPosTag=ADV|Degree=Pos" xml:id="seg973677.9.2">bardzo</w>
 <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg973677.9.3">.</pc>
@@ -2768,9 +2853,10 @@
                </kinesic>
             </u>
             <note type="speaker" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.ana.note264">Marszałek Tomasz Grodzki:</note>
-            <u who="#TomaszGrodzki" ana="#regular" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.u224">
+            <u who="#TomaszGrodzki" ana="#regular topic:other" xml:id="ParlaMint-PL_2020-01-17-senat-03-3.u224">
                <seg xml:id="seg973678">
                   <s xml:id="seg973678.1">
+                     <measure type="sentiment" quantity="4.404" ana="senti:mixpos" corresp="#seg973678.1"/>
 <w lemma="dziękować" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg973678.1.1">Dziękuję</w>
 <w lemma="bardzo" msd="UPosTag=ADV|Degree=Pos" xml:id="seg973678.1.2">bardzo</w>
 <w lemma="pan" msd="UPosTag=NOUN|Animacy=Hum|Case=Dat|Gender=Masc|Number=Sing" xml:id="seg973678.1.3">panu</w>
@@ -2789,6 +2875,7 @@
                </seg>
                <seg xml:id="seg973679">
                   <s xml:id="seg973679.1">
+                     <measure type="sentiment" quantity="2.271" ana="senti:neuneg" corresp="#seg973679.1"/>
 <w lemma="więcej" msd="UPosTag=DET|Case=Nom|Gender=Neut|NumType=Card|Number=Plur|PronType=Ind" xml:id="seg973679.1.1">Więcej</w>
 <w lemma="oświadczenie" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" xml:id="seg973679.1.2">oświadczeń</w>
 <w lemma="nie" msd="UPosTag=PART|Polarity=Neg" xml:id="seg973679.1.3">nie</w>
@@ -2805,6 +2892,7 @@
                </seg>
                <seg xml:id="seg973680">
                   <s xml:id="seg973680.1">
+                     <measure type="sentiment" quantity="1.170" ana="senti:mixneg" corresp="#seg973680.1"/>
 <w lemma="nie" msd="UPosTag=PART|Polarity=Neg" xml:id="seg973680.1.1">Nie</w>
 <w lemma="mieć" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg973680.1.2">ma</w>
 <w lemma="również" msd="UPosTag=PART" xml:id="seg973680.1.3">również</w>
@@ -2821,6 +2909,7 @@
                </seg>
                <seg xml:id="seg973681">
                   <s xml:id="seg973681.1">
+                     <measure type="sentiment" quantity="3.049" ana="senti:neupos" corresp="#seg973681.1"/>
 <w join="right" lemma="informować" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg973681.1.1">Informuję</w>
 <pc msd="UPosTag=PUNCT|PunctType=Comm" xml:id="seg973681.1.2">,</pc>
 <w lemma="że" msd="UPosTag=SCONJ" xml:id="seg973681.1.3">że</w>
@@ -2893,6 +2982,7 @@
                </seg>
                <seg xml:id="seg973682">
                   <s xml:id="seg973682.1">
+                     <measure type="sentiment" quantity="3.633" ana="senti:mixpos" corresp="#seg973682.1"/>
 <w lemma="zamykać" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg973682.1.1">Zamykam</w>
 <w lemma="trzeci" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing" xml:id="seg973682.1.2">trzecie</w>
 <w lemma="posiedzenie" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" xml:id="seg973682.1.3">posiedzenie</w>
@@ -2922,6 +3012,7 @@
                </kinesic>
                <seg xml:id="seg973683">
                   <s xml:id="seg973683.1">
+                     <measure type="sentiment" quantity="4.871" ana="senti:pospos" corresp="#seg973683.1"/>
 <w lemma="dziękować" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" xml:id="seg973683.1.1">Dziękuję</w>
 <w join="right" lemma="bardzo" msd="UPosTag=ADV|Degree=Pos" xml:id="seg973683.1.2">bardzo</w>
 <pc msd="UPosTag=PUNCT|PunctType=Peri" xml:id="seg973683.1.3">.</pc>

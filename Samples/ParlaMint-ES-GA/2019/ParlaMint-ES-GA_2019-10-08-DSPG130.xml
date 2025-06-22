@@ -17,9 +17,17 @@
                <persName>Elisa Fernández Rei</persName>
                <resp xml:lang="en">Data retrieval, TEI conversion and coordination</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="gl">Instituto da Lingua Galega, Universidade de Santiago de Compostela</orgName>
                <orgName xml:lang="en">Galician Language Institute, University of Santiago de Compostela</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="gl">Proxecto Nós: O galego na sociedade e economía da intelixencia artificial (2021-CP080), convenio entre a Xunta de Galicia e a Universidade de Santiago de Compostela</orgName>
@@ -31,7 +39,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="462"/>
@@ -41,12 +49,12 @@
             <publisher>
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-16">2025-06-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -87,10 +95,12 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
          <change when="2023-03-24">
-            <name>Resp</name> : Made XML-TEI.</change>
+            <name>Resp</name>: Made XML-TEI.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
@@ -99,7 +109,7 @@
             <pb source="https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D100130.pdf"/>
             <note type="time" xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.note1">Ábrese a sesión ás dez e dous minutos da mañá.</note>
             <note type="speaker" xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.note2">O señor PRESIDENTE:</note>
-            <u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.u1">
+            <u who="#SantalicesMiguelÁngel" ana="#chair topic:mixed" xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.u1">
                <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1">Bos días.</seg>
                <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg2">Imos dar comezo á sesión.</seg>
                <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg3">Bos días, ábrese a sesión.</seg>
@@ -109,14 +119,14 @@
                <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7">Debate de totalidade do Proxecto de lei de medidas de garantía do abastecemento nos episodios de seca e nas situacións de risco sanitario</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.note3">O señor PRESIDENTE:</note>
-            <u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.u2">
+            <u who="#SantalicesMiguelÁngel" ana="#chair topic:trans" xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.u2">
                <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8">Presentáronse emendas á totalidade con petición de devolución por parte do Grupo Parlamentario Mixto, do Grupo Parlamentario do Bloque Nacionalista Galego e do Grupo Parlamentario Común da Esquerda.</seg>
                <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9">Para a presentación do proxecto de lei ten a palabra a conselleira de Infraestruturas e Mobilidade, dona Éthel Vázquez Mourelle.</seg>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#CondeFranciscoJosé" ana="#regular" xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.u461">
+            <u who="#CondeFranciscoJosé" ana="#regular topic:mixed" xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.u461">
                <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556">Señor Bará, debería revisar a súa intervención porque ¡é tal despropósito...!, <vocal type="murmuring" xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.vocal202">
                      <desc>Murmurios.</desc>
                   </vocal> tal despropósito, que non é, de verdade, merecente deste Parlamento dígollo sinceramente. Ou vén falar aquí en serio dos traballadores de Vulcano e de Barreras, <kinesic type="applause" xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.kinesic196">
@@ -153,7 +163,7 @@
                <desc>Aplausos.</desc>
             </kinesic>
             <note type="speaker" xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.note496">O señor PRESIDENTE (Calvo Pouso):</note>
-            <u who="#CalvoDiego" ana="#chair" xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.u462">
+            <u who="#CalvoDiego" ana="#chair topic:other" xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.u462">
                <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562">Moitas grazas, señor Conde.</seg>
                <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563">Suspendemos a sesión ata mañá ás dez da mañá.</seg>
             </u>

@@ -4,9 +4,9 @@
 <note type="chairpersons" content="President Mag. Wolfgang Sobotka Second President Doris Bures Third President Ing. Norbert Hofer"/>
 <note type="time" content="10:04:24"/>
 <note type="speaker" content="President Mag. Wolfgang Sobotka"/>
-<speech id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e4759" text_id="ParlaMint-AT-en_2022-10-12-027-XXVII-NRSITZ-00178" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislative period XXVII" session="-" meeting="-" sitting="Sitting 178" agenda="-" date="2022-10-12" title="Sitting Number 178, Legislative period XXVII, Wednesday, 12. October 2022" speaker_role="Chairperson" speaker_id="PAD_88386" speaker_name="Sobotka, Wolfgang" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ÖVP" speaker_party_name="parliamentary group of the Austrian People's Party" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e4759" text_id="ParlaMint-AT-en_2022-10-12-027-XXVII-NRSITZ-00178" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislative period XXVII" session="-" meeting="-" sitting="Sitting 178" agenda="-" date="2022-10-12" title="Sitting Number 178, Legislative period XXVII, Wednesday, 12. October 2022" speaker_role="Chairperson" topic="Other" speaker_id="PAD_88386" speaker_name="Sobotka, Wolfgang" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ÖVP" speaker_party_name="parliamentary group of the Austrian People's Party" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200" lang="English">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.374">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -32,7 +32,7 @@ Openness	Openness	Openness	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t16
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s2">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s2" senti_3="Positive" senti_6="positive" senti_n="4.863">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t3
@@ -55,7 +55,7 @@ warmly	warmly	warmly	ADV	-	E2+,S1.2.1+,S7.2+,O4.6+	E2p	E2+: Like	t13
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s3">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s3" senti_3="Positive" senti_6="positive" senti_n="4.709">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 am	am	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 delighted	delighted	delighted	ADJ	Degree=Pos	E4.1+	E4.1p	E4.1+: Happy	t3
@@ -84,7 +84,7 @@ media	media	media	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s4">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s4" senti_3="Positive" senti_6="positive" senti_n="4.502">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t3
@@ -112,7 +112,7 @@ screen	screen	screen	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Go
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s5">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s5" senti_3="Positive" senti_6="positive" senti_n="4.575">
 My	My	my	PRON	Number=Sing Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 special	special	special	ADJ	Degree=Pos	A4.2+,A6.2-	A4.2p	A4.2+: Detailed	t2
 greeting	greeting	greeting	NOUN	Number=Sing	Q2.2/S1.2.4+	Q2.2 S1.2.4p	Q2.2: Speech acts|S1.2.4+: Polite	t3
@@ -145,7 +145,7 @@ re-election	re-election	re-election	NOUN	Number=Sing	G1.2/X7+/N6+	G1.2 X7p N6p	G
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
 <note type="kinesic:applause" content="General condolences."/>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s6">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s6" senti_3="Positive" senti_6="mixed positive" senti_n="4.390">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 should	should	should	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or necessity	t2
 also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t3
@@ -168,7 +168,7 @@ midst	midst	midst	NOUN	Number=Sing	M6,N4,T1.2	M6	M6: Location and direction	t17
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s7">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s7" senti_3="Positive" senti_6="mixed positive" senti_n="4.420">
 My	My	my	PRON	Number=Sing Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 greeting	greeting	greeting	NOUN	Number=Sing	Q2.2/S1.2.4+	Q2.2 S1.2.4p	Q2.2: Speech acts|S1.2.4+: Polite	t2
 <g/>
@@ -210,7 +210,7 @@ present	present	present	ADJ	Degree=Pos	A9-,A2.2,Q2.2,S1.1.3+,Q4.3,O4.1,K4	A9n	A9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s8">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s8" senti_3="Neutral" senti_6="neutral positive" senti_n="3.126">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 <name type="PER">
 Leichtfried	Leichtfried	Leichtfried	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -225,7 +225,7 @@ treatment	treatment	treatment	NOUN	Number=Sing	B3,S1.1.1,A1.1.1,X4.2	B3	B3: Medi
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
 <note type="unauthorized_interruption" content="Call the ÖVP: It's starting well!"/>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s9">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s9" senti_3="Positive" senti_6="mixed positive" senti_n="4.145">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 can	can	can	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -243,9 +243,9 @@ word	word	word	NOUN	Number=Sing	Q3,Q2.1,S9@	Q3	Q3: Language, speech and grammar	
 <note type="time" content="10:05:50"/>
 <note type="speaker" content="Deputies Mag. Jörg Leichtfried (SPÖ)"/>
 <note type="procedural" content="on business management"/>
-<speech id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e4802" text_id="ParlaMint-AT-en_2022-10-12-027-XXVII-NRSITZ-00178" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislative period XXVII" session="-" meeting="-" sitting="Sitting 178" agenda="-" date="2022-10-12" title="Sitting Number 178, Legislative period XXVII, Wednesday, 12. October 2022" speaker_role="Regular" speaker_id="PAD_22694" speaker_name="Leichtfried, Jörg" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SPÖ" speaker_party_name="parliamentary group of the Social Democratic Party of Austria" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e4802" text_id="ParlaMint-AT-en_2022-10-12-027-XXVII-NRSITZ-00178" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislative period XXVII" session="-" meeting="-" sitting="Sitting 178" agenda="-" date="2022-10-12" title="Sitting Number 178, Legislative period XXVII, Wednesday, 12. October 2022" speaker_role="Regular" topic="Government Operations" speaker_id="PAD_22694" speaker_name="Leichtfried, Jörg" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SPÖ" speaker_party_name="parliamentary group of the Social Democratic Party of Austria" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221" lang="English">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.459">
 <phr usas_tags="Z1m" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -253,7 +253,7 @@ President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s2">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s2" senti_3="Positive" senti_6="mixed positive" senti_n="4.193">
 <phr usas_tags="Z1m" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -261,7 +261,7 @@ President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
 </phr>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s3">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s3" senti_3="Positive" senti_6="mixed positive" senti_n="4.040">
 Dear	Dear	dear	ADJ	Degree=Pos	E2+,I1.3+	E2p	E2+: Like	t1
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 ladies	ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t2
@@ -277,7 +277,7 @@ Government	Government	Government	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal name
 </name>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s4">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s4" senti_3="Positive" senti_6="positive" senti_n="4.797">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -302,7 +302,7 @@ number	number	number	NOUN	Number=Sing	N5,N1,Q1.3,K2,Q4.2	N5	N5: Quantities	t17
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s5">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s5" senti_3="Neutral" senti_6="neutral negative" senti_n="2.272">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t3
@@ -325,7 +325,7 @@ case	case	case	NOUN	Number=Sing	A4.1,O2,G2.1,B3,X4.1,Q3	A4.1	A4.1: Generally kin
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
 <note type="vocal:interruption" content="Oje-Rufe at the ÖVP."/>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s6">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s6" senti_3="Negative" senti_6="negative" senti_n="0.488">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Federal	Federal	Federal	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -344,7 +344,7 @@ statement	statement	statement	NOUN	Number=Sing	Q2.1,I1/Q1.2	Q2.1	Q2.1: Speech: C
 </s>
 <note type="vocal:interruption" content="Intervocations at the ÖVP."/>
 <note type="kinesic:signal" content="President Sobotka gives the bell sign."/>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s7">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s7" senti_3="Negative" senti_6="mixed negative" senti_n="0.504">
 Despite	Despite	despite	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 full	full	full	ADJ	Degree=Pos	N5.1+,I3.2+	N5.1p	N5.1+: Entire; maximum	t3
@@ -386,7 +386,7 @@ time	time	time	NOUN	Number=Sing	T1,T1.2,T1.3,T1.1.2,N6,N1,K2,G2.1@	T1	T1: Time	t
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t33
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s8">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s8" senti_3="Neutral" senti_6="neutral positive" senti_n="2.537">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 have	have	have	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 discussed	discussed	discuss	VERB	Tense=Past VerbForm=Part	Q2.1,Q2.2	Q2.1	Q2.1: Speech: Communicative	t3
@@ -426,7 +426,7 @@ Government	Government	Government	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal name
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t34
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s9">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s9" senti_3="Negative" senti_6="mixed negative" senti_n="0.601">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 seems	seems	seem	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A8	A8	A8: Seem	t2
 not	not	not	PART	-	Z6	Z6	Z6: Negative	t3
@@ -448,7 +448,7 @@ excuses	excuses	excuse	NOUN	Number=Plur	A2.2,Q2.2	A2.2	A2.2: Cause	t17
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s10">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s10" senti_3="Negative" senti_6="negative" senti_n="0.234">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 Minister	Minister	Minister	PROPN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Government|S2: People	t2
 for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -478,7 +478,7 @@ experienced	experienced	experience	VERB	Tense=Past VerbForm=Part	A2.1+/A3+,X3	A2
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
 <note type="vocal:interruption" content="Interlocutory calls from Mr Disoski and Mr Maurer."/>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s11">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s11" senti_3="Neutral" senti_6="neutral negative" senti_n="2.099">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Minister	Minister	minister	NOUN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Government|S2: People	t2
@@ -494,7 +494,7 @@ days	days	day	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t9
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
 <note type="comment" content="Interference of Federal Minister Zadić."/>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s12">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s12" senti_3="Neutral" senti_6="neutral negative" senti_n="2.290">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Foreign	Foreign	foreign	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -510,7 +510,7 @@ day	day	day	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t8
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s13">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s13" senti_3="Neutral" senti_6="neutral positive" senti_n="2.643">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Minister	Minister	Minister	PROPN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Government|S2: People	t2
@@ -522,7 +522,7 @@ apologised	apologised	apologise	VERB	Tense=Past VerbForm=Part Voice=Pass	Q2.2/S1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s14">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s14" senti_3="Neutral" senti_6="neutral positive" senti_n="2.721">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 Minister	Minister	Minister	PROPN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Government|S2: People	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -539,7 +539,7 @@ apologised	apologised	apologise	VERB	Tense=Past VerbForm=Part Voice=Pass	Q2.2/S1
 <note type="unauthorized_interruption" content="Abg. Head: ridiculous!"/>
 <note type="vocal:interruption" content="Further calls to the ÖVP."/>
 <note type="kinesic:signal" content="President Sobotka gives the bell sign."/>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s15">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s15" senti_3="Negative" senti_6="negative" senti_n="0.247">
 They	They	they	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pronouns	t1
 are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 always	always	always	ADV	-	N6+++	N6p	N6+: Frequent	t3
@@ -553,10 +553,10 @@ debates	debates	debate	NOUN	Number=Plur	Q2.2	Q2.2	Q2.2: Speech acts	t10
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s16">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s16" senti_3="Positive" senti_6="positive" senti_n="4.547">
 Estimated	Estimated	estimate	VERB	Tense=Past VerbForm=Part	X6/A7-,N2/A7-	X6 A7n	X6: Deciding|A7-: Unlikely	t1
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s17">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s17" senti_3="Negative" senti_6="mixed negative" senti_n="1.030">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -583,7 +583,7 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t18
 <g/>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s18">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s18" senti_3="Neutral" senti_6="neutral positive" senti_n="2.650">
 Take	Take	take	VERB	Mood=Imp VerbForm=Fin	A9+,T1.3,C1,A1.1.1,M2,S7.1-,A2.1+,X2.4,S6+,S7.4+,N3,A2.1+,P1,M1,X2.5+,F1@,F2@,Q1.2@,B3@	A9p	A9+: Getting and possession	t1
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t3
@@ -591,9 +591,9 @@ this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direct
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27485" text_id="ParlaMint-AT-en_2022-10-12-027-XXVII-NRSITZ-00178" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislative period XXVII" session="-" meeting="-" sitting="Sitting 178" agenda="-" date="2022-10-12" title="Sitting Number 178, Legislative period XXVII, Wednesday, 12. October 2022" speaker_role="Chairperson" speaker_id="PAD_88386" speaker_name="Sobotka, Wolfgang" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ÖVP" speaker_party_name="parliamentary group of the Austrian People's Party" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27485" text_id="ParlaMint-AT-en_2022-10-12-027-XXVII-NRSITZ-00178" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislative period XXVII" session="-" meeting="-" sitting="Sitting 178" agenda="-" date="2022-10-12" title="Sitting Number 178, Legislative period XXVII, Wednesday, 12. October 2022" speaker_role="Chairperson" topic="Other" speaker_id="PAD_88386" speaker_name="Sobotka, Wolfgang" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ÖVP" speaker_party_name="parliamentary group of the Austrian People's Party" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8972" lang="English">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8972.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8972.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.818">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 come	come	come	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	M1,N3.1,A2.2,A3+,X2.1,A9+,S4,N4,S3.2,T1,A1.1.1,N5	M1	M1: Moving, coming and going	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -605,42 +605,42 @@ votes	votes	vote	NOUN	Number=Plur	G1.2	G1.2	G1.2: Politics	t6
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974" lang="English">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.753">
 Can	Can	can	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 vote	vote	vote	VERB	VerbForm=Inf	G1.2	G1.2	G1.2: Politics	t3
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s2">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.801">
 <name type="ORG">
 SPÖ	SPÖ	SPÖ	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t1
 <g/>
 </name>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s3">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s3" senti_3="Negative" senti_6="mixed negative" senti_n="0.878">
 <name type="PER">
 Green	Green	green	NOUN	Number=Sing	O4.3,M7,G1.1/W5mf,K5.1/M7	O4.3	O4.3: Colour and colour patterns	t1
 <g/>
 </name>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s4">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s4" senti_3="Neutral" senti_6="neutral negative" senti_n="1.640">
 <name type="ORG">
 NEOS	NEOS	NEOS	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t1
 <g/>
 </name>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s5">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s5" senti_3="Neutral" senti_6="neutral negative" senti_n="2.356">
 <name type="ORG">
 FPÖ	FPÖ	FPÖ	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t1
 <g/>
 </name>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s6">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s6" senti_3="Neutral" senti_6="neutral positive" senti_n="2.718">
 <name type="ORG">
 ÖVP	ÖVP	ÖVP	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t1
 <g/>
@@ -649,7 +649,7 @@ FPÖ	FPÖ	FPÖ	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t1
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976" lang="English">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.010">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 arrive	arrive	arrive	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	M1,T2-	M1	M1: Moving, coming and going	t2
 at	at	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -661,7 +661,7 @@ item	item	item	NOUN	Number=Sing	Z2	Z2	Z2: Geographical names	t5
 </phr>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976.s2">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.746">
 Proposal	Proposal	proposal	NOUN	Number=Sing	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Speech acts	t1
 from	from	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -688,7 +688,7 @@ supplements	supplements	supplement	NOUN	Number=Plur	N5++,I1.2,Q4.2,Q4.1,B3	N5p	N
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978" lang="English">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.992">
 Whoever	Whoever	whoever	PRON	PronType=Int	Z8	Z8	Z8: Pronouns	t1
 does	does	do	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5	A1.1.1	A1.1.1: General actions / making	t2
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t3
@@ -704,7 +704,7 @@ sign	sign	sign	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t9
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978.s2">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978.s2" senti_3="Positive" senti_6="positive" senti_n="4.951">
 More	More	more	ADJ	Degree=Cmp	Z3c	Z3	Z3: Other proper names	t1
 movement	movement	movement	NOUN	Number=Sing	M1,S5+c,K2,A2.1+	M1	M1: Moving, coming and going	t2
 <g/>
@@ -728,7 +728,7 @@ majority	majority	majority	NOUN	Number=Sing	N5+++c	N5p	N5+: Quantities: many/muc
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980" lang="English">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.145">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 come	come	come	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	M1,N3.1,A2.2,A3+,X2.1,A9+,S4,N4,S3.2,T1,A1.1.1,N5	M1	M1: Moving, coming and going	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -740,7 +740,7 @@ item	item	item	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t5
 <g/>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980.s2">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.731">
 Proposal	Proposal	proposal	NOUN	Number=Sing	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Speech acts	t1
 from	from	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -765,7 +765,7 @@ in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t16
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982" lang="English">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.148">
 Whoever	Whoever	whoever	PRON	PronType=Int	Z8	Z8	Z8: Pronouns	t1
 does	does	do	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5	A1.1.1	A1.1.1: General actions / making	t2
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t3
@@ -779,7 +779,7 @@ sign	sign	sign	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t8
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982.s2">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982.s2" senti_3="Positive" senti_6="mixed positive" senti_n="4.286">
 –	–	–	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -802,7 +802,7 @@ majority	majority	majority	NOUN	Number=Sing	N5+++c	N5p	N5+: Quantities: many/muc
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984" lang="English">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.965">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 arrive	arrive	arrive	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	M1,T2-	M1	M1: Moving, coming and going	t2
 at	at	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -814,7 +814,7 @@ item	item	item	NOUN	Number=Sing	Z2	Z2	Z2: Geographical names	t5
 </phr>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984.s2">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.731">
 Proposal	Proposal	proposal	NOUN	Number=Sing	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Speech acts	t1
 from	from	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -841,7 +841,7 @@ supplements	supplements	supplement	NOUN	Number=Plur	N5++,I1.2,Q4.2,Q4.1,B3	N5p	N
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986" lang="English">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.148">
 Whoever	Whoever	whoever	PRON	PronType=Int	Z8	Z8	Z8: Pronouns	t1
 does	does	do	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5	A1.1.1	A1.1.1: General actions / making	t2
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t3
@@ -855,7 +855,7 @@ sign	sign	sign	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t8
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986.s2">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986.s2" senti_3="Positive" senti_6="mixed positive" senti_n="3.764">
 –	–	–	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -868,7 +868,7 @@ majority	majority	majority	NOUN	Number=Sing	N5+++c	N5p	N5+: Quantities: many/muc
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8988" lang="English">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8988.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8988.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.116">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 agenda	agenda	agenda	NOUN	Number=Sing	Q1.2/X7+	Q1.2 X7p	Q1.2: Paper documents and writing|X7+: Wanted	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -879,15 +879,15 @@ exhausted	exhausted	exhaust	VERB	Tense=Past VerbForm=Part Voice=Pass	B2-,A1.5.1/
 </p>
 <note type="time" content="22:13:22"/>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8995" lang="English">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8995.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8995.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.554">
 Inflow	Inflow	inflow	NOUN	Number=Sing	M1/I1.1+,M1/S2	M1 I1.1p	M1: Moving, coming and going|I1.1+: Money: Affluence	t1
 </s>
 </p>
 </speech>
 <note type="speaker" content="President Mag. Wolfgang Sobotka"/>
-<speech id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27551" text_id="ParlaMint-AT-en_2022-10-12-027-XXVII-NRSITZ-00178" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislative period XXVII" session="-" meeting="-" sitting="Sitting 178" agenda="-" date="2022-10-12" title="Sitting Number 178, Legislative period XXVII, Wednesday, 12. October 2022" speaker_role="Chairperson" speaker_id="PAD_88386" speaker_name="Sobotka, Wolfgang" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ÖVP" speaker_party_name="parliamentary group of the Austrian People's Party" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27551" text_id="ParlaMint-AT-en_2022-10-12-027-XXVII-NRSITZ-00178" subcorpus="COVID,War" lang="English" body="Lower house" term="Legislative period XXVII" session="-" meeting="-" sitting="Sitting 178" agenda="-" date="2022-10-12" title="Sitting Number 178, Legislative period XXVII, Wednesday, 12. October 2022" speaker_role="Chairperson" topic="Other" speaker_id="PAD_88386" speaker_name="Sobotka, Wolfgang" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ÖVP" speaker_party_name="parliamentary group of the Austrian People's Party" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9000" lang="English">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9000.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9000.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.544">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 am	am	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 entitled	entitled	entitle	VERB	Tense=Past VerbForm=Part Voice=Pass	S7.4+	S7.4p	S7.4+: Allowed	t3
@@ -938,7 +938,7 @@ submitted	submitted	submit	VERB	Tense=Past VerbForm=Part Voice=Pass	A9-,S7.1-	A9
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002" lang="English">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.533">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="T1.1.3" usas_cats="T1.1.3" usas_glosses="T1.1.3: Time: Future">
 next	next	next	ADJ	Degree=Pos	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
@@ -970,7 +970,7 @@ a.m	a.m	a.m	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t19
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002.s2">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.994">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 agenda	agenda	agenda	NOUN	Number=Sing	Q1.2/X7+	Q1.2 X7p	Q1.2: Paper documents and writing|X7+: Wanted	t2
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -982,7 +982,7 @@ writing	writing	writing	NOUN	Number=Sing	Q1.2,I2.1	Q1.2	Q1.2: Paper documents an
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9004" lang="English">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9004.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9004.s1" senti_3="Positive" senti_6="positive" senti_n="4.642">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 thank	thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	S1.2.4+	S1.2.4p	S1.2.4+: Polite	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -995,7 +995,7 @@ Minister	Minister	minister	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t5
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9006" lang="English">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9006.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9006.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.557">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 sitting	sitting	sitting	NOUN	Number=Sing	M8,C1,P1,G1.1,G2.1,M6,A9+	M8	M8: Stationary	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3

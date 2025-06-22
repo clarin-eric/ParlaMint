@@ -15,12 +15,20 @@
                <resp xml:lang="eu">Informazio erauzketa eta TEI bihurketa</resp>
                <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="eu">IXA Taldea</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="99" xml:lang="eu">99 speeches</measure>
@@ -38,7 +46,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-16">2025-06-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -77,15 +85,17 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <note type="speaker" xml:id="ParlaMint-ES-PV_2019-12-20.note1">LEHENDAKARIAK (Tejeria Otermin):</note>
-            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2019-12-20.u0" ana="#chair">
+            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2019-12-20.u0" ana="#chair topic:welfa">
                <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg1" xml:lang="eu">Egun on guztioi. Osoko bilkurari hasiera emango diogu.</seg>
                <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg2" xml:lang="eu">Aldez aurreko gaia: "Mozioa, Nerea Kortajarena Ibañez EH Bildu taldeko legebiltzarkideak aurkeztua, EAEn gizarte-kohesioan ematen ari den atzerakadari buruz. Mozioari dagokionez, behin betiko ebaztea abenduaren 12ko osoko bilkurako bozketan izandako berdinketak, Erregelamenduaren 92.1 artikuluak adierazitakoari jarraituz".</seg>
                <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg3" xml:lang="eu">Berdinketa izan zen Euzko Abertzaleak eta Euskal Sozialistak taldeek batera aurkeztutako osoko zuzenketaren bozketan. Erregelamenduaren 92.1 artikuluari jarraituz, berriro egin behar dugu zuzenketa horren bozketa.</seg>
@@ -93,7 +103,7 @@
                <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg5" xml:lang="eu">Bozketa eginda, hauxe izan da emaitza: emandako botoak, 72; aldekoak, 36; aurkakoak, 36; abstentzioak, 0.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-ES-PV_2019-12-20.note2">LEHENDAKARIAK:</note>
-            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2019-12-20.u1" ana="#chair">
+            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2019-12-20.u1" ana="#chair topic:labor">
                <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg6" xml:lang="eu">Beraz, berdinketa dagoenez, bertan behera geratzen da osoko zuzenketa.</seg>
                <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg7" xml:lang="eu">Gai-zerrendako lehenengo puntua: "Lan eta Justizia Batzordearen irizpena, Euskadiko kooperatiben lege-proiektuaren gainean egindakoa. Eztabaida eta behin betiko ebazpena".</seg>
                <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg8" xml:lang="eu">Jaurlaritzaren ordezkaria den San José andreak dauka hitza, lege-proiektu hau aurkezteko.</seg>
@@ -101,13 +111,13 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2019-12-20.u97" ana="#chair">
+            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2019-12-20.u97" ana="#chair topic:other">
                <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg682" xml:lang="eu">Beraz, ez da onartu jatorrizko testua.</seg>
                <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg683" xml:lang="eu">Jarraian, Elkarrekin Podemos taldearen osoko zuzenketa bozkatuko dugu. Bozkatu dezakegu.</seg>
                <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg684" xml:lang="eu">Botazioa eginda, hauxe izan da emaitza: emandako botoak, 75; aldekoak, 29; aurkakoak, 37; abstentzioak, 9.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-ES-PV_2019-12-20.note110">LEHENDAKARIAK:</note>
-            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2019-12-20.u98" ana="#chair">
+            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2019-12-20.u98" ana="#chair topic:other">
                <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg685" xml:lang="eu">Beraz, ez da onartu Elkarrekin Podemosen osoko zuzenketa.</seg>
                <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg686" xml:lang="eu">Gai-zerrenda agortu dugunez, osoko bilkurari amaiera ematen diot eta Gabon zoriontsuak opa dizkizuet guzti-guztioi.</seg>
                <seg xml:id="ParlaMint-ES-PV_2019-12-20.seg687" xml:lang="eu">Eguerdiko ordu biak eta hamazazpi ziren.</seg>

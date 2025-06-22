@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.ana" xml:lang="cs" ana="#parla.agenda #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.ana" xml:lang="cs" ana="#CZ-parla.agenda #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,11 +10,23 @@
             <meeting ana="#parla.term #parla.lower #parliament.PSP7" n="ps2013" corresp="#parliament.PSP">ps2013</meeting>
             <meeting ana="#parla.meeting #parla.lower" n="ps2013/050" corresp="#parliament.PSP">ps2013/050</meeting>
             <meeting ana="#parla.sitting #parla.lower" n="ps2013/050/07" corresp="#parliament.PSP">ps2013/050/07</meeting>
-            <meeting ana="#parla.agenda #parla.lower" n="ps2013/050/262" corresp="#parliament.PSP">ps2013/050/262</meeting>
+            <meeting ana="#CZ-parla.agenda #parla.lower" n="ps2013/050/262" corresp="#parliament.PSP">ps2013/050/262</meeting>
             <respStmt>
                <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
                <resp xml:lang="en">TEI XML corpus encoding</resp>
                <resp xml:lang="en">Linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
             </respStmt>
             <funder>
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
@@ -26,12 +38,12 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="158" xml:lang="cs">158 promluv</measure>
             <measure unit="speeches" quantity="158" xml:lang="en">158 speeches</measure>
-            <measure unit="words" quantity="17969" xml:lang="cs">17.969 slov</measure>
+            <measure unit="words" quantity="17969" xml:lang="cs">17 969 slov</measure>
             <measure unit="words" quantity="17969" xml:lang="en">17,969 words</measure>
          </extent>
          <publicationStmt>
@@ -46,7 +58,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="cs">Toto dílo je licencováno <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Uveďte původ 4.0 Mezinárodní Veřejná licence</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-14">2025-06-14</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -91,6 +103,7 @@
                <tagUsage gi="kinesic" occurs="6"/>
                <tagUsage gi="link" occurs="21085"/>
                <tagUsage gi="linkGrp" occurs="1082"/>
+               <tagUsage gi="measure" occurs="1082"/>
                <tagUsage gi="name" occurs="604"/>
                <tagUsage gi="note" occurs="176"/>
                <tagUsage gi="pb" occurs="16"/>
@@ -117,8 +130,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-14">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
@@ -126,9 +141,10 @@
          <div type="debateSection">
             <pb source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050247.htm" n="1" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.pb1" corresp="#ps2013-050-07-005-262.audio1"/>
             <note type="speaker" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.ana.note1">Místopředseda PSP Jan Bartošek</note>
-            <u who="#JanBartosek.1971" ana="#chair" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1">
+            <u who="#JanBartosek.1971" ana="#chair topic:other" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1">
                <seg xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1">
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1.s1">
+                     <measure type="sentiment" quantity="3.274" ana="senti:neupos" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1.s1"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1.s1.w1" lemma="262" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" join="right">262</w>
 <pc xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1.s1.w2" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -137,6 +153,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1.s2">
+                     <measure type="sentiment" quantity="2.716" ana="senti:neupos" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1.s2"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1.s2.w1" lemma="ústní" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos">Ústní</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p1.s2.w2" lemma="interpelace" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos">interpelace</w>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -147,6 +164,7 @@
                </seg>
                <seg xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p2">
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p2.s1">
+                     <measure type="sentiment" quantity="2.350" ana="senti:neuneg" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p2.s1"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p2.s1.w1" lemma="který" msd="UPosTag=DET|Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel">které</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p2.s1.w2" lemma="být" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">jsou</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p2.s1.w3" lemma="určený" msd="UPosTag=ADJ|Animacy=Inan|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass">určeny</w>
@@ -181,6 +199,7 @@
                </seg>
                <seg xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3">
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s1">
+                     <measure type="sentiment" quantity="3.332" ana="senti:neupos" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s1"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s1.w1" lemma="na" msd="UPosTag=ADP|AdpType=Prep|Case=Acc">Na</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s1.w2" lemma="začátek" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos">začátek</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s1.w3" lemma="já" msd="UPosTag=PRON|Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short">mi</w>
@@ -204,6 +223,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s2">
+                     <measure type="sentiment" quantity="1.878" ana="senti:neuneg" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s2"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s2.w1" lemma="z" msd="UPosTag=ADP|AdpType=Prep|Case=Gen">Z</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s2.w2" lemma="celý" msd="UPosTag=ADJ|Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos">celého</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s2.w3" lemma="jednací" msd="UPosTag=ADJ|Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos">jednacího</w>
@@ -240,6 +260,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s3">
+                     <measure type="sentiment" quantity="1.312" ana="senti:mixneg" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s3"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s3.w1" lemma="10" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" join="right">10</w>
 <pc xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s3.w2" msd="UPosTag=PUNCT">.</pc>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p3.s3.w3" lemma="od" msd="UPosTag=ADP|AdpType=Prep|Case=Gen">od</w>
@@ -512,6 +533,7 @@
                </seg>
                <seg xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4">
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4.s1">
+                     <measure type="sentiment" quantity="2.483" ana="senti:neuneg" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4.s1"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4.s1.w1" lemma="dnes" msd="UPosTag=ADV">Dnes</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4.s1.w2" lemma="být" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">jsme</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4.s1.w3" lemma="za" msd="UPosTag=ADP|AdpType=Prep|Case=Gen">za</w>
@@ -592,6 +614,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4.s2">
+                     <measure type="sentiment" quantity="2.100" ana="senti:neuneg" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4.s2"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4.s2.w1" lemma="vzhledem" msd="UPosTag=ADP|AdpType=Comprep">Vzhledem</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4.s2.w2" lemma="k" msd="UPosTag=ADP|AdpType=Prep|Case=Dat">k</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p4.s2.w3" lemma="ten" msd="UPosTag=DET|Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem" join="right">tomu</w>
@@ -656,6 +679,7 @@
                </seg>
                <seg xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5">
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5.s1">
+                     <measure type="sentiment" quantity="3.144" ana="senti:neupos" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5.s1"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5.s1.w1" lemma="nyní" msd="UPosTag=ADV|PronType=Dem">Nyní</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5.s1.w2" lemma="dávat" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">dávám</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5.s1.w3" lemma="slovo" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos">slovo</w>
@@ -733,6 +757,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5.s2">
+                     <measure type="sentiment" quantity="3.802" ana="senti:mixpos" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5.s2"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5.s2.w1" lemma="prosit" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act" join="right">Prosím</w>
 <pc xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5.s2.w2" msd="UPosTag=PUNCT">,</pc>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u1.p5.s2.w3" lemma="pan" msd="UPosTag=NOUN|Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing|Polarity=Pos">pane</w>
@@ -749,9 +774,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.ana.note2">Poslanec Jiří Zlatuška</note>
-            <u who="#JiriZlatuska.1957" ana="#regular" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050247.htm#r2">
+            <u who="#JiriZlatuska.1957" ana="#regular topic:other" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050247.htm#r2">
                <seg xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1">
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s1">
+                     <measure type="sentiment" quantity="0.185" ana="senti:negneg" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s1"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s1.w1" lemma="já" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs">Já</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s1.w2" lemma="být" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">jsem</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s1.w3" lemma="chtít" msd="UPosTag=VERB|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act">chtěl</w>
@@ -864,6 +890,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s2">
+                     <measure type="sentiment" quantity="0.035" ana="senti:negneg" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s2"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s2.w1" lemma="a" msd="UPosTag=CCONJ">A</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s2.w2" lemma="jednat" msd="UPosTag=VERB|Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act">jednalo</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s2.w3" lemma="se" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short">se</w>
@@ -1044,6 +1071,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s3">
+                     <measure type="sentiment" quantity="0.046" ana="senti:negneg" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s3"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s3.w1" lemma="tento" msd="UPosTag=DET|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem">Tento</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s3.w2" lemma="rozpor" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">rozpor</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s3.w3" lemma="se" msd="UPosTag=PRON|Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short">si</w>
@@ -1173,6 +1201,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s4">
+                     <measure type="sentiment" quantity="0.413" ana="senti:negneg" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s4"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s4.w1" lemma="ale" msd="UPosTag=CCONJ">Ale</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s4.w2" lemma="pokud" msd="UPosTag=SCONJ">pokud</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s4.w3" lemma="tady" msd="UPosTag=ADV|PronType=Dem">tady</w>
@@ -1219,6 +1248,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s5">
+                     <measure type="sentiment" quantity="4.655" ana="senti:pospos" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s5"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s5.w1" lemma="děkovat" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act" join="right">Děkuji</w>
 <pc xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u2.p1.s5.w2" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -1231,9 +1261,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#PetrBendl.1966" ana="#regular" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050262.htm#r6">
+            <u who="#PetrBendl.1966" ana="#regular topic:mixed" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050262.htm#r6">
                <seg xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1">
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s1">
+                     <measure type="sentiment" quantity="4.263" ana="senti:mixpos" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s1"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s1.w1" lemma="děkovat" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act" join="right">Děkuji</w>
 <pc xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s1.w2" msd="UPosTag=PUNCT">,</pc>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s1.w3" lemma="pan" msd="UPosTag=NOUN|Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing|Polarity=Pos">pane</w>
@@ -1248,6 +1279,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s2">
+                     <measure type="sentiment" quantity="3.195" ana="senti:neupos" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s2"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s2.w1" lemma="můj" msd="UPosTag=DET|Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs">Moje</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s2.w2" lemma="otázka" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos">otázka</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s2.w3" lemma="být" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">je</w>
@@ -1262,6 +1294,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s3">
+                     <measure type="sentiment" quantity="3.046" ana="senti:neupos" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s3"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s3.w1" lemma="já" msd="UPosTag=PRON|Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short">Mě</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s3.w2" lemma="zajímat" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">zajímá</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s3.w3" lemma="celkový" msd="UPosTag=ADJ|Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos">celkový</w>
@@ -1308,6 +1341,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s4">
+                     <measure type="sentiment" quantity="3.152" ana="senti:neupos" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s4"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s4.w1" lemma="proto" msd="UPosTag=CCONJ">Proto</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s4.w2" lemma="prosit" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">prosím</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s4.w3" lemma="o" msd="UPosTag=ADP|AdpType=Prep|Case=Acc">o</w>
@@ -1364,6 +1398,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s5">
+                     <measure type="sentiment" quantity="2.207" ana="senti:neuneg" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s5"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s5.w1" lemma="kolik" msd="UPosTag=DET|Case=Nom|NumType=Card|PronType=Int,Rel">Kolik</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s5.w2" lemma="být" msd="UPosTag=AUX|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act">bylo</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s5.w3" lemma="už" msd="UPosTag=ADV">už</w>
@@ -1392,6 +1427,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s6">
+                     <measure type="sentiment" quantity="2.300" ana="senti:neuneg" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s6"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s6.w1" lemma="dále" msd="UPosTag=ADV">Dále</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s6.w2" lemma="já" msd="UPosTag=PRON|Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short">mě</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s6.w3" lemma="zajímat" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act" join="right">zajímá</w>
@@ -1498,6 +1534,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s7">
+                     <measure type="sentiment" quantity="4.201" ana="senti:mixpos" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s7"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s7.w1" lemma="děkovat" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">Děkuji</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s7.w2" lemma="ty" msd="UPosTag=PRON|Case=Dat|Number=Plur|Person=2|PronType=Prs">vám</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u157.p1.s7.w3" lemma="za" msd="UPosTag=ADP|AdpType=Prep|Case=Acc">za</w>
@@ -1516,9 +1553,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.ana.note175">Místopředseda PSP Petr Gazdík</note>
-            <u who="#PetrGazdik.1974" ana="#chair" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050262.htm#r7">
+            <u who="#PetrGazdik.1974" ana="#chair topic:other" xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158" source="https://www.psp.cz/eknih/2013ps/stenprot/050schuz/s050262.htm#r7">
                <seg xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1">
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s1">
+                     <measure type="sentiment" quantity="4.655" ana="senti:pospos" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s1"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s1.w1" lemma="děkovat" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act" join="right">Děkuji</w>
 <pc xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s1.w2" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -1527,6 +1565,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s2">
+                     <measure type="sentiment" quantity="0.942" ana="senti:mixneg" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s2"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s2.w1" lemma="omlouvat" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">Omlouvám</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s2.w2" lemma="se" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short">se</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s2.w3" lemma="pan" msd="UPosTag=NOUN|Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos">panu</w>
@@ -1623,6 +1662,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s3">
+                     <measure type="sentiment" quantity="4.891" ana="senti:pospos" corresp="#ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s3"/>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s3.w1" lemma="děkovat" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">Děkuji</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s3.w2" lemma="a" msd="UPosTag=CCONJ">a</w>
 <w xml:id="ParlaMint-CZ_2016-10-27-ps2013-050-07-005-262.u158.p1.s3.w3" lemma="přát" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">přeji</w>

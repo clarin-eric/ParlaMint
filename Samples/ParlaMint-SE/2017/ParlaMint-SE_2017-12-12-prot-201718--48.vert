@@ -3,15 +3,15 @@
 <note type="-" content="Utgiftsområde 11 Ekonomisk trygghet vid ålderdom ( prop . 2017 / 18:1 delvis )"/>
 <note type="-" content="föredrogs ."/>
 <note type="speaker" content="Anf . 1 LARS-ARNE STAXÄNG ( M ) :"/>
-<speech id="i-ba85b049978249cc-2" text_id="ParlaMint-SE_2017-12-12-prot-201718--48" subcorpus="Referens" lang="svenska" body="Unicameralism" term="2017/18" session="-" meeting="-" sitting="2017/18--48" agenda="-" date="2017-12-12" title="Riksdagens protokoll 2017/18 nr. 48" speaker_role="Regular" speaker_id="Q6187608" speaker_name="Staxäng, Lars-Arne" speaker_mp="MP" speaker_minister="notMinister" speaker_party="M" speaker_party_name="Moderaterna" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="i-ba85b049978249cc-2" text_id="ParlaMint-SE_2017-12-12-prot-201718--48" subcorpus="Referens" lang="svenska" body="Unicameralism" term="2017/18" session="-" meeting="-" sitting="2017/18--48" agenda="-" date="2017-12-12" title="Riksdagens protokoll 2017/18 nr. 48" speaker_role="Regular" topic="Labor" speaker_id="Q6187608" speaker_name="Staxäng, Lars-Arne" speaker_mp="MP" speaker_minister="notMinister" speaker_party="M" speaker_party_name="Moderaterna" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="i-BSces2LDsFmXtEWFrPMMvy" lang="svenska">
-<s id="i-7KxzKQVPSbSae8QwkWk5BA">
+<s id="i-7KxzKQVPSbSae8QwkWk5BA" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HoprTad7P85Pw44Br5676	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HoqUGtH8hfcXTXM9pGi1z
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HoqUGtH8hfcXTXM9pGi1z	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	i-7HoqgmXThXx1XPKHdS4aK6	dep	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HoqUGtH8hfcXTXM9pGi1z
 </s>
-<s id="i-7KxzctzF2xdwEpvTcn3tPW">
+<s id="i-7KxzctzF2xdwEpvTcn3tPW" senti_3="Neutral" senti_6="neutral postive" senti_n="2.944">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7HoqrmEokbmvivkSQj6U9a	nsubj	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hor4Ra3UquVnj67euJLxU
 ska	ska	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hor4Ra3UquVnj67euJLxU	root	-	-	-	-
 nu	nu	nu	ADV	-	i-7HorDayShKab4951CkkFJk	advmod	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hor4Ra3UquVnj67euJLxU
@@ -20,7 +20,7 @@ pensionssystemet	pensionssystemet	pensionssystem	NOUN	Case=Nom Definite=Def Gend
 <g/>
 .	.	.	PUNCT	-	i-7HorhuVbBLkgnWTw5kfwqn	punct	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hor4Ra3UquVnj67euJLxU
 </s>
-<s id="i-7KxzmE5hQrACa7T5wBuoFa">
+<s id="i-7KxzmE5hQrACa7T5wBuoFa" senti_3="Neutral" senti_6="neutral postive" senti_n="3.038">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Hors4tzPpRn3vSpdc7rC4	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hos2EJPcJ6sKLRiBTZkYL
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hos2EJPcJ6sKLRiBTZkYL	root	-	-	-	-
 ett	ett	en	DET	Definite=Ind Gender=Neut Number=Sing	i-7HosBPhnpmmxakQbjK1etc	det	område	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7HosP432Z1uXeYkGyVDXhW
@@ -37,7 +37,7 @@ socialförsäkringen	socialförsäkringen	socialförsäkring	NOUN	Case=Nom Defin
 <g/>
 .	.	.	PUNCT	-	i-7HotyWNyYNoGEp1RhTGYgU	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hos2EJPcJ6sKLRiBTZkYL
 </s>
-<s id="i-7KxzstZG7ZNp395Bnibj9E">
+<s id="i-7KxzstZG7ZNp395Bnibj9E" senti_3="Positive" senti_6="positive" senti_n="4.826">
 Nästan	Nästan	nästan	ADV	-	i-7Hou8fnNkrUMWDzKFJiT2k	advmod	all	DET	Definite=Def,Ind Gender=Com,Neut Number=Plur	i-7HouJfViovJGhmRU2bkLsE
 alla	alla	all	DET	Definite=Def,Ind Gender=Com,Neut Number=Plur	i-7HouJfViovJGhmRU2bkLsE	det	och	CCONJ	-	i-7HoubKgdZhLoNLUifRUAbN
 människor	människor	människa	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7HouTpu82PyMyBQMaTCFDW	dep	och	CCONJ	-	i-7HoubKgdZhLoNLUifRUAbN
@@ -80,7 +80,7 @@ utgifterna	utgifterna	utgift	NOUN	Case=Nom Definite=Def Gender=Com Number=Plur	i
 </s>
 </p>
 <p id="i-YPeGgyhPBDKDKJJ7Cmun1r" lang="svenska">
-<s id="i-7KxzzZ2ppGbRWAhHeFHf2t">
+<s id="i-7KxzzZ2ppGbRWAhHeFHf2t" senti_3="Neutral" senti_6="neutral postive" senti_n="2.533">
 Då	Då	då	ADV	-	i-7Hp13qFuuTAr1AYWj4AoPz	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hp1CzfK7vqwGaXQGuchkG
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hp1CzfK7vqwGaXQGuchkG	root	-	-	-	-
 frågan	frågan	fråga	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Hp1NA4iLQX2XzWHpm4c6Y	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hp1CzfK7vqwGaXQGuchkG
@@ -92,7 +92,7 @@ det	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Hp1yyNNMj4
 <g/>
 ?	?	?	PUNCT	-	i-7Hp28JTpjcapzoWD7988sW	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hp1CzfK7vqwGaXQGuchkG
 </s>
-<s id="i-7Ky17DWPWyp2yCKPVmyavY">
+<s id="i-7Ky17DWPWyp2yCKPVmyavY" senti_3="Neutral" senti_6="neutral negative" senti_n="2.100">
 Och	Och	och	CCONJ	-	i-7Hp2JJBAngQkCLwMtSA2hz	root	-	-	-	-
 hur	hur	hur	ADV	-	i-7Hp2TTaa1A5qTkvFSHbw4G	advmod	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hp2bng2P3c6o3SskhTqvL
 kommer	kommer	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hp2bng2P3c6o3SskhTqvL	dep	och	CCONJ	-	i-7Hp2JJBAngQkCLwMtSA2hz
@@ -105,7 +105,7 @@ framtiden	framtiden	framtid	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-
 <g/>
 ?	?	?	PUNCT	-	i-7Hp3h6Bt3oAuiorqNE1At4	punct	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hp2bng2P3c6o3SskhTqvL
 </s>
-<s id="i-7Ky1DsyxDh2eSDwVMJfWpC">
+<s id="i-7Ky1DsyxDh2eSDwVMJfWpC" senti_3="Neutral" senti_6="neutral postive" senti_n="3.179">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Hp3rFbHGGqzzDqiv5T5EL	dep	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hp4xPR5mcZdr7hwm3aPgG
 som	som	som	PRON	-	i-7Hp3ykNnoaDSPNv613izcC	nsubj	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hp4AaQ5hECBX3oW1nLsvt
 kommer	kommer	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hp4AaQ5hECBX3oW1nLsvt	nmod	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Hp3rFbHGGqzzDqiv5T5EL
@@ -128,7 +128,7 @@ framtiden	framtiden	framtid	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-
 <g/>
 .	.	.	PUNCT	-	i-7Hp6WLqCFCztdzcJngsSCc	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hp4xPR5mcZdr7hwm3aPgG
 </s>
-<s id="i-7Ky1LYTWvQFFuFZbCqMShr">
+<s id="i-7Ky1LYTWvQFFuFZbCqMShr" senti_3="Neutral" senti_6="neutral postive" senti_n="2.570">
 Den	Den	den	DET	Definite=Def Gender=Com Number=Sing	i-7Hp6fWEbTgfyuQbCLYKLYt	det	politik	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Hp6xzjT43sLW76iCod9mE
 ekonomiska	ekonomiska	ekonomisk	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Com,Neut Number=Sing	i-7Hp6pfdzgAM5Apa5tPmEuA	amod	politik	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Hp6xzjT43sLW76iCod9mE
 politiken	politiken	politik	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Hp6xzjT43sLW76iCod9mE	nsubj	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hp78zSo77hFheXrz6f3bi
@@ -148,7 +148,7 @@ ha	ha	ha	VERB	VerbForm=Inf Voice=Act	i-7Hp92wHbgqnLtcJXaL1so2	punct	att	PART	-	i
 <g/>
 .	.	.	PUNCT	-	i-7Hp9BGP44jJcDtq9tjsnf6	punct	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hp78zSo77hFheXrz6f3bi
 </s>
-<s id="i-7Ky1SNd8nXK3S9jRpvTP7J">
+<s id="i-7Ky1SNd8nXK3S9jRpvTP7J" senti_3="Negative" senti_6="negative" senti_n="0.300">
 För	För	för	CCONJ	-	i-7Hp9LRnTHCyhVJp3SbKh1N	root	-	-	-	-
 man	man	man	PRON	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Hp9VbBrVgenkinvzSmbMe	nsubj	slå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpBaN3wy4id5MT1bQkJse
 en	en	en	DET	Definite=Ind Gender=Com Number=Sing	i-7Hp9ekbFiAKt28mpYJDVhv	det	politik	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Hp9ouzevdzyHYki69fQ4C
@@ -172,7 +172,7 @@ pensionssystemet	pensionssystemet	pensionssystem	NOUN	Case=Nom Definite=Def Gend
 <g/>
 .	.	.	PUNCT	-	i-7HpCXLUMFvmAfqLLtXRiyJ	punct	slå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpBaN3wy4id5MT1bQkJse
 </s>
-<s id="i-7Ky1Z36hVEXeuBMXgT9Jzx">
+<s id="i-7Ky1Z36hVEXeuBMXgT9Jzx" senti_3="Positive" senti_6="mixed positive" senti_n="4.182">
 Därför	Därför	därför	ADV	-	i-7HpCgVskUQSFwFKESNsdKa	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpCqfH9gt7MCfJ7zEKXfr
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpCqfH9gt7MCfJ7zEKXfr	root	-	-	-	-
 det	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HpD1ezVjwwGQCjGmXMRWL	expl	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpCqfH9gt7MCfJ7zEKXfr
@@ -203,7 +203,7 @@ samhället	samhället	samhälle	NOUN	Case=Nom Definite=Def Gender=Neut Number=Si
 </s>
 </p>
 <p id="i-Nk2ewVqkk5Ffm3KaV9RPXX" lang="svenska">
-<s id="i-7Ky1fhaGBwkGNCydXyqEtc">
+<s id="i-7Ky1fhaGBwkGNCydXyqEtc" senti_3="Neutral" senti_6="neutral postive" senti_n="3.068">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7HpGgtCYCgtqK6eW6TPA1J	nsubj	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpGqDHzaaR6ePB8QsF4sN
 kommer	kommer	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpGqDHzaaR6ePB8QsF4sN	root	-	-	-	-
 att	att	att	PART	-	i-7HpGzNhPo46BuoA1xigyDe	dep	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpGqDHzaaR6ePB8QsF4sN
@@ -218,7 +218,7 @@ framåt	framåt	framåt	ADV	-	i-7HpJFfvbWsUv3718MYGC1r	advmod	uppbåda	VERB	Verb
 <g/>
 .	.	.	PUNCT	-	i-7HpJQqKzjMA1JWz1uPi6N8	punct	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpGqDHzaaR6ePB8QsF4sN
 </s>
-<s id="i-7Ky1mXjt44p3u79UA4wBJ4">
+<s id="i-7Ky1mXjt44p3u79UA4wBJ4" senti_3="Positive" senti_6="mixed positive" senti_n="4.423">
 Därför	Därför	därför	ADV	-	i-7HpJZzjPwpq6ZvxuTF9ziQ	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpJjA8oAJWBqLwo16bu4g
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpJjA8oAJWBqLwo16bu4g	root	-	-	-	-
 det	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HpJtKYCNnBH6kvgYx3oQx	expl	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpJjA8oAJWBqLwo16bu4g
@@ -241,7 +241,7 @@ arbetsmarknaden	arbetsmarknaden	arbetsmarknad	NOUN	Case=Nom Definite=Def Gender=
 <g/>
 .	.	.	PUNCT	-	i-7HpMYQn7MiLAkXhGRZUAPE	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpJjA8oAJWBqLwo16bu4g
 </s>
-<s id="i-7Ky1tCDSkn2fN8ma1bd7Bi">
+<s id="i-7Ky1tCDSkn2fN8ma1bd7Bi" senti_3="Positive" senti_6="mixed positive" senti_n="4.248">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HpMhaBWaC1G1wg9yQv4jW	expl	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpMsZtrdFqBDV7JkhwxZz
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpMsZtrdFqBDV7JkhwxZz	root	-	-	-	-
 viktigt	viktigt	viktig	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Neut Number=Sing	i-7HpN1tzK19MSYmdw57osS4	dep	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpMsZtrdFqBDV7JkhwxZz
@@ -269,7 +269,7 @@ pensioner	pensioner	pension	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-
 <g/>
 .	.	.	PUNCT	-	i-7HpR2oxrvoJzXkj5jkt1ZW	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpMsZtrdFqBDV7JkhwxZz
 </s>
-<s id="i-7Ky1zrh1TVFGqAPfs8K35N">
+<s id="i-7Ky1zrh1TVFGqAPfs8K35N" senti_3="Negative" senti_6="mixed negative" senti_n="1.179">
 Dessutom	Dessutom	dessutom	ADV	-	i-7HpRB94KJgqFs3Fi4AjvRa	advmod	måste	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpRMy5cCLozzi984uMokG
 måste	måste	måste	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpRMy5cCLozzi984uMokG	root	-	-	-	-
 fler	fler	fler	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Com,Neut Number=Plur	i-7HpRX8V1QpV6G881ckoi6Y	det	människa	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7HpRgHtQdJABXY6uAcFcSp
@@ -288,7 +288,7 @@ ihop	ihop	ihop	PART	-	i-7HpT5vD4j15Az8Udsqgk76	dep	gå	VERB	VerbForm=Inf Voice=A
 </s>
 </p>
 <p id="i-LeLTmP2HCxsw59MakraAg7" lang="svenska">
-<s id="i-7Ky29BnTqNmYASvJBYAwwS">
+<s id="i-7Ky29BnTqNmYASvJBYAwwS" senti_3="Neutral" senti_6="neutral negative" senti_n="2.394">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7HpTQF1s9xRMWxSQyYaYoe	nsubj	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpTZQRGNS6SnNRJXQ2T9v
 kan	kan	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpTZQRGNS6SnNRJXQ2T9v	root	-	-	-	-
 titta	titta	titta	VERB	VerbForm=Inf Voice=Act	i-7HpThjWikKci7ewvqotN1z	dep	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpTZQRGNS6SnNRJXQ2T9v
@@ -304,7 +304,7 @@ Sverige	Sverige	Sverige	PROPN	Case=Nom	i-7HpUo32aR5BX3RMtTLRgyi	advmod	utanför	
 </name>
 .	.	.	PUNCT	-	i-7HpUwN82nxhnNhtWmkHbqn	punct	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpTZQRGNS6SnNRJXQ2T9v
 </s>
-<s id="i-7Ky2FrG2Y5z9dUYQ34rsq6">
+<s id="i-7Ky2FrG2Y5z9dUYQ34rsq6" senti_3="Negative" senti_6="negative" senti_n="0.184">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7HpV6XXS1SNse7sQKbjWC4	nsubj	behöva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpVGXEn4WCnqfJZ6tmQ2Y
 behöver	behöver	behöva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpVGXEn4WCnqfJZ6tmQ2Y	root	-	-	-	-
 inte	inte	inte	ADV	-	i-7HpVQrLESPj4AwqBRJdJtc	dep	behöva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpVGXEn4WCnqfJZ6tmQ2Y
@@ -337,7 +337,7 @@ annan	annan	annan	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Com Number=Sing	i-
 <g/>
 .	.	.	PUNCT	-	i-7HpZuZBAehMjHAZNxP4Y7N	punct	behöva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpVGXEn4WCnqfJZ6tmQ2Y
 </s>
-<s id="i-7Ky2NWjbEoCm6WAVtbYoik">
+<s id="i-7Ky2NWjbEoCm6WAVtbYoik" senti_3="Neutral" senti_6="neutral negative" senti_n="2.011">
 Många	Många	mången	ADJ	Case=Nom Definite=Def,Ind Degree=Pos Gender=Com,Neut Number=Plur	i-7Hpa4iaZsB2pYaYGWEWSTe	det	stat	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7HpaD3g2F4Z5ss4tpeNMKi
 stater	stater	stat	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7HpaD3g2F4Z5ss4tpeNMKi	nsubj	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpbHWsw5Dy4sW2bCjKgoE
 <g/>
@@ -368,7 +368,7 @@ systemet	systemet	system	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7H
 <g/>
 .	.	.	PUNCT	-	i-7HpdcT16nccx4KP8kCGFak	punct	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpbHWsw5Dy4sW2bCjKgoE
 </s>
-<s id="i-7Ky2VBD9wWRNZXnbk8EjcQ">
+<s id="i-7Ky2VBD9wWRNZXnbk8EjcQ" senti_3="Negative" senti_6="negative" senti_n="0.397">
 Man	Man	man	PRON	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HpdmcQW16J3KjN2J3i9w2	nsubj	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hpdu7C1YPfUitSPP1z5Jt
 kommer	kommer	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hpdu7C1YPfUitSPP1z5Jt	root	-	-	-	-
 att	att	att	PART	-	i-7Hpe4GbQksLZzJRGvsRyfA	dep	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hpdu7C1YPfUitSPP1z5Jt
@@ -386,7 +386,7 @@ pensionsåldrar	pensionsåldrar	pensionsålder	NOUN	Case=Nom Definite=Ind Gender
 <g/>
 .	.	.	PUNCT	-	i-7HpfwP8GW1GqF8jgHfCpNG	punct	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hpdu7C1YPfUitSPP1z5Jt
 </s>
-<s id="i-7Ky2bqgieDdz2ZQhbevfW4">
+<s id="i-7Ky2bqgieDdz2ZQhbevfW4" senti_3="Neutral" senti_6="neutral postive" senti_n="3.375">
 Detta	Detta	detta	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Hpg5iDisto6aRGJc54jEL	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpgFhw4vxd1mxhTPN6d4p
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpgFhw4vxd1mxhTPN6d4p	root	-	-	-	-
 frågor	frågor	fråga	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7HpgQsLU9SJ73NgLwDYXR6	dep	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpgFhw4vxd1mxhTPN6d4p
@@ -399,7 +399,7 @@ EU	EU	EU	PROPN	Case=Nom	i-7Hph2ge8AkqeAu9duBk9Kz	obj	påverka	VERB	Mood=Ind Tens
 </name>
 .	.	.	PUNCT	-	i-7HphBr3XPEWjSK8XT3C3gG	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpgFhw4vxd1mxhTPN6d4p
 </s>
-<s id="i-7Ky2iWAHLvrbVb2oTBcbPi">
+<s id="i-7Ky2iWAHLvrbVb2oTBcbPi" senti_3="Neutral" senti_6="neutral postive" senti_n="2.864">
 Därför	Därför	därför	ADV	-	i-7HphM1SvbiBphj7Qztdx2Y	advmod	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HphVLYNybi631e3KJVrtc
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HphVLYNybi631e3KJVrtc	root	-	-	-	-
 man	man	man	PRON	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HphdfdqMVEMNJAfdiMmkg	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HphVLYNybi631e3KJVrtc
@@ -417,7 +417,7 @@ dagordningen	dagordningen	dagordning	NOUN	Case=Nom Definite=Def Gender=Com Numbe
 </s>
 </p>
 <p id="i-ArRQqnfXoArdJ9hoUDTyYc" lang="svenska">
-<s id="i-7Ky2qAdr3e5CxceuJiJXHN">
+<s id="i-7Ky2qAdr3e5CxceuJiJXHN" senti_3="Neutral" senti_6="neutral postive" senti_n="2.612">
 Hur	Hur	hur	ADV	-	i-7HpjMcmHt9VXMiWBSegi7W	advmod	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpjWnAh6dAcd8V4zW8cTn
 ser	ser	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpjWnAh6dAcd8V4zW8cTn	root	-	-	-	-
 det	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Hpjfwa6K6qhtYTxYMaWp4	nsubj	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpjWnAh6dAcd8V4zW8cTn
@@ -430,7 +430,7 @@ Sverige	Sverige	Sverige	PROPN	Case=Nom	i-7HpkGvZoVqER5wUzGtC9Ek	advmod	i	ADP	-	i
 </name>
 ?	?	?	PUNCT	-	i-7HpkRFfFsikgRE1cbJ446p	punct	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HpjWnAh6dAcd8V4zW8cTn
 </s>
-<s id="i-7Ky2vzoTum8zVWpjvoQTgp">
+<s id="i-7Ky2vzoTum8zVWpjvoQTgp" senti_3="Negative" senti_6="mixed negative" senti_n="0.795">
 Ja	Ja	ja	INTJ	-	i-7HpkZakiFcGwkWYEuhuxxt	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	i-7HpkikA7U5x31vX8TZMsKA	punct	ja	INTJ	-	i-7HpkZakiFcGwkWYEuhuxxt
@@ -453,7 +453,7 @@ många	många	mången	ADJ	Case=Nom Definite=Def,Ind Degree=Pos Gender=Com,Neut N
 <g/>
 .	.	.	PUNCT	-	i-7HpoNqQ2T26vfhHiLAnEHS	punct	ja	INTJ	-	i-7HpkZakiFcGwkWYEuhuxxt
 </s>
-<s id="i-7Ky33fH2cUMbxYSqnL6PaU">
+<s id="i-7Ky33fH2cUMbxYSqnL6PaU" senti_3="Negative" senti_6="negative" senti_n="0.112">
 Men	Men	men	CCONJ	-	i-7HpoWLBXzKUN4rN5R949fJ	root	-	-	-	-
 även	även	även	ADV	-	i-7HpofVawCo9TLGLxxzW41a	advmod	här	ADV	-	i-7HpoqVJHFryNXon7kHXwr4
 här	här	här	ADV	-	i-7HpoqVJHFryNXon7kHXwr4	advmod	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hpp1V1dJvoHjMDGXaZqgY
@@ -476,7 +476,7 @@ något	något	något	PRON	Case=Acc,Nom Definite=Ind Gender=Neut Number=Sing	i-7H
 <g/>
 .	.	.	PUNCT	-	i-7HprUkEFQCySFT6SPTNKL8	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hpp1V1dJvoHjMDGXaZqgY
 </s>
-<s id="i-7Ky3AKkbKBaDRa4wdrnKU8">
+<s id="i-7Ky3AKkbKBaDRa4wdrnKU8" senti_3="Positive" senti_6="positive" senti_n="5.203">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7HprdudecgeXWs5KwJpDgQ	nsubj	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HprnEj6zaAnr9bxFig8YU
 ska	ska	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HprnEj6zaAnr9bxFig8YU	root	-	-	-	-
 vara	vara	vara	VERB	VerbForm=Inf Voice=Act	i-7HprxEST3dzi3h3731i2Nx	dep	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HprnEj6zaAnr9bxFig8YU
@@ -503,7 +503,7 @@ pensionssystemet	pensionssystemet	pensionssystem	NOUN	Case=Nom Definite=Def Gend
 <g/>
 .	.	.	PUNCT	-	i-7HpvQy1JwYfsxfAPtKwtap	punct	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HprnEj6zaAnr9bxFig8YU
 </s>
-<s id="i-7Ky3G9vDBJdzxUEnFwtFsa">
+<s id="i-7Ky3G9vDBJdzxUEnFwtFsa" senti_3="Positive" senti_6="mixed positive" senti_n="3.895">
 Det	Det	den	DET	Definite=Def Gender=Neut Number=Sing	i-7HpvZJ6mKSC9Hwh2CjooSt	det	ATP-system	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7HpvtTDWayh9ku74XtHbde
 gamla	gamla	gammal	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Com,Neut Number=Sing	i-7HpvjHp7NW24VV8Az2qhHN	amod	ATP-system	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7HpvtTDWayh9ku74XtHbde
 ATP-systemet	ATP-systemet	ATP-system	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7HpvtTDWayh9ku74XtHbde	nsubj	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Hpw2nJxxsDR6BdgrJ9WVi
@@ -530,7 +530,7 @@ arbetade	arbetade	arbeta	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Hpyu
 <g/>
 .	.	.	PUNCT	-	i-7HpzDgzrwaztGi9zJEFYTe	punct	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Hpw2nJxxsDR6BdgrJ9WVi
 </s>
-<s id="i-7Ky3NpPmt1rcRVrt7UaBmE">
+<s id="i-7Ky3NpPmt1rcRVrt7UaBmE" senti_3="Negative" senti_6="negative" senti_n="0.132">
 Men	Men	men	CCONJ	-	i-7HpzNrQGA4fyY88sr5hSov	root	-	-	-	-
 det	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HpzXBViXxCEsQfWAVZMfz	expl	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7HpzhBD4b22A4x6ewnbFWU
 hade	hade	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7HpzhBD4b22A4x6ewnbFWU	dep	men	CCONJ	-	i-7HpzNrQGA4fyY88sr5hSov
@@ -563,7 +563,7 @@ avgifter	avgifter	avgift	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7Hq
 <g/>
 .	.	.	PUNCT	-	i-7Hq4yPQpEVNSBF2v1FEcS8	punct	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7HpzhBD4b22A4x6ewnbFWU
 </s>
-<s id="i-7Ky3VUsLaj5DtXUyy1G7et">
+<s id="i-7Ky3VUsLaj5DtXUyy1G7et" senti_3="Negative" senti_6="negative" senti_n="0.114">
 Detta	Detta	detta	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Hq59P8AHZCMNnU4nYGWGc	nsubj	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Hq5HiDcfSici4zh6x8R8g
 hade	hade	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Hq5HiDcfSici4zh6x8R8g	dep	och	CCONJ	-	i-7Hq6iArDbjnS6nph3d9YHA
 naturligtvis	naturligtvis	naturligtvis	ADV	-	i-7Hq5Ssd1svPhyUyaeoaKUx	advmod	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Hq5HiDcfSici4zh6x8R8g
@@ -588,7 +588,7 @@ pensioner	pensioner	pension	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-
 <g/>
 .	.	.	PUNCT	-	i-7Hq8VTDTUkeupiyFnKpSap	punct	och	CCONJ	-	i-7Hq6iArDbjnS6nph3d9YHA
 </s>
-<s id="i-7Ky3c9LuHSHqMZ75pXx3YY">
+<s id="i-7Ky3c9LuHSHqMZ75pXx3YY" senti_3="Negative" senti_6="mixed negative" senti_n="0.502">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Hq8eccrhEL168x9LBGLw6	nsubj	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Hq8nwiK57rGRRUmeb8FoA
 hade	hade	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Hq8nwiK57rGRRUmeb8FoA	root	-	-	-	-
 heller	heller	heller	ADV	-	i-7Hq8xwRf8BgBcxuvRtA9de	advmod	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Hq8nwiK57rGRRUmeb8FoA
@@ -605,7 +605,7 @@ timmar	timmar	timme	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7HqANZkK
 <g/>
 .	.	.	PUNCT	-	i-7HqAXj9iSNGGLyGYgy3BeC	punct	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Hq8nwiK57rGRRUmeb8FoA
 </s>
-<s id="i-7Ky3hyWX9ZMctTGvSd3ywz">
+<s id="i-7Ky3hyWX9ZMctTGvSd3ywz" senti_3="Negative" senti_6="negative" senti_n="0.191">
 Därför	Därför	därför	ADV	-	i-7HqAgtZ7eqwMcPFSEpV5zU	advmod	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqAr3xWsKcSsoEKnfvzLk
 kan	kan	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqAr3xWsKcSsoEKnfvzLk	root	-	-	-	-
 man	man	man	PRON	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HqB23frvPSN5LfUZxxtBE	nsubj	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqAr3xWsKcSsoEKnfvzLk
@@ -628,13 +628,13 @@ barnbarn	barnbarn	barnbarn	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	i-
 </s>
 </p>
 <p id="i-J5zLMrW4do9rU1ZP93D6mv" lang="svenska">
-<s id="i-7Ky3pdz5rGaEMUu2J9juqe">
+<s id="i-7Ky3pdz5rGaEMUu2J9juqe" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HqDWyWNgqvAThTAtiwLoE	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HqDgyDijuk5fEtKg1yEdi
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HqDgyDijuk5fEtKg1yEdi	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	i-7HqDsoF1dZipnumjgkb7xQ	punct	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HqDgyDijuk5fEtKg1yEdi
 </s>
-<s id="i-7Ky3wJTeYynqpWX89gRqjJ">
+<s id="i-7Ky3wJTeYynqpWX89gRqjJ" senti_3="Neutral" senti_6="neutral negative" senti_n="1.577">
 Pensionärer	Pensionärer	pensionär	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7HqE4dGJXDhZvaf9hVD1H6	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqEDnfhjhNfBze3FLeudN
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqEDnfhjhNfBze3FLeudN	root	-	-	-	-
 ingen	ingen	ingen	DET	Definite=Ind Gender=Com Number=Sing	i-7HqENx56xB3kTQcvoC6oye	det	grupp	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HqEhGsuP8PvzEahttzcgC
@@ -643,7 +643,7 @@ grupp	grupp	grupp	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HqEhGsuP8
 <g/>
 .	.	.	PUNCT	-	i-7HqEqbyMm1vCKX7LDJrXYG	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqEDnfhjhNfBze3FLeudN
 </s>
-<s id="i-7Ky438dGR6rdMQgxmmXn8k">
+<s id="i-7Ky438dGR6rdMQgxmmXn8k" senti_3="Positive" senti_6="mixed positive" senti_n="4.318">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HqEzmNkyVbHaw6DmAJRtY	expl	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7HqF9vnAByGNrM57K1kLEp
 finns	finns	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7HqF9vnAByGNrM57K1kLEp	root	-	-	-	-
 människor	människor	människa	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7HqFKvVWF36J3tWG6JnE5J	nsubj	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7HqF9vnAByGNrM57K1kLEp
@@ -668,7 +668,7 @@ tjänstepensionslösningar	tjänstepensionslösningar	tjänstepensionslösning	N
 <g/>
 .	.	.	PUNCT	-	i-7HqJ8LpsbrmT2woUHL4Vue	punct	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7HqF9vnAByGNrM57K1kLEp
 </s>
-<s id="i-7Ky49o6q7p5EpSK4dJDi2Q">
+<s id="i-7Ky49o6q7p5EpSK4dJDi2Q" senti_3="Positive" senti_6="mixed positive" senti_n="3.767">
 Dessutom	Dessutom	dessutom	ADV	-	i-7HqJHWEGpLSYJMnMqBWQFv	advmod	utnyttja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqJTVwcsQGTVuDWcUYJ6Q
 utnyttjar	utnyttjar	utnyttja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqJTVwcsQGTVuDWcUYJ6Q	root	-	-	-	-
 allt	allt	allt	ADV	-	i-7HqJbq35FHniqBk8vtQCxU	advmod	fler	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Com,Neut Number=Plur	i-7HqJkzSUTmTp6bj2Ujr7Jk
@@ -690,7 +690,7 @@ pension	pension	pension	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HqL
 <g/>
 .	.	.	PUNCT	-	i-7HqM8RVUgvaB5oSMiXYeYt	punct	utnyttja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqJTVwcsQGTVuDWcUYJ6Q
 </s>
-<s id="i-7Ky4GTaPpXHrHTwAUpudv4">
+<s id="i-7Ky4GTaPpXHrHTwAUpudv4" senti_3="Positive" senti_6="mixed positive" senti_n="4.449">
 Detta	Detta	detta	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HqMHatsuQFGMDRFGNzYuA	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqMTacDxU5BYkrQ3g2Sje
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqMTacDxU5BYkrQ3g2Sje	root	-	-	-	-
 extra	extra	extra	ADV	-	i-7HqMbuhgLMbSt3P2N5tMbi	advmod	gynnsam	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Neut Number=Sing	i-7HqMmuR2PRRN5apB9NvFSC
@@ -706,7 +706,7 @@ jobbskatteavdrag	jobbskatteavdrag	jobbskatteavdrag	NOUN	Case=Nom Definite=Ind Ge
 <g/>
 .	.	.	PUNCT	-	i-7HqPE2fWztnqLZYhYw7MZ6	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqMTacDxU5BYkrQ3g2Sje
 </s>
-<s id="i-7Ky4P83xXEWTkVZGLMbZoi">
+<s id="i-7Ky4P83xXEWTkVZGLMbZoi" senti_3="Neutral" senti_6="neutral postive" senti_n="3.199">
 De	De	de	PRON	Case=Nom Definite=Def Gender=Com,Neut Number=Plur	i-7HqPPC4vDNTvbyXb6nZFuN	nsubj	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqQ1qgX5HAHfdT9JCLsJU
 som	som	som	PRON	-	i-7HqPYMUKRr91sPWUee1AFe	nsubj	uppbära	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqPhWsieKp78oVNCVT4bv
 uppbär	uppbär	uppbära	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqPhWsieKp78oVNCVT4bv	nmod	de	PRON	Case=Nom Definite=Def Gender=Com,Neut Number=Plur	i-7HqPPC4vDNTvbyXb6nZFuN
@@ -728,7 +728,7 @@ tillägget	tillägget	tillägg	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sin
 </s>
 </p>
 <p id="i-DLEsb4yBxahFTTvC6u97af" lang="svenska">
-<s id="i-7Ky4VnXXDwj5DXBNBtHVhN">
+<s id="i-7Ky4VnXXDwj5DXBNBtHVhN" senti_3="Positive" senti_6="mixed positive" senti_n="4.111">
 Alla	Alla	all	DET	Definite=Def,Ind Gender=Com,Neut Number=Plur	i-7HqS5nEfi55J48exfijbLG	det	åtgärd	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7HqSPGjXJSGeeqAUXz3QYc
 dessa	dessa	denna	DET	Definite=Def Gender=Com,Neut Number=Plur	i-7HqSE7L85xbZPRBaz8bWCL	det	åtgärd	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7HqSPGjXJSGeeqAUXz3QYc
 åtgärder	åtgärder	åtgärd	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7HqSPGjXJSGeeqAUXz3QYc	nsubj	komma	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7HqSYS8vWuwjvF9N5qVJtt
@@ -748,7 +748,7 @@ marginaleffekter	marginaleffekter	marginaleffekt	NOUN	Case=Nom Definite=Ind Gend
 <g/>
 .	.	.	PUNCT	-	i-7HqUcNh59hrkJkMBTMt2vg	punct	komma	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7HqSYS8vWuwjvF9N5qVJtt
 </s>
-<s id="i-7Ky4cT15vewggYoU3QyRb2">
+<s id="i-7Ky4cT15vewggYoU3QyRb2" senti_3="Positive" senti_6="positive" senti_n="5.345">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HqUmY6UNBXqaAL51DKwGx	nsubj	gynna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqUvhVsafCvqaJxZ4mqdE
 gynnar	gynnar	gynna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqUvhVsafCvqaJxZ4mqdE	dep	och	CCONJ	-	i-7HqVF2Jg1cZ7NQGjemfeKn
 jobblinjen	jobblinjen	jobblinje	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7HqV5ruGo8t26zHr6vDjyW	obj	gynna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqUvhVsafCvqaJxZ4mqdE
@@ -765,7 +765,7 @@ själva	själva	själv	ADJ	Case=Nom Definite=Def,Ind Degree=Pos Gender=Com,Neut 
 </s>
 </p>
 <p id="i-M76PnDuyaUU22eu5L7W695" lang="svenska">
-<s id="i-7Ky4iHAhnn1UDSyJfW5MzU">
+<s id="i-7Ky4iHAhnn1UDSyJfW5MzU" senti_3="Negative" senti_6="negative" senti_n="0.103">
 Men	Men	men	CCONJ	-	i-7HqWfUwGwucvm86jbSgmUG	root	-	-	-	-
 det	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HqWop2jKo9C6QdMurYgLL	expl	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7HqWxyS8YGpHMpcFThzagc
 finns	finns	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7HqWxyS8YGpHMpcFThzagc	dep	men	CCONJ	-	i-7HqWfUwGwucvm86jbSgmUG
@@ -795,7 +795,7 @@ situationen	situationen	situation	NOUN	Case=Nom Definite=Def Gender=Com Number=S
 <g/>
 .	.	.	PUNCT	-	i-7HqaZCnVyUrtfwouPzWNGL	punct	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7HqWxyS8YGpHMpcFThzagc
 </s>
-<s id="i-7Ky4pweGVVE5gUbQX2mHt8">
+<s id="i-7Ky4pweGVVE5gUbQX2mHt8" senti_3="Negative" senti_6="mixed negative" senti_n="1.181">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HqajCVr2YgosVF4BHYG6p	nsubj	gälla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqatMuFF2Mu8uDwj8zAT6
 gäller	gäller	gälla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqatMuFF2Mu8uDwj8zAT6	root	-	-	-	-
 inte	inte	inte	ADV	-	i-7Hqb3XJeTW2zQKCqGzS4oN	dep	gälla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqatMuFF2Mu8uDwj8zAT6
@@ -821,7 +821,7 @@ deltid	deltid	deltid	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HqdySR
 <g/>
 .	.	.	PUNCT	-	i-7Hqe8bpva6kg3wZJ6qSAMr	punct	gälla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqatMuFF2Mu8uDwj8zAT6
 </s>
-<s id="i-7Ky4wc7qCCSh9WDWNZTDmn">
+<s id="i-7Ky4wc7qCCSh9WDWNZTDmn" senti_3="Neutral" senti_6="neutral postive" senti_n="2.605">
 Där	Där	där	ADV	-	i-7HqeGvvNwzGwPE5vRFJ5Dv	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqeSvdj146ramX5CYKy4Q
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqeSvdj146ramX5CYKy4Q	root	-	-	-	-
 det	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HqecvM547vmnJxDyqMrtt	expl	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqeSvdj146ramX5CYKy4Q
@@ -845,7 +845,7 @@ annat	annat	annat	PRON	Case=Acc,Nom Definite=Ind Gender=Neut Number=Sing	i-7HqhG
 <g/>
 .	.	.	PUNCT	-	i-7HqhQWNVaMT6qEoAwR49F2	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqeSvdj146ramX5CYKy4Q
 </s>
-<s id="i-7Ky54GbPtufJcXqcE699fS">
+<s id="i-7Ky54GbPtufJcXqcE699fS" senti_3="Positive" senti_6="mixed positive" senti_n="3.911">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HqhaW5qdRH22nEKii635W	expl	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqhiqBJ1JoHN4kx37wwwa
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqhiqBJ1JoHN4kx37wwwa	root	-	-	-	-
 också	också	också	ADV	-	i-7HqhszahDnUNdUjqayPrHr	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqhiqBJ1JoHN4kx37wwwa
@@ -877,7 +877,7 @@ prisbasbeloppshöjningar	prisbasbeloppshöjningar	prisbasbeloppshöjning	NOUN	Ca
 <g/>
 .	.	.	PUNCT	-	i-7HqmgiaFDpoNwXjRzshWAg	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqhiqBJ1JoHN4kx37wwwa
 </s>
-<s id="i-7Ky5Aw4xbcsv5ZTi5cq5Z6">
+<s id="i-7Ky5Aw4xbcsv5ZTi5cq5Z6" senti_3="Positive" senti_6="positive" senti_n="4.616">
 Ett	Ett	en	DET	Definite=Ind Gender=Neut Number=Sing	i-7Hqmq3fhbiKeGpG4KHZR2k	det	konstaterande	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7HqnUXbFJDAqGbdsk8w1v4
 annat	annat	annan	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Neut Number=Sing	i-7Hqn13P3en9ZUMhD6abJsE	det	konstaterande	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7HqnUXbFJDAqGbdsk8w1v4
 mycket	mycket	mycket	ADV	Degree=Pos	i-7HqnACnSsFpejmg6eS3DDW	advmod	rolig	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Neut Number=Sing	i-7HqnKNBr5jVk1BezCHV7Zn
@@ -923,13 +923,13 @@ tillvaron	tillvaron	tillvaro	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i
 </s>
 </p>
 <p id="i-RHmAdNQyjDp6Gufkh127dj" lang="svenska">
-<s id="i-7Ky5HbYXJL6XYb5ow9X1Sk">
+<s id="i-7Ky5HbYXJL6XYb5ow9X1Sk" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HqtFMyL4vM4SFfSuUXTRE	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HqtRMgg7zAydo6bgmZMFi
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HqtRMgg7zAydo6bgmZMFi	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	i-7HqtZgn8VshEy5dE1BRG7n	punct	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HqtRMgg7zAydo6bgmZMFi
 </s>
-<s id="i-7Ky5PRi9ATAK5VFeZEcwrC">
+<s id="i-7Ky5PRi9ATAK5VFeZEcwrC" senti_3="Negative" senti_6="negative" senti_n="0.350">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HqtjgVUYwXAAd4NnUT9xG	expl	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7Hqtt1avvq3RVub16tK4pL
 finns	finns	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7Hqtt1avvq3RVub16tK4pL	root	-	-	-	-
 en	en	en	DET	Definite=Ind Gender=Com Number=Sing	i-7Hqu3AzL9JiWmKZtejkyAc	det	oro	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HquCLPjMnPc2jYnCbCsWt
@@ -939,7 +939,7 @@ världen	världen	värld	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Hq
 <g/>
 .	.	.	PUNCT	-	i-7Hqufpbw1DQspyVSr9YaZi	punct	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7Hqtt1avvq3RVub16tK4pL
 </s>
-<s id="i-7Ky5VFsm2aE6cPRVBKitFe">
+<s id="i-7Ky5VFsm2aE6cPRVBKitFe" senti_3="Negative" senti_6="negative" senti_n="0.329">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7Hqup9hPP6w9AG25AZQVRn	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HquyK6nbacERfzxiQrPn4
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HquyK6nbacERfzxiQrPn4	root	-	-	-	-
 flyktingströmmar	flyktingströmmar	flyktingström	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7Hqv8UWBp4HKh5yrGGJJ8L	obj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HquyK6nbacERfzxiQrPn4
@@ -961,7 +961,7 @@ instabilitet	instabilitet	instabilitet	NOUN	Case=Nom Definite=Ind Gender=Com Num
 <g/>
 .	.	.	PUNCT	-	i-7HqxeEeeR6ux1aDopTrkEY	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HquyK6nbacERfzxiQrPn4
 </s>
-<s id="i-7Ky5bvMKjHSi5R3b2rQp9J">
+<s id="i-7Ky5bvMKjHSi5R3b2rQp9J" senti_3="Negative" senti_6="mixed negative" senti_n="0.544">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7HqxpEMzUAjsD7exbkte52	nsubj	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqxxZTSr4G8YQBavAkYw6
 ser	ser	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqxxZTSr4G8YQBavAkYw6	root	-	-	-	-
 med	med	med	ADP	-	i-7Hqy7irr4XwDopAUU2CTHN	advmod	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqxxZTSr4G8YQBavAkYw6
@@ -997,7 +997,7 @@ världen	världen	värld	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Hr
 <g/>
 .	.	.	PUNCT	-	i-7Hr3D73JpMJknSDKWkDvtL	punct	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HqxxZTSr4G8YQBavAkYw6
 </s>
-<s id="i-7Ky5hkWwbQWVcKDRewWkYk">
+<s id="i-7Ky5hkWwbQWVcKDRewWkYk" senti_3="Negative" senti_6="mixed negative" senti_n="1.143">
 Allt	Allt	all	DET	Definite=Def,Ind Gender=Neut Number=Sing	i-7Hr3NGSi2pyr3rCD4bfqEc	det	detta	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Hr3WbYAQiW7P8iqP1Xk6g
 detta	detta	detta	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Hr3WbYAQiW7P8iqP1Xk6g	nsubj	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hr3evdcnc2NiRFThRPexk
 kommer	kommer	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hr3evdcnc2NiRFThRPexk	root	-	-	-	-
@@ -1019,7 +1019,7 @@ exportberoende	exportberoende	exportberoende	VERB	Case=Nom Definite=Def,Ind Gend
 <g/>
 .	.	.	PUNCT	-	i-7Hr5i2spaonZAo11qWCPWL	punct	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hr3evdcnc2NiRFThRPexk
 </s>
-<s id="i-7Ky5oagZTXaH9DPGH2cgxC">
+<s id="i-7Ky5oagZTXaH9DPGH2cgxC" senti_3="Neutral" senti_6="neutral negative" senti_n="2.168">
 Vårt	Vårt	vår	DET	Definite=Def Gender=Neut Number=Sing	i-7Hr5t2bAdscUNLSAcoEHLp	det	pensionssystem	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Hr63BzZrMHZdkR4AegBh6
 pensionssystem	pensionssystem	pensionssystem	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Hr63BzZrMHZdkR4AegBh6	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hr6BX62EEopy2wgV4Y6ZA
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hr6BX62EEopy2wgV4Y6ZA	dep	och	CCONJ	-	i-7Hr6xVo5U32TMyPrztBcpL
@@ -1045,7 +1045,7 @@ Sverige	Sverige	Sverige	PROPN	Case=Nom	i-7Hr8WTDBwdTi9rJE2XUfLg	advmod	i	ADP	-	i
 </s>
 </p>
 <p id="i-5kSd6pUt1nXRqyG9Pb1Vyd" lang="svenska">
-<s id="i-7Ky5vFA8AEntcF1N8ZJcqr">
+<s id="i-7Ky5vFA8AEntcF1N8ZJcqr" senti_3="Neutral" senti_6="neutral postive" senti_n="2.881">
 Vårt	Vårt	vår	DET	Definite=Def Gender=Neut Number=Sing	i-7Hr8pn1zNaotggG18ENU3E	det	pensionssystem	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Hr9AmSgUiTj5m8JgpSFiC
 nya	nya	ny	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Com,Neut Number=Sing	i-7Hr91c3HGEndpM9R8xzMMv	amod	pensionssystem	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Hr9AmSgUiTj5m8JgpSFiC
 pensionssystem	pensionssystem	pensionssystem	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Hr9AmSgUiTj5m8JgpSFiC	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrAYj9SuF54g6bWwAhQQ4
@@ -1069,7 +1069,7 @@ arbete	arbete	arbete	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7HrBUs
 <g/>
 .	.	.	PUNCT	-	i-7HrBdCMMjQV3fjZDKFejsa	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrAYj9SuF54g6bWwAhQQ4
 </s>
-<s id="i-7Ky625Kk2Mrg99BCkeQZFJ">
+<s id="i-7Ky625Kk2Mrg99BCkeQZFJ" senti_3="Neutral" senti_6="neutral postive" senti_n="2.923">
 Man	Man	man	PRON	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HrBnMkkwtA8w9Y6s76eDr	nsubj	tjäna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrBwXAAAMqECZWzQxYYa8
 tjänar	tjänar	tjäna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrBwXAAAMqECZWzQxYYa8	root	-	-	-	-
 in	in	in	PART	-	i-7HrC6gZZNqWKTyVsxozSvQ	dep	tjäna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrBwXAAAMqECZWzQxYYa8
@@ -1078,7 +1078,7 @@ pensionspoäng	pensionspoäng	pensionspoäng	NOUN	Case=Nom Definite=Ind Gender=C
 <g/>
 .	.	.	PUNCT	-	i-7HrCb15hrrgRCLtoqov9TS	punct	tjäna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrBwXAAAMqECZWzQxYYa8
 </s>
-<s id="i-7Ky67uVMtUvTg3M3NjWVek">
+<s id="i-7Ky67uVMtUvTg3M3NjWVek" senti_3="Neutral" senti_6="neutral negative" senti_n="2.430">
 Man	Man	man	PRON	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HrCkAV75LMWTkshPfN3oi	nsubj	få	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrCtVaZTDsmo3QKi5Dxfn
 får	får	få	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrCtVaZTDsmo3QKi5Dxfn	root	-	-	-	-
 sina	sina	sin	DET	Definite=Def Gender=Com,Neut Number=Plur	i-7HrD3eyxfhYs4TPDFvfs24	det	pensionsratt	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7HrDEV1FZMXcC8GdGfHkLk
@@ -1093,7 +1093,7 @@ maximinivå	maximinivå	maximinivå	NOUN	Case=Nom Definite=Ind Gender=Com Number
 <g/>
 .	.	.	PUNCT	-	i-7HrEVnETHAvLKS7jfUry8x	punct	få	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrCtVaZTDsmo3QKi5Dxfn
 </s>
-<s id="i-7Ky6FQGsRnHu5CRQThnR2c">
+<s id="i-7Ky6FQGsRnHu5CRQThnR2c" senti_3="Neutral" senti_6="neutral postive" senti_n="3.469">
 Dessutom	Dessutom	dessutom	ADV	-	i-7HrEewdrVebRar6dDLJsVE	advmod	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7HrEoGjJsY7gv8dFXkAnMJ
 finns	finns	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7HrEoGjJsY7gv8dFXkAnMJ	root	-	-	-	-
 det	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HrEyGSevbwc7g4QK3CgBn	expl	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7HrEoGjJsY7gv8dFXkAnMJ
@@ -1120,7 +1120,7 @@ pension	pension	pension	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HrH
 </s>
 </p>
 <p id="i-HiFwMJaQ5o1S198Ku3dkug" lang="svenska">
-<s id="i-7Ky6N4kS8VWWYE3WKEULvG">
+<s id="i-7Ky6N4kS8VWWYE3WKEULvG" senti_3="Negative" senti_6="mixed negative" senti_n="0.900">
 Men	Men	men	CCONJ	-	i-7HrJ8WWfE9RRRwgBJ68jBJ	root	-	-	-	-
 en	en	en	DET	Definite=Ind Gender=Com Number=Sing	i-7HrJJWE1HDFLdV7L5PAd1n	det	sak	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HrJTfdQVgvRtu6DdEcXN4
 sak	sak	sak	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HrJTfdQVgvRtu6DdEcXN4	nsubj	måste	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrJbzirsaShEBcqweUSE8
@@ -1165,7 +1165,7 @@ pensioner	pensioner	pension	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-
 <g/>
 .	.	.	PUNCT	-	i-7HrQGzwKnAZ8rwUaUtxwKr	punct	måste	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrJbzirsaShEBcqweUSE8
 </s>
-<s id="i-7Ky6Ttv3zcaJ58DLwKaHKi">
+<s id="i-7Ky6Ttv3zcaJ58DLwKaHKi" senti_3="Neutral" senti_6="neutral postive" senti_n="2.888">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HrQSALizeEE8MTU2kQqg8	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrQbKk8D7uKPmSMabrk2Q
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrQbKk8D7uKPmSMabrk2Q	root	-	-	-	-
 ett	ett	en	DET	Definite=Ind Gender=Neut Number=Sing	i-7HrQkV9XRbaQfBRF8TJeNg	det	generationskontrakt	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7HrREoffuckWPYpB1TELui
@@ -1175,7 +1175,7 @@ generationskontrakt	generationskontrakt	generationskontrakt	NOUN	Case=Nom Defini
 <g/>
 .	.	.	PUNCT	-	i-7HrRP8m8HWGmiqLoKs6Fmn	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrQbKk8D7uKPmSMabrk2Q
 </s>
-<s id="i-7Ky6aZPchKnuY9qSnrGDDN">
+<s id="i-7Ky6aZPchKnuY9qSnrGDDN" senti_3="Neutral" senti_6="neutral negative" senti_n="2.228">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7HrRXTrafPo347sReGxAdr	nsubj	förutsätta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrRgdFyssU8KXrKC8Q4z8
 förutsätter	förutsätter	förutsätta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrRgdFyssU8KXrKC8Q4z8	root	-	-	-	-
 att	att	att	SCONJ	-	i-7HrRsTHGmXSsTCjjCs1xJp	obj	förutsätta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrRgdFyssU8KXrKC8Q4z8
@@ -1201,7 +1201,7 @@ ension	ension	ension	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HrUYNq
 <g/>
 .	.	.	PUNCT	-	i-7HrUghvaxwGrNPVCdKtDdN	punct	förutsätta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrRgdFyssU8KXrKC8Q4z8
 </s>
-<s id="i-7Ky6hDsBQ31X1BTYeNx972">
+<s id="i-7Ky6hDsBQ31X1BTYeNx972" senti_3="Negative" senti_6="negative" senti_n="0.235">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HrUqsKzBQwwdoU6BBL7ye	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrV1s3LEUmrqLuExUN1p8
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrV1s3LEUmrqLuExUN1p8	root	-	-	-	-
 fortfarande	fortfarande	fortfarande	ADV	-	i-7HrVB2SjSxSx6kt8WKovAQ	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrV1s3LEUmrqLuExUN1p8
@@ -1238,7 +1238,7 @@ pension	pension	pension	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HrZ
 </s>
 </p>
 <p id="i-3NjZstbnkEiuNpE82DhHJP" lang="svenska">
-<s id="i-7Ky6o42oGA5JY5dPGU45WU">
+<s id="i-7Ky6o42oGA5JY5dPGU45WU" senti_3="Negative" senti_6="mixed negative" senti_n="1.367">
 För	För	för	ADP	-	i-7HrZiEDWB2Y71My7jj17qn	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrcGVHoHqdD8EZrzFKYQc
 att	att	att	SCONJ	-	i-7HrZsPcuPWDCGmx1HaT2C4	det	för	ADP	-	i-7HrZiEDWB2Y71My7jj17qn
 vi	vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7Hra2Z2JbytHYBvtqRtvYL	nsubj	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HraBiRhpTZNobunPHLptc
@@ -1276,7 +1276,7 @@ arbetstagare	arbetstagare	arbetstagare	NOUN	Case=Nom Definite=Ind Gender=Com Num
 <g/>
 .	.	.	PUNCT	-	i-7Hrf7QZ1ARkqugDrsbMnha	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrcGVHoHqdD8EZrzFKYQc
 </s>
-<s id="i-7Ky6vYpJoTSjwEhkMSKztL">
+<s id="i-7Ky6vYpJoTSjwEhkMSKztL" senti_3="Positive" senti_6="mixed positive" senti_n="3.958">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HrfGZxQNuRwB6CkRSoh3r	expl	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrfQu3rknxCWNjNjrfbuv
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrfQu3rknxCWNjNjrfbuv	root	-	-	-	-
 viktigt	viktigt	viktig	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Neut Number=Sing	i-7HrfatmCorn7hvAXX9hVkQ	dep	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrfQu3rknxCWNjNjrfbuv
@@ -1290,7 +1290,7 @@ system	system	system	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Hrgh2
 <g/>
 .	.	.	PUNCT	-	i-7HrgrBzQXgAqqE1duyGiYc	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrfQu3rknxCWNjNjrfbuv
 </s>
-<s id="i-7Ky72NyvfaWXU8sayXRwHn">
+<s id="i-7Ky72NyvfaWXU8sayXRwHn" senti_3="Neutral" senti_6="neutral postive" senti_n="2.898">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Hrh1MPok9qw6dzXTpictt	nsubj	gälla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hrh9gVG83NCRvX9nEaXkx
 gäller	gäller	gälla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hrh9gVG83NCRvX9nEaXkx	root	-	-	-	-
 avgifter	avgifter	avgift	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7HrhJqtfLX3HhLW3L62S7E	obj	gälla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hrh9gVG83NCRvX9nEaXkx
@@ -1310,7 +1310,7 @@ premiepensionssystemet	premiepensionssystemet	premiepensionssystem	NOUN	Case=Nom
 </s>
 </p>
 <p id="i-YLyoqtuW7ZwHBSqdrEYztT" lang="svenska">
-<s id="i-7Ky793TVNHj8wAVgq47sBS">
+<s id="i-7Ky793TVNHj8wAVgq47sBS" senti_3="Neutral" senti_6="neutral negative" senti_n="1.887">
 Även	Även	även	ADV	-	i-7HrjETMMbRS2kZBEPCZFGx	advmod	behöva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrmJPuWEDM394P3kiwyJk
 om	om	om	SCONJ	-	i-7HrjPckkou781yA7w419dE	det	även	ADV	-	i-7HrjETMMbRS2kZBEPCZFGx
 vårt	vårt	vår	DET	Definite=Def Gender=Neut Number=Sing	i-7HrjYnAA2NnDHP91UuT3yW	det	pensionssystem	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7HrjhwZZErTJYo7u2ktxKn
@@ -1344,7 +1344,7 @@ tillbakagångar	tillbakagångar	tillbakagång	NOUN	Case=Nom Definite=Ind Gender=
 <g/>
 .	.	.	PUNCT	-	i-7HroxV9RD9Vvnq9ddLNLH2	punct	behöva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrmJPuWEDM394P3kiwyJk
 </s>
-<s id="i-7Ky7Esd7EQnvU4fXT9Doat">
+<s id="i-7Ky7Esd7EQnvU4fXT9Doat" senti_3="Positive" senti_6="mixed positive" senti_n="3.607">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Hrp7eYpRdB24F8XBBpEdJ	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrpHeGAUgzwFnZfxUr8Tn
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrpHeGAUgzwFnZfxUr8Tn	root	-	-	-	-
 därför	därför	därför	ADV	-	i-7HrpSofZhAg2XCYZWLJ2p4	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrpHeGAUgzwFnZfxUr8Tn
@@ -1372,7 +1372,7 @@ pensionssystemet	pensionssystemet	pensionssystem	NOUN	Case=Nom Definite=Def Gend
 </s>
 </p>
 <p id="i-8Xf3tUddmSBAg7T5NAKUb3" lang="svenska">
-<s id="i-7Ky7Lhnj6XrhzxqN5EKjzL">
+<s id="i-7Ky7Lhnj6XrhzxqN5EKjzL" senti_3="Neutral" senti_6="neutral postive" senti_n="2.689">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7Hrt9hVVq5wFJMNKJ9VkHS	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrtKhCqt9mAVtoU5SXe7v
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrtKhCqt9mAVtoU5SXe7v	root	-	-	-	-
 ett	ett	en	DET	Definite=Ind Gender=Neut Number=Sing	i-7HrtUrcF6dSFmJnMdHyYUC	det	antal	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Hrte21eK77M2imFB9RSpU
@@ -1385,7 +1385,7 @@ till	till	till	ADP	-	i-7HruQAQkiKB9VXmATXUybS	advmod	ta	VERB	VerbForm=Inf Voice=
 <g/>
 .	.	.	PUNCT	-	i-7HruZKp9vnrEkwk41Nvswi	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrtKhCqt9mAVtoU5SXe7v
 </s>
-<s id="i-7Ky7SXxLxevVXs1ChKRgPn">
+<s id="i-7Ky7SXxLxevVXs1ChKRgPn" senti_3="Negative" senti_6="mixed negative" senti_n="0.719">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HruheucJgNW6EGgKnnnon	nsubj	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrurpK1XA3bMeFZseEhA4
 kommer	kommer	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrurpK1XA3bMeFZseEhA4	root	-	-	-	-
 att	att	att	PART	-	i-7Hrv19QTu3ZrgvnCC46c28	dep	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrurpK1XA3bMeFZseEhA4
@@ -1405,7 +1405,7 @@ pensionärer	pensionärer	pensionär	NOUN	Case=Nom Definite=Ind Gender=Com Numbe
 <g/>
 .	.	.	PUNCT	-	i-7HrxCak858rJUb4NeYmFRn	punct	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrurpK1XA3bMeFZseEhA4
 </s>
-<s id="i-7Ky7ZCRufN96ztdJYr7cHS">
+<s id="i-7Ky7ZCRufN96ztdJYr7cHS" senti_3="Positive" senti_6="mixed positive" senti_n="3.817">
 Pensionen	Pensionen	pension	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7HrxMk9XHcXPk13GCQD9n4	nsubj	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrxW5EyfW3f5HZtWp54e8
 ska	ska	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrxW5EyfW3f5HZtWp54e8	root	-	-	-	-
 räcka	räcka	räcka	VERB	VerbForm=Inf Voice=Act	i-7HrxeQLS3PZvQa6WqDvyWC	dep	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrxW5EyfW3f5HZtWp54e8
@@ -1418,7 +1418,7 @@ allt	allt	allt	ADV	-	i-7HrySDMS7mwNjdzxaVAVFa	advmod	gammal	ADJ	Case=Nom Definit
 <g/>
 .	.	.	PUNCT	-	i-7HrymNUBPKSPCbQzudeHSL	punct	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HrxW5EyfW3f5HZtWp54e8
 </s>
-<s id="i-7Ky7f2bXXVCtXno9AwDYgt">
+<s id="i-7Ky7f2bXXVCtXno9AwDYgt" senti_3="Positive" senti_6="positive" senti_n="4.724">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HryvXsabo7UU1PtTV6Bnc	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hrz4ry2ygdjoHvWmtx6eg
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hrz4ry2ygdjoHvWmtx6eg	root	-	-	-	-
 därför	därför	därför	ADV	-	i-7HrzErgP2kTezqMfZByzVA	flat:foreign	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hrz4ry2ygdjoHvWmtx6eg
@@ -1462,13 +1462,13 @@ helhet	helhet	helhet	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Hs4x4A
 </s>
 </p>
 <p id="i-FAUnmD4cUZT9SXzpwRKnVW" lang="svenska">
-<s id="i-7Ky7mh56ECRVzpRF2TuUaY">
+<s id="i-7Ky7mh56ECRVzpRF2TuUaY" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Hs5GNyJEqiudoqafb6tha	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Hs5Qi4kcjFAy6NCyzxoZe
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Hs5Qi4kcjFAy6NCyzxoZe	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	i-7Hs5Z3ACzcmSJNtqJQpiRi	punct	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Hs5Qi4kcjFAy6NCyzxoZe
 </s>
-<s id="i-7Ky7tMYevue7Tr3LszbQUC">
+<s id="i-7Ky7tMYevue7Tr3LszbQUC" senti_3="Neutral" senti_6="neutral postive" senti_n="2.930">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Hs5iCZcD6SXZnsirGGcmz	expl	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hs5sMy1Ra7cqCrcQ7iX8G
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hs5sMy1Ra7cqCrcQ7iX8G	root	-	-	-	-
 viktigt	viktigt	viktig	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Neut Number=Sing	i-7Hs62XNQe3ni6cqVwyARUY	dep	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hs5sMy1Ra7cqCrcQ7iX8G
@@ -1504,7 +1504,7 @@ arbete	arbete	arbete	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7HsAHu
 <g/>
 .	.	.	PUNCT	-	i-7HsAT4fcfQfFYCJPKqfhGG	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hs5sMy1Ra7cqCrcQ7iX8G
 </s>
-<s id="i-7Ky8122DdcrivsfSjXHLMr">
+<s id="i-7Ky8122DdcrivsfSjXHLMr" senti_3="Positive" senti_6="positive" senti_n="4.828">
 Fler	Fler	fler	PRON	Case=Acc,Nom Definite=Ind Gender=Com,Neut Number=Plur	i-7HsAcE51stLLocHGsh7bcY	nsubj	ge	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsC2ghcpBQACL7GpN8im2
 i	i	i	ADP	-	i-7HsAmPUR6N1S52GARYZVxp	nmod	fler	PRON	Case=Acc,Nom Definite=Ind Gender=Com,Neut Number=Plur	i-7HsAcE51stLLocHGsh7bcY
 arbete	arbete	arbete	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7HsAvYspJqgXLSF3yQ1QK6	advmod	i	ADP	-	i-7HsAmPUR6N1S52GARYZVxp
@@ -1522,7 +1522,7 @@ pensioner	pensioner	pension	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-
 </s>
 </p>
 <p id="i-XqsVZy7iYwBANNzVeYKy2V" lang="svenska">
-<s id="i-7Ky86rBqVjvWTmqHMcPGmJ">
+<s id="i-7Ky86rBqVjvWTmqHMcPGmJ" senti_3="Neutral" senti_6="neutral negative" senti_n="2.096">
 40-talsgenerationen	40-talsgenerationen	40-talsgeneration	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7HsCgzw7MGQB8EwMUf6K8Y	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsCspxQEvNvFupmVPiCTE
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsCspxQEvNvFupmVPiCTE	root	-	-	-	-
 nu	nu	nu	ADV	-	i-7HsD2A3rcouBbCMPooa7KJ	advmod	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsCspxQEvNvFupmVPiCTE
@@ -1535,7 +1535,7 @@ pension	pension	pension	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HsD
 <g/>
 .	.	.	PUNCT	-	i-7HsE8Hsf89cpT6DcemhRmE	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsCspxQEvNvFupmVPiCTE
 </s>
-<s id="i-7Ky8DWfQCT97voTPD95Cex">
+<s id="i-7Ky8DWfQCT97voTPD95Cex" senti_3="Negative" senti_6="negative" senti_n="0.166">
 Detta	Detta	detta	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HsEHTH4LdHuiWCWCd9L7W	nsubj	göra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsEScgTZ6xzyvBPkUbETn
 gör	gör	göra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsEScgTZ6xzyvBPkUbETn	root	-	-	-	-
 att	att	att	SCONJ	-	i-7HsEccPocAnvBTcYXmd8JG	obj	göra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsEScgTZ6xzyvBPkUbETn
@@ -1555,7 +1555,7 @@ vården	vården	vård	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7HsGYD
 <g/>
 .	.	.	PUNCT	-	i-7HsGhPFu5YrkW6Gd8jbqpG	punct	göra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsEScgTZ6xzyvBPkUbETn
 </s>
-<s id="i-7Ky8LB8xuAMjPq5V4fm8Yc">
+<s id="i-7Ky8LB8xuAMjPq5V4fm8Yc" senti_3="Neutral" senti_6="neutral postive" senti_n="2.750">
 Nu	Nu	nu	ADV	-	i-7HsGrYfJJ2XqmWFWgb3kAY	advmod	gå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsH1i4hWWCw2vEQESVeWp
 går	går	gå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsH1i4hWWCw2vEQESVeWp	root	-	-	-	-
 det	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HsHAsU6iyt2JLDHnHwYs6	expl	gå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsH1i4hWWCw2vEQESVeWp
@@ -1568,7 +1568,7 @@ pensionär	pensionär	pensionär	NOUN	Case=Nom Definite=Ind Gender=Com Number=Si
 <g/>
 .	.	.	PUNCT	-	i-7HsJHqbr4ukV6MXmrheroE	punct	gå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsH1i4hWWCw2vEQESVeWp
 </s>
-<s id="i-7Ky8SqcXbsaLrrhavCT4SG">
+<s id="i-7Ky8SqcXbsaLrrhavCT4SG" senti_3="Negative" senti_6="mixed negative" senti_n="1.242">
 Redan	Redan	redan	ADV	-	i-7HsJT11FHPRaMmWfQZ6m9W	advmod	om	ADP	-	i-7HsJczibLTFVZJwpBr8eyz
 om	om	om	ADP	-	i-7HsJczibLTFVZJwpBr8eyz	advmod	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsKRe3YFRmmpWJXAYxADa
 20	20	20	NUM	Case=Nom	i-7HsJnA7zYvvapivhjhaZLG	det	–	NOUN	Abbr=Yes	i-7HsJx9qLbzkW2GMrWzcTAk
@@ -1596,13 +1596,13 @@ dess	dess	dess	ADV	-	i-7HsMrQLKpwVSYDpuL6zfQY	det	innan	ADP	-	i-7HsMgQcymsfXLgPk
 </s>
 </p>
 <p id="i-JwFAfgW3roBSMYzNe4tFwN" lang="svenska">
-<s id="i-7Ky8Yfn9Tze8PksRYHYzqi">
+<s id="i-7Ky8Yfn9Tze8PksRYHYzqi" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HsNAj98Ftqd53ngRotU76	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HsNK4EadnMtQLKJkDkNyA
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HsNK4EadnMtQLKJkDkNyA	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	i-7HsNUDdyrG2yfkJCJ5CHKS	punct	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HsNK4EadnMtQLKJkDkNyA
 </s>
-<s id="i-7Ky8fLFiAhrjrnVXPpEvjN">
+<s id="i-7Ky8fLFiAhrjrnVXPpEvjN" senti_3="Positive" senti_6="mixed positive" senti_n="4.127">
 Det	Det	den	DET	Definite=Def Gender=Neut Number=Sing	i-7HsNdP3P4ji4wAH5qveBfi	det	viktig	ADJ	Case=Nom Definite=Def Degree=Sup Gender=Com,Neut Number=Plur,Sing	i-7HsNwhrBVh4FTzErwdXzNG
 kanske	kanske	kanske	ADV	-	i-7HsNnYSnHDPACaFyPn661z	advmod	viktig	ADJ	Case=Nom Definite=Def Degree=Sup Gender=Com,Neut Number=Plur,Sing	i-7HsNwhrBVh4FTzErwdXzNG
 viktigaste	viktigaste	viktig	ADJ	Case=Nom Definite=Def Degree=Sup Gender=Com,Neut Number=Plur,Sing	i-7HsNwhrBVh4FTzErwdXzNG	dep	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsQPq6g7ARiixyPMBj6VA
@@ -1624,7 +1624,7 @@ principer	principer	princip	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-
 <g/>
 .	.	.	PUNCT	-	i-7HsRWoERT6JBWzHsRbSQRJ	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsQPq6g7ARiixyPMBj6VA
 </s>
-<s id="i-7Ky8mzjGsR5MKp7dFLvrd2">
+<s id="i-7Ky8mzjGsR5MKp7dFLvrd2" senti_3="Positive" senti_6="mixed positive" senti_n="4.213">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HsRgnwmWA86iXj2CtUJFn	nsubj	innebära	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsRqxMAidoBywhukjvCc4
 innebär	innebär	innebära	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsRqxMAidoBywhukjvCc4	root	-	-	-	-
 med	med	med	ADP	-	i-7HsS17kZw7UHFMgoJbN6xL	advmod	innebära	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsRqxMAidoBywhukjvCc4
@@ -1643,7 +1643,7 @@ till	till	till	ADP	-	i-7HsTwZXD2c1rEhpFb9UucG	advmod	arbeta	VERB	VerbForm=Inf Vo
 <g/>
 .	.	.	PUNCT	-	i-7HsU6ivcF5gwW7o98zvoxY	punct	innebära	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsRqxMAidoBywhukjvCc4
 </s>
-<s id="i-7Ky8spttjY98riHTsS2o2U">
+<s id="i-7Ky8spttjY98riHTsS2o2U" senti_3="Positive" senti_6="positive" senti_n="4.612">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HsUGidxJ9WrhfEHvHxho2	nsubj	höja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsUR3jQg3382wkvEhpcf6
 höjer	höjer	höja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsUR3jQg3382wkvEhpcf6	root	-	-	-	-
 pensionerna	pensionerna	pension	NOUN	Case=Nom Definite=Def Gender=Com Number=Plur	i-7HsUaD8otWiDJMjonZGX1N	obj	höja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsUR3jQg3382wkvEhpcf6
@@ -1663,7 +1663,7 @@ lön	lön	lön	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HsWWeuSz1FnH
 <g/>
 .	.	.	PUNCT	-	i-7HsWeyzuMtn3czPtPXFEXN	punct	höja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsUR3jQg3382wkvEhpcf6
 </s>
-<s id="i-7Ky8zVNTSFMkKjuZixiiv8">
+<s id="i-7Ky8zVNTSFMkKjuZixiiv8" senti_3="Positive" senti_6="mixed positive" senti_n="3.799">
 Att	Att	att	SCONJ	-	i-7HsWpyiFQxbxpXq3ApH8Mr	nsubj	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsYi6F7A6YE5N9SXc3y4x
 varje	varje	varje	DET	Definite=Ind Gender=Com,Neut Number=Sing	i-7HsWz97edSH45wovifj2i8	det	arbetstagare	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HsX8UD71KoKRELZ35awaC
 arbetstagare	arbetstagare	arbetstagare	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HsX8UD71KoKRELZ35awaC	nsubj	orka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsXTdKrGsJKtBkbNE4jkx
@@ -1687,7 +1687,7 @@ behöva	behöva	behöva	VERB	VerbForm=Inf Voice=Act	i-7HsZAk9MxwQfwUdqwiogda	pun
 </s>
 </p>
 <p id="i-DGc9tbvpYUHSHHpxeDgrq3" lang="svenska">
-<s id="i-7Ky96KY5JNRXre5QM3pfKa">
+<s id="i-7Ky96KY5JNRXre5QM3pfKa" senti_3="Neutral" senti_6="neutral negative" senti_n="2.244">
 För	För	för	ADP	-	i-7HsZVuG7EUugQS3tGsHUpL	advmod	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsaSsgWXLxDzuwDZyxtuz
 att	att	att	PART	-	i-7HsZf4fWSxamfr2mpijPAc	advmod	för	ADP	-	i-7HsZVuG7EUugQS3tGsHUpL
 i	i	i	ADP	-	i-7HsZpE4ufSFrwG1fNaBHWt	advmod	förtydliga	VERB	VerbForm=Inf Voice=Act	i-7Hsa8Ysi6Pc3U5ySUH56DS
@@ -1715,7 +1715,7 @@ arbetslivet	arbetslivet	arbetsliv	NOUN	Case=Nom Definite=Def Gender=Neut Number=
 <g/>
 .	.	.	PUNCT	-	i-7HsdJdFfEXEgiV3Ugmb8hA	punct	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsaSsgWXLxDzuwDZyxtuz
 </s>
-<s id="i-7Ky9DpKaqfnyFo9mS26ahS">
+<s id="i-7Ky9DpKaqfnyFo9mS26ahS" senti_3="Negative" senti_6="mixed negative" senti_n="0.557">
 De	De	de	PRON	Case=Nom Definite=Def Gender=Com,Neut Number=Plur	i-7HsdUcy1Hb4bv2UdU4d2Xe	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hsdcx4TfUasFK1FnUUwPi
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hsdcx4TfUasFK1FnUUwPi	root	-	-	-	-
 många	många	mången	ADJ	Case=Nom Definite=Def,Ind Degree=Pos Gender=Com,Neut Number=Plur	i-7HsdpcPhPiiSK7Lw2egpCc	det	gång	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7Hsdymo6cCPXaXKpaW8iYt
@@ -1732,7 +1732,7 @@ heltidsjobb	heltidsjobb	heltidsjobb	NOUN	Case=Nom Definite=Ind Gender=Neut Numbe
 <g/>
 .	.	.	PUNCT	-	i-7HsfaE93bZHGAnayJUBjXr	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hsdcx4TfUasFK1FnUUwPi
 </s>
-<s id="i-7Ky9KeVChnrknhKc47CX6t">
+<s id="i-7Ky9KeVChnrknhKc47CX6t" senti_3="Neutral" senti_6="neutral negative" senti_n="2.415">
 För	För	för	ADP	-	i-7HsfkDrPed7BNL285mDdNL	advmod	börja	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7HsgNsTzWXoYRywgHB1EmS
 40	40	40	NUM	Case=Nom	i-7HsftYwr2WdShcYkQB5YEQ	det	år	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	i-7Hsg4YfC5aTMu9yuBU7S4t
 år	år	år	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	i-7Hsg4YfC5aTMu9yuBU7S4t	advmod	för	ADP	-	i-7HsfkDrPed7BNL285mDdNL
@@ -1746,7 +1746,7 @@ som	som	som	CCONJ	-	i-7Hsh2MPYD2ejRmKVi2Nqek	advmod	arbeta	VERB	VerbForm=Inf Voi
 <g/>
 .	.	.	PUNCT	-	i-7HshLgCLdyzuxbHGojGeMJ	punct	börja	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7HsgNsTzWXoYRywgHB1EmS
 </s>
-<s id="i-7Ky9T9GiF6ECBrPy95USUk">
+<s id="i-7Ky9T9GiF6ECBrPy95USUk" senti_3="Positive" senti_6="mixed positive" senti_n="4.185">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HshVqbjrTg1E1GAMaiYha	nsubj	göra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hshf1194wM6VRF3uSAT3r
 gör	gör	göra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hshf1194wM6VRF3uSAT3r	root	-	-	-	-
 skillnad	skillnad	skillnad	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HshpziV81B1gxgCgjCLtL	obj	göra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hshf1194wM6VRF3uSAT3r
@@ -1755,13 +1755,13 @@ skillnad	skillnad	skillnad	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7
 </s>
 </p>
 <p id="i-Cjk3DqsMcLj4Fny4Qm2Hsc" lang="svenska">
-<s id="i-7Ky9YySL7DHyikZomAaNtC">
+<s id="i-7Ky9YySL7DHyikZomAaNtC" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Hsi8VDLiNNNHfBiYzWA6g	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HsiHecjvr3TZ5Ac6qx4Sx
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HsiHecjvr3TZ5Ac6qx4Sx	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	i-7HsiSp299KiYpV9VehPxoE	punct	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HsiHecjvr3TZ5Ac6qx4Sx
 </s>
-<s id="i-7Ky9fdutovWbBnBuchGJmr">
+<s id="i-7Ky9fdutovWbBnBuchGJmr" senti_3="Positive" senti_6="positive" senti_n="5.086">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7HsibyRYMoPe5u8PCYqs9W	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hsim8pwaH4jMK7GkQHmVn
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hsim8pwaH4jMK7GkQHmVn	root	-	-	-	-
 en	en	en	DET	Definite=Ind Gender=Com Number=Sing	i-7HsivJELnkjpcj6AJFjfr4	det	majoritet	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HsjEd39Di619Z3wPxdUYc
@@ -1774,7 +1774,7 @@ pensionssystem	pensionssystem	pensionssystem	NOUN	Case=Nom Definite=Ind Gender=N
 <g/>
 .	.	.	PUNCT	-	i-7Hsk3GN68gcHQkQeNfSynC	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hsim8pwaH4jMK7GkQHmVn
 </s>
-<s id="i-7Ky9nJPTWdjCeop1UDxEfW">
+<s id="i-7Ky9nJPTWdjCeop1UDxEfW" senti_3="Neutral" senti_6="neutral postive" senti_n="3.455">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HskDG5SBkSCcHqo9xUscg	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HskNRUqQE7Hshpghovmxx
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HskNRUqQE7Hshpghovmxx	root	-	-	-	-
 i	i	i	ADP	-	i-7HskXatEchnP97oaFfNgKE	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HskNRUqQE7Hshpghovmxx
@@ -1816,7 +1816,7 @@ konjunkturväxlingar	konjunkturväxlingar	konjunkturväxling	NOUN	Case=Nom Defin
 </s>
 </p>
 <p id="i-LXJnibzZq9AhGS1DvgQF3H" lang="svenska">
-<s id="i-7Ky9txs2DLwp7qS7KkeAZA">
+<s id="i-7Ky9txs2DLwp7qS7KkeAZA" senti_3="Neutral" senti_6="neutral postive" senti_n="2.591">
 Då	Då	då	ADV	-	i-7HsqewLmgv7RJzTKz9bWw6	advmod	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hsqp6kAuPnWaQSDY13RHN
 kommer	kommer	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hsqp6kAuPnWaQSDY13RHN	root	-	-	-	-
 min	min	min	DET	Definite=Def Gender=Com Number=Sing	i-7Hsqz6TWxTcRmwsNKJ5K7r	det	fråga	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Hsr9FrvAwHX3MrFs9XDU8
@@ -1826,7 +1826,7 @@ Vänsterpartiet	Vänsterpartiet	vänsterparti	NOUN	Case=Nom Definite=Def Gender=
 <g/>
 .	.	.	PUNCT	-	i-7Hsrck57pNJnqbnvWhrvWx	punct	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hsqp6kAuPnWaQSDY13RHN
 </s>
-<s id="i-7Ky9zo2e5U1bejbwwqk6xc">
+<s id="i-7Ky9zo2e5U1bejbwwqk6xc" senti_3="Negative" senti_6="negative" senti_n="0.209">
 Ni	Ni	ni	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7HsrnjnTsS8i39E5HztpMS	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsrwuBs5uooJZCxqrLihi
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsrwuBs5uooJZCxqrLihi	dep	och	CCONJ	-	i-7HstYMXp5GhXtpU7ZpPjgg
 sedan	sedan	sedan	ADP	-	i-7Hss6EHKToL4dqjbAGCdZn	advmod	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsrwuBs5uooJZCxqrLihi
@@ -1851,7 +1851,7 @@ system	system	system	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7HsuzU
 <g/>
 .	.	.	PUNCT	-	i-7Hsv9eBhuDk6RDBXXE2k9r	punct	och	CCONJ	-	i-7HstYMXp5GhXtpU7ZpPjgg
 </s>
-<s id="i-7KyA7TWCnBED7mE3oNS2rG">
+<s id="i-7KyA7TWCnBED7mE3oNS2rG" senti_3="Negative" senti_6="negative" senti_n="0.113">
 Trots	Trots	trots	ADP	-	i-7HsvHyHAH7GMkVi9qdtf1v	advmod	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsvxHWepCGNgQYEVvrFPS
 dessa	dessa	denna	DET	Definite=Def Gender=Com,Neut Number=Plur	i-7HsvTxzWLB6Gx39JcvvYrQ	det	ord	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	i-7HsvoxRCSJk7M81cBWzLXN
 högtravande	högtravande	högtravande	VERB	Case=Nom Definite=Def,Ind Gender=Com,Neut Number=Plur,Sing Tense=Pres VerbForm=Part	i-7HsvdxhrPEvC9aaTQDxSgt	amod	ord	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	i-7HsvoxRCSJk7M81cBWzLXN
@@ -1871,7 +1871,7 @@ budget	budget	budget	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HsxijZ
 <g/>
 .	.	.	PUNCT	-	i-7Hsxs4fQEWWHoVmAKbo54x	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsvxHWepCGNgQYEVvrFPS
 </s>
-<s id="i-7KyAE7ymUtSpanr9eu7xjv">
+<s id="i-7KyAE7ymUtSpanr9eu7xjv" senti_3="Negative" senti_6="negative" senti_n="0.171">
 Med	Med	med	ADP	-	i-7Hsy34NkHaLD13CK6tpxuS	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HsyWYaww1MUoH8ykTAfxG
 andra	andra	annan	ADJ	Case=Nom Definite=Def,Ind Degree=Pos Gender=Com,Neut Number=Plur	i-7HsyCDn9W41JGTBCekGsFi	det	ord	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	i-7HsyMPBYiXgPXsA6Cbimbz
 ord	ord	ord	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	i-7HsyMPBYiXgPXsA6Cbimbz	advmod	med	ADP	-	i-7Hsy34NkHaLD13CK6tpxuS
@@ -1894,7 +1894,7 @@ innehåll	innehåll	innehåll	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing
 </s>
 </p>
 <p id="i-TLTq8oi3DPZrWD9A2SRTGC" lang="svenska">
-<s id="i-7KyALnTLBbfS3pUFWRotda">
+<s id="i-7KyALnTLBbfS3pUFWRotda" senti_3="Negative" senti_6="mixed negative" senti_n="0.627">
 Om	Om	om	SCONJ	-	i-7Ht1vUZnfvvKasD6gZdBf2	advmod	klaga	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ht2j7tjauSbr4ZofGSgtc
 jag	jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Ht25dyBtQbQrHBzER561J	nsubj	förstå	VERB	VerbForm=Sup Voice=Act	i-7Ht2EoNb6tGW7hAsnGWzMa
 förstått	förstått	förstå	VERB	VerbForm=Sup Voice=Act	i-7Ht2EoNb6tGW7hAsnGWzMa	advmod	om	SCONJ	-	i-7Ht1vUZnfvvKasD6gZdBf2
@@ -1929,7 +1929,7 @@ alla	alla	alla	PRON	Case=Acc,Nom Definite=Ind Gender=Com,Neut Number=Plur	i-7Ht6
 <g/>
 .	.	.	PUNCT	-	i-7Ht6sqJyh5RSZCRhdkp8SQ	punct	och	CCONJ	-	i-7Ht3gvd5iMdyNfuQBpi6UU
 </s>
-<s id="i-7KyATSvttJt3Wr6MMxVpXE">
+<s id="i-7KyATSvttJt3Wr6MMxVpXE" senti_3="Negative" senti_6="mixed negative" senti_n="0.515">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Ht72ziNuZ6XpcQbBcG2ng	nsubj	låta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ht7CA7n82md62PUjThw8x
 låter	låter	låta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ht7CA7n82md62PUjThw8x	root	-	-	-	-
 väl	väl	väl	ADV	-	i-7Ht7MKXBLWSiMSNNHK9qVE	advmod	låta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ht7CA7n82md62PUjThw8x
@@ -1950,7 +1950,7 @@ ekonomiskt	ekonomiskt	ekonomiskt	ADV	Degree=Pos	i-7Ht9S6PGotWYg52StH8Z1E	advmod	
 <g/>
 .	.	.	PUNCT	-	i-7Ht9bFng2NBdwV1LS8aTMW	punct	låta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ht7CA7n82md62PUjThw8x
 </s>
-<s id="i-7KyAZH6WkRwq3kGBz3bkvg">
+<s id="i-7KyAZH6WkRwq3kGBz3bkvg" senti_3="Neutral" senti_6="neutral negative" senti_n="1.623">
 Detta	Detta	detta	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Ht9kRC5EqrjCtzDyz2Mhn	nsubj	ska	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Ht9uabUTKXpUJy7XqUG44
 skulle	skulle	ska	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Ht9uabUTKXpUJy7XqUG44	root	-	-	-	-
 innebära	innebära	innebära	VERB	VerbForm=Inf Voice=Act	i-7HtA4jzsfoCujix15gvAQL	dep	ska	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Ht9uabUTKXpUJy7XqUG44
@@ -1974,7 +1974,7 @@ framtiden	framtiden	framtid	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-
 <g/>
 .	.	.	PUNCT	-	i-7HtD2KjeF6Z9zCE6pZeLax	punct	ska	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Ht9uabUTKXpUJy7XqUG44
 </s>
-<s id="i-7KyAfwa5T9ASWmtHqaHgpL">
+<s id="i-7KyAfwa5T9ASWmtHqaHgpL" senti_3="Negative" senti_6="negative" senti_n="0.302">
 Vet	Vet	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtDBV93TaEFFcCzNR6EwE	root	-	-	-	-
 ni	ni	ni	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7HtDLeYSg3uLX2BsvGY9HW	nsubj	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtDBV93TaEFFcCzNR6EwE
 över	över	över	ADP	-	i-7HtDVowqtXaRnSAmU7z3dn	advmod	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtDBV93TaEFFcCzNR6EwE
@@ -1995,7 +1995,7 @@ sätt	sätt	sätt	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7HtFkaXHQ
 <g/>
 ?	?	?	PUNCT	-	i-7HtFtucjnrzSdtndAnrZrL	punct	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtDBV93TaEFFcCzNR6EwE
 </s>
-<s id="i-7KyAnc3e9rP3yoWPh6ychz">
+<s id="i-7KyAnc3e9rP3yoWPh6ychz" senti_3="Neutral" senti_6="neutral postive" senti_n="2.623">
 Den	Den	den	DET	Definite=Def Gender=Com Number=Sing	i-7HtG45291LfXuJmWieJUCc	det	siffra	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7HtGPE8tGtAYNGBZ3nnGPN
 senaste	senaste	sen	ADJ	Case=Nom Definite=Def Degree=Sup Gender=Com,Neut Number=Plur,Sing	i-7HtGDERYDpLdAikQGVkNYt	det	siffra	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7HtGPE8tGtAYNGBZ3nnGPN
 siffran	siffran	siffra	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7HtGPE8tGtAYNGBZ3nnGPN	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtHLCZHZkD5xk4tLuTgV2
@@ -2014,7 +2014,7 @@ totalt	totalt	totalt	ADV	Degree=Pos	i-7HtHxrAtReuT2PzSYKFHt8	advmod	vara	VERB	Mo
 </s>
 </p>
 <p id="i-NednQoUc4FmJzByaMDxNCZ" lang="svenska">
-<s id="i-7KyAuGXCrZbfSq8VYdfYbe">
+<s id="i-7KyAuGXCrZbfSq8VYdfYbe" senti_3="Negative" senti_6="mixed negative" senti_n="0.841">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7HtJJ1HdhCQTVMQUsTj64t	nsubj	förstå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtJTAh2ug5YkmPNRKAzRA
 förstår	förstår	förstå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtJTAh2ug5YkmPNRKAzRA	dep	men	CCONJ	-	i-7HtKtTdagZJC5cfdbRn73r
 mycket	mycket	mycket	ADV	Degree=Pos	i-7HtJcL6S89ke2BNFyActmS	advmod	väl	ADV	Degree=Pos	i-7HtJmVVqLdRjHbM9X24o7i
@@ -2048,7 +2048,7 @@ förslag	förslag	förslag	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-
 <g/>
 .	.	.	PUNCT	-	i-7HtNtYJBmd6v8UJX2dGFh6	punct	men	CCONJ	-	i-7HtKtTdagZJC5cfdbRn73r
 </s>
-<s id="i-7KyB1vzmZGpGurkbQAMUVJ">
+<s id="i-7KyB1vzmZGpGurkbQAMUVJ" senti_3="Negative" senti_6="negative" senti_n="0.185">
 Var	Var	var	ADV	-	i-7HtP3hhaz6n1PtHQaUiA3N	advmod	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtPCs6zCaT6fJGJ8LA4Pe
 ska	ska	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtPCs6zCaT6fJGJ8LA4Pe	root	-	-	-	-
 ni	ni	ni	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7HtPNrpLFeH1rqhSudBxE8	nsubj	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtPCs6zCaT6fJGJ8LA4Pe
@@ -2058,7 +2058,7 @@ pengar	pengar	peng	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7HtPpgQeD
 <g/>
 ?	?	?	PUNCT	-	i-7HtPzg7zGxpYzNAjsbPa92	punct	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtPCs6zCaT6fJGJ8LA4Pe
 </s>
-<s id="i-7KyB8bULFz2tNtNhFh3QNx">
+<s id="i-7KyB8bULFz2tNtNhFh3QNx" senti_3="Neutral" senti_6="neutral postive" senti_n="3.437">
 Det	Det	den	DET	Definite=Def Gender=Neut Number=Sing	i-7HtQ91DSerLpKehNC1FV16	det	land	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7HtQTL2F5ogzrUf9Hi9Hhe
 första	första	första	ADJ	Case=Nom	i-7HtQJAcqsL1ub4gFjrhPMN	det	land	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7HtQTL2F5ogzrUf9Hi9Hhe
 land	land	land	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7HtQTL2F5ogzrUf9Hi9Hhe	dep	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtR5ydqwiPMv8ahV7vu6k
@@ -2072,7 +2072,7 @@ Venezuela	Venezuela	Venezuela	PROPN	Case=Nom	i-7HtRF93FAC4TBYZb2yNoT2	dep	vara	V
 </name>
 .	.	.	PUNCT	-	i-7HtRQJSeNfjYSxYUapphoJ	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtR5ydqwiPMv8ahV7vu6k
 </s>
-<s id="i-7KyBERdx876funYXsn9LnQ">
+<s id="i-7KyBERdx876funYXsn9LnQ" senti_3="Neutral" senti_6="neutral postive" senti_n="2.818">
 De	De	de	PRON	Case=Nom Definite=Def Gender=Com,Neut Number=Plur	i-7HtRZTr3b9QdiNXN8gGc9a	nsubj	köra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtRidFSod5iynWFgXiWVr
 kör	kör	köra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtRidFSod5iynWFgXiWVr	root	-	-	-	-
 den	den	den	DET	Definite=Def Gender=Com Number=Sing	i-7HtRsner26kpFCV9EPAQr8	det	typ	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7HtS2x4FEaRuWcU2nEcKCQ
@@ -2084,7 +2084,7 @@ politik	politik	politik	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HtS
 </s>
 </p>
 <p id="i-2zwXrKT9eRjHQfuVZ2PDMA" lang="svenska">
-<s id="i-7KyBM67WppKHNpAdjJqGg4">
+<s id="i-7KyBM67WppKHNpAdjJqGg4" senti_3="Neutral" senti_6="neutral postive" senti_n="2.888">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7HtSemMuFtySe8wKkCow7J	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtSovmJUNeXuYvDJ4FqTa
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtSovmJUNeXuYvDJ4FqTa	root	-	-	-	-
 även	även	även	ADV	-	i-7HtSy6AhgrKdAxu6quhjor	advmod	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtSovmJUNeXuYvDJ4FqTa
@@ -2095,7 +2095,7 @@ Sverigedemokraterna	Sverigedemokraterna	sverigedemokrat	NOUN	Case=Nom Definite=D
 <g/>
 .	.	.	PUNCT	-	i-7HtTk4skveYFZuMHMjMG52	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtSovmJUNeXuYvDJ4FqTa
 </s>
-<s id="i-7KyBTkb5XXXtqqnjaqXCZi">
+<s id="i-7KyBTkb5XXXtqqnjaqXCZi" senti_3="Positive" senti_6="mixed positive" senti_n="4.478">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7HtTuEHA98DLqKLAuaoARJ	nsubj	notera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtU4PgZMbtS6jK4TSF4ma
 noterar	noterar	notera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtU4PgZMbtS6jK4TSF4ma	root	-	-	-	-
 att	att	att	SCONJ	-	i-7HtUDZ5xa5ZXN9Hx1Hgy7r	obj	notera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtU4PgZMbtS6jK4TSF4ma
@@ -2116,7 +2116,7 @@ budgetförslag	budgetförslag	budgetförslag	NOUN	Case=Nom Definite=Ind Gender=N
 <g/>
 .	.	.	PUNCT	-	i-7HtWa9q1xeX4RDZ21doWsn	punct	notera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtU4PgZMbtS6jK4TSF4ma
 </s>
-<s id="i-7KyBaR4eEEkWJsQqSND8TN">
+<s id="i-7KyBaR4eEEkWJsQqSND8TN" senti_3="Positive" senti_6="positive" senti_n="5.189">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HtWjKERB8C9gdXuZVFRE4	nsubj	låta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtWtUdpPbsEx3Wo7LhKaL
 låter	låter	låta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtWtUdpPbsEx3Wo7LhKaL	dep	och	CCONJ	-	i-7HtXBy8fyy4bYk2Jyc18ng
 bra	bra	bra	ADV	Degree=Pos	i-7HtX3e3Dc5YLDTVgfC9Dvc	advmod	låta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtWtUdpPbsEx3Wo7LhKaL
@@ -2134,7 +2134,7 @@ stånd	stånd	stånd	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7HtYnR
 <g/>
 .	.	.	PUNCT	-	i-7HtYwat2BodRQRGMFRW47v	punct	och	CCONJ	-	i-7HtXBy8fyy4bYk2Jyc18ng
 </s>
-<s id="i-7KyBgFEG6MpHqmag4TK4rp">
+<s id="i-7KyBgFEG6MpHqmag4TK4rp" senti_3="Negative" senti_6="negative" senti_n="0.272">
 Men	Men	men	CCONJ	-	i-7HtZ5uyUZh9gjhnyZqMxyz	root	-	-	-	-
 jag	jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7HtZF5NsnApn17ms7gosLG	nsubj	förstå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtZRuQAfpoX8nfH8RRkex
 förstår	förstår	förstå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtZRuQAfpoX8nfH8RRkex	dep	men	CCONJ	-	i-7HtZ5uyUZh9gjhnyZqMxyz
@@ -2155,7 +2155,7 @@ tekniskt	tekniskt	tekniskt	ADV	Degree=Pos	i-7HtbSWiXxG7Dnn43aBUWjv	advmod	få	VE
 <g/>
 .	.	.	PUNCT	-	i-7HtbaqozL9dV84aftbLRbz	punct	förstå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtZRuQAfpoX8nfH8RRkex
 </s>
-<s id="i-7KyBnuhpo52uJoCmuyzzkU">
+<s id="i-7KyBnuhpo52uJoCmuyzzkU" senti_3="Neutral" senti_6="neutral postive" senti_n="3.008">
 Alla	Alla	alla	PRON	Case=Acc,Nom Definite=Ind Gender=Com,Neut Number=Plur	i-7HtbkqXLPDTQKc1pftNKSU	nsubj	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtcXpEPd1g2iYU1Bi1qhe
 som	som	som	PRON	-	i-7HtbuAcnm6yfetYSzJEEJY	nsubj	syssla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Htc3ViF8zVvzB55Ji69Ac
 sysslar	sysslar	syssla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Htc3ViF8zVvzB55Ji69Ac	nmod	alla	PRON	Case=Acc,Nom Definite=Ind Gender=Com,Neut Number=Plur	i-7HtbkqXLPDTQKc1pftNKSU
@@ -2186,7 +2186,7 @@ liten	liten	liten	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Com Number=Sing	i-
 <g/>
 .	.	.	PUNCT	-	i-7HtfxtBMqk3YmFgma95iw6	punct	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtcXpEPd1g2iYU1Bi1qhe
 </s>
-<s id="i-7KyBuaBPVnFWmppsmWgve8">
+<s id="i-7KyBuaBPVnFWmppsmWgve8" senti_3="Negative" senti_6="negative" senti_n="0.339">
 Vet	Vet	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Htg83am4Die2fff7zXdHN	root	-	-	-	-
 ni	ni	ni	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7HtgHCzAGhPjJ5eYfqyXde	nsubj	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Htg83am4Die2fff7zXdHN
 om	om	om	ADP	-	i-7HtgSNPZVB4pZVdSDhRRyv	advmod	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Htg83am4Die2fff7zXdHN
@@ -2211,7 +2211,7 @@ inkomstpensionär	inkomstpensionär	inkomstpensionär	NOUN	Case=Nom Definite=Ind
 <g/>
 ?	?	?	PUNCT	-	i-7HtjTHN7Qq2NYUiatLVa7N	punct	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Htg83am4Die2fff7zXdHN
 </s>
-<s id="i-7KyC1QM1MuKJJiziPbns3a">
+<s id="i-7KyC1QM1MuKJJiziPbns3a" senti_3="Neutral" senti_6="neutral postive" senti_n="2.540">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HtjcSmWdJhTothUSBwUTe	expl	ska	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Htjkmry1CDj9BE6kboPKi
 skulle	skulle	ska	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Htjkmry1CDj9BE6kboPKi	root	-	-	-	-
 vara	vara	vara	VERB	VerbForm=Inf Voice=Act	i-7HtjuwGNDftpQbCzJTFHfz	dep	ska	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Htjkmry1CDj9BE6kboPKi
@@ -2226,13 +2226,13 @@ tänker	tänker	tänka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Htksjz
 </s>
 </p>
 <p id="i-2Wcswv9FU88RGCQsgsVt1v" lang="svenska">
-<s id="i-7KyC7EWdE2P5qdAZ1gtoT2">
+<s id="i-7KyC7EWdE2P5qdAZ1gtoT2" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HtmBEVZwVHYXu46hGpWUC	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HtmMECuzZ7TjSVFUZrQJg
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HtmMECuzZ7TjSVFUZrQJg	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	i-7HtmVZJNNSdj4j1snyiKAk	punct	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HtmMECuzZ7TjSVFUZrQJg
 </s>
-<s id="i-7KyCDtzBvjbhJenesDajLg">
+<s id="i-7KyCDtzBvjbhJenesDajLg" senti_3="Neutral" senti_6="neutral postive" senti_n="2.877">
 Den	Den	den	DET	Definite=Def Gender=Com Number=Sing	i-7HtmeihmavJpL8zmLqADX2	det	del	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Htmzi8Th3xejDs4uRE1Bz
 statliga	statliga	statlig	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Com,Neut Number=Sing	i-7HtmpiR7dz8jXgRv88C7MW	amod	del	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Htmzi8Th3xejDs4uRE1Bz
 delen	delen	del	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Htmzi8Th3xejDs4uRE1Bz	nsubj	omsätta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtnTN2iVtq6bLMUKXyikc
@@ -2248,7 +2248,7 @@ omsätter	omsätter	omsätta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7
 <g/>
 .	.	.	PUNCT	-	i-7HtoZVrX1EYjTEDhAW73CY	punct	omsätta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtnTN2iVtq6bLMUKXyikc
 </s>
-<s id="i-7KyCKj9onrfUqYxVVJgfk8">
+<s id="i-7KyCKj9onrfUqYxVVJgfk8" senti_3="Neutral" senti_6="neutral postive" senti_n="2.666">
 Sedan	Sedan	sedan	ADV	-	i-7HtohpwyP84znWkKUuxx4c	advmod	tillkomma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtospfKSBtuz4BUGCzqu6
 tillkommer	tillkommer	tillkomma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtospfKSBtuz4BUGCzqu6	root	-	-	-	-
 inkomstpensionssystemet	inkomstpensionssystemet	inkomstpenssyonssystem	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7Htp2z4iefa1FUAMp4SkFN	nsubj	tillkomma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtospfKSBtuz4BUGCzqu6
@@ -2277,7 +2277,7 @@ hela	hela	hel	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Com,Neut Number=Sing	i
 <g/>
 .	.	.	PUNCT	-	i-7HtsBPpn7ctzdcKsZfnokg	punct	tillkomma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtospfKSBtuz4BUGCzqu6
 </s>
-<s id="i-7KyCSPdNVZt6JaabLqNbdn">
+<s id="i-7KyCSPdNVZt6JaabLqNbdn" senti_3="Neutral" senti_6="neutral postive" senti_n="2.926">
 Hela	Hela	hel	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Com,Neut Number=Sing	i-7HtsMPY8Agiuq9m2LxphbA	det	pensionssystem	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7HtsWYwXPAQ16ZjutpGbwS
 pensionssystemet	pensionssystemet	pensionssystem	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7HtsWYwXPAQ16ZjutpGbwS	nsubj	omsätta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HttSh3yqSHikvAyxVN2Yt
 inklusive	inklusive	inklusive	ADP	-	i-7HtsfiLvbe56MyioSfiWHi	nmod	pensionssystem	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7HtsWYwXPAQ16ZjutpGbwS
@@ -2299,7 +2299,7 @@ totalt	totalt	totalt	ADV	Degree=Pos	i-7HttmrAj6ynjDsb2Hdqpje	advmod	343	NUM	Case
 </s>
 </p>
 <p id="i-SjjeHyG5MfbKCFz17gTxbn" lang="svenska">
-<s id="i-7KyCZ46wCH6hmcChCN4XXS">
+<s id="i-7KyCZ46wCH6hmcChCN4XXS" senti_3="Positive" senti_6="mixed positive" senti_n="3.771">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Htv2K5yzD2dR3ysT1q43e	nsubj	ska	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7HtvBUVPCghigTxkzsGxPv
 skulle	skulle	ska	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7HtvBUVPCghigTxkzsGxPv	root	-	-	-	-
 vilja	vilja	vilja	VERB	VerbForm=Inf Voice=Act	i-7HtvLdtnRANowsweYiirkC	dep	ska	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7HtvBUVPCghigTxkzsGxPv
@@ -2312,7 +2312,7 @@ detta	detta	detta	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7HtwJ
 <g/>
 .	.	.	PUNCT	-	i-7HtwTc2Xm6FGjuG8d8SAgL	punct	ska	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7HtvBUVPCghigTxkzsGxPv
 </s>
-<s id="i-7KyCetGZ4QAVJWNXpTATvt">
+<s id="i-7KyCetGZ4QAVJWNXpTATvt" senti_3="Positive" senti_6="mixed positive" senti_n="3.972">
 Det	Det	den	DET	Definite=Def Gender=Neut Number=Sing	i-7HtwcmRvyZvN1KF2Ayt52c	det	viktig	ADJ	Case=Nom Definite=Def Degree=Sup Gender=Com,Neut Number=Plur,Sing	i-7HtwmvqLC3bTGjDuiqKyNt
 viktigaste	viktigaste	viktig	ADJ	Case=Nom Definite=Def Degree=Sup Gender=Com,Neut Number=Plur,Sing	i-7HtwmvqLC3bTGjDuiqKyNt	dep	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtyXYagPtAH8QTwzepti8
 för	för	för	ADP	-	i-7Htww6EjQXGYY9CoGgmsjA	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtyXYagPtAH8QTwzepti8
@@ -2340,7 +2340,7 @@ statsfinanser	statsfinanser	statsfinans	NOUN	Case=Nom Definite=Ind Gender=Com Nu
 <g/>
 .	.	.	PUNCT	-	i-7Hu1SKjRpCQCFVgspKmiPe	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HtyXYagPtAH8QTwzepti8
 </s>
-<s id="i-7KyCkiSAvXEGqQYNSYGQLL">
+<s id="i-7KyCkiSAvXEGqQYNSYGQLL" senti_3="Neutral" senti_6="neutral postive" senti_n="2.683">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Hu1cKSmsGE7T382bcocE8	nsubj	hänvisa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hu1keYEF9kNnKeev2fX6C
 hänvisar	hänvisar	hänvisa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hu1keYEF9kNnKeev2fX6C	root	-	-	-	-
 till	till	till	ADP	-	i-7Hu1veFaJDaHys5ohKhQvg	advmod	hänvisa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hu1keYEF9kNnKeev2fX6C
@@ -2353,15 +2353,15 @@ yttrande	yttrande	yttrande	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-
 </p>
 </speech>
 <note type="speaker" content="Anf . 2 JENNIE ÅFELDT ( SD ) :"/>
-<speech id="i-ba85b049978249cc-26" text_id="ParlaMint-SE_2017-12-12-prot-201718--48" subcorpus="Referens" lang="svenska" body="Unicameralism" term="2017/18" session="-" meeting="-" sitting="2017/18--48" agenda="-" date="2017-12-12" title="Riksdagens protokoll 2017/18 nr. 48" speaker_role="Regular" speaker_id="Q18275046" speaker_name="Åfeldt, Jennie" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SD" speaker_party_name="Sverigedemokraterna" party_status="-" party_orientation="Right to far-right" speaker_gender="F" speaker_birth="-">
+<speech id="i-ba85b049978249cc-26" text_id="ParlaMint-SE_2017-12-12-prot-201718--48" subcorpus="Referens" lang="svenska" body="Unicameralism" term="2017/18" session="-" meeting="-" sitting="2017/18--48" agenda="-" date="2017-12-12" title="Riksdagens protokoll 2017/18 nr. 48" speaker_role="Regular" topic="Social Welfare" speaker_id="Q18275046" speaker_name="Åfeldt, Jennie" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SD" speaker_party_name="Sverigedemokraterna" party_status="-" party_orientation="Right to far-right" speaker_gender="F" speaker_birth="-">
 <p id="i-VFbk4RHD6rvsgtvF8nJoHJ" lang="svenska">
-<s id="i-7KyCsNujdEStJSAUJ4xLDz">
+<s id="i-7KyCsNujdEStJSAUJ4xLDz" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Hu2k7tU3nFQBBtmuU6ueU	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Hu2tSyvRfmfWURQDsxpWY
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Hu2tSyvRfmfWURQDsxpWY	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	i-7Hu33cPKe9SkmtQHmjQirp	dep	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Hu2tSyvRfmfWURQDsxpWY
 </s>
-<s id="i-7KyCz3PJKwfVmTna9beG7e">
+<s id="i-7KyCz3PJKwfVmTna9beG7e" senti_3="Neutral" senti_6="neutral postive" senti_n="2.740">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7Hu3Cmnird7r3JPBKardD6	nsubj	debattera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hu3NmW4ugwmEqpL6stX3a
 debatterar	debatterar	debattera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hu3NmW4ugwmEqpL6stX3a	root	-	-	-	-
 i	i	i	ADP	-	i-7Hu3XvuU8AcrWFoDejLRPr	advmod	debattera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hu3NmW4ugwmEqpL6stX3a
@@ -2379,7 +2379,7 @@ vid	vid	vid	ADP	-	i-7Hu4e4jGdWLVN9fSVhTjqn	nmod	trygghet	NOUN	Case=Nom Definite=
 </s>
 </p>
 <p id="i-KuhvSfq8fZnaSqxqo3UCaJ" lang="svenska">
-<s id="i-7KyD6hrs2et7EVQg18LC1J">
+<s id="i-7KyD6hrs2et7EVQg18LC1J" senti_3="Neutral" senti_6="neutral negative" senti_n="2.343">
 Sverigedemokraternas	Sverigedemokraternas	sverigedemokrat	NOUN	Case=Gen Definite=Def Gender=Com Number=Plur	i-7Hu57YwUGwMmAPc79FoStc	det	budgetförslag	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Hu5GiLsVR2rRoazh7FMEt
 budgetförslag	budgetförslag	budgetförslag	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Hu5GiLsVR2rRoazh7FMEt	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hu5RskGhthwhDZtExhFbA
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hu5RskGhthwhDZtExhFbA	dep	och	CCONJ	-	i-7Hu6EX5DcsEDxQvbDfWkpk
@@ -2433,7 +2433,7 @@ utgiftsområde	utgiftsområde	utgiftsområde	NOUN	Case=Nom Definite=Ind Gender=N
 </s>
 </p>
 <p id="i-XAcEQGANykCfAvkHpnKsPZ" lang="svenska">
-<s id="i-7KyDDNLRjN6ihX2mrf27tx">
+<s id="i-7KyDDNLRjN6ihX2mrf27tx" senti_3="Neutral" senti_6="neutral postive" senti_n="2.764">
 I	I	i	ADP	-	i-7HuCSLjfXEyF7vY3LEgvv8	advmod	redovisa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuCmVrQnnUFasx5fPAj6t
 stället	stället	ställe	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7HuCcLT1aJoAKTyC7Xipkc	det	i	ADP	-	i-7HuCSLjfXEyF7vY3LEgvv8
 redovisar	redovisar	redovisa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuCmVrQnnUFasx5fPAj6t	root	-	-	-	-
@@ -2461,7 +2461,7 @@ motion	motion	motion	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HuFCG9
 </s>
 </p>
 <p id="i-71bzvspnHFNYNpHCckvdpn" lang="svenska">
-<s id="i-7KyDL2ozS5KLAYesiBi3nc">
+<s id="i-7KyDL2ozS5KLAYesiBi3nc" senti_3="Neutral" senti_6="neutral postive" senti_n="2.684">
 Utgiftsområde	Utgiftsområde	utgiftsområde	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7HuFz5ACSgZNdfNuaCSk3E	det	11	NUM	Case=Nom	i-7HuG9EZbfAETu5Mo83tePW
 11	11	11	NUM	Case=Nom	i-7HuG9EZbfAETu5Mo83tePW	nsubj	finansiera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuGJPxzsduZAVLgfuLYjn
 finansierar	finansierar	finansiera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuGJPxzsduZAVLgfuLYjn	root	-	-	-	-
@@ -2479,7 +2479,7 @@ pensionärer	pensionärer	pensionär	NOUN	Case=Nom Definite=Ind Gender=Com Numbe
 <g/>
 .	.	.	PUNCT	-	i-7HuJFg3aoibx5xvQBu3Lsv	punct	finansiera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuGJPxzsduZAVLgfuLYjn
 </s>
-<s id="i-7KyDRrycJCP7hSpiLGozC4">
+<s id="i-7KyDRrycJCP7hSpiLGozC4" senti_3="Positive" senti_6="positive" senti_n="4.665">
 För	För	för	ADP	-	i-7HuJQqSz2CH3MNuHjkVFEC	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuJjzZjHjn3pLKL4ty3Qx
 Sverigedemokraterna	Sverigedemokraterna	sverigedemokrat	NOUN	Case=Nom Definite=Def Gender=Com Number=Plur	i-7HuJaqAL5G6xYvLSX3X94g	advmod	för	ADP	-	i-7HuJQqSz2CH3MNuHjkVFEC
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuJjzZjHjn3pLKL4ty3Qx	root	-	-	-	-
@@ -2506,7 +2506,7 @@ Sverige	Sverige	Sverige	PROPN	Case=Nom	i-7HuMV5fKJCqu4soVL9uMJU	advmod	i	ADP	-	i
 </name>
 .	.	.	PUNCT	-	i-7HuMeF4iWgWzLHnNt1MFek	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuJjzZjHjn3pLKL4ty3Qx
 </s>
-<s id="i-7KyDYXTAzubjAUSpBoVv5i">
+<s id="i-7KyDYXTAzubjAUSpBoVv5i" senti_3="Negative" senti_6="negative" senti_n="0.037">
 Samtidigt	Samtidigt	samtidigt	ADV	-	i-7HuMnaAAta3FfaK1CRDAWp	advmod	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuMwjZa73iLvzHtkGf4s6
 kan	kan	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuMwjZa73iLvzHtkGf4s6	root	-	-	-	-
 vi	vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7HuN6txyKXPSCQGnJ86yDN	nsubj	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuMwjZa73iLvzHtkGf4s6
@@ -2544,7 +2544,7 @@ tandläkarbesök	tandläkarbesök	tandläkarbesök	NOUN	Case=Nom Definite=Ind Ge
 </s>
 </p>
 <p id="i-MoJwdFHTRLWXQvWJXH6qWg" lang="svenska">
-<s id="i-7KyDfBvjhcpLdW4v3LBqyN">
+<s id="i-7KyDfBvjhcpLdW4v3LBqyN" senti_3="Positive" senti_6="mixed positive" senti_n="4.133">
 Därför	Därför	därför	ADV	-	i-7HuT2b6GfVauJUarnS7w2L	advmod	föreslå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7HuTDR7ZZ9ZeS9UGoAjpM2
 föreslås	föreslås	föreslå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7HuTDR7ZZ9ZeS9UGoAjpM2	root	-	-	-	-
 ett	ett	en	DET	Definite=Ind Gender=Neut Number=Sing	i-7HuTNaWxmdEjhZTAM2BihJ	det	antal	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7HuTXjvMz6upxyS3tsdd3a
@@ -2560,7 +2560,7 @@ situation	situation	situation	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	
 <g/>
 .	.	.	PUNCT	-	i-7HuV1XnkGkax6D56mJzi8t	punct	föreslå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7HuTDR7ZZ9ZeS9UGoAjpM2
 </s>
-<s id="i-7KyDmrQJQL2x6Xh1trsms2">
+<s id="i-7KyDmrQJQL2x6Xh1trsms2" senti_3="Positive" senti_6="positive" senti_n="4.602">
 Som	Som	som	CCONJ	-	i-7HuVAhC9VEG3Md3zKAScVA	advmod	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuWmyr3KBJbt1mQGa5cxL
 en	en	en	DET	Definite=Ind Gender=Com Number=Sing	i-7HuVKrbYhhw8d32ss1tWqS	det	del	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HuVV1zwvBcDtT1mQsLRBi
 del	del	del	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HuVV1zwvBcDtT1mQsLRBi	advmod	som	CCONJ	-	i-7HuVAhC9VEG3Md3zKAScVA
@@ -2588,7 +2588,7 @@ garantipensionen	garantipensionen	garantipension	NOUN	Case=Nom Definite=Def Gend
 <g/>
 .	.	.	PUNCT	-	i-7HuYjFvdFFzzoVM7nZnR6U	punct	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuWmyr3KBJbt1mQGa5cxL
 </s>
-<s id="i-7KyDsgZvGT6jdRrrWwyiGU">
+<s id="i-7KyDsgZvGT6jdRrrWwyiGU" senti_3="Positive" senti_6="mixed positive" senti_n="4.155">
 Vår	Vår	vår	DET	Definite=Def Gender=Com Number=Sing	i-7HuYuFdyJKpv12nGZrpJvx	det	ambition	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HuZ4R3NWoW1GSmA7iGDHE
 ambition	ambition	ambition	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HuZ4R3NWoW1GSmA7iGDHE	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuZDaSmjHB6Xrk3fZi7dW
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuZDaSmjHB6Xrk3fZi7dW	root	-	-	-	-
@@ -2602,7 +2602,7 @@ procent	procent	procent	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7Hua
 </s>
 </p>
 <p id="i-Qvu6rnJ8rotXhgQjQVMNJ2" lang="svenska">
-<s id="i-7KyDzM3UyAKM6TUxNUfeA8">
+<s id="i-7KyDzM3UyAKM6TUxNUfeA8" senti_3="Positive" senti_6="positive" senti_n="4.534">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7HuaLYaX5D3ZKt4XjyRRZe	nsubj	välja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuaVhyvHgiebJ3RHpsKuv
 väljer	väljer	välja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuaVhyvHgiebJ3RHpsKuv	root	-	-	-	-
 att	att	att	PART	-	i-7HuaesPKWAPjri2JqgKEGC	obj	välja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuaVhyvHgiebJ3RHpsKuv
@@ -2616,7 +2616,7 @@ samhället	samhället	samhälle	NOUN	Case=Nom Definite=Def Gender=Neut Number=Si
 <g/>
 .	.	.	PUNCT	-	i-7HubvzvU4ZwHv9KgTwUSYc	punct	välja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuaVhyvHgiebJ3RHpsKuv
 </s>
-<s id="i-7KyE71X3fsXxZV74E1Ma3n">
+<s id="i-7KyE71X3fsXxZV74E1Ma3n" senti_3="Negative" senti_6="mixed negative" senti_n="0.532">
 Oavsett	Oavsett	oavsett	ADV	Degree=Pos	i-7Huc6AKsH3cPBZJa1nvLtt	advmod	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuctoepC28fSkfGzVjr8U
 om	om	om	SCONJ	-	i-7HucEVRKew8eWqqCLCnFkx	advmod	oavsett	ADV	Degree=Pos	i-7Huc6AKsH3cPBZJa1nvLtt
 vi	vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7HucPepisQojnFp5t4EA7E	nsubj	stärka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HucZeY4vUdeyoFEfMG3wi
@@ -2637,7 +2637,7 @@ inkomstpensionären	inkomstpensionären	inkomstpensionär	NOUN	Case=Nom Definite
 <g/>
 .	.	.	PUNCT	-	i-7HueqFRTHWgES6njH3renQ	punct	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuctoepC28fSkfGzVjr8U
 </s>
-<s id="i-7KyECqgfXzbk6PGtr6TWTE">
+<s id="i-7KyECqgfXzbk6PGtr6TWTE" senti_3="Neutral" senti_6="neutral postive" senti_n="2.747">
 Eftersom	Eftersom	eftersom	SCONJ	-	i-7HuezQprVzMKhWmcpuJZ8g	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuhifcVfsGM1voWriesXz
 inkomstpensionären	inkomstpensionären	inkomstpensionär	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7HufAQYCZ4BEu4CmcCLSyA	nsubj	få	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HufLQFYc81A6bdvPVNLoe
 får	får	få	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HufLQFYc81A6bdvPVNLoe	advmod	eftersom	SCONJ	-	i-7HuezQprVzMKhWmcpuJZ8g
@@ -2667,13 +2667,13 @@ garantipensionen	garantipensionen	garantipension	NOUN	Case=Nom Definite=Def Gend
 </s>
 </p>
 <p id="i-PfCeSujWtZVrVSxbdC8QxE" lang="svenska">
-<s id="i-7KyEKWAEEhpMZQtzhd9SLt">
+<s id="i-7KyEKWAEEhpMZQtzhd9SLt" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Huizo9eEGou5N6tUyp5pQ	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HujAnrzHLdpGuY3GGqyet
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HujAnrzHLdpGuY3GGqyet	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	i-7HujKxGPVpJuYKWvp8Ht1A	punct	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HujAnrzHLdpGuY3GGqyet
 </s>
-<s id="i-7KyESAdnwR2y2SX6Z9qNEY">
+<s id="i-7KyESAdnwR2y2SX6Z9qNEY" senti_3="Neutral" senti_6="neutral postive" senti_n="3.179">
 Den	Den	den	DET	Definite=Def Gender=Com Number=Sing	i-7HujV7fniHyzojVpMyjnMS	det	höjning	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HujeH5Bvmf659UhuqBghi
 höjning	höjning	höjning	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HujeH5Bvmf659UhuqBghi	nsubj	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hukcv7Utp1HXtGZfq35mn
 av	av	av	ADP	-	i-7HujoSUb9FLBLZTbTgdb3z	nmod	höjning	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7HujeH5Bvmf659UhuqBghi
@@ -2701,7 +2701,7 @@ Sverige	Sverige	Sverige	PROPN	Case=Nom	i-7Hunr252k5bPBoTGbCsi9r	advmod	i	ADP	-	i
 </name>
 .	.	.	PUNCT	-	i-7Huo21nNo9RJPLtRNVubzL	punct	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Hukcv7Utp1HXtGZfq35mn
 </s>
-<s id="i-7KyEYq7Me8FaVU9CQgXJ8C">
+<s id="i-7KyEYq7Me8FaVU9CQgXJ8C" senti_3="Neutral" senti_6="neutral negative" senti_n="2.231">
 Sverigedemokraterna	Sverigedemokraterna	sverigedemokrat	NOUN	Case=Nom Definite=Def Gender=Com Number=Plur	i-7HuoBBBn1d6PeksJvMMWLc	nsubj	anse	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuoLLbBE6mUvArCUCoQgt
 anser	anser	anse	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuoLLbBE6mUvArCUCoQgt	root	-	-	-	-
 att	att	att	SCONJ	-	i-7HuoUfgdbzHkFTNpncfKYx	obj	anse	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7HuoLLbBE6mUvArCUCoQgt
@@ -2736,15 +2736,15 @@ förslag	förslag	förslag	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="i-ba85b049978249cc-753" text_id="ParlaMint-SE_2017-12-12-prot-201718--48" subcorpus="Referens" lang="svenska" body="Unicameralism" term="2017/18" session="-" meeting="-" sitting="2017/18--48" agenda="-" date="2017-12-12" title="Riksdagens protokoll 2017/18 nr. 48" speaker_role="Regular" speaker_id="Q18244660" speaker_name="Nohrén, Emma" speaker_mp="MP" speaker_minister="notMinister" speaker_party="MP" speaker_party_name="Miljöpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="-">
+<speech id="i-ba85b049978249cc-753" text_id="ParlaMint-SE_2017-12-12-prot-201718--48" subcorpus="Referens" lang="svenska" body="Unicameralism" term="2017/18" session="-" meeting="-" sitting="2017/18--48" agenda="-" date="2017-12-12" title="Riksdagens protokoll 2017/18 nr. 48" speaker_role="Regular" topic="Environment" speaker_id="Q18244660" speaker_name="Nohrén, Emma" speaker_mp="MP" speaker_minister="notMinister" speaker_party="MP" speaker_party_name="Miljöpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="-">
 <p id="i-WTUBt9XWDqMHpMwahpABpS" lang="svenska">
-<s id="i-7L3kCeTyEcyEJgE4nERvyr">
+<s id="i-7L3kCeTyEcyEJgE4nERvyr" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KoVa4WMLMBxa9wM9Pyj6U	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KoVjDukYps3qZvEhFRdSk
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KoVjDukYps3qZvEhFRdSk	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	i-7KoVsZ1CviPKArSs1fHYJp	dep	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KoVjDukYps3qZvEhFRdSk
 </s>
-<s id="i-7L3kJUdb6k31qaPuQKXsPJ">
+<s id="i-7L3kJUdb6k31qaPuQKXsPJ" senti_3="Positive" senti_6="positive" senti_n="4.573">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KoW2iQc9C4QSGRkZWjSf6	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KoWB3W4X5afmYxNsvbMXA
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KoWB3W4X5afmYxNsvbMXA	root	-	-	-	-
 här	här	här	ADV	-	i-7KoWM3DQa9Qay6PXfDdFMe	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KoWB3W4X5afmYxNsvbMXA
@@ -2763,7 +2763,7 @@ klimatbudgeten	klimatbudgeten	klimatbudget	NOUN	Case=Nom Definite=Def Gender=Com
 <g/>
 .	.	.	PUNCT	-	i-7KoYMeXmraiHd5nJ6yg1Sc	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KoWB3W4X5afmYxNsvbMXA
 </s>
-<s id="i-7L3kQJoCxs6oNUZk2Qdonk">
+<s id="i-7L3kQJoCxs6oNUZk2Qdonk" senti_3="Negative" senti_6="negative" senti_n="0.428">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KoYWowB54PNtVmBeq7unt	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KoYfyLaHY4U9uk5CgZp9A
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KoYfyLaHY4U9uk5CgZp9A	root	-	-	-	-
 en	en	en	DET	Definite=Ind Gender=Com Number=Sing	i-7KoYpJS2fRajVCGhX6Rj1E	det	satsning	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KoYyTqRsuFpkcFb4wsdMW
@@ -2786,7 +2786,7 @@ beklämd	beklämd	beklämd	VERB	Case=Nom Definite=Ind Gender=Com Number=Sing Ten
 <g/>
 .	.	.	PUNCT	-	i-7KobHZeekhkt1J9sNyECep	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KoYfyLaHY4U9uk5CgZp9A
 </s>
-<s id="i-7L3kWyGmfaKQqWBqswKjgQ">
+<s id="i-7L3kWyGmfaKQqWBqswKjgQ" senti_3="Positive" senti_6="positive" senti_n="5.423">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KobSj43yBRyGi8kvpg716	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kobb49WM4xEbzfPFEY1sA
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kobb49WM4xEbzfPFEY1sA	root	-	-	-	-
 stolt	stolt	stolt	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Com Number=Sing	i-7KobkDYuZYdKsQeGo5yvDS	dep	och	CCONJ	-	i-7KobuNxJn2JR8pdALwRpZi
@@ -2802,7 +2802,7 @@ någonsin	någonsin	någonsin	ADV	-	i-7Kod9qsZfFYKL121WKR3si	advmod	vara	VERB	Mo
 <g/>
 .	.	.	PUNCT	-	i-7KodK1GxsjDQbQzu4ArxDz	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kobb49WM4xEbzfPFEY1sA
 </s>
-<s id="i-7L3kcoSPXhPCNQMgW2Rg5r">
+<s id="i-7L3kcoSPXhPCNQMgW2Rg5r" senti_3="Neutral" senti_6="neutral negative" senti_n="2.332">
 Under	Under	under	ADP	-	i-7KodUAgN6CtVrpync2JraG	advmod	stå	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KoeEK5UVQxJKdyhtQNPME
 Alliansens	Alliansens	allians	NOUN	Case=Gen Definite=Def Gender=Com Number=Sing	i-7KoddL5mJgZb8Exg9skkvY	det	tid	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KodmfBDga5rTXVJUHcfnc
 tid	tid	tid	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KodmfBDga5rTXVJUHcfnc	advmod	under	ADP	-	i-7KodUAgN6CtVrpync2JraG
@@ -2828,7 +2828,7 @@ den	den	den	PRON	Case=Acc,Nom Definite=Def Gender=Com Number=Sing	i-7KogE65twG7B
 </s>
 </p>
 <p id="i-XnrAqX8qq7wkJJHM8qVSUS" lang="svenska">
-<s id="i-7L3kjTuxEQboqRynMZ7byW">
+<s id="i-7L3kjTuxEQboqRynMZ7byW" senti_3="Negative" senti_6="negative" senti_n="0.131">
 Men	Men	men	CCONJ	-	i-7KogYQthNDTMaKszCRixeY	root	-	-	-	-
 varför	varför	varför	ADV	-	i-7KoghaJ6ah8SqjrskHArzp	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KogquPYxaeiB2PW4h2mrt
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KogquPYxaeiB2PW4h2mrt	dep	men	CCONJ	-	i-7KogYQthNDTMaKszCRixeY
@@ -2838,7 +2838,7 @@ beklämd	beklämd	beklämd	VERB	Case=Nom Definite=Ind Gender=Com Number=Sing Ten
 <g/>
 ?	?	?	PUNCT	-	i-7KohUZ19pVM5EgK4G6pPFz	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KogquPYxaeiB2PW4h2mrt
 </s>
-<s id="i-7L3kqJ5a6XfbNL9cyeDYNx">
+<s id="i-7L3kqJ5a6XfbNL9cyeDYNx" senti_3="Positive" senti_6="mixed positive" senti_n="3.946">
 Jo	Jo	jo	INTJ	-	i-7Kohct6cCNsLZxqgaWgJ84	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	i-7Kohn3W1QrYRqNpa8N8CUL	punct	jo	INTJ	-	i-7Kohct6cCNsLZxqgaWgJ84
@@ -2853,7 +2853,7 @@ behövs	behövs	behöva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7Koiz
 <g/>
 .	.	.	PUNCT	-	i-7Koj9AtpznzwVaqX9GoMfz	punct	jo	INTJ	-	i-7Kohct6cCNsLZxqgaWgJ84
 </s>
-<s id="i-7L3kwxZ8oEtCqMmiqAuUGc">
+<s id="i-7L3kwxZ8oEtCqMmiqAuUGc" senti_3="Positive" senti_6="positive" senti_n="5.521">
 Nog	Nog	nog	ADV	-	i-7KojJLJEDGg2kzpQh8FG2G	root	-	-	-	-
 för	för	för	ADP	-	i-7KojTVhdRkM82QoJEyhANY	advmod	nog	ADV	-	i-7KojJLJEDGg2kzpQh8FG2G
 att	att	att	SCONJ	-	i-7Kojbpo5odsPMhKvZPZ5Ec	det	för	ADP	-	i-7KojTVhdRkM82QoJEyhANY
@@ -2864,7 +2864,7 @@ bättre	bättre	god	ADJ	Case=Nom Definite=Def,Ind Degree=Cmp Gender=Com,Neut Num
 <g/>
 .	.	.	PUNCT	-	i-7KokPdp5t2EqgmENJenayz	punct	för	ADP	-	i-7KojTVhdRkM82QoJEyhANY
 </s>
-<s id="i-7L3m4d2hVx6pJPPpghbQAG">
+<s id="i-7L3m4d2hVx6pJPPpghbQAG" senti_3="Positive" senti_6="positive" senti_n="4.736">
 Reningsverken	Reningsverken	reningsverk	NOUN	Case=Nom Definite=Def Gender=Neut Number=Plur	i-7KokYoDV6VuvxBDFrWEVLG	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kokh8JwUPSCHTjtAv6QCL
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kokh8JwUPSCHTjtAv6QCL	root	-	-	-	-
 mer	mer	mycket	ADV	Degree=Cmp	i-7KokqTQPrGxTckGWVKxK4Q	advmod	effektiv	ADJ	Case=Nom Definite=Def,Ind Degree=Pos Gender=Com,Neut Number=Plur	i-7Kom1T7juLnNpHhfGczCtt
@@ -2905,7 +2905,7 @@ havet	havet	hav	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7KoqTf2qbsx
 <g/>
 .	.	.	PUNCT	-	i-7Koqbz8HymUqTQbhRnXNX6	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KooBDqWQFmAjh5KGEUsL8
 </s>
-<s id="i-7L3mBHWGCfKRmR1vYEHL3v">
+<s id="i-7L3mBHWGCfKRmR1vYEHL3v" senti_3="Negative" senti_6="negative" senti_n="0.098">
 Men	Men	men	CCONJ	-	i-7KoqkKDkMf16nh8KkCPHPA	dep	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kor3oibx2CTPPdqcTh6bW
 mycket	mycket	mycket	ADV	Degree=Pos	i-7KoquUd9a8gC477DJ3qBjS	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kor3oibx2CTPPdqcTh6bW
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kor3oibx2CTPPdqcTh6bW	dep	och	CCONJ	-	i-7Korfd2FyLjzWv78aRtiWQ
@@ -2922,7 +2922,7 @@ det	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Kos8GvWnBc
 </s>
 </p>
 <p id="i-12SGg9GsPacJDWuBbt77Ys" lang="svenska">
-<s id="i-7L3mH7ft4nPDJKBmAKPGTN">
+<s id="i-7L3mH7ft4nPDJKBmAKPGTN" senti_3="Neutral" senti_6="neutral postive" senti_n="2.525">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KosRmRNNYonyj73roxFHN	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kosavpmb2UtF95wQfQ9de
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kosavpmb2UtF95wQfQ9de	root	-	-	-	-
 under	under	under	ADP	-	i-7KosjFvDxv19aRcZj5G4Vi	advmod	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kosavpmb2UtF95wQfQ9de
@@ -2936,7 +2936,7 @@ gränserna	gränserna	gräns	NOUN	Case=Nom Definite=Def Gender=Com Number=Plur	i
 <g/>
 .	.	.	PUNCT	-	i-7Kotx4DbAxwPuM6tRa5JqJ	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kosavpmb2UtF95wQfQ9de
 </s>
-<s id="i-7L3mPn9SmVbpmLos1r5CM2">
+<s id="i-7L3mPn9SmVbpmLos1r5CM2" senti_3="Neutral" senti_6="neutral postive" senti_n="3.297">
 <name type="LOC">
 Stockholm	Stockholm	Stockholm	PROPN	Case=Nom	i-7Kou7DczPScVAm5myRXDBa	det	Resilience	PROPN	Case=Nom	i-7KouFYiSmL8kW3cQHqP83e
 </name>
@@ -2981,7 +2981,7 @@ tål	tål	tåla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KoyvFGj2hbLoo
 </s>
 </p>
 <p id="i-RoZE17YdW3FbKTs2fMAcwN" lang="svenska">
-<s id="i-7L3mWSd1UCpSENRxsNm8Eg">
+<s id="i-7L3mWSd1UCpSENRxsNm8Eg" senti_3="Neutral" senti_6="neutral postive" senti_n="3.097">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KozEa5XTewXLdjXhuk3oS	expl	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7KozPjUvg8ccc3iRFmBx9i
 finns	finns	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7KozPjUvg8ccc3iRFmBx9i	root	-	-	-	-
 nio	nio	nio	NUM	Case=Nom	i-7KozY4aP428swLF3aB3s1n	det	gräns	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KozrPPBUyV4UACpfswfiL
@@ -2990,7 +2990,7 @@ gränser	gränser	gräns	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7Ko
 <g/>
 .	.	.	PUNCT	-	i-7KozziUdrs1KoSjSzHoaaQ	punct	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7KozPjUvg8ccc3iRFmBx9i
 </s>
-<s id="i-7L3md76aAv33hQ44iuT48L">
+<s id="i-7L3md76aAv33hQ44iuT48L" senti_3="Negative" senti_6="negative" senti_n="0.364">
 Om	Om	om	SCONJ	-	i-7Kp19st35LgR4riLY9FUvg	advmod	tipp	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp2FBPtk6FDzd8J9fnotQ
 man	man	man	PRON	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Kp1K3HSHpMWLGhE5zhPGx	nsubj	överskrida	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp1TNNtfhsmfZDrQQZJ92
 överskrider	överskrider	överskrida	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp1TNNtfhsmfZDrQQZJ92	advmod	om	SCONJ	-	i-7Kp19st35LgR4riLY9FUvg
@@ -3004,7 +3004,7 @@ det	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Kp2PWVM7ym
 <g/>
 .	.	.	PUNCT	-	i-7Kp2hqJ9Yw7frjchZnYXT2	punct	tipp	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp2FBPtk6FDzd8J9fnotQ
 </s>
-<s id="i-7L3miwGC336qEJDuLzYzXn">
+<s id="i-7L3miwGC336qEJDuLzYzXn" senti_3="Negative" senti_6="negative" senti_n="0.256">
 Då	Då	då	ADV	-	i-7Kp2rAPbvpdwC29KtCQSK6	advmod	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp31Ko19JK2TS8DS3rLfN
 kan	kan	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp31Ko19JK2TS8DS3rLfN	root	-	-	-	-
 vi	vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7Kp3AVCQMmz7ir76yuJF1e	nsubj	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp31Ko19JK2TS8DS3rLfN
@@ -3023,7 +3023,7 @@ händer	händer	hända	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp4xbs
 <g/>
 .	.	.	PUNCT	-	i-7Kp57mGzHrgWeKgpVu139n	punct	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp31Ko19JK2TS8DS3rLfN
 </s>
-<s id="i-7L3mqbjkjkKShKr1CXEvRS">
+<s id="i-7L3mqbjkjkKShKr1CXEvRS" senti_3="Neutral" senti_6="neutral postive" senti_n="2.551">
 Två	Två	två	NUM	Case=Nom	i-7Kp5GvgPWLMbujfi3kSwW4	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp5uaHzNF3xyPbGFAEYuA
 av	av	av	ADP	-	i-7Kp5RFmqtDssF2CLNAJrN8	nmod	två	NUM	Case=Nom	i-7Kp5GvgPWLMbujfi3kSwW4
 dessa	dessa	denna	DET	Definite=Def Gender=Com,Neut Number=Plur	i-7Kp5bFVBwHhnSZdV9TLkCc	det	gräns	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7Kp5kQtb9mNshycNhJneYt
@@ -3034,7 +3034,7 @@ viktiga	viktiga	viktig	ADJ	Case=Nom Definite=Def,Ind Degree=Pos Gender=Com,Neut 
 <g/>
 .	.	.	PUNCT	-	i-7Kp6NECFB5vQqW5ffGzGTn	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp5uaHzNF3xyPbGFAEYuA
 </s>
-<s id="i-7L3mwRuNbsPEEE1qpcLrpt">
+<s id="i-7L3mwRuNbsPEEE1qpcLrpt" senti_3="Neutral" senti_6="neutral postive" senti_n="2.840">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Kp6WZHhYySgAncHygrBKr	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp6etP9vrxwW58vJ6i6Bv
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp6etP9vrxwW58vJ6i6Bv	root	-	-	-	-
 biologisk	biologisk	biologisk	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Com Number=Sing	i-7Kp6p3nZ9Le2mV7oqx9zYC	amod	och	CCONJ	-	i-7Kp77YHQjhqPNBdKiDTokY
@@ -3046,7 +3046,7 @@ klimatförändringarna	klimatförändringarna	klimatförändring	NOUN	Case=Nom D
 </s>
 </p>
 <p id="i-UsKHFiB66DEv54Ja4dMWK5" lang="svenska">
-<s id="i-7L3n46NwJabqhFdwg92niY">
+<s id="i-7L3n46NwJabqhFdwg92niY" senti_3="Negative" senti_6="negative" senti_n="0.496">
 När	När	när	ADV	-	i-7Kp7dXRStuK8xovn46ZVFz	advmod	gå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp7wrEFKrfKVdtZ9oTHxY
 artutdödheten	artutdödheten	artutdödhet	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Kp7ngpr7NzEEDufbx1PcG	nsubj	gå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp7wrEFKrfKVdtZ9oTHxY
 går	går	gå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp7wrEFKrfKVdtZ9oTHxY	advmod	dra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp8H1LzbQAKxbJbUww69J
@@ -3060,7 +3060,7 @@ följder	följder	följd	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7Kp
 <g/>
 .	.	.	PUNCT	-	i-7Kp9BUqZNVkPkgq95jrXnL	punct	dra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp8H1LzbQAKxbJbUww69J
 </s>
-<s id="i-7L3n9vYZAhfdE9onJE8j7z">
+<s id="i-7L3n9vYZAhfdE9onJE8j7z" senti_3="Negative" senti_6="negative" senti_n="0.376">
 När	När	när	ADV	-	i-7Kp9MUYuRZaJxEGHs2tRcp	advmod	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp9oJ9DPpHvtDJS3i49hE
 vi	vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7Kp9VoeMoT6aHWnvBSkLUt	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp9oJ9DPpHvtDJS3i49hE
 inte	inte	inte	ADV	-	i-7Kp9e8jpBLcqcoKYVrcFLx	dep	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kp9oJ9DPpHvtDJS3i49hE
@@ -3082,7 +3082,7 @@ miljöproblem	miljöproblem	miljöproblem	NOUN	Case=Nom Definite=Ind Gender=Neut
 <g/>
 .	.	.	PUNCT	-	i-7KpC7PxSGcnz8uCiMjQizY	punct	ar	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpAibwj1W2pcSHEswZapU
 </s>
-<s id="i-7L3nFkiB2pjQm3ycvKEfXS">
+<s id="i-7L3nFkiB2pjQm3ycvKEfXS" senti_3="Neutral" senti_6="neutral postive" senti_n="3.198">
 Detsamma	Detsamma	detsamma	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KpCGZMqV6U5QKBbuardLp	nsubj	gälla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpCRimEha9AfjAVTSJXh6
 gäller	gäller	gälla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpCRimEha9AfjAVTSJXh6	root	-	-	-	-
 för	för	för	ADP	-	i-7KpCatAdv3pFw99P1HkS3N	advmod	gälla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpCRimEha9AfjAVTSJXh6
@@ -3090,7 +3090,7 @@ klimatet	klimatet	klimat	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7K
 <g/>
 .	.	.	PUNCT	-	i-7KpCtNfVWR1cXqetsZ4FFi	punct	gälla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpCRimEha9AfjAVTSJXh6
 </s>
-<s id="i-7L3nNRBjjXx2E5bimqvbR6">
+<s id="i-7L3nNRBjjXx2E5bimqvbR6" senti_3="Negative" senti_6="negative" senti_n="0.500">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KpD2hkwtJXss8BXBxvA7n	nsubj	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpDB2rQGC49CQi9WNn4yr
 kan	kan	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpDB2rQGC49CQi9WNn4yr	dep	och	CCONJ	-	i-7KpDwBFWfQ7wfDi4nkqbkp
 få	få	få	VERB	VerbForm=Inf Voice=Act	i-7KpDLCFoUfjETph34EDyL8	dep	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpDB2rQGC49CQi9WNn4yr
@@ -3112,7 +3112,7 @@ till	till	till	PART	-	i-7KpFJJeLFLaTKRj1ofWkxU	dep	känna	VERB	Mood=Ind Tense=Pr
 </s>
 </p>
 <p id="i-YVSLQiBbCuEYfy6gw4z8sM" lang="svenska">
-<s id="i-7L3nV5fJSFAdh7DpdNcXJk">
+<s id="i-7L3nV5fJSFAdh7DpdNcXJk" senti_3="Negative" senti_6="negative" senti_n="0.378">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KpFcdT8gHvdrFgnuNQZf2	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpFkxYb4BSuBYDRDnGUX6
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpFkxYb4BSuBYDRDnGUX6	root	-	-	-	-
 nog	nog	nog	ADV	-	i-7KpFuHe3S4yAWpk3YC8PPA	advmod	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpFkxYb4BSuBYDRDnGUX6
@@ -3139,7 +3139,7 @@ omkring	omkring	omkring	ADV	-	i-7KpJwsEV2uENN4jifiNWV2	advmod	lufsa	VERB	VerbFor
 <g/>
 .	.	.	PUNCT	-	i-7KpK6CKwQnkdhMGLz8ERM6	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpFkxYb4BSuBYDRDnGUX6
 </s>
-<s id="i-7L3nbk8s8xPFA8qvUuJTCQ">
+<s id="i-7L3nbk8s8xPFA8qvUuJTCQ" senti_3="Negative" senti_6="mixed negative" senti_n="0.539">
 Det	Det	den	DET	Definite=Def Gender=Neut Number=Sing	i-7KpKFMjLdGRixmFEXygKhN	det	det	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7KpKYrECDdd5ZTkkQEz8ui
 tidiga	tidiga	tidig	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Com,Neut Number=Sing	i-7KpKPgpo19wzJ3mrrPYEZS	amod	det	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7KpKYrECDdd5ZTkkQEz8ui
 re	re	det	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7KpKYrECDdd5ZTkkQEz8ui	det	djur	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7KpKrLj3ozpSAAGGGWHx84
@@ -3159,7 +3159,7 @@ döden	döden	död	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KpMF8jm5
 </s>
 </p>
 <p id="i-44an1CwFwCSsHLcuGQVioB" lang="svenska">
-<s id="i-7L3nhaJV15T2h31m6zQPbr">
+<s id="i-7L3nhaJV15T2h31m6zQPbr" senti_3="Negative" senti_6="mixed negative" senti_n="0.676">
 Bilderna	Bilderna	bild	NOUN	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KpMYdEcfUmxHKhFcZSuWU	nsubj	vara	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KpMhne1sxT3Yjg9AQtork
 var	var	vara	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KpMhne1sxT3Yjg9AQtork	dep	och	CCONJ	-	i-7KpP45itdJkjGpEpwsyyaC
 i	i	i	ADP	-	i-7KpMr7jUFqyJt2CmUpkiip	advmod	vara	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KpMhne1sxT3Yjg9AQtork
@@ -3186,7 +3186,7 @@ Kanada	Kanada	Kanada	PROPN	Case=Nom	i-7KpQS3Rf3qN4s9i3CEF8G4	advmod	i	ADP	-	i-7K
 </name>
 .	.	.	PUNCT	-	i-7KpQaNX7RitLCSEfWe7388	punct	och	CCONJ	-	i-7KpP45itdJkjGpEpwsyyaC
 </s>
-<s id="i-7L3npEn3hnfeA4drxX6KVW">
+<s id="i-7L3npEn3hnfeA4drxX6KVW" senti_3="Negative" senti_6="mixed negative" senti_n="1.341">
 Men	Men	men	CCONJ	-	i-7KpQihcZocQbXimHq3xwzC	root	-	-	-	-
 forskarna	forskarna	forskare	NOUN	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KpQss1y265go8kBNuQrLU	nsubj	säga	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpR32RNEZkn4Yj4vkrkgk
 säger	säger	säga	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpR32RNEZkn4Yj4vkrkgk	dep	men	CCONJ	-	i-7KpQihcZocQbXimHq3xwzC
@@ -3210,7 +3210,7 @@ tid	tid	tid	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KpTTni9p5USnGFT
 <g/>
 .	.	.	PUNCT	-	i-7KpTcx7Z2Z9Y3gELeAMADz	punct	säga	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpR32RNEZkn4Yj4vkrkgk
 </s>
-<s id="i-7L3nvuFcQVtFd6Fxp3nFPA">
+<s id="i-7L3nvuFcQVtFd6Fxp3nFPA" senti_3="Negative" senti_6="negative" senti_n="0.343">
 Sälarna	Sälarna	säl	NOUN	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KpTn7WxF2pdK6DEC1o4aG	nsubj	få	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpTwGvMTWViaWC7jsExvY
 får	får	få	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpTwGvMTWViaWC7jsExvY	root	-	-	-	-
 svårare	svårare	svårt	ADV	Degree=Cmp	i-7KpU6SKkfzAoqvB1HigsGp	advmod	få	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpTwGvMTWViaWC7jsExvY
@@ -3223,7 +3223,7 @@ kutar	kutar	kuta	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KpUzupKT5k
 <g/>
 .	.	.	PUNCT	-	i-7KpVAuXfW9anqZ8hfoeCkL	punct	få	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpTwGvMTWViaWC7jsExvY
 </s>
-<s id="i-7L3o3ZjB7D6s67t4faUBGp">
+<s id="i-7L3o3ZjB7D6s67t4faUBGp" senti_3="Negative" senti_6="negative" senti_n="0.143">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KpVKEd7t374AqfKzDW7cQ	nsubj	bli	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpVUQ2X6Wn9SFeDY4x1xg
 blir	blir	bli	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpVUQ2X6Wn9SFeDY4x1xg	root	-	-	-	-
 mindre	mindre	liten	ADJ	Case=Nom Definite=Def,Ind Degree=Cmp Gender=Com,Neut Number=Plur,Sing	i-7KpVcj7yUQJQmYAqrUovpk	amod	mat	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KpVmtXNgsyW2x9jQLFqB2
@@ -3233,7 +3233,7 @@ isbjörnarna	isbjörnarna	isbjörn	NOUN	Case=Nom Definite=Def Gender=Com Number=
 <g/>
 .	.	.	PUNCT	-	i-7KpWEYRdViqwu4e8pT1Yje	punct	bli	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpVUQ2X6Wn9SFeDY4x1xg
 </s>
-<s id="i-7L3o9PtnyLAed23uHfa7gG">
+<s id="i-7L3o9PtnyLAed23uHfa7gG" senti_3="Neutral" senti_6="neutral postive" senti_n="3.415">
 När	När	när	ADV	-	i-7KpWPhq2iCX3AUd2NJTT5v	advmod	försvinna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpWi2dq99sDhJaoU1MFnU
 istäcket	istäcket	istäcke	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7KpWZhYNmGLxN24B9bVLvQ	nsubj	försvinna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpWi2dq99sDhJaoU1MFnU
 försvinner	försvinner	försvinna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpWi2dq99sDhJaoU1MFnU	advmod	bli	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpWsC3EMdYJxiZh1roA8k
@@ -3243,7 +3243,7 @@ kvar	kvar	kvar	PART	-	i-7KpXAgY5wzjfZR5Ct86yM6	dep	bli	VERB	Mood=Ind Tense=Pres 
 <g/>
 .	.	.	PUNCT	-	i-7KpXK1dYKtFvthbqCXxtDA	punct	bli	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpWsC3EMdYJxiZh1roA8k
 </s>
-<s id="i-7L3oG4NMg3PG63g19CG3Zv">
+<s id="i-7L3oG4NMg3PG63g19CG3Zv" senti_3="Neutral" senti_6="neutral negative" senti_n="1.739">
 De	De	de	PRON	Case=Nom Definite=Def Gender=Com,Neut Number=Plur	i-7KpXUB2wYMw2A7aikPQnZS	nsubj	vandra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpXcW8PvFTHVQ7M4oGhRW
 vandrar	vandrar	vandra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpXcW8PvFTHVQ7M4oGhRW	root	-	-	-	-
 inte	inte	inte	ADV	-	i-7KpXkqDrJ8yYpgdyPD8cHa	dep	vandra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpXcW8PvFTHVQ7M4oGhRW
@@ -3256,7 +3256,7 @@ länge	länge	länge	ADV	Degree=Pos	i-7KpYNeXWKTX5xD7GMBLECU	advmod	vandra	VERB	
 </s>
 </p>
 <p id="i-HhohZ47SbE6aRptYuHsYDW" lang="svenska">
-<s id="i-7L3oNiqvNkbsZ5J6ziwyTa">
+<s id="i-7L3oNiqvNkbsZ5J6ziwyTa" senti_3="Positive" senti_6="positive" senti_n="5.020">
 Därför	Därför	därför	ADV	-	i-7KpYgyLJkQsGV353StE2u2	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpYqJRm8JPXpKbfmJ5wm6
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpYqJRm8JPXpKbfmJ5wm6	root	-	-	-	-
 jag	jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KpYydXDWBuo9c8J5hwrdA	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpYqJRm8JPXpKbfmJ5wm6
@@ -3286,7 +3286,7 @@ Skog	Skog	skog	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KpbaPXM8mTP4
 </s>
 </p>
 <p id="i-FVBw3wLdxJqJbHW7QofZQA" lang="svenska">
-<s id="i-7L3oVPKV5TpV26vCrFduME">
+<s id="i-7L3oVPKV5TpV26vCrFduME" senti_3="Positive" senti_6="positive" senti_n="4.867">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7Kpbst2Cj8ejfZbLtpL4rx	nsubj	satsa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kpc33RbwcKpvyaESfmyDE
 satsar	satsar	satsa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kpc33RbwcKpvyaESfmyDE	root	-	-	-	-
 på	på	på	ADP	-	i-7KpcBNX4KVr6GG6rm5dt5J	advmod	satsa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kpc33RbwcKpvyaESfmyDE
@@ -3317,7 +3317,7 @@ solceller	solceller	solcell	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-
 <g/>
 .	.	.	PUNCT	-	i-7KpfRcSjeaEsBJSD8n5sz4	punct	satsa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kpc33RbwcKpvyaESfmyDE
 </s>
-<s id="i-7L3obDV6watGZ163ULjqkg">
+<s id="i-7L3obDV6watGZ163ULjqkg" senti_3="Positive" senti_6="positive" senti_n="4.515">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KpfZwYC2Tm8WaxqTBwnr8	nsubj	göra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kpfj6wbEwSDmzwj13PhCQ
 gör	gör	göra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kpfj6wbEwSDmzwj13PhCQ	root	-	-	-	-
 också	också	också	ADV	-	i-7KpfsS33cpxV7HUMKTFc4U	advmod	göra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kpfj6wbEwSDmzwj13PhCQ
@@ -3327,7 +3327,7 @@ satsningar	satsningar	satsning	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur
 <g/>
 .	.	.	PUNCT	-	i-7KpgVFLhe9W2EoweHRTDyN	punct	göra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kpfj6wbEwSDmzwj13PhCQ
 </s>
-<s id="i-7L3ohsxfeJ6t22i9KsRmeL">
+<s id="i-7L3ohsxfeJ6t22i9KsRmeL" senti_3="Negative" senti_6="mixed negative" senti_n="0.516">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KpgeQk6rdB7WDvXqGu8Ke	nsubj	måste	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kpgoa9W56rCmduRP8M2fv
 måste	måste	måste	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kpgoa9W56rCmduRP8M2fv	dep	och	CCONJ	-	i-7KphZiYcUJv1ESuLfWQZSt
 göra	göra	göra	VERB	VerbForm=Inf Voice=Act	i-7KpgwuExSzNU6vS3hYCwXz	dep	måste	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kpgoa9W56rCmduRP8M2fv
@@ -3342,7 +3342,7 @@ snabbt	snabbt	snabbt	ADV	Degree=Pos	i-7KphsD3U4g7Mq9QrXmiNfE	advmod	det	PRON	Cas
 </s>
 </p>
 <p id="i-EBmg6iwEzEa2qJdCazJLHH" lang="svenska">
-<s id="i-7L3ooi8HWRAfYvsywxXi3n">
+<s id="i-7L3ooi8HWRAfYvsywxXi3n" senti_3="Negative" senti_6="negative" senti_n="0.383">
 Även	Även	även	ADV	-	i-7KpiBXrGVdTYMyNddUcBMn	advmod	höjning	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KpiVrf4vaoitoLQjBVz4L
 en	en	en	DET	Definite=Ind Gender=Com Number=Sing	i-7KpiKrwisWyohFuFwtU6Dr	det	höjning	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KpiVrf4vaoitoLQjBVz4L
 höjning	höjning	höjning	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KpiVrf4vaoitoLQjBVz4L	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpjZVZ2vA4sxJqqspsL3e
@@ -3358,7 +3358,7 @@ mycket	mycket	mycket	ADV	Degree=Pos	i-7Kpjrz3tWXGEZ1MMk6B9Fz	dep	vara	VERB	Mood=
 <g/>
 .	.	.	PUNCT	-	i-7Kpk1K9LtQnVtHsz4W3484	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpjZVZ2vA4sxJqqspsL3e
 </s>
-<s id="i-7L3ovNbrD8PH1xW5oVDdwS">
+<s id="i-7L3ovNbrD8PH1xW5oVDdwS" senti_3="Neutral" senti_6="neutral postive" senti_n="3.304">
 Just	Just	just	ADV	-	i-7KpkAUYk6tTb9hrscMUxUL	advmod	nu	ADV	-	i-7KpkJoeCUmyrUzPVvmLsLQ
 nu	nu	nu	ADV	-	i-7KpkJoeCUmyrUzPVvmLsLQ	advmod	ligga	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpkTy3bhFewkQNPUcnmgg
 ligger	ligger	ligga	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpkTy3bhFewkQNPUcnmgg	root	-	-	-	-
@@ -3373,7 +3373,7 @@ grader	grader	grad	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KpmNSYAU
 </s>
 </p>
 <p id="i-FMDS44G24uk6JERV1h7Hno" lang="svenska">
-<s id="i-7L3p335QuqbtUz8Bf1uZq6">
+<s id="i-7L3p335QuqbtUz8Bf1uZq6" senti_3="Neutral" senti_6="neutral postive" senti_n="2.832">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Kpmfw324iSN9CQSwg22Y4	nsubj	gå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kpmq6SRHC7TQcPLVXTvtL
 går	går	gå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kpmq6SRHC7TQcPLVXTvtL	root	-	-	-	-
 tillbaka	tillbaka	tillbaka	PART	-	i-7KpmyRXsf5dijtuxowKqkQ	dep	gå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kpmq6SRHC7TQcPLVXTvtL
@@ -3382,7 +3382,7 @@ isbjörnen	isbjörnen	isbjörn	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing
 <g/>
 .	.	.	PUNCT	-	i-7KpnS5S8TvWAc1QNE45ZK2	punct	gå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kpmq6SRHC7TQcPLVXTvtL
 </s>
-<s id="i-7L3p8sF2mxfg1tJ2H71WEY">
+<s id="i-7L3p8sF2mxfg1tJ2H71WEY" senti_3="Negative" senti_6="mixed negative" senti_n="0.639">
 Filmteamet	Filmteamet	filmteam	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7KpnaQXaqp2RwHvzYTwUB6	nsubj	säga	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KpnjZvz4HhXChut6KPNXN
 sa	sa	säga	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KpnjZvz4HhXChut6KPNXN	root	-	-	-	-
 att	att	att	SCONJ	-	i-7KpntjLPGmNcU7tmeAqGse	obj	säga	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KpnjZvz4HhXChut6KPNXN
@@ -3401,7 +3401,7 @@ djuret	djuret	djur	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7KppjLwQ
 <g/>
 .	.	.	PUNCT	-	i-7Kppsg2rt2NfFrP1d3i3zC	punct	säga	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KpnjZvz4HhXChut6KPNXN
 </s>
-<s id="i-7L3pFXibUftHUuv88dhS8C">
+<s id="i-7L3pFXibUftHUuv88dhS8C" senti_3="Neutral" senti_6="neutral postive" senti_n="2.610">
 Men	Men	men	CCONJ	-	i-7Kpq2qSG6W3kXGMuAu9xLU	root	-	-	-	-
 de	de	de	PRON	Case=Nom Definite=Def Gender=Com,Neut Number=Plur	i-7KpqBAXiUPa1rYtXVK1sCY	nsubj	bli	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KpqLKw7gsF77xsR3ATmYp
 blev	blev	bli	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KpqLKw7gsF77xsR3ATmYp	dep	men	CCONJ	-	i-7Kpq2qSG6W3kXGMuAu9xLU
@@ -3418,7 +3418,7 @@ någonting	någonting	någonting	PRON	Case=Acc,Nom Definite=Ind Gender=Neut Numb
 <g/>
 .	.	.	PUNCT	-	i-7KprzwpnsAtyNsPsvLSjxp	punct	bli	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KpqLKw7gsF77xsR3ATmYp
 </s>
-<s id="i-7L3pMMtDLnx51p5xkioNXe">
+<s id="i-7L3pMMtDLnx51p5xkioNXe" senti_3="Negative" senti_6="negative" senti_n="0.121">
 Fast	Fast	fast	SCONJ	-	i-7KpsA7EC5ea4eHNmUBteK6	root	-	-	-	-
 hoppet	hoppet	hopp	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7KpsKGdbJ8F9uhMf23LYfN	nsubj	byta	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Pass	i-7KpsTbj3g1mREytHLTCTXS
 byttes	byttes	byta	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Pass	i-7KpsTbj3g1mREytHLTCTXS	advmod	fast	SCONJ	-	i-7KpsA7EC5ea4eHNmUBteK6
@@ -3441,7 +3441,7 @@ på	på	på	ADP	-	i-7KputN1qFXV5xhQfW1ExiQ	advmod	tugga	VERB	Mood=Ind Tense=Past
 <g/>
 .	.	.	PUNCT	-	i-7Kpv3XREU1ABE7PZ3rgs4g	punct	fast	SCONJ	-	i-7KpsA7EC5ea4eHNmUBteK6
 </s>
-<s id="i-7L3pU2Mn3WAgUqi4cFVJRJ">
+<s id="i-7L3pU2Mn3WAgUqi4cFVJRJ" senti_3="Negative" senti_6="negative" senti_n="0.229">
 Mänskligt	Mänskligt	mänsklig	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Neut Number=Sing	i-7KpvCgpdgUqGVXNSbi8mQx	amod	skräp	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7KpvMrE2txWMkwML9ZafmE
 skräp	skräp	skräp	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7KpvMrE2txWMkwML9ZafmE	nsubj	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7KpvX1dS7SBT2MLDhR2a7W
 finns	finns	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7KpvX1dS7SBT2MLDhR2a7W	root	-	-	-	-
@@ -3455,7 +3455,7 @@ platser	platser	plats	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KpwHz
 </s>
 </p>
 <p id="i-Q4dM344VZSNsztn9vTEiof" lang="svenska">
-<s id="i-7L3pagqLkDPHwsLATnBEJx">
+<s id="i-7L3pagqLkDPHwsLATnBEJx" senti_3="Negative" senti_6="negative" senti_n="0.371">
 Bara	Bara	bara	ADV	-	i-7KpwbUqLwbbS1zHv5Vyub2	advmod	på	ADP	-	i-7KpwkeEkA5GXHQGodMRowJ
 på	på	på	ADP	-	i-7KpwkeEkA5GXHQGodMRowJ	advmod	flyta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpxNTYQBPp4Qvk6bKdRrC
 vår	vår	vår	DET	Definite=Def Gender=Com Number=Sing	i-7Kpwuoe9NYwcYpFhBCsiHa	det	västkust	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KpxDJ8zxv8y9WmD3UBXVv
@@ -3480,7 +3480,7 @@ runt	runt	runt	ADV	-	i-7KpzLZvvx4fHGXn5LkvDUY	nmod	år	NOUN	Case=Nom Definite=De
 <g/>
 .	.	.	PUNCT	-	i-7KpzVjLLAYLNXwkxtcN7pp	punct	flyta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpxNTYQBPp4Qvk6bKdRrC
 </s>
-<s id="i-7L3phMJuSvbuQtxGKJsACc">
+<s id="i-7L3phMJuSvbuQtxGKJsACc" senti_3="Negative" senti_6="mixed negative" senti_n="0.588">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Kpze4RnYRrdsEHbD2E2gt	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpzoDqBkuXj8eGUksfw3A
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpzoDqBkuXj8eGUksfw3A	root	-	-	-	-
 inget	inget	ingen	DET	Definite=Ind Gender=Neut Number=Sing	i-7KpzwYve8o3zTvo75HXquE	det	fenomen	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Kq1FsjSZkQAzkktAzRebn
@@ -3489,7 +3489,7 @@ fenomen	fenomen	fenomen	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Kq
 <g/>
 .	.	.	PUNCT	-	i-7Kq1QCptwdvSL3HWVQHZTr	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KpzoDqBkuXj8eGUksfw3A
 </s>
-<s id="i-7L3poBUXK3fgwo86wPy6c4">
+<s id="i-7L3poBUXK3fgwo86wPy6c4" senti_3="Negative" senti_6="negative" senti_n="0.444">
 Så	Så	så	ADV	-	i-7Kq1YXvMKXShfKp8op9UKv	advmod	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kq2Ug2omoLRKgFCsVEtwN
 länge	länge	länge	ADV	Degree=Pos	i-7Kq1hhKkY17nvjo2MfbNgC	det	så	ADV	-	i-7Kq1YXvMKXShfKp8op9UKv
 det	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Kq1rrj9kUntC9muuX3H2U	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kq2228YxxTyTZkoTNVBNk
@@ -3504,7 +3504,7 @@ havet	havet	hav	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7Kq35f2WxXj
 <g/>
 .	.	.	PUNCT	-	i-7Kq3Dz7yLRFPrMnrvRiSE8	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kq2Ug2omoLRKgFCsVEtwN
 </s>
-<s id="i-7L3puqx61ktJQpkCnvf2Vi">
+<s id="i-7L3puqx61ktJQpkCnvf2Vi" senti_3="Neutral" senti_6="neutral negative" senti_n="2.400">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Kq3P9XNYtvV7mmkUHALaQ	nsubj	gälla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kq3YJvmmNbaPBke28cEvg
 gäller	gäller	gälla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kq3YJvmmNbaPBke28cEvg	root	-	-	-	-
 även	även	även	ADV	-	i-7Kq3ge2E9G7qiUHGLYU9nk	advmod	gälla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kq3YJvmmNbaPBke28cEvg
@@ -3512,7 +3512,7 @@ skräp	skräp	skräp	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Kq3qo
 <g/>
 .	.	.	PUNCT	-	i-7Kq3z8X5jdKCKAnnComy16	punct	gälla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kq3YJvmmNbaPBke28cEvg
 </s>
-<s id="i-7L3q3LjbZ4FjoypZstvwsa">
+<s id="i-7L3q3LjbZ4FjoypZstvwsa" senti_3="Negative" senti_6="mixed negative" senti_n="1.295">
 Förr	Förr	förr	ADV	-	i-7Kq49HvUx6zHaamfkfDsMN	advmod	rekommendera	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Pass	i-7Kq4JTKtAafNqzkZJWfmhe
 rekommenderades	rekommenderades	rekommendera	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Pass	i-7Kq4JTKtAafNqzkZJWfmhe	dep	för	CCONJ	-	i-7Kq6v3dxdkMnhPAMUoLADJ
 det	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Kq4TcjHP4LU7QjSrN7g3v	expl	rekommendera	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Pass	i-7Kq4JTKtAafNqzkZJWfmhe
@@ -3541,7 +3541,7 @@ det	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Kq7NhYDSbE
 </s>
 </p>
 <p id="i-GJnBGYnNnyMHWURAd3hooz" lang="svenska">
-<s id="i-7L3qA1DAFmUMH1SfjRcsmE">
+<s id="i-7L3qA1DAFmUMH1SfjRcsmE" senti_3="Negative" senti_6="negative" senti_n="0.379">
 På	På	på	ADP	-	i-7Kq7gC352xRbACAGmBPgzG	advmod	få	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Kq9CUqHqNZC5pA7KwWkYC
 mitt	mitt	min	DET	Definite=Def Gender=Neut Number=Sing	i-7Kq7qMSUFS6gRc9AK2qbLY	det	jobb	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Kq88qwKqoJ32JegBJ9QYt
 gamla	gamla	gammal	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Com,Neut Number=Sing	i-7Kq7ygXvdKcwktfndShWCc	amod	jobb	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Kq88qwKqoJ32JegBJ9QYt
@@ -3577,7 +3577,7 @@ Lysekil	Lysekil	Lysekil	PROPN	Case=Nom	i-7KqBTFQjMpSwbzFLiCXMtg	advmod	i	ADP	-	i
 </name>
 .	.	.	PUNCT	-	i-7KqBbaWBjhyCwGmy2cPGkk	punct	få	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Kq9CUqHqNZC5pA7KwWkYC
 </s>
-<s id="i-7L3qFqNn7tY8oucWMWipAg">
+<s id="i-7L3qFqNn7tY8oucWMWipAg" senti_3="Negative" senti_6="mixed negative" senti_n="0.795">
 Glädjen	Glädjen	glädje	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KqBkjuaxBeJCgkraTqB72	nsubj	vara	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqBuuJzAfKPU6jk8KH5TJ
 var	var	vara	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqBuuJzAfKPU6jk8KH5TJ	dep	men	CCONJ	-	i-7KqCNZDEyWBqLDE9YS2o1v
 stor	stor	stor	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Com Number=Sing	i-7KqC4EQSYYqeoPGNSj8zKN	dep	vara	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqBuuJzAfKPU6jk8KH5TJ
@@ -3597,7 +3597,7 @@ dagar	dagar	dag	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KqDtr1TmvKS
 <g/>
 .	.	.	PUNCT	-	i-7KqE41QrzPzXXFCsf3bkv8	punct	och	CCONJ	-	i-7KqDH2hokbmu8Jkh9DxEex
 </s>
-<s id="i-7L3qNVrLpbkkGwEcD3Qk4L">
+<s id="i-7L3qNVrLpbkkGwEcD3Qk4L" senti_3="Negative" senti_6="negative" senti_n="0.346">
 När	När	när	ADV	-	i-7KqEDApGCsfcnfBmCu3fGQ	advmod	göra	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqEWfK7oEryPMhH5AMUUk
 man	man	man	PRON	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KqEMVuiamBt7wiPXJua8U	nsubj	göra	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqEWfK7oEryPMhH5AMUUk
 gjorde	gjorde	göra	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqEWfK7oEryPMhH5AMUUk	advmod	hitta	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqEz9XKSftFBbdwiihBXa
@@ -3615,7 +3615,7 @@ magen	magen	mage	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KqFuTKq4Md
 </s>
 </p>
 <p id="i-Lid3xpGPxBi8utsNzgHBtL" lang="svenska">
-<s id="i-7L3qVAKuXJyMjxri4a6fwz">
+<s id="i-7L3qVAKuXJyMjxri4a6fwz" senti_3="Negative" senti_6="mixed negative" senti_n="0.831">
 Den	Den	den	DET	Definite=Def Gender=Com Number=Sing	i-7KqGCwpgeipVWX8GRDWRsA	det	plast	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KqGMGv92cLkqoetjdNLjE
 plast	plast	plast	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KqGMGv92cLkqoetjdNLjE	nsubj	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7KqHFkQhohvpduBSLRHnNG
 som	som	som	PRON	-	i-7KqGVc1bQVs2B6BX43EFbJ	nsubj	finnas	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Pass	i-7KqGemQzcyY7SWAQbtg9wa
@@ -3636,7 +3636,7 @@ bitar	bitar	bit	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KqJUYi51ks4
 <g/>
 .	.	.	PUNCT	-	i-7KqJcsoXPePLJ7CPMKxwZv	punct	men	CCONJ	-	i-7KqHrjQQzSKXqJCU4wuQnx
 </s>
-<s id="i-7L3qbpoUE2ByCzUov6nbqe">
+<s id="i-7L3qbpoUE2ByCzUov6nbqe" senti_3="Negative" senti_6="mixed negative" senti_n="0.673">
 Plasten	Plasten	plast	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KqJmCtymXubdPj1fjprRz	nsubj	försvinna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqJvNJNz1agtohuDbGknG
 försvinner	försvinner	försvinna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqJvNJNz1agtohuDbGknG	dep	och	CCONJ	-	i-7KqKNBtgxGJJpnk3QGSUrg
 inte	inte	inte	ADV	-	i-7KqK5XhnCVFnADgnmSif8Y	dep	försvinna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqJvNJNz1agtohuDbGknG
@@ -3650,7 +3650,7 @@ ned	ned	ned	PART	-	i-7KqKxLaTJQYC64JouMU7oA	dep	bryta	VERB	Mood=Ind Tense=Pres V
 <g/>
 .	.	.	PUNCT	-	i-7KqL6ffugJ4TRLqSDmL2fE	punct	och	CCONJ	-	i-7KqKNBtgxGJJpnk3QGSUrg
 </s>
-<s id="i-7L3qhey669FkjteeYBtYF6">
+<s id="i-7L3qhey669FkjteeYBtYF6" senti_3="Neutral" senti_6="neutral negative" senti_n="1.585">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KqLFq5JtmjYgkpKmcmw1W	nsubj	bli	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqLQzUi7FQdxAoDKUDqMn
 blir	blir	bli	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqLQzUi7FQdxAoDKUDqMn	root	-	-	-	-
 kanske	kanske	kanske	ADV	-	i-7KqLZKaAV8vuHTKqdt5kDr	advmod	bli	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqLQzUi7FQdxAoDKUDqMn
@@ -3664,7 +3664,7 @@ delar	delar	del	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KqMJdfL3kqs
 </s>
 </p>
 <p id="i-CSE7yc5YH1uAZ1FAqfcBsU" lang="svenska">
-<s id="i-7L3qpKSenrUNCvGkPiaU8k">
+<s id="i-7L3qpKSenrUNCvGkPiaU8k" senti_3="Negative" senti_6="negative" senti_n="0.270">
 Forskarna	Forskarna	forskare	NOUN	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KqMc8ABe83EQqP1Z5s6ix	nsubj	prata	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqMmHZarbiKgFMu6wK15E
 pratar	pratar	prata	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqMmHZarbiKgFMu6wK15E	root	-	-	-	-
 nu	nu	nu	ADV	-	i-7KqMucf3EVEb1XtXRMAuwJ	advmod	prata	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqMmHZarbiKgFMu6wK15E
@@ -3685,7 +3685,7 @@ världen	världen	värld	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Kq
 <g/>
 .	.	.	PUNCT	-	i-7KqQBDYRbXHATqS233mWmz	punct	prata	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqMmHZarbiKgFMu6wK15E
 </s>
-<s id="i-7L3qvyvDVZgyfwtrFFGQ2Q">
+<s id="i-7L3qvyvDVZgyfwtrFFGQ2Q" senti_3="Negative" senti_6="negative" senti_n="0.230">
 Djur	Djur	djur	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	i-7KqQLNwpozxFjFQuauDR8G	nsubj	trassla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqQUi3HBtUX4XwXuK5KzL
 trasslar	trasslar	trassla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqQUi3HBtUX4XwXuK5KzL	dep	och	CCONJ	-	i-7KqSaKDKVrhBKJ3sjie2zY
 in	in	in	PART	-	i-7KqQd38jZmznPpUADiwErQ	dep	trassla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqQUi3HBtUX4XwXuK5KzL
@@ -3710,7 +3710,7 @@ den	den	den	PRON	Case=Acc,Nom Definite=Def Gender=Com Number=Sing	i-7KqTATu5qzw4
 <g/>
 .	.	.	PUNCT	-	i-7KqTJnzYDtTKur9GZDXao6	punct	och	CCONJ	-	i-7KqSaKDKVrhBKJ3sjie2zY
 </s>
-<s id="i-7L3r3ePnCGub8yWx6mxKv4">
+<s id="i-7L3r3ePnCGub8yWx6mxKv4" senti_3="Negative" senti_6="negative" senti_n="0.381">
 Plasten	Plasten	plast	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KqTTxPwSN8RBG8A74yV9N	nsubj	ge	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqTcHVPpFegWYenRUqQ1S
 ger	ger	ge	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqTcHVPpFegWYenRUqQ1S	dep	och	CCONJ	-	i-7KqTtwgJa2hDB7i34JZDja
 skugga	skugga	skugga	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KqTkcarC9AwqqBQjthJsW	obj	ge	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqTcHVPpFegWYenRUqQ1S
@@ -3724,7 +3724,7 @@ alger	alger	alg	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KqUq5nm2Jav
 <g/>
 .	.	.	PUNCT	-	i-7KqUyQtDQC7CAkfjSPWZD6	punct	och	CCONJ	-	i-7KqTtwgJa2hDB7i34JZDja
 </s>
-<s id="i-7L3r9UZQ4PyNfsgnis4GKW">
+<s id="i-7L3r9UZQ4PyNfsgnis4GKW" senti_3="Neutral" senti_6="neutral negative" senti_n="2.479">
 Vartannat	Vartannat	varannan	DET	Definite=Ind Gender=Neut Number=Sing	i-7KqV8aHccfnHSAeczExTZN	det	andetag	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7KqVGuP4zZJYmTBFJepNRS
 andetag	andetag	andetag	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7KqVGuP4zZJYmTBFJepNRS	root	-	-	-	-
 som	som	som	PRON	-	i-7KqVS4nUD2ye2sA8rWGGmi	obj	ta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqVjZHKoQAzdZfeima5z4
@@ -3736,7 +3736,7 @@ havet	havet	hav	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7KqWD3VXSqC
 <g/>
 .	.	.	PUNCT	-	i-7KqWNCtvfJsMhDbCvBMhPA	punct	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqVtigj1sr5tyeYGd1zLL
 </s>
-<s id="i-7L3rG92xm7Bz8uJtaPkCDA">
+<s id="i-7L3rG92xm7Bz8uJtaPkCDA" senti_3="Negative" senti_6="negative" senti_n="0.427">
 Utan	Utan	utan	ADP	-	i-7KqWWXzP3CPd2W7qEbDcFE	advmod	bli	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqWyBtdr3G4tccEehyKor
 våra	våra	vår	DET	Definite=Def Gender=Com,Neut Number=Plur	i-7KqWfhPnFg4iHv6inSfWbW	det	mikroalger	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KqWproBU9joZL5cLJ7Qwn
 mikroalger	mikroalger	mikroalger	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KqWproBU9joZL5cLJ7Qwn	advmod	utan	ADP	-	i-7KqWWXzP3CPd2W7qEbDcFE
@@ -3750,7 +3750,7 @@ andas	andas	andas	VERB	VerbForm=Inf Voice=Pass	i-7KqXbqWEhwxRxGXnr7kwCx	punct	at
 </s>
 </p>
 <p id="i-NEG3nV2mzeYbAqJ3NQo78U" lang="svenska">
-<s id="i-7L3rMyCadEFmfoUjCUr8cc">
+<s id="i-7L3rMyCadEFmfoUjCUr8cc" senti_3="Positive" senti_6="positive" senti_n="4.890">
 Därför	Därför	därför	ADV	-	i-7KqXuL16JK9nYy3JiP4kRJ	advmod	välkomna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqY4VQVWnpspP2CGEWema
 välkomnar	välkomnar	välkomna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqY4VQVWnpspP2CGEWema	root	-	-	-	-
 jag	jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KqYDeotjGVy5o15p5xZ7r	nsubj	välkomna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqY4VQVWnpspP2CGEWema
@@ -3781,7 +3781,7 @@ där	där	där	ADV	-	i-7KqbYtbF5sohbc41aRvVwr	advmod	ligga	VERB	Mood=Ind Tense=P
 </s>
 </p>
 <p id="i-GvZRhccjZCssWPxUZWYDTp" lang="svenska">
-<s id="i-7L3rUdg9KwUP8q6q41Y4WG">
+<s id="i-7L3rUdg9KwUP8q6q41Y4WG" senti_3="Positive" senti_6="mixed positive" senti_n="4.007">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KqbrP66gF14CJZXShEKAC	expl	göra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7Kqc1YVVtig9TiYQzYgDWU
 görs	görs	göra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7Kqc1YVVtig9TiYQzYgDWU	root	-	-	-	-
 också	också	också	ADV	-	i-7KqcAhtu7CMEj8XJYQ87rk	advmod	göra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7Kqc1YVVtig9TiYQzYgDWU
@@ -3800,7 +3800,7 @@ miljön	miljön	miljö	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Kqe2
 <g/>
 .	.	.	PUNCT	-	i-7KqeAUuKZ3W7SzTokiatTW	punct	göra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7Kqc1YVVtig9TiYQzYgDWU
 </s>
-<s id="i-7L3raTqmC4YAfjGfg6dzui">
+<s id="i-7L3raTqmC4YAfjGfg6dzui" senti_3="Positive" senti_6="mixed positive" senti_n="3.814">
 Över	Över	över	ADP	-	i-7KqeJozmvw2NnGzS58SoKa	advmod	göra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7KqemTu2jmtpePUqVFCWtC
 huvud	huvud	huvud	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7KqeTyQB9QhU3gyKcythfr	det	över	ADP	-	i-7KqeJozmvw2NnGzS58SoKa
 taget	taget	tagen	VERB	Case=Nom Definite=Ind Gender=Neut Number=Sing Tense=Past VerbForm=Part	i-7Kqed8oaMtNZK6xDAqLc28	det	över	ADP	-	i-7KqeJozmvw2NnGzS58SoKa
@@ -3824,13 +3824,13 @@ miljön	miljön	miljö	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Kqgu
 </s>
 </p>
 <p id="i-nVCQeNm2N7RiLDaGt2Lk2" lang="svenska">
-<s id="i-7L3rh8KKtmkn8ktmXdKvoN">
+<s id="i-7L3rh8KKtmkn8ktmXdKvoN" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KqhD4Vm9smKJETUtEq1ZN	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KqhNDuANMSQZeSNS6Guue
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KqhNDuANMSQZeSNS6Guue	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	i-7KqhWYzckExftvxzkW8pmi	punct	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KqhNDuANMSQZeSNS6Guue
 </s>
-<s id="i-7L3ronntbUyPbnWsPA1rh2">
+<s id="i-7L3ronntbUyPbnWsPA1rh2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.970">
 I	I	i	ADP	-	i-7Kqhet6588UwEDVd4uzjdn	advmod	hitta	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqhxNaviVgHpv18wBJYr8
 helgen	helgen	helg	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KqhoDBXW21CZW2FPKreVr	advmod	i	ADP	-	i-7Kqhet6588UwEDVd4uzjdn
 hittade	hittade	hitta	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqhxNaviVgHpv18wBJYr8	root	-	-	-	-
@@ -3847,7 +3847,7 @@ dyka	dyka	dyka	VERB	VerbForm=Inf Voice=Act	i-7KqjMAbdycSTMNvcQy9h2C	obj	börja	V
 <g/>
 .	.	.	PUNCT	-	i-7KqjdpnYjPUz1wys3nsWkL	punct	hitta	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqhxNaviVgHpv18wBJYr8
 </s>
-<s id="i-7L3rucxWTc3B8ggi1F7o6U">
+<s id="i-7L3rucxWTc3B8ggi1F7o6U" senti_3="Negative" senti_6="mixed negative" senti_n="1.214">
 Mitt	Mitt	min	DET	Definite=Def Gender=Neut Number=Sing	i-7KqjnzBwwsA5HMxkbeKR6c	det	dyk	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Kqk6UgoYEMRt4UGTudEJx
 tionde	tionde	tionde	ADJ	Case=Nom	i-7KqjwKHQKkgLceVNv4BKxg	det	dyk	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Kqk6UgoYEMRt4UGTudEJx
 dyk	dyk	dyk	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Kqk6UgoYEMRt4UGTudEJx	nsubj	vara	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqkEonFv7shDLztnKV9B2
@@ -3869,7 +3869,7 @@ Kungshamn	Kungshamn	Kungshamn	PROPN	Case=Nom	i-7KqmbwB5W4LCsZ1qoEAJNg	advmod	uta
 </name>
 .	.	.	PUNCT	-	i-7Kqmm6aUiY1J8xzjM5cCix	punct	vara	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqkEonFv7shDLztnKV9B2
 </s>
-<s id="i-7L3s1T88Kj6xfarYdLDjVv">
+<s id="i-7L3s1T88Kj6xfarYdLDjVv" senti_3="Negative" senti_6="mixed negative" senti_n="1.154">
 I	I	i	ADP	-	i-7KqmuRfw6RXZUFXMfVU7b2	advmod	stå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqnDkUjXNsk15V8mCMvHa
 loggboken	loggboken	loggbok	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Kqn4b5LJuCejfWFDLv1wJ	advmod	i	ADP	-	i-7KqmuRfw6RXZUFXMfVU7b2
 står	står	stå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqnDkUjXNsk15V8mCMvHa	root	-	-	-	-
@@ -3882,7 +3882,7 @@ vrakdyk	vrakdyk	vrakdyk	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Kq
 <g/>
 .	.	.	PUNCT	-	i-7KqoGZ4kgMz58TYJgQ9Gng	punct	stå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqnDkUjXNsk15V8mCMvHa
 </s>
-<s id="i-7L3s87bh2SKa8cUeUrufPa">
+<s id="i-7L3s87bh2SKa8cUeUrufPa" senti_3="Positive" senti_6="positive" senti_n="4.811">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KqoRiU9tqfAPsXCEFbB8x	nsubj	vara	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Kqoa3ZcGjBRjA3pYfT612
 var	var	vara	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Kqoa3ZcGjBRjA3pYfT612	dep	och	CCONJ	-	i-7KqpLBxifwFEBy3jq3Wcmz
 en	en	en	DET	Definite=Ind Gender=Com Number=Sing	i-7KqoiNf4echh4SaSs5Jzs6	det	utfärd	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Kqp2hTs5a3sbGYDxnCoZe
@@ -3897,7 +3897,7 @@ sol	sol	sol	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Kqpn1Z2eBxr7x5t
 <g/>
 .	.	.	PUNCT	-	i-7KqpwAxRrfdwPN4mZa8FCg	punct	och	CCONJ	-	i-7KqpLBxifwFEBy3jq3Wcmz
 </s>
-<s id="i-7L3sEn5Fj9YBbe6kLPbbHE">
+<s id="i-7L3sEn5Fj9YBbe6kLPbbHE" senti_3="Negative" senti_6="mixed negative" senti_n="0.551">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Kqq5W3tEZACiebPsyzA4k	nsubj	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqqDq9LcSgU3w82CPr4vp
 hade	hade	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqqDq9LcSgU3w82CPr4vp	dep	men	CCONJ	-	i-7KqqyyYT1ekGWk7wUmubhn
 problem	problem	problem	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	i-7KqqNAEnzLCjPDeeWohynt	obj	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqqDq9LcSgU3w82CPr4vp
@@ -3920,7 +3920,7 @@ för	för	för	ADP	-	i-7KqsCmqpDhgWqfcGBGir3N	advmod	vara	VERB	Mood=Ind Tense=Pr
 </s>
 </p>
 <p id="i-A1ejFY6kWFicc36V4Xm9Th" lang="svenska">
-<s id="i-7L3sMSYpRrko4firBvHXAt">
+<s id="i-7L3sMSYpRrko4firBvHXAt" senti_3="Neutral" senti_6="neutral negative" senti_n="2.208">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KqsgG41s8hnduYvpq4Z6C	nsubj	vara	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Kqspb9UF2E3yC5Z9EvTxG
 var	var	vara	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Kqspb9UF2E3yC5Z9EvTxG	dep	och	CCONJ	-	i-7KqtajYaeEHrS15URcyzjE
 bara	bara	bara	ADV	-	i-7KqsxvEvcukKJUcBTenNpL	advmod	vara	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Kqspb9UF2E3yC5Z9EvTxG
@@ -3941,7 +3941,7 @@ linan	linan	lina	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Kquw2dTPab
 <g/>
 .	.	.	PUNCT	-	i-7Kqv5MiumU7oVNAnXVw5Jk	punct	och	CCONJ	-	i-7KqtajYaeEHrS15URcyzjE
 </s>
-<s id="i-7L3sTGiSHypabZtgp1PTaL">
+<s id="i-7L3sTGiSHypabZtgp1PTaL" senti_3="Negative" senti_6="negative" senti_n="0.487">
 Man	Man	man	PRON	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KqvEX8Jywntkn9g5MNyf2	nsubj	hålla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqvPgXiCRTz2C8ZdCpt1J
 håller	håller	hålla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqvPgXiCRTz2C8ZdCpt1J	dep	och	CCONJ	-	i-7Kqw8zcsm3NxYsgDg9JRJ4
 sig	sig	sig	PRON	Case=Acc Definite=Def Gender=Com,Neut Number=Plur,Sing	i-7KqvY1dAaJzFMUfBwcgnsN	obj	hålla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KqvPgXiCRTz2C8ZdCpt1J
@@ -3958,7 +3958,7 @@ vatten	vatten	vatten	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Kqwj9
 <g/>
 .	.	.	PUNCT	-	i-7Kqx2doVhYpCQqkW3VdsSt	punct	och	CCONJ	-	i-7Kqw8zcsm3NxYsgDg9JRJ4
 </s>
-<s id="i-7L3sZwBzzh3C4bWnfY5PTz">
+<s id="i-7L3sZwBzzh3C4bWnfY5PTz" senti_3="Neutral" senti_6="neutral negative" senti_n="1.819">
 Till	Till	till	ADP	-	i-7KqxAxtx5SLTk8H8MuVnJx	advmod	komma	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqxUTPofoXpLpneEAobXJ
 sist	sist	sist	ADV	Degree=Sup	i-7KqxL8JMHv1Z1YG1ukwgfE	det	till	ADP	-	i-7KqxAxtx5SLTk8H8MuVnJx
 kom	kom	komma	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqxUTPofoXpLpneEAobXJ	dep	och	CCONJ	-	i-7KqxvGz7e4FSGopnQqyKbi
@@ -3978,14 +3978,14 @@ meter	meter	meter	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KqzHQNwDz
 <g/>
 .	.	.	PUNCT	-	i-7KqzRjUPbtEDGJNMkAWPfS	punct	och	CCONJ	-	i-7KqxvGz7e4FSGopnQqyKbi
 </s>
-<s id="i-7L3sfmMcrp6ybVgdHdBKsS">
+<s id="i-7L3sfmMcrp6ybVgdHdBKsS" senti_3="Negative" senti_6="mixed negative" senti_n="1.346">
 Den	Den	den	PRON	Case=Acc,Nom Definite=Def Gender=Com Number=Sing	i-7Kqza4ZqymkUbatz4aNJXW	nsubj	sjunka	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqzjDyFCFRZrzsscRpCsn
 sjönk	sjönk	sjunka	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqzjDyFCFRZrzsscRpCsn	root	-	-	-	-
 1985	1985	1985	NUM	Case=Nom	i-7KqzsZ4ha8wqCHQVvqg7jr	advmod	sjunka	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqzjDyFCFRZrzsscRpCsn
 <g/>
 .	.	.	PUNCT	-	i-7Kr12iU6nccvThPPUh8268	punct	sjunka	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KqzjDyFCFRZrzsscRpCsn
 </s>
-<s id="i-7L3snRqBZXKb4XJj99sFm6">
+<s id="i-7L3snRqBZXKb4XJj99sFm6" senti_3="Negative" senti_6="mixed negative" senti_n="0.732">
 På	På	på	ADP	-	i-7Kr1B3ZZAW9Bnyv1o6yvxC	advmod	stanna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kr1mCFKWeP54FUnJC1Ztg
 30	30	30	NUM	Case=Nom	i-7Kr1KNf1YPfT8GSe7WqqpG	det	meter	NOUN	Case=Gen Definite=Ind Gender=Com Number=Plur	i-7Kr1ThkTvHBiTYyGRvhkgL
 meters	meters	meter	NOUN	Case=Gen Definite=Ind Gender=Com Number=Plur	i-7Kr1ThkTvHBiTYyGRvhkgL	det	djup	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Kr1cs9s8kroixx9yn9f2c
@@ -3998,7 +3998,7 @@ länge	länge	länge	ADV	Degree=Pos	i-7Kr2NBF2hNmnFeVp2idCKN	advmod	stanna	VERB	
 <g/>
 .	.	.	PUNCT	-	i-7Kr2WWLV5GJ3aw2SM8V7BS	punct	stanna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kr1mCFKWeP54FUnJC1Ztg
 </s>
-<s id="i-7L3su6JkGEYCXYvpzgZBek">
+<s id="i-7L3su6JkGEYCXYvpzgZBek" senti_3="Neutral" senti_6="neutral postive" senti_n="2.655">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7Kr2ffjtHjy8rM1Ktyw1Xi	nsubj	simma	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Kr2pq9HWDeE7kzDSqNusz
 simmade	simmade	simma	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Kr2pq9HWDeE7kzDSqNusz	dep	och	CCONJ	-	i-7Kr3borLk1rrWhSPxf2S9A
 runt	runt	runt	PART	-	i-7Kr2yzYgihKKPAy6zgppEG	dep	simma	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Kr2pq9HWDeE7kzDSqNusz
@@ -4017,7 +4017,7 @@ igen	igen	igen	ADV	-	i-7Kr4M7wWJdmq3Nz41bVyRv	advmod	gå	VERB	Mood=Ind Tense=Pas
 </s>
 </p>
 <p id="i-JiD81yhKxYMcFRHSRgjiw3" lang="svenska">
-<s id="i-7L3szvUN8Mbz4T6fcmf84C">
+<s id="i-7L3szvUN8Mbz4T6fcmf84C" senti_3="Negative" senti_6="mixed negative" senti_n="0.562">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Kr4ecSMtzyBe5VZsroneG	nsubj	prata	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Kr4nwXpGtVSyN2CCGfhWL
 pratade	pratade	prata	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Kr4nwXpGtVSyN2CCGfhWL	root	-	-	-	-
 med	med	med	ADP	-	i-7Kr4x6wDVNAYEn15k87brc	advmod	prata	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Kr4nwXpGtVSyN2CCGfhWL
@@ -4041,7 +4041,7 @@ dessa	dessa	dessa	PRON	Case=Acc,Nom Definite=Def Gender=Com,Neut Number=Plur	i-7
 <g/>
 .	.	.	PUNCT	-	i-7Kr7i2LkLRPDRSwWEpduEL	punct	prata	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Kr4nwXpGtVSyN2CCGfhWL
 </s>
-<s id="i-7L3t7awvq4pbXUimUJM3wr">
+<s id="i-7L3t7awvq4pbXUimUJM3wr" senti_3="Negative" senti_6="negative" senti_n="0.409">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Kr7sBk9Yu4JgrvPng5oac	expl	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7Kr81Wqbvnaa29T275wiSg
 finns	finns	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7Kr81Wqbvnaa29T275wiSg	root	-	-	-	-
 nästan	nästan	nästan	ADV	-	i-7Kr8AgF19GFfHZRuewPcnx	advmod	17	NUM	Case=Nom	i-7Kr8K1LTX9mvcqxXyMFXf2
@@ -4056,7 +4056,7 @@ kuster	kuster	kust	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7Kr959jZv
 <g/>
 .	.	.	PUNCT	-	i-7Kr9DUq2JFMzQwV5a9AyJ4	punct	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7Kr81Wqbvnaa29T275wiSg
 </s>
-<s id="i-7L3tDR7YhBtP4Ntc6PSzMJ">
+<s id="i-7L3tDR7YhBtP4Ntc6PSzMJ" senti_3="Negative" senti_6="negative" senti_n="0.388">
 Av	Av	av	ADP	-	i-7Kr9MovUg8tFkE1htZ2tA8	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kr9gy3DwgPGDBRkDhWgLt
 dessa	dessa	dessa	PRON	Case=Acc,Nom Definite=Def Gender=Com,Neut Number=Plur	i-7Kr9XodpjCiAwmSrfr4mzc	advmod	av	ADP	-	i-7Kr9MovUg8tFkE1htZ2tA8
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kr9gy3DwgPGDBRkDhWgLt	dep	och	CCONJ	-	i-7KrBDFqSk6Ws8oRanTdjtp
@@ -4081,7 +4081,7 @@ miljöfarliga	miljöfarliga	miljöfarlig	ADJ	Case=Nom Definite=Def,Ind Degree=Po
 </s>
 </p>
 <p id="i-BCk3GXfkHuhfyk4nrwda44" lang="svenska">
-<s id="i-7L3tL5b7Pu6zXQWhwv8vEx">
+<s id="i-7L3tL5b7Pu6zXQWhwv8vEx" senti_3="Neutral" senti_6="neutral postive" senti_n="3.006">
 Varje	Varje	varje	DET	Definite=Ind Gender=Com,Neut Number=Sing	i-7KrCG4RTu5dCGBUkhfR6Pv	det	valår	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7KrCRDps7ZJHXbTeFWrzkC
 valår	valår	valår	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7KrCRDps7ZJHXbTeFWrzkC	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrDJs1V44jXPZXvcsCSu2
 som	som	som	PRON	-	i-7KrCZYvKVSpYrszGZviucG	obj	vara	VERB	VerbForm=Sup Voice=Act	i-7KrD2CpaJHgzizUfz3UdAt
@@ -4125,7 +4125,7 @@ här	här	här	ADV	-	i-7KrHYaHQBmdKhU7Pz15qN4	det	det	PRON	Case=Acc,Nom Definite
 <g/>
 .	.	.	PUNCT	-	i-7KrHhjgoQFJQxt6HXrXjiL	punct	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrGew6nFGC5qW37cekPDE
 </s>
-<s id="i-7L3tRukjG2An4JgYa1EreQ">
+<s id="i-7L3tRukjG2An4JgYa1EreQ" senti_3="Negative" senti_6="negative" senti_n="0.129">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KrHr4nFn8pgJAcurGPeaQ	obj	göra	VERB	VerbForm=Sup Voice=Act	i-7KrJT3mxxsDPVZdwao1H16
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrJ1EBezcVmZaboQ7qYvg	root	-	-	-	-
 man	man	man	PRON	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KrJ9ZH7NW22ts8RiXhTnk	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrJ1EBezcVmZaboQ7qYvg
@@ -4134,7 +4134,7 @@ gjort	gjort	göra	VERB	VerbForm=Sup Voice=Act	i-7KrJT3mxxsDPVZdwao1H16	dep	ha	VE
 <g/>
 .	.	.	PUNCT	-	i-7KrJbNsRLkjeprAZuCsBsA	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrJ1EBezcVmZaboQ7qYvg
 </s>
-<s id="i-7L3tYaEHxjPPXLJeRXvnY4">
+<s id="i-7L3tYaEHxjPPXLJeRXvnY4" senti_3="Negative" senti_6="mixed negative" senti_n="1.484">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KrJkYGpZEQk6G9TT4K6DS	expl	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrJtsNGw7w1RYg5mUB15W
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrJtsNGw7w1RYg5mUB15W	dep	och	CCONJ	-	i-7KrKWgfvxSUYZ59NjSNczQ
 tillsatts	tillsatts	tillsätta	VERB	VerbForm=Sup Voice=Pass	i-7KrK42mg9bc6gxeyKKcuRn	dep	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrJtsNGw7w1RYg5mUB15W
@@ -4171,7 +4171,7 @@ pengar	pengar	peng	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KrP8aeC4
 </s>
 </p>
 <p id="i-6bPH8fJmSYQVtiNieLryth" lang="svenska">
-<s id="i-7L3tfEhrfSbzzMvkH4ciRi">
+<s id="i-7L3tfEhrfSbzzMvkH4ciRi" senti_3="Positive" senti_6="mixed positive" senti_n="3.783">
 I	I	i	ADP	-	i-7KrPSuSzVnAzGHDLEJxCF6	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrPuZMFJd3S8PhjeRhuoi
 detta	detta	detta	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KrPc4rPiFr5XhCDnAQ6bN	advmod	i	ADP	-	i-7KrPSuSzVnAzGHDLEJxCF6
 nu	nu	nu	ADV	-	i-7KrPkPwr69NLryir6aG1TS	nmod	detta	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KrPc4rPiFr5XhCDnAQ6bN
@@ -4187,7 +4187,7 @@ saneras	saneras	sanera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7KrQp2
 <g/>
 .	.	.	PUNCT	-	i-7KrQxMwGTc9mFmkuZdVGJp	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrPuZMFJd3S8PhjeRhuoi
 </s>
-<s id="i-7L3tmuBRN9pcTPYr8bJeKN">
+<s id="i-7L3tmuBRN9pcTPYr8bJeKN" senti_3="Neutral" senti_6="neutral postive" senti_n="3.451">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KrR7XLfg5prXBjo7UwAf6	nsubj	innebära	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrRFrS83yM7rUGRRto5XA
 innebär	innebär	innebära	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrRFrS83yM7rUGRRto5XA	root	-	-	-	-
 att	att	att	SCONJ	-	i-7KrRR1qXGT2D7tFJykEysS	obj	innebära	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrRFrS83yM7rUGRRto5XA
@@ -4216,7 +4216,7 @@ oljeutsläpp	oljeutsläpp	oljeutsläpp	NOUN	Case=Nom Definite=Ind Gender=Neut Nu
 <g/>
 .	.	.	PUNCT	-	i-7KrUuR2GqY12u7H8Hweq3i	punct	innebära	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrRFrS83yM7rUGRRto5XA
 </s>
-<s id="i-7L3tsjM3EGtPzHigkgQaip">
+<s id="i-7L3tsjM3EGtPzHigkgQaip" senti_3="Neutral" senti_6="neutral negative" senti_n="2.242">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KrV4aRg41g8AXG1qo6jPz	nsubj	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrVCuX8RuCPVoneACxeG4
 kommer	kommer	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrVCuX8RuCPVoneACxeG4	root	-	-	-	-
 att	att	att	PART	-	i-7KrVMEcaonieq6KGUcpZ88	dep	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrVCuX8RuCPVoneACxeG4
@@ -4227,7 +4227,7 @@ miljoner	miljoner	miljon	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7Kr
 <g/>
 .	.	.	PUNCT	-	i-7KrW7P1hCznTHuKBkzt5u6	punct	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrVCuX8RuCPVoneACxeG4
 </s>
-<s id="i-7L3tyZWf6PxBXBtXNmWX8G">
+<s id="i-7L3tyZWf6PxBXBtXNmWX8G" senti_3="Negative" senti_6="negative" senti_n="0.333">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KrWGYR6RUTYZKJ5JrKzFN	nsubj	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrWQsWYoMyotbphdGBu7S
 ska	ska	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrWQsWYoMyotbphdGBu7S	root	-	-	-	-
 jämföras	jämföras	jämföra	VERB	VerbForm=Inf Voice=Pass	i-7KrWa2ux1qeuA1obB7doTi	dep	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrWQsWYoMyotbphdGBu7S
@@ -4252,7 +4252,7 @@ människor	människor	människa	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plu
 <g/>
 .	.	.	PUNCT	-	i-7KrZJHhbBiZvURqVCvz7s2	punct	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrWQsWYoMyotbphdGBu7S
 </s>
-<s id="i-7L3u6DzDo7AnzDWdEJCT1v">
+<s id="i-7L3u6DzDo7AnzDWdEJCT1v" senti_3="Negative" senti_6="negative" senti_n="0.446">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KrZTT6zQCF1jqpNknS2DJ	nsubj	kosta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrZbnCSn5mH58M15CHw5N
 kostar	kostar	kosta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrZbnCSn5mH58M15CHw5N	root	-	-	-	-
 otroligt	otroligt	otroligt	ADV	Degree=Pos	i-7KrZkwbqzZSNLYKtd3jqRe	advmod	mycken	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Neut Number=Sing	i-7KrZv71FD37TbxJnAuBjmv
@@ -4261,7 +4261,7 @@ pengar	pengar	peng	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7Kra4S6ha
 <g/>
 .	.	.	PUNCT	-	i-7KraCmC9xp9zGXN2oiuZW4	punct	kosta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrZbnCSn5mH58M15CHw5N
 </s>
-<s id="i-7L3uC49qfEEaX7gTrPJPRN">
+<s id="i-7L3uC49qfEEaX7gTrPJPRN" senti_3="Negative" senti_6="mixed negative" senti_n="0.931">
 Oljesaneringen	Oljesaneringen	oljesanering	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KraMvbZBHq5XwLvMaMTrL	nsubj	kosta	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KrbGQ67xPR9L2sTxNGuVN
 på	på	på	ADP	-	i-7KraWFh1ZBMLsDsYfzDNiQ	nmod	oljesanering	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KraMvbZBHq5XwLvMaMTrL
 <name type="LOC">
@@ -4284,13 +4284,13 @@ skattebetalarna	skattebetalarna	skattebetalare	NOUN	Case=Nom Definite=Def Gender
 </s>
 </p>
 <p id="i-MESFEP1bpKJfLycFwQhLY" lang="svenska">
-<s id="i-7L3uHtKTXMJN41rJUUQKpp">
+<s id="i-7L3uHtKTXMJN41rJUUQKpp" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KrcVCPVASMPexMnes69px	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KrceMntNv2UvNLgCiY4BE
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KrceMntNv2UvNLgCiY4BE	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	i-7KrcngtLkoYkFesJX8Py3J	punct	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KrceMntNv2UvNLgCiY4BE
 </s>
-<s id="i-7L3uQYo2E4WyX3UQL16FiU">
+<s id="i-7L3uQYo2E4WyX3UQL16FiU" senti_3="Positive" senti_6="positive" senti_n="4.887">
 Att	Att	att	PART	-	i-7Krcw1yo8h51awPvqYFsuN	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kre1VBhxrUzaaMdDdDDNt
 göra	göra	göra	VERB	VerbForm=Inf Voice=Act	i-7Krd6BPCMAk6rMNpPPhnFe	punct	att	PART	-	i-7Krcw1yo8h51awPvqYFsuN
 saker	saker	sak	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KrdFLnbZeRC7mMhwF9gbv	obj	göra	VERB	VerbForm=Inf Voice=Act	i-7Krd6BPCMAk6rMNpPPhnFe
@@ -4311,7 +4311,7 @@ lönsamt	lönsamt	lönsam	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Neut Numbe
 <g/>
 .	.	.	PUNCT	-	i-7KrfNcaXYnwWEnNaEXtNaY	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kre1VBhxrUzaaMdDdDDNt
 </s>
-<s id="i-7L3uXDGavmjaz56WBXnBc8">
+<s id="i-7L3uXDGavmjaz56WBXnBc8" senti_3="Negative" senti_6="negative" senti_n="0.184">
 Därför	Därför	därför	ADV	-	i-7KrfXmyvmGcbWCMTnPLGvp	advmod	tycka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Krfg75P9A8rqUt66oCBnt
 tycker	tycker	tycka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Krfg75P9A8rqUt66oCBnt	root	-	-	-	-
 jag	jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KrfpSAqX3f8AmQiRD46ex	nsubj	tycka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Krfg75P9A8rqUt66oCBnt
@@ -4333,7 +4333,7 @@ skuggbudgetar	skuggbudgetar	skuggbudget	NOUN	Case=Nom Definite=Ind Gender=Com Nu
 <g/>
 .	.	.	PUNCT	-	i-7KriFCTd6ZNntUw6am6bqv	punct	tycka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Krfg75P9A8rqUt66oCBnt
 </s>
-<s id="i-7L3uei46U572PEAsGW46yz">
+<s id="i-7L3uei46U572PEAsGW46yz" senti_3="Negative" senti_6="negative" senti_n="0.228">
 Förlusten	Förlusten	förlust	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KriQMs2K33t9tuz8cYWCC	nsubj	utgöra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrjdAAPX5z8UpQJq7MkXn
 av	av	av	ADP	-	i-7KriYgxUgva9VBScT2QR4G	nmod	förlust	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KriQMs2K33t9tuz8cYWCC
 biologisk	biologisk	biologisk	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Com Number=Sing	i-7KrihrMsuQFEkbRVzsrKQY	amod	mångfald	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Kris1mH7svL21QPYjJDkp
@@ -4365,7 +4365,7 @@ mycket	mycket	mycket	ADV	Degree=Pos	i-7Krn369EG1YyGQURmDpGEY	advmod	kosta	VERB	M
 </s>
 </p>
 <p id="i-BcrrXMkPd5EBX7TG2xVXc2" lang="svenska">
-<s id="i-7L3ukYDiLCAov8LhtbA3PS">
+<s id="i-7L3ukYDiLCAov8LhtbA3PS" senti_3="Negative" senti_6="negative" senti_n="0.238">
 När	När	när	ADV	-	i-7KrnLae5rNkKs6ywdV85St	advmod	utrota	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KrnyEFgiHSgvkuVptugqz
 människan	människan	människa	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KrnVk3V4rRR8WxqBLZyoA	nsubj	utrota	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KrnyEFgiHSgvkuVptugqz
 på	på	på	ADP	-	i-7KrneuStHL6WPvwijC1t9S	advmod	utrota	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KrnyEFgiHSgvkuVptugqz
@@ -4397,7 +4397,7 @@ hunger	hunger	hunger	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KrrAyF
 <g/>
 .	.	.	PUNCT	-	i-7KrrL8evk545Jprx483ceQ	punct	göra	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KrpoqrhwevUPCs7VMvZ6U
 </s>
-<s id="i-7L3urNPLCKEbT2WYWgFynt">
+<s id="i-7L3urNPLCKEbT2WYWgFynt" senti_3="Negative" senti_6="negative" senti_n="0.205">
 När	När	när	ADV	-	i-7KrrUTkP7xaLe7PaNXuXWU	advmod	utrota	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KrsEc9VXAe96vPVeuy4HS
 vi	vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7Krrdd9nLSFRuXNTvPMRrk	nsubj	utrota	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KrsEc9VXAe96vPVeuy4HS
 européer	européer	europé	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KrrnnZBYuvXAwMMUEoLD2	nmod	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7Krrdd9nLSFRuXNTvPMRrk
@@ -4430,7 +4430,7 @@ okunskap	okunskap	okunskap	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7
 <g/>
 .	.	.	PUNCT	-	i-7KrvHBjw7zuLxAPAnSDBPJ	punct	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KruMswRWKATDwQMxChkG4
 </s>
-<s id="i-7L3uy2rtu2TCv48eNCwugY">
+<s id="i-7L3uy2rtu2TCv48eNCwugY" senti_3="Neutral" senti_6="neutral negative" senti_n="2.212">
 Detsamma	Detsamma	detsamma	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KrvRWqPVtRcHSuo6r56FN	nsubj	gälla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrvagEniN6hYrtgehWzbe
 gäller	gäller	gälla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrvagEniN6hYrtgehWzbe	root	-	-	-	-
 kanske	kanske	kanske	ADV	-	i-7Krvj1LF6Fcxt9RJy7NuTi	advmod	gälla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrvagEniN6hYrtgehWzbe
@@ -4441,7 +4441,7 @@ pungvarg	pungvarg	pungvarg	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7
 </s>
 </p>
 <p id="i-SwiUpsvCtKbYvjyHckJf5v" lang="svenska">
-<s id="i-7L3v4s2Wm9WzSxJUzJ3r5z">
+<s id="i-7L3v4s2Wm9WzSxJUzJ3r5z" senti_3="Negative" senti_6="negative" senti_n="0.330">
 Men	Men	men	CCONJ	-	i-7KrwKzKxGz1g5YSLhdzXtQ	dep	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrwdUposMD2gEwrZuJM6k
 vi	vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KrwV9jMVTgmLxREFVSSEg	nsubj	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrwdUposMD2gEwrZuJM6k
 kan	kan	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KrwdUposMD2gEwrZuJM6k	dep	och	CCONJ	-	i-7KrxgHQq2LKMod12V75hbr
@@ -4460,7 +4460,7 @@ visste	visste	veta	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KrySRowRYP
 <g/>
 .	.	.	PUNCT	-	i-7KryakuPoRuRbiXa5u19Et	punct	och	CCONJ	-	i-7KrxgHQq2LKMod12V75hbr
 </s>
-<s id="i-7L3vCMp2JStRr7Nr5GKmTr">
+<s id="i-7L3vCMp2JStRr7Nr5GKmTr" senti_3="Negative" senti_6="negative" senti_n="0.094">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KryjvJo1uaWs8WTdkT3bA	nsubj	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kryu5iCEPFc8YVMBbtwwS
 vet	vet	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kryu5iCEPFc8YVMBbtwwS	root	-	-	-	-
 att	att	att	SCONJ	-	i-7Krz3QoecGmsTq1yW1kroW	obj	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kryu5iCEPFc8YVMBbtwwS
@@ -4471,7 +4471,7 @@ utrotningshotad	utrotningshotad	utrotningshotad	VERB	Case=Nom Definite=Ind Gende
 <g/>
 .	.	.	PUNCT	-	i-7KrzoZCm1Uqfve1tnPpPaU	punct	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kryu5iCEPFc8YVMBbtwwS
 </s>
-<s id="i-7L3vK2Hb1A73K8zwvo1hMW">
+<s id="i-7L3vK2Hb1A73K8zwvo1hMW" senti_3="Negative" senti_6="negative" senti_n="0.130">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KrzxicADxWmC3znLFGHvk	nsubj	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ks173hcbr32XLXQef8Cnp
 vet	vet	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ks173hcbr32XLXQef8Cnp	root	-	-	-	-
 att	att	att	SCONJ	-	i-7Ks1GD71pKi7nkWJCWa796	obj	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ks173hcbr32XLXQef8Cnp
@@ -4482,7 +4482,7 @@ utrotningshotad	utrotningshotad	utrotningshotad	VERB	Case=Nom Definite=Ind Gende
 <g/>
 .	.	.	PUNCT	-	i-7Ks22MW8DXmvFZWDUtddv4	punct	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ks173hcbr32XLXQef8Cnp
 </s>
-<s id="i-7L3vRgm9hsKenAd3nKhdFA">
+<s id="i-7L3vRgm9hsKenAd3nKhdFA" senti_3="Negative" senti_6="negative" senti_n="0.211">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7Ks2BWuXS1T1WyV72k5YGL	nsubj	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ks2LgJveV86nPTzabXScc
 vet	vet	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ks2LgJveV86nPTzabXScc	root	-	-	-	-
 att	att	att	SCONJ	-	i-7Ks2V1QP2NeN7fzcu1PMUg	obj	veta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ks2LgJveV86nPTzabXScc
@@ -4497,7 +4497,7 @@ utdöda	utdöda	utdöd	ADJ	Case=Nom Definite=Def,Ind Degree=Pos Gender=Com,Neut 
 </s>
 </p>
 <p id="i-BJmYxw4zEishtdp18kiWg5" lang="svenska">
-<s id="i-7L3vXWvmZzPSK4ntQQoZec">
+<s id="i-7L3vXWvmZzPSK4ntQQoZec" senti_3="Negative" senti_6="negative" senti_n="0.274">
 Enligt	Enligt	enligt	ADP	-	i-7Ks3jUKdubtGJrPU4PNang	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ks43o8SLZESqgMFA6GPVE
 artdatabanken	artdatabanken	artdatabank	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Ks3tdj385ZMaGNMcEpV8x	advmod	enligt	ADP	-	i-7Ks3jUKdubtGJrPU4PNang
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ks43o8SLZESqgMFA6GPVE	root	-	-	-	-
@@ -4515,7 +4515,7 @@ hotade	hotade	hotad	VERB	Case=Nom Definite=Def,Ind Gender=Com,Neut Number=Plur T
 <g/>
 .	.	.	PUNCT	-	i-7Ks5uF3QQWs4EFm83zsFDv	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ks43o8SLZESqgMFA6GPVE
 </s>
-<s id="i-7L3veBQLGhc3n6QzFwVVYG">
+<s id="i-7L3veBQLGhc3n6QzFwVVYG" senti_3="Neutral" senti_6="neutral negative" senti_n="1.650">
 Lägg	Lägg	lägga	VERB	Mood=Imp VerbForm=Fin Voice=Act	i-7Ks63a8rnQPKZYHkNQjA5z	root	-	-	-	-
 därtill	därtill	därtill	ADV	-	i-7Ks6CjYFzt4QpxGdvGB4SG	dep	lägga	VERB	Mood=Imp VerbForm=Fin Voice=Act	i-7Ks63a8rnQPKZYHkNQjA5z
 tusentals	tusentals	tusentals	ADV	-	i-7Ks6MtwfDMjW6NFXU7cxnY	dep	lägga	VERB	Mood=Imp VerbForm=Fin Voice=Act	i-7Ks63a8rnQPKZYHkNQjA5z
@@ -4527,7 +4527,7 @@ rödlistan	rödlistan	rödlista	NOUN	Case=Nom Definite=Def Gender=Com Number=Sin
 <g/>
 .	.	.	PUNCT	-	i-7Ks7HCkAq3UPpbELJM8Pun	punct	lägga	VERB	Mood=Imp VerbForm=Fin Voice=Act	i-7Ks63a8rnQPKZYHkNQjA5z
 </s>
-<s id="i-7L3vkqstyQpfF8367UBRRv">
+<s id="i-7L3vkqstyQpfF8367UBRRv" senti_3="Negative" senti_6="mixed negative" senti_n="0.902">
 Och	Och	och	CCONJ	-	i-7Ks7RXqdCvzf9skxckzJmr	dep	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ks7j2LUoJC1kaGUV2J7zC
 det	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Ks7ahF2RQfkRHjrAcSD88	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ks7j2LUoJC1kaGUV2J7zC
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ks7j2LUoJC1kaGUV2J7zC	dep	utan	CCONJ	-	i-7Ks8oVYPdTbzkDEAs7FTTi
@@ -4549,7 +4549,7 @@ aktivitet	aktivitet	aktivitet	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	
 </s>
 </p>
 <p id="i-Gpfjg5je6pX4Yte1FsyfNe" lang="svenska">
-<s id="i-7L3vsWMTg83Gi9fBxzsMKa">
+<s id="i-7L3vsWMTg83Gi9fBxzsMKa" senti_3="Neutral" senti_6="neutral postive" senti_n="3.024">
 I	I	i	ADP	-	i-7Ks9sxkJTd1yjrBsFCCnwE	advmod	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsABTFA3zDLLYhP7TWc9a
 höst	höst	höst	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KsA2HqkqWYF58iVZc4hoJ	det	i	ADP	-	i-7Ks9sxkJTd1yjrBsFCCnwE
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsABTFA3zDLLYhP7TWc9a	root	-	-	-	-
@@ -4565,7 +4565,7 @@ Tyskland	Tyskland	Tyskland	PROPN	Case=Nom	i-7KsBF6983ZUVQ4CpG6sx8t	advmod	från	
 </name>
 .	.	.	PUNCT	-	i-7KsBPREaRSzkjLjSaWjrzx	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsABTFA3zDLLYhP7TWc9a
 </s>
-<s id="i-7L3vzAq2NqFtBBHHpXZHDE">
+<s id="i-7L3vzAq2NqFtBBHHpXZHDE" senti_3="Negative" senti_6="negative" senti_n="0.400">
 82	82	82	NUM	Case=Nom	i-7KsBXkL2oLX24dG4tvbms2	det	procent	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KsBgujS1pC7L3ExSn3gDJ
 procent	procent	procent	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KsBgujS1pC7L3ExSn3gDJ	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsCT48YR2FunrEsjA7CzG
 av	av	av	ADP	-	i-7KsBqEptPhiNfKmamBub5N	nmod	procent	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KsBgujS1pC7L3ExSn3gDJ
@@ -4586,7 +4586,7 @@ landskap	landskap	landskap	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-
 <g/>
 .	.	.	PUNCT	-	i-7KsE9Le7GWDRv1fs5DGANg	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsCT48YR2FunrEsjA7CzG
 </s>
-<s id="i-7L3w6qJb5YUVeCuPg4FD6t">
+<s id="i-7L3w6qJb5YUVeCuPg4FD6t" senti_3="Negative" senti_6="negative" senti_n="0.243">
 Utan	Utan	utan	ADP	-	i-7KsEHfjZePjhFJCVPd85Ek	dep	,	PUNCT	-	i-7KsFVdiz1rX7e6EYrgML68
 insekter	insekter	insekt	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KsESq8xrsQnWiBNwUZyb2	advmod	utan	ADP	-	i-7KsEHfjZePjhFJCVPd85Ek
 <g/>
@@ -4604,7 +4604,7 @@ mat	mat	mat	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KsFo8DqcDiUEnk4
 <g/>
 .	.	.	PUNCT	-	i-7KsFwTKHz7Eja5Gh3MX4AY	punct	,	PUNCT	-	i-7KsFVdiz1rX7e6EYrgML68
 </s>
-<s id="i-7L3wCfUCwfYHB75EJ9M9WL">
+<s id="i-7L3wCfUCwfYHB75EJ9M9WL" senti_3="Negative" senti_6="negative" senti_n="0.123">
 Detta	Detta	detta	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KsG5nQkMzkzuMoKMmNy2c	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsGEwp9aUS6AmnCucpsNt
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsGEwp9aUS6AmnCucpsNt	root	-	-	-	-
 en	en	en	DET	Definite=Ind Gender=Com Number=Sing	i-7KsGPGubxMxMW4JqE2gnEx	det	katastrof	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KsGZGcx1RnGhbjz1Kig5S
@@ -4614,7 +4614,7 @@ katastrof	katastrof	katastrof	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	
 </s>
 </p>
 <p id="i-HGkiNApgTCYAVSso5uJ72k" lang="svenska">
-<s id="i-7L3wKKwmeNkte8hL9g35Pz">
+<s id="i-7L3wKKwmeNkte8hL9g35Pz" senti_3="Positive" senti_6="positive" senti_n="5.256">
 Därför	Därför	därför	ADV	-	i-7KsGrm7obnydJJFVsb2VHn	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsH16DFygVtdan8BztQ9r
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsH16DFygVtdan8BztQ9r	root	-	-	-	-
 jag	jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KsHAFcfCAAytzm1jrLJW8	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsH16DFygVtdan8BztQ9r
@@ -4635,7 +4635,7 @@ naturbetesmarker	naturbetesmarker	naturbetesmark	NOUN	Case=Nom Definite=Ind Gend
 <g/>
 .	.	.	PUNCT	-	i-7KsKTX7wENXDDZD2pS6tKE	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsH16DFygVtdan8BztQ9r
 </s>
-<s id="i-7L3wRzRLM5yW7AKS1Cj1He">
+<s id="i-7L3wRzRLM5yW7AKS1Cj1He" senti_3="Positive" senti_6="positive" senti_n="5.048">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KsKdWqHHSM8R6eBbj8n9i	nsubj	gynna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsKmqvjfKsPkPAov8zh1n
 gynnar	gynnar	gynna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsKmqvjfKsPkPAov8zh1n	root	-	-	-	-
 den	den	den	DET	Definite=Def Gender=Com Number=Sing	i-7KsKvB2C3DPf5fhSEYrbsr	det	mångfald	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KsLEVpzUAjqcVfDLFkQaQ
@@ -4644,7 +4644,7 @@ mångfalden	mångfalden	mångfald	NOUN	Case=Nom Definite=Def Gender=Com Number=S
 <g/>
 .	.	.	PUNCT	-	i-7KsLNpvSr4G6wnBqefcKSU	punct	gynna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsKmqvjfKsPkPAov8zh1n
 </s>
-<s id="i-7L3wXpaxDD3He4VGdHpwh6">
+<s id="i-7L3wXpaxDD3He4VGdHpwh6" senti_3="Neutral" senti_6="neutral postive" senti_n="3.494">
 Vidare	Vidare	vidare	ADV	Degree=Cmp	i-7KsLXA1uDwnNH4iTy5UEJY	advmod	satsa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7KsLgKRJSRTTYUhMWvv8ep
 satsas	satsas	satsa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7KsLgKRJSRTTYUhMWvv8ep	root	-	-	-	-
 det	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KsLqUpheu8YotgF4nN316	nsubj	satsa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7KsLgKRJSRTTYUhMWvv8ep
@@ -4679,13 +4679,13 @@ nyckelbiotoper	nyckelbiotoper	nyckelbiotop	NOUN	Case=Nom Definite=Ind Gender=Com
 </s>
 </p>
 <p id="i-UciaKVVpVqqCQefPEtuoEa" lang="svenska">
-<s id="i-7L3weV4WuvFu767NUpWsak">
+<s id="i-7L3weV4WuvFu767NUpWsak" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KsQoNDesR8ePMej2Y7bEC	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KsQxXd45tojemdcaPZVaU
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KsQxXd45tojemdcaPZVaU	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	i-7KsR6riWTnKzz4AEtoRQSY	punct	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KsQxXd45tojemdcaPZVaU
 </s>
-<s id="i-7L3wkKE8n3KgdzHD6ucozC">
+<s id="i-7L3wkKE8n3KgdzHD6ucozC" senti_3="Negative" senti_6="negative" senti_n="0.143">
 Att	Att	att	PART	-	i-7KsRFBoxqfrGKLgsDDHKJc	advmod	anse	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsUYkyRX6rLxtqGWg5HAC
 inte	inte	inte	ADV	-	i-7KsRPWuRDZNXedDVXd9EAg	dep	satsa	VERB	VerbForm=Inf Voice=Act	i-7KsRYgJpS33cv3CP5Ub8Wx
 satsa	satsa	satsa	VERB	VerbForm=Inf Voice=Act	i-7KsRYgJpS33cv3CP5Ub8Wx	punct	att	PART	-	i-7KsRFBoxqfrGKLgsDDHKJc
@@ -4723,7 +4723,7 @@ sanden	sanden	sand	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KsVu44JG
 <g/>
 .	.	.	PUNCT	-	i-7KsW3P9keLgJ2FvacZ2Mji	punct	anse	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsUYkyRX6rLxtqGWg5HAC
 </s>
-<s id="i-7L3wryhhUkYJ71uJxSJjsr">
+<s id="i-7L3wryhhUkYJ71uJxSJjsr" senti_3="Negative" senti_6="negative" senti_n="0.233">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KsWCYZ9rpMPHfuUAQUG5z	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsWMhxZ5J2UZ5tMiFvASG
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsWMhxZ5J2UZ5tMiFvASG	root	-	-	-	-
 ett	ett	en	DET	Definite=Ind Gender=Neut Number=Sing	i-7KsWW341TBYjtNQz2fn5JL	det	svek	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7KsWfCTQffDq9nPsaXDyec
@@ -4738,7 +4738,7 @@ generationer	generationer	generation	NOUN	Case=Nom Definite=Ind Gender=Com Numbe
 <g/>
 .	.	.	PUNCT	-	i-7KsXrL8tCXrRcSyfp8sF1n	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsWMhxZ5J2UZ5tMiFvASG
 </s>
-<s id="i-7L3wyeBGBTkua3XQoxzfmW">
+<s id="i-7L3wyeBGBTkua3XQoxzfmW" senti_3="Positive" senti_6="positive" senti_n="5.544">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KsY1VYHR1XWsrxZMzK9N4	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsY9pdjnu3nD9VBgQB4E8
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsY9pdjnu3nD9VBgQB4E8	dep	och	CCONJ	-	i-7KsaaavXNQmSvs1ZqxDZR6
 därför	därför	därför	ADV	-	i-7KsYJz391NisUZU5EFcxaQ	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsY9pdjnu3nD9VBgQB4E8
@@ -4771,15 +4771,15 @@ efter	efter	efter	PART	-	i-7KsbV4R69WMWixY7Sk9148	dep	följa	VERB	Mood=Ind Tense
 </speech>
 <note type="kinesic:applause" content="Applåder"/>
 <note type="speaker" content="Anf . 96 JENS HOLM ( V ) :"/>
-<speech id="i-ba85b049978249cc-782" text_id="ParlaMint-SE_2017-12-12-prot-201718--48" subcorpus="Referens" lang="svenska" body="Unicameralism" term="2017/18" session="-" meeting="-" sitting="2017/18--48" agenda="-" date="2017-12-12" title="Riksdagens protokoll 2017/18 nr. 48" speaker_role="Regular" speaker_id="Q946708" speaker_name="Holm, Jens" speaker_mp="MP" speaker_minister="notMinister" speaker_party="V" speaker_party_name="Vänsterpartiet" party_status="-" party_orientation="Left" speaker_gender="M" speaker_birth="-">
+<speech id="i-ba85b049978249cc-782" text_id="ParlaMint-SE_2017-12-12-prot-201718--48" subcorpus="Referens" lang="svenska" body="Unicameralism" term="2017/18" session="-" meeting="-" sitting="2017/18--48" agenda="-" date="2017-12-12" title="Riksdagens protokoll 2017/18 nr. 48" speaker_role="Regular" topic="Environment" speaker_id="Q946708" speaker_name="Holm, Jens" speaker_mp="MP" speaker_minister="notMinister" speaker_party="V" speaker_party_name="Vänsterpartiet" party_status="-" party_orientation="Left" speaker_gender="M" speaker_birth="-">
 <p id="i-SoFUrxP6xGmw2jnmoLNaPz" lang="svenska">
-<s id="i-7L3x5ULt3aph6whFS46cAx">
+<s id="i-7L3x5ULt3aph6whFS46cAx" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KsboPDtaThhFnVtYT2okg	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KsbwiKLxMDxb52Wrrtick
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KsbwiKLxMDxb52Wrrtick	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	i-7Ksc63QoLEkDvMZ9BGkdUp	dep	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KsbwiKLxMDxb52Wrrtick
 </s>
-<s id="i-7L3xC8pSkJ3JZyKMHanY4c">
+<s id="i-7L3xC8pSkJ3JZyKMHanY4c" senti_3="Negative" senti_6="mixed negative" senti_n="0.506">
 Om	Om	om	SCONJ	-	i-7KscENWFi8GVFe5mVgcYLt	advmod	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KseLozErgdySXeNZXmEqJ
 vi	vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KscNhbi61nkavcPp6UTCx	nsubj	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KscXs17JVTqrLbHMwvMZE
 hade	hade	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KscXs17JVTqrLbHMwvMZE	advmod	om	SCONJ	-	i-7KscENWFi8GVFe5mVgcYLt
@@ -4817,7 +4817,7 @@ framtiden	framtiden	framtid	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-
 <g/>
 .	.	.	PUNCT	-	i-7KsgLazfJXnrAPasmrE1S4	punct	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KseLozErgdySXeNZXmEqJ
 </s>
-<s id="i-7L3xHxz4cR766sVBuftUU4">
+<s id="i-7L3xHxz4cR766sVBuftUU4" senti_3="Negative" senti_6="negative" senti_n="0.373">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KsgUv67gRK7Vg7W6G5vJ8	nsubj	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Ksge5VWttzCm66Pe7XpeQ
 hade	hade	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Ksge5VWttzCm66Pe7XpeQ	root	-	-	-	-
 varit	varit	vara	VERB	VerbForm=Sup Voice=Act	i-7KsgnQayGnWU6Nd1xXPjWU	dep	ha	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Ksge5VWttzCm66Pe7XpeQ
@@ -4871,7 +4871,7 @@ längre	längre	länge	ADV	Degree=Cmp	i-7KsoHikGmXSqrajywMsipC	advmod	leva	VERB	
 </s>
 </p>
 <p id="i-Fqk8Y145GPkeMTaYsVcfzD" lang="svenska">
-<s id="i-7L3xQdTdK8KhZu7HmCaQMi">
+<s id="i-7L3xQdTdK8KhZu7HmCaQMi" senti_3="Negative" senti_6="negative" senti_n="0.291">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KsobDF8MteCTHFVodBY2Y	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsomCxUQxU7epgeavDRs2
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsomCxUQxU7epgeavDRs2	root	-	-	-	-
 de	de	den	DET	Definite=Def Gender=Com,Neut Number=Plur	i-7KsouY3vnqzNz7DGuL5Lj6	det	land	NOUN	Case=Nom Definite=Def Gender=Neut Number=Plur	i-7KspD2YnPDBjaoinmbP9wS
@@ -4894,7 +4894,7 @@ växthusgaser	växthusgaser	växthusgas	NOUN	Case=Nom Definite=Ind Gender=Com Nu
 <g/>
 .	.	.	PUNCT	-	i-7KsrXxfx6bqcmd5LK4Kiix	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsomCxUQxU7epgeavDRs2
 </s>
-<s id="i-7L3xXHwC1qYK2vjPcjGLFN">
+<s id="i-7L3xXHwC1qYK2vjPcjGLFN" senti_3="Positive" senti_6="positive" senti_n="4.533">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7Ksrh85MK5Wi334Drumd5E	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsrqTAogy2yNKarBKdXwJ
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsrqTAogy2yNKarBKdXwJ	root	-	-	-	-
 slagit	slagit	slå	VERB	VerbForm=Sup Voice=Act	i-7KsrzcaCuSi4djZjjB5SHa	dep	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsrqTAogy2yNKarBKdXwJ
@@ -4906,7 +4906,7 @@ växthusgaser	växthusgaser	växthusgas	NOUN	Case=Nom Definite=Ind Gender=Com Nu
 <g/>
 .	.	.	PUNCT	-	i-7KssvkgfMibnJ5zonrAru2	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsrqTAogy2yNKarBKdXwJ
 </s>
-<s id="i-7L3xd86osxc6ZpuEEpNGep">
+<s id="i-7L3xd86osxc6ZpuEEpNGep" senti_3="Negative" senti_6="mixed negative" senti_n="0.782">
 Inte	Inte	inte	ADV	-	i-7Kst55n7jc83dNXS7G2mm6	dep	på	ADP	-	i-7KstEFBWx5o8tnWKf7Ug7N
 på	på	på	ADP	-	i-7KstEFBWx5o8tnWKf7Ug7N	advmod	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KstqEBE8pBr6BXMPe6JY4
 800	800	800	NUM	Case=Nom	i-7KstNaGyKyKQE52wyXLayS	det	år	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	i-7Kstgu5mkvfaktzj5EEPfz
@@ -4927,7 +4927,7 @@ dag	dag	dag	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KsvWgNr9hzYHDW5
 <g/>
 .	.	.	PUNCT	-	i-7Ksvf1UJXbWocW2hpfXBJL	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KstqEBE8pBr6BXMPe6JY4
 </s>
-<s id="i-7L3xixGRk5ft6j54ruUD4G">
+<s id="i-7L3xixGRk5ft6j54ruUD4G" senti_3="Negative" senti_6="mixed negative" senti_n="0.590">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KsvpAshk5Btsv1bNWy5ec	expl	gå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsvyLH6xYrz9KzUvNQyzt
 går	går	gå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsvyLH6xYrz9KzUvNQyzt	root	-	-	-	-
 egentligen	egentligen	egentligen	ADV	-	i-7Ksw8VgWB2Y5QjyNUDrtMA	advmod	gå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsvyLH6xYrz9KzUvNQyzt
@@ -4946,7 +4946,7 @@ som	som	som	CCONJ	-	i-7KsxWTPGbZ9R15Saia8332	nmod	tid	NOUN	Case=Nom Definite=Ind
 <g/>
 .	.	.	PUNCT	-	i-7Ksy7SNynHY8CUTcT6jfTi	punct	gå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsvyLH6xYrz9KzUvNQyzt
 </s>
-<s id="i-7L3xqcjzSntVZkhAiSA8wv">
+<s id="i-7L3xqcjzSntVZkhAiSA8wv" senti_3="Positive" senti_6="mixed positive" senti_n="4.066">
 Därför	Därför	därför	ADV	-	i-7KsyGbnNzmDDTtSVzxBZoz	advmod	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsyQvsqNejUoAy8KN3Ug4
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsyQvsqNejUoAy8KN3Ug4	root	-	-	-	-
 vi	vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7Ksya6HEb8Qa4ax1sDVP2L	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KsyQvsqNejUoAy8KN3Ug4
@@ -4980,13 +4980,13 @@ hållbart	hållbart	hållbar	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Neut Nu
 </s>
 </p>
 <p id="i-rcQjdm6WN5qHo5Ku4VsH3" lang="svenska">
-<s id="i-7L3xxHDZ9W772nKGZxr4qa">
+<s id="i-7L3xxHDZ9W772nKGZxr4qa" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Kt3iohUhJPQmiouqhrpa8	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Kt3s8nw5Bug71LYA7ijSC
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Kt3s8nw5Bug71LYA7ijSC	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	i-7Kt41TtPT5RwSHsAUXaeJG	punct	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Kt3s8nw5Bug71LYA7ijSC
 </s>
-<s id="i-7L3y47PB1dAtZgV7C3x1F2">
+<s id="i-7L3y47PB1dAtZgV7C3x1F2" senti_3="Positive" senti_6="positive" senti_n="5.586">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Kt4AdHnfZ72hhr42P2YeY	nsubj	tycka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kt4JxPF3SdJ2zNgLntTWc
 tycker	tycker	tycka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kt4JxPF3SdJ2zNgLntTWc	root	-	-	-	-
 att	att	att	SCONJ	-	i-7Kt4THUhRL9ZNGuJfCkNNg	obj	tycka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kt4JxPF3SdJ2zNgLntTWc
@@ -5016,7 +5016,7 @@ håll	håll	håll	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Kt7frnV5
 <g/>
 .	.	.	PUNCT	-	i-7Kt7pBswT7kwkLrktRtJB6	punct	tycka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kt4JxPF3SdJ2zNgLntTWc
 </s>
-<s id="i-7L3y9wYnskEg6aewp93weU">
+<s id="i-7L3y9wYnskEg6aewp93weU" senti_3="Positive" senti_6="mixed positive" senti_n="4.224">
 Här	Här	här	ADV	-	i-7Kt7yMHLfbS31kqeSHLCXN	advmod	presentera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kt87gNo3UxJM3NGkhC7PS
 presenterar	presenterar	presentera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kt87gNo3UxJM3NGkhC7PS	root	-	-	-	-
 vi	vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7Kt8GqnCFxdPcTMAJYe1ji	nsubj	presentera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kt87gNo3UxJM3NGkhC7PS
@@ -5035,7 +5035,7 @@ samhälle	samhälle	samhälle	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing
 </s>
 </p>
 <p id="i-WAVLYSEYRui54EgptL3Dgk" lang="svenska">
-<s id="i-7L3yFmiQjsJTdUpnSE9t3v">
+<s id="i-7L3yFmiQjsJTdUpnSE9t3v" senti_3="Negative" senti_6="mixed negative" senti_n="1.483">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KtA8HhAKvG112m3CTEsUQ	nsubj	måste	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtAHT6ZYPw6GSjvkJgmpg
 måste	måste	måste	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtAHT6ZYPw6GSjvkJgmpg	root	-	-	-	-
 bygga	bygga	bygga	VERB	VerbForm=Inf Voice=Act	i-7KtARnC1vHTMbjGZ4iYggk	dep	måste	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtAHT6ZYPw6GSjvkJgmpg
@@ -5046,7 +5046,7 @@ grunden	grunden	grund	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KtB3b
 <g/>
 .	.	.	PUNCT	-	i-7KtBBvb8KVXA4YGUM6cDTi	punct	måste	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtAHT6ZYPw6GSjvkJgmpg
 </s>
-<s id="i-7L3yQ6os7kpixmMQke1nuz">
+<s id="i-7L3yQ6os7kpixmMQke1nuz" senti_3="Negative" senti_6="negative" senti_n="0.298">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KtBM5zXXyCFKxFMtx47oz	nsubj	böra	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KtBWFPvkSsLbNEFSoW2AG
 borde	borde	böra	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KtBWFPvkSsLbNEFSoW2AG	root	-	-	-	-
 egentligen	egentligen	egentligen	ADV	-	i-7KtBeaVP8LPbveksmDMw2L	advmod	böra	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KtBWFPvkSsLbNEFSoW2AG
@@ -5058,7 +5058,7 @@ ned	ned	ned	PART	-	i-7KtCPtaYgxJaTLJXp9qUK6	dep	smutsa	VERB	Mood=Ind Tense=Pres 
 <g/>
 .	.	.	PUNCT	-	i-7KtCYDg14qpqncqA8ZhPBA	punct	böra	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KtBWFPvkSsLbNEFSoW2AG
 </s>
-<s id="i-7L3yWmHRpU3LRnyWcAhioe">
+<s id="i-7L3yWmHRpU3LRnyWcAhioe" senti_3="Negative" senti_6="mixed negative" senti_n="0.804">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KtChP5QHKVw42p3gR9HXS	nsubj	böra	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KtCqiArfD2CPKLfzq1CPW
 borde	borde	böra	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KtCqiArfD2CPKLfzq1CPW	root	-	-	-	-
 förbjuda	förbjuda	förbjuda	VERB	VerbForm=Inf Voice=Act	i-7KtCzsaFsghHejKZYgT6jn	dep	böra	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KtCqiArfD2CPKLfzq1CPW
@@ -5074,7 +5074,7 @@ fossilgas	fossilgas	fossilgas	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	
 <g/>
 .	.	.	PUNCT	-	i-7KtENqH2JDJdF4nmo2iFRe	punct	böra	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KtCqiArfD2CPKLfzq1CPW
 </s>
-<s id="i-7L3ydRkzXBFwtpbcThPehJ">
+<s id="i-7L3ydRkzXBFwtpbcThPehJ" senti_3="Negative" senti_6="negative" senti_n="0.274">
 Fram	Fram	fram	ADV	-	i-7KtEXANUg6ptaMKQ7SaAHi	advmod	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtFjxfqt9m8uGoiowPQdJ
 tills	tills	tills	SCONJ	-	i-7KtEgKmstaVyqmJHfJ24dz	advmod	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtFjxfqt9m8uGoiowPQdJ
 vi	vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KtEpesLGU2FB3puyhsyW4	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtExyxneMYWWLMYJ7jtN8
@@ -5112,7 +5112,7 @@ planet	planet	plan	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KtJxXydY
 </s>
 </p>
 <p id="i-GdekEVTuLVZx9PmURczTti" lang="svenska">
-<s id="i-7L3yjFvcPJKjRimT5nVb6k">
+<s id="i-7L3yjFvcPJKjRimT5nVb6k" senti_3="Positive" senti_6="mixed positive" senti_n="4.409">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KtKFCAYHptncdHoMaPFHn	nsubj	måste	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtKQMZwWJZst3GguRq9e4
 måste	måste	måste	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtKQMZwWJZst3GguRq9e4	root	-	-	-	-
 självklart	självklart	självklart	ADV	Degree=Pos	i-7KtKZWyLinEy9TFaTHH3zL	advmod	måste	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtKQMZwWJZst3GguRq9e4
@@ -5125,7 +5125,7 @@ om	om	om	PART	-	i-7KtLUpmrLTyrsgEPHWnV7a	dep	ställa	VERB	Mood=Ind Tense=Pres Ve
 <g/>
 .	.	.	PUNCT	-	i-7KtLd9sJiMW8Cxm1bvePye	punct	måste	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtKQMZwWJZst3GguRq9e4
 </s>
-<s id="i-7L3yqvQB61YLtkPYwKBWzQ">
+<s id="i-7L3yqvQB61YLtkPYwKBWzQ" senti_3="Positive" senti_6="positive" senti_n="5.395">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KtLmUxm6F2PYFHdvLWJqi	nsubj	tänka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtLveNAJihUofGXUBxDBz
 tänker	tänker	tänka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtLveNAJihUofGXUBxDBz	root	-	-	-	-
 att	att	att	SCONJ	-	i-7KtM4yTcgcDk8wo9nbp844	obj	tänka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtLveNAJihUofGXUBxDBz
@@ -5151,7 +5151,7 @@ sätt	sätt	sätt	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7KtPz4GYk
 <g/>
 .	.	.	PUNCT	-	i-7KtQ9DfwxcnbrShMP1EE8L	punct	tänka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtLveNAJihUofGXUBxDBz
 </s>
-<s id="i-7L3zDaSksKVqA6ANxnRHdn">
+<s id="i-7L3zDaSksKVqA6ANxnRHdn" senti_3="Negative" senti_6="negative" senti_n="0.202">
 Om	Om	om	SCONJ	-	i-7KtQJP5MB6Th7rgEvrg8Uc	advmod	hoppas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7KtSHKmpnMTjubAUujYubA
 vi	vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KtQSiAoYyyxT9CsFGY3Lg	nsubj	säga	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtQbsaCmTf3iZBko7ywgx
 säger	säger	säga	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtQbsaCmTf3iZBko7ywgx	advmod	om	SCONJ	-	i-7KtQJP5MB6Th7rgEvrg8Uc
@@ -5193,7 +5193,7 @@ fossilgas	fossilgas	fossilgas	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	
 </s>
 </p>
 <p id="i-Sd9LmTPg42ceoKV6y9Avuk" lang="svenska">
-<s id="i-7L3zX4wcTghBknftq3j6r8">
+<s id="i-7L3zX4wcTghBknftq3j6r8" senti_3="Positive" senti_6="positive" senti_n="5.151">
 Om	Om	om	SCONJ	-	i-7KtVktedWrHjkgk2zVNmHE	advmod	sända	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtbVE6smo1V7xQpTWDEKn
 vi	vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KtVv442jKxq26ivYLpfdW	nsubj	göra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtWCiEwV71MgfnBBAYVMe
 nu	nu	nu	ADV	-	i-7KtW4P9V7DV6MPFYrkgaVa	advmod	göra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtWCiEwV71MgfnBBAYVMe
@@ -5253,7 +5253,7 @@ framtiden	framtiden	framtid	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-
 <g/>
 .	.	.	PUNCT	-	i-7KtdcVtokwXoEyRgknwvJQ	punct	sända	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtbVE6smo1V7xQpTWDEKn
 </s>
-<s id="i-7L3zdjRBAPuoDpHzgaR2jn">
+<s id="i-7L3zdjRBAPuoDpHzgaR2jn" senti_3="Positive" senti_6="mixed positive" senti_n="4.470">
 På	På	på	ADP	-	i-7KtdmfJCyRCtWPQaJePpeg	advmod	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KteDUtWwfvWSNSiVKZYj6
 detta	detta	denna	DET	Definite=Def Gender=Neut Number=Sing	i-7KtduzPfMJj9qfwCd4FjWk	det	sätt	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Kte4KV7jCFRAxTpwU7eNp
 sätt	sätt	sätt	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Kte4KV7jCFRAxTpwU7eNp	advmod	på	ADP	-	i-7KtdmfJCyRCtWPQaJePpeg
@@ -5268,7 +5268,7 @@ sig	sig	sig	PRON	Case=Acc Definite=Def Gender=Com,Neut Number=Plur,Sing	i-7Ktexn
 </s>
 </p>
 <p id="i-ANq3woaVVJSNhYGjzmC5FX" lang="svenska">
-<s id="i-7L3zkPtjs78Qgqv6Y76xdS">
+<s id="i-7L3zkPtjs78Qgqv6Y76xdS" senti_3="Positive" senti_6="mixed positive" senti_n="4.033">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KtfGHUY6f2qZkVtQXLuEC	nsubj	behöva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtfQcZzUYZ6u32WiwCp6G
 behöver	behöver	behöva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtfQcZzUYZ6u32WiwCp6G	root	-	-	-	-
 också	också	också	ADV	-	i-7KtfZmyPh2ECAT1QGneiSY	advmod	behöva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtfQcZzUYZ6u32WiwCp6G
@@ -5283,7 +5283,7 @@ fattig	fattig	fattig	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Com Number=Sing
 <g/>
 .	.	.	PUNCT	-	i-7KtgwjgA7YqXknUcX8us8Q	punct	behöva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtfQcZzUYZ6u32WiwCp6G
 </s>
-<s id="i-7L3zs4NJZpM29sYCPdntX6">
+<s id="i-7L3zs4NJZpM29sYCPdntX6" senti_3="Negative" senti_6="negative" senti_n="0.495">
 Den	Den	den	DET	Definite=Def Gender=Com Number=Sing	i-7Kth64mcVSMo651EqYmmzU	det	politik	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KthiiPDMM4A9ivo2xZPPa
 tidigare	tidigare	tidig	ADJ	Case=Nom Definite=Def,Ind Degree=Cmp Gender=Com,Neut Number=Plur,Sing	i-7KthFEB1hv2tMUz8PQDgLk	dep	,	PUNCT	-	i-7KthQPaQvPhycty1wFfah2
 <g/>
@@ -5299,7 +5299,7 @@ skatter	skatter	skatt	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KtidB
 <g/>
 .	.	.	PUNCT	-	i-7KtinMHBLvKKDESEBbvjNt	punct	handla	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Kths3UfjEaRV1TRMNRJFe
 </s>
-<s id="i-7L3zxtXvRwQogmi31itpvY">
+<s id="i-7L3zxtXvRwQogmi31itpvY" senti_3="Positive" senti_6="mixed positive" senti_n="4.109">
 Man	Man	man	PRON	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KtivgNdioqaYWxrW1neEx	nsubj	sänka	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Ktj5qn2wHWfovwk3sEYbE
 sänkte	sänkte	sänka	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Ktj5qn2wHWfovwk3sEYbE	root	-	-	-	-
 skatter	skatter	skatt	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KtjF1BS9mBm5LvdbigSwW	obj	sänka	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Ktj5qn2wHWfovwk3sEYbE
@@ -5311,7 +5311,7 @@ kronor	kronor	krona	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7Ktk19aY
 <g/>
 .	.	.	PUNCT	-	i-7Ktk9UfzvrmpsSTBCWbtaY	punct	sänka	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7Ktj5qn2wHWfovwk3sEYbE
 </s>
-<s id="i-7L415Z1V8edR9oL8sFakpC">
+<s id="i-7L415Z1V8edR9oL8sFakpC" senti_3="Negative" senti_6="negative" senti_n="0.208">
 Då	Då	då	ADV	-	i-7KtkJe5Q9LSv8rS4kN3nvp	advmod	få	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtkUdnkCQGqLPsDXf5gmJ
 får	får	få	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtkUdnkCQGqLPsDXf5gmJ	root	-	-	-	-
 man	man	man	PRON	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KtkcxtCaHo6fgPqr4wbdN	nsubj	få	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtkUdnkCQGqLPsDXf5gmJ
@@ -5323,7 +5323,7 @@ klyftor	klyftor	klyfta	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KtmP
 <g/>
 .	.	.	PUNCT	-	i-7KtmYGgiByXzPuNegJT2kc	punct	få	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtkUdnkCQGqLPsDXf5gmJ
 </s>
-<s id="i-7L41CDV3qMr2cpxEinGghr">
+<s id="i-7L41CDV3qMr2cpxEinGghr" senti_3="Negative" senti_6="negative" senti_n="0.148">
 Man	Man	man	PRON	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KtmhS67QTD5fKMYE9tw6t	nsubj	få	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtmqmBZnLjLzbtAYZkqxx
 får	får	få	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtmqmBZnLjLzbtAYZkqxx	root	-	-	-	-
 ett	ett	en	DET	Definite=Ind Gender=Neut Number=Sing	i-7Ktmz6H2AEFcKtQnryckq2	det	samhälle	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Ktn9FgRNhvhbJPgQq4fBJ
@@ -5335,7 +5335,7 @@ fattiga	fattiga	fattig	ADJ	Case=Nom Definite=Def,Ind Degree=Pos Gender=Com,Neut 
 <g/>
 .	.	.	PUNCT	-	i-7KtnuQ5XmuzW47PbhD8BxG	punct	få	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtmqmBZnLjLzbtAYZkqxx
 </s>
-<s id="i-7L41J3efhUup9j85LsNd7J">
+<s id="i-7L41J3efhUup9j85LsNd7J" senti_3="Negative" senti_6="negative" senti_n="0.258">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Kto3jAz9oWmPPvE1cz6pL	nsubj	tro	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtoCtaPNHBreou7ZUS1Ac
 tror	tror	tro	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtoCtaPNHBreou7ZUS1Ac	root	-	-	-	-
 att	att	att	SCONJ	-	i-7KtoMDfqkAi7z6RjstHv2g	obj	tro	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtoCtaPNHBreou7ZUS1Ac
@@ -5360,7 +5360,7 @@ klimatförändringen	klimatförändringen	klimatförändring	NOUN	Case=Nom Defin
 </s>
 </p>
 <p id="i-82QcbYCxHVWJZrSCZhgt3R" lang="svenska">
-<s id="i-7L41Qi8EQC8RckkBCQ4Yzx">
+<s id="i-7L41Qi8EQC8RckkBCQ4Yzx" senti_3="Positive" senti_6="positive" senti_n="5.415">
 Ett	Ett	en	DET	Definite=Ind Gender=Neut Number=Sing	i-7Ktr6JmRkdmyEduu99EDvC	det	samhälle	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7KtrRTtB2BGyhbKwUHi26x
 jämlikt	jämlikt	jämlik	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Neut Number=Sing	i-7KtrFUApy7T4W3tngzg8GU	amod	samhälle	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7KtrRTtB2BGyhbKwUHi26x
 samhälle	samhälle	samhälle	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7KtrRTtB2BGyhbKwUHi26x	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtrZnydQ4oF2srZnhZvy2
@@ -5374,7 +5374,7 @@ utmaning	utmaning	utmaning	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7
 <g/>
 .	.	.	PUNCT	-	i-7KtsdRsbPe4Q6PMzwLwGxL	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtrZnydQ4oF2srZnhZvy2
 </s>
-<s id="i-7L41XNbo6uM35nNH3vkUtc">
+<s id="i-7L41XNbo6uM35nNH3vkUtc" senti_3="Positive" senti_6="mixed positive" senti_n="4.070">
 Därför	Därför	därför	ADV	-	i-7KtsnbGzc7jVMoLtVCPBJc	advmod	handla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtswkgPpbQadDKn33q5et
 handlar	handlar	handla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtswkgPpbQadDKn33q5et	root	-	-	-	-
 det	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Ktt6v5o355ftdJfauGz1A	nsubj	handla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtswkgPpbQadDKn33q5et
@@ -5401,7 +5401,7 @@ viktigt	viktigt	viktig	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Neut Number=S
 </s>
 </p>
 <p id="i-6TBwXWuoB5tVyJ23z1BdF4" lang="svenska">
-<s id="i-7L41e35MocZeYozNuTSQnG">
+<s id="i-7L41e35MocZeYozNuTSQnG" senti_3="Positive" senti_6="positive" senti_n="5.315">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Ktw1AanG1pcQamiQ1fCEx	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtwAKzBUVVhfzkbws76bE
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtwAKzBUVVhfzkbws76bE	root	-	-	-	-
 stolt	stolt	stolt	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Com Number=Sing	i-7KtwKVPagyAnwQjVViYzwW	dep	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtwAKzBUVVhfzkbws76bE
@@ -5416,7 +5416,7 @@ utgiftsområde	utgiftsområde	utgiftsområde	NOUN	Case=Nom Definite=Ind Gender=N
 <g/>
 .	.	.	PUNCT	-	i-7KtxhT6M7Vn8XkChk4p9dN	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KtwAKzBUVVhfzkbws76bE
 </s>
-<s id="i-7L41jsEyfjdS5iADXYYMBi">
+<s id="i-7L41jsEyfjdS5iADXYYMBi" senti_3="Positive" senti_6="mixed positive" senti_n="4.491">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KtxrcVkKyTDoABbHvG3ye	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kty1mu9YT8K4aAUqmhxKv
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kty1mu9YT8K4aAUqmhxKv	root	-	-	-	-
 den	den	den	DET	Definite=Def Gender=Com Number=Sing	i-7KtyA6zbvLeaPrh7ABZsBz	det	satsning	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KtyURoQMHzkvgetFtTftY
@@ -5432,7 +5432,7 @@ klimat	klimat	klimat	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7KtzYu
 <g/>
 .	.	.	PUNCT	-	i-7KtzhE6mZLw1Fc9CxPGvE8	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kty1mu9YT8K4aAUqmhxKv
 </s>
-<s id="i-7L41qhQbXrhDccL49deHbA">
+<s id="i-7L41qhQbXrhDccL49deHbA" senti_3="Positive" senti_6="mixed positive" senti_n="3.648">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KtzrPWAmpc6X286WEipaQ	nsubj	handla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ktzzibd9i8MrJeipeajSU
 handlar	handlar	handla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ktzzibd9i8MrJeipeajSU	root	-	-	-	-
 om	om	om	ADP	-	i-7Ku193h5XbedBbBM94SeJY	advmod	handla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ktzzibd9i8MrJeipeajSU
@@ -5448,7 +5448,7 @@ klimatinvesteringar	klimatinvesteringar	klimatinvestering	NOUN	Case=Nom Definite
 <g/>
 .	.	.	PUNCT	-	i-7Ku2gAoFAbw43LdSwG9hLg	punct	handla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ktzzibd9i8MrJeipeajSU
 </s>
-<s id="i-7L41xMtAEZuq5dxA1ALDUp">
+<s id="i-7L41xMtAEZuq5dxA1ALDUp" senti_3="Positive" senti_6="mixed positive" senti_n="4.220">
 Otroligt	Otroligt	otroligt	ADV	Degree=Pos	i-7Ku2qLCeP5c9JkcLV7bbgx	advmod	viktig	ADJ	Case=Nom Definite=Def,Ind Degree=Pos Gender=Com,Neut Number=Plur	i-7Ku2yfJ6ky8Qe38xoXTWZ2
 viktiga	viktiga	viktig	ADJ	Case=Nom Definite=Def,Ind Degree=Pos Gender=Com,Neut Number=Plur	i-7Ku2yfJ6ky8Qe38xoXTWZ2	amod	investering	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7Ku38phVySoVuT7rMNuQuJ
 investeringar	investeringar	investering	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7Ku38phVySoVuT7rMNuQuJ	nsubj	gå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ku3H9nxMLKmEjeUfnmKmN
@@ -5482,7 +5482,7 @@ vidare	vidare	vitt	ADV	Degree=Cmp	i-7Ku6LZhLnkjo276R2kbSMS	det	så	ADV	-	i-7Ku6B
 </s>
 </p>
 <p id="i-H39PeSLoGmbb45VhxhGaZ2" lang="svenska">
-<s id="i-7L4252MiwH8SYfaFrh29NU">
+<s id="i-7L4252MiwH8SYfaFrh29NU" senti_3="Positive" senti_6="positive" senti_n="5.176">
 Denna	Denna	denna	DET	Definite=Def Gender=Com Number=Sing	i-7Ku6e4CCP7w9cobvu1uFZn	det	satsning	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Ku6nPHem1TQx68ZDRmARr
 satsning	satsning	satsning	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Ku6nPHem1TQx68ZDRmARr	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ku6wYh3yV8WDW7SmHD4n8
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ku6wYh3yV8WDW7SmHD4n8	root	-	-	-	-
@@ -5494,7 +5494,7 @@ lokalpolitiker	lokalpolitiker	lokalpolitiker	NOUN	Case=Nom Definite=Ind Gender=C
 <g/>
 .	.	.	PUNCT	-	i-7Ku7rrVZbAsPwj6FbWiVuN	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ku6wYh3yV8WDW7SmHD4n8
 </s>
-<s id="i-7L42BgqHdzM41hCMiDi5G8">
+<s id="i-7L42BgqHdzM41hCMiDi5G8" senti_3="Positive" senti_6="mixed positive" senti_n="3.849">
 Över	Över	över	ADP	-	i-7Ku821txoeYVD9599NAQFe	advmod	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ku9P9HnPazzsM66AGqZTJ
 1	1	1	NUM	Case=Nom	i-7Ku8ALzRBY4kYRbmTn2K7i	det	ansökning	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7Ku8TqVGmuG7987HL3L8L4
 000	000	000	NUM	Case=Nom	i-7Ku8Jg5sZRb1si8PnBtDyn	det	ansökning	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7Ku8TqVGmuG7987HL3L8L4
@@ -5510,7 +5510,7 @@ beviljats	beviljats	bevilja	VERB	VerbForm=Sup Voice=Pass	i-7Ku9gdndyxCMU3bc2Y9Nf
 <g/>
 .	.	.	PUNCT	-	i-7Ku9pxt6MqicoL8ELx1HXi	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Ku9P9HnPazzsM66AGqZTJ
 </s>
-<s id="i-7L42HWzuW7QqYbNCLJp1fa">
+<s id="i-7L42HWzuW7QqYbNCLJp1fa" senti_3="Positive" senti_6="mixed positive" senti_n="4.170">
 Man	Man	man	PRON	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Ku9z8HVaKPi4k77toTBsz	nsubj	räkna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuA9Hgtno4oLA61Seu6EG
 räknar	räknar	räkna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuA9Hgtno4oLA61Seu6EG	root	-	-	-	-
 med	med	med	ADP	-	i-7KuAHcnMAgb4fScdm4m16L	advmod	räkna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuA9Hgtno4oLA61Seu6EG
@@ -5535,7 +5535,7 @@ per	per	per	ADP	-	i-7KuCtNnUoG8eahaAhuqQ7n	nmod	ton	NOUN	Case=Nom Definite=Ind G
 <g/>
 .	.	.	PUNCT	-	i-7KuDBsHLPdL1BQ5gaB9DL8	punct	räkna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuA9Hgtno4oLA61Seu6EG
 </s>
-<s id="i-7L42QBUUCpdT1czJBqVwZE">
+<s id="i-7L42QBUUCpdT1czJBqVwZE" senti_3="Positive" senti_6="mixed positive" senti_n="4.102">
 Varje	Varje	varje	DET	Definite=Ind Gender=Com,Neut Number=Sing	i-7KuDM2gjc716Sp4a82b7gQ	det	år	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7KuDWC68pagBiE3Tft322g
 år	år	år	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7KuDWC68pagBiE3Tft322g	advmod	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuDeXBbCUCT3Wa5zHtvtk
 kommer	kommer	komma	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuDeXBbCUCT3Wa5zHtvtk	root	-	-	-	-
@@ -5552,7 +5552,7 @@ mycket	mycket	mycket	ADV	Degree=Pos	i-7KuErVB1ZvysSJc9TM8Bk8	advmod	med	ADP	-	i-
 </s>
 </p>
 <p id="i-8fUvUZoXo4i3JqA414A4Sb" lang="svenska">
-<s id="i-7L42W1e64whEYXA8ovbsxg">
+<s id="i-7L42W1e64whEYXA8ovbsxg" senti_3="Positive" senti_6="positive" senti_n="5.239">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KuF9yfsAJBE317fKcRzxU	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuFTUAikfNadhdBBsjpAp
 här	här	här	ADV	-	i-7KuFJJmKYBhVNHeHe2HupY	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KuF9yfsAJBE317fKcRzxU
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuFTUAikfNadhdBBsjpAp	root	-	-	-	-
@@ -5566,7 +5566,7 @@ engagemang	engagemang	engagemang	NOUN	Case=Nom Definite=Ind Gender=Neut Number=S
 <g/>
 .	.	.	PUNCT	-	i-7KuGgGU5xiJpxd7VtNZ4WQ	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuFTUAikfNadhdBBsjpAp
 </s>
-<s id="i-7L42cg7emeur1YnEfTHorL">
+<s id="i-7L42cg7emeur1YnEfTHorL" senti_3="Negative" senti_6="negative" senti_n="0.282">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KuGqRsVBByvE36PSDzxrg	expl	vara	VERB	Mood=Sub Tense=Past VerbForm=Fin Voice=Act	i-7KuGykxwZ5WBZKd1kdrsik
 vore	vore	vara	VERB	Mood=Sub Tense=Past VerbForm=Fin Voice=Act	i-7KuGykxwZ5WBZKd1kdrsik	root	-	-	-	-
 intressant	intressant	intressant	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Neut Number=Sing	i-7KuH8vNLmZBGpjbuJVJn52	dep	vara	VERB	Mood=Sub Tense=Past VerbForm=Fin Voice=Act	i-7KuGykxwZ5WBZKd1kdrsik
@@ -5615,7 +5615,7 @@ politik	politik	politik	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KuP
 <g/>
 .	.	.	PUNCT	-	i-7KuPBadPTTFCiqETsD33p8	punct	vara	VERB	Mood=Sub Tense=Past VerbForm=Fin Voice=Act	i-7KuGykxwZ5WBZKd1kdrsik
 </s>
-<s id="i-7L42jLbDUN8TUaQLWyyjjz">
+<s id="i-7L42jLbDUN8TUaQLWyyjjz" senti_3="Negative" senti_6="mixed negative" senti_n="1.391">
 När	När	när	ADV	-	i-7KuPKuiqqLmU47m6BctxgC	advmod	titta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuPdQDhRhxpepGc3tCmtY
 jag	jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KuPUEpJDEHjPQHiW2ksYG	nsubj	titta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuPdQDhRhxpepGc3tCmtY
 tittar	tittar	titta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuPdQDhRhxpepGc3tCmtY	advmod	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuQFDXMT2WMnLju1rQPoS
@@ -5640,7 +5640,7 @@ klimatinvesteringspengarna	klimatinvesteringspengarna	klimatinvesteringspeng	NOU
 </s>
 </p>
 <p id="i-RX83kHbRDpg3pUyid5GTso" lang="svenska">
-<s id="i-7L42qAkqLVCF1UaB955g9S">
+<s id="i-7L42qAkqLVCF1UaB955g9S" senti_3="Positive" senti_6="mixed positive" senti_n="3.859">
 I	I	i	ADP	-	i-7KuSPKdEGmBVqVD2Yaj5GG	advmod	satsa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuSheS2hiXgNKAoeHcsxp
 budgeten	budgeten	budget	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KuSYV2dVErb6uBv6SAycY	advmod	i	ADP	-	i-7KuSPKdEGmBVqVD2Yaj5GG
 satsar	satsar	satsa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuSheS2hiXgNKAoeHcsxp	dep	och	CCONJ	-	i-7KuU3wWuT4qN6PjVRki3gG
@@ -5670,7 +5670,7 @@ elcykel	elcykel	elcykel	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KuV
 </s>
 </p>
 <p id="i-P7jLdnddqJatFQb4f4nc5Y" lang="svenska">
-<s id="i-7L42wqEQ3CQrUWCGzbmc36">
+<s id="i-7L42wqEQ3CQrUWCGzbmc36" senti_3="Positive" senti_6="positive" senti_n="4.959">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KuW2tDP4KqQt8DjQdapnp	expl	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7KuWC3cnGoWW9YCcxV2j96
 finns	finns	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7KuWC3cnGoWW9YCcxV2j96	root	-	-	-	-
 en	en	en	DET	Definite=Ind Gender=Com Number=Sing	i-7KuWLNiEeh2mUpjFGtte1A	det	satsning	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KuWorvSJ843H4fuvTEM3z
@@ -5683,7 +5683,7 @@ Industriklivet	Industriklivet	industrikliv	NOUN	Case=Nom Definite=Def Gender=Neu
 <g/>
 .	.	.	PUNCT	-	i-7KuXQqv9UrSkUTgweyqyUg	punct	finnas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7KuWC3cnGoWW9YCcxV2j96
 </s>
-<s id="i-7L433fQ1uKUe1QN7cgsYSY">
+<s id="i-7L433fQ1uKUe1QN7cgsYSY" senti_3="Positive" senti_6="positive" senti_n="4.605">
 Där	Där	där	ADV	-	i-7KuXa1KYhL7qjsfqCqHspx	advmod	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuXiLR15De75ACTXF9nh2
 ska	ska	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuXiLR15De75ACTXF9nh2	root	-	-	-	-
 vi	vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KuXsVpQHhKCLaBM56bh3J	nsubj	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuXiLR15De75ACTXF9nh2
@@ -5695,7 +5695,7 @@ om	om	om	PART	-	i-7KuYdeDWguNzoPBGMUfDpG	dep	ställa	VERB	VerbForm=Inf Voice=Act
 <g/>
 .	.	.	PUNCT	-	i-7KuYmyJy4nuG8fhtftX8gL	punct	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuXiLR15De75ACTXF9nh2
 </s>
-<s id="i-7L43AKsac2hFURzDUDZULC">
+<s id="i-7L43AKsac2hFURzDUDZULC" senti_3="Positive" senti_6="positive" senti_n="4.873">
 En	En	en	DET	Definite=Ind Gender=Com Number=Sing	i-7KuYvJQRSgRXTxEWzJP3YQ	det	del	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KuZEdDDsdmhznCJ61GrEx
 stor	stor	stor	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Com Number=Sing	i-7KuZ5TopfA6cjNDQY9pwtg	amod	del	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KuZEdDDsdmhznCJ61GrEx
 del	del	del	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KuZEdDDsdmhznCJ61GrEx	nsubj	få	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuZfcVb1JLVzdnB3EraqA
@@ -5730,7 +5730,7 @@ håll	håll	håll	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Kud1gatC
 </s>
 </p>
 <p id="i-8SfbLLhACm5fVnVbqyruoN" lang="svenska">
-<s id="i-7L43GzM9JjurwTcKKkFQDr">
+<s id="i-7L43GzM9JjurwTcKKkFQDr" senti_3="Neutral" senti_6="neutral postive" senti_n="2.667">
 Budgeten	Budgeten	budget	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KudKB5jnrzR3GnsuHiLMi	nsubj	handla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KudTWBCAkWgNZKWDhaFDn
 handlar	handlar	handla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KudTWBCAkWgNZKWDhaFDn	root	-	-	-	-
 inte	inte	inte	ADV	-	i-7KudbqGeYe2whqr8Y7SA5r	dep	handla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KudTWBCAkWgNZKWDhaFDn
@@ -5745,7 +5745,7 @@ växthusgaser	växthusgaser	växthusgas	NOUN	Case=Nom Definite=Ind Gender=Com Nu
 <g/>
 .	.	.	PUNCT	-	i-7KuezdHMoko7EJmc1uHJFv	punct	handla	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KudTWBCAkWgNZKWDhaFDn
 </s>
-<s id="i-7L43Pepi1T8UQVERBGwL7W">
+<s id="i-7L43Pepi1T8UQVERBGwL7W" senti_3="Negative" senti_6="negative" senti_n="0.119">
 Precis	Precis	precis	ADV	-	i-7Kuf8xNpBeKNZbJELK9D7z	dislocated	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kufuw5sRSXzxXkQr8njPA
 som	som	som	ADV	-	i-7KufHHUGZXqdtsprej17z4	advmod	precis	ADV	-	i-7Kuf8xNpBeKNZbJELK9D7z
 miljöministern	miljöministern	miljöminister	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KufTHBccbfZ6RG1S231pY	nsubj	berätta	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KufmbzR3Z1jdFDnXivpX6
@@ -5767,7 +5767,7 @@ världen	världen	värld	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Ku
 <g/>
 .	.	.	PUNCT	-	i-7Kuht3UQC7PDp8nPba5X1W	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kufuw5sRSXzxXkQr8njPA
 </s>
-<s id="i-7L43WKJGiAM5sWrX2odG1A">
+<s id="i-7L43WKJGiAM5sWrX2odG1A" senti_3="Negative" senti_6="mixed negative" senti_n="0.979">
 Andelen	Andelen	andel	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Kui3CsoQb4K5YmH9RXRMn	det	och	CCONJ	-	i-7KuieBsWbKT2GwnJsx93nU
 bin	bin	bi	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KuiBXyFnUaaQqHuTqPLDr	dep	och	CCONJ	-	i-7KuieBsWbKT2GwnJsx93nU
 <g/>
@@ -5796,7 +5796,7 @@ senaste	senaste	sen	ADJ	Case=Nom Definite=Def Degree=Sup Gender=Com,Neut Number=
 </s>
 </p>
 <p id="i-TfeZYDTwbqjBWjwBd4K7r5" lang="svenska">
-<s id="i-7L43cymqQsZhLYUctLKBtp">
+<s id="i-7L43cymqQsZhLYUctLKBtp" senti_3="Neutral" senti_6="neutral postive" senti_n="2.746">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KumCSwoi8Y8PpP48UTUMJ	nsubj	tala	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KumLn3G624Pj6ugStKPDN
 talade	talade	tala	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KumLn3G624Pj6ugStKPDN	root	-	-	-	-
 tidigare	tidigare	tidigt	ADV	Degree=Cmp	i-7KumV78iTuaf4PSJmJBJ5S	advmod	tala	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KumLn3G624Pj6ugStKPDN
@@ -5805,7 +5805,7 @@ klimatförändringen	klimatförändringen	klimatförändring	NOUN	Case=Nom Defin
 <g/>
 .	.	.	PUNCT	-	i-7KumxbLv7LbvrdNyQrX18G	punct	tala	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	i-7KumLn3G624Pj6ugStKPDN
 </s>
-<s id="i-7L43iowTGzdUsSeTWRR8JG">
+<s id="i-7L43iowTGzdUsSeTWRR8JG" senti_3="Neutral" senti_6="neutral postive" senti_n="3.387">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7Kun7kkKKpH283MrxhxuUY	nsubj	behöva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KunGv9iYHx7PTLkWZQopp
 behöver	behöver	behöva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KunGv9iYHx7PTLkWZQopp	root	-	-	-	-
 också	också	också	ADV	-	i-7KunRFFAvBUNijsNpyGigt	advmod	behöva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KunGv9iYHx7PTLkWZQopp
@@ -5822,7 +5822,7 @@ utmaning	utmaning	utmaning	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7
 <g/>
 .	.	.	PUNCT	-	i-7Kup7XkjmfRtquJNB2Rg5J	punct	behöva	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KunGv9iYHx7PTLkWZQopp
 </s>
-<s id="i-7L43qUR1yhr6LUGZMx74Bv">
+<s id="i-7L43qUR1yhr6LUGZMx74Bv" senti_3="Negative" senti_6="mixed negative" senti_n="0.676">
 Samhällen	Samhällen	samhälle	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	i-7KupGhA8z96z7KHFissaRa	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kuq4WB94XUSSPBhU976Ax
 med	med	med	ADP	-	i-7KupRrZYCcn5NjG9GjKUmr	nmod	samhälle	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	i-7KupGhA8z96z7KHFissaRa
 liten	liten	liten	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Com Number=Sing	i-7KupbrGtFgbzaGhJ42MNcL	amod	mångfald	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KupuLmjr3oMAyCovHfBpg
@@ -5846,7 +5846,7 @@ faktorer	faktorer	faktor	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7Ku
 <g/>
 .	.	.	PUNCT	-	i-7KusL74XRZX1tgjC5qhh1e	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kuq4WB94XUSSPBhU976Ax
 </s>
-<s id="i-7L43x8tagR4hoVtfDUnz5a">
+<s id="i-7L43x8tagR4hoVtfDUnz5a" senti_3="Positive" senti_6="positive" senti_n="5.208">
 Därför	Därför	därför	ADV	-	i-7KusVGTve3C7A6i5dh9bMv	advmod	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KusdbZP1viNVPEhx71WDz
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KusdbZP1viNVPEhx71WDz	root	-	-	-	-
 det	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KusnkxnEQPTkoDbVxTQaG	expl	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KusdbZP1viNVPEhx71WDz
@@ -5873,7 +5873,7 @@ mångfald	mångfald	mångfald	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	
 <g/>
 .	.	.	PUNCT	-	i-7Kuw3qCQQ4w4by1D76VPyE	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KusdbZP1viNVPEhx71WDz
 </s>
-<s id="i-7L444oN9P8HKGXWm51UuyE">
+<s id="i-7L444oN9P8HKGXWm51UuyE" senti_3="Positive" senti_6="mixed positive" senti_n="4.327">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KuwCAHrmxTKwFXqRWMJqJ	nsubj	avsätta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuwMKhFzS8RCfWiyMoDBa
 avsätter	avsätter	avsätta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuwMKhFzS8RCfWiyMoDBa	root	-	-	-	-
 också	också	också	ADV	-	i-7KuwWV6fCuoWU5VcXDF7Xr	advmod	avsätta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuwMKhFzS8RCfWiyMoDBa
@@ -5899,7 +5899,7 @@ natur	natur	natur	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Kuz7F6nqV
 </s>
 </p>
 <p id="i-BC9iUuAizzSPJvEW9STEyo" lang="svenska">
-<s id="i-7L44BTqi5qVvjZ8rvYAqrt">
+<s id="i-7L44BTqi5qVvjZ8rvYAqrt" senti_3="Positive" senti_6="mixed positive" senti_n="3.908">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KuzQjbeRrYSz2xfLKdKme	nsubj	öppna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuzZu13eLDYFSwYtB5E7v
 öppnar	öppnar	öppna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuzZu13eLDYFSwYtB5E7v	root	-	-	-	-
 för	för	för	ADP	-	i-7Kuzj4QSrotdWrvSS2X8UC	advmod	öppna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuzZu13eLDYFSwYtB5E7v
@@ -5923,7 +5923,7 @@ gängse	gängse	gängse	ADJ	Case=Nom Definite=Def,Ind Degree=Pos Gender=Com,Neut
 <g/>
 .	.	.	PUNCT	-	i-7Kv3U9W2sGxUmQQbhHTSMi	punct	öppna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KuzZu13eLDYFSwYtB5E7v
 </s>
-<s id="i-7L44HJ1KwxZiGTJhYdGnGL">
+<s id="i-7L44HJ1KwxZiGTJhYdGnGL" senti_3="Positive" senti_6="mixed positive" senti_n="4.084">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7Kv3dJuS5kda2pPVF8uLhz	nsubj	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kv3mdztTe9qN6v7ZYmFa4
 kan	kan	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kv3mdztTe9qN6v7ZYmFa4	root	-	-	-	-
 i	i	i	ADP	-	i-7Kv3wdiEWhykZeMGLqo9QY	advmod	kunna	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kv3mdztTe9qN6v7ZYmFa4
@@ -5942,7 +5942,7 @@ villkor	villkor	villkor	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	i-7Kv
 </s>
 </p>
 <p id="i-RC3Sgjs9mHgmuiYKo4ZhZ2" lang="svenska">
-<s id="i-7L44PxUtefnKjUvoQ9xi9z">
+<s id="i-7L44PxUtefnKjUvoQ9xi9z" senti_3="Positive" senti_6="positive" senti_n="4.864">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Kv5kahN4u9t9qQMYRe2gc	nsubj	tycka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kv5tunpSng9V7vyrqVwYg
 tycker	tycker	tycka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kv5tunpSng9V7vyrqVwYg	root	-	-	-	-
 också	också	också	ADV	-	i-7Kv645CDfGMEkXusQgwqtx	advmod	tycka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kv5tunpSng9V7vyrqVwYg
@@ -5959,7 +5959,7 @@ viktig	viktig	viktig	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Com Number=Sing
 <g/>
 .	.	.	PUNCT	-	i-7Kv7ih5tqa171SSLHrvpJx	punct	tycka	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kv5tunpSng9V7vyrqVwYg
 </s>
-<s id="i-7L44WcxTMNzwCWYuFgee3e">
+<s id="i-7L44WcxTMNzwCWYuFgee3e" senti_3="Positive" senti_6="mixed positive" senti_n="4.439">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7Kv7srVJ43gCGrRDqiNifE	nsubj	höja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kv831thGXMHYGQ7PZpd1W
 höjer	höjer	höja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kv831thGXMHYGQ7PZpd1W	root	-	-	-	-
 anslaget	anslaget	anslag	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7Kv8CBJ6V12NogNzwRGXMn	obj	höja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7Kv831thGXMHYGQ7PZpd1W
@@ -5973,13 +5973,13 @@ kronor	kronor	krona	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7Kv8xKhC
 </s>
 </p>
 <p id="i-NpXDQyR8QdR9XLosM4xTyA" lang="svenska">
-<s id="i-7L44dHS246DYfYB17DLZwJ">
+<s id="i-7L44dHS246DYfYB17DLZwJ" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Kv9FpC4UaHXsBtS64dsM6	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Kv9QybTh3xd8bsKdv5mhN
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Kv9QybTh3xd8bsKdv5mhN	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	i-7Kv9ZJgv4wUtTtPwxKwgZS	punct	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7Kv9QybTh3xd8bsKdv5mhN
 </s>
-<s id="i-7L44jwuakoSA8Zo6xk2Vpx">
+<s id="i-7L44jwuakoSA8Zo6xk2Vpx" senti_3="Neutral" senti_6="neutral postive" senti_n="3.079">
 När	När	när	ADV	-	i-7Kv9iU6KHR9yjJNqWBPaui	advmod	titta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvA1xbAsnMLKztMNShQ84
 jag	jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7Kv9roBmfJgF4auTpbFVmn	nsubj	titta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvA1xbAsnMLKztMNShQ84
 tittar	tittar	titta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvA1xbAsnMLKztMNShQ84	root	-	-	-	-
@@ -5988,7 +5988,7 @@ bil	bil	bil	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KvAKT62U9YgvhPs
 <g/>
 .	.	.	PUNCT	-	i-7KvATnBUr34xFyvVZ7s8CU	punct	titta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvA1xbAsnMLKztMNShQ84
 </s>
-<s id="i-7L44rcP9TWembbRCpGiRic">
+<s id="i-7L44rcP9TWembbRCpGiRic" senti_3="Negative" senti_6="mixed negative" senti_n="0.706">
 2	2	2	NUM	Case=Nom	i-7KvAc7GwDvbDbGT7sXj34Y	punct	mötas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7KvCb3yQqBbGNzwMrQbpB6
 i	i	i	ADP	-	i-7KvAmGgLSQGJrgS1RPAwQp	nmod	2	NUM	Case=Nom	i-7KvAc7GwDvbDbGT7sXj34Y
 betänkandet	betänkandet	betänkande	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7KvAvS5jeswQ86QtyEcqm6	advmod	i	ADP	-	i-7KvAmGgLSQGJrgS1RPAwQp
@@ -6012,7 +6012,7 @@ nedskärningar	nedskärningar	nedskärning	NOUN	Case=Nom Definite=Ind Gender=Com
 <g/>
 .	.	.	PUNCT	-	i-7KvDdrZRzAhbWNzXmcPAgC	punct	mötas	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7KvCb3yQqBbGNzwMrQbpB6
 </s>
-<s id="i-7L44xSYmKdiZ8Vb3SMpN84">
+<s id="i-7L44xSYmKdiZ8Vb3SMpN84" senti_3="Negative" senti_6="negative" senti_n="0.128">
 Kristdemokraterna	Kristdemokraterna	kristdemokrat	NOUN	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KvDo1xqCeNgmnyRKTq52U	nsubj	leda	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvDwM4HaXtx75W3dsgytY
 leder	leder	leda	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvDwM4HaXtx75W3dsgytY	root	-	-	-	-
 den	den	den	DET	Definite=Def Gender=Com Number=Sing	i-7KvE5g9jxRRDSN2fxHYtkc	det	liga	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KvEgf9T99ovdm3hgpAXBJ
@@ -6025,7 +6025,7 @@ nedskärningar	nedskärningar	nedskärning	NOUN	Case=Nom Definite=Ind Gender=Com
 <g/>
 .	.	.	PUNCT	-	i-7KvF8Ujm7QXYZk5qsVLFFi	punct	leda	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvDwM4HaXtx75W3dsgytY
 </s>
-<s id="i-7L45572L2LwAbXD9HtWJ1i">
+<s id="i-7L45572L2LwAbXD9HtWJ1i" senti_3="Negative" senti_6="mixed negative" senti_n="1.005">
 De	De	de	PRON	Case=Nom Definite=Def Gender=Com,Neut Number=Plur	i-7KvFHe9AKtCdqA4jRLn9bz	nsubj	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvFRyEchmiuASbMjke4U4
 vill	vill	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvFRyEchmiuASbMjke4U4	root	-	-	-	-
 dra	dra	dra	VERB	VerbForm=Inf Voice=Act	i-7KvFb8e1vFPzRraFHc5xpL	dep	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvFRyEchmiuASbMjke4U4
@@ -6041,7 +6041,7 @@ kronor	kronor	krona	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KvGwRit
 <g/>
 .	.	.	PUNCT	-	i-7KvH5kpM3VDwVDfZPV33Pr	punct	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvFRyEchmiuASbMjke4U4
 </s>
-<s id="i-7L45BmVtj49n4YqF9RCDuN">
+<s id="i-7L45BmVtj49n4YqF9RCDuN" senti_3="Negative" senti_6="mixed negative" senti_n="1.450">
 Sedan	Sedan	sedan	ADV	-	i-7KvHEvDkFxu2kdeSwLUwk8	advmod	följa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvHQ5d9USa823dLVBvr6Q
 följer	följer	följa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvHQ5d9USa823dLVBvr6Q	root	-	-	-	-
 en	en	en	DET	Definite=Ind Gender=Com Number=Sing	i-7KvHYQibrL6PML9xobnkxU	det	skala	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KvHsZqM7sbPpHa18kGZ9E
@@ -6053,7 +6053,7 @@ Centerpartiet	Centerpartiet	centerparti	NOUN	Case=Nom Definite=Def Gender=Neut N
 <g/>
 .	.	.	PUNCT	-	i-7KvJTiX7U1qH5Z8mdqJC5i	punct	följa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvHQ5d9USa823dLVBvr6Q
 </s>
-<s id="i-7L45HbfWbBDZbT15mWJAJp">
+<s id="i-7L45HbfWbBDZbT15mWJAJp" senti_3="Negative" senti_6="negative" senti_n="0.253">
 Den	Den	den	DET	Definite=Def Gender=Com Number=Sing	i-7KvJcsvWgVWNLy7fBgk6Rz	det	tråd	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KvJwCjK7SrYso5SHPdu8Y
 röda	röda	röd	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Com,Neut Number=Sing	i-7KvJn3KutyBTcP6YjYBznG	amod	tråd	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KvJwCjK7SrYso5SHPdu8Y
 tråden	tråden	tråd	NOUN	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KvJwCjK7SrYso5SHPdu8Y	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvK5XpmVLNpD5c4boVozc
@@ -6072,7 +6072,7 @@ området	området	område	NOUN	Case=Nom Definite=Def Gender=Neut Number=Sing	i-7
 <g/>
 .	.	.	PUNCT	-	i-7KvLuK7qt7hmjQ7R2pvgkt	punct	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvK5XpmVLNpD5c4boVozc
 </s>
-<s id="i-7L45QG95HtSB4UdBd2z6CU">
+<s id="i-7L45QG95HtSB4UdBd2z6CU" senti_3="Negative" senti_6="negative" senti_n="0.158">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KvM4UXF6bNrzp6JagNb7A	nsubj	undra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvMDdveK53xGE5C8XpVTS
 undrar	undrar	undra	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvMDdveK53xGE5C8XpVTS	root	-	-	-	-
 hur	hur	hur	ADV	-	i-7KvMMy26gxaDbWbpSwgQKW	advmod	ska	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvMfTWxHKmaCD7LKCzDXr
@@ -6100,13 +6100,13 @@ här	här	här	ADV	-	i-7KvQHt8yb5coyiyPiwEbXi	advmod	föreslå	VERB	Mood=Ind Ten
 </s>
 </p>
 <p id="i-S8AUc9hkZP1Fr6KmLhXkH3" lang="svenska">
-<s id="i-7L45WvcdzbenXWFHUZg268">
+<s id="i-7L45WvcdzbenXWFHUZg268" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KvQaYKtLrfLeJ2eMkxRFr	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KvQjhjHZLLRui1XucQKc8
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KvQjhjHZLLRui1XucQKc8	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	i-7KvQts8gmp1XB7zRTTrDxQ	punct	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KvQjhjHZLLRui1XucQKc8
 </s>
-<s id="i-7L45cknFriia4QR86emxVa">
+<s id="i-7L45cknFriia4QR86emxVa" senti_3="Neutral" senti_6="neutral postive" senti_n="2.974">
 Jag	Jag	jag	PRON	Case=Nom Definite=Def Gender=Com Number=Sing	i-7KvR3CE99hXnWQX3msi8pU	nsubj	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvRBXKbXb43qh3g6Ha3gY
 vill	vill	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvRBXKbXb43qh3g6Ha3gY	root	-	-	-	-
 också	också	också	ADV	-	i-7KvRLgizk4j9772Ze91x2p	advmod	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvRBXKbXb43qh3g6Ha3gY
@@ -6122,12 +6122,12 @@ bil	bil	bil	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KvShp7pL1BemK3W
 <g/>
 .	.	.	PUNCT	-	i-7KvSr9DGhthv6ba8yTZ26Y	punct	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvRBXKbXb43qh3g6Ha3gY
 </s>
-<s id="i-7L45jRFpZRwBXS3DxBTtPE">
+<s id="i-7L45jRFpZRwBXS3DxBTtPE" senti_3="Neutral" senti_6="neutral negative" senti_n="2.454">
 6	6	6	NUM	Case=Nom	i-7KvT1JcfvNP1N1Z2XJzvSp	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	i-7KvT9di8JFuGhJ5eqirqJt	punct	6	NUM	Case=Nom	i-7KvT1JcfvNP1N1Z2XJzvSp
 </s>
-<s id="i-7L45qFRSRYzy4LD4aGZpng">
+<s id="i-7L45qFRSRYzy4LD4aGZpng" senti_3="Neutral" senti_6="neutral postive" senti_n="2.614">
 Det	Det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7KvTHxoag9RY2acHA8ikAx	nsubj	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvTT8Cytd6dHzbAhzAeXE
 är	är	vara	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvTT8Cytd6dHzbAhzAeXE	root	-	-	-	-
 en	en	en	DET	Definite=Ind Gender=Com Number=Sing	i-7KvTcHcP76miZQa4FqcYsW	det	uppföljning	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KvTmT1nKaSoppYwoh4TDn
@@ -6147,7 +6147,7 @@ utgiftsområde	utgiftsområde	utgiftsområde	NOUN	Case=Nom Definite=Ind Gender=N
 </s>
 </p>
 <p id="i-WSUBjimo4fRb2pshA1rsru" lang="svenska">
-<s id="i-7L45wuu18GDaXMqARoFkgL">
+<s id="i-7L45wuu18GDaXMqARoFkgL" senti_3="Positive" senti_6="mixed positive" senti_n="3.936">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KvVc4coYwvbHGWZUA5KUG	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvVkPiFvqSrcZ3BnZwELL
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvVkPiFvqSrcZ3BnZwELL	root	-	-	-	-
 helt	helt	helt	ADV	Degree=Pos	i-7KvVtioiJiy7wqZp6yo9CQ	advmod	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvVkPiFvqSrcZ3BnZwELL
@@ -6170,7 +6170,7 @@ uppnås	uppnås	uppnå	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	i-7KvYKV
 <g/>
 .	.	.	PUNCT	-	i-7KvYTpBxG8D3zqcpawhZFS	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvVkPiFvqSrcZ3BnZwELL
 </s>
-<s id="i-7L464aNZpySBzPTGHKwgZz">
+<s id="i-7L464aNZpySBzPTGHKwgZz" senti_3="Positive" senti_6="positive" senti_n="5.334">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KvYcybMUbt9GFbi8o9Tbi	nsubj	konstatera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvYn8zkh5ZEXfabgebMwz
 konstaterar	konstaterar	konstatera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvYn8zkh5ZEXfabgebMwz	root	-	-	-	-
 att	att	att	SCONJ	-	i-7KvYvU6D4y5Vrx7E14TGp4	obj	konstatera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvYn8zkh5ZEXfabgebMwz
@@ -6187,7 +6187,7 @@ redovisning	redovisning	redovisning	NOUN	Case=Nom Definite=Ind Gender=Com Number
 <g/>
 .	.	.	PUNCT	-	i-7KvabvHq5rtC3z5x7g2EiG	punct	konstatera	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvYn8zkh5ZEXfabgebMwz
 </s>
-<s id="i-7L46AQYBh6VyXHd6uR3cyS">
+<s id="i-7L46AQYBh6VyXHd6uR3cyS" senti_3="Positive" senti_6="positive" senti_n="4.746">
 Och	Och	och	CCONJ	-	i-7KvakFPHTkQTPGcaS5t9aL	root	-	-	-	-
 granskningar	granskningar	granskning	NOUN	Case=Nom Definite=Ind Gender=Com Number=Plur	i-7KvataUjqdviiZ9CkVk4SQ	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvbpibCHupSNuaGpAqV3r
 som	som	som	PRON	-	i-7Kvb3jt947boyy86JMBxng	obj	göra	VERB	VerbForm=Sup Voice=Act	i-7KvbWPnPrxUFr5cViTwgMJ
@@ -6204,7 +6204,7 @@ frukt	frukt	frukt	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KvcarzJh7
 <g/>
 .	.	.	PUNCT	-	i-7KvcjC5m51QWB16pQxkvgt	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvbpibCHupSNuaGpAqV3r
 </s>
-<s id="i-7L46H51kPoiazKFCkwjYs6">
+<s id="i-7L46H51kPoiazKFCkwjYs6" senti_3="Neutral" senti_6="neutral postive" senti_n="3.126">
 Till	Till	till	ADP	-	i-7KvctMVAHV5bSR5hxpCq3A	advmod	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvdBqz1srGx37bDq5WeFW
 exempel	exempel	exempel	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	i-7Kvd3WtZVxkghq4bWfejPS	det	till	ADP	-	i-7KvctMVAHV5bSR5hxpCq3A
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvdBqz1srGx37bDq5WeFW	root	-	-	-	-
@@ -6236,7 +6236,7 @@ utgiftsområdet	utgiftsområdet	utgiftsområde	NOUN	Case=Nom Definite=Def Gender
 </s>
 </p>
 <p id="i-WBoxnWg7gWLm5YaPfQLCG9" lang="svenska">
-<s id="i-7L46PjVK6WwCTLsJcURUkk">
+<s id="i-7L46PjVK6WwCTLsJcURUkk" senti_3="Neutral" senti_6="neutral postive" senti_n="3.331">
 För	För	för	ADP	-	i-7KvgqQaAfQvs5kbvh8NPn4	advmod	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvhbYyH4czfYZbqyWRvZ2
 att	att	att	PART	-	i-7KvgzZyZstbxMAapEypJ8L	advmod	för	ADP	-	i-7KvgqQaAfQvs5kbvh8NPn4
 göra	göra	göra	VERB	VerbForm=Inf Voice=Act	i-7Kvh8u52Fn8DgT7SZPgCzQ	punct	att	PART	-	i-7KvgzZyZstbxMAapEypJ8L
@@ -6257,7 +6257,7 @@ Rudin	Rudin	Rudin	PROPN	Case=Nom	i-7Kvj6B9cBrpcbvhA5PP18Y	det	Helena	PROPN	Case=
 </name>
 .	.	.	PUNCT	-	i-7KvjFLZ1QLVhsLg3dEpuUp	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvhbYyH4czfYZbqyWRvZ2
 </s>
-<s id="i-7L46WPxsoE9ovNVQU17QeQ">
+<s id="i-7L46WPxsoE9ovNVQU17QeQ" senti_3="Neutral" senti_6="neutral postive" senti_n="2.885">
 Vi	Vi	vi	PRON	Case=Nom Definite=Def Gender=Com Number=Plur	i-7KvjQVxQcpAo8kewB6Goq6	nsubj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvjYq3rzhh4U3BZVW8ihA
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvjYq3rzhh4U3BZVW8ihA	root	-	-	-	-
 också	också	också	ADV	-	i-7KvjhA9KNbDKoKiBouzdZE	advmod	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvjYq3rzhh4U3BZVW8ihA
@@ -6279,13 +6279,13 @@ Nyman	Nyman	Nyman	PROPN	Case=Nom	i-7KvmBnKeVq3GrgoVunwi8k	det	Madeleine	PROPN	Ca
 </s>
 </p>
 <p id="i-Q2YHNDbBqsii633QRCrvzj" lang="svenska">
-<s id="i-7L46cE8VfMDbTGfF66DM3r">
+<s id="i-7L46cE8VfMDbTGfF66DM3r" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 Fru	Fru	fru	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KvmVGpW6CEdTPK1n4FXM6	det	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KvmeSDuJfuiioHuKuhRhN
 talman	talman	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KvmeSDuJfuiioHuKuhRhN	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	i-7KvmnmKMgZRz45pXeKZLZS	punct	talman	NOUN	Case=Nom Definite=Ind Gender=Com Number=Sing	i-7KvmeSDuJfuiioHuKuhRhN
 </s>
-<s id="i-7L46itc4N4SCvJHLwcuGwW">
+<s id="i-7L46itc4N4SCvJHLwcuGwW" senti_3="Neutral" senti_6="neutral postive" senti_n="3.019">
 Med	Med	med	ADP	-	i-7Kvmwviku375KVoRCB1Eui	advmod	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvnEaufep9bz4rfpzj4dr
 det	det	det	PRON	Case=Acc,Nom Definite=Def Gender=Neut Number=Sing	i-7Kvn768A7WnAaunJk2T9Fz	advmod	med	ADP	-	i-7Kvmwviku375KVoRCB1Eui
 vill	vill	vilja	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	i-7KvnEaufep9bz4rfpzj4dr	root	-	-	-	-

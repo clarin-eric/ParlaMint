@@ -34,9 +34,17 @@
                <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
                <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="it">Commissione Europea</orgName>
@@ -56,7 +64,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="16" unit="speeches" xml:lang="it">16 discorsi</measure>
@@ -70,13 +78,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref> .</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-16">2025-06-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -120,8 +128,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference" xml:lang="it">
@@ -130,7 +140,7 @@
             <note type="speaker" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.note1">Presidenza del presidente provvisorio NAPOLITANO</note>
             <note xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.note2">Il senatore Napolitano, presidente provvisorio ai sensi dell'articolo 2, comma 1, del Regolamento, sale al banco presidenziale</note>
             <note type="speaker" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.note3">PRESIDENTE</note>
-            <u ana="#chair" who="#NapolitanoGiorgio" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u1">
+            <u ana="#chair topic:other" who="#NapolitanoGiorgio" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u1">
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.seg1">La seduta è aperta (ore 10,32).</seg>
             </u>
             <gap reason="editorial">
@@ -140,7 +150,7 @@
          <div type="debateSection">
             <head xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.head1">Per l'apertura della XVIII legislatura</head>
             <note type="speaker" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.note4">PRESIDENTE</note>
-            <u ana="#chair" who="#NapolitanoGiorgio" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u2">
+            <u ana="#chair topic:mixed" who="#NapolitanoGiorgio" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u2">
                <incident type="action" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.incident1">
                   <desc>Si leva in piedi.</desc>
                </incident>
@@ -173,14 +183,14 @@
             </gap>
          </div>
          <div type="debateSection">
-            <u ana="#chair" who="#NapolitanoGiorgio" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u15">
+            <u ana="#chair topic:other" who="#NapolitanoGiorgio" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u15">
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.seg55">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.head13">Ordine del giorno per la seduta di sabato 24 marzo 2018</head>
             <note type="speaker" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.note26">PRESIDENTE</note>
-            <u ana="#chair" who="#NapolitanoGiorgio" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u16">
+            <u ana="#chair topic:other" who="#NapolitanoGiorgio" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u16">
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.seg56">Il Senato tornerà a riunirsi in seduta pubblica domani, sabato 24 marzo, alle ore 10,30, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 18,33).</seg>
             </u>
          </div>

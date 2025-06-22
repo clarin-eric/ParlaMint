@@ -1,9 +1,9 @@
 <note type="head" content="Hallituksen esitys eduskunnalle yrittäjien työttömyysturvaoikeuden väliaikaiseksi järjestämiseksi"/>
 <note type="relatedDocument" content="Hallituksen esitys HE 239/2021 vp"/>
 <note type="relatedDocument" content="Valiokunnan mietintö TyVM 19/2021 vp"/>
-<speech id="ParlaMint-FI_2022-01-25-ps-165.u1" text_id="ParlaMint-FI_2022-01-25-ps-165" subcorpus="COVID" lang="suomi" body="Yksikamarisuus" term="Vaalikausi 2019" session="Valtiopäivät 2021" meeting="Täysistunto 165" sitting="2022-01-25" agenda="-" date="2022-01-25" title="Suomen eduskunnan täysistunnon 165/2021 pöytäkirja, 2022-01-25" speaker_role="Puhemies" speaker_id="AnuVehviläinen" speaker_name="Vehviläinen, Anu" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KESK" speaker_party_name="Suomen Keskusta" party_status="Coalition" party_orientation="keskusta" speaker_gender="F" speaker_birth="1963">
+<speech id="ParlaMint-FI_2022-01-25-ps-165.u1" text_id="ParlaMint-FI_2022-01-25-ps-165" subcorpus="COVID" lang="suomi" body="Yksikamarisuus" term="Vaalikausi 2019" session="Valtiopäivät 2021" meeting="Täysistunto 165" sitting="2022-01-25" agenda="-" date="2022-01-25" title="Suomen eduskunnan täysistunnon 165/2021 pöytäkirja, 2022-01-25" speaker_role="Puhemies" topic="Sekalainen" speaker_id="AnuVehviläinen" speaker_name="Vehviläinen, Anu" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KESK" speaker_party_name="Suomen Keskusta" party_status="Coalition" party_orientation="keskusta" speaker_gender="F" speaker_birth="1963">
 <p id="ParlaMint-FI_2022-01-25-ps-165.seg1" lang="suomi">
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg1.1">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg1.1" senti_3="Neutraali" senti_6="neutraali positiivinen" senti_n="2.802">
 Ensimmäiseen	Ensimmäiseen	ensimmäinen	ADJ	Case=Ill Derivation=Inen Number=Sing NumType=Ord	1	nummod	käsittely	NOUN	Case=Ill Derivation=U Number=Sing	2
 käsittelyyn	käsittelyyn	käsittely	NOUN	Case=Ill Derivation=U Number=Sing	2	obl	esitellä	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3
 esitellään	esitellään	esitellä	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3	root	-	-	-	-
@@ -13,7 +13,7 @@ asia	asia	asia	NOUN	Case=Nom Number=Sing	6	obj	esitellä	VERB	Mood=Ind Tense=Pre
 <g/>
 .	.	.	PUNCT	-	7	punct	esitellä	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg1.2">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg1.2" senti_3="Neutraali" senti_6="neutraali positiivinen" senti_n="2.799">
 Käsittelyn	Käsittelyn	käsittely	NOUN	Case=Gen Derivation=U Number=Sing	8	nmod:poss	pohja	NOUN	Case=Ess Number=Sing	9
 pohjana	pohjana	pohja	NOUN	Case=Ess Number=Sing	9	root	-	-	-	-
 on	on	olla	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	10	cop	pohja	NOUN	Case=Ess Number=Sing	9
@@ -27,7 +27,7 @@ vp	vp	vp	NOUN	Abbr=Yes Case=Nom Number=Sing	17	flat:name	TyVM	NOUN	Abbr=Yes Case
 <g/>
 .	.	.	PUNCT	-	18	punct	pohja	NOUN	Case=Ess Number=Sing	9
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg1.3">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg1.3" senti_3="Neutraali" senti_6="neutraali positiivinen" senti_n="3.329">
 Nyt	Nyt	nyt	ADV	-	19	advmod	päättää	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	20
 päätetään	päätetään	päättää	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	20	root	-	-	-	-
 lakiehdotuksen	lakiehdotuksen	lakiehdotus	NOUN	Case=Gen Number=Sing	21	nmod:poss	sisältö	NOUN	Case=Ela Number=Sing	22
@@ -35,7 +35,7 @@ sisällöstä	sisällöstä	sisältö	NOUN	Case=Ela Number=Sing	22	obl	päättä
 <g/>
 .	.	.	PUNCT	-	23	punct	päättää	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	20
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg1.4">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg1.4" senti_3="Neutraali" senti_6="neutraali positiivinen" senti_n="3.089">
 —	—	—	PUNCT	-	24	punct	olla	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin Voice=Act	33
 Yleiskeskustelu	Yleiskeskustelu	yleiskeskustelu	NOUN	Case=Nom Derivation=U Number=Sing	25	nsubj	olla	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin Voice=Act	33
 <g/>
@@ -57,9 +57,9 @@ hyvä	hyvä	hyvä	ADJ	Case=Nom Degree=Pos Number=Sing	34	obj	olla	VERB	Mood=Imp 
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-FI_2022-01-25-ps-165.u2" text_id="ParlaMint-FI_2022-01-25-ps-165" subcorpus="COVID" lang="suomi" body="Yksikamarisuus" term="Vaalikausi 2019" session="Valtiopäivät 2021" meeting="Täysistunto 165" sitting="2022-01-25" agenda="-" date="2022-01-25" title="Suomen eduskunnan täysistunnon 165/2021 pöytäkirja, 2022-01-25" speaker_role="Tavallinen" speaker_id="AinoKaisaPekonen" speaker_name="Pekonen, Aino-Kaisa" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VAS" speaker_party_name="Vasemmistoliitto" party_status="Coalition" party_orientation="vasemmisto" speaker_gender="F" speaker_birth="1979">
+<speech id="ParlaMint-FI_2022-01-25-ps-165.u2" text_id="ParlaMint-FI_2022-01-25-ps-165" subcorpus="COVID" lang="suomi" body="Yksikamarisuus" term="Vaalikausi 2019" session="Valtiopäivät 2021" meeting="Täysistunto 165" sitting="2022-01-25" agenda="-" date="2022-01-25" title="Suomen eduskunnan täysistunnon 165/2021 pöytäkirja, 2022-01-25" speaker_role="Tavallinen" topic="Työ" speaker_id="AinoKaisaPekonen" speaker_name="Pekonen, Aino-Kaisa" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VAS" speaker_party_name="Vasemmistoliitto" party_status="Coalition" party_orientation="vasemmisto" speaker_gender="F" speaker_birth="1979">
 <p id="ParlaMint-FI_2022-01-25-ps-165.seg2" lang="suomi">
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg2.1">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg2.1" senti_3="Positiivinen" senti_6="sekamuotoinen positiivinen" senti_n="4.390">
 Kiitos	Kiitos	kiitos	NOUN	Case=Nom Number=Sing	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	punct	puhemies	NOUN	Case=Nom Number=Sing	5
@@ -69,7 +69,7 @@ puhemies	puhemies	puhemies	NOUN	Case=Nom Number=Sing	5	conj	kiitos	NOUN	Case=Nom
 <g/>
 !	!	!	PUNCT	-	6	punct	kiitos	NOUN	Case=Nom Number=Sing	1
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg2.2">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg2.2" senti_3="Neutraali" senti_6="neutraali positiivinen" senti_n="2.592">
 Tässä	Tässä	tämä	PRON	Case=Ine Number=Sing PronType=Dem	7	det	esitys	NOUN	Case=Ine Number=Sing	8
 esityksessä	esityksessä	esitys	NOUN	Case=Ine Number=Sing	8	obl	ehdottaa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	9
 ehdotetaan	ehdotetaan	ehdottaa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	9	root	-	-	-	-
@@ -111,7 +111,7 @@ täyty	täyty	täyttyä	VERB	Connegative=Yes Mood=Ind Tense=Pres VerbForm=Fin	42
 <g/>
 .	.	.	PUNCT	-	43	punct	ehdottaa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	9
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg2.3">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg2.3" senti_3="Neutraali" senti_6="neutraali positiivinen" senti_n="3.031">
 Säännös	Säännös	säännös	NOUN	Case=Nom Number=Sing	44	nsubj:cop	voimassa	ADV	-	46
 olisi	olisi	olla	AUX	Mood=Cnd Number=Sing Person=3 VerbForm=Fin Voice=Act	45	cop	voimassa	ADV	-	46
 voimassa	voimassa	voimassa	ADV	-	46	root	-	-	-	-
@@ -124,7 +124,7 @@ asti	asti	asti	ADP	AdpType=Post	50	case	28.	ADJ	NumType=Ord	47
 </s>
 </p>
 <p id="ParlaMint-FI_2022-01-25-ps-165.seg3" lang="suomi">
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg3.4">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg3.4" senti_3="Neutraali" senti_6="neutraali positiivinen" senti_n="2.829">
 Nyt	Nyt	nyt	ADV	-	52	advmod	ehdottaa	VERB	Case=Nom Degree=Pos Number=Sing PartForm=Past VerbForm=Part Voice=Pass	53
 ehdotettu	ehdotettu	ehdottaa	VERB	Case=Nom Degree=Pos Number=Sing PartForm=Past VerbForm=Part Voice=Pass	53	acl	muutos	NOUN	Case=Nom Number=Sing	54
 muutos	muutos	muutos	NOUN	Case=Nom Number=Sing	54	nsubj	vastata	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	55
@@ -142,7 +142,7 @@ säännöksiä	säännöksiä	säännös	NOUN	Case=Par Number=Plur	65	obj	vastat
 <g/>
 .	.	.	PUNCT	-	66	punct	vastata	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	55
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg3.5">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg3.5" senti_3="Neutraali" senti_6="neutraali negatiivinen" senti_n="2.215">
 Päätoimisen	Päätoimisen	päätoiminen	NOUN	Case=Gen Derivation=Minen Number=Sing	67	nmod:gobj	työllistyminen	NOUN	Case=Gen Derivation=Minen Number=Sing	68
 työllistymisen	työllistymisen	työllistyminen	NOUN	Case=Gen Derivation=Minen Number=Sing	68	nmod:gsubj	päättyminen	NOUN	Case=Par Derivation=Minen Number=Sing	69
 päättymistä	päättymistä	päättyminen	NOUN	Case=Par Derivation=Minen Number=Sing	69	obj	osoittaa	VERB	Case=Par Degree=Pos Number=Sing PartForm=Pres VerbForm=Part Voice=Act	70
@@ -162,7 +162,7 @@ muutoksia	muutoksia	muutos	NOUN	Case=Par Number=Plur	80	obj	vastata	VERB	Case=Il
 </s>
 </p>
 <p id="ParlaMint-FI_2022-01-25-ps-165.seg4" lang="suomi">
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg4.6">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg4.6" senti_3="Negatiivinen" senti_6="negatiivinen" senti_n="0.489">
 Pandemia	Pandemia	pandemia	NOUN	Case=Nom Number=Sing	82	nsubj:cop	aktiivinen	ADJ	Case=Nom Degree=Pos Derivation=Inen Number=Sing	86
 on	on	olla	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	83	cop	aktiivinen	ADJ	Case=Nom Degree=Pos Derivation=Inen Number=Sing	86
 Suomessa	Suomessa	Suomi	PROPN	Case=Ine Number=Sing	84	obl	aktiivinen	ADJ	Case=Nom Degree=Pos Derivation=Inen Number=Sing	86
@@ -183,7 +183,7 @@ merkittävästi	merkittävästi	merkittävästi	ADV	Derivation=Sti	97	advmod	lis
 <g/>
 .	.	.	PUNCT	-	98	punct	aktiivinen	ADJ	Case=Nom Degree=Pos Derivation=Inen Number=Sing	86
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg4.7">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg4.7" senti_3="Negatiivinen" senti_6="sekamuotoinen negatiivinen" senti_n="0.663">
 Vallitsevassa	Vallitsevassa	vallitseva	ADJ	Case=Ine Degree=Pos Number=Sing	99	amod	tilanne	NOUN	Case=Ine Number=Sing	100
 tilanteessa	tilanteessa	tilanne	NOUN	Case=Ine Number=Sing	100	obl	varmistaa	VERB	InfForm=1 Number=Sing VerbForm=Inf Voice=Act	108
 yhteiskunnan	yhteiskunnan	yhteiskunta	NOUN	Case=Gen Number=Sing	101	nmod:poss	toiminto	NOUN	Case=Par Number=Plur	102
@@ -210,7 +210,7 @@ rajoittamaan	rajoittamaan	rajoittaa	VERB	Case=Ill InfForm=3 Number=Sing VerbForm
 <g/>
 .	.	.	PUNCT	-	121	punct	varmistaa	VERB	InfForm=1 Number=Sing VerbForm=Inf Voice=Act	108
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg4.8">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg4.8" senti_3="Neutraali" senti_6="neutraali negatiivinen" senti_n="1.772">
 Rajoitukset	Rajoitukset	rajoitus	NOUN	Case=Nom Number=Plur	122	nsubj	vaikeuttaa	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	123
 vaikeuttavat	vaikeuttavat	vaikeuttaa	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	123	root	-	-	-	-
 elinkeinotoiminnan	elinkeinotoiminnan	elinkeinotoiminta	NOUN	Case=Gen Number=Sing	124	nmod:gobj	harjoittaminen	NOUN	Case=Par Derivation=Minen Number=Sing	125
@@ -229,7 +229,7 @@ turvata	turvata	turvata	VERB	InfForm=1 Number=Sing VerbForm=Inf Voice=Act	135	xc
 <g/>
 .	.	.	PUNCT	-	136	punct	vaikeuttaa	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	123
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg4.9">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg4.9" senti_3="Neutraali" senti_6="neutraali positiivinen" senti_n="2.502">
 Hallitus	Hallitus	hallitus	NOUN	Case=Nom Number=Sing	137	nsubj	pitää	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	138
 pitää	pitää	pitää	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	138	root	-	-	-	-
 perusteltuna	perusteltuna	perustella	VERB	Case=Ess Degree=Pos Number=Sing PartForm=Past VerbForm=Part Voice=Pass	139	xcomp	pitää	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	138
@@ -264,7 +264,7 @@ ennakoida	ennakoida	ennakoida	VERB	InfForm=1 Number=Sing VerbForm=Inf Voice=Act	
 </s>
 </p>
 <p id="ParlaMint-FI_2022-01-25-ps-165.seg5" lang="suomi">
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg5.10">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg5.10" senti_3="Positiivinen" senti_6="positiivinen" senti_n="4.851">
 Työelämä-	Työelämä-	työelämä	NOUN	Case=Nom Number=Sing	166	nsubj	pitää	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	169
 ja	ja	ja	CCONJ	-	167	cc	tasaarvovaliokunta	NOUN	Case=Nom Number=Sing	168
 tasa-arvovaliokunta	tasa-arvovaliokunta	tasaarvovaliokunta	NOUN	Case=Nom Number=Sing	168	conj	työelämä	NOUN	Case=Nom Number=Sing	166
@@ -281,7 +281,7 @@ muuttamattomana	muuttamattomana	muuttamaton	ADJ	Case=Ess Degree=Pos Derivation=T
 <g/>
 .	.	.	PUNCT	-	179	punct	pitää	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	169
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg5.11">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg5.11" senti_3="Negatiivinen" senti_6="negatiivinen" senti_n="0.311">
 Valiokunta	Valiokunta	valiokunta	NOUN	Case=Nom Number=Sing	180	nsubj	toistaa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	181
 toistaa	toistaa	toistaa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	181	root	-	-	-	-
 mietinnössään	mietinnössään	mietintö	NOUN	Case=Ine Number=Sing Person[psor]=3	182	obl	esittää	VERB	Case=Gen Degree=Pos Number=Sing PartForm=Agt Person[psor]=3 VerbForm=Part Voice=Act	183
@@ -313,7 +313,7 @@ Kansaneläkelaitokselle	Kansaneläkelaitokselle	kansaneläkelaitos	NOUN	Case=All
 <g/>
 .	.	.	PUNCT	-	205	punct	toistaa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	181
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg5.12">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg5.12" senti_3="Neutraali" senti_6="neutraali negatiivinen" senti_n="1.643">
 Valiokunta	Valiokunta	valiokunta	NOUN	Case=Nom Number=Sing	206	nsubj	huomauttaa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	207
 huomauttaa	huomauttaa	huomauttaa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	207	root	-	-	-	-
 <g/>
@@ -339,7 +339,7 @@ kerrallaan	kerrallaan	kerta	NOUN	Case=Ade Number=Sing Person[psor]=3	226	nmod	ja
 <g/>
 .	.	.	PUNCT	-	227	punct	huomauttaa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	207
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg5.13">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg5.13" senti_3="Neutraali" senti_6="neutraali negatiivinen" senti_n="1.905">
 Mikäli	Mikäli	mikäli	SCONJ	-	228	mark	toimia	VERB	Case=Ill InfForm=3 Number=Sing VerbForm=Inf Voice=Act	232
 näin	näin	näin	ADV	-	229	advmod	toimia	VERB	Case=Ill InfForm=3 Number=Sing VerbForm=Inf Voice=Act	232
 joudutaan	joudutaan	joutua	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	230	aux	toimia	VERB	Case=Ill InfForm=3 Number=Sing VerbForm=Inf Voice=Act	232
@@ -360,13 +360,13 @@ ajoissa	ajoissa	ajoissa	ADV	-	241	advmod	tiedottaa	VERB	Case=Nom Degree=Pos Numb
 </s>
 </p>
 <p id="ParlaMint-FI_2022-01-25-ps-165.seg6" lang="suomi">
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg6.14">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg6.14" senti_3="Positiivinen" senti_6="sekamuotoinen positiivinen" senti_n="4.021">
 Arvoisa	Arvoisa	arvoisa	ADJ	Case=Nom Degree=Pos Number=Sing	243	amod	puhemies	NOUN	Case=Nom Number=Sing	244
 puhemies	puhemies	puhemies	NOUN	Case=Nom Number=Sing	244	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	245	punct	puhemies	NOUN	Case=Nom Number=Sing	244
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg6.15">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg6.15" senti_3="Negatiivinen" senti_6="sekamuotoinen negatiivinen" senti_n="1.176">
 Tähän	Tähän	tämä	PRON	Case=Ill Number=Sing PronType=Dem	246	det	mietintö	NOUN	Case=Ill Number=Sing	247
 mietintöön	mietintöön	mietintö	NOUN	Case=Ill Number=Sing	247	obl	sisältyä	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	248
 sisältyy	sisältyy	sisältyä	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	248	root	-	-	-	-
@@ -377,15 +377,15 @@ vastalause	vastalause	vastalause	NOUN	Case=Nom Number=Sing	249	nsubj	sisältyä	
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-FI_2022-01-25-ps-165.u102" text_id="ParlaMint-FI_2022-01-25-ps-165" subcorpus="COVID" lang="suomi" body="Yksikamarisuus" term="Vaalikausi 2019" session="Valtiopäivät 2021" meeting="Täysistunto 165" sitting="2022-01-25" agenda="-" date="2022-01-25" title="Suomen eduskunnan täysistunnon 165/2021 pöytäkirja, 2022-01-25" speaker_role="Tavallinen" speaker_id="MiaLaiho" speaker_name="Laiho, Mia" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KOK" speaker_party_name="Kansallinen kokoomus" party_status="Opposition" party_orientation="keskusta-oikeisto" speaker_gender="F" speaker_birth="1969">
+<speech id="ParlaMint-FI_2022-01-25-ps-165.u102" text_id="ParlaMint-FI_2022-01-25-ps-165" subcorpus="COVID" lang="suomi" body="Yksikamarisuus" term="Vaalikausi 2019" session="Valtiopäivät 2021" meeting="Täysistunto 165" sitting="2022-01-25" agenda="-" date="2022-01-25" title="Suomen eduskunnan täysistunnon 165/2021 pöytäkirja, 2022-01-25" speaker_role="Tavallinen" topic="Muu" speaker_id="MiaLaiho" speaker_name="Laiho, Mia" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KOK" speaker_party_name="Kansallinen kokoomus" party_status="Opposition" party_orientation="keskusta-oikeisto" speaker_gender="F" speaker_birth="1969">
 <p id="ParlaMint-FI_2022-01-25-ps-165.seg205" lang="suomi">
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg205.1">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg205.1" senti_3="Positiivinen" senti_6="sekamuotoinen positiivinen" senti_n="4.021">
 Arvoisa	Arvoisa	arvoisa	ADJ	Case=Nom Degree=Pos Number=Sing	1	amod	puhemies	NOUN	Case=Nom Number=Sing	2
 puhemies	puhemies	puhemies	NOUN	Case=Nom Number=Sing	2	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	3	punct	puhemies	NOUN	Case=Nom Number=Sing	2
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg205.2">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg205.2" senti_3="Neutraali" senti_6="neutraali positiivinen" senti_n="2.616">
 Esitän	Esitän	esittää	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	4	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	5	punct	saada	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	8
@@ -402,15 +402,15 @@ vastalauseessa	vastalauseessa	vastalause	NOUN	Case=Ine Number=Sing	13	advcl	saad
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-FI_2022-01-25-ps-165.u103" text_id="ParlaMint-FI_2022-01-25-ps-165" subcorpus="COVID" lang="suomi" body="Yksikamarisuus" term="Vaalikausi 2019" session="Valtiopäivät 2021" meeting="Täysistunto 165" sitting="2022-01-25" agenda="-" date="2022-01-25" title="Suomen eduskunnan täysistunnon 165/2021 pöytäkirja, 2022-01-25" speaker_role="Tavallinen" speaker_id="PiaKauma" speaker_name="Kauma, Pia" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KOK" speaker_party_name="Kansallinen kokoomus" party_status="Opposition" party_orientation="keskusta-oikeisto" speaker_gender="F" speaker_birth="1966">
+<speech id="ParlaMint-FI_2022-01-25-ps-165.u103" text_id="ParlaMint-FI_2022-01-25-ps-165" subcorpus="COVID" lang="suomi" body="Yksikamarisuus" term="Vaalikausi 2019" session="Valtiopäivät 2021" meeting="Täysistunto 165" sitting="2022-01-25" agenda="-" date="2022-01-25" title="Suomen eduskunnan täysistunnon 165/2021 pöytäkirja, 2022-01-25" speaker_role="Tavallinen" topic="Muu" speaker_id="PiaKauma" speaker_name="Kauma, Pia" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KOK" speaker_party_name="Kansallinen kokoomus" party_status="Opposition" party_orientation="keskusta-oikeisto" speaker_gender="F" speaker_birth="1966">
 <p id="ParlaMint-FI_2022-01-25-ps-165.seg206" lang="suomi">
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg206.1">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg206.1" senti_3="Positiivinen" senti_6="sekamuotoinen positiivinen" senti_n="4.021">
 Arvoisa	Arvoisa	arvoisa	ADJ	Case=Nom Degree=Pos Number=Sing	1	amod	puhemies	NOUN	Case=Nom Number=Sing	2
 puhemies	puhemies	puhemies	NOUN	Case=Nom Number=Sing	2	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	3	punct	puhemies	NOUN	Case=Nom Number=Sing	2
 </s>
-<s id="ParlaMint-FI_2022-01-25-ps-165.seg206.2">
+<s id="ParlaMint-FI_2022-01-25-ps-165.seg206.2" senti_3="Neutraali" senti_6="neutraali positiivinen" senti_n="3.467">
 Kannatan	Kannatan	kannattaa	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	4	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	5	obj	kannattaa	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	4

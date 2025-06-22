@@ -15,13 +15,29 @@
                <persName ref="https://orcid.org/0000-0003-0966-8341">Kadri Vider</persName>
                <resp xml:lang="en">Data retrieval and conversion to Parla-CLARIN TEI XML</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
                <orgName xml:lang="en">CLARIN ERIC research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure xml:lang="et" unit="speeches" quantity="64">64 kõnet</measure>
@@ -34,12 +50,12 @@
                <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
                <orgName xml:lang="en">CLARIN ERIC research infrastructure</orgName>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-15">2025-06-15</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -58,6 +74,7 @@
                <tagUsage gi="div" occurs="1"/>
                <tagUsage gi="link" occurs="9379"/>
                <tagUsage gi="linkGrp" occurs="609"/>
+               <tagUsage gi="measure" occurs="609"/>
                <tagUsage gi="name" occurs="241"/>
                <tagUsage gi="note" occurs="64"/>
                <tagUsage gi="pc" occurs="1263"/>
@@ -81,17 +98,20 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-15">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-03">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <note type="speaker" xml:id="ParlaMint-EE_2014-12-02.ana.note1">Eiki Nestor</note>
-            <u who="#e_nestor_19530905" xml:id="ParlaMint-EE_2014-12-02_U1" ana="#chair">
+            <u who="#e_nestor_19530905" xml:id="ParlaMint-EE_2014-12-02_U1" ana="#chair topic:other">
                <seg xml:id="ParlaMint-EE_2014-12-02_U1-P1">
                   <s xml:id="ParlaMint-EE_2014-12-02_U1-P1.1">
+                     <measure type="sentiment" quantity="4.115" ana="senti:mixpos" corresp="#ParlaMint-EE_2014-12-02_U1-P1.1"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U1-P1.1.1" lemma="austa=tud" msd="UPosTag=ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass" pos="A">Austatud</w>
                      <name type="ORG">
 <w xml:id="ParlaMint-EE_2014-12-02_U1-P1.1.2" lemma="Riigi_kogu" join="right" msd="UPosTag=PROPN|Case=Nom|Number=Sing" pos="S">Riigikogu</w>
@@ -110,6 +130,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U1-P1.2">
+                     <measure type="sentiment" quantity="2.843" ana="senti:neupos" corresp="#ParlaMint-EE_2014-12-02_U1-P1.2"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U1-P1.2.1" lemma="kes" msd="UPosTag=PRON|Case=Ade|Number=Sing|PronType=Int,Rel" pos="P">Kellel</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U1-P1.2.2" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">on</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U1-P1.2.3" lemma="üle" msd="UPosTag=ADV" pos="D">üle</w>
@@ -130,6 +151,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U1-P1.3">
+                     <measure type="sentiment" quantity="3.542" ana="senti:mixpos" corresp="#ParlaMint-EE_2014-12-02_U1-P1.3"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U1-P1.3.1" lemma="paluma" join="right" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">Palun</w>
 <pc xml:id="ParlaMint-EE_2014-12-02_U1-P1.3.2" msd="UPosTag=PUNCT" pos="Z">,</pc>
                      <name type="PER">
@@ -148,9 +170,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-EE_2014-12-02.ana.note2">Arto Aas</note>
-            <u who="#a_aas_19800609" xml:id="ParlaMint-EE_2014-12-02_U2" ana="#regular">
+            <u who="#a_aas_19800609" xml:id="ParlaMint-EE_2014-12-02_U2" ana="#regular topic:trans">
                <seg xml:id="ParlaMint-EE_2014-12-02_U2-P1">
                   <s xml:id="ParlaMint-EE_2014-12-02_U2-P1.1">
+                     <measure type="sentiment" quantity="4.392" ana="senti:mixpos" corresp="#ParlaMint-EE_2014-12-02_U2-P1.1"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.1.1" lemma="austa=tud" msd="UPosTag=ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass" pos="A">Austatud</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.1.2" lemma="kolleeg" join="right" msd="UPosTag=NOUN|Case=Nom|Number=Plur" pos="S">kolleegid</w>
 <pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.1.3" msd="UPosTag=PUNCT" pos="Z">!</pc>
@@ -161,6 +184,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U2-P1.2">
+                     <measure type="sentiment" quantity="2.637" ana="senti:neupos" corresp="#ParlaMint-EE_2014-12-02_U2-P1.2"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.2.1" lemma="majandus_komisjon" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">Majanduskomisjon</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.2.2" lemma="algatama" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">algatab</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.2.3" lemma="ühis_transpordi_seadus" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">ühistranspordiseaduse</w>
@@ -175,6 +199,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U2-P1.3">
+                     <measure type="sentiment" quantity="2.248" ana="senti:neuneg" corresp="#ParlaMint-EE_2014-12-02_U2-P1.3"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.1" lemma="ühis_transpordi_seadus" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">Ühistranspordiseaduse</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.2" lemma="eelmine" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing" pos="A">eelmine</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.3.3" lemma="tervik" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">terviktekst</w>
@@ -203,6 +228,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U2-P1.4">
+                     <measure type="sentiment" quantity="2.476" ana="senti:neuneg" corresp="#ParlaMint-EE_2014-12-02_U2-P1.4"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.1" lemma="vahe_peal" msd="UPosTag=ADV" pos="D">Vahepeal</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.2" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">on</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.4.3" lemma="väga" msd="UPosTag=ADV" pos="D">väga</w>
@@ -245,6 +271,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U2-P1.5">
+                     <measure type="sentiment" quantity="2.689" ana="senti:neupos" corresp="#ParlaMint-EE_2014-12-02_U2-P1.5"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.5.1" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">On</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.5.2" lemma="aeg" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">aeg</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.5.3" lemma="tegema" msd="UPosTag=VERB|VerbForm=Inf" pos="V">teha</w>
@@ -261,6 +288,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U2-P1.6">
+                     <measure type="sentiment" quantity="0.809" ana="senti:mixneg" corresp="#ParlaMint-EE_2014-12-02_U2-P1.6"/>
                      <name type="ORG">
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.6.1" lemma="riigi_kogu" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">Riigikogu</w>
                      </name>
@@ -305,6 +333,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U2-P1.7">
+                     <measure type="sentiment" quantity="3.251" ana="senti:neupos" corresp="#ParlaMint-EE_2014-12-02_U2-P1.7"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.1" lemma="nüüd" msd="UPosTag=ADV" pos="D">Nüüd</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.2" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">oleme</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.7.3" lemma="jõudma" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Act" pos="V">jõudnud</w>
@@ -351,6 +380,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U2-P1.8">
+                     <measure type="sentiment" quantity="3.257" ana="senti:neupos" corresp="#ParlaMint-EE_2014-12-02_U2-P1.8"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.1" lemma="see" msd="UPosTag=PRON|Case=Gen|Number=Sing|PronType=Dem" pos="P">Selle</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.2" lemma="peamine" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Plur" pos="A">peamised</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.8.3" lemma="ees_märk" msd="UPosTag=NOUN|Case=Nom|Number=Plur" pos="S">eesmärgid</w>
@@ -441,6 +471,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U2-P1.9">
+                     <measure type="sentiment" quantity="2.685" ana="senti:neupos" corresp="#ParlaMint-EE_2014-12-02_U2-P1.9"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.9.1" lemma="selline" msd="UPosTag=DET|Case=Nom|Number=Sing|PronType=Dem" pos="P">Selline</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.9.2" lemma="lugu" join="right" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">lugu</w>
 <pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.9.3" msd="UPosTag=PUNCT" pos="Z">.</pc>
@@ -451,6 +482,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U2-P1.10">
+                     <measure type="sentiment" quantity="4.984" ana="senti:pospos" corresp="#ParlaMint-EE_2014-12-02_U2-P1.10"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U2-P1.10.1" lemma="aitäh" join="right" msd="UPosTag=INTJ" pos="I">Aitäh</w>
 <pc xml:id="ParlaMint-EE_2014-12-02_U2-P1.10.2" msd="UPosTag=PUNCT" pos="Z">!</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -463,9 +495,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#r_vakra_19810310" xml:id="ParlaMint-EE_2014-12-02_U63" ana="#regular">
+            <u who="#r_vakra_19810310" xml:id="ParlaMint-EE_2014-12-02_U63" ana="#regular topic:envir">
                <seg xml:id="ParlaMint-EE_2014-12-02_U63-P1">
                   <s xml:id="ParlaMint-EE_2014-12-02_U63-P1.1">
+                     <measure type="sentiment" quantity="4.514" ana="senti:pospos" corresp="#ParlaMint-EE_2014-12-02_U63-P1.1"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.1.1" lemma="austa=tud" msd="UPosTag=ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass" pos="A">Austatud</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.1.2" lemma="esi_mees" join="right" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">esimees</w>
 <pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.1.3" msd="UPosTag=PUNCT" pos="Z">!</pc>
@@ -476,6 +509,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U63-P1.2">
+                     <measure type="sentiment" quantity="4.579" ana="senti:pospos" corresp="#ParlaMint-EE_2014-12-02_U63-P1.2"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.2.1" lemma="hea" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Plur" pos="A">Head</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.2.2" lemma="kolleeg" join="right" msd="UPosTag=NOUN|Case=Nom|Number=Plur" pos="S">kolleegid</w>
 <pc xml:id="ParlaMint-EE_2014-12-02_U63-P1.2.3" msd="UPosTag=PUNCT" pos="Z">!</pc>
@@ -486,6 +520,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U63-P1.3">
+                     <measure type="sentiment" quantity="2.677" ana="senti:neupos" corresp="#ParlaMint-EE_2014-12-02_U63-P1.3"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.1" lemma="keskkonna_seadustik" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">Keskkonnaseadustiku</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.2" lemma="üld_osa" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">üldosa</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.3.3" lemma="seadus" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">seaduse</w>
@@ -524,6 +559,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U63-P1.4">
+                     <measure type="sentiment" quantity="2.680" ana="senti:neupos" corresp="#ParlaMint-EE_2014-12-02_U63-P1.4"/>
                      <name type="ORG">
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.4.1" lemma="riigi_kogu" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">Riigikogu</w>
                      </name>
@@ -544,6 +580,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U63-P1.5">
+                     <measure type="sentiment" quantity="2.833" ana="senti:neupos" corresp="#ParlaMint-EE_2014-12-02_U63-P1.5"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.1" lemma="keskkonna_seadustik" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">Keskkonnaseadustiku</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.2" lemma="üld_osa" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">üldosa</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.5.3" lemma="seadus" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">seaduse</w>
@@ -582,6 +619,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U63-P1.6">
+                     <measure type="sentiment" quantity="0.595" ana="senti:mixneg" corresp="#ParlaMint-EE_2014-12-02_U63-P1.6"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.1" lemma="see" msd="UPosTag=DET|Case=Nom|Number=Sing|PronType=Dem" pos="P">See</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.2" lemma="kuu_päev" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">kuupäev</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.6.3" lemma="ei" msd="UPosTag=AUX|Polarity=Neg" pos="V">ei</w>
@@ -624,6 +662,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U63-P1.7">
+                     <measure type="sentiment" quantity="0.783" ana="senti:mixneg" corresp="#ParlaMint-EE_2014-12-02_U63-P1.7"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.1" lemma="eel_nõu" msd="UPosTag=NOUN|Case=Com|Number=Sing" pos="S">Eelnõuga</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.2" lemma="ei" msd="UPosTag=AUX|Polarity=Neg" pos="V">ei</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.7.3" lemma="kavandama" msd="UPosTag=VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass" pos="V">kavandata</w>
@@ -656,6 +695,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U63-P1.8">
+                     <measure type="sentiment" quantity="2.171" ana="senti:neuneg" corresp="#ParlaMint-EE_2014-12-02_U63-P1.8"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.1" lemma="keskkonna_seadustik" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">Keskkonnaseadustiku</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.2" lemma="üld_osa" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">üldosa</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.8.3" lemma="seadus" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">seaduse</w>
@@ -722,6 +762,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U63-P1.9">
+                     <measure type="sentiment" quantity="2.062" ana="senti:neuneg" corresp="#ParlaMint-EE_2014-12-02_U63-P1.9"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.1" lemma="see" msd="UPosTag=PRON|Case=Nom|Number=Sing|PronType=Dem" pos="P">See</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.2" lemma="tähendama" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">tähendab</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.9.3" lemma="see" join="right" msd="UPosTag=PRON|Case=Par|Number=Sing|PronType=Dem" pos="P">seda</w>
@@ -768,6 +809,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U63-P1.10">
+                     <measure type="sentiment" quantity="3.387" ana="senti:neupos" corresp="#ParlaMint-EE_2014-12-02_U63-P1.10"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.10.1" lemma="eel_nõu" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">Eelnõu</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.10.2" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">on</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P1.10.3" lemma="hea" msd="UPosTag=ADJ|Case=Tra|Degree=Pos|Number=Sing" pos="A">heaks</w>
@@ -792,6 +834,7 @@
                </seg>
                <seg xml:id="ParlaMint-EE_2014-12-02_U63-P2">
                   <s xml:id="ParlaMint-EE_2014-12-02_U63-P2.1">
+                     <measure type="sentiment" quantity="2.603" ana="senti:neupos" corresp="#ParlaMint-EE_2014-12-02_U63-P2.1"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.1" lemma="keskkonna_komisjon" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">Keskkonnakomisjoni</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.2" lemma="20." msd="UPosTag=ADJ|Case=Gen|NumForm=Digit|NumType=Ord|Number=Sing" pos="N">20.</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P2.1.3" lemma="november" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">novembri</w>
@@ -856,6 +899,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U63-P2.2">
+                     <measure type="sentiment" quantity="2.700" ana="senti:neupos" corresp="#ParlaMint-EE_2014-12-02_U63-P2.2"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P2.2.1" lemma="kõik" msd="UPosTag=DET|Case=Nom|Number=Plur|PronType=Tot" pos="P">Kõik</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P2.2.2" lemma="komisjon" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">komisjoni</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P2.2.3" lemma="otsus" msd="UPosTag=NOUN|Case=Nom|Number=Plur" pos="S">otsused</w>
@@ -872,6 +916,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U63-P2.3">
+                     <measure type="sentiment" quantity="4.984" ana="senti:pospos" corresp="#ParlaMint-EE_2014-12-02_U63-P2.3"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U63-P2.3.1" lemma="aitäh" join="right" msd="UPosTag=INTJ" pos="I">Aitäh</w>
 <pc xml:id="ParlaMint-EE_2014-12-02_U63-P2.3.2" msd="UPosTag=PUNCT" pos="Z">!</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -882,9 +927,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-EE_2014-12-02.ana.note64">Eiki Nestor</note>
-            <u who="#e_nestor_19530905" xml:id="ParlaMint-EE_2014-12-02_U64" ana="#chair">
+            <u who="#e_nestor_19530905" xml:id="ParlaMint-EE_2014-12-02_U64" ana="#chair topic:other">
                <seg xml:id="ParlaMint-EE_2014-12-02_U64-P1">
                   <s xml:id="ParlaMint-EE_2014-12-02_U64-P1.1">
+                     <measure type="sentiment" quantity="4.984" ana="senti:pospos" corresp="#ParlaMint-EE_2014-12-02_U64-P1.1"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.1.1" lemma="aitäh" join="right" msd="UPosTag=INTJ" pos="I">Aitäh</w>
 <pc xml:id="ParlaMint-EE_2014-12-02_U64-P1.1.2" msd="UPosTag=PUNCT" pos="Z">!</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -893,6 +939,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U64-P1.2">
+                     <measure type="sentiment" quantity="2.598" ana="senti:neupos" corresp="#ParlaMint-EE_2014-12-02_U64-P1.2"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.2.1" lemma="kas" msd="UPosTag=ADV" pos="D">Kas</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.2.2" lemma="ette_kandja" msd="UPosTag=NOUN|Case=All|Number=Sing" pos="S">ettekandjale</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.2.3" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">on</w>
@@ -907,6 +954,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U64-P1.3">
+                     <measure type="sentiment" quantity="1.634" ana="senti:neuneg" corresp="#ParlaMint-EE_2014-12-02_U64-P1.3"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.3.1" lemma="ei" msd="UPosTag=AUX|Polarity=Neg" pos="V">Ei</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.3.2" lemma="olema" join="right" msd="UPosTag=VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">ole</w>
 <pc xml:id="ParlaMint-EE_2014-12-02_U64-P1.3.3" msd="UPosTag=PUNCT" pos="Z">.</pc>
@@ -917,6 +965,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U64-P1.4">
+                     <measure type="sentiment" quantity="2.857" ana="senti:neupos" corresp="#ParlaMint-EE_2014-12-02_U64-P1.4"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.4.1" lemma="avama" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">Avan</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.4.2" lemma="läbi_rääkimine" join="right" msd="UPosTag=NOUN|Case=Nom|Number=Plur" pos="S">läbirääkimised</w>
 <pc xml:id="ParlaMint-EE_2014-12-02_U64-P1.4.3" msd="UPosTag=PUNCT" pos="Z">.</pc>
@@ -927,6 +976,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U64-P1.5">
+                     <measure type="sentiment" quantity="2.880" ana="senti:neupos" corresp="#ParlaMint-EE_2014-12-02_U64-P1.5"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.5.1" lemma="kõne_soov" msd="UPosTag=NOUN|Case=Par|Number=Sing" pos="S">Kõnesoove</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.5.2" lemma="ei" msd="UPosTag=AUX|Polarity=Neg" pos="V">ei</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.5.3" lemma="olema" join="right" msd="UPosTag=AUX|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">ole</w>
@@ -939,6 +989,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U64-P1.6">
+                     <measure type="sentiment" quantity="2.643" ana="senti:neupos" corresp="#ParlaMint-EE_2014-12-02_U64-P1.6"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.6.1" lemma="eel_nõu" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">Eelnõu</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.6.2" lemma="781" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" pos="N">781</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.6.3" lemma="esimene" msd="UPosTag=ADJ|Case=Nom|NumForm=Word|NumType=Ord|Number=Sing" pos="N">esimene</w>
@@ -957,6 +1008,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U64-P1.7">
+                     <measure type="sentiment" quantity="2.565" ana="senti:neupos" corresp="#ParlaMint-EE_2014-12-02_U64-P1.7"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.7.1" lemma="määrama" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">Määran</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.7.2" lemma="muudatus_ette_panek" msd="UPosTag=NOUN|Case=Gen|Number=Plur" pos="S">muudatusettepanekute</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.7.3" lemma="esitamine" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">esitamise</w>
@@ -977,6 +1029,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U64-P1.8">
+                     <measure type="sentiment" quantity="2.901" ana="senti:neupos" corresp="#ParlaMint-EE_2014-12-02_U64-P1.8"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.8.1" lemma="istung" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">Istung</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.8.2" lemma="olema" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">on</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.8.3" lemma="lõppema" join="right" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Act" pos="V">lõppenud</w>
@@ -989,6 +1042,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-EE_2014-12-02_U64-P1.9">
+                     <measure type="sentiment" quantity="3.122" ana="senti:neupos" corresp="#ParlaMint-EE_2014-12-02_U64-P1.9"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.9.1" lemma="kohtuma" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="V">Kohtume</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P1.9.2" lemma="homme" join="right" msd="UPosTag=ADV" pos="D">homme</w>
 <pc xml:id="ParlaMint-EE_2014-12-02_U64-P1.9.3" msd="UPosTag=PUNCT" pos="Z">.</pc>
@@ -1001,6 +1055,7 @@
                </seg>
                <seg xml:id="ParlaMint-EE_2014-12-02_U64-P2">
                   <s xml:id="ParlaMint-EE_2014-12-02_U64-P2.1">
+                     <measure type="sentiment" quantity="2.849" ana="senti:neupos" corresp="#ParlaMint-EE_2014-12-02_U64-P2.1"/>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P2.1.1" lemma="istung" msd="UPosTag=NOUN|Case=Gen|Number=Sing" pos="S">Istungi</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P2.1.2" lemma="lõpp" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">lõpp</w>
 <w xml:id="ParlaMint-EE_2014-12-02_U64-P2.1.3" lemma="kell" msd="UPosTag=NOUN|Case=Nom|Number=Sing" pos="S">kell</w>

@@ -15,9 +15,13 @@
                <resp xml:lang="is">Söfnun og úrvinnsla texta. TEI-kóðun.</resp>
                <resp xml:lang="en">Collection and processing of texts. TEI encoding.</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="words" quantity="18051" xml:lang="en">18,051 words</measure>
@@ -29,13 +33,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="is">Þessi texti er gefinn út með <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-17">2025-06-17</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -76,26 +80,28 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-17">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-18">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <note type="signing" xml:id="ParlaMint-IS_2017-03-20-44.note1">Bjarni Jónsson, 3. þm. Norðvest., og Oktavía Hrund Jónsdóttir, 4. þm. Suðurk., undirrituðu drengskaparheit að stjórnarskránni.</note>
-            <u who="#UnnurKonradsdottir" xml:id="ParlaMint-IS_2017-03-20-44.u1" ana="#chair" source="http://www.althingi.is/altext/raeda/146/rad20170320T150049.html">
+            <u who="#UnnurKonradsdottir" xml:id="ParlaMint-IS_2017-03-20-44.u1" ana="#chair topic:other" source="http://www.althingi.is/altext/raeda/146/rad20170320T150049.html">
                <seg xml:id="ParlaMint-IS_2017-03-20-44.seg1">Borist hefur bréf frá 3. þm. Norðvest., Lilju Rafneyju Magnúsdóttur, og 4. þm. Suðurk., Smára McCarthy, um að þau geti ekki sinnt þingstörfum á næstunni. Í dag taka því sæti á Alþingi sem varamenn fyrir þau Bjarni Jónsson og Oktavía Hrund Jónsdóttir.</seg>
                <seg xml:id="ParlaMint-IS_2017-03-20-44.seg2">Kjörbréf þeirra Bjarna Jónssonar og Oktavíu Hrundar Jónsdóttur hafa þegar verið rannsökuð og samþykkt, en þau hafa ekki áður tekið sæti á Alþingi og ber því að undirskrifa drengskaparheit að stjórnarskránni.</seg>
             </u>
-            <u who="#UnnurKonradsdottir" xml:id="ParlaMint-IS_2017-03-20-44.u2" ana="#chair" source="http://www.althingi.is/altext/raeda/146/rad20170320T150200.html">
+            <u who="#UnnurKonradsdottir" xml:id="ParlaMint-IS_2017-03-20-44.u2" ana="#chair topic:other" source="http://www.althingi.is/altext/raeda/146/rad20170320T150200.html">
                <seg xml:id="ParlaMint-IS_2017-03-20-44.seg3">Bjarni Jónsson og Oktavía Hrund Jónsdóttir hafa undirskrifað drengskaparheit að stjórnarskránni og eru boðin velkomin til starfa á Alþingi.</seg>
                <seg xml:id="ParlaMint-IS_2017-03-20-44.seg4">Borist hefur bréf frá 3. þm. Norðaust. að hann geti ekki sinnt þingmennsku á næstunni. Í dag tekur því sæti á Alþingi 1. varamaður á lista Vinstri hreyfingarinnar – græns framboðs, Björn Valur Gíslason.</seg>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#SteinunnArnadottir" xml:id="ParlaMint-IS_2017-03-20-44.u67" ana="#regular #topic.146_226_M" source="http://www.althingi.is/altext/raeda/146/rad20170320T173229.html">
+            <u who="#SteinunnArnadottir" xml:id="ParlaMint-IS_2017-03-20-44.u67" ana="#regular #IS-topic.146_226_M topic:housi" source="http://www.althingi.is/altext/raeda/146/rad20170320T173229.html">
                <seg xml:id="ParlaMint-IS_2017-03-20-44.seg246">Frú forseti. Ég vil byrja á að þakka hæstv. ráðherra fyrir svörin og einnig hv. þm. Halldóru Mogensen fyrir innskot hennar og athugasemd í þessa umræðu. Ég er glöð að heyra það að ráðherra deilir með mér áhyggjum af stöðu á húsnæðismarkaði. Ég vona svo sannarlega að þetta stutta samtal sem við eigum hér verði innlegg í þá stóru umræðu því það er mjög mikilvægt að því er ég tel að við nálgumst húsnæðismálin og stöðuna á húsnæðismarkaði út frá mjög mörgum ólíkum sjónarmiðum því þetta er mjög víðtækur og margbrotinn og svo sannarlega erfiður vandi sem margir standa frammi fyrir, því húsnæði er auðvitað eitt það dýrmætasta sem hver einstaklingur og hver manneskja á.</seg>
                <seg xml:id="ParlaMint-IS_2017-03-20-44.seg247">Ég vil byrja á að fagna fyrra svari hæstv. ráðherra um að það sé reglugerð í smíðum og vona að það standist að hún verði jafnvel bara tilbúin um næstu mánaðamót og hvet hæstv. ráðherra til góðra verka þar. Ég leyfi mér að spyrja: Er ráðherrann til í að upplýsa okkur hér og nú um það hver frítekjumörkin verða? Hvers verður að vænta þar?</seg>
                <seg xml:id="ParlaMint-IS_2017-03-20-44.seg248">Hvað varðar síðari spurninguna þá finnst mér ekki alveg jafn gaman að hæstv. ráðherra svari þar neitandi, en hann gerði svo sem ágætlega grein fyrir því hvernig hann nálgast það mál og það er alveg hægt að taka undir að það sé kannski ekki rétt að kerfið mismuni fólki eftir því hvaðan það hefur laun sín. En þá vil ég jafnframt benda á að það er mjög líklegt að lífeyrisþegar, örorkulífeyrisþegar, <kinesic type="ringing" xml:id="ParlaMint-IS_2017-03-20-44.kinesic18">
@@ -106,7 +112,7 @@
                      <desc>Forseti hringir.</desc>
                   </kinesic>og koma þannig til móts við þá sem hafa háan lyfjakostnað.</seg>
             </u>
-            <u who="#THorsteinnViglundsson" xml:id="ParlaMint-IS_2017-03-20-44.u68" ana="#regular #topic.146_226_M" source="http://www.althingi.is/altext/raeda/146/rad20170320T173508.html">
+            <u who="#THorsteinnViglundsson" xml:id="ParlaMint-IS_2017-03-20-44.u68" ana="#regular #IS-topic.146_226_M topic:welfa" source="http://www.althingi.is/altext/raeda/146/rad20170320T173508.html">
                <seg xml:id="ParlaMint-IS_2017-03-20-44.seg249">Ég vil enn og aftur þakka ágæta umræðu. Í afskaplega stuttu svari þætti mér rétt að hnykkja aðeins á því að þegar kemur að umræðu um velferðarmálin, þegar kemur að umræðu um fátækt hér á landi og tækifæri fólks þar að lútandi þá finnst mér afskaplega mikilvægt að hafa í huga að þrátt fyrir að við eigum alltaf að vera að vinna að því að gera betur megum við líka þakka fyrir það að staða okkar er á alla mælikvarða gríðarlega sterk. Það er jákvætt. Við upplifum mjög sterka góða efnahagslega stöðu sem þjóð og hvar sem okkur ber niður þegar við skoðum þá þætti sjáum við að kaupmáttur hefur aldrei verið hærri, launajöfnuður hefur aldrei verið meiri þegar horft er á svonefnda Gini-stuðla og þegar við berum okkur saman við önnur ríki. Kaupmáttur eldri borgara hefur heldur aldrei verið hærri, þökk sé m.a. ört batnandi eða sterkara lífeyriskerfi og samspili þess við almannatryggingarnar. Útgjöld til almannatrygginga voru aukin um að ég held eina 23 milljarða á milli ára 2016–2017. Það er alveg ljóst að við erum þar af leiðandi að bæta talsvert í til þess að styðja við tekjulága einstaklinga. Þar eigum við alltaf að hafa að metnað til að gera enn betur, lagfæra kerfið þar sem brotalamir kunna að vera o.s.frv.</seg>
                <seg xml:id="ParlaMint-IS_2017-03-20-44.seg250">Það má líka hafa í huga að það þarf ekki endilega að rífa niður með neikvæðri umræðu allt það sem vel hefur verið gert í gegnum árin, sem mér finnst alls ekki hafa verið gert í ræðum hv. þingmanna en stundum þykir mér talað eins og, og m.a. umræður helgarinnar báru merki um það, hér sé allt ómögulegt. Þó svo að vissulega sé það alltaf svo, því miður, að fólk glími við fátækt þá vitum við að sá hópur er fámennari nú en nokkru sinni fyrr. <kinesic type="ringing" xml:id="ParlaMint-IS_2017-03-20-44.kinesic21">
                      <desc>Forseti hringir.</desc>

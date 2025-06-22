@@ -15,12 +15,20 @@
                <resp xml:lang="eu">Informazio erauzketa eta TEI bihurketa</resp>
                <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="eu">IXA Taldea</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="112" xml:lang="eu">112 speeches</measure>
@@ -38,7 +46,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-16">2025-06-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -77,15 +85,17 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <note type="speaker" xml:id="ParlaMint-ES-PV_2017-10-05.note1">LEHENDAKARIAK (Tejeria Otermin):</note>
-            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2017-10-05.u0" ana="#chair">
+            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2017-10-05.u0" ana="#chair topic:civil">
                <seg xml:id="ParlaMint-ES-PV_2017-10-05.seg1" xml:lang="eu">Egun on guztioi… Mesedez… Egun on guztioi.</seg>
                <seg xml:id="ParlaMint-ES-PV_2017-10-05.seg2" xml:lang="eu">Adierazpen instituzional batekin hasiko naiz, eta minutuko isilune bat egingo dugu atzo izan zen erailketa gaitzesteko asmoz.</seg>
                <seg xml:id="ParlaMint-ES-PV_2017-10-05.seg3" xml:lang="eu">"Eusko Legebiltzarrak biziki eta erabat gaitzesten du Ana Belén Jiménez Hurtado andrearen erailketa, emakumeen aurkako indarkeriaren beste gertakari baten biktima izan dena. Legebiltzarrak bere laguntza eta dolumina agertzen dizkie biktimaren senideei eta hurrekoei.</seg>
@@ -99,7 +109,7 @@
                <seg xml:id="ParlaMint-ES-PV_2017-10-05.seg10" xml:lang="eu">Bale, orduan, aldeko txandan, Sémper jauna, zurea da hitza.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-ES-PV_2017-10-05.note3">SÉMPER PASCUAL jaunak:</note>
-            <u who="#SémperPascual" xml:id="ParlaMint-ES-PV_2017-10-05.u1" ana="#regular">
+            <u who="#SémperPascual" xml:id="ParlaMint-ES-PV_2017-10-05.u1" ana="#regular topic:gover">
                <seg xml:id="ParlaMint-ES-PV_2017-10-05.seg11" xml:lang="eu">Legebiltzarkideok, lehendakari jauna, sailburuok, egun on guztioi.</seg>
                <seg xml:id="ParlaMint-ES-PV_2017-10-05.seg12" xml:lang="es">Bajo a esta tribuna para compartir con ustedes la idoneidad de la presente proposición de ley, la necesidad, y también para intentar compartir con ustedes los argumentos suficientes como para que su voto sea favorable a la tramitación de la presente proposición de ley, que lo que pretende fundamentalmente, además de los artículos señalados y objeto de modificación por parte del grupo parlamentario Popular, es también abrir un debate en torno a otro de los órganos de control y otro de los órganos fundamentales para garantizar el buen funcionamiento de nuestra (iba a decir economía, que también)…, el buen funcionamiento de nuestros órganos, en general, de control.</seg>
                <seg xml:id="ParlaMint-ES-PV_2017-10-05.seg13" xml:lang="es">Venimos tiempo discutiendo en esta Cámara y fuera de ella, pero fundamentalmente en esta Cámara, a través de la tramitación de diversas leyes y también a través de la tramitación de diversas proposiciones de ley, sobre la necesidad de seguir abundando en criterios de transparencia, de dotar a nuestras herramientas de autogobierno y a nuestras herramientas legislativas de elementos de eficacia, de independencia; por lo tanto, también de cómo hacemos para que los órganos de control de los que nos dotamos sean cada vez más independientes, o garanticemos a través de las modificaciones pertinentes esa independencia. También hemos debatido en numerosas ocasiones, y a buen seguro lo haremos en el futuro, de cómo podemos hacer para achicar los espacios de esas llamadas puertas giratorias .</seg>
@@ -124,14 +134,14 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2017-10-05.u110" ana="#chair">
+            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2017-10-05.u110" ana="#chair topic:other">
                <seg xml:id="ParlaMint-ES-PV_2017-10-05.seg840" xml:lang="eu">Eskerrik asko, Otalora anderea.</seg>
                <seg xml:id="ParlaMint-ES-PV_2017-10-05.seg841" xml:lang="eu">Eztabaida amaitu denez, bototara jarriko dugu Euskal Talde Popularrak, Euskal Sozialistek eta Euzko Abertzaleek sinatu duten erdibideko zuzenketa. Bozkatu dezakegu.</seg>
                <note xml:id="ParlaMint-ES-PV_2017-10-05.note125">Geldiunea</note>
                <seg xml:id="ParlaMint-ES-PV_2017-10-05.seg842" xml:lang="eu">Bozketa eginda, hauxe izan da emaitza: emandako botoak, 74; aldekoak, 46; aurkakoak, 0; zuriak, 0; abstentzioak, 28.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-ES-PV_2017-10-05.note126">LEHENDAKARIAK:</note>
-            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2017-10-05.u111" ana="#chair">
+            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2017-10-05.u111" ana="#chair topic:inter">
                <seg xml:id="ParlaMint-ES-PV_2017-10-05.seg843" xml:lang="eu">Beraz, erdibideko zuzenketa onartuta geratu da.</seg>
                <seg xml:id="ParlaMint-ES-PV_2017-10-05.seg844" xml:lang="eu">Jarraian, adierazpen instituzional bat irakurriko dut.</seg>
                <seg xml:id="ParlaMint-ES-PV_2017-10-05.seg845" xml:lang="eu">"Eusko Legebiltzarraren adierazpen instituzionala sahararrek errefuxiatu eremuetan bizi duten elikadura-krisiaren aurrean duten laguntza beharra dela eta.</seg>

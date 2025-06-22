@@ -1,7 +1,7 @@
 <note type="speaker" content="DEGREES (Elegia Otermin):"/>
-<speech id="ParlaMint-ES-PV_2022-10-14.u0" text_id="ParlaMint-ES-PV-en_2022-10-14" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Legegintzaldia XII" session="Osoko Bilkura 950-967" meeting="-" sitting="2022-10-14" agenda="-" date="2022-10-14" title="Basque parliamentary corpus ParlaMint-ES-PV-en, 2022-10-14" speaker_role="Chairperson" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="-" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
+<speech id="ParlaMint-ES-PV_2022-10-14.u0" text_id="ParlaMint-ES-PV-en_2022-10-14" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Legegintzaldia XII" session="Osoko Bilkura 950-967" meeting="-" sitting="2022-10-14" agenda="-" date="2022-10-14" title="Basque parliamentary corpus ParlaMint-ES-PV-en, 2022-10-14" speaker_role="Chairperson" topic="Law and Crime" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="-" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
 <p id="ParlaMint-ES-PV_2022-10-14.seg2" lang="English">
-<s id="ParlaMint-ES-PV_2022-10-14.seg2.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg2.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.697">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Good	Good	good	ADJ	Degree=Pos	Z4	Z4	Z4: Discourse Bin	t1
 morning	morning	morning	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -12,7 +12,7 @@ everyone	everyone	everyone	PRON	Number=Sing	Z8/N5.1+c	Z8 N5.1p	Z8: Pronouns|N5.1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg2.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg2.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.065">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 'll	'll	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
@@ -25,7 +25,7 @@ meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg3" lang="English">
-<s id="ParlaMint-ES-PV_2022-10-14.seg3.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg3.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.350">
 First	First	first	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t1
 point	point	point	NOUN	Number=Sing	Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5	Q2.1	Q2.1: Speech: Communicative	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -34,7 +34,7 @@ list	list	list	NOUN	Number=Sing	Q1.2,N4,M4	Q1.2	Q1.2: Paper documents and writin
 <g/>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg3.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg3.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.234">
 "	"	"	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 To	To	to	PART	-	Z5	Z5	Z5: Grammatical bin	t2
@@ -125,7 +125,7 @@ cycling	cycling	cycling	NOUN	Number=Sing	M3	M3	M3: Vehicles and transport on lan
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg4" lang="English">
-<s id="ParlaMint-ES-PV_2022-10-14.seg4.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg4.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.532">
 Mr.	Mr.	Mr.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 <name type="PER">
 Cuckoo	Cuckoo	Cuckoo	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -142,9 +142,9 @@ yours	yours	yours	PRON	Person=2 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t7
 </p>
 </speech>
 <note type="speaker" content="MERCHA SERINZ:"/>
-<speech id="ParlaMint-ES-PV_2022-10-14.u1" text_id="ParlaMint-ES-PV-en_2022-10-14" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Legegintzaldia XII" session="Osoko Bilkura 950-967" meeting="-" sitting="2022-10-14" agenda="-" date="2022-10-14" title="Basque parliamentary corpus ParlaMint-ES-PV-en, 2022-10-14" speaker_role="Regular" speaker_id="AtutxaSainz" speaker_name="Atutxa Sainz, Jon Andoni" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="-" party_orientation="Centre" speaker_gender="M" speaker_birth="1970">
+<speech id="ParlaMint-ES-PV_2022-10-14.u1" text_id="ParlaMint-ES-PV-en_2022-10-14" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Legegintzaldia XII" session="Osoko Bilkura 950-967" meeting="-" sitting="2022-10-14" agenda="-" date="2022-10-14" title="Basque parliamentary corpus ParlaMint-ES-PV-en, 2022-10-14" speaker_role="Regular" topic="Law and Crime" speaker_id="AtutxaSainz" speaker_name="Atutxa Sainz, Jon Andoni" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="-" party_orientation="Centre" speaker_gender="M" speaker_birth="1970">
 <p id="ParlaMint-ES-PV_2022-10-14.seg5" lang="English">
-<s id="ParlaMint-ES-PV_2022-10-14.seg5.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg5.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.380">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -158,7 +158,7 @@ President	President	President	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg5.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg5.s2" senti_3="Positive" senti_6="mixed positive" senti_n="4.035">
 President	President	President	PROPN	Number=Sing	G1.1/S7.1+/S2mf	G1.1 S7.1p S2	G1.1: Government|S7.1+: In power|S2: People	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -184,7 +184,7 @@ morning	morning	morning	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t13
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg6" lang="English">
-<s id="ParlaMint-ES-PV_2022-10-14.seg6.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg6.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.316">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 <name type="PER">
 Erkoreka	Erkoreka	Erkoreka	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -216,7 +216,7 @@ group	group	group	NOUN	Number=Sing	S5+c,A4.1c,B3%	S5p	S5+: Belonging to a group	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg6.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg6.s2" senti_3="Negative" senti_6="mixed negative" senti_n="0.559">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 that	that	that	DET	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 data	data	datum	NOUN	Number=Plur	X2.2/X2.4,Q1.1	X2.2 X2.4	X2.2: Knowledge|X2.4: Investigate, examine, test, search	t3
@@ -262,7 +262,7 @@ means	means	means	NOUN	Number=Plur	X4.2,I1.1,N2	X4.2	X4.2: Mental object: Means,
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg7" lang="English">
-<s id="ParlaMint-ES-PV_2022-10-14.seg7.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg7.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.268">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 informal	informal	informal	ADJ	Degree=Pos	S1.2.1+,O4.2	S1.2.1p	S1.2.1+: Informal/Friendly	t2
 crimes	crimes	crime	NOUN	Number=Plur	G2.1-	G2.1n	G2.1-: Crime	t3
@@ -288,7 +288,7 @@ years	years	year	NOUN	Number=Plur	P1/S2mf	P1 S2	P1: Education in general|S2: Peo
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg8" lang="English">
-<s id="ParlaMint-ES-PV_2022-10-14.seg8.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg8.s1" senti_3="Negative" senti_6="mixed negative" senti_n="1.310">
 Mr.	Mr.	Mr.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 <name type="PER">
 Erkora	Erkora	Erkora	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -335,7 +335,7 @@ digitalized	digitalized	digitalize	VERB	Tense=Past VerbForm=Part Voice=Pass	Y2,B
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg9" lang="English">
-<s id="ParlaMint-ES-PV_2022-10-14.seg9.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg9.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.513">
 Mr.	Mr.	Mr.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 <name type="PER">
 Erkorec	Erkorec	Erkorec	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -373,12 +373,12 @@ Cygreenlinkuity	Cygreenlinkuity	Cygreenlinkuity	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: 
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg9.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg9.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.739">
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg10" lang="English">
-<s id="ParlaMint-ES-PV_2022-10-14.seg10.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg10.s1" senti_3="Positive" senti_6="positive" senti_n="4.759">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -389,9 +389,9 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES-PV_2022-10-14.u135" text_id="ParlaMint-ES-PV-en_2022-10-14" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Legegintzaldia XII" session="Osoko Bilkura 950-967" meeting="-" sitting="2022-10-14" agenda="-" date="2022-10-14" title="Basque parliamentary corpus ParlaMint-ES-PV-en, 2022-10-14" speaker_role="Regular" speaker_id="ZupiriaGorostidi" speaker_name="Zupiria Gorostidi, Bingen" speaker_mp="notMP" speaker_minister="Minister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="-" party_orientation="Centre" speaker_gender="M" speaker_birth="1961">
+<speech id="ParlaMint-ES-PV_2022-10-14.u135" text_id="ParlaMint-ES-PV-en_2022-10-14" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Legegintzaldia XII" session="Osoko Bilkura 950-967" meeting="-" sitting="2022-10-14" agenda="-" date="2022-10-14" title="Basque parliamentary corpus ParlaMint-ES-PV-en, 2022-10-14" speaker_role="Regular" topic="Culture" speaker_id="ZupiriaGorostidi" speaker_name="Zupiria Gorostidi, Bingen" speaker_mp="notMP" speaker_minister="Minister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="-" party_orientation="Centre" speaker_gender="M" speaker_birth="1961">
 <p id="ParlaMint-ES-PV_2022-10-14.seg690" lang="English">
-<s id="ParlaMint-ES-PV_2022-10-14.seg690.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg690.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.324">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 President	President	President	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 andrea	andrea	Andrea	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -401,7 +401,7 @@ andrea	andrea	Andrea	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg691" lang="English">
-<s id="ParlaMint-ES-PV_2022-10-14.seg691.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg691.s1" senti_3="Negative" senti_6="negative" senti_n="0.396">
 Yellow	Yellow	Yellow	ADJ	Degree=Pos	O4.3	O4.3	O4.3: Colour and colour patterns	t1
 neighborhood	neighborhood	neighborhood	NOUN	Number=Sing	N3.3-/H3c,N3.3-/S2mf,M7/N3.3-	N3.3n H3	N3.3-: Distance: Near|H3: Areas around or near houses	t2
 <g/>
@@ -430,7 +430,7 @@ Bizkaia	Bizkaia	Bizkaia	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t18
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg691.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg691.s2" senti_3="Negative" senti_6="negative" senti_n="0.259">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 <g/>
@@ -486,7 +486,7 @@ it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: P
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg692" lang="English">
-<s id="ParlaMint-ES-PV_2022-10-14.seg692.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg692.s1" senti_3="Positive" senti_6="positive" senti_n="4.584">
 Look	Look	look	VERB	Mood=Imp VerbForm=Fin	A8,X3.4,X2.4,X7+,Z4	A8	A8: Seem	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -599,7 +599,7 @@ territory	territory	territory	NOUN	Number=Sing	M7,A4.1	M7	M7: Places	t90
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t91
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg692.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg692.s2" senti_3="Positive" senti_6="positive" senti_n="5.006">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t1
 believe	believe	believe	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t2
@@ -634,7 +634,7 @@ Leone	Leone	Leone	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t25
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg692.s3">
+<s id="ParlaMint-ES-PV_2022-10-14.seg692.s3" senti_3="Negative" senti_6="mixed negative" senti_n="0.903">
 Sometimes	Sometimes	sometimes	ADV	-	N6	N6	N6: Frequency	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 all	all	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t3
@@ -650,7 +650,7 @@ more	more	more	ADJ	Degree=Cmp	A13.3,N6++	A13.3	A13.3: Degree: Boosters	t10
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg693" lang="English">
-<s id="ParlaMint-ES-PV_2022-10-14.seg693.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg693.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.875">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t1
 think	think	think	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t2
@@ -662,7 +662,7 @@ think	think	think	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4	
 <note type="-" content="End of tape 32"/>
 <note type="-" content="XXII. The beginning of the tape."/>
 <p id="ParlaMint-ES-PV_2022-10-14.seg694" lang="English">
-<s id="ParlaMint-ES-PV_2022-10-14.seg694.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg694.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.405">
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 clear	clear	clear	VERB	Mood=Imp VerbForm=Fin	A7+,A10+,O4.3,O4.1,N5.1+,W4	A7p	A7+: Likely	t2
@@ -678,7 +678,7 @@ territory	territory	territory	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t9
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg694.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg694.s2" senti_3="Negative" senti_6="mixed negative" senti_n="0.903">
 Sometimes	Sometimes	sometimes	ADV	-	N6	N6	N6: Frequency	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 all	all	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t3
@@ -694,7 +694,7 @@ more	more	more	ADJ	Degree=Cmp	A13.3,N6++	A13.3	A13.3: Degree: Boosters	t10
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg695" lang="English">
-<s id="ParlaMint-ES-PV_2022-10-14.seg695.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg695.s1" senti_3="Positive" senti_6="positive" senti_n="4.730">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t1
 believe	believe	believe	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t2
@@ -777,7 +777,7 @@ activities	activities	activity	NOUN	Number=Plur	A1.1.1	A1.1.1	A1.1.1: General ac
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t59
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg695.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg695.s2" senti_3="Negative" senti_6="mixed negative" senti_n="1.376">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 of	of	of	ADP	ExtPos=ADV	Z5	Z5	Z5: Grammatical bin	t2
 course	course	course	NOUN	Number=Sing	M6,X7+,P1,B3,F1,M7/K5.1,T1.3	M6	M6: Location and direction	t3
@@ -810,7 +810,7 @@ lacking	lacking	lack	VERB	Tense=Pres VerbForm=Part	A9-	A9n	A9-: Giving	t21
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg696" lang="English">
-<s id="ParlaMint-ES-PV_2022-10-14.seg696.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg696.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.905">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 In	In	in	ADP	-	Z4	Z4	Z4: Discourse Bin	t1
 any	any	any	DET	-	Z4	Z4	Z4: Discourse Bin	t2
@@ -914,7 +914,7 @@ Europe	Europe	Europe	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t71
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t72
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg696.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg696.s2" senti_3="Negative" senti_6="mixed negative" senti_n="1.261">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 <g/>
@@ -928,7 +928,7 @@ believe	believe	believe	VERB	VerbForm=Inf	X2.1,S9%	X2.1	X2.1: Thought, belief	t9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg696.s3">
+<s id="ParlaMint-ES-PV_2022-10-14.seg696.s3" senti_3="Positive" senti_6="positive" senti_n="4.561">
 Anyway	Anyway	anyway	INTJ	-	Z4,A13.7	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -957,7 +957,7 @@ settle	settle	settle	VERB	VerbForm=Inf	M8,X9.2+,I1.2,H4,E4.2+,X6+	M8	M8: Station
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg697" lang="English">
-<s id="ParlaMint-ES-PV_2022-10-14.seg697.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg697.s1" senti_3="Positive" senti_6="positive" senti_n="4.759">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -968,9 +968,9 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	
 </p>
 </speech>
 <note type="speaker" content="DEBABES:"/>
-<speech id="ParlaMint-ES-PV_2022-10-14.u136" text_id="ParlaMint-ES-PV-en_2022-10-14" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Legegintzaldia XII" session="Osoko Bilkura 950-967" meeting="-" sitting="2022-10-14" agenda="-" date="2022-10-14" title="Basque parliamentary corpus ParlaMint-ES-PV-en, 2022-10-14" speaker_role="Chairperson" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="-" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
+<speech id="ParlaMint-ES-PV_2022-10-14.u136" text_id="ParlaMint-ES-PV-en_2022-10-14" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Legegintzaldia XII" session="Osoko Bilkura 950-967" meeting="-" sitting="2022-10-14" agenda="-" date="2022-10-14" title="Basque parliamentary corpus ParlaMint-ES-PV-en, 2022-10-14" speaker_role="Chairperson" topic="Other" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="-" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
 <p id="ParlaMint-ES-PV_2022-10-14.seg698" lang="English">
-<s id="ParlaMint-ES-PV_2022-10-14.seg698.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg698.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.881">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -986,7 +986,7 @@ Zupiria	Zupiria	Zupiria	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t5
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2022-10-14.seg699" lang="English">
-<s id="ParlaMint-ES-PV_2022-10-14.seg699.s1">
+<s id="ParlaMint-ES-PV_2022-10-14.seg699.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.006">
 As	As	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 <g/>
@@ -1006,7 +1006,7 @@ meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-ES-PV_2022-10-14.seg699.s2">
+<s id="ParlaMint-ES-PV_2022-10-14.seg699.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.955">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t2
 ended	ended	end	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	T2-	T2n	T2-: Time: Ending	t3

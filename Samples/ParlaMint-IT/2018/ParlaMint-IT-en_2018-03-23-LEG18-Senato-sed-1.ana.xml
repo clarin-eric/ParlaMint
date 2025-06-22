@@ -43,19 +43,35 @@
                <resp xml:lang="en">NER</resp>
             </respStmt>
             <respStmt>
-               <persName>Taja Kuzman</persName>
-               <persName>Nikola Ljubešić</persName>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
                <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
             </respStmt>
             <respStmt>
-               <persName>Paul Rayson</persName>
-               <persName>Matthew Coole</persName>
-               <persName>John Vidler</persName>
+               <persName ref="https://orcid.org/0000-0002-1257-2191">Paul Rayson</persName>
+               <persName ref="https://orcid.org/0000-0002-9279-931X">Matthew Coole</persName>
+               <persName ref="https://orcid.org/0000-0003-3442-6862">John Vidler</persName>
                <resp xml:lang="en">Annotating MTed corpora with USAS semantic tags</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
             </respStmt>
             <funder>
                <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="it">Commissione Europea</orgName>
@@ -75,7 +91,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="16" unit="speeches" xml:lang="it">16 discorsi</measure>
@@ -89,13 +105,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1910</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2006</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref> .</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-21">2025-06-21</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -121,6 +137,7 @@
                <tagUsage gi="head" occurs="13"/>
                <tagUsage gi="incident" occurs="1"/>
                <tagUsage gi="kinesic" occurs="7"/>
+               <tagUsage gi="measure" occurs="116"/>
                <tagUsage gi="name" occurs="285"/>
                <tagUsage gi="note" occurs="26"/>
                <tagUsage gi="pc" occurs="504"/>
@@ -149,8 +166,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-21">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-16">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference" xml:lang="it">
@@ -159,9 +178,10 @@
             <note type="speaker" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.note1" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.note1">Chairmanship of the interim president of NAPOLITANO</note>
             <note xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.note2" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.note2">(Senator Napolitano, interim president pursuant to Rule 2 (1) of the Rules of Procedure, goes to the Presidential bench).</note>
             <note type="speaker" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.note3" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.note3">PRESIDENT</note>
-            <u ana="#chair" who="#NapolitanoGiorgio" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.u1" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.u1">
+            <u ana="#chair topic:other" who="#NapolitanoGiorgio" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.u1" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.u1">
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1">
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1.1" n="1" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1.1">
+                     <measure type="sentiment" quantity="3.646" ana="senti:mixpos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1.1"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="sitting" function="M8,C1,P1,G1.1,G2.1,M6,A9+" ana="sem:M8">sitting</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1.1.t3" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
@@ -181,12 +201,13 @@
          <div type="debateSection" xml:lang="en">
             <head xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.head1" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.head1">Per l'apertura della XVIII legislatura</head>
             <note type="speaker" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.note4" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.note4">PRESIDENT</note>
-            <u ana="#chair" who="#NapolitanoGiorgio" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.u2" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.u2">
+            <u ana="#chair topic:mixed" who="#NapolitanoGiorgio" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.u2" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.u2">
                <incident type="action" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.incident1" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.incident1">
                   <desc xml:lang="en">He stands up.</desc>
                </incident>
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg2" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg2">
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg2.1" n="1" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg2.1">
+                     <measure type="sentiment" quantity="4.038" ana="senti:mixpos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg2.1"/>
                      <phr type="sem" function="T1.3" ana="sem:T1.3">
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg2.1.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="lady" function="T1.3" ana="sem:T1.3">Ladies</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg2.1.t2" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
@@ -280,6 +301,7 @@
                </seg>
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg3" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg3">
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg3.1" n="1" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg3.1">
+                     <measure type="sentiment" quantity="3.878" ana="senti:mixpos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg3.1"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg3.1.t1" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg3.1.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos|NumType=Ord" lemma="18th" function="Z99" ana="sem:Z99">18th</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg3.1.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="legislature" function="G1.1c" ana="sem:G1.1">legislature</w>
@@ -316,6 +338,7 @@
                </seg>
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4">
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.1" n="1" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.1">
+                     <measure type="sentiment" quantity="3.747" ana="senti:mixpos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.1"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="vote" function="G1.2" ana="sem:G1.2">vote</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.1.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -349,6 +372,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.1.t27" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.2" n="2" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.2">
+                     <measure type="sentiment" quantity="0.533" ana="senti:mixneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.2"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.2.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.2.t2" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.2.t3" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
@@ -381,6 +405,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.2.t26" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.3" n="3" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.3">
+                     <measure type="sentiment" quantity="0.884" ana="senti:mixneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.3"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.3.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.3.t2" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="question" function="Q2.2" ana="sem:Q2.2">questioned</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.3.t3" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="tradition" function="S1.1.1,T1.1.1,A6.2+" ana="sem:S1.1.1" join="right">traditions</w>
@@ -397,6 +422,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.3.t12" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.4" n="4" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.4">
+                     <measure type="sentiment" quantity="3.721" ana="senti:mixpos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.4"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.4.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.4.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="voter" function="G1.2/S2mf" ana="sem:G1.2 sem:S2">voters</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.4.t3" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">have</w>
@@ -429,6 +455,7 @@
                </seg>
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5">
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.1" n="1" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.1">
+                     <measure type="sentiment" quantity="0.402" ana="senti:negneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.1"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="protest" function="Q2.2,A10+,G1.2" ana="sem:Q2.2">protest</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.1.t3" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="result" function="A2.2" ana="sem:A2.2">resulted</w>
@@ -468,6 +495,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.1.t31" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.2" n="2" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.2">
+                     <measure type="sentiment" quantity="0.050" ana="senti:negneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.2"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.2.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">In</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.2.t2" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.2.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="particular" function="A4.2+,X7+" ana="sem:A4.2p">particular</w>
@@ -514,6 +542,7 @@
                </seg>
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6">
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.1" n="1" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.1">
+                     <measure type="sentiment" quantity="0.002" ana="senti:negneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.1"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs" lemma="they" function="Z8mfn" ana="sem:Z8">They</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.1.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">have</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.1.t3" pos="VBN" msd="UPosTag=AUX|Tense=Past|VerbForm=Part" lemma="be" function="A3+,Z5" ana="sem:A3p">been</w>
@@ -561,6 +590,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.1.t35" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.2" n="2" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.2">
+                     <measure type="sentiment" quantity="0.196" ana="senti:negneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.2"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.2.t1" pos="DT" msd="UPosTag=DET|Number=Plur|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">These</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.2.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="reaction" function="A1.1.1,A6.1-,B2-,Y1" ana="sem:A1.1.1">reactions</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.2.t3" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin" lemma="show" function="A10+,S1.1.1" ana="sem:A10p">showed</w>
@@ -597,6 +627,7 @@
                </seg>
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg7" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg7">
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg7.1" n="1" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg7.1">
+                     <measure type="sentiment" quantity="0.595" ana="senti:mixneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg7.1"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg7.1.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">In</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg7.1.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="general" function="N5+,A4.2-" ana="sem:N5p">general</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg7.1.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="political" function="G1.2" ana="sem:G1.2">political</w>
@@ -653,6 +684,7 @@
                </seg>
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8">
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.1" n="1" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.1">
+                     <measure type="sentiment" quantity="0.583" ana="senti:mixneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.1"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.1.t1" pos="PDT" msd="UPosTag=DET" lemma="all" function="N5.1+" ana="sem:N5.1p">All</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.1.t2" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">this</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.1.t3" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="must" function="S6+,A7+" ana="sem:S6p">must</w>
@@ -709,6 +741,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.1.t52" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.2" n="2" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.2">
+                     <measure type="sentiment" quantity="0.082" ana="senti:negneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.2"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.2.t1" pos="IN" msd="UPosTag=ADP" lemma="from" function="Z5" ana="sem:Z5">From</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.2.t2" pos="RB" msd="UPosTag=ADV|PronType=Dem" lemma="here" function="M6,T1.1.2,T1.2" ana="sem:M6" join="right">here</w>
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.2.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
@@ -727,6 +760,7 @@
                </seg>
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9">
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.1" n="1" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.1">
+                     <measure type="sentiment" quantity="4.558" ana="senti:pospos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.1"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.1.t1" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">On</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.1.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.1.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="national" function="M7/N5.1+" ana="sem:M7 sem:N5.1p">national</w>
@@ -788,6 +822,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.1.t53" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.2" n="2" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.2">
+                     <measure type="sentiment" quantity="0.017" ana="senti:negneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.2"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.2.t1" pos="IN" msd="UPosTag=ADP" lemma="at" function="Z5" ana="sem:Z5">At</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.2.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.2.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="same" function="A6.1+++" ana="sem:A6.1p">same</w>
@@ -819,6 +854,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.2.t27" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.3" n="3" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.3">
+                     <measure type="sentiment" quantity="0.816" ana="senti:mixneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.3"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.3.t1" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">However</w>
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.3.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.3.t3" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="difficulty" function="A12-" ana="sem:A12n">difficulties</w>
@@ -858,6 +894,7 @@
                </seg>
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10">
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.1" n="1" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.1">
+                     <measure type="sentiment" quantity="3.799" ana="senti:mixpos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.1"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.1.t1" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">However</w>
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.1.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.1.t3" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
@@ -886,6 +923,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.1.t26" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.2" n="2" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.2">
+                     <measure type="sentiment" quantity="3.962" ana="senti:mixpos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.2"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.2.t1" pos="DT" msd="UPosTag=DET" lemma="some" function="N5,Z5" ana="sem:N5">Some</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.2.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="element" function="A4.1,N5,S5+c,O1,O3,O2,W4" ana="sem:A4.1">elements</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.2.t3" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="may" function="A7+" ana="sem:A7p">may</w>
@@ -897,6 +935,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.2.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.3" n="3" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.3">
+                     <measure type="sentiment" quantity="4.067" ana="senti:mixpos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.3"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.3.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.3.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.3.t3" pos="RB" msd="UPosTag=ADV" lemma="essentially" function="S6+,A13.2,Z4" ana="sem:S6p">essentially</w>
@@ -915,6 +954,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.3.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.4" n="4" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.4">
+                     <measure type="sentiment" quantity="3.743" ana="senti:mixpos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.4"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.4.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.4.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.4.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="base" function="T2+,M6,A2.2" ana="sem:T2p">based</w>
@@ -943,6 +983,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.4.t22" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.5" n="5" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.5">
+                     <measure type="sentiment" quantity="1.585" ana="senti:neuneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.5"/>
                      <phr type="sem" function="Z5" ana="sem:Z5">
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.5.t1" pos="RB" msd="UPosTag=ADV" lemma="as" function="Z5" ana="sem:Z5">As</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.5.t2" pos="RB" msd="UPosTag=ADV|Degree=Pos" lemma="far" function="Z5" ana="sem:Z5">far</w>
@@ -965,6 +1006,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.5.t18" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.6" n="6" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.6">
+                     <measure type="sentiment" quantity="0.134" ana="senti:negneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.6"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.6.t1" pos="RB" msd="UPosTag=ADV" lemma="indeed" function="A13.3" ana="sem:A13.3" join="right">Indeed</w>
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.6.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.6.t3" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
@@ -1000,6 +1042,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.6.t27" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.7" n="7" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.7">
+                     <measure type="sentiment" quantity="3.477" ana="senti:neupos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.7"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.7.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.7.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">has</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.7.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="appear" function="A8,A10+,A3+,G2.1,K4,Q4" ana="sem:A8">appeared</w>
@@ -1061,6 +1104,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.7.t49" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.8" n="8" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.8">
+                     <measure type="sentiment" quantity="2.918" ana="senti:neupos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.8"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.8.t1" pos="IN" msd="UPosTag=ADP" lemma="with" function="Z5" ana="sem:Z5">With</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.8.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
                      <name type="MISC">
@@ -1102,6 +1146,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.8.t31" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.9" n="9" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.9">
+                     <measure type="sentiment" quantity="2.203" ana="senti:neuneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.9"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.9.t1" pos="CC" msd="UPosTag=CCONJ" lemma="but" function="Z5" ana="sem:Z5">But</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.9.t2" pos="IN" msd="UPosTag=ADP" lemma="within" function="Z5" ana="sem:Z5">within</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.9.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -1157,6 +1202,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.9.t49" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.10" n="10" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.10">
+                     <measure type="sentiment" quantity="0.716" ana="senti:mixneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.10"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.10.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="conquest" function="X9.2+/S7.3,X9.2+/G3,S7.1+" ana="sem:X9.2p sem:S7.3">Conquests</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.10.t2" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.10.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="peace" function="E3+" ana="sem:E3p" join="right">peace</w>
@@ -1193,6 +1239,7 @@
                </seg>
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg11" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg11">
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg11.1" n="1" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg11.1">
+                     <measure type="sentiment" quantity="4.343" ana="senti:mixpos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg11.1"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg11.1.t1" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">To</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg11.1.t2" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="deal" function="A1.1.1,I2.2,I2.1,A9-,K5.2,F3/I2.2" ana="sem:A1.1.1">deal</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg11.1.t3" pos="IN" msd="UPosTag=ADP" lemma="with" function="Z5" ana="sem:Z5">with</w>
@@ -1245,6 +1292,7 @@
                </seg>
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12">
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.1" n="1" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.1">
+                     <measure type="sentiment" quantity="3.529" ana="senti:mixpos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.1"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.1.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="would" function="A7+" ana="sem:A7p">would</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.1.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="add" function="N5+/A2.1,N2,A1.8+" ana="sem:N5p sem:A2.1">add</w>
@@ -1290,6 +1338,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.1.t41" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.2" n="2" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.2">
+                     <measure type="sentiment" quantity="1.468" ana="senti:mixneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.2"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.2.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="violence" function="E3-" ana="sem:E3n">Violence</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.2.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="must" function="S6+,A7+" ana="sem:S6p">must</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.2.t3" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
@@ -1305,6 +1354,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.2.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.3" n="3" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.3">
+                     <measure type="sentiment" quantity="0.031" ana="senti:negneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.3"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.3.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.3.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="know" function="X2.2+,S3.2/B1%" ana="sem:X2.2p">know</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.3.t3" pos="WRB" msd="UPosTag=SCONJ|PronType=Int" lemma="where" function="M6" ana="sem:M6">where</w>
@@ -1318,6 +1368,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.3.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.4" n="4" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.4">
+                     <measure type="sentiment" quantity="2.984" ana="senti:neupos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.4"/>
                      <phr type="sem" function="A5.4+" ana="sem:A5.4p">
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.4.t1" pos="VB" msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin" lemma="let" function="A5.4+" ana="sem:A5.4p" join="right">Let</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.4.t2" pos="PRP" msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=1|PronType=Prs" lemma="we" function="A5.4+" ana="sem:A5.4p">'s</w>
@@ -1330,6 +1381,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.4.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.5" n="5" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.5">
+                     <measure type="sentiment" quantity="0.153" ana="senti:negneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.5"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.5.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.5.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">have</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.5.t3" pos="RB" msd="UPosTag=ADV" lemma="just" function="A14,T3---,T1.3-,N3.3---" ana="sem:A14">just</w>
@@ -1367,6 +1419,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.5.t29" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.6" n="6" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.6">
+                     <measure type="sentiment" quantity="5.077" ana="senti:pospos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.6"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.6.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.6.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.6.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="leave" function="M1,M2,A1.1.1,A1.9,A9-,N5.2+,T2-" ana="sem:M1">left</w>
@@ -1399,6 +1452,7 @@
                </seg>
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg13" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg13">
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg13.1" n="1" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg13.1">
+                     <measure type="sentiment" quantity="0.565" ana="senti:mixneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg13.1"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg13.1.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="political" function="G1.2" ana="sem:G1.2">Political</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg13.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="confrontation" function="A6.1-,G3,S1.1.1/E3-" ana="sem:A6.1n">confrontation</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg13.1.t3" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="must" function="S6+,A7+" ana="sem:S6p">must</w>
@@ -1431,6 +1485,7 @@
                </seg>
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14">
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.1" n="1" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.1">
+                     <measure type="sentiment" quantity="4.721" ana="senti:pospos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.1"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.1.t1" pos="RB" msd="UPosTag=ADV" lemma="finally" function="N4" ana="sem:N4" join="right">Finally</w>
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.1.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.1.t3" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
@@ -1485,6 +1540,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.1.t46" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.2" n="2" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.2">
+                     <measure type="sentiment" quantity="4.692" ana="senti:pospos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.2"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.2.t1" pos="RB" msd="UPosTag=ADV" lemma="certainly" function="A7+" ana="sem:A7p">Certainly</w>
                      <phr type="sem" function="A5.3+,G2.2+,N4" ana="sem:A5.3p">
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.2.t2" pos="IN" msd="UPosTag=SCONJ" lemma="in" function="A5.3+,G2.2+,N4" ana="sem:A5.3p">in</w>
@@ -1553,6 +1609,7 @@
                </kinesic>
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg15" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg15">
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg15.1" n="1" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg15.1">
+                     <measure type="sentiment" quantity="3.423" ana="senti:neupos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg15.1"/>
                      <phr type="sem" function="T1.3" ana="sem:T1.3">
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg15.1.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="lady" function="T1.3" ana="sem:T1.3">Ladies</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg15.1.t2" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
@@ -1602,6 +1659,7 @@
                </seg>
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16">
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.1" n="1" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.1">
+                     <measure type="sentiment" quantity="3.350" ana="senti:neupos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.1"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.1.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos|NumType=Ord" lemma="first" function="N4" ana="sem:N4">first</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.1.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="reform" function="A2.1+" ana="sem:A2.1p">reform</w>
@@ -1656,6 +1714,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.1.t46" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.2" n="2" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.2">
+                     <measure type="sentiment" quantity="4.142" ana="senti:mixpos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.2"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.2.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.2.t2" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p" join="right">was</w>
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.2.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
@@ -1674,6 +1733,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.2.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.3" n="3" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.3">
+                     <measure type="sentiment" quantity="0.467" ana="senti:negneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.3"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.3.t1" pos="PRP$" msd="UPosTag=PRON|Number=Plur|Person=1|Poss=Yes|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">Our</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.3.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="duty" function="S6+,G1.1/I1.3,T1.3/I3.1" ana="sem:S6p">duty</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.3.t3" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
@@ -1691,6 +1751,7 @@
                </seg>
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg17" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg17">
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg17.1" n="1" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg17.1">
+                     <measure type="sentiment" quantity="3.931" ana="senti:mixpos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg17.1"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg17.1.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">In</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg17.1.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg17.1.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="ideal" function="A5.1+++,X4.1" ana="sem:A5.1p">ideal</w>
@@ -1736,6 +1797,7 @@
                </seg>
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg18" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg18">
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg18.1" n="1" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg18.1">
+                     <measure type="sentiment" quantity="3.902" ana="senti:mixpos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg18.1"/>
                      <phr type="sem" function="Z4,S1.2.4+" ana="sem:Z4">
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg18.1.t1" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="thank" function="Z4,S1.2.4+" ana="sem:Z4">Thank</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg18.1.t2" pos="PRP" msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs" lemma="you" function="Z4,S1.2.4+" ana="sem:Z4">you</w>
@@ -1755,9 +1817,10 @@
             </gap>
          </div>
          <div type="debateSection" xml:lang="en">
-            <u ana="#chair" who="#NapolitanoGiorgio" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.u15" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.u15">
+            <u ana="#chair topic:other" who="#NapolitanoGiorgio" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.u15" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.u15">
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg55" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg55">
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg55.1" n="1" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg55.1">
+                     <measure type="sentiment" quantity="2.185" ana="senti:neuneg" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg55.1"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg55.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg55.1.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="motion" function="M1,Q1.1" ana="sem:M1" join="right">motions</w>
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg55.1.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
@@ -1790,9 +1853,10 @@
          <div type="debateSection" xml:lang="en">
             <head xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.head13" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.head13">Ordine del giorno per la seduta di sabato 24 marzo 2018</head>
             <note type="speaker" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.note26" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.note26">PRESIDENT</note>
-            <u ana="#chair" who="#NapolitanoGiorgio" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.u16" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.u16">
+            <u ana="#chair topic:other" who="#NapolitanoGiorgio" xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.u16" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.u16">
                <seg xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56" xml:lang="en" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56">
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.1" n="1" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.1">
+                     <measure type="sentiment" quantity="2.650" ana="senti:neupos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.1"/>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
                      <name type="ORG">
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.1.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Senate" function="S7.1+" ana="sem:S7.1p">Senate</w>
@@ -1822,6 +1886,7 @@
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.1.t23" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">:</pc>
                   </s>
                   <s xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.2" n="2" corresp="mt-src:ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.2">
+                     <measure type="sentiment" quantity="2.652" ana="senti:neupos" corresp="#ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.2"/>
 <pc xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.2.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">(</pc>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.2.t2" pos="VB" msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin" lemma="see" function="X3.4,X2.1,S1.1.1,X2.5+,X2.3+,X3,A7+,Z4,S3.2" ana="sem:X3.4">See</w>
 <w xml:id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.2.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="agenda" function="Q1.2/X7+" ana="sem:Q1.2 sem:X7p" join="right">agenda</w>

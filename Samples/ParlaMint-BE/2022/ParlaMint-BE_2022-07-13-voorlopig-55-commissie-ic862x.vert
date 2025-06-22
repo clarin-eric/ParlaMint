@@ -1,9 +1,9 @@
 <note type="editorial" content="De behandeling van de vragen vangt aan om 13.03 uur. De vergadering wordt voorgezeten door Kristien Van Vaerenbergh."/>
 <note type="editorial" content="Le développement des questions et interpellations commence à 13 h 03. La réunion est présidée par Mme Kristien Van Vaerenbergh."/>
 <note type="speaker" content="La présidente:"/>
-<speech id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u1" text_id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x" subcorpus="COVID,War" lang="Frans" body="Commissie" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2022-07-13" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 13-07-2022" speaker_role="Voorzitter" speaker_id="VanVaerenberghKristien" speaker_name="Van Vaerenbergh, Kristien" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="Opposition" party_orientation="Centre-right to right" speaker_gender="F" speaker_birth="1978">
+<speech id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u1" text_id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x" subcorpus="COVID,Oorlog" lang="Frans" body="Commissie" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2022-07-13" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 13-07-2022" speaker_role="Voorzitter" topic="Overig" speaker_id="VanVaerenberghKristien" speaker_name="Van Vaerenbergh, Kristien" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="Opposition" party_orientation="Centrum-rechts tot rechts" speaker_gender="F" speaker_birth="1978">
 <p id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg1" lang="Frans">
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="1.726">
 Les	Les	le	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	w44	det	question	NOUN	Gender=Fem Number=Plur	w45
 questions	questions	question	NOUN	Gender=Fem Number=Plur	w45	nsubj:pass	reporter	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Part	w56
 n°	n°	°	SYM	-	w46	nmod	question	NOUN	Gender=Fem Number=Plur	w45
@@ -24,12 +24,12 @@ reportées	reportées	reporter	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=P
 </s>
 </p>
 </speech>
-<note type="editorial" content="01 Question de Roberto D'Amico à Mathieu Michel (Digitalisation, Simplification administrative, Protection de la vie privée et Régie des Bâtiments, des Instit. Culturelles) sur \"Le rapport de l’Irish Council for Civil Liberties\" (55028141C)"/>
-<note type="editorial" content="01 Vraag van Roberto D'Amico aan Mathieu Michel (Digitalisering, Administratieve Vereenvoudiging, Privacy en Regie der Gebouwen, de Culturele Instel.) over \"Het rapport van de Irish Council for Civil Liberties\" (55028141C)"/>
+<note type="editorial" content="01 Question de Roberto D'Amico à Mathieu Michel (Digitalisation, Simplification administrative, Protection de la vie privée et Régie des Bâtiments, des Instit. Culturelles) sur \\"Le rapport de l’Irish Council for Civil Liberties\\" (55028141C)"/>
+<note type="editorial" content="01 Vraag van Roberto D'Amico aan Mathieu Michel (Digitalisering, Administratieve Vereenvoudiging, Privacy en Regie der Gebouwen, de Culturele Instel.) over \\"Het rapport van de Irish Council for Civil Liberties\\" (55028141C)"/>
 <note type="speaker" content="01.01 Roberto D'Amico (PVDA-PTB):"/>
-<speech id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u2" text_id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x" subcorpus="COVID,War" lang="Frans" body="Commissie" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2022-07-13" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 13-07-2022" speaker_role="Vast" speaker_id="DAmicoRoberto" speaker_name="D'Amico, Roberto" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PTB" speaker_party_name="Parti du Travail de Belgique" party_status="-" party_orientation="Left to far-left" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u2" text_id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x" subcorpus="COVID,Oorlog" lang="Frans" body="Commissie" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2022-07-13" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 13-07-2022" speaker_role="Vast" topic="Burgerrechten" speaker_id="DAmicoRoberto" speaker_name="D'Amico, Roberto" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PTB" speaker_party_name="Parti du Travail de Belgique" party_status="-" party_orientation="links tot extreemlinks" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg2" lang="Frans">
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11" senti_3="Negatief" senti_6="negatief" senti_n="-0.005">
 Monsieur	Monsieur	monsieur	PROPN	-	w124	dislocated	publier	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w132
 le	le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w125	det	secrétaire	NOUN	Gender=Masc Number=Sing	w126
 <name type="ORG">
@@ -61,7 +61,7 @@ enregistrée	enregistrée	enregistrer	VERB	Gender=Fem Number=Sing Tense=Past Ver
 <g/>
 ".	".	"	PUNCT	-	pc34	punct	publier	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w132
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="2.218">
 Cette	Cette	ce	DET	Gender=Fem Number=Sing PronType=Dem	w144	det	organisation	NOUN	Gender=Fem Number=Sing	w145
 organisation	organisation	organisation	NOUN	Gender=Fem Number=Sing	w145	nsubj	indiquer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w147
 nous	nous	il	PRON	Number=Plur Person=1 PronType=Prs	w146	iobj	indiquer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w147
@@ -85,7 +85,7 @@ jour	jour	jour	NOUN	Gender=Masc Number=Sing	w161	nmod	fois	NOUN	Gender=Fem Numbe
 <g/>
 .	.	.	PUNCT	-	pc36	punct	indiquer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w147
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="2.406">
 Pour	Pour	pour	ADP	-	w162	case	Europe	PROPN	-	pc38
 l’	l’	le	DET	Definite=Def Number=Sing PronType=Art	w163	det	Europe	PROPN	-	pc38
 <g/>
@@ -116,7 +116,7 @@ journaliers	journaliers	journalier	ADJ	Gender=Masc Number=Plur	w176	amod	partage
 <g/>
 .	.	.	PUNCT	-	pc41	punct	376	NUM	-	w168
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14" senti_3="Negatief" senti_6="gemengd negatief" senti_n="0.670">
 On	On	on	PRON	Gender=Masc Number=Sing Person=3	w177	nsubj	observer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w178
 observe	observe	observer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w178	root	-	-	-	-
 donc	donc	donc	ADV	-	w179	advmod	observer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w178
@@ -180,7 +180,7 @@ internet	internet	internet	NOUN	Gender=Masc Number=Sing	w218	nmod	donnée	NOUN	G
 </s>
 </p>
 <p id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg3" lang="Frans">
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="1.938">
 <name type="PER">
 Monsieur	Monsieur	monsieur	PROPN	-	w219	vocative	prendre	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w224
 le	le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w220	det	secrétaire	NOUN	Gender=Masc Number=Sing	w221
@@ -202,7 +202,7 @@ rapport	rapport	rapport	NOUN	Gender=Masc Number=Sing	w228	obl:arg	prendre	VERB	G
 <g/>
 ?	?	?	PUNCT	-	pc51	punct	prendre	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w224
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s16">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s16" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="2.345">
 Quelle	Quelle	quel	PRON	Gender=Fem Number=Sing	w229	root	-	-	-	-
 a	a	avoir	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w230	aux:tense	quel	PRON	Gender=Fem Number=Sing	w229
 été	été	être	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w231	cop	quel	PRON	Gender=Fem Number=Sing	w229
@@ -211,7 +211,7 @@ réaction	réaction	réaction	NOUN	Gender=Fem Number=Sing	w233	nsubj	quel	PRON	G
 <g/>
 ?	?	?	PUNCT	-	pc52	punct	quel	PRON	Gender=Fem Number=Sing	w229
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.864">
 Qu’	Qu’	qu’	PRON	PronType=Int	w234	obj	envisager	VERB	Mood=Ind Number=Plur Person=2 Tense=Pres VerbForm=Fin	pc53
 <g/>
 envisagez	envisagez	envisager	VERB	Mood=Ind Number=Plur Person=2 Tense=Pres VerbForm=Fin	pc53	root	-	-	-	-
@@ -230,7 +230,7 @@ internet	internet	internet	NOUN	Gender=Masc Number=Sing	w242	nmod	protection	NOU
 <g/>
 ?	?	?	PUNCT	-	pc55	punct	envisager	VERB	Mood=Ind Number=Plur Person=2 Tense=Pres VerbForm=Fin	pc53
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18" senti_3="Negatief" senti_6="gemengd negatief" senti_n="1.128">
 Allez	Allez	aller	VERB	Mood=Ind Number=Plur Person=2 Tense=Pres VerbForm=Fin	w243	root	-	-	-	-
 <g/>
 -vous	-vous	vous	PRON	Number=Plur Person=2 PronType=Prs	pc56	nsubj	aller	VERB	Mood=Ind Number=Plur Person=2 Tense=Pres VerbForm=Fin	w243
@@ -267,9 +267,9 @@ Belgique	Belgique	Belgique	PROPN	-	w264	obl	collecter	VERB	Mood=Ind Number=Plur 
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u6" text_id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x" subcorpus="COVID,War" lang="Frans" body="Commissie" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2022-07-13" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 13-07-2022" speaker_role="Vast" speaker_id="MichelMathieu" speaker_name="Michel, Mathieu" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1979">
+<speech id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u6" text_id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x" subcorpus="COVID,Oorlog" lang="Frans" body="Commissie" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2022-07-13" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 13-07-2022" speaker_role="Vast" topic="Burgerrechten" speaker_id="MichelMathieu" speaker_name="Michel, Mathieu" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1979">
 <p id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg16" lang="Frans">
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.506">
 Monsieur	Monsieur	monsieur	PROPN	-	w1050	dislocated	confirmer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w1066
 le	le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w1051	det	député	NOUN	Gender=Masc Number=Sing	w1052
 député	député	député	NOUN	Gender=Masc Number=Sing	w1052	nmod	monsieur	PROPN	-	w1050
@@ -328,7 +328,7 @@ européens	européens	européen	ADJ	Gender=Masc Number=Plur	w1082	amod	régulate
 <g/>
 .	.	.	PUNCT	-	pc218	punct	confirmer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w1066
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.517">
 Sur	Sur	sur	ADP	-	w1083	case	base	NOUN	Gender=Fem Number=Sing	w1085
 la	la	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w1084	det	base	NOUN	Gender=Fem Number=Sing	w1085
 base	base	base	NOUN	Gender=Fem Number=Sing	w1085	obl:mod	impliquer	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	pc223
@@ -371,7 +371,7 @@ européen	européen	européen	ADJ	Gender=Masc Number=Sing	w1107	amod	niveau	NOUN
 <g/>
 .	.	.	PUNCT	-	pc224	punct	impliquer	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	pc223
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="1.662">
 Une	Une	un	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	w1108	advmod	traiter	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w1112
 fois	fois	fois	NOUN	Gender=Fem Number=Sing	w1109	fixed	un	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	w1108
 la	la	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w1110	det	plainte	NOUN	Gender=Fem Number=Sing	w1111
@@ -390,7 +390,7 @@ tirer	tirer	tirer	VERB	VerbForm=Inf	w1120	acl	enseignement	NOUN	Gender=Masc Numb
 <g/>
 .	.	.	PUNCT	-	pc226	punct	avoir	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w1115
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.904">
 Ceux	Ceux	celui	PRON	Gender=Masc Number=Plur PronType=Dem	w1121	nsubj	pouvoir	VERB	Mood=Cnd Number=Plur Person=3 Tense=Pres VerbForm=Fin	w1122
 <g/>
 -ci	-ci	ci	PART	Gender=Masc Number=Plur PronType=Dem	pc227	advmod	celui	PRON	Gender=Masc Number=Plur PronType=Dem	w1121
@@ -416,7 +416,7 @@ Belgique	Belgique	Belgique	PROPN	-	w1138	nmod	renforcement	NOUN	Gender=Masc Numb
 </name>
 .	.	.	PUNCT	-	pc228	punct	pouvoir	VERB	Mood=Cnd Number=Plur Person=3 Tense=Pres VerbForm=Fin	w1122
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.964">
 Mais	Mais	mais	CCONJ	-	w1139	cc	chose	NOUN	Gender=Fem Number=Sing	w1141
 chaque	chaque	chaque	DET	Gender=Fem Number=Sing	w1140	det	chose	NOUN	Gender=Fem Number=Sing	w1141
 chose	chose	chose	NOUN	Gender=Fem Number=Sing	w1141	root	-	-	-	-
@@ -441,7 +441,7 @@ travail	travail	travail	NOUN	Gender=Masc Number=Sing	w1153	obj	faire	VERB	VerbFo
 </s>
 </p>
 <p id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg17" lang="Frans">
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="2.442">
 Enfin	Enfin	enfin	ADV	-	w1154	advmod	rappeler	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1156
 <g/>
 ,	,	,	PUNCT	-	pc232	punct	enfin	ADV	-	w1154
@@ -478,7 +478,7 @@ cet	cet	ce	DET	Gender=Masc Number=Sing PronType=Dem	w1173	det	égard	NOUN	Gender
 <g/>
 .	.	.	PUNCT	-	pc236	punct	rappeler	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1156
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.289">
 De	De	de	ADP	-	w1175	case	côté	NOUN	Gender=Masc Number=Sing	w1177
 mon	mon	son	DET	Gender=Masc Number=Sing Poss=Yes PronType=Prs	w1176	det	côté	NOUN	Gender=Masc Number=Sing	w1177
 côté	côté	côté	NOUN	Gender=Masc Number=Sing	w1177	obl:mod	poursuire	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1179
@@ -531,7 +531,7 @@ APD	APD	APD	PROPN	-	w1207	appos	loi	NOUN	Gender=Fem Number=Sing	w1206
 </s>
 </p>
 <p id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg18" lang="Frans">
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.153">
 Il	Il	il	PRON	Gender=Masc Number=Sing Person=3 PronType=Prs	w1208	expl:subj	échapper	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w1213
 ne	ne	ne	ADV	Polarity=Neg	w1209	advmod	échapper	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w1213
 vous	vous	il	PRON	Number=Plur Person=2 PronType=Prs	w1210	iobj	échapper	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w1213
@@ -588,7 +588,7 @@ GAFAM	GAFAM	GAFAM	PROPN	-	w1248	obl:arg	face	ADV	-	w1246
 </name>
 .	.	.	PUNCT	-	pc248	punct	échapper	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w1213
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69" senti_3="Positief" senti_6="positief" senti_n="4.905">
 Je	Je	il	PRON	Number=Sing Person=1 PronType=Prs	w1249	nsubj	compter	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1250
 compte	compte	compter	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1250	root	-	-	-	-
 sur	sur	sur	ADP	-	w1251	case	ensemble	NOUN	Gender=Masc Number=Sing	pc249
@@ -645,9 +645,9 @@ découleront	découleront	découler	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut
 </p>
 </speech>
 <note type="speaker" content="02.03 Olivier Vajda (Ecolo-Groen):"/>
-<speech id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u7" text_id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x" subcorpus="COVID,War" lang="Frans" body="Commissie" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2022-07-13" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 13-07-2022" speaker_role="Vast" speaker_id="VajdaOlivier" speaker_name="Vajda, Olivier" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ecolo" speaker_party_name="Ecologistes Confédérés pour l'Organisation de Luttes Originales" party_status="Coalition" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1975">
+<speech id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u7" text_id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x" subcorpus="COVID,Oorlog" lang="Frans" body="Commissie" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2022-07-13" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 13-07-2022" speaker_role="Vast" topic="Binnenlandse Handel" speaker_id="VajdaOlivier" speaker_name="Vajda, Olivier" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ecolo" speaker_party_name="Ecologistes Confédérés pour l'Organisation de Luttes Originales" party_status="Coalition" party_orientation="Centrum-link tot links" speaker_gender="M" speaker_birth="1975">
 <p id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg19" lang="Frans">
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.436">
 Merci	Merci	merci	INTJ	-	w1285	root	-	-	-	-
 pour	pour	pour	ADP	-	w1286	case	réponse	NOUN	Gender=Fem Number=Plur	w1288
 ces	ces	ce	DET	Gender=Fem Number=Plur PronType=Dem	w1287	det	réponse	NOUN	Gender=Fem Number=Plur	w1288
@@ -665,7 +665,7 @@ d'	d'	de	ADP	-	w1292	case	état	NOUN	Gender=Masc Number=Sing	pc260
 </name>
 .	.	.	PUNCT	-	pc259	punct	merci	INTJ	-	w1285
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72" senti_3="Neutraal" senti_6="neutraal-negatief" senti_n="1.898">
 Je	Je	il	PRON	Number=Sing Person=1 PronType=Prs	w1293	nsubj	prendre	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1294
 prends	prends	prendre	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1294	root	-	-	-	-
 acte	acte	acte	NOUN	Gender=Masc Number=Sing	w1295	obj	prendre	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1294
@@ -697,7 +697,7 @@ GAFAM	GAFAM	GAFAM	PROPN	-	w1312	nsubj	constituer	VERB	Mood=Ind Number=Plur Perso
 </name>
 .	.	.	PUNCT	-	pc263	punct	prendre	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1294
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73" senti_3="Positief" senti_6="gemend-positief" senti_n="3.854">
 Pour	Pour	pour	ADP	-	w1313	case	surplus	NOUN	Gender=Masc Number=Sing	w1315
 le	le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w1314	det	surplus	NOUN	Gender=Masc Number=Sing	w1315
 surplus	surplus	surplus	NOUN	Gender=Masc Number=Sing	w1315	obl:mod	rassurer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1318
@@ -731,7 +731,7 @@ cet	cet	ce	DET	Gender=Masc Number=Sing PronType=Dem	w1333	det	égard	NOUN	Gender
 <g/>
 .	.	.	PUNCT	-	pc268	punct	rassurer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1318
 </s>
-<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74">
+<s id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74" senti_3="Positief" senti_6="positief" senti_n="4.832">
 C'	C'	ce	PRON	Number=Sing Person=3 PronType=Dem	w1335	nsubj	raison	NOUN	Gender=Fem Number=Sing	w1337
 <g/>
 est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	pc269	cop	raison	NOUN	Gender=Fem Number=Sing	w1337

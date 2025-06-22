@@ -9,7 +9,7 @@
             <meeting ana="#parla.sitting #parla.uni" n="201920--106">2019/20--106</meeting>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure xml:lang="sv" unit="speeches" quantity="119">119 tal</measure>
@@ -25,7 +25,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-20">2025-06-20</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -48,6 +48,7 @@
                <tagUsage gi="div" occurs="19"/>
                <tagUsage gi="head" occurs="19"/>
                <tagUsage gi="kinesic" occurs="5"/>
+               <tagUsage gi="measure" occurs="2578"/>
                <tagUsage gi="name" occurs="1059"/>
                <tagUsage gi="note" occurs="785"/>
                <tagUsage gi="pc" occurs="4913"/>
@@ -77,8 +78,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-20">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-16">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid">
@@ -109,9 +112,10 @@
             <note xml:id="ParlaMint-SE_2020-04-16-prot-201920--106.ana.note16" xml:lang="en" corresp="mt-src:ParlaMint-SE_2020-04-16-prot-201920--106.ana.note16">preferred.</note>
             <note xml:id="ParlaMint-SE_2020-04-16-prot-201920--106.ana.note17" xml:lang="en" corresp="mt-src:ParlaMint-SE_2020-04-16-prot-201920--106.ana.note17">The House approved the committee's proposal that the matter should be decided even though it had been available less than two working days before the date on which it was to be dealt with.</note>
             <note type="speaker" xml:id="ParlaMint-SE_2020-04-16-prot-201920--106.ana.note18" xml:lang="en" corresp="mt-src:ParlaMint-SE_2020-04-16-prot-201920--106.ana.note18">Anf. 1 ACKO ANKARBERG JOHANSSON (KD):</note>
-            <u ana="#regular" who="#Q4936116" xml:id="i-19e7640c7a732d9e-1" xml:lang="en" corresp="mt-src:i-19e7640c7a732d9e-1">
+            <u ana="#regular topic:healt" who="#Q4936116" xml:id="i-19e7640c7a732d9e-1" xml:lang="en" corresp="mt-src:i-19e7640c7a732d9e-1">
                <seg xml:id="i-5ruVoChs89sDtBjW1Bf9N9" xml:lang="en" corresp="mt-src:i-5ruVoChs89sDtBjW1Bf9N9">
                   <s xml:id="i-XP8hvgGEBHXAmfWmCkieMJ" n="1" corresp="mt-src:i-XP8hvgGEBHXAmfWmCkieMJ">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XP8hvgGEBHXAmfWmCkieMJ"/>
                      <phr type="sem" function="Z1f" ana="sem:Z1">
 <w xml:id="i-XP8hvgGEBHXAmfWmCkieMJ.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="madam" function="Z1f" ana="sem:Z1">Madam</w>
 <w xml:id="i-XP8hvgGEBHXAmfWmCkieMJ.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="President" function="Z1f" ana="sem:Z1" join="right">President</w>
@@ -122,6 +126,7 @@
 <w xml:id="i-XP8hvgGEBHXAmfWmCkieMJ.t6" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="like" function="E2+" ana="sem:E2p">like</w>
                   </s>
                   <s xml:id="i-XP8iJLJoxbUf31HbEDxQzg" n="2" corresp="mt-src:i-XP8iJLJoxbUf31HbEDxQzg">
+                     <measure type="sentiment" quantity="-0.095" ana="senti:negneg" corresp="#i-XP8iJLJoxbUf31HbEDxQzg"/>
 <w xml:id="i-XP8iJLJoxbUf31HbEDxQzg.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
 <w xml:id="i-XP8iJLJoxbUf31HbEDxQzg.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">have</w>
 <w xml:id="i-XP8iJLJoxbUf31HbEDxQzg.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="suffer" function="E4.1-,B2-,X3,A5.1-/A2.1,S7.4+" ana="sem:E4.1n">suffered</w>
@@ -141,6 +146,7 @@
 <pc xml:id="i-XP8iJLJoxbUf31HbEDxQzg.t17" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8iSfQGLUzvNHpDYdpKrk" n="3" corresp="mt-src:i-XP8iSfQGLUzvNHpDYdpKrk">
+                     <measure type="sentiment" quantity="0.051" ana="senti:negneg" corresp="#i-XP8iSfQGLUzvNHpDYdpKrk"/>
 <w xml:id="i-XP8iSfQGLUzvNHpDYdpKrk.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XP8iSfQGLUzvNHpDYdpKrk.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XP8iSfQGLUzvNHpDYdpKrk.t3" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
@@ -187,6 +193,7 @@
 <pc xml:id="i-XP8iSfQGLUzvNHpDYdpKrk.t42" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8iZKsq3CDXqKSKQAWFkQ" n="4" corresp="mt-src:i-XP8iZKsq3CDXqKSKQAWFkQ">
+                     <measure type="sentiment" quantity="4.085" ana="senti:mixpos" corresp="#i-XP8iZKsq3CDXqKSKQAWFkQ"/>
 <w xml:id="i-XP8iZKsq3CDXqKSKQAWFkQ.t1" pos="JJS" msd="UPosTag=ADJ|Degree=Sup" lemma="most" function="A13.2,N5+++" ana="sem:A13.2">Most</w>
 <w xml:id="i-XP8iZKsq3CDXqKSKQAWFkQ.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="thing" function="O2,X4.1,A7-,S2mf,L2mf" ana="sem:O2">things</w>
 <w xml:id="i-XP8iZKsq3CDXqKSKQAWFkQ.t3" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">have</w>
@@ -204,6 +211,7 @@
                </seg>
                <seg xml:id="i-S1oY4d7865RHuD7CX8Jaen" xml:lang="en" corresp="mt-src:i-S1oY4d7865RHuD7CX8Jaen">
                   <s xml:id="i-XP8ifzMPjuS9JM4RFhCBe4" n="1" corresp="mt-src:i-XP8ifzMPjuS9JM4RFhCBe4">
+                     <measure type="sentiment" quantity="1.542" ana="senti:neuneg" corresp="#i-XP8ifzMPjuS9JM4RFhCBe4"/>
 <w xml:id="i-XP8ifzMPjuS9JM4RFhCBe4.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>
 <w xml:id="i-XP8ifzMPjuS9JM4RFhCBe4.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
 <w xml:id="i-XP8ifzMPjuS9JM4RFhCBe4.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="many" function="N5+" ana="sem:N5p">many</w>
@@ -224,6 +232,7 @@
 <pc xml:id="i-XP8ifzMPjuS9JM4RFhCBe4.t18" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8inepxScekmNgX7Dt7Xi" n="2" corresp="mt-src:i-XP8inepxScekmNgX7Dt7Xi">
+                     <measure type="sentiment" quantity="3.129" ana="senti:neupos" corresp="#i-XP8inepxScekmNgX7Dt7Xi"/>
 <w xml:id="i-XP8inepxScekmNgX7Dt7Xi.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XP8inepxScekmNgX7Dt7Xi.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p" join="right">is</w>
 <pc xml:id="i-XP8inepxScekmNgX7Dt7Xi.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
@@ -248,6 +257,7 @@
 <pc xml:id="i-XP8inepxScekmNgX7Dt7Xi.t22" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8iuKJX9KsNEQJcxka3RN" n="3" corresp="mt-src:i-XP8iuKJX9KsNEQJcxka3RN">
+                     <measure type="sentiment" quantity="3.062" ana="senti:neupos" corresp="#i-XP8iuKJX9KsNEQJcxka3RN"/>
 <w xml:id="i-XP8iuKJX9KsNEQJcxka3RN.t1" pos="WP" msd="UPosTag=PRON|PronType=Int" lemma="what" function="Z8,Z5" ana="sem:Z8">What</w>
 <w xml:id="i-XP8iuKJX9KsNEQJcxka3RN.t2" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
 <w xml:id="i-XP8iuKJX9KsNEQJcxka3RN.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="right" function="A5.3+,A4.2+,A1.2+,G2.2+,M6,N3.2+,A13.3,A13.2" ana="sem:A5.3p">right</w>
@@ -263,6 +273,7 @@
                </seg>
                <seg xml:id="i-EbyVUpYMDG9c3zunigRsBj" xml:lang="en" corresp="mt-src:i-EbyVUpYMDG9c3zunigRsBj">
                   <s xml:id="i-XP8j19U91Sw9mJUTaqfypp" n="1" corresp="mt-src:i-XP8j19U91Sw9mJUTaqfypp">
+                     <measure type="sentiment" quantity="0.457" ana="senti:negneg" corresp="#i-XP8j19U91Sw9mJUTaqfypp"/>
 <w xml:id="i-XP8j19U91Sw9mJUTaqfypp.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="i-XP8j19U91Sw9mJUTaqfypp.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">am</w>
 <w xml:id="i-XP8j19U91Sw9mJUTaqfypp.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="humble" function="S7.1-" ana="sem:S7.1n">humbled</w>
@@ -299,6 +310,7 @@
 <pc xml:id="i-XP8j19U91Sw9mJUTaqfypp.t32" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8j7owhiA9mEL6ZSNMuiU" n="2" corresp="mt-src:i-XP8j7owhiA9mEL6ZSNMuiU">
+                     <measure type="sentiment" quantity="3.977" ana="senti:mixpos" corresp="#i-XP8j7owhiA9mEL6ZSNMuiU"/>
 <w xml:id="i-XP8j7owhiA9mEL6ZSNMuiU.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XP8j7owhiA9mEL6ZSNMuiU.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
 <w xml:id="i-XP8j7owhiA9mEL6ZSNMuiU.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">have</w>
@@ -351,6 +363,7 @@
 <pc xml:id="i-XP8j7owhiA9mEL6ZSNMuiU.t38" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8jEURGQsNNhMifHu3qc8" n="3" corresp="mt-src:i-XP8jEURGQsNNhMifHu3qc8">
+                     <measure type="sentiment" quantity="1.052" ana="senti:mixneg" corresp="#i-XP8jEURGQsNNhMifHu3qc8"/>
 <w xml:id="i-XP8jEURGQsNNhMifHu3qc8.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>
 <w xml:id="i-XP8jEURGQsNNhMifHu3qc8.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
 <w xml:id="i-XP8jEURGQsNNhMifHu3qc8.t3" pos="DT" msd="UPosTag=DET" lemma="no" function="Z6" ana="sem:Z6">no</w>
@@ -371,6 +384,7 @@
                </seg>
                <seg xml:id="i-WXbB8vboAxQBALChQ2zngr" xml:lang="en" corresp="mt-src:i-WXbB8vboAxQBALChQ2zngr">
                   <s xml:id="i-XP8jLJatGzSAEFtVuz9n1a" n="1" corresp="mt-src:i-XP8jLJatGzSAEFtVuz9n1a">
+                     <measure type="sentiment" quantity="0.405" ana="senti:negneg" corresp="#i-XP8jLJatGzSAEFtVuz9n1a"/>
 <w xml:id="i-XP8jLJatGzSAEFtVuz9n1a.t1" pos="WP" msd="UPosTag=PRON|PronType=Int" lemma="what" function="Z8,Z5" ana="sem:Z8">What</w>
 <w xml:id="i-XP8jLJatGzSAEFtVuz9n1a.t2" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="i-XP8jLJatGzSAEFtVuz9n1a.t3" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">am</w>
@@ -409,6 +423,7 @@
 <pc xml:id="i-XP8jLJatGzSAEFtVuz9n1a.t32" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8jSy4SyhemhHWbmWqhuE" n="2" corresp="mt-src:i-XP8jSy4SyhemhHWbmWqhuE">
+                     <measure type="sentiment" quantity="2.795" ana="senti:neupos" corresp="#i-XP8jSy4SyhemhHWbmWqhuE"/>
 <w xml:id="i-XP8jSy4SyhemhHWbmWqhuE.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
 <w xml:id="i-XP8jSy4SyhemhHWbmWqhuE.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="need" function="S6+" ana="sem:S6p">need</w>
 <w xml:id="i-XP8jSy4SyhemhHWbmWqhuE.t3" pos="TO" msd="UPosTag=PART" lemma="to" function="Z5" ana="sem:Z5">to</w>
@@ -433,6 +448,7 @@
 <pc xml:id="i-XP8jSy4SyhemhHWbmWqhuE.t22" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8jZdY1gQsPAK8hd3Xdnt" n="3" corresp="mt-src:i-XP8jZdY1gQsPAK8hd3Xdnt">
+                     <measure type="sentiment" quantity="3.352" ana="senti:neupos" corresp="#i-XP8jZdY1gQsPAK8hd3Xdnt"/>
 <w xml:id="i-XP8jZdY1gQsPAK8hd3Xdnt.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5">That</w>
 <w xml:id="i-XP8jZdY1gQsPAK8hd3Xdnt.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XP8jZdY1gQsPAK8hd3Xdnt.t3" pos="WP" msd="UPosTag=PRON|PronType=Int" lemma="what" function="Z8,Z5" ana="sem:Z8">what</w>
@@ -445,6 +461,7 @@
                </seg>
                <seg xml:id="i-UhYriAYc1VaSjS3TcG3vky" xml:lang="en" corresp="mt-src:i-UhYriAYc1VaSjS3TcG3vky">
                   <s xml:id="i-XP8jgJ1aP85zdLkoUaDZgY" n="1" corresp="mt-src:i-XP8jgJ1aP85zdLkoUaDZgY">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XP8jgJ1aP85zdLkoUaDZgY"/>
                      <phr type="sem" function="Z1f" ana="sem:Z1">
 <w xml:id="i-XP8jgJ1aP85zdLkoUaDZgY.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="madam" function="Z1f" ana="sem:Z1">Madam</w>
 <w xml:id="i-XP8jgJ1aP85zdLkoUaDZgY.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="President" function="Z1f" ana="sem:Z1" join="right">President</w>
@@ -455,6 +472,7 @@
 <w xml:id="i-XP8jgJ1aP85zdLkoUaDZgY.t6" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="like" function="E2+" ana="sem:E2p">like</w>
                   </s>
                   <s xml:id="i-XP8jnxV95qJc6NNuL6uVaC" n="2" corresp="mt-src:i-XP8jnxV95qJc6NNuL6uVaC">
+                     <measure type="sentiment" quantity="3.921" ana="senti:mixpos" corresp="#i-XP8jnxV95qJc6NNuL6uVaC"/>
 <w xml:id="i-XP8jnxV95qJc6NNuL6uVaC.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
                      <name type="MISC">
 <w xml:id="i-XP8jnxV95qJc6NNuL6uVaC.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="Christian" function="T1.3" ana="sem:T1.3">Christian</w>
@@ -479,6 +497,7 @@
 <pc xml:id="i-XP8jnxV95qJc6NNuL6uVaC.t20" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8jucxhnYXDZQ11BdbRTr" n="3" corresp="mt-src:i-XP8jucxhnYXDZQ11BdbRTr">
+                     <measure type="sentiment" quantity="3.157" ana="senti:neupos" corresp="#i-XP8jucxhnYXDZQ11BdbRTr"/>
 <w xml:id="i-XP8jucxhnYXDZQ11BdbRTr.t1" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">However</w>
 <pc xml:id="i-XP8jucxhnYXDZQ11BdbRTr.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="i-XP8jucxhnYXDZQ11BdbRTr.t3" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">this</w>
@@ -500,6 +519,7 @@
 <pc xml:id="i-XP8jucxhnYXDZQ11BdbRTr.t17" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8k2HSGVFjq2Rd73AHMMW" n="4" corresp="mt-src:i-XP8k2HSGVFjq2Rd73AHMMW">
+                     <measure type="sentiment" quantity="4.275" ana="senti:mixpos" corresp="#i-XP8k2HSGVFjq2Rd73AHMMW"/>
 <w xml:id="i-XP8k2HSGVFjq2Rd73AHMMW.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="Parliamentary" function="G1.1" ana="sem:G1.1">Parliamentary</w>
 <w xml:id="i-XP8k2HSGVFjq2Rd73AHMMW.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="scrutiny" function="X2.4" ana="sem:X2.4">scrutiny</w>
 <w xml:id="i-XP8k2HSGVFjq2Rd73AHMMW.t3" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
@@ -521,6 +541,7 @@
                </seg>
                <seg xml:id="i-2MGtXmp13oMwbMz8UJXEjg" xml:lang="en" corresp="mt-src:i-2MGtXmp13oMwbMz8UJXEjg">
                   <s xml:id="i-XP8k87btMNocZKnwfFPHkx" n="1" corresp="mt-src:i-XP8k87btMNocZKnwfFPHkx">
+                     <measure type="sentiment" quantity="3.175" ana="senti:neupos" corresp="#i-XP8k87btMNocZKnwfFPHkx"/>
 <w xml:id="i-XP8k87btMNocZKnwfFPHkx.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="i-XP8k87btMNocZKnwfFPHkx.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="proposal" function="Q2.2,X7+,S3.2/Q2.2" ana="sem:Q2.2">proposal</w>
 <w xml:id="i-XP8k87btMNocZKnwfFPHkx.t3" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
@@ -561,6 +582,7 @@
 <pc xml:id="i-XP8k87btMNocZKnwfFPHkx.t34" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8kDwmWDVsQ6DxnHLVEAQ" n="2" corresp="mt-src:i-XP8kDwmWDVsQ6DxnHLVEAQ">
+                     <measure type="sentiment" quantity="2.363" ana="senti:neuneg" corresp="#i-XP8kDwmWDVsQ6DxnHLVEAQ"/>
 <w xml:id="i-XP8kDwmWDVsQ6DxnHLVEAQ.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="i-XP8kDwmWDVsQ6DxnHLVEAQ.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="decision" function="X6+" ana="sem:X6p">decision</w>
 <w xml:id="i-XP8kDwmWDVsQ6DxnHLVEAQ.t3" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="shall" function="T1.1.3" ana="sem:T1.1.3" join="right">shall</w>
@@ -577,6 +599,7 @@
 <pc xml:id="i-XP8kDwmWDVsQ6DxnHLVEAQ.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8kMSZ1koEqVP39NJm9YG" n="3" corresp="mt-src:i-XP8kMSZ1koEqVP39NJm9YG">
+                     <measure type="sentiment" quantity="2.429" ana="senti:neuneg" corresp="#i-XP8kMSZ1koEqVP39NJm9YG"/>
 <w xml:id="i-XP8kMSZ1koEqVP39NJm9YG.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XP8kMSZ1koEqVP39NJm9YG.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="shall" function="T1.1.3" ana="sem:T1.1.3">shall</w>
 <w xml:id="i-XP8kMSZ1koEqVP39NJm9YG.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="concern" function="E6-,I2.1" ana="sem:E6n">concern</w>
@@ -612,6 +635,7 @@
                </seg>
                <seg xml:id="i-NV2XXgQn7BGBUxkVpEVhBx" xml:lang="en" corresp="mt-src:i-NV2XXgQn7BGBUxkVpEVhBx">
                   <s xml:id="i-XP8kTGidcvJd2HCyzPs5wi" n="1" corresp="mt-src:i-XP8kTGidcvJd2HCyzPs5wi">
+                     <measure type="sentiment" quantity="4.134" ana="senti:mixpos" corresp="#i-XP8kTGidcvJd2HCyzPs5wi"/>
 <w xml:id="i-XP8kTGidcvJd2HCyzPs5wi.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
                      <name type="MISC">
 <w xml:id="i-XP8kTGidcvJd2HCyzPs5wi.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="Christian" function="T1.3" ana="sem:T1.3">Christian</w>
@@ -656,6 +680,7 @@
 <pc xml:id="i-XP8kTGidcvJd2HCyzPs5wi.t34" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8kamW9ADg4RSHM5N91Ka" n="2" corresp="mt-src:i-XP8kamW9ADg4RSHM5N91Ka">
+                     <measure type="sentiment" quantity="3.048" ana="senti:neupos" corresp="#i-XP8kamW9ADg4RSHM5N91Ka"/>
 <w xml:id="i-XP8kamW9ADg4RSHM5N91Ka.t1" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">However</w>
 <pc xml:id="i-XP8kamW9ADg4RSHM5N91Ka.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="i-XP8kamW9ADg4RSHM5N91Ka.t3" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">we</w>
@@ -679,6 +704,7 @@
                </seg>
                <seg xml:id="i-NSE2MK7qsQGPdXXtYDiwDi" xml:lang="en" corresp="mt-src:i-NSE2MK7qsQGPdXXtYDiwDi">
                   <s xml:id="i-XP8kgbfm2LjqxLTBhTEwj2" n="1" corresp="mt-src:i-XP8kgbfm2LjqxLTBhTEwj2">
+                     <measure type="sentiment" quantity="2.334" ana="senti:neuneg" corresp="#i-XP8kgbfm2LjqxLTBhTEwj2"/>
 <w xml:id="i-XP8kgbfm2LjqxLTBhTEwj2.t1" pos="RB" msd="UPosTag=ADV|NumType=Ord" lemma="first" function="N4,P1@" ana="sem:N4">First</w>
 <w xml:id="i-XP8kgbfm2LjqxLTBhTEwj2.t2" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
 <w xml:id="i-XP8kgbfm2LjqxLTBhTEwj2.t3" pos="DT" msd="UPosTag=DET" lemma="all" function="N5.1+" ana="sem:N5.1p" join="right">all</w>
@@ -721,6 +747,7 @@
 <pc xml:id="i-XP8kgbfm2LjqxLTBhTEwj2.t36" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8koG9Kj3xTRN5HYyvscg" n="2" corresp="mt-src:i-XP8koG9Kj3xTRN5HYyvscg">
+                     <measure type="sentiment" quantity="3.157" ana="senti:neupos" corresp="#i-XP8koG9Kj3xTRN5HYyvscg"/>
 <w xml:id="i-XP8koG9Kj3xTRN5HYyvscg.t1" pos="IN" msd="UPosTag=SCONJ" lemma="if" function="Z7" ana="sem:Z7">If</w>
 <w xml:id="i-XP8koG9Kj3xTRN5HYyvscg.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Parliament" function="G1.1" ana="sem:G1.1">Parliament</w>
 <w xml:id="i-XP8koG9Kj3xTRN5HYyvscg.t3" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
@@ -737,6 +764,7 @@
 <pc xml:id="i-XP8koG9Kj3xTRN5HYyvscg.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8ku6JwbB2ExGF8B52p28" n="3" corresp="mt-src:i-XP8ku6JwbB2ExGF8B52p28">
+                     <measure type="sentiment" quantity="4.632" ana="senti:pospos" corresp="#i-XP8ku6JwbB2ExGF8B52p28"/>
 <w xml:id="i-XP8ku6JwbB2ExGF8B52p28.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="i-XP8ku6JwbB2ExGF8B52p28.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">am</w>
 <w xml:id="i-XP8ku6JwbB2ExGF8B52p28.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="pleased" function="E4.2+,E2+" ana="sem:E4.2p">pleased</w>
@@ -761,6 +789,7 @@
 <pc xml:id="i-XP8ku6JwbB2ExGF8B52p28.t22" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8m1knWHtErRHsE2bijun" n="4" corresp="mt-src:i-XP8m1knWHtErRHsE2bijun">
+                     <measure type="sentiment" quantity="3.694" ana="senti:mixpos" corresp="#i-XP8m1knWHtErRHsE2bijun"/>
 <w xml:id="i-XP8m1knWHtErRHsE2bijun.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">In</w>
 <w xml:id="i-XP8m1knWHtErRHsE2bijun.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="practice" function="A1.1.1,I3.1/S5+c" ana="sem:A1.1.1" join="right">practice</w>
 <pc xml:id="i-XP8m1knWHtErRHsE2bijun.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
@@ -784,6 +813,7 @@
                </seg>
                <seg xml:id="i-Cw3m4h9eej3BoYfa4vWQ7Y" xml:lang="en" corresp="mt-src:i-Cw3m4h9eej3BoYfa4vWQ7Y">
                   <s xml:id="i-XP8m8RG4zbTTtKVKt8QfoS" n="1" corresp="mt-src:i-XP8m8RG4zbTTtKVKt8QfoS">
+                     <measure type="sentiment" quantity="0.846" ana="senti:mixneg" corresp="#i-XP8m8RG4zbTTtKVKt8QfoS"/>
 <w xml:id="i-XP8m8RG4zbTTtKVKt8QfoS.t1" pos="RB" msd="UPosTag=ADV" lemma="secondly" function="N4" ana="sem:N4" join="right">Secondly</w>
 <pc xml:id="i-XP8m8RG4zbTTtKVKt8QfoS.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="i-XP8m8RG4zbTTtKVKt8QfoS.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -804,6 +834,7 @@
 <pc xml:id="i-XP8m8RG4zbTTtKVKt8QfoS.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8mF5jdhJg5MM7Rjf6bh6" n="2" corresp="mt-src:i-XP8mF5jdhJg5MM7Rjf6bh6">
+                     <measure type="sentiment" quantity="0.265" ana="senti:negneg" corresp="#i-XP8mF5jdhJg5MM7Rjf6bh6"/>
 <w xml:id="i-XP8mF5jdhJg5MM7Rjf6bh6.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="i-XP8mF5jdhJg5MM7Rjf6bh6.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="government" function="G1.1c" ana="sem:G1.1">government</w>
 <w xml:id="i-XP8mF5jdhJg5MM7Rjf6bh6.t3" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
@@ -821,6 +852,7 @@
 <pc xml:id="i-XP8mF5jdhJg5MM7Rjf6bh6.t15" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8mMkDCQ1tgpNjXbBnXak" n="3" corresp="mt-src:i-XP8mMkDCQ1tgpNjXbBnXak">
+                     <measure type="sentiment" quantity="3.716" ana="senti:mixpos" corresp="#i-XP8mMkDCQ1tgpNjXbBnXak"/>
 <w xml:id="i-XP8mMkDCQ1tgpNjXbBnXak.t1" pos="IN" msd="UPosTag=ADP" lemma="despite" function="Z5" ana="sem:Z5">Despite</w>
 <w xml:id="i-XP8mMkDCQ1tgpNjXbBnXak.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
 <w xml:id="i-XP8mMkDCQ1tgpNjXbBnXak.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="short" function="T1.3-,N3.7-,N3.3-,N5-,S1.2.4-,N3.8+@,F1%" ana="sem:T1.3n">short</w>
@@ -847,12 +879,14 @@
 <pc xml:id="i-XP8mMkDCQ1tgpNjXbBnXak.t22" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8mUQgm6j7JHQMdSiUTUQ" n="4" corresp="mt-src:i-XP8mUQgm6j7JHQMdSiUTUQ">
+                     <measure type="sentiment" quantity="0.305" ana="senti:negneg" corresp="#i-XP8mUQgm6j7JHQMdSiUTUQ"/>
 <w xml:id="i-XP8mUQgm6j7JHQMdSiUTUQ.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="Criticism" function="Q2.2/E2-,X2.4" ana="sem:Q2.2 sem:E2n">Criticism</w>
 <w xml:id="i-XP8mUQgm6j7JHQMdSiUTUQ.t2" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
 <w xml:id="i-XP8mUQgm6j7JHQMdSiUTUQ.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="sharp" function="O4.4,A10+,X9.1+,X5.1+,N3.8+,B2-,X3.1,E3-,A5.3+,A5.1+,T4" ana="sem:O4.4" join="right">sharp</w>
 <pc xml:id="i-XP8mUQgm6j7JHQMdSiUTUQ.t4" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8maErNxrB5pJXU4oaPsr" n="5" corresp="mt-src:i-XP8maErNxrB5pJXU4oaPsr">
+                     <measure type="sentiment" quantity="3.146" ana="senti:neupos" corresp="#i-XP8maErNxrB5pJXU4oaPsr"/>
 <w xml:id="i-XP8maErNxrB5pJXU4oaPsr.t1" pos="IN" msd="UPosTag=ADP" lemma="among" function="Z5" ana="sem:Z5">Among</w>
 <w xml:id="i-XP8maErNxrB5pJXU4oaPsr.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="other" function="A6.1-" ana="sem:A6.1n">other</w>
 <w xml:id="i-XP8maErNxrB5pJXU4oaPsr.t3" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="thing" function="O2,X4.1,A7-,S2mf,L2mf" ana="sem:O2" join="right">things</w>
@@ -915,6 +949,7 @@
                </seg>
                <seg xml:id="i-Q4LxuQDovmC4XYTFBb7tdJ" xml:lang="en" corresp="mt-src:i-Q4LxuQDovmC4XYTFBb7tdJ">
                   <s xml:id="i-XP8mg51zpyEsMChJgtgLHJ" n="1" corresp="mt-src:i-XP8mg51zpyEsMChJgtgLHJ">
+                     <measure type="sentiment" quantity="2.378" ana="senti:neuneg" corresp="#i-XP8mg51zpyEsMChJgtgLHJ"/>
 <w xml:id="i-XP8mg51zpyEsMChJgtgLHJ.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
                      <name type="MISC">
 <w xml:id="i-XP8mg51zpyEsMChJgtgLHJ.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="Christian" function="T1.3" ana="sem:T1.3">Christian</w>
@@ -960,6 +995,7 @@
 <pc xml:id="i-XP8mg51zpyEsMChJgtgLHJ.t35" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8mnjVZXgTUpEKQYRNGAx" n="2" corresp="mt-src:i-XP8mnjVZXgTUpEKQYRNGAx">
+                     <measure type="sentiment" quantity="0.147" ana="senti:negneg" corresp="#i-XP8mnjVZXgTUpEKQYRNGAx"/>
 <w xml:id="i-XP8mnjVZXgTUpEKQYRNGAx.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XP8mnjVZXgTUpEKQYRNGAx.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XP8mnjVZXgTUpEKQYRNGAx.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="regrettable" function="E4.1-" ana="sem:E4.1n">regrettable</w>
@@ -982,6 +1018,7 @@
                </seg>
                <seg xml:id="i-GEUwvKYttjH26TLmycmJFC" xml:lang="en" corresp="mt-src:i-GEUwvKYttjH26TLmycmJFC">
                   <s xml:id="i-XP8mtZfBPoXGM8VFAWUCaQ" n="1" corresp="mt-src:i-XP8mtZfBPoXGM8VFAWUCaQ">
+                     <measure type="sentiment" quantity="2.338" ana="senti:neuneg" corresp="#i-XP8mtZfBPoXGM8VFAWUCaQ"/>
 <w xml:id="i-XP8mtZfBPoXGM8VFAWUCaQ.t1" pos="RB" msd="UPosTag=ADV" lemma="instead" function="A6.1-" ana="sem:A6.1n" join="right">Instead</w>
 <pc xml:id="i-XP8mtZfBPoXGM8VFAWUCaQ.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="i-XP8mtZfBPoXGM8VFAWUCaQ.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -1014,6 +1051,7 @@
 <pc xml:id="i-XP8mtZfBPoXGM8VFAWUCaQ.t30" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8n1E8k6WjspA7M23A8U4" n="2" corresp="mt-src:i-XP8n1E8k6WjspA7M23A8U4">
+                     <measure type="sentiment" quantity="5.044" ana="senti:pospos" corresp="#i-XP8n1E8k6WjspA7M23A8U4"/>
 <w xml:id="i-XP8n1E8k6WjspA7M23A8U4.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5">That</w>
 <w xml:id="i-XP8n1E8k6WjspA7M23A8U4.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XP8n1E8k6WjspA7M23A8U4.t3" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
@@ -1025,6 +1063,7 @@
 <pc xml:id="i-XP8n1E8k6WjspA7M23A8U4.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8n74JMxdofM4HBe8G4sW" n="3" corresp="mt-src:i-XP8n74JMxdofM4HBe8G4sW">
+                     <measure type="sentiment" quantity="1.766" ana="senti:neuneg" corresp="#i-XP8n74JMxdofM4HBe8G4sW"/>
 <w xml:id="i-XP8n74JMxdofM4HBe8G4sW.t1" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">However</w>
 <pc xml:id="i-XP8n74JMxdofM4HBe8G4sW.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="i-XP8n74JMxdofM4HBe8G4sW.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -1052,6 +1091,7 @@
 <pc xml:id="i-XP8n74JMxdofM4HBe8G4sW.t23" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8nCtTypksSsxT2GDN1Gx" n="4" corresp="mt-src:i-XP8nCtTypksSsxT2GDN1Gx">
+                     <measure type="sentiment" quantity="0.854" ana="senti:mixneg" corresp="#i-XP8nCtTypksSsxT2GDN1Gx"/>
 <w xml:id="i-XP8nCtTypksSsxT2GDN1Gx.t1" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="make" function="A1.1.1,A9+,A2.2,S6+,A3+,A9-,X9.2+,X6+" ana="sem:A1.1.1">Making</w>
 <w xml:id="i-XP8nCtTypksSsxT2GDN1Gx.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="individual" function="N5-" ana="sem:N5n">individual</w>
 <w xml:id="i-XP8nCtTypksSsxT2GDN1Gx.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="economic" function="I1.3-,I2.1" ana="sem:I1.3n">economic</w>
@@ -1069,6 +1109,7 @@
 <pc xml:id="i-XP8nCtTypksSsxT2GDN1Gx.t15" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8nJidbgswEQrcrtJTwgQ" n="5" corresp="mt-src:i-XP8nJidbgswEQrcrtJTwgQ">
+                     <measure type="sentiment" quantity="0.375" ana="senti:negneg" corresp="#i-XP8nJidbgswEQrcrtJTwgQ"/>
 <w xml:id="i-XP8nJidbgswEQrcrtJTwgQ.t1" pos="IN" msd="UPosTag=ADP" lemma="because" function="Z5/A2.2" ana="sem:Z5 sem:A2.2">Because</w>
 <w xml:id="i-XP8nJidbgswEQrcrtJTwgQ.t2" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
 <w xml:id="i-XP8nJidbgswEQrcrtJTwgQ.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -1085,6 +1126,7 @@
 <pc xml:id="i-XP8nJidbgswEQrcrtJTwgQ.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8nRP7APb9qstExjq9sa4" n="6" corresp="mt-src:i-XP8nRP7APb9qstExjq9sa4">
+                     <measure type="sentiment" quantity="0.427" ana="senti:negneg" corresp="#i-XP8nRP7APb9qstExjq9sa4"/>
 <w xml:id="i-XP8nRP7APb9qstExjq9sa4.t1" pos="CC" msd="UPosTag=CCONJ" lemma="nor" function="Z6" ana="sem:Z6">Nor</w>
 <w xml:id="i-XP8nRP7APb9qstExjq9sa4.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="do" function="A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5" ana="sem:A1.1.1">does</w>
 <w xml:id="i-XP8nRP7APb9qstExjq9sa4.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -1111,6 +1153,7 @@
 <pc xml:id="i-XP8nRP7APb9qstExjq9sa4.t24" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8nY3aj6JNTLus4bMqoTi" n="7" corresp="mt-src:i-XP8nY3aj6JNTLus4bMqoTi">
+                     <measure type="sentiment" quantity="0.231" ana="senti:negneg" corresp="#i-XP8nY3aj6JNTLus4bMqoTi"/>
 <w xml:id="i-XP8nY3aj6JNTLus4bMqoTi.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5" join="right">That</w>
 <w xml:id="i-XP8nY3aj6JNTLus4bMqoTi.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A9+,A3+,A2.2,Z5" ana="sem:A9p">'s</w>
 <w xml:id="i-XP8nY3aj6JNTLus4bMqoTi.t3" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
@@ -1123,6 +1166,7 @@
                </seg>
                <seg xml:id="i-VxmDrp3vFzrSk7NyxXmkW8" xml:lang="en" corresp="mt-src:i-VxmDrp3vFzrSk7NyxXmkW8">
                   <s xml:id="i-XP8nei4Ho1b4owVAStXjMN" n="1" corresp="mt-src:i-XP8nei4Ho1b4owVAStXjMN">
+                     <measure type="sentiment" quantity="0.076" ana="senti:negneg" corresp="#i-XP8nei4Ho1b4owVAStXjMN"/>
 <w xml:id="i-XP8nei4Ho1b4owVAStXjMN.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="i-XP8nei4Ho1b4owVAStXjMN.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="current" function="T1.1.2" ana="sem:T1.1.2">current</w>
 <w xml:id="i-XP8nei4Ho1b4owVAStXjMN.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="economic" function="I1.3-,I2.1" ana="sem:I1.3n">economic</w>
@@ -1159,6 +1203,7 @@
 <pc xml:id="i-XP8nei4Ho1b4owVAStXjMN.t32" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8nkYDuf8erLqf14ydfkp" n="2" corresp="mt-src:i-XP8nkYDuf8erLqf14ydfkp">
+                     <measure type="sentiment" quantity="0.150" ana="senti:negneg" corresp="#i-XP8nkYDuf8erLqf14ydfkp"/>
 <w xml:id="i-XP8nkYDuf8erLqf14ydfkp.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="i-XP8nkYDuf8erLqf14ydfkp.t2" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="propose" function="Q2.2/X7+,X4.1,G1.2,Q2.2/S4" ana="sem:Q2.2 sem:X7p">proposed</w>
 <w xml:id="i-XP8nkYDuf8erLqf14ydfkp.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="law" function="G2.1,S6+,Y1" ana="sem:G2.1">law</w>
@@ -1170,6 +1215,7 @@
 <pc xml:id="i-XP8nkYDuf8erLqf14ydfkp.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8nsChUMqsTosH6vWKbeU" n="3" corresp="mt-src:i-XP8nsChUMqsTosH6vWKbeU">
+                     <measure type="sentiment" quantity="0.740" ana="senti:mixneg" corresp="#i-XP8nsChUMqsTosH6vWKbeU"/>
                      <phr type="sem" function="T1.3" ana="sem:T1.3">
 <w xml:id="i-XP8nsChUMqsTosH6vWKbeU.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="supply" function="T1.3" ana="sem:T1.3">Supply</w>
 <w xml:id="i-XP8nsChUMqsTosH6vWKbeU.t2" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
@@ -1185,6 +1231,7 @@
 <pc xml:id="i-XP8nsChUMqsTosH6vWKbeU.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8nysB34Z65GtuCn31XY8" n="4" corresp="mt-src:i-XP8nysB34Z65GtuCn31XY8">
+                     <measure type="sentiment" quantity="4.108" ana="senti:mixpos" corresp="#i-XP8nysB34Z65GtuCn31XY8"/>
 <w xml:id="i-XP8nysB34Z65GtuCn31XY8.t1" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">A</w>
 <w xml:id="i-XP8nysB34Z65GtuCn31XY8.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="clear" function="A7+,A10+,O4.3,O4.1,N5.1+,W4" ana="sem:A7p">clear</w>
 <w xml:id="i-XP8nysB34Z65GtuCn31XY8.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="framework" function="X4.2" ana="sem:X4.2">framework</w>
@@ -1216,6 +1263,7 @@
 <pc xml:id="i-XP8nysB34Z65GtuCn31XY8.t29" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8o6XebmGJgjvXJdZhTRn" n="5" corresp="mt-src:i-XP8o6XebmGJgjvXJdZhTRn">
+                     <measure type="sentiment" quantity="2.224" ana="senti:neuneg" corresp="#i-XP8o6XebmGJgjvXJdZhTRn"/>
 <w xml:id="i-XP8o6XebmGJgjvXJdZhTRn.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
                      <name type="MISC">
 <w xml:id="i-XP8o6XebmGJgjvXJdZhTRn.t2" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Christian" function="T1.3" ana="sem:T1.3">Christian</w>
@@ -1239,6 +1287,7 @@
 <pc xml:id="i-XP8o6XebmGJgjvXJdZhTRn.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8oDC8ATyXJCx9QV6PPKS" n="6" corresp="mt-src:i-XP8oDC8ATyXJCx9QV6PPKS">
+                     <measure type="sentiment" quantity="3.827" ana="senti:mixpos" corresp="#i-XP8oDC8ATyXJCx9QV6PPKS"/>
 <w xml:id="i-XP8oDC8ATyXJCx9QV6PPKS.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="i-XP8oDC8ATyXJCx9QV6PPKS.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="would" function="A7+" ana="sem:A7p">would</w>
 <w xml:id="i-XP8oDC8ATyXJCx9QV6PPKS.t3" pos="RB" msd="UPosTag=ADV" lemma="therefore" function="Z5" ana="sem:Z5">therefore</w>
@@ -1263,6 +1312,7 @@
                </seg>
                <seg xml:id="i-GWLERytzc9SSUZBd1B4ZPT" xml:lang="en" corresp="mt-src:i-GWLERytzc9SSUZBd1B4ZPT">
                   <s xml:id="i-XP8oKrbjAgjufymWLd5KD6" n="1" corresp="mt-src:i-XP8oKrbjAgjufymWLd5KD6">
+                     <measure type="sentiment" quantity="2.189" ana="senti:neuneg" corresp="#i-XP8oKrbjAgjufymWLd5KD6"/>
 <w xml:id="i-XP8oKrbjAgjufymWLd5KD6.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XP8oKrbjAgjufymWLd5KD6.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XP8oKrbjAgjufymWLd5KD6.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="necessary" function="S6+,A11.1+" ana="sem:S6p">necessary</w>
@@ -1284,6 +1334,7 @@
 <pc xml:id="i-XP8oKrbjAgjufymWLd5KD6.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8oRgmM2oohCswLxiBFcY" n="2" corresp="mt-src:i-XP8oRgmM2oohCswLxiBFcY">
+                     <measure type="sentiment" quantity="2.429" ana="senti:neuneg" corresp="#i-XP8oRgmM2oohCswLxiBFcY"/>
 <w xml:id="i-XP8oRgmM2oohCswLxiBFcY.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XP8oRgmM2oohCswLxiBFcY.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XP8oRgmM2oohCswLxiBFcY.t3" pos="RB" msd="UPosTag=ADV" lemma="equally" function="A6.1+" ana="sem:A6.1p">equally</w>
@@ -1308,6 +1359,7 @@
                </seg>
                <seg xml:id="i-MMQxxeBoB6ecURXwmGDMXv" xml:lang="en" corresp="mt-src:i-MMQxxeBoB6ecURXwmGDMXv">
                   <s xml:id="i-XP8oYMEujX2JfuZSpEsBWC" n="1" corresp="mt-src:i-XP8oYMEujX2JfuZSpEsBWC">
+                     <measure type="sentiment" quantity="4.908" ana="senti:pospos" corresp="#i-XP8oYMEujX2JfuZSpEsBWC"/>
 <w xml:id="i-XP8oYMEujX2JfuZSpEsBWC.t1" pos="RB" msd="UPosTag=ADV" lemma="finally" function="N4" ana="sem:N4" join="right">Finally</w>
 <pc xml:id="i-XP8oYMEujX2JfuZSpEsBWC.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="i-XP8oYMEujX2JfuZSpEsBWC.t3" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
@@ -1363,9 +1415,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-SE_2020-04-16-prot-201920--106.ana.note19" xml:lang="en" corresp="mt-src:ParlaMint-SE_2020-04-16-prot-201920--106.ana.note19">Anf. 2 CAMILLA WALTERSSON GREEN WALL (M):</note>
-            <u ana="#regular" who="#Q4990177" xml:id="i-19e7640c7a732d9e-15" xml:lang="en" corresp="mt-src:i-19e7640c7a732d9e-15">
+            <u ana="#regular topic:healt" who="#Q4990177" xml:id="i-19e7640c7a732d9e-15" xml:lang="en" corresp="mt-src:i-19e7640c7a732d9e-15">
                <seg xml:id="i-GNxq4Hmy4c7QoULuLi6qf5" xml:lang="en" corresp="mt-src:i-GNxq4Hmy4c7QoULuLi6qf5">
                   <s xml:id="i-XP8of1iUSEEv8wBYfmZ7Pr" n="1" corresp="mt-src:i-XP8of1iUSEEv8wBYfmZ7Pr">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XP8of1iUSEEv8wBYfmZ7Pr"/>
                      <phr type="sem" function="Z1f" ana="sem:Z1">
 <w xml:id="i-XP8of1iUSEEv8wBYfmZ7Pr.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="madam" function="Z1f" ana="sem:Z1">Madam</w>
 <w xml:id="i-XP8of1iUSEEv8wBYfmZ7Pr.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="President" function="Z1f" ana="sem:Z1" join="right">President</w>
@@ -1376,6 +1429,7 @@
 <w xml:id="i-XP8of1iUSEEv8wBYfmZ7Pr.t6" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="like" function="E2+" ana="sem:E2p">like</w>
                   </s>
                   <s xml:id="i-XP8omgC38wTXbxoeXJF3HW" n="2" corresp="mt-src:i-XP8omgC38wTXbxoeXJF3HW">
+                     <measure type="sentiment" quantity="4.219" ana="senti:mixpos" corresp="#i-XP8omgC38wTXbxoeXJF3HW"/>
 <w xml:id="i-XP8omgC38wTXbxoeXJF3HW.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
                      <name type="MISC">
 <w xml:id="i-XP8omgC38wTXbxoeXJF3HW.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Coronapandemy" function="Z99" ana="sem:Z99">Coronapandemy</w>
@@ -1448,6 +1502,7 @@
 <pc xml:id="i-XP8omgC38wTXbxoeXJF3HW.t58" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8osWMf14XK8ryV9PLygx" n="3" corresp="mt-src:i-XP8osWMf14XK8ryV9PLygx">
+                     <measure type="sentiment" quantity="0.210" ana="senti:negneg" corresp="#i-XP8osWMf14XK8ryV9PLygx"/>
 <w xml:id="i-XP8osWMf14XK8ryV9PLygx.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">In</w>
 <w xml:id="i-XP8osWMf14XK8ryV9PLygx.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="many" function="N5+" ana="sem:N5p">many</w>
 <w xml:id="i-XP8osWMf14XK8ryV9PLygx.t3" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="way" function="X4.2,M6,M3/H3,N3.3,A4.1,A1.1.1,T1.3" ana="sem:X4.2" join="right">ways</w>
@@ -1471,6 +1526,7 @@
                </seg>
                <seg xml:id="i-FDSttdmdep1J5bpsyTdqgT" xml:lang="en" corresp="mt-src:i-FDSttdmdep1J5bpsyTdqgT">
                   <s xml:id="i-XP8ozAqDhmjvbtbazv2uac" n="1" corresp="mt-src:i-XP8ozAqDhmjvbtbazv2uac">
+                     <measure type="sentiment" quantity="0.884" ana="senti:mixneg" corresp="#i-XP8ozAqDhmjvbtbazv2uac"/>
 <w xml:id="i-XP8ozAqDhmjvbtbazv2uac.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">In</w>
 <w xml:id="i-XP8ozAqDhmjvbtbazv2uac.t2" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">this</w>
 <w xml:id="i-XP8ozAqDhmjvbtbazv2uac.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="serious" function="A11.1+,A15-,E4.1-" ana="sem:A11.1p">serious</w>
@@ -1494,6 +1550,7 @@
 <pc xml:id="i-XP8ozAqDhmjvbtbazv2uac.t21" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8p6qJnQUxY4vDgrSiqUG" n="2" corresp="mt-src:i-XP8p6qJnQUxY4vDgrSiqUG">
+                     <measure type="sentiment" quantity="1.491" ana="senti:mixneg" corresp="#i-XP8p6qJnQUxY4vDgrSiqUG"/>
 <w xml:id="i-XP8p6qJnQUxY4vDgrSiqUG.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XP8p6qJnQUxY4vDgrSiqUG.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XP8p6qJnQUxY4vDgrSiqUG.t3" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
@@ -1530,6 +1587,7 @@
 <pc xml:id="i-XP8p6qJnQUxY4vDgrSiqUG.t28" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8pDVnM7CB9XwqnhyQmMv" n="3" corresp="mt-src:i-XP8pDVnM7CB9XwqnhyQmMv">
+                     <measure type="sentiment" quantity="0.478" ana="senti:negneg" corresp="#i-XP8pDVnM7CB9XwqnhyQmMv"/>
 <w xml:id="i-XP8pDVnM7CB9XwqnhyQmMv.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
 <w xml:id="i-XP8pDVnM7CB9XwqnhyQmMv.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="put" function="M2,Q2.1,Q2.2,A1.1.1" ana="sem:M2">puts</w>
 <w xml:id="i-XP8pDVnM7CB9XwqnhyQmMv.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="great" function="A5.1+,A11.1+,N3.2+,N5+,X5.2+,A13.3" ana="sem:A5.1p">great</w>
@@ -1544,6 +1602,7 @@
 <pc xml:id="i-XP8pDVnM7CB9XwqnhyQmMv.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8pLAFuouPkzyTtZW6hFa" n="4" corresp="mt-src:i-XP8pLAFuouPkzyTtZW6hFa">
+                     <measure type="sentiment" quantity="0.185" ana="senti:negneg" corresp="#i-XP8pLAFuouPkzyTtZW6hFa"/>
 <w xml:id="i-XP8pLAFuouPkzyTtZW6hFa.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XP8pLAFuouPkzyTtZW6hFa.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XP8pLAFuouPkzyTtZW6hFa.t3" pos="RB" msd="UPosTag=ADV" lemma="literally" function="A13.2,Q3" ana="sem:A13.2">literally</w>
@@ -1568,6 +1627,7 @@
                </seg>
                <seg xml:id="i-RvDGMAvZEssNh4Q1qUwySZ" xml:lang="en" corresp="mt-src:i-RvDGMAvZEssNh4Q1qUwySZ">
                   <s xml:id="i-XP8pRzRXg2TYXsdjBbCdf2" n="1" corresp="mt-src:i-XP8pRzRXg2TYXsdjBbCdf2">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XP8pRzRXg2TYXsdjBbCdf2"/>
                      <phr type="sem" function="Z1f" ana="sem:Z1">
 <w xml:id="i-XP8pRzRXg2TYXsdjBbCdf2.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="madam" function="Z1f" ana="sem:Z1">Madam</w>
 <w xml:id="i-XP8pRzRXg2TYXsdjBbCdf2.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="President" function="Z1f" ana="sem:Z1" join="right">President</w>
@@ -1578,6 +1638,7 @@
 <w xml:id="i-XP8pRzRXg2TYXsdjBbCdf2.t6" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="like" function="E2+" ana="sem:E2p">like</w>
                   </s>
                   <s xml:id="i-XP8pYeu6Njg9zuFq37tZYg" n="2" corresp="mt-src:i-XP8pYeu6Njg9zuFq37tZYg">
+                     <measure type="sentiment" quantity="3.083" ana="senti:neupos" corresp="#i-XP8pYeu6Njg9zuFq37tZYg"/>
 <w xml:id="i-XP8pYeu6Njg9zuFq37tZYg.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="i-XP8pYeu6Njg9zuFq37tZYg.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="government" function="G1.1c" ana="sem:G1.1">Government</w>
 <w xml:id="i-XP8pYeu6Njg9zuFq37tZYg.t3" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="propose" function="Q2.2/X7+,X4.1,G1.2,Q2.2/S4" ana="sem:Q2.2 sem:X7p">proposes</w>
@@ -1613,6 +1674,7 @@
 <pc xml:id="i-XP8pYeu6Njg9zuFq37tZYg.t31" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8peV4iErjwXoRffCzVx8" n="3" corresp="mt-src:i-XP8peV4iErjwXoRffCzVx8">
+                     <measure type="sentiment" quantity="2.223" ana="senti:neuneg" corresp="#i-XP8peV4iErjwXoRffCzVx8"/>
 <w xml:id="i-XP8peV4iErjwXoRffCzVx8.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="i-XP8peV4iErjwXoRffCzVx8.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="new" function="T3-" ana="sem:T3n">new</w>
 <w xml:id="i-XP8peV4iErjwXoRffCzVx8.t3" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="provision" function="O2,G2.1" ana="sem:O2">provisions</w>
@@ -1629,6 +1691,7 @@
 <pc xml:id="i-XP8peV4iErjwXoRffCzVx8.t12" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8pm9YGwZxYzq3mWjgRqn" n="4" corresp="mt-src:i-XP8pm9YGwZxYzq3mWjgRqn">
+                     <measure type="sentiment" quantity="2.006" ana="senti:neuneg" corresp="#i-XP8pm9YGwZxYzq3mWjgRqn"/>
 <w xml:id="i-XP8pm9YGwZxYzq3mWjgRqn.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XP8pm9YGwZxYzq3mWjgRqn.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XP8pm9YGwZxYzq3mWjgRqn.t3" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
@@ -1693,6 +1756,7 @@
                </seg>
                <seg xml:id="i-NvkfvsogbpYaY4BZdpWv41" xml:lang="en" corresp="mt-src:i-NvkfvsogbpYaY4BZdpWv41">
                   <s xml:id="i-XP8psp1qeHBATrfsNGNMjS" n="1" corresp="mt-src:i-XP8psp1qeHBATrfsNGNMjS">
+                     <measure type="sentiment" quantity="0.654" ana="senti:mixneg" corresp="#i-XP8psp1qeHBATrfsNGNMjS"/>
                      <name type="LOC">
 <w xml:id="i-XP8psp1qeHBATrfsNGNMjS.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Sweden" function="Z2" ana="sem:Z2">Sweden</w>
                      </name>
@@ -1705,6 +1769,7 @@
 <pc xml:id="i-XP8psp1qeHBATrfsNGNMjS.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8pyeBTWQEwzkqhzMUJ8t" n="2" corresp="mt-src:i-XP8pyeBTWQEwzkqhzMUJ8t">
+                     <measure type="sentiment" quantity="2.032" ana="senti:neuneg" corresp="#i-XP8pyeBTWQEwzkqhzMUJ8t"/>
                      <phr type="sem" function="A5.3+,G2.2+,N4" ana="sem:A5.3p">
 <w xml:id="i-XP8pyeBTWQEwzkqhzMUJ8t.t1" pos="IN" msd="UPosTag=SCONJ" lemma="in" function="A5.3+,G2.2+,N4" ana="sem:A5.3p">In</w>
 <w xml:id="i-XP8pyeBTWQEwzkqhzMUJ8t.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="order" function="A5.3+,G2.2+,N4" ana="sem:A5.3p">order</w>
@@ -1755,6 +1820,7 @@
                </seg>
                <seg xml:id="i-9xk4FNm1ymL9Gbr95DVDBc" xml:lang="en" corresp="mt-src:i-9xk4FNm1ymL9Gbr95DVDBc">
                   <s xml:id="i-XP8q5UM5NXJjXf1YcSaEYL" n="1" corresp="mt-src:i-XP8q5UM5NXJjXf1YcSaEYL">
+                     <measure type="sentiment" quantity="1.230" ana="senti:mixneg" corresp="#i-XP8q5UM5NXJjXf1YcSaEYL"/>
 <w xml:id="i-XP8q5UM5NXJjXf1YcSaEYL.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="i-XP8q5UM5NXJjXf1YcSaEYL.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="fact" function="A5.2+,X2.2" ana="sem:A5.2p">fact</w>
 <w xml:id="i-XP8q5UM5NXJjXf1YcSaEYL.t3" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
@@ -1794,6 +1860,7 @@
 <pc xml:id="i-XP8q5UM5NXJjXf1YcSaEYL.t35" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8qC8pe5EXLzgdeTyGARz" n="2" corresp="mt-src:i-XP8qC8pe5EXLzgdeTyGARz">
+                     <measure type="sentiment" quantity="1.260" ana="senti:mixneg" corresp="#i-XP8qC8pe5EXLzgdeTyGARz"/>
 <w xml:id="i-XP8qC8pe5EXLzgdeTyGARz.t1" pos="CC" msd="UPosTag=CCONJ" lemma="but" function="Z5" ana="sem:Z5">But</w>
 <w xml:id="i-XP8qC8pe5EXLzgdeTyGARz.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
 <w xml:id="i-XP8qC8pe5EXLzgdeTyGARz.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="way" function="X4.2,M6,M3/H3,N3.3,A4.1,A1.1.1,T1.3" ana="sem:X4.2">way</w>
@@ -1813,6 +1880,7 @@
 <pc xml:id="i-XP8qC8pe5EXLzgdeTyGARz.t17" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8qKdc9cXtnPqi1YwY5or" n="3" corresp="mt-src:i-XP8qKdc9cXtnPqi1YwY5or">
+                     <measure type="sentiment" quantity="0.378" ana="senti:negneg" corresp="#i-XP8qKdc9cXtnPqi1YwY5or"/>
 <w xml:id="i-XP8qKdc9cXtnPqi1YwY5or.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XP8qKdc9cXtnPqi1YwY5or.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="should" function="S6+,A7+" ana="sem:S6p">should</w>
 <w xml:id="i-XP8qKdc9cXtnPqi1YwY5or.t3" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
@@ -1833,6 +1901,7 @@
 <pc xml:id="i-XP8qKdc9cXtnPqi1YwY5or.t18" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8qRTmmUexZvjsrB2e2DJ" n="4" corresp="mt-src:i-XP8qRTmmUexZvjsrB2e2DJ">
+                     <measure type="sentiment" quantity="1.155" ana="senti:mixneg" corresp="#i-XP8qRTmmUexZvjsrB2e2DJ"/>
 <w xml:id="i-XP8qRTmmUexZvjsrB2e2DJ.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs" lemma="they" function="Z8mfn" ana="sem:Z8">They</w>
 <w xml:id="i-XP8qRTmmUexZvjsrB2e2DJ.t2" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin" lemma="do" function="A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5" ana="sem:A1.1.1">did</w>
 <w xml:id="i-XP8qRTmmUexZvjsrB2e2DJ.t3" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
@@ -1856,6 +1925,7 @@
 <pc xml:id="i-XP8qRTmmUexZvjsrB2e2DJ.t17" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8qY8FLBNBBPmVx2ZKx6x" n="5" corresp="mt-src:i-XP8qY8FLBNBBPmVx2ZKx6x">
+                     <measure type="sentiment" quantity="0.751" ana="senti:mixneg" corresp="#i-XP8qY8FLBNBBPmVx2ZKx6x"/>
 <w xml:id="i-XP8qY8FLBNBBPmVx2ZKx6x.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs" lemma="they" function="Z8mfn" ana="sem:Z8">They</w>
 <w xml:id="i-XP8qY8FLBNBBPmVx2ZKx6x.t2" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">had</w>
 <w xml:id="i-XP8qY8FLBNBBPmVx2ZKx6x.t3" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
@@ -1869,6 +1939,7 @@
 <pc xml:id="i-XP8qY8FLBNBBPmVx2ZKx6x.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8qdxQx3VExvffneeRtWQ" n="6" corresp="mt-src:i-XP8qdxQx3VExvffneeRtWQ">
+                     <measure type="sentiment" quantity="2.710" ana="senti:neupos" corresp="#i-XP8qdxQx3VExvffneeRtWQ"/>
 <w xml:id="i-XP8qdxQx3VExvffneeRtWQ.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
 <w xml:id="i-XP8qdxQx3VExvffneeRtWQ.t2" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
 <w xml:id="i-XP8qdxQx3VExvffneeRtWQ.t3" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
@@ -1889,6 +1960,7 @@
                </seg>
                <seg xml:id="i-TfRZhYyyLawH3bweDJdxod" xml:lang="en" corresp="mt-src:i-TfRZhYyyLawH3bweDJdxod">
                   <s xml:id="i-XP8qkctWkCTaPhHtWB7pQ4" n="1" corresp="mt-src:i-XP8qkctWkCTaPhHtWB7pQ4">
+                     <measure type="sentiment" quantity="1.403" ana="senti:mixneg" corresp="#i-XP8qkctWkCTaPhHtWB7pQ4"/>
 <w xml:id="i-XP8qkctWkCTaPhHtWB7pQ4.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
 <w xml:id="i-XP8qkctWkCTaPhHtWB7pQ4.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XP8qkctWkCTaPhHtWB7pQ4.t3" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
@@ -1898,6 +1970,7 @@
 <pc xml:id="i-XP8qkctWkCTaPhHtWB7pQ4.t7" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8qrT48cKXMvbTj8GDkoW" n="2" corresp="mt-src:i-XP8qrT48cKXMvbTj8GDkoW">
+                     <measure type="sentiment" quantity="0.337" ana="senti:negneg" corresp="#i-XP8qrT48cKXMvbTj8GDkoW"/>
 <w xml:id="i-XP8qrT48cKXMvbTj8GDkoW.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XP8qrT48cKXMvbTj8GDkoW.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="give" function="A9-,A1.1.1" ana="sem:A9n">gives</w>
 <w xml:id="i-XP8qrT48cKXMvbTj8GDkoW.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -1922,6 +1995,7 @@
 <pc xml:id="i-XP8qrT48cKXMvbTj8GDkoW.t22" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8qy7XhK2jyPd5pynughA" n="3" corresp="mt-src:i-XP8qy7XhK2jyPd5pynughA">
+                     <measure type="sentiment" quantity="4.752" ana="senti:pospos" corresp="#i-XP8qy7XhK2jyPd5pynughA"/>
 <w xml:id="i-XP8qy7XhK2jyPd5pynughA.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
 <w xml:id="i-XP8qy7XhK2jyPd5pynughA.t2" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
 <w xml:id="i-XP8qy7XhK2jyPd5pynughA.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -1958,6 +2032,7 @@
                </seg>
                <seg xml:id="i-WNKH7VtXozkU2dxJjsz6gt" xml:lang="en" corresp="mt-src:i-WNKH7VtXozkU2dxJjsz6gt">
                   <s xml:id="i-XP8r5n1G1jxarehvqKbcap" n="1" corresp="mt-src:i-XP8r5n1G1jxarehvqKbcap">
+                     <measure type="sentiment" quantity="2.740" ana="senti:neupos" corresp="#i-XP8r5n1G1jxarehvqKbcap"/>
 <w xml:id="i-XP8r5n1G1jxarehvqKbcap.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XP8r5n1G1jxarehvqKbcap.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XP8r5n1G1jxarehvqKbcap.t3" pos="RB" msd="UPosTag=ADV" lemma="extremely" function="A13.3" ana="sem:A13.3">extremely</w>
@@ -2024,6 +2099,7 @@
                </seg>
                <seg xml:id="i-Ds5WwC2PZFCMnckgwUAeWv" xml:lang="en" corresp="mt-src:i-Ds5WwC2PZFCMnckgwUAeWv">
                   <s xml:id="i-XP8rCSUpiTBCKgL2grHYUU" n="1" corresp="mt-src:i-XP8rCSUpiTBCKgL2grHYUU">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XP8rCSUpiTBCKgL2grHYUU"/>
                      <phr type="sem" function="Z1f" ana="sem:Z1">
 <w xml:id="i-XP8rCSUpiTBCKgL2grHYUU.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="madam" function="Z1f" ana="sem:Z1">Madam</w>
 <w xml:id="i-XP8rCSUpiTBCKgL2grHYUU.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="President" function="Z1f" ana="sem:Z1" join="right">President</w>
@@ -2034,6 +2110,7 @@
 <w xml:id="i-XP8rCSUpiTBCKgL2grHYUU.t6" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="like" function="E2+" ana="sem:E2p">like</w>
                   </s>
                   <s xml:id="i-XP8rK6xPRAPonhx8YNyUN8" n="2" corresp="mt-src:i-XP8rK6xPRAPonhx8YNyUN8">
+                     <measure type="sentiment" quantity="0.893" ana="senti:mixneg" corresp="#i-XP8rK6xPRAPonhx8YNyUN8"/>
 <w xml:id="i-XP8rK6xPRAPonhx8YNyUN8.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
 <w xml:id="i-XP8rK6xPRAPonhx8YNyUN8.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="share" function="S1.1.2+" ana="sem:S1.1.2p">share</w>
 <w xml:id="i-XP8rK6xPRAPonhx8YNyUN8.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -2071,6 +2148,7 @@
 <pc xml:id="i-XP8rK6xPRAPonhx8YNyUN8.t31" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8rQw81HHTbKc7yAU5Qma" n="3" corresp="mt-src:i-XP8rQw81HHTbKc7yAU5Qma">
+                     <measure type="sentiment" quantity="2.843" ana="senti:neupos" corresp="#i-XP8rQw81HHTbKc7yAU5Qma"/>
 <w xml:id="i-XP8rQw81HHTbKc7yAU5Qma.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="i-XP8rQw81HHTbKc7yAU5Qma.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="proposal" function="Q2.2,X7+,S3.2/Q2.2" ana="sem:Q2.2">proposals</w>
 <w xml:id="i-XP8rQw81HHTbKc7yAU5Qma.t3" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
@@ -2094,6 +2172,7 @@
 <pc xml:id="i-XP8rQw81HHTbKc7yAU5Qma.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8rWmHd9QXNrWHonZBMB2" n="4" corresp="mt-src:i-XP8rWmHd9QXNrWHonZBMB2">
+                     <measure type="sentiment" quantity="1.255" ana="senti:mixneg" corresp="#i-XP8rWmHd9QXNrWHonZBMB2"/>
 <w xml:id="i-XP8rWmHd9QXNrWHonZBMB2.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">In</w>
 <w xml:id="i-XP8rWmHd9QXNrWHonZBMB2.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="addition" function="N5++,N2" ana="sem:N5p" join="right">addition</w>
 <pc xml:id="i-XP8rWmHd9QXNrWHonZBMB2.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
@@ -2120,6 +2199,7 @@
 <pc xml:id="i-XP8rWmHd9QXNrWHonZBMB2.t20" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8rdRmBr7jzKXuue5sH4g" n="5" corresp="mt-src:i-XP8rdRmBr7jzKXuue5sH4g">
+                     <measure type="sentiment" quantity="0.154" ana="senti:negneg" corresp="#i-XP8rdRmBr7jzKXuue5sH4g"/>
 <w xml:id="i-XP8rdRmBr7jzKXuue5sH4g.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XP8rdRmBr7jzKXuue5sH4g.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XP8rdRmBr7jzKXuue5sH4g.t3" pos="RB" msd="UPosTag=ADV" lemma="therefore" function="Z5" ana="sem:Z5">therefore</w>
@@ -2156,6 +2236,7 @@
                </seg>
                <seg xml:id="i-R5g1ncnzhCpWbzQZW7C3BX" xml:lang="en" corresp="mt-src:i-R5g1ncnzhCpWbzQZW7C3BX">
                   <s xml:id="i-XP8rk6EkYpxbnZY1VcZCxL" n="1" corresp="mt-src:i-XP8rk6EkYpxbnZY1VcZCxL">
+                     <measure type="sentiment" quantity="2.097" ana="senti:neuneg" corresp="#i-XP8rk6EkYpxbnZY1VcZCxL"/>
 <w xml:id="i-XP8rk6EkYpxbnZY1VcZCxL.t1" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">However</w>
 <pc xml:id="i-XP8rk6EkYpxbnZY1VcZCxL.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="i-XP8rk6EkYpxbnZY1VcZCxL.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -2231,6 +2312,7 @@
 <pc xml:id="i-XP8rk6EkYpxbnZY1VcZCxL.t61" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8rrkiKFYBDFbA7M9F8qz" n="2" corresp="mt-src:i-XP8rrkiKFYBDFbA7M9F8qz">
+                     <measure type="sentiment" quantity="3.758" ana="senti:mixpos" corresp="#i-XP8rrkiKFYBDFbA7M9F8qz"/>
 <w xml:id="i-XP8rrkiKFYBDFbA7M9F8qz.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
 <w xml:id="i-XP8rrkiKFYBDFbA7M9F8qz.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="mean" function="Q1.1,X7+" ana="sem:Q1.1">means</w>
 <w xml:id="i-XP8rrkiKFYBDFbA7M9F8qz.t3" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
@@ -2258,6 +2340,7 @@
                </seg>
                <seg xml:id="i-3z7xYCy2kkWNLTcNMtX1td" xml:lang="en" corresp="mt-src:i-3z7xYCy2kkWNLTcNMtX1td">
                   <s xml:id="i-XP8ryRBsxFPpicnDCfw4je" n="1" corresp="mt-src:i-XP8ryRBsxFPpicnDCfw4je">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XP8ryRBsxFPpicnDCfw4je"/>
                      <phr type="sem" function="Z1f" ana="sem:Z1">
 <w xml:id="i-XP8ryRBsxFPpicnDCfw4je.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="madam" function="Z1f" ana="sem:Z1">Madam</w>
 <w xml:id="i-XP8ryRBsxFPpicnDCfw4je.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="President" function="Z1f" ana="sem:Z1" join="right">President</w>
@@ -2268,6 +2351,7 @@
 <w xml:id="i-XP8ryRBsxFPpicnDCfw4je.t6" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="like" function="E2+" ana="sem:E2p">like</w>
                   </s>
                   <s xml:id="i-XP8s5FMVpNTcFWx3pm3196" n="2" corresp="mt-src:i-XP8s5FMVpNTcFWx3pm3196">
+                     <measure type="sentiment" quantity="1.125" ana="senti:mixneg" corresp="#i-XP8s5FMVpNTcFWx3pm3196"/>
 <w xml:id="i-XP8s5FMVpNTcFWx3pm3196.t1" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">However</w>
 <pc xml:id="i-XP8s5FMVpNTcFWx3pm3196.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="i-XP8s5FMVpNTcFWx3pm3196.t3" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
@@ -2305,6 +2389,7 @@
                </seg>
                <seg xml:id="i-KoWT96PgTXoagTkmyCLYsK" xml:lang="en" corresp="mt-src:i-KoWT96PgTXoagTkmyCLYsK">
                   <s xml:id="i-XP8sBuq4X5gDiYa9gHiw2k" n="1" corresp="mt-src:i-XP8sBuq4X5gDiYa9gHiw2k">
+                     <measure type="sentiment" quantity="2.981" ana="senti:neupos" corresp="#i-XP8sBuq4X5gDiYa9gHiw2k"/>
 <w xml:id="i-XP8sBuq4X5gDiYa9gHiw2k.t1" pos="IN" msd="UPosTag=ADP" lemma="among" function="Z5" ana="sem:Z5">Among</w>
 <w xml:id="i-XP8sBuq4X5gDiYa9gHiw2k.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="other" function="A6.1-" ana="sem:A6.1n">other</w>
 <w xml:id="i-XP8sBuq4X5gDiYa9gHiw2k.t3" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="thing" function="O2,X4.1,A7-,S2mf,L2mf" ana="sem:O2" join="right">things</w>
@@ -2345,6 +2430,7 @@
 <pc xml:id="i-XP8sBuq4X5gDiYa9gHiw2k.t36" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8sJaJdDntqBaCFXpQrvQ" n="2" corresp="mt-src:i-XP8sJaJdDntqBaCFXpQrvQ">
+                     <measure type="sentiment" quantity="2.972" ana="senti:neupos" corresp="#i-XP8sJaJdDntqBaCFXpQrvQ"/>
 <w xml:id="i-XP8sJaJdDntqBaCFXpQrvQ.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XP8sJaJdDntqBaCFXpQrvQ.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XP8sJaJdDntqBaCFXpQrvQ.t3" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
@@ -2365,6 +2451,7 @@
                </seg>
                <seg xml:id="i-WcVYLrVMpm5oLYbXAFjD2J" xml:lang="en" corresp="mt-src:i-WcVYLrVMpm5oLYbXAFjD2J">
                   <s xml:id="i-XP8sQQUF5uxciUN69uWoKr" n="1" corresp="mt-src:i-XP8sQQUF5uxciUN69uWoKr">
+                     <measure type="sentiment" quantity="2.897" ana="senti:neupos" corresp="#i-XP8sQQUF5uxciUN69uWoKr"/>
 <w xml:id="i-XP8sQQUF5uxciUN69uWoKr.t1" pos="RB" msd="UPosTag=ADV" lemma="furthermore" function="Z5" ana="sem:Z5" join="right">Furthermore</w>
 <pc xml:id="i-XP8sQQUF5uxciUN69uWoKr.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="i-XP8sQQUF5uxciUN69uWoKr.t3" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">we</w>
@@ -2408,6 +2495,7 @@
                </seg>
                <seg xml:id="i-34SkRwTJPcPaGUVJk843xs" xml:lang="en" corresp="mt-src:i-34SkRwTJPcPaGUVJk843xs">
                   <s xml:id="i-XP8sX4wondBEBVzC1SCjDW" n="1" corresp="mt-src:i-XP8sX4wondBEBVzC1SCjDW">
+                     <measure type="sentiment" quantity="0.923" ana="senti:mixneg" corresp="#i-XP8sX4wondBEBVzC1SCjDW"/>
 <w xml:id="i-XP8sX4wondBEBVzC1SCjDW.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
 <w xml:id="i-XP8sX4wondBEBVzC1SCjDW.t2" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
 <w xml:id="i-XP8sX4wondBEBVzC1SCjDW.t3" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="want" function="X7+,S6+,A7+,S3.2,A9-" ana="sem:X7p">want</w>
@@ -2434,6 +2522,7 @@
 <pc xml:id="i-XP8sX4wondBEBVzC1SCjDW.t24" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8scu7RekF1iQA2dXJfcx" n="2" corresp="mt-src:i-XP8scu7RekF1iQA2dXJfcx">
+                     <measure type="sentiment" quantity="3.739" ana="senti:mixpos" corresp="#i-XP8scu7RekF1iQA2dXJfcx"/>
 <w xml:id="i-XP8scu7RekF1iQA2dXJfcx.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
 <w xml:id="i-XP8scu7RekF1iQA2dXJfcx.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="mean" function="Q1.1,X7+" ana="sem:Q1.1">means</w>
 <w xml:id="i-XP8scu7RekF1iQA2dXJfcx.t3" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
@@ -2475,6 +2564,7 @@
 <pc xml:id="i-XP8scu7RekF1iQA2dXJfcx.t35" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8sjZazMTTdBRn8V3zbWc" n="3" corresp="mt-src:i-XP8sjZazMTTdBRn8V3zbWc">
+                     <measure type="sentiment" quantity="2.901" ana="senti:neupos" corresp="#i-XP8sjZazMTTdBRn8V3zbWc"/>
 <w xml:id="i-XP8sjZazMTTdBRn8V3zbWc.t1" pos="PRP$" msd="UPosTag=PRON|Number=Plur|Person=1|Poss=Yes|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">Our</w>
 <w xml:id="i-XP8sjZazMTTdBRn8V3zbWc.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="proposal" function="Q2.2,X7+,S3.2/Q2.2" ana="sem:Q2.2">proposal</w>
 <w xml:id="i-XP8sjZazMTTdBRn8V3zbWc.t3" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
@@ -2514,6 +2604,7 @@
                </seg>
                <seg xml:id="i-8f2ygVGbGmNFRoqHvFEkbg" xml:lang="en" corresp="mt-src:i-8f2ygVGbGmNFRoqHvFEkbg">
                   <s xml:id="i-XP8sqPkcDaXQiKwy796Xv4" n="1" corresp="mt-src:i-XP8sqPkcDaXQiKwy796Xv4">
+                     <measure type="sentiment" quantity="3.344" ana="senti:neupos" corresp="#i-XP8sqPkcDaXQiKwy796Xv4"/>
 <w xml:id="i-XP8sqPkcDaXQiKwy796Xv4.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="i-XP8sqPkcDaXQiKwy796Xv4.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="would" function="A7+" ana="sem:A7p">would</w>
 <w xml:id="i-XP8sqPkcDaXQiKwy796Xv4.t3" pos="RB" msd="UPosTag=ADV" lemma="therefore" function="Z5" ana="sem:Z5">therefore</w>
@@ -2542,6 +2633,7 @@
                </seg>
                <seg xml:id="i-KxfN3LXJ8fTmGWvyggMZ2x" xml:lang="en" corresp="mt-src:i-KxfN3LXJ8fTmGWvyggMZ2x">
                   <s xml:id="i-XP8sx4EAvHk2BMa4xfnToi" n="1" corresp="mt-src:i-XP8sx4EAvHk2BMa4xfnToi">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XP8sx4EAvHk2BMa4xfnToi"/>
                      <phr type="sem" function="Z1f" ana="sem:Z1">
 <w xml:id="i-XP8sx4EAvHk2BMa4xfnToi.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="madam" function="Z1f" ana="sem:Z1">Madam</w>
 <w xml:id="i-XP8sx4EAvHk2BMa4xfnToi.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="President" function="Z1f" ana="sem:Z1" join="right">President</w>
@@ -2552,6 +2644,7 @@
 <w xml:id="i-XP8sx4EAvHk2BMa4xfnToi.t6" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="like" function="E2+" ana="sem:E2p">like</w>
                   </s>
                   <s xml:id="i-XP8t4ihjczxdePCApCUPhN" n="2" corresp="mt-src:i-XP8t4ihjczxdePCApCUPhN">
+                     <measure type="sentiment" quantity="3.362" ana="senti:neupos" corresp="#i-XP8t4ihjczxdePCApCUPhN"/>
 <w xml:id="i-XP8t4ihjczxdePCApCUPhN.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>
 <w xml:id="i-XP8t4ihjczxdePCApCUPhN.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">have</w>
 <w xml:id="i-XP8t4ihjczxdePCApCUPhN.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="be" function="A3+,Z5" ana="sem:A3p">been</w>
@@ -2588,6 +2681,7 @@
 <pc xml:id="i-XP8t4ihjczxdePCApCUPhN.t30" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8tBPBJKiBF7QpGfjAKb2" n="3" corresp="mt-src:i-XP8tBPBJKiBF7QpGfjAKb2">
+                     <measure type="sentiment" quantity="1.075" ana="senti:mixneg" corresp="#i-XP8tBPBJKiBF7QpGfjAKb2"/>
 <w xml:id="i-XP8tBPBJKiBF7QpGfjAKb2.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
 <w xml:id="i-XP8tBPBJKiBF7QpGfjAKb2.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XP8tBPBJKiBF7QpGfjAKb2.t3" pos="RB" msd="UPosTag=ADV" lemma="particularly" function="A13.3,A14" ana="sem:A13.3">particularly</w>
@@ -2628,6 +2722,7 @@
 <pc xml:id="i-XP8tBPBJKiBF7QpGfjAKb2.t36" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8tHDLvBqF2eJz7HpGFzU" n="4" corresp="mt-src:i-XP8tHDLvBqF2eJz7HpGFzU">
+                     <measure type="sentiment" quantity="4.170" ana="senti:mixpos" corresp="#i-XP8tHDLvBqF2eJz7HpGFzU"/>
 <w xml:id="i-XP8tHDLvBqF2eJz7HpGFzU.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XP8tHDLvBqF2eJz7HpGFzU.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XP8tHDLvBqF2eJz7HpGFzU.t3" pos="RB" msd="UPosTag=ADV" lemma="therefore" function="Z5" ana="sem:Z5">therefore</w>
@@ -2678,6 +2773,7 @@
                </seg>
                <seg xml:id="i-UbSPX7SfhkqDdH5hRSER56" xml:lang="en" corresp="mt-src:i-UbSPX7SfhkqDdH5hRSER56">
                   <s xml:id="i-XP8tP3WY3xJpBD9wuuNCPv" n="1" corresp="mt-src:i-XP8tP3WY3xJpBD9wuuNCPv">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XP8tP3WY3xJpBD9wuuNCPv"/>
                      <phr type="sem" function="Z1f" ana="sem:Z1">
 <w xml:id="i-XP8tP3WY3xJpBD9wuuNCPv.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="madam" function="Z1f" ana="sem:Z1">Madam</w>
 <w xml:id="i-XP8tP3WY3xJpBD9wuuNCPv.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="President" function="Z1f" ana="sem:Z1" join="right">President</w>
@@ -2688,6 +2784,7 @@
 <w xml:id="i-XP8tP3WY3xJpBD9wuuNCPv.t6" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="like" function="E2+" ana="sem:E2p">like</w>
                   </s>
                   <s xml:id="i-XP8tVhz6kfXReEn3mS48Ha" n="2" corresp="mt-src:i-XP8tVhz6kfXReEn3mS48Ha">
+                     <measure type="sentiment" quantity="4.335" ana="senti:mixpos" corresp="#i-XP8tVhz6kfXReEn3mS48Ha"/>
 <w xml:id="i-XP8tVhz6kfXReEn3mS48Ha.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="i-XP8tVhz6kfXReEn3mS48Ha.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="would" function="A7+" ana="sem:A7p">would</w>
 <w xml:id="i-XP8tVhz6kfXReEn3mS48Ha.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="like" function="E2+" ana="sem:E2p">like</w>
@@ -2723,6 +2820,7 @@
 <pc xml:id="i-XP8tVhz6kfXReEn3mS48Ha.t31" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8tbY9icnbDB8wtPXA4h2" n="3" corresp="mt-src:i-XP8tbY9icnbDB8wtPXA4h2">
+                     <measure type="sentiment" quantity="0.194" ana="senti:negneg" corresp="#i-XP8tbY9icnbDB8wtPXA4h2"/>
 <w xml:id="i-XP8tbY9icnbDB8wtPXA4h2.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XP8tbY9icnbDB8wtPXA4h2.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XP8tbY9icnbDB8wtPXA4h2.t3" pos="RB" msd="UPosTag=ADV" lemma="quite" function="A13.5,A13.6,A13.2" ana="sem:A13.5">quite</w>
@@ -2754,6 +2852,7 @@
                </seg>
                <seg xml:id="i-7KZbEnetNoYPmRHqKVhunw" xml:lang="en" corresp="mt-src:i-7KZbEnetNoYPmRHqKVhunw">
                   <s xml:id="i-XP8tiCdHKVopeAZzF3qzag" n="1" corresp="mt-src:i-XP8tiCdHKVopeAZzF3qzag">
+                     <measure type="sentiment" quantity="0.856" ana="senti:mixneg" corresp="#i-XP8tiCdHKVopeAZzF3qzag"/>
 <w xml:id="i-XP8tiCdHKVopeAZzF3qzag.t1" pos="WRB" msd="UPosTag=ADV|PronType=Int" lemma="how" function="Z5,A13.3" ana="sem:Z5">How</w>
                      <name type="LOC">
 <w xml:id="i-XP8tiCdHKVopeAZzF3qzag.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Sweden" function="Z2" ana="sem:Z2">Sweden</w>
@@ -2792,6 +2891,7 @@
 <pc xml:id="i-XP8tiCdHKVopeAZzF3qzag.t28" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8tps6r2D2S7CC66aXvUL" n="2" corresp="mt-src:i-XP8tps6r2D2S7CC66aXvUL">
+                     <measure type="sentiment" quantity="4.746" ana="senti:pospos" corresp="#i-XP8tps6r2D2S7CC66aXvUL"/>
 <w xml:id="i-XP8tps6r2D2S7CC66aXvUL.t1" pos="PRP$" msd="UPosTag=PRON|Number=Sing|Person=1|Poss=Yes|PronType=Prs" lemma="my" function="Z8" ana="sem:Z8">My</w>
 <w xml:id="i-XP8tps6r2D2S7CC66aXvUL.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="hope" function="X2.6+,E4.1+,X9.2+,A5.1+" ana="sem:X2.6p">hope</w>
 <w xml:id="i-XP8tps6r2D2S7CC66aXvUL.t3" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
@@ -2823,6 +2923,7 @@
 <pc xml:id="i-XP8tps6r2D2S7CC66aXvUL.t27" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8tvhGTtL6De6Mvifdrsn" n="3" corresp="mt-src:i-XP8tvhGTtL6De6Mvifdrsn">
+                     <measure type="sentiment" quantity="0.356" ana="senti:negneg" corresp="#i-XP8tvhGTtL6De6Mvifdrsn"/>
                      <name type="LOC">
 <w xml:id="i-XP8tvhGTtL6De6Mvifdrsn.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Sweden" function="T1.3" ana="sem:T1.3">Sweden</w>
                      </name>
@@ -2841,6 +2942,7 @@
 <pc xml:id="i-XP8tvhGTtL6De6Mvifdrsn.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XP8u3Mk2b3Jq77z2aCKnmS" n="4" corresp="mt-src:i-XP8u3Mk2b3Jq77z2aCKnmS">
+                     <measure type="sentiment" quantity="4.475" ana="senti:mixpos" corresp="#i-XP8u3Mk2b3Jq77z2aCKnmS"/>
 <w xml:id="i-XP8u3Mk2b3Jq77z2aCKnmS.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="i-XP8u3Mk2b3Jq77z2aCKnmS.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="country" function="G1.1c,W3,F4/M7,K2" ana="sem:G1.1" join="right">country</w>
 <w xml:id="i-XP8u3Mk2b3Jq77z2aCKnmS.t3" pos="POS" msd="UPosTag=PART" lemma="'s" function="Z5" ana="sem:Z5">'s</w>
@@ -3306,9 +3408,10 @@
             <note xml:id="ParlaMint-SE_2020-04-16-prot-201920--106.ana.note612" xml:lang="en" corresp="mt-src:ParlaMint-SE_2020-04-16-prot-201920--106.ana.note612">The House approved the committee's proposal.</note>
          </div>
          <div type="debateSection" xml:lang="en">
-            <u ana="#regular" who="#Q57168687" xml:id="i-19e7640c7a732d9e-774" xml:lang="en" corresp="mt-src:i-19e7640c7a732d9e-774">
+            <u ana="#regular topic:mixed" who="#Q57168687" xml:id="i-19e7640c7a732d9e-774" xml:lang="en" corresp="mt-src:i-19e7640c7a732d9e-774">
                <seg xml:id="i-QuEc1AVRae5RnpimjiTHb9" xml:lang="en" corresp="mt-src:i-QuEc1AVRae5RnpimjiTHb9">
                   <s xml:id="i-XPDSUTTt4YtxeGDTgSuKvk" n="1" corresp="mt-src:i-XPDSUTTt4YtxeGDTgSuKvk">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XPDSUTTt4YtxeGDTgSuKvk"/>
                      <phr type="sem" function="Z1f" ana="sem:Z1">
 <w xml:id="i-XPDSUTTt4YtxeGDTgSuKvk.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="madam" function="Z1f" ana="sem:Z1">Madam</w>
 <w xml:id="i-XPDSUTTt4YtxeGDTgSuKvk.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="President" function="Z1f" ana="sem:Z1" join="right">President</w>
@@ -3319,6 +3422,7 @@
 <w xml:id="i-XPDSUTTt4YtxeGDTgSuKvk.t6" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="like" function="E2+" ana="sem:E2p">like</w>
                   </s>
                   <s xml:id="i-XPDSaHdVvfxkBAPJJY1GLC" n="2" corresp="mt-src:i-XPDSaHdVvfxkBAPJJY1GLC">
+                     <measure type="sentiment" quantity="4.008" ana="senti:mixpos" corresp="#i-XPDSaHdVvfxkBAPJJY1GLC"/>
 <w xml:id="i-XPDSaHdVvfxkBAPJJY1GLC.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="i-XPDSaHdVvfxkBAPJJY1GLC.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="would" function="A7+" ana="sem:A7p">would</w>
 <w xml:id="i-XPDSaHdVvfxkBAPJJY1GLC.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="like" function="E2+" ana="sem:E2p">like</w>
@@ -3351,6 +3455,7 @@
 <pc xml:id="i-XPDSaHdVvfxkBAPJJY1GLC.t24" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDSgx74dPBMeC1QA4hCDr" n="3" corresp="mt-src:i-XPDSgx74dPBMeC1QA4hCDr">
+                     <measure type="sentiment" quantity="4.635" ana="senti:pospos" corresp="#i-XPDSgx74dPBMeC1QA4hCDr"/>
 <w xml:id="i-XPDSgx74dPBMeC1QA4hCDr.t1" pos="RB" msd="UPosTag=ADV" lemma="otherwise" function="A6.1-" ana="sem:A6.1n" join="right">Otherwise</w>
 <pc xml:id="i-XPDSgx74dPBMeC1QA4hCDr.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="i-XPDSgx74dPBMeC1QA4hCDr.t3" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
@@ -3365,6 +3470,7 @@
                </seg>
                <seg xml:id="i-TddZZuyxN3FnS2txJXUu6Z" xml:lang="en" corresp="mt-src:i-TddZZuyxN3FnS2txJXUu6Z">
                   <s xml:id="i-XPDSocadL6Py7DdW1bP87W" n="1" corresp="mt-src:i-XPDSocadL6Py7DdW1bP87W">
+                     <measure type="sentiment" quantity="3.672" ana="senti:mixpos" corresp="#i-XPDSocadL6Py7DdW1bP87W"/>
 <w xml:id="i-XPDSocadL6Py7DdW1bP87W.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="maritime" function="M4" ana="sem:M4">Maritime</w>
 <w xml:id="i-XPDSocadL6Py7DdW1bP87W.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="transport" function="M3,M2,M4,M5" ana="sem:M3">transport</w>
 <w xml:id="i-XPDSocadL6Py7DdW1bP87W.t3" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
@@ -3389,6 +3495,7 @@
 <pc xml:id="i-XPDSocadL6Py7DdW1bP87W.t18" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDSuSkFCDTke7oLdgV4Wx" n="2" corresp="mt-src:i-XPDSuSkFCDTke7oLdgV4Wx">
+                     <measure type="sentiment" quantity="3.533" ana="senti:mixpos" corresp="#i-XPDSuSkFCDTke7oLdgV4Wx"/>
 <w xml:id="i-XPDSuSkFCDTke7oLdgV4Wx.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XPDSuSkFCDTke7oLdgV4Wx.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XPDSuSkFCDTke7oLdgV4Wx.t3" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
@@ -3433,6 +3540,7 @@
 <pc xml:id="i-XPDSuSkFCDTke7oLdgV4Wx.t36" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDT27DotvgN79RSVDAzQc" n="3" corresp="mt-src:i-XPDT27DotvgN79RSVDAzQc">
+                     <measure type="sentiment" quantity="2.602" ana="senti:neupos" corresp="#i-XPDT27DotvgN79RSVDAzQc"/>
 <w xml:id="i-XPDT27DotvgN79RSVDAzQc.t1" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">However</w>
 <pc xml:id="i-XPDT27DotvgN79RSVDAzQc.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="i-XPDT27DotvgN79RSVDAzQc.t3" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
@@ -3472,6 +3580,7 @@
                </seg>
                <seg xml:id="i-BFDgN7zhhuK7PwSBTugcmU" xml:lang="en" corresp="mt-src:i-BFDgN7zhhuK7PwSBTugcmU">
                   <s xml:id="i-XPDT8mhNbdtyaB3YLjrvJG" n="1" corresp="mt-src:i-XPDT8mhNbdtyaB3YLjrvJG">
+                     <measure type="sentiment" quantity="1.472" ana="senti:mixneg" corresp="#i-XPDT8mhNbdtyaB3YLjrvJG"/>
 <w xml:id="i-XPDT8mhNbdtyaB3YLjrvJG.t1" pos="RB" msd="UPosTag=ADV" lemma="approximately" function="A13.4" ana="sem:A13.4">Approximately</w>
 <w xml:id="i-XPDT8mhNbdtyaB3YLjrvJG.t2" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="90" function="N1" ana="sem:N1">90</w>
 <w xml:id="i-XPDT8mhNbdtyaB3YLjrvJG.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="per" function="Z5" ana="sem:Z5">per</w>
@@ -3489,6 +3598,7 @@
 <pc xml:id="i-XPDT8mhNbdtyaB3YLjrvJG.t13" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDTEbrzTkxm75DNxpxrhi" n="2" corresp="mt-src:i-XPDTEbrzTkxm75DNxpxrhi">
+                     <measure type="sentiment" quantity="3.293" ana="senti:neupos" corresp="#i-XPDTEbrzTkxm75DNxpxrhi"/>
 <w xml:id="i-XPDTEbrzTkxm75DNxpxrhi.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
 <w xml:id="i-XPDTEbrzTkxm75DNxpxrhi.t2" pos="RB" msd="UPosTag=ADV" lemma="really" function="A13.3,A5.2+" ana="sem:A13.3">really</w>
 <w xml:id="i-XPDTEbrzTkxm75DNxpxrhi.t3" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="show" function="A10+,S1.1.1" ana="sem:A10p">shows</w>
@@ -3499,6 +3609,7 @@
 <pc xml:id="i-XPDTEbrzTkxm75DNxpxrhi.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDTMGLZAUBNa6qUpMenbN" n="3" corresp="mt-src:i-XPDTMGLZAUBNa6qUpMenbN">
+                     <measure type="sentiment" quantity="3.139" ana="senti:neupos" corresp="#i-XPDTMGLZAUBNa6qUpMenbN"/>
 <w xml:id="i-XPDTMGLZAUBNa6qUpMenbN.t1" pos="IN" msd="UPosTag=SCONJ" lemma="although" function="Z5" ana="sem:Z5">Although</w>
 <w xml:id="i-XPDTMGLZAUBNa6qUpMenbN.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
 <w xml:id="i-XPDTMGLZAUBNa6qUpMenbN.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="acute" function="A11.1+,X5.1+,X9.1+,B2-,O4.4,Q3%" ana="sem:A11.1p">acute</w>
@@ -3523,6 +3634,7 @@
 <pc xml:id="i-XPDTMGLZAUBNa6qUpMenbN.t20" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDTT6WB2bFA711KSSkizp" n="4" corresp="mt-src:i-XPDTT6WB2bFA711KSSkizp">
+                     <measure type="sentiment" quantity="3.439" ana="senti:neupos" corresp="#i-XPDTT6WB2bFA711KSSkizp"/>
 <w xml:id="i-XPDTT6WB2bFA711KSSkizp.t1" pos="RB" msd="UPosTag=ADV" lemma="now" function="Z4" ana="sem:Z4">Now</w>
 <w xml:id="i-XPDTT6WB2bFA711KSSkizp.t2" pos="RB" msd="UPosTag=ADV" lemma="really" function="A13.3,A5.2+" ana="sem:A13.3">really</w>
 <w xml:id="i-XPDTT6WB2bFA711KSSkizp.t3" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
@@ -3549,6 +3661,7 @@
                </seg>
                <seg xml:id="i-4pVNp8tJLshfiUD8bJ7ZQL" xml:lang="en" corresp="mt-src:i-4pVNp8tJLshfiUD8bJ7ZQL">
                   <s xml:id="i-XPDTZkyjjJTma2dRHySetU" n="1" corresp="mt-src:i-XPDTZkyjjJTma2dRHySetU">
+                     <measure type="sentiment" quantity="2.354" ana="senti:neuneg" corresp="#i-XPDTZkyjjJTma2dRHySetU"/>
 <w xml:id="i-XPDTZkyjjJTma2dRHySetU.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="i-XPDTZkyjjJTma2dRHySetU.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="climate" function="W4,A1.1.1,E1" ana="sem:W4">climate</w>
 <w xml:id="i-XPDTZkyjjJTma2dRHySetU.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="crisis" function="A12-" ana="sem:A12n">crisis</w>
@@ -3575,6 +3688,7 @@
 <pc xml:id="i-XPDTZkyjjJTma2dRHySetU.t22" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDTfb9MbRXZ6voFv4YbHv" n="2" corresp="mt-src:i-XPDTfb9MbRXZ6voFv4YbHv">
+                     <measure type="sentiment" quantity="2.877" ana="senti:neupos" corresp="#i-XPDTfb9MbRXZ6voFv4YbHv"/>
                      <phr type="sem" function="A5.3+,G2.2+,N4" ana="sem:A5.3p">
 <w xml:id="i-XPDTfb9MbRXZ6voFv4YbHv.t1" pos="IN" msd="UPosTag=SCONJ" lemma="in" function="A5.3+,G2.2+,N4" ana="sem:A5.3p">In</w>
 <w xml:id="i-XPDTfb9MbRXZ6voFv4YbHv.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="order" function="A5.3+,G2.2+,N4" ana="sem:A5.3p">order</w>
@@ -3610,6 +3724,7 @@
                </seg>
                <seg xml:id="i-3DPFt6jKBXhgd8f85uM2xC" xml:lang="en" corresp="mt-src:i-3DPFt6jKBXhgd8f85uM2xC">
                   <s xml:id="i-XPDTo5vs8itzW5sd12pWfn" n="1" corresp="mt-src:i-XPDTo5vs8itzW5sd12pWfn">
+                     <measure type="sentiment" quantity="3.232" ana="senti:neupos" corresp="#i-XPDTo5vs8itzW5sd12pWfn"/>
 <w xml:id="i-XPDTo5vs8itzW5sd12pWfn.t1" pos="IN" msd="UPosTag=ADP" lemma="with" function="Z5" ana="sem:Z5">With</w>
 <w xml:id="i-XPDTo5vs8itzW5sd12pWfn.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
 <w xml:id="i-XPDTo5vs8itzW5sd12pWfn.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="climate" function="W4,A1.1.1,E1" ana="sem:W4">climate</w>
@@ -3635,6 +3750,7 @@
 <pc xml:id="i-XPDTo5vs8itzW5sd12pWfn.t21" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDTtv6Uzqxn2z3Td7vT5E" n="2" corresp="mt-src:i-XPDTtv6Uzqxn2z3Td7vT5E">
+                     <measure type="sentiment" quantity="2.440" ana="senti:neuneg" corresp="#i-XPDTtv6Uzqxn2z3Td7vT5E"/>
 <w xml:id="i-XPDTtv6Uzqxn2z3Td7vT5E.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
 <w xml:id="i-XPDTtv6Uzqxn2z3Td7vT5E.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="mean" function="Q1.1,X7+" ana="sem:Q1.1">means</w>
 <w xml:id="i-XPDTtv6Uzqxn2z3Td7vT5E.t3" pos="IN" msd="UPosTag=SCONJ" lemma="that" function="Z5,Z8" ana="sem:Z5">that</w>
@@ -3648,6 +3764,7 @@
 <pc xml:id="i-XPDTtv6Uzqxn2z3Td7vT5E.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDU1aa3hZBPW1fZUecNxt" n="3" corresp="mt-src:i-XPDU1aa3hZBPW1fZUecNxt">
+                     <measure type="sentiment" quantity="4.147" ana="senti:mixpos" corresp="#i-XPDU1aa3hZBPW1fZUecNxt"/>
 <w xml:id="i-XPDU1aa3hZBPW1fZUecNxt.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="maritime" function="M4" ana="sem:M4">Maritime</w>
 <w xml:id="i-XPDU1aa3hZBPW1fZUecNxt.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="transport" function="M3,M2,M4,M5" ana="sem:M3">transport</w>
 <w xml:id="i-XPDU1aa3hZBPW1fZUecNxt.t3" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">has</w>
@@ -3675,6 +3792,7 @@
 <pc xml:id="i-XPDU1aa3hZBPW1fZUecNxt.t25" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDU8F3cQGPzy3HfLBJJrY" n="4" corresp="mt-src:i-XPDU8F3cQGPzy3HfLBJJrY">
+                     <measure type="sentiment" quantity="1.507" ana="senti:neuneg" corresp="#i-XPDU8F3cQGPzy3HfLBJJrY"/>
 <w xml:id="i-XPDU8F3cQGPzy3HfLBJJrY.t1" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">A</w>
 <w xml:id="i-XPDU8F3cQGPzy3HfLBJJrY.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="ship" function="M4fn" ana="sem:M4">ship</w>
 <w xml:id="i-XPDU8F3cQGPzy3HfLBJJrY.t3" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="can" function="A7+" ana="sem:A7p">can</w>
@@ -3697,6 +3815,7 @@
 <pc xml:id="i-XPDU8F3cQGPzy3HfLBJJrY.t20" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDUEuXB6yccS4umBhzEkC" n="5" corresp="mt-src:i-XPDUEuXB6yccS4umBhzEkC">
+                     <measure type="sentiment" quantity="3.890" ana="senti:mixpos" corresp="#i-XPDUEuXB6yccS4umBhzEkC"/>
 <w xml:id="i-XPDUEuXB6yccS4umBhzEkC.t1" pos="RB" msd="UPosTag=ADV" lemma="therefore" function="Z5" ana="sem:Z5" join="right">Therefore</w>
 <pc xml:id="i-XPDUEuXB6yccS4umBhzEkC.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="i-XPDUEuXB6yccS4umBhzEkC.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -3721,6 +3840,7 @@
 <pc xml:id="i-XPDUEuXB6yccS4umBhzEkC.t20" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDULjgny6gPxy5boo6B9e" n="6" corresp="mt-src:i-XPDULjgny6gPxy5boo6B9e">
+                     <measure type="sentiment" quantity="0.186" ana="senti:negneg" corresp="#i-XPDULjgny6gPxy5boo6B9e"/>
 <w xml:id="i-XPDULjgny6gPxy5boo6B9e.t1" pos="IN" msd="UPosTag=ADP" lemma="at" function="Z5" ana="sem:Z5">At</w>
 <w xml:id="i-XPDULjgny6gPxy5boo6B9e.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
 <w xml:id="i-XPDULjgny6gPxy5boo6B9e.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="same" function="A6.1+++" ana="sem:A6.1p">same</w>
@@ -3737,6 +3857,7 @@
 <pc xml:id="i-XPDULjgny6gPxy5boo6B9e.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDUTQAMfou1RzhhfKn73J" n="7" corresp="mt-src:i-XPDUTQAMfou1RzhhfKn73J">
+                     <measure type="sentiment" quantity="1.759" ana="senti:neuneg" corresp="#i-XPDUTQAMfou1RzhhfKn73J"/>
 <w xml:id="i-XPDUTQAMfou1RzhhfKn73J.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="maritime" function="M4" ana="sem:M4">Maritime</w>
 <w xml:id="i-XPDUTQAMfou1RzhhfKn73J.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="transport" function="M3,M2,M4,M5" ana="sem:M3">transport</w>
 <w xml:id="i-XPDUTQAMfou1RzhhfKn73J.t3" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
@@ -3754,6 +3875,7 @@
                </seg>
                <seg xml:id="i-9hrpq3oAwbfG1DzQQiBefN" xml:lang="en" corresp="mt-src:i-9hrpq3oAwbfG1DzQQiBefN">
                   <s xml:id="i-XPDUa4dvNX7cu2KoWrU2vx" n="1" corresp="mt-src:i-XPDUa4dvNX7cu2KoWrU2vx">
+                     <measure type="sentiment" quantity="0.507" ana="senti:mixneg" corresp="#i-XPDUa4dvNX7cu2KoWrU2vx"/>
 <w xml:id="i-XPDUa4dvNX7cu2KoWrU2vx.t1" pos="RB" msd="UPosTag=ADV" lemma="unfortunately" function="A1.4-,A5.1-,E4.1-" ana="sem:A1.4n" join="right">Unfortunately</w>
 <pc xml:id="i-XPDUa4dvNX7cu2KoWrU2vx.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="i-XPDUa4dvNX7cu2KoWrU2vx.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="greenhouse" function="F4/H1" ana="sem:F4 sem:H1">greenhouse</w>
@@ -3772,6 +3894,7 @@
 <pc xml:id="i-XPDUa4dvNX7cu2KoWrU2vx.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDUgj7V5ELEN3wuNP9xpc" n="2" corresp="mt-src:i-XPDUgj7V5ELEN3wuNP9xpc">
+                     <measure type="sentiment" quantity="1.693" ana="senti:neuneg" corresp="#i-XPDUgj7V5ELEN3wuNP9xpc"/>
 <w xml:id="i-XPDUgj7V5ELEN3wuNP9xpc.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="emission" function="A9-" ana="sem:A9n">Emissions</w>
 <w xml:id="i-XPDUgj7V5ELEN3wuNP9xpc.t2" pos="IN" msd="UPosTag=ADP" lemma="from" function="Z5" ana="sem:Z5">from</w>
 <w xml:id="i-XPDUgj7V5ELEN3wuNP9xpc.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="domestic" function="H4,S4,E3+/L2,M6" ana="sem:H4">domestic</w>
@@ -3789,6 +3912,7 @@
 <pc xml:id="i-XPDUgj7V5ELEN3wuNP9xpc.t13" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDUnZH6wMQ1tx7jzUFuE4" n="3" corresp="mt-src:i-XPDUnZH6wMQ1tx7jzUFuE4">
+                     <measure type="sentiment" quantity="3.056" ana="senti:neupos" corresp="#i-XPDUnZH6wMQ1tx7jzUFuE4"/>
 <w xml:id="i-XPDUnZH6wMQ1tx7jzUFuE4.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
 <w xml:id="i-XPDUnZH6wMQ1tx7jzUFuE4.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="compare" function="A6,A5.1,Q3" ana="sem:A6">compares</w>
 <w xml:id="i-XPDUnZH6wMQ1tx7jzUFuE4.t3" pos="IN" msd="UPosTag=ADP" lemma="with" function="Z5" ana="sem:Z5">with</w>
@@ -3808,6 +3932,7 @@
 <pc xml:id="i-XPDUnZH6wMQ1tx7jzUFuE4.t13" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDUtPSioUToRrHacZMqdW" n="4" corresp="mt-src:i-XPDUtPSioUToRrHacZMqdW">
+                     <measure type="sentiment" quantity="0.499" ana="senti:negneg" corresp="#i-XPDUtPSioUToRrHacZMqdW"/>
 <w xml:id="i-XPDUtPSioUToRrHacZMqdW.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="emission" function="A9-" ana="sem:A9n">Emissions</w>
 <w xml:id="i-XPDUtPSioUToRrHacZMqdW.t2" pos="IN" msd="UPosTag=ADP" lemma="from" function="Z5" ana="sem:Z5">from</w>
 <w xml:id="i-XPDUtPSioUToRrHacZMqdW.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="international" function="M7" ana="sem:M7">international</w>
@@ -3853,6 +3978,7 @@
 <pc xml:id="i-XPDUtPSioUToRrHacZMqdW.t35" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDV13vHWBgQtsugU63mXA" n="5" corresp="mt-src:i-XPDV13vHWBgQtsugU63mXA">
+                     <measure type="sentiment" quantity="-0.007" ana="senti:negneg" corresp="#i-XPDV13vHWBgQtsugU63mXA"/>
 <w xml:id="i-XPDV13vHWBgQtsugU63mXA.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
 <w xml:id="i-XPDV13vHWBgQtsugU63mXA.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XPDV13vHWBgQtsugU63mXA.t3" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
@@ -3866,6 +3992,7 @@
                </seg>
                <seg xml:id="i-MTqCC9F8aiMcwtTFh2WjDS" xml:lang="en" corresp="mt-src:i-MTqCC9F8aiMcwtTFh2WjDS">
                   <s xml:id="i-XPDV6t5uNJkCRn5X6B9hvc" n="1" corresp="mt-src:i-XPDV6t5uNJkCRn5X6B9hvc">
+                     <measure type="sentiment" quantity="3.299" ana="senti:neupos" corresp="#i-XPDV6t5uNJkCRn5X6B9hvc"/>
 <w xml:id="i-XPDV6t5uNJkCRn5X6B9hvc.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">In</w>
 <w xml:id="i-XPDV6t5uNJkCRn5X6B9hvc.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
 <w xml:id="i-XPDV6t5uNJkCRn5X6B9hvc.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="climate" function="W4,A1.1.1,E1" ana="sem:W4">climate</w>
@@ -3902,6 +4029,7 @@
 <pc xml:id="i-XPDV6t5uNJkCRn5X6B9hvc.t32" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDVDYZU51xotohcwhqdpG" n="2" corresp="mt-src:i-XPDVDYZU51xotohcwhqdpG">
+                     <measure type="sentiment" quantity="1.562" ana="senti:neuneg" corresp="#i-XPDVDYZU51xotohcwhqdpG"/>
 <w xml:id="i-XPDVDYZU51xotohcwhqdpG.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="i-XPDVDYZU51xotohcwhqdpG.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="reason" function="A2.2,X2.1" ana="sem:A2.2">reason</w>
 <w xml:id="i-XPDVDYZU51xotohcwhqdpG.t3" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
@@ -3922,6 +4050,7 @@
 <pc xml:id="i-XPDVDYZU51xotohcwhqdpG.t18" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDVKNj5w92bRhsTZnwaDi" n="3" corresp="mt-src:i-XPDVKNj5w92bRhsTZnwaDi">
+                     <measure type="sentiment" quantity="1.733" ana="senti:neuneg" corresp="#i-XPDVKNj5w92bRhsTZnwaDi"/>
 <w xml:id="i-XPDVKNj5w92bRhsTZnwaDi.t1" pos="RB" msd="UPosTag=ADV" lemma="nevertheless" function="Z4" ana="sem:Z4" join="right">Nevertheless</w>
 <pc xml:id="i-XPDVKNj5w92bRhsTZnwaDi.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="i-XPDVKNj5w92bRhsTZnwaDi.t3" pos="DT" msd="UPosTag=DET|Number=Plur|PronType=Dem" lemma="this" function="Z5,Z8" ana="sem:Z5">these</w>
@@ -3936,6 +4065,7 @@
 <pc xml:id="i-XPDVKNj5w92bRhsTZnwaDi.t12" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDVS3CedrFCtjVZRKdW7N" n="4" corresp="mt-src:i-XPDVS3CedrFCtjVZRKdW7N">
+                     <measure type="sentiment" quantity="3.451" ana="senti:neupos" corresp="#i-XPDVS3CedrFCtjVZRKdW7N"/>
 <w xml:id="i-XPDVS3CedrFCtjVZRKdW7N.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="i-XPDVS3CedrFCtjVZRKdW7N.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="government" function="G1.1c" ana="sem:G1.1">government</w>
 <w xml:id="i-XPDVS3CedrFCtjVZRKdW7N.t3" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="want" function="X7+,S6+,A7+,S3.2,A9-" ana="sem:X7p">wants</w>
@@ -3958,6 +4088,7 @@
                </seg>
                <seg xml:id="i-PJt3ko8VnuVsaQGnVpv7XP" xml:lang="en" corresp="mt-src:i-PJt3ko8VnuVsaQGnVpv7XP">
                   <s xml:id="i-XPDVXsNGVyJzRdfQ3QjSWp" n="1" corresp="mt-src:i-XPDVXsNGVyJzRdfQ3QjSWp">
+                     <measure type="sentiment" quantity="2.749" ana="senti:neupos" corresp="#i-XPDVXsNGVyJzRdfQ3QjSWp"/>
 <w xml:id="i-XPDVXsNGVyJzRdfQ3QjSWp.t1" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="set" function="M2,M6,O4.5,O4.1,W4,A1.1.1,B3,B4,X6+,S6+,K2,Q4.3" ana="sem:M2">Setting</w>
 <w xml:id="i-XPDVXsNGVyJzRdfQ3QjSWp.t2" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
 <w xml:id="i-XPDVXsNGVyJzRdfQ3QjSWp.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="target" function="X7+,G3,K5.1" ana="sem:X7p">target</w>
@@ -3980,6 +4111,7 @@
 <pc xml:id="i-XPDVXsNGVyJzRdfQ3QjSWp.t20" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDVeXqqCgXbtfHVtwRNQU" n="2" corresp="mt-src:i-XPDVeXqqCgXbtfHVtwRNQU">
+                     <measure type="sentiment" quantity="3.940" ana="senti:mixpos" corresp="#i-XPDVeXqqCgXbtfHVtwRNQU"/>
                      <phr type="sem" function="T1.3" ana="sem:T1.3">
 <w xml:id="i-XPDVeXqqCgXbtfHVtwRNQU.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="electricity" function="T1.3" ana="sem:T1.3">Electricity</w>
 <w xml:id="i-XPDVeXqqCgXbtfHVtwRNQU.t2" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
@@ -4000,6 +4132,7 @@
 <pc xml:id="i-XPDVeXqqCgXbtfHVtwRNQU.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDVmCKPuPkDMgubkU7JJ8" n="3" corresp="mt-src:i-XPDVmCKPuPkDMgubkU7JJ8">
+                     <measure type="sentiment" quantity="3.026" ana="senti:neupos" corresp="#i-XPDVmCKPuPkDMgubkU7JJ8"/>
 <w xml:id="i-XPDVmCKPuPkDMgubkU7JJ8.t1" pos="RB" msd="UPosTag=ADV" lemma="even" function="A13.1" ana="sem:A13.1">Even</w>
 <w xml:id="i-XPDVmCKPuPkDMgubkU7JJ8.t2" pos="WRB" msd="UPosTag=SCONJ|PronType=Int" lemma="when" function="Z5" ana="sem:Z5">when</w>
 <w xml:id="i-XPDVmCKPuPkDMgubkU7JJ8.t3" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="ship" function="M4fn" ana="sem:M4">ships</w>
@@ -4026,6 +4159,7 @@
 <pc xml:id="i-XPDVmCKPuPkDMgubkU7JJ8.t24" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDVsrnxc6xppiXhbzoEBn" n="4" corresp="mt-src:i-XPDVsrnxc6xppiXhbzoEBn">
+                     <measure type="sentiment" quantity="1.393" ana="senti:mixneg" corresp="#i-XPDVsrnxc6xppiXhbzoEBn"/>
 <w xml:id="i-XPDVsrnxc6xppiXhbzoEBn.t1" pos="CC" msd="UPosTag=CCONJ" lemma="but" function="Z5" ana="sem:Z5">But</w>
 <w xml:id="i-XPDVsrnxc6xppiXhbzoEBn.t2" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">for</w>
 <w xml:id="i-XPDVsrnxc6xppiXhbzoEBn.t3" pos="JJR" msd="UPosTag=ADJ|Degree=Cmp" lemma="more" function="A13.3,N6++" ana="sem:A13.3">more</w>
@@ -4041,6 +4175,7 @@
 <pc xml:id="i-XPDVsrnxc6xppiXhbzoEBn.t13" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDVzXGXJpBSHk9oTXVA5S" n="5" corresp="mt-src:i-XPDVzXGXJpBSHk9oTXVA5S">
+                     <measure type="sentiment" quantity="3.571" ana="senti:mixpos" corresp="#i-XPDVzXGXJpBSHk9oTXVA5S"/>
 <w xml:id="i-XPDVzXGXJpBSHk9oTXVA5S.t1" pos="RB" msd="UPosTag=ADV|PronType=Dem" lemma="here" function="M6,T1.1.2,T1.2" ana="sem:M6">Here</w>
 <w xml:id="i-XPDVzXGXJpBSHk9oTXVA5S.t2" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="i-XPDVzXGXJpBSHk9oTXVA5S.t3" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="want" function="X7+,S6+,A7+,S3.2,A9-" ana="sem:X7p">want</w>
@@ -4066,6 +4201,7 @@
                </seg>
                <seg xml:id="i-EUhr3vGnZDBuWYHYZHSBUy" xml:lang="en" corresp="mt-src:i-EUhr3vGnZDBuWYHYZHSBUy">
                   <s xml:id="i-XPDW6MS9AwFDpeKe5cb6Ut" n="1" corresp="mt-src:i-XPDW6MS9AwFDpeKe5cb6Ut">
+                     <measure type="sentiment" quantity="1.028" ana="senti:mixneg" corresp="#i-XPDW6MS9AwFDpeKe5cb6Ut"/>
 <w xml:id="i-XPDW6MS9AwFDpeKe5cb6Ut.t1" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">However</w>
 <pc xml:id="i-XPDW6MS9AwFDpeKe5cb6Ut.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="i-XPDW6MS9AwFDpeKe5cb6Ut.t3" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">there</w>
@@ -4099,6 +4235,7 @@
 <pc xml:id="i-XPDW6MS9AwFDpeKe5cb6Ut.t31" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDWD1uhseTqHfwjw9H2NY" n="2" corresp="mt-src:i-XPDWD1uhseTqHfwjw9H2NY">
+                     <measure type="sentiment" quantity="1.101" ana="senti:mixneg" corresp="#i-XPDWD1uhseTqHfwjw9H2NY"/>
 <w xml:id="i-XPDWD1uhseTqHfwjw9H2NY.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="maritime" function="M4" ana="sem:M4">Maritime</w>
 <w xml:id="i-XPDWD1uhseTqHfwjw9H2NY.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="transport" function="M3,M2,M4,M5" ana="sem:M3">transport</w>
 <w xml:id="i-XPDWD1uhseTqHfwjw9H2NY.t3" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
@@ -4122,6 +4259,7 @@
 <pc xml:id="i-XPDWD1uhseTqHfwjw9H2NY.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDWJr5KjmXcpa7aZENxmz" n="3" corresp="mt-src:i-XPDWJr5KjmXcpa7aZENxmz">
+                     <measure type="sentiment" quantity="3.255" ana="senti:neupos" corresp="#i-XPDWJr5KjmXcpa7aZENxmz"/>
 <w xml:id="i-XPDWJr5KjmXcpa7aZENxmz.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XPDWJr5KjmXcpa7aZENxmz.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XPDWJr5KjmXcpa7aZENxmz.t3" pos="RB" msd="UPosTag=ADV" lemma="therefore" function="Z5" ana="sem:Z5">therefore</w>
@@ -4139,6 +4277,7 @@
 <pc xml:id="i-XPDWJr5KjmXcpa7aZENxmz.t15" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDWRWYtSUkEHbjgQm4tfe" n="4" corresp="mt-src:i-XPDWRWYtSUkEHbjgQm4tfe">
+                     <measure type="sentiment" quantity="3.279" ana="senti:neupos" corresp="#i-XPDWRWYtSUkEHbjgQm4tfe"/>
 <w xml:id="i-XPDWRWYtSUkEHbjgQm4tfe.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
 <w xml:id="i-XPDWRWYtSUkEHbjgQm4tfe.t2" pos="RB" msd="UPosTag=ADV" lemma="therefore" function="Z5" ana="sem:Z5">therefore</w>
 <w xml:id="i-XPDWRWYtSUkEHbjgQm4tfe.t3" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="believe" function="X2.1,S9%" ana="sem:X2.1">believe</w>
@@ -4166,6 +4305,7 @@
                </seg>
                <seg xml:id="i-7AAhgM3aHCm6Hk3nU38NiA" xml:lang="en" corresp="mt-src:i-7AAhgM3aHCm6Hk3nU38NiA">
                   <s xml:id="i-XPDWXLiWJbp1pVuX2rAq56" n="1" corresp="mt-src:i-XPDWXLiWJbp1pVuX2rAq56">
+                     <measure type="sentiment" quantity="4.143" ana="senti:mixpos" corresp="#i-XPDWXLiWJbp1pVuX2rAq56"/>
 <w xml:id="i-XPDWXLiWJbp1pVuX2rAq56.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
                      <name type="ORG">
 <w xml:id="i-XPDWXLiWJbp1pVuX2rAq56.t2" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Green" function="Z1mf,Z3c" ana="sem:Z1">Green</w>
@@ -4198,6 +4338,7 @@
 <pc xml:id="i-XPDWXLiWJbp1pVuX2rAq56.t28" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDWe1C51K2dHXXctNrkxk" n="2" corresp="mt-src:i-XPDWe1C51K2dHXXctNrkxk">
+                     <measure type="sentiment" quantity="3.864" ana="senti:mixpos" corresp="#i-XPDWe1C51K2dHXXctNrkxk"/>
 <w xml:id="i-XPDWe1C51K2dHXXctNrkxk.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
                      <name type="ORG">
 <w xml:id="i-XPDWe1C51K2dHXXctNrkxk.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Ecobonus" function="T1.3" ana="sem:T1.3">Ecobonus</w>
@@ -4211,6 +4352,7 @@
 <pc xml:id="i-XPDWe1C51K2dHXXctNrkxk.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDWkffdi2FEkZ9ijuYgrQ" n="3" corresp="mt-src:i-XPDWkffdi2FEkZ9ijuYgrQ">
+                     <measure type="sentiment" quantity="4.217" ana="senti:mixpos" corresp="#i-XPDWkffdi2FEkZ9ijuYgrQ"/>
 <w xml:id="i-XPDWkffdi2FEkZ9ijuYgrQ.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
                      <name type="ORG">
 <w xml:id="i-XPDWkffdi2FEkZ9ijuYgrQ.t2" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Green" function="Z1mf,Z3c" ana="sem:Z1">Green</w>
@@ -4235,6 +4377,7 @@
 <pc xml:id="i-XPDWkffdi2FEkZ9ijuYgrQ.t20" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDWrVqFa9K2HTKZMzedFr" n="4" corresp="mt-src:i-XPDWrVqFa9K2HTKZMzedFr">
+                     <measure type="sentiment" quantity="4.771" ana="senti:pospos" corresp="#i-XPDWrVqFa9K2HTKZMzedFr"/>
 <w xml:id="i-XPDWrVqFa9K2HTKZMzedFr.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XPDWrVqFa9K2HTKZMzedFr.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XPDWrVqFa9K2HTKZMzedFr.t3" pos="RB" msd="UPosTag=ADV" lemma="simply" function="A13.6,A14,A12+" ana="sem:A13.6">simply</w>
@@ -4259,6 +4402,7 @@
                </seg>
                <seg xml:id="i-ThkYCq7DS36LUBnnvKzVVF" xml:lang="en" corresp="mt-src:i-ThkYCq7DS36LUBnnvKzVVF">
                   <s xml:id="i-XPDWxKzsSGNopMVPz5kZfJ" n="1" corresp="mt-src:i-XPDWxKzsSGNopMVPz5kZfJ">
+                     <measure type="sentiment" quantity="3.777" ana="senti:mixpos" corresp="#i-XPDWxKzsSGNopMVPz5kZfJ"/>
 <w xml:id="i-XPDWxKzsSGNopMVPz5kZfJ.t1" pos="IN" msd="UPosTag=ADP" lemma="at" function="Z5" ana="sem:Z5">At</w>
 <w xml:id="i-XPDWxKzsSGNopMVPz5kZfJ.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
 <w xml:id="i-XPDWxKzsSGNopMVPz5kZfJ.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="same" function="A6.1+++" ana="sem:A6.1p">same</w>
@@ -4275,6 +4419,7 @@
 <pc xml:id="i-XPDWxKzsSGNopMVPz5kZfJ.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDX4zUS8ybRHP7VqcSVYx" n="2" corresp="mt-src:i-XPDX4zUS8ybRHP7VqcSVYx">
+                     <measure type="sentiment" quantity="4.633" ana="senti:pospos" corresp="#i-XPDX4zUS8ybRHP7VqcSVYx"/>
 <w xml:id="i-XPDX4zUS8ybRHP7VqcSVYx.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
                      <name type="ORG">
 <w xml:id="i-XPDX4zUS8ybRHP7VqcSVYx.t2" pos="NNP" msd="UPosTag=ADJ|Degree=Pos" lemma="Green" function="Z1mf,Z3c" ana="sem:Z1">Green</w>
@@ -4291,6 +4436,7 @@
 <pc xml:id="i-XPDX4zUS8ybRHP7VqcSVYx.t12" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDXBewzqgp2kQjbh98RSc" n="3" corresp="mt-src:i-XPDXBewzqgp2kQjbh98RSc">
+                     <measure type="sentiment" quantity="2.576" ana="senti:neupos" corresp="#i-XPDXBewzqgp2kQjbh98RSc"/>
 <w xml:id="i-XPDXBewzqgp2kQjbh98RSc.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="i-XPDXBewzqgp2kQjbh98RSc.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="construction" function="H1,A1.1.1,O2,X2.1" ana="sem:H1">construction</w>
 <w xml:id="i-XPDXBewzqgp2kQjbh98RSc.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -4313,6 +4459,7 @@
 <pc xml:id="i-XPDXBewzqgp2kQjbh98RSc.t18" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDXHV7chospHJuSKEEMr4" n="4" corresp="mt-src:i-XPDXHV7chospHJuSKEEMr4">
+                     <measure type="sentiment" quantity="0.503" ana="senti:mixneg" corresp="#i-XPDXHV7chospHJuSKEEMr4"/>
 <w xml:id="i-XPDXHV7chospHJuSKEEMr4.t1" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">However</w>
 <pc xml:id="i-XPDXHV7chospHJuSKEEMr4.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="i-XPDXHV7chospHJuSKEEMr4.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -4356,6 +4503,7 @@
 <pc xml:id="i-XPDXHV7chospHJuSKEEMr4.t35" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDXQ9bBQX6RkLXYAkvHji" n="5" corresp="mt-src:i-XPDXQ9bBQX6RkLXYAkvHji">
+                     <measure type="sentiment" quantity="2.452" ana="senti:neuneg" corresp="#i-XPDXQ9bBQX6RkLXYAkvHji"/>
 <w xml:id="i-XPDXQ9bBQX6RkLXYAkvHji.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="soft" function="O4.5,X3.2-,O4.3,O4.1,S1.2.5-,A12+" ana="sem:O4.5">SOFT</w>
 <w xml:id="i-XPDXQ9bBQX6RkLXYAkvHji.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="authority" function="G1.1,S7.1+,S7.4+,X2.2+" ana="sem:G1.1">authorities</w>
 <w xml:id="i-XPDXQ9bBQX6RkLXYAkvHji.t3" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="consist" function="A1.8+" ana="sem:A1.8p">consist</w>
@@ -4396,6 +4544,7 @@
 <pc xml:id="i-XPDXQ9bBQX6RkLXYAkvHji.t26" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDXWp4k7EK3DN9e2HcDdN" n="6" corresp="mt-src:i-XPDXWp4k7EK3DN9e2HcDdN">
+                     <measure type="sentiment" quantity="2.828" ana="senti:neupos" corresp="#i-XPDXWp4k7EK3DN9e2HcDdN"/>
 <w xml:id="i-XPDXWp4k7EK3DN9e2HcDdN.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs" lemma="they" function="Z8mfn" ana="sem:Z8">They</w>
 <w xml:id="i-XPDXWp4k7EK3DN9e2HcDdN.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">have</w>
 <w xml:id="i-XPDXWp4k7EK3DN9e2HcDdN.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -4419,6 +4568,7 @@
                </seg>
                <seg xml:id="i-SdopM5c5ysnD6qCFhnmBR6" xml:lang="en" corresp="mt-src:i-SdopM5c5ysnD6qCFhnmBR6">
                   <s xml:id="i-XPDXdUYJowXegPmjspJ9X2" n="1" corresp="mt-src:i-XPDXdUYJowXegPmjspJ9X2">
+                     <measure type="sentiment" quantity="3.458" ana="senti:neupos" corresp="#i-XPDXdUYJowXegPmjspJ9X2"/>
 <w xml:id="i-XPDXdUYJowXegPmjspJ9X2.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
                      <name type="ORG">
 <w xml:id="i-XPDXdUYJowXegPmjspJ9X2.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="soft" function="O4.5,X3.2-,O4.3,O4.1,S1.2.5-,A12+" ana="sem:O4.5">SOFT</w>
@@ -4480,6 +4630,7 @@
 <pc xml:id="i-XPDXdUYJowXegPmjspJ9X2.t55" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDXjJhvg4bSDHwaVuQ5vU" n="2" corresp="mt-src:i-XPDXjJhvg4bSDHwaVuQ5vU">
+                     <measure type="sentiment" quantity="0.485" ana="senti:negneg" corresp="#i-XPDXjJhvg4bSDHwaVuQ5vU"/>
 <w xml:id="i-XPDXjJhvg4bSDHwaVuQ5vU.t1" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">However</w>
 <pc xml:id="i-XPDXjJhvg4bSDHwaVuQ5vU.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="i-XPDXjJhvg4bSDHwaVuQ5vU.t3" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
@@ -4507,6 +4658,7 @@
                </seg>
                <seg xml:id="i-XSngNuhjvc4Ki3yDszHdKM" xml:lang="en" corresp="mt-src:i-XSngNuhjvc4Ki3yDszHdKM">
                   <s xml:id="i-XPDXqyBVNmp3gKZgMS61p8" n="1" corresp="mt-src:i-XPDXqyBVNmp3gKZgMS61p8">
+                     <measure type="sentiment" quantity="3.121" ana="senti:neupos" corresp="#i-XPDXqyBVNmp3gKZgMS61p8"/>
                      <name type="ORG">
 <w xml:id="i-XPDXqyBVNmp3gKZgMS61p8.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="VTI" function="Z99" ana="sem:Z99">VTI</w>
                      </name>
@@ -4536,6 +4688,7 @@
 <pc xml:id="i-XPDXqyBVNmp3gKZgMS61p8.t23" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDXxdf45V2f9MBnCxmwhn" n="2" corresp="mt-src:i-XPDXxdf45V2f9MBnCxmwhn">
+                     <measure type="sentiment" quantity="2.195" ana="senti:neuneg" corresp="#i-XPDXxdf45V2f9MBnCxmwhn"/>
 <w xml:id="i-XPDXxdf45V2f9MBnCxmwhn.t1" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
 <w xml:id="i-XPDXxdf45V2f9MBnCxmwhn.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="project" function="A1.1.1,P1" ana="sem:A1.1.1">project</w>
 <w xml:id="i-XPDXxdf45V2f9MBnCxmwhn.t3" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">has</w>
@@ -4551,6 +4704,7 @@
 <pc xml:id="i-XPDXxdf45V2f9MBnCxmwhn.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDY4Tpfwc6SgFMcq3st7E" n="3" corresp="mt-src:i-XPDY4Tpfwc6SgFMcq3st7E">
+                     <measure type="sentiment" quantity="4.557" ana="senti:pospos" corresp="#i-XPDY4Tpfwc6SgFMcq3st7E"/>
                      <phr type="sem" function="Z4" ana="sem:Z4">
 <w xml:id="i-XPDY4Tpfwc6SgFMcq3st7E.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z4" ana="sem:Z4">I</w>
 <w xml:id="i-XPDY4Tpfwc6SgFMcq3st7E.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="think" function="Z4" ana="sem:Z4">think</w>
@@ -4565,6 +4719,7 @@
 <pc xml:id="i-XPDY4Tpfwc6SgFMcq3st7E.t10" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDYAHzHojAED9XTT8ypWg" n="4" corresp="mt-src:i-XPDYAHzHojAED9XTT8ypWg">
+                     <measure type="sentiment" quantity="4.386" ana="senti:mixpos" corresp="#i-XPDYAHzHojAED9XTT8ypWg"/>
 <w xml:id="i-XPDYAHzHojAED9XTT8ypWg.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>
 <w xml:id="i-XPDYAHzHojAED9XTT8ypWg.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XPDYAHzHojAED9XTT8ypWg.t3" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
@@ -4599,6 +4754,7 @@
 <pc xml:id="i-XPDYAHzHojAED9XTT8ypWg.t26" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDYGxTrWSNqgB9ZJffkQL" n="5" corresp="mt-src:i-XPDYGxTrWSNqgB9ZJffkQL">
+                     <measure type="sentiment" quantity="4.270" ana="senti:mixpos" corresp="#i-XPDYGxTrWSNqgB9ZJffkQL"/>
 <w xml:id="i-XPDYGxTrWSNqgB9ZJffkQL.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>
 <w xml:id="i-XPDYGxTrWSNqgB9ZJffkQL.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XPDYGxTrWSNqgB9ZJffkQL.t3" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
@@ -4638,6 +4794,7 @@
                </seg>
                <seg xml:id="i-Ufu13zLPk4g9YwUmkfkYVj" xml:lang="en" corresp="mt-src:i-Ufu13zLPk4g9YwUmkfkYVj">
                   <s xml:id="i-XPDYNndUNZSdD5KPvkmgon" n="1" corresp="mt-src:i-XPDYNndUNZSdD5KPvkmgon">
+                     <measure type="sentiment" quantity="2.681" ana="senti:neupos" corresp="#i-XPDYNndUNZSdD5KPvkmgon"/>
                      <name type="ORG">
 <w xml:id="i-XPDYNndUNZSdD5KPvkmgon.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="VTI" function="Z99" ana="sem:Z99">VTI</w>
                      </name>
@@ -4665,6 +4822,7 @@
 <pc xml:id="i-XPDYNndUNZSdD5KPvkmgon.t21" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDYVT735GfEg6wVnHTchS" n="2" corresp="mt-src:i-XPDYVT735GfEg6wVnHTchS">
+                     <measure type="sentiment" quantity="1.532" ana="senti:neuneg" corresp="#i-XPDYVT735GfEg6wVnHTchS"/>
 <w xml:id="i-XPDYVT735GfEg6wVnHTchS.t1" pos="IN" msd="UPosTag=ADP" lemma="at" function="Z5" ana="sem:Z5">At</w>
 <w xml:id="i-XPDYVT735GfEg6wVnHTchS.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
 <w xml:id="i-XPDYVT735GfEg6wVnHTchS.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="same" function="A6.1+++" ana="sem:A6.1p">same</w>
@@ -4702,6 +4860,7 @@
 <pc xml:id="i-XPDYVT735GfEg6wVnHTchS.t27" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDYc7abmysr98Zbdp9Yb6" n="3" corresp="mt-src:i-XPDYc7abmysr98Zbdp9Yb6">
+                     <measure type="sentiment" quantity="3.325" ana="senti:neupos" corresp="#i-XPDYc7abmysr98Zbdp9Yb6"/>
                      <name type="ORG">
 <w xml:id="i-XPDYc7abmysr98Zbdp9Yb6.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="VTI" function="Z99" ana="sem:Z99">VTI</w>
                      </name>
@@ -4730,6 +4889,7 @@
                </seg>
                <seg xml:id="i-4J5dVQ1XVxUjZNzV6y2XZc" xml:lang="en" corresp="mt-src:i-4J5dVQ1XVxUjZNzV6y2XZc">
                   <s xml:id="i-XPDYhwkDe6wdg2jSFuFUzY" n="1" corresp="mt-src:i-XPDYhwkDe6wdg2jSFuFUzY">
+                     <measure type="sentiment" quantity="1.392" ana="senti:mixneg" corresp="#i-XPDYhwkDe6wdg2jSFuFUzY"/>
 <w xml:id="i-XPDYhwkDe6wdg2jSFuFUzY.t1" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">However</w>
 <pc xml:id="i-XPDYhwkDe6wdg2jSFuFUzY.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
                      <phr type="sem" function="A2.2" ana="sem:A2.2">
@@ -4788,6 +4948,7 @@
                </seg>
                <seg xml:id="i-7RjftfbzHETDL3dbTBY3fT" xml:lang="en" corresp="mt-src:i-7RjftfbzHETDL3dbTBY3fT">
                   <s xml:id="i-XPDYpcDnLpAF94MY7RwQtC" n="1" corresp="mt-src:i-XPDYpcDnLpAF94MY7RwQtC">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XPDYpcDnLpAF94MY7RwQtC"/>
                      <phr type="sem" function="Z1f" ana="sem:Z1">
 <w xml:id="i-XPDYpcDnLpAF94MY7RwQtC.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="madam" function="Z1f" ana="sem:Z1">Madam</w>
 <w xml:id="i-XPDYpcDnLpAF94MY7RwQtC.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="President" function="Z1f" ana="sem:Z1" join="right">President</w>
@@ -4798,6 +4959,7 @@
 <w xml:id="i-XPDYpcDnLpAF94MY7RwQtC.t6" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="like" function="E2+" ana="sem:E2p">like</w>
                   </s>
                   <s xml:id="i-XPDYwGhM3XNrc5ydxxdLmr" n="2" corresp="mt-src:i-XPDYwGhM3XNrc5ydxxdLmr">
+                     <measure type="sentiment" quantity="2.275" ana="senti:neuneg" corresp="#i-XPDYwGhM3XNrc5ydxxdLmr"/>
 <w xml:id="i-XPDYwGhM3XNrc5ydxxdLmr.t1" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">However</w>
 <pc xml:id="i-XPDYwGhM3XNrc5ydxxdLmr.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="i-XPDYwGhM3XNrc5ydxxdLmr.t3" pos="WRB" msd="UPosTag=SCONJ|PronType=Int" lemma="when" function="Z5" ana="sem:Z5">when</w>
@@ -4828,6 +4990,7 @@
 <pc xml:id="i-XPDYwGhM3XNrc5ydxxdLmr.t28" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDZ3wAukEbU57bjpVKGfW" n="3" corresp="mt-src:i-XPDZ3wAukEbU57bjpVKGfW">
+                     <measure type="sentiment" quantity="1.119" ana="senti:mixneg" corresp="#i-XPDZ3wAukEbU57bjpVKGfW"/>
 <w xml:id="i-XPDZ3wAukEbU57bjpVKGfW.t1" pos="IN" msd="UPosTag=ADP" lemma="like" function="Z5" ana="sem:Z5">Like</w>
 <w xml:id="i-XPDZ3wAukEbU57bjpVKGfW.t2" pos="DT" msd="UPosTag=DET" lemma="all" function="N5.1+" ana="sem:N5.1p">all</w>
 <w xml:id="i-XPDZ3wAukEbU57bjpVKGfW.t3" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="mode" function="X4.2,O4.2+" ana="sem:X4.2">modes</w>
@@ -4848,6 +5011,7 @@
 <pc xml:id="i-XPDZ3wAukEbU57bjpVKGfW.t18" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDZ9mLXcMfFc1maSaRD4x" n="4" corresp="mt-src:i-XPDZ9mLXcMfFc1maSaRD4x">
+                     <measure type="sentiment" quantity="0.469" ana="senti:negneg" corresp="#i-XPDZ9mLXcMfFc1maSaRD4x"/>
 <w xml:id="i-XPDZ9mLXcMfFc1maSaRD4x.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
 <w xml:id="i-XPDZ9mLXcMfFc1maSaRD4x.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">has</w>
 <w xml:id="i-XPDZ9mLXcMfFc1maSaRD4x.t3" pos="RB" msd="UPosTag=ADV" lemma="recently" function="T3---" ana="sem:T3n">recently</w>
@@ -4887,6 +5051,7 @@
 <pc xml:id="i-XPDZ9mLXcMfFc1maSaRD4x.t35" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDZGRp6K4ss53PgJ778xc" n="5" corresp="mt-src:i-XPDZGRp6K4ss53PgJ778xc">
+                     <measure type="sentiment" quantity="4.123" ana="senti:mixpos" corresp="#i-XPDZGRp6K4ss53PgJ778xc"/>
 <w xml:id="i-XPDZGRp6K4ss53PgJ778xc.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XPDZGRp6K4ss53PgJ778xc.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XPDZGRp6K4ss53PgJ778xc.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="important" function="A11.1+" ana="sem:A11.1p">important</w>
@@ -4924,6 +5089,7 @@
 <pc xml:id="i-XPDZGRp6K4ss53PgJ778xc.t29" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDZP6Hf1n6UY51n9do4rG" n="6" corresp="mt-src:i-XPDZP6Hf1n6UY51n9do4rG">
+                     <measure type="sentiment" quantity="2.980" ana="senti:neupos" corresp="#i-XPDZP6Hf1n6UY51n9do4rG"/>
 <w xml:id="i-XPDZP6Hf1n6UY51n9do4rG.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">In</w>
 <w xml:id="i-XPDZP6Hf1n6UY51n9do4rG.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="particular" function="A4.2+,X7+" ana="sem:A4.2p" join="right">particular</w>
 <pc xml:id="i-XPDZP6Hf1n6UY51n9do4rG.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
@@ -4943,6 +5109,7 @@
 <pc xml:id="i-XPDZP6Hf1n6UY51n9do4rG.t15" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDZVkmDiVK616dt1AUzjv" n="7" corresp="mt-src:i-XPDZVkmDiVK616dt1AUzjv">
+                     <measure type="sentiment" quantity="3.982" ana="senti:mixpos" corresp="#i-XPDZVkmDiVK616dt1AUzjv"/>
 <w xml:id="i-XPDZVkmDiVK616dt1AUzjv.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="i-XPDZVkmDiVK616dt1AUzjv.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="look" function="A8,X3.4,X2.4,X7+,Z4" ana="sem:A8">look</w>
 <w xml:id="i-XPDZVkmDiVK616dt1AUzjv.t3" pos="RB" msd="UPosTag=ADV" lemma="forward" function="M6,T1.1.3" ana="sem:M6">forward</w>
@@ -4967,6 +5134,7 @@
                </seg>
                <seg xml:id="i-3kKq1XehHrY9LmdSn7dLca" xml:lang="en" corresp="mt-src:i-3kKq1XehHrY9LmdSn7dLca">
                   <s xml:id="i-XPDZbavqacNsXzoidFaw9N" n="1" corresp="mt-src:i-XPDZbavqacNsXzoidFaw9N">
+                     <measure type="sentiment" quantity="2.788" ana="senti:neupos" corresp="#i-XPDZbavqacNsXzoidFaw9N"/>
 <w xml:id="i-XPDZbavqacNsXzoidFaw9N.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="i-XPDZbavqacNsXzoidFaw9N.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="ship" function="M4fn" ana="sem:M4">ships</w>
 <w xml:id="i-XPDZbavqacNsXzoidFaw9N.t3" pos="WDT" msd="UPosTag=PRON|PronType=Rel" lemma="that" function="A13.3,A6.1+" ana="sem:A13.3">that</w>
@@ -4994,6 +5162,7 @@
 <pc xml:id="i-XPDZbavqacNsXzoidFaw9N.t23" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDZiFQQHKbV12RpUnGs32" n="2" corresp="mt-src:i-XPDZiFQQHKbV12RpUnGs32">
+                     <measure type="sentiment" quantity="4.697" ana="senti:pospos" corresp="#i-XPDZiFQQHKbV12RpUnGs32"/>
 <w xml:id="i-XPDZiFQQHKbV12RpUnGs32.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="i-XPDZiFQQHKbV12RpUnGs32.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="transition" function="A2.1+" ana="sem:A2.1p">transition</w>
 <w xml:id="i-XPDZiFQQHKbV12RpUnGs32.t3" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">in</w>
@@ -5025,6 +5194,7 @@
 <pc xml:id="i-XPDZiFQQHKbV12RpUnGs32.t27" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDZp5a29SfGXvbf6sNoSU" n="3" corresp="mt-src:i-XPDZp5a29SfGXvbf6sNoSU">
+                     <measure type="sentiment" quantity="3.895" ana="senti:mixpos" corresp="#i-XPDZp5a29SfGXvbf6sNoSU"/>
 <w xml:id="i-XPDZp5a29SfGXvbf6sNoSU.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
 <w xml:id="i-XPDZp5a29SfGXvbf6sNoSU.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="need" function="S6+" ana="sem:S6p">need</w>
 <w xml:id="i-XPDZp5a29SfGXvbf6sNoSU.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="shipping" function="M2,M4" ana="sem:M2">shipping</w>
@@ -5041,6 +5211,7 @@
 <pc xml:id="i-XPDZp5a29SfGXvbf6sNoSU.t12" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDZvk3ar9sszxDkxQ4jL8" n="4" corresp="mt-src:i-XPDZvk3ar9sszxDkxQ4jL8">
+                     <measure type="sentiment" quantity="3.355" ana="senti:neupos" corresp="#i-XPDZvk3ar9sszxDkxQ4jL8"/>
 <w xml:id="i-XPDZvk3ar9sszxDkxQ4jL8.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">In</w>
 <w xml:id="i-XPDZvk3ar9sszxDkxQ4jL8.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="particular" function="A4.2+,X7+" ana="sem:A4.2p" join="right">particular</w>
 <pc xml:id="i-XPDZvk3ar9sszxDkxQ4jL8.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
@@ -5068,6 +5239,7 @@
 <pc xml:id="i-XPDZvk3ar9sszxDkxQ4jL8.t23" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDa3QX9Ys6VTyqrovkfDn" n="5" corresp="mt-src:i-XPDa3QX9Ys6VTyqrovkfDn">
+                     <measure type="sentiment" quantity="4.764" ana="senti:pospos" corresp="#i-XPDa3QX9Ys6VTyqrovkfDn"/>
 <w xml:id="i-XPDa3QX9Ys6VTyqrovkfDn.t1" pos="RB" msd="UPosTag=ADV" lemma="therefore" function="Z5" ana="sem:Z5" join="right">Therefore</w>
 <pc xml:id="i-XPDa3QX9Ys6VTyqrovkfDn.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="i-XPDa3QX9Ys6VTyqrovkfDn.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -5095,9 +5267,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-SE_2020-04-16-prot-201920--106.ana.note643" xml:lang="en" corresp="mt-src:ParlaMint-SE_2020-04-16-prot-201920--106.ana.note643">Anf. 117 MAGNUS JACOBSSON (KD):</note>
-            <u ana="#regular" who="#Q5826586" xml:id="i-19e7640c7a732d9e-791" xml:lang="en" corresp="mt-src:i-19e7640c7a732d9e-791">
+            <u ana="#regular topic:trans" who="#Q5826586" xml:id="i-19e7640c7a732d9e-791" xml:lang="en" corresp="mt-src:i-19e7640c7a732d9e-791">
                <seg xml:id="i-AohgZz4Cnw7M7MU5Pzri1h" xml:lang="en" corresp="mt-src:i-AohgZz4Cnw7M7MU5Pzri1h">
                   <s xml:id="i-XPDa9EgmQzAGzt1hS1rbdE" n="1" corresp="mt-src:i-XPDa9EgmQzAGzt1hS1rbdE">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XPDa9EgmQzAGzt1hS1rbdE"/>
                      <phr type="sem" function="Z1f" ana="sem:Z1">
 <w xml:id="i-XPDa9EgmQzAGzt1hS1rbdE.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="madam" function="Z1f" ana="sem:Z1">Madam</w>
 <w xml:id="i-XPDa9EgmQzAGzt1hS1rbdE.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="President" function="Z1f" ana="sem:Z1" join="right">President</w>
@@ -5108,6 +5281,7 @@
 <w xml:id="i-XPDa9EgmQzAGzt1hS1rbdE.t6" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="like" function="E2+" ana="sem:E2p">like</w>
                   </s>
                   <s xml:id="i-XPDaFuAL7hNtTudoHYYXWt" n="2" corresp="mt-src:i-XPDaFuAL7hNtTudoHYYXWt">
+                     <measure type="sentiment" quantity="3.700" ana="senti:mixpos" corresp="#i-XPDaFuAL7hNtTudoHYYXWt"/>
 <w xml:id="i-XPDaFuAL7hNtTudoHYYXWt.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="maritime" function="M4" ana="sem:M4">Maritime</w>
 <w xml:id="i-XPDaFuAL7hNtTudoHYYXWt.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="transport" function="M3,M2,M4,M5" ana="sem:M3">transport</w>
 <w xml:id="i-XPDaFuAL7hNtTudoHYYXWt.t3" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
@@ -5124,6 +5298,7 @@
 <pc xml:id="i-XPDaFuAL7hNtTudoHYYXWt.t12" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDaNZdtpQbVvwFu95ETQY" n="3" corresp="mt-src:i-XPDaNZdtpQbVvwFu95ETQY">
+                     <measure type="sentiment" quantity="2.867" ana="senti:neupos" corresp="#i-XPDaNZdtpQbVvwFu95ETQY"/>
 <w xml:id="i-XPDaNZdtpQbVvwFu95ETQY.t1" pos="RB" msd="UPosTag=ADV" lemma="approximately" function="A13.4" ana="sem:A13.4">Approximately</w>
 <w xml:id="i-XPDaNZdtpQbVvwFu95ETQY.t2" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="90" function="N1" ana="sem:N1" join="right">90</w>
 <pc xml:id="i-XPDaNZdtpQbVvwFu95ETQY.t3" pos="Z" msd="UPosTag=PUNCT" function="Z99" ana="sem:Z99">%</pc>
@@ -5142,6 +5317,7 @@
 <pc xml:id="i-XPDaNZdtpQbVvwFu95ETQY.t14" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDaUPoWgXfHTqRjmALPoz" n="4" corresp="mt-src:i-XPDaUPoWgXfHTqRjmALPoz">
+                     <measure type="sentiment" quantity="3.789" ana="senti:mixpos" corresp="#i-XPDaUPoWgXfHTqRjmALPoz"/>
 <w xml:id="i-XPDaUPoWgXfHTqRjmALPoz.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="shipping" function="M2,M4" ana="sem:M2">Shipping</w>
 <w xml:id="i-XPDaUPoWgXfHTqRjmALPoz.t2" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
 <w xml:id="i-XPDaUPoWgXfHTqRjmALPoz.t3" pos="PRP$" msd="UPosTag=PRON|Number=Plur|Person=1|Poss=Yes|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">our</w>
@@ -5161,6 +5337,7 @@
 <pc xml:id="i-XPDaUPoWgXfHTqRjmALPoz.t15" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDab4H5PEstvs3qch2Khe" n="5" corresp="mt-src:i-XPDab4H5PEstvs3qch2Khe">
+                     <measure type="sentiment" quantity="0.870" ana="senti:mixneg" corresp="#i-XPDab4H5PEstvs3qch2Khe"/>
 <w xml:id="i-XPDab4H5PEstvs3qch2Khe.t1" pos="IN" msd="UPosTag=SCONJ" lemma="without" function="Z5" ana="sem:Z5">Without</w>
 <w xml:id="i-XPDab4H5PEstvs3qch2Khe.t2" pos="VBG" msd="UPosTag=VERB|VerbForm=Ger" lemma="function" function="A1.1.1" ana="sem:A1.1.1">functioning</w>
 <w xml:id="i-XPDab4H5PEstvs3qch2Khe.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="shipping" function="M2,M4" ana="sem:M2" join="right">shipping</w>
@@ -5195,6 +5372,7 @@
                </seg>
                <seg xml:id="i-Jca2TPa8CzY1PmkAbFt858" xml:lang="en" corresp="mt-src:i-Jca2TPa8CzY1PmkAbFt858">
                   <s xml:id="i-XPDahike5x6WPtfwUDiFbJ" n="1" corresp="mt-src:i-XPDahike5x6WPtfwUDiFbJ">
+                     <measure type="sentiment" quantity="4.515" ana="senti:pospos" corresp="#i-XPDahike5x6WPtfwUDiFbJ"/>
 <w xml:id="i-XPDahike5x6WPtfwUDiFbJ.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XPDahike5x6WPtfwUDiFbJ.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XPDahike5x6WPtfwUDiFbJ.t3" pos="RB" msd="UPosTag=ADV" lemma="therefore" function="Z5" ana="sem:Z5">therefore</w>
@@ -5212,6 +5390,7 @@
 <pc xml:id="i-XPDahike5x6WPtfwUDiFbJ.t15" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDapPECnfK7rvJ3KkQBUx" n="2" corresp="mt-src:i-XPDapPECnfK7rvJ3KkQBUx">
+                     <measure type="sentiment" quantity="4.786" ana="senti:pospos" corresp="#i-XPDapPECnfK7rvJ3KkQBUx"/>
 <w xml:id="i-XPDapPECnfK7rvJ3KkQBUx.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="regular" function="A6.2+,N6+,O4.1,I3.1,T2++,A13.3" ana="sem:A6.2p">Regular</w>
 <w xml:id="i-XPDapPECnfK7rvJ3KkQBUx.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="review" function="X2.4,Q4" ana="sem:X2.4">review</w>
 <w xml:id="i-XPDapPECnfK7rvJ3KkQBUx.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -5262,6 +5441,7 @@
                </seg>
                <seg xml:id="i-AaewJr9kv3Gp281mVB63er" xml:lang="en" corresp="mt-src:i-AaewJr9kv3Gp281mVB63er">
                   <s xml:id="i-XPDavDPpenNuPpTswqW7tQ" n="1" corresp="mt-src:i-XPDavDPpenNuPpTswqW7tQ">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XPDavDPpenNuPpTswqW7tQ"/>
                      <phr type="sem" function="Z1f" ana="sem:Z1">
 <w xml:id="i-XPDavDPpenNuPpTswqW7tQ.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="madam" function="Z1f" ana="sem:Z1">Madam</w>
 <w xml:id="i-XPDavDPpenNuPpTswqW7tQ.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="President" function="Z1f" ana="sem:Z1" join="right">President</w>
@@ -5272,6 +5452,7 @@
 <w xml:id="i-XPDavDPpenNuPpTswqW7tQ.t6" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="like" function="E2+" ana="sem:E2p">like</w>
                   </s>
                   <s xml:id="i-XPDb2ssPMVbWrr5yoNC3n4" n="2" corresp="mt-src:i-XPDb2ssPMVbWrr5yoNC3n4">
+                     <measure type="sentiment" quantity="5.206" ana="senti:pospos" corresp="#i-XPDb2ssPMVbWrr5yoNC3n4"/>
 <w xml:id="i-XPDb2ssPMVbWrr5yoNC3n4.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="i-XPDb2ssPMVbWrr5yoNC3n4.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">am</w>
 <w xml:id="i-XPDb2ssPMVbWrr5yoNC3n4.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -5289,6 +5470,7 @@
 <pc xml:id="i-XPDb2ssPMVbWrr5yoNC3n4.t15" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDb8i31DcfJPkFpRTHzBW" n="3" corresp="mt-src:i-XPDb8i31DcfJPkFpRTHzBW">
+                     <measure type="sentiment" quantity="2.510" ana="senti:neupos" corresp="#i-XPDb8i31DcfJPkFpRTHzBW"/>
 <w xml:id="i-XPDb8i31DcfJPkFpRTHzBW.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>
 <w xml:id="i-XPDb8i31DcfJPkFpRTHzBW.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">has</w>
 <w xml:id="i-XPDb8i31DcfJPkFpRTHzBW.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" lemma="be" function="A3+,Z5" ana="sem:A3p">been</w>
@@ -5299,6 +5481,7 @@
 <pc xml:id="i-XPDb8i31DcfJPkFpRTHzBW.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDbFNWZvKsurmsvGyyv5A" n="4" corresp="mt-src:i-XPDbFNWZvKsurmsvGyyv5A">
+                     <measure type="sentiment" quantity="0.180" ana="senti:negneg" corresp="#i-XPDbFNWZvKsurmsvGyyv5A"/>
 <w xml:id="i-XPDbFNWZvKsurmsvGyyv5A.t1" pos="IN" msd="UPosTag=ADP" lemma="at" function="Z5" ana="sem:Z5">At</w>
 <w xml:id="i-XPDbFNWZvKsurmsvGyyv5A.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
 <w xml:id="i-XPDbFNWZvKsurmsvGyyv5A.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="same" function="A6.1+++" ana="sem:A6.1p">same</w>
@@ -5312,6 +5495,7 @@
 <pc xml:id="i-XPDbFNWZvKsurmsvGyyv5A.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDbN2z8d36XKoW28Wfqxp" n="5" corresp="mt-src:i-XPDbN2z8d36XKoW28Wfqxp">
+                     <measure type="sentiment" quantity="3.720" ana="senti:mixpos" corresp="#i-XPDbN2z8d36XKoW28Wfqxp"/>
 <w xml:id="i-XPDbN2z8d36XKoW28Wfqxp.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="maritime" function="M4" ana="sem:M4">Maritime</w>
 <w xml:id="i-XPDbN2z8d36XKoW28Wfqxp.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="transport" function="M3,M2,M4,M5" ana="sem:M3">transport</w>
 <w xml:id="i-XPDbN2z8d36XKoW28Wfqxp.t3" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="highlight" function="X5.1+" ana="sem:X5.1p">highlights</w>
@@ -5334,6 +5518,7 @@
 <pc xml:id="i-XPDbN2z8d36XKoW28Wfqxp.t18" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDbUhThKkK8nq87z3MmrU" n="6" corresp="mt-src:i-XPDbUhThKkK8nq87z3MmrU">
+                     <measure type="sentiment" quantity="1.890" ana="senti:neuneg" corresp="#i-XPDbUhThKkK8nq87z3MmrU"/>
 <w xml:id="i-XPDbUhThKkK8nq87z3MmrU.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="review" function="X2.4/A5,P1,Q4,G3" ana="sem:X2.4 sem:A5">Review</w>
 <w xml:id="i-XPDbUhThKkK8nq87z3MmrU.t2" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
 <w xml:id="i-XPDbUhThKkK8nq87z3MmrU.t3" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="fee" function="I1.3,I1" ana="sem:I1.3" join="right">fees</w>
@@ -5363,6 +5548,7 @@
                </seg>
                <seg xml:id="i-AwW4gjs1JyTA5w5MKoaofW" xml:lang="en" corresp="mt-src:i-AwW4gjs1JyTA5w5MKoaofW">
                   <s xml:id="i-XPDbbMwG2TXkFrkDqa3hk8" n="1" corresp="mt-src:i-XPDbbMwG2TXkFrkDqa3hk8">
+                     <measure type="sentiment" quantity="4.998" ana="senti:pospos" corresp="#i-XPDbbMwG2TXkFrkDqa3hk8"/>
 <w xml:id="i-XPDbbMwG2TXkFrkDqa3hk8.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
 <w xml:id="i-XPDbbMwG2TXkFrkDqa3hk8.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
 <w xml:id="i-XPDbbMwG2TXkFrkDqa3hk8.t3" pos="RB" msd="UPosTag=ADV" lemma="therefore" function="Z5" ana="sem:Z5">therefore</w>
@@ -5387,6 +5573,7 @@
                </seg>
                <seg xml:id="i-XWdPz8f8raTUVMCsoVCiDv" xml:lang="en" corresp="mt-src:i-XWdPz8f8raTUVMCsoVCiDv">
                   <s xml:id="i-XPDbi2QpjAkMitNKh6jddn" n="1" corresp="mt-src:i-XPDbi2QpjAkMitNKh6jddn">
+                     <measure type="sentiment" quantity="2.478" ana="senti:neuneg" corresp="#i-XPDbi2QpjAkMitNKh6jddn"/>
 <w xml:id="i-XPDbi2QpjAkMitNKh6jddn.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="i-XPDbi2QpjAkMitNKh6jddn.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos|NumType=Ord" lemma="first" function="N4" ana="sem:N4">first</w>
 <w xml:id="i-XPDbi2QpjAkMitNKh6jddn.t3" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
@@ -5433,6 +5620,7 @@
                </seg>
                <seg xml:id="i-FARjtt129mvKzGeHC1crU8" xml:lang="en" corresp="mt-src:i-FARjtt129mvKzGeHC1crU8">
                   <s xml:id="i-XPDboraSbHp9FnYAKBqa3E" n="1" corresp="mt-src:i-XPDboraSbHp9FnYAKBqa3E">
+                     <measure type="sentiment" quantity="2.677" ana="senti:neupos" corresp="#i-XPDboraSbHp9FnYAKBqa3E"/>
 <w xml:id="i-XPDboraSbHp9FnYAKBqa3E.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="i-XPDboraSbHp9FnYAKBqa3E.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing|NumType=Ord" lemma="second" function="N4" ana="sem:N4">second</w>
 <w xml:id="i-XPDboraSbHp9FnYAKBqa3E.t3" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
@@ -5473,6 +5661,7 @@
                </seg>
                <seg xml:id="i-J3FQ9bPNmKx3XpCReMV8jw" xml:lang="en" corresp="mt-src:i-J3FQ9bPNmKx3XpCReMV8jw">
                   <s xml:id="i-XPDbvX41J12kipAGAiXVvt" n="1" corresp="mt-src:i-XPDbvX41J12kipAGAiXVvt">
+                     <measure type="sentiment" quantity="5.292" ana="senti:pospos" corresp="#i-XPDbvX41J12kipAGAiXVvt"/>
 <w xml:id="i-XPDbvX41J12kipAGAiXVvt.t1" pos="DT" msd="UPosTag=PRON|Number=Plur|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">These</w>
 <w xml:id="i-XPDbvX41J12kipAGAiXVvt.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
                      <phr type="sem" function="N1" ana="sem:N1">
@@ -5493,6 +5682,7 @@
 <pc xml:id="i-XPDbvX41J12kipAGAiXVvt.t16" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDc3BXZziFNBqnN2FDRpY" n="2" corresp="mt-src:i-XPDc3BXZziFNBqnN2FDRpY">
+                     <measure type="sentiment" quantity="0.514" ana="senti:mixneg" corresp="#i-XPDc3BXZziFNBqnN2FDRpY"/>
 <w xml:id="i-XPDc3BXZziFNBqnN2FDRpY.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XPDc3BXZziFNBqnN2FDRpY.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="should" function="S6+,A7+" ana="sem:S6p">should</w>
 <w xml:id="i-XPDc3BXZziFNBqnN2FDRpY.t3" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
@@ -5526,6 +5716,7 @@
 <pc xml:id="i-XPDc3BXZziFNBqnN2FDRpY.t27" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDc9r18hRTyesQTsmuMiC" n="3" corresp="mt-src:i-XPDc9r18hRTyesQTsmuMiC">
+                     <measure type="sentiment" quantity="4.363" ana="senti:mixpos" corresp="#i-XPDc9r18hRTyesQTsmuMiC"/>
 <w xml:id="i-XPDc9r18hRTyesQTsmuMiC.t1" pos="IN" msd="UPosTag=ADP" lemma="from" function="Z5" ana="sem:Z5">From</w>
 <w xml:id="i-XPDc9r18hRTyesQTsmuMiC.t2" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
                      <name type="MISC">
@@ -5553,6 +5744,7 @@
 <pc xml:id="i-XPDc9r18hRTyesQTsmuMiC.t21" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDcFgAkZYXmBmaJVs1J7e" n="4" corresp="mt-src:i-XPDcFgAkZYXmBmaJVs1J7e">
+                     <measure type="sentiment" quantity="4.414" ana="senti:mixpos" corresp="#i-XPDcFgAkZYXmBmaJVs1J7e"/>
 <w xml:id="i-XPDcFgAkZYXmBmaJVs1J7e.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XPDcFgAkZYXmBmaJVs1J7e.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="could" function="A7+" ana="sem:A7p">could</w>
 <w xml:id="i-XPDcFgAkZYXmBmaJVs1J7e.t3" pos="VB" msd="UPosTag=AUX|VerbForm=Inf" lemma="be" function="A3+,Z5" ana="sem:A3p">be</w>
@@ -5569,6 +5761,7 @@
                </seg>
                <seg xml:id="i-yoTs627xePyAEivSH9Woq" xml:lang="en" corresp="mt-src:i-yoTs627xePyAEivSH9Woq">
                   <s xml:id="i-XPDcMWLNRfbYifk97x7EX6" n="1" corresp="mt-src:i-XPDcMWLNRfbYifk97x7EX6">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XPDcMWLNRfbYifk97x7EX6"/>
                      <phr type="sem" function="Z1f" ana="sem:Z1">
 <w xml:id="i-XPDcMWLNRfbYifk97x7EX6.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="madam" function="Z1f" ana="sem:Z1">Madam</w>
 <w xml:id="i-XPDcMWLNRfbYifk97x7EX6.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="President" function="Z1f" ana="sem:Z1" join="right">President</w>
@@ -5579,6 +5772,7 @@
 <w xml:id="i-XPDcMWLNRfbYifk97x7EX6.t6" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="like" function="E2+" ana="sem:E2p">like</w>
                   </s>
                   <s xml:id="i-XPDcUAow8NpABhNEyUoAQk" n="2" corresp="mt-src:i-XPDcUAow8NpABhNEyUoAQk">
+                     <measure type="sentiment" quantity="0.995" ana="senti:mixneg" corresp="#i-XPDcUAow8NpABhNEyUoAQk"/>
 <w xml:id="i-XPDcUAow8NpABhNEyUoAQk.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="many" function="N5+" ana="sem:N5p">Many</w>
 <w xml:id="i-XPDcUAow8NpABhNEyUoAQk.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="people" function="S2mfc" ana="sem:S2">people</w>
 <w xml:id="i-XPDcUAow8NpABhNEyUoAQk.t3" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="talk" function="Q2.1" ana="sem:Q2.1">talk</w>
@@ -5601,6 +5795,7 @@
 <pc xml:id="i-XPDcUAow8NpABhNEyUoAQk.t20" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDcaqHVq62meizLq1V6JQ" n="3" corresp="mt-src:i-XPDcaqHVq62meizLq1V6JQ">
+                     <measure type="sentiment" quantity="3.558" ana="senti:mixpos" corresp="#i-XPDcaqHVq62meizLq1V6JQ"/>
 <w xml:id="i-XPDcaqHVq62meizLq1V6JQ.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>
 <w xml:id="i-XPDcaqHVq62meizLq1V6JQ.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="must" function="S6+,A7+" ana="sem:S6p">must</w>
 <w xml:id="i-XPDcaqHVq62meizLq1V6JQ.t3" pos="RB" msd="UPosTag=ADV" lemma="also" function="N5++" ana="sem:N5p">also</w>
@@ -5617,6 +5812,7 @@
 <pc xml:id="i-XPDcaqHVq62meizLq1V6JQ.t12" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDcgfT7hD6ZBdABT6b2hr" n="4" corresp="mt-src:i-XPDcgfT7hD6ZBdABT6b2hr">
+                     <measure type="sentiment" quantity="1.142" ana="senti:mixneg" corresp="#i-XPDcgfT7hD6ZBdABT6b2hr"/>
 <w xml:id="i-XPDcgfT7hD6ZBdABT6b2hr.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="maritime" function="M4" ana="sem:M4">Maritime</w>
 <w xml:id="i-XPDcgfT7hD6ZBdABT6b2hr.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="transport" function="M3,M2,M4,M5" ana="sem:M3">transport</w>
 <w xml:id="i-XPDcgfT7hD6ZBdABT6b2hr.t3" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="face" function="M6,S1.1.1,X2.1,B5" ana="sem:M6">faces</w>
@@ -5648,6 +5844,7 @@
 <pc xml:id="i-XPDcgfT7hD6ZBdABT6b2hr.t27" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDcoKvgPvKAeenHJdGxbW" n="5" corresp="mt-src:i-XPDcoKvgPvKAeenHJdGxbW">
+                     <measure type="sentiment" quantity="1.519" ana="senti:neuneg" corresp="#i-XPDcoKvgPvKAeenHJdGxbW"/>
 <w xml:id="i-XPDcoKvgPvKAeenHJdGxbW.t1" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="none" function="Z6/Z8c" ana="sem:Z6 sem:Z8">None</w>
 <w xml:id="i-XPDcoKvgPvKAeenHJdGxbW.t2" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
 <w xml:id="i-XPDcoKvgPvKAeenHJdGxbW.t3" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">this</w>
@@ -5679,6 +5876,7 @@
 <pc xml:id="i-XPDcoKvgPvKAeenHJdGxbW.t27" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDcuA6JG3NxBYx7viNtzx" n="6" corresp="mt-src:i-XPDcuA6JG3NxBYx7viNtzx">
+                     <measure type="sentiment" quantity="4.665" ana="senti:pospos" corresp="#i-XPDcuA6JG3NxBYx7viNtzx"/>
 <w xml:id="i-XPDcuA6JG3NxBYx7viNtzx.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XPDcuA6JG3NxBYx7viNtzx.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XPDcuA6JG3NxBYx7viNtzx.t3" pos="RB" msd="UPosTag=ADV" lemma="therefore" function="Z5" ana="sem:Z5">therefore</w>
@@ -5706,6 +5904,7 @@
                </seg>
                <seg xml:id="i-MyXqoMag4BU72WkZF11tUg" xml:lang="en" corresp="mt-src:i-MyXqoMag4BU72WkZF11tUg">
                   <s xml:id="i-XPDd1pZrxkbZeaaDnF4ptc" n="1" corresp="mt-src:i-XPDd1pZrxkbZeaaDnF4ptc">
+                     <measure type="sentiment" quantity="4.882" ana="senti:pospos" corresp="#i-XPDd1pZrxkbZeaaDnF4ptc"/>
 <w xml:id="i-XPDd1pZrxkbZeaaDnF4ptc.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="i-XPDd1pZrxkbZeaaDnF4ptc.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="electrification" function="O3" ana="sem:O3">electrification</w>
 <w xml:id="i-XPDd1pZrxkbZeaaDnF4ptc.t3" pos="IN" msd="UPosTag=ADP" lemma="of" function="Z5" ana="sem:Z5">of</w>
@@ -5721,6 +5920,7 @@
 <pc xml:id="i-XPDd1pZrxkbZeaaDnF4ptc.t13" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDd7ejUpsfMBUk4QLAmJ4" n="2" corresp="mt-src:i-XPDd7ejUpsfMBUk4QLAmJ4">
+                     <measure type="sentiment" quantity="5.039" ana="senti:pospos" corresp="#i-XPDd7ejUpsfMBUk4QLAmJ4"/>
 <w xml:id="i-XPDd7ejUpsfMBUk4QLAmJ4.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">This</w>
 <w xml:id="i-XPDd7ejUpsfMBUk4QLAmJ4.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="will" function="T1.1.3" ana="sem:T1.1.3">will</w>
 <w xml:id="i-XPDd7ejUpsfMBUk4QLAmJ4.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="lead" function="S7.1+,A2.2,M2,A1.1.1" ana="sem:S7.1p">lead</w>
@@ -5734,6 +5934,7 @@
 <pc xml:id="i-XPDd7ejUpsfMBUk4QLAmJ4.t9" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDdEKD3XasxeWNAFrrhBi" n="3" corresp="mt-src:i-XPDdEKD3XasxeWNAFrrhBi">
+                     <measure type="sentiment" quantity="3.305" ana="senti:neupos" corresp="#i-XPDdEKD3XasxeWNAFrrhBi"/>
 <w xml:id="i-XPDdEKD3XasxeWNAFrrhBi.t1" pos="CC" msd="UPosTag=CCONJ" lemma="but" function="Z5" ana="sem:Z5">But</w>
 <w xml:id="i-XPDdEKD3XasxeWNAFrrhBi.t2" pos="RB" msd="UPosTag=ADV" lemma="as" function="A13" ana="sem:A13">as</w>
 <w xml:id="i-XPDdEKD3XasxeWNAFrrhBi.t3" pos="RB" msd="UPosTag=ADV|Degree=Pos" lemma="long" function="T1.3+" ana="sem:T1.3p">long</w>
@@ -5765,6 +5966,7 @@
 <pc xml:id="i-XPDdEKD3XasxeWNAFrrhBi.t29" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDdL9NfPhwkBQXzswxdbA" n="4" corresp="mt-src:i-XPDdL9NfPhwkBQXzswxdbA">
+                     <measure type="sentiment" quantity="0.088" ana="senti:negneg" corresp="#i-XPDdL9NfPhwkBQXzswxdbA"/>
 <w xml:id="i-XPDdL9NfPhwkBQXzswxdbA.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="i-XPDdL9NfPhwkBQXzswxdbA.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="i-XPDdL9NfPhwkBQXzswxdbA.t3" pos="RB" msd="UPosTag=ADV" lemma="therefore" function="Z5" ana="sem:Z5">therefore</w>
@@ -5791,6 +5993,7 @@
 <pc xml:id="i-XPDdL9NfPhwkBQXzswxdbA.t18" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDdTeAAw1KBaZcMxvEYy2" n="5" corresp="mt-src:i-XPDdTeAAw1KBaZcMxvEYy2">
+                     <measure type="sentiment" quantity="4.178" ana="senti:mixpos" corresp="#i-XPDdTeAAw1KBaZcMxvEYy2"/>
 <w xml:id="i-XPDdTeAAw1KBaZcMxvEYy2.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
 <w xml:id="i-XPDdTeAAw1KBaZcMxvEYy2.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="need" function="S6+" ana="sem:S6p">need</w>
 <w xml:id="i-XPDdTeAAw1KBaZcMxvEYy2.t3" pos="JJR" msd="UPosTag=ADJ|Degree=Cmp" lemma="good" function="A5.1++,G2.2++,O4.2++" ana="sem:A5.1p">better</w>
@@ -5813,6 +6016,7 @@
 <pc xml:id="i-XPDdTeAAw1KBaZcMxvEYy2.t18" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="i-XPDdZUKno8Ny7TnCb1LVNU" n="6" corresp="mt-src:i-XPDdZUKno8Ny7TnCb1LVNU">
+                     <measure type="sentiment" quantity="4.832" ana="senti:pospos" corresp="#i-XPDdZUKno8Ny7TnCb1LVNU"/>
 <w xml:id="i-XPDdZUKno8Ny7TnCb1LVNU.t1" pos="IN" msd="UPosTag=ADP" lemma="from" function="Z5" ana="sem:Z5">From</w>
 <w xml:id="i-XPDdZUKno8Ny7TnCb1LVNU.t2" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
                      <name type="ORG">
@@ -5859,6 +6063,7 @@
                </seg>
                <seg xml:id="i-MMLDbGNgfndBRDtWxs7ibE" xml:lang="en" corresp="mt-src:i-MMLDbGNgfndBRDtWxs7ibE">
                   <s xml:id="i-XPDdg8oMVqbaaVQJSY2RG8" n="1" corresp="mt-src:i-XPDdg8oMVqbaaVQJSY2RG8">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XPDdg8oMVqbaaVQJSY2RG8"/>
                      <phr type="sem" function="Z1f" ana="sem:Z1">
 <w xml:id="i-XPDdg8oMVqbaaVQJSY2RG8.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="madam" function="Z1f" ana="sem:Z1">Madam</w>
 <w xml:id="i-XPDdg8oMVqbaaVQJSY2RG8.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="President" function="Z1f" ana="sem:Z1" join="right">President</w>
@@ -5869,6 +6074,7 @@
 <w xml:id="i-XPDdg8oMVqbaaVQJSY2RG8.t6" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="like" function="E2+" ana="sem:E2p">like</w>
                   </s>
                   <s xml:id="i-XPDdnoGvCYpC3X2QJ4iM9n" n="2" corresp="mt-src:i-XPDdnoGvCYpC3X2QJ4iM9n">
+                     <measure type="sentiment" quantity="3.762" ana="senti:mixpos" corresp="#i-XPDdnoGvCYpC3X2QJ4iM9n"/>
 <w xml:id="i-XPDdnoGvCYpC3X2QJ4iM9n.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
 <w xml:id="i-XPDdnoGvCYpC3X2QJ4iM9n.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" lemma="support" function="S8+,A1.1.1,K5.1,I1.1,A10+" ana="sem:S8p">support</w>
 <w xml:id="i-XPDdnoGvCYpC3X2QJ4iM9n.t3" pos="PDT" msd="UPosTag=DET" lemma="all" function="N5.1+" ana="sem:N5.1p">all</w>

@@ -1,7 +1,7 @@
 <note type="signing" content="Bjarni Jonsson, 3th. Witchvest., and Octavia Hrun Jónsdótttir, 4th. South, sign a vow to the constitution."/>
-<speech id="ParlaMint-IS_2017-03-20-44.u1" text_id="ParlaMint-IS-en_2017-03-20-44" subcorpus="Reference" lang="English" body="Unicameralism" term="22. kjörtímabil" session="146. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2017-03-20" title="Speeches in the national parliament of Iceland, 22. term, regular meeting 146-44, 20.03.2017." speaker_role="Chairperson" speaker_id="UnnurKonradsdottir" speaker_name="Konráðsdóttir, Unnur Brá" speaker_mp="MP" speaker_minister="notMinister" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" party_status="Coalition" party_orientation="Centre to centre-right" speaker_gender="F" speaker_birth="1974">
+<speech id="ParlaMint-IS_2017-03-20-44.u1" text_id="ParlaMint-IS-en_2017-03-20-44" subcorpus="Reference" lang="English" body="Unicameralism" term="22. kjörtímabil" session="146. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2017-03-20" title="Speeches in the national parliament of Iceland, 22. term, regular meeting 146-44, 20.03.2017." speaker_role="Chairperson" topic="Other" speaker_id="UnnurKonradsdottir" speaker_name="Konráðsdóttir, Unnur Brá" speaker_mp="MP" speaker_minister="notMinister" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" party_status="Coalition" party_orientation="Centre to centre-right" speaker_gender="F" speaker_birth="1974">
 <p id="ParlaMint-IS_2017-03-20-44.seg1" lang="English">
-<s id="ParlaMint-IS_2017-03-20-44.seg1.1">
+<s id="ParlaMint-IS_2017-03-20-44.seg1.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.974">
 <name type="PER">
 Borist	Borist	Borist	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t1
 </name>
@@ -17,7 +17,7 @@ Witchest	Witchest	Witchest	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-IS_2017-03-20-44.seg1.2">
+<s id="ParlaMint-IS_2017-03-20-44.seg1.2" senti_3="Negative" senti_6="mixed negative" senti_n="1.217">
 "	"	"	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 <name type="MISC">
@@ -67,7 +67,7 @@ future	future	future	NOUN	Number=Sing	T1.1.3	T1.1.3	T1.1.3: Time: Future	t32
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t33
 </s>
-<s id="ParlaMint-IS_2017-03-20-44.seg1.3">
+<s id="ParlaMint-IS_2017-03-20-44.seg1.3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.829">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 today	today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t2
 <g/>
@@ -99,7 +99,7 @@ Jónsdóttir	Jónsdóttir	Jónsdóttir	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Persona
 </s>
 </p>
 <p id="ParlaMint-IS_2017-03-20-44.seg2" lang="English">
-<s id="ParlaMint-IS_2017-03-20-44.seg2.1">
+<s id="ParlaMint-IS_2017-03-20-44.seg2.1" senti_3="Negative" senti_6="mixed negative" senti_n="0.712">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 letter	letter	letter	NOUN	Number=Sing	Q1.2,Q3	Q1.2	Q1.2: Paper documents and writing	t2
 <name type="PER">
@@ -155,9 +155,9 @@ Constitution	Constitution	constitution	NOUN	Number=Sing	G1.1,B2,O1/A1.8+	G1.1	G1
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2017-03-20-44.u2" text_id="ParlaMint-IS-en_2017-03-20-44" subcorpus="Reference" lang="English" body="Unicameralism" term="22. kjörtímabil" session="146. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2017-03-20" title="Speeches in the national parliament of Iceland, 22. term, regular meeting 146-44, 20.03.2017." speaker_role="Chairperson" speaker_id="UnnurKonradsdottir" speaker_name="Konráðsdóttir, Unnur Brá" speaker_mp="MP" speaker_minister="notMinister" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" party_status="Coalition" party_orientation="Centre to centre-right" speaker_gender="F" speaker_birth="1974">
+<speech id="ParlaMint-IS_2017-03-20-44.u2" text_id="ParlaMint-IS-en_2017-03-20-44" subcorpus="Reference" lang="English" body="Unicameralism" term="22. kjörtímabil" session="146. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2017-03-20" title="Speeches in the national parliament of Iceland, 22. term, regular meeting 146-44, 20.03.2017." speaker_role="Chairperson" topic="Other" speaker_id="UnnurKonradsdottir" speaker_name="Konráðsdóttir, Unnur Brá" speaker_mp="MP" speaker_minister="notMinister" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" party_status="Coalition" party_orientation="Centre to centre-right" speaker_gender="F" speaker_birth="1974">
 <p id="ParlaMint-IS_2017-03-20-44.seg3" lang="English">
-<s id="ParlaMint-IS_2017-03-20-44.seg3.1">
+<s id="ParlaMint-IS_2017-03-20-44.seg3.1" senti_3="Positive" senti_6="positive" senti_n="4.591">
 <name type="PER">
 Bjarni	Bjarni	Bjarni	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Jónsson	Jónsson	Jónsson	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -195,7 +195,7 @@ Assembly	Assembly	Assembly	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t22
 </s>
 </p>
 <p id="ParlaMint-IS_2017-03-20-44.seg4" lang="English">
-<s id="ParlaMint-IS_2017-03-20-44.seg4.1">
+<s id="ParlaMint-IS_2017-03-20-44.seg4.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.858">
 <name type="PER">
 Borist	Borist	Borist	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t1
 </name>
@@ -218,7 +218,7 @@ side	side	side	NOUN	Number=Sing	M7	M7	M7: Places	t13
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-IS_2017-03-20-44.seg4.2">
+<s id="ParlaMint-IS_2017-03-20-44.seg4.2" senti_3="Negative" senti_6="negative" senti_n="0.085">
 That	That	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t1
 he	he	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t2
 wo	wo	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t3
@@ -235,7 +235,7 @@ soon	soon	soon	ADV	Degree=Pos	T1.1.3/N3.8+	T1.1.3 N3.8p	T1.1.3: Time: Future|N3.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-IS_2017-03-20-44.seg4.3">
+<s id="ParlaMint-IS_2017-03-20-44.seg4.3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.771">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 today	today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t2
 <g/>
@@ -277,9 +277,9 @@ Gíslason	Gíslason	Gíslason	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IS_2017-03-20-44.u67" text_id="ParlaMint-IS-en_2017-03-20-44" subcorpus="Reference" lang="English" body="Unicameralism" term="22. kjörtímabil" session="146. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2017-03-20" title="Speeches in the national parliament of Iceland, 22. term, regular meeting 146-44, 20.03.2017." speaker_role="Regular" speaker_id="SteinunnArnadottir" speaker_name="Árnadóttir, Steinunn Þóra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="-" party_orientation="Centre-left to left" speaker_gender="F" speaker_birth="1977">
+<speech id="ParlaMint-IS_2017-03-20-44.u67" text_id="ParlaMint-IS-en_2017-03-20-44" subcorpus="Reference" lang="English" body="Unicameralism" term="22. kjörtímabil" session="146. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2017-03-20" title="Speeches in the national parliament of Iceland, 22. term, regular meeting 146-44, 20.03.2017." speaker_role="Regular" topic="Housing" speaker_id="SteinunnArnadottir" speaker_name="Árnadóttir, Steinunn Þóra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="-" party_orientation="Centre-left to left" speaker_gender="F" speaker_birth="1977">
 <p id="ParlaMint-IS_2017-03-20-44.seg246" lang="English">
-<s id="ParlaMint-IS_2017-03-20-44.seg246.1">
+<s id="ParlaMint-IS_2017-03-20-44.seg246.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.120">
 <phr usas_tags="Z1f" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Madam	Madam	madam	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t2
@@ -287,7 +287,7 @@ President	President	President	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t2
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-IS_2017-03-20-44.seg246.2">
+<s id="ParlaMint-IS_2017-03-20-44.seg246.2" senti_3="Positive" senti_6="positive" senti_n="4.620">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 want	want	want	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	X7+,S6+,A7+,S3.2,A9-	X7p	X7+: Wanted	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -331,7 +331,7 @@ discussion	discussion	discussion	NOUN	Number=Sing	Q2.1,Q2.2	Q2.1	Q2.1: Speech: C
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t33
 </s>
-<s id="ParlaMint-IS_2017-03-20-44.seg246.3">
+<s id="ParlaMint-IS_2017-03-20-44.seg246.3" senti_3="Negative" senti_6="mixed negative" senti_n="0.926">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 am	am	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 glad	glad	glad	ADJ	Degree=Pos	E4.2+	E4.2p	E4.2+: Content	t3
@@ -358,7 +358,7 @@ market	market	market	NOUN	Number=Sing	I2.2,I2.2/H1	I2.2	I2.2: Business: Selling	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-IS_2017-03-20-44.seg246.4">
+<s id="ParlaMint-IS_2017-03-20-44.seg246.4" senti_3="Positive" senti_6="mixed positive" senti_n="3.744">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 really	really	really	ADV	-	A13.3,A5.2+	A13.3	A13.3: Degree: Boosters	t2
 hope	hope	hope	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	X2.6+,E4.1+,X9.2+,A5.1+	X2.6p	X2.6+: Expected	t3
@@ -450,7 +450,7 @@ has	has	have	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A
 </s>
 </p>
 <p id="ParlaMint-IS_2017-03-20-44.seg247" lang="English">
-<s id="ParlaMint-IS_2017-03-20-44.seg247.1">
+<s id="ParlaMint-IS_2017-03-20-44.seg247.1" senti_3="Positive" senti_6="positive" senti_n="4.812">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 want	want	want	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	X7+,S6+,A7+,S3.2,A9-	X7p	X7+: Wanted	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -502,7 +502,7 @@ there	there	there	ADV	PronType=Dem	M6,T1.2	M6	M6: Location and direction	t43
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t44
 </s>
-<s id="ParlaMint-IS_2017-03-20-44.seg247.2">
+<s id="ParlaMint-IS_2017-03-20-44.seg247.2" senti_3="Negative" senti_6="mixed negative" senti_n="1.195">
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 Let	Let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
 me	me	I	PRON	Case=Acc Number=Sing Person=1 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -536,7 +536,7 @@ be	be	be	VERB	VerbForm=Inf	A3+,Z5	A3p	A3+: Existing	t21
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-IS_2017-03-20-44.seg247.3">
+<s id="ParlaMint-IS_2017-03-20-44.seg247.3" senti_3="Negative" senti_6="mixed negative" senti_n="1.191">
 What	What	what	PRON	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -548,7 +548,7 @@ there	there	there	ADV	PronType=Dem	M6,T1.2	M6	M6: Location and direction	t6
 </s>
 </p>
 <p id="ParlaMint-IS_2017-03-20-44.seg248" lang="English">
-<s id="ParlaMint-IS_2017-03-20-44.seg248.1">
+<s id="ParlaMint-IS_2017-03-20-44.seg248.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.663">
 For	For	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 second	second	second	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t3
@@ -616,7 +616,7 @@ reward	reward	reward	NOUN	Number=Sing	S1.1.4+,I1.1+,A5.1+/A2.2	S1.1.4p	S1.1.4+: 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t58
 </s>
-<s id="ParlaMint-IS_2017-03-20-44.seg248.2">
+<s id="ParlaMint-IS_2017-03-20-44.seg248.2" senti_3="Negative" senti_6="mixed negative" senti_n="0.697">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 at	at	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -654,7 +654,7 @@ likely	likely	likely	ADJ	Degree=Pos	A7+,A1.2+	A7p	A7+: Likely	t28
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
 <note type="kinesic:ringing" content="The president calls."/>
-<s id="ParlaMint-IS_2017-03-20-44.seg248.3">
+<s id="ParlaMint-IS_2017-03-20-44.seg248.3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.305">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -674,7 +674,7 @@ account	account	account	NOUN	Number=Sing	I1,I1.3,I2.1,Q2.2,Y2	I1	I1: Money gener
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
 <note type="kinesic:ringing" content="The president calls."/>
-<s id="ParlaMint-IS_2017-03-20-44.seg248.4">
+<s id="ParlaMint-IS_2017-03-20-44.seg248.4" senti_3="Neutral" senti_6="neutral negative" senti_n="2.247">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t3
@@ -719,9 +719,9 @@ costs	costs	cost	NOUN	Number=Plur	I1.3	I1.3	I1.3: Money: Cost and price	t36
 <note type="kinesic:ringing" content="The president calls."/>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2017-03-20-44.u68" text_id="ParlaMint-IS-en_2017-03-20-44" subcorpus="Reference" lang="English" body="Unicameralism" term="22. kjörtímabil" session="146. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2017-03-20" title="Speeches in the national parliament of Iceland, 22. term, regular meeting 146-44, 20.03.2017." speaker_role="Regular" speaker_id="THorsteinnViglundsson" speaker_name="Víglundsson, Þorsteinn" speaker_mp="MP" speaker_minister="Minister" speaker_party="V" speaker_party_name="Viðreisn" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1969">
+<speech id="ParlaMint-IS_2017-03-20-44.u68" text_id="ParlaMint-IS-en_2017-03-20-44" subcorpus="Reference" lang="English" body="Unicameralism" term="22. kjörtímabil" session="146. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2017-03-20" title="Speeches in the national parliament of Iceland, 22. term, regular meeting 146-44, 20.03.2017." speaker_role="Regular" topic="Social Welfare" speaker_id="THorsteinnViglundsson" speaker_name="Víglundsson, Þorsteinn" speaker_mp="MP" speaker_minister="Minister" speaker_party="V" speaker_party_name="Viðreisn" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1969">
 <p id="ParlaMint-IS_2017-03-20-44.seg249" lang="English">
-<s id="ParlaMint-IS_2017-03-20-44.seg249.1">
+<s id="ParlaMint-IS_2017-03-20-44.seg249.1" senti_3="Positive" senti_6="positive" senti_n="4.788">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 want	want	want	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	X7+,S6+,A7+,S3.2,A9-	X7p	X7+: Wanted	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -736,7 +736,7 @@ time	time	time	NOUN	Number=Sing	T1,T1.2,T1.3,T1.1.2,N6,N1,K2,G2.1@	T1	T1: Time	t
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-IS_2017-03-20-44.seg249.2">
+<s id="ParlaMint-IS_2017-03-20-44.seg249.2" senti_3="Positive" senti_6="mixed positive" senti_n="4.415">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 very	very	very	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t3
@@ -824,7 +824,7 @@ strength	strength	strength	NOUN	Number=Sing	S1.2.5+,O4.1,S7.1+,X9.1+,N5	S1.2.5p	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t79
 </s>
-<s id="ParlaMint-IS_2017-03-20-44.seg249.3">
+<s id="ParlaMint-IS_2017-03-20-44.seg249.3" senti_3="Positive" senti_6="positive" senti_n="5.159">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -834,7 +834,7 @@ thing	thing	thing	NOUN	Number=Sing	O2,X4.1,A7-,S2mf,L2mf	O2	O2: Objects generall
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-IS_2017-03-20-44.seg249.4">
+<s id="ParlaMint-IS_2017-03-20-44.seg249.4" senti_3="Positive" senti_6="positive" senti_n="5.206">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 experience	experience	experience	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A2.1+/A3+,X3	A2.1p A3p	A2.1+: Change|A3+: Existing	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -902,7 +902,7 @@ countries	countries	country	NOUN	Number=Plur	M7	M7	M7: Places	t54
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t55
 </s>
-<s id="ParlaMint-IS_2017-03-20-44.seg249.5">
+<s id="ParlaMint-IS_2017-03-20-44.seg249.5" senti_3="Positive" senti_6="positive" senti_n="4.756">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 buypower	buypower	buypower	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -935,7 +935,7 @@ security	security	security	NOUN	Number=Sing	G2.1,A15+,E6+,I1.1	G2.1	G2.1: Law an
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
-<s id="ParlaMint-IS_2017-03-20-44.seg249.6">
+<s id="ParlaMint-IS_2017-03-20-44.seg249.6" senti_3="Neutral" senti_6="neutral negative" senti_n="1.840">
 Social	Social	social	ADJ	Degree=Pos	S1.1.1	S1.1.1	S1.1.1: Social Actions, States And Processes	t1
 security	security	security	NOUN	Number=Sing	G2.1,A15+,E6+,I1.1	G2.1	G2.1: Law and order	t2
 spending	spending	spending	NOUN	Number=Sing	I1.2,A1.5.1,T1.3	I1.2	I1.2: Money: Debts	t3
@@ -969,7 +969,7 @@ between	between	between	ADP	-	Z5	Z5	Z5: Grammatical bin	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-IS_2017-03-20-44.seg249.7">
+<s id="ParlaMint-IS_2017-03-20-44.seg249.7" senti_3="Positive" senti_6="mixed positive" senti_n="3.758">
 Clearly	Clearly	clearly	ADV	-	A7+,A11.2+,A12+	A7p	A7+: Likely	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -991,7 +991,7 @@ people	people	people	NOUN	Number=Plur	S2mfc	S2	S2: People	t16
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-IS_2017-03-20-44.seg249.8">
+<s id="ParlaMint-IS_2017-03-20-44.seg249.8" senti_3="Neutral" senti_6="neutral positive" senti_n="3.269">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 should	should	should	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or necessity	t2
 always	always	always	ADV	-	N6+++	N6p	N6+: Frequent	t3
@@ -1019,7 +1019,7 @@ etc	etc	etc	X	-	Z4	Z4	Z4: Discourse Bin	t20
 </s>
 </p>
 <p id="ParlaMint-IS_2017-03-20-44.seg250" lang="English">
-<s id="ParlaMint-IS_2017-03-20-44.seg250.1">
+<s id="ParlaMint-IS_2017-03-20-44.seg250.1" senti_3="Negative" senti_6="negative" senti_n="0.371">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 may	may	may	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t3
@@ -1095,7 +1095,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t60
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t61
 </s>
-<s id="ParlaMint-IS_2017-03-20-44.seg250.2">
+<s id="ParlaMint-IS_2017-03-20-44.seg250.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.656">
 Although	Although	although	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -1128,7 +1128,7 @@ before	before	before	ADV	-	N4	N4	N4: Linear order	t25
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
 <note type="kinesic:ringing" content="The president calls."/>
-<s id="ParlaMint-IS_2017-03-20-44.seg250.3">
+<s id="ParlaMint-IS_2017-03-20-44.seg250.3" senti_3="Neutral" senti_6="neutral negative" senti_n="1.664">
 All	All	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t1
 evidence	evidence	evidence	NOUN	Number=Sing	A5.2+,X2.2,G2.1	A5.2p	A5.2+: Evaluation: True	t2
 suggests	suggests	suggest	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q2.2,Q1.1	Q2.2	Q2.2: Speech acts	t3
@@ -1157,7 +1157,7 @@ there	there	there	ADV	PronType=Dem	M6,T1.2	M6	M6: Location and direction	t22
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
 <note type="kinesic:ringing" content="The president calls."/>
-<s id="ParlaMint-IS_2017-03-20-44.seg250.4">
+<s id="ParlaMint-IS_2017-03-20-44.seg250.4" senti_3="Positive" senti_6="mixed positive" senti_n="3.921">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 very	very	very	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t3
@@ -1165,7 +1165,7 @@ important	important	important	ADJ	Degree=Pos	A11.1+	A11.1p	A11.1+: Important	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-IS_2017-03-20-44.seg250.5">
+<s id="ParlaMint-IS_2017-03-20-44.seg250.5" senti_3="Neutral" senti_6="neutral positive" senti_n="3.125">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Of	Of	of	ADP	ExtPos=ADV	Z4	Z4	Z4: Discourse Bin	t1
 course	course	course	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2

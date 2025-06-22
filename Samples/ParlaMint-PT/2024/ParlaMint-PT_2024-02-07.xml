@@ -18,8 +18,16 @@
                <persName>José Aires</persName>
                <resp xml:lang="en">Data retrieval and TEI conversion</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="en">European Commission</orgName>
@@ -29,7 +37,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="58"/>
@@ -39,12 +47,12 @@
             <publisher>
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-20">2025-06-20</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -85,8 +93,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-20">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-20">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war">
@@ -101,7 +111,7 @@
             <note type="summary" xml:id="ParlaMint-PT_2024-02-07.note4">SUMÁRIO O Presidente declarou aberta a reunião às 15 horas e 4 minutos. De seguida, o Presidente procedeu à leitura das mensagens do Presidente da República sobre a devolução sem promulgação dos Decretos da Assembleia da República n.os 127/XV — Estabelece o quadro jurídico para a emissão das medidas administrativas a adotar pelas escolas para a implementação da Lei n.º 38/2018, de 7 de agosto, e procede à sua alteração e 132/XV — Modifica o regime de atribuição do nome próprio e de averbamentos aos assentos de nascimento e de casamento, alterando o Código do Registo Civil. Em declaração política, o Deputado Pedro Filipe Soares (BE) refletiu sobre o aumento dos lucros da banca em 2023, atribuindo-o à margem financeira dos bancos portugueses quando comparada com a média europeia. Em declaração política, a Deputada Joana Sá Pereira (PS) falou sobre os aumentos remuneratórios nas forças de segurança desde 2015 e alertou para a necessidade de os seus direitos de manifestação serem exercidos de acordo com a lei. Em declaração política, o Deputado Joaquim Miranda Sarmento (PSD) criticou o Governo pelo atual estado dos serviços públicos em geral, bem como pelas mais recentes manifestações de agricultores e forças de segurança. Em declaração política, o Deputado Pedro Pinto (CH) censurou a conduta do atual Secretário-Geral do PS, Pedro Nuno Santos, e de membros do atual Governo, tendo sublinhado a existência de esquemas de corrupção na política ao longo dos 50 anos de democracia. Em declaração política, a Deputada Joana Cordeiro (IL) apreciou negativamente a governação socialista e apelou a uma mudança de políticas no País, apresentando as medidas que o seu partido defende. Em declaração política, a Deputada Alma Rivera (PCP) defendeu a tomada de medidas que respondam ao agravamento dos défices estruturais resultantes da política de direita e incentivou ao voto no seu partido para que seja salvaguardada a defesa dos valores da justiça e da solidariedade. O Presidente encerrou a reunião eram 15 horas e 54 minutos.</note>
          </div>
          <div type="debateSection">
-            <u xml:id="ParlaMint-PT_2024-02-07.u1" who="#AugustoErnestoSantosSilva" ana="#chair">
+            <u xml:id="ParlaMint-PT_2024-02-07.u1" who="#AugustoErnestoSantosSilva" ana="#chair topic:educa">
                <seg xml:id="ParlaMint-PT_2024-02-07.seg1">Muito boa tarde, Sr.as e Srs. Deputados. Estamos em condições de iniciar os nossos trabalhos.</seg>
                <note type="time" xml:id="ParlaMint-PT_2024-02-07.note5">Eram 15 horas e 4 minutos.</note>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg2">Solicito aos Srs. Agentes da autoridade o favor de abrirem as galerias ao público. Muito obrigado. A nossa ordem do dia consta de três pontos. O primeiro ponto trata da leitura da mensagem do Presidente da República sobre a devolução, sem promulgação, do Decreto da Assembleia da República n.º 127/XV — Estabelece o quadro jurídico para a emissão das medidas administrativas a adotar pelas escolas para a implementação da Lei n.º 38/2018, de 7 de agosto, e procede à sua alteração.</seg>
@@ -126,7 +136,7 @@
                <note type="pause" xml:id="ParlaMint-PT_2024-02-07.note7">Pausa.</note>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg20">Não havendo expediente, passamos ao ponto três da agenda, relativo às declarações políticas. Para fazer a declaração política em nome do Bloco de Esquerda, tem a palavra o Sr. Deputado Pedro Filipe Soares.</seg>
             </u>
-            <u xml:id="ParlaMint-PT_2024-02-07.u2" who="#PedroFilipeGomesSoares" ana="#regular">
+            <u xml:id="ParlaMint-PT_2024-02-07.u2" who="#PedroFilipeGomesSoares" ana="#regular topic:domes">
                <seg xml:id="ParlaMint-PT_2024-02-07.seg21">Sr. Presidente, Sr.as e Srs. Deputados: «Tremendo aumento» era a forma como a comunicação social, ainda há dias, falava dos lucros da banca — «tremendo aumento». E basta ver, por exemplo, os maiores bancos portugueses — os principais já apresentaram as suas contas de 2023 — para perceber o que significa na prática este «tremendo aumento».</seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg22">O Santander Totta teve um lucro — lucro — de 1030 milhões de euros em 2023, um aumento de 70 % dos seus lucros face ao ano anterior, que já tinha sido bom. O Novo Banco teve um lucro de 743 milhões de euros em 2023, um aumento de 83 % face ao ano anterior. O BPI teve um aumento de 524 milhões de euros dos seus lucros, um aumento de 42 % face ao ano anterior.</seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg23">São três dos cinco maiores bancos, falta dois apresentarem ainda as suas contas de 2023. Mas os indícios demonstram que vão todos no mesmo caminho: a Caixa Geral de Depósitos, nos últimos números conhecidos, que vão até setembro do ano passado, já apresentava um lucro de 987 milhões de euros; e o BCP (Banco Comercial Português), no mesmo período, até setembro do ano passado, apresentava um lucro de 651 milhões de euros.</seg>
@@ -142,7 +152,7 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u xml:id="ParlaMint-PT_2024-02-07.u57" who="#AlmaBenedettiCroceRivera" ana="#regular">
+            <u xml:id="ParlaMint-PT_2024-02-07.u57" who="#AlmaBenedettiCroceRivera" ana="#regular topic:macro">
                <seg xml:id="ParlaMint-PT_2024-02-07.seg175">É porque nisto, meus senhores, estão todos juntos, todos do mesmo lado, todos dependentes e todos a servir os mesmos. Aumentaram, de novo, em 2024 os preços nas telecomunicações e nos correios, preços que já eram dos mais elevados na Europa. E aí está a demonstração prática da falácia neoliberal: setores completamente liberalizados, graças às privatizações dos CTT (Correios de Portugal) e da PT (Portugal Telecom), obra de PSD/CDS e do PS. Quando o PCP pôs em causa essas opções, uma vez mais foi o coro da política de direita em uníssono a defender a entrega dos setores estratégicos a grupos económicos, por mais que isso prejudique o serviço prestado e o povo.</seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg176">O País não aguenta mais. Não aguentam também os profissionais da justiça, da educação, os bombeiros, os idosos, os jovens que querem fazer a sua vida neste País. Teremos, em breve, uma oportunidade para mudar, não só de caras, mas de política.</seg>
                <seg xml:id="ParlaMint-PT_2024-02-07.seg177">Muitos já perceberam que para os lucros subirem desta maneira é preciso manter a política de baixos salários. Alguém está a ganhar com isso, mas não são certamente os trabalhadores, a maioria de nós.</seg>
@@ -153,7 +163,7 @@
                   <desc>Aplausos do PCP.</desc>
                </kinesic>
             </u>
-            <u xml:id="ParlaMint-PT_2024-02-07.u58" who="#AugustoErnestoSantosSilva" ana="#chair">
+            <u xml:id="ParlaMint-PT_2024-02-07.u58" who="#AugustoErnestoSantosSilva" ana="#chair topic:other">
                <seg xml:id="ParlaMint-PT_2024-02-07.seg181">Assim terminamos o nosso terceiro ponto da ordem do dia. A próxima reunião da Comissão Permanente está agendada para o dia 13 de março, consistindo no debate preparatório do Conselho Europeu de 21 de março. Desejo a todos uma boa tarde. Está encerrada a reunião.</seg>
                <note type="time" xml:id="ParlaMint-PT_2024-02-07.note8">Eram 15 horas e 54 minutos.</note>
             </u>

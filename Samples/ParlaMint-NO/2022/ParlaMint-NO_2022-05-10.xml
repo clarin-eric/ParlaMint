@@ -14,8 +14,16 @@
                <persName>Lars Magne Tungland</persName>
                <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="en">European Commission</orgName>
@@ -25,7 +33,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="165" unit="speeches" xml:lang="en">165 speeches</measure>
@@ -38,12 +46,12 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-16">2025-06-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -82,10 +90,12 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2024-07-02">
+         <change when="2025-06-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-16">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
          <change when="2021-01-29">
-            <name>Lars Magne Tungland</name> : Generated corpus in ParlaMint.</change>
+            <name>Lars Magne Tungland</name>: Generated corpus in ParlaMint.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war">
@@ -114,7 +124,7 @@
             <note type="comment" xml:id="ParlaMint-NO_2022-05-10.note21">Er regjeringa einig i dette målet, og kva planar har regjeringa lagt for å hindre at landet må gjennom nye nedstengingar framover?»</note>
             <note type="comment" xml:id="ParlaMint-NO_2022-05-10.note22">9. Referat</note>
             <note type="speaker" xml:id="ParlaMint-NO_2022-05-10.note23">Presidenten:</note>
-            <u who="#person.MASG" ana="#chair" xml:id="ParlaMint-NO_2022-05-10.ud496e62" xml:lang="nb">
+            <u who="#person.MASG" ana="#chair topic:other" xml:id="ParlaMint-NO_2022-05-10.ud496e62" xml:lang="nb">
                <seg xml:id="ParlaMint-NO_2022-05-10.segd496e63">Representantene Eigil Knutsen , Øystein Mathisen , Wilfred Nordlund og Mona Fagerås som har vært permittert, har igjen tatt sete.</seg>
                <seg xml:id="ParlaMint-NO_2022-05-10.segd496e79">Den innkalte vararepresentanten for Hordaland, Sigbjørn Framnes , tar nå sete.</seg>
                <seg xml:id="ParlaMint-NO_2022-05-10.segd496e84">Fra Arbeiderpartiets stortingsgruppe foreligger søknad om permisjon for representanten Sverre Myrli i tiden fra og med 11. til og med 13. mai for å delta på reise i regi av NATOs parlamentarikerforsamling til Haag i Nederland.</seg>
@@ -125,7 +135,7 @@
             <note type="comment" xml:id="ParlaMint-NO_2022-05-10.note24">Statsråd Jon-Ivar Nygård</note>
             <note type="comment" xml:id="ParlaMint-NO_2022-05-10.note25">overbrakte 1 kgl. proposisjon (se under Referat).</note>
             <note type="speaker" xml:id="ParlaMint-NO_2022-05-10.note26">Presidenten:</note>
-            <u who="#person.MASG" ana="#chair" xml:id="ParlaMint-NO_2022-05-10.ud496e107" xml:lang="nn">
+            <u who="#person.MASG" ana="#chair topic:other" xml:id="ParlaMint-NO_2022-05-10.ud496e107" xml:lang="nn">
                <seg xml:id="ParlaMint-NO_2022-05-10.segd496e108">Representanten Torgeir Knag Fylkesnes vil framsette et representantforslag.</seg>
             </u>
             <gap reason="editorial">
@@ -133,7 +143,7 @@
             </gap>
          </div>
          <div type="debateSection">
-            <u who="#person.MASG" ana="#chair" xml:id="ParlaMint-NO_2022-05-10.ud496e2502" xml:lang="nb">
+            <u who="#person.MASG" ana="#chair topic:welfa" xml:id="ParlaMint-NO_2022-05-10.ud496e2502" xml:lang="nb">
                <seg xml:id="ParlaMint-NO_2022-05-10.segd496e2503">Under debatten har Emma Watne satt fram et forslag på vegne av Rødt. Forslaget lyder:</seg>
                <seg xml:id="ParlaMint-NO_2022-05-10.segd496e2508">«Stortinget ber regjeringen komme tilbake med forslag til nødvendige lovendringer som sørger for at Nav benytter den ordinære forsinkelsesrenten i tilfeller der brukerne har fått for lite utbetalt på grunn av en feil hos Nav og derfor har krav på en etterbetaling.»</seg>
                <seg xml:id="ParlaMint-NO_2022-05-10.segd496e2510">Det voteres alternativt mellom dette forslaget og komiteens innstilling.</seg>
@@ -158,7 +168,7 @@
             <note type="comment" xml:id="ParlaMint-NO_2022-05-10.note420">3. (476) Representantforslag fra stortingsrepresentantene Torgeir Knag Fylkesnes og Kathy Lie om et nasjonalt løft for kreative næringer (Dokument 8:244 S (2021–2022))</note>
             <note type="comment" xml:id="ParlaMint-NO_2022-05-10.note421">Enst.: Sendes næringskomiteen.</note>
             <note type="speaker" xml:id="ParlaMint-NO_2022-05-10.note422">Presidenten:</note>
-            <u who="#person.MASG" ana="#chair" xml:id="ParlaMint-NO_2022-05-10.ud496e2557" xml:lang="nb">
+            <u who="#person.MASG" ana="#chair topic:other" xml:id="ParlaMint-NO_2022-05-10.ud496e2557" xml:lang="nb">
                <seg xml:id="ParlaMint-NO_2022-05-10.segd496e2558">Dermed er dagens kart ferdigbehandlet. Forlanger noen ordet før møtet heves? – Møtet er hevet.</seg>
             </u>
          </div>

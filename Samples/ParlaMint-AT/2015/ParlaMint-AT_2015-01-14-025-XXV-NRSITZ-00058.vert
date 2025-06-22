@@ -3,9 +3,9 @@
 <note type="time" content="Beginn der Sitzung:14:49Uhr"/>
 <note type="chairpersons" content="Dritter Präsident Ing. Norbert Hofer"/>
 <note type="speaker" content="Präsident Ing. Norbert Hofer"/>
-<speech id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d7e370" text_id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058" subcorpus="Reference" lang="Deutsch" body="Nationalrat" term="XXV. Gesetzgebungsperiode" session="-" meeting="-" sitting="58. Sitzung" agenda="-" date="2015-01-14" title="58. Sitzung des Nationalrates der Republik Österreich, XXV. Gesetzgebungsperiode, Mittwoch, 14. Januar 2015" speaker_role="PräsidentIn" speaker_id="PAD_35521" speaker_name="Hofer, Norbert" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FPÖ" speaker_party_name="Freiheitlicher Parlamentsklub" party_status="Opposition" party_orientation="Rechts bis extrem Rechts" speaker_gender="M" speaker_birth="1971">
+<speech id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d7e370" text_id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058" subcorpus="Reference" lang="Deutsch" body="Nationalrat" term="XXV. Gesetzgebungsperiode" session="-" meeting="-" sitting="58. Sitzung" agenda="-" date="2015-01-14" title="58. Sitzung des Nationalrates der Republik Österreich, XXV. Gesetzgebungsperiode, Mittwoch, 14. Januar 2015" speaker_role="PräsidentIn" topic="Other" speaker_id="PAD_35521" speaker_name="Hofer, Norbert" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FPÖ" speaker_party_name="Freiheitlicher Parlamentsklub" party_status="Opposition" party_orientation="Rechts bis extrem Rechts" speaker_gender="M" speaker_birth="1971">
 <p id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e196" lang="Deutsch">
-<s id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e196.s1">
+<s id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e196.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.633">
 Ich	Ich	Ich	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	eröffnen	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 eröffne	eröffne	eröffnen	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 die	die	die	DET	Case=Acc Gender=Fem Number=Sing PronType=Art	w3	det	Sitzung	NOUN	Gender=Fem Number=Sing Person=3	w5
@@ -20,7 +20,7 @@ Nationalrates	Nationalrates	Rat	NOUN	Case=Gen Gender=Masc Number=Sing Person=3	w
 </s>
 </p>
 <p id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e198" lang="Deutsch">
-<s id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e198.s1">
+<s id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e198.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.750">
 Als	Als	Als	CCONJ	ConjType=Comp	w1	mark	verhindern	ADJ	Degree=Pos Variant=Short	w2
 verhindert	verhindert	verhindern	ADJ	Degree=Pos Variant=Short	w2	advcl	melden	VERB	Aspect=Perf VerbForm=Part	w3
 gemeldet	gemeldet	melden	VERB	Aspect=Perf VerbForm=Part	w3	root	-	-	-	-
@@ -116,7 +116,7 @@ Pock	Pock	Pock	PROPN	Number=Sing Person=3	w40	conj	Abgeordnet	NOUN	Number=Plur P
 </p>
 <note type="time" content="14:49:16"/>
 <p id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e203" lang="Deutsch">
-<s id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e203.s1">
+<s id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e203.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.772">
 Einlauf	Einlauf	Einlauf	NOUN	Gender=Masc Number=Sing Person=3	w1	root	-	-	-	-
 und	und	und	CCONJ	-	w2	cc	Zuweisung	NOUN	Gender=Fem Number=Plur Person=3	w3
 Zuweisungen	Zuweisungen	Zuweisung	NOUN	Gender=Fem Number=Plur Person=3	w3	conj	Einlauf	NOUN	Gender=Masc Number=Sing Person=3	w1
@@ -124,9 +124,9 @@ Zuweisungen	Zuweisungen	Zuweisung	NOUN	Gender=Fem Number=Plur Person=3	w3	conj	E
 </p>
 </speech>
 <note type="speaker" content="Präsident Ing. Norbert Hofer"/>
-<speech id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d7e401" text_id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058" subcorpus="Reference" lang="Deutsch" body="Nationalrat" term="XXV. Gesetzgebungsperiode" session="-" meeting="-" sitting="58. Sitzung" agenda="-" date="2015-01-14" title="58. Sitzung des Nationalrates der Republik Österreich, XXV. Gesetzgebungsperiode, Mittwoch, 14. Januar 2015" speaker_role="PräsidentIn" speaker_id="PAD_35521" speaker_name="Hofer, Norbert" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FPÖ" speaker_party_name="Freiheitlicher Parlamentsklub" party_status="Opposition" party_orientation="Rechts bis extrem Rechts" speaker_gender="M" speaker_birth="1971">
+<speech id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d7e401" text_id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058" subcorpus="Reference" lang="Deutsch" body="Nationalrat" term="XXV. Gesetzgebungsperiode" session="-" meeting="-" sitting="58. Sitzung" agenda="-" date="2015-01-14" title="58. Sitzung des Nationalrates der Republik Österreich, XXV. Gesetzgebungsperiode, Mittwoch, 14. Januar 2015" speaker_role="PräsidentIn" topic="Other" speaker_id="PAD_35521" speaker_name="Hofer, Norbert" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FPÖ" speaker_party_name="Freiheitlicher Parlamentsklub" party_status="Opposition" party_orientation="Rechts bis extrem Rechts" speaker_gender="M" speaker_birth="1971">
 <p id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e208" lang="Deutsch">
-<s id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e208.s1">
+<s id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e208.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.407">
 Hinsichtlich	Hinsichtlich	Hinsichtlich	ADP	AdpType=Prep Case=Gen	w1	case	Gegenständ	NOUN	Gender=Masc Number=Plur Person=3	w4
 der	der	der	DET	Case=Gen Number=Plur PronType=Art	w2	det	Gegenständ	NOUN	Gender=Masc Number=Plur Person=3	w4
 eingelangten	eingelangten	einlangen	ADJ	Degree=Pos Number=Plur	w3	amod	Gegenständ	NOUN	Gender=Masc Number=Plur Person=3	w4
@@ -154,7 +154,7 @@ Mitteilung	Mitteilung	Mitteilung	NOUN	Gender=Fem Number=Sing Person=3	w24	obj	ve
 </s>
 </p>
 <p id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e210" lang="Deutsch">
-<s id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e210.s1">
+<s id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e210.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.030">
 Die	Die	Die	DET	Case=Nom Gender=Fem Number=Sing PronType=Art	w1	det	Mitteilung	NOUN	Gender=Fem Number=Sing Person=3	w3
 schriftliche	schriftliche	schriftlich	ADJ	Degree=Pos Gender=Fem Number=Sing	w2	amod	Mitteilung	NOUN	Gender=Fem Number=Sing Person=3	w3
 Mitteilung	Mitteilung	Mitteilung	NOUN	Gender=Fem Number=Sing Person=3	w3	nsubj	haben	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4

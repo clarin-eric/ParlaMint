@@ -8,12 +8,16 @@
             <meeting n="58" corresp="#parliament.HC" ana="#parla.lower #parla.term #PoGB.58"/>
             <meeting n="2022-07-21" corresp="#parliament.HC" ana="#parla.lower #parla.sitting #parla.meeting.regular"/>
             <respStmt>
-               <persName>Matthew Coole</persName>
+               <persName ref="https://orcid.org/0000-0002-9279-931X">Matthew Coole</persName>
                <resp>TEI corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="406">406 speeches</measure>
@@ -24,13 +28,13 @@
                <orgName>CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p>This work is also licensed under the <ref target="https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/">Open Parliament Licence v3.0</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-15">2025-06-15</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -70,15 +74,17 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-15">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war">
       <body>
          <div type="debateSection">
             <head xml:id="ParlaMint-GB_2022-07-21-commons.head1">Speaker's Statement</head>
-            <u xml:id="ParlaMint-GB_2022-07-21-commons.u1" ana="#chair" who="#LindsayHoyle">
+            <u xml:id="ParlaMint-GB_2022-07-21-commons.u1" ana="#chair topic:gover" who="#LindsayHoyle">
                <seg xml:id="ParlaMint-GB_2022-07-21-commons.seg1">Before we come to today’s business, I want to mark the departure of two senior members of the House Service. Penny Young, Librarian and Managing Director of the Research and Information Team, is retiring at the end of the month. Isabel Coman, Managing Director of the Strategic Estates Team, is leaving the House Service in September</seg>
                <seg xml:id="ParlaMint-GB_2022-07-21-commons.seg2">Penny came to the House of Commons in 2015 following a distinguished career in the BBC, and latterly as chief executive of the research organisation NatCen. In her time here, she has consistently championed the provision of high-quality information and research for Members and the public. She has been valued by her team for her supportive and calm direction, and her ability to get to the heart of any issue</seg>
                <seg xml:id="ParlaMint-GB_2022-07-21-commons.seg3">Isabel joined Parliament in March 2020 and has had a huge job, leading not only on major construction projects, but the Maintenance, Customer and Catering and Heritage Collections teams. She has overseen the completion of a number of major estates projects and has set us on a journey to improve the way we approach major works in Parliament. The insight and experience Isabel has brought to her role since joining has been greatly valued, and I am sure will stand her in good stead in her next role at Transport for London</seg>
@@ -91,7 +97,7 @@
          </div>
          <div type="debateSection">
             <head xml:id="ParlaMint-GB_2022-07-21-commons.head2">Free Trade Agreement: India</head>
-            <u xml:id="ParlaMint-GB_2022-07-21-commons.u2" ana="#regular" who="#RobertBlackman">
+            <u xml:id="ParlaMint-GB_2022-07-21-commons.u2" ana="#regular topic:trade" who="#RobertBlackman">
                <seg xml:id="ParlaMint-GB_2022-07-21-commons.seg5">1. What progress her Department has made on securing a free trade agreement with India.</seg>
             </u>
             <gap reason="editorial">
@@ -99,7 +105,7 @@
             </gap>
          </div>
          <div type="debateSection">
-            <u xml:id="ParlaMint-GB_2022-07-21-commons.u405" ana="#regular" who="#DavidRutley">
+            <u xml:id="ParlaMint-GB_2022-07-21-commons.u405" ana="#regular topic:welfa" who="#DavidRutley">
                <seg xml:id="ParlaMint-GB_2022-07-21-commons.seg859">The hon. Gentleman makes a good point. I will take it away for sure and follow it up. I have replied to StepChange recently in its correspondence with me, or I am about to do so, on those very same issues. He makes a good point and I will genuinely follow up on that</seg>
                <seg xml:id="ParlaMint-GB_2022-07-21-commons.seg860">The Department is then able to work with individuals, reviewing their financial circumstances and, in most instances, agreeing a temporary reduction in their rate of repayment. We have recently extended the time period, from 12 months to 18 months, before any reduced debt repayments are reviewed. To ensure people can get in touch, we are automating processes, freeing up debt management staff time to respond to customer calls and provide timely support. Again, I acknowledge the hon. Gentleman’s point and will follow up on it. We also have a rapid response team in place to help manage calls at peak times</seg>
                <seg xml:id="ParlaMint-GB_2022-07-21-commons.seg861">I thank the hon. Gentleman for the specific recommendations he made. He mentioned the distinction between legacy benefit official error debt and universal credit official error debt. Because of existing legislation, he is right in saying that the Department writes off legacy benefit official error debt, but, as hon. Members will know, Parliament voted to end legacy benefits and to make universal credit the welfare system of the future. The intention is that the vast majority of working age claimants will move to universal credit by 2024, and a long-standing part of the universal credit system is that official error debt is recoverable. The 2012 welfare reform changes were designed to ensure that claimants took ownership of all aspects of their claim, including the accuracy of their payments. I reassure the hon. Member that I understand the points that he has raised and that, as a Department, we recognise that official error can cause disruption to our claimants, which is why minimising these occurrences is a major focus</seg>
@@ -117,7 +123,7 @@
                <seg xml:id="ParlaMint-GB_2022-07-21-commons.seg873">To conclude, I hope that the hon. Gentleman recognises that the Government are taking a considered and balanced approach to the recovery of debt. We are not overlooking, and will not overlook, anyone who needs our help and is struggling during these times of financial uncertainty. Equally, we will always strive to be both fair and equitable to people who are paying back the debts that they owe. We will continue to recover debt where the law allows, but we will also try to set recovery plans that are sustainable for the individual. If people are concerned about their benefit debt, I encourage them to contact the Department to discuss the help and support that might be available to them</seg>
                <seg xml:id="ParlaMint-GB_2022-07-21-commons.seg874">I thank the staff for their amazing work this year and I thank you, Madam Deputy Speaker, for your support throughout the year and in similar debates. I wish the hon. Gentleman and other Members present a good recess. I wish to pass on my huge thanks to the officials at DWP who have provided me with a huge amount of support over recent months. It is much appreciated and they do sterling work.</seg>
             </u>
-            <u xml:id="ParlaMint-GB_2022-07-21-commons.u406" ana="#regular" who="#EleanorLaing">
+            <u xml:id="ParlaMint-GB_2022-07-21-commons.u406" ana="#regular topic:other" who="#EleanorLaing">
                <seg xml:id="ParlaMint-GB_2022-07-21-commons.seg875">As we approach the final Question before the summer, I join the Minister and everyone in the Chamber in wishing all Members and everyone who helps, supports and looks after us so well in the House a most peaceful and refreshing summer</seg>
                <seg xml:id="ParlaMint-GB_2022-07-21-commons.seg876">Question put and agreed to.</seg>
             </u>

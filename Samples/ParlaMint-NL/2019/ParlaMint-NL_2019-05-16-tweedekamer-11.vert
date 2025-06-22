@@ -1,8 +1,8 @@
 <note type="head" content="Lekken van gifgas door chemiebedrijf Chemours"/>
 <note type="speaker" content="De voorzitter"/>
-<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u1" text_id="ParlaMint-NL_2019-05-16-tweedekamer-11" subcorpus="Referentie" lang="Nederlands" body="Eerste Kamer" term="Meeting of the 29th Tweede Kamer" session="Session 11" meeting="Meeting 83" sitting="Sitting 2019-05-16" agenda="-" date="2019-05-16" title="Verslag van de vergadering van de Tweede Kamer, Meeting 83, Session 11 (2019-05-16)" speaker_role="Voorzitter" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="-" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
+<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u1" text_id="ParlaMint-NL_2019-05-16-tweedekamer-11" subcorpus="Referentie" lang="Nederlands" body="Eerste Kamer" term="Meeting of the 29th Tweede Kamer" session="Session 11" meeting="Meeting 83" sitting="Sitting 2019-05-16" agenda="-" date="2019-05-16" title="Verslag van de vergadering van de Tweede Kamer, Meeting 83, Session 11 (2019-05-16)" speaker_role="Voorzitter" topic="Milieu" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="-" party_orientation="Centrum-links" speaker_gender="F" speaker_birth="1960">
 <p id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg1" lang="Nederlands">
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1" senti_3="Positief" senti_6="gemend-positief" senti_n="3.928">
 Goedenavond	Goedenavond	goedenavond	NOUN	Gender=Com Number=Sing	w6	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	pc1	punct	dame	NOUN	Number=Plur	w7
@@ -12,7 +12,7 @@ heren	heren	heer	NOUN	Number=Plur	w9	conj	dame	NOUN	Number=Plur	w7
 <g/>
 .	.	.	PUNCT	-	pc2	punct	goedenavond	NOUN	Gender=Com Number=Sing	w6
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2" senti_3="Negatief" senti_6="gemengd negatief" senti_n="1.262">
 We	We	wij	PRON	Case=Nom Person=1 PronType=Prs	w10	nsubj	gaan	VERB	Number=Plur Tense=Pres VerbForm=Fin	w11
 gaan	gaan	gaan	VERB	Number=Plur Tense=Pres VerbForm=Fin	w11	root	-	-	-	-
 nu	nu	nu	ADV	-	w12	advmod	beginnen	VERB	VerbForm=Inf	w13
@@ -31,7 +31,7 @@ Chemours	Chemours	Chemours	PROPN	Gender=Neut Number=Sing	w22	appos	bedrijf	NOUN	
 </name>
 .	.	.	PUNCT	-	pc3	punct	gaan	VERB	Number=Plur Tense=Pres VerbForm=Fin	w11
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3" senti_3="Positief" senti_6="gemend-positief" senti_n="3.568">
 Dat	Dat	dat	DET	-	w23	det	debat	NOUN	Gender=Neut Number=Sing	w24
 debat	debat	debat	NOUN	Gender=Neut Number=Sing	w24	obj	voeren	VERB	VerbForm=Inf	w28
 zal	zal	zullen	AUX	Number=Sing Tense=Pres VerbForm=Fin	w25	aux	voeren	VERB	VerbForm=Inf	w28
@@ -66,7 +66,7 @@ heet	heet	heten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w45	acl:relcl	minister	
 <g/>
 .	.	.	PUNCT	-	pc5	punct	voeren	VERB	VerbForm=Inf	w28
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s4">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s4" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.881">
 U	U	u	PRON	Case=Nom Person=2 PronType=Prs	w46	nsubj	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w47
 heeft	heeft	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w47	root	-	-	-	-
 allen	allen	al	PRON	PronType=Ind	w48	obl	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w47
@@ -78,7 +78,7 @@ minuten	minuten	minuut	NOUN	Number=Plur	w53	nmod	spreektijd	NOUN	Gender=Com Numb
 <g/>
 .	.	.	PUNCT	-	pc6	punct	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w47
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.133">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w54	nsubj	geven	VERB	Number=Sing Tense=Pres VerbForm=Fin	w55
 geef	geef	geven	VERB	Number=Sing Tense=Pres VerbForm=Fin	w55	root	-	-	-	-
 als	als	als	ADP	-	w56	mark	eerste	ADJ	-	w57
@@ -102,14 +102,14 @@ SP	SP	SP	PROPN	Gender=Com Number=Sing	w66	nmod	heer	NOUN	Gender=Com Number=Sing	
 </p>
 </speech>
 <note type="speaker" content="De heer Laçin (SP)"/>
-<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u2" text_id="ParlaMint-NL_2019-05-16-tweedekamer-11" subcorpus="Referentie" lang="Nederlands" body="Eerste Kamer" term="Meeting of the 29th Tweede Kamer" session="Session 11" meeting="Meeting 83" sitting="Sitting 2019-05-16" agenda="-" date="2019-05-16" title="Verslag van de vergadering van de Tweede Kamer, Meeting 83, Session 11 (2019-05-16)" speaker_role="Vast" speaker_id="CemLaçin" speaker_name="Laçin, Cem" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="SP" speaker_party_name="Socialistische Partij" party_status="Opposition" party_orientation="Left" speaker_gender="M" speaker_birth="1986">
+<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u2" text_id="ParlaMint-NL_2019-05-16-tweedekamer-11" subcorpus="Referentie" lang="Nederlands" body="Eerste Kamer" term="Meeting of the 29th Tweede Kamer" session="Session 11" meeting="Meeting 83" sitting="Sitting 2019-05-16" agenda="-" date="2019-05-16" title="Verslag van de vergadering van de Tweede Kamer, Meeting 83, Session 11 (2019-05-16)" speaker_role="Vast" topic="Milieu" speaker_id="CemLaçin" speaker_name="Laçin, Cem" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="SP" speaker_party_name="Socialistische Partij" party_status="Opposition" party_orientation="Links" speaker_gender="M" speaker_birth="1986">
 <p id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg2" lang="Nederlands">
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s6">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s6" senti_3="Positief" senti_6="gemend-positief" senti_n="3.838">
 Voorzitter	Voorzitter	voorzitter	NOUN	Gender=Com Number=Sing	w67	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	pc8	punct	voorzitter	NOUN	Gender=Com Number=Sing	w67
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.249">
 Morgen	Morgen	morgen	ADV	-	w68	advmod	geleden	ADV	-	w74
 is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w69	cop	geleden	ADV	-	w74
 het	het	het	PRON	Person=3 PronType=Prs	w70	expl	geleden	ADV	-	w74
@@ -127,7 +127,7 @@ houden	houden	houden	VERB	VerbForm=Inf	w81	csubj	geleden	ADV	-	w74
 <g/>
 .	.	.	PUNCT	-	pc9	punct	geleden	ADV	-	w74
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8" senti_3="Negatief" senti_6="negatief" senti_n="0.236">
 Ook	Ook	ook	ADV	-	w82	advmod	toen	ADV	-	w83
 toen	toen	toen	ADV	-	w83	advmod	gaan	VERB	Number=Sing Tense=Past VerbForm=Fin	w84
 ging	ging	gaan	VERB	Number=Sing Tense=Past VerbForm=Fin	w84	root	-	-	-	-
@@ -146,7 +146,7 @@ Chemours	Chemours	Chemours	NOUN	Gender=Com Number=Sing	w94	nmod	lozing	NOUN	Numb
 </name>
 .	.	.	PUNCT	-	pc10	punct	gaan	VERB	Number=Sing Tense=Past VerbForm=Fin	w84
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9" senti_3="Negatief" senti_6="gemengd negatief" senti_n="0.622">
 Mijn	Mijn	mijn	PRON	Person=1 Poss=Yes PronType=Prs	w95	nmod:poss	vraag	NOUN	Gender=Com Number=Sing	w97
 centrale	centrale	centraal	ADJ	Degree=Pos	w96	amod	vraag	NOUN	Gender=Com Number=Sing	w97
 vraag	vraag	vraag	NOUN	Gender=Com Number=Sing	w97	parataxis	gaan	VERB	Number=Sing Tense=Pres VerbForm=Fin	w105
@@ -172,7 +172,7 @@ lozingen	lozingen	lozing	NOUN	Number=Plur	w114	obl	beschermen	VERB	VerbForm=Inf	
 <g/>
 ?	?	?	PUNCT	-	pc12	punct	gaan	VERB	Number=Sing Tense=Pres VerbForm=Fin	w105
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s10">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s10" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="2.772">
 Een	Een	een	DET	Definite=Ind	w115	det	aantal	NOUN	Gender=Neut Number=Sing	w116
 aantal	aantal	aantal	NOUN	Gender=Neut Number=Sing	w116	nsubj	zijn	VERB	Number=Plur Tense=Past VerbForm=Fin	w120
 van	van	van	ADP	-	w117	case	omwonende	NOUN	Number=Plur	w119
@@ -193,7 +193,7 @@ Hans	Hans	Hans	PROPN	Gender=Com Number=Sing	w127	acl:relcl	debat	NOUN	Gender=Neu
 </name>
 .	.	.	PUNCT	-	pc14	punct	zijn	VERB	Number=Plur Tense=Past VerbForm=Fin	w120
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s11">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s11" senti_3="Positief" senti_6="gemend-positief" senti_n="3.737">
 Vanavond	Vanavond	vanavond	ADV	-	w128	advmod	welkom	ADJ	Degree=Pos	w134
 zijn	zijn	zijn	AUX	Number=Plur Tense=Pres VerbForm=Fin	w129	parataxis	welkom	ADJ	Degree=Pos	w134
 er	er	er	ADV	-	w130	advmod	zijn	AUX	Number=Plur Tense=Pres VerbForm=Fin	w129
@@ -206,7 +206,7 @@ welkom	welkom	welkom	ADJ	Degree=Pos	w134	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	pc16	punct	welkom	ADJ	Degree=Pos	w134
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12" senti_3="Negatief" senti_6="negatief" senti_n="-0.002">
 <name type="PER">
 Hans	Hans	Hans	PROPN	Gender=Com Number=Sing	w135	nsubj	kwijt	ADJ	Degree=Pos	w152
 </name>
@@ -230,7 +230,7 @@ kwijt	kwijt	kwijt	ADJ	Degree=Pos	w152	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	pc17	punct	kwijt	ADJ	Degree=Pos	w152
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13" senti_3="Negatief" senti_6="gemengd negatief" senti_n="0.678">
 Dat	Dat	dat	PRON	Person=3 PronType=Dem	w153	nsubj	gek	ADJ	Degree=Pos	w156
 is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w154	cop	gek	ADJ	Degree=Pos	w156
 niet	niet	niet	ADV	-	w155	advmod	gek	ADJ	Degree=Pos	w156
@@ -251,14 +251,14 @@ jaar	jaar	jaar	NOUN	Gender=Neut Number=Sing	w167	nmod	dossier	NOUN	Gender=Neut N
 <g/>
 .	.	.	PUNCT	-	pc19	punct	gek	ADJ	Degree=Pos	w156
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s14">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s14" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.181">
 Een	Een	een	DET	Definite=Ind	w168	det	paar	NOUN	Gender=Neut Number=Sing	w169
 paar	paar	paar	NOUN	Gender=Neut Number=Sing	w169	nmod	voorbeeld	NOUN	Number=Plur	w170
 voorbeelden	voorbeelden	voorbeeld	NOUN	Number=Plur	w170	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	pc20	punct	voorbeeld	NOUN	Number=Plur	w170
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15" senti_3="Negatief" senti_6="gemengd negatief" senti_n="0.881">
 <name type="ORG">
 GenX	GenX	GenX	PROPN	Gender=Neut Number=Sing	w171	nsubj	zitten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w172
 </name>
@@ -287,7 +287,7 @@ land	land	land	NOUN	Gender=Neut Number=Sing	w189	nmod	deel	NOUN	Number=Plur	w186
 <g/>
 .	.	.	PUNCT	-	pc22	punct	zitten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w172
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16" senti_3="Negatief" senti_6="negatief" senti_n="0.027">
 <name type="ORG">
 Chemours	Chemours	Chemours	NOUN	Gender=Com Number=Sing	w190	nsubj	lozen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w191
 </name>
@@ -312,7 +312,7 @@ provincie	provincie	provincie	NOUN	Gender=Com Number=Sing	w202	nmod	dwangsom	NOU
 </s>
 </p>
 <p id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg3" lang="Nederlands">
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17" senti_3="Negatief" senti_6="negatief" senti_n="0.174">
 Dan	Dan	dan	ADV	-	w203	mark	lekken	VERB	VerbForm=Inf	w205
 het	het	het	DET	Definite=Def	w204	det	lekken	VERB	VerbForm=Inf	w205
 lekken	lekken	lekken	VERB	VerbForm=Inf	w205	root	-	-	-	-
@@ -336,7 +336,7 @@ staat	staat	staan	VERB	Number=Sing Tense=Pres VerbForm=Fin	w216	acl:relcl	gifgas
 <g/>
 .	.	.	PUNCT	-	pc26	punct	lekken	VERB	VerbForm=Inf	w205
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18" senti_3="Negatief" senti_6="negatief" senti_n="0.429">
 Mensen	Mensen	mens	NOUN	Number=Plur	w217	nsubj	eten	VERB	VerbForm=Inf	w241
 met	met	met	ADP	-	w218	case	moestuin	NOUN	Gender=Com Number=Sing	w220
 een	een	een	DET	Definite=Ind	w219	det	moestuin	NOUN	Gender=Com Number=Sing	w220
@@ -384,9 +384,9 @@ RIVM	RIVM	RIVM	NOUN	Gender=Neut Number=Sing	w249	obl	eten	VERB	VerbForm=Inf	w241
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u273" text_id="ParlaMint-NL_2019-05-16-tweedekamer-11" subcorpus="Referentie" lang="Nederlands" body="Eerste Kamer" term="Meeting of the 29th Tweede Kamer" session="Session 11" meeting="Meeting 83" sitting="Sitting 2019-05-16" agenda="-" date="2019-05-16" title="Verslag van de vergadering van de Tweede Kamer, Meeting 83, Session 11 (2019-05-16)" speaker_role="Voorzitter" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="-" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
+<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u273" text_id="ParlaMint-NL_2019-05-16-tweedekamer-11" subcorpus="Referentie" lang="Nederlands" body="Eerste Kamer" term="Meeting of the 29th Tweede Kamer" session="Session 11" meeting="Meeting 83" sitting="Sitting 2019-05-16" agenda="-" date="2019-05-16" title="Verslag van de vergadering van de Tweede Kamer, Meeting 83, Session 11 (2019-05-16)" speaker_role="Voorzitter" topic="Overig" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="-" party_orientation="Centrum-links" speaker_gender="F" speaker_birth="1960">
 <p id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg384" lang="Nederlands">
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1886">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1886" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.208">
 Daarmee	Daarmee	daarmee	ADV	-	w28605	advmod	komen	VERB	VerbForm=Part	w28608
 zijn	zijn	zijn	AUX	Number=Plur Tense=Pres VerbForm=Fin	w28606	aux	komen	VERB	VerbForm=Part	w28608
 we	we	wij	PRON	Case=Nom Person=1 PronType=Prs	w28607	nsubj	komen	VERB	VerbForm=Part	w28608
@@ -404,9 +404,9 @@ debat	debat	debat	NOUN	Gender=Neut Number=Sing	w28614	nmod	einde	NOUN	Gender=Neu
 </speech>
 <note type="comment" content="De beraadslaging wordt gesloten."/>
 <note type="speaker" content="De voorzitter"/>
-<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u274" text_id="ParlaMint-NL_2019-05-16-tweedekamer-11" subcorpus="Referentie" lang="Nederlands" body="Eerste Kamer" term="Meeting of the 29th Tweede Kamer" session="Session 11" meeting="Meeting 83" sitting="Sitting 2019-05-16" agenda="-" date="2019-05-16" title="Verslag van de vergadering van de Tweede Kamer, Meeting 83, Session 11 (2019-05-16)" speaker_role="Voorzitter" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="-" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
+<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u274" text_id="ParlaMint-NL_2019-05-16-tweedekamer-11" subcorpus="Referentie" lang="Nederlands" body="Eerste Kamer" term="Meeting of the 29th Tweede Kamer" session="Session 11" meeting="Meeting 83" sitting="Sitting 2019-05-16" agenda="-" date="2019-05-16" title="Verslag van de vergadering van de Tweede Kamer, Meeting 83, Session 11 (2019-05-16)" speaker_role="Voorzitter" topic="Overig" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="-" party_orientation="Centrum-links" speaker_gender="F" speaker_birth="1960">
 <p id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg385" lang="Nederlands">
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888" senti_3="Neutraal" senti_6="neutraal-positief" senti_n="3.062">
 De	De	de	DET	Definite=Def	w28619	det	motie	NOUN	Number=Plur	w28620
 moties	moties	motie	NOUN	Number=Plur	w28620	nsubj	komen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w28621
 komen	komen	komen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w28621	root	-	-	-	-
@@ -426,7 +426,7 @@ zijn	zijn	zijn	AUX	Number=Plur Tense=Pres VerbForm=Fin	w28632	aux:pass	aanhouden
 <g/>
 .	.	.	PUNCT	-	pc3093	punct	komen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w28621
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1889">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1889" senti_3="Positief" senti_6="positief" senti_n="4.586">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w28633	nsubj	danken	VERB	Number=Sing Tense=Pres VerbForm=Fin	w28634
 dank	dank	danken	VERB	Number=Sing Tense=Pres VerbForm=Fin	w28634	root	-	-	-	-
 u	u	u	PRON	Case=Nom Person=2 PronType=Prs	w28635	iobj	danken	VERB	Number=Sing Tense=Pres VerbForm=Fin	w28634

@@ -1,8 +1,8 @@
 <note type="head" content="§ 8 Svar på interpellation 2021 / 22:439 om hemställan om undantag från biotopskydd i Kalmar län"/>
 <note type="speaker" content="Anf. 1 Minister for Climate and Environment ANNIKA STRANDS (S):"/>
-<speech id="i-BQ8dtftkuwhpor9i8CsgBV" text_id="ParlaMint-SE-en_2022-05-13-prot-202122--113" subcorpus="COVID,War" lang="English" body="Unicameralism" term="2021/22" session="-" meeting="-" sitting="2021/22--113" agenda="-" date="2022-05-13" title="Swedish parliamentary corpus ParlaMint-SE-en, 2021/22 nr. 113" speaker_role="Regular" speaker_id="Q4980750" speaker_name="Strandhäll, Annika" speaker_mp="notMP" speaker_minister="Minister" speaker_party="S" speaker_party_name="Socialdemokraterna" party_status="Coalition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="-">
+<speech id="i-BQ8dtftkuwhpor9i8CsgBV" text_id="ParlaMint-SE-en_2022-05-13-prot-202122--113" subcorpus="COVID,War" lang="English" body="Unicameralism" term="2021/22" session="-" meeting="-" sitting="2021/22--113" agenda="-" date="2022-05-13" title="Swedish parliamentary corpus ParlaMint-SE-en, 2021/22 nr. 113" speaker_role="Regular" topic="Mix" speaker_id="Q4980750" speaker_name="Strandhäll, Annika" speaker_mp="notMP" speaker_minister="Minister" speaker_party="S" speaker_party_name="Socialdemokraterna" party_status="Coalition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="-">
 <p id="i-KuTV2m1oGj7Vyv89Y5hBGz" lang="English">
-<s id="i-7Gocwwgm1SAsUELPMWzXuE">
+<s id="i-7Gocwwgm1SAsUELPMWzXuE" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 <phr usas_tags="Z1f" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Madam	Madam	madam	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t2
@@ -13,7 +13,7 @@ I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t4
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t5
 like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t6
 </s>
-<s id="i-7GodASKwaGTGUA8Kq8nQCL">
+<s id="i-7GodASKwaGTGUA8Kq8nQCL" senti_3="Neutral" senti_6="neutral negative" senti_n="2.313">
 <name type="PER">
 Anders	Anders	Anders	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Åkesson	Åkesson	Åkesson	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -62,7 +62,7 @@ County	County	County	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t37
 </s>
 </p>
 <p id="i-7TuwixV59krjJApgxupyLo" lang="English">
-<s id="i-7GodHw7T7ZphsKCgv74KaC">
+<s id="i-7GodHw7T7ZphsKCgv74KaC" senti_3="Neutral" senti_6="neutral negative" senti_n="2.331">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 County	County	County	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -90,7 +90,7 @@ code	code	code	NOUN	Number=Sing	G2.1,A10-/Q1.1,G2.2,A4.1,Y2@,B3%,B1%	G2.1	G2.1: 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="i-7GodPmH4ygtVQDNXYCAFye">
+<s id="i-7GodPmH4ygtVQDNXYCAFye" senti_3="Negative" senti_6="mixed negative" senti_n="0.572">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 proposals	proposals	proposal	NOUN	Number=Plur	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Speech acts	t2
 are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -110,7 +110,7 @@ fences	fences	fence	NOUN	Number=Plur	H2,G2.1-/S2mf,A6.1-	H2	H2: Parts of buildin
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="i-7GodVbSgqoxGw7YNAHGCP6">
+<s id="i-7GodVbSgqoxGw7YNAHGCP6" senti_3="Negative" senti_6="mixed negative" senti_n="1.452">
 As	As	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 matter	matter	matter	NOUN	Number=Sing	X4.1,O1	X4.1	X4.1: Mental object: Conceptual object	t3
@@ -154,7 +154,7 @@ matter	matter	matter	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Go
 </s>
 </p>
 <p id="i-Xh7YoaT1NZSsYjxRxn4U4b" lang="English">
-<s id="i-7GodbRcJhw24U1iCnNN8nY">
+<s id="i-7GodbRcJhw24U1iCnNN8nY" senti_3="Neutral" senti_6="neutral positive" senti_n="2.786">
 <name type="PER">
 Anders	Anders	Anders	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Åkesson	Åkesson	Åkesson	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -206,7 +206,7 @@ production	production	production	NOUN	Number=Sing	A1.1.1,A10+,K4,K3,Q4.3	A1.1.1	
 </s>
 </p>
 <p id="i-FfJ4GhM8a4fHhY8h9FH5Ps" lang="English">
-<s id="i-7Godi65sQeEfw3LJdu44gC">
+<s id="i-7Godi65sQeEfw3LJdu44gC" senti_3="Negative" senti_6="mixed negative" senti_n="0.626">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 share	share	share	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	S1.1.2+	S1.1.2p	S1.1.2+: Reciprocal	t2
 <name type="PER">
@@ -234,7 +234,7 @@ security	security	security	NOUN	Number=Sing	G2.1,A15+,E6+,I1.1	G2.1	G2.1: Law an
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="i-7GodovFVGmJTTwW9FzA15e">
+<s id="i-7GodovFVGmJTTwW9FzA15e" senti_3="Negative" senti_6="mixed negative" senti_n="0.981">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 Government	Government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -269,7 +269,7 @@ fishing	fishing	fishing	NOUN	Number=Sing	K5.1/L2,F4/M4,X2.4	K5.1 L2	K5.1: Sports
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
-<s id="i-7GodukR78tNEzqfyt5FwV6">
+<s id="i-7GodukR78tNEzqfyt5FwV6" senti_3="Neutral" senti_6="neutral positive" senti_n="3.137">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 package	package	package	NOUN	Number=Sing	O2,A1.8+,Y2	O2	O2: Objects generally	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -289,7 +289,7 @@ Party	Party	Party	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t14
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="i-7Goe1aaj11S2XjqpWAMstY">
+<s id="i-7Goe1aaj11S2XjqpWAMstY" senti_3="Positive" senti_6="mixed positive" senti_n="3.544">
 With	With	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 these	these	this	DET	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 proposals	proposals	proposal	NOUN	Number=Plur	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Speech acts	t3
@@ -330,7 +330,7 @@ situation	situation	situation	NOUN	Number=Sing	A3+,O4.1,M6,I3.1@	A3p	A3+: Existi
 </s>
 </p>
 <p id="i-HbaX8q7CKMmmtCiuEiQvFo" lang="English">
-<s id="i-7Goe7QkLs8Vp4e1f8FTpHz">
+<s id="i-7Goe7QkLs8Vp4e1f8FTpHz" senti_3="Positive" senti_6="mixed positive" senti_n="3.739">
 Biotop	Biotop	biotop	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t1
 protection	protection	protection	NOUN	Number=Sing	S8+/A15+,A10-	S8p A15p	S8+: Helping|A15+: Safe	t2
 aims	aims	aim	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	X7+,M6	X7p	X7+: Wanted	t3
@@ -344,7 +344,7 @@ environments	environments	environment	NOUN	Number=Plur	W5,W3,E1,Y2,O4.1	W5	W5: G
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="i-7GoeDEuxjFZbbYBVkLZkhS">
+<s id="i-7GoeDEuxjFZbbYBVkLZkhS" senti_3="Neutral" senti_6="neutral positive" senti_n="2.605">
 Cultivation	Cultivation	cultivation	NOUN	Number=Sing	F4,A9+	F4	F4: Farming & Horticulture	t1
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 heaps	heaps	heap	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t2
@@ -366,7 +366,7 @@ protection	protection	protection	NOUN	Number=Sing	S8+/A15+,A10-	S8p A15p	S8+: He
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="i-7GoeK55abNdP8SMLNRfh6t">
+<s id="i-7GoeK55abNdP8SMLNRfh6t" senti_3="Neutral" senti_6="neutral positive" senti_n="2.561">
 Both	Both	both	DET	-	N5	N5	N5: Quantities	t1
 are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 important	important	important	ADJ	Degree=Pos	A11.1+	A11.1p	A11.1+: Important	t3
@@ -393,7 +393,7 @@ activities	activities	activity	NOUN	Number=Plur	A1.1.1	A1.1.1	A1.1.1: General ac
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="i-7GoeQuFCTVhAfLXAzWmdWL">
+<s id="i-7GoeQuFCTVhAfLXAzWmdWL" senti_3="Positive" senti_6="positive" senti_n="4.705">
 Protecting	Protecting	protect	VERB	VerbForm=Ger	S8+/A15+,A10-	S8p A15p	S8+: Helping|A15+: Safe	t1
 such	such	such	ADJ	Degree=Pos	Z5,Z8	Z5	Z5: Grammatical bin	t2
 natural	natural	natural	ADJ	Degree=Pos	A6.2+,A9+,A5.4+,W3,W5,B1,K2	A6.2p	A6.2+: Comparing: Usual	t3
@@ -414,7 +414,7 @@ biodiversity	biodiversity	biodiversity	NOUN	Number=Sing	L1/A6.3+,L2/A6.3+,L3/A6.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="i-7GoeWjQpKckxCEh1cbsZun">
+<s id="i-7GoeWjQpKckxCEh1cbsZun" senti_3="Positive" senti_6="mixed positive" senti_n="3.977">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 protection	protection	protection	NOUN	Number=Sing	S8+/A15+,A10-	S8p A15p	S8+: Helping|A15+: Safe	t2
 also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t3
@@ -449,7 +449,7 @@ Parliament	Parliament	Parliament	PROPN	Number=Sing	G1.1	G1.1	G1.1: Government	t2
 </s>
 </p>
 <p id="i-WyUEvgKH27LftYxXVcHTnt" lang="English">
-<s id="i-7GoecZaSBjpjj8rrEgyWKE">
+<s id="i-7GoecZaSBjpjj8rrEgyWKE" senti_3="Neutral" senti_6="neutral positive" senti_n="3.105">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 Government	Government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t2
 believes	believes	believe	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	X2.1,S9%	X2.1	X2.1: Thought, belief	t3
@@ -488,7 +488,7 @@ disappearing	disappearing	disappear	VERB	VerbForm=Ger	A10-,M1,A3-	A10n	A10-: Clo
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t34
 </s>
-<s id="i-7GoeiPk43rtXG32grn5Sig">
+<s id="i-7GoeiPk43rtXG32grn5Sig" senti_3="Neutral" senti_6="neutral negative" senti_n="1.943">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 national	national	national	ADJ	Degree=Pos	M7/N5.1+	M7 N5.1p	M7: Places|N5.1+: Entire; maximum	t2
 red	red	red	ADJ	Degree=Pos	O4.3,G1.2	O4.3	O4.3: Colour and colour patterns	t3
@@ -516,7 +516,7 @@ landscape	landscape	landscape	NOUN	Number=Sing	W3,C1,M6	W3	W3: Geographical term
 </s>
 </p>
 <p id="i-Rs2LFJ652TppRcq7QhNHtF" lang="English">
-<s id="i-7GoepDufuyxJnwCXUsBP88">
+<s id="i-7GoepDufuyxJnwCXUsBP88" senti_3="Neutral" senti_6="neutral positive" senti_n="2.750">
 With	With	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 change	change	change	NOUN	Number=Sing	A2.1+,I1,B1	A2.1p	A2.1+: Change	t3
@@ -549,7 +549,7 @@ exemption	exemption	exemption	NOUN	Number=Sing	S6-	S6n	S6-: No obligation or nec
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="i-7Goev45Hn726KqNN6xHKXa">
+<s id="i-7Goev45Hn726KqNN6xHKXa" senti_3="Neutral" senti_6="neutral negative" senti_n="2.390">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Swedish	Swedish	Swedish	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -587,7 +587,7 @@ increased	increased	increase	VERB	Tense=Past VerbForm=Part	N5+/A2.1	N5p A2.1	N5+
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="i-7Gof2iYrUpEhnrzTxUyFRE">
+<s id="i-7Gof2iYrUpEhnrzTxUyFRE" senti_3="Negative" senti_6="mixed negative" senti_n="1.293">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 <name type="LOC">
 Kalmar	Kalmar	Kalmar	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -620,7 +620,7 @@ rejected	rejected	reject	VERB	Tense=Past VerbForm=Part Voice=Pass	X7-	X7n	X7-: U
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="i-7Gof8YiULwJVKmAJaa5Bpg">
+<s id="i-7Gof8YiULwJVKmAJaa5Bpg" senti_3="Neutral" senti_6="neutral positive" senti_n="3.238">
 More	More	more	ADV	Degree=Cmp	A13.3,N6++	A13.3	A13.3: Degree: Boosters	t1
 concretely	concretely	concretely	ADV	-	Z99	Z99	Z99: Unmatched	t2
 <g/>
@@ -658,7 +658,7 @@ granted	granted	grant	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+	A9p	A9+: Gett
 </s>
 </p>
 <p id="i-XQeSiC1pgu8E1BXrtRCyq7" lang="English">
-<s id="i-7GofENt6D4NGrfL9CfB8E8">
+<s id="i-7GofENt6D4NGrfL9CfB8E8" senti_3="Neutral" senti_6="neutral positive" senti_n="3.065">
 From	From	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 2023	2023	2023	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
 onwards	onwards	onwards	ADV	-	M6,A2.1+,T2++	M6	M6: Location and direction	t3
@@ -678,7 +678,7 @@ policy	policy	policy	NOUN	Number=Sing	X7+,Q1.2	X7p	X7+: Wanted	t13
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="i-7GofLD3i5BS4PZVypkH4da">
+<s id="i-7GofLD3i5BS4PZVypkH4da" senti_3="Neutral" senti_6="neutral positive" senti_n="2.520">
 Certain	Certain	certain	ADJ	Degree=Pos	A4.2+,A7+	A4.2p	A4.2+: Detailed	t1
 conditions	conditions	condition	NOUN	Number=Plur	O4.1,S6+,B2-,B2+,Z7	O4.1	O4.1: General appearance and physical properties	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -708,7 +708,7 @@ walls	walls	wall	NOUN	Number=Plur	H2,O2,N5+,S8-	H2	H2: Parts of buildings	t21
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="i-7GofS3DKwJVqvTfpSqP132">
+<s id="i-7GofS3DKwJVqvTfpSqP132" senti_3="Positive" senti_6="mixed positive" senti_n="3.666">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 Government	Government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t2
 notes	notes	note	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q2.1,Q1.2	Q2.1	Q2.1: Speech: Communicative	t3
@@ -746,7 +746,7 @@ manner	manner	manner	NOUN	Number=Sing	S1.1.1,X4.2	S1.1.1	S1.1.1: Social Actions,
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t31
 </s>
-<s id="i-7GofXsNwoRZdTMqf4vUwSU">
+<s id="i-7GofXsNwoRZdTMqf4vUwSU" senti_3="Positive" senti_6="mixed positive" senti_n="3.575">
 According	According	accord	VERB	ExtPos=ADP VerbForm=Ger	A9-,A6.1+	A9n	A9-: Giving	t1
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -788,7 +788,7 @@ biodiversity	biodiversity	biodiversity	NOUN	Number=Sing	L1/A6.3+,L2/A6.3+,L3/A6.
 </s>
 </p>
 <p id="i-NzDc72RYTkV94QL7gKTKrz" lang="English">
-<s id="i-7GofdhYZfYdQzG1Vh1asqv">
+<s id="i-7GofdhYZfYdQzG1Vh1asqv" senti_3="Neutral" senti_6="neutral positive" senti_n="2.909">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 can	can	can	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 assure	assure	assure	VERB	VerbForm=Inf	A7+,Q2.2	A7p	A7+: Likely	t3
@@ -821,7 +821,7 @@ County	County	County	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t23
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="i-7GofjXiBXfhCXABLK6gpFN">
+<s id="i-7GofjXiBXfhCXABLK6gpFN" senti_3="Neutral" senti_6="neutral positive" senti_n="2.561">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Government	Government	Government	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -848,9 +848,9 @@ matter	matter	matter	NOUN	Number=Sing	X4.1,O1	X4.1	X4.1: Mental object: Conceptu
 </p>
 </speech>
 <note type="speaker" content="Anf. 2 OBSERVATION OF SPIRITS (C):"/>
-<speech id="i-UzqfQX3esdrPWFE4oPzSRh" text_id="ParlaMint-SE-en_2022-05-13-prot-202122--113" subcorpus="COVID,War" lang="English" body="Unicameralism" term="2021/22" session="-" meeting="-" sitting="2021/22--113" agenda="-" date="2022-05-13" title="Swedish parliamentary corpus ParlaMint-SE-en, 2021/22 nr. 113" speaker_role="Regular" speaker_id="Q6255521" speaker_name="Åkesson, Anders" speaker_mp="MP" speaker_minister="notMinister" speaker_party="C" speaker_party_name="Centerpartiet" party_status="-" party_orientation="Centre to centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="i-UzqfQX3esdrPWFE4oPzSRh" text_id="ParlaMint-SE-en_2022-05-13-prot-202122--113" subcorpus="COVID,War" lang="English" body="Unicameralism" term="2021/22" session="-" meeting="-" sitting="2021/22--113" agenda="-" date="2022-05-13" title="Swedish parliamentary corpus ParlaMint-SE-en, 2021/22 nr. 113" speaker_role="Regular" topic="Agriculture" speaker_id="Q6255521" speaker_name="Åkesson, Anders" speaker_mp="MP" speaker_minister="notMinister" speaker_party="C" speaker_party_name="Centerpartiet" party_status="-" party_orientation="Centre to centre-right" speaker_gender="M" speaker_birth="-">
 <p id="i-PkEaz4iXxPuRsym7ZFipuD" lang="English">
-<s id="i-7GofqMsoPnkz44MAwBnkep">
+<s id="i-7GofqMsoPnkz44MAwBnkep" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 <phr usas_tags="Z1f" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Madam	Madam	madam	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t2
@@ -861,7 +861,7 @@ I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t4
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t5
 like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t6
 </s>
-<s id="i-7GofvMjURKfweq4kKqJha4">
+<s id="i-7GofvMjURKfweq4kKqJha4" senti_3="Positive" senti_6="mixed positive" senti_n="4.222">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -878,7 +878,7 @@ Strandhäll	Strandhäll	Strandhäll	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal n
 </name>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="i-7Gog32D382tZ7rgrBMzdTi">
+<s id="i-7Gog32D382tZ7rgrBMzdTi" senti_3="Neutral" senti_6="neutral positive" senti_n="3.160">
 <name type="LOC">
 Kalmar	Kalmar	Kalmar	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 County	County	County	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -899,7 +899,7 @@ production	production	production	NOUN	Number=Sing	A1.1.1,A10+,K4,K3,Q4.3	A1.1.1	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="i-7Gog8rNez9xLekrgoT6ZsA">
+<s id="i-7Gog8rNez9xLekrgoT6ZsA" senti_3="Negative" senti_6="mixed negative" senti_n="1.278">
 At	At	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 same	same	same	ADJ	Degree=Pos	A6.1+++	A6.1p	A6.1+: Comparing: Similar	t3
@@ -939,7 +939,7 @@ landscape	landscape	landscape	NOUN	Number=Sing	W3,C1,M6	W3	W3: Geographical term
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t30
 </s>
-<s id="i-7GogEgYGrH28Bf2XRYCWGc">
+<s id="i-7GogEgYGrH28Bf2XRYCWGc" senti_3="Positive" senti_6="mixed positive" senti_n="3.756">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 stone	stone	stone	NOUN	Number=Sing	O1.1,O2,B2-,N3.5,B5	O1.1	O1.1: Substances and materials: Solid	t3
@@ -954,7 +954,7 @@ biotopes	biotopes	biotope	NOUN	Number=Plur	Z99	Z99	Z99: Unmatched	t11
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="i-7GogKgPwsow5nRk6pBiTBr">
+<s id="i-7GogKgPwsow5nRk6pBiTBr" senti_3="Positive" senti_6="positive" senti_n="5.278">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 very	very	very	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t3
@@ -974,7 +974,7 @@ Government	Government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t1
 </s>
 </p>
 <p id="i-9bFHxHX2qfpY55xrgmBV3" lang="English">
-<s id="i-7GogRWZZjvzsKKuwSGpPbJ">
+<s id="i-7GogRWZZjvzsKKuwSGpPbJ" senti_3="Negative" senti_6="negative" senti_n="0.375">
 At	At	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 same	same	same	ADJ	Degree=Pos	A6.1+++	A6.1p	A6.1+: Comparing: Similar	t3
@@ -996,7 +996,7 @@ impossible	impossible	impossible	ADJ	Degree=Pos	A7-,A12-	A7n	A7-: Unlikely	t17
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="i-7GogXLjBc44erE5n4MvKzk">
+<s id="i-7GogXLjBc44erE5n4MvKzk" senti_3="Negative" senti_6="mixed negative" senti_n="0.826">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -1035,7 +1035,7 @@ production	production	production	NOUN	Number=Sing	A1.1.1,A10+,K4,K3,Q4.3	A1.1.1	
 </s>
 </p>
 <p id="i-9eXrdxzThvor53vepD3hwr" lang="English">
-<s id="i-7GogdAtoUB8SP8FcgT2GQC">
+<s id="i-7GogdAtoUB8SP8FcgT2GQC" senti_3="Neutral" senti_6="neutral negative" senti_n="2.341">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -1083,7 +1083,7 @@ strategies	strategies	strategy	NOUN	Number=Plur	X7+	X7p	X7+: Wanted	t36
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
 </s>
-<s id="i-7Gogj14RLJCDv2RTJY8Coe">
+<s id="i-7Gogj14RLJCDv2RTJY8Coe" senti_3="Negative" senti_6="negative" senti_n="0.164">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Biotope	Biotope	biotope	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t1
 protection	protection	protection	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
@@ -1100,7 +1100,7 @@ counterproductive	counterproductive	counterproductive	ADJ	Degree=Pos	S8-	S8n	S8-
 </s>
 </p>
 <p id="i-Ut6Eg2UBviLyrtWFy7xJsq" lang="English">
-<s id="i-7GogpqE3CRG1SvbHvdE9D6">
+<s id="i-7GogpqE3CRG1SvbHvdE9D6" senti_3="Negative" senti_6="negative" senti_n="0.152">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 has	has	have	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 been	been	be	AUX	Tense=Past VerbForm=Part	A3+,Z5	A3p	A3+: Existing	t3
@@ -1184,7 +1184,7 @@ world	world	world	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	
 </s>
 </p>
 <p id="i-6fUWG8UXbXTaz61qyTyMfJ" lang="English">
-<s id="i-7GogwVhbu8UcuxDPn9v56k">
+<s id="i-7GogwVhbu8UcuxDPn9v56k" senti_3="Neutral" senti_6="neutral negative" senti_n="1.909">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 County	County	County	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -1253,7 +1253,7 @@ livelihoods	livelihoods	livelihood	NOUN	Number=Plur	I3.1	I3.1	I3.1: Work and emp
 </s>
 </p>
 <p id="i-BS2yC6Uvf58bEs4EW4Kphp" lang="English">
-<s id="i-7Goh3KsDmFYQSrPEQF21WC">
+<s id="i-7Goh3KsDmFYQSrPEQF21WC" senti_3="Negative" senti_6="negative" senti_n="0.198">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 estimated	estimated	estimate	VERB	Tense=Past VerbForm=Part Voice=Pass	X6/A7-,N2/A7-	X6 A7n	X6: Deciding|A7-: Unlikely	t3
@@ -1294,7 +1294,7 @@ areas	areas	area	NOUN	Number=Plur	M7,A4.1,N3.6	M7	M7: Places	t30
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t31
 </s>
-<s id="i-7Goh9A2qdNcBykZ52L7wue">
+<s id="i-7Goh9A2qdNcBykZ52L7wue" senti_3="Negative" senti_6="negative" senti_n="0.265">
 Smaller	Smaller	Small	ADJ	Degree=Cmp	N3.2--,N3.7--,N5--,T3--,A11.1--,S5--/I2.1,X3.2-,A5.1--	N3.2n	N3.2-: Size: Small	t1
 and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t2
 hard	hard	hard	ADJ	Degree=Pos	O4.5,A12-,S1.2.5+,O4.1	O4.5	O4.5: Texture	t3
@@ -1313,7 +1313,7 @@ uncultivated	uncultivated	uncultivated	ADJ	Degree=Pos	S1.2.4-,F4-	S1.2.4n	S1.2.4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="i-7GohEzCTVVfyWeiueRDtK6">
+<s id="i-7GohEzCTVVfyWeiueRDtK6" senti_3="Negative" senti_6="negative" senti_n="0.278">
 Discontinued	Discontinued	discontinue	VERB	Tense=Past VerbForm=Part	T2-	T2n	T2-: Time: Ending	t1
 holdings	holdings	holding	NOUN	Number=Plur	A9+,I1.1+,M7/F4,S1.1.1	A9p	A9+: Getting and possession	t2
 with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1324,7 +1324,7 @@ entrepreneurs	entrepreneurs	entrepreneur	NOUN	Number=Plur	I2.1/S2mf	I2.1 S2	I2.1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="i-7GohLpN5Mcjm3YtkGWKpiY">
+<s id="i-7GohLpN5Mcjm3YtkGWKpiY" senti_3="Negative" senti_6="mixed negative" senti_n="0.870">
 Generation	Generation	generation	NOUN	Number=Sing	T1.3,S5+c	T1.3	T1.3: Time: Period	t1
 shifts	shifts	shift	NOUN	Number=Plur	A2.1+,S5+c,T1.3/I3.1	A2.1p	A2.1+: Change	t2
 are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -1333,7 +1333,7 @@ harder	harder	hard	ADJ	Degree=Cmp	X8++,N5++,A12--	X8p	X8+: Trying hard	t5
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="i-7GohSeXhDjoYaT4atbRm7z">
+<s id="i-7GohSeXhDjoYaT4atbRm7z" senti_3="Neutral" senti_6="neutral negative" senti_n="1.729">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 needs	needs	need	NOUN	Number=Plur	S6+	S6p	S6+: Strong obligation or necessity	t2
 are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -1367,7 +1367,7 @@ protection	protection	protection	NOUN	Number=Sing	S8+/A15+,A10-	S8p A15p	S8+: He
 </s>
 </p>
 <p id="i-HKvxkE1ZyYerS75ymdZwUV" lang="English">
-<s id="i-7GohYUhK5rsL7MERWgXhXS">
+<s id="i-7GohYUhK5rsL7MERWgXhXS" senti_3="Negative" senti_6="negative" senti_n="0.466">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <phr usas_tags="T1.3++" usas_cats="T1.3p" usas_glosses="T1.3+: Time period: long">
@@ -1388,7 +1388,7 @@ county	county	county	NOUN	Number=Sing	M7	M7	M7: Places	t15
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="i-7GoheJrvwyw7eFQG8mddvt">
+<s id="i-7GoheJrvwyw7eFQG8mddvt" senti_3="Negative" senti_6="negative" senti_n="0.108">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 runs	runs	run	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	M1/N3.8+,G1.2,G2.1-,X3.3,S7.1+,A1.1.1,T2++,M3,S4,A6.3+,K4	M1 N3.8p	M1: Moving, coming and going|N3.8+: Speed: Fast	t2
 counter	counter	counter	NOUN	Number=Sing	H5/I2.2,H5,N2/O2	H5 I2.2	H5: Furniture and household fittings|I2.2: Business: Selling	t3
@@ -1398,7 +1398,7 @@ set	set	set	VERB	Tense=Past VerbForm=Part	M2,M6,O4.5,O4.1,W4,A1.1.1,B3,B4,X6+,S6
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="i-7Gohk92Yp6zuB9a6krjaLL">
+<s id="i-7Gohk92Yp6zuB9a6krjaLL" senti_3="Negative" senti_6="negative" senti_n="0.159">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 addition	addition	addition	NOUN	Number=Sing	N5++,N2	N5p	N5+: Quantities: many/much	t2
 <g/>
@@ -1437,7 +1437,7 @@ protect	protect	protect	VERB	VerbForm=Inf	S8+/A15+,A10-	S8p A15p	S8+: Helping|A1
 </s>
 </p>
 <p id="i-Hnta6qqGGqvgoqqqWDvxMh" lang="English">
-<s id="i-7Gohq8tDqdurmvHg9WFXFa">
+<s id="i-7Gohq8tDqdurmvHg9WFXFa" senti_3="Neutral" senti_6="neutral positive" senti_n="3.089">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 against	against	against	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1530,9 +1530,9 @@ protection	protection	protection	NOUN	Number=Sing	S8+/A15+,A10-	S8p A15p	S8+: He
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="i-MRAeSfoAcSUr1LfFxcntf7" text_id="ParlaMint-SE-en_2022-05-13-prot-202122--113" subcorpus="COVID,War" lang="English" body="Unicameralism" term="2021/22" session="-" meeting="-" sitting="2021/22--113" agenda="-" date="2022-05-13" title="Swedish parliamentary corpus ParlaMint-SE-en, 2021/22 nr. 113" speaker_role="Regular" speaker_id="Q71132178" speaker_name="Johansson, Martina" speaker_mp="MP" speaker_minister="notMinister" speaker_party="C" speaker_party_name="Centerpartiet" party_status="-" party_orientation="Centre to centre-right" speaker_gender="F" speaker_birth="-">
+<speech id="i-MRAeSfoAcSUr1LfFxcntf7" text_id="ParlaMint-SE-en_2022-05-13-prot-202122--113" subcorpus="COVID,War" lang="English" body="Unicameralism" term="2021/22" session="-" meeting="-" sitting="2021/22--113" agenda="-" date="2022-05-13" title="Swedish parliamentary corpus ParlaMint-SE-en, 2021/22 nr. 113" speaker_role="Regular" topic="Agriculture" speaker_id="Q71132178" speaker_name="Johansson, Martina" speaker_mp="MP" speaker_minister="notMinister" speaker_party="C" speaker_party_name="Centerpartiet" party_status="-" party_orientation="Centre to centre-right" speaker_gender="F" speaker_birth="-">
 <p id="i-Wyy9XPxqh1vvmc51sFTs9r" lang="English">
-<s id="i-7GpTJPTBg2ZUisvcdqEiMr">
+<s id="i-7GpTJPTBg2ZUisvcdqEiMr" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 <phr usas_tags="Z1f" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Madam	Madam	madam	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t2
@@ -1543,7 +1543,7 @@ I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t4
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t5
 like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t6
 </s>
-<s id="i-7GpTQDcoY9dGFn6TFvLemJ">
+<s id="i-7GpTQDcoY9dGFn6TFvLemJ" senti_3="Positive" senti_6="positive" senti_n="4.664">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -1554,7 +1554,7 @@ answer	answer	answer	NOUN	Number=Sing	Q2.2,X4.1,X9.2+	Q2.2	Q2.2: Speech acts	t5
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="i-7GpTVDUUZgYDrYp2eZrbgY">
+<s id="i-7GpTVDUUZgYDrYp2eZrbgY" senti_3="Neutral" senti_6="neutral positive" senti_n="2.716">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Of	Of	of	ADP	ExtPos=ADV	Z4	Z4	Z4: Discourse Bin	t1
 course	course	course	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -1571,7 +1571,7 @@ fast	fast	fast	ADV	Degree=Pos	N3.8+	N3.8p	N3.8+: Speed: Fast	t10
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="i-7GpTb3e6Roc1PSysGexY5z">
+<s id="i-7GpTb3e6Roc1PSysGexY5z" senti_3="Neutral" senti_6="neutral negative" senti_n="1.602">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -1590,7 +1590,7 @@ anticipated	anticipated	anticipate	VERB	Tense=Past VerbForm=Part	X2.6+	X2.6p	X2.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="i-7GpTgsoiHvfnvM9htk4UVS">
+<s id="i-7GpTgsoiHvfnvM9htk4UVS" senti_3="Positive" senti_6="positive" senti_n="4.731">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 have	have	have	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 had	had	have	VERB	Tense=Past VerbForm=Part	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -1607,7 +1607,7 @@ years	years	year	NOUN	Number=Plur	P1/S2mf	P1 S2	P1: Education in general|S2: Peo
 </s>
 </p>
 <p id="i-GsiCfoLqYeHGBfxvCh1isb" lang="English">
-<s id="i-7GpTnhyLA3jaTFKYWqAQtt">
+<s id="i-7GpTnhyLA3jaTFKYWqAQtt" senti_3="Neutral" senti_6="neutral positive" senti_n="3.281">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -1627,7 +1627,7 @@ acceptance	acceptance	acceptance	NOUN	Number=Sing	A9+,X2.5+,S1.2.1+,S7.4+	A9p	A9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="i-7GpTuNStrkxBvGweNMrLnY">
+<s id="i-7GpTuNStrkxBvGweNMrLnY" senti_3="Positive" senti_6="positive" senti_n="4.516">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 hope	hope	hope	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	X2.6+,E4.1+,X9.2+,A5.1+	X2.6p	X2.6+: Expected	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -1657,7 +1657,7 @@ reality	reality	reality	NOUN	Number=Sing	A3+,A5.2+	A3p	A3+: Existing	t24
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="i-7GpTzNJZtHs9X3fDm1NHhn">
+<s id="i-7GpTzNJZtHs9X3fDm1NHhn" senti_3="Neutral" senti_6="neutral positive" senti_n="2.913">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 have	have	have	VERB	VerbForm=Inf	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -1678,7 +1678,7 @@ years	years	year	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t13
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="i-7GpU6CUBkQvw3wq4P6UE7E">
+<s id="i-7GpU6CUBkQvw3wq4P6UE7E" senti_3="Negative" senti_6="negative" senti_n="0.244">
 Like	Like	like	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t2
@@ -1702,7 +1702,7 @@ today	today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultan
 </s>
 </p>
 <p id="i-DnjrczmbnZ43aE7hXuGvP7" lang="English">
-<s id="i-7GpUC2docXziaqzu1BaAWg">
+<s id="i-7GpUC2docXziaqzu1BaAWg" senti_3="Neutral" senti_6="neutral positive" senti_n="3.092">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 have	have	have	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 one	one	one	NUM	NumForm=Word NumType=Card	N1,T3,T1.2	N1	N1: Numbers	t3
@@ -1711,7 +1711,7 @@ left	left	leave	VERB	Tense=Past VerbForm=Part	M1,M2,A1.1.1,A1.9,A9-,N5.2+,T2-	M1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="i-7GpUHroRUf4W7kAjdGg6v8">
+<s id="i-7GpUHroRUf4W7kAjdGg6v8" senti_3="Negative" senti_6="negative" senti_n="0.322">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -1738,7 +1738,7 @@ to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="i-7GpUPgy3Ln8HeeLaFMn3Ka">
+<s id="i-7GpUPgy3Ln8HeeLaFMn3Ka" senti_3="Neutral" senti_6="neutral negative" senti_n="2.202">
 My	My	my	PRON	Number=Sing Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 idea	idea	idea	NOUN	Number=Sing	X4.1,X7+	X4.1	X4.1: Mental object: Conceptual object	t2
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -1768,7 +1768,7 @@ landowners	landowners	landowner	NOUN	Number=Plur	A9+/S2mf	A9p S2	A9+: Getting an
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="i-7GpUVX8fCuC5BYWQsSsyj2">
+<s id="i-7GpUVX8fCuC5BYWQsSsyj2" senti_3="Negative" senti_6="mixed negative" senti_n="1.500">
 Whether	Whether	whether	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 goes	goes	go	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	M1,A2.1+,A1.1.1,A9-,A1.8+,Q2.1,N6+,I2.2,A1.1.2,T2-,S3.2,A6.3+,B2-/X1%,B1%	M1	M1: Moving, coming and going	t3
@@ -1804,7 +1804,7 @@ reviewed	reviewed	review	VERB	Tense=Past VerbForm=Part Voice=Pass	X2.4/A5,P1,Q4,
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="i-7GpUbMJH52FriSgFVXyv8U">
+<s id="i-7GpUbMJH52FriSgFVXyv8U" senti_3="Positive" senti_6="positive" senti_n="5.001">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 may	may	may	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 increase	increase	increase	VERB	VerbForm=Inf	N5+/A2.1	N5p A2.1	N5+: Quantities: many/much|A2.1: Affect: Modify, change	t3
@@ -1815,7 +1815,7 @@ acceptance	acceptance	acceptance	NOUN	Number=Sing	A9+,X2.5+,S1.2.1+,S7.4+	A9p	A9
 </s>
 </p>
 <p id="i-EVBQfmTAuQWMBUfYC933Xn" lang="English">
-<s id="i-7GpUhBTtw9KeFLr67d5rXv">
+<s id="i-7GpUhBTtw9KeFLr67d5rXv" senti_3="Neutral" senti_6="neutral positive" senti_n="3.065">
 Today	Today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1835,7 +1835,7 @@ land	land	land	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t13
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="i-7GpUo1dWoGPRnF1vjiBnwN">
+<s id="i-7GpUo1dWoGPRnF1vjiBnwN" senti_3="Neutral" senti_6="neutral positive" senti_n="2.551">
 <phr usas_tags="N1" usas_cats="N1" usas_glosses="N1: Numbers">
 Two	Two	two	NUM	NumForm=Word NumType=Card	N1	N1	N1: Numbers	t1
 other	other	other	ADJ	Degree=Pos	N1	N1	N1: Numbers	t2
@@ -1849,7 +1849,7 @@ envisaged	envisaged	envisage	VERB	Tense=Past VerbForm=Part Voice=Pass	X2.6+	X2.6
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="i-7GpUtqo8fPTDK9BmMoHjLp">
+<s id="i-7GpUtqo8fPTDK9BmMoHjLp" senti_3="Neutral" senti_6="neutral negative" senti_n="2.403">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 may	may	may	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 include	include	include	VERB	VerbForm=Inf	A1.8+	A1.8p	A1.8+: Inclusion	t3
@@ -1893,7 +1893,7 @@ line	line	line	NOUN	Number=Sing	O4.4,A4.1,Q1.3,X4.2,Q3,Q1.2,Q2.1/K4,S4,S7.1,A1.7
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
 </s>
-<s id="i-7GpUzfxkXWWzr3MbytPfkG">
+<s id="i-7GpUzfxkXWWzr3MbytPfkG" senti_3="Neutral" senti_6="neutral negative" senti_n="2.025">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 therefore	therefore	therefore	ADV	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1909,7 +1909,7 @@ else	else	else	ADJ	Degree=Pos	A6.1-,Z4	A6.1n	A6.1-: Comparing: Different	t12
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="i-7GpV6W8NPdanNwXSbyVc9i">
+<s id="i-7GpV6W8NPdanNwXSbyVc9i" senti_3="Negative" senti_6="negative" senti_n="0.290">
 If	If	if	SCONJ	-	Z7	Z7	Z7: If	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 use	use	use	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A1.5.1,S7.1+	A1.5.1	A1.5.1: Using	t3
@@ -1941,7 +1941,7 @@ lost	lost	lose	VERB	Tense=Past VerbForm=Part Voice=Pass	X9.2-,A9-,M6/A5.3-,L1-	X
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="i-7GpVBVz3RAVjyiF1zd1Z4x">
+<s id="i-7GpVBVz3RAVjyiF1zd1Z4x" senti_3="Neutral" senti_6="neutral negative" senti_n="2.005">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -1957,7 +1957,7 @@ value	value	value	NOUN	Number=Sing	A11.1+,I1.3,G2.2,A4.1,N1	A11.1p	A11.1+: Impor
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="i-7GpVHL9fHHZXWcQrci7VUQ">
+<s id="i-7GpVHL9fHHZXWcQrci7VUQ" senti_3="Neutral" senti_6="neutral positive" senti_n="2.623">
 My	My	my	PRON	Number=Sing Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 final	final	final	ADJ	Degree=Pos	N4,T2-	N4	N4: Linear order	t2
 question	question	question	NOUN	Number=Sing	Q2.2,X4.1	Q2.2	Q2.2: Speech acts	t3
@@ -1991,9 +1991,9 @@ landowners	landowners	landowner	NOUN	Number=Plur	A9+/S2mf	A9p S2	A9+: Getting an
 </p>
 </speech>
 <note type="speaker" content="Anf. 21 Government of KHASHAYAR FARMANBAR (S):"/>
-<speech id="i-911LSx33iZXn2REsnYV6Za" text_id="ParlaMint-SE-en_2022-05-13-prot-202122--113" subcorpus="COVID,War" lang="English" body="Unicameralism" term="2021/22" session="-" meeting="-" sitting="2021/22--113" agenda="-" date="2022-05-13" title="Swedish parliamentary corpus ParlaMint-SE-en, 2021/22 nr. 113" speaker_role="Regular" speaker_id="Q63533075" speaker_name="Farmanbar, Khashayar" speaker_mp="notMP" speaker_minister="Minister" speaker_party="S" speaker_party_name="Socialdemokraterna" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
+<speech id="i-911LSx33iZXn2REsnYV6Za" text_id="ParlaMint-SE-en_2022-05-13-prot-202122--113" subcorpus="COVID,War" lang="English" body="Unicameralism" term="2021/22" session="-" meeting="-" sitting="2021/22--113" agenda="-" date="2022-05-13" title="Swedish parliamentary corpus ParlaMint-SE-en, 2021/22 nr. 113" speaker_role="Regular" topic="Energy" speaker_id="Q63533075" speaker_name="Farmanbar, Khashayar" speaker_mp="notMP" speaker_minister="Minister" speaker_party="S" speaker_party_name="Socialdemokraterna" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
 <p id="i-NE2HtBko1oA8KoEt1HFiic" lang="English">
-<s id="i-7GpVPAKH9QdK3WahEoDRsr">
+<s id="i-7GpVPAKH9QdK3WahEoDRsr" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 <phr usas_tags="Z1f" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Madam	Madam	madam	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t2
@@ -2004,7 +2004,7 @@ I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t4
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t5
 like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t6
 </s>
-<s id="i-7GpVUzUu1Xh6aQkXrtKNHJ">
+<s id="i-7GpVUzUu1Xh6aQkXrtKNHJ" senti_3="Positive" senti_6="mixed positive" senti_n="3.724">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 thank	thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	S1.2.4+	S1.2.4p	S1.2.4+: Polite	t2
 <name type="PER">
@@ -2029,7 +2029,7 @@ debates	debates	debate	NOUN	Number=Plur	Q2.2	Q2.2	Q2.2: Speech acts	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="i-7GpVapeWsekt7JvNUyRJgk">
+<s id="i-7GpVapeWsekt7JvNUyRJgk" senti_3="Positive" senti_6="mixed positive" senti_n="3.590">
 First	First	first	ADV	NumType=Ord	N4,P1@	N4	N4: Linear order	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -2045,7 +2045,7 @@ acceptance	acceptance	acceptance	NOUN	Number=Sing	A9+,X2.5+,S1.2.1+,S7.4+	A9p	A9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="i-7GpVgep8jmpfeD6D74XF6C">
+<s id="i-7GpVgep8jmpfeD6D74XF6C" senti_3="Neutral" senti_6="neutral negative" senti_n="1.805">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 be	be	be	VERB	VerbForm=Inf	A3+,Z5	A3p	A3+: Existing	t3
@@ -2072,7 +2072,7 @@ account	account	account	NOUN	Number=Sing	I1,I1.3,I2.1,Q2.2,Y2	I1	I1: Money gener
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="i-7GpVnUykbttTB7G3j9dBVe">
+<s id="i-7GpVnUykbttTB7G3j9dBVe" senti_3="Negative" senti_6="negative" senti_n="0.369">
 Even	Even	even	ADV	-	A13.1	A13.1	A13.1: Degree: Non-specific	t1
 if	if	if	SCONJ	-	Z7	Z7	Z7: If	t2
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t3
@@ -2137,7 +2137,7 @@ needed	needed	need	VERB	Tense=Past VerbForm=Part Voice=Pass	S6+	S6p	S6+: Strong 
 </s>
 </p>
 <p id="i-KBynYp8Dvw5dVTWykP944H" lang="English">
-<s id="i-7GpVtK9NU1xEi1RtMEj7u6">
+<s id="i-7GpVtK9NU1xEi1RtMEj7u6" senti_3="Neutral" senti_6="neutral positive" senti_n="2.751">
 When	When	when	SCONJ	PronType=Int	Z5	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 comes	comes	come	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	M1,N3.1,A2.2,A3+,X2.1,A9+,S4,N4,S3.2	M1	M1: Moving, coming and going	t3
@@ -2165,7 +2165,7 @@ model	model	model	NOUN	Number=Sing	O2/A5.4-,A4.1,X4.2,A5.1+++,C1/S2mf,B5/I3.2/S2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="i-7GpVz9JzL922EubiyKq4JY">
+<s id="i-7GpVz9JzL922EubiyKq4JY" senti_3="Neutral" senti_6="neutral negative" senti_n="1.812">
 Intruder	Intruder	intruder	NOUN	Number=Sing	M1/X7-/S2mf	M1 X7n S2	M1: Moving, coming and going|X7-: Unwanted|S2: People	t1
 shall	shall	shall	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 be	be	be	AUX	VerbForm=Inf	A3+,Z5	A3p	A3+: Existing	t3
@@ -2193,7 +2193,7 @@ of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="i-7GpW5yUcCG5omomZbQvzhz">
+<s id="i-7GpW5yUcCG5omomZbQvzhz" senti_3="Negative" senti_6="mixed negative" senti_n="1.311">
 As	As	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 mentioned	mentioned	mention	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	Q2.1	Q2.1	Q2.1: Speech: Communicative	t3
@@ -2217,7 +2217,7 @@ value	value	value	NOUN	Number=Sing	A11.1+,I1.3,G2.2,A4.1,N1	A11.1p	A11.1+: Impor
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="i-7GpWBoeE4P9bJhwQDW2w7S">
+<s id="i-7GpWBoeE4P9bJhwQDW2w7S" senti_3="Negative" senti_6="mixed negative" senti_n="0.978">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 know	know	know	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	X2.2+,S3.2/B1%	X2.2p	X2.2+: Knowledgeable	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -2249,7 +2249,7 @@ up	up	up	NOUN	Number=Sing	N5+/A2.1	N5p A2.1	N5+: Quantities: many/much|A2.1: Aff
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="i-7GpWHdoqvWDNqc7Eqb8sWt">
+<s id="i-7GpWHdoqvWDNqc7Eqb8sWt" senti_3="Positive" senti_6="mixed positive" senti_n="3.680">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 has	has	have	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 been	been	be	AUX	Tense=Past VerbForm=Part	A3+,Z5	A3p	A3+: Existing	t3
@@ -2263,7 +2263,7 @@ compensation	compensation	compensation	NOUN	Number=Sing	S8+	S8p	S8+: Helping	t8
 </s>
 </p>
 <p id="i-JLxb5BHVTT7gJVf9QcJy4m" lang="English">
-<s id="i-7GpWPTyTndHANWH5TgEovL">
+<s id="i-7GpWPTyTndHANWH5TgEovL" senti_3="Negative" senti_6="mixed negative" senti_n="1.293">
 Today	Today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 can	can	can	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t3
@@ -2284,7 +2284,7 @@ model	model	model	NOUN	Number=Sing	O2/A5.4-,A4.1,X4.2,A5.1+++,C1/S2mf,B5/I3.2/S2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="i-7GpWUTq8pAC7yGzerKkkqa">
+<s id="i-7GpWUTq8pAC7yGzerKkkqa" senti_3="Neutral" senti_6="neutral positive" senti_n="2.712">
 However	However	however	ADV	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -2309,7 +2309,7 @@ model	model	model	NOUN	Number=Sing	O2/A5.4-,A4.1,X4.2,A5.1+++,C1/S2mf,B5/I3.2/S2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="i-7GpWaHzkgHFuWBAVUQrhF2">
+<s id="i-7GpWaHzkgHFuWBAVUQrhF2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.335">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 <name type="LOC">
 Sweden	Sweden	Sweden	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t2
@@ -2346,7 +2346,7 @@ municipality	municipality	municipality	NOUN	Number=Sing	M7/G1.1	M7 G1.1	M7: Plac
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="i-7GpWg8ANYQKh35LL6VxdeU">
+<s id="i-7GpWg8ANYQKh35LL6VxdeU" senti_3="Neutral" senti_6="neutral negative" senti_n="1.824">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 20	20	20	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t3
@@ -2370,7 +2370,7 @@ countries	countries	country	NOUN	Number=Plur	M7	M7	M7: Places	t13
 </s>
 </p>
 <p id="i-Nk6vyEMyuKwVsvFbNFZFBQ" lang="English">
-<s id="i-7GpWmxKzQXPUZyWAib4a3v">
+<s id="i-7GpWmxKzQXPUZyWAib4a3v" senti_3="Positive" senti_6="mixed positive" senti_n="4.491">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t2
 find	find	find	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A10+,X2.1,X6+	A10p	A10+: Open; Finding; Showing	t3
@@ -2383,7 +2383,7 @@ interesting	interesting	interesting	ADJ	Degree=Pos	X5.2+	X5.2p	X5.2+: Interested
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="i-7GpWsnVcGeTG6sg1LgAWTN">
+<s id="i-7GpWsnVcGeTG6sg1LgAWTN" senti_3="Neutral" senti_6="neutral positive" senti_n="2.997">
 Local	Local	local	ADJ	Degree=Pos	M7	M7	M7: Places	t1
 residents	residents	resident	NOUN	Number=Plur	H4/S2mf	H4 S2	H4: Residence|S2: People	t2
 have	have	have	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -2417,7 +2417,7 @@ value	value	value	NOUN	Number=Sing	A11.1+,I1.3,G2.2,A4.1,N1	A11.1p	A11.1+: Impor
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="i-7GpWycfE8mX3dmqqxmGSrp">
+<s id="i-7GpWycfE8mX3dmqqxmGSrp" senti_3="Positive" senti_6="mixed positive" senti_n="3.521">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -2440,7 +2440,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: P
 </s>
 </p>
 <p id="i-E2RNABTLDd9Q3h2aEYkMYV" lang="English">
-<s id="i-7GpX5SpqztaqAg1garNPGG">
+<s id="i-7GpX5SpqztaqAg1garNPGG" senti_3="Neutral" senti_6="neutral positive" senti_n="2.857">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 report	report	report	NOUN	Number=Sing	Q2.2,X3.2	Q2.2	Q2.2: Speech acts	t2
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t3
@@ -2454,7 +2454,7 @@ March	March	March	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t7
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="i-7GpXBGzTs1echaBXCwUKfi">
+<s id="i-7GpXBGzTs1echaBXCwUKfi" senti_3="Neutral" senti_6="neutral positive" senti_n="3.284">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Let	Let	let	VERB	Mood=Imp VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
@@ -2468,7 +2468,7 @@ are	are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="i-7GpXH7A5j8iQEUMMq2aG5A">
+<s id="i-7GpXH7A5j8iQEUMMq2aG5A" senti_3="Neutral" senti_6="neutral negative" senti_n="2.323">
 However	However	however	ADV	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2

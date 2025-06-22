@@ -1,7 +1,7 @@
 <note type="head" content="Speaker's Statement"/>
-<speech id="ParlaMint-GB_2022-07-21-commons.u1" text_id="ParlaMint-GB-en_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="2022-07-21" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Chairperson" speaker_id="LindsayHoyle" speaker_name="Hoyle, Lindsay Harvey" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LAB" speaker_party_name="Labour" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2022-07-21-commons.u1" text_id="ParlaMint-GB-en_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="2022-07-21" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Chairperson" topic="Government Operations" speaker_id="LindsayHoyle" speaker_name="Hoyle, Lindsay Harvey" speaker_mp="MP" speaker_minister="notMinister" speaker_party="LAB" speaker_party_name="Labour" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2022-07-21-commons.seg1" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg1.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg1.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.938">
 Before	Before	before	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 come	come	come	VERB	Mood=Ind Tense=Pres VerbForm=Fin	M1,N3.1,A2.2,A3+,X2.1,A9+,S4,N4,S3.2,T1,A1.1.1,N5	M1	M1: Moving, coming and going	t3
@@ -33,7 +33,7 @@ Service	Service	Service	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t22
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg1.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg1.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.087">
 <name type="PER">
 Penny	Penny	penny	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Young	Young	Young	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -69,7 +69,7 @@ month	month	month	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg1.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg1.3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.296">
 <name type="PER">
 Isabel	Isabel	Isabel	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Coman	Coman	Coman	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -101,7 +101,7 @@ September	September	September	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t18
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg2" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg2.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg2.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.290">
 <name type="PER">
 Penny	Penny	penny	NOUN	Number=Sing	I1	I1	I1: Money generally	t1
 </name>
@@ -141,7 +141,7 @@ NatCen	NatCen	NatCen	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t27
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg2.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg2.2" senti_3="Positive" senti_6="positive" senti_n="5.305">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 her	her	she	DET	Gender=Fem Number=Sing Person=3 Poss=Yes PronType=Prs	Z8f	Z8	Z8: Pronouns	t2
 time	time	time	NOUN	Number=Sing	T1,T1.2,T1.3,T1.1.2,N6,N1,K2,G2.1@	T1	T1: Time	t3
@@ -173,7 +173,7 @@ public	public	public	NOUN	Number=Sing	S5+c	S5p	S5+: Belonging to a group	t23
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg2.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg2.3" senti_3="Positive" senti_6="positive" senti_n="5.413">
 She	She	she	PRON	Case=Nom Gender=Fem Number=Sing Person=3 PronType=Prs	Z8f	Z8	Z8: Pronouns	t1
 has	has	have	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 been	been	be	VERB	Tense=Past VerbForm=Part	A3+,Z5	A3p	A3+: Existing	t3
@@ -207,7 +207,7 @@ issue	issue	issue	NOUN	Number=Sing	N6+,T1.2	N6p	N6+: Frequent	t25
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg3" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg3.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg3.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.392">
 <name type="PER">
 Isabel	Isabel	Isabel	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t1
 </name>
@@ -254,7 +254,7 @@ teams	teams	team	NOUN	Number=Plur	S5+,K5.1/S5+	S5p	S5+: Belonging to a group	t32
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t33
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg3.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg3.2" senti_3="Positive" senti_6="positive" senti_n="4.820">
 She	She	she	PRON	Case=Nom Gender=Fem Number=Sing Person=3 PronType=Prs	Z8f	Z8	Z8: Pronouns	t1
 has	has	have	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 overseen	overseen	oversee	VERB	Tense=Past VerbForm=Part	S7.1+	S7.1p	S7.1+: In power	t3
@@ -293,7 +293,7 @@ Parliament	Parliament	Parliament	PROPN	Number=Sing	G1.1	G1.1	G1.1: Government	t2
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t30
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg3.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg3.3" senti_3="Positive" senti_6="positive" senti_n="5.421">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 insight	insight	insight	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
@@ -343,7 +343,7 @@ London	London	London	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t35
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg4" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg4.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg4.1" senti_3="Positive" senti_6="positive" senti_n="5.401">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 am	am	be	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 sure	sure	sure	ADJ	Degree=Pos	A7+,Z4	A7p	A7+: Likely	t3
@@ -383,14 +383,14 @@ future	future	future	NOUN	Number=Sing	T1.1.3	T1.1.3	T1.1.3: Time: Future	t23
 <note type="-" content="End of debateSection."/>
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="Free Trade Agreement: India"/>
-<speech id="ParlaMint-GB_2022-07-21-commons.u2" text_id="ParlaMint-GB-en_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="2022-07-21" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Regular" speaker_id="RobertBlackman" speaker_name="Blackman, Robert John" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2022-07-21-commons.u2" text_id="ParlaMint-GB-en_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="2022-07-21" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Regular" topic="Foreign Trade" speaker_id="RobertBlackman" speaker_name="Blackman, Robert John" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2022-07-21-commons.seg5" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg5.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg5.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.767">
 1	1	1	X	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg5.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg5.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.140">
 What	What	what	DET	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t1
 progress	progress	progress	NOUN	Number=Sing	A5.1+/A2.1,T2++,A2.1+,M1%	A5.1p A2.1	A5.1+: Evaluation: Good|A2.1: Affect: Modify, change	t2
 her	her	she	DET	Gender=Fem Number=Sing Person=3 Poss=Yes PronType=Prs	Z8f	Z8	Z8: Pronouns	t3
@@ -413,9 +413,9 @@ India	India	India	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t14
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-GB_2022-07-21-commons.u405" text_id="ParlaMint-GB-en_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="2022-07-21" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Regular" speaker_id="DavidRutley" speaker_name="Rutley, David Henry" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GB_2022-07-21-commons.u405" text_id="ParlaMint-GB-en_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="2022-07-21" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Regular" topic="Social Welfare" speaker_id="DavidRutley" speaker_name="Rutley, David Henry" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2022-07-21-commons.seg859" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg859.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg859.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.488">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 hon.	hon.	hon.	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
@@ -428,7 +428,7 @@ point	point	point	NOUN	Number=Sing	Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5	Q2.1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg859.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg859.2" senti_3="Positive" senti_6="mixed positive" senti_n="4.017">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 will	will	will	VERB	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -447,7 +447,7 @@ up	up	up	ADP	-	Z5	Z5	Z5: Grammatical bin	t11
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg859.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg859.3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.586">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 have	have	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 replied	replied	reply	VERB	Tense=Past VerbForm=Part	Q2.2,Q1.1	Q2.2	Q2.2: Speech acts	t3
@@ -478,7 +478,7 @@ issues	issues	issue	NOUN	Number=Plur	X4.1,Q4.2,S4,A9-	X4.1	X4.1: Mental object: 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg859.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg859.4" senti_3="Positive" senti_6="positive" senti_n="5.208">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 makes	makes	make	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A1.1.1,A9+,A2.2,S6+,A3+,A9-,X9.2+,X6+	A1.1.1	A1.1.1: General actions / making	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -497,7 +497,7 @@ that	that	that	DET	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t13
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg860" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg860.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg860.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.916">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 Department	Department	Department	PROPN	Number=Sing	H2/S5+c,X2.2	H2 S5p	H2: Parts of buildings|S5+: Belonging to a group	t2
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -535,7 +535,7 @@ repayment	repayment	repayment	NOUN	Number=Sing	I1.2-,S1.1.2+	I1.2n	I1.2-: Debt-f
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t30
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg860.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg860.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.009">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 have	have	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 recently	recently	recently	ADV	-	T3---	T3n	T3-: Time: New and young	t3
@@ -563,7 +563,7 @@ reviewed	reviewed	review	VERB	Tense=Past VerbForm=Part Voice=Pass	X2.4/A5,P1,Q4,
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg860.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg860.3" senti_3="Positive" senti_6="positive" senti_n="4.703">
 To	To	to	PART	-	Z5	Z5	Z5: Grammatical bin	t1
 ensure	ensure	ensure	VERB	VerbForm=Inf	A7+	A7p	A7+: Likely	t2
 people	people	people	NOUN	Number=Plur	S2mfc	S2	S2: People	t3
@@ -601,7 +601,7 @@ support	support	support	NOUN	Number=Sing	S8+,O2,I1.1,B5%	S8p	S8+: Helping	t28
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg860.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg860.4" senti_3="Positive" senti_6="mixed positive" senti_n="4.012">
 Again	Again	again	ADV	-	N6+,Z4	N6p	N6+: Frequent	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -626,7 +626,7 @@ it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: P
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg860.5">
+<s id="ParlaMint-GB_2022-07-21-commons.seg860.5" senti_3="Positive" senti_6="mixed positive" senti_n="4.094">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t2
 have	have	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -650,7 +650,7 @@ times	times	time	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t16
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg861" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg861.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg861.1" senti_3="Positive" senti_6="positive" senti_n="4.773">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 thank	thank	thank	VERB	Mood=Ind Tense=Pres VerbForm=Fin	S1.2.4+	S1.2.4p	S1.2.4+: Polite	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -667,7 +667,7 @@ made	made	make	VERB	Mood=Ind Tense=Past VerbForm=Fin	A1.1.1,A9+,A2.2,S6+,A3+,A9-
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg861.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg861.2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.503">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 mentioned	mentioned	mention	VERB	Mood=Ind Tense=Past VerbForm=Fin	Q2.1	Q2.1	Q2.1: Speech: Communicative	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -687,7 +687,7 @@ debt	debt	debt	NOUN	Number=Sing	I1.2	I1.2	I1.2: Money: Debts	t16
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg861.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg861.3" senti_3="Positive" senti_6="mixed positive" senti_n="3.872">
 Because	Because	because	ADP	-	Z5/A2.2	Z5 A2.2	Z5: Grammatical bin|A2.2: Cause	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 existing	existing	exist	VERB	VerbForm=Ger	A3+	A3p	A3+: Existing	t3
@@ -747,7 +747,7 @@ future	future	future	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Go
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t47
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg861.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg861.4" senti_3="Positive" senti_6="mixed positive" senti_n="3.946">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 intention	intention	intention	NOUN	Number=Sing	X7+,O4.1%	X7p	X7+: Wanted	t2
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -791,7 +791,7 @@ recoverable	recoverable	recoverable	ADJ	Degree=Pos	Z99	Z99	Z99: Unmatched	t37
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t38
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg861.5">
+<s id="ParlaMint-GB_2022-07-21-commons.seg861.5" senti_3="Positive" senti_6="mixed positive" senti_n="3.825">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 2012	2012	2012	NUM	NumType=Card	N1	N1	N1: Numbers	t2
 welfare	welfare	welfare	NOUN	Number=Sing	S8+,I1,G1.1c	S8p	S8+: Helping	t3
@@ -824,7 +824,7 @@ payments	payments	payment	NOUN	Number=Plur	I1.1	I1.1	I1.1: Money and pay	t26
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg861.6">
+<s id="ParlaMint-GB_2022-07-21-commons.seg861.6" senti_3="Positive" senti_6="mixed positive" senti_n="3.523">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 reassure	reassure	reassure	VERB	Mood=Ind Tense=Pres VerbForm=Fin	E6+	E6p	E6+: Confident	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -876,7 +876,7 @@ focus	focus	focus	NOUN	Number=Sing	X5.1+,X3.4,A4.2+,A11.1+	X5.1p	X5.1+: Attentiv
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg862" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg862.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg862.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.804">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Department	Department	Department	PROPN	Number=Sing	H2/S5+c,X2.2	H2 S5p	H2: Parts of buildings|S5+: Belonging to a group	t2
@@ -914,7 +914,7 @@ place	place	place	NOUN	Number=Sing	M6	M6	M6: Location and direction	t27
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg862.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg862.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.578">
 Additionally	Additionally	additionally	ADV	-	N5++	N5p	N5+: Quantities: many/much	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -955,7 +955,7 @@ processes	processes	process	NOUN	Number=Plur	A1.1.1,X4.2	A1.1.1	A1.1.1: General 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg862.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg862.3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.242">
 A	A	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 senior	senior	senior	ADJ	Degree=Pos	S7.1++,T3++	S7.1p	S7.1+: In power	t2
 stakeholder	stakeholder	stakeholder	NOUN	Number=Sing	I1.1/S2mf	I1.1 S2	I1.1: Money and pay|S2: People	t3
@@ -973,7 +973,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	Q1.2/X7+	Q1.2 X7p	Q1.2: Paper documents an
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg862.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg862.4" senti_3="Positive" senti_6="positive" senti_n="5.348">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 am	am	be	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 confident	confident	confident	ADJ	Degree=Pos	E6+	E6p	E6+: Confident	t3
@@ -988,7 +988,7 @@ taking	taking	take	VERB	Tense=Pres VerbForm=Part	A9+,T1.3,C1,A1.1.1,M2,S7.1-,A2.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg862.5">
+<s id="ParlaMint-GB_2022-07-21-commons.seg862.5" senti_3="Positive" senti_6="mixed positive" senti_n="4.413">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 are	are	be	VERB	Mood=Ind Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 minimising	minimising	minimise	VERB	Tense=Pres VerbForm=Part	N5---	N5n	N5-: Quantities: little	t3
@@ -1011,7 +1011,7 @@ occur	occur	occur	VERB	VerbForm=Inf	A2.1+,A3+,X2.1	A2.1p	A2.1+: Change	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg862.6">
+<s id="ParlaMint-GB_2022-07-21-commons.seg862.6" senti_3="Positive" senti_6="mixed positive" senti_n="3.873">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 need	need	need	VERB	Mood=Ind Tense=Pres VerbForm=Fin	S6+	S6p	S6+: Strong obligation or necessity	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1036,7 +1036,7 @@ appropriately	appropriately	appropriately	ADV	-	A1.2+	A1.2p	A1.2+: Suitable	t19
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg862.7">
+<s id="ParlaMint-GB_2022-07-21-commons.seg862.7" senti_3="Neutral" senti_6="neutral positive" senti_n="2.892">
 <phr usas_tags="Z5" usas_cats="Z5" usas_glosses="Z5: Grammatical bin">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 that	that	that	DET	Number=Sing PronType=Dem	Z5	Z5	Z5: Grammatical bin	t2
@@ -1061,7 +1061,7 @@ repayable	repayable	repayable	ADJ	Degree=Pos	I1.2-	I1.2n	I1.2-: Debt-free	t16
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg863" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg863.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg863.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.829">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 hon.	hon.	hon.	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
@@ -1087,7 +1087,7 @@ repaid	repaid	repay	VERB	Tense=Past VerbForm=Part Voice=Pass	I1.2-,S1.1.2+	I1.2n
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg863.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg863.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.018">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 are	are	be	VERB	Mood=Ind Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 trained	trained	train	VERB	Tense=Past VerbForm=Part Voice=Pass	P1,K5.1	P1	P1: Education in general	t3
@@ -1109,7 +1109,7 @@ guide	guide	guide	NOUN	Number=Sing	S8+,Q4.1,S8+/S2mf,K1/S2.1f	S8p	S8+: Helping	t
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg863.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg863.3" senti_3="Positive" senti_6="positive" senti_n="4.506">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 can	can	can	VERB	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 give	give	give	VERB	VerbForm=Inf	A9-,A1.1.1	A9n	A9-: Giving	t3
@@ -1140,7 +1140,7 @@ undertaken	undertaken	undertake	VERB	Tense=Past VerbForm=Part Voice=Pass	A1.1.1,
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg863.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg863.4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.418">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 guidance	guidance	guidance	NOUN	Number=Sing	S8+	S8p	S8+: Helping	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1195,7 +1195,7 @@ application	application	application	NOUN	Number=Sing	Q1.2,A1.5.1,Y2,X5.1+,A1.1.1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t47
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg863.5">
+<s id="ParlaMint-GB_2022-07-21-commons.seg863.5" senti_3="Positive" senti_6="positive" senti_n="4.874">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 am	am	be	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 confident	confident	confident	ADJ	Degree=Pos	E6+	E6p	E6+: Confident	t3
@@ -1228,7 +1228,7 @@ waiver	waiver	waiver	NOUN	Number=Sing	S6-/Q1.2	S6n Q1.2	S6-: No obligation or ne
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg863.6">
+<s id="ParlaMint-GB_2022-07-21-commons.seg863.6" senti_3="Positive" senti_6="mixed positive" senti_n="3.623">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1258,7 +1258,7 @@ debt	debt	debt	NOUN	Number=Sing	I1.2	I1.2	I1.2: Money: Debts	t24
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg863.7">
+<s id="ParlaMint-GB_2022-07-21-commons.seg863.7" senti_3="Positive" senti_6="mixed positive" senti_n="3.710">
 Our	Our	we	DET	Number=Plur Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 debt	debt	debt	NOUN	Number=Sing	I1.2	I1.2	I1.2: Money: Debts	t2
 management	management	management	NOUN	Number=Sing	S7.1+c	S7.1p	S7.1+: In power	t3
@@ -1290,7 +1290,7 @@ customers	customers	customer	NOUN	Number=Plur	I2.2/S2mf	I2.2 S2	I2.2: Business: 
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg864" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg864.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg864.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.583">
 My	My	my	DET	Number=Sing Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 Department	Department	Department	PROPN	Number=Sing	H2/S5+c,X2.2	H2 S5p	H2: Parts of buildings|S5+: Belonging to a group	t2
 also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t3
@@ -1314,7 +1314,7 @@ customers	customers	customer	NOUN	Number=Plur	I2.2/S2mf	I2.2 S2	I2.2: Business: 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg864.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg864.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.781">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 are	are	be	VERB	Mood=Ind Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 working	working	work	VERB	Tense=Pres VerbForm=Part	I3.1,A1.1.1,X9.2+,A2.1+,A2.2	I3.1	I3.1: Work and employment: Generally	t3
@@ -1356,7 +1356,7 @@ service	service	service	NOUN	Number=Sing	S8+,S7.1-,I2.2,A1.1.1,S9,I3.1,F1,G3@,G1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg864.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg864.3" senti_3="Positive" senti_6="mixed positive" senti_n="3.584">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 addition	addition	addition	NOUN	Number=Sing	N5++,N2	N5p	N5+: Quantities: many/much	t2
 <g/>
@@ -1397,7 +1397,7 @@ consideration	consideration	consideration	NOUN	Number=Sing	X2.1,X2.4,S1.2.3-	X2.
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg865" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg865.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg865.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.119">
 Recovery	Recovery	recovery	NOUN	Number=Sing	B2+,A5.1+/A2.1,A9+	B2p	B2+: Healthy	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 benefit	benefit	benefit	NOUN	Number=Sing	S8+,I1.1/G1.1	S8p	S8+: Helping	t3
@@ -1429,7 +1429,7 @@ taxpayer	taxpayer	taxpayer	NOUN	Number=Sing	I1.1/S2mf	I1.1 S2	I1.1: Money and pa
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg865.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg865.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.754">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Z2,Z1mf,T1.3" usas_cats="Z2" usas_glosses="Z2: Geographical names">
 April	April	April	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t2
@@ -1477,7 +1477,7 @@ months	months	month	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t36
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg865.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg865.3" senti_3="Positive" senti_6="positive" senti_n="4.645">
 This	This	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 provided	provided	provide	VERB	Mood=Ind Tense=Past VerbForm=Fin	A9-,S6+	A9n	A9-: Giving	t2
 all	all	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t3
@@ -1499,7 +1499,7 @@ advance	advance	advance	NOUN	Number=Sing	I1.1,M1/G3,S3.2,A5.1+/A2.1+	I1.1	I1.1: 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg865.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg865.4" senti_3="Positive" senti_6="positive" senti_n="4.939">
 Such	Such	such	ADJ	Degree=Pos	Z5,Z8	Z5	Z5: Grammatical bin	t1
 changes	changes	change	NOUN	Number=Plur	A2.1+,I1,B1	A2.1p	A2.1+: Change	t2
 have	have	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -1524,7 +1524,7 @@ month	month	month	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t19
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg865.5">
+<s id="ParlaMint-GB_2022-07-21-commons.seg865.5" senti_3="Neutral" senti_6="neutral positive" senti_n="3.436">
 Some	Some	some	DET	-	N5,Z5	N5	N5: Quantities	t1
 people	people	people	NOUN	Number=Plur	S2mfc	S2	S2: People	t2
 have	have	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -1557,7 +1557,7 @@ today	today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultan
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg865.6">
+<s id="ParlaMint-GB_2022-07-21-commons.seg865.6" senti_3="Positive" senti_6="positive" senti_n="4.501">
 However	However	however	ADV	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1588,7 +1588,7 @@ debt	debt	debt	NOUN	Number=Sing	I1.2	I1.2	I1.2: Money: Debts	t24
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg865.7">
+<s id="ParlaMint-GB_2022-07-21-commons.seg865.7" senti_3="Negative" senti_6="negative" senti_n="0.084">
 To	To	to	PART	-	Z5	Z5	Z5: Grammatical bin	t1
 be	be	be	VERB	VerbForm=Inf	A3+,Z5	A3p	A3+: Existing	t2
 clear	clear	clear	ADJ	Degree=Pos	A7+,A10+,O4.3,O4.1,N5.1+,W4	A7p	A7+: Likely	t3
@@ -1615,7 +1615,7 @@ fulfilled	fulfilled	fulfil	VERB	Tense=Past VerbForm=Part Voice=Pass	X9.2+	X9.2p	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg865.8">
+<s id="ParlaMint-GB_2022-07-21-commons.seg865.8" senti_3="Negative" senti_6="mixed negative" senti_n="1.457">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t1
 think	think	think	VERB	Mood=Ind Tense=Pres VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t2
@@ -1639,7 +1639,7 @@ raised	raised	raise	VERB	Tense=Past VerbForm=Part	M2,N5+/A2.1,A5.1+/A2.1,X3.2++,
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg866" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg866.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg866.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.079">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 addition	addition	addition	NOUN	Number=Sing	N5++,N2	N5p	N5+: Quantities: many/much	t2
 <g/>
@@ -1696,7 +1696,7 @@ earnings	earnings	earnings	NOUN	Number=Plur	I1.1	I1.1	I1.1: Money and pay	t45
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t46
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg866.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg866.2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.910">
 As	As	as	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 have	have	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -1721,7 +1721,7 @@ cause	cause	cause	VERB	VerbForm=Inf	A2.2	A2.2	A2.2: Cause	t20
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg866.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg866.3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.362">
 However	However	however	ADV	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1771,7 +1771,7 @@ overpayments	overpayments	overpayment	NOUN	Number=Plur	Z99	Z99	Z99: Unmatched	t3
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t40
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg866.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg866.4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.097">
 Claimants	Claimants	Claimants	PROPN	Number=Plur	Z99	Z99	Z99: Unmatched	t1
 can	can	can	VERB	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 already	already	already	ADV	-	T1.1.1	T1.1.1	T1.1.1: Time: Past	t3
@@ -1789,7 +1789,7 @@ repayment	repayment	repayment	NOUN	Number=Sing	I1.2-,S1.1.2+	I1.2n	I1.2-: Debt-f
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg866.5">
+<s id="ParlaMint-GB_2022-07-21-commons.seg866.5" senti_3="Neutral" senti_6="neutral positive" senti_n="2.867">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 no	no	no	DET	-	Z6	Z6	Z6: Negative	t3
@@ -1826,7 +1826,7 @@ afford	afford	afford	VERB	VerbForm=Inf	I1.1,A9+	I1.1	I1.1: Money and pay	t31
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg866.6">
+<s id="ParlaMint-GB_2022-07-21-commons.seg866.6" senti_3="Positive" senti_6="mixed positive" senti_n="3.949">
 That	That	that	DET	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 an	an	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -1835,7 +1835,7 @@ consideration	consideration	consideration	NOUN	Number=Sing	X2.1,X2.4,S1.2.3-	X2.
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg867" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg867.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg867.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.892">
 Moving	Moving	move	VERB	VerbForm=Ger	M2,M1,A2.1+,E1,H4/A2.1	M2	M2: Putting, pulling, pushing, transporting	t1
 <phr usas_tags="Z5" usas_cats="Z5" usas_glosses="Z5: Grammatical bin">
 on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
@@ -1912,7 +1912,7 @@ debt	debt	debt	NOUN	Number=Sing	I1.2	I1.2	I1.2: Money: Debts	t60
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t61
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg867.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg867.2" senti_3="Negative" senti_6="mixed negative" senti_n="1.263">
 Such	Such	such	ADJ	Degree=Pos	Z5,Z8	Z5	Z5: Grammatical bin	t1
 requests	requests	request	NOUN	Number=Plur	Q2.1,Q2.2	Q2.1	Q2.1: Speech: Communicative	t2
 are	are	be	VERB	Mood=Ind Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -1969,7 +1969,7 @@ family	family	family	NOUN	Number=Sing	S4c,A4.1c	S4	S4: Kin	t45
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t46
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg867.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg867.3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.309">
 Waivers	Waivers	waiver	NOUN	Number=Plur	S6-/Q1.2	S6n Q1.2	S6-: No obligation or necessity|Q1.2: Paper documents and writing	t1
 are	are	be	VERB	Mood=Ind Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 granted	granted	grant	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+	A9p	A9+: Getting and possession	t3
@@ -1984,7 +1984,7 @@ State	State	State	PROPN	Number=Sing	Q2.1	Q2.1	Q2.1: Speech: Communicative	t11
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg868" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg868.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg868.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.264">
 As	As	as	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="N5+" usas_cats="N5p" usas_glosses="N5+: Quantities: many/much">
 a	a	a	DET	Definite=Ind PronType=Art	N5+	N5p	N5+: Quantities: many/much	t2
@@ -2016,7 +2016,7 @@ process	process	process	NOUN	Number=Sing	A1.1.1,X4.2	A1.1.1	A1.1.1: General acti
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg868.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg868.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.138">
 When	When	when	ADV	PronType=Int	Z5	Z5	Z5: Grammatical bin	t1
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 request	request	request	NOUN	Number=Sing	Q2.1,Q2.2	Q2.1	Q2.1: Speech: Communicative	t3
@@ -2077,7 +2077,7 @@ claimant	claimant	claimant	NOUN	Number=Sing	Q2.2/S2mf	Q2.2 S2	Q2.2: Speech acts|
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t53
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg868.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg868.3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.809">
 Further	Further	further	ADV	-	N5++,N3.3++,T2++	N5p	N5+: Quantities: many/much	t1
 along	along	along	ADV	-	M6	M6	M6: Location and direction	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -2138,7 +2138,7 @@ overpayment	overpayment	overpayment	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+:
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t46
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg868.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg868.4" senti_3="Neutral" senti_6="neutral negative" senti_n="1.818">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 Department	Department	Department	PROPN	Number=Sing	H2/S5+c,X2.2	H2 S5p	H2: Parts of buildings|S5+: Belonging to a group	t2
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -2171,7 +2171,7 @@ taxpayer	taxpayer	taxpayer	NOUN	Number=Sing	I1.1/S2mf	I1.1 S2	I1.1: Money and pa
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg869" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg869.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg869.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.855">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t3
@@ -2218,7 +2218,7 @@ debates	debates	debate	NOUN	Number=Plur	Q2.2	Q2.2	Q2.2: Speech acts	t35
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t36
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg869.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg869.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.674">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="MISC">
 hon.	hon.	hon.	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
@@ -2239,7 +2239,7 @@ point	point	point	NOUN	Number=Sing	Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5	Q2.1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg869.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg869.3" senti_3="Positive" senti_6="positive" senti_n="4.992">
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 Let	Let	let	VERB	VerbForm=Inf	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
 us	us	we	PRON	Case=Acc Number=Plur Person=1 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -2254,7 +2254,7 @@ available	available	available	ADJ	Degree=Pos	A3+,A9+,A1.2+/G1.2,S4	A3p	A3+: Exis
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg869.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg869.4" senti_3="Positive" senti_6="mixed positive" senti_n="3.855">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 Scotland	Scotland	Scotland	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t2
 <g/>
@@ -2276,7 +2276,7 @@ England	England	England	PROPN	Number=Sing	Z2,Z1mf	Z2	Z2: Geographical names	t15
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg870" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg870.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg870.1" senti_3="Positive" senti_6="positive" senti_n="4.609">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 recognise	recognise	recognise	VERB	Mood=Ind Tense=Pres VerbForm=Fin	X2.2+,X2.5+,S7.4+,G2.1+,S1.1.1	X2.2p	X2.2+: Knowledgeable	t2
 that	that	that	ADP	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -2332,7 +2332,7 @@ table	table	table	NOUN	Number=Sing	N6	N6	N6: Frequency	t42
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t43
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg870.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg870.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.082">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 have	have	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 had	had	have	VERB	Tense=Past VerbForm=Part	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -2375,7 +2375,7 @@ billion	billion	billion	NUM	NumType=Card	N1,T3,T1.2,T1.3,N3.3,N3.5,I1	N1	N1: Num
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg870.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg870.3" senti_3="Positive" senti_6="mixed positive" senti_n="3.697">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 as	as	as	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 Members	Members	member	NOUN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t3
@@ -2401,7 +2401,7 @@ them	them	they	PRON	Case=Acc Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pron
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg870.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg870.4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.253">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 £	£	£	SYM	-	Z99	Z99	Z99: Unmatched	t2
 <g/>
@@ -2446,7 +2446,7 @@ month	month	month	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t36
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg870.5">
+<s id="ParlaMint-GB_2022-07-21-commons.seg870.5" senti_3="Positive" senti_6="mixed positive" senti_n="3.812">
 Claimants	Claimants	Claimants	PROPN	Number=Plur	Z99	Z99	Z99: Unmatched	t1
 will	will	will	VERB	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 get	get	get	VERB	VerbForm=Inf	A9+,Z5,X9.2+,A2.1+,A2.2,M1,M2,X2.5+,E4.1-	A9p	A9+: Getting and possession	t3
@@ -2486,7 +2486,7 @@ year	year	year	NOUN	Number=Sing	T1.3,P1c	T1.3	T1.3: Time: Period	t28
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg870.6">
+<s id="ParlaMint-GB_2022-07-21-commons.seg870.6" senti_3="Neutral" senti_6="neutral positive" senti_n="3.368">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 £	£	£	SYM	-	Z99	Z99	Z99: Unmatched	t2
 <g/>
@@ -2505,7 +2505,7 @@ September	September	September	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t14
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg870.7">
+<s id="ParlaMint-GB_2022-07-21-commons.seg870.7" senti_3="Positive" senti_6="mixed positive" senti_n="4.283">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="I1.2/Df" usas_cats="I1.2" usas_glosses="I1.2: Money: Debts">
 energy	energy	energy	NOUN	Number=Sing	I1.2/Df	I1.2	I1.2: Money: Debts	t2
@@ -2530,7 +2530,7 @@ contract	contract	contract	NOUN	Number=Sing	I2.1,G2.1	I2.1	I2.1: Business: Gener
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg870.8">
+<s id="ParlaMint-GB_2022-07-21-commons.seg870.8" senti_3="Positive" senti_6="positive" senti_n="4.562">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Of	Of	of	ADV	-	Z4	Z4	Z4: Discourse Bin	t1
 course	course	course	ADV	-	Z4	Z4	Z4: Discourse Bin	t2
@@ -2573,7 +2573,7 @@ payment	payment	payment	NOUN	Number=Sing	I1.1	I1.1	I1.1: Money and pay	t29
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg871" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg871.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg871.1" senti_3="Positive" senti_6="positive" senti_n="5.074">
 Whatever	Whatever	whatever	DET	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t1
 our	our	we	DET	Number=Plur Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 views	views	view	NOUN	Number=Plur	X2.1,X3.4	X2.1	X2.1: Thought, belief	t3
@@ -2603,7 +2603,7 @@ available	available	available	ADJ	Degree=Pos	A3+,A9+,A1.2+/G1.2,S4	A3p	A3+: Exis
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg871.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg871.2" senti_3="Positive" senti_6="positive" senti_n="5.146">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 will	will	will	VERB	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 be	be	be	VERB	VerbForm=Inf	A3+,Z5	A3p	A3+: Existing	t3
@@ -2633,7 +2633,7 @@ constituents	constituents	constituent	NOUN	Number=Plur	G1.2/S2mf,O1/A1.8+	G1.2 S
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg871.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg871.3" senti_3="Positive" senti_6="positive" senti_n="5.015">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 want	want	want	VERB	Mood=Ind Tense=Pres VerbForm=Fin	X7+,S6+,A7+,S3.2,A9-	X7p	X7+: Wanted	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -2704,7 +2704,7 @@ times	times	time	NOUN	Number=Plur	T1,T1.2,T1.3,T1.1.2,N6,N1	T1	T1: Time	t53
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg872" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg872.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg872.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.613">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Of	Of	of	ADV	-	Z4	Z4	Z4: Discourse Bin	t1
 course	course	course	ADV	-	Z4	Z4	Z4: Discourse Bin	t2
@@ -2727,7 +2727,7 @@ England	England	England	PROPN	Number=Sing	Z2,Z1mf	Z2	Z2: Geographical names	t16
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg872.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg872.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.613">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 similar	similar	similar	ADJ	Degree=Pos	A6.1+	A6.1p	A6.1+: Comparing: Similar	t3
@@ -2789,7 +2789,7 @@ Scotland	Scotland	Scotland	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t42
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t43
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg872.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg872.3" senti_3="Positive" senti_6="mixed positive" senti_n="4.422">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 am	am	be	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 grateful	grateful	grateful	ADJ	Degree=Pos	S1.2.4+,E4.2+	S1.2.4p	S1.2.4+: Polite	t3
@@ -2810,7 +2810,7 @@ debates	debates	debate	NOUN	Number=Plur	Q2.2	Q2.2	Q2.2: Speech acts	t15
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg872.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg872.4" senti_3="Positive" senti_6="positive" senti_n="4.857">
 None	None	none	NOUN	Number=Sing	Z6/Z8c	Z6 Z8	Z6: Negative|Z8: Pronouns	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 less	less	less	ADV	Degree=Cmp	A13.6	A13.6	A13.6: Degree: Diminishers	t3
@@ -2836,7 +2836,7 @@ essentials	essentials	essential	NOUN	Number=Plur	S6+,A4.2+	S6p	S6+: Strong oblig
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg873" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg873.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg873.1" senti_3="Positive" senti_6="positive" senti_n="5.201">
 To	To	to	PART	-	Z5	Z5	Z5: Grammatical bin	t1
 conclude	conclude	conclude	VERB	VerbForm=Inf	X6+,T2-	X6p	X6+: Decided	t2
 <g/>
@@ -2868,7 +2868,7 @@ debt	debt	debt	NOUN	Number=Sing	I1.2	I1.2	I1.2: Money: Debts	t25
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg873.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg873.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.441">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 are	are	be	VERB	Mood=Ind Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 not	not	not	ADV	-	Z6	Z6	Z6: Negative	t3
@@ -2902,7 +2902,7 @@ uncertainty	uncertainty	uncertainty	NOUN	Number=Sing	A7-	A7n	A7-: Unlikely	t24
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg873.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg873.3" senti_3="Positive" senti_6="positive" senti_n="4.827">
 Equally	Equally	equally	ADV	-	A6.1+	A6.1p	A6.1+: Comparing: Similar	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -2930,7 +2930,7 @@ owe	owe	owe	VERB	Mood=Ind Tense=Pres VerbForm=Fin	I1.2,S6+	I1.2	I1.2: Money: Deb
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg873.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg873.4" senti_3="Positive" senti_6="positive" senti_n="4.550">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 will	will	will	VERB	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 continue	continue	continue	VERB	VerbForm=Inf	T2++	T2p	T2+: Time: Beginning	t3
@@ -2961,7 +2961,7 @@ individual	individual	individual	NOUN	Number=Sing	S2mf	S2	S2: People	t26
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg873.5">
+<s id="ParlaMint-GB_2022-07-21-commons.seg873.5" senti_3="Neutral" senti_6="neutral positive" senti_n="3.099">
 If	If	if	ADP	-	Z7	Z7	Z7: If	t1
 people	people	people	NOUN	Number=Plur	S2mfc	S2	S2: People	t2
 are	are	be	VERB	Mood=Ind Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -2998,7 +2998,7 @@ them	them	they	PRON	Case=Acc Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pron
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg874" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg874.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg874.1" senti_3="Positive" senti_6="positive" senti_n="5.080">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 thank	thank	thank	VERB	Mood=Ind Tense=Pres VerbForm=Fin	S1.2.4+	S1.2.4p	S1.2.4+: Polite	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -3037,7 +3037,7 @@ debates	debates	debate	NOUN	Number=Plur	Q2.2	Q2.2	Q2.2: Speech acts	t29
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t30
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg874.2">
+<s id="ParlaMint-GB_2022-07-21-commons.seg874.2" senti_3="Positive" senti_6="positive" senti_n="4.672">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 wish	wish	wish	VERB	Mood=Ind Tense=Pres VerbForm=Fin	X7+	X7p	X7+: Wanted	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -3055,7 +3055,7 @@ recess	recess	recess	NOUN	Number=Sing	I2.1/N5-,H2,A10-	I2.1 N5n	I2.1: Business: 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg874.3">
+<s id="ParlaMint-GB_2022-07-21-commons.seg874.3" senti_3="Positive" senti_6="positive" senti_n="5.240">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 wish	wish	wish	VERB	Mood=Ind Tense=Pres VerbForm=Fin	X7+	X7p	X7+: Wanted	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -3089,7 +3089,7 @@ months	months	month	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t26
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-GB_2022-07-21-commons.seg874.4">
+<s id="ParlaMint-GB_2022-07-21-commons.seg874.4" senti_3="Positive" senti_6="positive" senti_n="5.273">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 much	much	much	ADV	-	A13.3,N6+	A13.3	A13.3: Degree: Boosters	t3
@@ -3106,9 +3106,9 @@ work	work	work	NOUN	Number=Sing	Df	Z9	Z9: Trash can	t9
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-GB_2022-07-21-commons.u406" text_id="ParlaMint-GB-en_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="2022-07-21" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Regular" speaker_id="EleanorLaing" speaker_name="Laing, Eleanor Fulton" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="F" speaker_birth="-">
+<speech id="ParlaMint-GB_2022-07-21-commons.u406" text_id="ParlaMint-GB-en_2022-07-21-commons" subcorpus="COVID,War" lang="English" body="Lower house" term="58" session="-" meeting="2022-07-21" sitting="2022-07-21" agenda="-" date="2022-07-21" title="Minutes of the House of Commons, Daily Session 2022-07-21" speaker_role="Regular" topic="Other" speaker_id="EleanorLaing" speaker_name="Laing, Eleanor Fulton" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CON" speaker_party_name="Conservative" party_status="-" party_orientation="Centre-right" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-GB_2022-07-21-commons.seg875" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg875.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg875.1" senti_3="Positive" senti_6="positive" senti_n="5.059">
 As	As	as	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 approach	approach	approach	VERB	Mood=Ind Tense=Pres VerbForm=Fin	M1,A1.1.1,Q2.2	M1	M1: Moving, coming and going	t3
@@ -3160,7 +3160,7 @@ summer	summer	summer	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t44
 </s>
 </p>
 <p id="ParlaMint-GB_2022-07-21-commons.seg876" lang="English">
-<s id="ParlaMint-GB_2022-07-21-commons.seg876.1">
+<s id="ParlaMint-GB_2022-07-21-commons.seg876.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.786">
 Question	Question	question	NOUN	Number=Sing	Q2.2,X4.1	Q2.2	Q2.2: Speech acts	t1
 put	put	put	NOUN	Number=Sing	M2	M2	M2: Putting, pulling, pushing, transporting	t2
 and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t3

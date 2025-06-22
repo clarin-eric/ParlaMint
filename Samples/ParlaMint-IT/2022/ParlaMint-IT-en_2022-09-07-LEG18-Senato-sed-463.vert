@@ -1,8 +1,8 @@
 <note type="speaker" content="Chairmanship of the vice-president LA RUSSA"/>
 <note type="speaker" content="PRESIDENT"/>
-<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u1" text_id="ParlaMint-IT-en_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID,War" lang="English" body="Upper house" term="18 Legislatura" session="-" meeting="-" sitting="463 Seduta" agenda="-" date="2022-09-07" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 463, Day (2022-09-07)" speaker_role="Chairperson" speaker_id="LaRussaIgnazio" speaker_name="La Russa, Ignazio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FdI" speaker_party_name="Fratelli d'Italia" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1947">
+<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u1" text_id="ParlaMint-IT-en_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID,War" lang="English" body="Upper house" term="18 Legislatura" session="-" meeting="-" sitting="463 Seduta" agenda="-" date="2022-09-07" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 463, Day (2022-09-07)" speaker_role="Chairperson" topic="Other" speaker_id="LaRussaIgnazio" speaker_name="La Russa, Ignazio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FdI" speaker_party_name="Fratelli d'Italia" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1947">
 <p id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1" lang="English">
-<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.1">
+<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.621">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 sitting	sitting	sitting	NOUN	Number=Sing	M8,C1,P1,G1.1,G2.1,M6,A9+	M8	M8: Stationary	t2
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -11,7 +11,7 @@ at	at	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t5
 14.33	14.33	14.33	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t6
 p.m.	p.m.	p.m.	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t7
 </s>
-<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.2">
+<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.730">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 Minutes	Minutes	Minute	NOUN	Number=Plur	T1.3,Q1.2	T1.3	T1.3: Time: Period	t2
 shall	shall	shall	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t3
@@ -20,7 +20,7 @@ read	read	read	VERB	Tense=Past VerbForm=Part Voice=Pass	Q3,Q1.2,X3.2+,X2.5+,P1,A
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3">
+<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.743">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 <name type="PER">
 Durnwalder	Durnwalder	Durnwalder	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -46,7 +46,7 @@ day	day	day	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.4">
+<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.4" senti_3="Positive" senti_6="mixed positive" senti_n="3.687">
 PRESIDENT	PRESIDENT	president	NOUN	Number=Sing	G1.1/S7.1+/S2mf	G1.1 S7.1p S2	G1.1: Government|S7.1+: In power|S2: People	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -55,7 +55,7 @@ The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t4
 debate	debate	debate	NOUN	Number=Sing	Q2.2	Q2.2	Q2.2: Speech acts	t5
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t6
 </s>
-<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5">
+<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5" senti_3="Neutral" senti_6="neutral positive" senti_n="3.184">
 Since	Since	since	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 there	there	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t2
 were	were	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -75,9 +75,9 @@ approved	approved	approve	VERB	Tense=Past VerbForm=Part Voice=Pass	S7.4+,E2+,G1.
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="Comunicazioni della Presidenza"/>
 <note type="speaker" content="PRESIDENT"/>
-<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u2" text_id="ParlaMint-IT-en_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID,War" lang="English" body="Upper house" term="18 Legislatura" session="-" meeting="-" sitting="463 Seduta" agenda="-" date="2022-09-07" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 463, Day (2022-09-07)" speaker_role="Chairperson" speaker_id="LaRussaIgnazio" speaker_name="La Russa, Ignazio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FdI" speaker_party_name="Fratelli d'Italia" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1947">
+<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u2" text_id="ParlaMint-IT-en_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID,War" lang="English" body="Upper house" term="18 Legislatura" session="-" meeting="-" sitting="463 Seduta" agenda="-" date="2022-09-07" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 463, Day (2022-09-07)" speaker_role="Chairperson" topic="Other" speaker_id="LaRussaIgnazio" speaker_name="La Russa, Ignazio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FdI" speaker_party_name="Fratelli d'Italia" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1947">
 <p id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2" lang="English">
-<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1">
+<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.990">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 list	list	list	NOUN	Number=Sing	Q1.2,N4,M4	Q1.2	Q1.2: Paper documents and writing	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -129,9 +129,9 @@ Minutes	Minutes	Minute	PROPN	Number=Plur	T1.3,Q1.2	T1.3	T1.3: Time: Period	t34
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u22" text_id="ParlaMint-IT-en_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID,War" lang="English" body="Upper house" term="18 Legislatura" session="-" meeting="-" sitting="463 Seduta" agenda="-" date="2022-09-07" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 463, Day (2022-09-07)" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_mp="MP" speaker_minister="notMinister" speaker_party="L-SP" speaker_party_name="Lega-Salvini Premier" party_status="-" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u22" text_id="ParlaMint-IT-en_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID,War" lang="English" body="Upper house" term="18 Legislatura" session="-" meeting="-" sitting="463 Seduta" agenda="-" date="2022-09-07" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 463, Day (2022-09-07)" speaker_role="Chairperson" topic="Other" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_mp="MP" speaker_minister="notMinister" speaker_party="L-SP" speaker_party_name="Lega-Salvini Premier" party_status="-" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41" lang="English">
-<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1">
+<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.081">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 motions	motions	motion	NOUN	Number=Plur	M1,Q1.1	M1	M1: Moving, coming and going	t2
 <g/>
@@ -212,9 +212,9 @@ sitting	sitting	sitting	NOUN	Number=Sing	M8,C1,P1,G1.1,G2.1,M6,A9+	M8	M8: Statio
 </speech>
 <note type="head" content="Ordine del giorno per la seduta di martedì 13 settembre 2022"/>
 <note type="speaker" content="PRESIDENT"/>
-<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u23" text_id="ParlaMint-IT-en_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID,War" lang="English" body="Upper house" term="18 Legislatura" session="-" meeting="-" sitting="463 Seduta" agenda="-" date="2022-09-07" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 463, Day (2022-09-07)" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_mp="MP" speaker_minister="notMinister" speaker_party="L-SP" speaker_party_name="Lega-Salvini Premier" party_status="-" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u23" text_id="ParlaMint-IT-en_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID,War" lang="English" body="Upper house" term="18 Legislatura" session="-" meeting="-" sitting="463 Seduta" agenda="-" date="2022-09-07" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 463, Day (2022-09-07)" speaker_role="Chairperson" topic="Other" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_mp="MP" speaker_minister="notMinister" speaker_party="L-SP" speaker_party_name="Lega-Salvini Premier" party_status="-" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42" lang="English">
-<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1">
+<s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.595">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Senate	Senate	Senate	PROPN	Number=Sing	S7.1+	S7.1p	S7.1+: In power	t2

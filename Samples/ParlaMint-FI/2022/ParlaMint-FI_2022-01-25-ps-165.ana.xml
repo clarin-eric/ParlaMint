@@ -26,13 +26,29 @@
                <resp xml:lang="en">Data cleaning and finalization</resp>
                <resp xml:lang="fi">Datan puhdistaminen ja viimeistely</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="103" xml:lang="fi">puheet</measure>
@@ -46,7 +62,7 @@
                <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
@@ -54,7 +70,7 @@
                <p xml:lang="fi">Tämä aineisto on saatavilla lisenssillä <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-20">2025-06-20</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -79,6 +95,7 @@
                <tagUsage gi="head" occurs="2"/>
                <tagUsage gi="link" occurs="9646"/>
                <tagUsage gi="linkGrp" occurs="538"/>
+               <tagUsage gi="measure" occurs="538"/>
                <tagUsage gi="name" occurs="77"/>
                <tagUsage gi="note" occurs="4"/>
                <tagUsage gi="pb" occurs="2"/>
@@ -102,8 +119,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-20">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#parla.sitting #covid">
@@ -113,9 +132,10 @@
             <note type="relatedDocument" xml:id="ParlaMint-FI_2022-01-25-ps-165.ana.note1">Hallituksen esitys HE 239/2021 vp</note>
             <note type="relatedDocument" xml:id="ParlaMint-FI_2022-01-25-ps-165.ana.note2">Valiokunnan mietintö TyVM 19/2021 vp</note>
             <pb n="1" source="https://www.eduskunta.fi/FI/vaski/PoytakirjaAsiakohta/Sivut/PTK_165+2021+2.aspx"/>
-            <u ana="#chair" who="#AnuVehviläinen" xml:id="ParlaMint-FI_2022-01-25-ps-165.u1">
+            <u ana="#chair topic:mixed" who="#AnuVehviläinen" xml:id="ParlaMint-FI_2022-01-25-ps-165.u1">
                <seg xml:id="ParlaMint-FI_2022-01-25-ps-165.seg1">
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg1.1">
+                     <measure type="sentiment" quantity="2.802" ana="senti:neupos" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg1.1"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg1.1.1" lemma="ensimmäinen" msd="UPosTag=ADJ|Case=Ill|Derivation=Inen|Number=Sing|NumType=Ord">Ensimmäiseen</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg1.1.2" lemma="käsittely" msd="UPosTag=NOUN|Case=Ill|Derivation=U|Number=Sing">käsittelyyn</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg1.1.3" lemma="esitellä" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass">esitellään</w>
@@ -134,6 +154,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg1.2">
+                     <measure type="sentiment" quantity="2.799" ana="senti:neupos" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg1.2"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg1.2.8" lemma="käsittely" msd="UPosTag=NOUN|Case=Gen|Derivation=U|Number=Sing">Käsittelyn</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg1.2.9" lemma="pohja" msd="UPosTag=NOUN|Case=Ess|Number=Sing">pohjana</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg1.2.10" lemma="olla" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act">on</w>
@@ -160,6 +181,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg1.3">
+                     <measure type="sentiment" quantity="3.329" ana="senti:neupos" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg1.3"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg1.3.19" lemma="nyt" msd="UPosTag=ADV">Nyt</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg1.3.20" lemma="päättää" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass">päätetään</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg1.3.21" lemma="lakiehdotus" msd="UPosTag=NOUN|Case=Gen|Number=Sing">lakiehdotuksen</w>
@@ -174,6 +196,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg1.4">
+                     <measure type="sentiment" quantity="3.089" ana="senti:neupos" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg1.4"/>
 <pc xml:id="ParlaMint-FI_2022-01-25-ps-165.seg1.4.24" msd="UPosTag=PUNCT">—</pc>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg1.4.25" lemma="yleiskeskustelu" msd="UPosTag=NOUN|Case=Nom|Derivation=U|Number=Sing" join="right">Yleiskeskustelu</w>
 <pc xml:id="ParlaMint-FI_2022-01-25-ps-165.seg1.4.26" msd="UPosTag=PUNCT">,</pc>
@@ -205,9 +228,10 @@
                   </s>
                </seg>
             </u>
-            <u ana="#regular" who="#AinoKaisaPekonen" xml:id="ParlaMint-FI_2022-01-25-ps-165.u2">
+            <u ana="#regular topic:labor" who="#AinoKaisaPekonen" xml:id="ParlaMint-FI_2022-01-25-ps-165.u2">
                <seg xml:id="ParlaMint-FI_2022-01-25-ps-165.seg2">
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg2.1">
+                     <measure type="sentiment" quantity="4.390" ana="senti:mixpos" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg2.1"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg2.1.1" lemma="kiitos" msd="UPosTag=NOUN|Case=Nom|Number=Sing" join="right">Kiitos</w>
 <pc xml:id="ParlaMint-FI_2022-01-25-ps-165.seg2.1.2" msd="UPosTag=PUNCT">,</pc>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg2.1.3" lemma="arvoisa" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing">arvoisa</w>
@@ -224,6 +248,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg2.2">
+                     <measure type="sentiment" quantity="2.592" ana="senti:neupos" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg2.2"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg2.2.7" lemma="tämä" msd="UPosTag=PRON|Case=Ine|Number=Sing|PronType=Dem">Tässä</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg2.2.8" lemma="esitys" msd="UPosTag=NOUN|Case=Ine|Number=Sing">esityksessä</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg2.2.9" lemma="ehdottaa" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass">ehdotetaan</w>
@@ -302,6 +327,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg2.3">
+                     <measure type="sentiment" quantity="3.031" ana="senti:neupos" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg2.3"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg2.3.44" lemma="säännös" msd="UPosTag=NOUN|Case=Nom|Number=Sing">Säännös</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg2.3.45" lemma="olla" msd="UPosTag=AUX|Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act">olisi</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg2.3.46" lemma="voimassa" msd="UPosTag=ADV">voimassa</w>
@@ -324,6 +350,7 @@
                </seg>
                <seg xml:id="ParlaMint-FI_2022-01-25-ps-165.seg3">
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg3.4">
+                     <measure type="sentiment" quantity="2.829" ana="senti:neupos" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg3.4"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg3.4.52" lemma="nyt" msd="UPosTag=ADV">Nyt</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg3.4.53" lemma="ehdottaa" msd="UPosTag=VERB|Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass">ehdotettu</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg3.4.54" lemma="muutos" msd="UPosTag=NOUN|Case=Nom|Number=Sing">muutos</w>
@@ -358,6 +385,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg3.5">
+                     <measure type="sentiment" quantity="2.215" ana="senti:neuneg" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg3.5"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg3.5.67" lemma="päätoiminen" msd="UPosTag=NOUN|Case=Gen|Derivation=Minen|Number=Sing">Päätoimisen</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg3.5.68" lemma="työllistyminen" msd="UPosTag=NOUN|Case=Gen|Derivation=Minen|Number=Sing">työllistymisen</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg3.5.69" lemma="päättyminen" msd="UPosTag=NOUN|Case=Par|Derivation=Minen|Number=Sing">päättymistä</w>
@@ -394,6 +422,7 @@
                </seg>
                <seg xml:id="ParlaMint-FI_2022-01-25-ps-165.seg4">
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg4.6">
+                     <measure type="sentiment" quantity="0.489" ana="senti:negneg" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg4.6"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg4.6.82" lemma="pandemia" msd="UPosTag=NOUN|Case=Nom|Number=Sing">Pandemia</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg4.6.83" lemma="olla" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act">on</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg4.6.84" lemma="Suomi" msd="UPosTag=PROPN|Case=Ine|Number=Sing">Suomessa</w>
@@ -432,6 +461,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg4.7">
+                     <measure type="sentiment" quantity="0.663" ana="senti:mixneg" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg4.7"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg4.7.99" lemma="vallitseva" msd="UPosTag=ADJ|Case=Ine|Degree=Pos|Number=Sing">Vallitsevassa</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg4.7.100" lemma="tilanne" msd="UPosTag=NOUN|Case=Ine|Number=Sing">tilanteessa</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg4.7.101" lemma="yhteiskunta" msd="UPosTag=NOUN|Case=Gen|Number=Sing">yhteiskunnan</w>
@@ -482,6 +512,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg4.8">
+                     <measure type="sentiment" quantity="1.772" ana="senti:neuneg" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg4.8"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg4.8.122" lemma="rajoitus" msd="UPosTag=NOUN|Case=Nom|Number=Plur">Rajoitukset</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg4.8.123" lemma="vaikeuttaa" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act">vaikeuttavat</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg4.8.124" lemma="elinkeinotoiminta" msd="UPosTag=NOUN|Case=Gen|Number=Sing">elinkeinotoiminnan</w>
@@ -516,6 +547,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg4.9">
+                     <measure type="sentiment" quantity="2.502" ana="senti:neupos" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg4.9"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg4.9.137" lemma="hallitus" msd="UPosTag=NOUN|Case=Nom|Number=Sing">Hallitus</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg4.9.138" lemma="pitää" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act">pitää</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg4.9.139" lemma="perustella" msd="UPosTag=VERB|Case=Ess|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass">perusteltuna</w>
@@ -580,6 +612,7 @@
                </seg>
                <seg xml:id="ParlaMint-FI_2022-01-25-ps-165.seg5">
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg5.10">
+                     <measure type="sentiment" quantity="4.851" ana="senti:pospos" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg5.10"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg5.10.166" lemma="työelämä" msd="UPosTag=NOUN|Case=Nom|Number=Sing">Työelämä-</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg5.10.167" lemma="ja" msd="UPosTag=CCONJ">ja</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg5.10.168" lemma="tasaarvovaliokunta" msd="UPosTag=NOUN|Case=Nom|Number=Sing">tasa-arvovaliokunta</w>
@@ -612,6 +645,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg5.11">
+                     <measure type="sentiment" quantity="0.311" ana="senti:negneg" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg5.11"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg5.11.180" lemma="valiokunta" msd="UPosTag=NOUN|Case=Nom|Number=Sing">Valiokunta</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg5.11.181" lemma="toistaa" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act">toistaa</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg5.11.182" lemma="mietintö" msd="UPosTag=NOUN|Case=Ine|Number=Sing|Person[psor]=3">mietinnössään</w>
@@ -670,6 +704,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg5.12">
+                     <measure type="sentiment" quantity="1.643" ana="senti:neuneg" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg5.12"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg5.12.206" lemma="valiokunta" msd="UPosTag=NOUN|Case=Nom|Number=Sing">Valiokunta</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg5.12.207" lemma="huomauttaa" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" join="right">huomauttaa</w>
 <pc xml:id="ParlaMint-FI_2022-01-25-ps-165.seg5.12.208" msd="UPosTag=PUNCT">,</pc>
@@ -718,6 +753,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg5.13">
+                     <measure type="sentiment" quantity="1.905" ana="senti:neuneg" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg5.13"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg5.13.228" lemma="mikäli" msd="UPosTag=SCONJ">Mikäli</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg5.13.229" lemma="näin" msd="UPosTag=ADV">näin</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg5.13.230" lemma="joutua" msd="UPosTag=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass">joudutaan</w>
@@ -754,6 +790,7 @@
                </seg>
                <seg xml:id="ParlaMint-FI_2022-01-25-ps-165.seg6">
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg6.14">
+                     <measure type="sentiment" quantity="4.021" ana="senti:mixpos" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg6.14"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg6.14.243" lemma="arvoisa" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing">Arvoisa</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg6.14.244" lemma="puhemies" msd="UPosTag=NOUN|Case=Nom|Number=Sing" join="right">puhemies</w>
 <pc xml:id="ParlaMint-FI_2022-01-25-ps-165.seg6.14.245" msd="UPosTag=PUNCT">!</pc>
@@ -764,6 +801,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg6.15">
+                     <measure type="sentiment" quantity="1.176" ana="senti:mixneg" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg6.15"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg6.15.246" lemma="tämä" msd="UPosTag=PRON|Case=Ill|Number=Sing|PronType=Dem">Tähän</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg6.15.247" lemma="mietintö" msd="UPosTag=NOUN|Case=Ill|Number=Sing">mietintöön</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg6.15.248" lemma="sisältyä" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act">sisältyy</w>
@@ -784,9 +822,10 @@
             </gap>
          </div>
          <div type="debateSection">
-            <u ana="#regular" who="#MiaLaiho" xml:id="ParlaMint-FI_2022-01-25-ps-165.u102">
+            <u ana="#regular topic:other" who="#MiaLaiho" xml:id="ParlaMint-FI_2022-01-25-ps-165.u102">
                <seg xml:id="ParlaMint-FI_2022-01-25-ps-165.seg205">
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg205.1">
+                     <measure type="sentiment" quantity="4.021" ana="senti:mixpos" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg205.1"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg205.1.1" lemma="arvoisa" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing">Arvoisa</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg205.1.2" lemma="puhemies" msd="UPosTag=NOUN|Case=Nom|Number=Sing" join="right">puhemies</w>
 <pc xml:id="ParlaMint-FI_2022-01-25-ps-165.seg205.1.3" msd="UPosTag=PUNCT">!</pc>
@@ -797,6 +836,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg205.2">
+                     <measure type="sentiment" quantity="2.616" ana="senti:neupos" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg205.2"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg205.2.4" lemma="esittää" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" join="right">Esitän</w>
 <pc xml:id="ParlaMint-FI_2022-01-25-ps-165.seg205.2.5" msd="UPosTag=PUNCT">,</pc>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg205.2.6" lemma="että" msd="UPosTag=SCONJ">että</w>
@@ -824,9 +864,10 @@
                   </s>
                </seg>
             </u>
-            <u ana="#regular" who="#PiaKauma" xml:id="ParlaMint-FI_2022-01-25-ps-165.u103">
+            <u ana="#regular topic:other" who="#PiaKauma" xml:id="ParlaMint-FI_2022-01-25-ps-165.u103">
                <seg xml:id="ParlaMint-FI_2022-01-25-ps-165.seg206">
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg206.1">
+                     <measure type="sentiment" quantity="4.021" ana="senti:mixpos" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg206.1"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg206.1.1" lemma="arvoisa" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing">Arvoisa</w>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg206.1.2" lemma="puhemies" msd="UPosTag=NOUN|Case=Nom|Number=Sing" join="right">puhemies</w>
 <pc xml:id="ParlaMint-FI_2022-01-25-ps-165.seg206.1.3" msd="UPosTag=PUNCT">!</pc>
@@ -837,6 +878,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-FI_2022-01-25-ps-165.seg206.2">
+                     <measure type="sentiment" quantity="3.467" ana="senti:neupos" corresp="#ParlaMint-FI_2022-01-25-ps-165.seg206.2"/>
 <w xml:id="ParlaMint-FI_2022-01-25-ps-165.seg206.2.4" lemma="kannattaa" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" join="right">Kannatan</w>
 <pc xml:id="ParlaMint-FI_2022-01-25-ps-165.seg206.2.5" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">

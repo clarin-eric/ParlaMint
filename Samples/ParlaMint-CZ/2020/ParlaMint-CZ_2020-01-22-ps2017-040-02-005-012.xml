@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012" xml:lang="cs" ana="#parla.agenda #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012" xml:lang="cs" ana="#CZ-parla.agenda #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,10 +10,14 @@
             <meeting ana="#parla.term #parla.lower #parliament.PSP8" n="ps2017" corresp="#parliament.PSP">ps2017</meeting>
             <meeting ana="#parla.meeting #parla.lower" n="ps2017/040" corresp="#parliament.PSP">ps2017/040</meeting>
             <meeting ana="#parla.sitting #parla.lower" n="ps2017/040/02" corresp="#parliament.PSP">ps2017/040/02</meeting>
-            <meeting ana="#parla.agenda #parla.lower" n="ps2017/040/012" corresp="#parliament.PSP">ps2017/040/012</meeting>
+            <meeting ana="#CZ-parla.agenda #parla.lower" n="ps2017/040/012" corresp="#parliament.PSP">ps2017/040/012</meeting>
             <respStmt>
                <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
                <resp xml:lang="en">TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
             </respStmt>
             <funder>
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
@@ -25,12 +29,12 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="39" xml:lang="cs">39 promluv</measure>
             <measure unit="speeches" quantity="39" xml:lang="en">39 speeches</measure>
-            <measure unit="words" quantity="7267" xml:lang="cs">7.267 slov</measure>
+            <measure unit="words" quantity="7267" xml:lang="cs">7 267 slov</measure>
             <measure unit="words" quantity="7267" xml:lang="en">7,267 words</measure>
          </extent>
          <publicationStmt>
@@ -45,7 +49,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="cs">Toto dílo je licencováno <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Uveďte původ 4.0 Mezinárodní Veřejná licence</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-14">2025-06-14</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -101,8 +105,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-14">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
@@ -110,7 +116,7 @@
          <div type="debateSection">
             <pb source="https://www.psp.cz/eknih/2017ps/stenprot/040schuz/s040047.htm" n="1" xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.pb1" corresp="#ps2017-040-02-005-012.audio1"/>
             <note type="speaker" xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.note1">Místopředseda PSP Vojtěch Filip</note>
-            <u who="#VojtechFilip.1955" ana="#chair" xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1">
+            <u who="#VojtechFilip.1955" ana="#chair topic:macro" xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1">
                <seg xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p1">12. Vládní návrh zákona, kterým se mění zákon č. 280/2009 Sb., daňový řád, ve znění pozdějších předpisů, a další související zákony /sněmovní tisk 580/ - druhé čtení</seg>
                <seg xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p2">Projednávání bodu jsme včera zahájili a požádám tedy paní ministryni financí a místopředsedkyni vlády Alenu Schillerovou, aby zaujala místo u stolku zpravodajů, o totéž žádám zpravodajku rozpočtového výboru, paní poslankyni Miloslavu Vostrou. Připomínám, že usnesení rozpočtového výboru byla doručena jako sněmovní tisky 580/1 a 580/2.</seg>
                <seg xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u1.p3">Budeme pokračovat v přerušené rozpravě, do které jsou přihlášeni poslanci podle pořadí, které vidíte, tzn. pan poslanec Kolářík, Ferjenčík, Kalousek, Martínek, Juránek a Munzar v obecné rozpravě, a další poslanci v rozpravě podrobné. Ještě než dám slovo panu poslanci Koláříkovi, tak požádám sněmovnu o klid. Pan kolega Kolářík, jestli je připraven - je připraven. Dobře. <vocal type="noise" xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.vocal1">
@@ -122,7 +128,7 @@
                <time when="2020-01-22T11:40:00">(11.40 hodin)</time>
             </note>
             <note type="speaker" xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.note4">Poslanec Lukáš Kolářík</note>
-            <u who="#LukasKolarik.1984" ana="#regular" xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2" source="https://www.psp.cz/eknih/2017ps/stenprot/040schuz/s040048.htm#r1">
+            <u who="#LukasKolarik.1984" ana="#regular topic:macro" xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2" source="https://www.psp.cz/eknih/2017ps/stenprot/040schuz/s040048.htm#r1">
                <seg xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p1">Děkuji za slovo, pane předsedající. Dobrý den, vážené kolegyně a vážení kolegové, já navážu tam, kde jsem včera skončil. Chtěl bych představit svůj pozměňovací návrh k tomuto tisku. Protože se ve svém mandátu zabývám dlužnictvím a celkově problematikou státu a problematikou dluhů, tak bych se chtěl zaměřit na takzvané úroky z prodlení, které máme v České republice při neplnění daňové povinnosti.</seg>
                <seg xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p2">Ta úprava proběhla za několik let třemi změnami. V podstatě poslední z nich byla taková, že ty úroky, které z prodlení vyplývají, nejsou nijak omezené a zastropované tak, jak to bylo předtím, a v podstatě se ta dlužná částka úročí až do smrti dlužníka. Myslím si, že v dnešní době, kdy je často konzultován negativní vliv předlužených lidí a dluhových pastí nejenom na ekonomiku státu, ale celkové fungování, stát by neměl přispívat a zvyšovat tuto problematiku a ty lidi zatěžovat dalšími a dalšími platbami.</seg>
                <seg xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u2.p3">Je logické, že je třeba zaplatit nějaký úrok, pokud člověk neplní svou daňovou povinnost, nicméně to úročení až do smrti si myslím, že je zbytečné, a proto bych to rád vrátil do stavu tak, jak to bylo před rokem 2010, to znamená, že ty úroky z prodlení se počítají pouze po dobu 500 dní. Pak je tam ten strop. To by znamenalo, že maximální úrok by byl ve výši zhruba 70 % té dlužné částky, takže vidíte sami, že to je téměř dvojnásobek ve výši toho dluhu. Protože jsem si vědom toho, že Ministerstvo financí asi nebude úplně šťastné z tohoto pozměňovacího návrhu, tak jsem připravil dvě varianty. Jedna varianta je taková, že se dotýká i právnických i fyzických osob, to je taková všeobjímající, řekněme. Druhá varianta je taková, že úrok z prodlení by se počítal maximálně 500 dní pouze u osob fyzických.</seg>
@@ -131,13 +137,13 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#JanSkopecek.1980" ana="#regular" xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38" source="https://www.psp.cz/eknih/2017ps/stenprot/040schuz/s040054.htm#r7">
+            <u who="#JanSkopecek.1980" ana="#regular topic:macro" xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38" source="https://www.psp.cz/eknih/2017ps/stenprot/040schuz/s040054.htm#r7">
                <seg xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p1">Děkuji pěkně za slovo. Já se přihlašuji ke třem pozměňovacím návrhům. První je v systému pod číslem 4179. Jde o vypuštění odstavce 5 v § 159 novelizačního bodu 88. Tam jsou podle mého názoru nesystémově zaváděny dvě kategorie námitek, slabší a silnější. Tak to je jeden pozměňovací návrh a reakce na to.</seg>
                <seg xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p2">Druhým je pozměňovací návrh pod číslem 4180. Za tímto pozměňovacím návrhem se skrývá to, aby daňové přiznání s formálními chybami bylo považováno jako řádně podané.</seg>
                <seg xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u38.p3">Nakonec se hlásím k pozměňovacímu návrhu pod číslem 4200. To je pozměňovací návrh, který umožní prominutí pokuty za opožděné tvrzení daně. Děkuji za pozornost.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.note47">Místopředseda PSP Petr Fiala</note>
-            <u who="#PetrFiala.1964" ana="#chair" xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39" source="https://www.psp.cz/eknih/2017ps/stenprot/040schuz/s040054.htm#r8">
+            <u who="#PetrFiala.1964" ana="#chair topic:other" xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39" source="https://www.psp.cz/eknih/2017ps/stenprot/040schuz/s040054.htm#r8">
                <seg xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39.p1">Děkuji. Hlásí se ještě někdo do podrobné rozpravy? Nehlásí, podrobnou rozpravu končím. Zájem o závěrečná slova? Není ani u paní ministryně, ani u paní zpravodajky. Oběma děkuji. Nezazněl žádný návrh, o kterém bychom měli hlasovat, takže končím druhé čtení tohoto návrhu.</seg>
                <seg xml:id="ParlaMint-CZ_2020-01-22-ps2017-040-02-005-012.u39.p2">Nyní se budeme věnovat bodu číslo</seg>
             </u>

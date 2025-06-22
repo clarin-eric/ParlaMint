@@ -23,13 +23,21 @@
                <resp xml:lang="el">Επιστημονικός υπεύθυνος</resp>
                <resp xml:lang="en">Scientific supervisor</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="el">Γλωσσική ερευνητική υποδομή CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure xml:lang="el" unit="speeches" quantity="386">386 ομιλίες</measure>
@@ -43,13 +51,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
                <p>Το παρόν έργο διέπεται από την άδεια <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-16">2025-06-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -93,8 +101,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid">
@@ -111,7 +121,7 @@
             </gap>
             <note xml:id="ParlaMint-GR_2022-02-01-S1-commons.note1">Αθήνα, σήμερα 1η Φεβρουαρίου 2022, ημέρα Τρίτη και ώρα 10.10΄ συνήλθε στην Αίθουσα των συνεδριάσεων του Βουλευτηρίου η Βουλή σε ολομέλεια για να συνεδριάσει υπό την προεδρία του Α΄ Αντιπροέδρου αυτής κ. ΝΙΚΗΤΑ ΚΑΚΛΑΜΑΝΗ.</note>
             <note type="speaker" xml:id="ParlaMint-GR_2022-02-01-S1-commons.note2">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
-            <u xml:id="ParlaMint-GR_2022-02-01-S1-commons.u1" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
+            <u xml:id="ParlaMint-GR_2022-02-01-S1-commons.u1" ana="#chair topic:civil" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg1">Κυρίες και κύριοι συνάδελφοι, αρχίζει η συνεδρίαση.</seg>
                <note xml:id="ParlaMint-GR_2022-02-01-S1-commons.note3">Σημείωση: Ο παρακάτω πίνακας περιεχομένων δεν αποτελεί το τελικό κείμενο, διότι εκκρεμούν ορθογραφικές και συντακτικές διορθώσεις</note>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg2">Θα γίνει Επετειακή Αναφορά στην Hμέρα Μνήμης των μαρτύρων και ηρώων του Ολοκαυτώματος από τον Προεδρεύοντα της συνεδρίασης και τους Εκπροσώπους των Κοινοβουλευτικών Ομάδων, οι οποίοι είναι ο κ. Μπουκώρος, η κ. Γεροβασίλη, η κ. Λιακούλη, ο κ. Δελής, η κ. Αθανασίου και η κ. Μπακαδήμα. Οι Εκπρόσωποι των κομμάτων θα μιλήσουν από πέντε λεπτά ο καθένας.</seg>
@@ -129,7 +139,7 @@
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg11">Θα προχωρήσουμε με τον κ. Μπουκώρο Χρήστο για πέντε λεπτά.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-GR_2022-02-01-S1-commons.note4">ΧΡΗΣΤΟΣ ΜΠΟΥΚΩΡΟΣ</note>
-            <u xml:id="ParlaMint-GR_2022-02-01-S1-commons.u2" ana="#regular" who="#ΜΠΟΥΚΩΡΟΣ_ΓΕΩΡΓΙΟΥ_ΧΡΗΣΤΟΣ">
+            <u xml:id="ParlaMint-GR_2022-02-01-S1-commons.u2" ana="#regular topic:civil" who="#ΜΠΟΥΚΩΡΟΣ_ΓΕΩΡΓΙΟΥ_ΧΡΗΣΤΟΣ">
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg12">Κύριε Πρόεδρε, κυρίες και κύριοι συνάδελφοι, με τον όρο «Ολοκαύτωμα» εννοούμε την εξόντωση των έξι εκατομμυρίων Εβραίων της Ευρώπης. Εξόντωση, γενοκτονία, μια προσχεδιασμένη προσπάθεια για την εξαφάνιση ενός ολόκληρου λαού.</seg>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg13">Το ελληνικό Κοινοβούλιο με την ομόφωνη απόφασή του 3218 από το 2004 και εν συνεχεία με το π.δ.31 του 2005 καθιερώνει την 27η Ιανουαρίου ως ημέρα μνήμης και τιμής των μαρτύρων και ηρώων του Ολοκαυτώματος των Ελλήνων Εβραίων. Την ίδια χρονιά η Γενική Συνέλευση του Οργανισμού Ηνωμένων Εθνών καθιερώνει την 27η Ιανουαρίου ως αντίστοιχη διεθνή ημέρα.</seg>
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg14">Ήταν η 27η Ιανουαρίου 1945 όταν τα συμμαχικά στρατεύματα και εν προκειμένω αρχικά τα σοβιετικά έφθασαν στο Άουσβιτς Μπίρκεναου και βρέθηκαν μπροστά στο αδιανόητο, μπροστά στο φρικαλέο, μπροστά στο ανείπωτο. Περίπου επτά, οκτώ χιλιάδες άνθρωποι, τόσοι είχαν απομείνει εκεί, σκιές των εαυτών τους, κάποιες δεκάδες χιλιάδες ακόμα είχαν μεταφερθεί στο εσωτερικό της Γερμανίας, σε άλλα στρατόπεδα για να εντοπιστούν αργότερα από άλλες συμμαχικές δυνάμεις. Αυτή η φρίκη που αντιμετώπισαν τα συμμαχικά στρατεύματα, αντικρίζοντας αυτά τα κρεματόρια μένει μια κηλίδα στην ανθρώπινη ιστορία. Ο Ελληνικός Εβραϊσμός πλήρωσε βαρύ φόρο αίματος, 86% των ανθρώπων των ελληνικών κοινοτήτων χάθηκαν στο Ολοκαύτωμα. Στις διώξεις, τις εκτελέσεις, τα τάγματα εργασίας, τα στρατόπεδα συγκέντρωσης, 86%. Η κοινότητα της Θεσσαλονίκης πλήρωσε ακόμα βαρύτερο τίμημα. Υπήρξαν όμως, μέσα στη γενικευμένη αδιαφορία με την οποία δυστυχώς αντιμετωπίστηκε αυτή η οργανωμένη εξόντωση ενός ολόκληρου λαού και ορισμένα λαμπρά παραδείγματα ανθρωπιάς, γενναιότητας και αλληλεγγύης στην Ελλάδα.</seg>
@@ -143,14 +153,14 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u xml:id="ParlaMint-GR_2022-02-01-S1-commons.u385" ana="#chair" who="#ΜΠΟΥΡΑΣ_ΚΩΝΣΤΑΝΤΙΝΟΥ_ΑΘΑΝΑΣΙΟΣ">
+            <u xml:id="ParlaMint-GR_2022-02-01-S1-commons.u385" ana="#chair topic:other" who="#ΜΠΟΥΡΑΣ_ΚΩΝΣΤΑΝΤΙΝΟΥ_ΑΘΑΝΑΣΙΟΣ">
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg1580">Κύριοι συνάδελφοι δέχεστε στο σημείο αυτό να λύσουμε τη συνεδρίαση;</seg>
             </u>
             <vocal type="shouting" xml:id="ParlaMint-GR_2022-02-01-S1-commons.vocal1">
                <desc>Μάλιστα, μάλιστα.</desc>
             </vocal>
             <note type="speaker" xml:id="ParlaMint-GR_2022-02-01-S1-commons.note393">ΠΡΟΕΔΡΕΥΩΝ (ΑΘΑΝΑΣΙΟΣ ΜΠΟΥΡΑΣ):</note>
-            <u xml:id="ParlaMint-GR_2022-02-01-S1-commons.u386" ana="#chair" who="#ΜΠΟΥΡΑΣ_ΚΩΝΣΤΑΝΤΙΝΟΥ_ΑΘΑΝΑΣΙΟΣ">
+            <u xml:id="ParlaMint-GR_2022-02-01-S1-commons.u386" ana="#chair topic:mixed" who="#ΜΠΟΥΡΑΣ_ΚΩΝΣΤΑΝΤΙΝΟΥ_ΑΘΑΝΑΣΙΟΣ">
                <seg xml:id="ParlaMint-GR_2022-02-01-S1-commons.seg1581">Με τη συναίνεση του Σώματος και ώρα 1:32΄ λύεται η συνεδρίαση για σήμερα Τετάρτη 2 Φεβρουαρίου 2022 και ώρα 9:00΄, με αντικείμενο εργασιών του Σώματος: νομοθετική εργασία, συνέχιση της συζήτησης του σχεδίου νόμου του Υπουργείου Ανάπτυξης και Επενδύσεων: «Αναπτυξιακός Νόμος - Ελλάδα Ισχυρή Ανάπτυξη».</seg>
             </u>
          </div>

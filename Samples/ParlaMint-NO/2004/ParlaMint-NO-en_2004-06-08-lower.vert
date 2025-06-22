@@ -2,9 +2,9 @@
 <note type="comment" content="Position of the Municipal Committee on proposals by the Landfill Representatives Carl I. Hagen, Per Sandberg and Jan Arild Ellingsen on the amendment of Law No 24 June 1988 64 on the admission of foreigners to the State and their residence here (Law on Foreign Affairs) (Special rules for the security of the State)"/>
 <note type="comment" content="(Inc. O. No 89 (2003-2004), cf. Document No 8:47 (2003-2004)"/>
 <note type="speaker" content="Per Sandberg (FrP) [19:15:42]:"/>
-<speech id="ParlaMint-NO_2004-06-08-lower.ud1454e48" text_id="ParlaMint-NO-en_2004-06-08-lower" subcorpus="Reference" lang="English" body="Lower house" term="Term 2001-2005" session="Session 2003-2004" meeting="-" sitting="Sitting day 2004-06-08" agenda="-" date="2004-06-08" title="Hansard from meeting in the Norwegian Parliament, term 2001-2005, Session 2003-2004, Sitting day 2004-06-08" speaker_role="Regular" speaker_id="person.PES" speaker_name="Sandberg, Per" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FrP" speaker_party_name="Fremskrittspartiet" party_status="-" party_orientation="Right" speaker_gender="M" speaker_birth="1960">
+<speech id="ParlaMint-NO_2004-06-08-lower.ud1454e48" text_id="ParlaMint-NO-en_2004-06-08-lower" subcorpus="Reference" lang="English" body="Lower house" term="Term 2001-2005" session="Session 2003-2004" meeting="-" sitting="Sitting day 2004-06-08" agenda="-" date="2004-06-08" title="Hansard from meeting in the Norwegian Parliament, term 2001-2005, Session 2003-2004, Sitting day 2004-06-08" speaker_role="Regular" topic="International Affairs" speaker_id="person.PES" speaker_name="Sandberg, Per" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FrP" speaker_party_name="Fremskrittspartiet" party_status="-" party_orientation="Right" speaker_gender="M" speaker_birth="1960">
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51" lang="English">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.1" senti_3="Negative" senti_6="mixed negative" senti_n="1.469">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -23,7 +23,7 @@ debate	debate	debate	NOUN	Number=Sing	Q2.2	Q2.2	Q2.2: Speech acts	t10
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.2">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.627">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 took	took	take	VERB	Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -47,7 +47,7 @@ no	no	no	INTJ	Polarity=Neg	S8-	S8n	S8-: Hindering	t11
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 inlistbox	inlistbox	inlistbox	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t15
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.3">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.3" senti_3="Neutral" senti_6="neutral negative" senti_n="1.826">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 there	there	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t2
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -97,7 +97,7 @@ minutes	minutes	minute	NOUN	Number=Plur	T1.3,Q1.2	T1.3	T1.3: Time: Period	t43
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t44
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.4">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.4" senti_3="Neutral" senti_6="neutral negative" senti_n="2.403">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 letter	letter	letter	NOUN	Number=Sing	Q1.2,Q3	Q1.2	Q1.2: Paper documents and writing	t3
@@ -129,7 +129,7 @@ writes	writes	write	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q
 </s>
 </p>
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53" lang="English">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.1" senti_3="Negative" senti_6="mixed negative" senti_n="0.630">
 "	"	"	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
@@ -172,7 +172,7 @@ considerations	considerations	consideration	NOUN	Number=Plur	X4.1	X4.1	X4.1: Men
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t34
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.2">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.578">
 For	For	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 example	example	example	NOUN	Number=Sing	A4.1	A4.1	A4.1: Generally kinds, groups, examples	t2
 <g/>
@@ -207,7 +207,7 @@ matters	matters	matter	NOUN	Number=Plur	X4.1,O1	X4.1	X4.1: Mental object: Concep
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.3">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.583">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 On	On	on	ADP	-	Z4	Z4	Z4: Discourse Bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z4	Z4	Z4: Discourse Bin	t2
@@ -252,7 +252,7 @@ Assessment	Assessment	Assessment	PROPN	Number=Sing	X2.4/A5,P1,I1.3	X2.4 A5	X2.4:
 </s>
 </p>
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56" lang="English">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.1" senti_3="Negative" senti_6="mixed negative" senti_n="0.608">
 My	My	my	PRON	Number=Sing Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 question	question	question	NOUN	Number=Sing	Q2.2,X4.1	Q2.2	Q2.2: Speech acts	t2
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -275,7 +275,7 @@ that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t16
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.2">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.503">
 Because	Because	because	ADP	-	Z5/A2.2	Z5 A2.2	Z5: Grammatical bin|A2.2: Cause	t1
 as	as	as	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 one	one	one	NUM	NumForm=Word NumType=Card	N1,T3,T1.2	N1	N1: Numbers	t3
@@ -313,7 +313,7 @@ State	State	State	PROPN	Number=Sing	Q2.1	Q2.1	Q2.1: Speech: Communicative	t31
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.3">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.3" senti_3="Neutral" senti_6="neutral negative" senti_n="1.811">
 As	As	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -379,7 +379,7 @@ year	year	year	NOUN	Number=Sing	T1.3,P1c	T1.3	T1.3: Time: Period	t48
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t49
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.4">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.4" senti_3="Negative" senti_6="mixed negative" senti_n="0.973">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t1
 see	see	see	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t2
@@ -470,9 +470,9 @@ issues	issues	issue	NOUN	Number=Plur	X4.1,Q4.2,S4,A9-	X4.1	X4.1: Mental object: 
 </p>
 </speech>
 <note type="speaker" content="Councillor Erna Solberg [19:17:59]:"/>
-<speech id="ParlaMint-NO_2004-06-08-lower.ud1454e58" text_id="ParlaMint-NO-en_2004-06-08-lower" subcorpus="Reference" lang="English" body="Lower house" term="Term 2001-2005" session="Session 2003-2004" meeting="-" sitting="Sitting day 2004-06-08" agenda="-" date="2004-06-08" title="Hansard from meeting in the Norwegian Parliament, term 2001-2005, Session 2003-2004, Sitting day 2004-06-08" speaker_role="Regular" speaker_id="person.ES" speaker_name="Solberg, Erna" speaker_mp="MP" speaker_minister="Minister" speaker_party="H" speaker_party_name="Høyre" party_status="Coalition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="1961">
+<speech id="ParlaMint-NO_2004-06-08-lower.ud1454e58" text_id="ParlaMint-NO-en_2004-06-08-lower" subcorpus="Reference" lang="English" body="Lower house" term="Term 2001-2005" session="Session 2003-2004" meeting="-" sitting="Sitting day 2004-06-08" agenda="-" date="2004-06-08" title="Hansard from meeting in the Norwegian Parliament, term 2001-2005, Session 2003-2004, Sitting day 2004-06-08" speaker_role="Regular" topic="International Affairs" speaker_id="person.ES" speaker_name="Solberg, Erna" speaker_mp="MP" speaker_minister="Minister" speaker_party="H" speaker_party_name="Høyre" party_status="Coalition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="1961">
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61" lang="English">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.778">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 are	are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -511,7 +511,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: P
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t34
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.2">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.787">
 Because	Because	because	SCONJ	-	Z5/A2.2	Z5 A2.2	Z5: Grammatical bin|A2.2: Cause	t1
 there	there	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t2
 are	are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -535,7 +535,7 @@ assess	assess	assess	VERB	VerbForm=Inf	X2.4/A5,P1,I1.3	X2.4 A5	X2.4: Investigate
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.3">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.166">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -562,7 +562,7 @@ stories	stories	story	NOUN	Number=Plur	Q2.1,X4.1	Q2.1	Q2.1: Speech: Communicativ
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.4">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.4" senti_3="Neutral" senti_6="neutral negative" senti_n="1.829">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 context	context	context	NOUN	Number=Sing	O4.1/A3+,A2.2,Q3	O4.1 A3p	O4.1: General appearance and physical properties|A3+: Existing	t3
@@ -589,7 +589,7 @@ not	not	not	PART	-	Z6	Z6	Z6: Negative	t20
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.5">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.5" senti_3="Neutral" senti_6="neutral negative" senti_n="2.263">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 why	why	why	SCONJ	PronType=Int	A2.2	A2.2	A2.2: Cause	t3
@@ -648,7 +648,7 @@ security	security	security	NOUN	Number=Sing	G2.1,A15+,E6+,I1.1	G2.1	G2.1: Law an
 </s>
 </p>
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e63" lang="English">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e63.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e63.1" senti_3="Negative" senti_6="mixed negative" senti_n="1.385">
 If	If	if	SCONJ	-	Z7	Z7	Z7: If	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 were	were	be	VERB	Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -738,7 +738,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: P
 </s>
 </p>
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65" lang="English">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.1" senti_3="Negative" senti_6="negative" senti_n="0.464">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 can't	can't	can't	AUX	VerbForm=Fin	Z99	Z99	Z99: Unmatched	t2
 say	say	say	VERB	VerbForm=Inf	Q2.1,Z4%	Q2.1	Q2.1: Speech: Communicative	t3
@@ -766,7 +766,7 @@ on	on	on	ADV	-	M6,A1.1.1	M6	M6: Location and direction	t23
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.2">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.405">
 Our	Our	we	PRON	Number=Plur Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 whole	whole	whole	ADJ	Degree=Pos	N5.1+	N5.1p	N5.1+: Entire; maximum	t2
 point	point	point	NOUN	Number=Sing	Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5	Q2.1	Q2.1: Speech: Communicative	t3
@@ -824,7 +824,7 @@ not	not	not	PART	-	Z6	Z6	Z6: Negative	t49
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t50
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.3">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.3" senti_3="Neutral" senti_6="neutral negative" senti_n="1.824">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 has	has	have	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 something	something	something	PRON	Number=Sing	Z8	Z8	Z8: Pronouns	t3
@@ -888,7 +888,7 @@ them	them	they	PRON	Case=Acc Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pron
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t54
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.4">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.4" senti_3="Neutral" senti_6="neutral negative" senti_n="2.073">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 are	are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 relatively	relatively	relatively	ADV	-	A13/A6	A13 A6	A13: Degree|A6: Comparing	t3
@@ -916,7 +916,7 @@ some	some	some	DET	-	N5,Z5	N5	N5: Quantities	t21
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.5">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.5" senti_3="Neutral" senti_6="neutral positive" senti_n="2.987">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -945,7 +945,7 @@ arise	arise	arise	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A1.
 </s>
 </p>
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e67" lang="English">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e67.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e67.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.007">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t1
 believe	believe	believe	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t2
@@ -1011,7 +1011,7 @@ instance	instance	instance	NOUN	Number=Sing	A4.1,T1.2	A4.1	A4.1: Generally kinds
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t50
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e67.2">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e67.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.418">
 However	However	however	ADV	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1062,7 +1062,7 @@ case	case	case	NOUN	Number=Sing	A4.1,O2,G2.1,B3,X4.1,Q3	A4.1	A4.1: Generally kin
 </s>
 </p>
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69" lang="English">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.521">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 am	am	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 not	not	not	PART	-	Z6	Z6	Z6: Negative	t3
@@ -1146,7 +1146,7 @@ problems	problems	problem	NOUN	Number=Plur	A12-,X4.1,N2,B2-	A12n	A12-: Difficult
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t77
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.2">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.305">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 screening	screening	screen	NOUN	Number=Sing	A10-,Q4.3,X2.4,B3	A10n	A10-: Closed; Hiding/Hidden	t3
@@ -1197,7 +1197,7 @@ decisions	decisions	decision	NOUN	Number=Plur	X6+	X6p	X6+: Decided	t42
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t43
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.3">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.934">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 then	then	then	ADV	PronType=Dem	N4,Z5,T1.2	N4	N4: Linear order	t3
@@ -1216,7 +1216,7 @@ instance	instance	instance	NOUN	Number=Sing	A4.1,T1.2	A4.1	A4.1: Generally kinds
 </s>
 </p>
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e71" lang="English">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.1" senti_3="Negative" senti_6="mixed negative" senti_n="0.640">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 fully	fully	fully	ADV	-	A13.2,N5.1+	A13.2	A13.2: Degree: Maximizers	t2
 agree	agree	agree	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A6.1+,Q2.2	A6.1p	A6.1+: Comparing: Similar	t3
@@ -1283,7 +1283,7 @@ instance	instance	instance	NOUN	Number=Sing	A4.1,T1.2	A4.1	A4.1: Generally kinds
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t54
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.2">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.423">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -1319,9 +1319,9 @@ be	be	be	VERB	VerbForm=Inf	A3+,Z5	A3p	A3+: Existing	t24
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-NO_2004-06-08-lower.ud1454e672" text_id="ParlaMint-NO-en_2004-06-08-lower" subcorpus="Reference" lang="English" body="Lower house" term="Term 2001-2005" session="Session 2003-2004" meeting="-" sitting="Sitting day 2004-06-08" agenda="-" date="2004-06-08" title="Hansard from meeting in the Norwegian Parliament, term 2001-2005, Session 2003-2004, Sitting day 2004-06-08" speaker_role="Chairperson" speaker_id="person.HGR" speaker_name="Røys, Heidi Grande" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SV" speaker_party_name="Sosialistisk Venstreparti" party_status="-" party_orientation="Left" speaker_gender="F" speaker_birth="1967">
+<speech id="ParlaMint-NO_2004-06-08-lower.ud1454e672" text_id="ParlaMint-NO-en_2004-06-08-lower" subcorpus="Reference" lang="English" body="Lower house" term="Term 2001-2005" session="Session 2003-2004" meeting="-" sitting="Sitting day 2004-06-08" agenda="-" date="2004-06-08" title="Hansard from meeting in the Norwegian Parliament, term 2001-2005, Session 2003-2004, Sitting day 2004-06-08" speaker_role="Chairperson" topic="Other" speaker_id="person.HGR" speaker_name="Røys, Heidi Grande" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SV" speaker_party_name="Sosialistisk Venstreparti" party_status="-" party_orientation="Left" speaker_gender="F" speaker_birth="1967">
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e673" lang="English">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e673.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e673.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.334">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
 title	title	title	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t2
@@ -1348,9 +1348,9 @@ vote	vote	vote	NOUN	Number=Sing	N6+,T1.2	N6p	N6+: Frequent	t15
 </speech>
 <note type="comment" content="Votation:"/>
 <note type="comment" content="The title of the law and law at all was signed."/>
-<speech id="ParlaMint-NO_2004-06-08-lower.ud1454e682" text_id="ParlaMint-NO-en_2004-06-08-lower" subcorpus="Reference" lang="English" body="Lower house" term="Term 2001-2005" session="Session 2003-2004" meeting="-" sitting="Sitting day 2004-06-08" agenda="-" date="2004-06-08" title="Hansard from meeting in the Norwegian Parliament, term 2001-2005, Session 2003-2004, Sitting day 2004-06-08" speaker_role="Chairperson" speaker_id="person.HGR" speaker_name="Røys, Heidi Grande" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SV" speaker_party_name="Sosialistisk Venstreparti" party_status="-" party_orientation="Left" speaker_gender="F" speaker_birth="1967">
+<speech id="ParlaMint-NO_2004-06-08-lower.ud1454e682" text_id="ParlaMint-NO-en_2004-06-08-lower" subcorpus="Reference" lang="English" body="Lower house" term="Term 2001-2005" session="Session 2003-2004" meeting="-" sitting="Sitting day 2004-06-08" agenda="-" date="2004-06-08" title="Hansard from meeting in the Norwegian Parliament, term 2001-2005, Session 2003-2004, Sitting day 2004-06-08" speaker_role="Chairperson" topic="Other" speaker_id="person.HGR" speaker_name="Røys, Heidi Grande" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SV" speaker_party_name="Sosialistisk Venstreparti" party_status="-" party_orientation="Left" speaker_gender="F" speaker_birth="1967">
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e683" lang="English">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e683.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e683.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.133">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 legislative	legislative	legislative	ADJ	Degree=Pos	G2.1	G2.1	G2.1: Law and order	t2
 decision	decision	decision	NOUN	Number=Sing	X6+	X6p	X6+: Decided	t3

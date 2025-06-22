@@ -33,16 +33,27 @@
                <resp xml:lang="en">TEI encoding corrections</resp>
             </respStmt>
             <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="sl">Izračun tem govorov</resp>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
                <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="sl">Izračun sentimenta povedi</resp>
                <resp xml:lang="en">Compute sentence level sentiment</resp>
             </respStmt>
             <respStmt>
                <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="sl">Izračun sentimenta govorov</resp>
                <resp xml:lang="en">Compute utterance level sentiment</resp>
             </respStmt>
             <funder>
                <orgName xml:lang="sl">Raziskovalna infrastruktura CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="sl">Slovenska raziskovalna infrastruktura CLARIN.SI</orgName>
@@ -74,7 +85,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
             </availability>
-            <date when="2025-01-04">2025-01-04</date>
+            <date when="2025-06-17">2025-06-17</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -103,6 +114,7 @@
                <tagUsage gi="kinesic" occurs="3"/>
                <tagUsage gi="link" occurs="56325"/>
                <tagUsage gi="linkGrp" occurs="2440"/>
+               <tagUsage gi="measure" occurs="2601"/>
                <tagUsage gi="name" occurs="1754"/>
                <tagUsage gi="note" occurs="163"/>
                <tagUsage gi="pc" occurs="7771"/>
@@ -125,10 +137,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2025-01-04">
+         <change when="2025-06-17">
             <name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2025-01-03">
-            <name>Tomaž Erjavec</name>: Include sentiment related data.</change>
+         <change when="2025-06-16">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
          <change when="2023-01-11">
             <name>Katja Meden</name>: Made ana sample</change>
          <change when="2023-01-10">
@@ -143,9 +155,11 @@
             <head type="chairman" xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.head3">Sejo so vodili predsednik Državnega zbora dr. Milan Brglez ter podpredsednika Primož Hainz in Andreja Katič.</head>
             <note type="time" xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.note1">Seja se je začela ob 10.04.</note>
             <note type="speaker" xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.note2">PREDSEDNIK DR. MILAN BRGLEZ:</note>
-            <u who="#BrglezMilan" xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.u1" ana="#chair senti:neuneg" n="2.18">
+            <u who="#BrglezMilan" xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.u1" ana="#chair topic:educa">
+               <measure type="sentiment" quantity="2.180" ana="senti:neuneg" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.u1"/>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg1">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg1.1" ana="senti:mixpos" n="4.07">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg1.1">
+                     <measure type="sentiment" quantity="4.079" ana="senti:mixpos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg1.1"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg1.1.1" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part" ana="mte:Appmpn" lemma="spoštovan">Spoštovani</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg1.1.2" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" ana="mte:Ncfpn" lemma="kolegica">kolegice</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg1.1.3" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" ana="mte:Ncfpn" lemma="poslanka">poslanke</w>
@@ -173,7 +187,8 @@
                   </s>
                </seg>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg2">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg2.1" ana="senti:neupos" n="3.3">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg2.1">
+                     <measure type="sentiment" quantity="3.302" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg2.1"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg2.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmpr1s" lemma="začenjati">Začenjam</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg2.1.2" msd="UPosTag=ADP|Case=Ins" ana="mte:Si" lemma="z">z</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg2.1.3" msd="UPosTag=NOUN|Case=Ins|Gender=Neut|Number=Sing" ana="mte:Ncnsi" lemma="nadaljevanje">nadaljevanjem</w>
@@ -197,7 +212,8 @@
                   </s>
                </seg>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg3">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg3.1" ana="senti:neuneg" n="1.72">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg3.1">
+                     <measure type="sentiment" quantity="1.722" ana="senti:neuneg" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg3.1"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg3.1.1" msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part" ana="mte:Appmsnn" lemma="obveščen">Obveščen</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg3.1.2" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin" ana="mte:Va-r1s-n" lemma="biti" join="right">sem</w>
 <pc xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg3.1.3" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
@@ -429,7 +445,8 @@
                   </s>
                </seg>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg4">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg4.1" ana="senti:pospos" n="4.51">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg4.1">
+                     <measure type="sentiment" quantity="4.512" ana="senti:pospos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg4.1"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg4.1.1" msd="UPosTag=DET|Case=Acc|Gender=Masc|Number=Plur|PronType=Tot" ana="mte:Pg-mpa" lemma="ves">Vse</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg4.1.2" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur" ana="mte:Agpmpa" lemma="prisoten">prisotne</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg4.1.3" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="lepo">lepo</w>
@@ -445,7 +462,8 @@
                   </s>
                </seg>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg5">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg5.1" ana="senti:neupos" n="3.16">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg5.1">
+                     <measure type="sentiment" quantity="3.169" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg5.1"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg5.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmpr1p" lemma="prehajati">Prehajamo</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg5.1.2" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="na">na</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg5.1.3" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" ana="mte:Mdc" lemma="27" join="right">27</w>
@@ -457,7 +475,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg5.1.1 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg5.1.4"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg5.2" ana="senti:neupos" n="2.71">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg5.2">
+                     <measure type="sentiment" quantity="2.711" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg5.2"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg5.2.1" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="točka">TOČKO</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg5.2.2" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Agpmsg" lemma="dneven">DNEVNEGA</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg5.2.3" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsg" lemma="red" join="right">REDA</w>
@@ -507,7 +526,8 @@
                   </s>
                </seg>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg6">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg6.1" ana="senti:neupos" n="3.05">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg6.1">
+                     <measure type="sentiment" quantity="3.051" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg6.1"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg6.1.1" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" ana="mte:Ncmsan" lemma="predlog">Predlog</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg6.1.2" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsg" lemma="odlok">odloka</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg6.1.3" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" ana="mte:Va-r3s-n" lemma="biti">je</w>
@@ -535,7 +555,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg6.1.8 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg6.1.10"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg6.2" ana="senti:neupos" n="2.99">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg6.2">
+                     <measure type="sentiment" quantity="2.993" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg6.2"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg6.2.1" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="za">Za</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg6.2.2" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsa" lemma="dopolnilen">dopolnilno</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg6.2.3" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="obrazložitev">obrazložitev</w>
@@ -598,9 +619,11 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.note3">DR. PETER MAČEK:</note>
-            <u who="#MačekPeter" xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.u2" ana="#regular senti:neupos" n="3.44">
+            <u who="#MačekPeter" xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.u2" ana="#regular topic:educa">
+               <measure type="sentiment" quantity="3.440" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.u2"/>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg7">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg7.1" ana="senti:mixpos" n="3.88">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg7.1">
+                     <measure type="sentiment" quantity="3.888" ana="senti:mixpos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg7.1"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg7.1.1" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part" ana="mte:Appmsny" lemma="spoštovan">Spoštovani</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg7.1.2" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="gospod">gospod</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg7.1.3" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="predsednik" join="right">predsednik</w>
@@ -622,7 +645,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg7.1.2 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg7.1.9"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg7.2" ana="senti:mixpos" n="3.72">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg7.2">
+                     <measure type="sentiment" quantity="3.721" ana="senti:mixpos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg7.2"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg7.2.1" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part" ana="mte:Appfpn" lemma="spoštovan">Spoštovane</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg7.2.2" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" ana="mte:Ncfpn" lemma="poslanka">poslanke</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg7.2.3" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="in">in</w>
@@ -638,7 +662,8 @@
                   </s>
                </seg>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.1" ana="senti:neupos" n="2.98">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.1">
+                     <measure type="sentiment" quantity="2.982" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.1"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.1.1" msd="UPosTag=ADP|Case=Ins" ana="mte:Si" lemma="z">S</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.1.2" msd="UPosTag=NOUN|Case=Ins|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="predlog">Predlogom</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.1.3" msd="UPosTag=NOUN|Case=Ins|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="odlok">odlokom</w>
@@ -728,7 +753,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.1.15 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.1.38"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.2" ana="senti:neupos" n="2.65">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.2">
+                     <measure type="sentiment" quantity="2.657" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.2"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.2.1" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="nadalje">Nadalje</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.2.2" msd="UPosTag=PRON|PronType=Prs|Reflex=Yes|Variant=Short" ana="mte:Px------y" lemma="se">se</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.2.3" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmpr3s" lemma="spreminjati">spreminja</w>
@@ -798,7 +824,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.2.3 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.2.28"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.3" ana="senti:neupos" n="2.89">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.3">
+                     <measure type="sentiment" quantity="2.894" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.3"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.3.1" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="nadalje">Nadalje</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.3.2" msd="UPosTag=PRON|PronType=Prs|Reflex=Yes|Variant=Short" ana="mte:Px------y" lemma="se">se</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.3.3" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmpr3s" lemma="spreminjati">spreminja</w>
@@ -872,7 +899,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.3.3 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.3.32"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.4" ana="senti:neupos" n="2.85">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.4">
+                     <measure type="sentiment" quantity="2.851" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.4"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.4.1" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="in">In</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.4.2" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Agpfpn" lemma="zadnji" join="right">zadnje</w>
 <pc xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.4.3" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
@@ -956,7 +984,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.4.13 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.4.37"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.5" ana="senti:mixpos" n="4.08">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.5">
+                     <measure type="sentiment" quantity="4.085" ana="senti:mixpos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.5"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.5.1" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="hvala">Hvala</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.5.2" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsn" lemma="lep" join="right">lepa</w>
 <pc xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.5.3" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
@@ -971,9 +1000,11 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#KovačičMarijaAntonija" xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.u160" ana="#regular senti:negneg" n="0.18">
+            <u who="#KovačičMarijaAntonija" xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.u160" ana="#regular topic:lands">
+               <measure type="sentiment" quantity="0.180" ana="senti:negneg" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.u160"/>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg564">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg564.1" ana="senti:mixpos" n="3.54">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg564.1">
+                     <measure type="sentiment" quantity="3.545" ana="senti:mixpos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg564.1"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg564.1.1" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part" ana="mte:Appmsny" lemma="spoštovan">Spoštovani</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg564.1.2" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="predsednik" join="right">predsednik</w>
 <pc xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg564.1.3" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
@@ -997,7 +1028,8 @@
                   </s>
                </seg>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.1" ana="senti:mixneg" n="1.48">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.1">
+                     <measure type="sentiment" quantity="1.482" ana="senti:mixneg" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.1"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.1.1" msd="UPosTag=ADP|Case=Gen" ana="mte:Sg" lemma="sredi">Sredi</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.1.2" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsg" lemma="januar">januarja</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.1.3" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="letos">letos</w>
@@ -1067,7 +1099,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.1.18 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.1.31"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.2" ana="senti:mixneg" n="1.45">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.2">
+                     <measure type="sentiment" quantity="1.452" ana="senti:mixneg" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.2"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.2.1" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsn" lemma="poslanski">Poslanska</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.2.2" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="skupina">skupina</w>
                      <name type="ORG">
@@ -1133,7 +1166,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.2.6 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.2.29"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.3" ana="senti:mixneg" n="1.41">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.3">
+                     <measure type="sentiment" quantity="1.411" ana="senti:mixneg" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.3"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.3.1" msd="UPosTag=PART|Polarity=Neg" ana="mte:Q" lemma="ne">Ne</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.3.2" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="glede">glede</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.3.3" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="na">na</w>
@@ -1167,7 +1201,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.3.14 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.3.15"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.4" ana="senti:neuneg" n="2.08">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.4">
+                     <measure type="sentiment" quantity="2.083" ana="senti:neuneg" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.4"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.4.1" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" ana="mte:Ncnsg" lemma="mnenje">Mnenja</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.4.2" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin" ana="mte:Va-r1p-n" lemma="biti" join="right">smo</w>
 <pc xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.4.3" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
@@ -1241,7 +1276,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.4.1 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.4.34"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.5" ana="senti:neupos" n="2.83">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.5">
+                     <measure type="sentiment" quantity="2.830" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.5"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.5.1" msd="UPosTag=VERB|Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part" ana="mte:Vmep-pm" lemma="izvedeti">Izvedeli</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.5.2" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin" ana="mte:Va-f1p-n" lemma="biti" join="right">bomo</w>
 <pc xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.5.3" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
@@ -1281,7 +1317,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.5.1 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.5.18"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.6" ana="senti:neupos" n="2.85">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.6">
+                     <measure type="sentiment" quantity="2.860" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.6"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.6.1" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="lahko">Lahko</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.6.2" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin" ana="mte:Va-f1p-n" lemma="biti">bomo</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.6.3" msd="UPosTag=VERB|Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part" ana="mte:Vmep-pm" lemma="prebrati">prebrali</w>
@@ -1379,7 +1416,8 @@
                   </s>
                </seg>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.1" ana="senti:neuneg" n="1.68">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.1">
+                     <measure type="sentiment" quantity="1.687" ana="senti:neuneg" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.1"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.1.1" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Neut|Number=Plur" ana="mte:Agpnpn" lemma="razpoložljiv">Razpoložljiva</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.1.2" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Plur" ana="mte:Ncnpn" lemma="sredstvo">sredstva</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.1.3" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin" ana="mte:Va-r3p-y" lemma="biti">niso</w>
@@ -1401,7 +1439,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.1.6 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.1.9"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.2" ana="senti:neupos" n="3.05">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.2">
+                     <measure type="sentiment" quantity="3.053" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.2"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.2.1" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="v">V</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.2.2" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" ana="mte:Ncmsl" lemma="okvir">okviru</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.2.3" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Agpmsg" lemma="operativen">Operativnega</w>
@@ -1459,7 +1498,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.2.18 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.2.27"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.3" ana="senti:neupos" n="2.96">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.3">
+                     <measure type="sentiment" quantity="2.961" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.3"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.3.1" msd="UPosTag=DET|Case=Nom|Gender=Neut|Number=Plur|PronType=Tot" ana="mte:Pg-npn" lemma="ves">Vsa</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.3.2" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Plur" ana="mte:Ncnpn" lemma="sredstvo">sredstva</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.3.3" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" ana="mte:Va-r3p-n" lemma="biti">so</w>
@@ -1505,7 +1545,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.3.4 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.3.21"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.4" ana="senti:mixpos" n="3.65">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.4">
+                     <measure type="sentiment" quantity="3.653" ana="senti:mixpos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.4"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.4.1" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" ana="mte:Ncnsn" lemma="ministrstvo">Ministrstvo</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.4.2" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmpr3s" lemma="priznavati" join="right">priznava</w>
 <pc xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.4.3" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
@@ -1603,7 +1644,8 @@
                   </s>
                </seg>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.1" ana="senti:mixneg" n="1.05">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.1">
+                     <measure type="sentiment" quantity="1.051" ana="senti:mixneg" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.1"/>
                      <name type="ORG">
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.1.1" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Agpnsn" lemma="računski">Računsko</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.1.2" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" ana="mte:Ncnsn" lemma="sodišče">sodišče</w>
@@ -1683,7 +1725,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.1.9 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.1.37"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.2" ana="senti:neuneg" n="1.6">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.2">
+                     <measure type="sentiment" quantity="1.602" ana="senti:neuneg" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.2"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.2.1" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="država">Država</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.2.2" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" ana="mte:Va-r3s-n" lemma="biti">je</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.2.3" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="za">za</w>
@@ -1743,7 +1786,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.2.8 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.2.25"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.3" ana="senti:neuneg" n="2.27">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.3">
+                     <measure type="sentiment" quantity="2.273" ana="senti:neuneg" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.3"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.3.1" msd="UPosTag=ADP|Case=Gen" ana="mte:Sg" lemma="do">Do</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.3.2" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsg" lemma="konec">konca</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.3.3" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" ana="mte:Ncnsg" lemma="leto">leta</w>
@@ -1779,7 +1823,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.3.11 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.3.16"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.4" ana="senti:neupos" n="2.68">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.4">
+                     <measure type="sentiment" quantity="2.680" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.4"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.4.1" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="kot">Kot</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.4.2" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin" ana="mte:Va-r1p-n" lemma="biti">smo</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.4.3" msd="UPosTag=AUX|Gender=Masc|Number=Plur|VerbForm=Part" ana="mte:Va-p-pm" lemma="biti">bili</w>
@@ -1837,7 +1882,8 @@
                   </s>
                </seg>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.1" ana="senti:mixneg" n="0.8">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.1">
+                     <measure type="sentiment" quantity="0.805" ana="senti:mixneg" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.1"/>
                      <name type="ORG">
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.1.1" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Agpnsn" lemma="računski">Računsko</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.1.2" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" ana="mte:Ncnsn" lemma="sodišče">sodišče</w>
@@ -1909,7 +1955,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.1.4 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.1.33"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.2" ana="senti:mixneg" n="0.73">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.2">
+                     <measure type="sentiment" quantity="0.735" ana="senti:mixneg" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.2"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.2.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmpr1p" lemma="ocenjevati" join="right">Ocenjujemo</w>
 <pc xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.2.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.2.3" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
@@ -1987,7 +2034,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.2.1 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.2.37"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.3" ana="senti:neupos" n="2.88">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.3">
+                     <measure type="sentiment" quantity="2.885" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.3"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.3.1" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="po">Po</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.3.2" msd="UPosTag=ADJ|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes" ana="mte:Aspmsl" lemma="Vizjakov">Vizjakovem</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.3.3" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" ana="mte:Ncmsl" lemma="zakon">Zakonu</w>
@@ -2053,7 +2101,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.3.22 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.3.29"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.4" ana="senti:mixneg" n="1.03">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.4">
+                     <measure type="sentiment" quantity="1.031" ana="senti:mixneg" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.4"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.4.1" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="tako">Tako</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.4.2" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" ana="mte:Va-r3s-n" lemma="biti">je</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.4.3" msd="UPosTag=AUX|Gender=Neut|Number=Sing|VerbForm=Part" ana="mte:Va-p-sn" lemma="biti">bilo</w>
@@ -2135,7 +2184,8 @@
                   </s>
                </seg>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg569">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg569.1" ana="senti:neuneg" n="1.7">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg569.1">
+                     <measure type="sentiment" quantity="1.702" ana="senti:neuneg" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg569.1"/>
                      <name type="PER">
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg569.1.1" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Npmsn" lemma="DeSUS">Desus</w>
                      </name>
@@ -2204,9 +2254,11 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.note162">PREDSEDNIK DR. MILAN BRGLEZ:</note>
-            <u who="#BrglezMilan" xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.u161" ana="#chair senti:mixpos" n="3.67">
+            <u who="#BrglezMilan" xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.u161" ana="#chair topic:civil">
+               <measure type="sentiment" quantity="3.670" ana="senti:mixpos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.u161"/>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg570">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg570.1" ana="senti:neupos" n="3.22">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg570.1">
+                     <measure type="sentiment" quantity="3.226" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg570.1"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg570.1.1" msd="UPosTag=VERB|Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part" ana="mte:Vmep-pm" lemma="končati">Končali</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg570.1.2" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin" ana="mte:Va-r1p-n" lemma="biti">smo</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg570.1.3" msd="UPosTag=ADP|Case=Ins" ana="mte:Si" lemma="z">s</w>
@@ -2228,7 +2280,8 @@
                   </s>
                </seg>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg571">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg571.1" ana="senti:neupos" n="3.05">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg571.1">
+                     <measure type="sentiment" quantity="3.057" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg571.1"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg571.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmpr1p" lemma="prehajati">Prehajamo</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg571.1.2" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="na">na</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg571.1.3" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="razprava">razpravo</w>
@@ -2282,7 +2335,8 @@
                   </s>
                </seg>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.1" ana="senti:neupos" n="3.08">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.1">
+                     <measure type="sentiment" quantity="3.082" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.1"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.1.1" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="v">V</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.1.2" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="razprava">razpravo</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.1.3" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmpr1s" lemma="dajati">dajem</w>
@@ -2310,7 +2364,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.1.3 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.1.11"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.2" ana="senti:neupos" n="3.32">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.2">
+                     <measure type="sentiment" quantity="3.325" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.2"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.2.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmpr3s" lemma="želeti">Želi</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.2.2" msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Sing|PronType=Int" ana="mte:Pq-msn" lemma="kdo">kdo</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.2.3" msd="UPosTag=VERB|Aspect=Imp|VerbForm=Inf" ana="mte:Vmpn" lemma="razpravljati" join="right">razpravljati</w>
@@ -2322,7 +2377,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.2.1 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.2.4"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.3" ana="senti:neupos" n="2.54">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.3">
+                     <measure type="sentiment" quantity="2.547" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.3"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.3.1" msd="UPosTag=PART|Polarity=Neg" ana="mte:Q" lemma="ne" join="right">Ne</w>
 <pc xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.3.2" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
 <linkGrp type="UD-SYN" targFunc="head argument">
@@ -2332,7 +2388,8 @@
                   </s>
                </seg>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg573">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg573.1" ana="senti:neuneg" n="2.32">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg573.1">
+                     <measure type="sentiment" quantity="2.330" ana="senti:neuneg" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg573.1"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg573.1.1" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="ker">Ker</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg573.1.2" msd="UPosTag=PART|Polarity=Neg" ana="mte:Q" lemma="ne">ne</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg573.1.3" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmpr3s" lemma="želeti">želi</w>
@@ -2356,7 +2413,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg573.1.8 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg573.1.10"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg573.2" ana="senti:neupos" n="2.88">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg573.2">
+                     <measure type="sentiment" quantity="2.883" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg573.2"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg573.2.1" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="o">O</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg573.2.2" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" ana="mte:Ncmsl" lemma="amandma">amandmaju</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg573.2.3" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin" ana="mte:Va-f1p-n" lemma="biti">bomo</w>
@@ -2410,7 +2468,8 @@
                   </s>
                </seg>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg574">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg574.1" ana="senti:neupos" n="3.18">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg574.1">
+                     <measure type="sentiment" quantity="3.188" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg574.1"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg574.1.1" msd="UPosTag=ADP|Case=Ins" ana="mte:Si" lemma="z">S</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg574.1.2" msd="UPosTag=DET|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem" ana="mte:Pd-nsi" lemma="ta">tem</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg574.1.3" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmpr1s" lemma="prekinjati">prekinjam</w>
@@ -2432,7 +2491,8 @@
                   </s>
                </seg>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg575">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg575.1" ana="senti:mixpos" n="3.92">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg575.1">
+                     <measure type="sentiment" quantity="3.926" ana="senti:mixpos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg575.1"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg575.1.1" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Plur" ana="mte:Agpfpn" lemma="drag">Drage</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg575.1.2" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" ana="mte:Ncfpn" lemma="državljanka" join="right">državljanke</w>
 <pc xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg575.1.3" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
@@ -2476,7 +2536,8 @@
 <link ana="ud-syn:punct" target="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg575.1.4 #ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg575.1.20"/>
 </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg575.2" ana="senti:mixpos" n="3.97">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg575.2">
+                     <measure type="sentiment" quantity="3.977" ana="senti:mixpos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg575.2"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg575.2.1" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" ana="mte:Ncmpa" lemma="državljan" join="right">Državljane</w>
 <pc xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg575.2.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg575.2.3" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" ana="mte:Ncmpa" lemma="poslanec">poslance</w>
@@ -2556,7 +2617,8 @@
                   </s>
                </seg>
                <seg xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg576">
-                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg576.1" ana="senti:neupos" n="2.88">
+                  <s xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg576.1">
+                     <measure type="sentiment" quantity="2.884" ana="senti:neupos" corresp="#ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg576.1"/>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg576.1.1" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmpr1s" lemma="prekinjati">Prekinjam</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg576.1.2" msd="UPosTag=PART" ana="mte:Q" lemma="tudi">tudi</w>
 <w xml:id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg576.1.3" msd="UPosTag=NUM|NumForm=Digit|NumType=Ord" ana="mte:Mdo" lemma="5.">5.</w>

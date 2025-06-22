@@ -13,22 +13,34 @@
                <resp xml:lang="en">Data retrieval, linguistic annotation, and conversion to TEI</resp>
             </respStmt>
             <respStmt>
-               <persName>Taja Kuzman</persName>
-               <persName>Nikola Ljubešić</persName>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
                <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
             </respStmt>
             <respStmt>
-               <persName>Paul Rayson</persName>
-               <persName>Matthew Coole</persName>
-               <persName>John Vidler</persName>
+               <persName ref="https://orcid.org/0000-0002-1257-2191">Paul Rayson</persName>
+               <persName ref="https://orcid.org/0000-0002-9279-931X">Matthew Coole</persName>
+               <persName ref="https://orcid.org/0000-0003-3442-6862">John Vidler</persName>
                <resp xml:lang="en">Annotating MTed corpora with USAS semantic tags</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
             </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="1" xml:lang="en">1 speech</measure>
@@ -39,12 +51,12 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1910</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2006</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-21">2025-06-21</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -68,6 +80,7 @@
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="measure" occurs="4"/>
                <tagUsage gi="name" occurs="2"/>
                <tagUsage gi="note" occurs="2"/>
                <tagUsage gi="pc" occurs="8"/>
@@ -95,8 +108,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-21">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-22">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war" xml:lang="tr">
@@ -104,9 +119,10 @@
          <div type="debateSection" xml:lang="en">
             <note type="time" xml:id="ParlaMint-TR_2022-11-17-tbmm-T27.ana.note1" xml:lang="en" corresp="mt-src:ParlaMint-TR_2022-11-17-tbmm-T27.ana.note1">14.01</note>
             <note type="president" xml:id="ParlaMint-TR_2022-11-17-tbmm-T27.ana.note2" xml:lang="en" corresp="mt-src:ParlaMint-TR_2022-11-17-tbmm-T27.ana.note2">Nimethullah Erdoğ</note>
-            <u ana="#chair" who="#Nimetullah.Erdoğmuş" xml:id="tbmm-2022-11-17sit01spe0001par0001" xml:lang="en" corresp="mt-src:tbmm-2022-11-17sit01spe0001par0001">
+            <u ana="#chair topic:other" who="#Nimetullah.Erdoğmuş" xml:id="tbmm-2022-11-17sit01spe0001par0001" xml:lang="en" corresp="mt-src:tbmm-2022-11-17sit01spe0001par0001">
                <seg xml:id="tbmm-2022-11-17sit01spe0001par0001.seg0" xml:lang="en" corresp="mt-src:tbmm-2022-11-17sit01spe0001par0001.seg0">
                   <s xml:id="tbmm-2022-11-17sit01spe0001par0001-000010" n="1" corresp="mt-src:tbmm-2022-11-17sit01spe0001par0001-000010">
+                     <measure type="sentiment" quantity="3.267" ana="senti:neupos" corresp="#tbmm-2022-11-17sit01spe0001par0001-000010"/>
 <w xml:id="tbmm-2022-11-17sit01spe0001par0001-000010.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="tbmm-2022-11-17sit01spe0001par0001-000010.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">am</w>
 <w xml:id="tbmm-2022-11-17sit01spe0001par0001-000010.t3" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="open" function="A1.1.1,T2+" ana="sem:A1.1.1">opening</w>
@@ -127,6 +143,7 @@
                </seg>
                <seg xml:id="tbmm-2022-11-17sit01spe0001par0002.seg1" xml:lang="en" corresp="mt-src:tbmm-2022-11-17sit01spe0001par0002.seg1">
                   <s xml:id="tbmm-2022-11-17sit01spe0001par0002-000010" n="1" corresp="mt-src:tbmm-2022-11-17sit01spe0001par0002-000010">
+                     <measure type="sentiment" quantity="0.651" ana="senti:mixneg" corresp="#tbmm-2022-11-17sit01spe0001par0002-000010"/>
 <w xml:id="tbmm-2022-11-17sit01spe0001par0002-000010.t1" pos="IN" msd="UPosTag=SCONJ" lemma="since" function="Z5" ana="sem:Z5">Since</w>
 <w xml:id="tbmm-2022-11-17sit01spe0001par0002-000010.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
                      <name type="ORG">
@@ -152,6 +169,7 @@
                </seg>
                <seg xml:id="tbmm-2022-11-17sit01spe0001par0003.seg2" xml:lang="en" corresp="mt-src:tbmm-2022-11-17sit01spe0001par0003.seg2">
                   <s xml:id="tbmm-2022-11-17sit01spe0001par0003-000010" n="1" corresp="mt-src:tbmm-2022-11-17sit01spe0001par0003-000010">
+                     <measure type="sentiment" quantity="2.563" ana="senti:neupos" corresp="#tbmm-2022-11-17sit01spe0001par0003-000010"/>
 <w xml:id="tbmm-2022-11-17sit01spe0001par0003-000010.t1" pos="RB" msd="UPosTag=ADV" lemma="therefore" function="Z5" ana="sem:Z5" join="right">Therefore</w>
 <pc xml:id="tbmm-2022-11-17sit01spe0001par0003-000010.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="tbmm-2022-11-17sit01spe0001par0003-000010.t3" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
@@ -183,6 +201,7 @@
 <pc xml:id="tbmm-2022-11-17sit01spe0001par0003-000010.t25" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="tbmm-2022-11-17sit01spe0001par0003-000020" n="2" corresp="mt-src:tbmm-2022-11-17sit01spe0001par0003-000020">
+                     <measure type="sentiment" quantity="1.569" ana="senti:neuneg" corresp="#tbmm-2022-11-17sit01spe0001par0003-000020"/>
 <w xml:id="tbmm-2022-11-17sit01spe0001par0003-000020.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8" join="right">I</w>
 <w xml:id="tbmm-2022-11-17sit01spe0001par0003-000020.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">'m</w>
 <w xml:id="tbmm-2022-11-17sit01spe0001par0003-000020.t3" pos="VBG" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" lemma="close" function="A1.1.1,A10-,T2-" ana="sem:A1.1.1">closing</w>

@@ -15,20 +15,29 @@
             <meeting n="8" corresp="#DZ" ana="#parla.term #DZ.8 #parla.lower"/>
             <respStmt>
                <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
-               <persName ref="https://orcid.org/0000-0002-1560-4099 http://viaf.org/viaf/15145066459666591823">Tomaž Erjavec</persName>
-               <persName ref="https://orcid.org/0000-0001-6143-6877 http://viaf.org/viaf/305936424">Andrej Pančur</persName>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+               <persName ref="https://orcid.org/0000-0001-6143-6877">Andrej Pančur</persName>
                <resp xml:lang="sl">Kodiranje TEI</resp>
                <resp xml:lang="en">TEI corpus encoding</resp>
             </respStmt>
             <respStmt>
-               <persName ref="https://orcid.org/0000-0001-6143-6877 http://viaf.org/viaf/305936424">Andrej Pančur</persName>
-               <persName ref="http://viaf.org/viaf/86154440112735340300">Mihael Ojsteršek</persName>
+               <persName ref="https://orcid.org/0000-0001-6143-6877">Andrej Pančur</persName>
+               <persName ref="https://orcid.org/0009-0007-7233-2601">Mihael Ojsteršek</persName>
                <resp xml:lang="sl">Urejanje seznama govornikov</resp>
                <resp xml:lang="en">Editing a list of speakers</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="sl">Izračun tem govorov</resp>
+               <resp xml:lang="en">Compute utterance topics</resp>
             </respStmt>
             <funder>
                <orgName xml:lang="sl">Raziskovalna infrastruktura CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="sl">Slovenska raziskovalna infrastruktura CLARIN.SI</orgName>
@@ -54,13 +63,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2004</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2025-01-04">2025-01-04</date>
+            <date when="2025-06-17">2025-06-17</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -116,7 +125,13 @@
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-subcorpus.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-CHES.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-politicalOrientation.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-topic.xml"/>
          </classDecl>
+         <listPrefixDef>
+            <prefixDef ident="topic" matchPattern="(.+)" replacementPattern="#$1">
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the Topic taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+         </listPrefixDef>
       </encodingDesc>
       <profileDesc>
          <settingDesc>
@@ -141,14 +156,18 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2025-01-04">
+         <change when="2025-06-17">
             <name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2025-01-04">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2025-06-17">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2025-06-16">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
+         <change when="2024-05-14">parlamint2release script: Fix some identifiable erros for the release.</change>
          <change when="2023-01-10">
             <name>Tomaž Erjavec</name>: Small fixes of ParlaMint data</change>
          <change when="2022-12-08">
             <name>Katja Meden</name>: Made TEI sample</change>
-         <change when="2025-01-04">parlamint-add-common-content script: Adding common content.</change>
+         <change when="2024-05-14">parlamint-add-common-content script: Adding common content.</change>
+         <change when="2025-06-17">parlamint-add-common-content script: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.xml"/>
