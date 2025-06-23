@@ -49,29 +49,29 @@ ouverte	ouverte	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w35	
 <note type="editorial" content="Vragen"/>
 <note type="editorial" content="Questions"/>
 <note type="editorial" content="01 Samengevoegde vragen van"/>
-<note type="editorial" content="- de heer Wouter De Vriendt aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P1992)"/>
-<note type="editorial" content="- mevrouw Barbara Pas aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P1993)"/>
-<note type="editorial" content="- mevrouw Gwenaëlle Grovonius aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P1994)"/>
-<note type="editorial" content="- de heer Olivier Maingain aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P1995)"/>
-<note type="editorial" content="- de heer Jean-Jacques Flahaux aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P1996)"/>
-<note type="editorial" content="- de heer Raoul Hedebouw aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P1997)"/>
-<note type="editorial" content="- mevrouw Meryame Kitir aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P1998)"/>
-<note type="editorial" content="- mevrouw Rita Bellens aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P1999)"/>
-<note type="editorial" content="- mevrouw Els Van Hoof aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P2000)"/>
-<note type="editorial" content="- mevrouw Annemie Turtelboom aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P2001)"/>
-<note type="editorial" content="- mevrouw Catherine Fonck aan de eerste minister over \\"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\\" (nr. P2002)"/>
+<note type="editorial" content="- de heer Wouter De Vriendt aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P1992)"/>
+<note type="editorial" content="- mevrouw Barbara Pas aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P1993)"/>
+<note type="editorial" content="- mevrouw Gwenaëlle Grovonius aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P1994)"/>
+<note type="editorial" content="- de heer Olivier Maingain aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P1995)"/>
+<note type="editorial" content="- de heer Jean-Jacques Flahaux aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P1996)"/>
+<note type="editorial" content="- de heer Raoul Hedebouw aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P1997)"/>
+<note type="editorial" content="- mevrouw Meryame Kitir aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P1998)"/>
+<note type="editorial" content="- mevrouw Rita Bellens aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P1999)"/>
+<note type="editorial" content="- mevrouw Els Van Hoof aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P2000)"/>
+<note type="editorial" content="- mevrouw Annemie Turtelboom aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P2001)"/>
+<note type="editorial" content="- mevrouw Catherine Fonck aan de eerste minister over \"de verkiezing van Saudi-Arabië als lid van de VN-Commissie voor de Status van de Vrouw\" (nr. P2002)"/>
 <note type="editorial" content="01 Questions jointes de"/>
-<note type="editorial" content="- M. Wouter De Vriendt au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P1992)"/>
-<note type="editorial" content="- Mme Barbara Pas au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P1993)"/>
-<note type="editorial" content="- Mme Gwenaëlle Grovonius au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P1994)"/>
-<note type="editorial" content="- M. Olivier Maingain au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P1995)"/>
-<note type="editorial" content="- M. Jean-Jacques Flahaux au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P1996)"/>
-<note type="editorial" content="- M. Raoul Hedebouw au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P1997)"/>
-<note type="editorial" content="- Mme Meryame Kitir au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P1998)"/>
-<note type="editorial" content="- Mme Rita Bellens au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P1999)"/>
-<note type="editorial" content="- Mme Els Van Hoof au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P2000)"/>
-<note type="editorial" content="- Mme Annemie Turtelboom au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P2001)"/>
-<note type="editorial" content="- Mme Catherine Fonck au premier ministre sur \\"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\\" (n° P2002)"/>
+<note type="editorial" content="- M. Wouter De Vriendt au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P1992)"/>
+<note type="editorial" content="- Mme Barbara Pas au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P1993)"/>
+<note type="editorial" content="- Mme Gwenaëlle Grovonius au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P1994)"/>
+<note type="editorial" content="- M. Olivier Maingain au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P1995)"/>
+<note type="editorial" content="- M. Jean-Jacques Flahaux au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P1996)"/>
+<note type="editorial" content="- M. Raoul Hedebouw au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P1997)"/>
+<note type="editorial" content="- Mme Meryame Kitir au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P1998)"/>
+<note type="editorial" content="- Mme Rita Bellens au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P1999)"/>
+<note type="editorial" content="- Mme Els Van Hoof au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P2000)"/>
+<note type="editorial" content="- Mme Annemie Turtelboom au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P2001)"/>
+<note type="editorial" content="- Mme Catherine Fonck au premier ministre sur \"l'élection de l'Arabie saoudite à la Commission de la condition de la femme des Nations Unies\" (n° P2002)"/>
 <note type="speaker" content="01.01 Wouter De Vriendt (Ecolo-Groen):"/>
 <speech id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.u2" text_id="ParlaMint-BE_2017-04-27-54-plenair-ip165x" subcorpus="Referentie" lang="Nederlands" body="Eerste Kamer" term="Zittingperiode 54" session="-" meeting="Plenaire zitting 165 van 27-04-2017" sitting="-" agenda="-" date="2017-04-27" title="Belgisch parlementair corpus ParlaMint-BE, plenaire zitting van 27-04-2017" speaker_role="Vast" topic="Burgerrechten" speaker_id="DeVriendtWouter" speaker_name="De Vriendt, Wouter" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Groen" speaker_party_name="Groen" party_status="Opposition" party_orientation="Centrum-link tot links" speaker_gender="M" speaker_birth="1977">
 <p id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.seg3" lang="Nederlands">

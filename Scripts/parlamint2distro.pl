@@ -340,7 +340,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
         my $outTeiSmpRoot = File::Spec->catfile($outSmpDir, (File::Spec->splitpath($outTeiRoot))[2]);
 	    #Make derived files
 	    `$scriptTexts -jobs $procThreads -in $outSmpDir -out $outSmpDir`;
-        &dirify($outSmpDir);
+            &dirify($outSmpDir);
 	    `$scriptMetas -jobs $procThreads -inRoot $outTeiSmpRoot -out $outSmpDir`;
 	}
 	else {print STDERR "WARN: No TEI files for $countryCode samples (needed root file is $outTeiRoot)\n"}
@@ -351,7 +351,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	    #Make derived files unless (for text) already made for TEI
             `$scriptTexts -jobs $procThreads -in $outSmpDir -out $outSmpDir` unless $outTeiRoot;
             &dirify($outSmpDir);
-            `$scriptMetas -jobs $procThreads -inRoot $outAnaSmpRoot -out $outSmpDir` unless $outTeiRoot;
+            `$scriptMetas -jobs $procThreads -inRoot $outAnaSmpRoot -out $outSmpDir`;
 	    `$scriptVerts -jobs $minProcThreads -in $outSmpDir -out $outSmpDir`;
 	    if (-e "$regiDir/$vertRegi") {`cp $regiDir/$vertRegi $outSmpDir/$vertRegi.$regiExt`}
 	    else {print STDERR "WARN: registry file $vertRegi not found\n"}
