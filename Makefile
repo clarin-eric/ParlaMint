@@ -108,7 +108,7 @@ $(initTaxonomies-XX): initTaxonomies-%: $(addprefix initTaxonomy-%--, $(TAXONOMI
 initTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix initTaxonomy-${X}--, $(TAXONOMIES-TRANSLATE) ) )
 $(initTaxonomy-XX-tt): initTaxonomy-%:
 	@test -z "$(LANG-CODE-LIST)" && echo "WARNING: no language specified in " `echo -n '$*' | sed 's/^.*--//'` " taxonomy preparation" || echo "INFO: preparing " `echo -n '$*' | sed 's/^.*--//'` "taxonomy"
-	@${s} langs="$(LANG-CODE-LIST)" parlamint="ParlaMint-"`echo -n '$*' | sed 's/--.*$$//'` -xsl:Scripts/parlamint-init-taxonomy.xsl \
+	@${s} langs="$(LANG-CODE-LIST)" $(TAXONOMYPARAMS)  parlamint="ParlaMint-"`echo -n '$*' | sed 's/--.*$$//'` -xsl:Scripts/parlamint-init-taxonomy.xsl \
 	  ${SHARED}/Taxonomies/`echo -n '$*.xml' | sed 's/^.*--//'` \
 		| ${formatAndPolish} \
 	  > ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`
@@ -132,7 +132,7 @@ $(initTaxonomy4release-XX-tt): initTaxonomy4release-%:
 	@echo "INFO: ParlaMint $($@_XX)"
 	@echo "INFO: Taxonomy $($@_tt)"
 	@echo "INFO: Languages $($@_langs)"
-	make initTaxonomy-$($@_XX)--$($@_tt) LANG-CODE-LIST="$($@_langs)"
+	make initTaxonomy-$($@_XX)--$($@_tt) LANG-CODE-LIST="$($@_langs)" TAXONOMYPARAMS='if-lang-missing="skip"'
 
 
 translateTaxonomies-XX = $(addprefix translateTaxonomies-, $(PARLIAMENTS))
