@@ -70,8 +70,8 @@ foreach my $outLang (@outLangs) {
 	    " out-lang=$outLang" .
 	    " -xsl:$scriptMeta {} > $outDir/{/.}$outSuffix";
 	`cat $fileFile | $Para '$command'`;
-        # We produce .ana metadata only for .ana corpus and in English 
-        if ($inRoot =~ /\.ana/ and $outLang eq 'en') {
+        # We produce .ana metadata only for .ana corpus
+        if ($inRoot =~ /\.ana/) {
             $command = "$Saxon" .
                 " meta=$inRoot" .
                 " out-lang=$outLang" .

@@ -340,7 +340,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
         my $outTeiSmpRoot = File::Spec->catfile($outSmpDir, (File::Spec->splitpath($outTeiRoot))[2]);
 	    #Make derived files
 	    `$scriptTexts -jobs $procThreads -in $outSmpDir -out $outSmpDir`;
-        &dirify($outSmpDir);
+            &dirify($outSmpDir);
 	    `$scriptMetas -jobs $procThreads -inRoot $outTeiSmpRoot -out $outSmpDir`;
 	}
 	else {print STDERR "WARN: No TEI files for $countryCode samples (needed root file is $outTeiRoot)\n"}
