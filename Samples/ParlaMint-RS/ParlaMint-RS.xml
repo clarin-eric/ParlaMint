@@ -67,7 +67,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2025-05-31">2025-05-31</date>
+            <date when="2025-06-22">2025-06-22</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -80,8 +80,10 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
-            <p xml:lang="sr"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="sr">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
          </projectDesc>
          <editorialDecl>
@@ -117,12 +119,18 @@
             </namespace>
          </tagsDecl>
          <classDecl>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-parla.legislature.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-speaker_types.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-subcorpus.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-CHES.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-politicalOrientation.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-topic.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-CHES.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-politicalOrientation.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-topic.xml"/>
          </classDecl>
          <listPrefixDef>
             <prefixDef ident="topic" matchPattern="(.+)" replacementPattern="#$1">
@@ -144,7 +152,8 @@
          </textClass>
          <particDesc>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-RS-listOrg.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-RS-listPerson.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-RS-listPerson.xml"/>
          </particDesc>
          <langUsage>
             <language ident="sr" xml:lang="sr">srpski</language>
@@ -154,20 +163,22 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2025-05-31">
+         <change when="2025-06-22">
             <name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2025-05-31">parlamint2release script: Fix some identifiable erros for the release.</change>
-         <change when="2025-05-28">
+         <change when="2025-06-22">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2025-06-16">
             <name>Tomaž Erjavec</name>: Include topic related information.</change>
          <change when="2024-05-15">parlamint2release script: Fix some identifiable erros for the release.</change>
          <change when="2022-11-09">
             <name>Peter Rupnik</name>Initial commit</change>
          <change when="2024-05-15">parlamint-add-common-content script: Adding common content.</change>
-         <change when="2025-05-31">parlamint-add-common-content script: Adding common content.</change>
+         <change when="2025-06-22">parlamint-add-common-content script: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-RS_2008-07-18-0.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-RS_2014-11-04-0.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-RS_2022-02-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="2008/ParlaMint-RS_2008-07-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="2014/ParlaMint-RS_2014-11-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="2022/ParlaMint-RS_2022-02-14-0.xml"/>
 </teiCorpus>
-

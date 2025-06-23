@@ -1,17 +1,17 @@
 <note type="editorial" content="De behandeling van de vragen vangt aan om 10.14 uur. De vergadering wordt voorgezeten door Peter Buysrogge."/>
 <note type="editorial" content="Le développement des questions commence à 10 h 14. La réunion est présidée par M. Peter Buysrogge."/>
 <note type="editorial" content="01 Actualiteitsdebat over de M-fregatten en toegevoegde vragen van"/>
-<note type="editorial" content="- Annick Ponthier aan Philippe Goffin (Buitenlandse Zaken en Defensie) over \\"De bouw van de nieuwe M-fregatten\\" (55006314C)"/>
-<note type="editorial" content="- Sammy Mahdi aan Philippe Goffin (Buitenlandse Zaken en Defensie) over \\"De vertraging in de levering van de nieuwe M-fregatten\\" (55006500C)"/>
-<note type="editorial" content="- Wouter De Vriendt aan Philippe Goffin (Buitenlandse Zaken en Defensie) over \\"De levering van de M-Fregatten\\" (55006604C)"/>
-<note type="editorial" content="- Peter Buysrogge aan Philippe Goffin (Buitenlandse Zaken en Defensie) over \\"De vertraging in de ontwikkeling van de nieuwe fregatten\\" (55006700C)"/>
-<note type="editorial" content="- Melissa Depraetere aan Philippe Goffin (Buitenlandse Zaken en Defensie) over \\"De bouw van de nieuwe M-fregatten\\" (55006711C)"/>
+<note type="editorial" content="- Annick Ponthier aan Philippe Goffin (Buitenlandse Zaken en Defensie) over \"De bouw van de nieuwe M-fregatten\" (55006314C)"/>
+<note type="editorial" content="- Sammy Mahdi aan Philippe Goffin (Buitenlandse Zaken en Defensie) over \"De vertraging in de levering van de nieuwe M-fregatten\" (55006500C)"/>
+<note type="editorial" content="- Wouter De Vriendt aan Philippe Goffin (Buitenlandse Zaken en Defensie) over \"De levering van de M-Fregatten\" (55006604C)"/>
+<note type="editorial" content="- Peter Buysrogge aan Philippe Goffin (Buitenlandse Zaken en Defensie) over \"De vertraging in de ontwikkeling van de nieuwe fregatten\" (55006700C)"/>
+<note type="editorial" content="- Melissa Depraetere aan Philippe Goffin (Buitenlandse Zaken en Defensie) over \"De bouw van de nieuwe M-fregatten\" (55006711C)"/>
 <note type="editorial" content="01 Débat d'actualité sur les frégates M et questions jointes de"/>
-<note type="editorial" content="- Annick Ponthier à Philippe Goffin (Affaires étrangères et Défense) sur \\"La construction des nouvelles frégates M\\" (55006314C)"/>
-<note type="editorial" content="- Sammy Mahdi à Philippe Goffin (Affaires étrangères et Défense) sur \\"Le retard dans la livraison des nouvelles frégates M\\" (55006500C)"/>
-<note type="editorial" content="- Wouter De Vriendt à Philippe Goffin (Affaires étrangères et Défense) sur \\"La livraison des frégates M\\" (55006604C)"/>
-<note type="editorial" content="- Peter Buysrogge à Philippe Goffin (Affaires étrangères et Défense) sur \\"Le retard dans le développement des nouvelles frégates\\" (55006700C)"/>
-<note type="editorial" content="- Melissa Depraetere à Philippe Goffin (Affaires étrangères et Défense) sur \\"La construction des nouvelles frégates M\\" (55006711C)"/>
+<note type="editorial" content="- Annick Ponthier à Philippe Goffin (Affaires étrangères et Défense) sur \"La construction des nouvelles frégates M\" (55006314C)"/>
+<note type="editorial" content="- Sammy Mahdi à Philippe Goffin (Affaires étrangères et Défense) sur \"Le retard dans la livraison des nouvelles frégates M\" (55006500C)"/>
+<note type="editorial" content="- Wouter De Vriendt à Philippe Goffin (Affaires étrangères et Défense) sur \"La livraison des frégates M\" (55006604C)"/>
+<note type="editorial" content="- Peter Buysrogge à Philippe Goffin (Affaires étrangères et Défense) sur \"Le retard dans le développement des nouvelles frégates\" (55006700C)"/>
+<note type="editorial" content="- Melissa Depraetere à Philippe Goffin (Affaires étrangères et Défense) sur \"La construction des nouvelles frégates M\" (55006711C)"/>
 <note type="speaker" content="01.01 Annick Ponthier (VB):"/>
 <speech id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u1" text_id="ParlaMint-BE_2020-06-17-55-commissie-ic210x" subcorpus="COVID" lang="Nederlands" body="Commissie" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2020-06-17" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 17-06-2020" speaker_role="Vast" topic="Defensie" speaker_id="PonthierAnnick" speaker_name="Ponthier, Annick" speaker_mp="MP" speaker_minister="notMinister" speaker_party="VB" speaker_party_name="Vlaams Belang" party_status="Opposition" party_orientation="rechts tot extreemrechts" speaker_gender="F" speaker_birth="1971">
 <p id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg1" lang="Nederlands">

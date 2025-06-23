@@ -24,8 +24,8 @@ reportées	reportées	reporter	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=P
 </s>
 </p>
 </speech>
-<note type="editorial" content="01 Question de Roberto D'Amico à Mathieu Michel (Digitalisation, Simplification administrative, Protection de la vie privée et Régie des Bâtiments, des Instit. Culturelles) sur \\"Le rapport de l’Irish Council for Civil Liberties\\" (55028141C)"/>
-<note type="editorial" content="01 Vraag van Roberto D'Amico aan Mathieu Michel (Digitalisering, Administratieve Vereenvoudiging, Privacy en Regie der Gebouwen, de Culturele Instel.) over \\"Het rapport van de Irish Council for Civil Liberties\\" (55028141C)"/>
+<note type="editorial" content="01 Question de Roberto D'Amico à Mathieu Michel (Digitalisation, Simplification administrative, Protection de la vie privée et Régie des Bâtiments, des Instit. Culturelles) sur \"Le rapport de l’Irish Council for Civil Liberties\" (55028141C)"/>
+<note type="editorial" content="01 Vraag van Roberto D'Amico aan Mathieu Michel (Digitalisering, Administratieve Vereenvoudiging, Privacy en Regie der Gebouwen, de Culturele Instel.) over \"Het rapport van de Irish Council for Civil Liberties\" (55028141C)"/>
 <note type="speaker" content="01.01 Roberto D'Amico (PVDA-PTB):"/>
 <speech id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u2" text_id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x" subcorpus="COVID,Oorlog" lang="Frans" body="Commissie" term="Zittingperiode 55" session="-" meeting="-" sitting="-" agenda="-" date="2022-07-13" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 13-07-2022" speaker_role="Vast" topic="Burgerrechten" speaker_id="DAmicoRoberto" speaker_name="D'Amico, Roberto" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PTB" speaker_party_name="Parti du Travail de Belgique" party_status="-" party_orientation="links tot extreemlinks" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg2" lang="Frans">
