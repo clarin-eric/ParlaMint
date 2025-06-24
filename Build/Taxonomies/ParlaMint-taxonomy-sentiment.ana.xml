@@ -10,6 +10,7 @@
    <desc n="ParlaMint-ES-GA" xml:lang="es"><term>Sentimiento</term>: Etiquetas de sentimiento de 3 y 6 clases según el<ref target="http://hdl.handle.net/11356/1868">Conjunto de datos multilingües para análisis de sentimiento en debates ParlaSent 1.0</ref> ; los valores indicados en las descripciones de las categorías son los devueltos por el <ref target="https://huggingface.co/classla/xlm-r-parlasent">clasificador ParlaSent</ref> entrenado sobre ParlaSent 1.0.</desc>
    <desc n="ParlaMint-FI" xml:lang="fi"><term>Sentimentti</term>: 3- ja 6-luokkaiset sentimenttinimikkeet <ref target="http://hdl.handle.net/11356/1868">monikielisen parlamenttikeskustelujen sentimenttiaineisto ParlaSent 1.0:n</ref> mukaan; kategorioiden kuvauksissa annetut arvot on annettu siinä muodossa kuin ParlaSent 1.0 -aineistolla koulutettu <ref target="https://huggingface.co/classla/xlm-r-parlasent">ParlaSent-luokitin</ref> ne palauttaa.</desc>
    <desc n="ParlaMint-ES-GA" xml:lang="gl"><term>Sentimento</term>: Etiquetas de sentimento de 3 e 6 clases segundo o <ref target="http://hdl.handle.net/11356/1868">Conxunto de datos multilingües para análise de sentimento en debates parlamentarios ParlaSent 1.0</ref>; os valores indicados nas descricións das categorías son os devoltos polo <ref target="https://huggingface.co/classla/xlm-r-parlasent">clasificador ParlaSent</ref> adestrado sobre ParlaSent 1.0.</desc>
+   <!--Corpus ParlaMint-HR is missing hr translation of Sentiment-->
    <desc n="ParlaMint-IS" xml:lang="is"><term>Lyndi</term>: Þriggja og sex flokka lyndismörk sem fylgja <ref target="http://hdl.handle.net/11356/1868">Multilingual sentiment dataset of parliamentary debates ParlaSent 1.0</ref>; þau gildi sem eru uppgefin hér að neðan eru þau sem <ref target="https://huggingface.co/classla/xlm-r-parlasent">ParlaSent classifier</ref> skilar en hann er þjálfaður á ParlaSent 1.0.</desc>
    <desc n="ParlaMint-IT" xml:lang="it"><term>Sentiment</term>: etichette di sentiment a 3 e 6 classi secondo il <ref target="http://hdl.handle.net/11356/1868">Dataset multilingue del sentiment nei dibattiti parlamentari ParlaSent 1.0</ref>; i valori forniti nelle descrizioni delle categorie sono quelli restituiti dal <ref target="https://huggingface.co/classla/xlm-r-parlasent">classificatore ParlaSent</ref> addestrato su ParlaSent 1.0.</desc>
    <desc n="ParlaMint-NL" xml:lang="nl"><term>Sentiment</term>: 3 en 6 klasse sentiment labels volgens <ref target="http://hdl.handle.net/11356/1868">meertalige sentiment dataset van parlementaire debatten ParlaSent 1.0</ref>. De waardes zoals gegeven in de categorie omschrijving zijn zoals gegeven door de <ref target="https://huggingface.co/classla/xlm-r-parlasent">ParlaSent classifier</ref> Getreined op ParlaSent 1.0.</desc>
@@ -28,6 +29,7 @@
       <catDesc n="ParlaMint-ES-GA" xml:lang="es"><term>Negativo</term>: value &lt; 1.5</catDesc>
       <catDesc n="ParlaMint-FI" xml:lang="fi"><term>Negatiivinen</term>: arvo &lt; 1.5</catDesc>
       <catDesc n="ParlaMint-ES-GA" xml:lang="gl"><term>Negativo</term>: valor &lt; 1.5</catDesc>
+      <catDesc n="ParlaMint-HR" xml:lang="hr"><term>Negativan</term>: vrijednost &lt; 1.5</catDesc>
       <catDesc n="ParlaMint-IS" xml:lang="is"><term>Neikvæðni</term>: gildi &lt; 1.5</catDesc>
       <catDesc n="ParlaMint-IT" xml:lang="it"><term>Negativo</term>: valore &lt; 1.5</catDesc>
       <catDesc n="ParlaMint-NL" xml:lang="nl"><term>Negatief</term>: waarde &lt; 1.5</catDesc>
@@ -46,6 +48,7 @@
          <catDesc n="ParlaMint-ES-GA" xml:lang="es"><term>negativo</term>: value &lt; 0.5</catDesc>
          <catDesc n="ParlaMint-FI" xml:lang="fi"><term>negatiivinen</term>: arvo &lt; 0.5</catDesc>
          <catDesc n="ParlaMint-ES-GA" xml:lang="gl"><term>negativo</term>: valor &lt; 0.5</catDesc>
+         <catDesc n="ParlaMint-HR" xml:lang="hr"><term>negativan</term>: vrijednost &lt; 0.5</catDesc>
          <catDesc n="ParlaMint-IS" xml:lang="is"><term>neikvæðini</term>: gildi &lt; 0.5</catDesc>
          <catDesc n="ParlaMint-IT" xml:lang="it"><term>negativo</term>: valore &lt; 0.5</catDesc>
          <catDesc n="ParlaMint-NL" xml:lang="nl"><term>negatief</term>: waarde &lt; 0.5</catDesc>
@@ -65,6 +68,7 @@
          <catDesc n="ParlaMint-ES-GA" xml:lang="es"><term>negativo mixto</term>: interval [0.5, 1.5)</catDesc>
          <catDesc n="ParlaMint-FI" xml:lang="fi"><term>sekamuotoinen negatiivinen</term>: väli [0.5, 1.5)</catDesc>
          <catDesc n="ParlaMint-ES-GA" xml:lang="gl"><term>negativo mixto</term>: intervalo [0.5, 1.5)</catDesc>
+         <catDesc n="ParlaMint-HR" xml:lang="hr"><term>miješan negativan</term>: interval [0.5, 1.5)</catDesc>
          <catDesc n="ParlaMint-IS" xml:lang="is"><term>blönduð neikvæðni</term>: millibil [0.5, 1.5)</catDesc>
          <catDesc n="ParlaMint-IT" xml:lang="it"><term>moderatamente negativo</term>: intervallo [0.5, 1.5)</catDesc>
          <catDesc n="ParlaMint-NL" xml:lang="nl"><term>gemengd negatief</term>: interval [0.5, 1.5)</catDesc>
@@ -85,6 +89,7 @@
       <catDesc n="ParlaMint-ES-GA" xml:lang="es"><term>Neutro</term>: interval [1.5, 3.5)</catDesc>
       <catDesc n="ParlaMint-FI" xml:lang="fi"><term>Neutraali</term>: väli [1.5, 3.5)</catDesc>
       <catDesc n="ParlaMint-ES-GA" xml:lang="gl"><term>Neutro</term>: intervalo [1.5, 3.5)</catDesc>
+      <catDesc n="ParlaMint-HR" xml:lang="hr"><term>Neutralan</term>: interval [1.5, 3.5)</catDesc>
       <catDesc n="ParlaMint-IS" xml:lang="is"><term>Hlutleysi</term>: millibil [1.5, 3.5)</catDesc>
       <catDesc n="ParlaMint-IT" xml:lang="it"><term>Neutrale</term>: intervallo [1.5, 3.5)</catDesc>
       <catDesc n="ParlaMint-NL" xml:lang="nl"><term>Neutraal</term>: interval [1.5, 3.5)</catDesc>
@@ -103,6 +108,7 @@
          <catDesc n="ParlaMint-ES-GA" xml:lang="es"><term>neutro negativo</term>: interval [1.5, 2.5)</catDesc>
          <catDesc n="ParlaMint-FI" xml:lang="fi"><term>neutraali negatiivinen</term>: väli [1.5, 2.5)</catDesc>
          <catDesc n="ParlaMint-ES-GA" xml:lang="gl"><term>neutro negativo</term>: intervalo [1.5, 2.5)</catDesc>
+         <catDesc n="ParlaMint-HR" xml:lang="hr"><term>neutralan negativan</term>: interval [1.5, 2.5)</catDesc>
          <catDesc n="ParlaMint-IS" xml:lang="is"><term>neikvætt hlutleysi</term>: millibil [1.5, 2.5)</catDesc>
          <catDesc n="ParlaMint-IT" xml:lang="it"><term>neutrale negativo</term>: intervallo [1.5, 2.5)</catDesc>
          <catDesc n="ParlaMint-NL" xml:lang="nl"><term>neutraal-negatief</term>: interval [1.5, 2.5)</catDesc>
@@ -122,6 +128,7 @@
          <catDesc n="ParlaMint-ES-GA" xml:lang="es"><term>neutro positivo</term>: interval [2.5, 3.5)</catDesc>
          <catDesc n="ParlaMint-FI" xml:lang="fi"><term>neutraali positiivinen</term>: väli [2.5, 3.5)</catDesc>
          <catDesc n="ParlaMint-ES-GA" xml:lang="gl"><term>neutro positivo</term>: intervalo [2.5, 3.5)</catDesc>
+         <catDesc n="ParlaMint-HR" xml:lang="hr"><term>neutralan pozitivan</term>: interval [2.5, 3.5)</catDesc>
          <catDesc n="ParlaMint-IS" xml:lang="is"><term>jákvætt hlutleysi</term>: millibil [2.5, 3.5)</catDesc>
          <catDesc n="ParlaMint-IT" xml:lang="it"><term>neutrale positivo</term>: intervallo [2.5, 3.5)</catDesc>
          <catDesc n="ParlaMint-NL" xml:lang="nl"><term>neutraal-positief</term>: interval [2.5, 3.5)</catDesc>
@@ -142,6 +149,7 @@
       <catDesc n="ParlaMint-ES-GA" xml:lang="es"><term>Positivo</term>: value &gt;= 3.5</catDesc>
       <catDesc n="ParlaMint-FI" xml:lang="fi"><term>Positiivinen</term>: arvo &gt;= 3.5</catDesc>
       <catDesc n="ParlaMint-ES-GA" xml:lang="gl"><term>Positivo</term>: valor &gt;= 3.5</catDesc>
+      <catDesc n="ParlaMint-HR" xml:lang="hr"><term>Pozitivan</term>: vrijednost &gt;= 3.5</catDesc>
       <catDesc n="ParlaMint-IS" xml:lang="is"><term>Jákvæðni</term>: gildi &gt;= 3.5</catDesc>
       <catDesc n="ParlaMint-IT" xml:lang="it"><term>Positivo</term>: valore &gt;= 3.5</catDesc>
       <catDesc n="ParlaMint-NL" xml:lang="nl"><term>Positief</term>: waarde &gt;= 3.5</catDesc>
@@ -160,6 +168,7 @@
          <catDesc n="ParlaMint-ES-GA" xml:lang="es"><term>positivo mixto</term>: interval [3.5, 4.5)</catDesc>
          <catDesc n="ParlaMint-FI" xml:lang="fi"><term>sekamuotoinen positiivinen</term>: väli [3.5, 4.5)</catDesc>
          <catDesc n="ParlaMint-ES-GA" xml:lang="gl"><term>positivo mixto</term>: intervalo [3.5, 4.5)</catDesc>
+         <catDesc n="ParlaMint-HR" xml:lang="hr"><term>miješan pozitivan</term>: interval [3.5, 4.5)</catDesc>
          <catDesc n="ParlaMint-IS" xml:lang="is"><term>blönduð jákvæðni</term>: millibil [3.5, 4.5)</catDesc>
          <catDesc n="ParlaMint-IT" xml:lang="it"><term>moderatamente positivo</term>: intervallo [3.5, 4.5)</catDesc>
          <catDesc n="ParlaMint-NL" xml:lang="nl"><term>gemend-positief</term>: interval [3.5, 4.5)</catDesc>
@@ -179,6 +188,7 @@
          <catDesc n="ParlaMint-ES-GA" xml:lang="es"><term>positivo</term>: value &gt;= 4.5</catDesc>
          <catDesc n="ParlaMint-FI" xml:lang="fi"><term>positiivinen</term>: arvo &gt;= 4.5</catDesc>
          <catDesc n="ParlaMint-ES-GA" xml:lang="gl"><term>positivo</term>: valor &gt;= 4.5</catDesc>
+         <catDesc n="ParlaMint-HR" xml:lang="hr"><term>pozitivan</term>: vrijednost &gt;= 4.5</catDesc>
          <catDesc n="ParlaMint-IS" xml:lang="is"><term>jákvæðni</term>: gildi &gt;= 4.5</catDesc>
          <catDesc n="ParlaMint-IT" xml:lang="it"><term>positivo</term>: valore &gt;= 4.5</catDesc>
          <catDesc n="ParlaMint-NL" xml:lang="nl"><term>positief</term>: waarde &gt;= 4.5</catDesc>
