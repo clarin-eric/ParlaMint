@@ -2,6 +2,7 @@
 <taxonomy xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-taxonomy-sentiment.ana" xml:lang="mul">
    <desc xml:lang="en"><term>Sentiment</term>: 3 and 6 class sentiment labels following the <ref target="http://hdl.handle.net/11356/1868">Multilingual sentiment dataset of parliamentary debates ParlaSent 1.0</ref>; the values given in the category descriptions are as returned by the <ref target="https://huggingface.co/classla/xlm-r-parlasent">ParlaSent classifier</ref> trained on ParlaSent 1.0.</desc>
    <desc n="ParlaMint-BG" xml:lang="bg"><term>Сентимент</term>: 3 и 6 класа названия на сентимент, които следват <ref target="http://hdl.handle.net/11356/1868">Многоезиковия сентимент корпус от парламентарни дебати ПарлаСент 1.0</ref> стойностите, които са дадени в описанията на категориите, се връщат от <ref target="https://huggingface.co/classla/xlm-r-parlasent">класификатора на ПарлаСент</ref>, трениран на ПарлаСент 1.0</desc>
+   <!--Corpus ParlaMint-BA is missing bs translation of Sentiment-->
    <desc n="ParlaMint-ES-CT" xml:lang="ca"><term>Sentiment</term>: 3 i 6 etiquetes de sentiment seguint <ref target="http://hdl.handle.net/11356/1868">Joc de dades multilingües de sentiment dels debats parlamentaris ParlaSent 1.0</ref>;	els valors de les descripcions de les categories són les que proporciona <ref target="https://huggingface.co/classla/xlm-r-parlasent">Classificador ParlaSent</ref> entrenat amb ParlaSent 1.0.</desc>
    <desc n="ParlaMint-CZ" xml:lang="cs"><term>Sentiment</term>: 3 a 6 kategorijní sentiment, podle <ref target="http://hdl.handle.net/11356/1868">Multilingual sentiment dataset of parliamentary debates ParlaSent 1.0</ref>; hodnoty dány pv popisech kategorií jsou výstupem <ref target="https://huggingface.co/classla/xlm-r-parlasent">ParlaSent classifier</ref> trénovaným na ParlaSent 1.0.</desc>
    <desc n="ParlaMint-AT" xml:lang="de"><term>Stimmung</term>: 3 und 6 teilige Stimmungsannotationen basierende auf dem <ref target="http://hdl.handle.net/11356/1868">mehrsprachigen Stimmungsdatenset von Parlemantesdebatten ParlaSent 1.0 folgen</ref>; die Werte in den Kategoriebeschreibungen sind die deutsche Übersetzung der Werte, die das Tool <ref target="https://huggingface.co/classla/xlm-r-parlasent">ParlaSent classifier</ref>, trainiert auf den ParlaSent 1.0 Daten ausgibt</desc>
@@ -19,6 +20,7 @@
    <category xml:id="Neg">
       <catDesc xml:lang="en"><term>Negative</term>: value &lt; 1.5</catDesc>
       <catDesc n="ParlaMint-BG" xml:lang="bg"><term>Негативно</term>: стойност &lt; 1.5</catDesc>
+      <catDesc n="ParlaMint-BA" xml:lang="bs"><term>Negativan</term>: vrijednost &lt; 1.5</catDesc>
       <catDesc n="ParlaMint-ES-CT" xml:lang="ca"><term>Negatiu</term>: valor &lt; 1.5</catDesc>
       <catDesc n="ParlaMint-CZ" xml:lang="cs"><term>Negativní</term>: hodnota &lt; 1,5</catDesc>
       <catDesc n="ParlaMint-AT" xml:lang="de"><term>Negativ</term>: value &lt; 1.5</catDesc>
@@ -36,6 +38,7 @@
       <category xml:id="negneg">
          <catDesc xml:lang="en"><term>negative</term>: value &lt; 0.5</catDesc>
          <catDesc n="ParlaMint-BG" xml:lang="bg"><term>негативно</term>: стойност &lt; 0.5</catDesc>
+         <catDesc n="ParlaMint-BA" xml:lang="bs"><term>negativan</term>: vrijednost &lt; 0.5</catDesc>
          <catDesc n="ParlaMint-ES-CT" xml:lang="ca"><term>negatiu</term>: valor &lt; 0.5</catDesc>
          <catDesc n="ParlaMint-CZ" xml:lang="cs"><term>negativní</term>: hodnota &lt; 0,5</catDesc>
          <catDesc n="ParlaMint-AT" xml:lang="de"><term>negativ</term>: value &lt; 1.5</catDesc>
@@ -54,6 +57,7 @@
       <category xml:id="mixneg">
          <catDesc xml:lang="en"><term>mixed negative</term>: interval [0.5, 1.5)</catDesc>
          <catDesc n="ParlaMint-BG" xml:lang="bg"><term>смесено негативно</term>: интервал [0.5, 1.5)</catDesc>
+         <catDesc n="ParlaMint-BA" xml:lang="bs"><term>miješan negativan</term>: interval [0.5, 1.5)</catDesc>
          <catDesc n="ParlaMint-ES-CT" xml:lang="ca"><term>negatiu mixt</term>: interval [0.5, 1.5)</catDesc>
          <catDesc n="ParlaMint-CZ" xml:lang="cs"><term>smíšeně negativní</term>: interval [0,5; 1,5)</catDesc>
          <catDesc n="ParlaMint-AT" xml:lang="de"><term>gemischt negativ</term>: interval [0.5, 1.5)</catDesc>
@@ -73,6 +77,7 @@
    <category xml:id="Neu">
       <catDesc xml:lang="en"><term>Neutral</term>: interval [1.5, 3.5)</catDesc>
       <catDesc n="ParlaMint-BG" xml:lang="bg"><term>Неутрално</term>: интервал [1.5, 3.5)</catDesc>
+      <!--Corpus ParlaMint-BA is missing bs translation of Neutral-->
       <catDesc n="ParlaMint-ES-CT" xml:lang="ca"><term>Neutre</term>: interval [1.5, 3.5)</catDesc>
       <catDesc n="ParlaMint-CZ" xml:lang="cs"><term>Neutrální</term>: interval [1,5; 3,5)</catDesc>
       <catDesc n="ParlaMint-AT" xml:lang="de"><term>Neutral</term>: interval [1.5, 3.5)</catDesc>
@@ -90,6 +95,7 @@
       <category xml:id="neuneg">
          <catDesc xml:lang="en"><term>neutral negative</term>: interval [1.5, 2.5)</catDesc>
          <catDesc n="ParlaMint-BG" xml:lang="bg"><term>неутрално негативно</term>: интервал [1.5, 2.5)</catDesc>
+         <catDesc n="ParlaMint-BA" xml:lang="bs"><term>neutralan negativan</term>: interval [1.5, 2.5)</catDesc>
          <catDesc n="ParlaMint-ES-CT" xml:lang="ca"><term>negatiu neutre</term>: interval [1.5, 2.5)</catDesc>
          <catDesc n="ParlaMint-CZ" xml:lang="cs"><term>neutrálně negativní</term>: interval [1,5; 2,5)</catDesc>
          <catDesc n="ParlaMint-AT" xml:lang="de"><term>neutral negativ</term>: interval [1.5, 2.5)</catDesc>
@@ -108,6 +114,7 @@
       <category xml:id="neupos">
          <catDesc xml:lang="en"><term>neutral positive</term>: interval [2.5, 3.5)</catDesc>
          <catDesc n="ParlaMint-BG" xml:lang="bg"><term>неутрално позитивно</term>: интервал [2.5, 3.5)</catDesc>
+         <catDesc n="ParlaMint-BA" xml:lang="bs"><term>neutralan pozitivan</term>: interval [2.5, 3.5)</catDesc>
          <catDesc n="ParlaMint-ES-CT" xml:lang="ca"><term>positiu neutre</term>: interval [2.5, 3.5)</catDesc>
          <catDesc n="ParlaMint-CZ" xml:lang="cs"><term>neutrálně pozitivní</term>: interval [2,5; 3,5)</catDesc>
          <catDesc n="ParlaMint-AT" xml:lang="de"><term>neutral positiv</term>: interval [2.5, 3.5)</catDesc>
@@ -127,6 +134,7 @@
    <category xml:id="Pos">
       <catDesc xml:lang="en"><term>Positive</term>: value &gt;= 3.5</catDesc>
       <catDesc n="ParlaMint-BG" xml:lang="bg"><term>Позитивно</term>: стойност &gt;= 3.5</catDesc>
+      <!--Corpus ParlaMint-BA is missing bs translation of Positive-->
       <catDesc n="ParlaMint-ES-CT" xml:lang="ca"><term>Positiu</term>: valor &gt;= 3.5</catDesc>
       <catDesc n="ParlaMint-CZ" xml:lang="cs"><term>Pozitivní</term>: hodnota &gt;= 3,5</catDesc>
       <catDesc n="ParlaMint-AT" xml:lang="de"><term>Positiv</term>: value &gt;= 3.5</catDesc>
@@ -144,6 +152,7 @@
       <category xml:id="mixpos">
          <catDesc xml:lang="en"><term>mixed positive</term>: interval [3.5, 4.5)</catDesc>
          <catDesc n="ParlaMint-BG" xml:lang="bg"><term>смесено позитивно</term>: интервал [3.5, 4.5)</catDesc>
+         <catDesc n="ParlaMint-BA" xml:lang="bs"><term>miješan pozitivan</term>: interval [3.5, 4.5)</catDesc>
          <catDesc n="ParlaMint-ES-CT" xml:lang="ca"><term>positiu mixt</term>: interval [3.5, 4.5)</catDesc>
          <catDesc n="ParlaMint-CZ" xml:lang="cs"><term>smíšeně pozitivní</term>: interval [3,5; 4,5)</catDesc>
          <catDesc n="ParlaMint-AT" xml:lang="de"><term>gemischt positiv</term>: interval [3.5, 4.5)</catDesc>
@@ -162,6 +171,7 @@
       <category xml:id="pospos">
          <catDesc xml:lang="en"><term>positive</term>: value &gt;= 4.5</catDesc>
          <catDesc n="ParlaMint-BG" xml:lang="bg"><term>позитивно</term>: стойност &gt;= 4.5</catDesc>
+         <catDesc n="ParlaMint-BA" xml:lang="bs"><term>pozitivan</term>: vrijednost &gt;= 4.5</catDesc>
          <catDesc n="ParlaMint-ES-CT" xml:lang="ca"><term>positiu</term>: valor &gt;= 4.5</catDesc>
          <catDesc n="ParlaMint-CZ" xml:lang="cs"><term>pozitivní</term>: hodnota &gt;= 4,5</catDesc>
          <catDesc n="ParlaMint-AT" xml:lang="de"><term>positiv</term>: value &gt;= 4.5</catDesc>
