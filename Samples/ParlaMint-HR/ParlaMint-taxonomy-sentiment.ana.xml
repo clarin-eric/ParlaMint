@@ -2,30 +2,30 @@
 <taxonomy xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-taxonomy-sentiment.ana" xml:lang="mul">
    <desc xml:lang="en"><term>Sentiment</term>: 3 and 6 class sentiment labels following the <ref target="http://hdl.handle.net/11356/1868">Multilingual sentiment dataset of parliamentary debates ParlaSent 1.0</ref>; the values given in the category descriptions are as returned by the <ref target="https://huggingface.co/classla/xlm-r-parlasent">ParlaSent classifier</ref> trained on ParlaSent 1.0.</desc>
    <category xml:id="Neg">
-      <catDesc xml:lang="en"><term>Negativan</term>: vrijednost &lt; 1.5</catDesc>
+      <catDesc xml:lang="hr"><term>Negativan</term>: vrijednost &lt; 1.5</catDesc>
       <category xml:id="negneg">
-         <catDesc xml:lang="en"><term>negativan</term>: vrijednost &lt; 0.5</catDesc>
+         <catDesc xml:lang="hr"><term>negativan</term>: vrijednost &lt; 0.5</catDesc>
       </category>
       <category xml:id="mixneg">
-         <catDesc xml:lang="en"><term>miješan negativan</term>: interval [0.5, 1.5)</catDesc>
+         <catDesc xml:lang="hr"><term>miješan negativan</term>: interval [0.5, 1.5)</catDesc>
       </category>
    </category>
    <category xml:id="Neu">
-      <catDesc xml:lang="en"><term>Neutralan</term>: interval [1.5, 3.5)</catDesc>
+      <catDesc xml:lang="hr"><term>Neutralan</term>: interval [1.5, 3.5)</catDesc>
       <category xml:id="neuneg">
-         <catDesc xml:lang="en"><term>neutralan negativan</term>: interval [1.5, 2.5)</catDesc>
+         <catDesc xml:lang="hr"><term>neutralan negativan</term>: interval [1.5, 2.5)</catDesc>
       </category>
       <category xml:id="neupos">
-         <catDesc xml:lang="en"><term>neutralan pozitivan</term>: interval [2.5, 3.5)</catDesc>
+         <catDesc xml:lang="hr"><term>neutralan pozitivan</term>: interval [2.5, 3.5)</catDesc>
       </category>
    </category>
    <category xml:id="Pos">
-      <catDesc xml:lang="en"><term>Pozitivan</term>: vrijednost &gt;= 3.5</catDesc>
+      <catDesc xml:lang="hr"><term>Pozitivan</term>: vrijednost &gt;= 3.5</catDesc>
       <category xml:id="mixpos">
-         <catDesc xml:lang="en"><term>miješan pozitivan</term>: interval [3.5, 4.5)</catDesc>
+         <catDesc xml:lang="hr"><term>miješan pozitivan</term>: interval [3.5, 4.5)</catDesc>
       </category>
       <category xml:id="pospos">
-         <catDesc xml:lang="en"><term>pozitivan</term>: vrijednost &gt;= 4.5</catDesc>
+         <catDesc xml:lang="hr"><term>pozitivan</term>: vrijednost &gt;= 4.5</catDesc>
       </category>
    </category>
 </taxonomy>
