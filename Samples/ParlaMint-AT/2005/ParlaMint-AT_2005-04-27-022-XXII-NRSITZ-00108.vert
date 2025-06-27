@@ -2,13 +2,13 @@
 <note type="time" content="Beginn der Sitzung:18:28Uhr"/>
 <note type="chairpersons" content="Zweite Präsidentin Mag. Barbara Prammer"/>
 <note type="speaker" content="Präsidentin Mag. Barbara Prammer"/>
-<speech id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d7e383" text_id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108" subcorpus="Reference" lang="Deutsch" body="Nationalrat" term="XXII. Gesetzgebungsperiode" session="-" meeting="-" sitting="108. Sitzung" agenda="-" date="2005-04-27" title="108. Sitzung des Nationalrates der Republik Österreich, XXII. Gesetzgebungsperiode, Mittwoch, 27. April 2005" speaker_role="PräsidentIn" topic="Other" speaker_id="PAD_04476" speaker_name="Prammer, Barbara" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SPÖ" speaker_party_name="Die Sozialdemokratische Parlamentsfraktion - Klub der sozialdemokratischen Abgeordneten zum Nationalrat, Bundesrat und Europäischen Parlament" party_status="Opposition" party_orientation="Mitte-links" speaker_gender="F" speaker_birth="1954">
+<speech id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d7e383" text_id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108" subcorpus="Reference" lang="Deutsch" body="Nationalrat" term="XXII. Gesetzgebungsperiode" session="-" meeting="-" sitting="108. Sitzung" agenda="-" date="2005-04-27" title="108. Sitzung des Nationalrates der Republik Österreich, XXII. Gesetzgebungsperiode, Mittwoch, 27. April 2005" speaker_role="PräsidentIn" topic="Anderes" speaker_id="PAD_04476" speaker_name="Prammer, Barbara" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SPÖ" speaker_party_name="Die Sozialdemokratische Parlamentsfraktion - Klub der sozialdemokratischen Abgeordneten zum Nationalrat, Bundesrat und Europäischen Parlament" party_status="Opposition" party_orientation="Mitte-links" speaker_gender="F" speaker_birth="1954">
 <p id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e192" lang="Deutsch">
-<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e192.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.242">
+<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e192.s1" senti_3="Neutral" senti_6="neutral positiv" senti_n="3.242">
 Die	Die	Die	DET	Case=Nom Gender=Fem Number=Sing PronType=Art	w1	det	108.	ADJ	Person=3	w2
 108.	108.	108.	ADJ	Person=3	w2	root	-	-	-	-
 </s>
-<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e192.s2" senti_3="Positive" senti_6="mixed positive" senti_n="3.553">
+<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e192.s2" senti_3="Positiv" senti_6="gemischt positiv" senti_n="3.553">
 Sitzung	Sitzung	Sitzung	NOUN	Gender=Fem Number=Sing Person=3	w1	nsubj:pass	eröffnen	VERB	Aspect=Perf VerbForm=Part	w5
 des	des	des	DET	Case=Gen Gender=Masc Number=Sing PronType=Art	w2	det	Rat	NOUN	Case=Gen Gender=Masc Number=Sing Person=3	w3
 <name type="ORG">
@@ -21,7 +21,7 @@ eröffnet	eröffnet	eröffnen	VERB	Aspect=Perf VerbForm=Part	w5	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e194" lang="Deutsch">
-<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e194.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.053">
+<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e194.s1" senti_3="Neutral" senti_6="neutral negativ" senti_n="2.053">
 Als	Als	Als	CCONJ	ConjType=Comp	w1	mark	verhindern	ADJ	Degree=Pos Variant=Short	w2
 verhindert	verhindert	verhindern	ADJ	Degree=Pos Variant=Short	w2	advcl	melden	VERB	Aspect=Perf VerbForm=Part	w3
 gemeldet	gemeldet	melden	VERB	Aspect=Perf VerbForm=Part	w3	root	-	-	-	-
@@ -47,7 +47,7 @@ Mag	Mag	Mag	NOUN	Gender=Masc Number=Sing Person=3	w14	conj	Abgeordnet	NOUN	Numbe
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w15	punct	melden	VERB	Aspect=Perf VerbForm=Part	w3
 </s>
-<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e194.s2" senti_3="Negative" senti_6="mixed negative" senti_n="0.530">
+<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e194.s2" senti_3="Negativ" senti_6="gemischt negativ" senti_n="0.530">
 <name type="PER">
 Wurm	Wurm	Wurm	PROPN	Gender=Masc Number=Sing Person=3	w1	root	-	-	-	-
 <g/>
@@ -57,7 +57,7 @@ Wurm	Wurm	Wurm	PROPN	Gender=Masc Number=Sing Person=3	w1	root	-	-	-	-
 </p>
 <note type="time" content="18:28:52"/>
 <p id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e199" lang="Deutsch">
-<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e199.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.772">
+<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e199.s1" senti_3="Neutral" senti_6="neutral positiv" senti_n="2.772">
 Einlauf	Einlauf	Einlauf	NOUN	Gender=Masc Number=Sing Person=3	w1	root	-	-	-	-
 und	und	und	CCONJ	-	w2	cc	Zuweisung	NOUN	Gender=Fem Number=Plur Person=3	w3
 Zuweisungen	Zuweisungen	Zuweisung	NOUN	Gender=Fem Number=Plur Person=3	w3	conj	Einlauf	NOUN	Gender=Masc Number=Sing Person=3	w1
@@ -65,9 +65,9 @@ Zuweisungen	Zuweisungen	Zuweisung	NOUN	Gender=Fem Number=Plur Person=3	w3	conj	E
 </p>
 </speech>
 <note type="speaker" content="Präsidentin Mag. Barbara Prammer"/>
-<speech id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d7e414" text_id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108" subcorpus="Reference" lang="Deutsch" body="Nationalrat" term="XXII. Gesetzgebungsperiode" session="-" meeting="-" sitting="108. Sitzung" agenda="-" date="2005-04-27" title="108. Sitzung des Nationalrates der Republik Österreich, XXII. Gesetzgebungsperiode, Mittwoch, 27. April 2005" speaker_role="PräsidentIn" topic="Other" speaker_id="PAD_04476" speaker_name="Prammer, Barbara" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SPÖ" speaker_party_name="Die Sozialdemokratische Parlamentsfraktion - Klub der sozialdemokratischen Abgeordneten zum Nationalrat, Bundesrat und Europäischen Parlament" party_status="Opposition" party_orientation="Mitte-links" speaker_gender="F" speaker_birth="1954">
+<speech id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d7e414" text_id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108" subcorpus="Reference" lang="Deutsch" body="Nationalrat" term="XXII. Gesetzgebungsperiode" session="-" meeting="-" sitting="108. Sitzung" agenda="-" date="2005-04-27" title="108. Sitzung des Nationalrates der Republik Österreich, XXII. Gesetzgebungsperiode, Mittwoch, 27. April 2005" speaker_role="PräsidentIn" topic="Anderes" speaker_id="PAD_04476" speaker_name="Prammer, Barbara" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SPÖ" speaker_party_name="Die Sozialdemokratische Parlamentsfraktion - Klub der sozialdemokratischen Abgeordneten zum Nationalrat, Bundesrat und Europäischen Parlament" party_status="Opposition" party_orientation="Mitte-links" speaker_gender="F" speaker_birth="1954">
 <p id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e204" lang="Deutsch">
-<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e204.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.407">
+<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e204.s1" senti_3="Neutral" senti_6="neutral negativ" senti_n="2.407">
 Hinsichtlich	Hinsichtlich	Hinsichtlich	ADP	AdpType=Prep Case=Gen	w1	case	Gegenständ	NOUN	Gender=Masc Number=Plur Person=3	w4
 der	der	der	DET	Case=Gen Number=Plur PronType=Art	w2	det	Gegenständ	NOUN	Gender=Masc Number=Plur Person=3	w4
 eingelangten	eingelangten	einlangen	ADJ	Degree=Pos Number=Plur	w3	amod	Gegenständ	NOUN	Gender=Masc Number=Plur Person=3	w4
@@ -95,7 +95,7 @@ Mitteilung	Mitteilung	Mitteilung	NOUN	Gender=Fem Number=Sing Person=3	w24	obj	ve
 </s>
 </p>
 <p id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e206" lang="Deutsch">
-<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e206.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.030">
+<s id="ParlaMint-AT_2005-04-27-022-XXII-NRSITZ-00108_d2e206.s1" senti_3="Neutral" senti_6="neutral positiv" senti_n="3.030">
 Die	Die	Die	DET	Case=Nom Gender=Fem Number=Sing PronType=Art	w1	det	Mitteilung	NOUN	Gender=Fem Number=Sing Person=3	w3
 schriftliche	schriftliche	schriftlich	ADJ	Degree=Pos Gender=Fem Number=Sing	w2	amod	Mitteilung	NOUN	Gender=Fem Number=Sing Person=3	w3
 Mitteilung	Mitteilung	Mitteilung	NOUN	Gender=Fem Number=Sing Person=3	w3	nsubj	haben	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4

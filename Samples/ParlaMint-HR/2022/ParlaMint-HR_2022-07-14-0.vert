@@ -1,11 +1,11 @@
-<speech id="ParlaMint-HR_2022-07-14-0.u102963" text_id="ParlaMint-HR_2022-07-14-0" subcorpus="COVID,Rat" lang="hrvatski" body="Jednodoman" term="10. mandat" session="-" meeting="Zasedanje 11" sitting="2022-07-15" agenda="-" date="2022-07-14" title="Zapisnici sjednica Hrvatskog sabora, mandat 10, sjednica 11" speaker_role="Predsjedavajući" topic="Other" speaker_id="SanaderAnte" speaker_name="Sanader, Ante" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Coalition" party_orientation="Desni centar" speaker_gender="M" speaker_birth="1960">
+<speech id="ParlaMint-HR_2022-07-14-0.u102963" text_id="ParlaMint-HR_2022-07-14-0" subcorpus="COVID,Rat" lang="hrvatski" body="Jednodoman" term="10. mandat" session="-" meeting="Zasedanje 11" sitting="2022-07-15" agenda="-" date="2022-07-14" title="Zapisnici sjednica Hrvatskog sabora, mandat 10, sjednica 11" speaker_role="Predsjedavajući" topic="Ostalo" speaker_id="SanaderAnte" speaker_name="Sanader, Ante" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Coalition" party_orientation="Desni centar" speaker_gender="M" speaker_birth="1960">
 <p id="ParlaMint-HR_2022-07-14-0.u102963.seg0" lang="hrvatski">
-<s id="ParlaMint-HR_2022-07-14-0.u102963.seg0.1" senti_3="Positive" senti_6="positive" senti_n="4.511">
+<s id="ParlaMint-HR_2022-07-14-0.u102963.seg0.1" senti_3="Pozitivan" senti_6="pozitivan" senti_n="4.511">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102963.seg0.2" senti_3="Neutral" senti_6="neutral postive" senti_n="3.452">
+<s id="ParlaMint-HR_2022-07-14-0.u102963.seg0.2" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.452">
 I	I	i	CCONJ	-	1	discourse	iznošenje	NOUN	Case=Nom Gender=Neut Number=Sing	3
 posljednje	posljednje	posljednji	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Neut Number=Sing	2	amod	iznošenje	NOUN	Case=Nom Gender=Neut Number=Sing	3
 iznošenje	iznošenje	iznošenje	NOUN	Case=Nom Gender=Neut Number=Sing	3	nsubj:pass	poštovati	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Plur VerbForm=Part Voice=Pass	10
@@ -27,9 +27,9 @@ Kapulica	Kapulica	Kapulica	PROPN	Case=Nom Gender=Masc Number=Sing	12	flat	Mario	
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-HR_2022-07-14-0.u102964" text_id="ParlaMint-HR_2022-07-14-0" subcorpus="COVID,Rat" lang="hrvatski" body="Jednodoman" term="10. mandat" session="-" meeting="Zasedanje 11" sitting="2022-07-15" agenda="-" date="2022-07-14" title="Zapisnici sjednica Hrvatskog sabora, mandat 10, sjednica 11" speaker_role="Redovni" topic="Civil Rights" speaker_id="KapulicaMario" speaker_name="Kapulica, Mario" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Coalition" party_orientation="Desni centar" speaker_gender="M" speaker_birth="1969">
+<speech id="ParlaMint-HR_2022-07-14-0.u102964" text_id="ParlaMint-HR_2022-07-14-0" subcorpus="COVID,Rat" lang="hrvatski" body="Jednodoman" term="10. mandat" session="-" meeting="Zasedanje 11" sitting="2022-07-15" agenda="-" date="2022-07-14" title="Zapisnici sjednica Hrvatskog sabora, mandat 10, sjednica 11" speaker_role="Redovni" topic="Građanska prava" speaker_id="KapulicaMario" speaker_name="Kapulica, Mario" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Coalition" party_orientation="Desni centar" speaker_gender="M" speaker_birth="1969">
 <p id="ParlaMint-HR_2022-07-14-0.u102964.seg0" lang="hrvatski">
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.1" senti_3="Positive" senti_6="positive" senti_n="4.563">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.1" senti_3="Pozitivan" senti_6="pozitivan" senti_n="4.563">
 Zahvaljujem	Zahvaljujem	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 gospodine	gospodine	gospodin	NOUN	Case=Voc Gender=Masc Number=Sing	2	iobj	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 potpredsjedniče	potpredsjedniče	potpredsjednica	NOUN	Case=Voc Gender=Fem Number=Sing	3	obj	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
@@ -46,7 +46,7 @@ zastupnici	zastupnici	zastupnik	NOUN	Case=Nom Gender=Masc Number=Plur	10	appos	k
 <g/>
 .	.	.	PUNCT	-	11	punct	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.2" senti_3="Negative" senti_6="negative" senti_n="0.063">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.2" senti_3="Negativan" senti_6="negativan" senti_n="0.063">
 Kada	Kada	kada	ADV	Degree=Pos PronType=Int,Rel	1	mark	lopata	NOUN	Case=Nom Gender=Fem Number=Sing	5
 bi	bi	biti	AUX	Mood=Cnd Number=Sing Person=3 Tense=Past VerbForm=Fin	2	aux	lopata	NOUN	Case=Nom Gender=Fem Number=Sing	5
 jezik	jezik	jezik	NOUN	Case=Nom Gender=Masc Number=Sing	3	nsubj	lopata	NOUN	Case=Nom Gender=Fem Number=Sing	5
@@ -163,7 +163,7 @@ antenom	antenom	antena	NOUN	Case=Ins Gender=Fem Number=Sing	103	nmod	metar	NOUN	
 <g/>
 .	.	.	PUNCT	-	104	punct	takav	DET	Case=Nom Gender=Masc Number=Plur PronType=Dem	69
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.3" senti_3="Negative" senti_6="negative" senti_n="-0.023">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.3" senti_3="Negativan" senti_6="negativan" senti_n="-0.023">
 A	A	a	CCONJ	-	1	cc	zamahnuti	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	48
 prije	prije	prije	ADP	Case=Gen	2	case	dan	NOUN	Case=Gen Gender=Masc Number=Sing	4
 dva	dva	dva	NUM	NumType=Card	3	nummod	dan	NOUN	Case=Gen Gender=Masc Number=Sing	4
@@ -278,7 +278,7 @@ reći	reći	reći	VERB	VerbForm=Inf	99	acl	potreba	NOUN	Case=Gen Gender=Fem Numb
 <g/>
 .	.	.	PUNCT	-	100	punct	zamahnuti	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	48
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.4" senti_3="Negative" senti_6="negative" senti_n="-0.060">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.4" senti_3="Negativan" senti_6="negativan" senti_n="-0.060">
 I	I	i	CCONJ	-	1	cc	lagati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	2
 lagao	lagao	lagati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	2	root	-	-	-	-
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	aux	lagati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	2
@@ -316,7 +316,7 @@ odustane	odustane	odustati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbFor
 <g/>
 .	.	.	PUNCT	-	32	punct	lagati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	2
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.5" senti_3="Negative" senti_6="negative" senti_n="0.105">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.5" senti_3="Negativan" senti_6="negativan" senti_n="0.105">
 Monstruozno	Monstruozno	monstruozno	ADV	Degree=Pos	1	discourse	taj	DET	Case=Loc Gender=Neut Number=Sing PronType=Dem	9
 <g/>
 ,	,	,	PUNCT	-	2	punct	monstruozno	ADV	Degree=Pos	1
@@ -347,7 +347,7 @@ ubrzali	ubrzali	ubrzati	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Vo
 <g/>
 .	.	.	PUNCT	-	27	punct	taj	DET	Case=Loc Gender=Neut Number=Sing PronType=Dem	9
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.6" senti_3="Negative" senti_6="negative" senti_n="0.106">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.6" senti_3="Negativan" senti_6="negativan" senti_n="0.106">
 Da	Da	da	SCONJ	-	1	mark	dobiti	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	3
 bi	bi	biti	AUX	Mood=Cnd Number=Sing Person=3 Tense=Past VerbForm=Fin	2	aux	dobiti	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	3
 dobio	dobio	dobiti	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	3	advcl	proglasiti	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	15
@@ -388,7 +388,7 @@ domovine	domovine	domovina	NOUN	Case=Gen Gender=Fem Number=Sing	32	nmod	oltar	NO
 </name>
 .	.	.	PUNCT	-	33	punct	proglasiti	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	15
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.7" senti_3="Negative" senti_6="negative" senti_n="0.149">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.7" senti_3="Negativan" senti_6="negativan" senti_n="0.149">
 I	I	i	CCONJ	-	1	cc	govoriti	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	3
 kada	kada	kada	ADV	Degree=Pos PronType=Int,Rel	2	advmod	govoriti	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	3
 govorimo	govorimo	govoriti	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	3	advcl	morati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	23
@@ -452,7 +452,7 @@ sve	sve	sav	ADJ	Case=Acc Definite=Def Degree=Pos Gender=Neut Number=Sing	56	obl	
 <g/>
 .	.	.	PUNCT	-	57	punct	morati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	23
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.8" senti_3="Negative" senti_6="negative" senti_n="0.079">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.8" senti_3="Negativan" senti_6="negativan" senti_n="0.079">
 I	I	i	CCONJ	-	1	discourse	taj	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	2
 to	to	taj	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	2	nsubj	domet	NOUN	Case=Nom Gender=Masc Number=Sing	5
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	cop	domet	NOUN	Case=Nom Gender=Masc Number=Sing	5
@@ -497,7 +497,7 @@ narod	narod	narod	NOUN	Case=Nom Gender=Masc Number=Sing	38	nmod	spas	NOUN	Case=G
 <g/>
 .	.	.	PUNCT	-	39	punct	domet	NOUN	Case=Nom Gender=Masc Number=Sing	5
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.9" senti_3="Negative" senti_6="negative" senti_n="0.096">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.9" senti_3="Negativan" senti_6="negativan" senti_n="0.096">
 A	A	a	CCONJ	-	1	cc	spašavati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	10
 kako	kako	kako	SCONJ	-	2	mark	spašavati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	10
 bi	bi	biti	AUX	Mood=Cnd Number=Sing Person=3 Tense=Past VerbForm=Fin	3	aux	spašavati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	10
@@ -513,12 +513,12 @@ spašavao	spašavao	spašavati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=
 <g/>
 ?	?	?	PUNCT	-	11	punct	spašavati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	10
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.10" senti_3="Negative" senti_6="negative" senti_n="0.249">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.10" senti_3="Negativan" senti_6="negativan" senti_n="0.249">
 Lažima	Lažima	laž	NOUN	Case=Ins Gender=Masc Number=Plur	1	root	-	-	-	-
 <g/>
 ?	?	?	PUNCT	-	2	punct	laž	NOUN	Case=Ins Gender=Masc Number=Plur	1
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.11" senti_3="Negative" senti_6="negative" senti_n="-0.006">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.11" senti_3="Negativan" senti_6="negativan" senti_n="-0.006">
 S	S	sa	ADP	Case=Ins	1	case	računat	NOUN	Case=Ins Gender=Masc Number=Plur	2
 računatima	računatima	računat	NOUN	Case=Ins Gender=Masc Number=Plur	2	root	-	-	-	-
 da	da	da	SCONJ	-	3	mark	povrijediti	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	4
@@ -547,7 +547,7 @@ kompromitiraju	kompromitiraju	kompromitirati	VERB	Mood=Ind Number=Plur Person=3 
 <g/>
 .	.	.	PUNCT	-	24	punct	računat	NOUN	Case=Ins Gender=Masc Number=Plur	2
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.12" senti_3="Negative" senti_6="negative" senti_n="0.045">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.12" senti_3="Negativan" senti_6="negativan" senti_n="0.045">
 I	I	i	CCONJ	-	1	cc	smetati	VERB	Gender=Neut Number=Sing Tense=Past VerbForm=Part Voice=Act	6
 pri	pri	pri	ADP	Case=Loc	2	case	taj	DET	Case=Loc Gender=Neut Number=Sing PronType=Dem	3
 tome	tome	taj	DET	Case=Loc Gender=Neut Number=Sing PronType=Dem	3	obl	smetati	VERB	Gender=Neut Number=Sing Tense=Past VerbForm=Part Voice=Act	6
@@ -567,7 +567,7 @@ poima	poima	poim	NOUN	Case=Gen Gender=Masc Number=Sing	16	obj	nemati	VERB	Mood=I
 <g/>
 .	.	.	PUNCT	-	17	punct	smetati	VERB	Gender=Neut Number=Sing Tense=Past VerbForm=Part Voice=Act	6
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.13" senti_3="Neutral" senti_6="neutral postive" senti_n="3.458">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.13" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.458">
 Osnivao	Osnivao	osnivati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	1	root	-	-	-	-
 sam	sam	biti	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2	aux	osnivati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	1
 stranu	stranu	strana	NOUN	Case=Acc Gender=Fem Number=Sing	3	obj	osnivati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	1
@@ -588,7 +588,7 @@ ledine	ledine	ledina	NOUN	Case=Gen Gender=Fem Number=Sing	17	obl	krenuti	VERB	Ge
 <g/>
 .	.	.	PUNCT	-	18	punct	osnivati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	1
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.14" senti_3="Neutral" senti_6="neutral postive" senti_n="2.984">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.14" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="2.984">
 Krenuo	Krenuo	krenuti	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	1	root	-	-	-	-
 sam	sam	biti	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2	aux	krenuti	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	1
 zato	zato	zato	SCONJ	-	3	mark	pripremiti	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	9
@@ -601,7 +601,7 @@ pripremio	pripremio	pripremiti	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=
 <g/>
 .	.	.	PUNCT	-	10	punct	krenuti	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	1
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.15" senti_3="Positive" senti_6="mixed positive" senti_n="3.742">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.15" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="3.742">
 Baka	Baka	baka	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	punct	djed	NOUN	Case=Nom Gender=Masc Number=Sing	3
@@ -615,7 +615,7 @@ obitelj	obitelj	obitelj	NOUN	Case=Nom Gender=Fem Number=Sing	7	conj	baka	NOUN	Ca
 <g/>
 .	.	.	PUNCT	-	8	punct	baka	NOUN	Case=Nom Gender=Fem Number=Sing	1
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.16" senti_3="Negative" senti_6="negative" senti_n="0.035">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.16" senti_3="Negativan" senti_6="negativan" senti_n="0.035">
 U	U	u	ADP	Case=Acc	1	case	srijeda	NOUN	Case=Acc Gender=Fem Number=Sing	2
 srijedu	srijedu	srijeda	NOUN	Case=Acc Gender=Fem Number=Sing	2	nmod	oni	PRON	Case=Gen Number=Plur Person=3 PronType=Prs	5
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	cop	oni	PRON	Case=Gen Number=Plur Person=3 PronType=Prs	5
@@ -669,7 +669,7 @@ predstavljati	predstavljati	predstavljati	VERB	VerbForm=Inf	47	xcomp	trebati	VER
 <g/>
 .	.	.	PUNCT	-	48	punct	oni	PRON	Case=Gen Number=Plur Person=3 PronType=Prs	5
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.17" senti_3="Negative" senti_6="negative" senti_n="0.168">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.17" senti_3="Negativan" senti_6="negativan" senti_n="0.168">
 Sve	Sve	sav	ADJ	Case=Acc Definite=Def Degree=Pos Gender=Masc Number=Plur	1	amod	oni	PRON	Case=Acc Number=Plur Person=3 PronType=Prs	2
 njih	njih	oni	PRON	Case=Acc Number=Plur Person=3 PronType=Prs	2	obj	oklevetati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	7
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	aux	oklevetati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	7
@@ -680,7 +680,7 @@ oklevetao	oklevetao	oklevetati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=
 <g/>
 .	.	.	PUNCT	-	8	punct	oklevetati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	7
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.18" senti_3="Neutral" senti_6="neutral postive" senti_n="3.235">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.18" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.235">
 Prorok	Prorok	prorok	NOUN	Case=Nom Gender=Masc Number=Sing	1	nsubj	rod	NOUN	Case=Gen Gender=Masc Number=Sing	6
 <name type="PER">
 Danijel	Danijel	Danijel	PROPN	Case=Nom Gender=Masc Number=Sing	2	appos	prorok	NOUN	Case=Nom Gender=Masc Number=Sing	1
@@ -704,7 +704,7 @@ sudac	sudac	sudac	NOUN	Case=Nom Gender=Masc Number=Sing	15	ccomp	značiti	VERB	M
 <g/>
 .	.	.	PUNCT	-	16	punct	rod	NOUN	Case=Gen Gender=Masc Number=Sing	6
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.19" senti_3="Negative" senti_6="negative" senti_n="0.375">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.19" senti_3="Negativan" senti_6="negativan" senti_n="0.375">
 Sumnjam	Sumnjam	sumnjati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 da	da	da	SCONJ	-	2	mark	znati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
 ovaj	ovaj	ovaj	DET	Case=Nom Gender=Masc Number=Sing PronType=Dem	3	det	Danijel	PROPN	Case=Nom Gender=Masc Number=Sing	4
@@ -718,7 +718,7 @@ zna	zna	znati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8	ccomp
 <g/>
 .	.	.	PUNCT	-	9	punct	sumnjati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.20" senti_3="Negative" senti_6="negative" senti_n="0.051">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.20" senti_3="Negativan" senti_6="negativan" senti_n="0.051">
 Onaj	Onaj	onaj	DET	Case=Nom Gender=Masc Number=Sing PronType=Dem	1	root	-	-	-	-
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	aux	onaj	DET	Case=Nom Gender=Masc Number=Sing PronType=Dem	1
 bio	bio	biti	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	3	cop	onaj	DET	Case=Nom Gender=Masc Number=Sing PronType=Dem	1
@@ -749,7 +749,7 @@ nagradom	nagradom	nagrada	NOUN	Case=Ins Gender=Fem Number=Sing	23	nmod	potraga	N
 <g/>
 .	.	.	PUNCT	-	24	punct	onaj	DET	Case=Nom Gender=Masc Number=Sing PronType=Dem	1
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.21" senti_3="Negative" senti_6="negative" senti_n="0.111">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.21" senti_3="Negativan" senti_6="negativan" senti_n="0.111">
 I	I	i	CCONJ	-	1	cc	tu	ADV	Degree=Pos PronType=Dem	4
 problem	problem	problem	NOUN	Case=Nom Gender=Masc Number=Sing	2	nsubj	tu	ADV	Degree=Pos PronType=Dem	4
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	cop	tu	ADV	Degree=Pos PronType=Dem	4
@@ -763,7 +763,7 @@ problem	problem	problem	NOUN	Case=Nom Gender=Masc Number=Sing	10	acl	taj	DET	Cas
 <g/>
 .	.	.	PUNCT	-	11	punct	tu	ADV	Degree=Pos PronType=Dem	4
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.22" senti_3="Negative" senti_6="negative" senti_n="0.492">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.22" senti_3="Negativan" senti_6="negativan" senti_n="0.492">
 Sutra	Sutra	sutra	ADV	Degree=Pos	1	advmod	otići	VERB	VerbForm=Inf	3
 će	će	htjeti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	aux	otići	VERB	VerbForm=Inf	3
 otići	otići	otići	VERB	VerbForm=Inf	3	root	-	-	-	-
@@ -787,7 +787,7 @@ ime	ime	ime	NOUN	Case=Acc Gender=Neut Number=Sing	17	obj	dobiti	VERB	Gender=Masc
 <g/>
 .	.	.	PUNCT	-	18	punct	otići	VERB	VerbForm=Inf	3
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.23" senti_3="Negative" senti_6="negative" senti_n="-0.009">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.23" senti_3="Negativan" senti_6="negativan" senti_n="-0.009">
 Kada	Kada	kada	ADV	Degree=Pos PronType=Int,Rel	1	advmod	pitati	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	8
 su	su	biti	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	2	aux	pitati	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	8
 ga	ga	on	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PronType=Prs	3	obj	pitati	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	8
@@ -857,7 +857,7 @@ lagao	lagao	lagati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=A
 <g/>
 .	.	.	PUNCT	-	64	punct	izjavljivati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	32
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.24" senti_3="Neutral" senti_6="neutral negative" senti_n="1.843">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.24" senti_3="Neutralan" senti_6="neutralan negativan" senti_n="1.843">
 To	To	taj	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	1	nsubj	moći	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 da	da	da	SCONJ	-	2	mark	lagati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	4
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	aux	lagati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	4
@@ -881,7 +881,7 @@ i	i	i	CCONJ	-	19	cc	široko	ADV	Degree=Cmp	20
 šire	šire	široko	ADV	Degree=Cmp	20	conj	ovaj	DET	Case=Loc Gender=Neut Number=Sing PronType=Dem	18
 govoriti	govoriti	govoriti	VERB	VerbForm=Inf	21	xcomp	spreman	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	16
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.25" senti_3="Neutral" senti_6="neutral postive" senti_n="3.084">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.25" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.084">
 <note type="vocal:interruption" content="Upadica: Vrijeme."/>
 ako	ako	ako	SCONJ	-	1	mark	potreban	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Neut Number=Sing	4
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	cop	potreban	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Neut Number=Sing	4
@@ -895,7 +895,7 @@ nekih	nekih	neki	DET	Case=Gen Gender=Masc Number=Plur PronType=Ind	9	det	ja	PRON
 ja	ja	ja	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	10	nsubj	razlika	NOUN	Case=Acc Gender=Fem Number=Sing	7
 sa	sa	sa	ADP	Case=Ins	11	case	ja	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	10
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.26" senti_3="Neutral" senti_6="neutral postive" senti_n="3.326">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.26" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.326">
 <note type="vocal:interruption" content="Upadica: Vrijeme."/>
 istinom	istinom	istina	NOUN	Case=Ins Gender=Fem Number=Sing	1	obl	nemati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 problem	problem	problem	NOUN	Case=Acc Gender=Masc Number=Sing	2	obj	nemati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
@@ -903,7 +903,7 @@ nemam	nemam	nemati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3	
 <g/>
 .	.	.	PUNCT	-	4	punct	nemati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.27" senti_3="Positive" senti_6="positive" senti_n="4.511">
+<s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.27" senti_3="Pozitivan" senti_6="pozitivan" senti_n="4.511">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1
@@ -911,9 +911,9 @@ Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-HR_2022-07-14-0.u122704" text_id="ParlaMint-HR_2022-07-14-0" subcorpus="COVID,Rat" lang="hrvatski" body="Jednodoman" term="10. mandat" session="-" meeting="Zasedanje 11" sitting="2022-07-15" agenda="-" date="2022-07-14" title="Zapisnici sjednica Hrvatskog sabora, mandat 10, sjednica 11" speaker_role="Redovni" topic="Other" speaker_id="PavličekMarijan" speaker_name="Pavliček, Marijan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="DP" speaker_party_name="Domovinski pokret" party_status="Coalition" party_orientation="Desno do ekstremno desno" speaker_gender="M" speaker_birth="1980">
+<speech id="ParlaMint-HR_2022-07-14-0.u122704" text_id="ParlaMint-HR_2022-07-14-0" subcorpus="COVID,Rat" lang="hrvatski" body="Jednodoman" term="10. mandat" session="-" meeting="Zasedanje 11" sitting="2022-07-15" agenda="-" date="2022-07-14" title="Zapisnici sjednica Hrvatskog sabora, mandat 10, sjednica 11" speaker_role="Redovni" topic="Ostalo" speaker_id="PavličekMarijan" speaker_name="Pavliček, Marijan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="DP" speaker_party_name="Domovinski pokret" party_status="Coalition" party_orientation="Desno do ekstremno desno" speaker_gender="M" speaker_birth="1980">
 <p id="ParlaMint-HR_2022-07-14-0.u122704.seg0" lang="hrvatski">
-<s id="ParlaMint-HR_2022-07-14-0.u122704.seg0.1" senti_3="Positive" senti_6="positive" senti_n="5.007">
+<s id="ParlaMint-HR_2022-07-14-0.u122704.seg0.1" senti_3="Pozitivan" senti_6="pozitivan" senti_n="5.007">
 Poštovani	Poštovani	Poštovan	ADJ	Case=Voc Definite=Def Degree=Pos Gender=Masc Number=Sing VerbForm=Part Voice=Pass	1	amod	kolega	NOUN	Case=Voc Gender=Masc Number=Sing	2
 kolega	kolega	kolega	NOUN	Case=Voc Gender=Masc Number=Sing	2	vocative	željeti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	6
 <name type="PER">
@@ -991,7 +991,7 @@ RH	RH	RH	PROPN	Case=Loc Gender=Fem Number=Sing	64	nmod	Hrvat	PROPN	Case=Gen Gend
 </name>
 .	.	.	PUNCT	-	65	punct	željeti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	6
 </s>
-<s id="ParlaMint-HR_2022-07-14-0.u122704.seg0.2" senti_3="Positive" senti_6="positive" senti_n="4.795">
+<s id="ParlaMint-HR_2022-07-14-0.u122704.seg0.2" senti_3="Pozitivan" senti_6="pozitivan" senti_n="4.795">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 vam	vam	vi	PRON	Case=Dat Number=Plur Person=2 PronType=Prs	2	obj	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1
 lijepo	lijepo	lijepo	ADV	Degree=Pos	3	advmod	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1
@@ -1000,9 +1000,9 @@ lijepo	lijepo	lijepo	ADV	Degree=Pos	3	advmod	hvala	NOUN	Case=Nom Gender=Fem Numb
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-HR_2022-07-14-0.u122705" text_id="ParlaMint-HR_2022-07-14-0" subcorpus="COVID,Rat" lang="hrvatski" body="Jednodoman" term="10. mandat" session="-" meeting="Zasedanje 11" sitting="2022-07-15" agenda="-" date="2022-07-14" title="Zapisnici sjednica Hrvatskog sabora, mandat 10, sjednica 11" speaker_role="Predsjedavajući" topic="Other" speaker_id="SanaderAnte" speaker_name="Sanader, Ante" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Coalition" party_orientation="Desni centar" speaker_gender="M" speaker_birth="1960">
+<speech id="ParlaMint-HR_2022-07-14-0.u122705" text_id="ParlaMint-HR_2022-07-14-0" subcorpus="COVID,Rat" lang="hrvatski" body="Jednodoman" term="10. mandat" session="-" meeting="Zasedanje 11" sitting="2022-07-15" agenda="-" date="2022-07-14" title="Zapisnici sjednica Hrvatskog sabora, mandat 10, sjednica 11" speaker_role="Predsjedavajući" topic="Ostalo" speaker_id="SanaderAnte" speaker_name="Sanader, Ante" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDZ" speaker_party_name="Hrvatska demokratska zajednica" party_status="Coalition" party_orientation="Desni centar" speaker_gender="M" speaker_birth="1960">
 <p id="ParlaMint-HR_2022-07-14-0.u122705.seg0" lang="hrvatski">
-<s id="ParlaMint-HR_2022-07-14-0.u122705.seg0.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.709">
+<s id="ParlaMint-HR_2022-07-14-0.u122705.seg0.1" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="3.709">
 S	S	sa	ADP	Case=Ins	1	case	ovaj	DET	Case=Ins Gender=Masc Number=Sing PronType=Dem	2
 ovim	ovim	ovaj	DET	Case=Ins Gender=Masc Number=Sing PronType=Dem	2	obl	iscrpiti	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	4
 smo	smo	biti	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	3	aux	iscrpiti	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	4
