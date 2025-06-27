@@ -9,4 +9,3 @@ where XX corresponds to the ISO 3166 code of the country or autonomous region:
 
 * `ParlaMint-XX.TEI`: source of a ParlaMint TEI encoded "plain text" corpus
 * `ParlaMint-XX.TEI.ana`: source of a ParlaMint TEI encoded linguistically analysed corpus
-* `ParlaMint-XX-en.TEI.ana`: source of the linguistically analysed English translation of a ParlaMint TEI encoded corpus
