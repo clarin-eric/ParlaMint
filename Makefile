@@ -206,6 +206,7 @@ _validateTaxonomySpecific:
 	@echo -n "INFO: validating ${CORPUS}-specific taxonomy ${SPECIFICTAXONOMY}\n"
 	@grep -Ho 'xml:id="[^"]*"' ${SPECIFICTAXONOMY} \
 	  | grep -vP '(ParlaMint-${CORPUS}-taxonomy.*)\.xml:xml:id="\1"' \
+	  | grep -vP 'xml:id="${CORPUS}-.*"' \
 		| sed 's/\(.*\):xml:id="\(.*\)"/ERROR: Missing prefix "${CORPUS}-" in xml:id="\2" in \1/'
 	@${vch_taxonomy} ${SPECIFICTAXONOMY} \
 	&& echo schema OK \
