@@ -2,6 +2,7 @@
 use warnings;
 use strict;
 use utf8;
+use open ':utf8';
 
 binmode(STDIN,'utf8');
 binmode(STDOUT,'utf8');
@@ -32,7 +33,7 @@ if ($help || not($code && $ids_file)) {
     exit;
 }
 
-open my $fh, '<', $ids_file or die "Cannot open $ids_file: $!";
+open my $fh, '<:utf8', $ids_file or die "Cannot open $ids_file: $!";
 chomp(my @keys = <$fh>);
 close $fh;
 

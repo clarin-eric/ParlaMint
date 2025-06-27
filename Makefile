@@ -241,6 +241,7 @@ $(patchTaxonomiesSpecific-XX): patchTaxonomiesSpecific-%: uniqIdsTaxonomies-%
 _patchTaxonomySpecific-getIds:
 	@grep -Ho 'xml:id="[^"]*"' ${SPECIFICTAXONOMY} \
 	  | grep -vP '(ParlaMint-${CORPUS}-taxonomy.*)\.xml:xml:id="\1"' \
+	  | grep -vP 'xml:id="${CORPUS}-.*"' \
 		| sed 's/"$$//;s/.*="//'
 
 
