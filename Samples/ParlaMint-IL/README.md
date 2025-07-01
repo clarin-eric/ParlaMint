@@ -24,7 +24,7 @@ Speaker metadata (name, gender, party/faction, role) compiled primarily from the
 ### Data encoding process
 Each Word file was converted into TEI-compliant XML following ParlaMint conventions:
 1. Segmentation
-   - Split documents into <u> (utterance) elements
+   - Split documents into `<u>` (utterance) elements
    - Numbered turns (consecutive utterances by one speaker) and sentences within each turn
 2. Metadata annotation
    - Protocol-level: date, Knesset number, protocol ID, type (plenary/committee), title (if any)
@@ -42,11 +42,11 @@ Morpho-syntactic annotation
 
 Named-Entity Recognition
 - Applied the DictaBERT-NER model (Shmidman et al., 2023b).
-- Entities are classified into four ParlaMint types: PER, ORG, LOC, MISC, and encoded in TEI <name> elements.
+- Entities are classified into four ParlaMint types: PER, ORG, LOC, MISC, and encoded in TEI `<name>` elements.
 
 All annotations were generated automatically without manual post-editing.
 
 ### Paper
 For more details see:
 
-Goldin, G., & Wintner, S. (2025). The Knesset Corpus: An Annotated Corpus of Hebrew Parliamentary Proceedings. Language Resources and Evaluation. https://doi.org/10.1007/s10579-025-09833-4
+Goldin, G. et al. (2025). The Knesset Corpus: An Annotated Corpus of Hebrew Parliamentary Proceedings. Language Resources and Evaluation. https://doi.org/10.1007/s10579-025-09833-4
