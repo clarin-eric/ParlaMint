@@ -239,6 +239,17 @@ nohup3:
 all:	final join-verts pack
 xall:	final join-verts pack
 
+pack-logs:
+	mkdir -p Packed/ParlaMint-logs
+	rm -f Packed/ParlaMint-logs/*
+	for CORPUS in ${CORPORA}; do \
+	cp Logs/ParlaMint-$${CORPUS}.*log Packed/ParlaMint-logs; \
+	done
+	cd Packed; tar -czf ParlaMint-logs.tgz ParlaMint-logs
+	rm -fr Packed/ParlaMint-logs
+	mkdir -p Packed/ParlaMint-en-logs
+	rm -f Packed/ParlaMint-en-logs/*
+
 pack:
 	perl Scripts/pack-parlamint.pl -codes '${CORPORA}' -in Distro -out Packed
 join-verts:
@@ -284,6 +295,12 @@ mt-convert-txt:
 mt-web:
 	rsync -av Logs/*-en*.log ${WEB}/Logs
 	rsync -av Packed/*-en*.tgz ${WEB}/Repo
+mt-pack-logs:
+	for CORPUS in ${CORPORA}; do \
+	cp Logs/ParlaMint-$${CORPUS}-en.*log Packed/ParlaMint-en-logs; \
+	done
+	cd Packed; tar -czf ParlaMint-en-logs.tgz ParlaMint-en-logs
+	rm -fr Packed/ParlaMint-en-logs
 nohup-mt-pack:
 	nohup time make mt-pack > mt-pack.log &
 mt-pack:
