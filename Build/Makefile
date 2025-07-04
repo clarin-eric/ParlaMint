@@ -1,41 +1,18 @@
-########### Makefile for making a distributable version of the ParlaMint TEI, TEI.ana, -en.TEI.ana corpora and metadata overviews
-#### Variables give the corpora, version, handle, paths and scripts to use
-#### make nohup1 starts make all and saves the log in Logs/
+########### Makefile for making a distributable version of the ParlaMint TEI, TEI.ana, and -en.TEI.ana corpora and metadata overviews
+#### Variables give the included countries, version, handle, paths and scripts to use
+#### make nohup1 starts make all and saves the log in Logs/ 
+#### make mt-nohup1 starts make mt-all and saves the log in Logs/
+#### make all builds the plain text and linguistically annotated corpora
+#### make mt-all builds the machine translated and linguistically annotated corpora
+#### and there are a lot of test- targets to test various parts of the build.
 
 ### VARIABLES
 
 ### COMPLETE SET OF CORPORA
 CORPORA=AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
-#Finished: AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB
-#nohup1:
-#CORPORA=IL
-#nohup2:
-#CORPORA=DK PT
-#nohup3:
-#CORPORA=
-#nohup4:
-#CORPORA=
-
-#mt-nohup1:
-#CORPORA=UA DK LV PT
-#mt-nohup2:
-#CORPORA=
-
 # Used in targets that run only for one corpus
 CORPUS=
-
-#Absolute paths are needed otherwise problems with XSLT
-PARLAMINT := $(shell realpath .. | tr -d '\n')# get real absolute path to ParlaMint directory
-HERE = ${PARLAMINT}/Build
-TEMP = ${HERE}/Temp
-SCH = ${PARLAMINT}/Schema
-
-# Where the submitted corpora are found:
-# ParlaMint-XX.TEI/ and ParlaMint-XX.TEI.ana
-SOURCES = ${HERE}/Sources-TEI
-# ParlaMint-XX-en.TEI.ana, MTed + semantically tagged:
-SOURCES-MT = ${HERE}/Sources-CoNLLU
 
 # Version number and PID of next ParlaMint release
 VERSION = 5.0
@@ -48,6 +25,16 @@ HANDLE-MT  = http://hdl.handle.net/11356/2006
 # HANDLE-TEI = http://hdl.handle.net/11356/2032
 # HANDLE-ANA = http://hdl.handle.net/11356/2032
 
+#Absolute paths are needed otherwise problems with XSLT
+PARLAMINT := $(shell realpath .. | tr -d '\n')# get real absolute path to ParlaMint directory
+HERE = ${PARLAMINT}/Build
+TEMP = ${HERE}/Temp
+SCH = ${PARLAMINT}/Schema
+# Where the submitted corpora are found: ParlaMint-XX.TEI/ and ParlaMint-XX.TEI.ana
+SOURCES = ${HERE}/Sources-TEI
+# ParlaMint-XX-en.TEI.ana, MTed + semantically tagged:
+SOURCES-MT = ${HERE}/Sources-CoNLLU
+
 #Where the produced corpora are put for inspection
 WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint
 
@@ -56,9 +43,9 @@ WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint
 ###### Targets
 
 ### Overviews to be put in Metadata/
-
+### This should be done once all the corpora have been built
 metadata:	metadata-persons metadata-orgs metadata-quant-tsv metadata-quant-tex
-#Make overview LaTeX tables (for LREV paper)
+#Make overview LaTeX tables (e.g. for LREV paper)
 metadata-quant-tex:
 	$s mode=tex -xsl:Scripts/parlamint2cnt-overview.xsl   Distro/ParlaMint.xml > Metadata/ParlaMint-overview-stats.tex
 	$s mode=tex -xsl:Scripts/parlamint2cnt-particDesc.xsl Distro/ParlaMint.xml > Metadata/ParlaMint-participDesc-stats.tex
@@ -83,9 +70,23 @@ source-metadata:
 	$s out-lang=xx -xsl:Scripts/listOrg-tei2tsv.xsl Sources-TEI/ParlaMint.xml > Metadata/ParlaMint-listOrg.tsv
 	$s out-lang=en -xsl:Scripts/listOrg-tei2tsv.xsl Sources-TEI/ParlaMint.xml > Metadata/ParlaMint-listOrg-en.tsv
 
+### Make overall root(.ana) for ParlaMint for Sources-TEI/ and Distro/, 
+### This should be done once all the corpora have been built
+all-roots:	source-roots master-roots
+source-roots:
+	$s base=${HERE}/Sources-TEI type=TEI -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-rootTemplate.xml > ${HERE}/Sources-TEI/ParlaMint.xml
+	$s base=${HERE}/Sources-TEI type=TEI.ana -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-rootTemplate.xml > ${HERE}/Sources-TEI/ParlaMint.ana.xml
+master-roots:
+	$s base=${HERE}/Distro type=TEI -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-rootTemplate.xml > ${HERE}/Distro/ParlaMint.xml
+	$s base=${HERE}/Distro type=TEI.ana -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-rootTemplate.xml > ${HERE}/Distro/ParlaMint.ana.xml
+	$s base=${HERE}/Distro type=en.TEI.ana -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-rootTemplate.xml > ${HERE}/Distro/ParlaMint-en.ana.xml
+
 ###### Various tests
-test:
-	date
 test-tei2:
 	${FINALIZE} -valid -codes SI -in ${HERE}/Distro -out ${HERE}/Distro
 test-tei1:
@@ -151,22 +152,24 @@ test-fix2:
 ### Fixes
 # Merge per-language translated CoNLL-Us (BE, ES-CT, ES-PV, UA) to joint CoNLL-U (with # lang info on newpar)
 # It is more useful to have them merged than separate
-mrg-conll-nohup:
+fix-conll-nohup:
 	nohup time make mrg-conll > Logs/ParlaMint_Merge_CoNLL-U.log &
-mrg-conll:
+fix-conll:
 	Scripts/merge-conllu.pl Distro/ParlaMint-BE.conllu ${SOURCES-MT}/ParlaMint-BE-en.conllu
 	Scripts/merge-conllu.pl Distro/ParlaMint-ES-CT.conllu ${SOURCES-MT}/ParlaMint-ES-CT-en.conllu
 	Scripts/merge-conllu.pl Distro/ParlaMint-ES-PV.conllu ${SOURCES-MT}/ParlaMint-ES-PV-en.conllu
 	Scripts/merge-conllu.pl Distro/ParlaMint-UA.conllu ${SOURCES-MT}/ParlaMint-UA-en.conllu
 
-# Fix a mistake with handle in corpora
+# In-place fix mistake with handle in corpora
+OLD = http://hdl.handle.net/11356/1810
+NEW = http://hdl.handle.net/11356/1488
 fix-handle:
 	for CORPUS in ${CORPORA}; do \
-	Scripts/fix-handle.pl "Distro/ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml"; \
-	Scripts/fix-handle.pl "Distro/ParlaMint-$${CORPUS}.TEI.ana/*/*.ana.xml"; \
+	Scripts/fix-handle.pl ${OLD} ${NEW} "Distro/ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml"; \
+	Scripts/fix-handle.pl ${OLD} ${NEW} "Distro/ParlaMint-$${CORPUS}.TEI.ana/*/*.ana.xml"; \
 	done;
 
-# Copy READMEs to master
+# Post-hoc copy READMEs to master, in case they need to be changed after the corpora have been built
 cp-readmes:
 	Scripts/cp-readmes.pl -codes "${CORPORA}" -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} \
 	-docs Sources-Distro -out ${HERE}/Distro
@@ -185,7 +188,7 @@ mt-samples:
 #Merge original and MTed samples into official Samples directory
 cp-samples:
 	Scripts/cp-samples.pl 'Distro/ParlaMint-*' ../Samples
-	#cp Logs/ParlaMint-$${CORPUS}-samples.log ../Samples/ParlaMint-$${CORPUS}; \
+
 
 # Make vertical file with en metadata, a hack:
 XX-CORPORA = AT-xx BA-xx BE-xx BG-xx CZ-xx DK-xx EE-xx ES-xx ES-CT-xx ES-GA-xx ES-PV-xx FI-xx FR-xx GB-xx GR-xx HR-xx HU-xx IS-xx IT-xx LV-xx NL-xx NO-xx PL-xx PT-xx RS-xx SE-xx SI-xx TR-xx UA-xx
@@ -206,39 +209,19 @@ make-verts:
 	done;
 	make verts
 
-# Don't make TEI but only text, vert and conllu files only
-make-conll-vert-txt:
+# Don't make TEI but only text, vert and conllu files
+make-txt-vert-conll:
 	for CORPUS in ${CORPORA}; do \
 	${FINALIZE} -txt -vert -conll -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Distro; \
 	done;
 
-# Make overall root(.ana) for ParlaMint for Sources-TEI/ and Distro/, 
-all-roots:	source-roots master-roots
-source-roots:
-	$s base=${HERE}/Sources-TEI type=TEI -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-rootTemplate.xml > ${HERE}/Sources-TEI/ParlaMint.xml
-	$s base=${HERE}/Sources-TEI type=TEI.ana -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-rootTemplate.xml > ${HERE}/Sources-TEI/ParlaMint.ana.xml
-master-roots:
-	$s base=${HERE}/Distro type=TEI -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-rootTemplate.xml > ${HERE}/Distro/ParlaMint.xml
-	$s base=${HERE}/Distro type=TEI.ana -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-rootTemplate.xml > ${HERE}/Distro/ParlaMint.ana.xml
-	$s base=${HERE}/Distro type=en.TEI.ana -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-rootTemplate.xml > ${HERE}/Distro/ParlaMint-en.ana.xml
-
-mt-logs:
-	for CORPUS in ${CORPORA}; do \
-	grep -a -i 'fatal' Logs/ParlaMint-$${CORPUS}-en.log >  Logs/ParlaMint-$${CORPUS}-en.error.log;  \
-	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}-en.log >> Logs/ParlaMint-$${CORPUS}-en.error.log;  \
-	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}-en.log >  Logs/ParlaMint-$${CORPUS}-en.warn.log;  \
-	done;
-
+# Put logs and packed build to web for inspection by corpus compilers
 web-nohup:
 	nice nohup time make web > ParlaMint-Web.log &
 web:
 	rsync -av Logs/*.log ${WEB}/Logs
 	rsync -av Packed/*.tgz ${WEB}/Repo
+
 
 ###### Targets for producing releasable version of ParlaMint corpora
 FINALIZE = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Sources-Distro -procMemGB ${JAVA-MEMORY} -procChunkSize ${CHUNK-SIZE} -procThreads ${THREADS}
@@ -252,17 +235,13 @@ nohup2:
 	nice nohup time make all > Logs/ParlaMint.2.log &
 nohup3:
 	nice nohup time make all > Logs/ParlaMint.3.log &
-nohup4:
-	nice nohup time make all > Logs/ParlaMint.4.log &
-nohup5:
-	nice nohup time make all > Logs/ParlaMint.5.log &
 
-all:	final verts
-xall:	final verts pack
+all:	final join-verts pack
+xall:	final join-verts pack
 
 pack:
 	perl Scripts/pack-parlamint.pl -codes '${CORPORA}' -in Distro -out Packed
-verts:
+join-verts:
 	perl Scripts/join-verts.pl -version ${VERSION} -codes '${CORPORA}' -in Distro -out Verts
 final:
 	for CORPUS in ${CORPORA}; do \
@@ -293,12 +272,6 @@ mt-nohup2:
 	nice nohup time make mt-all > Logs/ParlaMint-en.2.log &
 mt-nohup3:
 	nice nohup time make mt-all > Logs/ParlaMint-en.3.log &
-mt-nohup4:
-	nice nohup time make mt-all > Logs/ParlaMint-en.4.log &
-mt-nohup5:
-	nice nohup time make mt-all > Logs/ParlaMint-en.5.log &
-mt-nohup6:
-	nice nohup time make mt-all > Logs/ParlaMint-en.6.log &
 
 mt-all:	mt-final
 mt-xall-final:	mt-convert mt-final mt-verts mt-pack mt-web
@@ -451,18 +424,6 @@ merge-taxos:
 	> Taxonomies/ParlaMint-taxonomy-$${TAXONOMY}.ana.xml; \
 	done;
 	${vta} Taxonomies/ParlaMint-taxonomy-*.xml
-
-### Some ideas, need to think about them...
-
-#REGIS=at ba be bg cz dk es_ct fr gb gr hr hu is it lv nl no pl pt rs se si tr ua
-REGIS=ua
-QUERY=https://dev:alfabetagama@www.clarin.si/noske-beta/parlamint.cgi/wordlist?
-TAIL=wlmaxitems=1000;wlattr=speech.body;wlminfreq=1;include_nonwords=1;wlsort=f;wlnums=docf;format=xml
-body:
-	rm -f body.xml
-	for REGI in ${REGIS} ; do \
-	curl "${QUERY}corpname=parlamint30_$${REGI};${TAIL}" | grep -v xml >> body.xml ; \
-	done
 
 ###################### SCRIPT VARIABLES
 ##$JAVA-MEMORY## Set a java memory maxsize in GB

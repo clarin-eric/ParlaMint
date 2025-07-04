@@ -5,9 +5,9 @@ use utf8;
 binmode(STDIN, ':utf8');
 binmode(STDOUT, ':utf8');
 binmode(STDERR, ':utf8');
+$oldHandle = shift;
+$newHandle = shift;
 $inFiles = shift;
-$oldHandle = 'http://hdl.handle.net/11356/1810';
-$newHandle = 'http://hdl.handle.net/11356/1488';
 foreach $inFile (glob $inFiles)  {
     ($inDir, $fName) = $inFile =~ m|(.+)/([^/]+)\.xml|;
     $tmpFile = "$inDir/$fName.tmp";
