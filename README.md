@@ -9,19 +9,19 @@ which are a customisation of the [TEI Guidelines](https://tei-c.org/guidelines/p
 should process the common data in any ParlaMint corpus, despite the differing parliamentary
 systems of the countries, the kind of information included in the corpora, and, of course, language.
 
-The latest version of ParlaMint is [4.1](https://github.com/clarin-eric/ParlaMint/releases/tag/v4.1)
+The latest version of ParlaMint is [5.0](https://github.com/clarin-eric/ParlaMint/releases/tag/v5.0)
 which contains corpora for 29 countries and autonomous regions in original languages as well as machine
 translated to English, and is available from the CLARIN.SI repository:
 
-- [ParlaMint v4.1](http://hdl.handle.net/11356/1912): "plain text", i.e. linguistically unannotated variant of the ParlaMint corpora
-- [ParlaMint.ana v4.1](http://hdl.handle.net/11356/1911): linguistically annotated variant of the ParlaMint corpora
-- [ParlaMint-en.ana v4.1](http://hdl.handle.net/11356/1910): machine translated and linguistically annotated ParlaMint corpora
+- [ParlaMint v5.0](http://hdl.handle.net/11356/2004): "plain text", i.e. linguistically unannotated variant of the ParlaMint corpora
+- [ParlaMint.ana v5.0](http://hdl.handle.net/11356/2005): linguistically annotated variant of the ParlaMint corpora
+- [ParlaMint-en.ana v5.0](http://hdl.handle.net/11356/2006): machine translated and linguistically annotated ParlaMint corpora
 
 Publications connected to ParlaMint are available at the
 [ParlaMint project page](https://www.clarin.eu/parlamint#publications-and%C2%A0presentations).
 
 The two most comprehensive publication on ParlaMint corpora are the two open access LREV papers describing
-versions 4.1 and 2.1:
+versions 4.1 and 2.1 respectively:
 
 - Tomaž Erjavec, Matyáš Kopp, Nikola Ljubešić, Taja Kuzman, Paul Rayson, Petya Osenova, Maciej
   Ogrodniczuk, Çağrı Çöltekin, Danijel Koržinek, Katja Meden, Jure Skubic, Peter Rupnik, Tommaso
