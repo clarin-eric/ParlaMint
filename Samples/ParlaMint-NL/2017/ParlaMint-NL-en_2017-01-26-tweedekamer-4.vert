@@ -1,9 +1,9 @@
 <note type="head" content="Verbod op winstuitkering door zorgverzekeraars"/>
 <note type="comment" content="See meeting of 24 January 2017."/>
 <note type="speaker" content="The President"/>
-<speech id="ParlaMint-NL_2017-01-26-tweedekamer-4.u1" text_id="ParlaMint-NL-en_2017-01-26-tweedekamer-4" subcorpus="Reference" lang="English" body="Lower house" term="Meeting of the 28th Tweede Kamer" session="Session 4" meeting="Meeting 45" sitting="Sitting 2017-01-26" agenda="-" date="2017-01-26" title="Report of the meeting of the Dutch Lower House, Meeting 45, Session 4 (2017-01-26)" speaker_role="Chairperson" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="Coalition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
+<speech id="ParlaMint-NL_2017-01-26-tweedekamer-4.u1" text_id="ParlaMint-NL-en_2017-01-26-tweedekamer-4" subcorpus="Reference" lang="English" body="Lower house" term="Meeting of the 28th Tweede Kamer" session="Session 4" meeting="Meeting 45" sitting="Sitting 2017-01-26" agenda="-" date="2017-01-26" title="Report of the meeting of the Dutch Lower House, Meeting 45, Session 4 (2017-01-26)" speaker_role="Chairperson" topic="Health" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="Coalition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
 <p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg1" lang="English">
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2" senti_3="Positive" senti_6="positive" senti_n="4.533">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t3
@@ -14,7 +14,7 @@ initiators	initiators	initiator	NOUN	Number=Plur	Z99	Z99	Z99: Unmatched	t7
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s3">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s3" senti_3="Positive" senti_6="mixed positive" senti_n="3.850">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 always	always	always	ADV	-	N6+++	N6p	N6+: Frequent	t3
@@ -34,7 +34,7 @@ K	K	k	NUM	Abbr=Yes NumForm=Word NumType=Card	N3.3,N3.7	N3.3	N3.3: Measurement: D
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s4">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s4" senti_3="Positive" senti_6="positive" senti_n="4.553">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t3
@@ -48,7 +48,7 @@ supporters	supporters	supporter	NOUN	Number=Plur	S8+/S2mf,K5.1/S2mf,Q1.1%	S8p S2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s5">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s5" senti_3="Neutral" senti_6="neutral positive" senti_n="2.781">
 Today	Today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <name type="ORG">
@@ -67,7 +67,7 @@ present	present	present	ADJ	Degree=Pos	T1.1.2,A3+	T1.1.2	T1.1.2: Time: Present; 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s6">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s6" senti_3="Neutral" senti_6="neutral negative" senti_n="2.455">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 act	act	act	VERB	VerbForm=Inf	A1.1.1,T1.1.2,A8,K4	A1.1.1	A1.1.1: General actions / making	t3
@@ -93,7 +93,7 @@ proposal	proposal	proposal	NOUN	Number=Sing	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Speech
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s7">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s7" senti_3="Neutral" senti_6="neutral positive" senti_n="2.537">
 Last	Last	last	ADJ	Degree=Pos	N4	N4	N4: Linear order	t1
 <phr usas_tags="Z1mf,Z3fnc,T1.3" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Tuesday	Tuesday	Tuesday	PROPN	Number=Sing	Z1mf,Z3fnc,T1.3	Z1	Z1: Personal names	t2
@@ -108,7 +108,7 @@ discussed	discussed	discuss	VERB	Tense=Past VerbForm=Part Voice=Pass	Q2.1,Q2.2	Q
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s8">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s8" senti_3="Neutral" senti_6="neutral positive" senti_n="2.702">
 Today	Today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 are	are	be	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -131,7 +131,7 @@ answer	answer	answer	NOUN	Number=Sing	Q2.2,X4.1,X9.2+	Q2.2	Q2.2: Speech acts	t15
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s9">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s9" senti_3="Neutral" senti_6="neutral negative" senti_n="1.530">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 can	can	can	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 be	be	be	VERB	VerbForm=Inf	A3+,Z5	A3p	A3+: Existing	t3
@@ -150,7 +150,7 @@ day	day	day	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t14
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s10">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s10" senti_3="Neutral" senti_6="neutral positive" senti_n="2.830">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 ask	ask	ask	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2	Q2.2	Q2.2: Speech acts	t2
 those	those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -165,7 +165,7 @@ succinctly	succinctly	succinctly	ADV	-	A4.2+	A4.2p	A4.2+: Detailed	t11
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s11">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s11" senti_3="Positive" senti_6="mixed positive" senti_n="3.573">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -199,9 +199,9 @@ limitation	limitation	limitation	NOUN	Number=Sing	A1.7+	A1.7p	A1.7+: Constraint	
 </speech>
 <note type="comment" content="The general debate will be resumed."/>
 <note type="speaker" content="Mrs Bouwmeester (PvdA)"/>
-<speech id="ParlaMint-NL_2017-01-26-tweedekamer-4.u2" text_id="ParlaMint-NL-en_2017-01-26-tweedekamer-4" subcorpus="Reference" lang="English" body="Lower house" term="Meeting of the 28th Tweede Kamer" session="Session 4" meeting="Meeting 45" sitting="Sitting 2017-01-26" agenda="-" date="2017-01-26" title="Report of the meeting of the Dutch Lower House, Meeting 45, Session 4 (2017-01-26)" speaker_role="Regular" speaker_id="LeaBouwmeester" speaker_name="Bouwmeester, Lea" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="Coalition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1979">
+<speech id="ParlaMint-NL_2017-01-26-tweedekamer-4.u2" text_id="ParlaMint-NL-en_2017-01-26-tweedekamer-4" subcorpus="Reference" lang="English" body="Lower house" term="Meeting of the 28th Tweede Kamer" session="Session 4" meeting="Meeting 45" sitting="Sitting 2017-01-26" agenda="-" date="2017-01-26" title="Report of the meeting of the Dutch Lower House, Meeting 45, Session 4 (2017-01-26)" speaker_role="Regular" topic="Health" speaker_id="LeaBouwmeester" speaker_name="Bouwmeester, Lea" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="Coalition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1979">
 <p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg2" lang="English">
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s13">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s13" senti_3="Positive" senti_6="mixed positive" senti_n="3.838">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr.	Mr.	Mr.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Chairman	Chairman	Chairman	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -209,7 +209,7 @@ Chairman	Chairman	Chairman	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s14">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s14" senti_3="Positive" senti_6="mixed positive" senti_n="4.071">
 Three	Three	three	NUM	NumForm=Word NumType=Card	N1,T1.2,T3	N1	N1: Numbers	t1
 parties	parties	party	NOUN	Number=Plur	S1.1.3+,G1.2,S1.1.3+/S2mf,S5+	S1.1.3p	S1.1.3+: Participating	t2
 <g/>
@@ -240,7 +240,7 @@ principle	principle	principle	NOUN	Number=Sing	X4.1,G2.2+	X4.1	X4.1: Mental obje
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s15">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s15" senti_3="Positive" senti_6="mixed positive" senti_n="4.048">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="P1/S2mf" usas_cats="P1 S2" usas_glosses="P1: Education in general|S2: People">
 recent	recent	recent	ADJ	Degree=Pos	P1/S2mf	P1 S2	P1: Education in general|S2: People	t2
@@ -280,7 +280,7 @@ other	other	other	ADJ	Degree=Pos	A6.1-	A6.1n	A6.1-: Comparing: Different	t30
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t31
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s16">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s16" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 fact	fact	fact	NOUN	Number=Sing	A5.2+,X2.2	A5.2p	A5.2+: Evaluation: True	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -299,7 +299,7 @@ unexpected	unexpected	unexpected	ADJ	Degree=Pos	X2.6-	X2.6n	X2.6-: Unexpected	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s17">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s17" senti_3="Positive" senti_6="mixed positive" senti_n="4.434">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 idea	idea	idea	NOUN	Number=Sing	X4.1,X7+	X4.1	X4.1: Mental object: Conceptual object	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -348,7 +348,7 @@ Chamber	Chamber	Chamber	PROPN	Number=Sing	H2,S5+c,O2	H2	H2: Parts of buildings	t
 </s>
 </p>
 <p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg3" lang="English">
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s18">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s18" senti_3="Neutral" senti_6="neutral positive" senti_n="3.074">
 This	This	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 law	law	law	NOUN	Number=Sing	G2.1,S6+,Y1	G2.1	G2.1: Law and order	t2
 aims	aims	aim	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	X7+,M6	X7p	X7+: Wanted	t3
@@ -387,7 +387,7 @@ less	less	less	ADJ	Degree=Cmp	Z5	Z5	Z5: Grammatical bin	t31
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s19">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s19" senti_3="Positive" senti_6="positive" senti_n="4.592">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 thank	thank	thank	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	S1.2.4+	S1.2.4p	S1.2.4+: Polite	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -407,7 +407,7 @@ comments	comments	comment	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t11
 </s>
 </p>
 <p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg4" lang="English">
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s20">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s20" senti_3="Neutral" senti_6="neutral positive" senti_n="2.680">
 Following	Following	follow	VERB	VerbForm=Ger	M1,N4,S7.1-,X2.4,X2.5+,A6.1+,A1.1.1,A2.2,K5.1,X3.4	M1	M1: Moving, coming and going	t1
 on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 from	from	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -431,7 +431,7 @@ necessity	necessity	necessity	NOUN	Number=Sing	S6+,A11.1+	S6p	S6+: Strong obliga
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s21">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s21" senti_3="Neutral" senti_6="neutral positive" senti_n="2.629">
 <name type="ORG">
 Mrs	Mrs	Mrs	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t1
 Bruins	Bruins	Bruin	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t2
@@ -456,7 +456,7 @@ State	State	State	PROPN	Number=Sing	Q2.1	Q2.1	Q2.1: Speech: Communicative	t17
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s22">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s22" senti_3="Neutral" senti_6="neutral positive" senti_n="2.502">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 Mrs	Mrs	Mrs	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t2
 <name type="PER">
@@ -476,7 +476,7 @@ insurers	insurers	insurer	NOUN	Number=Plur	I1/S2mf	I1 S2	I1: Money generally|S2:
 </s>
 </p>
 <p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg5" lang="English">
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s23">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s23" senti_3="Neutral" senti_6="neutral positive" senti_n="2.972">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 shall	shall	shall	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 begin	begin	begin	VERB	VerbForm=Inf	T2+	T2p	T2+: Time: Beginning	t3
@@ -502,7 +502,7 @@ solidarity	solidarity	solidarity	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s24">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s24" senti_3="Neutral" senti_6="neutral positive" senti_n="2.828">
 Upon	Upon	upon	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 entry	entry	entry	NOUN	Number=Sing	M7,Q1.2,S7.3,M1,T2+	M7	M7: Places	t3
@@ -547,7 +547,7 @@ price	price	price	NOUN	Number=Sing	I1.3	I1.3	I1.3: Money: Cost and price	t37
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t38
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s25">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s25" senti_3="Negative" senti_6="mixed negative" senti_n="0.688">
 They	They	they	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pronouns	t1
 became	became	become	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	A2.1+,O4.2+	A2.1p	A2.1+: Change	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -562,7 +562,7 @@ say	say	say	VERB	VerbForm=Inf	Q2.1,Z4%	Q2.1	Q2.1: Speech: Communicative	t10
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s26">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s26" senti_3="Neutral" senti_6="neutral negative" senti_n="2.403">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Z2,Z3c" usas_cats="Z2" usas_glosses="Z2: Geographical names">
 role	role	role	NOUN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t2
@@ -590,7 +590,7 @@ spent	spent	spend	VERB	Tense=Past VerbForm=Part Voice=Pass	I1.2,A1.5.1,T1.3	I1.2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s27">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s27" senti_3="Neutral" senti_6="neutral negative" senti_n="1.765">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 needs	needs	need	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	S6+	S6p	S6+: Strong obligation or necessity	t3
@@ -600,7 +600,7 @@ legitized	legitized	legitize	VERB	Tense=Past VerbForm=Part Voice=Pass	Z99	Z99	Z9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s28">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s28" senti_3="Negative" senti_6="negative" senti_n="0.167">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 precisely	precisely	precisely	ADV	-	A4.2+,A5.3+	A4.2p	A4.2+: Detailed	t3
@@ -613,7 +613,7 @@ now	now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s29">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s29" senti_3="Negative" senti_6="mixed negative" senti_n="1.133">
 If	If	if	SCONJ	-	Z7	Z7	Z7: If	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 are	are	be	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -655,7 +655,7 @@ private	private	private	ADJ	Degree=Pos	A10-,S5-,G1.1-	A10n	A10-: Closed; Hiding/
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t35
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s30">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s30" senti_3="Negative" senti_6="mixed negative" senti_n="1.173">
 No	No	no	INTJ	Polarity=Neg	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -686,7 +686,7 @@ legitimacy	legitimacy	legitimacy	NOUN	Number=Sing	G2.2+	G2.2p	G2.2+: Ethical	t21
 </s>
 </p>
 <p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg6" lang="English">
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s31">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s31" senti_3="Neutral" senti_6="neutral negative" senti_n="2.339">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Healthcare	Healthcare	healthcare	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t1
 insurers	insurers	insurer	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t2
@@ -710,7 +710,7 @@ accordingly	accordingly	accordingly	ADV	-	A1.2+,A2.2	A1.2p	A1.2+: Suitable	t15
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s32">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s32" senti_3="Neutral" senti_6="neutral negative" senti_n="1.947">
 Do	Do	do	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t1
 they	they	they	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pronouns	t2
 behave	behave	behave	VERB	VerbForm=Inf	S1.1.1,A1.1.1	S1.1.1	S1.1.1: Social Actions, States And Processes	t3
@@ -720,7 +720,7 @@ should	should	should	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or nece
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s33">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s33" senti_3="Negative" senti_6="mixed negative" senti_n="0.559">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 do	do	do	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t2
 <g/>
@@ -730,7 +730,7 @@ so	so	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t5
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s34">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s34" senti_3="Negative" senti_6="negative" senti_n="0.136">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 does	does	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5	A1.1.1	A1.1.1: General actions / making	t2
 not	not	not	PART	-	Z6	Z6	Z6: Negative	t3
@@ -755,7 +755,7 @@ persons	persons	person	NOUN	Number=Plur	S2mfc	S2	S2: People	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s35">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s35" senti_3="Neutral" senti_6="neutral positive" senti_n="2.829">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Health	Health	Health	PROPN	Number=Sing	B2,X9.2	B2	B2: Health and disease	t2
@@ -778,7 +778,7 @@ persons	persons	person	NOUN	Number=Plur	S2mfc	S2	S2: People	t17
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s36">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s36" senti_3="Neutral" senti_6="neutral positive" senti_n="3.431">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Advisory	Advisory	Advisory	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -798,7 +798,7 @@ strengthened	strengthened	strengthen	VERB	Tense=Past VerbForm=Part Voice=Pass	S1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s37">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s37" senti_3="Neutral" senti_6="neutral negative" senti_n="2.139">
 A	A	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 licence	licence	licence	NOUN	Number=Sing	G1.1/Q1.2,S7.4+	G1.1 Q1.2	G1.1: Government|Q1.2: Paper documents and writing	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -813,7 +813,7 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t10
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s38">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s38" senti_3="Positive" senti_6="mixed positive" senti_n="3.528">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 have	have	have	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -841,7 +841,7 @@ provider	provider	provider	NOUN	Number=Sing	A9-/S2mf	A9n S2	A9-: Giving|S2: Peop
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s39">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s39" senti_3="Neutral" senti_6="neutral negative" senti_n="1.917">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 have	have	have	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -873,7 +873,7 @@ money	money	money	NOUN	Number=Sing	I1	I1	I1: Money generally	t25
 </s>
 </p>
 <p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg7" lang="English">
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s40">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s40" senti_3="Neutral" senti_6="neutral positive" senti_n="3.108">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 need	need	need	NOUN	Number=Sing	S6+	S6p	S6+: Strong obligation or necessity	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -892,7 +892,7 @@ examples	examples	example	NOUN	Number=Plur	A4.1	A4.1	A4.1: Generally kinds, grou
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s41">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s41" senti_3="Negative" senti_6="negative" senti_n="0.095">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 In	In	in	ADP	-	T1.3	T1.3	T1.3: Time: Period	t1
 the	the	the	DET	Definite=Def PronType=Art	T1.3	T1.3	T1.3: Time: Period	t2
@@ -991,7 +991,7 @@ benefits	benefits	benefit	NOUN	Number=Plur	S8+,I1.1/G1.1	S8p	S8+: Helping	t75
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t76
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s42">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s42" senti_3="Neutral" senti_6="neutral negative" senti_n="2.453">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 can	can	can	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 go	go	go	VERB	VerbForm=Inf	M1,A2.1+,A1.1.1,A9-,A1.8+,Q2.1,N6+,I2.2,A1.1.2,T2-,S3.2,A6.3+,B2-/X1%,B1%	M1	M1: Moving, coming and going	t3
@@ -1008,7 +1008,7 @@ while	while	while	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t9
 </s>
 </p>
 <p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg8" lang="English">
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s43">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s43" senti_3="Negative" senti_6="mixed negative" senti_n="0.848">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 no	no	no	INTJ	Polarity=Neg	Z4	Z4	Z4: Discourse Bin	t2
 <g/>
@@ -1040,7 +1040,7 @@ care	care	care	NOUN	Number=Sing	S8+,G1.1/S8+,B3,A1.3,E6-	S8p	S8+: Helping	t25
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s44">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s44" senti_3="Positive" senti_6="mixed positive" senti_n="4.049">
 People	People	person	NOUN	Number=Plur	S2mfc	S2	S2: People	t1
 want	want	want	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	X7+,S6+,A7+,S3.2,A9-	X7p	X7+: Wanted	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1092,7 +1092,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	A5.4+	A5.4p
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s45">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s45" senti_3="Neutral" senti_6="neutral positive" senti_n="3.119">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 requires	requires	require	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	X7+,S6+	X7p	X7+: Wanted	t2
 an	an	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -1109,7 +1109,7 @@ quality	quality	quality	NOUN	Number=Sing	A5.1,A5.1+,O4.1	A5.1	A5.1: Evaluation: 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s46">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s46" senti_3="Negative" senti_6="negative" senti_n="0.308">
 This	This	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 one	one	one	NOUN	Number=Sing	Z8,N1	Z8	Z8: Pronouns	t2
 <g/>
@@ -1123,7 +1123,7 @@ either	either	either	ADV	-	Z5	Z5	Z5: Grammatical bin	t7
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s47">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s47" senti_3="Negative" senti_6="mixed negative" senti_n="1.458">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 not	not	not	PART	-	Z6	Z6	Z6: Negative	t3
@@ -1153,7 +1153,7 @@ Authority	Authority	Authority	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t
 </s>
 </p>
 <p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg9" lang="English">
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s48">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s48" senti_3="Positive" senti_6="mixed positive" senti_n="4.417">
 All	All	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t3
@@ -1179,7 +1179,7 @@ Chamber	Chamber	Chamber	PROPN	Number=Sing	H2,S5+c,O2	H2	H2: Parts of buildings	t
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s49">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s49" senti_3="Positive" senti_6="positive" senti_n="4.718">
 Little	Little	Little	ADJ	Degree=Pos	N3.2-,T3-,N3.7-,N3.3-,T1.3-,A11.1-	N3.2n	N3.2-: Size: Small	t1
 steps	steps	step	NOUN	Number=Plur	M1,T1.2,H5,A1.1.1,K1@	M1	M1: Moving, coming and going	t2
 have	have	have	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -1188,7 +1188,7 @@ taken	taken	take	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,T1.3,C1,A1.1.1,M2,
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s50">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s50" senti_3="Negative" senti_6="mixed negative" senti_n="1.001">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 Minister	Minister	minister	NOUN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Government|S2: People	t2
 has	has	have	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -1220,7 +1220,7 @@ yet	yet	yet	ADV	-	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t24
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s51">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s51" senti_3="Neutral" senti_6="neutral negative" senti_n="2.248">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 permanent	permanent	permanent	ADJ	Degree=Pos	T2+++	T2p	T2+: Time: Beginning	t2
 prohibition	prohibition	prohibition	NOUN	Number=Sing	F2,S7.4-	F2	F2: Drinks and alcohol	t3
@@ -1239,7 +1239,7 @@ regulation	regulation	regulation	NOUN	Number=Sing	G2.1,A1.7+/G1.1	G2.1	G2.1: Law
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s52">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s52" senti_3="Neutral" senti_6="neutral negative" senti_n="1.849">
 More	More	more	ADJ	Degree=Cmp	Z3c	Z3	Z3: Other proper names	t1
 action	action	action	NOUN	Number=Sing	A1.1.1,G3	A1.1.1	A1.1.1: General actions / making	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -1260,7 +1260,7 @@ money	money	money	NOUN	Number=Sing	I1	I1	I1: Money generally	t17
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s53">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s53" senti_3="Negative" senti_6="mixed negative" senti_n="0.525">
 They	They	they	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pronouns	t1
 have	have	have	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1308,7 +1308,7 @@ thing	thing	thing	NOUN	Number=Sing	O2,X4.1,A7-,S2mf,L2mf	O2	O2: Objects generall
 </s>
 </p>
 <p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg10" lang="English">
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s54">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s54" senti_3="Neutral" senti_6="neutral positive" senti_n="2.693">
 Does	Does	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t1
 cashing	cashing	cash	VERB	Tense=Pres VerbForm=Part	I1	I1	I1: Money generally	t2
 out	out	out	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1319,7 +1319,7 @@ trust	trust	trust	NOUN	Number=Sing	E6+,I1.1,S5+c,B3/H1c	E6p	E6+: Confident	t7
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s55">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s55" senti_3="Neutral" senti_6="neutral positive" senti_n="2.769">
 Does	Does	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t1
 that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 contribute	contribute	contribute	VERB	VerbForm=Inf	A9-,A2.2,S1.1.3+	A9n	A9-: Giving	t3
@@ -1328,7 +1328,7 @@ legitimacy	legitimacy	legitimacy	NOUN	Number=Sing	G2.2+	G2.2p	G2.2+: Ethical	t5
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s56">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s56" senti_3="Positive" senti_6="mixed positive" senti_n="4.142">
 Does	Does	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t1
 that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 contribute	contribute	contribute	VERB	VerbForm=Inf	A9-,A2.2,S1.1.3+	A9n	A9-: Giving	t3
@@ -1389,9 +1389,9 @@ ceiling	ceiling	ceiling	NOUN	Number=Sing	H2,N5.1+	H2	H2: Parts of buildings	t44
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-NL_2017-01-26-tweedekamer-4.u242" text_id="ParlaMint-NL-en_2017-01-26-tweedekamer-4" subcorpus="Reference" lang="English" body="Lower house" term="Meeting of the 28th Tweede Kamer" session="Session 4" meeting="Meeting 45" sitting="Sitting 2017-01-26" agenda="-" date="2017-01-26" title="Report of the meeting of the Dutch Lower House, Meeting 45, Session 4 (2017-01-26)" speaker_role="Chairperson" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="Coalition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
+<speech id="ParlaMint-NL_2017-01-26-tweedekamer-4.u242" text_id="ParlaMint-NL-en_2017-01-26-tweedekamer-4" subcorpus="Reference" lang="English" body="Lower house" term="Meeting of the 28th Tweede Kamer" session="Session 4" meeting="Meeting 45" sitting="Sitting 2017-01-26" agenda="-" date="2017-01-26" title="Report of the meeting of the Dutch Lower House, Meeting 45, Session 4 (2017-01-26)" speaker_role="Chairperson" topic="Other" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="Coalition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
 <p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg352" lang="English">
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2086">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2086" senti_3="Neutral" senti_6="neutral positive" senti_n="3.217">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 brings	brings	bring	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -1406,7 +1406,7 @@ debate	debate	debate	NOUN	Number=Sing	Q2.2	Q2.2	Q2.2: Speech acts	t9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2087">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2087" senti_3="Positive" senti_6="mixed positive" senti_n="4.101">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 worked	worked	work	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	I3.1,A1.1.1,X9.2+,A2.1+,A2.2	I3.1	I3.1: Work and employment: Generally	t2
 out	out	out	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1422,9 +1422,9 @@ anyway	anyway	anyway	ADV	-	Z4,A13.7	Z4	Z4: Discourse Bin	t6
 </speech>
 <note type="comment" content="The general debate is closed."/>
 <note type="speaker" content="The President"/>
-<speech id="ParlaMint-NL_2017-01-26-tweedekamer-4.u243" text_id="ParlaMint-NL-en_2017-01-26-tweedekamer-4" subcorpus="Reference" lang="English" body="Lower house" term="Meeting of the 28th Tweede Kamer" session="Session 4" meeting="Meeting 45" sitting="Sitting 2017-01-26" agenda="-" date="2017-01-26" title="Report of the meeting of the Dutch Lower House, Meeting 45, Session 4 (2017-01-26)" speaker_role="Chairperson" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="Coalition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
+<speech id="ParlaMint-NL_2017-01-26-tweedekamer-4.u243" text_id="ParlaMint-NL-en_2017-01-26-tweedekamer-4" subcorpus="Reference" lang="English" body="Lower house" term="Meeting of the 28th Tweede Kamer" session="Session 4" meeting="Meeting 45" sitting="Sitting 2017-01-26" agenda="-" date="2017-01-26" title="Report of the meeting of the Dutch Lower House, Meeting 45, Session 4 (2017-01-26)" speaker_role="Chairperson" topic="Other" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="Coalition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
 <p id="ParlaMint-NL_2017-01-26-tweedekamer-4.seg353" lang="English">
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2089">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2089" senti_3="Neutral" senti_6="neutral negative" senti_n="1.722">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 thank	thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	S1.2.4+	S1.2.4p	S1.2.4+: Polite	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -1458,7 +1458,7 @@ experience	experience	experience	NOUN	Number=Sing	X2.2+,X9.1+,I3.2,A2.1+/A3+,X3	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2090">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2090" senti_3="Positive" senti_6="mixed positive" senti_n="4.001">
 Thanks	Thanks	thanks	NOUN	Number=Sing	S1.2.4+	S1.2.4p	S1.2.4+: Polite	t1
 also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t2
 for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1472,7 +1472,7 @@ term	term	term	NOUN	Number=Sing	Q3,T1.3,S6+	Q3	Q3: Language, speech and grammar	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2091">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2091" senti_3="Positive" senti_6="positive" senti_n="5.273">
 Greetings	Greetings	greeting	NOUN	Number=Plur	Q2.2/S1.2.4+	Q2.2 S1.2.4p	Q2.2: Speech acts|S1.2.4+: Polite	t1
 for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -1485,7 +1485,7 @@ supporters	supporters	supporter	NOUN	Number=Plur	S8+/S2mf,K5.1/S2mf,Q1.1%	S8p S2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2092">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2092" senti_3="Positive" senti_6="positive" senti_n="4.523">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -1495,7 +1495,7 @@ moment	moment	moment	NOUN	Number=Sing	T1.2,T1.1.2,N3	T1.2	T1.2: Time: Momentary	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2093">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2093" senti_3="Positive" senti_6="mixed positive" senti_n="4.455">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 thank	thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	S1.2.4+	S1.2.4p	S1.2.4+: Polite	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -1506,7 +1506,7 @@ advice	advice	advice	NOUN	Number=Sing	Q2.2/S8+	Q2.2 S8p	Q2.2: Speech acts|S8+: H
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2094">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2094" senti_3="Positive" senti_6="positive" senti_n="5.007">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t3
@@ -1535,7 +1535,7 @@ time	time	time	NOUN	Number=Sing	T1,T1.2,T1.3,T1.1.2,N6,N1,K2,G2.1@	T1	T1: Time	t
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2095">
+<s id="ParlaMint-NL_2017-01-26-tweedekamer-4.s2095" senti_3="Neutral" senti_6="neutral positive" senti_n="3.380">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 votes	votes	vote	NOUN	Number=Plur	G1.2	G1.2	G1.2: Politics	t2
 are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3

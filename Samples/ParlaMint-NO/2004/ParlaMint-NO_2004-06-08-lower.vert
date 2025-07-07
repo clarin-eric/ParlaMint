@@ -2,9 +2,9 @@
 <note type="comment" content="Innstilling fra kommunalkomiteen om forslag fra stortingsrepresentantene Carl I. Hagen, Per Sandberg og Jan Arild Ellingsen om lov om endring i lov 24. juni 1988 nr. 64 om utlendingers adgang til riket og deres opphold her (utlendingsloven) (Særregler av hensyn til rikets sikkerhet)"/>
 <note type="comment" content="(Innst. O. nr. 89 (2003-2004), jf. Dokument nr. 8:47 (2003-2004))"/>
 <note type="speaker" content="Per Sandberg (FrP) [19:15:42]:"/>
-<speech id="ParlaMint-NO_2004-06-08-lower.ud1454e48" text_id="ParlaMint-NO_2004-06-08-lower" subcorpus="Reference" lang="Norsk bokmål" body="Lower house" term="Term 2001-2005" session="Session 2003-2004" meeting="-" sitting="Sitting day 2004-06-08" agenda="-" date="2004-06-08" title="Referat fra møte i Stortinget, Stortingsperiode 2001-2005, sesjon 2003-2004, møtedag 2004-06-08" speaker_role="Regular" speaker_id="person.PES" speaker_name="Sandberg, Per" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FrP" speaker_party_name="Fremskrittspartiet" party_status="-" party_orientation="Right" speaker_gender="M" speaker_birth="1960">
+<speech id="ParlaMint-NO_2004-06-08-lower.ud1454e48" text_id="ParlaMint-NO_2004-06-08-lower" subcorpus="Reference" lang="Norsk bokmål" body="Lower house" term="Term 2001-2005" session="Session 2003-2004" meeting="-" sitting="Sitting day 2004-06-08" agenda="-" date="2004-06-08" title="Referat fra møte i Stortinget, Stortingsperiode 2001-2005, sesjon 2003-2004, møtedag 2004-06-08" speaker_role="Regular" topic="International Affairs" speaker_id="person.PES" speaker_name="Sandberg, Per" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FrP" speaker_party_name="Fremskrittspartiet" party_status="-" party_orientation="Right" speaker_gender="M" speaker_birth="1960">
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.1" senti_3="Negative" senti_6="mixed negative" senti_n="1.469">
 Jeg	Jeg	jeg	PRON	Animacy=Hum Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	legge	VERB	VerbForm=Inf	4
 skal	skal	skulle	AUX	Mood=Ind Tense=Pres VerbForm=Fin	2	aux	legge	VERB	VerbForm=Inf	4
 ikke	ikke	ikke	PART	Polarity=Neg	3	advmod	legge	VERB	VerbForm=Inf	4
@@ -16,7 +16,7 @@ debatt	debatt	debatt	NOUN	Definite=Ind Gender=Masc Number=Sing	8	obl	legge	VERB	
 <g/>
 .	.	.	PUNCT	-	9	punct	legge	VERB	VerbForm=Inf	4
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.2">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.627">
 Den	Den	den	PRON	Gender=Fem,Masc Number=Sing Person=3 PronType=Prs	1	obj	ta	VERB	Mood=Ind Tense=Past VerbForm=Fin	2
 tok	tok	ta	VERB	Mood=Ind Tense=Past VerbForm=Fin	2	root	-	-	-	-
 vi	vi	vi	PRON	Animacy=Hum Case=Nom Number=Plur Person=1 PronType=Prs	3	nsubj	ta	VERB	Mood=Ind Tense=Past VerbForm=Fin	2
@@ -34,7 +34,7 @@ sak	sak	sak	NOUN	Definite=Ind Gender=Fem Number=Sing	11	obl	ta	VERB	Mood=Ind Ten
 nr.	nr.	nr.	NOUN	Abbr=Yes	12	obl	3.	NUM	NumType=Card Number=Plur	13
 3.	3.	3.	NUM	NumType=Card Number=Plur	13	nmod	sak	NOUN	Definite=Ind Gender=Fem Number=Sing	11
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.3">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.3" senti_3="Neutral" senti_6="neutral negative" senti_n="1.826">
 Men	Men	men	CCONJ	-	1	cc	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3
 det	det	det	PRON	Gender=Neut Number=Sing Person=3 PronType=Prs	2	expl	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3
 er	er	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3	root	-	-	-	-
@@ -79,7 +79,7 @@ protokollen	protokollen	protokoll	NOUN	Definite=Def Gender=Masc Number=Sing	37	o
 <g/>
 .	.	.	PUNCT	-	38	punct	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.4">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.4" senti_3="Neutral" senti_6="neutral negative" senti_n="2.403">
 I	I	i	ADP	-	1	case	brev	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 brev	brev	brev	NOUN	Definite=Ind Gender=Neut Number=Sing	2	obl	skrive	VERB	Mood=Ind Tense=Pres VerbForm=Fin	15
 til	til	til	ADP	-	3	case	komité	NOUN	Definite=Def Gender=Masc Number=Sing	4
@@ -101,7 +101,7 @@ statsråden	statsråden	statsråd	NOUN	Definite=Def Gender=Masc Number=Sing	16	n
 </s>
 </p>
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.1" senti_3="Negative" senti_6="mixed negative" senti_n="0.630">
 "	"	"	PUNCT	-	1	punct	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3
 <g/>
 Jeg	Jeg	jeg	PRON	Animacy=Hum Case=Nom Number=Sing Person=1 PronType=Prs	2	nsubj	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3
@@ -135,7 +135,7 @@ hensyn	hensyn	hensyn	NOUN	Definite=Ind Gender=Neut Number=Plur	29	nmod	element	N
 <g/>
 .	.	.	PUNCT	-	30	punct	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.2">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.578">
 Dette	Dette	dette	PRON	Gender=Neut Number=Sing Person=3 PronType=Prs	1	nsubj	gjelde	VERB	VerbForm=Inf	6
 ville	ville	ville	AUX	Mood=Ind Tense=Past VerbForm=Fin	2	aux	gjelde	VERB	VerbForm=Inf	6
 for	for	for	ADP	-	3	case	eksempel	NOUN	Definite=Ind Gender=Neut Number=Sing	4
@@ -164,7 +164,7 @@ enkeltsaker	enkeltsaker	enkeltsak	NOUN	Definite=Ind Gender=Fem Number=Plur	24	nm
 <g/>
 .	.	.	PUNCT	-	25	punct	gjelde	VERB	VerbForm=Inf	6
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.3">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.3" senti_3="Neutral" senti_6="neutral postive" senti_n="2.583">
 Jeg	Jeg	jeg	PRON	Animacy=Hum Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 ser	ser	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 det	det	det	PRON	Gender=Neut Number=Sing Person=3 PronType=Prs	3	expl	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
@@ -192,7 +192,7 @@ vurdering	vurdering	vurdering	NOUN	Definite=Ind Gender=Fem Number=Sing	20	obl	le
 </s>
 </p>
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.1" senti_3="Negative" senti_6="mixed negative" senti_n="0.608">
 Mitt	Mitt	min	PRON	Gender=Neut Number=Sing Poss=Yes PronType=Prs	1	nmod	spørsmål	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 spørsmål	spørsmål	spørsmål	NOUN	Definite=Ind Gender=Neut Number=Sing	2	nsubj	uklar	ADJ	Definite=Ind Degree=Pos Gender=Neut Number=Sing	7
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin	3	cop	uklar	ADJ	Definite=Ind Degree=Pos Gender=Neut Number=Sing	7
@@ -213,7 +213,7 @@ det	det	det	PRON	Gender=Neut Number=Sing Person=3 PronType=Prs	16	obl	ha	VERB	Mo
 <g/>
 ?	?	?	PUNCT	-	17	punct	uklar	ADJ	Definite=Ind Degree=Pos Gender=Neut Number=Sing	7
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.2">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.503">
 For	For	for	CCONJ	-	1	cc	prøve	VERB	VerbForm=Part	11
 jeg	jeg	jeg	PRON	Animacy=Hum Case=Nom Number=Sing Person=1 PronType=Prs	2	nsubj	prøve	VERB	VerbForm=Part	11
 har	har	ha	AUX	Mood=Ind Tense=Pres VerbForm=Fin	3	aux	prøve	VERB	VerbForm=Part	11
@@ -244,7 +244,7 @@ statsråden	statsråden	statsråd	NOUN	Definite=Def Gender=Masc Number=Sing	27	c
 <g/>
 .	.	.	PUNCT	-	28	punct	prøve	VERB	VerbForm=Part	11
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.3">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.3" senti_3="Neutral" senti_6="neutral negative" senti_n="1.811">
 Slik	Slik	slik	ADV	-	1	advmod	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin	7
 jeg	jeg	jeg	PRON	Animacy=Hum Case=Nom Number=Sing Person=1 PronType=Prs	2	nsubj	forstå	VERB	VerbForm=Part	4
 har	har	ha	AUX	Mood=Ind Tense=Pres VerbForm=Fin	3	aux	forstå	VERB	VerbForm=Part	4
@@ -294,7 +294,7 @@ i	i	i	ADP	-	43	case	år	NOUN	Definite=Def Gender=Neut Number=Sing	44
 <g/>
 .	.	.	PUNCT	-	45	punct	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin	7
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.4">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.4" senti_3="Negative" senti_6="mixed negative" senti_n="0.973">
 Jeg	Jeg	jeg	PRON	Animacy=Hum Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 ser	ser	se	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 at	at	at	SCONJ	-	3	mark	prøve	VERB	Mood=Ind Tense=Pres VerbForm=Fin	5
@@ -367,9 +367,9 @@ saker	saker	sak	NOUN	Definite=Ind Gender=Fem Number=Plur	62	obl	få	VERB	VerbFor
 </p>
 </speech>
 <note type="speaker" content="Statsråd Erna Solberg [19:17:59]:"/>
-<speech id="ParlaMint-NO_2004-06-08-lower.ud1454e58" text_id="ParlaMint-NO_2004-06-08-lower" subcorpus="Reference" lang="Norsk bokmål" body="Lower house" term="Term 2001-2005" session="Session 2003-2004" meeting="-" sitting="Sitting day 2004-06-08" agenda="-" date="2004-06-08" title="Referat fra møte i Stortinget, Stortingsperiode 2001-2005, sesjon 2003-2004, møtedag 2004-06-08" speaker_role="Regular" speaker_id="person.ES" speaker_name="Solberg, Erna" speaker_mp="MP" speaker_minister="Minister" speaker_party="H" speaker_party_name="Høyre" party_status="Coalition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="1961">
+<speech id="ParlaMint-NO_2004-06-08-lower.ud1454e58" text_id="ParlaMint-NO_2004-06-08-lower" subcorpus="Reference" lang="Norsk bokmål" body="Lower house" term="Term 2001-2005" session="Session 2003-2004" meeting="-" sitting="Sitting day 2004-06-08" agenda="-" date="2004-06-08" title="Referat fra møte i Stortinget, Stortingsperiode 2001-2005, sesjon 2003-2004, møtedag 2004-06-08" speaker_role="Regular" topic="International Affairs" speaker_id="person.ES" speaker_name="Solberg, Erna" speaker_mp="MP" speaker_minister="Minister" speaker_party="H" speaker_party_name="Høyre" party_status="Coalition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="1961">
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.778">
 Det	Det	det	PRON	Gender=Neut Number=Sing Person=3 PronType=Prs	1	expl	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 er	er	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 en	en	en	DET	Gender=Masc Number=Sing PronType=Art	3	det	rekke	NOUN	Definite=Ind Gender=Masc Number=Sing	5
@@ -410,7 +410,7 @@ det	det	det	PRON	Gender=Neut Number=Sing Person=3 PronType=Prs	36	obj	ha	VERB	Ve
 <g/>
 .	.	.	PUNCT	-	37	punct	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.2">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.787">
 For	For	for	CCONJ	-	1	cc	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3
 det	det	det	PRON	Gender=Neut Number=Sing Person=3 PronType=Prs	2	expl	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3
 er	er	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3	root	-	-	-	-
@@ -430,7 +430,7 @@ vurdere	vurdere	vurdere	VERB	VerbForm=Inf	14	advcl	be	VERB	Mood=Ind Tense=Pres V
 <g/>
 .	.	.	PUNCT	-	15	punct	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.3">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.166">
 Det	Det	det	PRON	Gender=Neut Number=Sing Person=3 PronType=Prs	1	nsubj	gjelde	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 gjelder	gjelder	gjelde	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 bakgrunn	bakgrunn	bakgrunn	NOUN	Definite=Ind Gender=Masc Number=Sing	3	obj	gjelde	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
@@ -452,7 +452,7 @@ historier	historier	historie	NOUN	Definite=Ind Gender=Fem Number=Plur	17	obj	bek
 <g/>
 .	.	.	PUNCT	-	18	punct	gjelde	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.4">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.4" senti_3="Neutral" senti_6="neutral negative" senti_n="1.829">
 I	I	i	ADP	-	1	case	sammenheng	NOUN	Definite=Def Gender=Masc Number=Sing	3
 den	den	den	DET	Gender=Masc Number=Sing PronType=Dem	2	det	sammenheng	NOUN	Definite=Def Gender=Masc Number=Sing	3
 sammenhengen	sammenhengen	sammenheng	NOUN	Definite=Def Gender=Masc Number=Sing	3	obl	komme	VERB	VerbForm=Inf	7
@@ -477,7 +477,7 @@ ikke	ikke	ikke	PART	Polarity=Neg	21	conj	sak	NOUN	Definite=Ind Gender=Masc Numbe
 <g/>
 .	.	.	PUNCT	-	22	punct	komme	VERB	VerbForm=Inf	7
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.5">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.5" senti_3="Neutral" senti_6="neutral negative" senti_n="2.263">
 Derfor	Derfor	derfor	ADV	-	1	advmod	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 er	er	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 det	det	det	PRON	Gender=Neut Number=Sing Person=3 PronType=Prs	3	expl	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
@@ -528,7 +528,7 @@ sikkerhet	sikkerhet	sikkerhet	NOUN	Definite=Ind Gender=Fem Number=Sing	43	nmod	s
 </s>
 </p>
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e63" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e63.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e63.1" senti_3="Negative" senti_6="mixed negative" senti_n="1.385">
 Hvis	Hvis	hvis	SCONJ	-	1	mark	førsteinstans	NOUN	Definite=Ind Gender=Masc Number=Sing	5
 vi	vi	vi	PRON	Animacy=Hum Case=Nom Number=Plur Person=1 PronType=Prs	2	nsubj	førsteinstans	NOUN	Definite=Ind Gender=Masc Number=Sing	5
 skulle	skulle	skulle	AUX	Mood=Ind Tense=Past VerbForm=Fin	3	aux	førsteinstans	NOUN	Definite=Ind Gender=Masc Number=Sing	5
@@ -612,7 +612,7 @@ det	det	det	PRON	Gender=Neut Number=Sing Person=3 PronType=Prs	75	obj	gjøre	VER
 </s>
 </p>
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.1" senti_3="Negative" senti_6="negative" senti_n="0.464">
 Jeg	Jeg	jeg	PRON	Animacy=Hum Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	si	VERB	VerbForm=Inf	7
 kan	kan	kunne	AUX	Mood=Ind Tense=Pres VerbForm=Fin	2	aux	si	VERB	VerbForm=Inf	7
 ikke	ikke	ikke	PART	Polarity=Neg	3	advmod	si	VERB	VerbForm=Inf	7
@@ -640,7 +640,7 @@ ut	ut	ut	ADP	-	23	compound:prt	se	VERB	VerbForm=Part	19
 <g/>
 .	.	.	PUNCT	-	24	punct	si	VERB	VerbForm=Inf	7
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.2">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.405">
 Hele	Hele	hel	ADJ	Definite=Def Degree=Pos Number=Sing	1	amod	poeng	NOUN	Definite=Ind Gender=Neut Number=Sing	3
 vårt	vårt	vår	PRON	Gender=Neut Number=Sing Poss=Yes PronType=Prs	2	nmod	poeng	NOUN	Definite=Ind Gender=Neut Number=Sing	3
 poeng	poeng	poeng	NOUN	Definite=Ind Gender=Neut Number=Sing	3	nsubj	innebære	VERB	Mood=Ind Tense=Pres VerbForm=Fin	14
@@ -696,7 +696,7 @@ ikke	ikke	ikke	PART	Polarity=Neg	47	conj	instruere	VERB	VerbForm=Inf	40
 <g/>
 .	.	.	PUNCT	-	48	punct	innebære	VERB	Mood=Ind Tense=Pres VerbForm=Fin	14
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.3">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.3" senti_3="Neutral" senti_6="neutral negative" senti_n="1.824">
 Det	Det	det	PRON	Gender=Neut Number=Sing Person=3 PronType=Prs	1	expl	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 har	har	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 noe	noe	noe	PRON	Gender=Neut Number=Sing Person=3 PronType=Ind,Prs	3	obj	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
@@ -747,7 +747,7 @@ disse	disse	disse	PRON	Number=Plur Person=3 PronType=Prs	42	nmod	vurdering	NOUN	
 <g/>
 .	.	.	PUNCT	-	43	punct	ha	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.4">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.4" senti_3="Neutral" senti_6="neutral negative" senti_n="2.073">
 Det	Det	det	PRON	Gender=Neut Number=Sing Person=3 PronType=Prs	1	expl	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 er	er	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 relativt	relativt	relativ	ADJ	Definite=Ind Degree=Pos Gender=Neut Number=Sing	3	advmod	få	ADJ	Degree=Pos Number=Plur	4
@@ -774,7 +774,7 @@ noen	noen	noen	PRON	Gender=Fem,Masc Number=Sing Person=3 PronType=Ind,Prs	22	obj
 <g/>
 .	.	.	PUNCT	-	23	punct	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.5">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.5" senti_3="Neutral" senti_6="neutral postive" senti_n="2.987">
 Og	Og	og	CCONJ	-	1	cc	lage	VERB	VerbForm=Part	8
 på	på	på	ADP	-	2	case	bakgrunn	NOUN	Definite=Ind Gender=Masc Number=Sing	3
 bakgrunn	bakgrunn	bakgrunn	NOUN	Definite=Ind Gender=Masc Number=Sing	3	obl	lage	VERB	VerbForm=Part	8
@@ -800,7 +800,7 @@ opp	opp	opp	ADP	-	20	compound:prt	dukke	VERB	Mood=Ind Tense=Pres VerbForm=Fin	19
 </s>
 </p>
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e67" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e67.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e67.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.007">
 Jeg	Jeg	jeg	PRON	Animacy=Hum Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	mene	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 mener	mener	mene	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 i	i	i	ADP	-	3	case	realitet	NOUN	Definite=Def Gender=Masc Number=Sing	4
@@ -849,7 +849,7 @@ instans	instans	instans	NOUN	Definite=Ind Gender=Masc Number=Sing	43	obl	instrue
 <g/>
 .	.	.	PUNCT	-	44	punct	mene	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e67.2">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e67.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.418">
 Men	Men	men	CCONJ	-	1	cc	forutsette	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3
 det	det	det	PRON	Gender=Neut Number=Sing Person=3 PronType=Prs	2	nsubj	forutsette	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3
 forutsetter	forutsetter	forutsette	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3	root	-	-	-	-
@@ -888,7 +888,7 @@ saker	saker	sak	NOUN	Definite=Ind Gender=Fem Number=Plur	28	obl	fungere	VERB	Moo
 </s>
 </p>
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.521">
 Jeg	Jeg	jeg	PRON	Animacy=Hum Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	sikker	ADJ	Definite=Ind Degree=Pos Number=Sing	4
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin	2	cop	sikker	ADJ	Definite=Ind Degree=Pos Number=Sing	4
 ikke	ikke	ikke	PART	Polarity=Neg	3	advmod	sikker	ADJ	Definite=Ind Degree=Pos Number=Sing	4
@@ -964,7 +964,7 @@ problemer	problemer	problem	NOUN	Definite=Ind Gender=Neut Number=Plur	70	nsubj	v
 <g/>
 .	.	.	PUNCT	-	71	punct	sikker	ADJ	Definite=Ind Degree=Pos Number=Sing	4
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.2">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.305">
 I	I	i	ADP	-	1	case	screening	NOUN	Definite=Def Gender=Masc Number=Sing	3
 den	den	den	DET	Gender=Masc Number=Sing PronType=Dem	2	det	screening	NOUN	Definite=Def Gender=Masc Number=Sing	3
 screeningen	screeningen	screening	NOUN	Definite=Def Gender=Masc Number=Sing	3	obl	gjøre	VERB	Mood=Ind Tense=Pres VerbForm=Fin	10
@@ -1013,7 +1013,7 @@ foreslått	foreslått	foreslå	VERB	VerbForm=Part	42	acl:relcl	vedtak	NOUN	Defin
 <g/>
 .	.	.	PUNCT	-	43	punct	gjøre	VERB	Mood=Ind Tense=Pres VerbForm=Fin	10
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.3">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.3" senti_3="Neutral" senti_6="neutral postive" senti_n="2.934">
 Vi	Vi	vi	PRON	Animacy=Hum Case=Nom Number=Plur Person=1 PronType=Prs	1	nsubj	ha	VERB	VerbForm=Inf	4
 vil	vil	ville	AUX	Mood=Ind Tense=Pres VerbForm=Fin	2	aux	ha	VERB	VerbForm=Inf	4
 da	da	da	ADV	-	3	advmod	ha	VERB	VerbForm=Inf	4
@@ -1031,7 +1031,7 @@ instans	instans	instans	NOUN	Definite=Ind Gender=Masc Number=Sing	12	nmod	behand
 </s>
 </p>
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e71" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.1" senti_3="Negative" senti_6="mixed negative" senti_n="0.640">
 Jeg	Jeg	jeg	PRON	Animacy=Hum Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	enig	ADJ	Definite=Ind Degree=Pos Number=Sing	4
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin	2	cop	enig	ADJ	Definite=Ind Degree=Pos Number=Sing	4
 helt	helt	hel	ADJ	Definite=Ind Degree=Pos Gender=Neut Number=Sing	3	advmod	enig	ADJ	Definite=Ind Degree=Pos Number=Sing	4
@@ -1088,7 +1088,7 @@ instans	instans	instans	NOUN	Definite=Ind Gender=Masc Number=Sing	51	obl	foreta	
 <g/>
 .	.	.	PUNCT	-	52	punct	enig	ADJ	Definite=Ind Degree=Pos Number=Sing	4
 </s>
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.2">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.423">
 Men	Men	men	CCONJ	-	1	cc	vi	PRON	Animacy=Hum Case=Nom Number=Plur Person=1 PronType=Prs	5
 det	det	det	PRON	Gender=Neut Number=Sing Person=3 PronType=Prs	2	expl	vi	PRON	Animacy=Hum Case=Nom Number=Plur Person=1 PronType=Prs	5
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin	3	cop	vi	PRON	Animacy=Hum Case=Nom Number=Plur Person=1 PronType=Prs	5
@@ -1121,9 +1121,9 @@ være	være	være	AUX	VerbForm=Inf	25	cop	hva	PRON	PronType=Int	22
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-NO_2004-06-08-lower.ud1454e672" text_id="ParlaMint-NO_2004-06-08-lower" subcorpus="Reference" lang="Norsk nynorsk" body="Lower house" term="Term 2001-2005" session="Session 2003-2004" meeting="-" sitting="Sitting day 2004-06-08" agenda="-" date="2004-06-08" title="Referat fra møte i Stortinget, Stortingsperiode 2001-2005, sesjon 2003-2004, møtedag 2004-06-08" speaker_role="Chairperson" speaker_id="person.HGR" speaker_name="Røys, Heidi Grande" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SV" speaker_party_name="Sosialistisk Venstreparti" party_status="-" party_orientation="Left" speaker_gender="F" speaker_birth="1967">
+<speech id="ParlaMint-NO_2004-06-08-lower.ud1454e672" text_id="ParlaMint-NO_2004-06-08-lower" subcorpus="Reference" lang="Norsk nynorsk" body="Lower house" term="Term 2001-2005" session="Session 2003-2004" meeting="-" sitting="Sitting day 2004-06-08" agenda="-" date="2004-06-08" title="Referat fra møte i Stortinget, Stortingsperiode 2001-2005, sesjon 2003-2004, møtedag 2004-06-08" speaker_role="Chairperson" topic="Other" speaker_id="person.HGR" speaker_name="Røys, Heidi Grande" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SV" speaker_party_name="Sosialistisk Venstreparti" party_status="-" party_orientation="Left" speaker_gender="F" speaker_birth="1967">
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e673" lang="Norsk nynorsk">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e673.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e673.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.334">
 Det	Det	det	PRON	Gender=Neut Number=Sing Person=3 PronType=Prs	1	expl	votere	ADJ	Definite=Ind Gender=Neut Number=Sing VerbForm=Part	3
 vert	vert	verte	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	aux:pass	votere	ADJ	Definite=Ind Gender=Neut Number=Sing VerbForm=Part	3
 votert	votert	votere	ADJ	Definite=Ind Gender=Neut Number=Sing VerbForm=Part	3	root	-	-	-	-
@@ -1143,9 +1143,9 @@ heile	heile	heil	ADJ	Definite=Def Degree=Pos Number=Sing	12	amod	lov	NOUN	Defini
 </speech>
 <note type="comment" content="Votering:"/>
 <note type="comment" content="Overskrifta til lova og lova i det heile vart samrøystes vedteken."/>
-<speech id="ParlaMint-NO_2004-06-08-lower.ud1454e682" text_id="ParlaMint-NO_2004-06-08-lower" subcorpus="Reference" lang="Norsk bokmål" body="Lower house" term="Term 2001-2005" session="Session 2003-2004" meeting="-" sitting="Sitting day 2004-06-08" agenda="-" date="2004-06-08" title="Referat fra møte i Stortinget, Stortingsperiode 2001-2005, sesjon 2003-2004, møtedag 2004-06-08" speaker_role="Chairperson" speaker_id="person.HGR" speaker_name="Røys, Heidi Grande" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SV" speaker_party_name="Sosialistisk Venstreparti" party_status="-" party_orientation="Left" speaker_gender="F" speaker_birth="1967">
+<speech id="ParlaMint-NO_2004-06-08-lower.ud1454e682" text_id="ParlaMint-NO_2004-06-08-lower" subcorpus="Reference" lang="Norsk bokmål" body="Lower house" term="Term 2001-2005" session="Session 2003-2004" meeting="-" sitting="Sitting day 2004-06-08" agenda="-" date="2004-06-08" title="Referat fra møte i Stortinget, Stortingsperiode 2001-2005, sesjon 2003-2004, møtedag 2004-06-08" speaker_role="Chairperson" topic="Other" speaker_id="person.HGR" speaker_name="Røys, Heidi Grande" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SV" speaker_party_name="Sosialistisk Venstreparti" party_status="-" party_orientation="Left" speaker_gender="F" speaker_birth="1967">
 <p id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e683" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e683.1">
+<s id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e683.1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.133">
 Lovvedtaket	Lovvedtaket	lovvedtak	NOUN	Definite=Def Gender=Neut Number=Sing	1	nsubj:pass	sende	ADJ	Definite=Ind Gender=Neut Number=Sing VerbForm=Part	3
 vert	vert	verte	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	aux:pass	sende	ADJ	Definite=Ind Gender=Neut Number=Sing VerbForm=Part	3
 sendt	sendt	sende	ADJ	Definite=Ind Gender=Neut Number=Sing VerbForm=Part	3	root	-	-	-	-

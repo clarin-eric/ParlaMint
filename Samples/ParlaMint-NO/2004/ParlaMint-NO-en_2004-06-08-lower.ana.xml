@@ -15,18 +15,34 @@
                <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
             </respStmt>
             <respStmt>
-               <persName>Taja Kuzman</persName>
-               <persName>Nikola Ljubešić</persName>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
                <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
             </respStmt>
             <respStmt>
-               <persName>Paul Rayson</persName>
-               <persName>Matthew Coole</persName>
-               <persName>John Vidler</persName>
+               <persName ref="https://orcid.org/0000-0002-1257-2191">Paul Rayson</persName>
+               <persName ref="https://orcid.org/0000-0002-9279-931X">Matthew Coole</persName>
+               <persName ref="https://orcid.org/0000-0003-3442-6862">John Vidler</persName>
                <resp xml:lang="en">Annotating MTed corpora with USAS semantic tags</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
             </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="en">European Commission</orgName>
@@ -36,7 +52,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="32" unit="speeches" xml:lang="en">32 speeches</measure>
@@ -49,12 +65,12 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1910</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2006</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -74,6 +90,7 @@
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="div" occurs="6"/>
                <tagUsage gi="head" occurs="3"/>
+               <tagUsage gi="measure" occurs="372"/>
                <tagUsage gi="name" occurs="153"/>
                <tagUsage gi="note" occurs="197"/>
                <tagUsage gi="pc" occurs="832"/>
@@ -103,8 +120,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-16">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
          <change when="2024-05-16">
             <name>Tomaž Erjavec</name>: Generate TEI version of MTed corpus.</change>
          <change when="2021-01-29">
@@ -135,9 +154,10 @@
             <note type="comment" xml:id="ParlaMint-NO_2004-06-08-lower.ana.note15" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.note15">Position of the Municipal Committee on proposals by the Landfill Representatives Carl I. Hagen, Per Sandberg and Jan Arild Ellingsen on the amendment of Law No 24 June 1988 64 on the admission of foreigners to the State and their residence here (Law on Foreign Affairs) (Special rules for the security of the State)</note>
             <note type="comment" xml:id="ParlaMint-NO_2004-06-08-lower.ana.note16" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.note16">(Inc. O. No 89 (2003-2004), cf. Document No 8:47 (2003-2004)</note>
             <note type="speaker" xml:id="ParlaMint-NO_2004-06-08-lower.ana.note17" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.note17">Per Sandberg (FrP) [19:15:42]:</note>
-            <u who="#person.PES" ana="#regular" xml:id="ParlaMint-NO_2004-06-08-lower.ana.ud1454e48" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.ud1454e48">
+            <u who="#person.PES" ana="#regular topic:inter" xml:id="ParlaMint-NO_2004-06-08-lower.ana.ud1454e48" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.ud1454e48">
                <seg xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e51">
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.1" n="1" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.1">
+                     <measure type="sentiment" quantity="1.469" ana="senti:mixneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.1"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8" join="right">I</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.1.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">'m</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.1.t3" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
@@ -155,6 +175,7 @@
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.1.t11" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.2" n="2" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.2">
+                     <measure type="sentiment" quantity="2.627" ana="senti:neupos" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.2"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.2.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
                      <phr type="sem" function="A5.4+" ana="sem:A5.4p">
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.2.t2" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin" lemma="take" function="A5.4+" ana="sem:A5.4p">took</w>
@@ -176,6 +197,7 @@
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.2.t15" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="inlistbox" function="Z99" ana="sem:Z99">inlistbox</w>
                   </s>
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.3" n="3" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.3">
+                     <measure type="sentiment" quantity="1.826" ana="senti:neuneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.3"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.3.t1" pos="CC" msd="UPosTag=CCONJ" lemma="but" function="Z5" ana="sem:Z5">But</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.3.t2" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">there</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.3.t3" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
@@ -224,6 +246,7 @@
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.3.t44" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.4" n="4" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.4">
+                     <measure type="sentiment" quantity="2.403" ana="senti:neuneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.4"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.4.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">In</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.4.t2" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e51.4.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="letter" function="Q1.2,Q3" ana="sem:Q1.2">letter</w>
@@ -255,6 +278,7 @@
                </seg>
                <seg xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e53">
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.1" n="1" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.1">
+                     <measure type="sentiment" quantity="0.630" ana="senti:mixneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.1"/>
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9" join="right">"</pc>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.1.t2" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.1.t3" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="do" function="S1.1.3+,A1.1.1" ana="sem:S1.1.3p" join="right">do</w>
@@ -293,6 +317,7 @@
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.1.t34" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.2" n="2" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.2">
+                     <measure type="sentiment" quantity="1.578" ana="senti:neuneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.2"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.2.t1" pos="IN" msd="UPosTag=ADP" lemma="for" function="Z5" ana="sem:Z5">For</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.2.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="example" function="A4.1" ana="sem:A4.1" join="right">example</w>
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.2.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
@@ -325,6 +350,7 @@
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.2.t28" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.3" n="3" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.3">
+                     <measure type="sentiment" quantity="2.583" ana="senti:neupos" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.3"/>
                      <phr type="sem" function="Z4" ana="sem:Z4">
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.3.t1" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z4" ana="sem:Z4">On</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e53.3.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z4" ana="sem:Z4">the</w>
@@ -367,6 +393,7 @@
                </seg>
                <seg xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e56">
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.1" n="1" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.1">
+                     <measure type="sentiment" quantity="0.608" ana="senti:mixneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.1"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.1.t1" pos="PRP$" msd="UPosTag=PRON|Number=Sing|Person=1|Poss=Yes|PronType=Prs" lemma="my" function="Z8" ana="sem:Z8">My</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="question" function="Q2.2,X4.1" ana="sem:Q2.2">question</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.1.t3" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p" join="right">is</w>
@@ -388,6 +415,7 @@
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.1.t17" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">?</pc>
                   </s>
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.2" n="2" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.2">
+                     <measure type="sentiment" quantity="2.503" ana="senti:neupos" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.2"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.2.t1" pos="IN" msd="UPosTag=ADP" lemma="because" function="Z5/A2.2" ana="sem:Z5 sem:A2.2">Because</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.2.t2" pos="IN" msd="UPosTag=ADP" lemma="as" function="Z5" ana="sem:Z5">as</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.2.t3" pos="CD" msd="UPosTag=NUM|NumForm=Word|NumType=Card" lemma="one" function="N1,T3,T1.2" ana="sem:N1">one</w>
@@ -424,6 +452,7 @@
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.2.t32" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.3" n="3" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.3">
+                     <measure type="sentiment" quantity="1.811" ana="senti:neuneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.3"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.3.t1" pos="IN" msd="UPosTag=SCONJ" lemma="as" function="Z5" ana="sem:Z5">As</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.3.t2" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
                      <phr type="sem" function="A5.4+" ana="sem:A5.4p">
@@ -485,6 +514,7 @@
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.3.t49" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.4" n="4" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.4">
+                     <measure type="sentiment" quantity="0.973" ana="senti:mixneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.4"/>
                      <phr type="sem" function="Z4" ana="sem:Z4">
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.4.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z4" ana="sem:Z4">I</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e56.4.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="see" function="Z4" ana="sem:Z4">see</w>
@@ -570,9 +600,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-NO_2004-06-08-lower.ana.note18" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.note18">Councillor Erna Solberg [19:17:59]:</note>
-            <u who="#person.ES" ana="#regular" xml:id="ParlaMint-NO_2004-06-08-lower.ana.ud1454e58" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.ud1454e58">
+            <u who="#person.ES" ana="#regular topic:inter" xml:id="ParlaMint-NO_2004-06-08-lower.ana.ud1454e58" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.ud1454e58">
                <seg xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e61">
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.1" n="1" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.1">
+                     <measure type="sentiment" quantity="1.778" ana="senti:neuneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.1"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.1.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.1.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.1.t3" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
@@ -611,6 +642,7 @@
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.1.t34" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.2" n="2" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.2">
+                     <measure type="sentiment" quantity="1.787" ana="senti:neuneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.2"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.2.t1" pos="IN" msd="UPosTag=SCONJ" lemma="because" function="Z5/A2.2" ana="sem:Z5 sem:A2.2">Because</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.2.t2" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">there</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.2.t3" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
@@ -633,6 +665,7 @@
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.2.t18" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.3" n="3" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.3">
+                     <measure type="sentiment" quantity="2.166" ana="senti:neuneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.3"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.3.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5" join="right">There</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.3.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A9+,A3+,A2.2,Z5" ana="sem:A9p">'s</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.3.t3" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
@@ -656,6 +689,7 @@
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.3.t19" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.4" n="4" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.4">
+                     <measure type="sentiment" quantity="1.829" ana="senti:neuneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.4"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.4.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">In</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.4.t2" pos="DT" msd="UPosTag=DET|Number=Sing|PronType=Dem" lemma="this" function="M6,Z5,Z8" ana="sem:M6">this</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.4.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="context" function="O4.1/A3+,A2.2,Q3" ana="sem:O4.1 sem:A3p" join="right">context</w>
@@ -681,6 +715,7 @@
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.4.t21" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.5" n="5" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.5">
+                     <measure type="sentiment" quantity="2.263" ana="senti:neuneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.5"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.5.t1" pos="DT" msd="UPosTag=PRON|Number=Sing|PronType=Dem" lemma="that" function="Z5,Z8" ana="sem:Z5">That</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.5.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e61.5.t3" pos="WRB" msd="UPosTag=SCONJ|PronType=Int" lemma="why" function="A2.2" ana="sem:A2.2">why</w>
@@ -737,6 +772,7 @@
                </seg>
                <seg xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e63" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e63">
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e63.1" n="1" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e63.1">
+                     <measure type="sentiment" quantity="1.385" ana="senti:mixneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e63.1"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e63.1.t1" pos="IN" msd="UPosTag=SCONJ" lemma="if" function="Z7" ana="sem:Z7">If</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e63.1.t2" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">we</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e63.1.t3" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">were</w>
@@ -822,6 +858,7 @@
                </seg>
                <seg xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e65">
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.1" n="1" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.1">
+                     <measure type="sentiment" quantity="0.464" ana="senti:negneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.1"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.1.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="can't" function="Z99" ana="sem:Z99">can't</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.1.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="say" function="Q2.1,Z4%" ana="sem:Q2.1">say</w>
@@ -848,6 +885,7 @@
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.1.t24" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.2" n="2" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.2">
+                     <measure type="sentiment" quantity="2.405" ana="senti:neuneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.2"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.2.t1" pos="PRP$" msd="UPosTag=PRON|Number=Plur|Person=1|Poss=Yes|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">Our</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.2.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="whole" function="N5.1+" ana="sem:N5.1p">whole</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.2.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="point" function="Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5" ana="sem:Q2.1">point</w>
@@ -902,6 +940,7 @@
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.2.t50" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.3" n="3" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.3">
+                     <measure type="sentiment" quantity="1.824" ana="senti:neuneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.3"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.3.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.3.t2" pos="VBZ" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="have" function="A9+,Z5,A2.2,S4" ana="sem:A9p">has</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.3.t3" pos="NN" msd="UPosTag=PRON|Number=Sing" lemma="something" function="Z8" ana="sem:Z8">something</w>
@@ -962,6 +1001,7 @@
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.3.t54" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.4" n="4" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.4">
+                     <measure type="sentiment" quantity="2.073" ana="senti:neuneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.4"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.4.t1" pos="EX" msd="UPosTag=PRON" lemma="there" function="Z5" ana="sem:Z5">There</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.4.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">are</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.4.t3" pos="RB" msd="UPosTag=ADV" lemma="relatively" function="A13/A6" ana="sem:A13 sem:A6">relatively</w>
@@ -988,6 +1028,7 @@
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.4.t22" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.5" n="5" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.5">
+                     <measure type="sentiment" quantity="2.987" ana="senti:neupos" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.5"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.5.t1" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">And</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.5.t2" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">on</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e65.5.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -1015,6 +1056,7 @@
                </seg>
                <seg xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e67" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e67">
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e67.1" n="1" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e67.1">
+                     <measure type="sentiment" quantity="2.007" ana="senti:neuneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e67.1"/>
                      <phr type="sem" function="Z4" ana="sem:Z4">
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e67.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z4" ana="sem:Z4">I</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e67.1.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="believe" function="Z4" ana="sem:Z4" join="right">believe</w>
@@ -1075,6 +1117,7 @@
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e67.1.t50" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e67.2" n="2" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e67.2">
+                     <measure type="sentiment" quantity="2.418" ana="senti:neuneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e67.2"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e67.2.t1" pos="RB" msd="UPosTag=ADV" lemma="however" function="Z4" ana="sem:Z4" join="right">However</w>
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e67.2.t2" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e67.2.t3" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
@@ -1123,6 +1166,7 @@
                </seg>
                <seg xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e69">
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.1" n="1" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.1">
+                     <measure type="sentiment" quantity="1.521" ana="senti:neuneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.1"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.1.t2" pos="VBP" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">am</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.1.t3" pos="RB" msd="UPosTag=PART" lemma="not" function="Z6" ana="sem:Z6">not</w>
@@ -1204,6 +1248,7 @@
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.1.t77" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.2" n="2" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.2">
+                     <measure type="sentiment" quantity="2.305" ana="senti:neuneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.2"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.2.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">In</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.2.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.2.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="screen" function="A10-,Q4.3,X2.4,B3" ana="sem:A10n">screening</w>
@@ -1251,6 +1296,7 @@
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.2.t43" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.3" n="3" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.3">
+                     <measure type="sentiment" quantity="2.934" ana="senti:neupos" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.3"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.3.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" lemma="we" function="Z8" ana="sem:Z8">We</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.3.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="would" function="A7+" ana="sem:A7p">would</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e69.3.t3" pos="RB" msd="UPosTag=ADV|PronType=Dem" lemma="then" function="N4,Z5,T1.2" ana="sem:N4">then</w>
@@ -1269,6 +1315,7 @@
                </seg>
                <seg xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e71" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e71">
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.1" n="1" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.1">
+                     <measure type="sentiment" quantity="0.640" ana="senti:mixneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.1"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.1.t2" pos="RB" msd="UPosTag=ADV" lemma="fully" function="A13.2,N5.1+" ana="sem:A13.2">fully</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.1.t3" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="agree" function="A6.1+,Q2.2" ana="sem:A6.1p">agree</w>
@@ -1329,6 +1376,7 @@
 <pc xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.1.t54" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.2" n="2" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.2">
+                     <measure type="sentiment" quantity="2.423" ana="senti:neuneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.2"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.2.t1" pos="CC" msd="UPosTag=CCONJ" lemma="but" function="Z5" ana="sem:Z5">But</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.2.t2" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">it</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e71.2.t3" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
@@ -1366,9 +1414,10 @@
             </gap>
          </div>
          <div type="debateSection" xml:lang="en">
-            <u who="#person.HGR" ana="#chair" xml:id="ParlaMint-NO_2004-06-08-lower.ana.ud1454e672" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.ud1454e672">
+            <u who="#person.HGR" ana="#chair topic:other" xml:id="ParlaMint-NO_2004-06-08-lower.ana.ud1454e672" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.ud1454e672">
                <seg xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e673" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e673">
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e673.1" n="1" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e673.1">
+                     <measure type="sentiment" quantity="2.334" ana="senti:neuneg" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e673.1"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e673.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
                      <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e673.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="title" function="Df/A5.1+++mfnc" ana="sem:A5.1p">title</w>
@@ -1394,9 +1443,10 @@
             </u>
             <note type="comment" xml:id="ParlaMint-NO_2004-06-08-lower.ana.note165" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.note165">Votation:</note>
             <note type="comment" xml:id="ParlaMint-NO_2004-06-08-lower.ana.note166" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.note166">The title of the law and law at all was signed.</note>
-            <u who="#person.HGR" ana="#chair" xml:id="ParlaMint-NO_2004-06-08-lower.ana.ud1454e682" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.ud1454e682">
+            <u who="#person.HGR" ana="#chair topic:other" xml:id="ParlaMint-NO_2004-06-08-lower.ana.ud1454e682" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.ud1454e682">
                <seg xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e683" xml:lang="en" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e683">
                   <s xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e683.1" n="1" corresp="mt-src:ParlaMint-NO_2004-06-08-lower.ana.segd1454e683.1">
+                     <measure type="sentiment" quantity="3.133" ana="senti:neupos" corresp="#ParlaMint-NO_2004-06-08-lower.ana.segd1454e683.1"/>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e683.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e683.1.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="legislative" function="G2.1" ana="sem:G2.1">legislative</w>
 <w xml:id="ParlaMint-NO_2004-06-08-lower.ana.segd1454e683.1.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="decision" function="X6+" ana="sem:X6p">decision</w>

@@ -13,9 +13,17 @@
                <resp xml:lang="nl">Datavergaring en conversie naar TEI</resp>
                <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="nl">De Europese Commissie</orgName>
@@ -27,7 +35,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="90" xml:lang="en">90 speeches</measure>
@@ -43,7 +51,7 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="nl">Deze bestanden zijn beschikbaar volgens de <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
@@ -51,7 +59,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -88,8 +96,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-13">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
          <change when="2021-02-15">
             <name>Henk van der Pol</name>: initial version.</change>
       </revisionDesc>
@@ -112,7 +122,7 @@
             <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note13">- Peter Buysrogge à Philippe Goffin (Affaires étrangères et Défense) sur "Le retard dans le développement des nouvelles frégates" (55006700C)</note>
             <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note14">- Melissa Depraetere à Philippe Goffin (Affaires étrangères et Défense) sur "La construction des nouvelles frégates M" (55006711C)</note>
             <note type="speaker" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note15">01.01 Annick Ponthier (VB):</note>
-            <u ana="#regular" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u1" who="#PonthierAnnick" xml:lang="nl">
+            <u ana="#regular topic:defen" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u1" who="#PonthierAnnick" xml:lang="nl">
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg1" xml:lang="nl">Mijnheer de minister, volgens recente berichten loopt de bouw van de nieuwe multipurpose schepen of M-fregatten voor de Nederlandse en Belgische marine opnieuw vertraging op. Het is momenteel onduidelijk wanneer de schepen effectief in het water zullen liggen. Het zou gaan over tijdrovende en complexe afwegingen over specificaties, offertes en de gewenste termijn van inzetbaarheid.</seg>
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg2" xml:lang="nl">U weet dat in een wereld met toenemende instabiliteit en een veranderende geopolitieke situatie een performante defensie van uitermate groot belang is, vandaar mijn vragen.</seg>
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg3" xml:lang="nl">Kunt u meer duiding geven bij de situatie, alsook een stand van zaken in het hele dossier?</seg>
@@ -122,20 +132,20 @@
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg7" xml:lang="nl">Initieel werd er vooropgesteld om de schepen inzetbaar te hebben tegen 2024. Welke termijn wordt er momenteel vooropgesteld?</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note16">01.02 Sammy Mahdi (CD&amp;V):</note>
-            <u ana="#regular" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u2" who="#MahdiSammy" xml:lang="nl">
+            <u ana="#regular topic:defen" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u2" who="#MahdiSammy" xml:lang="nl">
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg8" xml:lang="nl">Mijnheer de voorzitter, ik sluit mij aan bij de reeds gestelde vragen en zal niet alles nodeloos herhalen. Het is een goede zaak als landen samenwerken, zeker als wij dat doen, zoals in dit geval, samen met Nederland op het vlak van Defensie. Het probleem is wel dat onze Nederlandse collega's verantwoordelijk zijn voor die aankoop. Ik ben benieuwd naar de leveringstermijn. Wanneer zullen de fregatten effectief op zee liggen?</seg>
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg9" xml:lang="nl">Zijn er al contacten geweest met de Nederlandse collega's? Wat hebben die opgeleverd? Zullen alle nodige wapensystemen zoals voorzien aangekocht en geïnstalleerd worden, vermits er problemen zijn met een aantal bestellingen?</seg>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u ana="#regular" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u89" who="#BombledChristophe" xml:lang="fr">
+            <u ana="#regular topic:other" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u89" who="#BombledChristophe" xml:lang="fr">
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg375" xml:lang="fr">Je vous remercie pour vos réponses, je n'ai pas d'autre remarque.</seg>
             </u>
             <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note188">Het incident is gesloten.</note>
             <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note189">L'incident est clos.</note>
             <note type="speaker" xml:lang="nl" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.note190">De voorzitter:</note>
-            <u ana="#chair" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u90" who="#BuysroggePeter" xml:lang="nl">
+            <u ana="#chair topic:other" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u90" who="#BuysroggePeter" xml:lang="nl">
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg376" xml:lang="nl">Tot slot wil ik nog meegeven dat vraag nr. 55006804C van de heer Verduyckt, nr. 55006824C van de heer Bayet en vraag nr. 55006978C van mevrouw Jadin worden omgezet in schriftelijke vragen.</seg>
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg377" xml:lang="nl">De volgende vergadering beginnen we met de samengevoegde vragen nrs. 55006961C, 55007156C, 55007209C en 55007235C van de heer Steven Creyelman, mevrouw Julie Chanson, de heer Sammy Mahdi en mevrouw Julie Chanson.</seg>
             </u>

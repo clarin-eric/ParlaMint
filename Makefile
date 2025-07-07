@@ -96,6 +96,8 @@ setup-parliament-newInParlaMint2:
 	make setup-parliament PARLIAMENT-NAME='Bosnia and Herzegovina' PARLIAMENT-CODE='BA' LANG-LIST='bs (Bosnian)'
 	make setup-parliament PARLIAMENT-NAME='Serbia' PARLIAMENT-CODE='RS' LANG-LIST='sr (Serbian)'
 
+setup-parliament-CanaryIslands:
+	make setup-parliament PARLIAMENT-NAME='Canary Islands' PARLIAMENT-CODE='ES-CN' LANG-LIST='es (Spanish)'
 
 ## initTaxonomies-XX ## initialize taxonomies in folder ParlaMint-XX
 #### parameter LANG-CODE-LIST can contain space separated list of languages
@@ -106,8 +108,9 @@ $(initTaxonomies-XX): initTaxonomies-%: $(addprefix initTaxonomy-%--, $(TAXONOMI
 initTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix initTaxonomy-${X}--, $(TAXONOMIES-TRANSLATE) ) )
 $(initTaxonomy-XX-tt): initTaxonomy-%:
 	@test -z "$(LANG-CODE-LIST)" && echo "WARNING: no language specified in " `echo -n '$*' | sed 's/^.*--//'` " taxonomy preparation" || echo "INFO: preparing " `echo -n '$*' | sed 's/^.*--//'` "taxonomy"
-	@${s} langs="$(LANG-CODE-LIST)" parlamint="ParlaMint-"`echo -n '$*' | sed 's/--.*$$//'` -xsl:Scripts/parlamint-init-taxonomy.xsl \
+	@${s} langs="$(LANG-CODE-LIST)" $(TAXONOMYPARAMS)  parlamint="ParlaMint-"`echo -n '$*' | sed 's/--.*$$//'` -xsl:Scripts/parlamint-init-taxonomy.xsl \
 	  ${SHARED}/Taxonomies/`echo -n '$*.xml' | sed 's/^.*--//'` \
+		| ${formatAndPolish} \
 	  > ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`
 
 copyTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix copyTaxonomy-${X}--, $(TAXONOMIES-COPY) ) )
@@ -117,6 +120,19 @@ $(copyTaxonomy-XX-tt): copyTaxonomy-%:
 	  ${SHARED}/Taxonomies/`echo -n '$*.xml' | sed 's/^.*--//'` \
 	  > ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`
 
+initTaxonomies4release-XX = $(addprefix initTaxonomies4release-, $(PARLIAMENTS))
+$(initTaxonomies4release-XX): initTaxonomies4release-%: $(addprefix initTaxonomy4release-%--, $(TAXONOMIES-TRANSLATE)) $(addprefix copyTaxonomy-%--, $(TAXONOMIES-COPY))
+
+
+initTaxonomy4release-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix initTaxonomy4release-${X}--, $(TAXONOMIES-TRANSLATE) ) )
+$(initTaxonomy4release-XX-tt): initTaxonomy4release-%:
+	$(eval $@_XX := $(shell echo -n '$*' | sed 's/--.*$$//'))
+	$(eval $@_tt := $(shell echo -n '$*' | sed 's/^.*--//'))
+	$(eval $@_langs := $(shell grep 'ParlaMint-$($@_XX)$$' ${SHARED}/Taxonomies/taxonomy-translation-include.tsv|cut -f1|tr "\n" " "|sed "s/ $$//"))
+	@echo "INFO: ParlaMint $($@_XX)"
+	@echo "INFO: Taxonomy $($@_tt)"
+	@echo "INFO: Languages $($@_langs)"
+	make initTaxonomy-$($@_XX)--$($@_tt) LANG-CODE-LIST="$($@_langs)" TAXONOMYPARAMS='if-lang-missing="skip"'
 
 
 translateTaxonomies-XX = $(addprefix translateTaxonomies-, $(PARLIAMENTS))
@@ -143,6 +159,7 @@ $(translateTaxonomy-XX-tt): translateTaxonomy-%:
 	      langs="$($@_langs) -" \
 	      -xsl:Scripts/parlamint-add-translation-to-taxonomy.xsl \
 	      ${SHARED}/Taxonomies/$($@_tt).xml \
+		    | ${formatAndPolish} \
 	      > tmp/temporary-taxonomy.xml \
 	&& echo -n "INFO: validating output taxonomy with new translations: " \
 	&& ${vch_taxonomy} tmp/temporary-taxonomy.xml \
@@ -166,8 +183,9 @@ $(initTaxonomy4translation-XX-tt): initTaxonomy4translation-%:
 	make initTaxonomy-$($@_XX)--$($@_tt) LANG-CODE-LIST="$($@_langs)"
 
 
+## validateTaxonomies-XX ## validate taxonomies in folder ParlaMint-XX
 validateTaxonomies-XX = $(addprefix validateTaxonomies-, $(PARLIAMENTS))
-$(validateTaxonomies-XX): validateTaxonomies-%: $(addprefix validateTaxonomy-%--, $(TAXONOMIES-TRANSLATE))
+$(validateTaxonomies-XX): validateTaxonomies-%: $(addprefix validateTaxonomy-%--, $(TAXONOMIES-TRANSLATE)) validateTaxonomiesSpecific-%
 
 validateTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix validateTaxonomy-${X}--, $(TAXONOMIES-TRANSLATE) ) )
 $(validateTaxonomy-XX-tt): validateTaxonomy-%:
@@ -177,6 +195,54 @@ $(validateTaxonomy-XX-tt): validateTaxonomy-%:
 	&& ${vch_taxonomy} ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'` \
 	&& echo OK \
 	|| echo -n "\nERROR: validation failed  " ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`,"\n"
+
+
+## validateTaxonomiesSpecific-XX ## validate corpus-specific taxonomies in folder ParlaMint-XX
+validateTaxonomiesSpecific-XX = $(addprefix validateTaxonomiesSpecific-, $(PARLIAMENTS))
+$(validateTaxonomiesSpecific-XX): validateTaxonomiesSpecific-%: 
+	@find -H ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-$*-taxonomy*.xml" -exec make --no-print-directory _validateTaxonomySpecific CORPUS=$* SPECIFICTAXONOMY={} \;
+
+_validateTaxonomySpecific:
+	@echo -n "INFO: validating ${CORPUS}-specific taxonomy ${SPECIFICTAXONOMY}\n"
+	@grep -Ho 'xml:id="[^"]*"' ${SPECIFICTAXONOMY} \
+	  | grep -vP '(ParlaMint-${CORPUS}-taxonomy.*)\.xml:xml:id="\1"' \
+	  | grep -vP 'xml:id="${CORPUS}-.*"' \
+		| sed 's/\(.*\):xml:id="\(.*\)"/ERROR: Missing prefix "${CORPUS}-" in xml:id="\2" in \1/'
+	@${vch_taxonomy} ${SPECIFICTAXONOMY} \
+	&& echo schema OK \
+	|| echo -n "\nERROR: schema validation failed ${SPECIFICTAXONOMY}\n"
+
+uniqIdsTaxonomies-XX = $(addprefix uniqIdsTaxonomies-, $(PARLIAMENTS))
+
+$(uniqIdsTaxonomies-XX): uniqIdsTaxonomies-%:
+	@{ if cat ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}/ParlaMint-*taxonomy*.xml|grep -o 'xml:id="[^"]*"'|sort| uniq -d | grep . >/dev/null; then \
+		echo "ERROR: duplicate IDs found"; exit 1; \
+	  else \
+		echo "INFO: No duplicit IDs in taxonomies"; \
+	  fi; }
+
+patchTaxonomiesSpecific-XX = $(addprefix patchTaxonomiesSpecific-, $(PARLIAMENTS))
+$(patchTaxonomiesSpecific-XX): patchTaxonomiesSpecific-%: uniqIdsTaxonomies-%
+	@mkdir ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}.patchTaxonomiesSpecific
+	@rsync -av --quiet --include='*/' --include='*.xml' --exclude='*' ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}/ ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}.patchTaxonomiesSpecific/
+	@find -H ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX} -maxdepth 1 -type f -name "ParlaMint-$*-taxonomy*.xml" -exec make --no-print-directory _patchTaxonomySpecific-getIds CORPUS=$* SPECIFICTAXONOMY={} \; \
+	  > ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}.patchTaxonomiesSpecific/taxonomy-ids.patch
+	@echo "INFO: Patching ids and references to $*-specific taxonomies"
+	@echo -n "INFO: IDs = { "
+	@cat ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}.patchTaxonomiesSpecific/taxonomy-ids.patch | tr "\n" " " 
+	@echo "}"
+	@find ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}.patchTaxonomiesSpecific -type f -name "*.xml" \
+	 | parallel --gnu --halt 2 --jobs 10  'perl ./Scripts/patch-replaceIDs.pl -prefix $* -ids ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}.patchTaxonomiesSpecific/taxonomy-ids.patch < {} > {}.tmp && mv {}.tmp {}'
+	@rm ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}.patchTaxonomiesSpecific/taxonomy-ids.patch
+	@echo "INFO: Taxonomies and references patched: ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}.patchTaxonomiesSpecific"
+
+
+
+_patchTaxonomySpecific-getIds:
+	@grep -Ho 'xml:id="[^"]*"' ${SPECIFICTAXONOMY} \
+	  | grep -vP '(ParlaMint-${CORPUS}-taxonomy.*)\.xml:xml:id="\1"' \
+	  | grep -vP 'xml:id="${CORPUS}-.*"' \
+		| sed 's/"$$//;s/.*="//'
 
 
 #	@cp ${SHARED}/Taxonomies/`echo -n '$*.xml' | sed 's/^.*--//'` \
@@ -899,6 +965,12 @@ $(fix-v2tov3-full-XX): fix-v2tov3-full-%: % working-dir-% fix-v2tov3-%
 	rsync -av ${WORKINGDIR}/fix-v2tov3/ParlaMint-$<${CORPUSDIR_SUFFIX}/ ${WORKINGDIR}/fix-v2tov3-full/ParlaMint-$<${CORPUSDIR_SUFFIX}
 	rsync -av ${WORKINGDIR}/fix-overlapping-affiliations/ParlaMint-$<${CORPUSDIR_SUFFIX}/ ${WORKINGDIR}/fix-v2tov3-full/ParlaMint-$<${CORPUSDIR_SUFFIX}
 
+##! DEV-format-and-polish-XML## format and polish file in XMLFILE variable
+DEV-format-and-polish-XML: $(XMLFILE)
+	file --mime-type $(XMLFILE) | grep -q 'text/xml'
+	cat $(XMLFILE) | ${formatAndPolish} > $(XMLFILE).POLISHED
+	mv $(XMLFILE).POLISHED $(XMLFILE)
+
 
 ##! DEV-data-XX-clone-in-subfolder##
 DEV-data-XX-clone-in-subfolder:
@@ -984,6 +1056,7 @@ vcontent = -xsl:Scripts/validate-parlamint.xsl
 getincludes = -I % java -cp ./Scripts/bin/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
 getheaderincludes = -I % java -cp ./Scripts/bin//saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="teiHeader"]//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
 getcomponentincludes = -I % java -cp ./Scripts/bin/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'/*/*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
+formatAndPolish = tr '\n' ' '| sed 's/  */ /g;s/ \(<\/\)/\1/g;s/\(<[^\/>]*>\) /\1/g' | xmllint --format - | sed 's/  /   /g' | perl Scripts/polish-xml.pl
 pc =  $j Schema/parla-clarin.rng                # Validate with Parla-CLARIN schema
 vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text

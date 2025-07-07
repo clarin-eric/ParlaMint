@@ -1,8 +1,8 @@
 <note type="time" content="The session is resumed at ten in the morning."/>
 <note type="speaker" content="Mr. President:"/>
-<speech id="ParlaMint-ES-GA_2017-05-24-DSPG030.u1" text_id="ParlaMint-ES-GA-en_2017-05-24-DSPG030" subcorpus="Reference" lang="English" body="Unicameralism" term="X Lexislatura" session="-" meeting="Número 030" sitting="24.05.2017" agenda="-" date="2017-05-24" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2017-05-24-DSPG030.u1" text_id="ParlaMint-ES-GA-en_2017-05-24-DSPG030" subcorpus="Reference" lang="English" body="Unicameralism" term="X Lexislatura" session="-" meeting="Número 030" sitting="24.05.2017" agenda="-" date="2017-05-24" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" topic="Energy" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1" lang="English">
-<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1.s1">
+<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.283">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Good	Good	good	ADJ	Degree=Pos	Z4	Z4	Z4: Discourse Bin	t1
 morning	morning	morning	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -22,7 +22,7 @@ session	session	session	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t8
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg2" lang="English">
-<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg2.s1">
+<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg2.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.942">
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 Let	Let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
 us	us	we	PRON	Case=Acc Number=Plur Person=1 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -58,7 +58,7 @@ Union	Union	Union	PROPN	Number=Sing	Z3c	Z3	Z3: Other proper names	t23
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg3" lang="English">
-<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg3.s1">
+<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg3.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.977">
 Ask	Ask	ask	VERB	Mood=Imp VerbForm=Fin	Q2.2	Q2.2	Q2.2: Speech acts	t1
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr.	Mr.	Mr.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -124,9 +124,9 @@ Xallas	Xallas	Xallas	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t45
 </p>
 </speech>
 <note type="speaker" content="Mr. President:"/>
-<speech id="ParlaMint-ES-GA_2017-05-24-DSPG030.u2" text_id="ParlaMint-ES-GA-en_2017-05-24-DSPG030" subcorpus="Reference" lang="English" body="Unicameralism" term="X Lexislatura" session="-" meeting="Número 030" sitting="24.05.2017" agenda="-" date="2017-05-24" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2017-05-24-DSPG030.u2" text_id="ParlaMint-ES-GA-en_2017-05-24-DSPG030" subcorpus="Reference" lang="English" body="Unicameralism" term="X Lexislatura" session="-" meeting="Número 030" sitting="24.05.2017" agenda="-" date="2017-05-24" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" topic="Other" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg4" lang="English">
-<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg4.s1">
+<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg4.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.325">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 have	have	have	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -142,9 +142,9 @@ Pontón	Pontón	Pontón	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t7
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES-GA_2017-05-24-DSPG030.u375" text_id="ParlaMint-ES-GA-en_2017-05-24-DSPG030" subcorpus="Reference" lang="English" body="Unicameralism" term="X Lexislatura" session="-" meeting="Número 030" sitting="24.05.2017" agenda="-" date="2017-05-24" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Regular" speaker_id="RivasJoséLuis" speaker_name="Rivas Cruz, José Luis" speaker_mp="MP" speaker_minister="notMinister" speaker_party="BNG" speaker_party_name="Galician Nationalist Bloc" party_status="Opposition" party_orientation="Left" speaker_gender="M" speaker_birth="1951">
+<speech id="ParlaMint-ES-GA_2017-05-24-DSPG030.u375" text_id="ParlaMint-ES-GA-en_2017-05-24-DSPG030" subcorpus="Reference" lang="English" body="Unicameralism" term="X Lexislatura" session="-" meeting="Número 030" sitting="24.05.2017" agenda="-" date="2017-05-24" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Regular" topic="Other" speaker_id="RivasJoséLuis" speaker_name="Rivas Cruz, José Luis" speaker_mp="MP" speaker_minister="notMinister" speaker_party="BNG" speaker_party_name="Galician Nationalist Bloc" party_status="Opposition" party_orientation="Left" speaker_gender="M" speaker_birth="1951">
 <p id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1156" lang="English">
-<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1156.s1">
+<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1156.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.022">
 They	They	they	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pronouns	t1
 were	were	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 several	several	several	ADJ	Degree=Pos	N5	N5	N5: Quantities	t3
@@ -154,9 +154,9 @@ several	several	several	ADJ	Degree=Pos	N5	N5	N5: Quantities	t3
 </p>
 </speech>
 <note type="speaker" content="Mr. President:"/>
-<speech id="ParlaMint-ES-GA_2017-05-24-DSPG030.u376" text_id="ParlaMint-ES-GA-en_2017-05-24-DSPG030" subcorpus="Reference" lang="English" body="Unicameralism" term="X Lexislatura" session="-" meeting="Número 030" sitting="24.05.2017" agenda="-" date="2017-05-24" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2017-05-24-DSPG030.u376" text_id="ParlaMint-ES-GA-en_2017-05-24-DSPG030" subcorpus="Reference" lang="English" body="Unicameralism" term="X Lexislatura" session="-" meeting="Número 030" sitting="24.05.2017" agenda="-" date="2017-05-24" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" topic="Other" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157" lang="English">
-<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s1">
+<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.696">
 No	No	no	INTJ	Polarity=Neg	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -164,7 +164,7 @@ one	one	one	NUM	NumForm=Word NumType=Card	N1,T3,T1.2	N1	N1: Numbers	t3
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s2">
+<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.112">
 No	No	no	INTJ	Polarity=Neg	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -176,7 +176,7 @@ sorry	sorry	sorry	INTJ	-	Z4,E4.1-,O4.2-	Z4	Z4: Discourse Bin	t5
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
 <note type="-" content="Murmurs."/>
-<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s3">
+<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.162">
 Look	Look	look	VERB	Mood=Imp VerbForm=Fin	A8,X3.4,X2.4,X7+,Z4	A8	A8: Seem	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -231,7 +231,7 @@ debate	debate	debate	NOUN	Number=Sing	Q2.2	Q2.2	Q2.2: Speech acts	t34
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t35
 </s>
-<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s4">
+<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s4" senti_3="Positive" senti_6="mixed positive" senti_n="3.601">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 was	was	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 precisely	precisely	precisely	ADV	-	A4.2+,A5.3+	A4.2p	A4.2+: Detailed	t3
@@ -277,7 +277,7 @@ included	included	include	VERB	Tense=Past VerbForm=Part Voice=Pass	A1.8+	A1.8p	A
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t36
 </s>
-<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s5">
+<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s5" senti_3="Neutral" senti_6="neutral positive" senti_n="2.849">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 what	what	what	PRON	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t3
@@ -285,7 +285,7 @@ happened	happened	happen	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s6">
+<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s6" senti_3="Negative" senti_6="mixed negative" senti_n="0.591">
 As	As	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 amendment	amendment	amendment	NOUN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t3
@@ -321,7 +321,7 @@ on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t26
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s7">
+<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s7" senti_3="Neutral" senti_6="neutral positive" senti_n="3.155">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 was	was	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 no	no	no	DET	-	Z6	Z6	Z6: Negative	t3
@@ -338,7 +338,7 @@ debate	debate	debate	NOUN	Number=Sing	Q2.2	Q2.2	Q2.2: Speech acts	t11
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
 <note type="-" content="Murmurs."/>
-<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s8">
+<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s8" senti_3="Positive" senti_6="mixed positive" senti_n="3.716">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -349,7 +349,7 @@ right	right	right	ADJ	Degree=Pos	A5.3+,A4.2+,A1.2+,G2.2+,M6,N3.2+,A13.3,A13.2	A5
 <note type="-" content="Murmurs."/>
 </p>
 <p id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1158" lang="English">
-<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1158.s1">
+<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1158.s1" senti_3="Negative" senti_6="mixed negative" senti_n="0.601">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 're	're	be	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -380,7 +380,7 @@ n't	n't	not	PART	-	Z6	Z6	Z6: Negative	t16
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1159" lang="English">
-<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1159.s1">
+<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1159.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.134">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 're	're	be	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -392,7 +392,7 @@ full	full	full	ADJ	Degree=Pos	N5.1+,I3.2+	N5.1p	N5.1+: Entire; maximum	t5
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1160" lang="English">
-<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1160.s1">
+<s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1160.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.727">
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 See	See	see	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2

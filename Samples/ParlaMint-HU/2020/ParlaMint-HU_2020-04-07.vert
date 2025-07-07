@@ -1,8 +1,8 @@
 <note type="speaker" content="ELNÖK"/>
-<speech id="u2020-04-07-0" text_id="ParlaMint-HU_2020-04-07" subcorpus="COVID" lang="magyar" body="Egykamarás parlament" term="8. ciklus" session="-" meeting="43. ülés" sitting="2. ülésnap" agenda="-" date="2020-04-07" title="A Magyar Országgyűlés Korpusza ParlaMint-HU, 2020. tavasz ülésszak 43. ülés, 2. ülésnap, 2020-04-07 [ParlaMint.ana]" speaker_role="Házelnök" speaker_id="LatorcaiJanos" speaker_name="Latorcai, János" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KNDP-frakció" speaker_party_name="A Kereszténydemokrata Néppárt parlamenti frakciója a 8. parlamenti ciklusban" party_status="Coalition" party_orientation="Jobboldal" speaker_gender="M" speaker_birth="1944">
+<speech id="u2020-04-07-0" text_id="ParlaMint-HU_2020-04-07" subcorpus="COVID" lang="magyar" body="Egykamarás parlament" term="8. ciklus" session="-" meeting="43. ülés" sitting="2. ülésnap" agenda="-" date="2020-04-07" title="A Magyar Országgyűlés Korpusza ParlaMint-HU, 2020. tavasz ülésszak 43. ülés, 2. ülésnap, 2020-04-07 [ParlaMint.ana]" speaker_role="Házelnök" topic="Other" speaker_id="LatorcaiJanos" speaker_name="Latorcai, János" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KNDP-frakció" speaker_party_name="A Kereszténydemokrata Néppárt parlamenti frakciója a 8. parlamenti ciklusban" party_status="Coalition" party_orientation="Jobboldal" speaker_gender="M" speaker_birth="1944">
 <note type="kinesic:-" content="A teremben lévők felállnak, és ezzel köszöntik a választópolgárok közösségét. Amikor az ülést vezető elnök helyet foglal, a teremben lévők is leülnek."/>
 <p id="u2020-04-07-0.1" lang="magyar">
-<s id="ParlaMint-HU_2020-04-07.seg1.1">
+<s id="ParlaMint-HU_2020-04-07.seg1.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.331">
 Jó	Jó	jó	ADV	-	1	advmod:mode	reggel	NOUN	Case=Acc Number=Sing	2
 reggelt	reggelt	reggel	NOUN	Case=Acc Number=Sing	2	obj	kíván	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
 kívánok	kívánok	kíván	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3	root	-	-	-	-
@@ -13,7 +13,7 @@ képviselőtársaim	képviselőtársaim	képviselőtárs	NOUN	Case=Nom Number=Pl
 <g/>
 .	.	.	PUNCT	-	7	punct	kíván	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1.2">
+<s id="ParlaMint-HU_2020-04-07.seg1.2" senti_3="Positive" senti_6="positive" senti_n="5.082">
 Szeretettel	Szeretettel	szeretet	NOUN	Case=Ins Number=Sing	1	obl	köszönt	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 köszöntöm	köszöntöm	köszönt	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 valamennyiüket	valamennyiüket	valamennyi	NOUN	Case=Acc Number=Plur	3	obj	köszönt	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -32,7 +32,7 @@ munkánkat	munkánkat	munka	NOUN	Case=Acc Number=Sing Number[psor]=Plur Person[p
 <g/>
 .	.	.	PUNCT	-	14	punct	köszönt	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1.3">
+<s id="ParlaMint-HU_2020-04-07.seg1.3" senti_3="Neutral" senti_6="neutral postive" senti_n="3.100">
 Tájékoztatom	Tájékoztatom	tájékoztat	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 önöket	önöket	ön	NOUN	Case=Acc Number=Plur	2	obj	tájékoztat	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>
@@ -61,7 +61,7 @@ segítségemre	segítségemre	segítség	NOUN	Case=Nom Number=Plur Number[psor]=
 <g/>
 .	.	.	PUNCT	-	21	punct	tájékoztat	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1.4">
+<s id="ParlaMint-HU_2020-04-07.seg1.4" senti_3="Positive" senti_6="mixed positive" senti_n="4.409">
 <name type="MISC">
 Tisztelt	Tisztelt	tisztelt	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 Országgyűlés	Országgyűlés	Országgyűlés	PROPN	Case=Nom Number=Sing	2	flat:name	tisztelt	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -69,7 +69,7 @@ Országgyűlés	Országgyűlés	Országgyűlés	PROPN	Case=Nom Number=Sing	2	fla
 </name>
 !	!	!	PUNCT	-	3	punct	tisztelt	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1.5">
+<s id="ParlaMint-HU_2020-04-07.seg1.5" senti_3="Neutral" senti_6="neutral postive" senti_n="3.045">
 A	A	a	DET	Definite=Def PronType=Art	1	det	nap	NOUN	Case=Sup Number=Sing	3
 mai	mai	mai	ADJ	Case=Nom Degree=Pos Number=Sing	2	amod:att	nap	NOUN	Case=Sup Number=Sing	3
 napon	napon	nap	NOUN	Case=Sup Number=Sing	3	obl	jelentkezik	ADJ	Case=Nom Degree=Pos Number=Sing VerbForm=PartPast	10
@@ -90,7 +90,7 @@ külügyminiszter	külügyminiszter	külügyminiszter	NOUN	Case=Nom Number=Sing	
 <g/>
 .	.	.	PUNCT	-	16	punct	Szijjártó	PROPN	Case=Nom Number=Sing	11
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1.6">
+<s id="ParlaMint-HU_2020-04-07.seg1.6" senti_3="Positive" senti_6="mixed positive" senti_n="3.541">
 <name type="PER">
 Parancsoljon	Parancsoljon	parancsol	VERB	Definite=Ind Mood=Imp Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
@@ -109,29 +109,29 @@ szó	szó	szó	NOUN	Case=Nom Number=Sing	8	nsubj	öné	NOUN	Case=Acc Number=Sing
 </p>
 </speech>
 <note type="speaker" content="SZIJJÁRTÓ PÉTER külgazdasági és külügyminiszter"/>
-<speech id="u2020-04-07-1" text_id="ParlaMint-HU_2020-04-07" subcorpus="COVID" lang="magyar" body="Egykamarás parlament" term="8. ciklus" session="-" meeting="43. ülés" sitting="2. ülésnap" agenda="-" date="2020-04-07" title="A Magyar Országgyűlés Korpusza ParlaMint-HU, 2020. tavasz ülésszak 43. ülés, 2. ülésnap, 2020-04-07 [ParlaMint.ana]" speaker_role="Képviselő" speaker_id="SzijjartoPeter" speaker_name="Szijjártó, Péter" speaker_mp="MP" speaker_minister="Minister" speaker_party="Fidesz-frakció" speaker_party_name="A Fidesz – Magyar Polgári Szövetség parlamenti frakciója a 8. parlamenti ciklusban" party_status="Coalition" party_orientation="A jobboldaltól a szélsőjobbig" speaker_gender="M" speaker_birth="1978">
+<speech id="u2020-04-07-1" text_id="ParlaMint-HU_2020-04-07" subcorpus="COVID" lang="magyar" body="Egykamarás parlament" term="8. ciklus" session="-" meeting="43. ülés" sitting="2. ülésnap" agenda="-" date="2020-04-07" title="A Magyar Országgyűlés Korpusza ParlaMint-HU, 2020. tavasz ülésszak 43. ülés, 2. ülésnap, 2020-04-07 [ParlaMint.ana]" speaker_role="Képviselő" topic="International Affairs" speaker_id="SzijjartoPeter" speaker_name="Szijjártó, Péter" speaker_mp="MP" speaker_minister="Minister" speaker_party="Fidesz-frakció" speaker_party_name="A Fidesz – Magyar Polgári Szövetség parlamenti frakciója a 8. parlamenti ciklusban" party_status="Coalition" party_orientation="A jobboldaltól a szélsőjobbig" speaker_gender="M" speaker_birth="1978">
 <p id="u2020-04-07-1.1" lang="magyar">
-<s id="ParlaMint-HU_2020-04-07.seg2.1">
+<s id="ParlaMint-HU_2020-04-07.seg2.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.010">
 Köszönöm	Köszönöm	köszön	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 a	a	a	DET	Definite=Def PronType=Art	2	det	szó	NOUN	Case=Acc Number=Sing	3
 szót	szót	szó	NOUN	Case=Acc Number=Sing	3	obj	köszön	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>
 .	.	.	PUNCT	-	4	punct	köszön	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg2.2">
+<s id="ParlaMint-HU_2020-04-07.seg2.2" senti_3="Positive" senti_6="mixed positive" senti_n="4.466">
 Tisztelt	Tisztelt	tisztelt	ADJ	Case=Nom Degree=Pos Number=Sing	1	amod:att	Elnök	PROPN	Case=Nom Number=Sing	2
 Elnök	Elnök	Elnök	PROPN	Case=Nom Number=Sing	2	root	-	-	-	-
 Úr	Úr	Úr	PROPN	Case=Nom Number=Sing	3	flat:name	Elnök	PROPN	Case=Nom Number=Sing	2
 <g/>
 !	!	!	PUNCT	-	4	punct	Elnök	PROPN	Case=Nom Number=Sing	2
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg2.3">
+<s id="ParlaMint-HU_2020-04-07.seg2.3" senti_3="Positive" senti_6="mixed positive" senti_n="4.043">
 Tisztelt	Tisztelt	tisztelt	ADJ	Case=Nom Degree=Pos Number=Sing	1	root	-	-	-	-
 Képviselőtársaim	Képviselőtársaim	Képviselőtárs	PROPN	Case=Nom Number=Sing	2	flat:name	tisztelt	ADJ	Case=Nom Degree=Pos Number=Sing	1
 <g/>
 !	!	!	PUNCT	-	3	punct	tisztelt	ADJ	Case=Nom Degree=Pos Number=Sing	1
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg2.4">
+<s id="ParlaMint-HU_2020-04-07.seg2.4" senti_3="Neutral" senti_6="neutral postive" senti_n="2.777">
 Azért	Azért	azért	ADV	PronType=Dem	1	advmod:mode	kér	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	2
 kértem	kértem	kér	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	2	root	-	-	-	-
 ma	ma	ma	ADV	-	3	advmod:tlocy	kér	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	2
@@ -199,7 +199,7 @@ tanácskozástól	tanácskozástól	tanácskozás	NOUN	Case=Abl Number=Sing	49	o
 <g/>
 .	.	.	PUNCT	-	50	punct	kér	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	2
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg2.5">
+<s id="ParlaMint-HU_2020-04-07.seg2.5" senti_3="Negative" senti_6="mixed negative" senti_n="0.676">
 Sajnos	Sajnos	sajnos	INTJ	-	1	mark	eredményez	VERB	Definite=Def Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	8
 a	a	a	DET	Definite=Def PronType=Art	2	det	koronavírus	NOUN	Case=Nom Number=Sing	3
 koronavírus	koronavírus	koronavírus	NOUN	Case=Nom Number=Sing	3	nsubj	jelent	VERB	Definite=Def Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	4
@@ -237,7 +237,7 @@ aktualitásokat	aktualitásokat	aktualitás	NOUN	Case=Acc Number=Plur	31	obj	vit
 <g/>
 .	.	.	PUNCT	-	32	punct	eredményez	VERB	Definite=Def Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	8
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg2.6">
+<s id="ParlaMint-HU_2020-04-07.seg2.6" senti_3="Neutral" senti_6="neutral postive" senti_n="3.471">
 Tájékoztatom	Tájékoztatom	tájékoztat	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 önöket	önöket	ön	NOUN	Case=Acc Number=Plur	2	obj	tájékoztat	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>
@@ -270,7 +270,7 @@ szövetség	szövetség	szövetség	NOUN	Case=Nom Number=Sing	23	nsubj	harmincta
 <g/>
 .	.	.	PUNCT	-	24	punct	tájékoztat	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg2.7">
+<s id="ParlaMint-HU_2020-04-07.seg2.7" senti_3="Positive" senti_6="mixed positive" senti_n="4.434">
 Reméljük	Reméljük	remél	VERB	Definite=Def Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	punct	dinamika	NOUN	Case=Nom Number=Sing	7
@@ -302,7 +302,7 @@ is	is	is	CCONJ	-	21	cc	dinamika	NOUN	Case=Nom Number=Sing	7
 <g/>
 .	.	.	PUNCT	-	22	punct	remél	VERB	Definite=Def Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg2.8">
+<s id="ParlaMint-HU_2020-04-07.seg2.8" senti_3="Positive" senti_6="positive" senti_n="4.748">
 A	A	a	DET	Definite=Def PronType=Art	1	det	maga	VERB	Definite=Ind Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 magunk	magunk	maga	VERB	Definite=Ind Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	obl	tart	VERB	Definite=Def Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	5
 részéről	részéről	rész	NOUN	Case=Del Number=Sing Number[psor]=Sing Person[psor]=3	3	case	maga	VERB	Definite=Ind Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -342,7 +342,7 @@ szövetséggel	szövetséggel	szövetség	NOUN	Case=Ins Number=Sing	28	obl	tesz	
 </s>
 </p>
 <p id="u2020-04-07-1.2" lang="magyar">
-<s id="ParlaMint-HU_2020-04-07.seg3.1">
+<s id="ParlaMint-HU_2020-04-07.seg3.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.535">
 Továbbra	Továbbra	továbbra	ADV	-	1	nsubj	tart	VERB	Definite=Def Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	4
 is	is	is	CCONJ	-	2	punct	továbbra	ADV	-	1
 fontosnak	fontosnak	fontos	ADJ	Case=Dat Degree=Pos Number=Sing	3	obl	tart	VERB	Definite=Def Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	4
@@ -428,7 +428,7 @@ hordoz	hordoz	hordoz	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres 
 </s>
 </p>
 <p id="u2020-04-07-1.3" lang="magyar">
-<s id="ParlaMint-HU_2020-04-07.seg4.1">
+<s id="ParlaMint-HU_2020-04-07.seg4.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.713">
 Tájékoztatom	Tájékoztatom	tájékoztat	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 önöket	önöket	ön	NOUN	Case=Acc Number=Plur	2	obj	tájékoztat	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 arról	arról	az	PRON	Case=Del Number=Sing Person=3 PronType=Dem	3	obl	tájékoztat	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -468,7 +468,7 @@ szükség	szükség	szükség	NOUN	Case=Nom Number=Sing	31	nsubj	nincs	VERB	Defi
 <g/>
 .	.	.	PUNCT	-	32	punct	tájékoztat	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg4.2">
+<s id="ParlaMint-HU_2020-04-07.seg4.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.496">
 Az	Az	az	DET	Definite=Def PronType=Art	1	nsubj	kíván	VERB	Definite=Def Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	11
 így	így	így	ADV	PronType=Dem	2	advmod:mode	kíván	VERB	Definite=Def Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	11
 oda	oda	oda	ADV	Degree=Pos PronType=Dem	3	compound:preverb	használ	VERB	VerbForm=Inf Voice=Act	12
@@ -499,7 +499,7 @@ konzultációt	konzultációt	konzultáció	NOUN	Case=Acc Number=Sing	22	obj	kí
 </s>
 </p>
 <p id="u2020-04-07-1.4" lang="magyar">
-<s id="ParlaMint-HU_2020-04-07.seg5.1">
+<s id="ParlaMint-HU_2020-04-07.seg5.1" senti_3="Positive" senti_6="positive" senti_n="4.981">
 Emellett	Emellett	emellett	ADV	PronType=Dem	1	obl	tájékoztat	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	4
 pedig	pedig	pedig	CCONJ	-	2	cc	tájékoztat	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	4
 tisztelettel	tisztelettel	tisztelet	NOUN	Case=Ins Number=Sing	3	obl	tájékoztat	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	4
@@ -533,7 +533,7 @@ részvételre	részvételre	részvétel	NOUN	Case=Sbl Number=Sing	24	obl	kész	A
 </s>
 </p>
 <p id="u2020-04-07-1.5" lang="magyar">
-<s id="ParlaMint-HU_2020-04-07.seg6.1">
+<s id="ParlaMint-HU_2020-04-07.seg6.1" senti_3="Positive" senti_6="positive" senti_n="5.314">
 Büszkeségre	Büszkeségre	büszkeség	NOUN	Case=Sbl Number=Sing	1	obl	adhat	VERB	Definite=Ind Mood=Pot Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 adhat	adhat	adhat	VERB	Definite=Ind Mood=Pot Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 okot	okot	ok	NOUN	Case=Acc Number=Sing	3	obj	adhat	VERB	Definite=Ind Mood=Pot Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -557,7 +557,7 @@ Budapesten	Budapesten	Budapest	PROPN	Case=Sup Number=Sing	15	obl	működik	VERB	
 </name>
 .	.	.	PUNCT	-	16	punct	adhat	VERB	Definite=Ind Mood=Pot Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg6.2">
+<s id="ParlaMint-HU_2020-04-07.seg6.2" senti_3="Positive" senti_6="positive" senti_n="4.605">
 Komoly	Komoly	komoly	ADJ	Case=Nom Degree=Pos Number=Sing	1	amod:att	szerep	NOUN	Case=Acc Number=Sing	2
 szerepet	szerepet	szerep	NOUN	Case=Acc Number=Sing	2	obj	vállal	VERB	Definite=Ind Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
 vállalnak	vállalnak	vállal	VERB	Definite=Ind Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	3	root	-	-	-	-
@@ -577,7 +577,7 @@ elvégezzék	elvégezzék	elvégez	VERB	Definite=Def Mood=Imp Number=Plur Person
 </s>
 </p>
 <p id="u2020-04-07-1.6" lang="magyar">
-<s id="ParlaMint-HU_2020-04-07.seg7.1">
+<s id="ParlaMint-HU_2020-04-07.seg7.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.521">
 Emellett	Emellett	emellett	ADV	PronType=Dem	1	obl	szeret	VERB	Definite=Def Mood=Cnd Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 szeretnék	szeretnék	szeret	VERB	Definite=Def Mood=Cnd Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 önöknek	önöknek	ön	NOUN	Case=Dat Number=Plur	3	cop	szeret	VERB	Definite=Def Mood=Cnd Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -629,7 +629,7 @@ végezni	végezni	végez	VERB	VerbForm=Inf Voice=Act	41	xcomp	tud	VERB	Definite=
 <g/>
 .	.	.	PUNCT	-	42	punct	szeret	VERB	Definite=Def Mood=Cnd Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg7.2">
+<s id="ParlaMint-HU_2020-04-07.seg7.2" senti_3="Negative" senti_6="negative" senti_n="0.358">
 Több	Több	több	NUM	Case=Nom NumType=Card Number=Sing	1	det	ország	NOUN	Case=Nom Number=Sing	5
 közép-európai	közép-európai	közép-európai	ADJ	Case=Nom Degree=Pos Number=Sing	2	amod:att	ország	NOUN	Case=Nom Number=Sing	5
 és	és	és	CCONJ	-	3	cc	balkáni	ADJ	Case=Nom Degree=Pos Number=Sing	4
@@ -652,7 +652,7 @@ létre	létre	lét	NOUN	Case=Sbl Number=Sing	18	compound:preverb	jön	VERB	Defin
 <g/>
 .	.	.	PUNCT	-	19	punct	kiemel	VERB	Definite=Def Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	8
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg7.3">
+<s id="ParlaMint-HU_2020-04-07.seg7.3" senti_3="Positive" senti_6="mixed positive" senti_n="4.306">
 Minket	Minket	mi	NOUN	Case=Acc Number=Sing Number[psor]=Plur Person[psor]=1	1	obj	képvisel	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
 <g/>
 ,	,	,	PUNCT	-	2	punct	közép-európaiakat	NOUN	Case=Acc Number=Plur	3
@@ -692,7 +692,7 @@ képviselve	képviselve	képviselve	ADV	VerbForm=Conv	29	nsubj	lesz	VERB	Definit
 </s>
 </p>
 <p id="u2020-04-07-1.7" lang="magyar">
-<s id="ParlaMint-HU_2020-04-07.seg8.1">
+<s id="ParlaMint-HU_2020-04-07.seg8.1" senti_3="Positive" senti_6="positive" senti_n="4.755">
 Tisztelettel	Tisztelettel	tisztelet	NOUN	Case=Ins Number=Sing	1	obl	tájékoztat	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 tájékoztatom	tájékoztatom	tájékoztat	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 önöket	önöket	önök	NOUN	Case=Acc Number=Plur Number[psor]=Plur Person[psor]=3	3	obj	tájékoztat	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -731,7 +731,7 @@ legjobban	legjobban	jól	ADJ	Case=Ess Degree=Sup Number=Sing	32	advmod:mode	műk
 <g/>
 .	.	.	PUNCT	-	33	punct	tájékoztat	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg8.2">
+<s id="ParlaMint-HU_2020-04-07.seg8.2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.868">
 Mindenki	Mindenki	mindenki	PRON	Case=Nom Number=Sing Person=3 PronType=Tot	1	nsubj	hoz	VERB	Definite=Def Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	14
 nemzeti	nemzeti	nemzeti	ADJ	Case=Nom Degree=Pos Number=Sing	2	amod:att	alap	NOUN	Case=Sup Number=Sing	3
 alapon	alapon	alap	NOUN	Case=Sup Number=Sing	3	punct	mindenki	PRON	Case=Nom Number=Sing Person=3 PronType=Tot	1
@@ -753,7 +753,7 @@ döntéseit	döntéseit	döntés	NOUN	Case=Acc Number=Plur Number[psor]=Sing Per
 <g/>
 .	.	.	PUNCT	-	18	punct	hoz	VERB	Definite=Def Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	14
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg8.3">
+<s id="ParlaMint-HU_2020-04-07.seg8.3" senti_3="Negative" senti_6="negative" senti_n="0.120">
 Világosan	Világosan	világos	ADJ	Case=Ess Degree=Pos Number=Sing	1	advmod:mode	látszik	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 látszik	látszik	látszik	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 <g/>
@@ -788,7 +788,7 @@ beszerzéséről	beszerzéséről	beszerzés	NOUN	Case=Del Number=Sing Number[ps
 </s>
 </p>
 <p id="u2020-04-07-1.8" lang="magyar">
-<s id="ParlaMint-HU_2020-04-07.seg9.1">
+<s id="ParlaMint-HU_2020-04-07.seg9.1" senti_3="Negative" senti_6="negative" senti_n="0.412">
 Ez	Ez	ez	DET	Case=Nom Number=Sing Person=3 PronType=Dem	1	det	utóbbi	NOUN	Case=Nom Number=Sing	2
 utóbbi	utóbbi	utóbbi	NOUN	Case=Nom Number=Sing	2	root	-	-	-	-
 kapcsán	kapcsán	kapcsán	ADP	-	3	case	utóbbi	NOUN	Case=Nom Number=Sing	2
@@ -837,7 +837,7 @@ termékekért	termékekért	termék	NOUN	Case=Cau Number=Plur	39	nsubj	áll	VERB
 <g/>
 .	.	.	PUNCT	-	40	punct	lesz	VERB	Definite=Ind Mood=Pot Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	7
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg9.2">
+<s id="ParlaMint-HU_2020-04-07.seg9.2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.786">
 Tehát	Tehát	tehát	CCONJ	-	1	cc	lesz	VERB	Definite=Ind Mood=Pot Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 lehet	lehet	lesz	VERB	Definite=Ind Mood=Pot Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 <g/>
@@ -863,7 +863,7 @@ gondolni	gondolni	gondol	VERB	VerbForm=Inf Voice=Act	19	xcomp	kell	VERB	Definite
 </s>
 </p>
 <p id="u2020-04-07-1.9" lang="magyar">
-<s id="ParlaMint-HU_2020-04-07.seg10.1">
+<s id="ParlaMint-HU_2020-04-07.seg10.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.501">
 Végül	Végül	végül	ADV	Degree=Pos	1	advmod:mode	tájékoztat	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
 tisztelettel	tisztelettel	tisztelet	NOUN	Case=Ins Number=Sing	2	obl	tájékoztat	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
 tájékoztatom	tájékoztatom	tájékoztat	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3	root	-	-	-	-
@@ -922,7 +922,7 @@ volna	volna	volna	AUX	Definite=Ind Mood=Cnd Number=Sing Person=3 Tense=Pres Voic
 <g/>
 .	.	.	PUNCT	-	51	punct	tájékoztat	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg10.2">
+<s id="ParlaMint-HU_2020-04-07.seg10.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.740">
 A	A	a	DET	Definite=Def PronType=Art	1	det	parlament	NOUN	Case=Nom Number=Sing	3
 magyar	magyar	magyar	ADJ	Case=Nom Degree=Pos Number=Sing	2	amod:att	parlament	NOUN	Case=Nom Number=Sing	3
 parlament	parlament	parlament	NOUN	Case=Nom Number=Sing	3	nsubj	ülésezik	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	4
@@ -962,7 +962,7 @@ bőven	bőven	bő	ADJ	Case=Ess Degree=Pos Number=Sing	30	obl	ülésezik	VERB	Def
 </s>
 </p>
 <p id="u2020-04-07-1.10" lang="magyar">
-<s id="ParlaMint-HU_2020-04-07.seg11.1">
+<s id="ParlaMint-HU_2020-04-07.seg11.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.087">
 Köszönöm	Köszönöm	köszön	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 szépen	szépen	szép	ADJ	Case=Ess Degree=Pos Number=Sing	2	advmod:mode	megtisztelő	ADJ	Case=Nom Number=Sing VerbForm=PartPres	3
 megtisztelő	megtisztelő	megtisztelő	ADJ	Case=Nom Number=Sing VerbForm=PartPres	3	amod:att	figyelem	NOUN	Case=Acc Number=Sing Number[psor]=Plur Person[psor]=3	4
@@ -970,7 +970,7 @@ figyelmüket	figyelmüket	figyelem	NOUN	Case=Acc Number=Sing Number[psor]=Plur P
 <g/>
 .	.	.	PUNCT	-	5	punct	köszön	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg11.2">
+<s id="ParlaMint-HU_2020-04-07.seg11.2" senti_3="Neutral" senti_6="neutral postive" senti_n="3.337">
 Kérem	Kérem	kér	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	1	root	-	-	-	-
 a	a	a	DET	Definite=Def PronType=Art	2	det	tájékoztatás	NOUN	Case=Nom Number=Sing	3
 tájékoztatás	tájékoztatás	tájékoztatás	NOUN	Case=Nom Number=Sing	3	nmod:att	tudomásulvétel	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person[psor]=3	4
@@ -982,9 +982,9 @@ tudomásulvételét	tudomásulvételét	tudomásulvétel	NOUN	Case=Acc Number=Si
 <note type="kinesic:applause" content="Taps a kormánypárti sorokból."/>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="u2020-04-07-185" text_id="ParlaMint-HU_2020-04-07" subcorpus="COVID" lang="magyar" body="Egykamarás parlament" term="8. ciklus" session="-" meeting="43. ülés" sitting="2. ülésnap" agenda="-" date="2020-04-07" title="A Magyar Országgyűlés Korpusza ParlaMint-HU, 2020. tavasz ülésszak 43. ülés, 2. ülésnap, 2020-04-07 [ParlaMint.ana]" speaker_role="Képviselő" speaker_id="VargaLaszlo" speaker_name="Varga, László" speaker_mp="MP" speaker_minister="notMinister" speaker_party="MSZP-frakció" speaker_party_name="A Magyar Szocialista Párt parlamenti frakciója a 8. parlamenti ciklusban" party_status="Opposition" party_orientation="Balközép" speaker_gender="M" speaker_birth="1979">
+<speech id="u2020-04-07-185" text_id="ParlaMint-HU_2020-04-07" subcorpus="COVID" lang="magyar" body="Egykamarás parlament" term="8. ciklus" session="-" meeting="43. ülés" sitting="2. ülésnap" agenda="-" date="2020-04-07" title="A Magyar Országgyűlés Korpusza ParlaMint-HU, 2020. tavasz ülésszak 43. ülés, 2. ülésnap, 2020-04-07 [ParlaMint.ana]" speaker_role="Képviselő" topic="Mix" speaker_id="VargaLaszlo" speaker_name="Varga, László" speaker_mp="MP" speaker_minister="notMinister" speaker_party="MSZP-frakció" speaker_party_name="A Magyar Szocialista Párt parlamenti frakciója a 8. parlamenti ciklusban" party_status="Opposition" party_orientation="Balközép" speaker_gender="M" speaker_birth="1979">
 <p id="u2020-04-07-185.1" lang="magyar">
-<s id="ParlaMint-HU_2020-04-07.seg1133.1">
+<s id="ParlaMint-HU_2020-04-07.seg1133.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.046">
 Köszönöm	Köszönöm	köszön	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 a	a	a	DET	Definite=Def PronType=Art	2	det	szó	NOUN	Case=Acc Number=Sing	3
 szót	szót	szó	NOUN	Case=Acc Number=Sing	3	obj	köszön	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -995,19 +995,19 @@ elnök	elnök	elnök	NOUN	Case=Nom Number=Sing	5	nmod:att	úr	NOUN	Case=Nom Numb
 <g/>
 .	.	.	PUNCT	-	7	punct	köszön	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1133.2">
+<s id="ParlaMint-HU_2020-04-07.seg1133.2" senti_3="Positive" senti_6="mixed positive" senti_n="4.043">
 Tisztelt	Tisztelt	tisztelt	ADJ	Case=Nom Degree=Pos Number=Sing	1	root	-	-	-	-
 Képviselőtársaim	Képviselőtársaim	Képviselőtárs	PROPN	Case=Nom Number=Sing	2	flat:name	tisztelt	ADJ	Case=Nom Degree=Pos Number=Sing	1
 <g/>
 !	!	!	PUNCT	-	3	punct	tisztelt	ADJ	Case=Nom Degree=Pos Number=Sing	1
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1133.3">
+<s id="ParlaMint-HU_2020-04-07.seg1133.3" senti_3="Positive" senti_6="mixed positive" senti_n="4.416">
 Tisztelt	Tisztelt	tisztelt	ADJ	Case=Nom Degree=Pos Number=Sing	1	root	-	-	-	-
 Ház	Ház	Ház	PROPN	Case=Nom Number=Sing	2	flat:name	tisztelt	ADJ	Case=Nom Degree=Pos Number=Sing	1
 <g/>
 !	!	!	PUNCT	-	3	punct	tisztelt	ADJ	Case=Nom Degree=Pos Number=Sing	1
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1133.4">
+<s id="ParlaMint-HU_2020-04-07.seg1133.4" senti_3="Positive" senti_6="positive" senti_n="4.818">
 Sokszor	Sokszor	sok	ADV	-	1	advmod:tlocy	van	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	2
 volt	volt	van	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	2	amod:att	az	NOUN	Case=Dat Number=Plur	23
 alkalmunk	alkalmunk	alkalom	NOUN	Case=Nom Number=Sing Number[psor]=Plur Person[psor]=1	3	nsubj	van	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	2
@@ -1053,7 +1053,7 @@ ország	ország	ország	NOUN	Case=Nom Number=Sing	35	nsubj	működik	VERB	Defini
 <g/>
 .	.	.	PUNCT	-	36	punct	az	NOUN	Case=Dat Number=Plur	23
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1133.5">
+<s id="ParlaMint-HU_2020-04-07.seg1133.5" senti_3="Positive" senti_6="positive" senti_n="5.213">
 A	A	a	DET	Definite=Def PronType=Art	1	det	nap	ADV	-	3
 mai	mai	mai	ADJ	Case=Nom Degree=Pos Number=Sing	2	amod:att	nap	ADV	-	3
 nap	nap	nap	ADV	-	3	nsubj	elmondhat	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	8
@@ -1092,7 +1092,7 @@ legyen	legyen	lesz	AUX	Definite=Ind Mood=Imp Number=Sing Person=3 Tense=Pres Ver
 <g/>
 .	.	.	PUNCT	-	32	punct	elmondhat	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	8
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1133.6">
+<s id="ParlaMint-HU_2020-04-07.seg1133.6" senti_3="Neutral" senti_6="neutral postive" senti_n="3.116">
 Kevesebb	Kevesebb	kevesebb	NUM	Case=Nom NumType=Card Number=Sing	1	amod:att	szó	NOUN	Case=Nom Number=Sing	2
 szó	szó	szó	NOUN	Case=Nom Number=Sing	2	nsubj	esik	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	3
 esett	esett	esik	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	3	root	-	-	-	-
@@ -1130,7 +1130,7 @@ feladata	feladata	feladat	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[pso
 <g/>
 .	.	.	PUNCT	-	32	punct	esik	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	3
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1133.7">
+<s id="ParlaMint-HU_2020-04-07.seg1133.7" senti_3="Positive" senti_6="mixed positive" senti_n="3.585">
 A	A	a	DET	Definite=Def PronType=Art	1	det	településvezető	NOUN	Case=Nom Number=Plur	2
 településvezetők	településvezetők	településvezető	NOUN	Case=Nom Number=Plur	2	nsubj	tesz	VERB	Definite=Ind Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	22
 <g/>
@@ -1198,7 +1198,7 @@ közszolgáltatásokat	közszolgáltatásokat	közszolgáltatás	NOUN	Case=Acc N
 </s>
 </p>
 <p id="u2020-04-07-185.2" lang="magyar">
-<s id="ParlaMint-HU_2020-04-07.seg1134.1">
+<s id="ParlaMint-HU_2020-04-07.seg1134.1" senti_3="Negative" senti_6="negative" senti_n="0.454">
 A	A	a	DET	Definite=Def PronType=Art	1	det	frontvonal	NOUN	Case=Ine Number=Sing	2
 frontvonalban	frontvonalban	frontvonal	NOUN	Case=Ine Number=Sing	2	obl	van	VERB	Definite=Ind Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
 vannak	vannak	van	VERB	Definite=Ind Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	3	root	-	-	-	-
@@ -1218,7 +1218,7 @@ segítségére	segítségére	segítség	NOUN	Case=Sbl Number=Sing Number[psor]=
 <g/>
 .	.	.	PUNCT	-	16	punct	van	VERB	Definite=Ind Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1134.2">
+<s id="ParlaMint-HU_2020-04-07.seg1134.2" senti_3="Negative" senti_6="negative" senti_n="0.227">
 Pedig	Pedig	pedig	CCONJ	-	1	cc	kell	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	7
 az	az	az	DET	Definite=Def PronType=Art	2	det	önkormányzat	NOUN	Case=Nom Number=Plur	3
 önkormányzatok	önkormányzatok	önkormányzat	NOUN	Case=Nom Number=Plur	3	nsubj	kell	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	7
@@ -1274,7 +1274,7 @@ szerv	szerv	szerv	NOUN	Case=Nom Number=Sing	45	conj	tervezett	ADJ	Case=Nom Degre
 <g/>
 .	.	.	PUNCT	-	46	punct	mond	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	11
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1134.3">
+<s id="ParlaMint-HU_2020-04-07.seg1134.3" senti_3="Negative" senti_6="mixed negative" senti_n="0.927">
 Erről	Erről	ez	PRON	Case=Del Number=Sing Person=3 PronType=Dem	1	nmod:obl	terv	NOUN	Case=Del Number=Sing	3
 a	a	a	DET	Definite=Def PronType=Art	2	det	terv	NOUN	Case=Del Number=Sing	3
 tervről	tervről	terv	NOUN	Case=Del Number=Sing	3	obl	tűnik	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
@@ -1305,7 +1305,7 @@ be	be	be	ADV	Degree=Pos	24	compound:preverb	jelent	VERB	Definite=Def Mood=Ind Nu
 <g/>
 .	.	.	PUNCT	-	25	punct	tűnik	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1134.4">
+<s id="ParlaMint-HU_2020-04-07.seg1134.4" senti_3="Negative" senti_6="mixed negative" senti_n="0.871">
 Ez	Ez	ez	PRON	Case=Nom Number=Sing Person=3 PronType=Dem	1	nsubj	megjelenik	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	5
 egyébként	egyébként	egyébként	ADV	-	2	advmod:mode	megjelenik	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	5
 nagyon	nagyon	nagyon	ADV	-	3	advmod:mode	gyors	ADJ	Case=Ess Degree=Pos Number=Sing	4
@@ -1356,7 +1356,7 @@ számára	számára	számára	ADP	-	40	case	ember	NOUN	Case=Nom Number=Plur	39
 </s>
 </p>
 <p id="u2020-04-07-185.3" lang="magyar">
-<s id="ParlaMint-HU_2020-04-07.seg1135.1">
+<s id="ParlaMint-HU_2020-04-07.seg1135.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.789">
 Ne	Ne	ne	ADV	PronType=Neg	1	advmod:mode	felejt	VERB	Definite=Def Mood=Imp Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 felejtsük	felejtsük	felejt	VERB	Definite=Def Mood=Imp Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 el	el	el	ADV	-	3	compound:preverb	felejt	VERB	Definite=Def Mood=Imp Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -1376,7 +1376,7 @@ az	az	az	DET	Definite=Def PronType=Art	14	det	önkormányzat	NOUN	Case=Ine Numbe
 <g/>
 .	.	.	PUNCT	-	16	punct	felejt	VERB	Definite=Def Mood=Imp Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1135.2">
+<s id="ParlaMint-HU_2020-04-07.seg1135.2" senti_3="Positive" senti_6="mixed positive" senti_n="4.415">
 Ebből	Ebből	ez	PRON	Case=Ela Number=Sing Person=3 PronType=Dem	1	obl	tud	VERB	Definite=Ind Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	2
 tudtak	tudtak	tud	VERB	Definite=Ind Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	2	root	-	-	-	-
 útfelújításokat	útfelújításokat	útfelújítás	NOUN	Case=Acc Number=Plur	3	obj	végez	VERB	VerbForm=Inf Voice=Act	4
@@ -1391,7 +1391,7 @@ volt	volt	van	AUX	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Past VerbForm
 <g/>
 .	.	.	PUNCT	-	11	punct	tud	VERB	Definite=Ind Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	2
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1135.3">
+<s id="ParlaMint-HU_2020-04-07.seg1135.3" senti_3="Negative" senti_6="negative" senti_n="0.170">
 A	A	a	DET	Definite=Def PronType=Art	1	det	Fidesz	PROPN	Case=Nom Number=Sing	2
 <name type="ORG">
 Fidesz	Fidesz	Fidesz	PROPN	Case=Nom Number=Sing	2	nsubj	.	PUNCT	-	22
@@ -1420,7 +1420,7 @@ az	az	az	DET	Definite=Def PronType=Art	20	det	önkormányzat	NOUN	Case=Abl Numbe
 <g/>
 .	.	.	PUNCT	-	22	root	-	-	-	-
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1135.4">
+<s id="ParlaMint-HU_2020-04-07.seg1135.4" senti_3="Positive" senti_6="mixed positive" senti_n="3.522">
 De	De	de	CCONJ	-	1	cc	fontos	ADJ	Case=Nom Degree=Pos Number=Sing	8
 ez	ez	ez	DET	Case=Nom Number=Sing Person=3 PronType=Dem	2	det	százalék	NOUN	Case=Nom Number=Sing	5
 a	a	a	DET	Definite=Def PronType=Art	3	det	százalék	NOUN	Case=Nom Number=Sing	5
@@ -1432,7 +1432,7 @@ fontos	fontos	fontos	ADJ	Case=Nom Degree=Pos Number=Sing	8	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	9	punct	fontos	ADJ	Case=Nom Degree=Pos Number=Sing	8
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1135.5">
+<s id="ParlaMint-HU_2020-04-07.seg1135.5" senti_3="Positive" senti_6="mixed positive" senti_n="3.770">
 Hogy	Hogy	hogy	SCONJ	-	1	mark	beszél	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 beszéljek	beszéljek	beszél	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 én	én	én	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	3	nsubj	beszél	VERB	Definite=Ind Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -1475,7 +1475,7 @@ költségvetésnek	költségvetésnek	költségvetés	NOUN	Case=Gen Number=Sing	
 </p>
 <note type="time" content="21.00"/>
 <p id="u2020-04-07-185.4" lang="magyar">
-<s id="ParlaMint-HU_2020-04-07.seg1136.1">
+<s id="ParlaMint-HU_2020-04-07.seg1136.1" senti_3="Negative" senti_6="negative" senti_n="0.469">
 Erről	Erről	ez	PRON	Case=Del Number=Sing Person=3 PronType=Dem	1	obl	lemondhat	VERB	Definite=Ind Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
 tehát	tehát	tehát	CCONJ	-	2	punct	ez	PRON	Case=Del Number=Sing Person=3 PronType=Dem	1
 lemondhatnak	lemondhatnak	lemondhat	VERB	Definite=Ind Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	3	root	-	-	-	-
@@ -1559,7 +1559,7 @@ is	is	is	CCONJ	-	70	cc	adó	NOUN	Case=Acc Number=Sing	45
 <g/>
 .	.	.	PUNCT	-	71	punct	lemondhat	VERB	Definite=Ind Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1136.2">
+<s id="ParlaMint-HU_2020-04-07.seg1136.2" senti_3="Negative" senti_6="negative" senti_n="0.158">
 Ezek	Ezek	ez	PRON	Case=Nom Number=Plur Person=3 PronType=Dem	1	nsubj	sodor	VERB	Definite=Def Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	5
 még	még	még	ADV	-	2	advmod:tlocy	sodor	VERB	Definite=Def Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	5
 nehezebb	nehezebb	nehéz	ADJ	Case=Nom Degree=Cmp Number=Sing	3	amod:att	helyzet	NOUN	Case=Ill Number=Sing	4
@@ -1570,7 +1570,7 @@ az	az	az	DET	Definite=Def PronType=Art	6	det	önkormányzat	NOUN	Case=Acc Number
 <g/>
 .	.	.	PUNCT	-	8	punct	sodor	VERB	Definite=Def Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	5
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1136.3">
+<s id="ParlaMint-HU_2020-04-07.seg1136.3" senti_3="Negative" senti_6="negative" senti_n="0.271">
 Olyan	Olyan	olyan	ADV	PronType=Dem	1	advmod:mode	valóban	ADV	-	4
 egy	egy	egy	DET	Definite=Ind PronType=Art	2	det	kicsi	ADJ	Case=Acc Degree=Pos Number=Sing	3
 kicsit	kicsit	kicsi	ADJ	Case=Acc Degree=Pos Number=Sing	3	advmod:mode	valóban	ADV	-	4
@@ -1661,7 +1661,7 @@ derékhadát	derékhadát	derékhad	NOUN	Case=Acc Number=Sing Number[psor]=Sing 
 </s>
 </p>
 <p id="u2020-04-07-185.5" lang="magyar">
-<s id="ParlaMint-HU_2020-04-07.seg1137.1">
+<s id="ParlaMint-HU_2020-04-07.seg1137.1" senti_3="Negative" senti_6="negative" senti_n="0.296">
 Ez	Ez	ez	PRON	Case=Nom Number=Sing Person=3 PronType=Dem	1	nsubj	döntés	NOUN	Case=Nom Number=Sing	6
 egy	egy	egy	DET	Definite=Ind PronType=Art	2	det	döntés	NOUN	Case=Nom Number=Sing	6
 felelőtlen	felelőtlen	felelőtlen	ADJ	Case=Nom Degree=Pos Number=Sing	3	amod:att	döntés	NOUN	Case=Nom Number=Sing	6
@@ -1711,7 +1711,7 @@ védekezést	védekezést	védekezés	NOUN	Case=Acc Number=Sing	40	obj	szervez	V
 <g/>
 .	.	.	PUNCT	-	41	punct	döntés	NOUN	Case=Nom Number=Sing	6
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1137.2">
+<s id="ParlaMint-HU_2020-04-07.seg1137.2" senti_3="Negative" senti_6="mixed negative" senti_n="1.494">
 Ne	Ne	N	PUNCT	-	1	advmod	felejt	VERB	Definite=Def Mood=Imp Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 felejtsük	felejtsük	felejt	VERB	Definite=Def Mood=Imp Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 el	el	el	ADV	-	3	compound:preverb	felejt	VERB	Definite=Def Mood=Imp Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -1769,7 +1769,7 @@ biztosítani	biztosítani	biztosít	VERB	VerbForm=Inf Voice=Act	48	xcomp	kell	VE
 <g/>
 .	.	.	PUNCT	-	49	punct	felejt	VERB	Definite=Def Mood=Imp Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1137.3">
+<s id="ParlaMint-HU_2020-04-07.seg1137.3" senti_3="Positive" senti_6="mixed positive" senti_n="4.142">
 Nagyon	Nagyon	nagyon	ADV	-	1	advmod:mode	sok	DET	Definite=Ind PronType=Ind	2
 sok	sok	sok	DET	Definite=Ind PronType=Ind	2	det	feladat	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	4
 olyan	olyan	olyan	ADJ	Case=Nom Degree=Pos Number=Sing	3	amod:att	feladat	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	4
@@ -1809,7 +1809,7 @@ dolgozni	dolgozni	dolgozik	VERB	VerbForm=Inf Voice=Act	30	xcomp	tud	VERB	Definit
 </s>
 </p>
 <p id="u2020-04-07-185.6" lang="magyar">
-<s id="ParlaMint-HU_2020-04-07.seg1138.1">
+<s id="ParlaMint-HU_2020-04-07.seg1138.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.597">
 Az	Az	az	DET	Definite=Def PronType=Art	1	det	önkormányzat	NOUN	Case=Dat Number=Plur	2
 önkormányzatoknak	önkormányzatoknak	önkormányzat	NOUN	Case=Dat Number=Plur	2	nmod:att	van	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	5
 több	több	több	DET	Definite=Ind PronType=Ind	3	det	forrás	NOUN	Case=Sbl Number=Sing	4
@@ -1825,7 +1825,7 @@ elvonásokra	elvonásokra	elvonás	NOUN	Case=Sbl Number=Plur	11	conj	szükség	N
 <g/>
 .	.	.	PUNCT	-	12	punct	van	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	5
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1138.2">
+<s id="ParlaMint-HU_2020-04-07.seg1138.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.977">
 Javaslom	Javaslom	Javasol	PROPN	Case=Nom Number=Sing	1	root	-	-	-	-
 mindannyiunknak	mindannyiunknak	mindannyiunk	NOUN	Case=Dat Number=Sing	2	iobj	Javasol	PROPN	Case=Nom Number=Sing	1
 <g/>
@@ -1850,7 +1850,7 @@ olvassák	olvassák	olvas	VERB	Definite=Def Mood=Ind Number=Plur Person=3 Tense=
 <g/>
 .	.	.	PUNCT	-	20	punct	Javasol	PROPN	Case=Nom Number=Sing	1
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1138.3">
+<s id="ParlaMint-HU_2020-04-07.seg1138.3" senti_3="Positive" senti_6="mixed positive" senti_n="4.304">
 Köszönöm	Köszönöm	köszön	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	punct	elnök	NOUN	Case=Nom Number=Sing	3
@@ -1862,9 +1862,9 @@ elnök	elnök	elnök	NOUN	Case=Nom Number=Sing	3	nmod:att	úr	NOUN	Case=Nom Numb
 </p>
 </speech>
 <note type="speaker" content="ELNÖK"/>
-<speech id="u2020-04-07-186" text_id="ParlaMint-HU_2020-04-07" subcorpus="COVID" lang="magyar" body="Egykamarás parlament" term="8. ciklus" session="-" meeting="43. ülés" sitting="2. ülésnap" agenda="-" date="2020-04-07" title="A Magyar Országgyűlés Korpusza ParlaMint-HU, 2020. tavasz ülésszak 43. ülés, 2. ülésnap, 2020-04-07 [ParlaMint.ana]" speaker_role="Házelnök" speaker_id="SneiderTamas" speaker_name="Sneider, Tamás" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JOBBIK-frakció" speaker_party_name="A Jobbik Magyarországért Mozgalom parlamenti frakciója a 8. parlamenti ciklusban" party_status="Opposition" party_orientation="Jobbközép" speaker_gender="M" speaker_birth="1972">
+<speech id="u2020-04-07-186" text_id="ParlaMint-HU_2020-04-07" subcorpus="COVID" lang="magyar" body="Egykamarás parlament" term="8. ciklus" session="-" meeting="43. ülés" sitting="2. ülésnap" agenda="-" date="2020-04-07" title="A Magyar Országgyűlés Korpusza ParlaMint-HU, 2020. tavasz ülésszak 43. ülés, 2. ülésnap, 2020-04-07 [ParlaMint.ana]" speaker_role="Házelnök" topic="Other" speaker_id="SneiderTamas" speaker_name="Sneider, Tamás" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JOBBIK-frakció" speaker_party_name="A Jobbik Magyarországért Mozgalom parlamenti frakciója a 8. parlamenti ciklusban" party_status="Opposition" party_orientation="Jobbközép" speaker_gender="M" speaker_birth="1972">
 <p id="u2020-04-07-186.1" lang="magyar">
-<s id="ParlaMint-HU_2020-04-07.seg1139.1">
+<s id="ParlaMint-HU_2020-04-07.seg1139.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.441">
 Köszönjük	Köszönjük	köszön	VERB	Definite=Def Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	punct	képviselő	NOUN	Case=Nom Number=Sing	3
@@ -1873,13 +1873,13 @@ képviselő	képviselő	képviselő	NOUN	Case=Nom Number=Sing	3	nmod:att	úr	NOU
 <g/>
 .	.	.	PUNCT	-	5	punct	köszön	VERB	Definite=Def Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1139.2">
+<s id="ParlaMint-HU_2020-04-07.seg1139.2" senti_3="Positive" senti_6="mixed positive" senti_n="4.043">
 Tisztelt	Tisztelt	tisztelt	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	1	root	-	-	-	-
 Képviselőtársaim	Képviselőtársaim	Képviselőtárs	PROPN	Case=Nom Number=Sing	2	flat:name	tisztelt	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	1
 <g/>
 !	!	!	PUNCT	-	3	punct	tisztelt	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1139.3">
+<s id="ParlaMint-HU_2020-04-07.seg1139.3" senti_3="Neutral" senti_6="neutral postive" senti_n="3.210">
 A	A	a	DET	Definite=Def PronType=Art	1	det	napirend	NOUN	Case=Nom Number=Sing	2
 napirend	napirend	napirend	NOUN	Case=Nom Number=Sing	2	nmod:att	utáni	ADJ	Case=Nom Degree=Pos Number=Sing	3
 utáni	utáni	utáni	ADJ	Case=Nom Degree=Pos Number=Sing	3	amod:att	felszólalás	NOUN	Case=Nom Number=Plur	4
@@ -1889,14 +1889,14 @@ végére	végére	vég	NOUN	Case=Sbl Number=Sing Number[psor]=Sing Person[psor]=
 <g/>
 .	.	.	PUNCT	-	7	punct	ért	VERB	Definite=Ind Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	6
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1139.4">
+<s id="ParlaMint-HU_2020-04-07.seg1139.4" senti_3="Positive" senti_6="positive" senti_n="4.944">
 Megköszönöm	Megköszönöm	megköszön	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 a	a	a	DET	Definite=Def PronType=Art	2	det	munka	NOUN	Case=Acc Number=Sing Number[psor]=Plur Person[psor]=3	3
 munkájukat	munkájukat	munka	NOUN	Case=Acc Number=Sing Number[psor]=Plur Person[psor]=3	3	obj	megköszön	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>
 .	.	.	PUNCT	-	4	punct	megköszön	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1139.5">
+<s id="ParlaMint-HU_2020-04-07.seg1139.5" senti_3="Neutral" senti_6="neutral postive" senti_n="3.091">
 Az	Az	az	DET	Definite=Def PronType=Art	1	det	Országgyűlés	PROPN	Case=Nom Number=Sing	2
 <name type="ORG">
 Országgyűlés	Országgyűlés	Országgyűlés	PROPN	Case=Nom Number=Sing	2	nsubj	folytat	VERB	Definite=Def Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
@@ -1910,7 +1910,7 @@ az	az	az	DET	Definite=Def PronType=Art	7	det	ülés	NOUN	Case=Acc Number=Sing Nu
 <g/>
 .	.	.	PUNCT	-	9	punct	folytat	VERB	Definite=Def Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1139.6">
+<s id="ParlaMint-HU_2020-04-07.seg1139.6" senti_3="Neutral" senti_6="neutral postive" senti_n="2.875">
 Az	Az	az	DET	Definite=Def PronType=Art	1	det	ülésnap	NOUN	Case=Acc Number=Sing	2
 ülésnapot	ülésnapot	ülésnap	NOUN	Case=Acc Number=Sing	2	obj	bezár	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
 bezárom	bezárom	bezár	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3	root	-	-	-	-

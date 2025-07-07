@@ -27,9 +27,17 @@
                <resp xml:lang="en">Manual metadata retrieval</resp>
                <resp xml:lang="uk">Ручне збирання метаданих</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">CLARIN ERIC</orgName>
                <orgName xml:lang="uk">Загальна дослідницька інфраструктура мовних ресурсів і технологій</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="en">Slovenian Research Agency</orgName>
@@ -41,7 +49,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="74" xml:lang="en">74 speeches</measure>
@@ -55,13 +63,13 @@
                <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN.SI</orgName>
                <ref target="https://www.clarin.si/">www.clarin.si</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="uk">Цей твір ліцензовано на умовах <ref target="http://creativecommons.org/licenses/by/4.0/">"Міжнародної ліцензії Creative Commons 4.0 із зазначенням авторства"</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -104,8 +112,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-18">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
@@ -121,7 +131,7 @@
                <time when="2016-01-26T16:02:13">16:02:13</time>
             </note>
             <note type="speaker" xml:id="ParlaMint-UA_2016-01-26-m1.note8">ГОЛОВУЮЧИЙ.</note>
-            <u xml:id="ParlaMint-UA_2016-01-26-m1.u1" who="#АндрійВолодимировичПарубій.1971" ana="#chair">
+            <u xml:id="ParlaMint-UA_2016-01-26-m1.u1" who="#АндрійВолодимировичПарубій.1971" ana="#chair topic:other">
                <seg xml:id="ParlaMint-UA_2016-01-26-m1.u1.p1" xml:lang="uk">Шановні колеги! Прошу заходити в зал і займати робочі місця. Час, відведений для перерви, завершений. Прошу секретаріат Верховної Ради повідомити депутатів про початок роботи і секретаріати фракцій запросити депутатів в зал. Будь ласка.</seg>
                <seg xml:id="ParlaMint-UA_2016-01-26-m1.u1.p2" xml:lang="uk">Іванчук Володимирович, прошу підійти до столу президії. Прошу колег депутатів заходити в зал.</seg>
                <seg xml:id="ParlaMint-UA_2016-01-26-m1.u1.p3" xml:lang="uk">Шановні колеги, прошу заходити в зал, за хвилину розпочинаємо роботу.</seg>
@@ -152,7 +162,7 @@
                <time when="2016-01-26T16:14:32">16:14:32</time>
             </note>
             <note type="speaker" xml:id="ParlaMint-UA_2016-01-26-m1.note11">ІВАНЧУК А.В.</note>
-            <u xml:id="ParlaMint-UA_2016-01-26-m1.u2" who="#АндрійВолодимировичІванчук.1973" ana="#regular">
+            <u xml:id="ParlaMint-UA_2016-01-26-m1.u2" who="#АндрійВолодимировичІванчук.1973" ana="#regular topic:macro">
                <seg xml:id="ParlaMint-UA_2016-01-26-m1.u2.p1" xml:lang="uk">Шановний пане головуючий, шановні народні депутати! Комітет Верховної Ради з питань економічної політики розглянув на своєму засіданні 9 грудня законопроект 2168-а, внесений народним депутатом Пташник до другого читання.</seg>
                <seg xml:id="ParlaMint-UA_2016-01-26-m1.u2.p2" xml:lang="uk">Хотів би сказати, що до законопроекту надійшла 21 поправка суб’єктів законодавчої ініціативи, практично всі враховані частково або по суті.</seg>
                <seg xml:id="ParlaMint-UA_2016-01-26-m1.u2.p3" xml:lang="uk">На ваш розгляд пропонується даний законопроект, табличка вам роздана у правій частині редакція запропонована комітетом. Хотілося б сказати, що в даному законопроекті збільшуються порогові показники, за якими необхідно одержувати дозвіл Антимонопольного комітету. І також вноситься нова така новела, що стосується. запроваджуються більш гнучкі, швидкі і спрощені процедури отримання попереднього дозволу.</seg>
@@ -163,12 +173,12 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u xml:id="ParlaMint-UA_2016-01-26-m1.u73" who="#ЛіліяМихайлівнаГриневич.1965" ana="#regular">
+            <u xml:id="ParlaMint-UA_2016-01-26-m1.u73" who="#ЛіліяМихайлівнаГриневич.1965" ana="#regular topic:educa">
                <seg xml:id="ParlaMint-UA_2016-01-26-m1.u73.p1" xml:lang="uk">безкоштовної загальної середньої освіти. Значить, для видруку нам потрібно додатково 235 мільйонів гривень. І ці 235 мільйонів гривень є в резерві освітньої субвенції. Ми про це спілкувалися з Міністерством фінансів. Нам необхідно вирішити це питання зараз, на початку року, щоб вчасно були оголошені тендери і наші діти були забезпечені підручниками.</seg>
                <seg xml:id="ParlaMint-UA_2016-01-26-m1.u73.p2" xml:lang="uk">Дякую за увагу. Дуже прошу всіх підтримати цей закон, надзвичайно важливий, за основу і в цілому з моїми поправками.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-UA_2016-01-26-m1.note161">ГОЛОВУЮЧИЙ.</note>
-            <u xml:id="ParlaMint-UA_2016-01-26-m1.u74" who="#АндрійВолодимировичПарубій.1971" ana="#chair">
+            <u xml:id="ParlaMint-UA_2016-01-26-m1.u74" who="#АндрійВолодимировичПарубій.1971" ana="#chair topic:educa">
                <seg xml:id="ParlaMint-UA_2016-01-26-m1.u74.p1" xml:lang="uk">Дякую.</seg>
                <seg xml:id="ParlaMint-UA_2016-01-26-m1.u74.p2" xml:lang="uk">Шановні колеги, я прошу зайти в зал. Я прошу всіх зайти в зал, хто щойно вийшов. Сьомий. Женя Дейдей, поверніться в зал. Шановні колеги, прошу повернутися в зал.</seg>
                <seg xml:id="ParlaMint-UA_2016-01-26-m1.u74.p3" xml:lang="uk">Ми можемо його приймати без обговорення, без дискусії? Колеги, я прошу зайти в зал. Я ставлю сигнальне голосування по законопроекту 1857. Він важливий, щоб ми його прийняли вчасно, щоб для дітей могли видрукувати підручники. Я прошу підтримати сигнальне голосування, 1857. Колеги, голосуємо! 1857, сигнальне голосування.</seg>

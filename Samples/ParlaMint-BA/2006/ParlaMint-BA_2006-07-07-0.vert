@@ -1,7 +1,7 @@
 <note type="speaker" content="Milojević, Goran"/>
-<speech id="ParlaMint-BA_2006-07-07-0.u6148" text_id="ParlaMint-BA_2006-07-07-0" subcorpus="Referenca" lang="bosanski" body="Jednodoman" term="4. mandat" session="-" meeting="Sjednica 60" sitting="2006-07-07" agenda="-" date="2006-07-07" title="Zapisnici sjednica parlamentarne skupštine, mandat 4, sjednica 60" speaker_role="Predsjedavajući" speaker_id="MilojevićGoran" speaker_name="Milojević, Goran" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PDP" speaker_party_name="Partija demokratskog progresa" party_status="Opposition" party_orientation="Centar do desni centar" speaker_gender="M" speaker_birth="1960">
+<speech id="ParlaMint-BA_2006-07-07-0.u6148" text_id="ParlaMint-BA_2006-07-07-0" subcorpus="Referenca" lang="bosanski" body="Jednodoman" term="4. mandat" session="-" meeting="Sjednica 60" sitting="2006-07-07" agenda="-" date="2006-07-07" title="Zapisnici sjednica parlamentarne skupštine, mandat 4, sjednica 60" speaker_role="Predsjedavajući" topic="Aktivnosti vlade" speaker_id="MilojevićGoran" speaker_name="Milojević, Goran" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PDP" speaker_party_name="Partija demokratskog progresa" party_status="Opposition" party_orientation="Centar do desni centar" speaker_gender="M" speaker_birth="1960">
 <p id="ParlaMint-BA_2006-07-07-0.u6148.seg0" lang="bosanski">
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.1">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.1" senti_3="Pozitivan" senti_6="pozitivan" senti_n="4.543">
 Pozdravljam	Pozdravljam	pozdravljati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 vas	vas	vi	PRON	Case=Acc Number=Plur Person=2 PronType=Prs	2	obj	pozdravljati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 i	i	i	CCONJ	-	3	cc	otvarati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
@@ -20,7 +20,7 @@ Hercegovine	Hercegovine	Hercegovina	PROPN	Case=Gen Gender=Fem Number=Sing	13	fla
 </name>
 .	.	.	PUNCT	-	14	punct	pozdravljati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.2">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.2" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="2.926">
 Na	Na	na	ADP	Case=Loc	1	case	sjednica	NOUN	Case=Loc Gender=Fem Number=Sing	3
 današnjoj	današnjoj	današnji	ADJ	Case=Loc Definite=Def Degree=Pos Gender=Fem Number=Sing	2	amod	sjednica	NOUN	Case=Loc Gender=Fem Number=Sing	3
 sjednici	sjednici	sjednica	NOUN	Case=Loc Gender=Fem Number=Sing	3	obl	prisutan	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Neut Number=Sing	4
@@ -51,7 +51,7 @@ naroda	naroda	narod	NOUN	Case=Gen Gender=Masc Number=Sing	25	nmod	4	NUM	NumType=
 <g/>
 .	.	.	PUNCT	-	26	punct	prisutan	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Neut Number=Sing	4
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.3">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.3" senti_3="Neutralan" senti_6="neutralan negativan" senti_n="2.124">
 Delegati	Delegati	delegat	NOUN	Case=Nom Gender=Masc Number=Plur	1	nsubj	opravdati	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	8
 <name type="PER">
 Jukić	Jukić	Jukić	PROPN	Case=Nom Gender=Masc Number=Sing	2	appos	delegat	NOUN	Case=Nom Gender=Masc Number=Plur	1
@@ -72,7 +72,7 @@ izostanak	izostanak	izostanak	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing
 <g/>
 .	.	.	PUNCT	-	11	punct	opravdati	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	8
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.4">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.4" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.136">
 Za	Za	za	ADP	Case=Acc	1	case	sjednica	NOUN	Case=Acc Gender=Fem Number=Sing	4
 današnju	današnju	današnji	ADJ	Case=Acc Definite=Def Degree=Pos Gender=Fem Number=Sing	2	amod	sjednica	NOUN	Case=Acc Gender=Fem Number=Sing	4
 60-tu	60-tu	60-tu	NUM	NumType=Mult	3	nummod	sjednica	NOUN	Case=Acc Gender=Fem Number=Sing	4
@@ -136,7 +136,7 @@ sa	sa	sa	ADP	Case=Ins	52	case	član	NOUN	Case=Ins Gender=Masc Number=Sing	53
 članom	članom	član	NOUN	Case=Ins Gender=Masc Number=Sing	53	nmod	sklad	NOUN	Case=Loc Gender=Masc Number=Sing	51
 100.	100.	100.	ADJ	NumType=Ord	54	amod	član	NOUN	Case=Ins Gender=Masc Number=Sing	53
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.5">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.5" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="2.780">
 Poslovnika	Poslovnika	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="ORG">
 Doma	Doma	dom	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1
@@ -170,7 +170,7 @@ sa	sa	sa	ADP	Case=Ins	24	case	član	NOUN	Case=Ins Gender=Masc Number=Sing	25
 članom	članom	član	NOUN	Case=Ins Gender=Masc Number=Sing	25	nmod	sklad	NOUN	Case=Loc Gender=Masc Number=Sing	23
 100.	100.	100.	ADJ	NumType=Ord	26	amod	član	NOUN	Case=Ins Gender=Masc Number=Sing	25
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.6">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.6" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="2.808">
 Poslovnika	Poslovnika	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="ORG">
 Doma	Doma	dom	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1
@@ -203,7 +203,7 @@ sa	sa	sa	ADP	Case=Ins	22	case	član	NOUN	Case=Ins Gender=Masc Number=Sing	23
 članom	članom	član	NOUN	Case=Ins Gender=Masc Number=Sing	23	nmod	sklad	NOUN	Case=Loc Gender=Masc Number=Sing	21
 99.	99.	99.	ADJ	NumType=Ord	24	amod	član	NOUN	Case=Ins Gender=Masc Number=Sing	23
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.7">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.7" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="2.603">
 Poslovnika	Poslovnika	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="ORG">
 Doma	Doma	dom	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1
@@ -247,7 +247,7 @@ sa	sa	sa	ADP	Case=Ins	32	case	član	NOUN	Case=Ins Gender=Masc Number=Sing	33
 članom	članom	član	NOUN	Case=Ins Gender=Masc Number=Sing	33	nmod	sklad	NOUN	Case=Loc Gender=Masc Number=Sing	31
 99.	99.	99.	ADJ	NumType=Ord	34	amod	član	NOUN	Case=Ins Gender=Masc Number=Sing	33
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.8">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.8" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="2.601">
 Poslovnika	Poslovnika	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="ORG">
 Doma	Doma	dom	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1
@@ -299,7 +299,7 @@ sa	sa	sa	ADP	Case=Ins	36	case	član	NOUN	Case=Ins Gender=Masc Number=Sing	37
 članom	članom	član	NOUN	Case=Ins Gender=Masc Number=Sing	37	nmod	sklad	NOUN	Case=Loc Gender=Masc Number=Sing	35
 99.	99.	99.	ADJ	NumType=Ord	38	amod	član	NOUN	Case=Ins Gender=Masc Number=Sing	37
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.9">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.9" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="2.657">
 Poslovnika	Poslovnika	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="ORG">
 Doma	Doma	dom	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1
@@ -338,7 +338,7 @@ sa	sa	sa	ADP	Case=Ins	27	case	član	NOUN	Case=Ins Gender=Masc Number=Sing	28
 članom	članom	član	NOUN	Case=Ins Gender=Masc Number=Sing	28	nmod	sklad	NOUN	Case=Loc Gender=Masc Number=Sing	26
 99.	99.	99.	ADJ	NumType=Ord	29	amod	član	NOUN	Case=Ins Gender=Masc Number=Sing	28
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.10">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.10" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="2.629">
 Poslovnika	Poslovnika	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="ORG">
 Doma	Doma	dom	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1
@@ -377,7 +377,7 @@ sa	sa	sa	ADP	Case=Ins	28	case	član	NOUN	Case=Ins Gender=Masc Number=Sing	29
 članom	članom	član	NOUN	Case=Ins Gender=Masc Number=Sing	29	nmod	sklad	NOUN	Case=Loc Gender=Masc Number=Sing	27
 99.	99.	99.	ADJ	NumType=Ord	30	amod	član	NOUN	Case=Ins Gender=Masc Number=Sing	29
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.11">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.11" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="2.756">
 Poslovnika	Poslovnika	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="ORG">
 Doma	Doma	dom	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1
@@ -392,7 +392,7 @@ od	od	od	ADP	Case=Gen	6	case	29.05.2006.	NUM	NumType=Card	7
 ,	,	,	PUNCT	-	8	punct	10.	ADJ	NumType=Ord	9
 10.	10.	10.	ADJ	NumType=Ord	9	conj	29.05.2006.	NUM	NumType=Card	7
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.12">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.12" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.026">
 Zahtjev	Zahtjev	zahtjev	NOUN	Case=Nom Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="ORG">
 Savjeta	Savjeta	savjet	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	zahtjev	NOUN	Case=Nom Gender=Masc Number=Sing	1
@@ -423,7 +423,7 @@ sa	sa	sa	ADP	Case=Ins	22	case	član	NOUN	Case=Ins Gender=Masc Number=Sing	23
 članom	članom	član	NOUN	Case=Ins Gender=Masc Number=Sing	23	nmod	sklad	NOUN	Case=Loc Gender=Masc Number=Sing	21
 99.	99.	99.	ADJ	NumType=Ord	24	amod	član	NOUN	Case=Ins Gender=Masc Number=Sing	23
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.13">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.13" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.291">
 Poslovnika	Poslovnika	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="ORG">
 Doma	Doma	dom	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1
@@ -433,7 +433,7 @@ naroda	naroda	narod	NOUN	Case=Gen Gender=Masc Number=Sing	3	compound	dom	NOUN	Ca
 ,	,	,	PUNCT	-	4	punct	11.	ADJ	NumType=Ord	5
 11.	11.	11.	ADJ	NumType=Ord	5	amod	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.14">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.14" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.035">
 Zahtjev	Zahtjev	zahtjev	NOUN	Case=Nom Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="ORG">
 Savjeta	Savjeta	savjet	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	zahtjev	NOUN	Case=Nom Gender=Masc Number=Sing	1
@@ -461,7 +461,7 @@ sa	sa	sa	ADP	Case=Ins	19	case	član	NOUN	Case=Ins Gender=Masc Number=Sing	20
 članom	članom	član	NOUN	Case=Ins Gender=Masc Number=Sing	20	nmod	sklad	NOUN	Case=Loc Gender=Masc Number=Sing	18
 99.	99.	99.	ADJ	NumType=Ord	21	amod	član	NOUN	Case=Ins Gender=Masc Number=Sing	20
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.15">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.15" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.377">
 Poslovnika	Poslovnika	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="ORG">
 Doma	Doma	dom	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1
@@ -472,7 +472,7 @@ naroda	naroda	narod	NOUN	Case=Gen Gender=Masc Number=Sing	3	compound	dom	NOUN	Ca
 2	2	2	NUM	NumType=Card	5	nummod	12.	ADJ	NumType=Ord	6
 12.	12.	12.	ADJ	NumType=Ord	6	nmod	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.16">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.16" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.079">
 <name type="MISC">
 Prijedlog	Prijedlog	prijedlog	NOUN	Case=Nom Gender=Masc Number=Sing	1	root	-	-	-	-
 zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	prijedlog	NOUN	Case=Nom Gender=Masc Number=Sing	1
@@ -494,7 +494,7 @@ prvo	prvo	prvi	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing	13	amod	čitanje	
 ,	,	,	PUNCT	-	15	punct	13.	ADJ	NumType=Ord	16
 13.	13.	13.	ADJ	NumType=Ord	16	amod	čitanje	NOUN	Case=Nom Gender=Neut Number=Sing	14
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.17">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.17" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.337">
 Prijedlog	Prijedlog	prijedlog	NOUN	Case=Nom Gender=Masc Number=Sing	1	root	-	-	-	-
 zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	prijedlog	NOUN	Case=Nom Gender=Masc Number=Sing	1
 o	o	o	ADP	Case=Loc	3	case	izmjena	NOUN	Case=Loc Gender=Fem Number=Plur	4
@@ -514,7 +514,7 @@ prvo	prvo	prvi	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing	11	amod	čitanje	
 ,	,	,	PUNCT	-	13	punct	14.	ADJ	NumType=Ord	14
 14.	14.	14.	ADJ	NumType=Ord	14	amod	čitanje	NOUN	Case=Nom Gender=Neut Number=Sing	12
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.18">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.18" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.383">
 Prijedlog	Prijedlog	prijedlog	NOUN	Case=Nom Gender=Masc Number=Sing	1	root	-	-	-	-
 zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	prijedlog	NOUN	Case=Nom Gender=Masc Number=Sing	1
 o	o	o	ADP	Case=Loc	3	case	klasifikacija	NOUN	Case=Loc Gender=Fem Number=Sing	4
@@ -532,7 +532,7 @@ prvo	prvo	prvi	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing	9	amod	čitanje	N
 ,	,	,	PUNCT	-	11	punct	15.	ADJ	NumType=Ord	12
 15.	15.	15.	ADJ	NumType=Ord	12	amod	čitanje	NOUN	Case=Nom Gender=Neut Number=Sing	10
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.19">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.19" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="3.514">
 Informacija	Informacija	informacija	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 o	o	o	ADP	Case=Loc	2	case	rad	NOUN	Case=Loc Gender=Masc Number=Sing	3
 radu	radu	rad	NOUN	Case=Loc Gender=Masc Number=Sing	3	nmod	informacija	NOUN	Case=Nom Gender=Fem Number=Sing	1
@@ -549,7 +549,7 @@ godinu	godinu	godina	NOUN	Case=Acc Gender=Fem Number=Sing	9	nmod	informacija	NOU
 ,	,	,	PUNCT	-	10	punct	16.	ADJ	NumType=Ord	11
 16.	16.	16.	ADJ	NumType=Ord	11	amod	godina	NOUN	Case=Acc Gender=Fem Number=Sing	9
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.20">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.20" senti_3="Neutralan" senti_6="neutralan negativan" senti_n="1.603">
 Zaključci	Zaključci	zaključak	NOUN	Case=Nom Gender=Masc Number=Plur	1	root	-	-	-	-
 <name type="ORG">
 Komisije	Komisije	komisija	NOUN	Case=Gen Gender=Fem Number=Sing	2	nmod	zaključak	NOUN	Case=Nom Gender=Masc Number=Plur	1
@@ -583,7 +583,7 @@ trgovini	trgovini	trgovina	NOUN	Case=Loc Gender=Fem Number=Sing	25	nmod	sporazum
 ,	,	,	PUNCT	-	26	punct	17.	ADJ	NumType=Ord	27
 17.	17.	17.	ADJ	NumType=Ord	27	amod	sporazum	NOUN	Case=Acc Gender=Masc Number=Plur	22
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.21">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.21" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="3.614">
 Zaključci	Zaključci	zaključak	NOUN	Case=Nom Gender=Masc Number=Plur	1	root	-	-	-	-
 i	i	i	CCONJ	-	2	cc	preporuka	NOUN	Case=Nom Gender=Fem Number=Plur	3
 preporuke	preporuke	preporuka	NOUN	Case=Nom Gender=Fem Number=Plur	3	conj	zaključak	NOUN	Case=Nom Gender=Masc Number=Plur	1
@@ -634,7 +634,7 @@ BiH	BiH	BiH	PROPN	Case=Loc Gender=Fem Number=Sing	38	nmod	ulaganje	NOUN	Case=Acc
 ,	,	,	PUNCT	-	39	punct	18.	ADJ	NumType=Ord	40
 18.	18.	18.	ADJ	NumType=Ord	40	amod	obezbjeđenje	NOUN	Case=Acc Gender=Neut Number=Sing	31
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.22">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.22" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="2.916">
 Razmatranje	Razmatranje	razmatranje	NOUN	Case=Nom Gender=Neut Number=Sing	1	root	-	-	-	-
 ostavki	ostavki	ostavka	NOUN	Case=Gen Gender=Fem Number=Plur	2	nmod	razmatranje	NOUN	Case=Nom Gender=Neut Number=Sing	1
 <name type="PER">
@@ -681,7 +681,7 @@ razmatranje	razmatranje	razmatranje	NOUN	Case=Acc Gender=Neut Number=Sing	30	com
 ,	,	,	PUNCT	-	32	punct	19.	ADJ	NumType=Ord	33
 19.	19.	19.	ADJ	NumType=Ord	33	amod	početkom	ADP	Case=Gen	26
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.23">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.23" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="3.666">
 Davanje	Davanje	davanje	NOUN	Case=Nom Gender=Neut Number=Sing	1	root	-	-	-	-
 saglasnosti	saglasnosti	saglasnost	NOUN	Case=Gen Gender=Fem Number=Sing	2	nmod	davanje	NOUN	Case=Nom Gender=Neut Number=Sing	1
 za	za	za	ADP	Case=Acc	3	case	ratifikacija	NOUN	Case=Acc Gender=Fem Number=Sing	4
@@ -712,7 +712,7 @@ godini	godini	godina	NOUN	Case=Loc Gender=Fem Number=Sing	19	nmod	saradnja	NOUN	
 ,	,	,	PUNCT	-	20	punct	20.	ADJ	NumType=Ord	21
 20.	20.	20.	ADJ	NumType=Ord	21	amod	saradnja	NOUN	Case=Loc Gender=Fem Number=Sing	16
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.24">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.24" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.148">
 Dadvanje	Dadvanje	dadvanje	NOUN	Case=Nom Gender=Neut Number=Sing	1	root	-	-	-	-
 saglasnosti	saglasnosti	saglasnost	NOUN	Case=Gen Gender=Fem Number=Sing	2	nmod	dadvanje	NOUN	Case=Nom Gender=Neut Number=Sing	1
 za	za	za	ADP	Case=Acc	3	case	ratifikacija	NOUN	Case=Acc Gender=Fem Number=Sing	4
@@ -756,7 +756,7 @@ kriminala	kriminala	kriminal	NOUN	Case=Gen Gender=Masc Number=Sing	31	conj	krimi
 ,	,	,	PUNCT	-	32	punct	21.	ADJ	NumType=Ord	33
 21.	21.	21.	ADJ	NumType=Ord	33	amod	dadvanje	NOUN	Case=Nom Gender=Neut Number=Sing	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.25">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.25" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="3.821">
 Davanje	Davanje	davanje	NOUN	Case=Nom Gender=Neut Number=Sing	1	root	-	-	-	-
 saglasnosti	saglasnosti	saglasnost	NOUN	Case=Gen Gender=Fem Number=Sing	2	nmod	davanje	NOUN	Case=Nom Gender=Neut Number=Sing	1
 za	za	za	ADP	Case=Acc	3	case	ratifikacija	NOUN	Case=Acc Gender=Fem Number=Sing	4
@@ -787,7 +787,7 @@ investicije	investicije	investicija	NOUN	Case=Gen Gender=Fem Number=Sing	19	nmod
 ,	,	,	PUNCT	-	20	punct	22.	ADJ	NumType=Ord	21
 22.	22.	22.	ADJ	NumType=Ord	21	amod	davanje	NOUN	Case=Nom Gender=Neut Number=Sing	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.26">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.26" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.210">
 Davanje	Davanje	davanje	NOUN	Case=Nom Gender=Neut Number=Sing	1	root	-	-	-	-
 saglasnosti	saglasnosti	saglasnost	NOUN	Case=Gen Gender=Fem Number=Sing	2	nmod	davanje	NOUN	Case=Nom Gender=Neut Number=Sing	1
 za	za	za	ADP	Case=Acc	3	case	ratifikacija	NOUN	Case=Acc Gender=Fem Number=Sing	4
@@ -850,7 +850,7 @@ država	država	država	NOUN	Case=Gen Gender=Fem Number=Plur	48	nmod	teritorij	N
 ,	,	,	PUNCT	-	49	punct	23.	ADJ	NumType=Ord	50
 23.	23.	23.	ADJ	NumType=Ord	50	amod	boraviti	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	44
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.27">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.27" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="3.676">
 Davanje	Davanje	davanje	NOUN	Case=Nom Gender=Neut Number=Sing	1	root	-	-	-	-
 saglasnosti	saglasnosti	saglasnost	NOUN	Case=Gen Gender=Fem Number=Sing	2	nmod	davanje	NOUN	Case=Nom Gender=Neut Number=Sing	1
 za	za	za	ADP	Case=Acc	3	case	ratifikacija	NOUN	Case=Acc Gender=Fem Number=Sing	4
@@ -877,7 +877,7 @@ Mađarske	Mađarske	Mađarska	PROPN	Case=Gen Gender=Fem Number=Sing	16	compound	
 ,	,	,	PUNCT	-	17	punct	24.	ADJ	NumType=Ord	18
 24.	24.	24.	ADJ	NumType=Ord	18	amod	savjet	NOUN	Case=Gen Gender=Masc Number=Plur	10
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.28">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.28" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="2.981">
 Dadvanje	Dadvanje	dadvanje	NOUN	Case=Nom Gender=Neut Number=Sing	1	root	-	-	-	-
 saglasnosti	saglasnosti	saglasnost	NOUN	Case=Gen Gender=Fem Number=Sing	2	nmod	dadvanje	NOUN	Case=Nom Gender=Neut Number=Sing	1
 za	za	za	ADP	Case=Acc	3	case	ratifikacija	NOUN	Case=Acc Gender=Fem Number=Sing	4
@@ -962,7 +962,7 @@ BiH	BiH	BiH	PROPN	Case=Gen Gender=Fem Number=Sing	64	compound	tužilaštvo	NOUN	
 ,	,	,	PUNCT	-	65	punct	25.	ADJ	NumType=Ord	66
 25.	25.	25.	ADJ	NumType=Ord	66	amod	odljeljenje	NOUN	Case=Acc Gender=Neut Number=Sing	54
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.29">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.29" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.450">
 Davanje	Davanje	davanje	NOUN	Case=Nom Gender=Neut Number=Sing	1	nsubj	maja	NOUN	Case=Nom Gender=Fem Number=Sing	14
 saglasnosti	saglasnosti	saglasnost	NOUN	Case=Gen Gender=Fem Number=Sing	2	nmod	davanje	NOUN	Case=Nom Gender=Neut Number=Sing	1
 za	za	za	ADP	Case=Acc	3	case	ratifikacija	NOUN	Case=Acc Gender=Fem Number=Sing	4
@@ -988,7 +988,7 @@ godine	godine	godina	NOUN	Case=Gen Gender=Fem Number=Sing	17	nmod	maja	NOUN	Case
 ,	,	,	PUNCT	-	18	punct	26.	ADJ	NumType=Ord	19
 26.	26.	26.	ADJ	NumType=Ord	19	amod	godina	NOUN	Case=Gen Gender=Fem Number=Sing	17
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.30">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.30" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="3.594">
 Davanje	Davanje	davanje	NOUN	Case=Nom Gender=Neut Number=Sing	1	root	-	-	-	-
 saglasnosti	saglasnosti	saglasnost	NOUN	Case=Gen Gender=Fem Number=Sing	2	nmod	davanje	NOUN	Case=Nom Gender=Neut Number=Sing	1
 za	za	za	ADP	Case=Acc	3	case	ratifikacija	NOUN	Case=Acc Gender=Fem Number=Sing	4
@@ -1004,7 +1004,7 @@ zajednice	zajednice	zajednica	NOUN	Case=Gen Gender=Fem Number=Sing	9	nmod	uspost
 ,	,	,	PUNCT	-	10	punct	27.	ADJ	NumType=Ord	11
 27.	27.	27.	ADJ	NumType=Ord	11	amod	davanje	NOUN	Case=Nom Gender=Neut Number=Sing	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.31">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.31" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.003">
 Davanje	Davanje	davanje	NOUN	Case=Nom Gender=Neut Number=Sing	1	root	-	-	-	-
 saglasnosti	saglasnosti	saglasnost	NOUN	Case=Gen Gender=Fem Number=Sing	2	nmod	davanje	NOUN	Case=Nom Gender=Neut Number=Sing	1
 za	za	za	ADP	Case=Acc	3	case	ratifikacija	NOUN	Case=Acc Gender=Fem Number=Sing	4
@@ -1032,7 +1032,7 @@ trgovini	trgovini	trgovina	NOUN	Case=Loc Gender=Fem Number=Sing	21	nmod	pesticid
 ,	,	,	PUNCT	-	22	punct	28.	ADJ	NumType=Ord	23
 28.	28.	28.	ADJ	NumType=Ord	23	amod	davanje	NOUN	Case=Nom Gender=Neut Number=Sing	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.32">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.32" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="2.972">
 Zahtjev	Zahtjev	zahtjev	NOUN	Case=Nom Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="ORG">
 Savjeta	Savjeta	savjet	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	zahtjev	NOUN	Case=Nom Gender=Masc Number=Sing	1
@@ -1062,7 +1062,7 @@ sa	sa	sa	ADP	Case=Ins	21	case	član	NOUN	Case=Ins Gender=Masc Number=Sing	22
 članom	članom	član	NOUN	Case=Ins Gender=Masc Number=Sing	22	nmod	sklad	NOUN	Case=Loc Gender=Masc Number=Sing	20
 99.	99.	99.	ADJ	NumType=Ord	23	amod	član	NOUN	Case=Ins Gender=Masc Number=Sing	22
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.33">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.33" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.244">
 Poslovnika	Poslovnika	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="ORG">
 Doma	Doma	dom	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1
@@ -1072,7 +1072,7 @@ naroda	naroda	narod	NOUN	Case=Gen Gender=Masc Number=Sing	3	compound	dom	NOUN	Ca
 ,	,	,	PUNCT	-	4	punct	29.	ADJ	NumType=Ord	5
 29.	29.	29.	ADJ	NumType=Ord	5	amod	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.34">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.34" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="2.965">
 Zahtjev	Zahtjev	zahtjev	NOUN	Case=Nom Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="ORG">
 Savjeta	Savjeta	savjet	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	zahtjev	NOUN	Case=Nom Gender=Masc Number=Sing	1
@@ -1101,7 +1101,7 @@ sa	sa	sa	ADP	Case=Ins	20	case	član	NOUN	Case=Ins Gender=Masc Number=Sing	21
 članom	članom	član	NOUN	Case=Ins Gender=Masc Number=Sing	21	nmod	sklad	NOUN	Case=Loc Gender=Masc Number=Sing	19
 99.	99.	99.	ADJ	NumType=Ord	22	amod	član	NOUN	Case=Ins Gender=Masc Number=Sing	21
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.35">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.35" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.279">
 Poslovnika	Poslovnika	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="ORG">
 Doma	Doma	dom	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1
@@ -1112,7 +1112,7 @@ naroda	naroda	narod	NOUN	Case=Gen Gender=Masc Number=Sing	3	compound	dom	NOUN	Ca
 3	3	3	NUM	NumType=Card	5	parataxis	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1
 30.	30.	30.	ADJ	NumType=Ord	6	amod	3	NUM	NumType=Card	5
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.36">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.36" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="2.992">
 Prijedlog	Prijedlog	prijedlog	NOUN	Case=Nom Gender=Masc Number=Sing	1	root	-	-	-	-
 zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	prijedlog	NOUN	Case=Nom Gender=Masc Number=Sing	1
 o	o	o	ADP	Case=Loc	3	case	izmjena	NOUN	Case=Loc Gender=Fem Number=Sing	4
@@ -1165,7 +1165,7 @@ prvo	prvo	prvi	ADJ	Case=Acc Degree=Pos Gender=Neut Number=Sing	38	amod	čitanje	
 <g/>
 .	.	.	PUNCT	-	40	punct	čitanje	NOUN	Case=Acc Gender=Neut Number=Sing	39
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.37">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.37" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="3.656">
 Otvaram	Otvaram	otvarati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 raspravu	raspravu	rasprava	NOUN	Case=Acc Gender=Fem Number=Sing	2	obj	otvarati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 o	o	o	ADP	Case=Loc	3	case	predlog	NOUN	Case=Loc Gender=Masc Number=Sing	4
@@ -1175,7 +1175,7 @@ redad	redad	redad	NOUN	Case=Gen Gender=Masc Number=Sing	6	nmod	predlog	NOUN	Case
 <g/>
 .	.	.	PUNCT	-	7	punct	otvarati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.38">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.38" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.485">
 Javlja	Javlja	javljati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 li	li	li	PART	-	2	mark	javljati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 se	se	sebe	PRON	Case=Acc PronType=Prs Reflex=Yes	3	expl:pv	javljati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
@@ -1185,7 +1185,7 @@ riječ	riječ	riječ	NOUN	Case=Acc Gender=Fem Number=Sing	6	nmod	neki	DET	Case=N
 <g/>
 ?	?	?	PUNCT	-	7	punct	javljati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.39">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.39" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.273">
 Ima	Ima	imati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 li	li	li	PART	-	2	mark	imati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 izmjena	izmjena	izmjena	NOUN	Case=Gen Gender=Fem Number=Plur	3	obj	imati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
@@ -1194,7 +1194,7 @@ dopuna	dopuna	dopuna	NOUN	Case=Nom Gender=Fem Number=Sing	5	conj	izmjena	NOUN	Ca
 <g/>
 ?	?	?	PUNCT	-	6	punct	imati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.40">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.40" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="3.876">
 Konstatujem	Konstatujem	konstatovati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 da	da	da	SCONJ	-	2	mark	nemati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 nema	nema	nemati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	ccomp	konstatovati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
@@ -1210,7 +1210,7 @@ usvojen	usvojen	usvojiti	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number
 <g/>
 .	.	.	PUNCT	-	13	punct	konstatovati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.41">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.41" senti_3="Neutralan" senti_6="neutralan negativan" senti_n="2.279">
 O	O	o	ADP	Case=Loc	1	case	on	PRON	Case=Loc Gender=Masc Number=Sing Person=3 PronType=Prs	2
 njemu	njemu	on	PRON	Case=Loc Gender=Masc Number=Sing Person=3 PronType=Prs	2	nmod	glas	NOUN	Case=Gen Gender=Masc Number=Sing	5
 se	se	sebe	PRON	Case=Acc PronType=Prs Reflex=Yes	3	expl:pv	glas	NOUN	Case=Gen Gender=Masc Number=Sing	5
@@ -1222,7 +1222,7 @@ sa	sa	sa	ADP	Case=Ins	8	case	član	NOUN	Case=Ins Gender=Masc Number=Sing	9
 članom	članom	član	NOUN	Case=Ins Gender=Masc Number=Sing	9	nmod	sklad	NOUN	Case=Loc Gender=Masc Number=Sing	7
 45.	45.	45.	ADJ	NumType=Ord	10	amod	član	NOUN	Case=Ins Gender=Masc Number=Sing	9
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.42">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.42" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.372">
 Poslovnika	Poslovnika	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="ORG">
 Doma	Doma	dom	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1
@@ -1231,7 +1231,7 @@ naroda	naroda	narod	NOUN	Case=Gen Gender=Masc Number=Sing	3	compound	dom	NOUN	Ca
 </name>
 .	.	.	PUNCT	-	4	punct	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.43">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg0.43" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.360">
 Prelazimo	Prelazimo	prelaziti	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 na	na	na	ADP	Case=Acc	2	case	tačka	NOUN	Case=Acc Gender=Fem Number=Sing	4
 prvu	prvu	prvi	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Sing	3	amod	tačka	NOUN	Case=Acc Gender=Fem Number=Sing	4
@@ -1258,7 +1258,7 @@ pitanja	pitanja	pitanje	NOUN	Case=Acc Gender=Neut Number=Plur	20	conj	pitanje	NO
 </s>
 </p>
 <p id="ParlaMint-BA_2006-07-07-0.u6148.seg1" lang="bosanski">
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg1.1">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg1.1" senti_3="Neutralan" senti_6="neutralan negativan" senti_n="1.634">
 Odgovora	Odgovora	odgovor	NOUN	Case=Gen Gender=Masc Number=Sing	1	obl	dobiti	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	10
 na	na	na	ADP	Case=Acc	2	case	pitanje	NOUN	Case=Acc Gender=Neut Number=Plur	4
 delegatska	delegatska	delegatski	ADJ	Case=Acc Definite=Def Degree=Pos Gender=Neut Number=Plur	3	amod	pitanje	NOUN	Case=Acc Gender=Neut Number=Plur	4
@@ -1275,7 +1275,7 @@ odgovor	odgovor	odgovor	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	12	ob
 <g/>
 .	.	.	PUNCT	-	13	punct	dobiti	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	10
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg1.2">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg1.2" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="2.906">
 Ima	Ima	imati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 li	li	li	PART	-	2	mark	imati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 novih	novih	nov	ADJ	Case=Gen Definite=Def Degree=Pos Gender=Neut Number=Plur	3	amod	pitanje	NOUN	Case=Gen Gender=Neut Number=Plur	5
@@ -1284,7 +1284,7 @@ pitanja	pitanja	pitanje	NOUN	Case=Gen Gender=Neut Number=Plur	5	obj	imati	VERB	M
 <g/>
 ?	?	?	PUNCT	-	6	punct	imati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg1.3">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg1.3" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.122">
 Dakle	Dakle	dakle	CCONJ	-	1	cc	konstatovati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 <g/>
 ,	,	,	PUNCT	-	2	punct	dakle	CCONJ	-	1
@@ -1297,7 +1297,7 @@ novih	novih	nov	ADJ	Case=Gen Definite=Def Degree=Pos Gender=Masc Number=Plur	8	n
 <g/>
 .	.	.	PUNCT	-	9	punct	konstatovati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6148.seg1.4">
+<s id="ParlaMint-BA_2006-07-07-0.u6148.seg1.4" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.273">
 I	I	i	CCONJ	-	1	cc	prelaziti	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	3
 <g/>
 ,	,	,	PUNCT	-	2	punct	i	CCONJ	-	1
@@ -1329,9 +1329,9 @@ naroda	naroda	narod	NOUN	Case=Gen Gender=Masc Number=Sing	21	compound	dom	NOUN	C
 </p>
 </speech>
 <note type="speaker" content="Hurtić, Zlatko"/>
-<speech id="ParlaMint-BA_2006-07-07-0.u6152" text_id="ParlaMint-BA_2006-07-07-0" subcorpus="Referenca" lang="bosanski" body="Jednodoman" term="4. mandat" session="-" meeting="Sjednica 60" sitting="2006-07-07" agenda="-" date="2006-07-07" title="Zapisnici sjednica parlamentarne skupštine, mandat 4, sjednica 60" speaker_role="Redovni" speaker_id="HurtićZlatko" speaker_name="Hurtić, Zlatko" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
+<speech id="ParlaMint-BA_2006-07-07-0.u6152" text_id="ParlaMint-BA_2006-07-07-0" subcorpus="Referenca" lang="bosanski" body="Jednodoman" term="4. mandat" session="-" meeting="Sjednica 60" sitting="2006-07-07" agenda="-" date="2006-07-07" title="Zapisnici sjednica parlamentarne skupštine, mandat 4, sjednica 60" speaker_role="Redovni" topic="Makroekonomija" speaker_id="HurtićZlatko" speaker_name="Hurtić, Zlatko" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-BA_2006-07-07-0.u6152.seg0" lang="bosanski">
-<s id="ParlaMint-BA_2006-07-07-0.u6152.seg0.1">
+<s id="ParlaMint-BA_2006-07-07-0.u6152.seg0.1" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="4.252">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	nsubj	željeti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	12
 gospodine	gospodine	gospodin	NOUN	Case=Voc Gender=Masc Number=Sing	2	nmod	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1
 predsjedavajući	predsjedavajući	predsjedavajući	ADJ	Case=Voc Definite=Def Degree=Pos Gender=Masc Number=Sing	3	amod	gospodin	NOUN	Case=Voc Gender=Masc Number=Sing	2
@@ -1384,7 +1384,7 @@ amandmane	amandmane	amandman	NOUN	Case=Acc Gender=Masc Number=Plur	40	obj	podnos
 <g/>
 .	.	.	PUNCT	-	41	punct	željeti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	12
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6152.seg0.2">
+<s id="ParlaMint-BA_2006-07-07-0.u6152.seg0.2" senti_3="Neutralan" senti_6="neutralan negativan" senti_n="1.723">
 Međutim	Međutim	međutim	ADV	Degree=Pos	1	discourse	željeti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 <g/>
 ,	,	,	PUNCT	-	2	punct	međutim	ADV	Degree=Pos	1
@@ -1468,7 +1468,7 @@ naroda	naroda	narod	NOUN	Case=Gen Gender=Masc Number=Sing	65	compound	dom	NOUN	A
 </name>
 .	.	.	PUNCT	-	66	punct	željeti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6152.seg0.3">
+<s id="ParlaMint-BA_2006-07-07-0.u6152.seg0.3" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.290">
 Mi	Mi	mi	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	1	nsubj	biti	AUX	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	8
 smo	smo	biti	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	2	aux	biti	AUX	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	8
 u	u	u	ADP	Case=Loc	3	case	kontakt	NOUN	Case=Loc Gender=Masc Number=Sing	4
@@ -1482,7 +1482,7 @@ bili	bili	biti	AUX	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	8	
 <g/>
 .	.	.	PUNCT	-	9	punct	biti	AUX	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	8
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6152.seg0.4">
+<s id="ParlaMint-BA_2006-07-07-0.u6152.seg0.4" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="3.667">
 Gospodin	Gospodin	gospodin	NOUN	Case=Nom Gender=Masc Number=Sing	1	nsubj	izraziti	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	4
 <name type="PER">
 Nikol	Nikol	nikol	PROPN	Case=Nom Gender=Masc Number=Sing	2	appos	gospodin	NOUN	Case=Nom Gender=Masc Number=Sing	1
@@ -1550,7 +1550,7 @@ obavijestio	obavijestio	obavijestiti	VERB	Gender=Masc Number=Sing Tense=Past Ver
 <g/>
 .	.	.	PUNCT	-	54	punct	izraziti	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	4
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6152.seg0.5">
+<s id="ParlaMint-BA_2006-07-07-0.u6152.seg0.5" senti_3="Negativan" senti_6="miješan negativan" senti_n="0.819">
 Prema	Prema	prema	ADP	Case=Loc	1	case	taj	DET	Case=Loc Gender=Neut Number=Sing PronType=Dem	2
 tome	tome	taj	DET	Case=Loc Gender=Neut Number=Sing PronType=Dem	2	discourse	misliti	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	6
 <g/>
@@ -1658,7 +1658,7 @@ učini	učini	učiniti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fi
 <g/>
 .	.	.	PUNCT	-	92	punct	apelovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	66
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6152.seg0.6">
+<s id="ParlaMint-BA_2006-07-07-0.u6152.seg0.6" senti_3="Pozitivan" senti_6="pozitivan" senti_n="4.511">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1
@@ -1666,9 +1666,9 @@ Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-BA_2006-07-07-0.u6206" text_id="ParlaMint-BA_2006-07-07-0" subcorpus="Referenca" lang="bosanski" body="Jednodoman" term="4. mandat" session="-" meeting="Sjednica 60" sitting="2006-07-07" agenda="-" date="2006-07-07" title="Zapisnici sjednica parlamentarne skupštine, mandat 4, sjednica 60" speaker_role="Redovni" speaker_id="ČengićHasan" speaker_name="Čengić, Hasan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDA" speaker_party_name="Stranka demokratske akcije" party_status="Opposition" party_orientation="Desni centar do desno" speaker_gender="M" speaker_birth="1957">
+<speech id="ParlaMint-BA_2006-07-07-0.u6206" text_id="ParlaMint-BA_2006-07-07-0" subcorpus="Referenca" lang="bosanski" body="Jednodoman" term="4. mandat" session="-" meeting="Sjednica 60" sitting="2006-07-07" agenda="-" date="2006-07-07" title="Zapisnici sjednica parlamentarne skupštine, mandat 4, sjednica 60" speaker_role="Redovni" topic="Zdravlje" speaker_id="ČengićHasan" speaker_name="Čengić, Hasan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDA" speaker_party_name="Stranka demokratske akcije" party_status="Opposition" party_orientation="Desni centar do desno" speaker_gender="M" speaker_birth="1957">
 <p id="ParlaMint-BA_2006-07-07-0.u6206.seg0" lang="bosanski">
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.1">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.1" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="3.852">
 Uvažavajući	Uvažavajući	uvažavati	ADV	Tense=Pres VerbForm=Conv	1	xcomp	početi	VERB	VerbForm=Inf	16
 sve	sve	sav	ADJ	Case=Acc Definite=Def Degree=Pos Gender=Neut Number=Sing	2	amod	onaj	DET	Case=Acc Gender=Neut Number=Sing PronType=Dem	3
 ono	ono	onaj	DET	Case=Acc Gender=Neut Number=Sing PronType=Dem	3	obj	uvažavati	ADV	Tense=Pres VerbForm=Conv	1
@@ -1704,7 +1704,7 @@ ministara	ministara	ministar	NOUN	Case=Gen Gender=Masc Number=Plur	26	compound	v
 </name>
 .	.	.	PUNCT	-	27	punct	početi	VERB	VerbForm=Inf	16
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.2">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.2" senti_3="Negativan" senti_6="miješan negativan" senti_n="0.759">
 To	To	taj	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	1	nsubj	suština	NOUN	Case=Nom Gender=Fem Number=Sing	3
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	cop	suština	NOUN	Case=Nom Gender=Fem Number=Sing	3
 suština	suština	suština	NOUN	Case=Nom Gender=Fem Number=Sing	3	root	-	-	-	-
@@ -1713,7 +1713,7 @@ priće	priće	prića	NOUN	Case=Gen Gender=Fem Number=Sing	5	nmod	suština	NOUN	C
 <g/>
 .	.	.	PUNCT	-	6	punct	suština	NOUN	Case=Nom Gender=Fem Number=Sing	3
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.3">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.3" senti_3="Negativan" senti_6="negativan" senti_n="0.061">
 Dakle	Dakle	dakle	CCONJ	-	1	cc	insistirati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 <g/>
 ,	,	,	PUNCT	-	2	punct	dakle	CCONJ	-	1
@@ -1740,7 +1740,7 @@ popravljati	popravljati	popravljati	VERB	VerbForm=Inf	22	nsubj	potreban	ADJ	Case
 <g/>
 .	.	.	PUNCT	-	23	punct	insistirati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.4">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.4" senti_3="Negativan" senti_6="negativan" senti_n="0.037">
 I	I	i	CCONJ	-	1	discourse	ja	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	2
 ja	ja	ja	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	2	nsubj	misliti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 mislim	mislim	misliti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3	root	-	-	-	-
@@ -1774,7 +1774,7 @@ usvojimo	usvojimo	usvojiti	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbFor
 <g/>
 .	.	.	PUNCT	-	31	punct	misliti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.5">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.5" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.041">
 To	To	taj	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	1	nsubj	razlog	NOUN	Case=Nom Gender=Masc Number=Sing	4
 jeste	jeste	biti	AUX	Mood=Ind Number=Plur Person=2 Tense=Pres VerbForm=Fin	2	cop	razlog	NOUN	Case=Nom Gender=Masc Number=Sing	4
 upravo	upravo	upravo	ADV	Degree=Pos	3	advmod	razlog	NOUN	Case=Nom Gender=Masc Number=Sing	4
@@ -1784,7 +1784,7 @@ govorim	govorim	govoriti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=
 <g/>
 .	.	.	PUNCT	-	7	punct	razlog	NOUN	Case=Nom Gender=Masc Number=Sing	4
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.6">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.6" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.133">
 Kad	Kad	kad	ADV	Degree=Pos PronType=Int,Rel	1	advmod	govoriti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2
 govorim	govorim	govoriti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2	advcl	reći	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	9
 o	o	o	ADP	Case=Loc	3	case	pitanje	NOUN	Case=Loc Gender=Neut Number=Sing	5
@@ -1800,7 +1800,7 @@ jasno	jasno	jasno	ADV	Degree=Pos	11	advmod	reći	VERB	Gender=Masc Number=Sing Te
 <g/>
 .	.	.	PUNCT	-	12	punct	reći	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	9
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.7">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.7" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="4.309">
 Dakle	Dakle	dakle	CCONJ	-	1	cc	smatrati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	44
 <g/>
 ,	,	,	PUNCT	-	2	punct	dakle	CCONJ	-	1
@@ -1888,7 +1888,7 @@ pripremi	pripremi	priprema	NOUN	Case=Loc Gender=Fem Number=Sing	77	obl	učestvov
 <g/>
 .	.	.	PUNCT	-	78	punct	smatrati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	44
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.8">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.8" senti_3="Negativan" senti_6="miješan negativan" senti_n="0.883">
 Dakle	Dakle	dakle	CCONJ	-	1	cc	pripremati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	11
 da	da	da	SCONJ	-	2	mark	kolega	NOUN	Case=Nom Gender=Masc Number=Sing	6
 budem	budem	biti	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3	cop	kolega	NOUN	Case=Nom Gender=Masc Number=Sing	6
@@ -1910,7 +1910,7 @@ ljudi	ljudi	čovjek	NOUN	Case=Gen Gender=Masc Number=Plur	15	nmod	broj	NOUN	Anim
 <g/>
 .	.	.	PUNCT	-	16	punct	pripremati	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	11
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.9">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.9" senti_3="Negativan" senti_6="miješan negativan" senti_n="0.914">
 Neki	Neki	neki	DET	Case=Nom Gender=Masc Number=Plur PronType=Ind	1	nsubj	ekspert	NOUN	Case=Nom Gender=Masc Number=Plur	5
 od	od	od	ADP	Case=Gen	2	case	oni	PRON	Case=Gen Number=Plur Person=3 PronType=Prs	3
 njih	njih	oni	PRON	Case=Gen Number=Plur Person=3 PronType=Prs	3	nmod	neki	DET	Case=Nom Gender=Masc Number=Plur PronType=Ind	1
@@ -1941,7 +1941,7 @@ lijekova	lijekova	lijek	NOUN	Case=Gen Gender=Masc Number=Plur	25	obj	ticati	VERB
 <g/>
 .	.	.	PUNCT	-	26	punct	ekspert	NOUN	Case=Nom Gender=Masc Number=Plur	5
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.10">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.10" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="2.536">
 Ali	Ali	ali	CCONJ	-	1	cc	pripremati	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	3
 su	su	biti	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	2	aux	pripremati	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	3
 pripremali	pripremali	pripremati	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	3	root	-	-	-	-
@@ -1949,7 +1949,7 @@ zakon	zakon	zakon	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	4	obj	pripr
 <g/>
 .	.	.	PUNCT	-	5	punct	pripremati	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	3
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.11">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.11" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="4.179">
 Da	Da	da	PART	Polarity=Pos	1	discourse	da	PART	Polarity=Pos	3
 <g/>
 ,	,	,	PUNCT	-	2	punct	da	PART	Polarity=Pos	1
@@ -1957,7 +1957,7 @@ da	da	da	PART	Polarity=Pos	3	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	4	punct	da	PART	Polarity=Pos	3
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.12">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.12" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="3.573">
 Sada	Sada	sada	ADV	Degree=Pos PronType=Dem	1	advmod	trebati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	3
 mi	mi	mi	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	2	nsubj	trebati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	3
 trebamo	trebamo	trebati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	3	root	-	-	-	-
@@ -2012,7 +2012,7 @@ strane	strane	strana	NOUN	Case=Gen Gender=Fem Number=Sing	47	obl	čuti	VERB	Mood
 <g/>
 .	.	.	PUNCT	-	48	punct	trebati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	3
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.13">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.13" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="4.011">
 Pod	Pod	pod	ADP	Case=Ins	1	case	navodnik	NOUN	Case=Ins Gender=Masc Number=Plur	2
 navodnicima	navodnicima	navodnik	NOUN	Case=Ins Gender=Masc Number=Plur	2	obl	itd.	ADV	-	18
 <g/>
@@ -2054,7 +2054,7 @@ zakon	zakon	zakon	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	35	obj	popr
 <g/>
 .	.	.	PUNCT	-	36	punct	itd.	ADV	-	18
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.14">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.14" senti_3="Neutralan" senti_6="neutralan negativan" senti_n="2.297">
 23	23	23	NUM	NumType=Card	1	nsubj	nered	NOUN	Case=Nom Gender=Masc Number=Sing	7
 I	I	i	CCONJ	-	2	cc	zaključiti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4
 da	da	da	SCONJ	-	3	mark	zaključiti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4
@@ -2070,12 +2070,12 @@ zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	11	nmod	nered	NOUN	Cas
 <g/>
 .	.	.	PUNCT	-	12	punct	nered	NOUN	Case=Nom Gender=Masc Number=Sing	7
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.15">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.15" senti_3="Neutralan" senti_6="neutralan negativan" senti_n="1.695">
 Nije	Nije	biti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	biti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.16">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.16" senti_3="Negativan" senti_6="negativan" senti_n="0.119">
 Nered	Nered	nered	NOUN	Case=Nom Gender=Masc Number=Sing	1	nsubj	poštovanje	NOUN	Case=Gen Gender=Neut Number=Sing	7
 na	na	na	ADP	Case=Loc	2	case	tržište	NOUN	Case=Loc Gender=Neut Number=Sing	3
 tržištu	tržištu	tržište	NOUN	Case=Loc Gender=Neut Number=Sing	3	nmod	nered	NOUN	Case=Nom Gender=Masc Number=Sing	1
@@ -2087,7 +2087,7 @@ zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	8	nmod	poštovanje	NOU
 <g/>
 .	.	.	PUNCT	-	9	punct	poštovanje	NOUN	Case=Gen Gender=Neut Number=Sing	7
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.17">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.17" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.363">
 Dakle	Dakle	dakle	CCONJ	-	1	cc	broj	NOUN	Case=Nom Gender=Masc Number=Sing	5
 <g/>
 ,	,	,	PUNCT	-	2	punct	dakle	CCONJ	-	1
@@ -2098,7 +2098,7 @@ jedan	jedan	jedan	NUM	Case=Nom Gender=Masc Number=Sing NumType=Card	6	nummod	bro
 <g/>
 .	.	.	PUNCT	-	7	punct	broj	NOUN	Case=Nom Gender=Masc Number=Sing	5
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.18">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.18" senti_3="Negativan" senti_6="negativan" senti_n="0.142">
 Broj	Broj	broj	NOUN	Case=Nom Gender=Masc Number=Sing	1	nsubj	smjeti	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	5
 dva	dva	dva	NUM	NumType=Card	2	nummod	broj	NOUN	Case=Nom Gender=Masc Number=Sing	1
 <g/>
@@ -2130,7 +2130,7 @@ području	području	područje	NOUN	Case=Loc Gender=Neut Number=Sing	26	nmod	neor
 <g/>
 .	.	.	PUNCT	-	27	punct	smjeti	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	5
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.19">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.19" senti_3="Pozitivan" senti_6="pozitivan" senti_n="5.217">
 Iz	Iz	iz	ADP	Case=Gen	1	case	sav	ADJ	Case=Gen Definite=Def Degree=Pos Gender=Neut Number=Sing	2
 svega	svega	sav	ADJ	Case=Gen Definite=Def Degree=Pos Gender=Neut Number=Sing	2	obl	smatrati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	10
 toga	toga	taj	DET	Case=Gen Gender=Neut Number=Sing PronType=Dem	3	obl	smatrati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	10
@@ -2160,7 +2160,7 @@ njemu	njemu	on	PRON	Case=Loc Gender=Masc Number=Sing Person=3 PronType=Prs	24	ob
 <g/>
 .	.	.	PUNCT	-	25	punct	smatrati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	10
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.20">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.20" senti_3="Negativan" senti_6="negativan" senti_n="0.037">
 Posebno	Posebno	posebno	ADV	Degree=Pos	1	advmod	pitanje	NOUN	Case=Nom Gender=Neut Number=Sing	3
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	cop	pitanje	NOUN	Case=Nom Gender=Neut Number=Sing	3
 pitanje	pitanje	pitanje	NOUN	Case=Nom Gender=Neut Number=Sing	3	root	-	-	-	-
@@ -2225,7 +2225,7 @@ godine	godine	godina	NOUN	Case=Gen Gender=Fem Number=Sing	52	obl	raditi	VERB	Moo
 <g/>
 .	.	.	PUNCT	-	53	punct	pitanje	NOUN	Case=Nom Gender=Neut Number=Sing	3
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.21">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.21" senti_3="Negativan" senti_6="negativan" senti_n="0.169">
 Dakle	Dakle	dakle	CCONJ	-	1	cc	postojati	VERB	Gender=Neut Number=Sing Tense=Past VerbForm=Part Voice=Act	3
 <g/>
 ,	,	,	PUNCT	-	2	punct	dakle	CCONJ	-	1
@@ -2272,14 +2272,14 @@ poljoprivredi	poljoprivredi	poljoprivreda	NOUN	Case=Loc Gender=Fem Number=Sing	3
 <g/>
 .	.	.	PUNCT	-	38	punct	postojati	VERB	Gender=Neut Number=Sing Tense=Past VerbForm=Part Voice=Act	3
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.22">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.22" senti_3="Negativan" senti_6="negativan" senti_n="0.142">
 To	To	taj	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	1	nsubj	sramotan	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Neut Number=Sing	3
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	cop	sramotan	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Neut Number=Sing	3
 sramotno	sramotno	sramotan	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Neut Number=Sing	3	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	4	punct	sramotan	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Neut Number=Sing	3
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.23">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.23" senti_3="Negativan" senti_6="negativan" senti_n="0.026">
 Dakle	Dakle	dakle	CCONJ	-	1	cc	trebati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 <name type="ORG">
 OHR	OHR	OHR	PROPN	Case=Nom Gender=Masc Number=Sing	2	nsubj	trebati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
@@ -2370,7 +2370,7 @@ zakon	zakon	zakon	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	77	obj	doni
 <g/>
 .	.	.	PUNCT	-	78	punct	trebati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.24">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.24" senti_3="Neutralan" senti_6="neutralan negativan" senti_n="2.162">
 Eto	Eto	eto	PART	-	1	discourse	razlog	NOUN	Case=Nom Gender=Masc Number=Sing	6
 <g/>
 ,	,	,	PUNCT	-	2	punct	eto	PART	-	1
@@ -2381,7 +2381,7 @@ razlog	razlog	razlog	NOUN	Case=Nom Gender=Masc Number=Sing	6	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	7	punct	razlog	NOUN	Case=Nom Gender=Masc Number=Sing	6
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.25">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.25" senti_3="Pozitivan" senti_6="pozitivan" senti_n="4.635">
 Dakle	Dakle	dakle	CCONJ	-	1	cc	predlagati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	11
 podržavajući	podržavajući	podržavati	ADV	Tense=Pres VerbForm=Conv	2	xcomp	predlagati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	11
 njegovu	njegovu	njegov	DET	Case=Acc Gender=Fem Gender[psor]=Masc,Neut Number=Sing Number[psor]=Sing Person=3 Poss=Yes PronType=Prs	3	det	važnost	NOUN	Case=Acc Gender=Fem Number=Sing	4
@@ -2402,7 +2402,7 @@ proceduru	proceduru	procedura	NOUN	Case=Acc Gender=Fem Number=Sing	16	obl	ići	V
 <g/>
 .	.	.	PUNCT	-	17	punct	predlagati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	11
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.26">
+<s id="ParlaMint-BA_2006-07-07-0.u6206.seg0.26" senti_3="Pozitivan" senti_6="pozitivan" senti_n="4.511">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1
@@ -2410,9 +2410,9 @@ Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 </p>
 </speech>
 <note type="speaker" content="Milojević, Goran"/>
-<speech id="ParlaMint-BA_2006-07-07-0.u6207" text_id="ParlaMint-BA_2006-07-07-0" subcorpus="Referenca" lang="bosanski" body="Jednodoman" term="4. mandat" session="-" meeting="Sjednica 60" sitting="2006-07-07" agenda="-" date="2006-07-07" title="Zapisnici sjednica parlamentarne skupštine, mandat 4, sjednica 60" speaker_role="Predsjedavajući" speaker_id="MilojevićGoran" speaker_name="Milojević, Goran" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PDP" speaker_party_name="Partija demokratskog progresa" party_status="Opposition" party_orientation="Centar do desni centar" speaker_gender="M" speaker_birth="1960">
+<speech id="ParlaMint-BA_2006-07-07-0.u6207" text_id="ParlaMint-BA_2006-07-07-0" subcorpus="Referenca" lang="bosanski" body="Jednodoman" term="4. mandat" session="-" meeting="Sjednica 60" sitting="2006-07-07" agenda="-" date="2006-07-07" title="Zapisnici sjednica parlamentarne skupštine, mandat 4, sjednica 60" speaker_role="Predsjedavajući" topic="Zdravlje" speaker_id="MilojevićGoran" speaker_name="Milojević, Goran" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PDP" speaker_party_name="Partija demokratskog progresa" party_status="Opposition" party_orientation="Centar do desni centar" speaker_gender="M" speaker_birth="1960">
 <p id="ParlaMint-BA_2006-07-07-0.u6207.seg0" lang="bosanski">
-<s id="ParlaMint-BA_2006-07-07-0.u6207.seg0.1">
+<s id="ParlaMint-BA_2006-07-07-0.u6207.seg0.1" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="4.494">
 Zahvaljujem	Zahvaljujem	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 se	se	sebe	PRON	Case=Acc PronType=Prs Reflex=Yes	2	expl:pv	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 kolegi	kolegi	kolega	NOUN	Case=Dat Gender=Masc Number=Sing	3	obj	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
@@ -2422,7 +2422,7 @@ kolegi	kolegi	kolega	NOUN	Case=Dat Gender=Masc Number=Sing	3	obj	zahvaljivati	VE
 </name>
 .	.	.	PUNCT	-	5	punct	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6207.seg0.2">
+<s id="ParlaMint-BA_2006-07-07-0.u6207.seg0.2" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="3.601">
 Mi	Mi	mi	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	1	nsubj	ići	VERB	VerbForm=Inf	4
 ćemo	ćemo	htjeti	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	2	aux	ići	VERB	VerbForm=Inf	4
 dakle	dakle	dakle	CCONJ	-	3	cc	ići	VERB	VerbForm=Inf	4
@@ -2455,7 +2455,7 @@ se	se	sebe	PRON	Case=Acc PronType=Prs Reflex=Yes	24	expl:pv	čuti	VERB	Mood=Ind 
 </s>
 </p>
 <p id="ParlaMint-BA_2006-07-07-0.u6207.seg1" lang="bosanski">
-<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.1">
+<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.1" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="3.836">
 Ali	Ali	ali	CCONJ	-	1	cc	imati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 ima	ima	imati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 ovde	ovde	ovde	ADV	Degree=Pos	3	advmod	prostor	NOUN	Case=Gen Gender=Masc Number=Sing	4
@@ -2489,7 +2489,7 @@ amandmanski	amandmanski	amandmanski	ADV	Degree=Pos	26	advmod	djelovati	VERB	Verb
 <g/>
 .	.	.	PUNCT	-	27	punct	imati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.2">
+<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.2" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.173">
 Dakle	Dakle	dakle	CCONJ	-	1	cc	stavljati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4
 <g/>
 ,	,	,	PUNCT	-	2	punct	dakle	CCONJ	-	1
@@ -2524,7 +2524,7 @@ sa	sa	sa	ADP	Case=Ins	26	case	član	NOUN	Case=Ins Gender=Masc Number=Sing	27
 članom	članom	član	NOUN	Case=Ins Gender=Masc Number=Sing	27	nmod	sklad	NOUN	Case=Loc Gender=Masc Number=Sing	25
 99.	99.	99.	ADJ	NumType=Ord	28	amod	član	NOUN	Case=Ins Gender=Masc Number=Sing	27
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.3">
+<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.3" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.372">
 Poslovnika	Poslovnika	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="ORG">
 Doma	Doma	dom	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1
@@ -2533,38 +2533,38 @@ naroda	naroda	narod	NOUN	Case=Gen Gender=Masc Number=Sing	3	compound	dom	NOUN	Ca
 </name>
 .	.	.	PUNCT	-	4	punct	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.4">
+<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.4" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.252">
 Molim	Molim	moliti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 vas	vas	vi	PRON	Case=Acc Number=Plur Person=2 PronType=Prs	2	obj	moliti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 glasajte	glasajte	glasati	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin	3	xcomp	moliti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 <g/>
 .	.	.	PUNCT	-	4	punct	moliti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.5">
+<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.5" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="3.934">
 Ko	Ko	tko	PRON	Case=Nom Gender=Masc PronType=Int,Rel	1	nsubj	za	ADP	Case=Acc	3
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	cop	za	ADP	Case=Acc	3
 za	za	za	ADP	Case=Acc	3	root	-	-	-	-
 <g/>
 ?	?	?	PUNCT	-	4	punct	za	ADP	Case=Acc	3
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.6">
+<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.6" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.215">
 Protiv	Protiv	protiv	ADP	Case=Gen	1	root	-	-	-	-
 <g/>
 ?	?	?	PUNCT	-	2	punct	protiv	ADP	Case=Gen	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.7">
+<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.7" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="2.568">
 Uzdržan	Uzdržan	uzdržati	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	1	root	-	-	-	-
 <g/>
 ?	?	?	PUNCT	-	2	punct	uzdržati	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.8">
+<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.8" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="2.876">
 <name type="PER">
 Niko	Niko	Niko	PROPN	Case=Nom Gender=Masc Number=Sing	1	root	-	-	-	-
 <g/>
 </name>
 .	.	.	PUNCT	-	2	punct	Niko	PROPN	Case=Nom Gender=Masc Number=Sing	1
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.9">
+<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.9" senti_3="Pozitivan" senti_6="miješan pozitivan" senti_n="4.281">
 Znači	Znači	značiti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	parataxis	usvojiti	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part Voice=Pass	5
 večinom	večinom	večina	NOUN	Case=Ins Gender=Fem Number=Sing	2	obl	značiti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 glasova	glasova	glas	NOUN	Case=Gen Gender=Masc Number=Plur	3	nmod	večina	NOUN	Case=Ins Gender=Fem Number=Sing	2
@@ -2575,7 +2575,7 @@ zakon	zakon	zakon	NOUN	Case=Nom Gender=Masc Number=Sing	7	nsubj:pass	usvojiti	AD
 <g/>
 .	.	.	PUNCT	-	8	punct	usvojiti	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part Voice=Pass	5
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.10">
+<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.10" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.074">
 29.	29.	29.	ADJ	NumType=Ord	1	amod	tačka	NOUN	Case=Nom Gender=Fem Number=Sing	2
 tačka	tačka	tačka	NOUN	Case=Nom Gender=Fem Number=Sing	2	root	-	-	-	-
 današnjeg	današnjeg	današnji	ADJ	Case=Gen Definite=Def Degree=Pos Gender=Masc Number=Sing	3	amod	red	NOUN	Case=Gen Gender=Masc Number=Sing	5
@@ -2593,7 +2593,7 @@ Ad	Ad	ad	X	-	10	conj	predposljednji	ADJ	Case=Nom Definite=Def Degree=Pos Gender=
 <g/>
 29.	29.	29.	ADJ	NumType=Ord	12	nmod	tačka	NOUN	Case=Nom Gender=Fem Number=Sing	2
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.11">
+<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.11" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="2.965">
 Zahtjev	Zahtjev	zahtjev	NOUN	Case=Nom Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="ORG">
 Savjeta	Savjeta	savjet	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	zahtjev	NOUN	Case=Nom Gender=Masc Number=Sing	1
@@ -2622,7 +2622,7 @@ sa	sa	sa	ADP	Case=Ins	20	case	član	NOUN	Case=Ins Gender=Masc Number=Sing	21
 članom	članom	član	NOUN	Case=Ins Gender=Masc Number=Sing	21	nmod	sklad	NOUN	Case=Loc Gender=Masc Number=Sing	19
 99.	99.	99.	ADJ	NumType=Ord	22	amod	član	NOUN	Case=Ins Gender=Masc Number=Sing	21
 </s>
-<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.12">
+<s id="ParlaMint-BA_2006-07-07-0.u6207.seg1.12" senti_3="Neutralan" senti_6="neutralan pozitivan" senti_n="3.466">
 Poslovnika	Poslovnika	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="ORG">
 Doma	Doma	dom	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	1

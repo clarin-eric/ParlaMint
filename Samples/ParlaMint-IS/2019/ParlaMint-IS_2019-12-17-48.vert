@@ -1,6 +1,6 @@
-<speech id="ParlaMint-IS_2019-12-17-48.u1" text_id="ParlaMint-IS_2019-12-17-48" subcorpus="Viðmiðun" lang="Íslenska" body="Þing í einni deild" term="23. kjörtímabil" session="150. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2019-12-17" title="Ræður frá Alþingi Íslendinga, 23. kjörtímabil, hefðbundinn fundur 150-48, 17.12.2019." speaker_role="Þingforseti" topic="-" speaker_id="SteingrimurSigfusson" speaker_name="Sigfússon, Steingrímur J." speaker_mp="MP" speaker_minister="notMinister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="Coalition" party_orientation="Mið-vinstri til vinstri" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-IS_2019-12-17-48.u1" text_id="ParlaMint-IS_2019-12-17-48" subcorpus="Viðmiðun" lang="Íslenska" body="Þing í einni deild" term="23. kjörtímabil" session="150. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2019-12-17" title="Ræður frá Alþingi Íslendinga, 23. kjörtímabil, hefðbundinn fundur 150-48, 17.12.2019." speaker_role="Þingforseti" topic="Annað" topic_is="-" speaker_id="SteingrimurSigfusson" speaker_name="Sigfússon, Steingrímur J." speaker_mp="MP" speaker_minister="notMinister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="Coalition" party_orientation="Mið-vinstri til vinstri" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-IS_2019-12-17-48.seg1" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg1.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg1.1" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.939">
 Samkomulag	Samkomulag	samkomulag	NOUN	Case=Nom Definite=Ind Number=Sing	1	nsubj	fyrirkomulag	NOUN	Case=Acc Definite=Ind Number=Sing	4
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	fyrirkomulag	NOUN	Case=Acc Definite=Ind Number=Sing	4
 um	um	um	ADP	-	3	case	fyrirkomulag	NOUN	Case=Acc Definite=Ind Number=Sing	4
@@ -14,7 +14,7 @@ milli	milli	milli	ADP	-	9	case	þingflokkur	NOUN	Case=Gen Definite=Ind Number=Pl
 <g/>
 .	.	.	PUNCT	-	11	punct	þingflokkur	NOUN	Case=Gen Definite=Ind Number=Plur	10
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg1.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg1.2" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.976">
 Gert	Gert	gera	VERB	Tense=Past VerbForm=Part	1	root	-	-	-	-
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	gera	VERB	Tense=Past VerbForm=Part	1
 ráð	ráð	ráð	NOUN	Case=Nom Definite=Ind Number=Sing	3	nsubj	gera	VERB	Tense=Past VerbForm=Part	1
@@ -29,7 +29,7 @@ klukkustund	klukkustund	klukkustund	NOUN	Case=Acc Definite=Ind Number=Sing	11	ob
 <g/>
 .	.	.	PUNCT	-	12	punct	klukkustund	NOUN	Case=Acc Definite=Ind Number=Sing	11
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg1.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg1.3" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.923">
 Forsætisráðherra	Forsætisráðherra	forsætisráðherra	NOUN	Case=Nom Definite=Ind Number=Sing	1	nsubj	hafa	VERB	Mood=Ind Tense=Pres	2
 hefur	hefur	hafa	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 tíu	tíu	tíu	NUM	Case=Acc	3	nummod	mínúta	NOUN	Case=Acc Definite=Ind Number=Plur	4
@@ -45,7 +45,7 @@ umræðunnar	umræðunnar	umræða	NOUN	Case=Gen Definite=Ind Number=Sing	12	nmo
 <g/>
 .	.	.	PUNCT	-	13	punct	umræða	NOUN	Case=Gen Definite=Ind Number=Sing	12
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg1.4">
+<s id="ParlaMint-IS_2019-12-17-48.seg1.4" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="2.417">
 Í	Í	í	ADP	-	1	case	upphaf	NOUN	Case=Dat Definite=Ind Number=Sing	2
 upphafi	upphafi	upphaf	NOUN	Case=Dat Definite=Ind Number=Sing	2	obl	leyfa	VERB	Tense=Past VerbForm=Part	5
 umræðunnar	umræðunnar	umræða	NOUN	Case=Gen Definite=Ind Number=Sing	3	nmod:poss	upphaf	NOUN	Case=Dat Definite=Ind Number=Sing	2
@@ -63,15 +63,15 @@ ráðherra	ráðherra	ráðherra	NOUN	Case=Gen Definite=Ind Number=Sing	12	nmod:
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2019-12-17-48.u2" text_id="ParlaMint-IS_2019-12-17-48" subcorpus="Viðmiðun" lang="Íslenska" body="Þing í einni deild" term="23. kjörtímabil" session="150. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2019-12-17" title="Ræður frá Alþingi Íslendinga, 23. kjörtímabil, hefðbundinn fundur 150-48, 17.12.2019." speaker_role="Venjulegur" topic="-" speaker_id="KatrinJakobsdottir" speaker_name="Jakobsdóttir, Katrín" speaker_mp="MP" speaker_minister="Minister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="Coalition" party_orientation="Mið-vinstri til vinstri" speaker_gender="F" speaker_birth="1976">
+<speech id="ParlaMint-IS_2019-12-17-48.u2" text_id="ParlaMint-IS_2019-12-17-48" subcorpus="Viðmiðun" lang="Íslenska" body="Þing í einni deild" term="23. kjörtímabil" session="150. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2019-12-17" title="Ræður frá Alþingi Íslendinga, 23. kjörtímabil, hefðbundinn fundur 150-48, 17.12.2019." speaker_role="Venjulegur" topic="Umhverfismál" topic_is="-" speaker_id="KatrinJakobsdottir" speaker_name="Jakobsdóttir, Katrín" speaker_mp="MP" speaker_minister="Minister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="Coalition" party_orientation="Mið-vinstri til vinstri" speaker_gender="F" speaker_birth="1976">
 <p id="ParlaMint-IS_2019-12-17-48.seg2" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg2.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg2.1" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.179">
 Herra	Herra	herra	NOUN	Case=Nom Definite=Ind Number=Sing	1	root	-	-	-	-
 forseti	forseti	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2	conj	herra	NOUN	Case=Nom Definite=Ind Number=Sing	1
 <g/>
 .	.	.	PUNCT	-	3	punct	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg2.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg2.2" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.862">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	þakka	VERB	Mood=Ind Tense=Pres	2
 þakka	þakka	þakka	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 hæstv.	hæstv.	hæstv.	ADJ	Case=Dat Degree=Pos	3	amod	forseti	NOUN	Case=Dat Definite=Ind Number=Sing	4
@@ -110,7 +110,7 @@ frá	frá	frá	ADP	-	28	case	desember	NOUN	Case=Dat Definite=Ind Number=Sing	32
 desember	desember	desember	NOUN	Case=Dat Definite=Ind Number=Sing	32	obl	geisa	VERB	Mood=Ind Tense=Past	24
 sl.	sl.	sl.	ADJ	Degree=Pos	33	amod	desember	NOUN	Case=Dat Definite=Ind Number=Sing	32
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg2.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg2.3" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="1.416">
 Það	Það	það	PRON	Case=Nom Gender=Neut Number=Sing	1	expl	segja	VERB	Tense=Past VerbForm=Part	5
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	segja	VERB	Tense=Past VerbForm=Part	5
 ekki	ekki	ekki	ADV	-	3	advmod	segja	VERB	Tense=Past VerbForm=Part	5
@@ -179,7 +179,7 @@ Heimaeyjargosinu	Heimaeyjargosinu	Heimaeyjargos	NOUN	Case=Dat Definite=Ind	57	ob
 </name>
 .	.	.	PUNCT	-	58	punct	Heimaeyjargos	NOUN	Case=Dat Definite=Ind	57
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg2.4">
+<s id="ParlaMint-IS_2019-12-17-48.seg2.4" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.573">
 Annað	Annað	annar	PRON	Case=Nom Gender=Neut Number=Sing PronType=Ind	1	det	veður	NOUN	Case=Nom Definite=Ind Number=Sing	3
 slíkt	slíkt	slíkur	PRON	Case=Nom Gender=Neut Number=Sing PronType=Dem	2	det	veður	NOUN	Case=Nom Definite=Ind Number=Sing	3
 veður	veður	veður	NOUN	Case=Nom Definite=Ind Number=Sing	3	nsubj	ár	NOUN	Case=Acc Definite=Ind Number=Sing	5
@@ -200,7 +200,7 @@ einnig	einnig	einnig	ADV	-	15	advmod	gefa	VERB	Mood=Ind Number=Sing Person=3 Ten
 <g/>
 .	.	.	PUNCT	-	16	punct	einnig	ADV	-	15
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg2.5">
+<s id="ParlaMint-IS_2019-12-17-48.seg2.5" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.692">
 Önnur	Önnur	annar	PRON	Case=Nom	1	det	norðanveður	NOUN	Case=Nom Definite=Ind Number=Plur	2
 norðanveður	norðanveður	norðanveður	NOUN	Case=Nom Definite=Ind Number=Plur	2	nsubj	slæmur	ADJ	Case=Nom Degree=Pos	14
 með	með	með	ADP	-	3	case	selta	NOUN	Case=Dat Definite=Ind Number=Sing	4
@@ -237,7 +237,7 @@ sig	sig	sig	PRON	Case=Acc	31	obj	gefa	VERB	Mood=Ind Tense=Past	30
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg3" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg3.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg3.1" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.628">
 Fram	Fram	fram	ADP	-	1	compound:prt	koma	VERB	Tense=Past VerbForm=Part	3
 hefur	hefur	hafa	AUX	Mood=Ind Tense=Pres	2	aux	koma	VERB	Tense=Past VerbForm=Part	3
 komið	komið	koma	VERB	Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -285,7 +285,7 @@ veður	veður	veður	NOUN	Case=Nom Definite=Ind Number=Sing	39	obl	mark	NOUN	Cas
 <g/>
 .	.	.	PUNCT	-	40	punct	veður	NOUN	Case=Nom Definite=Ind Number=Sing	39
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg3.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg3.2" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="1.592">
 En	En	en	CCONJ	-	1	cc	breyta	VERB	Mood=Ind Tense=Pres	3
 það	það	það	PRON	Case=Nom	2	nsubj	breyta	VERB	Mood=Ind Tense=Pres	3
 breytir	breytir	breyta	VERB	Mood=Ind Tense=Pres	3	root	-	-	-	-
@@ -338,7 +338,7 @@ degi	degi	dagur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Sing	45	obl	verða
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg4" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg4.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg4.1" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.253">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	segja	VERB	VerbForm=Inf	4
 vil	vil	vilja	AUX	Mood=Ind Tense=Pres	2	aux	segja	VERB	VerbForm=Inf	4
 fyrst	fyrst	snemma	ADV	Degree=Sup	3	advmod	segja	VERB	VerbForm=Inf	4
@@ -356,7 +356,7 @@ mannskaða	mannskaða	mannskaði	NOUN	Case=Acc Definite=Ind Number=Sing	14	obj	v
 <g/>
 .	.	.	PUNCT	-	15	punct	mannskaði	NOUN	Case=Acc Definite=Ind Number=Sing	14
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg4.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg4.2" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.223">
 Það	Það	það	PRON	Case=Nom	1	nsubj	verða	VERB	Mood=Ind Tense=Past	2
 varð	varð	verða	VERB	Mood=Ind Tense=Past	2	root	-	-	-	-
 í	í	í	ADP	-	3	case	veður	NOUN	Case=Dat Definite=Ind Number=Sing	5
@@ -372,7 +372,7 @@ bætt	bætt	bæta	VERB	Tense=Past VerbForm=Part	12	conj	verða	VERB	Mood=Ind Ten
 <g/>
 .	.	.	PUNCT	-	13	punct	bæta	VERB	Tense=Past VerbForm=Part	12
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg4.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg4.3" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.268">
 Það	Það	það	PRON	Case=Nom	1	nsubj	auðvitað	ADV	Degree=Pos	3
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	auðvitað	ADV	Degree=Pos	3
 auðvitað	auðvitað	auðvitað	ADV	Degree=Pos	3	root	-	-	-	-
@@ -387,7 +387,7 @@ veðri	veðri	veður	NOUN	Case=Dat Definite=Ind Number=Sing	11	obl	gera	VERB	Ten
 <g/>
 .	.	.	PUNCT	-	12	punct	veður	NOUN	Case=Dat Definite=Ind Number=Sing	11
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg4.4">
+<s id="ParlaMint-IS_2019-12-17-48.seg4.4" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.254">
 En	En	en	CCONJ	-	1	cc	liggja	VERB	Mood=Ind Tense=Pres	3
 það	það	það	PRON	Case=Nom Gender=Neut Number=Sing	2	expl	liggja	VERB	Mood=Ind Tense=Pres	3
 liggur	liggur	liggja	VERB	Mood=Ind Tense=Pres	3	root	-	-	-	-
@@ -425,7 +425,7 @@ matvöruverslunum	matvöruverslunum	matvöruverslun	NOUN	Case=Dat Definite=Ind N
 <g/>
 .	.	.	PUNCT	-	32	punct	matvöruverslun	NOUN	Case=Dat Definite=Ind Number=Plur	31
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg4.5">
+<s id="ParlaMint-IS_2019-12-17-48.seg4.5" senti_3="Jákvæðni" senti_6="jákvæðni" senti_n="4.850">
 En	En	en	CCONJ	-	1	cc	segja	VERB	VerbForm=Inf	6
 um	um	um	ADP	-	2	case	leið	NOUN	Case=Acc Definite=Ind Number=Sing	3
 leið	leið	leið	NOUN	Case=Acc Definite=Ind Number=Sing	3	obl	segja	VERB	VerbForm=Inf	6
@@ -509,7 +509,7 @@ kraftaverk	kraftaverk	kraftaverk	NOUN	Case=Acc Definite=Ind Number=Sing	74	obj	v
 <g/>
 .	.	.	PUNCT	-	75	punct	kraftaverk	NOUN	Case=Acc Definite=Ind Number=Sing	74
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg4.6">
+<s id="ParlaMint-IS_2019-12-17-48.seg4.6" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.354">
 Um	Um	um	ADP	-	1	case	leið	NOUN	Case=Acc Definite=Ind Number=Sing	2
 leið	leið	leið	NOUN	Case=Acc Definite=Ind Number=Sing	2	obl	þurfa	VERB	Mood=Ind Tense=Pres	3
 þurfum	þurfum	þurfa	VERB	Mood=Ind Tense=Pres	3	root	-	-	-	-
@@ -548,7 +548,7 @@ rekja	rekja	rekja	VERB	VerbForm=Inf	32	conj	þurfa	VERB	Mood=Ind Tense=Pres	3
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg5" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg5.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg5.1" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="1.766">
 Þegar	Þegar	þegar	ADP	-	1	case	horfa	VERB	Mood=Ind Tense=Pres	3
 við	við	ég	PRON	Case=Nom	2	nsubj	horfa	VERB	Mood=Ind Tense=Pres	3
 horfum	horfum	horfa	VERB	Mood=Ind Tense=Pres	3	obl	gefa	VERB	Tense=Past VerbForm=Part	11
@@ -587,7 +587,7 @@ rautt	rautt	rauður	ADJ	Case=Acc Degree=Pos	29	obl	hækka	VERB	Tense=Past VerbFo
 <g/>
 .	.	.	PUNCT	-	30	punct	rauður	ADJ	Case=Acc Degree=Pos	29
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg5.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg5.2" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="1.209">
 Þriðjudaginn	Þriðjudaginn	þriðjudagur	NOUN	Case=Acc Definite=Ind Number=Sing	1	obl	hækka	VERB	Tense=Past VerbForm=Part	9
 10.	10.	10.	ADJ	Case=Acc Degree=Pos	2	amod	desember	NOUN	Case=Acc Definite=Ind Number=Sing	3
 desember	desember	desember	NOUN	Case=Acc Definite=Ind Number=Sing	3	appos	þriðjudagur	NOUN	Case=Acc Definite=Ind Number=Sing	1
@@ -604,7 +604,7 @@ rautt	rautt	rauður	ADJ	Case=Acc Degree=Pos	11	obl	hækka	VERB	Tense=Past VerbFo
 <g/>
 .	.	.	PUNCT	-	12	punct	rauður	ADJ	Case=Acc Degree=Pos	11
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg5.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg5.3" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.906">
 Rauðar	Rauðar	rauður	ADJ	Case=Nom Degree=Pos	1	amod	viðvörun	NOUN	Case=Nom Definite=Ind Number=Plur	2
 viðvaranir	viðvaranir	viðvörun	NOUN	Case=Nom Definite=Ind Number=Plur	2	nsubj	gefa	VERB	Tense=Past VerbForm=Part	7
 voru	voru	vera	AUX	Mood=Ind Tense=Past	3	cop	gefa	VERB	Tense=Past VerbForm=Part	7
@@ -632,7 +632,7 @@ nóvember	nóvember	nóvember	NOUN	Case=Gen Definite=Ind Number=Sing	21	nmod:pos
 <g/>
 .	.	.	PUNCT	-	23	punct	2017	NUM	Case=Acc	22
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg5.4">
+<s id="ParlaMint-IS_2019-12-17-48.seg5.4" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.966">
 Rauðar	Rauðar	rauður	ADJ	Case=Nom Degree=Pos	1	amod	viðvörun	NOUN	Case=Nom Definite=Ind Number=Plur	2
 viðvaranir	viðvaranir	viðvörun	NOUN	Case=Nom Definite=Ind Number=Plur	2	nsubj	lýsa	VERB	Mood=Ind Tense=Pres	3
 lýsa	lýsa	lýsa	VERB	Mood=Ind Tense=Pres	3	root	-	-	-	-
@@ -680,7 +680,7 @@ fresti	fresti	frestur	NOUN	Case=Dat Definite=Ind Number=Sing	38	obl	búa	VERB	Te
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg6" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg6.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg6.1" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="1.038">
 Ríkislögreglustjóri	Ríkislögreglustjóri	ríkislögreglustjóri	PROPN	-	1	nsubj	lýsa	VERB	Mood=Ind Tense=Past	2
 lýsti	lýsti	lýsa	VERB	Mood=Ind Tense=Past	2	root	-	-	-	-
 yfir	yfir	yfir	ADP	-	3	case	óvissustig	NOUN	Case=Dat Definite=Ind Number=Sing	4
@@ -690,7 +690,7 @@ desember	desember	desember	NOUN	Case=Gen Definite=Ind Number=Sing	6	nmod:poss	9.
 <g/>
 .	.	.	PUNCT	-	7	punct	desember	NOUN	Case=Gen Definite=Ind Number=Sing	6
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg6.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg6.2" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.887">
 Hættustigi	Hættustigi	hættustig	NOUN	Case=Nom Definite=Ind Number=Sing	1	nsubj	lýsa	VERB	Tense=Past VerbForm=Part	3
 var	var	vera	AUX	Mood=Ind Tense=Past	2	cop	lýsa	VERB	Tense=Past VerbForm=Part	3
 lýst	lýst	lýsa	VERB	Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -715,7 +715,7 @@ desember	desember	desember	NOUN	Case=Acc Definite=Ind Number=Sing	15	obl	lýsa	V
 <g/>
 .	.	.	PUNCT	-	16	punct	desember	NOUN	Case=Acc Definite=Ind Number=Sing	15
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg6.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg6.3" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.489">
 Samhæfingarmiðstöðin	Samhæfingarmiðstöðin	samhæfingarmiðstöð	NOUN	Case=Nom Definite=Ind	1	nsubj	virkja	VERB	Tense=Past VerbForm=Part	5
 í	í	í	ADP	-	2	case	Skógarhlíð	PROPN	-	3
 <name type="LOC">
@@ -739,7 +739,7 @@ fram	fram	fram	ADP	-	18	compound:prt	fara	VERB	Mood=Ind Tense=Past	13
 <g/>
 .	.	.	PUNCT	-	19	punct	fram	ADP	-	18
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg6.4">
+<s id="ParlaMint-IS_2019-12-17-48.seg6.4" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.726">
 Nær	Nær	narri	ADV	Degree=Cmp	1	advmod	vegur	NOUN	Case=Nom Definite=Ind Number=Plur	3
 allir	allir	allur	DET	Case=Nom Degree=Pos	2	amod	vegur	NOUN	Case=Nom Definite=Ind Number=Plur	3
 vegir	vegir	vegur	NOUN	Case=Nom Definite=Ind Number=Plur	3	nsubj	loka	VERB	Mood=Ind Tense=Past	6
@@ -764,7 +764,7 @@ undanskildum	undanskildum	undanskilinn	VERB	Case=Dat Degree=Pos	16	obl	loka	VERB
 <g/>
 .	.	.	PUNCT	-	17	punct	undanskilinn	VERB	Case=Dat Degree=Pos	16
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg6.5">
+<s id="ParlaMint-IS_2019-12-17-48.seg6.5" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.346">
 Í	Í	í	ADP	-	1	case	kjölfar	NOUN	Case=Acc Definite=Ind Number=Sing	2
 kjölfarið	kjölfarið	kjölfar	NOUN	Case=Acc Definite=Ind Number=Sing	2	obl	bæta	VERB	Mood=Ind Tense=Past	3
 bættist	bættist	bæta	VERB	Mood=Ind Tense=Past	3	root	-	-	-	-
@@ -779,7 +779,7 @@ norðanlands	norðanlands	norðanlands	ADV	Degree=Pos	10	advmod	bæta	VERB	Mood=
 <g/>
 .	.	.	PUNCT	-	11	punct	norðanlands	ADV	Degree=Pos	10
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg6.6">
+<s id="ParlaMint-IS_2019-12-17-48.seg6.6" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="4.106">
 Lengst	Lengst	langt	ADV	Degree=Sup	1	obl	loka	VERB	Tense=Past VerbForm=Part	3
 var	var	vera	AUX	Mood=Ind Tense=Past	2	cop	loka	VERB	Tense=Past VerbForm=Part	3
 lokað	lokað	loka	VERB	Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -818,7 +818,7 @@ veðursins	veðursins	veður	NOUN	Case=Gen Definite=Ind Number=Sing	33	nmod:poss
 <g/>
 .	.	.	PUNCT	-	34	punct	veður	NOUN	Case=Gen Definite=Ind Number=Sing	33
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg6.7">
+<s id="ParlaMint-IS_2019-12-17-48.seg6.7" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="2.032">
 Þar	Þar	þar	ADV	Degree=Pos	1	advmod	ráða	VERB	Mood=Ind Tense=Past	2
 réð	réð	ráða	VERB	Mood=Ind Tense=Past	2	root	-	-	-	-
 úrslitum	úrslitum	úrslit	NOUN	Case=Dat Definite=Ind Number=Plur	3	nsubj	ráða	VERB	Mood=Ind Tense=Past	2
@@ -839,7 +839,7 @@ mikil	mikil	mikill	DET	Case=Nom Degree=Pos	17	advcl	þannig	ADV	Degree=Pos	12
 <g/>
 .	.	.	PUNCT	-	18	punct	mikill	DET	Case=Nom Degree=Pos	17
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg6.8">
+<s id="ParlaMint-IS_2019-12-17-48.seg6.8" senti_3="Jákvæðni" senti_6="jákvæðni" senti_n="4.759">
 Upplýsingagjöf	Upplýsingagjöf	upplýsingagjöf	NOUN	Case=Nom Definite=Ind Number=Sing	1	nsubj	öflugur	ADJ	Case=Nom Degree=Pos	6
 í	í	í	ADP	-	2	case	aðdragandi	NOUN	Case=Dat Definite=Ind Number=Sing	3
 aðdraganda	aðdraganda	aðdragandi	NOUN	Case=Dat Definite=Ind Number=Sing	3	obl	öflugur	ADJ	Case=Nom Degree=Pos	6
@@ -853,7 +853,7 @@ góð	góð	góður	ADJ	Case=Nom Degree=Pos	8	amod	öflugur	ADJ	Case=Nom Degree=
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg7" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg7.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg7.1" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.174">
 Rafmagnsleysið	Rafmagnsleysið	rafmagnsleysi	NOUN	Case=Nom Definite=Ind Number=Sing	1	nsubj	viðvarandi	ADJ	Case=Nom Degree=Pos	22
 sem	sem	sem	SCONJ	-	2	mark	standa	VERB	Mood=Ind Tense=Past	3
 stóð	stóð	standa	VERB	Mood=Ind Tense=Past	3	acl:relcl	rafmagnsleysi	NOUN	Case=Nom Definite=Ind Number=Sing	1
@@ -888,7 +888,7 @@ séð	séð	sjá	VERB	Tense=Past VerbForm=Part	29	acl:relcl	umfangsmikill	ADJ	Ca
 <g/>
 .	.	.	PUNCT	-	30	punct	sjá	VERB	Tense=Past VerbForm=Part	29
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg7.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg7.2" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.478">
 Stæður	Stæður	stæða	NOUN	Case=Nom Definite=Ind Number=Plur	1	nsubj	brotna	VERB	Mood=Ind Tense=Past	2
 brotnuðu	brotnuðu	brotna	VERB	Mood=Ind Tense=Past	2	root	-	-	-	-
 víða	víða	víða	ADV	Degree=Pos	3	advmod	brotna	VERB	Mood=Ind Tense=Past	2
@@ -929,7 +929,7 @@ rafmagn	rafmagn	rafmagn	NOUN	Case=Acc Definite=Ind Number=Sing	31	obj	hafa	VERB	
 <g/>
 .	.	.	PUNCT	-	32	punct	rafmagn	NOUN	Case=Acc Definite=Ind Number=Sing	31
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg7.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg7.3" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.493">
 Þar	Þar	þar	ADV	Degree=Pos	1	advmod	rafmagnslaus	ADJ	Case=Nom Degree=Pos	6
 sem	sem	sem	SCONJ	-	2	mark	láta	VERB	Mood=Ind Tense=Past	4
 verst	verst	illa	ADV	Degree=Sup	3	advmod	láta	VERB	Mood=Ind Tense=Past	4
@@ -942,7 +942,7 @@ sólarhringa	sólarhringa	sólarhringur	NOUN	Case=Acc Definite=Ind Number=Plur	9
 <g/>
 .	.	.	PUNCT	-	10	punct	sólarhringur	NOUN	Case=Acc Definite=Ind Number=Plur	9
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg7.4">
+<s id="ParlaMint-IS_2019-12-17-48.seg7.4" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.744">
 Hefur	Hefur	hafa	AUX	Mood=Ind Tense=Pres	1	aux	vinna	VERB	Tense=Past VerbForm=Part	3
 verið	verið	vera	AUX	Tense=Past VerbForm=Part	2	cop	vinna	VERB	Tense=Past VerbForm=Part	3
 unnið	unnið	vinna	VERB	Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -990,7 +990,7 @@ rafmagnsleysi	rafmagnsleysi	rafmagnsleysi	NOUN	Case=Acc Definite=Ind Number=Sing
 <g/>
 .	.	.	PUNCT	-	43	punct	rafmagnsleysi	NOUN	Case=Acc Definite=Ind Number=Sing	42
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg7.5">
+<s id="ParlaMint-IS_2019-12-17-48.seg7.5" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.980">
 Þar	Þar	þar	ADV	Degree=Pos	1	advmod	nefna	VERB	VerbForm=Inf	3
 má	má	mega	AUX	Mood=Ind Tense=Pres	2	aux	nefna	VERB	VerbForm=Inf	3
 nefna	nefna	nefna	VERB	VerbForm=Inf	3	root	-	-	-	-
@@ -1017,7 +1017,7 @@ föstudags	föstudags	föstudagur	PROPN	Case=Gen	19	nmod:poss	aðfaranótt	NOUN	
 <g/>
 .	.	.	PUNCT	-	20	punct	föstudagur	PROPN	Case=Gen	19
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg7.6">
+<s id="ParlaMint-IS_2019-12-17-48.seg7.6" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.928">
 <name type="ORG">
 Rarik	Rarik	Rarik	PROPN	-	1	nsubj	þurfa	VERB	VerbForm=Inf	3
 </name>
@@ -1060,7 +1060,7 @@ lagfæra	lagfæra	lagfæra	VERB	VerbForm=Inf	32	acl	taka	VERB	VerbForm=Inf	28
 <g/>
 .	.	.	PUNCT	-	33	punct	lagfæra	VERB	VerbForm=Inf	32
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg7.7">
+<s id="ParlaMint-IS_2019-12-17-48.seg7.7" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.409">
 Það	Það	það	PRON	Case=Nom Gender=Neut Number=Sing	1	expl	búa	VERB	VerbForm=Inf	3
 má	má	mega	AUX	Mood=Ind Tense=Pres	2	aux	búa	VERB	VerbForm=Inf	3
 búast	búast	búa	VERB	VerbForm=Inf	3	root	-	-	-	-
@@ -1095,7 +1095,7 @@ helgi	helgi	helgi	NOUN	Case=Acc Definite=Ind Number=Sing	29	obl	fara	VERB	Mood=I
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg8" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg8.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg8.1" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.687">
 Samkvæmt	Samkvæmt	samkvæmt	ADP	-	1	case	upplýsing	NOUN	Case=Dat Definite=Ind Number=Plur	2
 upplýsingum	upplýsingum	upplýsing	NOUN	Case=Dat Definite=Ind Number=Plur	2	obl	ætla	VERB	VerbForm=Inf	7
 frá	frá	frá	ADP	-	3	case	almannavarnanefnd	NOUN	Case=Dat Definite=Ind Number=Sing	4
@@ -1121,7 +1121,7 @@ heimilum	heimilum	heimili	NOUN	Case=Dat Definite=Ind Number=Plur	22	obl	búa	VER
 <g/>
 .	.	.	PUNCT	-	23	punct	heimili	NOUN	Case=Dat Definite=Ind Number=Plur	22
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg8.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg8.2" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.310">
 Tetra-kerfi	Tetra-kerfi	Tetra-kerfi	PROPN	-	1	nsubj	verða	VERB	Mood=Ind Tense=Past	3
 viðbragðsaðila	viðbragðsaðila	viðbragðsaðili	NOUN	Case=Gen Definite=Ind Number=Plur	2	nmod:poss	Tetra-kerfi	PROPN	-	1
 varð	varð	verða	VERB	Mood=Ind Tense=Past	3	root	-	-	-	-
@@ -1158,7 +1158,7 @@ einn	einn	einn	DET	Case=Acc Number=Sing	31	obl	dagur	NOUN	Case=Acc Definite=Ind 
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg9" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg9.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg9.1" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.415">
 Þá	Þá	þá	ADV	Degree=Pos	1	advmod	nefna	VERB	VerbForm=Inf	4
 vil	vil	vilja	AUX	Mood=Ind Tense=Pres	2	aux	nefna	VERB	VerbForm=Inf	4
 ég	ég	ég	PRON	Case=Nom	3	nsubj	nefna	VERB	VerbForm=Inf	4
@@ -1181,7 +1181,7 @@ daga	daga	dagur	NOUN	Case=Acc Definite=Ind Number=Plur	19	obl	hafa	VERB	Mood=Ind
 <g/>
 .	.	.	PUNCT	-	20	punct	dagur	NOUN	Case=Acc Definite=Ind Number=Plur	19
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg9.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg9.2" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.852">
 Á	Á	á	ADP	-	1	case	Norðurland	PROPN	-	2
 <name type="LOC">
 Norðurlandi	Norðurlandi	Norðurland	PROPN	-	2	obl	sækja	VERB	Tense=Past VerbForm=Part	5
@@ -1205,7 +1205,7 @@ Vesturlandi	Vesturlandi	Vesturland	PROPN	-	14	dep	Suðvesturland	PROPN	-	12
 </name>
 .	.	.	PUNCT	-	15	punct	Vesturland	PROPN	-	14
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg9.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg9.3" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.781">
 Björgunarsveitir	Björgunarsveitir	björgunarsveit	PROPN	-	1	nsubj	leysa	VERB	Tense=Past VerbForm=Part	3
 hafa	hafa	hafa	AUX	Mood=Ind Tense=Pres	2	aux	leysa	VERB	Tense=Past VerbForm=Part	3
 leyst	leyst	leysa	VERB	Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -1220,7 +1220,7 @@ landsvísu	landsvísu	landsvísa	NOUN	Case=Dat Definite=Ind Number=Sing	11	obl	l
 <g/>
 .	.	.	PUNCT	-	12	punct	landsvísa	NOUN	Case=Dat Definite=Ind Number=Sing	11
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg9.4">
+<s id="ParlaMint-IS_2019-12-17-48.seg9.4" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.801">
 Þar	Þar	þar	ADV	Degree=Pos	1	advmod	sjá	VERB	VerbForm=Inf	3
 má	má	mega	AUX	Mood=Ind Tense=Pres	2	aux	sjá	VERB	VerbForm=Inf	3
 sjá	sjá	sjá	VERB	VerbForm=Inf	3	root	-	-	-	-
@@ -1254,7 +1254,7 @@ skall	skall	skella	VERB	Mood=Ind Tense=Past	23	obl	áður	ADV	Degree=Cmp	20
 <g/>
 .	.	.	PUNCT	-	25	punct	á	ADP	-	24
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg9.5">
+<s id="ParlaMint-IS_2019-12-17-48.seg9.5" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.367">
 Björgunarsveitir	Björgunarsveitir	björgunarsveit	NOUN	Number=Plur	1	nsubj	liðsinna	VERB	Tense=Past VerbForm=Part	4
 hafa	hafa	hafa	AUX	Mood=Ind Tense=Pres	2	aux	liðsinna	VERB	Tense=Past VerbForm=Part	4
 jafnframt	jafnframt	jafnframt	ADV	Degree=Pos	3	advmod	liðsinna	VERB	Tense=Past VerbForm=Part	4
@@ -1276,7 +1276,7 @@ aðföng	aðföng	aðföng	NOUN	Case=Acc Definite=Ind Number=Plur	17	conj	flytja
 <g/>
 .	.	.	PUNCT	-	18	punct	aðföng	NOUN	Case=Acc Definite=Ind Number=Plur	17
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg9.6">
+<s id="ParlaMint-IS_2019-12-17-48.seg9.6" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.681">
 Þá	Þá	þá	ADV	Degree=Pos	1	advmod	opinn	VERB	Tense=Past VerbForm=Part	9
 hafa	hafa	hafa	AUX	Mood=Ind Tense=Pres	2	aux	opinn	VERB	Tense=Past VerbForm=Part	9
 fjöldahjálparstöðvar	fjöldahjálparstöðvar	fjöldahjálparstöð	NOUN	Case=Nom Definite=Ind Number=Plur	3	nsubj	opinn	VERB	Tense=Past VerbForm=Part	9
@@ -1301,7 +1301,7 @@ vaktina	vaktina	vakt	NOUN	Case=Acc Definite=Ind Number=Sing	18	obj	standa	VERB	T
 <g/>
 .	.	.	PUNCT	-	20	punct	þar	ADV	Degree=Pos	19
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg9.7">
+<s id="ParlaMint-IS_2019-12-17-48.seg9.7" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.569">
 Björgunarsveitirnar	Björgunarsveitirnar	björgunarsveit	PROPN	-	1	nsubj	sinna	VERB	Tense=Past VerbForm=Part	3
 hafa	hafa	hafa	AUX	Mood=Ind Tense=Pres	2	aux	sinna	VERB	Tense=Past VerbForm=Part	3
 sinnt	sinnt	sinna	VERB	Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -1320,7 +1320,7 @@ bæja	bæja	bær	NOUN	Case=Gen Definite=Ind Number=Plur	14	obl	flytja	VERB	VerbF
 <g/>
 .	.	.	PUNCT	-	15	punct	bær	NOUN	Case=Gen Definite=Ind Number=Plur	14
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg9.8">
+<s id="ParlaMint-IS_2019-12-17-48.seg9.8" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.285">
 Bændur	Bændur	bóndi	NOUN	Case=Nom Definite=Ind Number=Plur	1	nsubj	hafa	VERB	Mood=Ind Tense=Pres	2
 hafa	hafa	hafa	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 verið	verið	vera	AUX	Tense=Past VerbForm=Part	3	cop	hafa	VERB	Mood=Ind Tense=Pres	2
@@ -1354,7 +1354,7 @@ hrossafellir	hrossafellir	hrossafellir	NOUN	Case=Nom Definite=Ind Number=Sing	26
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg10" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg10.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg10.1" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.639">
 Þá	Þá	þá	ADV	Degree=Pos	1	advmod	heimsækja	VERB	Tense=Past VerbForm=Part	17
 hafa	hafa	hafa	AUX	Mood=Ind Tense=Pres	2	aux	heimsækja	VERB	Tense=Past VerbForm=Part	17
 <g/>
@@ -1433,7 +1433,7 @@ aðstæður	aðstæður	aðstæður	NOUN	Case=Acc Definite=Ind Number=Plur	69	ob
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg11" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg11.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg11.1" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.713">
 Heilbrigðisstofnanir	Heilbrigðisstofnanir	heilbrigðisstofnun	NOUN	Case=Nom Definite=Ind Number=Plur	1	nsubj	manna	VERB	Tense=Past VerbForm=Part	4
 hafa	hafa	hafa	AUX	Mood=Ind Tense=Pres	2	aux	manna	VERB	Tense=Past VerbForm=Part	4
 verið	verið	vera	AUX	Tense=Past VerbForm=Part	3	cop	manna	VERB	Tense=Past VerbForm=Part	4
@@ -1490,7 +1490,7 @@ rafmagn	rafmagn	rafmagn	NOUN	Case=Acc Definite=Ind Number=Sing	47	obj	tryggja	VE
 <g/>
 .	.	.	PUNCT	-	48	punct	rafmagn	NOUN	Case=Acc Definite=Ind Number=Sing	47
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg11.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg11.2" senti_3="Neikvæðni" senti_6="neikvæðini" senti_n="0.195">
 Símtöl	Símtöl	símtal	NOUN	Case=Nom Definite=Ind Number=Plur	1	nsubj	meðallag	NOUN	Case=Dat Definite=Ind Number=Sing	8
 við	við	við	ADP	-	2	case	Neyðarlínan	PROPN	-	3
 <name type="ORG">
@@ -1527,7 +1527,7 @@ fólk	fólk	fólk	NOUN	Case=Acc Definite=Ind Number=Sing	31	obl	álag	NOUN	Case=
 <g/>
 .	.	.	PUNCT	-	32	punct	fólk	NOUN	Case=Acc Definite=Ind Number=Sing	31
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg11.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg11.3" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.406">
 Það	Það	það	PRON	Case=Nom Gender=Neut Number=Sing	1	expl	ljós	ADJ	Case=Nom Degree=Pos	3
 er	er	vera	AUX	Mood=Ind Tense=Pres	2	cop	ljós	ADJ	Case=Nom Degree=Pos	3
 ljóst	ljóst	ljós	ADJ	Case=Nom Degree=Pos	3	root	-	-	-	-
@@ -1550,7 +1550,7 @@ vel	vel	vel	ADV	Degree=Pos	19	advmod	standa	VERB	Tense=Past VerbForm=Part	17
 <g/>
 .	.	.	PUNCT	-	20	punct	vel	ADV	Degree=Pos	19
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg11.4">
+<s id="ParlaMint-IS_2019-12-17-48.seg11.4" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.969">
 Almenningur	Almenningur	almenningur	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1	nsubj	reyna	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Mid	2
 reyndist	reyndist	reyna	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Mid	2	root	-	-	-	-
 líka	líka	líka	ADV	-	3	advmod	reyna	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Mid	2
@@ -1572,7 +1572,7 @@ mínu	mínu	minn	PRON	Case=Dat Gender=Neut Number=Sing PronType=Prs	18	nmod:poss
 <g/>
 .	.	.	PUNCT	-	19	punct	minn	PRON	Case=Dat Gender=Neut Number=Sing PronType=Prs	18
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg11.5">
+<s id="ParlaMint-IS_2019-12-17-48.seg11.5" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="2.401">
 Bæði	Bæði	bæði	CCONJ	-	1	cc	tími	NOUN	Case=Gen Definite=Ind Number=Sing	6
 til	til	til	ADP	-	2	case	tími	NOUN	Case=Gen Definite=Ind Number=Sing	6
 skemmri	skemmri	skammur	ADJ	Case=Gen Degree=Pos	3	amod	tími	NOUN	Case=Gen Definite=Ind Number=Sing	6
@@ -1596,7 +1596,7 @@ almannavarna	almannavarna	almannavarnir	NOUN	Case=Gen Definite=Ind Number=Plur	1
 </name>
 .	.	.	PUNCT	-	19	punct	Ísland	PROPN	-	18
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg11.6">
+<s id="ParlaMint-IS_2019-12-17-48.seg11.6" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.616">
 Hún	Hún	hún	PRON	Case=Nom	1	nsubj	ræða	VERB	Tense=Past VerbForm=Part	4
 hefur	hefur	hafa	AUX	Mood=Ind Tense=Pres	2	aux	ræða	VERB	Tense=Past VerbForm=Part	4
 verið	verið	vera	AUX	Tense=Past VerbForm=Part	3	cop	ræða	VERB	Tense=Past VerbForm=Part	4
@@ -1619,7 +1619,7 @@ almannavarnakerfinu	almannavarnakerfinu	almannavarnakerfi	NOUN	Case=Dat Definite
 <g/>
 .	.	.	PUNCT	-	20	punct	almannavarnakerfi	NOUN	Case=Dat Definite=Ind Number=Sing	19
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg11.7">
+<s id="ParlaMint-IS_2019-12-17-48.seg11.7" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.973">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	telja	VERB	Mood=Ind Tense=Pres	2
 tel	tel	telja	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 einboðið	einboðið	einboðinn	NOUN	Case=Acc	3	ccomp	telja	VERB	Mood=Ind Tense=Pres	2
@@ -1633,7 +1633,7 @@ vinnu	vinnu	vinna	NOUN	Case=Dat Definite=Ind Number=Sing	10	obj	flýta	VERB	Verb
 <g/>
 .	.	.	PUNCT	-	11	punct	vinna	NOUN	Case=Dat Definite=Ind Number=Sing	10
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg11.8">
+<s id="ParlaMint-IS_2019-12-17-48.seg11.8" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="2.462">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	vita	VERB	Mood=Ind Tense=Pres	2
 veit	veit	vita	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 að	að	að	SCONJ	-	3	mark	koma	VERB	VerbForm=Inf	7
@@ -1652,7 +1652,7 @@ eftir	eftir	eftir	ADV	Degree=Pos	15	obl	innlegg	NOUN	Case=Dat Definite=Ind Numbe
 <g/>
 .	.	.	PUNCT	-	16	punct	eftir	ADV	Degree=Pos	15
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg11.9">
+<s id="ParlaMint-IS_2019-12-17-48.seg11.9" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.644">
 Við	Við	ég	PRON	Case=Nom	1	nsubj	þurfa	VERB	Mood=Ind Tense=Pres	2
 þurfum	þurfum	þurfa	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 að	að	að	PART	-	3	mark	átta	VERB	VerbForm=Inf	4
@@ -1715,7 +1715,7 @@ almannavarnamál	almannavarnamál	almannavarnamál	NOUN	Case=Nom Definite=Ind Nu
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg12" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg12.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg12.1" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="0.957">
 Annað	Annað	annar	DET	Case=Nom	1	root	-	-	-	-
 sem	sem	sem	SCONJ	-	2	mark	nefna	VERB	VerbForm=Inf	5
 ég	ég	ég	PRON	Case=Nom	3	nsubj	nefna	VERB	VerbForm=Inf	5
@@ -1745,7 +1745,7 @@ veðursins	veðursins	veður	NOUN	Case=Gen Definite=Ind Number=Sing	24	nmod:poss
 <g/>
 .	.	.	PUNCT	-	25	punct	veður	NOUN	Case=Gen Definite=Ind Number=Sing	24
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg12.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg12.2" senti_3="Jákvæðni" senti_6="jákvæðni" senti_n="5.048">
 Það	Það	það	PRON	Case=Nom Gender=Neut Number=Sing	1	expl	segja	VERB	VerbForm=Inf	3
 má	má	mega	AUX	Mood=Ind Tense=Pres	2	aux	segja	VERB	VerbForm=Inf	3
 segja	segja	segja	VERB	VerbForm=Inf	3	root	-	-	-	-
@@ -1786,7 +1786,7 @@ hlutverk	hlutverk	hlutverk	NOUN	Case=Acc Definite=Ind Number=Plur	36	obj	varða	
 <g/>
 .	.	.	PUNCT	-	38	punct	þjóðaröryggisráð	NOUN	Case=Gen Definite=Ind Number=Sing	37
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg12.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg12.3" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="2.106">
 Það	Það	það	PRON	Case=Nom	1	expl	verða	VERB	Mood=Ind Tense=Pres	2
 verður	verður	verða	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 að	að	að	PART	-	3	mark	bregða	VERB	Tense=Past VerbForm=Part	5
@@ -1827,7 +1827,7 @@ viðvaranir	viðvaranir	viðvörun	NOUN	Case=Acc Definite=Ind Number=Plur	35	obj
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg13" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg13.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg13.1" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="1.524">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	nota	VERB	VerbForm=Inf	3
 vil	vil	vilja	AUX	Mood=Ind Tense=Pres	2	aux	nota	VERB	VerbForm=Inf	3
 nota	nota	nota	VERB	VerbForm=Inf	3	root	-	-	-	-
@@ -1852,7 +1852,7 @@ ráðuneyta	ráðuneyta	ráðuneyti	NOUN	Case=Gen Definite=Ind Number=Plur	21	nm
 <g/>
 .	.	.	PUNCT	-	22	punct	ráðuneyti	NOUN	Case=Gen Definite=Ind Number=Plur	21
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg13.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg13.2" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.596">
 Var	Var	vera	AUX	Mood=Ind Tense=Past	1	cop	ég	PRON	Case=Dat	6
 formaður	formaður	formaður	NOUN	Case=Nom Definite=Ind Number=Sing	2	nsubj	ég	PRON	Case=Dat	6
 þess	þess	sá	DET	Case=Gen	3	det	starfshópur	NOUN	Case=Gen Definite=Ind Number=Sing	4
@@ -1964,7 +1964,7 @@ er	er	vera	AUX	Mood=Ind Tense=Pres	98	cop	ómannaður	ADJ	Case=Nom Degree=Pos	99
 <g/>
 .	.	.	PUNCT	-	100	punct	ómannaður	ADJ	Case=Nom Degree=Pos	99
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg13.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg13.3" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="1.301">
 Þá	Þá	þá	ADV	Degree=Pos	1	advmod	þurfa	VERB	Mood=Ind Tense=Pres	2
 þarf	þarf	þurfa	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 sérstaklega	sérstaklega	sérstaklega	ADV	Degree=Pos	3	advmod	þurfa	VERB	Mood=Ind Tense=Pres	2
@@ -2012,7 +2012,7 @@ staðar	staðar	staður	NOUN	Case=Gen Definite=Ind Number=Sing	40	obl	að	PART	-
 <g/>
 .	.	.	PUNCT	-	41	punct	staður	NOUN	Case=Gen Definite=Ind Number=Sing	40
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg13.4">
+<s id="ParlaMint-IS_2019-12-17-48.seg13.4" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.337">
 Sá	Sá	sá	DET	Case=Nom	1	det	hópur	NOUN	Case=Nom Definite=Ind Number=Sing	2
 hópur	hópur	hópur	NOUN	Case=Nom Definite=Ind Number=Sing	2	nsubj	skila	VERB	VerbForm=Inf	4
 mun	mun	munu	AUX	Mood=Ind Tense=Pres	3	aux	skila	VERB	VerbForm=Inf	4
@@ -2044,9 +2044,9 @@ vettvangi	vettvangi	vettvangur	NOUN	Case=Dat Definite=Ind Number=Sing	24	obl	ræ
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IS_2019-12-17-48.u64" text_id="ParlaMint-IS_2019-12-17-48" subcorpus="Viðmiðun" lang="Íslenska" body="Þing í einni deild" term="23. kjörtímabil" session="150. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2019-12-17" title="Ræður frá Alþingi Íslendinga, 23. kjörtímabil, hefðbundinn fundur 150-48, 17.12.2019." speaker_role="Þingforseti" topic="-" speaker_id="SteingrimurSigfusson" speaker_name="Sigfússon, Steingrímur J." speaker_mp="MP" speaker_minister="notMinister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="Coalition" party_orientation="Mið-vinstri til vinstri" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-IS_2019-12-17-48.u64" text_id="ParlaMint-IS_2019-12-17-48" subcorpus="Viðmiðun" lang="Íslenska" body="Þing í einni deild" term="23. kjörtímabil" session="150. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2019-12-17" title="Ræður frá Alþingi Íslendinga, 23. kjörtímabil, hefðbundinn fundur 150-48, 17.12.2019." speaker_role="Þingforseti" topic="Annað" topic_is="-" speaker_id="SteingrimurSigfusson" speaker_name="Sigfússon, Steingrímur J." speaker_mp="MP" speaker_minister="notMinister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="Coalition" party_orientation="Mið-vinstri til vinstri" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-IS_2019-12-17-48.seg191" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg191.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg191.1" senti_3="Jákvæðni" senti_6="jákvæðni" senti_n="4.527">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	þakka	VERB	Mood=Ind Tense=Pres	2
 þakka	þakka	þakka	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 hv.	hv.	hv.	ADJ	Case=Dat Degree=Pos	3	amod	þm.	PROPN	-	5
@@ -2058,7 +2058,7 @@ Suðvest	Suðvest	Suðvest	PROPN	-	6	flat:name	þm.	PROPN	-	5
 </name>
 .	.	.	PUNCT	-	7	punct	Suðvest	PROPN	-	6
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg191.2">
+<s id="ParlaMint-IS_2019-12-17-48.seg191.2" senti_3="Jákvæðni" senti_6="jákvæðni" senti_n="4.586">
 ,	,	,	PUNCT	-	1	punct	Gunnar	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2
 <name type="PER">
 Gunnari	Gunnari	Gunnar	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2	nsubj	orð	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Plur	8
@@ -2073,7 +2073,7 @@ orð	orð	orð	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Plur	8	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	9	punct	orð	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Plur	8
 </s>
-<s id="ParlaMint-IS_2019-12-17-48.seg191.3">
+<s id="ParlaMint-IS_2019-12-17-48.seg191.3" senti_3="Jákvæðni" senti_6="jákvæðni" senti_n="4.939">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	þakka	VERB	Mood=Ind Tense=Pres	2
 þakka	þakka	þakka	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 hv.	hv.	hv.	ADJ	Case=Dat Degree=Pos	3	amod	alþingismaður	NOUN	Case=Dat Definite=Ind Number=Plur	4
@@ -2105,9 +2105,9 @@ Alþingis	Alþingis	Alþingi	PROPN	-	24	nmod:poss	starfsfólk	NOUN	Case=Gen Defi
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2019-12-17-48.u65" text_id="ParlaMint-IS_2019-12-17-48" subcorpus="Viðmiðun" lang="Íslenska" body="Þing í einni deild" term="23. kjörtímabil" session="150. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2019-12-17" title="Ræður frá Alþingi Íslendinga, 23. kjörtímabil, hefðbundinn fundur 150-48, 17.12.2019." speaker_role="Venjulegur" topic="-" speaker_id="KatrinJakobsdottir" speaker_name="Jakobsdóttir, Katrín" speaker_mp="MP" speaker_minister="Minister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="Coalition" party_orientation="Mið-vinstri til vinstri" speaker_gender="F" speaker_birth="1976">
+<speech id="ParlaMint-IS_2019-12-17-48.u65" text_id="ParlaMint-IS_2019-12-17-48" subcorpus="Viðmiðun" lang="Íslenska" body="Þing í einni deild" term="23. kjörtímabil" session="150. löggjafarþing" meeting="Hefðbundinn" sitting="-" agenda="-" date="2019-12-17" title="Ræður frá Alþingi Íslendinga, 23. kjörtímabil, hefðbundinn fundur 150-48, 17.12.2019." speaker_role="Venjulegur" topic="Annað" topic_is="-" speaker_id="KatrinJakobsdottir" speaker_name="Jakobsdóttir, Katrín" speaker_mp="MP" speaker_minister="Minister" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="Coalition" party_orientation="Mið-vinstri til vinstri" speaker_gender="F" speaker_birth="1976">
 <p id="ParlaMint-IS_2019-12-17-48.seg192" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg192.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg192.1" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.142">
 „	„	„	PUNCT	-	1	punct	gjöra	VERB	Mood=Ind Tense=Pres	4
 <g/>
 Forseti	Forseti	forseti	NOUN	Case=Nom Definite=Ind Number=Sing	2	nsubj	gjöra	VERB	Mood=Ind Tense=Pres	4
@@ -2121,7 +2121,7 @@ kunnugt	kunnugt	kunnugur	ADJ	Case=Acc Degree=Pos	5	ccomp	gjöra	VERB	Mood=Ind Te
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg193" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg193.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg193.1" senti_3="Hlutleysi" senti_6="neikvætt hlutleysi" senti_n="2.138">
 Að	Að	að	SCONJ	-	1	mark	veita	VERB	Mood=Ind Tense=Pres	9
 ég	ég	ég	PRON	Case=Nom	2	nsubj	veita	VERB	Mood=Ind Tense=Pres	9
 <g/>
@@ -2173,7 +2173,7 @@ janúar	janúar	janúar	NOUN	Case=Gen Definite=Ind Number=Sing	35	obl	síðar	AD
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg194" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg194.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg194.1" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="3.309">
 Gjört	Gjört	gjörtja	VERB	-	1	root	-	-	-	-
 í	í	í	ADP	-	2	case	Reykjavík	PROPN	-	3
 <name type="LOC">
@@ -2189,7 +2189,7 @@ desember	desember	desember	NOUN	Case=Dat Definite=Ind Number=Sing	6	obl	gjörtja
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg195" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg195.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg195.1" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.588">
 <name type="PER">
 Guðni	Guðni	Guðni	PROPN	-	1	root	-	-	-	-
 Th.	Th.	Th.	PROPN	-	2	flat:name	Guðni	PROPN	-	1
@@ -2200,7 +2200,7 @@ Jóhannesson	Jóhannesson	Jóhannesson	PROPN	-	3	dep	Guðni	PROPN	-	1
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg196" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg196.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg196.1" senti_3="Jákvæðni" senti_6="blönduð jákvæðni" senti_n="3.611">
 <name type="PER">
 Katrín	Katrín	Katrín	PROPN	-	1	root	-	-	-	-
 Jakobsdóttir	Jakobsdóttir	Jakobsdóttir	PROPN	-	2	flat:name	Katrín	PROPN	-	1
@@ -2210,7 +2210,7 @@ Jakobsdóttir	Jakobsdóttir	Jakobsdóttir	PROPN	-	2	flat:name	Katrín	PROPN	-	1
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg197" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg197.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg197.1" senti_3="Hlutleysi" senti_6="jákvætt hlutleysi" senti_n="2.798">
 Forsetabréf	Forsetabréf	forsetabréf	NOUN	Case=Nom Definite=Ind Number=Sing	1	root	-	-	-	-
 um	um	um	ADP	-	2	case	frestun	NOUN	Case=Acc Definite=Ind Number=Sing	3
 frestun	frestun	frestun	NOUN	Case=Acc Definite=Ind Number=Sing	3	obl	forsetabréf	NOUN	Case=Nom Definite=Ind Number=Sing	1
@@ -2226,7 +2226,7 @@ Alþingis	Alþingis	Alþingi	PROPN	-	6	nmod:poss	fundur	NOUN	Case=Dat Definite=I
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg198" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg198.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg198.1" senti_3="Neikvæðni" senti_6="blönduð neikvæðni" senti_n="1.208">
 Samkvæmt	Samkvæmt	samkvæmt	ADP	-	1	case	umboð	NOUN	Case=Dat Definite=Ind Number=Sing	3
 þessu	þessu	þessi	DET	Case=Dat	2	det	umboð	NOUN	Case=Dat Definite=Ind Number=Sing	3
 umboði	umboði	umboð	NOUN	Case=Dat Definite=Ind Number=Sing	3	obl	vísan	NOUN	Case=Acc Definite=Ind Number=Sing	6
@@ -2260,7 +2260,7 @@ frestað	frestað	fresta	VERB	Tense=Past VerbForm=Part	22	ccomp	lýsa	VERB	Mood=
 </s>
 </p>
 <p id="ParlaMint-IS_2019-12-17-48.seg199" lang="Íslenska">
-<s id="ParlaMint-IS_2019-12-17-48.seg199.1">
+<s id="ParlaMint-IS_2019-12-17-48.seg199.1" senti_3="Jákvæðni" senti_6="jákvæðni" senti_n="4.567">
 Ég	Ég	ég	PRON	Case=Nom	1	nsubj	þakka	VERB	Mood=Ind Tense=Pres	2
 þakka	þakka	þakka	VERB	Mood=Ind Tense=Pres	2	root	-	-	-	-
 hv.	hv.	hv.	ADJ	Case=Dat Degree=Pos	3	amod	alþingismaður	NOUN	Case=Dat Definite=Ind Number=Plur	4

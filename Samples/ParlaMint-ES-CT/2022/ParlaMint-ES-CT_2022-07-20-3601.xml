@@ -24,13 +24,21 @@
                <persName>Rodolfo Zevallos</persName>
                <resp>Computational Linguistics Specialist</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="ca">Infraestructura de recerca CLARIN</orgName>
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="268" xml:lang="ca">268 intervencions</measure>
@@ -44,12 +52,12 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -91,8 +99,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war">
@@ -126,7 +136,7 @@
             <note type="narrative" xml:id="ParlaMint-ES-CT_2022-07-20-3601.note25">22. Moció subsegüent a la interpel·lació al Govern sobre l'impacte de la repressió en l'independentisme i en els estàndards democràtics de l'Estat espanyol (tram. 302-00182/13). Grup Parlamentari d'Esquerra Republicana. Debat i votació.</note>
             <note type="narrative" xml:id="ParlaMint-ES-CT_2022-07-20-3601.note26">23. Moció subsegüent a la interpel·lació al Govern sobre les polítiques per a frenar l'ocupació il·legal d'habitatges (tram. 302-00183/13). Grup Parlamentari de VOX en Cataluña. Debat i votació.</note>
             <note type="speaker" xml:id="ParlaMint-ES-CT_2022-07-20-3601.note27">La presidenta</note>
-            <u xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0" who="#BorràsLaura" ana="#chair" xml:lang="ca">
+            <u xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0" who="#BorràsLaura" ana="#chair topic:civil" xml:lang="ca">
                <seg xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.0" xml:lang="ca">Bon dia. Comença la sessió.</seg>
                <seg xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1" xml:lang="ca">La llista de les preguntes a respondre oralment en ple està inclosa en el dossier de ple que tenen a la seva disposició. I d'acord amb l'article 164 del Reglament, se substanciaran aquest matí com a segon punt de l'ordre del dia d'aquesta sessió plenària que ara comencem.</seg>
                <seg xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.2" xml:lang="ca">Els faig avinent que dos diputats han delegat el seu vot per a aquesta sessió i que, malauradament, també abans de començar amb l'ordre del dia he de comunicar-los un nou feminicidi.</seg>
@@ -140,13 +150,13 @@
                <seg xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.8" xml:lang="ca">Passem, doncs, ja al primer punt de l'ordre del dia... Sí, senyor Martín Blanco, per què em demana la paraula?</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-ES-CT_2022-07-20-3601.note30">Ignacio Martín Blanco</note>
-            <u xml:id="ParlaMint-ES-CT_2022-07-20-3601.2.0" who="#MartínIgnacio" ana="#regular" xml:lang="es">
+            <u xml:id="ParlaMint-ES-CT_2022-07-20-3601.2.0" who="#MartínIgnacio" ana="#regular topic:other" xml:lang="es">
                <seg xml:id="ParlaMint-ES-CT_2022-07-20-3601.2.0.0" xml:lang="es">Presidenta, bon dia. Per saber, perquè em confirmi si una de les persones que delega el vot és el senyor Lluís Puig, perquè lògicament...</seg>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0" who="#Gonzàlez-CambrayJosep" ana="#regular" xml:lang="ca">
+            <u xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0" who="#Gonzàlez-CambrayJosep" ana="#regular topic:educa" xml:lang="ca">
                <seg xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.0" xml:lang="ca">Gràcies, presidenta. Diputat Martín Blanco, la popularitat no és el meu objectiu –no és el meu objectiu.</seg>
                <vocal type="laughter" xml:id="ParlaMint-ES-CT_2022-07-20-3601.vocal14">
                   <desc>Remor de veus i rialles.</desc>
@@ -164,7 +174,7 @@
                <seg xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.8" xml:lang="ca">Gràcies.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-ES-CT_2022-07-20-3601.note378">La presidenta</note>
-            <u xml:id="ParlaMint-ES-CT_2022-07-20-3601.268.0" who="#BorràsLaura" ana="#chair" xml:lang="ca">
+            <u xml:id="ParlaMint-ES-CT_2022-07-20-3601.268.0" who="#BorràsLaura" ana="#chair topic:other" xml:lang="ca">
                <seg xml:id="ParlaMint-ES-CT_2022-07-20-3601.268.0.0" xml:lang="ca">Moltes gràcies.</seg>
                <seg xml:id="ParlaMint-ES-CT_2022-07-20-3601.268.0.1" xml:lang="ca">Doncs suspenem la sessió fins demà a les nou. Gràcies.</seg>
             </u>

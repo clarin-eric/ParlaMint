@@ -65,6 +65,7 @@ $country2lang{'DK'} = 'da';
 $country2lang{'EE'} = 'et';
 $country2lang{'ES'} = 'es';
 $country2lang{'ES-AN'} = 'es';
+$country2lang{'ES-CN'} = 'es';
 $country2lang{'ES-CT'} = 'ca, es';
 $country2lang{'ES-GA'} = 'gl';
 $country2lang{'ES-PV'} = 'eu, es';
@@ -121,30 +122,29 @@ foreach $inFile (@compAnaFiles) {
 close TMP;
 
 `mkdir $outDir` unless -e "$outDir";
-`rm -f $outDir/*.conllu`;
-
+`find $outDir -name '*.conllu' -type f -delete`;
 
 # Produce common CoNLL-U, even if we have more languages in a corpus
 if ($langs !~ /,/) {$checkLang = $langs}
 else {($checkLang) = $langs =~ /(.+?),/}
 $command = "$Saxon meta=$rootAnaFile -xsl:$scriptConvert {} > $outDir/{/.}.conllu";
 `cat $fileFile | $Para '$command'`;
-`rename 's/\.ana//' $outDir/*.conllu`;
+`find $outDir -name '*.conllu' -type f -exec rename 's/\.ana//' {} +`;
 $command = "python3 $scriptValid --lang $checkLang --level 1 {}";
-`ls $outDir/*.conllu | $Para '$command'`;
+`find $outDir -name '*.conllu' -type f -print | $Para '$command'`;
 $command = "python3 $scriptValid --lang $checkLang --level 2 {}"
     unless defined $MT; #MTed corpora do not have syntactic parses
-`ls $outDir/*.conllu | $Para '$command'`;
+`find $outDir -name '*.conllu' -type f -print | $Para '$command'`;
 
 # Now produce CoNLL-Us for separate langauges, if we have them
 if ($langs =~ /,/) {
     foreach $lang (split(/,\s*/, $langs)) {
         $command = "$Saxon meta=$rootAnaFile seg-lang=$lang -xsl:$scriptConvert {} > $outDir/{/.}-$lang.conllu";
         `cat $fileFile | $Para '$command'`;
-        `rename 's/\.ana//' $outDir/*.conllu`;
+        `find $outDir -name '*.conllu' -type f -exec rename 's/\.ana//' {} +`;
         $command = "python3 $scriptValid --lang $lang --level 1 {}";
-        `ls $outDir/*.conllu | $Para '$command'`;
+        `find $outDir -name '*.conllu' -type f -print | $Para '$command'`;
         $command = "python3 $scriptValid --lang $lang --level 2 {}";
-        `ls $outDir/*.conllu | $Para '$command'`;
+        `find $outDir -name '*.conllu' -type f -print | $Para '$command'`;
     }
 }

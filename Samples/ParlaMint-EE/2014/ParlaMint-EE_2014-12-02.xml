@@ -15,13 +15,21 @@
                <persName ref="https://orcid.org/0000-0003-0966-8341">Kadri Vider</persName>
                <resp xml:lang="en">Data retrieval and conversion to Parla-CLARIN TEI XML</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
                <orgName xml:lang="en">CLARIN ERIC research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure xml:lang="et" unit="speeches" quantity="64">64 kõnet</measure>
@@ -34,12 +42,12 @@
                <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
                <orgName xml:lang="en">CLARIN ERIC research infrastructure</orgName>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -75,30 +83,32 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-03">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <note type="speaker" xml:id="ParlaMint-EE_2014-12-02.note1">Eiki Nestor</note>
-            <u who="#e_nestor_19530905" xml:id="ParlaMint-EE_2014-12-02_U1" ana="#chair">
+            <u who="#e_nestor_19530905" xml:id="ParlaMint-EE_2014-12-02_U1" ana="#chair topic:other">
                <seg xml:id="ParlaMint-EE_2014-12-02_U1-P1">Austatud Riigikogu, tere hommikust! Kellel on üle anda eelnõusid ja arupärimisi? Palun, Arto Aas!</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-EE_2014-12-02.note2">Arto Aas</note>
-            <u who="#a_aas_19800609" xml:id="ParlaMint-EE_2014-12-02_U2" ana="#regular">
+            <u who="#a_aas_19800609" xml:id="ParlaMint-EE_2014-12-02_U2" ana="#regular topic:trans">
                <seg xml:id="ParlaMint-EE_2014-12-02_U2-P1">Austatud kolleegid! Majanduskomisjon algatab ühistranspordiseaduse eelnõu. Ühistranspordiseaduse eelmine terviktekst võeti vastu juba 14 aastat tagasi, aastal 2000. Vahepeal on väga palju aega edasi läinud, elu on muutunud ja ka seadust on mitu korda muudetud. On aeg teha uus terviktekst. Riigikogu jõudis selle koostamisega päris kaugele juba suvel, aga protseduurilistel põhjustel võttis eelnõu algataja selle menetlusest tagasi. Nüüd oleme jõudnud majanduskomisjoni ning Majandus- ja Kommunikatsiooniministeeriumi ühise töö tulemusel sinnamaani, et võime eelnõu uuesti sisse anda. Selle peamised eesmärgid on järgmised: võimaldada bussiliiniveol konkurentsi suurenemist ja tagada veoteenuse kvaliteedi stabiilsus, parandada taksoveoteenuse kvaliteeti, täpsustada sõidusoodustuste tegemise aluseid, korrastada teeliikluses sõitja ning sõidukijuhi õigusi ja kohustusi, täpsustada ühistransporti korraldavate asutuste pädevust ja ülesandeid jpm. Selline lugu. Aitäh!</seg>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#r_vakra_19810310" xml:id="ParlaMint-EE_2014-12-02_U63" ana="#regular">
+            <u who="#r_vakra_19810310" xml:id="ParlaMint-EE_2014-12-02_U63" ana="#regular topic:envir">
                <seg xml:id="ParlaMint-EE_2014-12-02_U63-P1">Austatud esimees! Head kolleegid! Keskkonnaseadustiku üldosa seaduse rakendamise seaduse muutmise seaduse eelnõu 781 algatas Riigikogu keskkonnakomisjon 17. novembril aastal 2014. Riigikogu juhatus määras eelnõu juhtivkomisjoniks keskkonnakomisjoni. Keskkonnaseadustiku üldosa seaduse rakendamise seadus sätestab, et 5. peatükk "Loamenetlus" jõustub 1. jaanuaril 2015. See kuupäev ei arvesta aga tegelikkust, kuna selle peatükiga vahetult seotud eriseadused ei jõua selleks ajaks jõustuda. Eelnõuga ei kavandata kindlat jõustumiskuupäeva, sest selle täitmine võib hiljem võimatuks osutuda. Keskkonnaseadustiku üldosa seaduse 5. peatükk jõustub ühe eriosa seaduse, näiteks kiirgusseaduse, veeseaduse, jäätmeseaduse, atmosfääriõhu kaitse seaduse või maapõueseaduse jõustumisel, kus selle peatüki jõustumine on sätestatud. See tähendab seda, et loamenetlus ei jõustu mitte 1. jaanuaril, vaid koos esimese seadusega, kus seda rakendatakse. Eelnõu on heaks kiitnud ka Vabariigi Valitsus.</seg>
                <seg xml:id="ParlaMint-EE_2014-12-02_U63-P2">Keskkonnakomisjoni 20. novembri 2014. aasta istungil otsustati võtta eelnõu Riigikogu täiskogu päevakorda 2. detsembril, teha ettepanek esimene lugemine lõpetada ja määrata eelnõu 781 muudatusettepanekute tähtajaks 5. detsember 2014. Kõik komisjoni otsused olid konsensuslikud. Aitäh!</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-EE_2014-12-02.note64">Eiki Nestor</note>
-            <u who="#e_nestor_19530905" xml:id="ParlaMint-EE_2014-12-02_U64" ana="#chair">
+            <u who="#e_nestor_19530905" xml:id="ParlaMint-EE_2014-12-02_U64" ana="#chair topic:other">
                <seg xml:id="ParlaMint-EE_2014-12-02_U64-P1">Aitäh! Kas ettekandjale on küsimusi? Ei ole. Avan läbirääkimised. Kõnesoove ei ole. Eelnõu 781 esimene lugemine on lõpetatud. Määran muudatusettepanekute esitamise tähtajaks 5. detsembri kell 12. Istung on lõppenud. Kohtume homme.</seg>
                <seg xml:id="ParlaMint-EE_2014-12-02_U64-P2">Istungi lõpp kell 11.35.</seg>
             </u>

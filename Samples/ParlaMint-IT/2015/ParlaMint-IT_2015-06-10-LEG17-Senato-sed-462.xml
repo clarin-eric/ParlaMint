@@ -34,9 +34,17 @@
                <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
                <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="it">Commissione Europea</orgName>
@@ -56,7 +64,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="200" unit="speeches" xml:lang="it">200 discorsi</measure>
@@ -70,13 +78,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref> .</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -120,8 +128,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference" xml:lang="it">
@@ -129,7 +139,7 @@
          <div type="debateSection">
             <note type="speaker" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.note1">Presidenza della vice presidente FEDELI</note>
             <note type="speaker" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.note2">PRESIDENTE</note>
-            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u1">
+            <u ana="#chair topic:other" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u1">
                <seg xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.seg1">La seduta è aperta (ore 9,33). Si dia lettura del processo verbale. AMATI, segretario, dà lettura del processo verbale della seduta antimeridiana del 4 giugno.</seg>
             </u>
             <gap reason="editorial">
@@ -139,7 +149,7 @@
          <div type="debateSection">
             <head xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.head1">Sul processo verbale</head>
             <note type="speaker" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.note3">SANTANGELO (M5S)</note>
-            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u2">
+            <u ana="#regular topic:other" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u2">
                <seg xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.seg2">Domando di parlare.</seg>
             </u>
             <gap reason="editorial">
@@ -147,14 +157,14 @@
             </gap>
          </div>
          <div type="debateSection">
-            <u ana="#regular" who="#DiBiagioAldo" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u199">
+            <u ana="#regular topic:immig" who="#DiBiagioAldo" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u199">
                <seg xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.seg288">DI BIAGIO (AP (NCD-UDC)). Signor Presidente, si fa un gran parlare di affari illeciti connessi alla gestione dell'emergenza degli immigrati e delle risorse che, a quanto pare, più che essere dirottate in servizi assistenziali, alimentano clientele e malaffare. Sfugge, però, un po' a tutti che dietro questo c'è anche una leggerezza dello Stato nel non aver compreso bene cosa avrebbe significato la privatizzazione della Croce rossa italiana. L'attualità sta confermando che il venir meno della presenza pubblica della Croce Rossa in settori delicati come la gestione dei centri di accoglienza presta il fianco alla degenerazione del business degli immigrati da parte dei privati, perché resta scoperto un ambito di azione precedentemente di competenza della Croce Rossa e attualmente alla mercé di soggetti privati, ognuno, ovviamente, con le proprie velleità. Un esempio tra tutti è quello di un campeggio romano adibito a centro di accoglienza, la cui gestione è stata affidata dalla prefettura ad una cooperativa. Quest'ultima, non avendo le competenze e gli strumenti, mi risulta che abbia coinvolto, senza legittimità, sia volontari della Croce rossa specializzati nel settore, che quindi al momento lavorano a ritmi serrati, sia molti dipendenti del comitato provinciale di Roma della Croce rossa. Pertanto, ci troviamo davanti al paradosso di una Croce Rossa subappaltata da una società privata cui lo Stato riconosce fondi. Credo sia davvero il caso di fare una riflessione con il Governo su quanto sta accadendo - che ho denunciato anche in atti parlamentari - anche perché a pagare lo scotto di questo errato calcolo amministrativo sono, come sempre, i cittadini più bisognosi.</seg>
             </u>
          </div>
          <div type="debateSection">
             <head xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.head6">Mozioni, interpellanze e interrogazioni, annunzio</head>
             <note type="speaker" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.note209">PRESIDENTE</note>
-            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u200">
+            <u ana="#chair topic:other" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u200">
                <seg xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.seg289">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
                <seg xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.seg290">Ricordo che il Senato tornerà a riunirsi in seduta pubblica oggi, alle ore 16,30, con lo stesso ordine del giorno.</seg>
                <seg xml:id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.seg291">La seduta è tolta (ore 12,47).</seg>

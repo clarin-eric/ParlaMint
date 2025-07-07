@@ -1,7 +1,7 @@
 <note type="head" content="PALABRAS DE LA PRESIDENCIA"/>
-<speech id="ParlaMint-ES_2023-02-23-CD230223.u1" text_id="ParlaMint-ES_2023-02-23-CD230223" subcorpus="COVID,Guerra" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Sesión plenaria núm. 239 (2023-02-23)" speaker_role="Presidencia" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
+<speech id="ParlaMint-ES_2023-02-23-CD230223.u1" text_id="ParlaMint-ES_2023-02-23-CD230223" subcorpus="COVID,Guerra" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Sesión plenaria núm. 239 (2023-02-23)" speaker_role="Presidencia" topic="Asuntos internacionales" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2023-02-23-CD230223.u1.p1" lang="Español">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1" senti_3="Positivo" senti_6="positivo" senti_n="4.557">
 Muy	Muy	mucho	ADV	-	w1	advmod	día	NOUN	Gender=Masc Number=Plur	w3
 buenos	buenos	buen	ADJ	Gender=Masc Number=Plur	w2	amod	día	NOUN	Gender=Masc Number=Plur	w3
 días	días	día	NOUN	Gender=Masc Number=Plur	w3	root	-	-	-	-
@@ -11,7 +11,7 @@ señorías	señorías	señoría	NOUN	Gender=Fem Number=Plur	w5	appos	día	NOUN	G
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w6	punct	día	NOUN	Gender=Masc Number=Plur	w3
 </s>
-<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2" senti_3="Positivo" senti_6="positivo mixto" senti_n="3.846">
 Se	Se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	w1	expl:pass	reanudar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2
 reanuda	reanuda	reanudar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w3	det	sesión	NOUN	Gender=Fem Number=Sing	w4
@@ -21,7 +21,7 @@ sesión	sesión	sesión	NOUN	Gender=Fem Number=Sing	w4	nsubj	reanudar	VERB	Mood=
 </s>
 </p>
 <p id="ParlaMint-ES_2023-02-23-CD230223.u1.p2" lang="Español">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1" senti_3="Negativo" senti_6="negativo" senti_n="0.349">
 Antes	Antes	antes	ADV	-	w1	advmod	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	w8
 de	de	de	ADP	-	w2	mark	iniciar	VERB	VerbForm=Inf	w3
 iniciar	iniciar	iniciar	VERB	VerbForm=Inf	w3	advcl	antes	ADV	-	w1
@@ -74,7 +74,7 @@ soberano	soberano	soberano	ADJ	Gender=Masc Number=Sing	w44	amod	país	NOUN	Gende
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w45	punct	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	w8
 </s>
-<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2" senti_3="Negativo" senti_6="negativo" senti_n="0.253">
 La	La	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w1	det	guerra	NOUN	Gender=Fem Number=Sing	w2
 guerra	guerra	guerra	NOUN	Gender=Fem Number=Sing	w2	nsubj	suponer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w9
 <g/>
@@ -100,7 +100,7 @@ europeos	europeos	europeo	ADJ	Gender=Masc Number=Plur	w20	conj	demócrata	NOUN	N
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w21	punct	suponer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w9
 </s>
-<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3" senti_3="Negativo" senti_6="negativo" senti_n="-0.001">
 <name type="ORG">
 Rusia	Rusia	Rusia	PROPN	-	w1	nsubj	violar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w5
 </name>
@@ -143,7 +143,7 @@ ucraniano	ucraniano	ucraniano	ADJ	Gender=Masc Number=Sing	w38	amod	territorio	NO
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w39	punct	violar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w5
 </s>
-<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4" senti_3="Positivo" senti_6="positivo mixto" senti_n="4.049">
 Pese	Pese	pese	NOUN	-	w1	case	él	PRON	Case=Acc,Nom Gender=Masc Number=Sing Person=3 PronType=Prs	w4
 a	a	a	ADP	-	w2	fixed	pese	NOUN	-	w1
 todo	todo	todo	DET	Gender=Masc Number=Sing PronType=Tot	w3	det	él	PRON	Case=Acc,Nom Gender=Masc Number=Sing Person=3 PronType=Prs	w4
@@ -175,7 +175,7 @@ libertad	libertad	libertad	NOUN	Gender=Fem Number=Sing	w21	conj	dignidad	NOUN	Ge
 </s>
 </p>
 <p id="ParlaMint-ES_2023-02-23-CD230223.u1.p3" lang="Español">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.772">
 En	En	en	ADP	-	w1	case	defensa	NOUN	Number=Sing	w2
 defensa	defensa	defensa	NOUN	Number=Sing	w2	obl	querer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w42
 de	de	de	ADP	-	w3	case	valor	NOUN	Gender=Masc Number=Plur	w5
@@ -272,7 +272,7 @@ Europa	Europa	Europa	PROPN	-	w84	nmod	corazón	NOUN	Gender=Masc Number=Sing	w82
 </s>
 </p>
 <p id="ParlaMint-ES_2023-02-23-CD230223.u1.p4" lang="Español">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p4.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u1.p4.s1" senti_3="Positivo" senti_6="positivo mixto" senti_n="4.272">
 Muchísimas	Muchísimas	muchísimo	DET	Gender=Fem Number=Plur NumType=Card PronType=Ind	w1	det	gracia	NOUN	Gender=Fem Number=Plur	w2
 gracias	gracias	gracia	NOUN	Gender=Fem Number=Plur	w2	root	-	-	-	-
 <g/>
@@ -283,9 +283,9 @@ gracias	gracias	gracia	NOUN	Gender=Fem Number=Plur	w2	root	-	-	-	-
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="TRAMITACIÓN DIRECTA Y EN LECTURA ÚNICA DE INICIATIVAS LEGISLATIVAS - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 28/1990, DE 26 DE DICIEMBRE, POR LA QUE SE APRUEBA EL CONVENIO ECONÓMICO ENTRE EL ESTADO Y LA COMUNIDAD FORAL DE NAVARRA. . - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 12/2002, DE 23 DE MAYO, POR LA QUE SE APRUEBA EL CONCIERTO ECONÓMICO CON LA COMUNIDAD AUTÓNOMA DEL PAÍS VASCO. . - PROYECTO DE LEY POR LA QUE SE APRUEBA LA METODOLOGÍA DE SEÑALAMIENTO DEL CUPO DEL PAÍS VASCO PARA EL QUINQUENIO 2022-2026. ."/>
-<speech id="ParlaMint-ES_2023-02-23-CD230223.u2" text_id="ParlaMint-ES_2023-02-23-CD230223" subcorpus="COVID,Guerra" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Sesión plenaria núm. 239 (2023-02-23)" speaker_role="Presidencia" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
+<speech id="ParlaMint-ES_2023-02-23-CD230223.u2" text_id="ParlaMint-ES_2023-02-23-CD230223" subcorpus="COVID,Guerra" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Sesión plenaria núm. 239 (2023-02-23)" speaker_role="Presidencia" topic="Macroeconomía" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2023-02-23-CD230223.u2.p1" lang="Español">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.665">
 Comenzamos	Comenzamos	comenzar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 con	con	con	ADP	-	w2	case	punto	NOUN	Gender=Masc Number=Plur	w4
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	w3	det	punto	NOUN	Gender=Masc Number=Plur	w4
@@ -416,7 +416,7 @@ quinquenio	quinquenio	quinquenio	NOUN	Gender=Masc Number=Sing	w112	nmod	metodolo
 </s>
 </p>
 <p id="ParlaMint-ES_2023-02-23-CD230223.u2.p2" lang="Español">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.774">
 De	De	de	ADP	-	w1	case	acordado	ADJ	Gender=Masc Number=Sing VerbForm=Part	w5
 conformidad	conformidad	conformidad	NOUN	-	w2	fixed	de	ADP	-	w1
 con	con	con	ADP	-	w3	fixed	de	ADP	-	w1
@@ -439,7 +439,7 @@ acumuladamente	acumuladamente	acumuladamente	ADV	-	w16	advmod	debatir	VERB	Mood=
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w17	punct	debatir	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	w15
 </s>
-<s id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.795">
 Les	Les	él	PRON	Case=Dat Number=Plur Person=3 PronType=Prs	w1	iobj	recordar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 recuerdo	recuerdo	recordar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 que	que	que	SCONJ	-	w3	mark	votar	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	w10
@@ -464,7 +464,7 @@ iniciativas	iniciativas	iniciativa	NOUN	Gender=Fem Number=Plur	w19	nmod	correspo
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w20	punct	recordar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3" senti_3="Neutro" senti_6="neutro positivo" senti_n="3.118">
 Tiene	Tiene	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w2	det	palabra,en	NOUN	Gender=Fem Number=Sing	w3
 palabra,en	palabra,en	palabra,en	NOUN	Gender=Fem Number=Sing	w3	obj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w1
@@ -498,9 +498,9 @@ Pública	Pública	Pública	PROPN	-	w21	flat	Función	PROPN	-	w20
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES_2023-02-23-CD230223.u73" text_id="ParlaMint-ES_2023-02-23-CD230223" subcorpus="COVID,Guerra" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Sesión plenaria núm. 239 (2023-02-23)" speaker_role="Presidencia" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
+<speech id="ParlaMint-ES_2023-02-23-CD230223.u73" text_id="ParlaMint-ES_2023-02-23-CD230223" subcorpus="COVID,Guerra" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Sesión plenaria núm. 239 (2023-02-23)" speaker_role="Presidencia" topic="Transportes" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2023-02-23-CD230223.u73.p1" lang="Español">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.850">
 Avocación	Avocación	avocación	NOUN	Gender=Fem Number=Sing	w1	root	-	-	-	-
 de	de	de	ADP	-	w2	case	iniciativa	NOUN	Gender=Fem Number=Plur	w3
 iniciativas	iniciativas	iniciativa	NOUN	Gender=Fem Number=Plur	w3	nmod	avocación	NOUN	Gender=Fem Number=Sing	w1
@@ -508,7 +508,7 @@ legislativas	legislativas	legislativo	ADJ	Gender=Fem Number=Plur	w4	amod	iniciat
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w5	punct	avocación	NOUN	Gender=Fem Number=Sing	w1
 </s>
-<s id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.552">
 Votación	Votación	votación	NOUN	Gender=Fem Number=Sing	w1	root	-	-	-	-
 de	de	de	ADP	-	w2	case	solicitud	NOUN	Gender=Fem Number=Sing	w4
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w3	det	solicitud	NOUN	Gender=Fem Number=Sing	w4
@@ -560,7 +560,7 @@ Galván	Galván	Galván	PROPN	-	w38	flat	Errejón	PROPN	-	w37
 </s>
 </p>
 <p id="ParlaMint-ES_2023-02-23-CD230223.u73.p2" lang="Español">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u73.p2.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u73.p2.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="3.304">
 Comienza	Comienza	comenzar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w2	det	votación	NOUN	Gender=Fem Number=Sing	w3
 votación	votación	votación	NOUN	Gender=Fem Number=Sing	w3	nsubj	comenzar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w1
@@ -570,7 +570,7 @@ votación	votación	votación	NOUN	Gender=Fem Number=Sing	w3	nsubj	comenzar	VERB
 </p>
 <note type="incident:pause" content="Pausa"/>
 <p id="ParlaMint-ES_2023-02-23-CD230223.u73.p3" lang="Español">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="3.392">
 Efectuada	Efectuada	efectuar	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w1	advcl	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	w5
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w2	det	votación	NOUN	Gender=Fem Number=Sing	w3
 votación	votación	votación	NOUN	Gender=Fem Number=Sing	w3	nsubj	efectuar	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w1
@@ -599,9 +599,9 @@ favor	favor	favor	NOUN	Gender=Masc Number=Sing	w16	nmod	voto	NOUN	Gender=Masc Nu
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2023-02-23-CD230223.u74" text_id="ParlaMint-ES_2023-02-23-CD230223" subcorpus="COVID,Guerra" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Sesión plenaria núm. 239 (2023-02-23)" speaker_role="Presidencia" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
+<speech id="ParlaMint-ES_2023-02-23-CD230223.u74" text_id="ParlaMint-ES_2023-02-23-CD230223" subcorpus="COVID,Guerra" lang="Español" body="Cámara Baja" term="Legislatura XIV" session="Sesión plenaria núm. 239" meeting="-" sitting="2023-02-23" agenda="-" date="2023-02-23" title="Sesión plenaria núm. 239 (2023-02-23)" speaker_role="Presidencia" topic="Otros" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-ES_2023-02-23-CD230223.u74.p1" lang="Español">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="3.420">
 En	En	en	ADP	-	w1	advmod	quedar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4
 consecuencia	consecuencia	consecuencia	NOUN	-	w2	fixed	en	ADP	-	w1
 <g/>
@@ -619,7 +619,7 @@ Pleno	Pleno	Pleno	PROPN	-	w9	nmod	avocación	NOUN	Gender=Fem Number=Sing	w7
 </s>
 </p>
 <p id="ParlaMint-ES_2023-02-23-CD230223.u74.p2" lang="Español">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1" senti_3="Positivo" senti_6="positivo mixto" senti_n="4.334">
 Muchas	Muchas	mucho	DET	Gender=Fem Number=Plur NumType=Card PronType=Ind	w1	det	gracia	NOUN	Gender=Fem Number=Plur	w2
 gracias	gracias	gracia	NOUN	Gender=Fem Number=Plur	w2	root	-	-	-	-
 a	a	a	ADP	-	w3	case	todo	PRON	Gender=Masc Number=Plur PronType=Tot	w4
@@ -629,7 +629,7 @@ todos	todos	todo	PRON	Gender=Masc Number=Plur PronType=Tot	w4	nmod	gracia	NOUN	G
 </s>
 </p>
 <p id="ParlaMint-ES_2023-02-23-CD230223.u74.p3" lang="Español">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.817">
 Se	Se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	w1	expl:pass	levantar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2
 levanta	levanta	levantar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w3	det	sesión	NOUN	Gender=Fem Number=Sing	w4
@@ -639,7 +639,7 @@ sesión	sesión	sesión	NOUN	Gender=Fem Number=Sing	w4	nsubj	levantar	VERB	Mood=
 </s>
 </p>
 <p id="ParlaMint-ES_2023-02-23-CD230223.u74.p4" lang="Español">
-<s id="ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1">
+<s id="ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.592">
 Eran	Eran	ser	AUX	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	w1	cop	doce	NUM	Number=Plur NumType=Card	w3
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	w2	det	doce	NUM	Number=Plur NumType=Card	w3
 doce	doce	doce	NUM	Number=Plur NumType=Card	w3	root	-	-	-	-

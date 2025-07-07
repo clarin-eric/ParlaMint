@@ -1,6 +1,6 @@
-<speech id="ParlaMint-PT_2020-12-03.u1" text_id="ParlaMint-PT-en_2020-12-03" subcorpus="COVID" lang="English" body="Unicameralism" term="Série I - XIV Legislatura" session="Sessão 2" meeting="Número 26" sitting="03.12.2020" agenda="-" date="2020-12-03" title="Minutes of the Assembly of the Portuguese Republic, Session 2, Number 26" speaker_role="Chairperson" speaker_id="EduardoLuísBarretoFerroRodrigues" speaker_name="Luís Barreto Ferro Rodrigues, Eduardo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1949">
+<speech id="ParlaMint-PT_2020-12-03.u1" text_id="ParlaMint-PT-en_2020-12-03" subcorpus="COVID" lang="English" body="Unicameralism" term="Série I - XIV Legislatura" session="Sessão 2" meeting="Número 26" sitting="03.12.2020" agenda="-" date="2020-12-03" title="Minutes of the Assembly of the Portuguese Republic, Session 2, Number 26" speaker_role="Chairperson" topic="Other" speaker_id="EduardoLuísBarretoFerroRodrigues" speaker_name="Luís Barreto Ferro Rodrigues, Eduardo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1949">
 <p id="ParlaMint-PT_2020-12-03.seg1" lang="English">
-<s id="ParlaMint-PT_2020-12-03.seg1.s">
+<s id="ParlaMint-PT_2020-12-03.seg1.s" senti_3="Positive" senti_6="mixed positive" senti_n="3.662">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Good	Good	good	ADJ	Degree=Pos	Z4	Z4	Z4: Discourse Bin	t1
 afternoon	afternoon	afternoon	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -66,7 +66,7 @@ open	open	open	ADJ	Degree=Pos	A10+,S1.2.1+,X6-,X5.2+,A7+	A10p	A10+: Open; Findin
 </p>
 <note type="time" content="It was 15 hours and 3 minutes."/>
 <p id="ParlaMint-PT_2020-12-03.seg2" lang="English">
-<s id="ParlaMint-PT_2020-12-03.seg2.s">
+<s id="ParlaMint-PT_2020-12-03.seg2.s" senti_3="Neutral" senti_6="neutral positive" senti_n="3.030">
 Before	Before	before	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 get	get	get	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,X9.2+,A2.1+,A2.2,M1,M2,X2.5+,E4.1-	A9p	A9+: Getting and possession	t3
@@ -107,9 +107,9 @@ House	House	House	PROPN	Number=Sing	H4	H4	H4: Residence	t27
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PT_2020-12-03.u2" text_id="ParlaMint-PT-en_2020-12-03" subcorpus="COVID" lang="English" body="Unicameralism" term="Série I - XIV Legislatura" session="Sessão 2" meeting="Número 26" sitting="03.12.2020" agenda="-" date="2020-12-03" title="Minutes of the Assembly of the Portuguese Republic, Session 2, Number 26" speaker_role="Regular" speaker_id="NelsonRicardoEstevesPeralta" speaker_name="Ricardo Esteves Peralta, Nelson" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-BE" speaker_party_name="Grupo Parlamentar do Bloco de Esquerda" party_status="Opposition" party_orientation="Left to far-left" speaker_gender="M" speaker_birth="1981">
+<speech id="ParlaMint-PT_2020-12-03.u2" text_id="ParlaMint-PT-en_2020-12-03" subcorpus="COVID" lang="English" body="Unicameralism" term="Série I - XIV Legislatura" session="Sessão 2" meeting="Número 26" sitting="03.12.2020" agenda="-" date="2020-12-03" title="Minutes of the Assembly of the Portuguese Republic, Session 2, Number 26" speaker_role="Regular" topic="Other" speaker_id="NelsonRicardoEstevesPeralta" speaker_name="Ricardo Esteves Peralta, Nelson" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-BE" speaker_party_name="Grupo Parlamentar do Bloco de Esquerda" party_status="Opposition" party_orientation="Left to far-left" speaker_gender="M" speaker_birth="1981">
 <p id="ParlaMint-PT_2020-12-03.seg3" lang="English">
-<s id="ParlaMint-PT_2020-12-03.seg3.s">
+<s id="ParlaMint-PT_2020-12-03.seg3.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.924">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr.	Mr.	Mr.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -361,7 +361,7 @@ BE	BE	be	NOUN	Number=Sing	A3+,Z5	A3p	A3+: Existing	t187
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg4" lang="English">
-<s id="ParlaMint-PT_2020-12-03.seg4.s">
+<s id="ParlaMint-PT_2020-12-03.seg4.s" senti_3="Positive" senti_6="mixed positive" senti_n="3.526">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -378,9 +378,9 @@ President	President	President	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-PT_2020-12-03.u367" text_id="ParlaMint-PT-en_2020-12-03" subcorpus="COVID" lang="English" body="Unicameralism" term="Série I - XIV Legislatura" session="Sessão 2" meeting="Número 26" sitting="03.12.2020" agenda="-" date="2020-12-03" title="Minutes of the Assembly of the Portuguese Republic, Session 2, Number 26" speaker_role="Regular" speaker_id="DiogoFeijóoLeãoCamposRodrigues" speaker_name="Feijóo Leão Campos Rodrigues, Diogo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1986">
+<speech id="ParlaMint-PT_2020-12-03.u367" text_id="ParlaMint-PT-en_2020-12-03" subcorpus="COVID" lang="English" body="Unicameralism" term="Série I - XIV Legislatura" session="Sessão 2" meeting="Número 26" sitting="03.12.2020" agenda="-" date="2020-12-03" title="Minutes of the Assembly of the Portuguese Republic, Session 2, Number 26" speaker_role="Regular" topic="Other" speaker_id="DiogoFeijóoLeãoCamposRodrigues" speaker_name="Feijóo Leão Campos Rodrigues, Diogo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1986">
 <p id="ParlaMint-PT_2020-12-03.seg982" lang="English">
-<s id="ParlaMint-PT_2020-12-03.seg982.s">
+<s id="ParlaMint-PT_2020-12-03.seg982.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.930">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr.	Mr.	Mr.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -430,7 +430,7 @@ PCP	PCP	pcp	NOUN	Number=Sing	F3	F3	F3: Smoking and non-medical drugs	t29
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg983" lang="English">
-<s id="ParlaMint-PT_2020-12-03.seg983.s">
+<s id="ParlaMint-PT_2020-12-03.seg983.s" senti_3="Neutral" senti_6="neutral positive" senti_n="3.113">
 <phr usas_tags="Z1m" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -513,9 +513,9 @@ Marques	Marques	Marques	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t50
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PT_2020-12-03.u368" text_id="ParlaMint-PT-en_2020-12-03" subcorpus="COVID" lang="English" body="Unicameralism" term="Série I - XIV Legislatura" session="Sessão 2" meeting="Número 26" sitting="03.12.2020" agenda="-" date="2020-12-03" title="Minutes of the Assembly of the Portuguese Republic, Session 2, Number 26" speaker_role="Chairperson" speaker_id="JoséManuelMarquesdaSilvaPureza" speaker_name="Manuel Marques da Silva Pureza, José" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-BE" speaker_party_name="Grupo Parlamentar do Bloco de Esquerda" party_status="Opposition" party_orientation="Left to far-left" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-PT_2020-12-03.u368" text_id="ParlaMint-PT-en_2020-12-03" subcorpus="COVID" lang="English" body="Unicameralism" term="Série I - XIV Legislatura" session="Sessão 2" meeting="Número 26" sitting="03.12.2020" agenda="-" date="2020-12-03" title="Minutes of the Assembly of the Portuguese Republic, Session 2, Number 26" speaker_role="Chairperson" topic="Housing" speaker_id="JoséManuelMarquesdaSilvaPureza" speaker_name="Manuel Marques da Silva Pureza, José" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-BE" speaker_party_name="Grupo Parlamentar do Bloco de Esquerda" party_status="Opposition" party_orientation="Left to far-left" speaker_gender="M" speaker_birth="1958">
 <p id="ParlaMint-PT_2020-12-03.seg984" lang="English">
-<s id="ParlaMint-PT_2020-12-03.seg984.s">
+<s id="ParlaMint-PT_2020-12-03.seg984.s" senti_3="Neutral" senti_6="neutral positive" senti_n="3.175">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -551,7 +551,7 @@ sitting	sitting	sitting	NOUN	Number=Sing	M8,C1,P1,G1.1,G2.1,M6,A9+	M8	M8: Statio
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg985" lang="English">
-<s id="ParlaMint-PT_2020-12-03.seg985.s">
+<s id="ParlaMint-PT_2020-12-03.seg985.s" senti_3="Neutral" senti_6="neutral negative" senti_n="2.428">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 plenary	plenary	plenary	NOUN	Number=Sing	S1.1.3+++	S1.1.3p	S1.1.3+: Participating	t2
 meets	meets	meet	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	S3.1,M6,A1.1.1,X9.2+,A6.1+	S3.1	S3.1: Personal relationship: General	t3
@@ -614,7 +614,7 @@ Procedure	Procedure	procedure	NOUN	Number=Sing	X4.2	X4.2	X4.2: Mental object: Me
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg986" lang="English">
-<s id="ParlaMint-PT_2020-12-03.seg986.s">
+<s id="ParlaMint-PT_2020-12-03.seg986.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.791">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 second	second	second	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t2
 point	point	point	NOUN	Number=Sing	Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5	Q2.1	Q2.1: Speech: Communicative	t3
@@ -842,7 +842,7 @@ February	February	February	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t181
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg987" lang="English">
-<s id="ParlaMint-PT_2020-12-03.seg987.s">
+<s id="ParlaMint-PT_2020-12-03.seg987.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.819">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 third	third	third	ADJ	Degree=Pos NumType=Ord	N4,N5,N1	N4	N4: Linear order	t2
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
@@ -1113,7 +1113,7 @@ Fund	Fund	Fund	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t214
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg988" lang="English">
-<s id="ParlaMint-PT_2020-12-03.seg988.s">
+<s id="ParlaMint-PT_2020-12-03.seg988.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.673">
 Then	Then	then	ADV	PronType=Dem	N4,Z5,T1.2	N4	N4: Linear order	t1
 there	there	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t2
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t3
@@ -1167,7 +1167,7 @@ November	November	November	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical na
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg989" lang="English">
-<s id="ParlaMint-PT_2020-12-03.seg989.s">
+<s id="ParlaMint-PT_2020-12-03.seg989.s" senti_3="Neutral" senti_6="neutral negative" senti_n="2.492">
 Fifthly	Fifthly	fifthly	ADV	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1193,7 +1193,7 @@ discussed	discussed	discuss	VERB	Tense=Past VerbForm=Part Voice=Pass	Q2.1,Q2.2	Q
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg990" lang="English">
-<s id="ParlaMint-PT_2020-12-03.seg990.s">
+<s id="ParlaMint-PT_2020-12-03.seg990.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.589">
 Following	Following	follow	VERB	VerbForm=Ger	M1,N4,S7.1-,X2.4,X2.5+,A6.1+,A1.1.1,A2.2,K5.1,X3.4	M1	M1: Moving, coming and going	t1
 consideration	consideration	consideration	NOUN	Number=Sing	X2.1,X2.4,S1.2.3-	X2.1	X2.1: Thought, belief	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1276,7 +1276,7 @@ process	process	process	NOUN	Number=Sing	A1.1.1,X4.2	A1.1.1	A1.1.1: General acti
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg991" lang="English">
-<s id="ParlaMint-PT_2020-12-03.seg991.s">
+<s id="ParlaMint-PT_2020-12-03.seg991.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.787">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 following	following	follow	VERB	VerbForm=Ger	N4	N4	N4: Linear order	t2
 point	point	point	NOUN	Number=Sing	Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5	Q2.1	Q2.1: Speech: Communicative	t3
@@ -1309,7 +1309,7 @@ year	year	year	NOUN	Number=Sing	P1c	P1	P1: Education in general	t19
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg992" lang="English">
-<s id="ParlaMint-PT_2020-12-03.seg992.s">
+<s id="ParlaMint-PT_2020-12-03.seg992.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.702">
 They	They	they	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pronouns	t1
 are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t3
@@ -1624,7 +1624,7 @@ May	May	May	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t229
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg993" lang="English">
-<s id="ParlaMint-PT_2020-12-03.seg993.s">
+<s id="ParlaMint-PT_2020-12-03.seg993.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.737">
 Finally	Finally	finally	ADV	-	N4	N4	N4: Linear order	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1648,7 +1648,7 @@ Procedure	Procedure	procedure	NOUN	Number=Sing	X4.2	X4.2	X4.2: Mental object: Me
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg994" lang="English">
-<s id="ParlaMint-PT_2020-12-03.seg994.s">
+<s id="ParlaMint-PT_2020-12-03.seg994.s" senti_3="Neutral" senti_6="neutral positive" senti_n="3.040">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 therefore	therefore	therefore	ADV	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1668,7 +1668,7 @@ sessions	sessions	session	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t12
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg995" lang="English">
-<s id="ParlaMint-PT_2020-12-03.seg995.s">
+<s id="ParlaMint-PT_2020-12-03.seg995.s" senti_3="Neutral" senti_6="neutral positive" senti_n="3.243">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 call	call	call	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2,S1.1.1,Q1.3,S9%	Q2.2	Q2.2: Speech acts	t2
 on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1697,7 +1697,7 @@ heart	heart	heart	NOUN	Number=Sing	B1,M6,A11.1+,E1,X5.2+	B1	B1: Anatomy and phys
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg996" lang="English">
-<s id="ParlaMint-PT_2020-12-03.seg996.s">
+<s id="ParlaMint-PT_2020-12-03.seg996.s" senti_3="Positive" senti_6="positive" senti_n="4.541">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 thank	thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -1721,7 +1721,7 @@ afternoon	afternoon	afternoon	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t16
 </s>
 </p>
 <p id="ParlaMint-PT_2020-12-03.seg997" lang="English">
-<s id="ParlaMint-PT_2020-12-03.seg997.s">
+<s id="ParlaMint-PT_2020-12-03.seg997.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.901">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 session	session	session	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3

@@ -1,8 +1,8 @@
 <note type="time" content="The meeting continued at 9.00 a.m."/>
 <note type="speaker" content="Vice-President of the PSP Olga Richterová"/>
-<speech id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1" text_id="ParlaMint-CZ-en_2023-07-26-ps2021-071-07-000-000" subcorpus="COVID,War" lang="English" body="Lower house" term="ps2021" session="-" meeting="ps2021/071" sitting="ps2021/071/07" agenda="ps2021/071/000" date="2023-07-26" title="Parliament of the Czech Republic, Chamber of Deputies, 2023-07-26" speaker_role="Chairperson" speaker_id="OlgaRichterova.1985" speaker_name="Richterová, Olga" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Piráti" speaker_party_name="Political group Czech Pirate Party" party_status="Coalition" party_orientation="Centre to centre-left" speaker_gender="F" speaker_birth="1985">
+<speech id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1" text_id="ParlaMint-CZ-en_2023-07-26-ps2021-071-07-000-000" subcorpus="COVID,War" lang="English" body="Lower house" term="ps2021" session="-" meeting="ps2021/071" sitting="ps2021/071/07" agenda="-" date="2023-07-26" title="Parliament of the Czech Republic, Chamber of Deputies, 2023-07-26" speaker_role="Chairperson" topic="Other" speaker_id="OlgaRichterova.1985" speaker_name="Richterová, Olga" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Piráti" speaker_party_name="Political group Czech Pirate Party" party_status="Coalition" party_orientation="Centre to centre-left" speaker_gender="F" speaker_birth="1985">
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p1" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p1.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p1.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.466">
 <name type="ORG">
 Madam	Madam	madam	NOUN	Number=Sing	Z1f	Z1	Z1: Personal names	t1
 Members	Members	Member	PROPN	Number=Plur	Z1f	Z1	Z1: Personal names	t2
@@ -54,7 +54,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t36
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p1.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p1.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.156">
 <phr usas_tags="A5.3+,G2.2+,N4" usas_cats="A5.3p" usas_glosses="A5.3+: Evaluation: Accurate">
 In	In	in	SCONJ	-	A5.3+,G2.2+,N4	A5.3p	A5.3+: Evaluation: Accurate	t1
 order	order	order	NOUN	Number=Sing	A5.3+,G2.2+,N4	A5.3p	A5.3+: Evaluation: Accurate	t2
@@ -113,7 +113,7 @@ card	card	card	NOUN	Number=Sing	Q1.2,O1.1,I1.1/O2/Q1.1,K5.2	Q1.2	Q1.2: Paper doc
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p2" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p2.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p2.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.332">
 <phr usas_tags="A13.2" usas_cats="A13.2" usas_glosses="A13.2: Degree: Maximizers">
 On	On	on	ADP	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 the	the	the	DET	Definite=Def PronType=Art	A13.2	A13.2	A13.2: Degree: Maximizers	t2
@@ -837,7 +837,7 @@ the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t508
 case	case	case	NOUN	Number=Sing	A4.1,O2,G2.1,B3,X4.1,Q3	A4.1	A4.1: Generally kinds, groups, examples	t509
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t510
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p2.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p2.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.655">
 <name type="PER">
 Jan	Jan	January	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Volný	Volný	Volný	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -872,7 +872,7 @@ reasons	reasons	reason	NOUN	Number=Plur	A2.2,X2.1	A2.2	A2.2: Cause	t21
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p3" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p3.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p3.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.652">
 <name type="PER">
 Ivan	Ivan	Ivan	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Bartoš	Bartoš	Bartoš	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -994,7 +994,7 @@ reasons	reasons	reason	NOUN	Number=Plur	A2.2,X2.1	A2.2	A2.2: Cause	t90
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p4" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p4.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p4.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.709">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 In	In	in	ADP	-	T1.3	T1.3	T1.3: Time: Period	t1
 the	the	the	DET	Definite=Def PronType=Art	T1.3	T1.3	T1.3: Time: Period	t2
@@ -1014,7 +1014,7 @@ up	up	up	ADP	-	Z5	Z5	Z5: Grammatical bin	t10
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p4.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p4.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.733">
 <name type="PER">
 Jaroslav	Jaroslav	Jaroslav	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Faltýnek	Faltýnek	Faltýnek	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -1032,7 +1032,7 @@ reasons	reasons	reason	NOUN	Number=Plur	A2.2,X2.1	A2.2	A2.2: Cause	t10
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p5" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p5.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p5.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.795">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 now	now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t2
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t3
@@ -1082,7 +1082,7 @@ in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t42
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t43
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p5.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p5.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.093">
 First	First	first	ADV	NumType=Ord	N4,P1@	N4	N4: Linear order	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1136,7 +1136,7 @@ Schillerová	Schillerová	Schillerová	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Persona
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p5.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p5.s3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.734">
 First	First	first	ADV	NumType=Ord	N4,P1@	N4	N4: Linear order	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1166,7 +1166,7 @@ down	down	down	ADP	-	Z5	Z5	Z5: Grammatical bin	t22
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p5.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p5.s4" senti_3="Positive" senti_6="positive" senti_n="4.655">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -1174,7 +1174,7 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p5.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p5.s5" senti_3="Neutral" senti_6="neutral positive" senti_n="3.296">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Colleagues	Colleagues	colleague	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -1200,7 +1200,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t16
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p5.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u1.p5.s6" senti_3="Positive" senti_6="mixed positive" senti_n="3.874">
 Please	Please	please	INTJ	-	E4.2+,E2+,X7+	E4.2p	E4.2+: Content	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1208,9 +1208,9 @@ Please	Please	please	INTJ	-	E4.2+,E2+,X7+	E4.2p	E4.2+: Content	t1
 </p>
 </speech>
 <note type="speaker" content="Member Jan Jakob"/>
-<speech id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2" text_id="ParlaMint-CZ-en_2023-07-26-ps2021-071-07-000-000" subcorpus="COVID,War" lang="English" body="Lower house" term="ps2021" session="-" meeting="ps2021/071" sitting="ps2021/071/07" agenda="ps2021/071/000" date="2023-07-26" title="Parliament of the Czech Republic, Chamber of Deputies, 2023-07-26" speaker_role="Regular" speaker_id="JanJakob.1982" speaker_name="Jakob, Jan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="TOP09" speaker_party_name="Political group TOP 09" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1982">
+<speech id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2" text_id="ParlaMint-CZ-en_2023-07-26-ps2021-071-07-000-000" subcorpus="COVID,War" lang="English" body="Lower house" term="ps2021" session="-" meeting="ps2021/071" sitting="ps2021/071/07" agenda="-" date="2023-07-26" title="Parliament of the Czech Republic, Chamber of Deputies, 2023-07-26" speaker_role="Regular" topic="Other" speaker_id="JanJakob.1982" speaker_name="Jakob, Jan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="TOP09" speaker_party_name="Political group TOP 09" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1982">
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p1" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p1.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p1.s1" senti_3="Positive" senti_6="positive" senti_n="4.655">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -1218,7 +1218,7 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p1.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p1.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.373">
 <name type="PER">
 Madam	Madam	madam	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Vice	Vice	Vice	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -1302,7 +1302,7 @@ amended	amended	amend	VERB	Tense=Past VerbForm=Part	A2.1+	A2.1p	A2.1+: Change	t5
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t58
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p1.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p1.s3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.141">
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 Allow	Allow	allow	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
 me	me	I	PRON	Case=Acc Number=Sing Person=1 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -1322,7 +1322,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t14
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p1.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p1.s4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.122">
 First	First	first	ADV	NumType=Ord	N4,P1@	N4	N4: Linear order	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 all	all	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t3
@@ -1344,7 +1344,7 @@ connotations	connotations	connotation	NOUN	Number=Plur	A2.2	A2.2	A2.2: Cause	t12
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p2" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p2.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p2.s1" senti_3="Negative" senti_6="negative" senti_n="0.165">
 At	At	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <phr usas_tags="G1.1" usas_cats="G1.1" usas_glosses="G1.1: Government">
@@ -1368,7 +1368,7 @@ program	program	program	NOUN	Number=Sing	Y2,X7+,Q4.3,Q1.2,P1	Y2	Y2: Information 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p2.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p2.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.479">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t2
 itself	itself	itself	PRON	Gender=Neut Number=Sing Person=3 PronType=Emp Reflex=Yes	Z8	Z8	Z8: Pronouns	t3
@@ -1385,7 +1385,7 @@ hours	hours	hour	NOUN	Number=Plur	T1.1.1	T1.1.1	T1.1.1: Time: Past	t9
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p2.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p2.s3" senti_3="Negative" senti_6="mixed negative" senti_n="1.067">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <phr usas_tags="G1.1" usas_cats="G1.1" usas_glosses="G1.1: Government">
@@ -1418,7 +1418,7 @@ minutes	minutes	minute	NOUN	Number=Plur	T1.3,Q1.2	T1.3	T1.3: Time: Period	t25
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p2.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p2.s4" senti_3="Negative" senti_6="negative" senti_n="0.335">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <phr usas_tags="G1.1" usas_cats="G1.1" usas_glosses="G1.1: Government">
@@ -1455,7 +1455,7 @@ minutes	minutes	minute	NOUN	Number=Plur	T1.3,Q1.2	T1.3	T1.3: Time: Period	t26
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p2.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p2.s5" senti_3="Neutral" senti_6="neutral negative" senti_n="1.687">
 When	When	when	SCONJ	PronType=Int	Z5	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -1518,7 +1518,7 @@ hours	hours	hour	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t51
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t52
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p2.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p2.s6" senti_3="Neutral" senti_6="neutral positive" senti_n="2.977">
 All	All	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 in	in	in	ADP	-	M6	M6	M6: Location and direction	t2
 all	all	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t3
@@ -1532,7 +1532,7 @@ minutes	minutes	minute	NOUN	Number=Plur	T1.3,Q1.2	T1.3	T1.3: Time: Period	t9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p2.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p2.s7" senti_3="Neutral" senti_6="neutral positive" senti_n="3.255">
 Moreover	Moreover	moreover	ADV	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1582,7 +1582,7 @@ day	day	day	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p2.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p2.s8" senti_3="Negative" senti_6="negative" senti_n="-0.139">
 However	However	however	ADV	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1618,7 +1618,7 @@ impossible	impossible	impossible	ADJ	Degree=Pos	A7-,A12-	A7n	A7-: Unlikely	t27
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p2.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p2.s9" senti_3="Negative" senti_6="mixed negative" senti_n="0.573">
 For	For	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 reason	reason	reason	NOUN	Number=Sing	A2.2,X2.1	A2.2	A2.2: Cause	t3
@@ -1691,7 +1691,7 @@ vote	vote	vote	VERB	VerbForm=Inf	G1.2	G1.2	G1.2: Politics	t55
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p3" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p3.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p3.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.649">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 've	've	have	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -1704,7 +1704,7 @@ performances	performances	performance	NOUN	Number=Plur	K4,X9.2,A1.1.1,A12-	K4	K4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p3.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p3.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.702">
 During	During	during	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 whole	whole	whole	ADJ	Degree=Pos	N5.1+	N5.1p	N5.1+: Entire; maximum	t3
@@ -1719,7 +1719,7 @@ speeches	speeches	speech	NOUN	Number=Plur	Q2.1,Q3	Q2.1	Q2.1: Speech: Communicati
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p3.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p3.s3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.029">
 A	A	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 total	total	total	NOUN	Number=Sing	N5.1+	N5.1p	N5.1+: Entire; maximum	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1738,7 +1738,7 @@ reading	reading	reading	NOUN	Number=Sing	N6+	N6p	N6+: Frequent	t11
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p3.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p3.s4" senti_3="Negative" senti_6="mixed negative" senti_n="0.594">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 not	not	not	PART	-	Z6	Z6	Z6: Negative	t3
@@ -1760,7 +1760,7 @@ opposition	opposition	opposition	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Ev
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p3.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p3.s5" senti_3="Neutral" senti_6="neutral negative" senti_n="1.806">
 <phr usas_tags="Z5" usas_cats="Z5" usas_glosses="Z5: Grammatical bin">
 As	As	as	ADV	-	Z5	Z5	Z5: Grammatical bin	t1
 far	far	far	ADV	Degree=Pos	Z5	Z5	Z5: Grammatical bin	t2
@@ -1791,7 +1791,7 @@ spoke	spoke	speak	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	Q2.
 </p>
 <note type="time" content="9.10 hours"/>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p4" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p4.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p4.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.863">
 At	At	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 same	same	same	ADJ	Degree=Pos	A6.1+++	A6.1p	A6.1+: Comparing: Similar	t3
@@ -1920,7 +1920,7 @@ reading	reading	reading	NOUN	Number=Sing	G1.1	G1.1	G1.1: Government	t95
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p5" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p5.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p5.s1" senti_3="Negative" senti_6="mixed negative" senti_n="1.406">
 As	As	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t2
@@ -1977,7 +1977,7 @@ done	done	do	VERB	Tense=Past VerbForm=Part Voice=Pass	A1.1.1,G2.2-,X9.2+,E3-,G2.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t45
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p5.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p5.s2" senti_3="Negative" senti_6="negative" senti_n="0.280">
 Moreover	Moreover	moreover	ADV	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -2015,7 +2015,7 @@ hearing	hearing	hearing	NOUN	Number=Sing	B1/X3.2,G2.1	B1 X3.2	B1: Anatomy and ph
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p6" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p6.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p6.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.698">
 Therefore	Therefore	therefore	ADV	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -2063,7 +2063,7 @@ mark	mark	mark	NOUN	Number=Sing	Z2	Z2	Z2: Geographical names	t32
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t34
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p6.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p6.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.917">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 quote	quote	quote	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2,I1.3	Q2.2	Q2.2: Speech acts	t2
 <g/>
@@ -2129,7 +2129,7 @@ exercise	exercise	exercise	NOUN	Number=Sing	K5.1,P1,A1.1.1,G3@	K5.1	K5.1: Sports
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t56
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p6.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p6.s3" senti_3="Negative" senti_6="negative" senti_n="-0.130">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 On	On	on	ADP	-	Z4	Z4	Z4: Discourse Bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z4	Z4	Z4: Discourse Bin	t2
@@ -2252,7 +2252,7 @@ itself	itself	itself	PRON	Gender=Neut Number=Sing Person=3 PronType=Emp Reflex=Y
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t98
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p6.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p6.s4" senti_3="Negative" senti_6="negative" senti_n="0.110">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 On	On	on	ADP	-	Z4	Z4	Z4: Discourse Bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z4	Z4	Z4: Discourse Bin	t2
@@ -2310,7 +2310,7 @@ majority	majority	majority	NOUN	Number=Sing	N5+++c	N5p	N5+: Quantities: many/muc
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t49
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p6.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p6.s5" senti_3="Neutral" senti_6="neutral positive" senti_n="2.822">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 therefore	therefore	therefore	ADV	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -2345,7 +2345,7 @@ exercise	exercise	exercise	NOUN	Number=Sing	K5.1,P1,A1.1.1,G3@	K5.1	K5.1: Sports
 <g/>
 "	"	"	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p6.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p6.s6" senti_3="Neutral" senti_6="neutral positive" senti_n="2.791">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 much	much	much	ADJ	Degree=Pos	N5+,I1.3+	N5p	N5+: Quantities: many/much	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -2386,7 +2386,7 @@ times	times	time	NOUN	Number=Plur	T1,T1.2,T1.3,T1.1.2,N6,N1	T1	T1: Time	t28
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p6.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p6.s7" senti_3="Positive" senti_6="mixed positive" senti_n="4.070">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 as	as	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t2
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t3
@@ -2439,7 +2439,7 @@ proposal	proposal	proposal	NOUN	Number=Sing	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Speech
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p7" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p7.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p7.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.930">
 For	For	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 these	these	this	DET	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 reasons	reasons	reason	NOUN	Number=Plur	A2.2,X2.1	A2.2	A2.2: Cause	t3
@@ -2550,7 +2550,7 @@ p.m	p.m	p.m	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t79
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t80
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p7.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p7.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.759">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t2
 note	note	note	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.1,Q1.2	Q2.1	Q2.1: Speech: Communicative	t3
@@ -2623,7 +2623,7 @@ now	now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t60
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t61
 </s>
 <note type="vocal:laughter" content="Laughs from the benches of members YES and SPD."/>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p7.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p7.s3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.300">
 <phr usas_tags="Z1f" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Madam	Madam	madam	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t2
@@ -2647,7 +2647,7 @@ tabled	tabled	tab	VERB	Tense=Past VerbForm=Part	Q1.2	Q1.2	Q1.2: Paper documents 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p7.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u2.p7.s4" senti_3="Positive" senti_6="mixed positive" senti_n="4.336">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -2661,9 +2661,9 @@ attention	attention	attention	NOUN	Number=Sing	X5.1+,S8+	X5.1p	X5.1+: Attentive	
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32" text_id="ParlaMint-CZ-en_2023-07-26-ps2021-071-07-000-000" subcorpus="COVID,War" lang="English" body="Lower house" term="ps2021" session="-" meeting="ps2021/071" sitting="ps2021/071/07" agenda="ps2021/071/000" date="2023-07-26" title="Parliament of the Czech Republic, Chamber of Deputies, 2023-07-26" speaker_role="Regular" speaker_id="TomioOkamura.1972" speaker_name="Okamura, Tomio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SPD" speaker_party_name="Political group Freedom and Direct Democracy" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1972">
+<speech id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32" text_id="ParlaMint-CZ-en_2023-07-26-ps2021-071-07-000-000" subcorpus="COVID,War" lang="English" body="Lower house" term="ps2021" session="-" meeting="ps2021/071" sitting="ps2021/071/07" agenda="-" date="2023-07-26" title="Parliament of the Czech Republic, Chamber of Deputies, 2023-07-26" speaker_role="Regular" topic="Immigration" speaker_id="TomioOkamura.1972" speaker_name="Okamura, Tomio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SPD" speaker_party_name="Political group Freedom and Direct Democracy" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1972">
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p1" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p1.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p1.s1" senti_3="Negative" senti_6="negative" senti_n="-0.069">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -2705,7 +2705,7 @@ recipients	recipients	recipient	NOUN	Number=Plur	A9+/S2mf	A9p S2	A9+: Getting an
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t31
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p1.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p1.s2" senti_3="Negative" senti_6="negative" senti_n="0.104">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 SPD	SPD	SPD	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
@@ -2731,7 +2731,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: P
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p1.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p1.s3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.906">
 Unlike	Unlike	unlike	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <name type="ORG">
@@ -2754,7 +2754,7 @@ pensioners	pensioners	pensioner	NOUN	Number=Plur	T3+/S2mf	T3p S2	T3+: Time: Old;
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p1.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p1.s4" senti_3="Neutral" senti_6="neutral positive" senti_n="2.799">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <name type="ORG">
@@ -2782,7 +2782,7 @@ caliber	caliber	caliber	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t17
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p2" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p2.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p2.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.445">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -2795,7 +2795,7 @@ status	status	status	NOUN	Number=Sing	S7.1,A4.1,A11.1	S7.1	S7.1: Power, organizi
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p2.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p2.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.555">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 finally	finally	finally	ADV	-	N4	N4	N4: Linear order	t3
@@ -2824,7 +2824,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t21
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p2.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p2.s3" senti_3="Negative" senti_6="negative" senti_n="-0.042">
 Because	Because	because	SCONJ	-	Z5/A2.2	Z5 A2.2	Z5: Grammatical bin|A2.2: Cause	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 <g/>
@@ -2876,7 +2876,7 @@ Ukrajinec	Ukrajinec	Ukrajinec	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t39
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t40
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p2.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p2.s4" senti_3="Neutral" senti_6="neutral positive" senti_n="2.696">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -2885,7 +2885,7 @@ point	point	point	NOUN	Number=Sing	Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5	Q2.1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p2.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p2.s5" senti_3="Negative" senti_6="negative" senti_n="-0.004">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 he	he	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -2896,7 +2896,7 @@ decent	decent	decent	ADJ	Degree=Pos	A5.1+,G2.2+,S1.2.4+	A5.1p	A5.1+: Evaluation:
 people	people	people	NOUN	Number=Plur	S2mfc	S2	S2: People	t6
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p2.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p2.s6" senti_3="Negative" senti_6="negative" senti_n="0.006">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Fialův	Fialův	Fialův	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
@@ -2945,7 +2945,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	A5.4+	A5.4p
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p3" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p3.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p3.s1" senti_3="Negative" senti_6="negative" senti_n="0.283">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -2984,7 +2984,7 @@ get	get	get	VERB	VerbForm=Inf	A9+,Z5,X9.2+,A2.1+,A2.2,M1,M2,X2.5+,E4.1-	A9p	A9+:
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p3.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p3.s2" senti_3="Negative" senti_6="negative" senti_n="0.037">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -3040,7 +3040,7 @@ billion	billion	billion	NUM	NumForm=Word NumType=Card	N1,I1	N1	N1: Numbers	t37
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t38
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p3.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p3.s3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.368">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 got	got	get	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	A9+,Z5,X9.2+,A2.1+,A2.2,M1,M2,X2.5+,E4.1-	A9p	A9+: Getting and possession	t2
 an	an	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -3103,7 +3103,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t49
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t50
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p3.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p3.s4" senti_3="Negative" senti_6="negative" senti_n="0.496">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 CZK	CZK	CZK	SYM	-	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t2
@@ -3161,7 +3161,7 @@ Ukraine	Ukraine	Ukraine	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t41
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t42
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p3.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p3.s5" senti_3="Negative" senti_6="negative" senti_n="-0.051">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	X4.2,I1.1,N2	X4.2	X4.2: Mental object: Means, method	t2
 <g/>
@@ -3232,7 +3232,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t53
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t54
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p3.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p3.s6" senti_3="Neutral" senti_6="neutral positive" senti_n="2.928">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 <g/>
@@ -3260,7 +3260,7 @@ today	today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultan
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p4" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p4.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p4.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.372">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -3278,7 +3278,7 @@ white	white	white	ADJ	Degree=Pos	O4.3,A10+,A4.2+	O4.3	O4.3: Colour and colour pa
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p4.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p4.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.402">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 are	are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 individual	individual	individual	ADJ	Degree=Pos	N5-	N5n	N5-: Quantities: little	t3
@@ -3296,7 +3296,7 @@ to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t13
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p4.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p4.s3" senti_3="Negative" senti_6="negative" senti_n="0.318">
 Moreover	Moreover	moreover	ADV	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -3325,7 +3325,7 @@ expenses	expenses	expense	NOUN	Number=Plur	I1.3	I1.3	I1.3: Money: Cost and price
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p4.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p4.s4" senti_3="Negative" senti_6="negative" senti_n="0.029">
 Because	Because	because	SCONJ	-	Z5/A2.2	Z5 A2.2	Z5: Grammatical bin|A2.2: Cause	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 answer	answer	answer	NOUN	Number=Sing	Q2.2,X4.1,X9.2+	Q2.2	Q2.2: Speech acts	t3
@@ -3435,7 +3435,7 @@ mass	mass	mass	NOUN	Number=Sing	N5+,N3.5,S9,S5+c,B2-	N5p	N5+: Quantities: many/m
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t78
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p4.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p4.s5" senti_3="Negative" senti_6="mixed negative" senti_n="1.023">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 České	České	České	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 dráhy	dráhy	dráhy	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -3475,7 +3475,7 @@ Ukraine	Ukraine	Ukraine	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t25
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p4.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p4.s6" senti_3="Negative" senti_6="negative" senti_n="0.079">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -3538,7 +3538,7 @@ supports	supports	support	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p5" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p5.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p5.s1" senti_3="Negative" senti_6="negative" senti_n="-0.110">
 Moreover	Moreover	moreover	ADV	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -3580,7 +3580,7 @@ Ukraine	Ukraine	Ukraine	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t29
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t30
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p5.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p5.s2" senti_3="Positive" senti_6="mixed positive" senti_n="3.674">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -3593,7 +3593,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t8
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p5.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p5.s3" senti_3="Negative" senti_6="negative" senti_n="-0.023">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 <g/>
@@ -3654,7 +3654,7 @@ migrants	migrants	migrant	NOUN	Number=Plur	M1/S2mf	M1 S2	M1: Moving, coming and 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t40
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p5.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p5.s4" senti_3="Negative" senti_6="negative" senti_n="0.345">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -3663,7 +3663,7 @@ true	true	true	ADJ	Degree=Pos	A5.2+,A5.4+	A5.2p	A5.2+: Evaluation: True	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p5.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p5.s5" senti_3="Negative" senti_6="negative" senti_n="-0.074">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -3688,7 +3688,7 @@ along	along	along	ADV	-	M6	M6	M6: Location and direction	t17
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p5.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p5.s6" senti_3="Negative" senti_6="mixed negative" senti_n="1.158">
 Even	Even	even	ADV	-	A13.1	A13.1	A13.1: Degree: Non-specific	t1
 your	your	you	PRON	Person=2 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 document	document	document	NOUN	Number=Sing	Q1.2,X2.2+,Y2	Q1.2	Q1.2: Paper documents and writing	t3
@@ -3714,7 +3714,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p5.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p5.s7" senti_3="Negative" senti_6="negative" senti_n="-0.124">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -3735,7 +3735,7 @@ continue	continue	continue	VERB	VerbForm=Inf	T2++	T2p	T2+: Time: Beginning	t13
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p6" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p6.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p6.s1" senti_3="Negative" senti_6="negative" senti_n="0.103">
 Here	Here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t3
@@ -3790,7 +3790,7 @@ foreigner	foreigner	foreigner	NOUN	Number=Sing	Z2/S2mf,I3.1/S2mf	Z2 S2	Z2: Geogr
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t41
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p6.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p6.s2" senti_3="Negative" senti_6="negative" senti_n="0.382">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t2
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t3
@@ -3805,7 +3805,7 @@ more	more	more	ADJ	Degree=Cmp	A13.3,N6++	A13.3	A13.3: Degree: Boosters	t11
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p6.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p6.s3" senti_3="Negative" senti_6="negative" senti_n="-0.078">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -3821,7 +3821,7 @@ country	country	country	NOUN	Number=Sing	G1.1c,W3,F4/M7,K2	G1.1	G1.1: Government
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p6.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p6.s4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.123">
 Indeed	Indeed	indeed	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -3878,7 +3878,7 @@ discussions	discussions	discussion	NOUN	Number=Plur	Q2.1,Q2.2	Q2.1	Q2.1: Speech:
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t47
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p6.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p6.s5" senti_3="Positive" senti_6="mixed positive" senti_n="3.917">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 <g/>
@@ -3890,7 +3890,7 @@ sample	sample	sample	NOUN	Number=Sing	A4.1,B3,X7+	A4.1	A4.1: Generally kinds, gr
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p6.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p6.s6" senti_3="Neutral" senti_6="neutral positive" senti_n="3.061">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t2
@@ -3900,7 +3900,7 @@ daily	daily	daily	ADV	-	Q4.2,B4/S2mf	Q4.2	Q4.2: The Media: Newspapers etc.	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p6.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p6.s7" senti_3="Neutral" senti_6="neutral negative" senti_n="1.780">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t2
 tens	tens	ten	NOUN	Number=Plur	N1	N1	N1: Numbers	t3
@@ -3921,7 +3921,7 @@ networks	networks	network	NOUN	Number=Plur	S5+,Q4.3,Y2	S5p	S5+: Belonging to a g
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p7" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p7.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p7.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.458">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t2
 <g/>
@@ -3938,7 +3938,7 @@ white	white	white	ADJ	Degree=Pos	O4.3,A10+,A4.2+	O4.3	O4.3: Colour and colour pa
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p7.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p7.s2" senti_3="Negative" senti_6="mixed negative" senti_n="0.576">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 are	are	be	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -3963,7 +3963,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t15
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p7.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p7.s3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.898">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 did	did	do	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5	A1.1.1	A1.1.1: General actions / making	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -3985,7 +3985,7 @@ quantified	quantified	quantify	VERB	Tense=Past VerbForm=Part Voice=Pass	N3.1	N3.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p7.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p7.s4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.133">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 are	are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 clearly	clearly	clearly	ADV	-	A7+,A11.2+,A12+	A7p	A7+: Likely	t3
@@ -3997,7 +3997,7 @@ costs	costs	cost	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t6
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p7.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p7.s5" senti_3="Negative" senti_6="negative" senti_n="0.455">
 Plus	Plus	plus	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 $	$	$	PUNCT	-	Z99	Z99	Z99: Unmatched	t2
 <g/>
@@ -4011,7 +4011,7 @@ weapons	weapons	weapon	NOUN	Number=Plur	G3,X4.1	G3	G3: Warfare, defence and the 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p7.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p7.s6" senti_3="Neutral" senti_6="neutral positive" senti_n="2.707">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'll	'll	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
@@ -4023,7 +4023,7 @@ that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t5
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p8" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p8.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p8.s1" senti_3="Negative" senti_6="negative" senti_n="-0.024">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -4039,7 +4039,7 @@ citizens	citizens	citizen	NOUN	Number=Plur	G1.1/S2mf,S5+/S2mf	G1.1 S2	G1.1: Gove
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p8.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p8.s2" senti_3="Negative" senti_6="negative" senti_n="-0.040">
 Moreover	Moreover	moreover	ADV	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -4110,7 +4110,7 @@ citizens	citizens	citizen	NOUN	Number=Plur	G1.1/S2mf,S5+/S2mf	G1.1 S2	G1.1: Gove
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t53
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p8.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p8.s3" senti_3="Negative" senti_6="negative" senti_n="0.297">
 Prime	Prime	Prime	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Minister	Minister	Minister	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 <name type="PER">
@@ -4151,7 +4151,7 @@ doses	doses	dose	NOUN	Number=Plur	N5	N5	N5: Quantities	t29
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t30
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p8.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p8.s4" senti_3="Negative" senti_6="negative" senti_n="0.361">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -4163,7 +4163,7 @@ unbelievable	unbelievable	unbelievable	ADJ	Degree=Pos	A5.1+++,A5.2-/A8	A5.1p	A5.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p8.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p8.s5" senti_3="Negative" senti_6="negative" senti_n="-0.018">
 Every	Every	every	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t1
 government	government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t2
 should	should	should	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or necessity	t3
@@ -4191,7 +4191,7 @@ welfare	welfare	welfare	NOUN	Number=Sing	S8+,I1,G1.1c	S8p	S8+: Helping	t21
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p8.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p8.s6" senti_3="Negative" senti_6="mixed negative" senti_n="0.693">
 <phr usas_tags="T1.1.2" usas_cats="T1.1.2" usas_glosses="T1.1.2: Time: Present; simultaneous">
 At	At	at	ADP	-	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t1
 this	this	this	DET	Number=Sing PronType=Dem	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t2
@@ -4219,7 +4219,7 @@ government	government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t1
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p9" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p9.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p9.s1" senti_3="Negative" senti_6="negative" senti_n="0.063">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -4240,7 +4240,7 @@ doing	doing	do	VERB	Tense=Pres VerbForm=Part	A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5	A1.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p9.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p9.s2" senti_3="Negative" senti_6="negative" senti_n="-0.040">
 Because	Because	because	SCONJ	-	Z5/A2.2	Z5 A2.2	Z5: Grammatical bin|A2.2: Cause	t1
 <phr usas_tags="Z5" usas_cats="Z5" usas_glosses="Z5: Grammatical bin">
 not	not	not	PART	-	Z5	Z5	Z5: Grammatical bin	t2
@@ -4267,7 +4267,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t19
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p9.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p9.s3" senti_3="Negative" senti_6="negative" senti_n="-0.036">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -4294,7 +4294,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	S5+/M7	S5p M7	S5+: Belonging to a g
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p9.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p9.s4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.280">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -4308,7 +4308,7 @@ circus	circus	circus	NOUN	Number=Sing	K1	K1	K1: Entertainment generally	t7
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p9.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p9.s5" senti_3="Negative" senti_6="negative" senti_n="0.082">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 when	when	when	SCONJ	PronType=Int	Z5	Z5	Z5: Grammatical bin	t2
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t3
@@ -4375,7 +4375,7 @@ deficit	deficit	deficit	NOUN	Number=Sing	N5-,B2-	N5n	N5-: Quantities: little	t46
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p10" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p10.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p10.s1" senti_3="Negative" senti_6="negative" senti_n="-0.089">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 By	By	by	ADP	-	Z4	Z4	Z4: Discourse Bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z4	Z4	Z4: Discourse Bin	t2
@@ -4436,7 +4436,7 @@ crowns	crowns	crown	NOUN	Number=Plur	B5/S7.1+,G1.1,B1,W4,I1,B3,O4.4	B5 S7.1p	B5:
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t41
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p10.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p10.s2" senti_3="Negative" senti_6="negative" senti_n="-0.068">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <name type="MISC">
@@ -4457,7 +4457,7 @@ generations	generations	generation	NOUN	Number=Plur	T1.3,S5+c	T1.3	T1.3: Time: P
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p10.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p10.s3" senti_3="Negative" senti_6="mixed negative" senti_n="0.737">
 Now	Now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -4493,14 +4493,14 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t26
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p10.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p10.s4" senti_3="Negative" senti_6="negative" senti_n="0.395">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 unbelievable	unbelievable	unbelievable	ADJ	Degree=Pos	A5.1+++,A5.2-/A8	A5.1p	A5.1+: Evaluation: Good	t3
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p10.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p10.s5" senti_3="Negative" senti_6="negative" senti_n="-0.030">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 now	now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t2
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t3
@@ -4551,7 +4551,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t33
 </p>
 <note type="time" content="11.00 hours"/>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p11" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p11.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p11.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.319">
 Yes	Yes	yes	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -4565,7 +4565,7 @@ well	well	well	ADV	Degree=Pos	A5.1+,A13.3,A7+,B2+,Z4	A5.1p	A5.1+: Evaluation: Go
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p11.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p11.s2" senti_3="Negative" senti_6="negative" senti_n="0.037">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 want	want	want	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	X7+,S6+,A7+,S3.2,A9-	X7p	X7+: Wanted	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -4628,7 +4628,7 @@ EU	EU	EU	PROPN	Number=Sing	Z3c,Z2	Z3	Z3: Other proper names	t47
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t48
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p11.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p11.s3" senti_3="Negative" senti_6="negative" senti_n="-0.014">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t2
 <g/>
@@ -4683,7 +4683,7 @@ expensive	expensive	expensive	ADJ	Degree=Pos	I1.3+	I1.3p	I1.3+: Expensive	t39
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t40
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p11.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p11.s4" senti_3="Negative" senti_6="negative" senti_n="-0.026">
 Different	Different	different	ADJ	Degree=Pos	A6.1-	A6.1n	A6.1-: Comparing: Different	t1
 forced	forced	force	VERB	Tense=Past VerbForm=Part	S7.1+,A1.1.1,E3-	S7.1p	S7.1+: In power	t2
 heating	heating	heating	NOUN	Number=Sing	O4.6+	O4.6p	O4.6+: Temperature: Hot / on fire	t3
@@ -4720,7 +4720,7 @@ on	on	on	ADV	-	M6,A1.1.1	M6	M6: Location and direction	t25
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p11.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p11.s5" senti_3="Neutral" senti_6="neutral negative" senti_n="1.940">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 average	average	average	ADJ	Degree=Pos	A6.2+,A5.1,N2	A6.2p	A6.2+: Comparing: Usual	t2
 <phr usas_tags="H1" usas_cats="H1" usas_glosses="H1: Architecture, houses and buildings">
@@ -4755,7 +4755,7 @@ figures	figures	figure	NOUN	Number=Plur	N5,N1,B1,S2mf,C1,O4.4,O2	N5	N5: Quantiti
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p11.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p11.s6" senti_3="Negative" senti_6="negative" senti_n="0.247">
 Where	Where	where	ADV	PronType=Int	M6	M6	M6: Location and direction	t1
 are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 people	people	people	NOUN	Number=Plur	S2mfc	S2	S2: People	t3
@@ -4768,7 +4768,7 @@ that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t7
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.038">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t2
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t3
@@ -4778,7 +4778,7 @@ way	way	way	NOUN	Number=Sing	X4.2,M6,M3/H3,N3.3,A4.1,A1.1.1,T1.3	X4.2	X4.2: Ment
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12.s2" senti_3="Negative" senti_6="negative" senti_n="-0.058">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -4810,7 +4810,7 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t22
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12.s3" senti_3="Negative" senti_6="negative" senti_n="0.029">
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 are	are	be	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 taking	taking	take	VERB	Tense=Pres VerbForm=Part	A9+,T1.3,C1,A1.1.1,M2,S7.1-,A2.1+,X2.4,S6+,S7.4+,N3,A2.1+,P1,M1,X2.5+,F1@,F2@,Q1.2@,B3@	A9p	A9+: Getting and possession	t3
@@ -4842,7 +4842,7 @@ know	know	know	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	Z4	Z4	
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12.s4" senti_3="Negative" senti_6="negative" senti_n="-0.016">
 She	She	she	PRON	Case=Nom Gender=Fem Number=Sing Person=3 PronType=Prs	Z8f	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -4864,7 +4864,7 @@ bonds	bonds	bond	NOUN	Number=Plur	S5+,I1.1,A1.7+	S5p	S5+: Belonging to a group	t
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12.s5" senti_3="Negative" senti_6="mixed negative" senti_n="0.512">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 issues	issues	issue	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9-	A9n	A9-: Giving	t2
 bonds	bonds	bond	NOUN	Number=Plur	S5+,I1.1,A1.7+	S5p	S5+: Belonging to a group	t3
@@ -4907,7 +4907,7 @@ all	all	all	DET	-	A13.7,Z4,N5.1+	A13.7	A13.7: Degree: Minimizers	t30
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t31
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12.s6" senti_3="Negative" senti_6="negative" senti_n="0.095">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 as	as	as	ADV	-	A13	A13	A13: Degree	t3
@@ -4934,7 +4934,7 @@ doing	doing	do	VERB	Tense=Pres VerbForm=Part	A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5	A1.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12.s7" senti_3="Negative" senti_6="negative" senti_n="0.321">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 After	After	after	ADP	-	Z4	Z4	Z4: Discourse Bin	t1
 all	all	all	DET	-	Z4	Z4	Z4: Discourse Bin	t2
@@ -5009,7 +5009,7 @@ any	any	any	DET	-	N5.1+,N5	N5.1p	N5.1+: Entire; maximum	t53
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t54
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12.s8" senti_3="Neutral" senti_6="neutral positive" senti_n="3.470">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 our	our	we	PRON	Number=Plur Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t3
@@ -5047,7 +5047,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t27
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12.s9" senti_3="Negative" senti_6="negative" senti_n="0.134">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -5055,7 +5055,7 @@ unbelievable	unbelievable	unbelievable	ADJ	Degree=Pos	A5.1+++,A5.2-/A8	A5.1p	A5.
 <g/>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12.s10">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p12.s10" senti_3="Negative" senti_6="negative" senti_n="-0.092">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 European	European	European	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -5093,7 +5093,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t25
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p13" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p13.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p13.s1" senti_3="Negative" senti_6="negative" senti_n="0.032">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Of	Of	of	ADP	ExtPos=ADV	Z4	Z4	Z4: Discourse Bin	t1
 course	course	course	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -5151,7 +5151,7 @@ Government	Government	Government	PROPN	Number=Sing	G1.1c	G1.1	G1.1: Government	t
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t45
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p13.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p13.s2" senti_3="Negative" senti_6="negative" senti_n="-0.001">
 Moreover	Moreover	moreover	ADV	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -5174,7 +5174,7 @@ finances	finances	finances	NOUN	Number=Plur	Z99	Z99	Z99: Unmatched	t17
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p13.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p13.s3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.933">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 <g/>
@@ -5188,7 +5188,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: P
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p13.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p13.s4" senti_3="Negative" senti_6="negative" senti_n="-0.018">
 That	That	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -5221,7 +5221,7 @@ lied	lied	lie	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A5.2-	A
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p13.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p13.s5" senti_3="Negative" senti_6="negative" senti_n="-0.030">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 just	just	just	ADV	-	A14,T3---,T1.3-,N3.3---	A14	A14: Exclusivizers/particularizers	t2
 lie	lie	lie	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A5.2-,M1,T2++,M6,A3+	A5.2n	A5.2-: Evaluation: False	t3
@@ -5229,7 +5229,7 @@ permanently	permanently	permanently	ADV	-	T2+++	T2p	T2+: Time: Beginning	t4
 <g/>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p13.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p13.s6" senti_3="Negative" senti_6="negative" senti_n="0.128">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -5240,7 +5240,7 @@ government	government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t6
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p13.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p13.s7" senti_3="Negative" senti_6="mixed negative" senti_n="0.721">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -5254,7 +5254,7 @@ before	before	before	ADV	-	N4	N4	N4: Linear order	t7
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s1" senti_3="Negative" senti_6="negative" senti_n="-0.025">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="K1" usas_cats="K1" usas_glosses="K1: Entertainment generally">
 let	let	let	VERB	Mood=Imp VerbForm=Fin	K1	K1	K1: Entertainment generally	t2
@@ -5322,7 +5322,7 @@ union	union	union	NOUN	Number=Sing	I3.1/S5+c,S5+c,S4	I3.1 S5p	I3.1: Work and emp
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t49
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s2" senti_3="Negative" senti_6="negative" senti_n="0.204">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 roughly	roughly	roughly	ADV	-	A13.4,E3-,A4.2-	A13.4	A13.4: Degree: Approximators	t2
 2/3	2/3	2/3	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t3
@@ -5371,7 +5371,7 @@ plane	plane	plane	NOUN	Number=Sing	M5fn,O4.4,O2,L3	M5	M5: Flying and aircraft	t3
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.227">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -5386,7 +5386,7 @@ plane	plane	plane	NOUN	Number=Sing	M5fn,O4.4,O2,L3	M5	M5: Flying and aircraft	t8
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s4" senti_3="Negative" senti_6="negative" senti_n="-0.073">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 remaining	remaining	remain	VERB	VerbForm=Ger	T2++,M8,N5.2+	T2p	T2+: Time: Beginning	t3
@@ -5431,7 +5431,7 @@ expensive	expensive	expensive	ADJ	Degree=Pos	I1.3+	I1.3p	I1.3+: Expensive	t33
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t34
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s5" senti_3="Negative" senti_6="negative" senti_n="0.447">
 This	This	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 structure	structure	structure	NOUN	Number=Sing	O4.1,H1,S7.1,O2,A4.1,X4.2,B1	O4.1	O4.1: General appearance and physical properties	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -5439,7 +5439,7 @@ incredible	incredible	incredible	ADJ	Degree=Pos	A6.2-,A5.1+,A5.2-	A6.2n	A6.2-: C
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s6" senti_3="Negative" senti_6="mixed negative" senti_n="0.582">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -5464,7 +5464,7 @@ Government	Government	Government	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal name
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s7" senti_3="Negative" senti_6="negative" senti_n="-0.021">
 This	This	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 astronomical	astronomical	astronomical	ADJ	Degree=Pos	N3.2+++	N3.2p	N3.2+: Size: Big	t2
 loan	loan	loan	NOUN	Number=Sing	I1.2,A9-	I1.2	I1.2: Money: Debts	t3
@@ -5497,7 +5497,7 @@ points	points	point	NOUN	Number=Plur	Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5	Q2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s8" senti_3="Negative" senti_6="negative" senti_n="-0.004">
 As	As	as	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 result	result	result	NOUN	Number=Sing	A2.2,X9.2,N2,A5.1,K5,Q1.1/A2.2	A2.2	A2.2: Cause	t3
@@ -5547,7 +5547,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t37
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t38
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s9" senti_3="Negative" senti_6="negative" senti_n="-0.035">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="LOC">
 Czech	Czech	Czech	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -5614,7 +5614,7 @@ crowns	crowns	crown	NOUN	Number=Plur	B5/S7.1+,G1.1,B1,W4,I1,B3,O4.4	B5 S7.1p	B5:
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t49
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s10">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s10" senti_3="Negative" senti_6="negative" senti_n="-0.008">
 Fully	Fully	fully	ADV	-	A13.2,N5.1+	A13.2	A13.2: Degree: Maximizers	t1
 astronomical	astronomical	astronomical	ADJ	Degree=Pos	N3.2+++	N3.2p	N3.2+: Size: Big	t2
 housenumer	housenumer	housenumer	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t3
@@ -5640,7 +5640,7 @@ problems	problems	problem	NOUN	Number=Plur	A12-,X4.1,N2,B2-	A12n	A12-: Difficult
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s11">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s11" senti_3="Neutral" senti_6="neutral positive" senti_n="2.543">
 Moreover	Moreover	moreover	ADV	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -5665,7 +5665,7 @@ regulations	regulations	regulation	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s12">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s12" senti_3="Positive" senti_6="mixed positive" senti_n="3.539">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -5680,7 +5680,7 @@ Deal	Deal	deal	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t7
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s13">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p14.s13" senti_3="Negative" senti_6="negative" senti_n="-0.010">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -5715,7 +5715,7 @@ expensive	expensive	expensive	ADJ	Degree=Pos	I1.3+	I1.3p	I1.3+: Expensive	t24
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p15" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p15.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p15.s1" senti_3="Negative" senti_6="negative" senti_n="-0.069">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -5768,7 +5768,7 @@ Deputies	Deputies	Deputy	PROPN	Number=Plur	S7.1-/S2mf	S7.1n S2	S7.1-: No power|S
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t36
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p15.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p15.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.973">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 why	why	why	ADV	PronType=Int	A2.2	A2.2	A2.2: Cause	t2
 am	am	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -5779,7 +5779,7 @@ this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direct
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p15.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p15.s3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.104">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -5796,7 +5796,7 @@ running	running	run	VERB	Tense=Pres VerbForm=Part	M1/N3.8+,G1.2,G2.1-,X3.3,S7.1+
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p15.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p15.s4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.110">
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 Let	Let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
 me	me	I	PRON	Case=Acc Number=Sing Person=1 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -5814,7 +5814,7 @@ about	about	about	ADP	-	Z5	Z5	Z5: Grammatical bin	t11
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p15.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p15.s5" senti_3="Negative" senti_6="negative" senti_n="-0.014">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -5843,7 +5843,7 @@ recipients	recipients	recipient	NOUN	Number=Plur	A9+/S2mf	A9p S2	A9+: Getting an
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p15.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p15.s6" senti_3="Negative" senti_6="negative" senti_n="0.162">
 <phr usas_tags="N4" usas_cats="N4" usas_glosses="N4: Linear order">
 For	For	for	ADP	-	N4	N4	N4: Linear order	t1
 the	the	the	DET	Definite=Def PronType=Art	N4	N4	N4: Linear order	t2
@@ -5853,7 +5853,7 @@ time	time	time	NOUN	Number=Sing	N4	N4	N4: Linear order	t4
 </phr>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p15.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p15.s7" senti_3="Negative" senti_6="negative" senti_n="-0.051">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 have	have	have	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 already	already	already	ADV	-	T1.1.1	T1.1.1	T1.1.1: Time: Past	t3
@@ -5898,7 +5898,7 @@ June	June	June	PROPN	Number=Sing	T1.3,Z1f	T1.3	T1.3: Time: Period	t34
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t35
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p15.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p15.s8" senti_3="Negative" senti_6="negative" senti_n="0.034">
 Here	Here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t3
@@ -5949,7 +5949,7 @@ Union	Union	Union	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t40
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t41
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p15.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p15.s9" senti_3="Neutral" senti_6="neutral positive" senti_n="2.584">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 By	By	by	ADP	-	Z4	Z4	Z4: Discourse Bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z4	Z4	Z4: Discourse Bin	t2
@@ -6000,7 +6000,7 @@ percent	percent	percent	NOUN	Number=Sing	N5	N5	N5: Quantities	t33
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p16" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p16.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p16.s1" senti_3="Negative" senti_6="negative" senti_n="-0.052">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -6084,7 +6084,7 @@ valorisation	valorisation	valorisation	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t65
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p16.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p16.s2" senti_3="Negative" senti_6="negative" senti_n="-0.042">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -6163,7 +6163,7 @@ government	government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t5
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p17" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p17.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p17.s1" senti_3="Negative" senti_6="negative" senti_n="0.065">
 At	At	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 same	same	same	ADJ	Degree=Pos	A6.1+++	A6.1p	A6.1+: Comparing: Similar	t3
@@ -6227,7 +6227,7 @@ weapons	weapons	weapon	NOUN	Number=Plur	G3,X4.1	G3	G3: Warfare, defence and the 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t40
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p17.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p17.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.673">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -6275,7 +6275,7 @@ reading	reading	reading	NOUN	Number=Sing	Q3,Q1.2,X3.2+,X2.5+,A10+,G2.1	Q3	Q3: La
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t33
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p17.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p17.s3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.986">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 spring	spring	spring	NOUN	Number=Sing	O2,T1.3,W3/M4	O2	O2: Objects generally	t3
@@ -6295,7 +6295,7 @@ media	media	media	NOUN	Number=Sing	Q4c	Q4	Q4: The Media	t13
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p17.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p17.s4" senti_3="Neutral" senti_6="neutral negative" senti_n="1.835">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t1
 saw	saw	see	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t2
@@ -6309,7 +6309,7 @@ statement	statement	statement	NOUN	Number=Sing	Q2.1,I1/Q1.2	Q2.1	Q2.1: Speech: C
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p17.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p17.s5" senti_3="Positive" senti_6="mixed positive" senti_n="3.562">
 Anyone	Anyone	anyone	PRON	Number=Sing	Z8mfc	Z8	Z8: Pronouns	t1
 can	can	can	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 play	play	play	VERB	VerbForm=Inf	K1,K5.1,K5.2,K2,K3,A1.1.1,K6	K1	K1: Entertainment generally	t3
@@ -6318,7 +6318,7 @@ video	video	video	NOUN	Number=Sing	Q4.3	Q4.3	Q4.3: The Media: TV, Radio and Cine
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p17.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p17.s6" senti_3="Negative" senti_6="negative" senti_n="0.001">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="N1,T3,T1.2,T1.3,N3.3,N3.5,I1" usas_cats="N1" usas_glosses="N1: Numbers">
 100	100	100	NUM	NumForm=Digit NumType=Card	N1,T3,T1.2,T1.3,N3.3,N3.5,I1	N1	N1: Numbers	t2
@@ -6346,7 +6346,7 @@ off	off	off	ADP	-	Z5,E2-	Z5	Z5: Grammatical bin	t16
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p17.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p17.s7" senti_3="Negative" senti_6="negative" senti_n="0.045">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 take	take	take	VERB	VerbForm=Inf	A9+,T1.3,C1,A1.1.1,M2,S7.1-,A2.1+,X2.4,S6+,S7.4+,N3,A2.1+,P1,M1,X2.5+,F1@,F2@,Q1.2@,B3@	A9p	A9+: Getting and possession	t3
@@ -6385,7 +6385,7 @@ contracts	contracts	contract	NOUN	Number=Plur	I2.1,G2.1	I2.1	I2.1: Business: Gen
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p17.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p17.s8" senti_3="Neutral" senti_6="neutral negative" senti_n="2.342">
 Those	Those	that	PRON	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -6398,7 +6398,7 @@ on	on	on	ADV	-	M6,A1.1.1	M6	M6: Location and direction	t9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p17.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p17.s9" senti_3="Negative" senti_6="negative" senti_n="0.018">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 really	really	really	ADV	-	A13.3,A5.2+	A13.3	A13.3: Degree: Boosters	t2
 stinks	stinks	stink	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	X3.5,O4.2-	X3.5	X3.5: Sensory: Smell	t3
@@ -6415,7 +6415,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: P
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s1" senti_3="Negative" senti_6="mixed negative" senti_n="0.532">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -6461,7 +6461,7 @@ information	information	information	NOUN	Number=Sing	X2.2+	X2.2p	X2.2+: Knowledg
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t34
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.116">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 got	got	get	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	A9+,Z5,X9.2+,A2.1+,A2.2,M1,M2,X2.5+,E4.1-	A9p	A9+: Getting and possession	t2
 that	that	that	DET	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -6481,7 +6481,7 @@ writing	writing	writing	NOUN	Number=Sing	Q1.2,I2.1	Q1.2	Q1.2: Paper documents an
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s3" senti_3="Negative" senti_6="negative" senti_n="-0.112">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -6515,7 +6515,7 @@ Ukraine	Ukraine	Ukraine	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t24
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s4" senti_3="Negative" senti_6="negative" senti_n="0.053">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -6533,7 +6533,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	S5+/M7	S5p M7	S5+: Belonging to a g
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s5" senti_3="Negative" senti_6="negative" senti_n="-0.046">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -6601,7 +6601,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t48
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t49
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s6" senti_3="Positive" senti_6="mixed positive" senti_n="3.856">
 No	No	no	DET	-	Z6	Z6	Z6: Negative	t1
 one	one	one	NOUN	Number=Sing	Z8,N1	Z8	Z8: Pronouns	t2
 has	has	have	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -6630,7 +6630,7 @@ refugees	refugees	refugee	NOUN	Number=Plur	M1/S2mf	M1 S2	M1: Moving, coming and 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s7" senti_3="Neutral" senti_6="neutral positive" senti_n="3.340">
 Appropriate	Appropriate	Appropriate	ADJ	Degree=Pos	A1.2+	A1.2p	A1.2+: Suitable	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -6677,7 +6677,7 @@ trouble	trouble	trouble	NOUN	Number=Sing	E6-,A12-,B2-,E3-,X8+,O4.2-	E6n	E6-: Wor
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t33
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s8" senti_3="Negative" senti_6="negative" senti_n="0.403">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 legalizing	legalizing	legalize	VERB	VerbForm=Ger	Z99	Z99	Z99: Unmatched	t2
 economic	economic	economic	ADJ	Degree=Pos	I1.3-,I2.1	I1.3n	I1.3-: Cheap	t3
@@ -6695,7 +6695,7 @@ top	top	top	NOUN	Number=Sing	M6,N4,N5.1+,O2,B5,K6,N5.1-	M6	M6: Location and dire
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s9" senti_3="Negative" senti_6="negative" senti_n="0.093">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -6704,7 +6704,7 @@ crime	crime	crime	NOUN	Number=Sing	G2.1-	G2.1n	G2.1-: Crime	t4
 <g/>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s10">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s10" senti_3="Negative" senti_6="negative" senti_n="0.065">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -6718,7 +6718,7 @@ expenses	expenses	expense	NOUN	Number=Plur	I1.3	I1.3	I1.3: Money: Cost and price
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s11">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s11" senti_3="Negative" senti_6="negative" senti_n="0.009">
 That	That	that	PRON	Number=Sing PronType=Dem	A13.3,A6.1+	A13.3	A13.3: Degree: Boosters	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 <g/>
@@ -6765,7 +6765,7 @@ measures	measures	measure	NOUN	Number=Plur	N3.1,F2,K2	N3.1	N3.1: Measurement: Ge
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t34
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s12">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p18.s12" senti_3="Positive" senti_6="positive" senti_n="4.752">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -6792,7 +6792,7 @@ first	first	first	ADV	NumType=Ord	N4,P1@	N4	N4: Linear order	t15
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p19" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p19.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p19.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.277">
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 Let	Let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
 <g/>
@@ -6803,7 +6803,7 @@ on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p19.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p19.s2" senti_3="Negative" senti_6="negative" senti_n="0.067">
 Now	Now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -6836,7 +6836,7 @@ proposal	proposal	proposal	NOUN	Number=Sing	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Speech
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p19.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p19.s3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.638">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -6850,7 +6850,7 @@ money	money	money	NOUN	Number=Sing	I1	I1	I1: Money generally	t8
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p19.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p19.s4" senti_3="Negative" senti_6="mixed negative" senti_n="0.581">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 European	European	European	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -6924,14 +6924,14 @@ Union	Union	Union	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t52
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t53
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p19.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p19.s5" senti_3="Neutral" senti_6="neutral negative" senti_n="2.400">
 Hundreds	Hundreds	hundred	NOUN	Number=Plur	N1	N1	N1: Numbers	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 billions	billions	billion	NOUN	Number=Plur	N5+	N5p	N5+: Quantities: many/much	t3
 <g/>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p19.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p19.s6" senti_3="Positive" senti_6="mixed positive" senti_n="3.526">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Of	Of	of	ADP	ExtPos=ADV	Z4	Z4	Z4: Discourse Bin	t1
 course	course	course	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -6948,7 +6948,7 @@ euros	euros	euro	NOUN	Number=Plur	Z99	Z99	Z99: Unmatched	t7
 </p>
 <note type="time" content="11.10 hours"/>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s1" senti_3="Negative" senti_6="negative" senti_n="-0.121">
 Because	Because	because	SCONJ	-	Z5/A2.2	Z5 A2.2	Z5: Grammatical bin|A2.2: Cause	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <name type="ORG">
@@ -6961,7 +6961,7 @@ money	money	money	NOUN	Number=Sing	I1	I1	I1: Money generally	t7
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s2" senti_3="Negative" senti_6="mixed negative" senti_n="0.603">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 only	only	only	ADJ	Degree=Pos	A14	A14	A14: Exclusivizers/particularizers	t2
 one	one	one	NOUN	Number=Sing	N1,T3,T1.2	N1	N1: Numbers	t3
@@ -6983,7 +6983,7 @@ Orbán	Orbán	Orbán	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t14
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s3" senti_3="Negative" senti_6="negative" senti_n="0.093">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t3
@@ -7028,14 +7028,14 @@ Union	Union	Union	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t32
 </name>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t33
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s4" senti_3="Negative" senti_6="negative" senti_n="0.477">
 Where	Where	where	ADV	PronType=Int	M6	M6	M6: Location and direction	t1
 are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 they	they	they	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pronouns	t3
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s5" senti_3="Negative" senti_6="negative" senti_n="0.056">
 When	When	when	SCONJ	PronType=Int	Z5	Z5	Z5: Grammatical bin	t1
 even	even	even	ADV	-	A13.1	A13.1	A13.1: Degree: Non-specific	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -7067,7 +7067,7 @@ them	them	they	PRON	Case=Acc Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pron
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s6" senti_3="Negative" senti_6="negative" senti_n="0.038">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -7085,7 +7085,7 @@ well	well	well	ADV	Degree=Pos	A5.1+,A13.3,A7+,B2+,Z4	A5.1p	A5.1+: Evaluation: Go
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s7" senti_3="Negative" senti_6="negative" senti_n="-0.005">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 European	European	European	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -7097,7 +7097,7 @@ money	money	money	NOUN	Number=Sing	I1	I1	I1: Money generally	t6
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s8" senti_3="Negative" senti_6="negative" senti_n="0.013">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 stop	stop	stop	VERB	Mood=Imp VerbForm=Fin	T2-,S8-,M8,H4,A1.1.1@	T2n	T2-: Time: Ending	t2
 lying	lying	lie	VERB	VerbForm=Ger	M1,M6,A5.2-	M1	M1: Moving, coming and going	t3
@@ -7135,7 +7135,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t24
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s9" senti_3="Negative" senti_6="negative" senti_n="-0.135">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 our	our	we	PRON	Number=Plur Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t3
@@ -7160,7 +7160,7 @@ money	money	money	NOUN	Number=Sing	I1	I1	I1: Money generally	t17
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s10">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s10" senti_3="Neutral" senti_6="neutral positive" senti_n="3.120">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -7172,7 +7172,7 @@ years	years	year	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t7
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s11">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s11" senti_3="Negative" senti_6="negative" senti_n="0.121">
 They	They	they	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pronouns	t1
 <g/>
 're	're	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -7185,7 +7185,7 @@ completely	completely	completely	ADV	-	A13.2	A13.2	A13.2: Degree: Maximizers	t6
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s12">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s12" senti_3="Negative" senti_6="negative" senti_n="0.068">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -7199,7 +7199,7 @@ project	project	project	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation:
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s13">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p20.s13" senti_3="Negative" senti_6="negative" senti_n="0.060">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 <g/>
@@ -7216,7 +7216,7 @@ decades	decades	decade	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t10
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p21" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p21.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p21.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.205">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 now	now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t2
 <g/>
@@ -7256,7 +7256,7 @@ bonds	bonds	bond	NOUN	Number=Plur	S5+,I1.1,A1.7+	S5p	S5+: Belonging to a group	t
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t30
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p21.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p21.s2" senti_3="Negative" senti_6="negative" senti_n="0.034">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 she	she	she	PRON	Case=Nom Gender=Fem Number=Sing Person=3 PronType=Prs	Z8f	Z8	Z8: Pronouns	t2
 wants	wants	want	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	X7+,S6+,A7+,S3.2,A9-	X7p	X7+: Wanted	t3
@@ -7296,7 +7296,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t28
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p21.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p21.s3" senti_3="Negative" senti_6="negative" senti_n="-0.048">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 now	now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t2
 he	he	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t3
@@ -7317,7 +7317,7 @@ Ukraine	Ukraine	Ukraine	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t13
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p21.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p21.s4" senti_3="Negative" senti_6="negative" senti_n="0.215">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -7333,7 +7333,7 @@ disagree	disagree	disagree	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbFor
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p21.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p21.s5" senti_3="Neutral" senti_6="neutral positive" senti_n="2.637">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 know	know	know	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	X2.2+,S3.2/B1%	X2.2p	X2.2+: Knowledgeable	t3
@@ -7362,7 +7362,7 @@ beginning	beginning	beginning	NOUN	Number=Sing	T2+	T2p	T2+: Time: Beginning	t23
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p21.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p21.s6" senti_3="Negative" senti_6="negative" senti_n="-0.019">
 Because	Because	because	SCONJ	-	Z5/A2.2	Z5 A2.2	Z5: Grammatical bin|A2.2: Cause	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -7402,7 +7402,7 @@ civilians	civilians	civilian	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t31
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p21.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p21.s7" senti_3="Positive" senti_6="positive" senti_n="4.851">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 SPD	SPD	SPD	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
@@ -7435,7 +7435,7 @@ conflict	conflict	conflict	NOUN	Number=Sing	A6.1-,G3,E3-	A6.1n	A6.1-: Comparing:
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p21.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p21.s8" senti_3="Negative" senti_6="negative" senti_n="0.288">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 <g/>
@@ -7452,7 +7452,7 @@ Ukraine	Ukraine	Ukraine	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t10
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p21.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p21.s9" senti_3="Neutral" senti_6="neutral positive" senti_n="3.404">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 European	European	European	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -7490,7 +7490,7 @@ circus	circus	circus	NOUN	Number=Sing	K1	K1	K1: Entertainment generally	t23
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p22" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p22.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p22.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.790">
 Now	Now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -7503,7 +7503,7 @@ deadline	deadline	deadline	NOUN	Number=Sing	T1.2	T1.2	T1.2: Time: Momentary	t8
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p22.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p22.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.828">
 They	They	they	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pronouns	t1
 called	called	call	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	Q2.2,S1.1.1,Q1.3,S9%	Q2.2	Q2.2: Speech acts	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -7551,7 +7551,7 @@ Facility	Facility	facility	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t35
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t36
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p22.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p22.s3" senti_3="Negative" senti_6="negative" senti_n="-0.039">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 sending	sending	send	VERB	VerbForm=Ger	M2,A2.2	M2	M2: Putting, pulling, pushing, transporting	t2
 weapons	weapons	weapon	NOUN	Number=Plur	G3,X4.1	G3	G3: Warfare, defence and the army; weapons	t3
@@ -7586,7 +7586,7 @@ Facility	Facility	facility	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t27
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p22.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p22.s4" senti_3="Negative" senti_6="negative" senti_n="0.131">
 Indeed	Indeed	indeed	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -7604,7 +7604,7 @@ instrument	instrument	instrument	NOUN	Number=Sing	O2,K2,X4.2,B3,Y1	O2	O2: Object
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p22.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p22.s5" senti_3="Negative" senti_6="negative" senti_n="0.029">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 indeed	indeed	indeed	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t3
@@ -7635,7 +7635,7 @@ Plan	Plan	plan	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t21
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p22.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p22.s6" senti_3="Negative" senti_6="negative" senti_n="-0.017">
 Here	Here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t1
 again	again	again	ADV	-	N6+,Z4	N6p	N6+: Frequent	t2
 <g/>
@@ -7666,7 +7666,7 @@ money	money	money	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t21
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p22.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p22.s7" senti_3="Neutral" senti_6="neutral negative" senti_n="2.209">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -7698,7 +7698,7 @@ guarantees	guarantees	guarantee	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres Ve
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p22.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p22.s8" senti_3="Negative" senti_6="mixed negative" senti_n="1.397">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 what	what	what	DET	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t2
 money	money	money	NOUN	Number=Sing	I1	I1	I1: Money generally	t3
@@ -7710,7 +7710,7 @@ EU	EU	EU	PROPN	Number=Sing	Z3c,Z2	Z3	Z3: Other proper names	t6
 </name>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p22.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p22.s9" senti_3="Negative" senti_6="mixed negative" senti_n="0.603">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -7720,7 +7720,7 @@ different	different	different	ADJ	Degree=Pos	A6.1-	A6.1n	A6.1-: Comparing: Diffe
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p23" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p23.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p23.s1" senti_3="Negative" senti_6="negative" senti_n="-0.060">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 now	now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -7745,7 +7745,7 @@ made	made	make	VERB	Tense=Past VerbForm=Part Voice=Pass	A1.1.1,A9+,A2.2,S6+,A3+,
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p23.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p23.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.283">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 proposal	proposal	proposal	NOUN	Number=Sing	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Speech acts	t2
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -7766,7 +7766,7 @@ ministers	ministers	minister	NOUN	Number=Plur	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Go
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p23.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p23.s3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.756">
 Member	Member	Member	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 <name type="LOC">
 States	States	State	PROPN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -7823,7 +7823,7 @@ matter	matter	matter	NOUN	Number=Sing	X4.1,O1	X4.1	X4.1: Mental object: Conceptu
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s1" senti_3="Negative" senti_6="negative" senti_n="0.005">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 interestingly	interestingly	interestingly	ADV	-	X5.2+	X5.2p	X5.2+: Interested/excited/energetic	t2
 <g/>
@@ -7884,7 +7884,7 @@ again	again	again	ADV	-	N6+,Z4	N6p	N6+: Frequent	t44
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t45
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s2" senti_3="Negative" senti_6="negative" senti_n="0.178">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -7911,7 +7911,7 @@ Europe	Europe	Europe	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t15
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s3" senti_3="Negative" senti_6="negative" senti_n="0.345">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -7920,7 +7920,7 @@ true	true	true	ADJ	Degree=Pos	A5.2+,A5.4+	A5.2p	A5.2+: Evaluation: True	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s4" senti_3="Positive" senti_6="mixed positive" senti_n="4.199">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 are	are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 many	many	many	ADJ	Degree=Pos	N5+	N5p	N5+: Quantities: many/much	t3
@@ -7970,7 +7970,7 @@ countries	countries	country	NOUN	Number=Plur	M7	M7	M7: Places	t33
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t34
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s5" senti_3="Negative" senti_6="negative" senti_n="-0.041">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -8017,7 +8017,7 @@ EU	EU	EU	PROPN	Number=Sing	Z3c,Z2	Z3	Z3: Other proper names	t31
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s6" senti_3="Negative" senti_6="mixed negative" senti_n="0.621">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -8027,7 +8027,7 @@ that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t5
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s7" senti_3="Negative" senti_6="negative" senti_n="0.326">
 Nor	Nor	nor	CCONJ	-	Z6	Z6	Z6: Negative	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t3
@@ -8048,14 +8048,14 @@ pro-European	pro-European	pro-European	ADJ	Degree=Pos	Z99	Z99	Z99: Unmatched	t13
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s8" senti_3="Positive" senti_6="mixed positive" senti_n="3.946">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 contrary	contrary	contrary	NOUN	Number=Sing	A6.1-	A6.1n	A6.1-: Comparing: Different	t3
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s9" senti_3="Negative" senti_6="negative" senti_n="-0.025">
 Whoever	Whoever	whoever	PRON	PronType=Int	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -8144,7 +8144,7 @@ advance	advance	advance	NOUN	Number=Sing	T4+	T4p	T4+: Time: Early	t56
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t57
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s10">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s10" senti_3="Negative" senti_6="negative" senti_n="0.134">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 let	let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -8169,7 +8169,7 @@ EU	EU	EU	PROPN	Number=Sing	Z3c,Z2	Z3	Z3: Other proper names	t13
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s11">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s11" senti_3="Neutral" senti_6="neutral negative" senti_n="2.138">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -8178,7 +8178,7 @@ else	else	else	ADJ	Degree=Pos	A6.1-,Z4	A6.1n	A6.1-: Comparing: Different	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s12">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s12" senti_3="Negative" senti_6="negative" senti_n="0.466">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 really	really	really	ADV	-	A13.3,A5.2+	A13.3	A13.3: Degree: Boosters	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -8213,7 +8213,7 @@ Europe	Europe	Europe	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t23
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s13">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s13" senti_3="Positive" senti_6="mixed positive" senti_n="3.835">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -8225,7 +8225,7 @@ Europe	Europe	Europe	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t5
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s14">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s14" senti_3="Negative" senti_6="negative" senti_n="-0.040">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -8279,7 +8279,7 @@ not	not	not	PART	-	Z6	Z6	Z6: Negative	t40
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t41
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s15">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s15" senti_3="Negative" senti_6="negative" senti_n="0.348">
 Thus	Thus	thus	ADV	-	Z5/A2.2	Z5 A2.2	Z5: Grammatical bin|A2.2: Cause	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -8334,7 +8334,7 @@ Europe	Europe	Europe	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t35
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t36
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s16">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s16" senti_3="Negative" senti_6="negative" senti_n="0.226">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -8344,7 +8344,7 @@ true	true	true	ADJ	Degree=Pos	A5.2+,A5.4+	A5.2p	A5.2+: Evaluation: True	t5
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s17">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s17" senti_3="Negative" senti_6="negative" senti_n="-0.090">
 As	As	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t2
@@ -8363,7 +8363,7 @@ anti-European	anti-European	anti-European	ADJ	Degree=Pos	Z99	Z99	Z99: Unmatched	
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s18">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s18" senti_3="Negative" senti_6="negative" senti_n="-0.021">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -8374,7 +8374,7 @@ politics	politics	politics	NOUN	Number=Plur	G1.2c	G1.2	G1.2: Politics	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s19">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p24.s19" senti_3="Negative" senti_6="negative" senti_n="-0.038">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -8393,7 +8393,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t11
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p25" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p25.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p25.s1" senti_3="Negative" senti_6="negative" senti_n="-0.157">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 if	if	if	SCONJ	-	Z7	Z7	Z7: If	t2
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t3
@@ -8467,7 +8467,7 @@ Ukraine	Ukraine	Ukraine	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t52
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t53
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p25.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p25.s2" senti_3="Positive" senti_6="positive" senti_n="5.012">
 Again	Again	again	ADV	-	N6+,Z4	N6p	N6+: Frequent	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -8498,7 +8498,7 @@ reasonable	reasonable	reasonable	ADJ	Degree=Pos	S1.2.6+,A5.1+,I1.3-	S1.2.6p	S1.2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p25.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p25.s3" senti_3="Negative" senti_6="mixed negative" senti_n="1.253">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 are	are	be	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 saying	saying	say	VERB	Tense=Pres VerbForm=Part	Q2.1,Z4%	Q2.1	Q2.1: Speech: Communicative	t3
@@ -8534,7 +8534,7 @@ Ukraine	Ukraine	Ukraine	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t28
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p25.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p25.s4" senti_3="Negative" senti_6="negative" senti_n="0.035">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 're	're	be	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -8573,7 +8573,7 @@ war	war	war	NOUN	Number=Sing	G3,S7.3	G3	G3: Warfare, defence and the army; weapo
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p25.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p25.s5" senti_3="Negative" senti_6="mixed negative" senti_n="0.617">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t1
 think	think	think	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t2
@@ -8585,7 +8585,7 @@ enough	enough	enough	ADJ	Degree=Pos	N5+,N6+,A13.3	N5p	N5+: Quantities: many/much
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p25.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p25.s6" senti_3="Negative" senti_6="negative" senti_n="-0.060">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 refuse	refuse	refuse	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	Q2.2/Z6,S7.4-,X7-	Q2.2 Z6	Q2.2: Speech acts|Z6: Negative	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -8633,7 +8633,7 @@ civilians	civilians	civilian	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t35
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s1" senti_3="Negative" senti_6="negative" senti_n="0.246">
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 Let	Let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
 <g/>
@@ -8650,7 +8650,7 @@ big	big	big	ADJ	Degree=Pos	N3.2+,N5+,A11.1+,S1.2.5+,X5.2+	N3.2p	N3.2+: Size: Big
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s2" senti_3="Negative" senti_6="negative" senti_n="-0.025">
 Plus	Plus	plus	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 stealing	stealing	steal	VERB	VerbForm=Ger	G2.1-/A9+,A9+	G2.1n A9p	G2.1-: Crime|A9+: Getting and possession	t2
 from	from	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -8663,7 +8663,7 @@ side	side	side	NOUN	Number=Sing	A4.1,M6,N5.1-,S7.3+/S5+c,B1,S5+c,S4c,F1,S1.2	A4.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s3" senti_3="Neutral" senti_6="neutral negative" senti_n="1.926">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Z4,N6+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 once	once	once	ADV	NumType=Mult	Z4,N6+	Z4	Z4: Discourse Bin	t2
@@ -8714,7 +8714,7 @@ pensioners	pensioners	pensioner	NOUN	Number=Plur	T3+/S2mf	T3p S2	T3+: Time: Old;
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t39
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s4" senti_3="Negative" senti_6="negative" senti_n="-0.060">
 Because	Because	because	SCONJ	-	Z5/A2.2	Z5 A2.2	Z5: Grammatical bin|A2.2: Cause	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 were	were	be	AUX	Mood=Ind Number=Sing Person=2 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -8750,7 +8750,7 @@ widowers	widowers	widower	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t28
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s5" senti_3="Negative" senti_6="negative" senti_n="0.038">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 robbed	robbed	rob	VERB	Mood=Ind Number=Sing Person=2 Tense=Past VerbForm=Fin	G2.1-,A9-	G2.1n	G2.1-: Crime	t3
@@ -8773,7 +8773,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t13
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s6" senti_3="Negative" senti_6="negative" senti_n="0.005">
 At	At	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 expense	expense	expense	NOUN	Number=Sing	I1.3	I1.3	I1.3: Money: Cost and price	t3
@@ -8792,7 +8792,7 @@ Ukrajinec	Ukrajinec	Ukrajinec	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t11
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s7" senti_3="Negative" senti_6="negative" senti_n="0.124">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 overpriced	overpriced	overpriced	ADJ	Degree=Pos	I1.3/N5.2+	I1.3 N5.2p	I1.3: Money: Cost and price|N5.2+: Exceed; waste	t3
@@ -8800,7 +8800,7 @@ contracts	contracts	contract	NOUN	Number=Plur	I2.1,G2.1	I2.1	I2.1: Business: Gen
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s8" senti_3="Negative" senti_6="negative" senti_n="0.071">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t1
 mean	mean	mean	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t2
@@ -8885,7 +8885,7 @@ on	on	on	ADV	-	M6,A1.1.1	M6	M6: Location and direction	t57
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t58
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s9" senti_3="Negative" senti_6="negative" senti_n="-0.014">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 heard	heard	hear	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	X3.2,X2.3+,G2.1@	X3.2	X3.2: Sensory: Sound	t3
@@ -8910,7 +8910,7 @@ costs	costs	cost	NOUN	Number=Plur	I1.3	I1.3	I1.3: Money: Cost and price	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s10">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s10" senti_3="Negative" senti_6="negative" senti_n="0.079">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 Secretary	Secretary	Secretary	PROPN	Number=Sing	I3.2/S2mf,S7.1+/S2mf	I3.2 S2	I3.2: Work and employment: Professionalism|S2: People	t3
@@ -8947,7 +8947,7 @@ lie	lie	lie	NOUN	Number=Sing	A5.2-	A5.2n	A5.2-: Evaluation: False	t28
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s11">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s11" senti_3="Negative" senti_6="negative" senti_n="-0.028">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 so	so	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t2
 now	now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t3
@@ -8984,7 +8984,7 @@ billions	billions	billion	NOUN	Number=Plur	N5+	N5p	N5+: Quantities: many/much	t2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t30
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s12">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s12" senti_3="Negative" senti_6="negative" senti_n="0.039">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 're	're	be	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -9013,7 +9013,7 @@ judgment	judgment	judgment	NOUN	Number=Sing	X2.1,X6,G2.1	X2.1	X2.1: Thought, bel
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s13">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s13" senti_3="Negative" senti_6="negative" senti_n="0.042">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 <g/>
@@ -9031,7 +9031,7 @@ expression	expression	expression	NOUN	Number=Sing	Q3,E1/B1	Q3	Q3: Language, spee
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s14">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s14" senti_3="Negative" senti_6="negative" senti_n="0.423">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 <g/>
@@ -9041,7 +9041,7 @@ unbelievable	unbelievable	unbelievable	ADJ	Degree=Pos	A5.1+++,A5.2-/A8	A5.1p	A5.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s15">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s15" senti_3="Negative" senti_6="negative" senti_n="-0.014">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 just	just	just	ADV	-	A14,T3---,T1.3-,N3.3---	A14	A14: Exclusivizers/particularizers	t2
 for	for	for	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -9085,7 +9085,7 @@ Defense	Defense	Defense	PROPN	Number=Sing	S8+,G3,G2.1c,Q2.2,K5.1,S7.3+,P1	S8p	S8
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t39
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s16">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p26.s16" senti_3="Positive" senti_6="mixed positive" senti_n="3.596">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 let	let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -9099,7 +9099,7 @@ going	going	go	VERB	VerbForm=Ger	M1,A2.1+,A1.1.1,A9-,A1.8+,Q2.1,N6+,I2.2,A1.1.2,
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27.s1" senti_3="Negative" senti_6="negative" senti_n="0.067">
 <phr usas_tags="Z5" usas_cats="Z5" usas_glosses="Z5: Grammatical bin">
 As	As	as	ADV	-	Z5	Z5	Z5: Grammatical bin	t1
 far	far	far	ADV	Degree=Pos	Z5	Z5	Z5: Grammatical bin	t2
@@ -9125,7 +9125,7 @@ pension	pension	pension	NOUN	Number=Sing	I1.1/T3+,H4/H1c	I1.1 T3p	I1.1: Money an
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27.s2" senti_3="Negative" senti_6="negative" senti_n="0.061">
 Yeah	Yeah	yeah	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -9147,7 +9147,7 @@ government	government	government	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27.s3" senti_3="Negative" senti_6="negative" senti_n="0.394">
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 Let	Let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
 me	me	I	PRON	Case=Acc Number=Sing Person=1 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -9197,7 +9197,7 @@ Europe	Europe	Europe	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t32
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t33
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27.s4" senti_3="Negative" senti_6="negative" senti_n="0.175">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 both	both	both	CCONJ	-	N5	N5	N5: Quantities	t2
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
@@ -9240,7 +9240,7 @@ Union	Union	Union	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t29
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t30
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27.s5" senti_3="Negative" senti_6="negative" senti_n="0.272">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 <g/>
@@ -9250,7 +9250,7 @@ all	all	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t5
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27.s6" senti_3="Negative" senti_6="negative" senti_n="-0.055">
 Because	Because	because	SCONJ	-	Z5/A2.2	Z5 A2.2	Z5: Grammatical bin|A2.2: Cause	t1
 according	according	accord	VERB	ExtPos=ADP VerbForm=Ger	A9-,A6.1+	A9n	A9-: Giving	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -9309,7 +9309,7 @@ Government	Government	Government	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal name
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t41
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27.s7" senti_3="Neutral" senti_6="neutral positive" senti_n="2.967">
 Of	Of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 all	all	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -9317,7 +9317,7 @@ them	them	they	PRON	Case=Acc Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pron
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27.s8" senti_3="Neutral" senti_6="neutral positive" senti_n="2.940">
 Including	Including	include	VERB	VerbForm=Ger	A1.8+	A1.8p	A1.8+: Inclusion	t1
 <name type="LOC">
 Germany	Germany	Germany	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t2
@@ -9329,12 +9329,12 @@ Austria	Austria	Austria	PROPN	Number=Sing	Z2,Z1	Z2	Z2: Geographical names	t4
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27.s9" senti_3="Neutral" senti_6="neutral positive" senti_n="2.818">
 Attention	Attention	attention	NOUN	Number=Sing	X5.1+,S8+	X5.1p	X5.1+: Attentive	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27.s10">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p27.s10" senti_3="Negative" senti_6="negative" senti_n="-0.026">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="A2.2" usas_cats="A2.2" usas_glosses="A2.2: Cause">
 due	due	due	ADP	-	A2.2	A2.2	A2.2: Cause	t2
@@ -9392,7 +9392,7 @@ Poland	Poland	Poland	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t29
 </p>
 <note type="time" content="11.20 hours"/>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p28" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p28.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p28.s1" senti_3="Negative" senti_6="negative" senti_n="-0.075">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 your	your	you	PRON	Person=2 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
@@ -9422,7 +9422,7 @@ really	really	really	ADV	-	A13.3,A5.2+	A13.3	A13.3: Degree: Boosters	t18
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p28.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p28.s2" senti_3="Negative" senti_6="negative" senti_n="0.089">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -9437,7 +9437,7 @@ man	man	man	NOUN	Number=Sing	S2.2m	S2.2	S2.2: People: Male	t9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p28.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p28.s3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.852">
 <name type="LOC">
 Poland	Poland	Poland	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t1
 <g/>
@@ -9469,7 +9469,7 @@ situation	situation	situation	NOUN	Number=Sing	A3+,O4.1,M6,I3.1@	A3p	A3+: Existi
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p28.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p28.s4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.266">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 same	same	same	ADJ	Degree=Pos	A6.1+++	A6.1p	A6.1+: Comparing: Similar	t3
@@ -9479,7 +9479,7 @@ situation	situation	situation	NOUN	Number=Sing	A3+,O4.1,M6,I3.1@	A3p	A3+: Existi
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p28.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p28.s5" senti_3="Negative" senti_6="negative" senti_n="0.052">
 Yet	Yet	yet	CCONJ	-	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <name type="LOC">
@@ -9524,7 +9524,7 @@ average	average	average	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t30
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t31
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p28.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p28.s6" senti_3="Negative" senti_6="negative" senti_n="0.052">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t2
 <g/>
@@ -9540,7 +9540,7 @@ that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p28.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p28.s7" senti_3="Negative" senti_6="negative" senti_n="0.018">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 way	way	way	NOUN	Number=Sing	X4.2,M6,M3/H3,N3.3,A4.1,A1.1.1,T1.3	X4.2	X4.2: Mental object: Means, method	t3
@@ -9566,7 +9566,7 @@ companies	companies	company	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t17
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p28.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p28.s8" senti_3="Negative" senti_6="negative" senti_n="-0.020">
 Just	Just	just	ADV	-	A14,T3---,T1.3-,N3.3---	A14	A14: Exclusivizers/particularizers	t1
 because	because	because	SCONJ	-	Z5/A2.2	Z5 A2.2	Z5: Grammatical bin|A2.2: Cause	t2
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t3
@@ -9594,7 +9594,7 @@ countries	countries	country	NOUN	Number=Plur	M7	M7	M7: Places	t23
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p28.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p28.s9" senti_3="Negative" senti_6="negative" senti_n="0.053">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -9614,7 +9614,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t12
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p29" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p29.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p29.s1" senti_3="Negative" senti_6="negative" senti_n="-0.071">
 Now	Now	now	ADV	-	Z4	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -9703,7 +9703,7 @@ pensioners	pensioners	pensioner	NOUN	Number=Plur	T3+/S2mf	T3p S2	T3+: Time: Old;
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t67
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p29.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p29.s2" senti_3="Negative" senti_6="negative" senti_n="-0.128">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 do	do	do	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t2
 <g/>
@@ -9727,7 +9727,7 @@ retirement	retirement	retirement	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p29.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p29.s3" senti_3="Negative" senti_6="negative" senti_n="-0.035">
 <phr usas_tags="A5.2+" usas_cats="A5.2p" usas_glosses="A5.2+: Evaluation: True">
 In	In	in	ADP	-	A5.2+	A5.2p	A5.2+: Evaluation: True	t1
 fact	fact	fact	NOUN	Number=Sing	A5.2+	A5.2p	A5.2+: Evaluation: True	t2
@@ -9792,7 +9792,7 @@ high	high	high	ADJ	Degree=Pos	N3.7+,N5+,A11.1+,S7.1+,A5.1+,T3-,X3.2,G2.2+,E4.1+,
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t49
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p29.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p29.s4" senti_3="Negative" senti_6="negative" senti_n="-0.118">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 have	have	have	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 <g/>
@@ -9826,7 +9826,7 @@ year	year	year	NOUN	Number=Sing	T1.3,P1/S2mf	T1.3	T1.3: Time: Period	t23
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s1" senti_3="Negative" senti_6="negative" senti_n="0.075">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 have	have	have	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 more	more	more	ADV	Degree=Cmp	A13.3,N6++	A13.3	A13.3: Degree: Boosters	t3
@@ -9860,7 +9860,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t25
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s2" senti_3="Negative" senti_6="negative" senti_n="0.111">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 where	where	where	ADV	PronType=Int	M6	M6	M6: Location and direction	t2
 are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -9875,7 +9875,7 @@ that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t11
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.812">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 more	more	more	ADV	Degree=Cmp	A13.3,N6++	A13.3	A13.3: Degree: Boosters	t2
 importantly	importantly	importantly	ADV	-	A11.1+	A11.1p	A11.1+: Important	t3
@@ -9895,7 +9895,7 @@ countries	countries	country	NOUN	Number=Plur	M7	M7	M7: Places	t13
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s4" senti_3="Negative" senti_6="negative" senti_n="-0.159">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -9923,7 +9923,7 @@ Poland	Poland	Poland	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t20
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s5" senti_3="Negative" senti_6="negative" senti_n="0.005">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t2
 retail	retail	retail	NOUN	Number=Sing	I2.2	I2.2	I2.2: Business: Selling	t3
@@ -9966,7 +9966,7 @@ falling	falling	fall	VERB	Tense=Pres VerbForm=Part	M1,N5-/A2.1,S7.1-,L1-,A1.8+,G
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t33
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s6" senti_3="Negative" senti_6="negative" senti_n="-0.027">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 of	of	of	ADP	ExtPos=ADV	Z5	Z5	Z5: Grammatical bin	t2
 course	course	course	NOUN	Number=Sing	M6,X7+,P1,B3,F1,M7/K5.1,T1.3	M6	M6: Location and direction	t3
@@ -10038,7 +10038,7 @@ back	back	back	ADP	-	M6,N6+,T1.1.1,S1.1.2+	M6	M6: Location and direction	t50
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t51
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s7" senti_3="Negative" senti_6="negative" senti_n="0.263">
 Please	Please	please	INTJ	-	E4.2+,E2+,X7+	E4.2p	E4.2+: Content	t1
 do	do	do	AUX	Mood=Imp VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t2
 <g/>
@@ -10047,7 +10047,7 @@ lie	lie	lie	VERB	Mood=Imp VerbForm=Fin	A5.2-,M1,T2++,M6,A3+	A5.2n	A5.2-: Evaluat
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s8" senti_3="Negative" senti_6="negative" senti_n="0.082">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 supposed	supposed	suppose	VERB	Tense=Past VerbForm=Part Voice=Pass	X2.1,X7+	X2.1	X2.1: Thought, belief	t3
@@ -10086,7 +10086,7 @@ fifty	fifty	fifty	NUM	NumForm=Word NumType=Card	N1	N1	N1: Numbers	t28
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s9" senti_3="Negative" senti_6="negative" senti_n="0.356">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -10096,7 +10096,7 @@ again	again	again	ADV	-	N6+,Z4	N6p	N6+: Frequent	t5
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s10">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s10" senti_3="Negative" senti_6="mixed negative" senti_n="0.585">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -10141,7 +10141,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	A5.4+	A5.4p
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s11">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s11" senti_3="Negative" senti_6="negative" senti_n="-0.008">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 have	have	have	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -10158,7 +10158,7 @@ problem	problem	problem	NOUN	Number=Sing	A12-,X4.1,N2,B2-	A12n	A12-: Difficult	t
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s12">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s12" senti_3="Negative" senti_6="mixed negative" senti_n="0.737">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -10187,7 +10187,7 @@ to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t20
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s13">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s13" senti_3="Neutral" senti_6="neutral positive" senti_n="3.074">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -10208,7 +10208,7 @@ most	most	most	ADJ	Degree=Sup	A13.2,N5+++	A13.2	A13.2: Degree: Maximizers	t14
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s14">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s14" senti_3="Neutral" senti_6="neutral positive" senti_n="3.026">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 By	By	by	ADP	-	Z4	Z4	Z4: Discourse Bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z4	Z4	Z4: Discourse Bin	t2
@@ -10268,7 +10268,7 @@ countries	countries	country	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t44
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t45
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s15">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s15" senti_3="Positive" senti_6="mixed positive" senti_n="3.525">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 <g/>
@@ -10292,7 +10292,7 @@ Russia	Russia	Russia	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t14
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s16">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s16" senti_3="Negative" senti_6="mixed negative" senti_n="1.444">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 <g/>
@@ -10305,7 +10305,7 @@ is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s17">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s17" senti_3="Positive" senti_6="mixed positive" senti_n="4.321">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 lowest	lowest	low	ADJ	Degree=Sup	N3.7---,N5---,I1.3---,A5.1---,A11.1---,E4.1---,X3.2---,G2.2---,S7.1---	N3.7n	N3.7-: Short and narrow	t2
 price	price	price	NOUN	Number=Sing	I1.3	I1.3	I1.3: Money: Cost and price	t3
@@ -10320,7 +10320,7 @@ Union	Union	Union	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t9
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s18">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s18" senti_3="Neutral" senti_6="neutral positive" senti_n="3.033">
 Electricity	Electricity	electricity	NOUN	Number=Sing	O3	O3	O3: Electricity and electrical equipment	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -10332,7 +10332,7 @@ way	way	way	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t5
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s19">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s19" senti_3="Negative" senti_6="negative" senti_n="0.367">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 year	year	year	NOUN	Number=Sing	T1.3,P1c	T1.3	T1.3: Time: Period	t2
 <g/>
@@ -10373,7 +10373,7 @@ Romania	Romania	Romania	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t27
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s20">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p30.s20" senti_3="Negative" senti_6="negative" senti_n="-0.135">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -10398,7 +10398,7 @@ Government	Government	Government	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal name
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p31" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p31.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p31.s1" senti_3="Negative" senti_6="negative" senti_n="0.083">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -10466,7 +10466,7 @@ delivery	delivery	delivery	NOUN	Number=Sing	M2,Q2.1,X9.2+,B3,S9%	M2	M2: Putting,
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t51
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p31.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p31.s2" senti_3="Negative" senti_6="negative" senti_n="0.266">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 hear	hear	hear	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -10492,7 +10492,7 @@ him	him	he	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p31.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p31.s3" senti_3="Negative" senti_6="negative" senti_n="0.263">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -10513,7 +10513,7 @@ well	well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t13
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p31.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p31.s4" senti_3="Negative" senti_6="mixed negative" senti_n="0.577">
 At	At	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 same	same	same	ADJ	Degree=Pos	A6.1+++	A6.1p	A6.1+: Comparing: Similar	t3
@@ -10544,7 +10544,7 @@ government	government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p31.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p31.s5" senti_3="Negative" senti_6="negative" senti_n="0.099">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 did	did	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5	A1.1.1	A1.1.1: General actions / making	t2
 <g/>
@@ -10554,7 +10554,7 @@ anything	anything	anything	PRON	Number=Sing	Z8	Z8	Z8: Pronouns	t5
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p31.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p31.s6" senti_3="Negative" senti_6="negative" senti_n="-0.033">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 are	are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 expensive	expensive	expensive	ADJ	Degree=Pos	I1.3+	I1.3p	I1.3+: Expensive	t3
@@ -10587,7 +10587,7 @@ anymore	anymore	anymore	ADV	-	Z5	Z5	Z5: Grammatical bin	t23
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p31.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p31.s7" senti_3="Negative" senti_6="negative" senti_n="0.437">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 logically	logically	logically	ADV	-	X2.1,S1.2.6+,A1.6	X2.1	X2.1: Thought, belief	t2
 <g/>
@@ -10624,7 +10624,7 @@ citizens	citizens	citizen	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t24
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p31.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p31.s8" senti_3="Negative" senti_6="negative" senti_n="0.024">
 <name type="MISC">
 Czech	Czech	Czech	ADJ	Degree=Pos	Z2,Z2/Q3	Z2	Z2: Geographical names	t1
 </name>
@@ -10734,7 +10734,7 @@ citizens	citizens	citizen	NOUN	Number=Plur	G1.1/S2mf,S5+/S2mf	G1.1 S2	G1.1: Gove
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t87
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p31.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p31.s9" senti_3="Negative" senti_6="negative" senti_n="0.046">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 does	does	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5	A1.1.1	A1.1.1: General actions / making	t3
@@ -10783,7 +10783,7 @@ acceptable	acceptable	acceptable	ADJ	Degree=Pos	A5.1+	A5.1p	A5.1+: Evaluation: G
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.230">
 At	At	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 same	same	same	ADJ	Degree=Pos	A6.1+++	A6.1p	A6.1+: Comparing: Similar	t3
@@ -10801,7 +10801,7 @@ it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: P
 was	was	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t14
 just	just	just	ADV	-	A14,T3---,T1.3-,N3.3---	A14	A14: Exclusivizers/particularizers	t15
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s2" senti_3="Negative" senti_6="negative" senti_n="-0.005">
 Pirates	Pirates	Pirates	PROPN	Number=Plur	G2.1-/S2mf	G2.1n S2	G2.1-: Crime|S2: People	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -10853,7 +10853,7 @@ doses	doses	dose	NOUN	Number=Plur	N5	N5	N5: Quantities	t33
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t34
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s3" senti_3="Negative" senti_6="negative" senti_n="0.045">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <name type="ORG">
@@ -10884,7 +10884,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t19
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s4" senti_3="Neutral" senti_6="neutral positive" senti_n="2.625">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -10925,7 +10925,7 @@ specifically	specifically	specifically	ADV	-	A4.2+	A4.2p	A4.2+: Detailed	t21
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s5" senti_3="Negative" senti_6="negative" senti_n="0.098">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -10987,7 +10987,7 @@ dosages	dosages	dosage	NOUN	Number=Plur	N5	N5	N5: Quantities	t41
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t42
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s6" senti_3="Neutral" senti_6="neutral positive" senti_n="3.140">
 If	If	if	SCONJ	-	Z7	Z7	Z7: If	t1
 this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 bill	bill	bill	NOUN	Number=Sing	I1.3,G1.1,Q1.2,L2	I1.3	I1.3: Money: Cost and price	t3
@@ -11010,7 +11010,7 @@ billion	billion	billion	NUM	NumForm=Word NumType=Card	N1,I1	N1	N1: Numbers	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s7" senti_3="Positive" senti_6="mixed positive" senti_n="3.567">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 've	've	have	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -11031,7 +11031,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	A5.4+	A5.4p
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s8" senti_3="Negative" senti_6="negative" senti_n="0.013">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -11083,7 +11083,7 @@ skin	skin	skin	NOUN	Number=Sing	B1,O2	B1	B1: Anatomy and physiology	t35
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t36
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s9" senti_3="Neutral" senti_6="neutral positive" senti_n="2.973">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <name type="ORG">
@@ -11104,7 +11104,7 @@ housing	housing	housing	NOUN	Number=Sing	H1	H1	H1: Architecture, houses and buil
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s10">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s10" senti_3="Negative" senti_6="negative" senti_n="-0.049">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 've	've	have	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A9+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -11135,7 +11135,7 @@ okay	okay	okay	INTJ	-	Z4,A5.1+	Z4	Z4: Discourse Bin	t21
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s11">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p32.s11" senti_3="Negative" senti_6="negative" senti_n="0.026">
 They	They	they	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pronouns	t1
 <g/>
 're	're	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -11167,7 +11167,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: P
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.482">
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 Let	Let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
 <g/>
@@ -11181,7 +11181,7 @@ Migration	Migration	migration	NOUN	Number=Sing	M1	M1	M1: Moving, coming and goin
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s2" senti_3="Negative" senti_6="negative" senti_n="-0.018">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 <g/>
@@ -11244,7 +11244,7 @@ treason	treason	treason	NOUN	Number=Sing	G2.1-	G2.1n	G2.1-: Crime	t43
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t44
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s3" senti_3="Negative" senti_6="negative" senti_n="0.356">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 why	why	why	ADV	PronType=Int	A2.2	A2.2	A2.2: Cause	t2
 do	do	do	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -11258,7 +11258,7 @@ again	again	again	ADV	-	N6+,Z4	N6p	N6+: Frequent	t10
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s4" senti_3="Positive" senti_6="mixed positive" senti_n="4.176">
 Because	Because	because	SCONJ	-	Z5/A2.2	Z5 A2.2	Z5: Grammatical bin|A2.2: Cause	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 <g/>
@@ -11335,7 +11335,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t57
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t58
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s5" senti_3="Neutral" senti_6="neutral negative" senti_n="1.849">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -11347,7 +11347,7 @@ point	point	point	NOUN	Number=Sing	Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5	Q2.1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s6" senti_3="Negative" senti_6="negative" senti_n="0.053">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -11418,7 +11418,7 @@ course	course	course	NOUN	Number=Sing	M6,X7+,P1,B3,F1,M7/K5.1,T1.3	M6	M6: Locati
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t50
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s7" senti_3="Neutral" senti_6="neutral negative" senti_n="2.148">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="PER">
 Maďar	Maďar	Maďar	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t2
@@ -11451,7 +11451,7 @@ migration	migration	migration	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t23
 </phr>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s8" senti_3="Negative" senti_6="negative" senti_n="-0.087">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 either	either	either	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -11518,7 +11518,7 @@ migrant	migrant	migrant	NOUN	Number=Sing	M1/S2mf	M1 S2	M1: Moving, coming and go
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t47
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s9" senti_3="Negative" senti_6="negative" senti_n="0.279">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -11529,7 +11529,7 @@ crazy	crazy	crazy	ADJ	Degree=Pos	B2-/X1,S1.2.6-,X5.2++,A1.1.1/N5+++	B2n X1	B2-: 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s10">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s10" senti_3="Negative" senti_6="mixed negative" senti_n="0.536">
 <name type="LOC">
 Poland	Poland	Poland	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t1
 </name>
@@ -11545,7 +11545,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	A5.4+	A5.4p
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s11">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s11" senti_3="Negative" senti_6="negative" senti_n="0.152">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t3
@@ -11584,7 +11584,7 @@ clearly	clearly	clearly	ADV	-	A7+,A11.2+,A12+	A7p	A7+: Likely	t26
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s12">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s12" senti_3="Negative" senti_6="negative" senti_n="0.105">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Němec	Němec	Němec	PROPN	Number=Sing	Z1mf,T1.3	Z1	Z1: Personal names	t2
@@ -11605,7 +11605,7 @@ solidarity	solidarity	solidarity	NOUN	Number=Sing	S5+	S5p	S5+: Belonging to a gr
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s13">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s13" senti_3="Negative" senti_6="mixed negative" senti_n="1.381">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -11626,7 +11626,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t11
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s14">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s14" senti_3="Negative" senti_6="negative" senti_n="-0.051">
 <name type="PER">
 Merkelová	Merkelová	Merkelová	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t1
 </name>
@@ -11641,7 +11641,7 @@ Europe	Europe	Europe	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t7
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s15">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s15" senti_3="Negative" senti_6="mixed negative" senti_n="0.519">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 further	further	further	ADV	Degree=Cmp	N5++,N3.3++,T2++	N5p	N5+: Quantities: many/much	t2
 <g/>
@@ -11684,7 +11684,7 @@ borders	borders	border	NOUN	Number=Plur	M7/G1.1,O2,B5,L3/H3	M7 G1.1	M7: Places|G
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s16">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p33.s16" senti_3="Negative" senti_6="negative" senti_n="0.178">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 not	not	not	PART	-	Z6	Z6	Z6: Negative	t3
@@ -11728,7 +11728,7 @@ Morawiecký	Morawiecký	Morawiecký	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t29
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p34" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p34.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p34.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.967">
 What	What	what	PRON	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t1
 does	does	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5	A1.1.1	A1.1.1: General actions / making	t2
 <name type="PER">
@@ -11753,7 +11753,7 @@ this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direct
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p34.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p34.s2" senti_3="Negative" senti_6="negative" senti_n="-0.133">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 quote	quote	quote	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2,I1.3	Q2.2	Q2.2: Speech acts	t2
 <g/>
@@ -11779,7 +11779,7 @@ force	force	force	NOUN	Number=Sing	E3-,S7.1+,G2.1c,N3,S5+c	E3n	E3-: Violent/Angr
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p34.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p34.s3" senti_3="Negative" senti_6="negative" senti_n="-0.006">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 unacceptable	unacceptable	unacceptable	ADJ	Degree=Pos	X7-,E2-	X7n	X7-: Unwanted	t3
@@ -11800,7 +11800,7 @@ migrants	migrants	migrant	NOUN	Number=Plur	M1/S2mf	M1 S2	M1: Moving, coming and 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p34.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p34.s4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.455">
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
 End	End	end	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t1
 of	of	of	ADP	-	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t2
@@ -11820,7 +11820,7 @@ Orbán	Orbán	Orbán	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t10
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p34.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p34.s5" senti_3="Negative" senti_6="negative" senti_n="0.396">
 They	They	they	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pronouns	t1
 are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 representatives	representatives	representative	NOUN	Number=Plur	Q2.1/S2mf,G1.1/S2mf,I2.2/S2mf,A4.1	Q2.1 S2	Q2.1: Speech: Communicative|S2: People	t3
@@ -11851,7 +11851,7 @@ half	half	half	NOUN	Number=Sing NumForm=Word NumType=Frac	N5c	N5	N5: Quantities	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p34.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p34.s6" senti_3="Negative" senti_6="negative" senti_n="-0.042">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -11886,7 +11886,7 @@ us	us	we	PRON	Case=Acc Number=Plur Person=1 PronType=Prs	A5.4+	A5.4p	A5.4+: Eval
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p34.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p34.s7" senti_3="Positive" senti_6="positive" senti_n="4.736">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 Prime	Prime	Prime	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
 Minister	Minister	Minister	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t3
@@ -11929,7 +11929,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t28
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p34.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p34.s8" senti_3="Negative" senti_6="mixed negative" senti_n="0.953">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -11976,7 +11976,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t26
 </p>
 <note type="time" content="11.30 hours"/>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s1" senti_3="Negative" senti_6="negative" senti_n="0.344">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 at	at	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -11995,7 +11995,7 @@ advantageous	advantageous	advantageous	ADJ	Degree=Pos	A5.1+,A1.5.2+	A5.1p	A5.1+:
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s2" senti_3="Negative" senti_6="negative" senti_n="0.035">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 think	think	think	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -12019,7 +12019,7 @@ prevented	prevented	prevent	VERB	Tense=Past VerbForm=Part Voice=Pass	S8-	S8n	S8-
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s3" senti_3="Positive" senti_6="mixed positive" senti_n="3.567">
 That	That	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -12054,7 +12054,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	A5.4+	A5.4p
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s4" senti_3="Negative" senti_6="negative" senti_n="0.032">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 do	do	do	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t2
 <g/>
@@ -12073,7 +12073,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t10
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s5" senti_3="Negative" senti_6="negative" senti_n="0.145">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t2
@@ -12103,7 +12103,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t17
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s6" senti_3="Negative" senti_6="negative" senti_n="0.165">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 do	do	do	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t2
 <g/>
@@ -12115,7 +12115,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t7
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s7" senti_3="Negative" senti_6="mixed negative" senti_n="0.635">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 <g/>
@@ -12138,7 +12138,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t13
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s8" senti_3="Negative" senti_6="negative" senti_n="0.008">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 unbelievable	unbelievable	unbelievable	ADJ	Degree=Pos	A5.1+++,A5.2-/A8	A5.1p	A5.1+: Evaluation: Good	t3
@@ -12159,7 +12159,7 @@ safely	safely	safely	ADV	-	A15+	A15p	A15+: Safe	t14
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s9" senti_3="Positive" senti_6="mixed positive" senti_n="3.695">
 That	That	that	DET	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 statement	statement	statement	NOUN	Number=Sing	Q2.1,I1/Q1.2	Q2.1	Q2.1: Speech: Communicative	t2
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t3
@@ -12236,7 +12236,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t55
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t56
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s10">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s10" senti_3="Negative" senti_6="negative" senti_n="0.207">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -12244,7 +12244,7 @@ crazy	crazy	crazy	ADJ	Degree=Pos	B2-/X1,S1.2.6-,X5.2++,A1.1.1/N5+++	B2n X1	B2-: 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s11">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s11" senti_3="Negative" senti_6="negative" senti_n="-0.037">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -12272,7 +12272,7 @@ act	act	act	NOUN	Number=Sing	A1.1.1,K4,A5.4-,G2.1,P1%	A1.1.1	A1.1.1: General act
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s12">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s12" senti_3="Negative" senti_6="negative" senti_n="0.104">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 absolutely	absolutely	absolutely	ADV	-	A13.2,Z4	A13.2	A13.2: Degree: Maximizers	t3
@@ -12290,7 +12290,7 @@ all	all	all	DET	-	A13.7,Z4,N5.1+	A13.7	A13.7: Degree: Minimizers	t12
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s13">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p35.s13" senti_3="Negative" senti_6="negative" senti_n="0.069">
 A	A	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 man	man	man	NOUN	Number=Sing	S2.2m	S2.2	S2.2: People: Male	t2
 who	who	who	PRON	PronType=Rel	Z8	Z8	Z8: Pronouns	t3
@@ -12311,7 +12311,7 @@ all	all	all	DET	-	A13.7,Z4,N5.1+	A13.7	A13.7: Degree: Minimizers	t10
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.555">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 <g/>
@@ -12362,7 +12362,7 @@ STAN	STAN	STAN	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t24
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.999">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Of	Of	of	ADP	ExtPos=ADV	Z4	Z4	Z4: Discourse Bin	t1
 course	course	course	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -12390,7 +12390,7 @@ clearly	clearly	clearly	ADV	-	A7+,A11.2+,A12+	A7p	A7+: Likely	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s3" senti_3="Negative" senti_6="negative" senti_n="-0.064">
 Here	Here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t3
@@ -12495,7 +12495,7 @@ percent	percent	percent	NOUN	Number=Sing	N5	N5	N5: Quantities	t88
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t89
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s4" senti_3="Positive" senti_6="positive" senti_n="5.092">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 behalf	behalf	behalf	NOUN	Number=Sing	S1.1.1	S1.1.1	S1.1.1: Social Actions, States And Processes	t3
@@ -12527,7 +12527,7 @@ borders	borders	border	NOUN	Number=Plur	M7/G1.1,O2,B5,L3/H3	M7 G1.1	M7: Places|G
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s5" senti_3="Negative" senti_6="mixed negative" senti_n="1.173">
 A	A	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="MISC">
 Czech	Czech	Czech	ADJ	Degree=Pos	T1.3	T1.3	T1.3: Time: Period	t2
@@ -12571,7 +12571,7 @@ border	border	border	NOUN	Number=Sing	M7/G1.1,O2,B5,L3/H3	M7 G1.1	M7: Places|G1.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s6" senti_3="Negative" senti_6="negative" senti_n="0.037">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -12592,7 +12592,7 @@ that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t14
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s7" senti_3="Neutral" senti_6="neutral negative" senti_n="1.831">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 our	our	we	PRON	Number=Plur Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t3
@@ -12647,7 +12647,7 @@ border	border	border	NOUN	Number=Sing	M7/G1.1,O2,B5,L3/H3	M7 G1.1	M7: Places|G1.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t38
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s8" senti_3="Negative" senti_6="negative" senti_n="0.049">
 Not	Not	not	PART	-	Z6	Z6	Z6: Negative	t1
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -12672,7 +12672,7 @@ back	back	back	ADV	-	B1,M6	B1	B1: Anatomy and physiology	t19
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s9" senti_3="Negative" senti_6="negative" senti_n="0.099">
 Look	Look	look	VERB	Mood=Imp VerbForm=Fin	A8,X3.4,X2.4,X7+,Z4	A8	A8: Seem	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -12716,7 +12716,7 @@ migrants	migrants	migrant	NOUN	Number=Plur	M1/S2mf	M1 S2	M1: Moving, coming and 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t28
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s10">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s10" senti_3="Neutral" senti_6="neutral positive" senti_n="3.375">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 <name type="LOC">
 Prague	Prague	Prague	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t2
@@ -12725,7 +12725,7 @@ until	until	until	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s11">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s11" senti_3="Negative" senti_6="negative" senti_n="0.078">
 Illegal	Illegal	illegal	ADJ	Degree=Pos	G2.1-	G2.1n	G2.1-: Crime	t1
 migrants	migrants	migrant	NOUN	Number=Plur	M1/S2mf	M1 S2	M1: Moving, coming and going|S2: People	t2
 from	from	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -12739,7 +12739,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t8
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s12">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p36.s12" senti_3="Negative" senti_6="mixed negative" senti_n="0.798">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -12758,7 +12758,7 @@ policy	policy	policy	NOUN	Number=Sing	X7+,Q1.2	X7p	X7+: Wanted	t9
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s1" senti_3="Negative" senti_6="negative" senti_n="0.201">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 absolutely	absolutely	absolutely	ADV	-	A13.2,Z4	A13.2	A13.2: Degree: Maximizers	t3
@@ -12770,7 +12770,7 @@ course	course	course	NOUN	Number=Sing	M6,X7+,P1,B3,F1,M7/K5.1,T1.3	M6	M6: Locati
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s2" senti_3="Negative" senti_6="negative" senti_n="-0.008">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -12828,7 +12828,7 @@ printing	printing	printing	VERB	Tense=Pres VerbForm=Part	Q1.2	Q1.2	Q1.2: Paper d
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t45
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s3" senti_3="Negative" senti_6="negative" senti_n="0.162">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -12862,7 +12862,7 @@ migrants	migrants	migrant	NOUN	Number=Plur	M1/S2mf	M1 S2	M1: Moving, coming and 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s4" senti_3="Negative" senti_6="negative" senti_n="0.410">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 most	most	most	ADV	Degree=Sup	A13.2,N5+++	A13.2	A13.2: Degree: Maximizers	t3
@@ -12917,7 +12917,7 @@ again	again	again	ADV	-	N6+,Z4	N6p	N6+: Frequent	t36
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s5" senti_3="Negative" senti_6="negative" senti_n="0.080">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 just	just	just	ADV	-	A14,T3---,T1.3-,N3.3---	A14	A14: Exclusivizers/particularizers	t3
@@ -12932,7 +12932,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t8
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s6" senti_3="Negative" senti_6="negative" senti_n="0.131">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 do	do	do	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t2
 not	not	not	PART	-	Z6	Z6	Z6: Negative	t3
@@ -12949,7 +12949,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t11
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s7" senti_3="Neutral" senti_6="neutral positive" senti_n="2.804">
 Look	Look	look	VERB	Mood=Imp VerbForm=Fin	A8,X3.4,X2.4,X7+,Z4	A8	A8: Seem	t1
 how	how	how	SCONJ	PronType=Int	Z5,A13.3	Z5	Z5: Grammatical bin	t2
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t3
@@ -12961,7 +12961,7 @@ Berlin	Berlin	Berlin	PROPN	Number=Sing	Z2,Z1mf,Z3c	Z2	Z2: Geographical names	t6
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s8" senti_3="Negative" senti_6="negative" senti_n="0.281">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 <name type="LOC">
 Berlin	Berlin	Berlin	PROPN	Number=Sing	Z2,Z1mf,Z3c	Z2	Z2: Geographical names	t2
@@ -13044,7 +13044,7 @@ people	people	people	NOUN	Number=Plur	S2mfc	S2	S2: People	t60
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t61
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s9" senti_3="Neutral" senti_6="neutral negative" senti_n="1.574">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t2
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t3
@@ -13082,7 +13082,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t23
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s10">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s10" senti_3="Positive" senti_6="positive" senti_n="4.800">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 have	have	have	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -13104,7 +13104,7 @@ Austria	Austria	Austria	PROPN	Number=Sing	Z2,Z1	Z2	Z2: Geographical names	t13
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s11">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s11" senti_3="Positive" senti_6="mixed positive" senti_n="3.823">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 were	were	be	AUX	Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 inspired	inspired	inspire	VERB	Tense=Past VerbForm=Part Voice=Pass	S8+	S8p	S8+: Helping	t3
@@ -13120,7 +13120,7 @@ Denmark	Denmark	Denmark	PROPN	Number=Sing	Z2,Z1mf,Z3c	Z2	Z2: Geographical names	
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s12">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s12" senti_3="Positive" senti_6="positive" senti_n="4.831">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	X4.2,I1.1,N2	X4.2	X4.2: Mental object: Means, method	t2
 <g/>
@@ -13169,7 +13169,7 @@ okay	okay	okay	ADJ	Degree=Pos	Z4,A5.1+	Z4	Z4: Discourse Bin	t34
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t35
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s13">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p37.s13" senti_3="Negative" senti_6="negative" senti_n="0.038">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -13202,7 +13202,7 @@ proposal	proposal	proposal	NOUN	Number=Sing	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Speech
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38.s1" senti_3="Negative" senti_6="negative" senti_n="0.056">
 This	This	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 nonsense	nonsense	nonsense	NOUN	Number=Sing	A5.2-,S1.2.6-	A5.2n	A5.2-: Evaluation: False	t2
 <g/>
@@ -13223,7 +13223,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t13
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38.s2" senti_3="Negative" senti_6="negative" senti_n="0.180">
 They	They	they	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pronouns	t1
 did	did	do	AUX	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5	A1.1.1	A1.1.1: General actions / making	t2
 <g/>
@@ -13234,7 +13234,7 @@ comment	comment	comment	VERB	VerbForm=Inf	Q2.1	Q2.1	Q2.1: Speech: Communicative	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38.s3" senti_3="Positive" senti_6="mixed positive" senti_n="4.005">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -13265,7 +13265,7 @@ times	times	time	NOUN	Number=Plur	T1,T1.2,T1.3,T1.1.2,N6,N1	T1	T1: Time	t21
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38.s4" senti_3="Positive" senti_6="positive" senti_n="4.646">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t2
@@ -13344,7 +13344,7 @@ different	different	different	ADJ	Degree=Pos	A6.1-	A6.1n	A6.1-: Comparing: Diffe
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t59
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38.s5" senti_3="Negative" senti_6="negative" senti_n="0.010">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 <name type="MISC">
@@ -13375,7 +13375,7 @@ church	church	church	NOUN	Number=Sing	S9/H1c,S9c	S9 H1	S9: Religion and the supe
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38.s6" senti_3="Negative" senti_6="negative" senti_n="0.024">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 <g/>
@@ -13400,7 +13400,7 @@ imbalance	imbalance	imbalance	NOUN	Number=Sing	A6.1-	A6.1n	A6.1-: Comparing: Dif
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38.s7" senti_3="Neutral" senti_6="neutral positive" senti_n="3.089">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 just	just	just	ADV	-	A14,T3---,T1.3-,N3.3---	A14	A14: Exclusivizers/particularizers	t2
 wanted	wanted	want	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	X7+,S6+,A7+,G2.1-,S3.2,A9-	X7p	X7+: Wanted	t3
@@ -13415,7 +13415,7 @@ migration	migration	migration	NOUN	Number=Sing	M1	M1	M1: Moving, coming and goin
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38.s8" senti_3="Neutral" senti_6="neutral negative" senti_n="1.696">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Of	Of	of	ADP	ExtPos=ADV	Z4	Z4	Z4: Discourse Bin	t1
 course	course	course	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -13466,7 +13466,7 @@ to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t37
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t38
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38.s9" senti_3="Negative" senti_6="mixed negative" senti_n="0.532">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 are	are	be	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -13488,7 +13488,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t14
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38.s10">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p38.s10" senti_3="Neutral" senti_6="neutral positive" senti_n="3.382">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -13499,7 +13499,7 @@ simple	simple	simple	ADJ	Degree=Pos	A12+,A6.2+,O4.1,X9.1-	A12p	A12+: Easy	t4
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p39" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p39.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p39.s1" senti_3="Negative" senti_6="negative" senti_n="0.043">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -13530,7 +13530,7 @@ straight	straight	straight	ADV	-	O4.4,M6,N3.8+,A5.2+,N4	O4.4	O4.4: Shape	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p39.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p39.s2" senti_3="Negative" senti_6="negative" senti_n="0.034">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 do	do	do	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t2
 <g/>
@@ -13542,7 +13542,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t7
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p39.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p39.s3" senti_3="Negative" senti_6="negative" senti_n="0.236">
 At	At	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 my	my	my	PRON	Number=Sing Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 house	house	house	NOUN	Number=Sing	H1,P1/S5+c,G1.1c	H1	H1: Architecture, houses and buildings	t3
@@ -13569,7 +13569,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t20
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p39.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p39.s4" senti_3="Negative" senti_6="mixed negative" senti_n="0.927">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t2
 <g/>
@@ -13604,7 +13604,7 @@ along	along	along	ADV	-	M6	M6	M6: Location and direction	t22
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p39.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p39.s5" senti_3="Negative" senti_6="negative" senti_n="-0.010">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 've	've	have	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -13694,7 +13694,7 @@ me	me	I	PRON	Case=Acc Number=Sing Person=1 PronType=Prs	A5.4+	A5.4p	A5.4+: Evalu
 <g/>
 "	"	"	PUNCT	-	Z9	Z9	Z9: Trash can	t62
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p39.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p39.s6" senti_3="Negative" senti_6="negative" senti_n="0.175">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t1
 think	think	think	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t2
@@ -13709,7 +13709,7 @@ impressions	impressions	impression	NOUN	Number=Plur	X2.1,A8,A5.4-/A8,O4.2,O4.4	X
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p39.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p39.s7" senti_3="Negative" senti_6="negative" senti_n="0.142">
 Look	Look	look	VERB	Mood=Imp VerbForm=Fin	A8,X3.4,X2.4,X7+,Z4	A8	A8: Seem	t1
 at	at	at	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t2
 what	what	what	PRON	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t3
@@ -13726,7 +13726,7 @@ nonsense	nonsense	nonsense	NOUN	Number=Sing	A5.2-,S1.2.6-	A5.2n	A5.2-: Evaluatio
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p39.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p39.s8" senti_3="Positive" senti_6="mixed positive" senti_n="4.414">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 stand	stand	stand	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	M6,M2,M8,M1,T2++,N3,A3+,X2.1,A7,G1.2,S8+,S7.4+,I2.2,S1.2.5+	M6	M6: Location and direction	t2
 <phr usas_tags="S5-" usas_cats="S5n" usas_glosses="S5-: Not part of a group">
@@ -13768,7 +13768,7 @@ Europe	Europe	Europe	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t27
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.108">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 just	just	just	ADV	-	A14,T3---,T1.3-,N3.3---	A14	A14: Exclusivizers/particularizers	t2
 want	want	want	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	X7+,S6+,A7+,S3.2,A9-	X7p	X7+: Wanted	t3
@@ -13776,7 +13776,7 @@ security	security	security	NOUN	Number=Sing	G2.1,A15+,E6+,I1.1	G2.1	G2.1: Law an
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s2" senti_3="Positive" senti_6="positive" senti_n="4.796">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 want	want	want	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	X7+,S6+,A7+,S3.2,A9-	X7p	X7+: Wanted	t2
 security	security	security	NOUN	Number=Sing	G2.1,A15+,E6+,I1.1	G2.1	G2.1: Law and order	t3
@@ -13788,7 +13788,7 @@ citizens	citizens	citizen	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t6
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s3" senti_3="Negative" senti_6="negative" senti_n="-0.054">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 do	do	do	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t2
 not	not	not	PART	-	Z6	Z6	Z6: Negative	t3
@@ -13824,7 +13824,7 @@ solve	solve	solve	VERB	VerbForm=Inf	X9.2+	X9.2p	X9.2+: Success	t25
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s4" senti_3="Negative" senti_6="negative" senti_n="0.003">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 've	've	have	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -13863,7 +13863,7 @@ responding	responding	respond	VERB	Tense=Pres VerbForm=Part	S1.1.2+,Q2.2	S1.1.2p
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s5" senti_3="Negative" senti_6="negative" senti_n="0.198">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 reacted	reacted	react	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A1.1.1,A6.1-,B2-,Y1	A1.1.1	A1.1.1: General actions / making	t2
 once	once	once	ADV	NumType=Mult	N6-,T1.1.1	N6n	N6-: Infrequent	t3
@@ -13892,7 +13892,7 @@ away	away	away	ADV	-	N3.8+	N3.8p	N3.8+: Speed: Fast	t20
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s6" senti_3="Negative" senti_6="negative" senti_n="-0.090">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -13923,7 +13923,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t21
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s7" senti_3="Negative" senti_6="mixed negative" senti_n="1.141">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 reaction	reaction	reaction	NOUN	Number=Sing	A1.1.1,A6.1-,B2-,Y1	A1.1.1	A1.1.1: General actions / making	t2
 was	was	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -13960,7 +13960,7 @@ covid	covid	covid	ADJ	Degree=Pos	Z99	Z99	Z99: Unmatched	t26
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s8" senti_3="Negative" senti_6="negative" senti_n="0.166">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -13974,7 +13974,7 @@ me	me	I	PRON	Case=Acc Number=Sing Person=1 PronType=Prs	A5.4+	A5.4p	A5.4+: Evalu
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s9" senti_3="Neutral" senti_6="neutral negative" senti_n="2.422">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 aim	aim	aim	NOUN	Number=Sing	X7+,M6	X7p	X7+: Wanted	t2
 <phr usas_tags="N6+,T1.2" usas_cats="N6p" usas_glosses="N6+: Frequent">
@@ -13989,7 +13989,7 @@ crime	crime	crime	NOUN	Number=Sing	G2.1-	G2.1n	G2.1-: Crime	t9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s10">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s10" senti_3="Negative" senti_6="negative" senti_n="0.294">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -14001,7 +14001,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	A5.4+	A5.4p
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s11">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s11" senti_3="Negative" senti_6="negative" senti_n="0.140">
 Only	Only	only	ADV	-	A14	A14	A14: Exclusivizers/particularizers	t1
 this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 moment	moment	moment	NOUN	Number=Sing	T1.2,T1.1.2,N3	T1.2	T1.2: Time: Momentary	t3
@@ -14016,7 +14016,7 @@ course	course	course	NOUN	Number=Sing	M6,X7+,P1,B3,F1,M7/K5.1,T1.3	M6	M6: Locati
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s12">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s12" senti_3="Negative" senti_6="negative" senti_n="0.016">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -14049,7 +14049,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	A5.4+	A5.4p
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s13">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s13" senti_3="Negative" senti_6="negative" senti_n="0.262">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 can't	can't	can't	AUX	VerbForm=Fin	Z99	Z99	Z99: Unmatched	t2
 believe	believe	believe	VERB	VerbForm=Inf	X2.1,S9%	X2.1	X2.1: Thought, belief	t3
@@ -14057,7 +14057,7 @@ this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direct
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s14">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s14" senti_3="Neutral" senti_6="neutral positive" senti_n="2.769">
 Oh	Oh	oh	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -14065,7 +14065,7 @@ yeah	yeah	yeah	INTJ	-	Z4	Z4	Z4: Discourse Bin	t3
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s15">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p40.s15" senti_3="Negative" senti_6="negative" senti_n="-0.003">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 has	has	have	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -14105,7 +14105,7 @@ citizens	citizens	citizen	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t24
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p41" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p41.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p41.s1" senti_3="Negative" senti_6="mixed negative" senti_n="1.377">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 have	have	have	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -14119,12 +14119,12 @@ Ukrajinec	Ukrajinec	Ukrajinec	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t8
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p41.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p41.s2" senti_3="Negative" senti_6="mixed negative" senti_n="0.824">
 Why	Why	why	ADV	PronType=Int	A2.2	A2.2	A2.2: Cause	t1
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p41.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p41.s3" senti_3="Positive" senti_6="mixed positive" senti_n="3.534">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 there	there	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t2
 are	are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -14141,7 +14141,7 @@ followed	followed	follow	VERB	Tense=Past VerbForm=Part Voice=Pass	M1,N4,S7.1-,X2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p41.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p41.s4" senti_3="Positive" senti_6="positive" senti_n="4.578">
 Economic	Economic	economic	ADJ	Degree=Pos	I1.3-,I2.1	I1.3n	I1.3-: Cheap	t1
 migration	migration	migration	NOUN	Number=Sing	M1	M1	M1: Moving, coming and going	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -14239,7 +14239,7 @@ so	so	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t76
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t77
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p41.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p41.s5" senti_3="Negative" senti_6="negative" senti_n="0.085">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 has	has	have	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -14253,7 +14253,7 @@ stickers	stickers	sticker	NOUN	Number=Plur	Q1.2	Q1.2	Q1.2: Paper documents and w
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p41.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p41.s6" senti_3="Neutral" senti_6="neutral positive" senti_n="3.084">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'd	'd	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
@@ -14272,7 +14272,7 @@ proposal	proposal	proposal	NOUN	Number=Sing	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Speech
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p41.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p41.s7" senti_3="Negative" senti_6="negative" senti_n="0.495">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 looking	looking	look	VERB	Tense=Pres VerbForm=Part	A8,X3.4,X2.4,X7+,Z4	A8	A8: Seem	t3
@@ -14359,7 +14359,7 @@ Deputies	Deputies	Deputy	PROPN	Number=Plur	S7.1-/S2mf	S7.1n S2	S7.1-: No power|S
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t61
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p41.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p41.s8" senti_3="Negative" senti_6="mixed negative" senti_n="0.551">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 since	since	since	ADP	-	N4	N4	N4: Linear order	t2
 <g/>
@@ -14465,7 +14465,7 @@ was	was	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t79
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p41.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p41.s9" senti_3="Neutral" senti_6="neutral negative" senti_n="1.980">
 Yeah	Yeah	yeah	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -14486,7 +14486,7 @@ word	word	word	NOUN	Number=Sing	Q3,Q2.1,S9@	Q3	Q3: Language, speech and grammar	
 </p>
 <note type="vocal:laughter" content="With laughter."/>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p42" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p42.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p42.s1" senti_3="Negative" senti_6="negative" senti_n="-0.088">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 what	what	what	PRON	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t2
 should	should	should	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or necessity	t3
@@ -14534,7 +14534,7 @@ promises	promises	promise	NOUN	Number=Plur	S6+,A7+,X9.1+	S6p	S6+: Strong obligat
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t35
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p42.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p42.s2" senti_3="Negative" senti_6="negative" senti_n="-0.035">
 What	What	what	PRON	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t1
 should	should	should	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or necessity	t2
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t3
@@ -14549,7 +14549,7 @@ parties	parties	party	NOUN	Number=Plur	S1.1.3+,G1.2,S1.1.3+/S2mf,S5+	S1.1.3p	S1.
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p42.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p42.s3" senti_3="Negative" senti_6="negative" senti_n="0.131">
 Whether	Whether	whether	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 they	they	they	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pronouns	t2
 <g/>
@@ -14576,7 +14576,7 @@ case	case	case	NOUN	Number=Sing	A4.1,O2,G2.1,B3,X4.1,Q3	A4.1	A4.1: Generally kin
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p42.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p42.s4" senti_3="Negative" senti_6="negative" senti_n="0.296">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 can't	can't	can't	AUX	VerbForm=Fin	Z99	Z99	Z99: Unmatched	t2
 believe	believe	believe	VERB	VerbForm=Inf	X2.1,S9%	X2.1	X2.1: Thought, belief	t3
@@ -14584,7 +14584,7 @@ this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direct
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p42.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p42.s5" senti_3="Negative" senti_6="mixed negative" senti_n="0.898">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -14592,7 +14592,7 @@ normal	normal	normal	ADJ	Degree=Pos	A6.2+	A6.2p	A6.2+: Comparing: Usual	t3
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p42.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p42.s6" senti_3="Negative" senti_6="negative" senti_n="-0.035">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 're	're	be	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -14637,7 +14637,7 @@ villains	villains	villain	NOUN	Number=Plur	G2.1-/S2mf	G2.1n S2	G2.1-: Crime|S2: 
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t35
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p42.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p42.s7" senti_3="Negative" senti_6="negative" senti_n="0.296">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 can't	can't	can't	AUX	VerbForm=Fin	Z99	Z99	Z99: Unmatched	t2
 believe	believe	believe	VERB	VerbForm=Inf	X2.1,S9%	X2.1	X2.1: Thought, belief	t3
@@ -14648,7 +14648,7 @@ this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direct
 </p>
 <note type="time" content="11.40 hours"/>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p43" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p43.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p43.s1" senti_3="Negative" senti_6="negative" senti_n="-0.073">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 word	word	word	NOUN	Number=Sing	Q3,Q2.1,S9@	Q3	Q3: Language, speech and grammar	t3
@@ -14702,7 +14702,7 @@ election	election	election	NOUN	Number=Sing	G1.2/X7+	G1.2 X7p	G1.2: Politics|X7+
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t42
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p43.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p43.s2" senti_3="Negative" senti_6="negative" senti_n="0.135">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -14727,7 +14727,7 @@ this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direct
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p43.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p43.s3" senti_3="Negative" senti_6="mixed negative" senti_n="0.905">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 how	how	how	ADV	PronType=Int	Z5,A13.3	Z5	Z5: Grammatical bin	t2
 do	do	do	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -14739,7 +14739,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t8
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p43.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p43.s4" senti_3="Negative" senti_6="mixed negative" senti_n="1.353">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 're	're	be	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -14757,7 +14757,7 @@ okay	okay	okay	INTJ	-	Z4,A5.1+	Z4	Z4: Discourse Bin	t10
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p43.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p43.s5" senti_3="Negative" senti_6="mixed negative" senti_n="0.571">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -14776,7 +14776,7 @@ time	time	time	NOUN	Number=Sing	T1,T1.2,T1.3,T1.1.2,N6,N1,K2,G2.1@	T1	T1: Time	t
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p43.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p43.s6" senti_3="Negative" senti_6="negative" senti_n="0.094">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	X4.2,I1.1,N2	X4.2	X4.2: Mental object: Means, method	t2
 <g/>
@@ -14794,7 +14794,7 @@ us	us	we	PRON	Case=Acc Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t12
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p43.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p43.s7" senti_3="Negative" senti_6="negative" senti_n="0.124">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 have	have	have	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -14809,7 +14809,7 @@ this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direct
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p44" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p44.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p44.s1" senti_3="Negative" senti_6="negative" senti_n="-0.005">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 situation	situation	situation	NOUN	Number=Sing	A3+,O4.1,M6,I3.1@	A3p	A3+: Existing	t2
 here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t3
@@ -14820,7 +14820,7 @@ worse	worse	bad	ADJ	Degree=Cmp	A5.1--	A5.1n	A5.1-: Evaluation: Bad	t7
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p44.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p44.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.665">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'll	'll	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
@@ -14834,7 +14834,7 @@ too	too	too	ADV	-	N5++,N5.2+,A13.3	N5p	N5+: Quantities: many/much	t8
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p44.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p44.s3" senti_3="Negative" senti_6="negative" senti_n="0.157">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Of	Of	of	ADP	ExtPos=ADV	Z4	Z4	Z4: Discourse Bin	t1
 course	course	course	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -14907,7 +14907,7 @@ execution	execution	execution	NOUN	Number=Sing	L1-,A1.1.1,C1	L1n	L1-: Dead	t55
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t56
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p44.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p44.s4" senti_3="Negative" senti_6="negative" senti_n="0.009">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 executions	executions	execution	NOUN	Number=Plur	L1-,A1.1.1,C1	L1n	L1-: Dead	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -14976,7 +14976,7 @@ year	year	year	NOUN	Number=Sing	T1.3,P1/S2mf	T1.3	T1.3: Time: Period	t48
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t49
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p44.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p44.s5" senti_3="Neutral" senti_6="neutral negative" senti_n="2.121">
 A	A	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 total	total	total	NOUN	Number=Sing	N5.1+	N5.1p	N5.1+: Entire; maximum	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -14992,7 +14992,7 @@ conducted	conducted	conduct	VERB	Tense=Past VerbForm=Part Voice=Pass	A1.1.1,S1.1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p44.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p44.s6" senti_3="Neutral" senti_6="neutral positive" senti_n="3.252">
 These	These	this	PRON	Number=Plur PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 data	data	datum	NOUN	Number=Plur	X2.2/X2.4,Q1.1	X2.2 X2.4	X2.2: Knowledge|X2.4: Investigate, examine, test, search	t3
@@ -15012,7 +15012,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t12
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p44.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p44.s7" senti_3="Negative" senti_6="negative" senti_n="-0.085">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 situation	situation	situation	NOUN	Number=Sing	A3+,O4.1,M6,I3.1@	A3p	A3+: Existing	t3
@@ -15049,7 +15049,7 @@ dramatically	dramatically	dramatically	ADV	-	K4,E1/N5.2+,N3.8++	K4	K4: Drama, th
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p45" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p45.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p45.s1" senti_3="Negative" senti_6="negative" senti_n="0.003">
 Otherwise	Otherwise	otherwise	ADV	-	A6.1-	A6.1n	A6.1-: Comparing: Different	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -15092,7 +15092,7 @@ coward	coward	coward	NOUN	Number=Sing	N6+,T1.2	N6p	N6+: Frequent	t31
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p45.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p45.s2" senti_3="Negative" senti_6="negative" senti_n="0.101">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -15109,7 +15109,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t10
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p45.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p45.s3" senti_3="Negative" senti_6="negative" senti_n="-0.086">
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 Let	Let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
 it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -15160,7 +15160,7 @@ questions	questions	question	NOUN	Number=Plur	Q2.2,X4.1	Q2.2	Q2.2: Speech acts	t
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p46" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p46.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p46.s1" senti_3="Negative" senti_6="mixed negative" senti_n="1.383">
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 Let	Let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
 it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -15232,7 +15232,7 @@ me	me	I	PRON	Case=Acc Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t49
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t50
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p46.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p46.s2" senti_3="Negative" senti_6="mixed negative" senti_n="0.900">
 Just	Just	just	ADV	-	A14,T3---,T1.3-,N3.3---	A14	A14: Exclusivizers/particularizers	t1
 <name type="PER">
 Okamura	Okamura	Okamura	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t2
@@ -15248,7 +15248,7 @@ argumentating	argumentating	argumentate	VERB	VerbForm=Ger	Z99	Z99	Z99: Unmatched
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p46.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p46.s3" senti_3="Positive" senti_6="mixed positive" senti_n="4.365">
 <name type="PER">
 Cool	Cool	cool	ADJ	Degree=Pos	O4.6-/A2.1,X5.2-/A2.1	O4.6n A2.1	O4.6-: Temperature: Cold|A2.1: Affect: Modify, change	t1
 </name>
@@ -15259,7 +15259,7 @@ that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t5
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p46.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p46.s4" senti_3="Negative" senti_6="mixed negative" senti_n="1.072">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 asked	asked	ask	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -15289,7 +15289,7 @@ opponent	opponent	opponent	NOUN	Number=Sing	S7.3/S2mf	S7.3 S2	S7.3: Competition|
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p46.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p46.s5" senti_3="Neutral" senti_6="neutral positive" senti_n="2.905">
 Then	Then	then	ADV	PronType=Dem	N4,Z5,T1.2	N4	N4: Linear order	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 went	went	go	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	M1,A2.1+,A1.1.1,A9-,A1.8+,Q2.1,N6+,I2.2,A1.1.2,T2-,S3.2,A6.3+,B2-/X1%,B1%	M1	M1: Moving, coming and going	t3
@@ -15311,7 +15311,7 @@ parties	parties	party	NOUN	Number=Plur	G1.2	G1.2	G1.2: Politics	t14
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p47" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p47.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p47.s1" senti_3="Negative" senti_6="negative" senti_n="0.050">
 When	When	when	SCONJ	PronType=Int	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -15334,7 +15334,7 @@ me	me	I	PRON	Case=Acc Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t15
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p47.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p47.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.638">
 When	When	when	ADV	PronType=Int	Z5	Z5	Z5: Grammatical bin	t1
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 he	he	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t3
@@ -15353,7 +15353,7 @@ Prima	Prima	Prima	PROPN	Number=Sing	Z3c	Z3	Z3: Other proper names	t13
 </name>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p47.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p47.s3" senti_3="Negative" senti_6="negative" senti_n="-0.082">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -15377,7 +15377,7 @@ coward	coward	coward	NOUN	Number=Sing	E5-/S2mf	E5n S2	E5-: Fear/shock|S2: People
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p47.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p47.s4" senti_3="Negative" senti_6="negative" senti_n="-0.006">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 should	should	should	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or necessity	t2
 be	be	be	AUX	VerbForm=Inf	A3+,Z5	A3p	A3+: Existing	t3
@@ -15397,7 +15397,7 @@ caliber	caliber	caliber	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t12
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
 <note type="kinesic:applause" content="Applause and laughter from the left side of the hall."/>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p47.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p47.s5" senti_3="Negative" senti_6="mixed negative" senti_n="0.763">
 Or	Or	or	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 should	should	should	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or necessity	t2
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
@@ -15428,7 +15428,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	A5.4+	A5.4p
 </phr>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p47.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p47.s6" senti_3="Positive" senti_6="positive" senti_n="4.772">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Of	Of	of	ADP	ExtPos=ADV	Z4	Z4	Z4: Discourse Bin	t1
 course	course	course	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -15459,7 +15459,7 @@ words	words	word	NOUN	Number=Plur	Z4	Z4	Z4: Discourse Bin	t17
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p48" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p48.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p48.s1" senti_3="Negative" senti_6="negative" senti_n="-0.050">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t3
@@ -15544,7 +15544,7 @@ me	me	I	PRON	Case=Acc Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t62
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t63
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p48.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p48.s2" senti_3="Positive" senti_6="mixed positive" senti_n="3.734">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -15562,7 +15562,7 @@ prepared	prepared	prepare	VERB	Tense=Past VerbForm=Part	A1.1.1,F1	A1.1.1	A1.1.1:
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p48.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p48.s3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.112">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 want	want	want	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	X7+,S6+,A7+,S3.2,A9-	X7p	X7+: Wanted	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -15601,7 +15601,7 @@ him	him	he	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t30
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p48.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p48.s4" senti_3="Negative" senti_6="negative" senti_n="0.036">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 SPD	SPD	SPD	PROPN	Number=Sing	Z3c	Z3	Z3: Other proper names	t2
@@ -15623,7 +15623,7 @@ argumentation	argumentation	argumentation	NOUN	Number=Sing	Q2.1/X4.2	Q2.1 X4.2	Q
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p48.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p48.s5" senti_3="Negative" senti_6="negative" senti_n="0.217">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -15639,7 +15639,7 @@ Fiala	Fiala	Fiala	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t7
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p48.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p48.s6" senti_3="Negative" senti_6="negative" senti_n="-0.039">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -15668,7 +15668,7 @@ problem	problem	problem	NOUN	Number=Sing	A12-,X4.1,N2,B2-	A12n	A12-: Difficult	t
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.509">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 really	really	really	ADV	-	A13.3,A5.2+	A13.3	A13.3: Degree: Boosters	t3
@@ -15681,7 +15681,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s2" senti_3="Negative" senti_6="negative" senti_n="0.483">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 tell	tell	tell	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -15710,7 +15710,7 @@ promise	promise	promise	NOUN	Number=Sing	S6+,A7+,X9.1+	S6p	S6+: Strong obligatio
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.503">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 were	were	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 two	two	two	NUM	NumForm=Word NumType=Card	N1,T3,T1.2	N1	N1: Numbers	t3
@@ -15723,7 +15723,7 @@ promise	promise	promise	NOUN	Number=Sing	S6+,A7+,X9.1+	S6p	S6+: Strong obligatio
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s4" senti_3="Positive" senti_6="mixed positive" senti_n="3.708">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 know	know	know	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	X2.2+,S3.2/B1%	X2.2p	X2.2+: Knowledgeable	t2
 both	both	both	DET	-	N5	N5	N5: Quantities	t3
@@ -15736,7 +15736,7 @@ course	course	course	NOUN	Number=Sing	M6,X7+,P1,B3,F1,M7/K5.1,T1.3	M6	M6: Locati
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s5" senti_3="Neutral" senti_6="neutral positive" senti_n="3.023">
 One	One	one	NUM	NumForm=Word NumType=Card	N1,T3,T1.2	N1	N1: Numbers	t1
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 from	from	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -15758,7 +15758,7 @@ side	side	side	NOUN	Number=Sing	A4.1,M6,N5.1-,S7.3+/S5+c,B1,S5+c,S4c,F1,S1.2	A4.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s6" senti_3="Negative" senti_6="negative" senti_n="0.005">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -15779,7 +15779,7 @@ afraid	afraid	afraid	ADJ	Degree=Pos	E5-,E4.1-	E5n	E5-: Fear/shock	t14
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s7" senti_3="Negative" senti_6="negative" senti_n="-0.159">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 does	does	do	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5	A1.1.1	A1.1.1: General actions / making	t2
 <g/>
@@ -15803,7 +15803,7 @@ problem	problem	problem	NOUN	Number=Sing	A12-,X4.1,N2,B2-	A12n	A12-: Difficult	t
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s8" senti_3="Negative" senti_6="negative" senti_n="-0.041">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 just	just	just	ADV	-	A14,T3---,T1.3-,N3.3---	A14	A14: Exclusivizers/particularizers	t2
 does	does	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5	A1.1.1	A1.1.1: General actions / making	t3
@@ -15826,7 +15826,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	A5.4+	A5.4p
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s9" senti_3="Negative" senti_6="negative" senti_n="0.060">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 After	After	after	ADP	-	Z4	Z4	Z4: Discourse Bin	t1
 all	all	all	DET	-	Z4	Z4	Z4: Discourse Bin	t2
@@ -15868,7 +15868,7 @@ Fiala	Fiala	Fiala	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t26
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s10">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s10" senti_3="Negative" senti_6="negative" senti_n="0.049">
 '	'	'	PUNCT	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 Cause	Cause	cause	ADP	-	A2.2	A2.2	A2.2: Cause	t2
@@ -15899,7 +15899,7 @@ view	view	view	NOUN	Number=Sing	X4.1	X4.1	X4.1: Mental object: Conceptual object
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s11">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s11" senti_3="Neutral" senti_6="neutral negative" senti_n="2.055">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 <g/>
@@ -15919,7 +15919,7 @@ about	about	about	ADP	-	Z5	Z5	Z5: Grammatical bin	t13
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s12">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s12" senti_3="Neutral" senti_6="neutral negative" senti_n="2.457">
 Now	Now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -15941,7 +15941,7 @@ is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s13">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s13" senti_3="Negative" senti_6="negative" senti_n="-0.037">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 situation	situation	situation	NOUN	Number=Sing	A3+,O4.1,M6,I3.1@	A3p	A3+: Existing	t2
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -15965,7 +15965,7 @@ board	board	board	NOUN	Number=Sing	N5.1+	N5.1p	N5.1+: Entire; maximum	t18
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s14">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s14" senti_3="Neutral" senti_6="neutral positive" senti_n="3.341">
 This	This	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 future	future	future	NOUN	Number=Sing	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 must	must	must	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or necessity	t3
@@ -15975,7 +15975,7 @@ stressed	stressed	stress	VERB	Tense=Past VerbForm=Part Voice=Pass	Q2.2,A1.1.2	Q2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s15">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p49.s15" senti_3="Negative" senti_6="negative" senti_n="0.018">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 addition	addition	addition	NOUN	Number=Sing	N5++,N2	N5p	N5+: Quantities: many/much	t2
 <g/>
@@ -16038,7 +16038,7 @@ people	people	people	NOUN	Number=Plur	S2mfc	S2	S2: People	t43
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p50" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p50.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p50.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.232">
 Here	Here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t3
@@ -16077,7 +16077,7 @@ all	all	all	DET	-	A13.7,Z4,N5.1+	A13.7	A13.7: Degree: Minimizers	t28
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p50.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p50.s2" senti_3="Negative" senti_6="negative" senti_n="0.046">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 government	government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t2
 <g/>
@@ -16097,7 +16097,7 @@ non-standard	non-standard	non-standard	ADJ	Degree=Pos	A5.1-	A5.1n	A5.1-: Evaluat
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p50.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p50.s3" senti_3="Negative" senti_6="negative" senti_n="0.145">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 even	even	even	ADV	-	A13.1	A13.1	A13.1: Degree: Non-specific	t2
 want	want	want	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	X7+,S6+,A7+,S3.2,A9-	X7p	X7+: Wanted	t3
@@ -16112,7 +16112,7 @@ indefinitely	indefinitely	indefinitely	ADV	-	T2++	T2p	T2+: Time: Beginning	t9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p50.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p50.s4" senti_3="Negative" senti_6="negative" senti_n="-0.077">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -16141,7 +16141,7 @@ in	in	in	ADP	-	M6	M6	M6: Location and direction	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p50.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p50.s5" senti_3="Negative" senti_6="negative" senti_n="0.036">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -16174,7 +16174,7 @@ retirement	retirement	retirement	NOUN	Number=Sing	I3.1-	I3.1n	I3.1-: Unemployed	
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p51" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p51.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p51.s1" senti_3="Negative" senti_6="negative" senti_n="-0.105">
 <phr usas_tags="Z5" usas_cats="Z5" usas_glosses="Z5: Grammatical bin">
 Not	Not	not	PART	-	Z5	Z5	Z5: Grammatical bin	t1
 only	only	only	ADV	-	Z5	Z5	Z5: Grammatical bin	t2
@@ -16287,7 +16287,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t87
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t88
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p51.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p51.s2" senti_3="Negative" senti_6="negative" senti_n="0.180">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -16306,7 +16306,7 @@ problem	problem	problem	NOUN	Number=Sing	A12-,X4.1,N2,B2-	A12n	A12-: Difficult	t
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p52" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p52.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p52.s1" senti_3="Negative" senti_6="negative" senti_n="-0.049">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 all	all	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t3
@@ -16369,7 +16369,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t47
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t48
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p52.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p52.s2" senti_3="Negative" senti_6="negative" senti_n="-0.070">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -16417,7 +16417,7 @@ citizens	citizens	citizen	NOUN	Number=Plur	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluatio
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p53" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p53.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p53.s1" senti_3="Negative" senti_6="negative" senti_n="-0.043">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 does	does	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5	A1.1.1	A1.1.1: General actions / making	t3
@@ -16554,7 +16554,7 @@ land	land	land	NOUN	Number=Sing	W3,M7	W3	W3: Geographical terms	t102
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p54" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p54.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p54.s1" senti_3="Negative" senti_6="negative" senti_n="0.031">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 are	are	be	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -16595,7 +16595,7 @@ tunnel	tunnel	tunnel	NOUN	Number=Sing	A5.1+/X2.6+	A5.1p X2.6p	A5.1+: Evaluation:
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p54.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p54.s2" senti_3="Negative" senti_6="negative" senti_n="-0.052">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 're	're	be	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -16621,7 +16621,7 @@ mess	mess	mess	NOUN	Number=Sing	O4.2-,F1/G3c	O4.2n	O4.2-: Judgement of appearanc
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p54.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p54.s3" senti_3="Negative" senti_6="negative" senti_n="-0.038">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -16746,7 +16746,7 @@ all	all	all	DET	-	A13.7,Z4,N5.1+	A13.7	A13.7: Degree: Minimizers	t92
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t93
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p54.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p54.s4" senti_3="Negative" senti_6="negative" senti_n="0.051">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 do	do	do	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t2
 <g/>
@@ -16765,7 +16765,7 @@ coalition	coalition	coalition	NOUN	Number=Sing	S5+c	S5p	S5+: Belonging to a grou
 </p>
 <note type="time" content="11.50 hours"/>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p55" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p55.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p55.s1" senti_3="Negative" senti_6="negative" senti_n="-0.010">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -16816,7 +16816,7 @@ mess	mess	mess	NOUN	Number=Sing	O4.2-,F1/G3c	O4.2n	O4.2-: Judgement of appearanc
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t35
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p55.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p55.s2" senti_3="Negative" senti_6="negative" senti_n="0.028">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 addition	addition	addition	NOUN	Number=Sing	N5++,N2	N5p	N5+: Quantities: many/much	t2
 <g/>
@@ -16912,7 +16912,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	A5.4+	A5.4p
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p56" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p56.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p56.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.316">
 What	What	what	PRON	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -16923,7 +16923,7 @@ mean	mean	mean	VERB	VerbForm=Inf	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States 
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p56.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p56.s2" senti_3="Negative" senti_6="negative" senti_n="-0.015">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -16942,7 +16942,7 @@ law	law	law	NOUN	Number=Sing	G2.1,S6+,Y1	G2.1	G2.1: Law and order	t12
 <g/>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p56.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p56.s3" senti_3="Negative" senti_6="negative" senti_n="0.026">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 normally	normally	normally	ADV	-	A6.2+	A6.2p	A6.2+: Comparing: Usual	t3
@@ -16965,7 +16965,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t16
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p56.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p56.s4" senti_3="Negative" senti_6="negative" senti_n="0.020">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 put	put	put	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	M2,Q2.1,Q2.2,A1.1.1	M2	M2: Putting, pulling, pushing, transporting	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -17005,7 +17005,7 @@ all	all	all	DET	-	A13.7,Z4,N5.1+	A13.7	A13.7: Degree: Minimizers	t28
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p56.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p56.s5" senti_3="Negative" senti_6="negative" senti_n="0.182">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 <g/>
@@ -17015,7 +17015,7 @@ unbelievable	unbelievable	unbelievable	ADJ	Degree=Pos	A5.1+++,A5.2-/A8	A5.1p	A5.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p56.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p56.s6" senti_3="Negative" senti_6="negative" senti_n="0.140">
 Only	Only	only	ADV	-	A14	A14	A14: Exclusivizers/particularizers	t1
 this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 moment	moment	moment	NOUN	Number=Sing	T1.2,T1.1.2,N3	T1.2	T1.2: Time: Momentary	t3
@@ -17032,7 +17032,7 @@ course	course	course	NOUN	Number=Sing	M6,X7+,P1,B3,F1,M7/K5.1,T1.3	M6	M6: Locati
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p57" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p57.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p57.s1" senti_3="Negative" senti_6="negative" senti_n="0.019">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 make	make	make	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A1.1.1,A9+,A2.2,S6+,A3+,A9-,X9.2+,X6+	A1.1.1	A1.1.1: General actions / making	t2
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t3
@@ -17060,7 +17060,7 @@ vassals	vassals	vassal	NOUN	Number=Plur	Z99	Z99	Z99: Unmatched	t19
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p57.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p57.s2" senti_3="Negative" senti_6="negative" senti_n="-0.043">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 sad	sad	sad	ADJ	Degree=Pos	E4.1-,A5.1-	E4.1n	E4.1-: Sad	t3
@@ -17092,7 +17092,7 @@ fans	fans	fan	NOUN	Number=Plur	S2/E2+mf,O2	S2 E2p	S2: People|E2+: Like	t26
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p57.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p57.s3" senti_3="Negative" senti_6="negative" senti_n="0.124">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 one	one	one	NUM	NumForm=Word NumType=Card	N1,T3,T1.2	N1	N1: Numbers	t3
@@ -17108,7 +17108,7 @@ terrible	terrible	terrible	ADJ	Degree=Pos	A5.1-	A5.1n	A5.1-: Evaluation: Bad	t10
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p57.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p57.s4" senti_3="Negative" senti_6="negative" senti_n="0.191">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -17116,7 +17116,7 @@ awful	awful	awful	ADJ	Degree=Pos	O4.2-,A5.1-,A13.3	O4.2n	O4.2-: Judgement of app
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p57.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p57.s5" senti_3="Neutral" senti_6="neutral positive" senti_n="3.240">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 <g/>
@@ -17130,7 +17130,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p57.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p57.s6" senti_3="Negative" senti_6="negative" senti_n="-0.086">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Of	Of	of	ADP	ExtPos=ADV	Z4	Z4	Z4: Discourse Bin	t1
 course	course	course	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -17210,7 +17210,7 @@ households	households	household	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t5
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p58" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p58.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p58.s1" senti_3="Negative" senti_6="negative" senti_n="0.013">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -17262,7 +17262,7 @@ Government	Government	Government	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal name
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t35
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p58.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p58.s2" senti_3="Negative" senti_6="negative" senti_n="-0.031">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 means	means	mean	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t2
 <g/>
@@ -17288,7 +17288,7 @@ money	money	money	NOUN	Number=Sing	I1	I1	I1: Money generally	t16
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p58.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p58.s3" senti_3="Negative" senti_6="negative" senti_n="-0.072">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 've	've	have	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A9+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -17356,7 +17356,7 @@ trivial	trivial	trivial	ADJ	Degree=Pos	A11.1-	A11.1n	A11.1-: Unimportant	t45
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p59" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p59.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p59.s1" senti_3="Negative" senti_6="negative" senti_n="0.042">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 By	By	by	ADP	-	Z4	Z4	Z4: Discourse Bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z4	Z4	Z4: Discourse Bin	t2
@@ -17401,7 +17401,7 @@ difficulties	difficulties	difficulty	NOUN	Number=Plur	A12-	A12n	A12-: Difficult	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t36
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p59.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p59.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.820">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 what	what	what	PRON	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t2
 does	does	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5	A1.1.1	A1.1.1: General actions / making	t3
@@ -17410,7 +17410,7 @@ mean	mean	mean	VERB	VerbForm=Inf	Q1.1,X7+	Q1.1	Q1.1: Linguistic Actions, States 
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p59.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p59.s3" senti_3="Negative" senti_6="negative" senti_n="0.284">
 At	At	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 high	high	high	ADJ	Degree=Pos	N3.7+,N5+,A11.1+,S7.1+,A5.1+,T3-,X3.2,G2.2+,E4.1+,I1.3+,F3,O4.2-,O4.6+,S9	N3.7p	N3.7+: Long, tall and wide	t2
 prices	prices	price	NOUN	Number=Plur	I1.3	I1.3	I1.3: Money: Cost and price	t3
@@ -17477,7 +17477,7 @@ citizens	citizens	citizen	NOUN	Number=Plur	G1.1/S2mf,S5+/S2mf	G1.1 S2	G1.1: Gove
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p60" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p60.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p60.s1" senti_3="Negative" senti_6="negative" senti_n="-0.091">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 as	as	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -17545,7 +17545,7 @@ supports	supports	support	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t53
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p60.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p60.s2" senti_3="Negative" senti_6="negative" senti_n="0.036">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 're	're	be	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -17569,7 +17569,7 @@ measures	measures	measure	NOUN	Number=Plur	N3.1,F2,K2	N3.1	N3.1: Measurement: Ge
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p60.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p60.s3" senti_3="Negative" senti_6="negative" senti_n="0.043">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 increase	increase	increase	NOUN	Number=Sing	N5+/A2.1	N5p A2.1	N5+: Quantities: many/much|A2.1: Affect: Modify, change	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -17587,7 +17587,7 @@ measure	measure	measure	NOUN	Number=Sing	N3.1,F2,K2	N3.1	N3.1: Measurement: Gene
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p61" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p61.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p61.s1" senti_3="Negative" senti_6="mixed negative" senti_n="1.343">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 do	do	do	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -17597,7 +17597,7 @@ even	even	even	ADV	-	A13.1	A13.1	A13.1: Degree: Non-specific	t5
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p61.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p61.s2" senti_3="Negative" senti_6="negative" senti_n="0.115">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 understand	understand	understand	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	X2.5+	X2.5p	X2.5+: Understanding	t2
 now	now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t3
@@ -17624,7 +17624,7 @@ all	all	all	DET	-	A13.7,Z4,N5.1+	A13.7	A13.7: Degree: Minimizers	t15
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p61.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p61.s3" senti_3="Negative" senti_6="negative" senti_n="-0.013">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 how	how	how	ADV	PronType=Int	Z5,A13.3	Z5	Z5: Grammatical bin	t2
 can	can	can	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t3
@@ -17679,14 +17679,14 @@ measure	measure	measure	NOUN	Number=Sing	N3.1,F2,K2	N3.1	N3.1: Measurement: Gene
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t46
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p61.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p61.s4" senti_3="Negative" senti_6="mixed negative" senti_n="1.348">
 Everyone	Everyone	everyone	PRON	Number=Sing	Z8/N5.1+c	Z8 N5.1p	Z8: Pronouns|N5.1+: Entire; maximum	t1
 knows	knows	know	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	X2.2+,S3.2/B1%	X2.2p	X2.2+: Knowledgeable	t2
 that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t3
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p61.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p61.s5" senti_3="Negative" senti_6="negative" senti_n="0.270">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 whoever	whoever	whoever	PRON	PronType=Int	Z8	Z8	Z8: Pronouns	t2
 does	does	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A1.1.1,G2.2-,X9.2+,E3-,G2.1%,Z5	A1.1.1	A1.1.1: General actions / making	t3
@@ -17722,7 +17722,7 @@ ODS	ODS	ODS	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t22
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p61.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p61.s6" senti_3="Negative" senti_6="negative" senti_n="0.274">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 really	really	really	ADV	-	A13.3,A5.2+	A13.3	A13.3: Degree: Boosters	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -17734,7 +17734,7 @@ thing	thing	thing	NOUN	Number=Sing	O2,X4.1,A7-,S2mf,L2mf	O2	O2: Objects generall
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p62" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p62.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p62.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.967">
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 Let	Let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
 <g/>
@@ -17745,7 +17745,7 @@ on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p62.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p62.s2" senti_3="Negative" senti_6="negative" senti_n="-0.049">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 really	really	really	ADV	-	A13.3,A5.2+	A13.3	A13.3: Degree: Boosters	t3
@@ -17884,7 +17884,7 @@ on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t109
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p63" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p63.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p63.s1" senti_3="Negative" senti_6="negative" senti_n="0.491">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -17904,7 +17904,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t12
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p63.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p63.s2" senti_3="Negative" senti_6="negative" senti_n="-0.043">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 creates	creates	create	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A1.1.1,A2.2,E1	A1.1.1	A1.1.1: General actions / making	t2
 an	an	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -17932,7 +17932,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t22
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p63.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p63.s3" senti_3="Negative" senti_6="negative" senti_n="-0.082">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -18018,7 +18018,7 @@ Government	Government	government	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p64" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p64.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p64.s1" senti_3="Negative" senti_6="negative" senti_n="-0.047">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 simply	simply	simply	ADV	-	A13.6,A14,A12+	A13.6	A13.6: Degree: Diminishers	t3
@@ -18072,7 +18072,7 @@ situation	situation	situation	NOUN	Number=Sing	A3+,O4.1,M6,I3.1@	A3p	A3+: Existi
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t48
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p64.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p64.s2" senti_3="Negative" senti_6="negative" senti_n="0.038">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -18113,7 +18113,7 @@ impression	impression	impression	NOUN	Number=Sing	X2.1,A8,A5.4-/A8,O4.2,O4.4	X2.
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p65" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p65.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p65.s1" senti_3="Negative" senti_6="negative" senti_n="0.140">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 must	must	must	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or necessity	t2
 strongly	strongly	strongly	ADV	-	A13.3,A5.1+	A13.3	A13.3: Degree: Boosters	t3
@@ -18122,7 +18122,7 @@ that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t5
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p65.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p65.s2" senti_3="Negative" senti_6="negative" senti_n="0.035">
 This	This	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 false	false	false	ADJ	Degree=Pos	A5.2-,A5.4-,G2.2-	A5.2n	A5.2-: Evaluation: False	t2
 and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -18145,7 +18145,7 @@ SPD	SPD	SPD	PROPN	Number=Sing	Z3c	Z3	Z3: Other proper names	t15
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p65.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p65.s3" senti_3="Positive" senti_6="mixed positive" senti_n="4.136">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <name type="ORG">
@@ -18171,7 +18171,7 @@ anything	anything	anything	PRON	Number=Sing	Z8	Z8	Z8: Pronouns	t15
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p65.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p65.s4" senti_3="Positive" senti_6="mixed positive" senti_n="3.673">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 contrary	contrary	contrary	NOUN	Number=Sing	A6.1-	A6.1n	A6.1-: Comparing: Different	t3
@@ -18187,7 +18187,7 @@ them	them	they	PRON	Case=Acc Number=Plur Person=3 PronType=Prs	A5.4+	A5.4p	A5.4+
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p66" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p66.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p66.s1" senti_3="Negative" senti_6="negative" senti_n="-0.081">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 call	call	call	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2,S1.1.1,Q1.3,S9%	Q2.2	Q2.2: Speech acts	t3
@@ -18211,7 +18211,7 @@ pensioners	pensioners	pensioner	NOUN	Number=Plur	T3+/S2mf	T3p S2	T3+: Time: Old;
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p66.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p66.s2" senti_3="Positive" senti_6="mixed positive" senti_n="3.914">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 let	let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -18272,7 +18272,7 @@ people	people	people	NOUN	Number=Plur	S2mfc	S2	S2: People	t43
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t44
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p66.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p66.s3" senti_3="Negative" senti_6="negative" senti_n="-0.068">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -18309,7 +18309,7 @@ pensioners	pensioners	pensioner	NOUN	Number=Plur	T3+/S2mf	T3p S2	T3+: Time: Old;
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p67" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p67.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p67.s1" senti_3="Negative" senti_6="negative" senti_n="0.222">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 now	now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t2
 <g/>
@@ -18345,7 +18345,7 @@ government	government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p67.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p67.s2" senti_3="Positive" senti_6="mixed positive" senti_n="4.047">
 Now	Now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -18368,7 +18368,7 @@ elections	elections	election	NOUN	Number=Plur	G1.2/X7+	G1.2 X7p	G1.2: Politics|X
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p67.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p67.s3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.000">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 first	first	first	ADV	NumType=Ord	N4,P1@	N4	N4: Linear order	t2
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t3
@@ -18388,7 +18388,7 @@ choices	choices	choice	NOUN	Number=Plur	X7+,A6.3+	X7p	X7+: Wanted	t14
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p67.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p67.s4" senti_3="Negative" senti_6="negative" senti_n="0.033">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 really	really	really	ADV	-	A13.3,A5.2+	A13.3	A13.3: Degree: Boosters	t2
 do	do	do	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t3
@@ -18420,7 +18420,7 @@ anymore	anymore	anymore	ADV	-	Z5	Z5	Z5: Grammatical bin	t24
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p67.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p67.s5" senti_3="Negative" senti_6="negative" senti_n="-0.091">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <phr usas_tags="T2-" usas_cats="T2n" usas_glosses="T2-: Time: Ending">
 no	no	no	ADV	-	T2-	T2n	T2-: Time: Ending	t2
@@ -18441,7 +18441,7 @@ falling	falling	fall	VERB	Tense=Pres VerbForm=Part	M1,N5-/A2.1,S7.1-,L1-,A1.8+,G
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p68" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p68.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p68.s1" senti_3="Negative" senti_6="negative" senti_n="0.378">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -18659,7 +18659,7 @@ elections	elections	election	NOUN	Number=Plur	G1.2/X7+	G1.2 X7p	G1.2: Politics|X
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p69" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p69.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p69.s1" senti_3="Negative" senti_6="negative" senti_n="-0.116">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -18762,7 +18762,7 @@ elections	elections	election	NOUN	Number=Plur	G1.2/X7+	G1.2 X7p	G1.2: Politics|X
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t82
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p69.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p69.s2" senti_3="Negative" senti_6="negative" senti_n="0.044">
 As	As	as	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 correspondence	correspondence	correspondence	NOUN	Number=Sing	Q1.2,A6.1+	Q1.2	Q1.2: Paper documents and writing	t2
 <g/>
@@ -18821,7 +18821,7 @@ government	government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t3
 </p>
 <note type="time" content="12.00 hours"/>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p70" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p70.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p70.s1" senti_3="Positive" senti_6="positive" senti_n="4.555">
 President	President	President	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 <name type="PER">
 Petr	Petr	Petr	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -18898,7 +18898,7 @@ home	home	home	NOUN	Number=Sing	H4/H1c,M6	H4 H1	H4: Residence|H1: Architecture, 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t65
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p70.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p70.s2" senti_3="Negative" senti_6="negative" senti_n="0.448">
 Yeah	Yeah	yeah	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -18920,7 +18920,7 @@ in	in	in	ADP	-	M6	M6	M6: Location and direction	t14
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p70.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p70.s3" senti_3="Negative" senti_6="negative" senti_n="0.013">
 Because	Because	because	SCONJ	-	Z5/A2.2	Z5 A2.2	Z5: Grammatical bin|A2.2: Cause	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 electronic	electronic	electronic	ADJ	Degree=Pos	O3,Y2	O3	O3: Electricity and electrical equipment	t3
@@ -18988,7 +18988,7 @@ parties	parties	party	NOUN	Number=Plur	S1.1.3+,G1.2,S1.1.3+/S2mf,S5+	S1.1.3p	S1.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t56
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p70.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p70.s4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.063">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'll	'll	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
@@ -18997,7 +18997,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p70.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p70.s5" senti_3="Negative" senti_6="negative" senti_n="0.251">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 logically	logically	logically	ADV	-	X2.1,S1.2.6+,A1.6	X2.1	X2.1: Thought, belief	t2
 <g/>
@@ -19012,7 +19012,7 @@ election	election	election	NOUN	Number=Sing	G1.2/X7+	G1.2 X7p	G1.2: Politics|X7+
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p70.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p70.s6" senti_3="Negative" senti_6="negative" senti_n="0.042">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 can't	can't	can't	AUX	VerbForm=Fin	Z99	Z99	Z99: Unmatched	t2
 secure	secure	secure	VERB	VerbForm=Inf	A9+,A15+,A1.7+	A9p	A9+: Getting and possession	t3
@@ -19027,7 +19027,7 @@ choice	choice	choice	NOUN	Number=Sing	X7+,A6.3+	X7p	X7+: Wanted	t10
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p70.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p70.s7" senti_3="Negative" senti_6="mixed negative" senti_n="1.090">
 Because	Because	because	SCONJ	-	Z5/A2.2	Z5 A2.2	Z5: Grammatical bin|A2.2: Cause	t1
 no	no	no	DET	-	Z6	Z6	Z6: Negative	t2
 one	one	one	NOUN	Number=Sing	Z8,N1	Z8	Z8: Pronouns	t3
@@ -19063,7 +19063,7 @@ others	others	other	NOUN	Number=Plur	A6.1-/Z8	A6.1n Z8	A6.1-: Comparing: Differe
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t30
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p70.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p70.s8" senti_3="Negative" senti_6="negative" senti_n="0.274">
 Among	Among	among	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 other	other	other	ADJ	Degree=Pos	A6.1-	A6.1n	A6.1-: Comparing: Different	t2
 things	things	thing	NOUN	Number=Plur	O2,X4.1,A7-,S2mf,L2mf	O2	O2: Objects generally	t3
@@ -19084,7 +19084,7 @@ secure	secure	secure	VERB	VerbForm=Inf	A9+,A15+,A1.7+	A9p	A9+: Getting and posse
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.519">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 why	why	why	SCONJ	PronType=Int	A2.2	A2.2	A2.2: Cause	t3
@@ -19137,7 +19137,7 @@ happening	happening	happen	VERB	Tense=Pres VerbForm=Part	A2.1+,A3+,X7-	A2.1p	A2.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t45
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.854">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 there	there	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t2
 <g/>
@@ -19150,7 +19150,7 @@ control	control	control	NOUN	Number=Sing	S7.1+,A1.7+,O2	S7.1p	S7.1+: In power	t8
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s3" senti_3="Negative" senti_6="mixed negative" senti_n="0.550">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Of	Of	of	ADP	ExtPos=ADV	Z4	Z4	Z4: Discourse Bin	t1
 course	course	course	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -19176,7 +19176,7 @@ all	all	all	DET	-	A13.7,Z4,N5.1+	A13.7	A13.7: Degree: Minimizers	t17
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s4" senti_3="Negative" senti_6="negative" senti_n="0.227">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Of	Of	of	ADP	ExtPos=ADV	Z4	Z4	Z4: Discourse Bin	t1
 course	course	course	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -19201,7 +19201,7 @@ choices	choices	choice	NOUN	Number=Plur	X7+,A6.3+	X7p	X7+: Wanted	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s5" senti_3="Negative" senti_6="mixed negative" senti_n="1.453">
 Or	Or	or	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 could	could	could	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t3
@@ -19214,7 +19214,7 @@ error	error	error	NOUN	Number=Sing	A5.3-	A5.3n	A5.3-: Evaluation: Inaccurate	t9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s6" senti_3="Neutral" senti_6="neutral positive" senti_n="3.060">
 Which	Which	which	PRON	PronType=Int	Z5,Z8	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -19246,7 +19246,7 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t21
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s7">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s7" senti_3="Neutral" senti_6="neutral negative" senti_n="2.371">
 Remember	Remember	remember	VERB	Mood=Imp VerbForm=Fin	X2.2+	X2.2p	X2.2+: Knowledgeable	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 recent	recent	recent	ADJ	Degree=Pos	T3-	T3n	T3-: Time: New and young	t3
@@ -19262,7 +19262,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t10
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s8">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s8" senti_3="Neutral" senti_6="neutral positive" senti_n="2.948">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 in	in	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -19277,7 +19277,7 @@ Office	Office	Office	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t9
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s9">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s9" senti_3="Negative" senti_6="negative" senti_n="0.278">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 remember	remember	remember	VERB	Mood=Imp VerbForm=Fin	X2.2+	X2.2p	X2.2+: Knowledgeable	t2
 <g/>
@@ -19310,7 +19310,7 @@ census	census	census	NOUN	Number=Sing	G1.1	G1.1	G1.1: Government	t19
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s10">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s10" senti_3="Negative" senti_6="negative" senti_n="0.083">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -19332,13 +19332,13 @@ out	out	out	ADP	-	Z5	Z5	Z5: Grammatical bin	t15
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s11">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s11" senti_3="Neutral" senti_6="neutral positive" senti_n="3.155">
 First	First	first	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t1
 day	day	day	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s12">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p71.s12" senti_3="Negative" senti_6="negative" senti_n="0.373">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -19358,7 +19358,7 @@ media	media	media	NOUN	Number=Sing	Q4c	Q4	Q4: The Media	t13
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p72" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p72.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p72.s1" senti_3="Negative" senti_6="negative" senti_n="0.004">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -19389,7 +19389,7 @@ failed	failed	fail	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	X9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p72.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p72.s2" senti_3="Negative" senti_6="negative" senti_n="0.081">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 now	now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t2
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t3
@@ -19459,7 +19459,7 @@ years	years	year	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t54
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t55
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p72.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p72.s3" senti_3="Negative" senti_6="negative" senti_n="0.125">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t3
@@ -19489,7 +19489,7 @@ calice	calice	calice	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t20
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p72.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p72.s4" senti_3="Negative" senti_6="negative" senti_n="0.095">
 Well	Well	well	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -19501,7 +19501,7 @@ rejected	rejected	reject	VERB	Tense=Past VerbForm=Part Voice=Pass	X7-	X7n	X7-: U
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p72.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p72.s5" senti_3="Negative" senti_6="negative" senti_n="0.011">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 must	must	must	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or necessity	t2
 <g/>
@@ -19550,7 +19550,7 @@ Republic	Republic	Republic	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t36
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p72.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p72.s6" senti_3="Negative" senti_6="mixed negative" senti_n="0.722">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -19613,7 +19613,7 @@ competition	competition	competition	NOUN	Number=Sing	K1,S7.3+	K1	K1: Entertainme
 </s>
 </p>
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p73" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p73.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p73.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.338">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -19627,7 +19627,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p73.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p73.s2" senti_3="Negative" senti_6="negative" senti_n="-0.003">
 For	For	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 us	us	we	PRON	Case=Acc Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 <g/>
@@ -19714,7 +19714,7 @@ expectations	expectations	expectation	NOUN	Number=Plur	X2.6+	X2.6p	X2.6+: Expect
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t67
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p73.s3">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p73.s3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.131">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -19760,7 +19760,7 @@ early	early	early	ADV	Degree=Pos	T4+	T4p	T4+: Time: Early	t32
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t33
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p73.s4">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p73.s4" senti_3="Negative" senti_6="negative" senti_n="0.217">
 Now	Now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 <g/>
@@ -19777,7 +19777,7 @@ quickly	quickly	quickly	ADV	-	N3.8+	N3.8p	N3.8+: Speed: Fast	t10
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p73.s5">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p73.s5" senti_3="Negative" senti_6="negative" senti_n="0.085">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -19808,7 +19808,7 @@ yours	yours	yours	PRON	Person=2 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t21
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p73.s6">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u32.p73.s6" senti_3="Positive" senti_6="positive" senti_n="4.616">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -19822,9 +19822,9 @@ attention	attention	attention	NOUN	Number=Sing	X5.1+,S8+	X5.1p	X5.1+: Attentive	
 </p>
 </speech>
 <note type="speaker" content="Chairman of the PSP Markéta Pekarová Adamová"/>
-<speech id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u33" text_id="ParlaMint-CZ-en_2023-07-26-ps2021-071-07-000-000" subcorpus="COVID,War" lang="English" body="Lower house" term="ps2021" session="-" meeting="ps2021/071" sitting="ps2021/071/07" agenda="ps2021/071/000" date="2023-07-26" title="Parliament of the Czech Republic, Chamber of Deputies, 2023-07-26" speaker_role="Chairperson" speaker_id="MarketaPekarovaAdamova.1984" speaker_name="Pekarová Adamová, Markéta" speaker_mp="MP" speaker_minister="notMinister" speaker_party="TOP09" speaker_party_name="Political group TOP 09" party_status="Coalition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="1984">
+<speech id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u33" text_id="ParlaMint-CZ-en_2023-07-26-ps2021-071-07-000-000" subcorpus="COVID,War" lang="English" body="Lower house" term="ps2021" session="-" meeting="ps2021/071" sitting="ps2021/071/07" agenda="-" date="2023-07-26" title="Parliament of the Czech Republic, Chamber of Deputies, 2023-07-26" speaker_role="Chairperson" topic="Other" speaker_id="MarketaPekarovaAdamova.1984" speaker_name="Pekarová Adamová, Markéta" speaker_mp="MP" speaker_minister="notMinister" speaker_party="TOP09" speaker_party_name="Political group TOP 09" party_status="Coalition" party_orientation="Centre-right" speaker_gender="F" speaker_birth="1984">
 <p id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u33.p1" lang="English">
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u33.p1.s1">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u33.p1.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.583">
 Afternoon	Afternoon	afternoon	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -19855,7 +19855,7 @@ point	point	point	NOUN	Number=Sing	Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5	Q2.1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u33.p1.s2">
+<s id="ParlaMint-CZ_2023-07-26-ps2021-071-07-000-000.u33.p1.s2" senti_3="Positive" senti_6="mixed positive" senti_n="3.708">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2

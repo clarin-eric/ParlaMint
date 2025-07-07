@@ -979,6 +979,14 @@
                <persName>Tomaž Erjavec</persName>
                <resp>TEI encoding corrections</resp>
             </respStmt>
+            <respStmt corresp="#ParlaMint-SI.ana">
+               <persName>Nikola Ljubešić</persName>
+               <resp>Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt corresp="#ParlaMint-SI.ana">
+               <persName>Katja Meden</persName>
+               <resp>Compute utterance level sentiment</resp>
+            </respStmt>
             <respStmt corresp="#ParlaMint-TR.ana">
                <persName>Çağrı Çöltekin</persName>
                <resp>Data retrieval and conversion to TEI</resp>
@@ -1151,7 +1159,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-12-06">December 6, 2024</date>
+            <date when="2025-06-19">June 19, 2025</date>
          </publicationStmt>
          <sourceDesc>
             <listBibl corresp="#ParlaMint-AT.ana">
@@ -2711,6 +2719,10 @@
                <label>CLASSLA-Stanza</label>
                <desc>Linguistic processing with CLASSLA-Stanza, available from <ref target="https://github.com/clarinsi/classla">https://github.com/clarinsi/classla</ref>.</desc>
             </application>
+            <application ident="Parla-Senti" version="1.0">
+               <label>...</label>
+               <desc>...</desc>
+            </application>
          </appInfo>
          <appInfo corresp="#ParlaMint-TR.ana">
             <application version="2.0" ident="TRmorph">
@@ -3278,7 +3290,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-12-06">
+         <change when="2025-06-19">
             <name>Tomaž Erjavec</name>: Generate root</change>
       </revisionDesc>
    </teiHeader>

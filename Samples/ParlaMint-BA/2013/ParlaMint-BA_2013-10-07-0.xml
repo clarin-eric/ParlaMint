@@ -25,13 +25,21 @@
                <resp xml:lang="bs">Kodiranje Parla-CLARIN TEI XML</resp>
                <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="bs">Istraživačka infrastrukutra CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="215" xml:lang="bs">215 govora</measure>
@@ -45,7 +53,7 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="bs">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
@@ -53,7 +61,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-24">2025-06-24</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -94,31 +102,33 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2024-07-02">
+         <change when="2025-06-24">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-02">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
          <change when="2022-12-19">
-            <name>Peter Rupnik</name> Compile from source</change>
+            <name>Peter Rupnik</name>Compile from source</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
             <note type="speaker" xml:id="ParlaMint-BA_2013-10-07-0.note1">Bećirović, Denis</note>
-            <u who="#BećirovićDenis" ana="#chair" n="ParlaMint-BIH_ZD.T6.S54.u17114" xml:id="ParlaMint-BA_2013-10-07-0.u17114">
+            <u who="#BećirovićDenis" ana="#chair topic:other" n="ParlaMint-BIH_ZD.T6.S54.u17114" xml:id="ParlaMint-BA_2013-10-07-0.u17114">
                <seg xml:id="ParlaMint-BA_2013-10-07-0.u17114.seg0">Dame i gospodo poslanici, poštovani gosti otvaram 54. sjednicu Predstavničkog doma Parlamentarne skupštine BiH. Na sjednicu su pozvani naši redovni gosti: predsjedavajući i članovi Predsjedništva BiH, predsjedavajući i članovi Vijeća ministara BiH, predstavnici međunarodnih organizacija i ambasada u BiH, predstavnici medija. Također na sjednicu su pozvani predstavnici Ureda za reviziju institucija BiH i Visokog sudskog i tužilačkog vijeća BiH, čiji su izvještaji na dnevnom redu sjednice. Srdačno pozdravljam sve prisutne poslanike i goste. Odsustvo sa ove sjednice opravdali su poslanici: Milorad Živković, Božo Ljubić, Mato Franjičević, Ismeta Dervoz, Nermina Ćemalović, Anto Domazet, Emir Kabil, Drago Kalabić i Salko Sokolović, a kašnjenje su najavili Danijela Martinović i Dragan Vrankić. Prema informaciji službe sjednici je prisutno 28 poslanika. Konstatiram da sjednica ima kvorum za rad i odlučivanje. Kada je riječ o izmjenama i dopunama dnevnog reda sjednice želim napomenuti sljedeće. Na dnevni red je dodata tačka 22. Davanje saglasnosti za ratifikaciju Ugovora o zajmu (Projekat kanalizacije Cazin) između Bosne i Hercegovine i Evropske banke za obnovu i razvoj, broj: 01,02- 05-2-1019/13 od 24.09.2013. Otvaram raspravu o predloženom dnevnom redu. Za diskusiju o dnevnom redu prijavio se poslanik Beriz Belkić. Izvolite.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-BA_2013-10-07-0.note2">Belkić, Beriz</note>
-            <u who="#BelkićBeriz" ana="#regular" n="ParlaMint-BIH_ZD.T6.S54.u17115" xml:id="ParlaMint-BA_2013-10-07-0.u17115">
+            <u who="#BelkićBeriz" ana="#regular topic:gover" n="ParlaMint-BIH_ZD.T6.S54.u17115" xml:id="ParlaMint-BA_2013-10-07-0.u17115">
                <seg xml:id="ParlaMint-BA_2013-10-07-0.u17115.seg0">Pa evo, mi, dakle poslanik dr Azra Hadžiahmetović i ja, predlažemo da se na današnju sjednicu uvrsti i tačka dnevnog reda koja bi glasila – Informacija sa posljednjeg zasijedanja Parlamentarne skupštine Vijeća Evrope vezano za Izvještaj o funkcionisanju demokratskih institucija u Bosni i Hercegovini. Nama je poznato, naravno, da je potrebno obezbijediti pisani materijal, međutim mi mislimo da je taj materijal već ranije dostavljen svim poslanicima i može on biti osnov za ovu informaciju. Dakle, radi se o onom materijalu koji govori o funkcionisanju demokratskih institucija i Prijedlogu rezolucije. 2 Da vas podsjetim mi smo prije zasijedanja Parlamentarne skupštine Vijeća Evrope tražili da se hitno sazove sjednica Parlamenta u funkciji pripreme delegacije, rasprave o Izvještaju, itd. Nažalost to se nije desilo. Mi mislimo da bi bilo dobro a ne da iz sredstava javnih informisanja saznajemo šta se je to gore praktično desilo. Dakle, da predsjedavajući delegacije podnese jednu kratku informaciju, da nas informira šta se gore praktično desilo. Evo, ja ću dati ovu tačku dnevnog reda i još uz napomenu – svi smo dobili prije možda 15- ak, 20 dana ovaj Izvještaj i imali priliku da vidimo tekst Rezolucije, ali ne znamo praktično šta se je to gore desilo. Obaveza je ove naše delegacije da ovaj Parlament izvještava najmanje jednom godišnje o zasijedanjima. Evo, ja dostavljam ovu tačku dnevnog reda.</seg>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#ProdanovićLazar" ana="#regular" n="ParlaMint-BIH_ZD.T6.S54.u17356" xml:id="ParlaMint-BA_2013-10-07-0.u17356">
+            <u who="#ProdanovićLazar" ana="#regular topic:other" n="ParlaMint-BIH_ZD.T6.S54.u17356" xml:id="ParlaMint-BA_2013-10-07-0.u17356">
                <seg xml:id="ParlaMint-BA_2013-10-07-0.u17356.seg0">nije uključen mikrofon</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-BA_2013-10-07-0.note215">Bećirović, Denis</note>
-            <u who="#BećirovićDenis" ana="#chair" n="ParlaMint-BIH_ZD.T6.S54.u17357" xml:id="ParlaMint-BA_2013-10-07-0.u17357">
+            <u who="#BećirovićDenis" ana="#chair topic:other" n="ParlaMint-BIH_ZD.T6.S54.u17357" xml:id="ParlaMint-BA_2013-10-07-0.u17357">
                <seg xml:id="ParlaMint-BA_2013-10-07-0.u17357.seg0">Molim vas da se pripremite za glasanje, da ponovimo još jednom. Iako smo zaključili, evo da ne bude nikakvih dilema. Glasajte sad ponovo. Suštinski se ništa nije promijenilo, evo jedino ima 12 protiv umjesto 11. Dozvolite da svim Bošnjacima muslimanima čestitam predstojeći Kurban bajram, da ga provedu u zdravlju i rahatluku. Napominjem da je naredna sjednica Predstavničkog doma 24. oktobra, a ova zajednička 23. oktobra. Hvala vam na saradnji. Sjednica završena u 17:10 sati.</seg>
             </u>
          </div>

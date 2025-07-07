@@ -1,7 +1,7 @@
 <note type="speaker" content="KalleLaane"/>
-<speech id="ParlaMint-EE_2018-10-11_U1" text_id="ParlaMint-EE-en_2018-10-11" subcorpus="Reference" lang="English" body="Unicameralism" term="XIII Riigikogu" session="VIII regular session" meeting="-" sitting="2018-10-11" agenda="-" date="2018-10-11" title="XIII Parliament term, VIII Session, Plenary Assembly regular meeting on Thursday, 11.10.2018, 10:00" speaker_role="Chairperson" speaker_id="k_laanet_19650925" speaker_name="Laanet, Kalle" speaker_mp="MP" speaker_minister="notMinister" speaker_party="RE" speaker_party_name="Reformierakond" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1965">
+<speech id="ParlaMint-EE_2018-10-11_U1" text_id="ParlaMint-EE-en_2018-10-11" subcorpus="Reference" lang="English" body="Unicameralism" term="XIII Riigikogu" session="VIII regular session" meeting="-" sitting="2018-10-11" agenda="-" date="2018-10-11" title="XIII Parliament term, VIII Session, Plenary Assembly regular meeting on Thursday, 11.10.2018, 10:00" speaker_role="Chairperson" topic="Other" speaker_id="k_laanet_19650925" speaker_name="Laanet, Kalle" speaker_mp="MP" speaker_minister="notMinister" speaker_party="RE" speaker_party_name="Reformierakond" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1965">
 <p id="ParlaMint-EE_2018-10-11_U1-P1" lang="English">
-<s id="ParlaMint-EE_2018-10-11_U1-P1.1">
+<s id="ParlaMint-EE_2018-10-11_U1-P1.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.310">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Good	Good	good	ADJ	Degree=Pos	Z4	Z4	Z4: Discourse Bin	t1
 morning	morning	morning	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -16,7 +16,7 @@ gentlemen	gentlemen	gentleman	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t6
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-EE_2018-10-11_U1-P1.2">
+<s id="ParlaMint-EE_2018-10-11_U1-P1.2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.545">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 understand	understand	understand	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -52,7 +52,7 @@ peace	peace	peace	NOUN	Number=Sing	E3+	E3p	E3+: Calm	t23
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-EE_2018-10-11_U1-P1.3">
+<s id="ParlaMint-EE_2018-10-11_U1-P1.3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.970">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 begin	begin	begin	VERB	VerbForm=Inf	T2+	T2p	T2+: Time: Beginning	t3
@@ -79,7 +79,7 @@ Riigikogu	Riigikogu	Riigikogu	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t17
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-EE_2018-10-11_U1-P1.4">
+<s id="ParlaMint-EE_2018-10-11_U1-P1.4" senti_3="Neutral" senti_6="neutral positive" senti_n="2.676">
 Transfer	Transfer	transfer	NOUN	Number=Sing	M6/A2.1+,A9-,I3.1/A2.1+,Y2,M3,M4,M5,C1	M6 A2.1p	M6: Location and direction|A2.1+: Change	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
@@ -90,7 +90,7 @@ enquiries	enquiries	enquiry	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t5
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-EE_2018-10-11_U1-P1.5">
+<s id="ParlaMint-EE_2018-10-11_U1-P1.5" senti_3="Neutral" senti_6="neutral negative" senti_n="1.889">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 are	are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 no	no	no	DET	-	Z6	Z6	Z6: Negative	t3
@@ -107,7 +107,7 @@ today	today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultan
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-EE_2018-10-11_U1-P1.6">
+<s id="ParlaMint-EE_2018-10-11_U1-P1.6" senti_3="Neutral" senti_6="neutral positive" senti_n="2.725">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 're	're	be	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -121,7 +121,7 @@ check	check	check	NOUN	Number=Sing	X2.4/A5.3,I1.3,O4.4/B5	X2.4 A5.3	X2.4: Invest
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-EE_2018-10-11_U1-P1.7">
+<s id="ParlaMint-EE_2018-10-11_U1-P1.7" senti_3="Neutral" senti_6="neutral positive" senti_n="2.951">
 Checking	Checking	check	VERB	VerbForm=Ger	X2.4/A5.3,A15,Q1.2,T2-,M5	X2.4 A5.3	X2.4: Investigate, examine, test, search|A5.3: Evaluation: Accuracy	t1
 for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 presence	presence	presence	NOUN	Number=Sing	M6,A3+,S1.1.3+,S1.2,S9	M6	M6: Location and direction	t3
@@ -130,7 +130,7 @@ presence	presence	presence	NOUN	Number=Sing	M6,A3+,S1.1.3+,S1.2,S9	M6	M6: Locati
 </s>
 </p>
 <p id="ParlaMint-EE_2018-10-11_U1-P2" lang="English">
-<s id="ParlaMint-EE_2018-10-11_U1-P2.1">
+<s id="ParlaMint-EE_2018-10-11_U1-P2.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.439">
 78	78	78	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 members	members	member	NOUN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -150,7 +150,7 @@ missing	missing	miss	VERB	Tense=Pres VerbForm=Part	A5.3-,X3.4-,A11.2-,X2.5-,X9.2
 </s>
 </p>
 <p id="ParlaMint-EE_2018-10-11_U1-P3" lang="English">
-<s id="ParlaMint-EE_2018-10-11_U1-P3.1">
+<s id="ParlaMint-EE_2018-10-11_U1-P3.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.041">
 Today	Today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 have	have	have	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -165,7 +165,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	A7+	A7p	A7+: Likely	t9
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-EE_2018-10-11_U1-P3.2">
+<s id="ParlaMint-EE_2018-10-11_U1-P3.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.690">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 briefly	briefly	briefly	ADV	-	T1.3-	T1.3n	T1.3-: Time period: short	t3
@@ -179,7 +179,7 @@ procedure	procedure	procedure	NOUN	Number=Sing	X4.2	X4.2	X4.2: Mental object: Me
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-EE_2018-10-11_U1-P3.3">
+<s id="ParlaMint-EE_2018-10-11_U1-P3.3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.178">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
 presentation	presentation	presentation	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t2
@@ -204,7 +204,7 @@ minutes	minutes	minute	NOUN	Number=Plur	T1.3,Q1.2	T1.3	T1.3: Time: Period	t15
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-EE_2018-10-11_U1-P3.4">
+<s id="ParlaMint-EE_2018-10-11_U1-P3.4" senti_3="Neutral" senti_6="neutral negative" senti_n="2.261">
 <phr usas_tags="N6+" usas_cats="N6p" usas_glosses="N6+: Frequent">
 Each	Each	each	DET	-	N6+	N6p	N6+: Frequent	t1
 member	member	member	NOUN	Number=Sing	N6+	N6p	N6+: Frequent	t2
@@ -239,9 +239,9 @@ negotiations	negotiations	negotiation	NOUN	Number=Plur	Q2.2	Q2.2	Q2.2: Speech ac
 </p>
 </speech>
 <note type="speaker" content="KalleLaane"/>
-<speech id="ParlaMint-EE_2018-10-11_U2" text_id="ParlaMint-EE-en_2018-10-11" subcorpus="Reference" lang="English" body="Unicameralism" term="XIII Riigikogu" session="VIII regular session" meeting="-" sitting="2018-10-11" agenda="-" date="2018-10-11" title="XIII Parliament term, VIII Session, Plenary Assembly regular meeting on Thursday, 11.10.2018, 10:00" speaker_role="Chairperson" speaker_id="k_laanet_19650925" speaker_name="Laanet, Kalle" speaker_mp="MP" speaker_minister="notMinister" speaker_party="RE" speaker_party_name="Reformierakond" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1965">
+<speech id="ParlaMint-EE_2018-10-11_U2" text_id="ParlaMint-EE-en_2018-10-11" subcorpus="Reference" lang="English" body="Unicameralism" term="XIII Riigikogu" session="VIII regular session" meeting="-" sitting="2018-10-11" agenda="-" date="2018-10-11" title="XIII Parliament term, VIII Session, Plenary Assembly regular meeting on Thursday, 11.10.2018, 10:00" speaker_role="Chairperson" topic="International Affairs" speaker_id="k_laanet_19650925" speaker_name="Laanet, Kalle" speaker_mp="MP" speaker_minister="notMinister" speaker_party="RE" speaker_party_name="Reformierakond" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1965">
 <p id="ParlaMint-EE_2018-10-11_U2-P1" lang="English">
-<s id="ParlaMint-EE_2018-10-11_U2-P1.1">
+<s id="ParlaMint-EE_2018-10-11_U2-P1.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.915">
 <phr usas_tags="K1" usas_cats="K1" usas_glosses="K1: Entertainment generally">
 Let	Let	let	VERB	Mood=Imp VerbForm=Fin	K1	K1	K1: Entertainment generally	t1
 <g/>
@@ -260,7 +260,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	A7+	A7p	A7+: Likely	t10
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-EE_2018-10-11_U2-P1.2">
+<s id="ParlaMint-EE_2018-10-11_U2-P1.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.659">
 First	First	first	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t1
 reading	reading	reading	NOUN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t2
 of	of	of	ADP	-	Z2,Z3c	Z2	Z2: Geographical names	t3
@@ -314,7 +314,7 @@ Affairs	Affairs	affair	PROPN	Number=Plur	A1.1.1,S1.1.1,S3.2	A1.1.1	A1.1.1: Gener
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
 </s>
-<s id="ParlaMint-EE_2018-10-11_U2-P1.3">
+<s id="ParlaMint-EE_2018-10-11_U2-P1.3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.795">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 For	For	for	ADP	-	T1.3	T1.3	T1.3: Time: Period	t1
 a	a	a	DET	Definite=Ind PronType=Art	T1.3	T1.3	T1.3: Time: Period	t2
@@ -345,9 +345,9 @@ Committee	Committee	Committee	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-EE_2018-10-11_U6" text_id="ParlaMint-EE-en_2018-10-11" subcorpus="Reference" lang="English" body="Unicameralism" term="XIII Riigikogu" session="VIII regular session" meeting="-" sitting="2018-10-11" agenda="-" date="2018-10-11" title="XIII Parliament term, VIII Session, Plenary Assembly regular meeting on Thursday, 11.10.2018, 10:00" speaker_role="Regular" speaker_id="m_aunaste_19531107" speaker_name="Aunaste, Maire" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ISA" speaker_party_name="Isamaa" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="F" speaker_birth="1953">
+<speech id="ParlaMint-EE_2018-10-11_U6" text_id="ParlaMint-EE-en_2018-10-11" subcorpus="Reference" lang="English" body="Unicameralism" term="XIII Riigikogu" session="VIII regular session" meeting="-" sitting="2018-10-11" agenda="-" date="2018-10-11" title="XIII Parliament term, VIII Session, Plenary Assembly regular meeting on Thursday, 11.10.2018, 10:00" speaker_role="Regular" topic="International Affairs" speaker_id="m_aunaste_19531107" speaker_name="Aunaste, Maire" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ISA" speaker_party_name="Isamaa" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="F" speaker_birth="1953">
 <p id="ParlaMint-EE_2018-10-11_U6-P1" lang="English">
-<s id="ParlaMint-EE_2018-10-11_U6-P1.1">
+<s id="ParlaMint-EE_2018-10-11_U6-P1.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.706">
 <phr usas_tags="Z1m" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -369,7 +369,7 @@ much	much	much	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t11
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-EE_2018-10-11_U6-P1.2">
+<s id="ParlaMint-EE_2018-10-11_U6-P1.2" senti_3="Positive" senti_6="positive" senti_n="4.510">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -378,7 +378,7 @@ gentlemen	gentlemen	gentleman	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t3
 </phr>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-EE_2018-10-11_U6-P1.3">
+<s id="ParlaMint-EE_2018-10-11_U6-P1.3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.596">
 Since	Since	since	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 have	have	have	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -427,7 +427,7 @@ Europe	Europe	Europe	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t38
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t39
 </s>
-<s id="ParlaMint-EE_2018-10-11_U6-P1.4">
+<s id="ParlaMint-EE_2018-10-11_U6-P1.4" senti_3="Neutral" senti_6="neutral positive" senti_n="2.571">
 At	At	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t3
@@ -483,7 +483,7 @@ Group	Group	Group	PROPN	Number=Sing	S5+,A4.1,B3%	S5p	S5+: Belonging to a group	t
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t41
 </s>
-<s id="ParlaMint-EE_2018-10-11_U6-P1.5">
+<s id="ParlaMint-EE_2018-10-11_U6-P1.5" senti_3="Neutral" senti_6="neutral positive" senti_n="2.607">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 proposed	proposed	propose	VERB	Tense=Past VerbForm=Part Voice=Pass	Q2.2/X7+,X4.1,G1.2,Q2.2/S4	Q2.2 X7p	Q2.2: Speech acts|X7+: Wanted	t3
@@ -513,7 +513,7 @@ Tiidus	Tiidus	Tiidus	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t18
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-EE_2018-10-11_U6-P1.6">
+<s id="ParlaMint-EE_2018-10-11_U6-P1.6" senti_3="Neutral" senti_6="neutral positive" senti_n="2.983">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Committee	Committee	Committee	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t2
@@ -606,7 +606,7 @@ September	September	September	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t73
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t74
 </s>
-<s id="ParlaMint-EE_2018-10-11_U6-P1.7">
+<s id="ParlaMint-EE_2018-10-11_U6-P1.7" senti_3="Neutral" senti_6="neutral positive" senti_n="2.519">
 At	At	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 its	its	its	PRON	Gender=Neut Number=Sing Person=3 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t3
@@ -631,7 +631,7 @@ draft	draft	draft	NOUN	Number=Sing	Q1.2,G3,Q1.2/I1	Q1.2	Q1.2: Paper documents an
 <g/>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-EE_2018-10-11_U6-P1.8">
+<s id="ParlaMint-EE_2018-10-11_U6-P1.8" senti_3="Neutral" senti_6="neutral negative" senti_n="2.431">
 First	First	first	ADV	NumType=Ord	N4,P1@	N4	N4: Linear order	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -675,7 +675,7 @@ October	October	October	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t29
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t30
 </s>
-<s id="ParlaMint-EE_2018-10-11_U6-P1.9">
+<s id="ParlaMint-EE_2018-10-11_U6-P1.9" senti_3="Neutral" senti_6="neutral positive" senti_n="2.901">
 Secondly	Secondly	secondly	ADV	-	N4	N4	N4: Linear order	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -710,7 +710,7 @@ decision	decision	decision	NOUN	Number=Sing	X6+	X6p	X6+: Decided	t28
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-EE_2018-10-11_U6-P1.10">
+<s id="ParlaMint-EE_2018-10-11_U6-P1.10" senti_3="Neutral" senti_6="neutral positive" senti_n="2.521">
 If	If	if	SCONJ	-	Z7	Z7	Z7: If	t1
 <name type="PER">
 Mati	Mati	Mati	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -788,7 +788,7 @@ Raidma	Raidma	Raidma	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t49
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t50
 </s>
-<s id="ParlaMint-EE_2018-10-11_U6-P1.11">
+<s id="ParlaMint-EE_2018-10-11_U6-P1.11" senti_3="Positive" senti_6="positive" senti_n="5.213">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -803,9 +803,9 @@ much	much	much	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t4
 </p>
 </speech>
 <note type="speaker" content="KalleLaane"/>
-<speech id="ParlaMint-EE_2018-10-11_U7" text_id="ParlaMint-EE-en_2018-10-11" subcorpus="Reference" lang="English" body="Unicameralism" term="XIII Riigikogu" session="VIII regular session" meeting="-" sitting="2018-10-11" agenda="-" date="2018-10-11" title="XIII Parliament term, VIII Session, Plenary Assembly regular meeting on Thursday, 11.10.2018, 10:00" speaker_role="Chairperson" speaker_id="k_laanet_19650925" speaker_name="Laanet, Kalle" speaker_mp="MP" speaker_minister="notMinister" speaker_party="RE" speaker_party_name="Reformierakond" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1965">
+<speech id="ParlaMint-EE_2018-10-11_U7" text_id="ParlaMint-EE-en_2018-10-11" subcorpus="Reference" lang="English" body="Unicameralism" term="XIII Riigikogu" session="VIII regular session" meeting="-" sitting="2018-10-11" agenda="-" date="2018-10-11" title="XIII Parliament term, VIII Session, Plenary Assembly regular meeting on Thursday, 11.10.2018, 10:00" speaker_role="Chairperson" topic="Other" speaker_id="k_laanet_19650925" speaker_name="Laanet, Kalle" speaker_mp="MP" speaker_minister="notMinister" speaker_party="RE" speaker_party_name="Reformierakond" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1965">
 <p id="ParlaMint-EE_2018-10-11_U7-P1" lang="English">
-<s id="ParlaMint-EE_2018-10-11_U7-P1.1">
+<s id="ParlaMint-EE_2018-10-11_U7-P1.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.974">
 Dear	Dear	dear	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t1
 <name type="PER">
 Maire	Maire	Maire	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -822,7 +822,7 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t10
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-EE_2018-10-11_U7-P1.2">
+<s id="ParlaMint-EE_2018-10-11_U7-P1.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.857">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -831,7 +831,7 @@ negotiations	negotiations	negotiation	NOUN	Number=Plur	Q2.2	Q2.2	Q2.2: Speech ac
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-EE_2018-10-11_U7-P1.3">
+<s id="ParlaMint-EE_2018-10-11_U7-P1.3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.819">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -841,7 +841,7 @@ negotiations	negotiations	negotiation	NOUN	Number=Plur	Q2.2	Q2.2	Q2.2: Speech ac
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-EE_2018-10-11_U7-P1.4">
+<s id="ParlaMint-EE_2018-10-11_U7-P1.4" senti_3="Neutral" senti_6="neutral negative" senti_n="2.492">
 As	As	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
@@ -872,7 +872,7 @@ vote	vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t24
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="ParlaMint-EE_2018-10-11_U7-P1.5">
+<s id="ParlaMint-EE_2018-10-11_U7-P1.5" senti_3="Neutral" senti_6="neutral positive" senti_n="2.915">
 Can	Can	can	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 go	go	go	VERB	VerbForm=Inf	M1,A2.1+,A1.1.1,A9-,A1.8+,Q2.1,N6+,I2.2,A1.1.2,T2-,S3.2,A6.3+,B2-/X1%,B1%	M1	M1: Moving, coming and going	t3
@@ -884,14 +884,14 @@ vote	vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t7
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
 <note type="-" content="???Hääl saalist: 'Jaa!'???"/>
-<s id="ParlaMint-EE_2018-10-11_U7-P1.6">
+<s id="ParlaMint-EE_2018-10-11_U7-P1.6" senti_3="Positive" senti_6="mixed positive" senti_n="4.351">
 Okay	Okay	okay	INTJ	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="ParlaMint-EE_2018-10-11_U7-P2" lang="English">
-<s id="ParlaMint-EE_2018-10-11_U7-P2.1">
+<s id="ParlaMint-EE_2018-10-11_U7-P2.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.887">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 shall	shall	shall	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 put	put	put	VERB	VerbForm=Inf	M2,Q2.1,Q2.2,A1.1.1	M2	M2: Putting, pulling, pushing, transporting	t3
@@ -903,7 +903,7 @@ vote	vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t8
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-EE_2018-10-11_U7-P2.2">
+<s id="ParlaMint-EE_2018-10-11_U7-P2.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.644">
 Please	Please	please	INTJ	-	E4.2+,E2+,X7+	E4.2p	E4.2+: Content	t1
 <phr usas_tags="G1.2" usas_cats="G1.2" usas_glosses="G1.2: Politics">
 take	take	take	VERB	Mood=Imp VerbForm=Fin	G1.2	G1.2	G1.2: Politics	t2
@@ -917,7 +917,7 @@ vote	vote	vote	VERB	Mood=Imp VerbForm=Fin	G1.2	G1.2	G1.2: Politics	t6
 </s>
 </p>
 <p id="ParlaMint-EE_2018-10-11_U7-P3" lang="English">
-<s id="ParlaMint-EE_2018-10-11_U7-P3.1">
+<s id="ParlaMint-EE_2018-10-11_U7-P3.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.342">
 69	69	69	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 members	members	member	NOUN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -958,7 +958,7 @@ Riigikogu	Riigikogu	Riigikogu	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t28
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-EE_2018-10-11_U7-P3.2">
+<s id="ParlaMint-EE_2018-10-11_U7-P3.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.852">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 decision	decision	decision	NOUN	Number=Sing	X6+	X6p	X6+: Decided	t2
 has	has	have	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -969,7 +969,7 @@ taken	taken	take	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,T1.3,C1,A1.1.1,M2,
 </s>
 </p>
 <p id="ParlaMint-EE_2018-10-11_U7-P4" lang="English">
-<s id="ParlaMint-EE_2018-10-11_U7-P4.1">
+<s id="ParlaMint-EE_2018-10-11_U7-P4.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.002">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 concludes	concludes	conclude	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	X6+,T2-	X6p	X6+: Decided	t2
 today	today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t3
@@ -987,7 +987,7 @@ Riigikogu	Riigikogu	Riigikogu	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t9
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-EE_2018-10-11_U7-P4.2">
+<s id="ParlaMint-EE_2018-10-11_U7-P4.2" senti_3="Positive" senti_6="positive" senti_n="5.056">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -1003,7 +1003,7 @@ work	work	work	VERB	VerbForm=Inf	I3.1,A1.1.1,X9.2+,A2.1+,A2.2	I3.1	I3.1: Work an
 </s>
 </p>
 <p id="ParlaMint-EE_2018-10-11_U7-P5" lang="English">
-<s id="ParlaMint-EE_2018-10-11_U7-P5.1">
+<s id="ParlaMint-EE_2018-10-11_U7-P5.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.913">
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
 Closure	Closure	closure	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t1
 of	of	of	ADP	-	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t2

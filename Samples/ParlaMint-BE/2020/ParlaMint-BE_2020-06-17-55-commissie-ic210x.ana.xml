@@ -18,9 +18,25 @@
                <resp xml:lang="nl">Taalkundige verrijking</resp>
                <resp xml:lang="en">Linguistic annotation</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="nl">De Europese Commissie</orgName>
@@ -32,7 +48,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="90" xml:lang="en">90 speeches</measure>
@@ -48,7 +64,7 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="nl">Deze bestanden zijn beschikbaar volgens de <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
@@ -56,7 +72,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -78,6 +94,7 @@
                <tagUsage gi="div" occurs="1"/>
                <tagUsage gi="link" occurs="22938"/>
                <tagUsage gi="linkGrp" occurs="1132"/>
+               <tagUsage gi="measure" occurs="1132"/>
                <tagUsage gi="name" occurs="560"/>
                <tagUsage gi="note" occurs="192"/>
                <tagUsage gi="pc" occurs="2190"/>
@@ -99,8 +116,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-13">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
          <change when="2021-02-15">
             <name>Henk van der Pol</name>: initial version.</change>
       </revisionDesc>
@@ -123,41 +142,42 @@
             <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.ana.note13">- Peter Buysrogge à Philippe Goffin (Affaires étrangères et Défense) sur "Le retard dans le développement des nouvelles frégates" (55006700C)</note>
             <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.ana.note14">- Melissa Depraetere à Philippe Goffin (Affaires étrangères et Défense) sur "La construction des nouvelles frégates M" (55006711C)</note>
             <note type="speaker" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.ana.note15">01.01 Annick Ponthier (VB):</note>
-            <u ana="#regular" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u1" who="#PonthierAnnick" xml:lang="nl">
+            <u ana="#regular topic:defen" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u1" who="#PonthierAnnick" xml:lang="nl">
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg1" xml:lang="nl">
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s18" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w254" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="mijnheer" msd="UPosTag=NOUN|Gender=Com|Number=Sing">Mijnheer</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w255" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w256" join="right" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="minister" msd="UPosTag=NOUN|Gender=Com|Number=Sing">minister</w>
+                     <measure type="sentiment" quantity="0.224" ana="senti:negneg" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s18"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w254" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="mijnheer" msd="UPosTag=NOUN|Gender=Com|Number=Sing">Mijnheer</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w255" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w256" join="right" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="minister" msd="UPosTag=NOUN|Gender=Com|Number=Sing">minister</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc79" msd="UPosTag=PUNCT">,</pc>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w257" ana="#pos.ADP #type.pre" lemma="volgens" msd="UPosTag=ADP">volgens</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w258" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="recent" msd="UPosTag=ADJ|Degree=Pos">recente</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w259" ana="#pos.NOU-C #number.pl" lemma="bericht" msd="UPosTag=NOUN|Number=Plur">berichten</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w260" ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.sg #person.2_3 #formal.infl-t" lemma="lopen" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin">loopt</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w261" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w262" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="bouw" msd="UPosTag=NOUN|Gender=Com|Number=Sing">bouw</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w263" ana="#pos.ADP #type.pre" lemma="van" msd="UPosTag=ADP">van</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w264" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w265" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="nieuw" msd="UPosTag=ADJ|Degree=Pos">nieuwe</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w266" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="multipurpos" msd="UPosTag=NOUN|Number=Plur">multipurpose</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w267" ana="#pos.NOU-C #number.pl" lemma="schip" msd="UPosTag=NOUN|Number=Plur">schepen</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w268" ana="#pos.CONJ #type.coor" lemma="of" msd="UPosTag=CCONJ">of</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w257" ana="#BE-pos.ADP #BE-type.pre" lemma="volgens" msd="UPosTag=ADP">volgens</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w258" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="recent" msd="UPosTag=ADJ|Degree=Pos">recente</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w259" ana="#BE-pos.NOU-C #BE-number.pl" lemma="bericht" msd="UPosTag=NOUN|Number=Plur">berichten</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w260" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.ind #BE-tense.pres #BE-number.sg #BE-person.2_3 #BE-formal.infl-t" lemma="lopen" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin">loopt</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w261" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w262" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="bouw" msd="UPosTag=NOUN|Gender=Com|Number=Sing">bouw</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w263" ana="#BE-pos.ADP #BE-type.pre" lemma="van" msd="UPosTag=ADP">van</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w264" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w265" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="nieuw" msd="UPosTag=ADJ|Degree=Pos">nieuwe</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w266" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="multipurpos" msd="UPosTag=NOUN|Number=Plur">multipurpose</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w267" ana="#BE-pos.NOU-C #BE-number.pl" lemma="schip" msd="UPosTag=NOUN|Number=Plur">schepen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w268" ana="#BE-pos.CONJ #BE-type.coor" lemma="of" msd="UPosTag=CCONJ">of</w>
                      <name type="MISC">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w269" ana="#pos.NOU-C #number.pl" lemma="M-fregat" msd="UPosTag=NOUN|Number=Plur">M-fregatten</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w269" ana="#BE-pos.NOU-C #BE-number.pl" lemma="M-fregat" msd="UPosTag=NOUN|Number=Plur">M-fregatten</w>
                      </name>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w270" ana="#pos.ADP #type.pre" lemma="voor" msd="UPosTag=ADP">voor</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w271" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w270" ana="#BE-pos.ADP #BE-type.pre" lemma="voor" msd="UPosTag=ADP">voor</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w271" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
                      <name type="MISC">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w272" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="Nederlands" msd="UPosTag=ADJ|Degree=Pos">Nederlandse</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w272" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="Nederlands" msd="UPosTag=ADJ|Degree=Pos">Nederlandse</w>
                      </name>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w273" ana="#pos.CONJ #type.coor" lemma="en" msd="UPosTag=CCONJ">en</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w273" ana="#BE-pos.CONJ #BE-type.coor" lemma="en" msd="UPosTag=CCONJ">en</w>
                      <name type="MISC">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w274" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="Belgisch" msd="UPosTag=ADJ|Degree=Pos">Belgische</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w274" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="Belgisch" msd="UPosTag=ADJ|Degree=Pos">Belgische</w>
                      </name>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w275" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="marine" msd="UPosTag=NOUN|Gender=Com|Number=Sing">marine</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w276" ana="#pos.ADV" lemma="opnieuw" msd="UPosTag=ADV">opnieuw</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w277" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="vertraging" msd="UPosTag=NOUN|Gender=Com|Number=Sing">vertraging</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w278" join="right" ana="#pos.ADP #type.post" lemma="op" msd="UPosTag=ADP">op</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w275" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="marine" msd="UPosTag=NOUN|Gender=Com|Number=Sing">marine</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w276" ana="#BE-pos.ADV" lemma="opnieuw" msd="UPosTag=ADV">opnieuw</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w277" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="vertraging" msd="UPosTag=NOUN|Gender=Com|Number=Sing">vertraging</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w278" join="right" ana="#BE-pos.ADP #BE-type.post" lemma="op" msd="UPosTag=ADP">op</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc80" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link target="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.w260 #ParlaMint-BE_2020-06-17-55-commissie-ic210x.w254" ana="ud-syn:parataxis"/>
@@ -190,19 +210,20 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s19" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w279" ana="#pos.PD #type.pers #person.3 #gender.n #number.sg #position.pron" lemma="het" msd="UPosTag=PRON|Person=3|PronType=Prs">Het</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w280" ana="#pos.VRB #finiteness.fin #mood.imp_ind #tense.pres #number.sg" lemma="zijn" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin">is</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w281" ana="#pos.AA #degree.pos #position.adv_pred" lemma="momenteel" msd="UPosTag=ADJ|Degree=Pos">momenteel</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w282" ana="#pos.AA #degree.pos #position.adv_pred" lemma="onduidelijk" msd="UPosTag=ADJ|Degree=Pos">onduidelijk</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w283" ana="#pos.CONJ #type.sub" lemma="wanneer" msd="UPosTag=ADV">wanneer</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w284" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w285" ana="#pos.NOU-C #number.pl" lemma="schip" msd="UPosTag=NOUN|Number=Plur">schepen</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w286" ana="#pos.AA #degree.pos #position.adv_pred" lemma="effectief" msd="UPosTag=ADJ|Degree=Pos">effectief</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w287" ana="#pos.ADP #type.pre" lemma="in" msd="UPosTag=ADP">in</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w288" ana="#pos.PD #type.d-p #subtype.art-def" lemma="het" msd="UPosTag=DET|Definite=Def">het</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w289" ana="#pos.NOU-C #gender.n #number.sg" lemma="water" msd="UPosTag=NOUN|Gender=Neut|Number=Sing">water</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w290" ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.pl" lemma="zullen" msd="UPosTag=AUX|Number=Plur|Tense=Pres|VerbForm=Fin">zullen</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w291" join="right" ana="#pos.VRB #finiteness.ger_inf" lemma="liggen" msd="UPosTag=VERB|VerbForm=Inf">liggen</w>
+                     <measure type="sentiment" quantity="0.787" ana="senti:mixneg" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s19"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w279" ana="#BE-pos.PD #BE-type.pers #BE-person.3 #BE-gender.n #BE-number.sg #BE-position.pron" lemma="het" msd="UPosTag=PRON|Person=3|PronType=Prs">Het</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w280" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.imp_ind #BE-tense.pres #BE-number.sg" lemma="zijn" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin">is</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w281" ana="#BE-pos.AA #BE-degree.pos #BE-position.adv_pred" lemma="momenteel" msd="UPosTag=ADJ|Degree=Pos">momenteel</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w282" ana="#BE-pos.AA #BE-degree.pos #BE-position.adv_pred" lemma="onduidelijk" msd="UPosTag=ADJ|Degree=Pos">onduidelijk</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w283" ana="#BE-pos.CONJ #BE-type.sub" lemma="wanneer" msd="UPosTag=ADV">wanneer</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w284" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w285" ana="#BE-pos.NOU-C #BE-number.pl" lemma="schip" msd="UPosTag=NOUN|Number=Plur">schepen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w286" ana="#BE-pos.AA #BE-degree.pos #BE-position.adv_pred" lemma="effectief" msd="UPosTag=ADJ|Degree=Pos">effectief</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w287" ana="#BE-pos.ADP #BE-type.pre" lemma="in" msd="UPosTag=ADP">in</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w288" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="het" msd="UPosTag=DET|Definite=Def">het</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w289" ana="#BE-pos.NOU-C #BE-gender.n #BE-number.sg" lemma="water" msd="UPosTag=NOUN|Gender=Neut|Number=Sing">water</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w290" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.ind #BE-tense.pres #BE-number.pl" lemma="zullen" msd="UPosTag=AUX|Number=Plur|Tense=Pres|VerbForm=Fin">zullen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w291" join="right" ana="#BE-pos.VRB #BE-finiteness.ger_inf" lemma="liggen" msd="UPosTag=VERB|VerbForm=Inf">liggen</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc81" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link target="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.w282 #ParlaMint-BE_2020-06-17-55-commissie-ic210x.w279" ana="ud-syn:expl"/>
@@ -222,24 +243,25 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s20" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w292" ana="#pos.PD #type.pers #person.3 #gender.n #number.sg #position.pron" lemma="het" msd="UPosTag=PRON|Person=3|PronType=Prs">Het</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w293" ana="#pos.VRB #finiteness.fin #mood.ind #tense.past #number.sg" lemma="zullen" msd="UPosTag=AUX|Number=Sing|Tense=Past|VerbForm=Fin">zou</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w294" ana="#pos.VRB #finiteness.ger_inf" lemma="gaan" msd="UPosTag=VERB|VerbForm=Inf">gaan</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w295" ana="#pos.ADP #type.pre" lemma="over" msd="UPosTag=ADP">over</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w296" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="tijdrovend" msd="UPosTag=ADJ|Degree=Pos">tijdrovende</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w297" ana="#pos.CONJ #type.coor" lemma="en" msd="UPosTag=CCONJ">en</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w298" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="complex" msd="UPosTag=ADJ|Degree=Pos">complexe</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w299" ana="#pos.NOU-C #number.pl" lemma="afweging" msd="UPosTag=NOUN|Number=Plur">afwegingen</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w300" ana="#pos.ADP #type.pre" lemma="over" msd="UPosTag=ADP">over</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w301" join="right" ana="#pos.NOU-C #number.pl" lemma="specificatie" msd="UPosTag=NOUN|Number=Plur">specificaties</w>
+                     <measure type="sentiment" quantity="1.364" ana="senti:mixneg" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s20"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w292" ana="#BE-pos.PD #BE-type.pers #BE-person.3 #BE-gender.n #BE-number.sg #BE-position.pron" lemma="het" msd="UPosTag=PRON|Person=3|PronType=Prs">Het</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w293" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.ind #BE-tense.past #BE-number.sg" lemma="zullen" msd="UPosTag=AUX|Number=Sing|Tense=Past|VerbForm=Fin">zou</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w294" ana="#BE-pos.VRB #BE-finiteness.ger_inf" lemma="gaan" msd="UPosTag=VERB|VerbForm=Inf">gaan</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w295" ana="#BE-pos.ADP #BE-type.pre" lemma="over" msd="UPosTag=ADP">over</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w296" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="tijdrovend" msd="UPosTag=ADJ|Degree=Pos">tijdrovende</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w297" ana="#BE-pos.CONJ #BE-type.coor" lemma="en" msd="UPosTag=CCONJ">en</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w298" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="complex" msd="UPosTag=ADJ|Degree=Pos">complexe</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w299" ana="#BE-pos.NOU-C #BE-number.pl" lemma="afweging" msd="UPosTag=NOUN|Number=Plur">afwegingen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w300" ana="#BE-pos.ADP #BE-type.pre" lemma="over" msd="UPosTag=ADP">over</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w301" join="right" ana="#BE-pos.NOU-C #BE-number.pl" lemma="specificatie" msd="UPosTag=NOUN|Number=Plur">specificaties</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc82" msd="UPosTag=PUNCT">,</pc>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w302" ana="#pos.NOU-C #number.pl" lemma="offerte" msd="UPosTag=NOUN|Number=Plur">offertes</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w303" ana="#pos.CONJ #type.coor" lemma="en" msd="UPosTag=CCONJ">en</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w304" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w305" ana="#pos.AA #position.prenom #formal.infl-e #degree.pos" lemma="gewenst" msd="UPosTag=VERB|VerbForm=Part">gewenste</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w306" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="termijn" msd="UPosTag=NOUN|Gender=Com|Number=Sing">termijn</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w307" ana="#pos.ADP #type.pre" lemma="van" msd="UPosTag=ADP">van</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w308" join="right" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="inzetbaarheid" msd="UPosTag=NOUN|Gender=Com|Number=Sing">inzetbaarheid</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w302" ana="#BE-pos.NOU-C #BE-number.pl" lemma="offerte" msd="UPosTag=NOUN|Number=Plur">offertes</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w303" ana="#BE-pos.CONJ #BE-type.coor" lemma="en" msd="UPosTag=CCONJ">en</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w304" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w305" ana="#BE-pos.AA #BE-position.prenom #BE-formal.infl-e #BE-degree.pos" lemma="gewenst" msd="UPosTag=VERB|VerbForm=Part">gewenste</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w306" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="termijn" msd="UPosTag=NOUN|Gender=Com|Number=Sing">termijn</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w307" ana="#BE-pos.ADP #BE-type.pre" lemma="van" msd="UPosTag=ADP">van</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w308" join="right" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="inzetbaarheid" msd="UPosTag=NOUN|Gender=Com|Number=Sing">inzetbaarheid</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc83" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link target="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.w294 #ParlaMint-BE_2020-06-17-55-commissie-ic210x.w292" ana="ud-syn:nsubj"/>
@@ -266,32 +288,33 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg2" xml:lang="nl">
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s21" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w309" ana="#pos.PD #type.pers #person.2 #number.sg #position.pron #case.nom" lemma="u" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs">U</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w310" ana="#pos.VRB #finiteness.fin #mood.imp_ind #tense.pres #number.sg" lemma="weten" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin">weet</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w311" ana="#pos.CONJ #type.sub" lemma="dat" msd="UPosTag=SCONJ">dat</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w312" ana="#pos.ADP #type.pre" lemma="in" msd="UPosTag=ADP">in</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w313" ana="#pos.PD #type.indef #subtype.art-indef" lemma="een" msd="UPosTag=DET|Definite=Ind">een</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w314" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="wereld" msd="UPosTag=NOUN|Gender=Com|Number=Sing">wereld</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w315" ana="#pos.ADP #type.pre" lemma="met" msd="UPosTag=ADP">met</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w316" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="toenemend" msd="UPosTag=VERB|VerbForm=Part">toenemende</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w317" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="instabiliteit" msd="UPosTag=NOUN|Gender=Com|Number=Sing">instabiliteit</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w318" ana="#pos.CONJ #type.coor" lemma="en" msd="UPosTag=CCONJ">en</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w319" ana="#pos.PD #type.indef #subtype.art-indef" lemma="een" msd="UPosTag=DET|Definite=Ind">een</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w320" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="veranderend" msd="UPosTag=VERB|VerbForm=Part">veranderende</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w321" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="geopolitiek" msd="UPosTag=ADJ|Degree=Pos">geopolitieke</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w322" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="situatie" msd="UPosTag=NOUN|Gender=Com|Number=Sing">situatie</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w323" ana="#pos.PD #type.indef #subtype.art-indef" lemma="een" msd="UPosTag=DET|Definite=Ind">een</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w324" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="performant" msd="UPosTag=ADJ|Degree=Pos">performante</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w325" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="defensie" msd="UPosTag=NOUN|Gender=Com|Number=Sing">defensie</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w326" ana="#pos.ADP #type.pre" lemma="van" msd="UPosTag=ADP">van</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w327" ana="#pos.ADV" lemma="uitermate" msd="UPosTag=ADV">uitermate</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w328" ana="#pos.AA #degree.pos #position.prenom" lemma="groot" msd="UPosTag=ADJ|Degree=Pos">groot</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w329" ana="#pos.NOU-C #gender.n #number.sg" lemma="belang" msd="UPosTag=NOUN|Gender=Neut|Number=Sing">belang</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w330" join="right" ana="#pos.VRB #finiteness.fin #mood.imp_ind #tense.pres #number.sg" lemma="zijn" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin">is</w>
+                     <measure type="sentiment" quantity="2.527" ana="senti:neupos" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s21"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w309" ana="#BE-pos.PD #BE-type.pers #BE-person.2 #BE-number.sg #BE-position.pron #BE-case.nom" lemma="u" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs">U</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w310" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.imp_ind #BE-tense.pres #BE-number.sg" lemma="weten" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin">weet</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w311" ana="#BE-pos.CONJ #BE-type.sub" lemma="dat" msd="UPosTag=SCONJ">dat</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w312" ana="#BE-pos.ADP #BE-type.pre" lemma="in" msd="UPosTag=ADP">in</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w313" ana="#BE-pos.PD #BE-type.indef #BE-subtype.art-indef" lemma="een" msd="UPosTag=DET|Definite=Ind">een</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w314" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="wereld" msd="UPosTag=NOUN|Gender=Com|Number=Sing">wereld</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w315" ana="#BE-pos.ADP #BE-type.pre" lemma="met" msd="UPosTag=ADP">met</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w316" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="toenemend" msd="UPosTag=VERB|VerbForm=Part">toenemende</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w317" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="instabiliteit" msd="UPosTag=NOUN|Gender=Com|Number=Sing">instabiliteit</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w318" ana="#BE-pos.CONJ #BE-type.coor" lemma="en" msd="UPosTag=CCONJ">en</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w319" ana="#BE-pos.PD #BE-type.indef #BE-subtype.art-indef" lemma="een" msd="UPosTag=DET|Definite=Ind">een</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w320" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="veranderend" msd="UPosTag=VERB|VerbForm=Part">veranderende</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w321" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="geopolitiek" msd="UPosTag=ADJ|Degree=Pos">geopolitieke</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w322" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="situatie" msd="UPosTag=NOUN|Gender=Com|Number=Sing">situatie</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w323" ana="#BE-pos.PD #BE-type.indef #BE-subtype.art-indef" lemma="een" msd="UPosTag=DET|Definite=Ind">een</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w324" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="performant" msd="UPosTag=ADJ|Degree=Pos">performante</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w325" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="defensie" msd="UPosTag=NOUN|Gender=Com|Number=Sing">defensie</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w326" ana="#BE-pos.ADP #BE-type.pre" lemma="van" msd="UPosTag=ADP">van</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w327" ana="#BE-pos.ADV" lemma="uitermate" msd="UPosTag=ADV">uitermate</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w328" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom" lemma="groot" msd="UPosTag=ADJ|Degree=Pos">groot</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w329" ana="#BE-pos.NOU-C #BE-gender.n #BE-number.sg" lemma="belang" msd="UPosTag=NOUN|Gender=Neut|Number=Sing">belang</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w330" join="right" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.imp_ind #BE-tense.pres #BE-number.sg" lemma="zijn" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin">is</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc84" msd="UPosTag=PUNCT">,</pc>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w331" ana="#pos.ADV" lemma="vandaar" msd="UPosTag=ADV">vandaar</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w332" ana="#pos.PD #type.poss #person.1 #number.sg #position.prenom" lemma="mijn" msd="UPosTag=PRON|Person=1|Poss=Yes|PronType=Prs">mijn</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w333" join="right" ana="#pos.NOU-C #number.pl" lemma="vraag" msd="UPosTag=NOUN|Number=Plur">vragen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w331" ana="#BE-pos.ADV" lemma="vandaar" msd="UPosTag=ADV">vandaar</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w332" ana="#BE-pos.PD #BE-type.poss #BE-person.1 #BE-number.sg #BE-position.prenom" lemma="mijn" msd="UPosTag=PRON|Person=1|Poss=Yes|PronType=Prs">mijn</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w333" join="right" ana="#BE-pos.NOU-C #BE-number.pl" lemma="vraag" msd="UPosTag=NOUN|Number=Plur">vragen</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc85" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link target="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.w310 #ParlaMint-BE_2020-06-17-55-commissie-ic210x.w309" ana="ud-syn:nsubj"/>
@@ -326,24 +349,25 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg3" xml:lang="nl">
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s22" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w334" ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.sg #person.2_3 #formal.infl-t" lemma="kunnen" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin">Kunt</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w335" ana="#pos.PD #type.pers #person.2 #number.sg #position.pron #case.nom" lemma="u" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs">u</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w336" ana="#pos.PD #type.indef #position.prenom" lemma="meer" msd="UPosTag=DET">meer</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w337" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="duiding" msd="UPosTag=NOUN|Gender=Com|Number=Sing">duiding</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w338" ana="#pos.VRB #finiteness.ger_inf" lemma="geven" msd="UPosTag=VERB|VerbForm=Inf">geven</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w339" ana="#pos.ADP #type.pre" lemma="bij" msd="UPosTag=ADP">bij</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w340" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w341" join="right" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="situatie" msd="UPosTag=NOUN|Gender=Com|Number=Sing">situatie</w>
+                     <measure type="sentiment" quantity="2.553" ana="senti:neupos" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s22"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w334" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.ind #BE-tense.pres #BE-number.sg #BE-person.2_3 #BE-formal.infl-t" lemma="kunnen" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin">Kunt</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w335" ana="#BE-pos.PD #BE-type.pers #BE-person.2 #BE-number.sg #BE-position.pron #BE-case.nom" lemma="u" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs">u</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w336" ana="#BE-pos.PD #BE-type.indef #BE-position.prenom" lemma="meer" msd="UPosTag=DET">meer</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w337" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="duiding" msd="UPosTag=NOUN|Gender=Com|Number=Sing">duiding</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w338" ana="#BE-pos.VRB #BE-finiteness.ger_inf" lemma="geven" msd="UPosTag=VERB|VerbForm=Inf">geven</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w339" ana="#BE-pos.ADP #BE-type.pre" lemma="bij" msd="UPosTag=ADP">bij</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w340" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w341" join="right" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="situatie" msd="UPosTag=NOUN|Gender=Com|Number=Sing">situatie</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc86" msd="UPosTag=PUNCT">,</pc>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w342" ana="#pos.CONJ #type.coor" lemma="alsook" msd="UPosTag=CCONJ">alsook</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w343" ana="#pos.PD #type.indef #subtype.art-indef" lemma="een" msd="UPosTag=DET|Definite=Ind">een</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w344" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="stand" msd="UPosTag=NOUN|Gender=Com|Number=Sing">stand</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w345" ana="#pos.ADP #type.pre" lemma="van" msd="UPosTag=ADP">van</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w346" ana="#pos.NOU-C #number.pl" lemma="zaak" msd="UPosTag=NOUN|Number=Plur">zaken</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w347" ana="#pos.ADP #type.pre" lemma="in" msd="UPosTag=ADP">in</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w348" ana="#pos.PD #type.d-p #subtype.art-def" lemma="het" msd="UPosTag=DET|Definite=Def">het</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w349" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="heel" msd="UPosTag=ADJ|Degree=Pos">hele</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w350" join="right" ana="#pos.NOU-C #gender.n #number.sg" lemma="dossier" msd="UPosTag=NOUN|Gender=Neut|Number=Sing">dossier</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w342" ana="#BE-pos.CONJ #BE-type.coor" lemma="alsook" msd="UPosTag=CCONJ">alsook</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w343" ana="#BE-pos.PD #BE-type.indef #BE-subtype.art-indef" lemma="een" msd="UPosTag=DET|Definite=Ind">een</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w344" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="stand" msd="UPosTag=NOUN|Gender=Com|Number=Sing">stand</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w345" ana="#BE-pos.ADP #BE-type.pre" lemma="van" msd="UPosTag=ADP">van</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w346" ana="#BE-pos.NOU-C #BE-number.pl" lemma="zaak" msd="UPosTag=NOUN|Number=Plur">zaken</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w347" ana="#BE-pos.ADP #BE-type.pre" lemma="in" msd="UPosTag=ADP">in</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w348" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="het" msd="UPosTag=DET|Definite=Def">het</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w349" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="heel" msd="UPosTag=ADJ|Degree=Pos">hele</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w350" join="right" ana="#BE-pos.NOU-C #BE-gender.n #BE-number.sg" lemma="dossier" msd="UPosTag=NOUN|Gender=Neut|Number=Sing">dossier</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc87" msd="UPosTag=PUNCT">?</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link target="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.w338 #ParlaMint-BE_2020-06-17-55-commissie-ic210x.w334" ana="ud-syn:aux"/>
@@ -370,14 +394,15 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg4" xml:lang="nl">
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s23" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w351" ana="#pos.PD #type.w-p #position.pron #case.acc_dat" lemma="waar" msd="UPosTag=ADV">Waar</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w352" ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.sg #person.2_3 #formal.infl-t" lemma="liggen" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin">ligt</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w353" ana="#pos.AA #degree.pos #position.adv_pred" lemma="momenteel" msd="UPosTag=ADJ|Degree=Pos">momenteel</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w354" ana="#pos.PD #type.d-p #subtype.art-def" lemma="het" msd="UPosTag=DET|Definite=Def">het</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w355" ana="#pos.NOU-C #gender.n #number.sg" lemma="probleem" msd="UPosTag=NOUN|Gender=Neut|Number=Sing">probleem</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w356" ana="#pos.ADP #type.pre" lemma="volgens" msd="UPosTag=ADP">volgens</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w357" ana="#pos.PD #type.poss #person.2 #position.prenom" lemma="uw" msd="UPosTag=PRON|Person=2|Poss=Yes|PronType=Prs">uw</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w358" join="right" ana="#pos.NOU-C #number.pl" lemma="gegeven" msd="UPosTag=NOUN|Number=Plur">gegevens</w>
+                     <measure type="sentiment" quantity="0.792" ana="senti:mixneg" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s23"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w351" ana="#BE-pos.PD #BE-type.w-p #BE-position.pron #BE-case.acc_dat" lemma="waar" msd="UPosTag=ADV">Waar</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w352" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.ind #BE-tense.pres #BE-number.sg #BE-person.2_3 #BE-formal.infl-t" lemma="liggen" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin">ligt</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w353" ana="#BE-pos.AA #BE-degree.pos #BE-position.adv_pred" lemma="momenteel" msd="UPosTag=ADJ|Degree=Pos">momenteel</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w354" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="het" msd="UPosTag=DET|Definite=Def">het</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w355" ana="#BE-pos.NOU-C #BE-gender.n #BE-number.sg" lemma="probleem" msd="UPosTag=NOUN|Gender=Neut|Number=Sing">probleem</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w356" ana="#BE-pos.ADP #BE-type.pre" lemma="volgens" msd="UPosTag=ADP">volgens</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w357" ana="#BE-pos.PD #BE-type.poss #BE-person.2 #BE-position.prenom" lemma="uw" msd="UPosTag=PRON|Person=2|Poss=Yes|PronType=Prs">uw</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w358" join="right" ana="#BE-pos.NOU-C #BE-number.pl" lemma="gegeven" msd="UPosTag=NOUN|Number=Plur">gegevens</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc88" msd="UPosTag=PUNCT">?</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link target="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.w352 #ParlaMint-BE_2020-06-17-55-commissie-ic210x.w351" ana="ud-syn:advmod"/>
@@ -394,21 +419,22 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg5" xml:lang="nl">
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s24" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w359" ana="#pos.PD #type.w-p #position.pron" lemma="wat" msd="UPosTag=PRON|Person=3|PronType=Int">Wat</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w360" ana="#pos.VRB #finiteness.fin #mood.imp_ind #tense.pres #number.sg" lemma="zijn" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin">is</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w361" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w362" ana="#pos.AA #position.prenom #formal.infl-e #degree.pos" lemma="verwacht" msd="UPosTag=VERB|VerbForm=Part">verwachte</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w363" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="levensduur" msd="UPosTag=NOUN|Gender=Com|Number=Sing">levensduur</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w364" ana="#pos.ADP #type.pre" lemma="van" msd="UPosTag=ADP">van</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w365" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w366" ana="#pos.NOU-C #number.pl" lemma="fregat" msd="UPosTag=NOUN|Number=Plur">fregatten</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w367" ana="#pos.ADV" lemma="waarover" msd="UPosTag=ADV">waarover</w>
+                     <measure type="sentiment" quantity="2.030" ana="senti:neuneg" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s24"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w359" ana="#BE-pos.PD #BE-type.w-p #BE-position.pron" lemma="wat" msd="UPosTag=PRON|Person=3|PronType=Int">Wat</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w360" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.imp_ind #BE-tense.pres #BE-number.sg" lemma="zijn" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin">is</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w361" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w362" ana="#BE-pos.AA #BE-position.prenom #BE-formal.infl-e #BE-degree.pos" lemma="verwacht" msd="UPosTag=VERB|VerbForm=Part">verwachte</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w363" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="levensduur" msd="UPosTag=NOUN|Gender=Com|Number=Sing">levensduur</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w364" ana="#BE-pos.ADP #BE-type.pre" lemma="van" msd="UPosTag=ADP">van</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w365" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w366" ana="#BE-pos.NOU-C #BE-number.pl" lemma="fregat" msd="UPosTag=NOUN|Number=Plur">fregatten</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w367" ana="#BE-pos.ADV" lemma="waarover" msd="UPosTag=ADV">waarover</w>
                      <name type="ORG">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w368" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="defensie" msd="UPosTag=NOUN|Gender=Com|Number=Sing">Defensie</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w368" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="defensie" msd="UPosTag=NOUN|Gender=Com|Number=Sing">Defensie</w>
                      </name>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w369" ana="#pos.AA #degree.pos #position.adv_pred" lemma="momenteel" msd="UPosTag=ADJ|Degree=Pos">momenteel</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w370" ana="#pos.ADV" lemma="nog" msd="UPosTag=ADV">nog</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w371" join="right" ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.sg #person.2_3 #formal.infl-t" lemma="beschikken" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin">beschikt</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w369" ana="#BE-pos.AA #BE-degree.pos #BE-position.adv_pred" lemma="momenteel" msd="UPosTag=ADJ|Degree=Pos">momenteel</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w370" ana="#BE-pos.ADV" lemma="nog" msd="UPosTag=ADV">nog</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w371" join="right" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.ind #BE-tense.pres #BE-number.sg #BE-person.2_3 #BE-formal.infl-t" lemma="beschikken" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin">beschikt</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc89" msd="UPosTag=PUNCT">?</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link ana="ud-syn:root" target="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s24 #ParlaMint-BE_2020-06-17-55-commissie-ic210x.w359"/>
@@ -430,18 +456,19 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg6" xml:lang="nl">
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s25" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w372" ana="#pos.PD #type.w-p #position.prenom" lemma="welke" msd="UPosTag=DET">Welke</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w373" ana="#pos.NOU-C #number.pl" lemma="gevolg" msd="UPosTag=NOUN|Number=Plur">gevolgen</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w374" ana="#pos.VRB #finiteness.fin #mood.imp_ind #tense.pres #number.sg" lemma="zullen" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin">zal</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w375" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w376" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="huidig" msd="UPosTag=ADJ|Degree=Pos">huidige</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w377" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="vertraging" msd="UPosTag=NOUN|Gender=Com|Number=Sing">vertraging</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w378" ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.pl" lemma="hebben" msd="UPosTag=VERB|VerbForm=Inf">hebben</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w379" ana="#pos.ADP #type.pre" lemma="voor" msd="UPosTag=ADP">voor</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w380" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w381" ana="#pos.NOU-C #number.pl" lemma="kost" msd="UPosTag=NOUN|Number=Plur">kosten</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w382" ana="#pos.ADP #type.pre" lemma="ter" msd="UPosTag=ADP">ter</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w383" join="right" ana="#pos.NOU-C #number.sg #case.dat" lemma="zake" msd="UPosTag=NOUN|Number=Sing">zake</w>
+                     <measure type="sentiment" quantity="0.716" ana="senti:mixneg" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s25"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w372" ana="#BE-pos.PD #BE-type.w-p #BE-position.prenom" lemma="welke" msd="UPosTag=DET">Welke</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w373" ana="#BE-pos.NOU-C #BE-number.pl" lemma="gevolg" msd="UPosTag=NOUN|Number=Plur">gevolgen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w374" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.imp_ind #BE-tense.pres #BE-number.sg" lemma="zullen" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin">zal</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w375" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w376" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="huidig" msd="UPosTag=ADJ|Degree=Pos">huidige</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w377" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="vertraging" msd="UPosTag=NOUN|Gender=Com|Number=Sing">vertraging</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w378" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.ind #BE-tense.pres #BE-number.pl" lemma="hebben" msd="UPosTag=VERB|VerbForm=Inf">hebben</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w379" ana="#BE-pos.ADP #BE-type.pre" lemma="voor" msd="UPosTag=ADP">voor</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w380" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w381" ana="#BE-pos.NOU-C #BE-number.pl" lemma="kost" msd="UPosTag=NOUN|Number=Plur">kosten</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w382" ana="#BE-pos.ADP #BE-type.pre" lemma="ter" msd="UPosTag=ADP">ter</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w383" join="right" ana="#BE-pos.NOU-C #BE-number.sg #BE-case.dat" lemma="zake" msd="UPosTag=NOUN|Number=Sing">zake</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc90" msd="UPosTag=PUNCT">?</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link target="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.w373 #ParlaMint-BE_2020-06-17-55-commissie-ic210x.w372" ana="ud-syn:det"/>
@@ -460,15 +487,16 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s26" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w384" ana="#pos.PD #type.pers #person.1 #number.sg #position.pron #case.nom" lemma="ik" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs">Ik</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w385" ana="#pos.VRB #finiteness.fin #mood.imp_ind #tense.pres #number.sg" lemma="denken" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin">denk</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w386" ana="#pos.ADP #type.pre" lemma="aan" msd="UPosTag=ADP">aan</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w387" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w388" ana="#pos.NOU-C #number.pl" lemma="onderhoudskosten" msd="UPosTag=NOUN|Number=Plur">onderhoudskosten</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w389" ana="#pos.CONJ #type.coor" lemma="en" msd="UPosTag=CCONJ">en</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w390" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="eventueel" msd="UPosTag=ADJ|Degree=Pos">eventuele</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w391" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="ander" msd="UPosTag=ADJ|Degree=Pos">andere</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w392" join="right" ana="#pos.NOU-C #number.pl" lemma="kost" msd="UPosTag=NOUN|Number=Plur">kosten</w>
+                     <measure type="sentiment" quantity="2.507" ana="senti:neupos" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s26"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w384" ana="#BE-pos.PD #BE-type.pers #BE-person.1 #BE-number.sg #BE-position.pron #BE-case.nom" lemma="ik" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs">Ik</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w385" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.imp_ind #BE-tense.pres #BE-number.sg" lemma="denken" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin">denk</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w386" ana="#BE-pos.ADP #BE-type.pre" lemma="aan" msd="UPosTag=ADP">aan</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w387" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w388" ana="#BE-pos.NOU-C #BE-number.pl" lemma="onderhoudskosten" msd="UPosTag=NOUN|Number=Plur">onderhoudskosten</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w389" ana="#BE-pos.CONJ #BE-type.coor" lemma="en" msd="UPosTag=CCONJ">en</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w390" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="eventueel" msd="UPosTag=ADJ|Degree=Pos">eventuele</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w391" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="ander" msd="UPosTag=ADJ|Degree=Pos">andere</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w392" join="right" ana="#BE-pos.NOU-C #BE-number.pl" lemma="kost" msd="UPosTag=NOUN|Number=Plur">kosten</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc91" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link target="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.w385 #ParlaMint-BE_2020-06-17-55-commissie-ic210x.w384" ana="ud-syn:nsubj"/>
@@ -486,18 +514,19 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg7" xml:lang="nl">
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s27" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w393" ana="#pos.AA #degree.pos #position.adv_pred" lemma="initieel" msd="UPosTag=NOUN|Gender=Neut|Number=Sing">Initieel</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w394" ana="#pos.VRB #finiteness.fin #mood.ind #tense.past #number.sg" lemma="worden" msd="UPosTag=AUX|Number=Sing|Tense=Past|VerbForm=Fin">werd</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w395" ana="#pos.PD #type.pers #person.3 #number.pl_sg #position.pron" lemma="er" msd="UPosTag=PRON|Person=3|PronType=Dem">er</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w396" ana="#pos.VRB #finiteness.part #tense.past" lemma="vooropstellen" msd="UPosTag=VERB|VerbForm=Part">vooropgesteld</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w397" ana="#pos.ADP #type.pre" lemma="om" msd="UPosTag=ADP">om</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w398" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w399" ana="#pos.NOU-C #number.pl" lemma="schip" msd="UPosTag=NOUN|Number=Plur">schepen</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w400" ana="#pos.AA #degree.pos #position.adv_pred" lemma="inzetbaar" msd="UPosTag=ADJ|Degree=Pos">inzetbaar</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w401" ana="#pos.ADP #type.pre" lemma="te" msd="UPosTag=ADP">te</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w402" ana="#pos.VRB #finiteness.ger_inf" lemma="hebben" msd="UPosTag=VERB|VerbForm=Inf">hebben</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w403" ana="#pos.ADP #type.pre" lemma="tegen" msd="UPosTag=ADP">tegen</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w404" join="right" ana="#pos.NUM #type.card #position.oth_pred" lemma="2024" msd="UPosTag=NUM">2024</w>
+                     <measure type="sentiment" quantity="2.479" ana="senti:neuneg" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s27"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w393" ana="#BE-pos.AA #BE-degree.pos #BE-position.adv_pred" lemma="initieel" msd="UPosTag=NOUN|Gender=Neut|Number=Sing">Initieel</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w394" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.ind #BE-tense.past #BE-number.sg" lemma="worden" msd="UPosTag=AUX|Number=Sing|Tense=Past|VerbForm=Fin">werd</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w395" ana="#BE-pos.PD #BE-type.pers #BE-person.3 #BE-number.pl_sg #BE-position.pron" lemma="er" msd="UPosTag=PRON|Person=3|PronType=Dem">er</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w396" ana="#BE-pos.VRB #BE-finiteness.part #BE-tense.past" lemma="vooropstellen" msd="UPosTag=VERB|VerbForm=Part">vooropgesteld</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w397" ana="#BE-pos.ADP #BE-type.pre" lemma="om" msd="UPosTag=ADP">om</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w398" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w399" ana="#BE-pos.NOU-C #BE-number.pl" lemma="schip" msd="UPosTag=NOUN|Number=Plur">schepen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w400" ana="#BE-pos.AA #BE-degree.pos #BE-position.adv_pred" lemma="inzetbaar" msd="UPosTag=ADJ|Degree=Pos">inzetbaar</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w401" ana="#BE-pos.ADP #BE-type.pre" lemma="te" msd="UPosTag=ADP">te</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w402" ana="#BE-pos.VRB #BE-finiteness.ger_inf" lemma="hebben" msd="UPosTag=VERB|VerbForm=Inf">hebben</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w403" ana="#BE-pos.ADP #BE-type.pre" lemma="tegen" msd="UPosTag=ADP">tegen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w404" join="right" ana="#BE-pos.NUM #BE-type.card #BE-position.oth_pred" lemma="2024" msd="UPosTag=NUM">2024</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc92" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link target="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.w396 #ParlaMint-BE_2020-06-17-55-commissie-ic210x.w393" ana="ud-syn:nsubj_pass"/>
@@ -516,12 +545,13 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s28" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w405" ana="#pos.PD #type.w-p #position.prenom" lemma="welke" msd="UPosTag=DET">Welke</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w406" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="termijn" msd="UPosTag=NOUN|Gender=Com|Number=Sing">termijn</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w407" ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.sg #person.2_3 #formal.infl-t" lemma="worden" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin">wordt</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w408" ana="#pos.PD #type.pers #person.3 #number.pl_sg #position.pron" lemma="er" msd="UPosTag=ADV">er</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w409" ana="#pos.AA #degree.pos #position.adv_pred" lemma="momenteel" msd="UPosTag=ADJ|Degree=Pos">momenteel</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w410" join="right" ana="#pos.VRB #finiteness.part #tense.past" lemma="vooropstellen" msd="UPosTag=VERB|VerbForm=Part">vooropgesteld</w>
+                     <measure type="sentiment" quantity="2.681" ana="senti:neupos" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s28"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w405" ana="#BE-pos.PD #BE-type.w-p #BE-position.prenom" lemma="welke" msd="UPosTag=DET">Welke</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w406" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="termijn" msd="UPosTag=NOUN|Gender=Com|Number=Sing">termijn</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w407" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.ind #BE-tense.pres #BE-number.sg #BE-person.2_3 #BE-formal.infl-t" lemma="worden" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin">wordt</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w408" ana="#BE-pos.PD #BE-type.pers #BE-person.3 #BE-number.pl_sg #BE-position.pron" lemma="er" msd="UPosTag=ADV">er</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w409" ana="#BE-pos.AA #BE-degree.pos #BE-position.adv_pred" lemma="momenteel" msd="UPosTag=ADJ|Degree=Pos">momenteel</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w410" join="right" ana="#BE-pos.VRB #BE-finiteness.part #BE-tense.past" lemma="vooropstellen" msd="UPosTag=VERB|VerbForm=Part">vooropgesteld</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc93" msd="UPosTag=PUNCT">?</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link target="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.w406 #ParlaMint-BE_2020-06-17-55-commissie-ic210x.w405" ana="ud-syn:det"/>
@@ -536,28 +566,29 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.ana.note16">01.02 Sammy Mahdi (CD&amp;V):</note>
-            <u ana="#regular" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u2" who="#MahdiSammy" xml:lang="nl">
+            <u ana="#regular topic:defen" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u2" who="#MahdiSammy" xml:lang="nl">
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg8" xml:lang="nl">
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s30" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w415" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="mijnheer" msd="UPosTag=NOUN|Gender=Com|Number=Sing">Mijnheer</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w416" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w417" join="right" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="voorzitter" msd="UPosTag=NOUN|Gender=Com|Number=Sing">voorzitter</w>
+                     <measure type="sentiment" quantity="2.719" ana="senti:neupos" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s30"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w415" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="mijnheer" msd="UPosTag=NOUN|Gender=Com|Number=Sing">Mijnheer</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w416" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w417" join="right" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="voorzitter" msd="UPosTag=NOUN|Gender=Com|Number=Sing">voorzitter</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc96" msd="UPosTag=PUNCT">,</pc>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w418" ana="#pos.PD #type.pers #person.1 #number.sg #position.pron #case.nom" lemma="ik" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs">ik</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w419" ana="#pos.VRB #finiteness.fin #mood.imp_ind #tense.pres #number.sg" lemma="sluiten" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin">sluit</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w420" ana="#pos.PD #type.pers_refl #person.1 #number.sg #position.pron #case.acc_dat" lemma="ik" msd="UPosTag=PRON|Case=Acc|Person=1|PronType=Prs">mij</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w421" ana="#pos.ADP #type.post" lemma="aan" msd="UPosTag=ADP">aan</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w422" ana="#pos.ADP #type.pre" lemma="bij" msd="UPosTag=ADP">bij</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w423" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w424" ana="#pos.ADV" lemma="reeds" msd="UPosTag=ADV">reeds</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w425" ana="#pos.AA #position.prenom #formal.infl-e #degree.pos" lemma="gesteld" msd="UPosTag=VERB|VerbForm=Part">gestelde</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w426" ana="#pos.NOU-C #number.pl" lemma="vraag" msd="UPosTag=NOUN|Number=Plur">vragen</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w427" ana="#pos.CONJ #type.coor" lemma="en" msd="UPosTag=CCONJ">en</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w428" ana="#pos.VRB #finiteness.fin #mood.imp_ind #tense.pres #number.sg" lemma="zullen" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin">zal</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w429" ana="#pos.ADV" lemma="niet" msd="UPosTag=ADV">niet</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w430" ana="#pos.PD #type.indef #position.pron" lemma="al" msd="UPosTag=PRON|Person=3|PronType=Ind">alles</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w431" ana="#pos.AA #degree.pos #position.adv_pred" lemma="nodeloos" msd="UPosTag=ADJ|Degree=Pos">nodeloos</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w432" join="right" ana="#pos.VRB #finiteness.ger_inf" lemma="herhalen" msd="UPosTag=VERB|VerbForm=Inf">herhalen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w418" ana="#BE-pos.PD #BE-type.pers #BE-person.1 #BE-number.sg #BE-position.pron #BE-case.nom" lemma="ik" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs">ik</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w419" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.imp_ind #BE-tense.pres #BE-number.sg" lemma="sluiten" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin">sluit</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w420" ana="#BE-pos.PD #BE-type.pers_refl #BE-person.1 #BE-number.sg #BE-position.pron #BE-case.acc_dat" lemma="ik" msd="UPosTag=PRON|Case=Acc|Person=1|PronType=Prs">mij</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w421" ana="#BE-pos.ADP #BE-type.post" lemma="aan" msd="UPosTag=ADP">aan</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w422" ana="#BE-pos.ADP #BE-type.pre" lemma="bij" msd="UPosTag=ADP">bij</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w423" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w424" ana="#BE-pos.ADV" lemma="reeds" msd="UPosTag=ADV">reeds</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w425" ana="#BE-pos.AA #BE-position.prenom #BE-formal.infl-e #BE-degree.pos" lemma="gesteld" msd="UPosTag=VERB|VerbForm=Part">gestelde</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w426" ana="#BE-pos.NOU-C #BE-number.pl" lemma="vraag" msd="UPosTag=NOUN|Number=Plur">vragen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w427" ana="#BE-pos.CONJ #BE-type.coor" lemma="en" msd="UPosTag=CCONJ">en</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w428" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.imp_ind #BE-tense.pres #BE-number.sg" lemma="zullen" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin">zal</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w429" ana="#BE-pos.ADV" lemma="niet" msd="UPosTag=ADV">niet</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w430" ana="#BE-pos.PD #BE-type.indef #BE-position.pron" lemma="al" msd="UPosTag=PRON|Person=3|PronType=Ind">alles</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w431" ana="#BE-pos.AA #BE-degree.pos #BE-position.adv_pred" lemma="nodeloos" msd="UPosTag=ADJ|Degree=Pos">nodeloos</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w432" join="right" ana="#BE-pos.VRB #BE-finiteness.ger_inf" lemma="herhalen" msd="UPosTag=VERB|VerbForm=Inf">herhalen</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc97" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link target="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.w419 #ParlaMint-BE_2020-06-17-55-commissie-ic210x.w415" ana="ud-syn:parataxis"/>
@@ -583,37 +614,38 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s31" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w433" ana="#pos.PD #type.pers #person.3 #gender.n #number.sg #position.pron" lemma="het" msd="UPosTag=PRON|Person=3|PronType=Prs">Het</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w434" ana="#pos.VRB #finiteness.fin #mood.imp_ind #tense.pres #number.sg" lemma="zijn" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin">is</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w435" ana="#pos.PD #type.indef #subtype.art-indef" lemma="een" msd="UPosTag=DET|Definite=Ind">een</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w436" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="goed" msd="UPosTag=ADJ|Degree=Pos">goede</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w437" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="zaak" msd="UPosTag=NOUN|Gender=Com|Number=Sing">zaak</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w438" ana="#pos.CONJ #type.sub" lemma="als" msd="UPosTag=SCONJ">als</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w439" ana="#pos.NOU-C #number.pl" lemma="land" msd="UPosTag=NOUN|Number=Plur">landen</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w440" join="right" ana="#pos.VRB #finiteness.ger_inf" lemma="samenwerken" msd="UPosTag=VERB|Number=Plur|Tense=Pres|VerbForm=Fin">samenwerken</w>
+                     <measure type="sentiment" quantity="4.899" ana="senti:pospos" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s31"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w433" ana="#BE-pos.PD #BE-type.pers #BE-person.3 #BE-gender.n #BE-number.sg #BE-position.pron" lemma="het" msd="UPosTag=PRON|Person=3|PronType=Prs">Het</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w434" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.imp_ind #BE-tense.pres #BE-number.sg" lemma="zijn" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin">is</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w435" ana="#BE-pos.PD #BE-type.indef #BE-subtype.art-indef" lemma="een" msd="UPosTag=DET|Definite=Ind">een</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w436" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="goed" msd="UPosTag=ADJ|Degree=Pos">goede</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w437" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="zaak" msd="UPosTag=NOUN|Gender=Com|Number=Sing">zaak</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w438" ana="#BE-pos.CONJ #BE-type.sub" lemma="als" msd="UPosTag=SCONJ">als</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w439" ana="#BE-pos.NOU-C #BE-number.pl" lemma="land" msd="UPosTag=NOUN|Number=Plur">landen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w440" join="right" ana="#BE-pos.VRB #BE-finiteness.ger_inf" lemma="samenwerken" msd="UPosTag=VERB|Number=Plur|Tense=Pres|VerbForm=Fin">samenwerken</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc98" msd="UPosTag=PUNCT">,</pc>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w441" ana="#pos.AA #degree.pos #position.adv_pred" lemma="zeker" msd="UPosTag=ADJ|Degree=Pos">zeker</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w442" ana="#pos.CONJ #type.sub" lemma="als" msd="UPosTag=SCONJ">als</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w443" ana="#pos.PD #type.pers #person.1 #number.pl #position.pron #case.nom" lemma="wij" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs">wij</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w444" ana="#pos.PD #type.dem #position.pron" lemma="dat" msd="UPosTag=PRON|Person=3|PronType=Dem">dat</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w445" join="right" ana="#pos.VRB #finiteness.ger_inf" lemma="doen" msd="UPosTag=VERB|Number=Plur|Tense=Pres|VerbForm=Fin">doen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w441" ana="#BE-pos.AA #BE-degree.pos #BE-position.adv_pred" lemma="zeker" msd="UPosTag=ADJ|Degree=Pos">zeker</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w442" ana="#BE-pos.CONJ #BE-type.sub" lemma="als" msd="UPosTag=SCONJ">als</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w443" ana="#BE-pos.PD #BE-type.pers #BE-person.1 #BE-number.pl #BE-position.pron #BE-case.nom" lemma="wij" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs">wij</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w444" ana="#BE-pos.PD #BE-type.dem #BE-position.pron" lemma="dat" msd="UPosTag=PRON|Person=3|PronType=Dem">dat</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w445" join="right" ana="#BE-pos.VRB #BE-finiteness.ger_inf" lemma="doen" msd="UPosTag=VERB|Number=Plur|Tense=Pres|VerbForm=Fin">doen</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc99" msd="UPosTag=PUNCT">,</pc>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w446" ana="#pos.CONJ #type.sub" lemma="zoals" msd="UPosTag=SCONJ">zoals</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w447" ana="#pos.ADP #type.pre" lemma="in" msd="UPosTag=ADP">in</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w448" ana="#pos.PD #type.dem #position.prenom" lemma="dit" msd="UPosTag=DET">dit</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w449" join="right" ana="#pos.NOU-C #gender.n #number.sg" lemma="geval" msd="UPosTag=NOUN|Gender=Neut|Number=Sing">geval</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w446" ana="#BE-pos.CONJ #BE-type.sub" lemma="zoals" msd="UPosTag=SCONJ">zoals</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w447" ana="#BE-pos.ADP #BE-type.pre" lemma="in" msd="UPosTag=ADP">in</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w448" ana="#BE-pos.PD #BE-type.dem #BE-position.prenom" lemma="dit" msd="UPosTag=DET">dit</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w449" join="right" ana="#BE-pos.NOU-C #BE-gender.n #BE-number.sg" lemma="geval" msd="UPosTag=NOUN|Gender=Neut|Number=Sing">geval</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc100" msd="UPosTag=PUNCT">,</pc>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w450" ana="#pos.ADV" lemma="samen" msd="UPosTag=ADV">samen</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w451" ana="#pos.ADP #type.pre" lemma="met" msd="UPosTag=ADP">met</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w450" ana="#BE-pos.ADV" lemma="samen" msd="UPosTag=ADV">samen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w451" ana="#BE-pos.ADP #BE-type.pre" lemma="met" msd="UPosTag=ADP">met</w>
                      <name type="LOC">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w452" ana="#pos.NOU-P #number.sg" lemma="Nederland" msd="UPosTag=PROPN|Gender=Neut|Number=Sing">Nederland</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w452" ana="#BE-pos.NOU-P #BE-number.sg" lemma="Nederland" msd="UPosTag=PROPN|Gender=Neut|Number=Sing">Nederland</w>
                      </name>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w453" ana="#pos.ADP #type.pre" lemma="op" msd="UPosTag=ADP">op</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w454" ana="#pos.PD #type.d-p #subtype.art-def" lemma="het" msd="UPosTag=DET|Definite=Def">het</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w455" ana="#pos.NOU-C #gender.n #number.sg" lemma="vlak" msd="UPosTag=NOUN|Gender=Neut|Number=Sing">vlak</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w456" ana="#pos.ADP #type.pre" lemma="van" msd="UPosTag=ADP">van</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w453" ana="#BE-pos.ADP #BE-type.pre" lemma="op" msd="UPosTag=ADP">op</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w454" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="het" msd="UPosTag=DET|Definite=Def">het</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w455" ana="#BE-pos.NOU-C #BE-gender.n #BE-number.sg" lemma="vlak" msd="UPosTag=NOUN|Gender=Neut|Number=Sing">vlak</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w456" ana="#BE-pos.ADP #BE-type.pre" lemma="van" msd="UPosTag=ADP">van</w>
                      <name type="ORG">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w457" join="right" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="defensie" msd="UPosTag=NOUN|Gender=Com|Number=Sing">Defensie</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w457" join="right" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="defensie" msd="UPosTag=NOUN|Gender=Com|Number=Sing">Defensie</w>
                      </name>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc101" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -649,21 +681,22 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s32" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w458" ana="#pos.PD #type.d-p #subtype.art-def" lemma="het" msd="UPosTag=DET|Definite=Def">Het</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w459" ana="#pos.NOU-C #gender.n #number.sg" lemma="probleem" msd="UPosTag=NOUN|Gender=Neut|Number=Sing">probleem</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w460" ana="#pos.VRB #finiteness.fin #mood.imp_ind #tense.pres #number.sg" lemma="zijn" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin">is</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w461" ana="#pos.ADV" lemma="wel" msd="UPosTag=ADV">wel</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w462" ana="#pos.CONJ #type.sub" lemma="dat" msd="UPosTag=SCONJ">dat</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w463" ana="#pos.PD #type.poss #person.1 #number.pl #position.prenom" lemma="ons" msd="UPosTag=PRON|Person=1|Poss=Yes|PronType=Prs">onze</w>
+                     <measure type="sentiment" quantity="0.284" ana="senti:negneg" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s32"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w458" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="het" msd="UPosTag=DET|Definite=Def">Het</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w459" ana="#BE-pos.NOU-C #BE-gender.n #BE-number.sg" lemma="probleem" msd="UPosTag=NOUN|Gender=Neut|Number=Sing">probleem</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w460" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.imp_ind #BE-tense.pres #BE-number.sg" lemma="zijn" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin">is</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w461" ana="#BE-pos.ADV" lemma="wel" msd="UPosTag=ADV">wel</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w462" ana="#BE-pos.CONJ #BE-type.sub" lemma="dat" msd="UPosTag=SCONJ">dat</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w463" ana="#BE-pos.PD #BE-type.poss #BE-person.1 #BE-number.pl #BE-position.prenom" lemma="ons" msd="UPosTag=PRON|Person=1|Poss=Yes|PronType=Prs">onze</w>
                      <name type="MISC">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w464" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="Nederlands" msd="UPosTag=ADJ|Degree=Pos">Nederlandse</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w464" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="Nederlands" msd="UPosTag=ADJ|Degree=Pos">Nederlandse</w>
                      </name>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w465" ana="#pos.NOU-C #number.pl" lemma="collega" msd="UPosTag=NOUN|Number=Plur">collega's</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w466" ana="#pos.AA #degree.pos #position.adv_pred" lemma="verantwoordelijk" msd="UPosTag=ADJ|Degree=Pos">verantwoordelijk</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w467" ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.pl" lemma="zijn" msd="UPosTag=AUX|Number=Plur|Tense=Pres|VerbForm=Fin">zijn</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w468" ana="#pos.ADP #type.pre" lemma="voor" msd="UPosTag=ADP">voor</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w469" ana="#pos.PD #type.dem #position.prenom" lemma="die" msd="UPosTag=DET">die</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w470" join="right" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="aankoop" msd="UPosTag=NOUN|Gender=Com|Number=Sing">aankoop</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w465" ana="#BE-pos.NOU-C #BE-number.pl" lemma="collega" msd="UPosTag=NOUN|Number=Plur">collega's</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w466" ana="#BE-pos.AA #BE-degree.pos #BE-position.adv_pred" lemma="verantwoordelijk" msd="UPosTag=ADJ|Degree=Pos">verantwoordelijk</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w467" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.ind #BE-tense.pres #BE-number.pl" lemma="zijn" msd="UPosTag=AUX|Number=Plur|Tense=Pres|VerbForm=Fin">zijn</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w468" ana="#BE-pos.ADP #BE-type.pre" lemma="voor" msd="UPosTag=ADP">voor</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w469" ana="#BE-pos.PD #BE-type.dem #BE-position.prenom" lemma="die" msd="UPosTag=DET">die</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w470" join="right" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="aankoop" msd="UPosTag=NOUN|Gender=Com|Number=Sing">aankoop</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc102" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link target="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.w459 #ParlaMint-BE_2020-06-17-55-commissie-ic210x.w458" ana="ud-syn:det"/>
@@ -683,12 +716,13 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s33" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w471" ana="#pos.PD #type.pers #person.1 #number.sg #position.pron #case.nom" lemma="ik" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs">Ik</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w472" ana="#pos.VRB #finiteness.fin #mood.imp_ind #tense.pres #number.sg" lemma="zijn" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin">ben</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w473" ana="#pos.VRB #finiteness.part #tense.past" lemma="benieuwen" msd="UPosTag=ADJ|Degree=Pos">benieuwd</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w474" ana="#pos.ADP #type.pre" lemma="naar" msd="UPosTag=ADP">naar</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w475" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w476" join="right" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="leveringstermijn" msd="UPosTag=NOUN|Gender=Com|Number=Sing">leveringstermijn</w>
+                     <measure type="sentiment" quantity="3.142" ana="senti:neupos" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s33"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w471" ana="#BE-pos.PD #BE-type.pers #BE-person.1 #BE-number.sg #BE-position.pron #BE-case.nom" lemma="ik" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs">Ik</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w472" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.imp_ind #BE-tense.pres #BE-number.sg" lemma="zijn" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin">ben</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w473" ana="#BE-pos.VRB #BE-finiteness.part #BE-tense.past" lemma="benieuwen" msd="UPosTag=ADJ|Degree=Pos">benieuwd</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w474" ana="#BE-pos.ADP #BE-type.pre" lemma="naar" msd="UPosTag=ADP">naar</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w475" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w476" join="right" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="leveringstermijn" msd="UPosTag=NOUN|Gender=Com|Number=Sing">leveringstermijn</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc103" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link target="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.w473 #ParlaMint-BE_2020-06-17-55-commissie-ic210x.w471" ana="ud-syn:nsubj"/>
@@ -701,14 +735,15 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s34" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w477" ana="#pos.ADV" lemma="wanneer" msd="UPosTag=ADV">Wanneer</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w478" ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.pl" lemma="zullen" msd="UPosTag=AUX|Number=Plur|Tense=Pres|VerbForm=Fin">zullen</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w479" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w480" ana="#pos.NOU-C #number.pl" lemma="fregat" msd="UPosTag=NOUN|Number=Plur">fregatten</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w481" ana="#pos.AA #degree.pos #position.adv_pred" lemma="effectief" msd="UPosTag=ADJ|Degree=Pos">effectief</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w482" ana="#pos.ADP #type.pre" lemma="op" msd="UPosTag=ADP">op</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w483" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="zee" msd="UPosTag=NOUN|Gender=Com|Number=Sing">zee</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w484" join="right" ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.pl" lemma="liggen" msd="UPosTag=VERB|VerbForm=Inf">liggen</w>
+                     <measure type="sentiment" quantity="2.294" ana="senti:neuneg" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s34"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w477" ana="#BE-pos.ADV" lemma="wanneer" msd="UPosTag=ADV">Wanneer</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w478" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.ind #BE-tense.pres #BE-number.pl" lemma="zullen" msd="UPosTag=AUX|Number=Plur|Tense=Pres|VerbForm=Fin">zullen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w479" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w480" ana="#BE-pos.NOU-C #BE-number.pl" lemma="fregat" msd="UPosTag=NOUN|Number=Plur">fregatten</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w481" ana="#BE-pos.AA #BE-degree.pos #BE-position.adv_pred" lemma="effectief" msd="UPosTag=ADJ|Degree=Pos">effectief</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w482" ana="#BE-pos.ADP #BE-type.pre" lemma="op" msd="UPosTag=ADP">op</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w483" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="zee" msd="UPosTag=NOUN|Gender=Com|Number=Sing">zee</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w484" join="right" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.ind #BE-tense.pres #BE-number.pl" lemma="liggen" msd="UPosTag=VERB|VerbForm=Inf">liggen</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc104" msd="UPosTag=PUNCT">?</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link target="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.w484 #ParlaMint-BE_2020-06-17-55-commissie-ic210x.w477" ana="ud-syn:advmod"/>
@@ -725,17 +760,18 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg9" xml:lang="nl">
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s35" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w485" ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.pl" lemma="zijn" msd="UPosTag=AUX|Number=Plur|Tense=Pres|VerbForm=Fin">Zijn</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w486" ana="#pos.PD #type.pers #person.3 #number.pl_sg #position.pron" lemma="er" msd="UPosTag=ADV">er</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w487" ana="#pos.ADV" lemma="al" msd="UPosTag=ADV">al</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w488" ana="#pos.NOU-C #number.pl" lemma="contact" msd="UPosTag=NOUN|Number=Plur">contacten</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w489" ana="#pos.VRB #finiteness.part #tense.past" lemma="zijn" msd="UPosTag=VERB|VerbForm=Part">geweest</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w490" ana="#pos.ADP #type.pre" lemma="met" msd="UPosTag=ADP">met</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w491" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+                     <measure type="sentiment" quantity="1.980" ana="senti:neuneg" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s35"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w485" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.ind #BE-tense.pres #BE-number.pl" lemma="zijn" msd="UPosTag=AUX|Number=Plur|Tense=Pres|VerbForm=Fin">Zijn</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w486" ana="#BE-pos.PD #BE-type.pers #BE-person.3 #BE-number.pl_sg #BE-position.pron" lemma="er" msd="UPosTag=ADV">er</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w487" ana="#BE-pos.ADV" lemma="al" msd="UPosTag=ADV">al</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w488" ana="#BE-pos.NOU-C #BE-number.pl" lemma="contact" msd="UPosTag=NOUN|Number=Plur">contacten</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w489" ana="#BE-pos.VRB #BE-finiteness.part #BE-tense.past" lemma="zijn" msd="UPosTag=VERB|VerbForm=Part">geweest</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w490" ana="#BE-pos.ADP #BE-type.pre" lemma="met" msd="UPosTag=ADP">met</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w491" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
                      <name type="MISC">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w492" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="Nederlands" msd="UPosTag=ADJ|Degree=Pos">Nederlandse</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w492" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="Nederlands" msd="UPosTag=ADJ|Degree=Pos">Nederlandse</w>
                      </name>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w493" join="right" ana="#pos.NOU-C #number.pl" lemma="collega" msd="UPosTag=NOUN|Number=Plur">collega's</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w493" join="right" ana="#BE-pos.NOU-C #BE-number.pl" lemma="collega" msd="UPosTag=NOUN|Number=Plur">collega's</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc105" msd="UPosTag=PUNCT">?</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link target="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.w489 #ParlaMint-BE_2020-06-17-55-commissie-ic210x.w485" ana="ud-syn:aux"/>
@@ -751,10 +787,11 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s36" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w494" ana="#pos.PD #type.w-p #position.pron" lemma="wat" msd="UPosTag=PRON|Person=3|PronType=Int">Wat</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w495" ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.pl" lemma="hebben" msd="UPosTag=AUX|Number=Plur|Tense=Pres|VerbForm=Fin">hebben</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w496" ana="#pos.PD #type.rel #position.pron" lemma="die" msd="UPosTag=PRON|Person=3|PronType=Dem">die</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w497" join="right" ana="#pos.VRB #finiteness.part #tense.past" lemma="opleveren" msd="UPosTag=VERB|VerbForm=Part">opgeleverd</w>
+                     <measure type="sentiment" quantity="2.810" ana="senti:neupos" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s36"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w494" ana="#BE-pos.PD #BE-type.w-p #BE-position.pron" lemma="wat" msd="UPosTag=PRON|Person=3|PronType=Int">Wat</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w495" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.ind #BE-tense.pres #BE-number.pl" lemma="hebben" msd="UPosTag=AUX|Number=Plur|Tense=Pres|VerbForm=Fin">hebben</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w496" ana="#BE-pos.PD #BE-type.rel #BE-position.pron" lemma="die" msd="UPosTag=PRON|Person=3|PronType=Dem">die</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w497" join="right" ana="#BE-pos.VRB #BE-finiteness.part #BE-tense.past" lemma="opleveren" msd="UPosTag=VERB|VerbForm=Part">opgeleverd</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc106" msd="UPosTag=PUNCT">?</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link target="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.w497 #ParlaMint-BE_2020-06-17-55-commissie-ic210x.w494" ana="ud-syn:obj"/>
@@ -765,25 +802,26 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s37" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w498" ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.pl" lemma="zullen" msd="UPosTag=AUX|Number=Plur|Tense=Pres|VerbForm=Fin">Zullen</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w499" ana="#pos.PD #type.indef #position.pron" lemma="al" msd="UPosTag=DET">alle</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w500" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="nodig" msd="UPosTag=ADJ|Degree=Pos">nodige</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w501" ana="#pos.NOU-C #number.pl" lemma="wapensysteem" msd="UPosTag=NOUN|Number=Plur">wapensystemen</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w502" ana="#pos.CONJ #type.sub" lemma="zoals" msd="UPosTag=SCONJ">zoals</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w503" ana="#pos.VRB #finiteness.part #tense.past" lemma="voorzien" msd="UPosTag=VERB|VerbForm=Part">voorzien</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w504" ana="#pos.VRB #finiteness.part #tense.past" lemma="aankopen" msd="UPosTag=VERB|VerbForm=Part">aangekocht</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w505" ana="#pos.CONJ #type.coor" lemma="en" msd="UPosTag=CCONJ">en</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w506" ana="#pos.VRB #finiteness.part #tense.past" lemma="installeren" msd="UPosTag=VERB|VerbForm=Part">geïnstalleerd</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w507" join="right" ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.pl" lemma="worden" msd="UPosTag=AUX|VerbForm=Inf">worden</w>
+                     <measure type="sentiment" quantity="1.047" ana="senti:mixneg" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s37"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w498" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.ind #BE-tense.pres #BE-number.pl" lemma="zullen" msd="UPosTag=AUX|Number=Plur|Tense=Pres|VerbForm=Fin">Zullen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w499" ana="#BE-pos.PD #BE-type.indef #BE-position.pron" lemma="al" msd="UPosTag=DET">alle</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w500" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="nodig" msd="UPosTag=ADJ|Degree=Pos">nodige</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w501" ana="#BE-pos.NOU-C #BE-number.pl" lemma="wapensysteem" msd="UPosTag=NOUN|Number=Plur">wapensystemen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w502" ana="#BE-pos.CONJ #BE-type.sub" lemma="zoals" msd="UPosTag=SCONJ">zoals</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w503" ana="#BE-pos.VRB #BE-finiteness.part #BE-tense.past" lemma="voorzien" msd="UPosTag=VERB|VerbForm=Part">voorzien</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w504" ana="#BE-pos.VRB #BE-finiteness.part #BE-tense.past" lemma="aankopen" msd="UPosTag=VERB|VerbForm=Part">aangekocht</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w505" ana="#BE-pos.CONJ #BE-type.coor" lemma="en" msd="UPosTag=CCONJ">en</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w506" ana="#BE-pos.VRB #BE-finiteness.part #BE-tense.past" lemma="installeren" msd="UPosTag=VERB|VerbForm=Part">geïnstalleerd</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w507" join="right" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.ind #BE-tense.pres #BE-number.pl" lemma="worden" msd="UPosTag=AUX|VerbForm=Inf">worden</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc107" msd="UPosTag=PUNCT">,</pc>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w508" ana="#pos.CONJ #type.sub" lemma="vermits" msd="UPosTag=SCONJ">vermits</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w509" ana="#pos.PD #type.pers #person.3 #number.pl_sg #position.pron" lemma="er" msd="UPosTag=ADV">er</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w510" ana="#pos.NOU-C #number.pl" lemma="probleem" msd="UPosTag=NOUN|Number=Plur">problemen</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w511" ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.pl" lemma="zijn" msd="UPosTag=VERB|Number=Plur|Tense=Pres|VerbForm=Fin">zijn</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w512" ana="#pos.ADP #type.pre" lemma="met" msd="UPosTag=ADP">met</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w513" ana="#pos.PD #type.indef #subtype.art-indef" lemma="een" msd="UPosTag=DET|Definite=Ind">een</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w514" ana="#pos.NOU-C #gender.n #number.sg" lemma="aantal" msd="UPosTag=NOUN|Gender=Neut|Number=Sing">aantal</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w515" join="right" ana="#pos.NOU-C #number.pl" lemma="bestelling" msd="UPosTag=NOUN|Number=Plur">bestellingen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w508" ana="#BE-pos.CONJ #BE-type.sub" lemma="vermits" msd="UPosTag=SCONJ">vermits</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w509" ana="#BE-pos.PD #BE-type.pers #BE-person.3 #BE-number.pl_sg #BE-position.pron" lemma="er" msd="UPosTag=ADV">er</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w510" ana="#BE-pos.NOU-C #BE-number.pl" lemma="probleem" msd="UPosTag=NOUN|Number=Plur">problemen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w511" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.ind #BE-tense.pres #BE-number.pl" lemma="zijn" msd="UPosTag=VERB|Number=Plur|Tense=Pres|VerbForm=Fin">zijn</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w512" ana="#BE-pos.ADP #BE-type.pre" lemma="met" msd="UPosTag=ADP">met</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w513" ana="#BE-pos.PD #BE-type.indef #BE-subtype.art-indef" lemma="een" msd="UPosTag=DET|Definite=Ind">een</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w514" ana="#BE-pos.NOU-C #BE-gender.n #BE-number.sg" lemma="aantal" msd="UPosTag=NOUN|Gender=Neut|Number=Sing">aantal</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w515" join="right" ana="#BE-pos.NOU-C #BE-number.pl" lemma="bestelling" msd="UPosTag=NOUN|Number=Plur">bestellingen</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc108" msd="UPosTag=PUNCT">?</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link target="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.w504 #ParlaMint-BE_2020-06-17-55-commissie-ic210x.w498" ana="ud-syn:aux"/>
@@ -813,9 +851,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u ana="#regular" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u89" who="#BombledChristophe" xml:lang="fr">
+            <u ana="#regular topic:other" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u89" who="#BombledChristophe" xml:lang="fr">
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg375" xml:lang="fr">
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s1333" xml:lang="fr">
+                     <measure type="sentiment" quantity="3.469" ana="senti:neupos" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s1333"/>
 <w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21762" lemma="il" msd="UPosTag=PRON|Number=Sing|Person=1|PronType=Prs">Je</w>
 <w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21763" lemma="il" msd="UPosTag=PRON|Number=Plur|Person=2|PronType=Prs">vous</w>
 <w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21764" lemma="remercier" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">remercie</w>
@@ -854,48 +893,49 @@
             <note xml:lang="nl" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.ana.note188">Het incident is gesloten.</note>
             <note xml:lang="fr" type="editorial" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.ana.note189">L'incident est clos.</note>
             <note type="speaker" xml:lang="nl" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.ana.note190">De voorzitter:</note>
-            <u ana="#chair" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u90" who="#BuysroggePeter" xml:lang="nl">
+            <u ana="#chair topic:other" xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.u90" who="#BuysroggePeter" xml:lang="nl">
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg376" xml:lang="nl">
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s1337" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21782" ana="#pos.ADP #type.pre" lemma="tot" msd="UPosTag=ADP">Tot</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21783" ana="#pos.NOU-C #gender.n #number.sg" lemma="slot" msd="UPosTag=NOUN|Gender=Neut|Number=Sing">slot</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21784" ana="#pos.VRB #finiteness.fin #mood.imp_ind #tense.pres #number.sg" lemma="willen" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin">wil</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21785" ana="#pos.PD #type.pers #person.1 #number.sg #position.pron #case.nom" lemma="ik" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs">ik</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21786" ana="#pos.ADV" lemma="nog" msd="UPosTag=ADV">nog</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21787" ana="#pos.VRB #finiteness.ger_inf" lemma="meegeven" msd="UPosTag=VERB|VerbForm=Inf">meegeven</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21788" ana="#pos.CONJ #type.sub" lemma="dat" msd="UPosTag=SCONJ">dat</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21789" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="vraag" msd="UPosTag=NOUN|Gender=Com|Number=Sing">vraag</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21790" ana="#pos.NOU-C #gender.n #number.sg" lemma="nr." msd="UPosTag=NOUN|Gender=Neut|Number=Sing">nr.</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21791" ana="#pos.RES #type.sym" lemma="55006804c" msd="UPosTag=NUM">55006804C</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21792" ana="#pos.ADP #type.pre" lemma="van" msd="UPosTag=ADP">van</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21793" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21794" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="heer" msd="UPosTag=NOUN|Gender=Com|Number=Sing">heer</w>
+                     <measure type="sentiment" quantity="2.175" ana="senti:neuneg" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s1337"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21782" ana="#BE-pos.ADP #BE-type.pre" lemma="tot" msd="UPosTag=ADP">Tot</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21783" ana="#BE-pos.NOU-C #BE-gender.n #BE-number.sg" lemma="slot" msd="UPosTag=NOUN|Gender=Neut|Number=Sing">slot</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21784" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.imp_ind #BE-tense.pres #BE-number.sg" lemma="willen" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin">wil</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21785" ana="#BE-pos.PD #BE-type.pers #BE-person.1 #BE-number.sg #BE-position.pron #BE-case.nom" lemma="ik" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs">ik</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21786" ana="#BE-pos.ADV" lemma="nog" msd="UPosTag=ADV">nog</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21787" ana="#BE-pos.VRB #BE-finiteness.ger_inf" lemma="meegeven" msd="UPosTag=VERB|VerbForm=Inf">meegeven</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21788" ana="#BE-pos.CONJ #BE-type.sub" lemma="dat" msd="UPosTag=SCONJ">dat</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21789" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="vraag" msd="UPosTag=NOUN|Gender=Com|Number=Sing">vraag</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21790" ana="#BE-pos.NOU-C #BE-gender.n #BE-number.sg" lemma="nr." msd="UPosTag=NOUN|Gender=Neut|Number=Sing">nr.</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21791" ana="#BE-pos.RES #BE-type.sym" lemma="55006804c" msd="UPosTag=NUM">55006804C</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21792" ana="#BE-pos.ADP #BE-type.pre" lemma="van" msd="UPosTag=ADP">van</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21793" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21794" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="heer" msd="UPosTag=NOUN|Gender=Com|Number=Sing">heer</w>
                      <name type="PER">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21795" join="right" ana="#pos.NOU-P #number.sg" lemma="Verduyckt" msd="UPosTag=PROPN|Gender=Com|Number=Sing">Verduyckt</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21795" join="right" ana="#BE-pos.NOU-P #BE-number.sg" lemma="Verduyckt" msd="UPosTag=PROPN|Gender=Com|Number=Sing">Verduyckt</w>
                      </name>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc3557" msd="UPosTag=PUNCT">,</pc>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21796" ana="#pos.NOU-C #gender.n #number.sg" lemma="nr." msd="UPosTag=PROPN|Gender=Neut|Number=Sing">nr.</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21797" ana="#pos.RES #type.sym" lemma="55006824c" msd="UPosTag=NUM">55006824C</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21798" ana="#pos.ADP #type.pre" lemma="van" msd="UPosTag=ADP">van</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21799" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21800" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="heer" msd="UPosTag=NOUN|Gender=Com|Number=Sing">heer</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21796" ana="#BE-pos.NOU-C #BE-gender.n #BE-number.sg" lemma="nr." msd="UPosTag=PROPN|Gender=Neut|Number=Sing">nr.</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21797" ana="#BE-pos.RES #BE-type.sym" lemma="55006824c" msd="UPosTag=NUM">55006824C</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21798" ana="#BE-pos.ADP #BE-type.pre" lemma="van" msd="UPosTag=ADP">van</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21799" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21800" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="heer" msd="UPosTag=NOUN|Gender=Com|Number=Sing">heer</w>
                      <name type="PER">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21801" ana="#pos.NOU-P #number.sg" lemma="Bayet" msd="UPosTag=PROPN|Gender=Com,Neut|Number=Sing">Bayet</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21801" ana="#BE-pos.NOU-P #BE-number.sg" lemma="Bayet" msd="UPosTag=PROPN|Gender=Com,Neut|Number=Sing">Bayet</w>
                      </name>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21802" ana="#pos.CONJ #type.coor" lemma="en" msd="UPosTag=CCONJ">en</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21803" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="vraag" msd="UPosTag=NOUN|Gender=Com|Number=Sing">vraag</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21804" ana="#pos.NOU-C #gender.n #number.sg" lemma="nr." msd="UPosTag=NOUN|Gender=Neut|Number=Sing">nr.</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21805" ana="#pos.RES #type.sym" lemma="55006978c" msd="UPosTag=SYM">55006978C</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21806" ana="#pos.ADP #type.pre" lemma="van" msd="UPosTag=ADP">van</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21807" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="mevrouw" msd="UPosTag=NOUN|Gender=Com|Number=Sing">mevrouw</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21802" ana="#BE-pos.CONJ #BE-type.coor" lemma="en" msd="UPosTag=CCONJ">en</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21803" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="vraag" msd="UPosTag=NOUN|Gender=Com|Number=Sing">vraag</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21804" ana="#BE-pos.NOU-C #BE-gender.n #BE-number.sg" lemma="nr." msd="UPosTag=NOUN|Gender=Neut|Number=Sing">nr.</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21805" ana="#BE-pos.RES #BE-type.sym" lemma="55006978c" msd="UPosTag=SYM">55006978C</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21806" ana="#BE-pos.ADP #BE-type.pre" lemma="van" msd="UPosTag=ADP">van</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21807" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="mevrouw" msd="UPosTag=NOUN|Gender=Com|Number=Sing">mevrouw</w>
                      <name type="PER">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21808" ana="#pos.NOU-P #number.sg" lemma="Jadin" msd="UPosTag=PROPN|Gender=Com,Neut|Number=Sing">Jadin</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21808" ana="#BE-pos.NOU-P #BE-number.sg" lemma="Jadin" msd="UPosTag=PROPN|Gender=Com,Neut|Number=Sing">Jadin</w>
                      </name>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21809" ana="#pos.VRB #finiteness.ger_inf" lemma="worden" msd="UPosTag=AUX|Number=Plur|Tense=Pres|VerbForm=Fin">worden</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21810" ana="#pos.VRB #finiteness.part #tense.past" lemma="omzetten" msd="UPosTag=VERB|VerbForm=Part">omgezet</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21811" ana="#pos.ADP #type.pre" lemma="in" msd="UPosTag=ADP">in</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21812" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="schriftelijk" msd="UPosTag=ADJ|Degree=Pos">schriftelijke</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21813" join="right" ana="#pos.NOU-C #number.pl" lemma="vraag" msd="UPosTag=NOUN|Number=Plur">vragen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21809" ana="#BE-pos.VRB #BE-finiteness.ger_inf" lemma="worden" msd="UPosTag=AUX|Number=Plur|Tense=Pres|VerbForm=Fin">worden</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21810" ana="#BE-pos.VRB #BE-finiteness.part #BE-tense.past" lemma="omzetten" msd="UPosTag=VERB|VerbForm=Part">omgezet</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21811" ana="#BE-pos.ADP #BE-type.pre" lemma="in" msd="UPosTag=ADP">in</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21812" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="schriftelijk" msd="UPosTag=ADJ|Degree=Pos">schriftelijke</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21813" join="right" ana="#BE-pos.NOU-C #BE-number.pl" lemma="vraag" msd="UPosTag=NOUN|Number=Plur">vragen</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc3560" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
 <link target="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21783 #ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21782" ana="ud-syn:case"/>
@@ -937,48 +977,49 @@
                </seg>
                <seg xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.seg377" xml:lang="nl">
                   <s xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.s1338" xml:lang="nl">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21814" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">De</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21815" ana="#pos.AA #degree.pos #position.prenom #formal.infl-e" lemma="volgend" msd="UPosTag=VERB|VerbForm=Part">volgende</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21816" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="vergadering" msd="UPosTag=NOUN|Gender=Com|Number=Sing">vergadering</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21817" ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.pl" lemma="beginnen" msd="UPosTag=VERB|Number=Plur|Tense=Pres|VerbForm=Fin">beginnen</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21818" ana="#pos.PD #type.pers #person.1 #number.pl #position.pron #case.nom" lemma="wij" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs">we</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21819" ana="#pos.ADP #type.pre" lemma="met" msd="UPosTag=ADP">met</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21820" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21821" ana="#pos.AA #position.prenom #formal.infl-e #degree.pos" lemma="samengevoegd" msd="UPosTag=VERB|VerbForm=Part">samengevoegde</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21822" ana="#pos.NOU-C #number.pl" lemma="vraag" msd="UPosTag=NOUN|Number=Plur">vragen</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21823" ana="#pos.RES #type.abbr" lemma="nrs." msd="UPosTag=NOUN|Number=Plur">nrs.</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21824" join="right" ana="#pos.NOU-P #number.sg" lemma="55006961C" msd="UPosTag=SYM">55006961C</w>
+                     <measure type="sentiment" quantity="2.592" ana="senti:neupos" corresp="#ParlaMint-BE_2020-06-17-55-commissie-ic210x.s1338"/>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21814" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">De</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21815" ana="#BE-pos.AA #BE-degree.pos #BE-position.prenom #BE-formal.infl-e" lemma="volgend" msd="UPosTag=VERB|VerbForm=Part">volgende</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21816" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="vergadering" msd="UPosTag=NOUN|Gender=Com|Number=Sing">vergadering</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21817" ana="#BE-pos.VRB #BE-finiteness.fin #BE-mood.ind #BE-tense.pres #BE-number.pl" lemma="beginnen" msd="UPosTag=VERB|Number=Plur|Tense=Pres|VerbForm=Fin">beginnen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21818" ana="#BE-pos.PD #BE-type.pers #BE-person.1 #BE-number.pl #BE-position.pron #BE-case.nom" lemma="wij" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs">we</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21819" ana="#BE-pos.ADP #BE-type.pre" lemma="met" msd="UPosTag=ADP">met</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21820" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21821" ana="#BE-pos.AA #BE-position.prenom #BE-formal.infl-e #BE-degree.pos" lemma="samengevoegd" msd="UPosTag=VERB|VerbForm=Part">samengevoegde</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21822" ana="#BE-pos.NOU-C #BE-number.pl" lemma="vraag" msd="UPosTag=NOUN|Number=Plur">vragen</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21823" ana="#BE-pos.RES #BE-type.abbr" lemma="nrs." msd="UPosTag=NOUN|Number=Plur">nrs.</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21824" join="right" ana="#BE-pos.NOU-P #BE-number.sg" lemma="55006961C" msd="UPosTag=SYM">55006961C</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc3562" msd="UPosTag=PUNCT">,</pc>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21825" join="right" ana="#pos.NOU-P #number.sg" lemma="55007156C" msd="UPosTag=NUM">55007156C</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21825" join="right" ana="#BE-pos.NOU-P #BE-number.sg" lemma="55007156C" msd="UPosTag=NUM">55007156C</w>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc3563" msd="UPosTag=PUNCT">,</pc>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21826" ana="#pos.RES #type.sym" lemma="55007209c" msd="UPosTag=SYM">55007209C</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21827" ana="#pos.CONJ #type.coor" lemma="en" msd="UPosTag=CCONJ">en</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21828" ana="#pos.RES #type.sym" lemma="55007235c" msd="UPosTag=SYM">55007235C</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21829" ana="#pos.ADP #type.pre" lemma="van" msd="UPosTag=ADP">van</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21830" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21831" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="heer" msd="UPosTag=NOUN|Gender=Com|Number=Sing">heer</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21826" ana="#BE-pos.RES #BE-type.sym" lemma="55007209c" msd="UPosTag=SYM">55007209C</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21827" ana="#BE-pos.CONJ #BE-type.coor" lemma="en" msd="UPosTag=CCONJ">en</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21828" ana="#BE-pos.RES #BE-type.sym" lemma="55007235c" msd="UPosTag=SYM">55007235C</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21829" ana="#BE-pos.ADP #BE-type.pre" lemma="van" msd="UPosTag=ADP">van</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21830" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21831" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="heer" msd="UPosTag=NOUN|Gender=Com|Number=Sing">heer</w>
                      <name type="PER">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21832" ana="#pos.NOU-P #part-of-multiword.true" lemma="steven" msd="UPosTag=PROPN">Steven</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21833" join="right" ana="#pos.NOU-P #part-of-multiword.true" lemma="creyelman" msd="UPosTag=PROPN">Creyelman</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21832" ana="#BE-pos.NOU-P #BE-part-of-multiword.true" lemma="steven" msd="UPosTag=PROPN">Steven</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21833" join="right" ana="#BE-pos.NOU-P #BE-part-of-multiword.true" lemma="creyelman" msd="UPosTag=PROPN">Creyelman</w>
                      </name>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc3564" msd="UPosTag=PUNCT">,</pc>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21834" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="mevrouw" msd="UPosTag=NOUN|Gender=Com|Number=Sing">mevrouw</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21834" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="mevrouw" msd="UPosTag=NOUN|Gender=Com|Number=Sing">mevrouw</w>
                      <name type="PER">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21835" ana="#pos.NOU-P #part-of-multiword.true" lemma="julie" msd="UPosTag=PROPN">Julie</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21836" join="right" ana="#pos.NOU-P #part-of-multiword.true" lemma="chanson" msd="UPosTag=PROPN">Chanson</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21835" ana="#BE-pos.NOU-P #BE-part-of-multiword.true" lemma="julie" msd="UPosTag=PROPN">Julie</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21836" join="right" ana="#BE-pos.NOU-P #BE-part-of-multiword.true" lemma="chanson" msd="UPosTag=PROPN">Chanson</w>
                      </name>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc3565" msd="UPosTag=PUNCT">,</pc>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21837" ana="#pos.PD #type.d-p #subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21838" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="heer" msd="UPosTag=NOUN|Gender=Com|Number=Sing">heer</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21837" ana="#BE-pos.PD #BE-type.d-p #BE-subtype.art-def" lemma="de" msd="UPosTag=DET|Definite=Def">de</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21838" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="heer" msd="UPosTag=NOUN|Gender=Com|Number=Sing">heer</w>
                      <name type="PER">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21839" ana="#pos.NOU-P #part-of-multiword.true" lemma="sammy" msd="UPosTag=PROPN">Sammy</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21840" ana="#pos.NOU-P #part-of-multiword.true" lemma="mahdi" msd="UPosTag=PROPN">Mahdi</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21839" ana="#BE-pos.NOU-P #BE-part-of-multiword.true" lemma="sammy" msd="UPosTag=PROPN">Sammy</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21840" ana="#BE-pos.NOU-P #BE-part-of-multiword.true" lemma="mahdi" msd="UPosTag=PROPN">Mahdi</w>
                      </name>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21841" ana="#pos.CONJ #type.coor" lemma="en" msd="UPosTag=CCONJ">en</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21842" ana="#pos.NOU-C #gender.f_m #number.sg" lemma="mevrouw" msd="UPosTag=NOUN|Gender=Com|Number=Sing">mevrouw</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21841" ana="#BE-pos.CONJ #BE-type.coor" lemma="en" msd="UPosTag=CCONJ">en</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21842" ana="#BE-pos.NOU-C #BE-gender.f_m #BE-number.sg" lemma="mevrouw" msd="UPosTag=NOUN|Gender=Com|Number=Sing">mevrouw</w>
                      <name type="PER">
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21843" ana="#pos.NOU-P #part-of-multiword.true" lemma="julie" msd="UPosTag=PROPN">Julie</w>
-<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21844" join="right" ana="#pos.NOU-P #part-of-multiword.true" lemma="chanson" msd="UPosTag=PROPN">Chanson</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21843" ana="#BE-pos.NOU-P #BE-part-of-multiword.true" lemma="julie" msd="UPosTag=PROPN">Julie</w>
+<w xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.w21844" join="right" ana="#BE-pos.NOU-P #BE-part-of-multiword.true" lemma="chanson" msd="UPosTag=PROPN">Chanson</w>
                      </name>
 <pc xml:id="ParlaMint-BE_2020-06-17-55-commissie-ic210x.pc3566" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">

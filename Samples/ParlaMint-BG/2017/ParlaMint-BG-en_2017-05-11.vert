@@ -1,6 +1,6 @@
-<speech id="ParlaMint-BG_2017-05-11.u1" text_id="ParlaMint-BG-en_2017-05-11" subcorpus="Reference" lang="English" body="Unicameralism" term="Четиридесет и четвърто народно събрание" session="1 парламентарна сесия" meeting="11 пленарно заседание" sitting="2017-05-11" agenda="-" date="2017-05-11" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 1, Meeting 11 (2017-05-11)" speaker_role="Chairperson" speaker_id="GlavchevDimitar" speaker_name="Glavchev, Dimitar Borisov" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Parliamentary Group: GERB Party" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1963">
+<speech id="ParlaMint-BG_2017-05-11.u1" text_id="ParlaMint-BG-en_2017-05-11" subcorpus="Reference" lang="English" body="Unicameralism" term="Четиридесет и четвърто народно събрание" session="1 парламентарна сесия" meeting="11 пленарно заседание" sitting="2017-05-11" agenda="-" date="2017-05-11" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 1, Meeting 11 (2017-05-11)" speaker_role="Chairperson" topic="Defense" speaker_id="GlavchevDimitar" speaker_name="Glavchev, Dimitar Borisov" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Parliamentary Group: GERB Party" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1963">
 <p id="ParlaMint-BG_2017-05-11.seg1" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg1.1">
+<s id="ParlaMint-BG_2017-05-11.seg1.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.388">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Good	Good	good	ADJ	Degree=Pos	Z4	Z4	Z4: Discourse Bin	t1
 morning	morning	morning	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -14,7 +14,7 @@ Members	Members	Member	PROPN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a 
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg2" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg2.1">
+<s id="ParlaMint-BG_2017-05-11.seg2.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.192">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -26,7 +26,7 @@ quorum	quorum	quorum	NOUN	Number=Sing	G2.1/S5+c,A11.1+/S5+c,S6+/S5+c	G2.1 S5p	G2
 </p>
 <note type="kinesic:ringing" content="PHONE RINGING"/>
 <p id="ParlaMint-BG_2017-05-11.seg3" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg3.1">
+<s id="ParlaMint-BG_2017-05-11.seg3.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.826">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -37,14 +37,14 @@ session	session	session	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t6
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-BG_2017-05-11.seg3.2">
+<s id="ParlaMint-BG_2017-05-11.seg3.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.153">
 Messages	Messages	message	NOUN	Number=Plur	Q1.1,Q1.3/Y2	Q1.1	Q1.1: Linguistic Actions, States And Processes; Communication	t1
 <g/>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg4" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg4.1">
+<s id="ParlaMint-BG_2017-05-11.seg4.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.300">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 basis	basis	basis	NOUN	Number=Sing	A2.2,T2+,X4.2	A2.2	A2.2: Cause	t3
@@ -119,7 +119,7 @@ Assembly	Assembly	Assembly	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t54
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t55
 </s>
-<s id="ParlaMint-BG_2017-05-11.seg4.2">
+<s id="ParlaMint-BG_2017-05-11.seg4.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.986">
 They	They	they	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pronouns	t1
 were	were	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 granted	granted	grant	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+	A9p	A9+: Getting and possession	t3
@@ -134,7 +134,7 @@ Commission	Commission	Commission	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal name
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg5" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg5.1">
+<s id="ParlaMint-BG_2017-05-11.seg5.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.332">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 continue	continue	continue	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	T2++	T2p	T2+: Time: Beginning	t2
 with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -153,7 +153,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	A7+	A7p	A7+: Likely	t9
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg6" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg6.1">
+<s id="ParlaMint-BG_2017-05-11.seg6.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.769">
 <phr usas_tags="Z2,Z3c" usas_cats="Z2" usas_glosses="Z2: Geographical names">
 SELECTION	SELECTION	selection	NOUN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t1
 OF	OF	of	ADP	-	Z2,Z3c	Z2	Z2: Geographical names	t2
@@ -173,7 +173,7 @@ ORGANIZATIONS	ORGANIZATIONS	organidation	NOUN	Number=Plur	S5+c,S7.1+	S5p	S5+: Be
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg7" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg7.1">
+<s id="ParlaMint-BG_2017-05-11.seg7.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.987">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 are	are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 submitted	submitted	submit	VERB	Tense=Past VerbForm=Part	A9-,S7.1-	A9n	A9-: Giving	t3
@@ -201,7 +201,7 @@ Ivanov	Ivanov	Ivanov	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t18
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg8" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg8.1">
+<s id="ParlaMint-BG_2017-05-11.seg8.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.179">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 first	first	first	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t2
 one	one	one	NOUN	Number=Sing	N1,T3,T1.2	N1	N1: Numbers	t3
@@ -210,19 +210,19 @@ one	one	one	NOUN	Number=Sing	N1,T3,T1.2	N1	N1: Numbers	t3
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg9" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg9.1">
+<s id="ParlaMint-BG_2017-05-11.seg9.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.785">
 Project	Project	project	NOUN	Number=Sing	A1.1.1,P1	A1.1.1	A1.1.1: General actions / making	t1
 <g/>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg10" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg10.1">
+<s id="ParlaMint-BG_2017-05-11.seg10.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.293">
 DECISION	DECISION	decision	NOUN	Number=Sing	X6+	X6p	X6+: Decided	t1
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg11" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg11.1">
+<s id="ParlaMint-BG_2017-05-11.seg11.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.745">
 on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 election	election	election	NOUN	Number=Sing	G1.2/X7+	G1.2 X7p	G1.2: Politics|X7+: Wanted	t3
@@ -250,7 +250,7 @@ Europe	Europe	Europe	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t20
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg12" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg12.1">
+<s id="ParlaMint-BG_2017-05-11.seg12.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.119">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 National	National	National	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -318,13 +318,13 @@ Europe	Europe	Europe	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t50
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg13" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg13.1">
+<s id="ParlaMint-BG_2017-05-11.seg13.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.935">
 HAS	HAS	have	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t1
 DECIDED	DECIDED	decive	VERB	Tense=Past VerbForm=Part	X6+	X6p	X6+: Decided	t2
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg14" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg14.1">
+<s id="ParlaMint-BG_2017-05-11.seg14.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.890">
 1.	1.	1.	X	-	Z99	Z99	Z99: Unmatched	t1
 elect	elect	elect	VERB	Mood=Imp VerbForm=Fin	G1.2/X7+	G1.2 X7p	G1.2: Politics|X7+: Wanted	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -369,7 +369,7 @@ follows	follows	follow	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fi
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg15" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg15.1">
+<s id="ParlaMint-BG_2017-05-11.seg15.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.716">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -398,7 +398,7 @@ substitute	substitute	substitute	NOUN	Number=Sing	A2.1+	A2.1p	A2.1+: Change	t15
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg16" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg16.1">
+<s id="ParlaMint-BG_2017-05-11.seg16.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.720">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -415,7 +415,7 @@ Bulgaria	Bulgaria	Bulgaria	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t9
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg17" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg17.1">
+<s id="ParlaMint-BG_2017-05-11.seg17.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.640">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -425,7 +425,7 @@ of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t6
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg18" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg18.1">
+<s id="ParlaMint-BG_2017-05-11.seg18.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.579">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -435,7 +435,7 @@ of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t6
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg19" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg19.1">
+<s id="ParlaMint-BG_2017-05-11.seg19.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.692">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -450,7 +450,7 @@ group	group	group	NOUN	Number=Sing	S5+c,A4.1c,B3%	S5p	S5+: Belonging to a group	
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg20" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg20.1">
+<s id="ParlaMint-BG_2017-05-11.seg20.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.703">
 2.	2.	2.	X	-	Z99	Z99	Z99: Unmatched	t1
 Selects	Selects	select	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	X7+	X7p	X7+: Wanted	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -467,7 +467,7 @@ follows	follows	follow	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fi
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg21" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg21.1">
+<s id="ParlaMint-BG_2017-05-11.seg21.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.322">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 have	have	have	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -479,7 +479,7 @@ suggestions	suggestions	suggestion	NOUN	Number=Plur	Q2.2,Q1.1	Q2.2	Q2.2: Speech 
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg22" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg22.1">
+<s id="ParlaMint-BG_2017-05-11.seg22.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.681">
 Here	Here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 go	go	go	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	M1,A2.1+,A1.1.1,A9-,A1.8+,Q2.1,N6+,I2.2,A1.1.2,T2-,S3.2,A6.3+,B2-/X1%,B1%	M1	M1: Moving, coming and going	t3
@@ -494,9 +494,9 @@ Ivanov	Ivanov	Ivanov	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t6
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BG_2017-05-11.u2" text_id="ParlaMint-BG-en_2017-05-11" subcorpus="Reference" lang="English" body="Unicameralism" term="Четиридесет и четвърто народно събрание" session="1 парламентарна сесия" meeting="11 пленарно заседание" sitting="2017-05-11" agenda="-" date="2017-05-11" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 1, Meeting 11 (2017-05-11)" speaker_role="Regular" speaker_id="IvanovStanislav" speaker_name="Ivanov, Stanislav Stoyanov" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Parliamentary Group: GERB Party" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1973">
+<speech id="ParlaMint-BG_2017-05-11.u2" text_id="ParlaMint-BG-en_2017-05-11" subcorpus="Reference" lang="English" body="Unicameralism" term="Четиридесет и четвърто народно събрание" session="1 парламентарна сесия" meeting="11 пленарно заседание" sitting="2017-05-11" agenda="-" date="2017-05-11" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 1, Meeting 11 (2017-05-11)" speaker_role="Regular" topic="International Affairs" speaker_id="IvanovStanislav" speaker_name="Ivanov, Stanislav Stoyanov" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Parliamentary Group: GERB Party" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1973">
 <p id="ParlaMint-BG_2017-05-11.seg23" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg23.1">
+<s id="ParlaMint-BG_2017-05-11.seg23.1" senti_3="Positive" senti_6="positive" senti_n="4.689">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -506,7 +506,7 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg24" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg24.1">
+<s id="ParlaMint-BG_2017-05-11.seg24.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.410">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Dear	Dear	dear	ADJ	Degree=Pos	T1.3	T1.3	T1.3: Time: Period	t1
 Mr.	Mr.	Mr.	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
@@ -519,7 +519,7 @@ Members	Members	Member	PROPN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a 
 <g/>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-BG_2017-05-11.seg24.2">
+<s id="ParlaMint-BG_2017-05-11.seg24.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.543">
 From	From	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <name type="ORG">
@@ -562,7 +562,7 @@ Tsvetanova	Tsvetanova	Tsvetanova	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal name
 Damyanova	Damyanova	Damyanova	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t32
 </name>
 </s>
-<s id="ParlaMint-BG_2017-05-11.seg24.3">
+<s id="ParlaMint-BG_2017-05-11.seg24.3" senti_3="Positive" senti_6="positive" senti_n="4.689">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -573,9 +573,9 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-BG_2017-05-11.u109" text_id="ParlaMint-BG-en_2017-05-11" subcorpus="Reference" lang="English" body="Unicameralism" term="Четиридесет и четвърто народно събрание" session="1 парламентарна сесия" meeting="11 пленарно заседание" sitting="2017-05-11" agenda="-" date="2017-05-11" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 1, Meeting 11 (2017-05-11)" speaker_role="Chairperson" speaker_id="GlavchevDimitar" speaker_name="Glavchev, Dimitar Borisov" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Parliamentary Group: GERB Party" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1963">
+<speech id="ParlaMint-BG_2017-05-11.u109" text_id="ParlaMint-BG-en_2017-05-11" subcorpus="Reference" lang="English" body="Unicameralism" term="Четиридесет и четвърто народно събрание" session="1 парламентарна сесия" meeting="11 пленарно заседание" sitting="2017-05-11" agenda="-" date="2017-05-11" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 1, Meeting 11 (2017-05-11)" speaker_role="Chairperson" topic="Other" speaker_id="GlavchevDimitar" speaker_name="Glavchev, Dimitar Borisov" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Parliamentary Group: GERB Party" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1963">
 <p id="ParlaMint-BG_2017-05-11.seg374" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg374.1">
+<s id="ParlaMint-BG_2017-05-11.seg374.1" senti_3="Positive" senti_6="positive" senti_n="4.859">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -591,7 +591,7 @@ Tsonev	Tsonev	Tsonev	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t5
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg375" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg375.1">
+<s id="ParlaMint-BG_2017-05-11.seg375.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.745">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 vote	vote	vote	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	G1.2	G1.2	G1.2: Politics	t2
 on	on	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -602,7 +602,7 @@ proposals	proposals	proposal	NOUN	Number=Plur	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Spee
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg376" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg376.1">
+<s id="ParlaMint-BG_2017-05-11.seg376.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.543">
 Please	Please	please	INTJ	-	E4.2+,E2+,X7+	E4.2p	E4.2+: Content	t1
 vote	vote	vote	VERB	Mood=Imp VerbForm=Fin	G1.2	G1.2	G1.2: Politics	t2
 <g/>
@@ -610,7 +610,7 @@ vote	vote	vote	VERB	Mood=Imp VerbForm=Fin	G1.2	G1.2	G1.2: Politics	t2
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg377" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg377.1">
+<s id="ParlaMint-BG_2017-05-11.seg377.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.455">
 Vote	Vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t1
 181	181	181	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
 MPs	MPs	mp	NOUN	Number=Plur	G1.1/S2mf,G3/G2.1/S2mf@	G1.1 S2	G1.1: Government|S2: People	t3
@@ -630,7 +630,7 @@ abstention	abstention	abstention	NOUN	Number=Sing	G1.2,S1.1.3-,A9-	G1.2	G1.2: Po
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg378" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg378.1">
+<s id="ParlaMint-BG_2017-05-11.seg378.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.908">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 proposals	proposals	proposal	NOUN	Number=Plur	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Speech acts	t2
 for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -643,7 +643,7 @@ adopted	adopted	adopt	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,S4	A9p	A9+: G
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg379" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg379.1">
+<s id="ParlaMint-BG_2017-05-11.seg379.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.557">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 already	already	already	ADV	-	T1.1.1	T1.1.1	T1.1.1: Time: Past	t2
 have	have	have	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -676,7 +676,7 @@ made	made	make	VERB	Tense=Past VerbForm=Part Voice=Pass	A1.1.1,A9+,A2.2,S6+,A3+,
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg380" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg380.1">
+<s id="ParlaMint-BG_2017-05-11.seg380.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.543">
 Please	Please	please	INTJ	-	E4.2+,E2+,X7+	E4.2p	E4.2+: Content	t1
 vote	vote	vote	VERB	Mood=Imp VerbForm=Fin	G1.2	G1.2	G1.2: Politics	t2
 <g/>
@@ -684,7 +684,7 @@ vote	vote	vote	VERB	Mood=Imp VerbForm=Fin	G1.2	G1.2	G1.2: Politics	t2
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg381" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg381.1">
+<s id="ParlaMint-BG_2017-05-11.seg381.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.196">
 Vote	Vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t1
 182	182	182	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
 MPs	MPs	mp	NOUN	Number=Plur	G1.1/S2mf,G3/G2.1/S2mf@	G1.1 S2	G1.1: Government|S2: People	t3
@@ -705,7 +705,7 @@ abstention	abstention	abstention	NOUN	Number=Sing	G1.2,S1.1.3-,A9-	G1.2	G1.2: Po
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg382" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg382.1">
+<s id="ParlaMint-BG_2017-05-11.seg382.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.234">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 decision	decision	decision	NOUN	Number=Sing	X6+	X6p	X6+: Decided	t2
 <g/>
@@ -717,7 +717,7 @@ made	made	make	VERB	Tense=Past VerbForm=Part Voice=Pass	A1.1.1,A9+,A2.2,S6+,A3+,
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg383" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg383.1">
+<s id="ParlaMint-BG_2017-05-11.seg383.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.220">
 <name type="ORG">
 Parliamentary	Parliamentary	Parliamentary	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Control	Control	Control	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -735,7 +735,7 @@ Friday	Friday	Friday	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t8
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg384" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg384.1">
+<s id="ParlaMint-BG_2017-05-11.seg384.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.795">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Interior	Interior	Interior	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 Minister	Minister	Minister	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t3
@@ -759,7 +759,7 @@ Yankov	Yankov	Yankov	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t14
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg385" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg385.1">
+<s id="ParlaMint-BG_2017-05-11.seg385.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.884">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 basis	basis	basis	NOUN	Number=Sing	A2.2,T2+,X4.2	A2.2	A2.2: Cause	t3
@@ -819,7 +819,7 @@ requested	requested	request	VERB	Tense=Past VerbForm=Part	Q2.2,Q2.1	Q2.2	Q2.2: S
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg386" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg386.1">
+<s id="ParlaMint-BG_2017-05-11.seg386.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.674">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Minister	Minister	Minister	PROPN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Government|S2: People	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -846,7 +846,7 @@ Antonov	Antonov	Antonov	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t15
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg387" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg387.1">
+<s id="ParlaMint-BG_2017-05-11.seg387.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.462">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Minister	Minister	Minister	PROPN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Government|S2: People	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -874,7 +874,7 @@ Klisarova	Klisarova	Klisarova	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t18
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg388" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg388.1">
+<s id="ParlaMint-BG_2017-05-11.seg388.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.639">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Minister	Minister	Minister	PROPN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Government|S2: People	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -930,7 +930,7 @@ Taskova	Taskova	Taskova	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t33
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg389" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg389.1">
+<s id="ParlaMint-BG_2017-05-11.seg389.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.731">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Minister	Minister	Minister	PROPN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Government|S2: People	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -957,7 +957,7 @@ Danchev	Danchev	Danchev	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t15
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg390" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg390.1">
+<s id="ParlaMint-BG_2017-05-11.seg390.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.660">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Minister	Minister	Minister	PROPN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Government|S2: People	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -984,7 +984,7 @@ Yordanov	Yordanov	Yordanov	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t15
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg391" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg391.1">
+<s id="ParlaMint-BG_2017-05-11.seg391.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.661">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Minister	Minister	Minister	PROPN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Government|S2: People	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1025,7 +1025,7 @@ Gokov	Gokov	Gokov	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t24
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg392" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg392.1">
+<s id="ParlaMint-BG_2017-05-11.seg392.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.874">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Minister	Minister	Minister	PROPN	Number=Sing	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: Government|S2: People	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1055,7 +1055,7 @@ Chakarov	Chakarov	Chakarov	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t18
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg393" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg393.1">
+<s id="ParlaMint-BG_2017-05-11.seg393.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.117">
 <phr usas_tags="A2.2" usas_cats="A2.2" usas_glosses="A2.2: Cause">
 Due	Due	due	ADP	-	A2.2	A2.2	A2.2: Cause	t1
 to	to	to	ADP	-	A2.2	A2.2	A2.2: Cause	t2
@@ -1081,9 +1081,9 @@ meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BG_2017-05-11.u110" text_id="ParlaMint-BG-en_2017-05-11" subcorpus="Reference" lang="English" body="Unicameralism" term="Четиридесет и четвърто народно събрание" session="1 парламентарна сесия" meeting="11 пленарно заседание" sitting="2017-05-11" agenda="-" date="2017-05-11" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 1, Meeting 11 (2017-05-11)" speaker_role="Regular" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
+<speech id="ParlaMint-BG_2017-05-11.u110" text_id="ParlaMint-BG-en_2017-05-11" subcorpus="Reference" lang="English" body="Unicameralism" term="Четиридесет и четвърто народно събрание" session="1 парламентарна сесия" meeting="11 пленарно заседание" sitting="2017-05-11" agenda="-" date="2017-05-11" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 1, Meeting 11 (2017-05-11)" speaker_role="Regular" topic="Other" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-BG_2017-05-11.seg394" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg394.1">
+<s id="ParlaMint-BG_2017-05-11.seg394.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.348">
 Tomorrow	Tomorrow	tomorrow	NOUN	Number=Sing	T1.1.3	T1.1.3	T1.1.3: Time: Future	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 continue	continue	continue	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	T2++	T2p	T2+: Time: Beginning	t3
@@ -1097,7 +1097,7 @@ at	at	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t7
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg395" lang="English">
-<s id="ParlaMint-BG_2017-05-11.seg395.1">
+<s id="ParlaMint-BG_2017-05-11.seg395.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.590">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 're	're	be	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2

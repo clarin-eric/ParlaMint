@@ -21,13 +21,21 @@
                <resp xml:lang="en">Data cleaning and finalization</resp>
                <resp xml:lang="fi">Datan puhdistaminen ja viimeistely</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="103" xml:lang="fi">puheet</measure>
@@ -41,7 +49,7 @@
                <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
@@ -49,7 +57,7 @@
                <p xml:lang="fi">Tämä aineisto on saatavilla lisenssillä <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -92,8 +100,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#parla.sitting #covid">
@@ -103,10 +113,10 @@
             <note type="relatedDocument" xml:id="ParlaMint-FI_2022-01-25-ps-165.note1">Hallituksen esitys HE 239/2021 vp</note>
             <note type="relatedDocument" xml:id="ParlaMint-FI_2022-01-25-ps-165.note2">Valiokunnan mietintö TyVM 19/2021 vp</note>
             <pb n="1" source="https://www.eduskunta.fi/FI/vaski/PoytakirjaAsiakohta/Sivut/PTK_165+2021+2.aspx"/>
-            <u ana="#chair" who="#AnuVehviläinen" xml:id="ParlaMint-FI_2022-01-25-ps-165.u1">
+            <u ana="#chair topic:mixed" who="#AnuVehviläinen" xml:id="ParlaMint-FI_2022-01-25-ps-165.u1">
                <seg xml:id="ParlaMint-FI_2022-01-25-ps-165.seg1">Ensimmäiseen käsittelyyn esitellään päiväjärjestyksen 2. asia. Käsittelyn pohjana on työelämä- ja tasa-arvovaliokunnan mietintö TyVM 19/2021 vp. Nyt päätetään lakiehdotuksen sisällöstä. — Yleiskeskustelu, valiokunnan puheenjohtaja, edustaja Pekonen, olkaa hyvä.</seg>
             </u>
-            <u ana="#regular" who="#AinoKaisaPekonen" xml:id="ParlaMint-FI_2022-01-25-ps-165.u2">
+            <u ana="#regular topic:labor" who="#AinoKaisaPekonen" xml:id="ParlaMint-FI_2022-01-25-ps-165.u2">
                <seg xml:id="ParlaMint-FI_2022-01-25-ps-165.seg2">Kiitos, arvoisa rouva puhemies! Tässä esityksessä ehdotetaan työttömyysturvalakia muutettavaksi väliaikaisesti siten, että yrittäjällä on oikeus työmarkkinatukeen päätoimisen työskentelyn päätyttyä covid-19-pandemian takia, vaikka yritystoimintaa ei ole lopetettu kokonaan eivätkä työttömyysturvalaissa säädetyt edellytykset työttömyysetuuden maksamiselle yrityksessä työskentelemisen päättymisen perusteella täyty. Säännös olisi voimassa 28. helmikuuta 2022 asti.</seg>
                <seg xml:id="ParlaMint-FI_2022-01-25-ps-165.seg3">Nyt ehdotettu muutos vastaa pääosin 8.4.2020—30.11.2021 voimassa olleita työttömyysturvalain väliaikaisia yrittäjän työmarkkinatukioikeutta koskeneita säännöksiä. Päätoimisen työllistymisen päättymistä osoittavaa tulorajaa kuitenkin tarkistetaan palkkakertoimella vastaamaan muiden työttömyysturvalaissa säädettyjen tulorajojen muutoksia.</seg>
                <seg xml:id="ParlaMint-FI_2022-01-25-ps-165.seg4">Pandemia on Suomessa edelleen aktiivinen, ja syksyllä 2021 levinneen virusmuunnoksen vuoksi tartunnat lisääntyivät loppuvuodesta merkittävästi. Vallitsevassa tilanteessa yhteiskunnan toimintoja ei voida ilman tartuntariskiä täysin varmistaa esimerkiksi koronapassin avulla, vaan erilaisia yhteiskunnan toimintoja on jouduttu määräajaksi rajoittamaan. Rajoitukset vaikeuttavat elinkeinotoiminnan harjoittamista, minkä vuoksi yrittäjien toimeentulo rajoitusten ajalta on tarpeen turvata. Hallitus pitää perusteltuna ehdottaa työmarkkinatuen maksamista yrittäjille väliaikaisen säännöksen perusteella vain pandemian hallintaan liittyvien määräaikaisten rajoitusten aikana, koska pandemian vaikutuksia yhteiskuntaan tai elinkeinojen harjoittamiseen on vaikeaa ennakoida.</seg>
@@ -118,10 +128,10 @@
             </gap>
          </div>
          <div type="debateSection">
-            <u ana="#regular" who="#MiaLaiho" xml:id="ParlaMint-FI_2022-01-25-ps-165.u102">
+            <u ana="#regular topic:other" who="#MiaLaiho" xml:id="ParlaMint-FI_2022-01-25-ps-165.u102">
                <seg xml:id="ParlaMint-FI_2022-01-25-ps-165.seg205">Arvoisa puhemies! Esitän, että voimaantulosäännös saa sen muodon kuin on vastalauseessa.</seg>
             </u>
-            <u ana="#regular" who="#PiaKauma" xml:id="ParlaMint-FI_2022-01-25-ps-165.u103">
+            <u ana="#regular topic:other" who="#PiaKauma" xml:id="ParlaMint-FI_2022-01-25-ps-165.u103">
                <seg xml:id="ParlaMint-FI_2022-01-25-ps-165.seg206">Arvoisa puhemies! Kannatan.</seg>
             </u>
          </div>

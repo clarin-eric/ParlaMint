@@ -15,12 +15,20 @@
                <resp xml:lang="eu">Informazio erauzketa eta TEI bihurketa</resp>
                <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="eu">IXA Taldea</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="137" xml:lang="eu">137 speeches</measure>
@@ -38,7 +46,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -77,21 +85,23 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war">
       <body>
          <div type="debateSection">
             <note type="speaker" xml:id="ParlaMint-ES-PV_2022-10-14.note1">LEHENDAKARIAK (Tejeria Otermin):</note>
-            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2022-10-14.u0" ana="#chair">
+            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2022-10-14.u0" ana="#chair topic:lawcr">
                <seg xml:id="ParlaMint-ES-PV_2022-10-14.seg2" xml:lang="eu">Egun on guztioi. Osoko bilkurari hasiera emango diogu.</seg>
                <seg xml:id="ParlaMint-ES-PV_2022-10-14.seg3" xml:lang="eu">Gai-zerrendako lehenengo puntua: "Galdera, Jon Andoni Atutxa Sainz Euzko Abertzaleak taldeko legebiltzarkideak lehenengo lehendakariorde eta Segurtasuneko sailburuari egina, Ertzaintzak ziberdelinkuentziaren fenomeno gero eta handiagoari aurre egiteko aurreikusi dituen jarduerei buruz".</seg>
                <seg xml:id="ParlaMint-ES-PV_2022-10-14.seg4" xml:lang="eu">Atutxa jauna, zurea da hitza.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-ES-PV_2022-10-14.note2">ATUTXA SAINZ jaunak:</note>
-            <u who="#AtutxaSainz" xml:id="ParlaMint-ES-PV_2022-10-14.u1" ana="#regular">
+            <u who="#AtutxaSainz" xml:id="ParlaMint-ES-PV_2022-10-14.u1" ana="#regular topic:lawcr">
                <seg xml:id="ParlaMint-ES-PV_2022-10-14.seg5" xml:lang="eu">Eskerrik asko, legebiltzarburu andrea. Lehendakari, sailburuak, legebiltzarkideok, egun on.</seg>
                <seg xml:id="ParlaMint-ES-PV_2022-10-14.seg6" xml:lang="es">Señor Erkoreka, en su comparecencia el pasado mes de marzo nos aportó un dato que desde nuestro grupo entendemos muy destacable. Y ese dato no era otro que durante el año 2021 de cada cinco delitos investigados por la Ertzaintza uno de ellos era un delito informático o que se había cometido utilizando medios informáticos.</seg>
                <seg xml:id="ParlaMint-ES-PV_2022-10-14.seg7" xml:lang="eu">Delitu informatikoak ez dira berriak, baina azken urteotan etengabe ari dira hazten.</seg>
@@ -102,7 +112,7 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#ZupiriaGorostidi" xml:id="ParlaMint-ES-PV_2022-10-14.u135" ana="#regular">
+            <u who="#ZupiriaGorostidi" xml:id="ParlaMint-ES-PV_2022-10-14.u135" ana="#regular topic:cultu">
                <seg xml:id="ParlaMint-ES-PV_2022-10-14.seg690" xml:lang="es">Presidente andrea.</seg>
                <seg xml:id="ParlaMint-ES-PV_2022-10-14.seg691" xml:lang="es">Barrio jauna, mi ignorancia no llega hasta el punto de no saber que Orduña es Bizkaia. Pero es que en su relación de proyectos ha eludido completamente todos los que tenían que ver con Aiaraldea, y me ha parecido que era el momento de aportarlos, ¿no?</seg>
                <seg xml:id="ParlaMint-ES-PV_2022-10-14.seg692" xml:lang="es">Mire, mi relación con usted en estos seis años en los que me ha correspondido estar al frente del Departamento de Cultura ha sido muy enriquecedora, porque gracias a aquellos acuerdos parlamentarios y presupuestarios que alcanzamos hace unos años nos obligamos los dos a pensar en qué cosas se podían desarrollar en Álava, y qué otras cosas podíamos copiar, incluso en comunidades en las que el Partido Popular gobernaba, copiar o utilizar como modelo, para intentar desarrollarlas en este territorio. Creo que fruto de aquella colaboración ha habido compromisos y apuestas clarísimas de nuestro departamento en el territorio alavés. A veces hace falta que todos nos creamos un poco más las cosas.</seg>
@@ -115,7 +125,7 @@
                <seg xml:id="ParlaMint-ES-PV_2022-10-14.seg697" xml:lang="eu">Eskerrik asko.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-ES-PV_2022-10-14.note200">LEHENDAKARIAK:</note>
-            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2022-10-14.u136" ana="#chair">
+            <u who="#TejeriaOtermin" xml:id="ParlaMint-ES-PV_2022-10-14.u136" ana="#chair topic:other">
                <seg xml:id="ParlaMint-ES-PV_2022-10-14.seg698" xml:lang="eu">Eskerrik asko, Zupiria jauna.</seg>
                <seg xml:id="ParlaMint-ES-PV_2022-10-14.seg699" xml:lang="eu">Gai-zerrenda agortu dugunez, osoko bilkurari amaiera ematen diot. Goizeko ordu bata eta zazpian amaitu da bilkura.</seg>
             </u>

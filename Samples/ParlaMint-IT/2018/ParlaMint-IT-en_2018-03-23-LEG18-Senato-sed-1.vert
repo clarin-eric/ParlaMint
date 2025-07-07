@@ -1,9 +1,9 @@
 <note type="speaker" content="Chairmanship of the interim president of NAPOLITANO"/>
 <note type="-" content="(Senator Napolitano, interim president pursuant to Rule 2 (1) of the Rules of Procedure, goes to the Presidential bench)."/>
 <note type="speaker" content="PRESIDENT"/>
-<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u1" text_id="ParlaMint-IT-en_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="English" body="Upper house" term="18 Legislatura" session="-" meeting="-" sitting="1 Seduta" agenda="-" date="2018-03-23" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 1, Day (2018-03-23)" speaker_role="Chairperson" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
+<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u1" text_id="ParlaMint-IT-en_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="English" body="Upper house" term="18 Legislatura" session="-" meeting="-" sitting="1 Seduta" agenda="-" date="2018-03-23" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 1, Day (2018-03-23)" speaker_role="Chairperson" topic="Other" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1" lang="English">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.646">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 sitting	sitting	sitting	NOUN	Number=Sing	M8,C1,P1,G1.1,G2.1,M6,A9+	M8	M8: Stationary	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -22,10 +22,10 @@ a.m.	a.m.	a.m.	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t7
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="Per l'apertura della XVIII legislatura"/>
 <note type="speaker" content="PRESIDENT"/>
-<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u2" text_id="ParlaMint-IT-en_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="English" body="Upper house" term="18 Legislatura" session="-" meeting="-" sitting="1 Seduta" agenda="-" date="2018-03-23" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 1, Day (2018-03-23)" speaker_role="Chairperson" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
+<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u2" text_id="ParlaMint-IT-en_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="English" body="Upper house" term="18 Legislatura" session="-" meeting="-" sitting="1 Seduta" agenda="-" date="2018-03-23" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 1, Day (2018-03-23)" speaker_role="Chairperson" topic="Mix" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
 <note type="incident:action" content="He stands up."/>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg2" lang="English">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg2.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg2.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.038">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -126,7 +126,7 @@ represent	represent	represent	VERB	VerbForm=Inf	Q1.1,A6.2+,S1.1.3,A5.4-,K4	Q1.1	
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg3" lang="English">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg3.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg3.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.878">
 This	This	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 18th	18th	18th	ADJ	Degree=Pos NumType=Ord	Z99	Z99	Z99: Unmatched	t2
 legislature	legislature	legislature	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t3
@@ -163,7 +163,7 @@ resulted	resulted	result	VERB	Tense=Past VerbForm=Part	A2.2	A2.2	A2.2: Cause	t31
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4" lang="English">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.747">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 vote	vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -198,7 +198,7 @@ years	years	year	NOUN	Number=Plur	P1/S2mf	P1 S2	P1: Education in general|S2: Peo
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.2">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.2" senti_3="Negative" senti_6="mixed negative" senti_n="0.533">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -234,7 +234,7 @@ structure	structure	structure	NOUN	Number=Sing	O4.1,H1,S7.1,O2,A4.1,X4.2,B1	O4.1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.3">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.3" senti_3="Negative" senti_6="mixed negative" senti_n="0.884">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 questioned	questioned	question	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	Q2.2	Q2.2	Q2.2: Speech acts	t2
 traditions	traditions	tradition	NOUN	Number=Plur	S1.1.1,T1.1.1,A6.2+	S1.1.1	S1.1.1: Social Actions, States And Processes	t3
@@ -252,7 +252,7 @@ prevailed	prevailed	prevail	VERB	Tense=Past VerbForm=Part	X9.2+,S7.1+	X9.2p	X9.2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.4">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.4" senti_3="Positive" senti_6="mixed positive" senti_n="3.721">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 voters	voters	voter	NOUN	Number=Plur	G1.2/S2mf	G1.2 S2	G1.2: Politics|S2: People	t2
 have	have	have	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -286,7 +286,7 @@ past	past	past	NOUN	Number=Sing	T1.1.1	T1.1.1	T1.1.1: Time: Past	t25
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5" lang="English">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.1" senti_3="Negative" senti_6="negative" senti_n="0.402">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 protest	protest	protest	NOUN	Number=Sing	Q2.2,A10+,G1.2	Q2.2	Q2.2: Speech acts	t2
 resulted	resulted	result	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A2.2	A2.2	A2.2: Cause	t3
@@ -329,7 +329,7 @@ class	class	class	NOUN	Number=Sing	S5+c	S5p	S5+: Belonging to a group	t30
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t31
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.2">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.2" senti_3="Negative" senti_6="negative" senti_n="0.050">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 particular	particular	particular	ADJ	Degree=Pos	A4.2+,X7+	A4.2p	A4.2+: Detailed	t3
@@ -380,7 +380,7 @@ vote	vote	vote	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t37
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6" lang="English">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.1" senti_3="Negative" senti_6="negative" senti_n="0.002">
 They	They	they	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pronouns	t1
 have	have	have	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 been	been	be	AUX	Tense=Past VerbForm=Part	A3+,Z5	A3p	A3+: Existing	t3
@@ -430,7 +430,7 @@ Regions	Regions	Region	PROPN	Number=Plur	M7,B1	M7	M7: Places	t34
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t35
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.2">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.2" senti_3="Negative" senti_6="negative" senti_n="0.196">
 These	These	this	DET	Number=Plur PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 reactions	reactions	reaction	NOUN	Number=Plur	A1.1.1,A6.1-,B2-,Y1	A1.1.1	A1.1.1: General actions / making	t2
 showed	showed	show	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	A10+,S1.1.1	A10p	A10+: Open; Finding; Showing	t3
@@ -469,7 +469,7 @@ years	years	year	NOUN	Number=Plur	P1/S2mf	P1 S2	P1: Education in general|S2: Peo
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg7" lang="English">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg7.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg7.1" senti_3="Negative" senti_6="mixed negative" senti_n="0.595">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 general	general	general	ADJ	Degree=Pos	N5+,A4.2-	N5p	N5+: Quantities: many/much	t2
 political	political	political	ADJ	Degree=Pos	G1.2	G1.2	G1.2: Politics	t3
@@ -529,7 +529,7 @@ alarm	alarm	alarm	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t45
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8" lang="English">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.1" senti_3="Negative" senti_6="mixed negative" senti_n="0.583">
 All	All	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t1
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 must	must	must	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or necessity	t3
@@ -591,7 +591,7 @@ master	master	master	VERB	VerbForm=Inf	X9.1+	X9.1p	X9.1+: Able/intelligent	t51
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t52
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.2">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.2" senti_3="Negative" senti_6="negative" senti_n="0.082">
 From	From	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t2
 <g/>
@@ -611,7 +611,7 @@ Italians	Italians	Italian	PROPN	Number=Plur	Z2/S2mf,F1	Z2 S2	Z2: Geographical na
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9" lang="English">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.1" senti_3="Positive" senti_6="positive" senti_n="4.558">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 national	national	national	ADJ	Degree=Pos	M7/N5.1+	M7 N5.1p	M7: Places|N5.1+: Entire; maximum	t3
@@ -676,7 +676,7 @@ country	country	country	NOUN	Number=Sing	G1.1c,W3,F4/M7,K2	G1.1	G1.1: Government
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t53
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.2">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.2" senti_3="Negative" senti_6="negative" senti_n="0.017">
 At	At	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 same	same	same	ADJ	Degree=Pos	A6.1+++	A6.1p	A6.1+: Comparing: Similar	t3
@@ -709,7 +709,7 @@ opposition	opposition	opposition	NOUN	Number=Sing	S8-/E2-,S7.3+,A6.1-	S8n E2n	S8
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.3">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.3" senti_3="Negative" senti_6="mixed negative" senti_n="0.816">
 However	However	however	ADV	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -750,7 +750,7 @@ Chambers	Chambers	Chambers	PROPN	Number=Plur	Z3c,Z1mf	Z3	Z3: Other proper names	
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10" lang="English">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.799">
 However	However	however	ADV	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -781,7 +781,7 @@ future	future	future	NOUN	Number=Sing	T1.1.3	T1.1.3	T1.1.3: Time: Future	t25
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.2">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.962">
 Some	Some	some	DET	-	N5,Z5	N5	N5: Quantities	t1
 elements	elements	element	NOUN	Number=Plur	A4.1,N5,S5+c,O1,O3,O2,W4	A4.1	A4.1: Generally kinds, groups, examples	t2
 may	may	may	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t3
@@ -793,7 +793,7 @@ horizon	horizon	horizon	NOUN	Number=Sing	W3,X2.6+	W3	W3: Geographical terms	t8
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.3">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.3" senti_3="Positive" senti_6="mixed positive" senti_n="4.067">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 essentially	essentially	essentially	ADV	-	S6+,A13.2,Z4	S6p	S6+: Strong obligation or necessity	t3
@@ -812,7 +812,7 @@ Italy	Italy	Italy	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t13
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.4">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.4" senti_3="Positive" senti_6="mixed positive" senti_n="3.743">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 based	based	base	VERB	Tense=Past VerbForm=Part Voice=Pass	T2+,M6,A2.2	T2p	T2+: Time: Beginning	t3
@@ -843,7 +843,7 @@ destiny	destiny	destiny	NOUN	Number=Sing	A7+++/S7.1-,A3+/S7.1-	A7p S7.1n	A7+: Li
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.5">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.5" senti_3="Neutral" senti_6="neutral negative" senti_n="1.585">
 <phr usas_tags="Z5" usas_cats="Z5" usas_glosses="Z5: Grammatical bin">
 As	As	as	ADV	-	Z5	Z5	Z5: Grammatical bin	t1
 far	far	far	ADV	Degree=Pos	Z5	Z5	Z5: Grammatical bin	t2
@@ -867,7 +867,7 @@ obvious	obvious	obvious	ADJ	Degree=Pos	A11.2+	A11.2p	A11.2+: Noticeable	t17
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.6">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.6" senti_3="Negative" senti_6="negative" senti_n="0.134">
 Indeed	Indeed	indeed	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -905,7 +905,7 @@ opportunities	opportunities	opportunity	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: P
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.7">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.7" senti_3="Neutral" senti_6="neutral positive" senti_n="3.477">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 has	has	have	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 appeared	appeared	appear	VERB	Tense=Past VerbForm=Part	A8,A10+,A3+,G2.1,K4,Q4	A8	A8: Seem	t3
@@ -968,7 +968,7 @@ world	world	world	NOUN	Number=Sing	W1,S5+c,A4.1,N5+	W1	W1: The universe	t48
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t49
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.8">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.8" senti_3="Neutral" senti_6="neutral positive" senti_n="2.918">
 With	With	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <name type="MISC">
@@ -1012,7 +1012,7 @@ Europe	Europe	Europe	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t30
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t31
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.9">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.9" senti_3="Neutral" senti_6="neutral negative" senti_n="2.203">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 within	within	within	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -1071,7 +1071,7 @@ dissolve	dissolve	dissolve	VERB	VerbForm=Inf	A1.1.1,T2-	A1.1.1	A1.1.1: General a
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t49
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.10">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.10" senti_3="Negative" senti_6="mixed negative" senti_n="0.716">
 Conquests	Conquests	conquest	NOUN	Number=Plur	X9.2+/S7.3,X9.2+/G3,S7.1+	X9.2p S7.3	X9.2+: Success|S7.3: Competition	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 peace	peace	peace	NOUN	Number=Sing	E3+	E3p	E3+: Calm	t3
@@ -1112,7 +1112,7 @@ peace	peace	peace	NOUN	Number=Sing	E3+	E3p	E3+: Calm	t29
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg11" lang="English">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg11.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg11.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.343">
 To	To	to	PART	-	Z5	Z5	Z5: Grammatical bin	t1
 deal	deal	deal	VERB	VerbForm=Inf	A1.1.1,I2.2,I2.1,A9-,K5.2,F3/I2.2	A1.1.1	A1.1.1: General actions / making	t2
 with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1167,7 +1167,7 @@ sides	sides	side	NOUN	Number=Plur	A4.1,M6,N5.1-,S7.3+/S5+c,B1,S5+c,S4c,F1,S1.2	A
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12" lang="English">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.529">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 add	add	add	VERB	VerbForm=Inf	N5+/A2.1,N2,A1.8+	N5p A2.1	N5+: Quantities: many/much|A2.1: Affect: Modify, change	t3
@@ -1215,7 +1215,7 @@ non-violence	non-violence	non-violence	NOUN	Number=Sing	G1.2/E3+,G2.1	G1.2 E3p	G
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t41
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.2">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.2" senti_3="Negative" senti_6="mixed negative" senti_n="1.468">
 Violence	Violence	violence	NOUN	Number=Sing	E3-	E3n	E3-: Violent/Angry	t1
 must	must	must	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or necessity	t2
 be	be	be	AUX	VerbForm=Inf	A3+,Z5	A3p	A3+: Existing	t3
@@ -1231,7 +1231,7 @@ forms	forms	form	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t10
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.3">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.3" senti_3="Negative" senti_6="negative" senti_n="0.031">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 know	know	know	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	X2.2+,S3.2/B1%	X2.2p	X2.2+: Knowledgeable	t2
 where	where	where	SCONJ	PronType=Int	M6	M6	M6: Location and direction	t3
@@ -1245,7 +1245,7 @@ violence	violence	violence	NOUN	Number=Sing	E3-	E3n	E3-: Violent/Angry	t10
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.4">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.4" senti_3="Neutral" senti_6="neutral positive" senti_n="2.984">
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 Let	Let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
 <g/>
@@ -1260,7 +1260,7 @@ the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t5
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.5">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.5" senti_3="Negative" senti_6="negative" senti_n="0.153">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 have	have	have	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 just	just	just	ADV	-	A14,T3---,T1.3-,N3.3---	A14	A14: Exclusivizers/particularizers	t3
@@ -1299,7 +1299,7 @@ killing	killing	killing	NOUN	Number=Sing	L1-,A12-,A1.5.1,E4.1-/A2.2	L1n	L1-: Dea
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.6">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.6" senti_3="Positive" senti_6="positive" senti_n="5.077">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 are	are	be	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 left	left	leave	VERB	Tense=Past VerbForm=Part Voice=Pass	M1,M2,A1.1.1,A1.9,A9-,N5.2+,T2-	M1	M1: Moving, coming and going	t3
@@ -1335,7 +1335,7 @@ dialogue	dialogue	dialogue	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t25
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg13" lang="English">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg13.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg13.1" senti_3="Negative" senti_6="mixed negative" senti_n="0.565">
 Political	Political	political	ADJ	Degree=Pos	G1.2	G1.2	G1.2: Politics	t1
 confrontation	confrontation	confrontation	NOUN	Number=Sing	A6.1-,G3,S1.1.1/E3-	A6.1n	A6.1-: Comparing: Different	t2
 must	must	must	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or necessity	t3
@@ -1368,7 +1368,7 @@ fascism	fascism	fascism	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t25
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14" lang="English">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.1" senti_3="Positive" senti_6="positive" senti_n="4.721">
 Finally	Finally	finally	ADV	-	N4	N4	N4: Linear order	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1425,7 +1425,7 @@ country	country	country	NOUN	Number=Sing	G1.1c,W3,F4/M7,K2	G1.1	G1.1: Government
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t46
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.2">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.2" senti_3="Positive" senti_6="positive" senti_n="4.692">
 Certainly	Certainly	certainly	ADV	-	A7+	A7p	A7+: Likely	t1
 <phr usas_tags="A5.3+,G2.2+,N4" usas_cats="A5.3p" usas_glosses="A5.3+: Evaluation: Accurate">
 in	in	in	SCONJ	-	A5.3+,G2.2+,N4	A5.3p	A5.3+: Evaluation: Accurate	t2
@@ -1496,7 +1496,7 @@ trust	trust	trust	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t54
 </p>
 <note type="kinesic:applause" content="General applause"/>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg15" lang="English">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg15.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg15.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.423">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -1548,7 +1548,7 @@ term	term	term	NOUN	Number=Sing	Q3,T1.3,S6+	Q3	Q3: Language, speech and grammar	
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16" lang="English">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.350">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 first	first	first	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t2
 reform	reform	reform	NOUN	Number=Sing	A2.1+	A2.1p	A2.1+: Change	t3
@@ -1607,7 +1607,7 @@ government	government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t4
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t46
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.2">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.2" senti_3="Positive" senti_6="mixed positive" senti_n="4.142">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 was	was	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 <g/>
@@ -1628,7 +1628,7 @@ assembly	assembly	assembly	NOUN	Number=Sing	S5+c,A9+,A1.1.1	S5p	S5+: Belonging t
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.3">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.3" senti_3="Negative" senti_6="negative" senti_n="0.467">
 Our	Our	we	PRON	Number=Plur Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 duty	duty	duty	NOUN	Number=Sing	S6+,G1.1/I1.3,T1.3/I3.1	S6p	S6+: Strong obligation or necessity	t2
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -1646,7 +1646,7 @@ alternative	alternative	alternative	NOUN	Number=Sing	A6.1-	A6.1n	A6.1-: Comparin
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg17" lang="English">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg17.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg17.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.931">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 ideal	ideal	ideal	ADJ	Degree=Pos	A5.1+++,X4.1	A5.1p	A5.1+: Evaluation: Good	t3
@@ -1694,7 +1694,7 @@ test	test	test	NOUN	Number=Sing	P1,B3,X2.4,K5.1@	P1	P1: Education in general	t34
 </s>
 </p>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg18" lang="English">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg18.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg18.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.902">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -1709,9 +1709,9 @@ attention	attention	attention	NOUN	Number=Sing	X5.1+,S8+	X5.1p	X5.1+: Attentive	
 <note type="kinesic:applause" content="General applause."/>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u15" text_id="ParlaMint-IT-en_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="English" body="Upper house" term="18 Legislatura" session="-" meeting="-" sitting="1 Seduta" agenda="-" date="2018-03-23" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 1, Day (2018-03-23)" speaker_role="Chairperson" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
+<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u15" text_id="ParlaMint-IT-en_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="English" body="Upper house" term="18 Legislatura" session="-" meeting="-" sitting="1 Seduta" agenda="-" date="2018-03-23" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 1, Day (2018-03-23)" speaker_role="Chairperson" topic="Other" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg55" lang="English">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg55.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg55.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.185">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 motions	motions	motion	NOUN	Number=Plur	M1,Q1.1	M1	M1: Moving, coming and going	t2
 <g/>
@@ -1745,9 +1745,9 @@ report	report	report	NOUN	Number=Sing	Q2.2,X3.2	Q2.2	Q2.2: Speech acts	t20
 </speech>
 <note type="head" content="Ordine del giorno per la seduta di sabato 24 marzo 2018"/>
 <note type="speaker" content="PRESIDENT"/>
-<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u16" text_id="ParlaMint-IT-en_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="English" body="Upper house" term="18 Legislatura" session="-" meeting="-" sitting="1 Seduta" agenda="-" date="2018-03-23" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 1, Day (2018-03-23)" speaker_role="Chairperson" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
+<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u16" text_id="ParlaMint-IT-en_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="English" body="Upper house" term="18 Legislatura" session="-" meeting="-" sitting="1 Seduta" agenda="-" date="2018-03-23" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 1, Day (2018-03-23)" speaker_role="Chairperson" topic="Other" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56" lang="English">
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.1">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.650">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Senate	Senate	Senate	PROPN	Number=Sing	S7.1+	S7.1p	S7.1+: In power	t2
@@ -1780,7 +1780,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	Q1.2/X7+	Q1.2 X7p	Q1.2: Paper documents an
 <g/>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.2">
+<s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.652">
 (	(	(	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <g/>
 See	See	see	VERB	Mood=Imp VerbForm=Fin	X3.4,X2.1,S1.1.1,X2.5+,X2.3+,X3,A7+,Z4,S3.2	X3.4	X3.4: Sensory: Sight	t2

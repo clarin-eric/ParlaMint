@@ -23,13 +23,21 @@
                <resp xml:lang="el">Επιστημονικός υπεύθυνος</resp>
                <resp xml:lang="en">Scientific supervisor</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="el">Γλωσσική ερευνητική υποδομή CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure xml:lang="el" unit="speeches" quantity="511">511 ομιλίες</measure>
@@ -43,13 +51,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
                <p>Το παρόν έργο διέπεται από την άδεια <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -93,8 +101,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
@@ -111,7 +121,7 @@
             </gap>
             <note xml:id="ParlaMint-GR_2017-06-09-S1-commons.note1">Αθήνα, σήμερα στις 9 Ιουνίου 2017, ημέρα Παρασκευή και ώρα 9.58΄, συνήλθε στην Αίθουσα των συνεδριάσεων του Βουλευτηρίου η Βουλή σε ολομέλεια για να συνεδριάσει υπό την προεδρία του Δ΄ Αντιπροέδρου αυτής κ. ΝΙΚΗΤΑ ΚΑΚΛΑΜΑΝΗ.</note>
             <note type="speaker" xml:id="ParlaMint-GR_2017-06-09-S1-commons.note2">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
-            <u xml:id="ParlaMint-GR_2017-06-09-S1-commons.u1" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
+            <u xml:id="ParlaMint-GR_2017-06-09-S1-commons.u1" ana="#chair topic:educa" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                <seg xml:id="ParlaMint-GR_2017-06-09-S1-commons.seg1">Κυρίες και κύριοι συνάδελφοι, αρχίζει η συνεδρίαση.</seg>
                <note xml:id="ParlaMint-GR_2017-06-09-S1-commons.note3">Σημείωση: Ο παρακάτω πίνακας περιεχομένων δεν αποτελεί το τελικό κείμενο, διότι εκκρεμούν ορθογραφικές και συντακτικές διορθώσεις</note>
                <seg xml:id="ParlaMint-GR_2017-06-09-S1-commons.seg2">Έχω την τιμή να ανακοινώσω στο Σώμα το δελτίο επικαίρων ερωτήσεων της Δευτέρας 12 Ιουνίου 2017.</seg>
@@ -139,7 +149,7 @@
                <seg xml:id="ParlaMint-GR_2017-06-09-S1-commons.seg24">Τον λόγο έχει ο κ. Καρράς.</seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-GR_2017-06-09-S1-commons.note4">ΓΕΩΡΓΙΟΣ - ΔΗΜΗΤΡΙΟΣ ΚΑΡΡΑΣ</note>
-            <u xml:id="ParlaMint-GR_2017-06-09-S1-commons.u2" ana="#regular" who="#ΚΑΡΡΑΣ_ΒΑΣΙΛΕΙΟΥ_ΓΕΩΡΓΙΟΣ-ΔΗΜΗΤΡΙΟΣ">
+            <u xml:id="ParlaMint-GR_2017-06-09-S1-commons.u2" ana="#regular topic:domes" who="#ΚΑΡΡΑΣ_ΒΑΣΙΛΕΙΟΥ_ΓΕΩΡΓΙΟΣ-ΔΗΜΗΤΡΙΟΣ">
                <seg xml:id="ParlaMint-GR_2017-06-09-S1-commons.seg25">Ευχαριστώ πολύ, κύριε Πρόεδρε, αλλά να ευχαριστήσω πριν από όλα και τον Υπουργό για την παρουσία του.</seg>
                <seg xml:id="ParlaMint-GR_2017-06-09-S1-commons.seg26">Προ δύο σχεδόν μηνών κατέθεσα μία αίτηση κατάθεσης εγγράφων προς τους Υπουργούς Οικονομικών και Οικονομίας και ζητούσα τα στοιχεία εκείνα τα οποία περιλαμβάνονται στη σύμβαση χρηματοδοτικής διευκόλυνσης του 2015 σε σχέση με τους στόχους μειώσεως των προβληματικών δανείων. Δυστυχώς, μέχρι σήμερα δεν έχω λάβει καμμία απάντηση. Περιέργως από το Υπουργείο Οικονομίας έλαβα ένα έγγραφο δύο γραμμών ότι δεν έχει καμμία αρμοδιότητα. Με εκπλήσσει, αλλά δεν θα το σχολιάσω τώρα. Από το δε Υπουργείο Οικονομικών ουδεμία απάντηση ευδόκησε ούτε είχα την τιμή να λάβω.</seg>
                <seg xml:id="ParlaMint-GR_2017-06-09-S1-commons.seg27">Κατόπιν αυτού, παρατήρησα ότι υπήρχε μία σειρά δημοσιευμάτων, κύριε Πρόεδρε, που αναφέροντο στο γεγονός ότι σειρά διευθετήσεων μεγάλων επιχειρηματικών δανείων υπήρξε, ενώ ετίθεντο εκποδών τα μικρότερα δάνεια. Αναζήτησα, λοιπόν, στοιχεία από τα οποία να δω πώς διαγράφεται η κατάσταση. Γιατί έχει σημασία και να αντιμετωπίσουμε τα προβληματικά δάνεια των μικρών επιχειρήσεων, για τον λόγο ότι αυτές οι μικρές επιχειρήσεις είναι ένα κομμάτι της οικονομίας και δη με τα δεδομένα της σημερινής ελληνικής οικονομίας, όπου υπάρχει πλήρης αποβιομηχάνιση και αποεπένδυση, είναι αναγκαίο να υπάρξουν μικρές επιχειρήσεις.</seg>
@@ -151,7 +161,7 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u xml:id="ParlaMint-GR_2017-06-09-S1-commons.u510" ana="#chair" who="#ΒΑΡΕΜΕΝΟΣ_ΒΑΣΙΛΕΙΟΥ_ΓΕΩΡΓΙΟΣ">
+            <u xml:id="ParlaMint-GR_2017-06-09-S1-commons.u510" ana="#chair topic:other" who="#ΒΑΡΕΜΕΝΟΣ_ΒΑΣΙΛΕΙΟΥ_ΓΕΩΡΓΙΟΣ">
                <seg xml:id="ParlaMint-GR_2017-06-09-S1-commons.seg1723">Συνεπώς τα Πρακτικά της Πέμπτης 6 Απριλίου 2017, της Παρασκευής 7 Απριλίου 2017, της Μεγάλης Δευτέρας 10 Απριλίου 2017 και της Μεγάλης Τρίτης 11 Απριλίου 2017 επικυρώθηκαν.</seg>
                <seg xml:id="ParlaMint-GR_2017-06-09-S1-commons.seg1724">Κυρίες και κύριοι συνάδελφοι, δέχεστε στο σημείο αυτό να λύσουμε τη συνεδρίαση;</seg>
             </u>
@@ -159,7 +169,7 @@
                <desc>Μάλιστα, μάλιστα.</desc>
             </vocal>
             <note type="speaker" xml:id="ParlaMint-GR_2017-06-09-S1-commons.note552">ΠΡΟΕΔΡΕΥΩΝ (ΓΕΩΡΓΙΟΣ ΒΑΡΕΜΕΝΟΣ):</note>
-            <u xml:id="ParlaMint-GR_2017-06-09-S1-commons.u511" ana="#chair" who="#ΒΑΡΕΜΕΝΟΣ_ΒΑΣΙΛΕΙΟΥ_ΓΕΩΡΓΙΟΣ">
+            <u xml:id="ParlaMint-GR_2017-06-09-S1-commons.u511" ana="#chair topic:trans" who="#ΒΑΡΕΜΕΝΟΣ_ΒΑΣΙΛΕΙΟΥ_ΓΕΩΡΓΙΟΣ">
                <seg xml:id="ParlaMint-GR_2017-06-09-S1-commons.seg1725">Με τη συναίνεση του Σώματος και ώρα 19.49΄ λύεται η συνεδρίαση για τη Δευτέρα 12 Ιουνίου 2017 και ώρα 17.00΄ με αντικείμενο εργασιών του Σώματος, κοινοβουλευτικό έλεγχο: α) συζήτηση επικαίρων ερωτήσεων και β) συζήτηση της υπ' αριθμόν 26/15-5-2017 επερώτησης του Βουλευτή της Νέας Δημοκρατίας κ. Κωνσταντίνου Αχιλλέα Καραμανλή προς τον Υπουργό Υποδομών και Μεταφορών με θέμα: «Σχετικά με τον έλεγχο της διαδικασίας είσπραξης και απόδοσης χρηματικών ποσών της ΣΤΑΣΥ, που προέρχονται από διάθεση εισιτηρίων».</seg>
             </u>
          </div>

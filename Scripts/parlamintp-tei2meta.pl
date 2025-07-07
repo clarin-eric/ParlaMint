@@ -20,10 +20,10 @@ my $DIR = tempdir(DIR => $tempdirroot, CLEANUP => 1);
 
 GetOptions
     (
-     'help'   => \$help,
-     'inRoot=s'   => \$inRoot,
-     'out=s'  => \$outDir,
-     'jobs=i' => \$procThreads,
+     'help'     => \$help,
+     'inRoot=s' => \$inRoot,
+     'out=s'    => \$outDir,
+     'jobs=i'   => \$procThreads,
 );
 
 if ($help) {
@@ -41,9 +41,10 @@ binmode(STDERR, 'utf8');
 $Para  = "parallel --gnu --halt 0 --jobs $procThreads";
 $Saxon = "java -jar $Bin/bin/saxon.jar";
 $scriptMeta = "$Bin/parlamint2meta.xsl";
+$scriptMetaAna = "$Bin/parlamint2meta.ana.xsl";
 $Includes = "$Bin/get-includes.xsl";
 
-`rm -f $outDir/*-meta.tsv`;
+`find $outDir -name '*-meta.tsv' -type f -delete`;
 
 #Store all files to be processed in $fileFile
 $fileFile = "$DIR/files.lst";
@@ -69,8 +70,14 @@ foreach my $outLang (@outLangs) {
 	    " out-lang=$outLang" .
 	    " -xsl:$scriptMeta {} > $outDir/{/.}$outSuffix";
 	`cat $fileFile | $Para '$command'`;
-	# The rm following looks like a bug, as no TSV files are left if we are processing only .ana!
-	#`rm -f $outDir/*.ana-meta.tsv`;
+        # We produce .ana metadata only for .ana corpus
+        if ($inRoot =~ /\.ana/) {
+            $command = "$Saxon" .
+                " meta=$inRoot" .
+                " out-lang=$outLang" .
+                " -xsl:$scriptMetaAna {} > $outDir/{/.}-ana$outSuffix";
+            `cat $fileFile | $Para '$command'`;
+        }
     }
 }
-`rename 's/\.ana//' $outDir/*-meta*.tsv`;
+`find $outDir -name '*-meta*.tsv' -type f -exec rename 's/\.ana//' {} +`;

@@ -69,5 +69,5 @@ print STDERR "INFO: Making text files\n";
 $command = "$Saxon -xsl:$scriptText {} > $outDir/{/.}.txt";
 
 `cat $fileFile | $Para '$command'`;
-`rename 's/\.ana//' $outDir/*.txt`;
+`find $outDir -name '*.txt' -type f -exec rename 's/\.ana//' {} +`;
 

@@ -64,7 +64,7 @@ die "FATAL ERROR: Cannot find component files in $inDir!\n"
     unless @compAnaFiles;
 
 `mkdir $outDir` unless -e "$outDir";
-`rm -f $outDir/*.vert`;
+`find $outDir -name '*.vert' -type f -delete`;
 
 #Store all files to be processed in $fileFile
 $fileFile = "$DIR/files.lst";
@@ -77,7 +77,7 @@ close TMP;
 $command = "$Saxon meta=$rootAnaFile out-lang=en " .
     "-xsl:$TEI2VERT {} | $POLISH > $outDir/{/.}.vert";
 `cat $fileFile | $Para '$command'`;
-`rename 's/\.ana//' $outDir/*.vert`;
+`find $outDir -name '*.vert' -type f -exec rename 's/\.ana//' {} +`;
 
 &dirify($outDir);
 

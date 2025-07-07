@@ -29,9 +29,25 @@
                <resp xml:lang="en">Manual metadata retrieval</resp>
                <resp xml:lang="uk">Ручне збирання метаданих</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">CLARIN ERIC</orgName>
                <orgName xml:lang="uk">Загальна дослідницька інфраструктура мовних ресурсів і технологій</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="en">Slovenian Research Agency</orgName>
@@ -43,7 +59,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="206" xml:lang="en">206 speeches</measure>
@@ -57,13 +73,13 @@
                <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN.SI</orgName>
                <ref target="https://www.clarin.si/">www.clarin.si</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="uk">Цей твір ліцензовано на умовах <ref target="http://creativecommons.org/licenses/by/4.0/">"Міжнародної ліцензії Creative Commons 4.0 із зазначенням авторства"</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -85,6 +101,7 @@
                <tagUsage gi="div" occurs="1"/>
                <tagUsage gi="link" occurs="29237"/>
                <tagUsage gi="linkGrp" occurs="1598"/>
+               <tagUsage gi="measure" occurs="1598"/>
                <tagUsage gi="name" occurs="867"/>
                <tagUsage gi="note" occurs="297"/>
                <tagUsage gi="pc" occurs="5099"/>
@@ -109,8 +126,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-18">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
@@ -122,9 +141,10 @@
             <note type="time" xml:id="ParlaMint-UA_2008-09-30-m0.ana.note4">30 вересня 2008 року, 10:00 година</note>
             <note type="narrative" xml:id="ParlaMint-UA_2008-09-30-m0.ana.note5">Веде засідання Голова Верховної Ради України ЯЦЕНЮК А.П.</note>
             <note type="speaker" xml:id="ParlaMint-UA_2008-09-30-m0.ana.note6">ГОЛОВУЮЧИЙ.</note>
-            <u xml:id="ParlaMint-UA_2008-09-30-m0.u1" who="#АрсенійПетровичЯценюк.1974" ana="#chair">
+            <u xml:id="ParlaMint-UA_2008-09-30-m0.u1" who="#АрсенійПетровичЯценюк.1974" ana="#chair topic:other">
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u1.p1" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u1.p1.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="4.026" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u1.p1.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p1.lang1.s1.w1" lemma="добрий" pos="ADJ" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing">Добрий</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p1.lang1.s1.w2" lemma="ранок" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing" join="right">ранок</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u1.p1.lang1.s1.w3" pos="PUNCT" msd="UPosTag=PUNCT">.</pc>
@@ -135,6 +155,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u1.p1.lang1.s2" xml:lang="uk">
+                     <measure type="sentiment" quantity="4.031" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u1.p1.lang1.s2"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p1.lang1.s2.w1" lemma="колега" pos="NOUN" msd="UPosTag=NOUN|Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur" join="right">Колеги</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u1.p1.lang1.s2.w2" pos="PUNCT" msd="UPosTag=PUNCT">,</pc>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p1.lang1.s2.w3" lemma="реєструватися" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" join="right">реєструємося</w>
@@ -152,6 +173,7 @@
                </note>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u1.p2" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u1.p2.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.633" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u1.p2.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p2.lang1.s1.w1" lemma="зареєструватися" pos="VERB" msd="UPosTag=VERB|Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin">Зареєструвалося</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u1.p2.lang1.s1.w2" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Dash" join="right">-</pc>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p2.lang1.s1.w3" lemma="438" pos="NUM" msd="UPosTag=NUM|Case=Nom|NumType=Card|Uninflect=Yes">438</w>
@@ -164,6 +186,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u1.p3" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u1.p3.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.638" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u1.p3.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p3.lang1.s1.w1" lemma="в" pos="ADP" msd="UPosTag=ADP|Case=Loc">В</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p3.lang1.s1.w2" lemma="зала" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing">залі</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p3.lang1.s1.w3" lemma="зареєструвати" pos="VERB" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin">зареєстровано</w>
@@ -186,6 +209,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u1.p3.lang1.s2" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.167" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u1.p3.lang1.s2"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p3.lang1.s2.w1" lemma="ранковий" pos="ADJ" msd="UPosTag=ADJ|Case=Nom|Gender=Neut|Number=Sing">Ранкове</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p3.lang1.s2.w2" lemma="засідання" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing">засідання</w>
                      <name type="ORG" xml:id="ParlaMint-UA_2008-09-30-m0.ne2">
@@ -210,6 +234,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u1.p4" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u1.p4.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.605" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u1.p4.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p4.lang1.s1.w1" lemma="вчора" pos="ADV" msd="UPosTag=ADV" join="right">Вчора</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u1.p4.lang1.s1.w2" pos="PUNCT" msd="UPosTag=PUNCT">,</pc>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p4.lang1.s1.w3" lemma="шановний" pos="ADJ" msd="UPosTag=ADJ|Case=Nom|Number=Plur">шановні</w>
@@ -266,6 +291,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.876" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s1.w1" lemma="колега" pos="NOUN" msd="UPosTag=NOUN|Animacy=Anim|Case=Voc|Gender=Masc|Number=Plur" join="right">Колеги</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s1.w2" pos="PUNCT" msd="UPosTag=PUNCT">,</pc>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s1.w3" lemma="я" pos="PRON" msd="UPosTag=PRON|Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs">я</w>
@@ -286,6 +312,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s2" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.217" ana="senti:negneg" corresp="#ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s2"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s2.w1" lemma="новина" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur">Новини</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s2.w2" lemma="сьогодні" pos="ADV" msd="UPosTag=ADV">сьогодні</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s2.w3" lemma="навряд" pos="ADV" msd="UPosTag=ADV">навряд</w>
@@ -342,6 +369,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s3" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.663" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s3"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s3.w1" lemma="записуватися" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" join="right">Записуємося</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s3.w2" pos="PUNCT" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -350,6 +378,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s4" xml:lang="uk">
+                     <measure type="sentiment" quantity="2.107" ana="senti:neuneg" corresp="#ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s4"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s4.w1" lemma="перезаписуватися" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin">Перезаписуємося</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s4.w2" lemma="ще" pos="ADV" msd="UPosTag=ADV">ще</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s4.w3" lemma="раз" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" join="right">раз</w>
@@ -378,6 +407,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s5" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.243" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s5"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s5.w1" lemma="повторити" pos="VERB" msd="UPosTag=VERB|Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin">Повторіть</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s5.w2" lemma="запис" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" join="right">запис</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s5.w3" pos="PUNCT" msd="UPosTag=PUNCT">.</pc>
@@ -388,6 +418,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s6" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.346" ana="senti:negneg" corresp="#ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s6"/>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s6.w1" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Quot" join="right">„</pc>
                      <name type="ORG" xml:id="ParlaMint-UA_2008-09-30-m0.ne3">
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s6.w2" lemma="блок" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing">Блок</w>
@@ -426,6 +457,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s7" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.201" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s7"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s7.w1" lemma="треба" pos="ADV" msd="UPosTag=ADV">Треба</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s7.w2" lemma="перезаписатися" pos="VERB" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf" join="right">перезаписатися</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s7.w3" pos="PUNCT" msd="UPosTag=PUNCT">,</pc>
@@ -442,6 +474,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s8" xml:lang="uk">
+                     <measure type="sentiment" quantity="4.384" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s8"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s8.w1" lemma="тепер" pos="ADV" msd="UPosTag=ADV|PronType=Dem">Тепер</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s8.w2" lemma="порядок" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing" join="right">порядок</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u1.p5.lang1.s8.w3" pos="PUNCT" msd="UPosTag=PUNCT">.</pc>
@@ -454,6 +487,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u1.p6" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u1.p6.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.820" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u1.p6.lang1.s1"/>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u1.p6.lang1.s1.w1" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Quot" join="right">„</pc>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u1.p6.lang1.s1.w2" lemma="наш" pos="DET" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs">Наша</w>
                      <name type="LOC" xml:id="ParlaMint-UA_2008-09-30-m0.ne4">
@@ -491,9 +525,10 @@
                <time when="2008-09-30T10:04:19">10:04:19</time>
             </note>
             <note type="speaker" xml:id="ParlaMint-UA_2008-09-30-m0.ana.note9">КИРИЛЕНКО В.А.</note>
-            <u xml:id="ParlaMint-UA_2008-09-30-m0.u2" who="#ВячеславАнатолійовичКириленко.1968" ana="#regular">
+            <u xml:id="ParlaMint-UA_2008-09-30-m0.u2" who="#ВячеславАнатолійовичКириленко.1968" ana="#regular topic:defen">
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u2.p1" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p1.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.859" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p1.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p1.lang1.s1.w1" lemma="в’ячеслати" pos="PROPN" msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing">В’ячеслав</w>
                      <name type="PER" xml:id="ParlaMint-UA_2008-09-30-m0.ne6">
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p1.lang1.s1.w2" lemma="Кириленко" pos="PROPN" msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing" join="right">Кириленко</w>
@@ -526,6 +561,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.702" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s1.w1" lemma="шановний" pos="ADJ" msd="UPosTag=ADJ|Case=Nom|Number=Plur">Шановні</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s1.w2" lemma="колега" pos="NOUN" msd="UPosTag=NOUN|Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur" join="right">колеги</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s1.w3" pos="PUNCT" msd="UPosTag=PUNCT">,</pc>
@@ -560,6 +596,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s2" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.077" ana="senti:negneg" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s2"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s2.w1" lemma="ми" pos="PRON" msd="UPosTag=PRON|Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs">Ми</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s2.w2" lemma="могти" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin">можемо</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s2.w3" lemma="констатувати" pos="VERB" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf" join="right">констатувати</w>
@@ -610,6 +647,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s3" xml:lang="uk">
+                     <measure type="sentiment" quantity="2.849" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s3"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s3.w1" lemma="він" pos="PRON" msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs">Він</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s3.w2" lemma="сформований" pos="ADJ" msd="UPosTag=ADJ|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass">сформований</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s3.w3" lemma="знову" pos="ADV" msd="UPosTag=ADV">знову</w>
@@ -626,6 +664,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s4" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.099" ana="senti:negneg" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s4"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s4.w1" lemma="блок" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing">Блок</w>
                      <name type="PER" xml:id="ParlaMint-UA_2008-09-30-m0.ne11">
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s4.w2" lemma="Тимошенко" pos="PROPN" msd="UPosTag=PROPN|Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing">Тимошенко</w>
@@ -690,6 +729,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s5" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.157" ana="senti:negneg" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s5"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s5.w1" lemma="разом" pos="ADV" msd="UPosTag=ADV">Разом</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s5.w2" lemma="з" pos="ADP" msd="UPosTag=ADP|Case=Ins">з</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s5.w3" lemma="те" pos="PRON" msd="UPosTag=PRON|Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem" join="right">тим</w>
@@ -758,6 +798,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s6" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.073" ana="senti:negneg" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s6"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s6.w1" lemma="ми" pos="PRON" msd="UPosTag=PRON|Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs">Ми</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s6.w2" lemma="стурбований" pos="ADJ" msd="UPosTag=ADJ|Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass">стурбовані</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p2.lang1.s6.w3" lemma="те" pos="PRON" msd="UPosTag=PRON|Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem" join="right">тим</w>
@@ -808,6 +849,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u2.p3" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p3.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.055" ana="senti:negneg" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p3.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p3.lang1.s1.w1" lemma="з" pos="ADP" msd="UPosTag=ADP|Case=Gen">З</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p3.lang1.s1.w2" lemma="один" pos="DET" msd="UPosTag=DET|Case=Gen|Gender=Masc|Number=Sing|PronType=Ind">одного</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p3.lang1.s1.w3" lemma="бік" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing" join="right">боку</w>
@@ -928,6 +970,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u2.p4" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p4.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.081" ana="senti:negneg" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p4.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p4.lang1.s1.w1" lemma="друге" pos="NUM" msd="UPosTag=NUM|Case=Nom|NumType=Card|Uninflect=Yes" join="right">Друге</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u2.p4.lang1.s1.w2" pos="PUNCT" msd="UPosTag=PUNCT">,</pc>
                      <name type="PER" xml:id="ParlaMint-UA_2008-09-30-m0.ne17">
@@ -1028,6 +1071,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p4.lang1.s2" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.179" ana="senti:negneg" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p4.lang1.s2"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p4.lang1.s2.w1" lemma="це" pos="PRON" msd="UPosTag=PRON|Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem">Цим</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p4.lang1.s2.w2" lemma="не" pos="PART" msd="UPosTag=PART|Polarity=Neg">не</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p4.lang1.s2.w3" lemma="виконуватися" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">виконується</w>
@@ -1076,6 +1120,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u2.p5" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p5.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="2.922" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p5.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p5.lang1.s1.w1" lemma="третє" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing" join="right">Третє</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u2.p5.lang1.s1.w2" pos="PUNCT" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -1084,6 +1129,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p5.lang1.s2" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.157" ana="senti:negneg" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p5.lang1.s2"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p5.lang1.s2.w1" lemma="уряд" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing">Уряд</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p5.lang1.s2.w2" lemma="не" pos="PART" msd="UPosTag=PART|Polarity=Neg">не</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p5.lang1.s2.w3" lemma="реагувати" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">реагує</w>
@@ -1148,6 +1194,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p5.lang1.s3" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.136" ana="senti:negneg" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p5.lang1.s3"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p5.lang1.s3.w1" lemma="при" pos="ADP" msd="UPosTag=ADP|Case=Loc">При</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p5.lang1.s3.w2" lemma="це" pos="PRON" msd="UPosTag=PRON|Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem">цьому</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p5.lang1.s3.w3" lemma="ми" pos="PRON" msd="UPosTag=PRON|Animacy=Anim|Case=Dat|Number=Plur|Person=1|PronType=Prs">нам</w>
@@ -1190,6 +1237,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p5.lang1.s4" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.106" ana="senti:negneg" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p5.lang1.s4"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p5.lang1.s4.w1" lemma="це" pos="PRON" msd="UPosTag=PRON|Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem">Це</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p5.lang1.s4.w2" lemma="неприйнятно" pos="ADV" msd="UPosTag=ADV">неприйнятно</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p5.lang1.s4.w3" lemma="і" pos="CCONJ" msd="UPosTag=CCONJ">і</w>
@@ -1220,6 +1268,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.070" ana="senti:negneg" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s1.w1" lemma="разом" pos="ADV" msd="UPosTag=ADV">Разом</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s1.w2" lemma="з" pos="ADP" msd="UPosTag=ADP|Case=Ins">з</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s1.w3" lemma="те" pos="PRON" msd="UPosTag=PRON|Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem" join="right">тим</w>
@@ -1274,6 +1323,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s2" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.157" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s2"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s2.w1" lemma="от" pos="PART" msd="UPosTag=PART">От</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s2.w2" lemma="наприклад" pos="ADV" msd="UPosTag=ADV" join="right">наприклад</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s2.w3" pos="PUNCT" msd="UPosTag=PUNCT">,</pc>
@@ -1334,6 +1384,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s3" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.805" ana="senti:mixneg" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s3"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s3.w1" lemma="ми" pos="PRON" msd="UPosTag=PRON|Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs">Ми</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s3.w2" lemma="розуміти" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" join="right">розуміємо</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s3.w3" pos="PUNCT" msd="UPosTag=PUNCT">,</pc>
@@ -1456,6 +1507,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s4" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.097" ana="senti:negneg" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s4"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s4.w1" lemma="але" pos="CCONJ" msd="UPosTag=CCONJ" join="right">Але</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s4.w2" pos="PUNCT" msd="UPosTag=PUNCT">,</pc>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s4.w3" lemma="разом" pos="ADV" msd="UPosTag=ADV">разом</w>
@@ -1552,6 +1604,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s5" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.075" ana="senti:negneg" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s5"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s5.w1" lemma="такий" pos="DET" msd="UPosTag=DET|Case=Ins|Gender=Masc|Number=Sing|PronType=Dem">Таким</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s5.w2" lemma="чин" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing" join="right">чином</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s5.w3" pos="PUNCT" msd="UPosTag=PUNCT">,</pc>
@@ -1630,6 +1683,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s6" xml:lang="uk">
+                     <measure type="sentiment" quantity="4.723" ana="senti:pospos" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s6"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s6.w1" lemma="в" pos="ADP" msd="UPosTag=ADP|Case=Loc">В</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s6.w2" lemma="зв’язок" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing">зв’язку</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p6.lang1.s6.w3" lemma="з" pos="ADP" msd="UPosTag=ADP|Case=Ins">з</w>
@@ -1680,6 +1734,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u2.p7" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.402" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s1.w1" lemma="перше" pos="ADJ" msd="UPosTag=ADJ" join="right">Перше</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s1.w2" pos="PUNCT" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -1688,6 +1743,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s2" xml:lang="uk">
+                     <measure type="sentiment" quantity="1.310" ana="senti:mixneg" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s2"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s2.w1" lemma="повторювати" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin">Повторюємо</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s2.w2" lemma="в" pos="ADP" msd="UPosTag=ADP|Case=Acc">в</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s2.w3" lemma="сотий" pos="ADJ" msd="UPosTag=ADJ|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord">сотий</w>
@@ -1724,6 +1780,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s3" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.820" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s3"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s3.w1" lemma="в" pos="ADP" msd="UPosTag=ADP|Case=Loc">В</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s3.w2" lemma="зв’язок" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing">зв’язку</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s3.w3" lemma="з" pos="ADP" msd="UPosTag=ADP|Case=Ins">з</w>
@@ -1756,6 +1813,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s4" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.402" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s4"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s4.w1" lemma="перше" pos="ADJ" msd="UPosTag=ADJ" join="right">Перше</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s4.w2" pos="PUNCT" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -1764,6 +1822,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s5" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.420" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s5"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s5.w1" lemma="сьогодні" pos="ADV" msd="UPosTag=ADV">Сьогодні</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s5.w2" lemma="три" pos="NUM" msd="UPosTag=NUM|Case=Nom|NumType=Card">три</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p7.lang1.s5.w3" lemma="фракція" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur">фракції</w>
@@ -1860,6 +1919,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u2.p8" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p8.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="2.539" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p8.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p8.lang1.s1.w1" lemma="другий" pos="ADJ" msd="UPosTag=ADJ|Case=Nom|Gender=Fem|Number=Sing|NumType=Ord" join="right">Друге</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u2.p8.lang1.s1.w2" pos="PUNCT" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -1868,6 +1928,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p8.lang1.s2" xml:lang="uk">
+                     <measure type="sentiment" quantity="2.778" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p8.lang1.s2"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p8.lang1.s2.w1" lemma="сьогодні" pos="ADV" msd="UPosTag=ADV">Сьогодні</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p8.lang1.s2.w2" lemma="три" pos="NUM" msd="UPosTag=NUM|Case=Nom|NumType=Card">три</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p8.lang1.s2.w3" lemma="фракція" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur">фракції</w>
@@ -1908,6 +1969,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p8.lang1.s3" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.069" ana="senti:negneg" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p8.lang1.s3"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p8.lang1.s3.w1" lemma="закон" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing">Закон</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p8.lang1.s3.w2" lemma="про" pos="ADP" msd="UPosTag=ADP|Case=Acc">про</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p8.lang1.s3.w3" lemma="референдум" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing">референдум</w>
@@ -1996,6 +2058,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u2.p9" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p9.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.067" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p9.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p9.lang1.s1.w1" lemma="по" pos="ADP" msd="UPosTag=ADP|Case=Acc" join="right">По</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p9.lang1.s1.w2" lemma="-третє" pos="PROPN" msd="UPosTag=PROPN|Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing" join="right">-третє</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u2.p9.lang1.s1.w3" pos="PUNCT" msd="UPosTag=PUNCT">.</pc>
@@ -2006,6 +2069,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p9.lang1.s2" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.923" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p9.lang1.s2"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p9.lang1.s2.w1" lemma="сьогодні" pos="ADV" msd="UPosTag=ADV">Сьогодні</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p9.lang1.s2.w2" lemma="ми" pos="PRON" msd="UPosTag=PRON|Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs">ми</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p9.lang1.s2.w3" lemma="пропонувати" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" join="right">пропонуємо</w>
@@ -2068,6 +2132,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p9.lang1.s3" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.125" ana="senti:negneg" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p9.lang1.s3"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p9.lang1.s3.w1" lemma="на" pos="ADP" msd="UPosTag=ADP|Case=Acc">На</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p9.lang1.s3.w2" lemma="наш" pos="DET" msd="UPosTag=DET|Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs">нашу</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p9.lang1.s3.w3" lemma="думка" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing" join="right">думку</w>
@@ -2116,6 +2181,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p9.lang1.s4" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.065" ana="senti:negneg" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p9.lang1.s4"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p9.lang1.s4.w1" lemma="ми" pos="PRON" msd="UPosTag=PRON|Animacy=Anim|Case=Acc|Number=Plur|Person=1|PronType=Prs">Нас</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p9.lang1.s4.w2" lemma="це" pos="PRON" msd="UPosTag=PRON|Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem">це</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p9.lang1.s4.w3" lemma="непокояти" pos="VERB" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin">непокоїть</w>
@@ -2150,6 +2216,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u2.p10" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p10.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.394" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p10.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p10.lang1.s1.w1" lemma="і" pos="CCONJ" msd="UPosTag=CCONJ">І</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p10.lang1.s1.w2" lemma="четвертий" pos="ADJ" msd="UPosTag=ADJ|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord">четвертий</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p10.lang1.s1.w3" lemma="крок" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing" join="right">крок</w>
@@ -2162,6 +2229,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u2.p10.lang1.s2" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.688" ana="senti:mixneg" corresp="#ParlaMint-UA_2008-09-30-m0.u2.p10.lang1.s2"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u2.p10.lang1.s2.w1" lemma="сьогодні" pos="ADV" msd="UPosTag=ADV">Сьогодні</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u2.p10.lang1.s2.w2" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Quot" join="right">"</pc>
                      <name type="ORG" xml:id="ParlaMint-UA_2008-09-30-m0.ne51">
@@ -2240,9 +2308,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u xml:id="ParlaMint-UA_2008-09-30-m0.u205" who="#ПетроПетровичГасюк.1951" ana="#regular">
+            <u xml:id="ParlaMint-UA_2008-09-30-m0.u205" who="#ПетроПетровичГасюк.1951" ana="#regular topic:techn">
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="2.866" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s1.w1" lemma="шановний" pos="ADJ" msd="UPosTag=ADJ|Case=Voc|Number=Plur">Шановні</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s1.w2" lemma="колега" pos="NOUN" msd="UPosTag=NOUN|Animacy=Anim|Case=Voc|Gender=Masc|Number=Plur" join="right">колеги</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s1.w3" pos="PUNCT" msd="UPosTag=PUNCT">,</pc>
@@ -2269,6 +2338,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s2" xml:lang="uk">
+                     <measure type="sentiment" quantity="2.928" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s2"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s2.w1" lemma="на" pos="ADP" msd="UPosTag=ADP|Case=Acc">На</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s2.w2" lemma="сьогоднішній" pos="ADJ" msd="UPosTag=ADJ|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing">сьогоднішній</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s2.w3" lemma="день" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing">день</w>
@@ -2311,6 +2381,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s3" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.268" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s3"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s3.w1" lemma="загальний" pos="ADJ" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing">Загальна</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s3.w2" lemma="численність" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing">численність</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s3.w3" lemma="працюючий" pos="NOUN" msd="UPosTag=NOUN|Animacy=Anim|Case=Gen|Number=Ptan|Tense=Pres">працюючих</w>
@@ -2347,6 +2418,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s4" xml:lang="uk">
+                     <measure type="sentiment" quantity="2.321" ana="senti:neuneg" corresp="#ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s4"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s4.w1" lemma="і" pos="CCONJ" msd="UPosTag=CCONJ">І</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s4.w2" lemma="тут" pos="ADV" msd="UPosTag=ADV|PronType=Dem">тут</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s4.w3" lemma="бути" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">є</w>
@@ -2429,6 +2501,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s5" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.420" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s5"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s5.w1" lemma="вони" pos="PRON" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs">Вони</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s5.w2" lemma="виробляти" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin">виробляють</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p1.lang1.s5.w3" lemma="комбайна" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur" join="right">комбайни</w>
@@ -2461,6 +2534,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u205.p2" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u205.p2.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="5.025" ana="senti:pospos" corresp="#ParlaMint-UA_2008-09-30-m0.u205.p2.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p2.lang1.s1.w1" lemma="я" pos="PRON" msd="UPosTag=PRON|Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs">Я</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p2.lang1.s1.w2" lemma="пропонувати" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" join="right">пропоную</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u205.p2.lang1.s1.w3" pos="PUNCT" msd="UPosTag=PUNCT">,</pc>
@@ -2529,6 +2603,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u205.p2.lang1.s2" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.370" ana="senti:negneg" corresp="#ParlaMint-UA_2008-09-30-m0.u205.p2.lang1.s2"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p2.lang1.s2.w1" lemma="і" pos="CCONJ" msd="UPosTag=CCONJ">І</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p2.lang1.s2.w2" lemma="також" pos="ADV" msd="UPosTag=ADV">також</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p2.lang1.s2.w3" lemma="хотіти" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">хочу</w>
@@ -2589,6 +2664,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u205.p2.lang1.s3" xml:lang="uk">
+                     <measure type="sentiment" quantity="1.717" ana="senti:neuneg" corresp="#ParlaMint-UA_2008-09-30-m0.u205.p2.lang1.s3"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p2.lang1.s3.w1" lemma="і" pos="CCONJ" msd="UPosTag=CCONJ">І</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p2.lang1.s3.w2" lemma="крім" pos="ADP" msd="UPosTag=ADP|Case=Gen">крім</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p2.lang1.s3.w3" lemma="це" pos="PRON" msd="UPosTag=PRON|Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem" join="right">цього</w>
@@ -2629,6 +2705,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u205.p3" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u205.p3.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="5.137" ana="senti:pospos" corresp="#ParlaMint-UA_2008-09-30-m0.u205.p3.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p3.lang1.s1.w1" lemma="вважати" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" join="right">Вважаю</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u205.p3.lang1.s1.w2" pos="PUNCT" msd="UPosTag=PUNCT">,</pc>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p3.lang1.s1.w3" lemma="що" pos="SCONJ" msd="UPosTag=SCONJ">що</w>
@@ -2673,6 +2750,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u205.p3.lang1.s2" xml:lang="uk">
+                     <measure type="sentiment" quantity="4.636" ana="senti:pospos" corresp="#ParlaMint-UA_2008-09-30-m0.u205.p3.lang1.s2"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u205.p3.lang1.s2.w1" lemma="дякувати" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" join="right">Дякую</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u205.p3.lang1.s2.w2" pos="PUNCT" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -2683,9 +2761,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-UA_2008-09-30-m0.ana.note295">ГОЛОВУЮЧИЙ.</note>
-            <u xml:id="ParlaMint-UA_2008-09-30-m0.u206" who="#ОлександрВолодимировичЛавринович.1956" ana="#chair">
+            <u xml:id="ParlaMint-UA_2008-09-30-m0.u206" who="#ОлександрВолодимировичЛавринович.1956" ana="#chair topic:techn">
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u206.p1" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u206.p1.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="2.870" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u206.p1.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p1.lang1.s1.w1" lemma="Едуард" pos="PROPN" msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing">Едуард</w>
                      <name type="PER" xml:id="ParlaMint-UA_2008-09-30-m0.ne863">
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p1.lang1.s1.w2" lemma="Іванович" pos="PROPN" msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing" join="right">Іванович</w>
@@ -2712,6 +2791,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u206.p1.lang1.s2" xml:lang="uk">
+                     <measure type="sentiment" quantity="1.417" ana="senti:mixneg" corresp="#ParlaMint-UA_2008-09-30-m0.u206.p1.lang1.s2"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p1.lang1.s2.w1" lemma="немати" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin" join="right">Немає</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u206.p1.lang1.s2.w2" pos="PUNCT" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -2720,6 +2800,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u206.p1.lang1.s3" xml:lang="uk">
+                     <measure type="sentiment" quantity="2.999" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u206.p1.lang1.s3"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p1.lang1.s3.w1" lemma="у" pos="ADP" msd="UPosTag=ADP|Case=Gen">У</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p1.lang1.s3.w2" lemma="співдоповідач" pos="NOUN" msd="UPosTag=NOUN|Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing" join="right">співдоповідача</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u206.p1.lang1.s3.w3" pos="PUNCT" msd="UPosTag=PUNCT">?</pc>
@@ -2730,6 +2811,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u206.p1.lang1.s4" xml:lang="uk">
+                     <measure type="sentiment" quantity="1.417" ana="senti:mixneg" corresp="#ParlaMint-UA_2008-09-30-m0.u206.p1.lang1.s4"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p1.lang1.s4.w1" lemma="немати" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin" join="right">Немає</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u206.p1.lang1.s4.w2" pos="PUNCT" msd="UPosTag=PUNCT">.</pc>
 <linkGrp targFunc="head argument" type="UD-SYN">
@@ -2740,6 +2822,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u206.p2" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u206.p2.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="4.015" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u206.p2.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p2.lang1.s1.w1" lemma="я" pos="PRON" msd="UPosTag=PRON|Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs">Я</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p2.lang1.s1.w2" lemma="ставити" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">ставлю</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p2.lang1.s1.w3" lemma="на" pos="ADP" msd="UPosTag=ADP|Case=Acc">на</w>
@@ -2804,6 +2887,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u206.p2.lang1.s2" xml:lang="uk">
+                     <measure type="sentiment" quantity="4.097" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u206.p2.lang1.s2"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p2.lang1.s2.w1" lemma="просити" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">Прошу</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p2.lang1.s2.w2" lemma="голосувати" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|VerbForm=Inf" join="right">голосувати</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u206.p2.lang1.s2.w3" pos="PUNCT" msd="UPosTag=PUNCT">.</pc>
@@ -2819,6 +2903,7 @@
                </note>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u206.p3" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u206.p3.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="4.087" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u206.p3.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p3.lang1.s1.w1" lemma="за" pos="ADP" msd="UPosTag=ADP|Case=Acc" join="right">За</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u206.p3.lang1.s1.w2" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Hyph" join="right">-</pc>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p3.lang1.s1.w3" lemma="364" pos="NUM" msd="UPosTag=NUM|Case=Acc|NumType=Card|Uninflect=Yes">364</w>
@@ -2831,6 +2916,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u206.p4" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u206.p4.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="4.424" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u206.p4.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p4.lang1.s1.w1" lemma="рішення" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing">Рішення</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p4.lang1.s1.w2" lemma="прийняти" pos="VERB" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin" join="right">прийнято</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u206.p4.lang1.s1.w3" pos="PUNCT" msd="UPosTag=PUNCT">.</pc>
@@ -2843,6 +2929,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u206.p5" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u206.p5.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="4.083" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u206.p5.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p5.lang1.s1.w1" lemma="профільний" pos="ADJ" msd="UPosTag=ADJ|Case=Nom|Gender=Masc|Number=Sing">Профільний</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p5.lang1.s1.w2" lemma="комітет" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing">комітет</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p5.lang1.s1.w3" lemma="і" pos="CCONJ" msd="UPosTag=CCONJ">і</w>
@@ -2883,6 +2970,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u206.p5.lang1.s2" xml:lang="uk">
+                     <measure type="sentiment" quantity="0.922" ana="senti:mixneg" corresp="#ParlaMint-UA_2008-09-30-m0.u206.p5.lang1.s2"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p5.lang1.s2.w1" lemma="бути" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin">Є</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p5.lang1.s2.w2" lemma="заперечення" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur">заперечення</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p5.lang1.s2.w3" lemma="у" pos="ADP" msd="UPosTag=ADP|Case=Gen">у</w>
@@ -2899,6 +2987,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u206.p5.lang1.s3" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.515" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u206.p5.lang1.s3"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p5.lang1.s3.w1" lemma="заперечення" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur">Заперечень</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p5.lang1.s3.w2" lemma="немати" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin" join="right">немає</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u206.p5.lang1.s3.w3" pos="PUNCT" msd="UPosTag=PUNCT">.</pc>
@@ -2911,6 +3000,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u206.p6" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u206.p6.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="4.086" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u206.p6.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p6.lang1.s1.w1" lemma="я" pos="PRON" msd="UPosTag=PRON|Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs">Я</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p6.lang1.s1.w2" lemma="ставити" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">ставлю</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p6.lang1.s1.w3" lemma="на" pos="ADP" msd="UPosTag=ADP|Case=Acc">на</w>
@@ -2973,6 +3063,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u206.p6.lang1.s2" xml:lang="uk">
+                     <measure type="sentiment" quantity="4.097" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u206.p6.lang1.s2"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p6.lang1.s2.w1" lemma="просити" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">Прошу</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p6.lang1.s2.w2" lemma="голосувати" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|VerbForm=Inf" join="right">голосувати</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u206.p6.lang1.s2.w3" pos="PUNCT" msd="UPosTag=PUNCT">.</pc>
@@ -2988,6 +3079,7 @@
                </note>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u206.p7" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u206.p7.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.815" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u206.p7.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p7.lang1.s1.w1" lemma="за" pos="ADP" msd="UPosTag=ADP|Case=Acc" join="right">За</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u206.p7.lang1.s1.w2" pos="PUNCT" msd="UPosTag=PUNCT|PunctType=Hyph" join="right">-</pc>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p7.lang1.s1.w3" lemma="365" pos="NUM" msd="UPosTag=NUM|Case=Acc|NumType=Card|Uninflect=Yes">365</w>
@@ -3000,6 +3092,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u206.p8" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u206.p8.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="4.424" ana="senti:mixpos" corresp="#ParlaMint-UA_2008-09-30-m0.u206.p8.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p8.lang1.s1.w1" lemma="рішення" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing">Рішення</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p8.lang1.s1.w2" lemma="прийняти" pos="VERB" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin" join="right">прийнято</w>
 <pc xml:id="ParlaMint-UA_2008-09-30-m0.u206.p8.lang1.s1.w3" pos="PUNCT" msd="UPosTag=PUNCT">.</pc>
@@ -3012,6 +3105,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u206.p9" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u206.p9.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="2.518" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u206.p9.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p9.lang1.s1.w1" lemma="на" pos="ADP" msd="UPosTag=ADP|Case=Loc">На</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p9.lang1.s1.w2" lemma="це" pos="PRON" msd="UPosTag=PRON|Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem">цьому</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p9.lang1.s1.w3" lemma="у" pos="ADP" msd="UPosTag=ADP|Case=Gen">у</w>
@@ -3046,6 +3140,7 @@
                </seg>
                <seg xml:id="ParlaMint-UA_2008-09-30-m0.u206.p10" xml:lang="uk">
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u206.p10.lang1.s1" xml:lang="uk">
+                     <measure type="sentiment" quantity="2.732" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u206.p10.lang1.s1"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p10.lang1.s1.w1" lemma="ранковий" pos="ADJ" msd="UPosTag=ADJ|Case=Nom|Gender=Neut|Number=Sing">Ранкове</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p10.lang1.s1.w2" lemma="пленарний" pos="ADJ" msd="UPosTag=ADJ|Case=Nom|Gender=Neut|Number=Sing">пленарне</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p10.lang1.s1.w3" lemma="засідання" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing">засідання</w>
@@ -3070,6 +3165,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-UA_2008-09-30-m0.u206.p10.lang1.s2" xml:lang="uk">
+                     <measure type="sentiment" quantity="3.468" ana="senti:neupos" corresp="#ParlaMint-UA_2008-09-30-m0.u206.p10.lang1.s2"/>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p10.lang1.s2.w1" lemma="завтра" pos="ADV" msd="UPosTag=ADV">Завтра</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p10.lang1.s2.w2" lemma="продовжувати" pos="VERB" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin">продовжуємо</w>
 <w xml:id="ParlaMint-UA_2008-09-30-m0.u206.p10.lang1.s2.w3" lemma="робота" pos="NOUN" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing">роботу</w>

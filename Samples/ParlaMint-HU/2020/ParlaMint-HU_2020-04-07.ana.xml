@@ -22,9 +22,25 @@
                <resp xml:lang="hu">Metaadatok gyűjtése és rendszerezése</resp>
                <resp xml:lang="en">Metadata collection and organizing</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="hu">CLARIN Kutatási Infrastruktúra</orgName>
                <orgName xml:lang="en">CLARIN Research Infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="hu">Nyelvtudományi Kutatóközpont</orgName>
@@ -32,7 +48,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure xml:lang="hu" quantity="187" unit="speeches">187 beszéd</measure>
@@ -46,7 +62,7 @@
                <orgName xml:lang="en">CLARIN research infrastucture</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="hu">Ez a munka az alábbi licensz alapján használható: <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
@@ -54,7 +70,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -84,6 +100,7 @@
                <tagUsage gi="kinesic" occurs="76"/>
                <tagUsage gi="link" occurs="98162"/>
                <tagUsage gi="linkGrp" occurs="4218"/>
+               <tagUsage gi="measure" occurs="4218"/>
                <tagUsage gi="name" occurs="1297"/>
                <tagUsage gi="note" occurs="259"/>
                <tagUsage gi="pc" occurs="14401"/>
@@ -107,20 +124,23 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid">
       <body>
          <div type="debateSection">
             <note type="speaker" xml:id="ParlaMint-HU_2020-04-07.ana.note1">ELNÖK</note>
-            <u xml:id="u2020-04-07-0" who="#LatorcaiJanos" ana="#chair">
+            <u xml:id="u2020-04-07-0" who="#LatorcaiJanos" ana="#chair topic:other">
                <kinesic xml:id="ParlaMint-HU_2020-04-07.ana.kinesic1">
                   <desc>A teremben lévők felállnak, és ezzel köszöntik a választópolgárok közösségét. Amikor az ülést vezető elnök helyet foglal, a teremben lévők is leülnek.</desc>
                </kinesic>
                <seg xml:id="u2020-04-07-0.1">
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1.1">
+                     <measure type="sentiment" quantity="4.331" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg1.1"/>
 <w msd="UPosTag=ADV" lemma="jó" xml:id="ParlaMint-HU_2020-04-07.seg1.1.1">Jó</w>
 <w msd="UPosTag=NOUN|Case=Acc|Number=Sing" lemma="reggel" xml:id="ParlaMint-HU_2020-04-07.seg1.1.2">reggelt</w>
 <w msd="UPosTag=VERB|Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="kíván" xml:id="ParlaMint-HU_2020-04-07.seg1.1.3" join="right">kívánok</w>
@@ -139,6 +159,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1.2">
+                     <measure type="sentiment" quantity="5.082" ana="senti:pospos" corresp="#ParlaMint-HU_2020-04-07.seg1.2"/>
 <w msd="UPosTag=NOUN|Case=Ins|Number=Sing" lemma="szeretet" xml:id="ParlaMint-HU_2020-04-07.seg1.2.1">Szeretettel</w>
 <w msd="UPosTag=VERB|Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="köszönt" xml:id="ParlaMint-HU_2020-04-07.seg1.2.2">köszöntöm</w>
 <w msd="UPosTag=NOUN|Case=Acc|Number=Plur" lemma="valamennyi" xml:id="ParlaMint-HU_2020-04-07.seg1.2.3" join="right">valamennyiüket</w>
@@ -171,6 +192,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1.3">
+                     <measure type="sentiment" quantity="3.100" ana="senti:neupos" corresp="#ParlaMint-HU_2020-04-07.seg1.3"/>
 <w msd="UPosTag=VERB|Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="tájékoztat" xml:id="ParlaMint-HU_2020-04-07.seg1.3.1">Tájékoztatom</w>
 <w msd="UPosTag=NOUN|Case=Acc|Number=Plur" lemma="ön" xml:id="ParlaMint-HU_2020-04-07.seg1.3.2" join="right">önöket</w>
 <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-HU_2020-04-07.seg1.3.3">,</pc>
@@ -221,6 +243,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1.4">
+                     <measure type="sentiment" quantity="4.409" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg1.4"/>
                      <name type="MISC">
 <w msd="UPosTag=VERB|Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="tisztelt" xml:id="ParlaMint-HU_2020-04-07.seg1.4.1">Tisztelt</w>
 <w msd="UPosTag=PROPN|Case=Nom|Number=Sing" lemma="Országgyűlés" xml:id="ParlaMint-HU_2020-04-07.seg1.4.2" join="right">Országgyűlés</w>
@@ -233,6 +256,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1.5">
+                     <measure type="sentiment" quantity="3.045" ana="senti:neupos" corresp="#ParlaMint-HU_2020-04-07.seg1.5"/>
 <w msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="a" xml:id="ParlaMint-HU_2020-04-07.seg1.5.1">A</w>
 <w msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing" lemma="mai" xml:id="ParlaMint-HU_2020-04-07.seg1.5.2">mai</w>
 <w msd="UPosTag=NOUN|Case=Sup|Number=Sing" lemma="nap" xml:id="ParlaMint-HU_2020-04-07.seg1.5.3">napon</w>
@@ -271,6 +295,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1.6">
+                     <measure type="sentiment" quantity="3.541" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg1.6"/>
                      <name type="PER">
 <w msd="UPosTag=VERB|Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="parancsol" xml:id="ParlaMint-HU_2020-04-07.seg1.6.1" join="right">Parancsoljon</w>
                      </name>
@@ -297,9 +322,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-HU_2020-04-07.ana.note2">SZIJJÁRTÓ PÉTER külgazdasági és külügyminiszter</note>
-            <u xml:id="u2020-04-07-1" who="#SzijjartoPeter" ana="#regular">
+            <u xml:id="u2020-04-07-1" who="#SzijjartoPeter" ana="#regular topic:inter">
                <seg xml:id="u2020-04-07-1.1">
                   <s xml:id="ParlaMint-HU_2020-04-07.seg2.1">
+                     <measure type="sentiment" quantity="4.010" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg2.1"/>
 <w msd="UPosTag=VERB|Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="köszön" xml:id="ParlaMint-HU_2020-04-07.seg2.1.1">Köszönöm</w>
 <w msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="a" xml:id="ParlaMint-HU_2020-04-07.seg2.1.2">a</w>
 <w msd="UPosTag=NOUN|Case=Acc|Number=Sing" lemma="szó" xml:id="ParlaMint-HU_2020-04-07.seg2.1.3" join="right">szót</w>
@@ -312,6 +338,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg2.2">
+                     <measure type="sentiment" quantity="4.466" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg2.2"/>
 <w msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing" lemma="tisztelt" xml:id="ParlaMint-HU_2020-04-07.seg2.2.1">Tisztelt</w>
 <w msd="UPosTag=PROPN|Case=Nom|Number=Sing" lemma="Elnök" xml:id="ParlaMint-HU_2020-04-07.seg2.2.2">Elnök</w>
 <w msd="UPosTag=PROPN|Case=Nom|Number=Sing" lemma="Úr" xml:id="ParlaMint-HU_2020-04-07.seg2.2.3" join="right">Úr</w>
@@ -324,6 +351,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg2.3">
+                     <measure type="sentiment" quantity="4.043" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg2.3"/>
 <w msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing" lemma="tisztelt" xml:id="ParlaMint-HU_2020-04-07.seg2.3.1">Tisztelt</w>
 <w msd="UPosTag=PROPN|Case=Nom|Number=Sing" lemma="Képviselőtárs" xml:id="ParlaMint-HU_2020-04-07.seg2.3.2" join="right">Képviselőtársaim</w>
 <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-HU_2020-04-07.seg2.3.3">!</pc>
@@ -334,6 +362,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg2.4">
+                     <measure type="sentiment" quantity="2.777" ana="senti:neupos" corresp="#ParlaMint-HU_2020-04-07.seg2.4"/>
 <w msd="UPosTag=ADV|PronType=Dem" lemma="azért" xml:id="ParlaMint-HU_2020-04-07.seg2.4.1">Azért</w>
 <w msd="UPosTag=VERB|Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" lemma="kér" xml:id="ParlaMint-HU_2020-04-07.seg2.4.2">kértem</w>
 <w msd="UPosTag=ADV" lemma="ma" xml:id="ParlaMint-HU_2020-04-07.seg2.4.3">ma</w>
@@ -446,6 +475,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg2.5">
+                     <measure type="sentiment" quantity="0.676" ana="senti:mixneg" corresp="#ParlaMint-HU_2020-04-07.seg2.5"/>
 <w msd="UPosTag=INTJ" lemma="sajnos" xml:id="ParlaMint-HU_2020-04-07.seg2.5.1">Sajnos</w>
 <w msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="a" xml:id="ParlaMint-HU_2020-04-07.seg2.5.2">a</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="koronavírus" xml:id="ParlaMint-HU_2020-04-07.seg2.5.3">koronavírus</w>
@@ -514,6 +544,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg2.6">
+                     <measure type="sentiment" quantity="3.471" ana="senti:neupos" corresp="#ParlaMint-HU_2020-04-07.seg2.6"/>
 <w msd="UPosTag=VERB|Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="tájékoztat" xml:id="ParlaMint-HU_2020-04-07.seg2.6.1">Tájékoztatom</w>
 <w msd="UPosTag=NOUN|Case=Acc|Number=Plur" lemma="ön" xml:id="ParlaMint-HU_2020-04-07.seg2.6.2" join="right">önöket</w>
 <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-HU_2020-04-07.seg2.6.3">,</pc>
@@ -570,6 +601,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg2.7">
+                     <measure type="sentiment" quantity="4.434" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg2.7"/>
 <w msd="UPosTag=VERB|Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" lemma="remél" xml:id="ParlaMint-HU_2020-04-07.seg2.7.1" join="right">Reméljük</w>
 <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-HU_2020-04-07.seg2.7.2">,</pc>
 <w msd="UPosTag=SCONJ" lemma="hogy" xml:id="ParlaMint-HU_2020-04-07.seg2.7.3">hogy</w>
@@ -622,6 +654,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg2.8">
+                     <measure type="sentiment" quantity="4.748" ana="senti:pospos" corresp="#ParlaMint-HU_2020-04-07.seg2.8"/>
 <w msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="a" xml:id="ParlaMint-HU_2020-04-07.seg2.8.1">A</w>
 <w msd="UPosTag=VERB|Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="maga" xml:id="ParlaMint-HU_2020-04-07.seg2.8.2">magunk</w>
 <w msd="UPosTag=NOUN|Case=Del|Number=Sing|Number[psor]=Sing|Person[psor]=3" lemma="rész" xml:id="ParlaMint-HU_2020-04-07.seg2.8.3">részéről</w>
@@ -690,6 +723,7 @@
                </seg>
                <seg xml:id="u2020-04-07-1.2">
                   <s xml:id="ParlaMint-HU_2020-04-07.seg3.1">
+                     <measure type="sentiment" quantity="1.535" ana="senti:neuneg" corresp="#ParlaMint-HU_2020-04-07.seg3.1"/>
 <w msd="UPosTag=ADV" lemma="továbbra" xml:id="ParlaMint-HU_2020-04-07.seg3.1.1">Továbbra</w>
 <w msd="UPosTag=CCONJ" lemma="is" xml:id="ParlaMint-HU_2020-04-07.seg3.1.2">is</w>
 <w msd="UPosTag=ADJ|Case=Dat|Degree=Pos|Number=Sing" lemma="fontos" xml:id="ParlaMint-HU_2020-04-07.seg3.1.3">fontosnak</w>
@@ -842,6 +876,7 @@
                </seg>
                <seg xml:id="u2020-04-07-1.3">
                   <s xml:id="ParlaMint-HU_2020-04-07.seg4.1">
+                     <measure type="sentiment" quantity="2.713" ana="senti:neupos" corresp="#ParlaMint-HU_2020-04-07.seg4.1"/>
 <w msd="UPosTag=VERB|Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="tájékoztat" xml:id="ParlaMint-HU_2020-04-07.seg4.1.1">Tájékoztatom</w>
 <w msd="UPosTag=NOUN|Case=Acc|Number=Plur" lemma="ön" xml:id="ParlaMint-HU_2020-04-07.seg4.1.2">önöket</w>
 <w msd="UPosTag=PRON|Case=Del|Number=Sing|Person=3|PronType=Dem" lemma="az" xml:id="ParlaMint-HU_2020-04-07.seg4.1.3">arról</w>
@@ -912,6 +947,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg4.2">
+                     <measure type="sentiment" quantity="2.496" ana="senti:neuneg" corresp="#ParlaMint-HU_2020-04-07.seg4.2"/>
 <w msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="az" xml:id="ParlaMint-HU_2020-04-07.seg4.2.1">Az</w>
 <w msd="UPosTag=ADV|PronType=Dem" lemma="így" xml:id="ParlaMint-HU_2020-04-07.seg4.2.2">így</w>
 <w msd="UPosTag=ADV|Degree=Pos|PronType=Dem" lemma="oda" xml:id="ParlaMint-HU_2020-04-07.seg4.2.3">oda</w>
@@ -966,6 +1002,7 @@
                </seg>
                <seg xml:id="u2020-04-07-1.4">
                   <s xml:id="ParlaMint-HU_2020-04-07.seg5.1">
+                     <measure type="sentiment" quantity="4.981" ana="senti:pospos" corresp="#ParlaMint-HU_2020-04-07.seg5.1"/>
 <w msd="UPosTag=ADV|PronType=Dem" lemma="emellett" xml:id="ParlaMint-HU_2020-04-07.seg5.1.1">Emellett</w>
 <w msd="UPosTag=CCONJ" lemma="pedig" xml:id="ParlaMint-HU_2020-04-07.seg5.1.2">pedig</w>
 <w msd="UPosTag=NOUN|Case=Ins|Number=Sing" lemma="tisztelet" xml:id="ParlaMint-HU_2020-04-07.seg5.1.3">tisztelettel</w>
@@ -1024,6 +1061,7 @@
                </seg>
                <seg xml:id="u2020-04-07-1.5">
                   <s xml:id="ParlaMint-HU_2020-04-07.seg6.1">
+                     <measure type="sentiment" quantity="5.314" ana="senti:pospos" corresp="#ParlaMint-HU_2020-04-07.seg6.1"/>
 <w msd="UPosTag=NOUN|Case=Sbl|Number=Sing" lemma="büszkeség" xml:id="ParlaMint-HU_2020-04-07.seg6.1.1">Büszkeségre</w>
 <w msd="UPosTag=VERB|Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="adhat" xml:id="ParlaMint-HU_2020-04-07.seg6.1.2">adhat</w>
 <w msd="UPosTag=NOUN|Case=Acc|Number=Sing" lemma="ok" xml:id="ParlaMint-HU_2020-04-07.seg6.1.3">okot</w>
@@ -1064,6 +1102,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg6.2">
+                     <measure type="sentiment" quantity="4.605" ana="senti:pospos" corresp="#ParlaMint-HU_2020-04-07.seg6.2"/>
 <w msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing" lemma="komoly" xml:id="ParlaMint-HU_2020-04-07.seg6.2.1">Komoly</w>
 <w msd="UPosTag=NOUN|Case=Acc|Number=Sing" lemma="szerep" xml:id="ParlaMint-HU_2020-04-07.seg6.2.2">szerepet</w>
 <w msd="UPosTag=VERB|Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vállal" xml:id="ParlaMint-HU_2020-04-07.seg6.2.3">vállalnak</w>
@@ -1098,6 +1137,7 @@
                </seg>
                <seg xml:id="u2020-04-07-1.6">
                   <s xml:id="ParlaMint-HU_2020-04-07.seg7.1">
+                     <measure type="sentiment" quantity="3.521" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg7.1"/>
 <w msd="UPosTag=ADV|PronType=Dem" lemma="emellett" xml:id="ParlaMint-HU_2020-04-07.seg7.1.1">Emellett</w>
 <w msd="UPosTag=VERB|Definite=Def|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="szeret" xml:id="ParlaMint-HU_2020-04-07.seg7.1.2">szeretnék</w>
 <w msd="UPosTag=NOUN|Case=Dat|Number=Plur" lemma="ön" xml:id="ParlaMint-HU_2020-04-07.seg7.1.3">önöknek</w>
@@ -1190,6 +1230,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg7.2">
+                     <measure type="sentiment" quantity="0.358" ana="senti:negneg" corresp="#ParlaMint-HU_2020-04-07.seg7.2"/>
 <w msd="UPosTag=NUM|Case=Nom|NumType=Card|Number=Sing" lemma="több" xml:id="ParlaMint-HU_2020-04-07.seg7.2.1">Több</w>
 <w msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing" lemma="közép-európai" xml:id="ParlaMint-HU_2020-04-07.seg7.2.2">közép-európai</w>
 <w msd="UPosTag=CCONJ" lemma="és" xml:id="ParlaMint-HU_2020-04-07.seg7.2.3">és</w>
@@ -1232,6 +1273,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg7.3">
+                     <measure type="sentiment" quantity="4.306" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg7.3"/>
 <w msd="UPosTag=NOUN|Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=1" lemma="mi" xml:id="ParlaMint-HU_2020-04-07.seg7.3.1" join="right">Minket</w>
 <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-HU_2020-04-07.seg7.3.2">,</pc>
 <w msd="UPosTag=NOUN|Case=Acc|Number=Plur" lemma="közép-európaiakat" xml:id="ParlaMint-HU_2020-04-07.seg7.3.3">közép-európaiakat</w>
@@ -1298,6 +1340,7 @@
                </seg>
                <seg xml:id="u2020-04-07-1.7">
                   <s xml:id="ParlaMint-HU_2020-04-07.seg8.1">
+                     <measure type="sentiment" quantity="4.755" ana="senti:pospos" corresp="#ParlaMint-HU_2020-04-07.seg8.1"/>
 <w msd="UPosTag=NOUN|Case=Ins|Number=Sing" lemma="tisztelet" xml:id="ParlaMint-HU_2020-04-07.seg8.1.1">Tisztelettel</w>
 <w msd="UPosTag=VERB|Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="tájékoztat" xml:id="ParlaMint-HU_2020-04-07.seg8.1.2">tájékoztatom</w>
 <w msd="UPosTag=NOUN|Case=Acc|Number=Plur|Number[psor]=Plur|Person[psor]=3" lemma="önök" xml:id="ParlaMint-HU_2020-04-07.seg8.1.3">önöket</w>
@@ -1368,6 +1411,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg8.2">
+                     <measure type="sentiment" quantity="2.868" ana="senti:neupos" corresp="#ParlaMint-HU_2020-04-07.seg8.2"/>
 <w msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=3|PronType=Tot" lemma="mindenki" xml:id="ParlaMint-HU_2020-04-07.seg8.2.1">Mindenki</w>
 <w msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing" lemma="nemzeti" xml:id="ParlaMint-HU_2020-04-07.seg8.2.2">nemzeti</w>
 <w msd="UPosTag=NOUN|Case=Sup|Number=Sing" lemma="alap" xml:id="ParlaMint-HU_2020-04-07.seg8.2.3" join="right">alapon</w>
@@ -1408,6 +1452,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg8.3">
+                     <measure type="sentiment" quantity="0.120" ana="senti:negneg" corresp="#ParlaMint-HU_2020-04-07.seg8.3"/>
 <w msd="UPosTag=ADJ|Case=Ess|Degree=Pos|Number=Sing" lemma="világos" xml:id="ParlaMint-HU_2020-04-07.seg8.3.1">Világosan</w>
 <w msd="UPosTag=VERB|Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="látszik" xml:id="ParlaMint-HU_2020-04-07.seg8.3.2" join="right">látszik</w>
 <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-HU_2020-04-07.seg8.3.3">,</pc>
@@ -1468,6 +1513,7 @@
                </seg>
                <seg xml:id="u2020-04-07-1.8">
                   <s xml:id="ParlaMint-HU_2020-04-07.seg9.1">
+                     <measure type="sentiment" quantity="0.412" ana="senti:negneg" corresp="#ParlaMint-HU_2020-04-07.seg9.1"/>
 <w msd="UPosTag=DET|Case=Nom|Number=Sing|Person=3|PronType=Dem" lemma="ez" xml:id="ParlaMint-HU_2020-04-07.seg9.1.1">Ez</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="utóbbi" xml:id="ParlaMint-HU_2020-04-07.seg9.1.2">utóbbi</w>
 <w msd="UPosTag=ADP" lemma="kapcsán" xml:id="ParlaMint-HU_2020-04-07.seg9.1.3">kapcsán</w>
@@ -1556,6 +1602,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg9.2">
+                     <measure type="sentiment" quantity="1.786" ana="senti:neuneg" corresp="#ParlaMint-HU_2020-04-07.seg9.2"/>
 <w msd="UPosTag=CCONJ" lemma="tehát" xml:id="ParlaMint-HU_2020-04-07.seg9.2.1">Tehát</w>
 <w msd="UPosTag=VERB|Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="lesz" xml:id="ParlaMint-HU_2020-04-07.seg9.2.2" join="right">lehet</w>
 <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-HU_2020-04-07.seg9.2.3">,</pc>
@@ -1602,6 +1649,7 @@
                </seg>
                <seg xml:id="u2020-04-07-1.9">
                   <s xml:id="ParlaMint-HU_2020-04-07.seg10.1">
+                     <measure type="sentiment" quantity="2.501" ana="senti:neupos" corresp="#ParlaMint-HU_2020-04-07.seg10.1"/>
 <w msd="UPosTag=ADV|Degree=Pos" lemma="végül" xml:id="ParlaMint-HU_2020-04-07.seg10.1.1">Végül</w>
 <w msd="UPosTag=NOUN|Case=Ins|Number=Sing" lemma="tisztelet" xml:id="ParlaMint-HU_2020-04-07.seg10.1.2">tisztelettel</w>
 <w msd="UPosTag=VERB|Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="tájékoztat" xml:id="ParlaMint-HU_2020-04-07.seg10.1.3">tájékoztatom</w>
@@ -1708,6 +1756,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg10.2">
+                     <measure type="sentiment" quantity="3.740" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg10.2"/>
 <w msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="a" xml:id="ParlaMint-HU_2020-04-07.seg10.2.1">A</w>
 <w msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing" lemma="magyar" xml:id="ParlaMint-HU_2020-04-07.seg10.2.2">magyar</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="parlament" xml:id="ParlaMint-HU_2020-04-07.seg10.2.3">parlament</w>
@@ -1776,6 +1825,7 @@
                </seg>
                <seg xml:id="u2020-04-07-1.10">
                   <s xml:id="ParlaMint-HU_2020-04-07.seg11.1">
+                     <measure type="sentiment" quantity="4.087" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg11.1"/>
 <w msd="UPosTag=VERB|Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="köszön" xml:id="ParlaMint-HU_2020-04-07.seg11.1.1">Köszönöm</w>
 <w msd="UPosTag=ADJ|Case=Ess|Degree=Pos|Number=Sing" lemma="szép" xml:id="ParlaMint-HU_2020-04-07.seg11.1.2">szépen</w>
 <w msd="UPosTag=ADJ|Case=Nom|Number=Sing|VerbForm=PartPres" lemma="megtisztelő" xml:id="ParlaMint-HU_2020-04-07.seg11.1.3">megtisztelő</w>
@@ -1790,6 +1840,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg11.2">
+                     <measure type="sentiment" quantity="3.337" ana="senti:neupos" corresp="#ParlaMint-HU_2020-04-07.seg11.2"/>
 <w msd="UPosTag=VERB|Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" lemma="kér" xml:id="ParlaMint-HU_2020-04-07.seg11.2.1">Kérem</w>
 <w msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="a" xml:id="ParlaMint-HU_2020-04-07.seg11.2.2">a</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="tájékoztatás" xml:id="ParlaMint-HU_2020-04-07.seg11.2.3">tájékoztatás</w>
@@ -1811,9 +1862,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u xml:id="u2020-04-07-185" who="#VargaLaszlo" ana="#regular">
+            <u xml:id="u2020-04-07-185" who="#VargaLaszlo" ana="#regular topic:mixed">
                <seg xml:id="u2020-04-07-185.1">
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1133.1">
+                     <measure type="sentiment" quantity="4.046" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg1133.1"/>
 <w msd="UPosTag=VERB|Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="köszön" xml:id="ParlaMint-HU_2020-04-07.seg1133.1.1">Köszönöm</w>
 <w msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="a" xml:id="ParlaMint-HU_2020-04-07.seg1133.1.2">a</w>
 <w msd="UPosTag=NOUN|Case=Acc|Number=Sing" lemma="szó" xml:id="ParlaMint-HU_2020-04-07.seg1133.1.3" join="right">szót</w>
@@ -1832,6 +1884,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1133.2">
+                     <measure type="sentiment" quantity="4.043" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg1133.2"/>
 <w msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing" lemma="tisztelt" xml:id="ParlaMint-HU_2020-04-07.seg1133.2.1">Tisztelt</w>
 <w msd="UPosTag=PROPN|Case=Nom|Number=Sing" lemma="Képviselőtárs" xml:id="ParlaMint-HU_2020-04-07.seg1133.2.2" join="right">Képviselőtársaim</w>
 <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-HU_2020-04-07.seg1133.2.3">!</pc>
@@ -1842,6 +1895,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1133.3">
+                     <measure type="sentiment" quantity="4.416" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg1133.3"/>
 <w msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing" lemma="tisztelt" xml:id="ParlaMint-HU_2020-04-07.seg1133.3.1">Tisztelt</w>
 <w msd="UPosTag=PROPN|Case=Nom|Number=Sing" lemma="Ház" xml:id="ParlaMint-HU_2020-04-07.seg1133.3.2" join="right">Ház</w>
 <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-HU_2020-04-07.seg1133.3.3">!</pc>
@@ -1852,6 +1906,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1133.4">
+                     <measure type="sentiment" quantity="4.818" ana="senti:pospos" corresp="#ParlaMint-HU_2020-04-07.seg1133.4"/>
 <w msd="UPosTag=ADV" lemma="sok" xml:id="ParlaMint-HU_2020-04-07.seg1133.4.1">Sokszor</w>
 <w msd="UPosTag=VERB|Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" lemma="van" xml:id="ParlaMint-HU_2020-04-07.seg1133.4.2">volt</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1" lemma="alkalom" xml:id="ParlaMint-HU_2020-04-07.seg1133.4.3">alkalmunk</w>
@@ -1930,6 +1985,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1133.5">
+                     <measure type="sentiment" quantity="5.213" ana="senti:pospos" corresp="#ParlaMint-HU_2020-04-07.seg1133.5"/>
 <w msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="a" xml:id="ParlaMint-HU_2020-04-07.seg1133.5.1">A</w>
 <w msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing" lemma="mai" xml:id="ParlaMint-HU_2020-04-07.seg1133.5.2">mai</w>
 <w msd="UPosTag=ADV" lemma="nap" xml:id="ParlaMint-HU_2020-04-07.seg1133.5.3">nap</w>
@@ -1998,6 +2054,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1133.6">
+                     <measure type="sentiment" quantity="3.116" ana="senti:neupos" corresp="#ParlaMint-HU_2020-04-07.seg1133.6"/>
 <w msd="UPosTag=NUM|Case=Nom|NumType=Card|Number=Sing" lemma="kevesebb" xml:id="ParlaMint-HU_2020-04-07.seg1133.6.1">Kevesebb</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="szó" xml:id="ParlaMint-HU_2020-04-07.seg1133.6.2">szó</w>
 <w msd="UPosTag=VERB|Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" lemma="esik" xml:id="ParlaMint-HU_2020-04-07.seg1133.6.3">esett</w>
@@ -2066,6 +2123,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1133.7">
+                     <measure type="sentiment" quantity="3.585" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg1133.7"/>
 <w msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="a" xml:id="ParlaMint-HU_2020-04-07.seg1133.7.1">A</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Plur" lemma="településvezető" xml:id="ParlaMint-HU_2020-04-07.seg1133.7.2" join="right">településvezetők</w>
 <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-HU_2020-04-07.seg1133.7.3">,</pc>
@@ -2182,6 +2240,7 @@
                </seg>
                <seg xml:id="u2020-04-07-185.2">
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1134.1">
+                     <measure type="sentiment" quantity="0.454" ana="senti:negneg" corresp="#ParlaMint-HU_2020-04-07.seg1134.1"/>
 <w msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="a" xml:id="ParlaMint-HU_2020-04-07.seg1134.1.1">A</w>
 <w msd="UPosTag=NOUN|Case=Ine|Number=Sing" lemma="frontvonal" xml:id="ParlaMint-HU_2020-04-07.seg1134.1.2">frontvonalban</w>
 <w msd="UPosTag=VERB|Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="van" xml:id="ParlaMint-HU_2020-04-07.seg1134.1.3">vannak</w>
@@ -2218,6 +2277,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1134.2">
+                     <measure type="sentiment" quantity="0.227" ana="senti:negneg" corresp="#ParlaMint-HU_2020-04-07.seg1134.2"/>
 <w msd="UPosTag=CCONJ" lemma="pedig" xml:id="ParlaMint-HU_2020-04-07.seg1134.2.1">Pedig</w>
 <w msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="az" xml:id="ParlaMint-HU_2020-04-07.seg1134.2.2">az</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Plur" lemma="önkormányzat" xml:id="ParlaMint-HU_2020-04-07.seg1134.2.3">önkormányzatok</w>
@@ -2316,6 +2376,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1134.3">
+                     <measure type="sentiment" quantity="0.927" ana="senti:mixneg" corresp="#ParlaMint-HU_2020-04-07.seg1134.3"/>
 <w msd="UPosTag=PRON|Case=Del|Number=Sing|Person=3|PronType=Dem" lemma="ez" xml:id="ParlaMint-HU_2020-04-07.seg1134.3.1">Erről</w>
 <w msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="a" xml:id="ParlaMint-HU_2020-04-07.seg1134.3.2">a</w>
 <w msd="UPosTag=NOUN|Case=Del|Number=Sing" lemma="terv" xml:id="ParlaMint-HU_2020-04-07.seg1134.3.3" join="right">tervről</w>
@@ -2370,6 +2431,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1134.4">
+                     <measure type="sentiment" quantity="0.871" ana="senti:mixneg" corresp="#ParlaMint-HU_2020-04-07.seg1134.4"/>
 <w msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=3|PronType=Dem" lemma="ez" xml:id="ParlaMint-HU_2020-04-07.seg1134.4.1">Ez</w>
 <w msd="UPosTag=ADV" lemma="egyébként" xml:id="ParlaMint-HU_2020-04-07.seg1134.4.2">egyébként</w>
 <w msd="UPosTag=ADV" lemma="nagyon" xml:id="ParlaMint-HU_2020-04-07.seg1134.4.3">nagyon</w>
@@ -2460,6 +2522,7 @@
                </seg>
                <seg xml:id="u2020-04-07-185.3">
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1135.1">
+                     <measure type="sentiment" quantity="1.789" ana="senti:neuneg" corresp="#ParlaMint-HU_2020-04-07.seg1135.1"/>
 <w msd="UPosTag=ADV|PronType=Neg" lemma="ne" xml:id="ParlaMint-HU_2020-04-07.seg1135.1.1">Ne</w>
 <w msd="UPosTag=VERB|Definite=Def|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="felejt" xml:id="ParlaMint-HU_2020-04-07.seg1135.1.2">felejtsük</w>
 <w msd="UPosTag=ADV" lemma="el" xml:id="ParlaMint-HU_2020-04-07.seg1135.1.3">el</w>
@@ -2496,6 +2559,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1135.2">
+                     <measure type="sentiment" quantity="4.415" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg1135.2"/>
 <w msd="UPosTag=PRON|Case=Ela|Number=Sing|Person=3|PronType=Dem" lemma="ez" xml:id="ParlaMint-HU_2020-04-07.seg1135.2.1">Ebből</w>
 <w msd="UPosTag=VERB|Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" lemma="tud" xml:id="ParlaMint-HU_2020-04-07.seg1135.2.2">tudtak</w>
 <w msd="UPosTag=NOUN|Case=Acc|Number=Plur" lemma="útfelújítás" xml:id="ParlaMint-HU_2020-04-07.seg1135.2.3">útfelújításokat</w>
@@ -2522,6 +2586,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1135.3">
+                     <measure type="sentiment" quantity="0.170" ana="senti:negneg" corresp="#ParlaMint-HU_2020-04-07.seg1135.3"/>
 <w msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="a" xml:id="ParlaMint-HU_2020-04-07.seg1135.3.1">A</w>
                      <name type="ORG">
 <w msd="UPosTag=PROPN|Case=Nom|Number=Sing" lemma="Fidesz" xml:id="ParlaMint-HU_2020-04-07.seg1135.3.2">Fidesz</w>
@@ -2572,6 +2637,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1135.4">
+                     <measure type="sentiment" quantity="3.522" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg1135.4"/>
 <w msd="UPosTag=CCONJ" lemma="de" xml:id="ParlaMint-HU_2020-04-07.seg1135.4.1">De</w>
 <w msd="UPosTag=DET|Case=Nom|Number=Sing|Person=3|PronType=Dem" lemma="ez" xml:id="ParlaMint-HU_2020-04-07.seg1135.4.2">ez</w>
 <w msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="a" xml:id="ParlaMint-HU_2020-04-07.seg1135.4.3">a</w>
@@ -2594,6 +2660,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1135.5">
+                     <measure type="sentiment" quantity="3.770" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg1135.5"/>
 <w msd="UPosTag=SCONJ" lemma="hogy" xml:id="ParlaMint-HU_2020-04-07.seg1135.5.1">Hogy</w>
 <w msd="UPosTag=VERB|Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="beszél" xml:id="ParlaMint-HU_2020-04-07.seg1135.5.2">beszéljek</w>
 <w msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="én" xml:id="ParlaMint-HU_2020-04-07.seg1135.5.3">én</w>
@@ -2667,6 +2734,7 @@
                <note type="time" xml:id="ParlaMint-HU_2020-04-07.ana.note258">21.00</note>
                <seg xml:id="u2020-04-07-185.4">
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1136.1">
+                     <measure type="sentiment" quantity="0.469" ana="senti:negneg" corresp="#ParlaMint-HU_2020-04-07.seg1136.1"/>
 <w msd="UPosTag=PRON|Case=Del|Number=Sing|Person=3|PronType=Dem" lemma="ez" xml:id="ParlaMint-HU_2020-04-07.seg1136.1.1">Erről</w>
 <w msd="UPosTag=CCONJ" lemma="tehát" xml:id="ParlaMint-HU_2020-04-07.seg1136.1.2">tehát</w>
 <w msd="UPosTag=VERB|Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="lemondhat" xml:id="ParlaMint-HU_2020-04-07.seg1136.1.3">lemondhatnak</w>
@@ -2813,6 +2881,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1136.2">
+                     <measure type="sentiment" quantity="0.158" ana="senti:negneg" corresp="#ParlaMint-HU_2020-04-07.seg1136.2"/>
 <w msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Dem" lemma="ez" xml:id="ParlaMint-HU_2020-04-07.seg1136.2.1">Ezek</w>
 <w msd="UPosTag=ADV" lemma="még" xml:id="ParlaMint-HU_2020-04-07.seg1136.2.2">még</w>
 <w msd="UPosTag=ADJ|Case=Nom|Degree=Cmp|Number=Sing" lemma="nehéz" xml:id="ParlaMint-HU_2020-04-07.seg1136.2.3">nehezebb</w>
@@ -2833,6 +2902,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1136.3">
+                     <measure type="sentiment" quantity="0.271" ana="senti:negneg" corresp="#ParlaMint-HU_2020-04-07.seg1136.3"/>
 <w msd="UPosTag=ADV|PronType=Dem" lemma="olyan" xml:id="ParlaMint-HU_2020-04-07.seg1136.3.1">Olyan</w>
 <w msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="egy" xml:id="ParlaMint-HU_2020-04-07.seg1136.3.2">egy</w>
 <w msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Number=Sing" lemma="kicsi" xml:id="ParlaMint-HU_2020-04-07.seg1136.3.3">kicsit</w>
@@ -2991,6 +3061,7 @@
                </seg>
                <seg xml:id="u2020-04-07-185.5">
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1137.1">
+                     <measure type="sentiment" quantity="0.296" ana="senti:negneg" corresp="#ParlaMint-HU_2020-04-07.seg1137.1"/>
 <w msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=3|PronType=Dem" lemma="ez" xml:id="ParlaMint-HU_2020-04-07.seg1137.1.1">Ez</w>
 <w msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="egy" xml:id="ParlaMint-HU_2020-04-07.seg1137.1.2">egy</w>
 <w msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing" lemma="felelőtlen" xml:id="ParlaMint-HU_2020-04-07.seg1137.1.3" join="right">felelőtlen</w>
@@ -3077,6 +3148,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1137.2">
+                     <measure type="sentiment" quantity="1.494" ana="senti:mixneg" corresp="#ParlaMint-HU_2020-04-07.seg1137.2"/>
 <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-HU_2020-04-07.seg1137.2.1">Ne</pc>
 <w msd="UPosTag=VERB|Definite=Def|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="felejt" xml:id="ParlaMint-HU_2020-04-07.seg1137.2.2">felejtsük</w>
 <w msd="UPosTag=ADV" lemma="el" xml:id="ParlaMint-HU_2020-04-07.seg1137.2.3" join="right">el</w>
@@ -3179,6 +3251,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1137.3">
+                     <measure type="sentiment" quantity="4.142" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg1137.3"/>
 <w msd="UPosTag=ADV" lemma="nagyon" xml:id="ParlaMint-HU_2020-04-07.seg1137.3.1">Nagyon</w>
 <w msd="UPosTag=DET|Definite=Ind|PronType=Ind" lemma="sok" xml:id="ParlaMint-HU_2020-04-07.seg1137.3.2">sok</w>
 <w msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing" lemma="olyan" xml:id="ParlaMint-HU_2020-04-07.seg1137.3.3">olyan</w>
@@ -3247,6 +3320,7 @@
                </seg>
                <seg xml:id="u2020-04-07-185.6">
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1138.1">
+                     <measure type="sentiment" quantity="1.597" ana="senti:neuneg" corresp="#ParlaMint-HU_2020-04-07.seg1138.1"/>
 <w msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="az" xml:id="ParlaMint-HU_2020-04-07.seg1138.1.1">Az</w>
 <w msd="UPosTag=NOUN|Case=Dat|Number=Plur" lemma="önkormányzat" xml:id="ParlaMint-HU_2020-04-07.seg1138.1.2">önkormányzatoknak</w>
 <w msd="UPosTag=DET|Definite=Ind|PronType=Ind" lemma="több" xml:id="ParlaMint-HU_2020-04-07.seg1138.1.3">több</w>
@@ -3275,6 +3349,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1138.2">
+                     <measure type="sentiment" quantity="3.977" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg1138.2"/>
 <w msd="UPosTag=PROPN|Case=Nom|Number=Sing" lemma="Javasol" xml:id="ParlaMint-HU_2020-04-07.seg1138.2.1">Javaslom</w>
 <w msd="UPosTag=NOUN|Case=Dat|Number=Sing" lemma="mindannyiunk" xml:id="ParlaMint-HU_2020-04-07.seg1138.2.2" join="right">mindannyiunknak</w>
 <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-HU_2020-04-07.seg1138.2.3">,</pc>
@@ -3319,6 +3394,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1138.3">
+                     <measure type="sentiment" quantity="4.304" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg1138.3"/>
 <w msd="UPosTag=VERB|Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="köszön" xml:id="ParlaMint-HU_2020-04-07.seg1138.3.1" join="right">Köszönöm</w>
 <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-HU_2020-04-07.seg1138.3.2">,</pc>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="elnök" xml:id="ParlaMint-HU_2020-04-07.seg1138.3.3">elnök</w>
@@ -3335,9 +3411,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-HU_2020-04-07.ana.note259">ELNÖK</note>
-            <u xml:id="u2020-04-07-186" who="#SneiderTamas" ana="#chair">
+            <u xml:id="u2020-04-07-186" who="#SneiderTamas" ana="#chair topic:other">
                <seg xml:id="u2020-04-07-186.1">
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1139.1">
+                     <measure type="sentiment" quantity="4.441" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg1139.1"/>
 <w msd="UPosTag=VERB|Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" lemma="köszön" xml:id="ParlaMint-HU_2020-04-07.seg1139.1.1" join="right">Köszönjük</w>
 <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-HU_2020-04-07.seg1139.1.2">,</pc>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="képviselő" xml:id="ParlaMint-HU_2020-04-07.seg1139.1.3">képviselő</w>
@@ -3352,6 +3429,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1139.2">
+                     <measure type="sentiment" quantity="4.043" ana="senti:mixpos" corresp="#ParlaMint-HU_2020-04-07.seg1139.2"/>
 <w msd="UPosTag=VERB|Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" lemma="tisztelt" xml:id="ParlaMint-HU_2020-04-07.seg1139.2.1">Tisztelt</w>
 <w msd="UPosTag=PROPN|Case=Nom|Number=Sing" lemma="Képviselőtárs" xml:id="ParlaMint-HU_2020-04-07.seg1139.2.2" join="right">Képviselőtársaim</w>
 <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-HU_2020-04-07.seg1139.2.3">!</pc>
@@ -3362,6 +3440,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1139.3">
+                     <measure type="sentiment" quantity="3.210" ana="senti:neupos" corresp="#ParlaMint-HU_2020-04-07.seg1139.3"/>
 <w msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="a" xml:id="ParlaMint-HU_2020-04-07.seg1139.3.1">A</w>
 <w msd="UPosTag=NOUN|Case=Nom|Number=Sing" lemma="napirend" xml:id="ParlaMint-HU_2020-04-07.seg1139.3.2">napirend</w>
 <w msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing" lemma="utáni" xml:id="ParlaMint-HU_2020-04-07.seg1139.3.3">utáni</w>
@@ -3380,6 +3459,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1139.4">
+                     <measure type="sentiment" quantity="4.944" ana="senti:pospos" corresp="#ParlaMint-HU_2020-04-07.seg1139.4"/>
 <w msd="UPosTag=VERB|Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="megköszön" xml:id="ParlaMint-HU_2020-04-07.seg1139.4.1">Megköszönöm</w>
 <w msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="a" xml:id="ParlaMint-HU_2020-04-07.seg1139.4.2">a</w>
 <w msd="UPosTag=NOUN|Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3" lemma="munka" xml:id="ParlaMint-HU_2020-04-07.seg1139.4.3" join="right">munkájukat</w>
@@ -3392,6 +3472,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1139.5">
+                     <measure type="sentiment" quantity="3.091" ana="senti:neupos" corresp="#ParlaMint-HU_2020-04-07.seg1139.5"/>
 <w msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="az" xml:id="ParlaMint-HU_2020-04-07.seg1139.5.1">Az</w>
                      <name type="ORG">
 <w msd="UPosTag=PROPN|Case=Nom|Number=Sing" lemma="Országgyűlés" xml:id="ParlaMint-HU_2020-04-07.seg1139.5.2">Országgyűlés</w>
@@ -3416,6 +3497,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-HU_2020-04-07.seg1139.6">
+                     <measure type="sentiment" quantity="2.875" ana="senti:neupos" corresp="#ParlaMint-HU_2020-04-07.seg1139.6"/>
 <w msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="az" xml:id="ParlaMint-HU_2020-04-07.seg1139.6.1">Az</w>
 <w msd="UPosTag=NOUN|Case=Acc|Number=Sing" lemma="ülésnap" xml:id="ParlaMint-HU_2020-04-07.seg1139.6.2">ülésnapot</w>
 <w msd="UPosTag=VERB|Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="bezár" xml:id="ParlaMint-HU_2020-04-07.seg1139.6.3" join="right">bezárom</w>

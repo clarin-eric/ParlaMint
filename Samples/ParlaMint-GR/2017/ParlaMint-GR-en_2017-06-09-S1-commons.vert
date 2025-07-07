@@ -7,9 +7,9 @@
 <note type="gap::editorial" content="The frontmatter of the document has been removed"/>
 <note type="-" content="Athens, today, June 9, 2017, Friday morning 9.58', the House met in the Chamber of Parliament's sittings in plenary to meet under the chairmanship of its fourth Vice President, Mr. Nikita Kaklamanis."/>
 <note type="speaker" content="REFERENCES (NATIONAL KAYMAN):"/>
-<speech id="ParlaMint-GR_2017-06-09-S1-commons.u1" text_id="ParlaMint-GR-en_2017-06-09-S1-commons" subcorpus="Reference" lang="English" body="Unicameralism" term="17" session="2" meeting="-" sitting="132" agenda="-" date="2017-06-09" title="Minutes of the assembly of the greek parliament, Term 17, session 2, sitting 132, 2017-06-09" speaker_role="Chairperson" speaker_id="ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ" speaker_name="Kaklamanīs, Nikītas" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N.D." speaker_party_name="New Democracy" party_status="Opposition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GR_2017-06-09-S1-commons.u1" text_id="ParlaMint-GR-en_2017-06-09-S1-commons" subcorpus="Reference" lang="English" body="Unicameralism" term="17" session="2" meeting="-" sitting="132" agenda="-" date="2017-06-09" title="Minutes of the assembly of the greek parliament, Term 17, session 2, sitting 132, 2017-06-09" speaker_role="Chairperson" topic="Education" speaker_id="ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ" speaker_name="Kaklamanīs, Nikītas" speaker_mp="MP" speaker_minister="notMinister" speaker_party="N.D." speaker_party_name="New Democracy" party_status="Opposition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg1" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg1.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg1.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.670">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -26,7 +26,7 @@ begins	begins	begin	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	T
 </p>
 <note type="-" content="Note: The following table of contents is not the final text because rationalisation and editorial corrections are pending"/>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg2" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg2.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg2.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.207">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 have	have	have	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -58,7 +58,7 @@ June	June	June	PROPN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t19
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg3" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg3.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg3.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.376">
 A.	A.	A.	X	-	Z99	Z99	Z99: Unmatched	t1
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 PERSONS	PERSONS	PERSONS	PROPN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -96,7 +96,7 @@ Procedure	Procedure	procedure	NOUN	Number=Sing	X4.2	X4.2	X4.2: Mental object: Me
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg4" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg4.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg4.1" senti_3="Negative" senti_6="mixed negative" senti_n="1.034">
 1.	1.	1.	X	-	Z99	Z99	Z99: Unmatched	t1
 Under	Under	under	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 number	number	number	NOUN	Number=Sing	N5,N1,Q1.3,K2,Q4.2	N5	N5: Quantities	t3
@@ -173,7 +173,7 @@ Greece	Greece	Greece	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t47
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg5" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg5.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg5.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.169">
 2.	2.	2.	X	-	Z99	Z99	Z99: Unmatched	t1
 (')	(')	(	PUNCT	-	Z99	Z99	Z99: Unmatched	t2
 <name type="ORG">
@@ -258,7 +258,7 @@ children	children	child	NOUN	Number=Plur	S2mf/T3-,S4mf	S2 T3n	S2: People|T3-: Ti
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg6" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg6.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg6.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.138">
 3	3	3	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -323,7 +323,7 @@ Nation	Nation	Nation	PROPN	Number=Sing	G1.1c,S5+c	G1.1	G1.1: Government	t42
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg7" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg7.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg7.1" senti_3="Negative" senti_6="mixed negative" senti_n="1.299">
 4.	4.	4.	X	-	Z99	Z99	Z99: Unmatched	t1
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 Question	Question	question	NOUN	Number=Sing	Q2.2,X4.1	Q2.2	Q2.2: Speech acts	t3
@@ -408,7 +408,7 @@ mobilisations	mobilisations	mobilisation	NOUN	Number=Plur	A1.5.1,G3	A1.5.1	A1.5.
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg8" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg8.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg8.1" senti_3="Negative" senti_6="mixed negative" senti_n="1.309">
 5	5	5	NUM	-	N1	N1	N1: Numbers	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -443,7 +443,7 @@ electricity	electricity	electricity	NOUN	Number=Sing	O3	O3	O3: Electricity and e
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg9" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg9.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg9.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.915">
 6	6	6	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -476,7 +476,7 @@ case	case	case	NOUN	Number=Sing	A4.1,O2,G2.1,B3,X4.1,Q3	A4.1	A4.1: Generally kin
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg10" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg10.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg10.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.395">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 B.	B.	B.	X	-	Z1mf,Z3c	Z1	Z1: Personal names	t1
 PERSONS	PERSONS	person	NOUN	Number=Plur	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -516,7 +516,7 @@ Procedure	Procedure	procedure	NOUN	Number=Sing	X4.2	X4.2	X4.2: Mental object: Me
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg11" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg11.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg11.1" senti_3="Negative" senti_6="mixed negative" senti_n="1.202">
 1.	1.	1.	X	-	Z99	Z99	Z99: Unmatched	t1
 Under	Under	under	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 number	number	number	NOUN	Number=Sing	N5,N1,Q1.3,K2,Q4.2	N5	N5: Quantities	t3
@@ -575,7 +575,7 @@ Volos	Volos	Volos	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t37
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg12" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg12.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg12.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.945">
 2.	2.	2.	X	-	Z99	Z99	Z99: Unmatched	t1
 (')	(')	(	PUNCT	-	Z99	Z99	Z99: Unmatched	t2
 <name type="ORG">
@@ -656,7 +656,7 @@ tourism	tourism	tourism	NOUN	Number=Sing	M1	M1	M1: Moving, coming and going	t53
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg13" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg13.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg13.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.065">
 3	3	3	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -718,7 +718,7 @@ Court	Court	Court	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t40
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg14" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg14.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg14.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.023">
 4	4	4	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -763,7 +763,7 @@ ABE	ABE	ABE	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t25
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg15" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg15.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg15.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.063">
 5.	5.	5.	X	-	Z99	Z99	Z99: Unmatched	t1
 Under	Under	under	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 number	number	number	NOUN	Number=Sing	N5,N1,Q1.3,K2,Q4.2	N5	N5: Quantities	t3
@@ -854,7 +854,7 @@ so	so	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t64
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg16" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg16.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg16.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.614">
 REFERENCES	REFERENCES	reference	NOUN	Number=Plur	Q2.2,Q1.2	Q2.2	Q2.2: Speech acts	t1
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 QUESTIONS	QUESTIONS	question	NOUN	Number=Plur	Q2.2,X4.1	Q2.2	Q2.2: Speech acts	t3
@@ -882,7 +882,7 @@ Procedure	Procedure	procedure	NOUN	Number=Sing	X4.2	X4.2	X4.2: Mental object: Me
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg17" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg17.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg17.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.073">
 1	1	1	NUM	-	Z99	Z99	Z99: Unmatched	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -955,7 +955,7 @@ Rodopi	Rodopi	Rodopi	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t47
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg18" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg18.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg18.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.210">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -973,7 +973,7 @@ QUESTIONS	QUESTIONS	question	NOUN	Number=Plur	Q2.2,X4.1	Q2.2	Q2.2: Speech acts	t
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg19" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg19.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg19.1" senti_3="Negative" senti_6="mixed negative" senti_n="1.270">
 Before	Before	before	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 begin	begin	begin	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	T2+	T2p	T2+: Time: Beginning	t3
@@ -1101,7 +1101,7 @@ discussion	discussion	discussion	NOUN	Number=Sing	Q2.1,Q2.2	Q2.1	Q2.1: Speech: C
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg20" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg20.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg20.1" senti_3="Negative" senti_6="mixed negative" senti_n="1.260">
 Also	Also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1182,7 +1182,7 @@ abroad	abroad	abroad	ADV	-	M7	M7	M7: Places	t54
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t55
 </s>
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg20.2">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg20.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.499">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -1205,7 +1205,7 @@ Kazakhstan	Kazakhstan	Kazakhstan	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg21" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg21.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg21.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.690">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 same	same	same	ADJ	Degree=Pos	A6.1+++	A6.1p	A6.1+: Comparing: Similar	t2
 applies	applies	apply	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q2.2,A1.5.1,A1.2+,A1.8+,S7.1+	Q2.2	Q2.2: Speech acts	t3
@@ -1289,7 +1289,7 @@ risk	risk	risk	NOUN	Number=Sing	A15-	A15n	A15-: Danger	t59
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg22" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg22.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg22.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.667">
 As	As	as	SCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 have	have	have	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -1319,7 +1319,7 @@ Kalogerou	Kalogerou	Kalogerou	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t18
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg23" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg23.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg23.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.811">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 we	we	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 begin	begin	begin	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	T2+	T2p	T2+: Time: Beginning	t3
@@ -1382,7 +1382,7 @@ business	business	business	NOUN	Number=Sing	I2.1,A1.1.1,A5.1+++	I2.1	I2.1: Busin
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t48
 </s>
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg23.2">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg23.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.582">
 Mr.	Mr.	Mr.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 <name type="PER">
 Papadimitriou	Papadimitriou	Papadimitriou	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -1399,7 +1399,7 @@ answer	answer	answer	VERB	VerbForm=Inf	Q2.2,S1.1.1	Q2.2	Q2.2: Speech acts	t8
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg24" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg24.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg24.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.472">
 Mr.	Mr.	Mr.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 <name type="PER">
 Carras	Carras	Carras	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -1413,9 +1413,9 @@ floor	floor	floor	NOUN	Number=Sing	H2,S5+	H2	H2: Parts of buildings	t5
 </p>
 </speech>
 <note type="speaker" content="GEORGIOS - PUBLIC CARRIA"/>
-<speech id="ParlaMint-GR_2017-06-09-S1-commons.u2" text_id="ParlaMint-GR-en_2017-06-09-S1-commons" subcorpus="Reference" lang="English" body="Unicameralism" term="17" session="2" meeting="-" sitting="132" agenda="-" date="2017-06-09" title="Minutes of the assembly of the greek parliament, Term 17, session 2, sitting 132, 2017-06-09" speaker_role="Regular" speaker_id="ΚΑΡΡΑΣ_ΒΑΣΙΛΕΙΟΥ_ΓΕΩΡΓΙΟΣ-ΔΗΜΗΤΡΙΟΣ" speaker_name="Karras, Geōrgios Dīmītrios" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GR_2017-06-09-S1-commons.u2" text_id="ParlaMint-GR-en_2017-06-09-S1-commons" subcorpus="Reference" lang="English" body="Unicameralism" term="17" session="2" meeting="-" sitting="132" agenda="-" date="2017-06-09" title="Minutes of the assembly of the greek parliament, Term 17, session 2, sitting 132, 2017-06-09" speaker_role="Regular" topic="Domestic Commerce" speaker_id="ΚΑΡΡΑΣ_ΒΑΣΙΛΕΙΟΥ_ΓΕΩΡΓΙΟΣ-ΔΗΜΗΤΡΙΟΣ" speaker_name="Karras, Geōrgios Dīmītrios" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg25" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg25.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg25.1" senti_3="Positive" senti_6="positive" senti_n="5.080">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -1448,7 +1448,7 @@ presence	presence	presence	NOUN	Number=Sing	M6,A3+,S1.1.3+,S1.2,S9	M6	M6: Locati
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg26" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg26.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg26.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.424">
 Nearly	Nearly	nearly	ADV	-	A13.4	A13.4	A13.4: Degree: Approximators	t1
 two	two	two	NUM	NumForm=Word NumType=Card	N1,T3,T1.2	N1	N1: Numbers	t2
 <phr usas_tags="T1.1.1" usas_cats="T1.1.1" usas_glosses="T1.1.1: Time: Past">
@@ -1500,7 +1500,7 @@ loans	loans	loan	NOUN	Number=Plur	I1.2,A9-	I1.2	I1.2: Money: Debts	t41
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t42
 </s>
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg26.2">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg26.2" senti_3="Negative" senti_6="negative" senti_n="0.329">
 Unfortunately	Unfortunately	unfortunately	ADV	-	A1.4-,A5.1-,E4.1-	A1.4n	A1.4-: Unlucky	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1517,7 +1517,7 @@ response	response	response	NOUN	Number=Sing	Q2.1,S1.1.2+	Q2.1	Q2.1: Speech: Comm
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg26.3">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg26.3" senti_3="Negative" senti_6="negative" senti_n="0.346">
 Oddly	Oddly	oddly	ADV	-	A6.2-	A6.2n	A6.2-: Comparing: Unusual	t1
 from	from	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -1543,7 +1543,7 @@ competence	competence	competence	NOUN	Number=Sing	X9.1	X9.1	X9.1: Ability and in
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg26.4">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg26.4" senti_3="Negative" senti_6="mixed negative" senti_n="0.700">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 surprises	surprises	surprise	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -1567,7 +1567,7 @@ now	now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t14
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg26.5">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg26.5" senti_3="Negative" senti_6="negative" senti_n="0.431">
 From	From	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <name type="ORG">
@@ -1596,7 +1596,7 @@ receive	receive	receive	VERB	VerbForm=Inf	A9+,S5+	A9p	A9+: Getting and possessio
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg27" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg27.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg27.1" senti_3="Negative" senti_6="mixed negative" senti_n="1.367">
 After	After	after	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 <g/>
@@ -1648,7 +1648,7 @@ out	out	out	ADP	-	Z5	Z5	Z5: Grammatical bin	t39
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t40
 </s>
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg27.2">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg27.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.091">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 have	have	have	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 therefore	therefore	therefore	ADV	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1666,7 +1666,7 @@ eradicated	eradicated	eradicate	VERB	Tense=Past VerbForm=Part Voice=Pass	A1.1.2	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg27.3">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg27.3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.092">
 Because	Because	because	SCONJ	-	Z5/A2.2	Z5 A2.2	Z5: Grammatical bin|A2.2: Cause	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -1729,7 +1729,7 @@ businesses	businesses	business	NOUN	Number=Plur	I2.1,A1.1.1,A5.1+++	I2.1	I2.1: B
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg28" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg28.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg28.1" senti_3="Negative" senti_6="negative" senti_n="0.454">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 have	have	have	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 therefore	therefore	therefore	ADV	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1796,7 +1796,7 @@ ones	ones	one	NOUN	Number=Plur	Z8	Z8	Z8: Pronouns	t50
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg29" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg29.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg29.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.115">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -1871,7 +1871,7 @@ forecasts	forecasts	forecast	NOUN	Number=Plur	Q2.2/T1.1.3,X2.6+	Q2.2 T1.1.3	Q2.2
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg30" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg30.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg30.1" senti_3="Negative" senti_6="mixed negative" senti_n="0.722">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t1
 think	think	think	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t2
@@ -1977,7 +1977,7 @@ tax	tax	tax	NOUN	Number=Sing	I1.1/G1.1	I1.1 G1.1	I1.1: Money and pay|G1.1: Gover
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t88
 </s>
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg30.2">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg30.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.441">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 state	state	state	NOUN	Number=Sing	G1.1c,O4.1	G1.1	G1.1: Government	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -1997,7 +1997,7 @@ issues	issues	issue	NOUN	Number=Plur	X4.1,Q4.2,S4,A9-	X4.1	X4.1: Mental object: 
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg31" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg31.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg31.1" senti_3="Positive" senti_6="positive" senti_n="4.637">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -2008,9 +2008,9 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-GR_2017-06-09-S1-commons.u510" text_id="ParlaMint-GR-en_2017-06-09-S1-commons" subcorpus="Reference" lang="English" body="Unicameralism" term="17" session="2" meeting="-" sitting="132" agenda="-" date="2017-06-09" title="Minutes of the assembly of the greek parliament, Term 17, session 2, sitting 132, 2017-06-09" speaker_role="Chairperson" speaker_id="ΒΑΡΕΜΕΝΟΣ_ΒΑΣΙΛΕΙΟΥ_ΓΕΩΡΓΙΟΣ" speaker_name="Varemenos, Geōrgios" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SY.RIZ.A." speaker_party_name="Coalition of the Radical Left – Progressive Alliance" party_status="Coalition" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GR_2017-06-09-S1-commons.u510" text_id="ParlaMint-GR-en_2017-06-09-S1-commons" subcorpus="Reference" lang="English" body="Unicameralism" term="17" session="2" meeting="-" sitting="132" agenda="-" date="2017-06-09" title="Minutes of the assembly of the greek parliament, Term 17, session 2, sitting 132, 2017-06-09" speaker_role="Chairperson" topic="Other" speaker_id="ΒΑΡΕΜΕΝΟΣ_ΒΑΣΙΛΕΙΟΥ_ΓΕΩΡΓΙΟΣ" speaker_name="Varemenos, Geōrgios" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SY.RIZ.A." speaker_party_name="Coalition of the Radical Left – Progressive Alliance" party_status="Coalition" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg1723" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg1723.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg1723.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.325">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Z2,Z3c" usas_cats="Z2" usas_glosses="Z2: Geographical names">
 minutes	minutes	minute	NOUN	Number=Plur	Z2,Z3c	Z2	Z2: Geographical names	t2
@@ -2062,7 +2062,7 @@ validated	validated	validate	VERB	Tense=Past VerbForm=Part Voice=Pass	S7.4+,A10+
 </s>
 </p>
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg1724" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg1724.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg1724.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.447">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -2087,9 +2087,9 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t14
 </speech>
 <note type="vocal:shouting" content="Yes, sir."/>
 <note type="speaker" content="REFERENCES (AGRICULTURAL MARKET):"/>
-<speech id="ParlaMint-GR_2017-06-09-S1-commons.u511" text_id="ParlaMint-GR-en_2017-06-09-S1-commons" subcorpus="Reference" lang="English" body="Unicameralism" term="17" session="2" meeting="-" sitting="132" agenda="-" date="2017-06-09" title="Minutes of the assembly of the greek parliament, Term 17, session 2, sitting 132, 2017-06-09" speaker_role="Chairperson" speaker_id="ΒΑΡΕΜΕΝΟΣ_ΒΑΣΙΛΕΙΟΥ_ΓΕΩΡΓΙΟΣ" speaker_name="Varemenos, Geōrgios" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SY.RIZ.A." speaker_party_name="Coalition of the Radical Left – Progressive Alliance" party_status="Coalition" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-GR_2017-06-09-S1-commons.u511" text_id="ParlaMint-GR-en_2017-06-09-S1-commons" subcorpus="Reference" lang="English" body="Unicameralism" term="17" session="2" meeting="-" sitting="132" agenda="-" date="2017-06-09" title="Minutes of the assembly of the greek parliament, Term 17, session 2, sitting 132, 2017-06-09" speaker_role="Chairperson" topic="Transportation" speaker_id="ΒΑΡΕΜΕΝΟΣ_ΒΑΣΙΛΕΙΟΥ_ΓΕΩΡΓΙΟΣ" speaker_name="Varemenos, Geōrgios" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SY.RIZ.A." speaker_party_name="Coalition of the Radical Left – Progressive Alliance" party_status="Coalition" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GR_2017-06-09-S1-commons.seg1725" lang="English">
-<s id="ParlaMint-GR_2017-06-09-S1-commons.seg1725.1">
+<s id="ParlaMint-GR_2017-06-09-S1-commons.seg1725.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.646">
 With	With	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 consent	consent	consent	NOUN	Number=Sing	S7.4+,Q2.2	S7.4p	S7.4+: Allowed	t3

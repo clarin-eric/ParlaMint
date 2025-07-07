@@ -1,15 +1,15 @@
 <note type="head" content="Punkt 0"/>
 <note type="agendaItem" content="2020-04-21-0"/>
-<speech id="ParlaMint-DK_20200421130023" text_id="ParlaMint-DK_2020-04-21-20191-M94" subcorpus="COVID" lang="Dansk" body="Etkammersystem" term="Regeringen Mette Frederiksen" session="20191" meeting="M94" sitting="-" agenda="-" date="2020-04-21" title="Referat fra folketingssalen, folketingsåret 20191, møde M94 (2020-04-21) endelig version" speaker_role="Formand" topic="Folketingsanliggender" speaker_id="KristensenHenrikDam" speaker_name="Kristensen, Henrik Dam" speaker_mp="MP" speaker_minister="notMinister" speaker_party="S" speaker_party_name="Socialdemokratiet" party_status="Coalition" party_orientation="Centrum-venstre" speaker_gender="M" speaker_birth="1957">
+<speech id="ParlaMint-DK_20200421130023" text_id="ParlaMint-DK_2020-04-21-20191-M94" subcorpus="COVID" lang="Dansk" body="Etkammersystem" term="Regeringen Mette Frederiksen" session="20191" meeting="M94" sitting="-" agenda="-" date="2020-04-21" title="Referat fra folketingssalen, folketingsåret 20191, møde M94 (2020-04-21) endelig version" speaker_role="Formand" topic="Mix" topic_dk="Folketingsanliggender" speaker_id="KristensenHenrikDam" speaker_name="Kristensen, Henrik Dam" speaker_mp="MP" speaker_minister="notMinister" speaker_party="S" speaker_party_name="Socialdemokratiet" party_status="Coalition" party_orientation="Centrum-venstre" speaker_gender="M" speaker_birth="1957">
 <p id="ParlaMint-DK_20200421130023.seg1" lang="Dansk">
-<s id="ParlaMint-DK_20200421130023.seg1.1">
+<s id="ParlaMint-DK_20200421130023.seg1.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.826">
 Mødet	Mødet	møde	NOUN	Definite=Def Gender=Neut Number=Sing	1	nsubj	åbne	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2	aux	åbne	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 åbnet	åbnet	åbne	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	4	punct	åbne	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 </s>
-<s id="ParlaMint-DK_20200421130023.seg1.2">
+<s id="ParlaMint-DK_20200421130023.seg1.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.226">
 I	I	i	ADP	AdpType=Prep	1	advmod	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	3
 dag	dag	dag	NOUN	Definite=Ind Gender=Com Number=Sing	2	fixed	i	ADP	AdpType=Prep	1
 er	er	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	3	root	-	-	-	-
@@ -48,7 +48,7 @@ SU-loven	SU-loven	SU-lov	NOUN	Definite=Def Gender=Com Number=Sing	26	nmod	ændri
 </name>
 .	.	.	PUNCT	-	27	punct	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	3
 </s>
-<s id="ParlaMint-DK_20200421130023.seg1.3">
+<s id="ParlaMint-DK_20200421130023.seg1.3" senti_3="Neutral" senti_6="neutral postive" senti_n="2.514">
 Klima	Klima	klima	NOUN	Definite=Ind Gender=Neut Number=Sing	1	root	-	-	-	-
 <g/>
 -	-	-	PUNCT	-	2	punct	klima	NOUN	Definite=Ind Gender=Neut Number=Sing	1
@@ -92,7 +92,7 @@ naturgasforsyning	naturgasforsyning	naturgasforsyning	NOUN	Definite=Ind Gender=C
 <g/>
 .	.	.	PUNCT	-	33	punct	klima	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 </s>
-<s id="ParlaMint-DK_20200421130023.seg1.4">
+<s id="ParlaMint-DK_20200421130023.seg1.4" senti_3="Neutral" senti_6="neutral negative" senti_n="2.323">
 Skatteministeren	Skatteministeren	skatteminister	NOUN	Definite=Def Gender=Com Number=Sing	1	root	-	-	-	-
 (	(	(	PUNCT	-	2	punct	Morten	PROPN	-	3
 <g/>
@@ -137,7 +137,7 @@ covid-19	covid-19	covid-19	NUM	NumType=Card	33	nmod	forbindelse	NOUN	Definite=In
 <g/>
 .	.	.	PUNCT	-	35	punct	skatteminister	NOUN	Definite=Def Gender=Com Number=Sing	1
 </s>
-<s id="ParlaMint-DK_20200421130023.seg1.5">
+<s id="ParlaMint-DK_20200421130023.seg1.5" senti_3="Neutral" senti_6="neutral negative" senti_n="2.460">
 Titlerne	Titlerne	titel	NOUN	Definite=Def Gender=Com Number=Plur	1	nsubj	fremgå	VERB	VerbForm=Inf Voice=Act	7
 på	på	på	ADP	AdpType=Prep	2	case	sag	NOUN	Definite=Ind Gender=Com Number=Plur	5
 de	de	den	DET	Number=Plur PronType=Dem	3	det	sag	NOUN	Definite=Ind Gender=Com Number=Plur	5
@@ -158,9 +158,9 @@ ovenfor	ovenfor	ovenfor	ADV	-	12	advmod	jf.	VERB	Mood=Imp	11
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-DK_20200421130104" text_id="ParlaMint-DK_2020-04-21-20191-M94" subcorpus="COVID" lang="Dansk" body="Etkammersystem" term="Regeringen Mette Frederiksen" session="20191" meeting="M94" sitting="-" agenda="-" date="2020-04-21" title="Referat fra folketingssalen, folketingsåret 20191, møde M94 (2020-04-21) endelig version" speaker_role="Formand" topic="Folketingsanliggender" speaker_id="KristensenHenrikDam" speaker_name="Kristensen, Henrik Dam" speaker_mp="MP" speaker_minister="notMinister" speaker_party="S" speaker_party_name="Socialdemokratiet" party_status="Coalition" party_orientation="Centrum-venstre" speaker_gender="M" speaker_birth="1957">
+<speech id="ParlaMint-DK_20200421130104" text_id="ParlaMint-DK_2020-04-21-20191-M94" subcorpus="COVID" lang="Dansk" body="Etkammersystem" term="Regeringen Mette Frederiksen" session="20191" meeting="M94" sitting="-" agenda="-" date="2020-04-21" title="Referat fra folketingssalen, folketingsåret 20191, møde M94 (2020-04-21) endelig version" speaker_role="Formand" topic="Other" topic_dk="Folketingsanliggender" speaker_id="KristensenHenrikDam" speaker_name="Kristensen, Henrik Dam" speaker_mp="MP" speaker_minister="notMinister" speaker_party="S" speaker_party_name="Socialdemokratiet" party_status="Coalition" party_orientation="Centrum-venstre" speaker_gender="M" speaker_birth="1957">
 <p id="ParlaMint-DK_20200421130104.seg2" lang="Dansk">
-<s id="ParlaMint-DK_20200421130104.seg2.1">
+<s id="ParlaMint-DK_20200421130104.seg2.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.374">
 De	De	den	DET	Number=Plur PronType=Dem	1	det	punkt	NOUN	Definite=Ind Gender=Neut Number=Plur	2
 punkter	punkter	punkt	NOUN	Definite=Ind Gender=Neut Number=Plur	2	nsubj	behandle	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	20
 <g/>
@@ -203,7 +203,7 @@ givet	givet	give	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	35	advcl
 <g/>
 .	.	.	PUNCT	-	36	punct	behandle	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	20
 </s>
-<s id="ParlaMint-DK_20200421130104.seg2.2">
+<s id="ParlaMint-DK_20200421130104.seg2.2" senti_3="Positive" senti_6="mixed positive" senti_n="4.445">
 Samtykket	Samtykket	samtykke	NOUN	Definite=Def Gender=Neut Number=Sing	1	nsubj	give	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2	aux	give	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 givet	givet	give	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -213,9 +213,9 @@ givet	givet	give	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3	root	-
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-DK_20200421152214" text_id="ParlaMint-DK_2020-04-21-20191-M94" subcorpus="COVID" lang="Dansk" body="Etkammersystem" term="Regeringen Mette Frederiksen" session="20191" meeting="M94" sitting="-" agenda="-" date="2020-04-21" title="Referat fra folketingssalen, folketingsåret 20191, møde M94 (2020-04-21) endelig version" speaker_role="Formand" topic="Beskæftigelse|Sociale anliggenheder" speaker_id="TorpTrine" speaker_name="Torp, Trine" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SF" speaker_party_name="Socialistisk Folkeparti" party_status="-" party_orientation="Centrum-venstre til venstre" speaker_gender="F" speaker_birth="1970">
+<speech id="ParlaMint-DK_20200421152214" text_id="ParlaMint-DK_2020-04-21-20191-M94" subcorpus="COVID" lang="Dansk" body="Etkammersystem" term="Regeringen Mette Frederiksen" session="20191" meeting="M94" sitting="-" agenda="-" date="2020-04-21" title="Referat fra folketingssalen, folketingsåret 20191, møde M94 (2020-04-21) endelig version" speaker_role="Formand" topic="Other" topic_dk="Beskæftigelse|Sociale anliggenheder" speaker_id="TorpTrine" speaker_name="Torp, Trine" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SF" speaker_party_name="Socialistisk Folkeparti" party_status="-" party_orientation="Centrum-venstre til venstre" speaker_gender="F" speaker_birth="1970">
 <p id="ParlaMint-DK_20200421152214.seg166" lang="Dansk">
-<s id="ParlaMint-DK_20200421152214.seg166.1">
+<s id="ParlaMint-DK_20200421152214.seg166.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.530">
 Ønskes	Ønskes	ønske	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 afstemning	afstemning	afstemning	NOUN	Definite=Ind Gender=Com Number=Sing	2	obj	ønske	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	1
 om	om	om	ADP	AdpType=Prep	3	case	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	5
@@ -230,14 +230,14 @@ udvalget	udvalget	udvalg	NOUN	Definite=Def Gender=Neut Number=Sing	10	obl	tiltr�
 <g/>
 ?	?	?	PUNCT	-	11	punct	ønske	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-DK_20200421152214.seg166.2">
+<s id="ParlaMint-DK_20200421152214.seg166.2" senti_3="Positive" senti_6="mixed positive" senti_n="4.075">
 Det	Det	det	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	1	nsubj	vedtage	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2	aux	vedtage	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 vedtaget	vedtaget	vedtage	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	4	punct	vedtage	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 </s>
-<s id="ParlaMint-DK_20200421152214.seg166.3">
+<s id="ParlaMint-DK_20200421152214.seg166.3" senti_3="Neutral" senti_6="neutral negative" senti_n="1.546">
 Hvis	Hvis	hvis	SCONJ	-	1	mark	begære	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	4
 ikke	ikke	ikke	ADV	-	2	advmod	begære	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	4
 afstemning	afstemning	afstemning	NOUN	Definite=Ind Gender=Com Number=Sing	3	nsubj	begære	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	4
@@ -272,14 +272,14 @@ forkastet	forkastet	forkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=P
 <g/>
 .	.	.	PUNCT	-	25	punct	betragte	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	6
 </s>
-<s id="ParlaMint-DK_20200421152214.seg166.4">
+<s id="ParlaMint-DK_20200421152214.seg166.4" senti_3="Negative" senti_6="mixed negative" senti_n="1.183">
 De	De	de	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	1	nsubj	forkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2	aux	forkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 forkastet	forkastet	forkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	4	punct	forkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 </s>
-<s id="ParlaMint-DK_20200421152214.seg166.5">
+<s id="ParlaMint-DK_20200421152214.seg166.5" senti_3="Neutral" senti_6="neutral negative" senti_n="2.218">
 Ønskes	Ønskes	ønske	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 afstemning	afstemning	afstemning	NOUN	Definite=Ind Gender=Com Number=Sing	2	obj	ønske	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	1
 om	om	om	ADP	AdpType=Prep	3	case	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	5
@@ -317,14 +317,14 @@ LA	LA	LA	PROPN	-	23	conj	KF	PROPN	-	19
 <g/>
 ?	?	?	PUNCT	-	25	punct	ønske	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-DK_20200421152214.seg166.6">
+<s id="ParlaMint-DK_20200421152214.seg166.6" senti_3="Positive" senti_6="mixed positive" senti_n="4.119">
 De	De	de	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	1	nsubj	vedtage	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2	aux	vedtage	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 vedtaget	vedtaget	vedtage	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	4	punct	vedtage	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 </s>
-<s id="ParlaMint-DK_20200421152214.seg166.7">
+<s id="ParlaMint-DK_20200421152214.seg166.7" senti_3="Neutral" senti_6="neutral negative" senti_n="1.556">
 Hvis	Hvis	hvis	SCONJ	-	1	mark	begære	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	4
 ikke	ikke	ikke	ADV	-	2	advmod	begære	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	4
 afstemning	afstemning	afstemning	NOUN	Definite=Ind Gender=Com Number=Sing	3	nsubj	begære	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	4
@@ -357,14 +357,14 @@ forkastet	forkastet	forkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=P
 <g/>
 .	.	.	PUNCT	-	23	punct	betragte	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	6
 </s>
-<s id="ParlaMint-DK_20200421152214.seg166.8">
+<s id="ParlaMint-DK_20200421152214.seg166.8" senti_3="Neutral" senti_6="neutral negative" senti_n="1.669">
 Det	Det	det	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	1	nsubj	forkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2	aux	forkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 forkastet	forkastet	forkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	4	punct	forkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 </s>
-<s id="ParlaMint-DK_20200421152214.seg166.9">
+<s id="ParlaMint-DK_20200421152214.seg166.9" senti_3="Negative" senti_6="mixed negative" senti_n="1.211">
 Hvis	Hvis	hvis	SCONJ	-	1	mark	begære	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	4
 ikke	ikke	ikke	ADV	-	2	advmod	begære	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	4
 afstemning	afstemning	afstemning	NOUN	Definite=Ind Gender=Com Number=Sing	3	nsubj	begære	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	4
@@ -415,14 +415,14 @@ forkastet	forkastet	forkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=P
 <g/>
 .	.	.	PUNCT	-	32	punct	betragte	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	6
 </s>
-<s id="ParlaMint-DK_20200421152214.seg166.10">
+<s id="ParlaMint-DK_20200421152214.seg166.10" senti_3="Neutral" senti_6="neutral negative" senti_n="1.669">
 Det	Det	det	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	1	nsubj	forkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2	aux	forkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 forkastet	forkastet	forkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	4	punct	forkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 </s>
-<s id="ParlaMint-DK_20200421152214.seg166.11">
+<s id="ParlaMint-DK_20200421152214.seg166.11" senti_3="Neutral" senti_6="neutral postive" senti_n="2.530">
 Ønskes	Ønskes	ønske	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 afstemning	afstemning	afstemning	NOUN	Definite=Ind Gender=Com Number=Sing	2	obj	ønske	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	1
 om	om	om	ADP	AdpType=Prep	3	case	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	5
@@ -437,14 +437,14 @@ udvalget	udvalget	udvalg	NOUN	Definite=Def Gender=Neut Number=Sing	10	obl	tiltr�
 <g/>
 ?	?	?	PUNCT	-	11	punct	ønske	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-DK_20200421152214.seg166.12">
+<s id="ParlaMint-DK_20200421152214.seg166.12" senti_3="Positive" senti_6="mixed positive" senti_n="4.119">
 De	De	de	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	1	nsubj	vedtage	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2	aux	vedtage	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 vedtaget	vedtaget	vedtage	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	4	punct	vedtage	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 </s>
-<s id="ParlaMint-DK_20200421152214.seg166.13">
+<s id="ParlaMint-DK_20200421152214.seg166.13" senti_3="Neutral" senti_6="neutral negative" senti_n="2.489">
 Der	Der	der	ADV	PartType=Inf	1	expl	stille	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2	aux	stille	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 stillet	stillet	stille	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -475,7 +475,7 @@ vedtaget	vedtaget	vedtage	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part
 <g/>
 .	.	.	PUNCT	-	25	punct	stille	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 </s>
-<s id="ParlaMint-DK_20200421152214.seg166.14">
+<s id="ParlaMint-DK_20200421152214.seg166.14" senti_3="Positive" senti_6="mixed positive" senti_n="4.075">
 Det	Det	det	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	1	nsubj	vedtage	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2	aux	vedtage	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 vedtaget	vedtaget	vedtage	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -486,9 +486,9 @@ vedtaget	vedtaget	vedtage	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part
 </speech>
 <note type="head" content="Punkt 0"/>
 <note type="agendaItem" content="2020-04-21-0"/>
-<speech id="ParlaMint-DK_20200421152411" text_id="ParlaMint-DK_2020-04-21-20191-M94" subcorpus="COVID" lang="Dansk" body="Etkammersystem" term="Regeringen Mette Frederiksen" session="20191" meeting="M94" sitting="-" agenda="-" date="2020-04-21" title="Referat fra folketingssalen, folketingsåret 20191, møde M94 (2020-04-21) endelig version" speaker_role="Formand" topic="Folketingsanliggender" speaker_id="TorpTrine" speaker_name="Torp, Trine" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SF" speaker_party_name="Socialistisk Folkeparti" party_status="-" party_orientation="Centrum-venstre til venstre" speaker_gender="F" speaker_birth="1970">
+<speech id="ParlaMint-DK_20200421152411" text_id="ParlaMint-DK_2020-04-21-20191-M94" subcorpus="COVID" lang="Dansk" body="Etkammersystem" term="Regeringen Mette Frederiksen" session="20191" meeting="M94" sitting="-" agenda="-" date="2020-04-21" title="Referat fra folketingssalen, folketingsåret 20191, møde M94 (2020-04-21) endelig version" speaker_role="Formand" topic="Other" topic_dk="Folketingsanliggender" speaker_id="TorpTrine" speaker_name="Torp, Trine" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SF" speaker_party_name="Socialistisk Folkeparti" party_status="-" party_orientation="Centrum-venstre til venstre" speaker_gender="F" speaker_birth="1970">
 <p id="ParlaMint-DK_20200421152411.seg167" lang="Dansk">
-<s id="ParlaMint-DK_20200421152411.seg167.1">
+<s id="ParlaMint-DK_20200421152411.seg167.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.339">
 Der	Der	der	ADV	PartType=Inf	1	nsubj	mere	ADV	Degree=Cmp	4
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2	cop	mere	ADV	Degree=Cmp	4
 ikke	ikke	ikke	ADV	-	3	advmod	mere	ADV	Degree=Cmp	4
@@ -501,7 +501,7 @@ møde	møde	møde	NOUN	Definite=Ind Gender=Neut Number=Sing	9	obl	foretage	VERB	
 <g/>
 .	.	.	PUNCT	-	10	punct	mere	ADV	Degree=Cmp	4
 </s>
-<s id="ParlaMint-DK_20200421152411.seg167.2">
+<s id="ParlaMint-DK_20200421152411.seg167.2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.507">
 Næste	Næste	næste	ADJ	Degree=Pos	1	amod	møde	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 møde	møde	møde	NOUN	Definite=Ind Gender=Neut Number=Sing	2	nsubj	afholde	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3
 afholdes	afholdes	afholde	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3	root	-	-	-	-

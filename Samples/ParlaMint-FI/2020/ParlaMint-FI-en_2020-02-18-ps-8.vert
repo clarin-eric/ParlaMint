@@ -1,8 +1,8 @@
 <note type="head" content="Hallituksen esitys eduskunnalle vankeusaikaisen rikollisuuden estämisen ja laitosturvallisuuden ylläpitämisen tehostamista koskevaksi lainsäädännöksi"/>
 <note type="relatedDocument" content="Government proposal HE 6/2020 vp"/>
-<speech id="ParlaMint-FI_2020-02-18-ps-8.u1" text_id="ParlaMint-FI-en_2020-02-18-ps-8" subcorpus="COVID" lang="English" body="Unicameralism" term="Vaalikausi 2019" session="Valtiopäivät 2019" meeting="Täysistunto 8" sitting="2020-02-18" agenda="-" date="2020-02-18" title="Minutes of the Finnish Parliament's plenary session 8/2020, 2020-02-18" speaker_role="Chairperson" speaker_id="JuhoEerola" speaker_name="Eerola, Juho" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PS" speaker_party_name="Finns Party" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1975">
+<speech id="ParlaMint-FI_2020-02-18-ps-8.u1" text_id="ParlaMint-FI-en_2020-02-18-ps-8" subcorpus="COVID" lang="English" body="Unicameralism" term="Vaalikausi 2019" session="Valtiopäivät 2019" meeting="Täysistunto 8" sitting="2020-02-18" agenda="-" date="2020-02-18" title="Minutes of the Finnish Parliament's plenary session 8/2020, 2020-02-18" speaker_role="Chairperson" topic="Other" speaker_id="JuhoEerola" speaker_name="Eerola, Juho" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PS" speaker_party_name="Finns Party" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1975">
 <p id="ParlaMint-FI_2020-02-18-ps-8.seg1" lang="English">
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg1.1">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg1.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.948">
 A	A	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 point	point	point	NOUN	Number=Sing	Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5	Q2.1	Q2.1: Speech: Communicative	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -17,7 +17,7 @@ referral	referral	referral	NOUN	Number=Sing	Q2.2/S2mf,Q2.2	Q2.2 S2	Q2.2: Speech 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg1.2">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg1.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.637">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Council	Council	Council	PROPN	Number=Sing	G1.1c,S7.1+/S5+c	G1.1	G1.1: Government	t2
@@ -58,7 +58,7 @@ opinion	opinion	opinion	NOUN	Number=Sing	X2.1,X2.1/A5,X6+	X2.1	X2.1: Thought, be
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg1.3">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg1.3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.484">
 A	A	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 maximum	maximum	maximum	NOUN	Number=Sing	N5.1+	N5.1p	N5.1+: Entire; maximum	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -73,7 +73,7 @@ referral	referral	referral	NOUN	Number=Sing	Q2.2/S2mf,Q2.2	Q2.2 S2	Q2.2: Speech 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg1.4">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg1.4" senti_3="Neutral" senti_6="neutral positive" senti_n="2.790">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 proceedings	proceedings	proceedings	NOUN	Number=Plur	A1.1.1,T2++,M1	A1.1.1	A1.1.1: General actions / making	t2
 shall	shall	shall	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t3
@@ -99,9 +99,9 @@ cases	cases	case	NOUN	Number=Plur	A4.1,O2,G2.1,B3,X4.1,Q3	A4.1	A4.1: Generally k
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-FI_2020-02-18-ps-8.u2" text_id="ParlaMint-FI-en_2020-02-18-ps-8" subcorpus="COVID" lang="English" body="Unicameralism" term="Vaalikausi 2019" session="Valtiopäivät 2019" meeting="Täysistunto 8" sitting="2020-02-18" agenda="-" date="2020-02-18" title="Minutes of the Finnish Parliament's plenary session 8/2020, 2020-02-18" speaker_role="Regular" speaker_id="AnnaMajaHenriksson" speaker_name="Henriksson, Anna-Maja" speaker_mp="MP" speaker_minister="Minister" speaker_party="RKP" speaker_party_name="Swedish People's Party of Finland" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1964">
+<speech id="ParlaMint-FI_2020-02-18-ps-8.u2" text_id="ParlaMint-FI-en_2020-02-18-ps-8" subcorpus="COVID" lang="English" body="Unicameralism" term="Vaalikausi 2019" session="Valtiopäivät 2019" meeting="Täysistunto 8" sitting="2020-02-18" agenda="-" date="2020-02-18" title="Minutes of the Finnish Parliament's plenary session 8/2020, 2020-02-18" speaker_role="Regular" topic="Law and Crime" speaker_id="AnnaMajaHenriksson" speaker_name="Henriksson, Anna-Maja" speaker_mp="MP" speaker_minister="Minister" speaker_party="RKP" speaker_party_name="Swedish People's Party of Finland" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1964">
 <p id="ParlaMint-FI_2020-02-18-ps-8.seg2" lang="English">
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg2.1">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg2.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.950">
 <phr usas_tags="Z1m" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -113,7 +113,7 @@ talman	talman	talman	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t5
 <g/>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg2.2">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg2.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.285">
 According	According	accord	VERB	ExtPos=ADP VerbForm=Ger	A9-,A6.1+	A9n	A9-: Giving	t1
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -178,7 +178,7 @@ period	period	period	NOUN	Number=Sing	T1.3,B1,Q3,P1/T1.3	T1.3	T1.3: Time: Period
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t50
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg2.3">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg2.3" senti_3="Positive" senti_6="mixed positive" senti_n="3.649">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
 aim	aim	aim	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t2
@@ -231,7 +231,7 @@ crime	crime	crime	NOUN	Number=Sing	G2.1-	G2.1n	G2.1-: Crime	t41
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t42
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg2.4">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg2.4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.257">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 addition	addition	addition	NOUN	Number=Sing	N5++,N2	N5p	N5+: Quantities: many/much	t2
 <g/>
@@ -249,7 +249,7 @@ security	security	security	NOUN	Number=Sing	G2.1,A15+,E6+,I1.1	G2.1	G2.1: Law an
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg2.5">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg2.5" senti_3="Neutral" senti_6="neutral positive" senti_n="2.881">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 proposal	proposal	proposal	NOUN	Number=Sing	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Speech acts	t2
 has	has	have	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -309,9 +309,9 @@ Police	Police	Police	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t41
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-FI_2020-02-18-ps-8.u103" text_id="ParlaMint-FI-en_2020-02-18-ps-8" subcorpus="COVID" lang="English" body="Unicameralism" term="Vaalikausi 2019" session="Valtiopäivät 2019" meeting="Täysistunto 8" sitting="2020-02-18" agenda="-" date="2020-02-18" title="Minutes of the Finnish Parliament's plenary session 8/2020, 2020-02-18" speaker_role="Regular" speaker_id="VeijoNiemi" speaker_name="Niemi, Veijo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PS" speaker_party_name="Finns Party" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1954">
+<speech id="ParlaMint-FI_2020-02-18-ps-8.u103" text_id="ParlaMint-FI-en_2020-02-18-ps-8" subcorpus="COVID" lang="English" body="Unicameralism" term="Vaalikausi 2019" session="Valtiopäivät 2019" meeting="Täysistunto 8" sitting="2020-02-18" agenda="-" date="2020-02-18" title="Minutes of the Finnish Parliament's plenary session 8/2020, 2020-02-18" speaker_role="Regular" topic="Transportation" speaker_id="VeijoNiemi" speaker_name="Niemi, Veijo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PS" speaker_party_name="Finns Party" party_status="Opposition" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1954">
 <p id="ParlaMint-FI_2020-02-18-ps-8.seg311" lang="English">
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg311.1">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg311.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.021">
 <phr usas_tags="Z1m" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -319,7 +319,7 @@ President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
 </phr>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg311.2">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg311.2" senti_3="Negative" senti_6="mixed negative" senti_n="1.078">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 myself	myself	myself	PRON	Case=Acc Number=Sing Person=1 PronType=Prs Reflex=Yes	Z8mf	Z8	Z8: Pronouns	t2
 know	know	know	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	X2.2+,S3.2/B1%	X2.2p	X2.2+: Knowledgeable	t3
@@ -344,7 +344,7 @@ is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg311.3">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg311.3" senti_3="Negative" senti_6="mixed negative" senti_n="0.557">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 have	have	have	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -391,7 +391,7 @@ controls	controls	control	NOUN	Number=Plur	S7.1+,A1.7+,O2	S7.1p	S7.1+: In power	
 </s>
 </p>
 <p id="ParlaMint-FI_2020-02-18-ps-8.seg312" lang="English">
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg312.4">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg312.4" senti_3="Neutral" senti_6="neutral negative" senti_n="2.458">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 After	After	after	ADP	-	Z4	Z4	Z4: Discourse Bin	t1
 all	all	all	DET	-	Z4	Z4	Z4: Discourse Bin	t2
@@ -415,7 +415,7 @@ area	area	area	NOUN	Number=Sing	M7,A4.1,N3.6	M7	M7: Places	t15
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg312.5">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg312.5" senti_3="Neutral" senti_6="neutral negative" senti_n="2.424">
 A	A	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 municipal	municipal	municipal	ADJ	Degree=Pos	M7/G1.1	M7 G1.1	M7: Places|G1.1: Government	t2
 parking	parking	parking	NOUN	Number=Sing	M8	M8	M8: Stationary	t3
@@ -432,7 +432,7 @@ area	area	area	NOUN	Number=Sing	M7,A4.1,N3.6	M7	M7: Places	t13
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg312.6">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg312.6" senti_3="Negative" senti_6="negative" senti_n="0.058">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 <name type="LOC">
 Tampere	Tampere	Tampere	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t2
@@ -498,7 +498,7 @@ company	company	company	NOUN	Number=Sing	Df/I2.1c	I2.1	I2.1: Business: Generally
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t49
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg312.7">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg312.7" senti_3="Negative" senti_6="negative" senti_n="0.266">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 all	all	all	ADV	-	A13.2	A13.2	A13.2: Degree: Maximizers	t3
@@ -599,7 +599,7 @@ cancelled	cancelled	cancel	VERB	Tense=Past VerbForm=Part	T2-	T2n	T2-: Time: Endi
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t77
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg312.8">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg312.8" senti_3="Negative" senti_6="mixed negative" senti_n="1.491">
 <phr usas_tags="Z5" usas_cats="Z5" usas_glosses="Z5: Grammatical bin">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 that	that	that	DET	Number=Sing PronType=Dem	Z5	Z5	Z5: Grammatical bin	t2
@@ -645,9 +645,9 @@ companies	companies	company	NOUN	Number=Plur	Df/I2.1c	I2.1	I2.1: Business: Gener
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-FI_2020-02-18-ps-8.u104" text_id="ParlaMint-FI-en_2020-02-18-ps-8" subcorpus="COVID" lang="English" body="Unicameralism" term="Vaalikausi 2019" session="Valtiopäivät 2019" meeting="Täysistunto 8" sitting="2020-02-18" agenda="-" date="2020-02-18" title="Minutes of the Finnish Parliament's plenary session 8/2020, 2020-02-18" speaker_role="Regular" speaker_id="KimmoKiljunen" speaker_name="Kiljunen, Kimmo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDP" speaker_party_name="Social Democratic Party of Finland" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1951">
+<speech id="ParlaMint-FI_2020-02-18-ps-8.u104" text_id="ParlaMint-FI-en_2020-02-18-ps-8" subcorpus="COVID" lang="English" body="Unicameralism" term="Vaalikausi 2019" session="Valtiopäivät 2019" meeting="Täysistunto 8" sitting="2020-02-18" agenda="-" date="2020-02-18" title="Minutes of the Finnish Parliament's plenary session 8/2020, 2020-02-18" speaker_role="Regular" topic="Law and Crime" speaker_id="KimmoKiljunen" speaker_name="Kiljunen, Kimmo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDP" speaker_party_name="Social Democratic Party of Finland" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1951">
 <p id="ParlaMint-FI_2020-02-18-ps-8.seg313" lang="English">
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.1">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.021">
 <phr usas_tags="Z1m" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -655,10 +655,10 @@ President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
 </phr>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.2">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.088">
 Representative	Representative	representative	NOUN	Number=Sing	Q2.1/S2mf,G1.1/S2mf,I2.2/S2mf,A4.1	Q2.1 S2	Q2.1: Speech: Communicative|S2: People	t1
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.3">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.3" senti_3="Positive" senti_6="mixed positive" senti_n="3.798">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 <name type="PER">
 Niemi	Niemi	Niemi	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -676,7 +676,7 @@ training	training	training	NOUN	Number=Sing	P1,K5.1	P1	P1: Education in general	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.4">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.410">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -720,7 +720,7 @@ situation	situation	situation	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evalu
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t32
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.5">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.5" senti_3="Negative" senti_6="negative" senti_n="0.285">
 <phr usas_tags="Z5" usas_cats="Z5" usas_glosses="Z5: Grammatical bin">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 that	that	that	DET	Number=Sing PronType=Dem	Z5	Z5	Z5: Grammatical bin	t2
@@ -777,7 +777,7 @@ time	time	time	NOUN	Number=Sing	T1,T1.2,T1.3,T1.1.2,N6,N1,K2,G2.1@	T1	T1: Time	t
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t46
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.6">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.6" senti_3="Neutral" senti_6="neutral positive" senti_n="3.017">
 Mrs	Mrs	Mrs	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t1
 <name type="PER">
 Susanne	Susanne	Susanne	PROPN	Number=Sing	Z1f	Z1	Z1: Personal names	t2
@@ -808,7 +808,7 @@ writes	writes	write	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.7">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.7" senti_3="Negative" senti_6="negative" senti_n="0.113">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 After	After	after	ADP	-	Z4	Z4	Z4: Discourse Bin	t1
 all	all	all	DET	-	Z4	Z4	Z4: Discourse Bin	t2
@@ -842,7 +842,7 @@ Pekko's	Pekko's	Pekko's	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t20
 </name>
 and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t21
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.8">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.8" senti_3="Neutral" senti_6="neutral negative" senti_n="2.071">
 <name type="PER">
 Susannie	Susannie	Susannie	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t1
 </name>
@@ -867,7 +867,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t19
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.9">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.9" senti_3="Neutral" senti_6="neutral positive" senti_n="2.522">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t3
@@ -904,12 +904,12 @@ nicknames	nicknames	nickname	NOUN	Number=Plur	Q2.2	Q2.2	Q2.2: Speech acts	t27
 </s>
 </p>
 <p id="ParlaMint-FI_2020-02-18-ps-8.seg314" lang="English">
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.10">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.10" senti_3="Neutral" senti_6="neutral negative" senti_n="2.215">
 President	President	President	PROPN	Number=Sing	G1.1/S7.1+/S2mf	G1.1 S7.1p S2	G1.1: Government|S7.1+: In power|S2: People	t1
 <g/>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t2
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.11">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.11" senti_3="Positive" senti_6="mixed positive" senti_n="4.239">
 Perhaps	Perhaps	perhaps	ADV	-	A7	A7	A7: Probability	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 wanted	wanted	want	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	X7+,S6+,A7+,G2.1-,S3.2,A9-	X7p	X7+: Wanted	t3
@@ -952,7 +952,7 @@ all	all	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t30
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t31
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.12">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.12" senti_3="Positive" senti_6="positive" senti_n="5.310">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -964,7 +964,7 @@ conversation	conversation	conversation	NOUN	Number=Sing	Q2.1	Q2.1	Q2.1: Speech: 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.13">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.13" senti_3="Positive" senti_6="positive" senti_n="4.546">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 have	have	have	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 come	come	come	VERB	Tense=Past VerbForm=Part	M1,N3.1,A2.2,A3+,X2.1,A9+,S4,N4,S3.2,T1,A1.1.1,N5	M1	M1: Moving, coming and going	t3
@@ -976,7 +976,7 @@ this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direct
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.14">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.14" senti_3="Neutral" senti_6="neutral negative" senti_n="2.364">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <phr usas_tags="A13.3" usas_cats="A13.3" usas_glosses="A13.3: Degree: Boosters">
 very	very	very	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t2
@@ -998,7 +998,7 @@ this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direct
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.15">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.15" senti_3="Negative" senti_6="mixed negative" senti_n="0.597">
 Now	Now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1056,7 +1056,7 @@ MP	MP	mp	NOUN	Number=Sing	G1.1/S2mf,G3/G2.1/S2mf@	G1.1 S2	G1.1: Government|S2: P
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t47
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.16">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.16" senti_3="Positive" senti_6="mixed positive" senti_n="4.297">
 <phr usas_tags="A13.2" usas_cats="A13.2" usas_glosses="A13.2: Degree: Maximizers">
 Above	Above	above	ADP	-	A13.2	A13.2	A13.2: Degree: Maximizers	t1
 all	all	all	DET	-	A13.2	A13.2	A13.2: Degree: Maximizers	t2

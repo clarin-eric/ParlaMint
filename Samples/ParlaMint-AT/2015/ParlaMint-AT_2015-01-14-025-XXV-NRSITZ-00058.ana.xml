@@ -38,10 +38,26 @@
                <resp xml:lang="de">Metadaten und Übersetzung</resp>
                <resp xml:lang="en">Metadata and translation</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="de">CLARIN-ERIC</orgName>
                <orgName xml:lang="en">CLARIN-ERIC (Common Language Resources and Technology Infrastructure—European Research Infrastructure Consortium)</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="de">ÖAW (Österreichische Akademie der Wissenschaften)</orgName>
@@ -50,7 +66,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="3" xml:lang="de">3 Äußerungen</measure>
@@ -64,13 +80,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-24">2025-06-24</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -98,6 +114,7 @@
                <tagUsage gi="gap" occurs="2"/>
                <tagUsage gi="link" occurs="117"/>
                <tagUsage gi="linkGrp" occurs="7"/>
+               <tagUsage gi="measure" occurs="7"/>
                <tagUsage gi="name" occurs="19"/>
                <tagUsage gi="note" occurs="9"/>
                <tagUsage gi="pb" occurs="2"/>
@@ -123,10 +140,12 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-24">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-02">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
          <change when="2022-11-30">
-            <name>Hannes Pirker</name> : Converted from source HTML to TEI.</change>
+            <name>Hannes Pirker</name>: Converted from source HTML to TEI.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
@@ -143,9 +162,10 @@
             <note type="time" xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058.ana.note2">Beginn der Sitzung:<time when="2015-01-14T14:49:00+01:00">14:49</time>Uhr</note>
             <note type="chairpersons" xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058.ana.note3">Dritter Präsident Ing. Norbert Hofer</note>
             <note type="speaker" xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058.ana.note4">Präsident Ing. Norbert Hofer</note>
-            <u who="#PAD_35521" xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d7e370" ana="#chair">
+            <u who="#PAD_35521" xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d7e370" ana="#chair topic:other">
                <seg xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e196">
                   <s xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e196.s1">
+                     <measure type="sentiment" quantity="3.633" ana="senti:mixpos" corresp="#ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e196.s1"/>
 <w xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e196.s1.w1" lemma="Ich" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs">Ich</w>
 <w xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e196.s1.w2" lemma="eröffnen" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">eröffne</w>
 <w xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e196.s1.w3" lemma="die" msd="UPosTag=DET|Case=Acc|Gender=Fem|Number=Sing|PronType=Art">die</w>
@@ -170,6 +190,7 @@
                </seg>
                <seg xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e198">
                   <s xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e198.s1">
+                     <measure type="sentiment" quantity="1.750" ana="senti:neuneg" corresp="#ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e198.s1"/>
 <w xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e198.s1.w1" lemma="Als" msd="UPosTag=CCONJ|ConjType=Comp">Als</w>
 <w xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e198.s1.w2" lemma="verhindern" msd="UPosTag=ADJ|Degree=Pos|Variant=Short">verhindert</w>
 <w xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e198.s1.w3" lemma="melden" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Part">gemeldet</w>
@@ -295,6 +316,7 @@
                </note>
                <seg xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e203">
                   <s xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e203.s1">
+                     <measure type="sentiment" quantity="2.772" ana="senti:neupos" corresp="#ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e203.s1"/>
 <w xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e203.s1.w1" lemma="Einlauf" msd="UPosTag=NOUN|Gender=Masc|Number=Sing|Person=3">Einlauf</w>
 <w xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e203.s1.w2" lemma="und" msd="UPosTag=CCONJ">und</w>
 <w xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e203.s1.w3" lemma="Zuweisung" msd="UPosTag=NOUN|Gender=Fem|Number=Plur|Person=3">Zuweisungen</w>
@@ -307,9 +329,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058.ana.note6">Präsident Ing. Norbert Hofer</note>
-            <u who="#PAD_35521" xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d7e401" ana="#chair">
+            <u who="#PAD_35521" xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d7e401" ana="#chair topic:other">
                <seg xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e208">
                   <s xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e208.s1">
+                     <measure type="sentiment" quantity="2.407" ana="senti:neuneg" corresp="#ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e208.s1"/>
 <w xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e208.s1.w1" lemma="Hinsichtlich" msd="UPosTag=ADP|AdpType=Prep|Case=Gen">Hinsichtlich</w>
 <w xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e208.s1.w2" lemma="der" msd="UPosTag=DET|Case=Gen|Number=Plur|PronType=Art">der</w>
 <w xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e208.s1.w3" lemma="einlangen" msd="UPosTag=ADJ|Degree=Pos|Number=Plur">eingelangten</w>
@@ -363,6 +386,7 @@
                </seg>
                <seg xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e210">
                   <s xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e210.s1">
+                     <measure type="sentiment" quantity="3.030" ana="senti:neupos" corresp="#ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e210.s1"/>
 <w xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e210.s1.w1" lemma="Die" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Art">Die</w>
 <w xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e210.s1.w2" lemma="schriftlich" msd="UPosTag=ADJ|Degree=Pos|Gender=Fem|Number=Sing">schriftliche</w>
 <w xml:id="ParlaMint-AT_2015-01-14-025-XXV-NRSITZ-00058_d2e210.s1.w3" lemma="Mitteilung" msd="UPosTag=NOUN|Gender=Fem|Number=Sing|Person=3">Mitteilung</w>

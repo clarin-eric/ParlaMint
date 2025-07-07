@@ -29,13 +29,21 @@
                <resp xml:lang="bg">Валидиране на корпуса Parla-CLARIN TEI XML</resp>
                <resp xml:lang="en">Parla-CLARIN TEI XML corpus validation</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="bg">Изследователска инфраструктура CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="110" unit="speeches" xml:lang="bg">110 изказвания</measure>
@@ -48,13 +56,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="bg">Този ресурс е лицензиран под лиценз: <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -94,14 +102,16 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference" xml:lang="bg">
       <body>
          <div type="debateSection">
-            <u ana="#chair" n="72336" who="#GlavchevDimitar" xml:id="ParlaMint-BG_2017-05-11.u1">
+            <u ana="#chair topic:defen" n="72336" who="#GlavchevDimitar" xml:id="ParlaMint-BG_2017-05-11.u1">
                <seg xml:id="ParlaMint-BG_2017-05-11.seg1">Добро утро, уважаеми колеги!</seg>
                <seg xml:id="ParlaMint-BG_2017-05-11.seg2">Има кворум.</seg>
                <kinesic type="ringing" xml:id="ParlaMint-BG_2017-05-11.kinesic1">
@@ -128,14 +138,14 @@
                <seg xml:id="ParlaMint-BG_2017-05-11.seg21">Имате думата за предложения.</seg>
                <seg xml:id="ParlaMint-BG_2017-05-11.seg22">Заповядайте, господин Иванов.</seg>
             </u>
-            <u ana="#regular" n="72337" who="#IvanovStanislav" xml:id="ParlaMint-BG_2017-05-11.u2">
+            <u ana="#regular topic:inter" n="72337" who="#IvanovStanislav" xml:id="ParlaMint-BG_2017-05-11.u2">
                <seg xml:id="ParlaMint-BG_2017-05-11.seg23">Благодаря Ви.</seg>
                <seg xml:id="ParlaMint-BG_2017-05-11.seg24">Уважаеми господин Председател, уважаеми колеги! От Политическа партия ГЕРБ предлагаме следния поименен състав на постоянната делегация на Народното събрание в Парламентарната асамблея на Съвета на Европа: Милена Цветанова Дамянова – основен представител, Данаил Димитров Кирилов – заместващ представител, и Джема Маринова Грозданова – ръководител. Благодаря Ви.</seg>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u ana="#chair" n="72444" who="#GlavchevDimitar" xml:id="ParlaMint-BG_2017-05-11.u109">
+            <u ana="#chair topic:other" n="72444" who="#GlavchevDimitar" xml:id="ParlaMint-BG_2017-05-11.u109">
                <seg xml:id="ParlaMint-BG_2017-05-11.seg374">Благодаря Ви, уважаеми господин Цонев.</seg>
                <seg xml:id="ParlaMint-BG_2017-05-11.seg375">Гласуваме предложенията.</seg>
                <seg xml:id="ParlaMint-BG_2017-05-11.seg376">Моля, гласувайте.</seg>
@@ -157,7 +167,7 @@
                <seg xml:id="ParlaMint-BG_2017-05-11.seg392">- министърът на труда и социалната политика Бисер Петков на един въпрос от народния представител Джевдет Чакъров.</seg>
                <seg xml:id="ParlaMint-BG_2017-05-11.seg393">Поради изчерпване на дневния ред за днес закривам заседанието.</seg>
             </u>
-            <u ana="#regular" n="72445" xml:id="ParlaMint-BG_2017-05-11.u110">
+            <u ana="#regular topic:other" n="72445" xml:id="ParlaMint-BG_2017-05-11.u110">
                <seg xml:id="ParlaMint-BG_2017-05-11.seg394">Утре продължаваме с парламентарен контрол от 11,00 ч.</seg>
                <seg xml:id="ParlaMint-BG_2017-05-11.seg395">Закривам заседанието.</seg>
                <kinesic type="ringing" xml:id="ParlaMint-BG_2017-05-11.kinesic2">

@@ -21,9 +21,9 @@
 <note type="comment" content="Does the government agree with this goal, and what plans has the government put in place to prevent the country from having to undergo new closures in the future?’"/>
 <note type="comment" content="9th@item: inlistbox Unit"/>
 <note type="speaker" content="Presidents:"/>
-<speech id="ParlaMint-NO_2022-05-10.ud496e62" text_id="ParlaMint-NO-en_2022-05-10" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Term 2021-2025" session="Session 2021-2022" meeting="-" sitting="Sitting day 2022-05-10" agenda="-" date="2022-05-10" title="Hansard from meeting in the Norwegian Parliament, term 2021-2025, Session 2021-2022, Sitting day 2022-05-10" speaker_role="Chairperson" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1982">
+<speech id="ParlaMint-NO_2022-05-10.ud496e62" text_id="ParlaMint-NO-en_2022-05-10" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Term 2021-2025" session="Session 2021-2022" meeting="-" sitting="Sitting day 2022-05-10" agenda="-" date="2022-05-10" title="Hansard from meeting in the Norwegian Parliament, term 2021-2025, Session 2021-2022, Sitting day 2022-05-10" speaker_role="Chairperson" topic="Other" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1982">
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e63" lang="English">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e63.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e63.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.896">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 representatives	representatives	representative	NOUN	Number=Plur	Q2.1/S2mf,G1.1/S2mf,I2.2/S2mf,A4.1	Q2.1 S2	Q2.1: Speech: Communicative|S2: People	t2
 <name type="PER">
@@ -66,7 +66,7 @@ seats	seats	seat	NOUN	Number=Plur	H5,B5,S1.1.3+,S7.1+,M7	H5	H5: Furniture and ho
 </s>
 </p>
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e79" lang="English">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e79.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e79.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.704">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 called	called	call	VERB	Tense=Past VerbForm=Part	Q2.2,S1.1.1,Q1.3,S9%	Q2.2	Q2.2: Speech acts	t2
 alternate	alternate	alternate	ADJ	Degree=Pos	A2.1+,S1.1.2+	A2.1p	A2.1+: Change	t3
@@ -92,7 +92,7 @@ seat	seat	seat	NOUN	Number=Sing	H5,B5,S1.1.3+,S7.1+,M7	H5	H5: Furniture and hous
 </s>
 </p>
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e84" lang="English">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e84.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e84.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.284">
 From	From	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 11	11	11	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -158,7 +158,7 @@ Myrli	Myrli	Myrli	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t45
 </s>
 </p>
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e89" lang="English">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e89.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e89.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.048">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 proposal	proposal	proposal	NOUN	Number=Sing	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Speech acts	t3
@@ -176,7 +176,7 @@ unanimously	unanimously	unanimously	ADV	-	A6.1+	A6.1p	A6.1+: Comparing: Similar	
 </s>
 </p>
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e93" lang="English">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e93.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e93.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.914">
 That	That	that	DET	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 application	application	application	NOUN	Number=Sing	Q1.2,A1.5.1,Y2,X5.1+,A1.1.1	Q1.2	Q1.2: Paper documents and writing	t2
 shall	shall	shall	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t3
@@ -194,7 +194,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 </s>
 </p>
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e96" lang="English">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e96.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e96.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.640">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Vara	Vara	Vara	PROPN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
@@ -229,9 +229,9 @@ May	May	May	PROPN	Number=Sing	T1.3,Z1f	T1.3	T1.3: Time: Period	t18
 <note type="comment" content="Council of State Jon-Ivar Nygård"/>
 <note type="comment" content="overburdened 1 kg. Proposition (see under Unit)."/>
 <note type="speaker" content="Presidents:"/>
-<speech id="ParlaMint-NO_2022-05-10.ud496e107" text_id="ParlaMint-NO-en_2022-05-10" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Term 2021-2025" session="Session 2021-2022" meeting="-" sitting="Sitting day 2022-05-10" agenda="-" date="2022-05-10" title="Hansard from meeting in the Norwegian Parliament, term 2021-2025, Session 2021-2022, Sitting day 2022-05-10" speaker_role="Chairperson" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1982">
+<speech id="ParlaMint-NO_2022-05-10.ud496e107" text_id="ParlaMint-NO-en_2022-05-10" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Term 2021-2025" session="Session 2021-2022" meeting="-" sitting="Sitting day 2022-05-10" agenda="-" date="2022-05-10" title="Hansard from meeting in the Norwegian Parliament, term 2021-2025, Session 2021-2022, Sitting day 2022-05-10" speaker_role="Chairperson" topic="Other" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1982">
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e108" lang="English">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e108.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e108.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.605">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 representative	representative	representative	NOUN	Number=Sing	Q2.1/S2mf,G1.1/S2mf,I2.2/S2mf,A4.1	Q2.1 S2	Q2.1: Speech: Communicative|S2: People	t2
 <g/>
@@ -258,9 +258,9 @@ representative	representative	representative	NOUN	Number=Sing	T1.3	T1.3	T1.3: Ti
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-NO_2022-05-10.ud496e2502" text_id="ParlaMint-NO-en_2022-05-10" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Term 2021-2025" session="Session 2021-2022" meeting="-" sitting="Sitting day 2022-05-10" agenda="-" date="2022-05-10" title="Hansard from meeting in the Norwegian Parliament, term 2021-2025, Session 2021-2022, Sitting day 2022-05-10" speaker_role="Chairperson" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1982">
+<speech id="ParlaMint-NO_2022-05-10.ud496e2502" text_id="ParlaMint-NO-en_2022-05-10" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Term 2021-2025" session="Session 2021-2022" meeting="-" sitting="Sitting day 2022-05-10" agenda="-" date="2022-05-10" title="Hansard from meeting in the Norwegian Parliament, term 2021-2025, Session 2021-2022, Sitting day 2022-05-10" speaker_role="Chairperson" topic="Social Welfare" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1982">
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e2503" lang="English">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e2503.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e2503.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.378">
 During	During	during	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 debate	debate	debate	NOUN	Number=Sing	Q2.2	Q2.2	Q2.2: Speech acts	t3
@@ -281,7 +281,7 @@ Red	Red	Red	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t13
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e2503.2">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e2503.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.502">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 proposal	proposal	proposal	NOUN	Number=Sing	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Speech acts	t2
 reads	reads	read	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Q3,Q1.2,X3.2+,X2.5+,P1,A10+	Q3	Q3: Language, speech and grammar	t3
@@ -292,7 +292,7 @@ follows	follows	follow	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fi
 </s>
 </p>
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e2508" lang="English">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e2508.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e2508.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.275">
 ‘	‘	‘	PUNCT	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
@@ -360,7 +360,7 @@ payment	payment	payment	NOUN	Number=Sing	I1.1	I1.1	I1.1: Money and pay	t51
 </s>
 </p>
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e2510" lang="English">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e2510.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e2510.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.419">
 Alternatively	Alternatively	alternatively	ADV	-	A6.1-	A6.1n	A6.1-: Comparing: Different	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -383,7 +383,7 @@ up	up	up	ADP	-	Z5	Z5	Z5: Grammatical bin	t14
 </s>
 </p>
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e2512" lang="English">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e2512.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e2512.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.797">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 Committee	Committee	committee	NOUN	Number=Sing	S7.1+/S5+c	S7.1p S5p	S7.1+: In power|S5+: Belonging to a group	t2
@@ -416,9 +416,9 @@ following	following	follow	VERB	VerbForm=Ger	S5+,M1,N4,S7.1-,X2.4,X2.5+,A6.1+,A1
 <note type="comment" content="3rd@item: inlistbox (476) Representative of the Landfill Representatives Torgeir Knag Fylkesnes and Kathy Lie on a national initiative for creative industries (Document 8:244 S (2021-2022))"/>
 <note type="comment" content="Enst.: To be sent to the Business Committee."/>
 <note type="speaker" content="Presidents:"/>
-<speech id="ParlaMint-NO_2022-05-10.ud496e2557" text_id="ParlaMint-NO-en_2022-05-10" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Term 2021-2025" session="Session 2021-2022" meeting="-" sitting="Sitting day 2022-05-10" agenda="-" date="2022-05-10" title="Hansard from meeting in the Norwegian Parliament, term 2021-2025, Session 2021-2022, Sitting day 2022-05-10" speaker_role="Chairperson" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1982">
+<speech id="ParlaMint-NO_2022-05-10.ud496e2557" text_id="ParlaMint-NO-en_2022-05-10" subcorpus="COVID,War" lang="English" body="Unicameralism" term="Term 2021-2025" session="Session 2021-2022" meeting="-" sitting="Sitting day 2022-05-10" agenda="-" date="2022-05-10" title="Hansard from meeting in the Norwegian Parliament, term 2021-2025, Session 2021-2022, Sitting day 2022-05-10" speaker_role="Chairperson" topic="Other" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1982">
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e2558" lang="English">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e2558.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e2558.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.039">
 Thus	Thus	thus	ADV	-	Z5/A2.2	Z5 A2.2	Z5: Grammatical bin|A2.2: Cause	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -432,7 +432,7 @@ processed	processed	process	VERB	Tense=Past VerbForm=Part Voice=Pass	A1.1.1,Y2,M
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e2558.2">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e2558.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.441">
 Does	Does	do	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t1
 anyone	anyone	anyone	PRON	Number=Sing	Z8mfc	Z8	Z8: Pronouns	t2
 require	require	require	VERB	VerbForm=Inf	X7+,S6+	X7p	X7+: Wanted	t3
@@ -446,7 +446,7 @@ cancelled	cancelled	cancel	VERB	Tense=Past VerbForm=Part Voice=Pass	T2-	T2n	T2-:
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e2558.3">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e2558.3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.018">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t3

@@ -1,8 +1,8 @@
 <note type="head" content="Hallituksen esitys eduskunnalle vankeusaikaisen rikollisuuden estämisen ja laitosturvallisuuden ylläpitämisen tehostamista koskevaksi lainsäädännöksi"/>
 <note type="relatedDocument" content="Hallituksen esitys HE 6/2020 vp"/>
-<speech id="ParlaMint-FI_2020-02-18-ps-8.u1" text_id="ParlaMint-FI_2020-02-18-ps-8" subcorpus="COVID" lang="suomi" body="Yksikamarisuus" term="Vaalikausi 2019" session="Valtiopäivät 2019" meeting="Täysistunto 8" sitting="2020-02-18" agenda="-" date="2020-02-18" title="Suomen eduskunnan täysistunnon 8/2020 pöytäkirja, 2020-02-18" speaker_role="Puhemies" speaker_id="JuhoEerola" speaker_name="Eerola, Juho" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PS" speaker_party_name="Perussuomalaiset" party_status="Opposition" party_orientation="oikeisto - äärioikeisto" speaker_gender="M" speaker_birth="1975">
+<speech id="ParlaMint-FI_2020-02-18-ps-8.u1" text_id="ParlaMint-FI_2020-02-18-ps-8" subcorpus="COVID" lang="suomi" body="Yksikamarisuus" term="Vaalikausi 2019" session="Valtiopäivät 2019" meeting="Täysistunto 8" sitting="2020-02-18" agenda="-" date="2020-02-18" title="Suomen eduskunnan täysistunnon 8/2020 pöytäkirja, 2020-02-18" speaker_role="Puhemies" topic="Muu" speaker_id="JuhoEerola" speaker_name="Eerola, Juho" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PS" speaker_party_name="Perussuomalaiset" party_status="Opposition" party_orientation="oikeisto - äärioikeisto" speaker_gender="M" speaker_birth="1975">
 <p id="ParlaMint-FI_2020-02-18-ps-8.seg1" lang="suomi">
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg1.1">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg1.1" senti_3="Neutraali" senti_6="neutraali positiivinen" senti_n="2.948">
 Lähetekeskustelua	Lähetekeskustelua	lähetekeskustelu	NOUN	Case=Par Derivation=U Number=Sing	1	obl	esitellä	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3
 varten	varten	varten	ADP	AdpType=Post	2	case	lähetekeskustelu	NOUN	Case=Par Derivation=U Number=Sing	1
 esitellään	esitellään	esitellä	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3	root	-	-	-	-
@@ -12,7 +12,7 @@ asia	asia	asia	NOUN	Case=Nom Number=Sing	6	obj	esitellä	VERB	Mood=Ind Tense=Pre
 <g/>
 .	.	.	PUNCT	-	7	punct	esitellä	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg1.2">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg1.2" senti_3="Neutraali" senti_6="neutraali positiivinen" senti_n="2.637">
 Puhemiesneuvosto	Puhemiesneuvosto	puhemiesneuvosto	NOUN	Case=Nom Number=Sing	8	nsubj	ehdottaa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	9
 ehdottaa	ehdottaa	ehdottaa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	9	root	-	-	-	-
 <g/>
@@ -33,7 +33,7 @@ lausunto	lausunto	lausunto	NOUN	Case=Nom Number=Sing	22	obj	antaa	VERB	Case=Nom 
 <g/>
 .	.	.	PUNCT	-	23	punct	ehdottaa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	9
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg1.3">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg1.3" senti_3="Neutraali" senti_6="neutraali negatiivinen" senti_n="2.484">
 Lähetekeskusteluun	Lähetekeskusteluun	lähetekeskustelu	NOUN	Case=Ill Derivation=U Number=Sing	24	obl	varata	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	25
 varataan	varataan	varata	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	25	root	-	-	-	-
 enintään	enintään	enintään	ADV	-	26	advmod	30	NUM	NumType=Card	27
@@ -42,7 +42,7 @@ minuuttia	minuuttia	minuutti	NOUN	Case=Par Number=Sing	28	obj	varata	VERB	Mood=I
 <g/>
 .	.	.	PUNCT	-	29	punct	varata	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	25
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg1.4">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg1.4" senti_3="Neutraali" senti_6="neutraali positiivinen" senti_n="2.790">
 Asian	Asian	asia	NOUN	Case=Gen Number=Sing	30	nmod:gobj	käsittely	NOUN	Case=Ine Derivation=U Number=Sing	31
 käsittelyssä	käsittelyssä	käsittely	NOUN	Case=Ine Derivation=U Number=Sing	31	obl	noudattaa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	32
 noudatetaan	noudatetaan	noudattaa	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	32	root	-	-	-	-
@@ -56,9 +56,9 @@ menettelytapoja	menettelytapoja	menettelytapa	NOUN	Case=Par Number=Plur	37	obj	n
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-FI_2020-02-18-ps-8.u2" text_id="ParlaMint-FI_2020-02-18-ps-8" subcorpus="COVID" lang="suomi" body="Yksikamarisuus" term="Vaalikausi 2019" session="Valtiopäivät 2019" meeting="Täysistunto 8" sitting="2020-02-18" agenda="-" date="2020-02-18" title="Suomen eduskunnan täysistunnon 8/2020 pöytäkirja, 2020-02-18" speaker_role="Tavallinen" speaker_id="AnnaMajaHenriksson" speaker_name="Henriksson, Anna-Maja" speaker_mp="MP" speaker_minister="Minister" speaker_party="RKP" speaker_party_name="Suomen ruotsalainen kansanpuolue" party_status="Coalition" party_orientation="keskusta" speaker_gender="F" speaker_birth="1964">
+<speech id="ParlaMint-FI_2020-02-18-ps-8.u2" text_id="ParlaMint-FI_2020-02-18-ps-8" subcorpus="COVID" lang="suomi" body="Yksikamarisuus" term="Vaalikausi 2019" session="Valtiopäivät 2019" meeting="Täysistunto 8" sitting="2020-02-18" agenda="-" date="2020-02-18" title="Suomen eduskunnan täysistunnon 8/2020 pöytäkirja, 2020-02-18" speaker_role="Tavallinen" topic="Laki ja rikollisuus" speaker_id="AnnaMajaHenriksson" speaker_name="Henriksson, Anna-Maja" speaker_mp="MP" speaker_minister="Minister" speaker_party="RKP" speaker_party_name="Suomen ruotsalainen kansanpuolue" party_status="Coalition" party_orientation="keskusta" speaker_gender="F" speaker_birth="1964">
 <p id="ParlaMint-FI_2020-02-18-ps-8.seg2" lang="suomi">
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg2.1">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg2.1" senti_3="Positiivinen" senti_6="sekamuotoinen positiivinen" senti_n="3.950">
 Arvoisa	Arvoisa	arvoisa	ADJ	Case=Nom Degree=Pos Number=Sing	1	amod	puhemies	NOUN	Case=Nom Number=Sing	2
 puhemies	puhemies	puhemies	NOUN	Case=Nom Number=Sing	2	vocative	värderade	PROPN	Case=Nom Number=Sing	4
 <g/>
@@ -68,7 +68,7 @@ talman	talman	talma	PROPN	Case=Gen Number=Sing	5	flat:name	värderade	PROPN	Case
 <g/>
 !	!	!	PUNCT	-	6	punct	värderade	PROPN	Case=Nom Number=Sing	4
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg2.2">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg2.2" senti_3="Neutraali" senti_6="neutraali positiivinen" senti_n="3.285">
 Vankeuslain	Vankeuslain	vankeuslaki	NOUN	Case=Gen Number=Sing	7	obl	tavoite	NOUN	Case=Ess Number=Sing	11
 mukaan	mukaan	mukaan	ADP	AdpType=Post	8	case	vankeuslaki	NOUN	Case=Gen Number=Sing	7
 vankeuden	vankeuden	vankeus	NOUN	Case=Gen Derivation=Vs Number=Sing	9	nmod:gobj	täytäntöönpano	NOUN	Case=Gen Number=Sing	10
@@ -94,7 +94,7 @@ rangaistusaikana	rangaistusaikana	rangaistusaika	NOUN	Case=Ess Number=Sing	28	nm
 <g/>
 .	.	.	PUNCT	-	29	punct	tavoite	NOUN	Case=Ess Number=Sing	11
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg2.3">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg2.3" senti_3="Positiivinen" senti_6="sekamuotoinen positiivinen" senti_n="3.649">
 Esityksen	Esityksen	esitys	NOUN	Case=Gen Number=Sing	30	nmod:poss	tavoite	NOUN	Case=Ess Number=Sing	31
 tavoitteena	tavoitteena	tavoite	NOUN	Case=Ess Number=Sing	31	root	-	-	-	-
 on	on	olla	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	32	cop	tavoite	NOUN	Case=Ess Number=Sing	31
@@ -122,7 +122,7 @@ estää	estää	estää	VERB	InfForm=1 Number=Sing VerbForm=Inf Voice=Act	52	adv
 <g/>
 .	.	.	PUNCT	-	53	punct	tavoite	NOUN	Case=Ess Number=Sing	31
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg2.4">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg2.4" senti_3="Neutraali" senti_6="neutraali positiivinen" senti_n="3.257">
 Lisäksi	Lisäksi	lisäksi	ADV	-	54	advmod	tavoite	NOUN	Case=Ess Number=Sing	55
 tavoitteena	tavoitteena	tavoite	NOUN	Case=Ess Number=Sing	55	root	-	-	-	-
 on	on	olla	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	56	cop	tavoite	NOUN	Case=Ess Number=Sing	55
@@ -133,7 +133,7 @@ säädöksiä	säädöksiä	säädös	NOUN	Case=Par Number=Plur	60	obj	täsment�
 <g/>
 .	.	.	PUNCT	-	61	punct	tavoite	NOUN	Case=Ess Number=Sing	55
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg2.5">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg2.5" senti_3="Neutraali" senti_6="neutraali positiivinen" senti_n="2.881">
 Esitys	Esitys	esitys	NOUN	Case=Nom Number=Sing	62	obj	valmistella	VERB	Case=Nom Degree=Pos Number=Sing PartForm=Past VerbForm=Part Voice=Pass	64
 on	on	olla	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	63	aux:pass	valmistella	VERB	Case=Nom Degree=Pos Number=Sing PartForm=Past VerbForm=Part Voice=Pass	64
 valmisteltu	valmisteltu	valmistella	VERB	Case=Nom Degree=Pos Number=Sing PartForm=Past VerbForm=Part Voice=Pass	64	root	-	-	-	-
@@ -162,15 +162,15 @@ keskusrikospoliisista	keskusrikospoliisista	keskusrikospoliisi	NOUN	Case=Ela Num
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-FI_2020-02-18-ps-8.u103" text_id="ParlaMint-FI_2020-02-18-ps-8" subcorpus="COVID" lang="suomi" body="Yksikamarisuus" term="Vaalikausi 2019" session="Valtiopäivät 2019" meeting="Täysistunto 8" sitting="2020-02-18" agenda="-" date="2020-02-18" title="Suomen eduskunnan täysistunnon 8/2020 pöytäkirja, 2020-02-18" speaker_role="Tavallinen" speaker_id="VeijoNiemi" speaker_name="Niemi, Veijo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PS" speaker_party_name="Perussuomalaiset" party_status="Opposition" party_orientation="oikeisto - äärioikeisto" speaker_gender="M" speaker_birth="1954">
+<speech id="ParlaMint-FI_2020-02-18-ps-8.u103" text_id="ParlaMint-FI_2020-02-18-ps-8" subcorpus="COVID" lang="suomi" body="Yksikamarisuus" term="Vaalikausi 2019" session="Valtiopäivät 2019" meeting="Täysistunto 8" sitting="2020-02-18" agenda="-" date="2020-02-18" title="Suomen eduskunnan täysistunnon 8/2020 pöytäkirja, 2020-02-18" speaker_role="Tavallinen" topic="Liikenne" speaker_id="VeijoNiemi" speaker_name="Niemi, Veijo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PS" speaker_party_name="Perussuomalaiset" party_status="Opposition" party_orientation="oikeisto - äärioikeisto" speaker_gender="M" speaker_birth="1954">
 <p id="ParlaMint-FI_2020-02-18-ps-8.seg311" lang="suomi">
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg311.1">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg311.1" senti_3="Positiivinen" senti_6="sekamuotoinen positiivinen" senti_n="4.021">
 Arvoisa	Arvoisa	arvoisa	ADJ	Case=Nom Degree=Pos Number=Sing	1	amod	puhemies	NOUN	Case=Nom Number=Sing	2
 puhemies	puhemies	puhemies	NOUN	Case=Nom Number=Sing	2	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	3	punct	puhemies	NOUN	Case=Nom Number=Sing	2
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg311.2">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg311.2" senti_3="Negatiivinen" senti_6="sekamuotoinen negatiivinen" senti_n="1.078">
 Itse	Itse	itse	ADV	-	4	advmod	tietää	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	6
 poliisitaustaisena	poliisitaustaisena	poliisitaustainen	ADJ	Case=Ess Degree=Pos Derivation=Inen Number=Sing	5	obl	tietää	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	6
 tiedän	tiedän	tietää	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	6	root	-	-	-	-
@@ -188,7 +188,7 @@ on	on	olla	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>
 .	.	.	PUNCT	-	17	punct	tietää	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	6
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg311.3">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg311.3" senti_3="Negatiivinen" senti_6="sekamuotoinen negatiivinen" senti_n="0.557">
 Olen	Olen	olla	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	18	aux	allekirjoittaa	VERB	Case=Nom Degree=Pos Number=Sing PartForm=Past VerbForm=Part Voice=Act	22
 sen	sen	se	PRON	Case=Gen Number=Sing PronType=Dem	19	obj	allekirjoittaa	VERB	Case=Nom Degree=Pos Number=Sing PartForm=Past VerbForm=Part Voice=Act	22
 kyllä	kyllä	kyllä	ADV	-	20	advmod	allekirjoittaa	VERB	Case=Nom Degree=Pos Number=Sing PartForm=Past VerbForm=Part Voice=Act	22
@@ -220,7 +220,7 @@ osalta	osalta	osa	NOUN	Case=Abl Number=Sing	41	obl	kouluttaa	VERB	Mood=Ind Numbe
 </s>
 </p>
 <p id="ParlaMint-FI_2020-02-18-ps-8.seg312" lang="suomi">
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg312.4">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg312.4" senti_3="Neutraali" senti_6="neutraali negatiivinen" senti_n="2.458">
 Poliisihan	Poliisihan	poliisiha	NOUN	Case=Gen Number=Sing	43	nsubj	kirjoittaa	VERB	InfForm=1 Number=Sing VerbForm=Inf Voice=Act	47
 voi	voi	voida	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	44	aux	kirjoittaa	VERB	InfForm=1 Number=Sing VerbForm=Inf Voice=Act	47
 yleisellä	yleisellä	yleinen	ADJ	Case=Ade Degree=Pos Derivation=Inen Number=Sing	45	amod	alue	NOUN	Case=Ade Number=Sing	46
@@ -230,7 +230,7 @@ pysäköintivirhemaksun	pysäköintivirhemaksun	pysäköintivirhemaksu	NOUN	Case
 <g/>
 .	.	.	PUNCT	-	49	punct	kirjoittaa	VERB	InfForm=1 Number=Sing VerbForm=Inf Voice=Act	47
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg312.5">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg312.5" senti_3="Neutraali" senti_6="neutraali negatiivinen" senti_n="2.424">
 Kunnallinen	Kunnallinen	kunnallinen	ADJ	Case=Nom Degree=Pos Derivation=Llinen Number=Sing	50	amod	pysäköintivalvo	NOUN	Case=Par Number=Plur	51
 pysäköintivalvoja	pysäköintivalvoja	pysäköintivalvo	NOUN	Case=Par Number=Plur	51	nsubj	kirjoittaa	VERB	InfForm=1 Number=Sing VerbForm=Inf Voice=Act	55
 voi	voi	voida	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	52	aux	kirjoittaa	VERB	InfForm=1 Number=Sing VerbForm=Inf Voice=Act	55
@@ -241,7 +241,7 @@ pysäköintimaksun	pysäköintimaksun	pysäköintimaksu	NOUN	Case=Gen Derivation
 <g/>
 .	.	.	PUNCT	-	57	punct	kirjoittaa	VERB	InfForm=1 Number=Sing VerbForm=Inf Voice=Act	55
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg312.6">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg312.6" senti_3="Negatiivinen" senti_6="negatiivinen" senti_n="0.058">
 Esimerkiksi	Esimerkiksi	esimerkiksi	ADV	-	58	advmod	Tampere	PROPN	Case=Ade Clitic=Kin Number=Sing	59
 <name type="LOC">
 Tampereellahan	Tampereellahan	Tampere	PROPN	Case=Ade Clitic=Kin Number=Sing	59	obl	tehdä	VERB	Case=Nom Degree=Pos Number=Sing PartForm=Past VerbForm=Part Voice=Act	66
@@ -278,7 +278,7 @@ pysäköintivalvonnan	pysäköintivalvonnan	pysäköintivalvonta	NOUN	Case=Gen N
 <g/>
 .	.	.	PUNCT	-	86	punct	tehdä	VERB	Case=Nom Degree=Pos Number=Sing PartForm=Past VerbForm=Part Voice=Act	66
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg312.7">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg312.7" senti_3="Negatiivinen" senti_6="negatiivinen" senti_n="0.266">
 Se	Se	se	PRON	Case=Nom Number=Sing PronType=Dem	87	nsubj:cop	ok	ADJ	Case=Nom Degree=Pos Number=Sing	90
 on	on	olla	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	88	cop	ok	ADJ	Case=Nom Degree=Pos Number=Sing	90
 ihan	ihan	ihan	ADV	-	89	advmod	ok	ADJ	Case=Nom Degree=Pos Number=Sing	90
@@ -345,7 +345,7 @@ peruttua	peruttua	perua	VERB	Case=Par Degree=Pos Number=Sing PartForm=Past VerbF
 <g/>
 .	.	.	PUNCT	-	143	punct	ok	ADJ	Case=Nom Degree=Pos Number=Sing	90
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg312.8">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg312.8" senti_3="Negatiivinen" senti_6="sekamuotoinen negatiivinen" senti_n="1.491">
 Siinä	Siinä	se	PRON	Case=Ine Number=Sing PronType=Dem	144	det	mieli	NOUN	Case=Ine Number=Sing	145
 mielessä	mielessä	mieli	NOUN	Case=Ine Number=Sing	145	obl	vaatia	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	157
 <g/>
@@ -383,18 +383,18 @@ pysäköintifirmoissa	pysäköintifirmoissa	pysäköintifirma	NOUN	Case=Ine Numb
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-FI_2020-02-18-ps-8.u104" text_id="ParlaMint-FI_2020-02-18-ps-8" subcorpus="COVID" lang="suomi" body="Yksikamarisuus" term="Vaalikausi 2019" session="Valtiopäivät 2019" meeting="Täysistunto 8" sitting="2020-02-18" agenda="-" date="2020-02-18" title="Suomen eduskunnan täysistunnon 8/2020 pöytäkirja, 2020-02-18" speaker_role="Tavallinen" speaker_id="KimmoKiljunen" speaker_name="Kiljunen, Kimmo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDP" speaker_party_name="Suomen Sosialidemokraattinen Puolue" party_status="Coalition" party_orientation="keskusta-vasemmisto" speaker_gender="M" speaker_birth="1951">
+<speech id="ParlaMint-FI_2020-02-18-ps-8.u104" text_id="ParlaMint-FI_2020-02-18-ps-8" subcorpus="COVID" lang="suomi" body="Yksikamarisuus" term="Vaalikausi 2019" session="Valtiopäivät 2019" meeting="Täysistunto 8" sitting="2020-02-18" agenda="-" date="2020-02-18" title="Suomen eduskunnan täysistunnon 8/2020 pöytäkirja, 2020-02-18" speaker_role="Tavallinen" topic="Laki ja rikollisuus" speaker_id="KimmoKiljunen" speaker_name="Kiljunen, Kimmo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDP" speaker_party_name="Suomen Sosialidemokraattinen Puolue" party_status="Coalition" party_orientation="keskusta-vasemmisto" speaker_gender="M" speaker_birth="1951">
 <p id="ParlaMint-FI_2020-02-18-ps-8.seg313" lang="suomi">
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.1">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.1" senti_3="Positiivinen" senti_6="sekamuotoinen positiivinen" senti_n="4.021">
 Arvoisa	Arvoisa	arvoisa	ADJ	Case=Nom Degree=Pos Number=Sing	1	amod	puhemies	NOUN	Case=Nom Number=Sing	2
 puhemies	puhemies	puhemies	NOUN	Case=Nom Number=Sing	2	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	3	punct	puhemies	NOUN	Case=Nom Number=Sing	2
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.2">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.2" senti_3="Neutraali" senti_6="neutraali positiivinen" senti_n="3.088">
 Edustaja	Edustaja	edustaja	NOUN	Case=Nom Derivation=Ja Number=Sing	4	root	-	-	-	-
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.3">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.3" senti_3="Positiivinen" senti_6="sekamuotoinen positiivinen" senti_n="3.798">
 Niemi	Niemi	Niemi	PROPN	Case=Nom Number=Sing	5	nsubj	nostaa	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	6
 nosti	nosti	nostaa	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	6	root	-	-	-	-
 vielä	vielä	vielä	ADV	-	7	advmod	nostaa	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	6
@@ -408,7 +408,7 @@ kouluttamisen	kouluttamisen	kouluttaminen	NOUN	Case=Gen Derivation=Minen Number=
 <g/>
 .	.	.	PUNCT	-	14	punct	nostaa	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	6
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.4">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.4" senti_3="Neutraali" senti_6="neutraali positiivinen" senti_n="3.410">
 Lisäisin	Lisäisin	lisätä	VERB	Mood=Cnd Number=Sing Person=1 VerbForm=Fin Voice=Act	15	root	-	-	-	-
 siihen	siihen	se	PRON	Case=Ill Number=Sing PronType=Dem	16	obl	lisätä	VERB	Mood=Cnd Number=Sing Person=1 VerbForm=Fin Voice=Act	15
 sen	sen	se	PRON	Case=Gen Number=Sing PronType=Dem	17	nmod:poss	sääntö	NOUN	Case=Nom Number=Plur	19
@@ -441,7 +441,7 @@ tilannetajua	tilannetajua	tilannetaju	NOUN	Case=Par Derivation=U Number=Sing	39	
 <g/>
 .	.	.	PUNCT	-	40	punct	lisätä	VERB	Mood=Cnd Number=Sing Person=1 VerbForm=Fin Voice=Act	15
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.5">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.5" senti_3="Negatiivinen" senti_6="negatiivinen" senti_n="0.285">
 Otin	Otin	ottaa	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	41	root	-	-	-	-
 tuossa	tuossa	tuo	PRON	Case=Ine Number=Sing PronType=Dem	42	det	esimerkki	NOUN	Case=Ine Number=Sing	44
 omassa	omassa	oma	ADJ	Case=Ine Degree=Pos Number=Sing	43	amod	esimerkki	NOUN	Case=Ine Number=Sing	44
@@ -487,7 +487,7 @@ ajan	ajan	aika	NOUN	Case=Gen Number=Sing	77	obl	saada	VERB	Mood=Ind Number=Plur 
 <g/>
 .	.	.	PUNCT	-	78	punct	ottaa	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	41
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.6">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.6" senti_3="Neutraali" senti_6="neutraali positiivinen" senti_n="3.017">
 Rouva	Rouva	rouva	NOUN	Case=Nom Number=Sing	79	compound:nn	Susanne	PROPN	Case=Nom Number=Sing	80
 Susanne	Susanne	Susanne	PROPN	Case=Nom Number=Sing	80	nsubj	kirjoittaa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	81
 kirjoittaa	kirjoittaa	kirjoittaa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	81	root	-	-	-	-
@@ -507,7 +507,7 @@ kirjoittaa	kirjoittaa	kirjoittaa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres V
 <g/>
 .	.	.	PUNCT	-	92	punct	kirjoittaa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	81
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.7">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.7" senti_3="Negatiivinen" senti_6="negatiivinen" senti_n="0.113">
 Onhan	Onhan	olla	AUX	Clitic=Han Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	93	cop	tilanne	NOUN	Case=Nom Number=Sing	97
 tämä	tämä	tämä	PRON	Case=Nom Number=Sing PronType=Dem	94	nsubj:cop	tilanne	NOUN	Case=Nom Number=Sing	97
 nyt	nyt	nyt	ADV	-	95	advmod	tilanne	NOUN	Case=Nom Number=Sing	97
@@ -521,7 +521,7 @@ joudutaan	joudutaan	joutua	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	101	c
 Juha-Pekkojen	Juha-Pekkojen	JuhaPekko	NOUN	Case=Gen Number=Plur	102	obl	joutua	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	101
 ja	ja	ja	CCONJ	-	103	advmod	tilanne	NOUN	Case=Nom Number=Sing	97
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.8">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.8" senti_3="Neutraali" senti_6="neutraali negatiivinen" senti_n="2.071">
 Susannien	Susannien	susanti	NOUN	Case=Gen Number=Plur	104	obl	käydä	VERB	Case=Ill InfForm=3 Number=Sing VerbForm=Inf Voice=Act	106
 kanssa	kanssa	kanssa	ADP	AdpType=Post	105	case	susanti	NOUN	Case=Gen Number=Plur	104
 käymään	käymään	käydä	VERB	Case=Ill InfForm=3 Number=Sing VerbForm=Inf Voice=Act	106	root	-	-	-	-
@@ -541,7 +541,7 @@ ei	ei	ei	VERB	Number=Sing Person=3 Polarity=Neg VerbForm=Fin Voice=Act	118	conj	
 <g/>
 .	.	.	PUNCT	-	119	punct	käydä	VERB	Case=Ill InfForm=3 Number=Sing VerbForm=Inf Voice=Act	106
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.9">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg313.9" senti_3="Neutraali" senti_6="neutraali positiivinen" senti_n="2.522">
 Eli	Eli	eli	CCONJ	-	120	cc	kuulua	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin Voice=Act	123
 tämä	tämä	tämä	PRON	Case=Nom Number=Sing PronType=Dem	121	nsubj	kuulua	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin Voice=Act	123
 nyt	nyt	nyt	ADV	-	122	advmod	kuulua	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin Voice=Act	123
@@ -573,12 +573,12 @@ takana	takana	takana	ADP	AdpType=Post	142	case	nimimerkki	NOUN	Case=Gen Number=P
 </s>
 </p>
 <p id="ParlaMint-FI_2020-02-18-ps-8.seg314" lang="suomi">
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.10">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.10" senti_3="Neutraali" senti_6="neutraali negatiivinen" senti_n="2.215">
 Puhemies	Puhemies	puhemies	NOUN	Case=Nom Number=Sing	144	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	145	punct	puhemies	NOUN	Case=Nom Number=Sing	144
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.11">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.11" senti_3="Positiivinen" senti_6="sekamuotoinen positiivinen" senti_n="4.239">
 Halusin	Halusin	haluta	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	146	root	-	-	-	-
 tässä	tässä	tämä	PRON	Case=Ine Number=Sing PronType=Dem	147	obl	käyttää	VERB	InfForm=1 Number=Sing VerbForm=Inf Voice=Act	148
 käyttää	käyttää	käyttää	VERB	InfForm=1 Number=Sing VerbForm=Inf Voice=Act	148	xcomp	haluta	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	146
@@ -609,7 +609,7 @@ kaikkia	kaikkia	kaikki	PRON	Case=Par Number=Plur PronType=Ind	170	obj	kiittää	
 <g/>
 .	.	.	PUNCT	-	171	punct	haluta	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	146
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.12">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.12" senti_3="Positiivinen" senti_6="positiivinen" senti_n="5.310">
 Keskustelu	Keskustelu	keskustelu	NOUN	Case=Nom Derivation=U Number=Sing	172	nsubj:cop	hyvä	ADJ	Case=Nom Degree=Pos Number=Sing	176
 on	on	olla	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	173	aux	hyvä	ADJ	Case=Nom Degree=Pos Number=Sing	176
 ollut	ollut	olla	AUX	Case=Nom Degree=Pos Number=Sing PartForm=Past VerbForm=Part Voice=Act	174	cop	hyvä	ADJ	Case=Nom Degree=Pos Number=Sing	176
@@ -618,7 +618,7 @@ hyvä	hyvä	hyvä	ADJ	Case=Nom Degree=Pos Number=Sing	176	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	177	punct	hyvä	ADJ	Case=Nom Degree=Pos Number=Sing	176
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.13">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.13" senti_3="Positiivinen" senti_6="positiivinen" senti_n="4.546">
 Saimme	Saimme	saada	VERB	Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin Voice=Act	178	root	-	-	-	-
 yhteisymmärryksen	yhteisymmärryksen	yhteisymmärrys	NOUN	Case=Gen Number=Sing	179	obj	saada	VERB	Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin Voice=Act	178
 tähän	tähän	tämä	PRON	Case=Ill Number=Sing PronType=Dem	180	obl	saada	VERB	Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin Voice=Act	178
@@ -626,7 +626,7 @@ taakse	taakse	taakse	ADP	AdpType=Post	181	case	tämä	PRON	Case=Ill Number=Sing 
 <g/>
 .	.	.	PUNCT	-	182	punct	saada	VERB	Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin Voice=Act	178
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.14">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.14" senti_3="Neutraali" senti_6="neutraali negatiivinen" senti_n="2.364">
 Toivon	Toivon	toivoa	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	183	root	-	-	-	-
 vakavasti	vakavasti	vakavasti	ADV	Derivation=Sti	184	advmod	toivoa	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	183
 sitä	sitä	se	PRON	Case=Par Number=Sing PronType=Dem	185	obj	toivoa	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	183
@@ -640,7 +640,7 @@ käsittelyyn	käsittelyyn	käsittely	NOUN	Case=Ill Derivation=U Number=Sing	191	
 <g/>
 .	.	.	PUNCT	-	192	punct	toivoa	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	183
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.15">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.15" senti_3="Negatiivinen" senti_6="sekamuotoinen negatiivinen" senti_n="0.597">
 Siinä	Siinä	se	PRON	Case=Ine Number=Sing PronType=Dem	193	root	-	-	-	-
 on	on	olla	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	194	cop	se	PRON	Case=Ine Number=Sing PronType=Dem	193
 meillä	meillä	minä	PRON	Case=Ade Number=Plur Person=1 PronType=Prs	195	det	oikeudentunto	NOUN	Case=Ine Number=Sing	197
@@ -684,7 +684,7 @@ eteenpäin	eteenpäin	eteenpäin	ADV	-	228	advmod	viedä	VERB	InfForm=1 Number=S
 <g/>
 .	.	.	PUNCT	-	229	punct	se	PRON	Case=Ine Number=Sing PronType=Dem	193
 </s>
-<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.16">
+<s id="ParlaMint-FI_2020-02-18-ps-8.seg314.16" senti_3="Positiivinen" senti_6="sekamuotoinen positiivinen" senti_n="4.297">
 Kiitos	Kiitos	kiitos	NOUN	Case=Nom Number=Sing	230	root	-	-	-	-
 ennen	ennen	ennen	ADP	AdpType=Prep	231	case	kaikki	PRON	Case=Par Number=Sing PronType=Ind	232
 kaikkea	kaikkea	kaikki	PRON	Case=Par Number=Sing PronType=Ind	232	nmod	kiitos	NOUN	Case=Nom Number=Sing	230

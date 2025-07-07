@@ -20,12 +20,20 @@
                <resp xml:lang="fr">Encodage du corpus selon ParlaMint TEI XML</resp>
                <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName>The CLARIN research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="18" xml:lang="en">18 speeches</measure>
@@ -35,12 +43,12 @@
          </extent>
          <publicationStmt>
             <publisher>CLARIN research infrastructure</publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="fr">This work is licensed under the terms of the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -83,8 +91,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
          <change when="2022-12-26">
             <name>Giancarlo Luxardo</name>: ParlaMint II update, vs 3.0.</change>
       </revisionDesc>
@@ -94,7 +104,7 @@
          <div xml:id="ParlaMint-FR_2022-06-28-O1169.d1_1" n="1" type="debateSection">
             <head xml:id="ParlaMint-FR_2022-06-28-O1169.head1">Ouverture de la XVIᵉ législature</head>
             <note type="debate" xml:id="ParlaMint-FR_2022-06-28-O1169.note1">TITRE_TEXTE_DISCUSSION</note>
-            <u who="#PA606171" xml:id="ParlaMint-FR_2022-06-28-O1169.u1" ana="#guest">
+            <u who="#PA606171" xml:id="ParlaMint-FR_2022-06-28-O1169.u1" ana="#guest topic:other">
                <seg xml:id="ParlaMint-FR_2022-06-28-O1169.u1.1">Je déclare ouverte la XVIᵉ législature de l’Assemblée nationale.</seg>
             </u>
             <gap reason="editorial">
@@ -104,7 +114,7 @@
          <div xml:id="ParlaMint-FR_2022-06-28-O1169.d1_2" n="2" type="debateSection">
             <head xml:id="ParlaMint-FR_2022-06-28-O1169.head2">Constitution du bureau d’âge</head>
             <note type="debate" xml:id="ParlaMint-FR_2022-06-28-O1169.note2">TITRE_TEXTE_DISCUSSION</note>
-            <u who="#PA606171" xml:id="ParlaMint-FR_2022-06-28-O1169.u2" ana="#guest">
+            <u who="#PA606171" xml:id="ParlaMint-FR_2022-06-28-O1169.u2" ana="#guest topic:other">
                <seg xml:id="ParlaMint-FR_2022-06-28-O1169.u2.1">Aux termes de l’article 1ᵉʳ du règlement, les six plus jeunes députés présents sont appelés à remplir les fonctions de secrétaires jusqu’à l’élection du bureau.</seg>
                <seg xml:id="ParlaMint-FR_2022-06-28-O1169.u2.2">Ce sont MM. Tematai Le Gayic, Louis Boyard, Pierrick Berteloot, Bryan Masson, Damien Maudet et Charles Rodwell.</seg>
                <seg xml:id="ParlaMint-FR_2022-06-28-O1169.u2.3">Le bureau d’âge de l’Assemblée est ainsi constitué.</seg>
@@ -114,7 +124,7 @@
             </gap>
          </div>
          <div xml:id="ParlaMint-FR_2022-06-28-O1169.d1_9" n="17" type="debateSection">
-            <u who="#PA721908" xml:id="ParlaMint-FR_2022-06-28-O1169.u17" ana="#regular">
+            <u who="#PA721908" xml:id="ParlaMint-FR_2022-06-28-O1169.u17" ana="#regular topic:civil">
                <seg xml:id="ParlaMint-FR_2022-06-28-O1169.u17.1">Mes chers collègues, personne n’est entré dans cet hémicycle sans émotion, sans ressentir l’histoire dont ces murs sont empreints, l’histoire de la République, qui s’est forgée en ce lieu à nul autre pareil.</seg>
                <seg xml:id="ParlaMint-FR_2022-06-28-O1169.u17.2">Des voix fortes résonnent dans ces travées. Ce sont les voix de ceux à qui nous devons de vivre dans un pays libre, qui eut l’ambition, jadis, de livrer au monde un message dont vous êtes aujourd’hui les garants : « Les hommes naissent et demeurent libres et égaux en droits. »<kinesic type="applause" xml:id="ParlaMint-FR_2022-06-28-O1169.kinesic7">
                      <desc xml:lang="fr">Applaudissements</desc>
@@ -186,7 +196,7 @@
          <div xml:id="ParlaMint-FR_2022-06-28-O1169.d1_10" n="18" type="debateSection">
             <head xml:id="ParlaMint-FR_2022-06-28-O1169.head8">Ordre du jour de la prochaine séance</head>
             <note type="debate" xml:id="ParlaMint-FR_2022-06-28-O1169.note8">FIN_SEAN_1_2</note>
-            <u who="#PA606171" xml:id="ParlaMint-FR_2022-06-28-O1169.u18" ana="#guest">
+            <u who="#PA606171" xml:id="ParlaMint-FR_2022-06-28-O1169.u18" ana="#guest topic:other">
                <seg xml:id="ParlaMint-FR_2022-06-28-O1169.u18.1">Prochaine séance, demain, à quinze heures :</seg>
                <seg xml:id="ParlaMint-FR_2022-06-28-O1169.u18.2">Nomination, éventuellement par scrutin, des six vice-présidents, des trois questeurs, des douze secrétaires ;</seg>
                <seg xml:id="ParlaMint-FR_2022-06-28-O1169.u18.3">Installation du bureau.</seg>

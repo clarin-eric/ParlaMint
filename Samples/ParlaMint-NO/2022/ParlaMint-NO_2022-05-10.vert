@@ -21,9 +21,9 @@
 <note type="comment" content="Er regjeringa einig i dette målet, og kva planar har regjeringa lagt for å hindre at landet må gjennom nye nedstengingar framover?»"/>
 <note type="comment" content="9. Referat"/>
 <note type="speaker" content="Presidenten:"/>
-<speech id="ParlaMint-NO_2022-05-10.ud496e62" text_id="ParlaMint-NO_2022-05-10" subcorpus="COVID,War" lang="Norsk bokmål" body="Unicameralism" term="Term 2021-2025" session="Session 2021-2022" meeting="-" sitting="Sitting day 2022-05-10" agenda="-" date="2022-05-10" title="Referat fra møte i Stortinget, Stortingsperiode 2021-2025, sesjon 2021-2022, møtedag 2022-05-10" speaker_role="Chairperson" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1982">
+<speech id="ParlaMint-NO_2022-05-10.ud496e62" text_id="ParlaMint-NO_2022-05-10" subcorpus="COVID,War" lang="Norsk bokmål" body="Unicameralism" term="Term 2021-2025" session="Session 2021-2022" meeting="-" sitting="Sitting day 2022-05-10" agenda="-" date="2022-05-10" title="Referat fra møte i Stortinget, Stortingsperiode 2021-2025, sesjon 2021-2022, møtedag 2022-05-10" speaker_role="Chairperson" topic="Other" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1982">
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e63" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e63.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e63.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.896">
 Representantene	Representantene	representant	NOUN	Definite=Def Gender=Masc Number=Plur	1	nmod	Eigil	PROPN	Gender=Masc	2
 <name type="PER">
 Eigil	Eigil	Eigil	PROPN	Gender=Masc	2	nsubj	ta	VERB	VerbForm=Part	20
@@ -59,7 +59,7 @@ sete	sete	sete	NOUN	Definite=Ind Gender=Neut Number=Sing	21	obj	ta	VERB	VerbForm
 </s>
 </p>
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e79" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e79.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e79.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.704">
 Den	Den	den	DET	Gender=Masc Number=Sing PronType=Dem	1	det	vararepresentant	NOUN	Definite=Def Gender=Masc Number=Sing	3
 innkalte	innkalte	innkale	ADJ	Definite=Def Number=Sing VerbForm=Part	2	amod	vararepresentant	NOUN	Definite=Def Gender=Masc Number=Sing	3
 vararepresentanten	vararepresentanten	vararepresentant	NOUN	Definite=Def Gender=Masc Number=Sing	3	nmod	Sigbjørn	NOUN	Gender=Masc	7
@@ -82,7 +82,7 @@ sete	sete	sete	NOUN	Definite=Ind Gender=Neut Number=Sing	12	obj	ta	VERB	Mood=Ind
 </s>
 </p>
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e84" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e84.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e84.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.284">
 Fra	Fra	fra	ADP	-	1	case	stortingsgruppe	NOUN	Definite=Ind Gender=Fem Number=Sing	3
 <name type="ORG">
 Arbeiderpartiets	Arbeiderpartiets	Arbeiderpartiet	PROPN	Case=Gen	2	nmod	stortingsgruppe	NOUN	Definite=Ind Gender=Fem Number=Sing	3
@@ -134,7 +134,7 @@ Nederland	Nederland	Nederland	PROPN	-	36	nmod	Haag	PROPN	-	34
 </s>
 </p>
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e89" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e89.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e89.1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.048">
 Etter	Etter	etter	ADP	-	1	case	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 forslag	forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	2	obl	beslutte	VERB	VerbForm=Part	7
 fra	fra	fra	ADP	-	3	case	president	NOUN	Definite=Def Gender=Masc Number=Sing	4
@@ -147,7 +147,7 @@ besluttet	besluttet	beslutte	VERB	VerbForm=Part	7	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e93" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e93.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e93.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.914">
 Denne	Denne	denne	DET	Gender=Masc Number=Sing PronType=Dem	1	det	søknad	NOUN	Definite=Def Gender=Masc Number=Sing	2
 søknaden	søknaden	søknad	NOUN	Definite=Def Gender=Masc Number=Sing	2	nsubj:pass	behandle	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3
 behandles	behandles	behandle	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3	root	-	-	-	-
@@ -159,7 +159,7 @@ innvilges	innvilges	innvilge	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	6	
 </s>
 </p>
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e96" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e96.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e96.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.640">
 Vararepresentanten	Vararepresentanten	vararepresentant	NOUN	Definite=Def Gender=Masc Number=Sing	1	nmod	Anita	PROPN	Gender=Fem	3
 <g/>
 ,	,	,	PUNCT	-	2	punct	vararepresentant	NOUN	Definite=Def Gender=Masc Number=Sing	1
@@ -190,9 +190,9 @@ mai	mai	mai	NOUN	Gender=Masc	17	appos	dag	NOUN	Definite=Def Gender=Masc Number=P
 <note type="comment" content="Statsråd Jon-Ivar Nygård"/>
 <note type="comment" content="overbrakte 1 kgl. proposisjon (se under Referat)."/>
 <note type="speaker" content="Presidenten:"/>
-<speech id="ParlaMint-NO_2022-05-10.ud496e107" text_id="ParlaMint-NO_2022-05-10" subcorpus="COVID,War" lang="Norsk nynorsk" body="Unicameralism" term="Term 2021-2025" session="Session 2021-2022" meeting="-" sitting="Sitting day 2022-05-10" agenda="-" date="2022-05-10" title="Referat fra møte i Stortinget, Stortingsperiode 2021-2025, sesjon 2021-2022, møtedag 2022-05-10" speaker_role="Chairperson" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1982">
+<speech id="ParlaMint-NO_2022-05-10.ud496e107" text_id="ParlaMint-NO_2022-05-10" subcorpus="COVID,War" lang="Norsk nynorsk" body="Unicameralism" term="Term 2021-2025" session="Session 2021-2022" meeting="-" sitting="Sitting day 2022-05-10" agenda="-" date="2022-05-10" title="Referat fra møte i Stortinget, Stortingsperiode 2021-2025, sesjon 2021-2022, møtedag 2022-05-10" speaker_role="Chairperson" topic="Other" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1982">
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e108" lang="Norsk nynorsk">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e108.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e108.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.605">
 Representanten	Representanten	representant	NOUN	Definite=Def Gender=Masc Number=Sing	1	nmod	Torgeir	PROPN	Gender=Masc	2
 <name type="PER">
 Torgeir	Torgeir	Torgeir	PROPN	Gender=Masc	2	nsubj	framsette	VERB	VerbForm=Inf	6
@@ -209,9 +209,9 @@ representantforslag	representantforslag	representantforslag	NOUN	Definite=Ind Ge
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-NO_2022-05-10.ud496e2502" text_id="ParlaMint-NO_2022-05-10" subcorpus="COVID,War" lang="Norsk bokmål" body="Unicameralism" term="Term 2021-2025" session="Session 2021-2022" meeting="-" sitting="Sitting day 2022-05-10" agenda="-" date="2022-05-10" title="Referat fra møte i Stortinget, Stortingsperiode 2021-2025, sesjon 2021-2022, møtedag 2022-05-10" speaker_role="Chairperson" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1982">
+<speech id="ParlaMint-NO_2022-05-10.ud496e2502" text_id="ParlaMint-NO_2022-05-10" subcorpus="COVID,War" lang="Norsk bokmål" body="Unicameralism" term="Term 2021-2025" session="Session 2021-2022" meeting="-" sitting="Sitting day 2022-05-10" agenda="-" date="2022-05-10" title="Referat fra møte i Stortinget, Stortingsperiode 2021-2025, sesjon 2021-2022, møtedag 2022-05-10" speaker_role="Chairperson" topic="Social Welfare" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1982">
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e2503" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e2503.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e2503.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.378">
 Under	Under	under	ADP	-	1	case	debatt	NOUN	Definite=Def Gender=Masc Number=Sing	2
 debatten	debatten	debatt	NOUN	Definite=Def Gender=Masc Number=Sing	2	obl	sette	VERB	VerbForm=Part	6
 har	har	ha	AUX	Mood=Ind Tense=Pres VerbForm=Fin	3	aux	sette	VERB	VerbForm=Part	6
@@ -232,7 +232,7 @@ Rødt	Rødt	Rødt	PROPN	-	13	nmod	vegne	NOUN	-	11
 </name>
 .	.	.	PUNCT	-	14	punct	sette	VERB	VerbForm=Part	6
 </s>
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e2503.2">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e2503.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.502">
 Forslaget	Forslaget	forslag	NOUN	Definite=Def Gender=Neut Number=Sing	1	nsubj	lyde	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2
 lyder	lyder	lyde	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 <g/>
@@ -240,7 +240,7 @@ lyder	lyder	lyde	VERB	Mood=Ind Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e2508" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e2508.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e2508.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.275">
 «	«	«	PUNCT	-	1	punct	be	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3
 <g/>
 <name type="ORG">
@@ -298,7 +298,7 @@ etterbetaling	etterbetaling	etterbetaling	NOUN	Definite=Ind Gender=Masc Number=S
 </s>
 </p>
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e2510" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e2510.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e2510.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.419">
 Det	Det	det	PRON	Gender=Neut Number=Sing Person=3 PronType=Prs	1	expl	votere	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	2
 voteres	voteres	votere	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	2	root	-	-	-	-
 alternativt	alternativt	alternativ	ADJ	Definite=Ind Degree=Pos Gender=Neut Number=Sing	3	advmod	votere	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	2
@@ -313,7 +313,7 @@ innstilling	innstilling	innstilling	NOUN	Definite=Ind Gender=Fem Number=Sing	9	c
 </s>
 </p>
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e2512" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e2512.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e2512.1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.797">
 Komiteen	Komiteen	komité	NOUN	Definite=Def Gender=Masc Number=Sing	1	nsubj	innstille	VERB	VerbForm=Part	3
 hadde	hadde	ha	AUX	Mood=Ind Tense=Past VerbForm=Fin	2	aux	innstille	VERB	VerbForm=Part	3
 innstilt	innstilt	innstille	VERB	VerbForm=Part	3	root	-	-	-	-
@@ -344,9 +344,9 @@ følgende	følgende	følgende	ADJ	Definite=Ind Degree=Pos Gender=Neut Number=Sin
 <note type="comment" content="3. (476) Representantforslag fra stortingsrepresentantene Torgeir Knag Fylkesnes og Kathy Lie om et nasjonalt løft for kreative næringer (Dokument 8:244 S (2021–2022))"/>
 <note type="comment" content="Enst.: Sendes næringskomiteen."/>
 <note type="speaker" content="Presidenten:"/>
-<speech id="ParlaMint-NO_2022-05-10.ud496e2557" text_id="ParlaMint-NO_2022-05-10" subcorpus="COVID,War" lang="Norsk bokmål" body="Unicameralism" term="Term 2021-2025" session="Session 2021-2022" meeting="-" sitting="Sitting day 2022-05-10" agenda="-" date="2022-05-10" title="Referat fra møte i Stortinget, Stortingsperiode 2021-2025, sesjon 2021-2022, møtedag 2022-05-10" speaker_role="Chairperson" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1982">
+<speech id="ParlaMint-NO_2022-05-10.ud496e2557" text_id="ParlaMint-NO_2022-05-10" subcorpus="COVID,War" lang="Norsk bokmål" body="Unicameralism" term="Term 2021-2025" session="Session 2021-2022" meeting="-" sitting="Sitting day 2022-05-10" agenda="-" date="2022-05-10" title="Referat fra møte i Stortinget, Stortingsperiode 2021-2025, sesjon 2021-2022, møtedag 2022-05-10" speaker_role="Chairperson" topic="Other" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="notMinister" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1982">
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e2558" lang="Norsk bokmål">
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e2558.1">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e2558.1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.039">
 Dermed	Dermed	dermed	ADV	-	1	advmod	ferdigbehandle	VERB	VerbForm=Part	5
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin	2	aux	ferdigbehandle	VERB	VerbForm=Part	5
 dagens	dagens	dag	NOUN	Case=Gen Definite=Def Gender=Masc Number=Sing	3	nmod	kart	NOUN	Definite=Ind Gender=Neut Number=Sing	4
@@ -355,7 +355,7 @@ ferdigbehandlet	ferdigbehandlet	ferdigbehandle	VERB	VerbForm=Part	5	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	6	punct	ferdigbehandle	VERB	VerbForm=Part	5
 </s>
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e2558.2">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e2558.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.441">
 Forlanger	Forlanger	forlange	VERB	Mood=Ind Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 noen	noen	noen	PRON	Gender=Fem,Masc Number=Sing Person=3 PronType=Ind,Prs	2	nsubj	forlange	VERB	Mood=Ind Tense=Pres VerbForm=Fin	1
 ordet	ordet	ord	NOUN	Definite=Def Gender=Neut Number=Sing	3	obj	forlange	VERB	Mood=Ind Tense=Pres VerbForm=Fin	1
@@ -365,7 +365,7 @@ heves	heves	heve	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	6	advcl	forlan
 <g/>
 ?	?	?	PUNCT	-	7	punct	forlange	VERB	Mood=Ind Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-NO_2022-05-10.ana.segd496e2558.3">
+<s id="ParlaMint-NO_2022-05-10.ana.segd496e2558.3" senti_3="Neutral" senti_6="neutral postive" senti_n="3.018">
 –	–	–	PUNCT	-	1	punct	heve	VERB	VerbForm=Part	4
 Møtet	Møtet	møte	NOUN	Definite=Def Gender=Neut Number=Sing	2	nsubj	heve	VERB	VerbForm=Part	4
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin	3	aux	heve	VERB	VerbForm=Part	4

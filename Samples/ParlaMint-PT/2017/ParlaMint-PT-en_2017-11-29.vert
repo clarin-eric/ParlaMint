@@ -1,6 +1,6 @@
-<speech id="ParlaMint-PT_2017-11-29.u1" text_id="ParlaMint-PT-en_2017-11-29" subcorpus="Reference" lang="English" body="Unicameralism" term="Série I - XIII Legislatura" session="Sessão 3" meeting="Número 22" sitting="29.11.2017" agenda="-" date="2017-11-29" title="Minutes of the Assembly of the Portuguese Republic, Session 3, Number 22" speaker_role="Chairperson" speaker_id="EduardoLuísBarretoFerroRodrigues" speaker_name="Luís Barreto Ferro Rodrigues, Eduardo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1949">
+<speech id="ParlaMint-PT_2017-11-29.u1" text_id="ParlaMint-PT-en_2017-11-29" subcorpus="Reference" lang="English" body="Unicameralism" term="Série I - XIII Legislatura" session="Sessão 3" meeting="Número 22" sitting="29.11.2017" agenda="-" date="2017-11-29" title="Minutes of the Assembly of the Portuguese Republic, Session 3, Number 22" speaker_role="Chairperson" topic="Public Lands" speaker_id="EduardoLuísBarretoFerroRodrigues" speaker_name="Luís Barreto Ferro Rodrigues, Eduardo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1949">
 <p id="ParlaMint-PT_2017-11-29.seg1" lang="English">
-<s id="ParlaMint-PT_2017-11-29.seg1.s">
+<s id="ParlaMint-PT_2017-11-29.seg1.s" senti_3="Positive" senti_6="mixed positive" senti_n="3.894">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -62,7 +62,7 @@ session	session	session	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t34
 </p>
 <note type="time" content="It was 15 hours and 6 minutes."/>
 <p id="ParlaMint-PT_2017-11-29.seg2" lang="English">
-<s id="ParlaMint-PT_2017-11-29.seg2.s">
+<s id="ParlaMint-PT_2017-11-29.seg2.s" senti_3="Neutral" senti_6="neutral positive" senti_n="3.230">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 gentlemen	gentlemen	gentleman	NOUN	Number=Plur	S2.2m	S2.2	S2.2: People: Male	t2
 <g/>
@@ -80,7 +80,7 @@ please	please	please	INTJ	-	E4.2+,E2+,X7+	E4.2p	E4.2+: Content	t10
 </s>
 </p>
 <p id="ParlaMint-PT_2017-11-29.seg3" lang="English">
-<s id="ParlaMint-PT_2017-11-29.seg3.s">
+<s id="ParlaMint-PT_2017-11-29.seg3.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.533">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 first	first	first	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t2
 item	item	item	NOUN	Number=Sing	O2,Q4,X4.1	O2	O2: Objects generally	t3
@@ -1415,7 +1415,7 @@ NAP	NAP	nap	NOUN	Number=Sing	B1	B1	B1: Anatomy and physiology	t1122
 </s>
 </p>
 <p id="ParlaMint-PT_2017-11-29.seg4" lang="English">
-<s id="ParlaMint-PT_2017-11-29.seg4.s">
+<s id="ParlaMint-PT_2017-11-29.seg4.s" senti_3="Positive" senti_6="mixed positive" senti_n="3.777">
 To	To	to	PART	-	Z5	Z5	Z5: Grammatical bin	t1
 present	present	present	VERB	VerbForm=Inf	A9-,A2.2,Q2.2,S1.1.3+,Q4.3,O4.1,K4	A9n	A9-: Giving	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -1466,9 +1466,9 @@ everyone	everyone	everyone	PRON	Number=Sing	Z8/N5.1+c	Z8 N5.1p	Z8: Pronouns|N5.1
 </p>
 <note type="kinesic:applause" content="General applause and laughter."/>
 </speech>
-<speech id="ParlaMint-PT_2017-11-29.u2" text_id="ParlaMint-PT-en_2017-11-29" subcorpus="Reference" lang="English" body="Unicameralism" term="Série I - XIII Legislatura" session="Sessão 3" meeting="Número 22" sitting="29.11.2017" agenda="-" date="2017-11-29" title="Minutes of the Assembly of the Portuguese Republic, Session 3, Number 22" speaker_role="Regular" speaker_id="FernandoMimosoNegrão" speaker_name="Mimoso Negrão, Fernando" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PSD" speaker_party_name="Grupo Parlamentar do Partido Social Democrata" party_status="Opposition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-PT_2017-11-29.u2" text_id="ParlaMint-PT-en_2017-11-29" subcorpus="Reference" lang="English" body="Unicameralism" term="Série I - XIII Legislatura" session="Sessão 3" meeting="Número 22" sitting="29.11.2017" agenda="-" date="2017-11-29" title="Minutes of the Assembly of the Portuguese Republic, Session 3, Number 22" speaker_role="Regular" topic="Law and Crime" speaker_id="FernandoMimosoNegrão" speaker_name="Mimoso Negrão, Fernando" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PSD" speaker_party_name="Grupo Parlamentar do Partido Social Democrata" party_status="Opposition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-PT_2017-11-29.seg5" lang="English">
-<s id="ParlaMint-PT_2017-11-29.seg5.s">
+<s id="ParlaMint-PT_2017-11-29.seg5.s" senti_3="Positive" senti_6="positive" senti_n="4.551">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr.	Mr.	Mr.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -1509,7 +1509,7 @@ much	much	much	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t21
 </s>
 </p>
 <p id="ParlaMint-PT_2017-11-29.seg6" lang="English">
-<s id="ParlaMint-PT_2017-11-29.seg6.s">
+<s id="ParlaMint-PT_2017-11-29.seg6.s" senti_3="Neutral" senti_6="neutral negative" senti_n="2.139">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="ORG">
 PSD	PSD	PSD	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t2
@@ -1590,7 +1590,7 @@ suffer	suffer	suffer	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	
 </s>
 </p>
 <p id="ParlaMint-PT_2017-11-29.seg7" lang="English">
-<s id="ParlaMint-PT_2017-11-29.seg7.s">
+<s id="ParlaMint-PT_2017-11-29.seg7.s" senti_3="Neutral" senti_6="neutral negative" senti_n="1.840">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="MISC">
 Portuguese	Portuguese	Portuguese	ADJ	Degree=Pos	Z2,Z2/Q3,Z2/S2mfnc	Z2	Z2: Geographical names	t2
@@ -1650,9 +1650,9 @@ itself	itself	itself	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-PT_2017-11-29.u157" text_id="ParlaMint-PT-en_2017-11-29" subcorpus="Reference" lang="English" body="Unicameralism" term="Série I - XIII Legislatura" session="Sessão 3" meeting="Número 22" sitting="29.11.2017" agenda="-" date="2017-11-29" title="Minutes of the Assembly of the Portuguese Republic, Session 3, Number 22" speaker_role="Regular" speaker_id="DuarteRogérioMatosVenturaPacheco" speaker_name="Rogério Matos Ventura Pacheco, Duarte" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PSD" speaker_party_name="Grupo Parlamentar do Partido Social Democrata" party_status="Opposition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1965">
+<speech id="ParlaMint-PT_2017-11-29.u157" text_id="ParlaMint-PT-en_2017-11-29" subcorpus="Reference" lang="English" body="Unicameralism" term="Série I - XIII Legislatura" session="Sessão 3" meeting="Número 22" sitting="29.11.2017" agenda="-" date="2017-11-29" title="Minutes of the Assembly of the Portuguese Republic, Session 3, Number 22" speaker_role="Regular" topic="Law and Crime" speaker_id="DuarteRogérioMatosVenturaPacheco" speaker_name="Rogério Matos Ventura Pacheco, Duarte" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PSD" speaker_party_name="Grupo Parlamentar do Partido Social Democrata" party_status="Opposition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1965">
 <p id="ParlaMint-PT_2017-11-29.seg676" lang="English">
-<s id="ParlaMint-PT_2017-11-29.seg676.s">
+<s id="ParlaMint-PT_2017-11-29.seg676.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.833">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr.	Mr.	Mr.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -1860,7 +1860,7 @@ Commission	Commission	commission	NOUN	Number=Sing	I2.2,G3/S7.1+	I2.2	I2.2: Busin
 </s>
 </p>
 <p id="ParlaMint-PT_2017-11-29.seg677" lang="English">
-<s id="ParlaMint-PT_2017-11-29.seg677.s">
+<s id="ParlaMint-PT_2017-11-29.seg677.s" senti_3="Positive" senti_6="mixed positive" senti_n="3.526">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -1876,9 +1876,9 @@ President	President	President	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PT_2017-11-29.u158" text_id="ParlaMint-PT-en_2017-11-29" subcorpus="Reference" lang="English" body="Unicameralism" term="Série I - XIII Legislatura" session="Sessão 3" meeting="Número 22" sitting="29.11.2017" agenda="-" date="2017-11-29" title="Minutes of the Assembly of the Portuguese Republic, Session 3, Number 22" speaker_role="Chairperson" speaker_id="EduardoLuísBarretoFerroRodrigues" speaker_name="Luís Barreto Ferro Rodrigues, Eduardo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1949">
+<speech id="ParlaMint-PT_2017-11-29.u158" text_id="ParlaMint-PT-en_2017-11-29" subcorpus="Reference" lang="English" body="Unicameralism" term="Série I - XIII Legislatura" session="Sessão 3" meeting="Número 22" sitting="29.11.2017" agenda="-" date="2017-11-29" title="Minutes of the Assembly of the Portuguese Republic, Session 3, Number 22" speaker_role="Chairperson" topic="International Affairs" speaker_id="EduardoLuísBarretoFerroRodrigues" speaker_name="Luís Barreto Ferro Rodrigues, Eduardo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-PS" speaker_party_name="Grupo Parlamentar do Partido Socialista" party_status="Coalition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1949">
 <p id="ParlaMint-PT_2017-11-29.seg678" lang="English">
-<s id="ParlaMint-PT_2017-11-29.seg678.s">
+<s id="ParlaMint-PT_2017-11-29.seg678.s" senti_3="Neutral" senti_6="neutral positive" senti_n="3.134">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -2025,7 +2025,7 @@ Process	Process	process	PROPN	Number=Sing	Z3c	Z3	Z3: Other proper names	t102
 </s>
 </p>
 <p id="ParlaMint-PT_2017-11-29.seg679" lang="English">
-<s id="ParlaMint-PT_2017-11-29.seg679.s">
+<s id="ParlaMint-PT_2017-11-29.seg679.s" senti_3="Neutral" senti_6="neutral negative" senti_n="2.242">
 Finally	Finally	finally	ADV	-	N4	N4	N4: Linear order	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -2263,7 +2263,7 @@ Greens	Greens	Greens	PROPN	Number=Plur	O4.3,M7,G1.1/W5,K5.1/M7,F1	O4.3	O4.3: Col
 </s>
 </p>
 <p id="ParlaMint-PT_2017-11-29.seg680" lang="English">
-<s id="ParlaMint-PT_2017-11-29.seg680.s">
+<s id="ParlaMint-PT_2017-11-29.seg680.s" senti_3="Neutral" senti_6="neutral positive" senti_n="3.244">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t1
 say	say	say	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t2
@@ -2298,7 +2298,7 @@ Hall	Hall	Hall	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t22
 </s>
 </p>
 <p id="ParlaMint-PT_2017-11-29.seg681" lang="English">
-<s id="ParlaMint-PT_2017-11-29.seg681.s">
+<s id="ParlaMint-PT_2017-11-29.seg681.s" senti_3="Neutral" senti_6="neutral positive" senti_n="2.901">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 session	session	session	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3

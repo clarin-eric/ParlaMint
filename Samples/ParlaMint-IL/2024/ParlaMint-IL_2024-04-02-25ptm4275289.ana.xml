@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="he" ana="#parla.meeting #covid #war" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.ana">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Israeli parliamentary corpus ParlaMint-IL, 2024-04-02 25ptm4275289 [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="he">Israeli קורפוס הכנסת, הקורפוס הפרלמנטרי הישראלי ParlaMint-IL, 2024-04-02 25ptm4275289 [ParlaMint.ana SAMPLE]</title>
+            <title type="sub" xml:lang="he">25_ptm_4275289.doc: ישיבת מליאה, 2024-04-02 00:00</title>
+            <title type="sub" xml:lang="en">25_ptm_4275289.doc: Plenary, 2024-04-02 00:00</title>
+            <meeting ana="#parla.term #parla.uni #period_25" n="25" corresp="#ParlaMint-IL-KNESS">הכנסת ה-25</meeting>
+            <meeting ana="#parla.meeting #parla.uni" n="166" corresp="#ParlaMint-IL-KNESS">ישיבה מס' 166</meeting>
+            <meeting ana="#parla.sitting #parla.uni" n="2024-04-02" corresp="#ParlaMint-IL-KNESS">2024-04-02</meeting>
+            <respStmt>
+               <persName xml:lang="en">Gili Goldin</persName>
+               <persName xml:lang="he">גילי גולדין</persName>
+               <resp xml:lang="en">Responsible for compiling the corpus and encoding it in ParlaMint TEI format.</resp>
+               <resp xml:lang="he">אחראית על הכנת הקורפוס וקידודו בפורמט TEI של פרלמינט.</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:lang="en" ref="https://clg.haifa.ac.il/">Shuly Wintner</persName>
+               <persName xml:lang="he" ref="https://clg.haifa.ac.il/">שולי וינטנר</persName>
+               <resp xml:lang="en">Project supervisor.</resp>
+               <resp xml:lang="he">מנחה הפרויקט.</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">Ministry of Science and Technology of Israel</orgName>
+               <orgName xml:lang="he">משרד המדע והטכנולוגיה של ישראל</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" xml:lang="en" quantity="416">416 speeches</measure>
+            <measure unit="speeches" xml:lang="he" quantity="416">416 נאומים</measure>
+            <measure unit="words" xml:lang="en" quantity="14550">14,550 words</measure>
+            <measure unit="words" xml:lang="he" quantity="14550">14,550 מילים</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="he">מעבדת CLG, אוניברסיטת חיפה</orgName>
+               <orgName xml:lang="en">CLG lab, University of Haifa</orgName>
+               <ref target="https://clg.haifa.ac.il/">https://clg.haifa.ac.il/</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2032</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="he">העבודה מופצת תחת <ref target="http://creativecommons.org/licenses/by/4.0/">רישיון CC BY 4.0</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2025-06-07">2025-06-07</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="he">פרוטוקולים של הכנסת</title>
+               <title type="main" xml:lang="en">Knesset Protocols</title>
+               <idno type="URI" subtype="parliament">https://www.knesset.gov.il</idno>
+               <date when="2025-04-27">27.04.2025</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="he">הקורפוס הוא חלק מפרויקט ParlaMint, שמטרתו לספק סט רב לשוני של קורפוסים פרלמנטריים.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="13"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="13"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="link" occurs="22161"/>
+               <tagUsage gi="linkGrp" occurs="1233"/>
+               <tagUsage gi="name" occurs="906"/>
+               <tagUsage gi="pc" occurs="2284"/>
+               <tagUsage gi="s" occurs="1233"/>
+               <tagUsage gi="seg" occurs="416"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="416"/>
+               <tagUsage gi="w" occurs="24811"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city" xml:lang="he">ירושלים</name>
+               <name type="city" xml:lang="en">Jerusalem</name>
+               <name type="country" key="IL" xml:lang="en">Israel</name>
+               <name type="country" key="IL" xml:lang="he">ישראל</name>
+               <date ana="#parla.meeting" when="2024-04-02">2024-04-02</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-06-07">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change xml:lang="en" when="2025-04-27">Initial conversion to TEI format.</change>
+         <change xml:lang="he" when="2025-04-27">המרה ראשונה לפורמט TEI</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid #war">
+      <body>
+         <div type="debateSection" xml:id="session.25_ptm_4275289_doc-1">
+            <head type="sessionName" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.ana.head1">ישיבת מליאה</head>
+            <u xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0" who="#person.30300" ana="#chair">
+               <seg xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0">
+                  <s xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0">
+<w lemma="חברה" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Fem|Number=Plur" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t1">חברות</w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t2-3">וחברי<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t2" norm="ו" lemma="ו" pos="X" msd="UPosTag=CCONJ"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t3" norm="חברי" lemma="חבר" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Plur"/></w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t4-5" join="right">הכנסת<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t4" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t5" norm="כנסת" lemma="כנסת" pos="PROPN" msd="UPosTag=PROPN"/></w>
+                     </name>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t6" msd="UPosTag=PUNCT">,</pc>
+<w lemma="הוא" pos="PRON" msd="UPosTag=PRON|Gender=Masc|Number=Sing|Person=1|PronType=Prs" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t7">אני</w>
+<w lemma="התכבד" pos="VERB" msd="UPosTag=VERB|Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Mid" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t8">מתכבד</w>
+<w lemma="פתח" pos="VERB" msd="UPosTag=VERB|HebBinyan=PAAL|VerbForm=Inf|Voice=Act" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t9">לפתוח</w>
+<w lemma="את" pos="ADP" msd="UPosTag=ADP|Case=Acc" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t10">את</w>
+<w lemma="ישיבה" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Fem|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t11">ישיבת</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t12-13">הכנסת<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t12" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t13" norm="כנסת" lemma="כנסת" pos="PROPN" msd="UPosTag=PROPN"/></w>
+                     </name>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:vocative" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t8 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t1"/>
+<link ana="ud-syn:cc" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t3 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t2"/>
+<link ana="ud-syn:conj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t1 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t3"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t5 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t4"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t1 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t5"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t1 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t6"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t8 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t7"/>
+<link ana="ud-syn:root" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t8"/>
+<link ana="ud-syn:xcomp" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t8 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t9"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t11 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t10"/>
+<link ana="ud-syn:obj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t9 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t11"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t13 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t12"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t11 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s0.t13"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1">
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t1-2">היום<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t1" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t2" norm="יום" lemma="יום" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing"/></w>
+                     <name type="MISC">
+<w lemma="יום" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t3">יום</w>
+<w lemma="שלישי" pos="PROPN" msd="UPosTag=PROPN" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t4">שלישי</w>
+<w lemma="כ&#34;ג" pos="NUM" msd="UPosTag=NUM" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t5">כ"ג</w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t6-7">באדר<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t6" norm="ב" lemma="ב" pos="ADP" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t7" norm="אדר" lemma="אדר" pos="PROPN" msd="UPosTag=PROPN"/></w>
+<w lemma="ב'" pos="NUM" msd="UPosTag=NUM" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t8">ב'</w>
+                     </name>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t9-10" join="right">התשפ"ד<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t9" norm="ה" lemma="ה" pos="NUM" msd="UPosTag=NUM|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t10" norm="תשפ&#34;ד" lemma="תשפ&#34;ד" pos="NUM" msd="UPosTag=NUM"/></w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t11" msd="UPosTag=PUNCT">,</pc>
+                     <name type="MISC">
+<w lemma="2" pos="NUM" msd="UPosTag=NUM" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t12">2</w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t13-14">באפריל<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t13" norm="ב" lemma="ב" pos="ADP" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t14" norm="אפריל" lemma="אפריל" pos="PROPN" msd="UPosTag=PROPN"/></w>
+<w lemma="2024" pos="NUM" msd="UPosTag=NUM" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t15">2024</w>
+                     </name>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t2 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t1"/>
+<link ana="ud-syn:root" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t2"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t2 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t3"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t3 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t4"/>
+<link ana="ud-syn:appos" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t3 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t5"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t7 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t6"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t5 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t7"/>
+<link ana="ud-syn:flat" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t5 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t8"/>
+<link ana="ud-syn:compound_affix" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t10 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t9"/>
+<link ana="ud-syn:nmod_tmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t5 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t10"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t12 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t11"/>
+<link ana="ud-syn:appos" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t3 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t12"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t14 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t13"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t12 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t14"/>
+<link ana="ud-syn:nmod_tmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t12 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s1.t15"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s2">
+<w lemma="הודעה" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s2.t1">הודעה</w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s2.t2-3">למזכיר<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s2.t2" norm="ל" lemma="ל" pos="ADP" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s2.t3" norm="מזכיר" lemma="מזכיר" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing"/></w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s2.t4-5">הכנסת<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s2.t4" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s2.t5" norm="כנסת" lemma="כנסת" pos="PROPN" msd="UPosTag=PROPN"/></w>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s2 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s2.t1"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s2.t3 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s2.t2"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s2.t1 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s2.t3"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s2.t5 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s2.t4"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s2.t3 #ParlaMint-IL_2024-04-02-25ptm4275289.u0.p0.s2.t5"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <u xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1" ana="#guest">
+               <seg xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0">
+                  <s xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0">
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t1-2">ברשות<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t1" norm="ב" lemma="ב" pos="ADP" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t2" norm="רשות" lemma="רשות" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Fem|Number=Sing"/></w>
+<w lemma="יושב" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t3" join="right">יושב</w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t4" msd="UPosTag=PUNCT" join="right">-</pc>
+                     <name type="MISC">
+<w lemma="ראש" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t5">ראש</w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t6-7" join="right">הכנסת<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t6" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t7" norm="כנסת" lemma="כנסת" pos="PROPN" msd="UPosTag=PROPN"/></w>
+                     </name>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t8" msd="UPosTag=PUNCT">,</pc>
+<w lemma="הוא" pos="PRON" msd="UPosTag=PRON|Gender=Masc|Number=Sing|Person=1|PronType=Prs" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t9">אני</w>
+<w lemma="התכבד" pos="VERB" msd="UPosTag=VERB|Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Mid" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t10">מתכבד</w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t11-12" join="right">להודיעכם<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t11" norm="ל" lemma="ל" pos="ADP" msd="UPosTag=ADP|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t12" norm="הודיעכם" lemma="הודיעכם" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing"/></w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t13" msd="UPosTag=PUNCT">,</pc>
+<w lemma="כי" pos="X" msd="UPosTag=X" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t14">כי</w>
+<w lemma="הונחה" pos="VERB" msd="UPosTag=VERB|Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t15">הונחה</w>
+<w lemma="היום" pos="ADV" msd="UPosTag=ADV" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t16">היום</w>
+<w lemma="על" pos="ADP" msd="UPosTag=ADP" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t17">על</w>
+<w lemma="שולחן" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t18">שולחן</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t19-20">הכנסת<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t19" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t20" norm="כנסת" lemma="כנסת" pos="PROPN" msd="UPosTag=PROPN"/></w>
+                     </name>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t21" msd="UPosTag=PUNCT">–</pc>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t22-23">לקריאה<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t22" norm="ל" lemma="ל" pos="ADP" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t23" norm="קריאה" lemma="קריאה" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing"/></w>
+<w lemma="ראשון" pos="ADJ" msd="UPosTag=ADJ|Gender=Fem|Number=Sing|NumType=Ord" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t24" join="right">ראשונה</w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t25" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t26-27">מטעם<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t26" norm="מ" lemma="מ" pos="ADP" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t27" norm="טעם" lemma="טעם" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing"/></w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t28-29" join="right">הממשלה<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t28" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t29" norm="ממשלה" lemma="ממשלה" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing"/></w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t30" msd="UPosTag=PUNCT">:</pc>
+<w lemma="הצעה" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Fem|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t31">הצעת</w>
+<w lemma="חוק" pos="PROPN" msd="UPosTag=PROPN|Definite=Cons|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t32">חוק</w>
+<w lemma="התקנה" pos="PROPN" msd="UPosTag=PROPN|Definite=Cons|Gender=Fem|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t33">התקנת</w>
+<w lemma="מצלמה" pos="PROPN" msd="UPosTag=PROPN|Gender=Fem|Number=Plur" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t34">מצלמות</w>
+<w lemma="לשם" pos="ADP" msd="UPosTag=ADP" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t35">לשם</w>
+<w lemma="הגנה" pos="PROPN" msd="UPosTag=PROPN|Gender=Fem|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t36">הגנה</w>
+<w lemma="על" pos="ADP" msd="UPosTag=ADP" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t37">על</w>
+<w lemma="פעוט" pos="PROPN" msd="UPosTag=PROPN|Gender=Masc|Number=Plur" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t38">פעוטות</w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t39-40">במעונות<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t39" norm="ב" lemma="ב" pos="ADP" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t40" norm="מעונות" lemma="מעון" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Plur"/></w>
+<w lemma="יום" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t41">יום</w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t42-43">לפעוטות<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t42" norm="ל" lemma="ל" pos="ADP" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t43" norm="פעוטות" lemma="פעוט" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Plur"/></w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t44" msd="UPosTag=PUNCT">(</pc>
+<w lemma="תיקון" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t45" join="right">תיקון</w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t46" msd="UPosTag=PUNCT">)</pc>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t47" msd="UPosTag=PUNCT">,</pc>
+<w lemma="התשפ&#34;ד" pos="NUM" msd="UPosTag=NUM" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t48">התשפ"ד</w>
+<w lemma="2024" pos="NUM" msd="UPosTag=NUM" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t49">–2024</w>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t2 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t1"/>
+<link ana="ud-syn:obl" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t10 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t2"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t2 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t3"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t5 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t4"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t3 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t5"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t7 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t6"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t3 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t7"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t2 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t8"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t10 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t9"/>
+<link ana="ud-syn:root" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t10"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t12 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t11"/>
+<link ana="ud-syn:obl" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t10 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t12"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t15 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t13"/>
+<link ana="ud-syn:mark" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t15 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t14"/>
+<link ana="ud-syn:advcl" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t10 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t15"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t15 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t16"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t18 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t17"/>
+<link ana="ud-syn:obl" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t15 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t18"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t20 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t19"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t18 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t20"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t23 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t21"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t23 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t22"/>
+<link ana="ud-syn:obl" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t15 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t23"/>
+<link ana="ud-syn:amod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t23 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t24"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t27 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t25"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t27 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t26"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t23 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t27"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t29 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t28"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t27 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t29"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t31 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t30"/>
+<link ana="ud-syn:parataxis" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t15 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t31"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t31 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t32"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t32 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t33"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t33 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t34"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t36 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t35"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t33 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t36"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t38 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t37"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t36 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t38"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t40 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t39"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t36 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t40"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t40 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t41"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t43 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t42"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t36 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t43"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t45 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t44"/>
+<link ana="ud-syn:parataxis" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t31 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t45"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t45 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t46"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t48 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t47"/>
+<link ana="ud-syn:nmod_tmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t31 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t48"/>
+<link ana="ud-syn:nmod_tmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t48 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s0.t49"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1">
+<w lemma="עוד" pos="ADV" msd="UPosTag=ADV" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t1">עוד</w>
+<w lemma="הונח" pos="VERB" msd="UPosTag=VERB|Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t2">הונח</w>
+<w lemma="על" pos="ADP" msd="UPosTag=ADP" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t3">על</w>
+<w lemma="שולחן" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t4">שולחן</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t5-6">הכנסת<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t5" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t6" norm="כנסת" lemma="כנסת" pos="PROPN" msd="UPosTag=PROPN"/></w>
+                     </name>
+<w lemma="דוח" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t7">דוח</w>
+<w lemma="מיוחד" pos="ADJ" msd="UPosTag=ADJ|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t8">מיוחד</w>
+<w lemma="של" pos="ADP" msd="UPosTag=ADP|Case=Gen" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t9">של</w>
+                     <name type="MISC">
+<w lemma="מבקר" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t10">מבקר</w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t11-12">המדינה<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t11" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t12" norm="מדינה" lemma="מדינה" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing"/></w>
+                     </name>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t13-14" join="right">בנושא<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t13" norm="ב" lemma="ב" pos="ADP" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t14" norm="נושא" lemma="נושא" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing"/></w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t15" msd="UPosTag=PUNCT">:</pc>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t16-17">הבינוי<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t16" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t17" norm="בינוי" lemma="בינוי" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing"/></w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t18-20">והמיגון<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t18" norm="ו" lemma="ו" pos="X" msd="UPosTag=CCONJ"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t19" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t20" norm="מיגון" lemma="מיגון" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing"/></w>
+<w lemma="של" pos="ADP" msd="UPosTag=ADP|Case=Gen" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t21">של</w>
+<w lemma="מעון" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Plur" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t22">מעונות</w>
+<w lemma="ראש" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Plur" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t23">ראשי</w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t24-25">הממשלה<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t24" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t25" norm="ממשלה" lemma="ממשלה" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing"/></w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t26-27">ושל<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t26" norm="ו" lemma="ו" pos="X" msd="UPosTag=CCONJ"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t27" norm="של" lemma="של" pos="ADP" msd="UPosTag=ADP|Case=Gen"/></w>
+                     <name type="ORG">
+<w lemma="משרד" pos="PROPN" msd="UPosTag=PROPN|Definite=Cons" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t28">משרד</w>
+<w lemma="ראש" pos="PROPN" msd="UPosTag=PROPN|Definite=Cons" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t29">ראש</w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t30-31">הממשלה<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t30" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t31" norm="ממשלה" lemma="ממשלה" pos="PROPN" msd="UPosTag=PROPN"/></w>
+                     </name>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:advmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t2 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t1"/>
+<link ana="ud-syn:root" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t2"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t4 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t3"/>
+<link ana="ud-syn:obl" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t2 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t4"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t6 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t5"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t4 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t6"/>
+<link ana="ud-syn:nsubj_pass" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t2 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t7"/>
+<link ana="ud-syn:amod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t7 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t8"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t10 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t9"/>
+<link ana="ud-syn:nmod_poss" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t7 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t10"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t12 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t11"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t10 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t12"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t14 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t13"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t7 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t14"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t17 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t15"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t17 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t16"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t14 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t17"/>
+<link ana="ud-syn:cc" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t20 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t18"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t20 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t19"/>
+<link ana="ud-syn:conj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t17 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t20"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t22 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t21"/>
+<link ana="ud-syn:nmod_poss" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t17 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t22"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t22 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t23"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t25 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t24"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t23 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t25"/>
+<link ana="ud-syn:cc" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t28 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t26"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t28 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t27"/>
+<link ana="ud-syn:conj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t22 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t28"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t28 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t29"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t31 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t30"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t29 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s1.t31"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2">
+<w lemma="נוסף" pos="ADP" msd="UPosTag=ADP" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t1">נוסף</w>
+<w lemma="על" pos="ADP" msd="UPosTag=ADP" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t2">על</w>
+<w lemma="כך" pos="PRON" msd="UPosTag=PRON|PronType=Dem" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t3">כך</w>
+<w lemma="הונח" pos="VERB" msd="UPosTag=VERB|Gender=Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t4">הונחו</w>
+<w lemma="על" pos="ADP" msd="UPosTag=ADP" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t5">על</w>
+<w lemma="שולחן" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t6">שולחן</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t7-8">הכנסת<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t7" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t8" norm="כנסת" lemma="כנסת" pos="PROPN" msd="UPosTag=PROPN"/></w>
+                     </name>
+<w lemma="מסקנה" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Fem|Number=Plur" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t9">מסקנות</w>
+                     <name type="ORG">
+<w lemma="ועדה" pos="PROPN" msd="UPosTag=PROPN|Definite=Cons" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t10">ועדת</w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t11-12">הכלכלה<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t11" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t12" norm="כלכלה" lemma="כלכלה" pos="PROPN" msd="UPosTag=PROPN"/></w>
+                     </name>
+<w lemma="בעקבות" pos="ADP" msd="UPosTag=ADP" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t13">בעקבות</w>
+<w lemma="דיון" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t14">דיון</w>
+<w lemma="מהיר" pos="ADJ" msd="UPosTag=ADJ|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t15">מהיר</w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t16-18">בהצעתם<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t16" norm="ב" lemma="ב" pos="ADP" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t17" norm="הצעת" lemma="הצעה" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t18" norm="ם" lemma="הוא" pos="PRON" msd="UPosTag=PRON|Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs"/></w>
+<w lemma="של" pos="ADP" msd="UPosTag=ADP|Case=Gen" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t19">של</w>
+<w lemma="חבר" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Plur" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t20">חברי</w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t21-22">הכנסת<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t21" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t22" norm="כנסת" lemma="כנסת" pos="PROPN" msd="UPosTag=PROPN"/></w>
+<w lemma="עופר" pos="PROPN" msd="UPosTag=PROPN" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t23">עופר</w>
+<w lemma="כסיף" pos="PROPN" msd="UPosTag=PROPN" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t24" join="right">כסיף</w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t25" msd="UPosTag=PUNCT">,</pc>
+<w lemma="אברהם" pos="PROPN" msd="UPosTag=PROPN" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t26">אברהם</w>
+<w lemma="בצלאל" pos="PROPN" msd="UPosTag=PROPN" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t27" join="right">בצלאל</w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t28" msd="UPosTag=PUNCT">,</pc>
+                     <name type="PER">
+<w lemma="משה" pos="PROPN" msd="UPosTag=PROPN" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t29">משה</w>
+                     </name>
+<w lemma="פסל" pos="PROPN" msd="UPosTag=PROPN" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t30" join="right">פסל</w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t31" msd="UPosTag=PUNCT">,</pc>
+<w lemma="משה" pos="PROPN" msd="UPosTag=PROPN" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t32">משה</w>
+                     <name type="PER">
+<w lemma="סולומון" pos="PROPN" msd="UPosTag=PROPN" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t33">סולומון</w>
+                     </name>
+                     <name type="PER">
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t34-35">ומאיר<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t34" norm="ו" lemma="ו" pos="X" msd="UPosTag=CCONJ"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t35" norm="מאיר" lemma="מאיר" pos="PROPN" msd="UPosTag=PROPN"/></w>
+<w lemma="כהן" pos="PROPN" msd="UPosTag=PROPN" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t36">כהן</w>
+                     </name>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t37-38" join="right">בנושא<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t37" norm="ב" lemma="ב" pos="ADP" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t38" norm="נושא" lemma="נושא" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing"/></w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t39" msd="UPosTag=PUNCT">:</pc>
+<w lemma="סכנה" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t40">סכנה</w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t41-42">לפיטורים<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t41" norm="ל" lemma="ל" pos="ADP" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t42" norm="פיטורים" lemma="פיטורין" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Plur"/></w>
+<w lemma="המוני" pos="ADJ" msd="UPosTag=ADJ|Gender=Masc|Number=Plur" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t43">המוניים</w>
+                     <name type="LOC">
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t44-45">בנמל<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t44" norm="ב" lemma="ב" pos="ADP" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t45" norm="נמל" lemma="נמל" pos="PROPN" msd="UPosTag=PROPN|Definite=Cons|Gender=Masc|Number=Sing"/></w>
+<w lemma="אילת" pos="PROPN" msd="UPosTag=PROPN" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t46">אילת</w>
+                     </name>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:advmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t4 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t1"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t3 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t2"/>
+<link ana="ud-syn:obl" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t1 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t3"/>
+<link ana="ud-syn:root" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t4"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t6 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t5"/>
+<link ana="ud-syn:obl" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t4 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t6"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t8 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t7"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t6 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t8"/>
+<link ana="ud-syn:nsubj_pass" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t4 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t9"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t9 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t10"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t12 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t11"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t10 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t12"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t14 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t13"/>
+<link ana="ud-syn:obl" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t4 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t14"/>
+<link ana="ud-syn:amod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t14 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t15"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t17 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t16"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t14 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t17"/>
+<link ana="ud-syn:nmod_poss" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t17 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t18"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t20 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t19"/>
+<link ana="ud-syn:nmod_poss" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t17 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t20"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t22 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t21"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t20 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t22"/>
+<link ana="ud-syn:appos" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t20 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t23"/>
+<link ana="ud-syn:flat" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t23 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t24"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t26 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t25"/>
+<link ana="ud-syn:conj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t23 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t26"/>
+<link ana="ud-syn:flat" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t26 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t27"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t29 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t28"/>
+<link ana="ud-syn:conj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t23 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t29"/>
+<link ana="ud-syn:flat" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t29 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t30"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t32 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t31"/>
+<link ana="ud-syn:conj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t23 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t32"/>
+<link ana="ud-syn:flat" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t32 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t33"/>
+<link ana="ud-syn:cc" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t35 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t34"/>
+<link ana="ud-syn:conj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t23 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t35"/>
+<link ana="ud-syn:flat" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t35 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t36"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t38 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t37"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t17 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t38"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t40 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t39"/>
+<link ana="ud-syn:appos" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t38 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t40"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t42 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t41"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t40 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t42"/>
+<link ana="ud-syn:amod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t42 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t43"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t45 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t44"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t42 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t45"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t45 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s2.t46"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s3">
+<w lemma="תודה" pos="X" msd="UPosTag=X" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s3.t1">תודה</w>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s3 #ParlaMint-IL_2024-04-02-25ptm4275289.u1.p0.s3.t1"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u414" who="#person.30777" ana="#regular">
+               <seg xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u414.p0">
+                  <s xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u414.p0.s0">
+<w lemma="נמנע" pos="ADJ" msd="UPosTag=ADJ|Gender=Masc|Number=Plur" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u414.p0.s0.t1">נמנעים</w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u414.p0.s0.t2" msd="UPosTag=PUNCT">–</pc>
+<w lemma="אין" pos="VERB" msd="UPosTag=VERB|Polarity=Neg" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u414.p0.s0.t3">אין</w>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u414.p0.s0 #ParlaMint-IL_2024-04-02-25ptm4275289.u414.p0.s0.t1"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u414.p0.s0.t1 #ParlaMint-IL_2024-04-02-25ptm4275289.u414.p0.s0.t2"/>
+<link ana="ud-syn:parataxis" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u414.p0.s0.t1 #ParlaMint-IL_2024-04-02-25ptm4275289.u414.p0.s0.t3"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <u xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415" who="#person.30777" ana="#regular">
+               <seg xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0">
+                  <s xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0">
+<w lemma="בעד" pos="ADP" msd="UPosTag=ADP" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t1">בעד</w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t2" msd="UPosTag=PUNCT">–</pc>
+<w lemma="חמש" pos="NUM" msd="UPosTag=NUM|Gender=Masc" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t3" join="right">חמישה</w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t4" msd="UPosTag=PUNCT">,</pc>
+<w lemma="אין" pos="VERB" msd="UPosTag=VERB|Polarity=Neg" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t5">אין</w>
+<w lemma="נגד" pos="ADP" msd="UPosTag=ADP" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t6" join="right">נגד</w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t7" msd="UPosTag=PUNCT">,</pc>
+<w lemma="אין" pos="VERB" msd="UPosTag=VERB|Polarity=Neg" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t8">אין</w>
+<w lemma="נמנע" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Plur" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t9">נמנעים</w>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:root" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t1"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t3 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t2"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t1 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t3"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t5 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t4"/>
+<link ana="ud-syn:conj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t1 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t5"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t5 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t6"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t8 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t7"/>
+<link ana="ud-syn:conj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t1 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t8"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t8 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s0.t9"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1">
+<w lemma="הוא" pos="PRON" msd="UPosTag=PRON|Gender=Masc|Number=Sing|Person=1|PronType=Prs" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t1">אני</w>
+<w lemma="קבע" pos="VERB" msd="UPosTag=VERB|Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t2">קובע</w>
+<w lemma="כי" pos="X" msd="UPosTag=X" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t3">כי</w>
+<w lemma="הצעה" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Fem|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t4">הצעת</w>
+                     <name type="MISC">
+<w lemma="חוק" pos="PROPN" msd="UPosTag=PROPN|Definite=Cons|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t5">חוק</w>
+<w lemma="הגנה" pos="PROPN" msd="UPosTag=PROPN|Definite=Cons|Gender=Fem|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t6">הגנת</w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t7-8">הצרכן<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t7" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t8" norm="צרכן" lemma="צרכן" pos="PROPN" msd="UPosTag=PROPN|Gender=Masc|Number=Sing"/></w>
+                     </name>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t9" msd="UPosTag=PUNCT">(</pc>
+<w lemma="תיקון" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t10">תיקון</w>
+<w lemma="מס'" pos="NOUN" msd="UPosTag=NOUN|Abbr=Yes|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t11">מס'</w>
+<w lemma="69" pos="NUM" msd="UPosTag=NUM" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t12" join="right">69</w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t13" msd="UPosTag=PUNCT">)</pc>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t14" msd="UPosTag=PUNCT">(</pc>
+<w lemma="איסור" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t15">איסור</w>
+<w lemma="הפעלה" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Fem|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t16">הפעלת</w>
+<w lemma="השפעה" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t17">השפעה</w>
+<w lemma="בלתי" pos="ADV" msd="UPosTag=ADV|Prefix=Yes" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t18">בלתי</w>
+<w lemma="הוגן" pos="ADJ" msd="UPosTag=ADJ|Gender=Fem|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t19">הוגנת</w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t20-21">במצב<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t20" norm="ב" lemma="ב" pos="ADP" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t21" norm="מצב" lemma="מצב" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing"/></w>
+<w lemma="חירום" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t22" join="right">חירום</w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t23" msd="UPosTag=PUNCT">)</pc>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t24" msd="UPosTag=PUNCT">,</pc>
+<w lemma="התשפ&#34;ד" pos="NUM" msd="UPosTag=NUM" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t25">התשפ"ד–</w>
+                     <name type="MISC">
+<w lemma="2024" pos="NUM" msd="UPosTag=NUM" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t26" join="right">2024</w>
+                     </name>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t27" msd="UPosTag=PUNCT">,</pc>
+<w lemma="אושר" pos="VERB" msd="UPosTag=VERB|Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t28">אושרה</w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t29-30">בקריאה<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t29" norm="ב" lemma="ב" pos="ADP" msd="UPosTag=ADP|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t30" norm="קריאה" lemma="קריאה" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing"/></w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t31-32">הראשונה<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t31" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t32" norm="ראשונה" lemma="ראשון" pos="ADJ" msd="UPosTag=ADJ|Gender=Fem|Number=Sing|NumType=Ord"/></w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t33-34">ותחזור<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t33" norm="ו" lemma="ו" pos="X" msd="UPosTag=CCONJ"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t34" norm="תחזור" lemma="חזר" pos="VERB" msd="UPosTag=VERB|Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act"/></w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t35-36">לדיון<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t35" norm="ל" lemma="ל" pos="ADP" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t36" norm="דיון" lemma="דיון" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing"/></w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t37-38">בוועדת<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t37" norm="ב" lemma="ב" pos="ADP" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t38" norm="וועדת" lemma="ועדה" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Fem|Number=Sing"/></w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t39-40">הכלכלה<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t39" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t40" norm="כלכלה" lemma="כלכלה" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing"/></w>
+                     </name>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t41-42">לצורך<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t41" norm="ל" lemma="ל" pos="ADP" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t42" norm="צורך" lemma="צורך" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing"/></w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t43-44">הכנתה<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t43" norm="הכנת" lemma="הכנה" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t44" norm="ה" lemma="הוא" pos="PRON" msd="UPosTag=PRON|Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs"/></w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t45-46">לקריאה<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t45" norm="ל" lemma="ל" pos="ADP" msd="UPosTag=ADP|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t46" norm="קריאה" lemma="קריאה" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing"/></w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t47-48">השנייה<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t47" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t48" norm="שנייה" lemma="שני" pos="ADJ" msd="UPosTag=ADJ|Gender=Fem|Number=Sing|NumType=Ord"/></w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t49-51">והשלישית<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t49" norm="ו" lemma="ו" pos="X" msd="UPosTag=CCONJ"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t50" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t51" norm="שלישית" lemma="שלישי" pos="ADJ" msd="UPosTag=ADJ|Gender=Fem|Number=Sing|NumType=Ord"/></w>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:nsubj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t2 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t1"/>
+<link ana="ud-syn:root" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t2"/>
+<link ana="ud-syn:mark" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t28 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t3"/>
+<link ana="ud-syn:nsubj_pass" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t28 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t4"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t4 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t5"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t5 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t6"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t8 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t7"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t6 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t8"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t10 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t9"/>
+<link ana="ud-syn:appos" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t5 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t10"/>
+<link ana="ud-syn:nmod_npmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t10 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t11"/>
+<link ana="ud-syn:nmod_npmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t11 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t12"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t10 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t13"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t15 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t14"/>
+<link ana="ud-syn:parataxis" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t10 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t15"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t15 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t16"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t16 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t17"/>
+<link ana="ud-syn:compound_affix" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t19 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t18"/>
+<link ana="ud-syn:amod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t17 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t19"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t21 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t20"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t17 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t21"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t21 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t22"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t15 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t23"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t25 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t24"/>
+<link ana="ud-syn:nmod_tmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t4 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t25"/>
+<link ana="ud-syn:appos" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t25 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t26"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t4 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t27"/>
+<link ana="ud-syn:ccomp" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t2 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t28"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t30 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t29"/>
+<link ana="ud-syn:obl" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t28 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t30"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t32 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t31"/>
+<link ana="ud-syn:amod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t30 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t32"/>
+<link ana="ud-syn:cc" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t34 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t33"/>
+<link ana="ud-syn:conj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t28 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t34"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t36 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t35"/>
+<link ana="ud-syn:obl" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t34 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t36"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t38 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t37"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t36 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t38"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t40 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t39"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t38 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t40"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t42 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t41"/>
+<link ana="ud-syn:obl" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t34 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t42"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t42 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t43"/>
+<link ana="ud-syn:nmod_poss" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t43 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t44"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t46 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t45"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t43 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t46"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t48 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t47"/>
+<link ana="ud-syn:amod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t46 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t48"/>
+<link ana="ud-syn:cc" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t51 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t49"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t51 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t50"/>
+<link ana="ud-syn:conj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t48 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s1.t51"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2">
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t1-2">חבריי<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t1" norm="חברי" lemma="חבר" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Plur"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t2" norm="י" lemma="הוא" pos="PRON" msd="UPosTag=PRON|Case=Gen|Definite=Def|Number=Sing|Person=1|Poss=Yes|PronType=Prs"/></w>
+<w lemma="חבר" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Plur" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t3">חברי</w>
+                     <name type="ORG">
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t4-5" join="right">הכנסת<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t4" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t5" norm="כנסת" lemma="כנסת" pos="PROPN" msd="UPosTag=PROPN"/></w>
+                     </name>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t6" msd="UPosTag=PUNCT">,</pc>
+<w lemma="הוא" pos="VERB" msd="UPosTag=VERB|Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=2|Tense=Past|Voice=Act" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t7">תם</w>
+<w lemma="סדר" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t8" join="right">סדר</w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t9" msd="UPosTag=PUNCT" join="right">-</pc>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t10-11">היום<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t10" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t11" norm="יום" lemma="יום" pos="NOUN" msd="UPosTag=NOUN|Gender=Masc|Number=Sing"/></w>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:vocative" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t7 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t1"/>
+<link ana="ud-syn:nmod_poss" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t1 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t2"/>
+<link ana="ud-syn:appos" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t1 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t3"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t5 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t4"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t3 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t5"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t7 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t6"/>
+<link ana="ud-syn:root" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t7"/>
+<link ana="ud-syn:obj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t7 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t8"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t8 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t9"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t11 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t10"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t8 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s2.t11"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3">
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t1-2">הישיבה<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t1" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t2" norm="ישיבה" lemma="ישיבה" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing"/></w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t3-4">הבאה<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t3" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET|Definite=Def|PronType=Art"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t4" norm="באה" lemma="בא" pos="ADJ" msd="UPosTag=ADJ|Gender=Fem|Number=Sing"/></w>
+<w lemma="התקיים" pos="VERB" msd="UPosTag=VERB|Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut|Voice=Mid" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t5">תתקיים</w>
+<w lemma="מחר" pos="ADV" msd="UPosTag=ADV" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t6" join="right">מחר</w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t7" msd="UPosTag=PUNCT">,</pc>
+                     <name type="MISC">
+<w lemma="יום" pos="NOUN" msd="UPosTag=NOUN|Definite=Cons|Gender=Masc|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t8">יום</w>
+<w lemma="רביעי" pos="PROPN" msd="UPosTag=PROPN" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t9">רביעי</w>
+                     </name>
+                     <name type="MISC">
+<w lemma="כ&#34;ד" pos="NUM" msd="UPosTag=NUM" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t10">כ"ד</w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t11-12">באדר<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t11" norm="ב" lemma="ב" pos="ADP" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t12" norm="אדר" lemma="אדר" pos="PROPN" msd="UPosTag=PROPN"/></w>
+<w lemma="ב'" pos="NUM" msd="UPosTag=NUM" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t13">ב'</w>
+                     </name>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t14-15" join="right">התשפ"ד<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t14" norm="ה" lemma="ה" pos="DET" msd="UPosTag=DET"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t15" norm="תשפ&#34;ד" lemma="תשפ&#34;ד" pos="NUM" msd="UPosTag=NUM"/></w>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t16" msd="UPosTag=PUNCT">,</pc>
+                     <name type="MISC">
+<w lemma="3" pos="NUM" msd="UPosTag=NUM" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t17">3</w>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t18-19">באפריל<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t18" norm="ב" lemma="ב" pos="ADP" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t19" norm="אפריל" lemma="אפריל" pos="PROPN" msd="UPosTag=PROPN"/></w>
+<w lemma="2024" pos="NUM" msd="UPosTag=NUM" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t20" join="right">2024</w>
+                     </name>
+<pc xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t21" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t22-23">בשעה<w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t22" norm="ב" lemma="ב" pos="ADP" msd="UPosTag=ADP"/><w xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t23" norm="שעה" lemma="שעה" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing"/></w>
+<w lemma="1100" pos="NUM" msd="UPosTag=NUM" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t24">11:00</w>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t2 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t1"/>
+<link ana="ud-syn:nsubj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t5 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t2"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t4 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t3"/>
+<link ana="ud-syn:amod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t2 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t4"/>
+<link ana="ud-syn:root" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t5"/>
+<link ana="ud-syn:advmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t5 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t6"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t8 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t7"/>
+<link ana="ud-syn:appos" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t6 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t8"/>
+<link ana="ud-syn:compound" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t8 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t9"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t8 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t10"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t12 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t11"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t10 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t12"/>
+<link ana="ud-syn:flat" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t12 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t13"/>
+<link ana="ud-syn:compound_affix" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t15 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t14"/>
+<link ana="ud-syn:nmod_tmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t10 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t15"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t17 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t16"/>
+<link ana="ud-syn:appos" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t10 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t17"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t19 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t18"/>
+<link ana="ud-syn:nmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t17 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t19"/>
+<link ana="ud-syn:nmod_tmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t17 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t20"/>
+<link ana="ud-syn:punct" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t23 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t21"/>
+<link ana="ud-syn:case" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t23 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t22"/>
+<link ana="ud-syn:obl" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t5 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t23"/>
+<link ana="ud-syn:nmod_tmod" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t23 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s3.t24"/>
+</linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s4">
+<w lemma="ישיבה" pos="NOUN" msd="UPosTag=NOUN|Gender=Fem|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s4.t1">ישיבה</w>
+<w lemma="זה" pos="PRON" msd="UPosTag=PRON|Gender=Fem|Number=Sing|Person=3|PronType=Dem" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s4.t2">זו</w>
+<w lemma="נעולה" pos="ADJ" msd="UPosTag=ADJ|Gender=Fem|Number=Sing" xml:id="ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s4.t3">נעולה</w>
+<linkGrp targFunc="head argument" type="UD-SYN">
+<link ana="ud-syn:nsubj" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s4.t3 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s4.t1"/>
+<link ana="ud-syn:det" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s4.t1 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s4.t2"/>
+<link ana="ud-syn:root" target="#ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s4 #ParlaMint-IL_2024-04-02-25ptm4275289.u415.p0.s4.t3"/>
+</linkGrp>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

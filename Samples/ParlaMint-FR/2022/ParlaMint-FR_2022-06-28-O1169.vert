@@ -1,8 +1,8 @@
 <note type="head" content="Ouverture de la XVIᵉ législature"/>
 <note type="debate" content="TITRE_TEXTE_DISCUSSION"/>
-<speech id="ParlaMint-FR_2022-06-28-O1169.u1" text_id="ParlaMint-FR_2022-06-28-O1169" subcorpus="COVID,War" lang="français" body="Chambre basse" term="16e législature" session="Session ordinaire 2021-2022 (CRSANR5L16S2022O1N169)" meeting="-" sitting="1. séance" agenda="-" date="2022-06-28" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 1, 28/06/2022" speaker_role="Invité" speaker_id="PA606171" speaker_name="Ferrand, Richard" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1962">
+<speech id="ParlaMint-FR_2022-06-28-O1169.u1" text_id="ParlaMint-FR_2022-06-28-O1169" subcorpus="COVID,War" lang="français" body="Chambre basse" term="16e législature" session="Session ordinaire 2021-2022 (CRSANR5L16S2022O1N169)" meeting="-" sitting="1. séance" agenda="-" date="2022-06-28" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 1, 28/06/2022" speaker_role="Invité" topic="Other" speaker_id="PA606171" speaker_name="Ferrand, Richard" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1962">
 <p id="ParlaMint-FR_2022-06-28-O1169.u1.1" lang="français">
-<s id="ParlaMint-FR_2022-06-28-O1169.s1">
+<s id="ParlaMint-FR_2022-06-28-O1169.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.686">
 Je	Je	il	PRON	Number=Sing Person=1 PronType=Prs	w1	nsubj	déclarer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 déclare	déclare	déclarer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 ouverte	ouverte	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w3	xcomp	déclarer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
@@ -24,9 +24,9 @@ nationale	nationale	national	ADJ	Gender=Fem Number=Sing	w10	amod	assemblée	NOUN
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="Constitution du bureau d’âge"/>
 <note type="debate" content="TITRE_TEXTE_DISCUSSION"/>
-<speech id="ParlaMint-FR_2022-06-28-O1169.u2" text_id="ParlaMint-FR_2022-06-28-O1169" subcorpus="COVID,War" lang="français" body="Chambre basse" term="16e législature" session="Session ordinaire 2021-2022 (CRSANR5L16S2022O1N169)" meeting="-" sitting="1. séance" agenda="-" date="2022-06-28" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 1, 28/06/2022" speaker_role="Invité" speaker_id="PA606171" speaker_name="Ferrand, Richard" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1962">
+<speech id="ParlaMint-FR_2022-06-28-O1169.u2" text_id="ParlaMint-FR_2022-06-28-O1169" subcorpus="COVID,War" lang="français" body="Chambre basse" term="16e législature" session="Session ordinaire 2021-2022 (CRSANR5L16S2022O1N169)" meeting="-" sitting="1. séance" agenda="-" date="2022-06-28" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 1, 28/06/2022" speaker_role="Invité" topic="Other" speaker_id="PA606171" speaker_name="Ferrand, Richard" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1962">
 <p id="ParlaMint-FR_2022-06-28-O1169.u2.1" lang="français">
-<s id="ParlaMint-FR_2022-06-28-O1169.s2">
+<s id="ParlaMint-FR_2022-06-28-O1169.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.264">
 Aux	à|le	à|le	ADP|DET	-|Definite=Def Number=Plur PronType=Art	w1|w2	case|det	terme	NOUN	Gender=Masc Number=Plur	w3
 termes	termes	terme	NOUN	Gender=Masc Number=Plur	w3	obl:mod	appeler	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w19
 de	de	de	ADP	-	w4	case	article	NOUN	Gender=Masc Number=Sing	w6
@@ -65,14 +65,14 @@ bureau	bureau	bureau	NOUN	Gender=Masc Number=Sing	w32	nmod	élection	NOUN	Gender
 </s>
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u2.2" lang="français">
-<s id="ParlaMint-FR_2022-06-28-O1169.s3">
+<s id="ParlaMint-FR_2022-06-28-O1169.s3" senti_3="Neutral" senti_6="neutral postive" senti_n="3.260">
 Ce	Ce	ce	PRON	Gender=Masc Person=3 PronType=Dem	w1	nsubj	Monsieur	NOUN	Gender=Masc Number=Plur	w3
 sont	sont	être	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w2	cop	Monsieur	NOUN	Gender=Masc Number=Plur	w3
 <name type="MISC">
 MM.	MM.	Monsieur	NOUN	Gender=Masc Number=Plur	w3	root	-	-	-	-
 </name>
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s4">
+<s id="ParlaMint-FR_2022-06-28-O1169.s4" senti_3="Neutral" senti_6="neutral postive" senti_n="2.931">
 <name type="PER">
 Tematai	Tematai	Tematai	PROPN	-	w1	root	-	-	-	-
 Le	Le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w2	flat:name	Tematai	PROPN	-	w1
@@ -112,7 +112,7 @@ Rodwell	Rodwell	Rodwell	PROPN	-	w18	flat:name	Charles	PROPN	-	w17
 </s>
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u2.3" lang="français">
-<s id="ParlaMint-FR_2022-06-28-O1169.s5">
+<s id="ParlaMint-FR_2022-06-28-O1169.s5" senti_3="Neutral" senti_6="neutral postive" senti_n="2.604">
 Le	Le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w1	det	bureau	NOUN	Gender=Masc Number=Sing	w2
 bureau	bureau	bureau	NOUN	Gender=Masc Number=Sing	w2	nsubj:pass	constituer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w10
 d'	d'	de	ADP	-	w3	case	âge	NOUN	Gender=Masc Number=Sing	w4
@@ -133,9 +133,9 @@ constitué	constitué	constituer	VERB	Gender=Masc Number=Sing Tense=Past VerbFor
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-FR_2022-06-28-O1169.u17" text_id="ParlaMint-FR_2022-06-28-O1169" subcorpus="COVID,War" lang="français" body="Chambre basse" term="16e législature" session="Session ordinaire 2021-2022 (CRSANR5L16S2022O1N169)" meeting="-" sitting="1. séance" agenda="-" date="2022-06-28" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 1, 28/06/2022" speaker_role="Orateur" speaker_id="PA721908" speaker_name="Braun-Pivet, Yaël" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="F" speaker_birth="1970">
+<speech id="ParlaMint-FR_2022-06-28-O1169.u17" text_id="ParlaMint-FR_2022-06-28-O1169" subcorpus="COVID,War" lang="français" body="Chambre basse" term="16e législature" session="Session ordinaire 2021-2022 (CRSANR5L16S2022O1N169)" meeting="-" sitting="1. séance" agenda="-" date="2022-06-28" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 1, 28/06/2022" speaker_role="Orateur" topic="Civil Rights" speaker_id="PA721908" speaker_name="Braun-Pivet, Yaël" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="F" speaker_birth="1970">
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.1" lang="français">
-<s id="ParlaMint-FR_2022-06-28-O1169.s94">
+<s id="ParlaMint-FR_2022-06-28-O1169.s94" senti_3="Neutral" senti_6="neutral postive" senti_n="2.832">
 Mes	Mes	son	DET	Number=Plur Number[psor]=Sing Person[psor]=1 Poss=Yes PronType=Prs	w1	det	collègue	NOUN	Gender=Masc Number=Plur	w3
 chers	chers	cher	ADJ	Gender=Masc Number=Plur	w2	amod	collègue	NOUN	Gender=Masc Number=Plur	w3
 collègues	collègues	collègue	NOUN	Gender=Masc Number=Plur	w3	obl:mod	entrer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w8
@@ -193,7 +193,7 @@ pareil	pareil	pareil	NOUN	Gender=Masc Number=Sing	w41	obl:mod	forger	VERB	Gender
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.2" lang="français">
 <note type="kinesic:applause" content="Applaudissements"/>
-<s id="ParlaMint-FR_2022-06-28-O1169.s95">
+<s id="ParlaMint-FR_2022-06-28-O1169.s95" senti_3="Neutral" senti_6="neutral postive" senti_n="3.113">
 Des	Des	un	DET	Definite=Ind Number=Plur PronType=Art	w1	det	voix	NOUN	Gender=Fem Number=Plur	w2
 voix	voix	voix	NOUN	Gender=Fem Number=Plur	w2	nsubj	résonner	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w4
 fortes	fortes	fort	ADJ	Gender=Fem Number=Plur	w3	amod	voix	NOUN	Gender=Fem Number=Plur	w2
@@ -204,7 +204,7 @@ travées	travées	travée	NOUN	Gender=Fem Number=Plur	w7	obl:mod	résonner	VERB	
 <g/>
 .	.	.	PUNCT	-	w8	punct	résonner	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w4
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s96">
+<s id="ParlaMint-FR_2022-06-28-O1169.s96" senti_3="Positive" senti_6="mixed positive" senti_n="3.713">
 Ce	Ce	ce	PRON	Gender=Masc Person=3 PronType=Dem	w1	nsubj	voix	NOUN	Gender=Fem Number=Plur	w4
 sont	sont	être	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w2	cop	voix	NOUN	Gender=Fem Number=Plur	w4
 les	les	le	DET	Definite=Def Number=Plur PronType=Art	w3	det	voix	NOUN	Gender=Fem Number=Plur	w4
@@ -260,12 +260,12 @@ droits	droits	droit	NOUN	Gender=Masc Number=Plur	w49	obl:mod	égal	ADJ	Gender=Ma
 <g/>
 .	.	.	PUNCT	-	w50	punct	voix	NOUN	Gender=Fem Number=Plur	w4
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s97">
+<s id="ParlaMint-FR_2022-06-28-O1169.s97" senti_3="Neutral" senti_6="neutral postive" senti_n="3.324">
 »	»	»	PUNCT	-	w1	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.3" lang="français">
-<s id="ParlaMint-FR_2022-06-28-O1169.s98">
+<s id="ParlaMint-FR_2022-06-28-O1169.s98" senti_3="Positive" senti_6="mixed positive" senti_n="3.997">
 En	En	en	ADP	-	w1	mark	porter	VERB	Tense=Pres VerbForm=Part	w3
 me	me	se	PRON	Number=Sing Person=1 PronType=Prs	w2	expl:pv	porter	VERB	Tense=Pres VerbForm=Part	w3
 portant	portant	porter	VERB	Tense=Pres VerbForm=Part	w3	advcl	donner	VERB	Mood=Ind Number=Plur Person=2 Tense=Pres VerbForm=Fin	w9
@@ -285,7 +285,7 @@ nouvelle	nouvelle	nouveau	ADJ	Gender=Fem Number=Sing	w15	amod	force	NOUN	Gender=
 <g/>
 .	.	.	PUNCT	-	w16	punct	donner	VERB	Mood=Ind Number=Plur Person=2 Tense=Pres VerbForm=Fin	w9
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s99">
+<s id="ParlaMint-FR_2022-06-28-O1169.s99" senti_3="Positive" senti_6="mixed positive" senti_n="4.304">
 Je	Je	il	PRON	Number=Sing Person=1 PronType=Prs	w1	nsubj	vouloir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 veux	veux	vouloir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 donc	donc	donc	ADV	-	w3	advmod	vouloir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
@@ -340,7 +340,7 @@ questionnements	questionnements	questionnement	NOUN	Gender=Masc Number=Plur	w43	
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.4" lang="français">
 <note type="kinesic:applause" content="Applaudissements"/>
-<s id="ParlaMint-FR_2022-06-28-O1169.s100">
+<s id="ParlaMint-FR_2022-06-28-O1169.s100" senti_3="Neutral" senti_6="neutral postive" senti_n="2.772">
 Permettez	Permettez	permettre	VERB	Mood=Imp Number=Plur Person=2 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 <g/>
 -moi	-moi	soi	PRON	Number=Sing Person=1 PronType=Prs	w2	nsubj	permettre	VERB	Mood=Imp Number=Plur Person=2 Tense=Pres VerbForm=Fin	w1
@@ -361,7 +361,7 @@ fonction	fonction	fonction	NOUN	Gender=Fem Number=Sing	w15	obl:mod	avoir	VERB	Ve
 <g/>
 .	.	.	PUNCT	-	w16	punct	permettre	VERB	Mood=Imp Number=Plur Person=2 Tense=Pres VerbForm=Fin	w1
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s101">
+<s id="ParlaMint-FR_2022-06-28-O1169.s101" senti_3="Positive" senti_6="positive" senti_n="4.656">
 Je	Je	il	PRON	Number=Sing Person=1 PronType=Prs	w1	nsubj	saluer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 salue	salue	saluer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 en	en	en	ADP	-	w3	advmod	saluer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
@@ -396,7 +396,7 @@ législature	législature	législature	NOUN	Gender=Fem Number=Sing	w20	nmod	vice
 <note type="kinesic:applause" content="Applaudissements"/>
 <note type="kinesic:applause" content="Applaudissements"/>
 <note type="kinesic:applause" content="Applaudissements"/>
-<s id="ParlaMint-FR_2022-06-28-O1169.s102">
+<s id="ParlaMint-FR_2022-06-28-O1169.s102" senti_3="Positive" senti_6="mixed positive" senti_n="4.461">
 Je	Je	il	PRON	Number=Sing Person=1 PronType=Prs	w1	nsubj	vouloir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 veux	veux	vouloir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 aussi	aussi	aussi	ADV	-	w3	advmod	vouloir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
@@ -416,7 +416,7 @@ fauteuil	fauteuil	fauteuil	NOUN	Gender=Masc Number=Sing	w15	obl:arg	précéder	V
 <g/>
 .	.	.	PUNCT	-	w16	punct	vouloir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s103">
+<s id="ParlaMint-FR_2022-06-28-O1169.s103" senti_3="Positive" senti_6="mixed positive" senti_n="4.015">
 J'	J'	je	PRON	Number=Sing Person=1 PronType=Prs	w1	nsubj	avoir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 <g/>
 ai	ai	avoir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
@@ -437,7 +437,7 @@ Richard	Richard	Richard	PROPN	-	w12	flat:name	cher	ADJ	Gender=Masc Number=Sing	w
 </name>
 .	.	.	PUNCT	-	w13	punct	avoir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s104">
+<s id="ParlaMint-FR_2022-06-28-O1169.s104" senti_3="Positive" senti_6="positive" senti_n="4.817">
 Par	Par	par	ADP	-	w1	case	hauteur	NOUN	Gender=Fem Number=Sing	w3
 sa	sa	son	DET	Gender=Fem Number=Sing Number[psor]=Sing Person[psor]=3 Poss=Yes PronType=Prs	w2	det	hauteur	NOUN	Gender=Fem Number=Sing	w3
 hauteur	hauteur	hauteur	NOUN	Gender=Fem Number=Sing	w3	obl:mod	savoir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w10
@@ -466,7 +466,7 @@ concitoyens	concitoyens	concitoyen	NOUN	Gender=Masc Number=Plur	w22	obl:arg	resp
 <g/>
 .	.	.	PUNCT	-	w23	punct	savoir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w10
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s105">
+<s id="ParlaMint-FR_2022-06-28-O1169.s105" senti_3="Positive" senti_6="mixed positive" senti_n="3.501">
 Je	Je	il	PRON	Number=Sing Person=1 PronType=Prs	w1	nsubj	penser	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 pense	pense	penser	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 aussi	aussi	aussi	ADV	-	w3	advmod	penser	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
@@ -505,7 +505,7 @@ famille	famille	famille	NOUN	Gender=Fem Number=Sing	w30	conj	lui	PRON	Gender=Mas
 <g/>
 .	.	.	PUNCT	-	w31	punct	penser	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s106">
+<s id="ParlaMint-FR_2022-06-28-O1169.s106" senti_3="Neutral" senti_6="neutral postive" senti_n="3.042">
 Je	Je	il	PRON	Number=Sing Person=1 PronType=Prs	w1	nsubj	penser	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 pense	pense	penser	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 également	également	également	ADV	-	w3	advmod	penser	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
@@ -555,7 +555,7 @@ orangers	orangers	oranger	NOUN	Gender=Masc Number=Plur	w33	nmod	odeur	NOUN	Gende
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.6" lang="français">
 <note type="kinesic:smiling" content="Sourires"/>
-<s id="ParlaMint-FR_2022-06-28-O1169.s107">
+<s id="ParlaMint-FR_2022-06-28-O1169.s107" senti_3="Negative" senti_6="negative" senti_n="0.301">
 <name type="MISC">
 Mes	Mes	son	DET	Number=Plur Number[psor]=Sing Person[psor]=1 Poss=Yes PronType=Prs	w1	det	collègue	NOUN	Gender=Masc Number=Plur	w3
 chers	chers	cher	ADJ	Gender=Masc Number=Plur	w2	amod	collègue	NOUN	Gender=Masc Number=Plur	w3
@@ -584,7 +584,7 @@ les	les	le	DET	Definite=Def Number=Plur PronType=Art	w20	det	femme	NOUN	Gender=F
 femmes	femmes	femme	NOUN	Gender=Fem Number=Plur	w21	conj	homme	NOUN	Gender=Masc Number=Plur	w18
 !	!	!	PUNCT	-	w22	punct	collègue	NOUN	Gender=Masc Number=Plur	w3
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s108">
+<s id="ParlaMint-FR_2022-06-28-O1169.s108" senti_3="Negative" senti_6="negative" senti_n="0.359">
 Je	Je	il	PRON	Number=Sing Person=1 PronType=Prs	w1	nsubj	vouloir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 voudrais	voudrais	vouloir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 vous	vous	il	PRON	Number=Plur Person=2 PronType=Prs	w3	nsubj	lire	VERB	VerbForm=Inf	w4
@@ -632,7 +632,7 @@ banquet	banquet	banquet	NOUN	Gender=Masc Number=Sing	w42	obl:arg	passer	VERB	Gen
 <g/>
 .	.	.	PUNCT	-	w43	punct	vouloir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s109">
+<s id="ParlaMint-FR_2022-06-28-O1169.s109" senti_3="Neutral" senti_6="neutral postive" senti_n="2.971">
 Une	Une	un	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	w1	det	femme	NOUN	Gender=Fem Number=Sing	w2
 femme	femme	femme	NOUN	Gender=Fem Number=Sing	w2	nsubj	poser	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w5
 a	a	avoir	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	aux:tense	poser	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w5
@@ -650,7 +650,7 @@ nationale	nationale	national	ADJ	Gender=Fem Number=Sing	w11	amod	assemblée	NOUN
 </name>
 .	.	.	PUNCT	-	w12	punct	poser	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w5
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s110">
+<s id="ParlaMint-FR_2022-06-28-O1169.s110" senti_3="Neutral" senti_6="neutral postive" senti_n="2.820">
 »	»	»	PUNCT	-	w1	punct	appeler	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	w5
 Cette	Cette	ce	DET	Gender=Fem Number=Sing PronType=Dem	w2	det	femme	NOUN	Gender=Fem Number=Sing	w3
 femme	femme	femme	NOUN	Gender=Fem Number=Sing	w3	nsubj	appeler	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	w5
@@ -663,7 +663,7 @@ Deroin	Deroin	Deroin	PROPN	-	w7	flat:name	Jeanne	PROPN	-	w6
 </name>
 ;	;	;	PUNCT	-	w8	punct	appeler	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	w5
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s111">
+<s id="ParlaMint-FR_2022-06-28-O1169.s111" senti_3="Negative" senti_6="negative" senti_n="0.397">
 elle	elle	elle	PRON	Gender=Fem Number=Sing Person=3 PronType=Prs	w1	nsubj	journaliste	NOUN	Gender=Masc Number=Sing	w3
 était	était	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	w2	cop	journaliste	NOUN	Gender=Masc Number=Sing	w3
 journaliste	journaliste	journaliste	NOUN	Gender=Masc Number=Sing	w3	root	-	-	-	-
@@ -705,7 +705,7 @@ légitime	légitime	légitime	ADJ	Gender=Masc Number=Sing	w32	amod	ambition	NOUN
 </s>
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.7" lang="français">
-<s id="ParlaMint-FR_2022-06-28-O1169.s112">
+<s id="ParlaMint-FR_2022-06-28-O1169.s112" senti_3="Negative" senti_6="mixed negative" senti_n="0.807">
 Il	Il	il	PRON	Gender=Masc Number=Sing Person=3 PronType=Prs	w1	expl:subj	falloir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w3
 aura	aura	avoir	AUX	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w2	aux:tense	falloir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w3
 fallu	fallu	falloir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w3	root	-	-	-	-
@@ -740,7 +740,7 @@ cet	cet	ce	DET	Gender=Masc Number=Sing PronType=Dem	w27	det	hémicycle	NOUN	Gend
 hémicycle	hémicycle	hémicycle	NOUN	Gender=Masc Number=Sing	w28	obl:mod	entrer	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w20
 ;	;	;	PUNCT	-	w29	punct	falloir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w3
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s113">
+<s id="ParlaMint-FR_2022-06-28-O1169.s113" senti_3="Negative" senti_6="negative" senti_n="0.479">
 encore	encore	encore	ADV	-	w1	advmod	vingt	NUM	Number=Plur	w2
 vingt	vingt	vingt	NUM	Number=Plur	w2	nummod	an	NOUN	Gender=Masc Number=Plur	w3
 ans	ans	an	NOUN	Gender=Masc Number=Plur	w3	root	-	-	-	-
@@ -756,7 +756,7 @@ de	de	de	ADP	-	w12	case	commission	NOUN	Gender=Fem Number=Sing	w13
 commission	commission	commission	NOUN	Gender=Fem Number=Sing	w13	nmod	présidence	NOUN	Gender=Fem Number=Sing	w11
 ;	;	;	PUNCT	-	w14	punct	an	NOUN	Gender=Masc Number=Plur	w3
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s114">
+<s id="ParlaMint-FR_2022-06-28-O1169.s114" senti_3="Negative" senti_6="mixed negative" senti_n="0.518">
 de	de	de	ADP	-	w1	advmod	an	NOUN	Gender=Masc Number=Plur	w4
 nouveau	nouveau	nouveau	ADJ	Gender=Masc Number=Sing	w2	fixed	de	ADP	-	w1
 vingt	vingt	vingt	NUM	Number=Plur	w3	nummod	an	NOUN	Gender=Masc Number=Plur	w4
@@ -774,7 +774,7 @@ la	la	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w13	det	questure	N
 questure	questure	questure	NOUN	Gender=Fem Number=Sing	w14	obl:arg	faire	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w11
 ;	;	;	PUNCT	-	w15	punct	an	NOUN	Gender=Masc Number=Plur	w4
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s115">
+<s id="ParlaMint-FR_2022-06-28-O1169.s115" senti_3="Negative" senti_6="mixed negative" senti_n="0.696">
 presque	presque	presque	ADV	-	w1	advmod	aussi	ADV	-	w2
 aussi	aussi	aussi	ADV	-	w2	advmod	longtemps	ADV	-	w3
 longtemps	longtemps	longtemps	ADV	-	w3	root	-	-	-	-
@@ -806,7 +806,7 @@ femmes	femmes	femme	NOUN	Gender=Fem Number=Plur	w28	conj	homme	NOUN	Gender=Masc 
 </s>
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.8" lang="français">
-<s id="ParlaMint-FR_2022-06-28-O1169.s116">
+<s id="ParlaMint-FR_2022-06-28-O1169.s116" senti_3="Positive" senti_6="positive" senti_n="4.741">
 Ce	Ce	ce	DET	Gender=Masc Number=Sing PronType=Dem	w1	det	chemin	NOUN	Gender=Masc Number=Sing	w2
 chemin	chemin	chemin	NOUN	Gender=Masc Number=Sing	w2	nsubj:pass	tracer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w4
 fut	fut	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	w3	aux:pass	tracer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w4
@@ -818,7 +818,7 @@ remarquables	remarquables	remarquable	ADJ	Gender=Fem Number=Plur	w8	amod	personn
 <g/>
 .	.	.	PUNCT	-	w9	punct	tracer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w4
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s117">
+<s id="ParlaMint-FR_2022-06-28-O1169.s117" senti_3="Neutral" senti_6="neutral postive" senti_n="2.715">
 Elles	Elles	il	PRON	Gender=Fem Number=Plur Person=3 PronType=Prs	w1	nsubj	honneur	NOUN	Gender=Masc Number=Sing	w4
 sont	sont	être	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w2	cop	honneur	NOUN	Gender=Masc Number=Sing	w4
 l'	l'	le	DET	Definite=Def Number=Sing PronType=Art	w3	det	honneur	NOUN	Gender=Masc Number=Sing	w4
@@ -845,7 +845,7 @@ citer	citer	citer	VERB	VerbForm=Inf	w20	xcomp	pouvoir	VERB	Mood=Sub Number=Sing 
 <g/>
 .	.	.	PUNCT	-	w21	punct	honneur	NOUN	Gender=Masc Number=Sing	w4
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s118">
+<s id="ParlaMint-FR_2022-06-28-O1169.s118" senti_3="Neutral" senti_6="neutral postive" senti_n="3.226">
 Je	Je	il	PRON	Number=Sing Person=1 PronType=Prs	w1	nsubj	vouloir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 veux	veux	vouloir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 quand	quand	quand	SCONJ	-	w3	advmod	vouloir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
@@ -882,7 +882,7 @@ lois	lois	loi	NOUN	Gender=Fem Number=Plur	w29	nmod	commission	NOUN	Gender=Fem Nu
 <g/>
 .	.	.	PUNCT	-	w30	punct	vouloir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s119">
+<s id="ParlaMint-FR_2022-06-28-O1169.s119" senti_3="Neutral" senti_6="neutral postive" senti_n="3.345">
 Cette	Cette	ce	DET	Gender=Fem Number=Sing PronType=Dem	w1	det	président	NOUN	Gender=Fem Number=Sing	w2
 présidente	présidente	président	NOUN	Gender=Fem Number=Sing	w2	nsubj	défendre	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	w4
 yvelinoise	yvelinoise	yvelinois	ADJ	Gender=Fem Number=Sing	w3	amod	président	NOUN	Gender=Fem Number=Sing	w2
@@ -907,7 +907,7 @@ hommes	hommes	homme	NOUN	Gender=Masc Number=Plur	w20	conj	femme	NOUN	Gender=Fem 
 <g/>
 .	.	.	PUNCT	-	w21	punct	défendre	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	w4
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s120">
+<s id="ParlaMint-FR_2022-06-28-O1169.s120" senti_3="Negative" senti_6="negative" senti_n="0.479">
 Je	Je	il	PRON	Number=Sing Person=1 PronType=Prs	w1	nsubj	penser	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 pense	pense	penser	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 également	également	également	ADV	-	w3	advmod	penser	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
@@ -945,7 +945,7 @@ désemparés	désemparés	désemparer	VERB	Gender=Masc Number=Plur Tense=Past Ve
 </s>
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.9" lang="français">
-<s id="ParlaMint-FR_2022-06-28-O1169.s121">
+<s id="ParlaMint-FR_2022-06-28-O1169.s121" senti_3="Positive" senti_6="mixed positive" senti_n="4.224">
 Enfin	Enfin	enfin	ADV	-	w1	advmod	évoquer	VERB	VerbForm=Inf	w6
 <g/>
 ,	,	,	PUNCT	-	w2	punct	enfin	ADV	-	w1
@@ -978,7 +978,7 @@ devons	devons	devoir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	
 tant	tant	tant	ADV	-	w25	advmod	devoir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w24
 ?	?	?	PUNCT	-	w26	punct	évoquer	VERB	VerbForm=Inf	w6
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s122">
+<s id="ParlaMint-FR_2022-06-28-O1169.s122" senti_3="Positive" senti_6="mixed positive" senti_n="3.758">
 Le	Le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w1	det	26	NUM	Number=Sing	w2
 26	26	26	NUM	Number=Sing	w2	obl:mod	venir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w11
 novembre	novembre	novembre	NOUN	Gender=Masc Number=Sing	w3	nmod	26	NUM	Number=Sing	w2
@@ -1047,7 +1047,7 @@ avortement	avortement	avortement	NOUN	Gender=Masc Number=Sing	w54	nmod	droit	NOU
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.10" lang="français">
 <note type="kinesic:applause" content="Applaudissements"/>
-<s id="ParlaMint-FR_2022-06-28-O1169.s123">
+<s id="ParlaMint-FR_2022-06-28-O1169.s123" senti_3="Negative" senti_6="negative" senti_n="0.227">
 À	À	à	ADP	-	w1	case	rebours	NOUN	Gender=Masc Number=Sing	w2
 rebours	rebours	rebours	NOUN	Gender=Masc Number=Sing	w2	obl:mod	appeler	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w30
 de	de	de	ADP	-	w3	case	engagement	NOUN	Gender=Masc Number=Sing	w5
@@ -1091,7 +1091,7 @@ vigilance	vigilance	vigilance	NOUN	Gender=Fem Number=Sing	w33	obl:arg	appeler	VE
 <g/>
 .	.	.	PUNCT	-	w34	punct	appeler	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w30
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s124">
+<s id="ParlaMint-FR_2022-06-28-O1169.s124" senti_3="Neutral" senti_6="neutral negative" senti_n="2.183">
 Rien	Rien	rien	PRON	Gender=Masc Number=Sing Person=3 PronType=Neg	w1	nsubj:pass	acquérir	VERB	Gender=Masc Tense=Past VerbForm=Part	w5
 n'	n'	ne	ADV	Polarity=Neg	w2	advmod	acquérir	VERB	Gender=Masc Tense=Past VerbForm=Part	w5
 <g/>
@@ -1101,7 +1101,7 @@ acquis	acquis	acquérir	VERB	Gender=Masc Tense=Past VerbForm=Part	w5	root	-	-	-	
 <g/>
 .	.	.	PUNCT	-	w6	punct	acquérir	VERB	Gender=Masc Tense=Past VerbForm=Part	w5
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s125">
+<s id="ParlaMint-FR_2022-06-28-O1169.s125" senti_3="Negative" senti_6="mixed negative" senti_n="0.719">
 <name type="MISC">
 L'	L'	le	DET	Definite=Def Number=Sing PronType=Art	w1	det	histoire	NOUN	Gender=Fem Number=Sing	w2
 <g/>
@@ -1128,7 +1128,7 @@ rebours	rebours	rebours	NOUN	Gender=Masc Number=Sing	w18	obl:mod	écrire	VERB	Ve
 <g/>
 .	.	.	PUNCT	-	w19	punct	faire	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w4
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s126">
+<s id="ParlaMint-FR_2022-06-28-O1169.s126" senti_3="Positive" senti_6="mixed positive" senti_n="3.850">
 Ce	Ce	ce	DET	Gender=Masc Number=Sing PronType=Dem	w1	det	droit	NOUN	Gender=Masc Number=Sing	w2
 droit	droit	droit	NOUN	Gender=Masc Number=Sing	w2	nsubj:pass	conquérir	VERB	Gender=Masc Tense=Past VerbForm=Part	w5
 a	a	avoir	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	aux:tense	conquérir	VERB	Gender=Masc Tense=Past VerbForm=Part	w5
@@ -1142,7 +1142,7 @@ inaliénable	inaliénable	inaliénable	ADJ	Gender=Masc Number=Sing	w9	conj	conqu
 <g/>
 .	.	.	PUNCT	-	w10	punct	conquérir	VERB	Gender=Masc Tense=Past VerbForm=Part	w5
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s127">
+<s id="ParlaMint-FR_2022-06-28-O1169.s127" senti_3="Positive" senti_6="mixed positive" senti_n="3.963">
 Ma	Ma	son	DET	Gender=Fem Number=Sing Number[psor]=Sing Person[psor]=1 Poss=Yes PronType=Prs	w1	det	conviction	NOUN	Gender=Fem Number=Sing	w2
 conviction	conviction	conviction	NOUN	Gender=Fem Number=Sing	w2	nsubj	être	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w12
 de	de	de	ADP	-	w3	case	femme	NOUN	Gender=Fem Number=Sing	w4
@@ -1175,7 +1175,7 @@ jamais	jamais	jamais	ADV	Polarity=Neg	w25	advmod	rester	VERB	Mood=Ind Number=Sin
 </s>
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.11" lang="français">
-<s id="ParlaMint-FR_2022-06-28-O1169.s128">
+<s id="ParlaMint-FR_2022-06-28-O1169.s128" senti_3="Positive" senti_6="mixed positive" senti_n="3.564">
 Nous	Nous	il	PRON	Number=Plur Person=1 PronType=Prs	w1	nsubj	naître	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2
 naissons	naissons	naître	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 hommes	hommes	homme	NOUN	Gender=Masc Number=Plur	w3	obj	naître	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2
@@ -1209,7 +1209,7 @@ en	en	en	ADP	-	w27	case	1789	NUM	Number=Plur	w28
 <g/>
 .	.	.	PUNCT	-	w29	punct	naître	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s129">
+<s id="ParlaMint-FR_2022-06-28-O1169.s129" senti_3="Positive" senti_6="positive" senti_n="4.611">
 Nous	Nous	il	PRON	Number=Plur Person=1 PronType=Prs	w1	nsubj	devoir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2
 devons	devons	devoir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 <g/>
@@ -1237,7 +1237,7 @@ fraternité	fraternité	fraternité	NOUN	Gender=Fem Number=Sing	w19	conj	libert�
 <g/>
 .	.	.	PUNCT	-	w20	punct	devoir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s130">
+<s id="ParlaMint-FR_2022-06-28-O1169.s130" senti_3="Neutral" senti_6="neutral postive" senti_n="2.667">
 Au	à|le	à|le	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	w1|w2	case|det	cours	NOUN	Gender=Masc Number=Sing	w3
 cours	cours	cours	NOUN	Gender=Masc Number=Sing	w3	obl:mod	pouvoir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w12
 de	de	de	ADP	-	w4	case	vie	NOUN	Gender=Fem Number=Sing	w6
@@ -1261,7 +1261,7 @@ commune	commune	commun	ADJ	Gender=Fem Number=Sing	w19	amod	utilité	NOUN	Gender=
 <g/>
 .	.	.	PUNCT	-	w20	punct	pouvoir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w12
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s131">
+<s id="ParlaMint-FR_2022-06-28-O1169.s131" senti_3="Neutral" senti_6="neutral postive" senti_n="2.650">
 Sans	Sans	sans	ADP	-	w1	case	promesse	NOUN	Gender=Fem Number=Plur	w3
 ces	ces	ce	DET	Number=Plur PronType=Dem	w2	det	promesse	NOUN	Gender=Fem Number=Plur	w3
 promesses	promesses	promesse	NOUN	Gender=Fem Number=Plur	w3	obl:mod	celui	PRON	Gender=Fem Number=Sing Person=3 PronType=Dem	w11
@@ -1298,7 +1298,7 @@ République	République	république	NOUN	Gender=Fem Number=Sing	w24	nmod	tout	PR
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.12" lang="français">
 <note type="kinesic:applause" content="Applaudissements"/>
-<s id="ParlaMint-FR_2022-06-28-O1169.s132">
+<s id="ParlaMint-FR_2022-06-28-O1169.s132" senti_3="Positive" senti_6="mixed positive" senti_n="3.824">
 Ma	Ma	son	DET	Gender=Fem Number=Sing Number[psor]=Sing Person[psor]=1 Poss=Yes PronType=Prs	w1	det	famille	NOUN	Gender=Fem Number=Sing	w2
 famille	famille	famille	NOUN	Gender=Fem Number=Sing	w2	dislocated	grands-parents	NOUN	Gender=Masc Number=Plur	w7
 <g/>
@@ -1311,7 +1311,7 @@ paternels	paternels	paternel	ADJ	Gender=Masc Number=Plur	w8	amod	grands-parents	
 <g/>
 .	.	.	PUNCT	-	w9	punct	grands-parents	NOUN	Gender=Masc Number=Plur	w7
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s133">
+<s id="ParlaMint-FR_2022-06-28-O1169.s133" senti_3="Neutral" senti_6="neutral negative" senti_n="2.258">
 Lui	Lui	il	PRON	Gender=Masc Number=Sing Person=3 PronType=Prs	w1	nsubj	fuir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w9
 polonais	polonais	polonais	ADJ	Gender=Masc Number=Sing	w2	amod	il	PRON	Gender=Masc Number=Sing Person=3 PronType=Prs	w1
 <g/>
@@ -1344,7 +1344,7 @@ rencontrèrent	rencontrèrent	rencontrer	VERB	Mood=Ind Number=Plur Person=3 Tens
 <g/>
 .	.	.	PUNCT	-	w26	punct	fuir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w9
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s134">
+<s id="ParlaMint-FR_2022-06-28-O1169.s134" senti_3="Neutral" senti_6="neutral postive" senti_n="3.302">
 Mon	Mon	son	DET	Number=Sing Number[psor]=Sing Person[psor]=1 Poss=Yes PronType=Prs	w1	det	grand-père	NOUN	Gender=Masc Number=Sing	w2
 grand-père	grand-père	grand-père	NOUN	Gender=Masc Number=Sing	w2	nsubj	recevoir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	w8
 <g/>
@@ -1367,7 +1367,7 @@ Résistance	Résistance	résistance	NOUN	Gender=Fem Number=Sing	w13	nmod	médail
 </name>
 .	.	.	PUNCT	-	w14	punct	recevoir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	w8
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s135">
+<s id="ParlaMint-FR_2022-06-28-O1169.s135" senti_3="Positive" senti_6="mixed positive" senti_n="3.893">
 À	À	à	ADP	-	w1	case	titre	NOUN	Gender=Masc Number=Sing	w3
 ce	ce	ce	DET	Gender=Masc Number=Sing PronType=Dem	w2	det	titre	NOUN	Gender=Masc Number=Sing	w3
 titre	titre	titre	NOUN	Gender=Masc Number=Sing	w3	obl:mod	devenir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	w6
@@ -1387,7 +1387,7 @@ père	père	père	NOUN	Gender=Masc Number=Sing	w15	conj	grand-mère	NOUN	Gender=
 <g/>
 .	.	.	PUNCT	-	w16	punct	devenir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	w6
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s136">
+<s id="ParlaMint-FR_2022-06-28-O1169.s136" senti_3="Positive" senti_6="positive" senti_n="5.204">
 Ce	Ce	ce	PRON	Gender=Masc Number=Sing Person=3 PronType=Dem	w1	nsubj	honneur	NOUN	Gender=Masc Number=Sing	w6
 fut	fut	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	w2	cop	honneur	NOUN	Gender=Masc Number=Sing	w6
 leur	leur	son	DET	Number=Sing Number[psor]=Plur Person[psor]=3 Poss=Yes PronType=Prs	w3	det	honneur	NOUN	Gender=Masc Number=Sing	w6
@@ -1397,7 +1397,7 @@ honneur	honneur	honneur	NOUN	Gender=Masc Number=Sing	w6	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	w7	punct	honneur	NOUN	Gender=Masc Number=Sing	w6
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s137">
+<s id="ParlaMint-FR_2022-06-28-O1169.s137" senti_3="Positive" senti_6="mixed positive" senti_n="4.202">
 À	À	à	ADP	-	w1	case	enfant	NOUN	Number=Plur	w3
 leurs	leurs	son	DET	Number=Plur Number[psor]=Plur Person[psor]=3 Poss=Yes PronType=Prs	w2	det	enfant	NOUN	Number=Plur	w3
 enfants	enfants	enfant	NOUN	Number=Plur	w3	obl:mod	transmettre	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w15
@@ -1450,7 +1450,7 @@ battus	battus	battre	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w38	c
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.13" lang="français">
 <note type="kinesic:applause" content="Applaudissements"/>
-<s id="ParlaMint-FR_2022-06-28-O1169.s138">
+<s id="ParlaMint-FR_2022-06-28-O1169.s138" senti_3="Negative" senti_6="mixed negative" senti_n="0.854">
 Ma	Ma	son	DET	Gender=Fem Number=Sing Number[psor]=Sing Person[psor]=1 Poss=Yes PronType=Prs	w1	det	famille	NOUN	Gender=Fem Number=Sing	w2
 famille	famille	famille	NOUN	Gender=Fem Number=Sing	w2	dislocated	mère	NOUN	Gender=Fem Number=Sing	w8
 <g/>
@@ -1498,7 +1498,7 @@ vous	vous	il	PRON	Number=Plur Person=2 PronType=Prs	w33	obl:mod	tracer	VERB	Gend
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.14" lang="français">
 <note type="kinesic:applause" content="Applaudissements"/>
-<s id="ParlaMint-FR_2022-06-28-O1169.s139">
+<s id="ParlaMint-FR_2022-06-28-O1169.s139" senti_3="Positive" senti_6="mixed positive" senti_n="4.402">
 Mon	Mon	son	DET	Number=Sing Number[psor]=Sing Person[psor]=1 Poss=Yes PronType=Prs	w1	det	histoire	NOUN	Gender=Fem Number=Sing	w2
 histoire	histoire	histoire	NOUN	Gender=Fem Number=Sing	w2	dislocated	celui	PRON	Gender=Fem Number=Sing Person=3 PronType=Dem	w6
 <g/>
@@ -1526,7 +1526,7 @@ des	des	un	DET	Definite=Ind Number=Plur PronType=Art	w20	det	étude	NOUN	Gender=
 supérieures	supérieures	supérieur	ADJ	Gender=Fem Number=Plur	w22	amod	étude	NOUN	Gender=Fem Number=Plur	w21
 ;	;	;	PUNCT	-	w23	punct	celui	PRON	Gender=Fem Number=Sing Person=3 PronType=Dem	w6
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s140">
+<s id="ParlaMint-FR_2022-06-28-O1169.s140" senti_3="Neutral" senti_6="neutral postive" senti_n="2.548">
 qui	qui	qui	PRON	PronType=Rel	w1	nsubj	pouvoir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w22
 <g/>
 ,	,	,	PUNCT	-	w2	punct	devenir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w3
@@ -1561,7 +1561,7 @@ main	main	main	NOUN	Gender=Fem Number=Sing	w27	obl:mod	prendre	VERB	VerbForm=Inf
 <g/>
 .	.	.	PUNCT	-	w28	punct	pouvoir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w22
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s141">
+<s id="ParlaMint-FR_2022-06-28-O1169.s141" senti_3="Positive" senti_6="mixed positive" senti_n="3.949">
 Parce	Parce	parce	ADV	-	w1	mark	ce	PRON	Gender=Masc Person=3 PronType=Dem	w5
 que	que	que	SCONJ	-	w2	fixed	parce	ADV	-	w1
 c'	c'	ce	PRON	Gender=Masc Number=Sing Person=3 PronType=Dem	w3	nsubj	ce	PRON	Gender=Masc Person=3 PronType=Dem	w5
@@ -1602,7 +1602,7 @@ enfants	enfants	enfant	NOUN	Number=Plur	w29	nmod	chacun	PRON	Gender=Masc Number=
 </s>
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.15" lang="français">
-<s id="ParlaMint-FR_2022-06-28-O1169.s142">
+<s id="ParlaMint-FR_2022-06-28-O1169.s142" senti_3="Negative" senti_6="negative" senti_n="0.351">
 Je	Je	il	PRON	Number=Sing Person=1 PronType=Prs	w1	nsubj	livrer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w3
 vous	vous	il	PRON	Number=Plur Person=2 PronType=Prs	w2	nsubj	livrer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w3
 livre	livre	livrer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w3	root	-	-	-	-
@@ -1622,7 +1622,7 @@ doute	doute	doute	NOUN	Gender=Masc Number=Sing	w16	acl:relcl	pays	NOUN	Gender=Ma
 <g/>
 .	.	.	PUNCT	-	w17	punct	livrer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w3
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s143">
+<s id="ParlaMint-FR_2022-06-28-O1169.s143" senti_3="Positive" senti_6="mixed positive" senti_n="3.759">
 Ces	Ces	ce	DET	Number=Plur PronType=Dem	w1	det	message	NOUN	Gender=Masc Number=Plur	w2
 messages	messages	message	NOUN	Gender=Masc Number=Plur	w2	obl:mod	retrouver	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w6
 <g/>
@@ -1663,7 +1663,7 @@ barbarie	barbarie	barbarie	NOUN	Gender=Fem Number=Sing	w36	obl:mod	remporter	VER
 <g/>
 .	.	.	PUNCT	-	w37	punct	retrouver	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w6
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s144">
+<s id="ParlaMint-FR_2022-06-28-O1169.s144" senti_3="Neutral" senti_6="neutral postive" senti_n="2.632">
 «	«	«	PUNCT	-	w1	punct	avoir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w15
 Tout	Tout	tout	DET	Gender=Masc Number=Sing PronType=Ind	w2	det	homme	NOUN	Gender=Masc Number=Sing	w3
 homme	homme	homme	NOUN	Gender=Masc Number=Sing	w3	nsubj	avoir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w15
@@ -1694,7 +1694,7 @@ République	République	république	NOUN	Gender=Fem Number=Sing	w24	nmod	territo
 </name>
 .	.	.	PUNCT	-	w25	punct	avoir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w15
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s145">
+<s id="ParlaMint-FR_2022-06-28-O1169.s145" senti_3="Positive" senti_6="mixed positive" senti_n="3.992">
 [	[	[	PUNCT	-	w1	punct	assurer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w6
 <g/>
 …	…	…	PUNCT	-	w2	punct	assurer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w6
@@ -1720,7 +1720,7 @@ développement	développement	développement	NOUN	Gender=Masc Number=Sing	w19	ob
 <g/>
 .	.	.	PUNCT	-	w20	punct	assurer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w6
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s146">
+<s id="ParlaMint-FR_2022-06-28-O1169.s146" senti_3="Positive" senti_6="mixed positive" senti_n="4.246">
 [	[	[	PUNCT	-	w1	punct	elle	PRON	Gender=Fem Number=Sing Person=3 PronType=Prs	w2
 <g/>
 Elle	Elle	elle	PRON	Gender=Fem Number=Sing Person=3 PronType=Prs	w2	nsubj	garantir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4
@@ -1757,12 +1757,12 @@ culture	culture	culture	NOUN	Gender=Fem Number=Sing	w26	conj	instruction	NOUN	Ge
 <g/>
 .	.	.	PUNCT	-	w27	punct	garantir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s147">
+<s id="ParlaMint-FR_2022-06-28-O1169.s147" senti_3="Neutral" senti_6="neutral postive" senti_n="3.324">
 »	»	»	PUNCT	-	w1	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.16" lang="français">
-<s id="ParlaMint-FR_2022-06-28-O1169.s148">
+<s id="ParlaMint-FR_2022-06-28-O1169.s148" senti_3="Negative" senti_6="negative" senti_n="0.229">
 Voilà	Voilà	voilà	VERB	-	w1	root	-	-	-	-
 qui	qui	qui	PRON	PronType=Rel	w2	nsubj	résonner	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 résonne	résonne	résonner	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	ccomp	voilà	VERB	-	w1
@@ -1796,7 +1796,7 @@ s'	s'	se	PRON	Person=3 PronType=Prs Reflex=Yes	w23	expl:pass	élever	VERB	VerbFo
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.17" lang="français">
 <note type="kinesic:applause" content="Applaudissements"/>
-<s id="ParlaMint-FR_2022-06-28-O1169.s149">
+<s id="ParlaMint-FR_2022-06-28-O1169.s149" senti_3="Positive" senti_6="mixed positive" senti_n="4.163">
 L'	L'	le	DET	Definite=Def Number=Sing PronType=Art	w1	det	enfant	NOUN	Number=Sing	w2
 <g/>
 enfant	enfant	enfant	NOUN	Number=Sing	w2	nsubj	voir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w33
@@ -1842,13 +1842,13 @@ pleure	pleure	pleurer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin
 <g/>
 .	.	.	PUNCT	-	w38	punct	voir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w33
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s150">
+<s id="ParlaMint-FR_2022-06-28-O1169.s150" senti_3="Positive" senti_6="mixed positive" senti_n="3.564">
 Ils	Ils	il	PRON	Gender=Masc Number=Plur Person=3 PronType=Prs	w1	nsubj	porter	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w3
 me	me	se	PRON	Number=Sing Person=1 PronType=Prs	w2	obj	porter	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w3
 portent	portent	porter	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w3	root	-	-	-	-
 ;	;	;	PUNCT	-	w4	punct	porter	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w3
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s151">
+<s id="ParlaMint-FR_2022-06-28-O1169.s151" senti_3="Positive" senti_6="positive" senti_n="5.229">
 leur	leur	son	DET	Number=Sing Number[psor]=Plur Person[psor]=3 Poss=Yes PronType=Prs	w1	det	soutien	NOUN	Gender=Masc Number=Sing	w2
 soutien	soutien	soutien	NOUN	Gender=Masc Number=Sing	w2	nsubj	force	NOUN	Gender=Fem Number=Sing	w10
 et	et	et	CCONJ	-	w3	cc	joie	NOUN	Gender=Fem Number=Sing	w5
@@ -1862,7 +1862,7 @@ force	force	force	NOUN	Gender=Fem Number=Sing	w10	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	w11	punct	force	NOUN	Gender=Fem Number=Sing	w10
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s152">
+<s id="ParlaMint-FR_2022-06-28-O1169.s152" senti_3="Negative" senti_6="mixed negative" senti_n="0.758">
 Sans	Sans	sans	ADP	-	w1	case	lui	PRON	Gender=Masc Number=Plur Person=3 PronType=Prs	w2
 eux	eux	lui	PRON	Gender=Masc Number=Plur Person=3 PronType=Prs	w2	obl:mod	soi	PRON	Number=Sing Person=1 PronType=Prs	w14
 <g/>
@@ -1893,7 +1893,7 @@ là	là	là	ADV	-	w21	conj	soi	PRON	Number=Sing Person=1 PronType=Prs	w14
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.18" lang="français">
 <note type="kinesic:applause" content="Applaudissements"/>
-<s id="ParlaMint-FR_2022-06-28-O1169.s153">
+<s id="ParlaMint-FR_2022-06-28-O1169.s153" senti_3="Neutral" senti_6="neutral negative" senti_n="2.406">
 Bien	Bien	bien	ADV	-	w1	advmod	avoir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w6
 sûr	sûr	sûr	ADJ	Gender=Masc Number=Sing	w2	fixed	bien	ADV	-	w1
 <g/>
@@ -1922,7 +1922,7 @@ politique	politique	politique	ADJ	Gender=Fem Number=Sing	w21	amod	vie	NOUN	Gende
 <g/>
 .	.	.	PUNCT	-	w22	punct	accéder	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w10
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s154">
+<s id="ParlaMint-FR_2022-06-28-O1169.s154" senti_3="Neutral" senti_6="neutral postive" senti_n="2.699">
 La	La	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w1	det	configuration	NOUN	Gender=Fem Number=Sing	w2
 configuration	configuration	configuration	NOUN	Gender=Fem Number=Sing	w2	nsubj	inédit	ADJ	Gender=Fem Number=Sing	w7
 de	de	de	ADP	-	w3	case	assemblée	NOUN	Gender=Fem Number=Sing	w5
@@ -1933,7 +1933,7 @@ inédite	inédite	inédit	ADJ	Gender=Fem Number=Sing	w7	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	w8	punct	inédit	ADJ	Gender=Fem Number=Sing	w7
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s155">
+<s id="ParlaMint-FR_2022-06-28-O1169.s155" senti_3="Positive" senti_6="positive" senti_n="4.834">
 Les	Les	le	DET	Definite=Def Number=Plur PronType=Art	w1	det	français	NOUN	Gender=Masc Number=Plur	w2
 <name type="MISC">
 Français	Français	français	NOUN	Gender=Masc Number=Plur	w2	nsubj	enjoindre	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w4
@@ -1955,7 +1955,7 @@ battre	battre	battre	VERB	VerbForm=Inf	w15	ccomp	plutôt	ADV	-	w11
 <g/>
 .	.	.	PUNCT	-	w16	punct	enjoindre	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w4
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s156">
+<s id="ParlaMint-FR_2022-06-28-O1169.s156" senti_3="Positive" senti_6="mixed positive" senti_n="4.010">
 Ils	Ils	il	PRON	Gender=Masc Number=Plur Person=3 PronType=Prs	w1	nsubj	choisir	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w4
 nous	nous	il	PRON	Number=Plur Person=1 PronType=Prs	w2	nsubj	choisir	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w4
 ont	ont	avoir	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w3	aux:tense	choisir	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w4
@@ -1969,7 +1969,7 @@ ont	ont	avoir	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w8	aux:t
 <g/>
 .	.	.	PUNCT	-	w10	punct	choisir	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w4
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s157">
+<s id="ParlaMint-FR_2022-06-28-O1169.s157" senti_3="Positive" senti_6="mixed positive" senti_n="4.027">
 Nous	Nous	il	PRON	Number=Plur Person=1 PronType=Prs	w1	nsubj	partager	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2
 partageons	partageons	partager	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 <g/>
@@ -2016,7 +2016,7 @@ concitoyens	concitoyens	concitoyen	NOUN	Gender=Masc Number=Plur	w36	obl:mod	naî
 <g/>
 .	.	.	PUNCT	-	w37	punct	partager	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s158">
+<s id="ParlaMint-FR_2022-06-28-O1169.s158" senti_3="Positive" senti_6="mixed positive" senti_n="4.198">
 L'	L'	le	DET	Definite=Def Number=Sing PronType=Art	w1	det	espoir	NOUN	Gender=Masc Number=Sing	w2
 <g/>
 espoir	espoir	espoir	NOUN	Gender=Masc Number=Sing	w2	root	-	-	-	-
@@ -2058,7 +2058,7 @@ Français	Français	français	NOUN	Gender=Masc Number=Plur	w31	conj	France	PROPN
 </s>
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.19" lang="français">
-<s id="ParlaMint-FR_2022-06-28-O1169.s159">
+<s id="ParlaMint-FR_2022-06-28-O1169.s159" senti_3="Positive" senti_6="positive" senti_n="5.037">
 Notre	Notre	son	DET	Number=Sing Number[psor]=Plur Person[psor]=1 Poss=Yes PronType=Prs	w1	det	assemblée	NOUN	Gender=Fem Number=Sing	w2
 assemblée	assemblée	assemblée	NOUN	Gender=Fem Number=Sing	w2	nsubj	devoir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w10
 <g/>
@@ -2081,7 +2081,7 @@ pays	pays	pays	NOUN	Gender=Masc Number=Sing	w16	nmod	chance	NOUN	Gender=Fem Numb
 <g/>
 .	.	.	PUNCT	-	w17	punct	devoir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w10
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s160">
+<s id="ParlaMint-FR_2022-06-28-O1169.s160" senti_3="Positive" senti_6="positive" senti_n="4.663">
 Elle	Elle	elle	PRON	Gender=Fem Number=Sing Person=3 PronType=Prs	w1	nsubj	le	PRON	Gender=Masc Number=Sing Person=3 PronType=Prs	w2
 le	le	le	PRON	Gender=Masc Number=Sing Person=3 PronType=Prs	w2	root	-	-	-	-
 sera	sera	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w3	cop	le	PRON	Gender=Masc Number=Sing Person=3 PronType=Prs	w2
@@ -2105,7 +2105,7 @@ dialogue	dialogue	dialogue	NOUN	Gender=Masc Number=Sing	w18	nmod	voie	NOUN	Gende
 <g/>
 .	.	.	PUNCT	-	w19	punct	douter	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w8
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s161">
+<s id="ParlaMint-FR_2022-06-28-O1169.s161" senti_3="Positive" senti_6="mixed positive" senti_n="4.432">
 J'	J'	je	PRON	Number=Sing Person=1 PronType=Prs	w1	nsubj	garant	NOUN	Gender=Fem Number=Sing	w5
 <g/>
 en	en	en	PRON	Person=3 PronType=Prs	w2	nmod	garant	NOUN	Gender=Fem Number=Sing	w5
@@ -2116,7 +2116,7 @@ exigeante	exigeante	exigeant	ADJ	Gender=Fem Number=Sing	w6	amod	garant	NOUN	Gend
 <g/>
 .	.	.	PUNCT	-	w7	punct	garant	NOUN	Gender=Fem Number=Sing	w5
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s162">
+<s id="ParlaMint-FR_2022-06-28-O1169.s162" senti_3="Positive" senti_6="mixed positive" senti_n="4.128">
 Ce	Ce	ce	DET	Gender=Masc Number=Sing PronType=Dem	w1	det	dialogue	NOUN	Gender=Masc Number=Sing	w2
 dialogue	dialogue	dialogue	NOUN	Gender=Masc Number=Sing	w2	nsubj	fondation	NOUN	Gender=Fem Number=Sing	w5
 sera	sera	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w3	cop	fondation	NOUN	Gender=Fem Number=Sing	w5
@@ -2136,7 +2136,7 @@ compromis	compromis	compromis	NOUN	Gender=Masc Number=Plur	w16	conj	consensus	NO
 <g/>
 .	.	.	PUNCT	-	w17	punct	fondation	NOUN	Gender=Fem Number=Sing	w5
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s163">
+<s id="ParlaMint-FR_2022-06-28-O1169.s163" senti_3="Positive" senti_6="mixed positive" senti_n="4.329">
 Cette	Cette	ce	DET	Gender=Fem Number=Sing PronType=Dem	w1	det	voie	NOUN	Gender=Fem Number=Sing	w2
 voie	voie	voie	NOUN	Gender=Fem Number=Sing	w2	nsubj	possible	ADJ	Gender=Fem Number=Sing	w4
 est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	cop	possible	ADJ	Gender=Fem Number=Sing	w4
@@ -2144,7 +2144,7 @@ possible	possible	possible	ADJ	Gender=Fem Number=Sing	w4	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	w5	punct	possible	ADJ	Gender=Fem Number=Sing	w4
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s164">
+<s id="ParlaMint-FR_2022-06-28-O1169.s164" senti_3="Positive" senti_6="positive" senti_n="5.006">
 Les	Les	le	DET	Definite=Def Number=Plur PronType=Art	w1	det	commissaire	NOUN	Gender=Masc Number=Plur	w2
 commissaires	commissaires	commissaire	NOUN	Gender=Masc Number=Plur	w2	nsubj	pouvoir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w6
 aux	à|le	à|le	ADP|DET	-|Definite=Def Number=Plur PronType=Art	w3|w4	case|det	loi	NOUN	Gender=Fem Number=Plur	w5
@@ -2182,7 +2182,7 @@ fabrique	fabrique	fabrique	NOUN	Gender=Fem Number=Sing	w30	nmod	marque	NOUN	Gend
 <g/>
 .	.	.	PUNCT	-	w31	punct	pouvoir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w6
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s165">
+<s id="ParlaMint-FR_2022-06-28-O1169.s165" senti_3="Positive" senti_6="mixed positive" senti_n="3.539">
 Cette	Cette	ce	DET	Gender=Fem Number=Sing PronType=Dem	w1	det	vision	NOUN	Gender=Fem Number=Sing	w2
 vision	vision	vision	NOUN	Gender=Fem Number=Sing	w2	dislocated	faire	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w7
 <g/>
@@ -2202,7 +2202,7 @@ par	par	par	ADP	-	w14	case	conviction	NOUN	Gender=Fem Number=Sing	w15
 conviction	conviction	conviction	NOUN	Gender=Fem Number=Sing	w15	conj	faire	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w7
 ;	;	;	PUNCT	-	w16	punct	faire	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w7
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s166">
+<s id="ParlaMint-FR_2022-06-28-O1169.s166" senti_3="Positive" senti_6="mixed positive" senti_n="3.593">
 je	je	il	PRON	Number=Sing Person=1 PronType=Prs	w1	nsubj	développer	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w4
 l'	l'	le	PRON	Number=Sing Person=3 PronType=Prs	w2	obj	développer	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w4
 <g/>
@@ -2222,7 +2222,7 @@ renforcé	renforcé	renforcer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=P
 </s>
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.20" lang="français">
-<s id="ParlaMint-FR_2022-06-28-O1169.s167">
+<s id="ParlaMint-FR_2022-06-28-O1169.s167" senti_3="Neutral" senti_6="neutral postive" senti_n="3.283">
 <name type="MISC">
 Mes	Mes	son	DET	Number=Plur Number[psor]=Sing Person[psor]=1 Poss=Yes PronType=Prs	w1	det	collègue	NOUN	Gender=Masc Number=Plur	w3
 chers	chers	cher	ADJ	Gender=Masc Number=Plur	w2	amod	collègue	NOUN	Gender=Masc Number=Plur	w3
@@ -2248,7 +2248,7 @@ nous	nous	il	PRON	Number=Plur Person=1 PronType=Prs	w17	nmod	dialogue	NOUN	Gende
 <g/>
 .	.	.	PUNCT	-	w18	punct	parler	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w7
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s168">
+<s id="ParlaMint-FR_2022-06-28-O1169.s168" senti_3="Neutral" senti_6="neutral postive" senti_n="3.007">
 Ce	Ce	ce	DET	Gender=Masc Number=Sing PronType=Dem	w1	det	dialogue	NOUN	Gender=Masc Number=Sing	w2
 dialogue	dialogue	dialogue	NOUN	Gender=Masc Number=Sing	w2	obl:mod	devoir	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w6
 <g/>
@@ -2267,7 +2267,7 @@ Français	Français	français	NOUN	Gender=Masc Number=Plur	w12	obl:arg	avoir	VER
 </name>
 ;	;	;	PUNCT	-	w13	punct	devoir	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w6
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s169">
+<s id="ParlaMint-FR_2022-06-28-O1169.s169" senti_3="Neutral" senti_6="neutral postive" senti_n="2.649">
 c'	c'	ce	PRON	Gender=Masc Number=Sing Person=3 PronType=Dem	w1	nsubj	évidence	NOUN	Gender=Fem Number=Sing	w4
 <g/>
 est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2	cop	évidence	NOUN	Gender=Fem Number=Sing	w4
@@ -2276,7 +2276,7 @@ une	une	un	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	w3	det	évidence
 <g/>
 .	.	.	PUNCT	-	w5	punct	évidence	NOUN	Gender=Fem Number=Sing	w4
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s170">
+<s id="ParlaMint-FR_2022-06-28-O1169.s170" senti_3="Positive" senti_6="positive" senti_n="4.902">
 Faire	Faire	faire	VERB	VerbForm=Inf	w1	dislocated	être	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w7
 de	de	de	ADP	-	w2	case	politique	NOUN	Gender=Fem Number=Sing	w4
 la	la	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w3	det	politique	NOUN	Gender=Fem Number=Sing	w4
@@ -2305,7 +2305,7 @@ vie	vie	vie	NOUN	Gender=Fem Number=Sing	w20	obj	transformer	VERB	VerbForm=Inf	w1
 </s>
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.21" lang="français">
-<s id="ParlaMint-FR_2022-06-28-O1169.s171">
+<s id="ParlaMint-FR_2022-06-28-O1169.s171" senti_3="Positive" senti_6="mixed positive" senti_n="3.559">
 Notre	Notre	son	DET	Number=Sing Number[psor]=Plur Person[psor]=1 Poss=Yes PronType=Prs	w1	det	assemblée	NOUN	Gender=Fem Number=Sing	w2
 assemblée	assemblée	assemblée	NOUN	Gender=Fem Number=Sing	w2	nsubj	devoir	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w3
 devra	devra	devoir	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w3	root	-	-	-	-
@@ -2331,7 +2331,7 @@ territoire	territoire	territoire	NOUN	Gender=Masc Number=Sing	w21	obl:mod	aller	
 <g/>
 .	.	.	PUNCT	-	w22	punct	devoir	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w3
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s172">
+<s id="ParlaMint-FR_2022-06-28-O1169.s172" senti_3="Positive" senti_6="mixed positive" senti_n="4.386">
 Je	Je	il	PRON	Number=Sing Person=1 PronType=Prs	w1	nsubj	penser	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 pense	pense	penser	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 en	en	en	ADP	-	w3	advmod	penser	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
@@ -2351,7 +2351,7 @@ profondément	profondément	profondément	ADV	-	w14	advmod	aimer	VERB	Mood=Ind N
 <g/>
 .	.	.	PUNCT	-	w15	punct	penser	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s173">
+<s id="ParlaMint-FR_2022-06-28-O1169.s173" senti_3="Neutral" senti_6="neutral negative" senti_n="2.490">
 Chaque	Chaque	chaque	DET	Number=Sing PronType=Ind	w1	det	année	NOUN	Gender=Fem Number=Sing	w2
 année	année	année	NOUN	Gender=Fem Number=Sing	w2	obl:mod	rendre	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w17
 <g/>
@@ -2380,7 +2380,7 @@ d'	d'	de	ADP	-	w21	case	lui	PRON	Gender=Masc Number=Plur Person=3 PronType=Prs	w
 eux	eux	lui	PRON	Gender=Masc Number=Plur Person=3 PronType=Prs	w22	nmod	un	PRON	Gender=Masc Number=Sing Person=3 PronType=Ind	w20
 ;	;	;	PUNCT	-	w23	punct	rendre	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w17
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s174">
+<s id="ParlaMint-FR_2022-06-28-O1169.s174" senti_3="Positive" senti_6="mixed positive" senti_n="3.634">
 chaque	chaque	chaque	DET	Number=Sing PronType=Ind	w1	det	année	NOUN	Gender=Fem Number=Sing	w2
 année	année	année	NOUN	Gender=Fem Number=Sing	w2	nmod	président	NOUN	Gender=Fem Number=Sing	w5
 <g/>
@@ -2407,7 +2407,7 @@ faire	faire	faire	VERB	VerbForm=Inf	w16	xcomp	continuer	VERB	Mood=Ind Number=Sin
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.22" lang="français">
 <note type="kinesic:applause" content="Applaudissements"/>
-<s id="ParlaMint-FR_2022-06-28-O1169.s175">
+<s id="ParlaMint-FR_2022-06-28-O1169.s175" senti_3="Neutral" senti_6="neutral postive" senti_n="3.285">
 Les	Les	le	DET	Definite=Def Number=Plur PronType=Art	w1	det	outre-mer	NOUN	Gender=Masc Number=Plur	w2
 outre-mer	outre-mer	outre-mer	NOUN	Gender=Masc Number=Plur	w2	nsubj	présent	ADJ	Gender=Masc Number=Plur	w8
 sont	sont	être	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w3	cop	présent	ADJ	Gender=Masc Number=Plur	w8
@@ -2453,7 +2453,7 @@ l'	l'	le	DET	Definite=Def Number=Sing PronType=Art	w27	det	égalité	NOUN	Gender
 <g/>
 .	.	.	PUNCT	-	w32	punct	présent	ADJ	Gender=Masc Number=Plur	w8
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s176">
+<s id="ParlaMint-FR_2022-06-28-O1169.s176" senti_3="Positive" senti_6="positive" senti_n="5.176">
 »	»	»	PUNCT	-	w1	punct	faiblir	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w7
 Mon	Mon	son	DET	Number=Sing Number[psor]=Sing Person[psor]=1 Poss=Yes PronType=Prs	w2	det	engagement	NOUN	Gender=Masc Number=Sing	w3
 engagement	engagement	engagement	NOUN	Gender=Masc Number=Sing	w3	nsubj	faiblir	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w7
@@ -2505,7 +2505,7 @@ universalité	universalité	universalité	NOUN	Gender=Fem Number=Sing	w38	nmod	r
 </s>
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.23" lang="français">
-<s id="ParlaMint-FR_2022-06-28-O1169.s177">
+<s id="ParlaMint-FR_2022-06-28-O1169.s177" senti_3="Positive" senti_6="positive" senti_n="4.778">
 Dans	Dans	dans	ADP	-	w1	case	hémicycle	NOUN	Gender=Masc Number=Sing	w3
 cet	cet	ce	DET	Gender=Masc Number=Sing PronType=Dem	w2	det	hémicycle	NOUN	Gender=Masc Number=Sing	w3
 hémicycle	hémicycle	hémicycle	NOUN	Gender=Masc Number=Sing	w3	obl:mod	ouvrir	VERB	Mood=Imp Number=Plur Person=1 Tense=Pres VerbForm=Fin	w7
@@ -2522,7 +2522,7 @@ chapitre	chapitre	chapitre	NOUN	Gender=Masc Number=Sing	w11	obj	ouvrir	VERB	Mood
 <g/>
 .	.	.	PUNCT	-	w12	punct	ouvrir	VERB	Mood=Imp Number=Plur Person=1 Tense=Pres VerbForm=Fin	w7
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s178">
+<s id="ParlaMint-FR_2022-06-28-O1169.s178" senti_3="Positive" senti_6="positive" senti_n="4.873">
 Vous	Vous	il	PRON	Number=Plur Person=2 PronType=Prs	w1	nsubj	pouvoir	VERB	Mood=Ind Number=Plur Person=2 Tense=Fut VerbForm=Fin	w2
 pourrez	pourrez	pouvoir	VERB	Mood=Ind Number=Plur Person=2 Tense=Fut VerbForm=Fin	w2	root	-	-	-	-
 compter	compter	compter	VERB	VerbForm=Inf	w3	xcomp	pouvoir	VERB	Mood=Ind Number=Plur Person=2 Tense=Fut VerbForm=Fin	w2
@@ -2534,7 +2534,7 @@ moi	moi	soi	PRON	Number=Sing Person=1 PronType=Prs	w5	obl:mod	compter	VERB	VerbF
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u17.24" lang="français">
 <note type="kinesic:applause" content="Mmes et MM. les députés se lèvent et applaudissent longuement"/>
-<s id="ParlaMint-FR_2022-06-28-O1169.s179">
+<s id="ParlaMint-FR_2022-06-28-O1169.s179" senti_3="Neutral" senti_6="neutral negative" senti_n="2.138">
 Le	Le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w1	det	temps	NOUN	Gender=Masc Number=Sing	w2
 temps	temps	temps	NOUN	Gender=Masc Number=Sing	w2	obl:mod	obliger	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w7
 presse	presse	presse	NOUN	Gender=Fem Number=Sing	w3	nmod	temps	NOUN	Gender=Masc Number=Sing	w2
@@ -2546,7 +2546,7 @@ oblige	oblige	obliger	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin
 <g/>
 .	.	.	PUNCT	-	w8	punct	obliger	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w7
 </s>
-<s id="ParlaMint-FR_2022-06-28-O1169.s180">
+<s id="ParlaMint-FR_2022-06-28-O1169.s180" senti_3="Positive" senti_6="positive" senti_n="5.162">
 Pour	Pour	pour	ADP	-	w1	case	français	NOUN	Gender=Masc Number=Plur	w4
 tous	tous	tout	ADJ	Gender=Masc Number=Plur	w2	amod	français	NOUN	Gender=Masc Number=Plur	w4
 les	les	le	DET	Definite=Def Number=Plur PronType=Art	w3	det	français	NOUN	Gender=Masc Number=Plur	w4
@@ -2606,9 +2606,9 @@ République	République	république	NOUN	Gender=Fem Number=Sing	w41	appos	bien	N
 </speech>
 <note type="head" content="Ordre du jour de la prochaine séance"/>
 <note type="debate" content="FIN_SEAN_1_2"/>
-<speech id="ParlaMint-FR_2022-06-28-O1169.u18" text_id="ParlaMint-FR_2022-06-28-O1169" subcorpus="COVID,War" lang="français" body="Chambre basse" term="16e législature" session="Session ordinaire 2021-2022 (CRSANR5L16S2022O1N169)" meeting="-" sitting="1. séance" agenda="-" date="2022-06-28" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 1, 28/06/2022" speaker_role="Invité" speaker_id="PA606171" speaker_name="Ferrand, Richard" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1962">
+<speech id="ParlaMint-FR_2022-06-28-O1169.u18" text_id="ParlaMint-FR_2022-06-28-O1169" subcorpus="COVID,War" lang="français" body="Chambre basse" term="16e législature" session="Session ordinaire 2021-2022 (CRSANR5L16S2022O1N169)" meeting="-" sitting="1. séance" agenda="-" date="2022-06-28" title="Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 1, 28/06/2022" speaker_role="Invité" topic="Other" speaker_id="PA606171" speaker_name="Ferrand, Richard" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1962">
 <p id="ParlaMint-FR_2022-06-28-O1169.u18.1" lang="français">
-<s id="ParlaMint-FR_2022-06-28-O1169.s181">
+<s id="ParlaMint-FR_2022-06-28-O1169.s181" senti_3="Neutral" senti_6="neutral negative" senti_n="2.065">
 Prochaine	Prochaine	prochain	ADJ	Gender=Fem Number=Sing	w1	amod	séance	NOUN	Gender=Fem Number=Sing	w2
 séance	séance	séance	NOUN	Gender=Fem Number=Sing	w2	root	-	-	-	-
 <g/>
@@ -2623,7 +2623,7 @@ heures	heures	heure	NOUN	Gender=Fem Number=Plur	w8	nmod	séance	NOUN	Gender=Fem 
 </s>
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u18.2" lang="français">
-<s id="ParlaMint-FR_2022-06-28-O1169.s182">
+<s id="ParlaMint-FR_2022-06-28-O1169.s182" senti_3="Neutral" senti_6="neutral negative" senti_n="2.418">
 Nomination	Nomination	nomination	NOUN	Gender=Fem Number=Sing	w1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	w2	punct	scrutin	NOUN	Gender=Masc Number=Sing	w5
@@ -2649,7 +2649,7 @@ secrétaires	secrétaires	secrétaire	NOUN	Gender=Masc Number=Plur	w17	conj	nomi
 </s>
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u18.3" lang="français">
-<s id="ParlaMint-FR_2022-06-28-O1169.s183">
+<s id="ParlaMint-FR_2022-06-28-O1169.s183" senti_3="Neutral" senti_6="neutral postive" senti_n="3.412">
 Installation	Installation	installation	NOUN	Gender=Fem Number=Sing	w1	root	-	-	-	-
 du	de|le	de|le	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	w2|w3	case|det	bureau	NOUN	Gender=Masc Number=Sing	w4
 bureau	bureau	bureau	NOUN	Gender=Masc Number=Sing	w4	nmod	installation	NOUN	Gender=Fem Number=Sing	w1
@@ -2658,7 +2658,7 @@ bureau	bureau	bureau	NOUN	Gender=Masc Number=Sing	w4	nmod	installation	NOUN	Gend
 </s>
 </p>
 <p id="ParlaMint-FR_2022-06-28-O1169.u18.4" lang="français">
-<s id="ParlaMint-FR_2022-06-28-O1169.s184">
+<s id="ParlaMint-FR_2022-06-28-O1169.s184" senti_3="Neutral" senti_6="neutral postive" senti_n="2.851">
 La	La	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w1	det	séance	NOUN	Gender=Fem Number=Sing	w2
 séance	séance	séance	NOUN	Gender=Fem Number=Sing	w2	nsubj:pass	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w4
 est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	aux:pass	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w4

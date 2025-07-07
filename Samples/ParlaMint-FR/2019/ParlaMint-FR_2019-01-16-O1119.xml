@@ -20,12 +20,20 @@
                <resp xml:lang="fr">Encodage du corpus selon ParlaMint TEI XML</resp>
                <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName>The CLARIN research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="417" xml:lang="en">417 speeches</measure>
@@ -35,12 +43,12 @@
          </extent>
          <publicationStmt>
             <publisher>CLARIN research infrastructure</publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="fr">This work is licensed under the terms of the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -83,8 +91,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
          <change when="2022-12-26">
             <name>Giancarlo Luxardo</name>: ParlaMint II update, vs 3.0.</change>
       </revisionDesc>
@@ -94,7 +104,7 @@
          <div xml:id="ParlaMint-FR_2019-01-16-O1119.d1_1" n="1" type="debateSection">
             <head xml:id="ParlaMint-FR_2019-01-16-O1119.head1">Questions au Gouvernement</head>
             <note type="debate" xml:id="ParlaMint-FR_2019-01-16-O1119.note1">TITRE_TEXTE_DISCUSSION</note>
-            <u who="#PA606171" xml:id="ParlaMint-FR_2019-01-16-O1119.u1" ana="#chair">
+            <u who="#PA606171" xml:id="ParlaMint-FR_2019-01-16-O1119.u1" ana="#chair topic:other">
                <seg xml:id="ParlaMint-FR_2019-01-16-O1119.u1.1">L’ordre du jour appelle les questions au Gouvernement.</seg>
             </u>
             <gap reason="editorial">
@@ -104,7 +114,7 @@
          <div xml:id="ParlaMint-FR_2019-01-16-O1119.d2_2" n="2" type="debateSection">
             <head xml:id="ParlaMint-FR_2019-01-16-O1119.head2">Grand débat national</head>
             <note type="debate" xml:id="ParlaMint-FR_2019-01-16-O1119.note2">QG_1_1</note>
-            <u who="#PA606171" xml:id="ParlaMint-FR_2019-01-16-O1119.u2" ana="#regular">
+            <u who="#PA606171" xml:id="ParlaMint-FR_2019-01-16-O1119.u2" ana="#regular topic:other">
                <seg xml:id="ParlaMint-FR_2019-01-16-O1119.u2.1">La parole est à M. Sébastien Jumel.</seg>
             </u>
             <gap reason="editorial">
@@ -112,14 +122,14 @@
             </gap>
          </div>
          <div xml:id="ParlaMint-FR_2019-01-16-O1119.d3_48" n="396" type="debateSection">
-            <u who="#PA1874" xml:id="ParlaMint-FR_2019-01-16-O1119.u416" ana="#chair">
+            <u who="#PA1874" xml:id="ParlaMint-FR_2019-01-16-O1119.u416" ana="#chair topic:other">
                <seg xml:id="ParlaMint-FR_2019-01-16-O1119.u416.1">La suite de la discussion est renvoyée à la prochaine séance.</seg>
             </u>
          </div>
          <div xml:id="ParlaMint-FR_2019-01-16-O1119.d1_49" n="417" type="debateSection">
             <head xml:id="ParlaMint-FR_2019-01-16-O1119.head26">Ordre du jour de la prochaine séance</head>
             <note type="debate" xml:id="ParlaMint-FR_2019-01-16-O1119.note26">FIN_SEAN_1_2</note>
-            <u who="#PA1874" xml:id="ParlaMint-FR_2019-01-16-O1119.u417" ana="#chair">
+            <u who="#PA1874" xml:id="ParlaMint-FR_2019-01-16-O1119.u417" ana="#chair topic:lawcr">
                <seg xml:id="ParlaMint-FR_2019-01-16-O1119.u417.1">Prochaine séance, ce soir, à vingt et une heures trente :</seg>
                <seg xml:id="ParlaMint-FR_2019-01-16-O1119.u417.2">Suite de la discussion, en nouvelle lecture, du projet de loi de programmation 2018-2022 et de réforme pour la justice, et du projet de loi organique relatif au renforcement de l’organisation des juridictions.</seg>
                <seg xml:id="ParlaMint-FR_2019-01-16-O1119.u417.3">La séance est levée.</seg>

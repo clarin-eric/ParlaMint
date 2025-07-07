@@ -1,8 +1,8 @@
 <note type="head" content="Punkt 0"/>
 <note type="agendaItem" content="2017-05-18-0"/>
-<speech id="ParlaMint-DK_20170518100005" text_id="ParlaMint-DK-en_2017-05-18-20161-M99" subcorpus="Reference" lang="English" body="Unicameralism" term="Regeringen Lars Løkke Rasmussen III" session="20161" meeting="M99" sitting="-" agenda="-" date="2017-05-18" title="Hansard of the session of the Danish Parliament (Folketinget), 20161, M99 (2017-05-18), final version" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_mp="MP" speaker_minister="notMinister" speaker_party="DF" speaker_party_name="Dansk Folkeparti" party_status="-" party_orientation="Right" speaker_gender="F" speaker_birth="1947">
+<speech id="ParlaMint-DK_20170518100005" text_id="ParlaMint-DK-en_2017-05-18-20161-M99" subcorpus="Reference" lang="English" body="Unicameralism" term="Regeringen Lars Løkke Rasmussen III" session="20161" meeting="M99" sitting="-" agenda="-" date="2017-05-18" title="Hansard of the session of the Danish Parliament (Folketinget), 20161, M99 (2017-05-18), final version" speaker_role="Chairperson" topic="Government Operations" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_mp="MP" speaker_minister="notMinister" speaker_party="DF" speaker_party_name="Dansk Folkeparti" party_status="-" party_orientation="Right" speaker_gender="F" speaker_birth="1947">
 <p id="ParlaMint-DK_20170518100005.seg1" lang="English">
-<s id="ParlaMint-DK_20170518100005.seg1.1">
+<s id="ParlaMint-DK_20170518100005.seg1.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.826">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -10,7 +10,7 @@ open	open	open	ADJ	Degree=Pos	A10+,S1.2.1+,X6-,X5.2+,A7+	A10p	A10+: Open; Findin
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-DK_20170518100005.seg1.2">
+<s id="ParlaMint-DK_20170518100005.seg1.2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.937">
 Today	Today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t1
 there	there	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t2
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -37,7 +37,7 @@ others	others	other	NOUN	Number=Plur	A6.1-/Z8	A6.1n Z8	A6.1-: Comparing: Differe
 <g/>
 :	:	:	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-DK_20170518100005.seg1.3">
+<s id="ParlaMint-DK_20170518100005.seg1.3" senti_3="Neutral" senti_6="neutral negative" senti_n="1.760">
 Motion	Motion	motion	NOUN	Number=Sing	M1,Q1.1	M1	M1: Moving, coming and going	t1
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 for	for	for	ADP	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -80,7 +80,7 @@ scandal	scandal	scandal	NOUN	Number=Sing	G2.2-	G2.2n	G2.2-: Unethical	t27
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-DK_20170518100005.seg1.4">
+<s id="ParlaMint-DK_20170518100005.seg1.4" senti_3="Neutral" senti_6="neutral negative" senti_n="2.469">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 title	title	title	NOUN	Number=Sing	Q4,S7.1+,A9+,Q2.2	Q4	Q4: The Media	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -100,7 +100,7 @@ above	above	above	ADV	-	M6,A5.1++	M6	M6: Location and direction	t13
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-DK_20170518100005.seg1.5">
+<s id="ParlaMint-DK_20170518100005.seg1.5" senti_3="Neutral" senti_6="neutral positive" senti_n="2.549">
 With	With	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
@@ -137,7 +137,7 @@ Procedure	Procedure	procedure	NOUN	Number=Sing	X4.2	X4.2	X4.2: Mental object: Me
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-DK_20170518100005.seg1.6">
+<s id="ParlaMint-DK_20170518100005.seg1.6" senti_3="Neutral" senti_6="neutral positive" senti_n="3.126">
 Are	Are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t1
 there	there	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t2
 any	any	any	DET	-	N5.1+,N5	N5.1p	N5.1+: Entire; maximum	t3
@@ -145,7 +145,7 @@ comments	comments	comment	NOUN	Number=Plur	Q2.1	Q2.1	Q2.1: Speech: Communicative
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-DK_20170518100005.seg1.7">
+<s id="ParlaMint-DK_20170518100005.seg1.7" senti_3="Positive" senti_6="mixed positive" senti_n="4.075">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -155,9 +155,9 @@ agreed	agreed	agree	VERB	Tense=Past VerbForm=Part Voice=Pass	A6.1+,Q2.2	A6.1p	A6
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-DK_20170518100049" text_id="ParlaMint-DK-en_2017-05-18-20161-M99" subcorpus="Reference" lang="English" body="Unicameralism" term="Regeringen Lars Løkke Rasmussen III" session="20161" meeting="M99" sitting="-" agenda="-" date="2017-05-18" title="Hansard of the session of the Danish Parliament (Folketinget), 20161, M99 (2017-05-18), final version" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_mp="MP" speaker_minister="notMinister" speaker_party="DF" speaker_party_name="Dansk Folkeparti" party_status="-" party_orientation="Right" speaker_gender="F" speaker_birth="1947">
+<speech id="ParlaMint-DK_20170518100049" text_id="ParlaMint-DK-en_2017-05-18-20161-M99" subcorpus="Reference" lang="English" body="Unicameralism" term="Regeringen Lars Løkke Rasmussen III" session="20161" meeting="M99" sitting="-" agenda="-" date="2017-05-18" title="Hansard of the session of the Danish Parliament (Folketinget), 20161, M99 (2017-05-18), final version" speaker_role="Chairperson" topic="Other" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_mp="MP" speaker_minister="notMinister" speaker_party="DF" speaker_party_name="Dansk Folkeparti" party_status="-" party_orientation="Right" speaker_gender="F" speaker_birth="1947">
 <p id="ParlaMint-DK_20170518100049.seg2" lang="English">
-<s id="ParlaMint-DK_20170518100049.seg2.1">
+<s id="ParlaMint-DK_20170518100049.seg2.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.132">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 item	item	item	NOUN	Number=Sing	O2,Q4,X4.1	O2	O2: Objects generally	t2
 listed	listed	list	VERB	Tense=Past VerbForm=Part	Q1.2,N4,M4	Q1.2	Q1.2: Paper documents and writing	t3
@@ -190,7 +190,7 @@ House	House	House	PROPN	Number=Sing	H4	H4	H4: Residence	t24
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="ParlaMint-DK_20170518100049.seg2.2">
+<s id="ParlaMint-DK_20170518100049.seg2.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.888">
 Are	Are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t1
 there	there	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t2
 any	any	any	DET	-	N5.1+,N5	N5.1p	N5.1+: Entire; maximum	t3
@@ -198,7 +198,7 @@ comments	comments	comment	NOUN	Number=Plur	Q2.1	Q2.1	Q2.1: Speech: Communicative
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-DK_20170518100049.seg2.3">
+<s id="ParlaMint-DK_20170518100049.seg2.3" senti_3="Positive" senti_6="mixed positive" senti_n="4.154">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -212,9 +212,9 @@ course	course	course	NOUN	Number=Sing	M6,X7+,P1,B3,F1,M7/K5.1,T1.3	M6	M6: Locati
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-DK_20170518185027" text_id="ParlaMint-DK-en_2017-05-18-20161-M99" subcorpus="Reference" lang="English" body="Unicameralism" term="Regeringen Lars Løkke Rasmussen III" session="20161" meeting="M99" sitting="-" agenda="-" date="2017-05-18" title="Hansard of the session of the Danish Parliament (Folketinget), 20161, M99 (2017-05-18), final version" speaker_role="Chairperson" speaker_id="JuhlChristian" speaker_name="Juhl, Christian" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EL" speaker_party_name="Enhedslisten" party_status="Opposition" party_orientation="Left to far-left" speaker_gender="M" speaker_birth="1953">
+<speech id="ParlaMint-DK_20170518185027" text_id="ParlaMint-DK-en_2017-05-18-20161-M99" subcorpus="Reference" lang="English" body="Unicameralism" term="Regeringen Lars Løkke Rasmussen III" session="20161" meeting="M99" sitting="-" agenda="-" date="2017-05-18" title="Hansard of the session of the Danish Parliament (Folketinget), 20161, M99 (2017-05-18), final version" speaker_role="Chairperson" topic="Mix" speaker_id="JuhlChristian" speaker_name="Juhl, Christian" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EL" speaker_party_name="Enhedslisten" party_status="Opposition" party_orientation="Left to far-left" speaker_gender="M" speaker_birth="1953">
 <p id="ParlaMint-DK_20170518185027.seg654" lang="English">
-<s id="ParlaMint-DK_20170518185027.seg654.1">
+<s id="ParlaMint-DK_20170518185027.seg654.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.451">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 're	're	be	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -231,7 +231,7 @@ Nordqvist	Nordqvist	Nordqvist	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-DK_20170518185027.seg654.2">
+<s id="ParlaMint-DK_20170518185027.seg654.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.655">
 No	No	no	DET	-	Z6	Z6	Z6: Negative	t1
 one	one	one	NOUN	Number=Sing	Z8,N1	Z8	Z8: Pronouns	t2
 else	else	else	ADJ	Degree=Pos	A6.1-,Z4	A6.1n	A6.1-: Comparing: Different	t3
@@ -250,7 +250,7 @@ ended	ended	end	VERB	Tense=Past VerbForm=Part	T2-	T2n	T2-: Time: Ending	t14
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-DK_20170518185027.seg654.3">
+<s id="ParlaMint-DK_20170518185027.seg654.3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.645">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 propose	propose	propose	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2/X7+,X4.1,G1.2,Q2.2/S4	Q2.2 X7p	Q2.2: Speech acts|X7+: Wanted	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -271,7 +271,7 @@ Food	Food	food	NOUN	Number=Sing	F1	F1	F1: Food	t15
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-DK_20170518185027.seg654.4">
+<s id="ParlaMint-DK_20170518185027.seg654.4" senti_3="Neutral" senti_6="neutral positive" senti_n="3.320">
 Are	Are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t1
 there	there	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t2
 any	any	any	DET	-	N5.1+,N5	N5.1p	N5.1+: Entire; maximum	t3
@@ -279,7 +279,7 @@ comments	comments	comment	NOUN	Number=Plur	Q2.1	Q2.1	Q2.1: Speech: Communicative
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-DK_20170518185027.seg654.5">
+<s id="ParlaMint-DK_20170518185027.seg654.5" senti_3="Positive" senti_6="mixed positive" senti_n="4.075">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -291,9 +291,9 @@ agreed	agreed	agree	VERB	Tense=Past VerbForm=Part Voice=Pass	A6.1+,Q2.2	A6.1p	A6
 </speech>
 <note type="head" content="Punkt 0"/>
 <note type="agendaItem" content="2017-05-18-0"/>
-<speech id="ParlaMint-DK_20170518185041" text_id="ParlaMint-DK-en_2017-05-18-20161-M99" subcorpus="Reference" lang="English" body="Unicameralism" term="Regeringen Lars Løkke Rasmussen III" session="20161" meeting="M99" sitting="-" agenda="-" date="2017-05-18" title="Hansard of the session of the Danish Parliament (Folketinget), 20161, M99 (2017-05-18), final version" speaker_role="Chairperson" speaker_id="JuhlChristian" speaker_name="Juhl, Christian" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EL" speaker_party_name="Enhedslisten" party_status="Opposition" party_orientation="Left to far-left" speaker_gender="M" speaker_birth="1953">
+<speech id="ParlaMint-DK_20170518185041" text_id="ParlaMint-DK-en_2017-05-18-20161-M99" subcorpus="Reference" lang="English" body="Unicameralism" term="Regeringen Lars Løkke Rasmussen III" session="20161" meeting="M99" sitting="-" agenda="-" date="2017-05-18" title="Hansard of the session of the Danish Parliament (Folketinget), 20161, M99 (2017-05-18), final version" speaker_role="Chairperson" topic="Macroeconomics" speaker_id="JuhlChristian" speaker_name="Juhl, Christian" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EL" speaker_party_name="Enhedslisten" party_status="Opposition" party_orientation="Left to far-left" speaker_gender="M" speaker_birth="1953">
 <p id="ParlaMint-DK_20170518185041.seg655" lang="English">
-<s id="ParlaMint-DK_20170518185041.seg655.1">
+<s id="ParlaMint-DK_20170518185041.seg655.1" senti_3="Negative" senti_6="mixed negative" senti_n="1.391">
 Then	Then	then	ADV	PronType=Dem	N4,Z5,T1.2	N4	N4: Linear order	t1
 there	there	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t2
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -391,7 +391,7 @@ etc	etc	etc	X	-	Z4	Z4	Z4: Discourse Bin	t66
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t67
 </s>
-<s id="ParlaMint-DK_20170518185041.seg655.2">
+<s id="ParlaMint-DK_20170518185041.seg655.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.137">
 B	B	b	NOUN	Number=Sing	Z5,O4.2-/S2mf%	Z5	Z5: Grammatical bin	t1
 111	111	111	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
 <g/>
@@ -399,7 +399,7 @@ B	B	b	NOUN	Number=Sing	Z5,O4.2-/S2mf%	Z5	Z5: Grammatical bin	t1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-DK_20170518185041.seg655.3">
+<s id="ParlaMint-DK_20170518185041.seg655.3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.582">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 should	should	should	AUX	VerbForm=Fin	S6+,A7+	S6p	S6+: Strong obligation or necessity	t2
 like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t3
@@ -421,7 +421,7 @@ resolution	resolution	resolution	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-DK_20170518185041.seg655.4">
+<s id="ParlaMint-DK_20170518185041.seg655.4" senti_3="Negative" senti_6="mixed negative" senti_n="0.502">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 no	no	no	DET	-	Z6	Z6	Z6: Negative	t3
@@ -444,7 +444,7 @@ lapsed	lapsed	lap	VERB	Tense=Past VerbForm=Part	B1/L2,M1,K5.1%	B1 L2	B1: Anatomy
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-DK_20170518185041.seg655.5">
+<s id="ParlaMint-DK_20170518185041.seg655.5" senti_3="Positive" senti_6="mixed positive" senti_n="4.450">
 Then	Then	then	ADV	PronType=Dem	N4,Z5,T1.2	N4	N4: Linear order	t1
 there	there	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t2
 is	is	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -482,7 +482,7 @@ government	government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-DK_20170518185041.seg655.6">
+<s id="ParlaMint-DK_20170518185041.seg655.6" senti_3="Neutral" senti_6="neutral positive" senti_n="2.558">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="T1.1.3" usas_cats="T1.1.3" usas_glosses="T1.1.3: Time: Future">
 next	next	next	ADJ	Degree=Pos	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
@@ -517,7 +517,7 @@ pm.	pm.	pm.	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t21
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-DK_20170518185041.seg655.7">
+<s id="ParlaMint-DK_20170518185041.seg655.7" senti_3="" senti_6="" senti_n="">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 refer	refer	refer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2,Q1.2	Q2.2	Q2.2: Speech acts	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3

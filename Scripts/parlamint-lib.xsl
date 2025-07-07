@@ -899,11 +899,10 @@
     <xsl:param name="quant"/>
     <xsl:variable name="form" select="format-number($quant, '###,###,###,###')"/>
     <xsl:choose>
-      <xsl:when test="$lang = 'fr'">
+      <xsl:when test="$lang = 'fr' or $lang = 'cs'">
         <xsl:value-of select="replace($form, ',', ' ')"/>
       </xsl:when>
       <xsl:when test="$lang = 'bg' or 
-                      $lang = 'cs' or
                       $lang = 'hr' or
                       $lang = 'hu' or
                       $lang = 'is' or

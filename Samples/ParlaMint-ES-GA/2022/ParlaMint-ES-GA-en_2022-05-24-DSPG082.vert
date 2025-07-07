@@ -1,7 +1,7 @@
 <note type="speaker" content="Mr. President:"/>
-<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u1" text_id="ParlaMint-ES-GA-en_2022-05-24-DSPG082" subcorpus="COVID,War" lang="English" body="Unicameralism" term="XI Lexislatura" session="-" meeting="Número 082" sitting="24.05.2022" agenda="-" date="2022-05-24" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u1" text_id="ParlaMint-ES-GA-en_2022-05-24-DSPG082" subcorpus="COVID,War" lang="English" body="Unicameralism" term="XI Lexislatura" session="-" meeting="Número 082" sitting="24.05.2022" agenda="-" date="2022-05-24" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" topic="Other" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg1" lang="English">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg1.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg1.s1" senti_3="Positive" senti_6="positive" senti_n="4.592">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Good	Good	good	ADJ	Degree=Pos	Z4	Z4	Z4: Discourse Bin	t1
 afternoon	afternoon	afternoon	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -11,7 +11,7 @@ afternoon	afternoon	afternoon	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg2" lang="English">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg2.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg2.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.832">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 session	session	session	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -19,7 +19,7 @@ open	open	open	ADJ	Degree=Pos	A10+,S1.2.1+,X6-,X5.2+,A7+	A10p	A10+: Open; Findin
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg2.s2">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg2.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.398">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 agenda	agenda	agenda	NOUN	Number=Sing	Q1.2/X7+	Q1.2 X7p	Q1.2: Paper documents and writing|X7+: Wanted	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -50,7 +50,7 @@ read	read	read	VERB	Tense=Past VerbForm=Part Voice=Pass	Q3,Q1.2,X3.2+,X2.5+,P1,A
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg3" lang="English">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg3.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg3.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.942">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -72,7 +72,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	A7+	A7p	A7+: Likely	t12
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg4" lang="English">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg4.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg4.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.561">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 only	only	only	ADJ	Degree=Pos	A14	A14	A14: Exclusivizers/particularizers	t2
 point	point	point	NOUN	Number=Sing	Q2.1,X4.1,A5.1,A1.5.2,M7,T1.2,O4.4,O3,K5	Q2.1	Q2.1: Speech: Communicative	t3
@@ -117,7 +117,7 @@ López	López	López	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t33
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg5" lang="English">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg5.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg5.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.747">
 Designation	Designation	designation	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 two	two	two	NUM	NumForm=Word NumType=Card	N1,T3,T1.2	N1	N1: Numbers	t3
@@ -152,9 +152,9 @@ López	López	López	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t24
 </p>
 </speech>
 <note type="speaker" content="Mr. President:"/>
-<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u2" text_id="ParlaMint-ES-GA-en_2022-05-24-DSPG082" subcorpus="COVID,War" lang="English" body="Unicameralism" term="XI Lexislatura" session="-" meeting="Número 082" sitting="24.05.2022" agenda="-" date="2022-05-24" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u2" text_id="ParlaMint-ES-GA-en_2022-05-24-DSPG082" subcorpus="COVID,War" lang="English" body="Unicameralism" term="XI Lexislatura" session="-" meeting="Número 082" sitting="24.05.2022" agenda="-" date="2022-05-24" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" topic="Government Operations" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg6" lang="English">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg6.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg6.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.723">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 agreement	agreement	agreement	NOUN	Number=Sing	A6.1+,Q2.2	A6.1p	A6.1+: Comparing: Similar	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -248,7 +248,7 @@ Group	Group	Group	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t69
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t70
 </s>
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg6.s2">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg6.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.951">
 All	All	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t3
@@ -279,7 +279,7 @@ Procedure	Procedure	procedure	NOUN	Number=Sing	X4.2	X4.2	X4.2: Mental object: Me
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg7" lang="English">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg7.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg7.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.039">
 By	By	by	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 resolution	resolution	resolution	NOUN	Number=Sing	X6+,X9.2+	X6p	X6+: Decided	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -324,7 +324,7 @@ Filgueira	Filgueira	Filgueira	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t33
 </s>
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg7.s2">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg7.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.741">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 election	election	election	NOUN	Number=Sing	G1.2/X7+	G1.2 X7p	G1.2: Politics|X7+: Wanted	t2
 shall	shall	shall	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t3
@@ -353,7 +353,7 @@ Regulation	Regulation	Regulation	PROPN	Number=Sing	G2.1,A1.7+/G1.1	G2.1	G2.1: La
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg7.s3">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg7.s3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.021">
 For	For	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 these	these	this	DET	Number=Plur PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t2
 purposes	purposes	purpose	NOUN	Number=Plur	X7+,A2.2,A1.5.1	X7p	X7+: Wanted	t3
@@ -404,7 +404,7 @@ given	given	give	VERB	Tense=Past VerbForm=Part Voice=Pass	A9-,A1.1.1	A9n	A9-: Gi
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t42
 </s>
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg7.s4">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg7.s4" senti_3="Negative" senti_6="mixed negative" senti_n="1.137">
 If	If	if	SCONJ	-	Z7	Z7	Z7: If	t1
 no	no	no	DET	-	Z6	Z6	Z6: Negative	t2
 box	box	box	NOUN	Number=Sing	O2,O4.4,Q4.3,G2.1,H2,K5.1,B5/K5.1@,A4.1@	O2	O2: Objects generally	t3
@@ -446,7 +446,7 @@ declared	declared	declare	VERB	Tense=Past VerbForm=Part Voice=Pass	Q2.2,K5.1%	Q2
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg8" lang="English">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg8.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg8.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.595">
 When	When	when	SCONJ	PronType=Int	Z5	Z5	Z5: Grammatical bin	t1
 all	all	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t2
 Members	Members	Member	PROPN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a group|S2: People	t3
@@ -499,7 +499,7 @@ Porro	Porro	Porro	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t38
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t39
 </s>
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg8.s2">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg8.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.398">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t3
@@ -545,7 +545,7 @@ paperwork	paperwork	paperwork	NOUN	Number=Sing	Q1.2	Q1.2	Q1.2: Paper documents a
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg9" lang="English">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg9.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg9.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.738">
 Whenever	Whenever	whenever	SCONJ	PronType=Int	Z5	Z5	Z5: Grammatical bin	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 wish	wish	wish	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	X7+	X7p	X7+: Wanted	t3
@@ -571,9 +571,9 @@ Members	Members	Member	PROPN	Number=Plur	S5+/S2mf,B1	S5p S2	S5+: Belonging to a 
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u4" text_id="ParlaMint-ES-GA-en_2022-05-24-DSPG082" subcorpus="COVID,War" lang="English" body="Unicameralism" term="XI Lexislatura" session="-" meeting="Número 082" sitting="24.05.2022" agenda="-" date="2022-05-24" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u4" text_id="ParlaMint-ES-GA-en_2022-05-24-DSPG082" subcorpus="COVID,War" lang="English" body="Unicameralism" term="XI Lexislatura" session="-" meeting="Número 082" sitting="24.05.2022" agenda="-" date="2022-05-24" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" topic="Other" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg13" lang="English">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg13.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg13.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.118">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 result	result	result	NOUN	Number=Sing	A2.2,X9.2,N2,A5.1,K5,Q1.1/A2.2	A2.2	A2.2: Cause	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -626,7 +626,7 @@ Mr.	Mr.	Mr.	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t34
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg14" lang="English">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg14.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg14.s1" senti_3="Positive" senti_6="positive" senti_n="4.787">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 voting	voting	voting	NOUN	Number=Sing	G1.2	G1.2	G1.2: Politics	t2
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -634,7 +634,7 @@ favourable	favourable	favourable	ADJ	Degree=Pos	A5.1+,S8+	A5.1p	A5.1+: Evaluatio
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg14.s2">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg14.s2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.265">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -685,9 +685,9 @@ Filgueira	Filgueira	Filgueira	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t
 </speech>
 <note type="kinesic:applause" content="Applause"/>
 <note type="speaker" content="Mr. President:"/>
-<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u5" text_id="ParlaMint-ES-GA-en_2022-05-24-DSPG082" subcorpus="COVID,War" lang="English" body="Unicameralism" term="XI Lexislatura" session="-" meeting="Número 082" sitting="24.05.2022" agenda="-" date="2022-05-24" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u5" text_id="ParlaMint-ES-GA-en_2022-05-24-DSPG082" subcorpus="COVID,War" lang="English" body="Unicameralism" term="XI Lexislatura" session="-" meeting="Número 082" sitting="24.05.2022" agenda="-" date="2022-05-24" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" topic="Other" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg15" lang="English">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg15.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg15.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.346">
 Here	Here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t1
 ends	ends	end	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	T2-	T2n	T2-: Time: Ending	t2
 this	this	this	ADV	-	M6,Z5,Z8	M6	M6: Location and direction	t3

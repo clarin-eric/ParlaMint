@@ -38,6 +38,7 @@ $country2lang{'DK'} = 'da';
 $country2lang{'EE'} = 'et';
 $country2lang{'ES'} = 'es';
 $country2lang{'ES-AN'} = 'es';
+$country2lang{'ES-CN'} = 'es';
 $country2lang{'ES-CT'} = 'ca, es';
 $country2lang{'ES-GA'} = 'gl';
 $country2lang{'ES-PV'} = 'eu, es';
@@ -74,7 +75,7 @@ foreach $inFile (glob($corpusFiles)) {
     if ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?\.ana\.xml|) {$rootAnaFile = $inFile}
     elsif ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?_.+\.ana\.xml|) {push(@compAnaFiles, $inFile)}
 }
-`rm -f $inDir/*.conllu`;
+`find $inDir -name '*.conllu' -type f -delete`;
 foreach $inFile (@compAnaFiles) {
     my ($fName) = $inFile =~ m|([^/]+)\.ana\.xml|;
     # if the language is present in filename, then use that language otherwise language from country2lang is used

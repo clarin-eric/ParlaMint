@@ -1,14 +1,14 @@
 <note type="speaker" content="LEHENDAKARIAK (Tejeria Otermin):"/>
-<speech id="ParlaMint-ES-PV_2019-12-20.u0" text_id="ParlaMint-ES-PV_2019-12-20" subcorpus="Reference" lang="Euskara" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 1385-1390" meeting="-" sitting="2019-12-20" agenda="-" date="2019-12-20" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2019-12-20" speaker_role="Chairperson" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
+<speech id="ParlaMint-ES-PV_2019-12-20.u0" text_id="ParlaMint-ES-PV_2019-12-20" subcorpus="Reference" lang="Euskara" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 1385-1390" meeting="-" sitting="2019-12-20" agenda="-" date="2019-12-20" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2019-12-20" speaker_role="Chairperson" topic="Social Welfare" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
 <p id="ParlaMint-ES-PV_2019-12-20.seg1" lang="Euskara">
-<s id="ParlaMint-ES-PV_2019-12-20.seg1.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg1.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.697">
 Egun	Egun	egun	NOUN	-	w1	root	-	-	-	-
 on	on	on	ADJ	-	w2	amod	egun	NOUN	-	w1
 guztioi	guztioi	guzti	NUM	NumType=Card	w3	det	egun	NOUN	-	w1
 <g/>
 .	.	.	PUNCT	-	w4	punct	egun	NOUN	-	w1
 </s>
-<s id="ParlaMint-ES-PV_2019-12-20.seg1.s2">
+<s id="ParlaMint-ES-PV_2019-12-20.seg1.s2" senti_3="Neutral" senti_6="neutral postive" senti_n="3.065">
 Osoko	Osoko	osoko	ADJ	-	w1	amod	bilkura	NOUN	-	w2
 bilkurari	bilkurari	bilkura	NOUN	-	w2	nmod	hasiera	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w3
 hasiera	hasiera	hasiera	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w3	obj	eman	VERB	Aspect=Prosp VerbForm=Part	w4
@@ -19,14 +19,14 @@ diogu	diogu	*edun	AUX	Mood=Ind Number[abs]=Sing Number[dat]=Sing Number[erg]=Plu
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2019-12-20.seg2" lang="Euskara">
-<s id="ParlaMint-ES-PV_2019-12-20.seg2.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg2.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.110">
 Aldez	Aldez	alde	NOUN	Case=Ins Definite=Ind	w1	nmod	gai	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w3
 aurreko	aurreko	aurre	ADP	Case=Loc Definite=Def Number=Sing	w2	case	alde	NOUN	Case=Ins Definite=Ind	w1
 gaia	gaia	gai	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w3	root	-	-	-	-
 <g/>
 :	:	:	PUNCT	-	w4	punct	gai	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w3
 </s>
-<s id="ParlaMint-ES-PV_2019-12-20.seg2.s2">
+<s id="ParlaMint-ES-PV_2019-12-20.seg2.s2" senti_3="Negative" senti_6="negative" senti_n="0.448">
 "	"	"	PUNCT	-	w1	punct	bildu	VERB	Aspect=Perf VerbForm=Part	w8
 <g/>
 Mozioa	Mozioa	mozio	NOUN	Case=Abs Definite=Def Number=Sing	w2	nsubj	bildu	VERB	Aspect=Perf VerbForm=Part	w8
@@ -58,7 +58,7 @@ buruz	buruz	buruz	ADP	Definite=Def Number=Sing	w19	case	atzerakada	PROPN	Case=Da
 <g/>
 .	.	.	PUNCT	-	w20	punct	bildu	VERB	Aspect=Perf VerbForm=Part	w8
 </s>
-<s id="ParlaMint-ES-PV_2019-12-20.seg2.s3">
+<s id="ParlaMint-ES-PV_2019-12-20.seg2.s3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.338">
 Mozioari	Mozioari	Mozio	NOUN	Animacy=Inan Case=Dat Definite=Def Number=Sing	w1	iobj	egon	VERB	Aspect=Prog Mood=Ind Number[abs]=Sing Number[dat]=Sing Person[abs]=3 Person[dat]=3	w2
 dagokionez	dagokionez	egon	VERB	Aspect=Prog Mood=Ind Number[abs]=Sing Number[dat]=Sing Person[abs]=3 Person[dat]=3	w2	advcl	ebaztu	VERB	Case=Abs	w6
 <g/>
@@ -89,7 +89,7 @@ jarraituz	jarraituz	jarraitu	VERB	Case=Ins Definite=Ind VerbForm=Part	w19	root	-
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2019-12-20.seg3" lang="Euskara">
-<s id="ParlaMint-ES-PV_2019-12-20.seg3.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg3.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.923">
 Berdinketa	Berdinketa	berdinketa	NOUN	Case=Abs Definite=Def Number=Sing	w1	nsubj	abertzale	NOUN	Case=Abs Definite=Def Number=Plur	w5
 izan	izan	izan	AUX	Aspect=Perf VerbForm=Part	w2	cop	abertzale	NOUN	Case=Abs Definite=Def Number=Plur	w5
 zen	zen	izan	AUX	Mood=Ind Number[abs]=Sing Person[abs]=3	w3	aux	izan	AUX	Aspect=Perf VerbForm=Part	w2
@@ -111,7 +111,7 @@ bozketan	bozketan	bozketa	NOUN	Case=Ine Definite=Def Number=Sing	w14	conj	abertz
 <g/>
 .	.	.	PUNCT	-	w15	punct	bozketa	NOUN	Case=Ine Definite=Def Number=Sing	w14
 </s>
-<s id="ParlaMint-ES-PV_2019-12-20.seg3.s2">
+<s id="ParlaMint-ES-PV_2019-12-20.seg3.s2" senti_3="Neutral" senti_6="neutral postive" senti_n="3.055">
 <name type="MISC">
 Erregelamenduaren	Erregelamenduaren	Erregelamendu	NOUN	Case=Gen Definite=Def Number=Sing	w1	nmod	artikulu	NOUN	Animacy=Inan Case=Dat Definite=Def Number=Sing	w3
 </name>
@@ -132,7 +132,7 @@ bozketa	bozketa	bozketa	NOUN	Case=Abs Definite=Def Number=Sing	w12	obj	ukan	VERB
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2019-12-20.seg4" lang="Euskara">
-<s id="ParlaMint-ES-PV_2019-12-20.seg4.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg4.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.863">
 Mesedez	Mesedez	mesedez	PROPN	Case=Abs Definite=Def Number=Sing	w1	nsubj	begiratu	VERB	Aspect=Perf VerbForm=Part	w3
 <g/>
 ,	,	,	PUNCT	-	w2	punct	begiratu	VERB	Aspect=Perf VerbForm=Part	w3
@@ -146,7 +146,7 @@ lehen	lehen	lehen	ADV	-	w9	advmod	hasi	VERB	VerbForm=Part	w7
 <g/>
 .	.	.	PUNCT	-	w10	punct	begiratu	VERB	Aspect=Perf VerbForm=Part	w3
 </s>
-<s id="ParlaMint-ES-PV_2019-12-20.seg4.s2">
+<s id="ParlaMint-ES-PV_2019-12-20.seg4.s2" senti_3="Neutral" senti_6="neutral postive" senti_n="3.216">
 Bozkatu	Bozkatu	bozkatu	VERB	Aspect=Perf VerbForm=Part	w1	root	-	-	-	-
 dezakegu	dezakegu	*ezan	AUX	Mood=Pot Number[abs]=Sing Number[erg]=Plur Person[abs]=3 Person[erg]=1	w2	aux	bozkatu	VERB	Aspect=Perf VerbForm=Part	w1
 <g/>
@@ -157,7 +157,7 @@ orduan	orduan	orduan	ADV	-	w4	advmod	bozkatu	VERB	Aspect=Perf VerbForm=Part	w1
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2019-12-20.seg5" lang="Euskara">
-<s id="ParlaMint-ES-PV_2019-12-20.seg5.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg5.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.305">
 Bozketa	Bozketa	bozketa	NOUN	Case=Abs Definite=Def Number=Sing	w1	obj	egin	VERB	VerbForm=Part	w2
 eginda	eginda	egin	VERB	VerbForm=Part	w2	advcl	izan	VERB	Aspect=Perf VerbForm=Part	w5
 <g/>
@@ -169,7 +169,7 @@ emaitza	emaitza	emaitza	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w7	n
 <g/>
 :	:	:	PUNCT	-	w8	punct	izan	VERB	Aspect=Perf VerbForm=Part	w5
 </s>
-<s id="ParlaMint-ES-PV_2019-12-20.seg5.s2">
+<s id="ParlaMint-ES-PV_2019-12-20.seg5.s2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.811">
 emandako	emandako	eman	VERB	Case=Loc VerbForm=Part	w1	advcl	boto	NOUN	Case=Abs Definite=Def Number=Plur	w2
 botoak	botoak	boto	NOUN	Case=Abs Definite=Def Number=Plur	w2	root	-	-	-	-
 <g/>
@@ -197,9 +197,9 @@ abstentzioak	abstentzioak	abstentzio	NOUN	Case=Abs Definite=Def Number=Plur	w14	
 </p>
 </speech>
 <note type="speaker" content="LEHENDAKARIAK:"/>
-<speech id="ParlaMint-ES-PV_2019-12-20.u1" text_id="ParlaMint-ES-PV_2019-12-20" subcorpus="Reference" lang="Euskara" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 1385-1390" meeting="-" sitting="2019-12-20" agenda="-" date="2019-12-20" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2019-12-20" speaker_role="Chairperson" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
+<speech id="ParlaMint-ES-PV_2019-12-20.u1" text_id="ParlaMint-ES-PV_2019-12-20" subcorpus="Reference" lang="Euskara" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 1385-1390" meeting="-" sitting="2019-12-20" agenda="-" date="2019-12-20" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2019-12-20" speaker_role="Chairperson" topic="Labor" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
 <p id="ParlaMint-ES-PV_2019-12-20.seg6" lang="Euskara">
-<s id="ParlaMint-ES-PV_2019-12-20.seg6.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg6.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.842">
 Beraz	Beraz	beraz	CCONJ	-	w1	advmod	geratu	VERB	Aspect=Imp VerbForm=Inf	w8
 <g/>
 ,	,	,	PUNCT	-	w2	punct	geratu	VERB	Aspect=Imp VerbForm=Inf	w8
@@ -218,7 +218,7 @@ zuzenketa	zuzenketa	zuzenketa	NOUN	Case=Abs Definite=Def Number=Sing	w11	nsubj	g
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2019-12-20.seg7" lang="Euskara">
-<s id="ParlaMint-ES-PV_2019-12-20.seg7.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg7.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.350">
 <name type="ORG">
 Gai-zerrendako	Gai-zerrendako	Gai-zerrenda	PROPN	Case=Loc Definite=Def Number=Sing	w1	nmod	puntu	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w3
 </name>
@@ -227,7 +227,7 @@ puntua	puntua	puntu	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w3	root	
 <g/>
 :	:	:	PUNCT	-	w4	punct	puntu	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w3
 </s>
-<s id="ParlaMint-ES-PV_2019-12-20.seg7.s2">
+<s id="ParlaMint-ES-PV_2019-12-20.seg7.s2" senti_3="Neutral" senti_6="neutral postive" senti_n="2.971">
 "	"	"	PUNCT	-	w1	punct	egin	VERB	Case=Abs Definite=Def Number=Sing VerbForm=Part	w12
 <g/>
 <name type="ORG">
@@ -249,7 +249,7 @@ egindakoa	egindakoa	egin	VERB	Case=Abs Definite=Def Number=Sing VerbForm=Part	w1
 <g/>
 .	.	.	PUNCT	-	w13	punct	egin	VERB	Case=Abs Definite=Def Number=Sing VerbForm=Part	w12
 </s>
-<s id="ParlaMint-ES-PV_2019-12-20.seg7.s3">
+<s id="ParlaMint-ES-PV_2019-12-20.seg7.s3" senti_3="Negative" senti_6="mixed negative" senti_n="1.088">
 Eztabaida	Eztabaida	eztabaida	ADV	-	w1	root	-	-	-	-
 eta	eta	eta	CCONJ	-	w2	cc	ebazpen	NOUN	Case=Abs Definite=Def Number=Sing	w5
 behin	behin	behin	ADV	-	w3	advmod	betiko	ADJ	-	w4
@@ -262,7 +262,7 @@ ebazpena	ebazpena	ebazpen	NOUN	Case=Abs Definite=Def Number=Sing	w5	conj	eztabai
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2019-12-20.seg8" lang="Euskara">
-<s id="ParlaMint-ES-PV_2019-12-20.seg8.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg8.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.546">
 <name type="ORG">
 Jaurlaritzaren	Jaurlaritzaren	jaurlaritza	NOUN	Case=Gen Definite=Def Number=Sing	w1	nmod	ordezkari	NOUN	Animacy=Anim Case=Abs Definite=Def Number=Sing	w2
 </name>
@@ -286,9 +286,9 @@ aurkezteko	aurkezteko	aurkeztu	VERB	Case=Abs Definite=Ind	w12	advcl	eduki	VERB	A
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES-PV_2019-12-20.u97" text_id="ParlaMint-ES-PV_2019-12-20" subcorpus="Reference" lang="Euskara" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 1385-1390" meeting="-" sitting="2019-12-20" agenda="-" date="2019-12-20" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2019-12-20" speaker_role="Chairperson" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
+<speech id="ParlaMint-ES-PV_2019-12-20.u97" text_id="ParlaMint-ES-PV_2019-12-20" subcorpus="Reference" lang="Euskara" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 1385-1390" meeting="-" sitting="2019-12-20" agenda="-" date="2019-12-20" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2019-12-20" speaker_role="Chairperson" topic="Other" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
 <p id="ParlaMint-ES-PV_2019-12-20.seg682" lang="Euskara">
-<s id="ParlaMint-ES-PV_2019-12-20.seg682.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg682.s1" senti_3="Negative" senti_6="mixed negative" senti_n="0.937">
 Beraz	Beraz	beraz	CCONJ	-	w1	advmod	onartu	VERB	Aspect=Perf VerbForm=Part	w5
 <g/>
 ,	,	,	PUNCT	-	w2	punct	onartu	VERB	Aspect=Perf VerbForm=Part	w5
@@ -302,7 +302,7 @@ testua	testua	testu	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w7	obj	o
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2019-12-20.seg683" lang="Euskara">
-<s id="ParlaMint-ES-PV_2019-12-20.seg683.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg683.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.514">
 Jarraian	Jarraian	jarraian	ADV	-	w1	advmod	bozkatu	VERB	Aspect=Prosp VerbForm=Part	w8
 <g/>
 ,	,	,	PUNCT	-	w2	punct	bozkatu	VERB	Aspect=Prosp VerbForm=Part	w8
@@ -318,7 +318,7 @@ dugu	dugu	*edun	AUX	Mood=Ind Number[abs]=Sing Number[erg]=Plur Person[abs]=3 Per
 <g/>
 .	.	.	PUNCT	-	w10	punct	bozkatu	VERB	Aspect=Prosp VerbForm=Part	w8
 </s>
-<s id="ParlaMint-ES-PV_2019-12-20.seg683.s2">
+<s id="ParlaMint-ES-PV_2019-12-20.seg683.s2" senti_3="Neutral" senti_6="neutral postive" senti_n="3.282">
 Bozkatu	Bozkatu	bozkatu	VERB	Aspect=Perf VerbForm=Part	w1	root	-	-	-	-
 dezakegu	dezakegu	*ezan	AUX	Mood=Pot Number[abs]=Sing Number[erg]=Plur Person[abs]=3 Person[erg]=1	w2	aux	bozkatu	VERB	Aspect=Perf VerbForm=Part	w1
 <g/>
@@ -326,7 +326,7 @@ dezakegu	dezakegu	*ezan	AUX	Mood=Pot Number[abs]=Sing Number[erg]=Plur Person[ab
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2019-12-20.seg684" lang="Euskara">
-<s id="ParlaMint-ES-PV_2019-12-20.seg684.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg684.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="3.026">
 Botazioa	Botazioa	Botazio	NOUN	Case=Abs Definite=Def Number=Sing	w1	obj	egin	VERB	VerbForm=Part	w2
 eginda	eginda	egin	VERB	VerbForm=Part	w2	advcl	izan	VERB	Aspect=Perf VerbForm=Part	w5
 <g/>
@@ -338,7 +338,7 @@ emaitza	emaitza	emaitza	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w7	o
 <g/>
 :	:	:	PUNCT	-	w8	punct	izan	VERB	Aspect=Perf VerbForm=Part	w5
 </s>
-<s id="ParlaMint-ES-PV_2019-12-20.seg684.s2">
+<s id="ParlaMint-ES-PV_2019-12-20.seg684.s2" senti_3="Neutral" senti_6="neutral postive" senti_n="3.010">
 emandako	emandako	eman	VERB	Case=Loc VerbForm=Part	w1	advcl	boto	NOUN	Case=Abs Definite=Def Number=Plur	w2
 botoak	botoak	boto	NOUN	Case=Abs Definite=Def Number=Plur	w2	root	-	-	-	-
 <g/>
@@ -366,9 +366,9 @@ abstentzioak	abstentzioak	abstentzio	NOUN	Case=Abs Definite=Def Number=Plur	w14	
 </p>
 </speech>
 <note type="speaker" content="LEHENDAKARIAK:"/>
-<speech id="ParlaMint-ES-PV_2019-12-20.u98" text_id="ParlaMint-ES-PV_2019-12-20" subcorpus="Reference" lang="Euskara" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 1385-1390" meeting="-" sitting="2019-12-20" agenda="-" date="2019-12-20" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2019-12-20" speaker_role="Chairperson" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
+<speech id="ParlaMint-ES-PV_2019-12-20.u98" text_id="ParlaMint-ES-PV_2019-12-20" subcorpus="Reference" lang="Euskara" body="Unicameralism" term="Legegintzaldia XI" session="Osoko Bilkura 1385-1390" meeting="-" sitting="2019-12-20" agenda="-" date="2019-12-20" title="Eusko Legebiltzarraren corpus ParlaMint-ES-PV, 2019-12-20" speaker_role="Chairperson" topic="Other" speaker_id="TejeriaOtermin" speaker_name="Tejeria Otermin, Bakartxo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="EAJ/PNV" speaker_party_name="Euzko Alderdi Jeltzalea" party_status="Coalition" party_orientation="Centre" speaker_gender="F" speaker_birth="1971">
 <p id="ParlaMint-ES-PV_2019-12-20.seg685" lang="Euskara">
-<s id="ParlaMint-ES-PV_2019-12-20.seg685.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg685.s1" senti_3="Negative" senti_6="mixed negative" senti_n="0.852">
 Beraz	Beraz	beraz	CCONJ	-	w1	advmod	onartu	VERB	Aspect=Perf VerbForm=Part	w5
 <g/>
 ,	,	,	PUNCT	-	w2	punct	onartu	VERB	Aspect=Perf VerbForm=Part	w5
@@ -386,7 +386,7 @@ zuzenketa	zuzenketa	zuzenketa	NOUN	Case=Abs Definite=Def Number=Sing	w9	flat	Pod
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2019-12-20.seg686" lang="Euskara">
-<s id="ParlaMint-ES-PV_2019-12-20.seg686.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg686.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.230">
 Gai-zerrenda	Gai-zerrenda	Gai-zerrenda	NOUN	Animacy=Inan Case=Abs Definite=Def Number=Sing	w1	obj	agortu	VERB	Aspect=Perf VerbForm=Part	w2
 agortu	agortu	agortu	VERB	Aspect=Perf VerbForm=Part	w2	advcl	eman	VERB	Aspect=Imp VerbForm=Inf	w8
 dugunez	dugunez	*edun	AUX	Mood=Ind Number[abs]=Sing Number[erg]=Plur Person[abs]=3 Person[erg]=1	w3	aux	agortu	VERB	Aspect=Perf VerbForm=Part	w2
@@ -408,7 +408,7 @@ guzti-guztioi	guzti-guztioi	guzti-guztioi	ADV	-	w15	advmod	opatu	VERB	VerbForm=I
 </s>
 </p>
 <p id="ParlaMint-ES-PV_2019-12-20.seg687" lang="Euskara">
-<s id="ParlaMint-ES-PV_2019-12-20.seg687.s1">
+<s id="ParlaMint-ES-PV_2019-12-20.seg687.s1" senti_3="Neutral" senti_6="neutral postive" senti_n="2.779">
 Eguerdiko	Eguerdiko	eguerdi	NOUN	Case=Loc Definite=Def Number=Sing	w1	nmod	ordu	NOUN	-	w2
 ordu	ordu	ordu	NOUN	-	w2	root	-	-	-	-
 biak	biak	bi	NUM	NumType=Card	w3	nummod	ordu	NOUN	-	w2

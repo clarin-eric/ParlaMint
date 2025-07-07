@@ -1,8 +1,8 @@
 <note type="head" content="Lekken van gifgas door chemiebedrijf Chemours"/>
 <note type="speaker" content="The President"/>
-<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u1" text_id="ParlaMint-NL-en_2019-05-16-tweedekamer-11" subcorpus="Reference" lang="English" body="Lower house" term="Meeting of the 29th Tweede Kamer" session="Session 11" meeting="Meeting 83" sitting="Sitting 2019-05-16" agenda="-" date="2019-05-16" title="Report of the meeting of the Dutch Lower House, Meeting 83, Session 11 (2019-05-16)" speaker_role="Chairperson" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="-" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
+<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u1" text_id="ParlaMint-NL-en_2019-05-16-tweedekamer-11" subcorpus="Reference" lang="English" body="Lower house" term="Meeting of the 29th Tweede Kamer" session="Session 11" meeting="Meeting 83" sitting="Sitting 2019-05-16" agenda="-" date="2019-05-16" title="Report of the meeting of the Dutch Lower House, Meeting 83, Session 11 (2019-05-16)" speaker_role="Chairperson" topic="Environment" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="-" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
 <p id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg1" lang="English">
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.928">
 Good	Good	good	ADJ	Degree=Pos	A5.1+,G2.2+,O4.2+,A1.5.2+,N3.2+	A5.1p	A5.1+: Evaluation: Good	t1
 evening	evening	evening	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
 <g/>
@@ -15,7 +15,7 @@ gentlemen	gentlemen	gentleman	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t6
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2" senti_3="Negative" senti_6="mixed negative" senti_n="1.262">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 are	are	be	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 now	now	now	ADV	-	T1.1.2,Z4	T1.1.2	T1.1.2: Time: Present; simultaneous	t3
@@ -38,7 +38,7 @@ Chemours	Chemours	Chemours	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t15
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t16
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3" senti_3="Positive" senti_6="mixed positive" senti_n="3.568">
 That	That	that	DET	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 debate	debate	debate	NOUN	Number=Sing	Q2.2	Q2.2	Q2.2: Speech acts	t2
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t3
@@ -75,7 +75,7 @@ welcome	welcome	welcome	VERB	VerbForm=Inf	Q2.2,S1.1.1	Q2.2	Q2.2: Speech acts	t28
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s4">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s4" senti_3="Neutral" senti_6="neutral positive" senti_n="2.881">
 You	You	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 all	all	all	DET	-	N5.1+	N5.1p	N5.1+: Entire; maximum	t2
 have	have	have	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -90,7 +90,7 @@ time	time	time	NOUN	Number=Sing	G2.1	G2.1	G2.1: Law and order	t8
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5" senti_3="Neutral" senti_6="neutral positive" senti_n="3.133">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 shall	shall	shall	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 be	be	be	AUX	VerbForm=Inf	A3+,Z5	A3p	A3+: Existing	t3
@@ -116,9 +116,9 @@ SP	SP	sp	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t15
 </p>
 </speech>
 <note type="speaker" content="Mr Laçin (SP)"/>
-<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u2" text_id="ParlaMint-NL-en_2019-05-16-tweedekamer-11" subcorpus="Reference" lang="English" body="Lower house" term="Meeting of the 29th Tweede Kamer" session="Session 11" meeting="Meeting 83" sitting="Sitting 2019-05-16" agenda="-" date="2019-05-16" title="Report of the meeting of the Dutch Lower House, Meeting 83, Session 11 (2019-05-16)" speaker_role="Regular" speaker_id="CemLaçin" speaker_name="Laçin, Cem" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="SP" speaker_party_name="Socialistische Partij" party_status="Opposition" party_orientation="Left" speaker_gender="M" speaker_birth="1986">
+<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u2" text_id="ParlaMint-NL-en_2019-05-16-tweedekamer-11" subcorpus="Reference" lang="English" body="Lower house" term="Meeting of the 29th Tweede Kamer" session="Session 11" meeting="Meeting 83" sitting="Sitting 2019-05-16" agenda="-" date="2019-05-16" title="Report of the meeting of the Dutch Lower House, Meeting 83, Session 11 (2019-05-16)" speaker_role="Regular" topic="Environment" speaker_id="CemLaçin" speaker_name="Laçin, Cem" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="SP" speaker_party_name="Socialistische Partij" party_status="Opposition" party_orientation="Left" speaker_gender="M" speaker_birth="1986">
 <p id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg2" lang="English">
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s6">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s6" senti_3="Positive" senti_6="mixed positive" senti_n="3.838">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr.	Mr.	Mr.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Chairman	Chairman	Chairman	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -126,7 +126,7 @@ Chairman	Chairman	Chairman	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7" senti_3="Neutral" senti_6="neutral positive" senti_n="3.249">
 Tomorrow	Tomorrow	tomorrow	NOUN	Number=Sing	T1.1.3	T1.1.3	T1.1.3: Time: Future	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	Z5	Z5	Z5: Grammatical bin	t2
@@ -149,7 +149,7 @@ here	here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t14
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8" senti_3="Negative" senti_6="negative" senti_n="0.236">
 Even	Even	even	ADV	-	A13.1	A13.1	A13.1: Degree: Non-specific	t1
 then	then	then	ADV	PronType=Dem	N4,Z5,T1.2	N4	N4: Linear order	t2
 <g/>
@@ -170,7 +170,7 @@ Chemours	Chemours	Chemours	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t14
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9" senti_3="Negative" senti_6="mixed negative" senti_n="0.622">
 My	My	my	PRON	Number=Sing Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 central	central	central	ADJ	Degree=Pos	A11.1+,M6	A11.1p	A11.1+: Important	t2
 question	question	question	NOUN	Number=Sing	Q2.2,X4.1	Q2.2	Q2.2: Speech acts	t3
@@ -202,7 +202,7 @@ discharges	discharges	discharge	NOUN	Number=Plur	A1.7-/M1,B1,O1.2	A1.7n M1	A1.7-
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s10">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s10" senti_3="Neutral" senti_6="neutral positive" senti_n="2.772">
 <phr usas_tags="N5+" usas_cats="N5p" usas_glosses="N5+: Quantities: many/much">
 A	A	a	DET	Definite=Ind PronType=Art	N5+	N5p	N5+: Quantities: many/much	t1
 number	number	number	NOUN	Number=Sing	N5+	N5p	N5+: Quantities: many/much	t2
@@ -223,7 +223,7 @@ Hans	Hans	Hans	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t12
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s11">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s11" senti_3="Positive" senti_6="mixed positive" senti_n="3.737">
 Tonight	Tonight	tonight	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t1
 there	there	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t2
 are	are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -235,7 +235,7 @@ welcome	welcome	welcome	INTJ	-	Z4	Z4	Z4: Discourse Bin	t7
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12" senti_3="Negative" senti_6="negative" senti_n="-0.002">
 <name type="PER">
 Hans	Hans	Hans	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 </name>
@@ -255,7 +255,7 @@ area	area	area	NOUN	Number=Sing	M7,A4.1,N3.6	M7	M7: Places	t14
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13" senti_3="Negative" senti_6="mixed negative" senti_n="0.678">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -280,14 +280,14 @@ years	years	year	NOUN	Number=Plur	T1.1.1	T1.1.1	T1.1.1: Time: Past	t16
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s14">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s14" senti_3="Neutral" senti_6="neutral positive" senti_n="3.181">
 A	A	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 few	few	few	ADJ	Degree=Pos	N5-	N5n	N5-: Quantities: little	t2
 examples	examples	example	NOUN	Number=Plur	A4.1	A4.1	A4.1: Generally kinds, groups, examples	t3
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15" senti_3="Negative" senti_6="mixed negative" senti_n="0.881">
 <name type="ORG">
 GenX	GenX	GenX	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t1
 </name>
@@ -321,7 +321,7 @@ country	country	country	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation:
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16" senti_3="Negative" senti_6="negative" senti_n="0.027">
 <name type="ORG">
 Chemours	Chemours	Chemours	PROPN	Number=Plur	Z99	Z99	Z99: Unmatched	t1
 </name>
@@ -347,7 +347,7 @@ province	province	province	NOUN	Number=Sing	M7,A4.1	M7	M7: Places	t15
 </s>
 </p>
 <p id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg3" lang="English">
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17" senti_3="Negative" senti_6="negative" senti_n="0.174">
 Then	Then	then	ADV	PronType=Dem	N4,Z5,T1.2	N4	N4: Linear order	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 leak	leak	leak	NOUN	Number=Sing	A1.7-,A1.1.2,A10+/Q2.2	A1.7n	A1.7-: No constraint	t3
@@ -375,7 +375,7 @@ weapons	weapons	weapon	NOUN	Number=Plur	Y1/G3	Y1 G3	Y1: Science and technology i
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18" senti_3="Negative" senti_6="negative" senti_n="0.429">
 People	People	person	NOUN	Number=Plur	S2mfc	S2	S2: People	t1
 with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -422,9 +422,9 @@ RIVM	RIVM	RIVM	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t32
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u273" text_id="ParlaMint-NL-en_2019-05-16-tweedekamer-11" subcorpus="Reference" lang="English" body="Lower house" term="Meeting of the 29th Tweede Kamer" session="Session 11" meeting="Meeting 83" sitting="Sitting 2019-05-16" agenda="-" date="2019-05-16" title="Report of the meeting of the Dutch Lower House, Meeting 83, Session 11 (2019-05-16)" speaker_role="Chairperson" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="-" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
+<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u273" text_id="ParlaMint-NL-en_2019-05-16-tweedekamer-11" subcorpus="Reference" lang="English" body="Lower house" term="Meeting of the 29th Tweede Kamer" session="Session 11" meeting="Meeting 83" sitting="Sitting 2019-05-16" agenda="-" date="2019-05-16" title="Report of the meeting of the Dutch Lower House, Meeting 83, Session 11 (2019-05-16)" speaker_role="Chairperson" topic="Other" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="-" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
 <p id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg384" lang="English">
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1886">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1886" senti_3="Neutral" senti_6="neutral positive" senti_n="3.208">
 That	That	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 brings	brings	bring	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -445,9 +445,9 @@ debate	debate	debate	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Go
 </speech>
 <note type="comment" content="The debate is closed."/>
 <note type="speaker" content="The President"/>
-<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u274" text_id="ParlaMint-NL-en_2019-05-16-tweedekamer-11" subcorpus="Reference" lang="English" body="Lower house" term="Meeting of the 29th Tweede Kamer" session="Session 11" meeting="Meeting 83" sitting="Sitting 2019-05-16" agenda="-" date="2019-05-16" title="Report of the meeting of the Dutch Lower House, Meeting 83, Session 11 (2019-05-16)" speaker_role="Chairperson" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="-" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
+<speech id="ParlaMint-NL_2019-05-16-tweedekamer-11.u274" text_id="ParlaMint-NL-en_2019-05-16-tweedekamer-11" subcorpus="Reference" lang="English" body="Lower house" term="Meeting of the 29th Tweede Kamer" session="Session 11" meeting="Meeting 83" sitting="Sitting 2019-05-16" agenda="-" date="2019-05-16" title="Report of the meeting of the Dutch Lower House, Meeting 83, Session 11 (2019-05-16)" speaker_role="Chairperson" topic="Other" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="-" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1960">
 <p id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg385" lang="English">
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888" senti_3="Neutral" senti_6="neutral positive" senti_n="3.062">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 motions	motions	motion	NOUN	Number=Plur	M1,Q1.1	M1	M1: Moving, coming and going	t2
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t3
@@ -470,7 +470,7 @@ arrested	arrested	arrest	VERB	Tense=Past VerbForm=Part Voice=Pass	G2.1,S8-	G2.1	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1889">
+<s id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1889" senti_3="Positive" senti_6="positive" senti_n="4.586">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2

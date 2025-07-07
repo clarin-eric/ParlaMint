@@ -1,8 +1,8 @@
 <note type="speaker" content="THE PRESIDENT"/>
-<speech id="u2020-04-07-0" text_id="ParlaMint-HU-en_2020-04-07" subcorpus="COVID" lang="English" body="Unicameralism" term="8. ciklus" session="-" meeting="43. ülés" sitting="2. ülésnap" agenda="-" date="2020-04-07" title="Hungarian parliamentary corpus ParlaMint-HU, legislative session of 2020 spring, meeting 43, day 2, 2020-04-07 [ParlaMint.ana]" speaker_role="Chairperson" speaker_id="LatorcaiJanos" speaker_name="Latorcai, János" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KNDP-frakció" speaker_party_name="Parliamentary group of the Christian Democratic People's Party in the 8th parliamentary term" party_status="Coalition" party_orientation="Right" speaker_gender="M" speaker_birth="1944">
+<speech id="u2020-04-07-0" text_id="ParlaMint-HU-en_2020-04-07" subcorpus="COVID" lang="English" body="Unicameralism" term="8. ciklus" session="-" meeting="43. ülés" sitting="2. ülésnap" agenda="-" date="2020-04-07" title="Hungarian parliamentary corpus ParlaMint-HU, legislative session of 2020 spring, meeting 43, day 2, 2020-04-07 [ParlaMint.ana]" speaker_role="Chairperson" topic="Other" speaker_id="LatorcaiJanos" speaker_name="Latorcai, János" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KNDP-frakció" speaker_party_name="Parliamentary group of the Christian Democratic People's Party in the 8th parliamentary term" party_status="Coalition" party_orientation="Right" speaker_gender="M" speaker_birth="1944">
 <note type="kinesic:-" content="The people in this room stand up and greet the voters' community. When the chairman of the meeting takes his seat, the people in the room will sit down."/>
 <p id="u2020-04-07-0.1" lang="English">
-<s id="ParlaMint-HU_2020-04-07.seg1.1">
+<s id="ParlaMint-HU_2020-04-07.seg1.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.331">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Good	Good	good	ADJ	Degree=Pos	Z4	Z4	Z4: Discourse Bin	t1
 morning	morning	morning	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -16,7 +16,7 @@ Members	Members	Member	PROPN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t5
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1.2">
+<s id="ParlaMint-HU_2020-04-07.seg1.2" senti_3="Positive" senti_6="positive" senti_n="5.082">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 warmly	warmly	warmly	ADV	-	E2+,S1.2.1+,S7.2+,O4.6+	E2p	E2+: Like	t2
 welcome	welcome	welcome	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2,S1.1.1	Q2.2	Q2.2: Speech acts	t3
@@ -39,7 +39,7 @@ today	today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultan
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1.3">
+<s id="ParlaMint-HU_2020-04-07.seg1.3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.100">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t3
@@ -81,7 +81,7 @@ assistance	assistance	assistance	NOUN	Number=Sing	S8+	S8p	S8+: Helping	t30
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t31
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1.4">
+<s id="ParlaMint-HU_2020-04-07.seg1.4" senti_3="Positive" senti_6="mixed positive" senti_n="4.409">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Dear	Dear	dear	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Parliament	Parliament	parliament	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -89,7 +89,7 @@ Parliament	Parliament	parliament	NOUN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names
 </phr>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1.5">
+<s id="ParlaMint-HU_2020-04-07.seg1.5" senti_3="Neutral" senti_6="neutral positive" senti_n="3.045">
 <name type="PER">
 Péter	Péter	Péter	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Szijjártó	Szijjártó	Szijjártó	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -126,7 +126,7 @@ today	today	today	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t23
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1.6">
+<s id="ParlaMint-HU_2020-04-07.seg1.6" senti_3="Positive" senti_6="mixed positive" senti_n="3.541">
 Here	Here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t1
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 go	go	go	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	M1,A2.1+,A1.1.1,A9-,A1.8+,Q2.1,N6+,I2.2,A1.1.2,T2-,S3.2,A6.3+,B2-/X1%,B1%	M1	M1: Moving, coming and going	t3
@@ -145,9 +145,9 @@ floor	floor	floor	NOUN	Number=Sing	H2,S5+	H2	H2: Parts of buildings	t10
 </p>
 </speech>
 <note type="speaker" content="Mr Peter Szijótó Minister for Foreign Affairs and Trade"/>
-<speech id="u2020-04-07-1" text_id="ParlaMint-HU-en_2020-04-07" subcorpus="COVID" lang="English" body="Unicameralism" term="8. ciklus" session="-" meeting="43. ülés" sitting="2. ülésnap" agenda="-" date="2020-04-07" title="Hungarian parliamentary corpus ParlaMint-HU, legislative session of 2020 spring, meeting 43, day 2, 2020-04-07 [ParlaMint.ana]" speaker_role="Regular" speaker_id="SzijjartoPeter" speaker_name="Szijjártó, Péter" speaker_mp="MP" speaker_minister="Minister" speaker_party="Fidesz-frakció" speaker_party_name="Parliamentary group of the Fidesz – Hungarian Civic Alliance in the 8th parliamentary term" party_status="Coalition" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1978">
+<speech id="u2020-04-07-1" text_id="ParlaMint-HU-en_2020-04-07" subcorpus="COVID" lang="English" body="Unicameralism" term="8. ciklus" session="-" meeting="43. ülés" sitting="2. ülésnap" agenda="-" date="2020-04-07" title="Hungarian parliamentary corpus ParlaMint-HU, legislative session of 2020 spring, meeting 43, day 2, 2020-04-07 [ParlaMint.ana]" speaker_role="Regular" topic="International Affairs" speaker_id="SzijjartoPeter" speaker_name="Szijjártó, Péter" speaker_mp="MP" speaker_minister="Minister" speaker_party="Fidesz-frakció" speaker_party_name="Parliamentary group of the Fidesz – Hungarian Civic Alliance in the 8th parliamentary term" party_status="Coalition" party_orientation="Right to far-right" speaker_gender="M" speaker_birth="1978">
 <p id="u2020-04-07-1.1" lang="English">
-<s id="ParlaMint-HU_2020-04-07.seg2.1">
+<s id="ParlaMint-HU_2020-04-07.seg2.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.010">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -158,7 +158,7 @@ floor	floor	floor	NOUN	Number=Sing	H2,S5+	H2	H2: Parts of buildings	t5
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg2.2">
+<s id="ParlaMint-HU_2020-04-07.seg2.2" senti_3="Positive" senti_6="mixed positive" senti_n="4.466">
 <phr usas_tags="Z1m" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -166,7 +166,7 @@ President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
 </phr>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg2.3">
+<s id="ParlaMint-HU_2020-04-07.seg2.3" senti_3="Positive" senti_6="mixed positive" senti_n="4.043">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -175,7 +175,7 @@ gentlemen	gentlemen	gentleman	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t3
 </phr>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg2.4">
+<s id="ParlaMint-HU_2020-04-07.seg2.4" senti_3="Neutral" senti_6="neutral positive" senti_n="2.777">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 asked	asked	ask	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	Q2.2	Q2.2	Q2.2: Speech acts	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -252,7 +252,7 @@ conference	conference	conference	NOUN	Number=Sing	S1.1.3+	S1.1.3p	S1.1.3+: Parti
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t60
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg2.5">
+<s id="ParlaMint-HU_2020-04-07.seg2.5" senti_3="Negative" senti_6="mixed negative" senti_n="0.676">
 Unfortunately	Unfortunately	unfortunately	ADV	-	A1.4-,A5.1-,E4.1-	A1.4n	A1.4-: Unlucky	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -299,7 +299,7 @@ conferences	conferences	conference	NOUN	Number=Plur	S1.1.3+	S1.1.3p	S1.1.3+: Par
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t38
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg2.6">
+<s id="ParlaMint-HU_2020-04-07.seg2.6" senti_3="Neutral" senti_6="neutral positive" senti_n="3.471">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t3
@@ -358,7 +358,7 @@ Alliance	Alliance	Alliance	PROPN	Number=Sing	Z3c	Z3	Z3: Other proper names	t40
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t41
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg2.7">
+<s id="ParlaMint-HU_2020-04-07.seg2.7" senti_3="Positive" senti_6="mixed positive" senti_n="4.434">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 hope	hope	hope	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	X2.6+,E4.1+,X9.2+,A5.1+	X2.6p	X2.6+: Expected	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -392,7 +392,7 @@ Union	Union	Union	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t22
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg2.8">
+<s id="ParlaMint-HU_2020-04-07.seg2.8" senti_3="Positive" senti_6="positive" senti_n="4.748">
 For	For	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 our	our	we	PRON	Number=Plur Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 part	part	part	NOUN	Number=Sing	N5.1-,O2,M7,I3.1,S1.1.3+,K4	N5.1n	N5.1-: Part	t3
@@ -433,7 +433,7 @@ Alliance	Alliance	Alliance	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t28
 </s>
 </p>
 <p id="u2020-04-07-1.2" lang="English">
-<s id="ParlaMint-HU_2020-04-07.seg3.1">
+<s id="ParlaMint-HU_2020-04-07.seg3.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.535">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 continue	continue	continue	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	T2++	T2p	T2+: Time: Beginning	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -541,7 +541,7 @@ risks	risks	risk	NOUN	Number=Plur	B2-	B2n	B2-: Disease	t76
 </s>
 </p>
 <p id="u2020-04-07-1.3" lang="English">
-<s id="ParlaMint-HU_2020-04-07.seg4.1">
+<s id="ParlaMint-HU_2020-04-07.seg4.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.713">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t3
@@ -600,7 +600,7 @@ Afghanistan	Afghanistan	Afghanistan	PROPN	Number=Sing	Z2	Z2	Z2: Geographical nam
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t43
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg4.2">
+<s id="ParlaMint-HU_2020-04-07.seg4.2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.496">
 However	However	however	ADV	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -645,7 +645,7 @@ placement	placement	placement	NOUN	Number=Sing	M2,I3.1	M2	M2: Putting, pulling, 
 </s>
 </p>
 <p id="u2020-04-07-1.4" lang="English">
-<s id="ParlaMint-HU_2020-04-07.seg5.1">
+<s id="ParlaMint-HU_2020-04-07.seg5.1" senti_3="Positive" senti_6="positive" senti_n="4.981">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 addition	addition	addition	NOUN	Number=Sing	N5++,N2	N5p	N5+: Quantities: many/much	t2
 <g/>
@@ -687,7 +687,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: P
 </s>
 </p>
 <p id="u2020-04-07-1.5" lang="English">
-<s id="ParlaMint-HU_2020-04-07.seg6.1">
+<s id="ParlaMint-HU_2020-04-07.seg6.1" senti_3="Positive" senti_6="positive" senti_n="5.314">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 are	are	be	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 proud	proud	proud	ADJ	Degree=Pos	E4.2+/S1.2,S1.2.3+	E4.2p S1.2	E4.2+: Content|S1.2: Personality traits	t3
@@ -711,7 +711,7 @@ Budapest	Budapest	Budapest	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t13
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t14
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg6.2">
+<s id="ParlaMint-HU_2020-04-07.seg6.2" senti_3="Positive" senti_6="positive" senti_n="4.605">
 They	They	they	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pronouns	t1
 play	play	play	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	K1,K5.1,K5.2,K2,K3,A1.1.1,K6	K1	K1: Entertainment generally	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -738,7 +738,7 @@ Virus	Virus	Virus	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t17
 </s>
 </p>
 <p id="u2020-04-07-1.6" lang="English">
-<s id="ParlaMint-HU_2020-04-07.seg7.1">
+<s id="ParlaMint-HU_2020-04-07.seg7.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.521">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t3
@@ -786,7 +786,7 @@ NATO	NATO	NATO	PROPN	Abbr=Yes Number=Sing	Z3	Z3	Z3: Other proper names	t35
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t36
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg7.2">
+<s id="ParlaMint-HU_2020-04-07.seg7.2" senti_3="Negative" senti_6="negative" senti_n="0.358">
 Representatives	Representatives	Representative	NOUN	Number=Plur	Q2.1/S2mf,G1.1/S2mf,I2.2/S2mf,A4.1	Q2.1 S2	Q2.1: Speech: Communicative|S2: People	t1
 from	from	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 several	several	several	ADJ	Degree=Pos	N5	N5	N5: Quantities	t3
@@ -824,7 +824,7 @@ up	up	up	ADP	-	Z5	Z5	Z5: Grammatical bin	t28
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg7.3">
+<s id="ParlaMint-HU_2020-04-07.seg7.3" senti_3="Positive" senti_6="mixed positive" senti_n="4.306">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <name type="MISC">
 Central	Central	Central	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -872,7 +872,7 @@ all	all	all	DET	-	Z4	Z4	Z4: Discourse Bin	t33
 </s>
 </p>
 <p id="u2020-04-07-1.7" lang="English">
-<s id="ParlaMint-HU_2020-04-07.seg8.1">
+<s id="ParlaMint-HU_2020-04-07.seg8.1" senti_3="Positive" senti_6="positive" senti_n="4.755">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t3
@@ -926,7 +926,7 @@ Virus	Virus	Virus	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t41
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t42
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg8.2">
+<s id="ParlaMint-HU_2020-04-07.seg8.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.868">
 Everyone	Everyone	everyone	PRON	Number=Sing	Z8/N5.1+c	Z8 N5.1p	Z8: Pronouns|N5.1+: Entire; maximum	t1
 has	has	have	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -956,7 +956,7 @@ interests	interests	interest	NOUN	Number=Plur	X5.2+,I1.1,S8+,S1.1.3+	X5.2p	X5.2+
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg8.3">
+<s id="ParlaMint-HU_2020-04-07.seg8.3" senti_3="Negative" senti_6="negative" senti_n="0.120">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 clear	clear	clear	ADJ	Degree=Pos	A7+,A10+,O4.3,O4.1,N5.1+,W4	A7p	A7+: Likely	t3
@@ -996,7 +996,7 @@ protection	protection	protection	NOUN	Number=Sing	S8+/A15+,A10-	S8p A15p	S8+: He
 </s>
 </p>
 <p id="u2020-04-07-1.8" lang="English">
-<s id="ParlaMint-HU_2020-04-07.seg9.1">
+<s id="ParlaMint-HU_2020-04-07.seg9.1" senti_3="Negative" senti_6="negative" senti_n="0.412">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 latter	latter	latter	ADJ	Degree=Pos	N4	N4	N4: Linear order	t3
@@ -1058,7 +1058,7 @@ products	products	product	NOUN	Number=Plur	O2,A1.1.1,A2.2,N2%	O2	O2: Objects gen
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t47
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg9.2">
+<s id="ParlaMint-HU_2020-04-07.seg9.2" senti_3="Neutral" senti_6="neutral negative" senti_n="1.786">
 Therefore	Therefore	therefore	ADV	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1087,7 +1087,7 @@ virus	virus	virus	NOUN	Number=Sing	L2,Y2	L2	L2: Living creatures: animals, birds
 </s>
 </p>
 <p id="u2020-04-07-1.9" lang="English">
-<s id="ParlaMint-HU_2020-04-07.seg10.1">
+<s id="ParlaMint-HU_2020-04-07.seg10.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.501">
 Finally	Finally	finally	ADV	-	N4	N4	N4: Linear order	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1163,7 +1163,7 @@ off	off	off	ADP	-	Z5,E2-	Z5	Z5: Grammatical bin	t58
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t59
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg10.2">
+<s id="ParlaMint-HU_2020-04-07.seg10.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.740">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <name type="MISC">
 Hungarian	Hungarian	Hungarian	ADJ	Degree=Pos	T1.3	T1.3	T1.3: Time: Period	t2
@@ -1214,7 +1214,7 @@ plenty	plenty	plenty	NOUN	Number=Sing	N5++	N5p	N5+: Quantities: many/much	t36
 </s>
 </p>
 <p id="u2020-04-07-1.10" lang="English">
-<s id="ParlaMint-HU_2020-04-07.seg11.1">
+<s id="ParlaMint-HU_2020-04-07.seg11.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.087">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -1229,7 +1229,7 @@ attention	attention	attention	NOUN	Number=Sing	X5.1+,S8+	X5.1p	X5.1+: Attentive	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg11.2">
+<s id="ParlaMint-HU_2020-04-07.seg11.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.337">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t3
@@ -1248,9 +1248,9 @@ information	information	information	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+:
 <note type="kinesic:applause" content="Applause from the pro-government ranks."/>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="u2020-04-07-185" text_id="ParlaMint-HU-en_2020-04-07" subcorpus="COVID" lang="English" body="Unicameralism" term="8. ciklus" session="-" meeting="43. ülés" sitting="2. ülésnap" agenda="-" date="2020-04-07" title="Hungarian parliamentary corpus ParlaMint-HU, legislative session of 2020 spring, meeting 43, day 2, 2020-04-07 [ParlaMint.ana]" speaker_role="Regular" speaker_id="VargaLaszlo" speaker_name="Varga, László" speaker_mp="MP" speaker_minister="notMinister" speaker_party="MSZP-frakció" speaker_party_name="Parliamentary group of the Hungarian Socialist Party in the 8th parliamentary term" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1979">
+<speech id="u2020-04-07-185" text_id="ParlaMint-HU-en_2020-04-07" subcorpus="COVID" lang="English" body="Unicameralism" term="8. ciklus" session="-" meeting="43. ülés" sitting="2. ülésnap" agenda="-" date="2020-04-07" title="Hungarian parliamentary corpus ParlaMint-HU, legislative session of 2020 spring, meeting 43, day 2, 2020-04-07 [ParlaMint.ana]" speaker_role="Regular" topic="Mix" speaker_id="VargaLaszlo" speaker_name="Varga, László" speaker_mp="MP" speaker_minister="notMinister" speaker_party="MSZP-frakció" speaker_party_name="Parliamentary group of the Hungarian Socialist Party in the 8th parliamentary term" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1979">
 <p id="u2020-04-07-185.1" lang="English">
-<s id="ParlaMint-HU_2020-04-07.seg1133.1">
+<s id="ParlaMint-HU_2020-04-07.seg1133.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.046">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -1267,7 +1267,7 @@ President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t8
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1133.2">
+<s id="ParlaMint-HU_2020-04-07.seg1133.2" senti_3="Positive" senti_6="mixed positive" senti_n="4.043">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -1276,7 +1276,7 @@ gentlemen	gentlemen	gentleman	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t3
 </phr>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1133.3">
+<s id="ParlaMint-HU_2020-04-07.seg1133.3" senti_3="Positive" senti_6="mixed positive" senti_n="4.416">
 <name type="LOC">
 Dear	Dear	dear	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t1
 House	House	House	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -1284,7 +1284,7 @@ House	House	House	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </name>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1133.4">
+<s id="ParlaMint-HU_2020-04-07.seg1133.4" senti_3="Positive" senti_6="positive" senti_n="4.818">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 have	have	have	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 often	often	often	ADV	-	N6+	N6p	N6+: Frequent	t3
@@ -1334,7 +1334,7 @@ work	work	work	VERB	VerbForm=Inf	I3.1,A1.1.1,X9.2+,A2.1+,A2.2	I3.1	I3.1: Work an
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t38
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1133.5">
+<s id="ParlaMint-HU_2020-04-07.seg1133.5" senti_3="Positive" senti_6="positive" senti_n="5.213">
 Today	Today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1384,7 +1384,7 @@ undisturbed	undisturbed	undisturbed	ADJ	Degree=Pos	A2.1-	A2.1n	A2.1-: No change	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t39
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1133.6">
+<s id="ParlaMint-HU_2020-04-07.seg1133.6" senti_3="Neutral" senti_6="neutral positive" senti_n="3.116">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 may	may	may	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 have	have	have	AUX	VerbForm=Inf	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -1430,7 +1430,7 @@ this	this	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direct
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t37
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1133.7">
+<s id="ParlaMint-HU_2020-04-07.seg1133.7" senti_3="Positive" senti_6="mixed positive" senti_n="3.585">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
 leaders	leaders	leader	NOUN	Number=Plur	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t2
@@ -1514,7 +1514,7 @@ services	services	service	NOUN	Number=Plur	S8+,S7.1-,A1.1.1,S9,G3@,G2.1@,M3/M7@	
 </s>
 </p>
 <p id="u2020-04-07-185.2" lang="English">
-<s id="ParlaMint-HU_2020-04-07.seg1134.1">
+<s id="ParlaMint-HU_2020-04-07.seg1134.1" senti_3="Negative" senti_6="negative" senti_n="0.454">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 municipalities	municipalities	municipality	NOUN	Number=Plur	M7/G1.1	M7 G1.1	M7: Places|G1.1: Government	t2
 are	are	be	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -1541,7 +1541,7 @@ assistance	assistance	assistance	NOUN	Number=Sing	S8+	S8p	S8+: Helping	t19
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t20
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1134.2">
+<s id="ParlaMint-HU_2020-04-07.seg1134.2" senti_3="Negative" senti_6="negative" senti_n="0.227">
 However	However	however	ADV	-	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -1620,7 +1620,7 @@ government	government	government	NOUN	Number=Sing	G1.1c	G1.1	G1.1: Government	t6
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t64
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1134.3">
+<s id="ParlaMint-HU_2020-04-07.seg1134.3" senti_3="Negative" senti_6="mixed negative" senti_n="0.927">
 This	This	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 plan	plan	plan	NOUN	Number=Sing	X7+,C1/H1	X7p	X7+: Wanted	t2
 seems	seems	seem	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A8	A8	A8: Seem	t3
@@ -1659,7 +1659,7 @@ announced	announced	announce	VERB	Tense=Past VerbForm=Part Voice=Pass	Q2.2	Q2.2	
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t30
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1134.4">
+<s id="ParlaMint-HU_2020-04-07.seg1134.4" senti_3="Negative" senti_6="mixed negative" senti_n="0.871">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 By	By	by	ADP	-	Z4	Z4	Z4: Discourse Bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z4	Z4	Z4: Discourse Bin	t2
@@ -1723,7 +1723,7 @@ Hungary	Hungary	Hungary	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t42
 </s>
 </p>
 <p id="u2020-04-07-185.3" lang="English">
-<s id="ParlaMint-HU_2020-04-07.seg1135.1">
+<s id="ParlaMint-HU_2020-04-07.seg1135.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.789">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 By	By	by	ADP	-	Z4	Z4	Z4: Discourse Bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z4	Z4	Z4: Discourse Bin	t2
@@ -1758,7 +1758,7 @@ municipalities	municipalities	municipality	NOUN	Number=Plur	M7/G1.1	M7 G1.1	M7: 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1135.2">
+<s id="ParlaMint-HU_2020-04-07.seg1135.2" senti_3="Positive" senti_6="mixed positive" senti_n="4.415">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 how	how	how	SCONJ	PronType=Int	Z5,A13.3	Z5	Z5: Grammatical bin	t3
@@ -1781,7 +1781,7 @@ income	income	income	NOUN	Number=Sing	I1.1	I1.1	I1.1: Money and pay	t18
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1135.3">
+<s id="ParlaMint-HU_2020-04-07.seg1135.3" senti_3="Negative" senti_6="negative" senti_n="0.170">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -1808,7 +1808,7 @@ municipalities	municipalities	municipality	NOUN	Number=Plur	M7/G1.1	M7 G1.1	M7: 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t21
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1135.4">
+<s id="ParlaMint-HU_2020-04-07.seg1135.4" senti_3="Positive" senti_6="mixed positive" senti_n="3.522">
 But	But	but	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 40	40	40	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t3
@@ -1820,7 +1820,7 @@ important	important	important	ADJ	Degree=Pos	A11.1+	A11.1p	A11.1+: Important	t8
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1135.5">
+<s id="ParlaMint-HU_2020-04-07.seg1135.5" senti_3="Positive" senti_6="mixed positive" senti_n="3.770">
 To	To	to	PART	-	Z5	Z5	Z5: Grammatical bin	t1
 talk	talk	talk	VERB	VerbForm=Inf	Q2.1	Q2.1	Q2.1: Speech: Communicative	t2
 about	about	about	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1868,7 +1868,7 @@ budget	budget	budget	NOUN	Number=Sing	I1,G1.1/I1,I1.3-	I1	I1: Money generally	t3
 </p>
 <note type="time" content="21.00"/>
 <p id="u2020-04-07-185.4" lang="English">
-<s id="ParlaMint-HU_2020-04-07.seg1136.1">
+<s id="ParlaMint-HU_2020-04-07.seg1136.1" senti_3="Negative" senti_6="negative" senti_n="0.469">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 may	may	may	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 therefore	therefore	therefore	ADV	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1969,7 +1969,7 @@ lost	lost	lose	VERB	Tense=Past VerbForm=Part Voice=Pass	X9.2-,A9-,M6/A5.3-,L1-	X
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t82
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1136.2">
+<s id="ParlaMint-HU_2020-04-07.seg1136.2" senti_3="Negative" senti_6="negative" senti_n="0.158">
 They	They	they	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	Z8mfn	Z8	Z8: Pronouns	t1
 put	put	put	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	M2,Q2.1,Q2.2,A1.1.1	M2	M2: Putting, pulling, pushing, transporting	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -1982,7 +1982,7 @@ position	position	position	NOUN	Number=Sing	M6,M7,S7.1,I3.1,N4,S1.1.1,A1.1.1,K5.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1136.3">
+<s id="ParlaMint-HU_2020-04-07.seg1136.3" senti_3="Negative" senti_6="negative" senti_n="0.271">
 Indeed	Indeed	indeed	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -2095,7 +2095,7 @@ municipalities	municipalities	municipality	NOUN	Number=Plur	M7/G1.1	M7 G1.1	M7: 
 </s>
 </p>
 <p id="u2020-04-07-185.5" lang="English">
-<s id="ParlaMint-HU_2020-04-07.seg1137.1">
+<s id="ParlaMint-HU_2020-04-07.seg1137.1" senti_3="Negative" senti_6="negative" senti_n="0.296">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 an	an	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -2146,7 +2146,7 @@ defence	defence	defence	NOUN	Number=Sing	S8+,G3,G2.1c,Q2.2,K5.1,S7.3+	S8p	S8+: H
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t41
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1137.2">
+<s id="ParlaMint-HU_2020-04-07.seg1137.2" senti_3="Negative" senti_6="mixed negative" senti_n="1.494">
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 Let	Let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
 us	us	we	PRON	Case=Acc Number=Plur Person=1 PronType=Prs	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -2222,7 +2222,7 @@ share	share	share	NOUN	Number=Sing	S1.1.2+,I1.1	S1.1.2p	S1.1.2+: Reciprocal	t56
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t57
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1137.3">
+<s id="ParlaMint-HU_2020-04-07.seg1137.3" senti_3="Positive" senti_6="mixed positive" senti_n="4.142">
 There	There	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t1
 are	are	be	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 also	also	also	ADV	-	N5++	N5p	N5+: Quantities: many/much	t3
@@ -2275,7 +2275,7 @@ locally	locally	locally	ADV	-	N3.3-	N3.3n	N3.3-: Distance: Near	t42
 </s>
 </p>
 <p id="u2020-04-07-185.6" lang="English">
-<s id="ParlaMint-HU_2020-04-07.seg1138.1">
+<s id="ParlaMint-HU_2020-04-07.seg1138.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.597">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 municipalities	municipalities	municipality	NOUN	Number=Plur	M7/G1.1	M7 G1.1	M7: Places|G1.1: Government	t2
 therefore	therefore	therefore	ADV	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -2288,7 +2288,7 @@ withdrawals	withdrawals	withdrawal	NOUN	Number=Plur	M2,M1,S1.1.3-,A2.1+	M2	M2: P
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1138.2">
+<s id="ParlaMint-HU_2020-04-07.seg1138.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.977">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 propose	propose	propose	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2/X7+,X4.1,G1.2,Q2.2/S4	Q2.2 X7p	Q2.2: Speech acts|X7+: Wanted	t2
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -2321,7 +2321,7 @@ spirit	spirit	spirit	NOUN	Number=Sing	S9,O1.2,F2,X5.2+,E4.1+,S6+,E1,X7+	S9	S9: R
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t27
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1138.3">
+<s id="ParlaMint-HU_2020-04-07.seg1138.3" senti_3="Positive" senti_6="mixed positive" senti_n="4.304">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -2338,9 +2338,9 @@ President	President	President	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t
 </p>
 </speech>
 <note type="speaker" content="THE PRESIDENT"/>
-<speech id="u2020-04-07-186" text_id="ParlaMint-HU-en_2020-04-07" subcorpus="COVID" lang="English" body="Unicameralism" term="8. ciklus" session="-" meeting="43. ülés" sitting="2. ülésnap" agenda="-" date="2020-04-07" title="Hungarian parliamentary corpus ParlaMint-HU, legislative session of 2020 spring, meeting 43, day 2, 2020-04-07 [ParlaMint.ana]" speaker_role="Chairperson" speaker_id="SneiderTamas" speaker_name="Sneider, Tamás" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JOBBIK-frakció" speaker_party_name="Parliamentary group of the Movement for a Better Hungary in the 8th parliamentary term" party_status="Opposition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1972">
+<speech id="u2020-04-07-186" text_id="ParlaMint-HU-en_2020-04-07" subcorpus="COVID" lang="English" body="Unicameralism" term="8. ciklus" session="-" meeting="43. ülés" sitting="2. ülésnap" agenda="-" date="2020-04-07" title="Hungarian parliamentary corpus ParlaMint-HU, legislative session of 2020 spring, meeting 43, day 2, 2020-04-07 [ParlaMint.ana]" speaker_role="Chairperson" topic="Other" speaker_id="SneiderTamas" speaker_name="Sneider, Tamás" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JOBBIK-frakció" speaker_party_name="Parliamentary group of the Movement for a Better Hungary in the 8th parliamentary term" party_status="Opposition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1972">
 <p id="u2020-04-07-186.1" lang="English">
-<s id="ParlaMint-HU_2020-04-07.seg1139.1">
+<s id="ParlaMint-HU_2020-04-07.seg1139.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.441">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -2351,7 +2351,7 @@ Congressman	Congressman	Congressman	PROPN	Number=Sing	G1.2/S2.2m	G1.2 S2.2	G1.2:
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1139.2">
+<s id="ParlaMint-HU_2020-04-07.seg1139.2" senti_3="Positive" senti_6="mixed positive" senti_n="4.043">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -2360,7 +2360,7 @@ gentlemen	gentlemen	gentleman	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t3
 </phr>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t4
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1139.3">
+<s id="ParlaMint-HU_2020-04-07.seg1139.3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.210">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 have	have	have	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 reached	reached	reach	VERB	Tense=Past VerbForm=Part	M1,N3.3,Q2.1,X9.2+	M1	M1: Moving, coming and going	t3
@@ -2377,7 +2377,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	Q1.2/X7+	Q1.2 X7p	Q1.2: Paper documents an
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1139.4">
+<s id="ParlaMint-HU_2020-04-07.seg1139.4" senti_3="Positive" senti_6="positive" senti_n="4.944">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -2388,7 +2388,7 @@ work	work	work	NOUN	Number=Sing	I3.1,A1.1.1,Q4,K2,C1	I3.1	I3.1: Work and employm
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1139.5">
+<s id="ParlaMint-HU_2020-04-07.seg1139.5" senti_3="Neutral" senti_6="neutral positive" senti_n="3.091">
 Parliament	Parliament	Parliament	PROPN	Number=Sing	G1.1	G1.1	G1.1: Government	t1
 will	will	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -2402,7 +2402,7 @@ a.m	a.m	a.m	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t8
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-HU_2020-04-07.seg1139.6">
+<s id="ParlaMint-HU_2020-04-07.seg1139.6" senti_3="Neutral" senti_6="neutral positive" senti_n="2.875">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Meeting	Meeting	meeting	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t1
 day	day	day	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2

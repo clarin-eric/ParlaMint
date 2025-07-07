@@ -21,19 +21,35 @@
                <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
             </respStmt>
             <respStmt>
-               <persName>Taja Kuzman</persName>
-               <persName>Nikola Ljubešić</persName>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
                <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
             </respStmt>
             <respStmt>
-               <persName>Paul Rayson</persName>
-               <persName>Matthew Coole</persName>
-               <persName>John Vidler</persName>
+               <persName ref="https://orcid.org/0000-0002-1257-2191">Paul Rayson</persName>
+               <persName ref="https://orcid.org/0000-0002-9279-931X">Matthew Coole</persName>
+               <persName ref="https://orcid.org/0000-0003-3442-6862">John Vidler</persName>
                <resp xml:lang="en">Annotating MTed corpora with USAS semantic tags</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
             </respStmt>
             <funder>
                <orgName xml:lang="pl">Infrastruktura naukowa CLARIN ERIC</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
             </funder>
             <funder>
                <orgName xml:lang="pl">Komisja Europejska</orgName>
@@ -49,7 +65,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="394" xml:lang="pl">394 wypowiedzi</measure>
@@ -63,13 +79,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1910</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2006</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="pl">Ten utwór jest dostępny na <ref target="http://creativecommons.org/licenses/by/4.0/">międzynarodowej licencji Creative Commons Attribution 4.0</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -96,6 +112,7 @@
                <tagUsage gi="head" occurs="1"/>
                <tagUsage gi="incident" occurs="34"/>
                <tagUsage gi="kinesic" occurs="130"/>
+               <tagUsage gi="measure" occurs="4590"/>
                <tagUsage gi="name" occurs="2690"/>
                <tagUsage gi="note" occurs="401"/>
                <tagUsage gi="pc" occurs="9995"/>
@@ -125,8 +142,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-16">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
          <change when="2024-05-16">
             <name>Tomaž Erjavec</name>: Generate TEI version of MTed corpus.</change>
          <change when="2023-03-28">
@@ -140,9 +159,10 @@
             <note type="time" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.ana.note1" xml:lang="en" corresp="mt-src:ParlaMint-PL_2022-06-23-sejm-57-2.ana.note1">Resumption of the meeting at 3 p.m. 9</note>
             <note type="debate" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.ana.note2" xml:lang="en" corresp="mt-src:ParlaMint-PL_2022-06-23-sejm-57-2.ana.note2">The meeting was chaired by Marshal Elżbieta Witek and Vice-Marshals Ryszard Terlecki, Małgorzata Gosiewska, Małgorzata Kidawa-Błońska and Piotr Zgorzelski</note>
             <note type="speaker" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.ana.note3" xml:lang="en" corresp="mt-src:ParlaMint-PL_2022-06-23-sejm-57-2.ana.note3">Deputy Marshal Richard Terlecki:</note>
-            <u who="#RyszardTerlecki" ana="#chair" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.u1" xml:lang="en" corresp="mt-src:ParlaMint-PL_2022-06-23-sejm-57-2.u1">
+            <u who="#RyszardTerlecki" ana="#chair topic:other" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.u1" xml:lang="en" corresp="mt-src:ParlaMint-PL_2022-06-23-sejm-57-2.u1">
                <seg xml:id="seg963379" xml:lang="en" corresp="mt-src:seg963379">
                   <s xml:id="seg963379.1" n="1" corresp="mt-src:seg963379.1">
+                     <measure type="sentiment" quantity="4.049" ana="senti:mixpos" corresp="#seg963379.1"/>
 <w xml:id="seg963379.1.t1" pos="VB" msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin" lemma="resume" function="Q1.2" ana="sem:Q1.2">Resume</w>
 <w xml:id="seg963379.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="session" function="T1.3" ana="sem:T1.3" join="right">session</w>
 <pc xml:id="seg963379.1.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
@@ -150,6 +170,7 @@
                </seg>
                <seg xml:id="seg963380" xml:lang="en" corresp="mt-src:seg963380">
                   <s xml:id="seg963380.1" n="1" corresp="mt-src:seg963380.1">
+                     <measure type="sentiment" quantity="3.239" ana="senti:neupos" corresp="#seg963380.1"/>
 <w xml:id="seg963380.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="seg963380.1.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="would" function="A7+" ana="sem:A7p">would</w>
 <w xml:id="seg963380.1.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="like" function="E2+" ana="sem:E2p">like</w>
@@ -187,6 +208,7 @@
                </seg>
                <seg xml:id="seg963381" xml:lang="en" corresp="mt-src:seg963381">
                   <s xml:id="seg963381.1" n="1" corresp="mt-src:seg963381.1">
+                     <measure type="sentiment" quantity="2.934" ana="senti:neupos" corresp="#seg963381.1"/>
 <w xml:id="seg963381.1.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">In</w>
 <w xml:id="seg963381.1.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
 <w xml:id="seg963381.1.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos|NumType=Ord" lemma="first" function="N4" ana="sem:N4">first</w>
@@ -215,6 +237,7 @@
                </seg>
                <seg xml:id="seg963382" xml:lang="en" corresp="mt-src:seg963382">
                   <s xml:id="seg963382.1" n="1" corresp="mt-src:seg963382.1">
+                     <measure type="sentiment" quantity="3.306" ana="senti:neupos" corresp="#seg963382.1"/>
 <w xml:id="seg963382.1.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="seg963382.1.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="minute" function="T1.3,Q1.2" ana="sem:T1.3">minutes</w>
 <w xml:id="seg963382.1.t3" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="Z5" ana="sem:Z5">and</w>
@@ -240,6 +263,7 @@
                </seg>
                <seg xml:id="seg963383" xml:lang="en" corresp="mt-src:seg963383">
                   <s xml:id="seg963383.1" n="1" corresp="mt-src:seg963383.1">
+                     <measure type="sentiment" quantity="3.499" ana="senti:neupos" corresp="#seg963383.1"/>
 <w xml:id="seg963383.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="seg963383.1.t2" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="ask" function="Q2.2" ana="sem:Q2.2">ask</w>
 <w xml:id="seg963383.1.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -253,9 +277,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.ana.note4" xml:lang="en" corresp="mt-src:ParlaMint-PL_2022-06-23-sejm-57-2.ana.note4">Secretary Aleksander Szcylko:</note>
-            <u who="#AleksandraSzczudło" ana="#regular" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.u2" xml:lang="en" corresp="mt-src:ParlaMint-PL_2022-06-23-sejm-57-2.u2">
+            <u who="#AleksandraSzczudło" ana="#regular topic:other" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.u2" xml:lang="en" corresp="mt-src:ParlaMint-PL_2022-06-23-sejm-57-2.u2">
                <seg xml:id="seg963384" xml:lang="en" corresp="mt-src:seg963384">
                   <s xml:id="seg963384.1" n="1" corresp="mt-src:seg963384.1">
+                     <measure type="sentiment" quantity="3.025" ana="senti:neupos" corresp="#seg963384.1"/>
 <w xml:id="seg963384.1.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" lemma="I" function="Z8mf" ana="sem:Z8">I</w>
 <w xml:id="seg963384.1.t2" pos="MD" msd="UPosTag=AUX|VerbForm=Fin" lemma="would" function="A7+" ana="sem:A7p">would</w>
 <w xml:id="seg963384.1.t3" pos="VB" msd="UPosTag=VERB|VerbForm=Inf" lemma="like" function="E2+" ana="sem:E2p">like</w>
@@ -280,6 +305,7 @@
                </seg>
                <seg xml:id="seg963385" xml:lang="en" corresp="mt-src:seg963385">
                   <s xml:id="seg963385.1" n="1" corresp="mt-src:seg963385.1">
+                     <measure type="sentiment" quantity="2.869" ana="senti:neupos" corresp="#seg963385.1"/>
 <pc xml:id="seg963385.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
                      <name type="ORG">
 <w xml:id="seg963385.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="education" function="P1,X2.3+" ana="sem:P1" join="right">Education</w>
@@ -296,6 +322,7 @@
                </seg>
                <seg xml:id="seg963386" xml:lang="en" corresp="mt-src:seg963386">
                   <s xml:id="seg963386.1" n="1" corresp="mt-src:seg963386.1">
+                     <measure type="sentiment" quantity="2.528" ana="senti:neupos" corresp="#seg963386.1"/>
 <pc xml:id="seg963386.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
                      <name type="ORG">
 <w xml:id="seg963386.1.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="Public" function="Z1mf,Z3c" ana="sem:Z1">Public</w>
@@ -310,6 +337,7 @@
                </seg>
                <seg xml:id="seg963387" xml:lang="en" corresp="mt-src:seg963387">
                   <s xml:id="seg963387.1" n="1" corresp="mt-src:seg963387.1">
+                     <measure type="sentiment" quantity="2.891" ana="senti:neupos" corresp="#seg963387.1"/>
 <pc xml:id="seg963387.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
 <w xml:id="seg963387.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="infrastructure" function="I2.1/S8+" ana="sem:I2.1 sem:S8p">Infrastructure</w>
 <pc xml:id="seg963387.1.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
@@ -320,6 +348,7 @@
                </seg>
                <seg xml:id="seg963388" xml:lang="en" corresp="mt-src:seg963388">
                   <s xml:id="seg963388.1" n="1" corresp="mt-src:seg963388.1">
+                     <measure type="sentiment" quantity="2.880" ana="senti:neupos" corresp="#seg963388.1"/>
 <pc xml:id="seg963388.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
                      <name type="ORG">
 <w xml:id="seg963388.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="Culture" function="L1" ana="sem:L1">Culture</w>
@@ -334,6 +363,7 @@
                </seg>
                <seg xml:id="seg963389" xml:lang="en" corresp="mt-src:seg963389">
                   <s xml:id="seg963389.1" n="1" corresp="mt-src:seg963389.1">
+                     <measure type="sentiment" quantity="2.932" ana="senti:neupos" corresp="#seg963389.1"/>
 <pc xml:id="seg963389.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
 <w xml:id="seg963389.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="health" function="B2,X9.2" ana="sem:B2" join="right">Health</w>
 <pc xml:id="seg963389.1.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">--</pc>
@@ -345,6 +375,7 @@
                </seg>
                <seg xml:id="seg963390" xml:lang="en" corresp="mt-src:seg963390">
                   <s xml:id="seg963390.1" n="1" corresp="mt-src:seg963390.1">
+                     <measure type="sentiment" quantity="2.856" ana="senti:neupos" corresp="#seg963390.1"/>
 <pc xml:id="seg963390.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
                      <name type="ORG">
 <w xml:id="seg963390.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="economy" function="I2.1,I1.3-" ana="sem:I2.1">Economy</w>
@@ -361,6 +392,7 @@
                </seg>
                <seg xml:id="seg963391" xml:lang="en" corresp="mt-src:seg963391">
                   <s xml:id="seg963391.1" n="1" corresp="mt-src:seg963391.1">
+                     <measure type="sentiment" quantity="2.936" ana="senti:neupos" corresp="#seg963391.1"/>
 <pc xml:id="seg963391.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
                      <name type="ORG">
 <w xml:id="seg963391.1.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="maritime" function="Z1mf,Z3c" ana="sem:Z1">Maritime</w>
@@ -379,6 +411,7 @@
                </seg>
                <seg xml:id="seg963392" xml:lang="en" corresp="mt-src:seg963392">
                   <s xml:id="seg963392.1" n="1" corresp="mt-src:seg963392.1">
+                     <measure type="sentiment" quantity="3.266" ana="senti:neupos" corresp="#seg963392.1"/>
 <pc xml:id="seg963392.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
 <w xml:id="seg963392.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="Communication" function="Q2.1,Q1.2,Q1.3,Q4.3" ana="sem:Q2.1">Communication</w>
 <w xml:id="seg963392.1.t3" pos="IN" msd="UPosTag=ADP" lemma="with" function="Z5" ana="sem:Z5">with</w>
@@ -395,6 +428,7 @@
                </seg>
                <seg xml:id="seg963393" xml:lang="en" corresp="mt-src:seg963393">
                   <s xml:id="seg963393.1" n="1" corresp="mt-src:seg963393.1">
+                     <measure type="sentiment" quantity="2.958" ana="senti:neupos" corresp="#seg963393.1"/>
 <pc xml:id="seg963393.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
                      <name type="ORG">
 <w xml:id="seg963393.1.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="local" function="Z1mf,Z3c" ana="sem:Z1">Local</w>
@@ -413,6 +447,7 @@
                </seg>
                <seg xml:id="seg963394" xml:lang="en" corresp="mt-src:seg963394">
                   <s xml:id="seg963394.1" n="1" corresp="mt-src:seg963394.1">
+                     <measure type="sentiment" quantity="2.909" ana="senti:neupos" corresp="#seg963394.1"/>
 <pc xml:id="seg963394.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
 <w xml:id="seg963394.1.t2" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
 <w xml:id="seg963394.1.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -430,6 +465,7 @@
                </seg>
                <seg xml:id="seg963395" xml:lang="en" corresp="mt-src:seg963395">
                   <s xml:id="seg963395.1" n="1" corresp="mt-src:seg963395.1">
+                     <measure type="sentiment" quantity="2.988" ana="senti:neupos" corresp="#seg963395.1"/>
 <pc xml:id="seg963395.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
 <w xml:id="seg963395.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="Digitization" function="Z99" ana="sem:Z99" join="right">Digitization</w>
 <pc xml:id="seg963395.1.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
@@ -449,6 +485,7 @@
                </seg>
                <seg xml:id="seg963396" xml:lang="en" corresp="mt-src:seg963396">
                   <s xml:id="seg963396.1" n="1" corresp="mt-src:seg963396.1">
+                     <measure type="sentiment" quantity="2.992" ana="senti:neupos" corresp="#seg963396.1"/>
 <pc xml:id="seg963396.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
 <w xml:id="seg963396.1.t2" pos="IN" msd="UPosTag=ADP" lemma="to" function="Z5" ana="sem:Z5">to</w>
 <w xml:id="seg963396.1.t3" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
@@ -466,6 +503,7 @@
                </seg>
                <seg xml:id="seg963397" xml:lang="en" corresp="mt-src:seg963397">
                   <s xml:id="seg963397.1" n="1" corresp="mt-src:seg963397.1">
+                     <measure type="sentiment" quantity="2.594" ana="senti:neupos" corresp="#seg963397.1"/>
 <pc xml:id="seg963397.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
                      <name type="ORG">
 <w xml:id="seg963397.1.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="Public" function="Z1mf,Z3c" ana="sem:Z1">Public</w>
@@ -480,6 +518,7 @@
                </seg>
                <seg xml:id="seg963398" xml:lang="en" corresp="mt-src:seg963398">
                   <s xml:id="seg963398.1" n="1" corresp="mt-src:seg963398.1">
+                     <measure type="sentiment" quantity="2.788" ana="senti:neupos" corresp="#seg963398.1"/>
 <pc xml:id="seg963398.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
 <w xml:id="seg963398.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="infrastructure" function="I2.1/S8+" ana="sem:I2.1 sem:S8p">Infrastructure</w>
 <w xml:id="seg963398.1.t3" pos="RB" msd="UPosTag=ADV" lemma="together" function="S5+,T1.1.2,M6" ana="sem:S5p">together</w>
@@ -504,6 +543,7 @@
                </seg>
                <seg xml:id="seg963399" xml:lang="en" corresp="mt-src:seg963399">
                   <s xml:id="seg963399.1" n="1" corresp="mt-src:seg963399.1">
+                     <measure type="sentiment" quantity="2.806" ana="senti:neupos" corresp="#seg963399.1"/>
 <pc xml:id="seg963399.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
                      <phr type="sem" function="Z1mf,Z3c" ana="sem:Z1">
 <w xml:id="seg963399.1.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="foreign" function="Z1mf,Z3c" ana="sem:Z1">Foreign</w>
@@ -517,6 +557,7 @@
                </seg>
                <seg xml:id="seg963400" xml:lang="en" corresp="mt-src:seg963400">
                   <s xml:id="seg963400.1" n="1" corresp="mt-src:seg963400.1">
+                     <measure type="sentiment" quantity="2.836" ana="senti:neupos" corresp="#seg963400.1"/>
 <pc xml:id="seg963400.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
 <w xml:id="seg963400.1.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="legal" function="G2.1,G2.1+" ana="sem:G2.1">Legal</w>
 <w xml:id="seg963400.1.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="notice" function="Q1.2,Q2.2,I3.1/Q2.2,G2.1/Q1.2" ana="sem:Q1.2">notice</w>
@@ -529,6 +570,7 @@
                </seg>
                <seg xml:id="seg963401" xml:lang="en" corresp="mt-src:seg963401">
                   <s xml:id="seg963401.1" n="1" corresp="mt-src:seg963401.1">
+                     <measure type="sentiment" quantity="2.403" ana="senti:neuneg" corresp="#seg963401.1"/>
 <pc xml:id="seg963401.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
                      <name type="ORG">
 <w xml:id="seg963401.1.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="Public" function="Z1mf,Z3c" ana="sem:Z1">Public</w>
@@ -543,6 +585,7 @@
                </seg>
                <seg xml:id="seg963402" xml:lang="en" corresp="mt-src:seg963402">
                   <s xml:id="seg963402.1" n="1" corresp="mt-src:seg963402.1">
+                     <measure type="sentiment" quantity="2.823" ana="senti:neupos" corresp="#seg963402.1"/>
 <pc xml:id="seg963402.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
                      <name type="ORG">
 <w xml:id="seg963402.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="Culture" function="L1" ana="sem:L1">Culture</w>
@@ -557,6 +600,7 @@
                </seg>
                <seg xml:id="seg963403" xml:lang="en" corresp="mt-src:seg963403">
                   <s xml:id="seg963403.1" n="1" corresp="mt-src:seg963403.1">
+                     <measure type="sentiment" quantity="2.600" ana="senti:neupos" corresp="#seg963403.1"/>
 <pc xml:id="seg963403.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
                      <phr type="sem" function="Z2,Z3c" ana="sem:Z2">
 <w xml:id="seg963403.1.t2" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="rule" function="Z2,Z3c" ana="sem:Z2">Rules</w>
@@ -579,6 +623,7 @@
                </seg>
                <seg xml:id="seg963404" xml:lang="en" corresp="mt-src:seg963404">
                   <s xml:id="seg963404.1" n="1" corresp="mt-src:seg963404.1">
+                     <measure type="sentiment" quantity="2.989" ana="senti:neupos" corresp="#seg963404.1"/>
 <pc xml:id="seg963404.1.t1" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">-</pc>
 <w xml:id="seg963404.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="Digitization" function="Z99" ana="sem:Z99" join="right">Digitization</w>
 <pc xml:id="seg963404.1.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
@@ -598,6 +643,7 @@
                </seg>
                <seg xml:id="seg963405" xml:lang="en" corresp="mt-src:seg963405">
                   <s xml:id="seg963405.1" n="1" corresp="mt-src:seg963405.1">
+                     <measure type="sentiment" quantity="3.154" ana="senti:neupos" corresp="#seg963405.1"/>
 <w xml:id="seg963405.1.t1" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">A</w>
 <w xml:id="seg963405.1.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="joint" function="S5+" ana="sem:S5p">joint</w>
 <w xml:id="seg963405.1.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="meeting" function="S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+" ana="sem:S1.1.3p">meeting</w>
@@ -653,6 +699,7 @@
 <pc xml:id="seg963405.1.t45" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="seg963405.2" n="2" corresp="mt-src:seg963405.2">
+                     <measure type="sentiment" quantity="4.600" ana="senti:pospos" corresp="#seg963405.2"/>
                      <phr type="sem" function="Z4,S1.2.4+" ana="sem:Z4">
 <w xml:id="seg963405.2.t1" pos="VBP" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" lemma="thank" function="Z4,S1.2.4+" ana="sem:Z4">Thank</w>
 <w xml:id="seg963405.2.t2" pos="PRP" msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs" lemma="you" function="Z4,S1.2.4+" ana="sem:Z4" join="right">you</w>
@@ -664,9 +711,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#MałgorzataNiemczyk" ana="#regular" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.u393" xml:lang="en" corresp="mt-src:ParlaMint-PL_2022-06-23-sejm-57-2.u393">
+            <u who="#MałgorzataNiemczyk" ana="#regular topic:educa" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.u393" xml:lang="en" corresp="mt-src:ParlaMint-PL_2022-06-23-sejm-57-2.u393">
                <seg xml:id="seg965343" xml:lang="en" corresp="mt-src:seg965343">
                   <s xml:id="seg965343.1" n="1" corresp="mt-src:seg965343.1">
+                     <measure type="sentiment" quantity="1.134" ana="senti:mixneg" corresp="#seg965343.1"/>
 <w xml:id="seg965343.1.t1" pos="IN" msd="UPosTag=ADP" lemma="on" function="Z5" ana="sem:Z5">On</w>
 <w xml:id="seg965343.1.t2" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="23" function="N1" ana="sem:N1">23</w>
                      <phr type="sem" function="Z2,Z1mf,T1.3" ana="sem:Z2">
@@ -763,6 +811,7 @@
                </seg>
                <seg xml:id="seg965344" xml:lang="en" corresp="mt-src:seg965344">
                   <s xml:id="seg965344.1" n="1" corresp="mt-src:seg965344.1">
+                     <measure type="sentiment" quantity="1.775" ana="senti:neuneg" corresp="#seg965344.1"/>
 <w xml:id="seg965344.1.t1" pos="PRP$" msd="UPosTag=PRON|Number=Sing|Person=1|Poss=Yes|PronType=Prs" lemma="my" function="Z8" ana="sem:Z8">My</w>
 <w xml:id="seg965344.1.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="intention" function="X7+,O4.1%" ana="sem:X7p">intention</w>
 <w xml:id="seg965344.1.t3" pos="VBD" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
@@ -793,9 +842,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.ana.note400" xml:lang="en" corresp="mt-src:ParlaMint-PL_2022-06-23-sejm-57-2.ana.note400">Mr Sobolewski:</note>
-            <u who="#KrzysztofSobolewski" ana="#regular" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.u394" xml:lang="en" corresp="mt-src:ParlaMint-PL_2022-06-23-sejm-57-2.u394">
+            <u who="#KrzysztofSobolewski" ana="#regular topic:defen" xml:id="ParlaMint-PL_2022-06-23-sejm-57-2.u394" xml:lang="en" corresp="mt-src:ParlaMint-PL_2022-06-23-sejm-57-2.u394">
                <seg xml:id="seg965345" xml:lang="en" corresp="mt-src:seg965345">
                   <s xml:id="seg965345.1" n="1" corresp="mt-src:seg965345.1">
+                     <measure type="sentiment" quantity="4.071" ana="senti:mixpos" corresp="#seg965345.1"/>
                      <name type="PER">
 <w xml:id="seg965345.1.t1" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Mrs." function="Z1mf,Z3c" ana="sem:Z1">Mrs.</w>
 <w xml:id="seg965345.1.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Marshal" function="Z1mf,Z3c" ana="sem:Z1" join="right">Marshal</w>
@@ -803,6 +853,7 @@
 <pc xml:id="seg965345.1.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">!</pc>
                   </s>
                   <s xml:id="seg965345.2" n="2" corresp="mt-src:seg965345.2">
+                     <measure type="sentiment" quantity="3.696" ana="senti:mixpos" corresp="#seg965345.2"/>
 <w xml:id="seg965345.2.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="high" function="Z1mf,Z3c" ana="sem:Z1">High</w>
                      <name type="PER">
 <w xml:id="seg965345.2.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Izbo" function="Z1mf,Z3c" ana="sem:Z1" join="right">Izbo</w>
@@ -864,6 +915,7 @@
 <pc xml:id="seg965345.2.t45" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="seg965345.3" n="3" corresp="mt-src:seg965345.3">
+                     <measure type="sentiment" quantity="3.976" ana="senti:mixpos" corresp="#seg965345.3"/>
 <w xml:id="seg965345.3.t1" pos="IN" msd="UPosTag=ADP" lemma="over" function="Z5" ana="sem:Z5">Over</w>
 <w xml:id="seg965345.3.t2" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">the</w>
 <w xml:id="seg965345.3.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="next" function="N4" ana="sem:N4">next</w>
@@ -890,6 +942,7 @@
                </seg>
                <seg xml:id="seg965346" xml:lang="en" corresp="mt-src:seg965346">
                   <s xml:id="seg965346.1" n="1" corresp="mt-src:seg965346.1">
+                     <measure type="sentiment" quantity="4.035" ana="senti:mixpos" corresp="#seg965346.1"/>
                      <phr type="sem" function="T1.3" ana="sem:T1.3">
 <w xml:id="seg965346.1.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="lady" function="T1.3" ana="sem:T1.3">Ladies</w>
 <w xml:id="seg965346.1.t2" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
@@ -904,6 +957,7 @@
 <pc xml:id="seg965346.1.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
                   </s>
                   <s xml:id="seg965346.2" n="2" corresp="mt-src:seg965346.2">
+                     <measure type="sentiment" quantity="3.661" ana="senti:mixpos" corresp="#seg965346.2"/>
                      <phr type="sem" function="T1.1.2" ana="sem:T1.1.2">
 <w xml:id="seg965346.2.t1" pos="IN" msd="UPosTag=ADP" lemma="to" function="T1.1.2" ana="sem:T1.1.2">To</w>
 <w xml:id="seg965346.2.t2" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="date" function="T1.1.2" ana="sem:T1.1.2" join="right">date</w>
@@ -929,6 +983,7 @@
 <pc xml:id="seg965346.2.t17" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="seg965346.3" n="3" corresp="mt-src:seg965346.3">
+                     <measure type="sentiment" quantity="3.254" ana="senti:neupos" corresp="#seg965346.3"/>
 <w xml:id="seg965346.3.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="seg965346.3.t2" pos="VBD" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">was</w>
 <w xml:id="seg965346.3.t3" pos="VBN" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" lemma="receive" function="A9+,S5+" ana="sem:A9p">received</w>
@@ -999,6 +1054,7 @@
 <pc xml:id="seg965346.3.t50" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="seg965346.4" n="4" corresp="mt-src:seg965346.4">
+                     <measure type="sentiment" quantity="1.265" ana="senti:mixneg" corresp="#seg965346.4"/>
 <w xml:id="seg965346.4.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="seg965346.4.t2" pos="JJS" msd="UPosTag=ADJ|Degree=Sup" lemma="young" function="T3---" ana="sem:T3n">youngest</w>
                      <phr type="sem" function="Df/A5.1+++mfnc" ana="sem:A5.1p">
@@ -1059,6 +1115,7 @@
                </seg>
                <seg xml:id="seg965347" xml:lang="en" corresp="mt-src:seg965347">
                   <s xml:id="seg965347.1" n="1" corresp="mt-src:seg965347.1">
+                     <measure type="sentiment" quantity="4.035" ana="senti:mixpos" corresp="#seg965347.1"/>
                      <phr type="sem" function="T1.3" ana="sem:T1.3">
 <w xml:id="seg965347.1.t1" pos="NNS" msd="UPosTag=NOUN|Number=Plur" lemma="lady" function="T1.3" ana="sem:T1.3">Ladies</w>
 <w xml:id="seg965347.1.t2" pos="CC" msd="UPosTag=CCONJ" lemma="and" function="T1.3" ana="sem:T1.3">and</w>
@@ -1073,6 +1130,7 @@
 <pc xml:id="seg965347.1.t8" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
                   </s>
                   <s xml:id="seg965347.2" n="2" corresp="mt-src:seg965347.2">
+                     <measure type="sentiment" quantity="0.863" ana="senti:mixneg" corresp="#seg965347.2"/>
 <w xml:id="seg965347.2.t1" pos="IN" msd="UPosTag=ADP" lemma="since" function="Z5" ana="sem:Z5">Since</w>
 <w xml:id="seg965347.2.t2" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1989" function="N1" ana="sem:N1" join="right">1989</w>
 <pc xml:id="seg965347.2.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">,</pc>
@@ -1090,6 +1148,7 @@
 <pc xml:id="seg965347.2.t13" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="seg965347.3" n="3" corresp="mt-src:seg965347.3">
+                     <measure type="sentiment" quantity="2.457" ana="senti:neuneg" corresp="#seg965347.3"/>
 <w xml:id="seg965347.3.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="seg965347.3.t2" pos="CD" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1992" function="N1" ana="sem:N1">1992</w>
                      <name type="MISC">
@@ -1117,6 +1176,7 @@
 <pc xml:id="seg965347.3.t23" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="seg965347.4" n="4" corresp="mt-src:seg965347.4">
+                     <measure type="sentiment" quantity="0.383" ana="senti:negneg" corresp="#seg965347.4"/>
 <w xml:id="seg965347.4.t1" pos="DT" msd="UPosTag=DET|Definite=Def|PronType=Art" lemma="the" function="Z5" ana="sem:Z5">The</w>
 <w xml:id="seg965347.4.t2" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="complicated" function="A12-" ana="sem:A12n">complicated</w>
 <w xml:id="seg965347.4.t3" pos="NN" msd="UPosTag=NOUN|Number=Sing" lemma="history" function="T1.1.1,P1/T1.1.1,Q2.1,B2" ana="sem:T1.1.1">history</w>
@@ -1138,6 +1198,7 @@
                </seg>
                <seg xml:id="seg965348" xml:lang="en" corresp="mt-src:seg965348">
                   <s xml:id="seg965348.1" n="1" corresp="mt-src:seg965348.1">
+                     <measure type="sentiment" quantity="4.444" ana="senti:mixpos" corresp="#seg965348.1"/>
                      <phr type="sem" function="Z1mf,Z3c" ana="sem:Z1">
 <w xml:id="seg965348.1.t1" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="high" function="Z1mf,Z3c" ana="sem:Z1">High</w>
 <w xml:id="seg965348.1.t2" pos="NNP" msd="UPosTag=PROPN|Number=Sing" lemma="Izbo" function="Z1mf,Z3c" ana="sem:Z1" join="right">Izbo</w>
@@ -1145,6 +1206,7 @@
 <pc xml:id="seg965348.1.t3" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">!</pc>
                   </s>
                   <s xml:id="seg965348.2" n="2" corresp="mt-src:seg965348.2">
+                     <measure type="sentiment" quantity="2.953" ana="senti:neupos" corresp="#seg965348.2"/>
 <w xml:id="seg965348.2.t1" pos="PRP" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" lemma="it" function="Z8" ana="sem:Z8">It</w>
 <w xml:id="seg965348.2.t2" pos="VBZ" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="be" function="A3+,Z5" ana="sem:A3p">is</w>
 <w xml:id="seg965348.2.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="worth" function="I1.3,A1.5.2+,S1.1.4+,S1.1.4+" ana="sem:I1.3">worth</w>
@@ -1186,6 +1248,7 @@
 <pc xml:id="seg965348.2.t33" pos="Z" msd="UPosTag=PUNCT" function="Z9" ana="sem:Z9">.</pc>
                   </s>
                   <s xml:id="seg965348.3" n="3" corresp="mt-src:seg965348.3">
+                     <measure type="sentiment" quantity="0.183" ana="senti:negneg" corresp="#seg965348.3"/>
 <w xml:id="seg965348.3.t1" pos="IN" msd="UPosTag=ADP" lemma="in" function="Z5" ana="sem:Z5">In</w>
 <w xml:id="seg965348.3.t2" pos="DT" msd="UPosTag=DET|Definite=Ind|PronType=Art" lemma="a" function="Z5" ana="sem:Z5">a</w>
 <w xml:id="seg965348.3.t3" pos="JJ" msd="UPosTag=ADJ|Degree=Pos" lemma="special" function="A4.2+,A6.2-" ana="sem:A4.2p">special</w>

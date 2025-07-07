@@ -4,9 +4,9 @@
 <note type="chairpersons" content="Präsident Mag. Wolfgang Sobotka Zweite Präsidentin Doris Bures Dritter Präsident Ing. Norbert Hofer"/>
 <note type="time" content="10:04:24"/>
 <note type="speaker" content="Präsident Mag. Wolfgang Sobotka"/>
-<speech id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e4759" text_id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178" subcorpus="COVID,Krieg" lang="Deutsch" body="Nationalrat" term="XXVII. Gesetzgebungsperiode" session="-" meeting="-" sitting="178. Sitzung" agenda="-" date="2022-10-12" title="178. Sitzung des Nationalrates der Republik Österreich, XXVII. Gesetzgebungsperiode, Mittwoch, 12. Oktober 2022" speaker_role="PräsidentIn" speaker_id="PAD_88386" speaker_name="Sobotka, Wolfgang" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ÖVP" speaker_party_name="Parlamentsklub der Österreichischen Volkspartei" party_status="Coalition" party_orientation="Mitte-rechts bis Rechts" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e4759" text_id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178" subcorpus="COVID,Krieg" lang="Deutsch" body="Nationalrat" term="XXVII. Gesetzgebungsperiode" session="-" meeting="-" sitting="178. Sitzung" agenda="-" date="2022-10-12" title="178. Sitzung des Nationalrates der Republik Österreich, XXVII. Gesetzgebungsperiode, Mittwoch, 12. Oktober 2022" speaker_role="PräsidentIn" topic="Anderes" speaker_id="PAD_88386" speaker_name="Sobotka, Wolfgang" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ÖVP" speaker_party_name="Parlamentsklub der Österreichischen Volkspartei" party_status="Coalition" party_orientation="Mitte-rechts bis Rechts" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200" lang="Deutsch">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s1" senti_3="Neutral" senti_6="neutral positiv" senti_n="3.374">
 Meine	Meine	mein	PRON	Case=Nom Number=Plur Person=1 Poss=Yes PronType=Prs	w1	det	Dame	NOUN	Gender=Fem Number=Plur Person=3	w4
 sehr	sehr	sehr	ADV	Degree=Pos	w2	advmod	ehren	ADJ	Degree=Pos Number=Plur	w3
 geehrten	geehrten	ehren	ADJ	Degree=Pos Number=Plur	w3	amod	Dame	NOUN	Gender=Fem Number=Plur Person=3	w4
@@ -30,7 +30,7 @@ erklären	erklären	erklären	VERB	VerbForm=Inf	w17	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w18	punct	erklären	VERB	VerbForm=Inf	w17
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s2">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s2" senti_3="Positiv" senti_6="positiv" senti_n="4.863">
 Ich	Ich	Ich	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	begrüßen	VERB	VerbForm=Inf	w10
 darf	darf	dürfen	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin VerbType=Mod	w2	aux	begrüßen	VERB	VerbForm=Inf	w10
 Sie	Sie	Sie	PRON	Case=Acc Gender=Fem Number=Sing Person=3 PronType=Prs	w3	obj	begrüßen	VERB	VerbForm=Inf	w10
@@ -46,7 +46,7 @@ begrüßen	begrüßen	begrüßen	VERB	VerbForm=Inf	w10	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w11	punct	begrüßen	VERB	VerbForm=Inf	w10
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s3">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s3" senti_3="Positiv" senti_6="positiv" senti_n="4.709">
 Ich	Ich	Ich	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	freuen	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 freue	freue	freuen	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 mich	mich	mich	PRON	Case=Acc Number=Sing Person=1 PronType=Prs Reflex=Yes	w3	expl:pv	freuen	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
@@ -73,7 +73,7 @@ Medien	Medien	Medium	NOUN	Gender=Neut Number=Plur Person=3	w23	nmod	Anwesenheit	
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w24	punct	freuen	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s4">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s4" senti_3="Positiv" senti_6="positiv" senti_n="4.502">
 Ich	Ich	Ich	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	grüßen	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 grüße	grüße	grüßen	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 die	die	die	DET	Case=Acc Number=Plur PronType=Art	w3	det	Dame	NOUN	Gender=Fem Number=Plur Person=3	w4
@@ -95,7 +95,7 @@ verfolgen	verfolgen	verfolgen	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres Verb
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w18	punct	grüßen	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s5">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s5" senti_3="Positiv" senti_6="positiv" senti_n="4.575">
 Mein	Mein	mein	PRON	Case=Nom Gender=Masc Number=Sing Person=1 Poss=Yes PronType=Prs	w1	det	Gruss	NOUN	Gender=Masc Number=Sing Person=3	w3
 besonderer	besonderer	besondere	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Sing	w2	amod	Gruss	NOUN	Gender=Masc Number=Sing Person=3	w3
 Gruß	Gruß	Gruss	NOUN	Gender=Masc Number=Sing Person=3	w3	nsubj	gelten	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4
@@ -123,7 +123,7 @@ darf	darf	dürfen	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Verb
 .	.	.	PUNCT	PunctType=Peri	w21	punct	gelten	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w4
 </s>
 <note type="kinesic:applause" content="Allgemeiner Beifall."/>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s6">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s6" senti_3="Positiv" senti_6="gemischt positiv" senti_n="4.390">
 Ich	Ich	Ich	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	begrüßen	VERB	VerbForm=Inf	w13
 darf	darf	dürfen	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin VerbType=Mod	w2	aux	begrüßen	VERB	VerbForm=Inf	w13
 auch	auch	auch	ADV	-	w3	advmod	Präsidentin	NOUN	Gender=Fem Number=Sing Person=3	w5
@@ -140,7 +140,7 @@ begrüßen	begrüßen	begrüßen	VERB	VerbForm=Inf	w13	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w14	punct	begrüßen	VERB	VerbForm=Inf	w13
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s7">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s7" senti_3="Positiv" senti_6="gemischt positiv" senti_n="4.420">
 Mein	Mein	mein	PRON	Case=Nom Gender=Masc Number=Sing Person=1 Poss=Yes PronType=Prs	w1	det	Gruss	NOUN	Gender=Masc Number=Sing Person=3	w2
 Gruß	Gruß	Gruss	NOUN	Gender=Masc Number=Sing Person=3	w2	nsubj	gelten	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 gilt	gilt	gelten	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	root	-	-	-	-
@@ -165,7 +165,7 @@ Ministern	Ministern	Minister	NOUN	Case=Dat Gender=Masc Number=Plur Person=3	w19	
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w20	punct	gelten	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s8">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s8" senti_3="Neutral" senti_6="neutral positiv" senti_n="3.126">
 Zur	Zu|der	zu|der	ADP|DET	AdpType=Prep Case=Dat|Case=Dat Definite=Def Gender=Fem Number=Sing PronType=Art	w2|w3	case|det	Behandlung	NOUN	Gender=Fem Number=Sing Person=3	w4
 Geschäftsbehandlung	Geschäftsbehandlung	Behandlung	NOUN	Gender=Fem Number=Sing Person=3	w4	obl	melden	VERB	Aspect=Perf VerbForm=Part	w10
 ist	ist	sein	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w5	aux:pass	melden	VERB	Aspect=Perf VerbForm=Part	w10
@@ -180,7 +180,7 @@ gemeldet	gemeldet	melden	VERB	Aspect=Perf VerbForm=Part	w10	root	-	-	-	-
 .	.	.	PUNCT	PunctType=Peri	w11	punct	melden	VERB	Aspect=Perf VerbForm=Part	w10
 </s>
 <note type="unauthorized_interruption" content="Ruf bei der ÖVP:Das fängt schon gut an!"/>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s9">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e200.s9" senti_3="Positiv" senti_6="gemischt positiv" senti_n="4.145">
 Ich	Ich	Ich	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	erteilen	VERB	VerbForm=Inf	w6
 darf	darf	dürfen	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin VerbType=Mod	w2	aux	erteilen	VERB	VerbForm=Inf	w6
 ihm	ihm	ihm	PRON	Case=Dat Gender=Masc Number=Sing Person=3 PronType=Prs	w3	iobj	erteilen	VERB	VerbForm=Inf	w6
@@ -196,21 +196,21 @@ erteilen	erteilen	erteilen	VERB	VerbForm=Inf	w6	root	-	-	-	-
 <note type="time" content="10:05:50"/>
 <note type="speaker" content="Abgeordneter Mag. Jörg Leichtfried (SPÖ)"/>
 <note type="procedural" content="zur Geschäftsbehandlung"/>
-<speech id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e4802" text_id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178" subcorpus="COVID,Krieg" lang="Deutsch" body="Nationalrat" term="XXVII. Gesetzgebungsperiode" session="-" meeting="-" sitting="178. Sitzung" agenda="-" date="2022-10-12" title="178. Sitzung des Nationalrates der Republik Österreich, XXVII. Gesetzgebungsperiode, Mittwoch, 12. Oktober 2022" speaker_role="Reguläre/r SprecherIn" speaker_id="PAD_22694" speaker_name="Leichtfried, Jörg" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SPÖ" speaker_party_name="Die Sozialdemokratische Parlamentsfraktion - Klub der sozialdemokratischen Abgeordneten zum Nationalrat, Bundesrat und Europäischen Parlament" party_status="Opposition" party_orientation="Mitte-links" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e4802" text_id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178" subcorpus="COVID,Krieg" lang="Deutsch" body="Nationalrat" term="XXVII. Gesetzgebungsperiode" session="-" meeting="-" sitting="178. Sitzung" agenda="-" date="2022-10-12" title="178. Sitzung des Nationalrates der Republik Österreich, XXVII. Gesetzgebungsperiode, Mittwoch, 12. Oktober 2022" speaker_role="Reguläre/r SprecherIn" topic="Regierungsgeschäfte" speaker_id="PAD_22694" speaker_name="Leichtfried, Jörg" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SPÖ" speaker_party_name="Die Sozialdemokratische Parlamentsfraktion - Klub der sozialdemokratischen Abgeordneten zum Nationalrat, Bundesrat und Europäischen Parlament" party_status="Opposition" party_orientation="Mitte-links" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221" lang="Deutsch">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s1" senti_3="Positiv" senti_6="gemischt positiv" senti_n="4.459">
 Herr	Herr	Herr	ADJ	Case=Nom Gender=Masc Number=Sing Person=3	w1	amod	Präsident	NOUN	Gender=Masc Number=Sing Person=3	w2
 Präsident	Präsident	Präsident	NOUN	Gender=Masc Number=Sing Person=3	w2	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	PunctType=Peri	w3	punct	Präsident	NOUN	Gender=Masc Number=Sing Person=3	w2
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s2">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s2" senti_3="Positiv" senti_6="gemischt positiv" senti_n="4.193">
 Herr	Herr	Herr	NOUN	Case=Nom Gender=Masc Number=Sing Person=3	w1	amod	Bundespräsident	NOUN	Gender=Masc Number=Sing Person=3	w2
 Bundespräsident	Bundespräsident	Bundespräsident	NOUN	Gender=Masc Number=Sing Person=3	w2	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	PunctType=Peri	w3	punct	Bundespräsident	NOUN	Gender=Masc Number=Sing Person=3	w2
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s3">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s3" senti_3="Positiv" senti_6="gemischt positiv" senti_n="4.040">
 Geschätzte	Geschätzte	schätzen	ADJ	Degree=Pos Number=Plur	w1	amod	Dame	NOUN	Gender=Fem Number=Plur Person=3	w2
 Damen	Damen	Dame	NOUN	Gender=Fem Number=Plur Person=3	w2	root	-	-	-	-
 und	und	und	CCONJ	-	w3	cc	Herr	NOUN	Gender=Masc Number=Plur Person=3	w4
@@ -221,7 +221,7 @@ Bundesregierung	Bundesregierung	Regierung	NOUN	Gender=Fem Number=Sing Person=3	w
 <g/>
 !	!	!	PUNCT	PunctType=Peri	w8	punct	Dame	NOUN	Gender=Fem Number=Plur Person=3	w2
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s4">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s4" senti_3="Positiv" senti_6="positiv" senti_n="4.797">
 Es	Es	Es	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	w1	expl	Freude	NOUN	Gender=Fem Number=Sing Person=3	w6
 ist	ist	sein	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2	cop	Freude	NOUN	Gender=Fem Number=Sing Person=3	w6
 mir	mir	mir	PRON	Case=Dat Number=Sing Person=1 PronType=Prs	w3	obj	Freude	NOUN	Gender=Fem Number=Sing Person=3	w6
@@ -243,7 +243,7 @@ beehren	beehren	beehren	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=F
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w18	punct	Freude	NOUN	Gender=Fem Number=Sing Person=3	w6
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s5">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s5" senti_3="Neutral" senti_6="neutral negativ" senti_n="2.272">
 Das	Das	Das	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Dem	w1	nsubj	Grund	NOUN	Gender=Masc Number=Sing Person=3	w5
 ist	ist	sein	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2	cop	Grund	NOUN	Gender=Masc Number=Sing Person=3	w5
 auch	auch	auch	ADV	-	w3	advmod	Grund	NOUN	Gender=Masc Number=Sing Person=3	w5
@@ -267,7 +267,7 @@ Fall	Fall	Fall	NOUN	Gender=Masc Number=Sing Person=3	w18	conj	Grund	NOUN	Gender=
 .	.	.	PUNCT	PunctType=Peri	w19	punct	Grund	NOUN	Gender=Masc Number=Sing Person=3	w5
 </s>
 <note type="vocal:interruption" content="Oje-Rufe bei der ÖVP."/>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s6">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s6" senti_3="Negativ" senti_6="negativ" senti_n="0.488">
 Der	Der	Der	DET	Case=Nom Gender=Masc Number=Sing PronType=Art	w1	det	Kanzler	NOUN	Gender=Masc Number=Sing Person=3	w3
 Herr	Herr	Herr	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Sing	w2	amod	Kanzler	NOUN	Gender=Masc Number=Sing Person=3	w3
 Bundeskanzler	Bundeskanzler	Kanzler	NOUN	Gender=Masc Number=Sing Person=3	w3	nsubj	anwesend	ADJ	Degree=Pos Variant=Short	w10
@@ -283,7 +283,7 @@ anwesend	anwesend	anwesend	ADJ	Degree=Pos Variant=Short	w10	root	-	-	-	-
 </s>
 <note type="vocal:interruption" content="Zwischenrufe bei der ÖVP."/>
 <note type="kinesic:signal" content="Präsident Sobotka gibt das Glockenzeichen."/>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s7">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s7" senti_3="Negativ" senti_6="gemischt negativ" senti_n="0.504">
 Trotz	Trotz	Trotz	ADP	AdpType=Prep	w1	case	Aufgebot	NOUN	Case=Gen Gender=Neut Number=Sing Person=3	w4
 des	des	des	DET	Case=Gen Gender=Neut Number=Sing PronType=Art	w2	det	Aufgebot	NOUN	Case=Gen Gender=Neut Number=Sing Person=3	w4
 vollständigen	vollständigen	vollständig	ADJ	Degree=Pos Number=Sing	w3	amod	Aufgebot	NOUN	Case=Gen Gender=Neut Number=Sing Person=3	w4
@@ -314,7 +314,7 @@ Mal	Mal	Mal	NOUN	Gender=Neut Number=Sing Person=3	w26	conj	geben	VERB	Mood=Ind N
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w27	punct	geben	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w7
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s8">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s8" senti_3="Neutral" senti_6="neutral positiv" senti_n="2.537">
 Wir	Wir	Wir	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	w1	nsubj	besprechen	VERB	Aspect=Perf VerbForm=Part	w9
 haben	haben	haben	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2	aux	besprechen	VERB	Aspect=Perf VerbForm=Part	w9
 das	das	das	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Dem	w3	obj	besprechen	VERB	Aspect=Perf VerbForm=Part	w9
@@ -351,7 +351,7 @@ schicken	schicken	schicken	VERB	VerbForm=Inf	w31	ccomp	erklären	VERB	Aspect=Per
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w32	punct	besprechen	VERB	Aspect=Perf VerbForm=Part	w9
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s9">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s9" senti_3="Negativ" senti_6="gemischt negativ" senti_n="0.601">
 Das	Das	Das	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Dem	w1	nsubj:pass	geschehen	VERB	Aspect=Perf VerbForm=Part	w6
 ist	ist	sein	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2	aux:pass	geschehen	VERB	Aspect=Perf VerbForm=Part	w6
 anscheinend	anscheinend	anscheinend	ADJ	Degree=Pos Variant=Short	w3	advmod	geschehen	VERB	Aspect=Perf VerbForm=Part	w6
@@ -371,7 +371,7 @@ Entschuldigungen	Entschuldigungen	Entschuldigung	NOUN	Gender=Fem Number=Plur Per
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w16	punct	geschehen	VERB	Aspect=Perf VerbForm=Part	w6
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s10">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s10" senti_3="Negativ" senti_6="negativ" senti_n="0.234">
 Die	Die	Die	DET	Case=Nom Gender=Fem Number=Sing PronType=Art	w1	det	Klimaschutz-	NOUN	Hyph=Yes	w2
 Klimaschutz-	Klimaschutz-	Klimaschutz-	NOUN	Hyph=Yes	w2	nsubj:pass	entschuldigen	VERB	Aspect=Perf VerbForm=Part	w9
 und	und	und	CCONJ	-	w3	cc	Ministerin	NOUN	Gender=Fem Number=Sing Person=3	w4
@@ -400,7 +400,7 @@ haben	haben	haben	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w22	
 .	.	.	PUNCT	PunctType=Peri	w23	punct	entschuldigen	VERB	Aspect=Perf VerbForm=Part	w9
 </s>
 <note type="vocal:interruption" content="Zwischenrufe der Abgeordneten Disoski und Maurer."/>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s11">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s11" senti_3="Neutral" senti_6="neutral negativ" senti_n="2.099">
 Die	Die	Die	DET	Case=Nom Gender=Fem Number=Sing PronType=Art	w1	det	Ministerin	NOUN	Gender=Fem Number=Sing Person=3	w2
 Justizministerin	Justizministerin	Ministerin	NOUN	Gender=Fem Number=Sing Person=3	w2	nsubj:pass	entschuldigen	VERB	Aspect=Perf VerbForm=Part	w7
 ist	ist	sein	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	aux:pass	entschuldigen	VERB	Aspect=Perf VerbForm=Part	w7
@@ -412,7 +412,7 @@ entschuldigt	entschuldigt	entschuldigen	VERB	Aspect=Perf VerbForm=Part	w7	root	-
 .	.	.	PUNCT	PunctType=Peri	w8	punct	entschuldigen	VERB	Aspect=Perf VerbForm=Part	w7
 </s>
 <note type="comment" content="Zwischenbemerkung von Bundesministerin Zadić."/>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s12">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s12" senti_3="Neutral" senti_6="neutral negativ" senti_n="2.290">
 Der	Der	Der	DET	Case=Nom Gender=Masc Number=Sing PronType=Art	w1	det	Minister	NOUN	Gender=Masc Number=Sing Person=3	w2
 Außenminister	Außenminister	Minister	NOUN	Gender=Masc Number=Sing Person=3	w2	nsubj:pass	entschuldigen	VERB	Aspect=Perf VerbForm=Part	w7
 ist	ist	sein	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	aux:pass	entschuldigen	VERB	Aspect=Perf VerbForm=Part	w7
@@ -423,7 +423,7 @@ entschuldigt	entschuldigt	entschuldigen	VERB	Aspect=Perf VerbForm=Part	w7	root	-
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w8	punct	entschuldigen	VERB	Aspect=Perf VerbForm=Part	w7
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s13">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s13" senti_3="Neutral" senti_6="neutral positiv" senti_n="2.643">
 Der	Der	Der	DET	Case=Nom Gender=Masc Number=Sing PronType=Art	w1	det	Minister	NOUN	Gender=Masc Number=Sing Person=3	w2
 Gesundheitsminister	Gesundheitsminister	Minister	NOUN	Gender=Masc Number=Sing Person=3	w2	nsubj:pass	entschuldigen	VERB	Aspect=Perf VerbForm=Part	w4
 ist	ist	sein	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	aux:pass	entschuldigen	VERB	Aspect=Perf VerbForm=Part	w4
@@ -431,7 +431,7 @@ entschuldigt	entschuldigt	entschuldigen	VERB	Aspect=Perf VerbForm=Part	w4	root	-
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w5	punct	entschuldigen	VERB	Aspect=Perf VerbForm=Part	w4
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s14">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s14" senti_3="Neutral" senti_6="neutral positiv" senti_n="2.721">
 Der	Der	Der	DET	Case=Nom Gender=Masc Number=Sing PronType=Art	w1	det	Minister	NOUN	Gender=Masc Number=Sing Person=3	w2
 Innenminister	Innenminister	Minister	NOUN	Gender=Masc Number=Sing Person=3	w2	nsubj:pass	entschuldigen	VERB	Aspect=Perf VerbForm=Part	w4
 ist	ist	sein	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	aux:pass	entschuldigen	VERB	Aspect=Perf VerbForm=Part	w4
@@ -443,7 +443,7 @@ entschuldigt	entschuldigt	entschuldigen	VERB	Aspect=Perf VerbForm=Part	w4	root	-
 <note type="unauthorized_interruption" content="Abg. Kopf: Lächerlich!"/>
 <note type="vocal:interruption" content="Weitere Zwischenrufe bei der ÖVP."/>
 <note type="kinesic:signal" content="Präsident Sobotka gibt das Glockenzeichen."/>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s15">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s15" senti_3="Negativ" senti_6="negativ" senti_n="0.247">
 Sie	Sie	Sie	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	w1	nsubj:pass	entschuldigen	ADJ	Degree=Pos Variant=Short	w5
 sind	sind	sein	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w2	aux:pass	entschuldigen	ADJ	Degree=Pos Variant=Short	w5
 immer	immer	immer	ADV	-	w3	advmod	dann	ADV	-	w4
@@ -461,10 +461,10 @@ geht	geht	gehen	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w13	a
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w14	punct	entschuldigen	ADJ	Degree=Pos Variant=Short	w5
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s16">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s16" senti_3="Positiv" senti_6="positiv" senti_n="4.547">
 Geschätzte	Geschätzte	schätzen	ADJ	Degree=Pos Number=Plur	w1	root	-	-	-	-
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s17">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s17" senti_3="Negativ" senti_6="gemischt negativ" senti_n="1.030">
 Damen	Damen	Dame	NOUN	Gender=Fem Number=Plur Person=3	w1	nsubj	richten	VERB	VerbForm=Inf	w15
 und	und	und	CCONJ	-	w2	cc	Herr	NOUN	Gender=Masc Number=Plur Person=3	w3
 Herren	Herren	Herr	NOUN	Gender=Masc Number=Plur Person=3	w3	conj	Dame	NOUN	Gender=Fem Number=Plur Person=3	w1
@@ -484,7 +484,7 @@ richten	richten	richten	VERB	VerbForm=Inf	w15	root	-	-	-	-
 <g/>
 :	:	:	PUNCT	PunctType=Peri	w16	punct	richten	VERB	VerbForm=Inf	w15
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s18">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e221.s18" senti_3="Neutral" senti_6="neutral positiv" senti_n="2.650">
 Nehmen	Nehmen	nehmen	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
 Sie	Sie	Sie	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	w2	nsubj	nehmen	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w1
 dieses	dieses	dieses	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Dem	w3	obj	nehmen	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w1
@@ -494,9 +494,9 @@ dieses	dieses	dieses	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Dem
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27485" text_id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178" subcorpus="COVID,Krieg" lang="Deutsch" body="Nationalrat" term="XXVII. Gesetzgebungsperiode" session="-" meeting="-" sitting="178. Sitzung" agenda="-" date="2022-10-12" title="178. Sitzung des Nationalrates der Republik Österreich, XXVII. Gesetzgebungsperiode, Mittwoch, 12. Oktober 2022" speaker_role="PräsidentIn" speaker_id="PAD_88386" speaker_name="Sobotka, Wolfgang" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ÖVP" speaker_party_name="Parlamentsklub der Österreichischen Volkspartei" party_status="Coalition" party_orientation="Mitte-rechts bis Rechts" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27485" text_id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178" subcorpus="COVID,Krieg" lang="Deutsch" body="Nationalrat" term="XXVII. Gesetzgebungsperiode" session="-" meeting="-" sitting="178. Sitzung" agenda="-" date="2022-10-12" title="178. Sitzung des Nationalrates der Republik Österreich, XXVII. Gesetzgebungsperiode, Mittwoch, 12. Oktober 2022" speaker_role="PräsidentIn" topic="Anderes" speaker_id="PAD_88386" speaker_name="Sobotka, Wolfgang" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ÖVP" speaker_party_name="Parlamentsklub der Österreichischen Volkspartei" party_status="Coalition" party_orientation="Mitte-rechts bis Rechts" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8972" lang="Deutsch">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8972.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8972.s1" senti_3="Neutral" senti_6="neutral positiv" senti_n="2.818">
 Wir	Wir	Wir	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	w1	nsubj	kommen	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2
 kommen	kommen	kommen	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 zu	zu	zu	ADP	AdpType=Prep Case=Dat	w3	case	Abstimmung	NOUN	Gender=Fem Number=Plur Person=3	w6
@@ -508,42 +508,42 @@ Abstimmungen	Abstimmungen	Abstimmung	NOUN	Gender=Fem Number=Plur Person=3	w6	obl
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974" lang="Deutsch">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s1" senti_3="Positiv" senti_6="gemischt positiv" senti_n="3.753">
 Können	Können	können	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin VerbType=Mod	w1	aux	abstimmen	VERB	VerbForm=Inf	w3
 wir	wir	wir	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	w2	nsubj	abstimmen	VERB	VerbForm=Inf	w3
 abstimmen	abstimmen	abstimmen	VERB	VerbForm=Inf	w3	root	-	-	-	-
 <g/>
 ?	?	?	PUNCT	PunctType=Peri	w4	punct	abstimmen	VERB	VerbForm=Inf	w3
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s2">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s2" senti_3="Neutral" senti_6="neutral positiv" senti_n="2.801">
 <name type="ORG">
 SPÖ	SPÖ	SPÖ	PROPN	Person=3	w1	root	-	-	-	-
 <g/>
 </name>
 ?	?	?	PUNCT	PunctType=Peri	w2	punct	SPÖ	PROPN	Person=3	w1
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s3">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s3" senti_3="Negativ" senti_6="gemischt negativ" senti_n="0.878">
 <name type="ORG">
 Grüne	Grüne	Grün	NOUN	Number=Plur Person=3	w1	root	-	-	-	-
 <g/>
 </name>
 ?	?	?	PUNCT	PunctType=Peri	w2	punct	Grün	NOUN	Number=Plur Person=3	w1
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s4">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s4" senti_3="Neutral" senti_6="neutral negativ" senti_n="1.640">
 <name type="LOC">
 NEOS	NEOS	NEOS	PROPN	Person=3	w1	root	-	-	-	-
 <g/>
 </name>
 ?	?	?	PUNCT	PunctType=Peri	w2	punct	NEOS	PROPN	Person=3	w1
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s5">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s5" senti_3="Neutral" senti_6="neutral negativ" senti_n="2.356">
 <name type="ORG">
 FPÖ	FPÖ	FPÖ	PROPN	Person=3	w1	root	-	-	-	-
 <g/>
 </name>
 ?	?	?	PUNCT	PunctType=Peri	w2	punct	FPÖ	PROPN	Person=3	w1
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s6">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8974.s6" senti_3="Neutral" senti_6="neutral positiv" senti_n="2.718">
 <name type="ORG">
 ÖVP	ÖVP	ÖVP	PROPN	Person=3	w1	root	-	-	-	-
 <g/>
@@ -552,7 +552,7 @@ FPÖ	FPÖ	FPÖ	PROPN	Person=3	w1	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976" lang="Deutsch">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976.s1" senti_3="Neutral" senti_6="neutral positiv" senti_n="3.010">
 Wir	Wir	Wir	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	w1	nsubj	gelingen	VERB	Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin	w2
 gelangen	gelangen	gelingen	VERB	Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin	w2	root	-	-	-	-
 zu	zu	zu	ADP	AdpType=Prep Case=Dat	w3	case	Punkt	NOUN	Gender=Masc Number=Sing Person=3	w4
@@ -561,7 +561,7 @@ Tagesordnungspunkt	Tagesordnungspunkt	Punkt	NOUN	Gender=Masc Number=Sing Person=
 <g/>
 :	:	:	PUNCT	PunctType=Peri	w6	punct	gelingen	VERB	Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976.s2">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8976.s2" senti_3="Neutral" senti_6="neutral positiv" senti_n="2.746">
 Antrag	Antrag	Antrag	NOUN	Gender=Masc Number=Sing Person=3	w1	root	-	-	-	-
 des	des	des	DET	Case=Gen Gender=Masc Number=Sing PronType=Art	w2	det	Ausschuss	NOUN	Case=Gen Gender=Masc Number=Sing Person=3	w3
 Ausschusses	Ausschusses	Ausschuss	NOUN	Case=Gen Gender=Masc Number=Sing Person=3	w3	nmod	Antrag	NOUN	Gender=Masc Number=Sing Person=3	w1
@@ -585,7 +585,7 @@ nehmen	nehmen	nehmen	VERB	VerbForm=Inf	w19	xcomp	Antrag	NOUN	Gender=Masc Number=
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978" lang="Deutsch">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978.s1" senti_3="Positiv" senti_6="gemischt positiv" senti_n="3.992">
 Wer	Wer	Wer	PRON	Case=Nom Number=Sing Person=3 PronType=Int	w1	nsubj	tun	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 das	das	das	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Dem	w2	obj	tun	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 tut	tut	tun	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	acl	den	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PronType=Dem	w5
@@ -600,7 +600,7 @@ Zeichen	Zeichen	Zeichen	NOUN	Gender=Neut Number=Sing Person=3	w10	obl	bitten	VER
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w11	punct	bitten	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w6
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978.s2">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8978.s2" senti_3="Positiv" senti_6="positiv" senti_n="4.951">
 Mehr	Mehr	mehr	DET	Degree=Cmp Person=3 PronType=Ind,Neg,Tot	w1	det	Bewegung	NOUN	Gender=Fem Number=Sing Person=3	w2
 Bewegung	Bewegung	Bewegung	NOUN	Gender=Fem Number=Sing Person=3	w2	root	-	-	-	-
 <g/>
@@ -622,7 +622,7 @@ angenommen	angenommen	annehmen	VERB	Aspect=Perf VerbForm=Part	w14	parataxis	Bewe
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980" lang="Deutsch">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980.s1" senti_3="Neutral" senti_6="neutral positiv" senti_n="3.145">
 Wir	Wir	Wir	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	w1	nsubj	kommen	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2
 kommen	kommen	kommen	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 zu	zu	zu	ADP	AdpType=Prep Case=Dat	w3	case	Punkt	NOUN	Gender=Masc Number=Sing Person=3	w4
@@ -631,7 +631,7 @@ Tagesordnungspunkt	Tagesordnungspunkt	Punkt	NOUN	Gender=Masc Number=Sing Person=
 <g/>
 :	:	:	PUNCT	PunctType=Peri	w6	punct	kommen	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980.s2">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8980.s2" senti_3="Neutral" senti_6="neutral positiv" senti_n="2.731">
 Antrag	Antrag	Antrag	NOUN	Gender=Masc Number=Sing Person=3	w1	root	-	-	-	-
 des	des	des	DET	Case=Gen Gender=Masc Number=Sing PronType=Art	w2	det	Ausschuss	NOUN	Case=Gen Gender=Masc Number=Sing Person=3	w3
 Ausschusses	Ausschusses	Ausschuss	NOUN	Case=Gen Gender=Masc Number=Sing Person=3	w3	nmod	Antrag	NOUN	Gender=Masc Number=Sing Person=3	w1
@@ -655,7 +655,7 @@ nehmen	nehmen	nehmen	VERB	VerbForm=Inf	w19	xcomp	Antrag	NOUN	Gender=Masc Number=
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982" lang="Deutsch">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982.s1" senti_3="Neutral" senti_6="neutral positiv" senti_n="3.148">
 Wer	Wer	Wer	PRON	Case=Nom Number=Sing Person=3 PronType=Int	w1	nsubj	tun	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 das	das	das	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Dem	w2	obj	tun	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 tut	tut	tun	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	csubj:pass	bitten	VERB	Aspect=Perf VerbForm=Part	w9
@@ -669,7 +669,7 @@ gebeten	gebeten	bitten	VERB	Aspect=Perf VerbForm=Part	w9	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w10	punct	bitten	VERB	Aspect=Perf VerbForm=Part	w9
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982.s2">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8982.s2" senti_3="Positiv" senti_6="gemischt positiv" senti_n="4.286">
 –	–	–	X	Foreign=Yes Person=3	w1	root	-	-	-	-
 Danke	Danke	Dank	NOUN	Foreign=Yes Person=3	w2	appos	–	X	Foreign=Yes Person=3	w1
 schön	schön	schön	ADJ	Degree=Pos Variant=Short	w3	advmod	Dank	NOUN	Foreign=Yes Person=3	w2
@@ -684,7 +684,7 @@ angenommen	angenommen	annehmen	VERB	Aspect=Perf VerbForm=Part	w8	conj	Dank	NOUN	
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984" lang="Deutsch">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984.s1" senti_3="Neutral" senti_6="neutral positiv" senti_n="2.965">
 Wir	Wir	Wir	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	w1	nsubj	gelingen	VERB	Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin	w2
 gelangen	gelangen	gelingen	VERB	Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin	w2	root	-	-	-	-
 zu	zu	zu	ADP	AdpType=Prep Case=Dat	w3	case	Punkt	NOUN	Gender=Masc Number=Sing Person=3	w4
@@ -693,7 +693,7 @@ Tagesordnungspunkt	Tagesordnungspunkt	Punkt	NOUN	Gender=Masc Number=Sing Person=
 <g/>
 :	:	:	PUNCT	PunctType=Peri	w6	punct	gelingen	VERB	Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin	w2
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984.s2">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8984.s2" senti_3="Neutral" senti_6="neutral positiv" senti_n="2.731">
 Antrag	Antrag	Antrag	NOUN	Gender=Masc Number=Sing Person=3	w1	root	-	-	-	-
 des	des	des	DET	Case=Gen Gender=Masc Number=Sing PronType=Art	w2	det	Ausschuss	NOUN	Case=Gen Gender=Masc Number=Sing Person=3	w3
 Ausschusses	Ausschusses	Ausschuss	NOUN	Case=Gen Gender=Masc Number=Sing Person=3	w3	nmod	Antrag	NOUN	Gender=Masc Number=Sing Person=3	w1
@@ -717,7 +717,7 @@ nehmen	nehmen	nehmen	VERB	VerbForm=Inf	w19	xcomp	Antrag	NOUN	Gender=Masc Number=
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986" lang="Deutsch">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986.s1" senti_3="Neutral" senti_6="neutral positiv" senti_n="3.148">
 Wer	Wer	Wer	PRON	Case=Nom Number=Sing Person=3 PronType=Int	w1	nsubj	tun	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 das	das	das	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Dem	w2	obj	tun	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3
 tut	tut	tun	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	csubj:pass	bitten	VERB	Aspect=Perf VerbForm=Part	w9
@@ -731,7 +731,7 @@ gebeten	gebeten	bitten	VERB	Aspect=Perf VerbForm=Part	w9	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w10	punct	bitten	VERB	Aspect=Perf VerbForm=Part	w9
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986.s2">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8986.s2" senti_3="Positiv" senti_6="gemischt positiv" senti_n="3.764">
 –	–	–	X	-	w1	nsubj:pass	annehmen	VERB	Aspect=Perf VerbForm=Part	w5
 Das	Das	Das	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Dem	w2	nsubj:pass	annehmen	VERB	Aspect=Perf VerbForm=Part	w5
 ist	ist	sein	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	aux:pass	annehmen	VERB	Aspect=Perf VerbForm=Part	w5
@@ -742,7 +742,7 @@ angenommen	angenommen	annehmen	VERB	Aspect=Perf VerbForm=Part	w5	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8988" lang="Deutsch">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8988.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8988.s1" senti_3="Neutral" senti_6="neutral positiv" senti_n="3.116">
 Die	Die	Die	DET	Case=Nom Gender=Fem Number=Sing PronType=Art	w1	det	Ordnung	NOUN	Gender=Fem Number=Sing Person=3	w2
 Tagesordnung	Tagesordnung	Ordnung	NOUN	Gender=Fem Number=Sing Person=3	w2	nsubj:pass	erschöpfen	VERB	Aspect=Perf VerbForm=Part	w4
 ist	ist	sein	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	aux:pass	erschöpfen	VERB	Aspect=Perf VerbForm=Part	w4
@@ -753,15 +753,15 @@ erschöpft	erschöpft	erschöpfen	VERB	Aspect=Perf VerbForm=Part	w4	root	-	-	-	-
 </p>
 <note type="time" content="22:13:22"/>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8995" lang="Deutsch">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8995.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8995.s1" senti_3="Positiv" senti_6="gemischt positiv" senti_n="3.554">
 Einlauf	Einlauf	Einlauf	NOUN	Gender=Masc Number=Sing Person=3	w1	root	-	-	-	-
 </s>
 </p>
 </speech>
 <note type="speaker" content="Präsident Mag. Wolfgang Sobotka"/>
-<speech id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27551" text_id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178" subcorpus="COVID,Krieg" lang="Deutsch" body="Nationalrat" term="XXVII. Gesetzgebungsperiode" session="-" meeting="-" sitting="178. Sitzung" agenda="-" date="2022-10-12" title="178. Sitzung des Nationalrates der Republik Österreich, XXVII. Gesetzgebungsperiode, Mittwoch, 12. Oktober 2022" speaker_role="PräsidentIn" speaker_id="PAD_88386" speaker_name="Sobotka, Wolfgang" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ÖVP" speaker_party_name="Parlamentsklub der Österreichischen Volkspartei" party_status="Coalition" party_orientation="Mitte-rechts bis Rechts" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27551" text_id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178" subcorpus="COVID,Krieg" lang="Deutsch" body="Nationalrat" term="XXVII. Gesetzgebungsperiode" session="-" meeting="-" sitting="178. Sitzung" agenda="-" date="2022-10-12" title="178. Sitzung des Nationalrates der Republik Österreich, XXVII. Gesetzgebungsperiode, Mittwoch, 12. Oktober 2022" speaker_role="PräsidentIn" topic="Anderes" speaker_id="PAD_88386" speaker_name="Sobotka, Wolfgang" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ÖVP" speaker_party_name="Parlamentsklub der Österreichischen Volkspartei" party_status="Coalition" party_orientation="Mitte-rechts bis Rechts" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9000" lang="Deutsch">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9000.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9000.s1" senti_3="Neutral" senti_6="neutral positiv" senti_n="2.544">
 Ich	Ich	Ich	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	geben	VERB	VerbForm=Inf	w4
 darf	darf	dürfen	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin VerbType=Mod	w2	aux	geben	VERB	VerbForm=Inf	w4
 bekannt	bekannt	bekannt	ADP	PartType=Vbp	w3	compound:prt	geben	VERB	VerbForm=Inf	w4
@@ -791,7 +791,7 @@ sind	sind	sein	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w21	aux
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002" lang="Deutsch">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002.s1" senti_3="Neutral" senti_6="neutral positiv" senti_n="2.533">
 Die	Die	Die	DET	Case=Acc Gender=Fem Number=Sing PronType=Art	w1	det	Sitzung	NOUN	Gender=Fem Number=Sing Person=3	w3
 nächste	nächste	NULL	ADJ	Degree=Sup Gender=Fem Number=Sing	w2	amod	Sitzung	NOUN	Gender=Fem Number=Sing Person=3	w3
 Sitzung	Sitzung	Sitzung	NOUN	Gender=Fem Number=Sing Person=3	w3	obj	berufen	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w6
@@ -818,7 +818,7 @@ ein	ein	ein	ADP	PartType=Vbp	w19	compound:prt	berufen	VERB	Mood=Ind Number=Sing 
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w20	punct	berufen	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w6
 </s>
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002.s2">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9002.s2" senti_3="Neutral" senti_6="neutral positiv" senti_n="2.994">
 Die	Die	Die	DET	Case=Nom Gender=Fem Number=Sing PronType=Art	w1	det	Ordnung	NOUN	Gender=Fem Number=Sing Person=3	w2
 Tagesordnung	Tagesordnung	Ordnung	NOUN	Gender=Fem Number=Sing Person=3	w2	nsubj:pass	ergehen	VERB	Aspect=Perf VerbForm=Part	w7
 ist	ist	sein	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	aux:pass	ergehen	VERB	Aspect=Perf VerbForm=Part	w7
@@ -831,7 +831,7 @@ ergangen	ergangen	ergehen	VERB	Aspect=Perf VerbForm=Part	w7	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9004" lang="Deutsch">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9004.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9004.s1" senti_3="Positiv" senti_6="positiv" senti_n="4.642">
 Ich	Ich	Ich	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	bedanken	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
 bedanke	bedanke	bedanken	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2	root	-	-	-	-
 mich	mich	mich	PRON	Case=Acc Number=Sing Person=1 PronType=Prs Reflex=Yes	w3	expl:pv	bedanken	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w2
@@ -844,7 +844,7 @@ Bundesminister	Bundesminister	Minister	NOUN	Gender=Masc Number=Sing Person=3	w7	
 </s>
 </p>
 <p id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9006" lang="Deutsch">
-<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9006.s1">
+<s id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e9006.s1" senti_3="Positiv" senti_6="gemischt positiv" senti_n="3.557">
 Die	Die	Die	DET	Case=Nom Gender=Fem Number=Sing PronType=Art	w1	det	Sitzung	NOUN	Gender=Fem Number=Sing Person=3	w2
 Sitzung	Sitzung	Sitzung	NOUN	Gender=Fem Number=Sing Person=3	w2	nsubj:pass	schließen	VERB	Aspect=Perf VerbForm=Part	w4
 ist	ist	sein	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w3	aux:pass	schließen	VERB	Aspect=Perf VerbForm=Part	w4

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomy xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-taxonomy-sentiment.ana" xml:lang="mul">
+   <desc xml:lang="en"><term>Sentiment</term>: 3 and 6 class sentiment labels following the <ref target="http://hdl.handle.net/11356/1868">Multilingual sentiment dataset of parliamentary debates ParlaSent 1.0</ref>; the values given in the category descriptions are as returned by the <ref target="https://huggingface.co/classla/xlm-r-parlasent">ParlaSent classifier</ref> trained on ParlaSent 1.0.</desc>
+   <category xml:id="Neg">
+      <catDesc xml:lang="en"><term>Negative</term>: value &lt; 1.5</catDesc>
+      <category xml:id="negneg">
+         <catDesc xml:lang="en"><term>negative</term>: value &lt; 0.5</catDesc>
+      </category>
+      <category xml:id="mixneg">
+         <catDesc xml:lang="en"><term>mixed negative</term>: interval [0.5, 1.5)</catDesc>
+      </category>
+   </category>
+   <category xml:id="Neu">
+      <catDesc xml:lang="en"><term>Neutral</term>: interval [1.5, 3.5)</catDesc>
+      <category xml:id="neuneg">
+         <catDesc xml:lang="en"><term>neutral negative</term>: interval [1.5, 2.5)</catDesc>
+      </category>
+      <category xml:id="neupos">
+         <catDesc xml:lang="en"><term>neutral positive</term>: interval [2.5, 3.5)</catDesc>
+      </category>
+   </category>
+   <category xml:id="Pos">
+      <catDesc xml:lang="en"><term>Positive</term>: value &gt;= 3.5</catDesc>
+      <category xml:id="mixpos">
+         <catDesc xml:lang="en"><term>mixed positive</term>: interval [3.5, 4.5)</catDesc>
+      </category>
+      <category xml:id="pospos">
+         <catDesc xml:lang="en"><term>positive</term>: value &gt;= 4.5</catDesc>
+      </category>
+   </category>
+</taxonomy>
+

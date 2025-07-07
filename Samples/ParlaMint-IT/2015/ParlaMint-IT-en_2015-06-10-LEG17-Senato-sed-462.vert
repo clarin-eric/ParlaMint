@@ -1,8 +1,8 @@
 <note type="speaker" content="President of the Vice-President, Mr Fedeli"/>
 <note type="speaker" content="PRESIDENT"/>
-<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u1" text_id="ParlaMint-IT-en_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" lang="English" body="Upper house" term="17 Legislatura" session="-" meeting="-" sitting="462 Seduta" agenda="-" date="2015-06-10" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)" speaker_role="Chairperson" speaker_id="FedeliValeria" speaker_name="Fedeli, Valeria" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PD" speaker_party_name="Partito Democratico" party_status="Coalition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1949">
+<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u1" text_id="ParlaMint-IT-en_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" lang="English" body="Upper house" term="17 Legislatura" session="-" meeting="-" sitting="462 Seduta" agenda="-" date="2015-06-10" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)" speaker_role="Chairperson" topic="Other" speaker_id="FedeliValeria" speaker_name="Fedeli, Valeria" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PD" speaker_party_name="Partito Democratico" party_status="Coalition" party_orientation="Centre-left" speaker_gender="F" speaker_birth="1949">
 <p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1" lang="English">
-<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.1">
+<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.1" senti_3="Positive" senti_6="mixed positive" senti_n="3.678">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 sitting	sitting	sitting	NOUN	Number=Sing	M8,C1,P1,G1.1,G2.1,M6,A9+	M8	M8: Stationary	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -16,7 +16,7 @@ a.m.	a.m.	a.m.	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t7
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.2">
+<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.730">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 Minutes	Minutes	Minute	NOUN	Number=Plur	T1.3,Q1.2	T1.3	T1.3: Time: Period	t2
 shall	shall	shall	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t3
@@ -25,7 +25,7 @@ read	read	read	VERB	Tense=Past VerbForm=Part Voice=Pass	Q3,Q1.2,X3.2+,X2.5+,P1,A
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3">
+<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.3" senti_3="Neutral" senti_6="neutral positive" senti_n="2.770">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 <name type="PER">
 Amati	Amati	Amati	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -53,9 +53,9 @@ June	June	June	PROPN	Number=Sing	T1.3,Z1f	T1.3	T1.3: Time: Period	t15
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="Sul processo verbale"/>
 <note type="speaker" content="SANTANGELO (M5S)"/>
-<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u2" text_id="ParlaMint-IT-en_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" lang="English" body="Upper house" term="17 Legislatura" session="-" meeting="-" sitting="462 Seduta" agenda="-" date="2015-06-10" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)" speaker_role="Regular" speaker_id="SantangeloVincenzo" speaker_name="Santangelo, Vincenzo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="M5S.1" speaker_party_name="Movimento 5 Stelle" party_status="Opposition" party_orientation="Big tent" speaker_gender="M" speaker_birth="1972">
+<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u2" text_id="ParlaMint-IT-en_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" lang="English" body="Upper house" term="17 Legislatura" session="-" meeting="-" sitting="462 Seduta" agenda="-" date="2015-06-10" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)" speaker_role="Regular" topic="Other" speaker_id="SantangeloVincenzo" speaker_name="Santangelo, Vincenzo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="M5S.1" speaker_party_name="Movimento 5 Stelle" party_status="Opposition" party_orientation="Big tent" speaker_gender="M" speaker_birth="1972">
 <p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2" lang="English">
-<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2.1">
+<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.888">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -68,9 +68,9 @@ talk	talk	talk	VERB	VerbForm=Inf	Q2.1	Q2.1	Q2.1: Speech: Communicative	t5
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u199" text_id="ParlaMint-IT-en_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" lang="English" body="Upper house" term="17 Legislatura" session="-" meeting="-" sitting="462 Seduta" agenda="-" date="2015-06-10" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)" speaker_role="Regular" speaker_id="DiBiagioAldo" speaker_name="Di Biagio, Aldo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AP (NCD-UDC)" speaker_party_name="Area Popolare (NCD-UDC)" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1964">
+<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u199" text_id="ParlaMint-IT-en_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" lang="English" body="Upper house" term="17 Legislatura" session="-" meeting="-" sitting="462 Seduta" agenda="-" date="2015-06-10" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)" speaker_role="Regular" topic="Immigration" speaker_id="DiBiagioAldo" speaker_name="Di Biagio, Aldo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AP (NCD-UDC)" speaker_party_name="Area Popolare (NCD-UDC)" party_status="Coalition" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1964">
 <p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288" lang="English">
-<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.1">
+<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.743">
 <name type="ORG">
 DI	DI	DI	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 BIAGIO	BIAGIO	BIAGIO	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -98,7 +98,7 @@ UDC	UDC	UDC	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t8
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2">
+<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.2" senti_3="Negative" senti_6="negative" senti_n="0.036">
 <phr usas_tags="Z1m" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 President	President	President	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -160,7 +160,7 @@ doing	doing	do	VERB	VerbForm=Ger	A1.1.1,G2.2-,X9.2+,G2.1%,E3-	A1.1.1	A1.1.1: Gen
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t45
 </s>
-<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3">
+<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.3" senti_3="Negative" senti_6="negative" senti_n="0.089">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 escapes	escapes	escape	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A1.7-,X2.2-,Y2	A1.7n	A1.7-: No constraint	t2
 <g/>
@@ -210,7 +210,7 @@ meant	meant	mean	VERB	Tense=Past VerbForm=Part	Q1.1,X7+,S6+	Q1.1	Q1.1: Linguisti
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t38
 </s>
-<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4">
+<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.4" senti_3="Negative" senti_6="negative" senti_n="0.148">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 current	current	current	ADJ	Degree=Pos	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t2
 situation	situation	situation	NOUN	Number=Sing	A3+,O4.1,M6,I3.1@	A3p	A3+: Existing	t3
@@ -303,7 +303,7 @@ desires	desires	desire	NOUN	Number=Plur	X7+,S3.2	X7p	X7+: Wanted	t75
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t76
 </s>
-<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5">
+<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.5" senti_3="Neutral" senti_6="neutral negative" senti_n="1.578">
 An	An	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 example	example	example	NOUN	Number=Sing	A4.1	A4.1	A4.1: Generally kinds, groups, examples	t2
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -334,7 +334,7 @@ cooperative	cooperative	cooperative	NOUN	Number=Sing	S8+/S5c	S8p S5	S8+: Helping
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6">
+<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.6" senti_3="Negative" senti_6="negative" senti_n="0.147">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 latter	latter	latter	NOUN	Number=Sing	N4	N4	N4: Linear order	t2
 <g/>
@@ -405,7 +405,7 @@ Cross	Cross	Cross	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t55
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t56
 </s>
-<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7">
+<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.7" senti_3="Negative" senti_6="negative" senti_n="0.119">
 Therefore	Therefore	therefore	ADV	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -435,7 +435,7 @@ funds	funds	fund	NOUN	Number=Plur	I1.1,N5+	I1.1	I1.1: Money and pay	t23
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t24
 </s>
-<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8">
+<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.8" senti_3="Negative" senti_6="negative" senti_n="0.017">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 really	really	really	ADV	-	A13.3,A5.2+	A13.3	A13.3: Degree: Boosters	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -486,9 +486,9 @@ miscalculation	miscalculation	miscalculation	NOUN	Number=Sing	N2,A5.3-	N2	N2: Ma
 </speech>
 <note type="head" content="Mozioni, interpellanze e interrogazioni, annunzio"/>
 <note type="speaker" content="PRESIDENT"/>
-<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u200" text_id="ParlaMint-IT-en_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" lang="English" body="Upper house" term="17 Legislatura" session="-" meeting="-" sitting="462 Seduta" agenda="-" date="2015-06-10" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)" speaker_role="Chairperson" speaker_id="GasparriMaurizio" speaker_name="Gasparri, Maurizio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PdL" speaker_party_name="Il Popolo della Libertà" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u200" text_id="ParlaMint-IT-en_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" lang="English" body="Upper house" term="17 Legislatura" session="-" meeting="-" sitting="462 Seduta" agenda="-" date="2015-06-10" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)" speaker_role="Chairperson" topic="Other" speaker_id="GasparriMaurizio" speaker_name="Gasparri, Maurizio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PdL" speaker_party_name="Il Popolo della Libertà" party_status="-" party_orientation="Centre-right" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289" lang="English">
-<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1">
+<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.185">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 motions	motions	motion	NOUN	Number=Plur	M1,Q1.1	M1	M1: Moving, coming and going	t2
 <g/>
@@ -520,7 +520,7 @@ report	report	report	NOUN	Number=Sing	Q2.2,X3.2	Q2.2	Q2.2: Speech acts	t20
 </s>
 </p>
 <p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290" lang="English">
-<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1">
+<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.290">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 recall	recall	recall	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	X2.2+,I3.1-/G1.2,I2.2/T2-,K5.2,A6.1+	X2.2p	X2.2+: Knowledgeable	t2
 that	that	that	SCONJ	-	Z5,Z8	Z5	Z5: Grammatical bin	t3
@@ -550,7 +550,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	Q1.2/X7+	Q1.2 X7p	Q1.2: Paper documents an
 </s>
 </p>
 <p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291" lang="English">
-<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291.1">
+<s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.042">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 sitting	sitting	sitting	NOUN	Number=Sing	M8,C1,P1,G1.1,G2.1,M6,A9+	M8	M8: Stationary	t2
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3

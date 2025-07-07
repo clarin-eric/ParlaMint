@@ -12,12 +12,16 @@
                <persName>Çağrı Çöltekin</persName>
                <resp xml:lang="en">Data retrieval, linguistic annotation, and conversion to TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="1" xml:lang="en">1 speech</measure>
@@ -28,12 +32,12 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-30">2025-06-30</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -74,8 +78,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-30">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-20">
+            <name>Tomaž Erjavec</name>: Include topic related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war" xml:lang="tr">
@@ -83,7 +89,7 @@
          <div type="debateSection">
             <note type="time" xml:id="ParlaMint-TR_2022-11-17-tbmm-T27.note1">14.01</note>
             <note type="president" xml:id="ParlaMint-TR_2022-11-17-tbmm-T27.note2">Nimetullah Erdoğmuş</note>
-            <u ana="#chair" who="#Nimetullah.Erdoğmuş" xml:id="tbmm-2022-11-17sit01spe0001par0001">
+            <u ana="#chair topic:other" who="#Nimetullah.Erdoğmuş" xml:id="tbmm-2022-11-17sit01spe0001par0001">
                <seg xml:id="tbmm-2022-11-17sit01spe0001par0001.seg0">Türkiye Büyük Millet Meclisinin 22’nci Birleşimini açıyorum.</seg>
                <seg xml:id="tbmm-2022-11-17sit01spe0001par0002.seg1">Başkanlık Divanı teşekkül etmediğinden çalışmalarımıza başlayamıyoruz.</seg>
                <seg xml:id="tbmm-2022-11-17sit01spe0001par0003.seg2">Bu nedenle, alınan karar gereğince kanun teklifleri ile komisyonlardan gelen diğer işleri sırasıyla görüşmek için 22 Kasım 2022 Salı günü saat 15. 00’te toplanmak üzere birleşimi kapatıyorum.</seg>

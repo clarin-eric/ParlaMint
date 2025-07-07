@@ -2,9 +2,9 @@
 <note type="time" content="Resumption of the meeting at 3 p.m. 9"/>
 <note type="debate" content="The meeting was chaired by Marshal Elżbieta Witek and Vice-Marshals Ryszard Terlecki, Małgorzata Gosiewska, Małgorzata Kidawa-Błońska and Piotr Zgorzelski"/>
 <note type="speaker" content="Deputy Marshal Richard Terlecki:"/>
-<speech id="ParlaMint-PL_2022-06-23-sejm-57-2.u1" text_id="ParlaMint-PL-en_2022-06-23-sejm-57-2" subcorpus="COVID,War" lang="English" body="Lower house" term="9. kadencja Sejmu" session="57. sesja Sejmu" meeting="-" sitting="2. dzień sesji Sejmu" agenda="-" date="2022-06-23" title="Report of the session of the Sejm of the Republic of Poland, Term 9, Session 57, Day 2 (2022-06-23)" speaker_role="Chairperson" speaker_id="RyszardTerlecki" speaker_name="Terlecki, Ryszard" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="Coalition" party_orientation="Right" speaker_gender="M" speaker_birth="1949">
+<speech id="ParlaMint-PL_2022-06-23-sejm-57-2.u1" text_id="ParlaMint-PL-en_2022-06-23-sejm-57-2" subcorpus="COVID,War" lang="English" body="Lower house" term="9. kadencja Sejmu" session="57. sesja Sejmu" meeting="-" sitting="2. dzień sesji Sejmu" agenda="-" date="2022-06-23" title="Report of the session of the Sejm of the Republic of Poland, Term 9, Session 57, Day 2 (2022-06-23)" speaker_role="Chairperson" topic="Other" speaker_id="RyszardTerlecki" speaker_name="Terlecki, Ryszard" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="Coalition" party_orientation="Right" speaker_gender="M" speaker_birth="1949">
 <p id="seg963379" lang="English">
-<s id="seg963379.1">
+<s id="seg963379.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.049">
 Resume	Resume	resume	VERB	Mood=Imp VerbForm=Fin	Q1.2	Q1.2	Q1.2: Paper documents and writing	t1
 session	session	session	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
 <g/>
@@ -12,7 +12,7 @@ session	session	session	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
 </s>
 </p>
 <p id="seg963380" lang="English">
-<s id="seg963380.1">
+<s id="seg963380.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.239">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t3
@@ -53,7 +53,7 @@ proceedings	proceedings	proceedings	NOUN	Number=Plur	A1.1.1,T2++,M1	A1.1.1	A1.1.
 </s>
 </p>
 <p id="seg963381" lang="English">
-<s id="seg963381.1">
+<s id="seg963381.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.934">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 first	first	first	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t3
@@ -83,7 +83,7 @@ Milewski	Milewski	Milewski	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t17
 </s>
 </p>
 <p id="seg963382" lang="English">
-<s id="seg963382.1">
+<s id="seg963382.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.306">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 minutes	minutes	minute	NOUN	Number=Plur	T1.3,Q1.2	T1.3	T1.3: Time: Period	t2
 and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -109,7 +109,7 @@ Frysztak	Frysztak	Frysztak	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t16
 </s>
 </p>
 <p id="seg963383" lang="English">
-<s id="seg963383.1">
+<s id="seg963383.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.499">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 ask	ask	ask	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2	Q2.2	Q2.2: Speech acts	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -124,9 +124,9 @@ messages	messages	message	NOUN	Number=Plur	Q1.1,Q1.3/Y2	Q1.1	Q1.1: Linguistic Ac
 </p>
 </speech>
 <note type="speaker" content="Secretary Aleksander Szcylko:"/>
-<speech id="ParlaMint-PL_2022-06-23-sejm-57-2.u2" text_id="ParlaMint-PL-en_2022-06-23-sejm-57-2" subcorpus="COVID,War" lang="English" body="Lower house" term="9. kadencja Sejmu" session="57. sesja Sejmu" meeting="-" sitting="2. dzień sesji Sejmu" agenda="-" date="2022-06-23" title="Report of the session of the Sejm of the Republic of Poland, Term 9, Session 57, Day 2 (2022-06-23)" speaker_role="Regular" speaker_id="AleksandraSzczudło" speaker_name="Szczudło, Aleksandra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="Coalition" party_orientation="Right" speaker_gender="F" speaker_birth="1983">
+<speech id="ParlaMint-PL_2022-06-23-sejm-57-2.u2" text_id="ParlaMint-PL-en_2022-06-23-sejm-57-2" subcorpus="COVID,War" lang="English" body="Lower house" term="9. kadencja Sejmu" session="57. sesja Sejmu" meeting="-" sitting="2. dzień sesji Sejmu" agenda="-" date="2022-06-23" title="Report of the session of the Sejm of the Republic of Poland, Term 9, Session 57, Day 2 (2022-06-23)" speaker_role="Regular" topic="Other" speaker_id="AleksandraSzczudło" speaker_name="Szczudło, Aleksandra" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="Coalition" party_orientation="Right" speaker_gender="F" speaker_birth="1983">
 <p id="seg963384" lang="English">
-<s id="seg963384.1">
+<s id="seg963384.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.025">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t3
@@ -151,7 +151,7 @@ today	today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultan
 </s>
 </p>
 <p id="seg963385" lang="English">
-<s id="seg963385.1">
+<s id="seg963385.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.869">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <name type="ORG">
 Education	Education	education	NOUN	Number=Sing	P1,X2.3+	P1	P1: Education in general	t2
@@ -169,7 +169,7 @@ hour	hour	hour	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t8
 </s>
 </p>
 <p id="seg963386" lang="English">
-<s id="seg963386.1">
+<s id="seg963386.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.528">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <name type="ORG">
 Public	Public	Public	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -185,7 +185,7 @@ hour	hour	hour	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t5
 </s>
 </p>
 <p id="seg963387" lang="English">
-<s id="seg963387.1">
+<s id="seg963387.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.891">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Infrastructure	Infrastructure	infrastructure	NOUN	Number=Sing	I2.1/S8+	I2.1 S8p	I2.1: Business: Generally|S8+: Helping	t2
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t3
@@ -196,7 +196,7 @@ hour	hour	hour	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t4
 </s>
 </p>
 <p id="seg963388" lang="English">
-<s id="seg963388.1">
+<s id="seg963388.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.880">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <name type="ORG">
 Culture	Culture	Culture	NOUN	Number=Sing	L1	L1	L1: Life and living things	t2
@@ -211,7 +211,7 @@ hour	hour	hour	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t6
 </s>
 </p>
 <p id="seg963389" lang="English">
-<s id="seg963389.1">
+<s id="seg963389.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.932">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Health	Health	health	NOUN	Number=Sing	B2,X9.2	B2	B2: Health and disease	t2
 <g/>
@@ -225,7 +225,7 @@ hour	hour	hour	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t4
 </s>
 </p>
 <p id="seg963390" lang="English">
-<s id="seg963390.1">
+<s id="seg963390.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.856">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <name type="ORG">
 Economy	Economy	economy	NOUN	Number=Sing	I2.1,I1.3-	I2.1	I2.1: Business: Generally	t2
@@ -242,7 +242,7 @@ h.m.	h.m.	h.m.	NOUN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t6
 </s>
 </p>
 <p id="seg963391" lang="English">
-<s id="seg963391.1">
+<s id="seg963391.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.936">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <name type="ORG">
 Maritime	Maritime	maritime	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -261,7 +261,7 @@ h.m.	h.m.	h.m.	NOUN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t8
 </s>
 </p>
 <p id="seg963392" lang="English">
-<s id="seg963392.1">
+<s id="seg963392.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.266">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Communication	Communication	Communication	NOUN	Number=Sing	Q2.1,Q1.2,Q1.3,Q4.3	Q2.1	Q2.1: Speech: Communicative	t2
 with	with	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -279,7 +279,7 @@ hour	hour	hour	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t7
 </s>
 </p>
 <p id="seg963393" lang="English">
-<s id="seg963393.1">
+<s id="seg963393.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.958">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <name type="ORG">
 Local	Local	local	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -298,7 +298,7 @@ h.m.	h.m.	h.m.	NOUN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t8
 </s>
 </p>
 <p id="seg963394" lang="English">
-<s id="seg963394.1">
+<s id="seg963394.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.909">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -317,7 +317,7 @@ p.m.	p.m.	p.m.	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t9
 </s>
 </p>
 <p id="seg963395" lang="English">
-<s id="seg963395.1">
+<s id="seg963395.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.988">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Digitization	Digitization	Digitization	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t2
 <g/>
@@ -338,7 +338,7 @@ h.m.	h.m.	h.m.	NOUN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t9
 </s>
 </p>
 <p id="seg963396" lang="English">
-<s id="seg963396.1">
+<s id="seg963396.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.992">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 to	to	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -357,7 +357,7 @@ p.m.	p.m.	p.m.	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t9
 </s>
 </p>
 <p id="seg963397" lang="English">
-<s id="seg963397.1">
+<s id="seg963397.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.594">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <name type="ORG">
 Public	Public	Public	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -373,7 +373,7 @@ hour	hour	hour	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t5
 </s>
 </p>
 <p id="seg963398" lang="English">
-<s id="seg963398.1">
+<s id="seg963398.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.788">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Infrastructure	Infrastructure	infrastructure	NOUN	Number=Sing	I2.1/S8+	I2.1 S8p	I2.1: Business: Generally|S8+: Helping	t2
 together	together	together	ADV	-	S5+,T1.1.2,M6	S5p	S5+: Belonging to a group	t3
@@ -398,7 +398,7 @@ h.m.	h.m.	h.m.	NOUN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t14
 </s>
 </p>
 <p id="seg963399" lang="English">
-<s id="seg963399.1">
+<s id="seg963399.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.806">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 Foreign	Foreign	foreign	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -412,7 +412,7 @@ hour	hour	hour	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t5
 </s>
 </p>
 <p id="seg963400" lang="English">
-<s id="seg963400.1">
+<s id="seg963400.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.836">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Legal	Legal	legal	ADJ	Degree=Pos	G2.1,G2.1+	G2.1	G2.1: Law and order	t2
 notice	notice	notice	NOUN	Number=Sing	Q1.2,Q2.2,I3.1/Q2.2,G2.1/Q1.2	Q1.2	Q1.2: Paper documents and writing	t3
@@ -426,7 +426,7 @@ hour	hour	hour	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t5
 </s>
 </p>
 <p id="seg963401" lang="English">
-<s id="seg963401.1">
+<s id="seg963401.1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.403">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <name type="ORG">
 Public	Public	Public	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -442,7 +442,7 @@ hour	hour	hour	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t5
 </s>
 </p>
 <p id="seg963402" lang="English">
-<s id="seg963402.1">
+<s id="seg963402.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.823">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <name type="ORG">
 Culture	Culture	Culture	NOUN	Number=Sing	L1	L1	L1: Life and living things	t2
@@ -457,7 +457,7 @@ hour	hour	hour	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t6
 </s>
 </p>
 <p id="seg963403" lang="English">
-<s id="seg963403.1">
+<s id="seg963403.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.600">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 <phr usas_tags="Z2,Z3c" usas_cats="Z2" usas_glosses="Z2: Geographical names">
 Rules	Rules	rule	NOUN	Number=Plur	Z2,Z3c	Z2	Z2: Geographical names	t2
@@ -482,7 +482,7 @@ hour	hour	hour	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t11
 </s>
 </p>
 <p id="seg963404" lang="English">
-<s id="seg963404.1">
+<s id="seg963404.1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.989">
 -	-	-	PUNCT	-	Z9	Z9	Z9: Trash can	t1
 Digitization	Digitization	Digitization	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t2
 <g/>
@@ -503,7 +503,7 @@ h.m.	h.m.	h.m.	NOUN	Number=Sing	Z2,Z1mf,T1.3	Z2	Z2: Geographical names	t9
 </s>
 </p>
 <p id="seg963405" lang="English">
-<s id="seg963405.1">
+<s id="seg963405.1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.154">
 A	A	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 joint	joint	joint	ADJ	Degree=Pos	S5+	S5p	S5+: Belonging to a group	t2
 meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t3
@@ -560,7 +560,7 @@ hour	hour	hour	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t43
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t45
 </s>
-<s id="seg963405.2">
+<s id="seg963405.2" senti_3="Positive" senti_6="positive" senti_n="4.600">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -571,9 +571,9 @@ you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-PL_2022-06-23-sejm-57-2.u393" text_id="ParlaMint-PL-en_2022-06-23-sejm-57-2" subcorpus="COVID,War" lang="English" body="Lower house" term="9. kadencja Sejmu" session="57. sesja Sejmu" meeting="-" sitting="2. dzień sesji Sejmu" agenda="-" date="2022-06-23" title="Report of the session of the Sejm of the Republic of Poland, Term 9, Session 57, Day 2 (2022-06-23)" speaker_role="Regular" speaker_id="MałgorzataNiemczyk" speaker_name="Niemczyk, Małgorzata" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KO" speaker_party_name="Klub Parlamentarny Platforma Obywatelska – Koalicja Obywatelska" party_status="Opposition" party_orientation="-" speaker_gender="F" speaker_birth="1969">
+<speech id="ParlaMint-PL_2022-06-23-sejm-57-2.u393" text_id="ParlaMint-PL-en_2022-06-23-sejm-57-2" subcorpus="COVID,War" lang="English" body="Lower house" term="9. kadencja Sejmu" session="57. sesja Sejmu" meeting="-" sitting="2. dzień sesji Sejmu" agenda="-" date="2022-06-23" title="Report of the session of the Sejm of the Republic of Poland, Term 9, Session 57, Day 2 (2022-06-23)" speaker_role="Regular" topic="Education" speaker_id="MałgorzataNiemczyk" speaker_name="Niemczyk, Małgorzata" speaker_mp="MP" speaker_minister="notMinister" speaker_party="KO" speaker_party_name="Klub Parlamentarny Platforma Obywatelska – Koalicja Obywatelska" party_status="Opposition" party_orientation="-" speaker_gender="F" speaker_birth="1969">
 <p id="seg965343" lang="English">
-<s id="seg965343.1">
+<s id="seg965343.1" senti_3="Negative" senti_6="mixed negative" senti_n="1.134">
 On	On	on	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 23	23	23	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
 <phr usas_tags="Z2,Z1mf,T1.3" usas_cats="Z2" usas_glosses="Z2: Geographical names">
@@ -680,7 +680,7 @@ law	law	law	NOUN	Number=Sing	G2.1,S6+,Y1	G2.1	G2.1: Law and order	t79
 </s>
 </p>
 <p id="seg965344" lang="English">
-<s id="seg965344.1">
+<s id="seg965344.1" senti_3="Neutral" senti_6="neutral negative" senti_n="1.775">
 My	My	my	PRON	Number=Sing Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 intention	intention	intention	NOUN	Number=Sing	X7+,O4.1%	X7p	X7+: Wanted	t2
 was	was	be	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -713,9 +713,9 @@ pro	pro	pro	NOUN	Number=Sing	I3.2+/S2mf,X9.1+/S2mf	I3.2p S2	I3.2+: Professional|
 </p>
 </speech>
 <note type="speaker" content="Mr Sobolewski:"/>
-<speech id="ParlaMint-PL_2022-06-23-sejm-57-2.u394" text_id="ParlaMint-PL-en_2022-06-23-sejm-57-2" subcorpus="COVID,War" lang="English" body="Lower house" term="9. kadencja Sejmu" session="57. sesja Sejmu" meeting="-" sitting="2. dzień sesji Sejmu" agenda="-" date="2022-06-23" title="Report of the session of the Sejm of the Republic of Poland, Term 9, Session 57, Day 2 (2022-06-23)" speaker_role="Regular" speaker_id="KrzysztofSobolewski" speaker_name="Sobolewski, Krzysztof" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="Coalition" party_orientation="Right" speaker_gender="M" speaker_birth="1978">
+<speech id="ParlaMint-PL_2022-06-23-sejm-57-2.u394" text_id="ParlaMint-PL-en_2022-06-23-sejm-57-2" subcorpus="COVID,War" lang="English" body="Lower house" term="9. kadencja Sejmu" session="57. sesja Sejmu" meeting="-" sitting="2. dzień sesji Sejmu" agenda="-" date="2022-06-23" title="Report of the session of the Sejm of the Republic of Poland, Term 9, Session 57, Day 2 (2022-06-23)" speaker_role="Regular" topic="Defense" speaker_id="KrzysztofSobolewski" speaker_name="Sobolewski, Krzysztof" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="Coalition" party_orientation="Right" speaker_gender="M" speaker_birth="1978">
 <p id="seg965345" lang="English">
-<s id="seg965345.1">
+<s id="seg965345.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.071">
 <name type="PER">
 Mrs.	Mrs.	Mrs.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Marshal	Marshal	Marshal	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -723,7 +723,7 @@ Marshal	Marshal	Marshal	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </name>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="seg965345.2">
+<s id="seg965345.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.696">
 High	High	high	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t1
 <name type="PER">
 Izbo	Izbo	Izbo	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -791,7 +791,7 @@ Militari	Militari	Militari	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t44
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t45
 </s>
-<s id="seg965345.3">
+<s id="seg965345.3" senti_3="Positive" senti_6="mixed positive" senti_n="3.976">
 Over	Over	over	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 next	next	next	ADJ	Degree=Pos	N4	N4	N4: Linear order	t3
@@ -819,7 +819,7 @@ sovereignty	sovereignty	sovereignty	NOUN	Number=Sing	S7.1+	S7.1p	S7.1+: In power
 </s>
 </p>
 <p id="seg965346" lang="English">
-<s id="seg965346.1">
+<s id="seg965346.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.035">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -835,7 +835,7 @@ gentlemen	gentlemen	gentleman	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t7
 </phr>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="seg965346.2">
+<s id="seg965346.2" senti_3="Positive" senti_6="mixed positive" senti_n="3.661">
 <phr usas_tags="T1.1.2" usas_cats="T1.1.2" usas_glosses="T1.1.2: Time: Present; simultaneous">
 To	To	to	ADP	-	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t1
 date	date	date	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultaneous	t2
@@ -863,7 +863,7 @@ persons	persons	person	NOUN	Number=Plur	S2mfc	S2	S2: People	t16
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t17
 </s>
-<s id="seg965346.3">
+<s id="seg965346.3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.254">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 was	was	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 received	received	receive	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,S5+	A9p	A9+: Getting and possession	t3
@@ -945,7 +945,7 @@ Army	Army	Army	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t49
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t50
 </s>
-<s id="seg965346.4">
+<s id="seg965346.4" senti_3="Negative" senti_6="mixed negative" senti_n="1.265">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 youngest	youngest	young	ADJ	Degree=Sup	T3---	T3n	T3-: Time: New and young	t2
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
@@ -1013,7 +1013,7 @@ Warsaw	Warsaw	Warsaw	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t43
 </s>
 </p>
 <p id="seg965347" lang="English">
-<s id="seg965347.1">
+<s id="seg965347.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.035">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -1029,7 +1029,7 @@ gentlemen	gentlemen	gentleman	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t7
 </phr>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="seg965347.2">
+<s id="seg965347.2" senti_3="Negative" senti_6="mixed negative" senti_n="0.863">
 Since	Since	since	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 1989	1989	1989	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
 <g/>
@@ -1048,7 +1048,7 @@ awarded	awarded	award	VERB	Tense=Past VerbForm=Part Voice=Pass	A9-,A5.1+/A9-,I1.
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="seg965347.3">
+<s id="seg965347.3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.457">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 1992	1992	1992	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
 <name type="MISC">
@@ -1076,7 +1076,7 @@ completion	completion	completion	NOUN	Number=Sing	T2-	T2n	T2-: Time: Ending	t22
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t23
 </s>
-<s id="seg965347.4">
+<s id="seg965347.4" senti_3="Negative" senti_6="negative" senti_n="0.383">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 complicated	complicated	complicated	ADJ	Degree=Pos	A12-	A12n	A12-: Difficult	t2
 history	history	history	NOUN	Number=Sing	T1.1.1,P1/T1.1.1,Q2.1,B2	T1.1.1	T1.1.1: Time: Past	t3
@@ -1098,7 +1098,7 @@ Poland	Poland	Poland	PROPN	Number=Sing	Z2,Z3c	Z2	Z2: Geographical names	t14
 </s>
 </p>
 <p id="seg965348" lang="English">
-<s id="seg965348.1">
+<s id="seg965348.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.444">
 <phr usas_tags="Z1mf,Z3c" usas_cats="Z1" usas_glosses="Z1: Personal names">
 High	High	high	ADJ	Degree=Pos	Z1mf,Z3c	Z1	Z1: Personal names	t1
 Izbo	Izbo	Izbo	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -1106,7 +1106,7 @@ Izbo	Izbo	Izbo	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
 </phr>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="seg965348.2">
+<s id="seg965348.2" senti_3="Neutral" senti_6="neutral positive" senti_n="2.953">
 It	It	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 worth	worth	worth	ADJ	Degree=Pos	I1.3,A1.5.2+,S1.1.4+,S1.1.4+	I1.3	I1.3: Money: Cost and price	t3
@@ -1149,7 +1149,7 @@ Poland	Poland	Poland	PROPN	Number=Sing	Z2	Z2	Z2: Geographical names	t32
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t33
 </s>
-<s id="seg965348.3">
+<s id="seg965348.3" senti_3="Negative" senti_6="negative" senti_n="0.183">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 special	special	special	ADJ	Degree=Pos	A4.2+,A6.2-	A4.2p	A4.2+: Detailed	t3

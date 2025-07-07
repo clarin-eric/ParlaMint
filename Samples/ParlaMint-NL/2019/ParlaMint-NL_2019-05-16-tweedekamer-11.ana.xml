@@ -20,12 +20,24 @@
                <resp xml:lang="nl">Taalkundige verrijking</resp>
                <resp xml:lang="en">Linguistic annotation</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="274" xml:lang="en">274 speeches</measure>
@@ -38,12 +50,12 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -65,6 +77,7 @@
                <tagUsage gi="head" occurs="1"/>
                <tagUsage gi="link" occurs="30024"/>
                <tagUsage gi="linkGrp" occurs="1761"/>
+               <tagUsage gi="measure" occurs="1761"/>
                <tagUsage gi="name" occurs="974"/>
                <tagUsage gi="note" occurs="391"/>
                <tagUsage gi="pc" occurs="2922"/>
@@ -87,8 +100,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:lang="nl" ana="#reference">
@@ -96,9 +111,10 @@
          <div type="debateSection">
             <head xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.ana.head1">Lekken van gifgas door chemiebedrijf Chemours</head>
             <note type="speaker" xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.ana.note1">De voorzitter</note>
-            <u xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.u1" who="#KhadijaArib" ana="#chair">
+            <u xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.u1" who="#KhadijaArib" ana="#chair topic:envir">
                <seg xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg1">
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1" xml:lang="nl">
+                     <measure type="sentiment" quantity="3.928" ana="senti:mixpos" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s1"/>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w6" join="right" msd="UPosTag=NOUN|Gender=Com|Number=Sing" lemma="goedenavond">Goedenavond</w>
 <pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.pc1" msd="UPosTag=PUNCT">,</pc>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w7" msd="UPosTag=NOUN|Number=Plur" lemma="dame">dames</w>
@@ -115,6 +131,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s2" xml:lang="nl">
+                     <measure type="sentiment" quantity="1.262" ana="senti:mixneg" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s2"/>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w10" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs" lemma="wij">We</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w11" msd="UPosTag=VERB|Number=Plur|Tense=Pres|VerbForm=Fin" lemma="gaan">gaan</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w12" msd="UPosTag=ADV" lemma="nu">nu</w>
@@ -149,6 +166,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s3" xml:lang="nl">
+                     <measure type="sentiment" quantity="3.568" ana="senti:mixpos" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s3"/>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w23" msd="UPosTag=DET" lemma="dat">Dat</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w24" msd="UPosTag=NOUN|Gender=Neut|Number=Sing" lemma="debat">debat</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w25" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="zullen">zal</w>
@@ -209,6 +227,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s4" xml:lang="nl">
+                     <measure type="sentiment" quantity="2.881" ana="senti:neupos" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s4"/>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w46" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="u">U</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w47" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="hebben">heeft</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w48" msd="UPosTag=PRON|PronType=Ind" lemma="al">allen</w>
@@ -231,6 +250,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s5" xml:lang="nl">
+                     <measure type="sentiment" quantity="3.133" ana="senti:neupos" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s5"/>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w54" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs" lemma="ik">Ik</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w55" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="geven">geef</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w56" msd="UPosTag=ADP" lemma="als">als</w>
@@ -269,9 +289,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.ana.note2">De heer Laçin (SP)</note>
-            <u xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.u2" who="#CemLaçin" ana="#regular">
+            <u xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.u2" who="#CemLaçin" ana="#regular topic:envir">
                <seg xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg2">
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s6" xml:lang="nl">
+                     <measure type="sentiment" quantity="3.838" ana="senti:mixpos" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s6"/>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w67" join="right" msd="UPosTag=NOUN|Gender=Com|Number=Sing" lemma="voorzitter">Voorzitter</w>
 <pc xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.pc8" msd="UPosTag=PUNCT">.</pc>
 <linkGrp type="UD-SYN" targFunc="head argument">
@@ -280,6 +301,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s7" xml:lang="nl">
+                     <measure type="sentiment" quantity="3.249" ana="senti:neupos" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s7"/>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w68" msd="UPosTag=ADV" lemma="morgen">Morgen</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w69" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="zijn">is</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w70" msd="UPosTag=PRON|Person=3|PronType=Prs" lemma="het">het</w>
@@ -314,6 +336,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s8" xml:lang="nl">
+                     <measure type="sentiment" quantity="0.236" ana="senti:negneg" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s8"/>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w82" msd="UPosTag=ADV" lemma="ook">Ook</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w83" msd="UPosTag=ADV" lemma="toen">toen</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w84" msd="UPosTag=VERB|Number=Sing|Tense=Past|VerbForm=Fin" lemma="gaan">ging</w>
@@ -348,6 +371,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s9" xml:lang="nl">
+                     <measure type="sentiment" quantity="0.622" ana="senti:mixneg" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s9"/>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w95" msd="UPosTag=PRON|Person=1|Poss=Yes|PronType=Prs" lemma="mijn">Mijn</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w96" msd="UPosTag=ADJ|Degree=Pos" lemma="centraal">centrale</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w97" msd="UPosTag=NOUN|Gender=Com|Number=Sing" lemma="vraag">vraag</w>
@@ -396,6 +420,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s10" xml:lang="nl">
+                     <measure type="sentiment" quantity="2.772" ana="senti:neupos" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s10"/>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w115" msd="UPosTag=DET|Definite=Ind" lemma="een">Een</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w116" msd="UPosTag=NOUN|Gender=Neut|Number=Sing" lemma="aantal">aantal</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w117" msd="UPosTag=ADP" lemma="van">van</w>
@@ -432,6 +457,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s11" xml:lang="nl">
+                     <measure type="sentiment" quantity="3.737" ana="senti:mixpos" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s11"/>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w128" msd="UPosTag=ADV" lemma="vanavond">Vanavond</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w129" msd="UPosTag=AUX|Number=Plur|Tense=Pres|VerbForm=Fin" lemma="zijn">zijn</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w130" msd="UPosTag=ADV" lemma="er">er</w>
@@ -454,6 +480,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s12" xml:lang="nl">
+                     <measure type="sentiment" quantity="-0.002" ana="senti:negneg" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s12"/>
                      <name type="PER">
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w135" msd="UPosTag=PROPN|Gender=Com|Number=Sing" lemma="Hans">Hans</w>
                      </name>
@@ -498,6 +525,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s13" xml:lang="nl">
+                     <measure type="sentiment" quantity="0.678" ana="senti:mixneg" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s13"/>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w153" msd="UPosTag=PRON|Person=3|PronType=Dem" lemma="dat">Dat</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w154" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="zijn">is</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w155" msd="UPosTag=ADV" lemma="niet">niet</w>
@@ -536,6 +564,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s14" xml:lang="nl">
+                     <measure type="sentiment" quantity="3.181" ana="senti:neupos" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s14"/>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w168" msd="UPosTag=DET|Definite=Ind" lemma="een">Een</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w169" msd="UPosTag=NOUN|Gender=Neut|Number=Sing" lemma="paar">paar</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w170" join="right" msd="UPosTag=NOUN|Number=Plur" lemma="voorbeeld">voorbeelden</w>
@@ -548,6 +577,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s15" xml:lang="nl">
+                     <measure type="sentiment" quantity="0.881" ana="senti:mixneg" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s15"/>
                      <name type="ORG">
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w171" msd="UPosTag=PROPN|Gender=Neut|Number=Sing" lemma="GenX">GenX</w>
                      </name>
@@ -598,6 +628,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s16" xml:lang="nl">
+                     <measure type="sentiment" quantity="0.027" ana="senti:negneg" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s16"/>
                      <name type="ORG">
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w190" msd="UPosTag=NOUN|Gender=Com|Number=Sing" lemma="Chemours">Chemours</w>
                      </name>
@@ -638,6 +669,7 @@
                </seg>
                <seg xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg3">
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s17" xml:lang="nl">
+                     <measure type="sentiment" quantity="0.174" ana="senti:negneg" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s17"/>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w203" msd="UPosTag=ADV" lemma="dan">Dan</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w204" msd="UPosTag=DET|Definite=Def" lemma="het">het</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w205" msd="UPosTag=VERB|VerbForm=Inf" lemma="lekken">lekken</w>
@@ -678,6 +710,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s18" xml:lang="nl">
+                     <measure type="sentiment" quantity="0.429" ana="senti:negneg" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s18"/>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w217" msd="UPosTag=NOUN|Number=Plur" lemma="mens">Mensen</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w218" msd="UPosTag=ADP" lemma="met">met</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w219" msd="UPosTag=DET|Definite=Ind" lemma="een">een</w>
@@ -762,9 +795,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.u273" who="#KhadijaArib" ana="#chair">
+            <u xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.u273" who="#KhadijaArib" ana="#chair topic:other">
                <seg xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg384">
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1886" xml:lang="nl">
+                     <measure type="sentiment" quantity="3.208" ana="senti:neupos" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s1886"/>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w28605" msd="UPosTag=ADV" lemma="daarmee">Daarmee</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w28606" msd="UPosTag=AUX|Number=Plur|Tense=Pres|VerbForm=Fin" lemma="zijn">zijn</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w28607" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs" lemma="wij">we</w>
@@ -794,9 +828,10 @@
             </u>
             <note type="comment" xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.ana.note390">De beraadslaging wordt gesloten.</note>
             <note type="speaker" xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.ana.note391">De voorzitter</note>
-            <u xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.u274" who="#KhadijaArib" ana="#chair">
+            <u xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.u274" who="#KhadijaArib" ana="#chair topic:other">
                <seg xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.seg385">
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1888" xml:lang="nl">
+                     <measure type="sentiment" quantity="3.062" ana="senti:neupos" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s1888"/>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w28619" msd="UPosTag=DET|Definite=Def" lemma="de">De</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w28620" msd="UPosTag=NOUN|Number=Plur" lemma="motie">moties</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w28621" msd="UPosTag=VERB|Number=Plur|Tense=Pres|VerbForm=Fin" lemma="komen">komen</w>
@@ -833,6 +868,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.s1889" xml:lang="nl">
+                     <measure type="sentiment" quantity="4.586" ana="senti:pospos" corresp="#ParlaMint-NL_2019-05-16-tweedekamer-11.s1889"/>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w28633" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs" lemma="ik">Ik</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w28634" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="danken">dank</w>
 <w xml:id="ParlaMint-NL_2019-05-16-tweedekamer-11.w28635" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="u">u</w>

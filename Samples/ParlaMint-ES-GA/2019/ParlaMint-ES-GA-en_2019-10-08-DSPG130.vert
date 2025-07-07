@@ -1,8 +1,8 @@
 <note type="time" content="The session is opened at ten in the morning."/>
 <note type="speaker" content="Mr. President:"/>
-<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u1" text_id="ParlaMint-ES-GA-en_2019-10-08-DSPG130" subcorpus="Reference" lang="English" body="Unicameralism" term="X Lexislatura" session="-" meeting="Número 130" sitting="08.10.2019" agenda="-" date="2019-10-08" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u1" text_id="ParlaMint-ES-GA-en_2019-10-08-DSPG130" subcorpus="Reference" lang="English" body="Unicameralism" term="X Lexislatura" session="-" meeting="Número 130" sitting="08.10.2019" agenda="-" date="2019-10-08" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" topic="Mix" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1" lang="English">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.418">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Good	Good	good	ADJ	Degree=Pos	Z4	Z4	Z4: Discourse Bin	t1
 morning	morning	morning	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -12,7 +12,7 @@ morning	morning	morning	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg2" lang="English">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg2.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg2.s1" senti_3="Positive" senti_6="mixed positive" senti_n="4.131">
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 Let	Let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
 <g/>
@@ -26,7 +26,7 @@ session	session	session	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t5
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg3" lang="English">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg3.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg3.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.707">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Good	Good	good	ADJ	Degree=Pos	Z4	Z4	Z4: Discourse Bin	t1
 morning	morning	morning	NOUN	Number=Sing	Z4	Z4	Z4: Discourse Bin	t2
@@ -42,7 +42,7 @@ open	open	open	ADJ	Degree=Pos	A10+,S1.2.1+,X6-,X5.2+,A7+	A10p	A10+: Open; Findin
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4" lang="English">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.372">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 agenda	agenda	agenda	NOUN	Number=Sing	Q1.2/X7+	Q1.2 X7p	Q1.2: Paper documents and writing|X7+: Wanted	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -73,7 +73,7 @@ reading	reading	reading	NOUN	Number=Sing	Q3,Q1.2,X3.2+,X2.5+,A10+,G2.1	Q3	Q3: La
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5" lang="English">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.240">
 He	He	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 justified	justified	justify	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -97,7 +97,7 @@ Burgo	Burgo	Burgo	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t12
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6" lang="English">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.088">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 go	go	go	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	M1,A2.1+,A1.1.1,A9-,A1.8+,Q2.1,N6+,I2.2,A1.1.2,T2-,S3.2,A6.3+,B2-/X1%,B1%	M1	M1: Moving, coming and going	t2
 into	into	into	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -118,7 +118,7 @@ texts	texts	text	NOUN	Number=Plur	Q1.2,Q4.1	Q1.2	Q1.2: Paper documents and writi
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7" lang="English">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.699">
 Comprehensive	Comprehensive	comprehensive	ADJ	Degree=Pos	A1.8+,P1	A1.8p	A1.8+: Inclusion	t1
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
 discussion	discussion	discussion	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t2
@@ -146,9 +146,9 @@ situations	situations	situation	NOUN	Number=Plur	Df	Z9	Z9: Trash can	t17
 </p>
 </speech>
 <note type="speaker" content="Mr. President:"/>
-<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u2" text_id="ParlaMint-ES-GA-en_2019-10-08-DSPG130" subcorpus="Reference" lang="English" body="Unicameralism" term="X Lexislatura" session="-" meeting="Número 130" sitting="08.10.2019" agenda="-" date="2019-10-08" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u2" text_id="ParlaMint-ES-GA-en_2019-10-08-DSPG130" subcorpus="Reference" lang="English" body="Unicameralism" term="X Lexislatura" session="-" meeting="Número 130" sitting="08.10.2019" agenda="-" date="2019-10-08" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" topic="Transportation" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8" lang="English">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1" senti_3="Negative" senti_6="mixed negative" senti_n="1.446">
 Amendments	Amendments	amendment	NOUN	Number=Plur	A2.1+	A2.1p	A2.1+: Change	t1
 have	have	have	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 been	been	be	AUX	Tense=Past VerbForm=Part	A3+,Z5	A3p	A3+: Existing	t3
@@ -196,7 +196,7 @@ Left	Left	Left	PROPN	Number=Sing	M1,M2,A1.1.1,A1.9,A9-,N5.2+,T2-	M1	M1: Moving, 
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9" lang="English">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.817">
 For	For	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
@@ -234,9 +234,9 @@ floor	floor	floor	NOUN	Number=Sing	H2,S5+	H2	H2: Parts of buildings	t22
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u461" text_id="ParlaMint-ES-GA-en_2019-10-08-DSPG130" subcorpus="Reference" lang="English" body="Unicameralism" term="X Lexislatura" session="-" meeting="Número 130" sitting="08.10.2019" agenda="-" date="2019-10-08" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Regular" speaker_id="CondeFranciscoJosé" speaker_name="Conde López, Francisco José" speaker_mp="MP" speaker_minister="Minister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1968">
+<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u461" text_id="ParlaMint-ES-GA-en_2019-10-08-DSPG130" subcorpus="Reference" lang="English" body="Unicameralism" term="X Lexislatura" session="-" meeting="Número 130" sitting="08.10.2019" agenda="-" date="2019-10-08" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Regular" topic="Mix" speaker_id="CondeFranciscoJosé" speaker_name="Conde López, Francisco José" speaker_mp="MP" speaker_minister="Minister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1968">
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556" lang="English">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1" senti_3="Negative" senti_6="negative" senti_n="0.162">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 <name type="PER">
 Bará	Bará	Bará	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -282,7 +282,7 @@ Parliament	Parliament	parliament	NOUN	Number=Sing	G1.1	G1.1	G1.1: Government	t28
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
 <note type="-" content="Murmurs."/>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2" senti_3="Negative" senti_6="negative" senti_n="0.106">
 Either	Either	either	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 he	he	he	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs	Z8m	Z8	Z8: Pronouns	t2
 comes	comes	come	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	M1,N3.1,A2.2,A3+,X2.1,A9+,S4,N4,S3.2	M1	M1: Moving, coming and going	t3
@@ -318,7 +318,7 @@ anywhere	anywhere	anywhere	ADV	-	M6	M6	M6: Location and direction	t25
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
 <note type="-" content="Applause"/>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3" senti_3="Negative" senti_6="negative" senti_n="0.134">
 Because	Because	because	SCONJ	-	Z5/A2.2	Z5 A2.2	Z5: Grammatical bin|A2.2: Cause	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -360,7 +360,7 @@ none	none	none	NOUN	Number=Sing	Z6/Z8c	Z6 Z8	Z6: Negative|Z8: Pronouns	t25
 <note type="-" content="Applause"/>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557" lang="English">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.894">
 From	From	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 there	there	there	ADV	PronType=Dem	M6,T1.2	M6	M6: Location and direction	t2
 <g/>
@@ -383,7 +383,7 @@ Vulcano	Vulcano	Vulcano	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t12
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s2">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s2" senti_3="Positive" senti_6="mixed positive" senti_n="4.078">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 've	've	have	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -402,7 +402,7 @@ since	since	since	ADV	-	T2++	T2p	T2+: Time: Beginning	t10
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3" senti_3="Positive" senti_6="mixed positive" senti_n="4.076">
 From	From	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 first	first	first	ADJ	Degree=Pos NumType=Ord	N4	N4	N4: Linear order	t3
@@ -449,7 +449,7 @@ completed	completed	complete	VERB	Tense=Past VerbForm=Part Voice=Pass	T2-,Q1.2	T
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t35
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s4">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s4" senti_3="Positive" senti_6="mixed positive" senti_n="4.003">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 <name type="ORG">
@@ -465,7 +465,7 @@ tutelage	tutelage	tutelage	NOUN	Number=Sing	Z99	Z99	Z99: Unmatched	t10
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s5">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s5" senti_3="Negative" senti_6="mixed negative" senti_n="0.630">
 Listen	Listen	listen	VERB	Mood=Imp VerbForm=Fin	X3.2	X3.2	X3.2: Sensory: Sound	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -481,7 +481,7 @@ responsibility	responsibility	responsibility	NOUN	Number=Sing	S6+,S7.1+,X6+	S6p	
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s6">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s6" senti_3="Neutral" senti_6="neutral negative" senti_n="1.625">
 <phr usas_tags="Z4" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z4	Z4	Z4: Discourse Bin	t1
 say	say	say	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4	Z4	Z4: Discourse Bin	t2
@@ -502,7 +502,7 @@ say	say	say	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4	Z4	Z4:
 </phr>
 !	!	!	PUNCT	-	Z9	Z9	Z9: Trash can	t12
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s7">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s7" senti_3="Negative" senti_6="mixed negative" senti_n="0.502">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 yard	yard	yard	NOUN	Number=Sing	H3,L3/H3,M7/I4,N3.3,N3.7	H3	H3: Areas around or near houses	t2
 has	has	have	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t3
@@ -517,7 +517,7 @@ euros	euros	euro	NOUN	Number=Plur	Z99	Z99	Z99: Unmatched	t9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s8">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s8" senti_3="Negative" senti_6="negative" senti_n="0.462">
 Who	Who	who	PRON	PronType=Int	Z8	Z8	Z8: Pronouns	t1
 wants	wants	want	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	X7+,S6+,A7+,S3.2,A9-	X7p	X7+: Wanted	t2
 to	to	to	PART	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -527,14 +527,14 @@ responsibility	responsibility	responsibility	NOUN	Number=Sing	S6+,S7.1+,X6+	S6p	
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s9">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s9" senti_3="Neutral" senti_6="neutral positive" senti_n="3.057">
 To	To	to	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 whom	whom	whom	PRON	PronType=Int	Z8	Z8	Z8: Pronouns	t2
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
 <note type="-" content="Murmurs."/>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s10">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s10" senti_3="Positive" senti_6="positive" senti_n="4.923">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 've	've	have	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -550,7 +550,7 @@ workers	workers	worker	NOUN	Number=Plur	I3.1/S2mf	I3.1 S2	I3.1: Work and employm
 <note type="-" content="Murmurs."/>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558" lang="English">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s1" senti_3="Negative" senti_6="negative" senti_n="0.192">
 With	With	with	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 this	this	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t2
 situation	situation	situation	NOUN	Number=Sing	A3+,O4.1,M6,I3.1@	A3p	A3+: Existing	t3
@@ -567,7 +567,7 @@ difficult	difficult	difficult	ADJ	Degree=Pos	A12-	A12n	A12-: Difficult	t10
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t11
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s2">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s2" senti_3="Negative" senti_6="negative" senti_n="0.352">
 <phr usas_tags="N1,T3,T1.2,T1.3,N3.3,N3.5,I1" usas_cats="N1" usas_glosses="N1: Numbers">
 200	200	200	NUM	NumForm=Digit NumType=Card	N1,T3,T1.2,T1.3,N3.3,N3.5,I1	N1	N1: Numbers	t1
 million	million	million	NUM	NumForm=Word NumType=Card	N1,T3,T1.2,T1.3,N3.3,N3.5,I1	N1	N1: Numbers	t2
@@ -578,7 +578,7 @@ losses	losses	loss	NOUN	Number=Plur	I1.2,A9-,S8-,L1-	I1.2	I1.2: Money: Debts	t5
 <g/>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3" senti_3="Neutral" senti_6="neutral negative" senti_n="2.264">
 What	What	what	PRON	PronType=Int	Z8,Z5	Z8	Z8: Pronouns	t1
 do	do	do	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	S1.1.3+,A1.1.1	S1.1.3p	S1.1.3+: Participating	t2
 you	you	you	PRON	Case=Nom Person=2 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t3
@@ -599,7 +599,7 @@ want	want	want	VERB	VerbForm=Inf	X7+,S6+,A7+,S3.2,A9-	X7p	X7+: Wanted	t14
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t15
 </s>
 <note type="-" content="Speak words that are not perceived."/>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s4">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s4" senti_3="Neutral" senti_6="neutral positive" senti_n="2.522">
 Maybe	Maybe	maybe	ADV	-	A7	A7	A7: Probability	t1
 <g/>
 ...	...	.	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -612,7 +612,7 @@ that	that	that	PRON	Number=Sing PronType=Dem	Z5,Z8	Z5	Z5: Grammatical bin	t6
 </s>
 <note type="-" content="Murmurs."/>
 <note type="-" content="Speak words that are not perceived."/>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s5">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s5" senti_3="Neutral" senti_6="neutral negative" senti_n="2.149">
 No	No	no	INTJ	Polarity=Neg	Z4	Z4	Z4: Discourse Bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -626,7 +626,7 @@ no	no	no	INTJ	Polarity=Neg	Z4	Z4	Z4: Discourse Bin	t7
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t8
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6" senti_3="Neutral" senti_6="neutral negative" senti_n="2.434">
 Here	Here	here	ADV	PronType=Dem	M6,T1.1.2,T1.2	M6	M6: Location and direction	t1
 <g/>
 's	's	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A9+,A3+,A2.2,Z5	A9p	A9+: Getting and possession	t2
@@ -650,7 +650,7 @@ sectors	sectors	sector	NOUN	Number=Plur	A4.1,S5+,M7,N2@	A4.1	A4.1: Generally kin
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7" senti_3="Positive" senti_6="positive" senti_n="4.777">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 from	from	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 there	there	there	ADV	PronType=Dem	M6,T1.2	M6	M6: Location and direction	t3
@@ -707,7 +707,7 @@ it	it	it	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	A5.4+	A5.4p
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t39
 </s>
 <note type="-" content="Applause"/>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8" senti_3="Negative" senti_6="negative" senti_n="0.141">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 if	if	if	SCONJ	-	Z7	Z7	Z7: If	t2
 there	there	there	PRON	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -765,7 +765,7 @@ finances	finances	finances	NOUN	Number=Plur	Z99	Z99	Z99: Unmatched	t36
 </p>
 <note type="vocal:murmuring" content="Murmurs."/>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559" lang="English">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="2.748">
 From	From	from	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 there	there	there	ADV	PronType=Dem	M6,T1.2	M6	M6: Location and direction	t2
 <g/>
@@ -786,7 +786,7 @@ Barreras	Barreras	Barreras	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t12
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2" senti_3="Negative" senti_6="mixed negative" senti_n="0.797">
 Look	Look	look	VERB	Mood=Imp VerbForm=Fin	A8,X3.4,X2.4,X7+,Z4	A8	A8: Seem	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -818,7 +818,7 @@ solution	solution	solution	NOUN	Number=Sing	X4.2,O1.2	X4.2	X4.2: Mental object: 
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3" senti_3="Positive" senti_6="positive" senti_n="4.662">
 And	And	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t1
 <g/>
 ,	,	,	PUNCT	-	Z9	Z9	Z9: Trash can	t2
@@ -874,7 +874,7 @@ industry	industry	industry	NOUN	Number=Sing	I4c,I2.1c	I4	I4: Industry	t42
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t43
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4" senti_3="Positive" senti_6="mixed positive" senti_n="3.703">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 'll	'll	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
@@ -902,7 +902,7 @@ sector	sector	sector	NOUN	Number=Sing	A4.1,S5+,M7,N2@	A4.1	A4.1: Generally kinds
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t19
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5" senti_3="Positive" senti_6="positive" senti_n="4.626">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 remind	remind	remind	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -968,7 +968,7 @@ training	training	training	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t51
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t52
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s6">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s6" senti_3="Negative" senti_6="negative" senti_n="0.183">
 Mr	Mr	Mr	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t1
 <name type="PER">
 Bará	Bará	Bará	PROPN	Number=Sing	Z1m	Z1	Z1: Personal names	t2
@@ -988,7 +988,7 @@ none	none	none	NOUN	Number=Sing	Z6/Z8c	Z6 Z8	Z6: Negative|Z8: Pronouns	t10
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560" lang="English">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1" senti_3="Negative" senti_6="negative" senti_n="0.095">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 just	just	just	ADV	-	A14,T3---,T1.3-,N3.3---	A14	A14: Exclusivizers/particularizers	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -1034,7 +1034,7 @@ anyone	anyone	anyone	PRON	Number=Sing	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t
 </p>
 <note type="kinesic:applause" content="Applause"/>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1561" lang="English">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1561.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1561.s1" senti_3="Positive" senti_6="mixed positive" senti_n="3.818">
 Nothing	Nothing	nothing	PRON	Number=Sing	Z6/Z8	Z6 Z8	Z6: Negative|Z8: Pronouns	t1
 more	more	more	ADJ	Degree=Cmp	A13.3,N6++	A13.3	A13.3: Degree: Boosters	t2
 and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t3
@@ -1053,9 +1053,9 @@ much	much	much	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t7
 </speech>
 <note type="kinesic:applause" content="Applause"/>
 <note type="speaker" content="Mr. President (Calvo Pouso):"/>
-<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u462" text_id="ParlaMint-ES-GA-en_2019-10-08-DSPG130" subcorpus="Reference" lang="English" body="Unicameralism" term="X Lexislatura" session="-" meeting="Número 130" sitting="08.10.2019" agenda="-" date="2019-10-08" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" speaker_id="CalvoDiego" speaker_name="Calvo Pouso, Diego" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1975">
+<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u462" text_id="ParlaMint-ES-GA-en_2019-10-08-DSPG130" subcorpus="Reference" lang="English" body="Unicameralism" term="X Lexislatura" session="-" meeting="Número 130" sitting="08.10.2019" agenda="-" date="2019-10-08" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" topic="Other" speaker_id="CalvoDiego" speaker_name="Calvo Pouso, Diego" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="People's Party of Galicia" party_status="Coalition" party_orientation="Centre-right to right" speaker_gender="M" speaker_birth="1975">
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562" lang="English">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562.s1" senti_3="Neutral" senti_6="neutral positive" senti_n="3.458">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -1075,7 +1075,7 @@ Conde	Conde	Conde	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t7
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563" lang="English">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.227">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 <g/>
 'll	'll	will	AUX	VerbForm=Fin	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2

@@ -3,8 +3,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="sr">Srpski parlamentarni korpus ParlaMint-RS-T12, Zasedanje v18 [ParlaMint.ana SAMPLE]</title>
-            <title type="main" xml:lang="en">Serbian parliamentary corpus ParlaMint-RS-T12, Meeting v18 [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="sr">Srpski parlamentarni korpus ParlaMint-RS, Zasedanje T12 v18 [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Serbian parliamentary corpus ParlaMint-RS, Meeting T12 v18 [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="sr">Mandat 12, Zasedanje v18</title>
             <title type="sub" xml:lang="en">Term 12, Meeting v18</title>
             <meeting n="12" corresp="#NS" ana="#parla.uni #parla.term #NS.12">12. mandat</meeting>
@@ -24,13 +24,29 @@
                <resp xml:lang="sr">Kodiranje Parla-CLARIN TEI XML</resp>
                <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="sr">Istraživačka infrastrukutra CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="en">OSCARS (Open Science Clusters' Action for Research &amp; Society)</orgName>
+               <ref target="https://oscars-project.eu/projects/parlacap-comparing-agenda-settings-across-parliaments-parlamint-dataset">ParlaCap project</ref>
+            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="40" xml:lang="sr">40 govora</measure>
@@ -44,7 +60,7 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="sr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
@@ -52,7 +68,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-25">2025-06-25</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -75,6 +91,7 @@
                <tagUsage gi="div" occurs="1"/>
                <tagUsage gi="link" occurs="26465"/>
                <tagUsage gi="linkGrp" occurs="918"/>
+               <tagUsage gi="measure" occurs="918"/>
                <tagUsage gi="name" occurs="756"/>
                <tagUsage gi="note" occurs="41"/>
                <tagUsage gi="pc" occurs="3028"/>
@@ -97,19 +114,22 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2024-07-02">
+         <change when="2025-06-25">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-16">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
          <change when="2022-12-19">
-            <name>Peter Rupnik</name> Compile from source</change>
+            <name>Peter Rupnik</name>Compile from source</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid">
       <body>
          <div type="debateSection">
             <note type="speaker" xml:id="ParlaMint-RS_2022-02-14-0.ana.note1">Dačić, Ivica</note>
-            <u who="#DačićIvica" ana="#chair" n="ParlaMint-SR_T12.Sv18.u12402" xml:id="ParlaMint-RS_2022-02-14-0.u12402">
+            <u who="#DačićIvica" ana="#chair topic:other" n="ParlaMint-SR_T12.Sv18.u12402" xml:id="ParlaMint-RS_2022-02-14-0.u12402">
                <seg xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0">
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.1">
+                     <measure type="sentiment" quantity="3.696" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.1"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.1.1" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass" ana="mte:Appfpny" lemma="poštovati">Poštovane</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.1.2" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" ana="mte:Ncfpn" lemma="dama">dame</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.1.3" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
@@ -158,6 +178,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.2">
+                     <measure type="sentiment" quantity="3.383" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.2"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.2.1" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="na">Na</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.2.2" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" ana="mte:Ncmsl" lemma="osnov">osnovu</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.2.3" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsgy" lemma="služben">službene</w>
@@ -196,6 +217,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.3">
+                     <measure type="sentiment" quantity="3.068" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.3"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.3.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="podsećati">Podsećam</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.3.2" msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=2|PronType=Prs" ana="mte:Pp2-pa" lemma="vi">vas</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.3.3" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
@@ -212,6 +234,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.4">
+                     <measure type="sentiment" quantity="3.107" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.4"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.4.1" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsg" lemma="zakon">Zakona</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.4.2" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="o">o</w>
                      <name type="ORG">
@@ -276,6 +299,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.5">
+                     <measure type="sentiment" quantity="3.400" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.5"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.5.1" msd="UPosTag=ADP|Case=Gen" ana="mte:Sg" lemma="radi">Radi</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.5.2" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" ana="mte:Ncnsg" lemma="utvrđivanje">utvrđivanja</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.5.3" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsg" lemma="broj">broja</w>
@@ -318,6 +342,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.6">
+                     <measure type="sentiment" quantity="4.565" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.6"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.6.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="zahvaljivati" join="right">Zahvaljujem</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.6.2" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
 <linkGrp type="UD-SYN" targFunc="head argument">
@@ -326,6 +351,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.7">
+                     <measure type="sentiment" quantity="3.608" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.7"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.7.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="konstatovati">Konstatujem</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.7.2" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.7.3" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti" join="right">je</w>
@@ -412,6 +438,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.8">
+                     <measure type="sentiment" quantity="2.441" ana="senti:neuneg" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.8"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.8.1" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Agpnsny" lemma="saglasan">Saglasno</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.8.2" msd="UPosTag=NOUN|Case=Dat|Gender=Masc|Number=Sing" ana="mte:Ncmsd" lemma="član">članu</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.8.3" msd="UPosTag=ADJ|NumType=Ord" ana="mte:Mdo" lemma="86.">86.</w>
@@ -546,6 +573,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.9">
+                     <measure type="sentiment" quantity="3.092" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.9"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.9.1" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass" ana="mte:Appmpny" lemma="dostaviti">Dostavljeni</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.9.2" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3p" lemma="biti">su</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.9.3" msd="UPosTag=PRON|Case=Dat|Number=Plur|Person=2|PronType=Prs" ana="mte:Pp2-pd" lemma="vi">vam</w>
@@ -614,6 +642,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.10">
+                     <measure type="sentiment" quantity="3.902" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.10"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.10.1" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="pošto">Pošto</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.10.2" msd="UPosTag=ADJ|Case=Dat|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsdy" lemma="današnji">današnjoj</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.10.3" msd="UPosTag=NOUN|Case=Dat|Gender=Fem|Number=Sing" ana="mte:Ncfsd" lemma="sednica">sednici</w>
@@ -660,6 +689,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.11">
+                     <measure type="sentiment" quantity="2.554" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.11"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.11.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="obaveštavati">Obaveštavam</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.11.2" msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=2|PronType=Prs" ana="mte:Pp2-pa" lemma="vi">vas</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.11.3" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
@@ -736,6 +766,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.12">
+                     <measure type="sentiment" quantity="3.893" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.12"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.12.1" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1p" lemma="prelaziti">Prelazimo</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.12.2" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="na">na</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.12.3" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" ana="mte:Ncnsa" lemma="odlučivanje" join="right">odlučivanje</w>
@@ -748,6 +779,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.13">
+                     <measure type="sentiment" quantity="3.407" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.13"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.13.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="stavljati">Stavljam</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.13.2" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="na">na</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.13.3" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" ana="mte:Ncnsa" lemma="glasanje">glasanje</w>
@@ -804,6 +836,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.14">
+                     <measure type="sentiment" quantity="3.482" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.14"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.14.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="moliti">Molim</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.14.2" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" ana="mte:Ncmpa" lemma="poslanik">poslanike</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.14.3" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
@@ -822,6 +855,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.15">
+                     <measure type="sentiment" quantity="3.094" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.15"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.15.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="zaustavljati">Zaustavljam</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.15.2" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" ana="mte:Ncnsa" lemma="glasanje" join="right">glasanje</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.15.3" msd="UPosTag=PUNCT" ana="mte:Z">:</pc>
@@ -858,6 +892,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.16">
+                     <measure type="sentiment" quantity="4.049" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.16"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.16.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="konstatovati">Konstatujem</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.16.2" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.16.3" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
@@ -902,6 +937,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.17">
+                     <measure type="sentiment" quantity="3.403" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.17"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.17.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="stavljati">Stavljam</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.17.2" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="na">na</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.17.3" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" ana="mte:Ncnsa" lemma="glasanje">glasanje</w>
@@ -950,6 +986,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.18">
+                     <measure type="sentiment" quantity="3.482" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.18"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.18.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="moliti">Molim</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.18.2" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" ana="mte:Ncmpa" lemma="poslanik">poslanike</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.18.3" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
@@ -968,6 +1005,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.19">
+                     <measure type="sentiment" quantity="3.102" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.19"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.19.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="zaustavljati">Zaustavljam</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.19.2" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" ana="mte:Ncnsa" lemma="glasanje" join="right">glasanje</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.19.3" msd="UPosTag=PUNCT" ana="mte:Z">:</pc>
@@ -1004,6 +1042,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.20">
+                     <measure type="sentiment" quantity="4.040" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.20"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.20.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="konstatovati">Konstatujem</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.20.2" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.20.3" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
@@ -1048,6 +1087,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.21">
+                     <measure type="sentiment" quantity="3.445" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.21"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.21.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="stavljati">Stavljam</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.21.2" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="na">na</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.21.3" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" ana="mte:Ncnsa" lemma="glasanje">glasanje</w>
@@ -1100,6 +1140,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.22">
+                     <measure type="sentiment" quantity="3.369" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.22"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.22.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="moliti">Molim</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.22.2" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" ana="mte:Agpmpay" lemma="narodni">narodne</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.22.3" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" ana="mte:Ncmpa" lemma="poslanik">poslanike</w>
@@ -1120,6 +1161,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.23">
+                     <measure type="sentiment" quantity="3.102" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.23"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.23.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="zaustavljati">Zaustavljam</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.23.2" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" ana="mte:Ncnsa" lemma="glasanje" join="right">glasanje</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.23.3" msd="UPosTag=PUNCT" ana="mte:Z">:</pc>
@@ -1156,6 +1198,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.24">
+                     <measure type="sentiment" quantity="4.001" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.24"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.24.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="konstatovati">Konstatujem</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.24.2" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.24.3" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
@@ -1202,6 +1245,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.25">
+                     <measure type="sentiment" quantity="3.468" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.25"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.25.1" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass" ana="mte:Appfpny" lemma="poštovati">Poštovane</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.25.2" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" ana="mte:Ncfpn" lemma="dama">dame</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.25.3" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
@@ -1312,6 +1356,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.26">
+                     <measure type="sentiment" quantity="3.002" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.26"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.26.1" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsay" lemma="poslovnik">Poslovnika</w>
                      <name type="ORG">
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.26.2" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsgy" lemma="narodni">Narodne</w>
@@ -1366,6 +1411,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.27">
+                     <measure type="sentiment" quantity="2.940" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.27"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.27.1" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="za">Za</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.27.2" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="sednica">sednicu</w>
                      <name type="MISC">
@@ -1510,6 +1556,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.28">
+                     <measure type="sentiment" quantity="3.722" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.28"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.28.1" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1p" lemma="prelaziti">Prelazimo</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.28.2" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="na">na</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.28.3" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" ana="mte:Ncmsan" lemma="rad">rad</w>
@@ -1528,6 +1575,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.29">
+                     <measure type="sentiment" quantity="2.937" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.29"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.29.1" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="saglasno">Saglasno</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.29.2" msd="UPosTag=NOUN|Case=Dat|Gender=Masc|Number=Sing" ana="mte:Ncmsd" lemma="član">članu</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.29.3" msd="UPosTag=ADJ|NumType=Ord" ana="mte:Mdo" lemma="90.">90.</w>
@@ -1598,6 +1646,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.30">
+                     <measure type="sentiment" quantity="3.088" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.30"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.30.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="moliti">Molim</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.30.2" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur" ana="mte:Agpfpay" lemma="poslanički">poslaničke</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.30.3" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Plur" ana="mte:Ncfpa" lemma="grupa" join="right">grupe</w>
@@ -1644,6 +1693,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.31">
+                     <measure type="sentiment" quantity="3.257" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.31"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.31.1" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="pre">Pre</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.31.2" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="nego">nego</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.31.3" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="što">što</w>
@@ -1738,6 +1788,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.32">
+                     <measure type="sentiment" quantity="3.088" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.32"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.32.1" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Agpnsny" lemma="saglasan">Saglasno</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.32.2" msd="UPosTag=NOUN|Case=Dat|Gender=Masc|Number=Sing" ana="mte:Ncmsd" lemma="član">članu</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.32.3" msd="UPosTag=ADJ|NumType=Ord" ana="mte:Mdo" lemma="157.">157.</w>
@@ -1830,6 +1881,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.33">
+                     <measure type="sentiment" quantity="0.566" ana="senti:mixneg" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.33"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.33.1" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="pre">Pre</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.33.2" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="nego">nego</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.33.3" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="što">što</w>
@@ -1914,6 +1966,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.34">
+                     <measure type="sentiment" quantity="3.959" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.34"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.34.1" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1p" lemma="očekivati">Očekujemo</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.34.2" msd="UPosTag=PART" ana="mte:Qo" lemma="i">i</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.34.3" msd="UPosTag=PRON|Case=Dat|Number=Sing|Person=1|PronType=Prs" ana="mte:Pp1-pn" lemma="mi">mi</w>
@@ -1942,6 +1995,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.35">
+                     <measure type="sentiment" quantity="3.427" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.35"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.35.1" msd="UPosTag=VERB|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin" ana="mte:Vmm2p" lemma="izvoleti" join="right">Izvolite</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.35.2" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
 <linkGrp type="UD-SYN" targFunc="head argument">
@@ -1950,6 +2004,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.36">
+                     <measure type="sentiment" quantity="3.495" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12402.seg0.36"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.36.1" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="predstavnik">Predstavnik</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.36.2" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" ana="mte:Ncmsg" lemma="predlagač">predlagača</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12402.seg0.36.3" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmr3s" lemma="imati">ima</w>
@@ -1966,9 +2021,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-RS_2022-02-14-0.ana.note2">Mali, Siniša</note>
-            <u who="#MaliSiniša" ana="#regular" n="ParlaMint-SR_T12.Sv18.u12403" xml:id="ParlaMint-RS_2022-02-14-0.u12403">
+            <u who="#MaliSiniša" ana="#regular topic:welfa" n="ParlaMint-SR_T12.Sv18.u12403" xml:id="ParlaMint-RS_2022-02-14-0.u12403">
                <seg xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0">
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.1">
+                     <measure type="sentiment" quantity="4.661" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.1"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.1.1" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="hvala">Hvala</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.1.2" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="puno">puno</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.1.3" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Agpmsny" lemma="uvažen">uvaženi</w>
@@ -1993,6 +2049,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.2">
+                     <measure type="sentiment" quantity="5.031" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.2"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.2.1" msd="UPosTag=ADJ|Case=Voc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass" ana="mte:Appmpny" lemma="poštovati">Poštovani</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.2.2" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" ana="mte:Agpmpny" lemma="narodni">narodni</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.2.3" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" ana="mte:Ncmpn" lemma="poslanik" join="right">poslanici</w>
@@ -2207,6 +2264,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.3">
+                     <measure type="sentiment" quantity="3.899" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.3"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.3.1" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="danas">Danas</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.3.2" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.3.3" msd="UPosTag=ADP|Case=Ins" ana="mte:Si" lemma="pred">pred</w>
@@ -2259,6 +2317,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.4">
+                     <measure type="sentiment" quantity="3.191" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.4"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.4.1" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" ana="mte:Pp1-pn" lemma="mi">Mi</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.4.2" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Var1p" lemma="hteti">ćemo</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.4.3" msd="UPosTag=ADP|Case=Ins" ana="mte:Si" lemma="sa">sa</w>
@@ -2281,6 +2340,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.5">
+                     <measure type="sentiment" quantity="2.666" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.5"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.5.1" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="dakle" join="right">Dakle</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.5.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.5.3" msd="UPosTag=NUM|NumType=Card" ana="mte:Mdc" lemma="1" join="right">1</w>
@@ -2333,6 +2393,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.6">
+                     <measure type="sentiment" quantity="3.557" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.6"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.6.1" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" ana="mte:Ncfpn" lemma="prijava">Prijave</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.6.2" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="hteti">će</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.6.3" msd="UPosTag=VERB|VerbForm=Inf" ana="mte:Vmn" lemma="krenuti">krenuti</w>
@@ -2399,6 +2460,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.7">
+                     <measure type="sentiment" quantity="3.359" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.7"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.7.1" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" ana="mte:Pp3nsn" lemma="on">Ono</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.7.2" msd="UPosTag=PRON|Case=Nom|Gender=Neut|PronType=Int,Rel" ana="mte:Pi3n-n" lemma="što">što</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.7.3" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3p" lemma="biti">su</w>
@@ -2461,6 +2523,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.8">
+                     <measure type="sentiment" quantity="4.339" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.8"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.8.1" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="ukupno" join="right">Ukupno</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.8.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.8.3" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
@@ -2527,6 +2590,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.9">
+                     <measure type="sentiment" quantity="3.752" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.9"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.9.1" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="dakle" join="right">Dakle</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.9.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.9.3" msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs" ana="mte:Pp3mpn" lemma="oni">oni</w>
@@ -2631,6 +2695,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.10">
+                     <measure type="sentiment" quantity="4.362" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.10"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.10.1" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" ana="mte:Ncfpn" lemma="prijava">Prijave</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.10.2" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="za">za</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.10.3" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" ana="mte:Agpmpgy" lemma="nov">novih</w>
@@ -2731,6 +2796,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.11">
+                     <measure type="sentiment" quantity="5.377" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.11"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.11.1" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="za">Za</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.11.2" msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=1|PronType=Prs" ana="mte:Pp1-pa" lemma="mi">nas</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.11.3" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
@@ -2761,6 +2827,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.12">
+                     <measure type="sentiment" quantity="5.261" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.12"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.12.1" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="dakle" join="right">Dakle</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.12.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.12.3" msd="UPosTag=VERB|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-pm" lemma="želeti">želeli</w>
@@ -2889,6 +2956,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.13">
+                     <measure type="sentiment" quantity="2.536" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.13"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.13.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin" ana="mte:Vmf1s" lemma="podsetiti">Podsetiću</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.13.2" msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=2|PronType=Prs" ana="mte:Pp2-pa" lemma="vi">vas</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.13.3" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="u">u</w>
@@ -2953,6 +3021,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.14">
+                     <measure type="sentiment" quantity="5.059" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.14"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.14.1" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="dakle" join="right">Dakle</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.14.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.14.3" msd="UPosTag=NUM|NumType=Card" ana="mte:Mdc" lemma="8,7">8,7</w>
@@ -2999,6 +3068,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.15">
+                     <measure type="sentiment" quantity="5.614" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.15"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.15.1" msd="UPosTag=DET|Case=Nom|Gender=Neut|Number=Sing|PronType=Tot" ana="mte:Pi-nsn" lemma="svaki">Svako</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.15.2" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" ana="mte:Ncnsn" lemma="obećanje">obećanje</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.15.3" msd="UPosTag=DET|Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel" ana="mte:Pi-nsa" lemma="koji">koje</w>
@@ -3109,6 +3179,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.16">
+                     <measure type="sentiment" quantity="5.690" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.16"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.16.1" msd="UPosTag=ADP|Case=Ins" ana="mte:Si" lemma="sa">Sa</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.16.2" msd="UPosTag=DET|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem" ana="mte:Pd-nsi" lemma="taj">tim</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.16.3" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1p" lemma="željeti">želimo</w>
@@ -3163,6 +3234,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.17">
+                     <measure type="sentiment" quantity="3.995" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.17"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.17.1" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">Da</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.17.2" msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=2|PronType=Prs" ana="mte:Pp2-pa" lemma="vi">vas</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.17.3" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="podsetiti">podsetim</w>
@@ -3207,6 +3279,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.18">
+                     <measure type="sentiment" quantity="4.927" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.18"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.18.1" msd="UPosTag=DET|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem" ana="mte:Pd-nsn" lemma="taj">To</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.18.2" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.18.3" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="pojedinačno">pojedinačno</w>
@@ -3237,6 +3310,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.19">
+                     <measure type="sentiment" quantity="5.596" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.19"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.19.1" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="dakle" join="right">Dakle</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.19.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.19.3" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="još">još</w>
@@ -3347,6 +3421,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.20">
+                     <measure type="sentiment" quantity="3.970" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.20"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.20.1" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="ako">Ako</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.20.2" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin" ana="mte:Vmr2p" lemma="pogledati">pogledate</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.20.3" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="u">u</w>
@@ -3529,6 +3604,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.21">
+                     <measure type="sentiment" quantity="5.137" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.21"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.21.1" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="dakle" join="right">Dakle</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.21.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.21.3" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsny" lemma="ogroman">ogromna</w>
@@ -3627,6 +3703,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.22">
+                     <measure type="sentiment" quantity="5.413" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.22"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.22.1" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="dakle" join="right">Dakle</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.22.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.22.3" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="na">na</w>
@@ -3675,6 +3752,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.23">
+                     <measure type="sentiment" quantity="4.889" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.23"/>
                      <name type="LOC">
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.23.1" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Npfsn" lemma="Srbija">Srbija</w>
                      </name>
@@ -3763,6 +3841,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.24">
+                     <measure type="sentiment" quantity="4.798" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.24"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.24.1" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="dakle" join="right">Dakle</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.24.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
                      <name type="LOC">
@@ -3865,6 +3944,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.25">
+                     <measure type="sentiment" quantity="5.308" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.25"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.25.1" msd="UPosTag=VERB|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-pm" lemma="imati">Imali</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.25.2" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Var1p" lemma="biti">smo</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.25.3" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="dovoljno">dovoljno</w>
@@ -3945,6 +4025,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.26">
+                     <measure type="sentiment" quantity="0.032" ana="senti:negneg" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.26"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.26.1" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="pri">Pri</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.26.2" msd="UPosTag=DET|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem" ana="mte:Pd-nsl" lemma="taj" join="right">tome</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.26.3" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
@@ -4087,6 +4168,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.27">
+                     <measure type="sentiment" quantity="0.199" ana="senti:negneg" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.27"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.27.1" msd="UPosTag=NUM|Case=Nom|Gender=Fem|Number=Sing|NumType=Card" ana="mte:Mlcfsn" lemma="jedan">Jedna</w>
                      <name type="LOC">
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.27.2" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Npfsn" lemma="Nemačka">Nemačka</w>
@@ -4173,6 +4255,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.28">
+                     <measure type="sentiment" quantity="4.635" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.28"/>
                      <name type="LOC">
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.28.1" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsny" lemma="crn">Crna</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.28.2" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Npfsn" lemma="Gora">Gora</w>
@@ -4247,6 +4330,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.29">
+                     <measure type="sentiment" quantity="5.513" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.29"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.29.1" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="dakle" join="right">Dakle</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.29.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.29.3" msd="UPosTag=NUM|Case=Nom|Gender=Masc|Number=Sing|NumType=Card" ana="mte:Mlcmsn" lemma="jedan">jedan</w>
@@ -4267,6 +4351,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.30">
+                     <measure type="sentiment" quantity="4.986" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.30"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.30.1" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" ana="mte:Pp3nsn" lemma="on">Ono</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.30.2" msd="UPosTag=PRON|Case=Nom|Gender=Neut|PronType=Int,Rel" ana="mte:Pi3n-n" lemma="što">što</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.30.3" msd="UPosTag=PRON|Case=Dat|Number=Sing|Person=1|PronType=Prs" ana="mte:Pp1-sd" lemma="ja">mi</w>
@@ -4353,6 +4438,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.31">
+                     <measure type="sentiment" quantity="3.012" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.31"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.31.1" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="dakle" join="right">Dakle</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.31.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.31.3" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="na">na</w>
@@ -4377,6 +4463,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.32">
+                     <measure type="sentiment" quantity="4.728" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.32"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.32.1" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" ana="mte:Ncmpn" lemma="svedok">Svedoci</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.32.2" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin" ana="mte:Var2p" lemma="biti">ste</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.32.3" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
@@ -4407,6 +4494,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.33">
+                     <measure type="sentiment" quantity="4.677" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.33"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.33.1" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="samo">Samo</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.33.2" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.33.3" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="predsednik">predsednik</w>
@@ -4443,6 +4531,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.34">
+                     <measure type="sentiment" quantity="4.726" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.34"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.34.1" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Vmr3p" lemma="graditi">Grade</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.34.2" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" ana="mte:Px--sa" lemma="sebe">se</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.34.3" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" ana="mte:Agpmpny" lemma="nov">novi</w>
@@ -4477,6 +4566,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.35">
+                     <measure type="sentiment" quantity="4.356" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.35"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.35.1" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="za">Za</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.35.2" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="par">par</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.35.3" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" ana="mte:Ncmpg" lemma="dan">dana</w>
@@ -4513,6 +4603,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.36">
+                     <measure type="sentiment" quantity="0.636" ana="senti:mixneg" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.36"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.36.1" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="dakle" join="right">Dakle</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.36.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
                      <name type="LOC">
@@ -4541,6 +4632,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.37">
+                     <measure type="sentiment" quantity="5.551" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.37"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.37.1" msd="UPosTag=VERB|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" ana="mte:Vmp-pm" lemma="pokazati">Pokazali</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.37.2" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Var1p" lemma="biti">smo</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.37.3" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" ana="mte:Ncfsa" lemma="stabilnost">stabilnost</w>
@@ -4581,6 +4673,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.38">
+                     <measure type="sentiment" quantity="3.674" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.38"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.38.1" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" ana="mte:Pp1-pn" lemma="mi">Mi</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.38.2" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="u">u</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.38.3" msd="UPosTag=DET|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem" ana="mte:Pd-msl" lemma="ovaj">ovom</w>
@@ -4623,6 +4716,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.39">
+                     <measure type="sentiment" quantity="3.588" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.39"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.39.1" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin" ana="mte:Vmf1p" lemma="sačekati">Sačekaćemo</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.39.2" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="još">još</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.39.3" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" ana="mte:Ncmsan" lemma="izveštaj">izveštaj</w>
@@ -4681,6 +4775,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.40">
+                     <measure type="sentiment" quantity="5.300" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.40"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.40.1" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="dakle" join="right">Dakle</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.40.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.40.3" msd="UPosTag=ADP|Case=Gen" ana="mte:Sg" lemma="iz">iz</w>
@@ -4717,6 +4812,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.41">
+                     <measure type="sentiment" quantity="4.373" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.41"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.41.1" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" ana="mte:Pp3nsn" lemma="on">Ono</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.41.2" msd="UPosTag=PRON|Case=Acc|Gender=Neut|PronType=Int,Rel" ana="mte:Pi3n-a" lemma="što">što</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.41.3" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="znati">znam</w>
@@ -4789,6 +4885,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.42">
+                     <measure type="sentiment" quantity="4.419" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.42"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.42.1" msd="UPosTag=DET|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem" ana="mte:Pd-nsn" lemma="taj">To</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.42.2" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.42.3" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" ana="mte:Ncnsn" lemma="obećanje">obećanje</w>
@@ -4843,6 +4940,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.43">
+                     <measure type="sentiment" quantity="4.554" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.43"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.43.1" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="hvala">Hvala</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.43.2" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="još">još</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.43.3" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="jednom" join="right">jednom</w>
@@ -4855,6 +4953,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.44">
+                     <measure type="sentiment" quantity="5.431" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.44"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.44.1" msd="UPosTag=DET|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem" ana="mte:Pd-nsn" lemma="ovaj">Ovo</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.44.2" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.44.3" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsny" lemma="lep">lepa</w>
@@ -4875,6 +4974,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.45">
+                     <measure type="sentiment" quantity="5.567" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.45"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.45.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="željeti">Želim</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.45.2" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.45.3" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="zahvaliti">zahvalim</w>
@@ -4939,6 +5039,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.46">
+                     <measure type="sentiment" quantity="4.779" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.46"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.46.1" msd="UPosTag=DET|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem" ana="mte:Pd-msn" lemma="ovaj">Ovaj</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.46.2" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="zakon">zakon</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.46.3" msd="UPosTag=PART|Polarity=Neg" ana="mte:Qz" lemma="ne">ne</w>
@@ -4973,6 +5074,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.47">
+                     <measure type="sentiment" quantity="4.621" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.47"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.47.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin" ana="mte:Vmf1s" lemma="podsetiti">Podsetiću</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.47.2" msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=2|PronType=Prs" ana="mte:Pp2-pa" lemma="vi" join="right">vas</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.47.3" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
@@ -5025,6 +5127,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.48">
+                     <measure type="sentiment" quantity="5.427" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.48"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.48.1" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="dakle" join="right">Dakle</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.48.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.48.3" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1p" lemma="podržavati">podržavamo</w>
@@ -5117,6 +5220,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.49">
+                     <measure type="sentiment" quantity="4.894" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.49"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.49.1" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="u">U</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.49.2" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" ana="mte:Agpmpgy" lemma="naredan">narednih</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.49.3" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="par">par</w>
@@ -5253,6 +5357,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.50">
+                     <measure type="sentiment" quantity="5.387" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.50"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.50.1" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="dakle" join="right">Dakle</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.50.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.50.3" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="odgovorno">odgovorno</w>
@@ -5327,6 +5432,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.51">
+                     <measure type="sentiment" quantity="5.529" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.51"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.51.1" msd="UPosTag=DET|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem" ana="mte:Pd-nsn" lemma="taj">To</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.51.2" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin" ana="mte:Var2p" lemma="biti">jeste</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.51.3" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" ana="mte:Ncmsn" lemma="primer">primer</w>
@@ -5369,6 +5475,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.52">
+                     <measure type="sentiment" quantity="4.466" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.52"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.52.1" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="hvala">Hvala</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.52.2" msd="UPosTag=ADV|Degree=Pos" ana="mte:Rgp" lemma="puno" join="right">puno</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.52.3" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
@@ -5379,6 +5486,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.53">
+                     <measure type="sentiment" quantity="4.417" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12403.seg0.53"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.53.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="ostajati">Ostajem</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.53.2" msd="UPosTag=ADP|Case=Loc" ana="mte:Sl" lemma="na">na</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12403.seg0.53.3" msd="UPosTag=NOUN|Case=Loc|Gender=Neut|Number=Sing" ana="mte:Ncnsl" lemma="raspolaganje">raspolaganju</w>
@@ -5401,9 +5509,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u who="#KovačElvira" ana="#chair" n="ParlaMint-SR_T12.Sv18.u12440" xml:id="ParlaMint-RS_2022-02-14-0.u12440">
+            <u who="#KovačElvira" ana="#chair topic:other" n="ParlaMint-SR_T12.Sv18.u12440" xml:id="ParlaMint-RS_2022-02-14-0.u12440">
                <seg xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0">
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.1">
+                     <measure type="sentiment" quantity="4.565" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12440.seg0.1"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.1.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="zahvaljivati" join="right">Zahvaljujem</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.1.2" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
 <linkGrp type="UD-SYN" targFunc="head argument">
@@ -5412,6 +5521,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.2">
+                     <measure type="sentiment" quantity="3.583" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12440.seg0.2"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.2.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="zaključivati">Zaključujem</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.2.2" msd="UPosTag=ADJ|Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Agpmsayn" lemma="načelan">načelni</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.2.3" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" ana="mte:Ncmsan" lemma="pretres">pretres</w>
@@ -5432,6 +5542,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.3">
+                     <measure type="sentiment" quantity="3.222" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12440.seg0.3"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.3.1" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Agpnsny" lemma="saglasan">Saglasno</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.3.2" msd="UPosTag=NOUN|Case=Dat|Gender=Masc|Number=Sing" ana="mte:Ncmsd" lemma="član">članu</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.3.3" msd="UPosTag=ADJ|NumType=Ord" ana="mte:Mdo" lemma="87.">87.</w>
@@ -5522,6 +5633,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.4">
+                     <measure type="sentiment" quantity="3.271" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12440.seg0.4"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.4.1" msd="UPosTag=ADJ|Case=Voc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass" ana="mte:Appmpny" lemma="poštovati">Poštovani</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.4.2" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" ana="mte:Agpmpny" lemma="narodni">narodni</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.4.3" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" ana="mte:Ncmpn" lemma="poslanik" join="right">poslanici</w>
@@ -5544,6 +5656,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.5">
+                     <measure type="sentiment" quantity="2.741" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12440.seg0.5"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.5.1" msd="UPosTag=NOUN|Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing" ana="mte:Ncmsay" lemma="poslovnik">Poslovnika</w>
                      <name type="ORG">
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.5.2" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Agpfsgy" lemma="narodni">Narodne</w>
@@ -5576,6 +5689,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.6">
+                     <measure type="sentiment" quantity="3.494" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12440.seg0.6"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.6.1" msd="UPosTag=ADP|Case=Ins" ana="mte:Si" lemma="sa">Sa</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.6.2" msd="UPosTag=NOUN|Case=Ins|Gender=Masc|Number=Sing" ana="mte:Ncmsi" lemma="rad">radom</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.6.3" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1p" lemma="nastavljati">nastavljamo</w>
@@ -5602,6 +5716,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.7">
+                     <measure type="sentiment" quantity="4.565" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12440.seg0.7"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.7.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="zahvaljivati" join="right">Zahvaljujem</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0.7.2" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
 <linkGrp type="UD-SYN" targFunc="head argument">
@@ -5613,9 +5728,10 @@
             </u>
             <note type="time" xml:id="ParlaMint-RS_2022-02-14-0.ana.note40">Posle pauze</note>
             <note type="speaker" xml:id="ParlaMint-RS_2022-02-14-0.ana.note41">Dačić, Ivica</note>
-            <u who="#DačićIvica" ana="#chair" n="ParlaMint-SR_T12.Sv18.u12441" xml:id="ParlaMint-RS_2022-02-14-0.u12441">
+            <u who="#DačićIvica" ana="#chair topic:mixed" n="ParlaMint-SR_T12.Sv18.u12441" xml:id="ParlaMint-RS_2022-02-14-0.u12441">
                <seg xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0">
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.1">
+                     <measure type="sentiment" quantity="3.519" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12441.seg0.1"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.1.1" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass" ana="mte:Appfpny" lemma="poštovati">Poštovane</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.1.2" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" ana="mte:Ncfpn" lemma="dama">dame</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.1.3" msd="UPosTag=CCONJ" ana="mte:Cc" lemma="i">i</w>
@@ -5668,6 +5784,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.2">
+                     <measure type="sentiment" quantity="3.165" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12441.seg0.2"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.2.1" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" ana="mte:Agpnsny" lemma="saglasan">Saglasno</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.2.2" msd="UPosTag=NOUN|Case=Dat|Gender=Masc|Number=Sing" ana="mte:Ncmsd" lemma="član">članu</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.2.3" msd="UPosTag=ADJ|NumType=Ord" ana="mte:Mdo" lemma="88.">88.</w>
@@ -5738,6 +5855,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.3">
+                     <measure type="sentiment" quantity="3.554" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12441.seg0.3"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.3.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="moliti">Molim</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.3.2" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" ana="mte:Agpmpay" lemma="narodni">narodne</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.3.3" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" ana="mte:Ncmpa" lemma="poslanik">poslanike</w>
@@ -5762,6 +5880,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.4">
+                     <measure type="sentiment" quantity="4.565" ana="senti:pospos" corresp="#ParlaMint-RS_2022-02-14-0.u12441.seg0.4"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.4.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="zahvaljivati" join="right">Zahvaljujem</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.4.2" msd="UPosTag=PUNCT" ana="mte:Z">.</pc>
 <linkGrp type="UD-SYN" targFunc="head argument">
@@ -5770,6 +5889,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.5">
+                     <measure type="sentiment" quantity="3.532" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12441.seg0.5"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.5.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="konstatovati">Konstatujem</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.5.2" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.5.3" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti" join="right">je</w>
@@ -5856,6 +5976,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.6">
+                     <measure type="sentiment" quantity="3.893" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12441.seg0.6"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.6.1" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1p" lemma="prelaziti">Prelazimo</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.6.2" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="na">na</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.6.3" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" ana="mte:Ncnsa" lemma="odlučivanje" join="right">odlučivanje</w>
@@ -5868,6 +5989,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.7">
+                     <measure type="sentiment" quantity="3.008" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12441.seg0.7"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.7.1" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing" ana="mte:Mlofsn" lemma="prvi">Prva</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.7.2" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" ana="mte:Ncfsn" lemma="tačka">tačka</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.7.3" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" ana="mte:Agpmsgy" lemma="dnevni">dnevnog</w>
@@ -5946,6 +6068,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.8">
+                     <measure type="sentiment" quantity="3.249" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12441.seg0.8"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.8.1" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="pošto">Pošto</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.8.2" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
                      <name type="ORG">
@@ -6048,6 +6171,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.9">
+                     <measure type="sentiment" quantity="3.234" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12441.seg0.9"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.9.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="stavljati">Stavljam</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.9.2" msd="UPosTag=ADP|Case=Acc" ana="mte:Sa" lemma="na">na</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.9.3" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" ana="mte:Ncnsa" lemma="glasanje">glasanje</w>
@@ -6128,6 +6252,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.10">
+                     <measure type="sentiment" quantity="3.369" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12441.seg0.10"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.10.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="moliti">Molim</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.10.2" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" ana="mte:Agpmpay" lemma="narodni">narodne</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.10.3" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" ana="mte:Ncmpa" lemma="poslanik">poslanike</w>
@@ -6148,6 +6273,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.11">
+                     <measure type="sentiment" quantity="3.351" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12441.seg0.11"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.11.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="zaustavljati">Zaustavljam</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.11.2" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" ana="mte:Ncnsa" lemma="glasanje" join="right">glasanje</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.11.3" msd="UPosTag=PUNCT" ana="mte:Z">:</pc>
@@ -6192,6 +6318,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.12">
+                     <measure type="sentiment" quantity="4.120" ana="senti:mixpos" corresp="#ParlaMint-RS_2022-02-14-0.u12441.seg0.12"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.12.1" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="konstatovati">Konstatujem</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.12.2" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="da">da</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.12.3" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
@@ -6278,6 +6405,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.13">
+                     <measure type="sentiment" quantity="3.256" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12441.seg0.13"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.13.1" msd="UPosTag=SCONJ" ana="mte:Cs" lemma="pošto">Pošto</w>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.13.2" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" ana="mte:Var3s" lemma="biti">je</w>
                      <name type="ORG">
@@ -6322,6 +6450,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.14">
+                     <measure type="sentiment" quantity="3.246" ana="senti:neupos" corresp="#ParlaMint-RS_2022-02-14-0.u12441.seg0.14"/>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.14.1" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing" ana="mte:Ncmsay" lemma="poslovnik" join="right">Poslovnika</w>
 <pc xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.14.2" msd="UPosTag=PUNCT" ana="mte:Z">,</pc>
 <w xml:id="ParlaMint-RS_2022-02-14-0.u12441.seg0.14.3" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" ana="mte:Vmr1s" lemma="zaključivati">zaključujem</w>

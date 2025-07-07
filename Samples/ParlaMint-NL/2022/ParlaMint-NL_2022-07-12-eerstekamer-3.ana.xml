@@ -20,12 +20,24 @@
                <resp xml:lang="nl">Taalkundige verrijking</resp>
                <resp xml:lang="en">Linguistic annotation</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="80" xml:lang="en">80 speeches</measure>
@@ -38,12 +50,12 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -65,6 +77,7 @@
                <tagUsage gi="head" occurs="1"/>
                <tagUsage gi="link" occurs="8360"/>
                <tagUsage gi="linkGrp" occurs="503"/>
+               <tagUsage gi="measure" occurs="503"/>
                <tagUsage gi="name" occurs="272"/>
                <tagUsage gi="note" occurs="113"/>
                <tagUsage gi="pc" occurs="871"/>
@@ -87,8 +100,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-05-24">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:lang="nl" ana="#covid #war">
@@ -96,9 +111,10 @@
          <div type="debateSection">
             <head xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.ana.head1">Wijziging begrotingsstaten Justitie en Veiligheid 2022 (Voorjaarsnota)</head>
             <note type="speaker" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.ana.note1">De voorzitter</note>
-            <u ana="#chair" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u1" who="#JanAnthonieBruijn">
+            <u ana="#chair topic:lawcr" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u1" who="#JanAnthonieBruijn">
                <seg xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg1">
                   <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1" xml:lang="nl">
+                     <measure type="sentiment" quantity="3.754" ana="senti:mixpos" corresp="#ParlaMint-NL_2022-07-12-eerstekamer-3.s1"/>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs" lemma="ik">Ik</w>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w8" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="heten">heet</w>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w9" msd="UPosTag=DET|Definite=Def" lemma="de">de</w>
@@ -155,6 +171,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2" xml:lang="nl">
+                     <measure type="sentiment" quantity="4.105" ana="senti:mixpos" corresp="#ParlaMint-NL_2022-07-12-eerstekamer-3.s2"/>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w29" msd="UPosTag=PRON|Person=3|PronType=Prs" lemma="het">Het</w>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w30" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="zijn">is</w>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w31" msd="UPosTag=ADV" lemma="toch">toch</w>
@@ -204,9 +221,10 @@
             </u>
             <note type="comment" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.ana.note2">De beraadslaging wordt geopend.</note>
             <note type="speaker" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.ana.note3">De voorzitter</note>
-            <u ana="#chair" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u2" who="#JanAnthonieBruijn">
+            <u ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u2" who="#JanAnthonieBruijn">
                <seg xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg2">
                   <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s4" xml:lang="nl">
+                     <measure type="sentiment" quantity="3.152" ana="senti:neupos" corresp="#ParlaMint-NL_2022-07-12-eerstekamer-3.s4"/>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w51" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs" lemma="ik">Ik</w>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w52" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="geven">geef</w>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w53" msd="UPosTag=DET|Definite=Def" lemma="het">het</w>
@@ -237,9 +255,10 @@
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
             </gap>
-            <u ana="#chair" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u79" who="#JanAnthonieBruijn">
+            <u ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u79" who="#JanAnthonieBruijn">
                <seg xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg116">
                   <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s528" xml:lang="nl">
+                     <measure type="sentiment" quantity="4.782" ana="senti:pospos" corresp="#ParlaMint-NL_2022-07-12-eerstekamer-3.s528"/>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7794" msd="UPosTag=VERB|Gender=Com|Number=Sing" lemma="dank">Dank</w>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7795" msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs" lemma="u">u</w>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7796" join="right" msd="UPosTag=ADV" lemma="wel">wel</w>
@@ -255,9 +274,10 @@
             </u>
             <note type="comment" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.ana.note111">De beraadslaging wordt gesloten.</note>
             <note type="speaker" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.ana.note112">De voorzitter</note>
-            <u ana="#chair" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u80" who="#JanAnthonieBruijn">
+            <u ana="#chair topic:other" xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u80" who="#JanAnthonieBruijn">
                <seg xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg117">
                   <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s530" xml:lang="nl">
+                     <measure type="sentiment" quantity="2.778" ana="senti:neupos" corresp="#ParlaMint-NL_2022-07-12-eerstekamer-3.s530"/>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7801" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs" lemma="ik">Ik</w>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7802" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="komen">kom</w>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7803" msd="UPosTag=ADP" lemma="tot">tot</w>
@@ -278,6 +298,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s531" xml:lang="nl">
+                     <measure type="sentiment" quantity="2.583" ana="senti:neupos" corresp="#ParlaMint-NL_2022-07-12-eerstekamer-3.s531"/>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7808" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="wensen">Wenst</w>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7809" msd="UPosTag=NUM" lemma="een">een</w>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7810" msd="UPosTag=ADP" lemma="van">van</w>
@@ -302,6 +323,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s532" xml:lang="nl">
+                     <measure type="sentiment" quantity="3.347" ana="senti:neupos" corresp="#ParlaMint-NL_2022-07-12-eerstekamer-3.s532"/>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7817" msd="UPosTag=PRON|Person=3|PronType=Dem" lemma="dat">Dat</w>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7818" msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="zijn">is</w>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7819" msd="UPosTag=DET|Definite=Def" lemma="het">het</w>
@@ -316,6 +338,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s533" xml:lang="nl">
+                     <measure type="sentiment" quantity="2.677" ana="senti:neupos" corresp="#ParlaMint-NL_2022-07-12-eerstekamer-3.s533"/>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7821" msd="UPosTag=ADV" lemma="dan">Dan</w>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7822" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="stellen">stel</w>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7823" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs" lemma="ik">ik</w>
@@ -352,6 +375,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s534" xml:lang="nl">
+                     <measure type="sentiment" quantity="3.092" ana="senti:neupos" corresp="#ParlaMint-NL_2022-07-12-eerstekamer-3.s534"/>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7836" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs" lemma="ik">Ik</w>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7837" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="stellen">stel</w>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7838" msd="UPosTag=ADP" lemma="voor">voor</w>
@@ -382,6 +406,7 @@
                </seg>
                <seg xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg118">
                   <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s535" xml:lang="nl">
+                     <measure type="sentiment" quantity="2.388" ana="senti:neuneg" corresp="#ParlaMint-NL_2022-07-12-eerstekamer-3.s535"/>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7847" msd="UPosTag=ADV" lemma="dan">Dan</w>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7848" msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin" lemma="schorsen">schors</w>
 <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.w7849" msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs" lemma="ik">ik</w>

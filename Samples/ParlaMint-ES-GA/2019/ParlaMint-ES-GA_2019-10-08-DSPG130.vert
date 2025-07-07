@@ -1,8 +1,8 @@
 <note type="time" content="Ábrese a sesión ás dez e dous minutos da mañá."/>
 <note type="speaker" content="O señor PRESIDENTE:"/>
-<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u1" text_id="ParlaMint-ES-GA_2019-10-08-DSPG130" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="X Lexislatura" session="-" meeting="Número 130" sitting="08.10.2019" agenda="-" date="2019-10-08" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u1" text_id="ParlaMint-ES-GA_2019-10-08-DSPG130" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="X Lexislatura" session="-" meeting="Número 130" sitting="08.10.2019" agenda="-" date="2019-10-08" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" topic="Varios" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1" lang="galego">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1.s1" senti_3="Positivo" senti_6="positivo mixto" senti_n="4.418">
 Bos	Bos	bo	ADJ	-	w1	amod	día	NOUN	Gender=Masc Number=Plur	w2
 días	días	día	NOUN	Gender=Masc Number=Plur	w2	root	-	-	-	-
 <g/>
@@ -10,7 +10,7 @@ días	días	día	NOUN	Gender=Masc Number=Plur	w2	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg2" lang="galego">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg2.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg2.s1" senti_3="Positivo" senti_6="positivo mixto" senti_n="4.131">
 Imos	Imos	ir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres	w1	root	-	-	-	-
 dar	dar	dar	VERB	VerbForm=Inf	w2	xcomp	ir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres	w1
 comezo	comezo	comezo	NOUN	Gender=Masc Number=Sing	w3	obj	dar	VERB	VerbForm=Inf	w2
@@ -21,7 +21,7 @@ sesión	sesión	sesión	NOUN	Gender=Fem Number=Sing	w5	obl	dar	VERB	VerbForm=Inf
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg3" lang="galego">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg3.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg3.s1" senti_3="Positivo" senti_6="positivo mixto" senti_n="3.707">
 Bos	Bos	bo	ADJ	-	w1	amod	día	NOUN	Gender=Masc Number=Plur	w2
 días	días	día	NOUN	Gender=Masc Number=Plur	w2	nsubj	abrir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	t1
 <g/>
@@ -34,7 +34,7 @@ sesión	sesión	sesión	NOUN	Gender=Fem Number=Sing	w6	obj	abrir	VERB	Mood=Ind N
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4" lang="galego">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1" senti_3="Neutro" senti_6="neutro negativo" senti_n="2.372">
 A	A	o	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w1	det	orde	NOUN	Gender=Fem Number=Sing	w2
 orde	orde	orde	NOUN	Gender=Fem Number=Sing	w2	nsubj:pass	publicar	VERB	Gender=Fem Number=Sing VerbForm=Part	w6
 do	de|o	de|o	ADP|DET	AdpType=Prep|Definite=Def Gender=Masc Number=Sing PronType=Art	t1|t2	case|det	día	NOUN	Gender=Masc Number=Sing	w4
@@ -68,7 +68,7 @@ lectura	lectura	lectura	NOUN	Gender=Fem Number=Sing	w21	nmod	á	NOUN	Gender=Fem 
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5" lang="galego">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5.s1" senti_3="Neutro" senti_6="neutro negativo" senti_n="2.240">
 Xustificou	Xustificou	xustificar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past	w1	root	-	-	-	-
 a	a	o	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w2	det	inasistencia	NOUN	Gender=Fem Number=Sing	w4
 súa	súa	seu	DET	Definite=Def Gender=Fem Number=Sing Person=3 Poss=Yes	w3	det	inasistencia	NOUN	Gender=Fem Number=Sing	w4
@@ -86,7 +86,7 @@ Burgo	Burgo	burgo	NOUN	Gender=Masc Number=Sing	w10	nmod	concepción	NOUN	Gender=
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6" lang="galego">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="3.088">
 Entramos	Entramos	entrar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres	w1	root	-	-	-	-
 na	en|a	en|o	ADP|DET	AdpType=Prep|Definite=Def Gender=Fem Number=Sing PronType=Art	t1|t2	case|det	orde	NOUN	Gender=Fem Number=Sing	w3
 orde	orde	orde	NOUN	Gender=Fem Number=Sing	w3	obl	entrar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres	w1
@@ -106,7 +106,7 @@ lexislativos	lexislativos	lexislativo	ADJ	-	w13	amod	texto	NOUN	Gender=Masc Numb
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7" lang="galego">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.699">
 Debate	Debate	debate	NOUN	Gender=Masc Number=Sing	w1	root	-	-	-	-
 de	de	de	ADP	AdpType=Prep	w2	case	totalidade	NOUN	Gender=Fem Number=Sing	w3
 totalidade	totalidade	totalidade	NOUN	Gender=Fem Number=Sing	w3	nmod	debate	NOUN	Gender=Masc Number=Sing	w1
@@ -136,9 +136,9 @@ sanitario	sanitario	sanitario	ADJ	-	w23	amod	risco	NOUN	Gender=Masc Number=Sing	
 </p>
 </speech>
 <note type="speaker" content="O señor PRESIDENTE:"/>
-<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u2" text_id="ParlaMint-ES-GA_2019-10-08-DSPG130" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="X Lexislatura" session="-" meeting="Número 130" sitting="08.10.2019" agenda="-" date="2019-10-08" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u2" text_id="ParlaMint-ES-GA_2019-10-08-DSPG130" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="X Lexislatura" session="-" meeting="Número 130" sitting="08.10.2019" agenda="-" date="2019-10-08" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" topic="Transportes" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8" lang="galego">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1" senti_3="Negativo" senti_6="negativo mixto" senti_n="1.446">
 Presentáronse	Presentaron|se	presentar|se	VERB|PRON	Mood=Ind Number=Plur Person=3 Tense=Past|Gender=Com Person=3 PronType=Prs	t1|t2	root|expl	-|presentar	-|VERB	-|Mood=Ind Number=Plur Person=3 Tense=Past	-|t1
 emendas	emendas	emenda	NOUN	Gender=Fem Number=Plur	w2	obj	presentar	VERB	Mood=Ind Number=Plur Person=3 Tense=Past	t1
 á	a|a	a|o	ADP|DET	AdpType=Prep|Definite=Def Gender=Fem Number=Sing PronType=Art	t1|t2	case|det	totalidade	NOUN	Gender=Fem Number=Sing	w4
@@ -182,7 +182,7 @@ Esquerda	Esquerda	esquerda	NOUN	Gender=Fem Number=Sing	w29	nmod	grupo	NOUN	Gende
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9" lang="galego">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.817">
 Para	Para	para	ADP	AdpType=Prep	w1	case	presentación	NOUN	Gender=Fem Number=Sing	w3
 a	a	o	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w2	det	presentación	NOUN	Gender=Fem Number=Sing	w3
 presentación	presentación	presentación	NOUN	Gender=Fem Number=Sing	w3	obl	ter	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w8
@@ -219,9 +219,9 @@ Mourelle	Mourelle	mourelle	PROPN	-	w21	flat:name	vázquez	PROPN	-	w20
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u461" text_id="ParlaMint-ES-GA_2019-10-08-DSPG130" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="X Lexislatura" session="-" meeting="Número 130" sitting="08.10.2019" agenda="-" date="2019-10-08" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Deputado/a" speaker_id="CondeFranciscoJosé" speaker_name="Conde López, Francisco José" speaker_mp="MP" speaker_minister="Minister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1968">
+<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u461" text_id="ParlaMint-ES-GA_2019-10-08-DSPG130" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="X Lexislatura" session="-" meeting="Número 130" sitting="08.10.2019" agenda="-" date="2019-10-08" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Deputado/a" topic="Varios" speaker_id="CondeFranciscoJosé" speaker_name="Conde López, Francisco José" speaker_mp="MP" speaker_minister="Minister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1968">
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556" lang="galego">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1" senti_3="Negativo" senti_6="negativo" senti_n="0.162">
 <name type="PER">
 Señor	Señor	señor	NOUN	Gender=Masc Number=Sing	w1	nsubj	bará	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut	w2
 </name>
@@ -271,7 +271,7 @@ sinceramente	sinceramente	sinceramente	ADV	-	w31	advmod	dicir	VERB	Mood=Ind Numb
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w32	punct	bará	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut	w2
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2" senti_3="Negativo" senti_6="negativo" senti_n="0.106">
 Ou	Ou	ou	CCONJ	-	w1	cc	vir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w2
 vén	vén	vir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w2	root	-	-	-	-
 falar	falar	falar	VERB	VerbForm=Inf	w3	xcomp	vir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w2
@@ -305,7 +305,7 @@ ningures	ningures	ningures	ADV	-	w24	advmod	ir	VERB	Mood=Ind Number=Sing Person=
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w25	punct	vir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w2
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3" senti_3="Negativo" senti_6="negativo" senti_n="0.134">
 <note type="-" content="Aplausos."/>
 Porque	Porque	porque	SCONJ	-	w1	mark	bará	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut	w7
 <g/>
@@ -350,7 +350,7 @@ ningún	ningún	ningún	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	w2
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557" lang="galego">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.894">
 A	A	a	ADP	AdpType=Prep	w1	mark	partir	VERB	VerbForm=Inf	w2
 partir	partir	partir	VERB	VerbForm=Inf	w2	advcl	querer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w7
 de	de	de	ADP	AdpType=Prep	w3	case	aí	ADV	-	w4
@@ -369,7 +369,7 @@ Vulcano	Vulcano	vulcano	PROPN	-	w11	obl	falar	VERB	Mood=Ind Number=Plur Person=1
 </name>
 .	.	.	PUNCT	PunctType=Peri	w12	punct	querer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w7
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s2">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s2" senti_3="Positivo" senti_6="positivo mixto" senti_n="4.078">
 Eu	Eu	eu	PRON	Case=Nom Gender=Com Number=Sing Person=1 PronType=Prs	w1	nsubj	lle	PRON	Case=Dat Gender=Com Number=Plur Person=3 PronType=Prs	t2
 funlles	fun|lles	ser|lle	AUX|PRON	Mood=Ind Number=Sing Person=1 Tense=Past|Case=Dat Gender=Com Number=Plur Person=3 PronType=Prs	t1|t2	cop|root	lle|-	PRON|-	Case=Dat Gender=Com Number=Plur Person=3 PronType=Prs|-	t2|-
 totalmente	totalmente	total	ADV	-	w3	advmod	transparente	ADJ	-	w4
@@ -387,7 +387,7 @@ momento	momento	momento	NOUN	Gender=Masc Number=Sing	w12	nmod	traballador	NOUN	G
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w13	punct	lle	PRON	Case=Dat Gender=Com Number=Plur Person=3 PronType=Prs	t2
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3" senti_3="Positivo" senti_6="positivo mixto" senti_n="4.076">
 Dende	Dende	dende	ADP	AdpType=Prep	w1	case	momento	NOUN	Gender=Masc Number=Sing	w4
 o	o	o	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w2	det	momento	NOUN	Gender=Masc Number=Sing	w4
 primeiro	primeiro	primeiro	NUM	NumType=Ord	w3	nummod	momento	NOUN	Gender=Masc Number=Sing	w4
@@ -435,7 +435,7 @@ ferry	ferry	ferry	PROPN	-	w37	obj	finalizar	VERB	VerbForm=Inf	w35
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w38	punct	impulsar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past	w14
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s4">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s4" senti_3="Positivo" senti_6="positivo mixto" senti_n="4.003">
 E	E	e	CCONJ	-	w1	mark	colaborar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past	w6
 a	a	o	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w2	det	xunta	NOUN	Gender=Fem Number=Sing	w3
 <name type="ORG">
@@ -457,7 +457,7 @@ técnico	técnico	técnico	ADJ	-	w16	amod	vista	NOUN	Gender=Fem Number=Sing	w15
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w17	punct	colaborar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past	w6
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s5">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s5" senti_3="Negativo" senti_6="negativo mixto" senti_n="0.630">
 <name type="LOC">
 Oia	Oia	oír	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres	w1	root	-	-	-	-
 <g/>
@@ -478,7 +478,7 @@ responsabilidade	responsabilidade	responsabilidade	NOUN	Gender=Fem Number=Sing	w
 <g/>
 ?	?	?	PUNCT	-	w13	punct	oír	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres	w1
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s6">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s6" senti_3="Neutro" senti_6="neutro negativo" senti_n="1.625">
 Digo	Digo	dicir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres	w1	root	-	-	-	-
 eu	eu	eu	PRON	Case=Nom Gender=Com Number=Sing Person=1 PronType=Prs	w2	obj	dicir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres	w1
 que	que	que	SCONJ	-	w3	mark	estaleiro	NOUN	Gender=Masc Number=Sing	w6
@@ -494,7 +494,7 @@ eu	eu	eu	PRON	Case=Nom Gender=Com Number=Sing Person=1 PronType=Prs	w10	obj	dici
 <g/>
 !	!	!	PUNCT	-	w11	punct	dicir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres	w1
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s7">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s7" senti_3="Negativo" senti_6="negativo mixto" senti_n="0.502">
 O	O	o	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w1	det	estaleiro	NOUN	Gender=Masc Number=Sing	w2
 estaleiro	estaleiro	estaleiro	NOUN	Gender=Masc Number=Sing	w2	nsubj	presentar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w3
 presenta	presenta	presentar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w3	root	-	-	-	-
@@ -508,7 +508,7 @@ euros	euros	euro	NOUN	Gender=Masc Number=Plur	w10	nmod	millón	NOUN	Gender=Masc 
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w11	punct	presentar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w3
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s8">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s8" senti_3="Negativo" senti_6="negativo" senti_n="0.462">
 ¿	¿	¿	PUNCT	-	w1	punct	querer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w4
 <g/>
 A	A	a	ADP	AdpType=Prep	w2	case	quen	PRON	PronType=Rel	w3
@@ -520,7 +520,7 @@ responsabilidade	responsabilidade	responsabilidade	NOUN	Gender=Fem Number=Sing	w
 <g/>
 ?	?	?	PUNCT	-	w8	punct	querer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w4
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s9">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s9" senti_3="Neutro" senti_6="neutro positivo" senti_n="3.057">
 <note type="-" content="Murmurios."/>
 ¿	¿	¿	PUNCT	-	w1	punct	quen	PRON	PronType=Rel	w3
 <g/>
@@ -529,7 +529,7 @@ quen	quen	quen	PRON	PronType=Rel	w3	root	-	-	-	-
 <g/>
 ?	?	?	PUNCT	-	w4	punct	quen	PRON	PronType=Rel	w3
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s10">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s10" senti_3="Positivo" senti_6="positivo" senti_n="4.923">
 <note type="-" content="Murmurios."/>
 Eu	Eu	eu	PRON	Case=Nom Gender=Com Number=Sing Person=1 PronType=Prs	w1	nsubj	lle	PRON	Case=Dat Gender=Com Number=Plur Person=3 PronType=Prs	t2
 funlles	fun|lles	ser|lle	AUX|PRON	Mood=Ind Number=Sing Person=1 Tense=Past|Case=Dat Gender=Com Number=Plur Person=3 PronType=Prs	t1|t2	cop|root	lle|-	PRON|-	Case=Dat Gender=Com Number=Plur Person=3 PronType=Prs|-	t2|-
@@ -542,7 +542,7 @@ traballadores	traballadores	traballador	NOUN	Gender=Masc Number=Plur	w6	obl	sinc
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558" lang="galego">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s1" senti_3="Negativo" senti_6="negativo" senti_n="0.192">
 Con	Con	con	ADP	AdpType=Prep	w1	case	situación	NOUN	Gender=Fem Number=Sing	w3
 esta	esta	este	DET	Definite=Def Gender=Fem Number=Sing PronType=Dem	w2	det	situación	NOUN	Gender=Fem Number=Sing	w3
 situación	situación	situación	NOUN	Gender=Fem Number=Sing	w3	obl	difícil	ADJ	-	w9
@@ -557,7 +557,7 @@ difícil	difícil	difícil	ADJ	-	w9	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w10	punct	difícil	ADJ	-	w9
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s2">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s2" senti_3="Negativo" senti_6="negativo" senti_n="0.352">
 ¿	¿	¿	PUNCT	-	w1	punct	millón	NOUN	Gender=Masc Number=Plur	w3
 <g/>
 200	200	200	NUM	NumType=Card	w2	nummod	millón	NOUN	Gender=Masc Number=Plur	w3
@@ -569,7 +569,7 @@ perdas	perdas	perda	NOUN	Gender=Fem Number=Plur	w7	nmod	euro	NOUN	Gender=Masc Nu
 <g/>
 ?	?	?	PUNCT	-	w8	punct	millón	NOUN	Gender=Masc Number=Plur	w3
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3" senti_3="Neutro" senti_6="neutro negativo" senti_n="2.264">
 ¿	¿	¿	PUNCT	-	w1	punct	querer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w3
 <g/>
 Que	Que	que	DET	Gender=Com PronType=Int	w2	det	querer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w3
@@ -594,7 +594,7 @@ quéreo	quere|o	querer|o	VERB|PRON	Mood=Ind Number=Sing Person=3 Tense=Pres|Case
 <g/>
 ?	?	?	PUNCT	-	w14	punct	querer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w3
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s4">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s4" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.522">
 <note type="-" content="Murmurios."/>
 Ao	A|o	a|o	ADP|DET	AdpType=Prep|Definite=Def Gender=Masc Number=Sing PronType=Art	t1|t2	case|det	mellor	ADJ	-	w2
 mellor	mellor	mellor	ADJ	-	w2	amod	querer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w5
@@ -608,12 +608,12 @@ iso	iso	iso	PRON	Gender=Neut PronType=Dem	w6	obj	querer	VERB	Mood=Ind Number=Sin
 <g/>
 ?	?	?	PUNCT	-	w7	punct	querer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w5
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s5">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s5" senti_3="Neutro" senti_6="neutro negativo" senti_n="2.149">
 Non	Non	non	ADV	Polarity=Neg	w1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w2	punct	non	ADV	Polarity=Neg	w1
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6" senti_3="Neutro" senti_6="neutro negativo" senti_n="2.434">
 Aquí	Aquí	aquí	ADV	-	w1	advmod	haber	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w2
 hai	hai	haber	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w2	root	-	-	-	-
 unha	unha	un	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	w3	det	responsabilidade	NOUN	Gender=Fem Number=Sing	w4
@@ -634,7 +634,7 @@ produtivos	produtivos	produtivo	ADJ	-	w17	amod	sector	NOUN	Gender=Masc Number=Pl
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w18	punct	xestionar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres	w7
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7" senti_3="Positivo" senti_6="positivo" senti_n="4.777">
 <note type="-" content="Aplausos."/>
 E	E	e	CCONJ	-	w1	mark	partir	VERB	VerbForm=Inf	w3
 a	a	a	ADP	AdpType=Prep	w2	mark	partir	VERB	VerbForm=Inf	w3
@@ -677,7 +677,7 @@ apoiarémolo	apoiaremos|o	apoiar|o	VERB|PRON	Mood=Ind Number=Plur Person=1 Tense
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w33	punct	haber	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w12
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8" senti_3="Negativo" senti_6="negativo" senti_n="0.141">
 E	E	e	CCONJ	-	w1	mark	haber	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w4
 se	se	se	PRON	Gender=Com Person=3 PronType=Prs	w2	nsubj	haber	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w4
 non	non	non	ADV	Polarity=Neg	w3	advmod	haber	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w4
@@ -732,7 +732,7 @@ públicas	públicas	público	ADJ	-	w38	amod	finanzas	NOUN	Gender=Fem Number=Plur
 </p>
 <note type="vocal:murmuring" content="Murmurios."/>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559" lang="galego">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.748">
 A	A	a	ADP	AdpType=Prep	w1	mark	partir	VERB	VerbForm=Inf	w2
 partir	partir	partir	VERB	VerbForm=Inf	w2	advcl	falar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres	w9
 de	de	de	ADP	AdpType=Prep	w3	case	aí	ADV	-	w4
@@ -751,7 +751,7 @@ Barreras	Barreras	barrer	VERB	Mood=Ind Number=Sing Person=2 Tense=Pqp	w11	advcl	
 </name>
 .	.	.	PUNCT	PunctType=Peri	w12	punct	falar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres	w9
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2" senti_3="Negativo" senti_6="negativo mixto" senti_n="0.797">
 <name type="LOC">
 Oia	Oia	oír	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres	w1	root	-	-	-	-
 <g/>
@@ -776,7 +776,7 @@ parcial	parcial	parcial	ADJ	-	w18	amod	solución	NOUN	Gender=Fem Number=Sing	w17
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w19	punct	oír	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres	w1
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3" senti_3="Positivo" senti_6="positivo" senti_n="4.662">
 E	E	e	CCONJ	-	w1	mark	ir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres	w5
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	w2	punct	ir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres	w5
@@ -819,7 +819,7 @@ auxiliar	auxiliar	auxiliar	VERB	VerbForm=Inf	w36	xcomp	ter	VERB	Mood=Ind Number=
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w37	punct	ir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres	w5
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4" senti_3="Positivo" senti_6="positivo mixto" senti_n="3.703">
 Estaremos	Estaremos	estar	AUX	Mood=Ind Number=Plur Person=1 Tense=Fut	w1	cop	barrer	VERB	Mood=Ind Number=Sing Person=2 Tense=Pqp	w3
 con	con	con	ADP	AdpType=Prep	w2	mark	barrer	VERB	Mood=Ind Number=Sing Person=2 Tense=Pqp	w3
 <name type="ORG">
@@ -841,7 +841,7 @@ sector	sector	sector	NOUN	Gender=Masc Number=Sing	w13	conj	vulcano	PROPN	-	w8
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w14	punct	barrer	VERB	Mood=Ind Number=Sing Person=2 Tense=Pqp	w3
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5" senti_3="Positivo" senti_6="positivo" senti_n="4.626">
 Eu	Eu	eu	PRON	Case=Nom Gender=Com Number=Sing Person=1 PronType=Prs	w1	nsubj	recordar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres	t1
 recórdolle	recordo|lle	recordar|lle	VERB|PRON	Mood=Ind Number=Sing Person=1 Tense=Pres|Case=Dat Gender=Com Number=Sing Person=3 PronType=Prs	t1|t2	root|iobj	-|recordar	-|VERB	-|Mood=Ind Number=Sing Person=1 Tense=Pres	-|t1
 aquí	aquí	aquí	ADV	-	w3	advmod	recordar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres	t1
@@ -893,7 +893,7 @@ formación	formación	formación	NOUN	Gender=Fem Number=Sing	w45	conj	vincular	V
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w46	punct	recordar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres	t1
 </s>
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s6">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s6" senti_3="Negativo" senti_6="negativo" senti_n="0.183">
 <name type="PER">
 Señor	Señor	señor	NOUN	Gender=Masc Number=Sing	w1	nsubj	bará	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut	w2
 </name>
@@ -915,7 +915,7 @@ ningunha	ningunha	ningún	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	w
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560" lang="galego">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1" senti_3="Negativo" senti_6="negativo" senti_n="0.095">
 Eu	Eu	eu	PRON	Case=Nom Gender=Com Number=Sing Person=1 PronType=Prs	w1	nsubj	esperar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres	w4
 o	o	o	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w2	det	que	PRON	Gender=Neut PronType=Rel	w3
 que	que	que	PRON	Gender=Neut PronType=Rel	w3	nsubj	esperar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres	w4
@@ -959,7 +959,7 @@ ninguén	ninguén	ninguén	PRON	Gender=Neut PronType=Ind	w33	obj	servir	VERB	Ver
 </p>
 <note type="kinesic:applause" content="Aplausos."/>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1561" lang="galego">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1561.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1561.s1" senti_3="Positivo" senti_6="positivo mixto" senti_n="3.818">
 Nada	Nada	nada	PRON	Gender=Neut PronType=Ind	w1	root	-	-	-	-
 máis	máis	máis	ADV	-	w2	advmod	nada	PRON	Gender=Neut PronType=Ind	w1
 e	e	e	CCONJ	-	w3	cc	graza	NOUN	Gender=Fem Number=Plur	w5
@@ -972,9 +972,9 @@ grazas	grazas	graza	NOUN	Gender=Fem Number=Plur	w5	conj	nada	PRON	Gender=Neut Pr
 </speech>
 <note type="kinesic:applause" content="Aplausos."/>
 <note type="speaker" content="O señor PRESIDENTE (Calvo Pouso):"/>
-<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u462" text_id="ParlaMint-ES-GA_2019-10-08-DSPG130" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="X Lexislatura" session="-" meeting="Número 130" sitting="08.10.2019" agenda="-" date="2019-10-08" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="CalvoDiego" speaker_name="Calvo Pouso, Diego" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1975">
+<speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u462" text_id="ParlaMint-ES-GA_2019-10-08-DSPG130" subcorpus="Referencia" lang="galego" body="Unicameralismo" term="X Lexislatura" session="-" meeting="Número 130" sitting="08.10.2019" agenda="-" date="2019-10-08" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" topic="Outros" speaker_id="CalvoDiego" speaker_name="Calvo Pouso, Diego" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1975">
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562" lang="galego">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="3.458">
 Moitas	Moitas	moito	DET	Definite=Ind Gender=Fem Number=Plur PronType=Art	w1	det	graza	NOUN	Gender=Fem Number=Plur	w2
 grazas	grazas	graza	NOUN	Gender=Fem Number=Plur	w2	root	-	-	-	-
 <g/>
@@ -988,7 +988,7 @@ Conde	Conde	conde	NOUN	Gender=Masc Number=Sing	w5	nmod	señor	NOUN	Gender=Masc N
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563" lang="galego">
-<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563.s1">
+<s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563.s1" senti_3="Neutro" senti_6="neutro negativo" senti_n="2.227">
 Suspendemos	Suspendemos	suspender	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres	w1	root	-	-	-	-
 a	a	o	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w2	det	sesión	NOUN	Gender=Fem Number=Sing	w3
 sesión	sesión	sesión	NOUN	Gender=Fem Number=Sing	w3	obj	suspender	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres	w1

@@ -1,8 +1,8 @@
 <note type="head" content="Suite de la discussiond’un projet de loi"/>
 <note type="debate" content="SUB_TITRE_TEXT_DISCUSSION"/>
-<speech id="ParlaMint-FR_2020-10-01-O1003.u1" text_id="ParlaMint-FR-en_2020-10-01-O1003" subcorpus="COVID" lang="English" body="Lower house" term="15e législature" session="session ordinaire 2020-2021 (CRSANR5L15S2021O1N003)" meeting="-" sitting="3. séance" agenda="-" date="2020-10-01" title="Proceedings of the debates in plenary sitting of the Assemblée Nationale, sitting: 3, 01/10/2020" speaker_role="Chairperson" speaker_id="PA1592" speaker_name="Habib, David" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SOC" speaker_party_name="Socialistes et apparentés" party_status="-" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1961">
+<speech id="ParlaMint-FR_2020-10-01-O1003.u1" text_id="ParlaMint-FR-en_2020-10-01-O1003" subcorpus="COVID" lang="English" body="Lower house" term="15e législature" session="session ordinaire 2020-2021 (CRSANR5L15S2021O1N003)" meeting="-" sitting="3. séance" agenda="-" date="2020-10-01" title="Proceedings of the debates in plenary sitting of the Assemblée Nationale, sitting: 3, 01/10/2020" speaker_role="Chairperson" topic="Health" speaker_id="PA1592" speaker_name="Habib, David" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SOC" speaker_party_name="Socialistes et apparentés" party_status="-" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1961">
 <p id="ParlaMint-FR_2020-10-01-O1003.u1.1" lang="English">
-<s id="ParlaMint-FR_2020-10-01-O1003.s1">
+<s id="ParlaMint-FR_2020-10-01-O1003.s1" senti_3="Neutral" senti_6="neutral negative" senti_n="2.420">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="T1.1.3" usas_cats="T1.1.3" usas_glosses="T1.1.3: Time: Future">
 next	next	next	ADJ	Degree=Pos	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
@@ -49,9 +49,9 @@ No	No	no	ADV	-	Z6	Z6	Z6: Negative	t25
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="Discussion des articles"/>
 <note type="debate" content="DISC_ARTICLES_1_1"/>
-<speech id="ParlaMint-FR_2020-10-01-O1003.u2" text_id="ParlaMint-FR-en_2020-10-01-O1003" subcorpus="COVID" lang="English" body="Lower house" term="15e législature" session="session ordinaire 2020-2021 (CRSANR5L15S2021O1N003)" meeting="-" sitting="3. séance" agenda="-" date="2020-10-01" title="Proceedings of the debates in plenary sitting of the Assemblée Nationale, sitting: 3, 01/10/2020" speaker_role="Chairperson" speaker_id="PA1592" speaker_name="Habib, David" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SOC" speaker_party_name="Socialistes et apparentés" party_status="-" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1961">
+<speech id="ParlaMint-FR_2020-10-01-O1003.u2" text_id="ParlaMint-FR-en_2020-10-01-O1003" subcorpus="COVID" lang="English" body="Lower house" term="15e législature" session="session ordinaire 2020-2021 (CRSANR5L15S2021O1N003)" meeting="-" sitting="3. séance" agenda="-" date="2020-10-01" title="Proceedings of the debates in plenary sitting of the Assemblée Nationale, sitting: 3, 01/10/2020" speaker_role="Chairperson" topic="Other" speaker_id="PA1592" speaker_name="Habib, David" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SOC" speaker_party_name="Socialistes et apparentés" party_status="-" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1961">
 <p id="ParlaMint-FR_2020-10-01-O1003.u2.1" lang="English">
-<s id="ParlaMint-FR_2020-10-01-O1003.s2">
+<s id="ParlaMint-FR_2020-10-01-O1003.s2" senti_3="Neutral" senti_6="neutral negative" senti_n="2.276">
 This	This	this	DET	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 afternoon	afternoon	afternoon	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
 <g/>
@@ -89,9 +89,9 @@ article	article	article	NOUN	Number=Sing	Q4.2,O2,Q3,G2.1/P1@	Q4.2	Q4.2: The Medi
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-FR_2020-10-01-O1003.u431" text_id="ParlaMint-FR-en_2020-10-01-O1003" subcorpus="COVID" lang="English" body="Lower house" term="15e législature" session="session ordinaire 2020-2021 (CRSANR5L15S2021O1N003)" meeting="-" sitting="3. séance" agenda="-" date="2020-10-01" title="Proceedings of the debates in plenary sitting of the Assemblée Nationale, sitting: 3, 01/10/2020" speaker_role="Chairperson" speaker_id="PA1592" speaker_name="Habib, David" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SOC" speaker_party_name="Socialistes et apparentés" party_status="-" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1961">
+<speech id="ParlaMint-FR_2020-10-01-O1003.u431" text_id="ParlaMint-FR-en_2020-10-01-O1003" subcorpus="COVID" lang="English" body="Lower house" term="15e législature" session="session ordinaire 2020-2021 (CRSANR5L15S2021O1N003)" meeting="-" sitting="3. séance" agenda="-" date="2020-10-01" title="Proceedings of the debates in plenary sitting of the Assemblée Nationale, sitting: 3, 01/10/2020" speaker_role="Chairperson" topic="Other" speaker_id="PA1592" speaker_name="Habib, David" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SOC" speaker_party_name="Socialistes et apparentés" party_status="-" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1961">
 <p id="ParlaMint-FR_2020-10-01-O1003.u431.1" lang="English">
-<s id="ParlaMint-FR_2020-10-01-O1003.s1208">
+<s id="ParlaMint-FR_2020-10-01-O1003.s1208" senti_3="Neutral" senti_6="neutral positive" senti_n="2.809">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
 result	result	result	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t2
@@ -107,7 +107,7 @@ follows	follows	follow	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fi
 </s>
 </p>
 <p id="ParlaMint-FR_2020-10-01-O1003.u431.2" lang="English">
-<s id="ParlaMint-FR_2020-10-01-O1003.s1209">
+<s id="ParlaMint-FR_2020-10-01-O1003.s1209" senti_3="Neutral" senti_6="neutral positive" senti_n="2.935">
 Number	Number	number	NOUN	Number=Sing	N5,N1,Q1.3,K2,Q4.2	N5	N5: Quantities	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 voters	voters	voter	NOUN	Number=Plur	G1.2/S2mf	G1.2 S2	G1.2: Politics|S2: People	t3
@@ -115,7 +115,7 @@ voters	voters	voter	NOUN	Number=Plur	G1.2/S2mf	G1.2 S2	G1.2: Politics|S2: People
 </s>
 </p>
 <p id="ParlaMint-FR_2020-10-01-O1003.u431.3" lang="English">
-<s id="ParlaMint-FR_2020-10-01-O1003.s1210">
+<s id="ParlaMint-FR_2020-10-01-O1003.s1210" senti_3="Neutral" senti_6="neutral negative" senti_n="2.437">
 Number	Number	number	NOUN	Number=Sing	N5,N1,Q1.3,K2,Q4.2	N5	N5: Quantities	t1
 of	of	of	ADP	-	Z5	Z5	Z5: Grammatical bin	t2
 votes	votes	vote	NOUN	Number=Plur	G1.2	G1.2	G1.2: Politics	t3
@@ -124,21 +124,21 @@ cast	cast	cast	VERB	Tense=Past VerbForm=Part	K4,A4.1,M2,G1.2,S9,A9-,A1.1.1	K4	K4
 </s>
 </p>
 <p id="ParlaMint-FR_2020-10-01-O1003.u431.4" lang="English">
-<s id="ParlaMint-FR_2020-10-01-O1003.s1211">
+<s id="ParlaMint-FR_2020-10-01-O1003.s1211" senti_3="Neutral" senti_6="neutral positive" senti_n="2.660">
 Absolute	Absolute	absolute	ADJ	Degree=Pos	A5.1+++,A1.7-	A5.1p	A5.1+: Evaluation: Good	t1
 majority	majority	majority	NOUN	Number=Sing	N5+++c	N5p	N5+: Quantities: many/much	t2
 22	22	22	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t3
 </s>
 </p>
 <p id="ParlaMint-FR_2020-10-01-O1003.u431.5" lang="English">
-<s id="ParlaMint-FR_2020-10-01-O1003.s1212">
+<s id="ParlaMint-FR_2020-10-01-O1003.s1212" senti_3="Positive" senti_6="mixed positive" senti_n="3.961">
 For	For	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 adoption	adoption	adoption	NOUN	Number=Sing	A9+,S4	A9p	A9+: Getting and possession	t2
 26	26	26	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t3
 </s>
 </p>
 <p id="ParlaMint-FR_2020-10-01-O1003.u431.6" lang="English">
-<s id="ParlaMint-FR_2020-10-01-O1003.s1213">
+<s id="ParlaMint-FR_2020-10-01-O1003.s1213" senti_3="Neutral" senti_6="neutral negative" senti_n="2.111">
 Against	Against	against	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 17	17	17	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t2
 </s>
@@ -146,9 +146,9 @@ Against	Against	against	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 </speech>
 <note type="head" content="Ordre du jour de la prochaine séance"/>
 <note type="debate" content="FIN_SEAN_1_2"/>
-<speech id="ParlaMint-FR_2020-10-01-O1003.u432" text_id="ParlaMint-FR-en_2020-10-01-O1003" subcorpus="COVID" lang="English" body="Lower house" term="15e législature" session="session ordinaire 2020-2021 (CRSANR5L15S2021O1N003)" meeting="-" sitting="3. séance" agenda="-" date="2020-10-01" title="Proceedings of the debates in plenary sitting of the Assemblée Nationale, sitting: 3, 01/10/2020" speaker_role="Chairperson" speaker_id="PA1592" speaker_name="Habib, David" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SOC" speaker_party_name="Socialistes et apparentés" party_status="-" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1961">
+<speech id="ParlaMint-FR_2020-10-01-O1003.u432" text_id="ParlaMint-FR-en_2020-10-01-O1003" subcorpus="COVID" lang="English" body="Lower house" term="15e législature" session="session ordinaire 2020-2021 (CRSANR5L15S2021O1N003)" meeting="-" sitting="3. séance" agenda="-" date="2020-10-01" title="Proceedings of the debates in plenary sitting of the Assemblée Nationale, sitting: 3, 01/10/2020" speaker_role="Chairperson" topic="Government Operations" speaker_id="PA1592" speaker_name="Habib, David" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SOC" speaker_party_name="Socialistes et apparentés" party_status="-" party_orientation="Centre-left to left" speaker_gender="M" speaker_birth="1961">
 <p id="ParlaMint-FR_2020-10-01-O1003.u432.1" lang="English">
-<s id="ParlaMint-FR_2020-10-01-O1003.s1214">
+<s id="ParlaMint-FR_2020-10-01-O1003.s1214" senti_3="Neutral" senti_6="neutral negative" senti_n="2.258">
 <phr usas_tags="T1.1.3" usas_cats="T1.1.3" usas_glosses="T1.1.3: Time: Future">
 Next	Next	next	ADJ	Degree=Pos	T1.1.3	T1.1.3	T1.1.3: Time: Future	t1
 meeting	meeting	meeting	NOUN	Number=Sing	T1.1.3	T1.1.3	T1.1.3: Time: Future	t2
@@ -161,7 +161,7 @@ a.m.	a.m.	a.m.	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t5
 </s>
 </p>
 <p id="ParlaMint-FR_2020-10-01-O1003.u432.2" lang="English">
-<s id="ParlaMint-FR_2020-10-01-O1003.s1215">
+<s id="ParlaMint-FR_2020-10-01-O1003.s1215" senti_3="Neutral" senti_6="neutral positive" senti_n="2.585">
 Further	Further	further	ADJ	Degree=Cmp	N5++,N3.3++,T2++	N5p	N5+: Quantities: many/much	t1
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
 discussion	discussion	discussion	NOUN	Number=Sing	Df/A5.1+++mfnc	A5.1p	A5.1+: Evaluation: Good	t2
@@ -181,7 +181,7 @@ action	action	action	NOUN	Number=Sing	A1.1.1,G3	A1.1.1	A1.1.1: General actions /
 </s>
 </p>
 <p id="ParlaMint-FR_2020-10-01-O1003.u432.3" lang="English">
-<s id="ParlaMint-FR_2020-10-01-O1003.s1216">
+<s id="ParlaMint-FR_2020-10-01-O1003.s1216" senti_3="Neutral" senti_6="neutral positive" senti_n="2.851">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 meeting	meeting	meeting	NOUN	Number=Sing	S1.1.3+,S3.1,K5.1,S9,A1.1.1,X9.2+,A6.1+	S1.1.3p	S1.1.3+: Participating	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3

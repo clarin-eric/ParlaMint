@@ -1,7 +1,7 @@
 <note type="speaker" content="O señor PRESIDENTE:"/>
-<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u1" text_id="ParlaMint-ES-GA_2022-05-24-DSPG082" subcorpus="COVID,Guerra" lang="galego" body="Unicameralismo" term="XI Lexislatura" session="-" meeting="Número 082" sitting="24.05.2022" agenda="-" date="2022-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u1" text_id="ParlaMint-ES-GA_2022-05-24-DSPG082" subcorpus="COVID,Guerra" lang="galego" body="Unicameralismo" term="XI Lexislatura" session="-" meeting="Número 082" sitting="24.05.2022" agenda="-" date="2022-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" topic="Outros" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg1" lang="galego">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg1.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg1.s1" senti_3="Positivo" senti_6="positivo" senti_n="4.592">
 Boa	Boa	bo	ADJ	-	w1	amod	tarde	NOUN	Gender=Fem Number=Sing	w2
 tarde	tarde	tarde	NOUN	Gender=Fem Number=Sing	w2	root	-	-	-	-
 <g/>
@@ -9,14 +9,14 @@ tarde	tarde	tarde	NOUN	Gender=Fem Number=Sing	w2	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg2" lang="galego">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg2.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg2.s1" senti_3="Positivo" senti_6="positivo mixto" senti_n="3.832">
 Ábrese	Abre|se	abrir|se	VERB|PRON	Mood=Ind Number=Sing Person=3 Tense=Pres|Gender=Com Person=3 PronType=Prs	t1|t2	root|expl	-|abrir	-|VERB	-|Mood=Ind Number=Sing Person=3 Tense=Pres	-|t1
 a	a	o	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w2	det	sesión	NOUN	Gender=Fem Number=Sing	w3
 sesión	sesión	sesión	NOUN	Gender=Fem Number=Sing	w3	obj	abrir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	t1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w4	punct	abrir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	t1
 </s>
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg2.s2">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg2.s2" senti_3="Neutro" senti_6="neutro negativo" senti_n="2.398">
 A	A	o	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w1	det	orde	NOUN	Gender=Fem Number=Sing	w2
 orde	orde	orde	NOUN	Gender=Fem Number=Sing	w2	nsubj:pass	publicar	VERB	Gender=Fem Number=Sing VerbForm=Part	w6
 do	de|o	de|o	ADP|DET	AdpType=Prep|Definite=Def Gender=Masc Number=Sing PronType=Art	t1|t2	case|det	día	NOUN	Gender=Masc Number=Sing	w4
@@ -52,7 +52,7 @@ lectura	lectura	lectura	NOUN	Gender=Fem Number=Sing	w27	obl	proceder	VERB	Mood=I
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg3" lang="galego">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg3.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg3.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.942">
 Non	Non	non	ADV	Polarity=Neg	w1	advmod	haber	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w2
 hai	hai	haber	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w2	root	-	-	-	-
 xustificación	xustificación	xustificación	NOUN	Gender=Fem Number=Sing	w3	obj	haber	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w2
@@ -69,7 +69,7 @@ día	día	día	NOUN	Gender=Masc Number=Sing	w11	nmod	orde	NOUN	Gender=Fem Number
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg4" lang="galego">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg4.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg4.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.561">
 O	O	o	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w1	det	punto	NOUN	Gender=Masc Number=Sing	w2
 punto	punto	punto	NOUN	Gender=Masc Number=Sing	w2	nsubj	designación	NOUN	Gender=Fem Number=Sing	w8
 único	único	único	ADJ	-	w3	amod	punto	NOUN	Gender=Masc Number=Sing	w2
@@ -115,7 +115,7 @@ López	López	lópez	PROPN	-	w32	flat:name	carlos	PROPN	-	w30
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg5" lang="galego">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg5.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg5.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.747">
 Designación	Designación	designación	NOUN	Gender=Fem Number=Sing	w1	root	-	-	-	-
 de	de	de	ADP	AdpType=Prep	w2	case	dous	NOUN	Gender=Masc Number=Plur	w3
 dous	dous	dous	NOUN	Gender=Masc Number=Plur	w3	nmod	designación	NOUN	Gender=Fem Number=Sing	w1
@@ -151,9 +151,9 @@ López	López	lópez	PROPN	-	w25	nmod	representante	NOUN	Gender=Masc Number=Plur
 </p>
 </speech>
 <note type="speaker" content="O señor PRESIDENTE:"/>
-<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u2" text_id="ParlaMint-ES-GA_2022-05-24-DSPG082" subcorpus="COVID,Guerra" lang="galego" body="Unicameralismo" term="XI Lexislatura" session="-" meeting="Número 082" sitting="24.05.2022" agenda="-" date="2022-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u2" text_id="ParlaMint-ES-GA_2022-05-24-DSPG082" subcorpus="COVID,Guerra" lang="galego" body="Unicameralismo" term="XI Lexislatura" session="-" meeting="Número 082" sitting="24.05.2022" agenda="-" date="2022-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" topic="Operacións gobernamentais" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg6" lang="galego">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg6.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg6.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.723">
 Polo	Por|o	por|o	ADP|DET	AdpType=Prep|Definite=Def Gender=Masc Number=Sing PronType=Art	t1|t2	case|det	acordo	NOUN	Gender=Masc Number=Sing	w2
 acordo	acordo	acordo	NOUN	Gender=Masc Number=Sing	w2	obl	iniciar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past	t1
 da	de|a	de|o	ADP|DET	AdpType=Prep|Definite=Def Gender=Fem Number=Sing PronType=Art	t1|t2	case|det	mesa	NOUN	Gender=Fem Number=Sing	w4
@@ -244,7 +244,7 @@ Popular	Popular	popular	ADJ	-	w70	amod	grupo	NOUN	Gender=Masc Number=Sing	w68
 </name>
 .	.	.	PUNCT	PunctType=Peri	w71	punct	juan	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres	w41
 </s>
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg6.s2">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg6.s2" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.951">
 Faise	Fai|se	facer|se	VERB|PRON	Mood=Ind Number=Sing Person=3 Tense=Pres|Gender=Com Person=3 PronType=Prs	t1|t2	root|expl	-|facer	-|VERB	-|Mood=Ind Number=Sing Person=3 Tense=Pres	-|t1
 todo	todo	todo	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	w2	det	isto	PRON	Gender=Neut PronType=Dem	w3
 isto	isto	isto	PRON	Gender=Neut PronType=Dem	w3	nsubj	facer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	t1
@@ -266,7 +266,7 @@ Cámara	Cámara	cámara	NOUN	Gender=Com Number=Sing	w14	nmod	regulamento	NOUN	Ge
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg7" lang="galego">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg7.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg7.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="3.039">
 Por	Por	por	ADP	AdpType=Prep	w1	case	resolución	NOUN	Gender=Fem Number=Sing	w2
 resolución	resolución	resolución	NOUN	Gender=Fem Number=Sing	w2	obl	aceptar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres	t1
 da	de|a	de|o	ADP|DET	AdpType=Prep|Definite=Def Gender=Fem Number=Sing PronType=Art	t1|t2	case|det	presidencia	NOUN	Gender=Fem Number=Sing	w4
@@ -312,7 +312,7 @@ Filgueira	Filgueira	filgueira	PROPN	-	w34	flat	miguel	PROPN	-	w31
 </name>
 .	.	.	PUNCT	PunctType=Peri	w35	punct	aceptar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres	t1
 </s>
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg7.s2">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg7.s2" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.741">
 A	A	o	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w1	det	elección	NOUN	Gender=Fem Number=Sing	w2
 elección	elección	elección	NOUN	Gender=Fem Number=Sing	w2	nsubj	efectuar	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut	t1
 efectuarase	efectuará|se	efectuar|se	VERB|PRON	Mood=Ind Number=Sing Person=3 Tense=Fut|Gender=Com Person=3 PronType=Prs	t1|t2	root|expl	-|efectuar	-|VERB	-|Mood=Ind Number=Sing Person=3 Tense=Fut	-|t1
@@ -335,7 +335,7 @@ Galicia	Galicia	galicia	PROPN	-	w17	nmod	parlamento	NOUN	Gender=Masc Number=Sing
 </name>
 .	.	.	PUNCT	PunctType=Peri	w18	punct	efectuar	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut	t1
 </s>
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg7.s3">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg7.s3" senti_3="Neutro" senti_6="neutro positivo" senti_n="3.021">
 Para	Para	para	ADP	AdpType=Prep	w1	case	efecto	NOUN	Gender=Masc Number=Plur	w3
 estes	estes	este	DET	Definite=Def Gender=Masc Number=Plur PronType=Dem	w2	det	efecto	NOUN	Gender=Masc Number=Plur	w3
 efectos	efectos	efecto	NOUN	Gender=Masc Number=Plur	w3	obl	elaborar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past	t1
@@ -378,7 +378,7 @@ apoio	apoio	apoio	NOUN	Gender=Masc Number=Sing	w36	obj	prestar	VERB	Mood=Ind Num
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w37	punct	marcar	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut	w20
 </s>
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg7.s4">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg7.s4" senti_3="Negativo" senti_6="negativo mixto" senti_n="1.137">
 De	De	de	ADP	AdpType=Prep	w1	mark	marcar	VERB	VerbForm=Inf	w3
 non	non	non	ADV	Polarity=Neg	w2	advmod	marcar	VERB	VerbForm=Inf	w3
 marcar	marcar	marcar	VERB	VerbForm=Inf	w3	advcl	declarar	VERB	Mood=Cnd,Ind Number=Sing Person=1	t1
@@ -416,7 +416,7 @@ nulo	nulo	nulo	ADJ	-	w27	amod	voto	NOUN	Gender=Masc Number=Sing	w26
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg8" lang="galego">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg8.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg8.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.595">
 Cando	Cando	cando	PRON	Gender=Neut PronType=Rel	w1	root	-	-	-	-
 xa	xa	xa	ADV	-	w2	advmod	cando	PRON	Gender=Neut PronType=Rel	w1
 todos	todos	todo	DET	Definite=Ind Gender=Masc Number=Plur PronType=Art	w3	det	deputado	NOUN	Gender=Masc Number=Plur	w5
@@ -459,7 +459,7 @@ Porro	Porro	porro	NOUN	Gender=Masc Number=Sing	w32	nmod	don	NOUN	Gender=Fem Numb
 </name>
 .	.	.	PUNCT	PunctType=Peri	w33	punct	proceder	VERB	Mood=Ind Number=Plur Person=1 Tense=Fut	w14
 </s>
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg8.s2">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg8.s2" senti_3="Neutro" senti_6="neutro negativo" senti_n="2.398">
 E	E	e	CCONJ	-	w1	mark	pregar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres	t1
 para	para	para	ADP	AdpType=Prep	w2	case	isto	PRON	Gender=Neut PronType=Dem	w3
 isto	isto	isto	PRON	Gender=Neut PronType=Dem	w3	obl	pregar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres	t1
@@ -500,7 +500,7 @@ papeletas	papeletas	papeleta	NOUN	Gender=Fem Number=Plur	w29	obj	recoller	VERB	V
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg9" lang="galego">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg9.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg9.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="2.738">
 Cando	Cando	cando	PRON	Gender=Neut PronType=Rel	w1	nsubj	querer	VERB	Mood=Sub Number=Sing Person=1 Tense=Pres	w2
 queira	queira	querer	VERB	Mood=Sub Number=Sing Person=1 Tense=Pres	w2	root	-	-	-	-
 <g/>
@@ -523,9 +523,9 @@ deputadas	deputadas	deputado	NOUN	Gender=Fem Number=Plur	w14	conj	deputado	NOUN	
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u4" text_id="ParlaMint-ES-GA_2022-05-24-DSPG082" subcorpus="COVID,Guerra" lang="galego" body="Unicameralismo" term="XI Lexislatura" session="-" meeting="Número 082" sitting="24.05.2022" agenda="-" date="2022-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u4" text_id="ParlaMint-ES-GA_2022-05-24-DSPG082" subcorpus="COVID,Guerra" lang="galego" body="Unicameralismo" term="XI Lexislatura" session="-" meeting="Número 082" sitting="24.05.2022" agenda="-" date="2022-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" topic="Outros" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg13" lang="galego">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg13.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg13.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="3.118">
 Efectuado	Efectuado	efectuar	VERB	Gender=Masc Number=Sing VerbForm=Part	w1	acl	voto	NOUN	Gender=Masc Number=Plur	w11
 o	o	o	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w2	det	escrutinio	NOUN	Gender=Masc Number=Sing	w3
 escrutinio	escrutinio	escrutinio	NOUN	Gender=Masc Number=Sing	w3	obj	efectuar	VERB	Gender=Masc Number=Sing VerbForm=Part	w1
@@ -580,7 +580,7 @@ branco	branco	branco	ADJ	-	w36	amod	filgueira	PROPN	-	w30
 </s>
 </p>
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg14" lang="galego">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg14.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg14.s1" senti_3="Positivo" senti_6="positivo" senti_n="4.787">
 O	O	o	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w1	det	resultado	NOUN	Gender=Masc Number=Sing	w2
 resultado	resultado	resultado	NOUN	Gender=Masc Number=Sing	w2	nsubj	favorable	ADJ	-	w6
 da	de|a	de|o	ADP|DET	AdpType=Prep|Definite=Def Gender=Fem Number=Sing PronType=Art	t1|t2	case|det	votación	NOUN	Gender=Fem Number=Sing	w4
@@ -590,7 +590,7 @@ favorable	favorable	favorable	ADJ	-	w6	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	PunctType=Peri	w7	punct	favorable	ADJ	-	w6
 </s>
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg14.s2">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg14.s2" senti_3="Neutro" senti_6="neutro positivo" senti_n="3.265">
 Polo	Por|o	por|o	ADP|DET	AdpType=Prep|Definite=Def Gender=Masc Number=Sing PronType=Art	t1|t2	case|det	tanto	ADV	-	w2
 tanto	tanto	tanto	ADV	-	w2	advmod	acadar	VERB	Gender=Masc Number=Sing VerbForm=Part	w4
 <g/>
@@ -639,9 +639,9 @@ Filgueira	Filgueira	filgueira	PROPN	-	w29	flat	miguel	PROPN	-	w26
 </speech>
 <note type="kinesic:applause" content="Aplausos."/>
 <note type="speaker" content="O señor PRESIDENTE:"/>
-<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u5" text_id="ParlaMint-ES-GA_2022-05-24-DSPG082" subcorpus="COVID,Guerra" lang="galego" body="Unicameralismo" term="XI Lexislatura" session="-" meeting="Número 082" sitting="24.05.2022" agenda="-" date="2022-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u5" text_id="ParlaMint-ES-GA_2022-05-24-DSPG082" subcorpus="COVID,Guerra" lang="galego" body="Unicameralismo" term="XI Lexislatura" session="-" meeting="Número 082" sitting="24.05.2022" agenda="-" date="2022-05-24" title="Diario de Sesións do Parlamento de Galicia" speaker_role="Presidente/a" topic="Outros" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" party_orientation="Centrodereita-Dereita" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg15" lang="galego">
-<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg15.s1">
+<s id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg15.s1" senti_3="Neutro" senti_6="neutro positivo" senti_n="3.346">
 Aquí	Aquí	aquí	ADV	-	w1	advmod	rematar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w2
 remata	remata	rematar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w2	root	-	-	-	-
 este	este	este	DET	Definite=Def Gender=Masc Number=Sing PronType=Dem	w3	det	pleno	NOUN	Gender=Masc Number=Sing	w4

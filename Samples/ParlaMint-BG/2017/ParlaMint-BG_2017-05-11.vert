@@ -1,6 +1,6 @@
-<speech id="ParlaMint-BG_2017-05-11.u1" text_id="ParlaMint-BG_2017-05-11" subcorpus="Референтен" lang="български" body="Еднокамерност" term="Четиридесет и четвърто народно събрание" session="1 парламентарна сесия" meeting="11 пленарно заседание" sitting="2017-05-11" agenda="-" date="2017-05-11" title="Стенограмa от 11 пленарнo заседаниe на 1 сесия на 44 Народно събрание на Република България (2017-05-11)" speaker_role="Председател" speaker_id="GlavchevDimitar" speaker_name="Главчев, Димитър Борисов" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Парламентарна група: Партия ГЕРБ" party_status="Coalition" party_orientation="Център дясно" speaker_gender="M" speaker_birth="1963">
+<speech id="ParlaMint-BG_2017-05-11.u1" text_id="ParlaMint-BG_2017-05-11" subcorpus="Референтен" lang="български" body="Еднокамерност" term="Четиридесет и четвърто народно събрание" session="1 парламентарна сесия" meeting="11 пленарно заседание" sitting="2017-05-11" agenda="-" date="2017-05-11" title="Стенограмa от 11 пленарнo заседаниe на 1 сесия на 44 Народно събрание на Република България (2017-05-11)" speaker_role="Председател" topic="Отбрана" speaker_id="GlavchevDimitar" speaker_name="Главчев, Димитър Борисов" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Парламентарна група: Партия ГЕРБ" party_status="Coalition" party_orientation="Център дясно" speaker_gender="M" speaker_birth="1963">
 <p id="ParlaMint-BG_2017-05-11.seg1" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg1.1">
+<s id="ParlaMint-BG_2017-05-11.seg1.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="4.388">
 Добро	Добро	добър	ADJ	Definite=Ind Degree=Pos Gender=Neut Number=Sing	1	amod	утро	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 утро	утро	утро	NOUN	Definite=Ind Gender=Neut Number=Sing	2	root	-	-	-	-
 <g/>
@@ -12,7 +12,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg2" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg2.1">
+<s id="ParlaMint-BG_2017-05-11.seg2.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="4.192">
 Има	Има	има	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 кворум	кворум	кворум	NOUN	Definite=Ind Gender=Masc Number=Sing	2	obj	има	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>
@@ -21,21 +21,21 @@
 </p>
 <note type="kinesic:ringing" content="Звъни."/>
 <p id="ParlaMint-BG_2017-05-11.seg3" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg3.1">
+<s id="ParlaMint-BG_2017-05-11.seg3.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="3.826">
 Откривам	Откривам	откривам-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 пленарното	пленарното	пленарен	ADJ	Definite=Def Degree=Pos Gender=Neut Number=Sing	2	amod	заседание	NOUN	Definite=Ind Gender=Neut Number=Sing	3
 заседание	заседание	заседание	NOUN	Definite=Ind Gender=Neut Number=Sing	3	obj	откривам-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>
 .	.	.	PUNCT	-	4	punct	откривам-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
-<s id="ParlaMint-BG_2017-05-11.seg3.2">
+<s id="ParlaMint-BG_2017-05-11.seg3.2" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="3.153">
 Съобщения	Съобщения	съобщение	NOUN	Definite=Ind Gender=Neut Number=Plur	1	root	-	-	-	-
 <g/>
 :	:	:	PUNCT	-	2	punct	съобщение	NOUN	Definite=Ind Gender=Neut Number=Plur	1
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg4" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg4.1">
+<s id="ParlaMint-BG_2017-05-11.seg4.1" senti_3="Неутрално" senti_6="неутрално негативно" senti_n="2.300">
 На	На	на	ADP	-	1	case	основание	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 основание	основание	основание	NOUN	Definite=Ind Gender=Neut Number=Sing	2	obl	постъпя	VERB	Aspect=Perf Definite=Ind Number=Plur Tense=Past VerbForm=Part Voice=Act	48
 чл.	чл.	чл.	NOUN	Definite=Ind Gender=Masc Number=Sing	3	nmod	основание	NOUN	Definite=Ind Gender=Neut Number=Sing	2
@@ -110,7 +110,7 @@
 <g/>
 .	.	.	PUNCT	-	54	punct	постъпя	VERB	Aspect=Perf Definite=Ind Number=Plur Tense=Past VerbForm=Part Voice=Act	48
 </s>
-<s id="ParlaMint-BG_2017-05-11.seg4.2">
+<s id="ParlaMint-BG_2017-05-11.seg4.2" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.986">
 Предоставени	Предоставени	предоставя	VERB	Aspect=Perf Definite=Ind Number=Plur VerbForm=Part Voice=Pass	1	root	-	-	-	-
 са	са	съм	AUX	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	aux:pass	предоставя	VERB	Aspect=Perf Definite=Ind Number=Plur VerbForm=Part Voice=Pass	1
 на	на	на	ADP	-	3	case	комисия	NOUN	Definite=Def Gender=Fem Number=Sing	4
@@ -124,7 +124,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg5" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg5.1">
+<s id="ParlaMint-BG_2017-05-11.seg5.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="3.332">
 Продължаваме	Продължаваме	продължавам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 със	със	със	ADP	-	2	case	точка	NOUN	Definite=Ind Gender=Fem Number=Sing	4
 следващата	следващата	следвам	ADJ	Aspect=Imp Definite=Def Degree=Pos Gender=Fem Number=Sing Tense=Pres VerbForm=Part Voice=Act	3	amod	точка	NOUN	Definite=Ind Gender=Fem Number=Sing	4
@@ -137,7 +137,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg6" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg6.1">
+<s id="ParlaMint-BG_2017-05-11.seg6.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.769">
 ИЗБОР	ИЗБОР	избор	NOUN	Definite=Ind Gender=Masc Number=Sing	1	root	-	-	-	-
 НА	НА	на	ADP	-	2	case	делегация	NOUN	Definite=Ind Gender=Fem Number=Plur	4
 ПОСТОЯННИ	ПОСТОЯННИ	постоянен	ADJ	Definite=Ind Degree=Pos Number=Plur	3	amod	делегация	NOUN	Definite=Ind Gender=Fem Number=Plur	4
@@ -157,7 +157,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg7" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg7.1">
+<s id="ParlaMint-BG_2017-05-11.seg7.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.987">
 Има	Има	има	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 постъпили	постъпили	постъпя	ADJ	Aspect=Perf Definite=Ind Number=Plur Tense=Past VerbForm=Part Voice=Act	2	amod	проект	NOUN	Definite=Ind Gender=Masc Number=Plur	3
 проекти	проекти	проект	NOUN	Definite=Ind Gender=Masc Number=Plur	3	obj	има	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -181,26 +181,26 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg8" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg8.1">
+<s id="ParlaMint-BG_2017-05-11.seg8.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="3.179">
 Първият	Първият	пръв	ADJ	Definite=Def Degree=Pos Gender=Masc Number=Sing NumType=Ord	1	root	-	-	-	-
 <g/>
 :	:	:	PUNCT	-	2	punct	пръв	ADJ	Definite=Def Degree=Pos Gender=Masc Number=Sing NumType=Ord	1
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg9" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg9.1">
+<s id="ParlaMint-BG_2017-05-11.seg9.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="3.785">
 Проект	Проект	проект	NOUN	Definite=Ind Gender=Masc Number=Sing	1	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	2	punct	проект	NOUN	Definite=Ind Gender=Masc Number=Sing	1
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg10" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg10.1">
+<s id="ParlaMint-BG_2017-05-11.seg10.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="3.293">
 РЕШЕНИЕ	РЕШЕНИЕ	решение	NOUN	Definite=Ind Gender=Neut Number=Sing	1	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg11" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg11.1">
+<s id="ParlaMint-BG_2017-05-11.seg11.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.745">
 за	за	за	ADP	-	1	case	избиране	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 избиране	избиране	избиране	NOUN	Definite=Ind Gender=Neut Number=Sing	2	root	-	-	-	-
 на	на	на	ADP	-	3	case	делегация	NOUN	Definite=Ind Gender=Fem Number=Sing	5
@@ -225,7 +225,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg12" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg12.1">
+<s id="ParlaMint-BG_2017-05-11.seg12.1" senti_3="Неутрално" senti_6="неутрално негативно" senti_n="2.119">
 Народното	Народното	народен	ADJ	Definite=Def Degree=Pos Gender=Neut Number=Sing	1	amod	събрание	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 събрание	събрание	събрание	NOUN	Definite=Ind Gender=Neut Number=Sing	2	nsubj	основание	NOUN	Definite=Ind Gender=Neut Number=Sing	4
 на	на	на	ADP	-	3	case	основание	NOUN	Definite=Ind Gender=Neut Number=Sing	4
@@ -290,14 +290,14 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg13" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg13.1">
+<s id="ParlaMint-BG_2017-05-11.seg13.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.935">
 РЕШИ	РЕШИ	реша	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
 :	:	:	PUNCT	-	2	punct	реша	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	1
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg14" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg14.1">
+<s id="ParlaMint-BG_2017-05-11.seg14.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.890">
 1.	1.	1.	ADJ	Definite=Ind Degree=Pos Gender=Neut Number=Sing NumType=Ord	1	nsubj	избирам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 Избира	Избира	избирам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 постоянна	постоянна	постоянен	ADJ	Definite=Ind Degree=Pos Gender=Fem Number=Sing	3	amod	делегация	NOUN	Definite=Ind Gender=Fem Number=Sing	4
@@ -335,7 +335,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg15" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg15.1">
+<s id="ParlaMint-BG_2017-05-11.seg15.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.716">
 -	-	-	PUNCT	-	1	punct	основен	ADJ	Definite=Ind Degree=Pos Number=Plur	11
 за	за	за	ADP	-	2	case	група	NOUN	Definite=Ind Gender=Fem Number=Sing	4
 парламентарната	парламентарната	парламентарен	ADJ	Definite=Def Degree=Pos Gender=Fem Number=Sing	3	amod	група	NOUN	Definite=Ind Gender=Fem Number=Sing	4
@@ -359,7 +359,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg16" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg16.1">
+<s id="ParlaMint-BG_2017-05-11.seg16.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.720">
 -	-	-	PUNCT	-	1	punct	група	NOUN	Definite=Ind Gender=Fem Number=Sing	4
 за	за	за	ADP	-	2	case	група	NOUN	Definite=Ind Gender=Fem Number=Sing	4
 парламентарната	парламентарната	парламентарен	ADJ	Definite=Def Degree=Pos Gender=Fem Number=Sing	3	amod	група	NOUN	Definite=Ind Gender=Fem Number=Sing	4
@@ -387,7 +387,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg17" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg17.1">
+<s id="ParlaMint-BG_2017-05-11.seg17.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.640">
 -	-	-	PUNCT	-	1	punct	група	NOUN	Definite=Ind Gender=Fem Number=Sing	4
 за	за	за	ADP	-	2	case	група	NOUN	Definite=Ind Gender=Fem Number=Sing	4
 парламентарната	парламентарната	парламентарен	ADJ	Definite=Def Degree=Pos Gender=Fem Number=Sing	3	amod	група	NOUN	Definite=Ind Gender=Fem Number=Sing	4
@@ -410,7 +410,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg18" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg18.1">
+<s id="ParlaMint-BG_2017-05-11.seg18.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.579">
 -	-	-	PUNCT	-	1	punct	група	NOUN	Definite=Ind Gender=Fem Number=Sing	4
 за	за	за	ADP	-	2	case	група	NOUN	Definite=Ind Gender=Fem Number=Sing	4
 парламентарната	парламентарната	парламентарен	ADJ	Definite=Def Degree=Pos Gender=Fem Number=Sing	3	amod	група	NOUN	Definite=Ind Gender=Fem Number=Sing	4
@@ -436,7 +436,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg19" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg19.1">
+<s id="ParlaMint-BG_2017-05-11.seg19.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.692">
 -	-	-	PUNCT	-	1	punct	група	NOUN	Definite=Ind Gender=Fem Number=Sing	4
 за	за	за	ADP	-	2	case	група	NOUN	Definite=Ind Gender=Fem Number=Sing	4
 парламентарната	парламентарната	парламентарен	ADJ	Definite=Def Degree=Pos Gender=Fem Number=Sing	3	amod	група	NOUN	Definite=Ind Gender=Fem Number=Sing	4
@@ -462,7 +462,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg20" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg20.1">
+<s id="ParlaMint-BG_2017-05-11.seg20.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.703">
 2.	2.	2.	NUM	Definite=Ind Number=Plur NumType=Card	1	nsubj	избирам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 Избира	Избира	избирам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 състав	състав	състав	NOUN	Definite=Ind Gender=Masc Number=Sing	3	obj	избирам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -479,7 +479,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg21" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg21.1">
+<s id="ParlaMint-BG_2017-05-11.seg21.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="3.322">
 Имате	Имате	имам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=2 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 думата	думата	дума	NOUN	Definite=Def Gender=Fem Number=Sing	2	obj	имам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=2 Tense=Pres VerbForm=Fin Voice=Act	1
 за	за	за	ADP	-	3	case	предложение	NOUN	Definite=Ind Gender=Neut Number=Plur	4
@@ -489,7 +489,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg22" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg22.1">
+<s id="ParlaMint-BG_2017-05-11.seg22.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="3.681">
 Заповядайте	Заповядайте	заповядам	VERB	Aspect=Perf Mood=Imp Number=Plur Person=2 VerbForm=Fin	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	punct	господин	NOUN	Definite=Ind Gender=Masc Number=Sing	3
@@ -502,9 +502,9 @@
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BG_2017-05-11.u2" text_id="ParlaMint-BG_2017-05-11" subcorpus="Референтен" lang="български" body="Еднокамерност" term="Четиридесет и четвърто народно събрание" session="1 парламентарна сесия" meeting="11 пленарно заседание" sitting="2017-05-11" agenda="-" date="2017-05-11" title="Стенограмa от 11 пленарнo заседаниe на 1 сесия на 44 Народно събрание на Република България (2017-05-11)" speaker_role="Говорещ" speaker_id="IvanovStanislav" speaker_name="Иванов, Станислав Стоянов" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Парламентарна група: Партия ГЕРБ" party_status="Coalition" party_orientation="Център дясно" speaker_gender="M" speaker_birth="1973">
+<speech id="ParlaMint-BG_2017-05-11.u2" text_id="ParlaMint-BG_2017-05-11" subcorpus="Референтен" lang="български" body="Еднокамерност" term="Четиридесет и четвърто народно събрание" session="1 парламентарна сесия" meeting="11 пленарно заседание" sitting="2017-05-11" agenda="-" date="2017-05-11" title="Стенограмa от 11 пленарнo заседаниe на 1 сесия на 44 Народно събрание на Република България (2017-05-11)" speaker_role="Говорещ" topic="Вътрешни работи" speaker_id="IvanovStanislav" speaker_name="Иванов, Станислав Стоянов" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Парламентарна група: Партия ГЕРБ" party_status="Coalition" party_orientation="Център дясно" speaker_gender="M" speaker_birth="1973">
 <p id="ParlaMint-BG_2017-05-11.seg23" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg23.1">
+<s id="ParlaMint-BG_2017-05-11.seg23.1" senti_3="Позитивно" senti_6="позитивно" senti_n="4.689">
 Благодаря	Благодаря	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 Ви	Ви	аз	PRON	Case=Dat Number=Sing Person=2 PronType=Prs	2	iobj	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>
@@ -512,7 +512,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg24" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg24.1">
+<s id="ParlaMint-BG_2017-05-11.seg24.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="4.410">
 Уважаеми	Уважаеми	уважаем	ADJ	Case=Voc Degree=Pos Gender=Masc Number=Sing	1	amod	господин	NOUN	Definite=Ind Gender=Masc Number=Sing	2
 господин	господин	господин	NOUN	Definite=Ind Gender=Masc Number=Sing	2	root	-	-	-	-
 Председател	Председател	председател	NOUN	Definite=Ind Gender=Masc Number=Sing	3	nmod	господин	NOUN	Definite=Ind Gender=Masc Number=Sing	2
@@ -523,7 +523,7 @@
 <g/>
 !	!	!	PUNCT	-	7	punct	господин	NOUN	Definite=Ind Gender=Masc Number=Sing	2
 </s>
-<s id="ParlaMint-BG_2017-05-11.seg24.2">
+<s id="ParlaMint-BG_2017-05-11.seg24.2" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="3.543">
 От	От	от	ADP	-	1	case	партия	NOUN	Definite=Ind Gender=Fem Number=Sing	3
 <name type="ORG">
 Политическа	Политическа	политически	ADJ	Definite=Ind Degree=Pos Gender=Fem Number=Sing	2	amod	партия	NOUN	Definite=Ind Gender=Fem Number=Sing	3
@@ -592,7 +592,7 @@
 <g/>
 .	.	.	PUNCT	-	43	punct	предлагам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	5
 </s>
-<s id="ParlaMint-BG_2017-05-11.seg24.3">
+<s id="ParlaMint-BG_2017-05-11.seg24.3" senti_3="Позитивно" senti_6="позитивно" senti_n="4.689">
 Благодаря	Благодаря	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 Ви	Ви	аз	PRON	Case=Dat Number=Sing Person=2 PronType=Prs	2	iobj	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>
@@ -601,9 +601,9 @@
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-BG_2017-05-11.u109" text_id="ParlaMint-BG_2017-05-11" subcorpus="Референтен" lang="български" body="Еднокамерност" term="Четиридесет и четвърто народно събрание" session="1 парламентарна сесия" meeting="11 пленарно заседание" sitting="2017-05-11" agenda="-" date="2017-05-11" title="Стенограмa от 11 пленарнo заседаниe на 1 сесия на 44 Народно събрание на Република България (2017-05-11)" speaker_role="Председател" speaker_id="GlavchevDimitar" speaker_name="Главчев, Димитър Борисов" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Парламентарна група: Партия ГЕРБ" party_status="Coalition" party_orientation="Център дясно" speaker_gender="M" speaker_birth="1963">
+<speech id="ParlaMint-BG_2017-05-11.u109" text_id="ParlaMint-BG_2017-05-11" subcorpus="Референтен" lang="български" body="Еднокамерност" term="Четиридесет и четвърто народно събрание" session="1 парламентарна сесия" meeting="11 пленарно заседание" sitting="2017-05-11" agenda="-" date="2017-05-11" title="Стенограмa от 11 пленарнo заседаниe на 1 сесия на 44 Народно събрание на Република България (2017-05-11)" speaker_role="Председател" topic="Други" speaker_id="GlavchevDimitar" speaker_name="Главчев, Димитър Борисов" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GERB" speaker_party_name="Парламентарна група: Партия ГЕРБ" party_status="Coalition" party_orientation="Център дясно" speaker_gender="M" speaker_birth="1963">
 <p id="ParlaMint-BG_2017-05-11.seg374" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg374.1">
+<s id="ParlaMint-BG_2017-05-11.seg374.1" senti_3="Позитивно" senti_6="позитивно" senti_n="4.859">
 Благодаря	Благодаря	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 Ви	Ви	аз	PRON	Case=Dat Number=Sing Person=2 PronType=Prs	2	iobj	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>
@@ -618,7 +618,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg375" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg375.1">
+<s id="ParlaMint-BG_2017-05-11.seg375.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="3.745">
 Гласуваме	Гласуваме	гласувам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 предложенията	предложенията	предложение	NOUN	Definite=Def Gender=Neut Number=Plur	2	obj	гласувам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>
@@ -626,7 +626,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg376" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg376.1">
+<s id="ParlaMint-BG_2017-05-11.seg376.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="3.543">
 Моля	Моля	моля-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	advcl	гласувам	VERB	Aspect=Imp Mood=Imp Number=Plur Person=2 VerbForm=Fin	3
 <g/>
 ,	,	,	PUNCT	-	2	punct	моля-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -636,7 +636,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg377" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg377.1">
+<s id="ParlaMint-BG_2017-05-11.seg377.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="3.455">
 Гласували	Гласували	гласувам	VERB	Aspect=Imp Definite=Ind Number=Plur Tense=Past VerbForm=Part Voice=Act	1	root	-	-	-	-
 181	181	181	NUM	Definite=Ind Number=Plur NumType=Card	2	nummod	представител	NOUN	Definite=Ind Gender=Masc Number=Plur	4
 народни	народни	народен	ADJ	Definite=Ind Degree=Pos Number=Plur	3	amod	представител	NOUN	Definite=Ind Gender=Masc Number=Plur	4
@@ -657,7 +657,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg378" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg378.1">
+<s id="ParlaMint-BG_2017-05-11.seg378.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="3.908">
 Предложенията	Предложенията	предложение	NOUN	Definite=Def Gender=Neut Number=Plur	1	nsubj:pass	приема	VERB	Aspect=Perf Definite=Ind Number=Plur VerbForm=Part Voice=Pass	5
 за	за	за	ADP	-	2	case	промяна	NOUN	Definite=Ind Gender=Fem Number=Plur	3
 промени	промени	промяна	NOUN	Definite=Ind Gender=Fem Number=Plur	3	nmod	предложение	NOUN	Definite=Def Gender=Neut Number=Plur	1
@@ -668,7 +668,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg379" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg379.1">
+<s id="ParlaMint-BG_2017-05-11.seg379.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="3.557">
 Вече	Вече	вече	ADV	Degree=Pos	1	advmod	имам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 имаме	имаме	имам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 предложение	предложение	предложение	NOUN	Definite=Ind Gender=Neut Number=Sing	3	obj	имам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -693,7 +693,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg380" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg380.1">
+<s id="ParlaMint-BG_2017-05-11.seg380.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="3.543">
 Моля	Моля	моля-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	advcl	гласувам	VERB	Aspect=Imp Mood=Imp Number=Plur Person=2 VerbForm=Fin	3
 <g/>
 ,	,	,	PUNCT	-	2	punct	моля-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -703,7 +703,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg381" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg381.1">
+<s id="ParlaMint-BG_2017-05-11.seg381.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="3.196">
 Гласували	Гласували	гласувам	VERB	Aspect=Imp Definite=Ind Number=Plur Tense=Past VerbForm=Part Voice=Act	1	root	-	-	-	-
 182	182	182	NUM	Definite=Ind Number=Plur NumType=Card	2	nummod	представител	NOUN	Definite=Ind Gender=Masc Number=Plur	4
 народни	народни	народен	ADJ	Definite=Ind Degree=Pos Number=Plur	3	amod	представител	NOUN	Definite=Ind Gender=Masc Number=Plur	4
@@ -724,7 +724,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg382" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg382.1">
+<s id="ParlaMint-BG_2017-05-11.seg382.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="4.234">
 Решението	Решението	решение	NOUN	Definite=Def Gender=Neut Number=Sing	1	nsubj:pass	приема	VERB	Aspect=Perf Definite=Ind Gender=Neut Number=Sing VerbForm=Part Voice=Pass	3
 е	е	съм	AUX	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	aux:pass	приема	VERB	Aspect=Perf Definite=Ind Gender=Neut Number=Sing VerbForm=Part Voice=Pass	3
 прието	прието	приема	VERB	Aspect=Perf Definite=Ind Gender=Neut Number=Sing VerbForm=Part Voice=Pass	3	root	-	-	-	-
@@ -733,7 +733,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg383" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg383.1">
+<s id="ParlaMint-BG_2017-05-11.seg383.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="3.220">
 Съобщение	Съобщение	съобщение	NOUN	Definite=Ind Gender=Neut Number=Sing	1	root	-	-	-	-
 за	за	за	ADP	-	2	case	контрол	NOUN	Definite=Ind Gender=Masc Number=Sing	4
 парламентарен	парламентарен	парламентарен	ADJ	Definite=Ind Degree=Pos Gender=Masc Number=Sing	3	amod	контрол	NOUN	Definite=Ind Gender=Masc Number=Sing	4
@@ -751,7 +751,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg384" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg384.1">
+<s id="ParlaMint-BG_2017-05-11.seg384.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.795">
 -	-	-	PUNCT	-	1	punct	отговоря	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	9
 министърът	министърът	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2	nsubj	отговоря	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	9
 на	на	на	ADP	-	3	case	работа	NOUN	Definite=Ind Gender=Fem Number=Plur	5
@@ -778,7 +778,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg385" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg385.1">
+<s id="ParlaMint-BG_2017-05-11.seg385.1" senti_3="Неутрално" senti_6="неутрално негативно" senti_n="1.884">
 На	На	на	ADP	-	1	case	основание	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 основание	основание	основание	NOUN	Definite=Ind Gender=Neut Number=Sing	2	obl	поискам	VERB	Aspect=Perf Definite=Ind Number=Plur Tense=Past VerbForm=Part Voice=Act	30
 чл.	чл.	чл.	NOUN	Definite=Ind Gender=Masc Number=Sing	3	nmod	основание	NOUN	Definite=Ind Gender=Neut Number=Sing	2
@@ -818,7 +818,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg386" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg386.1">
+<s id="ParlaMint-BG_2017-05-11.seg386.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.674">
 -	-	-	PUNCT	-	1	punct	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2
 министърът	министърът	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2	root	-	-	-	-
 на	на	на	ADP	-	3	case	енергетика	NOUN	Definite=Def Gender=Fem Number=Sing	4
@@ -842,7 +842,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg387" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg387.1">
+<s id="ParlaMint-BG_2017-05-11.seg387.1" senti_3="Неутрално" senti_6="неутрално негативно" senti_n="2.462">
 -	-	-	PUNCT	-	1	punct	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2
 министърът	министърът	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2	nsubj	въпрос	NOUN	Definite=Ind Gender=Masc Number=Sing	11
 на	на	на	ADP	-	3	case	образование	NOUN	Definite=Def Gender=Neut Number=Sing	4
@@ -871,7 +871,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg388" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg388.1">
+<s id="ParlaMint-BG_2017-05-11.seg388.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.639">
 -	-	-	PUNCT	-	1	punct	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2
 министърът	министърът	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2	root	-	-	-	-
 на	на	на	ADP	-	3	case	земеделие	NOUN	Definite=Def Gender=Neut Number=Sing	4
@@ -925,7 +925,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg389" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg389.1">
+<s id="ParlaMint-BG_2017-05-11.seg389.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.731">
 -	-	-	PUNCT	-	1	punct	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2
 министърът	министърът	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2	nsubj	въпрос	NOUN	Definite=Ind Gender=Masc Number=Sing	9
 на	на	на	ADP	-	3	case	икономика	NOUN	Definite=Def Gender=Fem Number=Sing	4
@@ -949,7 +949,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg390" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg390.1">
+<s id="ParlaMint-BG_2017-05-11.seg390.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.660">
 -	-	-	PUNCT	-	1	punct	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2
 министърът	министърът	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2	nsubj	въпрос	NOUN	Definite=Ind Gender=Masc Number=Sing	9
 на	на	на	ADP	-	3	case	здравеопазване	NOUN	Definite=Def Gender=Neut Number=Sing	4
@@ -973,7 +973,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg391" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg391.1">
+<s id="ParlaMint-BG_2017-05-11.seg391.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.661">
 -	-	-	PUNCT	-	1	punct	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2
 министърът	министърът	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2	root	-	-	-	-
 на	на	на	ADP	-	3	case	развитие	NOUN	Definite=Ind Gender=Neut Number=Sing	5
@@ -1011,7 +1011,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg392" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg392.1">
+<s id="ParlaMint-BG_2017-05-11.seg392.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="2.874">
 -	-	-	PUNCT	-	1	punct	въпрос	NOUN	Definite=Ind Gender=Masc Number=Sing	12
 министърът	министърът	министър	NOUN	Definite=Def Gender=Masc Number=Sing	2	nsubj	въпрос	NOUN	Definite=Ind Gender=Masc Number=Sing	12
 на	на	на	ADP	-	3	case	труд	NOUN	Definite=Def Gender=Masc Number=Sing	4
@@ -1038,7 +1038,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg393" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg393.1">
+<s id="ParlaMint-BG_2017-05-11.seg393.1" senti_3="Неутрално" senti_6="неутрално негативно" senti_n="2.117">
 Поради	Поради	поради	ADP	-	1	case	изчерпване	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 изчерпване	изчерпване	изчерпване	NOUN	Definite=Ind Gender=Neut Number=Sing	2	obl	закривам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	8
 на	на	на	ADP	-	3	case	ред	NOUN	Definite=Ind Gender=Masc Number=Sing	5
@@ -1053,9 +1053,9 @@
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BG_2017-05-11.u110" text_id="ParlaMint-BG_2017-05-11" subcorpus="Референтен" lang="български" body="Еднокамерност" term="Четиридесет и четвърто народно събрание" session="1 парламентарна сесия" meeting="11 пленарно заседание" sitting="2017-05-11" agenda="-" date="2017-05-11" title="Стенограмa от 11 пленарнo заседаниe на 1 сесия на 44 Народно събрание на Република България (2017-05-11)" speaker_role="Говорещ" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
+<speech id="ParlaMint-BG_2017-05-11.u110" text_id="ParlaMint-BG_2017-05-11" subcorpus="Референтен" lang="български" body="Еднокамерност" term="Четиридесет и четвърто народно събрание" session="1 парламентарна сесия" meeting="11 пленарно заседание" sitting="2017-05-11" agenda="-" date="2017-05-11" title="Стенограмa от 11 пленарнo заседаниe на 1 сесия на 44 Народно събрание на Република България (2017-05-11)" speaker_role="Говорещ" topic="Други" speaker_id="-" speaker_name="-" speaker_mp="-" speaker_minister="-" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="U" speaker_birth="-">
 <p id="ParlaMint-BG_2017-05-11.seg394" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg394.1">
+<s id="ParlaMint-BG_2017-05-11.seg394.1" senti_3="Неутрално" senti_6="неутрално позитивно" senti_n="3.348">
 Утре	Утре	утре	ADV	Degree=Pos	1	advmod	продължавам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 продължаваме	продължаваме	продължавам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 с	с	с	ADP	-	3	case	контрол	NOUN	Definite=Ind Gender=Masc Number=Sing	5
@@ -1067,7 +1067,7 @@
 </s>
 </p>
 <p id="ParlaMint-BG_2017-05-11.seg395" lang="български">
-<s id="ParlaMint-BG_2017-05-11.seg395.1">
+<s id="ParlaMint-BG_2017-05-11.seg395.1" senti_3="Позитивно" senti_6="смесено позитивно" senti_n="3.590">
 Закривам	Закривам	закривам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 заседанието	заседанието	заседание	NOUN	Definite=Def Gender=Neut Number=Sing	2	obj	закривам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 <g/>

@@ -8,12 +8,24 @@
             <meeting n="58" corresp="#parliament.HL" ana="#parla.upper #parla.term #PoGB.58"/>
             <meeting n="2020-02-12" corresp="#parliament.HL" ana="#parla.upper #parla.sitting #parla.meeting.regular"/>
             <respStmt>
-               <persName>Matthew Coole</persName>
+               <persName ref="https://orcid.org/0000-0002-9279-931X">Matthew Coole</persName>
                <resp>TEI corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7436-9896">Taja Kuzman</persName>
+               <resp xml:lang="en">Compute utterance topics</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Compute sentence level sentiment</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0464-9240">Katja Meden</persName>
+               <resp xml:lang="en">Compute utterance level sentiment</resp>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="174">174 speeches</measure>
@@ -24,13 +36,13 @@
                <orgName>CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1911</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2005</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p>This work is also licensed under the <ref target="https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/">Open Parliament Licence v3.0</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -53,6 +65,7 @@
                <tagUsage gi="head" occurs="8"/>
                <tagUsage gi="link" occurs="39528"/>
                <tagUsage gi="linkGrp" occurs="1583"/>
+               <tagUsage gi="measure" occurs="1583"/>
                <tagUsage gi="name" occurs="570"/>
                <tagUsage gi="note" occurs="125"/>
                <tagUsage gi="pc" occurs="3839"/>
@@ -76,8 +89,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-15">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid">
@@ -85,9 +100,10 @@
          <div type="debateSection">
             <head xml:id="ParlaMint-GB_2020-02-12-lords.ana.head1">Retirement of a Member: Lord Elystan-Morgan</head>
             <note xml:id="ParlaMint-GB_2020-02-12-lords.ana.note1">Announcement</note>
-            <u xml:id="ParlaMint-GB_2020-02-12-lords.u1" ana="#regular" who="#PeterFowler">
+            <u xml:id="ParlaMint-GB_2020-02-12-lords.u1" ana="#regular topic:other" who="#PeterFowler">
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg1">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg1.1">
+                     <measure type="sentiment" quantity="2.746" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg1.1"/>
 <w lemma="my" msd="UPosTag=DET|Number=Sing|Person=1|Poss=Yes|PronType=Prs" pos="PRP$" xml:id="ParlaMint-GB_2020-02-12-lords.seg1.1.1">My</w>
 <w join="right" lemma="Lords" msd="UPosTag=PROPN|Number=Sing" pos="NNP" xml:id="ParlaMint-GB_2020-02-12-lords.seg1.1.2">Lords</w>
 <pc msd="UPosTag=PUNCT" pos="," xml:id="ParlaMint-GB_2020-02-12-lords.seg1.1.3">,</pc>
@@ -168,6 +184,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg1.2">
+                     <measure type="sentiment" quantity="5.062" ana="senti:pospos" corresp="#ParlaMint-GB_2020-02-12-lords.seg1.2"/>
 <w lemma="on" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg1.2.1">On</w>
 <w lemma="behalf" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg1.2.2">behalf</w>
 <w lemma="of" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg1.2.3">of</w>
@@ -228,9 +245,10 @@
             <head xml:id="ParlaMint-GB_2020-02-12-lords.ana.head2">Disability Employment Gap</head>
             <note xml:id="ParlaMint-GB_2020-02-12-lords.ana.note3">Question</note>
             <note xml:id="ParlaMint-GB_2020-02-12-lords.ana.note4">Asked by</note>
-            <u xml:id="ParlaMint-GB_2020-02-12-lords.u2" ana="#regular" who="#JamesTouhig">
+            <u xml:id="ParlaMint-GB_2020-02-12-lords.u2" ana="#regular topic:labor" who="#JamesTouhig">
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg2">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg2.1">
+                     <measure type="sentiment" quantity="2.733" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg2.1"/>
 <w lemma="to" msd="UPosTag=PART" pos="TO" xml:id="ParlaMint-GB_2020-02-12-lords.seg2.1.1">To</w>
 <w lemma="ask" msd="UPosTag=VERB|VerbForm=Inf" pos="VB" xml:id="ParlaMint-GB_2020-02-12-lords.seg2.1.2">ask</w>
 <w lemma="she" msd="UPosTag=DET|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs" pos="PRP$" xml:id="ParlaMint-GB_2020-02-12-lords.seg2.1.3">Her</w>
@@ -277,9 +295,10 @@
             </gap>
          </div>
          <div type="debateSection">
-            <u xml:id="ParlaMint-GB_2020-02-12-lords.u173" ana="#regular" who="#LeslieGriffiths">
+            <u xml:id="ParlaMint-GB_2020-02-12-lords.u173" ana="#regular topic:mixed" who="#LeslieGriffiths">
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg372">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg372.1">
+                     <measure type="sentiment" quantity="5.144" ana="senti:pospos" corresp="#ParlaMint-GB_2020-02-12-lords.seg372.1"/>
 <w lemma="my" msd="UPosTag=DET|Number=Sing|Person=1|Poss=Yes|PronType=Prs" pos="PRP$" xml:id="ParlaMint-GB_2020-02-12-lords.seg372.1.1">My</w>
 <w join="right" lemma="Lords" msd="UPosTag=PROPN|Number=Sing" pos="NNP" xml:id="ParlaMint-GB_2020-02-12-lords.seg372.1.2">Lords</w>
 <pc msd="UPosTag=PUNCT" pos="," xml:id="ParlaMint-GB_2020-02-12-lords.seg372.1.3">,</pc>
@@ -364,6 +383,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg372.2">
+                     <measure type="sentiment" quantity="0.221" ana="senti:negneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg372.2"/>
 <w lemma="so" msd="UPosTag=ADV" pos="RB" xml:id="ParlaMint-GB_2020-02-12-lords.seg372.2.1">So</w>
 <w lemma="many" msd="UPosTag=ADJ|Degree=Pos" pos="JJ" xml:id="ParlaMint-GB_2020-02-12-lords.seg372.2.2">many</w>
 <w lemma="point" msd="UPosTag=NOUN|Number=Plur" pos="NNS" xml:id="ParlaMint-GB_2020-02-12-lords.seg372.2.3">points</w>
@@ -414,6 +434,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg372.3">
+                     <measure type="sentiment" quantity="3.308" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg372.3"/>
 <w lemma="I" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg372.3.1">I</w>
 <w lemma="be" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg372.3.2">am</w>
 <w lemma="remind" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" pos="VBN" xml:id="ParlaMint-GB_2020-02-12-lords.seg372.3.3">reminded</w>
@@ -506,6 +527,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg372.4">
+                     <measure type="sentiment" quantity="1.882" ana="senti:neuneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg372.4"/>
 <w lemma="something" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg372.4.1">Something</w>
 <w lemma="like" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg372.4.2">like</w>
 <w lemma="that" msd="UPosTag=DET|Number=Sing|PronType=Dem" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg372.4.3">that</w>
@@ -560,6 +582,7 @@
                </seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg373">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg373.1">
+                     <measure type="sentiment" quantity="3.561" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg373.1"/>
 <w lemma="I" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg373.1.1">I</w>
 <w lemma="take" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg373.1.2">take</w>
 <w lemma="up" msd="UPosTag=ADP" pos="RP" xml:id="ParlaMint-GB_2020-02-12-lords.seg373.1.3">up</w>
@@ -606,6 +629,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg373.2">
+                     <measure type="sentiment" quantity="3.043" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg373.2"/>
 <w lemma="he" msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg373.2.1">He</w>
 <w lemma="say" msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin" pos="VBD" xml:id="ParlaMint-GB_2020-02-12-lords.seg373.2.2">said</w>
 <w lemma="that" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg373.2.3">that</w>
@@ -642,6 +666,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg373.3">
+                     <measure type="sentiment" quantity="2.865" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg373.3"/>
 <w lemma="we" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg373.3.1">We</w>
 <w lemma="must" msd="UPosTag=VERB|VerbForm=Fin" pos="MD" xml:id="ParlaMint-GB_2020-02-12-lords.seg373.3.2">must</w>
 <w lemma="have" msd="UPosTag=VERB|VerbForm=Inf" pos="VB" xml:id="ParlaMint-GB_2020-02-12-lords.seg373.3.3">have</w>
@@ -742,6 +767,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg373.4">
+                     <measure type="sentiment" quantity="2.011" ana="senti:neuneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg373.4"/>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg373.4.1">The</w>
 <w lemma="movement" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg373.4.2">movement</w>
 <w lemma="be" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" pos="VBZ" xml:id="ParlaMint-GB_2020-02-12-lords.seg373.4.3">is</w>
@@ -770,6 +796,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg373.5">
+                     <measure type="sentiment" quantity="4.469" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg373.5"/>
 <w lemma="I" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg373.5.1">I</w>
 <w lemma="recognise" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg373.5.2">recognise</w>
 <w lemma="what" msd="UPosTag=PRON|PronType=Int" pos="WP" xml:id="ParlaMint-GB_2020-02-12-lords.seg373.5.3">what</w>
@@ -814,6 +841,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg373.6">
+                     <measure type="sentiment" quantity="5.261" ana="senti:pospos" corresp="#ParlaMint-GB_2020-02-12-lords.seg373.6"/>
 <w lemma="we" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg373.6.1">We</w>
 <w lemma="hear" msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin" pos="VBD" xml:id="ParlaMint-GB_2020-02-12-lords.seg373.6.2">heard</w>
 <w lemma="ample" msd="UPosTag=ADJ|Degree=Pos" pos="JJ" xml:id="ParlaMint-GB_2020-02-12-lords.seg373.6.3">ample</w>
@@ -850,6 +878,7 @@
                </seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg374">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg374.1">
+                     <measure type="sentiment" quantity="2.858" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg374.1"/>
 <w lemma="on" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.1.1">On</w>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.1.2">the</w>
 <w lemma="right" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.1.3">right</w>
@@ -920,6 +949,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg374.2">
+                     <measure type="sentiment" quantity="3.121" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg374.2"/>
 <w lemma="it" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.2.1">It</w>
 <w lemma="come" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" pos="VBZ" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.2.2">comes</w>
 <w lemma="from" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.2.3">from</w>
@@ -954,6 +984,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg374.3">
+                     <measure type="sentiment" quantity="3.242" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg374.3"/>
 <w lemma="a" msd="UPosTag=DET|Definite=Ind|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.3.1">An</w>
 <w lemma="algorithm" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.3.2">algorithm</w>
 <w lemma="be" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" pos="VBD" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.3.3">was</w>
@@ -986,6 +1017,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg374.4">
+                     <measure type="sentiment" quantity="0.259" ana="senti:negneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg374.4"/>
 <w lemma="after" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.4.1">After</w>
 <w lemma="some" msd="UPosTag=DET" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.4.2">some</w>
 <w lemma="dubious" msd="UPosTag=ADJ|Degree=Pos" pos="JJ" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.4.3">dubious</w>
@@ -1058,6 +1090,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg374.5">
+                     <measure type="sentiment" quantity="0.965" ana="senti:mixneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg374.5"/>
 <w lemma="although" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.5.1">Although</w>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.5.2">the</w>
 <w lemma="teacher" msd="UPosTag=NOUN|Number=Plur" pos="NNS" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.5.3">teachers</w>
@@ -1150,6 +1183,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg374.6">
+                     <measure type="sentiment" quantity="0.841" ana="senti:mixneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg374.6"/>
 <w lemma="in" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.6.1">In</w>
 <w lemma="other" msd="UPosTag=ADJ|Degree=Pos" pos="JJ" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.6.2">other</w>
 <w join="right" lemma="word" msd="UPosTag=NOUN|Number=Plur" pos="NNS" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.6.3">words</w>
@@ -1212,6 +1246,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg374.7">
+                     <measure type="sentiment" quantity="0.982" ana="senti:mixneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg374.7"/>
 <w lemma="I" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.7.1">I</w>
 <w lemma="believe" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.7.2">believe</w>
 <w join="right" lemma="that" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg374.7.3">that</w>
@@ -1292,6 +1327,7 @@
                </seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg375">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg375.1">
+                     <measure type="sentiment" quantity="0.513" ana="senti:mixneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg375.1"/>
 <w lemma="on" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.1.1">On</w>
 <w join="right" lemma="accountability" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.1.2">accountability</w>
 <pc msd="UPosTag=PUNCT" pos="," xml:id="ParlaMint-GB_2020-02-12-lords.seg375.1.3">,</pc>
@@ -1314,6 +1350,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg375.2">
+                     <measure type="sentiment" quantity="3.312" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg375.2"/>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.2.1">The</w>
 <w lemma="noble" msd="UPosTag=ADJ|Degree=Pos" pos="JJ" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.2.2">noble</w>
                      <name type="PER">
@@ -1352,6 +1389,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg375.3">
+                     <measure type="sentiment" quantity="2.837" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg375.3"/>
 <w lemma="I" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.3.1">I</w>
 <w lemma="have" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.3.2">have</w>
 <w lemma="be" msd="UPosTag=VERB|Tense=Past|VerbForm=Part" pos="VBN" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.3.3">been</w>
@@ -1418,6 +1456,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg375.4">
+                     <measure type="sentiment" quantity="0.585" ana="senti:mixneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg375.4"/>
 <w lemma="I" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.4.1">I</w>
 <w lemma="be" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.4.2">am</w>
 <w lemma="really" msd="UPosTag=ADV" pos="RB" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.4.3">really</w>
@@ -1468,6 +1507,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg375.5">
+                     <measure type="sentiment" quantity="3.358" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg375.5"/>
 <w lemma="each" msd="UPosTag=DET" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.5.1">Each</w>
 <w lemma="say" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" pos="VBZ" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.5.2">says</w>
 <w lemma="thing" msd="UPosTag=NOUN|Number=Plur" pos="NNS" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.5.3">things</w>
@@ -1488,6 +1528,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg375.6">
+                     <measure type="sentiment" quantity="4.398" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg375.6"/>
 <w lemma="in" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.6.1">In</w>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.6.2">the</w>
 <w lemma="report" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.6.3">report</w>
@@ -1576,6 +1617,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg375.7">
+                     <measure type="sentiment" quantity="3.331" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg375.7"/>
 <w lemma="we" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.7.1">We</w>
 <w lemma="have" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.7.2">have</w>
 <w lemma="also" msd="UPosTag=ADV" pos="RB" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.7.3">also</w>
@@ -1624,6 +1666,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg375.8">
+                     <measure type="sentiment" quantity="1.925" ana="senti:neuneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg375.8"/>
 <w lemma="while" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.8.1">While</w>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.8.2">the</w>
 <w lemma="Information" msd="UPosTag=PROPN|Number=Sing" pos="NNP" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.8.3">Information</w>
@@ -1680,6 +1723,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg375.9">
+                     <measure type="sentiment" quantity="1.625" ana="senti:neuneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg375.9"/>
 <w lemma="be" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" pos="VBZ" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.9.1">Is</w>
 <w lemma="there" msd="UPosTag=PRON" pos="EX" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.9.2">there</w>
 <w lemma="a" msd="UPosTag=DET|Definite=Ind|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg375.9.3">a</w>
@@ -1768,6 +1812,7 @@
                </seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg376">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg376.1">
+                     <measure type="sentiment" quantity="4.493" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg376.1"/>
 <w lemma="I" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.1.1">I</w>
 <w lemma="be" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.1.2">am</w>
 <w lemma="so" msd="UPosTag=ADV" pos="RB" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.1.3">so</w>
@@ -1848,6 +1893,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg376.2">
+                     <measure type="sentiment" quantity="0.175" ana="senti:negneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg376.2"/>
 <w lemma="he" msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.2.1">He</w>
 <w lemma="remind" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" pos="VBZ" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.2.2">reminds</w>
 <w lemma="I" msd="UPosTag=PRON|Case=Acc|Number=Sing|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.2.3">me</w>
@@ -1942,6 +1988,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg376.3">
+                     <measure type="sentiment" quantity="3.370" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg376.3"/>
 <w lemma="it" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.3.1">It</w>
 <w lemma="be" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" pos="VBD" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.3.2">was</w>
 <w lemma="say" msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass" pos="VBN" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.3.3">said</w>
@@ -1984,6 +2031,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg376.4">
+                     <measure type="sentiment" quantity="2.282" ana="senti:neuneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg376.4"/>
 <w lemma="it" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.4.1">It</w>
 <w lemma="need" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" pos="VBZ" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.4.2">needs</w>
 <w lemma="to" msd="UPosTag=PART" pos="TO" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.4.3">to</w>
@@ -1998,6 +2046,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg376.5">
+                     <measure type="sentiment" quantity="0.098" ana="senti:negneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg376.5"/>
 <w lemma="here" msd="UPosTag=ADV|PronType=Dem" pos="RB" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.5.1">Here</w>
 <w lemma="we" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.5.2">we</w>
 <w join="right" lemma="be" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.5.3">are</w>
@@ -2044,6 +2093,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg376.6">
+                     <measure type="sentiment" quantity="3.910" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg376.6"/>
 <w lemma="we" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.6.1">We</w>
 <w lemma="must" msd="UPosTag=VERB|VerbForm=Fin" pos="MD" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.6.2">must</w>
 <w lemma="move" msd="UPosTag=VERB|VerbForm=Inf" pos="VB" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.6.3">move</w>
@@ -2086,6 +2136,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg376.7">
+                     <measure type="sentiment" quantity="2.728" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg376.7"/>
 <w lemma="it" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.7.1">It</w>
 <w lemma="must" msd="UPosTag=VERB|VerbForm=Fin" pos="MD" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.7.2">must</w>
 <w lemma="have" msd="UPosTag=VERB|VerbForm=Inf" pos="VB" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.7.3">have</w>
@@ -2124,6 +2175,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg376.8">
+                     <measure type="sentiment" quantity="3.043" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg376.8"/>
 <w lemma="on" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.8.1">On</w>
 <w join="right" lemma="that" msd="UPosTag=DET|Number=Sing|PronType=Dem" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.8.2">that</w>
 <pc msd="UPosTag=PUNCT" pos="," xml:id="ParlaMint-GB_2020-02-12-lords.seg376.8.3">,</pc>
@@ -2152,6 +2204,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg376.9">
+                     <measure type="sentiment" quantity="-0.025" ana="senti:negneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg376.9"/>
 <w lemma="let" msd="UPosTag=VERB|VerbForm=Inf" pos="VB" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.9.1">Let</w>
 <w lemma="I" msd="UPosTag=PRON|Case=Acc|Number=Sing|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.9.2">me</w>
 <w lemma="finish" msd="UPosTag=VERB|VerbForm=Inf" pos="VB" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.9.3">finish</w>
@@ -2218,6 +2271,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg376.10">
+                     <measure type="sentiment" quantity="0.747" ana="senti:mixneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg376.10"/>
 <w lemma="when" msd="UPosTag=ADV|PronType=Int" pos="WRB" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.10.1">When</w>
 <w lemma="I" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.10.2">I</w>
 <w lemma="put" msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin" pos="VBD" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.10.3">put</w>
@@ -2314,6 +2368,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg376.11">
+                     <measure type="sentiment" quantity="1.583" ana="senti:neuneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg376.11"/>
 <w lemma="but" msd="UPosTag=CCONJ" pos="CC" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.11.1">But</w>
 <w lemma="it" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.11.2">it</w>
 <w lemma="suggest" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" pos="VBZ" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.11.3">suggests</w>
@@ -2342,6 +2397,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg376.12">
+                     <measure type="sentiment" quantity="0.924" ana="senti:mixneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg376.12"/>
 <w lemma="I" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.12.1">I</w>
 <w lemma="promise" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.12.2">promise</w>
 <w lemma="noble" msd="UPosTag=ADJ|Degree=Pos" pos="JJ" xml:id="ParlaMint-GB_2020-02-12-lords.seg376.12.3">noble</w>
@@ -2449,9 +2505,10 @@
                   </s>
                </seg>
             </u>
-            <u xml:id="ParlaMint-GB_2020-02-12-lords.u174" ana="#regular" who="#DianaBarran">
+            <u xml:id="ParlaMint-GB_2020-02-12-lords.u174" ana="#regular topic:techn" who="#DianaBarran">
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg377">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg377.1">
+                     <measure type="sentiment" quantity="0.451" ana="senti:negneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg377.1"/>
 <w lemma="my" msd="UPosTag=DET|Number=Sing|Person=1|Poss=Yes|PronType=Prs" pos="PRP$" xml:id="ParlaMint-GB_2020-02-12-lords.seg377.1.1">My</w>
 <w join="right" lemma="Lords" msd="UPosTag=PROPN|Number=Sing" pos="NNP" xml:id="ParlaMint-GB_2020-02-12-lords.seg377.1.2">Lords</w>
 <pc msd="UPosTag=PUNCT" pos="," xml:id="ParlaMint-GB_2020-02-12-lords.seg377.1.3">,</pc>
@@ -2474,6 +2531,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg377.2">
+                     <measure type="sentiment" quantity="0.155" ana="senti:negneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg377.2"/>
 <w lemma="I" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg377.2.1">I</w>
 <w lemma="be" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg377.2.2">am</w>
 <w lemma="really" msd="UPosTag=ADV" pos="RB" xml:id="ParlaMint-GB_2020-02-12-lords.seg377.2.3">really</w>
@@ -2500,6 +2558,7 @@
                </seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg378">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg378.1">
+                     <measure type="sentiment" quantity="5.143" ana="senti:pospos" corresp="#ParlaMint-GB_2020-02-12-lords.seg378.1"/>
 <w lemma="I" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg378.1.1">I</w>
 <w lemma="echo" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg378.1.2">echo</w>
 <w lemma="other" msd="UPosTag=ADJ|Degree=Pos" pos="JJ" xml:id="ParlaMint-GB_2020-02-12-lords.seg378.1.3">other</w>
@@ -2554,6 +2613,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg378.2">
+                     <measure type="sentiment" quantity="4.182" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg378.2"/>
 <w lemma="I" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg378.2.1">I</w>
 <w lemma="think" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg378.2.2">think</w>
 <w lemma="that" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg378.2.3">that</w>
@@ -2664,6 +2724,7 @@
                </seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg379">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg379.1">
+                     <measure type="sentiment" quantity="3.535" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg379.1"/>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg379.1.1">The</w>
 <w lemma="noble" msd="UPosTag=ADJ|Degree=Pos" pos="JJ" xml:id="ParlaMint-GB_2020-02-12-lords.seg379.1.2">noble</w>
 <w join="right" lemma="Lord" msd="UPosTag=PROPN|Number=Sing" pos="NNP" xml:id="ParlaMint-GB_2020-02-12-lords.seg379.1.3">Lord</w>
@@ -2726,6 +2787,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg379.2">
+                     <measure type="sentiment" quantity="4.335" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg379.2"/>
 <w lemma="as" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg379.2.1">As</w>
 <w lemma="noble" msd="UPosTag=ADJ|Degree=Pos" pos="JJ" xml:id="ParlaMint-GB_2020-02-12-lords.seg379.2.2">noble</w>
 <w lemma="Lords" msd="UPosTag=PROPN|Number=Plur" pos="NNPS" xml:id="ParlaMint-GB_2020-02-12-lords.seg379.2.3">Lords</w>
@@ -2816,6 +2878,7 @@
                </seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg380">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg380.1">
+                     <measure type="sentiment" quantity="4.690" ana="senti:pospos" corresp="#ParlaMint-GB_2020-02-12-lords.seg380.1"/>
 <w lemma="while" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg380.1.1">While</w>
 <w lemma="drive" msd="UPosTag=VERB|VerbForm=Ger" pos="VBG" xml:id="ParlaMint-GB_2020-02-12-lords.seg380.1.2">driving</w>
 <w lemma="forward" msd="UPosTag=ADV" pos="RB" xml:id="ParlaMint-GB_2020-02-12-lords.seg380.1.3">forward</w>
@@ -2924,6 +2987,7 @@
                </seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg381">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg381.1">
+                     <measure type="sentiment" quantity="3.599" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg381.1"/>
 <w lemma="we" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg381.1.1">We</w>
 <w lemma="want" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg381.1.2">want</w>
 <w lemma="to" msd="UPosTag=PART" pos="TO" xml:id="ParlaMint-GB_2020-02-12-lords.seg381.1.3">to</w>
@@ -2974,6 +3038,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg381.2">
+                     <measure type="sentiment" quantity="4.522" ana="senti:pospos" corresp="#ParlaMint-GB_2020-02-12-lords.seg381.2"/>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg381.2.1">The</w>
 <w lemma="government" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg381.2.2">Government</w>
 <w lemma="have" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg381.2.3">have</w>
@@ -3056,6 +3121,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg381.3">
+                     <measure type="sentiment" quantity="3.288" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg381.3"/>
 <w lemma="these" msd="UPosTag=DET|Number=Plur|PronType=Dem" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg381.3.1">These</w>
 <w lemma="include" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg381.3.2">include</w>
 <w lemma="set" msd="UPosTag=VERB|VerbForm=Ger" pos="VBG" xml:id="ParlaMint-GB_2020-02-12-lords.seg381.3.3">setting</w>
@@ -3134,6 +3200,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg381.4">
+                     <measure type="sentiment" quantity="4.061" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg381.4"/>
 <w lemma="to" msd="UPosTag=PART" pos="TO" xml:id="ParlaMint-GB_2020-02-12-lords.seg381.4.1">To</w>
 <w lemma="be" msd="UPosTag=VERB|VerbForm=Inf" pos="VB" xml:id="ParlaMint-GB_2020-02-12-lords.seg381.4.2">be</w>
 <w join="right" lemma="successful" msd="UPosTag=ADJ|Degree=Pos" pos="JJ" xml:id="ParlaMint-GB_2020-02-12-lords.seg381.4.3">successful</w>
@@ -3168,6 +3235,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg381.5">
+                     <measure type="sentiment" quantity="4.845" ana="senti:pospos" corresp="#ParlaMint-GB_2020-02-12-lords.seg381.5"/>
 <w lemma="if" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg381.5.1">If</w>
 <w join="right" lemma="so" msd="UPosTag=ADV" pos="RB" xml:id="ParlaMint-GB_2020-02-12-lords.seg381.5.2">so</w>
 <pc msd="UPosTag=PUNCT" pos="," xml:id="ParlaMint-GB_2020-02-12-lords.seg381.5.3">,</pc>
@@ -3230,6 +3298,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg381.6">
+                     <measure type="sentiment" quantity="3.653" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg381.6"/>
 <w lemma="I" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg381.6.1">I</w>
 <w lemma="think" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg381.6.2">think</w>
 <w lemma="it" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg381.6.3">it</w>
@@ -3298,6 +3367,7 @@
                </seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg382">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg382.1">
+                     <measure type="sentiment" quantity="3.122" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg382.1"/>
 <w lemma="several" msd="UPosTag=ADJ|Degree=Pos" pos="JJ" xml:id="ParlaMint-GB_2020-02-12-lords.seg382.1.1">Several</w>
 <w lemma="noble" msd="UPosTag=ADJ|Degree=Pos" pos="JJ" xml:id="ParlaMint-GB_2020-02-12-lords.seg382.1.2">noble</w>
 <w lemma="Lords" msd="UPosTag=PROPN|Number=Sing" pos="NNP" xml:id="ParlaMint-GB_2020-02-12-lords.seg382.1.3">Lords</w>
@@ -3350,6 +3420,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg382.2">
+                     <measure type="sentiment" quantity="3.843" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg382.2"/>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg382.2.1">The</w>
 <w lemma="government" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg382.2.2">Government</w>
 <w lemma="have" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg382.2.3">have</w>
@@ -3530,6 +3601,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg382.3">
+                     <measure type="sentiment" quantity="3.556" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg382.3"/>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg382.3.1">The</w>
 <w lemma="Government" msd="UPosTag=PROPN|Number=Sing" pos="NNP" xml:id="ParlaMint-GB_2020-02-12-lords.seg382.3.2">Government</w>
 <w lemma="will" msd="UPosTag=VERB|VerbForm=Fin" pos="MD" xml:id="ParlaMint-GB_2020-02-12-lords.seg382.3.3">will</w>
@@ -3580,6 +3652,7 @@
                </seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg383">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg383.1">
+                     <measure type="sentiment" quantity="4.963" ana="senti:pospos" corresp="#ParlaMint-GB_2020-02-12-lords.seg383.1"/>
 <w lemma="we" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg383.1.1">We</w>
 <w lemma="also" msd="UPosTag=ADV" pos="RB" xml:id="ParlaMint-GB_2020-02-12-lords.seg383.1.2">also</w>
 <w lemma="welcome" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg383.1.3">welcome</w>
@@ -3618,6 +3691,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg383.2">
+                     <measure type="sentiment" quantity="5.277" ana="senti:pospos" corresp="#ParlaMint-GB_2020-02-12-lords.seg383.2"/>
 <w lemma="we" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg383.2.1">We</w>
 <w lemma="be" msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin" pos="VBD" xml:id="ParlaMint-GB_2020-02-12-lords.seg383.2.2">were</w>
 <w lemma="very" msd="UPosTag=ADV" pos="RB" xml:id="ParlaMint-GB_2020-02-12-lords.seg383.2.3">very</w>
@@ -3670,6 +3744,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg383.3">
+                     <measure type="sentiment" quantity="3.000" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg383.3"/>
 <w lemma="we" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg383.3.1">We</w>
 <w lemma="be" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg383.3.2">are</w>
 <w lemma="discuss" msd="UPosTag=VERB|Tense=Pres|VerbForm=Part" pos="VBG" xml:id="ParlaMint-GB_2020-02-12-lords.seg383.3.3">discussing</w>
@@ -3744,6 +3819,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg383.4">
+                     <measure type="sentiment" quantity="3.715" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg383.4"/>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg383.4.1">The</w>
 <w lemma="right" msd="UPosTag=ADJ|Degree=Pos" pos="JJ" xml:id="ParlaMint-GB_2020-02-12-lords.seg383.4.2">right</w>
 <w lemma="reverend" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg383.4.3">reverend</w>
@@ -3798,6 +3874,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg383.5">
+                     <measure type="sentiment" quantity="3.455" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg383.5"/>
 <w lemma="Noble" msd="UPosTag=PROPN|Number=Sing" pos="NNP" xml:id="ParlaMint-GB_2020-02-12-lords.seg383.5.1">Noble</w>
 <w lemma="Lords" msd="UPosTag=PROPN|Number=Sing" pos="NNP" xml:id="ParlaMint-GB_2020-02-12-lords.seg383.5.2">Lords</w>
 <w lemma="will" msd="UPosTag=VERB|VerbForm=Fin" pos="MD" xml:id="ParlaMint-GB_2020-02-12-lords.seg383.5.3">will</w>
@@ -3846,6 +3923,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg383.6">
+                     <measure type="sentiment" quantity="3.974" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg383.6"/>
 <w lemma="we" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg383.6.1">We</w>
 <w lemma="be" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg383.6.2">are</w>
 <w lemma="currently" msd="UPosTag=ADV" pos="RB" xml:id="ParlaMint-GB_2020-02-12-lords.seg383.6.3">currently</w>
@@ -3900,6 +3978,7 @@
                </seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg384">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg384.1">
+                     <measure type="sentiment" quantity="1.706" ana="senti:neuneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg384.1"/>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg384.1.1">The</w>
                      <name type="ORG">
 <w lemma="Committee" msd="UPosTag=PROPN|Number=Sing" pos="NNP" xml:id="ParlaMint-GB_2020-02-12-lords.seg384.1.2">Committee</w>
@@ -3946,6 +4025,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg384.2">
+                     <measure type="sentiment" quantity="3.939" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg384.2"/>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg384.2.1">The</w>
 <w lemma="government" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg384.2.2">Government</w>
 <w lemma="be" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg384.2.3">are</w>
@@ -4022,6 +4102,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg384.3">
+                     <measure type="sentiment" quantity="3.513" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg384.3"/>
 <w lemma="a" msd="UPosTag=DET|Definite=Ind|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg384.3.1">A</w>
 <w lemma="number" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg384.3.2">number</w>
 <w lemma="of" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg384.3.3">of</w>
@@ -4058,6 +4139,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg384.4">
+                     <measure type="sentiment" quantity="4.358" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg384.4"/>
 <w lemma="that" msd="UPosTag=DET|Number=Sing|PronType=Dem" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg384.4.1">That</w>
 <w lemma="be" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" pos="VBZ" xml:id="ParlaMint-GB_2020-02-12-lords.seg384.4.2">is</w>
 <w lemma="absolutely" msd="UPosTag=ADV" pos="RB" xml:id="ParlaMint-GB_2020-02-12-lords.seg384.4.3">absolutely</w>
@@ -4072,6 +4154,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg384.5">
+                     <measure type="sentiment" quantity="2.329" ana="senti:neuneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg384.5"/>
 <w lemma="there" msd="UPosTag=PRON" pos="EX" xml:id="ParlaMint-GB_2020-02-12-lords.seg384.5.1">There</w>
 <w lemma="be" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" pos="VBZ" xml:id="ParlaMint-GB_2020-02-12-lords.seg384.5.2">is</w>
 <w lemma="a" msd="UPosTag=DET|Definite=Ind|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg384.5.3">a</w>
@@ -4146,6 +4229,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg384.6">
+                     <measure type="sentiment" quantity="4.492" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg384.6"/>
 <w lemma="in" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg384.6.1">In</w>
 <w lemma="that" msd="UPosTag=DET|Number=Sing|PronType=Dem" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg384.6.2">that</w>
 <w join="right" lemma="agility" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg384.6.3">agility</w>
@@ -4216,6 +4300,7 @@
                </seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg385">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg385.1">
+                     <measure type="sentiment" quantity="3.703" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg385.1"/>
 <w lemma="one" msd="UPosTag=NUM|NumType=Card" pos="CD" xml:id="ParlaMint-GB_2020-02-12-lords.seg385.1.1">One</w>
 <w lemma="of" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg385.1.2">of</w>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg385.1.3">the</w>
@@ -4292,6 +4377,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg385.2">
+                     <measure type="sentiment" quantity="4.145" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg385.2"/>
 <w lemma="part" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg385.2.1">Part</w>
 <w lemma="of" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg385.2.2">of</w>
 <w lemma="we" msd="UPosTag=DET|Number=Plur|Person=1|Poss=Yes|PronType=Prs" pos="PRP$" xml:id="ParlaMint-GB_2020-02-12-lords.seg385.2.3">our</w>
@@ -4410,6 +4496,7 @@
                </seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg386">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg386.1">
+                     <measure type="sentiment" quantity="3.316" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg386.1"/>
 <w lemma="we" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg386.1.1">We</w>
 <w lemma="publish" msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin" pos="VBD" xml:id="ParlaMint-GB_2020-02-12-lords.seg386.1.2">published</w>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg386.1.3">the</w>
@@ -4436,6 +4523,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg386.2">
+                     <measure type="sentiment" quantity="3.528" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg386.2"/>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg386.2.1">The</w>
                      <name type="ORG">
 <w lemma="Office" msd="UPosTag=PROPN|Number=Sing" pos="NNP" xml:id="ParlaMint-GB_2020-02-12-lords.seg386.2.2">Office</w>
@@ -4518,6 +4606,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg386.3">
+                     <measure type="sentiment" quantity="4.137" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg386.3"/>
 <w lemma="follow" msd="UPosTag=VERB|VerbForm=Ger" pos="VBG" xml:id="ParlaMint-GB_2020-02-12-lords.seg386.3.1">Following</w>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg386.3.2">the</w>
 <w lemma="pilot" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg386.3.3">pilot</w>
@@ -4626,6 +4715,7 @@
                </seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg387">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg387.1">
+                     <measure type="sentiment" quantity="4.352" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg387.1"/>
 <w lemma="in" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg387.1.1">In</w>
 <w lemma="a" msd="UPosTag=DET|Definite=Ind|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg387.1.2">an</w>
 <w lemma="effort" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg387.1.3">effort</w>
@@ -4768,6 +4858,7 @@
                </seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg388">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg388.1">
+                     <measure type="sentiment" quantity="3.062" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg388.1"/>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg388.1.1">The</w>
 <w lemma="noble" msd="UPosTag=ADJ|Degree=Pos" pos="JJ" xml:id="ParlaMint-GB_2020-02-12-lords.seg388.1.2">noble</w>
 <w join="right" lemma="Lord" msd="UPosTag=PROPN|Number=Sing" pos="NNP" xml:id="ParlaMint-GB_2020-02-12-lords.seg388.1.3">Lord</w>
@@ -4804,6 +4895,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg388.2">
+                     <measure type="sentiment" quantity="5.432" ana="senti:pospos" corresp="#ParlaMint-GB_2020-02-12-lords.seg388.2"/>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg388.2.1">The</w>
 <w lemma="government" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg388.2.2">Government</w>
 <w lemma="value" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg388.2.3">value</w>
@@ -4860,6 +4952,7 @@
                </seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg389">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg389.1">
+                     <measure type="sentiment" quantity="0.606" ana="senti:mixneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg389.1"/>
 <w lemma="I" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg389.1.1">I</w>
 <w lemma="think" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg389.1.2">think</w>
 <w lemma="every" msd="UPosTag=DET" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg389.1.3">every</w>
@@ -4884,6 +4977,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg389.2">
+                     <measure type="sentiment" quantity="1.368" ana="senti:mixneg" corresp="#ParlaMint-GB_2020-02-12-lords.seg389.2"/>
 <w lemma="my" msd="UPosTag=DET|Number=Sing|Person=1|Poss=Yes|PronType=Prs" pos="PRP$" xml:id="ParlaMint-GB_2020-02-12-lords.seg389.2.1">My</w>
 <w lemma="noble" msd="UPosTag=ADJ|Degree=Pos" pos="JJ" xml:id="ParlaMint-GB_2020-02-12-lords.seg389.2.2">noble</w>
 <w lemma="friend" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg389.2.3">friend</w>
@@ -4922,6 +5016,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg389.3">
+                     <measure type="sentiment" quantity="2.955" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg389.3"/>
 <w lemma="other" msd="UPosTag=ADJ|Degree=Pos" pos="JJ" xml:id="ParlaMint-GB_2020-02-12-lords.seg389.3.1">Other</w>
 <w lemma="noble" msd="UPosTag=ADJ|Degree=Pos" pos="JJ" xml:id="ParlaMint-GB_2020-02-12-lords.seg389.3.2">noble</w>
 <w lemma="Lords" msd="UPosTag=PROPN|Number=Sing" pos="NNP" xml:id="ParlaMint-GB_2020-02-12-lords.seg389.3.3">Lords</w>
@@ -4956,6 +5051,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg389.4">
+                     <measure type="sentiment" quantity="2.584" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg389.4"/>
 <w lemma="it" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg389.4.1">It</w>
 <w lemma="be" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" pos="VBZ" xml:id="ParlaMint-GB_2020-02-12-lords.seg389.4.2">is</w>
 <w lemma="important" msd="UPosTag=ADJ|Degree=Pos" pos="JJ" xml:id="ParlaMint-GB_2020-02-12-lords.seg389.4.3">important</w>
@@ -5042,6 +5138,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg389.5">
+                     <measure type="sentiment" quantity="4.185" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg389.5"/>
 <w join="right" lemma="again" msd="UPosTag=ADV" pos="RB" xml:id="ParlaMint-GB_2020-02-12-lords.seg389.5.1">Again</w>
 <pc msd="UPosTag=PUNCT" pos="," xml:id="ParlaMint-GB_2020-02-12-lords.seg389.5.2">,</pc>
 <w lemma="we" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg389.5.3">we</w>
@@ -5222,6 +5319,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg389.6">
+                     <measure type="sentiment" quantity="2.789" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg389.6"/>
 <w lemma="these" msd="UPosTag=DET|Number=Plur|PronType=Dem" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg389.6.1">These</w>
 <w lemma="sector" msd="UPosTag=NOUN|Number=Plur" pos="NNS" xml:id="ParlaMint-GB_2020-02-12-lords.seg389.6.2">sectors</w>
 <w lemma="be" msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin" pos="VBD" xml:id="ParlaMint-GB_2020-02-12-lords.seg389.6.3">were</w>
@@ -5256,6 +5354,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg389.7">
+                     <measure type="sentiment" quantity="4.369" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg389.7"/>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg389.7.1">The</w>
 <w lemma="report" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg389.7.2">report</w>
 <w lemma="will" msd="UPosTag=VERB|VerbForm=Fin" pos="MD" xml:id="ParlaMint-GB_2020-02-12-lords.seg389.7.3">will</w>
@@ -5310,6 +5409,7 @@
                </seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg390">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg390.1">
+                     <measure type="sentiment" quantity="3.025" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg390.1"/>
 <w lemma="I" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg390.1.1">I</w>
 <w lemma="fear" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg390.1.2">fear</w>
 <w lemma="that" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg390.1.3">that</w>
@@ -5380,6 +5480,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg390.2">
+                     <measure type="sentiment" quantity="2.827" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg390.2"/>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg390.2.1">The</w>
 <w lemma="noble" msd="UPosTag=ADJ|Degree=Pos" pos="JJ" xml:id="ParlaMint-GB_2020-02-12-lords.seg390.2.2">noble</w>
 <w join="right" lemma="Lord" msd="UPosTag=PROPN|Number=Sing" pos="NNP" xml:id="ParlaMint-GB_2020-02-12-lords.seg390.2.3">Lord</w>
@@ -5434,6 +5535,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg390.3">
+                     <measure type="sentiment" quantity="3.772" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg390.3"/>
 <w lemma="we" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg390.3.1">We</w>
 <w lemma="hope" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg390.3.2">hope</w>
 <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT" xml:id="ParlaMint-GB_2020-02-12-lords.seg390.3.3">the</w>
@@ -5478,6 +5580,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg390.4">
+                     <measure type="sentiment" quantity="3.181" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg390.4"/>
 <w lemma="we" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg390.4.1">We</w>
 <w lemma="be" msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP" xml:id="ParlaMint-GB_2020-02-12-lords.seg390.4.2">are</w>
 <w lemma="also" msd="UPosTag=ADV" pos="RB" xml:id="ParlaMint-GB_2020-02-12-lords.seg390.4.3">also</w>
@@ -5542,6 +5645,7 @@
                </seg>
                <seg xml:id="ParlaMint-GB_2020-02-12-lords.seg391">
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg391.1">
+                     <measure type="sentiment" quantity="2.933" ana="senti:neupos" corresp="#ParlaMint-GB_2020-02-12-lords.seg391.1"/>
 <w lemma="in" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg391.1.1">In</w>
 <w join="right" lemma="closing" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg391.1.2">closing</w>
 <pc msd="UPosTag=PUNCT" pos="," xml:id="ParlaMint-GB_2020-02-12-lords.seg391.1.3">,</pc>
@@ -5568,6 +5672,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg391.2">
+                     <measure type="sentiment" quantity="4.680" ana="senti:pospos" corresp="#ParlaMint-GB_2020-02-12-lords.seg391.2"/>
 <w lemma="one" msd="UPosTag=NUM|NumType=Card" pos="CD" xml:id="ParlaMint-GB_2020-02-12-lords.seg391.2.1">One</w>
 <w lemma="be" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" pos="VBZ" xml:id="ParlaMint-GB_2020-02-12-lords.seg391.2.2">is</w>
 <w lemma="on" msd="UPosTag=ADP" pos="IN" xml:id="ParlaMint-GB_2020-02-12-lords.seg391.2.3">on</w>
@@ -5676,6 +5781,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg391.3">
+                     <measure type="sentiment" quantity="3.613" ana="senti:mixpos" corresp="#ParlaMint-GB_2020-02-12-lords.seg391.3"/>
 <w join="right" lemma="however" msd="UPosTag=ADV" pos="RB" xml:id="ParlaMint-GB_2020-02-12-lords.seg391.3.1">However</w>
 <pc msd="UPosTag=PUNCT" pos="," xml:id="ParlaMint-GB_2020-02-12-lords.seg391.3.2">,</pc>
 <w lemma="I" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg391.3.3">I</w>
@@ -5732,6 +5838,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-GB_2020-02-12-lords.seg391.4">
+                     <measure type="sentiment" quantity="5.292" ana="senti:pospos" corresp="#ParlaMint-GB_2020-02-12-lords.seg391.4"/>
 <w lemma="we" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs" pos="PRP" xml:id="ParlaMint-GB_2020-02-12-lords.seg391.4.1">We</w>
 <w lemma="can" msd="UPosTag=VERB|VerbForm=Fin" pos="MD" xml:id="ParlaMint-GB_2020-02-12-lords.seg391.4.2">can</w>
 <w lemma="harness" msd="UPosTag=NOUN|Number=Sing" pos="NN" xml:id="ParlaMint-GB_2020-02-12-lords.seg391.4.3">harness</w>

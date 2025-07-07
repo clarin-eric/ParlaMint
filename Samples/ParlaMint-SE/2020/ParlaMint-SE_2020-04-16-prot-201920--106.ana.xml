@@ -9,7 +9,7 @@
             <meeting ana="#parla.sitting #parla.uni" n="201920--106">2019/20--106</meeting>
          </titleStmt>
          <editionStmt>
-            <edition>4.1</edition>
+            <edition>5.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure xml:lang="sv" unit="speeches" quantity="119">119 tal</measure>
@@ -25,7 +25,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2024-07-02">2024-07-02</date>
+            <date when="2025-06-23">2025-06-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -50,6 +50,7 @@
                <tagUsage gi="kinesic" occurs="5"/>
                <tagUsage gi="link" occurs="45755"/>
                <tagUsage gi="linkGrp" occurs="2578"/>
+               <tagUsage gi="measure" occurs="2578"/>
                <tagUsage gi="name" occurs="459"/>
                <tagUsage gi="note" occurs="785"/>
                <tagUsage gi="pc" occurs="3776"/>
@@ -73,8 +74,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-07-02">
+         <change when="2025-06-23">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2025-06-16">
+            <name>Tomaž Erjavec</name>: Include topic and sentiment related information.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid">
@@ -105,9 +108,10 @@
             <note xml:id="ParlaMint-SE_2020-04-16-prot-201920--106.ana.note16">föredrogs .</note>
             <note xml:id="ParlaMint-SE_2020-04-16-prot-201920--106.ana.note17">Kammaren biföll utskottets förslag att ärendet fick avgöras trots att det varit tillgängligt kortare tid än två vardagar före den dag då det skulle behandlas .</note>
             <note type="speaker" xml:id="ParlaMint-SE_2020-04-16-prot-201920--106.ana.note18">Anf . 1 ACKO ANKARBERG JOHANSSON ( KD ) :</note>
-            <u ana="#regular" who="#Q4936116" xml:id="i-19e7640c7a732d9e-1">
+            <u ana="#regular topic:healt" who="#Q4936116" xml:id="i-19e7640c7a732d9e-1">
                <seg xml:id="i-5ruVoChs89sDtBjW1Bf9N9">
                   <s xml:id="i-XP8hvgGEBHXAmfWmCkieMJ">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XP8hvgGEBHXAmfWmCkieMJ"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="fru" xml:id="i-XM6pcGck1LgZLkmjyohKKA">Fru</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="talman" xml:id="i-XM6qHRABP1qQCo45sYEuAt" join="right">talman</w>
 <pc msd="UPosTag=PUNCT" xml:id="i-XM6qWk7JnSGd8rJHabckxC">!</pc>
@@ -118,6 +122,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8iJLJoxbUf31HbEDxQzg">
+                     <measure type="sentiment" quantity="-0.095" ana="senti:negneg" corresp="#i-XP8iJLJoxbUf31HbEDxQzg"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="vi" xml:id="i-XM6qiQSYWgQCCedxpmpdm6">Vi</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="ha" xml:id="i-XM6quETqQLNwLKXNqWSX5n">har</w>
 <w msd="UPosTag=VERB|VerbForm=Sup|Voice=Pass" lemma="drabba" xml:id="i-XM6r4PsEcp42bjWGPMtRS4">drabbats</w>
@@ -156,6 +161,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8iSfQGLUzvNHpDYdpKrk">
+                     <measure type="sentiment" quantity="0.051" ana="senti:negneg" corresp="#i-XP8iSfQGLUzvNHpDYdpKrk"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XM6tWpmusW5MBhwB1o6ubS">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XM6tgpVFvZuGPFNKo68oRv">är</w>
 <w msd="UPosTag=DET|Definite=Ind|Gender=Com|Number=Sing" lemma="en" xml:id="i-XM6tqytf93aMefMDLwahnC">en</w>
@@ -234,6 +240,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8iZKsq3CDXqKSKQAWFkQ">
+                     <measure type="sentiment" quantity="4.085" ana="senti:mixpos" corresp="#i-XP8iZKsq3CDXqKSKQAWFkQ"/>
 <w msd="UPosTag=DET|Definite=Def|Gender=Neut|Number=Sing" lemma="den" xml:id="i-XM6zW9oBD3XyMHkgekVDPi">Det</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Sup|Gender=Com,Neut|Number=Plur,Sing" lemma="mycken" xml:id="i-XM6zfKCaRXD4chjaCbw7jz">mesta</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="ha" xml:id="i-XM6zpUbydzt9t7iTkTP26G">har</w>
@@ -260,6 +267,7 @@
                </seg>
                <seg xml:id="i-S1oY4d7865RHuD7CX8Jaen">
                   <s xml:id="i-XP8ifzMPjuS9JM4RFhCBe4">
+                     <measure type="sentiment" quantity="1.542" ana="senti:neuneg" corresp="#i-XP8ifzMPjuS9JM4RFhCBe4"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XM725mqBMpGt1RZa9GxEtU">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XM72GbrUFUFd96SzA1a8DA">är</w>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Ind|Gender=Neut|Number=Sing" lemma="mycket" xml:id="i-XM72QvwvdMmtUNycURS35E">mycket</w>
@@ -298,6 +306,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8inepxScekmNgX7Dt7Xi">
+                     <measure type="sentiment" quantity="3.129" ana="senti:neupos" corresp="#i-XP8inepxScekmNgX7Dt7Xi"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XM74p2cpXhBuKqbUB6JZHn">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XM74xMiGuaiAf886VWAU9r">är</w>
 <w msd="UPosTag=ADV" lemma="naturligtvis" xml:id="i-XM757X7g84PFvY6z3McNW8">naturligtvis</w>
@@ -334,6 +343,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8iuKJX9KsNEQJcxka3RN">
+                     <measure type="sentiment" quantity="3.062" ana="senti:neupos" corresp="#i-XP8iuKJX9KsNEQJcxka3RN"/>
 <w msd="UPosTag=PRON|Definite=Ind|Gender=Neut|Number=Sing" lemma="vad" xml:id="i-XM77KnmH8jpXeKqRjHs1Pz">Vad</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XM77U7rjWdLnycN43hivG4">var</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="rätt" xml:id="i-XM77dHG8j71tF2LwbZApcL">rätt</w>
@@ -362,6 +372,7 @@
                </seg>
                <seg xml:id="i-EbyVUpYMDG9c3zunigRsBj">
                   <s xml:id="i-XP8j19U91Sw9mJUTaqfypp">
+                     <measure type="sentiment" quantity="0.457" ana="senti:negneg" corresp="#i-XP8j19U91Sw9mJUTaqfypp"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="jag" xml:id="i-XM793jtjfQ5hdkAwYEBwkp">Jag</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XM79Djc5iTucqHc6KXDqbJ">är</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing" lemma="ödmjuk" xml:id="i-XM79Nu1Uvwai6haysNfjwa">ödmjuk</w>
@@ -428,6 +439,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8j7owhiA9mEL6ZSNMuiU">
+                     <measure type="sentiment" quantity="3.977" ana="senti:mixpos" corresp="#i-XP8j7owhiA9mEL6ZSNMuiU"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XM7DyS231NHAjpV22YCuZn">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="få" xml:id="i-XM7E8bRSDqxG1ETuaPeov4">får</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="framtid" xml:id="i-XM7EJb8nGunBCmu4MgghkY">framtiden</w>
@@ -502,6 +514,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8jEURGQsNNhMifHu3qc8">
+                     <measure type="sentiment" quantity="1.052" ana="senti:mixneg" corresp="#i-XP8jEURGQsNNhMifHu3qc8"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XM7KXmkwDFAzuYieiG1Umr">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass" lemma="finnas" xml:id="i-XM7KgwALRir6AxhYG7TP88">finns</w>
 <w msd="UPosTag=DET|Definite=Ind|Gender=Com,Neut|Number=Plur" lemma="ingen" xml:id="i-XM7Kr6ZjeCXBSNgRoxuHUQ">inga</w>
@@ -540,6 +553,7 @@
                </seg>
                <seg xml:id="i-WXbB8vboAxQBALChQ2zngr">
                   <s xml:id="i-XP8jLJatGzSAEFtVuz9n1a">
+                     <measure type="sentiment" quantity="0.405" ana="senti:negneg" corresp="#i-XP8jLJatGzSAEFtVuz9n1a"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XM7N7hT81EZktgDvRfVtK6">Det</w>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="jag" xml:id="i-XM7NG2YaP862DxkYk5MoBA">jag</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XM7NQMe2m1cHZFHB4VDi3E">är</w>
@@ -604,6 +618,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8jSy4SyhemhHWbmWqhuE">
+                     <measure type="sentiment" quantity="2.795" ana="senti:neupos" corresp="#i-XP8jSy4SyhemhHWbmWqhuE"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="vi" xml:id="i-XM7SutnuouPnbbTdq1EvkC">Vi</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="måste" xml:id="i-XM7T54CK2P4ss1SXNrgq6U">måste</w>
 <w msd="UPosTag=VERB|VerbForm=Inf|Voice=Act" lemma="ha" xml:id="i-XM7TR3d18WiiG6JpwSkcmS">ha</w>
@@ -650,6 +665,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8jZdY1gQsPAK8hd3Xdnt">
+                     <measure type="sentiment" quantity="3.352" ana="senti:neupos" corresp="#i-XP8jZdY1gQsPAK8hd3Xdnt"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XM7WRxbZ4AgGF5Pyc5pktt">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XM7Wb7zxGeMMWVNs9wGfFA">är</w>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XM7WjT6QeXscqmuVUM8a7E">det</w>
@@ -674,6 +690,7 @@
                </seg>
                <seg xml:id="i-UhYriAYc1VaSjS3TcG3vky">
                   <s xml:id="i-XP8jgJ1aP85zdLkoUaDZgY">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XP8jgJ1aP85zdLkoUaDZgY"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="fru" xml:id="i-XM7XqavD9sbFhfmiKKFtZA">Fru</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="talman" xml:id="i-XM7XzkKcNMGLy5kbsAhnuS" join="right">talman</w>
 <pc msd="UPosTag=PUNCT" xml:id="i-XM7Y95R4kEncJNHEBaZhmW">!</pc>
@@ -684,6 +701,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8jnxV95qJc6NNuL6uVaC">
+                     <measure type="sentiment" quantity="3.921" ana="senti:mixpos" corresp="#i-XP8jnxV95qJc6NNuL6uVaC"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="kristdemokrat" xml:id="i-XM7YK58QoJcXVuiNxsbbbz">Kristdemokraterna</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="anse" xml:id="i-XM7YTQDsBC8nqCF1HHTWU4">anser</w>
 <w msd="UPosTag=SCONJ" lemma="att" xml:id="i-XM7YbjKKZ5f4AUmdbhKRL8">att</w>
@@ -714,6 +732,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8jucxhnYXDZQ11BdbRTr">
+                     <measure type="sentiment" quantity="3.157" ana="senti:neupos" corresp="#i-XP8jucxhnYXDZQ11BdbRTr"/>
 <w msd="UPosTag=ADP" lemma="för" xml:id="i-XM7aKgSn5jvE9u79QdeMgx">För</w>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="detta" xml:id="i-XM7aVgA88ok9MSYJBvgFXS">detta</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass" lemma="behöva" xml:id="i-XM7ae1FaWhGQgj4vWLYAPW">behövs</w>
@@ -754,6 +773,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8k2HSGVFjq2Rd73AHMMW">
+                     <measure type="sentiment" quantity="4.275" ana="senti:mixpos" corresp="#i-XP8k2HSGVFjq2Rd73AHMMW"/>
 <w msd="UPosTag=DET|Definite=Def|Gender=Com|Number=Sing" lemma="den" xml:id="i-XM7dD6dpU6WLjj7vzJSaSY">Den</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing" lemma="parlamentarisk" xml:id="i-XM7dP6MAXALFwGZ5mbUUH2">parlamentariska</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="prövning" xml:id="i-XM7dYFkZje1MCgXyKSvNdJ">prövningen</w>
@@ -796,6 +816,7 @@
                </seg>
                <seg xml:id="i-2MGtXmp13oMwbMz8UJXEjg">
                   <s xml:id="i-XP8k87btMNocZKnwfFPHkx">
+                     <measure type="sentiment" quantity="3.175" ana="senti:neupos" corresp="#i-XP8k87btMNocZKnwfFPHkx"/>
 <w msd="UPosTag=DET|Definite=Def|Gender=Neut|Number=Sing" lemma="den" xml:id="i-XM7g7M8oh3FHFgayoQpngL">Det</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Neut|Number=Sing" lemma="förslag" xml:id="i-XM7gGWYCuWvNX6ZsMGGh2c">förslag</w>
 <w msd="UPosTag=ADP" lemma="till" xml:id="i-XM7gSWFYxakHie128ZJas6">till</w>
@@ -848,6 +869,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8kDwmWDVsQ6DxnHLVEAQ">
+                     <measure type="sentiment" quantity="2.363" ana="senti:neuneg" corresp="#i-XP8kDwmWDVsQ6DxnHLVEAQ"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="beslut" xml:id="i-XM7kAEPRw6ALRvH39p6Hpg">Beslutet</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="ska" xml:id="i-XM7kKPnq9ZqRhLFvhfYCAx">ska</w>
 <w msd="UPosTag=ADV" lemma="dock" xml:id="i-XM7kUZCEN3WWxkEpFWz6XE">dock</w>
@@ -868,6 +890,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8kMSZ1koEqVP39NJm9YG">
+                     <measure type="sentiment" quantity="2.429" ana="senti:neuneg" corresp="#i-XP8kMSZ1koEqVP39NJm9YG"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XM7mTCEXL5riRV2g1WqVbJ">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="ska" xml:id="i-XM7mdBwsP9gdd2TpnosPRn">ska</w>
 <w msd="UPosTag=VERB|VerbForm=Inf|Voice=Act" lemma="beröra" xml:id="i-XM7mnMMGbdMitSSiLfKHn4">beröra</w>
@@ -916,6 +939,7 @@
                </seg>
                <seg xml:id="i-NV2XXgQn7BGBUxkVpEVhBx">
                   <s xml:id="i-XP8kTGidcvJd2HCyzPs5wi">
+                     <measure type="sentiment" quantity="4.134" ana="senti:mixpos" corresp="#i-XP8kTGidcvJd2HCyzPs5wi"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="vi" xml:id="i-XM7pqmFf33mkfotehd9QN8">Vi</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Plur" lemma="kristdemokrat" xml:id="i-XM7pzvf4FXSqwDsYFUbJiQ">kristdemokrater</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="stå" xml:id="i-XM7qA64TU17wCdrRoL3D4g">står</w>
@@ -962,6 +986,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8kamW9ADg4RSHM5N91Ka">
+                     <measure type="sentiment" quantity="3.048" ana="senti:neupos" corresp="#i-XP8kamW9ADg4RSHM5N91Ka"/>
 <w msd="UPosTag=CCONJ" lemma="men" xml:id="i-XM7tFAajabqcrGCtdB3JdA">Men</w>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="vi" xml:id="i-XM7tRAJ5dffY3oe3QU5CTe">vi</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="ha" xml:id="i-XM7tbA1RgjVTFM5CBm76J8">har</w>
@@ -994,6 +1019,7 @@
                </seg>
                <seg xml:id="i-NSE2MK7qsQGPdXXtYDiwDi">
                   <s xml:id="i-XP8kgbfm2LjqxLTBhTEwj2">
+                     <measure type="sentiment" quantity="2.334" ana="senti:neuneg" corresp="#i-XP8kgbfm2LjqxLTBhTEwj2"/>
 <w msd="UPosTag=ADP" lemma="för" xml:id="i-XM7vQ6zZEvfaqY8HPLwyaC">För</w>
 <w msd="UPosTag=DET|Definite=Def|Gender=Neut|Number=Sing" lemma="den" xml:id="i-XM7vZGPxTQLg6x7AwCPsvU">det</w>
 <w msd="UPosTag=ADJ|Case=Nom" lemma="första" xml:id="i-XM7viRoMft1mNN64V3qnGk">första</w>
@@ -1058,6 +1084,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8koG9Kj3xTRN5HYyvscg">
+                     <measure type="sentiment" quantity="3.157" ana="senti:neupos" corresp="#i-XP8koG9Kj3xTRN5HYyvscg"/>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="ska" xml:id="i-XM81Fda8Px6vGyB3iT2yx8">Ska</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="riksdag" xml:id="i-XM81QnyXcRn1YP9wGJUtJQ">riksdagen</w>
 <w msd="UPosTag=VERB|VerbForm=Inf|Voice=Act" lemma="klara" xml:id="i-XM81ZxNvpuT6oo8pp9vneg">klara</w>
@@ -1086,6 +1113,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8ku6JwbB2ExGF8B52p28">
+                     <measure type="sentiment" quantity="4.632" ana="senti:pospos" corresp="#i-XP8ku6JwbB2ExGF8B52p28"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="jag" xml:id="i-XM83CueiL2oKCSkmESjn6G">Jag</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XM83NuN4P6dEPzBv1jmfvk">är</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing" lemma="glad" xml:id="i-XM83Yu5QSAT9bXd4o2oZmE">glad</w>
@@ -1130,6 +1158,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8m1knWHtErRHsE2bijun">
+                     <measure type="sentiment" quantity="3.694" ana="senti:mixpos" corresp="#i-XP8m1knWHtErRHsE2bijun"/>
 <w msd="UPosTag=ADP" lemma="i" xml:id="i-XM86UpCHLHVjyjze52MkyS">I</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="praktik" xml:id="i-XM86eoudPMKfBHRnrKPeov">praktiken</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="innebära" xml:id="i-XM86pocySR9aNprwdcRYeQ">innebär</w>
@@ -1162,6 +1191,7 @@
                </seg>
                <seg xml:id="i-Cw3m4h9eej3BoYfa4vWQ7Y">
                   <s xml:id="i-XP8m8RG4zbTTtKVKt8QfoS">
+                     <measure type="sentiment" quantity="0.846" ana="senti:mixneg" corresp="#i-XP8m8RG4zbTTtKVKt8QfoS"/>
 <w msd="UPosTag=ADP" lemma="för" xml:id="i-XM88aRNKeFiQEW6yuRvTye">För</w>
 <w msd="UPosTag=DET|Definite=Def|Gender=Neut|Number=Sing" lemma="den" xml:id="i-XM88jamirjPVVv5sTHNNKv">det</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing" lemma="annan" xml:id="i-XM88uaV4uoDQhTX2EaQGAQ">andra</w>
@@ -1196,6 +1226,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8mF5jdhJg5MM7Rjf6bh6">
+                     <measure type="sentiment" quantity="0.265" ana="senti:negneg" corresp="#i-XP8mF5jdhJg5MM7Rjf6bh6"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="regering" xml:id="i-XM8B21y44MattM5dJRYxep">Regeringen</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" lemma="underlåta" xml:id="i-XM8BC1gQ7RQp5tWn5iarVJ">underlät</w>
 <w msd="UPosTag=ADV" lemma="dessutom" xml:id="i-XM8BMB5oKu5uMJVfda2kqa">dessutom</w>
@@ -1224,6 +1255,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8mMkDCQ1tgpNjXbBnXak">
+                     <measure type="sentiment" quantity="3.716" ana="senti:mixpos" corresp="#i-XP8mMkDCQ1tgpNjXbBnXak"/>
 <w msd="UPosTag=ADP" lemma="trots" xml:id="i-XM8Cz8Maq2S7jx7c3rqkHA">Trots</w>
 <w msd="UPosTag=DET|Definite=Def|Gender=Com|Number=Sing" lemma="den" xml:id="i-XM8D9Hkz3W7D1N6VbiHedS">den</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing" lemma="kort" xml:id="i-XM8DJTAPFynJGn5P9ZjYyi">korta</w>
@@ -1268,6 +1300,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8mUQgm6j7JHQMdSiUTUQ">
+                     <measure type="sentiment" quantity="0.305" ana="senti:negneg" corresp="#i-XP8mUQgm6j7JHQMdSiUTUQ"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="kritik" xml:id="i-XM8GFCbCzgyib7uDezsjg8">Kritiken</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XM8GPXgfNaVyvQRqyQjeYC">var</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing" lemma="skarp" xml:id="i-XM8GYh64b4B5BpQjXGBYtU" join="right">skarp</w>
@@ -1280,6 +1313,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8maErNxrB5pJXU4oaPsr">
+                     <measure type="sentiment" quantity="3.146" ana="senti:neupos" corresp="#i-XP8maErNxrB5pJXU4oaPsr"/>
 <w msd="UPosTag=ADP" lemma="bland" xml:id="i-XM8Gs1ts21XFieNWcy5Mb2">Bland</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur" lemma="annan" xml:id="i-XM8H2BJGEVCLz4MQApXFwJ">andra</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing" lemma="svensk" xml:id="i-XM8HBLhfSxsSFULHifyAHa">Svensk</w>
@@ -1372,6 +1406,7 @@
                </seg>
                <seg xml:id="i-Q4LxuQDovmC4XYTFBb7tdJ">
                   <s xml:id="i-XP8mg51zpyEsMChJgtgLHJ">
+                     <measure type="sentiment" quantity="2.378" ana="senti:neuneg" corresp="#i-XP8mg51zpyEsMChJgtgLHJ"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="vi" xml:id="i-XM8PWf9ctdytp926vDRFkp">Vi</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Plur" lemma="kristdemokrat" xml:id="i-XM8PyK3shUrLgFWWLLAyKS">kristdemokrater</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" lemma="uppmana" xml:id="i-XM8Q9JmDkYgFsnwf7dCs9v">uppmanade</w>
@@ -1436,6 +1471,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8mnjVZXgTUpEKQYRNGAx">
+                     <measure type="sentiment" quantity="0.147" ana="senti:negneg" corresp="#i-XP8mnjVZXgTUpEKQYRNGAx"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XM8Ue1c9xrJvz1frehe6Ng">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XM8UnLhcLjqCKJCUy7W1Ek">är</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing" lemma="beklaglig" xml:id="i-XM8UxLQxPof7WqddkQXu5E">beklagligt</w>
@@ -1476,6 +1512,7 @@
                </seg>
                <seg xml:id="i-GEUwvKYttjH26TLmycmJFC">
                   <s xml:id="i-XP8mtZfBPoXGM8VFAWUCaQ">
+                     <measure type="sentiment" quantity="2.338" ana="senti:neuneg" corresp="#i-XP8mtZfBPoXGM8VFAWUCaQ"/>
 <w msd="UPosTag=ADP" lemma="i" xml:id="i-XM8XLbmuTYvJSAoEDdpRoa">I</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="ställe" xml:id="i-XM8XVmBJg2bPhan7mVGL9r">stället</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="skriva" xml:id="i-XM8XevahtWGUxzm1KLiEW8">skriver</w>
@@ -1536,6 +1573,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8n1E8k6WjspA7M23A8U4">
+                     <measure type="sentiment" quantity="5.044" ana="senti:pospos" corresp="#i-XP8n1E8k6WjspA7M23A8U4"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XM8bryEjM2rdQeRxDbRdzk">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XM8c28e8ZWXig4QqmSsYM2">är</w>
 <w msd="UPosTag=DET|Definite=Ind|Gender=Neut|Number=Sing" lemma="en" xml:id="i-XM8cC8MUcaMdsbqzYjuSBW">ett</w>
@@ -1556,6 +1594,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8n74JMxdofM4HBe8G4sW">
+                     <measure type="sentiment" quantity="1.766" ana="senti:neuneg" corresp="#i-XP8n74JMxdofM4HBe8G4sW"/>
 <w msd="UPosTag=CCONJ" lemma="men" xml:id="i-XM8d9w5pk2Z1QDBb5JAqmN">Men</w>
 <w msd="UPosTag=DET|Definite=Def|Gender=Com,Neut|Number=Plur" lemma="den" xml:id="i-XM8dK6VDxWE6fdAUd9ck7e">de</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Plur" lemma="föreskrift" xml:id="i-XM8dV6Ca1a41sAbdQSedx8">föreskrifter</w>
@@ -1596,6 +1635,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8nCtTypksSsxT2GDN1Gx">
+                     <measure type="sentiment" quantity="0.854" ana="senti:mixneg" corresp="#i-XP8nCtTypksSsxT2GDN1Gx"/>
 <w msd="UPosTag=PART" lemma="att" xml:id="i-XM8g3MGs8P97z3CNexy4Wx">Att</w>
 <w msd="UPosTag=VERB|VerbForm=Inf|Voice=Act" lemma="göra" xml:id="i-XM8gDLzDBSy3BadXSFzxMS">göra</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur" lemma="enskild" xml:id="i-XM8gNWPcPve8SzcQz7Srhi">enskilda</w>
@@ -1626,6 +1666,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8nJidbgswEQrcrtJTwgQ">
+                     <measure type="sentiment" quantity="0.375" ana="senti:negneg" corresp="#i-XP8nJidbgswEQrcrtJTwgQ"/>
 <w msd="UPosTag=ADP" lemma="på" xml:id="i-XM8iBTNjx7pG3BfWBhHjyn">På</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="grund" xml:id="i-XM8iLcn9AbVMJbePjYjeL4">grund</w>
 <w msd="UPosTag=ADP" lemma="av" xml:id="i-XM8iUwsbYV1cdtB23xbZC8">av</w>
@@ -1662,6 +1703,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8nRP7APb9qstExjq9sa4">
+                     <measure type="sentiment" quantity="0.427" ana="senti:negneg" corresp="#i-XP8nRP7APb9qstExjq9sa4"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="regering" xml:id="i-XM8kjiT34vuNA4GFSDcAYc">Regeringen</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="ge" xml:id="i-XM8kuiAP7zjHMbhQDWe4P6">ger</w>
 <w msd="UPosTag=ADV" lemma="heller" xml:id="i-XM8m4sZnLUQNd1gHmN5xjN">heller</w>
@@ -1712,6 +1754,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8nY3aj6JNTLus4bMqoTi">
+                     <measure type="sentiment" quantity="0.231" ana="senti:negneg" corresp="#i-XP8nY3aj6JNTLus4bMqoTi"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XM8pUGtrt2UEoTzXguyrzQ">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="duga" xml:id="i-XM8pcbzKFuzW8kXA1KqmrU">duger</w>
 <w msd="UPosTag=ADV" lemma="inte" xml:id="i-XM8pmmPiUPfbQAW3ZBHgCk" join="right">inte</w>
@@ -1726,6 +1769,7 @@
                </seg>
                <seg xml:id="i-VxmDrp3vFzrSk7NyxXmkW8">
                   <s xml:id="i-XP8nei4Ho1b4owVAStXjMN">
+                     <measure type="sentiment" quantity="0.076" ana="senti:negneg" corresp="#i-XP8nei4Ho1b4owVAStXjMN"/>
 <w msd="UPosTag=DET|Definite=Def|Gender=Com|Number=Sing" lemma="den" xml:id="i-XM8q6vWTjwAbs7v5tKmUPW">Den</w>
 <w msd="UPosTag=VERB|Case=Nom|Definite=Def,Ind|Gender=Com,Neut|Number=Plur,Sing|Tense=Pres|VerbForm=Part" lemma="rådande" xml:id="i-XM8qGvDonzzX4fMEfcoNDz">rådande</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing" lemma="ekonomisk" xml:id="i-XM8qRFKGAtWnPwsrz2fH64">ekonomiska</w>
@@ -1792,6 +1836,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8nkYDuf8erLqf14ydfkp">
+                     <measure type="sentiment" quantity="0.150" ana="senti:negneg" corresp="#i-XP8nkYDuf8erLqf14ydfkp"/>
 <w msd="UPosTag=DET|Definite=Def|Gender=Com|Number=Sing" lemma="den" xml:id="i-XM8v5wsYSFyNhi3DJQ8Q9J">Den</w>
 <w msd="UPosTag=VERB|Case=Nom|Definite=Def|Gender=Com,Neut|Number=Sing|Tense=Past|VerbForm=Part" lemma="föreslagen" xml:id="i-XM8vFwatVKoHuFUN5hAHyn">föreslagna</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="lag" xml:id="i-XM8vR6zHhoUPAfTFdYcCL4">lagen</w>
@@ -1816,6 +1861,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8nsChUMqsTosH6vWKbeU">
+                     <measure type="sentiment" quantity="0.740" ana="senti:mixneg" corresp="#i-XP8nsChUMqsTosH6vWKbeU"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="försörjning" xml:id="i-XM8whEXSGD1wE6kdFomQcU">Försörjning</w>
 <w msd="UPosTag=CCONJ" lemma="och" xml:id="i-XM8wrPvqUgh2VWjWofDJxk">och</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Neut|Number=Sing" lemma="livsverk" xml:id="i-XM8x3Dx8NLfmdBcvpPqCHS">livsverk</w>
@@ -1834,6 +1880,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8nysB34Z65GtuCn31XY8">
+                     <measure type="sentiment" quantity="4.108" ana="senti:mixpos" corresp="#i-XP8nysB34Z65GtuCn31XY8"/>
 <w msd="UPosTag=DET|Definite=Ind|Gender=Neut|Number=Sing" lemma="en" xml:id="i-XM8xqsH5HKC3tNydo6ehX2">Ett</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing" lemma="tydlig" xml:id="i-XM8y12gUVns99nxXLx6bsJ">tydligt</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Neut|Number=Sing" lemma="regelverk" xml:id="i-XM8yAC5siGYERCwQtoYWDa">regelverk</w>
@@ -1898,6 +1945,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8o6XebmGJgjvXJdZhTRn">
+                     <measure type="sentiment" quantity="2.224" ana="senti:neuneg" corresp="#i-XP8o6XebmGJgjvXJdZhTRn"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="vi" xml:id="i-XM93p4LD93qznqeVyjRdnc">Vi</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Plur" lemma="kristdemokrat" xml:id="i-XM93yDjcMXX64FdPXasY8t">kristdemokrater</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="mena" xml:id="i-XM947Yq4jR3MPYA1qzjSzx">menar</w>
@@ -1936,6 +1984,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8oDC8ATyXJCx9QV6PPKS">
+                     <measure type="sentiment" quantity="3.827" ana="senti:mixpos" corresp="#i-XP8oDC8ATyXJCx9QV6PPKS"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="jag" xml:id="i-XM96beMdfHNKqmVSwK7v8k">Jag</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vilja" xml:id="i-XM96jyT63AtbB425Fiypzp">vill</w>
 <w msd="UPosTag=ADV" lemma="därför" xml:id="i-XM96uyAS6EiWNbTE321iqJ">därför</w>
@@ -1970,6 +2019,7 @@
                </seg>
                <seg xml:id="i-GWLERytzc9SSUZBd1B4ZPT">
                   <s xml:id="i-XP8oKrbjAgjufymWLd5KD6">
+                     <measure type="sentiment" quantity="2.189" ana="senti:neuneg" corresp="#i-XP8oKrbjAgjufymWLd5KD6"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XM98sFF22KQuJ52wZ1iWyS">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XM993ExN5PEpVcU6LJkQov">är</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing" lemma="nödvändig" xml:id="i-XM99E4yey3DZdHMWM3NJ8c">nödvändigt</w>
@@ -2006,6 +2056,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8oRgmM2oohCswLxiBFcY">
+                     <measure type="sentiment" quantity="2.429" ana="senti:neuneg" corresp="#i-XP8oRgmM2oohCswLxiBFcY"/>
 <w msd="UPosTag=ADV" lemma="lika" xml:id="i-XM9C6erkWoerGyv2hGaXPz">Lika</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing" lemma="nödvändig" xml:id="i-XM9CK9Vw5dwFGuhyAtNPh6">nödvändigt</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XM9CVyXDyHuzQabPBczH1n">är</w>
@@ -2042,6 +2093,7 @@
                </seg>
                <seg xml:id="i-MMQxxeBoB6ecURXwmGDMXv">
                   <s xml:id="i-XP8oYMEujX2JfuZSpEsBWC">
+                     <measure type="sentiment" quantity="4.908" ana="senti:pospos" corresp="#i-XP8oYMEujX2JfuZSpEsBWC"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="jag" xml:id="i-XM9EdFK9xSSJXbcFUuixzQ">Jag</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vilja" xml:id="i-XM9EnQiZAv7Po1b92mAsLg">vill</w>
 <w msd="UPosTag=ADV" lemma="slutligen" xml:id="i-XM9Evjp1Yodf8J7mMB2nCk">slutligen</w>
@@ -2120,9 +2172,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-SE_2020-04-16-prot-201920--106.ana.note19">Anf . 2 CAMILLA WALTERSSON GRÖNVALL ( M ) :</note>
-            <u ana="#regular" who="#Q4990177" xml:id="i-19e7640c7a732d9e-15">
+            <u ana="#regular topic:healt" who="#Q4990177" xml:id="i-19e7640c7a732d9e-15">
                <seg xml:id="i-GNxq4Hmy4c7QoULuLi6qf5">
                   <s xml:id="i-XP8of1iUSEEv8wBYfmZ7Pr">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XP8of1iUSEEv8wBYfmZ7Pr"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="fru" xml:id="i-XM9LTQw25WDqRmSsa1fNSQ">Fru</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="talman" xml:id="i-XM9LdQeN8a3kdJt2MJhGGt" join="right">talman</w>
 <pc msd="UPosTag=PUNCT" xml:id="i-XM9Lna3mM3iqtiruuA9AdA">!</pc>
@@ -2133,6 +2186,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8omgC38wTXbxoeXJF3HW">
+                     <measure type="sentiment" quantity="4.219" ana="senti:mixpos" corresp="#i-XP8omgC38wTXbxoeXJF3HW"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="coronapandemi" xml:id="i-XM9LwjTAZXPwA8qoT1b4yS">Coronapandemin</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="ha" xml:id="i-XM9M6trZn152RYpgzs2yKi">har</w>
 <w msd="UPosTag=VERB|VerbForm=Sup|Voice=Act" lemma="lära" xml:id="i-XM9MG4FxzUk7gxoaYiUsfz">lärt</w>
@@ -2247,6 +2301,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8osWMf14XK8ryV9PLygx">
+                     <measure type="sentiment" quantity="0.210" ana="senti:negneg" corresp="#i-XP8osWMf14XK8ryV9PLygx"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="situation" xml:id="i-XM9VjUooFtXiJmxXGzFec4">Situationen</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XM9VsouFdn3ye4V9bQ7ZU8">är</w>
 <w msd="UPosTag=ADP" lemma="på" xml:id="i-XM9W2yJerFj4uUU39FZTpQ">på</w>
@@ -2285,6 +2340,7 @@
                </seg>
                <seg xml:id="i-FDSttdmdep1J5bpsyTdqgT">
                   <s xml:id="i-XP8ozAqDhmjvbtbazv2uac">
+                     <measure type="sentiment" quantity="0.884" ana="senti:mixneg" corresp="#i-XP8ozAqDhmjvbtbazv2uac"/>
 <w msd="UPosTag=ADP" lemma="i" xml:id="i-XM9YLEovtU5JE2v4DqL3dW">I</w>
 <w msd="UPosTag=DET|Definite=Def|Gender=Com|Number=Sing" lemma="denna" xml:id="i-XM9YVQDL6wkPVStwmgmwyn">denna</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing" lemma="allvarlig" xml:id="i-XM9YgEEczbj8d7nMnRPqJU">allvarliga</w>
@@ -2323,6 +2379,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8p6qJnQUxY4vDgrSiqUG">
+                     <measure type="sentiment" quantity="1.491" ana="senti:mixneg" corresp="#i-XP8p6qJnQUxY4vDgrSiqUG"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XM9b3fHdDkqVcKVh2D6NYc">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XM9bEVJv7QpEjzP72wiFsJ">är</w>
 <w msd="UPosTag=ADV" lemma="också" xml:id="i-XM9bQV2GAUe9wXpFpEk9hn">också</w>
@@ -2377,6 +2434,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8pDVnM7CB9XwqnhyQmMv">
+                     <measure type="sentiment" quantity="0.478" ana="senti:negneg" corresp="#i-XP8pDVnM7CB9XwqnhyQmMv"/>
 <w msd="UPosTag=ADV" lemma="därmed" xml:id="i-XM9fAi5yekWgTCT4XpHq7z">Därmed</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass" lemma="sätta" xml:id="i-XM9fLhoKhpLbejtDK7KixU">sätts</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur" lemma="stor" xml:id="i-XM9fVsCivJ1gv9s6rxmdJk">stora</w>
@@ -2401,6 +2459,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8pLAFuouPkzyTtZW6hFa">
+                     <measure type="sentiment" quantity="0.185" ana="senti:negneg" corresp="#i-XP8pLAFuouPkzyTtZW6hFa"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XM9gnq3pKHi4uicjifWq5N">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="handla" xml:id="i-XM9gxpmANMXz7G3tVxYiur">handlar</w>
 <w msd="UPosTag=ADV" lemma="bokstavligen" xml:id="i-XM9h79rckF4FSYaWpNQdmv">bokstavligen</w>
@@ -2441,6 +2500,7 @@
                </seg>
                <seg xml:id="i-RvDGMAvZEssNh4Q1qUwySZ">
                   <s xml:id="i-XP8pRzRXg2TYXsdjBbCdf2">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XP8pRzRXg2TYXsdjBbCdf2"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="fru" xml:id="i-XM9jVRDZozKSMsk7HbhAWG">Fru</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="talman" xml:id="i-XM9jfQvus49MZRBG4tj4Lk" join="right">talman</w>
 <pc msd="UPosTag=PUNCT" xml:id="i-XM9jpaLK5XpSpqA9ckAxh2">!</pc>
@@ -2451,6 +2511,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8pYeu6Njg9zuFq37tZYg">
+                     <measure type="sentiment" quantity="3.083" ana="senti:neupos" corresp="#i-XP8pYeu6Njg9zuFq37tZYg"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="regering" xml:id="i-XM9kzshqmpJDMNHgcvEEZz">Regeringen</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="föreslå" xml:id="i-XM9mAsRBpt88YuiqQDG8QU">föreslår</w>
 <w msd="UPosTag=SCONJ" lemma="att" xml:id="i-XM9mL2pb3MoDpKhix4i2kk">att</w>
@@ -2501,6 +2562,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8peV4iErjwXoRffCzVx8">
+                     <measure type="sentiment" quantity="2.223" ana="senti:neuneg" corresp="#i-XP8peV4iErjwXoRffCzVx8"/>
 <w msd="UPosTag=DET|Definite=Def|Gender=Com,Neut|Number=Plur" lemma="den" xml:id="i-XM9pdbz3inoJTsr8FXVzcL">De</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur" lemma="ny" xml:id="i-XM9pnmPSwGUPjHq1oNwtxc">nya</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="bestämmelse" xml:id="i-XM9pw6UuK9zf4aMe7noopg">bestämmelserna</w>
@@ -2527,6 +2589,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8pm9YGwZxYzq3mWjgRqn">
+                     <measure type="sentiment" quantity="2.006" ana="senti:neuneg" corresp="#i-XP8pm9YGwZxYzq3mWjgRqn"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XM9rNPRT63DJPRduHuQvTN">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="handla" xml:id="i-XM9rWiWuTvjZiiAXcKGqKS">handlar</w>
 <w msd="UPosTag=ADP" lemma="om" xml:id="i-XM9rfsvJgQQez89RAAijfi">om</w>
@@ -2637,6 +2700,7 @@
                </seg>
                <seg xml:id="i-NvkfvsogbpYaY4BZdpWv41">
                   <s xml:id="i-XP8psp1qeHBATrfsNGNMjS">
+                     <measure type="sentiment" quantity="0.654" ana="senti:mixneg" corresp="#i-XP8psp1qeHBATrfsNGNMjS"/>
                      <name type="LOC">
 <w msd="UPosTag=PROPN|Case=Nom" lemma="Sverige" xml:id="i-XM9zXVAUvVeiUQq4vUHtgt">Sverige</w>
                      </name>
@@ -2661,6 +2725,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8pyeBTWQEwzkqhzMUJ8t">
+                     <measure type="sentiment" quantity="2.032" ana="senti:neuneg" corresp="#i-XP8pyeBTWQEwzkqhzMUJ8t"/>
 <w msd="UPosTag=ADP" lemma="för" xml:id="i-XMA1w7V92CZhw1Codhj2MA">För</w>
 <w msd="UPosTag=PART" lemma="att" xml:id="i-XMA26GtYEgEoCRBhBZAvhS">att</w>
 <w msd="UPosTag=VERB|VerbForm=Inf|Voice=Act" lemma="möta" xml:id="i-XMA2FSHwT9utTqAajQcq3i">möta</w>
@@ -2731,6 +2796,7 @@
                </seg>
                <seg xml:id="i-9xk4FNm1ymL9Gbr95DVDBc">
                   <s xml:id="i-XP8q5UM5NXJjXf1YcSaEYL">
+                     <measure type="sentiment" quantity="1.230" ana="senti:mixneg" corresp="#i-XP8q5UM5NXJjXf1YcSaEYL"/>
 <w msd="UPosTag=SCONJ" lemma="att" xml:id="i-XMA6woU7Phg8drETWfFw5N">Att</w>
                      <name type="LOC">
 <w msd="UPosTag=PROPN|Case=Nom" lemma="Sverige" xml:id="i-XMA76xsWcBMDuGDM4WhqRe">Sverige</w>
@@ -2793,6 +2859,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8qC8pe5EXLzgdeTyGARz">
+                     <measure type="sentiment" quantity="1.260" ana="senti:mixneg" corresp="#i-XP8qC8pe5EXLzgdeTyGARz"/>
 <w msd="UPosTag=CCONJ" lemma="men" xml:id="i-XMABMWTNaUPr9JF5f6BDNt">Men</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="sätt" xml:id="i-XMABVqYpxMv7UamhyW38Ex">sättet</w>
 <w msd="UPosTag=PRON" lemma="som" xml:id="i-XMABezxEAqbCjzkbXMV2bE">som</w>
@@ -2827,6 +2894,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8qKdc9cXtnPqi1YwY5or">
+                     <measure type="sentiment" quantity="0.378" ana="senti:negneg" corresp="#i-XP8qKdc9cXtnPqi1YwY5or"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XMADi7CRy3MPCNW9fSHm8p">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" lemma="torde" xml:id="i-XMADsGbqBX2UTnV3DHjfV6">torde</w>
 <w msd="UPosTag=VERB|VerbForm=Inf|Voice=Act" lemma="vara" xml:id="i-XMAE1bhHZQYjo51fXhbaMA">vara</w>
@@ -2867,6 +2935,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8qRTmmUexZvjsrB2e2DJ">
+                     <measure type="sentiment" quantity="1.155" ana="senti:mixneg" corresp="#i-XP8qRTmmUexZvjsrB2e2DJ"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com,Neut|Number=Plur" lemma="de" xml:id="i-XMAGWXXoKs2YBRoMrTa2yA">De</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" lemma="börja" xml:id="i-XMAGfgwCYLhdSqnFQK1wKS">började</w>
 <w msd="UPosTag=ADV" lemma="inte" xml:id="i-XMAGprLbkpNiiFm8xATqfi">inte</w>
@@ -2901,6 +2970,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8qY8FLBNBBPmVx2ZKx6x">
+                     <measure type="sentiment" quantity="0.751" ana="senti:mixneg" corresp="#i-XP8qY8FLBNBBPmVx2ZKx6x"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com,Neut|Number=Plur" lemma="de" xml:id="i-XMAJs8GriRz5EW4Rrogaj6">De</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" lemma="ha" xml:id="i-XMAK1TNK6KWLZnb4BDYVbA">hade</w>
 <w msd="UPosTag=ADV" lemma="inte" xml:id="i-XMAKAcmiJoBRqCZwj4zPwS">inte</w>
@@ -2921,6 +2991,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8qdxQx3VExvffneeRtWQ">
+                     <measure type="sentiment" quantity="2.710" ana="senti:neupos" corresp="#i-XP8qdxQx3VExvffneeRtWQ"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="detta" xml:id="i-XMAL6ktAm559VZ11nk5pYt">Detta</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XMALFvHZyYkEkxyuLbXiuA">var</w>
 <w msd="UPosTag=DET|Definite=Ind|Gender=Neut|Number=Sing" lemma="en" xml:id="i-XMALQFP2MSGW6FWXf1PdmE">ett</w>
@@ -2949,6 +3020,7 @@
                </seg>
                <seg xml:id="i-TfRZhYyyLawH3bweDJdxod">
                   <s xml:id="i-XP8qkctWkCTaPhHtWB7pQ4">
+                     <measure type="sentiment" quantity="1.403" ana="senti:mixneg" corresp="#i-XP8qkctWkCTaPhHtWB7pQ4"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="detta" xml:id="i-XMAMqYKa8KV9R6nnq7zkPv">Detta</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XMAMysR2WD1QkPKR9XrfFz">är</w>
 <w msd="UPosTag=ADV" lemma="inte" xml:id="i-XMAN92pRiggW1oJJhPJZcG">inte</w>
@@ -2969,6 +3041,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8qrT48cKXMvbTj8GDkoW">
+                     <measure type="sentiment" quantity="0.337" ana="senti:negneg" corresp="#i-XP8qrT48cKXMvbTj8GDkoW"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Com|Number=Sing" lemma="den" xml:id="i-XMAP6qYmr8ssYQduDwZyC8">Den</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="ge" xml:id="i-XMAPFAeEE2Q8shAXYMRt4C">ger</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="regering" xml:id="i-XMAPQL3dSW5E979R6CsnQU">regeringen</w>
@@ -3005,6 +3078,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8qy7XhK2jyPd5pynughA">
+                     <measure type="sentiment" quantity="4.752" ana="senti:pospos" corresp="#i-XP8qy7XhK2jyPd5pynughA"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="vi" xml:id="i-XMAReGK88Mp9j9nPF2JQGk">Vi</w>
 <w msd="UPosTag=ADP" lemma="i" xml:id="i-XMARoRiXLqVEzZmGnskJd2">i</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="moderat" xml:id="i-XMARxb7vZKALFykALjCCyJ">Moderaterna</w>
@@ -3065,6 +3139,7 @@
                </seg>
                <seg xml:id="i-WNKH7VtXozkU2dxJjsz6gt">
                   <s xml:id="i-XP8r5n1G1jxarehvqKbcap">
+                     <measure type="sentiment" quantity="2.740" ana="senti:neupos" corresp="#i-XP8r5n1G1jxarehvqKbcap"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XMAVrJy9atQJAoTL9H1omN">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XMAW2JgVdxEDNLtUva3hbr">är</w>
 <w msd="UPosTag=ADV|Degree=Pos" lemma="oerhört" xml:id="i-XMAWBU5trRuJdksNURVbx8">oerhört</w>
@@ -3157,6 +3232,7 @@
                </seg>
                <seg xml:id="i-Ds5WwC2PZFCMnckgwUAeWv">
                   <s xml:id="i-XP8rCSUpiTBCKgL2grHYUU">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XP8rCSUpiTBCKgL2grHYUU"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="fru" xml:id="i-XMAcfwwFWagrTqY5DpPbme">Fru</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="talman" xml:id="i-XMAcq7Lej4MwjFWxmfqW7v" join="right">talman</w>
 <pc msd="UPosTag=PUNCT" xml:id="i-XMAczGk3wY32zfVrKXHQUC">!</pc>
@@ -3167,6 +3243,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8rK6xPRAPonhx8YNyUN8">
+                     <measure type="sentiment" quantity="0.893" ana="senti:mixneg" corresp="#i-XP8rK6xPRAPonhx8YNyUN8"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="vi" xml:id="i-XMAdAGTPzbrxCCw16pKJJg">Vi</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="dela" xml:id="i-XMAdJbYrNVPDXVTdREBDAk">delar</w>
 <w msd="UPosTag=NOUN|Case=Gen|Definite=Def|Gender=Neut|Number=Sing" lemma="lagråd" xml:id="i-XMAdVRa9G9MxfAM3Rxo6VS">Lagrådets</w>
@@ -3211,6 +3288,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8rQw81HHTbKc7yAU5Qma">
+                     <measure type="sentiment" quantity="2.843" ana="senti:neupos" corresp="#i-XP8rQw81HHTbKc7yAU5Qma"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Neut|Number=Plur" lemma="förslag" xml:id="i-XMAgHquWcy37eDeFcz5NKn">Förslagen</w>
 <w msd="UPosTag=ADP" lemma="i" xml:id="i-XMAgT1JuqSiCudd9AqXGg4">i</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="proposition" xml:id="i-XMAgbLQNDLEUEv9mVFPBY8">propositionen</w>
@@ -3243,6 +3321,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8rWmHd9QXNrWHonZBMB2">
+                     <measure type="sentiment" quantity="1.255" ana="senti:mixneg" corresp="#i-XP8rWmHd9QXNrWHonZBMB2"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XMAiW7Z7deUPN1NhJvL1De">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="ske" xml:id="i-XMAifGxWr89UdRMarmmuZv">sker</w>
 <w msd="UPosTag=ADV" lemma="dessutom" xml:id="i-XMAioc3yE1fjxhtDBBdpRz">dessutom</w>
@@ -3277,6 +3356,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8rdRmBr7jzKXuue5sH4g">
+                     <measure type="sentiment" quantity="0.154" ana="senti:negneg" corresp="#i-XP8rdRmBr7jzKXuue5sH4g"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XMAkriJB2DRvR5dmKGSYya">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XMAm2i1X5HFqcd4v6ZUSp4">är</w>
 <w msd="UPosTag=ADV" lemma="därför" xml:id="i-XMAmBsQvHkvvt33oeQvMAL">därför</w>
@@ -3329,6 +3409,7 @@
                </seg>
                <seg xml:id="i-R5g1ncnzhCpWbzQZW7C3BX">
                   <s xml:id="i-XP8rk6EkYpxbnZY1VcZCxL">
+                     <measure type="sentiment" quantity="2.097" ana="senti:neuneg" corresp="#i-XP8rk6EkYpxbnZY1VcZCxL"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="moderat" xml:id="i-XMApVSaNyBw1XbCCwsiK1v">Moderaterna</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="dela" xml:id="i-XMApebynBfc6o1B6VjADNC">delar</w>
 <w msd="UPosTag=ADV" lemma="emellertid" xml:id="i-XMApnw5EZZ8N8Hhip928EG">emellertid</w>
@@ -3435,6 +3516,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8rrkiKFYBDFbA7M9F8qz">
+                     <measure type="sentiment" quantity="3.758" ana="senti:mixpos" corresp="#i-XP8rrkiKFYBDFbA7M9F8qz"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XMAxM3pZDHB51ssriBHU36">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="innebära" xml:id="i-XMAxXsqr6w9p9YmGiuuMMn">innebär</w>
 <w msd="UPosTag=SCONJ" lemma="att" xml:id="i-XMAxh3FFKQpuQxkAGmMFi4">att</w>
@@ -3483,6 +3565,7 @@
                </seg>
                <seg xml:id="i-3z7xYCy2kkWNLTcNMtX1td">
                   <s xml:id="i-XP8ryRBsxFPpicnDCfw4je">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XP8ryRBsxFPpicnDCfw4je"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="fru" xml:id="i-XMB1dng5482KjJZznCVSQU">Fru</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="talman" xml:id="i-XMB1onPR7BrEvr19ZVXLEx" join="right">talman</w>
 <pc msd="UPosTag=PUNCT" xml:id="i-XMB1x7UsV5NWG8XmsuPF72">!</pc>
@@ -3493,6 +3576,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8s5FMVpNTcFWx3pm3196">
+                     <measure type="sentiment" quantity="1.125" ana="senti:mixneg" corresp="#i-XP8s5FMVpNTcFWx3pm3196"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="moderat" xml:id="i-XMB27GtGhZ3bXYWfRkq9TJ">Moderaterna</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="ha" xml:id="i-XMB2HGbckcsWj5wpD3s3Hn">har</w>
 <w msd="UPosTag=ADV" lemma="emellertid" xml:id="i-XMB2Rbh58WPn4NUSXTix9r">emellertid</w>
@@ -3547,6 +3631,7 @@
                </seg>
                <seg xml:id="i-KoWT96PgTXoagTkmyCLYsK">
                   <s xml:id="i-XP8sBuq4X5gDiYa9gHiw2k">
+                     <measure type="sentiment" quantity="2.981" ana="senti:neupos" corresp="#i-XP8sBuq4X5gDiYa9gHiw2k"/>
 <w msd="UPosTag=ADP" lemma="bland" xml:id="i-XMB5vqBmYBXRmixX56inpL">Bland</w>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Ind|Gender=Neut|Number=Sing" lemma="annat" xml:id="i-XMB65AHDv53h71V9PWahgQ">annat</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vilja" xml:id="i-XMB6EKgd8YinNRU2wN2c2g">vill</w>
@@ -3617,6 +3702,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8sJaJdDntqBaCFXpQrvQ">
+                     <measure type="sentiment" quantity="2.972" ana="senti:neupos" corresp="#i-XP8sJaJdDntqBaCFXpQrvQ"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XMBB6ga98AJwjyy4Vuhbtp">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XMBBFqyYLdz31Pwx3m9WF6">är</w>
 <w msd="UPosTag=DET|Definite=Ind|Gender=Com|Number=Sing" lemma="en" xml:id="i-XMBBR1NwZ7f8GovqbcbQbN">en</w>
@@ -3643,6 +3729,7 @@
                </seg>
                <seg xml:id="i-WcVYLrVMpm5oLYbXAFjD2J">
                   <s xml:id="i-XP8sQQUF5uxciUN69uWoKr">
+                     <measure type="sentiment" quantity="2.897" ana="senti:neupos" corresp="#i-XP8sQQUF5uxciUN69uWoKr"/>
 <w msd="UPosTag=ADV|Degree=Cmp" lemma="vidare" xml:id="i-XMBCedzFbkkCXrsRXYzeRA">Vidare</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vilja" xml:id="i-XMBCny5hyeGTs9Q3qxrZHE">vill</w>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="vi" xml:id="i-XMBCx8V7C7wZ8ZNwPpJTdW">vi</w>
@@ -3701,6 +3788,7 @@
                </seg>
                <seg xml:id="i-34SkRwTJPcPaGUVJk843xs">
                   <s xml:id="i-XP8sX4wondBEBVzC1SCjDW">
+                     <measure type="sentiment" quantity="0.923" ana="senti:mixneg" corresp="#i-XP8sX4wondBEBVzC1SCjDW"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="vi" xml:id="i-XMBGk2AiMa7jWUvGaH2828">Vi</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vilja" xml:id="i-XMBGv1t4Qdwei2MRMa41rc">vill</w>
 <w msd="UPosTag=ADV" lemma="också" xml:id="i-XMBH5BHTd7cjySLJuRVvCt">också</w>
@@ -3753,6 +3841,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8scu7RekF1iQA2dXJfcx">
+                     <measure type="sentiment" quantity="3.739" ana="senti:mixpos" corresp="#i-XP8scu7RekF1iQA2dXJfcx"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XMBLYkAGMcSjpXurzBKmtx">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="betyda" xml:id="i-XMBLhuZfa67q5wtkY2mgFE">betyder</w>
 <w msd="UPosTag=SCONJ" lemma="att" xml:id="i-XMBLrEf7wye6RERNrSdb7J">att</w>
@@ -3827,6 +3916,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8sjZazMTTdBRn8V3zbWc">
+                     <measure type="sentiment" quantity="2.901" ana="senti:neupos" corresp="#i-XP8sjZazMTTdBRn8V3zbWc"/>
 <w msd="UPosTag=DET|Definite=Def|Gender=Neut|Number=Sing" lemma="vår" xml:id="i-XMBRskx3A4uM4CuHxqkVKi">Vårt</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Neut|Number=Sing" lemma="förslag" xml:id="i-XMBS3kfPD8jGFkLSk8nPAC">förslag</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XMBSDkNjGCZBTHmbXRpGzg">är</w>
@@ -3895,6 +3985,7 @@
                </seg>
                <seg xml:id="i-8f2ygVGbGmNFRoqHvFEkbg">
                   <s xml:id="i-XP8sqPkcDaXQiKwy796Xv4">
+                     <measure type="sentiment" quantity="3.344" ana="senti:neupos" corresp="#i-XP8sqPkcDaXQiKwy796Xv4"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="jag" xml:id="i-XMBWpHPHLdFe6QfdgbMSct">Jag</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="önska" xml:id="i-XMBWxcUjiWmuRhCG11DMUx">önskar</w>
 <w msd="UPosTag=ADV" lemma="därför" xml:id="i-XMBX8cC5mabpdEdQnJFFKS">därför</w>
@@ -3935,6 +4026,7 @@
                </seg>
                <seg xml:id="i-KxfN3LXJ8fTmGWvyggMZ2x">
                   <s xml:id="i-XP8sx4EAvHk2BMa4xfnToi">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XP8sx4EAvHk2BMa4xfnToi"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="fru" xml:id="i-XMBZWsZ2qKs1YZo1FXXn3n">Fru</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="talman" xml:id="i-XMBZg2xS3oY6oymtoNygQ4" join="right">talman</w>
 <pc msd="UPosTag=PUNCT" xml:id="i-XMBZqCMqGHDC5PknMERakL">!</pc>
@@ -3945,6 +4037,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8t4ihjczxdePCApCUPhN">
+                     <measure type="sentiment" quantity="3.362" ana="senti:neupos" corresp="#i-XP8t4ihjczxdePCApCUPhN"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XMBZzMmEUktHLojfu5sV6c">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="ha" xml:id="i-XMBaBBnXNQs2UUd5upVNRJ">har</w>
 <w msd="UPosTag=VERB|VerbForm=Sup|Voice=Pass" lemma="finnas" xml:id="i-XMBaLMBvatY7jtbyTfwGma">funnits</w>
@@ -4007,6 +4100,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8tBPBJKiBF7QpGfjAKb2">
+                     <measure type="sentiment" quantity="1.075" ana="senti:mixneg" corresp="#i-XP8tBPBJKiBF7QpGfjAKb2"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XMBegiwQRJeXWpoYgLWb8G">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="gälla" xml:id="i-XMBeqtLodnKcnEnSEBxVUY">gäller</w>
 <w msd="UPosTag=ADV" lemma="särskilt" xml:id="i-XMBf1t49gr9XynDb1UzPK2">särskilt</w>
@@ -4069,6 +4163,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8tHDLvBqF2eJz7HpGFzU">
+                     <measure type="sentiment" quantity="4.170" ana="senti:mixpos" corresp="#i-XP8tHDLvBqF2eJz7HpGFzU"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XMBjGRe1f9CADpFKc4TmGG">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XMBjSRMMiD25RMgUPMVf6k">är</w>
 <w msd="UPosTag=ADV" lemma="därför" xml:id="i-XMBjbakkvghAgmfMwCwZT2">därför</w>
@@ -4135,6 +4230,7 @@
                </seg>
                <seg xml:id="i-UbSPX7SfhkqDdH5hRSER56">
                   <s xml:id="i-XP8tP3WY3xJpBD9wuuNCPv">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XP8tP3WY3xJpBD9wuuNCPv"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="fru" xml:id="i-XMBp283xx3Zi8M8FK5SqEk">Fru</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="talman" xml:id="i-XMBpBHTNAXEoPm78rvtjb2" join="right">talman</w>
 <pc msd="UPosTag=PUNCT" xml:id="i-XMBpKcYpYQm4j3dmBLkeT6">!</pc>
@@ -4145,6 +4241,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8tVhz6kfXReEn3mS48Ha">
+                     <measure type="sentiment" quantity="4.335" ana="senti:mixpos" corresp="#i-XP8tVhz6kfXReEn3mS48Ha"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="jag" xml:id="i-XMBpVcGAbUayvb4uxdnYHa">Jag</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vilja" xml:id="i-XMBpemfZoxG5C13oWVESdr">vill</w>
 <w msd="UPosTag=VERB|VerbForm=Inf|Voice=Act" lemma="avsluta" xml:id="i-XMBpo6m2BqnLXHaRpu6MVv">avsluta</w>
@@ -4207,6 +4304,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8tbY9icnbDB8wtPXA4h2">
+                     <measure type="sentiment" quantity="0.194" ana="senti:negneg" corresp="#i-XP8tbY9icnbDB8wtPXA4h2"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XMBu3eLtA8pxmKcARUZjTA">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XMBuBySLY2ME6c8njtReKE">är</w>
 <w msd="UPosTag=ADV|Degree=Pos" lemma="helt" xml:id="i-XMBuM8qjkW2KN27gHjsYfW">helt</w>
@@ -4261,6 +4359,7 @@
                </seg>
                <seg xml:id="i-7KZbEnetNoYPmRHqKVhunw">
                   <s xml:id="i-XP8tiCdHKVopeAZzF3qzag">
+                     <measure type="sentiment" quantity="0.856" ana="senti:mixneg" corresp="#i-XP8tiCdHKVopeAZzF3qzag"/>
 <w msd="UPosTag=ADV" lemma="hur" xml:id="i-XMBxphiYUzrKD7hENVhQMa">Hur</w>
                      <name type="LOC">
 <w msd="UPosTag=PROPN|Case=Nom" lemma="Sverige" xml:id="i-XMBxys7whUXQUXg7vM9Jhr">Sverige</w>
@@ -4317,6 +4416,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8tps6r2D2S7CC66aXvUL">
+                     <measure type="sentiment" quantity="4.746" ana="senti:pospos" corresp="#i-XP8tps6r2D2S7CC66aXvUL"/>
 <w msd="UPosTag=DET|Definite=Def|Gender=Com|Number=Sing" lemma="min" xml:id="i-XMC2nb7VhWrQnafiLFSxag">Min</w>
 <w msd="UPosTag=CCONJ" lemma="och" xml:id="i-XMC2wkWtuzXW3zebt6trvx">och</w>
 <w msd="UPosTag=NOUN|Case=Gen|Definite=Def|Gender=Com|Number=Plur" lemma="moderat" xml:id="i-XMC36uvJ8UCbKQdVRxLmHE">Moderaternas</w>
@@ -4365,6 +4465,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8tvhGTtL6De6Mvifdrsn">
+                     <measure type="sentiment" quantity="0.356" ana="senti:negneg" corresp="#i-XP8tvhGTtL6De6Mvifdrsn"/>
                      <name type="LOC">
 <w msd="UPosTag=PROPN|Case=Nom" lemma="Sverige" xml:id="i-XMC6Jev8wn8tS4c47L2njN">Sverige</w>
                      </name>
@@ -4395,6 +4496,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XP8u3Mk2b3Jq77z2aCKnmS">
+                     <measure type="sentiment" quantity="4.475" ana="senti:mixpos" corresp="#i-XP8u3Mk2b3Jq77z2aCKnmS"/>
 <w msd="UPosTag=NOUN|Case=Gen|Definite=Def|Gender=Neut|Number=Sing" lemma="land" xml:id="i-XMC8CbkwXWDyd2NihZPcvg">Landets</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Plur" lemma="medborgare" xml:id="i-XMC8MmALjyu4tSMcFQqXGx">medborgare</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="förvänta" xml:id="i-XMC8Xksgo3iz5ynm2hsR7S">förväntar</w>
@@ -4885,9 +4987,10 @@
             <note xml:id="ParlaMint-SE_2020-04-16-prot-201920--106.ana.note612">Kammaren biföll utskottets förslag .</note>
          </div>
          <div type="debateSection">
-            <u ana="#regular" who="#Q57168687" xml:id="i-19e7640c7a732d9e-774">
+            <u ana="#regular topic:mixed" who="#Q57168687" xml:id="i-19e7640c7a732d9e-774">
                <seg xml:id="i-QuEc1AVRae5RnpimjiTHb9">
                   <s xml:id="i-XPDSUTTt4YtxeGDTgSuKvk">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XPDSUTTt4YtxeGDTgSuKvk"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="fru" xml:id="i-XP2KbKLEaX747zcQzfZ2yr">Fru</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="talman" xml:id="i-XP2KjeRgxQdKTH93K5Qwqv" join="right">talman</w>
 <pc msd="UPosTag=PUNCT" xml:id="i-XP2Ks9DCVhzkrSDQQ3gsDn">!</pc>
@@ -4898,6 +5001,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDSaHdVvfxkBAPJJY1GLC">
+                     <measure type="sentiment" quantity="4.008" ana="senti:mixpos" corresp="#i-XPDSaHdVvfxkBAPJJY1GLC"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="jag" xml:id="i-XP2L1UJesbX2Bik2iTYn5r">Jag</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vilja" xml:id="i-XP2L9oQ7FV3HX1Gf2sQgwv">vill</w>
 <w msd="UPosTag=VERB|VerbForm=Inf|Voice=Act" lemma="börja" xml:id="i-XP2LJxoWTxiNnRFYairbJC">börja</w>
@@ -4948,6 +5052,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDSgx74dPBMeC1QA4hCDr">
+                     <measure type="sentiment" quantity="4.635" ana="senti:pospos" corresp="#i-XPDSgx74dPBMeC1QA4hCDr"/>
 <w msd="UPosTag=ADP" lemma="i" xml:id="i-XP2PKsn4PcfvmQLhFMvjRe">I</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing" lemma="övrig" xml:id="i-XP2PUCsWmWCC6gsKZmneHi">övrigt</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="stå" xml:id="i-XP2PdNGuyysHN6rD7dEYdz">står</w>
@@ -4972,6 +5077,7 @@
                </seg>
                <seg xml:id="i-TddZZuyxN3FnS2txJXUu6Z">
                   <s xml:id="i-XPDSocadL6Py7DdW1bP87W">
+                     <measure type="sentiment" quantity="3.672" ana="senti:mixpos" corresp="#i-XPDSocadL6Py7DdW1bP87W"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="sjöfart" xml:id="i-XP2QgArw8xycVUuP2q1u96">Sjöfarten</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP2QpVxPWrVspmS1MEsp1A">är</w>
 <w msd="UPosTag=DET|Definite=Ind|Gender=Com|Number=Sing" lemma="en" xml:id="i-XP2Qxq3qtk29A3xdfejisE">en</w>
@@ -5002,6 +5108,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDSuSkFCDTke7oLdgV4Wx">
+                     <measure type="sentiment" quantity="3.533" ana="senti:mixpos" corresp="#i-XPDSuSkFCDTke7oLdgV4Wx"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XP2SQxJLWDPcR2hA5Cvpz8">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass" lemma="märka" xml:id="i-XP2SZHPnt6uskKDnPcnjrC">märks</w>
 <w msd="UPosTag=ADV" lemma="inte" xml:id="i-XP2ShcVFFzS95bkQi2eeiG">inte</w>
@@ -5074,6 +5181,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDT27DotvgN79RSVDAzQc">
+                     <measure type="sentiment" quantity="2.602" ana="senti:neupos" corresp="#i-XPDT27DotvgN79RSVDAzQc"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="jag" xml:id="i-XP2XCKLBUJ4pBpUcF75sw2">Jag</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="komma" xml:id="i-XP2XLeRdrBb5X71EZWwno6">kommer</w>
 <w msd="UPosTag=ADP" lemma="i" xml:id="i-XP2XU9D9PUxWvG5beVDiAx">i</w>
@@ -5128,6 +5236,7 @@
                </seg>
                <seg xml:id="i-BFDgN7zhhuK7PwSBTugcmU">
                   <s xml:id="i-XPDT8mhNbdtyaB3YLjrvJG">
+                     <measure type="sentiment" quantity="1.472" ana="senti:mixneg" corresp="#i-XPDT8mhNbdtyaB3YLjrvJG"/>
 <w msd="UPosTag=ADV" lemma="ungefär" xml:id="i-XP2ahYpssyCTuAxgnk5ibW">Ungefär</w>
 <w msd="UPosTag=NUM|Case=Nom" lemma="90" xml:id="i-XP2aqsvLFrijETVK79wdTa">90</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Plur" lemma="procent" xml:id="i-XP2azD1ndkEzZk1wRZoYKe">procent</w>
@@ -5156,6 +5265,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDTEbrzTkxm75DNxpxrhi">
+                     <measure type="sentiment" quantity="3.293" ana="senti:neupos" corresp="#i-XPDTEbrzTkxm75DNxpxrhi"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XP2cRVxLQdTdtbJCbgQexL">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="visa" xml:id="i-XP2cZq3nnWyuDsppv6GZpQ">visar</w>
 <w msd="UPosTag=ADV" lemma="verkligen" xml:id="i-XP2ciA9FAQWAZAMTEW8UgU">verkligen</w>
@@ -5172,6 +5282,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDTMGLZAUBNa6qUpMenbN">
+                     <measure type="sentiment" quantity="3.139" ana="senti:neupos" corresp="#i-XPDTMGLZAUBNa6qUpMenbN"/>
 <w msd="UPosTag=ADV" lemma="även" xml:id="i-XP2dHUX4fxbDtJTxW9a88k">Även</w>
 <w msd="UPosTag=SCONJ" lemma="om" xml:id="i-XP2dRocX3r7VDazapZS2zp">om</w>
 <w msd="UPosTag=DET|Definite=Def|Gender=Com|Number=Sing" lemma="den" xml:id="i-XP2da8hyRjdkYsXD8yHwrt">den</w>
@@ -5208,6 +5319,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDTT6WB2bFA711KSSkizp">
+                     <measure type="sentiment" quantity="3.439" ana="senti:neupos" corresp="#i-XPDTT6WB2bFA711KSSkizp"/>
 <w msd="UPosTag=ADV" lemma="nu" xml:id="i-XP2fcQeEPMF757pW3cWgvG">Nu</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP2fkjjgmEmNQQM8N2NbnL">är</w>
 <w msd="UPosTag=ADV" lemma="verkligen" xml:id="i-XP2ftEXCJY8ooZRVSzeXAC">verkligen</w>
@@ -5260,6 +5372,7 @@
                </seg>
                <seg xml:id="i-4pVNp8tJLshfiUD8bJ7ZQL">
                   <s xml:id="i-XPDTZkyjjJTma2dRHySetU">
+                     <measure type="sentiment" quantity="2.354" ana="senti:neuneg" corresp="#i-XPDTZkyjjJTma2dRHySetU"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="klimatkris" xml:id="i-XP2iyK3UR8rVTBmxGqecig">Klimatkrisen</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="ställa" xml:id="i-XP2j7e8vo2NknUJabFWXak">ställer</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur" lemma="stor" xml:id="i-XP2jGoYL1W3r3tHU96xRw2">stora</w>
@@ -5296,6 +5409,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDTfb9MbRXZ6voFv4YbHv">
+                     <measure type="sentiment" quantity="2.877" ana="senti:neupos" corresp="#i-XPDTfb9MbRXZ6voFv4YbHv"/>
 <w msd="UPosTag=ADP" lemma="för" xml:id="i-XP2mJFAe8XWNe18VpJbBWC">För</w>
 <w msd="UPosTag=SCONJ" lemma="att" xml:id="i-XP2mRjx9fpsp3ACruGs6t4">att</w>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XP2ma53c3iQ5NSjVDgj1k8">det</w>
@@ -5346,6 +5460,7 @@
                </seg>
                <seg xml:id="i-3DPFt6jKBXhgd8f85uM2xC">
                   <s xml:id="i-XPDTo5vs8itzW5sd12pWfn">
+                     <measure type="sentiment" quantity="3.232" ana="senti:neupos" corresp="#i-XPDTo5vs8itzW5sd12pWfn"/>
                      <name type="LOC">
 <w msd="UPosTag=PROPN|Case=Nom" lemma="Sverige" xml:id="i-XP2pVzAUwqSfkf74VgHCxL">Sverige</w>
                      </name>
@@ -5386,6 +5501,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDTtv6Uzqxn2z3Td7vT5E">
+                     <measure type="sentiment" quantity="2.440" ana="senti:neuneg" corresp="#i-XPDTtv6Uzqxn2z3Td7vT5E"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XP2rwamDMwKAQW5htfuhdW">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="innebära" xml:id="i-XP2s6kAcaQzFfv4bSXMbyn">innebär</w>
 <w msd="UPosTag=SCONJ" lemma="att" xml:id="i-XP2sF5G4xJWX1CbDkwDWqr">att</w>
@@ -5412,6 +5528,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDU1aa3hZBPW1fZUecNxt">
+                     <measure type="sentiment" quantity="4.147" ana="senti:mixpos" corresp="#i-XPDU1aa3hZBPW1fZUecNxt"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="sjöfart" xml:id="i-XP2taY2zs4fNo9heJxih56">Sjöfart</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="ha" xml:id="i-XP2tis8TExBe8SEGdNabwA">har</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="potential" xml:id="i-XP2tsCDucqhuTiktwnSWoE">potential</w>
@@ -5454,6 +5571,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDU8F3cQGPzy3HfLBJJrY">
+                     <measure type="sentiment" quantity="1.507" ana="senti:neuneg" corresp="#i-XPDU8F3cQGPzy3HfLBJJrY"/>
 <w msd="UPosTag=DET|Definite=Ind|Gender=Neut|Number=Sing" lemma="en" xml:id="i-XP2wLTSXi7t3ype4ofEzSp">Ett</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Neut|Number=Sing" lemma="fartyg" xml:id="i-XP2wUnXz61QKK7Ah856uJt">fartyg</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="kunna" xml:id="i-XP2wd7dSTtvaePhKSUxpAx">kan</w>
@@ -5486,6 +5604,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDUEuXB6yccS4umBhzEkC">
+                     <measure type="sentiment" quantity="3.890" ana="senti:mixpos" corresp="#i-XPDUEuXB6yccS4umBhzEkC"/>
 <w msd="UPosTag=ADV" lemma="därför" xml:id="i-XP2yM4ktzZBkdp2qFRHkXn">Därför</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="ha" xml:id="i-XP2yVPrMNSi1y6ZTZq9fPr">har</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="regering" xml:id="i-XP2ydiwokLEHJP65tF1aFv">regeringen</w>
@@ -5526,6 +5645,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDULjgny6gPxy5boo6B9e">
+                     <measure type="sentiment" quantity="0.186" ana="senti:negneg" corresp="#i-XPDULjgny6gPxy5boo6B9e"/>
 <w msd="UPosTag=ADV" lemma="samtidigt" xml:id="i-XP31wpm2d8jLZ4zNCGN9ZE">Samtidigt</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP326zARqcQRpUyFk7p3uW">är</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="sjöfart" xml:id="i-XP32FKFtDVvh9mVt4Xfxma">sjöfarten</w>
@@ -5550,6 +5670,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDUTQAMfou1RzhhfKn73J">
+                     <measure type="sentiment" quantity="1.759" ana="senti:neuneg" corresp="#i-XPDUTQAMfou1RzhhfKn73J"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="sjöfart" xml:id="i-XP33RcdQunQTgJdR4hjEeY">Sjöfarten</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="ha" xml:id="i-XP33Z7QvT5mu5Thn9g1A2Q">har</w>
 <w msd="UPosTag=ADV" lemma="även" xml:id="i-XP33iGpKfZSzLsgfhXT4Ng">även</w>
@@ -5578,6 +5699,7 @@
                </seg>
                <seg xml:id="i-9hrpq3oAwbfG1DzQQiBefN">
                   <s xml:id="i-XPDUa4dvNX7cu2KoWrU2vx">
+                     <measure type="sentiment" quantity="0.507" ana="senti:mixneg" corresp="#i-XPDUa4dvNX7cu2KoWrU2vx"/>
 <w msd="UPosTag=ADV" lemma="tyvärr" xml:id="i-XP3524yMu9JCGZtZnfnFdW">Tyvärr</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="öka" xml:id="i-XP35BENm7cyHXysTLXE9yn">ökar</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Neut|Number=Plur" lemma="växthusgasutsläpp" xml:id="i-XP35LPnAL6eNoPrLtNg4L4">växthusgasutsläppen</w>
@@ -5606,6 +5728,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDUgj7V5ELEN3wuNP9xpc">
+                     <measure type="sentiment" quantity="1.693" ana="senti:neuneg" corresp="#i-XPDUgj7V5ELEN3wuNP9xpc"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Neut|Number=Plur" lemma="utsläpp" xml:id="i-XP36pBeYckKVvdVPkp39RN">Utsläppen</w>
 <w msd="UPosTag=ADP" lemma="från" xml:id="i-XP36xWjzzdqmFv225Du4HS">från</w>
 <w msd="UPosTag=NOUN|Case=Gen|Definite=Ind|Gender=Com|Number=Sing" lemma="inrikes" xml:id="i-XP376qqTNXN2bCYePdky9W">inrikes</w>
@@ -5634,6 +5757,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDUnZH6wMQ1tx7jzUFuE4">
+                     <measure type="sentiment" quantity="3.056" ana="senti:neupos" corresp="#i-XPDUnZH6wMQ1tx7jzUFuE4"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XP38Yy5wyzjVrBHAoBx5GQ">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="kunna" xml:id="i-XP38hJBQMtFmBToo7boz8U">kan</w>
 <w msd="UPosTag=VERB|VerbForm=Inf|Voice=Pass" lemma="jämföra" xml:id="i-XP38rTaoaMvrSsngfTFtUk">jämföras</w>
@@ -5660,6 +5784,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDUtPSioUToRrHacZMqdW">
+                     <measure type="sentiment" quantity="0.499" ana="senti:negneg" corresp="#i-XPDUtPSioUToRrHacZMqdW"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Neut|Number=Plur" lemma="utsläpp" xml:id="i-XP3AB63neXvtJhSqz3B5Dn">Utsläppen</w>
 <w msd="UPosTag=ADP" lemma="från" xml:id="i-XP3AKR9F2RT9dyyUJT2z5r">från</w>
 <w msd="UPosTag=NOUN|Case=Gen|Definite=Ind|Gender=Com|Number=Sing" lemma="utrikes" xml:id="i-XP3ATkEhQJyQyGW6crttwv">utrikes</w>
@@ -5730,6 +5855,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDV13vHWBgQtsugU63mXA">
+                     <measure type="sentiment" quantity="-0.007" ana="senti:negneg" corresp="#i-XPDV13vHWBgQtsugU63mXA"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="detta" xml:id="i-XP3EvnTjwSJSDEKmh4A9CG">Detta</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP3F57ZCKKphYWrQ1U244L">är</w>
 <w msd="UPosTag=DET|Definite=Ind|Gender=Com|Number=Sing" lemma="en" xml:id="i-XP3FDSeehDLxsoP2KssxvQ">en</w>
@@ -5752,6 +5878,7 @@
                </seg>
                <seg xml:id="i-MTqCC9F8aiMcwtTFh2WjDS">
                   <s xml:id="i-XPDV6t5uNJkCRn5X6B9hvc">
+                     <measure type="sentiment" quantity="3.299" ana="senti:neupos" corresp="#i-XPDV6t5uNJkCRn5X6B9hvc"/>
 <w msd="UPosTag=ADP" lemma="i" xml:id="i-XP3G5RDNxYUYsWYnEM3S6p">I</w>
 <w msd="UPosTag=DET|Definite=Def|Gender=Com|Number=Sing" lemma="den" xml:id="i-XP3GDkJqLRzpCo5QYkuLxt">den</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing" lemma="klimatpolitisk" xml:id="i-XP3GN5QHiKX5Y5c2sAmFpx">klimatpolitiska</w>
@@ -5806,6 +5933,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDVDYZU51xotohcwhqdpG">
+                     <measure type="sentiment" quantity="1.562" ana="senti:neuneg" corresp="#i-XPDVDYZU51xotohcwhqdpG"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="anledning" xml:id="i-XP3KkeRRRHS7nQU1ZH5Abn">Anledningen</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP3KtyWsoAxP7gzdsgw5Tr">är</w>
 <w msd="UPosTag=SCONJ" lemma="att" xml:id="i-XP3L3JcLB4UeSyXGC6nzKv">att</w>
@@ -5838,6 +5966,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDVKNj5w92bRhsTZnwaDi">
+                     <measure type="sentiment" quantity="1.733" ana="senti:neuneg" corresp="#i-XPDVKNj5w92bRhsTZnwaDi"/>
 <w msd="UPosTag=DET|Definite=Def|Gender=Com,Neut|Number=Plur" lemma="denna" xml:id="i-XP3Mn63jYJteNXK3EUhvAx">Dessa</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Neut|Number=Plur" lemma="utsläpp" xml:id="i-XP3MvR9BvCQuhoqfYtZq32">utsläpp</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP3N5aYb8g5zyDpZ6k1jPJ">är</w>
@@ -5860,6 +5989,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDVS3CedrFCtjVZRKdW7N">
+                     <measure type="sentiment" quantity="3.451" ana="senti:neupos" corresp="#i-XPDVS3CedrFCtjVZRKdW7N"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="regering" xml:id="i-XP3P6iWicUtgELyCZ4d6uz">Regeringen</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vilja" xml:id="i-XP3PEDJE9nG7dW3Ze2u2Hr">vill</w>
 <w msd="UPosTag=VERB|VerbForm=Inf|Voice=Act" lemma="säkerställa" xml:id="i-XP3PPNhdNFwCtv2TBtLve8">säkerställa</w>
@@ -5892,6 +6022,7 @@
                </seg>
                <seg xml:id="i-PJt3ko8VnuVsaQGnVpv7XP">
                   <s xml:id="i-XPDVXsNGVyJzRdfQ3QjSWp">
+                     <measure type="sentiment" quantity="2.749" ana="senti:neupos" corresp="#i-XPDVXsNGVyJzRdfQ3QjSWp"/>
 <w msd="UPosTag=PART" lemma="att" xml:id="i-XP3QzfMXCCymRJjs9Hyw7J">Att</w>
 <w msd="UPosTag=VERB|VerbForm=Inf|Voice=Act" lemma="sätta" xml:id="i-XP3R8zSya6W2kbGVThqqyN">sätta</w>
 <w msd="UPosTag=DET|Definite=Ind|Gender=Neut|Number=Sing" lemma="en" xml:id="i-XP3RHKYRwz2J5so7n7hkqS">ett</w>
@@ -5932,6 +6063,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDVeXqqCgXbtfHVtwRNQU">
+                     <measure type="sentiment" quantity="3.940" ana="senti:mixpos" corresp="#i-XPDVeXqqCgXbtfHVtwRNQU"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="eldrift" xml:id="i-XP3TdvHVLYyq8x4BnTpJbN">Eldrift</w>
 <w msd="UPosTag=CCONJ" lemma="och" xml:id="i-XP3TnFNwiSW6UEap6sgDTS">och</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Neut|Number=Plur" lemma="batteri" xml:id="i-XP3TvaUQ6L2MoX7SRHY8KW">batterier</w>
@@ -5968,6 +6100,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDVmCKPuPkDMgubkU7JJ8">
+                     <measure type="sentiment" quantity="3.026" ana="senti:neupos" corresp="#i-XPDVmCKPuPkDMgubkU7JJ8"/>
 <w msd="UPosTag=ADV" lemma="även" xml:id="i-XP3VxrQf3wdiKmQjKvksNt">Även</w>
 <w msd="UPosTag=ADV" lemma="när" xml:id="i-XP3W7BW7Rq9yf3wMeLcnEx">när</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Neut|Number=Plur" lemma="fartyg" xml:id="i-XP3WGLuWeJq4vTvFCC4gbE">fartyg</w>
@@ -6020,6 +6153,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDVsrnxc6xppiXhbzoEBn">
+                     <measure type="sentiment" quantity="1.393" ana="senti:mixneg" corresp="#i-XPDVsrnxc6xppiXhbzoEBn"/>
 <w msd="UPosTag=CCONJ" lemma="men" xml:id="i-XP3ZWaqByPDqqWFbZtWgVz">Men</w>
 <w msd="UPosTag=ADP" lemma="för" xml:id="i-XP3ZfkEbBrtw6vEV7jxarG">för</w>
 <w msd="UPosTag=ADV|Degree=Cmp" lemma="mycket" xml:id="i-XP3ZoF26jAGNW5JrCiEWE8">mer</w>
@@ -6042,6 +6176,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDVzXGXJpBSHk9oTXVA5S">
+                     <measure type="sentiment" quantity="3.571" ana="senti:mixpos" corresp="#i-XPDVzXGXJpBSHk9oTXVA5S"/>
 <w msd="UPosTag=ADV" lemma="här" xml:id="i-XP3arsv4ijXXZapHMMbrDS">Här</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vilja" xml:id="i-XP3b1D1X6d3ntsLufmTm5W">vill</w>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="jag" xml:id="i-XP3b9Y6yUWa4E9sXzBKfwa">jag</w>
@@ -6086,6 +6221,7 @@
                </seg>
                <seg xml:id="i-EUhr3vGnZDBuWYHYZHSBUy">
                   <s xml:id="i-XPDW6MS9AwFDpeKe5cb6Ut">
+                     <measure type="sentiment" quantity="1.028" ana="senti:mixneg" corresp="#i-XPDW6MS9AwFDpeKe5cb6Ut"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XP3dUUE9BuDwQyE5XeGEj6">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass" lemma="finnas" xml:id="i-XP3dcoKbZnkCkFkhr489bA">finns</w>
 <w msd="UPosTag=ADV" lemma="dock" xml:id="i-XP3dkJ77767e9Qq4w2Q4y2">dock</w>
@@ -6150,6 +6286,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDWD1uhseTqHfwjw9H2NY">
+                     <measure type="sentiment" quantity="1.101" ana="senti:mixneg" corresp="#i-XPDWD1uhseTqHfwjw9H2NY"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="sjöfart" xml:id="i-XP3hpqyd2KLMBuRekJqZ5n">Sjöfarten</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass" lemma="utsätta" xml:id="i-XP3hyB55QCrcXBxH4ihTwr">utsätts</w>
 <w msd="UPosTag=ADV" lemma="också" xml:id="i-XP3i8LUUcgXhnbwAca9NJ8">också</w>
@@ -6182,6 +6319,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDWJr5KjmXcpa7aZENxmz">
+                     <measure type="sentiment" quantity="3.255" ana="senti:neupos" corresp="#i-XPDWJr5KjmXcpa7aZENxmz"/>
 <w msd="UPosTag=ADV" lemma="därför" xml:id="i-XP3js7usyvwhi9iwex4J9A">Därför</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP3k1T1LMpTy3SFZyMvD1E">är</w>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XP3k9n6njhzENinCHmn7sJ">det</w>
@@ -6206,6 +6344,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDWRWYtSUkEHbjgQm4tfe">
+                     <measure type="sentiment" quantity="3.279" ana="senti:neupos" corresp="#i-XPDWRWYtSUkEHbjgQm4tfe"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="vi" xml:id="i-XP3mKFANbQKAy8TU4WFQG4">Vi</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="tro" xml:id="i-XP3mTaFpyHqSJQz6Nv7K88">tror</w>
 <w msd="UPosTag=ADV" lemma="därför" xml:id="i-XP3mbuMHMBMhdhWihKyDzC">därför</w>
@@ -6250,6 +6389,7 @@
                </seg>
                <seg xml:id="i-7AAhgM3aHCm6Hk3nU38NiA">
                   <s xml:id="i-XPDWXLiWJbp1pVuX2rAq56">
+                     <measure type="sentiment" quantity="4.143" ana="senti:mixpos" corresp="#i-XPDWXLiWJbp1pVuX2rAq56"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="miljöparti" xml:id="i-XP3p6qBo7dqW24JR25wgcC">Miljöpartiet</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP3pFAHFVXMmMLq3LVobUG">var</w>
 <w msd="UPosTag=VERB|Case=Nom|Definite=Def,Ind|Gender=Com,Neut|Number=Plur,Sing|Tense=Pres|VerbForm=Part" lemma="drivande" xml:id="i-XP3pQKgei12rckovtMFVpY">drivande</w>
@@ -6300,6 +6440,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDWe1C51K2dHXXctNrkxk">
+                     <measure type="sentiment" quantity="3.864" ana="senti:mixpos" corresp="#i-XPDWe1C51K2dHXXctNrkxk"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="ekobonussystem" xml:id="i-XP3sS4y9UF9EXsMLnRudSC">Ekobonussystemet</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="ha" xml:id="i-XP3sbENYgipKoHLELHMXnU">har</w>
 <w msd="UPosTag=VERB|VerbForm=Sup|Voice=Pass" lemma="förlänga" xml:id="i-XP3sjZU14cLb8ZrrehDSeY">förlängts</w>
@@ -6318,6 +6459,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDWkffdi2FEkZ9ijuYgrQ">
+                     <measure type="sentiment" quantity="4.217" ana="senti:mixpos" corresp="#i-XPDWkffdi2FEkZ9ijuYgrQ"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="miljöparti" xml:id="i-XP3tU3FDne6jj7xFUC6zT6">Miljöpartiet</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" lemma="ska" xml:id="i-XP3tcNLgAXd14QUsnbxuKA">skulle</w>
 <w msd="UPosTag=ADV|Degree=Pos" lemma="gärna" xml:id="i-XP3tkhS8YR9GPh1W71ppBE">gärna</w>
@@ -6360,6 +6502,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDWrVqFa9K2HTKZMzedFr">
+                     <measure type="sentiment" quantity="4.771" ana="senti:pospos" corresp="#i-XPDWrVqFa9K2HTKZMzedFr"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XP3wEnxhUHUEqvLwCLDHK2">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP3wPxN6gm9L7LKpkBfBfJ">är</w>
 <w msd="UPosTag=ADV|Degree=Pos" lemma="helt" xml:id="i-XP3wYHTZ4efbScrT4bX6XN">helt</w>
@@ -6400,6 +6543,7 @@
                </seg>
                <seg xml:id="i-ThkYCq7DS36LUBnnvKzVVF">
                   <s xml:id="i-XPDWxKzsSGNopMVPz5kZfJ">
+                     <measure type="sentiment" quantity="3.777" ana="senti:mixpos" corresp="#i-XPDWxKzsSGNopMVPz5kZfJ"/>
 <w msd="UPosTag=ADV" lemma="samtidigt" xml:id="i-XP3yjioDEjx3EH8dX6Bjw2">Samtidigt</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass" lemma="behöva" xml:id="i-XP3yt3tfcdUJZZfFqW3eo6">behövs</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Def,Ind|Degree=Pos|Gender=Com,Neut|Number=Plur" lemma="tydlig" xml:id="i-XP3z3DJ4q79Ppye9PMVZ9N">tydliga</w>
@@ -6424,6 +6568,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDX4zUS8ybRHP7VqcSVYx">
+                     <measure type="sentiment" quantity="4.633" ana="senti:pospos" corresp="#i-XPDX4zUS8ybRHP7VqcSVYx"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="miljöparti" xml:id="i-XP41DWfbXPdAMWmgPXYq2L">Miljöpartiet</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vilja" xml:id="i-XP41Mqm3uH9RgoJJhwQjtQ">vill</w>
 <w msd="UPosTag=VERB|VerbForm=Inf|Voice=Act" lemma="se" xml:id="i-XP41WArWHAfh25pw2MGekU">se</w>
@@ -6442,6 +6587,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDXBewzqgp2kQjbh98RSc">
+                     <measure type="sentiment" quantity="2.576" ana="senti:neupos" corresp="#i-XPDXBewzqgp2kQjbh98RSc"/>
 <w msd="UPosTag=NOUN|Case=Gen|Definite=Def|Gender=Com|Number=Plur" lemma="sjöfartsavgift" xml:id="i-XP42FUwfqnafYmNb5HkC3E">Sjöfartsavgifternas</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="konstruktion" xml:id="i-XP42Pp38Dg6vt3uDPhc6uJ">konstruktion</w>
 <w msd="UPosTag=VERB|Case=Nom|Definite=Def,Ind|Gender=Com,Neut|Number=Plur,Sing|Tense=Pres|VerbForm=Part" lemma="avseende" xml:id="i-XP42YySXS9n29Tt6wZ41Fa">avseende</w>
@@ -6472,6 +6618,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDXHV7chospHJuSKEEMr4">
+                     <measure type="sentiment" quantity="0.503" ana="senti:mixneg" corresp="#i-XPDXHV7chospHJuSKEEMr4"/>
 <w msd="UPosTag=CCONJ" lemma="men" xml:id="i-XP44B6QN6gyQbz3n8QH1Cx">Men</w>
 <w msd="UPosTag=DET|Definite=Def|Gender=Com|Number=Sing" lemma="den" xml:id="i-XP44KRVpUaVfwGaQSp8v52">den</w>
 <w msd="UPosTag=VERB|Case=Nom|Definite=Def,Ind|Gender=Com,Neut|Number=Plur,Sing|Tense=Pres|VerbForm=Part" lemma="klimatstyrande" xml:id="i-XP44TkbGrU1wGZ72mDzpw6">klimatstyrande</w>
@@ -6532,6 +6679,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDXQ9bBQX6RkLXYAkvHji">
+                     <measure type="sentiment" quantity="2.452" ana="senti:neuneg" corresp="#i-XPDXQ9bBQX6RkLXYAkvHji"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="SOFT-myndighet" xml:id="i-XP48D9M3W9jdr6HaFMxWs6">SOFT-myndigheterna</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="bestå" xml:id="i-XP48MUSVt3FuBNpCZmpRjA">består</w>
 <w msd="UPosTag=ADP" lemma="av" xml:id="i-XP48VoXxFvnAWfLptBgLbE">av</w>
@@ -6570,6 +6718,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDXWp4k7EK3DN9e2HcDdN">
+                     <measure type="sentiment" quantity="2.828" ana="senti:neupos" corresp="#i-XPDXWp4k7EK3DN9e2HcDdN"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com,Neut|Number=Plur" lemma="de" xml:id="i-XP4AN5ksAUZbqNCy1XsBp8">De</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="ha" xml:id="i-XP4AVaYNhmw3EXHL6W97Bz">har</w>
 <w msd="UPosTag=ADP" lemma="i" xml:id="i-XP4Adudq5fTJZooxQv1244">i</w>
@@ -6600,6 +6749,7 @@
                </seg>
                <seg xml:id="i-SdopM5c5ysnD6qCFhnmBR6">
                   <s xml:id="i-XPDXdUYJowXegPmjspJ9X2">
+                     <measure type="sentiment" quantity="3.458" ana="senti:neupos" corresp="#i-XPDXdUYJowXegPmjspJ9X2"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="SOFT-myndighet" xml:id="i-XP4C5CaNrYfwtf6Db2c8gk">SOFT-myndigheterna</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="föreslå" xml:id="i-XP4CDXfqESCDDwcquSU3Yp">föreslår</w>
 <w msd="UPosTag=SCONJ" lemma="att" xml:id="i-XP4CMrmHcKiUZE9UDrKxQt">att</w>
@@ -6692,6 +6842,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDXjJhvg4bSDHwaVuQ5vU">
+                     <measure type="sentiment" quantity="0.485" ana="senti:negneg" corresp="#i-XPDXjJhvg4bSDHwaVuQ5vU"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="man" xml:id="i-XP4JXBVtzw11vMQ8e6kA3e">Man</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="konstatera" xml:id="i-XP4JfWbMNpXHFdvkxWc4ui">konstaterar</w>
 <w msd="UPosTag=ADV" lemma="dock" xml:id="i-XP4Joqgoki3YavTPGvTymn">dock</w>
@@ -6734,6 +6885,7 @@
                </seg>
                <seg xml:id="i-XSngNuhjvc4Ki3yDszHdKM">
                   <s xml:id="i-XPDXqyBVNmp3gKZgMS61p8">
+                     <measure type="sentiment" quantity="3.121" ana="senti:neupos" corresp="#i-XPDXqyBVNmp3gKZgMS61p8"/>
 <w msd="UPosTag=ADV" lemma="även" xml:id="i-XP4MASRs9H15dziTHGaXXi">Även</w>
                      <name type="ORG">
 <w msd="UPosTag=PROPN|Case=Nom" lemma="VTI" xml:id="i-XP4MJmXKXAXLyHF5bgSSPn">VTI</w>
@@ -6790,6 +6942,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDXxdf45V2f9MBnCxmwhn">
+                     <measure type="sentiment" quantity="2.195" ana="senti:neuneg" corresp="#i-XPDXxdf45V2f9MBnCxmwhn"/>
 <w msd="UPosTag=DET|Definite=Def|Gender=Neut|Number=Sing" lemma="denna" xml:id="i-XP4QmW6BR5CWtFNNSzgJbe">Detta</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Neut|Number=Sing" lemma="projekt" xml:id="i-XP4QuqBdnxinDXtzmQYDTi">projekt</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="ha" xml:id="i-XP4R4AH6ArF3YpRd5pQ8Kn">har</w>
@@ -6816,6 +6969,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDY4Tpfwc6SgFMcq3st7E">
+                     <measure type="sentiment" quantity="4.557" ana="senti:pospos" corresp="#i-XPDY4Tpfwc6SgFMcq3st7E"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="vi" xml:id="i-XP4SMxS8QS6FUWdXAxjKac">Vi</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="kunna" xml:id="i-XP4SWHXanKcWooA9VNbESg">kan</w>
 <w msd="UPosTag=ADV" lemma="nog" xml:id="i-XP4Secd3AD8n95gmonT9Jk">nog</w>
@@ -6838,6 +6992,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDYAHzHojAED9XTT8ypWg">
+                     <measure type="sentiment" quantity="4.386" ana="senti:mixpos" corresp="#i-XPDYAHzHojAED9XTT8ypWg"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XP4TevHDoRndU5PA2fUXME">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass" lemma="behöva" xml:id="i-XP4ToFNgBKJtoMunM5LSDJ">behövs</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="stimulans" xml:id="i-XP4TxQn5Pnyz4mtftvnLZa">stimulans</w>
@@ -6886,6 +7041,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDYGxTrWSNqgB9ZJffkQL">
+                     <measure type="sentiment" quantity="4.270" ana="senti:mixpos" corresp="#i-XPDYGxTrWSNqgB9ZJffkQL"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XP4WXWAKMCDv7mwgNtgkcc">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass" lemma="behöva" xml:id="i-XP4WgfZiZfu1PBvZvk8ext">behövs</w>
 <w msd="UPosTag=ADV" lemma="även" xml:id="i-XP4WsVb1TKskWroywUkYHa">även</w>
@@ -6950,6 +7106,7 @@
                </seg>
                <seg xml:id="i-Ufu13zLPk4g9YwUmkfkYVj">
                   <s xml:id="i-XPDYNndUNZSdD5KPvkmgon">
+                     <measure type="sentiment" quantity="2.681" ana="senti:neupos" corresp="#i-XPDYNndUNZSdD5KPvkmgon"/>
                      <name type="ORG">
 <w msd="UPosTag=PROPN|Case=Nom" lemma="VTI" xml:id="i-XP4amDSEUu7iRgX9k2a95e">VTI</w>
                      </name>
@@ -7002,6 +7159,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDYVT735GfEg6wVnHTchS">
+                     <measure type="sentiment" quantity="1.532" ana="senti:neuneg" corresp="#i-XPDYVT735GfEg6wVnHTchS"/>
 <w msd="UPosTag=ADV" lemma="samtidigt" xml:id="i-XP4dx888TcuBcD3TBxgB3a">Samtidigt</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="bli" xml:id="i-XP4e7HXXg6aGsd2Ljp85Pr">blir</w>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XP4eFccz3z6YCuYy4DyzFv">det</w>
@@ -7058,6 +7216,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDYc7abmysr98Zbdp9Yb6">
+                     <measure type="sentiment" quantity="3.325" ana="senti:neupos" corresp="#i-XPDYc7abmysr98Zbdp9Yb6"/>
                      <name type="ORG">
 <w msd="UPosTag=PROPN|Case=Nom" lemma="VTI" xml:id="i-XP4hkr7gTfEBvG33brypvQ">VTI</w>
                      </name>
@@ -7102,6 +7261,7 @@
                </seg>
                <seg xml:id="i-4J5dVQ1XVxUjZNzV6y2XZc">
                   <s xml:id="i-XPDYhwkDe6wdg2jSFuFUzY">
+                     <measure type="sentiment" quantity="1.392" ana="senti:mixneg" corresp="#i-XPDYhwkDe6wdg2jSFuFUzY"/>
 <w msd="UPosTag=ADP" lemma="med" xml:id="i-XP4k5nErB3t575Pb9KvPhv">Med</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="anledning" xml:id="i-XP4kE7LJYwQLSMvDTjnJZz">anledning</w>
 <w msd="UPosTag=ADP" lemma="av" xml:id="i-XP4kMc7p6EmmqWzaYi4Dwr">av</w>
@@ -7196,6 +7356,7 @@
                </seg>
                <seg xml:id="i-7RjftfbzHETDL3dbTBY3fT">
                   <s xml:id="i-XPDYpcDnLpAF94MY7RwQtC">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XPDYpcDnLpAF94MY7RwQtC"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="fru" xml:id="i-XP4rTbce8VT1U8SC3C8Tdn">Fru</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="talman" xml:id="i-XP4rbvi6WNyGoQxpMbzNVr" join="right">talman</w>
 <pc msd="UPosTag=PUNCT" xml:id="i-XP4rkFoYtGVY8hVSg1rHMv">!</pc>
@@ -7206,6 +7367,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDYwGhM3XNrc5ydxxdLmr">
+                     <measure type="sentiment" quantity="2.275" ana="senti:neuneg" corresp="#i-XPDYwGhM3XNrc5ydxxdLmr"/>
 <w msd="UPosTag=ADV" lemma="när" xml:id="i-XP4ruRCx6kAdQ7ULDsJBiC">När</w>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="vi" xml:id="i-XP4s3kJQUdgtjPzxYHA6aG">vi</w>
 <w msd="UPosTag=ADV" lemma="nu" xml:id="i-XP4sC5PrrXDA4gXarh21SL">nu</w>
@@ -7256,6 +7418,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDZ3wAukEbU57bjpVKGfW">
+                     <measure type="sentiment" quantity="1.119" ana="senti:mixneg" corresp="#i-XPDZ3wAukEbU57bjpVKGfW"/>
 <w msd="UPosTag=ADV" lemma="precis" xml:id="i-XP4vEezJTMUMuvXFzDG8YC">Precis</w>
 <w msd="UPosTag=CCONJ" lemma="som" xml:id="i-XP4vNz5kqEzdFD3tJd83QG">som</w>
 <w msd="UPosTag=DET|Definite=Def,Ind|Gender=Com,Neut|Number=Plur" lemma="all" xml:id="i-XP4vWUsGNYN4eN8FPbPxn8">alla</w>
@@ -7284,6 +7447,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDZ9mLXcMfFc1maSaRD4x">
+                     <measure type="sentiment" quantity="0.469" ana="senti:negneg" corresp="#i-XPDZ9mLXcMfFc1maSaRD4x"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="detta" xml:id="i-XP4wySRhpbtMqUK32bB4PE">Detta</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="ha" xml:id="i-XP4x7mXACVQdAkqfM12yFJ">har</w>
 <w msd="UPosTag=ADV" lemma="nyligen" xml:id="i-XP4xG6ccaNvtW3NHfQtt7N">nyligen</w>
@@ -7348,6 +7512,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDZGRp6K4ss53PgJ778xc">
+                     <measure type="sentiment" quantity="4.123" ana="senti:mixpos" corresp="#i-XPDZGRp6K4ss53PgJ778xc"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XP52JysEpRqwgH4M1pAPFi">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP52U9Ge2uX2wh3EZfcHbz">är</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing" lemma="viktig" xml:id="i-XP52cUN6Qo3JGyZrt5UCU4">viktigt</w>
@@ -7398,6 +7563,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDZP6Hf1n6UY51n9do4rG">
+                     <measure type="sentiment" quantity="2.980" ana="senti:neupos" corresp="#i-XPDZP6Hf1n6UY51n9do4rG"/>
 <w msd="UPosTag=ADV" lemma="inte" xml:id="i-XP55f3xY1dJW8DZY1biKZv">Inte</w>
 <w msd="UPosTag=ADV|Degree=Sup" lemma="litet" xml:id="i-XP55oP3zPWpmTW6AL1aERz">minst</w>
 <w msd="UPosTag=ADV" lemma="när" xml:id="i-XP55wi9SmQM2nncneRS9J4">när</w>
@@ -7432,6 +7598,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDZVkmDiVK616dt1AUzjv">
+                     <measure type="sentiment" quantity="3.982" ana="senti:mixpos" corresp="#i-XPDZVkmDiVK616dt1AUzjv"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="jag" xml:id="i-XP57rVJCBiawusqiU6Nxya">Jag</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="se" xml:id="i-XP581ehbQCG3BHpc1wpsKr">ser</w>
 <w msd="UPosTag=PART" lemma="fram" xml:id="i-XP589yo3n5nJWaMELMgnBv">fram</w>
@@ -7466,6 +7633,7 @@
                </seg>
                <seg xml:id="i-3kKq1XehHrY9LmdSn7dLca">
                   <s xml:id="i-XPDZbavqacNsXzoidFaw9N">
+                     <measure type="sentiment" quantity="2.788" ana="senti:neupos" corresp="#i-XPDZbavqacNsXzoidFaw9N"/>
 <w msd="UPosTag=DET|Definite=Def|Gender=Com,Neut|Number=Plur" lemma="den" xml:id="i-XP59tmET9LCJS891Njbi2x">De</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Neut|Number=Plur" lemma="fartyg" xml:id="i-XP5A36KuXDiZmQfdh9Tcu2">fartyg</w>
 <w msd="UPosTag=PRON" lemma="som" xml:id="i-XP5ABRRMu7Eq6hCG1ZKXm6">som</w>
@@ -7512,6 +7680,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDZiFQQHKbV12RpUnGs32">
+                     <measure type="sentiment" quantity="4.697" ana="senti:pospos" corresp="#i-XPDZiFQQHKbV12RpUnGs32"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="omställning" xml:id="i-XP5CxB8qakcLDVawjhRpd2">Omställningen</w>
 <w msd="UPosTag=ADP" lemma="inom" xml:id="i-XP5D6WEHxe8bYn7a47HjV6">inom</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="sjöfart" xml:id="i-XP5DEqKkLXert4eCNX9eMA">sjöfarten</w>
@@ -7560,6 +7729,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDZp5a29SfGXvbf6sNoSU">
+                     <measure type="sentiment" quantity="3.895" ana="senti:mixpos" corresp="#i-XPDZp5a29SfGXvbf6sNoSU"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="vi" xml:id="i-XP5G9v8gQ4YdL9ZWR57r5A">Vi</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="behöva" xml:id="i-XP5GK5Y5cYDibZYPxvZkRS">behöver</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="sjöfart" xml:id="i-XP5GTQdXzRjyvr52HLRfHW">sjöfarten</w>
@@ -7586,6 +7756,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDZvk3ar9sszxDkxQ4jL8">
+                     <measure type="sentiment" quantity="3.355" ana="senti:neupos" corresp="#i-XPDZvk3ar9sszxDkxQ4jL8"/>
 <w msd="UPosTag=ADV" lemma="inte" xml:id="i-XP5Hn36X4bk1nfjBbvLr2Y">Inte</w>
 <w msd="UPosTag=ADV|Degree=Sup" lemma="litet" xml:id="i-XP5HvNBySVGH7xFovLCktc">minst</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP5J4hHRpNnYTEnSEk4fkg">är</w>
@@ -7628,6 +7799,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDa3QX9Ys6VTyqrovkfDn">
+                     <measure type="sentiment" quantity="4.764" ana="senti:pospos" corresp="#i-XPDa3QX9Ys6VTyqrovkfDn"/>
 <w msd="UPosTag=ADV" lemma="därför" xml:id="i-XP5LPdQbXmSRe48ynD1EYC">Därför</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="komma" xml:id="i-XP5LYnozkF7WuU7sL4T8tU">kommer</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="miljöparti" xml:id="i-XP5LhxDPxincAt6ksuu3Ek">Miljöpartiet</w>
@@ -7676,9 +7848,10 @@
                </seg>
             </u>
             <note type="speaker" xml:id="ParlaMint-SE_2020-04-16-prot-201920--106.ana.note643">Anf . 117 MAGNUS JACOBSSON ( KD ) :</note>
-            <u ana="#regular" who="#Q5826586" xml:id="i-19e7640c7a732d9e-791">
+            <u ana="#regular topic:trans" who="#Q5826586" xml:id="i-19e7640c7a732d9e-791">
                <seg xml:id="i-AohgZz4Cnw7M7MU5Pzri1h">
                   <s xml:id="i-XPDa9EgmQzAGzt1hS1rbdE">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XPDa9EgmQzAGzt1hS1rbdE"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="fru" xml:id="i-XP5PUhvseNA7HgVSc41L6g">Fru</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="talman" xml:id="i-XP5Pd32L2FgNcy24vTsExk" join="right">talman</w>
 <pc msd="UPosTag=PUNCT" xml:id="i-XP5PkXoqZZ3p286S1S9ALc">!</pc>
@@ -7689,6 +7862,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDaFuAL7hNtTudoHYYXWt">
+                     <measure type="sentiment" quantity="3.700" ana="senti:mixpos" corresp="#i-XPDaFuAL7hNtTudoHYYXWt"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="sjöfart" xml:id="i-XP5PuhDEn2iuHY5KZHb4gt">Sjöfarten</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP5Q42Jh9vFAcpbwshSyYx">är</w>
 <w msd="UPosTag=DET|Definite=Ind|Gender=Com|Number=Sing" lemma="en" xml:id="i-XP5QCMQ9XomRx78aC7JtR2">en</w>
@@ -7713,6 +7887,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDaNZdtpQbVvwFu95ETQY">
+                     <measure type="sentiment" quantity="2.867" ana="senti:neupos" corresp="#i-XPDaNZdtpQbVvwFu95ETQY"/>
 <w msd="UPosTag=ADV" lemma="cirka" xml:id="i-XP5RNemgE6FCUeG7CHNAHz">Cirka</w>
 <w msd="UPosTag=NUM|Case=Nom" lemma="90" xml:id="i-XP5RWys8bymTovnjWhE5A4">90</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Plur" lemma="procent" xml:id="i-XP5RfJxaysHj9DKMq75z28">procent</w>
@@ -7745,6 +7920,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDaUPoWgXfHTqRjmALPoz">
+                     <measure type="sentiment" quantity="3.789" ana="senti:mixpos" corresp="#i-XPDaUPoWgXfHTqRjmALPoz"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="sjöfart" xml:id="i-XP5TQ6PzM7hj4m78sUzusA">Sjöfarten</w>
 <w msd="UPosTag=CCONJ" lemma="och" xml:id="i-XP5TYRVSj1DzQ3dmBtrpjE">och</w>
 <w msd="UPosTag=DET|Definite=Def|Gender=Com,Neut|Number=Plur" lemma="vår" xml:id="i-XP5Tgkau6tkFjLAPWJijbJ">våra</w>
@@ -7781,6 +7957,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDab4H5PEstvs3qch2Khe">
+                     <measure type="sentiment" quantity="0.870" ana="senti:mixneg" corresp="#i-XPDab4H5PEstvs3qch2Khe"/>
 <w msd="UPosTag=ADP" lemma="utan" xml:id="i-XP5VahRhgcqLvHw46Y5Znc">Utan</w>
 <w msd="UPosTag=VERB|Case=Nom|Definite=Def,Ind|Gender=Com,Neut|Number=Plur,Sing|Tense=Pres|VerbForm=Part" lemma="fungerande" xml:id="i-XP5Vj2XA4WMcFaTgQwwUeg">fungerande</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="sjöfart" xml:id="i-XP5VsMccSPssarzJjMoPWk">sjöfart</w>
@@ -7833,6 +8010,7 @@
                </seg>
                <seg xml:id="i-Jca2TPa8CzY1PmkAbFt858">
                   <s xml:id="i-XPDahike5x6WPtfwUDiFbJ">
+                     <measure type="sentiment" quantity="4.515" ana="senti:pospos" corresp="#i-XPDahike5x6WPtfwUDiFbJ"/>
 <w msd="UPosTag=ADV" lemma="därför" xml:id="i-XP5YyGSqPakPAco2nePUZS">Därför</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP5Z8RrEc4RUS2mvLVqNui">är</w>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XP5ZHbFdpY6ZhSkotMHHFz">det</w>
@@ -7861,6 +8039,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDapPECnfK7rvJ3KkQBUx">
+                     <measure type="sentiment" quantity="4.786" ana="senti:pospos" corresp="#i-XPDapPECnfK7rvJ3KkQBUx"/>
 <w msd="UPosTag=VERB|Case=Nom|Definite=Def,Ind|Gender=Com,Neut|Number=Plur,Sing|Tense=Pres|VerbForm=Part" lemma="återkommande" xml:id="i-XP5akYp5GbcrtYwbXM4Ns6">Återkommande</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="översyn" xml:id="i-XP5atsuXeV98DqUDqkvHjA">översyn</w>
 <w msd="UPosTag=ADP" lemma="av" xml:id="i-XP5b3Czz2NfPZ7zrAAnCbE">av</w>
@@ -7941,6 +8120,7 @@
                </seg>
                <seg xml:id="i-AaewJr9kv3Gp281mVB63er">
                   <s xml:id="i-XPDavDPpenNuPpTswqW7tQ">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XPDavDPpenNuPpTswqW7tQ"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="fru" xml:id="i-XP5g6PunueEJ4MPHjT55n4">Fru</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="talman" xml:id="i-XP5gEj1FHXkZPduv3rvze8" join="right">talman</w>
 <pc msd="UPosTag=PUNCT" xml:id="i-XP5gP46hfRGpivSYNGnuWC">!</pc>
@@ -7951,6 +8131,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDb2ssPMVbWrr5yoNC3n4">
+                     <measure type="sentiment" quantity="5.206" ana="senti:pospos" corresp="#i-XPDb2ssPMVbWrr5yoNC3n4"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="jag" xml:id="i-XP5gXPCA3Jo64CyAggepNG">Jag</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP5gfiHcRCKMPVVo16WjEL">är</w>
 <w msd="UPosTag=DET|Definite=Def|Gender=Com|Number=Sing" lemma="den" xml:id="i-XP5gp3P4o5qcin2RKWNe6Q">den</w>
@@ -7985,6 +8166,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDb8i31DcfJPkFpRTHzBW">
+                     <measure type="sentiment" quantity="2.510" ana="senti:neupos" corresp="#i-XPDb8i31DcfJPkFpRTHzBW"/>
 <w msd="UPosTag=DET|Definite=Ind|Gender=Com|Number=Sing" lemma="en" xml:id="i-XP5ikV9htaPBi89sc4VSkL">En</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="inflaggning" xml:id="i-XP5itpFAGTuT3QgVvUMMcQ">inflaggning</w>
 <w msd="UPosTag=ADP" lemma="av" xml:id="i-XP5j2K2fomGtSZks1SdGzG">av</w>
@@ -8003,6 +8185,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDbFNWZvKsurmsvGyyv5A">
+                     <measure type="sentiment" quantity="0.180" ana="senti:negneg" corresp="#i-XPDbFNWZvKsurmsvGyyv5A"/>
 <w msd="UPosTag=ADV" lemma="samtidigt" xml:id="i-XP5jjxVwhCtD6zPzbVvqJc">Samtidigt</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="räcka" xml:id="i-XP5ju7uLugZJNQNt9MNjet">räcker</w>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XP5k3SzoHa5ZhguWTmEeWx">det</w>
@@ -8023,6 +8206,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDbN2z8d36XKoW28Wfqxp">
+                     <measure type="sentiment" quantity="3.720" ana="senti:mixpos" corresp="#i-XPDbN2z8d36XKoW28Wfqxp"/>
 <w msd="UPosTag=ADP" lemma="från" xml:id="i-XP5kuRZXYuD9hQ5GNEQ7hN">Från</w>
 <w msd="UPosTag=NOUN|Case=Gen|Definite=Def|Gender=Com|Number=Sing" lemma="sjöfart" xml:id="i-XP5m3keyvnjR2gbtgeG2ZS">sjöfartens</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="sida" xml:id="i-XP5mC5kSJgFgMy8X147wRW">sida</w>
@@ -8065,6 +8249,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDbUhThKkK8nq87z3MmrU">
+                     <measure type="sentiment" quantity="1.890" ana="senti:neuneg" corresp="#i-XPDbUhThKkK8nq87z3MmrU"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="översyn" xml:id="i-XP5oX1sc24uZYnV4YX4WD2">Översyn</w>
 <w msd="UPosTag=ADP" lemma="av" xml:id="i-XP5ofLy4PxRpt51grvvR56">av</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Plur" lemma="avgift" xml:id="i-XP5oog4Wmqx6DMYKBLnKwA" join="right">avgifter</w>
@@ -8113,6 +8298,7 @@
                </seg>
                <seg xml:id="i-AwW4gjs1JyTA5w5MKoaofW">
                   <s xml:id="i-XPDbbMwG2TXkFrkDqa3hk8">
+                     <measure type="sentiment" quantity="4.998" ana="senti:pospos" corresp="#i-XPDbbMwG2TXkFrkDqa3hk8"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="vi" xml:id="i-XP5rZbU3cuAmQ2Ujg3JdJt">Vi</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP5rhvZVznh2jK1MzTAYAx">är</w>
 <w msd="UPosTag=ADV" lemma="därför" xml:id="i-XP5rs5xuDGN7zizFYJcSXE">därför</w>
@@ -8155,6 +8341,7 @@
                </seg>
                <seg xml:id="i-XWdPz8f8raTUVMCsoVCiDv">
                   <s xml:id="i-XPDbi2QpjAkMitNKh6jddn">
+                     <measure type="sentiment" quantity="2.478" ana="senti:neuneg" corresp="#i-XPDbi2QpjAkMitNKh6jddn"/>
 <w msd="UPosTag=DET|Definite=Def|Gender=Neut|Number=Sing" lemma="den" xml:id="i-XP5uDghxbqKf3oFKYeizHA">Det</w>
 <w msd="UPosTag=ADJ|Case=Nom" lemma="första" xml:id="i-XP5uN1oQyiqvP5mws4au9E">första</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP5uVWavX2DMnErJx2rpX6">är</w>
@@ -8211,6 +8398,7 @@
                </seg>
                <seg xml:id="i-FARjtt129mvKzGeHC1crU8">
                   <s xml:id="i-XPDboraSbHp9FnYAKBqa3E">
+                     <measure type="sentiment" quantity="2.677" ana="senti:neupos" corresp="#i-XPDboraSbHp9FnYAKBqa3E"/>
 <w msd="UPosTag=DET|Definite=Def|Gender=Neut|Number=Sing" lemma="den" xml:id="i-XP5xrQzAYopkAJomBFzkKW">Det</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Com,Neut|Number=Sing" lemma="annan" xml:id="i-XP5xyumg67CBZTt8GEGfhN">andra</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP5y8Es8TziStkQkae8aZS">är</w>
@@ -8277,6 +8465,7 @@
                </seg>
                <seg xml:id="i-J3FQ9bPNmKx3XpCReMV8jw">
                   <s xml:id="i-XPDbvX41J12kipAGAiXVvt">
+                     <measure type="sentiment" quantity="5.292" ana="senti:pospos" corresp="#i-XPDbvX41J12kipAGAiXVvt"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="detta" xml:id="i-XP63Dd3bDp5ysNTbdNA4AQ">Detta</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP63Mx93bhcFCezDwn1y2U">är</w>
 <w msd="UPosTag=NUM|Case=Nom" lemma="två" xml:id="i-XP63WHEVyb8WXwWrGBsstY">två</w>
@@ -8313,6 +8502,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDc3BXZziFNBqnN2FDRpY">
+                     <measure type="sentiment" quantity="0.514" ana="senti:mixneg" corresp="#i-XPDc3BXZziFNBqnN2FDRpY"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XP65YZAkwCjs4Bp9Aq6cwv">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" lemma="böra" xml:id="i-XP65hiaA9gQxKbo2igYXJC">borde</w>
 <w msd="UPosTag=ADV" lemma="också" xml:id="i-XP65qDMfgynPiksPoepSg4">också</w>
@@ -8367,6 +8557,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDc9r18hRTyesQTsmuMiC">
+                     <measure type="sentiment" quantity="4.363" ana="senti:mixpos" corresp="#i-XPDc9r18hRTyesQTsmuMiC"/>
 <w msd="UPosTag=ADP" lemma="från" xml:id="i-XP69AT923b68EZvKZznPW4">Från</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing" lemma="kristdemokratisk" xml:id="i-XP69KcYRG4mDVyuD7rEHrL">kristdemokratiskt</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Neut|Number=Sing" lemma="håll" xml:id="i-XP69TwdsdxHUqGRqSG6CiQ">håll</w>
@@ -8401,6 +8592,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDcFgAkZYXmBmaJVs1J7e">
+                     <measure type="sentiment" quantity="4.414" ana="senti:mixpos" corresp="#i-XPDcFgAkZYXmBmaJVs1J7e"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XP6BM4AjP6Dk66kEo3s3RW">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act" lemma="ska" xml:id="i-XP6BVPGBkyk1RPGs7TixHa">skulle</w>
 <w msd="UPosTag=VERB|VerbForm=Inf|Voice=Act" lemma="kunna" xml:id="i-XP6BdiMe8sGGkfoVRsas9e">kunna</w>
@@ -8431,6 +8623,7 @@
                </seg>
                <seg xml:id="i-yoTs627xePyAEivSH9Woq">
                   <s xml:id="i-XPDcMWLNRfbYifk97x7EX6">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XPDcMWLNRfbYifk97x7EX6"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="fru" xml:id="i-XP6D6fv5avnZwmzH4sMxkk">Fru</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="talman" xml:id="i-XP6DF11XxpJqH4WuPHDscp" join="right">talman</w>
 <pc msd="UPosTag=PUNCT" xml:id="i-XP6DPL6zLhq6cM3Xhh5nUt">!</pc>
@@ -8441,6 +8634,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDcUAow8NpABhNEyUoAQk">
+                     <measure type="sentiment" quantity="0.995" ana="senti:mixneg" corresp="#i-XPDcUAow8NpABhNEyUoAQk"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XP6DXfCSibMMwdaA26whLx">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP6DfzHu6UsdGv6nLWocD2">är</w>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Ind|Gender=Com,Neut|Number=Plur" lemma="många" xml:id="i-XP6Dq9hJJxYiYL5ftNFWZJ">många</w>
@@ -8485,6 +8679,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDcaqHVq62meizLq1V6JQ">
+                     <measure type="sentiment" quantity="3.558" ana="senti:mixpos" corresp="#i-XPDcaqHVq62meizLq1V6JQ"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="man" xml:id="i-XP6GSk1Nn8F8PiVU4euu4x">Man</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="måste" xml:id="i-XP6Gb56qA1mPj126P4mow2">måste</w>
 <w msd="UPosTag=ADV" lemma="också" xml:id="i-XP6GjQCHXuHf4HYihUdio6">också</w>
@@ -8513,6 +8708,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDcgfT7hD6ZBdABT6b2hr">
+                     <measure type="sentiment" quantity="1.142" ana="senti:mixneg" corresp="#i-XPDcgfT7hD6ZBdABT6b2hr"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Def|Gender=Com|Number=Sing" lemma="sjöfart" xml:id="i-XP6JBXSn9Nf8KGHF72ppuz">Sjöfarten</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="stå" xml:id="i-XP6JKrYEXGBPeYosRSgjn4">står</w>
 <w msd="UPosTag=ADP" lemma="inför" xml:id="i-XP6JUBdgu9heyqLVjrYee8">inför</w>
@@ -8565,6 +8761,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDcoKvgPvKAeenHJdGxbW">
+                     <measure type="sentiment" quantity="1.519" ana="senti:neuneg" corresp="#i-XPDcoKvgPvKAeenHJdGxbW"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Ind|Gender=Neut|Number=Sing" lemma="inget" xml:id="i-XP6MfvdXiTdx6VK4REEg6G">Inget</w>
 <w msd="UPosTag=ADP" lemma="av" xml:id="i-XP6MpFiz6MADRmqgje6axL">av</w>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="detta" xml:id="i-XP6MxapSUEgUm4NK43xVpQ">detta</w>
@@ -8633,6 +8830,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDcuA6JG3NxBYx7viNtzx">
+                     <measure type="sentiment" quantity="4.665" ana="senti:pospos" corresp="#i-XPDcuA6JG3NxBYx7viNtzx"/>
 <w msd="UPosTag=ADV" lemma="därför" xml:id="i-XP6SKnss9EwiU829WA7ofJ">Därför</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP6SU7yKX8TyoQYmpZyiXN">är</w>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XP6ScT4mu1zF8h5Q8yqdPS">det</w>
@@ -8679,6 +8877,7 @@
                </seg>
                <seg xml:id="i-MyXqoMag4BU72WkZF11tUg">
                   <s xml:id="i-XPDd1pZrxkbZeaaDnF4ptc">
+                     <measure type="sentiment" quantity="4.882" ana="senti:pospos" corresp="#i-XPDd1pZrxkbZeaaDnF4ptc"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="elektrifiering" xml:id="i-XP6VE3NrNBgez5VCKGW1u6">Elektrifiering</w>
 <w msd="UPosTag=ADP" lemma="av" xml:id="i-XP6VNNUJk5CvKN1pdgMvmA">av</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="sjöfart" xml:id="i-XP6VWhZm7xjBeeYSx6DqdE">sjöfart</w>
@@ -8705,6 +8904,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDd7ejUpsfMBUk4QLAmJ4">
+                     <measure type="sentiment" quantity="5.039" ana="senti:pospos" corresp="#i-XPDd7ejUpsfMBUk4QLAmJ4"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XP6WuVaUP5VMB7TvRt4yoJ">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="komma" xml:id="i-XP6X3pfvky1cWPzYkHvtfN">kommer</w>
 <w msd="UPosTag=PART" lemma="att" xml:id="i-XP6XC9mP8rXsqgXB4hnoXS">att</w>
@@ -8729,6 +8929,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDdEKD3XasxeWNAFrrhBi">
+                     <measure type="sentiment" quantity="3.305" ana="senti:neupos" corresp="#i-XPDdEKD3XasxeWNAFrrhBi"/>
 <w msd="UPosTag=CCONJ" lemma="men" xml:id="i-XP6YMcpxzYrpS6CSqSG5vC">Men</w>
 <w msd="UPosTag=ADV" lemma="så" xml:id="i-XP6YVwvRNSP5mNj59r7znG">så</w>
 <w msd="UPosTag=ADV|Degree=Pos" lemma="länge" xml:id="i-XP6YeH1skKuM6fFhUFyueL">länge</w>
@@ -8787,6 +8988,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDdL9NfPhwkBQXzswxdbA">
+                     <measure type="sentiment" quantity="0.088" ana="senti:negneg" corresp="#i-XPDdL9NfPhwkBQXzswxdbA"/>
 <w msd="UPosTag=PRON|Case=Acc,Nom|Definite=Def|Gender=Neut|Number=Sing" lemma="det" xml:id="i-XP6cJfuyNUi65RifZkRef6">Det</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="vara" xml:id="i-XP6cT11RkNEMQiFHtAHZXA">är</w>
 <w msd="UPosTag=ADV" lemma="därför" xml:id="i-XP6cbL6t8FkcjzmvCa9UPE">därför</w>
@@ -8833,6 +9035,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDdTeAAw1KBaZcMxvEYy2">
+                     <measure type="sentiment" quantity="4.178" ana="senti:mixpos" corresp="#i-XPDdTeAAw1KBaZcMxvEYy2"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="vi" xml:id="i-XP6f4bKWDXvmG6f64Swx2p">Vi</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="behöva" xml:id="i-XP6fCvQxbRT2bPBiNrortt">behöver</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Def,Ind|Degree=Cmp|Gender=Com,Neut|Number=Plur,Sing" lemma="god" xml:id="i-XP6fMFWQyJyHvfiLhGfmkx">bättre</w>
@@ -8867,6 +9070,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDdZUKno8Ny7TnCb1LVNU">
+                     <measure type="sentiment" quantity="4.832" ana="senti:pospos" corresp="#i-XPDdZUKno8Ny7TnCb1LVNU"/>
 <w msd="UPosTag=ADP" lemma="från" xml:id="i-XP6h7hZi1jgwiUQeCXkgaQ">Från</w>
 <w msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing" lemma="kristdemokratisk" xml:id="i-XP6hG2fAPdDD3kwGWwcbSU">kristdemokratiskt</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Neut|Number=Sing" lemma="håll" xml:id="i-XP6hRC4Zc6tJKAvA4o4Vnk">håll</w>
@@ -8937,6 +9141,7 @@
                </seg>
                <seg xml:id="i-MMLDbGNgfndBRDtWxs7ibE">
                   <s xml:id="i-XPDdg8oMVqbaaVQJSY2RG8">
+                     <measure type="sentiment" quantity="4.017" ana="senti:mixpos" corresp="#i-XPDdg8oMVqbaaVQJSY2RG8"/>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="fru" xml:id="i-XP6mkjW6bvqt9yfU423pfE">Fru</w>
 <w msd="UPosTag=NOUN|Case=Nom|Definite=Ind|Gender=Com|Number=Sing" lemma="talman" xml:id="i-XP6mu4bYypN9VGC6NRujXJ" join="right">talman</w>
 <pc msd="UPosTag=PUNCT" xml:id="i-XP6n3Ph1MhtQpYiigqmePN">!</pc>
@@ -8947,6 +9152,7 @@
 </linkGrp>
                   </s>
                   <s xml:id="i-XPDdnoGvCYpC3X2QJ4iM9n">
+                     <measure type="sentiment" quantity="3.762" ana="senti:mixpos" corresp="#i-XPDdnoGvCYpC3X2QJ4iM9n"/>
 <w msd="UPosTag=PRON|Case=Nom|Definite=Def|Gender=Com|Number=Plur" lemma="vi" xml:id="i-XP6nBinTjbQg9qFM1FdZFS">Vi</w>
 <w msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act" lemma="stå" xml:id="i-XP6nL3sv7UvwV7myKfVU7W">står</w>
 <w msd="UPosTag=ADP" lemma="bakom" xml:id="i-XP6nUNyNVNTCpQJbe5MNya">bakom</w>

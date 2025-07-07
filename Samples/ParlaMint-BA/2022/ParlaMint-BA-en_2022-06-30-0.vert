@@ -1,7 +1,7 @@
 <note type="speaker" content="Spiric, Nikola"/>
-<speech id="ParlaMint-BA_2022-06-30-0.u3743" text_id="ParlaMint-BA-en_2022-06-30-0" subcorpus="COVID,War" lang="English" body="Unicameralism" term="8. mandat" session="-" meeting="Sjednica 12h" sitting="2022-06-30" agenda="-" date="2022-06-30" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 8, Session 12h" speaker_role="Chairperson" speaker_id="ŠpirićNikola" speaker_name="Špirić, Nikola" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SNSD" speaker_party_name="Savez nezavisnih socijaldemokrata" party_status="Opposition" party_orientation="Syncretic politics" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-BA_2022-06-30-0.u3743" text_id="ParlaMint-BA-en_2022-06-30-0" subcorpus="COVID,War" lang="English" body="Unicameralism" term="8. mandat" session="-" meeting="Sjednica 12h" sitting="2022-06-30" agenda="-" date="2022-06-30" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 8, Session 12h" speaker_role="Chairperson" topic="Macroeconomics" speaker_id="ŠpirićNikola" speaker_name="Špirić, Nikola" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SNSD" speaker_party_name="Savez nezavisnih socijaldemokrata" party_status="Opposition" party_orientation="Syncretic politics" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-BA_2022-06-30-0.u3743.seg0" lang="English">
-<s id="ParlaMint-BA_2022-06-30-0.u3743.seg0.1">
+<s id="ParlaMint-BA_2022-06-30-0.u3743.seg0.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.487">
 Ladies	Ladies	lady	NOUN	Number=Plur	S2.1f,S7.1+/S2.1f	S2.1	S2.1: People: Female	t1
 and	and	and	CCONJ	-	Z5	Z5	Z5: Grammatical bin	t2
 <phr usas_tags="Df/A5.1+++mfnc" usas_cats="A5.1p" usas_glosses="A5.1+: Evaluation: Good">
@@ -40,7 +40,7 @@ BiH	BiH	BiH	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t28
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3743.seg0.2">
+<s id="ParlaMint-BA_2022-06-30-0.u3743.seg0.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.351">
 Our	Our	we	PRON	Number=Plur Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 regular	regular	regular	ADJ	Degree=Pos	A6.2+,N6+,O4.1,I3.1,T2++,A13.3	A6.2p	A6.2+: Comparing: Usual	t2
 guests	guests	guest	NOUN	Number=Plur	S2mf	S2	S2: People	t3
@@ -104,7 +104,7 @@ House	House	House	PROPN	Number=Sing	H4	H4	H4: Residence	t45
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t46
 </s>
 <note type="incident:action" content="/Intonation of the hymn."/>
-<s id="ParlaMint-BA_2022-06-30-0.u3743.seg0.3">
+<s id="ParlaMint-BA_2022-06-30-0.u3743.seg0.3" senti_3="Neutral" senti_6="neutral positive" senti_n="3.071">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 session	session	session	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t2
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t3
@@ -140,7 +140,7 @@ people	people	people	NOUN	Number=Plur	S2mfc	S2	S2: People	t25
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3743.seg0.4">
+<s id="ParlaMint-BA_2022-06-30-0.u3743.seg0.4" senti_3="Neutral" senti_6="neutral positive" senti_n="2.520">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 would	would	would	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 like	like	like	VERB	VerbForm=Inf	E2+	E2p	E2+: Like	t3
@@ -196,7 +196,7 @@ making	making	making	NOUN	Number=Sing	A1.1.1,A9+,A2.2,S6+,A3+,A9-,X9.2+,X6+	A1.1
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t41
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3743.seg0.5">
+<s id="ParlaMint-BA_2022-06-30-0.u3743.seg0.5" senti_3="Neutral" senti_6="neutral positive" senti_n="3.210">
 For	For	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 the	the	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t2
 12th	12th	12th	ADJ	Degree=Pos NumType=Ord	Z99	Z99	Z99: Unmatched	t3
@@ -315,7 +315,7 @@ since	since	since	ADP	-	Z5	Z5	Z5: Grammatical bin	t82
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t84
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3743.seg0.6">
+<s id="ParlaMint-BA_2022-06-30-0.u3743.seg0.6" senti_3="Positive" senti_6="mixed positive" senti_n="3.597">
 This	This	this	PRON	Number=Sing PronType=Dem	M6,Z5,Z8	M6	M6: Location and direction	t1
 is	is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
 a	a	a	DET	Definite=Ind PronType=Art	Z5	Z5	Z5: Grammatical bin	t3
@@ -345,7 +345,7 @@ won	won	win	VERB	Tense=Past VerbForm=Part	S7.1+,A9+	S7.1p	S7.1+: In power	t21
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3743.seg0.7">
+<s id="ParlaMint-BA_2022-06-30-0.u3743.seg0.7" senti_3="Positive" senti_6="mixed positive" senti_n="3.570">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -360,7 +360,7 @@ agenda	agenda	agenda	NOUN	Number=Sing	A7+	A7p	A7+: Likely	t8
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t9
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3743.seg0.8">
+<s id="ParlaMint-BA_2022-06-30-0.u3743.seg0.8" senti_3="Neutral" senti_6="neutral positive" senti_n="3.405">
 Is	Is	be	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t1
 anyone	anyone	anyone	PRON	Number=Sing	Z8mfc	Z8	Z8: Pronouns	t2
 answering	answering	answer	VERB	Tense=Pres VerbForm=Part	Q2.2,S1.1.1	Q2.2	Q2.2: Speech acts	t3
@@ -372,7 +372,7 @@ word	word	word	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t6
 </phr>
 ?	?	?	PUNCT	-	Z9	Z9	Z9: Trash can	t7
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3743.seg0.9">
+<s id="ParlaMint-BA_2022-06-30-0.u3743.seg0.9" senti_3="Positive" senti_6="mixed positive" senti_n="3.521">
 Mr.	Mr.	Mr.	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t1
 <name type="PER">
 Bećirović	Bećirović	Bećirović	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t2
@@ -386,9 +386,9 @@ please	please	please	INTJ	-	E4.2+,E2+,X7+	E4.2p	E4.2+: Content	t4
 </p>
 </speech>
 <note type="speaker" content="Becirović, Denis"/>
-<speech id="ParlaMint-BA_2022-06-30-0.u3744" text_id="ParlaMint-BA-en_2022-06-30-0" subcorpus="COVID,War" lang="English" body="Unicameralism" term="8. mandat" session="-" meeting="Sjednica 12h" sitting="2022-06-30" agenda="-" date="2022-06-30" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 8, Session 12h" speaker_role="Regular" speaker_id="BećirovićDenis" speaker_name="Bećirović, Denis" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDP_BiH" speaker_party_name="Socijaldemokratska partija Bosne i Hercegovine" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1975">
+<speech id="ParlaMint-BA_2022-06-30-0.u3744" text_id="ParlaMint-BA-en_2022-06-30-0" subcorpus="COVID,War" lang="English" body="Unicameralism" term="8. mandat" session="-" meeting="Sjednica 12h" sitting="2022-06-30" agenda="-" date="2022-06-30" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 8, Session 12h" speaker_role="Regular" topic="Mix" speaker_id="BećirovićDenis" speaker_name="Bećirović, Denis" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDP_BiH" speaker_party_name="Socijaldemokratska partija Bosne i Hercegovine" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1975">
 <p id="ParlaMint-BA_2022-06-30-0.u3744.seg0" lang="English">
-<s id="ParlaMint-BA_2022-06-30-0.u3744.seg0.1">
+<s id="ParlaMint-BA_2022-06-30-0.u3744.seg0.1" senti_3="Negative" senti_6="negative" senti_n="-0.130">
 <phr usas_tags="T1.3" usas_cats="T1.3" usas_glosses="T1.3: Time: Period">
 Ladies	Ladies	lady	NOUN	Number=Plur	T1.3	T1.3	T1.3: Time: Period	t1
 and	and	and	CCONJ	-	T1.3	T1.3	T1.3: Time: Period	t2
@@ -459,7 +459,7 @@ Ministers	Ministers	Minister	PROPN	Number=Plur	G1.1/S2mf,S9/S2mf	G1.1 S2	G1.1: G
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t52
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3744.seg0.2">
+<s id="ParlaMint-BA_2022-06-30-0.u3744.seg0.2" senti_3="Negative" senti_6="negative" senti_n="-0.002">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 find	find	find	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -480,7 +480,7 @@ insolence	insolence	insolence	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t12
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t13
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3744.seg0.3">
+<s id="ParlaMint-BA_2022-06-30-0.u3744.seg0.3" senti_3="Negative" senti_6="negative" senti_n="0.023">
 <phr usas_tags="Df" usas_cats="Z9" usas_glosses="Z9: Trash can">
 Half	Half	half	DET	NumForm=Word NumType=Frac PronType=Ind	Df	Z9	Z9: Trash can	t1
 an	an	a	DET	Definite=Ind PronType=Art	Df	Z9	Z9: Trash can	t2
@@ -541,7 +541,7 @@ proposal	proposal	proposal	NOUN	Number=Sing	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Speech
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t48
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3744.seg0.4">
+<s id="ParlaMint-BA_2022-06-30-0.u3744.seg0.4" senti_3="Neutral" senti_6="neutral negative" senti_n="2.204">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 can	can	can	AUX	VerbForm=Fin	A7+	A7p	A7+: Likely	t2
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
@@ -579,7 +579,7 @@ purposes	purposes	purpose	NOUN	Number=Plur	X7+,A2.2,A1.5.1	X7p	X7+: Wanted	t28
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3744.seg0.5">
+<s id="ParlaMint-BA_2022-06-30-0.u3744.seg0.5" senti_3="Negative" senti_6="negative" senti_n="0.080">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 suggest	suggest	suggest	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -618,7 +618,7 @@ officials	officials	official	NOUN	Number=Plur	G1.1/S2mf,S7.1+/S2mf	G1.1 S2	G1.1:
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t29
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3744.seg0.6">
+<s id="ParlaMint-BA_2022-06-30-0.u3744.seg0.6" senti_3="Neutral" senti_6="neutral negative" senti_n="2.214">
 So	So	so	ADV	-	Z5,A13.3	Z5	Z5: Grammatical bin	t1
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t2
 propose	propose	propose	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Q2.2/X7+,X4.1,G1.2,Q2.2/S4	Q2.2 X7p	Q2.2: Speech acts|X7+: Wanted	t3
@@ -682,7 +682,7 @@ conclusions	conclusions	conclusion	NOUN	Number=Plur	X6+,T2-	X6p	X6+: Decided	t54
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t55
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3744.seg0.7">
+<s id="ParlaMint-BA_2022-06-30-0.u3744.seg0.7" senti_3="Neutral" senti_6="neutral positive" senti_n="2.979">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 have	have	have	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A9+,Z5,A2.2,S4	A9p	A9+: Getting and possession	t2
 <g/>
@@ -761,7 +761,7 @@ Assembly	Assembly	Assembly	PROPN	Number=Sing	Z1mf,Z3c	Z1	Z1: Personal names	t62
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t63
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3744.seg0.8">
+<s id="ParlaMint-BA_2022-06-30-0.u3744.seg0.8" senti_3="Negative" senti_6="negative" senti_n="0.274">
 The	The	the	DET	Definite=Def PronType=Art	Z5	Z5	Z5: Grammatical bin	t1
 proposal	proposal	proposal	NOUN	Number=Sing	Q2.2,X7+,S3.2/Q2.2	Q2.2	Q2.2: Speech acts	t2
 <g/>
@@ -823,9 +823,9 @@ injustice	injustice	injustice	NOUN	Number=Sing	G2.1-	G2.1n	G2.1-: Crime	t41
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-BA_2022-06-30-0.u3837" text_id="ParlaMint-BA-en_2022-06-30-0" subcorpus="COVID,War" lang="English" body="Unicameralism" term="8. mandat" session="-" meeting="Sjednica 12h" sitting="2022-06-30" agenda="-" date="2022-06-30" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 8, Session 12h" speaker_role="Regular" speaker_id="BećirovićDenis" speaker_name="Bećirović, Denis" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDP_BiH" speaker_party_name="Socijaldemokratska partija Bosne i Hercegovine" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1975">
+<speech id="ParlaMint-BA_2022-06-30-0.u3837" text_id="ParlaMint-BA-en_2022-06-30-0" subcorpus="COVID,War" lang="English" body="Unicameralism" term="8. mandat" session="-" meeting="Sjednica 12h" sitting="2022-06-30" agenda="-" date="2022-06-30" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 8, Session 12h" speaker_role="Regular" topic="Other" speaker_id="BećirovićDenis" speaker_name="Bećirović, Denis" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDP_BiH" speaker_party_name="Socijaldemokratska partija Bosne i Hercegovine" party_status="Opposition" party_orientation="Centre-left" speaker_gender="M" speaker_birth="1975">
 <p id="ParlaMint-BA_2022-06-30-0.u3837.seg0" lang="English">
-<s id="ParlaMint-BA_2022-06-30-0.u3837.seg0.1">
+<s id="ParlaMint-BA_2022-06-30-0.u3837.seg0.1" senti_3="Negative" senti_6="negative" senti_n="0.026">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 just	just	just	ADV	-	A14,T3---,T1.3-,N3.3---	A14	A14: Exclusivizers/particularizers	t2
 want	want	want	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	X7+,S6+,A7+,S3.2,A9-	X7p	X7+: Wanted	t3
@@ -891,7 +891,7 @@ discuss	discuss	discuss	VERB	VerbForm=Inf	Q2.1,Q2.2	Q2.1	Q2.1: Speech: Communica
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t52
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3837.seg0.2">
+<s id="ParlaMint-BA_2022-06-30-0.u3837.seg0.2" senti_3="Negative" senti_6="negative" senti_n="0.226">
 In	In	in	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 my	my	my	PRON	Number=Sing Person=1 Poss=Yes PronType=Prs	Z8	Z8	Z8: Pronouns	t2
 <phr usas_tags="G1.1" usas_cats="G1.1" usas_glosses="G1.1: Government">
@@ -925,7 +925,7 @@ accepted	accepted	accept	VERB	Tense=Past VerbForm=Part Voice=Pass	A9+,X2.5+,S1.2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t25
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3837.seg0.3">
+<s id="ParlaMint-BA_2022-06-30-0.u3837.seg0.3" senti_3="Negative" senti_6="negative" senti_n="-0.153">
 We	We	we	PRON	Case=Nom Number=Plur Person=1 PronType=Prs	Z8	Z8	Z8: Pronouns	t1
 simply	simply	simply	ADV	-	A13.6,A14,A12+	A13.6	A13.6: Degree: Diminishers	t2
 need	need	need	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	S6+	S6p	S6+: Strong obligation or necessity	t3
@@ -956,9 +956,9 @@ today	today	today	NOUN	Number=Sing	T1.1.2	T1.1.2	T1.1.2: Time: Present; simultan
 </p>
 </speech>
 <note type="speaker" content="Spiric, Nikola"/>
-<speech id="ParlaMint-BA_2022-06-30-0.u3838" text_id="ParlaMint-BA-en_2022-06-30-0" subcorpus="COVID,War" lang="English" body="Unicameralism" term="8. mandat" session="-" meeting="Sjednica 12h" sitting="2022-06-30" agenda="-" date="2022-06-30" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 8, Session 12h" speaker_role="Chairperson" speaker_id="ŠpirićNikola" speaker_name="Špirić, Nikola" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SNSD" speaker_party_name="Savez nezavisnih socijaldemokrata" party_status="Opposition" party_orientation="Syncretic politics" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-BA_2022-06-30-0.u3838" text_id="ParlaMint-BA-en_2022-06-30-0" subcorpus="COVID,War" lang="English" body="Unicameralism" term="8. mandat" session="-" meeting="Sjednica 12h" sitting="2022-06-30" agenda="-" date="2022-06-30" title="Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 8, Session 12h" speaker_role="Chairperson" topic="Macroeconomics" speaker_id="ŠpirićNikola" speaker_name="Špirić, Nikola" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SNSD" speaker_party_name="Savez nezavisnih socijaldemokrata" party_status="Opposition" party_orientation="Syncretic politics" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-BA_2022-06-30-0.u3838.seg0" lang="English">
-<s id="ParlaMint-BA_2022-06-30-0.u3838.seg0.1">
+<s id="ParlaMint-BA_2022-06-30-0.u3838.seg0.1" senti_3="Positive" senti_6="mixed positive" senti_n="4.288">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 thank	thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t2
@@ -971,7 +971,7 @@ Bećirović	Bećirović	Bećirović	PROPN	Number=Sing	Z99	Z99	Z99: Unmatched	t5
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t6
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3838.seg0.2">
+<s id="ParlaMint-BA_2022-06-30-0.u3838.seg0.2" senti_3="Neutral" senti_6="neutral positive" senti_n="3.036">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -986,7 +986,7 @@ reports	reports	report	NOUN	Number=Plur	Q2.2,X3.2	Q2.2	Q2.2: Speech acts	t9
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t10
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3838.seg0.3">
+<s id="ParlaMint-BA_2022-06-30-0.u3838.seg0.3" senti_3="Positive" senti_6="mixed positive" senti_n="3.556">
 <phr usas_tags="A5.4+" usas_cats="A5.4p" usas_glosses="A5.4+: Evaluation: Authentic">
 Let	Let	let	VERB	Mood=Imp VerbForm=Fin	A5.4+	A5.4p	A5.4+: Evaluation: Authentic	t1
 <g/>
@@ -1025,13 +1025,13 @@ reading	reading	reading	NOUN	Number=Sing	G1.1	G1.1	G1.1: Government	t25
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t26
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3838.seg0.4">
+<s id="ParlaMint-BA_2022-06-30-0.u3838.seg0.4" senti_3="Neutral" senti_6="neutral positive" senti_n="2.567">
 Get	Get	get	VERB	Mood=Imp Person=2 VerbForm=Fin	A9+,Z5,X9.2+,A2.1+,A2.2,M1,M2,X2.5+,E4.1-	A9p	A9+: Getting and possession	t1
 ready	ready	ready	ADJ	Degree=Pos	O4.1,A1.2+,X7+,T2+,A9+/A12+,X9.1+	O4.1	O4.1: General appearance and physical properties	t2
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t3
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3838.seg0.5">
+<s id="ParlaMint-BA_2022-06-30-0.u3838.seg0.5" senti_3="Positive" senti_6="mixed positive" senti_n="4.326">
 At	At	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t1
 present	present	present	ADJ	Degree=Pos	T1.1.2,A3+	T1.1.2	T1.1.2: Time: Present; simultaneous	t2
 11	11	11	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t3
@@ -1093,7 +1093,7 @@ for	for	for	ADP	-	Z5	Z5	Z5: Grammatical bin	t45
 <g/>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t47
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3838.seg0.6">
+<s id="ParlaMint-BA_2022-06-30-0.u3838.seg0.6" senti_3="Positive" senti_6="mixed positive" senti_n="4.078">
 <phr usas_tags="N1" usas_cats="N1" usas_glosses="N1: Numbers">
 27	27	27	NUM	NumForm=Digit NumType=Card	N1	N1	N1: Numbers	t1
 Dear	Dear	dear	ADJ	Degree=Pos	N1	N1	N1: Numbers	t2
@@ -1125,7 +1125,7 @@ Peoples	Peoples	people	PROPN	Number=Plur	S2mfc	S2	S2: People	t21
 </name>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t22
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3838.seg0.7">
+<s id="ParlaMint-BA_2022-06-30-0.u3838.seg0.7" senti_3="Positive" senti_6="mixed positive" senti_n="3.620">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	Z8mf	Z8	Z8: Pronouns	t1
 <g/>
 'm	'm	be	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	A3+,Z5	A3p	A3+: Existing	t2
@@ -1153,7 +1153,7 @@ time	time	time	NOUN	Number=Sing	N3.8,T4	N3.8	N3.8: Measurement: Speed	t17
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t18
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3838.seg0.8">
+<s id="ParlaMint-BA_2022-06-30-0.u3838.seg0.8" senti_3="Positive" senti_6="positive" senti_n="4.711">
 <phr usas_tags="Z4,S1.2.4+" usas_cats="Z4" usas_glosses="Z4: Discourse Bin">
 Thank	Thank	thank	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t1
 you	you	you	PRON	Case=Acc Person=2 PronType=Prs	Z4,S1.2.4+	Z4	Z4: Discourse Bin	t2
@@ -1165,7 +1165,7 @@ much	much	much	ADV	-	A13.3	A13.3	A13.3: Degree: Boosters	t4
 </phr>
 .	.	.	PUNCT	-	Z9	Z9	Z9: Trash can	t5
 </s>
-<s id="ParlaMint-BA_2022-06-30-0.u3838.seg0.9">
+<s id="ParlaMint-BA_2022-06-30-0.u3838.seg0.9" senti_3="Neutral" senti_6="neutral positive" senti_n="3.340">
 Session	Session	session	NOUN	Number=Sing	T1.3	T1.3	T1.3: Time: Period	t1
 completed	completed	complete	VERB	Tense=Past VerbForm=Part	T2-,Q1.2	T2n	T2-: Time: Ending	t2
 at	at	at	ADP	-	Z5	Z5	Z5: Grammatical bin	t3
