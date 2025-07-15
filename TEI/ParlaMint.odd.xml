@@ -24,7 +24,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2025-06-13</date>
+        <date>2025-07-08</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -47,6 +47,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
+      <change when="2025-07-08">Tomaž Erjavec: Correct some errata.</change>
       <change when="2025-06-13">Tomaž Erjavec: Add discussion on local taxonomy IDs and topic and sentiment taxonomies.</change>
       <change when="2025-02-15">Tomaž Erjavec: Allow ref/@xml:lang and several publisher/ref.</change>
       <change when="2025-01-28">Tomaž Erjavec: Allow ref/@xml:lang and several publisher/ref.</change>
@@ -80,7 +81,7 @@
           <ref target="https://github.com/clarin-eric/ParlaMint">ParlaMint corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v5.0</docEdition-->
-        <docDate>2025-06-13</docDate>
+        <docDate>2025-07-08</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -160,7 +161,7 @@
           and the file-naming conventions a ParlaMint corpus has to meet; it also introduces
           the top level elements and their attributes and the main pointing attributes;</item>
 
-          <item><ref target="#sec-metadata">Chapter 4</ref> concentrates on the stucture and
+          <item><ref target="#chp-metadata">Chapter 4</ref> concentrates on the stucture and
           encoding of the corpus metadata, such as the title information, documenting the source
           of the corpus, taxonomies used etc.;</item>
           
@@ -181,7 +182,7 @@
           contribute samples of a ParlaMint corpus to GitHub;</item>
 
           <item><ref target="#schema">Appendix A</ref> gives the formal specification of
-          the Parla-CLARIN schema.</item>
+          the ParlaMint schema.</item>
         </list>
         </p>
       </div>
@@ -192,14 +193,14 @@
         <div xml:id="chp-xml-struct">
           <head>XML structure</head>
           
-          <p>The parliamentary proceeding of one country of autonomous region constitute one
+          <p>The parliamentary proceeding of one country or autonomous region constitute one
           ParlaMint corpus, which is stored as one XML document, with <gi>teiCorpus</gi> as its
           top-level element. It is composed of a <gi>teiHeader</gi>, giving the metadata for the
-          corpus as a whole (further detailed in the Section on <ref target="#sec-metadata">Corpus
+          corpus as a whole (further detailed in the Section on <ref target="#chp-metadata">Corpus
           metadata</ref>), followed by a series of <gi>TEI</gi> elements that each contain one
           <term>corpus component</term>, as illustrated<note>Note that this is a illustrative
           example, i.e. a valid ParlaMint corpus would also need certain attributes to be defined
-          on the illustrated elements. This holds for all the examples in this section.</note>
+          on the illustrated elements. This holds for all the examples in this chapter.</note>
           below:
         
           <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-docstructure">
@@ -234,8 +235,8 @@
           </p>
         
           <p>The <gi>teiHeader</gi> of a corpus component (further detailed in the Section on
-          <ref target="#sec-metadata">Corpus metadata</ref>) contains the metadata specific for
-          this component (along with some redundant metadata about the provenance), and which
+          <ref target="#chp-metadata">Corpus metadata</ref>) contains the metadata specific for
+          this component (along with some redundant metadata about its provenance), and which
           should be unique in the corpus, i.e. the corpus component metadata should distinguish
           it from all the other components of the corpus.</p>
 
@@ -271,7 +272,7 @@
           </egXML>
           </p>
           <p>Apart from corpus components, some parts of the overall corpus metadata (i.e. the
-          <gi>teiCorpus</gi> <gi>teiHeader</gi> element) are also stored as separate files, and
+          <gi>taxonomy</gi> elements) are also stored as separate files, and
           hence also included in the corpus root using the same XInclude mechanism as explained
           above.</p>
         </div>
@@ -337,8 +338,9 @@
           </p>
 
           <p>For distribution the complete XML corpus should be stored in a
-          directory that has the same name prefix as the corpus root file. The directory
-          then contains the corpus root file and its metadata files,
+          directory that has the same name prefix as the corpus root file and extended with the format
+          (e.g. <code>TEI</code>).
+          The directory then contains the corpus root file and its metadata files,
           while the corpus components should be in subdirectories, one per year, for example:
           
           <eg xml:id="exa-directories"><lb/>
@@ -348,9 +350,9 @@
             <code>ParlaMint-BE.TEI/ParlaMint-taxonomy-parla.legislature.xml</code><lb/>
             <code>ParlaMint-BE.TEI/ParlaMint-taxonomy-speaker_types.xml</code><lb/>
             <code>...</code><lb/>
-            <code>ParlaMint-BE.TEI/2014/ParlaMint-BE_2014-06-19.xml</code><lb/>
-            <code>ParlaMint-BE.TEI/2014/ParlaMint-BE_2014-06-30.xml</code><lb/>
-            <code>ParlaMint-BE.TEI/2014/ParlaMint-BE_2014-07-17.xml</code><lb/>
+            <code>ParlaMint-BE.TEI/2014/ParlaMint-BE_2014-06-19-11.xml</code><lb/>
+            <code>ParlaMint-BE.TEI/2014/ParlaMint-BE_2014-06-30-11.xml</code><lb/>
+            <code>ParlaMint-BE.TEI/2014/ParlaMint-BE_2014-07-17-11.xml</code><lb/>
             <code>...</code><lb/>
             <code>ParlaMint-BE.TEI/2015/ParlaMint-BE_2015-01-06-54.xml</code><lb/>
             <code>ParlaMint-BE.TEI/2015/ParlaMint-BE_2015-01-07-54.xml</code><lb/>
@@ -411,14 +413,14 @@
           <list>
             <item>TAB (U+0009) character helps the alignment of strings on successive
             lines.  As ParlaMint is not interested in preserving the layout, all TAB
-            chacters are substituted by space characters (U+0020).</item>
+            chacters must be substituted by space characters (U+0020).</item>
             
             <item>NO-BREAK SPACE (U+00A0) prevents, with some applications, an automatic
             line break at its position and also collapsing such consecutive characters
             into a single space. As the use of this character complicates (or breaks)
-            further processing, esp. linguistic annotation, these characters should be 
+            further processing, esp. linguistic annotation, thise character must be 
             substituted by the normal space character (U+0020). The same holds for other
-            variants of spaces (U+2000 - U+200A), which are, however, used much less
+            variants of Unicode space characters (U+2000 - U+200A), which are, however, used much less
             frequently.</item>
             
             <item>NON-BREAKING HYPHEN (U+2011), similarly to NO-BREAK SPACE, prevents a
@@ -467,8 +469,7 @@
             corpora will use at least two languages, i.e. the language that the
             transcriptions are written in, which we will call the <term>local
             language</term> and English, as the meta-language, which is (also) used in
-            the metadata.
-            </item>
+            the metadata.</item>
             
             <item>Temporal, i.e. time-related information is typically stored in the
             <att>when</att>, <att>from</att> and <att>to</att> attributes of various
@@ -476,8 +477,8 @@
             formatting according to the
             <ref target="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</ref>
             standard should be used, e.g. <val>2022-04-01</val> for the 1st of April 2022.
-            More information on temporal attributes is given in the Section on <ref
-            target="#sec-temporal">Temporal attributes</ref>.</item>
+            More information on temporal attributes is given in the Section on
+            <ref target="#sec-temporal">Temporal attributes</ref>.</item>
           </list>
           </p>
         </div>
@@ -504,12 +505,10 @@
           <list>
             <item><att>xmlns</att> determines the namespace of the element, and this should
             always be the TEI namespace, i.e. <val>http://www.tei-c.org/ns/1.0</val>. Note
-            that all lower level elements in the same file inherit this namespace, so it is
-            not necessary (although it is not an error) for other elements to also define
-            their namespace.</item>
+            that all lower level elements inherit this namespace.</item>
             
             <item><att>xml:id</att> is an attribute form the (implicitly assumed) XML
-            namespace, and gives the identifier for the corpus root or component.  The
+            namespace, and gives the identifier of the element bearing it.  The
             value of an ID should be unique in the corpus as a whole and should obey
             format requirements as defined by <ref
             target="https://www.w3.org/TR/xml-id/">W3C</ref>.
@@ -522,7 +521,7 @@
             it. While this is not required, it is necessary for any element that
             is then referred to (via this same ID) by some other element, such
             as many elements in the <gi>teiHeader</gi>, as is explained in the
-            Section on <ref target="#sec-metadata">Corpus metadata</ref>.
+            Section on <ref target="#chp-metadata">Corpus metadata</ref>.
 
             The subordinate elements in the transcription that have an ID (such as
             utterances and segments), are recommended to have the top level <att>xml:id</att> as a
@@ -535,7 +534,7 @@
             <item><att>xml:lang</att> is also a global attribute and gives the language
             code of the text content of the element; for the corpus root this does not
             (just) mean the content of its TEI header, but primarily the textual content
-            of its XIncluded components. The convention is that language of the text
+            of its (XIncluded) components. The convention is that language of the text
             content of an element is determined by the value of the first
             <att>xml:lang</att> attribute on its ancestor axis. In cases where the content
             is multilingual, the language code should be of the majority language. When
@@ -663,7 +662,7 @@
         
       </div>
       
-      <div xml:id="sec-metadata">
+      <div xml:id="chp-metadata">
         <head>Corpus metadata</head>
         
         <p>As mentioned, <gi>teiCorpus</gi> and <gi>TEI</gi> elements contain the obligatory
@@ -3009,7 +3008,7 @@
           <head>Metadata for linguistic annotation</head>
 
           <p>What kind of metadata a plain-text ParlaMint corpus should contain was explained in
-          the Section on <ref target="#sec-metadata">Corpus metadata</ref> and in this section we
+          the Section on <ref target="#chp-metadata">Corpus metadata</ref> and in this section we
           detail what additions must be made to the metadata for the linguistically annotated
           version. Note that the <hi>changes</hi> for this version have been already explained at
           the start of this <ref target="#chp-linguistic">Chapter</ref>. In short, there are three
