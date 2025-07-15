@@ -18,7 +18,7 @@ translated to English, and is available from the CLARIN.SI repository:
 - [ParlaMint-en.ana v5.0](http://hdl.handle.net/11356/2006): machine translated and linguistically annotated ParlaMint corpora
 
 Publications connected to ParlaMint are available at the
-[ParlaMint project page](https://www.clarin.eu/parlamint#publications-and%C2%A0presentations).
+[ParlaMint project page](https://www.clarin.eu/parlamint#publications).
 
 The two most comprehensive publication on ParlaMint corpora are the two open access LREV papers describing
 versions 4.1 and 2.1 respectively:
