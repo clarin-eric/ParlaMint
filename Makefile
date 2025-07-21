@@ -5,8 +5,11 @@
 #Special case
 #PARLIAMENTS = IL
 
+#All Parliaments
+PARLIAMENTS = AT BE BG CZ DE DK EE ES ES-CN ES-CT ES-GA ES-PV FI FR GB GR HR HU IL IS IT LV NL NO PL PT SE SI TR BA RS UA
+
 #Parliaments for V5.0
-PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT SE SI TR BA RS UA
+# PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LV NL NO PL PT SE SI TR BA RS UA
 
 ##$JAVA-MEMORY## Set a java memory maxsize in GB
 JAVA-MEMORY =
@@ -98,6 +101,9 @@ setup-parliament-newInParlaMint2:
 
 setup-parliament-CanaryIslands:
 	make setup-parliament PARLIAMENT-NAME='Canary Islands' PARLIAMENT-CODE='ES-CN' LANG-LIST='es (Spanish)'
+
+setup-parliament-Germany:
+	make setup-parliament PARLIAMENT-NAME='Germany' PARLIAMENT-CODE='DE' LANG-LIST='de (German)'
 
 ## initTaxonomies-XX ## initialize taxonomies in folder ParlaMint-XX
 #### parameter LANG-CODE-LIST can contain space separated list of languages
