@@ -11,6 +11,7 @@ Guidelines.
 
 - [Create a GitHub account](https://github.com/signup) if you don't have one.
 - [Fork ParlaMint repository](https://github.com/clarin-eric/ParlaMint/fork) into your organization or private account.
+  - **uncheck "Copy the main branch only"**
 - Start the terminal on your computer and navigate to the folder where you want the ParlaMint local clone of the repository to be placed:
 
 ```bash
@@ -18,8 +19,7 @@ Guidelines.
  git clone git@github.com:<USER-ORG>/ParlaMint.git
 ```
 
-- Set the data branch in your repository to be synchronized with the data branch in the ParlaMint repository:
-
+- (ONLY WHEN YOU FORGET TO UNCHECK "Copy the main branch only") Set the data branch in your repository to be synchronized with the data branch in the ParlaMint repository:
 ```bash
 cd ParlaMint
 git remote add upstream https://github.com/clarin-eric/ParlaMint.git
