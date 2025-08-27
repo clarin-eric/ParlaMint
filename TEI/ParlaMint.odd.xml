@@ -24,7 +24,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2025-07-08</date>
+        <date>2025-07-27</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -47,7 +47,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change when="2025-07-08">Tomaž Erjavec: Correct some errata.</change>
+      <change when="2025-07-27">Tomaž Erjavec: Correct some errata found when making the PressMint ODD.</change>
       <change when="2025-06-13">Tomaž Erjavec: Add discussion on local taxonomy IDs and topic and sentiment taxonomies.</change>
       <change when="2025-02-15">Tomaž Erjavec: Allow ref/@xml:lang and several publisher/ref.</change>
       <change when="2025-01-28">Tomaž Erjavec: Allow ref/@xml:lang and several publisher/ref.</change>
@@ -81,7 +81,7 @@
           <ref target="https://github.com/clarin-eric/ParlaMint">ParlaMint corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v5.0</docEdition-->
-        <docDate>2025-07-08</docDate>
+        <docDate>2025-07-27</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -157,9 +157,9 @@
           structure of a ParlaMint corpus, and introduces the distinction between the
           corpus root and corpus components;</item>
 
-          <item><ref target="#chp-general">Chapter 3</ref> explains some general requirements
-          and the file-naming conventions a ParlaMint corpus has to meet; it also introduces
-          the top level elements and their attributes and the main pointing attributes;</item>
+          <item><ref target="#chp-general">Chapter 3</ref> explains basic requirements
+          and the file conventions a ParlaMint corpus and introduces
+          the top level XML elements and their attributes incl. links;</item>
 
           <item><ref target="#chp-metadata">Chapter 4</ref> concentrates on the stucture and
           encoding of the corpus metadata, such as the title information, documenting the source
@@ -420,8 +420,11 @@
             into a single space. As the use of this character complicates (or breaks)
             further processing, esp. linguistic annotation, thise character must be 
             substituted by the normal space character (U+0020). The same holds for other
-            variants of Unicode space characters (U+2000 - U+200A), which are, however, used much less
-            frequently.</item>
+            variants of Unicode space characters (U+2000 - U+200A), which are, however,
+            used much less frequently.</item>
+            
+            <item>ZERO WIDTH NO-BREAK SPACE (U+FEFF), also used as the Byte Order Mark (BOM)
+            in Windows files should be removed.</item>
             
             <item>NON-BREAKING HYPHEN (U+2011), similarly to NO-BREAK SPACE, prevents a
             line break, in this case following its position. With a similar reasoning as
@@ -466,10 +469,10 @@
             or, and only if a two letter code does not exist for a language, the
             three-letter <ref target="https://en.wikipedia.org/wiki/ISO_639-2">ISO
             639-2/T</ref> code. For example, the code for Basque is 'eu'. ParlaMint
-            corpora will use at least two languages, i.e. the language that the
-            transcriptions are written in, which we will call the <term>local
-            language</term> and English, as the meta-language, which is (also) used in
-            the metadata.</item>
+            corpora will use at least two languages (except for Great Britain), i.e. the
+            language that the transcriptions are written in, which we will call the
+            <term>local language</term> and English, as the meta-language, which is (also)
+            used in the metadata.</item>
             
             <item>Temporal, i.e. time-related information is typically stored in the
             <att>when</att>, <att>from</att> and <att>to</att> attributes of various
@@ -504,10 +507,14 @@
           special importance:
           <list>
             <item><att>xmlns</att> determines the namespace of the element, and this should
-            always be the TEI namespace, i.e. <val>http://www.tei-c.org/ns/1.0</val>. Note
-            that all lower level elements inherit this namespace.</item>
+            always be the TEI namespace, i.e. <val>http://www.tei-c.org/ns/1.0</val>
+            (apart from the elements using the XInclude directive, cf. the Section on
+            <ref target="#sec-xinclude">Use of XInclude</ref>).
+            Note that lower level elements inherit the namespace of the superordinate element,
+            unless explicitly overridden, so it is only necessary to specify the TEI namespace on
+            the root element of a file.</item>
             
-            <item><att>xml:id</att> is an attribute form the (implicitly assumed) XML
+            <item><att>xml:id</att> is an attribute from the (implicitly assumed) XML
             namespace, and gives the identifier of the element bearing it.  The
             value of an ID should be unique in the corpus as a whole and should obey
             format requirements as defined by <ref
@@ -532,9 +539,11 @@
             element should not have leading zeros.</item>
             
             <item><att>xml:lang</att> is also a global attribute and gives the language
-            code of the text content of the element; for the corpus root this does not
-            (just) mean the content of its TEI header, but primarily the textual content
-            of its (XIncluded) components. The convention is that language of the text
+            code of the text content of the element; for the corpus root this 
+            means the content of its TEI header, while for corpus components this is
+            the textual content of their TEI headers and <gi>text</gi> elements.
+            
+            The convention is that language of the text
             content of an element is determined by the value of the first
             <att>xml:lang</att> attribute on its ancestor axis. In cases where the content
             is multilingual, the language code should be of the majority language. When
@@ -576,15 +585,18 @@
           large number of different elements and that their value is a series of pointers,
           i.e.  a white-space delimited sequence of references to the values of some
           <att>xml:id</att> attribute in the corpus or, in general, to an URI.
+
           The three attributes are:
 
           <list>
             <item><att>ana</att> serves to provide an analysis or to classify an element
             according to some pre-determined vocabulary. In ParlaMint the target element will
-            typically be a category in a taxonomy, an event or date, or an organisation.</item>
+            typically be a category in a taxonomy, an event, or an organisation.</item>
+            
             <item><att>corresp</att> points to items that correspond to the current
             element in some way, e.g. the (URL of a) media file to a page break.
             </item>
+            
             <item><att>ref</att> provides an explicit reference to the full definition or
             identity for the entity being named. In ParlaMint it is used e.g. for
             connecting a person's affiliation with a particular organisation. The value
@@ -637,7 +649,7 @@
           <list>
             <item>The <att>when</att> attribute is used when the temporal information
             refers to a point in time, typically a date, and is used e.g. to give the date
-            when the corpus was published, or when a change in the corpus was made.</item>
+            when the corpus was published, or the date when a session was held.</item>
             
             <item>The <att>from</att> and <att>to</att> attributes give the starting and
             ending date or time of an interval, e.g. the time period the corpus covers, or
@@ -754,8 +766,8 @@
             <val>main</val> or <val>sub</val> of their <att>type</att> attribute and the
             value of their <att>xml:lang</att> attribute.</p>
             
-            <p>The main title has a formulaic structure <q>&lt;Country name&gt;
-            parliamentary corpus ParlaMint-&lt;Country code&gt; [ParlaMint]</q>, with an
+            <p>The main title has a formulaic structure <q>&lt;Country_name&gt;
+            parliamentary corpus ParlaMint-&lt;Country_code&gt; [ParlaMint]</q>, with an
             equivalent structure for the local language. Note that the corpus <q>stamp</q>
             in square brackets can also be <q>[ParlaMint.ana]</q> for the linguistically
             annotated version of the corpus (as explained in the Chapter on <ref
@@ -799,7 +811,7 @@
             
             <p>Next come one or more responsibility statements, <gi>respStmt</gi>, each
             one containing one or more person names, <gi>persName</gi>, with an optional
-            <att>ref</att> attribute, giving the URL, where more information about the
+            <att>ref</att> attribute, giving the (typically ORCID) URL, where more information about the
             person can be found, and the responsibility element <gi>resp</gi>, which
             specifies what responsibility the statement is about.</p>
 
@@ -869,8 +881,7 @@
             corpus, while the minor version is reserved for e.g. correcting errata or other
             minor changes. We do not use the patch number. It should be noted that - at least
             so far - all the ParlaMint corpora were released together, so that they are all
-            of the same edition, i.e. have the same version number. At the time of writing,
-            the latest version is 2.1, with the next one planned to be 3.0.</p>
+            of the same edition, i.e. have the same version number.</p>
           </div>
 
           <div xml:id="sec-extent">
@@ -929,7 +940,7 @@
                   <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0
                   International License</ref>.</p>
                 </availability>
-                <date when="2021-06-11">11. 6. 2023</date>
+                <date when="2023-06-11">11. 6. 2023</date>
               </publicationStmt>
             </egXML>
             
@@ -943,7 +954,7 @@
             contains the handle where the complete corpus corresponding to the specified
             version can be found.
 
-            The <gi>availability</gi> specifiers, via its <gi>licence</gi> element the
+            The <gi>availability</gi> specifies, via its <gi>licence</gi> element the
             fixed-value CC BY 4.0 URL, and in the following paragraph gives a prose
             description of the licence, including its URL via the <att>target</att> attribute
             of <gi>ref</gi>. As usual, the textual information is given in both languages.
@@ -958,7 +969,7 @@
             <head>Source description</head>
 
             <p>The source description <gi>sourceDesc</gi> of the <hi>corpus root</hi> encodes
-            the original digital source of the ParlaMint corpus in the <gi>bibl</gi> element,
+            the digital source of the ParlaMint corpus in the <gi>bibl</gi> element,
             as shown in the following example:
 
             <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-sourceDescRoot">
@@ -978,7 +989,7 @@
             
             Apart from the bi-lingual <gi>title</gi>s, it should also give in <gi>idno</gi>
             with the fixed <att>type</att> as <val>URI</val> the government URL where the
-            transcripts were first harvested from, while the dates of the earliest and latest
+            transcripts were harvested from, while the dates of the earliest and latest
             transcript in the corpus are indicated by the <att>from</att> and <att>to</att>
             attributes of the <gi>date</gi> element. As usual, the values of these attributes
             should be according to ISO 8601, while the textual content can be formatted
@@ -1076,9 +1087,6 @@
                 Sciences and Digital Humanities based on the corpus data.</p>
               </projectDesc>
             </egXML>
-
-           The description above is written for the CLARIN ParlaMint project and the English
-           language part can be used as is in the produced corpora for version 3.
             </p>
           </div>
           
@@ -1289,7 +1297,7 @@
           
           <p>The profile description, <gi>profileDesc</gi> is the third main division of the
           metadata provided by the TEI header. It contains a description of non-bibliographic
-          aspects of the corpus, for example the list of speakers with their metadata. For
+          aspects of the corpus, for example, the list of speakers with their metadata. For
           the <hi>corpus root</hi>, it contains four elements, of which only the first, the
           <gi>settingDesc</gi> is used in corpus components. The elements are listed below:
 
@@ -1488,7 +1496,8 @@
           The revision description consists of a series of <gi>change</gi> elements, with
           the attribute <att>when</att> giving the date of the change, and the content
           containing the <gi>name</gi> of the person responsible for the change, and a
-          free-text description of the change.</p>
+          free-text description of the change. Note that the <gi>change</gi> follow reverse
+          chronological order, i.e. the most recent changes are at the top.</p>
         </div>
       </div>
       
