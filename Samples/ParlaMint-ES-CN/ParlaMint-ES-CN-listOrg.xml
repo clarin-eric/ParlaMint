@@ -54,33 +54,41 @@
     <idno type="URI" subtype="wikimedia">https://es.wikipedia.org/wiki/Gobierno_de_Canarias</idno>
     <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Government_of_the_Canary_Islands</idno>
     <listEvent>
-      <event xml:id="GOV.4" from="1991-07-11" to="1993-04-02">
-        <label xml:lang="es">Cuarto Gobierno de Canarias (11.07.1991 - 02.04.1993)</label>
-        <label xml:lang="en">4th Government of the Canary Islands (11.07.1991 - 02.04.1993)</label>
+      <event xml:id="GOV.3" from="1991-07-11" to="1993-04-02">
+        <label xml:lang="es">3º Gobierno de Canarias (11.07.1991 - 02.04.1993)</label>
+        <label xml:lang="en">3th Government of the Canary Islands (11.07.1991 - 02.04.1993)</label>
       </event>
-      <event xml:id="GOV.5" from="1993-04-02" to="1999-07-16">
-        <label xml:lang="es">Quinto Gobierno de Canarias (02.04.1993 - 16.07.1999)</label>
-        <label xml:lang="en">5th Government of the Canary Islands (02.04.1993 - 16.07.1999)</label>
+      <event xml:id="GOV.4" from="1993-04-02" to="1995-06-27">
+        <label xml:lang="es">Cuarto Gobierno de Canarias (02.04.1993 - 27.06.1995)</label>
+        <label xml:lang="en">4th Government of the Canary Islands (02.04.1993 - 27.06.1995)</label>
       </event>
-      <event xml:id="GOV.6" from="1999-07-16" to="2003-07-08">
-        <label xml:lang="es">Sexto Gobierno de Canarias (16.07.1999 - 08.07.2003)</label>
-        <label xml:lang="en">6th Government of the Canary Islands (16.07.1999 - 08.07.2003)</label>
+      <event xml:id="GOV.5" from="1995-07-04" to="1999-07-14">
+        <label xml:lang="es">Quinto Gobierno de Canarias (04.07.1995 - 14.07.1999)</label>
+        <label xml:lang="en">5th Government of the Canary Islands (04.07.1995 - 14.07.1999)</label>
       </event>
-      <event xml:id="GOV.7" from="2003-07-08" to="2007-07-13">
-        <label xml:lang="es">Séptimo Gobierno de Canarias (08.07.2003 - 13.07.2007)</label>
-        <label xml:lang="en">7th Government of the Canary Islands (08.07.2003 - 13.07.2007)</label>
+      <event xml:id="GOV.6" from="1999-07-16" to="2003-06-18">
+        <label xml:lang="es">Sexto Gobierno de Canarias (16.07.1999 - 18.06.2003)</label>
+        <label xml:lang="en">6th Government of the Canary Islands (16.07.1999 - 18.06.2003)</label>
       </event>
-      <event xml:id="GOV.8" from="2007-07-13" to="2015-07-07">
-        <label xml:lang="es">Octavo Gobierno de Canarias (13.07.2007 - 07.07.2015)</label>
-        <label xml:lang="en">8th Government of the Canary Islands (13.07.2007 - 07.07.2015)</label>
+      <event xml:id="GOV.7" from="2003-07-08" to="2007-06-25">
+        <label xml:lang="es">Séptimo Gobierno de Canarias (08.07.2003 - 25.06.2007)</label>
+        <label xml:lang="en">7th Government of the Canary Islands (08.07.2003 - 25.06.2007)</label>
       </event>
-      <event xml:id="GOV.9" from="2015-07-07" to="2019-07-12">
-        <label xml:lang="es">Noveno Gobierno de Canarias (07.07.2015 - 12.07.2019)</label>
-        <label xml:lang="en">9th Government of the Canary Islands (07.07.2015 - 12.07.2019)</label>
+      <event xml:id="GOV.8" from="2007-07-13" to="2011-06-22">
+        <label xml:lang="es">Octavo Gobierno de Canarias (13.07.2007 - 22.06.2011)</label>
+        <label xml:lang="en">8th Government of the Canary Islands (13.07.2007 - 22.06.2011)</label>
       </event>
-      <event xml:id="GOV.10" from="2019-07-12" to="2023-07-12">
-        <label xml:lang="es">Décimo Gobierno de Canarias (12.07.2019 - 12.07.2023)</label>
-        <label xml:lang="en">10th Government of the Canary Islands (12.07.2019 - 12.07.2023)</label>
+      <event xml:id="GOV.9" from="2011-06-29" to="2015-06-23">
+        <label xml:lang="es">Noveno Gobierno de Canarias (29.06.2011 - 23.06.2015)</label>
+        <label xml:lang="en">9th Government of the Canary Islands (29.06.2011 - 23.06.2015)</label>
+      </event>
+      <event xml:id="GOV.10" from="2015-07-07" to="2019-07-12">
+        <label xml:lang="es">Décimo Gobierno de Canarias (07.07.2015 - 12.07.2019)</label>
+        <label xml:lang="en">10th Government of the Canary Islands (07.07.2015 - 12.07.2019)</label>
+      </event>
+      <event xml:id="GOV.11" from="2019-07-12" to="2023-07-12">
+        <label xml:lang="es">11º Gobierno de Canarias (12.07.2019 - 12.07.2023)</label>
+        <label xml:lang="en">11th Government of the Canary Islands (12.07.2019 - 12.07.2023)</label>
       </event>
     </listEvent>
   </org>
@@ -181,19 +189,21 @@
   <listRelation>
     <relation name="coalition" mutual="#party.SC" from="1991-07-11" to="1993-04-02" ana="#PC.3" />
     <relation name="opposition" active="#party.CC #party.NC #party.PP" passive="#GOV" from="1991-07-11" to="1993-04-02" ana="#PC.3" />
-    <relation name="coalition" mutual="#party.CC #party.NC" from="1993-04-02" to="1999-07-16" ana="#PC.4" />
-    <relation name="opposition" active="#party.SC #party.PP" passive="#GOV" from="1993-04-02" to="1999-07-16" ana="#PC.4" />
-    <relation name="coalition" mutual="#party.CC #party.NC #party.PP" from="1999-07-16" to="2003-07-08" ana="#PC.5" />
-    <relation name="opposition" active="#party.SC" passive="#GOV" from="1999-07-16" to="2003-07-08" ana="#PC.5" />
-    <relation name="coalition" mutual="#party.CC #party.PP" from="2003-07-08" to="2007-06-25" ana="#PC.6" />
-    <relation name="opposition" active="#party.SC #party.NC" passive="#GOV" from="2003-07-08" to="2007-06-25" ana="#PC.6" />
-    <relation name="coalition" mutual="#party.CC #party.PP" from="2007-07-13" to="2011-06-22" ana="#PC.7" />
-    <relation name="opposition" active="#party.SC #party.NC" passive="#GOV" from="2007-07-13" to="2011-06-22" ana="#PC.7" />
-    <relation name="coalition" mutual="#party.CC #party.SC" from="2011-06-22" to="2015-06-23" ana="#PC.8" />
-    <relation name="opposition" active="#party.PP #party.NC" passive="#GOV" from="2011-06-22" to="2015-06-23" ana="#PC.8" />
-    <relation name="coalition" mutual="#party.CC" from="2015-07-07" to="2019-06-25" ana="#PC.9" />
-    <relation name="opposition" active="#party.SC #party.PP #party.PD #party.ASG #party.NCbc" passive="#GOV" from="2015-07-07" to="2019-06-25" ana="#PC.9" />
-    <relation name="coalition" mutual="#party.SC #party.PD #party.ASG #party.NCbc" from="2019-07-12" ana="#PC.10" />
-    <relation name="opposition" active="#party.CC #party.PP #party.VOX" passive="#GOV" from="2019-07-12" ana="#PC.10" />
+    <relation name="coalition" mutual="#party.CC #party.NC" from="1993-04-02" to="1995-06-27" ana="#PC.4" />
+    <relation name="opposition" active="#party.SC #party.PP" passive="#GOV" from="1993-04-02" to="1995-06-27" ana="#PC.4" />
+    <relation name="coalition" mutual="#party.CC #party.NC" from="1995-07-04" to="1999-07-14" ana="#PC.5" />
+    <relation name="opposition" active="#party.SC #party.PP" passive="#GOV" from="1995-07-04" to="1999-07-14" ana="#PC.5" />
+    <relation name="coalition" mutual="#party.CC #party.NC #party.PP" from="1999-07-16" to="2003-06-18" ana="#PC.6" />
+    <relation name="opposition" active="#party.SC" passive="#GOV" from="1999-07-16" to="2003-06-18" ana="#PC.6" />
+    <relation name="coalition" mutual="#party.CC #party.PP" from="2003-07-08" to="2007-06-25" ana="#PC.7" />
+    <relation name="opposition" active="#party.SC #party.NC" passive="#GOV" from="2003-07-08" to="2007-06-25" ana="#PC.7" />
+    <relation name="coalition" mutual="#party.CC #party.PP" from="2007-07-13" to="2011-06-22" ana="#PC.8" />
+    <relation name="opposition" active="#party.SC #party.NC" passive="#GOV" from="2007-07-13" to="2011-06-22" ana="#PC.8" />
+    <relation name="coalition" mutual="#party.CC #party.SC" from="2011-06-29" to="2015-06-23" ana="#PC.9" />
+    <relation name="opposition" active="#party.PP #party.NC" passive="#GOV" from="2011-06-29" to="2015-06-23" ana="#PC.9" />
+    <relation name="coalition" mutual="#party.CC" from="2015-07-07" to="2019-06-25" ana="#PC.10" />
+    <relation name="opposition" active="#party.SC #party.PP #party.PD #party.ASG #party.NCbc" passive="#GOV" from="2015-07-07" to="2019-06-25" ana="#PC.10" />
+    <relation name="coalition" mutual="#party.SC #party.PD #party.ASG #party.NCbc" from="2019-07-12" ana="#PC.11" />
+    <relation name="opposition" active="#party.CC #party.PP #party.VOX" passive="#GOV" from="2019-07-12" ana="#PC.11" />
   </listRelation>
 </listOrg>
